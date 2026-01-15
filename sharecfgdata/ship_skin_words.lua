@@ -87509,6 +87509,82 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_skin_words[900536] = {
+		mission = "",
+		feeling3 = "",
+		feeling4 = "",
+		couple_encourage = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		unlock = "",
+		touch2 = "",
+		feeling1 = "",
+		vote = "",
+		drop_descrip = "",
+		mail = "",
+		lose = "",
+		skill = "",
+		propose = "",
+		touch = "",
+		battle = "",
+		feeling5 = "",
+		main = "",
+		profile = "",
+		voice_key_2 = -1,
+		mission_complete = "",
+		hp_warning = "",
+		id = 900536,
+		gift_dislike = "",
+		gift_prefer = "",
+		upgrade = "",
+		voice_key = -1,
+		headtouch = "",
+		feeling2 = "",
+		login = "",
+		detail = ""
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_skin_words[900538] = {
+		mission = "",
+		feeling3 = "",
+		feeling4 = "",
+		couple_encourage = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		unlock = "",
+		touch2 = "",
+		feeling1 = "",
+		vote = "",
+		drop_descrip = "",
+		mail = "",
+		lose = "",
+		skill = "",
+		propose = "",
+		touch = "",
+		battle = "",
+		feeling5 = "",
+		main = "",
+		profile = "",
+		voice_key_2 = -1,
+		mission_complete = "",
+		hp_warning = "",
+		id = 900538,
+		gift_dislike = "",
+		gift_prefer = "",
+		upgrade = "",
+		voice_key = -1,
+		headtouch = "",
+		feeling2 = "",
+		login = "",
+		detail = ""
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_skin_words[1101010] = {
 		mission = "指挥官，记得完成任务，需要我用魔法先帮你驱散倦意吗？",
 		feeling3 = "……这株苔藓的生长速度超出预期，看这里，孢子囊的发育比对照组快了37%……唔，怎么这样看着我？是我说得太多了？……只是想看我的笑容么……？",

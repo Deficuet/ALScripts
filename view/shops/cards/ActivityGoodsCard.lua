@@ -10,6 +10,10 @@ var_0_0.DefaultColor = {
 function var_0_0.Ctor(arg_1_0, arg_1_1)
 	var_0_0.super.Ctor(arg_1_0, arg_1_1)
 
+	arg_1_0.limitTimeSellTF = findTF(arg_1_0.tf, "limit_time_sell")
+
+	setActive(arg_1_0.limitTimeSellTF, false)
+
 	arg_1_0.limitPassTag = arg_1_0.tf:Find("mask/tag/pass_tag")
 end
 
@@ -67,9 +71,12 @@ function var_0_0.updateSingle(arg_3_0, arg_3_1, arg_3_2, arg_3_3, arg_3_4)
 	})
 
 	updateDrop(arg_3_0.itemTF, var_3_6)
+	setActive(arg_3_0.limitTimeSellTF, false)
 
 	if var_3_0 then
 		local var_3_7, var_3_8, var_3_9 = arg_3_0.goodsVO:CheckTimeLimit()
+
+		setActive(arg_3_0.limitTimeSellTF, var_3_7 and var_3_8)
 
 		if var_3_7 and not var_3_8 then
 			setActive(arg_3_0.mask, true)
@@ -127,6 +134,7 @@ function var_0_0.updateSelectable(arg_7_0, arg_7_1, arg_7_2, arg_7_3, arg_7_4)
 	end
 
 	removeOnButton(arg_7_0.mask)
+	setActive(arg_7_0.limitTimeSellTF, false)
 	GetSpriteFromAtlasAsync(Drop.New({
 		type = arg_7_1:getConfig("resource_category"),
 		id = arg_7_1:getConfig("resource_type")

@@ -8567,6 +8567,65 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.expedition_data_template[9807] = {
+		sink_limit = 1,
+		name = "角色体验关卡",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 9807,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 100,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 9807,
+		scale = 100,
+		map_id = {
+			{
+				50183,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.expedition_data_template[9907] = {
 		sink_limit = 1,
 		name = "战术模拟",
@@ -1070983,6 +1071042,360 @@ end)()
 		map_id = {
 			{
 				50214,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[1996002] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 1996002,
+		add_icon = "",
+		bgm = "theme-objectX-spread",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 125,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 300,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1996002,
+		scale = 100,
+		map_id = {
+			{
+				50214,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[1996003] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 1996003,
+		add_icon = "",
+		bgm = "theme-objectX-spread",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 125,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 300,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1996003,
+		scale = 100,
+		map_id = {
+			{
+				50214,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[1996004] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 1996004,
+		add_icon = "",
+		bgm = "theme-objectX-spread",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 125,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 300,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1996004,
+		scale = 100,
+		map_id = {
+			{
+				50214,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[1996005] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 1996005,
+		add_icon = "",
+		bgm = "theme-objectX-spread",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 125,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 300,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1996005,
+		scale = 100,
+		map_id = {
+			{
+				50214,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[1996006] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 1996006,
+		add_icon = "",
+		bgm = "theme-objectX-spread",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 125,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 300,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1996006,
+		scale = 100,
+		map_id = {
+			{
+				50214,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[1996007] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 1996007,
+		add_icon = "",
+		bgm = "battle-thechariotVII",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 200,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 300,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1996007,
+		scale = 100,
+		map_id = {
+			{
+				50215,
 				1
 			}
 		},

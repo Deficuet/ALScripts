@@ -1451,6 +1451,19 @@ function temp()
 									}
 								}
 							}
+						},
+						圣 = {
+							座 = {
+								[" "] = {
+									前 = {
+										排 = {
+											） = {
+												this = true
+											}
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -7764,7 +7777,16 @@ function temp()
 						E = {
 							T = {
 								A = {
-									this = true
+									this = true,
+									（ = {
+										后 = {
+											排 = {
+												） = {
+													this = true
+												}
+											}
+										}
+									}
 								}
 							}
 						}

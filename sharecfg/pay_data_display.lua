@@ -20816,7 +20816,7 @@ pg.base.pay_data_display = {
 		extra_gem = 0,
 		descrip = "可获得3880钻，和特装型布里MKIII*1和其他奖励",
 		package_tag_open = 0,
-		airijp_id = "com.bilibili.blhx.libao128",
+		airijp_id = "com.yostarjp.azurlane.package128",
 		extra_service_item = {
 			{
 				1,

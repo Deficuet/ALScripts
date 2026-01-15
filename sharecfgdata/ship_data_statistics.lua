@@ -414073,6 +414073,531 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[900524] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "企业·META",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 900135,
+		english_name = "Enterprise.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 900524,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2566,
+			0,
+			0,
+			154,
+			207,
+			49,
+			0,
+			37,
+			19,
+			32.5,
+			93,
+			0
+		},
+		attrs_growth = {
+			27540,
+			0,
+			0,
+			1322,
+			972,
+			338,
+			0,
+			540,
+			336,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			17270,
+			19150,
+			18230
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.25,
+			1.25
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"EnterprizeMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[900536] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "马可波罗（圣座 前排）",
+		type = 18,
+		oxy_cost = 0,
+		skin_id = 900493,
+		english_name = "RN Marco Polo",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 18,
+		nationality = 6,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 900536,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1410,
+			83,
+			0,
+			48,
+			0,
+			57,
+			0,
+			20,
+			9,
+			32,
+			0,
+			0
+		},
+		attrs_growth = {
+			37574,
+			1695,
+			0,
+			1051,
+			0,
+			399,
+			0,
+			341,
+			246,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			104,
+			104,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			2,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Plan-Class",
+			"MarcoPolo"
+		},
+		gift_dislike = {
+			180009,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[900537] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "基洛夫·META（后排）",
+		type = 21,
+		oxy_cost = 0,
+		skin_id = 9702060,
+		english_name = "Kirov.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 900537,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1409,
+			59,
+			106,
+			80,
+			0,
+			74,
+			0,
+			68,
+			21,
+			45.6,
+			51,
+			122
+		},
+		attrs_growth = {
+			16299,
+			328,
+			590,
+			709,
+			0,
+			515,
+			0,
+			1045,
+			1132,
+			0,
+			0,
+			564
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			90173,
+			96033,
+			90633
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.85,
+			1.5,
+			1.05
+		},
+		strategy_list = {
+			{
+				18,
+				1
+			}
+		},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KirovMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[900538] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "仲裁者·提尔瑞特·VII",
+		type = 5,
+		oxy_cost = 0,
+		gift_dislike = "",
+		english_name = "Chariot.VII",
+		skin_id = 900538,
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 99,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 900538,
+		summon_offset = 0,
+		scale = 150,
+		attrs = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		attrs_growth = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			104,
+			104,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[900801] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -415884,6 +416409,140 @@ end)()
 		gift_dislike = {
 			180006,
 			180002
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[900814] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "拉菲II",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 101510,
+		english_name = "USS Laffey II",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.5",
+		rarity = 6,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 900814,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1027,
+			69,
+			188,
+			124,
+			0,
+			90,
+			0,
+			78,
+			72,
+			40.8,
+			95,
+			137
+		},
+		attrs_growth = {
+			11878,
+			386,
+			951,
+			1088,
+			0,
+			627,
+			0,
+			1201,
+			1508,
+			0,
+			0,
+			622
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			90170,
+			45173,
+			16493
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.4,
+			1.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Allen M. Sumner-class",
+			"Laffey II",
+			"Laffey",
+			"II"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()

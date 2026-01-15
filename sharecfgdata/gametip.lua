@@ -2056,6 +2056,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.ANTTFFCoreActivityPtpage_title2 = {
+		tip = "movement"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.guild_dissolve_sucess = {
 		tip = "解散大舰队成功"
 	}
@@ -10960,6 +10966,18 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.ANTTFFCoreActivityPtpage_title = {
+		tip = "响彻于天穹之音·F"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ANTTFFCoreActivity_title2 = {
+		tip = "movement"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.island_ticket_remain_time = {
 		tip = "剩余时间"
 	}
@@ -10978,8 +10996,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.ANTTFFCoreActivity_title = {
+		tip = "响彻于天穹之音·F"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.equipment_equipDevUI_error_noPos = {
 		tip = "装备仓库容量不足"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ANTTFFCoreActivity_subtitle_1 = {
+		tip = "响彻于天穹之音·F"
 	}
 end)()
 
@@ -47155,7 +47185,7 @@ end)()
 
 (function()
 	_G.pg.base.gametip.buildship_new_tip = {
-		tip = "每累计建造200次可获得海上传奇舰船 列克星敦II(最多4次)"
+		tip = "每累计建造200次可获得海上传奇舰船 关岛(最多4次)"
 	}
 end)()
 

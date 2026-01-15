@@ -5,7 +5,7 @@ function var_0_0.GetTimelineMainCharacter()
 	local var_1_1
 
 	table.IpairsCArray(var_1_0:GetComponentsInChildren(typeof("BLHXCharacterPropertiesController")), function(arg_2_0, arg_2_1)
-		if var_0_0.GetSkinIdByModelName(arg_2_1.gameObject.name) then
+		if arg_2_0 == 0 or var_0_0.GetSkinIdByModelName(arg_2_1.gameObject.name) then
 			var_1_1 = arg_2_1.transform
 		end
 	end)

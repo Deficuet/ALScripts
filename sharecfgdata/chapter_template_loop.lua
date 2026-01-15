@@ -1,8 +1,8 @@
 (function()
 	_G.pg.base.chapter_template_loop[101] = {
 		group_num = 1,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 3,
@@ -15,7 +15,7 @@
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 99999999,
 		slg_effect = "",
 		chapter_fx = "",
@@ -57,12 +57,6 @@
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			101000
 		},
@@ -73,12 +67,6 @@
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -168,8 +156,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[102] = {
 		group_num = 1,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 3,
@@ -182,7 +170,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -254,12 +242,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			102000
 		},
@@ -271,12 +253,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -440,8 +416,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[103] = {
 		group_num = 1,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 3,
@@ -454,7 +430,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -544,12 +520,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			103000
 		},
@@ -561,12 +531,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -748,8 +712,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[104] = {
 		group_num = 1,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 4,
@@ -762,7 +726,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -920,12 +884,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			104000
 		},
@@ -937,12 +895,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -1138,8 +1090,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[201] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 4,
@@ -1152,7 +1104,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -1366,12 +1318,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			201000
 		},
@@ -1384,12 +1330,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -1622,8 +1562,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[202] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 4,
@@ -1636,7 +1576,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -1850,12 +1790,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			202000
 		},
@@ -1869,12 +1803,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -2159,8 +2087,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[203] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 5,
@@ -2173,7 +2101,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -2387,12 +2315,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			203000
 		},
@@ -2406,12 +2328,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -2673,8 +2589,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[204] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 5,
@@ -2687,7 +2603,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -2901,12 +2817,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			204000
 		},
@@ -2920,12 +2830,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -3157,8 +3061,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[301] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 6,
@@ -3171,7 +3075,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -3386,12 +3290,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			301000
 		},
@@ -3405,12 +3303,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -3661,8 +3553,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[302] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 6,
@@ -3675,7 +3567,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -3890,12 +3782,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			302000
 		},
@@ -3909,12 +3795,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -4189,8 +4069,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[303] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 7,
@@ -4203,7 +4083,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -4418,12 +4298,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			303000
 		},
@@ -4437,12 +4311,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -4712,8 +4580,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[304] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 7,
@@ -4726,7 +4594,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -4941,12 +4809,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			304000
 		},
@@ -4960,12 +4822,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -5221,8 +5077,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[401] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 8,
@@ -5235,7 +5091,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -5324,12 +5180,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			401000
 		},
@@ -5345,12 +5195,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -5649,8 +5493,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[402] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 8,
@@ -5663,7 +5507,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -5752,12 +5596,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			402000
 		},
@@ -5773,12 +5611,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -6070,8 +5902,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[403] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 9,
@@ -6084,7 +5916,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -6173,12 +6005,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			403000
 		},
@@ -6194,12 +6020,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -6436,8 +6256,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[404] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 9,
@@ -6450,7 +6270,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -6539,12 +6359,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			404000
 		},
@@ -6561,12 +6375,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -6939,8 +6747,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[501] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 10,
@@ -6953,7 +6761,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -7042,12 +6850,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			501000
 		},
@@ -7064,12 +6866,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -7447,8 +7243,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[502] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 10,
@@ -7461,7 +7257,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -7550,12 +7346,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			502000
 		},
@@ -7572,12 +7362,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -7893,8 +7677,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[503] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 11,
@@ -7907,7 +7691,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -7996,12 +7780,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			503000
 		},
@@ -8018,12 +7796,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -8309,8 +8081,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[504] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 11,
@@ -8323,7 +8095,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -8412,12 +8184,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			504000
 		},
@@ -8434,12 +8200,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -8750,8 +8510,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[601] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 12,
@@ -8764,7 +8524,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -8853,12 +8613,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			601000
 		},
@@ -8875,12 +8629,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -9229,8 +8977,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[602] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 12,
@@ -9243,7 +8991,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -9332,12 +9080,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			602000
 		},
@@ -9354,12 +9096,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -9764,8 +9500,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[603] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 13,
@@ -9778,7 +9514,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -9867,12 +9603,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			603000
 		},
@@ -9889,12 +9619,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -10223,8 +9947,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[604] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 13,
@@ -10237,7 +9961,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -10326,12 +10050,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			604000
 		},
@@ -10348,12 +10066,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -10726,8 +10438,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[701] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 14,
@@ -10740,7 +10452,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -10814,12 +10526,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			701000
 		},
@@ -10836,12 +10542,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -11052,8 +10752,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[702] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 14,
@@ -11066,7 +10766,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -11140,12 +10840,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			702000
 		},
@@ -11162,12 +10856,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -11481,8 +11169,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[703] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 15,
@@ -11495,7 +11183,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -11569,12 +11257,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			703000
 		},
@@ -11591,12 +11273,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -11980,8 +11656,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[704] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 15,
@@ -11994,7 +11670,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -12068,12 +11744,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			704000
 		},
@@ -12090,12 +11760,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -12464,8 +12128,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[801] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 16,
@@ -12478,7 +12142,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -12552,12 +12216,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			801000
 		},
@@ -12574,12 +12232,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -12812,8 +12464,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[802] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 17,
@@ -12826,7 +12478,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -12900,12 +12552,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			802000
 		},
@@ -12922,12 +12568,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -13246,8 +12886,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[803] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 17,
@@ -13260,7 +12900,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -13334,12 +12974,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			803000
 		},
@@ -13356,12 +12990,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -13743,8 +13371,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[804] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 18,
@@ -13757,7 +13385,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -13831,12 +13459,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			804000
 		},
@@ -13853,12 +13475,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -14303,8 +13919,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[901] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 17,
@@ -14317,7 +13933,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -14391,12 +14007,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			901000
 		},
@@ -14415,12 +14025,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -14742,8 +14346,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[902] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 18,
@@ -14756,7 +14360,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -14830,12 +14434,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			902000
 		},
@@ -14854,12 +14452,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -15219,8 +14811,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[903] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 18,
@@ -15233,7 +14825,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -15307,12 +14899,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			903000
 		},
@@ -15331,12 +14917,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -15720,8 +15300,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[904] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 19,
@@ -15734,7 +15314,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -15808,12 +15388,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			904000
 		},
@@ -15832,12 +15406,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -16243,8 +15811,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 18,
@@ -16257,7 +15825,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -16330,12 +15898,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1001000
 		},
@@ -16354,12 +15916,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -16700,8 +16256,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 19,
@@ -16714,7 +16270,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -16787,12 +16343,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1002000
 		},
@@ -16811,12 +16361,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -17214,8 +16758,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 19,
@@ -17228,7 +16772,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -17302,12 +16846,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1003000
 		},
@@ -17326,12 +16864,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -17745,8 +17277,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 20,
@@ -17759,7 +17291,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -17834,12 +17366,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1004000
 		},
@@ -17858,12 +17384,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -18290,8 +17810,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1101] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 19,
@@ -18304,7 +17824,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -18377,12 +17897,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			1101000
 		},
@@ -18400,12 +17914,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -18796,8 +18304,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1102] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 20,
@@ -18810,7 +18318,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -18883,12 +18391,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			1102000
 		},
@@ -18907,12 +18409,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -19418,8 +18914,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1103] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 20,
@@ -19432,7 +18928,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -19506,12 +19002,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			1103000
 		},
@@ -19530,12 +19020,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -20009,8 +19493,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1104] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 21,
@@ -20023,7 +19507,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -20098,12 +19582,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			1104000
 		},
@@ -20122,12 +19600,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -20710,8 +20182,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1201] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 20,
@@ -20724,7 +20196,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -20797,12 +20269,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			1201000
 		},
@@ -20820,12 +20286,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -21195,8 +20655,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1202] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 21,
@@ -21209,7 +20669,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -21282,12 +20742,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			1202000
 		},
@@ -21306,12 +20760,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -21792,8 +21240,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1203] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 21,
@@ -21806,7 +21254,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -21880,12 +21328,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			1203000
 		},
@@ -21904,12 +21346,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -22425,8 +21861,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1204] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 22,
@@ -22439,7 +21875,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -22514,12 +21950,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			1204000
 		},
@@ -22538,12 +21968,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -23174,8 +22598,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1301] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 21,
@@ -23188,7 +22612,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -23280,12 +22704,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			1301000
 		},
@@ -23303,12 +22721,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -23671,8 +23083,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1302] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 22,
@@ -23685,7 +23097,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -23777,12 +23189,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			1302000
 		},
@@ -23801,12 +23207,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -24273,8 +23673,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1303] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 22,
@@ -24287,7 +23687,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -24380,12 +23780,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			1303000
 		},
@@ -24404,12 +23798,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -24918,8 +24306,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1304] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 23,
@@ -24932,7 +24320,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -25026,12 +24414,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			1304000
 		},
@@ -25051,12 +24433,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -25673,8 +25049,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1401] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 22,
@@ -25687,7 +25063,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -25764,12 +25140,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			1401000
 		},
@@ -25787,12 +25157,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -26218,8 +25582,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1402] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 22,
@@ -26232,7 +25596,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -26309,12 +25673,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			1402000
 		},
@@ -26333,12 +25691,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -26874,8 +26226,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1403] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 23,
@@ -26888,7 +26240,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -26965,12 +26317,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			1403000
 		},
@@ -26989,12 +26335,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -27585,8 +26925,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1404] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 24,
@@ -27599,7 +26939,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -27676,12 +27016,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			1404000
 		},
@@ -27692,12 +27026,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -28416,8 +27744,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1501] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 23,
@@ -28430,7 +27758,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -28522,12 +27850,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			151013
 		},
@@ -28545,12 +27867,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -28962,8 +28278,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1502] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 23,
@@ -28976,7 +28292,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -29068,12 +28384,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			152013
 		},
@@ -29092,12 +28402,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -29619,8 +28923,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1503] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 12,
 		avoid_ratio = 24,
@@ -29633,7 +28937,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -29725,12 +29029,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {},
 		enemy_refresh = {
 			0,
@@ -29747,12 +29045,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -30329,8 +29621,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1504] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 12,
 		avoid_ratio = 25,
@@ -30343,7 +29635,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -30435,12 +29727,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {},
 		enemy_refresh = {
 			0,
@@ -30458,12 +29744,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -31154,8 +30434,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10101] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 1,
 		model = 1,
@@ -31169,7 +30449,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 99999999,
 		slg_effect = "",
 		chapter_fx = "",
@@ -31224,12 +30504,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10101000
 		},
@@ -31240,12 +30514,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -31330,8 +30598,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10102] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 1,
 		model = 1,
@@ -31345,7 +30613,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -31400,12 +30668,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10102000
 		},
@@ -31416,12 +30678,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -31580,8 +30836,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10103] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 1,
 		model = 1,
@@ -31595,7 +30851,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -31653,12 +30909,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10103000
 		},
@@ -31669,12 +30919,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -31851,8 +31095,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10104] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 1,
 		model = 1,
@@ -31866,7 +31110,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -31927,12 +31171,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10104000
 		},
@@ -31943,12 +31181,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -32139,8 +31371,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10201] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -32154,7 +31386,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -32228,12 +31460,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10201000
 		},
@@ -32244,12 +31470,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -32477,8 +31697,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10202] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -32492,7 +31712,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -32566,12 +31786,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10202000
 		},
@@ -32582,12 +31796,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -32867,8 +32075,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10203] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -32882,7 +32090,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -32956,12 +32164,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10203000
 		},
@@ -32972,12 +32174,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -33234,8 +32430,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10204] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -33249,7 +32445,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -33323,12 +32519,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10204000
 		},
@@ -33339,12 +32529,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -33571,8 +32755,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10301] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -33586,7 +32770,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -33661,12 +32845,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10301000
 		},
@@ -33677,12 +32855,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -33928,8 +33100,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10302] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -33943,7 +33115,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -34018,12 +33190,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10302000
 		},
@@ -34034,12 +33200,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -34309,8 +33469,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10303] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -34324,7 +33484,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -34399,12 +33559,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10303000
 		},
@@ -34415,12 +33569,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -34685,8 +33833,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10304] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -34700,7 +33848,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -34775,12 +33923,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10304000
 		},
@@ -34791,12 +33933,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -35047,8 +34183,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10401] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -35062,7 +34198,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -35131,12 +34267,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10401000
 		},
@@ -35147,12 +34277,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -35446,8 +34570,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10402] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -35461,7 +34585,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -35530,12 +34654,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10402000
 		},
@@ -35546,12 +34664,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -35838,8 +34950,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10403] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -35853,7 +34965,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -35922,12 +35034,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10403000
 		},
@@ -35938,12 +35044,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -36175,8 +35275,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10404] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -36190,7 +35290,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -36259,12 +35359,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10404000
 		},
@@ -36275,12 +35369,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -36648,8 +35736,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10501] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -36663,7 +35751,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -36732,12 +35820,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10501000
 		},
@@ -36748,12 +35830,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -37126,8 +36202,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10502] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -37141,7 +36217,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -37210,12 +36286,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10502000
 		},
@@ -37226,12 +36296,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -37542,8 +36606,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10503] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -37557,7 +36621,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -37626,12 +36690,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10503000
 		},
@@ -37642,12 +36700,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -37928,8 +36980,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10504] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -37943,7 +36995,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -38012,12 +37064,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10504000
 		},
@@ -38028,12 +37074,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -38339,8 +37379,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10601] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -38354,7 +37394,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -38423,12 +37463,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10601000
 		},
@@ -38439,12 +37473,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -38789,8 +37817,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10602] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -38804,7 +37832,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -38873,12 +37901,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10602000
 		},
@@ -38889,12 +37911,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -39295,8 +38311,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10603] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -39310,7 +38326,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -39379,12 +38395,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10603000
 		},
@@ -39395,12 +38405,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -39725,8 +38729,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10604] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -39740,7 +38744,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -39809,12 +38813,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10604000
 		},
@@ -39825,12 +38823,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -40199,8 +39191,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10701] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -40214,7 +39206,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -40283,12 +39275,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10701000
 		},
@@ -40299,12 +39285,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -40511,8 +39491,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10702] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -40526,7 +39506,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -40595,12 +39575,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10702000
 		},
@@ -40611,12 +39585,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -40926,8 +39894,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10703] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -40941,7 +39909,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -41010,12 +39978,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10703000
 		},
@@ -41026,12 +39988,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -41411,8 +40367,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10704] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -41426,7 +40382,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -41495,12 +40451,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10704000
 		},
@@ -41511,12 +40461,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -41881,8 +40825,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10801] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -41896,7 +40840,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -41965,12 +40909,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10801000
 		},
@@ -41981,12 +40919,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -42215,8 +41147,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10802] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -42230,7 +41162,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -42299,12 +41231,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10802000
 		},
@@ -42315,12 +41241,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -42635,8 +41555,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10803] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -42650,7 +41570,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -42719,12 +41639,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10803000
 		},
@@ -42735,12 +41649,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -43118,8 +42026,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10804] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -43133,7 +42041,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -43202,12 +42110,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10804000
 		},
@@ -43218,12 +42120,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -43664,8 +42560,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10901] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -43679,7 +42575,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -43748,12 +42644,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10901000
 		},
@@ -43764,12 +42654,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -44090,8 +42974,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10902] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -44105,7 +42989,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -44174,12 +43058,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10902000
 		},
@@ -44190,12 +43068,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -44554,8 +43426,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10903] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -44569,7 +43441,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -44638,12 +43510,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10903000
 		},
@@ -44654,12 +43520,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -45042,8 +43902,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[10904] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -45057,7 +43917,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -45126,12 +43986,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10904000
 		},
@@ -45142,12 +43996,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -45552,8 +44400,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[11001] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -45567,7 +44415,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -45635,12 +44483,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			11001000
 		},
@@ -45651,12 +44493,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -45996,8 +44832,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[11002] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -46011,7 +44847,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -46079,12 +44915,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			11002000
 		},
@@ -46095,12 +44925,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -46497,8 +45321,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[11003] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -46512,7 +45336,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -46581,12 +45405,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			11003000
 		},
@@ -46597,12 +45415,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -47015,8 +45827,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[11004] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -47030,7 +45842,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -47100,12 +45912,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			11004000
 		},
@@ -47116,12 +45922,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -47547,8 +46347,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[11101] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -47562,7 +46362,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -47630,12 +46430,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			11101000
 		},
@@ -47646,12 +46440,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -48041,8 +46829,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[11102] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -48056,7 +46844,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -48124,12 +46912,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			11102000
 		},
@@ -48140,12 +46922,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -48650,8 +47426,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[11103] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -48665,7 +47441,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -48734,12 +47510,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			11103000
 		},
@@ -48750,12 +47520,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -49228,8 +47992,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[11104] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -49243,7 +48007,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -49313,12 +48077,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			11104000
 		},
@@ -49329,12 +48087,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -49916,8 +48668,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[11201] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -49931,7 +48683,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -49999,12 +48751,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			11201000
 		},
@@ -50015,12 +48761,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -50389,8 +49129,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[11202] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -50404,7 +49144,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -50472,12 +49212,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			11202000
 		},
@@ -50488,12 +49222,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -50973,8 +49701,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[11203] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -50988,7 +49716,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -51057,12 +49785,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			11203000
 		},
@@ -51073,12 +49795,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -51593,8 +50309,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[11204] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -51608,7 +50324,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -51678,12 +50394,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			11204000
 		},
@@ -51694,12 +50404,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -52329,8 +51033,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[11301] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -52344,7 +51048,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -52412,12 +51116,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			11301000
 		},
@@ -52428,12 +51126,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -52795,8 +51487,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[11302] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -52810,7 +51502,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -52878,12 +51570,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			11302000
 		},
@@ -52894,12 +51580,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -53365,8 +52045,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[11303] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -53380,7 +52060,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -53449,12 +52129,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			11303000
 		},
@@ -53465,12 +52139,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -53978,8 +52646,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[11304] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -53993,7 +52661,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -54063,12 +52731,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			11304000
 		},
@@ -54079,12 +52741,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -54700,8 +53356,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[11401] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -54715,7 +53371,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -54776,12 +53432,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			11401000
 		},
@@ -54792,12 +53442,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -55211,8 +53855,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[11402] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -55226,7 +53870,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -55287,12 +53931,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			11402000
 		},
@@ -55303,12 +53941,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -55825,8 +54457,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[11403] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -55840,7 +54472,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -55901,12 +54533,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			11403000
 		},
@@ -55917,12 +54543,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -56501,8 +55121,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[11404] = {
 		special_operation_list = "",
-		is_ambush = 0,
 		is_ai = 0,
+		friendly_id = 0,
 		pop_pic = "",
 		group_num = 2,
 		model = 1,
@@ -56516,7 +55136,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -56577,12 +55197,6 @@ end)()
 		ai_expedition_list = {
 			0
 		},
-		patrolai_expedition_list = {
-			0
-		},
-		submarine_expedition_list = {
-			0
-		},
 		boss_expedition_id = {
 			11404000
 		},
@@ -56593,12 +55207,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -57298,8 +55906,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1450001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 11,
 		avoid_ratio = 10,
@@ -57311,7 +55919,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -57380,12 +55988,6 @@ end)()
 		ai_expedition_list = {
 			1480301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1480013
 		},
@@ -57401,12 +56003,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -57825,8 +56421,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1450002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 11,
 		avoid_ratio = 10,
@@ -57839,7 +56435,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -57908,12 +56504,6 @@ end)()
 		ai_expedition_list = {
 			1481301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1481013
 		},
@@ -57930,12 +56520,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -58408,8 +56992,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1450003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 11,
 		avoid_ratio = 10,
@@ -58422,7 +57006,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -58492,12 +57076,6 @@ end)()
 			1482301,
 			1482302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1482013
 		},
@@ -58514,12 +57092,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -58992,8 +57564,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1450004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 11,
 		avoid_ratio = 10,
@@ -59006,7 +57578,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -59077,12 +57649,6 @@ end)()
 			1483302,
 			1483303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1483013
 		},
@@ -59100,12 +57666,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -59653,8 +58213,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1450041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 11,
 		avoid_ratio = 10,
@@ -59666,7 +58226,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -59763,12 +58323,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1484013
 		},
@@ -59782,12 +58336,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -60226,8 +58774,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1540001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 11,
 		avoid_ratio = 10,
@@ -60239,7 +58787,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -60308,12 +58856,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1540013
 		},
@@ -60329,12 +58871,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -60760,8 +59296,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1540002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 11,
 		avoid_ratio = 10,
@@ -60774,7 +59310,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -60843,12 +59379,6 @@ end)()
 		ai_expedition_list = {
 			1541301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1541013
 		},
@@ -60865,12 +59395,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -61349,8 +59873,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1540003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 11,
 		avoid_ratio = 10,
@@ -61363,7 +59887,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -61433,12 +59957,6 @@ end)()
 			1542301,
 			1542302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1542013
 		},
@@ -61455,12 +59973,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -61939,8 +60451,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1540004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 11,
 		avoid_ratio = 10,
@@ -61953,7 +60465,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -62024,12 +60536,6 @@ end)()
 			1543302,
 			1543303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1543013
 		},
@@ -62047,12 +60553,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -62607,8 +61107,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1590001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 8,
@@ -62621,7 +61121,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -62690,12 +61190,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1590013
 		},
@@ -62711,12 +61205,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -63134,8 +61622,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1590002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 9,
@@ -63148,7 +61636,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -63217,12 +61705,6 @@ end)()
 		ai_expedition_list = {
 			1591301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1591013
 		},
@@ -63239,12 +61721,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -63712,8 +62188,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1590003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -63726,7 +62202,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -63796,12 +62272,6 @@ end)()
 			1592301,
 			1592302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1592013
 		},
@@ -63818,12 +62288,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -64298,8 +62762,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1590004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 11,
@@ -64312,7 +62776,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -64384,12 +62848,6 @@ end)()
 			1593302,
 			1593303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1593013
 		},
@@ -64407,12 +62865,6 @@ end)()
 		ai_refresh = {
 			1,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -65000,8 +63452,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1590041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -65013,7 +63465,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -65115,12 +63567,6 @@ end)()
 			1594302,
 			1594303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1594013
 		},
@@ -65139,12 +63585,6 @@ end)()
 		ai_refresh = {
 			2,
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -65641,8 +64081,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1670001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 8,
@@ -65655,7 +64095,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -65730,12 +64170,6 @@ end)()
 			1670302,
 			1670303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1670013
 		},
@@ -65752,12 +64186,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -66223,8 +64651,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1670002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 9,
@@ -66237,7 +64665,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -66312,12 +64740,6 @@ end)()
 			1671302,
 			1671303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1671013
 		},
@@ -66334,12 +64756,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -66859,8 +65275,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1670003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -66873,7 +65289,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -66948,12 +65364,6 @@ end)()
 			1672302,
 			1672303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1672013
 		},
@@ -66970,12 +65380,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -67440,8 +65844,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1670004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 11,
@@ -67454,7 +65858,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -67527,12 +65931,6 @@ end)()
 		ai_expedition_list = {
 			1673301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1673013
 		},
@@ -67550,12 +65948,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -68143,8 +66535,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1670041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -68157,7 +66549,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -68262,12 +66654,6 @@ end)()
 			1674301,
 			1674302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1674013
 		},
@@ -68279,12 +66665,6 @@ end)()
 		},
 		ai_refresh = {
 			3
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -68669,8 +67049,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1690001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 8,
@@ -68682,7 +67062,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -68751,12 +67131,6 @@ end)()
 		ai_expedition_list = {
 			1690301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1690013
 		},
@@ -68773,12 +67147,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -69299,8 +67667,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1690002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 9,
@@ -69312,7 +67680,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -69382,12 +67750,6 @@ end)()
 			1691301,
 			1691302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1691013
 		},
@@ -69404,12 +67766,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -69869,8 +68225,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1690003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -69882,7 +68238,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -69952,12 +68308,6 @@ end)()
 			1692301,
 			1692302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1692013
 		},
@@ -69974,12 +68324,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -70500,8 +68844,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1690004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 11,
@@ -70513,7 +68857,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -70584,12 +68928,6 @@ end)()
 			1693302,
 			1693303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1693013
 		},
@@ -70607,12 +68945,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -71133,8 +69465,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1690005] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -71146,7 +69478,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -71216,12 +69548,6 @@ end)()
 			1694301,
 			1694302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1694013
 		},
@@ -71240,12 +69566,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -71821,8 +70141,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1690021] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -71834,7 +70154,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -71904,12 +70224,6 @@ end)()
 			1696301,
 			1696302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1696013
 		},
@@ -71928,12 +70242,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -72456,8 +70764,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1690022] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -72469,7 +70777,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -72539,12 +70847,6 @@ end)()
 			1697301,
 			1697302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1697013
 		},
@@ -72563,12 +70865,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -73030,8 +71326,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1690023] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -73043,7 +71339,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -73113,12 +71409,6 @@ end)()
 			1698301,
 			1698302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1698013
 		},
@@ -73137,12 +71427,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -73665,8 +71949,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1690024] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -73678,7 +71962,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -73748,12 +72032,6 @@ end)()
 			1699301,
 			1699302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1699013
 		},
@@ -73772,12 +72050,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -74300,8 +72572,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1690025] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -74313,7 +72585,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -74383,12 +72655,6 @@ end)()
 			1694301,
 			1694302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1694014
 		},
@@ -74407,12 +72673,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -74887,8 +73147,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1690041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 24,
@@ -74900,7 +73160,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -75001,12 +73261,6 @@ end)()
 			1695301,
 			1695302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1695013
 		},
@@ -75018,12 +73272,6 @@ end)()
 		},
 		ai_refresh = {
 			3
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -75539,8 +73787,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1700001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -75552,7 +73800,7 @@ end)()
 		investigation_ratio = 3,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -75624,12 +73872,6 @@ end)()
 			1700302,
 			1700303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1700013
 		},
@@ -75649,12 +73891,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -76120,8 +74356,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1700002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -76133,7 +74369,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -76205,12 +74441,6 @@ end)()
 			1700305,
 			1700306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1700113
 		},
@@ -76230,12 +74460,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -76702,8 +74926,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1700003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -76715,7 +74939,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -76787,12 +75011,6 @@ end)()
 			1700308,
 			1700309
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1700213
 		},
@@ -76812,12 +75030,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -77345,8 +75557,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1700004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -77358,7 +75570,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -77430,12 +75642,6 @@ end)()
 			1701302,
 			1701303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1701013
 		},
@@ -77456,12 +75662,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -77984,8 +76184,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1700005] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -77997,7 +76197,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -78069,12 +76269,6 @@ end)()
 			1701305,
 			1701306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1701113
 		},
@@ -78095,12 +76289,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -78684,8 +76872,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1700006] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -78697,7 +76885,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -78768,12 +76956,6 @@ end)()
 			1701307,
 			1701308
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1701213
 		},
@@ -78794,12 +76976,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -79404,8 +77580,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1700021] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -79417,7 +77593,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -79530,12 +77706,6 @@ end)()
 			1702302,
 			1702303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1702013
 		},
@@ -79555,12 +77725,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -80026,8 +78190,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1700022] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -80039,7 +78203,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -80152,12 +78316,6 @@ end)()
 			1702305,
 			1702306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1702113
 		},
@@ -80177,12 +78335,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -80649,8 +78801,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1700023] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -80662,7 +78814,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -80775,12 +78927,6 @@ end)()
 			1702308,
 			1702309
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1702213
 		},
@@ -80800,12 +78946,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -81333,8 +79473,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1700024] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -81346,7 +79486,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -81459,12 +79599,6 @@ end)()
 			1703302,
 			1703303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1703013
 		},
@@ -81485,12 +79619,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -82013,8 +80141,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1700025] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -82026,7 +80154,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -82139,12 +80267,6 @@ end)()
 			1703305,
 			1703306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1703113
 		},
@@ -82167,12 +80289,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -82756,8 +80872,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1700026] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -82769,7 +80885,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -82881,12 +80997,6 @@ end)()
 			1703307,
 			1703308
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1703213
 		},
@@ -82909,12 +81019,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -83519,8 +81623,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1700041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -83532,7 +81636,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -83634,12 +81738,6 @@ end)()
 			1704301,
 			1704302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1704013
 		},
@@ -83662,12 +81760,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -84304,8 +82396,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1710001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -84317,7 +82409,7 @@ end)()
 		investigation_ratio = 3,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -84388,12 +82480,6 @@ end)()
 			1710301,
 			1710302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1710013
 		},
@@ -84413,12 +82499,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -84893,8 +82973,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1710002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -84906,7 +82986,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -84977,12 +83057,6 @@ end)()
 			1710303,
 			1710304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1710113
 		},
@@ -85002,12 +83076,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -85476,8 +83544,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1710003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -85489,7 +83557,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -85560,12 +83628,6 @@ end)()
 			1710305,
 			1710306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1710213
 		},
@@ -85585,12 +83647,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -86106,8 +84162,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1710004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -86119,7 +84175,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -86190,12 +84246,6 @@ end)()
 			1711301,
 			1711302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1711013
 		},
@@ -86216,12 +84266,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -86752,8 +84796,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1710005] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -86765,7 +84809,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -86836,12 +84880,6 @@ end)()
 			1711303,
 			1711304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1711113
 		},
@@ -86862,12 +84900,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -87446,8 +85478,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1710006] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -87459,7 +85491,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -87530,12 +85562,6 @@ end)()
 			1711305,
 			1711306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1711213
 		},
@@ -87556,12 +85582,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -88222,8 +86242,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1710021] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -88235,7 +86255,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -88347,12 +86367,6 @@ end)()
 			1712301,
 			1712302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1712013
 		},
@@ -88372,12 +86386,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -88852,8 +86860,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1710022] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -88865,7 +86873,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -88977,12 +86985,6 @@ end)()
 			1712303,
 			1712304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1712113
 		},
@@ -89002,12 +87004,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -89476,8 +87472,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1710023] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -89489,7 +87485,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -89601,12 +87597,6 @@ end)()
 			1712305,
 			1712306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1712213
 		},
@@ -89626,12 +87616,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -90147,8 +88131,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1710024] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -90160,7 +88144,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -90272,12 +88256,6 @@ end)()
 			1713301,
 			1713302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1713013
 		},
@@ -90298,12 +88276,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -90834,8 +88806,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1710025] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -90847,7 +88819,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -90960,12 +88932,6 @@ end)()
 			1713304,
 			1713305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1713113
 		},
@@ -90988,12 +88954,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -91572,8 +89532,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1710026] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -91585,7 +89545,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -91698,12 +89658,6 @@ end)()
 			1713307,
 			1713308
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1713213
 		},
@@ -91726,12 +89680,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -92392,8 +90340,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1710041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -92405,7 +90353,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -92502,12 +90450,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1714013
 		},
@@ -92522,12 +90464,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -93146,8 +91082,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1720001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -93159,7 +91095,7 @@ end)()
 		investigation_ratio = 3,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -93229,12 +91165,6 @@ end)()
 		ai_expedition_list = {
 			1720301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1720013
 		},
@@ -93254,12 +91184,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -93849,8 +91773,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1720002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -93862,7 +91786,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -93932,12 +91856,6 @@ end)()
 		ai_expedition_list = {
 			1720302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1720113
 		},
@@ -93957,12 +91875,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -94540,8 +92452,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1720003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -94553,7 +92465,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -94672,12 +92584,6 @@ end)()
 			1720304,
 			1720305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1720213
 		},
@@ -94697,12 +92603,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -95280,8 +93180,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1720004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -95293,7 +93193,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -95364,12 +93264,6 @@ end)()
 			1721301,
 			1721302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1721013
 		},
@@ -95390,12 +93284,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -95980,8 +93868,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1720005] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -95993,7 +93881,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -96112,12 +94000,6 @@ end)()
 			1721303,
 			1721304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1721113
 		},
@@ -96138,12 +94020,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -96714,8 +94590,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1720006] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -96727,7 +94603,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -96798,12 +94674,6 @@ end)()
 			1721305,
 			1721306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1721213
 		},
@@ -96824,12 +94694,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -97407,8 +95271,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1720021] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -97420,7 +95284,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -97532,12 +95396,6 @@ end)()
 			1722301,
 			1722302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1722013
 		},
@@ -97557,12 +95415,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -98152,8 +96004,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1720022] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -98165,7 +96017,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -98277,12 +96129,6 @@ end)()
 			1722303,
 			1722304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1722113
 		},
@@ -98302,12 +96148,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -98885,8 +96725,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1720023] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -98898,7 +96738,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -99058,12 +96898,6 @@ end)()
 			1722306,
 			1722307
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1722213
 		},
@@ -99083,12 +96917,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -99666,8 +97494,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1720024] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -99679,7 +97507,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -99791,12 +97619,6 @@ end)()
 			1723301,
 			1723302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1723013
 		},
@@ -99817,12 +97639,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -100407,8 +98223,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1720025] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -100420,7 +98236,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -100580,12 +98396,6 @@ end)()
 			1723303,
 			1723304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1723113
 		},
@@ -100608,12 +98418,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -101184,8 +98988,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1720026] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -101197,7 +99001,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -101309,12 +99113,6 @@ end)()
 			1723305,
 			1723306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1723213
 		},
@@ -101337,12 +99135,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -101920,8 +99712,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1720041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -101933,7 +99725,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -102034,12 +99826,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1724013
 		},
@@ -102058,12 +99844,6 @@ end)()
 			4
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -102639,8 +100419,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1730001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -102653,7 +100433,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -102723,12 +100503,6 @@ end)()
 		ai_expedition_list = {
 			1730301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1730013
 		},
@@ -102745,12 +100519,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -103155,8 +100923,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1730002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 14,
@@ -103169,7 +100937,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -103240,12 +101008,6 @@ end)()
 			1731301,
 			1731302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1731013
 		},
@@ -103262,12 +101024,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -103684,8 +101440,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1730003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 16,
@@ -103698,7 +101454,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -103768,12 +101524,6 @@ end)()
 		ai_expedition_list = {
 			1732301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1732013
 		},
@@ -103792,12 +101542,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -104338,8 +102082,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1740001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -104351,7 +102095,7 @@ end)()
 		investigation_ratio = 3,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -104422,12 +102166,6 @@ end)()
 			1740301,
 			1740302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1740013
 		},
@@ -104447,12 +102185,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -105012,8 +102744,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1740002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -105025,7 +102757,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -105095,12 +102827,6 @@ end)()
 		ai_expedition_list = {
 			1740303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1740113
 		},
@@ -105120,12 +102846,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -105792,8 +103512,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1740003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -105805,7 +103525,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -105924,12 +103644,6 @@ end)()
 			1740304,
 			1740305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1740213
 		},
@@ -105949,12 +103663,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -106622,8 +104330,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1740004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -106635,7 +104343,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -106705,12 +104413,6 @@ end)()
 		ai_expedition_list = {
 			1741301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1741013
 		},
@@ -106731,12 +104433,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -107214,8 +104910,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1740005] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -107227,7 +104923,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -107297,12 +104993,6 @@ end)()
 		ai_expedition_list = {
 			1741302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1741113
 		},
@@ -107323,12 +105013,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -108048,8 +105732,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1740006] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -108061,7 +105745,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -108132,12 +105816,6 @@ end)()
 			1741303,
 			1741304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1741213
 		},
@@ -108158,12 +105836,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -109544,8 +107216,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1740021] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -109557,7 +107229,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -109669,12 +107341,6 @@ end)()
 			1742301,
 			1742302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1742013
 		},
@@ -109694,12 +107360,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -110259,8 +107919,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1740022] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -110272,7 +107932,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -110383,12 +108043,6 @@ end)()
 		ai_expedition_list = {
 			1742303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1742113
 		},
@@ -110408,12 +108062,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -111080,8 +108728,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1740023] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -111093,7 +108741,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -111253,12 +108901,6 @@ end)()
 			1742304,
 			1742305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1742213
 		},
@@ -111278,12 +108920,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -111951,8 +109587,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1740024] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -111964,7 +109600,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -112075,12 +109711,6 @@ end)()
 		ai_expedition_list = {
 			1743301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1743013
 		},
@@ -112101,12 +109731,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -112584,8 +110208,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1740025] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -112597,7 +110221,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -112708,12 +110332,6 @@ end)()
 		ai_expedition_list = {
 			1743302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1743113
 		},
@@ -112736,12 +110354,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -113461,8 +111073,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1740026] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -113474,7 +111086,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -113586,12 +111198,6 @@ end)()
 			1743303,
 			1743304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1743213
 		},
@@ -113614,12 +111220,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -115000,8 +112600,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1740041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -115013,7 +112613,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -115110,12 +112710,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1744013
 		},
@@ -115126,12 +112720,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -115778,8 +113366,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1750001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -115791,7 +113379,7 @@ end)()
 		investigation_ratio = 3,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -115861,12 +113449,6 @@ end)()
 		ai_expedition_list = {
 			1750301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1750013
 		},
@@ -115886,12 +113468,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -116421,8 +113997,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1750002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -116434,7 +114010,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -116505,12 +114081,6 @@ end)()
 			1750302,
 			1750303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1750113
 		},
@@ -116530,12 +114100,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -116963,8 +114527,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1750003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -116976,7 +114540,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -117047,12 +114611,6 @@ end)()
 			1750304,
 			1750305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1750213
 		},
@@ -117072,12 +114630,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -117545,8 +115097,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1750004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -117558,7 +115110,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -117628,12 +115180,6 @@ end)()
 		ai_expedition_list = {
 			1751301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1751013
 		},
@@ -117654,12 +115200,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -118121,8 +115661,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1750005] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -118134,7 +115674,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -118205,12 +115745,6 @@ end)()
 			1751302,
 			1751303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1751113
 		},
@@ -118231,12 +115765,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -118766,8 +116294,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1750006] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -118779,7 +116307,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -118850,12 +116378,6 @@ end)()
 			1751304,
 			1751305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1751213
 		},
@@ -118876,12 +116398,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -119623,8 +117139,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1750021] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -119636,7 +117152,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -119747,12 +117263,6 @@ end)()
 		ai_expedition_list = {
 			1752301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1752013
 		},
@@ -119772,12 +117282,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -120307,8 +117811,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1750022] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -120320,7 +117824,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -120432,12 +117936,6 @@ end)()
 			1752302,
 			1752303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1752113
 		},
@@ -120457,12 +117955,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -120890,8 +118382,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1750023] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -120903,7 +118395,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -121015,12 +118507,6 @@ end)()
 			1752304,
 			1752305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1752213
 		},
@@ -121040,12 +118526,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -121513,8 +118993,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1750024] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -121526,7 +119006,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -121638,12 +119118,6 @@ end)()
 			1753301,
 			1753302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1753013
 		},
@@ -121664,12 +119138,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -122131,8 +119599,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1750025] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -122144,7 +119612,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -122256,12 +119724,6 @@ end)()
 			1753303,
 			1753304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1753113
 		},
@@ -122284,12 +119746,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -122819,8 +120275,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1750026] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -122832,7 +120288,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -122944,12 +120400,6 @@ end)()
 			1753305,
 			1753306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1753213
 		},
@@ -122972,12 +120422,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -123719,8 +121163,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1750041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -123732,7 +121176,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -123829,12 +121273,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1754013
 		},
@@ -123845,12 +121283,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -124173,8 +121605,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1760001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -124186,7 +121618,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -124255,12 +121687,6 @@ end)()
 		ai_expedition_list = {
 			1760301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1760013
 		},
@@ -124277,12 +121703,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -124805,8 +122225,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1760002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -124818,7 +122238,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -124887,12 +122307,6 @@ end)()
 		ai_expedition_list = {
 			1761301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1761013
 		},
@@ -124909,12 +122323,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -125437,8 +122845,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1760003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -125450,7 +122858,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -125520,12 +122928,6 @@ end)()
 			1762301,
 			1762302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1762013
 		},
@@ -125542,12 +122944,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -126140,8 +123536,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1760004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -126153,7 +123549,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -126223,12 +123619,6 @@ end)()
 			1763301,
 			1763302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1763013
 		},
@@ -126246,12 +123636,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -126837,8 +124221,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1760005] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -126850,7 +124234,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -126919,12 +124303,6 @@ end)()
 		ai_expedition_list = {
 			1764301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1764013
 		},
@@ -126943,12 +124321,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -127614,8 +124986,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1760006] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -127627,7 +124999,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -127697,12 +125069,6 @@ end)()
 			1765301,
 			1765302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1765013
 		},
@@ -127714,12 +125080,6 @@ end)()
 		},
 		ai_refresh = {
 			3
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -128415,8 +125775,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1760041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -128428,7 +125788,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -128530,12 +125890,6 @@ end)()
 			1766302,
 			1766303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1766013
 		},
@@ -128549,12 +125903,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -128977,8 +126325,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1770001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 8,
@@ -128990,7 +126338,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -129059,12 +126407,6 @@ end)()
 		ai_expedition_list = {
 			1770301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1770013
 		},
@@ -129081,12 +126423,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -129609,8 +126945,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1770002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 9,
@@ -129622,7 +126958,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -129692,12 +127028,6 @@ end)()
 			1771301,
 			1771302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1771013
 		},
@@ -129714,12 +127044,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -130202,8 +127526,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1770003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -130215,7 +127539,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -130285,12 +127609,6 @@ end)()
 			1772301,
 			1772302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1772013
 		},
@@ -130307,12 +127625,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -130842,8 +128154,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1770004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 11,
@@ -130855,7 +128167,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -130925,12 +128237,6 @@ end)()
 			1773301,
 			1773302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1773013
 		},
@@ -130948,12 +128254,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -131497,8 +128797,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1770005] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -131510,7 +128810,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -131580,12 +128880,6 @@ end)()
 			1774301,
 			1774302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1774013
 		},
@@ -131604,12 +128898,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -132268,8 +129556,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1770041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 24,
@@ -132281,7 +129569,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -132382,12 +129670,6 @@ end)()
 			1775301,
 			1775302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1775013
 		},
@@ -132399,12 +129681,6 @@ end)()
 		},
 		ai_refresh = {
 			3
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -133094,8 +130370,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1780001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -133107,7 +130383,7 @@ end)()
 		investigation_ratio = 3,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -133177,12 +130453,6 @@ end)()
 		ai_expedition_list = {
 			1780301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1780013
 		},
@@ -133202,12 +130472,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -133737,8 +131001,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1780002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -133750,7 +131014,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -133820,12 +131084,6 @@ end)()
 		ai_expedition_list = {
 			1780302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1780113
 		},
@@ -133845,12 +131103,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -134270,8 +131522,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1780003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -134283,7 +131535,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -134353,12 +131605,6 @@ end)()
 		ai_expedition_list = {
 			1780303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1780213
 		},
@@ -134378,12 +131624,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -134914,8 +132154,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1780004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -134927,7 +132167,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -134998,12 +132238,6 @@ end)()
 			1781301,
 			1781302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1781013
 		},
@@ -135024,12 +132258,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -135498,8 +132726,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1780005] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -135511,7 +132739,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -135583,12 +132811,6 @@ end)()
 			1781304,
 			1781305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1781113
 		},
@@ -135609,12 +132831,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -136151,8 +133367,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1780006] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -136164,7 +133380,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -136234,12 +133450,6 @@ end)()
 		ai_expedition_list = {
 			1781306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1781213
 		},
@@ -136260,12 +133470,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -136965,8 +134169,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1780021] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -136978,7 +134182,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -137089,12 +134293,6 @@ end)()
 		ai_expedition_list = {
 			1782301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1782013
 		},
@@ -137114,12 +134312,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -137649,8 +134841,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1780022] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -137662,7 +134854,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -137774,12 +134966,6 @@ end)()
 			1782302,
 			1782303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1782113
 		},
@@ -137799,12 +134985,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -138224,8 +135404,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1780023] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -138237,7 +135417,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -138349,12 +135529,6 @@ end)()
 			1782304,
 			1782305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1782213
 		},
@@ -138374,12 +135548,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -138910,8 +136078,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1780024] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -138923,7 +136091,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -139035,12 +136203,6 @@ end)()
 			1783301,
 			1783302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1783013
 		},
@@ -139061,12 +136223,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -139535,8 +136691,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1780025] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -139548,7 +136704,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -139661,12 +136817,6 @@ end)()
 			1783304,
 			1783305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1783113
 		},
@@ -139689,12 +136839,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -140231,8 +137375,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1780026] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -140244,7 +137388,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -140355,12 +137499,6 @@ end)()
 		ai_expedition_list = {
 			1783306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1783213
 		},
@@ -140383,12 +137521,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -141088,8 +138220,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1780041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -141101,7 +138233,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -141198,12 +138330,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1784013
 		},
@@ -141214,12 +138340,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -141715,8 +138835,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1790001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -141728,7 +138848,7 @@ end)()
 		investigation_ratio = 3,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -141799,12 +138919,6 @@ end)()
 			1790301,
 			1790302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1790013
 		},
@@ -141824,12 +138938,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -142359,8 +139467,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1790002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -142372,7 +139480,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -142443,12 +139551,6 @@ end)()
 			1790303,
 			1790304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1790113
 		},
@@ -142468,12 +139570,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -142996,8 +140092,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1790003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -143009,7 +140105,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -143080,12 +140176,6 @@ end)()
 			1790307,
 			1790308
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1790233
 		},
@@ -143105,12 +140195,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -143633,8 +140717,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1790004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -143646,7 +140730,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -143717,12 +140801,6 @@ end)()
 			1791301,
 			1791302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1791013
 		},
@@ -143743,12 +140821,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -144278,8 +141350,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1790005] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -144291,7 +141363,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -144361,12 +141433,6 @@ end)()
 		ai_expedition_list = {
 			1791303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1791113
 		},
@@ -144387,12 +141453,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -144916,8 +141976,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1790006] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -144929,7 +141989,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -144999,12 +142059,6 @@ end)()
 		ai_expedition_list = {
 			1791305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1791233,
 			1791234,
@@ -145027,12 +142081,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -145748,8 +142796,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1790021] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -145761,7 +142809,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -145873,12 +142921,6 @@ end)()
 			1792301,
 			1792302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1792013
 		},
@@ -145898,12 +142940,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -146433,8 +143469,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1790022] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -146446,7 +143482,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -146558,12 +143594,6 @@ end)()
 			1792303,
 			1792304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1792113
 		},
@@ -146583,12 +143613,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -147111,8 +144135,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1790023] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -147124,7 +144148,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -147236,12 +144260,6 @@ end)()
 			1792307,
 			1792308
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1792233
 		},
@@ -147261,12 +144279,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -147789,8 +144801,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1790024] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -147802,7 +144814,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -147914,12 +144926,6 @@ end)()
 			1793301,
 			1793302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1793013
 		},
@@ -147940,12 +144946,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -148475,8 +145475,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1790025] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -148488,7 +145488,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -148599,12 +145599,6 @@ end)()
 		ai_expedition_list = {
 			1793303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1793113
 		},
@@ -148627,12 +145621,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -149156,8 +146144,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1790026] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -149169,7 +146157,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -149280,12 +146268,6 @@ end)()
 		ai_expedition_list = {
 			1793305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1793233,
 			1793234,
@@ -149310,12 +146292,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -150031,8 +147007,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1790041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -150044,7 +147020,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -150142,12 +147118,6 @@ end)()
 			1794301,
 			1794302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1794013
 		},
@@ -150159,12 +147129,6 @@ end)()
 		},
 		ai_refresh = {
 			3
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -151579,8 +148543,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1800001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "LiveStart_Cyanidin",
 		model = 2,
 		avoid_ratio = 8,
@@ -151592,7 +148556,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -151661,12 +148625,6 @@ end)()
 		ai_expedition_list = {
 			1800301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1800013
 		},
@@ -151683,12 +148641,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -152212,8 +149164,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1800002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "LiveStart_Alizarin",
 		model = 2,
 		avoid_ratio = 9,
@@ -152225,7 +149177,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -152295,12 +149247,6 @@ end)()
 			1801301,
 			1801302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1801013
 		},
@@ -152317,12 +149263,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -152778,8 +149718,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1800003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "LiveStart_Cyanidin",
 		model = 2,
 		avoid_ratio = 10,
@@ -152791,7 +149731,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -152861,12 +149801,6 @@ end)()
 			1802301,
 			1802302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1802013
 		},
@@ -152883,12 +149817,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -153419,8 +150347,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1800004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "LiveStart_Alizarin",
 		model = 2,
 		avoid_ratio = 11,
@@ -153432,7 +150360,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -153502,12 +150430,6 @@ end)()
 			1803301,
 			1803302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1803013
 		},
@@ -153525,12 +150447,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -154061,8 +150977,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1800005] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "LiveStart_Cyanidin",
 		model = 2,
 		avoid_ratio = 12,
@@ -154074,7 +150990,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -154144,12 +151060,6 @@ end)()
 			1804301,
 			1804302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1804013
 		},
@@ -154168,12 +151078,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -154765,8 +151669,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1800041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "LiveStart_AC",
 		model = 2,
 		avoid_ratio = 24,
@@ -154778,7 +151682,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -154875,12 +151779,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1805013
 		},
@@ -154891,12 +151789,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -155558,8 +152450,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1810001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -155571,7 +152463,7 @@ end)()
 		investigation_ratio = 3,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -155641,12 +152533,6 @@ end)()
 		ai_expedition_list = {
 			1810301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1810013
 		},
@@ -155666,12 +152552,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -156267,8 +153147,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1810002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -156280,7 +153160,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -156351,12 +153231,6 @@ end)()
 			1810302,
 			1810303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1810113
 		},
@@ -156376,12 +153250,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -156912,8 +153780,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1810003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -156925,7 +153793,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -156996,12 +153864,6 @@ end)()
 			1810304,
 			1810305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1810213
 		},
@@ -157021,12 +153883,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -157601,8 +154457,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1810004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -157614,7 +154470,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -157685,12 +154541,6 @@ end)()
 			1811301,
 			1811302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1811013
 		},
@@ -157711,12 +154561,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -158321,8 +155165,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1810005] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -158334,7 +155178,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -158405,12 +155249,6 @@ end)()
 			1811303,
 			1811304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1811113
 		},
@@ -158431,12 +155269,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -158948,8 +155780,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1810006] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -158961,7 +155793,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -159031,12 +155863,6 @@ end)()
 		ai_expedition_list = {
 			1811305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1811213
 		},
@@ -159057,12 +155883,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -159763,8 +156583,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1810021] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -159776,7 +156596,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -159887,12 +156707,6 @@ end)()
 		ai_expedition_list = {
 			1812301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1812013
 		},
@@ -159912,12 +156726,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -160513,8 +157321,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1810022] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -160526,7 +157334,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -160638,12 +157446,6 @@ end)()
 			1812302,
 			1812303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1812113
 		},
@@ -160663,12 +157465,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -161199,8 +157995,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1810023] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -161212,7 +158008,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -161324,12 +158120,6 @@ end)()
 			1812304,
 			1812305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1812213
 		},
@@ -161349,12 +158139,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -161929,8 +158713,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1810024] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -161942,7 +158726,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -162054,12 +158838,6 @@ end)()
 			1813301,
 			1813302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1813013
 		},
@@ -162080,12 +158858,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -162690,8 +159462,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1810025] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -162703,7 +159475,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -162815,12 +159587,6 @@ end)()
 			1813303,
 			1813304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1813113
 		},
@@ -162843,12 +159609,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -163360,8 +160120,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1810026] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -163373,7 +160133,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -163484,12 +160244,6 @@ end)()
 		ai_expedition_list = {
 			1813305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1813213
 		},
@@ -163512,12 +160266,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -164218,8 +160966,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1810041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -164231,7 +160979,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -164328,12 +161076,6 @@ end)()
 		ai_expedition_list = {
 			1814301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1814013
 		},
@@ -164345,12 +161087,6 @@ end)()
 		},
 		ai_refresh = {
 			3
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -164733,8 +161469,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1820001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -164746,7 +161482,7 @@ end)()
 		investigation_ratio = 10,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -164817,12 +161553,6 @@ end)()
 			1820301,
 			1820302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1820013
 		},
@@ -164839,12 +161569,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -165304,8 +162028,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1820002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -165317,7 +162041,7 @@ end)()
 		investigation_ratio = 10,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -165388,12 +162112,6 @@ end)()
 			1821301,
 			1821302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1821013
 		},
@@ -165410,12 +162128,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -165889,8 +162601,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1820003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 16,
@@ -165902,7 +162614,7 @@ end)()
 		investigation_ratio = 10,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -165973,12 +162685,6 @@ end)()
 			1822301,
 			1822302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1822013
 		},
@@ -165995,12 +162701,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -166535,8 +163235,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1820021] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -166548,7 +163248,7 @@ end)()
 		investigation_ratio = 10,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -166660,12 +163360,6 @@ end)()
 			1827301,
 			1827302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1827013
 		},
@@ -166683,12 +163377,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -167148,8 +163836,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1820022] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -167161,7 +163849,7 @@ end)()
 		investigation_ratio = 10,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -167273,12 +163961,6 @@ end)()
 			1828301,
 			1828302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1828013
 		},
@@ -167297,12 +163979,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -167776,8 +164452,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1820023] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 16,
@@ -167789,7 +164465,7 @@ end)()
 		investigation_ratio = 10,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -167901,12 +164577,6 @@ end)()
 			1829301,
 			1829302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1829013
 		},
@@ -167925,12 +164595,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -168465,8 +165129,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1820041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 24,
@@ -168478,7 +165142,7 @@ end)()
 		investigation_ratio = 10,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -168576,12 +165240,6 @@ end)()
 			1823301,
 			1823302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1823013
 		},
@@ -168593,12 +165251,6 @@ end)()
 		},
 		ai_refresh = {
 			3
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -169177,8 +165829,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1830001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -169190,7 +165842,7 @@ end)()
 		investigation_ratio = 3,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -169260,12 +165912,6 @@ end)()
 		ai_expedition_list = {
 			1830301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1830013
 		},
@@ -169285,12 +165931,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -169806,8 +166446,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1830002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -169819,7 +166459,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -169889,12 +166529,6 @@ end)()
 		ai_expedition_list = {
 			1830302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1830113
 		},
@@ -169914,12 +166548,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -170442,8 +167070,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1830003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -170455,7 +167083,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -170525,12 +167153,6 @@ end)()
 		ai_expedition_list = {
 			1830303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1830213
 		},
@@ -170550,12 +167172,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -171117,8 +167733,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1830004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -171130,7 +167746,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -171200,12 +167816,6 @@ end)()
 		ai_expedition_list = {
 			1831301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1831013
 		},
@@ -171226,12 +167836,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -171939,8 +168543,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1830005] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -171952,7 +168556,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -172023,12 +168627,6 @@ end)()
 			1831302,
 			1831303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1831113
 		},
@@ -172049,12 +168647,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -172640,8 +169232,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1830006] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -172653,7 +169245,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -172724,12 +169316,6 @@ end)()
 			1831304,
 			1831305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1831213
 		},
@@ -172750,12 +169336,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -173456,8 +170036,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1830021] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -173469,7 +170049,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -173581,12 +170161,6 @@ end)()
 			1832301,
 			1832302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1832013
 		},
@@ -173606,12 +170180,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -174127,8 +170695,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1830022] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -174140,7 +170708,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -174252,12 +170820,6 @@ end)()
 			1832303,
 			1832304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1832113
 		},
@@ -174277,12 +170839,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -174805,8 +171361,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1830023] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -174818,7 +171374,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -174930,12 +171486,6 @@ end)()
 			1832305,
 			1832306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1832213
 		},
@@ -174955,12 +171505,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -175522,8 +172066,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1830024] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -175535,7 +172079,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -175646,12 +172190,6 @@ end)()
 		ai_expedition_list = {
 			1833301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1833013
 		},
@@ -175672,12 +172210,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -176385,8 +172917,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1830025] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -176398,7 +172930,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -176510,12 +173042,6 @@ end)()
 			1833302,
 			1833303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1833113
 		},
@@ -176538,12 +173064,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -177129,8 +173649,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1830026] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -177142,7 +173662,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -177254,12 +173774,6 @@ end)()
 			1833304,
 			1833305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1833213
 		},
@@ -177282,12 +173796,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -177988,8 +174496,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1830041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -178001,7 +174509,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -178100,12 +174608,6 @@ end)()
 			1834302,
 			1834303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1834013
 		},
@@ -178117,12 +174619,6 @@ end)()
 		},
 		ai_refresh = {
 			3
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -178754,8 +175250,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1840001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -178767,7 +175263,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -178837,12 +175333,6 @@ end)()
 		ai_expedition_list = {
 			1840301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1840013
 		},
@@ -178859,12 +175349,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -179327,8 +175811,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1840002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 14,
@@ -179340,7 +175824,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -179411,12 +175895,6 @@ end)()
 			1841301,
 			1841302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1841013
 		},
@@ -179433,12 +175911,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -179964,8 +176436,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1840003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 16,
@@ -179977,7 +176449,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -180048,12 +176520,6 @@ end)()
 			1842301,
 			1842302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1842013
 		},
@@ -180072,12 +176538,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -180723,8 +177183,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1850001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -180736,7 +177196,7 @@ end)()
 		investigation_ratio = 3,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -180807,12 +177267,6 @@ end)()
 			1850301,
 			1850302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1850013
 		},
@@ -180832,12 +177286,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -181293,8 +177741,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1850002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -181306,7 +177754,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -181377,12 +177825,6 @@ end)()
 			1850303,
 			1850304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1850113
 		},
@@ -181402,12 +177844,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -181938,8 +178374,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1850003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -181951,7 +178387,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -182022,12 +178458,6 @@ end)()
 			1850305,
 			1850306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1850213
 		},
@@ -182047,12 +178477,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -182515,8 +178939,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1850004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -182528,7 +178952,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -182598,12 +179022,6 @@ end)()
 		ai_expedition_list = {
 			1851301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1851013
 		},
@@ -182624,12 +179042,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -183271,8 +179683,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1850005] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -183284,7 +179696,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -183354,12 +179766,6 @@ end)()
 		ai_expedition_list = {
 			1851302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1851113
 		},
@@ -183380,12 +179786,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -184034,8 +180434,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1850006] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -184047,7 +180447,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -184118,12 +180518,6 @@ end)()
 			1851303,
 			1851304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1851213
 		},
@@ -184144,12 +180538,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -184735,8 +181123,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1850021] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -184748,7 +181136,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -184860,12 +181248,6 @@ end)()
 			1852301,
 			1852302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1852013
 		},
@@ -184885,12 +181267,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -185346,8 +181722,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1850022] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -185359,7 +181735,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -185471,12 +181847,6 @@ end)()
 			1852303,
 			1852304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1852113
 		},
@@ -185496,12 +181866,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -186032,8 +182396,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1850023] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -186045,7 +182409,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -186157,12 +182521,6 @@ end)()
 			1852305,
 			1852306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1852213
 		},
@@ -186182,12 +182540,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -186650,8 +183002,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1850024] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -186663,7 +183015,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -186774,12 +183126,6 @@ end)()
 		ai_expedition_list = {
 			1853301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1853013
 		},
@@ -186800,12 +183146,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -187447,8 +183787,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1850025] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -187460,7 +183800,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -187571,12 +183911,6 @@ end)()
 		ai_expedition_list = {
 			1853302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1853113
 		},
@@ -187599,12 +183933,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -188253,8 +184581,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1850026] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -188266,7 +184594,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -188378,12 +184706,6 @@ end)()
 			1853303,
 			1853304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1853213
 		},
@@ -188406,12 +184728,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -188997,8 +185313,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1850041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -189010,7 +185326,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -189108,12 +185424,6 @@ end)()
 			1854301,
 			1854302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1854013
 		},
@@ -189125,12 +185435,6 @@ end)()
 		},
 		ai_refresh = {
 			3
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -189550,8 +185854,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1860001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 8,
@@ -189563,7 +185867,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -189633,12 +185937,6 @@ end)()
 			1860301,
 			1860302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1860013
 		},
@@ -189655,12 +185953,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -190191,8 +186483,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1860002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 9,
@@ -190204,7 +186496,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -190275,12 +186567,6 @@ end)()
 			1861302,
 			1861303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1861013
 		},
@@ -190297,12 +186583,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -190833,8 +187113,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1860003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -190846,7 +187126,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -190915,12 +187195,6 @@ end)()
 		ai_expedition_list = {
 			1862301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1862013
 		},
@@ -190937,12 +187211,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -191535,8 +187803,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1860004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 11,
@@ -191548,7 +187816,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -191584,12 +187852,6 @@ end)()
 		ai_expedition_list = {
 			1863301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1863013
 		},
@@ -191605,12 +187867,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -192196,8 +188452,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1860005] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -192209,7 +188465,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -192245,12 +188501,6 @@ end)()
 		ai_expedition_list = {
 			1864301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1864013
 		},
@@ -192267,12 +188517,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -192954,8 +189198,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1860006] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -192967,7 +189211,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -193003,12 +189247,6 @@ end)()
 		ai_expedition_list = {
 			1865301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1865013
 		},
@@ -193020,12 +189258,6 @@ end)()
 		},
 		ai_refresh = {
 			3
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -193812,8 +190044,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1860041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 24,
@@ -193825,7 +190057,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -193892,12 +190124,6 @@ end)()
 		ai_expedition_list = {
 			1866301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1866013
 		},
@@ -193909,12 +190135,6 @@ end)()
 		},
 		ai_refresh = {
 			3
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -194371,8 +190591,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1870001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 8,
@@ -194384,7 +190604,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -194453,12 +190673,6 @@ end)()
 		ai_expedition_list = {
 			1870301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1870013
 		},
@@ -194475,12 +190689,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -194994,8 +191202,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1870002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 9,
@@ -195007,7 +191215,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -195077,12 +191285,6 @@ end)()
 			1871301,
 			1871302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1871013
 		},
@@ -195099,12 +191301,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -195571,8 +191767,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1870003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -195584,7 +191780,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -195654,12 +191850,6 @@ end)()
 			1872301,
 			1872302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1872013
 		},
@@ -195676,12 +191866,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -196209,8 +192393,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1870004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 11,
@@ -196222,7 +192406,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -196292,12 +192476,6 @@ end)()
 			1873301,
 			1873302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1873013
 		},
@@ -196315,12 +192493,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -196848,8 +193020,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1870005] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -196861,7 +193033,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -196931,12 +193103,6 @@ end)()
 			1874301,
 			1874302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1874013
 		},
@@ -196955,12 +193121,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -197563,8 +193723,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1870041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 24,
@@ -197576,7 +193736,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -197674,12 +193834,6 @@ end)()
 			1875301,
 			1875302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1875013
 		},
@@ -197691,12 +193845,6 @@ end)()
 		},
 		ai_refresh = {
 			3
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -198192,8 +194340,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1880001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -198205,7 +194353,7 @@ end)()
 		investigation_ratio = 3,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -198275,12 +194423,6 @@ end)()
 		ai_expedition_list = {
 			1880301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1880013
 		},
@@ -198300,12 +194442,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -198851,8 +194987,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1880002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -198864,7 +195000,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -198934,12 +195070,6 @@ end)()
 		ai_expedition_list = {
 			1880302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1880113
 		},
@@ -198959,12 +195089,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -199504,8 +195628,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1880003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -199517,7 +195641,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -199587,12 +195711,6 @@ end)()
 		ai_expedition_list = {
 			1880303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1880213
 		},
@@ -199612,12 +195730,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -200340,8 +196452,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1880004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -200353,7 +196465,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -200424,12 +196536,6 @@ end)()
 			1881301,
 			1881302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1881013
 		},
@@ -200450,12 +196556,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -201104,8 +197204,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1880005] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -201117,7 +197217,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -201188,12 +197288,6 @@ end)()
 			1881303,
 			1881304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1881113
 		},
@@ -201214,12 +197308,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -201882,8 +197970,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1880006] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -201895,7 +197983,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -201966,12 +198054,6 @@ end)()
 			1881305,
 			1881306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1881213
 		},
@@ -201992,12 +198074,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -202719,8 +198795,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1880021] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -202732,7 +198808,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -202844,12 +198920,6 @@ end)()
 			1882301,
 			1882302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1882013
 		},
@@ -202869,12 +198939,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -203420,8 +199484,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1880022] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -203433,7 +199497,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -203545,12 +199609,6 @@ end)()
 			1882303,
 			1882304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1882113
 		},
@@ -203570,12 +199628,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -204115,8 +200167,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1880023] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -204128,7 +200180,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -204240,12 +200292,6 @@ end)()
 			1882305,
 			1882306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1882213
 		},
@@ -204265,12 +200311,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -204993,8 +201033,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1880024] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -205006,7 +201046,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -205118,12 +201158,6 @@ end)()
 			1883301,
 			1883302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1883013
 		},
@@ -205144,12 +201178,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -205798,8 +201826,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1880025] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -205811,7 +201839,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -205923,12 +201951,6 @@ end)()
 			1883303,
 			1883304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1883113
 		},
@@ -205951,12 +201973,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -206619,8 +202635,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1880026] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -206632,7 +202648,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -206744,12 +202760,6 @@ end)()
 			1883305,
 			1883306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1883213
 		},
@@ -206772,12 +202782,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -207499,8 +203503,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1880041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -207512,7 +203516,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -207610,12 +203614,6 @@ end)()
 			1884301,
 			1884302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1884013
 		},
@@ -207627,12 +203625,6 @@ end)()
 		},
 		ai_refresh = {
 			3
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -208238,8 +204230,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1890001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -208251,7 +204243,7 @@ end)()
 		investigation_ratio = 3,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -208322,12 +204314,6 @@ end)()
 			1890301,
 			1890302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1890013
 		},
@@ -208347,12 +204333,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -208866,8 +204846,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1890002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -208879,7 +204859,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -208950,12 +204930,6 @@ end)()
 			1890303,
 			1890304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1890113
 		},
@@ -208975,12 +204949,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -209494,8 +205462,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1890003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -209507,7 +205475,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -209578,12 +205546,6 @@ end)()
 			1890305,
 			1890306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1890213
 		},
@@ -209603,12 +205565,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -210193,8 +206149,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1890004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -210206,7 +206162,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -210278,12 +206234,6 @@ end)()
 			1891302,
 			1891303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1891013
 		},
@@ -210304,12 +206254,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -210956,8 +206900,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1890005] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -210969,7 +206913,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -211039,12 +206983,6 @@ end)()
 		ai_expedition_list = {
 			1891304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1891113
 		},
@@ -211065,12 +207003,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -211690,8 +207622,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1890006] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -211703,7 +207635,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -211774,12 +207706,6 @@ end)()
 			1891305,
 			1891306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1891213
 		},
@@ -211800,12 +207726,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -212520,8 +208440,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1890021] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -212533,7 +208453,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -212645,12 +208565,6 @@ end)()
 			1892301,
 			1892302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1892013
 		},
@@ -212670,12 +208584,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -213189,8 +209097,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1890022] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -213202,7 +209110,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -213314,12 +209222,6 @@ end)()
 			1892303,
 			1892304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1892113
 		},
@@ -213339,12 +209241,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -213858,8 +209754,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1890023] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -213871,7 +209767,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -213983,12 +209879,6 @@ end)()
 			1892305,
 			1892306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1892213
 		},
@@ -214008,12 +209898,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -214598,8 +210482,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1890024] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -214611,7 +210495,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -214724,12 +210608,6 @@ end)()
 			1893302,
 			1893303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1893013
 		},
@@ -214750,12 +210628,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -215402,8 +211274,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1890025] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -215415,7 +211287,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -215526,12 +211398,6 @@ end)()
 		ai_expedition_list = {
 			1893304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1893113
 		},
@@ -215554,12 +211420,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -216179,8 +212039,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1890026] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -216192,7 +212052,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -216304,12 +212164,6 @@ end)()
 			1893305,
 			1893306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1893213
 		},
@@ -216332,12 +212186,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -217052,8 +212900,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1890041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -217065,7 +212913,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -217162,12 +213010,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1894013
 		},
@@ -217178,12 +213020,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -217786,8 +213622,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1910001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -217799,7 +213635,7 @@ end)()
 		investigation_ratio = 10,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -217870,12 +213706,6 @@ end)()
 			1910301,
 			1910302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1910013
 		},
@@ -217892,12 +213722,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -218366,8 +214190,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1910002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -218379,7 +214203,7 @@ end)()
 		investigation_ratio = 10,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -218450,12 +214274,6 @@ end)()
 			1910303,
 			1910304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1910113
 		},
@@ -218472,12 +214290,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -218946,8 +214758,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1910003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 16,
@@ -218959,7 +214771,7 @@ end)()
 		investigation_ratio = 10,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -219029,12 +214841,6 @@ end)()
 		ai_expedition_list = {
 			1910305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1910213
 		},
@@ -219051,12 +214857,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -219588,8 +215388,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1910021] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -219601,7 +215401,7 @@ end)()
 		investigation_ratio = 10,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -219713,12 +215513,6 @@ end)()
 			1911301,
 			1911302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1911013
 		},
@@ -219736,12 +215530,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -220210,8 +215998,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1910022] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -220223,7 +216011,7 @@ end)()
 		investigation_ratio = 10,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -220335,12 +216123,6 @@ end)()
 			1911303,
 			1911304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1911113
 		},
@@ -220359,12 +216141,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -220833,8 +216609,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1910023] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 16,
@@ -220846,7 +216622,7 @@ end)()
 		investigation_ratio = 10,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -220957,12 +216733,6 @@ end)()
 		ai_expedition_list = {
 			1911305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1911213
 		},
@@ -220981,12 +216751,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -221518,8 +217282,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1910041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 24,
@@ -221531,7 +217295,7 @@ end)()
 		investigation_ratio = 10,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -221632,12 +217396,6 @@ end)()
 		ai_expedition_list = {
 			1914301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1914013
 		},
@@ -221649,12 +217407,6 @@ end)()
 		},
 		ai_refresh = {
 			3
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -222182,8 +217934,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1920001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -222195,7 +217947,7 @@ end)()
 		investigation_ratio = 3,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -222265,12 +218017,6 @@ end)()
 		ai_expedition_list = {
 			1920301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1920013
 		},
@@ -222290,12 +218036,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -222827,8 +218567,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1920002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -222840,7 +218580,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -222910,12 +218650,6 @@ end)()
 		ai_expedition_list = {
 			1920302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1920113
 		},
@@ -222935,12 +218669,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -223472,8 +219200,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1920003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -223485,7 +219213,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -223555,12 +219283,6 @@ end)()
 		ai_expedition_list = {
 			1920303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1920213
 		},
@@ -223580,12 +219302,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -224164,8 +219880,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1920004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 10,
 		avoid_ratio = 10,
@@ -224177,7 +219893,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -224248,12 +219964,6 @@ end)()
 			1921301,
 			1921302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1921013
 		},
@@ -224274,12 +219984,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -224927,8 +220631,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1920005] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 10,
 		avoid_ratio = 10,
@@ -224940,7 +220644,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -225011,12 +220715,6 @@ end)()
 			1921303,
 			1921304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1921113
 		},
@@ -225037,12 +220735,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -225693,8 +221385,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1920006] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 10,
 		avoid_ratio = 10,
@@ -225706,7 +221398,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -225777,12 +221469,6 @@ end)()
 			1921305,
 			1921306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1921213
 		},
@@ -225803,12 +221489,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -226485,8 +222165,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1920021] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -226498,7 +222178,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -226610,12 +222290,6 @@ end)()
 			1922301,
 			1922302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1922013
 		},
@@ -226635,12 +222309,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -227172,8 +222840,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1920022] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -227185,7 +222853,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -227297,12 +222965,6 @@ end)()
 			1922303,
 			1922304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1922113
 		},
@@ -227322,12 +222984,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -227859,8 +223515,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1920023] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -227872,7 +223528,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -227984,12 +223640,6 @@ end)()
 			1922305,
 			1922306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1922213
 		},
@@ -228009,12 +223659,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -228593,8 +224237,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1920024] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 10,
 		avoid_ratio = 10,
@@ -228606,7 +224250,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -228718,12 +224362,6 @@ end)()
 			1923301,
 			1923302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1923013
 		},
@@ -228744,12 +224382,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -229397,8 +225029,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1920025] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 10,
 		avoid_ratio = 10,
@@ -229410,7 +225042,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -229522,12 +225154,6 @@ end)()
 			1923303,
 			1923304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1923113
 		},
@@ -229550,12 +225176,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -230206,8 +225826,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1920026] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 10,
 		avoid_ratio = 10,
@@ -230219,7 +225839,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -230331,12 +225951,6 @@ end)()
 			1923305,
 			1923306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1923213
 		},
@@ -230359,12 +225973,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -231041,8 +226649,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1920041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -231054,7 +226662,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -231152,12 +226760,6 @@ end)()
 			1924301,
 			1924302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1924013
 		},
@@ -231169,12 +226771,6 @@ end)()
 		},
 		ai_refresh = {
 			3
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -231832,8 +227428,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1940001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 8,
@@ -231845,7 +227441,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -231915,12 +227511,6 @@ end)()
 		ai_expedition_list = {
 			1940301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1940013
 		},
@@ -231937,12 +227527,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -232470,8 +228054,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1940002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 9,
@@ -232483,7 +228067,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -232553,12 +228137,6 @@ end)()
 		ai_expedition_list = {
 			1941301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1941013
 		},
@@ -232575,12 +228153,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -233115,8 +228687,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1940003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -233128,7 +228700,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -233198,12 +228770,6 @@ end)()
 		ai_expedition_list = {
 			1942301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1942013
 		},
@@ -233220,12 +228786,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -233760,8 +229320,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1940004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 11,
@@ -233773,7 +229333,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -233843,12 +229403,6 @@ end)()
 		ai_expedition_list = {
 			1943301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1943013
 		},
@@ -233866,12 +229420,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -234406,8 +229954,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1940005] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -234419,7 +229967,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -234489,12 +230037,6 @@ end)()
 		ai_expedition_list = {
 			1944305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1944013
 		},
@@ -234513,12 +230055,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -235114,8 +230650,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1940021] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -235127,7 +230663,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -235197,12 +230733,6 @@ end)()
 		ai_expedition_list = {
 			1944301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1944101
 		},
@@ -235221,12 +230751,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -235754,8 +231278,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1940022] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -235767,7 +231291,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -235837,12 +231361,6 @@ end)()
 		ai_expedition_list = {
 			1944302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1944102
 		},
@@ -235861,12 +231379,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -236401,8 +231913,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1940023] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -236414,7 +231926,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -236484,12 +231996,6 @@ end)()
 		ai_expedition_list = {
 			1944303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1944103
 		},
@@ -236508,12 +232014,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -237048,8 +232548,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1940024] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -237061,7 +232561,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -237131,12 +232631,6 @@ end)()
 		ai_expedition_list = {
 			1944304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1944104
 		},
@@ -237155,12 +232649,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -237695,8 +233183,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1940025] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -237708,7 +233196,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -237778,12 +233266,6 @@ end)()
 		ai_expedition_list = {
 			1944305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1944105
 		},
@@ -237802,12 +233284,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -238403,8 +233879,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1940041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 24,
@@ -238416,7 +233892,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -238515,12 +233991,6 @@ end)()
 			1945302,
 			1945303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1945013
 		},
@@ -238532,12 +234002,6 @@ end)()
 		},
 		ai_refresh = {
 			3
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -239402,8 +234866,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1950001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -239415,7 +234879,7 @@ end)()
 		investigation_ratio = 3,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -239487,12 +234951,6 @@ end)()
 			1950302,
 			1950303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1950013
 		},
@@ -239512,12 +234970,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -239977,8 +235429,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1950002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -239990,7 +235442,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -240062,12 +235514,6 @@ end)()
 			1950305,
 			1950306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1950113
 		},
@@ -240087,12 +235533,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -240601,8 +236041,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1950003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -240614,7 +236054,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -240686,12 +236126,6 @@ end)()
 			1950308,
 			1950309
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1950213
 		},
@@ -240711,12 +236145,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -241165,8 +236593,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1950004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -241178,7 +236606,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -241250,12 +236678,6 @@ end)()
 			1951302,
 			1951303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1951013
 		},
@@ -241276,12 +236698,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -241912,8 +237328,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1950005] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -241925,7 +237341,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -241995,12 +237411,6 @@ end)()
 		ai_expedition_list = {
 			1951304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1951113
 		},
@@ -242021,12 +237431,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -242554,8 +237958,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1950006] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -242567,7 +237971,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -242637,12 +238041,6 @@ end)()
 		ai_expedition_list = {
 			1951305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1951213
 		},
@@ -242663,12 +238061,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -243264,8 +238656,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1950021] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -243277,7 +238669,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -243390,12 +238782,6 @@ end)()
 			1952302,
 			1952303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1952013
 		},
@@ -243415,12 +238801,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -243880,8 +239260,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1950022] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -243893,7 +239273,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -244006,12 +239386,6 @@ end)()
 			1952305,
 			1952306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1952113
 		},
@@ -244031,12 +239405,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -244545,8 +239913,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1950023] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -244558,7 +239926,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -244671,12 +240039,6 @@ end)()
 			1952308,
 			1952309
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1952213
 		},
@@ -244696,12 +240058,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -245150,8 +240506,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1950024] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -245163,7 +240519,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -245276,12 +240632,6 @@ end)()
 			1953302,
 			1953303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1953013
 		},
@@ -245302,12 +240652,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -245938,8 +241282,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1950025] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -245951,7 +241295,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -246062,12 +241406,6 @@ end)()
 		ai_expedition_list = {
 			1953304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1953113
 		},
@@ -246090,12 +241428,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -246623,8 +241955,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1950026] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -246636,7 +241968,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -246747,12 +242079,6 @@ end)()
 		ai_expedition_list = {
 			1953305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1953213
 		},
@@ -246775,12 +242101,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -247376,8 +242696,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1950041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -247389,7 +242709,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -247486,12 +242806,6 @@ end)()
 		ai_expedition_list = {
 			1954301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1954013
 		},
@@ -247503,12 +242817,6 @@ end)()
 		},
 		ai_refresh = {
 			3
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -248115,8 +243423,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1960001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -248128,7 +243436,7 @@ end)()
 		investigation_ratio = 3,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -248198,12 +243506,6 @@ end)()
 		ai_expedition_list = {
 			1960301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1960013
 		},
@@ -248223,12 +243525,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -248767,8 +244063,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1960002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -248780,7 +244076,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -248850,12 +244146,6 @@ end)()
 		ai_expedition_list = {
 			1960302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1960113
 		},
@@ -248875,12 +244165,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -249419,8 +244703,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1960003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -249432,7 +244716,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -249502,12 +244786,6 @@ end)()
 		ai_expedition_list = {
 			1960303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1960213
 		},
@@ -249527,12 +244805,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -250106,8 +245378,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1960004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -250119,7 +245391,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -250189,12 +245461,6 @@ end)()
 		ai_expedition_list = {
 			1961301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1961013
 		},
@@ -250215,12 +245481,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -250807,8 +246067,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1960005] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -250820,7 +246080,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -250890,12 +246150,6 @@ end)()
 		ai_expedition_list = {
 			1961302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1961113
 		},
@@ -250916,12 +246170,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -251515,8 +246763,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1960006] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -251528,7 +246776,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -251598,12 +246846,6 @@ end)()
 		ai_expedition_list = {
 			1961303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1961213
 		},
@@ -251624,12 +246866,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -252387,8 +247623,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1960021] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -252400,7 +247636,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -252512,12 +247748,6 @@ end)()
 			1962301,
 			1962302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1962013
 		},
@@ -252537,12 +247767,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -253081,8 +248305,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1960022] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -253094,7 +248318,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -253206,12 +248430,6 @@ end)()
 			1962303,
 			1962304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1962113
 		},
@@ -253231,12 +248449,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -253775,8 +248987,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1960023] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -253788,7 +249000,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -253900,12 +249112,6 @@ end)()
 			1962305,
 			1962306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1962213
 		},
@@ -253925,12 +249131,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -254504,8 +249704,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1960024] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -254517,7 +249717,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -254628,12 +249828,6 @@ end)()
 		ai_expedition_list = {
 			1963301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1963013
 		},
@@ -254654,12 +249848,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -255246,8 +250434,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1960025] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -255259,7 +250447,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -255370,12 +250558,6 @@ end)()
 		ai_expedition_list = {
 			1963302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1963113
 		},
@@ -255398,12 +250580,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -255997,8 +251173,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1960026] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -256010,7 +251186,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -256121,12 +251297,6 @@ end)()
 		ai_expedition_list = {
 			1963303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1963213
 		},
@@ -256149,12 +251319,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -256912,8 +252076,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1960041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -256925,7 +252089,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -257023,12 +252187,6 @@ end)()
 			1964301,
 			1964302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1964013
 		},
@@ -257040,12 +252198,6 @@ end)()
 		},
 		ai_refresh = {
 			3
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -257576,8 +252728,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1970001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 8,
@@ -257589,7 +252741,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		id = 1970001,
@@ -257667,12 +252819,6 @@ end)()
 		ai_expedition_list = {
 			1970301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1970013
 		},
@@ -257689,12 +252835,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -258231,8 +253371,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1970002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 9,
@@ -258244,7 +253384,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		id = 1970002,
@@ -258322,12 +253462,6 @@ end)()
 		ai_expedition_list = {
 			1971301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1971013
 		},
@@ -258344,12 +253478,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -258879,8 +254007,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1970003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -258892,7 +254020,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		id = 1970003,
@@ -258971,12 +254099,6 @@ end)()
 			1972301,
 			1972302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1972013
 		},
@@ -258993,12 +254115,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -259583,8 +254699,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1970004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 11,
@@ -259596,7 +254712,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -259667,12 +254783,6 @@ end)()
 			1973301,
 			1973302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1973013
 		},
@@ -259690,12 +254800,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -260280,8 +255384,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1970005] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -260293,7 +255397,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -260364,12 +255468,6 @@ end)()
 			1974301,
 			1974302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1974013
 		},
@@ -260388,12 +255486,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -260978,8 +256070,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1970006] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -260991,7 +256083,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -261062,12 +256154,6 @@ end)()
 			1975301,
 			1975302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1975013
 		},
@@ -261086,12 +256172,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -261665,8 +256745,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1970041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 24,
@@ -261678,7 +256758,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		id = 1970041,
@@ -261783,12 +256863,6 @@ end)()
 		ai_expedition_list = {
 			1976301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1976013
 		},
@@ -261800,12 +256874,6 @@ end)()
 		},
 		ai_refresh = {
 			3
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -262415,8 +257483,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1990001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -262428,7 +257496,7 @@ end)()
 		investigation_ratio = 3,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -262498,12 +257566,6 @@ end)()
 		ai_expedition_list = {
 			1990301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1990013
 		},
@@ -262523,12 +257585,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -263121,8 +258177,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1990002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -263134,7 +258190,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -263204,12 +258260,6 @@ end)()
 		ai_expedition_list = {
 			1990302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1990113
 		},
@@ -263229,12 +258279,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -263827,8 +258871,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1990003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -263840,7 +258884,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -263910,12 +258954,6 @@ end)()
 		ai_expedition_list = {
 			1990303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1990213
 		},
@@ -263935,12 +258973,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -264727,8 +259759,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1990004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -264740,7 +259772,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -264859,12 +259891,6 @@ end)()
 			1991301,
 			1991302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1991013
 		},
@@ -264876,12 +259902,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -265477,8 +260497,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1990005] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -265490,7 +260510,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -265609,12 +260629,6 @@ end)()
 			1991303,
 			1991304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1991113
 		},
@@ -265626,12 +260640,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -266227,8 +261235,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1990006] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -266240,7 +261248,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -266359,12 +261367,6 @@ end)()
 			1991305,
 			1991306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1991213
 		},
@@ -266376,12 +261378,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -267171,8 +262167,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1990021] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -267184,7 +262180,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -267295,12 +262291,6 @@ end)()
 		ai_expedition_list = {
 			1992301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1992013
 		},
@@ -267320,12 +262310,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -267918,8 +262902,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1990022] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -267931,7 +262915,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -268042,12 +263026,6 @@ end)()
 		ai_expedition_list = {
 			1992302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1992113
 		},
@@ -268067,12 +263045,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -268665,8 +263637,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1990023] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -268678,7 +263650,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -268789,12 +263761,6 @@ end)()
 		ai_expedition_list = {
 			1992303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1992213
 		},
@@ -268814,12 +263780,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -269606,8 +264566,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1990024] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -269619,7 +264579,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -269779,12 +264739,6 @@ end)()
 			1993301,
 			1993302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1993013
 		},
@@ -269796,12 +264750,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -270397,8 +265345,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1990025] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -270410,7 +265358,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -270570,12 +265518,6 @@ end)()
 			1993303,
 			1993304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1993113
 		},
@@ -270587,12 +265529,6 @@ end)()
 		},
 		ai_refresh = {
 			3
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -271188,8 +266124,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1990026] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -271201,7 +266137,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -271361,12 +266297,6 @@ end)()
 			1993305,
 			1993306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1993213
 		},
@@ -271378,12 +266308,6 @@ end)()
 		},
 		ai_refresh = {
 			3
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -272173,8 +267097,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[1990041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -272186,7 +267110,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -272330,12 +267254,6 @@ end)()
 			1994302,
 			1994303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1994013
 		},
@@ -272347,12 +267265,6 @@ end)()
 		},
 		ai_refresh = {
 			3
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -272884,8 +267796,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 10,
@@ -272898,7 +267810,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -272978,12 +267890,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1030016
 		},
@@ -273002,12 +267908,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -273332,8 +268232,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 11,
@@ -273346,7 +268246,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -273426,12 +268326,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1030032
 		},
@@ -273450,12 +268344,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -273836,8 +268724,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 12,
@@ -273850,7 +268738,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -273930,12 +268818,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1030048
 		},
@@ -273954,12 +268836,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -274408,8 +269284,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100004] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 12,
@@ -274422,7 +269298,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -274502,12 +269378,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1030064
 		},
@@ -274526,12 +269396,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -274930,8 +269794,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100005] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 13,
@@ -274944,7 +269808,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -275024,12 +269888,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1030080
 		},
@@ -275048,12 +269906,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -275554,8 +270406,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100006] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 14,
@@ -275568,7 +270420,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -275648,12 +270500,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1030096
 		},
@@ -275673,12 +270519,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -276172,8 +271012,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100011] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 14,
@@ -276186,7 +271026,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -276307,12 +271147,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1030215
 		},
@@ -276331,12 +271165,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -276661,8 +271489,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100012] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 15,
@@ -276675,7 +271503,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -276796,12 +271624,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1030231
 		},
@@ -276820,12 +271642,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -277206,8 +272022,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100013] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 16,
@@ -277220,7 +272036,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -277341,12 +272157,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1030247
 		},
@@ -277366,12 +272176,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -277820,8 +272624,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100014] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 15,
@@ -277834,7 +272638,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -277955,12 +272759,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1030263
 		},
@@ -277980,12 +272778,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -278384,8 +273176,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100015] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 16,
@@ -278398,7 +273190,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -278519,12 +273311,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1030279
 		},
@@ -278544,12 +273330,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -279050,8 +273830,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100016] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 17,
@@ -279064,7 +273844,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -279185,12 +273965,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1030295
 		},
@@ -279210,12 +273984,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -279709,8 +274477,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100021] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 8,
@@ -279723,7 +274491,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -279803,12 +274571,6 @@ end)()
 		ai_expedition_list = {
 			1090600
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1090016
 		},
@@ -279827,12 +274589,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -280113,8 +274869,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100022] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 9,
@@ -280127,7 +274883,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -280208,12 +274964,6 @@ end)()
 			1090601,
 			1090602
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1090032
 		},
@@ -280233,12 +274983,6 @@ end)()
 		ai_refresh = {
 			1,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -280579,8 +275323,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100023] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -280593,7 +275337,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -280674,12 +275418,6 @@ end)()
 			1090603,
 			1090604
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1090048
 		},
@@ -280700,12 +275438,6 @@ end)()
 		ai_refresh = {
 			1,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -281135,8 +275867,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100024] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 11,
@@ -281149,7 +275881,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -281230,12 +275962,6 @@ end)()
 			1090605,
 			1090606
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1090064
 		},
@@ -281255,12 +275981,6 @@ end)()
 		ai_refresh = {
 			1,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -281714,8 +276434,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100025] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -281728,7 +276448,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -281810,12 +276530,6 @@ end)()
 			1090608,
 			1090609
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1090080
 		},
@@ -281836,12 +276550,6 @@ end)()
 			1,
 			1,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -282311,8 +277019,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100026] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 13,
@@ -282325,7 +277033,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -282408,12 +277116,6 @@ end)()
 			1090612,
 			1090613
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1090096
 		},
@@ -282435,12 +277137,6 @@ end)()
 			1,
 			1,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -283083,8 +277779,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100031] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -283097,7 +277793,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -283218,12 +277914,6 @@ end)()
 		ai_expedition_list = {
 			1090700
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1090215
 		},
@@ -283242,12 +277932,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -283528,8 +278212,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100032] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 11,
@@ -283542,7 +278226,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -283664,12 +278348,6 @@ end)()
 			1090701,
 			1090702
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1090231
 		},
@@ -283689,12 +278367,6 @@ end)()
 		ai_refresh = {
 			1,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -284035,8 +278707,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100033] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -284049,7 +278721,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -284171,12 +278843,6 @@ end)()
 			1090703,
 			1090704
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1090247
 		},
@@ -284197,12 +278863,6 @@ end)()
 		ai_refresh = {
 			1,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -284632,8 +279292,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100034] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 13,
@@ -284646,7 +279306,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -284768,12 +279428,6 @@ end)()
 			1090705,
 			1090706
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1090263
 		},
@@ -284793,12 +279447,6 @@ end)()
 		ai_refresh = {
 			1,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -285252,8 +279900,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100035] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -285266,7 +279914,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -285389,12 +280037,6 @@ end)()
 			1090708,
 			1090709
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1090279
 		},
@@ -285415,12 +280057,6 @@ end)()
 			1,
 			1,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -285890,8 +280526,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100036] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 15,
@@ -285904,7 +280540,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -286028,12 +280664,6 @@ end)()
 			1090712,
 			1090713
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1090295
 		},
@@ -286055,12 +280685,6 @@ end)()
 			1,
 			1,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -286703,8 +281327,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 12,
@@ -286717,7 +281341,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -286801,12 +281425,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1000016
 		},
@@ -286823,12 +281441,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -287168,8 +281780,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100042] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 13,
@@ -287182,7 +281794,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -287266,12 +281878,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1000032
 		},
@@ -287288,12 +281894,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -287773,8 +282373,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100043] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 13,
@@ -287787,7 +282387,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -287871,12 +282471,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1000048
 		},
@@ -287895,12 +282489,6 @@ end)()
 			1
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -288345,8 +282933,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100044] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 14,
@@ -288359,7 +282947,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -288443,12 +283031,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1000064
 		},
@@ -288467,12 +283049,6 @@ end)()
 			1
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -289035,8 +283611,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100045] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 14,
@@ -289049,7 +283625,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -289133,12 +283709,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1000080
 		},
@@ -289157,12 +283727,6 @@ end)()
 			1
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -289520,8 +284084,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100046] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 15,
@@ -289534,7 +284098,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -289618,12 +284182,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1000096
 		},
@@ -289642,12 +284200,6 @@ end)()
 			1
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -290013,8 +284565,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100047] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 15,
@@ -290027,7 +284579,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -290111,12 +284663,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1000112
 		},
@@ -290135,12 +284681,6 @@ end)()
 			1
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -290561,8 +285101,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100048] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 16,
@@ -290575,7 +285115,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -290659,12 +285199,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1000128
 		},
@@ -290683,12 +285217,6 @@ end)()
 			1
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -291265,8 +285793,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100051] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 14,
@@ -291279,7 +285807,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -291404,12 +285932,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1000215
 		},
@@ -291426,12 +285948,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -291771,8 +286287,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100052] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 15,
@@ -291785,7 +286301,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -291910,12 +286426,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1000231
 		},
@@ -291934,12 +286444,6 @@ end)()
 			1
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -292419,8 +286923,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100053] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 16,
@@ -292433,7 +286937,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -292558,12 +287062,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1000247
 		},
@@ -292582,12 +287080,6 @@ end)()
 			1
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -293032,8 +287524,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100054] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 17,
@@ -293046,7 +287538,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -293171,12 +287663,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1000263
 		},
@@ -293195,12 +287681,6 @@ end)()
 			1
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -293763,8 +288243,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100055] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 16,
@@ -293777,7 +288257,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -293902,12 +288382,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1000279
 		},
@@ -293926,12 +288400,6 @@ end)()
 			1
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -294289,8 +288757,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100056] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 17,
@@ -294303,7 +288771,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -294428,12 +288896,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1000295
 		},
@@ -294452,12 +288914,6 @@ end)()
 			1
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -294823,8 +289279,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100057] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 17,
@@ -294837,7 +289293,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -294962,12 +289418,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1000311
 		},
@@ -294986,12 +289436,6 @@ end)()
 			1
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -295412,8 +289856,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100058] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 18,
@@ -295426,7 +289870,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -295551,12 +289995,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1000327
 		},
@@ -295575,12 +290013,6 @@ end)()
 			1
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -296157,8 +290589,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100061] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 8,
@@ -296171,7 +290603,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -296256,12 +290688,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1060016
 		},
@@ -296280,12 +290706,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -296650,8 +291070,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100062] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 9,
@@ -296664,7 +291084,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -296749,12 +291169,6 @@ end)()
 		ai_expedition_list = {
 			1060420
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1060032
 		},
@@ -296777,12 +291191,6 @@ end)()
 			0,
 			0,
 			0,
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -297204,8 +291612,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100063] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -297218,7 +291626,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -297304,12 +291712,6 @@ end)()
 			1060421,
 			1060422
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1060048
 		},
@@ -297332,12 +291734,6 @@ end)()
 			0,
 			0,
 			0,
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -297848,8 +292244,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100064] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 11,
@@ -297862,7 +292258,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -297948,12 +292344,6 @@ end)()
 			1060423,
 			1060424
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1060064
 		},
@@ -297975,12 +292365,6 @@ end)()
 			0,
 			0,
 			0,
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -298431,8 +292815,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100065] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -298445,7 +292829,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -298531,12 +292915,6 @@ end)()
 			1060425,
 			1060426
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1060080
 		},
@@ -298558,12 +292936,6 @@ end)()
 			0,
 			0,
 			0,
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -299155,8 +293527,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100066] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 13,
@@ -299169,7 +293541,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -299256,12 +293628,6 @@ end)()
 			1060428,
 			1060429
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1060096
 		},
@@ -299284,12 +293650,6 @@ end)()
 			1,
 			0,
 			0,
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -300051,8 +294411,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100071] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 10,
@@ -300065,7 +294425,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -300191,12 +294551,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1060215
 		},
@@ -300215,12 +294569,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -300585,8 +294933,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100072] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 11,
@@ -300599,7 +294947,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -300725,12 +295073,6 @@ end)()
 		ai_expedition_list = {
 			1060430
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1060231
 		},
@@ -300753,12 +295095,6 @@ end)()
 			0,
 			0,
 			0,
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -301180,8 +295516,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100073] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -301194,7 +295530,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -301321,12 +295657,6 @@ end)()
 			1060431,
 			1060432
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1060247
 		},
@@ -301349,12 +295679,6 @@ end)()
 			0,
 			0,
 			0,
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -301865,8 +296189,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100074] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 13,
@@ -301879,7 +296203,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -302006,12 +296330,6 @@ end)()
 			1060433,
 			1060434
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1060263
 		},
@@ -302033,12 +296351,6 @@ end)()
 			0,
 			0,
 			0,
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -302489,8 +296801,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100075] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -302503,7 +296815,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -302630,12 +296942,6 @@ end)()
 			1060435,
 			1060436
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1060279
 		},
@@ -302657,12 +296963,6 @@ end)()
 			0,
 			0,
 			0,
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -303254,8 +297554,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100076] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 15,
@@ -303268,7 +297568,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		land_based = "",
 		slg_effect = "",
@@ -303396,12 +297696,6 @@ end)()
 			1060438,
 			1060439
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1060295
 		},
@@ -303424,12 +297718,6 @@ end)()
 			1,
 			0,
 			0,
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -304191,8 +298479,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100081] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 8,
@@ -304205,7 +298493,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -304278,12 +298566,6 @@ end)()
 		ai_expedition_list = {
 			4000222
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			4000013
 		},
@@ -304303,12 +298585,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -304644,8 +298920,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100082] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 9,
@@ -304658,7 +298934,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -304732,12 +299008,6 @@ end)()
 			4000233,
 			4000234
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			4000113
 		},
@@ -304757,12 +299027,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -305203,8 +299467,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100083] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -305217,7 +299481,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -305292,12 +299556,6 @@ end)()
 			4000245,
 			4000246
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			4000213
 		},
@@ -305317,12 +299575,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -305874,8 +300126,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100084] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -305888,7 +300140,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -305962,12 +300214,6 @@ end)()
 			4000523,
 			4000524
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			4000313
 		},
@@ -305987,12 +300233,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -306339,8 +300579,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100085] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 11,
@@ -306353,7 +300593,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -306428,12 +300668,6 @@ end)()
 			4000535,
 			4000536
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			4000413
 		},
@@ -306453,12 +300687,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -306910,8 +301138,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100086] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -306924,7 +301152,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -307000,12 +301228,6 @@ end)()
 			4000547,
 			4000548
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			4000513
 		},
@@ -307025,12 +301247,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -307603,8 +301819,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100091] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -307617,7 +301833,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -307731,12 +301947,6 @@ end)()
 		ai_expedition_list = {
 			4000822
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			4000613
 		},
@@ -307756,12 +301966,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -308097,8 +302301,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100092] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 13,
@@ -308111,7 +302315,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -308226,12 +302430,6 @@ end)()
 			4000833,
 			4000834
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			4000713
 		},
@@ -308251,12 +302449,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -308697,8 +302889,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100093] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -308711,7 +302903,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -308827,12 +303019,6 @@ end)()
 			4000845,
 			4000846
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			4000813
 		},
@@ -308852,12 +303038,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -309409,8 +303589,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100094] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -309423,7 +303603,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -309538,12 +303718,6 @@ end)()
 			4001123,
 			4001124
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			4000913
 		},
@@ -309565,12 +303739,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -309917,8 +304085,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100095] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 15,
@@ -309931,7 +304099,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -310047,12 +304215,6 @@ end)()
 			4001135,
 			4001136
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			4001013
 		},
@@ -310074,12 +304236,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -310531,8 +304687,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100096] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 16,
@@ -310545,7 +304701,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -310662,12 +304818,6 @@ end)()
 			4001147,
 			4001148
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			4001113
 		},
@@ -310689,12 +304839,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -311267,8 +305411,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100101] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 8,
@@ -311281,7 +305425,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -311354,12 +305498,6 @@ end)()
 		ai_expedition_list = {
 			3000251
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			3000013
 		},
@@ -311379,12 +305517,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -311775,8 +305907,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100102] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 9,
@@ -311789,7 +305921,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -311863,12 +305995,6 @@ end)()
 			3000261,
 			3000262
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			3000113
 		},
@@ -311888,12 +306014,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -312247,8 +306367,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100103] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -312261,7 +306381,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -312336,12 +306456,6 @@ end)()
 			3000272,
 			3000273
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			3000213
 		},
@@ -312361,12 +306475,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -312817,8 +306925,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100104] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -312831,7 +306939,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -312904,12 +307012,6 @@ end)()
 		ai_expedition_list = {
 			3000551
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			3000313
 		},
@@ -312930,12 +307032,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -313387,8 +307483,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100105] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 11,
@@ -313401,7 +307497,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -313475,12 +307571,6 @@ end)()
 			3000561,
 			3000562
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			3000413
 		},
@@ -313501,12 +307591,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -314007,8 +308091,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100106] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -314021,7 +308105,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -314096,12 +308180,6 @@ end)()
 			3000572,
 			3000573
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			3000513
 		},
@@ -314122,12 +308200,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -314688,8 +308760,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100111] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -314702,7 +308774,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -314817,12 +308889,6 @@ end)()
 			3000851,
 			3000852
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			3000613
 		},
@@ -314842,12 +308908,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -315238,8 +309298,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100112] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 13,
@@ -315252,7 +309312,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -315368,12 +309428,6 @@ end)()
 			3000862,
 			3000863
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			3000713
 		},
@@ -315393,12 +309447,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -315752,8 +309800,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100113] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -315766,7 +309814,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -315883,12 +309931,6 @@ end)()
 			3000873,
 			3000874
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			3000813
 		},
@@ -315908,12 +309950,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -316364,8 +310400,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100114] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -316378,7 +310414,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -316493,12 +310529,6 @@ end)()
 			3001151,
 			3001152
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			3000913
 		},
@@ -316519,12 +310549,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -316976,8 +311000,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100115] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 15,
@@ -316990,7 +311014,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -317106,12 +311130,6 @@ end)()
 			3001162,
 			3001163
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			3001013
 		},
@@ -317134,12 +311152,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -317640,8 +311652,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100116] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 16,
@@ -317654,7 +311666,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -317771,12 +311783,6 @@ end)()
 			3001173,
 			3001174
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			3001113
 		},
@@ -317799,12 +311805,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -318365,8 +312365,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100121] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -318379,7 +312379,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -318452,12 +312452,6 @@ end)()
 		ai_expedition_list = {
 			1370251
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1370013
 		},
@@ -318477,12 +312471,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -318872,8 +312860,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100122] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -318886,7 +312874,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -318960,12 +312948,6 @@ end)()
 			1370261,
 			1370262
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1370113
 		},
@@ -318985,12 +312967,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -319350,8 +313326,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100123] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -319364,7 +313340,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -319439,12 +313415,6 @@ end)()
 			1370272,
 			1370273
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1370213
 		},
@@ -319464,12 +313434,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -319920,8 +313884,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100124] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -319934,7 +313898,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -320007,12 +313971,6 @@ end)()
 		ai_expedition_list = {
 			1370551
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1370313
 		},
@@ -320033,12 +313991,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -320496,8 +314448,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100125] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -320510,7 +314462,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -320584,12 +314536,6 @@ end)()
 			1370561,
 			1370562
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1370413
 		},
@@ -320610,12 +314556,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -321115,8 +315055,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100126] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -321129,7 +315069,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -321204,12 +315144,6 @@ end)()
 			1370572,
 			1370573
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1370513
 		},
@@ -321230,12 +315164,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -321700,8 +315628,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100131] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -321714,7 +315642,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -321829,12 +315757,6 @@ end)()
 			1370851,
 			1370852
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1370613
 		},
@@ -321854,12 +315776,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -322249,8 +316165,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100132] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -322263,7 +316179,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -322379,12 +316295,6 @@ end)()
 			1370862,
 			1370863
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1370713
 		},
@@ -322404,12 +316314,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -322769,8 +316673,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100133] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -322783,7 +316687,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -322900,12 +316804,6 @@ end)()
 			1370873,
 			1370874
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1370813
 		},
@@ -322925,12 +316823,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -323381,8 +317273,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100134] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -323395,7 +317287,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -323510,12 +317402,6 @@ end)()
 			1371151,
 			1371152
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1370913
 		},
@@ -323536,12 +317422,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -323999,8 +317879,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100135] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -324013,7 +317893,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -324129,12 +318009,6 @@ end)()
 			1371162,
 			1371163
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1371013
 		},
@@ -324157,12 +318031,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -324662,8 +318530,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100136] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -324676,7 +318544,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -324793,12 +318661,6 @@ end)()
 			1371173,
 			1371174
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1371113
 		},
@@ -324821,12 +318683,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -325291,8 +319147,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100141] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 8,
@@ -325305,7 +319161,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -325378,12 +319234,6 @@ end)()
 		ai_expedition_list = {
 			1230222
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1230013
 		},
@@ -325403,12 +319253,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -325763,8 +319607,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100142] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 9,
@@ -325777,7 +319621,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -325851,12 +319695,6 @@ end)()
 			1230233,
 			1230234
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1230113
 		},
@@ -325876,12 +319714,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -326242,8 +320074,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100143] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -326256,7 +320088,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -326331,12 +320163,6 @@ end)()
 			1230245,
 			1230246
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1230213
 		},
@@ -326356,12 +320182,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -326806,8 +320626,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100144] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -326820,7 +320640,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -326893,12 +320713,6 @@ end)()
 		ai_expedition_list = {
 			1230522
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1230313
 		},
@@ -326919,12 +320733,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -327376,8 +321184,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100145] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 11,
@@ -327390,7 +321198,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -327464,12 +321272,6 @@ end)()
 			1230533,
 			1230534
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1230413
 		},
@@ -327490,12 +321292,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -327989,8 +321785,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100146] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -328003,7 +321799,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -328078,12 +321874,6 @@ end)()
 			1230545,
 			1230546
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1230513
 		},
@@ -328104,12 +321894,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -328568,8 +322352,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100151] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -328582,7 +322366,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -328697,12 +322481,6 @@ end)()
 			1230823,
 			1230824
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1230613
 		},
@@ -328722,12 +322500,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -329082,8 +322854,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100152] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 13,
@@ -329096,7 +322868,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -329212,12 +322984,6 @@ end)()
 			1230835,
 			1230836
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1230713
 		},
@@ -329237,12 +323003,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -329603,8 +323363,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100153] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -329617,7 +323377,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -329734,12 +323494,6 @@ end)()
 			1230847,
 			1230848
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1230813
 		},
@@ -329759,12 +323513,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -330209,8 +323957,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100154] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -330223,7 +323971,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -330338,12 +324086,6 @@ end)()
 			1231223,
 			1231224
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1230913
 		},
@@ -330364,12 +324106,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -330821,8 +324557,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100155] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 15,
@@ -330835,7 +324571,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -330951,12 +324687,6 @@ end)()
 			1231235,
 			1231236
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1231013
 		},
@@ -330979,12 +324709,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -331478,8 +325202,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100156] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 16,
@@ -331492,7 +325216,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -331609,12 +325333,6 @@ end)()
 			1231247,
 			1231248
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1231113
 		},
@@ -331637,12 +325355,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -332101,8 +325813,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100161] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 8,
@@ -332115,7 +325827,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -332188,12 +325900,6 @@ end)()
 		ai_expedition_list = {
 			1250222
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1250013
 		},
@@ -332214,12 +325920,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -332581,8 +326281,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100162] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 10,
 		avoid_ratio = 9,
@@ -332595,7 +326295,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -332667,12 +326367,6 @@ end)()
 		ai_expedition_list = {
 			1250232
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1250113
 		},
@@ -332690,12 +326384,6 @@ end)()
 		ai_refresh = {
 			1,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -333081,8 +326769,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100163] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 10,
 		avoid_ratio = 10,
@@ -333095,7 +326783,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -333168,12 +326856,6 @@ end)()
 		ai_expedition_list = {
 			1250242
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1250213
 		},
@@ -333196,12 +326878,6 @@ end)()
 			2,
 			1,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -333671,8 +327347,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100166] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -333685,7 +327361,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -333744,12 +327420,6 @@ end)()
 			1250522,
 			1250524
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1250313
 		},
@@ -333770,12 +327440,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -334185,8 +327849,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100167] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 11,
@@ -334199,7 +327863,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -334258,12 +327922,6 @@ end)()
 			1250532,
 			1250534
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1250413
 		},
@@ -334284,12 +327942,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -334741,8 +328393,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100168] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -334755,7 +328407,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -334815,12 +328467,6 @@ end)()
 			1250545,
 			1250546
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1250513
 		},
@@ -334841,12 +328487,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -335256,8 +328896,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100171] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -335270,7 +328910,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -335385,12 +329025,6 @@ end)()
 			1250823,
 			1250824
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1250613
 		},
@@ -335411,12 +329045,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -335778,8 +329406,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100172] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 10,
 		avoid_ratio = 13,
@@ -335792,7 +329420,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -335905,12 +329533,6 @@ end)()
 		ai_expedition_list = {
 			1250832
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1250713
 		},
@@ -335927,12 +329549,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -336318,8 +329934,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100173] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 10,
 		avoid_ratio = 14,
@@ -336332,7 +329948,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -336446,12 +330062,6 @@ end)()
 		ai_expedition_list = {
 			1250842
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1250813
 		},
@@ -336474,12 +330084,6 @@ end)()
 			2,
 			1,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -336949,8 +330553,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100176] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -336963,7 +330567,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -337063,12 +330667,6 @@ end)()
 			1251223,
 			1251224
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1250913
 		},
@@ -337089,12 +330687,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -337504,8 +331096,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100177] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 15,
@@ -337518,7 +331110,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -337619,12 +331211,6 @@ end)()
 			1251235,
 			1251236
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1251013
 		},
@@ -337647,12 +331233,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -338104,8 +331684,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100178] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 16,
@@ -338118,7 +331698,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -338219,12 +331799,6 @@ end)()
 			1251245,
 			1251246
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1251113
 		},
@@ -338247,12 +331821,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -338662,8 +332230,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100181] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 10,
 		avoid_ratio = 8,
@@ -338676,7 +332244,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -338749,12 +332317,6 @@ end)()
 		ai_expedition_list = {
 			1240222
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1240013
 		},
@@ -338775,12 +332337,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -339148,8 +332704,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100182] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 10,
 		avoid_ratio = 9,
@@ -339162,7 +332718,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -339236,12 +332792,6 @@ end)()
 			1240233,
 			1240234
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1240113
 		},
@@ -339262,12 +332812,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -339683,8 +333227,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100183] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 10,
 		avoid_ratio = 10,
@@ -339697,7 +333241,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -339772,12 +333316,6 @@ end)()
 			1240245,
 			1240246
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1240213
 		},
@@ -339798,12 +333336,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -340315,8 +333847,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100184] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -340329,7 +333861,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -340403,12 +333935,6 @@ end)()
 			1240522,
 			1240524
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1240313
 		},
@@ -340429,12 +333955,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -340844,8 +334364,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100185] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 11,
@@ -340858,7 +334378,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -340933,12 +334453,6 @@ end)()
 			1240534,
 			1240536
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1240413
 		},
@@ -340959,12 +334473,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -341416,8 +334924,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100186] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -341430,7 +334938,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -341506,12 +335014,6 @@ end)()
 			1240546,
 			1240548
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1240513
 		},
@@ -341532,12 +335034,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -341954,8 +335450,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100191] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 10,
 		avoid_ratio = 12,
@@ -341968,7 +335464,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -342083,12 +335579,6 @@ end)()
 			1240823,
 			1240824
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1240613
 		},
@@ -342109,12 +335599,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -342482,8 +335966,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100192] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 10,
 		avoid_ratio = 13,
@@ -342496,7 +335980,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -342612,12 +336096,6 @@ end)()
 			1240835,
 			1240836
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1240713
 		},
@@ -342638,12 +336116,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -343059,8 +336531,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100193] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 10,
 		avoid_ratio = 14,
@@ -343073,7 +336545,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -343189,12 +336661,6 @@ end)()
 			1240847,
 			1240848
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1240813
 		},
@@ -343211,12 +336677,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -343728,8 +337188,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100194] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -343742,7 +337202,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -343858,12 +337318,6 @@ end)()
 			1241224,
 			1241226
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1240913
 		},
@@ -343884,12 +337338,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -344299,8 +337747,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100195] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 15,
@@ -344313,7 +337761,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -344430,12 +337878,6 @@ end)()
 			1241236,
 			1241238
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1241013
 		},
@@ -344458,12 +337900,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -344915,8 +338351,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100196] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 16,
@@ -344929,7 +338365,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -345047,12 +338483,6 @@ end)()
 			1241248,
 			1241250
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1241113
 		},
@@ -345075,12 +338505,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -345497,8 +338921,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100201] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 8,
@@ -345511,7 +338935,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -345584,12 +339008,6 @@ end)()
 		ai_expedition_list = {
 			1310240
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1310013
 		},
@@ -345610,12 +339028,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -345977,8 +339389,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100202] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 9,
@@ -345991,7 +339403,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -346064,12 +339476,6 @@ end)()
 		ai_expedition_list = {
 			1310250
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1310113
 		},
@@ -346090,12 +339496,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -346470,8 +339870,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100203] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -346484,7 +339884,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -346557,12 +339957,6 @@ end)()
 		ai_expedition_list = {
 			1310260
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1310213
 		},
@@ -346583,12 +339977,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -346986,8 +340374,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100204] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -347000,7 +340388,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -347074,12 +340462,6 @@ end)()
 			1310540,
 			1310541
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1310313
 		},
@@ -347100,12 +340482,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -347515,8 +340891,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100205] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 11,
@@ -347529,7 +340905,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -347603,12 +340979,6 @@ end)()
 			1310550,
 			1310551
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1310413
 		},
@@ -347629,12 +340999,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -348093,8 +341457,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100206] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -348107,7 +341471,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -348182,12 +341546,6 @@ end)()
 			1310561,
 			1310562
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1310513
 		},
@@ -348208,12 +341566,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -348630,8 +341982,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100211] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -348644,7 +341996,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -348759,12 +342111,6 @@ end)()
 			1310840,
 			1310841
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1310613
 		},
@@ -348785,12 +342131,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -349152,8 +342492,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100212] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 13,
@@ -349166,7 +342506,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -349282,12 +342622,6 @@ end)()
 			1310851,
 			1310852
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1310713
 		},
@@ -349308,12 +342642,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -349688,8 +343016,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100213] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -349702,7 +343030,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -349818,12 +343146,6 @@ end)()
 			1310861,
 			1310862
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1310813
 		},
@@ -349844,12 +343166,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -350247,8 +343563,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100214] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -350261,7 +343577,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -350377,12 +343693,6 @@ end)()
 			1311141,
 			1311142
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1310913
 		},
@@ -350403,12 +343713,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -350818,8 +344122,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100215] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 15,
@@ -350832,7 +344136,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -350948,12 +344252,6 @@ end)()
 			1311151,
 			1311152
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1311013
 		},
@@ -350976,12 +344274,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -351440,8 +344732,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100216] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 16,
@@ -351454,7 +344746,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -351571,12 +344863,6 @@ end)()
 			1311162,
 			1311163
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1311113
 		},
@@ -351599,12 +344885,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -352021,8 +345301,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100221] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -352035,7 +345315,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		id = 2100221,
@@ -352116,12 +345396,6 @@ end)()
 		ai_expedition_list = {
 			1350302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1350013
 		},
@@ -352141,12 +345415,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -352472,8 +345740,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100222] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -352486,7 +345754,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		id = 2100222,
@@ -352567,12 +345835,6 @@ end)()
 		ai_expedition_list = {
 			1350304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1350113
 		},
@@ -352592,12 +345854,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -352952,8 +346208,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100223] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -352966,7 +346222,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		id = 2100223,
@@ -353047,12 +346303,6 @@ end)()
 		ai_expedition_list = {
 			1350306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1350213
 		},
@@ -353072,12 +346322,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -353452,8 +346696,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100224] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -353466,7 +346710,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		id = 2100224,
@@ -353548,12 +346792,6 @@ end)()
 			1351302,
 			1351304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1351013
 		},
@@ -353574,12 +346812,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -353989,8 +347221,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100225] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -354003,7 +347235,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		id = 2100225,
@@ -354085,12 +347317,6 @@ end)()
 			1351306,
 			1351308
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1351113
 		},
@@ -354111,12 +347337,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -354514,8 +347734,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100226] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -354528,7 +347748,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		id = 2100226,
@@ -354610,12 +347830,6 @@ end)()
 			1351310,
 			1351312
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1351213
 		},
@@ -354636,12 +347850,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -355107,8 +348315,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100231] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -355121,7 +348329,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		id = 2100231,
@@ -355244,12 +348452,6 @@ end)()
 			1352302,
 			1352304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1352013
 		},
@@ -355269,12 +348471,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -355600,8 +348796,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100232] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -355614,7 +348810,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		id = 2100232,
@@ -355737,12 +348933,6 @@ end)()
 			1352306,
 			1352308
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1352113
 		},
@@ -355762,12 +348952,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -356122,8 +349306,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100233] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -356136,7 +349320,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		id = 2100233,
@@ -356260,12 +349444,6 @@ end)()
 			1352312,
 			1352314
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1352213
 		},
@@ -356285,12 +349463,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -356665,8 +349837,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100234] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -356679,7 +349851,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		id = 2100234,
@@ -356803,12 +349975,6 @@ end)()
 			1353304,
 			1353306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1353013
 		},
@@ -356829,12 +349995,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -357244,8 +350404,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100235] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -357258,7 +350418,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		id = 2100235,
@@ -357382,12 +350542,6 @@ end)()
 			1353310,
 			1353312
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1353113
 		},
@@ -357410,12 +350564,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -357813,8 +350961,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100236] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -357827,7 +350975,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		id = 2100236,
@@ -357951,12 +351099,6 @@ end)()
 			1353316,
 			1353318
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1353213
 		},
@@ -357979,12 +351121,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -358450,8 +351586,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100241] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -358463,7 +351599,7 @@ end)()
 		investigation_ratio = 3,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -358532,12 +351668,6 @@ end)()
 		ai_expedition_list = {
 			1390302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1390013
 		},
@@ -358557,12 +351687,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -358939,8 +352063,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100242] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -358952,7 +352076,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -359021,12 +352145,6 @@ end)()
 		ai_expedition_list = {
 			1390304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1390113
 		},
@@ -359046,12 +352164,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -359457,8 +352569,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100243] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -359470,7 +352582,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -359539,12 +352651,6 @@ end)()
 		ai_expedition_list = {
 			1390306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1390213
 		},
@@ -359564,12 +352670,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -359987,8 +353087,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100244] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -360000,7 +353100,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -360070,12 +353170,6 @@ end)()
 			1391302,
 			1391304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1391013
 		},
@@ -360096,12 +353190,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -360507,8 +353595,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100245] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -360520,7 +353608,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -360590,12 +353678,6 @@ end)()
 			1391306,
 			1391308
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1391113
 		},
@@ -360616,12 +353698,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -361329,8 +354405,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100246] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -361342,7 +354418,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -361412,12 +354488,6 @@ end)()
 			1391310,
 			1391312
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1391213
 		},
@@ -361438,12 +354508,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -362819,8 +355883,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100251] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -362832,7 +355896,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -362943,12 +356007,6 @@ end)()
 			1392302,
 			1392304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1392013
 		},
@@ -362968,12 +356026,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -363350,8 +356402,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100252] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -363363,7 +356415,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -363474,12 +356526,6 @@ end)()
 			1392306,
 			1392308
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1392113
 		},
@@ -363499,12 +356545,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -363910,8 +356950,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100253] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -363923,7 +356963,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -364035,12 +357075,6 @@ end)()
 			1392312,
 			1392314
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1392213
 		},
@@ -364060,12 +357094,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -364483,8 +357511,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100254] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -364496,7 +357524,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -364607,12 +357635,6 @@ end)()
 			1393302,
 			1393304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1393013
 		},
@@ -364633,12 +357655,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -365044,8 +358060,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100255] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -365057,7 +358073,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -365168,12 +358184,6 @@ end)()
 			1393306,
 			1393308
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1393113
 		},
@@ -365196,12 +358206,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -365909,8 +358913,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100256] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -365922,7 +358926,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -366033,12 +359037,6 @@ end)()
 			1393310,
 			1393312
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1393213
 		},
@@ -366061,12 +359059,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -367442,8 +360434,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100261] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -367456,7 +360448,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -367529,12 +360521,6 @@ end)()
 		ai_expedition_list = {
 			1330302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1330013
 		},
@@ -367554,12 +360540,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -367933,8 +360913,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100262] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -367947,7 +360927,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -368020,12 +361000,6 @@ end)()
 		ai_expedition_list = {
 			1330304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1330113
 		},
@@ -368045,12 +361019,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -368411,8 +361379,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100263] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -368425,7 +361393,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -368499,12 +361467,6 @@ end)()
 			1330306,
 			1330308
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1330213
 		},
@@ -368524,12 +361486,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -368927,8 +361883,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100264] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -368941,7 +361897,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -369015,12 +361971,6 @@ end)()
 			1331302,
 			1331304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1331013
 		},
@@ -369041,12 +361991,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -369463,8 +362407,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100265] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -369477,7 +362421,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -369551,12 +362495,6 @@ end)()
 			1331306,
 			1331308
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1331113
 		},
@@ -369577,12 +362515,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -369944,8 +362876,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100266] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -369958,7 +362890,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -370032,12 +362964,6 @@ end)()
 			1331310,
 			1331312
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1331213
 		},
@@ -370058,12 +362984,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -370480,8 +363400,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100271] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -370494,7 +363414,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -370610,12 +363530,6 @@ end)()
 			1332304,
 			1332306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1332013
 		},
@@ -370635,12 +363549,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -371014,8 +363922,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100272] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -371028,7 +363936,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -371144,12 +364052,6 @@ end)()
 			1332310,
 			1332312
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1332113
 		},
@@ -371169,12 +364071,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -371535,8 +364431,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100273] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -371549,7 +364445,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -371665,12 +364561,6 @@ end)()
 			1332316,
 			1332318
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1332213
 		},
@@ -371690,12 +364580,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -372093,8 +364977,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100274] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -372107,7 +364991,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -372223,12 +365107,6 @@ end)()
 			1333304,
 			1333306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1333013
 		},
@@ -372249,12 +365127,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -372671,8 +365543,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100275] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -372685,7 +365557,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -372801,12 +365673,6 @@ end)()
 			1333310,
 			1333312
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1333113
 		},
@@ -372829,12 +365695,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -373196,8 +366056,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100276] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -373210,7 +366070,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -373326,12 +366186,6 @@ end)()
 			1333316,
 			1333318
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1333213
 		},
@@ -373354,12 +366208,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -373776,8 +366624,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100281] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -373789,7 +366637,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -373860,12 +366708,6 @@ end)()
 			1420304,
 			1420306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1420013
 		},
@@ -373885,12 +366727,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -374357,8 +367193,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100282] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -374370,7 +367206,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -374443,12 +367279,6 @@ end)()
 			1420314,
 			1420316
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1420113
 		},
@@ -374468,12 +367298,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -374922,8 +367746,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100283] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -374935,7 +367759,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -375005,12 +367829,6 @@ end)()
 			1420318,
 			1420320
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1420213
 		},
@@ -375030,12 +367848,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -375508,8 +368320,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100284] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -375521,7 +368333,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -375592,12 +368404,6 @@ end)()
 			1421304,
 			1421306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1421013
 		},
@@ -375618,12 +368424,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -376151,8 +368951,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100285] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -376164,7 +368964,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -376237,12 +369037,6 @@ end)()
 			1421314,
 			1421316
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1421113
 		},
@@ -376263,12 +369057,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -376819,8 +369607,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100286] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -376832,7 +369620,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -376907,12 +369695,6 @@ end)()
 			1421322,
 			1421322
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1421213
 		},
@@ -376933,12 +369715,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -377581,8 +370357,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100291] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -377594,7 +370370,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -377706,12 +370482,6 @@ end)()
 			1422304,
 			1422306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1422013
 		},
@@ -377731,12 +370501,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -378203,8 +370967,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100292] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -378216,7 +370980,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -378330,12 +371094,6 @@ end)()
 			1422314,
 			1422316
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1422113
 		},
@@ -378355,12 +371113,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -378809,8 +371561,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100293] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -378822,7 +371574,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -378933,12 +371685,6 @@ end)()
 			1422318,
 			1422320
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1422213
 		},
@@ -378958,12 +371704,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -379436,8 +372176,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100294] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -379449,7 +372189,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -379561,12 +372301,6 @@ end)()
 			1423304,
 			1423306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1423013
 		},
@@ -379587,12 +372321,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -380120,8 +372848,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100295] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -380133,7 +372861,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -380247,12 +372975,6 @@ end)()
 			1423314,
 			1423316
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1423113
 		},
@@ -380275,12 +372997,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -380831,8 +373547,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100296] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -380844,7 +373560,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -380960,12 +373676,6 @@ end)()
 			1423322,
 			1423322
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1423213
 		},
@@ -380988,12 +373698,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -381636,8 +374340,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100301] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 8,
@@ -381649,7 +374353,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -381719,12 +374423,6 @@ end)()
 			1490301,
 			1490302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1490013
 		},
@@ -381744,12 +374442,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -382219,8 +374911,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100302] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 9,
@@ -382232,7 +374924,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -382303,12 +374995,6 @@ end)()
 			1490304,
 			1490305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1490113
 		},
@@ -382328,12 +375014,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -382792,8 +375472,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100303] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -382805,7 +375485,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -382875,12 +375555,6 @@ end)()
 			1490306,
 			1490307
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1490213
 		},
@@ -382900,12 +375574,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -383357,8 +376025,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100304] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -383370,7 +376038,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -383441,12 +376109,6 @@ end)()
 			1491302,
 			1491303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1491013
 		},
@@ -383467,12 +376129,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -384017,8 +376673,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100305] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 11,
@@ -384030,7 +376686,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -384102,12 +376758,6 @@ end)()
 			1491306,
 			1491307
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1491113
 		},
@@ -384128,12 +376778,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -384722,8 +377366,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100306] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -384735,7 +377379,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -384806,12 +377450,6 @@ end)()
 			1491309,
 			1491310
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1491213
 		},
@@ -384832,12 +377470,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -385592,8 +378224,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100311] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -385605,7 +378237,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -385716,12 +378348,6 @@ end)()
 			1492301,
 			1492302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1492013
 		},
@@ -385741,12 +378367,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -386216,8 +378836,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100312] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 13,
@@ -386229,7 +378849,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -386341,12 +378961,6 @@ end)()
 			1492304,
 			1492305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1492113
 		},
@@ -386366,12 +378980,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -386830,8 +379438,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100313] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -386843,7 +379451,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -386956,12 +379564,6 @@ end)()
 			1492308,
 			1492309
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1492213
 		},
@@ -386981,12 +379583,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -387438,8 +380034,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100314] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -387451,7 +380047,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -387563,12 +380159,6 @@ end)()
 			1493302,
 			1493303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1493013
 		},
@@ -387589,12 +380179,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -388139,8 +380723,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100315] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 15,
@@ -388152,7 +380736,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -388265,12 +380849,6 @@ end)()
 			1493306,
 			1493307
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1493113
 		},
@@ -388293,12 +380871,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -388887,8 +381459,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100316] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 16,
@@ -388900,7 +381472,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -389012,12 +381584,6 @@ end)()
 			1493309,
 			1493310
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1493213
 		},
@@ -389040,12 +381606,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -389800,8 +382360,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100321] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 8,
@@ -389813,7 +382373,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -389883,12 +382443,6 @@ end)()
 			1440302,
 			1440304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1440013
 		},
@@ -389908,12 +382462,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -390494,8 +383042,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100322] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 9,
@@ -390507,7 +383055,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -390576,12 +383124,6 @@ end)()
 		ai_expedition_list = {
 			1440306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1440113
 		},
@@ -390601,12 +383143,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -391047,8 +383583,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100323] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -391060,7 +383596,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -391129,12 +383665,6 @@ end)()
 		ai_expedition_list = {
 			1440308
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1440213
 		},
@@ -391154,12 +383684,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -391750,8 +384274,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100324] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -391763,7 +384287,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -391833,12 +384357,6 @@ end)()
 			1441302,
 			1441304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1441013
 		},
@@ -391859,12 +384377,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -392605,8 +385117,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100325] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 11,
@@ -392618,7 +385130,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -392688,12 +385200,6 @@ end)()
 			1441306,
 			1441308
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1441113
 		},
@@ -392714,12 +385220,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -393338,8 +385838,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100326] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -393351,7 +385851,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -393421,12 +385921,6 @@ end)()
 			1441310,
 			1441312
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1441213
 		},
@@ -393447,12 +385941,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -394259,8 +386747,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100331] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -394272,7 +386760,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -394383,12 +386871,6 @@ end)()
 			1442302,
 			1442304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1442013
 		},
@@ -394408,12 +386890,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -394994,8 +387470,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100332] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 13,
@@ -395007,7 +387483,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -395118,12 +387594,6 @@ end)()
 			1442306,
 			1442308
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1442113
 		},
@@ -395143,12 +387613,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -395589,8 +388053,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100333] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -395602,7 +388066,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -395713,12 +388177,6 @@ end)()
 			1442310,
 			1442312
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1442213
 		},
@@ -395738,12 +388196,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -396334,8 +388786,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100334] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -396347,7 +388799,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -396458,12 +388910,6 @@ end)()
 			1443302,
 			1443304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1443013
 		},
@@ -396484,12 +388930,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -397230,8 +389670,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100335] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 15,
@@ -397243,7 +389683,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -397354,12 +389794,6 @@ end)()
 			1443306,
 			1443308
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1443113
 		},
@@ -397382,12 +389816,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -398006,8 +390434,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100336] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 16,
@@ -398019,7 +390447,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -398131,12 +390559,6 @@ end)()
 			1443312,
 			1443314
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1443213
 		},
@@ -398159,12 +390581,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -398971,8 +391387,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100341] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 8,
@@ -398984,7 +391400,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -399053,12 +391469,6 @@ end)()
 		ai_expedition_list = {
 			1520301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1520013
 		},
@@ -399078,12 +391488,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -399559,8 +391963,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100342] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 9,
@@ -399572,7 +391976,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -399641,12 +392045,6 @@ end)()
 		ai_expedition_list = {
 			1520302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1520113
 		},
@@ -399666,12 +392064,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -400167,8 +392559,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100343] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -400180,7 +392572,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -400249,12 +392641,6 @@ end)()
 		ai_expedition_list = {
 			1520303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1520213
 		},
@@ -400274,12 +392660,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -400892,8 +393272,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100344] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -400905,7 +393285,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -400975,12 +393355,6 @@ end)()
 			1521301,
 			1521302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1521013
 		},
@@ -401001,12 +393375,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -401605,8 +393973,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100345] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 11,
@@ -401618,7 +393986,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -401688,12 +394056,6 @@ end)()
 			1521303,
 			1521304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1521113
 		},
@@ -401714,12 +394076,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -402332,8 +394688,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100346] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -402345,7 +394701,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -402416,12 +394772,6 @@ end)()
 			1521306,
 			1521307
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1521213
 		},
@@ -402442,12 +394792,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -403060,8 +395404,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100351] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -403073,7 +395417,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -403184,12 +395528,6 @@ end)()
 			1522301,
 			1522302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1522013
 		},
@@ -403209,12 +395547,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -403690,8 +396022,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100352] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 13,
@@ -403703,7 +396035,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -403814,12 +396146,6 @@ end)()
 			1522303,
 			1522304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1522113
 		},
@@ -403839,12 +396165,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -404340,8 +396660,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100353] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -404353,7 +396673,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -404465,12 +396785,6 @@ end)()
 			1522306,
 			1522307
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1522213
 		},
@@ -404490,12 +396804,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -405108,8 +397416,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100354] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -405121,7 +397429,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -405233,12 +397541,6 @@ end)()
 			1523302,
 			1523303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1523013
 		},
@@ -405259,12 +397561,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -405863,8 +398159,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100355] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 15,
@@ -405876,7 +398172,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -405988,12 +398284,6 @@ end)()
 			1523305,
 			1523306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1523113
 		},
@@ -406016,12 +398306,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -406634,8 +398918,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100356] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 16,
@@ -406647,7 +398931,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -406759,12 +399043,6 @@ end)()
 			1523308,
 			1523309
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1523213
 		},
@@ -406787,12 +399065,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -407405,8 +399677,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100361] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 8,
@@ -407418,7 +399690,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -407487,12 +399759,6 @@ end)()
 		ai_expedition_list = {
 			1500301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1500013
 		},
@@ -407512,12 +399778,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -407984,8 +400244,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100362] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 9,
@@ -407997,7 +400257,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -408066,12 +400326,6 @@ end)()
 		ai_expedition_list = {
 			1500302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1500113
 		},
@@ -408091,12 +400345,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -408577,8 +400825,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100363] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -408590,7 +400838,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -408659,12 +400907,6 @@ end)()
 		ai_expedition_list = {
 			1500303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1500213
 		},
@@ -408684,12 +400926,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -409381,8 +401617,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100364] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -409394,7 +401630,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -409464,12 +401700,6 @@ end)()
 			1501301,
 			1501302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1501013
 		},
@@ -409490,12 +401720,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -410068,8 +402292,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100365] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 11,
@@ -410081,7 +402305,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -410151,12 +402375,6 @@ end)()
 			1501303,
 			1501304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1501113
 		},
@@ -410177,12 +402395,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -410778,8 +402990,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100366] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -410791,7 +403003,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -410862,12 +403074,6 @@ end)()
 			1501306,
 			1501307
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1501213
 		},
@@ -410888,12 +403094,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -411588,8 +403788,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100371] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -411601,7 +403801,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -411712,12 +403912,6 @@ end)()
 			1502301,
 			1502302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1502013
 		},
@@ -411737,12 +403931,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -412209,8 +404397,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100372] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 13,
@@ -412222,7 +404410,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -412333,12 +404521,6 @@ end)()
 			1502303,
 			1502304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1502113
 		},
@@ -412358,12 +404540,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -412844,8 +405020,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100373] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -412857,7 +405033,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -412969,12 +405145,6 @@ end)()
 			1502306,
 			1502307
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1502213
 		},
@@ -412994,12 +405164,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -413691,8 +405855,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100374] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -413704,7 +405868,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -413815,12 +405979,6 @@ end)()
 			1503301,
 			1503302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1503013
 		},
@@ -413841,12 +405999,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -414419,8 +406571,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100375] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 15,
@@ -414432,7 +406584,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -414543,12 +406695,6 @@ end)()
 			1503303,
 			1503304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1503113
 		},
@@ -414571,12 +406717,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -415172,8 +407312,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100376] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 16,
@@ -415185,7 +407325,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -415297,12 +407437,6 @@ end)()
 			1503306,
 			1503307
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1503213
 		},
@@ -415325,12 +407459,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -416025,8 +408153,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100381] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 8,
@@ -416038,7 +408166,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -416107,12 +408235,6 @@ end)()
 		ai_expedition_list = {
 			1560301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1560013
 		},
@@ -416132,12 +408254,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -416562,8 +408678,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100382] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 9,
@@ -416575,7 +408691,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -416644,12 +408760,6 @@ end)()
 		ai_expedition_list = {
 			1560302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1560113
 		},
@@ -416669,12 +408779,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -417157,8 +409261,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100383] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -417170,7 +409274,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -417239,12 +409343,6 @@ end)()
 		ai_expedition_list = {
 			1560303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1560213
 		},
@@ -417264,12 +409362,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -417903,8 +409995,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100384] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -417916,7 +410008,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -417986,12 +410078,6 @@ end)()
 			1561301,
 			1561302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1561013
 		},
@@ -418012,12 +410098,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -418617,8 +410697,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100385] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 11,
@@ -418630,7 +410710,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -418700,12 +410780,6 @@ end)()
 			1561303,
 			1561304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1561113
 		},
@@ -418726,12 +410800,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -419352,8 +411420,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100386] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -419365,7 +411433,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -419436,12 +411504,6 @@ end)()
 			1561306,
 			1561307
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1561213
 		},
@@ -419462,12 +411524,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -420170,8 +412226,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100391] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -420183,7 +412239,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -420294,12 +412350,6 @@ end)()
 			1562301,
 			1562302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1562013
 		},
@@ -420319,12 +412369,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -420749,8 +412793,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100392] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 13,
@@ -420762,7 +412806,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -420873,12 +412917,6 @@ end)()
 			1562303,
 			1562304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1562113
 		},
@@ -420898,12 +412936,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -421386,8 +413418,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100393] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -421399,7 +413431,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -421511,12 +413543,6 @@ end)()
 			1562306,
 			1562307
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1562213
 		},
@@ -421536,12 +413562,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -422175,8 +414195,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100394] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -422188,7 +414208,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -422300,12 +414320,6 @@ end)()
 			1563302,
 			1563303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1563013
 		},
@@ -422326,12 +414340,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -422931,8 +414939,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100395] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 15,
@@ -422944,7 +414952,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -423056,12 +415064,6 @@ end)()
 			1563305,
 			1563306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1563113
 		},
@@ -423084,12 +415086,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -423710,8 +415706,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100396] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 16,
@@ -423723,7 +415719,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -423835,12 +415831,6 @@ end)()
 			1563308,
 			1563309
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1563213
 		},
@@ -423863,12 +415853,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -424571,8 +416555,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100401] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 8,
@@ -424584,7 +416568,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -424653,12 +416637,6 @@ end)()
 		ai_expedition_list = {
 			1510301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1510013
 		},
@@ -424678,12 +416656,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -425143,8 +417115,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100402] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 9,
@@ -425156,7 +417128,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -425225,12 +417197,6 @@ end)()
 		ai_expedition_list = {
 			1510302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1510113
 		},
@@ -425250,12 +417216,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -425736,8 +417696,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100403] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -425749,7 +417709,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -425818,12 +417778,6 @@ end)()
 		ai_expedition_list = {
 			1510303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1510213
 		},
@@ -425843,12 +417797,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -426438,8 +418386,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100404] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -426451,7 +418399,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -426521,12 +418469,6 @@ end)()
 			1511301,
 			1511302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1511013
 		},
@@ -426547,12 +418489,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -427170,8 +419106,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100405] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 11,
@@ -427183,7 +419119,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -427253,12 +419189,6 @@ end)()
 			1511303,
 			1511304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1511113
 		},
@@ -427279,12 +419209,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -427915,8 +419839,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100406] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -427928,7 +419852,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -427999,12 +419923,6 @@ end)()
 			1511306,
 			1511307
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1511213
 		},
@@ -428025,12 +419943,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -428649,8 +420561,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100411] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -428662,7 +420574,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -428773,12 +420685,6 @@ end)()
 			1512301,
 			1512302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1512013
 		},
@@ -428798,12 +420704,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -429263,8 +421163,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100412] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 13,
@@ -429276,7 +421176,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -429387,12 +421287,6 @@ end)()
 			1512303,
 			1512304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1512113
 		},
@@ -429412,12 +421306,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -429898,8 +421786,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100413] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -429911,7 +421799,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -430023,12 +421911,6 @@ end)()
 			1512306,
 			1512307
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1512213
 		},
@@ -430048,12 +421930,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -430643,8 +422519,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100414] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -430656,7 +422532,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -430768,12 +422644,6 @@ end)()
 			1513302,
 			1513303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1513013
 		},
@@ -430794,12 +422664,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -431417,8 +423281,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100415] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 15,
@@ -431430,7 +423294,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -431542,12 +423406,6 @@ end)()
 			1513305,
 			1513306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1513113
 		},
@@ -431570,12 +423428,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -432206,8 +424058,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100416] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 16,
@@ -432219,7 +424071,7 @@ end)()
 		investigation_ratio = 0,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -432331,12 +424183,6 @@ end)()
 			1513308,
 			1513309
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1513213
 		},
@@ -432359,12 +424205,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -432983,8 +424823,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100421] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -432996,7 +424836,7 @@ end)()
 		investigation_ratio = 3,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -433065,12 +424905,6 @@ end)()
 		ai_expedition_list = {
 			1600301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1600013
 		},
@@ -433090,12 +424924,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -433508,8 +425336,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100422] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -433521,7 +425349,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -433590,12 +425418,6 @@ end)()
 		ai_expedition_list = {
 			1600302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1600113
 		},
@@ -433615,12 +425437,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -434094,8 +425910,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100423] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -434107,7 +425923,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -434177,12 +425993,6 @@ end)()
 			1600303,
 			1600304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1600213
 		},
@@ -434202,12 +426012,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -434811,8 +426615,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100424] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -434824,7 +426628,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -434894,12 +426698,6 @@ end)()
 			1601301,
 			1601302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1601013
 		},
@@ -434920,12 +426718,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -435508,8 +427300,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100425] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -435521,7 +427313,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -435591,12 +427383,6 @@ end)()
 			1601303,
 			1601304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1601113
 		},
@@ -435617,12 +427403,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -436225,8 +428005,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100427] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -436238,7 +428018,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -436307,12 +428087,6 @@ end)()
 		ai_expedition_list = {
 			1601305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1601213
 		},
@@ -436333,12 +428107,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -436887,8 +428655,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100431] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -436900,7 +428668,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -437011,12 +428779,6 @@ end)()
 			1602301,
 			1602302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1602013
 		},
@@ -437036,12 +428798,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -437454,8 +429210,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100432] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -437467,7 +429223,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -437578,12 +429334,6 @@ end)()
 			1602303,
 			1602304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1602113
 		},
@@ -437603,12 +429353,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -438082,8 +429826,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100433] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -438095,7 +429839,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -438207,12 +429951,6 @@ end)()
 			1602306,
 			1602307
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1602213
 		},
@@ -438232,12 +429970,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -438841,8 +430573,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100434] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -438854,7 +430586,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -438966,12 +430698,6 @@ end)()
 			1603302,
 			1603303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1603013
 		},
@@ -438992,12 +430718,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -439580,8 +431300,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100435] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -439593,7 +431313,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -439705,12 +431425,6 @@ end)()
 			1603305,
 			1603306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1603113
 		},
@@ -439733,12 +431447,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -440341,8 +432049,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100437] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -440354,7 +432062,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -440464,12 +432172,6 @@ end)()
 		ai_expedition_list = {
 			1603307
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1603213
 		},
@@ -440492,12 +432194,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -441046,8 +432742,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100441] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -441059,7 +432755,7 @@ end)()
 		investigation_ratio = 3,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -441128,12 +432824,6 @@ end)()
 		ai_expedition_list = {
 			1620301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1620013
 		},
@@ -441153,12 +432843,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -441614,8 +433298,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100442] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -441627,7 +433311,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -441696,12 +433380,6 @@ end)()
 		ai_expedition_list = {
 			1620302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1620113
 		},
@@ -441721,12 +433399,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -442302,8 +433974,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100443] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -442315,7 +433987,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -442384,12 +434056,6 @@ end)()
 		ai_expedition_list = {
 			1620303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1620213
 		},
@@ -442409,12 +434075,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -443010,8 +434670,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100444] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -443023,7 +434683,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -443093,12 +434753,6 @@ end)()
 			1621301,
 			1621302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1621013
 		},
@@ -443119,12 +434773,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -443538,8 +435186,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100445] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -443551,7 +435199,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -443621,12 +435269,6 @@ end)()
 			1621303,
 			1621304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1621113,
 			1621114
@@ -443648,12 +435290,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -444109,8 +435745,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100446] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -444122,7 +435758,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -444194,12 +435830,6 @@ end)()
 			1621307,
 			1621308
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1621213,
 			1621214
@@ -444221,12 +435851,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -444846,8 +436470,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100451] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -444859,7 +436483,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -444969,12 +436593,6 @@ end)()
 		ai_expedition_list = {
 			1622301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1622013
 		},
@@ -444994,12 +436612,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -445455,8 +437067,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100452] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -445468,7 +437080,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -445578,12 +437190,6 @@ end)()
 		ai_expedition_list = {
 			1622303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1622113
 		},
@@ -445603,12 +437209,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -446184,8 +437784,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100453] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -446197,7 +437797,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -446307,12 +437907,6 @@ end)()
 		ai_expedition_list = {
 			1622305
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1622213
 		},
@@ -446332,12 +437926,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -446933,8 +438521,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100454] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -446946,7 +438534,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -447057,12 +438645,6 @@ end)()
 			1623301,
 			1623302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1623013
 		},
@@ -447083,12 +438665,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -447502,8 +439078,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100455] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -447515,7 +439091,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -447626,12 +439202,6 @@ end)()
 			1623303,
 			1623304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1623113,
 			1623114
@@ -447655,12 +439225,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -448116,8 +439680,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100456] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -448129,7 +439693,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -448242,12 +439806,6 @@ end)()
 			1623307,
 			1623308
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1623213,
 			1623214
@@ -448271,12 +439829,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -448896,8 +440448,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100461] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -448909,7 +440461,7 @@ end)()
 		investigation_ratio = 3,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -448978,12 +440530,6 @@ end)()
 		ai_expedition_list = {
 			1650301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1650013
 		},
@@ -449003,12 +440549,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -449435,8 +440975,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100462] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -449448,7 +440988,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -449517,12 +441057,6 @@ end)()
 		ai_expedition_list = {
 			1650302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1650113
 		},
@@ -449542,12 +441076,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -450015,8 +441543,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100463] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -450028,7 +441556,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -450098,12 +441626,6 @@ end)()
 			1650303,
 			1650304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1650213
 		},
@@ -450123,12 +441645,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -450706,8 +442222,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100464] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -450719,7 +442235,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -450789,12 +442305,6 @@ end)()
 			1651301,
 			1651302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1651013
 		},
@@ -450815,12 +442325,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -451282,8 +442786,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100465] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -451295,7 +442799,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -451365,12 +442869,6 @@ end)()
 			1651303,
 			1651304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1651113
 		},
@@ -451391,12 +442889,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -451879,8 +443371,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100466] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -451892,7 +443384,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -452011,12 +443503,6 @@ end)()
 			1651307,
 			1651308
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1651213,
 			1651214
@@ -452038,12 +443524,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -452635,8 +444115,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100471] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -452648,7 +444128,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -452759,12 +444239,6 @@ end)()
 			1652301,
 			1652302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1652013
 		},
@@ -452784,12 +444258,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -453216,8 +444684,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100472] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -453229,7 +444697,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -453340,12 +444808,6 @@ end)()
 			1652303,
 			1652304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1652113
 		},
@@ -453365,12 +444827,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -453838,8 +445294,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100473] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -453851,7 +445307,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -453963,12 +445419,6 @@ end)()
 			1652306,
 			1652307
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1652213
 		},
@@ -453988,12 +445438,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -454571,8 +446015,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100474] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -454584,7 +446028,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -454696,12 +446140,6 @@ end)()
 			1653302,
 			1653303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1653013
 		},
@@ -454722,12 +446160,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -455189,8 +446621,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100475] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -455202,7 +446634,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -455314,12 +446746,6 @@ end)()
 			1653305,
 			1653306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1653113
 		},
@@ -455342,12 +446768,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -455830,8 +447250,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100476] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -455843,7 +447263,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -456003,12 +447423,6 @@ end)()
 			1653309,
 			1653310
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1653213,
 			1653214
@@ -456032,12 +447446,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -456629,8 +448037,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100481] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -456642,7 +448050,7 @@ end)()
 		investigation_ratio = 3,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -456716,12 +448124,6 @@ end)()
 		ai_expedition_list = {
 			1660301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1660013
 		},
@@ -456741,12 +448143,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -457214,8 +448610,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100482] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -457227,7 +448623,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -457301,12 +448697,6 @@ end)()
 		ai_expedition_list = {
 			1660302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1660113
 		},
@@ -457326,12 +448716,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -457933,8 +449317,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100483] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -457946,7 +449330,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -458020,12 +449404,6 @@ end)()
 		ai_expedition_list = {
 			1660303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1660213
 		},
@@ -458045,12 +449423,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -458566,8 +449938,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100484] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -458579,7 +449951,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -458654,12 +450026,6 @@ end)()
 			1661301,
 			1661302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1661013
 		},
@@ -458680,12 +450046,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -459250,8 +450610,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100485] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -459263,7 +450623,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -459338,12 +450698,6 @@ end)()
 			1661303,
 			1661304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1661113
 		},
@@ -459364,12 +450718,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -459893,8 +451241,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100486] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -459906,7 +451254,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -459981,12 +451329,6 @@ end)()
 			1661305,
 			1661306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1661213
 		},
@@ -460007,12 +451349,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -460618,8 +451954,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100491] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -460631,7 +451967,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -460747,12 +452083,6 @@ end)()
 			1662301,
 			1662302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1662013
 		},
@@ -460772,12 +452102,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -461245,8 +452569,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100492] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -461258,7 +452582,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -461374,12 +452698,6 @@ end)()
 			1662303,
 			1662304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1662113
 		},
@@ -461399,12 +452717,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -462006,8 +453318,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100493] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -462019,7 +453331,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -462135,12 +453447,6 @@ end)()
 			1662305,
 			1662306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1662213
 		},
@@ -462160,12 +453466,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -462681,8 +453981,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100494] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -462694,7 +453994,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -462810,12 +454110,6 @@ end)()
 			1663301,
 			1663302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1663013
 		},
@@ -462836,12 +454130,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -463406,8 +454694,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100495] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -463419,7 +454707,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -463535,12 +454823,6 @@ end)()
 			1663303,
 			1663304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1663113
 		},
@@ -463563,12 +454845,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -464092,8 +455368,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100496] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -464105,7 +455381,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -464221,12 +455497,6 @@ end)()
 			1663305,
 			1663306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1663213
 		},
@@ -464249,12 +455519,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -464860,8 +456124,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100501] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -464873,7 +456137,7 @@ end)()
 		investigation_ratio = 3,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -464942,12 +456206,6 @@ end)()
 		ai_expedition_list = {
 			1640301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1640013
 		},
@@ -464967,12 +456225,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -465399,8 +456651,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100502] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -465412,7 +456664,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -465481,12 +456733,6 @@ end)()
 		ai_expedition_list = {
 			1640302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1640113
 		},
@@ -465506,12 +456752,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -465986,8 +457226,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100503] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -465999,7 +457239,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -466069,12 +457309,6 @@ end)()
 			1640303,
 			1640304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1640213
 		},
@@ -466094,12 +457328,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -466684,8 +457912,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100504] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -466697,7 +457925,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -466767,12 +457995,6 @@ end)()
 			1641301,
 			1641302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1641013
 		},
@@ -466793,12 +458015,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -467273,8 +458489,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100505] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -467286,7 +458502,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -467356,12 +458572,6 @@ end)()
 			1641303,
 			1641304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1641113
 		},
@@ -467382,12 +458592,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -467849,8 +459053,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100506] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -467862,7 +459066,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -467933,12 +459137,6 @@ end)()
 			1641306,
 			1641307
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1641213
 		},
@@ -467958,12 +459156,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -468582,8 +459774,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100511] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -468595,7 +459787,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -468706,12 +459898,6 @@ end)()
 			1642301,
 			1642302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1642013
 		},
@@ -468731,12 +459917,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -469163,8 +460343,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100512] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -469176,7 +460356,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -469287,12 +460467,6 @@ end)()
 			1642303,
 			1642304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1642113
 		},
@@ -469312,12 +460486,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -469792,8 +460960,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100513] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -469805,7 +460973,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -469917,12 +461085,6 @@ end)()
 			1642306,
 			1642307
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1642213
 		},
@@ -469942,12 +461104,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -470532,8 +461688,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100514] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -470545,7 +461701,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -470657,12 +461813,6 @@ end)()
 			1643302,
 			1643303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1643013
 		},
@@ -470683,12 +461833,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -471163,8 +462307,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100515] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -471176,7 +462320,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -471288,12 +462432,6 @@ end)()
 			1643305,
 			1643306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1643113
 		},
@@ -471316,12 +462454,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -471783,8 +462915,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100516] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -471796,7 +462928,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -471908,12 +463040,6 @@ end)()
 			1643308,
 			1643309
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1643213
 		},
@@ -471936,12 +463062,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -472560,8 +463680,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100521] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -472573,7 +463693,7 @@ end)()
 		investigation_ratio = 3,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -472643,12 +463763,6 @@ end)()
 			1680301,
 			1680302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1680013
 		},
@@ -472668,12 +463782,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -473134,8 +464242,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100522] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -473147,7 +464255,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -473217,12 +464325,6 @@ end)()
 			1680303,
 			1680304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1680113
 		},
@@ -473242,12 +464344,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -473722,8 +464818,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100523] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -473735,7 +464831,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -473806,12 +464902,6 @@ end)()
 			1680306,
 			1680307
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1680213
 		},
@@ -473831,12 +464921,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -474297,8 +465381,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100524] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -474310,7 +465394,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -474381,12 +465465,6 @@ end)()
 			1681302,
 			1681303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1681013
 		},
@@ -474407,12 +465485,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -474887,8 +465959,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100525] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -474900,7 +465972,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -474972,12 +466044,6 @@ end)()
 			1681306,
 			1681307
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1681113
 		},
@@ -474998,12 +466064,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -475569,8 +466629,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100526] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -475582,7 +466642,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -475654,12 +466714,6 @@ end)()
 			1681310,
 			1681311
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1681213
 		},
@@ -475680,12 +466734,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -476283,8 +467331,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100531] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -476296,7 +467344,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -476408,12 +467456,6 @@ end)()
 			1682302,
 			1682303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1682013
 		},
@@ -476433,12 +467475,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -476899,8 +467935,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100532] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -476912,7 +467948,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -477024,12 +468060,6 @@ end)()
 			1682305,
 			1682306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1682113
 		},
@@ -477049,12 +468079,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -477529,8 +468553,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100533] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -477542,7 +468566,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -477654,12 +468678,6 @@ end)()
 			1682308,
 			1682309
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1682213
 		},
@@ -477679,12 +468697,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -478145,8 +469157,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100534] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -478158,7 +469170,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -478270,12 +469282,6 @@ end)()
 			1683302,
 			1683303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1683013
 		},
@@ -478296,12 +469302,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -478776,8 +469776,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100535] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -478789,7 +469789,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -478902,12 +469902,6 @@ end)()
 			1683306,
 			1683307
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1683113
 		},
@@ -478930,12 +469924,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -479501,8 +470489,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100536] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -479514,7 +470502,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -479627,12 +470615,6 @@ end)()
 			1683310,
 			1683311
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1683213
 		},
@@ -479655,12 +470637,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -480258,8 +471234,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100541] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -480271,7 +471247,7 @@ end)()
 		investigation_ratio = 3,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -480343,12 +471319,6 @@ end)()
 			1700302,
 			1700303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1700013
 		},
@@ -480368,12 +471338,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -480839,8 +471803,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100542] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -480852,7 +471816,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -480924,12 +471888,6 @@ end)()
 			1700305,
 			1700306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1700113
 		},
@@ -480949,12 +471907,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -481421,8 +472373,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100543] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -481434,7 +472386,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -481506,12 +472458,6 @@ end)()
 			1700308,
 			1700309
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1700213
 		},
@@ -481531,12 +472477,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -482064,8 +473004,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100544] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -482077,7 +473017,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -482149,12 +473089,6 @@ end)()
 			1701302,
 			1701303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1701013
 		},
@@ -482175,12 +473109,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -482703,8 +473631,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100545] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -482716,7 +473644,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -482788,12 +473716,6 @@ end)()
 			1701305,
 			1701306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1701113
 		},
@@ -482814,12 +473736,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -483403,8 +474319,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100546] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -483416,7 +474332,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -483487,12 +474403,6 @@ end)()
 			1701307,
 			1701308
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1701213
 		},
@@ -483513,12 +474423,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -484123,8 +475027,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100551] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -484136,7 +475040,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -484249,12 +475153,6 @@ end)()
 			1702302,
 			1702303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1702013
 		},
@@ -484274,12 +475172,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -484745,8 +475637,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100552] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -484758,7 +475650,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -484871,12 +475763,6 @@ end)()
 			1702305,
 			1702306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1702113
 		},
@@ -484896,12 +475782,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -485368,8 +476248,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100553] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -485381,7 +476261,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -485494,12 +476374,6 @@ end)()
 			1702308,
 			1702309
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1702213
 		},
@@ -485519,12 +476393,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -486052,8 +476920,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100554] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -486065,7 +476933,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -486178,12 +477046,6 @@ end)()
 			1703302,
 			1703303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1703013
 		},
@@ -486204,12 +477066,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -486732,8 +477588,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100555] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -486745,7 +477601,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -486858,12 +477714,6 @@ end)()
 			1703305,
 			1703306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1703113
 		},
@@ -486886,12 +477736,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -487475,8 +478319,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2100556] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -487488,7 +478332,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -487600,12 +478444,6 @@ end)()
 			1703307,
 			1703308
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1703213
 		},
@@ -487628,12 +478466,6 @@ end)()
 			2,
 			0,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -488238,8 +479070,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200001] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 8,
@@ -488252,7 +479084,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -488307,12 +479139,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10500
 		},
@@ -488324,12 +479150,6 @@ end)()
 			1
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -488546,8 +479366,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200002] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 9,
@@ -488560,7 +479380,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -488626,12 +479446,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10501
 		},
@@ -488645,12 +479459,6 @@ end)()
 			3
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -488937,8 +479745,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200003] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 10,
@@ -488951,7 +479759,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -489017,12 +479825,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			10502
 		},
@@ -489036,12 +479838,6 @@ end)()
 			3
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -489358,8 +480154,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200011] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 8,
@@ -489372,7 +480168,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -489454,12 +480250,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1071500
 		},
@@ -489475,12 +480265,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -489853,8 +480637,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200012] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 9,
@@ -489867,7 +480651,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -489949,12 +480733,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1072500
 		},
@@ -489970,12 +480748,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -490447,8 +481219,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200013] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 10,
@@ -490461,7 +481233,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -490543,12 +481315,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1073500
 		},
@@ -490565,12 +481331,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -491099,8 +481859,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200021] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 9,
@@ -491113,7 +481873,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -491195,12 +481955,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1050500
 		},
@@ -491216,12 +481970,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -491702,8 +482450,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200022] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 10,
@@ -491716,7 +482464,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -491798,12 +482546,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1051500
 		},
@@ -491820,12 +482562,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -492320,8 +483056,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200023] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 11,
@@ -492334,7 +483070,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -492416,12 +483152,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1052500
 		},
@@ -492438,12 +483168,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -492945,8 +483669,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200031] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 12,
@@ -492959,7 +483683,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -493021,12 +483745,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1130500
 		},
@@ -493043,12 +483761,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -493366,8 +484078,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200032] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 14,
@@ -493380,7 +484092,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -493442,12 +484154,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1131500
 		},
@@ -493464,12 +484170,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -493848,8 +484548,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200033] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 16,
@@ -493862,7 +484562,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -493924,12 +484624,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1132500
 		},
@@ -493948,12 +484642,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -494369,8 +485057,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200041] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 8,
@@ -494383,7 +485071,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		id = 2200041,
@@ -494474,12 +485162,6 @@ end)()
 		ai_expedition_list = {
 			1280021
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1280013
 		},
@@ -494496,12 +485178,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -494873,8 +485549,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200042] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 9,
@@ -494887,7 +485563,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		id = 2200042,
@@ -494979,12 +485655,6 @@ end)()
 			1280051,
 			1280053
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1280043
 		},
@@ -495001,12 +485671,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -495469,8 +486133,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200043] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -495483,7 +486147,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		id = 2200043,
@@ -495576,12 +486240,6 @@ end)()
 			1280083,
 			1280085
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1280073
 		},
@@ -495598,12 +486256,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -496066,8 +486718,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200044] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 11,
@@ -496080,7 +486732,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		id = 2200044,
@@ -496173,12 +486825,6 @@ end)()
 			1280113,
 			1280115
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1280103
 		},
@@ -496196,12 +486842,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -496664,8 +487304,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200045] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -496678,7 +487318,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		id = 2200045,
@@ -496772,12 +487412,6 @@ end)()
 			1280145,
 			1280147
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1280133
 		},
@@ -496796,12 +487430,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -497257,8 +487885,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200051] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 12,
@@ -497271,7 +487899,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -497348,12 +487976,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1170101
 		},
@@ -497370,12 +487992,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -497693,8 +488309,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200052] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 14,
@@ -497707,7 +488323,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -497784,12 +488400,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1170102
 		},
@@ -497806,12 +488416,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -498190,8 +488794,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200053] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 16,
@@ -498204,7 +488808,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -498281,12 +488885,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1170103
 		},
@@ -498305,12 +488903,6 @@ end)()
 			0
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -498726,8 +489318,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200061] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 8,
@@ -498740,7 +489332,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -498818,12 +489410,6 @@ end)()
 		ai_expedition_list = {
 			1270062
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1270013
 		},
@@ -498840,12 +489426,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -499204,8 +489784,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200062] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 9,
@@ -499218,7 +489798,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -499297,12 +489877,6 @@ end)()
 			1270073,
 			1270074
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1270033
 		},
@@ -499319,12 +489893,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -499787,8 +490355,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200063] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -499801,7 +490369,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -499879,12 +490447,6 @@ end)()
 		ai_expedition_list = {
 			1270082
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1270053
 		},
@@ -499903,12 +490465,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -500329,8 +490885,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200071] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "LiveStart",
 		model = 2,
 		avoid_ratio = 10,
@@ -500343,7 +490899,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		id = 2200071,
@@ -500421,12 +490977,6 @@ end)()
 			1470301,
 			1470302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1470013
 		},
@@ -500443,12 +490993,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -500825,8 +491369,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200072] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "LiveStart",
 		model = 2,
 		avoid_ratio = 10,
@@ -500839,7 +491383,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		id = 2200072,
@@ -500918,12 +491462,6 @@ end)()
 			1471302,
 			1471303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1471013
 		},
@@ -500940,12 +491478,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -501406,8 +491938,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200073] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "LiveStart",
 		model = 2,
 		avoid_ratio = 10,
@@ -501420,7 +491952,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		id = 2200073,
@@ -501499,12 +492031,6 @@ end)()
 			1472302,
 			1472303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1472013
 		},
@@ -501521,12 +492047,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -501994,8 +492514,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200074] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "LiveStart",
 		model = 2,
 		avoid_ratio = 10,
@@ -502008,7 +492528,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		id = 2200074,
@@ -502087,12 +492607,6 @@ end)()
 			1473302,
 			1473303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1473013
 		},
@@ -502110,12 +492624,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -502597,8 +493105,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200075] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "LiveStart",
 		model = 2,
 		avoid_ratio = 10,
@@ -502611,7 +493119,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		id = 2200075,
@@ -502697,12 +493205,6 @@ end)()
 			1474302,
 			1474303
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1474013
 		},
@@ -502721,12 +493223,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -503412,8 +493908,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200082] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 8,
@@ -503426,7 +493922,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -503469,12 +493965,6 @@ end)()
 		ai_expedition_list = {
 			1210111
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1210113
 		},
@@ -503489,12 +493979,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -504040,8 +494524,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200083] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 9,
@@ -504054,7 +494538,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -504097,12 +494581,6 @@ end)()
 		ai_expedition_list = {
 			1210211
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1210213
 		},
@@ -504117,12 +494595,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -504677,8 +495149,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200084] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -504691,7 +495163,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -504734,12 +495206,6 @@ end)()
 		ai_expedition_list = {
 			1210311
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1210313
 		},
@@ -504755,12 +495221,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -505309,8 +495769,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200091] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -505323,7 +495783,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -505376,12 +495836,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1380013
 		},
@@ -505398,12 +495852,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -505827,8 +496275,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200092] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -505841,7 +496289,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -505894,12 +496342,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1380113
 		},
@@ -505916,12 +496358,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -506405,8 +496841,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200093] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 16,
@@ -506419,7 +496855,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -506472,12 +496908,6 @@ end)()
 		ai_expedition_list = {
 			1
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1380213
 		},
@@ -506496,12 +496926,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -506980,8 +497404,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200101] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 12,
@@ -506994,7 +497418,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -507033,12 +497457,6 @@ end)()
 		ai_expedition_list = {
 			1400302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1400013
 		},
@@ -507055,12 +497473,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -507631,8 +498043,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200102] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 14,
@@ -507645,7 +498057,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -507684,12 +498096,6 @@ end)()
 		ai_expedition_list = {
 			1400304
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1400113
 		},
@@ -507706,12 +498112,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -508289,8 +498689,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200103] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 1,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 16,
@@ -508303,7 +498703,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -508342,12 +498742,6 @@ end)()
 		ai_expedition_list = {
 			1400306
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1400213
 		},
@@ -508366,12 +498760,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -508942,8 +499330,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200111] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 12,
@@ -508956,7 +499344,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -509018,12 +499406,6 @@ end)()
 			1460008
 		},
 		ai_expedition_list = {},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1460013
 		},
@@ -509038,12 +499420,6 @@ end)()
 			1
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -509449,8 +499825,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200112] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 14,
@@ -509463,7 +499839,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -509525,12 +499901,6 @@ end)()
 			1461008
 		},
 		ai_expedition_list = {},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1461013
 		},
@@ -509545,12 +499915,6 @@ end)()
 			1
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -509968,8 +500332,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200113] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 16,
@@ -509982,7 +500346,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -510044,12 +500408,6 @@ end)()
 			1462008
 		},
 		ai_expedition_list = {},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1462013
 		},
@@ -510066,12 +500424,6 @@ end)()
 			1
 		},
 		ai_refresh = {
-			0
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
 			0
 		},
 		grids = {
@@ -510484,8 +500836,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200121] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 8,
@@ -510498,7 +500850,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -510553,12 +500905,6 @@ end)()
 			1580022,
 			1580023
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1580013
 		},
@@ -510575,12 +500921,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -511008,8 +501348,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200122] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 9,
@@ -511022,7 +501362,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -511077,12 +501417,6 @@ end)()
 			1580122,
 			1580123
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1580113
 		},
@@ -511099,12 +501433,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -511581,8 +501909,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200123] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 1,
 		avoid_ratio = 10,
@@ -511595,7 +501923,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -511650,12 +501978,6 @@ end)()
 			1580222,
 			1580223
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1580213
 		},
@@ -511674,12 +501996,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -512210,8 +502526,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200131] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 8,
@@ -512224,7 +502540,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -512294,12 +502610,6 @@ end)()
 			1630301,
 			1630302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1630013
 		},
@@ -512316,12 +502626,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -512731,8 +503035,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200132] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 9,
@@ -512745,7 +503049,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -512815,12 +503119,6 @@ end)()
 			1631301,
 			1631302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1631013
 		},
@@ -512837,12 +503135,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -513314,8 +503606,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200133] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -513328,7 +503620,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -513398,12 +503690,6 @@ end)()
 			1632301,
 			1632302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1632013
 		},
@@ -513420,12 +503706,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -513897,8 +504177,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200134] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 11,
@@ -513911,7 +504191,7 @@ end)()
 		wall_prefab = "",
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -513981,12 +504261,6 @@ end)()
 			1633301,
 			1633302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1633013
 		},
@@ -514004,12 +504278,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -514488,8 +504756,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200141] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -514501,7 +504769,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -514570,12 +504838,6 @@ end)()
 		ai_expedition_list = {
 			1760301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1760013
 		},
@@ -514592,12 +504854,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -515120,8 +505376,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200142] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -515133,7 +505389,7 @@ end)()
 		investigation_ratio = 4,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -515202,12 +505458,6 @@ end)()
 		ai_expedition_list = {
 			1761301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1761013
 		},
@@ -515224,12 +505474,6 @@ end)()
 		},
 		ai_refresh = {
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -515752,8 +505996,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200143] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -515765,7 +506009,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -515835,12 +506079,6 @@ end)()
 			1762301,
 			1762302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1762013
 		},
@@ -515857,12 +506095,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -516455,8 +506687,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200144] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -516468,7 +506700,7 @@ end)()
 		investigation_ratio = 5,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -516538,12 +506770,6 @@ end)()
 			1763301,
 			1763302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1763013
 		},
@@ -516561,12 +506787,6 @@ end)()
 		},
 		ai_refresh = {
 			2
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -517152,8 +507372,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200145] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -517165,7 +507385,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -517234,12 +507454,6 @@ end)()
 		ai_expedition_list = {
 			1764301
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1764013
 		},
@@ -517258,12 +507472,6 @@ end)()
 		ai_refresh = {
 			2,
 			1
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{
@@ -517929,8 +508137,8 @@ end)()
 (function()
 	_G.pg.base.chapter_template_loop[2200146] = {
 		group_num = 2,
+		friendly_id = 0,
 		is_ai = 0,
-		is_ambush = 0,
 		pop_pic = "",
 		model = 2,
 		avoid_ratio = 10,
@@ -517942,7 +508150,7 @@ end)()
 		investigation_ratio = 6,
 		air_dominance_loop_rate = 80,
 		is_air_attack = 0,
-		friendly_id = 0,
+		is_ambush = 0,
 		time = 43200,
 		slg_effect = "",
 		chapter_fx = "",
@@ -518012,12 +508220,6 @@ end)()
 			1765301,
 			1765302
 		},
-		patrolai_expedition_list = {
-			1
-		},
-		submarine_expedition_list = {
-			1
-		},
 		boss_expedition_id = {
 			1765013
 		},
@@ -518029,12 +508231,6 @@ end)()
 		},
 		ai_refresh = {
 			3
-		},
-		patrolai_refresh = {
-			0
-		},
-		submarine_refresh = {
-			0
 		},
 		grids = {
 			{

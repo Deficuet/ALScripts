@@ -508,6 +508,10 @@ function var_0_0.getIslandPanelActivities(arg_48_0)
 			local var_49_3 = arg_48_0:isSurveyDone()
 
 			var_49_1 = var_49_2 and not var_49_3
+
+			if PLATFORM == PLATFORM_OPENHARMONY then
+				var_49_1 = false
+			end
 		end
 
 		return var_49_1 and not arg_49_0:isEnd()

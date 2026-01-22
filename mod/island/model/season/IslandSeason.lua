@@ -17,91 +17,95 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0.localTipKey = var_0_0.RESET_TIP_KEY .. "_" .. getProxy(PlayerProxy):getRawData().id .. "_" .. arg_1_0.id
 end
 
-function var_0_0.bindConfigTable(arg_2_0)
+function var_0_0.IsEnd(arg_2_0)
+	return pg.TimeMgr.GetInstance():GetServerTime() >= arg_2_0.endTime
+end
+
+function var_0_0.bindConfigTable(arg_3_0)
 	return pg.island_season
 end
 
-function var_0_0.GetTimeStr(arg_3_0)
-	local var_3_0 = arg_3_0:getConfig("time")
-	local var_3_1 = var_3_0[1][1]
-	local var_3_2 = var_3_0[2][1]
+function var_0_0.GetTimeStr(arg_4_0)
+	local var_4_0 = arg_4_0:getConfig("time")
+	local var_4_1 = var_4_0[1][1]
+	local var_4_2 = var_4_0[2][1]
 
-	return string.format("%d.%d.%d - %d.%d.%d", var_3_1[1], var_3_1[2], var_3_1[3], var_3_2[1], var_3_2[2], var_3_2[3])
+	return string.format("%d.%d.%d - %d.%d.%d", var_4_1[1], var_4_1[2], var_4_1[3], var_4_2[1], var_4_2[2], var_4_2[3])
 end
 
-function var_0_0.GetRemainTime(arg_4_0)
-	return arg_4_0.endTime - pg.TimeMgr.GetInstance():GetServerTime()
+function var_0_0.GetRemainTime(arg_5_0)
+	return arg_5_0.endTime - pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function var_0_0.NeedTip(arg_5_0)
-	local var_5_0 = arg_5_0.endTime - pg.TimeMgr.GetInstance():GetServerTime()
-	local var_5_1 = math.floor(var_5_0 / 86400)
+function var_0_0.NeedTip(arg_6_0)
+	local var_6_0 = arg_6_0.endTime - pg.TimeMgr.GetInstance():GetServerTime()
+	local var_6_1 = math.floor(var_6_0 / 86400)
 
-	if var_5_1 > 3 then
+	if var_6_1 > 3 then
 		return false
 	end
 
-	if PlayerPrefs.GetInt(arg_5_0.localTipKey .. "_" .. arg_5_0:GetTipStamp(var_5_1)) == 1 then
+	if PlayerPrefs.GetInt(arg_6_0.localTipKey .. "_" .. arg_6_0:GetTipStamp(var_6_1)) == 1 then
 		return false
 	end
 
-	return true, var_5_1, math.floor(var_5_0 / 3600)
+	return true, var_6_1, math.floor(var_6_0 / 3600)
 end
 
-function var_0_0.SetTipFlag(arg_6_0, arg_6_1)
-	PlayerPrefs.SetInt(arg_6_0.localTipKey .. "_" .. arg_6_0:GetTipStamp(arg_6_1), 1)
+function var_0_0.SetTipFlag(arg_7_0, arg_7_1)
+	PlayerPrefs.SetInt(arg_7_0.localTipKey .. "_" .. arg_7_0:GetTipStamp(arg_7_1), 1)
 end
 
-function var_0_0.GetTipStamp(arg_7_0, arg_7_1)
-	return arg_7_1 .. "_" .. arg_7_0.endTime - arg_7_1 * 86400
+function var_0_0.GetTipStamp(arg_8_0, arg_8_1)
+	return arg_8_1 .. "_" .. arg_8_0.endTime - arg_8_1 * 86400
 end
 
-function var_0_0.AddPt(arg_8_0, arg_8_1)
-	if arg_8_0.pt == 0 then
+function var_0_0.AddPt(arg_9_0, arg_9_1)
+	if arg_9_0.pt == 0 then
 		IslandAchievementHelper.UpdateRecordWithAdd(IslandAchievementType.SEASON_NUM, 0, 1)
 	end
 
-	arg_8_0.pt = arg_8_0.pt + arg_8_1
+	arg_9_0.pt = arg_9_0.pt + arg_9_1
 end
 
-function var_0_0.GetPt(arg_9_0)
-	return arg_9_0.pt
+function var_0_0.GetPt(arg_10_0)
+	return arg_10_0.pt
 end
 
-function var_0_0.GetGotPtAwardList(arg_10_0)
-	return arg_10_0.gotPtAwardList
+function var_0_0.GetGotPtAwardList(arg_11_0)
+	return arg_11_0.gotPtAwardList
 end
 
-function var_0_0.AddGotPtAwardList(arg_11_0, arg_11_1)
-	if arg_11_1 == 0 then
-		for iter_11_0, iter_11_1 in ipairs(arg_11_0:getConfig("target")) do
-			if iter_11_1 <= arg_11_0.pt and not table.contains(arg_11_0.gotPtAwardList, iter_11_1) then
-				table.insert(arg_11_0.gotPtAwardList, iter_11_1)
+function var_0_0.AddGotPtAwardList(arg_12_0, arg_12_1)
+	if arg_12_1 == 0 then
+		for iter_12_0, iter_12_1 in ipairs(arg_12_0:getConfig("target")) do
+			if iter_12_1 <= arg_12_0.pt and not table.contains(arg_12_0.gotPtAwardList, iter_12_1) then
+				table.insert(arg_12_0.gotPtAwardList, iter_12_1)
 			end
 		end
 	else
-		table.insert(arg_11_0.gotPtAwardList, arg_11_1)
+		table.insert(arg_12_0.gotPtAwardList, arg_12_1)
 	end
 end
 
-function var_0_0.GanGetPtAward(arg_12_0)
-	return underscore.any(arg_12_0:getConfig("target"), function(arg_13_0)
-		return arg_13_0 <= arg_12_0.pt and not table.contains(arg_12_0.gotPtAwardList, arg_13_0)
+function var_0_0.GanGetPtAward(arg_13_0)
+	return underscore.any(arg_13_0:getConfig("target"), function(arg_14_0)
+		return arg_14_0 <= arg_13_0.pt and not table.contains(arg_13_0.gotPtAwardList, arg_14_0)
 	end)
 end
 
-function var_0_0.GetTaskIds(arg_14_0)
-	return arg_14_0:getConfig("task_list")
+function var_0_0.GetTaskIds(arg_15_0)
+	return arg_15_0:getConfig("task_list")
 end
 
-function var_0_0.GetAwardsByRank(arg_15_0, arg_15_1)
-	local var_15_0 = pg.island_season[arg_15_0].rank
-	local var_15_1 = pg.island_season[arg_15_0].rankaward_display
+function var_0_0.GetAwardsByRank(arg_16_0, arg_16_1)
+	local var_16_0 = pg.island_season[arg_16_0].rank
+	local var_16_1 = pg.island_season[arg_16_0].rankaward_display
 
-	for iter_15_0, iter_15_1 in ipairs(var_15_0) do
-		if arg_15_1 >= iter_15_1[1] and arg_15_1 <= iter_15_1[2] then
-			return underscore.map(var_15_1[iter_15_0], function(arg_16_0)
-				return Drop.Create(arg_16_0)
+	for iter_16_0, iter_16_1 in ipairs(var_16_0) do
+		if arg_16_1 >= iter_16_1[1] and arg_16_1 <= iter_16_1[2] then
+			return underscore.map(var_16_1[iter_16_0], function(arg_17_0)
+				return Drop.Create(arg_17_0)
 			end)
 		end
 	end
@@ -109,19 +113,19 @@ function var_0_0.GetAwardsByRank(arg_15_0, arg_15_1)
 	return {}
 end
 
-function var_0_0.GetPtAwardInfos(arg_17_0)
-	local var_17_0 = {}
-	local var_17_1 = pg.island_season[arg_17_0]
+function var_0_0.GetPtAwardInfos(arg_18_0)
+	local var_18_0 = {}
+	local var_18_1 = pg.island_season[arg_18_0]
 
-	for iter_17_0, iter_17_1 in ipairs(var_17_1.target) do
-		table.insert(var_17_0, {
-			target = iter_17_1,
-			drop = Drop.Create(var_17_1.ptaward_display[iter_17_0]),
-			isImportant = table.contains(var_17_1.ptaward_highvalue, iter_17_0)
+	for iter_18_0, iter_18_1 in ipairs(var_18_1.target) do
+		table.insert(var_18_0, {
+			target = iter_18_1,
+			drop = Drop.Create(var_18_1.ptaward_display[iter_18_0]),
+			isImportant = table.contains(var_18_1.ptaward_highvalue, iter_18_0)
 		})
 	end
 
-	return var_17_0
+	return var_18_0
 end
 
 return var_0_0

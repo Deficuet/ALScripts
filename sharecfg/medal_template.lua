@@ -2674,6 +2674,27 @@ pg.medal_template = {
 		target_num = 8,
 		target_id = "50295"
 	},
+	[200121] = {
+		explain1 = "「光影风尚，拍摄进行时！」",
+		name = "光影风尚纪念勋章",
+		explain2 = "活动纪念",
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "时尚雷达全开，进入拍摄状态！按下快门，捕捉时尚的每一面吧！\n——你就是今日的时尚记录官！",
+		next = 0,
+		icon = "9121",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9121",
+		condition = "收集8个「光影风尚——拍摄进行时！」纪念贴纸。",
+		rank = 1,
+		id = 200121,
+		target_num = 8,
+		target_id = "50359"
+	},
 	all = {
 		10011,
 		10012,
@@ -2796,6 +2817,7 @@ pg.medal_template = {
 		200081,
 		200091,
 		200101,
-		200111
+		200111,
+		200121
 	}
 }

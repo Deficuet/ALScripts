@@ -51,12 +51,12 @@ function var_0_0.OnDestroy(arg_5_0)
 end
 
 function var_0_0.Show(arg_6_0)
-	local var_6_0 = arg_6_0.chapter:getConfig("special_operation_list")
+	local var_6_0 = noEmptyStr(arg_6_0.chapter:getConfig("special_operation_list"))
 	local var_6_1 = arg_6_0.chapter:GetDailyBonusQuota()
 
 	arg_6_0:initSPOPView()
 
-	if type(var_6_0) == "table" and #var_6_0 > 0 and not var_6_1 then
+	if var_6_0 and #var_6_0 > 0 and not var_6_1 then
 		setActive(arg_6_0.btnSp, true)
 	else
 		setActive(arg_6_0.btnSp, false)
@@ -1958,11 +1958,16 @@ function var_0_0.initSPOPView(arg_126_0)
 	elseif #var_126_0 == 1 then
 		local var_126_2 = var_126_0[1]
 		local var_126_3 = pg.benefit_buff_template[var_126_2]
+		local var_126_4 = ActivityBuff.GetBenefitCondition(var_126_3.benefit_condition)
 
-		arg_126_0:setTicketInfo(arg_126_0.btnSp, var_126_3.benefit_condition)
+		assert(var_126_4[1] == "item")
+
+		local var_126_5 = var_126_4[2]
+
+		arg_126_0:setTicketInfo(arg_126_0.btnSp, var_126_5)
 		setText(arg_126_0.spDesc, var_126_3.desc)
 		onButton(arg_126_0, arg_126_0.btnSp:Find("item"), function()
-			arg_126_0:emit(BaseUI.ON_ITEM, tonumber(var_126_3.benefit_condition))
+			arg_126_0:emit(BaseUI.ON_ITEM, var_126_5)
 		end)
 		onButton(arg_126_0, arg_126_0.btnSp, function()
 			local var_128_0 = Chapter.GetSPOperationItemCacheKey(arg_126_0.chapter.id)
@@ -1971,7 +1976,7 @@ function var_0_0.initSPOPView(arg_126_0)
 				PlayerPrefs.SetInt(var_128_0, 0)
 				arg_126_0:clearSPBuff()
 			else
-				arg_126_0.spItemID = tonumber(var_126_3.benefit_condition)
+				arg_126_0.spItemID = var_126_5
 
 				PlayerPrefs.SetInt(var_128_0, arg_126_0.spItemID)
 				pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_select_sp"))
@@ -1984,12 +1989,17 @@ function var_0_0.initSPOPView(arg_126_0)
 		setText(arg_126_0.spDesc, i18n("levelScene_select_SP_OP"))
 
 		for iter_126_0, iter_126_1 in ipairs(var_126_0) do
-			local var_126_4 = cloneTplTo(arg_126_0.spTpl, arg_126_0.spContainer)
+			local var_126_6 = ActivityBuff.GetBenefitCondition(iter_126_1.benefit_condition)
 
-			setText(var_126_4:Find("desc"), iter_126_1.desc)
-			arg_126_0:setTicketInfo(var_126_4, iter_126_1.benefit_condition)
-			setActive(var_126_4:Find("block"), false)
-			onButton(arg_126_0, var_126_4, function()
+			assert(var_126_6[1] == "item")
+
+			local var_126_7 = var_126_6[2]
+			local var_126_8 = cloneTplTo(arg_126_0.spTpl, arg_126_0.spContainer)
+
+			setText(var_126_8:Find("desc"), iter_126_1.desc)
+			arg_126_0:setTicketInfo(var_126_8, var_126_7)
+			setActive(var_126_8:Find("block"), false)
+			onButton(arg_126_0, var_126_8, function()
 				arg_126_0:setSPBuffSelected(iter_126_1.id)
 				setActive(arg_126_0.spPanel, false)
 			end)
@@ -2011,20 +2021,20 @@ function var_0_0.initSPOPView(arg_126_0)
 		end)
 
 		if var_126_1 ~= 0 then
-			local var_126_5
+			local var_126_9
 
 			for iter_126_2, iter_126_3 in ipairs(var_126_0) do
 				if iter_126_3.id == Chapter.GetSPBuffByItem(var_126_1) then
-					var_126_5 = true
+					var_126_9 = true
 
 					break
 				end
 			end
 
-			if var_126_5 then
-				local var_126_6 = Chapter.GetSPBuffByItem(var_126_1)
+			if var_126_9 then
+				local var_126_10 = Chapter.GetSPBuffByItem(var_126_1)
 
-				arg_126_0:setSPBuffSelected(var_126_6)
+				arg_126_0:setSPBuffSelected(var_126_10)
 			else
 				arg_126_0:clearSPBuff()
 			end
@@ -2038,15 +2048,18 @@ end
 
 function var_0_0.setSPBuffSelected(arg_131_0, arg_131_1)
 	local var_131_0 = pg.benefit_buff_template[arg_131_1]
+	local var_131_1 = ActivityBuff.GetBenefitCondition(var_131_0.benefit_condition)
 
-	arg_131_0.spItemID = tonumber(var_131_0.benefit_condition)
+	assert(var_131_1[1] == "item")
+
+	arg_131_0.spItemID = var_131_1[2]
 
 	arg_131_0:setTicketInfo(arg_131_0.btnSp, arg_131_0.spItemID)
 	setText(arg_131_0.spDesc, var_131_0.desc)
 
-	local var_131_1 = Chapter.GetSPOperationItemCacheKey(arg_131_0.chapter.id)
+	local var_131_2 = Chapter.GetSPOperationItemCacheKey(arg_131_0.chapter.id)
 
-	PlayerPrefs.SetInt(var_131_1, arg_131_0.spItemID)
+	PlayerPrefs.SetInt(var_131_2, arg_131_0.spItemID)
 end
 
 function var_0_0.clearSPBuff(arg_132_0)

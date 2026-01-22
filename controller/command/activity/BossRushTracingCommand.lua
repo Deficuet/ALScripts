@@ -31,17 +31,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 
 	local var_1_6 = var_1_5:GetFleetIds()
 	local var_1_7 = var_1_0.mode
-	local var_1_8 = Clone(var_1_6)
-	local var_1_9 = {
-		table.remove(var_1_8)
-	}
-
-	if var_1_7 == BossRushSeriesData.MODE.SINGLE then
-		var_1_8 = {
-			table.remove(var_1_8, 1)
-		}
-	end
-
+	local var_1_8, var_1_9 = var_1_5:GetModeFleetIDs(var_1_7)
 	local var_1_10 = getProxy(FleetProxy):getActivityFleets()[var_1_2]
 	local var_1_11 = _.map(var_1_8, function(arg_2_0)
 		return var_1_10[arg_2_0]
@@ -83,20 +73,13 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		end
 
 		local var_3_6 = #var_1_5:GetExpeditionIds()
+		local var_3_7 = var_3_5(var_1_12, var_3_3[2]) * var_3_6
 
-		if var_1_7 == BossRushSeriesData.MODE.SINGLE then
-			var_3_0 = var_3_0 + var_3_5(var_1_11[1], var_3_3[1])
-			var_3_0 = var_3_0 + var_3_5(var_1_12, var_3_3[2])
-			var_3_0 = var_3_0 * var_3_6
-		else
-			var_3_0 = var_3_5(var_1_12, var_3_3[2]) * var_3_6
-
-			_.each(var_1_11, function(arg_5_0)
-				var_3_0 = var_3_0 + var_3_5(arg_5_0, var_3_3[1])
-			end)
+		for iter_3_0 = 1, var_3_6 do
+			var_3_7 = var_3_7 + var_3_5(var_1_11[iter_3_0] or var_1_11[1], var_3_3[1])
 		end
 
-		return var_3_0
+		return var_3_7
 	end)()
 	local var_1_14 = var_1_5:GetOilCost()
 	local var_1_15 = var_1_13 + var_1_14
@@ -116,33 +99,33 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		arg2 = var_1_7,
 		arg_list = var_1_8,
 		arg_list2 = var_1_9
-	}, 11203, function(arg_6_0)
-		if arg_6_0.result == 0 then
+	}, 11203, function(arg_5_0)
+		if arg_5_0.result == 0 then
 			getProxy(ActivityProxy):getActivityById(var_1_2):SetSeriesData(var_1_5)
 
 			if var_1_14 > 0 then
-				local var_6_0 = getProxy(PlayerProxy):getRawData()
+				local var_5_0 = getProxy(PlayerProxy):getRawData()
 
-				var_6_0:consume({
+				var_5_0:consume({
 					oil = var_1_14
 				})
-				getProxy(PlayerProxy):updatePlayer(var_6_0)
+				getProxy(PlayerProxy):updatePlayer(var_5_0)
 			end
 
 			;(function()
-				local var_7_0 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_EXTRA_BOSSRUSH_RANK)
+				local var_6_0 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_EXTRA_BOSSRUSH_RANK)
 
-				if not var_7_0 then
+				if not var_6_0 then
 					return
 				end
 
-				var_7_0:ResetLast()
-				getProxy(ActivityProxy):updateActivity(var_7_0)
+				var_6_0:ResetLast()
+				getProxy(ActivityProxy):updateActivity(var_6_0)
 			end)()
 			arg_1_0:sendNotification(GAME.BOSSRUSH_TRACE_DONE, var_1_5)
 		else
-			pg.TipsMgr.GetInstance():ShowTips(errorTip("", arg_6_0.result))
-			arg_1_0:sendNotification(GAME.BOSSRUSH_TRACE_ERROR, arg_6_0.result)
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("", arg_5_0.result))
+			arg_1_0:sendNotification(GAME.BOSSRUSH_TRACE_ERROR, arg_5_0.result)
 		end
 	end)
 end

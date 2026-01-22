@@ -727,6 +727,99 @@ var_0_0.ship_drag_datas = {
 				}
 			}
 		}
+	},
+	alabama_3 = {
+		click_trigger = true,
+		multiple_face = {
+			name = {
+				"alabama_3"
+			},
+			data = {
+				{
+					"normal",
+					0
+				},
+				{
+					"ex",
+					9
+				}
+			}
+		},
+		hit_area = {
+			"drag"
+		},
+		drag_data = {
+			type = var_0_0.drag_type_normal,
+			config_client = {
+				{
+					is_default = true,
+					idle = "normal",
+					action = "drag",
+					change_idle = "ex"
+				},
+				{
+					is_default = false,
+					idle = "ex",
+					action = "drag_ex",
+					change_idle = "normal"
+				}
+			}
+		}
+	},
+	fulangxisike_2 = {
+		click_trigger = true,
+		multiple_face = {
+			name = {
+				"fulangxisike_2"
+			},
+			data = {
+				{
+					"normal",
+					0
+				},
+				{
+					"ex",
+					4
+				}
+			}
+		},
+		hit_area = {
+			"drag",
+			"touch_head"
+		},
+		drag_data = {
+			type = var_0_0.drag_type_normal,
+			config_client = {
+				{
+					is_default = true,
+					idle = "normal",
+					action = "drag",
+					change_idle = "ex"
+				},
+				{
+					is_default = false,
+					idle = "ex",
+					action = "drag_ex",
+					change_idle = "normal"
+				},
+				{
+					change_idle = "normal",
+					idle = "normal",
+					action = "touch_head",
+					is_default = true,
+					event = "TouchHead",
+					hit = "touch_head"
+				},
+				{
+					change_idle = "ex",
+					idle = "ex",
+					action = "touch_head",
+					is_default = false,
+					event = "TouchHead",
+					hit = "touch_head"
+				}
+			}
+		}
 	}
 }
 var_0_0.ship_effect_action_able = {

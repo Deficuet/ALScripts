@@ -516,7 +516,7 @@ function var_0_0.recommendActivityFleet(arg_33_0, arg_33_1, arg_33_2)
 		local var_34_0 = var_33_1:getActivityRecommendShips(arg_34_0, var_33_0.ships, arg_34_1, arg_33_1)
 
 		for iter_34_0, iter_34_1 in ipairs(var_34_0) do
-			var_33_0:insertShip(iter_34_1, nil, teamType)
+			var_33_0:insertShip(iter_34_1, nil, iter_34_1:getTeamType())
 		end
 	end
 
@@ -581,64 +581,72 @@ function var_0_0.GetBossRushFleets(arg_37_0, arg_37_1, arg_37_2)
 	return var_37_0
 end
 
-function var_0_0.CommanderManualTaskProgressAdd(arg_39_0, arg_39_1)
-	local var_39_0 = getProxy(CommanderManualProxy)
-	local var_39_1 = arg_39_1:isLegalToFight()
+function var_0_0.IsBossRushFleetsEmpty(arg_39_0, arg_39_1, arg_39_2)
+	local var_39_0 = arg_39_0:getActivityFleets()[arg_39_1]
 
-	if var_39_1 == true and #arg_39_1.vanguardShips >= TeamType.VanguardMax then
-		var_39_0:TaskProgressAdd(2013, 1)
+	return underscore.all(arg_39_2, function(arg_40_0)
+		return not var_39_0[arg_40_0]
+	end)
+end
 
-		local var_39_2 = {
+function var_0_0.CommanderManualTaskProgressAdd(arg_41_0, arg_41_1)
+	local var_41_0 = getProxy(CommanderManualProxy)
+	local var_41_1 = arg_41_1:isLegalToFight()
+
+	if var_41_1 == true and #arg_41_1.vanguardShips >= TeamType.VanguardMax then
+		var_41_0:TaskProgressAdd(2013, 1)
+
+		local var_41_2 = {
 			ShipType.QuZhu,
 			ShipType.QingXun,
 			ShipType.ZhongXun
 		}
 
-		for iter_39_0, iter_39_1 in ipairs(arg_39_1.vanguardShips) do
-			local var_39_3 = getProxy(BayProxy):getShipById(iter_39_1):getConfig("type")
+		for iter_41_0, iter_41_1 in ipairs(arg_41_1.vanguardShips) do
+			local var_41_3 = getProxy(BayProxy):getShipById(iter_41_1):getConfig("type")
 
-			if table.contains(var_39_2, var_39_3) then
-				table.removebyvalue(var_39_2, var_39_3)
+			if table.contains(var_41_2, var_41_3) then
+				table.removebyvalue(var_41_2, var_41_3)
 			end
 		end
 
-		if #var_39_2 == 0 then
-			var_39_0:TaskProgressAdd(2014, 1)
+		if #var_41_2 == 0 then
+			var_41_0:TaskProgressAdd(2014, 1)
 		end
 	end
 
-	if var_39_1 == true and #arg_39_1.mainShips >= TeamType.MainMax then
-		var_39_0:TaskProgressAdd(2015, 1)
+	if var_41_1 == true and #arg_41_1.mainShips >= TeamType.MainMax then
+		var_41_0:TaskProgressAdd(2015, 1)
 
-		local var_39_4 = {
+		local var_41_4 = {
 			ShipType.ZhengHang,
 			ShipType.ZhanLie,
 			ShipType.ZhanLie
 		}
 
-		for iter_39_2, iter_39_3 in ipairs(arg_39_1.mainShips) do
-			local var_39_5 = getProxy(BayProxy):getShipById(iter_39_3):getConfig("type")
+		for iter_41_2, iter_41_3 in ipairs(arg_41_1.mainShips) do
+			local var_41_5 = getProxy(BayProxy):getShipById(iter_41_3):getConfig("type")
 
-			if table.contains(var_39_4, var_39_5) then
-				table.removebyvalue(var_39_4, var_39_5)
+			if table.contains(var_41_4, var_41_5) then
+				table.removebyvalue(var_41_4, var_41_5)
 			end
 		end
 
-		if #var_39_4 == 0 then
-			var_39_0:TaskProgressAdd(2016, 1)
+		if #var_41_4 == 0 then
+			var_41_0:TaskProgressAdd(2016, 1)
 		end
 	end
 
-	if var_39_1 == true and arg_39_1:GetGearScoreSum() > 1000 then
-		var_39_0:TaskProgressAdd(2017, 1)
+	if var_41_1 == true and arg_41_1:GetGearScoreSum() > 1000 then
+		var_41_0:TaskProgressAdd(2017, 1)
 	end
 
-	if var_39_1 == true and arg_39_1:getFleetType() == FleetType.Submarine then
-		var_39_0:TaskProgressAdd(2018, 1)
+	if var_41_1 == true and arg_41_1:getFleetType() == FleetType.Submarine then
+		var_41_0:TaskProgressAdd(2018, 1)
 	end
 
-	if var_39_1 == true and not arg_39_1:isFirstFleet() and not arg_39_1:isSubmarineFleet() then
-		var_39_0:TaskProgressAdd(2019, 1)
+	if var_41_1 == true and not arg_41_1:isFirstFleet() and not arg_41_1:isSubmarineFleet() then
+		var_41_0:TaskProgressAdd(2019, 1)
 	end
 end
 

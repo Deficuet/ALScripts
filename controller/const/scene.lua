@@ -845,6 +845,10 @@ local var_0_0 = {
 
 		arg_132_0.mediator = var_132_1
 		arg_132_0.viewComponent = var_132_0
+
+		arg_132_0:extendData({
+			activityID = var_132_2.id
+		})
 	end,
 	[SCENE.BOSSRUSH_DAL_COLLAB] = function(arg_134_0, arg_134_1)
 		arg_134_0.mediator = BossRushDALCollabMediator

@@ -560,12 +560,7 @@ return {
 					luck = 99,
 					hit = 9999
 				},
-				skills = {
-					{
-						id = 201681,
-						level = 10
-					}
-				}
+				skills = {}
 			},
 			{
 				tmpID = 9707084,

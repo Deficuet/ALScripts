@@ -165045,6 +165045,498 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[21883] = {
+		name = "『撒丁SP』纪念任务1",
+		guild_coin_award = 0,
+		award = 908553,
+		type = 26,
+		desc = "收集全套「光影风尚——拍摄进行时！」纪念贴纸",
+		count_inherit = 0,
+		sub_type = 131,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "50359",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21883,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65802,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21884] = {
+		name = "『撒丁SP』纪念贴纸获取1",
+		guild_coin_award = 0,
+		award = 908554,
+		type = 26,
+		desc = "收集7个「光影风尚——拍摄进行时！」纪念贴纸",
+		count_inherit = 0,
+		sub_type = 131,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "50359",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21884,
+		target_num = 7,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65803,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21885] = {
+		name = "『撒丁SP』纪念贴纸获取2",
+		guild_coin_award = 0,
+		award = 908555,
+		type = 26,
+		desc = "完成「光影风尚——拍摄进行时！」剧情模式",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21885,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7480
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65804,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21886] = {
+		name = "『撒丁SP』纪念贴纸获取3",
+		guild_coin_award = 0,
+		award = 908556,
+		type = 26,
+		desc = "通关1次「光影风尚——拍摄进行时！」任意难度关卡",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21886,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1999101,
+			1999201,
+			1999202,
+			1999301,
+			1999302,
+			1999303,
+			1999401,
+			1999402,
+			1999403,
+			1999404,
+			1999501,
+			1999502,
+			1999503,
+			1999504,
+			1999505
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65805,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21887] = {
+		name = "『撒丁SP』纪念贴纸获取4",
+		guild_coin_award = 0,
+		award = 908557,
+		type = 26,
+		desc = "在活动关卡中累计击沉敌人100次",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21887,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16810001,
+			16810002,
+			16810003,
+			16810004,
+			16810005,
+			16810006,
+			16810007,
+			16810301,
+			16811001,
+			16811002,
+			16811003,
+			16811004,
+			16811005,
+			16811006,
+			16811007,
+			16811101,
+			16811102,
+			16811103,
+			16811104,
+			16811105,
+			16811301,
+			16811302,
+			16812001,
+			16812002,
+			16812003,
+			16812004,
+			16812005,
+			16812006,
+			16812007,
+			16812101,
+			16812102,
+			16812103,
+			16812104,
+			16812105,
+			16812301,
+			16812302,
+			16812303,
+			16813001,
+			16813002,
+			16813003,
+			16813004,
+			16813005,
+			16813006,
+			16813007,
+			16813101,
+			16813102,
+			16813103,
+			16813104,
+			16813105,
+			16813301,
+			16813302,
+			16813303,
+			16813304,
+			16814001,
+			16814002,
+			16814003,
+			16814004,
+			16814005,
+			16814006,
+			16814007,
+			16814101,
+			16814102,
+			16814103,
+			16814104,
+			16814105,
+			16814301,
+			16814302,
+			16814303,
+			16814304,
+			16814305
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65806,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21888] = {
+		name = "『撒丁SP』纪念贴纸获取5",
+		guild_coin_award = 0,
+		award = 908558,
+		type = 26,
+		desc = "通关40次「光影风尚——拍摄进行时！」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21888,
+		target_num = 40,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1999101,
+			1999201,
+			1999202,
+			1999301,
+			1999302,
+			1999303,
+			1999401,
+			1999402,
+			1999403,
+			1999404,
+			1999501,
+			1999502,
+			1999503,
+			1999504,
+			1999505
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65807,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21889] = {
+		name = "『撒丁SP』纪念贴纸获取6",
+		guild_coin_award = 0,
+		award = 908559,
+		type = 26,
+		desc = "通关困难关卡",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1999303",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21889,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65808,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21890] = {
+		name = "『撒丁SP』纪念贴纸获取7",
+		guild_coin_award = 0,
+		award = 908560,
+		type = 26,
+		desc = "通关SP",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1999404",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21890,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65809,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21891] = {
+		name = "『撒丁SP』纪念贴纸获取8",
+		guild_coin_award = 0,
+		award = 908561,
+		type = 26,
+		desc = "累计获取10000个「摄影底片」",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "50357",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "616",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21891,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65810,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[22011] = {
 		name = "新手任务阶段1-任务1",
 		guild_coin_award = 0,
@@ -213241,6 +213733,54 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[24870] = {
+		name = "『撒丁SP版本』外观装备箱保底",
+		guild_coin_award = 0,
+		award = 908632,
+		type = 6,
+		desc = "通过「活动商店」兑换或「补给商店-军火」购买20个[外观装备箱(摄影视界)]",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "30379",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24870,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30563,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[24871] = {
 		name = "『列克星敦II活动』皮肤剧情签到活动6",
 		guild_coin_award = 0,
@@ -216211,6 +216751,987 @@ end)()
 			{
 				50327
 			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24963] = {
+		name = "『撒丁SP版本』剧情送装备",
+		guild_coin_award = 0,
+		award = 908605,
+		type = 6,
+		desc = "完成「剧情模式」 ",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24963,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7472,
+			7473,
+			7474,
+			7475,
+			7476,
+			7477,
+			7478,
+			7479
+		},
+		open_need = {},
+		award_display = {
+			{
+				9,
+				3068,
+				1
+			}
+		},
+		scene = {
+			"BOSSRUSH_MAIN",
+			{
+				displayMode = 2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24964] = {
+		name = "『撒丁SP版本』通关任意关卡1次给剧情解锁道具",
+		guild_coin_award = 0,
+		award = 908621,
+		type = 26,
+		desc = "累计通关1次「光影风尚——拍摄进行时！」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24964,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1999101,
+			1999202,
+			1999303,
+			1999404,
+			1999505
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65812,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24965] = {
+		name = "『撒丁SP版本』通关任意关卡1次给剧情解锁道具",
+		guild_coin_award = 0,
+		award = 908621,
+		type = 26,
+		desc = "累计通关2次「光影风尚——拍摄进行时！」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24965,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1999101,
+			1999202,
+			1999303,
+			1999404,
+			1999505
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65812,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24966] = {
+		name = "『撒丁SP版本』通关任意关卡1次给剧情解锁道具",
+		guild_coin_award = 0,
+		award = 908621,
+		type = 26,
+		desc = "累计通关3次「光影风尚——拍摄进行时！」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24966,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1999101,
+			1999202,
+			1999303,
+			1999404,
+			1999505
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65812,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24967] = {
+		name = "『撒丁SP版本』通关任意关卡1次给剧情解锁道具",
+		guild_coin_award = 0,
+		award = 908621,
+		type = 26,
+		desc = "累计通关4次「光影风尚——拍摄进行时！」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24967,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1999101,
+			1999202,
+			1999303,
+			1999404,
+			1999505
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65812,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24968] = {
+		name = "『撒丁SP版本』通关任意关卡1次给剧情解锁道具",
+		guild_coin_award = 0,
+		award = 908621,
+		type = 26,
+		desc = "累计通关5次「光影风尚——拍摄进行时！」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24968,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1999101,
+			1999202,
+			1999303,
+			1999404,
+			1999505
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65812,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24969] = {
+		name = "『撒丁SP版本』通关任意关卡1次给剧情解锁道具",
+		guild_coin_award = 0,
+		award = 908621,
+		type = 26,
+		desc = "累计通关6次「光影风尚——拍摄进行时！」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24969,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1999101,
+			1999202,
+			1999303,
+			1999404,
+			1999505
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65812,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24970] = {
+		name = "『撒丁SP版本』通关任意关卡1次给剧情解锁道具",
+		guild_coin_award = 0,
+		award = 908621,
+		type = 26,
+		desc = "累计通关7次「光影风尚——拍摄进行时！」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24970,
+		target_num = 7,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1999101,
+			1999202,
+			1999303,
+			1999404,
+			1999505
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65812,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24971] = {
+		name = "『撒丁SP版本』通关任意关卡1次给剧情解锁道具",
+		guild_coin_award = 0,
+		award = 908621,
+		type = 26,
+		desc = "累计通关8次「光影风尚——拍摄进行时！」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24971,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1999101,
+			1999202,
+			1999303,
+			1999404,
+			1999505
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65812,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24973] = {
+		name = "『2026撒丁SP』多队出击挑战1",
+		guild_coin_award = 0,
+		award = 908626,
+		type = 6,
+		desc = "不编入导驱/驱逐的情况下，使用多队出击通关『心之窗』",
+		count_inherit = 0,
+		sub_type = 107,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24973,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			{
+				1,
+				20,
+				21
+			},
+			5003
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17023,
+				20
+			},
+			{
+				2,
+				42076,
+				1
+			},
+			{
+				2,
+				15008,
+				200
+			}
+		},
+		scene = {
+			"BOSSRUSH_MAIN"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24974] = {
+		name = "『2026撒丁SP』多队出击挑战2",
+		guild_coin_award = 0,
+		award = 908627,
+		type = 6,
+		desc = "不编入轻巡的情况下，使用多队出击通关『心之窗』",
+		count_inherit = 0,
+		sub_type = 107,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24974,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			{
+				2
+			},
+			5003
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17033,
+				20
+			},
+			{
+				2,
+				42076,
+				1
+			},
+			{
+				2,
+				15008,
+				200
+			}
+		},
+		scene = {
+			"BOSSRUSH_MAIN"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24975] = {
+		name = "『2026撒丁SP』多队出击挑战3",
+		guild_coin_award = 0,
+		award = 908628,
+		type = 6,
+		desc = "不编入超巡/重巡的情况下，使用多队出击通关『心之窗』",
+		count_inherit = 0,
+		sub_type = 107,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24975,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			{
+				3,
+				18
+			},
+			5003
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				20
+			},
+			{
+				2,
+				42076,
+				1
+			},
+			{
+				2,
+				15008,
+				200
+			}
+		},
+		scene = {
+			"BOSSRUSH_MAIN"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24976] = {
+		name = "『2026撒丁SP』多队出击挑战4",
+		guild_coin_award = 0,
+		award = 908629,
+		type = 6,
+		desc = "不编入轻航/航母的情况下，使用多队出击通关『心之窗』",
+		count_inherit = 0,
+		sub_type = 107,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24976,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			{
+				6,
+				7
+			},
+			5003
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17043,
+				20
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15012,
+				20
+			}
+		},
+		scene = {
+			"BOSSRUSH_MAIN"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24977] = {
+		name = "『2026撒丁SP』多队出击挑战5",
+		guild_coin_award = 0,
+		award = 908630,
+		type = 6,
+		desc = "不编入战列/战巡/重炮的情况下，使用多队出击通关『心之窗』",
+		count_inherit = 0,
+		sub_type = 107,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24977,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			{
+				4,
+				5,
+				13
+			},
+			5003
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17013,
+				20
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15012,
+				20
+			}
+		},
+		scene = {
+			"BOSSRUSH_MAIN"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24978] = {
+		name = "『2026撒丁SP』EX挑战",
+		guild_coin_award = 0,
+		award = 908631,
+		type = 6,
+		desc = "取得EX关卡的第一场战斗胜利 ",
+		count_inherit = 0,
+		sub_type = 108,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24978,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"BOSSRUSH_MAIN"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24979] = {
+		name = "『2026撒丁SP』外观装备箱保底",
+		guild_coin_award = 0,
+		award = 908632,
+		type = 6,
+		desc = "通过「补给商店-军火」购买20个[外观装备箱(摄影视界)]",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "30379",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24979,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30563,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24981] = {
+		name = "『2026撒丁SP』-日常建造",
+		guild_coin_award = 0,
+		award = 908623,
+		type = 36,
+		desc = "(每日)建造舰船3次",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24981,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				616,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24982] = {
+		name = "『2026撒丁SP』-日常出击",
+		guild_coin_award = 0,
+		award = 908624,
+		type = 36,
+		desc = "(每日)舰队出征，获得15次胜利",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24982,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				616,
+				300
+			}
+		},
+		scene = {
+			"BOSSRUSH_MAIN"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24983] = {
+		name = "『2026撒丁SP』-日常困难本",
+		guild_coin_award = 0,
+		award = 908625,
+		type = 36,
+		desc = "(每日)通关1次任意困难关卡 ",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "10101",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24983,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				616,
+				150
+			}
+		},
+		scene = {
+			"LEVEL"
 		}
 	}
 end)()

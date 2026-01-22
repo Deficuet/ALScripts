@@ -497,8 +497,12 @@ function var_0_0.displayFleetInfo(arg_35_0)
 			setText(arg_35_0._extraCostBuffIcon:Find("text_reward"), tonumber(iter_35_3.benefit_effect) * 0.01 + 1)
 		elseif iter_35_3.benefit_type == Chapter.OPERATION_BUFF_TYPE_DESC then
 			onButton(arg_35_0, arg_35_0._extraCostBuffIcon, function()
-				local var_38_0 = tonumber(iter_35_3.benefit_condition)
-				local var_38_1 = pg.strategy_data_template[iter_35_3.id]
+				local var_38_0 = ActivityBuff.GetBenefitCondition(iter_35_3.benefit_condition)
+
+				assert(var_38_0[1] == "item")
+
+				local var_38_1 = var_38_0[2]
+				local var_38_2 = pg.strategy_data_template[iter_35_3.id]
 
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					hideNo = true,
@@ -506,9 +510,9 @@ function var_0_0.displayFleetInfo(arg_35_0)
 					drop = {
 						count = 1,
 						type = DROP_TYPE_ITEM,
-						id = var_38_0
+						id = var_38_1
 					},
-					intro = var_38_1.desc
+					intro = var_38_2.desc
 				})
 			end)
 		end

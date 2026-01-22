@@ -141798,7 +141798,7 @@ end)()
 (function()
 	_G.pg.base.equip_data_statistics[75111] = {
 		type = 1,
-		name = "全弹发射-朱萨诺级I",
+		name = "全弹发射-朱塞诺级I",
 		speciality = "<[NA]>",
 		tech = 1,
 		rarity = 1,
@@ -141843,7 +141843,7 @@ end)()
 (function()
 	_G.pg.base.equip_data_statistics[75112] = {
 		id = 75112,
-		name = "全弹发射-朱萨诺级II",
+		name = "全弹发射-朱塞诺级II",
 		base = 75111,
 		weapon_id = {
 			61732

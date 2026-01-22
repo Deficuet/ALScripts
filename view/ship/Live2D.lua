@@ -799,6 +799,10 @@ local function var_0_20(arg_34_0, arg_34_1)
 		arg_34_0:changeParamaterValue("Paramring", 0)
 	end
 
+	if HXSet.isHx() then
+		arg_34_0:changeParamaterValue("l2d_hx", 1)
+	end
+
 	if not arg_34_0._physics then
 		arg_34_0._physics = GetComponent(arg_34_0._tf, "CubismPhysicsController")
 	end

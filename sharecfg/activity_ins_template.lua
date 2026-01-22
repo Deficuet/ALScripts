@@ -23410,6 +23410,126 @@ pg.activity_ins_template = {
 			6760
 		}
 	},
+	[620] = {
+		ship_group = 30311,
+		name = "Takao",
+		message_persist = "",
+		sculpture = "gaoxiong",
+		picture_persist = "",
+		group_id = 620,
+		id = 620,
+		is_active = 1,
+		time = {
+			{
+				2026,
+				1,
+				22
+			},
+			{
+				13,
+				53,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[621] = {
+		ship_group = 60509,
+		name = "Francesco Caracciolo",
+		message_persist = "",
+		sculpture = "fulangxisike",
+		picture_persist = "",
+		group_id = 621,
+		id = 621,
+		is_active = 1,
+		time = {
+			{
+				2026,
+				1,
+				23
+			},
+			{
+				10,
+				45,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[622] = {
+		ship_group = 60204,
+		name = "Alberto di Giussano",
+		message_persist = "",
+		sculpture = "aerbeituo",
+		picture_persist = "",
+		group_id = 622,
+		id = 622,
+		is_active = 1,
+		time = {
+			{
+				2026,
+				1,
+				24
+			},
+			{
+				13,
+				29,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[623] = {
+		ship_group = 60112,
+		name = "Ugolino Vivaldi",
+		message_persist = "",
+		sculpture = "wugelini",
+		picture_persist = "",
+		group_id = 623,
+		id = 623,
+		is_active = 1,
+		time = {
+			{
+				2026,
+				1,
+				25
+			},
+			{
+				14,
+				27,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[624] = {
+		ship_group = 10520,
+		name = "Alabama",
+		message_persist = "",
+		sculpture = "alabama",
+		picture_persist = "",
+		group_id = 624,
+		id = 624,
+		is_active = 1,
+		time = {
+			{
+				2026,
+				1,
+				26
+			},
+			{
+				12,
+				5,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -24019,6 +24139,11 @@ pg.activity_ins_template = {
 		616,
 		617,
 		618,
-		619
+		619,
+		620,
+		621,
+		622,
+		623,
+		624
 	}
 }

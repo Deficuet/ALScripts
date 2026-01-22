@@ -181032,6 +181032,318 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[65802] = {
+		display = "时尚雷达全开，进入拍摄状态！按下快门，捕捉时尚的每一面吧！\n——你就是今日的时尚记录官！",
+		name = "光影风尚纪念勋章",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 5,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Medal/9121",
+		id = 65802,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65803] = {
+		display = "谁是全场最靓的崽？没错，就是我！",
+		name = "纪念贴：拍摄进行时！",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5035901",
+		id = 65803,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65804] = {
+		display = "3、2、1！茄子——",
+		name = "纪念贴：相机",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5035902",
+		id = 65804,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65805] = {
+		display = "衣架是用来挂衣服的，不是用来……",
+		name = "纪念贴：衣架",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5035903",
+		id = 65805,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65806] = {
+		display = "差一点……差最后一点就能抓到了！",
+		name = "纪念贴：抓娃娃机",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5035904",
+		id = 65806,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65807] = {
+		display = "准备好成为焦点了吗？",
+		name = "纪念贴：聚光灯",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5035905",
+		id = 65807,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65808] = {
+		display = "接下来开始的是——时尚内衣拍摄专场！",
+		name = "纪念贴：时尚拍摄",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5035906",
+		id = 65808,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65809] = {
+		display = "蜜桃有一百种拍摄方法，你想看哪种？",
+		name = "纪念贴：蜜桃相册",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5035907",
+		id = 65809,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65810] = {
+		display = "记录每一刻，包括你没看镜头的那张~",
+		name = "纪念贴：胶卷",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5035908",
+		id = 65810,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65811] = {
+		display = "用于「光影风尚——拍摄进行时！」活动兑换，活动结束后将会消失",
+		name = "摄影底片",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/sadingSPlianzhan_pt",
+		id = 65811,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65812] = {
+		display = "凭此证可在预约时间内入场拍摄，解锁「光影风尚——拍摄进行时！」活动中的剧情。 ",
+		name = "影棚预订凭证",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50360,
+		virtual_type = 101,
+		is_world = 0,
+		icon = "Props/65812",
+		id = 65812,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65813] = {
+		display = "用于「限时体验商店」兑换角色限时换装",
+		name = "换装体验券",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = 1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/skinTicket",
+		id = 65813,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[66001] = {
 		display = "重要的重建物资之一，木香与海风更配哦",
 		name = "木料",
@@ -241722,6 +242034,214 @@ end)()
 				1
 			}
 		}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[200673] = {
+		display = "有几率获得以下设计图",
+		name = "未知设计图",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 1,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/55000",
+		id = 200673,
+		order = 0,
+		display_icon = {
+			{
+				2,
+				11049,
+				1
+			},
+			{
+				2,
+				10125,
+				1
+			},
+			{
+				2,
+				10109,
+				1
+			},
+			{
+				2,
+				10007,
+				1
+			},
+			{
+				2,
+				10006,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[200674] = {
+		display = "有几率获得以下设计图",
+		name = "未知设计图",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 1,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/55000",
+		id = 200674,
+		order = 0,
+		display_icon = {
+			{
+				2,
+				11049,
+				1
+			},
+			{
+				2,
+				10125,
+				1
+			},
+			{
+				2,
+				10109,
+				1
+			},
+			{
+				2,
+				10007,
+				1
+			},
+			{
+				2,
+				10006,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[200675] = {
+		display = "有几率获得以下设计图",
+		name = "未知设计图",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 1,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/55000",
+		id = 200675,
+		order = 0,
+		display_icon = {
+			{
+				2,
+				10108,
+				1
+			},
+			{
+				2,
+				10125,
+				1
+			},
+			{
+				2,
+				10109,
+				1
+			},
+			{
+				2,
+				10007,
+				1
+			},
+			{
+				2,
+				10006,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[200676] = {
+		display = "有几率获得以下设计图",
+		name = "未知设计图",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 1,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/55000",
+		id = 200676,
+		order = 0,
+		display_icon = {
+			{
+				2,
+				10125,
+				1
+			},
+			{
+				2,
+				10109,
+				1
+			},
+			{
+				2,
+				66,
+				1
+			},
+			{
+				2,
+				5,
+				1
+			},
+			{
+				2,
+				4,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
 	}
 end)()
 

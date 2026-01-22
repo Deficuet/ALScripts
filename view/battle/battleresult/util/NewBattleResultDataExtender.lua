@@ -169,16 +169,10 @@ local function var_0_7(arg_15_0)
 	assert(var_15_1)
 
 	local var_15_2 = var_15_1:GetStaegLevel()
-	local var_15_3 = var_15_1:GetFleetIds()
-	local var_15_4 = var_15_3[var_15_2]
+	local var_15_3 = var_15_1:GetStageFleets(var_15_1:GetMode(), var_15_2)
+	local var_15_4 = getProxy(FleetProxy):getActivityFleets()[var_15_0][var_15_3]
 
-	if var_15_1:GetMode() == BossRushSeriesData.MODE.SINGLE then
-		var_15_4 = var_15_3[1]
-	end
-
-	local var_15_5 = getProxy(FleetProxy):getActivityFleets()[var_15_0][var_15_4]
-
-	return (getProxy(BayProxy):getShipsByFleet(var_15_5))
+	return (getProxy(BayProxy):getShipsByFleet(var_15_4))
 end
 
 local function var_0_8(arg_16_0)

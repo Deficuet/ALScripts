@@ -4002,6 +4002,16 @@ pg.memory_template = setmetatable({
 		4955,
 		4956,
 		4957,
+		4961,
+		4962,
+		4963,
+		4964,
+		4965,
+		4966,
+		4967,
+		4968,
+		4969,
+		4970,
 		10011,
 		10012,
 		10013,
@@ -64214,6 +64224,156 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"WEINEITUO7"
+		}
+	},
+	[4961] = {
+		type = 1,
+		subtitle = "",
+		story = "GUANGYINGFENGSHANG1",
+		mask = "bg/bg_memory",
+		title = "拍摄进行时！",
+		condition = "开始「光影风尚——拍摄进行时！」活动",
+		number = 0,
+		id = 4961,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG1"
+		}
+	},
+	[4962] = {
+		type = 1,
+		subtitle = "",
+		story = "GUANGYINGFENGSHANG2",
+		mask = "bg/bg_memory",
+		title = "为您献上的真实",
+		condition = "解锁对应杂志页 ",
+		number = 0,
+		id = 4962,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG2"
+		}
+	},
+	[4963] = {
+		type = 1,
+		subtitle = "",
+		story = "GUANGYINGFENGSHANG3",
+		mask = "bg/bg_memory",
+		title = "心跳赌约：赢家通吃的夜",
+		condition = "解锁对应杂志页 ",
+		number = 0,
+		id = 4963,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG3"
+		}
+	},
+	[4964] = {
+		type = 1,
+		subtitle = "",
+		story = "GUANGYINGFENGSHANG4",
+		mask = "bg/bg_memory",
+		title = "诊疗室内的甜蜜捕获",
+		condition = "解锁对应杂志页 ",
+		number = 0,
+		id = 4964,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG4"
+		}
+	},
+	[4965] = {
+		type = 1,
+		subtitle = "",
+		story = "GUANGYINGFENGSHANG5",
+		mask = "bg/bg_memory",
+		title = "非常规修行指导课",
+		condition = "解锁对应杂志页 ",
+		number = 0,
+		id = 4965,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG5"
+		}
+	},
+	[4966] = {
+		type = 1,
+		subtitle = "",
+		story = "GUANGYINGFENGSHANG6",
+		mask = "bg/bg_memory",
+		title = "柔光深处：私密的引导线",
+		condition = "解锁对应杂志页 ",
+		number = 0,
+		id = 4966,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG6"
+		}
+	},
+	[4967] = {
+		type = 1,
+		subtitle = "",
+		story = "GUANGYINGFENGSHANG7",
+		mask = "bg/bg_memory",
+		title = "设计师的触感教学",
+		condition = "解锁对应杂志页 ",
+		number = 0,
+		id = 4967,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG7"
+		}
+	},
+	[4968] = {
+		type = 1,
+		subtitle = "",
+		story = "GUANGYINGFENGSHANG8",
+		mask = "bg/bg_memory",
+		title = "镜下36计",
+		condition = "解锁对应杂志页 ",
+		number = 0,
+		id = 4968,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG8"
+		}
+	},
+	[4969] = {
+		type = 1,
+		subtitle = "",
+		story = "GUANGYINGFENGSHANG9",
+		mask = "bg/bg_memory",
+		title = "决定性瞬间：美的曝光",
+		condition = "解锁对应杂志页 ",
+		number = 0,
+		id = 4969,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG9"
+		}
+	},
+	[4970] = {
+		type = 1,
+		subtitle = "",
+		story = "GUANGYINGFENGSHANG10",
+		mask = "bg/bg_memory",
+		title = "时尚的真谛",
+		condition = "完成杂志全部内容 ",
+		number = 0,
+		id = 4970,
+		icon = "memory_guangyingfengshang",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYINGFENGSHANG10"
 		}
 	},
 	[10011] = {

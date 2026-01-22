@@ -1963,5 +1963,17 @@ pg.voice_actor_CN = {
 	[493] = {
 		code = 493,
 		actor_name = "梅泽惠"
+	},
+	[494] = {
+		code = 494,
+		actor_name = "东内麻里子"
+	},
+	[495] = {
+		code = 495,
+		actor_name = "松永茜"
+	},
+	[496] = {
+		code = 496,
+		actor_name = "永牟田萌"
 	}
 }

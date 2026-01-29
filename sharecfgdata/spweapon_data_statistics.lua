@@ -34330,7 +34330,7 @@ end)()
 (function()
 	_G.pg.base.spweapon_data_statistics[14540] = {
 		tech = 0,
-		name = "君主之誓 ",
+		name = "君主之誓",
 		value_2_random = 5,
 		type = 6,
 		value_1_random = 10,
@@ -35025,7 +35025,7 @@ end)()
 (function()
 	_G.pg.base.spweapon_data_statistics[14620] = {
 		tech = 0,
-		name = "暗夜蔷薇 ",
+		name = "暗夜蔷薇",
 		value_2_random = 5,
 		type = 10,
 		value_1_random = 10,

@@ -51,13 +51,13 @@ function var_0_0.register(arg_1_0)
 		})
 	end)
 	arg_1_0:bind(var_0_0.ON_UPDATE_CUSTOM_FLEET, function(arg_5_0)
-		_.each(arg_1_0.contextData.fleets, function(arg_6_0)
+		_.each(arg_1_0.contextData.fullFleets, function(arg_6_0)
 			getProxy(FleetProxy):updateActivityFleet(arg_1_0.contextData.actId, arg_6_0.id, arg_6_0)
 		end)
 
 		local var_5_0 = {}
 
-		_.each(arg_1_0.contextData.fleets, function(arg_7_0)
+		_.each(arg_1_0.contextData.fullFleets, function(arg_7_0)
 			var_5_0[arg_7_0.id] = arg_7_0
 		end)
 		arg_1_0:sendNotification(GAME.EDIT_ACTIVITY_FLEET, {

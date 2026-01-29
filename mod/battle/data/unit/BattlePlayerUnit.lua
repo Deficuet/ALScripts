@@ -86,6 +86,7 @@ function var_0_7.SetTemplate(arg_12_0, arg_12_1, arg_12_2, arg_12_3)
 	arg_12_0:InitCldComponent()
 
 	arg_12_2.armorType = arg_12_0._tmpData.armor_type
+	arg_12_2.scale = arg_12_0._tmpData.scale
 
 	arg_12_0:setAttrFromOutBattle(arg_12_2, arg_12_3)
 	var_0_3.InitDOTAttr(arg_12_0._attr, arg_12_0._tmpData)

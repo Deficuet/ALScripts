@@ -178,6 +178,21 @@ pg.item_data_battleui = {
 			1
 		}
 	},
+	[113] = {
+		key = "SkinNormal_20260129",
+		name = "古代王朝",
+		desc = "古老的石柱在界面中矗立，斑驳的纹路诉说着失落的秩序，让战斗也染上穿越时空的肃穆与苍凉。",
+		display_icon = "ui_113",
+		is_unlock = 1,
+		rare = 3,
+		unlock = "世界巡游二十七期获取",
+		id = 113,
+		icon = "113",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
 	[201] = {
 		key = "SkinNormal_20241209",
 		name = "圣诞雪境",
@@ -293,6 +308,7 @@ pg.item_data_battleui = {
 		109,
 		111,
 		112,
+		113,
 		201,
 		202,
 		203,

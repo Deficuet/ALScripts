@@ -17,6 +17,7 @@ var_0_3.FX_TYPE_MOD_VELOCTIY = 4
 var_0_3.FX_TYPE_DOT = 5
 var_0_3.FX_TTPE_MOD_BATTLE_UNIT_TYPE = 6
 var_0_3.FX_TYPE_COUNTER = 7
+var_0_3.FX_TYPE_MOD_MODEL_SCALE = 8
 
 function var_0_3.Ctor(arg_1_0, arg_1_1)
 	arg_1_0._tempData = Clone(arg_1_1)

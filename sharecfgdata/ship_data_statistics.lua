@@ -440692,6 +440692,530 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[9701111] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "龙骑兵·META",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 9701110,
+		english_name = "Carabiniere.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9701111,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			320,
+			31,
+			55,
+			31,
+			0,
+			74,
+			0,
+			59,
+			54,
+			46,
+			65,
+			50
+		},
+		attrs_growth = {
+			6364,
+			388,
+			739,
+			427,
+			0,
+			515,
+			0,
+			796,
+			830,
+			0,
+			0,
+			670
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.15,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"CarabiniereMETA"
+		},
+		gift_dislike = {
+			180008,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9701112] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "龙骑兵·META",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 9701110,
+		english_name = "Carabiniere.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9701112,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			398,
+			39,
+			69,
+			39,
+			0,
+			74,
+			0,
+			59,
+			54,
+			46,
+			65,
+			62
+		},
+		attrs_growth = {
+			6364,
+			388,
+			739,
+			427,
+			0,
+			515,
+			0,
+			796,
+			830,
+			0,
+			0,
+			670
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			1.15,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"CarabiniereMETA"
+		},
+		gift_dislike = {
+			180008,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9701113] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "龙骑兵·META",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 9701110,
+		english_name = "Carabiniere.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9701113,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			554,
+			54,
+			96,
+			54,
+			0,
+			74,
+			0,
+			59,
+			54,
+			46,
+			65,
+			87
+		},
+		attrs_growth = {
+			6364,
+			388,
+			739,
+			427,
+			0,
+			515,
+			0,
+			796,
+			830,
+			0,
+			0,
+			670
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.6,
+			1.15,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"CarabiniereMETA"
+		},
+		gift_dislike = {
+			180008,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9701114] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "龙骑兵·META",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 9701110,
+		english_name = "Carabiniere.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9701114,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			789,
+			77,
+			137,
+			77,
+			0,
+			74,
+			0,
+			59,
+			54,
+			46,
+			65,
+			125
+		},
+		attrs_growth = {
+			6364,
+			388,
+			739,
+			427,
+			0,
+			515,
+			0,
+			796,
+			830,
+			0,
+			0,
+			670
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.65,
+			1.2,
+			0.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"CarabiniereMETA"
+		},
+		gift_dislike = {
+			180008,
+			180009
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[9702011] = {
 		raid_distance = 0,
 		oxy_max = 0,

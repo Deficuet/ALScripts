@@ -7,37 +7,92 @@ var_0_0.Battle.BattleBuffSize.__name = "BattleBuffSize"
 
 local var_0_1 = var_0_0.Battle.BattleBuffSize
 
+var_0_1.FX_TYPE = var_0_0.Battle.BattleBuffEffect.FX_TYPE_MOD_MODEL_SCALE
+
 function var_0_1.Ctor(arg_1_0, arg_1_1)
-	var_0_0.Battle.BattleBuffSize.super.Ctor(arg_1_0, arg_1_1)
+	var_0_1.super.Ctor(arg_1_0, arg_1_1)
 end
 
-function var_0_1.SetArgs(arg_2_0, arg_2_1, arg_2_2)
-	arg_2_0._base = arg_2_0._tempData.arg_list.number or 1
-	arg_2_0._hpScale = arg_2_0._tempData.arg_list.hp_scale or 0
+function var_0_1.GetEffectType(arg_2_0)
+	return var_0_1.FX_TYPE
 end
 
-function var_0_1.onHPRatioUpdate(arg_3_0, arg_3_1, arg_3_2)
-	arg_3_0:doScale(arg_3_1)
+function var_0_1.SetArgs(arg_3_0, arg_3_1, arg_3_2)
+	arg_3_0._group = arg_3_0._tempData.arg_list.group or arg_3_2:GetID()
+	arg_3_0._base = arg_3_0._tempData.arg_list.number or 1
+	arg_3_0._hpScale = arg_3_0._tempData.arg_list.hp_scale or 0
+	arg_3_0._attr = "modelScale"
 end
 
-function var_0_1.onAttach(arg_4_0, arg_4_1, arg_4_2)
+function var_0_1.onHPRatioUpdate(arg_4_0, arg_4_1, arg_4_2)
 	arg_4_0:doScale(arg_4_1)
+	arg_4_0:UpdateScale(arg_4_1)
 end
 
-function var_0_1.onRemove(arg_5_0, arg_5_1, arg_5_2)
-	local var_5_0 = {
-		size = initScale
-	}
-
-	arg_5_1:DispatchEvent(var_0_0.Event.New(var_0_0.Battle.BattleBuffEvent.BUFF_EFFECT_CHNAGE_SIZE, var_5_0))
+function var_0_1.onAttach(arg_5_0, arg_5_1, arg_5_2)
+	arg_5_0:doScale(arg_5_1)
+	arg_5_0:UpdateScale(arg_5_1)
 end
 
-function var_0_1.doScale(arg_6_0, arg_6_1)
-	local var_6_0 = arg_6_1:GetHPRate()
-	local var_6_1 = arg_6_0._base + var_6_0 * arg_6_0._hpScale
-	local var_6_2 = {
-		size = var_6_1
-	}
+function var_0_1.onStack(arg_6_0, arg_6_1, arg_6_2)
+	arg_6_0:doScale(arg_6_1)
 
-	arg_6_1:DispatchEvent(var_0_0.Event.New(var_0_0.Battle.BattleBuffEvent.BUFF_EFFECT_CHNAGE_SIZE, var_6_2))
+	local var_6_0 = arg_6_0._number
+
+	for iter_6_0 = 1, arg_6_2._stack do
+		var_6_0 = var_6_0 * arg_6_0._number
+	end
+
+	arg_6_0._number = var_6_0
+
+	arg_6_0:UpdateScale(arg_6_1)
+end
+
+function var_0_1.onRemove(arg_7_0, arg_7_1, arg_7_2)
+	arg_7_0._number = 0
+
+	arg_7_0:UpdateScale(arg_7_1)
+end
+
+function var_0_1.UpdateScale(arg_8_0, arg_8_1)
+	local var_8_0 = 1
+	local var_8_1 = 1
+	local var_8_2 = {}
+	local var_8_3 = {}
+	local var_8_4 = arg_8_1:GetBuffList()
+
+	for iter_8_0, iter_8_1 in pairs(var_8_4) do
+		for iter_8_2, iter_8_3 in ipairs(iter_8_1._effectList) do
+			if iter_8_3:GetEffectType() == var_0_1.FX_TYPE then
+				local var_8_5 = iter_8_3._number
+				local var_8_6 = iter_8_3._group
+				local var_8_7 = var_8_2[var_8_6] or 1
+				local var_8_8 = var_8_3[var_8_6] or 1
+
+				if var_8_7 < var_8_5 and var_8_5 > 1 then
+					var_8_0 = var_8_0 * var_8_5 / var_8_7
+					var_8_7 = var_8_5
+				end
+
+				if var_8_5 < var_8_8 and var_8_5 < 1 then
+					var_8_1 = var_8_1 * var_8_5 / var_8_8
+					var_8_8 = var_8_5
+				end
+
+				var_8_2[var_8_6] = var_8_7
+				var_8_3[var_8_6] = var_8_8
+			end
+		end
+	end
+
+	local var_8_9 = var_0_0.Battle.BattleAttr.GetCurrent(arg_8_1, "baseScale") * var_8_0 * var_8_1
+
+	var_0_0.Battle.BattleAttr.SetCurrent(arg_8_1, "modelScale", var_8_9)
+	arg_8_1:DispatchEvent(var_0_0.Event.New(var_0_0.Battle.BattleBuffEvent.BUFF_EFFECT_CHNAGE_SIZE))
+end
+
+function var_0_1.doScale(arg_9_0, arg_9_1)
+	local var_9_0 = arg_9_1:GetHPRate()
+
+	arg_9_0._number = arg_9_0._base + var_9_0 * arg_9_0._hpScale
 end

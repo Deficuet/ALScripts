@@ -394,61 +394,77 @@ function var_0_0.addActivityFleet(arg_26_0, arg_26_1, arg_26_2)
 		end
 	end
 
+	if var_26_5.type == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
+		for iter_26_4, iter_26_5 in ipairs(arg_26_1:getConfig("config_data")) do
+			local var_26_10 = BossRushSeriesData.New({
+				id = iter_26_5,
+				actId = arg_26_1.id
+			})
+			local var_26_11 = var_26_10:GetFleetIds()[1]
+
+			if not var_26_10:IsSingleFight() and var_26_1[var_26_11] and not var_26_1[var_26_11]:isAllEmpty() then
+				var_26_1[var_26_11]:allClear()
+
+				var_26_3 = true
+			end
+		end
+	end
+
 	if var_26_3 then
 		arg_26_0:commitActivityFleet(var_26_0)
 	end
 
-	local var_26_10
-	local var_26_11
+	local var_26_12
+	local var_26_13
 
 	if var_26_5.type == ActivityConst.ACTIVITY_TYPE_CHALLENGE then
-		var_26_10 = 2
-		var_26_11 = 2
+		var_26_12 = 2
+		var_26_13 = 2
 	elseif var_26_5.type == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
-		var_26_10 = 0
-		var_26_11 = 0
+		var_26_12 = 0
+		var_26_13 = 0
 	elseif var_26_5.type == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
-		var_26_10 = 0
-		var_26_11 = 0
+		var_26_12 = 0
+		var_26_13 = 0
 	elseif var_26_5.type == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE then
-		var_26_10 = 0
-		var_26_11 = 0
+		var_26_12 = 0
+		var_26_13 = 0
 	elseif var_26_5.type == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE then
-		var_26_10 = 0
-		var_26_11 = 0
+		var_26_12 = 0
+		var_26_13 = 0
 	elseif var_26_5.type == ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB then
-		var_26_10 = 0
-		var_26_11 = 0
+		var_26_12 = 0
+		var_26_13 = 0
 	end
 
-	local var_26_12 = 0
+	local var_26_14 = 0
 
-	while var_26_12 < var_26_10 do
-		var_26_12 = var_26_12 + 1
+	while var_26_14 < var_26_12 do
+		var_26_14 = var_26_14 + 1
 
-		if var_26_1[var_26_12] == nil then
-			var_26_1[var_26_12] = TypedFleet.New({
-				id = var_26_12,
+		if var_26_1[var_26_14] == nil then
+			var_26_1[var_26_14] = TypedFleet.New({
+				id = var_26_14,
 				ship_list = {},
 				fleetType = FleetType.Normal
 			})
 		end
 	end
 
-	local var_26_13 = 0
+	local var_26_15 = 0
 
-	while var_26_13 < var_26_11 do
-		local var_26_14 = Fleet.SUBMARINE_FLEET_ID + var_26_13
+	while var_26_15 < var_26_13 do
+		local var_26_16 = Fleet.SUBMARINE_FLEET_ID + var_26_15
 
-		if var_26_1[var_26_14] == nil then
-			var_26_1[var_26_14] = TypedFleet.New({
-				id = var_26_14,
+		if var_26_1[var_26_16] == nil then
+			var_26_1[var_26_16] = TypedFleet.New({
+				id = var_26_16,
 				ship_list = {},
 				fleetType = FleetType.Submarine
 			})
 		end
 
-		var_26_13 = var_26_13 + 1
+		var_26_15 = var_26_15 + 1
 	end
 
 	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inActivity")

@@ -151318,6 +151318,63 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.equip_data_statistics[80581] = {
+		type = 1,
+		name = "专属弹幕-龙骑兵META I",
+		speciality = "<[NA]>",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能弹幕",
+		id = 80581,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			170951
+		},
+		skill_id = {},
+		hidden_skill_id = {},
+		part_main = {
+			1,
+			19,
+			20,
+			21
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[80582] = {
+		id = 80582,
+		name = "专属弹幕-龙骑兵META II",
+		base = 80571,
+		weapon_id = {
+			170952
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.equip_data_statistics[85000] = {
 		tech = 1,
 		name = "B-13 双联装130mm主炮B-2LM",
@@ -185271,7 +185328,7 @@ end)()
 		value_2 = 10,
 		ammo = 10,
 		nationality = 5,
-		descrip = "",
+		descrip = "耐心等待，以不变应万变……万变不离其宗：别急。",
 		rarity = 4,
 		attribute_1 = "hit",
 		value_3 = 0,

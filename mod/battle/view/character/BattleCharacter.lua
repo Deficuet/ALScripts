@@ -318,7 +318,7 @@ function var_0_6.GetReferenceVector(arg_29_0, arg_29_1)
 end
 
 function var_0_6.GetInitScale(arg_30_0)
-	return arg_30_0._unitData:GetTemplate().scale / 50
+	return arg_30_0._unitData:GetAttrByName("modelScale")
 end
 
 function var_0_6.AddUnitEvent(arg_31_0)
@@ -1591,14 +1591,9 @@ function var_0_6.updateSomkeFX(arg_126_0)
 end
 
 function var_0_6.doChangeSize(arg_127_0, arg_127_1)
-	local var_127_0 = arg_127_1.Data.size_ratio
-	local var_127_1 = arg_127_1.Data.size
+	local var_127_0 = arg_127_0._unitData:GetAttrByName("modelScale")
 
-	if var_127_0 then
-		arg_127_0:setLocalScale(arg_127_0._tf.localScale * var_127_0)
-	elseif var_127_1 then
-		arg_127_0:setLocalScale(Vector3(var_127_1 * arg_127_0._unitData:GetDirection(), var_127_1, var_127_1))
-	end
+	arg_127_0:setLocalScale(Vector3(var_127_0 * arg_127_0._unitData:GetDirection(), var_127_0, var_127_0))
 end
 
 function var_0_6.InitEffectView(arg_128_0)

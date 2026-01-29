@@ -133,6 +133,7 @@ pg.pay_data_display = setmetatable({
 		1023,
 		1024,
 		1025,
+		1026,
 		1302,
 		2001,
 		2002,
@@ -15083,6 +15084,91 @@ pg.base.pay_data_display = {
 		},
 		sub_display = {
 			7026,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1026] = {
+		limit_group = 0,
+		name = "特许巡游凭证(2026.2)",
+		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		type = 0,
+		second_text = "解锁特许奖励",
+		type_order = 6,
+		subject = "特许巡游凭证",
+		first_text = "",
+		first_icon = "",
+		limit_arg = 1,
+		money = 68,
+		tip = "",
+		tag = 2,
+		tip_open = 0,
+		gem = 0,
+		id = 1026,
+		name_display = "特许巡游凭证",
+		limit_type = 2,
+		package_sort_id = 0,
+		akashi_pick = 1,
+		package_tag = "",
+		picture = "battlepass_1",
+		extra_service = 4,
+		skin_inquire_relation = 0,
+		show_group = "",
+		id_str = "com.bilibili.blhx.battlepass28",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·希娜限定换装和其他奖励",
+		package_tag_open = 0,
+		airijp_id = "com.yostarjp.azurlane.seasonpass27",
+		extra_service_item = {
+			{
+				1,
+				4027,
+				1500
+			},
+			{
+				8,
+				65113,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7027,
 			1500
 		},
 		ignorePlatform = {},

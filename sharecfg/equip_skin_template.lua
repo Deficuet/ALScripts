@@ -57059,6 +57059,187 @@ pg.equip_skin_template = {
 			"wash"
 		}
 	},
+	[2113] = {
+		hit_sfx = "",
+		bullet_name = "zidan_gudianbishou",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		name = "古代匕首子弹",
+		themeid = 109,
+		desc = "决心不灭，刃锋仍在",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		double_char_bone = "",
+		orbit_combat = "",
+		orbit_combat_anima_change = "",
+		icon = "96837",
+		miss_sfx = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_rotate = "",
+		orbit_ui = "",
+		orbit_ui_back = 0,
+		orbit_combat_bound = "",
+		ship_skin_id = 0,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "zidan_gudianbishou_hit",
+		id = 2113,
+		derivate_torpedo = "",
+		orbit_slg = "",
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[2114] = {
+		hit_sfx = "",
+		bullet_name = "yulei_luomazhu",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		name = "残垣立柱鱼雷",
+		themeid = 109,
+		desc = "即便王朝倾覆，它依然屹立",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		double_char_bone = "",
+		orbit_combat = "",
+		orbit_combat_anima_change = "",
+		icon = "96838",
+		miss_sfx = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_rotate = "",
+		orbit_ui = "",
+		orbit_ui_back = 0,
+		orbit_combat_bound = "",
+		ship_skin_id = 0,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "yulei_luomazhu_hit",
+		id = 2114,
+		derivate_torpedo = "",
+		orbit_slg = "",
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[2115] = {
+		hit_sfx = "",
+		bullet_name = "paodan_huangjidiaoxiang",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		name = "石化啾啾像炮弹",
+		themeid = 109,
+		desc = "被时光凝固了啾~",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		double_char_bone = "",
+		orbit_combat = "",
+		orbit_combat_anima_change = "",
+		icon = "96839",
+		miss_sfx = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_rotate = "",
+		orbit_ui = "",
+		orbit_ui_back = 0,
+		orbit_combat_bound = "",
+		ship_skin_id = 0,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "paodan_huangjidiaoxiang_hit",
+		id = 2115,
+		derivate_torpedo = "",
+		orbit_slg = "",
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[2116] = {
+		hit_sfx = "",
+		bullet_name = "",
+		name = "失落王朝之门",
+		type = 1,
+		preview_hit_distance = 0,
+		themeid = 109,
+		orbit_combat = "shebei_gongmenyiji",
+		desc = "踏入辉煌，还是迈向终结？",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "shebei_gongmenyijiui",
+		miss_sfx = "",
+		orbit_combat_anima_change = "",
+		icon = "96840",
+		orbit_rotate = false,
+		orbit_ui_back = 1,
+		mirror = 0,
+		rarity = 4,
+		ship_skin_id = 0,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		id = 2116,
+		derivate_torpedo = "",
+		orbit_slg = "",
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		double_char_bone = {
+			1,
+			0,
+			1
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.28,
+				-1.5,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-12,
+				70
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
 	[3001] = {
 		hit_sfx = "",
 		bullet_name = "",
@@ -61073,6 +61254,10 @@ pg.equip_skin_template = {
 		2110,
 		2111,
 		2112,
+		2113,
+		2114,
+		2115,
+		2116,
 		3001,
 		3002,
 		3003,

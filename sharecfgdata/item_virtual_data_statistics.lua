@@ -175059,6 +175059,32 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[65113] = {
+		display = "参与「世界巡游」获得的点数，累计一定程度可以领取奖励，活动结束后将会消失 ",
+		name = "巡游点数",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 7027,
+		virtual_type = 21,
+		is_world = 0,
+		icon = "props/battlepass_pt",
+		id = 65113,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[65115] = {
 		display = "用于「响彻于天穹之音·F」活动，活动结束后将会消失",
 		name = "蓝色浮光",
@@ -181334,6 +181360,32 @@ end)()
 		is_world = 0,
 		icon = "Props/skinTicket",
 		id = 65813,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65821] = {
+		display = "用于「委托兑换计划V」活动兑换，活动结束后将会消失",
+		name = "军事委托凭证",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/commission_pt",
+		id = 65821,
 		order = 0,
 		display_icon = {},
 		price = {},

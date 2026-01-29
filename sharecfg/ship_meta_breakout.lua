@@ -42,6 +42,10 @@ pg.ship_meta_breakout = setmetatable({
 		9701102,
 		9701103,
 		9701104,
+		9701111,
+		9701112,
+		9701113,
+		9701114,
 		9702011,
 		9702012,
 		9702013,
@@ -854,6 +858,69 @@ pg.base.ship_meta_breakout = {
 		id = 9701104,
 		item1 = 21052,
 		pre_id = 9701103,
+		weapon_ids = {}
+	},
+	[9701111] = {
+		breakout_view = "习得技能【逐光之焰·龙骑兵】/主炮效率提高5%",
+		gold = 500,
+		breakout_id = 9701112,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9701111,
+		item1 = 21056,
+		pre_id = 0,
+		weapon_ids = {
+			80581
+		}
+	},
+	[9701112] = {
+		breakout_view = "鱼雷底座+1/鱼雷预装填+1/主炮效率提高10%",
+		gold = 1500,
+		breakout_id = 9701113,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9701112,
+		item1 = 21056,
+		pre_id = 9701111,
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[9701113] = {
+		breakout_view = "【逐光之焰·龙骑兵】升级/全武器效率提高5%",
+		gold = 2500,
+		breakout_id = 9701114,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9701113,
+		item1 = 21056,
+		pre_id = 9701112,
+		weapon_ids = {
+			80582
+		}
+	},
+	[9701114] = {
+		breakout_view = "无",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9701114,
+		item1 = 21056,
+		pre_id = 9701113,
 		weapon_ids = {}
 	},
 	[9702011] = {

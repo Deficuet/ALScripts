@@ -421,7 +421,6 @@ end
 
 function var_0_0.UpdateTipDisplay(arg_45_0)
 	setActive(arg_45_0.rtToggleTip, arg_45_0.contextData.displayMode == var_0_0.DISPLAY.BATTLE and arg_45_0:IsStoryTip())
-	warning(arg_45_0.tasksActivity, Activity.IsActivityReady(arg_45_0.tasksActivity))
 	setActive(arg_45_0.btnTask:Find("tip"), Activity.IsActivityReady(arg_45_0.tasksActivity))
 end
 

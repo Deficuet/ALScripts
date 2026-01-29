@@ -77,15 +77,22 @@ function var_0_0.CopyFleetsByOther(arg_13_0, arg_13_1)
 
 	for iter_13_0 = 1, #var_13_0 - 1 do
 		assert(var_13_1[iter_13_0])
-		getProxy(FleetProxy):updateActivityFleet(arg_13_0.actId, var_13_1[iter_13_0], TypedFleet.New(setmetatable({
+
+		local var_13_2 = TypedFleet.New(setmetatable({
 			id = var_13_1[iter_13_0]
 		}, {
 			__index = var_13_0[iter_13_0]:SeparateOut()
-		})))
+		}))
+
+		if iter_13_0 == 1 and not arg_13_0:IsSingleFight() then
+			var_13_2:allClear()
+		end
+
+		getProxy(FleetProxy):updateActivityFleet(arg_13_0.actId, var_13_1[iter_13_0], var_13_2)
 	end
 
 	getProxy(FleetProxy):updateActivityFleet(arg_13_0.actId, var_13_1[#var_13_1], TypedFleet.New(setmetatable({
-		id = var_13_1[i]
+		id = var_13_1[#var_13_1]
 	}, {
 		__index = var_13_0[#var_13_0]:SeparateOut()
 	})))
@@ -129,6 +136,8 @@ function var_0_0.GetModeFleetIDs(arg_17_0, arg_17_1)
 		var_17_2 = {
 			table.remove(var_17_1)
 		}
+	else
+		assert(false)
 	end
 
 	return var_17_1, var_17_2

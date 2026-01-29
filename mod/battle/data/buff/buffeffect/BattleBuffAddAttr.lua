@@ -8,7 +8,7 @@ var_0_1.__name = "BattleBuffAddAttr"
 var_0_1.FX_TYPE = var_0_0.Battle.BattleBuffEffect.FX_TYPE_MOD_ATTR
 
 function var_0_1.Ctor(arg_1_0, arg_1_1)
-	var_0_0.Battle.BattleBuffAddAttr.super.Ctor(arg_1_0, arg_1_1)
+	var_0_1.super.Ctor(arg_1_0, arg_1_1)
 end
 
 function var_0_1.GetEffectType(arg_2_0)
@@ -160,60 +160,4 @@ function var_0_1.UpdateAttrAdd(arg_11_0, arg_11_1)
 
 	arg_11_1._move:ImmuneAreaLimit(var_0_0.Battle.BattleAttr.IsImmuneAreaLimit(arg_11_1))
 	arg_11_1._move:ImmuneMaxAreaLimit(var_0_0.Battle.BattleAttr.IsImmuneMaxAreaLimit(arg_11_1))
-end
-
-function var_0_1.UpdateAttrHybrid(arg_12_0, arg_12_1)
-	local var_12_0 = arg_12_1:GetBuffList()
-	local var_12_1 = {}
-	local var_12_2 = {}
-
-	for iter_12_0, iter_12_1 in pairs(var_12_0) do
-		for iter_12_2, iter_12_3 in ipairs(iter_12_1._effectList) do
-			if iter_12_3:GetEffectType() == var_0_1.FX_TYPE and iter_12_3:IsSameAttr(arg_12_0._attr) then
-				local var_12_3 = iter_12_3._number
-				local var_12_4 = iter_12_3._group
-				local var_12_5 = iter_12_3._attrID or 0
-
-				if var_12_3 > 0 then
-					local var_12_6 = var_12_1[var_12_4] or {
-						value = 0,
-						attrGroup = var_12_5
-					}
-
-					var_12_6.value = math.max(var_12_6.value, var_12_3)
-					var_12_1[var_12_4] = var_12_6
-				elseif var_12_3 < 0 then
-					local var_12_7 = var_12_2[var_12_4] or {
-						value = 0,
-						attrGroup = var_12_5
-					}
-
-					var_12_7.value = math.min(var_12_7.value, var_12_3)
-					var_12_2[var_12_4] = var_12_7
-				end
-			end
-		end
-	end
-
-	local function var_12_8(arg_13_0)
-		local var_13_0 = {}
-		local var_13_1
-
-		for iter_13_0, iter_13_1 in pairs(arg_13_0) do
-			local var_13_2 = iter_13_1.attrGroup
-
-			var_13_0[var_13_2] = (var_13_0[var_13_2] or 0) + iter_13_1.value
-		end
-
-		for iter_13_2, iter_13_3 in pairs(var_13_0) do
-			var_13_1 = (var_13_1 or 1) * iter_13_3
-		end
-
-		return var_13_1
-	end
-
-	local var_12_9 = var_12_8(var_12_1) or 0
-	local var_12_10 = var_12_8(var_12_2) or 0
-
-	var_0_0.Battle.BattleAttr.FlashByBuff(arg_12_1, arg_12_0._attr, var_12_9 + var_12_10)
 end

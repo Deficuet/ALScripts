@@ -16711,6 +16711,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_data_statistics[21056] = {
+		open_directly = 0,
+		name = "结晶：龙骑兵·META",
+		display = "龙骑兵·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+		type = 4,
+		display_effect = "",
+		id = 21056,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/21056",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_data_statistics[21101] = {
 		open_directly = 0,
 		name = "结晶化热强钢",
@@ -31090,6 +31122,59 @@ end)()
 			{
 				9,
 				2112,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[30433] = {
+		open_directly = 1,
+		name = "外观装备箱(世界巡游)",
+		display = "可以随机获得一件本次世界巡游限定外观装备",
+		type = 11,
+		display_effect = "",
+		id = 30433,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "Props/appearanceboxshijiexunyou",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "111227",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				9,
+				2113,
+				1
+			},
+			{
+				9,
+				2114,
+				1
+			},
+			{
+				9,
+				2115,
+				1
+			},
+			{
+				9,
+				2116,
 				1
 			}
 		},
@@ -131397,6 +131482,44 @@ end)()
 			{
 				7,
 				237030,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[81439] = {
+		open_directly = 1,
+		name = "沐光缀心",
+		display = "项链在水雾中呈现的光芒与质感，真是绝品……啊，指挥官……你要进来一同欣赏这幅由你赠予的美丽风景吗？",
+		type = 17,
+		display_effect = "",
+		id = 81439,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "SquareIcon/bisimaiz_3",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "908110",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				7,
+				405052,
 				1
 			}
 		},

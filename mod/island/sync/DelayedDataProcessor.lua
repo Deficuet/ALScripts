@@ -31,23 +31,27 @@ function var_0_0.Update(arg_3_0)
 
 	for iter_3_0, iter_3_1 in pairs(arg_3_0.delayedDataDic) do
 		if #iter_3_1 > 0 and var_3_0 >= iter_3_1[1].timeStamp then
-			arg_3_0.func(iter_3_1[1].data)
+			xpcall(function()
+				arg_3_0.func(iter_3_1[1].data)
+			end, function(...)
+				errorMsg(debug.traceback(...))
+			end)
 			table.remove(iter_3_1, 1)
 		end
 	end
 end
 
-function var_0_0.RemoveDataById(arg_4_0, arg_4_1)
-	if arg_4_0.delayedDataDic[arg_4_1] then
-		arg_4_0.delayedDataDic[arg_4_1] = nil
+function var_0_0.RemoveDataById(arg_6_0, arg_6_1)
+	if arg_6_0.delayedDataDic[arg_6_1] then
+		arg_6_0.delayedDataDic[arg_6_1] = nil
 	end
 
-	if arg_4_0.preTimeStampDic[arg_4_1] then
-		arg_4_0.preTimeStampDic[arg_4_1] = nil
+	if arg_6_0.preTimeStampDic[arg_6_1] then
+		arg_6_0.preTimeStampDic[arg_6_1] = nil
 	end
 end
 
-function var_0_0.Dispose(arg_5_0)
+function var_0_0.Dispose(arg_7_0)
 	return
 end
 

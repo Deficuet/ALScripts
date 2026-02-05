@@ -1247,18 +1247,34 @@ function var_0_0.GetRecommendLowEnerySkipEnable(arg_132_0)
 	return PlayerPrefs.GetInt(_G[var_132_0.name], var_132_0.default) == 1
 end
 
-function var_0_0.Reset(arg_133_0)
-	arg_133_0:resetEquipSceneIndex()
-	arg_133_0:resetActivityLayerIndex()
+local var_0_1 = "ISLAND_REST_EVENT"
 
-	arg_133_0.isStopBuildSpeedupReamind = false
+function var_0_0.ShouldTipIslandRestEvet(arg_133_0)
+	local var_133_0 = getProxy(PlayerProxy):getRawData().id
 
-	arg_133_0:RestoreFrameRate()
+	return PlayerPrefs.GetInt(var_0_1 .. var_133_0, 0) < pg.TimeMgr.GetInstance():GetServerTime()
+end
 
-	arg_133_0.randomFlagShipList = nil
-	arg_133_0.prevRandomFlagShipTime = nil
-	arg_133_0.randomFlagShipMap = nil
-	arg_133_0.educateCharTipList = {}
+function var_0_0.RecordIslandRestEvet(arg_134_0)
+	local var_134_0 = GetZeroTime()
+	local var_134_1 = getProxy(PlayerProxy):getRawData().id
+
+	PlayerPrefs.SetInt(var_0_1 .. var_134_1, var_134_0)
+	PlayerPrefs.Save()
+end
+
+function var_0_0.Reset(arg_135_0)
+	arg_135_0:resetEquipSceneIndex()
+	arg_135_0:resetActivityLayerIndex()
+
+	arg_135_0.isStopBuildSpeedupReamind = false
+
+	arg_135_0:RestoreFrameRate()
+
+	arg_135_0.randomFlagShipList = nil
+	arg_135_0.prevRandomFlagShipTime = nil
+	arg_135_0.randomFlagShipMap = nil
+	arg_135_0.educateCharTipList = {}
 end
 
 return var_0_0

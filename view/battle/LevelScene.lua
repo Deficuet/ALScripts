@@ -1488,6 +1488,7 @@ function var_0_0.registerActBtn(arg_100_0)
 
 		if arg_100_0.activityBtnLinkAct then
 			local var_102_0 = arg_100_0.activityBtnLinkAct:getConfig("type")
+			local var_102_1 = arg_100_0.activityBtnLinkAct.id
 
 			if var_102_0 == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
 				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.BOSSRUSH_MAIN)
@@ -1495,6 +1496,10 @@ function var_0_0.registerActBtn(arg_100_0)
 				return
 			elseif var_102_0 == ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB then
 				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.BOSSRUSH_DAL_COLLAB)
+
+				return
+			elseif var_102_1 == ActivityConst.OTHER_WORLD_TERMINAL_BATTLE_ID then
+				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.OTHERWORLD_MAP)
 
 				return
 			end

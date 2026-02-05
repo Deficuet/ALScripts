@@ -17,6 +17,11 @@ pg.island_illustrated_guide = setmetatable({
 		13,
 		14,
 		15,
+		1016,
+		1017,
+		1018,
+		1019,
+		1020,
 		16,
 		17,
 		18,
@@ -161,6 +166,14 @@ pg.island_illustrated_guide = setmetatable({
 		170,
 		171,
 		172,
+		4173,
+		4174,
+		4175,
+		4176,
+		4177,
+		4178,
+		4179,
+		4180,
 		173,
 		174,
 		175,
@@ -174,7 +187,37 @@ pg.island_illustrated_guide = setmetatable({
 		183,
 		184,
 		185,
-		186
+		186,
+		187,
+		188,
+		189,
+		190,
+		191,
+		192,
+		193,
+		194,
+		195,
+		196,
+		197,
+		198,
+		199,
+		200,
+		3001,
+		3002,
+		3003,
+		3004,
+		3005,
+		3006,
+		3007,
+		3008,
+		3009,
+		3010,
+		3011,
+		3012,
+		3013,
+		3014,
+		3015,
+		3016
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -633,6 +676,166 @@ pg.base.island_illustrated_guide = {
 		type = 1,
 		id = 15,
 		order = 15,
+		collect_upgrade = {
+			{
+				50,
+				50
+			}
+		},
+		collect_star = {
+			{
+				2,
+				30
+			},
+			{
+				3,
+				30
+			},
+			{
+				4,
+				30
+			},
+			{
+				5,
+				40
+			}
+		},
+		award_unlock = {}
+	},
+	[1016] = {
+		unlock_id = 10110,
+		collect_add = 20,
+		type = 1,
+		id = 1016,
+		order = 16,
+		collect_upgrade = {
+			{
+				50,
+				50
+			}
+		},
+		collect_star = {
+			{
+				2,
+				30
+			},
+			{
+				3,
+				30
+			},
+			{
+				4,
+				30
+			},
+			{
+				5,
+				40
+			}
+		},
+		award_unlock = {}
+	},
+	[1017] = {
+		unlock_id = 50601,
+		collect_add = 20,
+		type = 1,
+		id = 1017,
+		order = 17,
+		collect_upgrade = {
+			{
+				50,
+				50
+			}
+		},
+		collect_star = {
+			{
+				2,
+				30
+			},
+			{
+				3,
+				30
+			},
+			{
+				4,
+				30
+			},
+			{
+				5,
+				40
+			}
+		},
+		award_unlock = {}
+	},
+	[1018] = {
+		unlock_id = 30312,
+		collect_add = 20,
+		type = 1,
+		id = 1018,
+		order = 18,
+		collect_upgrade = {
+			{
+				50,
+				50
+			}
+		},
+		collect_star = {
+			{
+				2,
+				30
+			},
+			{
+				3,
+				30
+			},
+			{
+				4,
+				30
+			},
+			{
+				5,
+				40
+			}
+		},
+		award_unlock = {}
+	},
+	[1019] = {
+		unlock_id = 10205,
+		collect_add = 20,
+		type = 1,
+		id = 1019,
+		order = 19,
+		collect_upgrade = {
+			{
+				50,
+				50
+			}
+		},
+		collect_star = {
+			{
+				2,
+				30
+			},
+			{
+				3,
+				30
+			},
+			{
+				4,
+				30
+			},
+			{
+				5,
+				40
+			}
+		},
+		award_unlock = {}
+	},
+	[1020] = {
+		unlock_id = 49902,
+		collect_add = 20,
+		type = 1,
+		id = 1020,
+		order = 20,
 		collect_upgrade = {
 			{
 				50,
@@ -3260,12 +3463,164 @@ pg.base.island_illustrated_guide = {
 		},
 		award_unlock = {}
 	},
+	[4173] = {
+		unlock_id = 3114,
+		collect_add = 20,
+		type = 3,
+		id = 4173,
+		order = 143,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	},
+	[4174] = {
+		unlock_id = 3115,
+		collect_add = 20,
+		type = 3,
+		id = 4174,
+		order = 144,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	},
+	[4175] = {
+		unlock_id = 3116,
+		collect_add = 20,
+		type = 3,
+		id = 4175,
+		order = 145,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	},
+	[4176] = {
+		unlock_id = 3117,
+		collect_add = 20,
+		type = 3,
+		id = 4176,
+		order = 146,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	},
+	[4177] = {
+		unlock_id = 3118,
+		collect_add = 20,
+		type = 3,
+		id = 4177,
+		order = 147,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	},
+	[4178] = {
+		unlock_id = 3119,
+		collect_add = 20,
+		type = 3,
+		id = 4178,
+		order = 148,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	},
+	[4179] = {
+		unlock_id = 3120,
+		collect_add = 20,
+		type = 3,
+		id = 4179,
+		order = 149,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	},
+	[4180] = {
+		unlock_id = 9900,
+		collect_add = 20,
+		type = 3,
+		id = 4180,
+		order = 150,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	},
 	[173] = {
 		unlock_id = 4001,
 		collect_add = 20,
 		type = 3,
 		id = 173,
-		order = 143,
+		order = 151,
 		collect_upgrade = {},
 		collect_star = {
 			{
@@ -3284,7 +3639,7 @@ pg.base.island_illustrated_guide = {
 		collect_add = 20,
 		type = 3,
 		id = 174,
-		order = 144,
+		order = 152,
 		collect_upgrade = {},
 		collect_star = {
 			{
@@ -3303,7 +3658,7 @@ pg.base.island_illustrated_guide = {
 		collect_add = 20,
 		type = 3,
 		id = 175,
-		order = 145,
+		order = 153,
 		collect_upgrade = {},
 		collect_star = {
 			{
@@ -3322,7 +3677,7 @@ pg.base.island_illustrated_guide = {
 		collect_add = 20,
 		type = 3,
 		id = 176,
-		order = 146,
+		order = 154,
 		collect_upgrade = {},
 		collect_star = {
 			{
@@ -3341,7 +3696,7 @@ pg.base.island_illustrated_guide = {
 		collect_add = 20,
 		type = 3,
 		id = 177,
-		order = 147,
+		order = 155,
 		collect_upgrade = {},
 		collect_star = {
 			{
@@ -3360,7 +3715,7 @@ pg.base.island_illustrated_guide = {
 		collect_add = 20,
 		type = 3,
 		id = 178,
-		order = 148,
+		order = 156,
 		collect_upgrade = {},
 		collect_star = {
 			{
@@ -3379,7 +3734,7 @@ pg.base.island_illustrated_guide = {
 		collect_add = 20,
 		type = 3,
 		id = 179,
-		order = 149,
+		order = 157,
 		collect_upgrade = {},
 		collect_star = {
 			{
@@ -3398,7 +3753,7 @@ pg.base.island_illustrated_guide = {
 		collect_add = 20,
 		type = 3,
 		id = 180,
-		order = 150,
+		order = 158,
 		collect_upgrade = {},
 		collect_star = {
 			{
@@ -3417,7 +3772,7 @@ pg.base.island_illustrated_guide = {
 		collect_add = 20,
 		type = 3,
 		id = 181,
-		order = 151,
+		order = 159,
 		collect_upgrade = {},
 		collect_star = {
 			{
@@ -3436,7 +3791,7 @@ pg.base.island_illustrated_guide = {
 		collect_add = 20,
 		type = 3,
 		id = 182,
-		order = 152,
+		order = 160,
 		collect_upgrade = {},
 		collect_star = {
 			{
@@ -3455,7 +3810,7 @@ pg.base.island_illustrated_guide = {
 		collect_add = 20,
 		type = 3,
 		id = 183,
-		order = 153,
+		order = 161,
 		collect_upgrade = {},
 		collect_star = {
 			{
@@ -3474,7 +3829,7 @@ pg.base.island_illustrated_guide = {
 		collect_add = 20,
 		type = 3,
 		id = 184,
-		order = 154,
+		order = 162,
 		collect_upgrade = {},
 		collect_star = {
 			{
@@ -3493,7 +3848,7 @@ pg.base.island_illustrated_guide = {
 		collect_add = 20,
 		type = 3,
 		id = 185,
-		order = 155,
+		order = 163,
 		collect_upgrade = {},
 		collect_star = {
 			{
@@ -3512,7 +3867,7 @@ pg.base.island_illustrated_guide = {
 		collect_add = 20,
 		type = 3,
 		id = 186,
-		order = 156,
+		order = 164,
 		collect_upgrade = {},
 		collect_star = {
 			{
@@ -3525,5 +3880,671 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
+	},
+	[187] = {
+		unlock_id = 4015,
+		collect_add = 20,
+		type = 3,
+		id = 187,
+		order = 165,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	},
+	[188] = {
+		unlock_id = 4016,
+		collect_add = 20,
+		type = 3,
+		id = 188,
+		order = 166,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	},
+	[189] = {
+		unlock_id = 4017,
+		collect_add = 20,
+		type = 3,
+		id = 189,
+		order = 167,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	},
+	[190] = {
+		unlock_id = 4018,
+		collect_add = 20,
+		type = 3,
+		id = 190,
+		order = 168,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	},
+	[191] = {
+		unlock_id = 4019,
+		collect_add = 20,
+		type = 3,
+		id = 191,
+		order = 169,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	},
+	[192] = {
+		unlock_id = 4020,
+		collect_add = 20,
+		type = 3,
+		id = 192,
+		order = 170,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	},
+	[193] = {
+		unlock_id = 4021,
+		collect_add = 20,
+		type = 3,
+		id = 193,
+		order = 171,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	},
+	[194] = {
+		unlock_id = 4022,
+		collect_add = 20,
+		type = 3,
+		id = 194,
+		order = 172,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	},
+	[195] = {
+		unlock_id = 4023,
+		collect_add = 20,
+		type = 3,
+		id = 195,
+		order = 173,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	},
+	[196] = {
+		unlock_id = 4024,
+		collect_add = 20,
+		type = 3,
+		id = 196,
+		order = 174,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	},
+	[197] = {
+		unlock_id = 4025,
+		collect_add = 20,
+		type = 3,
+		id = 197,
+		order = 175,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	},
+	[198] = {
+		unlock_id = 4026,
+		collect_add = 20,
+		type = 3,
+		id = 198,
+		order = 176,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	},
+	[199] = {
+		unlock_id = 4027,
+		collect_add = 20,
+		type = 3,
+		id = 199,
+		order = 177,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	},
+	[200] = {
+		unlock_id = 4028,
+		collect_add = 20,
+		type = 3,
+		id = 200,
+		order = 178,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	},
+	[3001] = {
+		unlock_id = 5001,
+		collect_add = 10,
+		type = 4,
+		id = 3001,
+		order = 1,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				1,
+				10
+			},
+			{
+				2,
+				10
+			}
+		},
+		award_unlock = {
+			{
+				43,
+				3201003,
+				1
+			}
+		}
+	},
+	[3002] = {
+		unlock_id = 5002,
+		collect_add = 10,
+		type = 4,
+		id = 3002,
+		order = 2,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				1,
+				10
+			},
+			{
+				2,
+				10
+			}
+		},
+		award_unlock = {
+			{
+				43,
+				3201012,
+				1
+			}
+		}
+	},
+	[3003] = {
+		unlock_id = 5003,
+		collect_add = 10,
+		type = 4,
+		id = 3003,
+		order = 3,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				1,
+				10
+			},
+			{
+				2,
+				10
+			}
+		},
+		award_unlock = {
+			{
+				43,
+				3201002,
+				1
+			}
+		}
+	},
+	[3004] = {
+		unlock_id = 5004,
+		collect_add = 10,
+		type = 4,
+		id = 3004,
+		order = 4,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				1,
+				10
+			},
+			{
+				2,
+				10
+			}
+		},
+		award_unlock = {
+			{
+				43,
+				3201013,
+				1
+			}
+		}
+	},
+	[3005] = {
+		unlock_id = 5005,
+		collect_add = 10,
+		type = 4,
+		id = 3005,
+		order = 5,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				1,
+				10
+			},
+			{
+				2,
+				10
+			}
+		},
+		award_unlock = {
+			{
+				43,
+				3201001,
+				1
+			}
+		}
+	},
+	[3006] = {
+		unlock_id = 5006,
+		collect_add = 10,
+		type = 4,
+		id = 3006,
+		order = 6,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				1,
+				10
+			},
+			{
+				2,
+				10
+			}
+		},
+		award_unlock = {
+			{
+				43,
+				3201004,
+				1
+			}
+		}
+	},
+	[3007] = {
+		unlock_id = 5007,
+		collect_add = 10,
+		type = 4,
+		id = 3007,
+		order = 7,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				1,
+				10
+			},
+			{
+				2,
+				10
+			}
+		},
+		award_unlock = {
+			{
+				43,
+				3201014,
+				1
+			}
+		}
+	},
+	[3008] = {
+		unlock_id = 5008,
+		collect_add = 10,
+		type = 4,
+		id = 3008,
+		order = 8,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				1,
+				10
+			},
+			{
+				2,
+				10
+			}
+		},
+		award_unlock = {
+			{
+				43,
+				3201008,
+				1
+			}
+		}
+	},
+	[3009] = {
+		unlock_id = 5101,
+		collect_add = 10,
+		type = 4,
+		id = 3009,
+		order = 9,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				1,
+				10
+			},
+			{
+				2,
+				10
+			}
+		},
+		award_unlock = {
+			{
+				43,
+				3201007,
+				1
+			}
+		}
+	},
+	[3010] = {
+		unlock_id = 5102,
+		collect_add = 10,
+		type = 4,
+		id = 3010,
+		order = 10,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				1,
+				10
+			},
+			{
+				2,
+				10
+			}
+		},
+		award_unlock = {
+			{
+				43,
+				3201009,
+				1
+			}
+		}
+	},
+	[3011] = {
+		unlock_id = 5103,
+		collect_add = 10,
+		type = 4,
+		id = 3011,
+		order = 11,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				1,
+				10
+			},
+			{
+				2,
+				10
+			}
+		},
+		award_unlock = {
+			{
+				43,
+				3201010,
+				1
+			}
+		}
+	},
+	[3012] = {
+		unlock_id = 5104,
+		collect_add = 10,
+		type = 4,
+		id = 3012,
+		order = 12,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				1,
+				10
+			},
+			{
+				2,
+				10
+			}
+		},
+		award_unlock = {
+			{
+				43,
+				3201005,
+				1
+			}
+		}
+	},
+	[3013] = {
+		unlock_id = 5105,
+		collect_add = 10,
+		type = 4,
+		id = 3013,
+		order = 13,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				1,
+				10
+			},
+			{
+				2,
+				10
+			}
+		},
+		award_unlock = {
+			{
+				43,
+				3201015,
+				1
+			}
+		}
+	},
+	[3014] = {
+		unlock_id = 5106,
+		collect_add = 10,
+		type = 4,
+		id = 3014,
+		order = 14,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				1,
+				10
+			},
+			{
+				2,
+				10
+			}
+		},
+		award_unlock = {
+			{
+				43,
+				3201016,
+				1
+			}
+		}
+	},
+	[3015] = {
+		unlock_id = 5107,
+		collect_add = 10,
+		type = 4,
+		id = 3015,
+		order = 15,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				1,
+				10
+			},
+			{
+				2,
+				10
+			}
+		},
+		award_unlock = {
+			{
+				43,
+				3201011,
+				1
+			}
+		}
+	},
+	[3016] = {
+		unlock_id = 5108,
+		collect_add = 10,
+		type = 4,
+		id = 3016,
+		order = 16,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				1,
+				10
+			},
+			{
+				2,
+				10
+			}
+		},
+		award_unlock = {
+			{
+				43,
+				3201006,
+				1
+			}
+		}
 	}
 }

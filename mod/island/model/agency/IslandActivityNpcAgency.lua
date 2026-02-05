@@ -8,58 +8,70 @@ function var_0_0.OnInit(arg_1_0, arg_1_1)
 	arg_1_0.activityNpcs = {}
 end
 
-function var_0_0.InitNpcList(arg_2_0, arg_2_1)
-	arg_2_0.activityNpcs = {}
+function var_0_0.ExistTradeNpc(arg_2_0)
+	for iter_2_0, iter_2_1 in pairs(arg_2_0.activityNpcs) do
+		local var_2_0 = pg.island_world_objects[iter_2_1]
 
-	for iter_2_0, iter_2_1 in ipairs(arg_2_1) do
-		arg_2_0.activityNpcs[iter_2_1.id] = iter_2_1.object_id
+		if var_2_0 and var_2_0.type == 1 and var_2_0.unitId == 101500 then
+			return true, iter_2_1
+		end
+	end
+
+	return false
+end
+
+function var_0_0.InitNpcList(arg_3_0, arg_3_1)
+	arg_3_0.activityNpcs = {}
+
+	for iter_3_0, iter_3_1 in ipairs(arg_3_1) do
+		arg_3_0.activityNpcs[iter_3_1.id] = iter_3_1.object_id
 	end
 end
 
-function var_0_0.GetNpcList(arg_3_0)
-	return arg_3_0.activityNpcs
+function var_0_0.GetNpcList(arg_4_0)
+	return arg_4_0.activityNpcs
 end
 
-function var_0_0.GetNpcObjects(arg_4_0)
-	local var_4_0 = {}
+function var_0_0.GetNpcObjects(arg_5_0)
+	local var_5_0 = {}
 
-	for iter_4_0, iter_4_1 in pairs(arg_4_0.activityNpcs) do
-		table.insert(var_4_0, iter_4_1)
+	for iter_5_0, iter_5_1 in pairs(arg_5_0.activityNpcs) do
+		table.insert(var_5_0, iter_5_1)
 	end
 
-	return var_4_0
+	return var_5_0
 end
 
-function var_0_0.AddNpc(arg_5_0, arg_5_1)
-	if not arg_5_0:IncludeNpc(arg_5_1) then
-		arg_5_0.activityNpcs[arg_5_1.id] = arg_5_1.object_id
-
-		arg_5_0:DispatchEvent(var_0_0.ACTIVITY_NPC_ADD, arg_5_1.object_id)
-	end
-end
-
-function var_0_0.UpdateNpc(arg_6_0, arg_6_1)
-	if arg_6_0:IncludeNpc(arg_6_1) then
-		local var_6_0 = arg_6_0.activityNpcs[arg_6_1.id]
-
+function var_0_0.AddNpc(arg_6_0, arg_6_1)
+	if not arg_6_0:IncludeNpc(arg_6_1) then
 		arg_6_0.activityNpcs[arg_6_1.id] = arg_6_1.object_id
 
-		arg_6_0:DispatchEvent(var_0_0.ACTIVITY_NPC_UPDATE, var_6_0, arg_6_1.object_id)
+		arg_6_0:DispatchEvent(var_0_0.ACTIVITY_NPC_ADD, arg_6_1.object_id)
 	end
 end
 
-function var_0_0.RemoveNpc(arg_7_0, arg_7_1)
+function var_0_0.UpdateNpc(arg_7_0, arg_7_1)
 	if arg_7_0:IncludeNpc(arg_7_1) then
 		local var_7_0 = arg_7_0.activityNpcs[arg_7_1.id]
 
-		arg_7_0.activityNpcs[arg_7_1.id] = nil
+		arg_7_0.activityNpcs[arg_7_1.id] = arg_7_1.object_id
 
-		arg_7_0:DispatchEvent(var_0_0.ACTIVITY_NPC_DEL, var_7_0)
+		arg_7_0:DispatchEvent(var_0_0.ACTIVITY_NPC_UPDATE, var_7_0, arg_7_1.object_id)
 	end
 end
 
-function var_0_0.IncludeNpc(arg_8_0, arg_8_1)
-	return arg_8_0.activityNpcs[npcId] ~= nil
+function var_0_0.RemoveNpc(arg_8_0, arg_8_1)
+	if arg_8_0:IncludeNpc(arg_8_1) then
+		local var_8_0 = arg_8_0.activityNpcs[arg_8_1.id]
+
+		arg_8_0.activityNpcs[arg_8_1.id] = nil
+
+		arg_8_0:DispatchEvent(var_0_0.ACTIVITY_NPC_DEL, var_8_0)
+	end
+end
+
+function var_0_0.IncludeNpc(arg_9_0, arg_9_1)
+	return arg_9_0.activityNpcs[npcId] ~= nil
 end
 
 return var_0_0

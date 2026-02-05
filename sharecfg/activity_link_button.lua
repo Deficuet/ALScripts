@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50326
+			50371
 		}
 	},
 	{
@@ -37,9 +37,8 @@ pg.activity_link_button = {
 		order = 99
 	},
 	[10] = {
-		param = "0",
+		type = 2,
 		name = "event_map",
-		type = 0,
 		text_pic = "text_event_map",
 		id = 10,
 		group_id = 2,
@@ -47,7 +46,10 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50351
+			50371
+		},
+		param = {
+			"OTHERWORLD_MAP"
 		}
 	},
 	[11] = {
@@ -315,7 +317,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50351
+			50353
 		}
 	},
 	[110] = {

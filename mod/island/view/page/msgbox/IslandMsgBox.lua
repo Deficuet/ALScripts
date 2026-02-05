@@ -27,6 +27,8 @@ var_0_0.TYPE_DRAW_AWARD_ALL = 24
 var_0_0.TYPE_TICKET_EXPIRED = 25
 var_0_0.TYPE_DRESS_WEAR_CONFIRE = 26
 var_0_0.TYPE_COMMON_DROP_DESCRIBE = 27
+var_0_0.TYPE_ISLAND_POST_EVENT = 28
+var_0_0.TYPE_TRADE_CONFRIM = 29
 
 function var_0_0.getUIName(arg_1_0)
 	return "IslandMsgboxUI"
@@ -63,7 +65,9 @@ function var_0_0.OnLoaded(arg_2_0)
 		[var_0_0.TYPE_DRAW_AWARD_ALL] = IslandDrawAwardAllWindow,
 		[var_0_0.TYPE_TICKET_EXPIRED] = IslandTicketExpiredMsgBoxWindow,
 		[var_0_0.TYPE_DRESS_WEAR_CONFIRE] = IslandDressWearMsgboxWindow,
-		[var_0_0.TYPE_COMMON_DROP_DESCRIBE] = IslandMsgBoxSingleDropWindow
+		[var_0_0.TYPE_COMMON_DROP_DESCRIBE] = IslandMsgBoxSingleDropWindow,
+		[var_0_0.TYPE_ISLAND_POST_EVENT] = IslandPostEventWindow,
+		[var_0_0.TYPE_TRADE_CONFRIM] = IslandTradeConfirmWindow
 	}
 end
 
@@ -147,9 +151,9 @@ end
 
 function var_0_0.CheckPoolCnt(arg_9_0, arg_9_1)
 	if #arg_9_1 > arg_9_0.cacheCnt then
-		local var_9_0 = table.remove(arg_9_1, #arg_9_1)
+		local var_9_0 = table.remove(arg_9_1, #arg_9_1).window
 
-		if var_9_0:GetLoaded() then
+		if var_9_0 and var_9_0:GetLoaded() then
 			var_9_0:Destroy()
 		end
 	end

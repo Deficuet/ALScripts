@@ -164,6 +164,8 @@ function var_0_0.SetNavAgentStopDistance(arg_8_0, arg_8_1)
 end
 
 function var_0_0.SetNavAgentDestination(arg_9_0, arg_9_1)
+	arg_9_0:CheckMovement()
+
 	arg_9_0.agent.isStopped = false
 	arg_9_0.agent.destination = arg_9_1
 end

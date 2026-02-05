@@ -153,7 +153,20 @@ function var_0_0.timeCall(arg_22_0)
 
 			arg_22_0.sharedIsland:UpdatePerSecond()
 		end,
-		[ProxyRegister.DayCall] = function(arg_24_0)
+		[ProxyRegister.HourCall] = function(arg_24_0)
+			if not arg_22_0.island then
+				return
+			end
+
+			arg_22_0.island:UpdatePerHour(arg_24_0)
+
+			if not arg_22_0.sharedIsland then
+				return
+			end
+
+			arg_22_0.sharedIsland:UpdatePerHour(arg_24_0)
+		end,
+		[ProxyRegister.DayCall] = function(arg_25_0)
 			if not arg_22_0.island then
 				return
 			end
@@ -163,38 +176,38 @@ function var_0_0.timeCall(arg_22_0)
 	}
 end
 
-function var_0_0.RecordEnterTime(arg_25_0)
-	arg_25_0.enterTimeStamp = pg.TimeMgr.GetInstance():GetServerTime()
+function var_0_0.RecordEnterTime(arg_26_0)
+	arg_26_0.enterTimeStamp = pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function var_0_0.GetEnterTime(arg_26_0)
-	return arg_26_0.enterTimeStamp
+function var_0_0.GetEnterTime(arg_27_0)
+	return arg_27_0.enterTimeStamp
 end
 
-function var_0_0.RecordTempPlayerPosition(arg_27_0, arg_27_1, arg_27_2, arg_27_3)
-	arg_27_0.tempPlayerPosition = {
-		arg_27_1,
-		arg_27_2,
-		arg_27_3
+function var_0_0.RecordTempPlayerPosition(arg_28_0, arg_28_1, arg_28_2, arg_28_3)
+	arg_28_0.tempPlayerPosition = {
+		arg_28_1,
+		arg_28_2,
+		arg_28_3
 	}
 end
 
-function var_0_0.GetTempPlayerPosition(arg_28_0)
-	return arg_28_0.tempPlayerPosition
+function var_0_0.GetTempPlayerPosition(arg_29_0)
+	return arg_29_0.tempPlayerPosition
 end
 
-function var_0_0.EnterIsland(arg_29_0, arg_29_1)
-	arg_29_0.islandHeartBeatMgr:EnterIsland(arg_29_1)
+function var_0_0.EnterIsland(arg_30_0, arg_30_1)
+	arg_30_0.islandHeartBeatMgr:EnterIsland(arg_30_1)
 end
 
-function var_0_0.ExitIsland(arg_30_0)
-	arg_30_0.islandHeartBeatMgr:ExitIsland()
+function var_0_0.ExitIsland(arg_31_0)
+	arg_31_0.islandHeartBeatMgr:ExitIsland()
 end
 
-function var_0_0.remove(arg_31_0)
-	arg_31_0.islandHeartBeatMgr:Dispose()
+function var_0_0.remove(arg_32_0)
+	arg_32_0.islandHeartBeatMgr:Dispose()
 
-	arg_31_0.islandHeartBeatMgr = nil
+	arg_32_0.islandHeartBeatMgr = nil
 end
 
 return var_0_0

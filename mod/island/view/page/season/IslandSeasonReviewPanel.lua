@@ -35,16 +35,14 @@ function var_0_0.OnLoaded(arg_2_0)
 end
 
 function var_0_0.OnInit(arg_4_0)
+	arg_4_0.newestId = IslandSeasonAgency.GetCurrentSeason() - 1
 	arg_4_0.rankType = PowerRank.TYPE_ISLAND_SEASON_PT
 	arg_4_0.playerRankVOs = {}
 end
 
 function var_0_0.Show(arg_5_0)
-	var_0_0.super.Show(arg_5_0)
-
-	local var_5_0 = IslandSeasonAgency.GetCurrentSeason() - 1
-
-	arg_5_0:Flush(var_5_0)
+	arg_5_0.super.Show(arg_5_0)
+	arg_5_0:Flush(arg_5_0.newestId)
 end
 
 function var_0_0.Hide(arg_6_0)

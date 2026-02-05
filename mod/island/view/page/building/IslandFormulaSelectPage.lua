@@ -537,7 +537,7 @@ end
 
 function var_0_0.RefreshShipEnergy(arg_39_0)
 	local var_39_0 = arg_39_0.addDelegateFormulaTimes and arg_39_0.curSelectCount - arg_39_0.addDelegateFormulaTimes or arg_39_0.curSelectCount
-	local var_39_1 = arg_39_0.formulaCfg.stamina_cost * var_39_0
+	local var_39_1 = math.floor(arg_39_0.formulaCfg.stamina_cost * (1 - IslandProductCostHelper.GetReducePercentInPlace(arg_39_0.selectedShipId, arg_39_0.placeId))) * var_39_0
 
 	if arg_39_0.selectedShipId == 1 then
 		var_39_1 = 0
@@ -693,7 +693,6 @@ function var_0_0.RefreshExtraProduct(arg_43_0)
 	end
 
 	setText(arg_43_0.extraProductNum, var_43_5 .. i18n("island_production_tip"))
-	setText(arg_43_0.currentformulaIcon:Find("icon_bg/product_count_bg/product_count"), curCountStr)
 
 	local var_43_7 = pg.island_production_slot[arg_43_0.slotId].place
 	local var_43_8 = getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetBuilding(var_43_7):GetDelegationSlotData(arg_43_0.slotId):GetFromulaTatalCount(arg_43_0.formulaCfg.id)

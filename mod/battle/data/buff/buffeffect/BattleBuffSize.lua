@@ -49,7 +49,7 @@ function var_0_1.onStack(arg_6_0, arg_6_1, arg_6_2)
 end
 
 function var_0_1.onRemove(arg_7_0, arg_7_1, arg_7_2)
-	arg_7_0._number = 0
+	arg_7_0._number = 1
 
 	arg_7_0:UpdateScale(arg_7_1)
 end

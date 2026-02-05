@@ -35,6 +35,22 @@ pg.island_item_data_template = setmetatable({
 			1020,
 			1021,
 			1022,
+			1101,
+			1102,
+			1103,
+			1104,
+			1105,
+			1106,
+			1107,
+			1108,
+			1201,
+			1202,
+			1203,
+			1204,
+			1205,
+			1206,
+			1207,
+			1208,
 			2000,
 			2001,
 			2002,
@@ -57,6 +73,8 @@ pg.island_item_data_template = setmetatable({
 			2020,
 			2021,
 			2022,
+			2521,
+			2522,
 			2600,
 			2601,
 			2602,
@@ -142,6 +160,13 @@ pg.island_item_data_template = setmetatable({
 			3111,
 			3112,
 			3113,
+			3114,
+			3115,
+			3116,
+			3117,
+			3118,
+			3119,
+			3120,
 			4001,
 			4002,
 			4003,
@@ -156,6 +181,37 @@ pg.island_item_data_template = setmetatable({
 			4012,
 			4013,
 			4014,
+			4015,
+			4016,
+			4017,
+			4018,
+			4019,
+			4020,
+			4021,
+			4022,
+			4023,
+			4024,
+			4025,
+			4026,
+			4027,
+			4028,
+			5001,
+			5002,
+			5003,
+			5004,
+			5005,
+			5006,
+			5007,
+			5008,
+			5101,
+			5102,
+			5103,
+			5104,
+			5105,
+			5106,
+			5107,
+			5108,
+			9900,
 			100001,
 			100002,
 			100003,
@@ -196,12 +252,23 @@ pg.island_item_data_template = setmetatable({
 			200013,
 			200014,
 			200015,
+			200016,
+			200017,
+			200018,
+			200019,
+			200020,
 			300001,
 			300002,
 			300003,
 			300004,
 			300005,
 			300006
+		},
+		usage_fish = {
+			1500,
+			1501,
+			1502,
+			1503
 		},
 		usage_island_gift = {
 			110001,
@@ -219,7 +286,11 @@ pg.island_item_data_template = setmetatable({
 			6,
 			7,
 			8,
-			9
+			9,
+			1500,
+			1501,
+			1502,
+			1503
 		},
 		[4] = {
 			2
@@ -270,6 +341,11 @@ pg.island_item_data_template = setmetatable({
 			200013,
 			200014,
 			200015,
+			200016,
+			200017,
+			200018,
+			200019,
+			200020,
 			300001,
 			300002,
 			300003,
@@ -301,6 +377,22 @@ pg.island_item_data_template = setmetatable({
 			1020,
 			1021,
 			1022,
+			1101,
+			1102,
+			1103,
+			1104,
+			1105,
+			1106,
+			1107,
+			1108,
+			1201,
+			1202,
+			1203,
+			1204,
+			1205,
+			1206,
+			1207,
+			1208,
 			2000,
 			2001,
 			2002,
@@ -323,6 +415,8 @@ pg.island_item_data_template = setmetatable({
 			2020,
 			2021,
 			2022,
+			2521,
+			2522,
 			2600,
 			2601,
 			2602,
@@ -408,6 +502,13 @@ pg.island_item_data_template = setmetatable({
 			3111,
 			3112,
 			3113,
+			3114,
+			3115,
+			3116,
+			3117,
+			3118,
+			3119,
+			3120,
 			4001,
 			4002,
 			4003,
@@ -421,7 +522,38 @@ pg.island_item_data_template = setmetatable({
 			4011,
 			4012,
 			4013,
-			4014
+			4014,
+			4015,
+			4016,
+			4017,
+			4018,
+			4019,
+			4020,
+			4021,
+			4022,
+			4023,
+			4024,
+			4025,
+			4026,
+			4027,
+			4028,
+			5001,
+			5002,
+			5003,
+			5004,
+			5005,
+			5006,
+			5007,
+			5008,
+			5101,
+			5102,
+			5103,
+			5104,
+			5105,
+			5106,
+			5107,
+			5108,
+			9900
 		},
 		[5] = {
 			100001,
@@ -462,6 +594,26 @@ pg.island_item_data_template = setmetatable({
 		1020,
 		1021,
 		1022,
+		1101,
+		1102,
+		1103,
+		1104,
+		1105,
+		1106,
+		1107,
+		1108,
+		1201,
+		1202,
+		1203,
+		1204,
+		1205,
+		1206,
+		1207,
+		1208,
+		1500,
+		1501,
+		1502,
+		1503,
 		2000,
 		2001,
 		2002,
@@ -484,6 +636,8 @@ pg.island_item_data_template = setmetatable({
 		2020,
 		2021,
 		2022,
+		2521,
+		2522,
 		2600,
 		2601,
 		2602,
@@ -569,6 +723,13 @@ pg.island_item_data_template = setmetatable({
 		3111,
 		3112,
 		3113,
+		3114,
+		3115,
+		3116,
+		3117,
+		3118,
+		3119,
+		3120,
 		4001,
 		4002,
 		4003,
@@ -583,6 +744,37 @@ pg.island_item_data_template = setmetatable({
 		4012,
 		4013,
 		4014,
+		4015,
+		4016,
+		4017,
+		4018,
+		4019,
+		4020,
+		4021,
+		4022,
+		4023,
+		4024,
+		4025,
+		4026,
+		4027,
+		4028,
+		5001,
+		5002,
+		5003,
+		5004,
+		5005,
+		5006,
+		5007,
+		5008,
+		5101,
+		5102,
+		5103,
+		5104,
+		5105,
+		5106,
+		5107,
+		5108,
+		9900,
 		100001,
 		100002,
 		100003,
@@ -629,6 +821,11 @@ pg.island_item_data_template = setmetatable({
 		200013,
 		200014,
 		200015,
+		200016,
+		200017,
+		200018,
+		200019,
+		200020,
 		300001,
 		300002,
 		300003,
@@ -1894,6 +2091,829 @@ pg.base.island_item_data_template = {
 			}
 		}
 	},
+	[1101] = {
+		pt_num = 1,
+		name = "贝苗",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "双壳类生物幼苗，成长稳定，培育技术成熟。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1101",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1101,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"鱼苗商店",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1102] = {
+		pt_num = 1,
+		name = "鲶鱼苗",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "底栖淡水鱼苗，耐低氧环境，适宜在静水泥底池中高密度养殖。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1102",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1102,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"鱼苗商店",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1103] = {
+		pt_num = 1,
+		name = "鲤鱼苗",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "淡水杂食性鱼苗，适应性强，可在多种水质条件下稳定生长。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1103",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1103,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"鱼苗商店",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1104] = {
+		pt_num = 1,
+		name = "鲫鱼苗",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "小型淡水鱼苗，主食藻类和有机碎屑，有助于维持水体生态平衡。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1104",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1104,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"鱼苗商店",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1105] = {
+		pt_num = 1,
+		name = "小河虾苗",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "淡水虾类幼体，可作为水体清洁者，喜食残饵与部分藻类。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1105",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1105,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"鱼苗商店",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1106] = {
+		pt_num = 1,
+		name = "小龙虾苗",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "甲壳类幼体，生长过程中甲壳会逐渐变红变硬，其成体是热门水产品。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1106",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1106,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"鱼苗商店",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1107] = {
+		pt_num = 1,
+		name = "鲈鱼苗",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "肉食性鱼苗，肉质鲜嫩，经培育后可获得上乘的食用鱼类。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1107",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1107,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"鱼苗商店",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1108] = {
+		pt_num = 1,
+		name = "蟹苗",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "蜕壳频繁的蟹幼体，需在水质清新的环境中培育。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1108",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1108,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"鱼苗商店",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1201] = {
+		pt_num = 1,
+		name = "鱿鱼苗",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "头足类幼体，成长过程需多次形态变化，最终产出弹滑的肉质。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1201",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1201,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"鱼苗商店",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1202] = {
+		pt_num = 1,
+		name = "马鲛鱼苗",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "肉食性鱼苗，活跃于中上层水域，具有良好成长性。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1202",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1202,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"鱼苗商店",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1203] = {
+		pt_num = 1,
+		name = "金枪鱼苗",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "大型远洋鱼类幼苗，体型增长明显，需要在持续供氧的水域生长。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1203",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1203,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"鱼苗商店",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1204] = {
+		pt_num = 1,
+		name = "三文鱼苗",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "洄游性鱼类幼体，适宜水温较低的水域，需要耐心照料方能收获丰美鱼肉。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1204",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1204,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"鱼苗商店",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1205] = {
+		pt_num = 1,
+		name = "红鲷鱼苗",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "暖水性海水鱼苗，成长后体色鲜艳，具有较高观赏性。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1205",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1205,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"鱼苗商店",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1206] = {
+		pt_num = 1,
+		name = "黑鲷鱼苗",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "礁区鱼类幼苗，体质强健，培育成功率较高。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1206",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1206,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"鱼苗商店",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1207] = {
+		pt_num = 1,
+		name = "黄鳍金枪鱼苗",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "高经济价值鱼苗，水下游动速度快，对水体溶氧量要求严苛。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1207",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1207,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"鱼苗商店",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1208] = {
+		pt_num = 1,
+		name = "海参苗",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "底栖棘皮动物幼体，以沉积有机物为食，能有效净化养殖池底层。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1208",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1208,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"鱼苗商店",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1500] = {
+		pt_num = 0,
+		name = "蚯蚓",
+		group_max = 0,
+		type = 3,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "模拟蚯蚓的假饵，其逼真的造型容易吸引鱼类上钩。",
+		usage = "usage_fish",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_1500",
+		price = 0,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[[{{5003,300},{5004,300},{5002,200},{5007,200},{5106,200},{5108,-300}}],[]]",
+		id = 1500,
+		have_max = 1,
+		filter = {
+			10313
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"商店购买",
+				{}
+			}
+		}
+	},
+	[1501] = {
+		pt_num = 0,
+		name = "玉米粒",
+		group_max = 0,
+		type = 3,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "经过特殊调味的玉米粒假饵，金黄的色泽能有效吸引杂食性鱼类的注意。",
+		usage = "usage_fish",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_1501",
+		price = 0,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[[{{5005,-400},{5006,-400},{5008,-200},{5103,-500},{5104,-500},{5107,-500}}],[]]",
+		id = 1501,
+		have_max = 1,
+		filter = {
+			10313
+		},
+		sub_attribute = {},
+		jump_page = {}
+	},
+	[1502] = {
+		pt_num = 0,
+		name = "虾仁",
+		group_max = 0,
+		type = 3,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "精心制作的模拟虾仁假饵，其逼真的形态和动作能诱惑多数肉食鱼类。",
+		usage = "usage_fish",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_1502",
+		price = 0,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[[{{5003,-500},{5004,-500},{5101,200},{5102,300},{5104,300},{5108,-200}}],[]]",
+		id = 1502,
+		have_max = 1,
+		filter = {
+			10313
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"商店购买",
+				{}
+			}
+		}
+	},
+	[1503] = {
+		pt_num = 0,
+		name = "章鱼须",
+		group_max = 0,
+		type = 3,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "造型独特的仿真假饵，它在水中的舞动对大型海产有着致命的吸引力。",
+		usage = "usage_fish",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_1503",
+		price = 0,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[[{{5003,-500},{5004,-500},{5101,-200},{5103,500},{5107,500},{5108,-200}}],[]]",
+		id = 1503,
+		have_max = 1,
+		filter = {
+			10313
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"商店购买",
+				{}
+			}
+		}
+	},
 	[2000] = {
 		pt_num = 1,
 		name = "小麦",
@@ -2598,6 +3618,70 @@ pg.base.island_item_data_template = {
 			}
 		}
 	},
+	[2521] = {
+		pt_num = 18,
+		name = "淡水鱼肉",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "加工后的鲜美淡水鱼肉，是制作许多家常料理的基础食材。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 180,
+		icon = "IslandProps/item_2521",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 2521,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"鱼肉加工",
+				{}
+			}
+		}
+	},
+	[2522] = {
+		pt_num = 48,
+		name = "海水鱼肉",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "加工后的新鲜海水鱼肉，带着海洋的芬芳。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 400,
+		icon = "IslandProps/item_2522",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 2522,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"鱼肉加工",
+				{}
+			}
+		}
+	},
 	[2600] = {
 		pt_num = 2,
 		name = "鲜肉",
@@ -3169,8 +4253,20 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"磨坊",
-				{}
+				"磨坊加工",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10019
+					}
+				}
 			}
 		}
 	},
@@ -3201,8 +4297,20 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"磨坊",
-				{}
+				"磨坊加工",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10019
+					}
+				}
 			}
 		}
 	},
@@ -3233,8 +4341,20 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"磨坊",
-				{}
+				"磨坊加工",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10019
+					}
+				}
 			}
 		}
 	},
@@ -3265,8 +4385,20 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"磨坊",
-				{}
+				"磨坊加工",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10019
+					}
+				}
 			}
 		}
 	},
@@ -5441,6 +6573,248 @@ pg.base.island_item_data_template = {
 			}
 		}
 	},
+	[3114] = {
+		pt_num = 0,
+		name = "炸鱼薯条",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 280,
+		desc = "炸鱼外酥里嫩，薯条香脆可口，深受大众喜爱！",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 300,
+		icon = "IslandProps/item_3114",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 3114,
+		have_max = 0,
+		filter = {
+			10113,
+			10127
+		},
+		sub_attribute = {
+			6,
+			35
+		},
+		jump_page = {
+			{
+				"有鱼餐馆",
+				{}
+			}
+		}
+	},
+	[3115] = {
+		pt_num = 0,
+		name = "柠檬虾",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 220,
+		desc = "虾肉的鲜嫩与柠檬的酸甜相结合，清爽开胃。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 500,
+		icon = "IslandProps/item_3115",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 3115,
+		have_max = 0,
+		filter = {
+			10113,
+			10130
+		},
+		sub_attribute = {
+			5,
+			35
+		},
+		jump_page = {
+			{
+				"乌鱼烤肉",
+				{}
+			}
+		}
+	},
+	[3116] = {
+		pt_num = 57,
+		name = "洋葱蒸鱼",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 180,
+		desc = "以清甜洋葱丝佐味的蒸制鱼鲜，最大程度保留了鱼肉的原滋原味。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 420,
+		icon = "IslandProps/item_3116",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 3116,
+		have_max = 0,
+		filter = {
+			10113,
+			10127
+		},
+		sub_attribute = {
+			3,
+			35
+		},
+		jump_page = {
+			{
+				"有鱼餐馆",
+				{}
+			}
+		}
+	},
+	[3117] = {
+		pt_num = 82,
+		name = "装饰画",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "点缀着房间墙壁的精致画作，为房间增添一抹艺术气息。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 820,
+		icon = "IslandProps/item_3117",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 3117,
+		have_max = 0,
+		filter = {
+			10113,
+			10129
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"木料加工设备",
+				{}
+			}
+		}
+	},
+	[3118] = {
+		pt_num = 187,
+		name = "海鲜饭",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 200,
+		desc = "汇聚了海鲜精华的丰盛烩饭，米粒中藏着大海的慷慨赠礼。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 900,
+		icon = "IslandProps/item_3118",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 3118,
+		have_max = 0,
+		filter = {
+			10113,
+			10126
+		},
+		sub_attribute = {
+			2,
+			35
+		},
+		jump_page = {
+			{
+				"啾啾简餐",
+				{}
+			}
+		}
+	},
+	[3119] = {
+		pt_num = 152,
+		name = "爆炒小龙虾",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 240,
+		desc = "以旺火快炒出的小龙虾红亮诱人，是很受欢迎的下饭佳肴。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 720,
+		icon = "IslandProps/item_3119",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 3119,
+		have_max = 0,
+		filter = {
+			10113,
+			10130
+		},
+		sub_attribute = {
+			5,
+			35
+		},
+		jump_page = {
+			{
+				"乌鱼烤肉",
+				{}
+			}
+		}
+	},
+	[3120] = {
+		pt_num = 381,
+		name = "佛跳墙",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 150,
+		desc = "精心炖煮数小时的珍馐，常被作为宴席上的压轴佳肴。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 2000,
+		icon = "IslandProps/item_3120",
+		price = 1,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 3120,
+		have_max = 0,
+		filter = {
+			10113,
+			10127
+		},
+		sub_attribute = {
+			5,
+			60
+		},
+		jump_page = {
+			{
+				"有鱼餐馆",
+				{}
+			}
+		}
+	},
 	[4001] = {
 		pt_num = 40,
 		name = "秋菊",
@@ -5925,6 +7299,1027 @@ pg.base.island_item_data_template = {
 			}
 		}
 	},
+	[4015] = {
+		pt_num = 75,
+		name = "春笋",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "在春季破土而出的新鲜竹笋，口感脆嫩，是赫赫有名的时令食材。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 600,
+		icon = "IslandProps/item_4015",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4015,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"地图采集",
+				{}
+			}
+		}
+	},
+	[4016] = {
+		pt_num = 2,
+		name = "荠菜",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "清新的春季野菜，带有独特的香气，常用于制作馅料或凉拌。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 225,
+		icon = "IslandProps/item_4016",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4016,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"地图采集",
+				{}
+			}
+		}
+	},
+	[4017] = {
+		pt_num = 18,
+		name = "迎春花",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "初春绽放的亮黄色小花，可观赏也可晒干用于泡茶。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 180,
+		icon = "IslandProps/item_4017",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4017,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"地图采集",
+				{}
+			}
+		}
+	},
+	[4018] = {
+		pt_num = 54,
+		name = "风信子",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "香气浓郁的早春观花植物，多用于布置花坛、花境或庭院。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 540,
+		icon = "IslandProps/item_4018",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4018,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"地图采集",
+				{}
+			}
+		}
+	},
+	[4019] = {
+		pt_num = 5,
+		name = "芦笋",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "春季收获的鲜美蔬菜，口感爽脆，可简单烹饪或作为配菜。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 50,
+		icon = "IslandProps/item_4019",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4019,
+		have_max = 0,
+		filter = {
+			10111,
+			10132
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"青芽苗圃",
+				{}
+			}
+		}
+	},
+	[4020] = {
+		pt_num = 1,
+		name = "芦笋种子",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "把它们埋进土里，很快就能长出一排排芦笋嫩芽啦~",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_4020",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4020,
+		have_max = 0,
+		filter = {
+			10114
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"商店购买",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
+				}
+			}
+		}
+	},
+	[4021] = {
+		pt_num = 11,
+		name = "凤梨",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "别名菠萝，酸甜多汁的热带风味水果，可直接食用或加工。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 70,
+		icon = "IslandProps/item_4021",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4021,
+		have_max = 0,
+		filter = {
+			10111,
+			10132
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"青芽苗圃",
+				{}
+			}
+		}
+	},
+	[4022] = {
+		pt_num = 1,
+		name = "凤梨种子",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "蕴藏着热带阳光的种子，种下后，可以长出美味的凤梨果实。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_4022",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4022,
+		have_max = 0,
+		filter = {
+			10114
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"商店购买",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
+				}
+			}
+		}
+	},
+	[4023] = {
+		pt_num = 18,
+		name = "鲜榨菠萝汁",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 250,
+		desc = "用新鲜菠萝即时压榨的果汁，口感清爽，充满热带风味。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 200,
+		icon = "IslandProps/item_4023",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4023,
+		have_max = 0,
+		filter = {
+			10113,
+			10128
+		},
+		sub_attribute = {
+			1,
+			35
+		},
+		jump_page = {
+			{
+				"白熊饮品",
+				{}
+			}
+		}
+	},
+	[4024] = {
+		pt_num = 112,
+		name = "迎春花茶",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 250,
+		desc = "以晒干的迎春花蕾冲泡的花草茶，带有淡雅清香与舒缓功效。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 800,
+		icon = "IslandProps/item_4024",
+		price = 1,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4024,
+		have_max = 0,
+		filter = {
+			10113,
+			10128
+		},
+		sub_attribute = {
+			6,
+			35
+		},
+		jump_page = {
+			{
+				"白熊饮品",
+				{}
+			}
+		}
+	},
+	[4025] = {
+		pt_num = 72,
+		name = "凉拌双笋",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 250,
+		desc = "芦笋与春笋清爽凉拌的春日小菜，口感清脆，风味谐和。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 800,
+		icon = "IslandProps/item_4025",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4025,
+		have_max = 0,
+		filter = {
+			10113,
+			10127
+		},
+		sub_attribute = {
+			2,
+			35
+		},
+		jump_page = {
+			{
+				"有鱼餐馆",
+				{}
+			}
+		}
+	},
+	[4026] = {
+		pt_num = 180,
+		name = "芦笋炒虾仁",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 250,
+		desc = "芦笋与鲜虾仁快炒而成的佳肴，虾鲜笋脆，是一道有名的家常菜。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 600,
+		icon = "IslandProps/item_4026",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4026,
+		have_max = 0,
+		filter = {
+			10113,
+			10127
+		},
+		sub_attribute = {
+			2,
+			35
+		},
+		jump_page = {
+			{
+				"有鱼餐馆",
+				{}
+			}
+		}
+	},
+	[4027] = {
+		pt_num = 72,
+		name = "袋装荠菜干",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "经晾晒干燥保存的荠菜，便于储存，可用于煮汤或泡发入馅。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 720,
+		icon = "IslandProps/item_4027",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4027,
+		have_max = 0,
+		filter = {
+			10113,
+			10131
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"手工制作设备",
+				{}
+			}
+		}
+	},
+	[4028] = {
+		pt_num = 108,
+		name = "春季花束",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "用迎春花与风信子扎成的花束，色彩明媚，为房间带来春日气息。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 1080,
+		icon = "IslandProps/item_4028",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4028,
+		have_max = 0,
+		filter = {
+			10113,
+			10131
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"手工制作设备",
+				{}
+			}
+		}
+	},
+	[5001] = {
+		pt_num = 12,
+		name = "贝类",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "其外壳常用于装饰品或精致工艺品。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 42,
+		icon = "IslandProps/item_5001",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5001,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"啾啾渔场",
+				{}
+			}
+		}
+	},
+	[5002] = {
+		pt_num = 16,
+		name = "鲶鱼",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "肥美的鲶鱼，口感丰腴，适合各种重口味的烹调。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 250,
+		icon = "IslandProps/item_5002",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5002,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"啾啾渔场",
+				{}
+			}
+		}
+	},
+	[5003] = {
+		pt_num = 1,
+		name = "鲤鱼",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "淡水中的美味代表，餐馆里的招牌美食。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 165,
+		icon = "IslandProps/item_5003",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5003,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"啾啾渔场",
+				{}
+			}
+		}
+	},
+	[5004] = {
+		pt_num = 13,
+		name = "鲫鱼",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "常见食用鱼类之一，肉质细嫩肉味甜美，营养价值很高。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 110,
+		icon = "IslandProps/item_5004",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5004,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"啾啾渔场",
+				{}
+			}
+		}
+	},
+	[5005] = {
+		pt_num = 45,
+		name = "小河虾",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "高蛋白，低脂肪、低热量，优质水产美食之一。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 100,
+		icon = "IslandProps/item_5005",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5005,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"啾啾渔场",
+				{}
+			}
+		}
+	},
+	[5006] = {
+		pt_num = 162,
+		name = "小龙虾",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "常居水下的小家伙，虽然是海产，却是最接地气的美味。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 115,
+		icon = "IslandProps/item_5006",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5006,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"啾啾渔场",
+				{}
+			}
+		}
+	},
+	[5007] = {
+		pt_num = 1,
+		name = "鲈鱼",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "鲜美的鲈鱼，肉质白嫩，适合清蒸或煎制。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 136,
+		icon = "IslandProps/item_5007",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5007,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"啾啾渔场",
+				{}
+			}
+		}
+	},
+	[5008] = {
+		pt_num = 58,
+		name = "螃蟹",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "鲜美的螃蟹，蟹肉清甜，富含营养和风味。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 390,
+		icon = "IslandProps/item_5008",
+		price = 1,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5008,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"啾啾渔场",
+				{}
+			}
+		}
+	},
+	[5101] = {
+		pt_num = 27,
+		name = "鱿鱼",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "弹滑可口的鱿鱼，是各类烧烤的明星食材。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 116,
+		icon = "IslandProps/item_5101",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5101,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"啾啾渔场",
+				{}
+			}
+		}
+	},
+	[5102] = {
+		pt_num = 104,
+		name = "马鲛鱼",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "流线型的海中速度健将，肉质紧实，非常适合香煎。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 270,
+		icon = "IslandProps/item_5102",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5102,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"啾啾渔场",
+				{}
+			}
+		}
+	},
+	[5103] = {
+		pt_num = 198,
+		name = "金枪鱼",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "有着高蛋白低脂肪的优质鱼肉，是海钓的终极目标之一。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 870,
+		icon = "IslandProps/item_5103",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5103,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"啾啾渔场",
+				{}
+			}
+		}
+	},
+	[5104] = {
+		pt_num = 2,
+		name = "三文鱼",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "珍贵渔获，拥有漂亮的纹理与丰腴的口感。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 380,
+		icon = "IslandProps/item_5104",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5104,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"啾啾渔场",
+				{}
+			}
+		}
+	},
+	[5105] = {
+		pt_num = 11,
+		name = "红鲷鱼",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "杂食性鱼类，喜结群游速快，因其较高的营养价值广受欢迎。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 172,
+		icon = "IslandProps/item_5105",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5105,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"啾啾渔场",
+				{}
+			}
+		}
+	},
+	[5106] = {
+		pt_num = 16,
+		name = "黑鲷鱼",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "灵活且狡猾的对手，成功钓起它需要不错的技巧。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 245,
+		icon = "IslandProps/item_5106",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5106,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"啾啾渔场",
+				{}
+			}
+		}
+	},
+	[5107] = {
+		pt_num = 1,
+		name = "黄鳍金枪鱼",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "品质上乘的金枪鱼，脂肪分布均匀，是制作高级料理的绝佳原料。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 1320,
+		icon = "IslandProps/item_5107",
+		price = 1,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5107,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"啾啾渔场",
+				{}
+			}
+		}
+	},
+	[5108] = {
+		pt_num = 24,
+		name = "海参",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "滋补珍品，需要一点耐心和运气才能获得。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 1080,
+		icon = "IslandProps/item_5108",
+		price = 1,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5108,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"啾啾渔场",
+				{}
+			}
+		}
+	},
+	[9900] = {
+		pt_num = 0,
+		name = "珍珠",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "由贝类孕育出的天然珍宝，色泽温润，与珍珠相关的交易在市场上相当火爆。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_9900",
+		price = 400,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 9900,
+		have_max = 0,
+		filter = {
+			10312
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"佩芮处购买",
+				{}
+			}
+		}
+	},
 	[100001] = {
 		pt_num = 0,
 		name = "生活经验指南T1",
@@ -6072,6 +8467,10 @@ pg.base.island_item_data_template = {
 				{}
 			},
 			{
+				"开发商店",
+				{}
+			},
+			{
 				"开发计划",
 				{}
 			}
@@ -6161,6 +8560,10 @@ pg.base.island_item_data_template = {
 		jump_page = {
 			{
 				"累计PT",
+				{}
+			},
+			{
+				"开发商店",
 				{}
 			},
 			{
@@ -6256,6 +8659,10 @@ pg.base.island_item_data_template = {
 				{}
 			},
 			{
+				"开发商店",
+				{}
+			},
+			{
 				"开发计划",
 				{}
 			}
@@ -6348,6 +8755,10 @@ pg.base.island_item_data_template = {
 				{}
 			},
 			{
+				"开发商店",
+				{}
+			},
+			{
 				"开发计划",
 				{}
 			}
@@ -6418,7 +8829,7 @@ pg.base.island_item_data_template = {
 		tech_id = 0,
 		convert = 0,
 		manage_influence = 0,
-		desc = "一本内容基础的养护技巧指南。使用后，能少量提升角色的养护能力。",
+		desc = "一本内容基础的养护技巧指南。使用后，角色的养护能力将少量提升。",
 		usage = "usage_undefined",
 		resource_type = 0,
 		order_price = 0,
@@ -6437,6 +8848,10 @@ pg.base.island_item_data_template = {
 		jump_page = {
 			{
 				"累计PT",
+				{}
+			},
+			{
+				"开发商店",
 				{}
 			},
 			{
@@ -6529,6 +8944,10 @@ pg.base.island_item_data_template = {
 		jump_page = {
 			{
 				"累计PT",
+				{}
+			},
+			{
+				"开发商店",
 				{}
 			},
 			{
@@ -7382,7 +9801,12 @@ pg.base.island_item_data_template = {
 			10213
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"科技",
+				{}
+			}
+		}
 	},
 	[200014] = {
 		pt_num = 0,
@@ -7442,6 +9866,161 @@ pg.base.island_item_data_template = {
 		jump_page = {
 			{
 				"成就",
+				{}
+			}
+		}
+	},
+	[200016] = {
+		pt_num = 0,
+		name = "威廉·D·波特岛屿权限认证函",
+		group_max = 0,
+		type = 2,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "威廉·D·波特的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		usage = "usage_undefined",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_200016",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 200016,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"开发商店",
+				{}
+			}
+		}
+	},
+	[200017] = {
+		pt_num = 0,
+		name = "镇海岛屿权限认证函",
+		group_max = 0,
+		type = 2,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "镇海的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		usage = "usage_undefined",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_200017",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 200017,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"商店",
+				{}
+			}
+		}
+	},
+	[200018] = {
+		pt_num = 0,
+		name = "{namecode:67}岛屿权限认证函",
+		group_max = 0,
+		type = 2,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "{namecode:67}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		usage = "usage_undefined",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_200018",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 200018,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[200019] = {
+		pt_num = 0,
+		name = "海伦娜岛屿权限认证函",
+		group_max = 0,
+		type = 2,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "海伦娜的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		usage = "usage_undefined",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_200019",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 200019,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[200020] = {
+		pt_num = 0,
+		name = "{namecode:440}岛屿权限认证函",
+		group_max = 0,
+		type = 2,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "{namecode:440}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		usage = "usage_undefined",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_200020",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 200020,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"星彩奖",
 				{}
 			}
 		}

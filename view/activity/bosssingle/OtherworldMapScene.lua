@@ -581,8 +581,8 @@ function var_0_0.UpdateMapArea(arg_55_0)
 	for iter_55_0 = var_0_0.MAP_AREA_START, var_0_0.MAP_AREA_CNT do
 		local var_55_2 = table.contains(var_55_1, iter_55_0)
 
-		setActive(arg_55_0._tf:Find(tostring(iter_55_0), arg_55_0.locationsTF), not var_55_0 or not var_55_2)
-		setActive(arg_55_0._tf:Find(tostring(iter_55_0), arg_55_0.bgTF), var_55_2 and var_55_0)
+		setActive(arg_55_0.locationsTF:Find(tostring(iter_55_0)), not var_55_0 or not var_55_2)
+		setActive(arg_55_0.bgTF:Find(tostring(iter_55_0)), var_55_2 and var_55_0)
 	end
 end
 
@@ -624,285 +624,314 @@ end
 function var_0_0.UpdateEntrances(arg_62_0)
 	local var_62_0 = arg_62_0.contextData.bossActivity
 
-	for iter_62_0, iter_62_1 in pairs(var_62_0:GetEnemyDatas()) do
-		local var_62_1 = var_62_0:IsUnlockByEnemyId(iter_62_1.id)
-		local var_62_2 = iter_62_1:GetType()
-		local var_62_3 = arg_62_0.strongholdsTF:Find(var_0_0.TYPE2NAME[var_62_2])
-		local var_62_4 = var_62_3:Find("lock")
+	if not arg_62_0.lastUnlockEntrances then
+		arg_62_0.lastUnlockEntrances = {}
 
-		if var_62_4 then
-			setActive(var_62_4, not var_62_1)
+		for iter_62_0, iter_62_1 in pairs(var_62_0:GetEnemyDatas()) do
+			arg_62_0.lastUnlockEntrances[iter_62_1.id] = var_62_0:IsUnlockByEnemyId(iter_62_1.id)
+		end
+	end
+
+	for iter_62_2, iter_62_3 in pairs(var_62_0:GetEnemyDatas()) do
+		local var_62_1 = var_62_0:IsUnlockByEnemyId(iter_62_3.id)
+		local var_62_2 = arg_62_0.lastUnlockEntrances[iter_62_3.id] or false
+		local var_62_3 = iter_62_3:GetType()
+		local var_62_4 = arg_62_0.strongholdsTF:Find(var_0_0.TYPE2NAME[var_62_3])
+		local var_62_5 = var_62_4:Find("lock")
+
+		if var_62_1 and not var_62_2 then
+			local var_62_6 = var_62_4:GetComponent(typeof(DftAniEvent))
+
+			if var_62_6 then
+				var_62_6:SetEndEvent(function(arg_63_0)
+					if var_62_5 then
+						setActive(var_62_5, not var_62_1)
+					end
+				end)
+			end
+
+			local var_62_7 = var_62_4:GetComponent(typeof(Animation))
+
+			if var_62_7 and var_62_7.clip then
+				var_62_7:Play()
+			end
+		elseif var_62_5 then
+			setActive(var_62_5, not var_62_1)
 		end
 
-		if var_62_2 == BossSingleEnemyData.TYPE.SP then
-			setActive(var_62_3:Find("count"), var_62_1 and iter_62_1:InTime())
+		if var_62_3 == BossSingleEnemyData.TYPE.SP then
+			setActive(var_62_4:Find("count"), var_62_1 and iter_62_3:InTime())
 
-			local var_62_5, var_62_6 = var_62_0:GetCounts(iter_62_1.id)
+			local var_62_8, var_62_9 = var_62_0:GetCounts(iter_62_3.id)
 
-			setText(var_62_3:Find("count/Text"), i18n("levelScene_chapter_count_tip") .. var_62_5 .. "/" .. var_62_6)
+			setText(var_62_4:Find("count/Text"), i18n("levelScene_chapter_count_tip") .. var_62_8 .. "/" .. var_62_9)
 
-			local var_62_7 = var_62_1 and var_62_5 > 0 and iter_62_1:InTime()
+			local var_62_10 = var_62_1 and var_62_8 > 0 and iter_62_3:InTime()
 
-			setActive(var_62_3:Find("name/tip"), var_62_7)
-			setActive(arg_62_0.rightArrow:Find("tip"), var_62_7 and arg_62_0.contextData.mode == var_0_0.MODE_BATTLE)
+			setActive(var_62_4:Find("name/tip"), var_62_10)
+			setActive(arg_62_0.rightArrow:Find("tip"), var_62_10 and arg_62_0.contextData.mode == var_0_0.MODE_BATTLE)
 		end
+
+		setActive(var_62_4:Find("exp"), false)
+
+		arg_62_0.lastUnlockEntrances[iter_62_3.id] = var_62_1
 	end
 end
 
-function var_0_0.OpenTerminal(arg_63_0, arg_63_1)
-	arg_63_0:emit(OtherworldMapMediator.GO_SUBLAYER, Context.New({
+function var_0_0.OpenTerminal(arg_64_0, arg_64_1)
+	arg_64_0:emit(OtherworldMapMediator.GO_SUBLAYER, Context.New({
 		mediator = OtherworldTerminalMediator,
 		viewComponent = OtherworldTerminalLayer,
-		data = arg_63_1
+		data = arg_64_1
 	}))
 end
 
-function var_0_0.UpdateEvents(arg_64_0, arg_64_1)
-	if not arg_64_0.eventAct then
+function var_0_0.UpdateEvents(arg_65_0, arg_65_1)
+	if not arg_65_0.eventAct then
 		return
 	end
 
-	local var_64_0 = arg_64_0.contextData.mode == var_0_0.MODE_STORY and SingleEvent.MODE_TYPE.STORY or SingleEvent.MODE_TYPE.BATTLE
+	local var_65_0 = arg_65_0.contextData.mode == var_0_0.MODE_STORY and SingleEvent.MODE_TYPE.STORY or SingleEvent.MODE_TYPE.BATTLE
 
-	arg_64_0.eventIds = underscore.select(arg_64_0.eventAct:GetAllEventIds(), function(arg_65_0)
-		local var_65_0 = arg_64_0.eventAct:GetEventById(arg_65_0)
+	arg_65_0.eventIds = underscore.select(arg_65_0.eventAct:GetAllEventIds(), function(arg_66_0)
+		local var_66_0 = arg_65_0.eventAct:GetEventById(arg_66_0)
 
-		return var_65_0 and arg_64_0.eventAct:CheckTrigger(var_65_0.id) and var_65_0:GetMode() == var_64_0
+		return var_66_0 and arg_65_0.eventAct:CheckTrigger(var_66_0.id) and var_66_0:GetMode() == var_65_0
 	end)
 
-	local var_64_1 = {}
+	local var_65_1 = {}
 
-	if arg_64_1 then
-		local var_64_2 = arg_64_0.nodeItemList.container:Find(tostring(arg_64_1)).anchoredPosition * -1
-		local var_64_3 = arg_64_0.contextData.mode == var_0_0.MODE_STORY and #arg_64_0.eventIds > 0
+	if arg_65_1 then
+		local var_65_2 = arg_65_0.nodeItemList.container:Find(tostring(arg_65_1)).anchoredPosition * -1
+		local var_65_3 = arg_65_0.contextData.mode == var_0_0.MODE_STORY and #arg_65_0.eventIds > 0
 
-		if #arg_64_0.eventAct:GetEventById(arg_64_1):GetOptions() > 0 then
-			table.insert(var_64_1, function(arg_66_0)
-				arg_64_0:OpenTerminal({
+		if #arg_65_0.eventAct:GetEventById(arg_65_1):GetOptions() > 0 then
+			table.insert(var_65_1, function(arg_67_0)
+				arg_65_0:OpenTerminal({
 					upgrade = true,
-					onExit = arg_66_0
+					onExit = arg_67_0
 				})
 			end)
 		end
 
-		if var_64_3 then
-			local var_64_4, var_64_5 = unpack(arg_64_0.eventAct:GetEventById(arg_64_0.eventIds[1]):GetPos())
-			local var_64_6 = Vector2(var_64_4, var_64_5) * -1
+		if var_65_3 then
+			local var_65_4, var_65_5 = unpack(arg_65_0.eventAct:GetEventById(arg_65_0.eventIds[1]):GetPos())
+			local var_65_6 = Vector2(var_65_4, var_65_5) * -1
 
-			table.insert(var_64_1, function(arg_67_0)
-				arg_64_0:FocusPoint({
-					x = (var_64_2.x + var_64_6.x) / 2,
-					y = (var_64_2.y + var_64_6.y) / 2
-				}, arg_67_0)
+			table.insert(var_65_1, function(arg_68_0)
+				arg_65_0:FocusPoint({
+					x = (var_65_2.x + var_65_6.x) / 2,
+					y = (var_65_2.y + var_65_6.y) / 2
+				}, arg_68_0)
 			end)
 		end
 
-		table.insert(var_64_1, function(arg_68_0)
-			local var_68_0 = arg_64_0.nodeItemList.container:Find(tostring(arg_64_1))
-			local var_68_1 = var_68_0:GetComponent(typeof(Animation))
-			local var_68_2 = var_68_0:GetComponent(typeof(DftAniEvent))
+		table.insert(var_65_1, function(arg_69_0)
+			local var_69_0 = arg_65_0.nodeItemList.container:Find(tostring(arg_65_1))
+			local var_69_1 = var_69_0:GetComponent(typeof(Animation))
+			local var_69_2 = var_69_0:GetComponent(typeof(DftAniEvent))
 
-			var_68_2:SetEndEvent(function()
-				arg_68_0()
-				var_68_2:SetEndEvent(nil)
+			var_69_2:SetEndEvent(function()
+				arg_69_0()
+				var_69_2:SetEndEvent(nil)
 			end)
-			var_68_1:Play("story_node_out")
+			var_69_1:Play("story_node_out")
 		end)
-		table.insert(var_64_1, function(arg_70_0)
-			if var_64_3 then
-				arg_64_0.playInAnimId = arg_64_0.eventIds[1]
+		table.insert(var_65_1, function(arg_71_0)
+			if var_65_3 then
+				arg_65_0.playInAnimId = arg_65_0.eventIds[1]
 			end
 
-			arg_64_0.nodeItemList:align(#arg_64_0.eventIds)
-			arg_64_0.floatItemList:align(#arg_64_0.eventIds)
-			arg_64_0:UpdateToggleTip()
-			arg_64_0:managedTween(LeanTween.delayedCall, function()
-				arg_70_0()
+			arg_65_0.nodeItemList:align(#arg_65_0.eventIds)
+			arg_65_0.floatItemList:align(#arg_65_0.eventIds)
+			arg_65_0:UpdateToggleTip()
+			arg_65_0:managedTween(LeanTween.delayedCall, function()
+				arg_71_0()
 			end, 0.02, nil)
 		end)
 
-		if arg_64_0.eventAct:IsShowMapAnim(arg_64_1) then
-			table.insert(var_64_1, function(arg_72_0)
-				arg_64_0:PlayMapAnim(arg_64_1, arg_72_0)
+		if arg_65_0.eventAct:IsShowMapAnim(arg_65_1) then
+			table.insert(var_65_1, function(arg_73_0)
+				arg_65_0:PlayMapAnim(arg_65_1, arg_73_0)
 			end)
 		end
 
-		if var_64_3 then
-			table.insert(var_64_1, function(arg_73_0)
-				local var_73_0 = arg_64_0.nodeItemList.container:Find(tostring(arg_64_0.eventIds[1]))
-				local var_73_1 = var_73_0:GetComponent(typeof(Animation))
-				local var_73_2 = var_73_0:GetComponent(typeof(DftAniEvent))
+		if var_65_3 then
+			table.insert(var_65_1, function(arg_74_0)
+				local var_74_0 = arg_65_0.nodeItemList.container:Find(tostring(arg_65_0.eventIds[1]))
+				local var_74_1 = var_74_0:GetComponent(typeof(Animation))
+				local var_74_2 = var_74_0:GetComponent(typeof(DftAniEvent))
 
-				var_73_2:SetEndEvent(function()
-					arg_73_0()
-					var_73_2:SetEndEvent(nil)
+				var_74_2:SetEndEvent(function()
+					arg_74_0()
+					var_74_2:SetEndEvent(nil)
 
-					arg_64_0.playInAnimId = nil
+					arg_65_0.playInAnimId = nil
 				end)
 
-				GetOrAddComponent(var_73_0, typeof(CanvasGroup)).alpha = 0
+				GetOrAddComponent(var_74_0, typeof(CanvasGroup)).alpha = 0
 
-				var_73_1:Play("story_node_in")
+				var_74_1:Play("story_node_in")
 			end)
 		end
 	else
-		table.insert(var_64_1, function(arg_75_0)
-			arg_64_0.nodeItemList:align(#arg_64_0.eventIds)
+		table.insert(var_65_1, function(arg_76_0)
+			arg_65_0.nodeItemList:align(#arg_65_0.eventIds)
 
-			if not arg_64_0.first then
-				eachChild(arg_64_0.nodeItemList.container, function(arg_76_0)
-					if isActive(arg_76_0) then
+			if not arg_65_0.first then
+				eachChild(arg_65_0.nodeItemList.container, function(arg_77_0)
+					if isActive(arg_77_0) then
 						onNextTick(function()
-							arg_76_0:GetComponent(typeof(Animation)):Play("story_node_in")
+							arg_77_0:GetComponent(typeof(Animation)):Play("story_node_in")
 						end)
 					end
 				end)
 
-				arg_64_0.first = true
+				arg_65_0.first = true
 			end
 
-			arg_64_0.floatItemList:align(#arg_64_0.eventIds)
-			arg_64_0:UpdateToggleTip()
-			arg_75_0()
+			arg_65_0.floatItemList:align(#arg_65_0.eventIds)
+			arg_65_0:UpdateToggleTip()
+			arg_76_0()
 		end)
 	end
 
-	setActive(arg_64_0.clickMask, true)
-	seriesAsync(var_64_1, function()
-		arg_64_0:onDragFunction()
-		setActive(arg_64_0.clickMask, false)
+	setActive(arg_65_0.clickMask, true)
+	seriesAsync(var_65_1, function()
+		arg_65_0:onDragFunction()
+		setActive(arg_65_0.clickMask, false)
 	end)
 end
 
-function var_0_0.UpdateRes(arg_79_0)
-	setText(arg_79_0.ptValueTF, getProxy(PlayerProxy):getData():getResource(arg_79_0.contextData.resId))
+function var_0_0.UpdateRes(arg_80_0)
+	setText(arg_80_0.ptValueTF, getProxy(PlayerProxy):getData():getResource(arg_80_0.contextData.resId))
 end
 
-function var_0_0.UpdateTerminalTip(arg_80_0)
-	setActive(arg_80_0.leftUI:Find("terminal_btn/tip"), TerminalAdventurePage.IsTip())
+function var_0_0.UpdateTerminalTip(arg_81_0)
+	setActive(arg_81_0.leftUI:Find("terminal_btn/tip"), TerminalAdventurePage.IsTip())
 end
 
-function var_0_0.ShowBattleMode(arg_81_0)
-	arg_81_0.contextData.mode = var_0_0.MODE_BATTLE
+function var_0_0.ShowBattleMode(arg_82_0)
+	arg_82_0.contextData.mode = var_0_0.MODE_BATTLE
 
-	setActive(arg_81_0.battleBtn, false)
-	setActive(arg_81_0.storyBtn, true)
-	setActive(arg_81_0.strongholdsTF, true)
-
-	for iter_81_0, iter_81_1 in ipairs(arg_81_0.battleHideLocations) do
-		setActive(iter_81_1, false)
-	end
-
-	arg_81_0:UpdateEvents()
-	arg_81_0:UpdateMapArea()
-
-	local var_81_0 = arg_81_0.contextData.bossActivity
-	local var_81_1 = var_81_0:GetEnemyDataByType(BossSingleEnemyData.TYPE.SP)
-
-	if not var_81_0:IsUnlockByEnemyId(var_81_1.id) or not var_81_1:InTime() then
-		arg_81_0.isShowSpTip = false
-	else
-		local var_81_2, var_81_3 = var_81_0:GetCounts(var_81_1.id)
-
-		arg_81_0.isShowSpTip = var_81_2 > 0
-	end
-
-	setActive(arg_81_0.rightArrow:Find("tip"), arg_81_0.isShowSpTip)
-	setActive(arg_81_0.leftArrow:Find("tip"), arg_81_0.isShowWangduTip)
-	PlayerPrefs.SetInt(var_0_2 .. arg_81_0.playerId, arg_81_0.contextData.mode)
-	PlayerPrefs.Save()
-end
-
-function var_0_0.ShowStoryMode(arg_82_0)
-	arg_82_0.contextData.mode = var_0_0.MODE_STORY
-
-	setActive(arg_82_0.battleBtn, true)
-	setActive(arg_82_0.storyBtn, false)
-	setActive(arg_82_0.strongholdsTF, false)
+	setActive(arg_82_0.battleBtn, false)
+	setActive(arg_82_0.storyBtn, true)
+	setActive(arg_82_0.strongholdsTF, true)
 
 	for iter_82_0, iter_82_1 in ipairs(arg_82_0.battleHideLocations) do
-		setActive(iter_82_1, true)
+		setActive(iter_82_1, false)
 	end
 
 	arg_82_0:UpdateEvents()
 	arg_82_0:UpdateMapArea()
-	setActive(arg_82_0.rightArrow:Find("tip"), false)
-	setActive(arg_82_0.leftArrow:Find("tip"), false)
+
+	local var_82_0 = arg_82_0.contextData.bossActivity
+	local var_82_1 = var_82_0:GetEnemyDataByType(BossSingleEnemyData.TYPE.SP)
+
+	if not var_82_0:IsUnlockByEnemyId(var_82_1.id) or not var_82_1:InTime() then
+		arg_82_0.isShowSpTip = false
+	else
+		local var_82_2, var_82_3 = var_82_0:GetCounts(var_82_1.id)
+
+		arg_82_0.isShowSpTip = var_82_2 > 0
+	end
+
+	setActive(arg_82_0.rightArrow:Find("tip"), arg_82_0.isShowSpTip)
+	setActive(arg_82_0.leftArrow:Find("tip"), arg_82_0.isShowWangduTip)
 	PlayerPrefs.SetInt(var_0_2 .. arg_82_0.playerId, arg_82_0.contextData.mode)
 	PlayerPrefs.Save()
 end
 
-function var_0_0.PlaySwithAnim(arg_83_0, arg_83_1)
-	seriesAsync({
-		function(arg_84_0)
-			if not arg_83_0.swithAnimTF then
-				PoolMgr.GetInstance():GetUI("OtherworldCoverUI", true, function(arg_85_0)
-					arg_83_0.swithAnimTF = arg_85_0.transform
+function var_0_0.ShowStoryMode(arg_83_0)
+	arg_83_0.contextData.mode = var_0_0.MODE_STORY
 
-					setParent(arg_83_0.swithAnimTF, arg_83_0._tf, false)
-					setActive(arg_83_0.swithAnimTF, false)
-					arg_84_0()
+	setActive(arg_83_0.battleBtn, true)
+	setActive(arg_83_0.storyBtn, false)
+	setActive(arg_83_0.strongholdsTF, false)
+
+	for iter_83_0, iter_83_1 in ipairs(arg_83_0.battleHideLocations) do
+		setActive(iter_83_1, true)
+	end
+
+	arg_83_0:UpdateEvents()
+	arg_83_0:UpdateMapArea()
+	setActive(arg_83_0.rightArrow:Find("tip"), false)
+	setActive(arg_83_0.leftArrow:Find("tip"), false)
+	PlayerPrefs.SetInt(var_0_2 .. arg_83_0.playerId, arg_83_0.contextData.mode)
+	PlayerPrefs.Save()
+end
+
+function var_0_0.PlaySwithAnim(arg_84_0, arg_84_1)
+	seriesAsync({
+		function(arg_85_0)
+			if not arg_84_0.swithAnimTF then
+				PoolMgr.GetInstance():GetUI("OtherworldCoverUI", true, function(arg_86_0)
+					arg_84_0.swithAnimTF = arg_86_0.transform
+
+					setParent(arg_84_0.swithAnimTF, arg_84_0._tf, false)
+					setActive(arg_84_0.swithAnimTF, false)
+					arg_85_0()
 				end)
 			else
-				arg_84_0()
+				arg_85_0()
 			end
 		end,
-		function(arg_86_0)
-			setActive(arg_83_0.swithAnimTF, true)
+		function(arg_87_0)
+			setActive(arg_84_0.swithAnimTF, true)
 
-			local var_86_0 = arg_83_0.swithAnimTF:Find("yuncaizhuanchang"):GetComponent(typeof(SpineAnimUI))
+			local var_87_0 = arg_84_0.swithAnimTF:Find("yuncaizhuanchang"):GetComponent(typeof(SpineAnimUI))
 
-			var_86_0:SetActionCallBack(function(arg_87_0)
-				if arg_87_0 == "finish" then
-					setActive(arg_83_0.swithAnimTF, false)
-				elseif arg_87_0 == "action" and arg_83_1 then
-					arg_83_1()
+			var_87_0:SetActionCallBack(function(arg_88_0)
+				if arg_88_0 == "finish" then
+					setActive(arg_84_0.swithAnimTF, false)
+				elseif arg_88_0 == "action" and arg_84_1 then
+					arg_84_1()
 				end
 			end)
-			var_86_0:SetAction("action", 0)
+			var_87_0:SetAction("action", 0)
 		end
 	}, function()
 		return
 	end)
 end
 
-function var_0_0.UpdateView(arg_89_0)
-	arg_89_0:UpdateWangduBtn()
-	arg_89_0:UpdateRes()
-	arg_89_0:UpdateEntrances()
-	arg_89_0:UpdateEvents()
-	arg_89_0:UpdateMapArea()
-	arg_89_0:UpdateTerminalTip()
-	arg_89_0:UpdateToggleTip()
+function var_0_0.UpdateView(arg_90_0)
+	arg_90_0:UpdateWangduBtn()
+	arg_90_0:UpdateRes()
+	arg_90_0:UpdateEntrances()
+	arg_90_0:UpdateEvents()
+	arg_90_0:UpdateMapArea()
+	arg_90_0:UpdateTerminalTip()
+	arg_90_0:UpdateToggleTip()
 end
 
-function var_0_0.willExit(arg_90_0)
-	var_0_0.super.willExit(arg_90_0)
-	arg_90_0:cleanManagedTween()
-	PlayerPrefs.SetFloat(var_0_1 .. arg_90_0.playerId, arg_90_0.scrollValueX or 0)
+function var_0_0.willExit(arg_91_0)
+	var_0_0.super.willExit(arg_91_0)
+	arg_91_0:cleanManagedTween()
+	PlayerPrefs.SetFloat(var_0_1 .. arg_91_0.playerId, arg_91_0.scrollValueX or 0)
 	PlayerPrefs.Save()
 end
 
 function var_0_0.IsShowTip()
-	local function var_91_0()
-		local var_92_0 = getProxy(ActivityProxy):getActivityById(ActivityConst.OTHER_WORLD_TERMINAL_BATTLE_ID)
+	local function var_92_0()
+		local var_93_0 = getProxy(ActivityProxy):getActivityById(ActivityConst.OTHER_WORLD_TERMINAL_BATTLE_ID)
 
-		if not var_92_0 or var_92_0:isEnd() then
+		if not var_93_0 or var_93_0:isEnd() then
 			return false
 		end
 
-		local var_92_1 = var_92_0:GetEnemyDataByType(BossSingleEnemyData.TYPE.SP)
+		local var_93_1 = var_93_0:GetEnemyDataByType(BossSingleEnemyData.TYPE.SP)
 
-		if not var_92_0:IsUnlockByEnemyId(var_92_1.id) or not var_92_1:InTime() then
+		if not var_93_0:IsUnlockByEnemyId(var_93_1.id) or not var_93_1:InTime() then
 			return false
 		end
 
-		local var_92_2, var_92_3 = var_92_0:GetCounts(var_92_1.id)
+		local var_93_2, var_93_3 = var_93_0:GetCounts(var_93_1.id)
 
-		return var_92_2 > 0
+		return var_93_2 > 0
 	end
 
-	return TerminalAdventurePage.IsTip() or var_91_0()
+	return TerminalAdventurePage.IsTip() or var_92_0()
 end
 
 var_0_0.personalRandomData = nil

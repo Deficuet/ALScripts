@@ -28,10 +28,8 @@ function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2)
 		arg_2_0.offlineTxt.text = getOfflineTimeStamp(arg_2_1.preOnLineTime)
 	end
 
-	local var_2_1 = arg_2_2:GetSignInAgency():IsInvited(arg_2_1.id)
-
-	setActive(arg_2_0.btn, not var_2_1)
-	setActive(arg_2_0.btn1, var_2_1)
+	setActive(arg_2_0.btn, not arg_2_2)
+	setActive(arg_2_0.btn1, arg_2_2)
 end
 
 return var_0_0

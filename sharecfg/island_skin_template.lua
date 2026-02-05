@@ -1,5 +1,31 @@
 pg = pg or {}
 pg.island_skin_template = {
+	[1011001] = {
+		ship_group = 10110,
+		name = "元气满载！",
+		desc = "就算是最简单的打扫工作，也要用百分之两百的活力去完成！",
+		model = 1011001,
+		shop_id = 0,
+		tech_id = 0,
+		shop_goods_id = 0,
+		jump_page = "",
+		id = 1011001,
+		icon = "skin_1011001",
+		icon_normal = ""
+	},
+	[1020501] = {
+		ship_group = 10205,
+		name = "湛蓝之心",
+		desc = "与温柔气质相得益彰的清丽湛蓝，在妥帖的服务与安静的微笑里，是如海般深邃的细心。",
+		model = 1020501,
+		shop_id = 0,
+		tech_id = 0,
+		shop_goods_id = 0,
+		jump_page = "",
+		id = 1020501,
+		icon = "skin_1020501",
+		icon_normal = ""
+	},
 	[1051701] = {
 		ship_group = 10517,
 		name = "轻跃日常",
@@ -52,6 +78,19 @@ pg.island_skin_template = {
 		icon_normal = "props/skin_2990301",
 		jump_page = {}
 	},
+	[3031201] = {
+		ship_group = 30312,
+		name = "蜜语奉茶",
+		desc = "为您斟上的不止是茶水，还有藏在笑容后的甜蜜关怀与问候哦~",
+		model = 3031201,
+		shop_id = 0,
+		tech_id = 0,
+		shop_goods_id = 0,
+		jump_page = "",
+		id = 3031201,
+		icon = "skin_3031201",
+		icon_normal = ""
+	},
 	[3040701] = {
 		ship_group = 30407,
 		name = "雏日甜谣 ",
@@ -78,7 +117,52 @@ pg.island_skin_template = {
 		icon_normal = "props/skin_3120101",
 		jump_page = {}
 	},
+	[4030301] = {
+		ship_group = 40303,
+		name = "慵懒献纳",
+		desc = "以一丝玩味的优雅进行“特别款待”的服务，猜猜她藏着怎样令人心跳的余兴呢~？",
+		model = 4030301,
+		shop_id = 0,
+		tech_id = 0,
+		shop_goods_id = 0,
+		jump_page = "",
+		id = 4030301,
+		icon = "skin_4030301",
+		icon_normal = ""
+	},
+	[4990201] = {
+		ship_group = 49902,
+		name = "优雅侍奉",
+		desc = "威严与温柔在此刻完美融合，以最优雅的姿态，履行名为侍奉的至高契约。",
+		model = 4990201,
+		shop_id = 0,
+		tech_id = 0,
+		shop_goods_id = 0,
+		jump_page = "",
+		id = 4990201,
+		icon = "skin_4990201",
+		icon_normal = ""
+	},
+	[5060101] = {
+		ship_group = 50601,
+		name = "运筹之暇",
+		desc = "暂离棋枰，执起茶壶。于袅袅茶烟中，为您献上另一番洞悉人心的温润智慧。",
+		model = 5060101,
+		shop_id = 0,
+		tech_id = 0,
+		shop_goods_id = 0,
+		jump_page = "",
+		id = 5060101,
+		icon = "skin_5060101",
+		icon_normal = ""
+	},
 	get_id_list_by_ship_group = {
+		[10110] = {
+			1011001
+		},
+		[10205] = {
+			1020501
+		},
 		[10517] = {
 			1051701
 		},
@@ -91,19 +175,37 @@ pg.island_skin_template = {
 		[29903] = {
 			2990301
 		},
+		[30312] = {
+			3031201
+		},
 		[30407] = {
 			3040701
 		},
 		[31201] = {
 			3120101
+		},
+		[40303] = {
+			4030301
+		},
+		[49902] = {
+			4990201
+		},
+		[50601] = {
+			5060101
 		}
 	},
 	all = {
+		1011001,
+		1020501,
 		1051701,
 		1070301,
 		2060301,
 		2990301,
+		3031201,
 		3040701,
-		3120101
+		3120101,
+		4030301,
+		4990201,
+		5060101
 	}
 }

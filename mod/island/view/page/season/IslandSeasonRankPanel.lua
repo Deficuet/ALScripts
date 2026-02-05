@@ -42,6 +42,10 @@ function var_0_0.OnInit(arg_3_0)
 
 	arg_3_0.playerCard = IslandRankCard.New(arg_3_0.playerRankTF, IslandRankCard.TYPE_SELF, arg_3_0)
 	arg_3_0.newestId = IslandSeasonAgency.GetCurrentSeason()
+
+	if arg_3_0.newestId > 1 then
+		-- block empty
+	end
 end
 
 function var_0_0.OnInitItem(arg_6_0, arg_6_1)

@@ -5,6 +5,7 @@ var_0_0.TYPE_PROP = 2
 var_0_0.TYPE_SPECIAL_PROP = 3
 var_0_0.TYPE_SHIP_EXP_BOOK = 5
 var_0_0.GOLD_ID = 1
+var_0_0.PEARL_ID = 9900
 
 function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0.id = arg_1_1.id

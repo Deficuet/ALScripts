@@ -92,7 +92,7 @@ function var_0_0.didEnter(arg_11_0)
 		var_11_0 = var_0_0.PAGE_ADVENTURE
 	end
 
-	triggerToggle(arg_11_0._tf:Find(tostring(var_11_0), arg_11_0.togglesTF), true)
+	triggerToggle(arg_11_0.togglesTF:Find(tostring(var_11_0)), true)
 	arg_11_0:UpdateAdventureTip()
 end
 

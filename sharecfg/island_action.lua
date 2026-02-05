@@ -1,99 +1,143 @@
 pg = pg or {}
 pg.island_action = {
 	[1000] = {
-		tech_id = 0,
+		sigle_action_reply_type = 2,
 		name = "打招呼",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
 		desc = "自然流畅的打招呼，生动形象地表达情感与态度。",
+		tech_id = 0,
 		resource = "hi",
 		id = 1000,
 		responder_feedback = "",
+		chara_sigle_action_reply = {
+			101,
+			102,
+			104
+		},
 		jump_page = {}
 	},
 	[1001] = {
-		tech_id = 0,
+		sigle_action_reply_type = 2,
 		name = "道别",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
 		desc = "自然流畅的道别，生动形象地表达情感与态度。",
+		tech_id = 0,
 		resource = "bye",
 		id = 1001,
 		responder_feedback = "",
+		chara_sigle_action_reply = {
+			101
+		},
 		jump_page = {}
 	},
 	[1002] = {
-		tech_id = 0,
+		sigle_action_reply_type = 2,
 		name = "点头",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
 		desc = "自然流畅的点头，生动形象地表达情感与态度。",
+		tech_id = 0,
 		resource = "nod",
 		id = 1002,
 		responder_feedback = "",
+		chara_sigle_action_reply = {
+			103,
+			105
+		},
 		jump_page = {}
 	},
 	[1003] = {
-		tech_id = 0,
+		sigle_action_reply_type = 2,
 		name = "摇头",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
 		desc = "自然流畅的摇头，生动形象地表达情感与态度。",
+		tech_id = 0,
 		resource = "shakehead",
 		id = 1003,
 		responder_feedback = "",
+		chara_sigle_action_reply = {
+			202,
+			207
+		},
 		jump_page = {}
 	},
 	[1004] = {
-		tech_id = 0,
+		sigle_action_reply_type = 2,
 		name = "拍手",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
 		desc = "自然流畅的拍手，生动形象地表达情感与态度。",
+		tech_id = 0,
 		resource = "clap",
 		id = 1004,
 		responder_feedback = "",
+		chara_sigle_action_reply = {
+			103,
+			105
+		},
 		jump_page = {}
 	},
 	[1005] = {
-		tech_id = 0,
+		sigle_action_reply_type = 2,
 		name = "赞美太阳",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
 		desc = "自然流畅的赞美太阳，生动形象地表达情感与态度。",
+		tech_id = 0,
 		resource = "handsup",
 		id = 1005,
 		responder_feedback = "",
-		jump_page = {}
+		chara_sigle_action_reply = {
+			204,
+			207
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
 	},
 	[1006] = {
-		tech_id = 0,
+		sigle_action_reply_type = 2,
 		name = "叉腰",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
 		desc = "自然流畅的叉腰，生动形象地表达情感与态度。",
+		tech_id = 0,
 		resource = "akimbo",
 		id = 1006,
 		responder_feedback = "",
+		chara_sigle_action_reply = {
+			106
+		},
 		jump_page = {}
 	},
 	[1007] = {
-		tech_id = 0,
+		sigle_action_reply_type = 2,
 		name = "鞠躬",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
 		desc = "自然流畅的鞠躬，生动形象地表达情感与态度。",
+		tech_id = 0,
 		resource = "bow",
 		id = 1007,
 		responder_feedback = "",
+		chara_sigle_action_reply = {
+			105,
+			204
+		},
 		jump_page = {
 			{
 				"图鉴",
@@ -102,15 +146,20 @@ pg.island_action = {
 		}
 	},
 	[1008] = {
-		tech_id = 0,
+		sigle_action_reply_type = 2,
 		name = "胜利起跳",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
 		desc = "自然流畅的胜利起跳，生动形象地表达情感与态度。",
+		tech_id = 0,
 		resource = "vjump",
 		id = 1008,
 		responder_feedback = "",
+		chara_sigle_action_reply = {
+			106,
+			204
+		},
 		jump_page = {
 			{
 				"开发商店",
@@ -119,27 +168,37 @@ pg.island_action = {
 		}
 	},
 	[1009] = {
-		tech_id = 0,
+		sigle_action_reply_type = 2,
 		name = "跺脚",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
 		desc = "自然流畅的跺脚，生动形象地表达情感与态度。",
+		tech_id = 0,
 		resource = "stomp",
 		id = 1009,
 		responder_feedback = "",
+		chara_sigle_action_reply = {
+			201,
+			207
+		},
 		jump_page = {}
 	},
 	[1011] = {
-		tech_id = 0,
+		sigle_action_reply_type = 2,
 		name = "展示肌肉",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
 		desc = "自然流畅的展示肌肉，生动形象地表达情感与态度。",
+		tech_id = 0,
 		resource = "muscle",
 		id = 1011,
 		responder_feedback = "",
+		chara_sigle_action_reply = {
+			106,
+			204
+		},
 		jump_page = {
 			{
 				"开发商店",
@@ -148,27 +207,42 @@ pg.island_action = {
 		}
 	},
 	[1012] = {
-		tech_id = 0,
+		sigle_action_reply_type = 2,
 		name = "跳舞",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
 		desc = "自然流畅的跳舞，生动形象地表达情感与态度。",
+		tech_id = 0,
 		resource = "dance",
 		id = 1012,
 		responder_feedback = "",
-		jump_page = {}
+		chara_sigle_action_reply = {
+			106,
+			204
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
 	},
 	[1013] = {
-		tech_id = 0,
+		sigle_action_reply_type = 2,
 		name = "英雄登场",
 		respond_point = "",
 		type = 1,
 		feedback_type = 1,
 		desc = "自然流畅的英雄登场，生动形象地表达情感与态度。",
+		tech_id = 0,
 		resource = "herocoming",
 		id = 1013,
 		responder_feedback = "",
+		chara_sigle_action_reply = {
+			204,
+			207
+		},
 		jump_page = {
 			{
 				"开发商店",
@@ -176,15 +250,126 @@ pg.island_action = {
 			}
 		}
 	},
-	[2000] = {
+	[1014] = {
+		sigle_action_reply_type = 2,
+		name = "伸懒腰",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		desc = "自然流畅的伸懒腰，生动形象地表达情感与态度。",
 		tech_id = 0,
+		resource = "stretch",
+		id = 1014,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			207
+		},
+		jump_page = {
+			{
+				"开发商店",
+				{}
+			}
+		}
+	},
+	[1015] = {
+		sigle_action_reply_type = 2,
+		name = "害怕",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		desc = "自然流畅的害怕，生动形象地表达情感与态度。",
+		tech_id = 0,
+		resource = "fearshake",
+		id = 1015,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			201,
+			207
+		},
+		jump_page = {
+			{
+				"开发商店",
+				{}
+			}
+		}
+	},
+	[1016] = {
+		sigle_action_reply_type = 2,
+		name = "抱拳",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		desc = "自然流畅的抱拳，生动形象地表达情感与态度。",
+		tech_id = 0,
+		resource = "holdfist",
+		id = 1016,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			103,
+			107
+		},
+		jump_page = {
+			{
+				"开发商店",
+				{}
+			}
+		}
+	},
+	[1017] = {
+		sigle_action_reply_type = 2,
+		name = "自夸",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		desc = "自然流畅的自夸，生动形象地表达情感与态度。",
+		tech_id = 0,
+		resource = "vouch",
+		id = 1017,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			106,
+			108
+		},
+		jump_page = {
+			{
+				"开发商店",
+				{}
+			}
+		}
+	},
+	[1018] = {
+		sigle_action_reply_type = 2,
+		name = "打坐",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		desc = "自然流畅的打坐，生动形象地表达情感与态度。",
+		tech_id = 0,
+		resource = "float",
+		id = 1018,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			106,
+			108
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[2000] = {
+		chara_sigle_action_reply = "",
 		name = "击掌",
-		desc = "自然流畅的击掌，生动形象地表达情感与态度。",
+		sigle_action_reply_type = 0,
 		type = 2,
 		feedback_type = 0,
-		responder_feedback = "givemefive_end",
-		id = 2000,
+		desc = "自然流畅的击掌，生动形象地表达情感与态度。",
+		tech_id = 0,
 		resource = "givemefive",
+		id = 2000,
+		responder_feedback = "givemefive_end",
 		respond_point = {
 			0.07173,
 			0,
@@ -193,14 +378,16 @@ pg.island_action = {
 		jump_page = {}
 	},
 	[2001] = {
-		tech_id = 0,
+		chara_sigle_action_reply = "",
 		name = "握手",
-		desc = "自然流畅的握手，生动形象地表达情感与态度。",
+		sigle_action_reply_type = 0,
 		type = 2,
 		feedback_type = 0,
-		responder_feedback = "handshake_end",
-		id = 2001,
+		desc = "自然流畅的握手，生动形象地表达情感与态度。",
+		tech_id = 0,
 		resource = "handshake",
+		id = 2001,
+		responder_feedback = "handshake_end",
 		respond_point = {
 			0.03018,
 			0,
@@ -214,20 +401,73 @@ pg.island_action = {
 		}
 	},
 	[2002] = {
-		tech_id = 0,
+		chara_sigle_action_reply = "",
 		name = "拥抱",
-		desc = "自然流畅的拥抱，生动形象地表达情感与态度。",
+		sigle_action_reply_type = 0,
 		type = 2,
 		feedback_type = 0,
-		responder_feedback = "hug_end",
-		id = 2002,
+		desc = "自然流畅的拥抱，生动形象地表达情感与态度。",
+		tech_id = 0,
 		resource = "hug",
+		id = 2002,
+		responder_feedback = "hug_end",
 		respond_point = {
 			0.05431,
 			0,
 			0.62654
 		},
-		jump_page = {}
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[2003] = {
+		chara_sigle_action_reply = "",
+		name = "庆祝 ",
+		sigle_action_reply_type = 0,
+		type = 2,
+		feedback_type = 0,
+		desc = "自然流畅的庆祝，生动形象地表达情感与态度。",
+		tech_id = 0,
+		resource = "claphands",
+		id = 2003,
+		responder_feedback = "claphands_end",
+		respond_point = {
+			0,
+			0,
+			1.5276
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	},
+	[2004] = {
+		chara_sigle_action_reply = "",
+		name = "比心 ",
+		sigle_action_reply_type = 0,
+		type = 2,
+		feedback_type = 0,
+		desc = "自然流畅的比心，生动形象地表达情感与态度。",
+		tech_id = 0,
+		resource = "handheart",
+		id = 2004,
+		responder_feedback = "handheart_end",
+		respond_point = {
+			0,
+			0,
+			1.35224
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
 	},
 	get_id_list_by_type = {
 		{
@@ -243,12 +483,19 @@ pg.island_action = {
 			1009,
 			1011,
 			1012,
-			1013
+			1013,
+			1014,
+			1015,
+			1016,
+			1017,
+			1018
 		},
 		{
 			2000,
 			2001,
-			2002
+			2002,
+			2003,
+			2004
 		}
 	},
 	all = {
@@ -265,8 +512,15 @@ pg.island_action = {
 		1011,
 		1012,
 		1013,
+		1014,
+		1015,
+		1016,
+		1017,
+		1018,
 		2000,
 		2001,
-		2002
+		2002,
+		2003,
+		2004
 	}
 }

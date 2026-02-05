@@ -12,6 +12,7 @@ var_0_0.SHOW_TYPE_CAN_WILD_GATHER = 9
 var_0_0.SHOW_TYPE_CAN_WILD_SIGNIN = 10
 var_0_0.SHOW_TYPE_ABILITY = 11
 var_0_0.SHOW_TYPE_TASK_TARGET = 12
+var_0_0.SHOW_TYPE_SELF_ABILITY = 13
 
 function var_0_0.Check(arg_1_0, arg_1_1)
 	local var_1_0 = arg_1_1[1]
@@ -54,10 +55,13 @@ function var_0_0.Check(arg_1_0, arg_1_1)
 		[var_0_0.SHOW_TYPE_ABILITY] = function()
 			return arg_1_0:GetAblityAgency():HasAbility(var_1_1)
 		end,
+		[var_0_0.SHOW_TYPE_SELF_ABILITY] = function()
+			return getProxy(IslandProxy):GetIsland():GetAblityAgency():HasAbility(var_1_1)
+		end,
 		[var_0_0.SHOW_TYPE_TASK_TARGET] = function()
-			local var_11_0 = arg_1_0:GetTaskAgency():GetTask(var_1_1)
+			local var_12_0 = arg_1_0:GetTaskAgency():GetTask(var_1_1)
 
-			return var_11_0 and var_11_0:GetTargetById(var_1_2) and not var_11_0:GetTargetById(var_1_2):IsFinish()
+			return var_12_0 and var_12_0:GetTargetById(var_1_2) and not var_12_0:GetTargetById(var_1_2):IsFinish()
 		end
 	}, function()
 		assert(false, "非法显示条件类型:" .. var_1_0)

@@ -12,8 +12,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					1,
-					29
+					2,
+					5
 				},
 				{
 					0,
@@ -25,7 +25,7 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					4
+					11
 				},
 				{
 					23,
@@ -50,8 +50,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					1,
-					22
+					2,
+					5
 				},
 				{
 					0,
@@ -63,7 +63,7 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					5
+					12
 				},
 				{
 					12,
@@ -74,21 +74,16 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "50371",
 		id = 3,
 		pic = "temp3",
-		type = 2,
-		param = {
-			"scene core activity",
-			{
-				coreName = "SardiniaSPCoreActivityUI"
-			}
-		},
+		type = 3,
 		time = {
 			{
 				{
 					2026,
-					1,
-					22
+					2,
+					5
 				},
 				{
 					0,
@@ -100,7 +95,7 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					5
+					12
 				},
 				{
 					12,
@@ -113,37 +108,12 @@ pg.activity_banner = {
 	{
 		id = 4,
 		pic = "temp4",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene charge",
 			{
 				wrap = 4
-			}
-		},
-		time = {
-			{
-				{
-					2026,
-					1,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					2,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		}
 	},
@@ -161,8 +131,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					1,
-					22
+					2,
+					5
 				},
 				{
 					0,
@@ -174,7 +144,7 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					4
+					11
 				},
 				{
 					23,
@@ -187,35 +157,10 @@ pg.activity_banner = {
 	{
 		id = 6,
 		pic = "temp6",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2026,
-					1,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					2,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
@@ -257,18 +202,18 @@ pg.activity_banner = {
 		pic = "temp8",
 		type = 2,
 		param = {
-			"scene level",
+			"scene equip",
 			{
-				open_remaster = true,
-				isEX = true
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
 			}
 		},
 		time = {
 			{
 				{
 					2026,
-					1,
-					29
+					2,
+					5
 				},
 				{
 					0,
@@ -280,7 +225,7 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					5
+					12
 				},
 				{
 					12,
@@ -291,16 +236,18 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "50372",
 		id = 9,
 		pic = "temp9",
-		type = 3,
+		type = 2,
+		param = {
+			"scene dailylevel"
+		},
 		time = {
 			{
 				{
 					2026,
-					1,
-					29
+					2,
+					5
 				},
 				{
 					0,
@@ -312,12 +259,12 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					5
+					11
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -446,15 +393,15 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			2,
-			3,
 			4,
 			5,
 			6,
 			7,
-			8
+			8,
+			9
 		},
 		[3] = {
-			9
+			3
 		},
 		[9] = {
 			90,

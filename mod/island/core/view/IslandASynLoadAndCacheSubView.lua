@@ -2,7 +2,7 @@ local var_0_0 = class("IslandASynLoadAndCacheSubView", import(".IslandASynLoadSu
 
 function var_0_0.LoadUI(arg_1_0, arg_1_1)
 	arg_1_0:GetPoolMgr():GetUI(arg_1_0:GetUIName(), function(arg_2_0)
-		local var_2_0 = arg_1_0:SetUIParent()
+		local var_2_0 = arg_1_0:GetUIParent()
 
 		setParent(arg_2_0, var_2_0)
 		arg_1_1(arg_2_0)

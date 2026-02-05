@@ -4712,7 +4712,7 @@ pg.drop_data_restore = {
 		type = 1,
 		resource_type = 14,
 		id = 610,
-		resource_num = 980,
+		resource_num = 900,
 		drop_id = 908110,
 		target_id = 405052
 	},

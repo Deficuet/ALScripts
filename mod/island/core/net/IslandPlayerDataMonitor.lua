@@ -361,6 +361,11 @@ function var_0_0.HandleTradeNotify(arg_50_0, arg_50_1)
 		mapId = arg_50_1.map_id,
 		extraInfo = arg_50_1.price
 	})
+	local var_50_3 = var_50_2:BuildWhitoutTime()
+
+	if not var_50_3 or var_50_3 == "" then
+		return
+	end
 
 	pg.IslandVisitorNotificationMgr.GetInstance():Enqueue(var_50_2)
 end

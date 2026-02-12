@@ -44,6 +44,7 @@ function var_0_0.init(arg_7_0)
 	local var_7_0 = Dorm3dHxHelper.GetTimelineMainCharacter()
 
 	Dorm3dHxHelper.ReplaceCharacterParts(var_7_0)
+	Dorm3dHxHelper.HideCharacterPart(var_7_0, nil, true)
 	Dorm3dHxHelper.ShowHolyLight({
 		var_7_0
 	}, arg_7_0.holyLightRoot)

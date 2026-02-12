@@ -1,6 +1,9 @@
 local var_0_0 = class("TrophyGalleryMediator", import("..base.ContextMediator"))
 
 var_0_0.ON_TROPHY_CLAIM = "TrophyGalleryMediator:ON_TROPHY_CLAIM"
+var_0_0.ON_GET_ALL_LOVE_LETTER_REWARD = "TrophyGalleryMediator.ON_GET_ALL_LOVE_LETTER_REWARD"
+var_0_0.OPEN_DISPLAY_WINDOW = "TrophyGalleryMediator.OPEN_DISPLAY_WINDOW"
+var_0_0.OPEN_REALIZE_GIFT_LAYER = "TrophyGalleryMediator.OPEN_REALIZE_GIFT_LAYER"
 
 function var_0_0.register(arg_1_0)
 	local var_1_0 = getProxy(CollectionProxy)
@@ -10,6 +13,26 @@ function var_0_0.register(arg_1_0)
 			trophyID = arg_2_1
 		})
 	end)
+	arg_1_0:bind(var_0_0.ON_GET_ALL_LOVE_LETTER_REWARD, function(arg_3_0, arg_3_1)
+		arg_1_0:sendNotification(GAME.GET_LOVE_LETTER_REWARD, {
+			list = arg_3_1
+		})
+	end)
+	arg_1_0:bind(var_0_0.OPEN_DISPLAY_WINDOW, function(arg_4_0, arg_4_1)
+		arg_1_0:addSubLayers(Context.New({
+			mediator = LoveLetterGiftLevelDisplayMediator,
+			viewComponent = LoveLetterGiftLevelDisplayLayer,
+			data = {
+				groupId = arg_4_1
+			}
+		}))
+	end)
+	arg_1_0:bind(var_0_0.OPEN_REALIZE_GIFT_LAYER, function(arg_5_0)
+		arg_1_0:addSubLayers(Context.New({
+			mediator = LoveLetterGiftCollectMediator,
+			viewComponent = LoveLetterGiftCollectLayer
+		}))
+	end)
 
 	local var_1_1 = var_1_0:getTrophyGroup()
 	local var_1_2 = var_1_0:getTrophys()
@@ -18,35 +41,47 @@ function var_0_0.register(arg_1_0)
 	arg_1_0.viewComponent:setTrophyList(var_1_2)
 end
 
-function var_0_0.listNotificationInterests(arg_3_0)
-	return {
-		CollectionProxy.TROPHY_UPDATE,
-		GAME.TROPHY_CLAIM_DONE
-	}
-end
+function var_0_0.initNotificationHandleDic(arg_6_0)
+	arg_6_0.handleDic = {
+		[GAME.TROPHY_CLAIM_DONE] = function(arg_7_0, arg_7_1)
+			local var_7_0 = arg_7_1:getBody().trophyID
 
-function var_0_0.handleNotification(arg_4_0, arg_4_1)
-	local var_4_0 = arg_4_1:getName()
-	local var_4_1 = arg_4_1:getBody()
+			if pg.medal_template[var_7_0].hide == Trophy.ALWAYS_HIDE then
+				return
+			end
 
-	if var_4_0 == CollectionProxy.TROPHY_UPDATE then
-		-- block empty
-	elseif var_4_0 == GAME.TROPHY_CLAIM_DONE then
-		local var_4_2 = var_4_1.trophyID
+			local var_7_1 = math.floor(var_7_0 / 10)
+			local var_7_2 = getProxy(CollectionProxy)
+			local var_7_3 = var_7_2:getTrophyGroup()
+			local var_7_4 = var_7_2:getTrophys()
 
-		if pg.medal_template[var_4_2].hide == Trophy.ALWAYS_HIDE then
-			return
+			arg_7_0.viewComponent:setTrophyGroups(var_7_3)
+			arg_7_0.viewComponent:setTrophyList(var_7_4)
+			arg_7_0.viewComponent:PlayTrophyClaim(var_7_1)
+		end,
+		[GAME.GET_LOVE_LETTER_REWARD_DONE] = function(arg_8_0, arg_8_1)
+			local var_8_0 = arg_8_1:getBody()
+			local var_8_1 = {}
+
+			if #var_8_0.awards > 0 then
+				table.insert(var_8_1, function(arg_9_0)
+					arg_8_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_8_0.awards, arg_9_0)
+				end)
+			end
+
+			seriesAsync(var_8_1, function()
+				arg_8_0.viewComponent:updateLoveLetterPage()
+				pg.EasyRedDotMgr.GetInstance():TriggerMarks("love_letter_level_reward")
+			end)
+		end,
+		[GAME.LOVE_LETTER_LEVEL_UP_DONE] = function(arg_11_0, arg_11_1)
+			arg_11_0.viewComponent:updateLoveLetterPage()
+			pg.EasyRedDotMgr.GetInstance():TriggerMarks("love_letter_level_up")
+		end,
+		[GAME.REALIZE_LOVE_LETTER_GIFT_DONE] = function(arg_12_0, arg_12_1)
+			arg_12_0.viewComponent:updateLoveLetterPage()
 		end
-
-		local var_4_3 = math.floor(var_4_2 / 10)
-		local var_4_4 = getProxy(CollectionProxy)
-		local var_4_5 = var_4_4:getTrophyGroup()
-		local var_4_6 = var_4_4:getTrophys()
-
-		arg_4_0.viewComponent:setTrophyGroups(var_4_5)
-		arg_4_0.viewComponent:setTrophyList(var_4_6)
-		arg_4_0.viewComponent:PlayTrophyClaim(var_4_3)
-	end
+	}
 end
 
 return var_0_0

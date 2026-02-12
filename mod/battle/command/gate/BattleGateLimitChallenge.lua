@@ -155,4 +155,61 @@ function var_0_0.Exit(arg_4_0, arg_4_1)
 	arg_4_1:SendRequest(var_4_10, var_4_11)
 end
 
+function var_0_0.GetPreloadList(arg_8_0)
+	local var_8_0 = {}
+	local var_8_1 = {}
+	local var_8_2
+	local var_8_3 = ys.Battle.BattleResourceManager.GetInstance()
+	local var_8_4 = FleetProxy.CHALLENGE_FLEET_ID
+	local var_8_5 = FleetProxy.CHALLENGE_SUB_FLEET_ID
+	local var_8_6 = getProxy(FleetProxy)
+	local var_8_7 = var_8_6:getFleetById(var_8_4)
+	local var_8_8 = var_8_6:getFleetById(var_8_5)
+	local var_8_9 = getProxy(BayProxy)
+
+	if var_8_7 then
+		local var_8_10 = var_8_7:GetRawShipIds()
+
+		for iter_8_0, iter_8_1 in ipairs(var_8_10) do
+			table.insert(var_8_0, var_8_9:getShipById(iter_8_1))
+		end
+
+		var_8_1 = var_8_7:buildBattleBuffList()
+	end
+
+	if var_8_8 then
+		local var_8_11 = var_8_8:GetRawShipIds()
+
+		for iter_8_2, iter_8_3 in ipairs(var_8_11) do
+			table.insert(var_8_0, var_8_9:getShipById(iter_8_3))
+		end
+
+		for iter_8_4, iter_8_5 in ipairs(var_8_8:buildBattleBuffList()) do
+			table.insert(var_8_1, iter_8_5)
+		end
+	end
+
+	local var_8_12, var_8_13 = var_8_3.GetPlayerShipResource(var_8_0, arg_8_0.system)
+	local var_8_14 = var_8_3.GetCommanderBuffRes(var_8_1)
+
+	for iter_8_6, iter_8_7 in ipairs(var_8_14) do
+		table.insert(var_8_12, iter_8_7)
+	end
+
+	local var_8_15 = LimitChallengeConst.GetChallengeIDByStageID(arg_8_0.stageId)
+	local var_8_16 = AcessWithinNull(pg.expedition_constellation_challenge_template[var_8_15], "buff_id")
+
+	if var_8_16 then
+		for iter_8_8, iter_8_9 in ipairs(var_8_16) do
+			local var_8_17 = ys.Battle.BattleDataFunction.GetResFromBuff(iter_8_9.ID, iter_8_9.LV, {})
+
+			for iter_8_10, iter_8_11 in ipairs(var_8_17) do
+				table.insert(var_8_12, iter_8_11)
+			end
+		end
+	end
+
+	return var_8_12, var_8_13
+end
+
 return var_0_0

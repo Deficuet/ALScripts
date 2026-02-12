@@ -110,8 +110,8 @@ function var_0_0.SetAction(arg_12_0, arg_12_1, arg_12_2)
 end
 
 function var_0_0.SetActionOnce(arg_13_0, arg_13_1, arg_13_2, arg_13_3, arg_13_4)
-	arg_13_0:SetActionCallback(nil)
-	arg_13_0:SetActionCallback(function(arg_14_0)
+	arg_13_0:SetActionCallBack(nil)
+	arg_13_0:SetActionCallBack(function(arg_14_0)
 		if arg_14_0 == "action" then
 			if arg_13_3 then
 				arg_13_3()

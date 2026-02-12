@@ -2296,7 +2296,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "皇家阵营科技点数达到<color=#92fc63>900</color>",
 		normal_display = "",
 		price = 6000,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60231
 		},
@@ -2700,7 +2700,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "自由鸢尾阵营科技点数达到<color=#92fc63>250</color>",
 		normal_display = "",
 		price = 6000,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60271
 		},
@@ -2882,7 +2882,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "重樱阵营科技点数达到<color=#92fc63>900</color>",
 		normal_display = "",
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60291
 		},
@@ -2984,7 +2984,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "铁血阵营科技点数达到<color=#92fc63>850</color>",
 		normal_display = "",
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60301
 		},
@@ -3177,7 +3177,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "维希教廷阵营科技点数达到<color=#92fc63>180</color>、铁血阵营科技点数达到<color=#92fc63>800</color>",
 		normal_display = "",
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60320,
 			60321

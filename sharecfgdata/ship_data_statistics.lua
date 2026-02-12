@@ -291273,7 +291273,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Chaoho-Class"
+			"Chaoho-Class",
+			"YingSwei"
 		},
 		gift_dislike = {
 			180006,
@@ -291407,7 +291408,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Chaoho-Class"
+			"Chaoho-Class",
+			"YingSwei"
 		},
 		gift_dislike = {
 			180006,
@@ -291541,7 +291543,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Chaoho-Class"
+			"Chaoho-Class",
+			"YingSwei"
 		},
 		gift_dislike = {
 			180006,
@@ -291675,7 +291678,141 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Chaoho-Class"
+			"Chaoho-Class",
+			"YingSwei"
+		},
+		gift_dislike = {
+			180006,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[502984] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "应瑞.改",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 502040,
+		english_name = "Ying Swei",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 502984,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1049,
+			32,
+			107,
+			60,
+			0,
+			51,
+			0,
+			53,
+			24,
+			20,
+			20,
+			43
+		},
+		attrs_growth = {
+			10555,
+			179,
+			593,
+			531,
+			0,
+			356,
+			0,
+			786,
+			444,
+			0,
+			0,
+			215
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			105
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.9,
+			0.8,
+			0.5
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Chaoho-Class",
+			"YingSwei"
 		},
 		gift_dislike = {
 			180006,
@@ -291809,7 +291946,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Chaoho-Class"
+			"Chaoho-Class",
+			"ChaoHo"
 		},
 		gift_dislike = {
 			180005,
@@ -291943,7 +292081,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Chaoho-Class"
+			"Chaoho-Class",
+			"ChaoHo"
 		},
 		gift_dislike = {
 			180005,
@@ -292077,7 +292216,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Chaoho-Class"
+			"Chaoho-Class",
+			"ChaoHo"
 		},
 		gift_dislike = {
 			180005,
@@ -292211,7 +292351,141 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Chaoho-Class"
+			"Chaoho-Class",
+			"ChaoHo"
+		},
+		gift_dislike = {
+			180005,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[502994] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "肇和.改",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 502050,
+		english_name = "Chao Ho",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 502994,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1089,
+			32,
+			107,
+			59,
+			0,
+			51,
+			0,
+			53,
+			24,
+			20,
+			20,
+			43
+		},
+		attrs_growth = {
+			10972,
+			179,
+			593,
+			522,
+			0,
+			356,
+			0,
+			786,
+			444,
+			0,
+			0,
+			215
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			105
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.9,
+			0.8,
+			0.5
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Chaoho-Class",
+			"ChaoHo"
 		},
 		gift_dislike = {
 			180005,
@@ -294345,6 +294619,534 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[502121] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "海筹",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 502120,
+		english_name = "Hai Chou",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 502121,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			513,
+			17,
+			47,
+			29,
+			0,
+			57,
+			0,
+			54,
+			25,
+			20.75,
+			45,
+			18
+		},
+		attrs_growth = {
+			12716,
+			233,
+			643,
+			638,
+			0,
+			400,
+			0,
+			793,
+			451,
+			0,
+			0,
+			226
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			105
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			0.9,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Hai Yung-Class",
+			"Hai Chou"
+		},
+		gift_dislike = {
+			180004,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[502122] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "海筹",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 502120,
+		english_name = "Hai Chou",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 502122,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			638,
+			21,
+			59,
+			36,
+			0,
+			57,
+			0,
+			54,
+			25,
+			20.75,
+			45,
+			23
+		},
+		attrs_growth = {
+			12716,
+			233,
+			643,
+			638,
+			0,
+			400,
+			0,
+			793,
+			451,
+			0,
+			0,
+			226
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			105
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			0.9,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Hai Yung-Class",
+			"Hai Chou"
+		},
+		gift_dislike = {
+			180004,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[502123] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "海筹",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 502120,
+		english_name = "Hai Chou",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 502123,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			888,
+			29,
+			82,
+			50,
+			0,
+			57,
+			0,
+			54,
+			25,
+			20.75,
+			45,
+			32
+		},
+		attrs_growth = {
+			12716,
+			233,
+			643,
+			638,
+			0,
+			400,
+			0,
+			793,
+			451,
+			0,
+			0,
+			226
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			105
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.85,
+			0.9,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Hai Yung-Class",
+			"Hai Chou"
+		},
+		gift_dislike = {
+			180004,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[502124] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "海筹",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 502120,
+		english_name = "Hai Chou",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 502124,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1263,
+			42,
+			116,
+			72,
+			0,
+			57,
+			0,
+			54,
+			25,
+			20.75,
+			45,
+			45
+		},
+		attrs_growth = {
+			12716,
+			233,
+			643,
+			638,
+			0,
+			400,
+			0,
+			793,
+			451,
+			0,
+			0,
+			226
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			105
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.9,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Hai Yung-Class",
+			"Hai Chou"
+		},
+		gift_dislike = {
+			180004,
+			180009
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[503011] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -294860,6 +295662,526 @@ end)()
 		gift_dislike = {
 			180009,
 			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[503021] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "彰武",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 503020,
+		english_name = "Chang Wu",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 503021,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			835,
+			35,
+			56,
+			47,
+			0,
+			68,
+			0,
+			55,
+			23,
+			22.4,
+			54,
+			0
+		},
+		attrs_growth = {
+			20713,
+			485,
+			747,
+			1027,
+			0,
+			470,
+			0,
+			816,
+			413,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			101,
+			105
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.8,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Chang Wu"
+		},
+		gift_dislike = {
+			180009,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[503022] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "彰武",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 503020,
+		english_name = "Chang Wu",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 503022,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1039,
+			44,
+			70,
+			59,
+			0,
+			68,
+			0,
+			55,
+			23,
+			22.4,
+			54,
+			0
+		},
+		attrs_growth = {
+			20713,
+			485,
+			747,
+			1027,
+			0,
+			470,
+			0,
+			816,
+			413,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			101,
+			105
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.8,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Chang Wu"
+		},
+		gift_dislike = {
+			180009,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[503023] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "彰武",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 503020,
+		english_name = "Chang Wu",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 503023,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1446,
+			61,
+			97,
+			82,
+			0,
+			68,
+			0,
+			55,
+			23,
+			22.4,
+			54,
+			0
+		},
+		attrs_growth = {
+			20713,
+			485,
+			747,
+			1027,
+			0,
+			470,
+			0,
+			816,
+			413,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			101,
+			105
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			1
+		},
+		equipment_proficiency = {
+			1.15,
+			0.8,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Chang Wu"
+		},
+		gift_dislike = {
+			180009,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[503024] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "彰武",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 503020,
+		english_name = "Chang Wu",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 503024,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2057,
+			87,
+			139,
+			116,
+			0,
+			68,
+			0,
+			55,
+			23,
+			22.4,
+			54,
+			0
+		},
+		attrs_growth = {
+			20713,
+			485,
+			747,
+			1027,
+			0,
+			470,
+			0,
+			816,
+			413,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			101,
+			105
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			1
+		},
+		equipment_proficiency = {
+			1.3,
+			0.8,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Chang Wu"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()

@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "指挥官……想试试看大凤的底线吗……嘻嘻……",
+			say = "{dorm3d}……想试试看{namecode:97}的底线吗……嘻嘻……",
 			voice = "event:/dorm/drom3d_Taiho_ik_gfit4_tone4/drom3d_Taiho_ik_gfit4_tone4",
 			typewriter = {
 				speed = 0.05,

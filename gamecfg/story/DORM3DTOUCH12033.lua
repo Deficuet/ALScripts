@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "每次被指挥官触碰的地方……都变得滚烫呢……",
+			say = "每次被{dorm3d}触碰的地方……都变得滚烫呢……",
 			voice = "event:/dorm/drom3d_Taiho_ik_gfit4_tone3/drom3d_Taiho_ik_gfit4_tone3",
 			typewriter = {
 				speed = 0.05,

@@ -75,10 +75,10 @@ function var_0_0.Send(arg_2_0, arg_2_1, arg_2_2, arg_2_3)
 				local var_7_0 = var_3_1 and getProxy(IslandProxy):GetIsland() or getProxy(IslandProxy):GetSharedIsland()
 
 				arg_2_0:sendNotification(GAME.ISLAND_ENTER_MAP, {
-					islandId = arg_2_1,
+					islandId = arg_3_0.island_id,
 					mapId = var_7_0:GetMapId(),
 					callback = function()
-						arg_2_0:GoScene(arg_2_1)
+						arg_2_0:GoScene(arg_3_0.island_id)
 					end
 				})
 				getProxy(IslandProxy):EnterIsland(arg_3_0.island_id)

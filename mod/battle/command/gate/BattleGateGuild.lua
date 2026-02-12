@@ -268,4 +268,43 @@ function var_0_0.GeneralPackage(arg_12_0, arg_12_1)
 	}
 end
 
+function var_0_0.GetPreloadList(arg_13_0)
+	local var_13_0 = {}
+	local var_13_1 = {}
+	local var_13_2
+	local var_13_3 = ys.Battle.BattleResourceManager.GetInstance()
+	local var_13_4 = getProxy(GuildProxy):getRawData():GetActiveEvent():GetBossMission()
+	local var_13_5 = var_13_4:GetMainFleet()
+	local var_13_6 = var_13_5:GetShips()
+
+	for iter_13_0, iter_13_1 in ipairs(var_13_6) do
+		if iter_13_1 and iter_13_1.ship then
+			table.insert(var_13_0, iter_13_1.ship)
+		end
+	end
+
+	local var_13_7 = var_13_5:buildBattleBuffList()
+	local var_13_8 = var_13_4:GetSubFleet()
+	local var_13_9 = var_13_8:GetShips()
+
+	for iter_13_2, iter_13_3 in ipairs(var_13_9) do
+		if iter_13_3 and iter_13_3.ship then
+			table.insert(var_13_0, iter_13_3.ship)
+		end
+	end
+
+	local var_13_10 = var_13_8:BuildBattleBuffList()
+
+	for iter_13_4, iter_13_5 in ipairs(var_13_10) do
+		table.insert(var_13_7, iter_13_5)
+	end
+
+	local var_13_11, var_13_12 = var_13_3.GetPlayerShipResource(var_13_0, arg_13_0.system)
+	local var_13_13 = var_13_3.GetCommanderBuffRes(var_13_7)
+
+	for iter_13_6, iter_13_7 in ipairs(var_13_13) do
+		table.insert(var_13_11, iter_13_7)
+	end
+end
+
 return var_0_0

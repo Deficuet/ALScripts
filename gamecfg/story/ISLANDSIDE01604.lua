@@ -45,7 +45,7 @@ return {
 		{
 			subName = "渔场管理员",
 			characterId = 101800,
-			say = "呜喵！是指挥官呀，我正在观察今天的鱼群呢！",
+			say = "你看这里，有好多鱼儿在水下游曳，是不是特别漂亮？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

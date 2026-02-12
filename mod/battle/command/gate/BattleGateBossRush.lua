@@ -148,4 +148,55 @@ function var_0_0.Exit(arg_4_0, arg_4_1)
 	arg_4_1:SendRequest(var_4_8, var_4_9)
 end
 
+function var_0_0.GetPreloadList(arg_8_0)
+	local var_8_0 = {}
+	local var_8_1 = {}
+	local var_8_2
+	local var_8_3 = ys.Battle.BattleResourceManager.GetInstance()
+	local var_8_4 = getProxy(FleetProxy)
+	local var_8_5 = getProxy(BayProxy)
+	local var_8_6 = getProxy(ActivityProxy):getActivityById(arg_8_0.actId):GetSeriesData()
+	local var_8_7 = var_8_6:GetStaegLevel() + 1
+	local var_8_8 = var_8_6:GetFleetIds()
+	local var_8_9 = var_8_8[var_8_7]
+	local var_8_10 = var_8_8[#var_8_8]
+
+	if var_8_6:GetMode() == BossRushSeriesData.MODE.SINGLE then
+		var_8_9 = var_8_8[1]
+	end
+
+	local var_8_11 = var_8_4:getActivityFleets()[arg_8_0.actId]
+	local var_8_12 = var_8_11[var_8_9]
+	local var_8_13 = var_8_11[var_8_10]
+
+	if var_8_12 then
+		local var_8_14 = var_8_12:GetRawShipIds()
+
+		for iter_8_0, iter_8_1 in ipairs(var_8_14) do
+			table.insert(var_8_0, var_8_5:getShipById(iter_8_1))
+		end
+
+		var_8_1 = var_8_12:buildBattleBuffList()
+	end
+
+	if var_8_13 then
+		local var_8_15 = var_8_13:GetRawShipIds()
+
+		for iter_8_2, iter_8_3 in ipairs(var_8_15) do
+			table.insert(var_8_0, var_8_5:getShipById(iter_8_3))
+		end
+
+		for iter_8_4, iter_8_5 in ipairs(var_8_13:buildBattleBuffList()) do
+			table.insert(var_8_1, iter_8_5)
+		end
+	end
+
+	local var_8_16, var_8_17 = var_8_3.GetPlayerShipResource(var_8_0, arg_8_0.system)
+	local var_8_18 = var_8_3.GetCommanderBuffRes(var_8_1)
+
+	for iter_8_6, iter_8_7 in ipairs(var_8_18) do
+		table.insert(var_8_16, iter_8_7)
+	end
+end
+
 return var_0_0

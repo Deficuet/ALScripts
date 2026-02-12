@@ -13,6 +13,7 @@ var_0_1.TYPE_COMMON_DROP = 6
 var_0_1.TYPE_COMMON_ITEMS = 7
 var_0_1.TYPE_SHIP_PREVIEW = 8
 var_0_1.TYPE_COMMON_SHOPPING = 9
+var_0_1.TYPE_LOVE_LETTER_LEVEL_REWARD = 10
 var_0_1.UI_NAME_DIC = {
 	[var_0_1.TYPE_MSGBOX] = "DormStyleMsgboxUI",
 	[var_0_1.TYPE_DROP] = "DormStyleDropMsgboxUI",
@@ -22,7 +23,8 @@ var_0_1.UI_NAME_DIC = {
 	[var_0_1.TYPE_COMMON_DROP] = "NewStyleDropMsgboxUI",
 	[var_0_1.TYPE_COMMON_ITEMS] = "NewStyleItemsMsgboxUI",
 	[var_0_1.TYPE_SHIP_PREVIEW] = "ShipPreviewUI",
-	[var_0_1.TYPE_COMMON_SHOPPING] = "NewStyleShoppingMsgboxUI"
+	[var_0_1.TYPE_COMMON_SHOPPING] = "NewStyleShoppingMsgboxUI",
+	[var_0_1.TYPE_LOVE_LETTER_LEVEL_REWARD] = "NewStyleLoveLetterRewardMsgboxUI"
 }
 var_0_1.BUTTON_TYPE = {
 	blue = "btn_confirm",
@@ -513,39 +515,95 @@ function var_0_1.DisplaySetting(arg_22_0, arg_22_1, arg_22_2)
 			var_43_5:setAddNum(var_43_8)
 			var_43_5:setMaxNum(var_43_9)
 			var_43_5:setDefaultNum(var_43_10)
+		end,
+		[var_0_1.TYPE_LOVE_LETTER_LEVEL_REWARD] = function(arg_45_0)
+			local var_45_0 = getProxy(LoveLetterProxy)
+			local var_45_1 = var_45_0:GetAllLevel()
+			local var_45_2 = underscore.first(var_0_0.lover_reward.all, var_45_0:GetAllLevelNextAwardIndex() or #var_0_0.lover_reward.all)
+			local var_45_3 = var_45_0:GetAllLevelRewardMarkDic()
+			local var_45_4 = arg_22_0._tf:Find("window/middle/view/content")
+
+			UIItemList.StaticAlign(var_45_4, var_45_4:Find("tpl"), math.max(#var_45_2, 3), function(arg_46_0, arg_46_1, arg_46_2)
+				arg_46_1 = arg_46_1 + 1
+
+				if arg_46_0 == UIItemList.EventUpdate then
+					local var_46_0 = var_45_2[arg_46_1]
+
+					setActive(arg_46_2:Find("on"), var_46_0)
+					setActive(arg_46_2:Find("empty"), not var_46_0)
+
+					if not var_46_0 then
+						return
+					end
+
+					arg_46_2 = arg_46_2:Find("on")
+
+					local var_46_1 = var_0_0.lover_reward[var_46_0]
+
+					setActive(arg_46_2:Find("active_bg"), not var_45_3[var_46_0] and var_45_1 >= var_46_1.total_level)
+					setActive(arg_46_2:Find("lock"), var_45_1 < var_46_1.total_level)
+					setText(arg_46_2:Find("mark/Text"), var_46_1.total_level)
+
+					local var_46_2 = underscore.map(var_46_1.show_reward, function(arg_47_0)
+						return Drop.Create(arg_47_0)
+					end)
+
+					UIItemList.StaticAlign(arg_46_2:Find("awards"), arg_46_2:Find("awards/tpl"), #var_46_2, function(arg_48_0, arg_48_1, arg_48_2)
+						arg_48_1 = arg_48_1 + 1
+
+						if arg_46_0 == UIItemList.EventUpdate then
+							local var_48_0 = var_46_2[arg_48_1]
+
+							updateDrop(arg_48_2:Find("mask/IconTpl"), var_48_0)
+							onButton(arg_22_0, arg_48_2, function()
+								arg_22_0:emit(BaseUI.ON_DROP, var_48_0)
+							end, SFX_PANEL)
+							setActive(arg_48_2:Find("got"), var_45_3[var_46_0])
+						end
+					end)
+				end
+			end)
+
+			local var_45_5 = var_45_0:GetAllLevelNextAwardIndex()
+
+			if var_45_5 then
+				scrollToIndex(var_45_4, var_45_5)
+			else
+				scrollToBottom(var_45_4)
+			end
 		end
 	}, nil, arg_22_2)
 end
 
-function var_0_1.InitRichText(arg_45_0, arg_45_1)
-	local var_45_0 = arg_45_1:GetComponent("RichText")
+function var_0_1.InitRichText(arg_50_0, arg_50_1)
+	local var_50_0 = arg_50_1:GetComponent("RichText")
 
-	for iter_45_0, iter_45_1 in pairs(arg_45_0.richTextSprites) do
-		var_45_0:AddSprite(iter_45_0, iter_45_1)
+	for iter_50_0, iter_50_1 in pairs(arg_50_0.richTextSprites) do
+		var_50_0:AddSprite(iter_50_0, iter_50_1)
 	end
 end
 
-function var_0_1.emit(arg_46_0, arg_46_1, ...)
-	if not arg_46_0.analogyMediator then
-		arg_46_0.analogyMediator = {
-			addSubLayers = function(arg_47_0, arg_47_1)
+function var_0_1.emit(arg_51_0, arg_51_1, ...)
+	if not arg_51_0.analogyMediator then
+		arg_51_0.analogyMediator = {
+			addSubLayers = function(arg_52_0, arg_52_1)
 				var_0_0.m02:sendNotification(GAME.LOAD_LAYERS, {
 					parentContext = getProxy(ContextProxy):getCurrentContext(),
-					context = arg_47_1
+					context = arg_52_1
 				})
 			end,
-			sendNotification = function(arg_48_0, ...)
+			sendNotification = function(arg_53_0, ...)
 				var_0_0.m02:sendNotification(...)
 			end,
-			viewComponent = arg_46_0
+			viewComponent = arg_51_0
 		}
 	end
 
-	return ContextMediator.CommonBindDic[arg_46_1](arg_46_0.analogyMediator, arg_46_1, ...)
+	return ContextMediator.CommonBindDic[arg_51_1](arg_51_0.analogyMediator, arg_51_1, ...)
 end
 
-function var_0_1.closeView(arg_49_0)
-	arg_49_0:hide()
+function var_0_1.closeView(arg_54_0)
+	arg_54_0:hide()
 end
 
 return var_0_1

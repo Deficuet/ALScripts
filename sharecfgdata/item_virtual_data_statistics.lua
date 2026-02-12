@@ -169859,6 +169859,32 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[60027] = {
+		display = "可在「啾啾大酒楼」活动中使用",
+		name = "红包",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50416,
+		virtual_type = 11,
+		is_world = 0,
+		icon = "props/red_packet2",
+		id = 60027,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[60030] = {
 		display = "「黄金的秘宝」活动道具",
 		name = "线索「M」",
@@ -172241,6 +172267,188 @@ end)()
 		is_world = 0,
 		icon = "props/draw_g",
 		id = 60346,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[60347] = {
+		display = "颜料A，用于绘图日记活动，活动结束后将会消失",
+		name = "颜料A",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50414,
+		virtual_type = 4,
+		is_world = 0,
+		icon = "props/draw_a",
+		id = 60347,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[60348] = {
+		display = "颜料B，用于绘图日记活动，活动结束后将会消失",
+		name = "颜料B",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50414,
+		virtual_type = 4,
+		is_world = 0,
+		icon = "props/draw_b",
+		id = 60348,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[60349] = {
+		display = "颜料C，用于绘图日记活动，活动结束后将会消失",
+		name = "颜料C",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50414,
+		virtual_type = 4,
+		is_world = 0,
+		icon = "props/draw_c",
+		id = 60349,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[60350] = {
+		display = "颜料D，用于绘图日记活动，活动结束后将会消失",
+		name = "颜料D",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50414,
+		virtual_type = 4,
+		is_world = 0,
+		icon = "props/draw_d",
+		id = 60350,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[60351] = {
+		display = "颜料E，用于绘图日记活动，活动结束后将会消失",
+		name = "颜料E",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50414,
+		virtual_type = 4,
+		is_world = 0,
+		icon = "props/draw_e",
+		id = 60351,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[60352] = {
+		display = "颜料F，用于绘图日记活动，活动结束后将会消失",
+		name = "颜料F",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50414,
+		virtual_type = 4,
+		is_world = 0,
+		icon = "props/draw_f",
+		id = 60352,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[60353] = {
+		display = "颜料G，用于绘图日记活动，活动结束后将会消失",
+		name = "颜料G",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50414,
+		virtual_type = 4,
+		is_world = 0,
+		icon = "props/draw_g",
+		id = 60353,
 		order = 0,
 		display_icon = {},
 		price = {},
@@ -181500,6 +181708,825 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[65825] = {
+		display = "用于「限时体验商店」兑换角色限时换装",
+		name = "换装体验券",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = 1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/skinTicket",
+		id = 65825,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65830] = {
+		display = "用于「新岁祝福·丙午」活动兑换，活动结束后将会消失",
+		name = "东煌结",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/donghuangjie",
+		id = 65830,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65831] = {
+		display = "参与「春宴怀玉香满庭」获得的点数，累计一定程度可以领取报酬",
+		name = "玲珑玉佩 ",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "props/zhangwu_pt",
+		id = 65831,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65832] = {
+		display = "参与「春宴怀玉香满庭」EX关的必要道具，也可以用来增加普通关额外奖励次数",
+		name = "特别挑战券",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/nvpu_ticket",
+		id = 65832,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65833] = {
+		display = "用于「新春烟花会」活动，活动结束后将会消失",
+		name = "新春烟花·一",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50422,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/yanhua_1",
+		id = 65833,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65834] = {
+		display = "用于「新春烟花会」活动，活动结束后将会消失",
+		name = "新春烟花·二",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50422,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/yanhua_2",
+		id = 65834,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65835] = {
+		display = "用于「新春烟花会」活动，活动结束后将会消失",
+		name = "新春烟花·三",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50422,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/yanhua_3",
+		id = 65835,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65836] = {
+		display = "用于「新春烟花会」活动，活动结束后将会消失",
+		name = "新春烟花·四",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50422,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/yanhua_14",
+		id = 65836,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65837] = {
+		display = "用于「新春烟花会」活动，活动结束后将会消失",
+		name = "新春烟花·五",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50422,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/yanhua_13",
+		id = 65837,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65838] = {
+		display = "用于「新春烟花会」活动，活动结束后将会消失",
+		name = "新春烟花·六",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50422,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/yanhua_6",
+		id = 65838,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65839] = {
+		display = "用于「新春烟花会」活动，活动结束后将会消失",
+		name = "新春烟花·七",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50422,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/yanhua_7",
+		id = 65839,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65840] = {
+		display = "用于「新春烟花会」活动，活动结束后将会消失",
+		name = "新春烟花·八",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50422,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/yanhua_8",
+		id = 65840,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65841] = {
+		display = "用于「新春烟花会」活动，活动结束后将会消失",
+		name = "新春烟花·九",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50422,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/yanhua_9",
+		id = 65841,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65842] = {
+		display = "用于「新春烟花会」活动，活动结束后将会消失",
+		name = "新春烟花·十",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50422,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/yanhua_10",
+		id = 65842,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65843] = {
+		display = "用于「新春烟花会」活动，活动结束后将会消失",
+		name = "新春烟花·十一",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50422,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/yanhua_19",
+		id = 65843,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65844] = {
+		display = "用于「新春烟花会」活动，活动结束后将会消失",
+		name = "新春烟花·十二",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50422,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/yanhua_20",
+		id = 65844,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65845] = {
+		display = "不会被看见，转换用",
+		name = "掉落用烟花",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50422,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/yanhua_13",
+		id = 65845,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65846] = {
+		display = "用于「新春烟花会」活动，活动结束后将会消失",
+		name = "新春烟花会氛围值",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/65534",
+		id = 65846,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65847] = {
+		display = "随机获得一件「新春拍卖会」主题外观装备",
+		name = "外观装备(新春拍卖会)",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/equipskin_drop_display",
+		id = 65847,
+		order = 0,
+		display_icon = {
+			{
+				9,
+				4294,
+				1
+			},
+			{
+				9,
+				4295,
+				1
+			},
+			{
+				9,
+				4296,
+				1
+			},
+			{
+				9,
+				4297,
+				1
+			},
+			{
+				9,
+				4298,
+				1
+			},
+			{
+				9,
+				4299,
+				1
+			},
+			{
+				9,
+				4300,
+				1
+			},
+			{
+				9,
+				4301,
+				1
+			},
+			{
+				9,
+				4302,
+				1
+			},
+			{
+				9,
+				4303,
+				1
+			},
+			{
+				9,
+				4304,
+				1
+			},
+			{
+				9,
+				4305,
+				1
+			},
+			{
+				9,
+				4306,
+				1
+			},
+			{
+				9,
+				4307,
+				1
+			},
+			{
+				9,
+				4308,
+				1
+			},
+			{
+				9,
+				4309,
+				1
+			},
+			{
+				9,
+				4310,
+				1
+			},
+			{
+				9,
+				4311,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65848] = {
+		display = "温润美玉静陈，满庭暗香浮动，一切因缘邂逅，皆待君来。\n步入此间的你，是否就是那位识玉的知音？",
+		name = "春宴怀玉纪念勋章",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 5,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Medal/9131",
+		id = 65848,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65849] = {
+		display = "君子良佩，情系何人？ ",
+		name = "纪念贴：春宴怀玉 ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5040501",
+		id = 65849,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65850] = {
+		display = "全场目光向我看齐！ ",
+		name = "纪念贴：点天灯 ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5040502",
+		id = 65850,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65851] = {
+		display = "月色笼罩山间，浮香沁人心弦 ",
+		name = "纪念贴：月下香渺 ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5040503",
+		id = 65851,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65852] = {
+		display = "铛——成交！ ",
+		name = "纪念贴：拍卖锤 ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5040504",
+		id = 65852,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65853] = {
+		display = "一缕余香，悄然诉说着答案 ",
+		name = "纪念贴：香薰炉 ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5040505",
+		id = 65853,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65854] = {
+		display = "一起来大冒险吧！ ",
+		name = "纪念贴：三人成行 ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5040506",
+		id = 65854,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65855] = {
+		display = "酸甜又可口，吃完还想吃~ ",
+		name = "纪念贴：糖葫芦 ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5040507",
+		id = 65855,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65856] = {
+		display = "君子怀玉，温润而泽 ",
+		name = "纪念贴：玲珑玉佩 ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5040508",
+		id = 65856,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[66001] = {
 		display = "重要的重建物资之一，木香与海风更配哦",
 		name = "木料",
@@ -189984,6 +191011,57 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[86224] = {
+		display = "不会被看到",
+		name = "随机换装",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/clothIcon",
+		id = 86224,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {
+			{
+				503021,
+				1500
+			},
+			{
+				307085,
+				1500
+			},
+			{
+				502121,
+				2000
+			},
+			{
+				407012,
+				1780
+			},
+			{
+				431234,
+				1620
+			},
+			{
+				501072,
+				1600
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[86411] = {
 		display = "不会被看到",
 		name = "随机换装",
@@ -190205,6 +191283,162 @@ end)()
 		is_world = 0,
 		icon = "Props/Wdashijiezhanbeiwuzi",
 		id = 110002,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[120001] = {
+		display = "用于提升角色「甜蜜回忆」等级",
+		name = "甜蜜回忆",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50400,
+		virtual_type = 30,
+		is_world = 0,
+		icon = "Props/120002",
+		id = 120001,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[120002] = {
+		display = "用于提升角色「甜蜜回忆」等级",
+		name = "甜蜜回忆",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50400,
+		virtual_type = 30,
+		is_world = 0,
+		icon = "Props/120002",
+		id = 120002,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[120003] = {
+		display = "中式信封",
+		name = "中式信封",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/loveletter_cn",
+		id = 120003,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[120004] = {
+		display = "日式信封",
+		name = "日式信封",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/loveletter_jp",
+		id = 120004,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[120005] = {
+		display = "西式信封",
+		name = "西式信封",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/loveletter_en",
+		id = 120005,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[120006] = {
+		display = "META信封",
+		name = "META信封",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/loveletter_meta",
+		id = 120006,
 		order = 0,
 		display_icon = {},
 		price = {},
@@ -242443,6 +243677,162 @@ end)()
 			{
 				2,
 				4,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[200681] = {
+		display = "有几率获得以下设计图",
+		name = "未知设计图",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 1,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/55000",
+		id = 200681,
+		order = 0,
+		display_icon = {
+			{
+				2,
+				10074,
+				1
+			},
+			{
+				2,
+				10011,
+				1
+			},
+			{
+				2,
+				19,
+				1
+			},
+			{
+				2,
+				36,
+				1
+			},
+			{
+				2,
+				4,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[200682] = {
+		display = "有几率获得以下设计图",
+		name = "未知设计图",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 1,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/55000",
+		id = 200682,
+		order = 0,
+		display_icon = {
+			{
+				2,
+				10074,
+				1
+			},
+			{
+				2,
+				10011,
+				1
+			},
+			{
+				2,
+				10082,
+				1
+			},
+			{
+				2,
+				10018,
+				1
+			},
+			{
+				2,
+				10003,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[200683] = {
+		display = "有几率获得以下设计图",
+		name = "未知设计图",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 1,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/55000",
+		id = 200683,
+		order = 0,
+		display_icon = {
+			{
+				2,
+				13004,
+				1
+			},
+			{
+				2,
+				10011,
+				1
+			},
+			{
+				2,
+				10082,
+				1
+			},
+			{
+				2,
+				10018,
+				1
+			},
+			{
+				2,
+				10003,
 				1
 			}
 		},

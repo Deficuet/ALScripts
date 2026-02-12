@@ -392,9 +392,11 @@ function var_0_0.OnHide(arg_43_0)
 end
 
 function var_0_0.OnExit(arg_44_0)
+	local var_44_0 = arg_44_0.islandScene.sceneMgr:IsAllPageClose()
+
 	arg_44_0.takePhotoModel = nil
 
-	arg_44_0:emitCore(ISLAND_EVT.Change_TakePhoto_Model, IslandConst.TakePhotoModel.None)
+	arg_44_0:emitCore(ISLAND_EVT.Change_TakePhoto_Model, IslandConst.TakePhotoModel.None, var_44_0)
 end
 
 function var_0_0.SetMute(arg_45_0)

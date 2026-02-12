@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "呵呵……这样摸着大凤，是在确认自己的所有物吗？真是个好习惯呢~",
+			say = "呵呵……这样摸着{namecode:97}，是在确认自己的所有物吗？真是个好习惯呢~",
 			voice = "event:/dorm/drom3d_Taiho_ik_gfit4_tone2/drom3d_Taiho_ik_gfit4_tone2",
 			typewriter = {
 				speed = 0.05,

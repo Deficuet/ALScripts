@@ -1121,7 +1121,7 @@ function var_0_0.OnChange_Photo_Height(arg_94_0, arg_94_1, arg_94_2)
 	end
 end
 
-function var_0_0.OnChangeTakePhotoModel(arg_95_0, arg_95_1)
+function var_0_0.OnChangeTakePhotoModel(arg_95_0, arg_95_1, arg_95_2)
 	arg_95_0.takePhotoModel = arg_95_1
 
 	if arg_95_0.takePhotoModel == IslandConst.TakePhotoModel.First then
@@ -1167,7 +1167,7 @@ function var_0_0.OnChangeTakePhotoModel(arg_95_0, arg_95_1)
 		IslandCameraMgr.instance:GetVirtualCamera(IslandConst.FOLLOW_CAMERA_NAME).gameObject:GetComponent(typeof(CameraLook)):ResetCameraPos()
 	end
 
-	arg_95_0:GetSubView(IslandOpView):ChangeTakePhotoModel(arg_95_1)
+	arg_95_0:GetSubView(IslandOpView):ChangeTakePhotoModel(arg_95_1, arg_95_2)
 end
 
 function var_0_0.OnNpcDetectorSelected(arg_96_0, arg_96_1)

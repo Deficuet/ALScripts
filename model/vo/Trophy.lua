@@ -126,4 +126,8 @@ function var_0_0.getTargetType(arg_20_0)
 	return arg_20_0:getConfig("target_type")
 end
 
+function var_0_0.isLoverLetter(arg_21_0)
+	return arg_21_0.id > 1000000000
+end
+
 return var_0_0

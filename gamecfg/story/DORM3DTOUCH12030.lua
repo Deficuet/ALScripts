@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "哎呀……指挥官的体温也很高呢……是因为太想见大凤了吗？",
+			say = "哎呀……{dorm3d}的体温也很高呢……是因为太想见{namecode:97}了吗？",
 			voice = "event:/dorm/drom3d_Taiho_ik_gfit4_tone1/drom3d_Taiho_ik_gfit4_tone1",
 			typewriter = {
 				speed = 0.05,

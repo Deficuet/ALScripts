@@ -1794,6 +1794,9 @@ function temp()
 		容 = {
 			this = true
 		},
+		筹 = {
+			this = true
+		},
 		王 = {
 			星 = {
 				this = true
@@ -7495,7 +7498,12 @@ temp()
 function temp()
 	var_0_1.应 = {
 		瑞 = {
-			this = true
+			this = true,
+			["."] = {
+				改 = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -7505,7 +7513,12 @@ temp()
 function temp()
 	var_0_1.肇 = {
 		和 = {
-			this = true
+			this = true,
+			["."] = {
+				改 = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -7524,6 +7537,16 @@ temp()
 
 function temp()
 	var_0_1.建 = {
+		武 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.彰 = {
 		武 = {
 			this = true
 		}

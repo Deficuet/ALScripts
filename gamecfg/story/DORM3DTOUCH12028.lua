@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "能感受到指挥官的温度……大凤真是太幸福了……",
+			say = "能感受到{dorm3d}的温度……{namecode:97}真是太幸福了……",
 			voice = "event:/dorm/drom3d_Taiho_ik_gfit2_tone5/drom3d_Taiho_ik_gfit2_tone5",
 			typewriter = {
 				speed = 0.05,

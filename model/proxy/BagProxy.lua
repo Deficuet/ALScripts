@@ -35,6 +35,10 @@ function var_0_0.register(arg_1_0)
 end
 
 function var_0_0.addExtraData(arg_3_0, arg_3_1, arg_3_2)
+	if arg_3_2 == nil then
+		return
+	end
+
 	arg_3_0.extraItemData[arg_3_1] = arg_3_0.extraItemData[arg_3_1] or {}
 
 	table.insert(arg_3_0.extraItemData[arg_3_1], arg_3_2)
@@ -331,6 +335,31 @@ function var_0_0.GetSkinExperienceItems(arg_27_0)
 	end
 
 	return var_27_0
+end
+
+function var_0_0.GetAllLoveLetterItem(arg_28_0)
+	local var_28_0 = {}
+	local var_28_1, var_28_2, var_28_3 = getProxy(LoveLetterProxy):GetLoveLetterItemDic()
+
+	for iter_28_0, iter_28_1 in pairs(arg_28_0.data) do
+		assert(not arg_28_0.extraItemData[iter_28_0] or iter_28_1.count == #arg_28_0.extraItemData[iter_28_0])
+
+		for iter_28_2 = 1, iter_28_1.count do
+			local var_28_4 = arg_28_0.extraItemData[iter_28_0] and arg_28_0.extraItemData[iter_28_0][iter_28_2] or nil
+			local var_28_5 = var_28_4 and var_28_3[var_28_4] or var_28_4 or 0
+
+			if not var_28_1[iter_28_0 .. "_" .. var_28_5] then
+				break
+			end
+
+			table.insert(var_28_0, {
+				iter_28_0,
+				var_28_4
+			})
+		end
+	end
+
+	return var_28_0
 end
 
 return var_0_0

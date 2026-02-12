@@ -4,7 +4,7 @@ return {
 	hideRecord = true,
 	mode = 2,
 	alpha = 0,
-	id = "DORM3DTOUCH3072",
+	id = "DORM3DTOUCH3076",
 	hideSkip = true,
 	hideAuto = true,
 	placeholder = {

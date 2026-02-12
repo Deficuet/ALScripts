@@ -364,18 +364,22 @@ function var_0_0.OnAllPageClose(arg_34_0)
 	arg_34_0.scene:TryVisible()
 end
 
-function var_0_0.IsSceneType(arg_35_0, arg_35_1)
-	return arg_35_1.__cname == arg_35_0.scene.__cname
+function var_0_0.IsAllPageClose(arg_35_0)
+	return #arg_35_0.stack == 0
 end
 
-function var_0_0.OnBackPressed(arg_36_0)
-	local var_36_0 = arg_36_0.stack[#arg_36_0.stack]
+function var_0_0.IsSceneType(arg_36_0, arg_36_1)
+	return arg_36_1.__cname == arg_36_0.scene.__cname
+end
 
-	if var_36_0 then
-		local var_36_1 = arg_36_0:GetPage(var_36_0.class)
+function var_0_0.OnBackPressed(arg_37_0)
+	local var_37_0 = arg_37_0.stack[#arg_37_0.stack]
 
-		if var_36_1 and var_36_1:CanEsc() then
-			var_36_1:Hide()
+	if var_37_0 then
+		local var_37_1 = arg_37_0:GetPage(var_37_0.class)
+
+		if var_37_1 and var_37_1:CanEsc() then
+			var_37_1:Hide()
 		end
 
 		return true
@@ -384,52 +388,52 @@ function var_0_0.OnBackPressed(arg_36_0)
 	return false
 end
 
-function var_0_0.IsDestroyed(arg_37_0)
-	return arg_37_0.state == var_0_3
+function var_0_0.IsDestroyed(arg_38_0)
+	return arg_38_0.state == var_0_3
 end
 
-function var_0_0.Dispose(arg_38_0)
-	arg_38_0.state = var_0_3
+function var_0_0.Dispose(arg_39_0)
+	arg_39_0.state = var_0_3
 
-	for iter_38_0 = #arg_38_0.pages, 1, -1 do
-		local var_38_0 = arg_38_0.pages[iter_38_0]
+	for iter_39_0 = #arg_39_0.pages, 1, -1 do
+		local var_39_0 = arg_39_0.pages[iter_39_0]
 
-		var_38_0:ActiveOrDisactive(false)
-		arg_38_0:DestroyPage(var_38_0)
+		var_39_0:ActiveOrDisactive(false)
+		arg_39_0:DestroyPage(var_39_0)
 	end
 
-	for iter_38_1 = #arg_38_0.noStatePages, 1, -1 do
-		local var_38_1 = arg_38_0.noStatePages[iter_38_1]
+	for iter_39_1 = #arg_39_0.noStatePages, 1, -1 do
+		local var_39_1 = arg_39_0.noStatePages[iter_39_1]
 
-		var_38_1:ActiveOrDisactive(false)
-		arg_38_0:DestroyPage(var_38_1)
+		var_39_1:ActiveOrDisactive(false)
+		arg_39_0:DestroyPage(var_39_1)
 	end
 
-	arg_38_0.stack = nil
-	arg_38_0.noStatePages = nil
-	arg_38_0.pages = nil
-	arg_38_0.subPages = nil
+	arg_39_0.stack = nil
+	arg_39_0.noStatePages = nil
+	arg_39_0.pages = nil
+	arg_39_0.subPages = nil
 end
 
-function var_0_0.Debug(arg_39_0)
+function var_0_0.Debug(arg_40_0)
 	if not var_0_1 then
 		return
 	end
 
-	local function var_39_0(arg_40_0)
-		local var_40_0 = _.map(arg_40_0:GetSubPages(), function(arg_41_0)
-			return arg_41_0.class.__cname
+	local function var_40_0(arg_41_0)
+		local var_41_0 = _.map(arg_41_0:GetSubPages(), function(arg_42_0)
+			return arg_42_0.class.__cname
 		end)
 
-		return table.concat(var_40_0, ",")
+		return table.concat(var_41_0, ",")
 	end
 
-	local var_39_1 = _.map(arg_39_0.stack, function(arg_42_0)
-		return arg_42_0.class.__cname .. ":[" .. var_39_0(arg_42_0) .. "]"
+	local var_40_1 = _.map(arg_40_0.stack, function(arg_43_0)
+		return arg_43_0.class.__cname .. ":[" .. var_40_0(arg_43_0) .. "]"
 	end)
-	local var_39_2 = table.concat(var_39_1, "\n")
+	local var_40_2 = table.concat(var_40_1, "\n")
 
-	print("\n" .. var_39_2)
+	print("\n" .. var_40_2)
 end
 
 return var_0_0

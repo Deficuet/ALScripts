@@ -49,7 +49,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 30707,
-			say = "大凤会心怀感激的收下哦~",
+			say = "{namecode:97}会心怀感激的收下哦~",
 			voice = "event:/dorm/drom3d_Taiho_gift1_voice2/drom3d_Taiho_gift1_voice2",
 			typewriter = {
 				speed = 0.05,

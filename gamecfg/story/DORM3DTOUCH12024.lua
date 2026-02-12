@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "指挥官要是敢对别人这样温柔的话……后果可是很可怕的哦？",
+			say = "{dorm3d}要是敢对别人这样温柔的话……后果可是很可怕的哦？",
 			voice = "event:/dorm/drom3d_Taiho_ik_gfit1_tone7/drom3d_Taiho_ik_gfit1_tone7",
 			typewriter = {
 				speed = 0.05,

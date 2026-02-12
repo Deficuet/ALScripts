@@ -46,17 +46,11 @@ end
 
 function var_0_0.GetInfo(arg_7_0)
 	local var_7_0 = arg_7_0:GetSelfIsland()
-	local var_7_1, var_7_2 = var_7_0:GetActivityNpcAgency():ExistTradeNpc()
+	local var_7_1 = IslandConst.AGORA_MAP_ID
+	local var_7_2 = pg.island_map[var_7_1].name
+	local var_7_3 = var_7_0:GetTradeAgency():GetTodaySellPrice()
 
-	if not var_7_1 then
-		return
-	end
-
-	local var_7_3 = pg.island_world_objects[var_7_2]
-	local var_7_4 = pg.island_map[var_7_3.mapId].name
-	local var_7_5 = var_7_0:GetTradeAgency():GetTodaySellPrice()
-
-	return var_7_3.mapId, var_7_4, var_7_5
+	return var_7_1, var_7_2, var_7_3
 end
 
 function var_0_0.DoShare(arg_8_0)

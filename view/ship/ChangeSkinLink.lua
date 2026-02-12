@@ -36,6 +36,35 @@ function var_0_0.GetSaveL2dData(arg_1_0, arg_1_1)
 end
 
 var_0_0.CHANGE_SKIN_LINK_DATA = {
+	[499024] = {
+		link_id = 499023,
+		type = var_0_0.SPINE_TYPE,
+		link_type = var_0_0.L2D_TYPE,
+		relations = {
+			{
+				skeleton_skin = "1",
+				type = var_0_0.change_parameter_link_skin,
+				link_parameter = {
+					{
+						name = "touch_drag1",
+						num = 0,
+						match = true
+					}
+				}
+			},
+			{
+				skeleton_skin = "2",
+				type = var_0_0.change_parameter_link_skin,
+				link_parameter = {
+					{
+						name = "touch_drag1",
+						num = 1,
+						match = true
+					}
+				}
+			}
+		}
+	},
 	[107103] = {
 		link_id = 107102,
 		type = var_0_0.SPINE_TYPE,

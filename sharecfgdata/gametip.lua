@@ -2753,6 +2753,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.spring_present_tips2 = {
+		tip = "当前秘书舰无法收取春日同心之礼，请指挥官更换秘书舰再进行尝试哦～"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.courtyard_label_week = {
 		tip = "一周内"
 	}
@@ -3784,6 +3790,12 @@ end)()
 (function()
 	_G.pg.base.gametip.dorm3d_talk = {
 		tip = "对话"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveactivity_ui_4_1 = {
+		tip = "是否给予<color=#3DC6FFFF>$1</color>额外<color=#3DC6FFFF>500</color>甜蜜回忆？\n 给予后<color=#FF5C5CFF>无法更改</color>，注意选定邀约角色哦。"
 	}
 end)()
 
@@ -9698,14 +9710,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.spring_present_tips3 = {
+		tip = "邮件收取成功，请指挥官前往邮箱查看并收取她为您准备的礼物。"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.fate_unlock_icon_desc = {
 		tip = "※方案舰已拥有天运拟合"
 	}
 end)()
 
 (function()
+	_G.pg.base.gametip.spring_present_tips1 = {
+		tip = "指挥官，您将通过邮件收到第一栏位秘书舰的春日同心之礼，是否确认?"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.main_mailLayer_quest_clear = {
 		tip = "确定要删除所有已读邮件吗？<color=#238c40>（未领取附件的邮件将会保留）</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spring_present_tips0 = {
+		tip = "当前为随机秘书组，请关闭随机秘书组后再进行尝试哦"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_time = {
+		tip = "时间"
 	}
 end)()
 
@@ -9728,14 +9764,60 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.drawdiary_ui_2026 = {
-		tip = "绘图日记"
+	_G.pg.base.gametip.spring_present_tips_btn = {
+		tip = "春日同心"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.technology_refresh_sucess = {
-		tip = "刷新研发列表成功"
+	_G.pg.base.gametip.loveactivity_help_tips = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/love_help_1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/love_help_2",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/love_help_3",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/love_help_4",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.drawdiary_ui_2026 = {
+		tip = "绘图日记"
 	}
 end)()
 
@@ -9752,6 +9834,24 @@ end)()
 				info = "活动说明：\n1.活动期间可以通过<color=#92fc63>「飞云大冒险」</color>、<color=#92fc63>「绘图日记」</color>、<color=#92fc63>「伏波的完美计划」</color>、<color=#92fc63>「新春烟花会」</color>获得红包，开启红包可以获得钻石及其他丰厚奖励\n2.红包分为bonus和普通红包，其中有<color=#92fc63>15</color>个bonus红包，其余为普通红包，开启红包时优先开启bonus红包，bonus红包开完后开启普通红包\n3.累计打开<color=#92fc63>15</color>个红包，可获得<color=#92fc63>「抚顺」限定换装</color>，累计打开<color=#92fc63>25</color>个红包，可获得<color=#92fc63>「长岛」限定换装</color>"
 			}
 		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.technology_refresh_sucess = {
+		tip = "刷新研发列表成功"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveactivity_ui_20 = {
+		tip = "累计幸福共鸣勋章等级奖励"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_ammo_type_5 = {
+		tip = "通常"
 	}
 end)()
 
@@ -9780,14 +9880,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.loveactivity_ui_20 = {
-		tip = "累计幸福共鸣等级奖励"
+	_G.pg.base.gametip.shipyard_gift_non_existent = {
+		tip = "没有可赠送的礼物。"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.equip_ammo_type_5 = {
-		tip = "通常"
+	_G.pg.base.gametip.loveactivity_ui_16 = {
+		tip = "暂无奖励可领取"
 	}
 end)()
 
@@ -9804,8 +9904,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shipyard_gift_non_existent = {
-		tip = "没有可赠送的礼物。"
+	_G.pg.base.gametip.courtyard_label_filter = {
+		tip = "筛选"
 	}
 end)()
 
@@ -9826,14 +9926,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.loveactivity_ui_16 = {
-		tip = "暂无奖励可领取"
+	_G.pg.base.gametip.loveactivity_ui_14 = {
+		tip = "$1幸福共鸣勋章"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.courtyard_label_filter = {
-		tip = "筛选"
+	_G.pg.base.gametip.loveactivity_ui_13 = {
+		tip = "新的情人节信件已解锁"
 	}
 end)()
 
@@ -9862,26 +9962,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.loveactivity_ui_14 = {
-		tip = "$1幸福共鸣勋章"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.loveactivity_ui_13 = {
-		tip = "新的情人节信件已解锁"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.loveactivity_ui_12 = {
-		tip = "※活动中可随时更换邀约对象（剩余$1/$2）"
+		tip = "※只有邀约对象可获得关卡及签到产出的甜蜜回忆（切换次数$1/$2）"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.danmachi_award_name2 = {
 		tip = "琉·璃昂"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_target_catchup_dr_char = {
+		tip = "决战方案"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveactivity_ui_9 = {
+		tip = "$1年情人节礼物"
 	}
 end)()
 
@@ -9926,38 +10026,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tec_target_catchup_dr_char = {
-		tip = "决战方案"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.technology_queue_complete = {
-		tip = "研究完成"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.loveactivity_ui_9 = {
-		tip = "$1年情人节礼物"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.loveactivity_ui_8 = {
 		tip = "回忆 "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.destroy_equip_rarity_tip = {
-		tip = "请输入<color=#92fc63>$1</color>进行确认"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.caibulin_tip3 = {
-		tip = "从作战中搜寻线索，目标2-2Burin！"
+	_G.pg.base.gametip.technology_queue_complete = {
+		tip = "研究完成"
 	}
 end)()
 
@@ -9983,6 +10059,30 @@ end)()
 				info = "3.在活动中收集全部<color=#92fc63>12</color>个「周边」道具后，可在「纪念\n章」处获取「共鸣舞台微缩模型」\n详细获取条件可在「纪念章」界面查看\n4.点击「限时建造」可以前往建造界面\n5.点击「换装商店」可以前往换装商店界面"
 			}
 		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.destroy_equip_rarity_tip = {
+		tip = "请输入<color=#92fc63>$1</color>进行确认"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.caibulin_tip3 = {
+		tip = "从作战中搜寻线索，目标2-2Burin！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveactivity_ui_5 = {
+		tip = "珍藏回忆 "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_simulation_confirm_49907 = {
+		tip = "<size=28>\n是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，\n<color=#ff5c5c>实际性能以获得舰船为准</color>）\n使用装备：<color=#92fc63>\n试作型双联装406mmSKC主炮\n双联装TbtsKC36式150mm主炮\n试作型四联装30mm机炮\n</color></size>"
 	}
 end)()
 
@@ -10069,8 +10169,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.loveactivity_ui_5 = {
-		tip = "珍藏回忆 "
+	_G.pg.base.gametip.loveactivity_ui_4_2 = {
+		tip = "是否给予<color=#3DC6FFFF>$1</color>额外<color=#3DC6FFFF>800</color>甜蜜回忆？\n 给予后<color=#FF5C5CFF>无法更改</color>，注意选定邀约角色哦。"
 	}
 end)()
 
@@ -10082,7 +10182,7 @@ end)()
 
 (function()
 	_G.pg.base.gametip.loveactivity_ui_4 = {
-		tip = "是否给予$1额外甜蜜回忆"
+		tip = "是否给予$1额外甜蜜回忆。\n 甜蜜回忆给予后无法进行更改。"
 	}
 end)()
 
@@ -10407,8 +10507,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_49907 = {
-		tip = "<size=28>\n是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，\n<color=#ff5c5c>实际性能以获得舰船为准</color>）\n使用装备：<color=#92fc63>\n试作型双联装406mmSKC主炮\n双联装TbtsKC36式150mm主炮\n试作型四联装30mm机炮\n</color></size>"
+	_G.pg.base.gametip.loveactivity_ui_4_3 = {
+		tip = "是否给予<color=#3DC6FFFF>$1</color>额外<color=#3DC6FFFF>1500</color>甜蜜回忆？\n 给予后<color=#FF5C5CFF>无法更改</color>，注意选定邀约角色哦。"
 	}
 end)()
 
@@ -28907,8 +29007,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.courtyard_label_time = {
-		tip = "时间"
+	_G.pg.base.gametip.spring_present_tips_time = {
+		tip = "活动时间: 2.17 0时~3.3 24时"
 	}
 end)()
 
@@ -40232,7 +40332,7 @@ end)()
 
 (function()
 	_G.pg.base.gametip.loveactivity_ui_10 = {
-		tip = "累计幸福共鸣等级"
+		tip = "累计幸福共鸣勋章等级"
 	}
 end)()
 

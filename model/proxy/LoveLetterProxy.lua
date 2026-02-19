@@ -96,147 +96,154 @@ function var_0_0.GetLoveLetterItemDic(arg_8_0)
 		for iter_8_0, iter_8_1 in ipairs(pg.lover_letter_content.all) do
 			local var_8_0 = pg.lover_letter_content[iter_8_1]
 
-			var_0_0.letterIdMap[var_8_0.ship_group .. "_" .. var_8_0.year] = iter_8_1
+			if not pg.lover_character_template[var_8_0.ship_group] then
+				-- block empty
+			else
+				var_0_0.letterIdMap[var_8_0.ship_group .. "_" .. var_8_0.year] = iter_8_1
 
-			for iter_8_2, iter_8_3 in ipairs(var_8_0.love_item) do
-				for iter_8_4, iter_8_5 in ipairs({
-					0,
-					var_8_0.ship_group
-				}) do
-					local var_8_1 = iter_8_3 .. "_" .. iter_8_5
+				for iter_8_2, iter_8_3 in ipairs(var_8_0.love_item) do
+					for iter_8_4, iter_8_5 in ipairs(table.insertto({
+						var_8_0.ship_group
+					}, pg.lover_character_template[var_8_0.ship_group].relate_group_id)) do
+						for iter_8_6, iter_8_7 in ipairs({
+							0,
+							iter_8_5
+						}) do
+							local var_8_1 = iter_8_3 .. "_" .. iter_8_7
 
-					var_0_0.letterItemDic[var_8_1] = var_0_0.letterItemDic[var_8_1] or {}
-					var_0_0.letterItemDic[var_8_1][var_8_0.year] = var_8_0.ship_group
+							var_0_0.letterItemDic[var_8_1] = var_0_0.letterItemDic[var_8_1] or {}
+							var_0_0.letterItemDic[var_8_1][var_8_0.year] = var_8_0.ship_group
+						end
+					end
 				end
-			end
-		end
-
-		var_0_0.groupChangeDic = {}
-
-		for iter_8_6, iter_8_7 in ipairs(pg.lover_character_template.all) do
-			local var_8_2 = pg.lover_character_template[iter_8_7]
-
-			for iter_8_8, iter_8_9 in ipairs(var_8_2.relate_group_id) do
-				var_0_0.groupChangeDic[iter_8_9] = iter_8_7
 			end
 		end
 	end
 
-	return var_0_0.letterItemDic, var_0_0.letterIdMap, var_0_0.groupChangeDic
+	return var_0_0.letterItemDic, var_0_0.letterIdMap
 end
 
 function var_0_0.CanRealizeGift(arg_9_0)
-	local var_9_0 = getProxy(BagProxy):GetAllLoveLetterItem()
-	local var_9_1, var_9_2, var_9_3 = arg_9_0:GetLoveLetterItemDic()
-	local var_9_4 = {}
+	local var_9_0 = arg_9_0:GetLoveLetterItemDic()
+	local var_9_1 = getProxy(BagProxy):GetAllLoveLetterItem()
+	local var_9_2 = {}
 
-	for iter_9_0, iter_9_1 in ipairs(arg_9_0.giftRecord) do
-		local var_9_5 = var_9_3[iter_9_1.group_id] or iter_9_1.group_id
+	for iter_9_0, iter_9_1 in ipairs(var_9_1) do
+		local var_9_3, var_9_4 = unpack(iter_9_1)
+		local var_9_5 = underscore.values(var_9_0[var_9_3 .. "_" .. (var_9_4 or 0)])[1]
+		local var_9_6 = var_9_3 .. "_" .. var_9_5
 
-		var_9_4[var_9_5] = var_9_4[var_9_5] or {}
-
-		table.insert(var_9_4[var_9_5], iter_9_1)
+		var_9_2[var_9_6] = defaultValue(var_9_2[var_9_6], 0) + 1
 	end
 
-	for iter_9_2, iter_9_3 in pairs(var_9_4) do
-		if not underscore.any(var_9_0, function(arg_10_0)
-			local var_10_0, var_10_1 = unpack(arg_10_0)
-			local var_10_2 = var_10_1 and var_9_3[var_10_1] or var_10_1 or 0
+	local var_9_7 = false
 
-			for iter_10_0, iter_10_1 in pairs(var_9_1[var_10_0 .. "_" .. var_10_2]) do
-				if iter_10_1 == iter_9_2 then
-					return true
-				end
-			end
+	for iter_9_2, iter_9_3 in ipairs(arg_9_0.giftRecord) do
+		if not var_9_0[iter_9_3.item_id .. "_" .. iter_9_3.group_id] then
+			var_9_7 = true
 
-			return false
-		end) then
-			table.insertto(var_9_0, underscore.map(iter_9_3, function(arg_11_0)
-				if pg.item_data_statistics[arg_11_0.item_id].type == Item.LOVE_LETTER_TYPE then
-					return {
-						arg_11_0.item_id,
-						arg_11_0.group_id
-					}
-				else
-					return {
-						arg_11_0.item_id,
-						0
-					}
-				end
-			end))
+			break
+		end
+
+		local var_9_8 = underscore.values(var_9_0[iter_9_3.item_id .. "_" .. iter_9_3.group_id])[1]
+		local var_9_9 = iter_9_3.item_id .. "_" .. var_9_8
+
+		var_9_2[var_9_9] = defaultValue(var_9_2[var_9_9], 0) - 1
+	end
+
+	if var_9_7 and #var_9_1 > 0 then
+		return var_9_1
+	end
+
+	for iter_9_4, iter_9_5 in pairs(var_9_2) do
+		if iter_9_5 ~= 0 then
+			assert(#var_9_1 >= #arg_9_0.giftRecord)
+
+			return var_9_1
 		end
 	end
 
-	if #var_9_0 > #arg_9_0.giftRecord then
-		return var_9_0
-	else
-		return false
-	end
+	return nil
 end
 
-function var_0_0.UpdateRealizeGift(arg_12_0, arg_12_1)
-	local var_12_0, var_12_1, var_12_2 = arg_12_0:GetLoveLetterItemDic()
-	local var_12_3 = {}
+function var_0_0.UpdateRealizeGift(arg_10_0, arg_10_1)
+	local var_10_0, var_10_1 = arg_10_0:GetLoveLetterItemDic()
+	local var_10_2 = {}
 
-	for iter_12_0, iter_12_1 in ipairs(arg_12_1) do
-		local var_12_4 = var_12_2[iter_12_1.group_id] or iter_12_1.group_id
+	for iter_10_0, iter_10_1 in ipairs(arg_10_1) do
+		local var_10_3 = underscore.values(var_10_0[iter_10_1.item_id .. "_" .. iter_10_1.group_id])[1]
 
-		var_12_3[var_12_4] = var_12_3[var_12_4] or {}
+		var_10_2[var_10_3] = var_10_2[var_10_3] or {}
 
-		table.insert(var_12_3[var_12_4], iter_12_1)
+		table.insert(var_10_2[var_10_3], iter_10_1)
 	end
 
-	local var_12_5 = {}
+	local var_10_4 = {}
 
-	for iter_12_2, iter_12_3 in ipairs(arg_12_0.giftRecord) do
-		local var_12_6
-		local var_12_7 = var_12_2[iter_12_3.group_id] or iter_12_3.group_id
+	for iter_10_2, iter_10_3 in ipairs(arg_10_0.giftRecord) do
+		local var_10_5
+		local var_10_6
 
-		for iter_12_4, iter_12_5 in ipairs(var_12_3[var_12_7] or {}) do
-			if iter_12_5.item_id == iter_12_3.item_id and iter_12_5.year == iter_12_3.year then
-				var_12_6 = iter_12_4
+		if not var_10_0[iter_10_3.item_id .. "_" .. iter_10_3.group_id] then
+			var_10_5 = nil
+			var_10_6 = pg.lover_character_template[iter_10_3.group_id] and iter_10_3.group_id or underscore.detect(pg.lover_character_template.all, function(arg_11_0)
+				return underscore.any(pg.lover_character_template[arg_11_0].relate_group_id, function(arg_12_0)
+					return iter_10_3.group_id == arg_12_0
+				end)
+			end)
+		else
+			var_10_6 = underscore.values(var_10_0[iter_10_3.item_id .. "_" .. iter_10_3.group_id])[1]
 
-				break
+			for iter_10_4, iter_10_5 in ipairs(var_10_2[var_10_6] or {}) do
+				if iter_10_5.item_id == iter_10_3.item_id and iter_10_5.year == iter_10_3.year then
+					var_10_5 = iter_10_4
+
+					break
+				end
 			end
 		end
 
-		if var_12_6 then
-			table.remove(var_12_3[var_12_7], var_12_6)
+		if var_10_5 then
+			table.remove(var_10_2[var_10_6], var_10_5)
 		else
-			var_12_5[var_12_7] = var_12_5[var_12_7] or {}
+			var_10_4[var_10_6] = var_10_4[var_10_6] or {}
 
-			table.insert(var_12_5[var_12_7], iter_12_3)
+			table.insert(var_10_4[var_10_6], iter_10_3)
 		end
 	end
 
-	for iter_12_6, iter_12_7 in pairs(var_12_3) do
-		assert(#iter_12_7 >= #(var_12_5[iter_12_6] or {}))
+	for iter_10_6, iter_10_7 in pairs(var_10_4) do
+		local var_10_7 = arg_10_0:GetGroupData(iter_10_6)
 
-		local var_12_8 = arg_12_0:GetGroupData(iter_12_6)
+		arg_10_0.levelAll = arg_10_0.levelAll - #iter_10_7
 
-		arg_12_0.levelAll = arg_12_0.levelAll - var_12_8:GetDisplayLevel()
+		var_10_7:AddGiftExp(-#iter_10_7)
 
-		var_12_8:AddGiftExp(#iter_12_7 - #(var_12_5[iter_12_6] or {}))
+		for iter_10_8, iter_10_9 in ipairs(iter_10_7) do
+			local var_10_8 = var_10_1[iter_10_6 .. "_" .. iter_10_9.year]
 
-		arg_12_0.levelAll = arg_12_0.levelAll + var_12_8:GetDisplayLevel()
-
-		for iter_12_8, iter_12_9 in ipairs(var_12_5[iter_12_6] or {}) do
-			local var_12_9 = var_12_1[iter_12_6 .. "_" .. iter_12_9.year]
-
-			var_12_8.unlockLetterDic[var_12_9] = var_12_8.unlockLetterDic[var_12_9] - 1
-		end
-
-		for iter_12_10, iter_12_11 in ipairs(iter_12_7) do
-			local var_12_10 = var_12_1[(var_12_2[iter_12_11.group_id] or iter_12_11.group_id) .. "_" .. iter_12_11.year]
-
-			var_12_8.unlockLetterDic[var_12_10] = defaultValue(var_12_8.unlockLetterDic[var_12_10], 0) + 1
+			var_10_7.unlockLetterDic[var_10_8] = var_10_7.unlockLetterDic[var_10_8] - 1
 		end
 	end
 
-	arg_12_0.giftRecord = arg_12_1
-	arg_12_0.giftTip = false
+	for iter_10_10, iter_10_11 in pairs(var_10_2) do
+		local var_10_9 = arg_10_0:GetGroupData(iter_10_10)
 
-	arg_12_0:sendNotification(LoveLetterProxy.UPDATE_LOVE_LETTER)
+		arg_10_0.levelAll = arg_10_0.levelAll + #iter_10_11
+
+		var_10_9:AddGiftExp(#iter_10_11)
+
+		for iter_10_12, iter_10_13 in ipairs(iter_10_11) do
+			local var_10_10 = var_10_1[iter_10_10 .. "_" .. iter_10_13.year]
+
+			var_10_9.unlockLetterDic[var_10_10] = defaultValue(var_10_9.unlockLetterDic[var_10_10], 0) + 1
+		end
+	end
+
+	arg_10_0.giftRecord = arg_10_1
+	arg_10_0.giftTip = false
+
+	arg_10_0:sendNotification(LoveLetterProxy.UPDATE_LOVE_LETTER)
 end
 
 function var_0_0.AddLoveLetterExp(arg_13_0, arg_13_1, arg_13_2)
@@ -277,133 +284,149 @@ function var_0_0.GetAllLevelNextAwardIndex(arg_17_0)
 	return nil
 end
 
-function var_0_0.GetAllLevelProgress(arg_18_0)
-	local var_18_0 = arg_18_0:GetAllLevelNextAwardIndex()
+function var_0_0.GetAllLevelAwardDisplayIndex(arg_18_0)
+	local var_18_0
 
-	if not var_18_0 then
+	for iter_18_0, iter_18_1 in ipairs(pg.lover_reward.all) do
+		var_18_0 = iter_18_0
+
+		if pg.lover_reward[iter_18_1].total_level > arg_18_0.levelAll then
+			break
+		end
+	end
+
+	return var_18_0
+end
+
+function var_0_0.GetAllLevelProgress(arg_19_0)
+	local var_19_0 = arg_19_0:GetAllLevelNextAwardIndex()
+
+	if not var_19_0 then
 		return 0, 0
 	else
-		local var_18_1 = pg.lover_reward.all
-		local var_18_2 = var_18_0 > 1 and pg.lover_reward[var_18_1[var_18_0 - 1]].total_level or 0
+		local var_19_1 = pg.lover_reward.all
+		local var_19_2 = var_19_0 > 1 and pg.lover_reward[var_19_1[var_19_0 - 1]].total_level or 0
 
-		return arg_18_0.levelAll - var_18_2, pg.lover_reward[var_18_1[var_18_0]].total_level - var_18_2
+		return arg_19_0.levelAll - var_19_2, pg.lover_reward[var_19_1[var_19_0]].total_level - var_19_2
 	end
 end
 
-function var_0_0.GetAllLevelNextAward(arg_19_0)
-	local var_19_0 = pg.lover_reward.all
-	local var_19_1 = var_19_0[arg_19_0:GetAllLevelNextAwardIndex() or #var_19_0]
+function var_0_0.GetAllLevelNextAward(arg_20_0)
+	local var_20_0 = pg.lover_reward.all
+	local var_20_1 = var_20_0[arg_20_0:GetAllLevelNextAwardIndex() or #var_20_0]
 
-	return underscore.map(pg.lover_reward[var_19_1].show_reward, function(arg_20_0)
-		return Drop.Create(arg_20_0)
+	return underscore.map(pg.lover_reward[var_20_1].show_reward, function(arg_21_0)
+		return Drop.Create(arg_21_0)
 	end)
 end
 
-function var_0_0.GetAllLevelRewardMarkDic(arg_21_0)
-	return arg_21_0.rewardMarkDic
+function var_0_0.GetAllLevelRewardMarkDic(arg_22_0)
+	return arg_22_0.rewardMarkDic
 end
 
-function var_0_0.GetAllLevelReadyReward(arg_22_0)
-	local var_22_0 = {}
-	local var_22_1 = arg_22_0:GetAllLevelRewardMarkDic()
+function var_0_0.GetAllLevelReadyReward(arg_23_0)
+	local var_23_0 = {}
+	local var_23_1 = arg_23_0:GetAllLevelRewardMarkDic()
 
-	for iter_22_0, iter_22_1 in ipairs(pg.lover_reward.all) do
-		if pg.lover_reward[iter_22_1].total_level > arg_22_0.levelAll then
+	for iter_23_0, iter_23_1 in ipairs(pg.lover_reward.all) do
+		if pg.lover_reward[iter_23_1].total_level > arg_23_0.levelAll then
 			break
-		elseif not var_22_1[iter_22_1] then
-			table.insert(var_22_0, iter_22_1)
+		elseif not var_23_1[iter_23_1] then
+			table.insert(var_23_0, iter_23_1)
 		end
 	end
 
-	return var_22_0
+	return var_23_0
 end
 
-function var_0_0.RecordLoveLetterContent(arg_23_0, arg_23_1, arg_23_2)
-	arg_23_0.letterTextContent[arg_23_1] = HXSet.hxLan(arg_23_2)
+function var_0_0.RecordLoveLetterContent(arg_24_0, arg_24_1, arg_24_2)
+	arg_24_0.letterTextContent[arg_24_1] = HXSet.hxLan(arg_24_2)
 end
 
-function var_0_0.GetLoveLetterContent(arg_24_0, arg_24_1)
-	return arg_24_0.letterTextContent[arg_24_1]
+function var_0_0.GetLoveLetterContent(arg_25_0, arg_25_1)
+	return arg_25_0.letterTextContent[arg_25_1]
 end
 
-function var_0_0.GetDisPlayerGroupDatas(arg_25_0)
-	local var_25_0 = {}
-
-	for iter_25_0, iter_25_1 in pairs(arg_25_0.data or {}) do
-		if iter_25_1.exp > 0 then
-			table.insert(var_25_0, iter_25_1)
-		end
-	end
-
-	return var_25_0
-end
-
-function var_0_0.GetTrophyList(arg_26_0)
+function var_0_0.GetDisPlayerGroupDatas(arg_26_0)
 	local var_26_0 = {}
 
-	for iter_26_0, iter_26_1 in ipairs(arg_26_0:GetDisPlayerGroupDatas()) do
-		table.insertto(var_26_0, iter_26_1:GetTrophyList())
+	for iter_26_0, iter_26_1 in pairs(arg_26_0.data or {}) do
+		if iter_26_1.exp > 0 then
+			table.insert(var_26_0, iter_26_1)
+		end
 	end
 
 	return var_26_0
 end
 
-function var_0_0.GetDisplayLetterList(arg_27_0)
+function var_0_0.GetTrophyList(arg_27_0)
 	local var_27_0 = {}
 
-	for iter_27_0, iter_27_1 in pairs(arg_27_0.data) do
-		if iter_27_1.exp > 0 and #iter_27_1:GetDisplayLetterList() > 0 then
-			table.insert(var_27_0, iter_27_0)
+	for iter_27_0, iter_27_1 in ipairs(arg_27_0:GetDisPlayerGroupDatas()) do
+		table.insertto(var_27_0, iter_27_1:GetTrophyList())
+	end
+
+	return var_27_0
+end
+
+function var_0_0.GetDisplayLetterList(arg_28_0)
+	local var_28_0 = {}
+
+	for iter_28_0, iter_28_1 in pairs(arg_28_0.data) do
+		if iter_28_1.exp > 0 and #iter_28_1:GetDisplayLetterList() > 0 then
+			table.insert(var_28_0, iter_28_0)
 		end
 	end
 
-	table.sort(var_27_0, CompareFuncs({
-		function(arg_28_0)
-			return -arg_27_0.data[arg_28_0].level
-		end,
+	table.sort(var_28_0, CompareFuncs({
 		function(arg_29_0)
-			return -arg_27_0.data[arg_29_0].exp
+			return -arg_28_0.data[arg_29_0].level
 		end,
 		function(arg_30_0)
-			return arg_30_0
+			return -arg_28_0.data[arg_30_0].exp
+		end,
+		function(arg_31_0)
+			return arg_31_0
 		end
 	}))
 
-	local var_27_1 = getProxy(CollectionProxy):RawgetGroups()
+	local var_28_1 = getProxy(CollectionProxy):RawgetGroups()
 
-	return underscore.map(var_27_0, function(arg_31_0)
-		return var_27_1[arg_31_0]
+	return underscore.map(var_28_0, function(arg_32_0)
+		return var_28_1[arg_32_0]
 	end)
 end
 
-function var_0_0.GetRecordGiftLetters(arg_32_0, arg_32_1)
-	local var_32_0 = {}
-	local var_32_1, var_32_2, var_32_3 = arg_32_0:GetLoveLetterItemDic()
+function var_0_0.GetRecordGiftLetters(arg_33_0, arg_33_1)
+	local var_33_0 = {}
+	local var_33_1, var_33_2 = arg_33_0:GetLoveLetterItemDic()
 
-	for iter_32_0, iter_32_1 in ipairs(arg_32_0.giftRecord) do
-		if (var_32_3[iter_32_1.group_id] or iter_32_1.group_id) == arg_32_1 then
-			table.insert(var_32_0, var_32_2[arg_32_1 .. "_" .. iter_32_1.year])
+	for iter_33_0, iter_33_1 in ipairs(arg_33_0.giftRecord) do
+		if not var_33_1[iter_33_1.item_id .. "_" .. iter_33_1.group_id] then
+			-- block empty
+		elseif underscore.values(var_33_1[iter_33_1.item_id .. "_" .. iter_33_1.group_id])[1] == arg_33_1 then
+			table.insert(var_33_0, var_33_2[arg_33_1 .. "_" .. iter_33_1.year])
 		end
 	end
 
-	return var_32_0
+	return var_33_0
 end
 
-function var_0_0.IsTipRealizeGift(arg_33_0)
-	if not arg_33_0.data then
+function var_0_0.IsTipRealizeGift(arg_34_0)
+	if not arg_34_0.data then
 		return false
 	end
 
-	if arg_33_0.giftTip == nil then
-		arg_33_0.giftTip = arg_33_0:CanRealizeGift()
+	if arg_34_0.giftTip == nil then
+		arg_34_0.giftTip = arg_34_0:CanRealizeGift()
 	end
 
-	return arg_33_0.giftTip
+	return arg_34_0.giftTip
 end
 
-function var_0_0.IsTipLevelUp(arg_34_0)
-	for iter_34_0, iter_34_1 in pairs(arg_34_0.data) do
-		if iter_34_1:GetDisplayLevel() < iter_34_1:GetMaxLevel() and iter_34_1:CanLevelUp() then
+function var_0_0.IsTipLevelUp(arg_35_0)
+	for iter_35_0, iter_35_1 in pairs(arg_35_0.data) do
+		if iter_35_1:GetDisplayLevel() < iter_35_1:GetMaxLevel() and iter_35_1:CanLevelUp() then
 			return true
 		end
 	end
@@ -411,16 +434,16 @@ function var_0_0.IsTipLevelUp(arg_34_0)
 	return false
 end
 
-function var_0_0.IsTipAllLevelReward(arg_35_0)
-	local var_35_0, var_35_1 = arg_35_0:GetAllLevelProgress()
+function var_0_0.IsTipAllLevelReward(arg_36_0)
+	local var_36_0, var_36_1 = arg_36_0:GetAllLevelProgress()
 
-	return var_35_1 > 0 and var_35_1 <= var_35_0
+	return var_36_1 > 0 and var_36_1 <= var_36_0
 end
 
-function var_0_0.IsTipUnlockLetter(arg_36_0)
-	for iter_36_0, iter_36_1 in pairs(arg_36_0.data) do
-		for iter_36_2, iter_36_3 in ipairs(pg.lover_letter_content.get_id_list_by_ship_group[iter_36_0]) do
-			if iter_36_1:CanUnlockLetter(iter_36_3) and not iter_36_1:GetLetterUnlock(iter_36_3) then
+function var_0_0.IsTipUnlockLetter(arg_37_0)
+	for iter_37_0, iter_37_1 in pairs(arg_37_0.data) do
+		for iter_37_2, iter_37_3 in ipairs(pg.lover_letter_content.get_id_list_by_ship_group[iter_37_0]) do
+			if iter_37_1:CanUnlockLetter(iter_37_3) and not iter_37_1:GetLetterUnlock(iter_37_3) then
 				return true
 			end
 		end
@@ -429,18 +452,18 @@ function var_0_0.IsTipUnlockLetter(arg_36_0)
 	return false
 end
 
-function var_0_0.GetSystemData(arg_37_0, arg_37_1)
-	if not arg_37_0.data then
-		arg_37_0:sendNotification(GAME.GET_ALL_LOVE_LETTER_DATA, {
-			callback = arg_37_1
+function var_0_0.GetSystemData(arg_38_0, arg_38_1)
+	if not arg_38_0.data then
+		arg_38_0:sendNotification(GAME.GET_ALL_LOVE_LETTER_DATA, {
+			callback = arg_38_1
 		})
 	else
-		arg_37_1()
+		arg_38_1()
 	end
 end
 
-function var_0_0.remove(arg_38_0)
-	arg_38_0.data = nil
+function var_0_0.remove(arg_39_0)
+	arg_39_0.data = nil
 end
 
 return var_0_0

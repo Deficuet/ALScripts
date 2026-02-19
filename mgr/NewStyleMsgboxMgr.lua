@@ -517,9 +517,11 @@ function var_0_1.DisplaySetting(arg_22_0, arg_22_1, arg_22_2)
 			var_43_5:setDefaultNum(var_43_10)
 		end,
 		[var_0_1.TYPE_LOVE_LETTER_LEVEL_REWARD] = function(arg_45_0)
+			setText(arg_22_0._tf:Find("window/top/title"), i18n("loveactivity_ui_20"))
+
 			local var_45_0 = getProxy(LoveLetterProxy)
 			local var_45_1 = var_45_0:GetAllLevel()
-			local var_45_2 = underscore.first(var_0_0.lover_reward.all, var_45_0:GetAllLevelNextAwardIndex() or #var_0_0.lover_reward.all)
+			local var_45_2 = underscore.first(var_0_0.lover_reward.all, var_45_0:GetAllLevelAwardDisplayIndex())
 			local var_45_3 = var_45_0:GetAllLevelRewardMarkDic()
 			local var_45_4 = arg_22_0._tf:Find("window/middle/view/content")
 

@@ -7054,7 +7054,7 @@ pg.base.ship_skin_template_20 = {
 		lip_smoothing = 0,
 		skeleton_default_skin = "",
 		voice_lang = "",
-		bg = "144",
+		bg = "175",
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
@@ -7078,7 +7078,7 @@ pg.base.ship_skin_template_20 = {
 		tag = {
 			8,
 			1,
-			4
+			2
 		},
 		change_skin = {
 			next = 499024,

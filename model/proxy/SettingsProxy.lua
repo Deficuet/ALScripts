@@ -434,6 +434,7 @@ function var_0_0.clearAllReadHelp(arg_54_0)
 	PlayerPrefs.DeleteKey("help_commander_info")
 	PlayerPrefs.DeleteKey("help_commander_play")
 	PlayerPrefs.DeleteKey("help_commander_ability")
+	PlayerPrefs.DeleteKey("loveactivity_help_tips")
 end
 
 function var_0_0.setAutoBattleTip(arg_55_0)

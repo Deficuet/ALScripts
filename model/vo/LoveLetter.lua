@@ -110,13 +110,7 @@ var_0_0.Mark = {
 }
 
 function var_0_0.GetDisplayLevelMark(arg_17_0)
-	local var_17_0 = arg_17_0:GetDisplayLevel()
-
-	if var_17_0 < 1 then
-		return "0"
-	else
-		return var_0_0.Mark[(var_17_0 - 1) % 10 + 1]
-	end
+	return arg_17_0:GetDisplayLevel()
 end
 
 function var_0_0.GetDisplayExp(arg_18_0)

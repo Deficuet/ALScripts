@@ -25208,6 +25208,55 @@ pg.activity_template = {
 		page_core = "",
 		config_data = {}
 	},
+	[6024] = {
+		mark = 20260212,
+		title_res_tag = "",
+		page_info = "",
+		type = 134,
+		login_pop = 0,
+		config_id = 15,
+		is_show = 0,
+		config_client = "",
+		id = 6024,
+		page_core = "",
+		config_data = {
+			{
+				defaultID,
+				312011
+			},
+			{
+				itemID,
+				44004
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					2,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[50000] = {
 		mark = 20250619,
 		title_res_tag = "bisimai_story",
@@ -35653,7 +35702,7 @@ pg.activity_template = {
 		config_data = {
 			120001,
 			400,
-			10
+			20
 		},
 		time = {
 			"timer",
@@ -48236,6 +48285,9 @@ pg.activity_template = {
 		[125] = {
 			5951
 		},
+		[134] = {
+			6024
+		},
 		[126] = {
 			50030
 		},
@@ -49119,6 +49171,7 @@ pg.activity_template = {
 		5997,
 		5998,
 		5999,
+		6024,
 		50000,
 		50001,
 		50002,

@@ -1,4 +1,5 @@
 local var_0_0 = class("PacGameMapController")
+local var_0_1 = 3
 
 function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2, arg_1_3)
 	arg_1_0._sceneMask = arg_1_1
@@ -53,12 +54,12 @@ function var_0_0.Step(arg_8_0, arg_8_1)
 	arg_8_0._deltaTime = arg_8_1
 
 	arg_8_0:udateScoreGrid()
-	arg_8_0:updateReflashTime()
 	arg_8_0:updateRoleLayer()
+	arg_8_0:updateReflashTime()
 end
 
 function var_0_0.updateReflashTime(arg_9_0)
-	if arg_9_0._delayReflashScoreTime and arg_9_0._delayReflashScoreTime > 0 then
+	if arg_9_0._delayReflashScoreTime and arg_9_0._delayReflashScoreTime >= 0 then
 		arg_9_0._delayReflashScoreTime = arg_9_0._delayReflashScoreTime - arg_9_0._deltaTime
 
 		if arg_9_0._delayReflashScoreTime <= 0 then
@@ -144,41 +145,64 @@ function var_0_0.reflashGridScore(arg_15_0)
 
 	arg_15_0._activeScoreCount = 0
 
-	local var_15_0 = arg_15_0._player:GetGridIndex()
-
 	for iter_15_0 = 1, #arg_15_0._grids do
-		local var_15_1 = arg_15_0._grids[iter_15_0]
-		local var_15_2 = var_15_1:GetIndex()
+		local var_15_0 = arg_15_0._grids[iter_15_0]
+		local var_15_1 = var_15_0:GetIndex()
 
-		if var_15_1:HasScore() then
-			if not table.contains(arg_15_0._ignoreScore, var_15_2) then
-				var_15_1:SetScoreFlag(true)
-
+		if var_15_0:HasScore() then
+			if not table.contains(arg_15_0._ignoreScore, var_15_1) then
 				arg_15_0._activeScoreCount = arg_15_0._activeScoreCount + 1
+
+				var_15_0:SetScoreFlag(true)
 			else
-				var_15_1:SetScoreFlag(false)
+				var_15_0:SetScoreFlag(false)
 			end
 		end
 	end
 end
 
 function var_0_0.udateScoreGrid(arg_16_0)
-	if arg_16_0._activeScoreCount <= 0 then
-		if not arg_16_0._delayReflashScoreTime then
-			arg_16_0._delayReflashScoreTime = 2
-		end
-
-		return
+	if arg_16_0._activeScoreCount <= 0 and not arg_16_0._delayReflashScoreTime then
+		arg_16_0._delayReflashScoreTime = 2
 	end
 
-	local var_16_0 = arg_16_0._player:GetGridIndex()
-	local var_16_1 = arg_16_0._gridDic[var_16_0]
+	if arg_16_0._delayCheckReflashCount == nil then
+		arg_16_0._delayCheckReflashCount = 10
+	end
 
-	if var_16_1 and var_16_1:GetScoreFlag() then
-		arg_16_0._event(PacGameScene.GET_SCORE, var_16_1:GetScore(), nil)
-		var_16_1:SetScoreFlag(false)
+	if arg_16_0._delayCheckReflashCount and not arg_16_0._delayReflashScoreTime then
+		arg_16_0._delayCheckReflashCount = arg_16_0._delayCheckReflashCount - arg_16_0._deltaTime
+
+		if arg_16_0._delayCheckReflashCount <= 0 then
+			arg_16_0._delayCheckReflashCount = nil
+
+			if arg_16_0._gridDic then
+				local var_16_0 = 0
+
+				for iter_16_0, iter_16_1 in pairs(arg_16_0._gridDic) do
+					if iter_16_1 and iter_16_1:GetScoreFlag() then
+						var_16_0 = var_16_0 + 1
+					end
+				end
+
+				if var_16_0 == 0 then
+					warning("吃完所有珠子，准备刷新")
+
+					arg_16_0._delayReflashScoreTime = 2
+				end
+			end
+		end
+	end
+
+	local var_16_1 = arg_16_0._player:GetGridIndex()
+	local var_16_2 = arg_16_0._gridDic[var_16_1]
+
+	if var_16_2 and var_16_2:GetScoreFlag() then
+		var_16_2:SetScoreFlag(false)
 
 		arg_16_0._activeScoreCount = arg_16_0._activeScoreCount - 1
+
+		arg_16_0._event(PacGameScene.GET_SCORE, var_16_2:GetScore(), nil)
 	end
 end
 

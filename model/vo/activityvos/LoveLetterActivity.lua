@@ -5,9 +5,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 end
 
 function var_0_0.GetDailyProgress(arg_2_0)
-	local var_2_0 = arg_2_0:getNDay()
-
-	return arg_2_0.data2, arg_2_0:getConfig("config_data")[2] * var_2_0
+	return arg_2_0.data2, arg_2_0:getConfig("config_data")[2] * arg_2_0:getNDay()
 end
 
 function var_0_0.AddDailyProgress(arg_3_0, arg_3_1)

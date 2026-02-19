@@ -1167,6 +1167,8 @@ function updateItem(arg_103_0, arg_103_1, arg_103_2)
 		var_103_1 = "frame_design"
 	elseif arg_103_1:getConfig("type") == 100 then
 		var_103_1 = "frame_dorm"
+	elseif arg_103_1.id == 44004 then
+		var_103_1 = "frame8_1"
 	elseif arg_103_2.frame then
 		var_103_1 = arg_103_2.frame
 	end
@@ -1655,6 +1657,11 @@ function setLoveLetterMedal(arg_127_0, arg_127_1, arg_127_2)
 		GetImageSpriteFromAtlasAsync("SquareIcon/" .. var_131_0, "", var_127_0:Find("mask/icon"))
 		setText(var_127_0:Find("front/mark/Text"), arg_127_1:GetDisplayLevelMark())
 		setActive(var_127_0:Find("pick_up"), arg_127_2 and arg_127_2.showPickUp)
+		setActive(var_127_0:Find("front/mark"), true)
+
+		if arg_127_2 and arg_127_2.hideMark then
+			setActive(var_127_0:Find("front/mark"), false)
+		end
 	end)
 end
 

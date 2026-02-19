@@ -146,7 +146,9 @@ function var_0_0.UpdateMedals(arg_15_0)
 			setActive(var_16_3, var_16_4)
 
 			if var_16_4 then
-				setLoveLetterMedal(var_16_3:Find("medal"), var_16_1)
+				setLoveLetterMedal(var_16_3:Find("medal"), var_16_1, {
+					hideMark = true
+				})
 			else
 				LoadImageSpriteAsync("medal/s_" .. var_16_1:getConfig("icon"), var_16_2, true)
 			end

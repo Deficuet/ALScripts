@@ -668,6 +668,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	arg_1_0.facade:registerCommand(GAME.GET_LOVE_LETTER_REWARD, GetLoveLetterLevelRewardCommand)
 	arg_1_0.facade:registerCommand(GAME.REALIZE_LOVE_LETTER_GIFT, RealizeLoveLetterGiftCommand)
 	arg_1_0.facade:registerCommand(GAME.REQUEST_LOVE_LETTER_TEXT, RequestLoveLetterContentCommand)
+	arg_1_0.facade:registerCommand(GAME.ACCEPT_LOVE_LETTER_MAIL, AcceptLoveLetterMailCommand)
 end
 
 return var_0_0

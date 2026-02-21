@@ -2296,7 +2296,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "ロイヤル陣営技術Pt<color=#92fc63>900</color>以上",
 		normal_display = "",
 		price = 6000,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60231
 		},
@@ -2700,7 +2700,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "アイリス陣営技術Pt<color=#92fc63>250</color>以上",
 		normal_display = "",
 		price = 6000,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60271
 		},
@@ -2882,7 +2882,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "重桜陣営技術Pt<color=#92fc63>900</color>以上",
 		normal_display = "",
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60291
 		},
@@ -2984,7 +2984,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "鉄血陣営技術Pt<color=#92fc63>850</color>以上",
 		normal_display = "",
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60301
 		},
@@ -3177,7 +3177,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "ヴィシア陣営技術Pt<color=#92fc63>180</color>以上、鉄血陣営技術Pt<color=#92fc63>800</color>以上",
 		normal_display = "",
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60320,
 			60321

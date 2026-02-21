@@ -3,13 +3,14 @@ pg.soundstory_template = {
 	{
 		story_pic = "",
 		name = "悠然の茶室",
-		story_resource_CN = "",
+		time = "always",
 		audition_resource_CN = "ss-50601-1",
 		CV_JP = "石見舞菜香",
 		audition_text = "今日は貸し切りにしてもらっています。せっかくなので、ゆっくりお休みになられてはいかがです？",
-		id = 1,
+		story_resource_CN = "",
 		ship_id = 50601,
 		audition_resource_JP = "ss-50601-2",
+		id = 1,
 		CV_CN = "",
 		overview = "静謐な二人の茶室。普段の疲れを癒やす膝枕だけでなく、ちょっと特別な方法も…",
 		captions_color = "#4a383e",
@@ -24,33 +25,6 @@ pg.soundstory_template = {
 			1,
 			15,
 			3
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					1,
-					23
-				},
-				{
-					12,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
@@ -481,9 +455,9 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2024,
-					4,
-					25
+					2026,
+					1,
+					22
 				},
 				{
 					12,
@@ -493,9 +467,9 @@ pg.soundstory_template = {
 			},
 			{
 				{
-					2024,
-					5,
-					1
+					2026,
+					1,
+					28
 				},
 				{
 					23,
@@ -1327,6 +1301,59 @@ pg.soundstory_template = {
 			}
 		}
 	},
+	{
+		story_pic = "",
+		name = "優しい安眠タイム",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "大木咲絵子",
+		audition_text = "このまま…ずっと隣で囁き続けて…",
+		id = 28,
+		ship_id = 40211,
+		audition_resource_JP = "ss-40211-1",
+		CV_CN = "",
+		overview = "疲労のあまり机に突っ伏して寝ていた指揮官。ぼんやりしている中でデュイスブルクが近づいてきたことに気づく……\n優しい声の中で、再び夢の中に旅立つ……",
+		captions_color = "#302c2c",
+		story_resource_JP = "soundStory28_JP",
+		order = 2,
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					1,
+					22
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1354,6 +1381,7 @@ pg.soundstory_template = {
 		24,
 		25,
 		26,
-		27
+		27,
+		28
 	}
 }

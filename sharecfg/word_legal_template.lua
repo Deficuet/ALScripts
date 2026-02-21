@@ -370,7 +370,20 @@ function temp()
 					エ = {
 						ー = {
 							レ = {
-								this = true
+								this = true,
+								["("] = {
+									M = {
+										E = {
+											T = {
+												A = {
+													[")"] = {
+														this = true
+													}
+												}
+											}
+										}
+									}
+								}
 							}
 						}
 					}
@@ -1173,6 +1186,29 @@ function temp()
 						}
 					}
 				},
+				チ = {
+					ェ = {
+						ス = {
+							コ = {
+								・ = {
+									カ = {
+										ラ = {
+											ッ = {
+												チ = {
+													ョ = {
+														ロ = {
+															this = true
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				},
 				ド = {
 					ル = {
 						this = true
@@ -1492,6 +1528,31 @@ function temp()
 			ゥ = {
 				ル = {
 					this = true
+				}
+			}
+		},
+		ゴ = {
+			リ = {
+				ー = {
+					ノ = {
+						・ = {
+							ヴ = {
+								ィ = {
+									ヴ = {
+										ァ = {
+											ル = {
+												デ = {
+													ィ = {
+														this = true
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		}
@@ -3472,6 +3533,33 @@ function temp()
 											ー = {
 												ニ = {
 													this = true
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			},
+			ベ = {
+				ル = {
+					ト = {
+						・ = {
+							デ = {
+								ィ = {
+									・ = {
+										ジ = {
+											ュ = {
+												ッ = {
+													サ = {
+														ー = {
+															ノ = {
+																this = true
+															}
+														}
+													}
 												}
 											}
 										}
@@ -6311,6 +6399,9 @@ function temp()
 		露 = {
 			this = true
 		},
+		鳳 = {
+			this = true
+		},
 		上 = {
 			フ = {
 				ブ = {
@@ -6638,6 +6729,9 @@ function temp()
 		無 = {
 			月 = {
 				this = true
+			},
+			瀬 = {
+				this = true
 			}
 		},
 		瀬 = {
@@ -6742,6 +6836,9 @@ function temp()
 			this = true
 		},
 		容 = {
+			this = true
+		},
+		籌 = {
 			this = true
 		},
 		伦 = {
@@ -7080,6 +7177,19 @@ end
 temp()
 
 function temp()
+	var_0_1.妙 = {
+		風 = {
+			this = true
+		},
+		高 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.五 = {
 		十 = {
 			鈴 = {
@@ -7304,16 +7414,6 @@ end
 temp()
 
 function temp()
-	var_0_1.妙 = {
-		高 = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
 	var_0_1.足 = {
 		柄 = {
 			this = true
@@ -7396,6 +7496,16 @@ temp()
 function temp()
 	var_0_1.雲 = {
 		仙 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.浅 = {
+		間 = {
 			this = true
 		}
 	}
@@ -7568,15 +7678,15 @@ function temp()
 				this = true
 			}
 		},
-		吹 = {
-			this = true
-		},
 		["4"] = {
 			["0"] = {
 				["4"] = {
 					this = true
 				}
 			}
+		},
+		吹 = {
+			this = true
 		},
 		丽 = {
 			莎 = {
@@ -7660,6 +7770,16 @@ temp()
 function temp()
 	var_0_1.駿 = {
 		河 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.近 = {
+		江 = {
 			this = true
 		}
 	}
@@ -8268,7 +8388,10 @@ temp()
 function temp()
 	var_0_1.応 = {
 		瑞 = {
-			this = true
+			this = true,
+			改 = {
+				this = true
+			}
 		}
 	}
 end
@@ -8278,7 +8401,10 @@ temp()
 function temp()
 	var_0_1.肇 = {
 		和 = {
-			this = true
+			this = true,
+			改 = {
+				this = true
+			}
 		}
 	}
 end
@@ -8297,6 +8423,16 @@ temp()
 
 function temp()
 	var_0_1.建 = {
+		武 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.彰 = {
 		武 = {
 			this = true
 		}
@@ -8541,6 +8677,19 @@ function temp()
 								[" "] = {
 									原 = {
 										皮 = {
+											） = {
+												this = true
+											}
+										}
+									}
+								}
+							}
+						},
+						圣 = {
+							座 = {
+								[" "] = {
+									前 = {
+										排 = {
 											） = {
 												this = true
 											}
@@ -8918,6 +9067,50 @@ function temp()
 		睦 = {
 			号 = {
 				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.基 = {
+		洛 = {
+			夫 = {
+				· = {
+					M = {
+						E = {
+							T = {
+								A = {
+									（ = {
+										后 = {
+											排 = {
+												） = {
+													this = true
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.拉 = {
+		菲 = {
+			I = {
+				I = {
+					this = true
+				}
 			}
 		}
 	}

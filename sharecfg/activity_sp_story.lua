@@ -6538,6 +6538,508 @@ pg.activity_sp_story = {
 			}
 		}
 	},
+	[371] = {
+		story_type = 1,
+		pre_event = "",
+		name = "EP5-2 実験場θ",
+		unlock_conditions = "",
+		change_prefab = "",
+		change_background = "star_level_bg_596",
+		story = "XIANGCHEYUTIANQIONGZHIYIN25",
+		change_bgm = "story-commander-up",
+		id = 371,
+		lock = ""
+	},
+	[372] = {
+		story_type = 1,
+		name = "EP6-1 仲間集う",
+		unlock_conditions = "EP5-2をクリア",
+		change_bgm = "battle-ucnf",
+		change_prefab = "",
+		change_background = "star_level_bg_306",
+		id = 372,
+		story = "XIANGCHEYUTIANQIONGZHIYIN26",
+		pre_event = {
+			371
+		},
+		lock = {
+			{
+				4,
+				371
+			},
+			{
+				3,
+				{
+					1,
+					610,
+					0
+				}
+			}
+		}
+	},
+	[373] = {
+		story_type = 1,
+		name = "EP6-2 火急の救援",
+		unlock_conditions = "EP6-1をクリア",
+		change_bgm = "theme-uc",
+		change_prefab = "",
+		change_background = "star_level_bg_306",
+		id = 373,
+		story = "XIANGCHEYUTIANQIONGZHIYIN27",
+		pre_event = {
+			372
+		},
+		lock = {
+			{
+				4,
+				372
+			},
+			{
+				3,
+				{
+					1,
+					610,
+					0
+				}
+			}
+		}
+	},
+	[374] = {
+		story_type = 1,
+		name = "EP6-3 各々の力",
+		unlock_conditions = "EP6-2をクリア",
+		change_bgm = "theme-marcopolo",
+		change_prefab = "juqing_heisewuqi",
+		change_background = "bg_tianqiong_cg5",
+		id = 374,
+		story = "XIANGCHEYUTIANQIONGZHIYIN28",
+		pre_event = {
+			373
+		},
+		lock = {
+			{
+				4,
+				373
+			},
+			{
+				3,
+				{
+					1,
+					610,
+					200
+				}
+			}
+		}
+	},
+	[375] = {
+		story_type = 1,
+		name = "EP6-4 謎の来援",
+		unlock_conditions = "EP6-3をクリア",
+		change_bgm = "story-antix-past",
+		change_prefab = "",
+		change_background = "bg_tianqiong_5",
+		id = 375,
+		story = "XIANGCHEYUTIANQIONGZHIYIN29",
+		pre_event = {
+			374
+		},
+		lock = {
+			{
+				4,
+				374
+			},
+			{
+				3,
+				{
+					1,
+					610,
+					200
+				}
+			}
+		}
+	},
+	[376] = {
+		story_type = 1,
+		name = "EP6-5 リセットプロトコル",
+		unlock_conditions = "EP6-4をクリア",
+		change_bgm = "story-commander-up",
+		change_prefab = "",
+		change_background = "bg_tianqiong_cg7",
+		id = 376,
+		story = "XIANGCHEYUTIANQIONGZHIYIN30",
+		pre_event = {
+			374
+		},
+		lock = {
+			{
+				4,
+				375
+			},
+			{
+				3,
+				{
+					1,
+					610,
+					200
+				}
+			}
+		}
+	},
+	[377] = {
+		story_type = 1,
+		name = "EP7-1 作戦開始",
+		unlock_conditions = "EP6-5をクリア",
+		change_bgm = "theme-starbeast",
+		change_prefab = "juqing_heisewuqi",
+		change_background = "bg_tianqiong_cg8",
+		id = 377,
+		story = "XIANGCHEYUTIANQIONGZHIYIN31",
+		pre_event = {
+			375,
+			376
+		},
+		lock = {
+			{
+				4,
+				376
+			},
+			{
+				3,
+				{
+					1,
+					610,
+					350
+				}
+			}
+		}
+	},
+	[378] = {
+		story_type = 2,
+		name = "EP7-2 ヨークタウンたちの戦い",
+		unlock_conditions = "EP7-1をクリア",
+		change_bgm = "theme-weimu",
+		change_prefab = "",
+		change_background = "star_level_bg_596",
+		id = 378,
+		story = "1996002",
+		pre_event = {
+			377
+		},
+		lock = {
+			{
+				4,
+				377
+			},
+			{
+				3,
+				{
+					1,
+					610,
+					350
+				}
+			}
+		}
+	},
+	[379] = {
+		story_type = 2,
+		name = "EP7-3 余燼の今",
+		unlock_conditions = "EP7-2をクリア",
+		change_bgm = "theme-frederick",
+		change_prefab = "",
+		change_background = "star_level_bg_596",
+		id = 379,
+		story = "1996003",
+		pre_event = {
+			377
+		},
+		lock = {
+			{
+				4,
+				378
+			},
+			{
+				3,
+				{
+					1,
+					610,
+					350
+				}
+			}
+		}
+	},
+	[380] = {
+		story_type = 2,
+		name = "EP7-4 特別計画艦",
+		unlock_conditions = "EP7-3をクリア",
+		change_bgm = "theme-brokenworld-sad",
+		change_prefab = "",
+		change_background = "star_level_bg_596",
+		id = 380,
+		story = "1996004",
+		pre_event = {
+			377
+		},
+		lock = {
+			{
+				4,
+				379
+			},
+			{
+				3,
+				{
+					1,
+					610,
+					350
+				}
+			}
+		}
+	},
+	[381] = {
+		story_type = 2,
+		name = "EP7-5 交錯する想い",
+		unlock_conditions = "EP7-4をクリア",
+		change_bgm = "story-dailyfuture-soft",
+		change_prefab = "juqing_heisewuqi",
+		change_background = "star_level_bg_596",
+		id = 381,
+		story = "1996005",
+		pre_event = {
+			378,
+			379,
+			380
+		},
+		lock = {
+			{
+				4,
+				380
+			},
+			{
+				3,
+				{
+					1,
+					610,
+					500
+				}
+			}
+		}
+	},
+	[382] = {
+		story_type = 2,
+		name = "EP7-6 あまり重要じゃないこと",
+		unlock_conditions = "EP7-5をクリア",
+		change_bgm = "battle-thechariotVII",
+		change_prefab = "",
+		change_background = "bg_tianqiong_5",
+		id = 382,
+		story = "1996006",
+		pre_event = {
+			381
+		},
+		lock = {
+			{
+				4,
+				381
+			},
+			{
+				3,
+				{
+					1,
+					610,
+					500
+				}
+			}
+		}
+	},
+	[383] = {
+		story_type = 2,
+		name = "EP7-7 ヴェールの中の戦い",
+		unlock_conditions = "EP7-6をクリア",
+		change_bgm = "story-weimu-link",
+		change_prefab = "",
+		change_background = "bg_tianqiong_cg11",
+		id = 383,
+		story = "1996007",
+		pre_event = {
+			381
+		},
+		lock = {
+			{
+				4,
+				382
+			},
+			{
+				3,
+				{
+					1,
+					610,
+					500
+				}
+			}
+		}
+	},
+	[384] = {
+		story_type = 1,
+		name = "EP8-1 天穹に響く音謡",
+		unlock_conditions = "EP7-7をクリア",
+		change_bgm = "theme-helena",
+		change_prefab = "juqing_heisewuqi",
+		change_background = "star_level_bg_594",
+		id = 384,
+		story = "XIANGCHEYUTIANQIONGZHIYIN38",
+		pre_event = {
+			382,
+			383
+		},
+		lock = {
+			{
+				4,
+				383
+			},
+			{
+				3,
+				{
+					1,
+					610,
+					650
+				}
+			}
+		}
+	},
+	[385] = {
+		story_type = 1,
+		name = "EP8-2 二回目の別れ",
+		unlock_conditions = "EP8-1をクリア",
+		change_bgm = "story-weimu-link",
+		change_prefab = "",
+		change_background = "bg_tianqiong_1",
+		id = 385,
+		story = "XIANGCHEYUTIANQIONGZHIYIN39",
+		pre_event = {
+			384
+		},
+		lock = {
+			{
+				4,
+				384
+			},
+			{
+				3,
+				{
+					1,
+					610,
+					650
+				}
+			}
+		}
+	},
+	[386] = {
+		story_type = 1,
+		name = "EP8-3 今、過去、未来",
+		unlock_conditions = "EP8-2をクリア",
+		change_bgm = "story-weimu-link",
+		change_prefab = "",
+		change_background = "bg_tianqiong_cg13",
+		id = 386,
+		story = "XIANGCHEYUTIANQIONGZHIYIN40",
+		pre_event = {
+			385
+		},
+		lock = {
+			{
+				4,
+				385
+			},
+			{
+				3,
+				{
+					1,
+					610,
+					650
+				}
+			}
+		}
+	},
+	[387] = {
+		story_type = 1,
+		name = "EX-1 逆位置のタワー",
+		unlock_conditions = "EP8-3をクリア",
+		change_bgm = "Battle-newwind",
+		change_prefab = "juqing_heisewuqi",
+		change_background = "bg_tianqiong_cg17",
+		id = 387,
+		story = "XIANGCHEYUTIANQIONGZHIYIN41",
+		pre_event = {
+			386
+		},
+		lock = {
+			{
+				4,
+				386
+			},
+			{
+				3,
+				{
+					1,
+					610,
+					1000
+				}
+			}
+		}
+	},
+	[388] = {
+		story_type = 1,
+		name = "EX-2 新しい時代",
+		unlock_conditions = "EX-1をクリア",
+		change_bgm = "battle-deepecho",
+		change_prefab = "",
+		change_background = "star_level_bg_544",
+		id = 388,
+		story = "XIANGCHEYUTIANQIONGZHIYIN42",
+		pre_event = {
+			387
+		},
+		lock = {
+			{
+				4,
+				387
+			},
+			{
+				3,
+				{
+					1,
+					610,
+					1000
+				}
+			}
+		}
+	},
+	[389] = {
+		story_type = 1,
+		name = "EX-3 さざなみ",
+		unlock_conditions = "EX-2をクリア",
+		change_bgm = "theme-weimu",
+		change_prefab = "",
+		change_background = "bg_tianqiong_1",
+		id = 389,
+		story = "XIANGCHEYUTIANQIONGZHIYIN43",
+		pre_event = {
+			388
+		},
+		lock = {
+			{
+				4,
+				388
+			},
+			{
+				3,
+				{
+					1,
+					610,
+					1000
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -6878,6 +7380,25 @@ pg.activity_sp_story = {
 		363,
 		364,
 		365,
-		366
+		366,
+		371,
+		372,
+		373,
+		374,
+		375,
+		376,
+		377,
+		378,
+		379,
+		380,
+		381,
+		382,
+		383,
+		384,
+		385,
+		386,
+		387,
+		388,
+		389
 	}
 }

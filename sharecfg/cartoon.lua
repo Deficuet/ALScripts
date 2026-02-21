@@ -2088,6 +2088,66 @@ pg.cartoon = {
 		resource = "348",
 		cartoon_id = 348
 	},
+	{
+		id = 349,
+		mark = 53,
+		resource = "349",
+		cartoon_id = 349
+	},
+	{
+		id = 350,
+		mark = 53,
+		resource = "350",
+		cartoon_id = 350
+	},
+	{
+		id = 351,
+		mark = 53,
+		resource = "351",
+		cartoon_id = 351
+	},
+	{
+		id = 352,
+		mark = 53,
+		resource = "352",
+		cartoon_id = 352
+	},
+	{
+		id = 353,
+		mark = 53,
+		resource = "353",
+		cartoon_id = 353
+	},
+	{
+		id = 354,
+		mark = 54,
+		resource = "354",
+		cartoon_id = 354
+	},
+	{
+		id = 355,
+		mark = 54,
+		resource = "355",
+		cartoon_id = 355
+	},
+	{
+		id = 356,
+		mark = 54,
+		resource = "356",
+		cartoon_id = 356
+	},
+	{
+		id = 357,
+		mark = 54,
+		resource = "357",
+		cartoon_id = 357
+	},
+	{
+		id = 358,
+		mark = 54,
+		resource = "358",
+		cartoon_id = 358
+	},
 	all = {
 		1,
 		2,
@@ -2436,6 +2496,16 @@ pg.cartoon = {
 		345,
 		346,
 		347,
-		348
+		348,
+		349,
+		350,
+		351,
+		352,
+		353,
+		354,
+		355,
+		356,
+		357,
+		358
 	}
 }

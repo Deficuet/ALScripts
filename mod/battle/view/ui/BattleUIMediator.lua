@@ -896,7 +896,7 @@ function var_0_7.registerNPCUnitEvent(arg_89_0, arg_89_1)
 
 	local var_89_0 = arg_89_1:GetTemplate().type
 
-	if table.contains(TeamType.SubShipType, var_89_0) then
+	if table.contains(ShipType.SubShipType, var_89_0) then
 		arg_89_1:RegisterEventListener(arg_89_0, var_0_2.SUBMARINE_DETECTED, arg_89_0.onSubmarineDetected)
 	end
 end
@@ -917,7 +917,7 @@ function var_0_7.unregisterNPCUnitEvent(arg_92_0, arg_92_1)
 
 	local var_92_0 = arg_92_1:GetTemplate().type
 
-	if table.contains(TeamType.SubShipType, var_92_0) then
+	if table.contains(ShipType.SubShipType, var_92_0) then
 		arg_92_1:UnregisterEventListener(arg_92_0, var_0_2.SUBMARINE_DETECTED)
 	end
 end

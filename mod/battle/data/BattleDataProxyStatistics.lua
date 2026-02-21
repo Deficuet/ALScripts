@@ -139,7 +139,7 @@ function var_0_0.CalcBattleScoreWhenDead(arg_12_0, arg_12_1)
 	local var_12_0 = arg_12_1:GetIFF()
 
 	if var_12_0 == var_0_4.FRIENDLY_CODE then
-		if not table.contains(TeamType.SubShipType, arg_12_1:GetTemplate().type) then
+		if not table.contains(ShipType.SubShipType, arg_12_1:GetTemplate().type) then
 			arg_12_0:DelScoreWhenPlayerDead(arg_12_1)
 		end
 	elseif var_12_0 == var_0_4.FOE_CODE then
@@ -584,10 +584,49 @@ function var_0_0.CalcAirFightScore(arg_45_0)
 	arg_45_0._statistics._battleScore = var_0_3.BattleScore.S
 end
 
-function var_0_0.AutoStatistics(arg_46_0, arg_46_1)
-	if not arg_46_0._statistics._autoInit then
-		arg_46_0._statistics._autoInit = not arg_46_1 and 1 or 0
+function var_0_0.AddScenarioSubStrikeBoss(arg_46_0, arg_46_1)
+	arg_46_0._statistics._scenarioSubStrikebossUnit = arg_46_1
+end
+
+function var_0_0.CalcScenarioSubStrikeScoreAtEnd(arg_47_0)
+	local var_47_0 = arg_47_0._statistics._scenarioSubStrikebossUnit
+
+	if not var_47_0 then
+		arg_47_0._statistics._bossHP = 1
+		arg_47_0._statistics._battleScore = var_0_3.BattleScore.C
+	elseif not var_47_0:IsAlive() then
+		arg_47_0._statistics._battleScore = var_0_3.BattleScore.S
+		arg_47_0._statistics._bossHP = 0
 	else
-		arg_46_0._statistics._autoCount = arg_46_0._statistics._autoCount + 1
+		local var_47_1 = var_47_0:GetHPRate()
+		local var_47_2 = arg_47_0._expeditionTmp.objective_2[2] * 0.01
+		local var_47_3 = arg_47_0._expeditionTmp.objective_3[2] * 0.01
+
+		if var_47_1 < var_47_2 then
+			arg_47_0._statistics._battleScore = var_0_3.BattleScore.A
+		elseif var_47_2 <= var_47_1 and var_47_1 < var_47_3 then
+			arg_47_0._statistics._battleScore = var_0_3.BattleScore.B
+		elseif var_47_3 <= var_47_1 then
+			arg_47_0._statistics._battleScore = var_0_3.BattleScore.C
+		end
+
+		arg_47_0._statistics._bossHP = var_47_1
+	end
+
+	local var_47_4 = 0
+
+	for iter_47_0, iter_47_1 in pairs(arg_47_0._statistics) do
+		if type(iter_47_1) == "table" and iter_47_1.id and iter_47_1.damage and var_47_4 < iter_47_1.damage then
+			var_47_4 = iter_47_1.damage
+			arg_47_0._statistics.mvpShipID = iter_47_1.id
+		end
+	end
+end
+
+function var_0_0.AutoStatistics(arg_48_0, arg_48_1)
+	if not arg_48_0._statistics._autoInit then
+		arg_48_0._statistics._autoInit = not arg_48_1 and 1 or 0
+	else
+		arg_48_0._statistics._autoCount = arg_48_0._statistics._autoCount + 1
 	end
 end

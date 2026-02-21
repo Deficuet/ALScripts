@@ -20,8 +20,17 @@ pg.weather_data_template = {
 			buff = 9620
 		}
 	},
+	[103] = {
+		buff_desc = "",
+		name = "迷雾",
+		buff_icon = "",
+		id = 103,
+		icon = "visible_fog",
+		effect_args = {}
+	},
 	all = {
 		101,
-		102
+		102,
+		103
 	}
 }

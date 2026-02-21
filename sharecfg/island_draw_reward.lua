@@ -360,6 +360,382 @@ pg.island_draw_reward = {
 		drop_id = 1012,
 		show = ""
 	},
+	[2001] = {
+		id = 2001,
+		rarity = 4,
+		drop_type = 44,
+		drop_num = 1,
+		drop_id = 30312,
+		show = "draw2_S_1"
+	},
+	[2002] = {
+		id = 2002,
+		rarity = 4,
+		drop_type = 44,
+		drop_num = 1,
+		drop_id = 10205,
+		show = "draw2_S_2"
+	},
+	[2003] = {
+		id = 2003,
+		rarity = 4,
+		drop_type = 44,
+		drop_num = 1,
+		drop_id = 49902,
+		show = "draw2_S_3"
+	},
+	[2004] = {
+		id = 2004,
+		rarity = 3,
+		drop_type = 46,
+		drop_num = 1,
+		drop_id = 1010009,
+		show = ""
+	},
+	[2005] = {
+		id = 2005,
+		rarity = 3,
+		drop_type = 46,
+		drop_num = 1,
+		drop_id = 1020008,
+		show = ""
+	},
+	[2006] = {
+		id = 2006,
+		rarity = 3,
+		drop_type = 46,
+		drop_num = 1,
+		drop_id = 1030008,
+		show = ""
+	},
+	[2007] = {
+		id = 2007,
+		rarity = 3,
+		drop_type = 46,
+		drop_num = 1,
+		drop_id = 1010010,
+		show = ""
+	},
+	[2008] = {
+		id = 2008,
+		rarity = 3,
+		drop_type = 46,
+		drop_num = 1,
+		drop_id = 1020009,
+		show = ""
+	},
+	[2009] = {
+		id = 2009,
+		rarity = 3,
+		drop_type = 46,
+		drop_num = 1,
+		drop_id = 1030009,
+		show = ""
+	},
+	[2010] = {
+		id = 2010,
+		rarity = 3,
+		drop_type = 46,
+		drop_num = 1,
+		drop_id = 1010008,
+		show = ""
+	},
+	[2011] = {
+		id = 2011,
+		rarity = 3,
+		drop_type = 46,
+		drop_num = 1,
+		drop_id = 1020007,
+		show = ""
+	},
+	[2012] = {
+		id = 2012,
+		rarity = 3,
+		drop_type = 46,
+		drop_num = 1,
+		drop_id = 1030007,
+		show = ""
+	},
+	[2013] = {
+		id = 2013,
+		rarity = 3,
+		drop_type = 46,
+		drop_num = 1,
+		drop_id = 1060007,
+		show = "draw2_A_1"
+	},
+	[2014] = {
+		id = 2014,
+		rarity = 3,
+		drop_type = 46,
+		drop_num = 1,
+		drop_id = 1060008,
+		show = "draw2_A_2"
+	},
+	[2015] = {
+		id = 2015,
+		rarity = 3,
+		drop_type = 46,
+		drop_num = 1,
+		drop_id = 1060009,
+		show = "draw2_A_3"
+	},
+	[2016] = {
+		id = 2016,
+		rarity = 2,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 30101,
+		show = "draw2_B_1"
+	},
+	[2017] = {
+		id = 2017,
+		rarity = 2,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 30201,
+		show = ""
+	},
+	[2018] = {
+		id = 2018,
+		rarity = 2,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 30301,
+		show = ""
+	},
+	[2019] = {
+		id = 2019,
+		rarity = 2,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 30401,
+		show = ""
+	},
+	[2020] = {
+		id = 2020,
+		rarity = 2,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 30402,
+		show = ""
+	},
+	[2021] = {
+		id = 2021,
+		rarity = 2,
+		drop_type = 51,
+		drop_num = 1,
+		drop_id = 1018,
+		show = ""
+	},
+	[2022] = {
+		id = 2022,
+		rarity = 2,
+		drop_type = 51,
+		drop_num = 1,
+		drop_id = 2003,
+		show = ""
+	},
+	[2023] = {
+		id = 2023,
+		rarity = 2,
+		drop_type = 51,
+		drop_num = 1,
+		drop_id = 2004,
+		show = ""
+	},
+	[2024] = {
+		id = 2024,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 30302,
+		show = "draw2_C_1"
+	},
+	[2025] = {
+		id = 2025,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 30406,
+		show = ""
+	},
+	[2026] = {
+		id = 2026,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 30403,
+		show = ""
+	},
+	[2027] = {
+		id = 2027,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 30002,
+		show = ""
+	},
+	[2028] = {
+		id = 2028,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 30408,
+		show = ""
+	},
+	[2029] = {
+		id = 2029,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 30409,
+		show = ""
+	},
+	[2030] = {
+		id = 2030,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 30410,
+		show = ""
+	},
+	[2031] = {
+		id = 2031,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 30411,
+		show = ""
+	},
+	[2032] = {
+		id = 2032,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 30412,
+		show = ""
+	},
+	[2033] = {
+		id = 2033,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 30305,
+		show = ""
+	},
+	[2034] = {
+		id = 2034,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 30413,
+		show = ""
+	},
+	[2035] = {
+		id = 2035,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 30304,
+		show = ""
+	},
+	[2036] = {
+		id = 2036,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 30404,
+		show = ""
+	},
+	[2037] = {
+		id = 2037,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 30414,
+		show = ""
+	},
+	[2038] = {
+		id = 2038,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 30405,
+		show = ""
+	},
+	[2039] = {
+		id = 2039,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 30004,
+		show = ""
+	},
+	[2040] = {
+		id = 2040,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 30303,
+		show = ""
+	},
+	[2041] = {
+		id = 2041,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 30407,
+		show = ""
+	},
+	[2042] = {
+		id = 2042,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 30415,
+		show = ""
+	},
+	[2043] = {
+		id = 2043,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 30416,
+		show = ""
+	},
+	[2044] = {
+		id = 2044,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 30803,
+		show = ""
+	},
+	[2045] = {
+		id = 2045,
+		rarity = 1,
+		drop_type = 47,
+		drop_num = 1,
+		drop_id = 4990201,
+		show = "draw2_T_1"
+	},
+	[2046] = {
+		id = 2046,
+		rarity = 1,
+		drop_type = 47,
+		drop_num = 1,
+		drop_id = 1020501,
+		show = "draw2_T_2"
+	},
+	[2047] = {
+		id = 2047,
+		rarity = 1,
+		drop_type = 47,
+		drop_num = 1,
+		drop_id = 3031201,
+		show = "draw2_T_3"
+	},
 	all = {
 		1001,
 		1002,
@@ -405,6 +781,53 @@ pg.island_draw_reward = {
 		1042,
 		1043,
 		1044,
-		1045
+		1045,
+		2001,
+		2002,
+		2003,
+		2004,
+		2005,
+		2006,
+		2007,
+		2008,
+		2009,
+		2010,
+		2011,
+		2012,
+		2013,
+		2014,
+		2015,
+		2016,
+		2017,
+		2018,
+		2019,
+		2020,
+		2021,
+		2022,
+		2023,
+		2024,
+		2025,
+		2026,
+		2027,
+		2028,
+		2029,
+		2030,
+		2031,
+		2032,
+		2033,
+		2034,
+		2035,
+		2036,
+		2037,
+		2038,
+		2039,
+		2040,
+		2041,
+		2042,
+		2043,
+		2044,
+		2045,
+		2046,
+		2047
 	}
 }

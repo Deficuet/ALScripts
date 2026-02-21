@@ -198,4 +198,74 @@ function var_0_0.Exit(arg_4_0, arg_4_1)
 	arg_4_1:SendRequest(var_4_14, var_4_15)
 end
 
+function var_0_0.GetPreloadList(arg_7_0)
+	local var_7_0 = {}
+	local var_7_1 = {}
+	local var_7_2
+	local var_7_3 = ys.Battle.BattleResourceManager.GetInstance()
+	local var_7_4 = getProxy(FleetProxy)
+	local var_7_5 = getProxy(BayProxy)
+	local var_7_6 = var_7_4:getActivityFleets()[arg_7_0.actId]
+	local var_7_7 = var_7_6[arg_7_0.mainFleetId]
+
+	if var_7_7 then
+		local var_7_8 = var_7_7.ships
+
+		for iter_7_0, iter_7_1 in ipairs(var_7_8) do
+			table.insert(var_7_0, var_7_5:getShipById(iter_7_1))
+		end
+
+		local var_7_9 = var_7_7:buildBattleBuffList()
+
+		for iter_7_2, iter_7_3 in ipairs(var_7_9) do
+			table.insert(var_7_1, iter_7_3)
+		end
+	end
+
+	local var_7_10 = var_7_6[arg_7_0.mainFleetId + Fleet.MEGA_SUBMARINE_FLEET_OFFSET]
+
+	if var_7_10 then
+		local var_7_11 = var_7_10:getTeamByName(TeamType.Submarine)
+
+		for iter_7_4, iter_7_5 in ipairs(var_7_11) do
+			table.insert(var_7_0, var_7_5:getShipById(iter_7_5))
+		end
+
+		local var_7_12 = var_7_10:buildBattleBuffList()
+
+		for iter_7_6, iter_7_7 in ipairs(var_7_12) do
+			table.insert(var_7_1, iter_7_7)
+		end
+	end
+
+	local var_7_13, var_7_14 = var_7_3.GetPlayerShipResource(var_7_0, arg_7_0.system)
+	local var_7_15 = getProxy(ActivityProxy):getActivityById(arg_7_0.actId)
+	local var_7_16 = var_7_3.GetResFromBuffIDList(var_7_15:GetBuffIdsByStageId(arg_7_0.stageId))
+
+	for iter_7_8, iter_7_9 in ipairs(var_7_16) do
+		table.insert(var_7_13, iter_7_9)
+	end
+
+	local var_7_17 = pg.strategy_data_template
+	local var_7_18 = {}
+
+	for iter_7_10, iter_7_11 in ipairs(arg_7_0.variableBuffList) do
+		table.insert(var_7_18, var_7_17[iter_7_11].buff_id)
+	end
+
+	local var_7_19 = var_7_3.GetResFromBuffIDList(var_7_18)
+
+	for iter_7_12, iter_7_13 in ipairs(var_7_19) do
+		table.insert(var_7_13, iter_7_13)
+	end
+
+	local var_7_20 = var_7_3.GetCommanderBuffRes(var_7_1)
+
+	for iter_7_14, iter_7_15 in ipairs(var_7_20) do
+		table.insert(var_7_13, iter_7_15)
+	end
+
+	return var_7_13, var_7_14
+end
+
 return var_0_0

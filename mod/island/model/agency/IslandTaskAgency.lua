@@ -314,7 +314,7 @@ function var_0_0.AddFinishId(arg_36_0, arg_36_1)
 		arg_36_0.finishedDailyCntInWeek = arg_36_0.finishedDailyCntInWeek + 1
 	end
 
-	arg_36_0:DispatchEvent(var_0_0.TASK_FINISH)
+	arg_36_0:DispatchEvent(var_0_0.TASK_FINISH, arg_36_1)
 end
 
 function var_0_0.RemoveTask(arg_37_0, arg_37_1)

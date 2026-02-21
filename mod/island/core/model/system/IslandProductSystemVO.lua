@@ -37,9 +37,8 @@ end
 
 function var_0_0.InitCommissionEffectCfg(arg_6_0)
 	local var_6_0 = pg.island_set.island_fishery_bubble_vfx
-	local var_6_1 = var_6_0 and var_6_0.key_value_varchar or {}
 
-	for iter_6_0, iter_6_1 in ipairs(var_6_1) do
+	for iter_6_0, iter_6_1 in ipairs(var_6_0.key_value_varchar) do
 		arg_6_0.commissionEffectDic[iter_6_1[1]] = iter_6_1[2]
 	end
 end
@@ -88,6 +87,7 @@ function var_0_0.GetUnitDatas(arg_9_0)
 	arg_9_0:GenHandCollectSlot(var_9_0)
 	arg_9_0:GenHandPlantSlot(var_9_0)
 	arg_9_0:GenAnimalBySlot(var_9_0)
+	arg_9_0:GenPlaceModelUnit(var_9_0)
 	arg_9_0:GenPlaceSlotModelUnit(var_9_0)
 
 	return var_9_0

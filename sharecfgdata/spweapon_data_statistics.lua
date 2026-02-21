@@ -38157,3 +38157,699 @@ end)()
 	}
 end)()
 
+(function()
+	_G.pg.base.spweapon_data_statistics[14980] = {
+		tech = 0,
+		name = "クロウ＆リボン",
+		value_2_random = 5,
+		type = 2,
+		value_1_random = 5,
+		value_1 = 20,
+		effect_id_display = 902370,
+		level = 1,
+		descrip = "特殊装備コアで製造できる艦船の専用兵装",
+		uncraftable = 0,
+		next = 14981,
+		upgrade_id = 101,
+		value_2 = 20,
+		icon = "14980",
+		effect_id = 902370,
+		attribute_2 = "torpedo",
+		id = 14980,
+		rarity = 4,
+		unique = 40206,
+		important = 2,
+		prev = 0,
+		attribute_1 = "cannon",
+		usability = {
+			2
+		},
+		skill_upgrade = {
+			{
+				0,
+				1014990
+			}
+		},
+		hide_buff_upgrade = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14981] = {
+		prev = 14980,
+		base = 14980,
+		next = 14982,
+		upgrade_id = 102,
+		id = 14981,
+		value_2 = 21,
+		value_1 = 21,
+		level = 2
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14982] = {
+		prev = 14981,
+		base = 14980,
+		next = 14983,
+		upgrade_id = 103,
+		id = 14982,
+		value_2 = 22,
+		value_1 = 22,
+		level = 3
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14983] = {
+		prev = 14982,
+		base = 14980,
+		next = 14984,
+		upgrade_id = 104,
+		id = 14983,
+		value_2 = 23,
+		value_1 = 23,
+		level = 4
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14984] = {
+		prev = 14983,
+		base = 14980,
+		next = 14985,
+		upgrade_id = 105,
+		id = 14984,
+		value_2 = 24,
+		value_1 = 24,
+		level = 5
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14985] = {
+		prev = 14984,
+		base = 14980,
+		next = 14986,
+		upgrade_id = 106,
+		id = 14985,
+		value_2 = 25,
+		value_1 = 25,
+		level = 6
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14986] = {
+		prev = 14985,
+		base = 14980,
+		next = 14987,
+		upgrade_id = 107,
+		id = 14986,
+		value_2 = 26,
+		value_1 = 26,
+		level = 7
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14987] = {
+		prev = 14986,
+		base = 14980,
+		next = 14988,
+		upgrade_id = 108,
+		id = 14987,
+		value_2 = 27,
+		value_1 = 27,
+		level = 8
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14988] = {
+		prev = 14987,
+		base = 14980,
+		next = 14989,
+		upgrade_id = 109,
+		id = 14988,
+		value_2 = 28,
+		value_1 = 28,
+		level = 9
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14989] = {
+		prev = 14988,
+		base = 14980,
+		next = 14990,
+		upgrade_id = 110,
+		id = 14989,
+		value_2 = 29,
+		value_1 = 29,
+		level = 10
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14990] = {
+		base = 14980,
+		prev = 14989,
+		next = 0,
+		upgrade_id = 111,
+		id = 14990,
+		value_2 = 30,
+		value_1 = 30,
+		level = 11,
+		skill_upgrade = {
+			{
+				14990,
+				1014990
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15000] = {
+		tech = 0,
+		name = "誓約された騎士の剣",
+		value_2_random = 5,
+		type = 6,
+		value_1_random = 5,
+		value_1 = 20,
+		effect_id_display = 902030,
+		level = 1,
+		descrip = "特殊装備コアで製造できる艦船の専用兵装",
+		uncraftable = 0,
+		next = 15001,
+		upgrade_id = 101,
+		value_2 = 5,
+		icon = "15000",
+		effect_id = 902030,
+		attribute_2 = "hit",
+		id = 15000,
+		rarity = 4,
+		unique = 20401,
+		important = 2,
+		prev = 0,
+		attribute_1 = "cannon",
+		usability = {
+			4
+		},
+		skill_upgrade = {
+			{
+				0,
+				1010270
+			}
+		},
+		hide_buff_upgrade = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15001] = {
+		prev = 15000,
+		base = 15000,
+		next = 15002,
+		upgrade_id = 102,
+		id = 15001,
+		value_2 = 6,
+		value_1 = 21,
+		level = 2
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15002] = {
+		prev = 15001,
+		base = 15000,
+		next = 15003,
+		upgrade_id = 103,
+		id = 15002,
+		value_2 = 7,
+		value_1 = 22,
+		level = 3
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15003] = {
+		prev = 15002,
+		base = 15000,
+		next = 15004,
+		upgrade_id = 104,
+		id = 15003,
+		value_2 = 8,
+		value_1 = 23,
+		level = 4
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15004] = {
+		prev = 15003,
+		base = 15000,
+		next = 15005,
+		upgrade_id = 105,
+		id = 15004,
+		value_2 = 9,
+		value_1 = 24,
+		level = 5
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15005] = {
+		prev = 15004,
+		base = 15000,
+		next = 15006,
+		upgrade_id = 106,
+		id = 15005,
+		value_2 = 10,
+		value_1 = 25,
+		level = 6
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15006] = {
+		prev = 15005,
+		base = 15000,
+		next = 15007,
+		upgrade_id = 107,
+		id = 15006,
+		value_2 = 11,
+		value_1 = 26,
+		level = 7
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15007] = {
+		prev = 15006,
+		base = 15000,
+		next = 15008,
+		upgrade_id = 108,
+		id = 15007,
+		value_2 = 12,
+		value_1 = 27,
+		level = 8
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15008] = {
+		prev = 15007,
+		base = 15000,
+		next = 15009,
+		upgrade_id = 109,
+		id = 15008,
+		value_2 = 13,
+		value_1 = 28,
+		level = 9
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15009] = {
+		prev = 15008,
+		base = 15000,
+		next = 15010,
+		upgrade_id = 110,
+		id = 15009,
+		value_2 = 14,
+		value_1 = 29,
+		level = 10
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15010] = {
+		base = 15000,
+		prev = 15009,
+		next = 0,
+		upgrade_id = 111,
+		id = 15010,
+		value_2 = 15,
+		value_1 = 30,
+		level = 11,
+		skill_upgrade = {
+			{
+				10270,
+				1010270
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15020] = {
+		tech = 0,
+		name = "ジョージアビーム！",
+		value_2_random = 5,
+		type = 6,
+		value_1_random = 5,
+		value_1 = 20,
+		effect_id_display = 902030,
+		level = 1,
+		descrip = "特殊装備コアで製造できる艦船の専用兵装",
+		uncraftable = 0,
+		next = 15021,
+		upgrade_id = 101,
+		value_2 = 5,
+		icon = "15020",
+		effect_id = 902030,
+		attribute_2 = "hit",
+		id = 15020,
+		rarity = 4,
+		unique = 19902,
+		important = 2,
+		prev = 0,
+		attribute_1 = "cannon",
+		usability = {
+			5
+		},
+		skill_upgrade = {
+			{
+				0,
+				1019160
+			}
+		},
+		hide_buff_upgrade = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15021] = {
+		prev = 15020,
+		base = 15020,
+		next = 15022,
+		upgrade_id = 102,
+		id = 15021,
+		value_2 = 6,
+		value_1 = 21,
+		level = 2
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15022] = {
+		prev = 15021,
+		base = 15020,
+		next = 15023,
+		upgrade_id = 103,
+		id = 15022,
+		value_2 = 7,
+		value_1 = 22,
+		level = 3
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15023] = {
+		prev = 15022,
+		base = 15020,
+		next = 15024,
+		upgrade_id = 104,
+		id = 15023,
+		value_2 = 8,
+		value_1 = 23,
+		level = 4
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15024] = {
+		prev = 15023,
+		base = 15020,
+		next = 15025,
+		upgrade_id = 105,
+		id = 15024,
+		value_2 = 9,
+		value_1 = 24,
+		level = 5
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15025] = {
+		prev = 15024,
+		base = 15020,
+		next = 15026,
+		upgrade_id = 106,
+		id = 15025,
+		value_2 = 10,
+		value_1 = 25,
+		level = 6
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15026] = {
+		prev = 15025,
+		base = 15020,
+		next = 15027,
+		upgrade_id = 107,
+		id = 15026,
+		value_2 = 11,
+		value_1 = 26,
+		level = 7
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15027] = {
+		prev = 15026,
+		base = 15020,
+		next = 15028,
+		upgrade_id = 108,
+		id = 15027,
+		value_2 = 12,
+		value_1 = 27,
+		level = 8
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15028] = {
+		prev = 15027,
+		base = 15020,
+		next = 15029,
+		upgrade_id = 109,
+		id = 15028,
+		value_2 = 13,
+		value_1 = 28,
+		level = 9
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15029] = {
+		prev = 15028,
+		base = 15020,
+		next = 15030,
+		upgrade_id = 110,
+		id = 15029,
+		value_2 = 14,
+		value_1 = 29,
+		level = 10
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15030] = {
+		base = 15020,
+		prev = 15029,
+		next = 0,
+		upgrade_id = 111,
+		id = 15030,
+		value_2 = 15,
+		value_1 = 30,
+		level = 11,
+		skill_upgrade = {
+			{
+				19160,
+				1019160
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15040] = {
+		tech = 0,
+		name = "白雪雪見兎",
+		value_2_random = 5,
+		type = 1,
+		value_1_random = 10,
+		value_1 = 13,
+		effect_id_display = 902300,
+		level = 1,
+		descrip = "特殊装備コアで製造できる艦船の専用兵装",
+		uncraftable = 0,
+		next = 15041,
+		upgrade_id = 101,
+		value_2 = 1,
+		icon = "15040",
+		effect_id = 902300,
+		attribute_2 = "dodge",
+		id = 15040,
+		rarity = 4,
+		unique = 30102,
+		important = 2,
+		prev = 0,
+		attribute_1 = "torpedo",
+		usability = {
+			1
+		},
+		skill_upgrade = {
+			{
+				0,
+				1014660
+			}
+		},
+		hide_buff_upgrade = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15041] = {
+		prev = 15040,
+		base = 15040,
+		next = 15042,
+		upgrade_id = 102,
+		id = 15041,
+		value_2 = 1,
+		value_1 = 14,
+		level = 2
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15042] = {
+		prev = 15041,
+		base = 15040,
+		next = 15043,
+		upgrade_id = 103,
+		id = 15042,
+		value_2 = 2,
+		value_1 = 15,
+		level = 3
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15043] = {
+		prev = 15042,
+		base = 15040,
+		next = 15044,
+		upgrade_id = 104,
+		id = 15043,
+		value_2 = 3,
+		value_1 = 16,
+		level = 4
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15044] = {
+		prev = 15043,
+		base = 15040,
+		next = 15045,
+		upgrade_id = 105,
+		id = 15044,
+		value_2 = 4,
+		value_1 = 17,
+		level = 5
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15045] = {
+		prev = 15044,
+		base = 15040,
+		next = 15046,
+		upgrade_id = 106,
+		id = 15045,
+		value_2 = 5,
+		value_1 = 18,
+		level = 6
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15046] = {
+		prev = 15045,
+		base = 15040,
+		next = 15047,
+		upgrade_id = 107,
+		id = 15046,
+		value_2 = 6,
+		value_1 = 19,
+		level = 7
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15047] = {
+		prev = 15046,
+		base = 15040,
+		next = 15048,
+		upgrade_id = 108,
+		id = 15047,
+		value_2 = 7,
+		value_1 = 20,
+		level = 8
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15048] = {
+		prev = 15047,
+		base = 15040,
+		next = 15049,
+		upgrade_id = 109,
+		id = 15048,
+		value_2 = 8,
+		value_1 = 21,
+		level = 9
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15049] = {
+		prev = 15048,
+		base = 15040,
+		next = 15050,
+		upgrade_id = 110,
+		id = 15049,
+		value_2 = 9,
+		value_1 = 23,
+		level = 10
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15050] = {
+		base = 15040,
+		prev = 15049,
+		next = 0,
+		upgrade_id = 111,
+		id = 15050,
+		value_2 = 10,
+		value_1 = 25,
+		level = 11,
+		skill_upgrade = {
+			{
+				14660,
+				1014660
+			}
+		}
+	}
+end)()
+

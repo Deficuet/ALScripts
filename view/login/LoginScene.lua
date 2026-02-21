@@ -329,7 +329,7 @@ end
 
 function var_0_0.setUserData(arg_22_0, arg_22_1)
 	setActive(arg_22_0.airiUidTxt, true)
-	setText(arg_22_0.airiUidTxt, "uid: " .. arg_22_1.arg2)
+	setText(arg_22_0.airiUidTxt, "SDKUID: " .. arg_22_1.arg2)
 end
 
 function var_0_0.showUserAgreement(arg_23_0, arg_23_1)

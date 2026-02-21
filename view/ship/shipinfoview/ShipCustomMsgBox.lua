@@ -114,6 +114,7 @@ end
 function var_0_0.hideCustomMsgBox(arg_9_0)
 	arg_9_0.isShowCustomMsgBox = nil
 
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_9_0.customMsgbox, arg_9_0._tf)
 	SetActive(arg_9_0.customMsgbox, false)
 end
 

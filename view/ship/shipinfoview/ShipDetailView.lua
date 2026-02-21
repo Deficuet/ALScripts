@@ -494,7 +494,7 @@ function var_0_0.UpdateDetail(arg_42_0, arg_42_1)
 
 	removeOnButton(var_42_0)
 
-	if table.contains(TeamType.SubShipType, arg_42_1:getShipType()) then
+	if table.contains(ShipType.SubShipType, arg_42_1:getShipType()) then
 		onButton(arg_42_0, var_42_0, function()
 			arg_42_0:emit(ShipViewConst.DISPLAY_HUNTING_RANGE, true)
 		end, SFX_PANEL)

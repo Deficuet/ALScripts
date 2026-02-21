@@ -492,6 +492,11 @@ function var_0_0.ShowDrawAwardWindow(arg_37_0, arg_37_1)
 		quickPlayAnimation(arg_37_0.rtDisplayPanel:Find("page"), "anim_IslandDrawAwardPage_page_in")
 		parallelAsync(var_58_0, arg_58_0)
 	end)
+	table.insert(var_37_3, function(arg_63_0)
+		LeanTween.delayedCall(0.5, System.Action(function()
+			arg_63_0()
+		end))
+	end)
 	seriesAsync(var_37_3, function()
 		if arg_37_0._state == var_0_0.STATES.DESTROY then
 			return
@@ -503,50 +508,50 @@ function var_0_0.ShowDrawAwardWindow(arg_37_0, arg_37_1)
 	end)
 end
 
-function var_0_0.HideDrawAwardWindow(arg_64_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_64_0.rtDisplayPanel, arg_64_0._tf)
-	setActive(arg_64_0.rtDisplayPanel, false)
-	eachChild(arg_64_0.rtDisplayPanel:Find("window"), function(arg_65_0, arg_65_1)
-		eachChild(arg_65_0:Find("container"), function(arg_66_0, arg_66_1)
-			LeanTween.cancel(arg_66_0.gameObject)
+function var_0_0.HideDrawAwardWindow(arg_66_0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_66_0.rtDisplayPanel, arg_66_0._tf)
+	setActive(arg_66_0.rtDisplayPanel, false)
+	eachChild(arg_66_0.rtDisplayPanel:Find("window"), function(arg_67_0, arg_67_1)
+		eachChild(arg_67_0:Find("container"), function(arg_68_0, arg_68_1)
+			LeanTween.cancel(arg_68_0.gameObject)
 		end)
 	end)
 end
 
-function var_0_0.Hide(arg_67_0)
-	if isActive(arg_67_0.rtDisplayPanel) then
-		arg_67_0:HideDrawAwardWindow()
+function var_0_0.Hide(arg_69_0)
+	if isActive(arg_69_0.rtDisplayPanel) then
+		arg_69_0:HideDrawAwardWindow()
 	end
 
-	var_0_0.super.Hide(arg_67_0)
+	var_0_0.super.Hide(arg_69_0)
 end
 
-function var_0_0.OnDestroy(arg_68_0)
-	arg_68_0:Hide()
+function var_0_0.OnDestroy(arg_70_0)
+	arg_70_0:Hide()
 
-	for iter_68_0, iter_68_1 in pairs(arg_68_0.bannerRectDic) do
-		iter_68_1:Dispose()
+	for iter_70_0, iter_70_1 in pairs(arg_70_0.bannerRectDic) do
+		iter_70_1:Dispose()
 	end
 
-	arg_68_0.bannerRectDic = nil
+	arg_70_0.bannerRectDic = nil
 end
 
-function var_0_0.ShowDropInfo(arg_69_0, arg_69_1)
-	switch(arg_69_0.type, {
+function var_0_0.ShowDropInfo(arg_71_0, arg_71_1)
+	switch(arg_71_0.type, {
 		[DROP_TYPE_ISLAND_INVITATION] = function()
-			GetImageSpriteFromAtlasAsync("island/IslandCharIcon/" .. arg_69_0:getConfig("chara_pic"), "", arg_69_1, true)
+			GetImageSpriteFromAtlasAsync("island/IslandCharIcon/" .. arg_71_0:getConfig("chara_pic"), "", arg_71_1, true)
 		end,
 		[DROP_TYPE_ISLAND_FURNITURE] = function()
-			GetImageSpriteFromAtlasAsync("Island/IslandFurnitureIcon/" .. arg_69_0:getConfig("icon"), "", arg_69_1, true)
+			GetImageSpriteFromAtlasAsync("Island/IslandFurnitureIcon/" .. arg_71_0:getConfig("icon"), "", arg_71_1, true)
 		end,
 		[DROP_TYPE_ISLAND_DRESS] = function()
-			GetImageSpriteFromAtlasAsync("island/IslandDressIcon/" .. arg_69_0:getConfig("icon"), "", arg_69_1, true)
+			GetImageSpriteFromAtlasAsync("island/IslandDressIcon/" .. arg_71_0:getConfig("icon"), "", arg_71_1, true)
 		end,
 		[DROP_TYPE_ISLAND_SKIN] = function()
-			GetImageSpriteFromAtlasAsync("island/IslandDressIcon/" .. arg_69_0:getConfig("icon"), "", arg_69_1, true)
+			GetImageSpriteFromAtlasAsync("island/IslandDressIcon/" .. arg_71_0:getConfig("icon"), "", arg_71_1, true)
 		end,
 		[DROP_TYPE_ISLAND_ACTION] = function()
-			GetImageSpriteFromAtlasAsync("Island/IslandActionIcon/" .. arg_69_0:getConfig("resource"), "", arg_69_1, true)
+			GetImageSpriteFromAtlasAsync("Island/IslandActionIcon/" .. arg_71_0:getConfig("resource"), "", arg_71_1, true)
 		end
 	})
 end

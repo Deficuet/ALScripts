@@ -37,7 +37,13 @@ function var_0_0.StartEggCellView(arg_2_0, arg_2_1, arg_2_2)
 
 	var_0_0.ClearExtraEffects(arg_2_0)
 	var_0_0.LoadExtraEffects(arg_2_0, arg_2_1.effect_prefab)
-	arg_2_0:GetLoader():GetSprite("enemies/" .. arg_2_1.icon, "", arg_2_0.tfIcon)
+
+	if defaultValue(arg_2_0.visible, true) then
+		arg_2_0:GetLoader():GetSprite("enemies/" .. arg_2_1.icon, "", arg_2_0.tfIcon)
+	else
+		arg_2_0:GetLoader():GetSprite("enemies/fogsrqz", "", arg_2_0.tfIcon)
+	end
+
 	setText(arg_2_0.textLV, arg_2_1.level)
 	existCall(arg_2_2)
 end

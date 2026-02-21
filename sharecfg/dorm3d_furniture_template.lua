@@ -893,6 +893,42 @@ pg.dorm3d_furniture_template = {
 			"fbx/no_bake_pay_prop/livingroom"
 		}
 	},
+	[324] = {
+		name = "ピュアランド",
+		rarity = 5,
+		is_special = 1,
+		type = 4,
+		icon = "dorm3dIcon/3Ddrom_ankeleiqi_PremiumFurniture9",
+		room_id = 3,
+		desc = "ふわふわのハートクッションに、キラキラのおもちゃランプ。オーシャンブルーの夢を彩ったピュアランドへようこそ",
+		acesses = "",
+		model = "Pay_Anchoragehostel/Ah_Sp_ValentinesDay/pre_db_aklq_sp_vd01",
+		id = 324,
+		is_exclusive = 1,
+		target_slots = {
+			130103
+		},
+		touch_id = {
+			{
+				19903,
+				1990370
+			}
+		},
+		shop_id = {
+			270304
+		},
+		unlock_tips = {
+			8
+		},
+		unlock_banners = {
+			"banner_furniture324"
+		},
+		scene_hides = {
+			"fbx/no_bake_pay_prop/bedroom",
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01",
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01_night"
+		}
+	},
 	[1101] = {
 		name = "うさうさクレイドル",
 		rarity = 3,
@@ -1178,6 +1214,38 @@ pg.dorm3d_furniture_template = {
 			"no_bake_pay_prop/bedroom"
 		}
 	},
+	[1154] = {
+		name = "スマート冷蔵庫IB-7",
+		rarity = 4,
+		is_special = 0,
+		type = 6,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_PremiumFurniture3",
+		room_id = 11,
+		desc = "こんにちは。スマート冷蔵庫IB-7へようこそ。\nご注文のイチゴアイスクリームが完成しました。あなたの一番好きなフレーバーです。\n……さらなる個別提案をご希望ですか？現在その機能は開発中です。お楽しみに！",
+		acesses = "",
+		model = "Pay_Newjerseyhostel/pre_db_njh_kitchen01",
+		id = 1154,
+		is_exclusive = 1,
+		scene_hides = "",
+		target_slots = {
+			1110204
+		},
+		touch_id = {
+			{
+				10517,
+				1051780
+			}
+		},
+		shop_id = {
+			270206
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1154"
+		}
+	},
 	[1201] = {
 		name = "ふんわりベッド",
 		rarity = 3,
@@ -1435,6 +1503,40 @@ pg.dorm3d_furniture_template = {
 			"no_bake_pay_prop/entertainment"
 		}
 	},
+	[1223] = {
+		name = "桜の雅席",
+		rarity = 4,
+		is_special = 0,
+		type = 5,
+		icon = "dorm3dIcon/3Ddrom_dafeng_PremiumFurniture3",
+		room_id = 12,
+		desc = "古風な紙灯籠が緋色を照らし、茶の香がほのかに立ちのぼる中、精巧な茶器がそこにあった。桜の装飾をあしらった座布団と合わせて、雅な客迎えを成している。",
+		acesses = "",
+		model = "Pay_Dafenghostel/pre_db_df_livingroom_01",
+		id = 1223,
+		is_exclusive = 1,
+		target_slots = {
+			1120303
+		},
+		touch_id = {
+			{
+				30707,
+				3070760
+			}
+		},
+		shop_id = {
+			270503
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1223"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/livingroom"
+		}
+	},
 	[1401] = {
 		name = "ふんわりシルク",
 		rarity = 3,
@@ -1690,7 +1792,8 @@ pg.dorm3d_furniture_template = {
 			307,
 			321,
 			322,
-			323
+			323,
+			324
 		},
 		{
 			401
@@ -1706,7 +1809,8 @@ pg.dorm3d_furniture_template = {
 			1108,
 			1151,
 			1152,
-			1153
+			1153,
+			1154
 		},
 		[12] = {
 			1201,
@@ -1718,7 +1822,8 @@ pg.dorm3d_furniture_template = {
 			1214,
 			1215,
 			1221,
-			1222
+			1222,
+			1223
 		},
 		[14] = {
 			1401,
@@ -1767,6 +1872,7 @@ pg.dorm3d_furniture_template = {
 		322,
 		401,
 		323,
+		324,
 		1101,
 		1102,
 		1103,
@@ -1778,6 +1884,7 @@ pg.dorm3d_furniture_template = {
 		1151,
 		1152,
 		1153,
+		1154,
 		1201,
 		1202,
 		1203,
@@ -1788,6 +1895,7 @@ pg.dorm3d_furniture_template = {
 		1215,
 		1221,
 		1222,
+		1223,
 		1401,
 		1402,
 		1403,

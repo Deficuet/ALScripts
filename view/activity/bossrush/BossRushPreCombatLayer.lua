@@ -588,12 +588,11 @@ function var_0_0.displayFleetInfo(arg_51_0)
 		setActive(arg_52_2:Find("Image"), var_52_0)
 	end)
 
-	local var_51_8 = arg_51_0.contextData.fleets
-	local var_51_9 = var_51_8[#var_51_8]
-	local var_51_10 = _.slice(var_51_8, 1, #var_51_8 - 1)
-	local var_51_11 = arg_51_0.contextData.mode
-	local var_51_12 = false
-	local var_51_13 = (function()
+	local var_51_8 = arg_51_0.contextData.seriesData.mode
+	local var_51_9 = underscore.to_array(arg_51_0.contextData.fleets)
+	local var_51_10 = table.remove(var_51_9)
+	local var_51_11 = false
+	local var_51_12 = (function()
 		local var_53_0 = 0
 		local var_53_1 = pg.battle_cost_template[var_51_4]
 		local var_53_2 = var_51_5:GetOilLimit()
@@ -607,7 +606,7 @@ function var_0_0.displayFleetInfo(arg_51_0)
 
 				if arg_54_1 > 0 then
 					var_54_0 = math.min(arg_54_1, var_54_0)
-					var_51_12 = var_51_12 and var_54_0 < arg_54_1
+					var_51_11 = var_51_11 and var_54_0 < arg_54_1
 				end
 			end
 
@@ -615,89 +614,75 @@ function var_0_0.displayFleetInfo(arg_51_0)
 		end
 
 		local var_53_5 = #var_51_5:GetExpeditionIds()
+		local var_53_6 = var_53_4(var_51_10, var_53_2[2]) * var_53_5
 
-		if var_51_11 == BossRushSeriesData.MODE.SINGLE then
-			var_53_0 = var_53_0 + var_53_4(var_51_10[1], var_53_2[1])
-			var_53_0 = var_53_0 + var_53_4(var_51_9, var_53_2[2])
-			var_53_0 = var_53_0 * var_53_5
-		else
-			var_53_0 = var_53_4(var_51_9, var_53_2[2]) * var_53_5
-
-			_.each(var_51_10, function(arg_55_0)
-				var_53_0 = var_53_0 + var_53_4(arg_55_0, var_53_2[1])
-			end)
+		for iter_53_0 = 1, var_53_5 do
+			var_53_6 = var_53_6 + var_53_4(var_51_9[iter_53_0] or var_51_9[1], var_53_2[1])
 		end
 
-		return var_53_0
+		return var_53_6
 	end)()
 
-	local function var_51_14()
-		local var_56_0 = 0
-		local var_56_1 = pg.battle_cost_template[var_51_4]
-		local var_56_2 = var_51_5:GetOilLimit()
-		local var_56_3 = var_56_1.oil_cost > 0
+	local function var_51_13()
+		local var_55_0 = 0
+		local var_55_1 = pg.battle_cost_template[var_51_4]
+		local var_55_2 = var_51_5:GetOilLimit()
+		local var_55_3 = var_55_1.oil_cost > 0
 
-		local function var_56_4(arg_57_0, arg_57_1)
-			local var_57_0 = 0
+		local function var_55_4(arg_56_0, arg_56_1)
+			local var_56_0 = 0
 
-			if var_56_3 then
-				var_57_0 = arg_57_0:GetCostSum().oil
+			if var_55_3 then
+				var_56_0 = arg_56_0:GetCostSum().oil
 			end
 
-			return var_57_0
+			return var_56_0
 		end
 
-		local var_56_5 = #var_51_5:GetExpeditionIds()
+		local var_55_5 = #var_51_5:GetExpeditionIds()
+		local var_55_6 = var_55_4(var_51_10, var_55_2[2]) * var_55_5
 
-		if var_51_11 == BossRushSeriesData.MODE.SINGLE then
-			var_56_0 = var_56_0 + var_56_4(var_51_10[1], var_56_2[1])
-			var_56_0 = var_56_0 + var_56_4(var_51_9, var_56_2[2])
-			var_56_0 = var_56_0 * var_56_5
-		else
-			var_56_0 = var_56_4(var_51_9, var_56_2[2]) * var_56_5
-
-			_.each(var_51_10, function(arg_58_0)
-				var_56_0 = var_56_0 + var_56_4(arg_58_0, var_56_2[1])
-			end)
+		for iter_55_0 = 1, var_55_5 do
+			var_55_6 = var_55_6 + var_55_4(var_51_9[iter_55_0] or var_51_9[1], var_55_2[1])
 		end
 
-		return var_56_0
+		return var_55_6
 	end
 
-	local var_51_15 = 0
+	local var_51_14 = 0
 
-	if var_51_12 then
-		var_51_15 = var_51_14()
+	if var_51_11 then
+		var_51_14 = var_51_13()
 	end
 
-	var_0_1.tweenNumText(arg_51_0._costText, var_51_13)
-	setActive(arg_51_0._costTip, var_51_12)
+	var_0_1.tweenNumText(arg_51_0._costText, var_51_12)
+	setActive(arg_51_0._costTip, var_51_11)
 
-	if var_51_12 then
+	if var_51_11 then
 		onButton(arg_51_0, arg_51_0._costTip, function()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				hideNo = true,
-				content = i18n("use_oil_limit_help", var_51_15, var_51_13)
+				content = i18n("use_oil_limit_help", var_51_14, var_51_12)
 			})
 		end)
 	end
 end
 
-function var_0_0.SetFleetStepper(arg_60_0)
-	SetActive(arg_60_0._nextPage, arg_60_0._curFleetIndex < #arg_60_0._legalFleetIdList)
-	SetActive(arg_60_0._prevPage, arg_60_0._curFleetIndex > 1)
+function var_0_0.SetFleetStepper(arg_58_0)
+	SetActive(arg_58_0._nextPage, arg_58_0._curFleetIndex < #arg_58_0._legalFleetIdList)
+	SetActive(arg_58_0._prevPage, arg_58_0._curFleetIndex > 1)
 end
 
-function var_0_0.onBackPressed(arg_61_0)
+function var_0_0.onBackPressed(arg_59_0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
-	triggerButton(arg_61_0._backBtn)
+	triggerButton(arg_59_0._backBtn)
 end
 
-function var_0_0.willExit(arg_62_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_62_0._tf)
-	arg_62_0._formationLogic:Destroy()
+function var_0_0.willExit(arg_60_0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_60_0._tf)
+	arg_60_0._formationLogic:Destroy()
 
-	arg_62_0._formationLogic = nil
+	arg_60_0._formationLogic = nil
 end
 
 return var_0_0

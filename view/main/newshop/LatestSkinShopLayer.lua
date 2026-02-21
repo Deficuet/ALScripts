@@ -666,7 +666,7 @@ function var_0_0.ToVShip(arg_31_0, arg_31_1)
 		end
 
 		function arg_31_0.vship.getTeamType()
-			return TeamType.GetTeamFromShipType(arg_31_0.vship.config.type)
+			return ShipType.GetTeamFromShipType(arg_31_0.vship.config.type)
 		end
 
 		function arg_31_0.vship.getRarity()
@@ -816,21 +816,24 @@ function var_0_0.FlushChangeSkin(arg_46_0, arg_46_1)
 	local var_46_0 = ShipSkin.GetChangeSkinGroupId(arg_46_0.skinId)
 	local var_46_1 = ShipSkin.GetChangeSkinCustomDataId(arg_46_0.skinId, "hide_shop")
 	local var_46_2 = pg.gameset.changeskin_switch_block
+	local var_46_3 = false
+	local var_46_4 = false
+	local var_46_5 = arg_46_0.changeSkinToggle:IsAsmrSkin() and true or false
 
 	if var_46_2 and var_46_2.description then
-		local var_46_3 = var_46_2.description
+		local var_46_6 = var_46_2.description
 
-		if table.contains(var_46_3, var_46_0) then
-			local var_46_4 = HXSet.isHx()
+		if table.contains(var_46_6, var_46_0) then
+			local var_46_7 = HXSet.isHx()
 
-			if arg_46_1.buyCount <= 0 and var_46_4 then
-				setActive(arg_46_0.changeSkin, false)
+			if arg_46_1.buyCount <= 0 and var_46_7 then
+				var_46_4 = true
 			end
 		end
 	end
 
 	if var_46_1 and var_46_1 == 1 then
-		setActive(arg_46_0.changeSkin, false)
+		var_46_3 = true
 	end
 
 	if not arg_46_0.changeSkinId then
@@ -842,7 +845,12 @@ function var_0_0.FlushChangeSkin(arg_46_0, arg_46_1)
 	end
 
 	arg_46_0.changeSkinToggle:setSkinData(arg_46_0.skinId)
-	setActive(arg_46_0.changeSkin, not arg_46_0.changeSkinToggle:IsAsmrSkin())
+
+	if var_46_3 or var_46_4 or var_46_5 then
+		setActive(arg_46_0.changeSkin, false)
+	else
+		setActive(arg_46_0.changeSkin, true)
+	end
 end
 
 function var_0_0.GCHandle(arg_47_0)

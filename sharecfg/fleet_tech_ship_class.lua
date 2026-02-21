@@ -1458,6 +1458,7 @@ pg.fleet_tech_ship_class = {
 			30183,
 			30154,
 			30191,
+			30194,
 			30192
 		}
 	},
@@ -2712,7 +2713,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 131,
 		t_level = 1,
 		ships = {
-			50210
+			50210,
+			50212
 		}
 	},
 	[50301] = {
@@ -2724,6 +2726,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 1,
 		ships = {
 			50301
+		}
+	},
+	[50302] = {
+		shiptype = 3,
+		name = "彰武",
+		nation = 5,
+		id = 50302,
+		t_level_1 = 130,
+		t_level = 4,
+		ships = {
+			50302
 		}
 	},
 	[50401] = {
@@ -2815,7 +2828,8 @@ pg.fleet_tech_ship_class = {
 		t_level = 4,
 		ships = {
 			60106,
-			60109
+			60109,
+			60112
 		}
 	},
 	[60105] = {
@@ -2861,7 +2875,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 132,
 		t_level = 7,
 		ships = {
-			60203
+			60203,
+			60204
 		}
 	},
 	[60301] = {
@@ -2967,6 +2982,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 8,
 		ships = {
 			60508
+		}
+	},
+	[60506] = {
+		shiptype = 5,
+		name = "フランチェスコ・カラッチョロ級",
+		nation = 6,
+		id = 60506,
+		t_level_1 = 133,
+		t_level = 6,
+		ships = {
+			60509
 		}
 	},
 	[60701] = {
@@ -3984,6 +4010,17 @@ pg.fleet_tech_ship_class = {
 			970110
 		}
 	},
+	[970111] = {
+		shiptype = 1,
+		name = "カラビニエーレ(META)",
+		nation = 97,
+		id = 970111,
+		t_level_1 = 19,
+		t_level = 3,
+		ships = {
+			970111
+		}
+	},
 	[970201] = {
 		shiptype = 2,
 		name = "ヘレナ(META)",
@@ -4701,6 +4738,7 @@ pg.fleet_tech_ship_class = {
 		50206,
 		50207,
 		50301,
+		50302,
 		50401,
 		50601,
 		50602,
@@ -4722,6 +4760,7 @@ pg.fleet_tech_ship_class = {
 		60503,
 		60504,
 		60505,
+		60506,
 		60701,
 		60702,
 		60801,
@@ -4812,6 +4851,7 @@ pg.fleet_tech_ship_class = {
 		970108,
 		970109,
 		970110,
+		970111,
 		970201,
 		970202,
 		970203,

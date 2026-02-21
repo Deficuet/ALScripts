@@ -13396,6 +13396,214 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[55061] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		name = "ランダム設計図",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 1,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/55000",
+		id = 55061,
+		order = 0,
+		display_icon = {
+			{
+				2,
+				11021,
+				1
+			},
+			{
+				2,
+				10005,
+				1
+			},
+			{
+				2,
+				10062,
+				1
+			},
+			{
+				2,
+				10056,
+				1
+			},
+			{
+				2,
+				10000,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[55062] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		name = "ランダム設計図",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 1,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/55000",
+		id = 55062,
+		order = 0,
+		display_icon = {
+			{
+				2,
+				11002,
+				1
+			},
+			{
+				2,
+				10003,
+				1
+			},
+			{
+				2,
+				10065,
+				1
+			},
+			{
+				2,
+				10019,
+				1
+			},
+			{
+				2,
+				10011,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[55063] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		name = "ランダム設計図",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 1,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/55000",
+		id = 55063,
+		order = 0,
+		display_icon = {
+			{
+				2,
+				13002,
+				1
+			},
+			{
+				2,
+				10010,
+				1
+			},
+			{
+				2,
+				10064,
+				1
+			},
+			{
+				2,
+				10059,
+				1
+			},
+			{
+				2,
+				10006,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[55064] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		name = "ランダム設計図",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 1,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/55000",
+		id = 55064,
+		order = 0,
+		display_icon = {
+			{
+				2,
+				13055,
+				1
+			},
+			{
+				2,
+				10009,
+				1
+			},
+			{
+				2,
+				10024,
+				1
+			},
+			{
+				2,
+				10057,
+				1
+			},
+			{
+				2,
+				10002,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[55501] = {
 		display = "一定の確率で下記の設計図を入手できます",
 		name = "ランダム設計図",
@@ -16212,6 +16420,194 @@ end)()
 			{
 				2,
 				10003,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[55561] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		name = "ランダム設計図",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 1,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/55000",
+		id = 55561,
+		order = 0,
+		display_icon = {
+			{
+				2,
+				10005,
+				1
+			},
+			{
+				2,
+				10062,
+				1
+			},
+			{
+				2,
+				10056,
+				1
+			},
+			{
+				2,
+				10000,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[55562] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		name = "ランダム設計図",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 1,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/55000",
+		id = 55562,
+		order = 0,
+		display_icon = {
+			{
+				2,
+				10003,
+				1
+			},
+			{
+				2,
+				10065,
+				1
+			},
+			{
+				2,
+				10019,
+				1
+			},
+			{
+				2,
+				10011,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[55563] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		name = "ランダム設計図",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 1,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/55000",
+		id = 55563,
+		order = 0,
+		display_icon = {
+			{
+				2,
+				10010,
+				1
+			},
+			{
+				2,
+				10064,
+				1
+			},
+			{
+				2,
+				10059,
+				1
+			},
+			{
+				2,
+				10006,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[55564] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		name = "ランダム設計図",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 1,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/55000",
+		id = 55564,
+		order = 0,
+		display_icon = {
+			{
+				2,
+				10009,
+				1
+			},
+			{
+				2,
+				10024,
+				1
+			},
+			{
+				2,
+				10057,
+				1
+			},
+			{
+				2,
+				10002,
 				1
 			}
 		},
@@ -25128,6 +25524,619 @@ end)()
 			{
 				4,
 				103011,
+				1
+			},
+			{
+				4,
+				103021,
+				1
+			},
+			{
+				4,
+				102011,
+				1
+			},
+			{
+				4,
+				106021,
+				1
+			},
+			{
+				4,
+				107011,
+				1
+			},
+			{
+				4,
+				107041,
+				1
+			},
+			{
+				4,
+				105011,
+				1
+			},
+			{
+				4,
+				105021,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[56061] = {
+		display = "一定の確率で下記のキャラを入手できます",
+		name = "ランダムキャラ",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 1,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/54000",
+		id = 56061,
+		order = 0,
+		display_icon = {
+			{
+				4,
+				304021,
+				1
+			},
+			{
+				4,
+				107021,
+				1
+			},
+			{
+				4,
+				101171,
+				1
+			},
+			{
+				4,
+				201211,
+				1
+			},
+			{
+				4,
+				301051,
+				1
+			},
+			{
+				4,
+				101121,
+				1
+			},
+			{
+				4,
+				102061,
+				1
+			},
+			{
+				4,
+				102031,
+				1
+			},
+			{
+				4,
+				103041,
+				1
+			},
+			{
+				4,
+				301131,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			},
+			{
+				4,
+				301411,
+				1
+			},
+			{
+				4,
+				301371,
+				1
+			},
+			{
+				4,
+				101041,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				103021,
+				1
+			},
+			{
+				4,
+				102011,
+				1
+			},
+			{
+				4,
+				106021,
+				1
+			},
+			{
+				4,
+				107011,
+				1
+			},
+			{
+				4,
+				107041,
+				1
+			},
+			{
+				4,
+				105011,
+				1
+			},
+			{
+				4,
+				105021,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[56062] = {
+		display = "一定の確率で下記のキャラを入手できます",
+		name = "ランダムキャラ",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 1,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/54000",
+		id = 56062,
+		order = 0,
+		display_icon = {
+			{
+				4,
+				108011,
+				1
+			},
+			{
+				4,
+				103071,
+				1
+			},
+			{
+				4,
+				101171,
+				1
+			},
+			{
+				4,
+				201211,
+				1
+			},
+			{
+				4,
+				301051,
+				1
+			},
+			{
+				4,
+				101021,
+				1
+			},
+			{
+				4,
+				101091,
+				1
+			},
+			{
+				4,
+				102041,
+				1
+			},
+			{
+				4,
+				105031,
+				1
+			},
+			{
+				4,
+				301171,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			},
+			{
+				4,
+				301411,
+				1
+			},
+			{
+				4,
+				301371,
+				1
+			},
+			{
+				4,
+				101041,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				103021,
+				1
+			},
+			{
+				4,
+				102011,
+				1
+			},
+			{
+				4,
+				106021,
+				1
+			},
+			{
+				4,
+				107011,
+				1
+			},
+			{
+				4,
+				107041,
+				1
+			},
+			{
+				4,
+				105011,
+				1
+			},
+			{
+				4,
+				105021,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[56063] = {
+		display = "一定の確率で下記のキャラを入手できます",
+		name = "ランダムキャラ",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 1,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/54000",
+		id = 56063,
+		order = 0,
+		display_icon = {
+			{
+				4,
+				303171,
+				1
+			},
+			{
+				4,
+				103051,
+				1
+			},
+			{
+				4,
+				101171,
+				1
+			},
+			{
+				4,
+				201211,
+				1
+			},
+			{
+				4,
+				301051,
+				1
+			},
+			{
+				4,
+				303071,
+				1
+			},
+			{
+				4,
+				303081,
+				1
+			},
+			{
+				4,
+				103031,
+				1
+			},
+			{
+				4,
+				105071,
+				1
+			},
+			{
+				4,
+				305021,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			},
+			{
+				4,
+				301411,
+				1
+			},
+			{
+				4,
+				301371,
+				1
+			},
+			{
+				4,
+				101041,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				103021,
+				1
+			},
+			{
+				4,
+				102011,
+				1
+			},
+			{
+				4,
+				106021,
+				1
+			},
+			{
+				4,
+				107011,
+				1
+			},
+			{
+				4,
+				107041,
+				1
+			},
+			{
+				4,
+				105011,
+				1
+			},
+			{
+				4,
+				105021,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[56064] = {
+		display = "一定の確率で下記のキャラを入手できます",
+		name = "ランダムキャラ",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 1,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/54000",
+		id = 56064,
+		order = 0,
+		display_icon = {
+			{
+				4,
+				301941,
+				1
+			},
+			{
+				4,
+				107051,
+				1
+			},
+			{
+				4,
+				303101,
+				1
+			},
+			{
+				4,
+				101171,
+				1
+			},
+			{
+				4,
+				201211,
+				1
+			},
+			{
+				4,
+				301051,
+				1
+			},
+			{
+				4,
+				101251,
+				1
+			},
+			{
+				4,
+				101051,
+				1
+			},
+			{
+				4,
+				102071,
+				1
+			},
+			{
+				4,
+				105081,
+				1
+			},
+			{
+				4,
+				306051,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			},
+			{
+				4,
+				301411,
+				1
+			},
+			{
+				4,
+				301371,
+				1
+			},
+			{
+				4,
+				101041,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
 				1
 			},
 			{
@@ -167979,6 +168988,32 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[60027] = {
+		display = "「饅頭の年玉」で開封可能",
+		name = "年玉",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50416,
+		virtual_type = 11,
+		is_world = 0,
+		icon = "props/red_packet2",
+		id = 60027,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[60030] = {
 		display = "「黄金の秘宝」イベントアイテム",
 		name = "ヒント「M」",
@@ -170361,6 +171396,188 @@ end)()
 		is_world = 0,
 		icon = "props/draw_g",
 		id = 60346,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[60347] = {
+		display = "絵の具A",
+		name = "絵の具A",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50414,
+		virtual_type = 4,
+		is_world = 0,
+		icon = "props/draw_a",
+		id = 60347,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[60348] = {
+		display = "絵の具B",
+		name = "絵の具B",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50414,
+		virtual_type = 4,
+		is_world = 0,
+		icon = "props/draw_b",
+		id = 60348,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[60349] = {
+		display = "絵の具C",
+		name = "絵の具C",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50414,
+		virtual_type = 4,
+		is_world = 0,
+		icon = "props/draw_c",
+		id = 60349,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[60350] = {
+		display = "絵の具D",
+		name = "絵の具D",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50414,
+		virtual_type = 4,
+		is_world = 0,
+		icon = "props/draw_d",
+		id = 60350,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[60351] = {
+		display = "絵の具E",
+		name = "絵の具E",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50414,
+		virtual_type = 4,
+		is_world = 0,
+		icon = "props/draw_e",
+		id = 60351,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[60352] = {
+		display = "絵の具F",
+		name = "絵の具F",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50414,
+		virtual_type = 4,
+		is_world = 0,
+		icon = "props/draw_f",
+		id = 60352,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[60353] = {
+		display = "絵の具G",
+		name = "絵の具G",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50414,
+		virtual_type = 4,
+		is_world = 0,
+		icon = "props/draw_g",
+		id = 60353,
 		order = 0,
 		display_icon = {},
 		price = {},
@@ -173351,6 +174568,58 @@ end)()
 		is_world = 0,
 		icon = "Props/65111",
 		id = 65111,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65113] = {
+		display = "キャンペーン「シーズン任務」で累計獲得数報酬を入手するための任務Ptアイテム。キャンペーン終了後に削除されます",
+		name = "進捗Pt",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 7027,
+		virtual_type = 21,
+		is_world = 0,
+		icon = "props/battlepass_pt",
+		id = 65113,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65115] = {
+		display = "「天穹に響く音謡·F」の累計入手PTアイテム。イベント終了時に削除される",
+		name = "アオの光",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/65111",
+		id = 65115,
 		order = 0,
 		display_icon = {},
 		price = {},
@@ -179090,6 +180359,1423 @@ end)()
 		is_world = 0,
 		icon = "Props/skinTicket",
 		id = 65795,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65796] = {
+		display = "イベント「光追う星の海」の収集Ptアイテム。イベント終了後に削除される",
+		name = "データピース",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/xinghai_pt1",
+		id = 65796,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65797] = {
+		display = "イベントショップにてUR艦船「ラフィーⅡ」と交換できる特殊Pt。イベント終了後に削除される",
+		name = "URチケット",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 3,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/xinghai_pt2",
+		id = 65797,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65798] = {
+		display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2026.1.21まで）で削除されます",
+		name = "試着貸出チケット（2026.1.21まで）",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = 1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/skinTicket",
+		id = 65798,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65799] = {
+		display = "「作戦準備・星の海」報酬交換用アイテム。イベント終了後に削除される。",
+		name = "訓練Pt",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/xunliandianshu_m1",
+		id = 65799,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65800] = {
+		display = "イベント「光追う星の海」で入手できる期間限定建造チケット。イベント終了後に削除されます",
+		name = "建造支援チケット",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50324,
+		virtual_type = 22,
+		is_world = 0,
+		icon = "Props/buildTicket",
+		id = 65800,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65801] = {
+		display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2026.1.21まで）で削除されます",
+		name = "試着貸出チケット（2026.1.21まで）",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = 1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/skinTicket",
+		id = 65801,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65802] = {
+		display = "ファッションレーダー出力全開、撮影モードに移行！シャッターを切って流行りの瞬間を記録しよう！\n——あなたこそ、今日のファッションレコーダーだ！",
+		name = "特集写真記念勲章",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 5,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Medal/9121",
+		id = 65802,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65803] = {
+		display = "一番ナウい子は誰だ？そう、私だ！",
+		name = "ステッカー：撮影進行中！",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5035901",
+		id = 65803,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65804] = {
+		display = "3、2、1！チーズ——",
+		name = "ステッカー：カメラ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5035902",
+		id = 65804,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65805] = {
+		display = "ハンガーは、衣装をかけるのに使われるものだ…",
+		name = "ステッカー：ハンガー",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5035903",
+		id = 65805,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65806] = {
+		display = "あとちょっと……あとちょっとだけ捕まえる……！",
+		name = "ステッカー：クレーンマシン",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5035904",
+		id = 65806,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65807] = {
+		display = "注目の的になる準備はできていて？",
+		name = "ステッカー：スポットライト",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5035905",
+		id = 65807,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65808] = {
+		display = "ここからは――ファッションランジェリー特集撮影の時間！",
+		name = "ステッカー：ファッション",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5035906",
+		id = 65808,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65809] = {
+		display = "同じ果物でも、撮り方は100通りもある？",
+		name = "ステッカー：フルーツアルバム",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5035907",
+		id = 65809,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65810] = {
+		display = "カメラを見ていない瞬間も含めて、全てを記録するよ！",
+		name = "ステッカー：フィルム",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5035908",
+		id = 65810,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65811] = {
+		display = "「特集写真――撮影進行中！」のPTアイテム。イベント終了時に削除される",
+		name = "写真フィルム",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/sadingSPlianzhan_pt",
+		id = 65811,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65812] = {
+		display = "「特集写真――撮影進行中！」の特集ページ（イベントストーリー）を解放可能",
+		name = "スタジオ予約票",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50360,
+		virtual_type = 101,
+		is_world = 0,
+		icon = "Props/65812",
+		id = 65812,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65813] = {
+		display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2026.2.4まで）で削除されます",
+		name = "試着貸出チケット（2026.2.4まで）",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = 1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/skinTicket",
+		id = 65813,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65814] = {
+		display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2026.2.11まで）で削除されます",
+		name = "試着貸出チケット（2026.2.11まで）",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = 1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/skinTicket",
+		id = 65814,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65815] = {
+		display = "イベント「ゼロから頑張る魔王討伐」で入手できる期間限定建造チケット。イベント終了後に削除されます",
+		name = "建造支援チケット",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50384,
+		virtual_type = 22,
+		is_world = 0,
+		icon = "Props/buildTicket",
+		id = 65815,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65816] = {
+		display = "「ゼロから頑張る魔王討伐」の饅頭神殿で捧げる事が可能。イベント終了後に削除される",
+		name = "王国金貨",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/otherworld_pt",
+		id = 65816,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65817] = {
+		display = "「ゼロから頑張る魔王討伐」のイベントPt。累計獲得数に応じて報酬を入手可能",
+		name = "冒険EXP",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/otherworld_exp",
+		id = 65817,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65821] = {
+		display = "「委託報酬計画」イベントで報酬と交換できるPtになります。イベント終了後に削除されます",
+		name = "軍事委託Pt",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/commission_pt",
+		id = 65821,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65825] = {
+		display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2026.3.4まで）で削除されます",
+		name = "試着貸出チケット（2026.3.4まで）",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = 1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/skinTicket",
+		id = 65825,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65830] = {
+		display = "「新春祝福・丙午」のイベントアイテム。イベント終了時に削除されます",
+		name = "東煌結び",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/donghuangjie",
+		id = 65830,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65831] = {
+		display = "「新春珠玉逸品会」のイベントPtアイテム。累計報酬を入手可能",
+		name = "玲瓏玉佩",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "props/zhangwu_pt",
+		id = 65831,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65832] = {
+		display = "「新春珠玉逸品会」のEXステージに挑戦するのに使われます。また、通常ステージのボーナス報酬を入手可能です",
+		name = "挑戦チケット",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/nvpu_ticket",
+		id = 65832,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65833] = {
+		display = "「母港花火大会」のイベントアイテム。イベント終了後に削除されます。",
+		name = "新春花火・Ⅰ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50422,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/yanhua_1",
+		id = 65833,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65834] = {
+		display = "「母港花火大会」のイベントアイテム。イベント終了後に削除されます。",
+		name = "新春花火・Ⅱ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50422,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/yanhua_2",
+		id = 65834,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65835] = {
+		display = "「母港花火大会」のイベントアイテム。イベント終了後に削除されます。",
+		name = "新春花火・Ⅲ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50422,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/yanhua_3",
+		id = 65835,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65836] = {
+		display = "「母港花火大会」のイベントアイテム。イベント終了後に削除されます。",
+		name = "新春花火・Ⅳ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50422,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/yanhua_14",
+		id = 65836,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65837] = {
+		display = "「母港花火大会」のイベントアイテム。イベント終了後に削除されます。",
+		name = "新春花火・Ⅴ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50422,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/yanhua_13",
+		id = 65837,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65838] = {
+		display = "「母港花火大会」のイベントアイテム。イベント終了後に削除されます。",
+		name = "新春花火・Ⅵ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50422,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/yanhua_6",
+		id = 65838,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65839] = {
+		display = "「母港花火大会」のイベントアイテム。イベント終了後に削除されます。",
+		name = "新春花火・Ⅶ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50422,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/yanhua_7",
+		id = 65839,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65840] = {
+		display = "「母港花火大会」のイベントアイテム。イベント終了後に削除されます。",
+		name = "新春花火・Ⅷ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50422,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/yanhua_8",
+		id = 65840,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65841] = {
+		display = "「母港花火大会」のイベントアイテム。イベント終了後に削除されます。",
+		name = "新春花火・Ⅸ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50422,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/yanhua_9",
+		id = 65841,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65842] = {
+		display = "「母港花火大会」のイベントアイテム。イベント終了後に削除されます。",
+		name = "新春花火・Ⅹ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50422,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/yanhua_10",
+		id = 65842,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65843] = {
+		display = "「母港花火大会」のイベントアイテム。イベント終了後に削除されます。",
+		name = "新春花火・Ⅺ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50422,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/yanhua_19",
+		id = 65843,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65844] = {
+		display = "「母港花火大会」のイベントアイテム。イベント終了後に削除されます。",
+		name = "新春花火・Ⅻ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50422,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/yanhua_20",
+		id = 65844,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65845] = {
+		display = "不会被看见，转换用",
+		name = "掉落用烟花",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50422,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/yanhua_13",
+		id = 65845,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65846] = {
+		display = "「母港花火大会」のイベントアイテム。イベント終了後に削除されます。",
+		name = "花火大会雰囲気Pt",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/65534",
+		id = 65846,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65847] = {
+		display = "一定の確率で下記の装備外装を入手できます",
+		name = "装備外装箱（新春オークション）",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/equipskin_drop_display",
+		id = 65847,
+		order = 0,
+		display_icon = {
+			{
+				9,
+				4294,
+				1
+			},
+			{
+				9,
+				4295,
+				1
+			},
+			{
+				9,
+				4296,
+				1
+			},
+			{
+				9,
+				4297,
+				1
+			},
+			{
+				9,
+				4298,
+				1
+			},
+			{
+				9,
+				4299,
+				1
+			},
+			{
+				9,
+				4300,
+				1
+			},
+			{
+				9,
+				4301,
+				1
+			},
+			{
+				9,
+				4302,
+				1
+			},
+			{
+				9,
+				4303,
+				1
+			},
+			{
+				9,
+				4304,
+				1
+			},
+			{
+				9,
+				4305,
+				1
+			},
+			{
+				9,
+				4306,
+				1
+			},
+			{
+				9,
+				4307,
+				1
+			},
+			{
+				9,
+				4308,
+				1
+			},
+			{
+				9,
+				4309,
+				1
+			},
+			{
+				9,
+				4310,
+				1
+			},
+			{
+				9,
+				4311,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65848] = {
+		display = "温かな美玉は静かに佇み、ほのかな香が庭いっぱいに漂う。すべての邂逅は、ただ君の来訪を待つだけ。\nこの場に足を踏み入れた君こそ、玉を識る知音なのだろうか。",
+		name = "珠玉逸品記念勲章",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 5,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Medal/9131",
+		id = 65848,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65849] = {
+		display = "君子良佩、その想いは誰に結ばれるのか。",
+		name = "ｽﾃｯｶｰ：春の懐玉",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5040501",
+		id = 65849,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65850] = {
+		display = "さあ、会場の視線はすべて私に――。",
+		name = "ｽﾃｯｶｰ：飛ぶ灯籠",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5040502",
+		id = 65850,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65851] = {
+		display = "月色が山あいを包み、漂う香りが心の琴線に触れる。",
+		name = "ｽﾃｯｶｰ：月の香り",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5040503",
+		id = 65851,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65852] = {
+		display = "カン——落札！",
+		name = "ｽﾃｯｶｰ：ｵｰｸｼｮﾝｶﾞﾍﾞﾙ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5040504",
+		id = 65852,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65853] = {
+		display = "一縷の余香が、そっと答えを語りかける。",
+		name = "ｽﾃｯｶｰ：香炉",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5040505",
+		id = 65853,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65854] = {
+		display = "さあ、一緒に大冒険へ！",
+		name = "ｽﾃｯｶｰ：ｻﾞ・ﾄﾘｵ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5040506",
+		id = 65854,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65855] = {
+		display = "甘酸っぱくておいしい、食べ終えてもまた欲しくなる。",
+		name = "ｽﾃｯｶｰ：ﾀﾝﾌｰﾙｰ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5040507",
+		id = 65855,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65856] = {
+		display = "君子懐玉、温潤にして艶やかなり。",
+		name = "ｽﾃｯｶｰ：玲瓏玉佩",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5040508",
+		id = 65856,
 		order = 0,
 		display_icon = {},
 		price = {},
@@ -187430,6 +190116,57 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[86224] = {
+		display = "不会被看到",
+		name = "ランダム衣装",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/clothIcon",
+		id = 86224,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {
+			{
+				503021,
+				1500
+			},
+			{
+				307085,
+				1500
+			},
+			{
+				502121,
+				2000
+			},
+			{
+				407012,
+				1780
+			},
+			{
+				431234,
+				1620
+			},
+			{
+				501072,
+				1600
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[100000] = {
 		display = "META座標の情報。「META戦」で解析を行うと、META艦船との戦闘を行うことが可能",
 		name = "META座標情報",
@@ -187550,6 +190287,162 @@ end)()
 		is_world = 0,
 		icon = "Props/Wdashijiezhanbeiwuzi",
 		id = 110002,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[120001] = {
+		display = "キャラの「思い出Lv」を上昇させることができます",
+		name = "思い出Pt",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50400,
+		virtual_type = 30,
+		is_world = 0,
+		icon = "Props/120002",
+		id = 120001,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[120002] = {
+		display = "キャラの「思い出Lv」を上昇させることができます",
+		name = "思い出Pt",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50400,
+		virtual_type = 30,
+		is_world = 0,
+		icon = "Props/120002",
+		id = 120002,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[120003] = {
+		display = "中式信封",
+		name = "中式信封",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/loveletter_cn",
+		id = 120003,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[120004] = {
+		display = "日式信封",
+		name = "日式信封",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/loveletter_jp",
+		id = 120004,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[120005] = {
+		display = "西式信封",
+		name = "西式信封",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/loveletter_en",
+		id = 120005,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[120006] = {
+		display = "META信封",
+		name = "META信封",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/loveletter_meta",
+		id = 120006,
 		order = 0,
 		display_icon = {},
 		price = {},
@@ -187857,6 +190750,58 @@ end)()
 		is_world = 0,
 		icon = "Props/170000",
 		id = 170001,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[170002] = {
+		display = "星の輝きが煌めくチケット。「星彩賞」にて賞品を抽選可能。「星彩賞」開催期間終了時、自動で消費され抽選が行われます（余ったチケットはダイヤに変換されます）",
+		name = "星彩チケット",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 990009,
+		virtual_type = 101,
+		is_world = 0,
+		icon = "Props/170000",
+		id = 170002,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[170003] = {
+		display = "星の輝きが煌めくチケット。「星彩賞」にて賞品を抽選可能。「星彩賞」開催期間終了時、自動で消費され抽選が行われます（余ったチケットはダイヤに変換されます） ",
+		name = "星彩チケット",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 990009,
+		virtual_type = 101,
+		is_world = 0,
+		icon = "Props/170000",
+		id = 170003,
 		order = 0,
 		display_icon = {},
 		price = {},
@@ -239535,6 +242480,370 @@ end)()
 				1
 			}
 		}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[200673] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		name = "ランダム設計図",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 1,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/55000",
+		id = 200673,
+		order = 0,
+		display_icon = {
+			{
+				2,
+				11049,
+				1
+			},
+			{
+				2,
+				10125,
+				1
+			},
+			{
+				2,
+				10109,
+				1
+			},
+			{
+				2,
+				10007,
+				1
+			},
+			{
+				2,
+				10006,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[200674] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		name = "ランダム設計図",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 1,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/55000",
+		id = 200674,
+		order = 0,
+		display_icon = {
+			{
+				2,
+				11049,
+				1
+			},
+			{
+				2,
+				10125,
+				1
+			},
+			{
+				2,
+				10109,
+				1
+			},
+			{
+				2,
+				10007,
+				1
+			},
+			{
+				2,
+				10006,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[200675] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		name = "ランダム設計図",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 1,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/55000",
+		id = 200675,
+		order = 0,
+		display_icon = {
+			{
+				2,
+				10108,
+				1
+			},
+			{
+				2,
+				10125,
+				1
+			},
+			{
+				2,
+				10109,
+				1
+			},
+			{
+				2,
+				10007,
+				1
+			},
+			{
+				2,
+				10006,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[200676] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		name = "ランダム設計図",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 1,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/55000",
+		id = 200676,
+		order = 0,
+		display_icon = {
+			{
+				2,
+				10125,
+				1
+			},
+			{
+				2,
+				10109,
+				1
+			},
+			{
+				2,
+				66,
+				1
+			},
+			{
+				2,
+				5,
+				1
+			},
+			{
+				2,
+				4,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[200681] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		name = "ランダム設計図",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 1,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/55000",
+		id = 200681,
+		order = 0,
+		display_icon = {
+			{
+				2,
+				10074,
+				1
+			},
+			{
+				2,
+				10011,
+				1
+			},
+			{
+				2,
+				19,
+				1
+			},
+			{
+				2,
+				36,
+				1
+			},
+			{
+				2,
+				4,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[200682] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		name = "ランダム設計図",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 1,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/55000",
+		id = 200682,
+		order = 0,
+		display_icon = {
+			{
+				2,
+				10074,
+				1
+			},
+			{
+				2,
+				10011,
+				1
+			},
+			{
+				2,
+				10082,
+				1
+			},
+			{
+				2,
+				10018,
+				1
+			},
+			{
+				2,
+				10003,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[200683] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		name = "ランダム設計図",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 1,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/55000",
+		id = 200683,
+		order = 0,
+		display_icon = {
+			{
+				2,
+				13004,
+				1
+			},
+			{
+				2,
+				10011,
+				1
+			},
+			{
+				2,
+				10082,
+				1
+			},
+			{
+				2,
+				10018,
+				1
+			},
+			{
+				2,
+				10003,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
 	}
 end)()
 

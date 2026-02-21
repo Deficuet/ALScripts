@@ -79,9 +79,7 @@ function var_0_0.GetCanGetAwardIndexList(arg_11_0)
 		return {}
 	end
 
-	table.sort(arg_11_0.data2_list, function(arg_12_0, arg_12_1)
-		return arg_12_0 < arg_12_1
-	end)
+	table.sort(arg_11_0.data2_list)
 
 	local var_11_2 = var_11_0 == 0 and 0 or arg_11_0.data2_list[var_11_0]
 	local var_11_3 = arg_11_0:GetTotalDayCnt()
@@ -95,50 +93,50 @@ function var_0_0.GetCanGetAwardIndexList(arg_11_0)
 	return var_11_5
 end
 
-function var_0_0.GetAwardState(arg_13_0, arg_13_1)
-	local var_13_0 = arg_13_0:GetCanGetAwardIndexList()
+function var_0_0.GetAwardState(arg_12_0, arg_12_1)
+	local var_12_0 = arg_12_0:GetCanGetAwardIndexList()
 
-	if table.contains(var_13_0, arg_13_1) then
+	if table.contains(var_12_0, arg_12_1) then
 		return var_0_0.STATE_CAN_GET
-	elseif table.contains(arg_13_0.data2_list, arg_13_1) then
+	elseif table.contains(arg_12_0.data2_list, arg_12_1) then
 		return var_0_0.STATE_GOT
 	else
 		return var_0_0.STATE_EMPTY
 	end
 end
 
-function var_0_0.GetGetAwardCnt(arg_14_0)
-	return #arg_14_0.data2_list
+function var_0_0.GetGetAwardCnt(arg_13_0)
+	return #arg_13_0.data2_list
 end
 
-function var_0_0.GetAllAwards(arg_15_0)
-	local var_15_0 = arg_15_0:GetCanGetAwardIndexList()
+function var_0_0.GetAllAwards(arg_14_0)
+	local var_14_0 = arg_14_0:GetCanGetAwardIndexList()
 
-	for iter_15_0, iter_15_1 in ipairs(var_15_0) do
-		arg_15_0:GetIndexAward(iter_15_1)
+	for iter_14_0, iter_14_1 in ipairs(var_14_0) do
+		arg_14_0:GetIndexAward(iter_14_1)
 	end
 end
 
-function var_0_0.GetIndexAward(arg_16_0, arg_16_1)
-	if not table.contains(arg_16_0.data2_list, arg_16_1) then
-		arg_16_0.data2 = arg_16_0.data2 + 1
+function var_0_0.GetIndexAward(arg_15_0, arg_15_1)
+	if not table.contains(arg_15_0.data2_list, arg_15_1) then
+		arg_15_0.data2 = arg_15_0.data2 + 1
 
-		table.insert(arg_16_0.data2_list, arg_16_1)
+		table.insert(arg_15_0.data2_list, arg_15_1)
 	end
 end
 
-function var_0_0.IsManualSignActAndAnyAwardCanGet(arg_17_0)
-	local var_17_0 = getProxy(ActivityProxy):getActivityById(arg_17_0)
+function var_0_0.IsManualSignActAndAnyAwardCanGet(arg_16_0)
+	local var_16_0 = getProxy(ActivityProxy):getActivityById(arg_16_0)
 
-	if not var_17_0 or var_17_0:isEnd() then
+	if not var_16_0 or var_16_0:isEnd() then
 		return false
 	end
 
-	if not isa(var_17_0, ManualSignActivity) then
+	if not isa(var_16_0, ManualSignActivity) then
 		return false
 	end
 
-	return var_17_0:AnyAwardCanGet()
+	return var_16_0:AnyAwardCanGet()
 end
 
 return var_0_0

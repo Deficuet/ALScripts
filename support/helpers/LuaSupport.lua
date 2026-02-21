@@ -127,8 +127,12 @@ function PrintTable(arg_13_0)
 	local var_13_0 = {}
 
 	local function var_13_1(arg_14_0, arg_14_1)
+		if type(arg_14_0) ~= "table" then
+			return arg_14_0
+		end
+
 		if var_13_0[arg_14_0] then
-			return tostring(var_13_0[arg_14_0])
+			return tostring(arg_14_0)
 		end
 
 		var_13_0[arg_14_0] = true

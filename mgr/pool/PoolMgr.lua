@@ -570,7 +570,7 @@ function var_0_0.ReturnPrefab(arg_46_0, arg_46_1, arg_46_2, arg_46_3, arg_46_4)
 	local var_46_0 = arg_46_1
 
 	if IsNil(arg_46_3) then
-		Debugger.LogError(debug.traceback("empty go: " .. arg_46_2))
+		Debugger.LogError(debug.traceback("empty go: " .. arg_46_1))
 	elseif arg_46_0.pools_plural[var_46_0] then
 		if string.find(arg_46_1, "emoji/") == 1 then
 			local var_46_1 = arg_46_3:GetComponent(typeof(CriManaEffectUI))

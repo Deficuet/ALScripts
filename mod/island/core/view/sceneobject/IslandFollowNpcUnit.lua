@@ -41,6 +41,7 @@ end
 function var_0_0.OnAttach(arg_5_0, arg_5_1)
 	var_0_0.super.OnAttach(arg_5_0, arg_5_1)
 	arg_5_0:UpdateBtRandomizer()
+	arg_5_0.behaviourTreeOwner.graph.blackboard:SetVariableValue("following", true)
 end
 
 function var_0_0.UpdateBtRandomizer(arg_6_0)
@@ -54,6 +55,16 @@ function var_0_0.SetBtRandomizer(arg_7_0)
 
 	arg_7_0:UpdateBtRandomizer()
 	arg_7_0:RestartBt()
+end
+
+function var_0_0.DoExitHandle(arg_8_0)
+	arg_8_0.isExiting = true
+
+	arg_8_0.behaviourTreeOwner.graph.blackboard:SetVariableValue("following", false)
+end
+
+function var_0_0.IsExitState(arg_9_0)
+	return arg_9_0.isExiting
 end
 
 return var_0_0

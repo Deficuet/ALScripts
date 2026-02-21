@@ -116,7 +116,7 @@ function var_0_0.displayShips(arg_6_0)
 
 		if var_6_2[iter_6_7.id] then
 			local var_6_11 = ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(iter_6_7.configId).type
-			local var_6_12 = table.contains(TeamType.SubShipType, var_6_11)
+			local var_6_12 = table.contains(ShipType.SubShipType, var_6_11)
 			local var_6_13
 			local var_6_14
 			local var_6_15 = 0

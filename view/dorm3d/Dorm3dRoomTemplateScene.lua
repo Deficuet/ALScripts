@@ -135,17 +135,15 @@ function var_0_0.init(arg_12_0)
 
 	if arg_12_0.room:isPersonalRoom() then
 		local var_12_0 = arg_12_0.contextData.groupIds[1]
-		local var_12_1 = getProxy(ApartmentProxy):getApartment(var_12_0)
-		local var_12_2 = var_12_1:GetCurSkinId()
-		local var_12_3 = arg_12_0.ladyDict[var_12_0]
+		local var_12_1 = getProxy(ApartmentProxy):getApartment(var_12_0):GetCurSkinId()
+		local var_12_2 = arg_12_0.ladyDict[var_12_0]
 
-		setActive(var_12_3.ladyGameObject, false)
+		setActive(var_12_2.ladyGameObject, false)
 
-		var_12_3.skinId = var_12_2
-		var_12_3.ladyGameObject = arg_12_0.skinDict[var_12_2].ladyGameObject
+		var_12_2.skinId = var_12_1
+		var_12_2.ladyGameObject = arg_12_0.skinDict[var_12_1].ladyGameObject
 
-		setActive(var_12_3.ladyGameObject, true)
-		var_12_3:HideCharacterPart(var_12_2, var_12_1:GetHiddenParts(var_12_2))
+		setActive(var_12_2.ladyGameObject, true)
 	end
 
 	for iter_12_0, iter_12_1 in pairs(arg_12_0.ladyDict) do
@@ -153,12 +151,12 @@ function var_0_0.init(arg_12_0)
 	end
 
 	if not arg_12_0.room:isPersonalRoom() then
-		local var_12_4 = underscore.detect(arg_12_0.contextData.groupIds, function(arg_13_0)
+		local var_12_3 = underscore.detect(arg_12_0.contextData.groupIds, function(arg_13_0)
 			return arg_12_0.contextData.ladyZone[arg_13_0] == arg_12_0.contextData.inFurnitureName
 		end) or arg_12_0.contextData.groupIds[1]
 
-		if var_12_4 then
-			arg_12_0:SyncInterestTransform(arg_12_0.ladyDict[var_12_4])
+		if var_12_3 then
+			arg_12_0:SyncInterestTransform(arg_12_0.ladyDict[var_12_3])
 		end
 
 		if SlideExtraSystem.IsOpen(arg_12_0.room) and arg_12_0.contextData.inFurnitureName == SlideConst.SLIDE_ZONE then
@@ -897,6 +895,7 @@ end
 
 function var_0_0.InitCharacter(arg_77_0, arg_77_1, arg_77_2)
 	arg_77_1:InitCharacter(arg_77_2)
+	Dorm3dHxHelper.HideCharacterPart(arg_77_1.lady)
 	arg_77_0:HXCharacter(arg_77_1.lady)
 	arg_77_1:SetZone(arg_77_0.contextData.ladyZone[arg_77_2])
 	arg_77_0:ChangeCharacterPosition(arg_77_1)
@@ -2248,6 +2247,14 @@ end
 
 function var_0_0.ExitIKStatus(arg_211_0, arg_211_1, arg_211_2, arg_211_3, arg_211_4)
 	arg_211_0.enableIKTip = false
+
+	if arg_211_0.ikSwitchSkinId then
+		local var_211_0 = arg_211_0.apartment:GetConfigID()
+
+		arg_211_1:SwitchCharacterSkin(var_211_0, arg_211_0.ikSwitchSkinId)
+
+		arg_211_0.ikSwitchSkinId = nil
+	end
 
 	setActive(arg_211_1.ladyCollider, true)
 	_.each(arg_211_1.ladyTouchColliders, function(arg_212_0)
@@ -3672,6 +3679,7 @@ function var_0_0.LoadTimelineScene(arg_359_0, arg_359_1, arg_359_2, arg_359_3, a
 		loadSceneFunc = function(arg_360_0, arg_360_1)
 			local var_360_0 = Dorm3dHxHelper.GetTimelineMainCharacter()
 
+			Dorm3dHxHelper.HideCharacterPart(var_360_0)
 			arg_359_0:HXCharacter(var_360_0)
 		end
 	}, arg_359_4)

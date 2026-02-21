@@ -31,7 +31,7 @@ return {
 	time = 0,
 	color = "red",
 	picture = "",
-	desc = "主炮每进行8次攻击，触发全弹发射-朱萨诺级II",
+	desc = "主炮每进行8次攻击，触发全弹发射-朱塞诺级II",
 	stack = 1,
 	id = 28272,
 	icon = 20100,

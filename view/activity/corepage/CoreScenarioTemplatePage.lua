@@ -14,6 +14,7 @@ end
 function var_0_0.OnInit(arg_2_0)
 	arg_2_0.storyLayer = arg_2_0._tf:Find("Story")
 	arg_2_0.top = arg_2_0._tf:Find("TopPage")
+	arg_2_0.bg = arg_2_0._tf:Find("bg")
 	arg_2_0.storyHolder = arg_2_0._tf:Find("Story/Nodes")
 	arg_2_0.storyContainer = arg_2_0.storyHolder:Find("Viewport/Content")
 	arg_2_0.nodes = {}
@@ -78,6 +79,10 @@ function var_0_0.OnInit(arg_2_0)
 		arg_2_0.event:emit(BaseUI.ON_HOME)
 	end, SFX_PANEL)
 	setText(arg_2_0._tf:Find("TopPage/Desc/Desc"), i18n("series_enemy_storyreward"))
+
+	arg_2_0.mapGroup = {}
+	arg_2_0.currentBG = nil
+	arg_2_0.loader = AutoLoader.New()
 end
 
 function var_0_0.SetCoreStoryPage(arg_5_0, arg_5_1)
@@ -699,9 +704,6 @@ function var_0_0.UpdateStory(arg_19_0, arg_19_1)
 
 				PlayerPrefs.SetInt("player_" .. var_35_0 .. "_activity_spStoryNodeID_" .. var_19_20 .. "_unlock", 1)
 				arg_19_0:UpdateView(true)
-
-				arg_19_0.needFocusStory = true
-
 				arg_19_0:Move2UnlockStory()
 			end)
 
@@ -773,9 +775,6 @@ function var_0_0.UpdateStory(arg_19_0, arg_19_1)
 
 				arg_19_0:PlayStory(var_37_0, function()
 					arg_19_0:UpdateView(true)
-
-					arg_19_0.needFocusStory = true
-
 					arg_19_0:Move2UnlockStory()
 				end, true)
 			end)
@@ -828,12 +827,6 @@ function var_0_0.DequeItem(arg_40_0, arg_40_1, arg_40_2)
 end
 
 function var_0_0.Move2UnlockStory(arg_41_0)
-	if not arg_41_0.needFocusStory then
-		return
-	end
-
-	arg_41_0.needFocusStory = nil
-
 	local var_41_0 = arg_41_0.spStoryNodes
 	local var_41_1
 
@@ -883,7 +876,7 @@ function var_0_0.SwitchStoryMapAndBGM(arg_42_0)
 	end
 
 	if var_42_0 ~= nil and var_42_0 ~= "" then
-		arg_42_0.coreStoryPage:SwitchBG({
+		arg_42_0:SwitchBG({
 			{
 				BG = var_42_0
 			}
@@ -895,94 +888,122 @@ function var_0_0.SwitchStoryMapAndBGM(arg_42_0)
 	end
 end
 
-function var_0_0.TrySubmitTask(arg_43_0)
-	local var_43_0 = true
+function var_0_0.SwitchBG(arg_43_0, arg_43_1, arg_43_2, arg_43_3)
+	if not arg_43_1 or #arg_43_1 <= 0 then
+		existCall(arg_43_2)
 
-	for iter_43_0, iter_43_1 in ipairs(arg_43_0.spStoryNodes) do
-		local var_43_1 = iter_43_1:GetStoryName()
+		return
+	elseif arg_43_3 then
+		-- block empty
+	elseif table.equal(arg_43_0.currentBG, arg_43_1) then
+		return
+	end
 
-		if var_43_1 and var_43_1 ~= "" then
-			var_43_0 = var_43_0 and pg.NewStoryMgr.GetInstance():IsPlayed(var_43_1)
+	arg_43_0.currentBG = arg_43_1
+
+	for iter_43_0, iter_43_1 in ipairs(arg_43_0.mapGroup) do
+		arg_43_0.loader:ClearRequest(iter_43_1)
+	end
+
+	table.clear(arg_43_0.mapGroup)
+
+	local var_43_0 = arg_43_0.loader:GetSpriteDirect("bg/" .. arg_43_1[1].BG, "", function(arg_44_0)
+		setImageSprite(arg_43_0.bg, arg_44_0)
+		SetActive(arg_43_0.bg, true)
+	end)
+
+	table.insert(arg_43_0.mapGroup, var_43_0)
+end
+
+function var_0_0.TrySubmitTask(arg_45_0)
+	local var_45_0 = true
+
+	for iter_45_0, iter_45_1 in ipairs(arg_45_0.spStoryNodes) do
+		local var_45_1 = iter_45_1:GetStoryName()
+
+		if var_45_1 and var_45_1 ~= "" then
+			var_45_0 = var_45_0 and pg.NewStoryMgr.GetInstance():IsPlayed(var_45_1)
 		end
 
-		if not var_43_0 then
+		if not var_45_0 then
 			break
 		end
 	end
 
-	if var_43_0 and arg_43_0.storyTask and arg_43_0.storyTask:getTaskStatus() == 1 then
-		arg_43_0.coreStoryPage:emit(ActivityMediator.ON_TASK_SUBMIT, arg_43_0.storyTask)
+	if var_45_0 and arg_45_0.storyTask and arg_45_0.storyTask:getTaskStatus() == 1 then
+		arg_45_0.coreStoryPage:emit(ActivityMediator.ON_TASK_SUBMIT, arg_45_0.storyTask)
 
 		return
 	end
 end
 
-function var_0_0.PlayStory(arg_44_0, arg_44_1, arg_44_2, arg_44_3)
-	if not arg_44_1 then
-		return existCall(arg_44_2)
+function var_0_0.PlayStory(arg_46_0, arg_46_1, arg_46_2, arg_46_3)
+	if not arg_46_1 then
+		return existCall(arg_46_2)
 	end
 
-	local var_44_0 = pg.NewStoryMgr.GetInstance()
-	local var_44_1 = var_44_0:IsPlayed(arg_44_1)
+	local var_46_0 = pg.NewStoryMgr.GetInstance()
+	local var_46_1 = var_46_0:IsPlayed(arg_46_1)
 
 	seriesAsync({
-		function(arg_45_0)
-			if var_44_1 and not arg_44_3 then
-				return arg_45_0()
+		function(arg_47_0)
+			if var_46_1 and not arg_46_3 then
+				return arg_47_0()
 			end
 
-			local var_45_0 = tonumber(arg_44_1)
+			local var_47_0 = tonumber(arg_46_1)
 
-			if var_45_0 and var_45_0 > 0 then
-				arg_44_0.coreStoryPage:emit(ActivityMediator.GO_PERFORM_COMBAT, {
-					stageId = var_45_0
+			if var_47_0 and var_47_0 > 0 then
+				arg_46_0.coreStoryPage:emit(ActivityMediator.GO_PERFORM_COMBAT, {
+					stageId = var_47_0,
+					exitCallback = arg_46_2
 				})
 			else
-				var_44_0:Play(arg_44_1, arg_45_0, arg_44_3)
+				var_46_0:Play(arg_46_1, arg_47_0, arg_46_3)
 			end
 		end,
-		function(arg_46_0, ...)
-			existCall(arg_44_2, ...)
+		function(arg_48_0, ...)
+			existCall(arg_46_2, ...)
 		end
 	})
 end
 
-function var_0_0.UpdateStoryTask(arg_47_0)
-	local var_47_0 = arg_47_0.activity:getConfig("config_client").task_id
-	local var_47_1 = getProxy(TaskProxy):getTaskVO(var_47_0)
+function var_0_0.UpdateStoryTask(arg_49_0)
+	local var_49_0 = arg_49_0.activity:getConfig("config_client").task_id
+	local var_49_1 = getProxy(TaskProxy):getTaskVO(var_49_0)
 
-	if not var_47_1 then
-		errorMsg("Missing Activity Task ID : " .. var_47_0)
+	if not var_49_1 then
+		errorMsg("Missing Activity Task ID : " .. var_49_0)
 	end
 
-	arg_47_0.storyTask = var_47_1 or Task.New({
-		id = var_47_0
+	arg_49_0.storyTask = var_49_1 or Task.New({
+		id = var_49_0
 	})
 end
 
-function var_0_0.OnSubmitTaskDone(arg_48_0)
-	arg_48_0:UpdateView()
+function var_0_0.OnSubmitTaskDone(arg_50_0)
+	arg_50_0:UpdateView()
 end
 
-function var_0_0.Show(arg_49_0)
-	var_0_0.super.Show(arg_49_0)
-	arg_49_0:OverlayPanel(arg_49_0._tf)
-	arg_49_0:OverlayPanel(arg_49_0.topPage, {
+function var_0_0.Show(arg_51_0)
+	var_0_0.super.Show(arg_51_0)
+	arg_51_0:OverlayPanel(arg_51_0._tf)
+	arg_51_0:OverlayPanel(arg_51_0.topPage, {
 		stopTop = true
 	})
 end
 
-function var_0_0.Hide(arg_50_0)
-	arg_50_0:UnOverlayPanel(arg_50_0.topPage, arg_50_0._tf)
-	arg_50_0:UnOverlayPanel(arg_50_0._tf, arg_50_0._parentTf)
-	var_0_0.super.Hide(arg_50_0)
+function var_0_0.Hide(arg_52_0)
+	arg_52_0:UnOverlayPanel(arg_52_0.topPage, arg_52_0._tf)
+	arg_52_0:UnOverlayPanel(arg_52_0._tf, arg_52_0._parentTf)
+	var_0_0.super.Hide(arg_52_0)
 end
 
-function var_0_0.OnDestroy(arg_51_0)
-	arg_51_0:RecyclePools()
+function var_0_0.OnDestroy(arg_53_0)
+	arg_53_0:RecyclePools()
 
-	for iter_51_0, iter_51_1 in pairs(arg_51_0.pools) do
-		iter_51_1:Clear()
+	for iter_53_0, iter_53_1 in pairs(arg_53_0.pools) do
+		iter_53_1:Clear()
 	end
 end
 

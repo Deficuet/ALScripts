@@ -16,6 +16,16 @@ return {
 			arg_list = {
 				buff_id = 241
 			}
+		},
+		{
+			type = "BattleSkillEditTag",
+			casterAniEffect = "",
+			target_choise = "TargetAllHelp",
+			targetAniEffect = "",
+			arg_list = {
+				tag = "AirDominance_loworEqu",
+				operation = 1
+			}
 		}
 	}
 }

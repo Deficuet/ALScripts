@@ -7,11 +7,12 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_3 = var_1_0.isCardRequest
 	local var_1_4 = var_1_0.callback
 	local var_1_5 = var_1_0.reconnect
+	local var_1_6 = var_1_0.checkCanEnterMap
 
-	arg_1_0:GetIslandData(var_1_1, var_1_2, var_1_3, var_1_4, var_1_5)
+	arg_1_0:GetIslandData(var_1_1, var_1_2, var_1_3, var_1_4, var_1_5, var_1_6)
 end
 
-function var_0_0.GetIslandData(arg_2_0, arg_2_1, arg_2_2, arg_2_3, arg_2_4, arg_2_5)
+function var_0_0.GetIslandData(arg_2_0, arg_2_1, arg_2_2, arg_2_3, arg_2_4, arg_2_5, arg_2_6)
 	if LOCK_ISLAND_DISPLAY then
 		return
 	end
@@ -65,6 +66,13 @@ function var_0_0.GetIslandData(arg_2_0, arg_2_1, arg_2_2, arg_2_3, arg_2_4, arg_
 		end
 
 		arg_2_0:AfterIslandInit()
+
+		if arg_2_6 then
+			existCall(arg_2_6)
+
+			return
+		end
+
 		arg_2_0:sendNotification(GAME.ISLAND_ENTER_MAP, {
 			islandId = arg_2_1,
 			mapId = var_3_1:GetMapId(),

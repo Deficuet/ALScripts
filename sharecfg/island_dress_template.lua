@@ -64,7 +64,7 @@ pg.island_dress_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -99,7 +99,7 @@ pg.island_dress_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -196,7 +196,7 @@ pg.island_dress_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -233,10 +233,149 @@ pg.island_dress_template = {
 		},
 		jump_page = {
 			{
-				"开发商店",
+				"ショップ",
 				{}
 			}
 		}
+	},
+	[1010008] = {
+		name = "即興ストリング",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 1,
+		attachmentPoint = "Bip001 Spine1",
+		remove = 1,
+		desc = "背中のギターが軽やかな音を鳴らす。まるで気ままな即興演奏のように。",
+		sub_type = 0,
+		model = "island/item/03/39010/prefab/pre_item_03_39010",
+		icon = "dress_1010008",
+		quality = 4,
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1010008,
+		scale = "",
+		face_clip = "",
+		offset = {
+			0.333,
+			-0.443,
+			0.132
+		},
+		rotation = {
+			97.81299,
+			-248.012,
+			-129.758
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[1010009] = {
+		quality = 4,
+		related_dress = 0,
+		name = "構想コンパス",
+		type = 1,
+		exclusive_default_skin = "",
+		remove = 1,
+		attachmentPoint = "Bip001 Spine1",
+		desc = "描くのは図形ではなく、最も優雅にして整然な構想そのもの。",
+		belongto = 1,
+		sub_type = 0,
+		model = "island/item/03/39021/prefab/pre_item_03_39021",
+		tech_id = 0,
+		id = 1010009,
+		icon = "dress_1010009",
+		exclusive_skin = "",
+		face_clip = "",
+		offset = {
+			0.493,
+			-0.401,
+			-0.117
+		},
+		rotation = {
+			95.85,
+			-285.468,
+			-216.082
+		},
+		scale = {
+			0.9
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[1010010] = {
+		quality = 4,
+		related_dress = 0,
+		name = "調整レンチ",
+		type = 1,
+		exclusive_default_skin = "",
+		remove = 1,
+		attachmentPoint = "Bip001 Spine1",
+		desc = "各種機械を調整するための万能レンチ。周りの設備に「ネジの締め直し」が必要か、いつでも確認できる。",
+		belongto = 1,
+		sub_type = 0,
+		model = "island/item/03/39016/prefab/pre_item_03_39016",
+		tech_id = 0,
+		id = 1010010,
+		icon = "dress_1010010",
+		exclusive_skin = "",
+		face_clip = "",
+		offset = {
+			0.254,
+			-0.378,
+			-0.389
+		},
+		rotation = {
+			96.26,
+			51,
+			76.542
+		},
+		scale = {
+			0.9
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[1010011] = {
+		name = "低語ウォッチ",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 1,
+		attachmentPoint = "Bip001 Spine1",
+		remove = 1,
+		desc = "カチッ、カチッと音を刻む精巧なアンティーク懐中時計。まるで時間が耳元で囁いているかのようだ。",
+		sub_type = 0,
+		model = "island/item/03/39024/prefab/pre_item_03_39024",
+		icon = "dress_1010011",
+		quality = 4,
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1010011,
+		scale = "",
+		face_clip = "",
+		offset = {
+			0.1,
+			-0.433,
+			0.015
+		},
+		rotation = {
+			96.72101,
+			40.97,
+			97.392
+		},
+		jump_page = {}
 	},
 	[1020001] = {
 		name = "艦船ビット",
@@ -268,7 +407,7 @@ pg.island_dress_template = {
 		},
 		jump_page = {
 			{
-				"开发商店",
+				"ショップ",
 				{}
 			}
 		}
@@ -303,7 +442,7 @@ pg.island_dress_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -338,7 +477,7 @@ pg.island_dress_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -433,10 +572,145 @@ pg.island_dress_template = {
 		},
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
+	},
+	[1020007] = {
+		name = "ポップンサボテン",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 2,
+		attachmentPoint = "",
+		remove = 1,
+		desc = "陽気な帽子をかぶったサボテンと一緒に、リズムに合わせて体を動かそう♪",
+		sub_type = 0,
+		model = "island/item/03/39012/prefab/pre_item_03_39012",
+		icon = "dress_1020007",
+		quality = 4,
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1020007,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.737,
+			1.147,
+			-0.037
+		},
+		rotation = {
+			0,
+			13.045,
+			0
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[1020008] = {
+		name = "愛読の本",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 2,
+		attachmentPoint = "",
+		remove = 1,
+		desc = "自動でページがめくられる分厚い教科書。きちんと読み終えるまでずっと眼の前にいるぞ！",
+		sub_type = 0,
+		model = "island/item/03/39022/prefab/pre_item_03_39022",
+		icon = "dress_1020008",
+		quality = 4,
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1020008,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.731,
+			1.285,
+			-0.037
+		},
+		rotation = {
+			25.879,
+			32.29,
+			3.881
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[1020009] = {
+		name = "万能ボックス",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 2,
+		attachmentPoint = "",
+		remove = 1,
+		desc = "カチャカチャと音を立てている、ずっしりとした工具箱。どんな突発的なトラブルにも即座に対応できる道具を取り出せる。",
+		sub_type = 0,
+		model = "island/item/03/39018/prefab/pre_item_03_39018",
+		icon = "dress_1020009",
+		quality = 4,
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1020009,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.786,
+			1.487,
+			-0.037
+		},
+		rotation = {
+			0,
+			35.282,
+			0
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[1020010] = {
+		name = "星に花を",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 2,
+		attachmentPoint = "",
+		remove = 1,
+		desc = "ほのかな香りをまとったブルースターの花束。傍らに優雅に浮遊し、懐かしきロマンを添えてくれる。",
+		sub_type = 0,
+		model = "island/item/03/39030/prefab/pre_item_03_39030",
+		icon = "dress_1020010",
+		quality = 4,
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1020010,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.654,
+			1.147,
+			-0.049
+		},
+		rotation = {
+			-26.017,
+			-20.698,
+			-2.981
+		},
+		jump_page = {}
 	},
 	[1030001] = {
 		name = "波歩き",
@@ -482,7 +756,7 @@ pg.island_dress_template = {
 		face_clip = "",
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -509,7 +783,7 @@ pg.island_dress_template = {
 		face_clip = "",
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -580,10 +854,113 @@ pg.island_dress_template = {
 		face_clip = "",
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
+	},
+	[1030007] = {
+		name = "旅人の帰途",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 3,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "馬にまたがり、風塵と物語を連れて、温かな灯りと喧騒を目指して駆けていく。",
+		sub_type = 0,
+		model = "island/item/03/39014/prefab/pre_item_03_39014",
+		icon = "dress_1030007",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1030007,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[1030008] = {
+		name = "思想の足跡",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 3,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "歩みの中で、理性的な計算と論理を一歩ずつ大地に刻み込んでいく。",
+		sub_type = 0,
+		model = "island/item/03/39023/prefab/pre_item_03_39023",
+		icon = "dress_1030008",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1030008,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[1030009] = {
+		name = "オン・クロック",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 3,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "寸分の狂いもなく回転する歯車は、休日だろうとストイックに働く。",
+		sub_type = 0,
+		model = "island/item/03/39020/prefab/pre_item_03_39020",
+		icon = "dress_1030009",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1030009,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[1030010] = {
+		name = "アイリスの紋章",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 3,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "青と白のツートンの、尊きアイリスの模様。貴族の紋章の如く刻まれたエレガントな足跡。",
+		sub_type = 0,
+		model = "island/item/03/39031/prefab/pre_item_03_39031",
+		icon = "dress_1030010",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1030010,
+		scale = "",
+		face_clip = "",
+		jump_page = {}
 	},
 	[1040001] = {
 		name = "クール",
@@ -849,7 +1226,7 @@ pg.island_dress_template = {
 		face_clip = "",
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -876,7 +1253,7 @@ pg.island_dress_template = {
 		face_clip = "",
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -903,7 +1280,7 @@ pg.island_dress_template = {
 		face_clip = "",
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -930,7 +1307,88 @@ pg.island_dress_template = {
 		face_clip = "",
 		jump_page = {
 			{
-				"图鉴",
+				"図鑑",
+				{}
+			}
+		}
+	},
+	[1060007] = {
+		name = "学園教師",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 6,
+		attachmentPoint = "",
+		remove = 0,
+		rotation = "",
+		desc = "白シャツに黒ネクタイの定番ワークスタイル。さらに黒縁メガネをかければ、教師らしい威厳が強く出るだろう。",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_06_body_component_desc",
+		icon = "dress_1060007",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1060007,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[1060008] = {
+		name = "修理屋",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 6,
+		attachmentPoint = "",
+		remove = 0,
+		rotation = "",
+		desc = "ポケットに整備工具がぎっしり詰め込まれた作業用エプロン。フライトキャップとゴーグルをつけて、次の故障現場へと急行しよう。",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_08_body_component_desc",
+		icon = "dress_1060008",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1060008,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[1060009] = {
+		name = "ウェスタンボーイ",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 6,
+		attachmentPoint = "",
+		remove = 0,
+		rotation = "",
+		desc = "ゆったりとした襟元と裾に、ポンチョ、ガンナーの小物。自由奔放な西部のカウボーイらしさが一目で伝わってくる。",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_10_body_component_desc",
+		icon = "dress_1060009",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1060009,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"星彩賞",
 				{}
 			}
 		}
@@ -1001,7 +1459,7 @@ pg.island_dress_template = {
 		face_clip = "",
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1028,7 +1486,7 @@ pg.island_dress_template = {
 		face_clip = "",
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1055,7 +1513,7 @@ pg.island_dress_template = {
 		face_clip = "",
 		jump_page = {
 			{
-				"星彩赏",
+				"星彩賞",
 				{}
 			}
 		}
@@ -1082,7 +1540,88 @@ pg.island_dress_template = {
 		face_clip = "",
 		jump_page = {
 			{
-				"图鉴",
+				"図鑑",
+				{}
+			}
+		}
+	},
+	[1070007] = {
+		name = "学園教師のメガネ",
+		related_dress = 1060007,
+		exclusive_default_skin = "",
+		type = 7,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "不显示",
+		sub_type = 1,
+		model = "island/character/9001/prefab/9001_06_headware_component_desc",
+		icon = "dress_1060007",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1070007,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[1070008] = {
+		name = "修理屋の帽子",
+		related_dress = 1060008,
+		exclusive_default_skin = "",
+		type = 7,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "不显示",
+		sub_type = 2,
+		model = "island/character/9001/prefab/9001_08_headware_component_desc",
+		icon = "dress_1060008",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1070008,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[1070009] = {
+		name = "ウェスタンボーイの帽子",
+		related_dress = 1060009,
+		exclusive_default_skin = "",
+		type = 7,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "不显示",
+		sub_type = 1,
+		model = "island/character/9001/prefab/9001_10_headware_component_desc",
+		icon = "dress_1060009",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1070009,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"星彩賞",
 				{}
 			}
 		}
@@ -1155,7 +1694,105 @@ pg.island_dress_template = {
 		},
 		jump_page = {
 			{
-				"图鉴",
+				"図鑑",
+				{}
+			}
+		}
+	},
+	[2010003] = {
+		quality = 4,
+		related_dress = 0,
+		name = "釣りの趣",
+		type = 1,
+		attachmentPoint = "Bip001 Spine1",
+		remove = 1,
+		belongto = 2,
+		desc = "手編みの釣りカゴ風のバッグ。鮮やかな潮風のニオイがする",
+		tech_id = 0,
+		sub_type = 0,
+		model = "island/item/03/39007/prefab/pre_item_03_39007",
+		id = 2010003,
+		icon = "dress_2010003",
+		face_clip = "",
+		offset = {
+			0.2050954,
+			-0.4134511,
+			0.04644482
+		},
+		rotation = {
+			-82.265,
+			58.605,
+			30.972
+		},
+		scale = {
+			0.9
+		},
+		exclusive_default_skin = {
+			30407,
+			10205,
+			10517,
+			20603,
+			30129,
+			30312,
+			31201,
+			40303,
+			49902,
+			90111,
+			70104
+		},
+		exclusive_skin = {
+			3040701,
+			1020501,
+			3031201,
+			3120101,
+			4030301
+		},
+		jump_page = {
+			{
+				"ショップ",
+				{}
+			}
+		}
+	},
+	[2010004] = {
+		quality = 4,
+		related_dress = 0,
+		name = "純白リボンウィング",
+		type = 1,
+		attachmentPoint = "Bip001 Spine1",
+		remove = 1,
+		belongto = 2,
+		desc = "白いリボンからなる一対の翼。次の瞬間には蝶のように舞い上がりそうだ。",
+		tech_id = 0,
+		sub_type = 0,
+		model = "island/item/03/39009/prefab/pre_item_03_39009",
+		id = 2010004,
+		icon = "dress_2010004",
+		face_clip = "",
+		offset = {
+			0.1559165,
+			-0.5911449,
+			0.05696252
+		},
+		rotation = {
+			-35.17,
+			95.366,
+			-8.63
+		},
+		scale = {
+			0.9
+		},
+		exclusive_default_skin = {
+			30407,
+			10110
+		},
+		exclusive_skin = {
+			3040701,
+			1011001
+		},
+		jump_page = {
+			{
+				"ショップ",
 				{}
 			}
 		}
@@ -1212,7 +1849,7 @@ pg.island_dress_template = {
 		},
 		jump_page = {
 			{
-				"图鉴",
+				"図鑑",
 				{}
 			}
 		}
@@ -1242,6 +1879,72 @@ pg.island_dress_template = {
 			-0.043
 		},
 		jump_page = {}
+	},
+	[2020004] = {
+		name = "夢幻泡影",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 2,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "透き通るバブルが動くたびに揺らめき、日差しの中で夢のような輝きを反射する",
+		sub_type = 0,
+		model = "island/item/03/37005/prefab/pre_item_03_37005",
+		icon = "dress_2020004",
+		quality = 4,
+		belongto = 2,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 2020004,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.671,
+			1.522,
+			-0.043
+		},
+		jump_page = {
+			{
+				"ショップ",
+				{}
+			}
+		}
+	},
+	[2020005] = {
+		name = "拭き拭きはたき",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 2,
+		attachmentPoint = "",
+		remove = 1,
+		desc = "軽くて使いやすいはたき。長風が愛用する清掃道具。",
+		sub_type = 0,
+		model = "island/item/03/39011/prefab/pre_item_03_39011",
+		icon = "dress_2020005",
+		quality = 4,
+		belongto = 2,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 2020005,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.683,
+			1.084,
+			-0.112
+		},
+		rotation = {
+			-2.847,
+			-1.864,
+			25.627
+		},
+		jump_page = {
+			{
+				"ショップ",
+				{}
+			}
+		}
 	},
 	[2030001] = {
 		name = "肉球の波紋",
@@ -1331,6 +2034,60 @@ pg.island_dress_template = {
 		face_clip = "",
 		jump_page = {}
 	},
+	[2030005] = {
+		name = "密影遊魚",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 3,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "白波を歩み、足跡に影の遊魚を残す。",
+		sub_type = 0,
+		model = "island/item/03/38005/prefab/pre_item_03_38005",
+		icon = "dress_2030005",
+		quality = 4,
+		belongto = 2,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 2030005,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"ショップ",
+				{}
+			}
+		}
+	},
+	[2030006] = {
+		name = "メモリアルレース",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 3,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "まるでメイド衣装の繊細な縁飾りからこっそり抜け出したかのように、足跡にもレース模様が飾られている。",
+		sub_type = 0,
+		model = "island/item/03/39013/prefab/pre_item_03_39013",
+		icon = "dress_2030006",
+		quality = 4,
+		belongto = 2,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 2030006,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"ショップ",
+				{}
+			}
+		}
+	},
 	get_id_list_by_type = {
 		{
 			1010001,
@@ -1340,8 +2097,14 @@ pg.island_dress_template = {
 			1010005,
 			1010006,
 			1010007,
+			1010008,
+			1010009,
+			1010010,
+			1010011,
 			2010001,
-			2010002
+			2010002,
+			2010003,
+			2010004
 		},
 		{
 			1020001,
@@ -1350,9 +2113,15 @@ pg.island_dress_template = {
 			1020004,
 			1020005,
 			1020006,
+			1020007,
+			1020008,
+			1020009,
+			1020010,
 			2020001,
 			2020002,
-			2020003
+			2020003,
+			2020004,
+			2020005
 		},
 		{
 			1030001,
@@ -1361,10 +2130,16 @@ pg.island_dress_template = {
 			1030004,
 			1030005,
 			1030006,
+			1030007,
+			1030008,
+			1030009,
+			1030010,
 			2030001,
 			2030002,
 			2030003,
-			2030004
+			2030004,
+			2030005,
+			2030006
 		},
 		{
 			1040001,
@@ -1385,7 +2160,10 @@ pg.island_dress_template = {
 			1060003,
 			1060004,
 			1060005,
-			1060006
+			1060006,
+			1060007,
+			1060008,
+			1060009
 		},
 		{
 			1070001,
@@ -1393,7 +2171,10 @@ pg.island_dress_template = {
 			1070003,
 			1070004,
 			1070005,
-			1070006
+			1070006,
+			1070007,
+			1070008,
+			1070009
 		}
 	},
 	get_id_list_by_related_dress = {
@@ -1405,18 +2186,30 @@ pg.island_dress_template = {
 			1010005,
 			1010006,
 			1010007,
+			1010008,
+			1010009,
+			1010010,
+			1010011,
 			1020001,
 			1020002,
 			1020003,
 			1020004,
 			1020005,
 			1020006,
+			1020007,
+			1020008,
+			1020009,
+			1020010,
 			1030001,
 			1030002,
 			1030003,
 			1030004,
 			1030005,
 			1030006,
+			1030007,
+			1030008,
+			1030009,
+			1030010,
 			1040001,
 			1040002,
 			1040003,
@@ -1432,15 +2225,24 @@ pg.island_dress_template = {
 			1060004,
 			1060005,
 			1060006,
+			1060007,
+			1060008,
+			1060009,
 			2010001,
 			2010002,
+			2010003,
+			2010004,
 			2020001,
 			2020002,
 			2020003,
+			2020004,
+			2020005,
 			2030001,
 			2030002,
 			2030003,
-			2030004
+			2030004,
+			2030005,
+			2030006
 		},
 		[1060001] = {
 			1070001
@@ -1459,6 +2261,15 @@ pg.island_dress_template = {
 		},
 		[1060006] = {
 			1070006
+		},
+		[1060007] = {
+			1070007
+		},
+		[1060008] = {
+			1070008
+		},
+		[1060009] = {
+			1070009
 		}
 	},
 	all = {
@@ -1469,18 +2280,30 @@ pg.island_dress_template = {
 		1010005,
 		1010006,
 		1010007,
+		1010008,
+		1010009,
+		1010010,
+		1010011,
 		1020001,
 		1020002,
 		1020003,
 		1020004,
 		1020005,
 		1020006,
+		1020007,
+		1020008,
+		1020009,
+		1020010,
 		1030001,
 		1030002,
 		1030003,
 		1030004,
 		1030005,
 		1030006,
+		1030007,
+		1030008,
+		1030009,
+		1030010,
 		1040001,
 		1040002,
 		1040003,
@@ -1496,20 +2319,32 @@ pg.island_dress_template = {
 		1060004,
 		1060005,
 		1060006,
+		1060007,
+		1060008,
+		1060009,
 		1070001,
 		1070002,
 		1070003,
 		1070004,
 		1070005,
 		1070006,
+		1070007,
+		1070008,
+		1070009,
 		2010001,
 		2010002,
+		2010003,
+		2010004,
 		2020001,
 		2020002,
 		2020003,
+		2020004,
+		2020005,
 		2030001,
 		2030002,
 		2030003,
-		2030004
+		2030004,
+		2030005,
+		2030006
 	}
 }

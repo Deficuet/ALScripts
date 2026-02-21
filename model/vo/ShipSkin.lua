@@ -19,6 +19,8 @@ var_0_0.WITH_CHANGE = 8
 var_0_0.WITH_LIVE2D_PLUS = 9
 var_0_0.WITH_DOUBLE_VIOCE = 10
 var_0_0.WITH_ASMR = 11
+var_0_0.VOICE_LANG_JP = 1
+var_0_0.VOICE_LANG_CN = 2
 
 function var_0_0.Tag2Name(arg_1_0)
 	if not var_0_0.Tag2NameTab then

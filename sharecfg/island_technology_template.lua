@@ -37,7 +37,8 @@ pg.island_technology_template = setmetatable({
 			110309,
 			120005,
 			110310,
-			120006
+			120006,
+			120007
 		},
 		{
 			210101,
@@ -118,7 +119,19 @@ pg.island_technology_template = setmetatable({
 			430304,
 			450301,
 			440304,
-			450302
+			450302,
+			460001,
+			460002,
+			460101,
+			460301,
+			460102,
+			460302,
+			460201,
+			460202,
+			460203,
+			460204,
+			460205,
+			460206
 		},
 		{
 			500211,
@@ -188,6 +201,7 @@ pg.island_technology_template = setmetatable({
 			660202,
 			660203,
 			650001,
+			630205,
 			630204,
 			660204,
 			640204,
@@ -237,6 +251,7 @@ pg.island_technology_template = setmetatable({
 		120005,
 		110310,
 		120006,
+		120007,
 		210101,
 		220101,
 		220501,
@@ -312,6 +327,18 @@ pg.island_technology_template = setmetatable({
 		450301,
 		440304,
 		450302,
+		460001,
+		460002,
+		460101,
+		460301,
+		460102,
+		460302,
+		460201,
+		460202,
+		460203,
+		460204,
+		460205,
+		460206,
 		500211,
 		500212,
 		500231,
@@ -377,6 +404,7 @@ pg.island_technology_template = setmetatable({
 		660202,
 		660203,
 		650001,
+		630205,
 		630204,
 		660204,
 		640204,
@@ -1529,6 +1557,40 @@ pg.base.island_technology_template = {
 		axis = {
 			28,
 			1
+		}
+	},
+	[120007] = {
+		tech_desc = "プリンツ・オイゲンの離島権限認証装置を生産する。もっと仲間を招待しよう！",
+		tech_chara = 1,
+		tech_level = "1",
+		complete_character_id = "",
+		tech_icon = "tech_120001",
+		auto_finish = 1,
+		tech_name = "認証追加",
+		complete_tips = "<color=#1E8FFE>離島権限認証装置</color>で仲間を加入させることができます",
+		formula_id = 7120007,
+		complete_title = "<color=#1E8FFE>離島権限認証装置</color>で仲間を加入させることができます",
+		tech_belong = 1,
+		id = 120007,
+		island_level = 50,
+		complete_map_id = 1007,
+		sys_unlock = {
+			{
+				3,
+				110310
+			},
+			{
+				3,
+				120006
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		axis = {
+			28,
+			2
 		}
 	},
 	[210101] = {
@@ -3408,7 +3470,7 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			1,
-			7
+			6
 		}
 	},
 	[430301] = {
@@ -3439,8 +3501,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			4,
-			5
+			6,
+			4.5
 		}
 	},
 	[430302] = {
@@ -3471,8 +3533,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			7,
-			5
+			9,
+			4.5
 		}
 	},
 	[440301] = {
@@ -3503,8 +3565,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			7,
-			7
+			4,
+			6
 		}
 	},
 	[440302] = {
@@ -3535,8 +3597,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			10,
-			7
+			7,
+			6
 		}
 	},
 	[420303] = {
@@ -3567,7 +3629,7 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			10,
+			11,
 			3
 		}
 	},
@@ -3599,7 +3661,7 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			10,
+			11,
 			1
 		}
 	},
@@ -3632,7 +3694,7 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			13,
-			5
+			4.5
 		}
 	},
 	[410304] = {
@@ -3663,7 +3725,7 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			13,
+			14,
 			1
 		}
 	},
@@ -3695,8 +3757,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			13,
-			7
+			10,
+			6
 		}
 	},
 	[410305] = {
@@ -3727,7 +3789,7 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			16,
+			17,
 			1
 		}
 	},
@@ -3759,7 +3821,7 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			16,
+			17,
 			3
 		}
 	},
@@ -3791,8 +3853,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			16,
-			5
+			19,
+			4.5
 		}
 	},
 	[450301] = {
@@ -3817,7 +3879,7 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			16,
-			9
+			6
 		}
 	},
 	[440304] = {
@@ -3848,8 +3910,8 @@ pg.base.island_technology_template = {
 			100500
 		},
 		axis = {
-			16,
-			7
+			13,
+			6
 		}
 	},
 	[450302] = {
@@ -3879,7 +3941,415 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			19,
-			9
+			6
+		}
+	},
+	[460001] = {
+		tech_desc = "釣り竿レベルアップ！これでもっとレアな魚が釣れるよ！",
+		tech_chara = 1,
+		tech_level = "1",
+		tech_belong = 4,
+		tech_icon = "tech_460001",
+		auto_finish = 1,
+		tech_name = "釣り竿強化Ⅰ",
+		complete_tips = "<color=#1E8FFE>釣りスポット</color>で確認できます",
+		formula_id = 7460001,
+		complete_title = "<color=#1E8FFE>釣りスポット</color>で確認できます",
+		id = 460001,
+		island_level = 18,
+		complete_map_id = 1002,
+		sys_unlock = {
+			{
+				1,
+				20016001
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			101800
+		},
+		axis = {
+			1,
+			8
+		}
+	},
+	[460002] = {
+		tech_desc = "釣り竿レベルアップ！これでもっとレアな魚が釣れるよ！",
+		tech_chara = 1,
+		tech_level = "2",
+		tech_belong = 4,
+		tech_icon = "tech_460002",
+		auto_finish = 1,
+		tech_name = "釣り竿強化Ⅱ",
+		complete_tips = "<color=#1E8FFE>釣りスポット</color>で確認できます",
+		formula_id = 7460002,
+		complete_title = "<color=#1E8FFE>釣りスポット</color>で確認できます",
+		id = 460002,
+		island_level = 27,
+		complete_map_id = 1002,
+		sys_unlock = {
+			{
+				3,
+				460001
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			101800
+		},
+		axis = {
+			4,
+			8
+		}
+	},
+	[460101] = {
+		tech_desc = "いけすの配置枠を増やし、魚介類の生産量を上げる",
+		tech_chara = 1,
+		tech_level = "1",
+		tech_belong = 4,
+		tech_icon = "tech_460101",
+		auto_finish = 1,
+		tech_name = "いけす管理枠＋Ⅰ",
+		complete_tips = "<color=#1E8FFE>いけすのブリテン</color>で仲間を<color=#1E8FFE>魚介類養殖</color>に配置できます",
+		formula_id = 7460101,
+		complete_title = "<color=#1E8FFE>いけすのブリテン</color>で仲間を<color=#1E8FFE>魚介類養殖</color>に配置できます",
+		id = 460101,
+		island_level = 20,
+		complete_map_id = 1002,
+		sys_unlock = {
+			{
+				1,
+				20016003
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			101800
+		},
+		axis = {
+			7,
+			8
+		}
+	},
+	[460301] = {
+		tech_desc = "いけすの養殖効率を向上させ、資源の入手をより便利に",
+		tech_chara = 1,
+		tech_level = "1",
+		tech_belong = 4,
+		tech_icon = "tech_460301",
+		auto_finish = 1,
+		tech_name = "魚養殖効率＋Ⅰ",
+		complete_tips = "<color=#1E8FFE>いけすのブリテン</color>で仲間を<color=#1E8FFE>魚介類養殖</color>に配置できます",
+		formula_id = 7460301,
+		complete_title = "<color=#1E8FFE>いけすのブリテン</color>で仲間を<color=#1E8FFE>魚介類養殖</color>に配置できます",
+		id = 460301,
+		island_level = 29,
+		complete_map_id = 1002,
+		sys_unlock = {
+			{
+				3,
+				460101
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			101800
+		},
+		axis = {
+			10,
+			8
+		}
+	},
+	[460102] = {
+		tech_desc = "いけすの配置枠を増やし、魚介類の生産量を上げる",
+		tech_chara = 1,
+		tech_level = "2",
+		tech_belong = 4,
+		tech_icon = "tech_460102",
+		auto_finish = 1,
+		tech_name = "いけす管理枠＋Ⅱ",
+		complete_tips = "<color=#1E8FFE>いけすのブリテン</color>で仲間を<color=#1E8FFE>魚介類養殖</color>に配置できます",
+		formula_id = 7460102,
+		complete_title = "<color=#1E8FFE>いけすのブリテン</color>で仲間を<color=#1E8FFE>魚介類養殖</color>に配置できます",
+		id = 460102,
+		island_level = 31,
+		complete_map_id = 1002,
+		sys_unlock = {
+			{
+				3,
+				460301
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			101800
+		},
+		axis = {
+			13,
+			8
+		}
+	},
+	[460302] = {
+		tech_desc = "いけすの養殖効率を向上させ、資源の入手をより便利に",
+		tech_chara = 1,
+		tech_level = "2",
+		tech_belong = 4,
+		tech_icon = "tech_460302",
+		auto_finish = 1,
+		tech_name = "魚養殖効率＋Ⅱ",
+		complete_tips = "<color=#1E8FFE>いけすのブリテン</color>で仲間を<color=#1E8FFE>魚介類養殖</color>に配置できます",
+		formula_id = 7460302,
+		complete_title = "<color=#1E8FFE>いけすのブリテン</color>で仲間を<color=#1E8FFE>魚介類養殖</color>に配置できます",
+		id = 460302,
+		island_level = 34,
+		complete_map_id = 1002,
+		sys_unlock = {
+			{
+				3,
+				460102
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			101800
+		},
+		axis = {
+			16,
+			8
+		}
+	},
+	[460201] = {
+		tech_desc = "フィッシュ&チップスのレシピ",
+		tech_chara = 1,
+		tech_level = "1",
+		tech_belong = 4,
+		tech_icon = "tech_460201",
+		auto_finish = 1,
+		tech_name = "フィッシュ&チップス",
+		complete_tips = "<color=#1E8FFE>商店街のアムマーマー</color>の<color=#1E8FFE>有魚飯店</color>で確認できます",
+		formula_id = 7460201,
+		complete_title = "<color=#1E8FFE>商店街のアムマーマー</color>の<color=#1E8FFE>有魚飯店</color>で確認できます",
+		id = 460201,
+		island_level = 12,
+		complete_map_id = 1006,
+		sys_unlock = {
+			{
+				1,
+				10003020
+			},
+			{
+				1,
+				20016003
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100800
+		},
+		axis = {
+			1,
+			9.5
+		}
+	},
+	[460202] = {
+		tech_desc = "魚の玉ねぎ蒸しのレシピ",
+		tech_chara = 1,
+		tech_level = "1",
+		tech_belong = 4,
+		tech_icon = "tech_460202",
+		auto_finish = 1,
+		tech_name = "魚の玉ねぎ蒸し",
+		complete_tips = "<color=#1E8FFE>商店街のアムマーマー</color>の<color=#1E8FFE>有魚飯店</color>で確認できます",
+		formula_id = 7460202,
+		complete_title = "<color=#1E8FFE>商店街のアムマーマー</color>の<color=#1E8FFE>有魚飯店</color>で確認できます",
+		id = 460202,
+		island_level = 18,
+		complete_map_id = 1006,
+		sys_unlock = {
+			{
+				1,
+				10003020
+			},
+			{
+				1,
+				20016003
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100800
+		},
+		axis = {
+			4,
+			9.5
+		}
+	},
+	[460203] = {
+		tech_desc = "さっぱりしたレモンエビのレシピ",
+		tech_chara = 1,
+		tech_level = "1",
+		tech_belong = 4,
+		tech_icon = "tech_460206",
+		auto_finish = 1,
+		tech_name = "レモンエビ",
+		complete_tips = "<color=#1E8FFE>商店街のアムマーマー</color>の<color=#1E8FFE>有魚飯店</color>で確認できます",
+		formula_id = 7460206,
+		complete_title = "<color=#1E8FFE>商店街のアムマーマー</color>の<color=#1E8FFE>有魚飯店</color>で確認できます",
+		id = 460203,
+		island_level = 21,
+		complete_map_id = 1006,
+		sys_unlock = {
+			{
+				1,
+				20016003
+			},
+			{
+				3,
+				540001
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100800
+		},
+		axis = {
+			7,
+			9.5
+		}
+	},
+	[460204] = {
+		tech_desc = "香ばしいザリガニ炒めのレシピ",
+		tech_chara = 1,
+		tech_level = "1",
+		tech_belong = 4,
+		tech_icon = "tech_460205",
+		auto_finish = 1,
+		tech_name = "ザリガニ炒め",
+		complete_tips = "<color=#1E8FFE>商店街のアムマーマー</color>の<color=#1E8FFE>有魚飯店</color>で確認できます",
+		formula_id = 7460205,
+		complete_title = "<color=#1E8FFE>商店街のアムマーマー</color>の<color=#1E8FFE>有魚飯店</color>で確認できます",
+		id = 460204,
+		island_level = 25,
+		complete_map_id = 1006,
+		sys_unlock = {
+			{
+				1,
+				20016003
+			},
+			{
+				3,
+				540001
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100800
+		},
+		axis = {
+			10,
+			9.5
+		}
+	},
+	[460205] = {
+		tech_desc = "贅沢食材のパエリアのレシピ",
+		tech_chara = 1,
+		tech_level = "1",
+		tech_belong = 4,
+		tech_icon = "tech_460203",
+		auto_finish = 1,
+		tech_name = "パエリア",
+		complete_tips = "<color=#1E8FFE>商店街のアムマーマー</color>の<color=#1E8FFE>有魚飯店</color>で確認できます",
+		formula_id = 7460203,
+		complete_title = "<color=#1E8FFE>商店街のアムマーマー</color>の<color=#1E8FFE>有魚飯店</color>で確認できます",
+		id = 460205,
+		island_level = 29,
+		complete_map_id = 1006,
+		sys_unlock = {
+			{
+				1,
+				20016003
+			},
+			{
+				3,
+				530001
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100800
+		},
+		axis = {
+			13,
+			9.5
+		}
+	},
+	[460206] = {
+		tech_desc = "スープが濃厚な佛跳牆のレシピ",
+		tech_chara = 1,
+		tech_level = "1",
+		tech_belong = 4,
+		tech_icon = "tech_460204",
+		auto_finish = 1,
+		tech_name = "佛跳牆",
+		complete_tips = "<color=#1E8FFE>商店街のアムマーマー</color>の<color=#1E8FFE>有魚飯店</color>で確認できます",
+		formula_id = 7460204,
+		complete_title = "<color=#1E8FFE>商店街のアムマーマー</color>の<color=#1E8FFE>有魚飯店</color>で確認できます",
+		id = 460206,
+		island_level = 36,
+		complete_map_id = 1006,
+		sys_unlock = {
+			{
+				1,
+				10003020
+			},
+			{
+				1,
+				20016003
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100800
+		},
+		axis = {
+			16,
+			9.5
 		}
 	},
 	[500211] = {
@@ -6032,6 +6502,38 @@ pg.base.island_technology_template = {
 			9
 		}
 	},
+	[630205] = {
+		tech_desc = "芸術的な雰囲気を添えてくれる装飾画を製作可能",
+		tech_chara = 1,
+		tech_level = "1",
+		tech_belong = 6,
+		tech_icon = "tech_630201",
+		auto_finish = 1,
+		tech_name = "装飾画製作",
+		complete_tips = "<color=#1E8FFE>基地工場</color>のラッセルに相談し<color=#1E8FFE>木材加工設備</color>にて製作可能",
+		formula_id = 7630205,
+		complete_title = "<color=#1E8FFE>基地工場</color>のラッセルに相談し<color=#1E8FFE>木材加工設備</color>にて製作可能",
+		id = 630205,
+		island_level = 24,
+		complete_map_id = 1007,
+		sys_unlock = {
+			{
+				3,
+				630203
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		complete_character_id = {
+			100900
+		},
+		axis = {
+			19,
+			3
+		}
+	},
 	[630204] = {
 		tech_desc = "ファイル保管用金属キャビネットを制作可能。",
 		tech_chara = 1,
@@ -6049,7 +6551,7 @@ pg.base.island_technology_template = {
 		sys_unlock = {
 			{
 				3,
-				630203
+				630205
 			}
 		},
 		tech_repeat = {
@@ -6060,7 +6562,7 @@ pg.base.island_technology_template = {
 			100900
 		},
 		axis = {
-			19,
+			22,
 			3
 		}
 	},

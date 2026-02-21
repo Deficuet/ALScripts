@@ -51,6 +51,7 @@ pg.island_buff_template = {
 			{
 				101,
 				102,
+				201,
 				401,
 				402,
 				501,
@@ -3126,6 +3127,1036 @@ pg.island_buff_template = {
 		},
 		buff_duel = {}
 	},
+	[10150] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "威廉D波特",
+		buff_type = 101,
+		buff_level = 1,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10150,
+		buff_group = 1015,
+		type_use = {
+			{
+				704
+			},
+			1,
+			6
+		},
+		type_duel = {
+			1015
+		},
+		buff_duel = {}
+	},
+	[10151] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "威廉D波特",
+		buff_type = 101,
+		buff_level = 2,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10151,
+		buff_group = 1015,
+		type_use = {
+			{
+				704
+			},
+			1,
+			6.5
+		},
+		type_duel = {
+			1015
+		},
+		buff_duel = {}
+	},
+	[10152] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "威廉D波特",
+		buff_type = 101,
+		buff_level = 3,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10152,
+		buff_group = 1015,
+		type_use = {
+			{
+				704
+			},
+			1,
+			7
+		},
+		type_duel = {
+			1015
+		},
+		buff_duel = {}
+	},
+	[10153] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "威廉D波特",
+		buff_type = 101,
+		buff_level = 4,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10153,
+		buff_group = 1015,
+		type_use = {
+			{
+				704
+			},
+			1,
+			7.5
+		},
+		type_duel = {
+			1015
+		},
+		buff_duel = {}
+	},
+	[10154] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "威廉D波特",
+		buff_type = 101,
+		buff_level = 5,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10154,
+		buff_group = 1015,
+		type_use = {
+			{
+				704
+			},
+			1,
+			8
+		},
+		type_duel = {
+			1015
+		},
+		buff_duel = {}
+	},
+	[10155] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "威廉D波特",
+		buff_type = 101,
+		buff_level = 6,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10155,
+		buff_group = 1015,
+		type_use = {
+			{
+				704
+			},
+			1,
+			8.5
+		},
+		type_duel = {
+			1015
+		},
+		buff_duel = {}
+	},
+	[10156] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "威廉D波特",
+		buff_type = 101,
+		buff_level = 7,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10156,
+		buff_group = 1015,
+		type_use = {
+			{
+				704
+			},
+			1,
+			9
+		},
+		type_duel = {
+			1015
+		},
+		buff_duel = {}
+	},
+	[10157] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "威廉D波特",
+		buff_type = 101,
+		buff_level = 8,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10157,
+		buff_group = 1015,
+		type_use = {
+			{
+				704
+			},
+			1,
+			10
+		},
+		type_duel = {
+			1015
+		},
+		buff_duel = {}
+	},
+	[10158] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "威廉D波特",
+		buff_type = 101,
+		buff_level = 9,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10158,
+		buff_group = 1015,
+		type_use = {
+			{
+				704
+			},
+			1,
+			11
+		},
+		type_duel = {
+			1015
+		},
+		buff_duel = {}
+	},
+	[10159] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "威廉D波特",
+		buff_type = 101,
+		buff_level = 10,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10159,
+		buff_group = 1015,
+		type_use = {
+			{
+				704
+			},
+			1,
+			12
+		},
+		type_duel = {
+			1015
+		},
+		buff_duel = {}
+	},
+	[10160] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "镇海",
+		buff_type = 101,
+		buff_level = 1,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10160,
+		buff_group = 1016,
+		type_use = {
+			{
+				101
+			},
+			1,
+			6
+		},
+		type_duel = {
+			1016
+		},
+		buff_duel = {}
+	},
+	[10161] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "镇海",
+		buff_type = 101,
+		buff_level = 2,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10161,
+		buff_group = 1016,
+		type_use = {
+			{
+				101
+			},
+			1,
+			6.5
+		},
+		type_duel = {
+			1016
+		},
+		buff_duel = {}
+	},
+	[10162] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "镇海",
+		buff_type = 101,
+		buff_level = 3,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10162,
+		buff_group = 1016,
+		type_use = {
+			{
+				101
+			},
+			1,
+			7
+		},
+		type_duel = {
+			1016
+		},
+		buff_duel = {}
+	},
+	[10163] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "镇海",
+		buff_type = 101,
+		buff_level = 4,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10163,
+		buff_group = 1016,
+		type_use = {
+			{
+				101
+			},
+			1,
+			7.5
+		},
+		type_duel = {
+			1016
+		},
+		buff_duel = {}
+	},
+	[10164] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "镇海",
+		buff_type = 101,
+		buff_level = 5,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10164,
+		buff_group = 1016,
+		type_use = {
+			{
+				101
+			},
+			1,
+			8
+		},
+		type_duel = {
+			1016
+		},
+		buff_duel = {}
+	},
+	[10165] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "镇海",
+		buff_type = 101,
+		buff_level = 6,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10165,
+		buff_group = 1016,
+		type_use = {
+			{
+				101
+			},
+			1,
+			8.5
+		},
+		type_duel = {
+			1016
+		},
+		buff_duel = {}
+	},
+	[10166] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "镇海",
+		buff_type = 101,
+		buff_level = 7,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10166,
+		buff_group = 1016,
+		type_use = {
+			{
+				101
+			},
+			1,
+			9
+		},
+		type_duel = {
+			1016
+		},
+		buff_duel = {}
+	},
+	[10167] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "镇海",
+		buff_type = 101,
+		buff_level = 8,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10167,
+		buff_group = 1016,
+		type_use = {
+			{
+				101
+			},
+			1,
+			10
+		},
+		type_duel = {
+			1016
+		},
+		buff_duel = {}
+	},
+	[10168] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "镇海",
+		buff_type = 101,
+		buff_level = 9,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10168,
+		buff_group = 1016,
+		type_use = {
+			{
+				101
+			},
+			1,
+			11
+		},
+		type_duel = {
+			1016
+		},
+		buff_duel = {}
+	},
+	[10169] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "镇海",
+		buff_type = 101,
+		buff_level = 10,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10169,
+		buff_group = 1016,
+		type_use = {
+			{
+				101
+			},
+			1,
+			12
+		},
+		type_duel = {
+			1016
+		},
+		buff_duel = {}
+	},
+	[10170] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "爱宕",
+		buff_type = 103,
+		buff_level = 1,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10170,
+		buff_group = 1017,
+		type_use = {
+			{
+				102
+			},
+			3
+		},
+		type_duel = {
+			1017
+		},
+		buff_duel = {}
+	},
+	[10171] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "爱宕",
+		buff_type = 103,
+		buff_level = 2,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10171,
+		buff_group = 1017,
+		type_use = {
+			{
+				102
+			},
+			3.5
+		},
+		type_duel = {
+			1017
+		},
+		buff_duel = {}
+	},
+	[10172] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "爱宕",
+		buff_type = 103,
+		buff_level = 3,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10172,
+		buff_group = 1017,
+		type_use = {
+			{
+				102
+			},
+			4
+		},
+		type_duel = {
+			1017
+		},
+		buff_duel = {}
+	},
+	[10173] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "爱宕",
+		buff_type = 103,
+		buff_level = 4,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10173,
+		buff_group = 1017,
+		type_use = {
+			{
+				102
+			},
+			4.5
+		},
+		type_duel = {
+			1017
+		},
+		buff_duel = {}
+	},
+	[10174] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "爱宕",
+		buff_type = 103,
+		buff_level = 5,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10174,
+		buff_group = 1017,
+		type_use = {
+			{
+				102
+			},
+			5
+		},
+		type_duel = {
+			1017
+		},
+		buff_duel = {}
+	},
+	[10175] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "爱宕",
+		buff_type = 103,
+		buff_level = 6,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10175,
+		buff_group = 1017,
+		type_use = {
+			{
+				102
+			},
+			5.5
+		},
+		type_duel = {
+			1017
+		},
+		buff_duel = {}
+	},
+	[10176] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "爱宕",
+		buff_type = 103,
+		buff_level = 7,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10176,
+		buff_group = 1017,
+		type_use = {
+			{
+				102
+			},
+			6
+		},
+		type_duel = {
+			1017
+		},
+		buff_duel = {}
+	},
+	[10177] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "爱宕",
+		buff_type = 103,
+		buff_level = 8,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10177,
+		buff_group = 1017,
+		type_use = {
+			{
+				102
+			},
+			6.5
+		},
+		type_duel = {
+			1017
+		},
+		buff_duel = {}
+	},
+	[10178] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "爱宕",
+		buff_type = 103,
+		buff_level = 9,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10178,
+		buff_group = 1017,
+		type_use = {
+			{
+				102
+			},
+			7
+		},
+		type_duel = {
+			1017
+		},
+		buff_duel = {}
+	},
+	[10179] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "爱宕",
+		buff_type = 103,
+		buff_level = 10,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10179,
+		buff_group = 1017,
+		type_use = {
+			{
+				102
+			},
+			8
+		},
+		type_duel = {
+			1017
+		},
+		buff_duel = {}
+	},
+	[10180] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "海伦娜",
+		buff_type = 601,
+		buff_level = 1,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10180,
+		buff_group = 1018,
+		type_use = {
+			{
+				603
+			},
+			4
+		},
+		type_duel = {
+			1018
+		},
+		buff_duel = {}
+	},
+	[10181] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "海伦娜",
+		buff_type = 601,
+		buff_level = 2,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10181,
+		buff_group = 1018,
+		type_use = {
+			{
+				603
+			},
+			4.5
+		},
+		type_duel = {
+			1018
+		},
+		buff_duel = {}
+	},
+	[10182] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "海伦娜",
+		buff_type = 601,
+		buff_level = 3,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10182,
+		buff_group = 1018,
+		type_use = {
+			{
+				603
+			},
+			5
+		},
+		type_duel = {
+			1018
+		},
+		buff_duel = {}
+	},
+	[10183] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "海伦娜",
+		buff_type = 601,
+		buff_level = 4,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10183,
+		buff_group = 1018,
+		type_use = {
+			{
+				603
+			},
+			5.5
+		},
+		type_duel = {
+			1018
+		},
+		buff_duel = {}
+	},
+	[10184] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "海伦娜",
+		buff_type = 601,
+		buff_level = 5,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10184,
+		buff_group = 1018,
+		type_use = {
+			{
+				603
+			},
+			6
+		},
+		type_duel = {
+			1018
+		},
+		buff_duel = {}
+	},
+	[10185] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "海伦娜",
+		buff_type = 601,
+		buff_level = 6,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10185,
+		buff_group = 1018,
+		type_use = {
+			{
+				603
+			},
+			6.5
+		},
+		type_duel = {
+			1018
+		},
+		buff_duel = {}
+	},
+	[10186] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "海伦娜",
+		buff_type = 601,
+		buff_level = 7,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10186,
+		buff_group = 1018,
+		type_use = {
+			{
+				603
+			},
+			7
+		},
+		type_duel = {
+			1018
+		},
+		buff_duel = {}
+	},
+	[10187] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "海伦娜",
+		buff_type = 601,
+		buff_level = 8,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10187,
+		buff_group = 1018,
+		type_use = {
+			{
+				603
+			},
+			8
+		},
+		type_duel = {
+			1018
+		},
+		buff_duel = {}
+	},
+	[10188] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "海伦娜",
+		buff_type = 601,
+		buff_level = 9,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10188,
+		buff_group = 1018,
+		type_use = {
+			{
+				603
+			},
+			9
+		},
+		type_duel = {
+			1018
+		},
+		buff_duel = {}
+	},
+	[10189] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "海伦娜",
+		buff_type = 601,
+		buff_level = 10,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10189,
+		buff_group = 1018,
+		type_use = {
+			{
+				603
+			},
+			10
+		},
+		type_duel = {
+			1018
+		},
+		buff_duel = {}
+	},
+	[10190] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "修枝技艺",
+		buff_type = 101,
+		buff_level = 1,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10190,
+		buff_group = 1019,
+		type_use = {
+			{
+				901
+			},
+			1,
+			3
+		},
+		type_duel = {
+			1019
+		},
+		buff_duel = {}
+	},
+	[10191] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "修枝技艺",
+		buff_type = 101,
+		buff_level = 2,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10191,
+		buff_group = 1019,
+		type_use = {
+			{
+				901
+			},
+			1,
+			3.5
+		},
+		type_duel = {
+			1019
+		},
+		buff_duel = {}
+	},
+	[10192] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "修枝技艺",
+		buff_type = 101,
+		buff_level = 3,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10192,
+		buff_group = 1019,
+		type_use = {
+			{
+				901
+			},
+			1,
+			4
+		},
+		type_duel = {
+			1019
+		},
+		buff_duel = {}
+	},
+	[10193] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "修枝技艺",
+		buff_type = 101,
+		buff_level = 4,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10193,
+		buff_group = 1019,
+		type_use = {
+			{
+				901
+			},
+			1,
+			4.5
+		},
+		type_duel = {
+			1019
+		},
+		buff_duel = {}
+	},
+	[10194] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "修枝技艺",
+		buff_type = 101,
+		buff_level = 5,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10194,
+		buff_group = 1019,
+		type_use = {
+			{
+				901
+			},
+			1,
+			5
+		},
+		type_duel = {
+			1019
+		},
+		buff_duel = {}
+	},
+	[10195] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "修枝技艺",
+		buff_type = 101,
+		buff_level = 6,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10195,
+		buff_group = 1019,
+		type_use = {
+			{
+				901
+			},
+			1,
+			5.5
+		},
+		type_duel = {
+			1019
+		},
+		buff_duel = {}
+	},
+	[10196] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "修枝技艺",
+		buff_type = 101,
+		buff_level = 7,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10196,
+		buff_group = 1019,
+		type_use = {
+			{
+				901
+			},
+			1,
+			6
+		},
+		type_duel = {
+			1019
+		},
+		buff_duel = {}
+	},
+	[10197] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "修枝技艺",
+		buff_type = 101,
+		buff_level = 8,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10197,
+		buff_group = 1019,
+		type_use = {
+			{
+				901
+			},
+			1,
+			6.5
+		},
+		type_duel = {
+			1019
+		},
+		buff_duel = {}
+	},
+	[10198] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "修枝技艺",
+		buff_type = 101,
+		buff_level = 9,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10198,
+		buff_group = 1019,
+		type_use = {
+			{
+				901
+			},
+			1,
+			7
+		},
+		type_duel = {
+			1019
+		},
+		buff_duel = {}
+	},
+	[10199] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "修枝技艺",
+		buff_type = 101,
+		buff_level = 10,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10199,
+		buff_group = 1019,
+		type_use = {
+			{
+				901
+			},
+			1,
+			8
+		},
+		type_duel = {
+			1019
+		},
+		buff_duel = {}
+	},
 	[100001] = {
 		buff_desc = "无需本地化，角色技能读skill表",
 		name = "ドリンク販売",
@@ -3157,6 +4188,24 @@ pg.island_buff_template = {
 		type_use = {
 			{
 				601
+			},
+			1
+		},
+		type_duel = {},
+		buff_duel = {}
+	},
+	[100003] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "海伦娜技能",
+		buff_type = 602,
+		buff_level = 1,
+		buff_color = 0,
+		buff_time = 0,
+		id = 100003,
+		buff_group = 100003,
+		type_use = {
+			{
+				603
 			},
 			1
 		},
@@ -3332,8 +4381,59 @@ pg.island_buff_template = {
 		10147,
 		10148,
 		10149,
+		10150,
+		10151,
+		10152,
+		10153,
+		10154,
+		10155,
+		10156,
+		10157,
+		10158,
+		10159,
+		10160,
+		10161,
+		10162,
+		10163,
+		10164,
+		10165,
+		10166,
+		10167,
+		10168,
+		10169,
+		10170,
+		10171,
+		10172,
+		10173,
+		10174,
+		10175,
+		10176,
+		10177,
+		10178,
+		10179,
+		10180,
+		10181,
+		10182,
+		10183,
+		10184,
+		10185,
+		10186,
+		10187,
+		10188,
+		10189,
+		10190,
+		10191,
+		10192,
+		10193,
+		10194,
+		10195,
+		10196,
+		10197,
+		10198,
+		10199,
 		100001,
 		100002,
+		100003,
 		999990
 	}
 }

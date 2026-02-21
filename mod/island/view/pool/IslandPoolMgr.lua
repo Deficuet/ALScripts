@@ -31,8 +31,8 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 		[var_0_14] = IslandObjectPoolSet.New(arg_1_1, 3, 1),
 		[var_0_15] = IslandObjectPoolSet.New(arg_1_1, 4, 1),
 		[var_0_16] = IslandObjectPoolSet.New(arg_1_1, 6, 2),
-		[var_0_2] = IslandAssetPoolSet.New(arg_1_1, 5, 2),
-		[var_0_4] = IslandAssetPoolSet.New(arg_1_1, 5, 2),
+		[var_0_2] = IslandPublicAssetPoolSet.New(arg_1_1, 5, 2),
+		[var_0_4] = IslandPublicAssetPoolSet.New(arg_1_1, 5, 2),
 		[var_0_5] = IslandBtAssetPoolSet.New(arg_1_1, 5, 2)
 	}
 	arg_1_0.loadingIdList = {}
@@ -419,9 +419,9 @@ end
 
 function var_0_0.LoadAnimator(arg_59_0, arg_59_1, arg_59_2, arg_59_3, arg_59_4)
 	local var_59_0 = IslandAssetLoadDispatcher.Instance:Enqueue(arg_59_3, "", typeof(RuntimeAnimatorController), UnityEngine.Events.UnityAction_UnityEngine_Object(function(arg_60_0)
-		local var_60_0
+		local var_60_0 = GetOrAddComponent(arg_59_1.transform, typeof(Animator))
 
-		var_60_0.runtimeAnimatorController, var_60_0 = Object.Instantiate(arg_60_0), GetOrAddComponent(arg_59_1.transform, typeof(Animator))
+		var_60_0.runtimeAnimatorController = arg_60_0
 		arg_59_2 = arg_59_2 or "idle"
 
 		var_60_0:Play(arg_59_2, 4)

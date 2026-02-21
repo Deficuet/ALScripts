@@ -58,123 +58,119 @@ function var_0_0.didEnter(arg_7_0)
 	local var_7_0 = arg_7_0.contextData.seriesData
 	local var_7_1 = var_7_0:GetBattleStatistics()
 	local var_7_2 = var_7_0:GetFinalResults()
-	local var_7_3 = var_7_0:GetFleets()
-	local var_7_4 = var_7_0:GetExpeditionIds()
-	local var_7_5 = var_7_3[#var_7_3]
-	local var_7_6 = var_7_5:getTeamByName(TeamType.Submarine)
-	local var_7_7 = var_7_5:GetRawCommanderIds()
-	local var_7_8 = {}
-	local var_7_9 = {}
+	local var_7_3 = var_7_0:GetExpeditionIds()
+	local var_7_4, var_7_5 = var_7_0:GetModeFleetIDs(var_7_0:GetMode())
+	local var_7_6 = var_7_0:GetFleets(var_7_4)
+	local var_7_7 = var_7_0:GetFleets(var_7_5)[1]
+	local var_7_8 = var_7_7:getTeamByName(TeamType.Submarine)
+	local var_7_9 = var_7_7:GetRawCommanderIds()
+	local var_7_10 = {}
+	local var_7_11 = {}
 
-	for iter_7_0 = 1, #var_7_4 do
-		local var_7_10 = var_7_3[iter_7_0]
-
-		if var_7_0:GetMode() == BossRushSeriesData.MODE.SINGLE then
-			var_7_10 = var_7_3[1]
-		end
-
-		local var_7_11 = var_7_2[iter_7_0]
-		local var_7_12 = {
+	for iter_7_0 = 1, #var_7_3 do
+		local var_7_12 = var_7_6[iter_7_0] or var_7_6[1]
+		local var_7_13 = var_7_2[iter_7_0]
+		local var_7_14 = {
 			index = iter_7_0,
 			oldShips = {},
 			ships = {},
 			oldCmds = {},
 			cmds = {},
-			mvp = var_7_11 and var_7_11.mvp or 0
+			mvp = var_7_13 and var_7_13.mvp or 0
 		}
-		local var_7_13 = Clone(var_7_12)
+		local var_7_15 = Clone(var_7_14)
 
-		table.Foreach(var_7_10:getShipIds(), function(arg_8_0, arg_8_1)
+		table.Foreach(var_7_12:getShipIds(), function(arg_8_0, arg_8_1)
 			if iter_7_0 <= #var_7_2 then
-				local var_8_0 = var_7_11.newShips[arg_8_1]
+				local var_8_0 = var_7_13.newShips[arg_8_1]
 
 				if var_8_0 then
-					table.insert(var_7_12.ships, var_8_0)
+					table.insert(var_7_14.ships, var_8_0)
 
-					var_7_12.oldShips[arg_8_1] = var_7_11.oldShips[arg_8_1]
+					var_7_14.oldShips[arg_8_1] = var_7_13.oldShips[arg_8_1]
 				end
 			else
 				local var_8_1 = getProxy(BayProxy):getShipById(arg_8_1)
 
-				table.insert(var_7_12.ships, var_8_1)
+				table.insert(var_7_14.ships, var_8_1)
 
-				var_7_12.oldShips[arg_8_1] = var_8_1
+				var_7_14.oldShips[arg_8_1] = var_8_1
 			end
 		end)
-		table.Foreach(var_7_6, function(arg_9_0, arg_9_1)
+		table.Foreach(var_7_8, function(arg_9_0, arg_9_1)
 			if iter_7_0 <= #var_7_2 then
-				local var_9_0 = var_7_11.newShips[arg_9_1]
+				local var_9_0 = var_7_13.newShips[arg_9_1]
 
 				if var_9_0 then
-					table.insert(var_7_13.ships, var_9_0)
+					table.insert(var_7_15.ships, var_9_0)
 
-					var_7_13.oldShips[arg_9_1] = var_7_11.oldShips[arg_9_1]
+					var_7_15.oldShips[arg_9_1] = var_7_13.oldShips[arg_9_1]
 				end
 			end
 		end)
 
-		local var_7_14 = var_7_10:GetRawCommanderIds()
+		local var_7_16 = var_7_12:GetRawCommanderIds()
 
 		_.each({
 			1,
 			2
 		}, function(arg_10_0)
-			local var_10_0 = var_7_14[arg_10_0] or false
+			local var_10_0 = var_7_16[arg_10_0] or false
 
 			if var_10_0 then
 				if iter_7_0 <= #var_7_2 then
-					local var_10_1 = var_7_11.newCmds[var_10_0]
+					local var_10_1 = var_7_13.newCmds[var_10_0]
 
 					if var_10_1 then
-						table.insert(var_7_12.cmds, var_10_1)
+						table.insert(var_7_14.cmds, var_10_1)
 
-						var_7_12.oldCmds[var_10_0] = var_7_11.oldCmds[var_10_0]
+						var_7_14.oldCmds[var_10_0] = var_7_13.oldCmds[var_10_0]
 					end
 				else
 					local var_10_2 = getProxy(CommanderProxy):getCommanderById(var_10_0)
 
-					table.insert(var_7_12.cmds, var_10_2)
+					table.insert(var_7_14.cmds, var_10_2)
 
-					var_7_12.oldCmds[var_10_0] = var_10_2
+					var_7_14.oldCmds[var_10_0] = var_10_2
 				end
 			else
-				table.insert(var_7_12.cmds, false)
+				table.insert(var_7_14.cmds, false)
 			end
 		end)
 		_.each({
 			1,
 			2
 		}, function(arg_11_0)
-			local var_11_0 = var_7_7[arg_11_0] or false
+			local var_11_0 = var_7_9[arg_11_0] or false
 
 			if iter_7_0 <= #var_7_2 then
 				if var_11_0 then
-					local var_11_1 = var_7_11.newCmds[var_11_0]
+					local var_11_1 = var_7_13.newCmds[var_11_0]
 
 					if var_11_1 then
-						table.insert(var_7_13.cmds, var_11_1)
+						table.insert(var_7_15.cmds, var_11_1)
 
-						var_7_13.oldCmds[var_11_1.id] = var_7_11.oldCmds[var_11_0]
+						var_7_15.oldCmds[var_11_1.id] = var_7_13.oldCmds[var_11_0]
 					else
-						table.insert(var_7_13.cmds, false)
+						table.insert(var_7_15.cmds, false)
 					end
 				else
-					table.insert(var_7_13.cmds, false)
+					table.insert(var_7_15.cmds, false)
 				end
 			end
 		end)
 
-		var_7_8[iter_7_0] = var_7_12
+		var_7_10[iter_7_0] = var_7_14
 
-		if next(var_7_13.ships) then
-			table.insert(var_7_9, var_7_13)
+		if next(var_7_15.ships) then
+			table.insert(var_7_11, var_7_15)
 		end
 	end
 
-	local var_7_15 = 0
-	local var_7_16 = 0
+	local var_7_17 = 0
+	local var_7_18 = 0
 
-	local function var_7_17(arg_12_0, arg_12_1, arg_12_2)
+	local function var_7_19(arg_12_0, arg_12_1, arg_12_2)
 		UIItemList.StaticAlign(arg_12_0, arg_12_0:GetChild(0), 2, function(arg_13_0, arg_13_1, arg_13_2)
 			if arg_13_0 ~= UIItemList.EventUpdate then
 				return
@@ -208,11 +204,11 @@ function var_0_0.didEnter(arg_7_0)
 		end)
 	end
 
-	local function var_7_18(arg_14_0, arg_14_1, arg_14_2)
+	local function var_7_20(arg_14_0, arg_14_1, arg_14_2)
 		setActive(arg_14_0:Find("result/mvpBG"), arg_14_1 == arg_14_2)
 	end
 
-	local function var_7_19(arg_15_0, arg_15_1, arg_15_2, arg_15_3)
+	local function var_7_21(arg_15_0, arg_15_1, arg_15_2, arg_15_3)
 		UIItemList.StaticAlign(arg_15_0, arg_15_0:GetChild(0), #arg_15_1, function(arg_16_0, arg_16_1, arg_16_2)
 			if arg_16_0 ~= UIItemList.EventUpdate then
 				return
@@ -223,7 +219,7 @@ function var_0_0.didEnter(arg_7_0)
 
 			setActive(arg_16_2:Find("result/Exp"), true)
 			setActive(arg_16_2:Find("result/Statistics"), false)
-			var_7_18(arg_16_2, var_16_0.id, arg_15_3)
+			var_7_20(arg_16_2, var_16_0.id, arg_15_3)
 
 			local var_16_2 = arg_16_2:Find("result/mask/icon")
 			local var_16_3 = arg_16_2:Find("result/type")
@@ -272,7 +268,7 @@ function var_0_0.didEnter(arg_7_0)
 		end)
 	end
 
-	local function var_7_20(arg_18_0, arg_18_1, arg_18_2, arg_18_3, arg_18_4)
+	local function var_7_22(arg_18_0, arg_18_1, arg_18_2, arg_18_3, arg_18_4)
 		arg_18_4 = arg_18_4 and arg_18_4.statistics
 
 		local var_18_0 = 0
@@ -299,7 +295,7 @@ function var_0_0.didEnter(arg_7_0)
 
 			setActive(arg_19_2:Find("result/Statistics"), true)
 			setActive(arg_19_2:Find("result/Exp"), false)
-			var_7_18(arg_19_2, var_19_0.id, arg_18_3)
+			var_7_20(arg_19_2, var_19_0.id, arg_18_3)
 
 			local var_19_2 = arg_19_2:Find("result/mask/icon")
 			local var_19_3 = arg_19_2:Find("result/type")
@@ -346,7 +342,7 @@ function var_0_0.didEnter(arg_7_0)
 		end)
 	end
 
-	local function var_7_21(arg_21_0, arg_21_1, arg_21_2, arg_21_3)
+	local function var_7_23(arg_21_0, arg_21_1, arg_21_2, arg_21_3)
 		arg_21_2 = arg_21_2 and arg_21_2.statistics
 
 		local var_21_0 = arg_21_0:Find("Title/Label")
@@ -407,15 +403,15 @@ function var_0_0.didEnter(arg_7_0)
 
 		setImageColor(arg_21_0:Find("BG"), SummerFeastScene.TransformColor(var_21_12))
 
-		local var_21_13 = pg.expedition_data_template[var_7_4[arg_21_3]]
+		local var_21_13 = pg.expedition_data_template[var_7_3[arg_21_3]]
 
 		setText(arg_21_0:Find("Title/Name"), var_21_13.name)
 		setText(arg_21_0:Find("BG/FleetName/Text"), i18n("series_enemy_fleet_prefix", GetRomanDigit(arg_21_1.index)))
-		var_7_17(arg_21_0:Find("BG/commanderExp/commander_container"), arg_21_1.oldCmds, arg_21_1.cmds)
+		var_7_19(arg_21_0:Find("BG/commanderExp/commander_container"), arg_21_1.oldCmds, arg_21_1.cmds)
 	end
 
-	local function var_7_22()
-		local var_24_0 = var_7_16 == 1 and var_7_9 or var_7_8
+	local function var_7_24()
+		local var_24_0 = var_7_18 == 1 and var_7_11 or var_7_10
 
 		UIItemList.StaticAlign(arg_7_0.resultList, arg_7_0.resultList:GetChild(0), #var_24_0, function(arg_25_0, arg_25_1, arg_25_2)
 			if arg_25_0 ~= UIItemList.EventUpdate then
@@ -425,13 +421,13 @@ function var_0_0.didEnter(arg_7_0)
 			local var_25_0 = var_24_0[arg_25_1 + 1]
 			local var_25_1 = var_7_1[var_25_0.index]
 
-			var_7_21(arg_25_2, var_25_0, var_25_1, var_25_0.index)
-			var_7_19(arg_25_2:Find("BG/Ships"), var_25_0.ships, var_25_0.oldShips, var_25_0.mvp)
+			var_7_23(arg_25_2, var_25_0, var_25_1, var_25_0.index)
+			var_7_21(arg_25_2:Find("BG/Ships"), var_25_0.ships, var_25_0.oldShips, var_25_0.mvp)
 		end)
 	end
 
-	local function var_7_23()
-		local var_26_0 = var_7_16 == 1 and var_7_9 or var_7_8
+	local function var_7_25()
+		local var_26_0 = var_7_18 == 1 and var_7_11 or var_7_10
 
 		UIItemList.StaticAlign(arg_7_0.resultList, arg_7_0.resultList:GetChild(0), #var_26_0, function(arg_27_0, arg_27_1, arg_27_2)
 			if arg_27_0 ~= UIItemList.EventUpdate then
@@ -441,28 +437,28 @@ function var_0_0.didEnter(arg_7_0)
 			local var_27_0 = var_26_0[arg_27_1 + 1]
 			local var_27_1 = var_7_1[var_27_0.index]
 
-			var_7_21(arg_27_2, var_27_0, var_27_1, var_27_0.index)
-			var_7_20(arg_27_2:Find("BG/Ships"), var_27_0.ships, var_27_0.oldShips, var_27_0.mvp, var_27_1)
+			var_7_23(arg_27_2, var_27_0, var_27_1, var_27_0.index)
+			var_7_22(arg_27_2:Find("BG/Ships"), var_27_0.ships, var_27_0.oldShips, var_27_0.mvp, var_27_1)
 		end)
 	end
 
-	local var_7_24 = arg_7_0.rightBottomPanel:Find("submarine")
-	local var_7_25 = arg_7_0.rightBottomPanel:Find("main")
+	local var_7_26 = arg_7_0.rightBottomPanel:Find("submarine")
+	local var_7_27 = arg_7_0.rightBottomPanel:Find("main")
 
-	setActive(var_7_24, #var_7_9 > 0)
+	setActive(var_7_26, #var_7_11 > 0)
 
-	local function var_7_26()
-		setActive(var_7_25, var_7_16 == 1)
-		setActive(var_7_24, var_7_16 == 0 and #var_7_9 > 0)
+	local function var_7_28()
+		setActive(var_7_27, var_7_18 == 1)
+		setActive(var_7_26, var_7_18 == 0 and #var_7_11 > 0)
 
-		if var_7_15 == 0 then
-			var_7_22()
-		elseif var_7_15 == 1 then
-			var_7_23()
+		if var_7_17 == 0 then
+			var_7_24()
+		elseif var_7_17 == 1 then
+			var_7_25()
 		end
 	end
 
-	var_7_26()
+	var_7_28()
 	;(function()
 		local var_29_0 = getProxy(PlayerProxy):getRawData()
 		local var_29_1 = _.reduce(var_7_2, 0, function(arg_30_0, arg_30_1)
@@ -479,38 +475,38 @@ function var_0_0.didEnter(arg_7_0)
 		var_29_2:GetComponent(typeof(Image)).fillAmount = var_29_0.exp / var_29_3.exp_interval
 	end)()
 	onButton(arg_7_0, arg_7_0.rightBottomPanel:Find("statisticsBtn"), function()
-		var_7_15 = 1 - var_7_15
+		var_7_17 = 1 - var_7_17
 
-		var_7_26()
+		var_7_28()
 	end, SFX_PANEL)
-	onButton(arg_7_0, var_7_24, function()
-		var_7_16 = 1
+	onButton(arg_7_0, var_7_26, function()
+		var_7_18 = 1
 
-		var_7_26()
+		var_7_28()
 	end, SFX_PANEL)
-	onButton(arg_7_0, var_7_25, function()
-		var_7_16 = 0
+	onButton(arg_7_0, var_7_27, function()
+		var_7_18 = 0
 
-		var_7_26()
+		var_7_28()
 	end, SFX_PANEL)
 	onButton(arg_7_0, arg_7_0.rightBottomPanel:Find("confirmBtn"), function()
 		arg_7_0:emit(BossRushBattleResultMediator.ON_SETTLE)
 	end, SFX_PANEL)
 
-	local var_7_27 = arg_7_0._tf:Find("main/Series/ArrowLeft")
-	local var_7_28 = arg_7_0._tf:Find("main/Series/ArrowRight")
+	local var_7_29 = arg_7_0._tf:Find("main/Series/ArrowLeft")
+	local var_7_30 = arg_7_0._tf:Find("main/Series/ArrowRight")
 
 	Canvas.ForceUpdateCanvases()
 
 	if arg_7_0.resultScroll.rect.width >= arg_7_0.resultList.rect.width then
-		setActive(var_7_27, false)
-		setActive(var_7_28, false)
+		setActive(var_7_29, false)
+		setActive(var_7_30, false)
 	else
-		setActive(var_7_27, false)
-		setActive(var_7_28, true)
+		setActive(var_7_29, false)
+		setActive(var_7_30, true)
 		onScroll(arg_7_0, arg_7_0.resultScroll, function(arg_35_0)
-			setActive(var_7_27, arg_35_0.x > 0.01)
-			setActive(var_7_28, arg_35_0.x < 0.99)
+			setActive(var_7_29, arg_35_0.x > 0.01)
+			setActive(var_7_30, arg_35_0.x < 0.99)
 		end)
 	end
 end

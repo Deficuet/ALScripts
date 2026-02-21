@@ -153,4 +153,75 @@ function var_0_0.Exit(arg_4_0, arg_4_1)
 	arg_4_1:SendRequest(var_4_14, var_4_15)
 end
 
+function var_0_0.GetPreloadList(arg_6_0)
+	local var_6_0 = {}
+	local var_6_1
+	local var_6_2 = ys.Battle.BattleResourceManager.GetInstance()
+	local var_6_3 = nowWorld()
+	local var_6_4 = var_6_3:GetActiveMap()
+	local var_6_5 = var_6_4:GetFleet()
+
+	for iter_6_0, iter_6_1 in ipairs(var_6_5:GetShipVOs(true)) do
+		table.insert(var_6_0, iter_6_1)
+	end
+
+	local var_6_6, var_6_7 = var_6_4:getFleetBattleBuffs(var_6_5)
+
+	if var_6_3:GetSubAidFlag() == true then
+		local var_6_8 = var_6_4:GetSubmarineFleet()
+		local var_6_9 = var_6_8:GetTeamShipVOs(TeamType.Submarine, false)
+
+		for iter_6_2, iter_6_3 in ipairs(var_6_9) do
+			table.insert(var_6_0, iter_6_3)
+		end
+
+		local var_6_10, var_6_11 = var_6_4:getFleetBattleBuffs(var_6_8)
+
+		for iter_6_4, iter_6_5 in ipairs(var_6_10) do
+			table.insert(var_6_6, iter_6_5)
+		end
+
+		for iter_6_6, iter_6_7 in ipairs(var_6_11) do
+			table.insert(var_6_7, iter_6_7)
+		end
+	end
+
+	local var_6_12, var_6_13 = var_6_2.GetPlayerShipResource(var_6_0, arg_6_0.system)
+	local var_6_14 = var_6_4:GetChapterAuraBuffs()
+	local var_6_15 = var_6_4:GetChapterAidBuffs()
+
+	for iter_6_8, iter_6_9 in pairs(var_6_15) do
+		for iter_6_10, iter_6_11 in ipairs(iter_6_9) do
+			table.insert(var_6_14, iter_6_11)
+		end
+	end
+
+	local var_6_16 = var_6_2.GetResFromBuffList(var_6_14)
+
+	for iter_6_12, iter_6_13 in ipairs(var_6_16) do
+		table.insert(var_6_12, iter_6_13)
+	end
+
+	local var_6_17 = var_6_4:GetCell(var_6_5.row, var_6_5.column):GetStageEnemy()
+	local var_6_18 = table.mergeArray(var_6_17:GetBattleLuaBuffs(), var_6_4:GetBattleLuaBuffs(WorldMap.FactionEnemy, var_6_17))
+
+	for iter_6_14, iter_6_15 in ipairs(var_6_18) do
+		table.insert(var_6_6, iter_6_15)
+	end
+
+	local var_6_19 = var_6_2.GetResFromBuffIDList(var_6_6)
+
+	for iter_6_16, iter_6_17 in ipairs(var_6_19) do
+		table.insert(var_6_12, iter_6_17)
+	end
+
+	local var_6_20 = var_6_2.GetCommanderBuffRes(var_6_7)
+
+	for iter_6_18, iter_6_19 in ipairs(var_6_20) do
+		table.insert(var_6_12, iter_6_19)
+	end
+
+	return var_6_12, var_6_13
+end
+
 return var_0_0

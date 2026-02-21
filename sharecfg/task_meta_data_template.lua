@@ -342,6 +342,11 @@ pg.task_meta_data_template = setmetatable({
 		100503,
 		100504,
 		100505,
+		100511,
+		100512,
+		100513,
+		100514,
+		100515,
 		200001,
 		200002,
 		200003,
@@ -505,7 +510,11 @@ pg.task_meta_data_template = setmetatable({
 		200411,
 		200412,
 		200413,
-		200414
+		200414,
+		200421,
+		200422,
+		200423,
+		200424
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3230,6 +3239,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100511] = {
+		target_id_2 = "970111",
+		sub_type = 180,
+		desc = "カラビニエーレ(META)を編成した艦隊で1回戦闘を勝利する",
+		id = 100511,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100512] = {
+		target_id_2 = "970111",
+		sub_type = 180,
+		desc = "カラビニエーレ(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		id = 100512,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100513] = {
+		target_id_2 = "970111",
+		sub_type = 180,
+		desc = "カラビニエーレ(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		id = 100513,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100514] = {
+		target_id_2 = "970111",
+		sub_type = 180,
+		desc = "カラビニエーレ(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		id = 100514,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100515] = {
+		target_id_2 = "970111",
+		sub_type = 180,
+		desc = "カラビニエーレ(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		id = 100515,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -4539,6 +4588,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "セイレーン作戦でクリーブランド(META)を含めた艦隊でLv100+の敵を撃破",
 		id = 200414,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200421] = {
+		target_id_2 = "970111",
+		sub_type = 302,
+		desc = "セイレーン作戦でカラビニエーレ(META)を含めた艦隊で1回勝利する",
+		id = 200421,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200422] = {
+		target_id_2 = "970111",
+		sub_type = 302,
+		desc = "セイレーン作戦でカラビニエーレ(META)を含めた艦隊でLv70+の敵を撃破",
+		id = 200422,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200423] = {
+		target_id_2 = "970111",
+		sub_type = 302,
+		desc = "セイレーン作戦でカラビニエーレ(META)を含めた艦隊でLv90+の敵を撃破",
+		id = 200423,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200424] = {
+		target_id_2 = "970111",
+		sub_type = 302,
+		desc = "セイレーン作戦でカラビニエーレ(META)を含めた艦隊でLv100+の敵を撃破",
+		id = 200424,
 		target_num = 1,
 		target_id = "100"
 	}

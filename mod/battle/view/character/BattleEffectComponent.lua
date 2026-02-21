@@ -326,6 +326,11 @@ function var_0_5.addEffect(arg_25_0, arg_25_1)
 		var_25_1.effect_tf.localScale = var_25_2
 	else
 		local var_25_3 = arg_25_0._owner:AddFX(arg_25_1.effect)
+
+		if not var_25_3 then
+			return
+		end
+
 		local var_25_4 = {
 			currentTime = 0,
 			effect_go = var_25_3,

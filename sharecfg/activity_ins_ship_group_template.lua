@@ -2282,7 +2282,7 @@ pg.activity_ins_ship_group_template = {
 		name = "VV_Veneto",
 		background = "",
 		sculpture = "weineituo",
-		nationality = 0,
+		nationality = 6,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -3560,7 +3560,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Ting An",
 		background = "",
 		sculpture = "dingan_2",
-		nationality = 0,
+		nationality = 5,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -5382,12 +5382,12 @@ pg.activity_ins_ship_group_template = {
 		type = 1,
 		sculpture_ii = ""
 	},
-	[19906] = {
-		ship_group = 19906,
+	[900939] = {
+		ship_group = 900939,
 		name = "Kansas",
 		background = "",
 		sculpture = "kansasi",
-		nationality = 1,
+		nationality = 0,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -5675,6 +5675,87 @@ pg.activity_ins_ship_group_template = {
 		name = "Hamakaze",
 		background = "",
 		sculpture = "bangfeng",
+		nationality = 0,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[19906] = {
+		ship_group = 19906,
+		name = "Kansas",
+		background = "",
+		sculpture = "kansasi",
+		nationality = 1,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[60509] = {
+		ship_group = 60509,
+		name = "Francesco Caracciolo",
+		background = "",
+		sculpture = "fulangxisike",
+		nationality = 6,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[60204] = {
+		ship_group = 60204,
+		name = "Alberto di Giussano",
+		background = "",
+		sculpture = "aerbeituo",
+		nationality = 6,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[60112] = {
+		ship_group = 60112,
+		name = "Ugolino Vivaldi",
+		background = "",
+		sculpture = "wugelini",
+		nationality = 6,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[10520] = {
+		ship_group = 10520,
+		name = "Alabama",
+		background = "",
+		sculpture = "alabama",
+		nationality = 1,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[30194] = {
+		ship_group = 30194,
+		name = "Fujinami",
+		background = "",
+		sculpture = "tengbo",
+		nationality = 3,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[50302] = {
+		ship_group = 50302,
+		name = "Chang Wu",
+		background = "",
+		sculpture = "zhangwu",
+		nationality = 5,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[50212] = {
+		ship_group = 50212,
+		name = "Hai Chou",
+		background = "",
+		sculpture = "haichou",
+		nationality = 5,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[40125] = {
+		ship_group = 40125,
+		name = "Zerstörer.25",
+		background = "",
+		sculpture = "Z25",
 		nationality = 0,
 		type = 1,
 		sculpture_ii = ""
@@ -6278,7 +6359,7 @@ pg.activity_ins_ship_group_template = {
 		80105,
 		80303,
 		80204,
-		19906,
+		900939,
 		30716,
 		31702,
 		30516,
@@ -6310,6 +6391,15 @@ pg.activity_ins_ship_group_template = {
 		10140,
 		49910,
 		79903,
-		30161
+		30161,
+		19906,
+		60509,
+		60204,
+		60112,
+		10520,
+		30194,
+		50302,
+		50212,
+		40125
 	}
 }

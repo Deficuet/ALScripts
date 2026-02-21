@@ -24,6 +24,8 @@ function var_0_0.LoadBg(arg_2_0, arg_2_1, arg_2_2, arg_2_3, arg_2_4, arg_2_5, ar
 
 			setActive(arg_2_4, false)
 			setParent(arg_3_0, arg_2_3, false)
+			setActive(arg_3_0, false)
+			setActive(arg_3_0, true)
 
 			local var_3_0 = arg_3_0:GetComponent(typeof(CriManaEffectUI))
 
@@ -31,6 +33,11 @@ function var_0_0.LoadBg(arg_2_0, arg_2_1, arg_2_2, arg_2_3, arg_2_4, arg_2_5, ar
 				var_3_0.renderMode = CriWare.CriManaMovieMaterialBase.RenderMode.Always
 
 				var_3_0:Pause(false)
+			else
+				tf(arg_3_0).anchorMin = Vector2(0, 0)
+				tf(arg_3_0).anchorMax = Vector2(1, 1)
+				tf(arg_3_0).offsetMin = Vector2(0, 0)
+				tf(arg_3_0).offsetMax = Vector2(0, 0)
 			end
 
 			arg_2_0.cache[var_2_2] = {

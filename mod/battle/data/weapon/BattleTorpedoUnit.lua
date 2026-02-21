@@ -17,13 +17,21 @@ function var_0_1.TriggerBuffOnFire(arg_2_0)
 	})
 end
 
-function var_0_1.TriggerBuffWhenSpawn(arg_3_0, arg_3_1)
-	local var_3_0 = {
-		_bullet = arg_3_1,
-		equipIndex = arg_3_0._equipmentIndex,
-		bulletTag = arg_3_1:GetExtraTag()
+function var_0_1.EnterCoolDown(arg_3_0)
+	if arg_3_0._isSupportWeapon then
+		arg_3_0._currentState = arg_3_0.STATE_DISABLE
+	else
+		var_0_1.super.EnterCoolDown(arg_3_0)
+	end
+end
+
+function var_0_1.TriggerBuffWhenSpawn(arg_4_0, arg_4_1)
+	local var_4_0 = {
+		_bullet = arg_4_1,
+		equipIndex = arg_4_0._equipmentIndex,
+		bulletTag = arg_4_1:GetExtraTag()
 	}
 
-	arg_3_0._host:TriggerBuff(var_0_0.Battle.BattleConst.BuffEffectType.ON_BULLET_CREATE, var_3_0)
-	arg_3_0._host:TriggerBuff(var_0_0.Battle.BattleConst.BuffEffectType.ON_TORPEDO_BULLET_CREATE, var_3_0)
+	arg_4_0._host:TriggerBuff(var_0_0.Battle.BattleConst.BuffEffectType.ON_BULLET_CREATE, var_4_0)
+	arg_4_0._host:TriggerBuff(var_0_0.Battle.BattleConst.BuffEffectType.ON_TORPEDO_BULLET_CREATE, var_4_0)
 end

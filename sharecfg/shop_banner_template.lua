@@ -11,9 +11,9 @@ pg.shop_banner_template = {
 		time = {
 			{
 				{
-					2025,
-					12,
-					25
+					2026,
+					2,
+					12
 				},
 				{
 					0,
@@ -24,8 +24,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2026,
-					1,
-					7
+					3,
+					4
 				},
 				{
 					23,
@@ -42,37 +42,12 @@ pg.shop_banner_template = {
 	[11] = {
 		order = 9,
 		name = "banner_big",
+		time = "stop",
 		type = 2,
 		id = 11,
 		relation_param = "",
 		pic = "shopbanner/shop_skin2",
 		time_lable = 1,
-		time = {
-			{
-				{
-					2025,
-					12,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					1,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		param = {
 			"scene skinshop",
 			{}
@@ -89,9 +64,9 @@ pg.shop_banner_template = {
 		time = {
 			{
 				{
-					2025,
-					12,
-					25
+					2026,
+					2,
+					12
 				},
 				{
 					0,
@@ -102,8 +77,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2026,
-					1,
-					7
+					3,
+					4
 				},
 				{
 					23,
@@ -120,12 +95,37 @@ pg.shop_banner_template = {
 	[13] = {
 		order = 7,
 		name = "banner_big",
-		time = "stop",
 		type = 2,
 		id = 13,
 		relation_param = "",
 		pic = "shopbanner/shop_skin4",
 		time_lable = 1,
+		time = {
+			{
+				{
+					2026,
+					1,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		param = {
 			"scene skinshop",
 			{}
@@ -155,9 +155,9 @@ pg.shop_banner_template = {
 		time = {
 			{
 				{
-					2025,
-					12,
-					18
+					2026,
+					2,
+					12
 				},
 				{
 					0,
@@ -168,8 +168,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2026,
-					1,
-					7
+					3,
+					4
 				},
 				{
 					23,
@@ -186,7 +186,7 @@ pg.shop_banner_template = {
 		},
 		relation_param = {
 			1,
-			9007
+			9011
 		}
 	},
 	[21] = {
@@ -199,9 +199,9 @@ pg.shop_banner_template = {
 		time = {
 			{
 				{
-					2025,
-					12,
-					18
+					2026,
+					2,
+					12
 				},
 				{
 					0,
@@ -212,8 +212,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2026,
-					1,
-					7
+					3,
+					4
 				},
 				{
 					23,
@@ -230,7 +230,7 @@ pg.shop_banner_template = {
 		},
 		relation_param = {
 			1,
-			9008
+			9012
 		}
 	},
 	[22] = {
@@ -429,9 +429,9 @@ pg.shop_banner_template = {
 		time = {
 			{
 				{
-					2025,
-					12,
-					18
+					2026,
+					1,
+					15
 				},
 				{
 					0,
@@ -443,12 +443,12 @@ pg.shop_banner_template = {
 				{
 					2026,
 					1,
-					14
+					22
 				},
 				{
-					23,
-					59,
-					59
+					16,
+					0,
+					0
 				}
 			}
 		},

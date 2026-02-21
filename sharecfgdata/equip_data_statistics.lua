@@ -139255,7 +139255,7 @@ end)()
 (function()
 	_G.pg.base.equip_data_statistics[75111] = {
 		type = 1,
-		name = "全弹发射-朱萨诺级I",
+		name = "全弹发射-朱塞诺级I",
 		speciality = "<[NA]>",
 		tech = 1,
 		rarity = 1,
@@ -139300,7 +139300,7 @@ end)()
 (function()
 	_G.pg.base.equip_data_statistics[75112] = {
 		id = 75112,
-		name = "全弹发射-朱萨诺级II",
+		name = "全弹发射-朱塞诺级II",
 		base = 75111,
 		weapon_id = {
 			61732
@@ -148570,6 +148570,177 @@ end)()
 		base = 80561,
 		weapon_id = {
 			61802
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[80571] = {
+		type = 1,
+		name = "专属弹幕-藤波I",
+		speciality = "<[NA]>",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能弹幕",
+		id = 80571,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			61811
+		},
+		skill_id = {},
+		hidden_skill_id = {},
+		part_main = {
+			1,
+			19,
+			20,
+			21
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[80572] = {
+		id = 80572,
+		name = "专属弹幕-藤波II",
+		base = 80571,
+		weapon_id = {
+			61812
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[80581] = {
+		type = 1,
+		name = "专属弹幕-龙骑兵META I",
+		speciality = "<[NA]>",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能弹幕",
+		id = 80581,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			170951
+		},
+		skill_id = {},
+		hidden_skill_id = {},
+		part_main = {
+			1,
+			19,
+			20,
+			21
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[80582] = {
+		id = 80582,
+		name = "专属弹幕-龙骑兵META II",
+		base = 80571,
+		weapon_id = {
+			170952
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[80591] = {
+		type = 1,
+		name = "专属弹幕-彰武I",
+		speciality = "<[NA]>",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能弹幕",
+		id = 80591,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			170961
+		},
+		skill_id = {},
+		hidden_skill_id = {},
+		part_main = {
+			1,
+			19,
+			20,
+			21
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[80592] = {
+		id = 80592,
+		name = "专属弹幕-彰武II",
+		base = 80591,
+		weapon_id = {
+			170962
 		},
 		hidden_skill_id = {}
 	}
@@ -182529,7 +182700,7 @@ end)()
 		value_2 = 10,
 		ammo = 10,
 		nationality = 5,
-		descrip = "",
+		descrip = "根気よく待ち、不変をもって万変に応ず……何事も焦らないのが肝要なり",
 		rarity = 4,
 		attribute_1 = "hit",
 		value_3 = 0,
@@ -188223,6 +188394,441 @@ end)()
 		base = 150940,
 		id = 150951,
 		value_1 = "475",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150960] = {
+		type = 10,
+		name = "オークション招待状",
+		speciality = "<[NA]>",
+		tech = 0,
+		value_2 = 100,
+		ammo = 10,
+		nationality = 5,
+		descrip = "",
+		rarity = 4,
+		attribute_1 = "cannon",
+		value_3 = 0,
+		torpedo_ammo = 0,
+		id = 150960,
+		icon = "150960",
+		value_1 = "10",
+		attribute_2 = "durability",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			{
+				61010,
+				1
+			}
+		},
+		hidden_skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"PRAN",
+			"DEV"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150961] = {
+		id = 150961,
+		value_2 = 105,
+		value_1 = "11",
+		base = 150960,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150962] = {
+		id = 150962,
+		value_2 = 110,
+		value_1 = "12",
+		base = 150960,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150963] = {
+		id = 150963,
+		value_2 = 115,
+		value_1 = "13",
+		base = 150960,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150964] = {
+		id = 150964,
+		value_2 = 120,
+		value_1 = "14",
+		base = 150960,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150965] = {
+		id = 150965,
+		value_2 = 125,
+		value_1 = "15",
+		base = 150960,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150966] = {
+		id = 150966,
+		value_2 = 135,
+		value_1 = "16",
+		base = 150960,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150967] = {
+		id = 150967,
+		value_2 = 150,
+		value_1 = "17",
+		base = 150960,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150968] = {
+		id = 150968,
+		value_2 = 160,
+		value_1 = "18",
+		base = 150960,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150969] = {
+		id = 150969,
+		value_2 = 170,
+		value_1 = "19",
+		base = 150960,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150970] = {
+		id = 150970,
+		value_2 = 180,
+		value_1 = "20",
+		base = 150960,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150971] = {
+		value_2 = 190,
+		anti_siren = 100,
+		base = 150960,
+		id = 150971,
+		value_1 = "21",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150980] = {
+		type = 10,
+		name = "蝶々の竹戯れ",
+		speciality = "<[NA]>",
+		tech = 0,
+		value_2 = 0,
+		ammo = 10,
+		descrip = "",
+		nationality = 5,
+		rarity = 4,
+		id = 150980,
+		value_3 = 0,
+		attribute_1 = "durability",
+		icon = "150980",
+		value_1 = "200",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			{
+				61020,
+				1
+			}
+		},
+		hidden_skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"PRAN",
+			"DEV"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150981] = {
+		id = 150981,
+		value_1 = "230",
+		base = 150980,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150982] = {
+		id = 150982,
+		value_1 = "260",
+		base = 150980,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150983] = {
+		id = 150983,
+		value_1 = "290",
+		base = 150980,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150984] = {
+		id = 150984,
+		value_1 = "320",
+		base = 150980,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150985] = {
+		id = 150985,
+		value_1 = "350",
+		base = 150980,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150986] = {
+		id = 150986,
+		value_1 = "380",
+		base = 150980,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150987] = {
+		id = 150987,
+		value_1 = "410",
+		base = 150980,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150988] = {
+		id = 150988,
+		value_1 = "440",
+		base = 150980,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150989] = {
+		id = 150989,
+		value_1 = "470",
+		base = 150980,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150990] = {
+		id = 150990,
+		value_1 = "500",
+		base = 150980,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150991] = {
+		id = 150991,
+		anti_siren = 100,
+		value_1 = "530",
+		base = 150980,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151000] = {
+		type = 10,
+		name = "蝶々の梅戯れ",
+		speciality = "<[NA]>",
+		tech = 0,
+		value_2 = 0,
+		ammo = 10,
+		descrip = "",
+		nationality = 5,
+		rarity = 4,
+		id = 151000,
+		value_3 = 0,
+		attribute_1 = "durability",
+		icon = "151000",
+		value_1 = "200",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			{
+				61030,
+				1
+			}
+		},
+		hidden_skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"PRAN",
+			"DEV"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151001] = {
+		id = 151001,
+		value_1 = "230",
+		base = 151000,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151002] = {
+		id = 151002,
+		value_1 = "260",
+		base = 151000,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151003] = {
+		id = 151003,
+		value_1 = "290",
+		base = 151000,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151004] = {
+		id = 151004,
+		value_1 = "320",
+		base = 151000,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151005] = {
+		id = 151005,
+		value_1 = "350",
+		base = 151000,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151006] = {
+		id = 151006,
+		value_1 = "380",
+		base = 151000,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151007] = {
+		id = 151007,
+		value_1 = "410",
+		base = 151000,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151008] = {
+		id = 151008,
+		value_1 = "440",
+		base = 151000,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151009] = {
+		id = 151009,
+		value_1 = "470",
+		base = 151000,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151010] = {
+		id = 151010,
+		value_1 = "500",
+		base = 151000,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151011] = {
+		id = 151011,
+		anti_siren = 100,
+		value_1 = "530",
+		base = 151000,
 		hidden_skill_id = {}
 	}
 end)()

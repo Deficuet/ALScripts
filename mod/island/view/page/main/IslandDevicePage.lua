@@ -67,7 +67,12 @@ function var_0_0.InitBanner(arg_8_0)
 		local var_8_1 = var_8_0[iter_8_0 + 1]
 		local var_8_2 = arg_8_0.scrollSnap:AddChild()
 
-		LoadImageSpriteAsync("island/islandbanner/" .. var_8_1.pic, var_8_2)
+		if var_8_1.id == 3 then
+			LoadImageSpriteAsync("activitybanner/island_temp4", var_8_2)
+		else
+			LoadImageSpriteAsync("island/islandbanner/" .. var_8_1.pic, var_8_2)
+		end
+
 		onButton(arg_8_0, var_8_2, function()
 			arg_8_0:BannerSkip(var_8_1)
 		end, SFX_MAIN)
@@ -183,6 +188,13 @@ function var_0_0.GetBannerDisplays(arg_22_0)
 	return underscore(pg.island_banner.all):chain():map(function(arg_23_0)
 		return pg.island_banner[arg_23_0]
 	end):select(function(arg_24_0)
+		local var_24_0 = PLATFORM == PLATFORM_OPENHARMONY
+		local var_24_1 = arg_24_0.type == IslandConst.BANNER_TYPE_SURVEY
+
+		if var_24_0 and var_24_1 then
+			return false
+		end
+
 		return pg.TimeMgr.GetInstance():inTime(arg_24_0.time)
 	end):value()
 end
@@ -200,12 +212,11 @@ function var_0_0.BannerSkip(arg_25_0, arg_25_1)
 		arg_25_0:emit(IslandMediator.OPEN_PAGE, arg_25_1.param[1], arg_25_1.param[2])
 	elseif arg_25_1.type == IslandConst.BANNER_TYPE_SURVEY then
 		local var_25_0, var_25_1 = getProxy(ActivityProxy):isSurveyOpen()
+		local var_25_2 = getProxy(ActivityProxy):isSurveyDone()
 
-		if var_25_0 then
-			pg.m02:sendNotification(GAME.SURVEY_REQUEST, {
-				surveyID = var_25_1,
-				surveyUrlStr = getSurveyUrl(var_25_1)
-			})
+		if var_25_0 and not isFinish then
+			arg_25_0:Hide()
+			arg_25_0:emit(IslandMediator.OPEN_PAGE, arg_25_1.param[1], arg_25_1.param[2])
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_not_start"))
 		end

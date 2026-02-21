@@ -11,9 +11,9 @@ pg.activity_banner = {
 		time = {
 			{
 				{
-					2025,
-					12,
-					25
+					2026,
+					2,
+					12
 				},
 				{
 					0,
@@ -24,8 +24,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					1,
-					7
+					3,
+					4
 				},
 				{
 					23,
@@ -38,41 +38,6 @@ pg.activity_banner = {
 	{
 		id = 2,
 		pic = "temp2",
-		type = 2,
-		param = {
-			"scene skinshop",
-			{}
-		},
-		time = {
-			{
-				{
-					2025,
-					12,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					1,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 3,
-		pic = "temp11",
 		time = "stop",
 		type = 2,
 		param = {
@@ -81,7 +46,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 4,
+		id = 3,
 		pic = "temp3",
 		type = 2,
 		param = {
@@ -94,9 +59,9 @@ pg.activity_banner = {
 		time = {
 			{
 				{
-					2025,
-					12,
-					18
+					2026,
+					2,
+					12
 				},
 				{
 					0,
@@ -107,8 +72,45 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					26
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	},
+	{
+		id = 4,
+		pic = "temp4",
+		type = 2,
+		param = {
+			"scene core activity",
+			{
+				coreName = "SpringFestival2026CoreActivityUI"
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					26
 				},
 				{
 					16,
@@ -120,43 +122,6 @@ pg.activity_banner = {
 	},
 	{
 		id = 5,
-		pic = "temp4",
-		type = 2,
-		param = {
-			"scene core activity",
-			{
-				coreName = "HelenaCoreActivityUI"
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					12,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					1,
-					8
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
-		}
-	},
-	{
-		id = 6,
 		pic = "temp5",
 		type = 2,
 		param = {
@@ -168,9 +133,9 @@ pg.activity_banner = {
 		time = {
 			{
 				{
-					2025,
-					12,
-					25
+					2026,
+					2,
+					12
 				},
 				{
 					0,
@@ -181,19 +146,19 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					1,
-					7
+					2,
+					26
 				},
 				{
-					23,
-					59,
-					59
+					16,
+					0,
+					0
 				}
 			}
 		}
 	},
 	{
-		id = 7,
+		id = 6,
 		pic = "temp6",
 		type = 2,
 		param = {
@@ -205,9 +170,9 @@ pg.activity_banner = {
 		time = {
 			{
 				{
-					2025,
-					12,
-					18
+					2026,
+					2,
+					12
 				},
 				{
 					0,
@@ -218,8 +183,42 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					1,
-					7
+					2,
+					26
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	},
+	{
+		id = 7,
+		pic = "temp7",
+		type = 2,
+		param = {
+			"scene court yard"
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					4
 				},
 				{
 					23,
@@ -231,17 +230,17 @@ pg.activity_banner = {
 	},
 	{
 		id = 8,
-		pic = "temp7",
+		pic = "temp8",
 		type = 2,
 		param = {
-			"scene court yard"
+			"dorm 3d select"
 		},
 		time = {
 			{
 				{
-					2025,
-					12,
-					18
+					2026,
+					2,
+					12
 				},
 				{
 					0,
@@ -252,8 +251,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					1,
-					7
+					2,
+					18
 				},
 				{
 					23,
@@ -264,70 +263,11 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 9,
-		pic = "temp8",
-		type = 2,
-		param = {
-			"dorm 3d select"
-		},
-		time = {
-			{
-				{
-					2025,
-					12,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					1,
-					8
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
-		}
-	},
-	{
-		param = "50298",
-		id = 10,
-		pic = "temp9",
+		param = "50372",
+		time = "stop",
 		type = 3,
-		time = {
-			{
-				{
-					2025,
-					12,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					1,
-					8
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
-		}
+		id = 9,
+		pic = "temp9"
 	},
 	[90] = {
 		param = "",
@@ -358,9 +298,9 @@ pg.activity_banner = {
 		time = {
 			{
 				{
-					2025,
-					12,
-					25
+					2026,
+					2,
+					12
 				},
 				{
 					0,
@@ -371,8 +311,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					1,
-					7
+					3,
+					4
 				},
 				{
 					23,
@@ -384,29 +324,15 @@ pg.activity_banner = {
 	},
 	[100] = {
 		param = "水餃子|東煌で有名な食べ物<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
-		time = "stop",
-		type = 10,
 		id = 100,
-		pic = "dumpling"
-	},
-	[101] = {
-		param = "鏡餅|割ってから食べちゃうぞー<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
-		time = "stop",
-		type = 10,
-		id = 101,
-		pic = "jingbing"
-	},
-	[102] = {
-		param = "キャンディケイン|美味しくて面白い形をしたクリスマスキャンディ<<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
-		id = 102,
-		pic = "christmas",
+		pic = "dumpling",
 		type = 10,
 		time = {
 			{
 				{
-					2025,
-					12,
-					25
+					2026,
+					2,
+					12
 				},
 				{
 					0,
@@ -417,8 +343,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					1,
-					8
+					3,
+					12
 				},
 				{
 					16,
@@ -427,6 +353,20 @@ pg.activity_banner = {
 				}
 			}
 		}
+	},
+	[101] = {
+		param = "鏡餅|割ってから食べちゃうぞー<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
+		time = "stop",
+		type = 10,
+		id = 101,
+		pic = "jingbing"
+	},
+	[102] = {
+		param = "キャンディケイン|美味しくて面白い形をしたクリスマスキャンディ<<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
+		time = "stop",
+		type = 10,
+		id = 102,
+		pic = "christmas"
 	},
 	[200] = {
 		param = "",
@@ -438,14 +378,14 @@ pg.activity_banner = {
 	[201] = {
 		param = "",
 		id = 201,
-		pic = "christmas",
+		pic = "springfes",
 		type = 13,
 		time = {
 			{
 				{
-					2025,
-					12,
-					25
+					2026,
+					2,
+					12
 				},
 				{
 					0,
@@ -456,8 +396,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					1,
-					8
+					3,
+					12
 				},
 				{
 					16,
@@ -483,11 +423,10 @@ pg.activity_banner = {
 			5,
 			6,
 			7,
-			8,
-			9
+			8
 		},
 		[3] = {
-			10
+			9
 		},
 		[9] = {
 			90,
@@ -520,7 +459,6 @@ pg.activity_banner = {
 		7,
 		8,
 		9,
-		10,
 		90,
 		91,
 		95,

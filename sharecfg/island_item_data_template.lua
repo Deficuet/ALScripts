@@ -35,6 +35,22 @@ pg.island_item_data_template = setmetatable({
 			1020,
 			1021,
 			1022,
+			1101,
+			1102,
+			1103,
+			1104,
+			1105,
+			1106,
+			1107,
+			1108,
+			1201,
+			1202,
+			1203,
+			1204,
+			1205,
+			1206,
+			1207,
+			1208,
 			2000,
 			2001,
 			2002,
@@ -57,6 +73,8 @@ pg.island_item_data_template = setmetatable({
 			2020,
 			2021,
 			2022,
+			2521,
+			2522,
 			2600,
 			2601,
 			2602,
@@ -142,6 +160,13 @@ pg.island_item_data_template = setmetatable({
 			3111,
 			3112,
 			3113,
+			3114,
+			3115,
+			3116,
+			3117,
+			3118,
+			3119,
+			3120,
 			4001,
 			4002,
 			4003,
@@ -156,6 +181,37 @@ pg.island_item_data_template = setmetatable({
 			4012,
 			4013,
 			4014,
+			4015,
+			4016,
+			4017,
+			4018,
+			4019,
+			4020,
+			4021,
+			4022,
+			4023,
+			4024,
+			4025,
+			4026,
+			4027,
+			4028,
+			5001,
+			5002,
+			5003,
+			5004,
+			5005,
+			5006,
+			5007,
+			5008,
+			5101,
+			5102,
+			5103,
+			5104,
+			5105,
+			5106,
+			5107,
+			5108,
+			9900,
 			100001,
 			100002,
 			100003,
@@ -196,12 +252,23 @@ pg.island_item_data_template = setmetatable({
 			200013,
 			200014,
 			200015,
+			200016,
+			200017,
+			200018,
+			200019,
+			200020,
 			300001,
 			300002,
 			300003,
 			300004,
 			300005,
 			300006
+		},
+		usage_fish = {
+			1500,
+			1501,
+			1502,
+			1503
 		},
 		usage_island_gift = {
 			110001,
@@ -219,7 +286,11 @@ pg.island_item_data_template = setmetatable({
 			6,
 			7,
 			8,
-			9
+			9,
+			1500,
+			1501,
+			1502,
+			1503
 		},
 		[4] = {
 			2
@@ -270,6 +341,11 @@ pg.island_item_data_template = setmetatable({
 			200013,
 			200014,
 			200015,
+			200016,
+			200017,
+			200018,
+			200019,
+			200020,
 			300001,
 			300002,
 			300003,
@@ -301,6 +377,22 @@ pg.island_item_data_template = setmetatable({
 			1020,
 			1021,
 			1022,
+			1101,
+			1102,
+			1103,
+			1104,
+			1105,
+			1106,
+			1107,
+			1108,
+			1201,
+			1202,
+			1203,
+			1204,
+			1205,
+			1206,
+			1207,
+			1208,
 			2000,
 			2001,
 			2002,
@@ -323,6 +415,8 @@ pg.island_item_data_template = setmetatable({
 			2020,
 			2021,
 			2022,
+			2521,
+			2522,
 			2600,
 			2601,
 			2602,
@@ -408,6 +502,13 @@ pg.island_item_data_template = setmetatable({
 			3111,
 			3112,
 			3113,
+			3114,
+			3115,
+			3116,
+			3117,
+			3118,
+			3119,
+			3120,
 			4001,
 			4002,
 			4003,
@@ -421,7 +522,38 @@ pg.island_item_data_template = setmetatable({
 			4011,
 			4012,
 			4013,
-			4014
+			4014,
+			4015,
+			4016,
+			4017,
+			4018,
+			4019,
+			4020,
+			4021,
+			4022,
+			4023,
+			4024,
+			4025,
+			4026,
+			4027,
+			4028,
+			5001,
+			5002,
+			5003,
+			5004,
+			5005,
+			5006,
+			5007,
+			5008,
+			5101,
+			5102,
+			5103,
+			5104,
+			5105,
+			5106,
+			5107,
+			5108,
+			9900
 		},
 		[5] = {
 			100001,
@@ -462,6 +594,26 @@ pg.island_item_data_template = setmetatable({
 		1020,
 		1021,
 		1022,
+		1101,
+		1102,
+		1103,
+		1104,
+		1105,
+		1106,
+		1107,
+		1108,
+		1201,
+		1202,
+		1203,
+		1204,
+		1205,
+		1206,
+		1207,
+		1208,
+		1500,
+		1501,
+		1502,
+		1503,
 		2000,
 		2001,
 		2002,
@@ -484,6 +636,8 @@ pg.island_item_data_template = setmetatable({
 		2020,
 		2021,
 		2022,
+		2521,
+		2522,
 		2600,
 		2601,
 		2602,
@@ -569,6 +723,13 @@ pg.island_item_data_template = setmetatable({
 		3111,
 		3112,
 		3113,
+		3114,
+		3115,
+		3116,
+		3117,
+		3118,
+		3119,
+		3120,
 		4001,
 		4002,
 		4003,
@@ -583,6 +744,37 @@ pg.island_item_data_template = setmetatable({
 		4012,
 		4013,
 		4014,
+		4015,
+		4016,
+		4017,
+		4018,
+		4019,
+		4020,
+		4021,
+		4022,
+		4023,
+		4024,
+		4025,
+		4026,
+		4027,
+		4028,
+		5001,
+		5002,
+		5003,
+		5004,
+		5005,
+		5006,
+		5007,
+		5008,
+		5101,
+		5102,
+		5103,
+		5104,
+		5105,
+		5106,
+		5107,
+		5108,
+		9900,
 		100001,
 		100002,
 		100003,
@@ -629,6 +821,11 @@ pg.island_item_data_template = setmetatable({
 		200013,
 		200014,
 		200015,
+		200016,
+		200017,
+		200018,
+		200019,
+		200020,
 		300001,
 		300002,
 		300003,
@@ -739,7 +936,7 @@ pg.base.island_item_data_template = {
 				{}
 			},
 			{
-				"累計PT",
+				"シーズン-累計PT",
 				{}
 			}
 		}
@@ -1894,6 +2091,829 @@ pg.base.island_item_data_template = {
 			}
 		}
 	},
+	[1101] = {
+		pt_num = 1,
+		name = "稚貝",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "二枚貝類の稚貝。安定して成長し、養殖技術も確立されている。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1101",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1101,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"稚魚ショップ",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1102] = {
+		pt_num = 1,
+		name = "ナマズの稚魚",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "底生性の淡水魚の稚魚。低酸素環境に強く、泥底のいけすでの高密度養殖に適している。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1102",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1102,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"稚魚ショップ",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1103] = {
+		pt_num = 1,
+		name = "コイの稚魚",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "淡水性の雑食魚の稚魚。環境への適応力が高く、さまざまな水質条件で安定して成長する。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1103",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1103,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"稚魚ショップ",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1104] = {
+		pt_num = 1,
+		name = "フナの稚魚",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "小型の淡水魚の稚魚。主に藻類や有機物を食べ、生態系の維持に貢献する。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1104",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1104,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"稚魚ショップ",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1105] = {
+		pt_num = 1,
+		name = "稚エビ",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "淡水エビ類の幼体。残餌や一部の藻類を食べ、水域の清掃役として機能する。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1105",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1105,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"稚魚ショップ",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1106] = {
+		pt_num = 1,
+		name = "稚ザリ",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "甲殻類の幼体。成長に伴って殻が赤く硬くなり、成体は人気の高い水産物として取引されている。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1106",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1106,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"稚魚ショップ",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1107] = {
+		pt_num = 1,
+		name = "スズキの稚魚",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "肉食性魚類の稚魚。肉質が柔らかく、上質な食用魚とされている。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1107",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1107,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"稚魚ショップ",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1108] = {
+		pt_num = 1,
+		name = "稚ガニ",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "脱皮を頻繁に行うカニの幼体。清く水質の良い環境での養殖が必要。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1108",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1108,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"稚魚ショップ",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1201] = {
+		pt_num = 1,
+		name = "稚イカ",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "頭足類の稚魚。成長の過程で複数回の形態変化を経て、プリプリな肉質に至る。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1201",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1201,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"稚魚ショップ",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1202] = {
+		pt_num = 1,
+		name = "サワラの稚魚",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "肉食性魚類の稚魚。中層から表層の水域でよく見かけられ、成長性に優れる。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1202",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1202,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"稚魚ショップ",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1203] = {
+		pt_num = 1,
+		name = "マグロの稚魚",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "大型の外洋性魚類の稚魚。成長が早く、十分な酸素供給がある水域での養殖が求められる。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1203",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1203,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"稚魚ショップ",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1204] = {
+		pt_num = 1,
+		name = "サーモンの稚魚",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "回遊性魚類の稚魚。低めの水温を好み、丁寧に育てることで良質な魚肉が得られる。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1204",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1204,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"稚魚ショップ",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1205] = {
+		pt_num = 1,
+		name = "マダイの稚魚",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "暖水性の海水魚の稚魚。成長後は体色が鮮やかで、観賞価値が高い。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1205",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1205,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"稚魚ショップ",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1206] = {
+		pt_num = 1,
+		name = "クロダイの稚魚",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "岩礁域に生息する魚類の稚魚。体質が頑健で、養殖の成功率が高い。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1206",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1206,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"稚魚ショップ",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1207] = {
+		pt_num = 1,
+		name = "キハダの稚魚",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "キバタマグロの稚魚。遊泳速度が速く、養殖においては水中の酸素量に高い水準が求められる。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1207",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1207,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"稚魚ショップ",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1208] = {
+		pt_num = 1,
+		name = "稚ナマコ",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "底生性の棘皮動物の幼体。堆積した有機物を餌とし、いけすの底層を効率よく浄化してくれる。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1208",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1208,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"稚魚ショップ",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1500] = {
+		pt_num = 0,
+		name = "ミミズ",
+		group_max = 0,
+		type = 3,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "ミミズを模したルアー。リアルな見た目で、魚も食いつきやすい。",
+		usage = "usage_fish",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_1500",
+		price = 0,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[[{{5003,300},{5004,300},{5002,200},{5007,200},{5106,200},{5108,-300}}],[]]",
+		id = 1500,
+		have_max = 1,
+		filter = {
+			10313
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"ショップ購入",
+				{}
+			}
+		}
+	},
+	[1501] = {
+		pt_num = 0,
+		name = "コーン",
+		group_max = 0,
+		type = 3,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "特殊な味づけを施したとうもろこし状のルアー。その黄金色が雑食性の魚に強くアピールする。",
+		usage = "usage_fish",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_1501",
+		price = 0,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[[{{5005,-400},{5006,-400},{5008,-200},{5103,-500},{5104,-500},{5107,-500}}],[]]",
+		id = 1501,
+		have_max = 1,
+		filter = {
+			10313
+		},
+		sub_attribute = {},
+		jump_page = {}
+	},
+	[1502] = {
+		pt_num = 0,
+		name = "むきエビ",
+		group_max = 0,
+		type = 3,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "こだわって作られたむきエビ状のルアー。その自然な形と動きが多くの肉食魚を惹きつけるだろう。",
+		usage = "usage_fish",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_1502",
+		price = 0,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[[{{5003,-500},{5004,-500},{5101,200},{5102,300},{5104,300},{5108,-200}}],[]]",
+		id = 1502,
+		have_max = 1,
+		filter = {
+			10313
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"ショップ購入",
+				{}
+			}
+		}
+	},
+	[1503] = {
+		pt_num = 0,
+		name = "タコ足",
+		group_max = 0,
+		type = 3,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "独特な形状を持つルアー。水中でのダイナミックな動きが、大型魚にとって抗いがたい魅力をもつ。",
+		usage = "usage_fish",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_1503",
+		price = 0,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[[{{5003,-500},{5004,-500},{5101,-200},{5103,500},{5107,500},{5108,-200}}],[]]",
+		id = 1503,
+		have_max = 1,
+		filter = {
+			10313
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"ショップ購入",
+				{}
+			}
+		}
+	},
 	[2000] = {
 		pt_num = 1,
 		name = "小麦",
@@ -2598,6 +3618,70 @@ pg.base.island_item_data_template = {
 			}
 		}
 	},
+	[2521] = {
+		pt_num = 18,
+		name = "淡水魚の肉",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "加工された淡水魚の身。家庭料理の基礎となる万能素材。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 180,
+		icon = "IslandProps/item_2521",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 2521,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"魚肉加工",
+				{}
+			}
+		}
+	},
+	[2522] = {
+		pt_num = 48,
+		name = "海水魚の肉",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "加工された海水魚の身。海の香りがほのかに漂う。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 400,
+		icon = "IslandProps/item_2522",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 2522,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"魚肉加工",
+				{}
+			}
+		}
+	},
 	[2600] = {
 		pt_num = 2,
 		name = "新鮮な肉",
@@ -3170,7 +4254,19 @@ pg.base.island_item_data_template = {
 		jump_page = {
 			{
 				"磨坊",
-				{}
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10019
+					}
+				}
 			}
 		}
 	},
@@ -3202,7 +4298,19 @@ pg.base.island_item_data_template = {
 		jump_page = {
 			{
 				"磨坊",
-				{}
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10019
+					}
+				}
 			}
 		}
 	},
@@ -3234,7 +4342,19 @@ pg.base.island_item_data_template = {
 		jump_page = {
 			{
 				"磨坊",
-				{}
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10019
+					}
+				}
 			}
 		}
 	},
@@ -3266,7 +4386,19 @@ pg.base.island_item_data_template = {
 		jump_page = {
 			{
 				"磨坊",
-				{}
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10019
+					}
+				}
 			}
 		}
 	},
@@ -5441,6 +6573,248 @@ pg.base.island_item_data_template = {
 			}
 		}
 	},
+	[3114] = {
+		pt_num = 30,
+		name = "フィッシュ&チップス",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 280,
+		desc = "外はカリッと、中はふんわり揚がった魚と、香ばしいフライドポテトの組み合わせ。皆に好かれる一品。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 300,
+		icon = "IslandProps/item_3114",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 3114,
+		have_max = 0,
+		filter = {
+			10113,
+			10127
+		},
+		sub_attribute = {
+			6,
+			35
+		},
+		jump_page = {
+			{
+				"有魚飯店",
+				{}
+			}
+		}
+	},
+	[3115] = {
+		pt_num = 60,
+		name = "レモンエビ",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 220,
+		desc = "プリッとしたエビの甘みとレモンの爽やかな酸味が合わさり、食欲を増進させる。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 500,
+		icon = "IslandProps/item_3115",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 3115,
+		have_max = 0,
+		filter = {
+			10113,
+			10130
+		},
+		sub_attribute = {
+			5,
+			35
+		},
+		jump_page = {
+			{
+				"烏魚焼肉",
+				{}
+			}
+		}
+	},
+	[3116] = {
+		pt_num = 57,
+		name = "魚の玉ねぎ蒸し",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 180,
+		desc = "甘いタマネギの細切りを添えた蒸し魚。魚本来の旨味を最大限に引き出してくれる。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 420,
+		icon = "IslandProps/item_3116",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 3116,
+		have_max = 0,
+		filter = {
+			10113,
+			10127
+		},
+		sub_attribute = {
+			3,
+			35
+		},
+		jump_page = {
+			{
+				"有魚飯店",
+				{}
+			}
+		}
+	},
+	[3117] = {
+		pt_num = 82,
+		name = "装飾画",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "壁を彩る繊細な絵画。部屋にひとさじの芸術的な趣を添える。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 820,
+		icon = "IslandProps/item_3117",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 3117,
+		have_max = 0,
+		filter = {
+			10113,
+			10131
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"木材加工設備",
+				{}
+			}
+		}
+	},
+	[3118] = {
+		pt_num = 187,
+		name = "パエリア",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 200,
+		desc = "海の恵みを贅沢に使ったパエリア。ご飯の一粒にも海の風味が混じっている。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 900,
+		icon = "IslandProps/item_3118",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 3118,
+		have_max = 0,
+		filter = {
+			10113,
+			10129
+		},
+		sub_attribute = {
+			2,
+			35
+		},
+		jump_page = {
+			{
+				"饅頭軽食",
+				{}
+			}
+		}
+	},
+	[3119] = {
+		pt_num = 152,
+		name = "ザリガニ炒め",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 240,
+		desc = "強火で手早く炒めたザリガニ。鮮やかな赤が食欲をそそり、ご飯が進む。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 720,
+		icon = "IslandProps/item_3119",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 3119,
+		have_max = 0,
+		filter = {
+			10113,
+			10130
+		},
+		sub_attribute = {
+			5,
+			35
+		},
+		jump_page = {
+			{
+				"烏魚焼肉",
+				{}
+			}
+		}
+	},
+	[3120] = {
+		pt_num = 381,
+		name = "佛跳牆",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 150,
+		desc = "何時間も丁寧に煮込まれた逸品。宴席の締めを飾るご馳走として振る舞われる。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 2000,
+		icon = "IslandProps/item_3120",
+		price = 1,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 3120,
+		have_max = 0,
+		filter = {
+			10113,
+			10127
+		},
+		sub_attribute = {
+			5,
+			60
+		},
+		jump_page = {
+			{
+				"有魚飯店",
+				{}
+			}
+		}
+	},
 	[4001] = {
 		pt_num = 40,
 		name = "アキギク",
@@ -5467,7 +6841,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"マップで採集",
+				"秋の特産依頼-マップで採集",
 				{}
 			}
 		}
@@ -5498,7 +6872,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"マップで採集",
+				"秋の特産依頼-マップで採集",
 				{}
 			}
 		}
@@ -5529,7 +6903,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"マップで採集",
+				"秋の特産依頼-マップで採集",
 				{}
 			}
 		}
@@ -5560,7 +6934,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"マップで採集",
+				"秋の特産依頼-マップで採集",
 				{}
 			}
 		}
@@ -5592,7 +6966,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"薫る果樹園",
+				"秋の特産依頼-薫る果樹園",
 				{}
 			}
 		}
@@ -5623,7 +6997,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"ショップ購入",
+				"秋の特産依頼-ショップ購入",
 				{
 					"IslandShopPage",
 					{
@@ -5667,7 +7041,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"薫る果樹園",
+				"秋の特産依頼-薫る果樹園",
 				{}
 			}
 		}
@@ -5698,7 +7072,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"ショップ購入",
+				"秋の特産依頼-ショップ購入",
 				{
 					"IslandShopPage",
 					{
@@ -5745,7 +7119,7 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"有魚飯店",
+				"秋の特産依頼-有魚飯店",
 				{}
 			}
 		}
@@ -5780,7 +7154,7 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"有魚飯店",
+				"秋の特産依頼-有魚飯店",
 				{}
 			}
 		}
@@ -5815,7 +7189,7 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"手工作業台",
+				"秋の特産依頼-手工作業台",
 				{}
 			}
 		}
@@ -5850,7 +7224,7 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"手工作業台",
+				"秋の特産依頼-手工作業台",
 				{}
 			}
 		}
@@ -5885,7 +7259,7 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"白クマ茶房",
+				"秋の特産依頼-白クマ茶房",
 				{}
 			}
 		}
@@ -5920,7 +7294,1028 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"白クマ茶房",
+				"秋の特産依頼-白クマ茶房",
+				{}
+			}
+		}
+	},
+	[4015] = {
+		pt_num = 75,
+		name = "春タケノコ",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "春の大地から生えた新鮮なタケノコ。歯ごたえがよく、名高い旬の食材として知られている。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 600,
+		icon = "IslandProps/item_4015",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4015,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"秋の特産依頼-マップ採集",
+				{}
+			}
+		}
+	},
+	[4016] = {
+		pt_num = 2,
+		name = "ナズナ",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "爽やかな春の野菜。独特の香りがあり、一部料理の具や和え物によく使われる。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 225,
+		icon = "IslandProps/item_4016",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4016,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"秋の特産依頼-マップ採集",
+				{}
+			}
+		}
+	},
+	[4017] = {
+		pt_num = 18,
+		name = "オウバイ",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "初春に咲く鮮やかな黄色の花。観賞用として楽しめるほか、乾燥させてお茶にもできる。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 180,
+		icon = "IslandProps/item_4017",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4017,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"秋の特産依頼-マップ採集",
+				{}
+			}
+		}
+	},
+	[4018] = {
+		pt_num = 54,
+		name = "ヒヤシンス",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "香り高い早春の観賞植物。花壇や庭園でよく植え込まれる。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 540,
+		icon = "IslandProps/item_4018",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4018,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"秋の特産依頼-マップ採集",
+				{}
+			}
+		}
+	},
+	[4019] = {
+		pt_num = 5,
+		name = "アスパラガス",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "春に収穫されるみずみずしい野菜。シャキッとした食感で、簡単な調理や付け合わせに向いている。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 50,
+		icon = "IslandProps/item_4019",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4019,
+		have_max = 0,
+		filter = {
+			10111,
+			10132
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"秋の特産依頼-青々苗場",
+				{}
+			}
+		}
+	},
+	[4020] = {
+		pt_num = 1,
+		name = "アスパラガスの種",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "土に埋めておけば、すぐにアスパラガスの若芽がずらりと芽吹く。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_4020",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4020,
+		have_max = 0,
+		filter = {
+			10114
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"秋の特産依頼-ショップ購入",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
+				}
+			}
+		}
+	},
+	[4021] = {
+		pt_num = 11,
+		name = "パイナップル",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "甘酸しく果汁たっぷりの南国風フルーツ。そのままでも食べられるが、加工して食べるのもよい。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 70,
+		icon = "IslandProps/item_4021",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4021,
+		have_max = 0,
+		filter = {
+			10111,
+			10132
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"秋の特産依頼-青々苗場",
+				{}
+			}
+		}
+	},
+	[4022] = {
+		pt_num = 1,
+		name = "パイナップルの種",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "南国の太陽の恵みを豊かに含む種。植え付ければ、美味しいパイナップルを収穫できる。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_4022",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4022,
+		have_max = 0,
+		filter = {
+			10114
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"秋の特産依頼-ショップ購入",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
+				}
+			}
+		}
+	},
+	[4023] = {
+		pt_num = 18,
+		name = "搾りたてパイナップルジュース",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 250,
+		desc = "新鮮なパイナップルをその場で搾ったジュース。さっぱりとした南国の風味。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 200,
+		icon = "IslandProps/item_4023",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4023,
+		have_max = 0,
+		filter = {
+			10113,
+			10128
+		},
+		sub_attribute = {
+			1,
+			35
+		},
+		jump_page = {
+			{
+				"秋の特産依頼-白クマ茶房",
+				{}
+			}
+		}
+	},
+	[4024] = {
+		pt_num = 112,
+		name = "オウバイ茶",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 250,
+		desc = "乾燥させたオウバイのつぼみを使ったハーブティー。ほのかな香りでリラックス効果を持っている。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 800,
+		icon = "IslandProps/item_4024",
+		price = 1,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4024,
+		have_max = 0,
+		filter = {
+			10113,
+			10128
+		},
+		sub_attribute = {
+			6,
+			35
+		},
+		jump_page = {
+			{
+				"秋の特産依頼-白クマ茶房",
+				{}
+			}
+		}
+	},
+	[4025] = {
+		pt_num = 72,
+		name = "タケノコとアスパラの冷菜",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 250,
+		desc = "アスパラガスとタケノコをさっぱり和えた春の小鉢。歯切れがよく、風味の相性も抜群。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 800,
+		icon = "IslandProps/item_4025",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4025,
+		have_max = 0,
+		filter = {
+			10113,
+			10127
+		},
+		sub_attribute = {
+			2,
+			35
+		},
+		jump_page = {
+			{
+				"秋の特産依頼-有魚飯店",
+				{}
+			}
+		}
+	},
+	[4026] = {
+		pt_num = 180,
+		name = "エビのアスパラ炒め物",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 250,
+		desc = "アスパラガスと新鮮なエビを手早く炒めた一品。エビの旨みとシャキシャキ食感が楽しめる定番家庭料理。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 600,
+		icon = "IslandProps/item_4026",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4026,
+		have_max = 0,
+		filter = {
+			10113,
+			10127
+		},
+		sub_attribute = {
+			2,
+			35
+		},
+		jump_page = {
+			{
+				"秋の特産依頼-有魚飯店",
+				{}
+			}
+		}
+	},
+	[4027] = {
+		pt_num = 72,
+		name = "乾燥ナズナ",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "天日干しして保存したナズナ。保存性が高く、汁物や戻して餡に使える。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 720,
+		icon = "IslandProps/item_4027",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4027,
+		have_max = 0,
+		filter = {
+			10113,
+			10131
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"秋の特産依頼-手工製作設備",
+				{}
+			}
+		}
+	},
+	[4028] = {
+		pt_num = 108,
+		name = "春の花束",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "オウバイとヒヤシンスを束ねた花束。明るい彩りで、部屋に春の気配をもたらす。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 1080,
+		icon = "IslandProps/item_4028",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4028,
+		have_max = 0,
+		filter = {
+			10113,
+			10131
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"秋の特産依頼-手工製作設備",
+				{}
+			}
+		}
+	},
+	[5001] = {
+		pt_num = 1,
+		name = "貝",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "殻は装飾品や精巧な工芸品の素材としてよく用いられる。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 42,
+		icon = "IslandProps/item_5001",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5001,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"饅頭いけす",
+				{}
+			}
+		}
+	},
+	[5002] = {
+		pt_num = 2,
+		name = "ナマズ",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "肥えたナマズ。しっかりした味付けの料理に向く。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 250,
+		icon = "IslandProps/item_5002",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5002,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"饅頭いけす",
+				{}
+			}
+		}
+	},
+	[5003] = {
+		pt_num = 16,
+		name = "コイ",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "淡水域の味覚を代表する存在。一部の飲食店では看板料理に用いられる。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 165,
+		icon = "IslandProps/item_5003",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5003,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"饅頭いけす",
+				{}
+			}
+		}
+	},
+	[5004] = {
+		pt_num = 11,
+		name = "フナ",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "食用魚の一種。身がきめ細かく、栄養価も高い。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 110,
+		icon = "IslandProps/item_5004",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5004,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"饅頭いけす",
+				{}
+			}
+		}
+	},
+	[5005] = {
+		pt_num = 12,
+		name = "川エビ",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "高たんぱく・低脂肪・低カロリーで、良質な水産グルメの代表格。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 100,
+		icon = "IslandProps/item_5005",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5005,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"饅頭いけす",
+				{}
+			}
+		}
+	},
+	[5006] = {
+		pt_num = 13,
+		name = "ザリガニ",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "よく川などで見かけるザリガニ。食感はまさに田舎風。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 115,
+		icon = "IslandProps/item_5006",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5006,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"饅頭いけす",
+				{}
+			}
+		}
+	},
+	[5007] = {
+		pt_num = 16,
+		name = "スズキ",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "新鮮なスズキ。白く柔らかな身は蒸し物やソテーにするのに最適。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 136,
+		icon = "IslandProps/item_5007",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5007,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"饅頭いけす",
+				{}
+			}
+		}
+	},
+	[5008] = {
+		pt_num = 58,
+		name = "カニ",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "新鮮で美味しいカニ。甘みのある身は栄養豊富で風味がいい。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 390,
+		icon = "IslandProps/item_5008",
+		price = 1,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5008,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"饅頭いけす",
+				{}
+			}
+		}
+	},
+	[5101] = {
+		pt_num = 1,
+		name = "イカ",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "プリッとした食感のイカ。焼いてよし炙ってよし。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 116,
+		icon = "IslandProps/item_5101",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5101,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"饅頭いけす",
+				{}
+			}
+		}
+	},
+	[5102] = {
+		pt_num = 27,
+		name = "サワラ",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "流線型の体を持つ海のスピードスター。身が締まっており、香ばしく焼く調理に向いている。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 270,
+		icon = "IslandProps/item_5102",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5102,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"饅頭いけす",
+				{}
+			}
+		}
+	},
+	[5103] = {
+		pt_num = 104,
+		name = "マグロ",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "高タンパク・低脂肪のマグロ。海釣りの目標の頂点の一つとされる。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 870,
+		icon = "IslandProps/item_5103",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5103,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"饅頭いけす",
+				{}
+			}
+		}
+	},
+	[5104] = {
+		pt_num = 45,
+		name = "サーモン",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "人気の海の幸。美しい身の模様と豊かな旨味が特徴。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 380,
+		icon = "IslandProps/item_5104",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5104,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"饅頭いけす",
+				{}
+			}
+		}
+	},
+	[5105] = {
+		pt_num = 1,
+		name = "マダイ",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "雑食性の魚類。群れを成して素早く泳ぐ習性があり、栄養価の高さから広く親しまれている。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 172,
+		icon = "IslandProps/item_5105",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5105,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"饅頭いけす",
+				{}
+			}
+		}
+	},
+	[5106] = {
+		pt_num = 24,
+		name = "クロダイ",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "素早く狡猾な相手で、釣り上げるにはかなりの腕前が求められる。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 245,
+		icon = "IslandProps/item_5106",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5106,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"饅頭いけす",
+				{}
+			}
+		}
+	},
+	[5107] = {
+		pt_num = 198,
+		name = "キハダ",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "上質なキハダマグロ。脂が少なく缶詰にもよく使われる。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 1320,
+		icon = "IslandProps/item_5107",
+		price = 1,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5107,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"饅頭いけす",
+				{}
+			}
+		}
+	},
+	[5108] = {
+		pt_num = 162,
+		name = "ナマコ",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "滋養強壮効果を持つナマコ。手に入れるには少しの忍耐と運が必要。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 1080,
+		icon = "IslandProps/item_5108",
+		price = 1,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5108,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"饅頭いけす",
+				{}
+			}
+		}
+	},
+	[9900] = {
+		pt_num = 0,
+		name = "真珠",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "色合い温かな天然のジュエリー。マーケットでは取引が活発に行われている",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_9900",
+		price = 400,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 9900,
+		have_max = 0,
+		filter = {
+			10312
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"ピアリのところで購入",
 				{}
 			}
 		}
@@ -5951,7 +8346,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累計PT",
+				"シーズン-累計PT",
 				{}
 			},
 			{
@@ -5990,7 +8385,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累計PT",
+				"シーズン-累計PT",
 				{}
 			},
 			{
@@ -6029,7 +8424,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累計PT",
+				"シーズン-累計PT",
 				{}
 			},
 			{
@@ -6068,7 +8463,11 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累計PT",
+				"シーズン-累計PT",
+				{}
+			},
+			{
+				"ショップ",
 				{}
 			},
 			{
@@ -6103,7 +8502,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累計PT",
+				"シーズン-累計PT",
 				{}
 			}
 		}
@@ -6160,7 +8559,11 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累計PT",
+				"シーズン-累計PT",
+				{}
+			},
+			{
+				"ショップ",
 				{}
 			},
 			{
@@ -6195,7 +8598,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累計PT",
+				"シーズン-累計PT",
 				{}
 			}
 		}
@@ -6252,7 +8655,11 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累計PT",
+				"シーズン-累計PT",
+				{}
+			},
+			{
+				"ショップ",
 				{}
 			},
 			{
@@ -6287,7 +8694,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累計PT",
+				"シーズン-累計PT",
 				{}
 			}
 		}
@@ -6344,7 +8751,11 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累計PT",
+				"シーズン-累計PT",
+				{}
+			},
+			{
+				"ショップ",
 				{}
 			},
 			{
@@ -6379,7 +8790,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累計PT",
+				"シーズン-累計PT",
 				{}
 			}
 		}
@@ -6436,7 +8847,11 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累計PT",
+				"シーズン-累計PT",
+				{}
+			},
+			{
+				"ショップ",
 				{}
 			},
 			{
@@ -6471,7 +8886,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累計PT",
+				"シーズン-累計PT",
 				{}
 			}
 		}
@@ -6528,7 +8943,11 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累計PT",
+				"シーズン-累計PT",
+				{}
+			},
+			{
+				"ショップ",
 				{}
 			},
 			{
@@ -6563,7 +8982,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累計PT",
+				"シーズン-累計PT",
 				{}
 			}
 		}
@@ -6620,7 +9039,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累計PT",
+				"シーズン-累計PT",
 				{}
 			},
 			{
@@ -6659,7 +9078,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累計PT",
+				"シーズン-累計PT",
 				{}
 			},
 			{
@@ -6698,7 +9117,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"累計PT",
+				"シーズン-累計PT",
 				{}
 			},
 			{
@@ -7382,7 +9801,12 @@ pg.base.island_item_data_template = {
 			10213
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"技術",
+				{}
+			}
+		}
 	},
 	[200014] = {
 		pt_num = 0,
@@ -7442,6 +9866,161 @@ pg.base.island_item_data_template = {
 		jump_page = {
 			{
 				"実績",
+				{}
+			}
+		}
+	},
+	[200016] = {
+		pt_num = 0,
+		name = "ウィリアム・D・ポーター-離島権限認証",
+		group_max = 0,
+		type = 2,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "ウィリアム・D・ポーターの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
+		usage = "usage_undefined",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_200016",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 200016,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"開発ショップ",
+				{}
+			}
+		}
+	},
+	[200017] = {
+		pt_num = 0,
+		name = "鎮海-離島権限認証",
+		group_max = 0,
+		type = 2,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "鎮海の離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
+		usage = "usage_undefined",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_200017",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 200017,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"ショップ",
+				{}
+			}
+		}
+	},
+	[200018] = {
+		pt_num = 0,
+		name = "愛宕-離島権限認証",
+		group_max = 0,
+		type = 2,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "愛宕の離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
+		usage = "usage_undefined",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_200018",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 200018,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[200019] = {
+		pt_num = 0,
+		name = "ヘレナ-離島権限認証",
+		group_max = 0,
+		type = 2,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "ヘレナの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
+		usage = "usage_undefined",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_200019",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 200019,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	},
+	[200020] = {
+		pt_num = 0,
+		name = "フリードリヒ·デア·グローセ-離島権限認証",
+		group_max = 0,
+		type = 2,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "フリードリヒ·デア·グローセの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
+		usage = "usage_undefined",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_200020",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 200020,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"星彩賞",
 				{}
 			}
 		}

@@ -257,6 +257,10 @@ pg.memory_group = setmetatable({
 		351,
 		352,
 		353,
+		354,
+		355,
+		356,
+		357,
 		501,
 		502,
 		503,
@@ -372,6 +376,8 @@ pg.memory_group = setmetatable({
 		615,
 		616,
 		617,
+		618,
+		619,
 		1000,
 		1001,
 		1002,
@@ -6357,7 +6363,26 @@ pg.base.memory_group = {
 			4902,
 			4903,
 			4904,
-			4905
+			4905,
+			4906,
+			4907,
+			4908,
+			4909,
+			4910,
+			4911,
+			4912,
+			4913,
+			4914,
+			4915,
+			4916,
+			4917,
+			4918,
+			4919,
+			4920,
+			4921,
+			4922,
+			4923,
+			4924
 		}
 	},
 	[352] = {
@@ -6391,6 +6416,74 @@ pg.base.memory_group = {
 			4944,
 			4945,
 			4946
+		}
+	},
+	[354] = {
+		id = 354,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 50360,
+		title = "特集写真――撮影進行中！",
+		group_id = "",
+		memories = {
+			4961,
+			4962,
+			4963,
+			4964,
+			4965,
+			4966,
+			4967,
+			4968,
+			4969,
+			4970
+		}
+	},
+	[355] = {
+		id = 355,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 50404,
+		title = "新春珠玉逸品会",
+		group_id = "",
+		memories = {
+			4981,
+			4982,
+			4983,
+			4984,
+			4985,
+			4986,
+			4987
+		}
+	},
+	[356] = {
+		id = 356,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 50401,
+		title = "バレンタイン――甘々大作戦！",
+		group_id = "",
+		memories = {
+			4991,
+			4992,
+			4993
+		}
+	},
+	[357] = {
+		id = 357,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 50412,
+		title = "着せ替え特集 紅帳衣裳",
+		group_id = "",
+		memories = {
+			5001,
+			5002,
+			5003,
+			5004
 		}
 	},
 	[501] = {
@@ -8699,6 +8792,46 @@ pg.base.memory_group = {
 			4865,
 			4866,
 			4867
+		},
+		group_id = {
+			10000
+		}
+	},
+	[618] = {
+		id = 618,
+		subtype = 0,
+		icon = "title_chara_weineituo",
+		type = 3,
+		link_event = 0,
+		title = "威光ガイドツアー",
+		memories = {
+			4951,
+			4952,
+			4953,
+			4954,
+			4955,
+			4956,
+			4957
+		},
+		group_id = {
+			10000
+		}
+	},
+	[619] = {
+		id = 619,
+		subtype = 0,
+		icon = "title_chara_dingan",
+		type = 3,
+		link_event = 0,
+		title = "投資して、しかして破綻せよ",
+		memories = {
+			4971,
+			4972,
+			4973,
+			4974,
+			4975,
+			4976,
+			4977
 		},
 		group_id = {
 			10000

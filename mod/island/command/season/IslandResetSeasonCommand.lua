@@ -13,8 +13,6 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			local var_2_3 = arg_2_0.season_review and IslandSeasonReview.New(arg_2_0.season_review) or nil
 
 			var_2_1:Reset(var_2_3)
-			var_2_0:GetOrderAgency():OnSeasonReset(arg_2_0.order_sys or {})
-			var_2_0:GetBuildingAgency():OnSeasonReset()
 
 			local var_2_4 = var_2_0:GetInventoryAgency():OnSeasonReset()
 			local var_2_5 = IslandDropHelper.AddItems(arg_2_0)
@@ -24,12 +22,12 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 				IslandAchievementHelper.OnSeasonReset(var_2_6)
 			end
 
-			arg_1_0:sendNotification(GAME.ISLAND_RESET_SEASON_DONE, {
+			existCall(var_1_0)
+			IslandSeasonAgency.AddResetData({
 				awards = var_2_5.awards,
 				pt = var_2_4,
 				seasonId = var_2_3 and var_2_3.id or 0,
-				rank = var_2_6,
-				callback = var_1_0
+				rank = var_2_6
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[arg_2_0.result] .. arg_2_0.result)

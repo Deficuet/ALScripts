@@ -81,9 +81,9 @@ pg.voice_bgm = {
 		bgm = "login"
 	},
 	NewMainScene = {
-		default_bgm = "main-christmas",
+		default_bgm = "theme-china-zhangwu",
 		special_bgm = "",
-		bgm = "main-christmas"
+		bgm = "theme-china-zhangwu"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -1851,9 +1851,9 @@ pg.voice_bgm = {
 		bgm = "story-newsakura"
 	},
 	NavalAcademyScene = {
-		default_bgm = "main",
+		default_bgm = "theme-china-zhangwu",
 		special_bgm = "",
-		bgm = "main"
+		bgm = "theme-china-zhangwu"
 	},
 	SkinMagazinePage7 = {
 		default_bgm = "story-richang-partynight",
@@ -2669,5 +2669,120 @@ pg.voice_bgm = {
 		default_bgm = "theme-warmwinter-daily",
 		special_bgm = "",
 		bgm = "theme-warmwinter-daily"
+	},
+	ANTTFFStoryCollectionPage = {
+		default_bgm = "story-weimu-link",
+		special_bgm = "",
+		bgm = "story-weimu-link"
+	},
+	MeixiT2FrameRePage = {
+		default_bgm = "theme-starsea-core",
+		special_bgm = "",
+		bgm = "theme-starsea-core"
+	},
+	StarSeaFacilityRePage = {
+		default_bgm = "blueocean-image",
+		special_bgm = "",
+		bgm = "blueocean-image"
+	},
+	BuildLoginRePage = {
+		default_bgm = "theme-starsea-core",
+		special_bgm = "",
+		bgm = "theme-starsea-core"
+	},
+	StarSeaMainRePage = {
+		default_bgm = "theme-ucnf-image",
+		special_bgm = "",
+		bgm = "theme-ucnf-image"
+	},
+	StarSeaPtRePage = {
+		default_bgm = "theme-ucnf-image",
+		special_bgm = "",
+		bgm = "theme-ucnf-image"
+	},
+	LaFeiUrExchangeTemplatePage = {
+		default_bgm = "theme-ucnf-image",
+		special_bgm = "",
+		bgm = "theme-ucnf-image"
+	},
+	SardiniaSPMainPage = {
+		default_bgm = "theme-richang-fashion",
+		special_bgm = "",
+		bgm = "theme-richang-fashion"
+	},
+	SardiniaSPPtPage = {
+		default_bgm = "story-richang-fashion-pv",
+		special_bgm = "",
+		bgm = "story-richang-fashion-pv"
+	},
+	SardiniaSPMedalAlbumView = {
+		default_bgm = "theme-richang-fashion",
+		special_bgm = "",
+		bgm = "theme-richang-fashion"
+	},
+	BossRushVerSardiniaSPScene = {
+		default_bgm = "story-richang-fashion-pv",
+		special_bgm = "",
+		bgm = "story-richang-fashion-pv"
+	},
+	SpringFestival2026MainPage = {
+		default_bgm = "story-zhangwu-china",
+		special_bgm = "",
+		bgm = "story-zhangwu-china"
+	},
+	SpringFestival2026FuboLoginPage = {
+		default_bgm = "theme-fushun-adventure",
+		special_bgm = "",
+		bgm = "theme-fushun-adventure"
+	},
+	SpringFestival2026SkinMagazinePage = {
+		default_bgm = "story-zhangwu-china",
+		special_bgm = "",
+		bgm = "story-zhangwu-china"
+	},
+	SpringFestival2026RedPacketPage = {
+		default_bgm = "main-chunjie2",
+		special_bgm = "",
+		bgm = "main-chunjie2"
+	},
+	SpringFestival2026FireworkAndSpringPage = {
+		default_bgm = "main-chunjie4-2",
+		special_bgm = "",
+		bgm = "main-chunjie4-2"
+	},
+	SpringFestival2026NewYearWishesPtPage = {
+		default_bgm = "main-chunjie",
+		special_bgm = "",
+		bgm = "main-chunjie"
+	},
+	SpringFestival2026PacGamePage = {
+		default_bgm = "theme-fushun-adventure",
+		special_bgm = "",
+		bgm = "theme-fushun-adventure"
+	},
+	DonghuangMedalAlbumView = {
+		default_bgm = "theme-china-zhangwu",
+		special_bgm = "",
+		bgm = "theme-china-zhangwu"
+	},
+	ActivityBossZhangwuUI = {
+		default_bgm = "story-zhangwu-china",
+		special_bgm = "",
+		bgm = "story-zhangwu-china"
+	},
+	SpringFestival2026ColoringAnshanscene = {
+		default_bgm = "story-china",
+		special_bgm = "",
+		bgm = "story-china"
+	},
+	LoveLetterActivityScene = {
+		default_bgm = "story-richang-rosy-short",
+		special_bgm = "",
+		bgm = "story-richang-rosy-short"
+	},
+	LightLoginTemplatePage = {
+		default_bgm = "theme-fushun-adventure",
+		special_bgm = "",
+		bgm = "theme-fushun-adventure"
 	}
 }

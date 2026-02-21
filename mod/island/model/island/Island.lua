@@ -133,6 +133,7 @@ function var_0_0.UpdatePerDay(arg_20_0)
 	arg_20_0:GetOrderAgency():UpdatePerDay()
 	arg_20_0:GetTaskAgency():UpdatePerDay()
 	arg_20_0:GetNpcFeedbackAgency():UpdatePerDay()
+	arg_20_0:GetTicketAgency():UpdatePerDay()
 end
 
 function var_0_0.UpdatePerSecond(arg_21_0)

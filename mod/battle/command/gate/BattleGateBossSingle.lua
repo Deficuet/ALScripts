@@ -185,4 +185,16 @@ function var_0_0.Exit(arg_4_0, arg_4_1)
 	arg_4_1:SendRequest(var_4_13, var_4_14)
 end
 
+function var_0_0.GetPreloadList(arg_7_0)
+	local var_7_0, var_7_1 = ys.Battle.BattleGateActBoss.GetPreloadList(arg_7_0)
+	local var_7_2 = getProxy(ActivityProxy):getActivityById(arg_7_0.actId)
+	local var_7_3 = ys.Battle.BattleResourceManager.GetInstance().GetResFromBuffIDList(var_7_2:GetBuffIdsByStageId(arg_7_0.stageId))
+
+	for iter_7_0, iter_7_1 in ipairs(var_7_3) do
+		table.insert(var_7_0, iter_7_1)
+	end
+
+	return var_7_0, var_7_1
+end
+
 return var_0_0

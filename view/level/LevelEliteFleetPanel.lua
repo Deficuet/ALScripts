@@ -168,13 +168,11 @@ function var_0_0.initAddButton(arg_12_0, arg_12_1, arg_12_2, arg_12_3, arg_12_4)
 		end
 	end
 
-	local var_12_3 = findTF(arg_12_1, arg_12_2)
+	removeAllChildren(arg_12_1)
 
-	removeAllChildren(var_12_3)
-
-	local var_12_4 = 0
-	local var_12_5 = false
-	local var_12_6 = 0
+	local var_12_3 = 0
+	local var_12_4 = false
+	local var_12_5 = 0
 
 	arg_12_3 = Clone(arg_12_3)
 
@@ -191,110 +189,110 @@ function var_0_0.initAddButton(arg_12_0, arg_12_1, arg_12_2, arg_12_3, arg_12_4)
 		end
 	end)
 
+	local var_12_6 = {}
 	local var_12_7 = {}
-	local var_12_8 = {}
 
 	for iter_12_2 = 1, 3 do
+		local var_12_8
 		local var_12_9
 		local var_12_10
-		local var_12_11
-		local var_12_12 = var_12_2[iter_12_2] and arg_12_0.parent.shipVOs[var_12_2[iter_12_2]] or nil
+		local var_12_11 = var_12_2[iter_12_2] and arg_12_0.parent.shipVOs[var_12_2[iter_12_2]] or nil
 
-		if var_12_12 then
+		if var_12_11 then
 			for iter_12_3, iter_12_4 in ipairs(arg_12_3) do
-				if ShipType.ContainInLimitBundle(iter_12_4, var_12_12:getShipType()) then
-					var_12_10 = var_12_12
-					var_12_11 = iter_12_4
+				if ShipType.ContainInLimitBundle(iter_12_4, var_12_11:getShipType()) then
+					var_12_9 = var_12_11
+					var_12_10 = iter_12_4
 
 					table.remove(arg_12_3, iter_12_3)
-					table.insert(var_12_7, iter_12_3)
+					table.insert(var_12_6, iter_12_3)
 
-					var_12_5 = var_12_5 or iter_12_4 ~= 0
+					var_12_4 = var_12_4 or iter_12_4 ~= 0
 
 					break
 				end
 			end
 		else
-			var_12_11 = arg_12_3[1]
+			var_12_10 = arg_12_3[1]
 
 			table.remove(arg_12_3, 1)
-			table.insert(var_12_7, 1)
+			table.insert(var_12_6, 1)
 		end
 
-		if var_12_11 == 0 then
-			var_12_6 = var_12_6 + 1
+		if var_12_10 == 0 then
+			var_12_5 = var_12_5 + 1
 		end
 
-		local var_12_13 = var_12_10 and cloneTplTo(arg_12_0.tfShipTpl, var_12_3) or cloneTplTo(arg_12_0.tfEmptyTpl, var_12_3)
+		local var_12_12 = var_12_9 and cloneTplTo(arg_12_0.tfShipTpl, arg_12_1) or cloneTplTo(arg_12_0.tfEmptyTpl, arg_12_1)
 
-		table.insert(var_12_8, var_12_13)
-		setActive(var_12_13, true)
+		table.insert(var_12_7, var_12_12)
+		setActive(var_12_12, true)
 
-		if var_12_10 then
-			updateShip(var_12_13, var_12_10)
-			setActive(var_12_13:Find("event_block"), var_12_10:getFlag("inEvent"))
+		if var_12_9 then
+			updateShip(var_12_12, var_12_9)
+			setActive(var_12_12:Find("event_block"), var_12_9:getFlag("inEvent"))
 
-			var_12_1[var_12_10] = true
+			var_12_1[var_12_9] = true
 		else
-			var_12_4 = var_12_4 + 1
+			var_12_3 = var_12_3 + 1
 		end
 
-		local var_12_14 = findTF(var_12_13, "icon_bg")
+		local var_12_13 = findTF(var_12_12, "icon_bg")
 
-		setActive(var_12_13:Find("ship_type"), true)
+		setActive(var_12_12:Find("ship_type"), true)
 
-		if type(var_12_11) == "number" then
-			if var_12_11 ~= 0 then
-				local var_12_15 = GetSpriteFromAtlas("shiptype", ShipType.Type2CNLabel(var_12_11))
+		if type(var_12_10) == "number" then
+			if var_12_10 ~= 0 then
+				local var_12_14 = GetSpriteFromAtlas("shiptype", ShipType.Type2CNLabel(var_12_10))
 
-				setImageSprite(var_12_13:Find("ship_type"), var_12_15, true)
+				setImageSprite(var_12_12:Find("ship_type"), var_12_14, true)
 			else
-				setActive(var_12_13:Find("ship_type"), false)
+				setActive(var_12_12:Find("ship_type"), false)
 			end
-		elseif type(var_12_11) == "string" then
-			local var_12_16 = GetSpriteFromAtlas("shiptype", ShipType.BundleType2CNLabel(var_12_11))
+		elseif type(var_12_10) == "string" then
+			local var_12_15 = GetSpriteFromAtlas("shiptype", ShipType.BundleType2CNLabel(var_12_10))
 
-			setImageSprite(var_12_13:Find("ship_type"), var_12_16, true)
+			setImageSprite(var_12_12:Find("ship_type"), var_12_15, true)
 		end
 
-		setActive(var_12_13:Find("ship_type"), not var_12_10 and var_12_11 ~= 0)
+		setActive(var_12_12:Find("ship_type"), not var_12_9 and var_12_10 ~= 0)
 
-		local var_12_17 = _.map(var_12_0, function(arg_14_0)
+		local var_12_16 = _.map(var_12_0, function(arg_14_0)
 			return arg_12_0.parent.shipVOs[arg_14_0]
 		end)
 
-		table.sort(var_12_17, function(arg_15_0, arg_15_1)
+		table.sort(var_12_16, function(arg_15_0, arg_15_1)
 			return var_0_1[arg_15_0:getTeamType()] < var_0_1[arg_15_1:getTeamType()] or var_0_1[arg_15_0:getTeamType()] == var_0_1[arg_15_1:getTeamType()] and table.indexof(var_12_0, arg_15_0.id) < table.indexof(var_12_0, arg_15_1.id)
 		end)
 
-		local var_12_18 = GetOrAddComponent(var_12_14, typeof(UILongPressTrigger))
+		local var_12_17 = GetOrAddComponent(var_12_13, typeof(UILongPressTrigger))
 
-		var_12_18.onReleased:RemoveAllListeners()
-		var_12_18.onLongPressed:RemoveAllListeners()
-		var_12_18.onReleased:AddListener(function()
+		var_12_17.onReleased:RemoveAllListeners()
+		var_12_17.onLongPressed:RemoveAllListeners()
+		var_12_17.onReleased:AddListener(function()
 			arg_12_0.onClick({
-				shipType = var_12_11,
+				shipType = var_12_10,
 				fleet = var_12_1,
 				chapter = arg_12_0.chapter,
-				shipVO = var_12_10,
+				shipVO = var_12_9,
 				fleetIndex = arg_12_4,
 				teamType = arg_12_2
 			})
 		end)
-		var_12_18.onLongPressed:AddListener(function()
-			if not var_12_10 then
+		var_12_17.onLongPressed:AddListener(function()
+			if not var_12_9 then
 				arg_12_0.onClick({
-					shipType = var_12_11,
+					shipType = var_12_10,
 					fleet = var_12_1,
 					chapter = arg_12_0.chapter,
-					shipVO = var_12_10,
+					shipVO = var_12_9,
 					fleetIndex = arg_12_4,
 					teamType = arg_12_2
 				})
 			else
 				arg_12_0.onLongPressed({
-					shipId = var_12_10.id,
-					shipVOs = var_12_17,
+					shipId = var_12_9.id,
+					shipVOs = var_12_16,
 					chapter = arg_12_0.chapter
 				})
 			end
@@ -302,10 +300,10 @@ function var_0_0.initAddButton(arg_12_0, arg_12_1, arg_12_2, arg_12_3, arg_12_4)
 	end
 
 	for iter_12_5 = 3, 1, -1 do
-		var_12_8[iter_12_5]:SetSiblingIndex(var_12_7[iter_12_5] - 1)
+		var_12_7[iter_12_5]:SetSiblingIndex(var_12_6[iter_12_5] - 1)
 	end
 
-	if (var_12_5 == true or var_12_6 == 3) and var_12_4 ~= 3 then
+	if (var_12_4 == true or var_12_5 == 3) and var_12_3 ~= 3 then
 		return true
 	else
 		return false
@@ -373,8 +371,8 @@ function var_0_0.updateFleets(arg_21_0)
 			local var_21_6 = arg_21_0.typeLimitations[iter_21_0]
 			local var_21_7 = var_21_6[1]
 			local var_21_8 = var_21_6[2]
-			local var_21_9 = arg_21_0:initAddButton(iter_21_1, TeamType.Main, var_21_7, iter_21_0)
-			local var_21_10 = arg_21_0:initAddButton(iter_21_1, TeamType.Vanguard, var_21_8, iter_21_0)
+			local var_21_9 = arg_21_0:initAddButton(iter_21_1:Find(TeamType.Main), TeamType.Main, var_21_7, iter_21_0)
+			local var_21_10 = arg_21_0:initAddButton(iter_21_1:Find(TeamType.Vanguard), TeamType.Vanguard, var_21_8, iter_21_0)
 
 			arg_21_0:initCommander(iter_21_0, var_21_4, arg_21_0.chapter)
 
@@ -439,7 +437,7 @@ function var_0_0.updateFleets(arg_21_0)
 		arg_21_0:initCommander(var_21_11, var_21_16, arg_21_0.chapter)
 
 		if iter_21_2 <= arg_21_0.chapter:getConfig("submarine_num") then
-			if arg_21_0:initAddButton(iter_21_3, TeamType.Submarine, {
+			if arg_21_0:initAddButton(iter_21_3:Find(TeamType.Main), TeamType.Submarine, {
 				0,
 				0,
 				0

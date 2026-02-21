@@ -119837,6 +119837,710 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.aircraft_template[370010] = {
+		attack_power = 2,
+		name = "【主线16章前半】空袭 轰炸机",
+		type = 3,
+		accuracy = 37,
+		model_ID = "99shijianbao1",
+		ACC_growth = 0,
+		crash_DMG = 400,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 370010,
+		icon = "99shijianbao1",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 0,
+		speed = 30,
+		max_hp = 3180,
+		scale = 0.75,
+		weapon_ID = {
+			370008
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[370020] = {
+		attack_power = 2,
+		name = "【主线16章前半】空袭 鱼雷机",
+		type = 2,
+		accuracy = 37,
+		model_ID = "tianshan",
+		ACC_growth = 0,
+		crash_DMG = 320,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 370020,
+		icon = "tianshan",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 0,
+		speed = 30,
+		max_hp = 2943,
+		scale = 0.75,
+		weapon_ID = {
+			370009
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[370030] = {
+		attack_power = 2,
+		name = "【主线16章前半】空袭 战斗机",
+		type = 1,
+		accuracy = 37,
+		model_ID = "lingzhan52",
+		ACC_growth = 0,
+		crash_DMG = 260,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 370030,
+		icon = "lingzhan52",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 0,
+		speed = 35,
+		max_hp = 2770,
+		scale = 0.75,
+		weapon_ID = {
+			370010,
+			370011
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[370001] = {
+		attack_power = 2,
+		name = "【主线16章后半】通用轰炸机",
+		type = 3,
+		accuracy = 37,
+		model_ID = "99shijianbao1",
+		ACC_growth = 0,
+		crash_DMG = 308,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 370001,
+		icon = "99shijianbao1",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 0,
+		speed = 30,
+		max_hp = 3795,
+		scale = 0.75,
+		weapon_ID = {
+			360004
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[370002] = {
+		attack_power = 2,
+		name = "【主线16章后半】通用鱼雷机",
+		type = 2,
+		accuracy = 37,
+		model_ID = "tianshan",
+		ACC_growth = 0,
+		crash_DMG = 266,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 370002,
+		icon = "tianshan",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 0,
+		speed = 30,
+		max_hp = 3562,
+		scale = 0.75,
+		weapon_ID = {
+			360005
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[370003] = {
+		attack_power = 2,
+		name = "【主线16章后半】通用战斗机",
+		type = 1,
+		accuracy = 37,
+		model_ID = "lingzhan52",
+		ACC_growth = 0,
+		crash_DMG = 196,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 370003,
+		icon = "lingzhan52",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 0,
+		speed = 35,
+		max_hp = 3352,
+		scale = 0.75,
+		weapon_ID = {
+			360006,
+			360007
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[370004] = {
+		attack_power = 2,
+		name = "【主线16章后半】道中地毯式轰炸机",
+		type = 3,
+		accuracy = 37,
+		model_ID = "huixing",
+		ACC_growth = 0,
+		crash_DMG = 490,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 370004,
+		icon = "huixing",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 0,
+		speed = 30,
+		max_hp = 4373,
+		scale = 0.75,
+		weapon_ID = {
+			360020
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[370078] = {
+		attack_power = 2,
+		name = "【主线16章后半】敌方特殊空中支援轰炸机",
+		type = 3,
+		accuracy = 37,
+		model_ID = "huixing",
+		ACC_growth = 0,
+		crash_DMG = 490,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 370078,
+		icon = "huixing",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 0,
+		speed = 30,
+		max_hp = 4373,
+		scale = 0.75,
+		weapon_ID = {
+			360020
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[370079] = {
+		attack_power = 2,
+		name = "【主线16章后半】敌方特殊空中支援轰炸机",
+		type = 3,
+		accuracy = 37,
+		model_ID = "huixing",
+		ACC_growth = 0,
+		crash_DMG = 490,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 370079,
+		icon = "huixing",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 0,
+		speed = 30,
+		max_hp = 4810,
+		scale = 0.75,
+		weapon_ID = {
+			360020
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.aircraft_template[470043] = {
 		attack_power = 2,
 		name = "【异色格A】【杂兵】塞壬航母蛋船轰炸机T1",
@@ -299111,6 +299815,84 @@ end)()
 		scale = 0.75,
 		weapon_ID = {
 			3347002
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3359205] = {
+		attack_power = 2,
+		name = "【2026春节共斗 N难度】BOSS 定安 水上飞机",
+		type = 3,
+		accuracy = 23,
+		model_ID = "feiji_wuxing",
+		ACC_growth = 0,
+		crash_DMG = 48,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3359205,
+		icon = "feiji_wuxing",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1960,
+		speed = 33,
+		max_hp = 86,
+		scale = 0.75,
+		weapon_ID = {
+			3359206
 		},
 		position_offset = {
 			0,

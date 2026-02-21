@@ -113,6 +113,17 @@ function var_0_0.update(arg_1_0, arg_1_1)
 		})):SetWalkable(arg_5_0[3])
 	end)
 
+	arg_1_0.cellsCount = #underscore.values(arg_1_0.cells)
+
+	if arg_1_0:IsFogStage() then
+		arg_1_0.fleetVisibleStore = {}
+		arg_1_0.cellsVisibleCount = 0
+
+		for iter_1_6, iter_1_7 in pairs(arg_1_0.cells) do
+			iter_1_7:InitVisible()
+		end
+	end
+
 	arg_1_0.indexMin, arg_1_0.indexMax = Vector2(ChapterConst.MaxRow, ChapterConst.MaxColumn), Vector2(-ChapterConst.MaxRow, -ChapterConst.MaxColumn)
 
 	_.each(var_1_5, function(arg_6_0)
@@ -135,36 +146,47 @@ function var_0_0.update(arg_1_0, arg_1_1)
 	arg_1_0.buff_list = {}
 
 	if arg_1_1.buff_list then
-		for iter_1_6, iter_1_7 in ipairs(arg_1_1.buff_list) do
-			arg_1_0.buff_list[iter_1_6] = iter_1_7
+		for iter_1_8, iter_1_9 in ipairs(arg_1_1.buff_list) do
+			arg_1_0.buff_list[iter_1_8] = iter_1_9
 		end
 	end
 
 	arg_1_0.operationBuffList = {}
 
-	for iter_1_8, iter_1_9 in ipairs(arg_1_1.operation_buff) do
-		arg_1_0.operationBuffList[#arg_1_0.operationBuffList + 1] = iter_1_9
+	for iter_1_10, iter_1_11 in ipairs(arg_1_1.operation_buff) do
+		arg_1_0.operationBuffList[#arg_1_0.operationBuffList + 1] = iter_1_11
 	end
 
 	local var_1_7 = arg_1_0:getNpcShipByType()
 
 	arg_1_0.fleets = {}
 
-	for iter_1_10, iter_1_11 in ipairs(arg_1_1.group_list) do
-		local var_1_8 = ChapterFleet.New(iter_1_11, var_1_7)
+	for iter_1_12, iter_1_13 in pairs({
+		[FleetType.Normal] = arg_1_1.main_group_list,
+		[FleetType.Submarine] = arg_1_1.submarine_group_list,
+		[FleetType.Support] = arg_1_1.support_group_list
+	}) do
+		for iter_1_14, iter_1_15 in ipairs(iter_1_13) do
+			local var_1_8 = ChapterFleet.New(setmetatable({
+				fleetType = iter_1_12
+			}, {
+				__index = iter_1_15
+			}), var_1_7)
 
-		var_1_8:setup(arg_1_0)
-
-		arg_1_0.fleets[iter_1_10] = var_1_8
+			var_1_8:setup(arg_1_0)
+			table.insert(arg_1_0.fleets, var_1_8)
+		end
 	end
 
-	arg_1_0.fleets = _.sort(arg_1_0.fleets, function(arg_8_0, arg_8_1)
-		return arg_8_0.id < arg_8_1.id
-	end)
+	table.sort(arg_1_0.fleets, CompareFuncs({
+		function(arg_8_0)
+			return arg_8_0.id
+		end
+	}))
 
 	if arg_1_1.escort_list then
-		for iter_1_12, iter_1_13 in ipairs(arg_1_1.escort_list) do
-			arg_1_0.fleets[#arg_1_0.fleets + 1] = ChapterTransportFleet.New(iter_1_13, #arg_1_0.fleets + 1)
+		for iter_1_16, iter_1_17 in ipairs(arg_1_1.escort_list) do
+			arg_1_0.fleets[#arg_1_0.fleets + 1] = ChapterTransportFleet.New(iter_1_17, #arg_1_0.fleets + 1)
 		end
 	end
 
@@ -178,9 +200,9 @@ function var_0_0.update(arg_1_0, arg_1_1)
 	arg_1_0.champions = {}
 
 	if arg_1_1.ai_list then
-		for iter_1_14, iter_1_15 in ipairs(arg_1_1.ai_list) do
-			if iter_1_15.item_flag ~= 1 then
-				local var_1_9 = ChapterChampionPackage.New(iter_1_15)
+		for iter_1_18, iter_1_19 in ipairs(arg_1_1.ai_list) do
+			if iter_1_19.item_flag ~= 1 then
+				local var_1_9 = ChapterChampionPackage.New(iter_1_19)
 
 				arg_1_0:mergeChampion(var_1_9, true)
 			end
@@ -190,8 +212,8 @@ function var_0_0.update(arg_1_0, arg_1_1)
 	arg_1_0.airDominanceStatus = nil
 	arg_1_0.extraFlagList = {}
 
-	for iter_1_16, iter_1_17 in ipairs(arg_1_1.extra_flag_list) do
-		table.insert(arg_1_0.extraFlagList, iter_1_17)
+	for iter_1_20, iter_1_21 in ipairs(arg_1_1.extra_flag_list) do
+		table.insert(arg_1_0.extraFlagList, iter_1_21)
 	end
 
 	arg_1_0.defeatEnemies = arg_1_1.kill_count or 0
@@ -200,21 +222,21 @@ function var_0_0.update(arg_1_0, arg_1_1)
 	arg_1_0.combo = arg_1_1.continuous_kill_count or 0
 	arg_1_0.scoreHistory = {}
 
-	for iter_1_18 = ys.Battle.BattleConst.BattleScore.D, ys.Battle.BattleConst.BattleScore.S do
-		arg_1_0.scoreHistory[iter_1_18] = 0
+	for iter_1_22 = ys.Battle.BattleConst.BattleScore.D, ys.Battle.BattleConst.BattleScore.S do
+		arg_1_0.scoreHistory[iter_1_22] = 0
 	end
 
 	if arg_1_1.battle_statistics then
-		for iter_1_19, iter_1_20 in ipairs(arg_1_1.battle_statistics) do
-			arg_1_0.scoreHistory[iter_1_20.id] = iter_1_20.count
+		for iter_1_23, iter_1_24 in ipairs(arg_1_1.battle_statistics) do
+			arg_1_0.scoreHistory[iter_1_24.id] = iter_1_24.count
 		end
 	end
 
 	local var_1_10 = {}
 
 	if arg_1_1.chapter_strategy_list then
-		for iter_1_21, iter_1_22 in ipairs(arg_1_1.chapter_strategy_list) do
-			var_1_10[iter_1_22.id] = iter_1_22.count
+		for iter_1_25, iter_1_26 in ipairs(arg_1_1.chapter_strategy_list) do
+			var_1_10[iter_1_26.id] = iter_1_26.count
 		end
 	end
 
@@ -799,6 +821,10 @@ function var_0_0.getFleetStates(arg_59_0, arg_59_1)
 		table.insert(var_59_0, iter_59_1)
 	end
 
+	if arg_59_0:IsFogStage() then
+		table.insert(var_59_0, arg_59_0:GetFogStageStrategy())
+	end
+
 	if OPEN_AIR_DOMINANCE and arg_59_0:getConfig("air_dominance") > 0 then
 		table.insert(var_59_0, arg_59_0:getAirDominanceStg())
 	end
@@ -910,13 +936,7 @@ function var_0_0.updateExtraFlags(arg_71_0, arg_71_1, arg_71_2)
 end
 
 function var_0_0.getExtraFlags(arg_72_0)
-	local var_72_0 = arg_72_0.extraFlagList
-
-	if #var_72_0 == 0 then
-		var_72_0 = ChapterConst.StatusDefaultList
-	end
-
-	return var_72_0
+	return arg_72_0.extraFlagList
 end
 
 function var_0_0.UpdateBuffList(arg_73_0, arg_73_1)
@@ -2006,29 +2026,44 @@ function var_0_0.writeBack(arg_141_0, arg_141_1, arg_141_2)
 			pg.TrackerMgr.GetInstance():Tracking(TRACKING_KILL_BOSS)
 		end
 
-		if var_141_6 and var_141_6.flag == ChapterConst.CellFlagDisabled or not var_141_6 and var_141_4 ~= ChapterConst.AttachBox then
+		local var_141_10 = false
+
+		if var_141_6 then
+			var_141_10 = var_141_6.flag == ChapterConst.CellFlagDisabled
+		else
+			var_141_10 = (arg_141_2.system ~= SYSTEM_SCENARIO_SUB_STRIKE or false) and var_141_4 ~= ChapterConst.AttachBox
+		end
+
+		if var_141_10 then
 			var_141_0.defeatEnemies = var_141_0.defeatEnemies + 1
+
+			if var_141_4 ~= ChapterConst.AttachAmbush and arg_141_0:IsFogStage() then
+				var_141_0.visibleLevel = var_141_0.visibleLevel + 1
+
+				var_141_0:UpdateVisible()
+			end
+
 			arg_141_0.defeatEnemies = arg_141_0.defeatEnemies + 1
 
-			local var_141_10 = pg.expedition_data_template[var_141_5]
+			local var_141_11 = pg.expedition_data_template[var_141_5]
 
-			if not arg_141_0:isLoop() and var_141_10 and var_141_10.type == ChapterConst.ExpeditionTypeMulBoss then
-				local var_141_11 = pg.chapter_model_multistageboss[arg_141_0.id].guild_buff
-				local var_141_12 = var_141_0:GetStatusStrategy()
+			if not arg_141_0:isLoop() and var_141_11 and var_141_11.type == ChapterConst.ExpeditionTypeMulBoss then
+				local var_141_12 = pg.chapter_model_multistageboss[arg_141_0.id].guild_buff
+				local var_141_13 = var_141_0:GetStatusStrategy()
 
-				_.each(var_141_11, function(arg_147_0)
-					if not table.contains(var_141_12, arg_147_0) then
-						table.insert(var_141_12, arg_147_0)
+				_.each(var_141_12, function(arg_147_0)
+					if not table.contains(var_141_13, arg_147_0) then
+						table.insert(var_141_13, arg_147_0)
 					end
 				end)
 
-				local var_141_13 = arg_141_0:getNextValidIndex()
+				local var_141_14 = arg_141_0:getNextValidIndex()
 
-				if var_141_13 > 0 then
-					var_141_12 = arg_141_0.fleets[var_141_13]:GetStatusStrategy()
+				if var_141_14 > 0 then
+					var_141_13 = arg_141_0.fleets[var_141_14]:GetStatusStrategy()
 
-					_.each(var_141_11, function(arg_148_0)
-						table.removebyvalue(var_141_12, arg_148_0)
+					_.each(var_141_12, function(arg_148_0)
+						table.removebyvalue(var_141_13, arg_148_0)
 					end)
 				end
 			end
@@ -2853,6 +2888,95 @@ function var_0_0.GetRegularFleetIds(arg_212_0)
 	end), function(arg_214_0)
 		return arg_214_0.fleetId
 	end))
+end
+
+function var_0_0.NeedSupportSubmarineStage(arg_215_0)
+	return arg_215_0:IsSupportSubmarineStage() and not table.contains(arg_215_0:getExtraFlags(), ChapterConst.StatusSupportSubmarineFinish)
+end
+
+function var_0_0.UpdateCellsVisible(arg_216_0, arg_216_1, arg_216_2)
+	if not arg_216_0:IsFogStage() then
+		return
+	end
+
+	local var_216_0 = {}
+
+	if arg_216_0.fleetVisibleStore[arg_216_1.id] then
+		for iter_216_0, iter_216_1 in ipairs(arg_216_0.fleetVisibleStore[arg_216_1.id]) do
+			var_216_0[iter_216_1] = defaultValue(var_216_0[iter_216_1], 0) - 1
+		end
+	end
+
+	if arg_216_1.isRetreat then
+		arg_216_0.fleetVisibleStore[arg_216_1.id] = {}
+	else
+		arg_216_0.fleetVisibleStore[arg_216_1.id] = underscore(arg_216_1:GetVisibleRange(arg_216_2)):chain():map(function(arg_217_0)
+			return ChapterCell.Line2Name(arg_217_0.row, arg_217_0.column)
+		end):filter(function(arg_218_0)
+			return tobool(arg_216_0.cells[arg_218_0])
+		end):value()
+	end
+
+	for iter_216_2, iter_216_3 in ipairs(arg_216_0.fleetVisibleStore[arg_216_1.id]) do
+		var_216_0[iter_216_3] = defaultValue(var_216_0[iter_216_3], 0) + 1
+	end
+
+	local var_216_1 = {}
+
+	for iter_216_4, iter_216_5 in pairs(var_216_0) do
+		local var_216_2 = arg_216_0.cells[iter_216_4]:IsVisible()
+
+		if iter_216_5 < 0 then
+			arg_216_0.cells[iter_216_4]:UpdateVisible(arg_216_1.id, false)
+		elseif iter_216_5 > 0 then
+			arg_216_0.cells[iter_216_4]:UpdateVisible(arg_216_1.id, true)
+		end
+
+		if var_216_2 ~= arg_216_0.cells[iter_216_4]:IsVisible() then
+			arg_216_0.cellsVisibleCount = arg_216_0.cellsVisibleCount + (var_216_2 and -1 or 1)
+
+			table.insert(var_216_1, iter_216_4)
+		end
+	end
+
+	return var_216_1
+end
+
+function var_0_0.GetFogStageStrategy(arg_219_0)
+	local var_219_0 = arg_219_0.cellsVisibleCount * 100 / arg_219_0.cellsCount
+	local var_219_1
+
+	for iter_219_0, iter_219_1 in ipairs(arg_219_0:getConfigMiscArg("fog_visible_buff")) do
+		local var_219_2, var_219_3 = unpack(iter_219_1)
+
+		var_219_1 = var_219_3
+
+		if var_219_0 <= var_219_2 then
+			break
+		end
+	end
+
+	return var_219_1
+end
+
+function var_0_0.retreatFleet(arg_220_0, arg_220_1)
+	local var_220_0
+
+	for iter_220_0, iter_220_1 in ipairs(arg_220_0.fleets) do
+		if iter_220_1.id == arg_220_1 then
+			var_220_0 = table.remove(arg_220_0.fleets, iter_220_0)
+
+			break
+		end
+	end
+
+	if var_220_0 and var_220_0:getFleetType() == FleetType.Normal then
+		arg_220_0.findex = 1
+	end
+
+	var_220_0.isRetreat = true
+
+	var_220_0:UpdateVisible()
 end
 
 return var_0_0

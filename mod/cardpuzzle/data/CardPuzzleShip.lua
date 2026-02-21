@@ -332,7 +332,7 @@ function var_0_0.upgrade(arg_30_0)
 end
 
 function var_0_0.getTeamType(arg_31_0)
-	return TeamType.GetTeamFromShipType(arg_31_0:getShipType())
+	return ShipType.GetTeamFromShipType(arg_31_0:getShipType())
 end
 
 function var_0_0.getMaxConfigId(arg_32_0)

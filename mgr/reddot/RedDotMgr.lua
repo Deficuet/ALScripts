@@ -70,7 +70,7 @@ function var_0_0.BindConditions(arg_3_0)
 		return getProxy(GuildProxy):ShouldShowTip()
 	end)
 	arg_3_0:BindCondition(var_0_0.TYPES.ATTIRE, function()
-		return getProxy(AttireProxy):IsShowRedDot() or getProxy(SettingsProxy):ShouldEducateCharTip()
+		return getProxy(AttireProxy):IsShowRedDot() or getProxy(SettingsProxy):ShouldEducateCharTip() or getProxy(ActivityProxy):IsTipLoveLetterMail()
 	end)
 	arg_3_0:BindCondition(var_0_0.TYPES.COLLECTION, function()
 		return getProxy(CollectionProxy):hasFinish() or getProxy(AppreciateProxy):isGalleryHaveNewRes() or getProxy(AppreciateProxy):isMusicHaveNewRes() or getProxy(AppreciateProxy):isMangaHaveNewRes()
@@ -125,13 +125,14 @@ function var_0_0.BindConditions(arg_3_0)
 	arg_3_0:BindCondition(var_0_0.TYPES.MEMORY_REVIEW, function()
 		local var_21_0 = getProxy(PlayerProxy):getRawData()
 
-		if var_21_0 then
-			local var_21_1 = var_21_0.id
+		if var_21_0 and _.any(pg.memory_group.all, function(arg_22_0)
+			return PlayerPrefs.GetInt("MEMORY_GROUP_NOTIFICATION" .. var_21_0.id .. " " .. arg_22_0, 0) == 1
+		end) then
+			return true
+		end
 
-			do return _.any(pg.memory_group.all, function(arg_22_0)
-				return PlayerPrefs.GetInt("MEMORY_GROUP_NOTIFICATION" .. var_21_1 .. " " .. arg_22_0, 0) == 1
-			end) end
-			return
+		if getProxy(LoveLetterProxy):getRawData() and getProxy(LoveLetterProxy):IsTipUnlockLetter() then
+			return true
 		end
 
 		return false

@@ -285,6 +285,10 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		{
 			CityRebuildProxy,
 			true
+		},
+		{
+			LoveLetterProxy,
+			true
 		}
 	})
 	pg.ConnectionMgr.GetInstance():setPacketIdx(1)

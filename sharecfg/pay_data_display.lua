@@ -97,6 +97,8 @@ pg.pay_data_display = setmetatable({
 		9008,
 		9009,
 		9010,
+		9011,
+		9012,
 		1000,
 		1001,
 		1002,
@@ -123,6 +125,7 @@ pg.pay_data_display = setmetatable({
 		1023,
 		1024,
 		1025,
+		1026,
 		2001,
 		2002,
 		2003,
@@ -185,6 +188,7 @@ pg.pay_data_display = setmetatable({
 		2068,
 		2069,
 		2070,
+		2071,
 		5001,
 		5002,
 		5003,
@@ -11780,6 +11784,274 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[9011] = {
+		limit_group = 0,
+		name = "春節福袋2026A",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		second_text = "大量な報酬",
+		type_order = 2,
+		subject = "春節福袋2026A",
+		first_text = "ランダム着せ替えとダイヤ",
+		limit_arg = 1,
+		tip = "",
+		money = 3800,
+		tip_open = 0,
+		tag = 2,
+		id = 9011,
+		gem = 0,
+		name_display = "春節福袋2026A",
+		package_sort_id = 0,
+		limit_type = 2,
+		akashi_pick = 1,
+		extra_service = 3,
+		package_tag = "",
+		picture = "fudai32",
+		show_group = "",
+		skin_inquire_relation = 86224,
+		package_tag_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi210",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		airijp_id = "com.yostarjp.azurlane.diamond193",
+		extra_service_item = {
+			{
+				2,
+				86224,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81232,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86224,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			}
+		}
+	},
+	[9012] = {
+		limit_group = 0,
+		name = "春節福袋2025A(復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		second_text = "大量な報酬",
+		type_order = 2,
+		subject = "春節福袋2025A(復刻)",
+		first_text = "ランダム着せ替えとダイヤ",
+		limit_arg = 1,
+		tip = "",
+		money = 3800,
+		tip_open = 0,
+		tag = 2,
+		id = 9012,
+		gem = 0,
+		name_display = "春節福袋2025A(復刻)",
+		package_sort_id = 0,
+		limit_type = 2,
+		akashi_pick = 1,
+		extra_service = 3,
+		package_tag = "",
+		picture = "fudai21",
+		show_group = "",
+		skin_inquire_relation = 86210,
+		package_tag_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi211",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		airijp_id = "com.yostarjp.azurlane.diamond194",
+		extra_service_item = {
+			{
+				2,
+				86210,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81210,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86210,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
 	[1000] = {
 		limit_group = 0,
 		name = "クルーズパス",
@@ -13984,6 +14256,91 @@ pg.base.pay_data_display = {
 		},
 		sub_display = {
 			7026,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1026] = {
+		limit_group = 0,
+		name = "クルーズパス(26冬)",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
+		type = 0,
+		second_text = "特別報酬開放",
+		type_order = 6,
+		subject = "クルーズパス(26冬)",
+		first_text = "",
+		first_icon = "",
+		limit_arg = 1,
+		money = 1200,
+		tip = "",
+		tag = 2,
+		tip_open = 0,
+		gem = 0,
+		id = 1026,
+		name_display = "クルーズパス(26冬)",
+		limit_type = 2,
+		package_sort_id = 0,
+		akashi_pick = 1,
+		package_tag = "",
+		picture = "battlepass_1",
+		extra_service = 4,
+		skin_inquire_relation = 0,
+		show_group = "",
+		id_str = "com.bilibili.blhx.battlepass28",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		package_tag_open = 0,
+		airijp_id = "com.yostarjp.azurlane.seasonpass27",
+		extra_service_item = {
+			{
+				1,
+				4027,
+				1500
+			},
+			{
+				8,
+				65113,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7027,
 			1500
 		},
 		ignorePlatform = {},
@@ -19361,6 +19718,124 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40075,
+				1
+			}
+		}
+	},
+	[2071] = {
+		limit_group = 0,
+		name = "冬のお得福袋・2026",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		second_text = "",
+		type_order = 4,
+		subject = "冬のお得福袋・2026",
+		first_text = "",
+		first_icon = "",
+		limit_arg = 1,
+		money = 5280,
+		tip = "",
+		tag = 2,
+		tip_open = 0,
+		gem = 0,
+		id = 2071,
+		name_display = "冬のお得福袋・2026",
+		limit_type = 2,
+		package_sort_id = 0,
+		akashi_pick = 1,
+		package_tag = "",
+		picture = "dongzhi3",
+		extra_service = 3,
+		skin_inquire_relation = 0,
+		show_group = "",
+		id_str = "com.bilibili.blhx.libao128",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "ダイヤ3880個、特装型ブリMkⅢなどを入手可能",
+		package_tag_open = 0,
+		airijp_id = "com.yostarjp.azurlane.package128",
+		extra_service_item = {
+			{
+				1,
+				14,
+				3880
+			},
+			{
+				4,
+				100021,
+				1
+			},
+			{
+				4,
+				100011,
+				2
+			},
+			{
+				2,
+				15012,
+				150
+			},
+			{
+				2,
+				16502,
+				60
+			},
+			{
+				2,
+				30113,
+				150
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					1,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				3880
+			},
+			{
+				4,
+				100021,
+				1
+			},
+			{
+				4,
+				100011,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40076,
 				1
 			}
 		}

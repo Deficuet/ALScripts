@@ -19,7 +19,7 @@ function var_0_0.NeedHelpMessage(arg_3_0, arg_3_1)
 end
 
 function var_0_0.GetAutoSkipFlag(arg_4_0, arg_4_1)
-	if arg_4_1 == SYSTEM_SCENARIO then
+	if arg_4_1 == SYSTEM_SCENARIO or arg_4_1 == SYSTEM_SCENARIO_SUB_STRIKE then
 		local var_4_0 = getProxy(ChapterProxy):getActiveChapter()
 
 		return getProxy(ChapterProxy):GetChapterAutoFlag(var_4_0.id) == 1
@@ -169,16 +169,10 @@ local function var_0_7(arg_15_0)
 	assert(var_15_1)
 
 	local var_15_2 = var_15_1:GetStaegLevel()
-	local var_15_3 = var_15_1:GetFleetIds()
-	local var_15_4 = var_15_3[var_15_2]
+	local var_15_3 = var_15_1:GetStageFleets(var_15_1:GetMode(), var_15_2)
+	local var_15_4 = getProxy(FleetProxy):getActivityFleets()[var_15_0][var_15_3]
 
-	if var_15_1:GetMode() == BossRushSeriesData.MODE.SINGLE then
-		var_15_4 = var_15_3[1]
-	end
-
-	local var_15_5 = getProxy(FleetProxy):getActivityFleets()[var_15_0][var_15_4]
-
-	return (getProxy(BayProxy):getShipsByFleet(var_15_5))
+	return (getProxy(BayProxy):getShipsByFleet(var_15_4))
 end
 
 local function var_0_8(arg_16_0)
@@ -219,7 +213,7 @@ function var_0_0.GetNewMainShips(arg_18_0)
 		var_18_1 = var_0_6()
 	elseif var_18_0 == SYSTEM_BOSS_RUSH or var_18_0 == SYSTEM_BOSS_RUSH_COLLABRATE or var_18_0 == SYSTEM_BOSS_RUSH_EX then
 		var_18_1 = var_0_7(arg_18_0)
-	elseif var_18_0 == SYSTEM_DODGEM or var_18_0 == SYSTEM_SUBMARINE_RUN or var_18_0 == SYSTEM_REWARD_PERFORM or var_18_0 == SYSTEM_AIRFIGHT or var_18_0 == SYSTEM_CARDPUZZLE or var_18_0 == SYSTEM_CHALLENGE then
+	elseif var_18_0 == SYSTEM_DODGEM or var_18_0 == SYSTEM_SUBMARINE_RUN or var_18_0 == SYSTEM_REWARD_PERFORM or var_18_0 == SYSTEM_AIRFIGHT or var_18_0 == SYSTEM_SCENARIO_SUB_STRIKE or var_18_0 == SYSTEM_CARDPUZZLE or var_18_0 == SYSTEM_CHALLENGE then
 		-- block empty
 	elseif var_18_0 == SYSTEM_LIMIT_CHALLENGE then
 		var_18_1 = var_0_8(arg_18_0)

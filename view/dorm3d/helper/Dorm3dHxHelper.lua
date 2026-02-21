@@ -5,7 +5,7 @@ function var_0_0.GetTimelineMainCharacter()
 	local var_1_1
 
 	table.IpairsCArray(var_1_0:GetComponentsInChildren(typeof("BLHXCharacterPropertiesController")), function(arg_2_0, arg_2_1)
-		if var_0_0.GetSkinIdByModelName(arg_2_1.gameObject.name) then
+		if arg_2_0 == 0 or var_0_0.GetSkinIdByModelName(arg_2_1.gameObject.name) then
 			var_1_1 = arg_2_1.transform
 		end
 	end)
@@ -128,6 +128,37 @@ function var_0_0.GetHolyLightScreenShotInfo(arg_9_0)
 	end
 
 	return var_9_1, var_9_0
+end
+
+function var_0_0.HideCharacterPart(arg_10_0, arg_10_1, arg_10_2)
+	local var_10_0 = var_0_0.GetSkinIdByModelName(arg_10_0.name)
+
+	warning("HideCharacterPart skinId", var_10_0)
+
+	if not var_10_0 then
+		return
+	end
+
+	local var_10_1 = Dorm3dSkin.New({
+		configId = var_10_0
+	})
+
+	if arg_10_2 and not var_10_1:ShouldApplyHiddenPartInTimeline() then
+		return
+	end
+
+	local var_10_2 = var_10_1:GetGroupId()
+
+	arg_10_1 = arg_10_1 or getProxy(ApartmentProxy):getApartment(var_10_2):GetHiddenParts(var_10_0)
+
+	local var_10_3, var_10_4 = var_10_1:GetActiveAndHiddenPartNames(arg_10_1)
+
+	_.each(var_10_3, function(arg_11_0)
+		setActive(arg_10_0:Find(arg_11_0), true)
+	end)
+	_.each(var_10_4, function(arg_12_0)
+		setActive(arg_10_0:Find(arg_12_0), false)
+	end)
 end
 
 return var_0_0

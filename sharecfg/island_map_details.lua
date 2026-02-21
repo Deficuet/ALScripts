@@ -64,6 +64,14 @@ pg.island_map_details = {
 		id = 100205,
 		ability_id = 2012
 	},
+	[100206] = {
+		belong_map = 1002,
+		name = "饅頭いけす",
+		production_place_id = 201,
+		detail_icon = "206",
+		id = 100206,
+		ability_id = 2017
+	},
 	[100301] = {
 		belong_map = 1003,
 		name = "自由建設地",
@@ -155,7 +163,8 @@ pg.island_map_details = {
 			100202,
 			100203,
 			100204,
-			100205
+			100205,
+			100206
 		},
 		[1003] = {
 			100301,
@@ -185,6 +194,7 @@ pg.island_map_details = {
 		100203,
 		100204,
 		100205,
+		100206,
 		100301,
 		100302,
 		100401,

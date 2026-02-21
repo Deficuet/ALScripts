@@ -44,6 +44,30 @@ pg.dorm3d_accompany = {
 			20220
 		}
 	},
+	{
+		ship_id = 20220,
+		name = "寝室",
+		resource_room = 16,
+		performance_time = 20,
+		id = 3,
+		image = "cafe_accompany",
+		timeline = "Xiangban_cafe_20220",
+		sceneInfo = "map_publiccafe_01|Publiccafe",
+		favor = {
+			300,
+			{
+				1015,
+				1016,
+				1017
+			}
+		},
+		jump_trigger = {},
+		unlock = {
+			5,
+			16,
+			20220
+		}
+	},
 	[21] = {
 		ship_id = 30221,
 		name = "ビーチ",
@@ -267,7 +291,8 @@ pg.dorm3d_accompany = {
 	get_id_list_by_ship_id = {
 		[20220] = {
 			1,
-			2
+			2,
+			3
 		},
 		[30221] = {
 			21,
@@ -293,6 +318,7 @@ pg.dorm3d_accompany = {
 	all = {
 		1,
 		2,
+		3,
 		21,
 		22,
 		31,

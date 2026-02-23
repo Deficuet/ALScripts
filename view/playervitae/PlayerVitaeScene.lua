@@ -176,7 +176,7 @@ function var_0_0.didEnter(arg_11_0)
 end
 
 function var_0_0.UpdateReplaceTip(arg_17_0)
-	setActive(arg_17_0.replaceBtnTip, getProxy(SettingsProxy):ShouldEducateCharTip())
+	setActive(arg_17_0.replaceBtnTip, getProxy(SettingsProxy):ShouldEducateCharTip() or getProxy(ActivityProxy):IsTipLoveLetterMail())
 end
 
 function var_0_0.DoEnterAnimation(arg_18_0)

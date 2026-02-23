@@ -30,6 +30,7 @@ function var_0_3.initWaveModule(arg_2_0)
 			return
 		end
 
+		arg_2_0._dataProxy:TriggerFinishBattle()
 		arg_2_0:CalcStatistic()
 		arg_2_0:calcDamageData()
 		arg_2_0._state:BattleEnd()

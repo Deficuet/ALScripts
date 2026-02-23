@@ -55,6 +55,28 @@ pg.island_production_place = {
 			10204
 		}
 	},
+	[201] = {
+		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_fish",
+		name = "Manjuu Fish Hatchery",
+		seed_list = "",
+		delegationCamera = "RoleDelegationCamera201",
+		map_id = 1002,
+		behaviourTree = "island/nodecanvas/system/system_fish_place",
+		npcbehaviourTree = "island/nodecanvas/system/system_npc_fish",
+		locked_obj = 0,
+		tool_list = "",
+		npc_birthplace = 0,
+		unlocked_obj = 0,
+		id = 201,
+		interactionType = 0,
+		unlock_type = 1,
+		gathering_slot = {},
+		commission_slot = {
+			20101,
+			20102,
+			20103
+		}
+	},
 	[401] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_mine",
 		name = "Rockheap Mine",
@@ -178,7 +200,9 @@ pg.island_production_place = {
 			1204,
 			1205,
 			1206,
-			1207
+			1207,
+			1208,
+			1209
 		}
 	},
 	[601] = {
@@ -396,6 +420,9 @@ pg.island_production_place = {
 			101,
 			102
 		},
+		[1002] = {
+			201
+		},
 		[1004] = {
 			401,
 			402
@@ -424,6 +451,7 @@ pg.island_production_place = {
 	all = {
 		101,
 		102,
+		201,
 		401,
 		402,
 		501,

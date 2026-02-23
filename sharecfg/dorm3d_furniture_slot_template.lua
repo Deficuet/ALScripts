@@ -252,6 +252,15 @@ pg.dorm3d_furniture_slot_template = {
 		furniture_name = "pre_db_appliances04",
 		zone_id = 11002
 	},
+	[1110204] = {
+		id = 1110204,
+		name = "Full-Size Fridge",
+		type = 6,
+		default_furniture = 0,
+		room_id = 11,
+		furniture_name = "pre_db_njh_kitchen01",
+		zone_id = 11002
+	},
 	[1110301] = {
 		id = 1110301,
 		name = "客厅画框",
@@ -360,6 +369,78 @@ pg.dorm3d_furniture_slot_template = {
 		furniture_name = "pre_db_df_tedian01",
 		zone_id = 12003
 	},
+	[1140101] = {
+		id = 1140101,
+		name = "卧室床",
+		type = 4,
+		default_furniture = 1401,
+		room_id = 14,
+		furniture_name = "pre_db_aijier_bed01_0",
+		zone_id = 14001
+	},
+	[1140102] = {
+		id = 1140102,
+		name = "卧室相机",
+		type = 3,
+		default_furniture = 0,
+		room_id = 14,
+		furniture_name = "pre_db_aje_camera01",
+		zone_id = 14001
+	},
+	[1140103] = {
+		id = 1140103,
+		name = "卧室台灯",
+		type = 3,
+		default_furniture = 0,
+		room_id = 14,
+		furniture_name = "pre_db_aje_desklamp01",
+		zone_id = 14001
+	},
+	[1140201] = {
+		id = 1140201,
+		name = "书房书桌",
+		type = 6,
+		default_furniture = 1402,
+		room_id = 14,
+		furniture_name = "pre_db_aijier_study01_0",
+		zone_id = 14002
+	},
+	[1140202] = {
+		id = 1140202,
+		name = "书房盆栽",
+		type = 3,
+		default_furniture = 0,
+		room_id = 14,
+		furniture_name = "pre_db_aje_bonsai01",
+		zone_id = 14002
+	},
+	[1140301] = {
+		id = 1140301,
+		name = "客厅沙发",
+		type = 5,
+		default_furniture = 1403,
+		room_id = 14,
+		furniture_name = "pre_db_aijier_living01_0",
+		zone_id = 14003
+	},
+	[1140302] = {
+		id = 1140302,
+		name = "客厅相框",
+		type = 3,
+		default_furniture = 0,
+		room_id = 14,
+		furniture_name = "pre_db_aje_billboard01",
+		zone_id = 14003
+	},
+	[1140303] = {
+		id = 1140303,
+		name = "客厅蜡烛",
+		type = 3,
+		default_furniture = 0,
+		room_id = 14,
+		furniture_name = "pre_db_aje_decoration01",
+		zone_id = 14003
+	},
 	get_id_list_by_room_id = {
 		{
 			100101,
@@ -398,6 +479,7 @@ pg.dorm3d_furniture_slot_template = {
 			1110201,
 			1110202,
 			1110203,
+			1110204,
 			1110301,
 			1110302,
 			1110303
@@ -412,6 +494,16 @@ pg.dorm3d_furniture_slot_template = {
 			1120302,
 			1120303,
 			1120304
+		},
+		[14] = {
+			1140101,
+			1140102,
+			1140103,
+			1140201,
+			1140202,
+			1140301,
+			1140302,
+			1140303
 		}
 	},
 	get_id_list_by_zone_id = {
@@ -467,7 +559,8 @@ pg.dorm3d_furniture_slot_template = {
 		[11002] = {
 			1110201,
 			1110202,
-			1110203
+			1110203,
+			1110204
 		},
 		[11003] = {
 			1110301,
@@ -488,6 +581,20 @@ pg.dorm3d_furniture_slot_template = {
 			1120302,
 			1120303,
 			1120304
+		},
+		[14001] = {
+			1140101,
+			1140102,
+			1140103
+		},
+		[14002] = {
+			1140201,
+			1140202
+		},
+		[14003] = {
+			1140301,
+			1140302,
+			1140303
 		}
 	},
 	all = {
@@ -519,6 +626,7 @@ pg.dorm3d_furniture_slot_template = {
 		1110201,
 		1110202,
 		1110203,
+		1110204,
 		1110301,
 		1110302,
 		1110303,
@@ -530,6 +638,14 @@ pg.dorm3d_furniture_slot_template = {
 		1120301,
 		1120302,
 		1120303,
-		1120304
+		1120304,
+		1140101,
+		1140102,
+		1140103,
+		1140201,
+		1140202,
+		1140301,
+		1140302,
+		1140303
 	}
 }

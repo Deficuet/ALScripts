@@ -33,4 +33,8 @@ function var_0_0.GetResList(arg_2_0)
 	}
 end
 
+function var_0_0.IsSameKind(arg_3_0, arg_3_1)
+	return isa(arg_3_1, ShamBattleShop)
+end
+
 return var_0_0

@@ -32,6 +32,10 @@ function var_0_2.AppendIcon(arg_3_0, arg_3_1, arg_3_2)
 	setImageSprite(var_3_1, var_3_3)
 
 	arg_3_0._iconList[arg_3_1] = var_3_0
+
+	if var_3_0:GetComponent(typeof(Animation)) then
+		quickPlayAnimation(var_3_0, "anim_skinui_AFC_in")
+	end
 end
 
 function var_0_2.RemoveIcon(arg_4_0, arg_4_1, arg_4_2)
@@ -42,22 +46,33 @@ function var_0_2.RemoveIcon(arg_4_0, arg_4_1, arg_4_2)
 	end
 
 	if arg_4_2.totalNumber <= 0 then
-		Object.Destroy(var_4_0)
+		local function var_4_1()
+			Object.Destroy(var_4_0)
 
-		arg_4_0._iconList[arg_4_1] = nil
+			arg_4_0._iconList[arg_4_1] = nil
+		end
+
+		if var_4_0:GetComponent(typeof(Animation)) then
+			var_4_0:GetComponent("DftAniEvent"):SetEndEvent(function(arg_6_0)
+				var_4_1()
+			end)
+			quickPlayAnimation(var_4_0, "anim_skinui_AFC_out")
+		else
+			var_4_1()
+		end
 	else
 		arg_4_0:setIconNumber(var_4_0.transform:Find("FighterIcon"), arg_4_2.totalNumber)
 	end
 end
 
-function var_0_2.Dispose(arg_5_0)
-	for iter_5_0, iter_5_1 in pairs(arg_5_0._iconList) do
-		Object.Destroy(iter_5_1)
+function var_0_2.Dispose(arg_7_0)
+	for iter_7_0, iter_7_1 in pairs(arg_7_0._iconList) do
+		Object.Destroy(iter_7_1)
 	end
 
-	arg_5_0._iconList = nil
+	arg_7_0._iconList = nil
 end
 
-function var_0_2.setIconNumber(arg_6_0, arg_6_1, arg_6_2)
-	arg_6_1.transform:Find("FighterNum"):GetComponent(typeof(Text)).text = "X" .. arg_6_2
+function var_0_2.setIconNumber(arg_8_0, arg_8_1, arg_8_2)
+	arg_8_1.transform:Find("FighterNum"):GetComponent(typeof(Text)).text = "X" .. arg_8_2
 end

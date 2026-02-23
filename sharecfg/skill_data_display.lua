@@ -1534,6 +1534,7 @@ pg.skill_data_display = setmetatable({
 		16990,
 		17000,
 		17002,
+		17003,
 		17010,
 		17020,
 		17031,
@@ -1931,6 +1932,42 @@ pg.skill_data_display = setmetatable({
 		151792,
 		151801,
 		151802,
+		151823,
+		151827,
+		151831,
+		151832,
+		151833,
+		151834,
+		151841,
+		151842,
+		151843,
+		151851,
+		151852,
+		151892,
+		151911,
+		151921,
+		151922,
+		151923,
+		151926,
+		151941,
+		152011,
+		152021,
+		152031,
+		152040,
+		152050,
+		152051,
+		152052,
+		152054,
+		152092,
+		152121,
+		152122,
+		152130,
+		152131,
+		152132,
+		151963,
+		151964,
+		151971,
+		151981,
 		18010,
 		18040,
 		18041,
@@ -2615,6 +2652,8 @@ pg.skill_data_display = setmetatable({
 		30502,
 		30511,
 		30512,
+		30571,
+		30572,
 		39000,
 		39001,
 		39002,
@@ -3033,6 +3072,35 @@ pg.skill_data_display = setmetatable({
 		114121,
 		114122,
 		114128,
+		115021,
+		115031,
+		115053,
+		115055,
+		115062,
+		115065,
+		115072,
+		115075,
+		115091,
+		115092,
+		115093,
+		115101,
+		115102,
+		115103,
+		115111,
+		115112,
+		115113,
+		115141,
+		115142,
+		115143,
+		115151,
+		115152,
+		115161,
+		115162,
+		115172,
+		115191,
+		115200,
+		115210,
+		115220,
 		190001,
 		190002,
 		190003,
@@ -3348,11 +3416,36 @@ pg.skill_data_display = setmetatable({
 		801845,
 		801891,
 		801921,
+		801952,
+		801970,
+		801971,
+		801972,
+		801973,
+		801980,
+		801990,
+		802011,
+		802012,
+		802021,
+		802022,
+		802031,
+		802032,
+		802033,
+		802041,
+		802042,
+		802045,
+		802047,
+		802051,
+		802071,
+		802072,
+		802075,
+		802077,
 		902201,
 		1010140,
 		1010143,
 		1010144,
 		1010147,
+		1010270,
+		1010271,
 		1010390,
 		1010410,
 		1010411,
@@ -3585,6 +3678,15 @@ pg.skill_data_display = setmetatable({
 		201532,
 		201547,
 		201550,
+		201633,
+		201668,
+		201669,
+		201672,
+		201673,
+		201680,
+		201687,
+		201688,
+		201689,
 		1011540,
 		1011541,
 		1090010,
@@ -3731,7 +3833,26 @@ pg.skill_data_display = setmetatable({
 		1012431,
 		1012432,
 		1012435,
+		1012640,
 		10151811,
+		1011911,
+		1011472,
+		1012570,
+		1012571,
+		1012572,
+		1014660,
+		1014661,
+		1014662,
+		1012580,
+		1012581,
+		1012582,
+		1019160,
+		1014990,
+		1014991,
+		1014992,
+		1014993,
+		1014995,
+		1014996,
 		1090020,
 		1090042,
 		1090043,
@@ -9940,6 +10061,10 @@ pg.base.skill_data_display = {
 		id = 17002,
 		name = "Holy Iris's Wishes"
 	},
+	[17003] = {
+		id = 17003,
+		name = "Holy Iris's Wishes"
+	},
 	[17010] = {
 		id = 17010,
 		name = "Absolving Light"
@@ -11527,6 +11652,150 @@ pg.base.skill_data_display = {
 	[151802] = {
 		id = 151802,
 		name = "Judgment of Spear and Sword"
+	},
+	[151823] = {
+		id = 151823,
+		name = "Fiesta del mar y cielo"
+	},
+	[151827] = {
+		id = 151827,
+		name = "Fiesta del mar y cielo"
+	},
+	[151831] = {
+		id = 151831,
+		name = "Stamp - Repair"
+	},
+	[151832] = {
+		id = 151832,
+		name = "Stamp - Defense"
+	},
+	[151833] = {
+		id = 151833,
+		name = "Stamp - Firepower"
+	},
+	[151834] = {
+		id = 151834,
+		name = "Stamp - Full House"
+	},
+	[151841] = {
+		id = 151841,
+		name = "Risk Elimination"
+	},
+	[151842] = {
+		id = 151842,
+		name = "Risk Elimination"
+	},
+	[151843] = {
+		id = 151843,
+		name = "Risk Elimination"
+	},
+	[151851] = {
+		id = 151851,
+		name = "Air Raid Assistance - Clarence"
+	},
+	[151852] = {
+		id = 151852,
+		name = "Air Raid Assistance - Clarence"
+	},
+	[151892] = {
+		id = 151892,
+		name = "The Blue Ghost"
+	},
+	[151911] = {
+		id = 151911,
+		name = "A Recitatif to the Songbirds"
+	},
+	[151921] = {
+		id = 151921,
+		name = "Σヽ(ﾟД ﾟ; )ﾉ"
+	},
+	[151922] = {
+		id = 151922,
+		name = "Σ(°ロ°)!!"
+	},
+	[151923] = {
+		id = 151923,
+		name = "(#`Д´)ﾉ"
+	},
+	[151926] = {
+		id = 151926,
+		name = "Happy D"
+	},
+	[151941] = {
+		id = 151941,
+		name = "Inexperienced Patroller"
+	},
+	[152011] = {
+		id = 152011,
+		name = "Binding Verdict"
+	},
+	[152021] = {
+		id = 152021,
+		name = "Pain, Pain, Fly Away"
+	},
+	[152031] = {
+		id = 152031,
+		name = "Towards Glory and Death"
+	},
+	[152040] = {
+		id = 152040,
+		name = "Gunfire Fouetté"
+	},
+	[152050] = {
+		id = 152050,
+		name = "Ti Sfido!"
+	},
+	[152051] = {
+		id = 152051,
+		name = "Ti Sfido!"
+	},
+	[152052] = {
+		id = 152052,
+		name = "Ti Sfido!"
+	},
+	[152054] = {
+		id = 152054,
+		name = "Ti Sfido!"
+	},
+	[152092] = {
+		id = 152092,
+		name = "Brilliance Through Refinement"
+	},
+	[152121] = {
+		id = 152121,
+		name = "Dazzling Fan Dance"
+	},
+	[152122] = {
+		id = 152122,
+		name = "Dazzling Fan Dance"
+	},
+	[152130] = {
+		id = 152130,
+		name = "Serpentine Brushstrokes"
+	},
+	[152131] = {
+		id = 152131,
+		name = "Serpentine Brushstrokes"
+	},
+	[152132] = {
+		id = 152132,
+		name = "Serpentine Brushstrokes"
+	},
+	[151963] = {
+		id = 151963,
+		name = "Trend Setter"
+	},
+	[151964] = {
+		id = 151964,
+		name = "Trend Setter"
+	},
+	[151971] = {
+		id = 151971,
+		name = "Attention Getter"
+	},
+	[151981] = {
+		id = 151981,
+		name = "Stoic Nepenthe"
 	},
 	[18010] = {
 		id = 18010,
@@ -14264,6 +14533,14 @@ pg.base.skill_data_display = {
 		id = 30512,
 		name = "All Out Assault II"
 	},
+	[30571] = {
+		id = 30571,
+		name = "All Out Assault I"
+	},
+	[30572] = {
+		id = 30572,
+		name = "All Out Assault II"
+	},
 	[39000] = {
 		id = 39000,
 		name = "Optimize I"
@@ -15936,6 +16213,122 @@ pg.base.skill_data_display = {
 		id = 114128,
 		name = "Luminous Wind+"
 	},
+	[115021] = {
+		id = 115021,
+		name = "Astral Dress - Adonai Melek"
+	},
+	[115031] = {
+		id = 115031,
+		name = "Halvanhelev+"
+	},
+	[115053] = {
+		id = 115053,
+		name = "Astral Dress - Elohim Gibor"
+	},
+	[115055] = {
+		id = 115055,
+		name = "Astral Dress - Elohim Gibor"
+	},
+	[115062] = {
+		id = 115062,
+		name = "Efreet's Might"
+	},
+	[115065] = {
+		id = 115065,
+		name = "Efreet's Might"
+	},
+	[115072] = {
+		id = 115072,
+		name = "Efreet's Might+"
+	},
+	[115075] = {
+		id = 115075,
+		name = "Efreet's Might+"
+	},
+	[115091] = {
+		id = 115091,
+		name = "Constrictor"
+	},
+	[115092] = {
+		id = 115092,
+		name = "Piercer"
+	},
+	[115093] = {
+		id = 115093,
+		name = "El Kanaph"
+	},
+	[115101] = {
+		id = 115101,
+		name = "Astral Dress - Elohim Sabaoth"
+	},
+	[115102] = {
+		id = 115102,
+		name = "Astral Dress - Elohim Sabaoth"
+	},
+	[115103] = {
+		id = 115103,
+		name = "Astral Dress - Elohim Sabaoth"
+	},
+	[115111] = {
+		id = 115111,
+		name = "Constrictor"
+	},
+	[115112] = {
+		id = 115112,
+		name = "Piercer"
+	},
+	[115113] = {
+		id = 115113,
+		name = "El Kanaph+"
+	},
+	[115141] = {
+		id = 115141,
+		name = "Time-Eating Castle"
+	},
+	[115142] = {
+		id = 115142,
+		name = "Time-Eating Castle"
+	},
+	[115143] = {
+		id = 115143,
+		name = "Time-Eating Castle"
+	},
+	[115151] = {
+		id = 115151,
+		name = "Astral Dress - Elohim"
+	},
+	[115152] = {
+		id = 115152,
+		name = "Astral Dress - Elohim"
+	},
+	[115161] = {
+		id = 115161,
+		name = "Astral Dress - Elohim+"
+	},
+	[115162] = {
+		id = 115162,
+		name = "Astral Dress - Elohim+"
+	},
+	[115172] = {
+		id = 115172,
+		name = "Metatron - Kadour"
+	},
+	[115191] = {
+		id = 115191,
+		name = "Astral Dress - Ehyeh"
+	},
+	[115200] = {
+		id = 115200,
+		name = "Zadkiel"
+	},
+	[115210] = {
+		id = 115210,
+		name = "Zadkiel"
+	},
+	[115220] = {
+		id = 115220,
+		name = "Shiryon"
+	},
 	[190001] = {
 		id = 190001,
 		name = "Steelsurge Concerto"
@@ -17196,6 +17589,98 @@ pg.base.skill_data_display = {
 		id = 801921,
 		name = "Offensive Stance"
 	},
+	[801952] = {
+		id = 801952,
+		name = "Tragedy's Ward"
+	},
+	[801970] = {
+		id = 801970,
+		name = "To Gaze Upon Fate"
+	},
+	[801971] = {
+		id = 801971,
+		name = "To Gaze Upon Fate"
+	},
+	[801972] = {
+		id = 801972,
+		name = "To Gaze Upon Fate"
+	},
+	[801973] = {
+		id = 801973,
+		name = "To Gaze Upon Fate"
+	},
+	[801980] = {
+		id = 801980,
+		name = "To Remember the Past"
+	},
+	[801990] = {
+		id = 801990,
+		name = "To Witness Life and Death"
+	},
+	[802011] = {
+		id = 802011,
+		name = "Battle-Hardened Knight"
+	},
+	[802012] = {
+		id = 802012,
+		name = "Battle-Hardened Knight"
+	},
+	[802021] = {
+		id = 802021,
+		name = "Destroy Command"
+	},
+	[802022] = {
+		id = 802022,
+		name = "Destroy Command"
+	},
+	[802031] = {
+		id = 802031,
+		name = "Aero Barricade"
+	},
+	[802032] = {
+		id = 802032,
+		name = "Aero Barricade"
+	},
+	[802033] = {
+		id = 802033,
+		name = "Aero Barricade"
+	},
+	[802041] = {
+		id = 802041,
+		name = "Ashen Might - Cleveland I"
+	},
+	[802042] = {
+		id = 802042,
+		name = "Ashen Might - Cleveland II"
+	},
+	[802045] = {
+		id = 802045,
+		name = "Ashen Might - Cleveland I"
+	},
+	[802047] = {
+		id = 802047,
+		name = "Ashen Might - Cleveland II"
+	},
+	[802051] = {
+		id = 802051,
+		name = "Ricarica fiammeggiante"
+	},
+	[802071] = {
+		id = 802071,
+		name = "Cinders of Hope - Carabiniere I"
+	},
+	[802072] = {
+		id = 802072,
+		name = "Cinders of Hope - Carabiniere II"
+	},
+	[802075] = {
+		id = 802075,
+		name = "Cinders of Hope - Carabiniere I"
+	},
+	[802077] = {
+		id = 802077,
+		name = "Cinders of Hope - Carabiniere II"
+	},
 	[902201] = {
 		id = 902201,
 		name = "Fantastic Loop"
@@ -17215,6 +17700,14 @@ pg.base.skill_data_display = {
 	[1010147] = {
 		id = 1010147,
 		name = "Eagle's Tears+"
+	},
+	[1010270] = {
+		id = 1010270,
+		name = "Final Glory+"
+	},
+	[1010271] = {
+		id = 1010271,
+		name = "Final Glory+"
 	},
 	[1010390] = {
 		id = 1010390,
@@ -18144,6 +18637,42 @@ pg.base.skill_data_display = {
 		id = 201550,
 		name = "Island Ruins Support"
 	},
+	[201633] = {
+		id = 201633,
+		name = "Zeroth Quadrant Expansion -5%"
+	},
+	[201668] = {
+		id = 201668,
+		name = "Opening Offensive"
+	},
+	[201669] = {
+		id = 201669,
+		name = "Attack Restrictions Lifted"
+	},
+	[201672] = {
+		id = 201672,
+		name = "Deconstructing Observation"
+	},
+	[201673] = {
+		id = 201673,
+		name = "Unextinguished Will"
+	},
+	[201680] = {
+		id = 201680,
+		name = "The Final Concerto"
+	},
+	[201687] = {
+		id = 201687,
+		name = "VII=VI Linkage"
+	},
+	[201688] = {
+		id = 201688,
+		name = "VII=XIV Linkage"
+	},
+	[201689] = {
+		id = 201689,
+		name = "Target Down"
+	},
 	[1011540] = {
 		id = 1011540,
 		name = "Final Shot+"
@@ -18728,9 +19257,85 @@ pg.base.skill_data_display = {
 		id = 1012435,
 		name = "Lucky A +"
 	},
+	[1012640] = {
+		id = 1012640,
+		name = "Sardegnian Coercion+"
+	},
 	[10151811] = {
 		id = 10151811,
 		name = "Final Sacrament+"
+	},
+	[1011911] = {
+		id = 1011911,
+		name = "Patriotic Spirit+"
+	},
+	[1011472] = {
+		id = 1011472,
+		name = "Nasty Asty +"
+	},
+	[1012570] = {
+		id = 1012570,
+		name = "Supporting Wings+"
+	},
+	[1012571] = {
+		id = 1012571,
+		name = "Supporting Wings+"
+	},
+	[1012572] = {
+		id = 1012572,
+		name = "Supporting Wings+"
+	},
+	[1014660] = {
+		id = 1014660,
+		name = "Strike Orders Received!+"
+	},
+	[1014661] = {
+		id = 1014661,
+		name = "Strike Orders Received!+"
+	},
+	[1014662] = {
+		id = 1014662,
+		name = "Strike Orders Received!+"
+	},
+	[1012580] = {
+		id = 1012580,
+		name = "Don't Move An Inch!"
+	},
+	[1012581] = {
+		id = 1012581,
+		name = "Don't Move An Inch!"
+	},
+	[1012582] = {
+		id = 1012582,
+		name = "Don't Move An Inch!"
+	},
+	[1019160] = {
+		id = 1019160,
+		name = "Heavy Barrel Blaster +"
+	},
+	[1014990] = {
+		id = 1014990,
+		name = "Scorching Combo+"
+	},
+	[1014991] = {
+		id = 1014991,
+		name = "Scorching Combo I+"
+	},
+	[1014992] = {
+		id = 1014992,
+		name = "Scorching Combo II+"
+	},
+	[1014993] = {
+		id = 1014993,
+		name = "Scorching Combo II+"
+	},
+	[1014995] = {
+		id = 1014995,
+		name = "Scorching Combo+"
+	},
+	[1014996] = {
+		id = 1014996,
+		name = "Scorching Combo+"
 	},
 	[1090020] = {
 		id = 1090020,

@@ -53,6 +53,17 @@ function var_0_2.Update(arg_3_0)
 		return
 	end
 
+	if arg_3_0.chapter:IsFogStage() then
+		local var_3_3 = ChapterCell.Line2Name(var_3_0.row, var_3_0.column)
+		local var_3_4 = arg_3_0.chapter.cells[var_3_3]:IsVisible()
+
+		if defaultValue(arg_3_0.visible, true) ~= var_3_4 then
+			arg_3_0.visible = var_3_4
+
+			var_0_1.StartEggCellView(arg_3_0, var_3_1)
+		end
+	end
+
 	var_0_1.UpdateEggCell(arg_3_0, arg_3_0.chapter, arg_3_0.info, arg_3_0.config)
 
 	if arg_3_0.viewParent:isHuntingRangeVisible() and _.any(arg_3_0.chapter.fleets, function(arg_5_0)

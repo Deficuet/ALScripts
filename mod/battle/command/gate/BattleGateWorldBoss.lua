@@ -182,4 +182,36 @@ function var_0_0.Exit(arg_5_0, arg_5_1)
 	arg_5_1:SendRequest(var_5_5, var_5_8)
 end
 
+function var_0_0.GetPreloadList(arg_7_0)
+	local var_7_0 = {}
+	local var_7_1
+	local var_7_2 = ys.Battle.BattleResourceManager.GetInstance()
+	local var_7_3 = nowWorld():GetBossProxy()
+	local var_7_4 = var_7_3:GetFleet(arg_7_0.bossId)
+	local var_7_5 = getProxy(BayProxy):getSortShipsByFleet(var_7_4)
+
+	for iter_7_0, iter_7_1 in ipairs(var_7_5) do
+		table.insert(var_7_0, iter_7_1)
+	end
+
+	local var_7_6, var_7_7 = var_7_2.GetPlayerShipResource(var_7_0, arg_7_0.system)
+	local var_7_8 = var_7_3:GetBossById(arg_7_0.bossId)
+
+	if var_7_8 and var_7_8:IsSelf() then
+		local var_7_9, var_7_10, var_7_11 = var_7_3.GetSupportValue()
+
+		if var_7_9 then
+			local var_7_12 = var_7_2.GetResFromBuffIDList({
+				var_7_11
+			})
+
+			for iter_7_2, iter_7_3 in ipairs(var_7_12) do
+				table.insert(var_7_6, iter_7_3)
+			end
+		end
+	end
+
+	return var_7_6, var_7_7
+end
+
 return var_0_0

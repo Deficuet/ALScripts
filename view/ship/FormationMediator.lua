@@ -378,12 +378,6 @@ function var_0_0.getDockCallbackFuncs(arg_31_0, arg_31_1, arg_31_2, arg_31_3)
 				content = i18n("ship_formationMediator_quest_replace", var_33_1.defaultName),
 				onYes = arg_33_1
 			})
-		elseif var_31_2:CheckUnitInSupportFleet(var_33_0) then
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				hideNo = false,
-				content = i18n("ship_formationMediator_request_replace_support"),
-				onYes = arg_33_1
-			})
 		else
 			arg_33_1()
 
@@ -404,7 +398,7 @@ function var_0_0.getDockCallbackFuncs(arg_31_0, arg_31_1, arg_31_2, arg_31_3)
 			return
 		end
 
-		local function var_34_1()
+		;(function()
 			local var_35_0 = var_31_0:GetRegularFleetByShip(var_34_0)
 			local var_35_1 = arg_31_2:getShipPos(arg_31_1)
 
@@ -488,16 +482,7 @@ function var_0_0.getDockCallbackFuncs(arg_31_0, arg_31_1, arg_31_2, arg_31_3)
 					})
 				end
 			end
-		end
-
-		if var_31_2:CheckUnitInSupportFleet(var_34_0) then
-			arg_31_0:sendNotification(GAME.REMOVE_ELITE_TARGET_SHIP, {
-				shipId = var_34_0.id,
-				callback = var_34_1
-			})
-		else
-			var_34_1()
-		end
+		end)()
 	end
 
 	return var_31_3, var_31_4, var_31_5

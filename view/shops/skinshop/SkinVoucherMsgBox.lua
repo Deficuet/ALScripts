@@ -7,7 +7,18 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	var_0_0.super.OnLoaded(arg_2_0)
+	pg.UIMgr.GetInstance():OverlayPanel(arg_2_0._tf)
+
+	arg_2_0.closeBtn = arg_2_0._tf:Find("window/top/btnBack")
+	arg_2_0.cancelBtn = arg_2_0._tf:Find("window/button_container/cancel")
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("window/button_container/confirm")
+	arg_2_0.label1 = arg_2_0._tf:Find("window/frame/Text"):GetComponent(typeof(Text))
+	arg_2_0.leftItemTr = arg_2_0._tf:Find("window/frame/left")
+	arg_2_0.nameTxt = arg_2_0.leftItemTr:Find("name_bg/Text"):GetComponent(typeof(Text))
+
+	setText(arg_2_0.cancelBtn:Find("pic"), i18n("msgbox_text_cancel"))
+	setText(arg_2_0.confirmBtn:Find("pic"), i18n("msgbox_text_confirm"))
+	setText(arg_2_0._tf:Find("window/top/bg/infomation/title"), i18n("words_information"))
 	setActive(arg_2_0.confirmBtn, false)
 
 	arg_2_0.realPriceBtn = arg_2_0._tf:Find("window/button_container/real_price")
@@ -245,6 +256,11 @@ function var_0_0.SetTipText(arg_25_0, arg_25_1)
 
 		setText(arg_25_0.tipText, i18n("no_share_skin_gametip", i18n(var_25_2[var_25_3][2]), var_25_4))
 	end
+end
+
+function var_0_0.OnDestroy(arg_26_0)
+	arg_26_0.super:OnDestroy()
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_26_0._tf)
 end
 
 return var_0_0

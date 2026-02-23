@@ -30,6 +30,7 @@ function var_0_4.Ctor(arg_1_0, arg_1_1, arg_1_2, arg_1_3)
 	arg_1_0._level = arg_1_2
 	arg_1_0._caster = arg_1_3
 	arg_1_0._forceStack = arg_1_0._tempData.force_stack
+	arg_1_0._stackCap = arg_1_0._tempData.stack_cap or arg_1_0._tempData.stack
 
 	for iter_1_0, iter_1_1 in ipairs(arg_1_0._tempData.effect_list) do
 		local var_1_0 = var_0_0.Battle[iter_1_1.type].New(iter_1_1)

@@ -14,7 +14,9 @@ var_0_0.activity_task_type = {
 }
 var_0_0.normal_task_type = {
 	ActivityConst.ACTIVITY_TYPE_TASKS,
-	ActivityConst.ACTIVITY_TYPE_PT_CRUSING
+	ActivityConst.ACTIVITY_TYPE_PT_CRUSING,
+	ActivityConst.ACTIVITY_TYPE_PT_HEI5,
+	ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB
 }
 
 function var_0_0.register(arg_1_0)

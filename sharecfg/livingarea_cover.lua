@@ -1,5 +1,30 @@
 pg = pg or {}
-pg.livingarea_cover = {
+pg.livingarea_cover = setmetatable({
+	__name = "livingarea_cover",
+	all = {
+		0,
+		100101,
+		100102,
+		100103,
+		100201,
+		100202,
+		100203,
+		100301,
+		100302,
+		100303,
+		101101,
+		101102,
+		101103,
+		101201,
+		101202,
+		101203,
+		101401,
+		101402,
+		101403
+	}
+}, confHX)
+pg.base = pg.base or {}
+pg.base.livingarea_cover = {
 	[0] = {
 		rarity = 2,
 		name = "Default",
@@ -192,22 +217,40 @@ pg.livingarea_cover = {
 		icon = "Props/drom3d_camera1003",
 		get_tips = "You obtained an Intimacy wallpaper."
 	},
-	all = {
-		0,
-		100101,
-		100102,
-		100103,
-		100201,
-		100202,
-		100203,
-		100301,
-		100302,
-		100303,
-		101101,
-		101102,
-		101103,
-		101201,
-		101202,
-		101203
+	[101401] = {
+		rarity = 3,
+		name = "Sweet Murmurings",
+		nighttime_res = "101401_bg_night",
+		id = 101401,
+		icon_res = "101401_icon",
+		desc = "Unlocks the Sweet Murmurings wallpaper for the port.",
+		unlock_text = "Reach Ägir Intimacy Lv. 2",
+		daytime_res = "101401_bg_day",
+		icon = "Props/drom3d_camera1003",
+		get_tips = "You obtained an Intimacy wallpaper."
+	},
+	[101402] = {
+		rarity = 3,
+		name = "Peaceful Relaxation",
+		nighttime_res = "101402_bg_night",
+		id = 101402,
+		icon_res = "101402_icon",
+		desc = "Unlocks the Peaceful Relaxation wallpaper for the port.",
+		unlock_text = "Reach Ägir Intimacy Lv. 7",
+		daytime_res = "101402_bg_day",
+		icon = "Props/drom3d_camera1003",
+		get_tips = "You obtained an Intimacy wallpaper."
+	},
+	[101403] = {
+		rarity = 3,
+		name = "Bedside Invitation",
+		nighttime_res = "101403_bg_night",
+		id = 101403,
+		icon_res = "101403_icon",
+		desc = "Unlocks the Bedside Invitation wallpaper for the port.",
+		unlock_text = "Reach Ägir Intimacy Lv. 10",
+		daytime_res = "101403_bg_day",
+		icon = "Props/drom3d_camera1003",
+		get_tips = "You obtained an Intimacy wallpaper."
 	}
 }

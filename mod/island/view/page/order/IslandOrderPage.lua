@@ -218,261 +218,272 @@ end
 function var_0_0.CheckGuide(arg_31_0)
 	if getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTask(IslandGuideChecker.ORDER_TASK_ID) then
 		onDelayTick(function()
-			IslandGuideChecker.CheckGuide("ISLAND_GUIDE_7", IslandGuideChecker.FINISH_TYPE.ON_GUIDE)
+			local var_32_0 = getProxy(IslandProxy):GetIsland():GetInventoryAgency()
+			local var_32_1 = underscore.all(IslandGuideChecker.ORDER_NEED_ITEMS, function(arg_33_0)
+				return var_32_0:GetOwnCount(arg_33_0[1]) >= arg_33_0[2]
+			end) and {
+				1,
+				2
+			} or {
+				1,
+				3
+			}
+
+			IslandGuideChecker.CheckGuideWithArgs("ISLAND_GUIDE_7", IslandGuideChecker.FINISH_TYPE.ON_GUIDE, nil, var_32_1)
 		end, 0.2)
 	end
 end
 
-function var_0_0.TriggerOrder(arg_33_0, arg_33_1)
-	local var_33_0 = arg_33_1:GetCacheSelectedId()
-	local var_33_1 = arg_33_1:GetSlots()
-	local var_33_2 = var_33_1[var_33_0]
+function var_0_0.TriggerOrder(arg_34_0, arg_34_1)
+	local var_34_0 = arg_34_1:GetCacheSelectedId()
+	local var_34_1 = arg_34_1:GetSlots()
+	local var_34_2 = var_34_1[var_34_0]
 
-	if var_33_2 and not var_33_2:IsEmpty() then
-		local var_33_3 = arg_33_0.orderTpls[var_33_2.id]
+	if var_34_2 and not var_34_2:IsEmpty() then
+		local var_34_3 = arg_34_0.orderTpls[var_34_2.id]
 
-		if var_33_3 then
-			triggerButton(var_33_3)
+		if var_34_3 then
+			triggerButton(var_34_3)
 		end
 	else
-		local var_33_4
+		local var_34_4
 
-		for iter_33_0, iter_33_1 in pairs(var_33_1) do
-			if not iter_33_1:IsEmpty() then
-				var_33_4 = iter_33_1
+		for iter_34_0, iter_34_1 in pairs(var_34_1) do
+			if not iter_34_1:IsEmpty() then
+				var_34_4 = iter_34_1
 
 				break
 			end
 		end
 
-		if var_33_4 then
-			local var_33_5 = arg_33_0.orderTpls[var_33_4.id]
+		if var_34_4 then
+			local var_34_5 = arg_34_0.orderTpls[var_34_4.id]
 
-			if var_33_5 then
-				triggerButton(var_33_5)
+			if var_34_5 then
+				triggerButton(var_34_5)
 			end
 		end
 	end
 end
 
-function var_0_0.GenOrderList(arg_34_0, arg_34_1)
-	arg_34_0:ReturnOrderTplList()
+function var_0_0.GenOrderList(arg_35_0, arg_35_1)
+	arg_35_0:ReturnOrderTplList()
 
-	local var_34_0 = arg_34_1:GetSlots()
+	local var_35_0 = arg_35_1:GetSlots()
 
-	for iter_34_0, iter_34_1 in pairs(var_34_0) do
-		arg_34_0:NewOrderTpl(iter_34_1.id)
-		arg_34_0:UpdateOrderState(iter_34_1.id)
+	for iter_35_0, iter_35_1 in pairs(var_35_0) do
+		arg_35_0:NewOrderTpl(iter_35_1.id)
+		arg_35_0:UpdateOrderState(iter_35_1.id)
 	end
 end
 
-function var_0_0.NewOrderTpl(arg_35_0, arg_35_1)
-	local var_35_0 = arg_35_0.orderTplPool:Dequeue()
+function var_0_0.NewOrderTpl(arg_36_0, arg_36_1)
+	local var_36_0 = arg_36_0.orderTplPool:Dequeue()
 
-	setParent(var_35_0, arg_35_0.orderContainer)
+	setParent(var_36_0, arg_36_0.orderContainer)
 
-	arg_35_0.orderTpls[arg_35_1] = var_35_0
+	arg_36_0.orderTpls[arg_36_1] = var_36_0
 
-	return var_35_0
+	return var_36_0
 end
 
-function var_0_0.ReturnOrderTplList(arg_36_0)
-	for iter_36_0, iter_36_1 in pairs(arg_36_0.orderTpls) do
-		arg_36_0.orderTplPool:Enqueue(iter_36_1)
+function var_0_0.ReturnOrderTplList(arg_37_0)
+	for iter_37_0, iter_37_1 in pairs(arg_37_0.orderTpls) do
+		arg_37_0.orderTplPool:Enqueue(iter_37_1)
 	end
 
-	arg_36_0.orderTpls = {}
+	arg_37_0.orderTpls = {}
 end
 
-function var_0_0.UpdateOrderState(arg_37_0, arg_37_1)
-	local var_37_0 = getProxy(IslandProxy):GetIsland():GetOrderAgency():GetSlot(arg_37_1)
-	local var_37_1 = arg_37_0.orderTpls[arg_37_1] or arg_37_0:NewOrderTpl(arg_37_1)
+function var_0_0.UpdateOrderState(arg_38_0, arg_38_1)
+	local var_38_0 = getProxy(IslandProxy):GetIsland():GetOrderAgency():GetSlot(arg_38_1)
+	local var_38_1 = arg_38_0.orderTpls[arg_38_1] or arg_38_0:NewOrderTpl(arg_38_1)
 
-	arg_37_0:RemoveLoadingTimer(arg_37_1)
-	arg_37_0:RemoveDisappearTimer(arg_37_1)
-	arg_37_0:ShowDiaglog(var_37_0)
+	arg_38_0:RemoveLoadingTimer(arg_38_1)
+	arg_38_0:RemoveDisappearTimer(arg_38_1)
+	arg_38_0:ShowDiaglog(var_38_0)
 
-	if not var_37_0 or var_37_0:IsEmpty() then
-		removeOnButton(var_37_1)
-		setActive(var_37_1, false)
+	if not var_38_0 or var_38_0:IsEmpty() then
+		removeOnButton(var_38_1)
+		setActive(var_38_1, false)
 
 		return
 	end
 
-	var_37_1.transform.localPosition = var_37_0:GetPosition()
+	var_38_1.transform.localPosition = var_38_0:GetPosition()
 
-	setActive(var_37_1, true)
-	onButton(arg_37_0, var_37_1, function()
-		arg_37_0:ClickOrder(var_37_1, var_37_0)
+	setActive(var_38_1, true)
+	onButton(arg_38_0, var_38_1, function()
+		arg_38_0:ClickOrder(var_38_1, var_38_0)
 
-		arg_37_0.selected = var_37_1
+		arg_38_0.selected = var_38_1
 	end, SFX_PANEL)
 
-	local var_37_2 = var_37_0:GetOrder()
-	local var_37_3 = var_37_0:CanSubmit()
+	local var_38_2 = var_38_0:GetOrder()
+	local var_38_3 = var_38_0:CanSubmit()
 
-	setActive(var_37_1.transform:Find("bg_urgent"), var_37_2:IsUrgency())
-	setActive(var_37_1.transform:Find("bg_act"), var_37_2:IsActivity())
-	setActive(var_37_1.transform:Find("sel"), arg_37_0.selected and arg_37_0.selected == var_37_1)
-	setActive(var_37_1.transform:Find("finish"), var_37_3)
-	setActive(var_37_1.transform:Find("easy"), var_37_2:GetTendency() == IslandOrderSlot.TENDENCY_TYPE_EASY)
-	setActive(var_37_1.transform:Find("hard"), var_37_2:GetTendency() == IslandOrderSlot.TENDENCY_TYPE_HARD)
+	setActive(var_38_1.transform:Find("bg_urgent"), var_38_2:IsUrgency())
+	setActive(var_38_1.transform:Find("bg_act"), var_38_2:IsActivity())
+	setActive(var_38_1.transform:Find("sel"), arg_38_0.selected and arg_38_0.selected == var_38_1)
+	setActive(var_38_1.transform:Find("finish"), var_38_3)
+	setActive(var_38_1.transform:Find("easy"), var_38_2:GetTendency() == IslandOrderSlot.TENDENCY_TYPE_EASY)
+	setActive(var_38_1.transform:Find("hard"), var_38_2:GetTendency() == IslandOrderSlot.TENDENCY_TYPE_HARD)
 
-	local var_37_4 = var_37_0:IsLoading()
+	local var_38_4 = var_38_0:IsLoading()
 
-	setActive(var_37_1.transform:Find("icon"), not var_37_4)
-	setActive(var_37_1.transform:Find("loading"), var_37_4)
-	setActive(var_37_1.transform:Find("bg/progress"), not var_37_4)
+	setActive(var_38_1.transform:Find("icon"), not var_38_4)
+	setActive(var_38_1.transform:Find("loading"), var_38_4)
+	setActive(var_38_1.transform:Find("bg/progress"), not var_38_4)
 
-	local var_37_5 = var_37_2:GetRoleIcon()
+	local var_38_5 = var_38_2:GetRoleIcon()
 
-	GetImageSpriteFromAtlasAsync("island/IslandShipIcon/" .. var_37_5, "", var_37_1.transform:Find("icon"))
+	GetImageSpriteFromAtlasAsync("island/IslandShipIcon/" .. var_38_5, "", var_38_1.transform:Find("icon"))
 
-	if var_37_4 then
-		arg_37_0:AddLoadingTimer(var_37_1, var_37_0)
+	if var_38_4 then
+		arg_38_0:AddLoadingTimer(var_38_1, var_38_0)
 	end
 
-	if var_37_2:IsUrgency() then
-		arg_37_0:AddDisappearTimer(var_37_1, var_37_0)
+	if var_38_2:IsUrgency() then
+		arg_38_0:AddDisappearTimer(var_38_1, var_38_0)
 	end
 end
 
-function var_0_0.AddDisappearTimer(arg_39_0, arg_39_1, arg_39_2)
-	arg_39_0:RemoveDisappearTimer(arg_39_2.id)
+function var_0_0.AddDisappearTimer(arg_40_0, arg_40_1, arg_40_2)
+	arg_40_0:RemoveDisappearTimer(arg_40_2.id)
 
-	local var_39_0 = arg_39_2:GetDisappearTime()
+	local var_40_0 = arg_40_2:GetDisappearTime()
 
-	if var_39_0 <= pg.TimeMgr.GetInstance():GetServerTime() then
+	if var_40_0 <= pg.TimeMgr.GetInstance():GetServerTime() then
 		return
 	end
 
-	arg_39_0.disappearTimers[arg_39_2.id] = Timer.New(function()
-		local var_40_0 = pg.TimeMgr.GetInstance():GetServerTime()
-		local var_40_1 = var_39_0 - var_40_0
-		local var_40_2 = pg.TimeMgr.GetInstance():DescCDTime(var_40_1)
+	arg_40_0.disappearTimers[arg_40_2.id] = Timer.New(function()
+		local var_41_0 = pg.TimeMgr.GetInstance():GetServerTime()
+		local var_41_1 = var_40_0 - var_41_0
+		local var_41_2 = pg.TimeMgr.GetInstance():DescCDTime(var_41_1)
 
-		setText(arg_39_1.transform:Find("bg_urgent/time_label/Text"), var_40_2)
+		setText(arg_40_1.transform:Find("bg_urgent/time_label/Text"), var_41_2)
 
-		if var_40_1 < 0 then
-			arg_39_0:UpdateOrderState(arg_39_2.id)
+		if var_41_1 < 0 then
+			arg_40_0:UpdateOrderState(arg_40_2.id)
 		end
 	end, 1, -1)
 
-	arg_39_0.disappearTimers[arg_39_2.id].func()
-	arg_39_0.disappearTimers[arg_39_2.id]:Start()
+	arg_40_0.disappearTimers[arg_40_2.id].func()
+	arg_40_0.disappearTimers[arg_40_2.id]:Start()
 end
 
-function var_0_0.RemoveDisappearTimer(arg_41_0, arg_41_1)
-	if arg_41_0.disappearTimers[arg_41_1] then
-		arg_41_0.disappearTimers[arg_41_1]:Stop()
+function var_0_0.RemoveDisappearTimer(arg_42_0, arg_42_1)
+	if arg_42_0.disappearTimers[arg_42_1] then
+		arg_42_0.disappearTimers[arg_42_1]:Stop()
 
-		arg_41_0.disappearTimers[arg_41_1] = nil
+		arg_42_0.disappearTimers[arg_42_1] = nil
 	end
 end
 
-function var_0_0.ClickOrder(arg_42_0, arg_42_1, arg_42_2)
-	arg_42_0:OpenPage(IslandOrderDescPage, arg_42_2)
-	arg_42_0:ShowDiaglog(arg_42_2)
-	getProxy(IslandProxy):GetIsland():GetOrderAgency():SetCacheSelectedId(arg_42_2.id)
+function var_0_0.ClickOrder(arg_43_0, arg_43_1, arg_43_2)
+	arg_43_0:OpenPage(IslandOrderDescPage, arg_43_2)
+	arg_43_0:ShowDiaglog(arg_43_2)
+	getProxy(IslandProxy):GetIsland():GetOrderAgency():SetCacheSelectedId(arg_43_2.id)
 
-	if arg_42_0.selected then
-		setActive(arg_42_0.selected.transform:Find("sel"), false)
+	if arg_43_0.selected then
+		setActive(arg_43_0.selected.transform:Find("sel"), false)
 	end
 
-	setActive(arg_42_1.transform:Find("sel"), true)
+	setActive(arg_43_1.transform:Find("sel"), true)
 end
 
-function var_0_0.ShowDiaglog(arg_43_0, arg_43_1)
-	if not arg_43_1 or not arg_43_1:GetOrder() or arg_43_1:IsEmpty() or arg_43_1:IsLoading() then
-		setActive(arg_43_0.charTr, false)
+function var_0_0.ShowDiaglog(arg_44_0, arg_44_1)
+	if not arg_44_1 or not arg_44_1:GetOrder() or arg_44_1:IsEmpty() or arg_44_1:IsLoading() then
+		setActive(arg_44_0.charTr, false)
 
 		return
 	end
 
-	local var_43_0 = arg_43_1:GetOrder()
+	local var_44_0 = arg_44_1:GetOrder()
 
-	setActive(arg_43_0.charTr, true)
+	setActive(arg_44_0.charTr, true)
 
-	local var_43_1 = var_43_0:GetRoleIcon()
+	local var_44_1 = var_44_0:GetRoleIcon()
 
-	GetImageSpriteFromAtlasAsync("island/IslandShipIconHalf/" .. var_43_1, "", arg_43_0.charTr)
+	GetImageSpriteFromAtlasAsync("island/IslandShipIconHalf/" .. var_44_1, "", arg_44_0.charTr)
 
-	arg_43_0.chatTxt.text = var_43_0:GetDesc()
+	arg_44_0.chatTxt.text = var_44_0:GetDesc()
 end
 
-function var_0_0.AddLoadingTimer(arg_44_0, arg_44_1, arg_44_2)
-	local function var_44_0()
-		arg_44_0:UpdateOrderState(arg_44_2.id)
+function var_0_0.AddLoadingTimer(arg_45_0, arg_45_1, arg_45_2)
+	local function var_45_0()
+		arg_45_0:UpdateOrderState(arg_45_2.id)
 	end
 
-	local var_44_1 = arg_44_2:GetCanSubmitTime()
-	local var_44_2 = arg_44_2:GetTotalTime()
-	local var_44_3 = Timer.New(function()
-		local var_46_0 = pg.TimeMgr.GetInstance():GetServerTime()
-		local var_46_1 = var_44_1 - var_46_0
+	local var_45_1 = arg_45_2:GetCanSubmitTime()
+	local var_45_2 = arg_45_2:GetTotalTime()
+	local var_45_3 = Timer.New(function()
+		local var_47_0 = pg.TimeMgr.GetInstance():GetServerTime()
+		local var_47_1 = var_45_1 - var_47_0
 
-		setText(arg_44_1.transform:Find("loading/time_label/Text"), pg.TimeMgr.GetInstance():DescCDTime(var_46_1))
-		setFillAmount(arg_44_1.transform:Find("loading/progress"), 1 - var_46_1 / var_44_2)
+		setText(arg_45_1.transform:Find("loading/time_label/Text"), pg.TimeMgr.GetInstance():DescCDTime(var_47_1))
+		setFillAmount(arg_45_1.transform:Find("loading/progress"), 1 - var_47_1 / var_45_2)
 
-		if var_46_1 <= 0 then
-			var_44_0()
+		if var_47_1 <= 0 then
+			var_45_0()
 		end
 	end, 1, -1)
 
-	var_44_3:Start()
-	var_44_3.func()
+	var_45_3:Start()
+	var_45_3.func()
 
-	arg_44_0.timers[arg_44_2.id] = var_44_3
+	arg_45_0.timers[arg_45_2.id] = var_45_3
 end
 
-function var_0_0.RemoveLoadingTimer(arg_47_0, arg_47_1)
-	if arg_47_0.timers[arg_47_1] then
-		arg_47_0.timers[arg_47_1]:Stop()
+function var_0_0.RemoveLoadingTimer(arg_48_0, arg_48_1)
+	if arg_48_0.timers[arg_48_1] then
+		arg_48_0.timers[arg_48_1]:Stop()
 
-		arg_47_0.timers[arg_47_1] = nil
+		arg_48_0.timers[arg_48_1] = nil
 	end
 end
 
-function var_0_0.RemoveAllLoadingTimer(arg_48_0)
-	for iter_48_0, iter_48_1 in pairs(arg_48_0.timers) do
-		iter_48_1:Stop()
+function var_0_0.RemoveAllLoadingTimer(arg_49_0)
+	for iter_49_0, iter_49_1 in pairs(arg_49_0.timers) do
+		iter_49_1:Stop()
 	end
 
-	for iter_48_2, iter_48_3 in pairs(arg_48_0.disappearTimers) do
-		iter_48_3:Stop()
+	for iter_49_2, iter_49_3 in pairs(arg_49_0.disappearTimers) do
+		iter_49_3:Stop()
 	end
 
-	arg_48_0.disappearTimers = {}
-	arg_48_0.timers = {}
+	arg_49_0.disappearTimers = {}
+	arg_49_0.timers = {}
 end
 
-function var_0_0.UpdateExpPanel(arg_49_0, arg_49_1)
-	arg_49_0.levelTxt.text = arg_49_1:GetLevel()
+function var_0_0.UpdateExpPanel(arg_50_0, arg_50_1)
+	arg_50_0.levelTxt.text = arg_50_1:GetLevel()
 
-	if arg_49_1:IsMaxLevel() then
-		arg_49_0.expTxt.text = "MAX"
+	if arg_50_1:IsMaxLevel() then
+		arg_50_0.expTxt.text = "MAX"
 	else
-		local var_49_0 = arg_49_1:GetExp()
-		local var_49_1 = math.max(1, arg_49_1:GetNextTargetExp())
+		local var_50_0 = arg_50_1:GetExp()
+		local var_50_1 = math.max(1, arg_50_1:GetNextTargetExp())
 
-		arg_49_0.expTxt.text = var_49_0 .. "/" .. var_49_1
+		arg_50_0.expTxt.text = var_50_0 .. "/" .. var_50_1
 	end
 end
 
-function var_0_0.OnDestroy(arg_50_0)
-	if arg_50_0.upgradePage:GetLoaded() then
-		arg_50_0.upgradePage:Destroy()
+function var_0_0.OnDestroy(arg_51_0)
+	if arg_51_0.upgradePage:GetLoaded() then
+		arg_51_0.upgradePage:Destroy()
 
-		arg_50_0.upgradePage = nil
+		arg_51_0.upgradePage = nil
 	end
 
-	if arg_50_0.orderTplPool then
-		arg_50_0.orderTplPool:Dispose()
+	if arg_51_0.orderTplPool then
+		arg_51_0.orderTplPool:Dispose()
 
-		arg_50_0.orderTplPool = nil
+		arg_51_0.orderTplPool = nil
 	end
 
-	arg_50_0:RemoveAllLoadingTimer()
+	arg_51_0:RemoveAllLoadingTimer()
 end
 
 return var_0_0

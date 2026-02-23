@@ -44,53 +44,53 @@ function var_0_0.GetRemarks(arg_11_0)
 	return arg_11_0:getConfig("remarks")
 end
 
-function var_0_0.GetHiddenPartIcons(arg_12_0, arg_12_1)
-	local var_12_0 = arg_12_0:getConfig("hidden_part")
-	local var_12_1 = {}
-
-	for iter_12_0, iter_12_1 in ipairs(arg_12_1) do
-		local var_12_2 = iter_12_0.find(var_12_0, function(arg_13_0)
-			return arg_13_0[1] == iter_12_1
-		end)
-
-		if var_12_2 then
-			table.insert(var_12_1, var_12_2[2])
-		end
-	end
-
-	return var_12_1
+function var_0_0.GetGroupId(arg_12_0)
+	return arg_12_0:getConfig("ship_group")
 end
 
-function var_0_0.GetActiveAndHiddenPartNames(arg_14_0, arg_14_1)
+function var_0_0.ShouldApplyHiddenPartInTimeline(arg_13_0)
+	return arg_13_0:getConfig("hidden_part_apply_in_timeline") == 1
+end
+
+function var_0_0.GetHiddenPartIcons(arg_14_0, arg_14_1)
 	local var_14_0 = arg_14_0:getConfig("hidden_part")
 	local var_14_1 = {}
-	local var_14_2 = {}
 
-	for iter_14_0, iter_14_1 in ipairs(var_14_0) do
-		if table.contains(arg_14_1, iter_14_1[1]) then
-			table.insert(var_14_2, iter_14_1[3])
-		else
-			table.insert(var_14_1, iter_14_1[3])
+	for iter_14_0, iter_14_1 in ipairs(arg_14_1) do
+		local var_14_2 = iter_14_0.find(var_14_0, function(arg_15_0)
+			return arg_15_0[1] == iter_14_1
+		end)
+
+		if var_14_2 then
+			table.insert(var_14_1, var_14_2[2])
 		end
 	end
 
-	return var_14_1, var_14_2
+	return var_14_1
 end
 
-function var_0_0.GetRarity(arg_15_0)
+function var_0_0.GetActiveAndHiddenPartNames(arg_16_0, arg_16_1)
+	local var_16_0 = arg_16_0:getConfig("hidden_part")
+	local var_16_1 = {}
+	local var_16_2 = {}
+
+	for iter_16_0, iter_16_1 in ipairs(var_16_0) do
+		if table.contains(arg_16_1, iter_16_1[1]) then
+			table.insert(var_16_2, iter_16_1[3])
+		else
+			table.insert(var_16_1, iter_16_1[3])
+		end
+	end
+
+	return var_16_1, var_16_2
+end
+
+function var_0_0.GetRarity(arg_17_0)
 	return 5
 end
 
-function var_0_0.GetModelName(arg_16_0)
-	if HXSet.isHx() then
-		return arg_16_0:getConfig("hx_model") ~= "" and arg_16_0:getConfig("hx_model") or arg_16_0:getConfig("model_id")
-	else
-		return arg_16_0:getConfig("model_id")
-	end
-end
-
-function var_0_0.GetHXModel(arg_17_0)
-	return arg_17_0:getConfig("hx_model")
+function var_0_0.GetModelName(arg_18_0)
+	return arg_18_0:getConfig("model_id")
 end
 
 return var_0_0

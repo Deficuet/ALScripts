@@ -181,6 +181,8 @@ end
 function var_0_1.LayerSortHandler(arg_14_0)
 	arg_14_0:SortStoreUIs()
 
+	arg_14_0.indexDic = {}
+
 	local var_14_0
 	local var_14_1
 	local var_14_2 = {}
@@ -258,6 +260,8 @@ function var_0_1.LayerSortHandler(arg_14_0)
 		end
 	end
 
+	arg_14_0:SequentizationUIIndex()
+
 	if not var_14_4 then
 		var_0_0.UIMgr.GetInstance():SetCameraBlurLock(var_14_4)
 	end
@@ -285,74 +289,90 @@ function var_0_1.LayerSortHandler(arg_14_0)
 end
 
 function var_0_1.SetSpecificParent(arg_18_0, arg_18_1, arg_18_2, arg_18_3)
-	SetParent(arg_18_1, arg_18_2, false)
-
 	if arg_18_3 then
-		arg_18_1:SetSiblingIndex(arg_18_3)
-	end
-end
+		arg_18_0.indexDic[arg_18_2] = arg_18_0.indexDic[arg_18_2] or {}
 
-function var_0_1.GetAdaptObj(arg_19_0, arg_19_1)
-	local var_19_0 = arg_19_0:GetAdatpObjName(arg_19_1)
-	local var_19_1
-
-	if #arg_19_0.adaptPool > 0 then
-		var_19_1 = table.remove(arg_19_0.adaptPool, #arg_19_0.adaptPool)
-		var_19_1.name = var_19_0
+		table.insert(arg_18_0.indexDic[arg_18_2], 1, arg_18_1)
 	else
-		var_19_1 = GameObject.New(var_19_0, typeof(RectTransform), typeof(NotchAdapt)).transform
+		SetParent(arg_18_1, arg_18_2, false)
 	end
-
-	var_19_1.anchorMin = Vector2.zero
-	var_19_1.anchorMax = Vector2.one
-	var_19_1.pivot = Vector2(0.5, 0.5)
-	var_19_1.offsetMax = Vector2.zero
-	var_19_1.offsetMin = Vector2.zero
-	var_19_1.localPosition = Vector3.zero
-
-	SetActive(var_19_1, true)
-	SetParent(arg_19_1, var_19_1, false)
-
-	return var_19_1
 end
 
-function var_0_1.CheckRecycleAdaptObj(arg_20_0, arg_20_1, arg_20_2)
-	local var_20_0 = arg_20_0:GetAdaptObjFromUI(arg_20_1)
+function var_0_1.SequentizationUIIndex(arg_19_0)
+	for iter_19_0, iter_19_1 in pairs(arg_19_0.indexDic) do
+		for iter_19_2, iter_19_3 in ipairs(iter_19_1) do
+			SetParent(iter_19_3, iter_19_0, false)
 
-	if arg_20_2 ~= nil then
-		SetParent(arg_20_1, arg_20_2, false)
+			if iter_19_3:GetSiblingIndex() ~= iter_19_2 - 1 then
+				iter_19_3:SetSiblingIndex(iter_19_2 - 1)
+			end
+		end
 	end
 
-	if var_20_0 ~= nil then
-		if #arg_20_0.adaptPool < 4 then
-			table.insert(arg_20_0.adaptPool, var_20_0)
-			SetParent(var_20_0, arg_20_0.OverlayAdapt, false)
+	arg_19_0.indexDic = nil
+end
 
-			var_20_0.name = var_0_1.RECYCLE_ADAPT_TAG
+function var_0_1.GetAdaptObj(arg_20_0, arg_20_1)
+	local var_20_0 = arg_20_0:GetAdatpObjName(arg_20_1)
+	local var_20_1
 
-			SetActive(var_20_0, false)
+	if #arg_20_0.adaptPool > 0 then
+		var_20_1 = table.remove(arg_20_0.adaptPool, #arg_20_0.adaptPool)
+		var_20_1.name = var_20_0
+	else
+		var_20_1 = GameObject.New(var_20_0, typeof(RectTransform), typeof(NotchAdapt)).transform
+	end
+
+	var_20_1.anchorMin = Vector2.zero
+	var_20_1.anchorMax = Vector2.one
+	var_20_1.pivot = Vector2(0.5, 0.5)
+	var_20_1.offsetMax = Vector2.zero
+	var_20_1.offsetMin = Vector2.zero
+	var_20_1.localPosition = Vector3.zero
+
+	SetActive(var_20_1, true)
+	SetParent(arg_20_1, var_20_1, false)
+
+	return var_20_1
+end
+
+function var_0_1.CheckRecycleAdaptObj(arg_21_0, arg_21_1, arg_21_2)
+	local var_21_0 = arg_21_0:GetAdaptObjFromUI(arg_21_1)
+
+	if arg_21_2 ~= nil then
+		SetParent(arg_21_1, arg_21_2, false)
+	end
+
+	if var_21_0 ~= nil then
+		if #arg_21_0.adaptPool < 4 then
+			table.insert(arg_21_0.adaptPool, var_21_0)
+			SetParent(var_21_0, arg_21_0.OverlayAdapt, false)
+
+			var_21_0.name = var_0_1.RECYCLE_ADAPT_TAG
+
+			SetActive(var_21_0, false)
 		else
-			Destroy(var_20_0)
+			Destroy(var_21_0)
 		end
 	end
 end
 
-function var_0_1.GetAdaptObjFromUI(arg_21_0, arg_21_1)
-	if arg_21_1.parent ~= nil and arg_21_1.parent.name == arg_21_0:GetAdatpObjName(arg_21_1) then
-		return arg_21_1.parent
+function var_0_1.GetAdaptObjFromUI(arg_22_0, arg_22_1)
+	if arg_22_1.parent ~= nil and arg_22_1.parent.name == arg_22_0:GetAdatpObjName(arg_22_1) then
+		return arg_22_1.parent
 	end
 
 	return nil
 end
 
-function var_0_1.GetAdatpObjName(arg_22_0, arg_22_1)
-	return arg_22_1.name .. var_0_1.ADAPT_TAG
+function var_0_1.GetAdatpObjName(arg_23_0, arg_23_1)
+	return arg_23_1.name .. var_0_1.ADAPT_TAG
 end
 
-function var_0_1.Log(arg_23_0, arg_23_1)
+function var_0_1.Log(arg_24_0, arg_24_1)
 	if not var_0_1.DEBUG then
 		return
 	end
 
-	originalPrint(arg_23_1)
+	originalPrint(arg_24_1)
 end

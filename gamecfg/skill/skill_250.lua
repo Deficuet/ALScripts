@@ -26,6 +26,16 @@ return {
 				tag = "AirDominance_lower",
 				operation = 1
 			}
+		},
+		{
+			type = "BattleSkillEditTag",
+			casterAniEffect = "",
+			target_choise = "TargetAllHelp",
+			targetAniEffect = "",
+			arg_list = {
+				tag = "AirDominance_loworEqu",
+				operation = 1
+			}
 		}
 	}
 }

@@ -90,7 +90,7 @@ function var_0_0.getStoryTitle(arg_10_0, arg_10_1)
 	for iter_10_0, iter_10_1 in ipairs(pg.memory_template.all) do
 		local var_10_0 = pg.memory_template[iter_10_1]
 
-		if var_10_0.story == arg_10_1 then
+		if table.contains(var_10_0.unlock_pre, arg_10_1) then
 			return var_10_0.title
 		end
 	end

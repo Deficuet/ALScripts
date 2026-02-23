@@ -40,6 +40,14 @@ end
 function var_0_0.init(arg_7_0)
 	arg_7_0:InitScene()
 	arg_7_0:InitUI()
+
+	local var_7_0 = Dorm3dHxHelper.GetTimelineMainCharacter()
+
+	Dorm3dHxHelper.ReplaceCharacterParts(var_7_0)
+	Dorm3dHxHelper.HideCharacterPart(var_7_0, nil, true)
+	Dorm3dHxHelper.ShowHolyLight({
+		var_7_0
+	}, arg_7_0.holyLightRoot)
 end
 
 function var_0_0.InitUI(arg_8_0)
@@ -64,6 +72,7 @@ function var_0_0.InitUI(arg_8_0)
 
 	arg_8_0.ltList = {}
 	arg_8_0.timerList = {}
+	arg_8_0.holyLightRoot = arg_8_0._tf:Find("HolyLightRoot")
 end
 
 function var_0_0.InitScene(arg_11_0)

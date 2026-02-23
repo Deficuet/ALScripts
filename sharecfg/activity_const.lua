@@ -22,7 +22,7 @@ pg.activity_const = {
 		act_id = 20066
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 50154
+		act_id = 50254
 	},
 	SANLI_7DAYS_LOGIN = {
 		act_id = 274
@@ -994,7 +994,7 @@ pg.activity_const = {
 		act_id = 5096
 	},
 	VOTE_ENTRANCE_ACT_ID = {
-		act_id = 1068
+		act_id = 1092
 	},
 	MINIGAME_COOKGAME2_ID = {
 		act_id = 5141
@@ -1015,22 +1015,22 @@ pg.activity_const = {
 		act_id = 4667
 	},
 	OTHER_WORLD_TASK_ID = {
-		act_id = 5261
+		act_id = 50372
 	},
 	OTHER_WORLD_TERMINAL_EVENT_ID = {
-		act_id = 5265
+		act_id = 50375
 	},
 	OTHER_WORLD_TERMINAL_LOTTERY_ID = {
-		act_id = 5264
+		act_id = 50374
 	},
 	OTHER_WORLD_TERMINAL_TASK_ID = {
-		act_id = 5269
+		act_id = 50377
 	},
 	OTHER_WORLD_TERMINAL_PT_ID = {
-		act_id = 5270
+		act_id = 50378
 	},
 	OTHER_WORLD_TERMINAL_BATTLE_ID = {
-		act_id = 5260
+		act_id = 50371
 	},
 	MUSIC_FESTIVAL_ID_3 = {
 		act_id = 5310
@@ -1166,5 +1166,23 @@ pg.activity_const = {
 	},
 	SAILING_SHIP_3_SKIN_ACT_ID = {
 		act_id = 50202
+	},
+	HelenaPT_ACT_ID = {
+		act_id = 50261
+	},
+	HorseYearSpringFestival2026_ID_1 = {
+		act_id = 50419
+	},
+	HorseYearSpringFestival2026_ID_2 = {
+		act_id = 50420
+	},
+	HorseYearSpringFestival2026_ID_3 = {
+		act_id = 50421
+	},
+	HorseYearSpringFestival2026_ID_4 = {
+		act_id = 50422
+	},
+	LOVE_LETTER_LOGIN_ID = {
+		act_id = 50401
 	}
 }

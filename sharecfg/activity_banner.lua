@@ -11,9 +11,9 @@ pg.activity_banner = {
 		time = {
 			{
 				{
-					2025,
-					10,
-					23
+					2026,
+					2,
+					12
 				},
 				{
 					0,
@@ -23,9 +23,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2025,
-					11,
-					5
+					2026,
+					3,
+					4
 				},
 				{
 					23,
@@ -38,6 +38,16 @@ pg.activity_banner = {
 	{
 		id = 2,
 		pic = "temp2",
+		time = "stop",
+		type = 2,
+		param = {
+			"scene skinshop",
+			{}
+		}
+	},
+	{
+		id = 3,
+		pic = "temp3",
 		type = 2,
 		param = {
 			"scene get boat",
@@ -49,9 +59,9 @@ pg.activity_banner = {
 		time = {
 			{
 				{
-					2025,
-					10,
-					23
+					2026,
+					2,
+					12
 				},
 				{
 					0,
@@ -61,46 +71,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2025,
-					11,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 3,
-		pic = "temp3",
-		type = 2,
-		param = {
-			"scene core activity",
-			{
-				coreName = "SailingShip3CoreActivityUI"
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					10,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					11,
-					5
+					2026,
+					2,
+					25
 				},
 				{
 					23,
@@ -115,17 +88,17 @@ pg.activity_banner = {
 		pic = "temp4",
 		type = 2,
 		param = {
-			"scene charge",
+			"scene core activity",
 			{
-				wrap = 4
+				coreName = "SpringFestival2026CoreActivityUI"
 			}
 		},
 		time = {
 			{
 				{
-					2025,
-					10,
-					23
+					2026,
+					2,
+					12
 				},
 				{
 					0,
@@ -135,9 +108,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2025,
-					11,
-					5
+					2026,
+					2,
+					25
 				},
 				{
 					23,
@@ -152,17 +125,17 @@ pg.activity_banner = {
 		pic = "temp5",
 		type = 2,
 		param = {
-			"scene shop",
+			"scene charge",
 			{
-				warp = "shopstreet"
+				wrap = 4
 			}
 		},
 		time = {
 			{
 				{
-					2025,
-					10,
-					23
+					2026,
+					2,
+					12
 				},
 				{
 					0,
@@ -172,9 +145,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2025,
-					11,
-					5
+					2026,
+					2,
+					25
 				},
 				{
 					23,
@@ -189,14 +162,17 @@ pg.activity_banner = {
 		pic = "temp6",
 		type = 2,
 		param = {
-			"scene court yard"
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
 		},
 		time = {
 			{
 				{
-					2025,
-					10,
-					23
+					2026,
+					2,
+					12
 				},
 				{
 					0,
@@ -206,9 +182,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2025,
-					11,
-					5
+					2026,
+					2,
+					25
 				},
 				{
 					23,
@@ -221,33 +197,16 @@ pg.activity_banner = {
 	{
 		id = 7,
 		pic = "temp7",
-		time = "stop",
 		type = 2,
 		param = {
-			"dorm 3d select"
-		}
-	},
-	{
-		param = "7503",
-		time = "stop",
-		type = 3,
-		id = 8,
-		pic = "temp8"
-	},
-	{
-		id = 9,
-		pic = "temp9",
-		type = 2,
-		param = {
-			"scene Cryptolalia",
-			{}
+			"scene court yard"
 		},
 		time = {
 			{
 				{
-					2025,
-					10,
-					23
+					2026,
+					2,
+					12
 				},
 				{
 					0,
@@ -257,9 +216,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2025,
-					10,
-					29
+					2026,
+					3,
+					4
 				},
 				{
 					23,
@@ -268,6 +227,47 @@ pg.activity_banner = {
 				}
 			}
 		}
+	},
+	{
+		id = 8,
+		pic = "temp8",
+		type = 2,
+		param = {
+			"dorm 3d select"
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "50372",
+		time = "stop",
+		type = 3,
+		id = 9,
+		pic = "temp9"
 	},
 	[90] = {
 		param = "",
@@ -298,9 +298,9 @@ pg.activity_banner = {
 		time = {
 			{
 				{
-					2025,
-					10,
-					23
+					2026,
+					2,
+					12
 				},
 				{
 					0,
@@ -310,9 +310,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2025,
-					11,
-					5
+					2026,
+					3,
+					4
 				},
 				{
 					23,
@@ -324,29 +324,15 @@ pg.activity_banner = {
 	},
 	[100] = {
 		param = "Dumplings|A world-famous delight from the Dragon Empery! <color=#92fc63>(Increases EXP gained by 5% for 60 minutes.)</color>",
-		time = "stop",
-		type = 10,
 		id = 100,
-		pic = "dumpling"
-	},
-	[101] = {
-		param = "Kagami Mochi| Make sure to unwrap it first before digging in! <color=#6dd329>(Increases EXP gained by 5% for 60 minutes).</color> ",
-		time = "stop",
-		type = 10,
-		id = 101,
-		pic = "jingbing"
-	},
-	[102] = {
-		param = "Osmanthus Cake|A sweet and aromatic cake said to have come from the Moon Palace! Delicious! <color=#6dd329>(Increase EXP by 5% for 60 minutes)</color>",
-		id = 102,
-		pic = "guihuagao",
+		pic = "dumpling",
 		type = 10,
 		time = {
 			{
 				{
-					2025,
-					9,
-					25
+					2026,
+					2,
+					12
 				},
 				{
 					0,
@@ -356,31 +342,70 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2025,
-					10,
-					9
+					2026,
+					3,
+					11
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
 	},
+	[101] = {
+		param = "Kagami Mochi| Make sure to unwrap it first before digging in! <color=#6dd329>(Increases EXP gained by 5% for 60 minutes).</color> ",
+		time = "stop",
+		type = 10,
+		id = 101,
+		pic = "jingbing"
+	},
+	[102] = {
+		param = "Candy Cane|It is said that the first candy canes were pure white like the snow. <color=#6dd329>(Increases EXP gained by 5% for 60 minutes).</color> ",
+		time = "stop",
+		type = 10,
+		id = 102,
+		pic = "christmas"
+	},
 	[200] = {
 		param = "",
-		time = "always",
+		time = "stop",
 		type = 13,
 		id = 200,
 		pic = "autumn"
 	},
 	[201] = {
 		param = "",
-		time = "stop",
-		type = 13,
 		id = 201,
-		pic = "christmas"
+		pic = "springfes",
+		type = 13,
+		time = {
+			{
+				{
+					2026,
+					2,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[202] = {
 		param = "",
@@ -398,10 +423,10 @@ pg.activity_banner = {
 			5,
 			6,
 			7,
-			9
+			8
 		},
 		[3] = {
-			8
+			9
 		},
 		[9] = {
 			90,

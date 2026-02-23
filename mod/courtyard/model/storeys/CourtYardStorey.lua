@@ -177,6 +177,10 @@ function var_0_0.RemoveShip(arg_22_0, arg_22_1)
 	arg_22_0.ships[arg_22_1.id] = nil
 
 	arg_22_0:DispatchEvent(CourtYardEvent.DETORY_ITEM, arg_22_1)
+
+	if arg_22_0.ships[arg_22_1.id + CourtYardConst.DOUBLE_SKIN_ADD] then
+		arg_22_0:RemoveShip(arg_22_0.ships[arg_22_1.id + CourtYardConst.DOUBLE_SKIN_ADD])
+	end
 end
 
 function var_0_0.ExitShip(arg_23_0, arg_23_1)

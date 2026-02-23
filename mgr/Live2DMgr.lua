@@ -17,6 +17,7 @@ function var_0_0.GetLive2DModelAsync(arg_2_0, arg_2_1, arg_2_2)
 
 	PoolMgr.GetInstance():GetLive2D(arg_2_1, true, function(arg_3_0)
 		if arg_2_0.loadingDic[arg_2_1] ~= var_2_0 then
+			warning("l2d loaded dispose return  " .. arg_2_1)
 			PoolMgr.GetInstance():ReturnLive2D(arg_2_1, arg_3_0)
 		end
 

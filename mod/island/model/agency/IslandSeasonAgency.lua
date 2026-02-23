@@ -12,7 +12,7 @@ function var_0_0.OnInit(arg_1_0, arg_1_1)
 end
 
 function var_0_0.NeedReset(arg_2_0)
-	return arg_2_0.season.id < var_0_0.GetCurrentSeason()
+	return arg_2_0.season.id < var_0_0.GetCurrentSeason() and arg_2_0.season:IsEnd()
 end
 
 function var_0_0.Reset(arg_3_0, arg_3_1)
@@ -69,9 +69,30 @@ function var_0_0.IsCurSeasonPtZero(arg_11_0)
 end
 
 function var_0_0.GetCurrentSeason()
-	local var_12_0 = Clone(pg.island_season.all)
+	return pg.island_set.season_now.key_value_int
+end
 
-	return var_12_0[#var_12_0]
+var_0_0.seasonResetData = nil
+
+function var_0_0.AddResetData(arg_13_0)
+	var_0_0.seasonResetData = {
+		awards = arg_13_0.awards,
+		pt = arg_13_0.pt,
+		seasonId = arg_13_0.seasonId,
+		rank = arg_13_0.rank
+	}
+end
+
+function var_0_0.CheckReset()
+	if var_0_0.seasonResetData then
+		local var_14_0 = Clone(var_0_0.seasonResetData)
+
+		var_0_0.seasonResetData = nil
+
+		return true, var_14_0
+	else
+		return false, nil
+	end
 end
 
 return var_0_0

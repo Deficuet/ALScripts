@@ -126,6 +126,7 @@ pg.furniture_data_template = setmetatable({
 			251,
 			253,
 			254,
+			255,
 			256,
 			257,
 			258,
@@ -176,6 +177,9 @@ pg.furniture_data_template = setmetatable({
 			317,
 			318,
 			319,
+			321,
+			323,
+			324,
 			100002,
 			100003,
 			100004,
@@ -239,6 +243,9 @@ pg.furniture_data_template = setmetatable({
 			100066,
 			100067,
 			100068,
+			100070,
+			100071,
+			100072,
 			100073,
 			100074,
 			100075,
@@ -3604,6 +3611,114 @@ pg.furniture_data_template = setmetatable({
 			332112,
 			332113,
 			332301
+		},
+		[131] = {
+			331001,
+			331002,
+			331101,
+			331102,
+			331103,
+			331104,
+			331105,
+			331106,
+			331107,
+			331108,
+			331109,
+			331110,
+			331111,
+			331112,
+			331113,
+			331114,
+			331115,
+			331116,
+			331117,
+			331301,
+			331302,
+			331303,
+			331304,
+			331305,
+			331306,
+			331307,
+			331308,
+			331309
+		},
+		[133] = {
+			333001,
+			333002,
+			333101,
+			333102,
+			333103,
+			333104,
+			333105,
+			333106,
+			333107,
+			333108,
+			333109,
+			333110,
+			333111,
+			333112,
+			333113,
+			333114,
+			333115,
+			333116,
+			333117,
+			333118,
+			333119,
+			333301,
+			334001,
+			334002
+		},
+		[134] = {
+			334101,
+			334102,
+			334103,
+			334104,
+			334105,
+			334106,
+			334107,
+			334108,
+			334109,
+			334110,
+			334111,
+			334112,
+			334113,
+			334114,
+			334115,
+			334116,
+			334117,
+			334118,
+			334119,
+			334120,
+			334121,
+			334122,
+			334123,
+			334301,
+			334302
+		},
+		[135] = {
+			335001,
+			335002,
+			335101,
+			335102,
+			335103,
+			335104,
+			335105,
+			335106,
+			335107,
+			335108,
+			335109,
+			335110,
+			335111,
+			335112,
+			335113,
+			335114,
+			335115,
+			335116,
+			335117,
+			335118,
+			335119,
+			335301,
+			335302
 		}
 	},
 	get_id_list_by_tag = {
@@ -3688,6 +3803,7 @@ pg.furniture_data_template = setmetatable({
 			251,
 			253,
 			254,
+			255,
 			258,
 			260,
 			263,
@@ -3710,6 +3826,7 @@ pg.furniture_data_template = setmetatable({
 			313,
 			315,
 			317,
+			324,
 			100002,
 			100003,
 			100004,
@@ -3773,6 +3890,9 @@ pg.furniture_data_template = setmetatable({
 			100066,
 			100067,
 			100068,
+			100070,
+			100071,
+			100072,
 			100073,
 			100074,
 			100075,
@@ -3851,7 +3971,9 @@ pg.furniture_data_template = setmetatable({
 			314,
 			316,
 			318,
-			319
+			319,
+			321,
+			323
 		},
 		[7] = {
 			211,
@@ -4063,7 +4185,11 @@ pg.furniture_data_template = setmetatable({
 			328118,
 			330102,
 			329120,
-			332113
+			332113,
+			331309,
+			333119,
+			334123,
+			335119
 		},
 		[4] = {
 			1001,
@@ -4182,7 +4308,11 @@ pg.furniture_data_template = setmetatable({
 			328001,
 			330001,
 			329001,
-			332001
+			332001,
+			331001,
+			333001,
+			334001,
+			335001
 		},
 		[3] = {
 			1002,
@@ -4302,7 +4432,11 @@ pg.furniture_data_template = setmetatable({
 			328002,
 			330002,
 			329002,
-			332002
+			332002,
+			331002,
+			333002,
+			334002,
+			335002
 		},
 		{
 			1101,
@@ -6448,7 +6582,82 @@ pg.furniture_data_template = setmetatable({
 			332109,
 			332110,
 			332111,
-			332112
+			332112,
+			331101,
+			331102,
+			331103,
+			331104,
+			331105,
+			331106,
+			331107,
+			331108,
+			331109,
+			331110,
+			331111,
+			331112,
+			331113,
+			331114,
+			331115,
+			331116,
+			331117,
+			333101,
+			333102,
+			333103,
+			333104,
+			333105,
+			333106,
+			333107,
+			333108,
+			333109,
+			333110,
+			333111,
+			333112,
+			333113,
+			333114,
+			333115,
+			333116,
+			333117,
+			333118,
+			334101,
+			334102,
+			334103,
+			334104,
+			334105,
+			334106,
+			334107,
+			334108,
+			334109,
+			334110,
+			334111,
+			334112,
+			334113,
+			334114,
+			334115,
+			334116,
+			334117,
+			334118,
+			334119,
+			334120,
+			334121,
+			334122,
+			335101,
+			335102,
+			335103,
+			335104,
+			335105,
+			335106,
+			335107,
+			335108,
+			335109,
+			335110,
+			335111,
+			335112,
+			335113,
+			335114,
+			335115,
+			335116,
+			335117,
+			335118
 		},
 		{
 			1108,
@@ -6988,7 +7197,20 @@ pg.furniture_data_template = setmetatable({
 			325303,
 			327301,
 			327302,
-			332301
+			332301,
+			331301,
+			331302,
+			331303,
+			331304,
+			331305,
+			331306,
+			331307,
+			331308,
+			333301,
+			334301,
+			334302,
+			335301,
+			335302
 		}
 	},
 	get_id_list_by_type = {
@@ -7095,6 +7317,7 @@ pg.furniture_data_template = setmetatable({
 			248,
 			253,
 			254,
+			255,
 			256,
 			257,
 			258,
@@ -7141,6 +7364,9 @@ pg.furniture_data_template = setmetatable({
 			317,
 			318,
 			319,
+			321,
+			323,
+			324,
 			100002,
 			100004,
 			100005,
@@ -7188,6 +7414,7 @@ pg.furniture_data_template = setmetatable({
 			100065,
 			100067,
 			100068,
+			100072,
 			100074,
 			100075,
 			100076,
@@ -7212,6 +7439,7 @@ pg.furniture_data_template = setmetatable({
 			242,
 			291,
 			100060,
+			100070,
 			200001,
 			200002,
 			200003,
@@ -9339,7 +9567,79 @@ pg.furniture_data_template = setmetatable({
 			332110,
 			332111,
 			332112,
-			332113
+			332113,
+			331101,
+			331102,
+			331103,
+			331104,
+			331105,
+			331106,
+			331107,
+			331108,
+			331111,
+			331112,
+			331113,
+			331114,
+			331115,
+			331116,
+			331117,
+			333101,
+			333102,
+			333103,
+			333104,
+			333105,
+			333107,
+			333108,
+			333109,
+			333110,
+			333111,
+			333112,
+			333113,
+			333114,
+			333115,
+			333116,
+			333117,
+			333118,
+			333119,
+			334101,
+			334102,
+			334103,
+			334105,
+			334106,
+			334107,
+			334108,
+			334109,
+			334110,
+			334111,
+			334112,
+			334113,
+			334114,
+			334115,
+			334116,
+			334117,
+			334118,
+			334119,
+			334120,
+			334121,
+			334122,
+			334123,
+			335101,
+			335102,
+			335104,
+			335105,
+			335106,
+			335107,
+			335108,
+			335109,
+			335110,
+			335111,
+			335112,
+			335114,
+			335115,
+			335116,
+			335117,
+			335118,
+			335119
 		},
 		[11] = {
 			131,
@@ -9360,6 +9660,7 @@ pg.furniture_data_template = setmetatable({
 			100063,
 			100064,
 			100066,
+			100071,
 			100073,
 			30123,
 			35128,
@@ -9403,7 +9704,8 @@ pg.furniture_data_template = setmetatable({
 			100048,
 			303103,
 			303113,
-			321116
+			321116,
+			335113
 		},
 		[15] = {
 			251
@@ -9537,7 +9839,11 @@ pg.furniture_data_template = setmetatable({
 			328001,
 			330001,
 			329001,
-			332001
+			332001,
+			331001,
+			333001,
+			334001,
+			335001
 		},
 		{
 			1002,
@@ -9657,7 +9963,11 @@ pg.furniture_data_template = setmetatable({
 			328002,
 			330002,
 			329002,
-			332002
+			332002,
+			331002,
+			333002,
+			334002,
+			335002
 		},
 		[5] = {
 			1101,
@@ -9816,7 +10126,12 @@ pg.furniture_data_template = setmetatable({
 			330102,
 			329103,
 			329108,
-			332102
+			332102,
+			331109,
+			331110,
+			333106,
+			334104,
+			335103
 		},
 		[3] = {
 			1108,
@@ -10350,7 +10665,15 @@ pg.furniture_data_template = setmetatable({
 			325303,
 			327301,
 			327302,
-			332301
+			332301,
+			331302,
+			331303,
+			331307,
+			333301,
+			334301,
+			334302,
+			335301,
+			335302
 		},
 		[8] = {
 			17121
@@ -10384,7 +10707,13 @@ pg.furniture_data_template = setmetatable({
 			310304,
 			310305,
 			312301,
-			319301
+			319301,
+			331301,
+			331304,
+			331305,
+			331306,
+			331308,
+			331309
 		},
 		[12] = {
 			46131
@@ -10516,6 +10845,7 @@ pg.furniture_data_template = setmetatable({
 		251,
 		253,
 		254,
+		255,
 		256,
 		257,
 		258,
@@ -10566,6 +10896,9 @@ pg.furniture_data_template = setmetatable({
 		317,
 		318,
 		319,
+		321,
+		323,
+		324,
 		100002,
 		100003,
 		100004,
@@ -10629,6 +10962,9 @@ pg.furniture_data_template = setmetatable({
 		100066,
 		100067,
 		100068,
+		100070,
+		100071,
+		100072,
 		100073,
 		100074,
 		100075,
@@ -13757,7 +14093,107 @@ pg.furniture_data_template = setmetatable({
 		332111,
 		332112,
 		332113,
-		332301
+		332301,
+		331001,
+		331002,
+		331101,
+		331102,
+		331103,
+		331104,
+		331105,
+		331106,
+		331107,
+		331108,
+		331109,
+		331110,
+		331111,
+		331112,
+		331113,
+		331114,
+		331115,
+		331116,
+		331117,
+		331301,
+		331302,
+		331303,
+		331304,
+		331305,
+		331306,
+		331307,
+		331308,
+		331309,
+		333001,
+		333002,
+		333101,
+		333102,
+		333103,
+		333104,
+		333105,
+		333106,
+		333107,
+		333108,
+		333109,
+		333110,
+		333111,
+		333112,
+		333113,
+		333114,
+		333115,
+		333116,
+		333117,
+		333118,
+		333119,
+		333301,
+		334001,
+		334002,
+		334101,
+		334102,
+		334103,
+		334104,
+		334105,
+		334106,
+		334107,
+		334108,
+		334109,
+		334110,
+		334111,
+		334112,
+		334113,
+		334114,
+		334115,
+		334116,
+		334117,
+		334118,
+		334119,
+		334120,
+		334121,
+		334122,
+		334123,
+		334301,
+		334302,
+		335001,
+		335002,
+		335101,
+		335102,
+		335103,
+		335104,
+		335105,
+		335106,
+		335107,
+		335108,
+		335109,
+		335110,
+		335111,
+		335112,
+		335113,
+		335114,
+		335115,
+		335116,
+		335117,
+		335118,
+		335119,
+		335301,
+		335302
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -19760,6 +20196,82 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[255] = {
+		gain_by = "",
+		name = "Exercise Ball",
+		count = 2,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		comfortable = 0,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		icon = "yujiatantanqiuicon",
+		deblocking = 1,
+		level = 1,
+		describe = "\"Okay, now just keep your balance and... Aahh!\"",
+		rarity = 3,
+		can_rotate = 0,
+		tag = 6,
+		spine_action_replace = "",
+		belong = 1,
+		spine_extra = "",
+		canputon = 0,
+		id = 255,
+		advice = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yujiatantanqiu",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[256] = {
 		effect = "",
 		name = "To Reunite As One",
@@ -22518,6 +23030,165 @@ pg.base.furniture_data_template = {
 				"fengfan3xunzhang",
 				"normal"
 			}
+		},
+		interAction_group = {}
+	},
+	[321] = {
+		effect = "",
+		name = "Nightmare Labyrinth Medal",
+		gain_by = "DATE A LANE",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		count = 1,
+		describe = "A medal designed after the labyrinth at the heart of the anomalous area. Commemorates your hard-earned victory with the Spirits. Awarded to Commanders who participated in the \"DATE A LANE\" event.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		icon = "dalxunzhangicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		tag = 8,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 321,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"dalxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[323] = {
+		effect = "",
+		name = "Council Observatory Miniature",
+		gain_by = "A Note Through the Firmament",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		count = 1,
+		describe = "A miniature based on the Council's observatory. Its glittering stars are not holograms, but rather the work of a built-in firework launchers. Given to Commanders who participated in the A Note Through the Firmament event.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		icon = "tianwentaixunzhangicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		tag = 8,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 323,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"tianwentaixunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[324] = {
+		gain_by = "",
+		name = "500K Followers - Photo Commemoration",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		comfortable = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		icon = "500khezhaobanicon",
+		deblocking = 1,
+		level = 1,
+		describe = "500K followers achieved! A huge thanks to all Commanders!",
+		rarity = 4,
+		can_rotate = 1,
+		tag = 6,
+		spine_action_replace = "",
+		belong = 1,
+		spine_extra = "",
+		canputon = 0,
+		id = 324,
+		advice = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"500khezhaobanB",
+				"normal"
+			},
+			{
+				"500khezhaobanT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},
@@ -27027,6 +27698,176 @@ pg.base.furniture_data_template = {
 				{
 					"action",
 					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[100070] = {
+		effect = "",
+		name = "Nile Crocodile Statue",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/yingtouebaijian",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "Behold one of the charms of the Nile civilization!",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		icon = "yingtouebaijianicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 6,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 0,
+		canputon = 0,
+		id = 100070,
+		can_rotate = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[100071] = {
+		gain_by = "",
+		name = "Manjuu Sickbed",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		comfortable = 0,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		icon = "jiuhucheicon",
+		deblocking = 1,
+		level = 1,
+		describe = "Get well soon!",
+		rarity = 4,
+		can_rotate = 0,
+		tag = 6,
+		spine_action_replace = "",
+		belong = 1,
+		spine_extra = "",
+		canputon = 0,
+		id = 100071,
+		advice = 0,
+		size = {
+			2,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jiuhucheB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"jiuhucheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.8
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[100072] = {
+		effect = "",
+		name = "Pillow of War",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "This ferocious pillow with a built-in motor was designed for pillow fights.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		icon = "zhentoudazhanicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 100072,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhentoudazhan",
+				"normal",
+				{
+					"action",
+					true,
+					nil,
+					nil,
+					"houzhai_yumao01"
 				}
 			}
 		},
@@ -168197,6 +169038,4764 @@ pg.base.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[331001] = {
+		icon = "dibandalicon",
+		name = "Airship Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "dal/dibandal",
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "Soar through the clouds, and feel the might of an airship!",
+		rarity = 4,
+		advice = 0,
+		tag = 4,
+		spine_action_replace = "",
+		belong = 0,
+		deblocking = 1,
+		canputon = 0,
+		comfortable = 4,
+		id = 331001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331002] = {
+		icon = "qiangbidalicon",
+		name = "Airship Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "dal/qiangbidal",
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		describe = "Soar through the clouds, and feel the might of an airship!",
+		rarity = 4,
+		advice = 0,
+		tag = 3,
+		spine_action_replace = "",
+		belong = 0,
+		deblocking = 1,
+		canputon = 0,
+		comfortable = 4,
+		id = 331002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331101] = {
+		effect = "",
+		name = "Medbay Bed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/bingchuangdal",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A bed used for medical treatment. Perfect for resting up.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		icon = "bingchuangdalicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 331101,
+		can_rotate = 0,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					4.3,
+					22.9
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331102] = {
+		effect = "",
+		name = "Medbay Chair",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/bingchuangyizidal",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A medical bay chair. Perfect for taking a quick break after work.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		icon = "bingchuangyizidalicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		tag = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 331102,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-11.9,
+					17.2
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331103] = {
+		effect = "",
+		name = "Airship Table A",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/cantingzhuozidal",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A dining table with a miniature flowerpot. Refresh yourself while enjoying a meal.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		icon = "cantingzhuozidalicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 1,
+		canputon = 0,
+		id = 331103,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331104] = {
+		effect = "",
+		name = "Airship Sofa B",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/changshafadal",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A long sofa. A place to rest and recover after a battle or training session.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		icon = "changshafadalicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 331104,
+		can_rotate = 0,
+		size = {
+			3,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					22.6,
+					-16.6
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-110,
+					55
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331105] = {
+		effect = "",
+		name = "Airship Table B",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/guizidal",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A table with storage shelves, decorated with a miniature flowerpot. Adds a vibrant touch to the rest area.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		icon = "guizidalicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 1,
+		canputon = 0,
+		id = 331105,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331106] = {
+		effect = "",
+		name = "Vitals Monitor A",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/luodixianshiqidal",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A vital signs monitor, primarily used to assess physical condition.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		icon = "luodixianshiqidalicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 1,
+		canputon = 0,
+		id = 331106,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331107] = {
+		effect = "",
+		name = "Airship Potted Plant",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/penzaidal",
+		is_get_time_note = 0,
+		count = 2,
+		describe = "A large-leafed potted houseplant that brings a bit of nature's tranquility.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		icon = "penzaidalicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 1,
+		canputon = 0,
+		id = 331107,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331108] = {
+		effect = "",
+		name = "Airship Bunk Bed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/shangxiachuangdal",
+		is_get_time_note = 0,
+		count = 2,
+		describe = "Guarantees quality sleep so you are energized and ready to tackle the next day.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		icon = "shangxiachuangdalicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 331108,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-18.7,
+					-15.6
+				},
+				{
+					1,
+					1
+				},
+				"dal/shangxiachuangdal_using",
+				0,
+				{
+					{
+						53.8,
+						-22.4
+					},
+					{
+						185,
+						204
+					},
+					"dal/shangxiachuangdal_mask1"
+				}
+			},
+			{
+				"sleep",
+				{
+					25.9,
+					-30.5
+				},
+				{
+					1,
+					1
+				},
+				"dal/shangxiachuangdal_using",
+				0,
+				{
+					{
+						5.6,
+						118.1
+					},
+					{
+						292,
+						228
+					},
+					"dal/shangxiachuangdal_mask2"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331109] = {
+		effect = "",
+		name = "Airship Carpet A",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/cantingditandal",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "Soar through the clouds, and feel the might of an airship!",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		icon = "cantingditandalicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 2,
+		canputon = 0,
+		id = 331109,
+		can_rotate = 0,
+		size = {
+			12,
+			11
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331110] = {
+		effect = "",
+		name = "Airship Carpet B",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/susheditandal",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "Soar through the clouds, and feel the might of an airship!",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		icon = "susheditandalicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 2,
+		canputon = 0,
+		id = 331110,
+		can_rotate = 0,
+		size = {
+			11,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331111] = {
+		effect = "",
+		name = "Airship Dorm Chair",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/susheyizidal",
+		is_get_time_note = 0,
+		count = 2,
+		describe = "A simple yet comfortably designed dorm chair.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		icon = "susheyizidalicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		tag = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 331111,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-5.8,
+					19.2
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331112] = {
+		effect = "",
+		name = "Airship Dorm Desk",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/sushezhuozidal",
+		is_get_time_note = 0,
+		count = 2,
+		describe = "Sturdy and flat - offers the perfect support for any task.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		icon = "sushezhuozidalicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 2,
+		canputon = 0,
+		id = 331112,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331113] = {
+		effect = "",
+		name = "Airship Sofa C",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/wukaobeishafadal",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A convenient modular sofa that can be freely shuffled and recombined to suit your needs.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		icon = "wukaobeishafadalicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 331113,
+		can_rotate = 0,
+		size = {
+			2,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-65,
+					63
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					67,
+					3
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331114] = {
+		effect = "",
+		name = "Airship Sofa A",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/xiaoshafadal",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A sofa with a side table. Perfect for placing drinks and other paraphernalia while on break.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		icon = "xiaoshafadalicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		tag = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 331114,
+		can_rotate = 0,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					10.3,
+					29.9
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331115] = {
+		effect = "",
+		name = "Airship Table C",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/yuanjiaozhuodal",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "The flowerpot on the table adds a splash of color to the corner. A perfect companion for when doing some reading or just taking a break.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		icon = "yuanjiaozhuodalicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 1,
+		canputon = 0,
+		id = 331115,
+		can_rotate = 0,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331116] = {
+		effect = "",
+		name = "Airship Bridge Seat",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/zhihuiqudal",
+		is_get_time_note = 0,
+		count = 6,
+		describe = "A seat reserved for the airship's commander. Grants immediate access to the airship's systems.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		icon = "zhihuiqudalicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 331116,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					36.6,
+					22.9
+				},
+				{
+					-1,
+					1
+				},
+				"dal/zhihuiqudal_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331117] = {
+		effect = "",
+		name = "Airship Bridge",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/zhihuitaidal",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "The ship's bridge and command area — an unparalleled spot in both position and visibility.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		icon = "zhihuitaidalicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 331117,
+		can_rotate = 0,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-39.6,
+					54.8
+				},
+				{
+					-1,
+					1
+				},
+				"dal/zhihuitaidal_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331301] = {
+		effect = "",
+		name = "Airship Wall Lamp B",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 2,
+		describe = "A cylindrical wall lamp that resembles a spotlight. A design that combines practicality with artistry.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		icon = "bidengdalicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 1,
+		tag = 5,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		deblocking = 1,
+		canputon = 0,
+		id = 331301,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bidengdal",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[331302] = {
+		effect = "",
+		name = "Vitals Monitor B",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/guaqiangxianshiqidal",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "An analysis monitor. Its display is filled with complex charts and graphs. ",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		icon = "guaqiangxianshiqidalicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 2,
+		tag = 5,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 2,
+		comfortable = 2,
+		canputon = 0,
+		id = 331302,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331303] = {
+		effect = "",
+		name = "Vitals Monitor C",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/yiliaoxianshiqidal",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "An archive station. Used to pull up documents or data records.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		icon = "yiliaoxianshiqidalicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 3,
+		tag = 5,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 2,
+		comfortable = 3,
+		canputon = 0,
+		id = 331303,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331304] = {
+		effect = "",
+		name = "Commander's Sub-Monitor",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/xiaoxianshipingdal",
+		is_get_time_note = 0,
+		count = 2,
+		describe = "An auxiliary data screen—allows for multiple feeds of information to be viewed and processed in real time.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		icon = "xiaoxianshipingdalicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 1,
+		tag = 5,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 2,
+		comfortable = 1,
+		canputon = 0,
+		id = 331304,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331305] = {
+		effect = "",
+		name = "Mechanical Door",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/mendal",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "An airtight, pressurized door. Separates spaces with a high-tech feel.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		icon = "mendalicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 2,
+		tag = 5,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 2,
+		comfortable = 2,
+		canputon = 0,
+		id = 331305,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331306] = {
+		effect = "",
+		name = "Airship Wall Lamp A",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 3,
+		describe = "A wall lamp that emits a soft light, creating a cozy, comfortable environment.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		icon = "yuanbidengdalicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 1,
+		tag = 5,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		deblocking = 1,
+		canputon = 0,
+		id = 331306,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yuanbidengdal",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[331307] = {
+		effect = "",
+		name = "Commander's Monitor",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "dal/zhihuipingdal",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A screen that displays battlefield information in real time. An essential part of the bridge.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		icon = "zhihuipingdalicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 3,
+		tag = 5,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 2,
+		comfortable = 3,
+		canputon = 0,
+		id = 331307,
+		can_rotate = 0,
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331308] = {
+		effect = "",
+		name = "Airship Windows",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "Reliable observation windows that allow you to check on the outside situation during flight.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		icon = "guanchachuangdalicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 4,
+		tag = 5,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 2,
+		deblocking = 1,
+		canputon = 0,
+		id = 331308,
+		can_rotate = 0,
+		size = {
+			24,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"guanchachuangdal",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[331309] = {
+		effect = "",
+		name = "Ambient Monitors",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "Monitors that simulate a variety of environments. Choose from three options, from tranquil to spectacular.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 131,
+		icon = "monichuangdalicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 4,
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 2,
+		deblocking = 1,
+		canputon = 0,
+		id = 331309,
+		can_rotate = 0,
+		size = {
+			24,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"monichuangdal",
+				"normal",
+				{
+					"action1",
+					true,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[333001] = {
+		icon = "dibannvpicon",
+		name = "Maid's House Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "nvp/dibannvp",
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "It reminds you of chocolate wafers a bit. Not as tasty, sadly!",
+		rarity = 4,
+		advice = 0,
+		tag = 4,
+		spine_action_replace = "",
+		belong = 0,
+		deblocking = 1,
+		canputon = 0,
+		comfortable = 4,
+		id = 333001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333002] = {
+		icon = "qiangbinvpicon",
+		name = "Maid's House Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		describe = "It makes you feel like you're inside a strawberry cake.",
+		rarity = 4,
+		advice = 0,
+		tag = 3,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		deblocking = 1,
+		id = 333002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbinvp",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[333101] = {
+		effect = "",
+		name = "Cat Plant",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/baijiannvp",
+		is_get_time_note = 0,
+		count = 2,
+		describe = "An ornamental plant that has been trimmed into the shape of a cat's head. It's quite well-designed.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		icon = "baijiannvpicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 2,
+		canputon = 0,
+		id = 333101,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333102] = {
+		effect = "",
+		name = "Cat Tea Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/chajinvp",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "Not all good things start with tea and cookies, but tea and cookies are always a good start to anything!",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		icon = "chajinvpicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 2,
+		canputon = 0,
+		id = 333102,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333103] = {
+		effect = "",
+		name = "Cat Bed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/chuangnvp",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A spacious, comfortable bed. Sleeping on it feels like lying on a big cake.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		icon = "chuangnvpicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 333103,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					31.2,
+					45.5
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sleep",
+				{
+					-45.4,
+					4.8
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333104] = {
+		effect = "",
+		name = "Pawpad Chair",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/dengzinvp",
+		is_get_time_note = 0,
+		count = 2,
+		describe = "This chair compels you to touch it even when you know you shouldn't.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		icon = "dengzinvpicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 333104,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					8.9,
+					77.79
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333105] = {
+		effect = "",
+		name = "Cat Television",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/dianshinvp",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A spanking new television and game console. Pick up a controller and let's play!",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		icon = "dianshinvpicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 3,
+		canputon = 0,
+		id = 333105,
+		can_rotate = 0,
+		size = {
+			7,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333106] = {
+		effect = "",
+		name = "Cat Carpet",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/ditannvp",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "Who's the clumsy maid who left her uniform and socks lying on the carpet?",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		icon = "ditannvpicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 1,
+		canputon = 0,
+		id = 333106,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333107] = {
+		effect = "",
+		name = "Cat Dinner Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/fanzhuonvp",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "For some reason, any food you put here looks tastier than usual!",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		icon = "fanzhuonvpicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 3,
+		canputon = 0,
+		id = 333107,
+		can_rotate = 0,
+		size = {
+			7,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333108] = {
+		effect = "",
+		name = "Cat Beanbag",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/lanrenshafanvp",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A powerful spell has been cast on this beanbag. Once you sit on it, you won't want to get up!",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		icon = "lanrenshafanvpicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 333108,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-5.8,
+					19.2
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333109] = {
+		effect = "",
+		name = "Cat Curtain",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/lianzinvp",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "Who's behind the curtains? A cat, or a maid?",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		icon = "lianzinvpicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 333109,
+		can_rotate = 0,
+		size = {
+			7,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lianzinvp",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[333110] = {
+		effect = "",
+		name = "Cat Floor Lamp",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A floor lamp endowed with wings. It seems ready to take flight.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		icon = "luodidengnvpicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 333110,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"luodidengnvp",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[333111] = {
+		effect = "",
+		name = "Cat Tree",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "This cat tree incorporates several different themes and can grant four different wishes at once!",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		icon = "maopajianvpicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 333111,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"maopajianvp",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[333112] = {
+		effect = "",
+		name = "Cat Mirror",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/quanshenjingnvp",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "This full-body mirror features a pink cat theme that even makes whoever stands in front of it look cuter.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		icon = "quanshenjingnvpicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 2,
+		canputon = 0,
+		id = 333112,
+		can_rotate = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333113] = {
+		effect = "",
+		name = "Cat Couch (Small)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/shafa1nvp",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A fluffy couch that seats one. You can't help but feel endeared by the large cat's pawpad pillow.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		icon = "shafa1nvpicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 333113,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					30.8,
+					-0.3
+				},
+				{
+					1,
+					1
+				},
+				"nvp/shafa1nvp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333114] = {
+		effect = "",
+		name = "Cat Couch (Large)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/shafa2nvp",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A soft couch that seats two. Whether you want to read or chat, it's a great pick.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		icon = "shafa2nvpicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 333114,
+		can_rotate = 0,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-31.6,
+					10.6
+				},
+				{
+					-1,
+					1
+				},
+				"nvp/shafa2nvp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333115] = {
+		effect = "",
+		name = "Cat Cupboard",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/shuguinvp",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "Better put away all your valuables, or the cats will play with them for all their worth!",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		icon = "shuguinvpicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 2,
+		canputon = 0,
+		id = 333115,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333116] = {
+		effect = "",
+		name = "Cat Stand",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/xiyuyongpingnvp",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A stand with a cat motif. The side panels have a texture almost like chocolate.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		icon = "xiyuyongpingnvpicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 2,
+		canputon = 0,
+		id = 333116,
+		can_rotate = 0,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333117] = {
+		effect = "",
+		name = "Cat Clothes Rack",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/yijianvp",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "It neatly stores various maid clothes while looking clean and beautiful at the same time.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		icon = "yijianvpicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 3,
+		canputon = 0,
+		id = 333117,
+		can_rotate = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[333118] = {
+		gain_by = "",
+		name = "Cat Bath",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		comfortable = 4,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		icon = "yugangnvpicon",
+		deblocking = 1,
+		level = 1,
+		describe = "It feels like a cat is giving you a massage when you lie down inside it.",
+		rarity = 4,
+		can_rotate = 0,
+		tag = 1,
+		spine_action_replace = "",
+		belong = 1,
+		spine_extra = "",
+		canputon = 0,
+		id = 333118,
+		advice = 0,
+		size = {
+			7,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yugangnvpB",
+				"normal"
+			},
+			{
+				"yugangnvpT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					-5.32,
+					140
+				},
+				{
+					256.76,
+					250
+				},
+				"nvp/yugangnvp_mask"
+			},
+			{
+				-5.72,
+				-157.16
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[333119] = {
+		gain_by = "",
+		name = "Strawberry Cake Slide",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		comfortable = 4,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		icon = "huatinvpicon",
+		deblocking = 1,
+		level = 1,
+		describe = "A slide with a cake theme that leads into a ball pit. Embrace your inner child and have some fun!",
+		rarity = 4,
+		can_rotate = 0,
+		tag = 7,
+		spine_action_replace = "",
+		belong = 1,
+		spine_extra = "",
+		canputon = 0,
+		id = 333119,
+		advice = 0,
+		size = {
+			10,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huatinvpB",
+				"normal"
+			},
+			{
+				"huatinvpT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk",
+						1,
+						"walk"
+					},
+					{
+						"action1",
+						1,
+						"tuozhuai2"
+					},
+					{
+						"action2",
+						nil,
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{
+				{
+					102,
+					128.5
+				},
+				{
+					300,
+					300
+				},
+				"nvp/huatinvp_mask"
+			},
+			{
+				-100,
+				-123.7
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[333301] = {
+		effect = "",
+		name = "Cat Photo Wall",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nvp/zhaopianqiangnvp",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A collection of brand new photo frames, waiting to be filled with warm memories.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		icon = "zhaopianqiangnvpicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 2,
+		tag = 5,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 2,
+		comfortable = 2,
+		canputon = 0,
+		id = 333301,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[334001] = {
+		icon = "dibansypicon",
+		name = "Studio Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "syp/dibansyp",
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "Step into the studio, get in frame, and get ready to become a fashion icon!",
+		rarity = 4,
+		advice = 0,
+		tag = 4,
+		spine_action_replace = "",
+		belong = 0,
+		deblocking = 1,
+		canputon = 0,
+		comfortable = 4,
+		id = 334001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[334002] = {
+		icon = "qiangbisypicon",
+		name = "Studio Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "syp/qiangbisyp",
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 133,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		describe = "Step into the studio, get in frame, and get ready to become a fashion icon!",
+		rarity = 4,
+		advice = 0,
+		tag = 3,
+		spine_action_replace = "",
+		belong = 0,
+		deblocking = 1,
+		canputon = 0,
+		comfortable = 4,
+		id = 334002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[334101] = {
+		effect = "",
+		name = "Studio Tube Light",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "This tube light helps make the fine details stand out more.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		icon = "daguangbangsypicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		tag = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 334101,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"daguangbangsyp",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[334102] = {
+		effect = "",
+		name = "Studio Ring Light",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A regular ring light on a stand. Known for making all streamers look better!",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		icon = "daguangdengjiasypicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 334102,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"daguangdengjiasyp",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[334103] = {
+		effect = "",
+		name = "Television Set",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A stack of televisions. Fun fact: They're all actually functional.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		icon = "dianshijisypicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 334103,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"dianshijisyp",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[334104] = {
+		effect = "",
+		name = "Studio Carpet",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "syp/ditansyp",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A large carpet for the studio. Comfy and muffles the noise of your footsteps.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		icon = "ditansypicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 2,
+		canputon = 0,
+		id = 334104,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[334105] = {
+		gain_by = "",
+		name = "Studio Photo Frames",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		comfortable = 4,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		icon = "huakuangsypicon",
+		deblocking = 1,
+		level = 1,
+		describe = "A large prop in the shape of two photo frames. Very emblematic of a photo studio.",
+		rarity = 4,
+		can_rotate = 0,
+		tag = 1,
+		spine_action_replace = "",
+		belong = 1,
+		spine_extra = "",
+		canputon = 0,
+		id = 334105,
+		advice = 0,
+		size = {
+			11,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huakuangsypB",
+				"normal"
+			},
+			{
+				"huakuangsypT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"action1",
+						nil,
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				},
+				{
+					{
+						"action1",
+						"action2"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[334106] = {
+		gain_by = "",
+		name = "Manjuu Claw Machine",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		comfortable = 4,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		icon = "huangjiwawajisypicon",
+		deblocking = 1,
+		level = 1,
+		describe = "A great distraction to enjoy during breaks. The goal is to get the lucky plushie!",
+		rarity = 4,
+		can_rotate = 0,
+		tag = 1,
+		spine_action_replace = "",
+		belong = 1,
+		spine_extra = "",
+		canputon = 0,
+		id = 334106,
+		advice = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huangjiwawajisypB",
+				"normal"
+			},
+			{
+				"huangjiwawajisypT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[334107] = {
+		effect = "",
+		name = "Studio Stool",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "syp/huazhuangyisyp",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A small yet practical stool with a soft cushion. Makes for a comfortable seat while you do your makeup.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		icon = "huazhuangyisypicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		tag = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 334107,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-5.8,
+					52.7
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[334108] = {
+		effect = "",
+		name = "Studio Dressing Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A dressing table outfitted with several storage spaces and drawers, making it easy to organize all sorts of makeup.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		icon = "huazhuangzhuosypicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 334108,
+		can_rotate = 0,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huazhuangzhuosyp",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[334109] = {
+		effect = "",
+		name = "Fantasy Set",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "syp/mubusyp",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A carefully crafted fantasy set. Every angle looks like something out of a painting.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		icon = "mubusypicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 334109,
+		can_rotate = 0,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					9,
+					-48.3
+				},
+				{
+					1,
+					1
+				},
+				"syp/mubusyp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[334110] = {
+		effect = "",
+		name = "Studio Photo Stand-In",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "syp/paizhaobansyp",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "This photo stand-in lets you immediately become another person!",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		icon = "paizhaobansypicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 334110,
+		can_rotate = 0,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-54.7,
+					7.8
+				},
+				{
+					-1,
+					1
+				},
+				"syp/paizhaobansyp_using"
+			},
+			{
+				"sit",
+				{
+					54.9,
+					-32.8
+				},
+				{
+					-1,
+					1
+				},
+				"syp/paizhaobansyp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[334111] = {
+		effect = "",
+		name = "Studio Mannequins1",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "syp/rentai1syp",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "Limbless mannequins for displaying outfits. Good to have for any photo session.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		icon = "rentai1sypicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 1,
+		canputon = 0,
+		id = 334111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[334112] = {
+		effect = "",
+		name = "Studio Mannequins2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "syp/rentai2syp",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "Limbless mannequins for displaying outfits. Good to have for any photo session.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		icon = "rentai2sypicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 1,
+		canputon = 0,
+		id = 334112,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[334113] = {
+		effect = "",
+		name = "Stage Backdrop",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "syp/sheyingbansyp",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A backdrop with a fancy stage motif. Often used during photoshoots with a particular theme.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		icon = "sheyingbansypicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 2,
+		canputon = 0,
+		id = 334113,
+		can_rotate = 0,
+		size = {
+			11,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[334114] = {
+		gain_by = "",
+		name = "Studio Couch",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		comfortable = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		icon = "shafasypicon",
+		deblocking = 1,
+		level = 1,
+		describe = "Feeling tired? Well, have a seat between shoots and take a break!",
+		rarity = 2,
+		can_rotate = 0,
+		tag = 1,
+		spine_action_replace = "",
+		belong = 1,
+		spine_extra = "",
+		canputon = 0,
+		id = 334114,
+		advice = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shafasyp",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[334115] = {
+		effect = "",
+		name = "Studio Camera",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 2,
+		describe = "The key to capturing beautiful moments. Look into the camera and smile!",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		icon = "sheyingjisypicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		tag = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 334115,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"sheyingjisyp",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[334116] = {
+		effect = "",
+		name = "Cameramanjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 2,
+		describe = "This experienced cameramanjuu has a reputation for being meticulous and never missing a great shot.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		icon = "sheyingjiusypicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 334116,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"sheyingjiusyp",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[334117] = {
+		effect = "",
+		name = "Studio Wardrobe",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "syp/yijiajingzisyp",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A portable wardrobe. It comes with several hanging rods and ample space for clothes.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		icon = "yijiajingzisypicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 2,
+		canputon = 0,
+		id = 334117,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[334118] = {
+		effect = "",
+		name = "Manjuu Stylist",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "Need your look done? Leave it to the reliable stylist!",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		icon = "zaoxingjiusypicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 334118,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zaoxingjiusyp",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[334119] = {
+		effect = "",
+		name = "Studio Cart",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "You can leave your various photography items right here!",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		icon = "zawuchesypicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 334119,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zawuchesyp",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[334120] = {
+		effect = "",
+		name = "Studio Cardboard Boxes",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "syp/zawuxiangsyp",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A couple of cardboard boxes loaded with various photography items... and some miscellaneous stuff too, it seems.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		icon = "zawuxiangsypicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 1,
+		canputon = 0,
+		id = 334120,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[334121] = {
+		effect = "",
+		name = "Blackout Curtain",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A curtain that blocks most external light. Used in photography to create the ideal lighting environment.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		icon = "zheguangliansypicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		tag = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 334121,
+		can_rotate = 0,
+		size = {
+			1,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zheguangliansyp",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[334122] = {
+		effect = "",
+		name = "Claw Game Set",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "There are all kinds of stuffed animals inside. While it is a prop, you can legitimately play it as well.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		icon = "zisewawajisypicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 334122,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zisewawajisyp",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[334123] = {
+		gain_by = "",
+		name = "Manjuu Photo Booth",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		comfortable = 4,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		icon = "paizhaojisypicon",
+		deblocking = 1,
+		level = 1,
+		describe = "Call over a friend, strike a pose, and capture a fun moment together!",
+		rarity = 4,
+		can_rotate = 0,
+		tag = 7,
+		spine_action_replace = "",
+		belong = 1,
+		spine_extra = "",
+		canputon = 0,
+		id = 334123,
+		advice = 0,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"paizhaojisypB",
+				"normal"
+			},
+			{
+				"paizhaojisypT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk1",
+						nil,
+						"walk"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				},
+				{
+					{
+						"walk1",
+						"walk2",
+						"walk3"
+					}
+				}
+			},
+			{
+				{
+					-21.9,
+					112.7
+				},
+				{
+					306,
+					352
+				},
+				"syp/paizhaojisyp_mask"
+			},
+			{
+				22.1,
+				-119
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[334301] = {
+		effect = "",
+		name = "Pink Backdrop",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "syp/qiangmubusyp",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A fabric photography backdrop that provides a clean, consistent background for your shots.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		icon = "qiangmubusypicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 1,
+		tag = 5,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 2,
+		comfortable = 1,
+		canputon = 0,
+		id = 334301,
+		can_rotate = 0,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[334302] = {
+		effect = "",
+		name = "Studio Poster",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "syp/haibaosyp",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A poster featuring a huge picture of a really famous celebrity.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 134,
+		icon = "haibaosypicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 2,
+		tag = 5,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 2,
+		comfortable = 2,
+		canputon = 0,
+		id = 334302,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[335001] = {
+		icon = "dibancj8icon",
+		name = "Spring Auction Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "cj8/dibancj8",
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "Step inside the pavilion and feel the rush of a bid raised aloft!",
+		rarity = 4,
+		advice = 0,
+		tag = 4,
+		spine_action_replace = "",
+		belong = 0,
+		deblocking = 1,
+		canputon = 0,
+		comfortable = 4,
+		id = 335001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[335002] = {
+		icon = "qiangbicj8icon",
+		name = "Spring Auction Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		describe = "Step inside the pavilion and feel the rush of a bid raised aloft!",
+		rarity = 4,
+		advice = 0,
+		tag = 3,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		deblocking = 1,
+		id = 335002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbicj8",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[335101] = {
+		effect = "",
+		name = "Spring Auction Participant 1",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "Lift your paddle and let your desires be known!",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		icon = "changyicj8icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 335101,
+		can_rotate = 0,
+		size = {
+			7,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"changyicj8",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[335102] = {
+		effect = "",
+		name = "Spring Auction Guest Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj8/dengzicj8",
+		is_get_time_note = 0,
+		count = 4,
+		describe = "The neatly arranged table and chairs reflect the passion and anticipation for these artifacts.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		icon = "dengzicj8icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		tag = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 335102,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-10.5,
+					43.8
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[335103] = {
+		effect = "",
+		name = "Spring Auction Carpet",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj8/ditancj8",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "Let this brocade carpet guide you to the exquisite treasures you desire.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		icon = "ditancj8icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 3,
+		canputon = 0,
+		id = 335103,
+		can_rotate = 0,
+		size = {
+			6,
+			24
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[335104] = {
+		effect = "",
+		name = "Gold Coin Tree",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "Give it a good jingle; listen to the bounties waiting for you to claim!",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		icon = "facaishucj8icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 335104,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"facaishucj8",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[335105] = {
+		effect = "",
+		name = "Spring Auction Participant 2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "Lift your paddle and let your desires be known!",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		icon = "houpaijiucj8icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 335105,
+		can_rotate = 0,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"houpaijiucj8",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[335106] = {
+		effect = "",
+		name = "Spring Auction Staircase",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj8/louticj8",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "Right this way, please. The view from above is even better.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		icon = "louticj8icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 2,
+		canputon = 0,
+		id = 335106,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[335107] = {
+		effect = "",
+		name = "Flowering Plum Tree",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "Give it a good shake; boost your fortune in this coming year!",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		icon = "meihuashucj8icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 335107,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"meihuashucj8",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[335108] = {
+		effect = "",
+		name = "Spring Auction Stage",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "We have 10,000 Gems! Going once... Going twice... Aaaaand! SOLD!!",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		icon = "paimaitaicj8icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 335108,
+		can_rotate = 0,
+		size = {
+			11,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"paimaitaicj8",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[335109] = {
+		effect = "",
+		name = "Spring Auction Guest Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj8/putongzhuocj8",
+		is_get_time_note = 0,
+		count = 2,
+		describe = "The neatly arranged table and chairs reflect the passion and anticipation for these artifacts.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		icon = "putongzhuocj8icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 2,
+		canputon = 0,
+		id = 335109,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[335110] = {
+		effect = "",
+		name = "Spring Auction Lamp 1",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 2,
+		describe = "Lanterns bright and hung high, fortune surely shall come by!",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		icon = "tiandengcj8icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 335110,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tiandengcj8",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[335111] = {
+		effect = "",
+		name = "Spring Auction VIP Seat 1",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj8/yizi1cj8",
+		is_get_time_note = 0,
+		count = 2,
+		describe = "Very important seating for very important rears.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		icon = "yizi1cj8icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		tag = 1,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 1,
+		comfortable = 1,
+		canputon = 0,
+		id = 335111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[335112] = {
+		effect = "",
+		name = "Spring Auction VIP Seat 2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj8/yizi2cj8",
+		is_get_time_note = 0,
+		count = 2,
+		describe = "Very important seating for very important rears.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		icon = "yizi2cj8icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		tag = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 335112,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-13.8,
+					9.9
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[335113] = {
+		effect = "",
+		name = "Spring Auction Assistant",
+		gain_by = "",
+		type = 14,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "A true professional, capable of making each item shine.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		icon = "zhanshijiucj8icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 335113,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhanshijiucj8",
+				"normal"
+			},
+			[3] = {
+				{
+					159.72,
+					42
+				},
+				"walk"
+			}
+		},
+		interAction_group = {}
+	},
+	[335114] = {
+		effect = "",
+		name = "Spring Auction Display Case 1",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "Each piece is peerless in quality and one-of-a-kind!",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		icon = "zhanshitai1cj8icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 335114,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhanshitai1cj8",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[335115] = {
+		effect = "",
+		name = "Spring Auction Display Case 2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "Each piece is peerless in quality and one-of-a-kind!",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		icon = "zhanshitai2cj8icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 335115,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhanshitai2cj8",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[335116] = {
+		effect = "",
+		name = "Spring Auction VIP Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 2,
+		describe = "The VIP seating area offers a tranquil and luxurious retreat amidst the hustle and bustle.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		icon = "zhuozicj8icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 335116,
+		can_rotate = 0,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhuozicj8",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[335117] = {
+		effect = "",
+		name = "Spring Auction Clock",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "Time waits for no one. And neither does fortune!",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		icon = "zuozhongcj8icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 335117,
+		can_rotate = 0,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zuozhongcj8",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[335118] = {
+		effect = "",
+		name = "Spring Auction Lamp 2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 2,
+		describe = "Lanterns bright and hung high, fortune surely shall come by!",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		icon = "tiandeng2cj8icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		deblocking = 1,
+		canputon = 0,
+		id = 335118,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tiandeng2cj8",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[335119] = {
+		gain_by = "",
+		name = "Pouch of Wonders",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		comfortable = 4,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		icon = "baibaodaicj8icon",
+		deblocking = 1,
+		level = 1,
+		describe = "An exquisite pouch filled with myriad treasures. When opened, its contents unleash a pure brilliance, like a clear spring that cleanses the soul.",
+		rarity = 4,
+		can_rotate = 0,
+		tag = 7,
+		spine_action_replace = "",
+		belong = 1,
+		spine_extra = "",
+		canputon = 0,
+		id = 335119,
+		advice = 0,
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"baibaodaicj8B",
+				"normal"
+			},
+			{
+				"baibaodaicj8T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{
+				{
+					6.8,
+					88.1
+				},
+				{
+					250,
+					220
+				},
+				"cj8/baibaodaicj8_mask"
+			},
+			{
+				7,
+				-90
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[335301] = {
+		effect = "",
+		name = "Spring Auction Wall Light",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 2,
+		describe = "Warm lighting adds a touch of coziness and excitement to the auction venue.",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		icon = "bidengcj8icon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 2,
+		tag = 5,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 2,
+		deblocking = 1,
+		canputon = 0,
+		id = 335301,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bidengcj8",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[335302] = {
+		effect = "",
+		name = "Spring Auction Wall Decoration",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		describe = "Let us share in the blessings of the New Year!",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 135,
+		icon = "qiangshicj8icon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 1,
+		tag = 5,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		deblocking = 1,
+		canputon = 0,
+		id = 335302,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangshicj8",
+				"normal"
+			}
 		},
 		interAction_group = {}
 	}

@@ -538,14 +538,13 @@ function var_0_0.updateStageView(arg_22_0)
 			arg_22_0.loader:GetSpine(var_22_3.icon, function(arg_36_0)
 				local var_36_0 = var_22_4.battle_spine_size * 0.01
 
-				arg_36_0.transform.localScale = Vector3(var_36_0, var_36_0, 1)
-				arg_36_0.transform.anchoredPosition = Vector3.New(0, -150, 0)
+				arg_36_0:SetLocalScale(Vector3(var_36_0, var_36_0, 1))
+				arg_36_0:SetAnchoredPosition(Vector3.New(0, -150, 0))
+				arg_36_0:SetAction(ChapterConst.ShipIdleAction, 0)
 
-				arg_36_0.transform:GetComponent("SpineAnimUI"):SetAction(ChapterConst.ShipIdleAction, 0)
+				arg_36_0:GetSkeletonGraphic().raycastTarget = false
 
-				arg_36_0.transform:GetComponent("SkeletonGraphic").raycastTarget = false
-
-				setParent(arg_36_0, arg_22_0.bosssprite, false)
+				arg_36_0:SetParent(arg_22_0.bosssprite)
 			end, arg_22_0.bosssprite)
 		end
 	end

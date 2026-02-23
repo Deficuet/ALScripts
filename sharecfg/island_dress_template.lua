@@ -201,6 +201,182 @@ pg.island_dress_template = {
 			}
 		}
 	},
+	[1010007] = {
+		quality = 4,
+		related_dress = 0,
+		name = "Hay Bale Shadow",
+		type = 1,
+		exclusive_default_skin = "",
+		remove = 1,
+		attachmentPoint = "Bip001 Spine1",
+		desc = "An all-natural cosmetic made of woven grass. Fit for a refreshing summer day.",
+		belongto = 1,
+		sub_type = 0,
+		model = "island/item/03/39003/prefab/pre_item_03_39003",
+		tech_id = 0,
+		id = 1010007,
+		icon = "dress_1010007",
+		exclusive_skin = "",
+		face_clip = "",
+		offset = {
+			0.026,
+			-0.365,
+			0.015
+		},
+		rotation = {
+			92.258,
+			-58.98901,
+			-337.28
+		},
+		scale = {
+			0.8
+		},
+		jump_page = {
+			{
+				"Island Seasonal Shop",
+				{}
+			}
+		}
+	},
+	[1010008] = {
+		name = "Improv Guitar",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 1,
+		attachmentPoint = "Bip001 Spine1",
+		remove = 1,
+		desc = "This back-worn guitar emits a few light notes, as though it's improvising a carefree song.",
+		sub_type = 0,
+		model = "island/item/03/39010/prefab/pre_item_03_39010",
+		icon = "dress_1010008",
+		quality = 4,
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1010008,
+		scale = "",
+		face_clip = "",
+		offset = {
+			0.333,
+			-0.443,
+			0.132
+		},
+		rotation = {
+			97.81299,
+			-248.012,
+			-129.758
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[1010009] = {
+		quality = 4,
+		related_dress = 0,
+		name = "Creative Compass",
+		type = 1,
+		exclusive_default_skin = "",
+		remove = 1,
+		attachmentPoint = "Bip001 Spine1",
+		desc = "It doesn't draw shapes, but rather the most elegant and orderly ideas.",
+		belongto = 1,
+		sub_type = 0,
+		model = "island/item/03/39021/prefab/pre_item_03_39021",
+		tech_id = 0,
+		id = 1010009,
+		icon = "dress_1010009",
+		exclusive_skin = "",
+		face_clip = "",
+		offset = {
+			0.493,
+			-0.401,
+			-0.117
+		},
+		rotation = {
+			95.85,
+			-285.468,
+			-216.082
+		},
+		scale = {
+			0.9
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[1010010] = {
+		quality = 4,
+		related_dress = 0,
+		name = "Fixing Wrench",
+		type = 1,
+		exclusive_default_skin = "",
+		remove = 1,
+		attachmentPoint = "Bip001 Spine1",
+		desc = "A multipurpose wrench for fixing all sorts of machines. It lets you readily check if any equipment around you needs its screws tightened.",
+		belongto = 1,
+		sub_type = 0,
+		model = "island/item/03/39016/prefab/pre_item_03_39016",
+		tech_id = 0,
+		id = 1010010,
+		icon = "dress_1010010",
+		exclusive_skin = "",
+		face_clip = "",
+		offset = {
+			0.254,
+			-0.378,
+			-0.389
+		},
+		rotation = {
+			96.26,
+			51,
+			76.542
+		},
+		scale = {
+			0.9
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[1010011] = {
+		name = "Ticking Clock",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 1,
+		attachmentPoint = "Bip001 Spine1",
+		remove = 1,
+		desc = "An antique, giant pocket watch that precisely counts the seconds with ticks and tocks. It's like time is whispering right into your ear.",
+		sub_type = 0,
+		model = "island/item/03/39024/prefab/pre_item_03_39024",
+		icon = "dress_1010011",
+		quality = 4,
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1010011,
+		scale = "",
+		face_clip = "",
+		offset = {
+			0.1,
+			-0.433,
+			0.015
+		},
+		rotation = {
+			96.72101,
+			40.97,
+			97.392
+		},
+		jump_page = {}
+	},
 	[1020001] = {
 		name = "Floating Gun",
 		related_dress = 0,
@@ -401,6 +577,141 @@ pg.island_dress_template = {
 			}
 		}
 	},
+	[1020007] = {
+		name = "Jiggy Cactus",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 2,
+		attachmentPoint = "",
+		remove = 1,
+		desc = "Let your body move to the rhythm and dance with this hat-wearing cactus!",
+		sub_type = 0,
+		model = "island/item/03/39012/prefab/pre_item_03_39012",
+		icon = "dress_1020007",
+		quality = 4,
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1020007,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.737,
+			1.147,
+			-0.037
+		},
+		rotation = {
+			0,
+			13.045,
+			0
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[1020008] = {
+		name = "Classic Books",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 2,
+		attachmentPoint = "",
+		remove = 1,
+		desc = "Thick textbooks that turn the pages by themselves. They'll keep floating in front of you until you finish reading them!",
+		sub_type = 0,
+		model = "island/item/03/39022/prefab/pre_item_03_39022",
+		icon = "dress_1020008",
+		quality = 4,
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1020008,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.731,
+			1.285,
+			-0.037
+		},
+		rotation = {
+			25.879,
+			32.29,
+			3.881
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[1020009] = {
+		name = "Utility Box",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 2,
+		attachmentPoint = "",
+		remove = 1,
+		desc = "A stuffed toolbox that rattles as you shake it. Got unexpected trouble? Don't worry, it's got a tool to handle every situation.",
+		sub_type = 0,
+		model = "island/item/03/39018/prefab/pre_item_03_39018",
+		icon = "dress_1020009",
+		quality = 4,
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1020009,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.786,
+			1.487,
+			-0.037
+		},
+		rotation = {
+			0,
+			35.282,
+			0
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[1020010] = {
+		name = "Bouquet for the Stars",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 2,
+		attachmentPoint = "",
+		remove = 1,
+		desc = "A bouquet of blue star flowers that gives off a faint aroma. It gracefully floats beside you, imbuing your every step with a hint of classic romance.",
+		sub_type = 0,
+		model = "island/item/03/39030/prefab/pre_item_03_39030",
+		icon = "dress_1020010",
+		quality = 4,
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1020010,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.654,
+			1.147,
+			-0.049
+		},
+		rotation = {
+			-26.017,
+			-20.698,
+			-2.981
+		},
+		jump_page = {}
+	},
 	[1030001] = {
 		name = "Trail of Splashing Waves",
 		related_dress = 0,
@@ -547,6 +858,109 @@ pg.island_dress_template = {
 				{}
 			}
 		}
+	},
+	[1030007] = {
+		name = "Traveler's Homecoming",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 3,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "Riding on horseback with dust and campfire stories on our coats, we head toward the warm lights and commotion.",
+		sub_type = 0,
+		model = "island/item/03/39014/prefab/pre_item_03_39014",
+		icon = "dress_1030007",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1030007,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[1030008] = {
+		name = "Calculated Steps",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 3,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "With each step, you carve rational calculations and logic into the earth.",
+		sub_type = 0,
+		model = "island/item/03/39023/prefab/pre_item_03_39023",
+		icon = "dress_1030008",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1030008,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[1030009] = {
+		name = "Tuned Clockwork",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 3,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "The flawless gears turn and turn, working around the clock even on holidays.",
+		sub_type = 0,
+		model = "island/item/03/39020/prefab/pre_item_03_39020",
+		icon = "dress_1030009",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1030009,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[1030010] = {
+		name = "Iris Emblem",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 3,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "Let blue and white guiding iris flowers mark your wake, engraving a noble coat of arms into your every elegant step.",
+		sub_type = 0,
+		model = "island/item/03/39031/prefab/pre_item_03_39031",
+		icon = "dress_1030010",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1030010,
+		scale = "",
+		face_clip = "",
+		jump_page = {}
 	},
 	[1040001] = {
 		name = "Cool",
@@ -898,6 +1312,87 @@ pg.island_dress_template = {
 			}
 		}
 	},
+	[1060007] = {
+		name = "School Teacher",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 6,
+		attachmentPoint = "",
+		remove = 0,
+		rotation = "",
+		desc = "A classic white-collar worker outfit with a white shirt and black necktie. Add a pair of black-rimmed glasses and you'll look like a bona fide teacher.",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_06_body_component_desc",
+		icon = "dress_1060007",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1060007,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[1060008] = {
+		name = "Mechanic",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 6,
+		attachmentPoint = "",
+		remove = 0,
+		rotation = "",
+		desc = "A work apron with a pocket full of a mechanic's tools. Put on your flight cap and goggles and hurry off to the next broken machine.",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_08_body_component_desc",
+		icon = "dress_1060008",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1060008,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[1060009] = {
+		name = "Rancher",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 6,
+		attachmentPoint = "",
+		remove = 0,
+		rotation = "",
+		desc = "Loose collar, airy trousers, a vest, and some firearm accessories. Just one glance tells people that you're a rancher who rides freely and lives life on your own terms.",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_10_body_component_desc",
+		icon = "dress_1060009",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1060009,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
 	[1070001] = {
 		name = "Uniform Hat",
 		related_dress = 1060001,
@@ -1050,6 +1545,87 @@ pg.island_dress_template = {
 			}
 		}
 	},
+	[1070007] = {
+		name = "School Teacher's Glasses",
+		related_dress = 1060007,
+		exclusive_default_skin = "",
+		type = 7,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "Exquisitely designed yet comfortable, effortlessly styled for versatile wear.",
+		sub_type = 1,
+		model = "island/character/9001/prefab/9001_06_headware_component_desc",
+		icon = "dress_1060007",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1070007,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[1070008] = {
+		name = "Mechanic's Cap",
+		related_dress = 1060008,
+		exclusive_default_skin = "",
+		type = 7,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "Exquisitely designed yet comfortable, effortlessly styled for versatile wear.",
+		sub_type = 2,
+		model = "island/character/9001/prefab/9001_08_headware_component_desc",
+		icon = "dress_1060008",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1070008,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[1070009] = {
+		name = "Rancher's Hat",
+		related_dress = 1060009,
+		exclusive_default_skin = "",
+		type = 7,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "Exquisitely designed yet comfortable, effortlessly styled for versatile wear.",
+		sub_type = 1,
+		model = "island/character/9001/prefab/9001_10_headware_component_desc",
+		icon = "dress_1060009",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1070009,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
 	[2010001] = {
 		quality = 4,
 		related_dress = 0,
@@ -1119,6 +1695,104 @@ pg.island_dress_template = {
 		jump_page = {
 			{
 				"Island Collection",
+				{}
+			}
+		}
+	},
+	[2010003] = {
+		quality = 4,
+		related_dress = 0,
+		name = "The Joys of Fishing",
+		type = 1,
+		attachmentPoint = "Bip001 Spine1",
+		remove = 1,
+		belongto = 2,
+		desc = "A backpack in the design of a hand-woven fish basket, exuding the rustic charms of the seaside.",
+		tech_id = 0,
+		sub_type = 0,
+		model = "island/item/03/39007/prefab/pre_item_03_39007",
+		id = 2010003,
+		icon = "dress_2010003",
+		face_clip = "",
+		offset = {
+			0.2050954,
+			-0.4134511,
+			0.04644482
+		},
+		rotation = {
+			-82.265,
+			58.605,
+			30.972
+		},
+		scale = {
+			0.9
+		},
+		exclusive_default_skin = {
+			30407,
+			10205,
+			10517,
+			20603,
+			30129,
+			30312,
+			31201,
+			40303,
+			49902,
+			90111,
+			70104
+		},
+		exclusive_skin = {
+			3040701,
+			1020501,
+			3031201,
+			3120101,
+			4030301
+		},
+		jump_page = {
+			{
+				"Island Seasonal Shop",
+				{}
+			}
+		}
+	},
+	[2010004] = {
+		quality = 4,
+		related_dress = 0,
+		name = "Ribbon Wings of Purity",
+		type = 1,
+		attachmentPoint = "Bip001 Spine1",
+		remove = 1,
+		belongto = 2,
+		desc = "A ribbon repurposed into a pair of wings. The wearer might take off like a butterfly at any moment.",
+		tech_id = 0,
+		sub_type = 0,
+		model = "island/item/03/39009/prefab/pre_item_03_39009",
+		id = 2010004,
+		icon = "dress_2010004",
+		face_clip = "",
+		offset = {
+			0.1559165,
+			-0.5911449,
+			0.05696252
+		},
+		rotation = {
+			-35.17,
+			95.366,
+			-8.63
+		},
+		scale = {
+			0.9
+		},
+		exclusive_default_skin = {
+			30407,
+			10110
+		},
+		exclusive_skin = {
+			3040701,
+			1011001
+		},
+		jump_page = {
+			{
+				"Island Seasonal Shop",
 				{}
 			}
 		}
@@ -1205,6 +1879,72 @@ pg.island_dress_template = {
 			-0.043
 		},
 		jump_page = {}
+	},
+	[2020004] = {
+		name = "Trail of Dream Bubbles",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 2,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "Your steps shimmer with transparent bubbles, reflecting a dreamy glow beneath the daylight.",
+		sub_type = 0,
+		model = "island/item/03/37005/prefab/pre_item_03_37005",
+		icon = "dress_2020004",
+		quality = 4,
+		belongto = 2,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 2020004,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.671,
+			1.522,
+			-0.043
+		},
+		jump_page = {
+			{
+				"Island Seasonal Shop",
+				{}
+			}
+		}
+	},
+	[2020005] = {
+		name = "White Duster",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 2,
+		attachmentPoint = "",
+		remove = 1,
+		desc = "A light and easy-to-use duster. Chang Feng's favorite cleaning tool.",
+		sub_type = 0,
+		model = "island/item/03/39011/prefab/pre_item_03_39011",
+		icon = "dress_2020005",
+		quality = 4,
+		belongto = 2,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 2020005,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.683,
+			1.084,
+			-0.112
+		},
+		rotation = {
+			-2.847,
+			-1.864,
+			25.627
+		},
+		jump_page = {
+			{
+				"Island Seasonal Shop",
+				{}
+			}
+		}
 	},
 	[2030001] = {
 		name = "Pawpad Trail",
@@ -1294,6 +2034,60 @@ pg.island_dress_template = {
 		face_clip = "",
 		jump_page = {}
 	},
+	[2030005] = {
+		name = "Trail of Ephemeral Splashes",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 3,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "You weave through white waves, leaving trails of shimmering fish.",
+		sub_type = 0,
+		model = "island/item/03/38005/prefab/pre_item_03_38005",
+		icon = "dress_2030005",
+		quality = 4,
+		belongto = 2,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 2030005,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"Island Seasonal Shop",
+				{}
+			}
+		}
+	},
+	[2030006] = {
+		name = "Laced Imprints",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 3,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "Give your steps a delicate lace imprint, like the frills of a maid's dress snuck away and hid under your shoes.",
+		sub_type = 0,
+		model = "island/item/03/39013/prefab/pre_item_03_39013",
+		icon = "dress_2030006",
+		quality = 4,
+		belongto = 2,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 2030006,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"Island Seasonal Shop",
+				{}
+			}
+		}
+	},
 	get_id_list_by_type = {
 		{
 			1010001,
@@ -1302,8 +2096,15 @@ pg.island_dress_template = {
 			1010004,
 			1010005,
 			1010006,
+			1010007,
+			1010008,
+			1010009,
+			1010010,
+			1010011,
 			2010001,
-			2010002
+			2010002,
+			2010003,
+			2010004
 		},
 		{
 			1020001,
@@ -1312,9 +2113,15 @@ pg.island_dress_template = {
 			1020004,
 			1020005,
 			1020006,
+			1020007,
+			1020008,
+			1020009,
+			1020010,
 			2020001,
 			2020002,
-			2020003
+			2020003,
+			2020004,
+			2020005
 		},
 		{
 			1030001,
@@ -1323,10 +2130,16 @@ pg.island_dress_template = {
 			1030004,
 			1030005,
 			1030006,
+			1030007,
+			1030008,
+			1030009,
+			1030010,
 			2030001,
 			2030002,
 			2030003,
-			2030004
+			2030004,
+			2030005,
+			2030006
 		},
 		{
 			1040001,
@@ -1347,7 +2160,10 @@ pg.island_dress_template = {
 			1060003,
 			1060004,
 			1060005,
-			1060006
+			1060006,
+			1060007,
+			1060008,
+			1060009
 		},
 		{
 			1070001,
@@ -1355,7 +2171,10 @@ pg.island_dress_template = {
 			1070003,
 			1070004,
 			1070005,
-			1070006
+			1070006,
+			1070007,
+			1070008,
+			1070009
 		}
 	},
 	get_id_list_by_related_dress = {
@@ -1366,18 +2185,31 @@ pg.island_dress_template = {
 			1010004,
 			1010005,
 			1010006,
+			1010007,
+			1010008,
+			1010009,
+			1010010,
+			1010011,
 			1020001,
 			1020002,
 			1020003,
 			1020004,
 			1020005,
 			1020006,
+			1020007,
+			1020008,
+			1020009,
+			1020010,
 			1030001,
 			1030002,
 			1030003,
 			1030004,
 			1030005,
 			1030006,
+			1030007,
+			1030008,
+			1030009,
+			1030010,
 			1040001,
 			1040002,
 			1040003,
@@ -1393,15 +2225,24 @@ pg.island_dress_template = {
 			1060004,
 			1060005,
 			1060006,
+			1060007,
+			1060008,
+			1060009,
 			2010001,
 			2010002,
+			2010003,
+			2010004,
 			2020001,
 			2020002,
 			2020003,
+			2020004,
+			2020005,
 			2030001,
 			2030002,
 			2030003,
-			2030004
+			2030004,
+			2030005,
+			2030006
 		},
 		[1060001] = {
 			1070001
@@ -1420,6 +2261,15 @@ pg.island_dress_template = {
 		},
 		[1060006] = {
 			1070006
+		},
+		[1060007] = {
+			1070007
+		},
+		[1060008] = {
+			1070008
+		},
+		[1060009] = {
+			1070009
 		}
 	},
 	all = {
@@ -1429,18 +2279,31 @@ pg.island_dress_template = {
 		1010004,
 		1010005,
 		1010006,
+		1010007,
+		1010008,
+		1010009,
+		1010010,
+		1010011,
 		1020001,
 		1020002,
 		1020003,
 		1020004,
 		1020005,
 		1020006,
+		1020007,
+		1020008,
+		1020009,
+		1020010,
 		1030001,
 		1030002,
 		1030003,
 		1030004,
 		1030005,
 		1030006,
+		1030007,
+		1030008,
+		1030009,
+		1030010,
 		1040001,
 		1040002,
 		1040003,
@@ -1456,20 +2319,32 @@ pg.island_dress_template = {
 		1060004,
 		1060005,
 		1060006,
+		1060007,
+		1060008,
+		1060009,
 		1070001,
 		1070002,
 		1070003,
 		1070004,
 		1070005,
 		1070006,
+		1070007,
+		1070008,
+		1070009,
 		2010001,
 		2010002,
+		2010003,
+		2010004,
 		2020001,
 		2020002,
 		2020003,
+		2020004,
+		2020005,
 		2030001,
 		2030002,
 		2030003,
-		2030004
+		2030004,
+		2030005,
+		2030006
 	}
 }

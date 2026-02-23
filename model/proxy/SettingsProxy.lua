@@ -434,6 +434,7 @@ function var_0_0.clearAllReadHelp(arg_54_0)
 	PlayerPrefs.DeleteKey("help_commander_info")
 	PlayerPrefs.DeleteKey("help_commander_play")
 	PlayerPrefs.DeleteKey("help_commander_ability")
+	PlayerPrefs.DeleteKey("loveactivity_help_tips")
 end
 
 function var_0_0.setAutoBattleTip(arg_55_0)
@@ -1226,9 +1227,9 @@ function var_0_0.GetMainSceneScreenSleepTime(arg_130_0)
 		return SleepTimeout.SystemSetting
 	end
 
-	local var_130_0 = pg.settings_other_template[20].name
+	local var_130_0 = pg.settings_other_template[20]
 
-	if PlayerPrefs.GetInt(var_130_0, 1) == 1 then
+	if PlayerPrefs.GetInt(_G[var_130_0.name], var_130_0.default) == 1 then
 		return SleepTimeout.NeverSleep
 	else
 		return SleepTimeout.SystemSetting
@@ -1236,23 +1237,45 @@ function var_0_0.GetMainSceneScreenSleepTime(arg_130_0)
 end
 
 function var_0_0.ShowL2dResetInMainScene(arg_131_0)
-	local var_131_0 = pg.settings_other_template[21].name
+	local var_131_0 = pg.settings_other_template[21]
 
-	return PlayerPrefs.GetInt(var_131_0, 0) == 1
+	return PlayerPrefs.GetInt(_G[var_131_0.name], var_131_0.default) == 1
 end
 
-function var_0_0.Reset(arg_132_0)
-	arg_132_0:resetEquipSceneIndex()
-	arg_132_0:resetActivityLayerIndex()
+function var_0_0.GetRecommendLowEnerySkipEnable(arg_132_0)
+	local var_132_0 = pg.settings_other_template[25]
 
-	arg_132_0.isStopBuildSpeedupReamind = false
+	return PlayerPrefs.GetInt(_G[var_132_0.name], var_132_0.default) == 1
+end
 
-	arg_132_0:RestoreFrameRate()
+local var_0_1 = "ISLAND_REST_EVENT"
 
-	arg_132_0.randomFlagShipList = nil
-	arg_132_0.prevRandomFlagShipTime = nil
-	arg_132_0.randomFlagShipMap = nil
-	arg_132_0.educateCharTipList = {}
+function var_0_0.ShouldTipIslandRestEvet(arg_133_0)
+	local var_133_0 = getProxy(PlayerProxy):getRawData().id
+
+	return PlayerPrefs.GetInt(var_0_1 .. var_133_0, 0) < pg.TimeMgr.GetInstance():GetServerTime()
+end
+
+function var_0_0.RecordIslandRestEvet(arg_134_0)
+	local var_134_0 = GetZeroTime()
+	local var_134_1 = getProxy(PlayerProxy):getRawData().id
+
+	PlayerPrefs.SetInt(var_0_1 .. var_134_1, var_134_0)
+	PlayerPrefs.Save()
+end
+
+function var_0_0.Reset(arg_135_0)
+	arg_135_0:resetEquipSceneIndex()
+	arg_135_0:resetActivityLayerIndex()
+
+	arg_135_0.isStopBuildSpeedupReamind = false
+
+	arg_135_0:RestoreFrameRate()
+
+	arg_135_0.randomFlagShipList = nil
+	arg_135_0.prevRandomFlagShipTime = nil
+	arg_135_0.randomFlagShipMap = nil
+	arg_135_0.educateCharTipList = {}
 end
 
 return var_0_0

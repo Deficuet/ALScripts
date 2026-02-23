@@ -6,6 +6,7 @@ pg.extraenemy_template = {
 		hp = 10000,
 		mail_content = "world_boss_content_1",
 		id = 1,
+		replace_task = "",
 		background = "",
 		reward = {
 			8931
@@ -24,6 +25,7 @@ pg.extraenemy_template = {
 		hp = 10000,
 		mail_content = "world_boss_content_1",
 		id = 2,
+		replace_task = "",
 		background = "",
 		reward = {
 			90631,
@@ -60,6 +62,7 @@ pg.extraenemy_template = {
 		hp = 10000,
 		mail_content = "world_boss_content_1",
 		id = 3,
+		replace_task = "",
 		background = "",
 		reward = {
 			91770,
@@ -96,6 +99,7 @@ pg.extraenemy_template = {
 		hp = 10000,
 		mail_content = "world_boss_content_1",
 		id = 4,
+		replace_task = "",
 		background = "",
 		reward = {
 			92511,
@@ -132,6 +136,7 @@ pg.extraenemy_template = {
 		hp = 10000,
 		mail_content = "world_boss_content_1",
 		id = 5,
+		replace_task = "",
 		background = "",
 		reward = {
 			93436,
@@ -168,6 +173,7 @@ pg.extraenemy_template = {
 		hp = 10000,
 		mail_content = "world_boss_content_1",
 		id = 6,
+		replace_task = "",
 		background = "",
 		reward = {
 			96809,
@@ -204,6 +210,7 @@ pg.extraenemy_template = {
 		hp = 10000,
 		mail_content = "world_boss_content_1",
 		id = 7,
+		replace_task = "",
 		background = "",
 		reward = {
 			97648,
@@ -240,6 +247,7 @@ pg.extraenemy_template = {
 		hp = 10000,
 		mail_content = "world_boss_content_1",
 		id = 8,
+		replace_task = "",
 		background = "",
 		reward = {
 			98343,
@@ -276,6 +284,7 @@ pg.extraenemy_template = {
 		hp = 10000,
 		mail_content = "world_boss_content_1",
 		id = 9,
+		replace_task = "",
 		background = "",
 		reward = {
 			99061,
@@ -312,6 +321,7 @@ pg.extraenemy_template = {
 		hp = 10000,
 		mail_content = "world_boss_content_1",
 		id = 10,
+		replace_task = "",
 		background = "",
 		reward = {
 			900075,
@@ -348,6 +358,7 @@ pg.extraenemy_template = {
 		hp = 10000,
 		mail_content = "world_boss_content_1",
 		id = 11,
+		replace_task = "",
 		background = "",
 		reward = {
 			901395,
@@ -384,6 +395,7 @@ pg.extraenemy_template = {
 		hp = 10000,
 		mail_content = "world_boss_content_1",
 		id = 12,
+		replace_task = "",
 		background = "",
 		reward = {
 			904790,
@@ -414,6 +426,199 @@ pg.extraenemy_template = {
 			}
 		}
 	},
+	{
+		mail_title = "world_boss_title_13",
+		name = "约战1-BOSS",
+		hp = 300,
+		mail_content = "world_boss_content_1",
+		id = 13,
+		background = "",
+		reward = {
+			907844
+		},
+		reward_display = {
+			{
+				21,
+				14780,
+				1
+			},
+			{
+				2,
+				20001,
+				1
+			}
+		},
+		replace_task = {
+			24710
+		}
+	},
+	{
+		mail_title = "world_boss_title_13",
+		name = "约战2-BOSS",
+		hp = 700,
+		mail_content = "world_boss_content_1",
+		id = 14,
+		background = "",
+		reward = {
+			907845
+		},
+		reward_display = {
+			{
+				21,
+				14760,
+				1
+			},
+			{
+				2,
+				20001,
+				1
+			}
+		},
+		replace_task = {
+			24711
+		}
+	},
+	{
+		mail_title = "world_boss_title_13",
+		name = "约战3-BOSS",
+		hp = 700,
+		mail_content = "world_boss_content_1",
+		id = 15,
+		background = "",
+		reward = {
+			907846
+		},
+		reward_display = {
+			{
+				21,
+				14800,
+				1
+			},
+			{
+				2,
+				20001,
+				1
+			}
+		},
+		replace_task = {
+			24712
+		}
+	},
+	{
+		mail_title = "world_boss_title_13",
+		name = "约战4-BOSS",
+		hp = 700,
+		mail_content = "world_boss_content_1",
+		id = 16,
+		background = "",
+		reward = {
+			907847
+		},
+		reward_display = {
+			{
+				21,
+				14840,
+				1
+			},
+			{
+				2,
+				20001,
+				1
+			}
+		},
+		replace_task = {
+			24713
+		}
+	},
+	{
+		mail_title = "world_boss_title_13",
+		name = "约战5-BOSS",
+		hp = 700,
+		mail_content = "world_boss_content_1",
+		id = 17,
+		background = "",
+		reward = {
+			907848
+		},
+		reward_display = {
+			{
+				21,
+				14860,
+				1
+			},
+			{
+				2,
+				20001,
+				1
+			}
+		},
+		replace_task = {
+			24714
+		}
+	},
+	{
+		mail_title = "world_boss_title_13",
+		name = "约战6-BOSS",
+		hp = 7000,
+		mail_content = "world_boss_content_1",
+		id = 18,
+		background = "",
+		reward = {
+			907849
+		},
+		reward_display = {
+			{
+				21,
+				14820,
+				1
+			},
+			{
+				2,
+				20001,
+				3
+			}
+		},
+		replace_task = {
+			24715
+		}
+	},
+	{
+		mail_title = "world_boss_title_14",
+		name = "彰武",
+		hp = 10000,
+		mail_content = "world_boss_content_1",
+		id = 19,
+		replace_task = "",
+		background = "",
+		reward = {
+			86525,
+			86526,
+			86527,
+			86528
+		},
+		reward_display = {
+			{
+				2,
+				17003,
+				10
+			},
+			{
+				2,
+				18013,
+				2
+			},
+			{
+				2,
+				13004,
+				5
+			},
+			{
+				3,
+				96020,
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -426,6 +631,13 @@ pg.extraenemy_template = {
 		9,
 		10,
 		11,
-		12
+		12,
+		13,
+		14,
+		15,
+		16,
+		17,
+		18,
+		19
 	}
 }

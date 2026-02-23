@@ -200,10 +200,12 @@ function var_0_3.onPlayerShutDown(arg_19_0, arg_19_1)
 
 		arg_19_0._failReason = nil
 
+		arg_19_0._dataProxy:TriggerFinishBattle()
 		arg_19_0._state:BattleEnd()
 	end
 
 	if arg_19_1.Data.unit == arg_19_0._userFleet:GetFlagShip() then
+		arg_19_0._dataProxy:TriggerFinishBattle()
 		arg_19_0._dataProxy:CalcSimulationScoreAtEnd(arg_19_0._userFleet, arg_19_0._rivalFleet)
 		arg_19_0._state:BattleEnd()
 
@@ -211,6 +213,7 @@ function var_0_3.onPlayerShutDown(arg_19_0, arg_19_1)
 	end
 
 	if #arg_19_0._userFleet:GetScoutList() == 0 then
+		arg_19_0._dataProxy:TriggerFinishBattle()
 		arg_19_0._dataProxy:CalcSimulationScoreAtEnd(arg_19_0._userFleet, arg_19_0._rivalFleet)
 		arg_19_0._state:BattleEnd()
 	end
@@ -262,6 +265,7 @@ function var_0_3.onUpdateCountDown(arg_21_0, arg_21_1)
 		local var_21_2, var_21_3 = arg_21_0._userFleet:GetDamageRatioResult()
 		local var_21_4, var_21_5 = arg_21_0._rivalFleet:GetDamageRatioResult()
 
+		arg_21_0._dataProxy:TriggerFinishBattle()
 		arg_21_0._dataProxy:CalcSimulationScoreAtTimesUp(var_21_2, var_21_4, var_21_3, var_21_5, arg_21_0._rivalFleet)
 		arg_21_0._state:BattleEnd()
 	end

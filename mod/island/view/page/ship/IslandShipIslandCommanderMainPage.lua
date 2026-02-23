@@ -113,4 +113,22 @@ function var_0_0.CheckDressIsDirty(arg_19_0)
 	return arg_19_0.currentChildPage:CheckDressIsDirty()
 end
 
+function var_0_0.CanEsc(arg_20_0)
+	if not arg_20_0:CheckDressIsDirty() then
+		return true
+	end
+
+	arg_20_0:ShowMsgBox({
+		type = IslandMsgBox.TYPE_COMMON,
+		content = i18n("island_dressup_tip_1"),
+		onYes = function()
+			arg_20_0.currentChildPage:SaveDressUpData()
+			arg_20_0:Hide()
+		end,
+		onNo = function()
+			arg_20_0:Hide()
+		end
+	})
+end
+
 return var_0_0

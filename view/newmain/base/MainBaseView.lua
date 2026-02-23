@@ -7,6 +7,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	arg_1_0._tf = arg_1_1
 	arg_1_0._go = arg_1_1.gameObject
 	arg_1_0.foldableHelper = MainFoldableHelper.New(arg_1_1, arg_1_0:GetDirection())
+	arg_1_0._canvasGroup = GetOrAddComponent(arg_1_0._tf, typeof(CanvasGroup))
 end
 
 function var_0_0.Init(arg_2_0)
@@ -33,16 +34,36 @@ function var_0_0.SetVisible(arg_7_0, arg_7_1)
 	setActive(arg_7_0._tf, arg_7_1)
 end
 
-function var_0_0.Dispose(arg_8_0)
-	arg_8_0.exited = true
+function var_0_0.SetEffectVisible(arg_8_0, arg_8_1)
+	return
+end
 
-	arg_8_0:disposeEvent()
+function var_0_0.SetAlpha(arg_9_0, arg_9_1)
+	arg_9_0._canvasGroup.alpha = arg_9_1
+end
 
-	if arg_8_0.foldableHelper then
-		pg.DelegateInfo.Dispose(arg_8_0)
-		arg_8_0.foldableHelper:Dispose()
+function var_0_0.SetInteractable(arg_10_0, arg_10_1)
+	arg_10_0._canvasGroup.interactable = arg_10_1 and arg_10_1 or false
+end
 
-		arg_8_0.foldableHelper = nil
+function var_0_0.SetBlocksRaycasts(arg_11_0, arg_11_1)
+	arg_11_0._canvasGroup.blocksRaycasts = arg_11_1 and arg_11_1 or false
+end
+
+function var_0_0.IgnoreParentGroups(arg_12_0, arg_12_1)
+	arg_12_0._canvasGroup.ignoreParentGroups = arg_12_1
+end
+
+function var_0_0.Dispose(arg_13_0)
+	arg_13_0.exited = true
+
+	arg_13_0:disposeEvent()
+
+	if arg_13_0.foldableHelper then
+		pg.DelegateInfo.Dispose(arg_13_0)
+		arg_13_0.foldableHelper:Dispose()
+
+		arg_13_0.foldableHelper = nil
 	end
 end
 

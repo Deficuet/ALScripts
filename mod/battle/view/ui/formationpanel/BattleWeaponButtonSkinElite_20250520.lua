@@ -36,43 +36,37 @@ function var_0_1.OnTotalChange(arg_1_0, arg_1_1)
 	end
 end
 
-function var_0_1.ConfigSkin(arg_2_0, arg_2_1)
-	var_0_1.super.ConfigSkin(arg_2_0, arg_2_1)
-
-	arg_2_0._glowEff = arg_2_0._btn:Find("gizmos_1")
+function var_0_1.OnCountChange(arg_2_0)
+	var_0_1.super.OnCountChange(arg_2_0)
+	SetActive(arg_2_0._chargeEff, arg_2_0._progressInfo:GetCount() > 0)
 end
 
-function var_0_1.OnCountChange(arg_3_0)
-	var_0_1.super.OnCountChange(arg_3_0)
-	SetActive(arg_3_0._glowEff, arg_3_0._progressInfo:GetCount() > 0)
-end
-
-function var_0_1.OnOverLoadChange(arg_4_0, arg_4_1)
-	if arg_4_0._progressInfo:IsOverLoad() then
-		arg_4_0._block:SetActive(true)
-		arg_4_0:OnUnfill()
+function var_0_1.OnOverLoadChange(arg_3_0, arg_3_1)
+	if arg_3_0._progressInfo:IsOverLoad() then
+		arg_3_0._block:SetActive(true)
+		arg_3_0:OnUnfill()
 	else
-		arg_4_0._block:SetActive(false)
-		arg_4_0:OnFilled()
+		arg_3_0._block:SetActive(false)
+		arg_3_0:OnFilled()
 	end
 
-	if arg_4_0._progressInfo:GetCount() >= 1 and arg_4_1 and arg_4_1.Data then
-		local var_4_0 = arg_4_1.Data.preCast
+	if arg_3_0._progressInfo:GetCount() >= 1 and arg_3_1 and arg_3_1.Data then
+		local var_3_0 = arg_3_1.Data.preCast
 
-		if var_4_0 then
-			if var_4_0 == 0 then
-				quickCheckAndPlayAnimator(arg_4_0._skin, "weapon_button_progress_filled")
-			elseif var_4_0 > 0 then
-				quickCheckAndPlayAnimator(arg_4_0._skin, "weapon_button_progress_charge")
+		if var_3_0 then
+			if var_3_0 == 0 then
+				quickCheckAndPlayAnimator(arg_3_0._skin, "weapon_button_progress_filled")
+			elseif var_3_0 > 0 then
+				quickCheckAndPlayAnimator(arg_3_0._skin, "weapon_button_progress_charge")
 			end
 		end
 	end
 
-	if arg_4_1 and arg_4_1.Data and arg_4_1.Data.postCast then
-		quickCheckAndPlayAnimator(arg_4_0._skin, "weapon_button_progress_use")
+	if arg_3_1 and arg_3_1.Data and arg_3_1.Data.postCast then
+		quickCheckAndPlayAnimator(arg_3_0._skin, "weapon_button_progress_use")
 	end
 
-	if arg_4_0._progressInfo:GetTotal() > 0 then
-		arg_4_0:updateProgressBar()
+	if arg_3_0._progressInfo:GetTotal() > 0 then
+		arg_3_0:updateProgressBar()
 	end
 end

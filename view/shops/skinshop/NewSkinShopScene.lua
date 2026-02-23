@@ -545,7 +545,7 @@ function var_0_0.ToVShip(arg_53_0, arg_53_1)
 		end
 
 		function arg_53_0.vship.getTeamType()
-			return TeamType.GetTeamFromShipType(arg_53_0.vship.config.type)
+			return ShipType.GetTeamFromShipType(arg_53_0.vship.config.type)
 		end
 
 		function arg_53_0.vship.getRarity()
@@ -628,7 +628,7 @@ function var_0_0.Sort(arg_62_0, arg_62_1, arg_62_2, arg_62_3)
 end
 
 function var_0_0.IsCouponType(arg_63_0, arg_63_1, arg_63_2)
-	if arg_63_1 and not SkinCouponActivity.GetSkinCouponAct(arg_63_2.id) then
+	if arg_63_1 and not SkinCouponActivity.GetBestReadySkinCouponAct(arg_63_2.id) then
 		return false
 	end
 

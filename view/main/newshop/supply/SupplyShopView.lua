@@ -324,7 +324,7 @@ function var_0_0.UpdateShop(arg_25_0)
 	local var_25_3, var_25_4 = var_25_2:CanOpen(var_25_1, arg_25_0.player)
 
 	if var_25_3 then
-		if arg_25_0.page then
+		if arg_25_0.page and arg_25_0.page ~= var_25_2 then
 			arg_25_0.page:Hide()
 		end
 

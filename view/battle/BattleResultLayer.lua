@@ -261,7 +261,7 @@ function var_0_0.didEnter(arg_13_0)
 		lockGlobalBlur = true
 	})
 
-	if arg_13_0.contextData.system ~= SYSTEM_BOSS_RUSH and arg_13_0.contextData.system ~= SYSTEM_BOSS_RUSH_EX and arg_13_0.contextData.system ~= SYSTEM_ACT_BOSS and arg_13_0.contextData.system ~= SYSTEM_BOSS_SINGLE and arg_13_0.contextData.system ~= SYSTEM_BOSS_SINGLE_VARIABLE then
+	if arg_13_0.contextData.system ~= SYSTEM_BOSS_RUSH and arg_13_0.contextData.system ~= SYSTEM_BOSS_RUSH_EX and arg_13_0.contextData.system ~= SYSTEM_BOSS_RUSH_COLLABRATE and arg_13_0.contextData.system ~= SYSTEM_ACT_BOSS and arg_13_0.contextData.system ~= SYSTEM_BOSS_SINGLE and arg_13_0.contextData.system ~= SYSTEM_BOSS_SINGLE_VARIABLE then
 		ys.Battle.BattleCameraUtil.GetInstance().ActiveMainCamera(false)
 	end
 
@@ -390,7 +390,7 @@ end
 function var_0_0.showRewardInfo(arg_24_0)
 	arg_24_0._stateFlag = var_0_0.STATE_REWARD
 
-	if arg_24_0.contextData.system == SYSTEM_BOSS_RUSH or arg_24_0.contextData.system == SYSTEM_BOSS_RUSH_EX then
+	if arg_24_0.contextData.system == SYSTEM_BOSS_RUSH or arg_24_0.contextData.system == SYSTEM_BOSS_RUSH_EX or arg_24_0.contextData.system == SYSTEM_BOSS_RUSH_COLLABRATE then
 		arg_24_0:emit(BattleResultMediator.ON_BACK_TO_LEVEL_SCENE)
 
 		return
@@ -654,7 +654,7 @@ function var_0_0.displayShips(arg_39_0)
 
 		if var_39_2[iter_39_7.id] then
 			local var_39_11 = ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(iter_39_7.configId).type
-			local var_39_12 = table.contains(TeamType.SubShipType, var_39_11)
+			local var_39_12 = table.contains(ShipType.SubShipType, var_39_11)
 			local var_39_13
 			local var_39_14
 			local var_39_15 = 0

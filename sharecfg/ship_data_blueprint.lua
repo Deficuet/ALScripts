@@ -2296,7 +2296,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "Requires <color=#92fc63>900</color> Royal Navy Tech Points",
 		normal_display = "",
 		price = 6000,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60231
 		},
@@ -2700,7 +2700,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "Requires <color=#92fc63>250</color> Iris Libre Tech Points",
 		normal_display = "",
 		price = 6000,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60271
 		},
@@ -2882,7 +2882,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "Requires <color=#92fc63>900</color> Sakura Empire Tech Points",
 		normal_display = "",
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60291
 		},
@@ -2984,7 +2984,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "Requires <color=#92fc63>850</color> Iron Blood Tech Points",
 		normal_display = "",
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60301
 		},
@@ -3177,7 +3177,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "Requires <color=#92fc63>180</color> Vichya Dominion Tech Points and <color=#92fc63>800</color> Iron Blood Tech Points",
 		normal_display = "",
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60320,
 			60321

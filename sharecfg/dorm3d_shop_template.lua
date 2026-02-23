@@ -32,7 +32,15 @@ pg.dorm3d_shop_template = setmetatable({
 		28,
 		29,
 		30,
-		31
+		31,
+		32,
+		33,
+		34,
+		35,
+		36,
+		37,
+		38,
+		39
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -614,7 +622,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 1221,
 		id = 27,
 		realroom_id = 0,
-		order = "7",
+		order = "8",
 		panel = {
 			1,
 			2,
@@ -637,7 +645,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 3070701,
 		id = 28,
 		realroom_id = 0,
-		order = "7",
+		order = "8",
 		panel = {
 			2,
 			3,
@@ -659,7 +667,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 16,
 		id = 29,
 		realroom_id = 0,
-		order = "6",
+		order = "7",
 		panel = {
 			2
 		},
@@ -679,7 +687,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 1153,
 		id = 30,
 		realroom_id = 0,
-		order = "6",
+		order = "7",
 		panel = {
 			1,
 			2,
@@ -702,7 +710,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 1222,
 		id = 31,
 		realroom_id = 0,
-		order = "1",
+		order = "7",
 		panel = {
 			1,
 			2,
@@ -714,6 +722,182 @@ pg.base.dorm3d_shop_template = {
 		},
 		banners = {
 			"banner_furniture1222"
+		}
+	},
+	{
+		name = "The Perfect Maid's Guidebook",
+		rarity = 4,
+		type = 2,
+		room_id = 20220,
+		unlock = "",
+		item_id = 2022003,
+		id = 32,
+		realroom_id = 0,
+		order = "8",
+		panel = {
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			260303
+		},
+		banners = {
+			"banner_gift2022003"
+		}
+	},
+	{
+		name = "Crimson Tranquility",
+		rarity = 4,
+		type = 1,
+		room_id = 49905,
+		unlock = "",
+		item_id = 1461,
+		id = 33,
+		realroom_id = 0,
+		order = "6",
+		panel = {
+			1,
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			270601
+		},
+		banners = {
+			"banner_furniture1461"
+		}
+	},
+	{
+		name = "Tulip Glass",
+		rarity = 4,
+		type = 2,
+		room_id = 49905,
+		unlock = "",
+		item_id = 4990501,
+		id = 34,
+		realroom_id = 0,
+		order = "6",
+		panel = {
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			260601
+		},
+		banners = {
+			"banner_gift4990501"
+		}
+	},
+	{
+		name = "Ägir's Café Invitation",
+		rarity = 4,
+		type = 3,
+		room_id = 49905,
+		unlock = "",
+		item_id = 16,
+		id = 35,
+		realroom_id = 0,
+		order = "6",
+		panel = {
+			2
+		},
+		shop_id = {
+			270115
+		},
+		banners = {
+			"banner_cafe3"
+		}
+	},
+	{
+		name = "Sirius's Café Invitation",
+		rarity = 4,
+		type = 3,
+		room_id = 20220,
+		unlock = "",
+		item_id = 16,
+		id = 36,
+		realroom_id = 0,
+		order = "1",
+		panel = {
+			2
+		},
+		shop_id = {
+			270116
+		},
+		banners = {
+			"banner_cafe4"
+		}
+	},
+	{
+		name = "IB-7 Smart Refrigerator",
+		rarity = 4,
+		type = 1,
+		room_id = 10517,
+		unlock = "",
+		item_id = 1154,
+		id = 37,
+		realroom_id = 0,
+		order = "3",
+		panel = {
+			1,
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			270206
+		},
+		banners = {
+			"banner_furniture1154"
+		}
+	},
+	{
+		name = "Elegant Cherry Blossom Seating",
+		rarity = 4,
+		type = 1,
+		room_id = 30707,
+		unlock = "",
+		item_id = 1223,
+		id = 38,
+		realroom_id = 0,
+		order = "3",
+		panel = {
+			1,
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			270503
+		},
+		banners = {
+			"banner_furniture1223"
+		}
+	},
+	{
+		name = "Haven of Innocence",
+		rarity = 4,
+		type = 1,
+		room_id = 19903,
+		unlock = "",
+		item_id = 324,
+		id = 39,
+		realroom_id = 0,
+		order = "2",
+		panel = {
+			1,
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			270304
+		},
+		banners = {
+			"banner_furniture324"
 		}
 	}
 }

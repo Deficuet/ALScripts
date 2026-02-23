@@ -1859,5 +1859,65 @@ pg.voice_actor_CN = {
 	[481] = {
 		code = 481,
 		actor_name = "Misuzu Yamada"
+	},
+	[482] = {
+		code = 482,
+		actor_name = "Takako Honda"
+	},
+	[483] = {
+		code = 483,
+		actor_name = "Misuzu Togashi"
+	},
+	[484] = {
+		code = 484,
+		actor_name = "Ayana Taketatsu"
+	},
+	[485] = {
+		code = 485,
+		actor_name = "Iori Nomizu"
+	},
+	[486] = {
+		code = 486,
+		actor_name = "Asami Sanada"
+	},
+	[487] = {
+		code = 487,
+		actor_name = "Maaya Uchida & Sarah Emi Bridcutt"
+	},
+	[488] = {
+		code = 488,
+		actor_name = "Hiyori Miyazaki"
+	},
+	[489] = {
+		code = 489,
+		actor_name = "Nana Hasumi"
+	},
+	[490] = {
+		code = 490,
+		actor_name = "Seria Fukagawa"
+	},
+	[493] = {
+		code = 493,
+		actor_name = "Megu Umezawa"
+	},
+	[494] = {
+		code = 494,
+		actor_name = "Mariko Higashiuchi"
+	},
+	[495] = {
+		code = 495,
+		actor_name = "Akane Matsunaga"
+	},
+	[496] = {
+		code = 496,
+		actor_name = "Moe Nagamuta"
+	},
+	[497] = {
+		code = 497,
+		actor_name = "Karin Nanami"
+	},
+	[498] = {
+		code = 498,
+		actor_name = "Mirei Kumagai"
 	}
 }

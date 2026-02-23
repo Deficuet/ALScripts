@@ -318,7 +318,8 @@ var_0_0.hxPathList = {
 	"technologycard",
 	"shipdesignicon",
 	"herohrzicon",
-	"skinunlockanim"
+	"skinunlockanim",
+	"spinePainting"
 }
 var_0_0.folderBundle = {
 	"paintingface"

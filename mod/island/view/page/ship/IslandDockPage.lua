@@ -171,7 +171,7 @@ function var_0_0.ToVShip(arg_23_0, arg_23_1)
 		end
 
 		function arg_23_0.vship.getTeamType()
-			return TeamType.GetTeamFromShipType(arg_23_0.vship.config.type)
+			return ShipType.GetTeamFromShipType(arg_23_0.vship.config.type)
 		end
 
 		function arg_23_0.vship.getRarity()
@@ -199,17 +199,31 @@ end
 
 function var_0_0.GetShips(arg_29_0)
 	local var_29_0 = {}
-	local var_29_1 = arg_29_0.characterAgency:GetUnlockOrCanUnlockShipConfigIds()
+	local var_29_1 = {}
+	local var_29_2 = arg_29_0.characterAgency:GetUnlockOrCanUnlockShipConfigIds()
 
-	for iter_29_0, iter_29_1 in ipairs(var_29_1) do
+	for iter_29_0, iter_29_1 in ipairs(var_29_2) do
 		if var_0_1(iter_29_1, arg_29_0.searchKey) and var_0_2(arg_29_0, iter_29_1, arg_29_0.sortData) then
-			table.insert(var_29_0, iter_29_1)
+			local var_29_3 = arg_29_0.characterAgency:GetShipById(iter_29_1)
+
+			if var_29_3 then
+				table.insert(var_29_1, var_29_3)
+			else
+				table.insert(var_29_1, {
+					isInvite = true,
+					configId = iter_29_1
+				})
+			end
 		end
 	end
 
-	local var_29_2 = IslandShipIndexLayer.getSortFuncAndName(arg_29_0.sortData.sortIndex, arg_29_0.selectAsc)
+	local var_29_4 = IslandShipIndexLayer.getSortFuncAndName(arg_29_0.sortData.sortIndex, arg_29_0.selectAsc)
 
-	table.sort(var_29_0, CompareFuncs(var_29_2))
+	table.sort(var_29_1, CompareFuncs(var_29_4))
+
+	for iter_29_2, iter_29_3 in ipairs(var_29_1) do
+		table.insert(var_29_0, iter_29_3.configId)
+	end
 
 	return var_29_0
 end

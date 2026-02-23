@@ -304,7 +304,7 @@ function var_0_0.updateEvalues(arg_6_0)
 		return
 	end
 
-	local var_6_0 = table.contains(TeamType.SubShipType, arg_6_0.shipVO:getShipType())
+	local var_6_0 = table.contains(ShipType.SubShipType, arg_6_0.shipVO:getShipType())
 
 	for iter_6_0, iter_6_1 in pairs(arg_6_0.additionValues.transforms) do
 		if iter_6_0 == AttributeType.Armor or iter_6_0 == AttributeType.Expend or iter_6_0 == AttributeType.HuntingRange and var_6_0 then
@@ -333,7 +333,7 @@ function var_0_0.updateShipAttrs(arg_7_0)
 	}
 
 	local var_7_0 = arg_7_0.shipVO
-	local var_7_1 = table.contains(TeamType.SubShipType, var_7_0:getShipType())
+	local var_7_1 = table.contains(ShipType.SubShipType, var_7_0:getShipType())
 	local var_7_2 = intProperties(var_7_0:isBluePrintShip() and var_7_0:getBluePrint():getShipProperties(var_7_0) or var_7_0:getShipProperties())
 	local var_7_3, var_7_4 = var_7_0:getEquipmentProperties()
 	local var_7_5 = intProperties(var_7_3)
@@ -694,7 +694,7 @@ function var_0_0.doAttrAnim(arg_32_0, arg_32_1, arg_32_2, arg_32_3)
 
 			setActive(var_32_16, false)
 		elseif iter_32_1 == AttributeType.OxyMax or iter_32_1 == AttributeType.Tactics then
-			local var_32_27 = table.contains(TeamType.SubShipType, arg_32_2:getShipType())
+			local var_32_27 = table.contains(ShipType.SubShipType, arg_32_2:getShipType())
 
 			setActive(var_32_14, var_32_27)
 			setActive(var_32_13, var_32_27)

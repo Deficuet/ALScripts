@@ -1,0 +1,39 @@
+return {
+	hideRecord = true,
+	dialogbox = 2,
+	mode = 2,
+	id = "DORM3TIMELINE14002",
+	alpha = 0,
+	hideSkip = true,
+	hideAuto = true,
+	placeholder = {
+		"dorm3d"
+	},
+	scripts = {
+		{
+			bgm = "story-room-agir",
+			stopbgm = true,
+			dispatcher = {
+				nextOne = true,
+				name = STORY_EVENT.TEST,
+				data = {
+					op_list = {
+						{
+							sceneRoot = "Aijier_DB/Aijierhostel",
+							name = "Qihe_49905_02",
+							scene = "map_aijier_01",
+							type = "timeline",
+							skip = false,
+							options = {},
+							touchs = {}
+						}
+					}
+				},
+				callbackData = {
+					hideUI = true,
+					name = STORY_EVENT.TEST_DONE
+				}
+			}
+		}
+	}
+}

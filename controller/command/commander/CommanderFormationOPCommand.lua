@@ -131,6 +131,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 					})
 				else
 					arg_1_0:sendNotification(GAME.SELECT_ELIT_CHAPTER_COMMANDER, {
+						commanderId = 0,
 						chapterId = var_1_17,
 						index = var_1_16,
 						pos = iter_1_2
@@ -147,6 +148,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 
 			for iter_1_3 = 1, 2 do
 				arg_1_0:sendNotification(GAME.SELECT_ELIT_CHAPTER_COMMANDER, {
+					commanderId = 0,
 					chapterId = var_1_17,
 					index = var_1_16,
 					pos = iter_1_3

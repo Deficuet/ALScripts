@@ -26,33 +26,36 @@ end
 
 function var_0_0.CommonInit(arg_5_0)
 	arg_5_0.eventTriggers = {}
-	arg_5_0._startBtn = arg_5_0._tf:Find("right/start")
-	arg_5_0._costContainer = arg_5_0._tf:Find("right/start/cost_container")
+
+	local var_5_0 = arg_5_0._tf:Find("adapt")
+
+	arg_5_0._startBtn = var_5_0:Find("right/start")
+	arg_5_0._costContainer = var_5_0:Find("right/start/cost_container")
 	arg_5_0._popup = arg_5_0._costContainer:Find("popup")
 	arg_5_0._costText = arg_5_0._popup:Find("Text")
-	arg_5_0._moveLayer = arg_5_0._tf:Find("moveLayer")
+	arg_5_0._moveLayer = var_5_0:Find("moveLayer")
 
-	local var_5_0 = arg_5_0._tf:Find("middle")
+	local var_5_1 = var_5_0:Find("middle")
 
-	arg_5_0._autoToggle = arg_5_0._tf:Find("auto_toggle")
-	arg_5_0._autoSubToggle = arg_5_0._tf:Find("sub_toggle_container/sub_toggle")
-	arg_5_0._fleetInfo = var_5_0:Find("fleet_info")
-	arg_5_0._fleetNameText = var_5_0:Find("fleet_info/fleet_name/Text")
-	arg_5_0._fleetNumText = var_5_0:Find("fleet_info/fleet_number")
+	arg_5_0._autoToggle = var_5_0:Find("auto_toggle")
+	arg_5_0._autoSubToggle = var_5_0:Find("sub_toggle_container/sub_toggle")
+	arg_5_0._fleetInfo = var_5_1:Find("fleet_info")
+	arg_5_0._fleetNameText = var_5_1:Find("fleet_info/fleet_name/Text")
+	arg_5_0._fleetNumText = var_5_1:Find("fleet_info/fleet_number")
 
 	setActive(arg_5_0._fleetInfo, arg_5_0.contextData.system ~= SYSTEM_DUEL)
 
-	arg_5_0._mainGS = var_5_0:Find("gear_score/main/Text")
-	arg_5_0._vanguardGS = var_5_0:Find("gear_score/vanguard/Text")
-	arg_5_0._subGS = var_5_0:Find("gear_score/submarine/Text")
-	arg_5_0._bgFleet = var_5_0:Find("mask/grid_bg")
-	arg_5_0._bgSub = var_5_0:Find("mask/bg_sub")
+	arg_5_0._mainGS = var_5_1:Find("gear_score/main/Text")
+	arg_5_0._vanguardGS = var_5_1:Find("gear_score/vanguard/Text")
+	arg_5_0._subGS = var_5_1:Find("gear_score/submarine/Text")
+	arg_5_0._bgFleet = var_5_1:Find("mask/grid_bg")
+	arg_5_0._bgSub = var_5_1:Find("mask/bg_sub")
 	arg_5_0._gridTFs = {
 		[TeamType.Vanguard] = {},
 		[TeamType.Main] = {},
 		[TeamType.Submarine] = {}
 	}
-	arg_5_0._gridFrame = var_5_0:Find("mask/GridFrame")
+	arg_5_0._gridFrame = var_5_1:Find("mask/GridFrame")
 
 	for iter_5_0 = 1, 3 do
 		arg_5_0._gridTFs[TeamType.Main][iter_5_0] = arg_5_0._gridFrame:Find("main_" .. iter_5_0)
@@ -60,34 +63,34 @@ function var_0_0.CommonInit(arg_5_0)
 		arg_5_0._gridTFs[TeamType.Submarine][iter_5_0] = arg_5_0._gridFrame:Find("submarine_" .. iter_5_0)
 	end
 
-	arg_5_0._nextPage = arg_5_0._tf:Find("middle/nextPage")
-	arg_5_0._prevPage = arg_5_0._tf:Find("middle/prevPage")
-	arg_5_0._heroContainer = var_5_0:Find("HeroContainer")
-	arg_5_0._checkBtn = var_5_0:Find("checkBtn")
+	arg_5_0._nextPage = var_5_0:Find("middle/nextPage")
+	arg_5_0._prevPage = var_5_0:Find("middle/prevPage")
+	arg_5_0._heroContainer = var_5_1:Find("HeroContainer")
+	arg_5_0._checkBtn = var_5_1:Find("checkBtn")
 	arg_5_0._blurPanel = arg_5_0._tf:Find("blur_panel")
 	arg_5_0.topPanel = arg_5_0._blurPanel:Find("top")
 	arg_5_0.topPanelBg = arg_5_0._blurPanel:Find("top_bg")
 	arg_5_0._backBtn = arg_5_0.topPanel:Find("back_btn")
-	arg_5_0._spoilsContainer = arg_5_0._tf:Find("right/infomation/atlasloot/spoils/items/items_container")
-	arg_5_0._item = arg_5_0._tf:Find("right/infomation/atlasloot/spoils/items/item_tpl")
+	arg_5_0._spoilsContainer = var_5_0:Find("right/infomation/atlasloot/spoils/items/items_container")
+	arg_5_0._item = var_5_0:Find("right/infomation/atlasloot/spoils/items/item_tpl")
 
 	SetActive(arg_5_0._item, false)
 
-	arg_5_0._goals = arg_5_0._tf:Find("right/infomation/target/goal")
+	arg_5_0._goals = var_5_0:Find("right/infomation/target/goal")
 	arg_5_0._heroInfo = arg_5_0:getTpl("heroInfo")
 	arg_5_0._starTpl = arg_5_0:getTpl("star_tpl")
 
-	setText(findTF(arg_5_0._tf, "middle/gear_score/vanguard/line/Image/Text1"), i18n("pre_combat_vanguard"))
-	setText(findTF(arg_5_0._tf, "middle/gear_score/main/line/Image/Text1"), i18n("pre_combat_main"))
-	setText(findTF(arg_5_0._tf, "middle/gear_score/submarine/line/Image/text1"), i18n("pre_combat_submarine"))
+	setText(findTF(var_5_0, "middle/gear_score/vanguard/line/Image/Text1"), i18n("pre_combat_vanguard"))
+	setText(findTF(var_5_0, "middle/gear_score/main/line/Image/Text1"), i18n("pre_combat_main"))
+	setText(findTF(var_5_0, "middle/gear_score/submarine/line/Image/text1"), i18n("pre_combat_submarine"))
 	setText(arg_5_0._costContainer:Find("title"), i18n("pre_combat_consume"))
-	setText(findTF(arg_5_0._tf, "right/infomation/target/title/GameObject"), i18n("pre_combat_targets"))
-	setText(findTF(arg_5_0._tf, "right/infomation/atlasloot/atlasloot/title/GameObject"), i18n("pre_combat_atlasloot"))
+	setText(findTF(var_5_0, "right/infomation/target/title/GameObject"), i18n("pre_combat_targets"))
+	setText(findTF(var_5_0, "right/infomation/atlasloot/atlasloot/title/GameObject"), i18n("pre_combat_atlasloot"))
 	setText(arg_5_0._startBtn:Find("text"), i18n("pre_combat_start"))
 	setText(arg_5_0._startBtn:Find("text_en"), i18n("pre_combat_start_en"))
 
-	arg_5_0._middle = arg_5_0._tf:Find("middle")
-	arg_5_0._right = arg_5_0._tf:Find("right")
+	arg_5_0._middle = var_5_0:Find("middle")
+	arg_5_0._right = var_5_0:Find("right")
 
 	setAnchoredPosition(arg_5_0._middle, {
 		x = -840
@@ -98,7 +101,7 @@ function var_0_0.CommonInit(arg_5_0)
 
 	arg_5_0.guideDesc = arg_5_0._middle:Find("guideDesc")
 	arg_5_0._costTip = arg_5_0._startBtn:Find("cost_container/popup/tip")
-	arg_5_0._continuousBtn = arg_5_0._tf:Find("right/multiple")
+	arg_5_0._continuousBtn = var_5_0:Find("right/multiple")
 
 	setText(arg_5_0._continuousBtn:Find("text"), i18n("multiple_sorties_title"))
 	setText(arg_5_0._continuousBtn:Find("text_en"), i18n("multiple_sorties_title_eng"))
@@ -481,7 +484,13 @@ function var_0_0.didEnter(arg_37_0)
 			return
 		end
 
-		local var_47_1 = var_37_0:HasPassSeries(var_37_1.id)
+		local var_47_1
+
+		if var_37_0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB then
+			var_47_1 = var_37_0:HasPlayerDefeatSeries(var_37_1.id)
+		else
+			var_47_1 = var_37_0:HasPassSeries(var_37_1.id)
+		end
 
 		setActive(arg_37_0._continuousBtn:Find("lock"), not var_47_1)
 
@@ -501,7 +510,7 @@ function var_0_0.didEnter(arg_37_0)
 
 	local var_37_2 = var_37_1:GetExpeditionIds()
 	local var_37_3 = var_37_1:GetBossIcons()
-	local var_37_4 = arg_37_0._tf:Find("middle/Boss")
+	local var_37_4 = arg_37_0._tf:Find("adapt/middle/Boss")
 
 	UIItemList.StaticAlign(var_37_4, var_37_4:GetChild(0), #var_37_2, function(arg_49_0, arg_49_1, arg_49_2)
 		if arg_49_0 ~= UIItemList.EventUpdate then
@@ -566,7 +575,7 @@ function var_0_0.displayFleetInfo(arg_51_0)
 
 	local var_51_5 = arg_51_0.contextData.seriesData
 	local var_51_6 = var_51_5:GetExpeditionIds()
-	local var_51_7 = arg_51_0._tf:Find("middle/Boss")
+	local var_51_7 = arg_51_0._tf:Find("adapt/middle/Boss")
 
 	UIItemList.StaticAlign(var_51_7, var_51_7:GetChild(0), #var_51_6, function(arg_52_0, arg_52_1, arg_52_2)
 		if arg_52_0 ~= UIItemList.EventUpdate then
@@ -579,12 +588,11 @@ function var_0_0.displayFleetInfo(arg_51_0)
 		setActive(arg_52_2:Find("Image"), var_52_0)
 	end)
 
-	local var_51_8 = arg_51_0.contextData.fleets
-	local var_51_9 = var_51_8[#var_51_8]
-	local var_51_10 = _.slice(var_51_8, 1, #var_51_8 - 1)
-	local var_51_11 = arg_51_0.contextData.mode
-	local var_51_12 = false
-	local var_51_13 = (function()
+	local var_51_8 = arg_51_0.contextData.seriesData.mode
+	local var_51_9 = underscore.to_array(arg_51_0.contextData.fleets)
+	local var_51_10 = table.remove(var_51_9)
+	local var_51_11 = false
+	local var_51_12 = (function()
 		local var_53_0 = 0
 		local var_53_1 = pg.battle_cost_template[var_51_4]
 		local var_53_2 = var_51_5:GetOilLimit()
@@ -598,7 +606,7 @@ function var_0_0.displayFleetInfo(arg_51_0)
 
 				if arg_54_1 > 0 then
 					var_54_0 = math.min(arg_54_1, var_54_0)
-					var_51_12 = var_51_12 and var_54_0 < arg_54_1
+					var_51_11 = var_51_11 and var_54_0 < arg_54_1
 				end
 			end
 
@@ -606,89 +614,75 @@ function var_0_0.displayFleetInfo(arg_51_0)
 		end
 
 		local var_53_5 = #var_51_5:GetExpeditionIds()
+		local var_53_6 = var_53_4(var_51_10, var_53_2[2]) * var_53_5
 
-		if var_51_11 == BossRushSeriesData.MODE.SINGLE then
-			var_53_0 = var_53_0 + var_53_4(var_51_10[1], var_53_2[1])
-			var_53_0 = var_53_0 + var_53_4(var_51_9, var_53_2[2])
-			var_53_0 = var_53_0 * var_53_5
-		else
-			var_53_0 = var_53_4(var_51_9, var_53_2[2]) * var_53_5
-
-			_.each(var_51_10, function(arg_55_0)
-				var_53_0 = var_53_0 + var_53_4(arg_55_0, var_53_2[1])
-			end)
+		for iter_53_0 = 1, var_53_5 do
+			var_53_6 = var_53_6 + var_53_4(var_51_9[iter_53_0] or var_51_9[1], var_53_2[1])
 		end
 
-		return var_53_0
+		return var_53_6
 	end)()
 
-	local function var_51_14()
-		local var_56_0 = 0
-		local var_56_1 = pg.battle_cost_template[var_51_4]
-		local var_56_2 = var_51_5:GetOilLimit()
-		local var_56_3 = var_56_1.oil_cost > 0
+	local function var_51_13()
+		local var_55_0 = 0
+		local var_55_1 = pg.battle_cost_template[var_51_4]
+		local var_55_2 = var_51_5:GetOilLimit()
+		local var_55_3 = var_55_1.oil_cost > 0
 
-		local function var_56_4(arg_57_0, arg_57_1)
-			local var_57_0 = 0
+		local function var_55_4(arg_56_0, arg_56_1)
+			local var_56_0 = 0
 
-			if var_56_3 then
-				var_57_0 = arg_57_0:GetCostSum().oil
+			if var_55_3 then
+				var_56_0 = arg_56_0:GetCostSum().oil
 			end
 
-			return var_57_0
+			return var_56_0
 		end
 
-		local var_56_5 = #var_51_5:GetExpeditionIds()
+		local var_55_5 = #var_51_5:GetExpeditionIds()
+		local var_55_6 = var_55_4(var_51_10, var_55_2[2]) * var_55_5
 
-		if var_51_11 == BossRushSeriesData.MODE.SINGLE then
-			var_56_0 = var_56_0 + var_56_4(var_51_10[1], var_56_2[1])
-			var_56_0 = var_56_0 + var_56_4(var_51_9, var_56_2[2])
-			var_56_0 = var_56_0 * var_56_5
-		else
-			var_56_0 = var_56_4(var_51_9, var_56_2[2]) * var_56_5
-
-			_.each(var_51_10, function(arg_58_0)
-				var_56_0 = var_56_0 + var_56_4(arg_58_0, var_56_2[1])
-			end)
+		for iter_55_0 = 1, var_55_5 do
+			var_55_6 = var_55_6 + var_55_4(var_51_9[iter_55_0] or var_51_9[1], var_55_2[1])
 		end
 
-		return var_56_0
+		return var_55_6
 	end
 
-	local var_51_15 = 0
+	local var_51_14 = 0
 
-	if var_51_12 then
-		var_51_15 = var_51_14()
+	if var_51_11 then
+		var_51_14 = var_51_13()
 	end
 
-	var_0_1.tweenNumText(arg_51_0._costText, var_51_13)
-	setActive(arg_51_0._costTip, var_51_12)
+	var_0_1.tweenNumText(arg_51_0._costText, var_51_12)
+	setActive(arg_51_0._costTip, var_51_11)
 
-	if var_51_12 then
+	if var_51_11 then
 		onButton(arg_51_0, arg_51_0._costTip, function()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				hideNo = true,
-				content = i18n("use_oil_limit_help", var_51_15, var_51_13)
+				content = i18n("use_oil_limit_help", var_51_14, var_51_12)
 			})
 		end)
 	end
 end
 
-function var_0_0.SetFleetStepper(arg_60_0)
-	SetActive(arg_60_0._nextPage, arg_60_0._curFleetIndex < #arg_60_0._legalFleetIdList)
-	SetActive(arg_60_0._prevPage, arg_60_0._curFleetIndex > 1)
+function var_0_0.SetFleetStepper(arg_58_0)
+	SetActive(arg_58_0._nextPage, arg_58_0._curFleetIndex < #arg_58_0._legalFleetIdList)
+	SetActive(arg_58_0._prevPage, arg_58_0._curFleetIndex > 1)
 end
 
-function var_0_0.onBackPressed(arg_61_0)
+function var_0_0.onBackPressed(arg_59_0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
-	triggerButton(arg_61_0._backBtn)
+	triggerButton(arg_59_0._backBtn)
 end
 
-function var_0_0.willExit(arg_62_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_62_0._tf)
-	arg_62_0._formationLogic:Destroy()
+function var_0_0.willExit(arg_60_0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_60_0._tf)
+	arg_60_0._formationLogic:Destroy()
 
-	arg_62_0._formationLogic = nil
+	arg_60_0._formationLogic = nil
 end
 
 return var_0_0

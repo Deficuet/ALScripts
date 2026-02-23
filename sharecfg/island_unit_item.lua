@@ -145,6 +145,26 @@ pg.island_unit_item = {
 		navAgentParam = "",
 		model = "island/item/05/50104/prefab/pre_item_05_50104"
 	},
+	[1030] = {
+		id = 1030,
+		navAgentParam = "",
+		model = "island/item/collider/1002/prefab/fishpound"
+	},
+	[1031] = {
+		id = 1031,
+		navAgentParam = "",
+		model = "island/effect/prefab/game/diaoyu/vfx_diaoyu_diandian"
+	},
+	[1032] = {
+		id = 1032,
+		navAgentParam = "",
+		model = "island/item/02/20160/prefab/pre_item_02_20160"
+	},
+	[1033] = {
+		id = 1033,
+		navAgentParam = "",
+		model = "island/effect/prefab/scene/vfx_yuchipaopao"
+	},
 	[10014] = {
 		id = 10014,
 		navAgentParam = "",
@@ -284,6 +304,26 @@ pg.island_unit_item = {
 		id = 20061,
 		navAgentParam = "",
 		model = "island/item/02/20061/prefab/pre_item_02_20061"
+	},
+	[20062] = {
+		id = 20062,
+		navAgentParam = "",
+		model = "island/item/02/20062/prefab/pre_item_02_20062"
+	},
+	[20063] = {
+		id = 20063,
+		navAgentParam = "",
+		model = "island/item/02/20063/prefab/pre_item_02_20063"
+	},
+	[20064] = {
+		id = 20064,
+		navAgentParam = "",
+		model = "island/item/02/20064/prefab/pre_item_02_20064"
+	},
+	[20065] = {
+		id = 20065,
+		navAgentParam = "",
+		model = "island/item/02/20065/prefab/pre_item_02_20065"
 	},
 	[20100] = {
 		id = 20100,
@@ -520,6 +560,31 @@ pg.island_unit_item = {
 		navAgentParam = "",
 		model = "island/item/02/20158/prefab/pre_item_02_20158"
 	},
+	[20159] = {
+		id = 20159,
+		navAgentParam = "",
+		model = "island/item/02/20159/prefab/pre_item_02_20159"
+	},
+	[20161] = {
+		id = 20161,
+		navAgentParam = "",
+		model = "island/item/02/20161/prefab/pre_item_02_20161"
+	},
+	[20162] = {
+		id = 20162,
+		navAgentParam = "",
+		model = "island/item/02/20162/prefab/pre_item_02_20162"
+	},
+	[20163] = {
+		id = 20163,
+		navAgentParam = "",
+		model = "island/item/02/20163/prefab/pre_item_02_20163"
+	},
+	[20164] = {
+		id = 20164,
+		navAgentParam = "",
+		model = "island/item/02/20164/prefab/pre_item_02_20164"
+	},
 	[60001] = {
 		id = 60001,
 		navAgentParam = "",
@@ -685,6 +750,11 @@ pg.island_unit_item = {
 		navAgentParam = "",
 		model = "island/item/collider/1004/prefab/station"
 	},
+	[100403] = {
+		id = 100403,
+		navAgentParam = "",
+		model = "island/item/collider/1004/prefab/pre_miningdir"
+	},
 	[100701] = {
 		id = 100701,
 		navAgentParam = "",
@@ -709,6 +779,11 @@ pg.island_unit_item = {
 		id = 100902,
 		navAgentParam = "",
 		model = "Island/Unit_Item/Infrastructure/Farm/pre_coffeeshop01_03C"
+	},
+	[100501] = {
+		id = 100501,
+		navAgentParam = "",
+		model = "island/item/collider/1005/prefab/pre_collider"
 	},
 	all = {
 		1001,
@@ -740,6 +815,10 @@ pg.island_unit_item = {
 		1027,
 		1028,
 		1029,
+		1030,
+		1031,
+		1032,
+		1033,
 		10014,
 		10015,
 		10016,
@@ -768,6 +847,10 @@ pg.island_unit_item = {
 		20054,
 		20060,
 		20061,
+		20062,
+		20063,
+		20064,
+		20065,
 		20100,
 		20101,
 		20102,
@@ -815,6 +898,11 @@ pg.island_unit_item = {
 		20153,
 		20154,
 		20158,
+		20159,
+		20161,
+		20162,
+		20163,
+		20164,
 		60001,
 		60002,
 		60003,
@@ -848,10 +936,12 @@ pg.island_unit_item = {
 		100204,
 		100401,
 		100402,
+		100403,
 		100701,
 		100702,
 		100703,
 		100901,
-		100902
+		100902,
+		100501
 	}
 }

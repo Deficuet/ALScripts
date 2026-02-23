@@ -174,7 +174,6 @@ pg.island_task = setmetatable({
 			20012008,
 			20012009,
 			20012010,
-			20013000,
 			20013001,
 			20013002,
 			20013003,
@@ -187,9 +186,18 @@ pg.island_task = setmetatable({
 			20014002,
 			20014003,
 			20015001,
-			20015002
+			20015002,
+			20016001,
+			20016002,
+			20016003,
+			20016004,
+			20017001,
+			20017002,
+			20017003
 		},
 		[5] = {
+			50000001,
+			50000002,
 			50001001,
 			50001002,
 			50001003,
@@ -197,6 +205,13 @@ pg.island_task = setmetatable({
 			50001005,
 			50001006,
 			50001007,
+			50001008,
+			50001009,
+			50001010,
+			50001011,
+			50001012,
+			50001013,
+			50001014,
 			50002001,
 			50002002,
 			50002003,
@@ -204,10 +219,21 @@ pg.island_task = setmetatable({
 			50002005,
 			50002006,
 			50002007,
+			50002008,
+			50002009,
+			50002010,
+			50002011,
+			50002012,
+			50002013,
+			50002014,
 			50003001,
 			50003002,
 			50003003,
-			50003004
+			50003004,
+			50003005,
+			50003006,
+			50003007,
+			50003008
 		},
 		[8] = {
 			80001001,
@@ -239,7 +265,70 @@ pg.island_task = setmetatable({
 			80001027,
 			80001028,
 			80001029,
-			80001030
+			80001030,
+			80001101,
+			80001102,
+			80001103,
+			80001104,
+			80001105,
+			80001106,
+			80001107,
+			80001108,
+			80001109,
+			80001110,
+			80001111,
+			80001112,
+			80001113,
+			80001114,
+			80001115,
+			80001116,
+			80001117,
+			80001118,
+			80001119,
+			80001120,
+			80001121,
+			80001122,
+			80001123,
+			80001124,
+			80001125,
+			80001126,
+			80001127,
+			80001128,
+			80001129,
+			80001130,
+			80001201,
+			80001202,
+			80001203,
+			80001204,
+			80001205,
+			80001206,
+			80001207,
+			80001208,
+			80001209,
+			80001210,
+			80001211,
+			80001212,
+			80001213,
+			80001214,
+			80001215,
+			80001216,
+			80001217,
+			80001218,
+			80001219,
+			80001220,
+			80001221,
+			80001222,
+			80001223,
+			80001224,
+			80001225,
+			80001226,
+			80001227,
+			80001228,
+			80001229,
+			80001230
+		},
+		[9] = {
+			20013000
 		},
 		{
 			30000001,
@@ -387,6 +476,8 @@ pg.island_task = setmetatable({
 		10004020,
 		10004030,
 		10019999,
+		50000001,
+		50000002,
 		50001001,
 		50001002,
 		50001003,
@@ -394,6 +485,13 @@ pg.island_task = setmetatable({
 		50001005,
 		50001006,
 		50001007,
+		50001008,
+		50001009,
+		50001010,
+		50001011,
+		50001012,
+		50001013,
+		50001014,
 		50002001,
 		50002002,
 		50002003,
@@ -401,10 +499,21 @@ pg.island_task = setmetatable({
 		50002005,
 		50002006,
 		50002007,
+		50002008,
+		50002009,
+		50002010,
+		50002011,
+		50002012,
+		50002013,
+		50002014,
 		50003001,
 		50003002,
 		50003003,
 		50003004,
+		50003005,
+		50003006,
+		50003007,
+		50003008,
 		80001001,
 		80001002,
 		80001003,
@@ -435,6 +544,66 @@ pg.island_task = setmetatable({
 		80001028,
 		80001029,
 		80001030,
+		80001101,
+		80001102,
+		80001103,
+		80001104,
+		80001105,
+		80001106,
+		80001107,
+		80001108,
+		80001109,
+		80001110,
+		80001111,
+		80001112,
+		80001113,
+		80001114,
+		80001115,
+		80001116,
+		80001117,
+		80001118,
+		80001119,
+		80001120,
+		80001121,
+		80001122,
+		80001123,
+		80001124,
+		80001125,
+		80001126,
+		80001127,
+		80001128,
+		80001129,
+		80001130,
+		80001201,
+		80001202,
+		80001203,
+		80001204,
+		80001205,
+		80001206,
+		80001207,
+		80001208,
+		80001209,
+		80001210,
+		80001211,
+		80001212,
+		80001213,
+		80001214,
+		80001215,
+		80001216,
+		80001217,
+		80001218,
+		80001219,
+		80001220,
+		80001221,
+		80001222,
+		80001223,
+		80001224,
+		80001225,
+		80001226,
+		80001227,
+		80001228,
+		80001229,
+		80001230,
 		20001001,
 		20001002,
 		20001003,
@@ -531,6 +700,13 @@ pg.island_task = setmetatable({
 		20014003,
 		20015001,
 		20015002,
+		20016001,
+		20016002,
+		20016003,
+		20016004,
+		20017001,
+		20017002,
+		20017003,
 		30000001,
 		30000002,
 		30000003,
@@ -600,6 +776,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "First Arrival",
 		navigation = 1004,
 		unlock_time = "always",
@@ -632,6 +809,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "First Arrival",
 		navigation = 1004,
 		com_perform = "",
@@ -665,6 +843,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		series = "First Arrival",
 		navigation = 1004,
 		unlock_time = "always",
@@ -708,6 +887,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		series = "First Arrival",
 		navigation = 1004,
 		unlock_time = "always",
@@ -751,6 +931,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "First Arrival",
 		navigation = 1004,
 		unlock_time = "always",
@@ -794,6 +975,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "First Arrival",
 		navigation = 1004,
 		com_perform = "",
@@ -834,6 +1016,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "First Arrival",
 		navigation = 1004,
 		com_perform = "",
@@ -874,6 +1057,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		is_tech_task = 1,
 		reward_show = "",
+		count_offset = 1,
 		series = "First Arrival",
 		navigation = 1002,
 		com_perform = "",
@@ -912,6 +1096,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "First Arrival",
 		navigation = 1002,
 		com_perform = "",
@@ -945,6 +1130,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "First Arrival",
 		navigation = 1002,
 		unlock_time = "always",
@@ -988,6 +1174,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "First Arrival",
 		navigation = 1002,
 		com_perform = "",
@@ -1028,6 +1215,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "First Arrival",
 		navigation = 1002,
 		unlock_time = "always",
@@ -1071,6 +1259,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "First Arrival",
 		navigation = 1002,
 		com_perform = "",
@@ -1111,6 +1300,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "First Arrival",
 		navigation = 1007,
 		unlock_time = "always",
@@ -1160,6 +1350,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "First Arrival",
 		navigation = 1007,
 		com_perform = "",
@@ -1193,6 +1384,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "First Arrival",
 		navigation = 1007,
 		unlock_time = "always",
@@ -1236,6 +1428,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "First Arrival",
 		navigation = 1007,
 		unlock_time = "always",
@@ -1279,6 +1472,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "First Arrival",
 		navigation = 1007,
 		unlock_time = "always",
@@ -1323,6 +1517,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "First Arrival",
 		navigation = 1007,
 		com_perform = "",
@@ -1356,6 +1551,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "First Arrival",
 		navigation = 1002,
 		com_perform = "",
@@ -1396,6 +1592,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "First Arrival",
 		navigation = 1002,
 		unlock_time = "always",
@@ -1450,6 +1647,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "First Arrival",
 		navigation = 1002,
 		com_perform = "",
@@ -1483,6 +1681,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1002,
 		com_perform = "",
@@ -1528,6 +1727,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1002,
 		unlock_time = "always",
@@ -1572,6 +1772,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "Indebted",
 		navigation = 1002,
 		com_perform = "",
@@ -1606,6 +1807,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "Indebted",
 		navigation = 1002,
 		com_perform = "",
@@ -1639,6 +1841,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1002,
 		unlock_time = "always",
@@ -1688,6 +1891,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1002,
 		com_perform = "",
@@ -1722,6 +1926,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1002,
 		unlock_time = "always",
@@ -1759,6 +1964,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "Indebted",
 		navigation = 0,
 		com_perform = "",
@@ -1792,6 +1998,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1002,
 		unlock_time = "always",
@@ -1835,6 +2042,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1001,
 		com_perform = "",
@@ -1876,6 +2084,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "Indebted",
 		navigation = 1001,
 		com_perform = "",
@@ -1909,6 +2118,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1001,
 		unlock_time = "always",
@@ -1952,6 +2162,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1001,
 		com_perform = "",
@@ -1992,6 +2203,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1001,
 		unlock_time = "always",
@@ -2035,6 +2247,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1001,
 		com_perform = "",
@@ -2075,6 +2288,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1001,
 		unlock_time = "always",
@@ -2118,6 +2332,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "Indebted",
 		navigation = 1001,
 		com_perform = "",
@@ -2158,6 +2373,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1001,
 		com_perform = "",
@@ -2198,6 +2414,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1001,
 		com_perform = "",
@@ -2244,6 +2461,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "Indebted",
 		navigation = 0,
 		com_perform = "",
@@ -2277,6 +2495,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1002,
 		com_perform = "",
@@ -2317,6 +2536,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1002,
 		com_perform = "",
@@ -2357,6 +2577,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1002,
 		unlock_time = "always",
@@ -2400,6 +2621,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1002,
 		unlock_time = "always",
@@ -2443,6 +2665,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1002,
 		com_perform = "",
@@ -2483,6 +2706,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1002,
 		unlock_time = "always",
@@ -2526,6 +2750,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1002,
 		com_perform = "",
@@ -2577,6 +2802,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "Indebted",
 		navigation = 0,
 		com_perform = "",
@@ -2610,6 +2836,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1002,
 		com_perform = "",
@@ -2650,6 +2877,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1002,
 		unlock_time = "always",
@@ -2695,6 +2923,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1004,
 		unlock_time = "always",
@@ -2741,6 +2970,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1001,
 		unlock_time = "always",
@@ -2788,6 +3018,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1002,
 		com_perform = "",
@@ -2828,6 +3059,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1002,
 		com_perform = "",
@@ -2869,6 +3101,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "Indebted",
 		navigation = 1002,
 		unlock_time = "always",
@@ -2905,6 +3138,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1002,
 		com_perform = "",
@@ -2945,6 +3179,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1003,
 		unlock_time = "always",
@@ -2988,11 +3223,12 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1003,
 		unlock_time = "always",
 		trigger_data = 0,
-		complete_data = 10030003,
+		complete_data = 10030006,
 		map_complete_tips = 1003,
 		rec_perform = "",
 		task_desc = "Use the device to send an airdrop signal.",
@@ -3006,8 +3242,8 @@ pg.base.island_task = {
 		},
 		link_task = {},
 		com_perform = {
-			1,
-			"ISLAND1001032_2"
+			2,
+			"ISLANDPERFORMANCE_PATH_10"
 		},
 		target_id = {
 			100022901
@@ -3031,6 +3267,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1003,
 		com_perform = "",
@@ -3071,6 +3308,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1003,
 		unlock_time = "always",
@@ -3114,6 +3352,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1003,
 		unlock_time = "always",
@@ -3157,6 +3396,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1003,
 		unlock_time = "always",
@@ -3200,6 +3440,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1003,
 		unlock_time = "always",
@@ -3244,6 +3485,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1003,
 		com_perform = "",
@@ -3284,6 +3526,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1003,
 		com_perform = "",
@@ -3324,6 +3567,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Indebted",
 		navigation = 1002,
 		unlock_time = "always",
@@ -3373,6 +3617,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "Indebted",
 		navigation = 0,
 		com_perform = "",
@@ -3407,6 +3652,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "New Sprouts",
 		navigation = 1002,
 		com_perform = "",
@@ -3440,6 +3686,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "New Sprouts",
 		navigation = 1006,
 		unlock_time = "always",
@@ -3483,6 +3730,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		series = "New Sprouts",
 		navigation = 1006,
 		com_perform = "",
@@ -3523,6 +3771,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "New Sprouts",
 		navigation = 1006,
 		unlock_time = "always",
@@ -3566,6 +3815,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "New Sprouts",
 		navigation = 1006,
 		unlock_time = "always",
@@ -3610,6 +3860,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "New Sprouts",
 		navigation = 1005,
 		unlock_time = "always",
@@ -3646,6 +3897,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "New Sprouts",
 		navigation = 1005,
 		com_perform = "",
@@ -3686,6 +3938,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "New Sprouts",
 		navigation = 1005,
 		unlock_time = "always",
@@ -3729,6 +3982,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		series = "New Sprouts",
 		navigation = 1005,
 		unlock_time = "always",
@@ -3777,6 +4031,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "New Sprouts",
 		navigation = 1005,
 		unlock_time = "always",
@@ -3821,6 +4076,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "New Sprouts",
 		navigation = 1005,
 		unlock_time = "always",
@@ -3857,6 +4113,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "New Sprouts",
 		navigation = 1005,
 		unlock_time = "always",
@@ -3900,6 +4157,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "New Sprouts",
 		navigation = 1005,
 		unlock_time = "always",
@@ -3954,6 +4212,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "New Sprouts",
 		navigation = 0,
 		com_perform = "",
@@ -3987,6 +4246,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Development",
 		navigation = 1007,
 		com_perform = "",
@@ -4027,6 +4287,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Development",
 		navigation = 1007,
 		unlock_time = "always",
@@ -4070,6 +4331,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		series = "Development",
 		navigation = 1007,
 		unlock_time = "always",
@@ -4118,6 +4380,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -4155,6 +4418,138 @@ pg.base.island_task = {
 			}
 		}
 	},
+	[50000001] = {
+		name = "Improvement in Progress",
+		trigger_tips = 1,
+		reward_exp = 0,
+		type = 5,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "The island's development has run into trouble. Peary seems to be in an infinite loop of redoing things. You should go check on her.",
+		series_name = "Island Season",
+		id = 50000001,
+		unlock_condition = {
+			{
+				2,
+				20015002
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			500000011
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				2000
+			}
+		}
+	},
+	[50000002] = {
+		name = "New Season, New Start!",
+		trigger_tips = 1,
+		reward_exp = 0,
+		type = 5,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Peary is working on a development plan for the new season. Go ask her what she's got!",
+		series_name = "Island Season",
+		id = 50000002,
+		unlock_condition = {
+			{
+				2,
+				20015002
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			500000021
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				2000
+			}
+		}
+	},
 	[50001001] = {
 		name = "Gather Autumn Specialties (1/7)",
 		trigger_tips = 0,
@@ -4166,6 +4561,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Autumn Specialties",
 		navigation = 0,
 		com_perform = "",
@@ -4198,8 +4594,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -4236,6 +4632,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Autumn Specialties",
 		navigation = 0,
 		com_perform = "",
@@ -4268,8 +4665,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -4308,6 +4705,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Autumn Specialties",
 		navigation = 0,
 		com_perform = "",
@@ -4340,8 +4738,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -4380,6 +4778,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Autumn Specialties",
 		navigation = 0,
 		com_perform = "",
@@ -4412,8 +4811,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -4452,6 +4851,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Autumn Specialties",
 		navigation = 0,
 		com_perform = "",
@@ -4484,8 +4884,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -4529,6 +4929,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Autumn Specialties",
 		navigation = 0,
 		com_perform = "",
@@ -4561,8 +4962,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -4606,6 +5007,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Autumn Specialties",
 		navigation = 0,
 		com_perform = "",
@@ -4638,8 +5040,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -4672,6 +5074,530 @@ pg.base.island_task = {
 			}
 		}
 	},
+	[50001008] = {
+		name = "Gather Spring Specialties (1/7)",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 5,
+		complete_tips = "Go see Peary.",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[Spring Specialties]",
+		navigation = 0,
+		com_perform = "",
+		trigger_data = 0,
+		complete_data = 10020025,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		task_desc = "It seems there are loads of spring gatherables around the island. Commander, could you help me get some?\n<Gatherable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>Spring Bamboo Shoots</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>Winter Jasmine</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>Hyacinth</material></color>",
+		series_name = "Event Gatherable",
+		id = 50001008,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			50001008
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				5
+			},
+			{
+				41,
+				100101,
+				1
+			}
+		}
+	},
+	[50001009] = {
+		name = "Gather Spring Specialties (2/7)",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 5,
+		complete_tips = "Go see Peary.",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[Spring Specialties]",
+		navigation = 0,
+		com_perform = "",
+		trigger_data = 0,
+		complete_data = 10020025,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		task_desc = "It seems there are loads of spring gatherables around the island. Commander, could you help me get some?\n<Gatherable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>Spring Bamboo Shoots</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>Winter Jasmine</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>Hyacinth</material></color>",
+		series_name = "Event Gatherable",
+		id = 50001009,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50001008
+		},
+		target_id = {
+			50001009
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				6
+			},
+			{
+				41,
+				100101,
+				2
+			}
+		}
+	},
+	[50001010] = {
+		name = "Gather Spring Specialties (3/7)",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 5,
+		complete_tips = "Go see Peary.",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[Spring Specialties]",
+		navigation = 0,
+		com_perform = "",
+		trigger_data = 0,
+		complete_data = 10020025,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		task_desc = "It seems there are loads of spring gatherables around the island. Commander, could you help me get some?\n<Gatherable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>Spring Bamboo Shoots</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>Winter Jasmine</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>Hyacinth</material></color>",
+		series_name = "Event Gatherable",
+		id = 50001010,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50001009
+		},
+		target_id = {
+			50001010
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				6
+			},
+			{
+				41,
+				100102,
+				1
+			}
+		}
+	},
+	[50001011] = {
+		name = "Gather Spring Specialties (4/7)",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 5,
+		complete_tips = "Go see Peary.",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[Spring Specialties]",
+		navigation = 0,
+		com_perform = "",
+		trigger_data = 0,
+		complete_data = 10020025,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		task_desc = "It seems there are loads of spring gatherables around the island. Commander, could you help me get some?\n<Gatherable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>Spring Bamboo Shoots</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>Winter Jasmine</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>Hyacinth</material></color>",
+		series_name = "Event Gatherable",
+		id = 50001011,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50001010
+		},
+		target_id = {
+			50001011
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				3
+			},
+			{
+				41,
+				100102,
+				2
+			}
+		}
+	},
+	[50001012] = {
+		name = "Gather Spring Specialties (5/7)",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 5,
+		complete_tips = "Go see Peary.",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[Spring Specialties]",
+		navigation = 0,
+		com_perform = "",
+		trigger_data = 0,
+		complete_data = 10020025,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		task_desc = "It seems there are loads of spring gatherables around the island. Commander, could you help me get some?\n<Gatherable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>Spring Bamboo Shoots</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>Winter Jasmine</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>Hyacinth</material></color>",
+		series_name = "Event Gatherable",
+		id = 50001012,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50001011
+		},
+		target_id = {
+			50001012
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				3
+			},
+			{
+				41,
+				100103,
+				1
+			},
+			{
+				41,
+				100011,
+				2
+			}
+		}
+	},
+	[50001013] = {
+		name = "Gather Spring Specialties (6/7)",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 5,
+		complete_tips = "Go see Peary.",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[Spring Specialties]",
+		navigation = 0,
+		com_perform = "",
+		trigger_data = 0,
+		complete_data = 10020025,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		task_desc = "It seems there are loads of spring gatherables around the island. Commander, could you help me get some?\n<Gatherable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>Spring Bamboo Shoots</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>Winter Jasmine</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>Hyacinth</material></color>",
+		series_name = "Event Gatherable",
+		id = 50001013,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50001012
+		},
+		target_id = {
+			50001013
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				2
+			},
+			{
+				41,
+				100103,
+				1
+			},
+			{
+				41,
+				100021,
+				2
+			}
+		}
+	},
+	[50001014] = {
+		name = "Gather Spring Specialties (7/7)",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 5,
+		complete_tips = "Go see Peary.",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[Spring Specialties]",
+		navigation = 0,
+		com_perform = "",
+		trigger_data = 0,
+		complete_data = 10020025,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		task_desc = "It seems there are loads of spring gatherables around the island. Commander, could you help me get some?\n<Gatherable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4015}>Spring Bamboo Shoots</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4016}>Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4017}>Winter Jasmine</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4018}>Hyacinth</material></color>",
+		series_name = "Event Gatherable",
+		id = 50001014,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50001013
+		},
+		target_id = {
+			50001014
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				2
+			},
+			{
+				41,
+				100103,
+				3
+			},
+			{
+				41,
+				100031,
+				2
+			}
+		}
+	},
 	[50002001] = {
 		name = "Make Autumn Specialties (1/7)",
 		trigger_tips = 0,
@@ -4683,6 +5609,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Autumn Specialties",
 		navigation = 0,
 		com_perform = "",
@@ -4715,8 +5642,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -4753,6 +5680,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Autumn Specialties",
 		navigation = 0,
 		com_perform = "",
@@ -4785,8 +5713,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -4825,6 +5753,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Autumn Specialties",
 		navigation = 0,
 		com_perform = "",
@@ -4857,8 +5786,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -4897,6 +5826,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Autumn Specialties",
 		navigation = 0,
 		com_perform = "",
@@ -4929,8 +5859,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -4969,6 +5899,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Autumn Specialties",
 		navigation = 0,
 		com_perform = "",
@@ -5001,8 +5932,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -5046,6 +5977,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Autumn Specialties",
 		navigation = 0,
 		com_perform = "",
@@ -5078,8 +6010,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -5123,6 +6055,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Autumn Specialties",
 		navigation = 0,
 		com_perform = "",
@@ -5155,8 +6088,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -5189,6 +6122,530 @@ pg.base.island_task = {
 			}
 		}
 	},
+	[50002008] = {
+		name = "Make Spring Specialties (1/7)",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 5,
+		complete_tips = "Go see Peary.",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[Spring Specialties]",
+		navigation = 0,
+		com_perform = "",
+		trigger_data = 0,
+		complete_data = 10020025,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		task_desc = "These spring specialties seem like they'd generate good economic value. Commander, for the sake of the island's development, please procure some!\n<Producible/Harvestable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4019}>Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4021}>Pineapple</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4023}>Fresh Pineapple Juice</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4024}>Winter Jasmine Tea</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4025}>Cold Mixed Bamboo Shoots and Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4026}>Shrimp and Asparagus Stir-Fry</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4027}>Dried Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4028}>Spring Bouquet</material></color>",
+		series_name = "Event Recipe",
+		id = 50002008,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			50002008
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				5
+			},
+			{
+				41,
+				100101,
+				1
+			}
+		}
+	},
+	[50002009] = {
+		name = "Make Spring Specialties (2/7)",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 5,
+		complete_tips = "Go see Peary.",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[Spring Specialties]",
+		navigation = 0,
+		com_perform = "",
+		trigger_data = 0,
+		complete_data = 10020025,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		task_desc = "These spring specialties seem like they'd generate good economic value. Commander, for the sake of the island's development, please procure some!\n<Producible/Harvestable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4019}>Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4021}>Pineapple</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4023}>Fresh Pineapple Juice</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4024}>Winter Jasmine Tea</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4025}>Cold Mixed Bamboo Shoots and Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4026}>Shrimp and Asparagus Stir-Fry</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4027}>Dried Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4028}>Spring Bouquet</material></color>",
+		series_name = "Event Recipe",
+		id = 50002009,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50002008
+		},
+		target_id = {
+			50002009
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				6
+			},
+			{
+				41,
+				100101,
+				2
+			}
+		}
+	},
+	[50002010] = {
+		name = "Make Spring Specialties (3/7)",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 5,
+		complete_tips = "Go see Peary.",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[Spring Specialties]",
+		navigation = 0,
+		com_perform = "",
+		trigger_data = 0,
+		complete_data = 10020025,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		task_desc = "These spring specialties seem like they'd generate good economic value. Commander, for the sake of the island's development, please procure some!\n<Producible/Harvestable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4019}>Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4021}>Pineapple</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4023}>Fresh Pineapple Juice</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4024}>Winter Jasmine Tea</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4025}>Cold Mixed Bamboo Shoots and Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4026}>Shrimp and Asparagus Stir-Fry</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4027}>Dried Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4028}>Spring Bouquet</material></color>",
+		series_name = "Event Recipe",
+		id = 50002010,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50002009
+		},
+		target_id = {
+			50002010
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				6
+			},
+			{
+				41,
+				100102,
+				1
+			}
+		}
+	},
+	[50002011] = {
+		name = "Make Spring Specialties (4/7)",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 5,
+		complete_tips = "Go see Peary.",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[Spring Specialties]",
+		navigation = 0,
+		com_perform = "",
+		trigger_data = 0,
+		complete_data = 10020025,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		task_desc = "These spring specialties seem like they'd generate good economic value. Commander, for the sake of the island's development, please procure some!\n<Producible/Harvestable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4019}>Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4021}>Pineapple</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4023}>Fresh Pineapple Juice</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4024}>Winter Jasmine Tea</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4025}>Cold Mixed Bamboo Shoots and Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4026}>Shrimp and Asparagus Stir-Fry</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4027}>Dried Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4028}>Spring Bouquet</material></color>",
+		series_name = "Event Recipe",
+		id = 50002011,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50002010
+		},
+		target_id = {
+			50002011
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				3
+			},
+			{
+				41,
+				100102,
+				2
+			}
+		}
+	},
+	[50002012] = {
+		name = "Make Spring Specialties (5/7)",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 5,
+		complete_tips = "Go see Peary.",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[Spring Specialties]",
+		navigation = 0,
+		com_perform = "",
+		trigger_data = 0,
+		complete_data = 10020025,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		task_desc = "These spring specialties seem like they'd generate good economic value. Commander, for the sake of the island's development, please procure some!\n<Producible/Harvestable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4019}>Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4021}>Pineapple</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4023}>Fresh Pineapple Juice</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4024}>Winter Jasmine Tea</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4025}>Cold Mixed Bamboo Shoots and Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4026}>Shrimp and Asparagus Stir-Fry</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4027}>Dried Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4028}>Spring Bouquet</material></color>",
+		series_name = "Event Recipe",
+		id = 50002012,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50002011
+		},
+		target_id = {
+			50002012
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				3
+			},
+			{
+				41,
+				100103,
+				1
+			},
+			{
+				41,
+				100041,
+				2
+			}
+		}
+	},
+	[50002013] = {
+		name = "Make Spring Specialties (6/7)",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 5,
+		complete_tips = "Go see Peary.",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[Spring Specialties]",
+		navigation = 0,
+		com_perform = "",
+		trigger_data = 0,
+		complete_data = 10020025,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		task_desc = "These spring specialties seem like they'd generate good economic value. Commander, for the sake of the island's development, please procure some!\n<Producible/Harvestable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4019}>Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4021}>Pineapple</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4023}>Fresh Pineapple Juice</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4024}>Winter Jasmine Tea</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4025}>Cold Mixed Bamboo Shoots and Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4026}>Shrimp and Asparagus Stir-Fry</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4027}>Dried Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4028}>Spring Bouquet</material></color>",
+		series_name = "Event Recipe",
+		id = 50002013,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50002012
+		},
+		target_id = {
+			50002013
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				2
+			},
+			{
+				41,
+				100103,
+				1
+			},
+			{
+				41,
+				100051,
+				2
+			}
+		}
+	},
+	[50002014] = {
+		name = "Make Spring Specialties (7/7)",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 5,
+		complete_tips = "Go see Peary.",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[Spring Specialties]",
+		navigation = 0,
+		com_perform = "",
+		trigger_data = 0,
+		complete_data = 10020025,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		task_desc = "These spring specialties seem like they'd generate good economic value. Commander, for the sake of the island's development, please procure some!\n<Producible/Harvestable Specialties> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4019}>Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4021}>Pineapple</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4023}>Fresh Pineapple Juice</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4024}>Winter Jasmine Tea</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4025}>Cold Mixed Bamboo Shoots and Asparagus</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4026}>Shrimp and Asparagus Stir-Fry</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4027}>Dried Shepherd's Purse</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4028}>Spring Bouquet</material></color>",
+		series_name = "Event Recipe",
+		id = 50002014,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50002013
+		},
+		target_id = {
+			50002014
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				2
+			},
+			{
+				41,
+				100103,
+				3
+			},
+			{
+				41,
+				100061,
+				2
+			}
+		}
+	},
 	[50003001] = {
 		name = "Autumn Specialty Order (1/4)",
 		trigger_tips = 0,
@@ -5200,6 +6657,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Autumn Specialties",
 		navigation = 0,
 		com_perform = "",
@@ -5232,8 +6690,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -5270,6 +6728,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Autumn Specialties",
 		navigation = 0,
 		com_perform = "",
@@ -5302,8 +6761,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -5342,6 +6801,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Autumn Specialties",
 		navigation = 0,
 		com_perform = "",
@@ -5374,8 +6834,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -5414,6 +6874,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "Autumn Specialties",
 		navigation = 0,
 		com_perform = "",
@@ -5446,8 +6907,8 @@ pg.base.island_task = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -5475,6 +6936,296 @@ pg.base.island_task = {
 			}
 		}
 	},
+	[50003005] = {
+		name = "Spring Specialty Order (1/4)",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 5,
+		complete_tips = "Go see Peary.",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[Spring Specialties]",
+		navigation = 0,
+		com_perform = "",
+		trigger_data = 0,
+		complete_data = 10020025,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		task_desc = "I'll put the specialties you bring in to good use to develop the island! Let's keep the development plan moving steadily forward!",
+		series_name = "Event Request",
+		id = 50003005,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			50003005
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				6
+			},
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	},
+	[50003006] = {
+		name = "Spring Specialty Order (2/4)",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 5,
+		complete_tips = "Go see Peary.",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[Spring Specialties]",
+		navigation = 0,
+		com_perform = "",
+		trigger_data = 0,
+		complete_data = 10020025,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		task_desc = "I'll put the specialties you bring in to good use to develop the island! Let's keep the development plan moving steadily forward!",
+		series_name = "Event Request",
+		id = 50003006,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50003005
+		},
+		target_id = {
+			50003006
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				3
+			},
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	},
+	[50003007] = {
+		name = "Spring Specialty Order (3/4)",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 5,
+		complete_tips = "Go see Peary.",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[Spring Specialties]",
+		navigation = 0,
+		com_perform = "",
+		trigger_data = 0,
+		complete_data = 10020025,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		task_desc = "I'll put the specialties you bring in to good use to develop the island! Let's keep the development plan moving steadily forward!",
+		series_name = "Event Request",
+		id = 50003007,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50003006
+		},
+		target_id = {
+			50003007
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				3
+			},
+			{
+				41,
+				100201,
+				3
+			}
+		}
+	},
+	[50003008] = {
+		name = "Spring Specialty Order (4/4)",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 5,
+		complete_tips = "Go see Peary.",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[Spring Specialties]",
+		navigation = 0,
+		com_perform = "",
+		trigger_data = 0,
+		complete_data = 10020025,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		task_desc = "I'll put the specialties you bring in to good use to develop the island! Let's keep the development plan moving steadily forward!",
+		series_name = "Event Request",
+		id = 50003008,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					1
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50003007
+		},
+		target_id = {
+			50003008
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				2
+			},
+			{
+				45,
+				101,
+				1
+			}
+		}
+	},
 	[80001001] = {
 		name = "Watching the Fields",
 		trigger_tips = 0,
@@ -5486,10 +7237,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -5531,10 +7283,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -5576,10 +7329,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -5621,10 +7375,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -5666,10 +7421,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -5711,10 +7467,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -5756,10 +7513,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -5801,10 +7559,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -5846,10 +7605,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -5891,10 +7651,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -5936,10 +7697,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -5981,10 +7743,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -6026,10 +7789,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -6071,10 +7835,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -6116,10 +7881,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -6151,7 +7917,7 @@ pg.base.island_task = {
 		}
 	},
 	[80001016] = {
-		name = "Fast Food",
+		name = "Quick and Easy Meal",
 		trigger_tips = 0,
 		reward_exp = 0,
 		type = 8,
@@ -6161,10 +7927,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -6206,10 +7973,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -6241,10 +8009,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -6281,10 +8050,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -6321,10 +8091,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -6351,7 +8122,7 @@ pg.base.island_task = {
 		}
 	},
 	[80001021] = {
-		name = "Space to Spare",
+		name = "Well Stocked",
 		trigger_tips = 0,
 		reward_exp = 0,
 		type = 8,
@@ -6361,10 +8132,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -6401,10 +8173,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -6441,10 +8214,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -6486,10 +8260,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -6521,10 +8296,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -6561,10 +8337,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -6601,10 +8378,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -6641,10 +8419,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -6681,10 +8460,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -6726,10 +8506,11 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
-		unlock_time = "always",
+		unlock_time = "stop",
 		trigger_data = 0,
 		complete_data = 0,
 		map_complete_tips = 0,
@@ -6760,6 +8541,2636 @@ pg.base.island_task = {
 			}
 		}
 	},
+	[80001101] = {
+		name = "Watching the Fields",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Supply wheat to Island Warehouse to bolster food stores.\nDeliver 500 Wheat.",
+		series_name = "",
+		id = 80001101,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011001
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001102] = {
+		name = "The Beasts Hunger",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Supply fresh grass to the pasture for animal feed.\nDeliver 500 Grass.",
+		series_name = "",
+		id = 80001102,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011002
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001103] = {
+		name = "Beans or Bust",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Supply high-protein soy beans to enrich food processing.\nDeliver 500 Soy Beans.",
+		series_name = "",
+		id = 80001103,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011003
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001104] = {
+		name = "More Rice!",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "A stable supply of staple foods is necessary for development.\nDeliver 500 Rice.",
+		series_name = "",
+		id = 80001104,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011004
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001105] = {
+		name = "Golden Granary",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Supply vast cobs of corn to add variety to the islanders' diets.\nDeliver 500 Corn.",
+		series_name = "",
+		id = 80001105,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011005
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001106] = {
+		name = "The Juiciest of Oranges",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Supply carrots to support vitamin intake and health.\nDeliver 250 Carrots.",
+		series_name = "",
+		id = 80001106,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011006
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001107] = {
+		name = "Donations of Dairy",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Supply milk to bolster calcium intake.\nDeliver 250 Milk.",
+		series_name = "",
+		id = 80001107,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011007
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001108] = {
+		name = "Sugar in the Tank",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Supply apple juice to increase development efficiency.\nDeliver 250 Apple Juice.",
+		series_name = "",
+		id = 80001108,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011008
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001109] = {
+		name = "Needs More Coffee",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Feed that addiction and maintain morale with iced coffee.\nDeliver 250 Iced Coffee.",
+		series_name = "",
+		id = 80001109,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011009
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001110] = {
+		name = "Meat Is Energy",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Supply coal-roasted skewers for quick re-energizing.\nDeliver 250 Coal-Roasted Skewers.",
+		series_name = "",
+		id = 80001110,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011010
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001111] = {
+		name = "Basic Seasoning",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Supply onions to enhance the flavors of meals.\nDeliver 100 Onions.",
+		series_name = "",
+		id = 80001111,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011011
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001112] = {
+		name = "A Healthy Menu",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Make vegetable salads for nutritious and delicious meals.\nDeliver 100 Vegetable Salads.",
+		series_name = "",
+		id = 80001112,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011012
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001113] = {
+		name = "Nutritional Combos",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Make rolled carrot omelettes to meet diverse dietary needs.\nDeliver 100 Rolled Carrot Omelettes.",
+		series_name = "",
+		id = 80001113,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011013
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001114] = {
+		name = "Latte Time",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Supply lattes to increase morale.\nDeliver 100 Lattes.",
+		series_name = "",
+		id = 80001114,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011014
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001115] = {
+		name = "Stir-Fry Resupply",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Supply stir-fried chicken for tasty and efficient meals.\nDeliver 100 Stir-Fried Chicken.",
+		series_name = "",
+		id = 80001115,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011015
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001116] = {
+		name = "Quick and Easy Meal",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Energize workers with convenient steak bowls.\nDeliver 50 Steak Bowls.",
+		series_name = "",
+		id = 80001116,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011016
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001117] = {
+		name = "Your First Receipt",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Accept your first daily supplies.\nAccept 1 Daily Supply.",
+		series_name = "",
+		id = 80001117,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011017
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			}
+		}
+	},
+	[80001118] = {
+		name = "Safely Stored",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Fill up that warehouse with three sets of daily supplies.\nAccept 5 Daily Supplies.",
+		series_name = "",
+		id = 80001118,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011018
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	},
+	[80001119] = {
+		name = "Regular Resupply",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Build a habit of grabbing your daily goodies.\nAccept 10 Daily Supplies.",
+		series_name = "",
+		id = 80001119,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011019
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				2
+			}
+		}
+	},
+	[80001120] = {
+		name = "Efficient Delivery",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Free stuff, easy and efficient!\nAccept 20 Daily Supplies.",
+		series_name = "",
+		id = 80001120,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011020
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100101,
+				5
+			}
+		}
+	},
+	[80001121] = {
+		name = "Well Stocked",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Abundant reserves for a confident settlement!\nAccept 30 Daily Supplies.",
+		series_name = "",
+		id = 80001121,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011021
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100102,
+				2
+			}
+		}
+	},
+	[80001122] = {
+		name = "Sustainable Reserves",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Steady supplies, a vital resource for this island.\nAccept 45 Daily Supplies.",
+		series_name = "",
+		id = 80001122,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011022
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100102,
+				3
+			}
+		}
+	},
+	[80001123] = {
+		name = "Foundation for Development",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Regular accumulation of goods has become the basis of your development.\nAccept 60 Daily Supplies.",
+		series_name = "",
+		id = 80001123,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011023
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100103,
+				5
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001124] = {
+		name = "Your First Request",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "You have a basic understanding of requests.\nComplete 10 Island Requests.",
+		series_name = "",
+		id = 80001124,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011024
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			}
+		}
+	},
+	[80001125] = {
+		name = "A Reliable Helper",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "You're a consistent fulfiller of requests.\nComplete 30 Island Requests.",
+		series_name = "",
+		id = 80001125,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011025
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	},
+	[80001126] = {
+		name = "Firm Support",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "This development couldn't function without you!\nComplete 50 Island Requests.",
+		series_name = "",
+		id = 80001126,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011026
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				2
+			}
+		}
+	},
+	[80001127] = {
+		name = "Request Master",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "You understand people's needs and respond efficiently.\nComplete 100 Island Requests.",
+		series_name = "",
+		id = 80001127,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011027
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100101,
+				5
+			}
+		}
+	},
+	[80001128] = {
+		name = "Pillar of Development",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Your continuous support is the very engine of development.\nComplete 150 Island Requests.",
+		series_name = "",
+		id = 80001128,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011028
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100102,
+				5
+			}
+		}
+	},
+	[80001129] = {
+		name = "Core of Development",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Nobody is more reliable and beloved than you.\nComplete 200 Island Requests.",
+		series_name = "",
+		id = 80001129,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011029
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100103,
+				5
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001130] = {
+		name = "Foundation for Prosperity",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "You carry the heavy burden of development and build a prosperous future.\nComplete 300 Island Requests.",
+		series_name = "",
+		id = 80001130,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80011030
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100103,
+				5
+			},
+			{
+				8,
+				170000,
+				1
+			}
+		}
+	},
+	[80001201] = {
+		name = "Garden Logistics",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Secure a stockpile of reliable staple food to provide a steady supply of calories to feed the island's development. \nDeliver 500 Potatoes.",
+		series_name = "",
+		id = 80001201,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012001
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001202] = {
+		name = "A Cup to Wake You Up",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Supply the development team with aromatic coffee to improve their concentration and productivity. \nDeliver 500 Coffee Beans.",
+		series_name = "",
+		id = 80001202,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012002
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001203] = {
+		name = "Vegetable Supplies",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Supply a large quantity of vegetables that store well, ensuring a stable supply of vitamins. \nDeliver 500 Napa Cabbages.",
+		series_name = "",
+		id = 80001203,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012003
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001204] = {
+		name = "Sweet Strawberries",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Supply a bountiful amount of sweet and juicy strawberries, adding color and flavor to the island's dinner table. \nDeliver 500 Strawberries.",
+		series_name = "",
+		id = 80001204,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012004
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001205] = {
+		name = "Textile Materials",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Supply high-quality cotton, a crucial resource for ensuring logistical support and comfortable daily living. \nDeliver 500 Cotton.",
+		series_name = "",
+		id = 80001205,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012005
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001206] = {
+		name = "Fruit Supplies",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Supply crispy apples, satisfying the islanders' daily intake of fruit. \nDeliver 250 Apples.",
+		series_name = "",
+		id = 80001206,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012006
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001207] = {
+		name = "Zingy and Refreshing",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Supply fresh and sour lemons. A bit of zing can give you a boost in productivity. \nDeliver 250 Lemons.",
+		series_name = "",
+		id = 80001207,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012007
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001208] = {
+		name = "Quick and Easy Meal",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Supply a convenient, classic dish that quickly restores energy, supporting high-intensity work. \nDeliver 100 Fish & Chips.",
+		series_name = "",
+		id = 80001208,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012008
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001209] = {
+		name = "Simply Seasoned",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Supply lightly steamed fish, providing the islanders with balanced meals with quality protein. \nDeliver 100 Steamed Fish with Onions.",
+		series_name = "",
+		id = 80001209,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012009
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001210] = {
+		name = "Sugary Motivation Boost",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Supply sweet strawberry drinks that bring you instant happiness and energy. \nDeliver 100 Strawberry Lemon Drinks.",
+		series_name = "",
+		id = 80001210,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012010
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001211] = {
+		name = "Fragrant and Energizing",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Supply specialty coffee with a citrusy aroma, promoting moments of inspiration at work. \nDeliver 100 Citrus Coffees.",
+		series_name = "",
+		id = 80001211,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012011
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001212] = {
+		name = "Bounty of the Sea",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Supply lemon shrimp with an acidity that stirs the appetite, relieves fatigue, and stimulates your taste buds. \nDeliver 50 Lemon Shrimp.",
+		series_name = "",
+		id = 80001212,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012012
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001213] = {
+		name = "Supreme Seafood",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Supply premium seafood to reward the development team and boost their morale. \nDeliver 25 Paellas.",
+		series_name = "",
+		id = 80001213,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012013
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001214] = {
+		name = "Spicy Extravagance",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Supply crayfish stir-fries with a stimulating taste, lighting the spark of motivation during nighttime labor. \nDeliver 25 Crayfish Stir-Fries.",
+		series_name = "",
+		id = 80001214,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012014
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001215] = {
+		name = "Artistic Flair",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Supply ornamental artworks that add beauty to indoor environments and uplift the island's cultural vibe. \nDeliver 25 Ornamental Paintings.",
+		series_name = "",
+		id = 80001215,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012015
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001216] = {
+		name = "A Treat to Break Your Vows For",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Buddha's Temptation is a top-class dish that's indispensable when you have a guest over or are throwing a big holiday. \nDeliver 10 Buddha's Temptations.",
+		series_name = "",
+		id = 80001216,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012016
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001217] = {
+		name = "Your First Receipt",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Accept your first daily supplies.\nAccept 1 Daily Supply.",
+		series_name = "",
+		id = 80001217,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012017
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			}
+		}
+	},
+	[80001218] = {
+		name = "Safely Stored",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Fill up that warehouse with three sets of daily supplies.\nAccept 5 Daily Supplies.",
+		series_name = "",
+		id = 80001218,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012018
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	},
+	[80001219] = {
+		name = "Regular Resupply",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Build a habit of grabbing your daily goodies.\nAccept 10 Daily Supplies.",
+		series_name = "",
+		id = 80001219,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012019
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				2
+			}
+		}
+	},
+	[80001220] = {
+		name = "Efficient Delivery",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Free stuff, easy and efficient!\nAccept 20 Daily Supplies.",
+		series_name = "",
+		id = 80001220,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012020
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100101,
+				5
+			}
+		}
+	},
+	[80001221] = {
+		name = "Well Stocked",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Abundant reserves for a confident settlement!\nAccept 30 Daily Supplies.",
+		series_name = "",
+		id = 80001221,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012021
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100102,
+				2
+			}
+		}
+	},
+	[80001222] = {
+		name = "Sustainable Reserves",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Steady supplies, a vital resource for this island.\nAccept 45 Daily Supplies.",
+		series_name = "",
+		id = 80001222,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012022
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100102,
+				3
+			}
+		}
+	},
+	[80001223] = {
+		name = "Foundation for Development",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Regular accumulation of goods has become the basis of your development.\nAccept 60 Daily Supplies.",
+		series_name = "",
+		id = 80001223,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012023
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100103,
+				5
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001224] = {
+		name = "Your First Request",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "You have a basic understanding of requests.\nComplete 10 Island Requests.",
+		series_name = "",
+		id = 80001224,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012024
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			}
+		}
+	},
+	[80001225] = {
+		name = "A Reliable Helper",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "You're a consistent fulfiller of requests.\nComplete 30 Island Requests.",
+		series_name = "",
+		id = 80001225,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012025
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	},
+	[80001226] = {
+		name = "Firm Support",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "This development couldn't function without you!\nComplete 50 Island Requests.",
+		series_name = "",
+		id = 80001226,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012026
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				2
+			}
+		}
+	},
+	[80001227] = {
+		name = "Request Master",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "You understand people's needs and respond efficiently.\nComplete 100 Island Requests.",
+		series_name = "",
+		id = 80001227,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012027
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100101,
+				5
+			}
+		}
+	},
+	[80001228] = {
+		name = "Pillar of Development",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Your continuous support is the very engine of development.\nComplete 150 Island Requests.",
+		series_name = "",
+		id = 80001228,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012028
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100102,
+				5
+			}
+		}
+	},
+	[80001229] = {
+		name = "Core of Development",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Nobody is more reliable and beloved than you.\nComplete 200 Island Requests.",
+		series_name = "",
+		id = 80001229,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012029
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100103,
+				5
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
+	[80001230] = {
+		name = "Foundation for Prosperity",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 8,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "You carry the heavy burden of development and build a prosperous future.\nComplete 300 Island Requests.",
+		series_name = "",
+		id = 80001230,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80012030
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100103,
+				5
+			},
+			{
+				8,
+				170002,
+				1
+			}
+		}
+	},
 	[20001001] = {
 		name = "Sounds in the Woods",
 		trigger_tips = 1,
@@ -6771,6 +11182,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1004,
 		unlock_time = "always",
@@ -6808,6 +11220,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -6856,6 +11269,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1004,
 		com_perform = "",
@@ -6890,6 +11304,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1004,
 		com_perform = "",
@@ -6924,6 +11339,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1004,
 		com_perform = "",
@@ -6958,6 +11374,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -7006,6 +11423,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1004,
 		com_perform = "",
@@ -7040,6 +11458,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -7088,6 +11507,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1004,
 		unlock_time = "always",
@@ -7146,6 +11566,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -7180,6 +11601,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -7214,6 +11636,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		unlock_time = "always",
@@ -7251,6 +11674,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -7288,6 +11712,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -7325,6 +11750,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -7380,6 +11806,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -7414,6 +11841,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -7451,6 +11879,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		unlock_time = "always",
@@ -7488,6 +11917,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -7543,6 +11973,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -7583,6 +12014,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -7617,6 +12049,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -7654,6 +12087,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1006,
 		com_perform = "",
@@ -7709,6 +12143,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		com_perform = "",
@@ -7743,6 +12178,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1001,
 		unlock_time = "always",
@@ -7780,6 +12216,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		com_perform = "",
@@ -7814,6 +12251,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		com_perform = "",
@@ -7848,6 +12286,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		unlock_time = "always",
@@ -7885,6 +12324,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		com_perform = "",
@@ -7919,6 +12359,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1001,
 		com_perform = "",
@@ -7953,6 +12394,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1001,
 		unlock_time = "always",
@@ -7990,6 +12432,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		com_perform = "",
@@ -8045,6 +12488,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		com_perform = "",
@@ -8079,6 +12523,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1001,
 		com_perform = "",
@@ -8113,6 +12558,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		unlock_time = "always",
@@ -8150,6 +12596,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		unlock_time = "always",
@@ -8187,6 +12634,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		com_perform = "",
@@ -8221,6 +12669,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1001,
 		unlock_time = "always",
@@ -8258,6 +12707,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1001,
 		unlock_time = "always",
@@ -8297,6 +12747,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		com_perform = "",
@@ -8331,6 +12782,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -8384,6 +12836,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1004,
 		unlock_time = "always",
@@ -8432,6 +12885,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		unlock_time = "always",
@@ -8480,6 +12934,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		unlock_time = "always",
@@ -8528,6 +12983,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -8562,6 +13018,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1006,
 		unlock_time = "always",
@@ -8599,6 +13056,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -8637,6 +13095,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1006,
 		com_perform = "",
@@ -8671,6 +13130,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1006,
 		unlock_time = "always",
@@ -8708,6 +13168,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -8742,6 +13203,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1004,
 		com_perform = "",
@@ -8792,6 +13254,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -8826,6 +13289,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -8863,6 +13327,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -8900,6 +13365,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -8950,6 +13416,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1004,
 		unlock_time = "always",
@@ -8991,6 +13458,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1004,
 		com_perform = "",
@@ -9025,6 +13493,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -9059,6 +13528,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -9109,6 +13579,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		com_perform = "",
@@ -9143,6 +13614,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		unlock_time = "always",
@@ -9180,6 +13652,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		unlock_time = "always",
@@ -9217,6 +13690,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -9251,6 +13725,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		unlock_time = "always",
@@ -9288,6 +13763,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		unlock_time = "always",
@@ -9325,6 +13801,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -9362,6 +13839,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		unlock_time = "always",
@@ -9425,6 +13903,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -9459,6 +13938,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		unlock_time = "always",
@@ -9496,6 +13976,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1006,
 		com_perform = "",
@@ -9530,6 +14011,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -9579,6 +14061,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -9633,6 +14116,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		com_perform = "",
@@ -9667,6 +14151,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1005,
 		unlock_time = "always",
@@ -9704,6 +14189,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1005,
 		com_perform = "",
@@ -9738,6 +14224,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1005,
 		unlock_time = "always",
@@ -9775,6 +14262,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -9823,6 +14311,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -9857,6 +14346,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1005,
 		com_perform = "",
@@ -9891,6 +14381,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -9925,6 +14416,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1005,
 		com_perform = "",
@@ -9959,6 +14451,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1005,
 		unlock_time = "always",
@@ -10005,13 +14498,14 @@ pg.base.island_task = {
 		name = "Raise the Island Development Level",
 		trigger_tips = 0,
 		reward_exp = 0,
-		type = 2,
+		type = 9,
 		complete_tips = "Raise the Island Development Level",
 		map_trigger_tips = 0,
 		complete_type = 2,
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -10048,6 +14542,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -10082,6 +14577,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1005,
 		com_perform = "",
@@ -10116,6 +14612,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -10150,6 +14647,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -10184,6 +14682,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1005,
 		com_perform = "",
@@ -10218,6 +14717,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -10255,6 +14755,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -10292,6 +14793,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -10342,6 +14844,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -10389,6 +14892,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1004,
 		unlock_time = "always",
@@ -10426,6 +14930,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1004,
 		unlock_time = "always",
@@ -10474,6 +14979,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -10483,7 +14989,7 @@ pg.base.island_task = {
 		map_complete_tips = 0,
 		rec_perform = "ISLANDSIDE01601",
 		task_desc = "It's time to develop the island! Peary is putting together a resource plan. Go see her.",
-		series_name = "Development Season",
+		series_name = "Island Season",
 		id = 20015001,
 		unlock_condition = {
 			{
@@ -10519,15 +15025,16 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
 		trigger_data = 0,
 		complete_data = 10020025,
-		map_complete_tips = 1003,
+		map_complete_tips = 1002,
 		rec_perform = "",
 		task_desc = "It's the season of hard work! Get out there and develop the island!",
-		series_name = "Development Season",
+		series_name = "Island Season",
 		id = 20015002,
 		unlock_condition = {
 			{
@@ -10556,6 +15063,277 @@ pg.base.island_task = {
 			}
 		}
 	},
+	[20016001] = {
+		name = "Britain's Fish Hatchery",
+		trigger_tips = 1,
+		reward_exp = 0,
+		type = 2,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		series = "",
+		navigation = 1002,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Britain's fish hatchery is finished. Go see her.",
+		series_name = "The Fish Hatchery is Finished!",
+		id = 20016001,
+		unlock_condition = {
+			{
+				2,
+				10001170
+			}
+		},
+		link_task = {},
+		target_id = {
+			200160011
+		},
+		reward_show = {
+			{
+				41,
+				1501,
+				1
+			}
+		}
+	},
+	[20016002] = {
+		name = "Fishing Time!",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 2,
+		complete_tips = "Go see Britain.",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 1002,
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 10020071,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		task_desc = "Catch some big fish for Britain!",
+		series_name = "The Fish Hatchery is Finished!",
+		id = 20016002,
+		unlock_condition = {
+			{
+				2,
+				20016001
+			}
+		},
+		link_task = {},
+		com_perform = {
+			1,
+			"ISLANDSIDE01605"
+		},
+		target_id = {
+			200160012
+		},
+		reward_show = {}
+	},
+	[20016003] = {
+		name = "Fishing Time!",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 2,
+		complete_tips = "Unlock Fish Hatchery",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 1002,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 10020068,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		task_desc = "Catch some big fish for Britain!",
+		series_name = "The Fish Hatchery is Finished!",
+		id = 20016003,
+		unlock_condition = {
+			{
+				2,
+				20016002
+			}
+		},
+		link_task = {},
+		target_id = {
+			200160013
+		},
+		reward_show = {}
+	},
+	[20016004] = {
+		name = "Britain's Fish Hatchery",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 2,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 1002,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Britain's fish hatchery is finished. Go see her.",
+		series_name = "The Fish Hatchery is Finished!",
+		id = 20016004,
+		unlock_condition = {
+			{
+				2,
+				20016003
+			}
+		},
+		link_task = {},
+		target_id = {
+			200160041,
+			200160042,
+			200160043
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				5000
+			}
+		}
+	},
+	[20017001] = {
+		name = "Research Into the Pearl Trade",
+		trigger_tips = 1,
+		reward_exp = 0,
+		type = 2,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 1002,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "Peary is doing research into the pearl trade. Go speak to her.",
+		series_name = "The Pearl Trade",
+		id = 20017001,
+		unlock_condition = {
+			{
+				2,
+				10003100
+			}
+		},
+		link_task = {},
+		target_id = {
+			200170011
+		},
+		reward_show = {}
+	},
+	[20017002] = {
+		name = "Research Into the Pearl Trade",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 2,
+		complete_tips = "Go see Peary.",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 1002,
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 10020025,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		task_desc = "Peary is still trading pearls, apparently. Go see what's up.",
+		series_name = "Time to Invest!",
+		id = 20017002,
+		unlock_condition = {
+			{
+				2,
+				20017001
+			}
+		},
+		link_task = {},
+		com_perform = {
+			1,
+			"ISLANDSIDE01608"
+		},
+		target_id = {
+			200170021
+		},
+		reward_show = {}
+	},
+	[20017003] = {
+		name = "Research Into the Pearl Trade",
+		trigger_tips = 0,
+		reward_exp = 0,
+		type = 2,
+		complete_tips = "",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 1003,
+		com_perform = "",
+		unlock_time = "always",
+		trigger_data = 0,
+		complete_data = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		task_desc = "A certain someone has been purchasing pearls. Go see what's up.",
+		series_name = "Mystery Trader",
+		id = 20017003,
+		unlock_condition = {
+			{
+				2,
+				20017002
+			}
+		},
+		link_task = {},
+		target_id = {
+			200170031
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				10000
+			}
+		}
+	},
 	[30000001] = {
 		name = "A Delayed Order",
 		trigger_tips = 0,
@@ -10567,6 +15345,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -10582,6 +15361,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -10607,6 +15390,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -10622,6 +15406,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -10647,6 +15435,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -10662,6 +15451,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -10687,6 +15480,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -10702,6 +15496,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -10727,6 +15525,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -10742,6 +15541,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -10767,6 +15570,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -10782,6 +15586,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -10801,6 +15609,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -10816,6 +15625,10 @@ pg.base.island_task = {
 			{
 				2,
 				30000006
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -10842,6 +15655,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -10857,6 +15671,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -10882,6 +15700,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -10897,6 +15716,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -10922,6 +15745,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -10937,6 +15761,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -10962,6 +15790,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -10977,6 +15806,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -11002,6 +15835,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -11017,6 +15851,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -11042,6 +15880,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -11057,6 +15896,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -11076,6 +15919,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -11091,6 +15935,10 @@ pg.base.island_task = {
 			{
 				2,
 				30501001
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -11118,6 +15966,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -11133,6 +15982,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -11152,6 +16005,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -11167,6 +16021,10 @@ pg.base.island_task = {
 			{
 				2,
 				30501011
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -11194,6 +16052,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -11211,10 +16070,12 @@ pg.base.island_task = {
 				5006
 			},
 			{
-				{
-					2,
-					10001160
-				}
+				2,
+				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -11234,6 +16095,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -11249,6 +16111,10 @@ pg.base.island_task = {
 			{
 				2,
 				30501021
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -11276,6 +16142,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -11293,10 +16160,12 @@ pg.base.island_task = {
 				5006
 			},
 			{
-				{
-					2,
-					10001160
-				}
+				2,
+				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -11316,6 +16185,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -11331,6 +16201,10 @@ pg.base.island_task = {
 			{
 				2,
 				30501031
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -11358,6 +16232,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1006,
 		com_perform = "",
@@ -11375,10 +16250,12 @@ pg.base.island_task = {
 				5006
 			},
 			{
-				{
-					2,
-					10001160
-				}
+				2,
+				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -11398,6 +16275,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1006,
 		com_perform = "",
@@ -11413,6 +16291,10 @@ pg.base.island_task = {
 			{
 				2,
 				30502001
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -11440,6 +16322,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1006,
 		com_perform = "",
@@ -11457,10 +16340,12 @@ pg.base.island_task = {
 				5006
 			},
 			{
-				{
-					2,
-					10001160
-				}
+				2,
+				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -11480,6 +16365,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1006,
 		com_perform = "",
@@ -11495,6 +16381,10 @@ pg.base.island_task = {
 			{
 				2,
 				30502011
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -11522,6 +16412,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1006,
 		com_perform = "",
@@ -11539,10 +16430,12 @@ pg.base.island_task = {
 				5006
 			},
 			{
-				{
-					2,
-					10001160
-				}
+				2,
+				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -11562,6 +16455,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1006,
 		com_perform = "",
@@ -11577,6 +16471,10 @@ pg.base.island_task = {
 			{
 				2,
 				30502021
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -11604,6 +16502,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1006,
 		com_perform = "",
@@ -11621,10 +16520,12 @@ pg.base.island_task = {
 				5006
 			},
 			{
-				{
-					2,
-					10001160
-				}
+				2,
+				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -11644,6 +16545,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1006,
 		com_perform = "",
@@ -11659,6 +16561,10 @@ pg.base.island_task = {
 			{
 				2,
 				30502031
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -11686,6 +16592,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -11701,6 +16608,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -11726,6 +16637,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -11741,6 +16653,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -11766,6 +16682,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -11781,6 +16698,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -11806,6 +16727,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -11821,6 +16743,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -11846,6 +16772,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -11861,6 +16788,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -11886,6 +16817,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -11901,6 +16833,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -11926,6 +16862,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -11945,6 +16882,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -11970,6 +16911,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -11989,6 +16931,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12014,6 +16960,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12033,6 +16980,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12058,6 +17009,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12077,6 +17029,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12102,6 +17058,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12117,6 +17074,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12142,6 +17103,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12157,6 +17119,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12182,6 +17148,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12201,6 +17168,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12226,6 +17197,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12245,6 +17217,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12270,6 +17246,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12289,6 +17266,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12314,6 +17295,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12333,6 +17315,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12358,6 +17344,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12377,6 +17364,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12402,6 +17393,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12421,6 +17413,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12446,6 +17442,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12465,6 +17462,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12490,6 +17491,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12509,6 +17511,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12534,6 +17540,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12549,6 +17556,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12574,6 +17585,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12589,6 +17601,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12614,6 +17630,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12629,6 +17646,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12654,6 +17675,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12669,6 +17691,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12699,6 +17725,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12714,6 +17741,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},

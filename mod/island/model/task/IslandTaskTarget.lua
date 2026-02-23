@@ -33,8 +33,12 @@ end
 function var_0_0.GetProgress(arg_8_0)
 	local var_8_0 = arg_8_0:GetType()
 
+	if var_8_0 == IslandTaskTargetType.TASK_DAILY_IN_WEEK then
+		return arg_8_0.progress + IslandTaskHelper.GetRuntimeData(var_8_0, arg_8_0:GetTargetParam())
+	end
+
 	if table.contains(IslandTaskTargetType.GetRuntimeTypes(), var_8_0) then
-		arg_8_0.progress = IslandTaskHelper.GetRuntimeData(var_8_0, arg_8_0:GetTargetParam())
+		return IslandTaskHelper.GetRuntimeData(var_8_0, arg_8_0:GetTargetParam())
 	end
 
 	return arg_8_0.progress

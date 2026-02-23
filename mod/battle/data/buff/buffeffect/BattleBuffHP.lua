@@ -26,6 +26,7 @@ function var_0_1.SetArgs(arg_2_0, arg_2_1, arg_2_2)
 	arg_2_0._maxHPNumber = var_2_1 * arg_2_0._maxHPRatio
 	arg_2_0._castMaxHPRatio = arg_2_0._tempData.arg_list.casterMaxHPRatio or 0
 	arg_2_0._castMaxHPNumber = arg_2_0._castMaxHPRatio * var_2_3
+	arg_2_0._castHPRatio = arg_2_0._tempData.arg_list.casterHPRatio or 0
 	arg_2_0._weaponType = arg_2_0._tempData.arg_list.weaponType
 	arg_2_0._damageConvert = 0
 
@@ -108,7 +109,8 @@ end
 
 function var_0_1.CalcNumber(arg_7_0, arg_7_1)
 	local var_7_0 = arg_7_1:GetHP()
-	local var_7_1 = arg_7_0._caster:GetAttrByName("healingEnhancement") + 1
+	local var_7_1 = arg_7_0._caster:GetHP()
+	local var_7_2 = arg_7_0._caster:GetAttrByName("healingEnhancement") + 1
 
-	return math.floor((var_7_0 * arg_7_0._currentHPRatio + arg_7_0._maxHPNumber + arg_7_0._number + arg_7_0._castMaxHPNumber) * var_7_1)
+	return math.floor((var_7_0 * arg_7_0._currentHPRatio + arg_7_0._maxHPNumber + arg_7_0._number + arg_7_0._castMaxHPNumber + var_7_1 * arg_7_0._castHPRatio) * var_7_2)
 end

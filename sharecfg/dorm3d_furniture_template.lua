@@ -893,6 +893,42 @@ pg.dorm3d_furniture_template = {
 			"fbx/no_bake_pay_prop/livingroom"
 		}
 	},
+	[324] = {
+		name = "Haven of Innocence",
+		rarity = 5,
+		is_special = 1,
+		type = 4,
+		icon = "dorm3dIcon/3Ddrom_ankeleiqi_PremiumFurniture9",
+		room_id = 3,
+		desc = "Soft, heart-shaped cushions and twinkling toy lights adorn this bed. Welcome to an ocean-blue haven of innocence.",
+		acesses = "",
+		model = "Pay_Anchoragehostel/Ah_Sp_ValentinesDay/pre_db_aklq_sp_vd01",
+		id = 324,
+		is_exclusive = 1,
+		target_slots = {
+			130103
+		},
+		touch_id = {
+			{
+				19903,
+				1990370
+			}
+		},
+		shop_id = {
+			270304
+		},
+		unlock_tips = {
+			8
+		},
+		unlock_banners = {
+			"banner_furniture324"
+		},
+		scene_hides = {
+			"fbx/no_bake_pay_prop/bedroom",
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01",
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01_night"
+		}
+	},
 	[1101] = {
 		name = "Rabbit's Cradle",
 		rarity = 3,
@@ -1178,6 +1214,38 @@ pg.dorm3d_furniture_template = {
 			"no_bake_pay_prop/bedroom"
 		}
 	},
+	[1154] = {
+		name = "IB-7 Smart Refrigerator",
+		rarity = 4,
+		is_special = 0,
+		type = 6,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_PremiumFurniture3",
+		room_id = 11,
+		desc = "Hello. This is the IB-7 smart refrigerator.\nYour strawberry ice cream is ready. It's your favorite flavor.\n...You'd like more personalized recommendations? That feature is currently in development. Please stay tuned!",
+		acesses = "",
+		model = "Pay_Newjerseyhostel/pre_db_njh_kitchen01",
+		id = 1154,
+		is_exclusive = 1,
+		scene_hides = "",
+		target_slots = {
+			1110204
+		},
+		touch_id = {
+			{
+				10517,
+				1051780
+			}
+		},
+		shop_id = {
+			270206
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1154"
+		}
+	},
 	[1201] = {
 		name = "Fluffy Bed",
 		rarity = 3,
@@ -1435,6 +1503,257 @@ pg.dorm3d_furniture_template = {
 			"no_bake_pay_prop/entertainment"
 		}
 	},
+	[1223] = {
+		name = "Elegant Cherry Blossom Seating",
+		rarity = 4,
+		is_special = 0,
+		type = 5,
+		icon = "dorm3dIcon/3Ddrom_dafeng_PremiumFurniture3",
+		room_id = 12,
+		desc = "A classic paper lantern lights up the crimson silk, while exquisite tea utensils catch the eye amidst the faint, rising fragrance of tea. Cushions styled like cherry blossoms flank the table, creating an elegant space for receiving guests.",
+		acesses = "",
+		model = "Pay_Dafenghostel/pre_db_df_livingroom_01",
+		id = 1223,
+		is_exclusive = 1,
+		target_slots = {
+			1120303
+		},
+		touch_id = {
+			{
+				30707,
+				3070760
+			}
+		},
+		shop_id = {
+			270503
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1223"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/livingroom"
+		}
+	},
+	[1401] = {
+		name = "Velvet Bed",
+		rarity = 3,
+		unlock_tips = "",
+		type = 4,
+		is_special = 0,
+		room_id = 14,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture1",
+		desc = "A double bed with a time-tested design, featuring a black headboard and red velvet bedding. Its soft mattress and pillows provide warmth and peace for a weary body and mind.",
+		unlock_banners = "",
+		acesses = "",
+		model = "",
+		id = 1401,
+		is_exclusive = 0,
+		scene_hides = "",
+		target_slots = {
+			1140101
+		},
+		touch_id = {
+			{
+				49905,
+				4990510
+			}
+		},
+		shop_id = {}
+	},
+	[1402] = {
+		name = "Ebony Desk",
+		rarity = 3,
+		unlock_tips = "",
+		type = 6,
+		is_special = 0,
+		room_id = 14,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture2",
+		desc = "A black wooden desk accompanied by a simple red chair. This piece offers both practicality and traditional charm.",
+		unlock_banners = "",
+		acesses = "",
+		model = "",
+		id = 1402,
+		is_exclusive = 0,
+		scene_hides = "",
+		target_slots = {
+			1140201
+		},
+		touch_id = {
+			{
+				49905,
+				4990520
+			}
+		},
+		shop_id = {}
+	},
+	[1403] = {
+		name = "Leather Chair",
+		rarity = 3,
+		unlock_tips = "",
+		type = 5,
+		is_special = 0,
+		room_id = 14,
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture3",
+		desc = "A soft, comfortable leather chair. Paired with the round tea table, it's the ideal spot for solo relaxation.",
+		unlock_banners = "",
+		acesses = "",
+		model = "",
+		id = 1403,
+		is_exclusive = 0,
+		scene_hides = "",
+		target_slots = {
+			1140301
+		},
+		touch_id = {
+			{
+				49905,
+				4990530
+			}
+		},
+		shop_id = {}
+	},
+	[1411] = {
+		name = "Long Candles",
+		rarity = 2,
+		unlock_tips = "",
+		type = 3,
+		is_exclusive = 0,
+		room_id = 14,
+		is_special = 0,
+		desc = "These ivory-white candles give warmth to a quiet, romantic night.",
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture4",
+		acesses = "",
+		model = "Pay_Aijierhostel/pre_db_aje_decoration01",
+		unlock_banners = "",
+		id = 1411,
+		touch_id = "",
+		scene_hides = "",
+		target_slots = {
+			1140303
+		},
+		shop_id = {}
+	},
+	[1412] = {
+		name = "Large Plant",
+		rarity = 2,
+		unlock_tips = "",
+		type = 3,
+		is_exclusive = 0,
+		room_id = 14,
+		is_special = 0,
+		desc = "This large potted plant does more than just add life to a room with its broad leaves – it helps purify the air, too!",
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture5",
+		acesses = "",
+		model = "Pay_Aijierhostel/pre_db_aje_bonsai01",
+		unlock_banners = "",
+		id = 1412,
+		touch_id = "",
+		scene_hides = "",
+		target_slots = {
+			1140202
+		},
+		shop_id = {}
+	},
+	[1413] = {
+		name = "Elegant Desk Lamp",
+		rarity = 2,
+		unlock_tips = "",
+		type = 3,
+		is_exclusive = 0,
+		room_id = 14,
+		is_special = 0,
+		desc = "A small desk lamp that casts a comfortable glow for reading or working at night.",
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture6",
+		acesses = "",
+		model = "Pay_Aijierhostel/pre_db_aje_desklamp01_on",
+		unlock_banners = "",
+		id = 1413,
+		touch_id = "",
+		scene_hides = "",
+		target_slots = {
+			1140103
+		},
+		shop_id = {}
+	},
+	[1414] = {
+		name = "Vintage Camera",
+		rarity = 2,
+		unlock_tips = "",
+		type = 3,
+		is_exclusive = 0,
+		room_id = 14,
+		is_special = 0,
+		desc = "This device retains the unique design of antique cameras. It's widely loved by enthusiasts and collectors.",
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture7",
+		acesses = "",
+		model = "Pay_Aijierhostel/pre_db_aje_camera01",
+		unlock_banners = "",
+		id = 1414,
+		touch_id = "",
+		scene_hides = "",
+		target_slots = {
+			1140102
+		},
+		shop_id = {}
+	},
+	[1415] = {
+		name = "Portrait",
+		rarity = 2,
+		unlock_tips = "",
+		type = 3,
+		is_exclusive = 0,
+		room_id = 14,
+		is_special = 0,
+		desc = "An abstract portrait painted with a classical touch; with its contrasting yet complementing chiaroscuro of bright and dark colors, it somehow perfectly matches the ambience of the room.",
+		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture8",
+		acesses = "",
+		model = "Pay_Aijierhostel/pre_db_aje_billboard01",
+		unlock_banners = "",
+		id = 1415,
+		touch_id = "",
+		scene_hides = "",
+		target_slots = {
+			1140302
+		},
+		shop_id = {}
+	},
+	[1461] = {
+		name = "Crimson Tranquility",
+		rarity = 4,
+		is_special = 0,
+		type = 4,
+		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture1",
+		room_id = 14,
+		desc = "A secret space for privacy and romance. The red velvet bedding and pull-out curtains make it easy to enjoy tranquility and warmth at night.",
+		acesses = "",
+		model = "Pay_Aijierhostel/pre_db_aijier_bed01",
+		id = 1461,
+		is_exclusive = 0,
+		target_slots = {
+			1140101
+		},
+		touch_id = {
+			{
+				49905,
+				4990540
+			}
+		},
+		shop_id = {
+			270601
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1461"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/bedroom"
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1,
@@ -1473,7 +1792,8 @@ pg.dorm3d_furniture_template = {
 			307,
 			321,
 			322,
-			323
+			323,
+			324
 		},
 		{
 			401
@@ -1489,7 +1809,8 @@ pg.dorm3d_furniture_template = {
 			1108,
 			1151,
 			1152,
-			1153
+			1153,
+			1154
 		},
 		[12] = {
 			1201,
@@ -1501,7 +1822,19 @@ pg.dorm3d_furniture_template = {
 			1214,
 			1215,
 			1221,
-			1222
+			1222,
+			1223
+		},
+		[14] = {
+			1401,
+			1402,
+			1403,
+			1411,
+			1412,
+			1413,
+			1414,
+			1415,
+			1461
 		}
 	},
 	all = {
@@ -1539,6 +1872,7 @@ pg.dorm3d_furniture_template = {
 		322,
 		401,
 		323,
+		324,
 		1101,
 		1102,
 		1103,
@@ -1550,6 +1884,7 @@ pg.dorm3d_furniture_template = {
 		1151,
 		1152,
 		1153,
+		1154,
 		1201,
 		1202,
 		1203,
@@ -1559,6 +1894,16 @@ pg.dorm3d_furniture_template = {
 		1214,
 		1215,
 		1221,
-		1222
+		1222,
+		1223,
+		1401,
+		1402,
+		1403,
+		1411,
+		1412,
+		1413,
+		1414,
+		1415,
+		1461
 	}
 }

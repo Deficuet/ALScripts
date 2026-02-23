@@ -44,7 +44,7 @@ function var_0_0.getEnName(arg_6_0)
 end
 
 function var_0_0.getTeamType(arg_7_0)
-	return TeamType.GetTeamFromShipType(arg_7_0:getShipType())
+	return ShipType.GetTeamFromShipType(arg_7_0:getShipType())
 end
 
 function var_0_0.getPainting(arg_8_0)

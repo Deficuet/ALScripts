@@ -395,7 +395,7 @@ return {
 			}
 		},
 		{
-			say = "……",
+			say = "......",
 			wait = 1,
 			voice = "event:/dorm/dorm3d_Taiho_telephone36/dorm3d_Taiho_telephone36",
 			dispatcher = {

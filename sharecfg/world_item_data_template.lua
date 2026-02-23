@@ -942,7 +942,7 @@ pg.world_item_data_template = {
 		item_transform_item_type = 0,
 		name = "Classified Files Mission Logger X9",
 		item_transform_item_id = 0,
-		display = "Purchasing this item will grant you access to new zones",
+		display = "Purchase this item to unlock a series of Files Missions. Complete the missions to unlock 10 new readable Collection Files (Files 150-4, 151-5 through 151-6, 180-1, and 190-1 through 190-6). <color=#ff5c5c>This item can only be purchased once, and you cannot buy another Classified Files Mission Logger until you complete all the associated missions.</color>",
 		log_text = "",
 		sort_priority = 1,
 		usage = "usage_undefined",

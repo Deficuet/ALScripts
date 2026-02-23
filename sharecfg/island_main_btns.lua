@@ -51,9 +51,11 @@ pg.island_main_btns = {
 				5
 			},
 			{
+				10019,
 				10109,
-				50111,
-				10130
+				10130,
+				10031,
+				50111
 			},
 			1
 		}
@@ -223,6 +225,17 @@ pg.island_main_btns = {
 		btn_name = "photo",
 		page_param = {}
 	},
+	{
+		main_type = 3,
+		name = "Fish Collection",
+		order = 14,
+		open_page = "IslandBookFishPage",
+		id = 20,
+		icon = "book_fish",
+		ability_id = 47,
+		btn_name = "book_fish",
+		page_param = {}
+	},
 	get_id_list_by_main_type = {
 		[2] = {
 			1,
@@ -246,6 +259,9 @@ pg.island_main_btns = {
 			5,
 			11,
 			12
+		},
+		[3] = {
+			20
 		}
 	},
 	all = {
@@ -267,6 +283,7 @@ pg.island_main_btns = {
 		16,
 		17,
 		18,
-		19
+		19,
+		20
 	}
 }

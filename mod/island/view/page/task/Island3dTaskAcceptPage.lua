@@ -14,42 +14,46 @@ end
 
 function var_0_0.OnInit(arg_3_0)
 	onButton(arg_3_0, arg_3_0._tf, function()
-		local var_4_0 = arg_3_0._tf:GetComponent(typeof(Animation))
-		local var_4_1 = arg_3_0._tf:GetComponent(typeof(DftAniEvent))
-
-		var_4_1:SetEndEvent(function()
-			var_4_1:SetEndEvent(nil)
-
-			if arg_3_0.onExit then
-				arg_3_0.onExit()
-
-				arg_3_0.onExit = nil
-			end
-
-			if arg_3_0.taskId == IslandGuideChecker.FIRST_TASK_ID then
-				IslandGuideChecker.CheckGuide("ISLAND_GUIDE_4")
-			end
-
-			arg_3_0:Hide()
-		end)
-		var_4_0:Play("Anim_Island3dTaskAcceptUI_out")
+		arg_3_0:TouchEvent()
 	end, SFX_PANEL)
 end
 
-function var_0_0.Show(arg_6_0, arg_6_1, arg_6_2)
-	var_0_0.super.Show(arg_6_0)
+function var_0_0.TouchEvent(arg_5_0)
+	local var_5_0 = arg_5_0._tf:GetComponent(typeof(Animation))
+	local var_5_1 = arg_5_0._tf:GetComponent(typeof(DftAniEvent))
 
-	arg_6_0.taskId = arg_6_1
+	var_5_1:SetEndEvent(function()
+		var_5_1:SetEndEvent(nil)
 
-	local var_6_0 = getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTask(arg_6_0.taskId)
+		if arg_5_0.onExit then
+			arg_5_0.onExit()
 
-	setText(arg_6_0.chapterText, var_6_0:getConfig("series"))
-	setText(arg_6_0.nameText, var_6_0:getConfig("series_name"))
+			arg_5_0.onExit = nil
+		end
 
-	arg_6_0.onExit = arg_6_2
+		if arg_5_0.taskId == IslandGuideChecker.FIRST_TASK_ID then
+			IslandGuideChecker.CheckGuide("ISLAND_GUIDE_4")
+		end
+
+		arg_5_0:Hide()
+	end)
+	var_5_0:Play("Anim_Island3dTaskAcceptUI_out")
 end
 
-function var_0_0.OnDestroy(arg_7_0)
+function var_0_0.Show(arg_7_0, arg_7_1, arg_7_2)
+	var_0_0.super.Show(arg_7_0)
+
+	arg_7_0.taskId = arg_7_1
+
+	local var_7_0 = getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTask(arg_7_0.taskId)
+
+	setText(arg_7_0.chapterText, var_7_0:getConfig("series"))
+	setText(arg_7_0.nameText, var_7_0:getConfig("series_name"))
+
+	arg_7_0.onExit = arg_7_2
+end
+
+function var_0_0.OnDestroy(arg_8_0)
 	return
 end
 

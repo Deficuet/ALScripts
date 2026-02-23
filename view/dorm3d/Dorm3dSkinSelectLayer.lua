@@ -115,10 +115,12 @@ function var_0_0.FlushSkinList(arg_10_0)
 	local var_10_2 = {}
 
 	_.each(var_10_0, function(arg_11_0)
-		if ApartmentProxy.CheckUnlockConfig(arg_10_0.skinDic[arg_11_0]:GetUnlock()) then
-			table.insert(var_10_1, arg_11_0)
-		else
-			table.insert(var_10_2, arg_11_0)
+		if arg_11_0 ~= 199033 then
+			if ApartmentProxy.CheckUnlockConfig(arg_10_0.skinDic[arg_11_0]:GetUnlock()) then
+				table.insert(var_10_1, arg_11_0)
+			else
+				table.insert(var_10_2, arg_11_0)
+			end
 		end
 	end)
 
@@ -174,7 +176,7 @@ function var_0_0.OnclickSkin(arg_16_0, arg_16_1, arg_16_2)
 			arg_16_0.contextData.onSwitchSkin(var_16_0, var_16_1, arg_16_0.selectedSkinId)
 		else
 			var_16_0:SwitchCharacterSkin(var_16_1, arg_16_0.selectedSkinId, function()
-				var_16_0:HideCharacterPart(arg_16_0.selectedSkinId, arg_16_0.hiddenList)
+				Dorm3dHxHelper.HideCharacterPart(var_16_0.lady, arg_16_0.hiddenList)
 
 				local var_17_0 = arg_16_0.skinDic[arg_16_0.selectedSkinId]:GetSwitchAnim()
 
@@ -260,7 +262,7 @@ function var_0_0.FlushSkinPartOptions(arg_19_0)
 
 				setActive(arg_20_2:Find("open"), not var_21_1)
 				setActive(arg_20_2:Find("close"), var_21_1)
-				arg_19_0.contextData.ladyEnv:HideCharacterPart(arg_19_0.selectedSkinId, arg_19_0.hiddenList)
+				Dorm3dHxHelper.HideCharacterPart(arg_19_0.contextData.ladyEnv.lady, arg_19_0.hiddenList)
 				arg_19_0:FlushBtns()
 			end, SFX_PANEL)
 		end
@@ -297,10 +299,10 @@ function var_0_0.willExit(arg_25_0)
 
 	if arg_25_0.contextData.ladyEnv.skinId ~= var_25_0 then
 		arg_25_0.contextData.ladyEnv:SwitchCharacterSkin(arg_25_0.contextData.groupId, var_25_0, function()
-			arg_25_0.contextData.ladyEnv:HideCharacterPart(var_25_0, arg_25_0.apartment:GetHiddenParts(var_25_0))
+			Dorm3dHxHelper.HideCharacterPart(arg_25_0.contextData.ladyEnv.lady, arg_25_0.apartment:GetHiddenParts(var_25_0))
 		end)
 	else
-		arg_25_0.contextData.ladyEnv:HideCharacterPart(var_25_0, arg_25_0.apartment:GetHiddenParts(var_25_0))
+		Dorm3dHxHelper.HideCharacterPart(arg_25_0.contextData.ladyEnv.lady, arg_25_0.apartment:GetHiddenParts(var_25_0))
 	end
 end
 

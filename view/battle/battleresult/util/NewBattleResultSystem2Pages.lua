@@ -58,6 +58,9 @@ return {
 	[SYSTEM_BOSS_RUSH_EX] = {
 		NewBattleResultGradePage
 	},
+	[SYSTEM_BOSS_RUSH_COLLABRATE] = {
+		NewBattleResultGradePage
+	},
 	[SYSTEM_DUEL] = {
 		NewDuelResultGradePage,
 		NewBattleResultDisplayAwardPage,
@@ -72,5 +75,9 @@ return {
 	},
 	[SYSTEM_CARDPUZZLE] = {
 		NewCardPuzzleResultGradePage
+	},
+	[SYSTEM_SCENARIO_SUB_STRIKE] = {
+		NewBattleResultGradePage,
+		NewBattleResultDisplayPaintingsPage
 	}
 }

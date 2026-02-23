@@ -32,12 +32,16 @@ function var_0_0.IsSameShip(arg_2_0, arg_2_1)
 	return arg_2_0.shipId == arg_2_1
 end
 
-function var_0_0.IsRandomizer(arg_3_0)
-	return arg_3_0.randomizer
+function var_0_0.GetShipId(arg_3_0)
+	return arg_3_0.shipId
 end
 
-function var_0_0.ActiveRandomizer(arg_4_0)
-	arg_4_0.randomizer = true
+function var_0_0.IsRandomizer(arg_4_0)
+	return arg_4_0.randomizer
+end
+
+function var_0_0.ActiveRandomizer(arg_5_0)
+	arg_5_0.randomizer = true
 end
 
 return var_0_0

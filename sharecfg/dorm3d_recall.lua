@@ -96,6 +96,19 @@ pg.dorm3d_recall = {
 			2022002
 		}
 	},
+	{
+		story_id = 10080,
+		name = "In the Morning",
+		unlock_text = "Unlocked after gifting The Perfect Maid's Guidebook.",
+		type = 1,
+		id = 8,
+		image = "gift_03",
+		desc = "As the light of dawn breaks through, you hear her voice. This is the start of a wonderful day.",
+		unlock = {
+			3,
+			2022003
+		}
+	},
 	[21] = {
 		story_id = 20500,
 		name = "Surprise for Sore Eyes",
@@ -342,6 +355,61 @@ pg.dorm3d_recall = {
 			3070701
 		}
 	},
+	[141] = {
+		story_id = 140510,
+		name = "Nap Time",
+		unlock_text = "Reach Ägir Intimacy Lv. 4",
+		type = 1,
+		id = 141,
+		image = "recall_141",
+		desc = "A lazy afternoon is perfect for taking a nap together.",
+		unlock = {
+			1,
+			49905,
+			4
+		}
+	},
+	[142] = {
+		story_id = 140520,
+		name = "Intimate Punishment",
+		unlock_text = "Reach Ägir Intimacy Lv. 8",
+		type = 1,
+		id = 142,
+		image = "recall_142",
+		desc = "A desire that is within reach; sweet punishment right in front of your eyes.",
+		unlock = {
+			1,
+			49905,
+			8
+		}
+	},
+	[143] = {
+		story_id = 140530,
+		name = "Fingertips and Locks of Hair",
+		unlock_text = "Reach Ägir Intimacy Lv. 12",
+		type = 1,
+		id = 143,
+		image = "recall_143",
+		desc = "Through the strokes of delicate fingertips, love is applied to locks of hair.",
+		unlock = {
+			1,
+			49905,
+			12
+		}
+	},
+	[144] = {
+		story_id = 140541,
+		name = "Affection Melted in Glass",
+		unlock_text = "Purchase \"Tulip Glass\"",
+		type = 1,
+		id = 144,
+		image = "recall_144",
+		desc = "The finest flavors are best experienced with two.",
+		unlock = {
+			3,
+			4990501
+		}
+	},
 	get_id_list_by_story_id = {
 		[10010] = {
 			1
@@ -363,6 +431,9 @@ pg.dorm3d_recall = {
 		},
 		[10070] = {
 			7
+		},
+		[10080] = {
+			8
 		},
 		[20500] = {
 			21
@@ -417,6 +488,18 @@ pg.dorm3d_recall = {
 		},
 		[120541] = {
 			124
+		},
+		[140510] = {
+			141
+		},
+		[140520] = {
+			142
+		},
+		[140530] = {
+			143
+		},
+		[140541] = {
+			144
 		}
 	},
 	all = {
@@ -427,6 +510,7 @@ pg.dorm3d_recall = {
 		5,
 		6,
 		7,
+		8,
 		21,
 		22,
 		23,
@@ -444,6 +528,10 @@ pg.dorm3d_recall = {
 		121,
 		122,
 		123,
-		124
+		124,
+		141,
+		142,
+		143,
+		144
 	}
 }

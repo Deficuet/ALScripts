@@ -16,8 +16,47 @@ function var_0_0.OnDestroy(arg_3_0)
 	arg_3_0:cleanManagedTween()
 end
 
-function var_0_0.initData(arg_4_0)
-	arg_4_0.cardPosList = {
+function var_0_0.setUIData(arg_4_0)
+	arg_4_0.shipCardSpriteList = {}
+
+	for iter_4_0 = 1, 7 do
+		local var_4_0 = "cardselect_" .. iter_4_0
+		local var_4_1 = "Shrine2022/" .. var_4_0
+		local var_4_2 = LoadSprite(var_4_1, var_4_0)
+
+		table.insert(arg_4_0.shipCardSpriteList, var_4_2)
+	end
+
+	arg_4_0.shipNameSpriteList = {}
+
+	for iter_4_1 = 1, 7 do
+		local var_4_3 = "cardselectname_" .. iter_4_1
+		local var_4_4 = "Shrine2022/" .. var_4_3
+		local var_4_5 = LoadSprite(var_4_4, var_4_3)
+
+		table.insert(arg_4_0.shipNameSpriteList, var_4_5)
+	end
+end
+
+function var_0_0.updateShipCardUI(arg_5_0, arg_5_1, arg_5_2)
+	setImageSprite(arg_5_1, arg_5_0.shipCardSpriteList[arg_5_2], true)
+
+	local var_5_0 = arg_5_1:Find("Name")
+
+	setImageSprite(var_5_0, arg_5_0.shipNameSpriteList[arg_5_2], true)
+	setLocalPosition(arg_5_1, arg_5_0.cardPosList[arg_5_2])
+
+	local var_5_1 = arg_5_1:Find("Selected")
+	local var_5_2 = arg_5_0:isSelected(arg_5_2)
+
+	setActive(var_5_1, var_5_2)
+	setActive(var_5_0, not var_5_2)
+
+	GetComponent(arg_5_1, "Toggle").enabled = not var_5_2
+end
+
+function var_0_0.initData(arg_6_0)
+	arg_6_0.cardPosList = {
 		{
 			x = -80,
 			y = 240
@@ -47,7 +86,7 @@ function var_0_0.initData(arg_4_0)
 			y = -210
 		}
 	}
-	arg_4_0.confirmPosList = {
+	arg_6_0.confirmPosList = {
 		{
 			x = -452,
 			y = -34
@@ -77,155 +116,154 @@ function var_0_0.initData(arg_4_0)
 			y = -400
 		}
 	}
-	arg_4_0.onCloseFunc = arg_4_0.contextData.onClose
-	arg_4_0.onSelectFunc = arg_4_0.contextData.onSelect
-	arg_4_0.onConfirmFunc = arg_4_0.contextData.onConfirm
-	arg_4_0.shipGameID = arg_4_0.contextData.shipGameID
-	arg_4_0.shipGameData = getProxy(MiniGameProxy):GetMiniGameData(arg_4_0.shipGameID)
-	arg_4_0.selectingCardIndex = arg_4_0.contextData.selectingCardIndex
-	arg_4_0.curSelectIndex = nil
+	arg_6_0.onCloseFunc = arg_6_0.contextData.onClose
+	arg_6_0.onSelectFunc = arg_6_0.contextData.onSelect
+	arg_6_0.onConfirmFunc = arg_6_0.contextData.onConfirm
+	arg_6_0.shipGameID = arg_6_0.contextData.shipGameID
+	arg_6_0.shipGameData = getProxy(MiniGameProxy):GetMiniGameData(arg_6_0.shipGameID)
+	arg_6_0.selectingCardIndex = arg_6_0.contextData.selectingCardIndex
+	arg_6_0.curSelectIndex = nil
 end
 
-function var_0_0.initUI(arg_5_0)
-	arg_5_0.bg = arg_5_0._tf:Find("BG")
-	arg_5_0.cardTpl = arg_5_0._tf:Find("CardTpl")
-	arg_5_0.backBtn = arg_5_0._tf:Find("Adapt/BackBtn")
-	arg_5_0.helpBtn = arg_5_0._tf:Find("Adapt/HelpBtn")
-	arg_5_0.panelTF = arg_5_0._tf:Find("Adapt/Panel")
-	arg_5_0.tipTF = arg_5_0._tf:Find("Adapt/Tip")
-	arg_5_0.cardContainer = arg_5_0.panelTF:Find("CardContainer")
-	arg_5_0.cardUIItemList = UIItemList.New(arg_5_0.cardContainer, arg_5_0.cardTpl)
-	arg_5_0.confirmBtn = arg_5_0._tf:Find("ConfirmBtn")
+function var_0_0.initUI(arg_7_0)
+	arg_7_0:setUIData()
 
-	onButton(arg_5_0, arg_5_0.bg, function()
-		arg_5_0:closeSelf()
+	arg_7_0.bg = arg_7_0._tf:Find("BG")
+	arg_7_0.cardTpl = arg_7_0._tf:Find("CardTpl")
+	arg_7_0.backBtn = arg_7_0._tf:Find("Adapt/BackBtn")
+	arg_7_0.helpBtn = arg_7_0._tf:Find("Adapt/HelpBtn")
+	arg_7_0.panelTF = arg_7_0._tf:Find("Adapt/Panel")
+	arg_7_0.tipTF = arg_7_0._tf:Find("Adapt/Tip")
+	arg_7_0.cardContainer = arg_7_0.panelTF:Find("CardContainer")
+	arg_7_0.cardUIItemList = UIItemList.New(arg_7_0.cardContainer, arg_7_0.cardTpl)
+	arg_7_0.confirmBtn = arg_7_0._tf:Find("ConfirmBtn")
+
+	onButton(arg_7_0, arg_7_0.bg, function()
+		arg_7_0:closeSelf()
 	end, SFX_PANEL)
-	onButton(arg_5_0, arg_5_0.backBtn, function()
-		arg_5_0:closeSelf()
+	onButton(arg_7_0, arg_7_0.backBtn, function()
+		arg_7_0:closeSelf()
 	end, SFX_PANEL)
-	onButton(arg_5_0, arg_5_0.helpBtn, function()
+	onButton(arg_7_0, arg_7_0.helpBtn, function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.Pray_activity_tips1.tip
 		})
 	end, SFX_PANEL)
-	onButton(arg_5_0, arg_5_0.confirmBtn, function()
-		if arg_5_0.onConfirmFunc then
-			arg_5_0.onConfirmFunc(arg_5_0.curSelectIndex)
-		end
-
-		setActive(arg_5_0.confirmBtn, false)
-		arg_5_0:closeSelf()
+	onButton(arg_7_0, arg_7_0.confirmBtn, function()
+		setActive(arg_7_0.confirmBtn, false)
+		arg_7_0:confirmSelf()
 	end, SFX_PANEL)
-	arg_5_0.cardUIItemList:make(function(arg_10_0, arg_10_1, arg_10_2)
-		if arg_10_0 == UIItemList.EventUpdate then
-			local var_10_0 = arg_10_1 + 1
-			local var_10_1 = "cardselect_" .. var_10_0
-			local var_10_2 = "Shrine2022/" .. var_10_1
+	arg_7_0.cardUIItemList:make(function(arg_12_0, arg_12_1, arg_12_2)
+		if arg_12_0 == UIItemList.EventUpdate then
+			local var_12_0 = arg_12_1 + 1
 
-			setImageSprite(arg_10_2, LoadSprite(var_10_2, var_10_1), true)
+			arg_7_0:updateShipCardUI(arg_12_2, var_12_0)
 
-			local var_10_3 = arg_10_2:Find("Name")
-			local var_10_4 = "cardselectname_" .. var_10_0
-			local var_10_5 = "Shrine2022/" .. var_10_4
+			if not isSelected then
+				onToggle(arg_7_0, arg_12_2, function(arg_13_0)
+					if arg_13_0 then
+						arg_7_0.curSelectIndex = var_12_0
 
-			setImageSprite(var_10_3, LoadSprite(var_10_5, var_10_4), true)
-			setLocalPosition(arg_10_2, arg_5_0.cardPosList[var_10_0])
-
-			local var_10_6 = arg_10_2:Find("Selected")
-			local var_10_7 = arg_5_0:isSelected(var_10_0)
-
-			setActive(var_10_6, var_10_7)
-			setActive(var_10_3, not var_10_7)
-
-			GetComponent(arg_10_2, "Toggle").enabled = not var_10_7
-
-			if not var_10_7 then
-				onToggle(arg_5_0, arg_10_2, function(arg_11_0)
-					if arg_11_0 then
-						arg_5_0.curSelectIndex = var_10_0
-
-						if arg_5_0.onSelectFunc then
-							arg_5_0.onSelectFunc(var_10_0)
+						if arg_7_0.onSelectFunc then
+							arg_7_0.onSelectFunc(var_12_0)
 						end
 					end
 
-					arg_5_0:updateConfirmBtn(arg_11_0)
+					arg_7_0:updateConfirmBtn(arg_13_0)
 				end, SFX_PANEL)
 			end
 		end
 	end)
 end
 
-function var_0_0.closeSelf(arg_12_0)
-	if arg_12_0.isPlaying then
+function var_0_0.closeSelf(arg_14_0)
+	if arg_14_0.isPlaying then
 		return
 	end
 
-	if arg_12_0.onCloseFunc then
-		arg_12_0.onCloseFunc()
-	end
+	arg_14_0:playEnterAni(false, function()
+		if arg_14_0.onCloseFunc then
+			arg_14_0.onCloseFunc()
+		end
 
-	arg_12_0:playEnterAni(false, function()
-		arg_12_0:Destroy()
+		arg_14_0:Destroy()
 	end)
 end
 
-function var_0_0.updateConfirmBtn(arg_14_0, arg_14_1)
-	local var_14_0 = arg_14_0.confirmPosList[arg_14_0.selectingCardIndex]
+function var_0_0.confirmSelf(arg_16_0)
+	if arg_16_0.isPlaying then
+		return
+	end
 
-	setLocalPosition(arg_14_0.confirmBtn, var_14_0)
-	setActive(arg_14_0.confirmBtn, arg_14_1)
+	if arg_16_0.onCloseFunc then
+		arg_16_0.onCloseFunc()
+	end
+
+	arg_16_0:playEnterAni(false, function()
+		if arg_16_0.onConfirmFunc then
+			arg_16_0.onConfirmFunc(arg_16_0.curSelectIndex)
+		end
+
+		arg_16_0:Destroy()
+	end)
 end
 
-function var_0_0.updateCardList(arg_15_0)
-	local var_15_0 = 7
+function var_0_0.updateConfirmBtn(arg_18_0, arg_18_1)
+	local var_18_0 = arg_18_0.confirmPosList[arg_18_0.selectingCardIndex]
 
-	arg_15_0.cardUIItemList:align(var_15_0)
+	setLocalPosition(arg_18_0.confirmBtn, var_18_0)
+	setActive(arg_18_0.confirmBtn, arg_18_1)
 end
 
-function var_0_0.playEnterAni(arg_16_0, arg_16_1, arg_16_2)
-	local var_16_0 = arg_16_1 and -1000 or 0
-	local var_16_1 = arg_16_1 and 0 or -1000
-	local var_16_2 = 0.3
-	local var_16_3 = {
-		x = var_16_0,
-		y = rtf(arg_16_0.panelTF).anchoredPosition.y
+function var_0_0.updateCardList(arg_19_0)
+	local var_19_0 = 7
+
+	arg_19_0.cardUIItemList:align(var_19_0)
+end
+
+function var_0_0.playEnterAni(arg_20_0, arg_20_1, arg_20_2)
+	local var_20_0 = arg_20_1 and -1000 or 0
+	local var_20_1 = arg_20_1 and 0 or -1000
+	local var_20_2 = 0.3
+	local var_20_3 = {
+		x = var_20_0,
+		y = rtf(arg_20_0.panelTF).anchoredPosition.y
 	}
 
-	arg_16_0.isPlaying = true
+	arg_20_0.isPlaying = true
 
-	arg_16_0:managedTween(LeanTween.value, nil, go(arg_16_0.panelTF), var_16_0, var_16_1, var_16_2):setOnUpdate(System.Action_float(function(arg_17_0)
-		var_16_3.x = arg_17_0
+	arg_20_0:managedTween(LeanTween.value, nil, go(arg_20_0.panelTF), var_20_0, var_20_1, var_20_2):setOnUpdate(System.Action_float(function(arg_21_0)
+		var_20_3.x = arg_21_0
 
-		setAnchoredPosition(arg_16_0.panelTF, var_16_3)
+		setAnchoredPosition(arg_20_0.panelTF, var_20_3)
 	end)):setOnComplete(System.Action(function()
-		arg_16_0.isPlaying = false
+		arg_20_0.isPlaying = false
 
-		if arg_16_2 then
-			arg_16_2()
+		if arg_20_2 then
+			arg_20_2()
 		end
 	end))
 
-	local var_16_4 = arg_16_1 and -100 or 38
-	local var_16_5 = arg_16_1 and 38 or -100
-	local var_16_6 = {
-		x = rtf(arg_16_0.tipTF).anchoredPosition.x,
-		y = var_16_4
+	local var_20_4 = arg_20_1 and -100 or 38
+	local var_20_5 = arg_20_1 and 38 or -100
+	local var_20_6 = {
+		x = rtf(arg_20_0.tipTF).anchoredPosition.x,
+		y = var_20_4
 	}
 
-	arg_16_0:managedTween(LeanTween.value, nil, go(arg_16_0.tipTF), var_16_4, var_16_5, var_16_2):setOnUpdate(System.Action_float(function(arg_19_0)
-		var_16_6.y = arg_19_0
+	arg_20_0:managedTween(LeanTween.value, nil, go(arg_20_0.tipTF), var_20_4, var_20_5, var_20_2):setOnUpdate(System.Action_float(function(arg_23_0)
+		var_20_6.y = arg_23_0
 
-		setAnchoredPosition(arg_16_0.tipTF, var_16_6)
+		setAnchoredPosition(arg_20_0.tipTF, var_20_6)
 	end))
 end
 
-function var_0_0.isSelected(arg_20_0, arg_20_1)
-	local var_20_0 = arg_20_0.shipGameData:GetRuntimeData("kvpElements")[1]
+function var_0_0.isSelected(arg_24_0, arg_24_1)
+	local var_24_0 = arg_24_0.shipGameData:GetRuntimeData("kvpElements")[1]
 
-	for iter_20_0, iter_20_1 in ipairs(var_20_0) do
-		if iter_20_1.value == arg_20_1 then
+	for iter_24_0, iter_24_1 in ipairs(var_24_0) do
+		if iter_24_1.value == arg_24_1 then
 			return true
 		end
 	end

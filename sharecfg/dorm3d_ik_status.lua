@@ -4256,6 +4256,15 @@ pg.dorm3d_ik_status = {
 					110711,
 					"chuang_beibu_1_start"
 				}
+			},
+			{
+				11071001,
+				0,
+				{
+					4,
+					0.3,
+					1017
+				}
 			}
 		},
 		touch_data = {
@@ -4825,6 +4834,1388 @@ pg.dorm3d_ik_status = {
 		use_cloth = {
 			1,
 			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[120110] = {
+		base = 100110,
+		camera_group = 12010,
+		character_action = "SitH",
+		ik_camera = "Cam100110",
+		id = 120110,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos100110",
+		ik_id = {
+			{
+				12011001,
+				0,
+				{
+					4,
+					0.3,
+					1016
+				}
+			}
+		},
+		touch_data = {
+			{
+				1001301,
+				0,
+				{
+					4,
+					0.3,
+					1013
+				}
+			}
+		},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[120120] = {
+		base = 100120,
+		camera_group = 12010,
+		character_action = "SitH",
+		ik_camera = "Cam100120",
+		id = 120120,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos100120",
+		ik_id = {
+			{
+				12012000,
+				0,
+				{
+					4,
+					0.3,
+					1013
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[120130] = {
+		base = 100130,
+		camera_group = 12010,
+		character_action = "SitH",
+		ik_camera = "Cam100130",
+		id = 120130,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos100130",
+		ik_id = {
+			{
+				12013000,
+				0,
+				{
+					4,
+					0.3,
+					1016
+				}
+			},
+			{
+				12013001,
+				0,
+				{
+					4,
+					0.3,
+					1016
+				}
+			}
+		},
+		touch_data = {
+			{
+				1001302,
+				0,
+				{
+					4,
+					0.3,
+					1014
+				}
+			}
+		},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[120210] = {
+		base = 100210,
+		camera_group = 10020,
+		character_action = "PayGoToSofaLoop",
+		ik_camera = "Cam100210",
+		id = 120210,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos100210",
+		ik_id = {
+			{
+				12021000,
+				0,
+				{
+					4,
+					0.3,
+					1037
+				}
+			},
+			{
+				12021001,
+				0,
+				{
+					4,
+					0.3,
+					1038,
+					120221
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			0,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[120220] = {
+		base = 100220,
+		camera_group = 10020,
+		character_action = "PayGoToSofaLoop",
+		ik_camera = "Cam100220",
+		id = 120220,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos100220",
+		ik_id = {
+			{
+				12022000,
+				0,
+				{
+					4,
+					0.3,
+					1041,
+					120231
+				}
+			}
+		},
+		touch_data = {
+			{
+				1002101,
+				0,
+				{
+					4,
+					0.3,
+					1040
+				}
+			}
+		},
+		use_cloth = {
+			1,
+			0,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[120230] = {
+		base = 100230,
+		camera_group = 10020,
+		character_action = "PayGoToSofaLoop",
+		ik_camera = "Cam100230",
+		id = 120230,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos100230",
+		ik_id = {
+			{
+				12023000,
+				0,
+				{
+					4,
+					0.3,
+					1039
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			0,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[120211] = {
+		base = 100211,
+		camera_group = 10021,
+		character_action = "zuo_FF_2_hudong_jianbang_1_loop",
+		ik_camera = "Cam100211",
+		id = 120211,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos100211",
+		ik_id = {
+			{
+				12021100,
+				0,
+				{
+					4,
+					0.3,
+					1042,
+					120210
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			0,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[120221] = {
+		base = 100221,
+		camera_group = 10022,
+		character_action = "zuo_FF_2_hudong_xiong_1_loop",
+		ik_camera = "Cam100221",
+		id = 120221,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos100221",
+		ik_id = {
+			{
+				12022100,
+				0,
+				{
+					4,
+					0.3,
+					1043,
+					120210
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.09,
+				0.09
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[120231] = {
+		base = 100231,
+		camera_group = 10023,
+		character_action = "zuo_FF_2_hudong_jiao_2_loop",
+		ik_camera = "Cam100231",
+		id = 120231,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos100231",
+		ik_id = {
+			{
+				12023100,
+				0,
+				{
+					4,
+					0.3,
+					1044,
+					120220
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.09,
+				0.09
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[120310] = {
+		base = 100310,
+		camera_group = 12030,
+		character_action = "Sit",
+		ik_camera = "Cam100310",
+		id = 120310,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos110310",
+		ik_id = {
+			{
+				12031000,
+				0,
+				{
+					4,
+					0.3,
+					1008
+				}
+			},
+			{
+				12031001,
+				0,
+				{
+					4,
+					0.3,
+					1006
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[120320] = {
+		base = 100320,
+		camera_group = 12030,
+		character_action = "Sit",
+		ik_camera = "Cam100320",
+		id = 120320,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos110310",
+		ik_id = {
+			{
+				12032000,
+				0,
+				{
+					4,
+					0.3,
+					1005
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0.3,
+			0.5
+		},
+		enter_scene_anim = {}
+	},
+	[120330] = {
+		base = 100330,
+		camera_group = 12030,
+		character_action = "Sit",
+		ik_camera = "Cam100330",
+		id = 120330,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos110310",
+		ik_id = {
+			{
+				12033000,
+				0,
+				{
+					4,
+					0.3,
+					1008
+				}
+			},
+			{
+				12033001,
+				0,
+				{
+					4,
+					0.3,
+					1008
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[120410] = {
+		base = 100410,
+		camera_group = 12040,
+		character_action = "GoToBedL",
+		ik_camera = "Cam100410",
+		id = 120410,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos100410",
+		ik_id = {
+			{
+				12041001,
+				0,
+				{
+					4,
+					0.3,
+					1011
+				}
+			}
+		},
+		touch_data = {
+			{
+				1004101,
+				0,
+				{
+					4,
+					0.3,
+					1009
+				}
+			}
+		},
+		use_cloth = {
+			1,
+			0,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[120420] = {
+		base = 100420,
+		camera_group = 12040,
+		character_action = "GoToBedL",
+		ik_camera = "Cam100420",
+		id = 120420,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos100420",
+		ik_id = {
+			{
+				12042000,
+				0,
+				{
+					4,
+					0.3,
+					1009
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			0,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[120430] = {
+		base = 100430,
+		camera_group = 12040,
+		character_action = "GoToBedL",
+		ik_camera = "Cam100430",
+		id = 120430,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos100430",
+		ik_id = {
+			{
+				12043000,
+				0,
+				{
+					4,
+					0.3,
+					1011
+				}
+			},
+			{
+				12043001,
+				0,
+				{
+					4,
+					0.3,
+					1012
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			0,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[120710] = {
+		base = 100710,
+		camera_group = 12070,
+		character_action = "PayGoToBed",
+		ik_camera = "Cam100710",
+		id = 120710,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos100710",
+		ik_id = {
+			{
+				12071000,
+				0,
+				{
+					1,
+					120711,
+					"chuang_beibu_1_start"
+				}
+			},
+			{
+				12071001,
+				0,
+				{
+					4,
+					0.3,
+					1017
+				}
+			}
+		},
+		touch_data = {
+			{
+				1007101,
+				0,
+				{
+					4,
+					0.3,
+					1020
+				}
+			}
+		},
+		use_cloth = {
+			1,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[120720] = {
+		base = 100720,
+		camera_group = 12070,
+		character_action = "PayGoToBed",
+		ik_camera = "Cam100720",
+		id = 120720,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos100720",
+		ik_id = {
+			{
+				12072000,
+				0,
+				{
+					1,
+					120721,
+					"chuang_2_pigu_2_start"
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.059,
+				0.059
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[120730] = {
+		base = 100730,
+		camera_group = 12070,
+		character_action = "PayGoToBed",
+		ik_camera = "Cam100730",
+		id = 120730,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos100730",
+		ik_id = {
+			{
+				12073000,
+				0,
+				{
+					1,
+					120731,
+					"chuang_jiao_1_start"
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[120711] = {
+		base = 100711,
+		camera_group = 12071,
+		character_action = "chuang_beibu_1_idle",
+		ik_camera = "Cam100711",
+		id = 120711,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos100711",
+		ik_id = {
+			{
+				12071100,
+				0,
+				{
+					1,
+					120710,
+					"chuang_beibu_1_end"
+				}
+			},
+			{
+				12071101,
+				0,
+				{
+					1,
+					120710,
+					"chuang_beibu_1_end"
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[120721] = {
+		base = 100721,
+		camera_group = 12072,
+		character_action = "chuang_2_pigu_2_idle",
+		ik_camera = "Cam100721",
+		id = 120721,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos100721",
+		ik_id = {
+			{
+				12072100,
+				0,
+				{
+					1,
+					120720,
+					"chuang_2_pigu_2_end"
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[120731] = {
+		base = 100731,
+		camera_group = 12073,
+		character_action = "chuang_jiao_1_idle",
+		ik_camera = "Cam100731",
+		id = 120731,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos100731",
+		ik_id = {
+			{
+				12073100,
+				0,
+				{
+					1,
+					120730,
+					"chuang_jiao_1_end"
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[120250] = {
+		base = 100250,
+		camera_group = 12025,
+		character_action = "TLX_TD_shafa_idle_01",
+		ik_camera = "Cam100250",
+		id = 120250,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos100250",
+		ik_id = {
+			{
+				12025000,
+				0,
+				{
+					4,
+					0.3,
+					1046
+				}
+			},
+			{
+				12025001,
+				0,
+				{
+					4,
+					0.3,
+					1045,
+					120251
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {
+			{
+				2001,
+				"XR_TD_shafa_idle_01"
+			}
+		}
+	},
+	[120260] = {
+		base = 100260,
+		camera_group = 12025,
+		character_action = "TLX_TD_shafa_idle_01",
+		ik_camera = "Cam100260",
+		id = 120260,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos100260",
+		ik_id = {
+			{
+				12026000,
+				0,
+				{
+					4,
+					0.3,
+					1045,
+					120251
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.09,
+				0.09
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {
+			{
+				2001,
+				"XR_TD_shafa_idle_01"
+			}
+		}
+	},
+	[120270] = {
+		base = 100270,
+		camera_group = 12025,
+		character_action = "TLX_TD_shafa_idle_01",
+		ik_camera = "Cam100270",
+		id = 120270,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos100270",
+		ik_id = {
+			{
+				12027000,
+				0,
+				{
+					4,
+					0.3,
+					1046
+				}
+			},
+			{
+				12027001,
+				0,
+				{
+					4,
+					0.3,
+					1047
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {
+			{
+				2001,
+				"XR_TD_shafa_idle_01"
+			}
+		}
+	},
+	[120280] = {
+		base = 100280,
+		camera_group = 12026,
+		character_action = "TLX_TD_shafa_idle_03",
+		ik_camera = "Cam100280",
+		id = 120280,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos100280",
+		ik_id = {
+			{
+				12028000,
+				0,
+				{
+					4,
+					0.3,
+					1051
+				}
+			},
+			{
+				12028001,
+				0,
+				{
+					4,
+					0.3,
+					1052
+				}
+			}
+		},
+		touch_data = {
+			{
+				1002801,
+				0,
+				{
+					4,
+					0.3,
+					1050
+				}
+			}
+		},
+		use_cloth = {
+			1,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[120251] = {
+		base = 100251,
+		camera_group = 12027,
+		character_action = "TLX_TD_shafa_idle_02",
+		ik_camera = "Cam100251",
+		id = 120251,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos100251",
+		ik_id = {
+			{
+				12025100,
+				0,
+				{
+					4,
+					0.3,
+					1048
+				}
+			},
+			{
+				12025101,
+				0,
+				{
+					4,
+					0.3,
+					1049,
+					120250
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[120810] = {
+		base = 120810,
+		camera_group = 12080,
+		character_action = "bunny_IK_cafe_idle01",
+		ik_camera = "Cam810910",
+		id = 120810,
+		skin_id = 202203,
+		character_id = 20220,
+		hide_scene_item = "",
+		character_position = "Pos810910",
+		ik_id = {
+			{
+				12081000,
+				0,
+				{
+					4,
+					0.3,
+					12081000
+				}
+			},
+			{
+				12081001,
+				0,
+				{
+					4,
+					0.3,
+					12081001
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			0,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {},
+		enter_extra_item = {
+			{
+				"furniture/Item/Cafe_Pillow/pre_db_cafe_pillow",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"bunny_IK_cafe_idle01_baozhen"
+			}
+		}
+	},
+	[120820] = {
+		base = 120820,
+		camera_group = 12080,
+		character_action = "bunny_IK_cafe_idle02",
+		ik_camera = "Cam810920",
+		id = 120820,
+		skin_id = 202203,
+		character_id = 20220,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos810920",
+		ik_id = {
+			{
+				12082000,
+				0,
+				{
+					4,
+					0.3,
+					12082000
+				}
+			},
+			{
+				12082001,
+				0,
+				{
+					4,
+					0.3,
+					12082001
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
 			1,
 			1,
 			1,
@@ -11774,6 +13165,624 @@ pg.dorm3d_ik_status = {
 			}
 		}
 	},
+	[300710] = {
+		base = 300710,
+		camera_group = 30070,
+		character_action = "ab_TD_bed_idle01",
+		ik_camera = "Cam300710",
+		id = 300710,
+		skin_id = 199031,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos300710",
+		ik_id = {
+			{
+				30071000,
+				0,
+				{
+					4,
+					0.3,
+					30231
+				}
+			},
+			{
+				30071001,
+				0,
+				{
+					4,
+					0.3,
+					30232
+				}
+			}
+		},
+		touch_data = {
+			{
+				3999991,
+				0,
+				{
+					9,
+					199033,
+					320710
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)_1",
+				1,
+				0.091,
+				0.091
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)",
+				1,
+				0.136,
+				0.136
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0
+		},
+		enter_scene_anim = {
+			{
+				2020,
+				"ab_TD_bed_idle01_1chuang"
+			},
+			{
+				2021,
+				"ab_TD_bed_idle01_2xiong"
+			},
+			{
+				2022,
+				"ab_TD_bed_idle01_3caiqiu"
+			}
+		}
+	},
+	[300720] = {
+		base = 300720,
+		camera_group = 30070,
+		character_action = "ab_TD_bed_idle02",
+		ik_camera = "Cam300720",
+		id = 300720,
+		skin_id = 199031,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos300720",
+		ik_id = {
+			{
+				30072000,
+				0,
+				{
+					4,
+					0.3,
+					30233
+				}
+			},
+			{
+				30072001,
+				0,
+				{
+					4,
+					0.3,
+					30234
+				}
+			},
+			{
+				30072002,
+				0,
+				{
+					4,
+					0.3,
+					30235
+				}
+			}
+		},
+		touch_data = {
+			{
+				3999992,
+				0,
+				{
+					9,
+					199033,
+					320720
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)_1",
+				1,
+				0.091,
+				0.091
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)",
+				1,
+				0.136,
+				0.136
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.5
+		},
+		enter_scene_anim = {
+			{
+				2020,
+				"ab_TD_bed_idle02_1chuang"
+			},
+			{
+				2021,
+				"ab_TD_bed_idle02_2xiong"
+			},
+			{
+				2022,
+				"ab_TD_bed_idle02_3caiqiu"
+			}
+		}
+	},
+	[300730] = {
+		base = 300730,
+		camera_group = 30070,
+		character_action = "ab_TD_bed_idle02",
+		ik_camera = "Cam300730",
+		id = 300730,
+		skin_id = 199031,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos300730",
+		ik_id = {
+			{
+				30073000,
+				0,
+				{
+					4,
+					0.3,
+					30237
+				}
+			}
+		},
+		touch_data = {
+			{
+				3004000,
+				0,
+				{
+					4,
+					0.3,
+					30236
+				}
+			},
+			{
+				3999993,
+				0,
+				{
+					9,
+					199033,
+					320730
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)_1",
+				1,
+				0.091,
+				0.091
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)",
+				1,
+				0.136,
+				0.136
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {
+			{
+				2020,
+				"ab_TD_bed_idle02_1chuang"
+			},
+			{
+				2021,
+				"ab_TD_bed_idle02_2xiong"
+			},
+			{
+				2022,
+				"ab_TD_bed_idle02_3caiqiu"
+			}
+		}
+	},
+	[300740] = {
+		base = 300740,
+		camera_group = 30070,
+		character_action = "ab_TD_bed_idle03",
+		ik_camera = "Cam300740",
+		id = 300740,
+		skin_id = 199031,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos300740",
+		ik_id = {
+			{
+				30074000,
+				0,
+				{
+					4,
+					0.3,
+					30239
+				}
+			},
+			{
+				30074001,
+				0,
+				{
+					4,
+					0.3,
+					30240
+				}
+			}
+		},
+		touch_data = {
+			{
+				3004001,
+				0,
+				{
+					4,
+					0.3,
+					30238
+				}
+			},
+			{
+				3999994,
+				0,
+				{
+					9,
+					199033,
+					320740
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)_1",
+				1,
+				0.091,
+				0.091
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)",
+				1,
+				0.136,
+				0.136
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.4
+		},
+		enter_scene_anim = {
+			{
+				2020,
+				"ab_TD_bed_idle03_1chuang"
+			},
+			{
+				2021,
+				"ab_TD_bed_idle03_2xiong"
+			},
+			{
+				2022,
+				"ab_TD_bed_idle03_3caiqiu"
+			}
+		}
+	},
 	[310110] = {
 		base = 300110,
 		camera_group = 30011,
@@ -14163,6 +16172,2560 @@ pg.dorm3d_ik_status = {
 			{
 				2012,
 				"ab_FF_shafa_idle02_SF"
+			}
+		}
+	},
+	[310710] = {
+		base = 300710,
+		camera_group = 31070,
+		character_action = "ab_TD_bed_idle01",
+		ik_camera = "Cam310710",
+		id = 310710,
+		skin_id = 199032,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos310710",
+		ik_id = {
+			{
+				31071000,
+				0,
+				{
+					4,
+					0.3,
+					30231
+				}
+			},
+			{
+				31071001,
+				0,
+				{
+					4,
+					0.3,
+					30232
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)_1",
+				1,
+				0.091,
+				0.091
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)",
+				1,
+				0.136,
+				0.136
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0
+		},
+		enter_scene_anim = {
+			{
+				2020,
+				"ab_TD_bed_idle01_1chuang"
+			},
+			{
+				2021,
+				"ab_TD_bed_idle01_2xiong"
+			},
+			{
+				2022,
+				"ab_TD_bed_idle01_3caiqiu"
+			}
+		}
+	},
+	[310720] = {
+		base = 300720,
+		camera_group = 31070,
+		character_action = "ab_TD_bed_idle02",
+		ik_camera = "Cam310720",
+		id = 310720,
+		skin_id = 199032,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos310720",
+		ik_id = {
+			{
+				31072000,
+				0,
+				{
+					4,
+					0.3,
+					30233
+				}
+			},
+			{
+				31072001,
+				0,
+				{
+					4,
+					0.3,
+					30234
+				}
+			},
+			{
+				31072002,
+				0,
+				{
+					4,
+					0.3,
+					30235
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)_1",
+				1,
+				0.091,
+				0.091
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)",
+				1,
+				0.136,
+				0.136
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.5
+		},
+		enter_scene_anim = {
+			{
+				2020,
+				"ab_TD_bed_idle02_1chuang"
+			},
+			{
+				2021,
+				"ab_TD_bed_idle02_2xiong"
+			},
+			{
+				2022,
+				"ab_TD_bed_idle02_3caiqiu"
+			}
+		}
+	},
+	[310730] = {
+		base = 300730,
+		camera_group = 31070,
+		character_action = "ab_TD_bed_idle02",
+		ik_camera = "Cam310730",
+		id = 310730,
+		skin_id = 199032,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos310730",
+		ik_id = {
+			{
+				31073000,
+				0,
+				{
+					4,
+					0.3,
+					30237
+				}
+			}
+		},
+		touch_data = {
+			{
+				3004000,
+				0,
+				{
+					4,
+					0.3,
+					30236
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)_1",
+				1,
+				0.091,
+				0.091
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)",
+				1,
+				0.136,
+				0.136
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {
+			{
+				2020,
+				"ab_TD_bed_idle02_1chuang"
+			},
+			{
+				2021,
+				"ab_TD_bed_idle02_2xiong"
+			},
+			{
+				2022,
+				"ab_TD_bed_idle02_3caiqiu"
+			}
+		}
+	},
+	[310740] = {
+		base = 300740,
+		camera_group = 31070,
+		character_action = "ab_TD_bed_idle03",
+		ik_camera = "Cam310740",
+		id = 310740,
+		skin_id = 199032,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos310740",
+		ik_id = {
+			{
+				31074000,
+				0,
+				{
+					4,
+					0.3,
+					30239
+				}
+			},
+			{
+				31074001,
+				0,
+				{
+					4,
+					0.3,
+					30240
+				}
+			}
+		},
+		touch_data = {
+			{
+				3004001,
+				0,
+				{
+					4,
+					0.3,
+					30238
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)_1",
+				1,
+				0.091,
+				0.091
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)",
+				1,
+				0.136,
+				0.136
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.4
+		},
+		enter_scene_anim = {
+			{
+				2020,
+				"ab_TD_bed_idle03_1chuang"
+			},
+			{
+				2021,
+				"ab_TD_bed_idle03_2xiong"
+			},
+			{
+				2022,
+				"ab_TD_bed_idle03_3caiqiu"
+			}
+		}
+	},
+	[320110] = {
+		base = 300110,
+		camera_group = 32011,
+		character_action = "ab_chuang_idle_01",
+		ik_camera = "Cam300110",
+		id = 320110,
+		skin_id = 199033,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos300110",
+		ik_id = {
+			{
+				32011000,
+				0,
+				{
+					4,
+					0.3,
+					30203
+				}
+			},
+			{
+				32011001,
+				0,
+				{
+					4,
+					0.3,
+					30202
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[320111] = {
+		base = 300111,
+		camera_group = 32011,
+		character_action = "ab_chuang_idle_01",
+		ik_camera = "Cam300111",
+		id = 320111,
+		skin_id = 199033,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos300111",
+		ik_id = {
+			{
+				32011100,
+				0,
+				{
+					4,
+					0.3,
+					30203
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[320112] = {
+		base = 300112,
+		camera_group = 32011,
+		character_action = "ab_chuang_idle_01",
+		ik_camera = "Cam300112",
+		id = 320112,
+		skin_id = 199033,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos300112",
+		ik_id = {
+			{
+				32011200,
+				0,
+				{
+					4,
+					0.3,
+					30202
+				}
+			},
+			{
+				32011201,
+				0,
+				{
+					4,
+					0.3,
+					30201
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[320210] = {
+		base = 300210,
+		camera_group = 32012,
+		character_action = "ab_shafa_idle_01",
+		ik_camera = "Cam300210",
+		id = 320210,
+		skin_id = 199033,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos300210",
+		ik_id = {
+			{
+				32021000,
+				0,
+				{
+					4,
+					0.3,
+					30208
+				}
+			},
+			{
+				32021001,
+				0,
+				{
+					4,
+					0.3,
+					30207
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[320211] = {
+		base = 300211,
+		camera_group = 32012,
+		character_action = "ab_shafa_idle_01",
+		ik_camera = "Cam300211",
+		id = 320211,
+		skin_id = 199033,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos300211",
+		ik_id = {
+			{
+				32021100,
+				0,
+				{
+					4,
+					0.3,
+					30208
+				}
+			},
+			{
+				32021101,
+				0,
+				{
+					4,
+					0.3,
+					30209
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0.06,
+			0.6
+		},
+		enter_scene_anim = {}
+	},
+	[320212] = {
+		base = 300212,
+		camera_group = 32012,
+		character_action = "ab_shafa_idle_01",
+		ik_camera = "Cam300212",
+		id = 320212,
+		skin_id = 199033,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos300212",
+		ik_id = {
+			{
+				32021200,
+				0,
+				{
+					4,
+					0.3,
+					30207
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[320310] = {
+		base = 300310,
+		camera_group = 32013,
+		character_action = "ab_ditan_idle_01",
+		ik_camera = "Cam300310",
+		id = 320310,
+		skin_id = 199033,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos300310",
+		ik_id = {
+			{
+				32031001,
+				0,
+				{
+					4,
+					0.3,
+					30206
+				}
+			}
+		},
+		touch_data = {
+			{
+				3003322,
+				0,
+				{
+					7,
+					1990313
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[320311] = {
+		base = 300311,
+		camera_group = 32013,
+		character_action = "ab_ditan_idle_01",
+		ik_camera = "Cam300311",
+		id = 320311,
+		skin_id = 199033,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos300311",
+		ik_id = {
+			{
+				32031100,
+				0,
+				{
+					4,
+					0.3,
+					30204
+				}
+			},
+			{
+				32031101,
+				0,
+				{
+					4,
+					0.3,
+					30205
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0.06,
+			0.6
+		},
+		enter_scene_anim = {}
+	},
+	[320312] = {
+		base = 300312,
+		camera_group = 32013,
+		character_action = "ab_ditan_idle_01",
+		ik_camera = "Cam300312",
+		id = 320312,
+		skin_id = 199033,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos300312",
+		ik_id = {
+			{
+				32031201,
+				0,
+				{
+					4,
+					0.3,
+					30205
+				}
+			}
+		},
+		touch_data = {
+			{
+				3003321,
+				0,
+				{
+					7,
+					1990311
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[320410] = {
+		base = 300410,
+		camera_group = 32014,
+		character_action = "ab_FF_ditan_1_idle_1",
+		ik_camera = "Cam300410",
+		id = 320410,
+		skin_id = 199033,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos300410",
+		ik_id = {
+			{
+				32041000,
+				0,
+				{
+					4,
+					0.3,
+					30214
+				}
+			}
+		},
+		touch_data = {
+			{
+				3003322,
+				0,
+				{
+					7,
+					1990314
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {
+			{
+				2003,
+				"ab_FF_ditan_1_xiong_01_JM_loop"
+			}
+		}
+	},
+	[320411] = {
+		base = 300411,
+		camera_group = 32014,
+		character_action = "ab_FF_ditan_1_idle_1",
+		ik_camera = "Cam300411",
+		id = 320411,
+		skin_id = 199033,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos300411",
+		ik_id = {
+			{
+				32041101,
+				0,
+				{
+					4,
+					0.3,
+					30215
+				}
+			}
+		},
+		touch_data = {
+			{
+				3003322,
+				0,
+				{
+					7,
+					1990314
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0.06,
+			0.6
+		},
+		enter_scene_anim = {
+			{
+				2003,
+				"ab_FF_ditan_1_xiong_01_JM_loop"
+			}
+		}
+	},
+	[320412] = {
+		base = 300412,
+		camera_group = 32014,
+		character_action = "ab_FF_ditan_2_idle_1",
+		ik_camera = "Cam300412",
+		id = 320412,
+		skin_id = 199033,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos300412",
+		ik_id = {
+			{
+				32041200,
+				0,
+				{
+					4,
+					0.3,
+					30216
+				}
+			},
+			{
+				32041201,
+				0,
+				{
+					4,
+					0.3,
+					30217
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[320510] = {
+		base = 300510,
+		camera_group = 32051,
+		character_action = "ab_FF_chuang_1_idle_01",
+		ik_camera = "Cam300510",
+		id = 320510,
+		skin_id = 199033,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos300510",
+		ik_id = {
+			{
+				32051000,
+				0,
+				{
+					4,
+					0.3,
+					30219
+				}
+			}
+		},
+		touch_data = {
+			{
+				3003321,
+				0,
+				{
+					7,
+					1990311
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.6
+		},
+		enter_scene_anim = {}
+	},
+	[320511] = {
+		base = 300511,
+		camera_group = 32051,
+		character_action = "ab_FF_chuang_1_idle_01",
+		ik_camera = "Cam300511",
+		id = 320511,
+		skin_id = 199033,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos300511",
+		ik_id = {
+			{
+				32051100,
+				0,
+				{
+					4,
+					0.3,
+					30218
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[320512] = {
+		base = 300512,
+		camera_group = 32051,
+		character_action = "ab_FF_chuang_2_idle_01",
+		ik_camera = "Cam300512",
+		id = 320512,
+		skin_id = 199033,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos300512",
+		ik_id = {
+			{
+				32051200,
+				0,
+				{
+					4,
+					0.3,
+					30220,
+					320513
+				}
+			},
+			{
+				32051202,
+				0,
+				{
+					4,
+					0.3,
+					30221
+				}
+			}
+		},
+		touch_data = {
+			{
+				3003323,
+				0,
+				{
+					7,
+					1990315
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[320513] = {
+		base = 300513,
+		camera_group = 32052,
+		character_action = "ab_FF_chuang_2_xiong_01-loop",
+		ik_camera = "Cam300513",
+		id = 320513,
+		skin_id = 199033,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos300513",
+		ik_id = {
+			{
+				32051300,
+				0,
+				{
+					4,
+					0.3,
+					30222,
+					320512
+				}
+			},
+			{
+				32051301,
+				0,
+				{
+					4,
+					0.3,
+					30222,
+					320512
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[320610] = {
+		base = 300610,
+		camera_group = 32061,
+		character_action = "ab_FF_shafa_idle01",
+		ik_camera = "Cam300610",
+		id = 320610,
+		skin_id = 199033,
+		character_id = 19903,
+		hide_scene_item = "",
+		character_position = "Pos300610",
+		ik_id = {
+			{
+				32061000,
+				0,
+				{
+					4,
+					0.3,
+					30223
+				}
+			},
+			{
+				32061001,
+				0,
+				{
+					4,
+					0.3,
+					30224
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)_1",
+				1,
+				0.091,
+				0.091
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)",
+				1,
+				0.136,
+				0.136
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {
+			{
+				2012,
+				"ab_FF_shafa_idle01_SF"
+			}
+		},
+		enter_extra_item = {
+			{
+				"furniture/Item/Aklq_Drink01/pre_db_aklq_drink01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"ab_FF_shafa_idle01_M"
+			}
+		}
+	},
+	[320620] = {
+		base = 300620,
+		camera_group = 32061,
+		character_action = "ab_FF_shafa_idle01",
+		ik_camera = "Cam300620",
+		id = 320620,
+		skin_id = 199033,
+		character_id = 19903,
+		hide_scene_item = "",
+		character_position = "Pos300620",
+		ik_id = {
+			{
+				32062000,
+				0,
+				{
+					4,
+					0.3,
+					30225
+				}
+			},
+			{
+				32062001,
+				0,
+				{
+					4,
+					0.3,
+					30226
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)_1",
+				1,
+				0.091,
+				0.091
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)",
+				1,
+				0.136,
+				0.136
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.5
+		},
+		enter_scene_anim = {
+			{
+				2012,
+				"ab_FF_shafa_idle01_SF"
+			}
+		},
+		enter_extra_item = {
+			{
+				"furniture/Item/Aklq_Drink01/pre_db_aklq_drink01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"ab_FF_shafa_idle01_M"
+			}
+		}
+	},
+	[320630] = {
+		base = 300630,
+		camera_group = 32061,
+		character_action = "ab_FF_shafa_idle02",
+		ik_camera = "Cam300630",
+		id = 320630,
+		skin_id = 199033,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos300630",
+		ik_id = {
+			{
+				32063000,
+				0,
+				{
+					4,
+					0.3,
+					30228
+				}
+			},
+			{
+				32063001,
+				0,
+				{
+					4,
+					0.3,
+					30227
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)_1",
+				1,
+				0.091,
+				0.091
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)",
+				1,
+				0.136,
+				0.136
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {
+			{
+				2012,
+				"ab_FF_shafa_idle02_SF"
+			}
+		}
+	},
+	[320640] = {
+		base = 300640,
+		camera_group = 32061,
+		character_action = "ab_FF_shafa_idle02",
+		ik_camera = "Cam300640",
+		id = 320640,
+		skin_id = 199033,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos300640",
+		ik_id = {
+			{
+				32064000,
+				0,
+				{
+					4,
+					0.3,
+					30230
+				}
+			}
+		},
+		touch_data = {
+			{
+				3003324,
+				0,
+				{
+					4,
+					0.3,
+					30229
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)_1",
+				1,
+				0.091,
+				0.091
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)",
+				1,
+				0.136,
+				0.136
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.4
+		},
+		enter_scene_anim = {
+			{
+				2012,
+				"ab_FF_shafa_idle02_SF"
+			}
+		}
+	},
+	[320710] = {
+		base = 300710,
+		camera_group = 32070,
+		character_action = "ab_TD_bed_idle01",
+		ik_camera = "Cam320710",
+		id = 320710,
+		skin_id = 199033,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos320710",
+		ik_id = {
+			{
+				32071000,
+				0,
+				{
+					4,
+					0.3,
+					30231
+				}
+			},
+			{
+				32071001,
+				0,
+				{
+					4,
+					0.3,
+					30232
+				}
+			}
+		},
+		touch_data = {
+			{
+				3999991,
+				0,
+				{
+					9,
+					199031,
+					300710
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)_1",
+				1,
+				0.091,
+				0.091
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)",
+				1,
+				0.136,
+				0.136
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0
+		},
+		enter_scene_anim = {
+			{
+				2020,
+				"ab_TD_bed_idle01_1chuang"
+			},
+			{
+				2021,
+				"ab_TD_bed_idle01_2xiong"
+			},
+			{
+				2022,
+				"ab_TD_bed_idle01_3caiqiu"
+			}
+		}
+	},
+	[320720] = {
+		base = 300720,
+		camera_group = 32070,
+		character_action = "ab_TD_bed_idle02",
+		ik_camera = "Cam320720",
+		id = 320720,
+		skin_id = 199033,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos320720",
+		ik_id = {
+			{
+				32072000,
+				0,
+				{
+					4,
+					0.3,
+					30233
+				}
+			},
+			{
+				32072001,
+				0,
+				{
+					4,
+					0.3,
+					30234
+				}
+			},
+			{
+				32072002,
+				0,
+				{
+					4,
+					0.3,
+					30235
+				}
+			}
+		},
+		touch_data = {
+			{
+				3999992,
+				0,
+				{
+					9,
+					199031,
+					300720
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)_1",
+				1,
+				0.091,
+				0.091
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)",
+				1,
+				0.136,
+				0.136
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.5
+		},
+		enter_scene_anim = {
+			{
+				2020,
+				"ab_TD_bed_idle02_1chuang"
+			},
+			{
+				2021,
+				"ab_TD_bed_idle02_2xiong"
+			},
+			{
+				2022,
+				"ab_TD_bed_idle02_3caiqiu"
+			}
+		}
+	},
+	[320730] = {
+		base = 300730,
+		camera_group = 32070,
+		character_action = "ab_TD_bed_idle02",
+		ik_camera = "Cam320730",
+		id = 320730,
+		skin_id = 199033,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos320730",
+		ik_id = {
+			{
+				32073000,
+				0,
+				{
+					4,
+					0.3,
+					30237
+				}
+			}
+		},
+		touch_data = {
+			{
+				3004000,
+				0,
+				{
+					4,
+					0.3,
+					30236
+				}
+			},
+			{
+				3999993,
+				0,
+				{
+					9,
+					199031,
+					300730
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)_1",
+				1,
+				0.091,
+				0.091
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)",
+				1,
+				0.136,
+				0.136
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {
+			{
+				2020,
+				"ab_TD_bed_idle02_1chuang"
+			},
+			{
+				2021,
+				"ab_TD_bed_idle02_2xiong"
+			},
+			{
+				2022,
+				"ab_TD_bed_idle02_3caiqiu"
+			}
+		}
+	},
+	[320740] = {
+		base = 300740,
+		camera_group = 32070,
+		character_action = "ab_TD_bed_idle03",
+		ik_camera = "Cam320740",
+		id = 320740,
+		skin_id = 199033,
+		character_id = 19903,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos320740",
+		ik_id = {
+			{
+				32074000,
+				0,
+				{
+					4,
+					0.3,
+					30239
+				}
+			},
+			{
+				32074001,
+				0,
+				{
+					4,
+					0.3,
+					30240
+				}
+			}
+		},
+		touch_data = {
+			{
+				3004001,
+				0,
+				{
+					4,
+					0.3,
+					30238
+				}
+			},
+			{
+				3999994,
+				0,
+				{
+					9,
+					199031,
+					300740
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)_1",
+				1,
+				0.091,
+				0.091
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)",
+				1,
+				0.136,
+				0.136
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.4
+		},
+		enter_scene_anim = {
+			{
+				2020,
+				"ab_TD_bed_idle03_1chuang"
+			},
+			{
+				2021,
+				"ab_TD_bed_idle03_2xiong"
+			},
+			{
+				2022,
+				"ab_TD_bed_idle03_3caiqiu"
 			}
 		}
 	},
@@ -16679,6 +21242,548 @@ pg.dorm3d_ik_status = {
 			}
 		}
 	},
+	[400810] = {
+		base = 400810,
+		camera_group = 40080,
+		character_action = "IK_dining02_idle01",
+		ik_camera = "Cam400810",
+		id = 400810,
+		skin_id = 105171,
+		character_id = 10517,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos400810",
+		ik_id = {
+			{
+				40081000,
+				0,
+				{
+					4,
+					0.3,
+					110236
+				}
+			}
+		},
+		touch_data = {
+			{
+				4000002,
+				0,
+				{
+					4,
+					0.3,
+					110239
+				}
+			}
+		},
+		use_cloth = {
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			0
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.095,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.095,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.057,
+				0.069
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.06
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.048
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.057,
+				0.069
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.06
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.048
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine1)",
+				1,
+				0.112,
+				0.08
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.107,
+				0.107
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {
+			{
+				2018,
+				"IK_dining02_idle01_BX"
+			}
+		}
+	},
+	[400820] = {
+		base = 400820,
+		camera_group = 40080,
+		character_action = "IK_dining02_idle01",
+		ik_camera = "Cam400820",
+		id = 400820,
+		skin_id = 105171,
+		character_id = 10517,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos400820",
+		ik_id = {
+			{
+				40082000,
+				0,
+				{
+					4,
+					0.3,
+					110238
+				}
+			}
+		},
+		touch_data = {
+			{
+				4000001,
+				0,
+				{
+					4,
+					0.3,
+					110237
+				}
+			}
+		},
+		use_cloth = {
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			0
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.095,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.095,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.057,
+				0.069
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.06
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.048
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.057,
+				0.069
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.06
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.048
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine1)",
+				1,
+				0.112,
+				0.08
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.107,
+				0.107
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {
+			{
+				2018,
+				"IK_dining02_idle01_BX"
+			}
+		}
+	},
+	[400830] = {
+		base = 400830,
+		camera_group = 40080,
+		character_action = "IK_dining02_idle02",
+		ik_camera = "Cam400830",
+		id = 400830,
+		skin_id = 105171,
+		character_id = 10517,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos400830",
+		ik_id = {
+			{
+				40083000,
+				0,
+				{
+					4,
+					0.3,
+					110240
+				}
+			},
+			{
+				40083001,
+				0,
+				{
+					4,
+					0.3,
+					110241
+				}
+			},
+			{
+				40084000,
+				0,
+				{
+					4,
+					0.3,
+					110242
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			0
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.095,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.095,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.057,
+				0.069
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.06
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.048
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.057,
+				0.069
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.06
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.048
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine1)",
+				1,
+				0.112,
+				0.08
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.107,
+				0.107
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {
+			{
+				2018,
+				"IK_dining02_idle02_BX"
+			}
+		}
+	},
+	[400840] = {
+		base = 400840,
+		camera_group = 40080,
+		character_action = "IK_dining02_idle02",
+		ik_camera = "Cam400840",
+		id = 400840,
+		skin_id = 105171,
+		character_id = 10517,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos400840",
+		ik_id = {
+			{
+				40084001,
+				0,
+				{
+					4,
+					0.3,
+					110243
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			0
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.095,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.095,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.057,
+				0.069
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.06
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.048
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.057,
+				0.069
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.06
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.048
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine1)",
+				1,
+				0.112,
+				0.08
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.107,
+				0.107
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {
+			{
+				2018,
+				"IK_dining02_idle02_BX"
+			}
+		}
+	},
 	[410110] = {
 		base = 400110,
 		camera_group = 41010,
@@ -18583,6 +23688,548 @@ pg.dorm3d_ik_status = {
 			}
 		}
 	},
+	[410810] = {
+		base = 400810,
+		camera_group = 40080,
+		character_action = "IK_dining02_idle01",
+		ik_camera = "Cam410810",
+		id = 410810,
+		skin_id = 105173,
+		character_id = 10517,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos410810",
+		ik_id = {
+			{
+				41081000,
+				0,
+				{
+					4,
+					0.3,
+					110236
+				}
+			}
+		},
+		touch_data = {
+			{
+				4000002,
+				0,
+				{
+					4,
+					0.3,
+					110239
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			0
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.095,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.095,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.057,
+				0.069
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.06
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.048
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.057,
+				0.069
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.06
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.048
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine1)",
+				1,
+				0.112,
+				0.08
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.107,
+				0.107
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {
+			{
+				2018,
+				"IK_dining02_idle01_BX"
+			}
+		}
+	},
+	[410820] = {
+		base = 400820,
+		camera_group = 40080,
+		character_action = "IK_dining02_idle01",
+		ik_camera = "Cam410820",
+		id = 410820,
+		skin_id = 105173,
+		character_id = 10517,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos410820",
+		ik_id = {
+			{
+				41082000,
+				0,
+				{
+					4,
+					0.3,
+					110238
+				}
+			}
+		},
+		touch_data = {
+			{
+				4000001,
+				0,
+				{
+					4,
+					0.3,
+					110237
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			0
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.095,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.095,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.057,
+				0.069
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.06
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.048
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.057,
+				0.069
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.06
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.048
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine1)",
+				1,
+				0.112,
+				0.08
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.107,
+				0.107
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {
+			{
+				2018,
+				"IK_dining02_idle01_BX"
+			}
+		}
+	},
+	[410830] = {
+		base = 400830,
+		camera_group = 40080,
+		character_action = "IK_dining02_idle02",
+		ik_camera = "Cam410830",
+		id = 410830,
+		skin_id = 105173,
+		character_id = 10517,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos410830",
+		ik_id = {
+			{
+				41083000,
+				0,
+				{
+					4,
+					0.3,
+					110240
+				}
+			},
+			{
+				40083001,
+				0,
+				{
+					4,
+					0.3,
+					110241
+				}
+			},
+			{
+				41084000,
+				0,
+				{
+					4,
+					0.3,
+					110242
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			0
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.095,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.095,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.057,
+				0.069
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.06
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.048
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.057,
+				0.069
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.06
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.048
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine1)",
+				1,
+				0.112,
+				0.08
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.107,
+				0.107
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {
+			{
+				2018,
+				"IK_dining02_idle02_BX"
+			}
+		}
+	},
+	[410840] = {
+		base = 400840,
+		camera_group = 40080,
+		character_action = "IK_dining02_idle02",
+		ik_camera = "Cam410840",
+		id = 410840,
+		skin_id = 105173,
+		character_id = 10517,
+		enter_extra_item = "",
+		hide_scene_item = "",
+		character_position = "Pos410840",
+		ik_id = {
+			{
+				40084001,
+				0,
+				{
+					4,
+					0.3,
+					110243
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			0
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.095,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.095,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.057,
+				0.069
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.06
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.048
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.057,
+				0.069
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.06
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.048
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine1)",
+				1,
+				0.112,
+				0.08
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.107,
+				0.107
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {
+			{
+				2018,
+				"IK_dining02_idle02_BX"
+			}
+		}
+	},
 	[500110] = {
 		base = 500110,
 		camera_group = 50010,
@@ -20370,6 +26017,391 @@ pg.dorm3d_ik_status = {
 			"FurnitureSlots/1120304/pre_db_df_tedian01(Clone)/pre_db_df_chair01/fbx_db_df_chair01"
 		}
 	},
+	[500610] = {
+		base = 500610,
+		camera_group = 50060,
+		character_action = "IK_living02_idle01",
+		ik_camera = "Cam500610",
+		character_id = 30707,
+		skin_id = 307071,
+		enter_extra_item = "",
+		id = 500610,
+		character_position = "Pos500610",
+		ik_id = {
+			{
+				50061000,
+				0,
+				{
+					4,
+					0.3,
+					120234
+				}
+			}
+		},
+		touch_data = {
+			{
+				5005004,
+				0,
+				{
+					4,
+					0.3,
+					120235
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine1)",
+				1,
+				0.103,
+				0.103
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.105,
+				0.105
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {
+			{
+				2019,
+				"IK_living02_idle01_CJ"
+			}
+		},
+		hide_scene_item = {
+			"no_bake_pay_prop/livingroom"
+		}
+	},
+	[500620] = {
+		base = 500620,
+		camera_group = 50060,
+		character_action = "IK_living02_idle01",
+		ik_camera = "Cam500620",
+		character_id = 30707,
+		skin_id = 307071,
+		enter_extra_item = "",
+		id = 500620,
+		character_position = "Pos500620",
+		ik_id = {
+			{
+				50062000,
+				0,
+				{
+					4,
+					0.3,
+					120236
+				}
+			},
+			{
+				50062001,
+				0,
+				{
+					4,
+					0.3,
+					120237
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine1)",
+				1,
+				0.103,
+				0.103
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.105,
+				0.105
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {
+			{
+				2019,
+				"IK_living02_idle01_CJ"
+			}
+		},
+		hide_scene_item = {
+			"no_bake_pay_prop/livingroom"
+		}
+	},
+	[500630] = {
+		base = 500630,
+		camera_group = 50060,
+		character_action = "IK_living02_idle02",
+		ik_camera = "Cam500630",
+		character_id = 30707,
+		skin_id = 307071,
+		enter_extra_item = "",
+		id = 500630,
+		character_position = "Pos500630",
+		ik_id = {
+			{
+				50063000,
+				0,
+				{
+					4,
+					0.3,
+					120238
+				}
+			},
+			{
+				50063001,
+				0,
+				{
+					4,
+					0.3,
+					120239
+				}
+			},
+			{
+				50063002,
+				0,
+				{
+					4,
+					0.3,
+					120240
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine1)",
+				1,
+				0.103,
+				0.103
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.105,
+				0.105
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {
+			{
+				2019,
+				"IK_living02_idle02_CJ"
+			}
+		},
+		hide_scene_item = {
+			"no_bake_pay_prop/livingroom"
+		}
+	},
 	[510110] = {
 		base = 500110,
 		camera_group = 50010,
@@ -21567,6 +27599,391 @@ pg.dorm3d_ik_status = {
 			"FurnitureSlots/1120304/pre_db_df_tedian01(Clone)/pre_db_df_chair01/fbx_db_df_chair01"
 		}
 	},
+	[510610] = {
+		base = 500610,
+		camera_group = 50060,
+		character_action = "IK_living02_idle01",
+		ik_camera = "Cam510610",
+		character_id = 30707,
+		skin_id = 307073,
+		enter_extra_item = "",
+		id = 510610,
+		character_position = "Pos510610",
+		ik_id = {
+			{
+				51061000,
+				0,
+				{
+					4,
+					0.3,
+					120234
+				}
+			}
+		},
+		touch_data = {
+			{
+				5005004,
+				0,
+				{
+					4,
+					0.3,
+					120235
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine1)",
+				1,
+				0.103,
+				0.103
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.105,
+				0.105
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {
+			{
+				2019,
+				"IK_living02_idle01_CJ"
+			}
+		},
+		hide_scene_item = {
+			"no_bake_pay_prop/livingroom"
+		}
+	},
+	[510620] = {
+		base = 500620,
+		camera_group = 50060,
+		character_action = "IK_living02_idle01",
+		ik_camera = "Cam510620",
+		character_id = 30707,
+		skin_id = 307073,
+		enter_extra_item = "",
+		id = 510620,
+		character_position = "Pos510620",
+		ik_id = {
+			{
+				51062000,
+				0,
+				{
+					4,
+					0.3,
+					120236
+				}
+			},
+			{
+				51062001,
+				0,
+				{
+					4,
+					0.3,
+					120237
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine1)",
+				1,
+				0.103,
+				0.103
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.105,
+				0.105
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {
+			{
+				2019,
+				"IK_living02_idle01_CJ"
+			}
+		},
+		hide_scene_item = {
+			"no_bake_pay_prop/livingroom"
+		}
+	},
+	[510630] = {
+		base = 500630,
+		camera_group = 50060,
+		character_action = "IK_living02_idle02",
+		ik_camera = "Cam510630",
+		character_id = 30707,
+		skin_id = 307073,
+		enter_extra_item = "",
+		id = 510630,
+		character_position = "Pos510630",
+		ik_id = {
+			{
+				51063000,
+				0,
+				{
+					4,
+					0.3,
+					120238
+				}
+			},
+			{
+				51063001,
+				0,
+				{
+					4,
+					0.3,
+					120239
+				}
+			},
+			{
+				51063002,
+				0,
+				{
+					4,
+					0.3,
+					120240
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine1)",
+				1,
+				0.103,
+				0.103
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.105,
+				0.105
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {
+			{
+				2019,
+				"IK_living02_idle02_CJ"
+			}
+		},
+		hide_scene_item = {
+			"no_bake_pay_prop/livingroom"
+		}
+	},
 	[510910] = {
 		base = 510910,
 		camera_group = 50090,
@@ -21575,7 +27992,6 @@ pg.dorm3d_ik_status = {
 		id = 510910,
 		skin_id = 307073,
 		character_id = 30707,
-		touch_data = "",
 		enter_extra_item = "",
 		hide_scene_item = "",
 		character_position = "Pos510910",
@@ -21599,6 +28015,7 @@ pg.dorm3d_ik_status = {
 				}
 			}
 		},
+		touch_data = {},
 		use_cloth = {
 			0,
 			1,
@@ -21632,7 +28049,6 @@ pg.dorm3d_ik_status = {
 		id = 510920,
 		skin_id = 307073,
 		character_id = 30707,
-		touch_data = "",
 		hide_scene_item = "",
 		character_position = "Pos510920",
 		ik_id = {
@@ -21655,6 +28071,7 @@ pg.dorm3d_ik_status = {
 				}
 			}
 		},
+		touch_data = {},
 		use_cloth = {
 			0,
 			1,
@@ -21691,6 +28108,1956 @@ pg.dorm3d_ik_status = {
 				"bunny_IK_cafe_idle02_BZ"
 			}
 		}
+	},
+	[600110] = {
+		base = 600110,
+		camera_group = 60010,
+		character_action = "IK_bed01_idle01",
+		ik_camera = "Cam600110",
+		id = 600110,
+		skin_id = 499051,
+		character_position = "Pos600110",
+		character_id = 49905,
+		ik_id = {
+			{
+				60011000,
+				0,
+				{
+					4,
+					0.3,
+					140201
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine2)",
+				1,
+				0.098,
+				0.098
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0.1,
+			0.2
+		},
+		enter_scene_anim = {},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	},
+	[600120] = {
+		base = 600120,
+		camera_group = 60010,
+		character_action = "IK_bed01_idle01",
+		ik_camera = "Cam600120",
+		id = 600120,
+		skin_id = 499051,
+		character_position = "Pos600120",
+		character_id = 49905,
+		ik_id = {
+			{
+				60012000,
+				0,
+				{
+					4,
+					0.3,
+					140203
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine2)",
+				1,
+				0.098,
+				0.098
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0.1,
+			0.2
+		},
+		enter_scene_anim = {},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	},
+	[600130] = {
+		base = 600130,
+		camera_group = 60010,
+		character_action = "IK_bed01_idle01",
+		ik_camera = "Cam600130",
+		id = 600130,
+		skin_id = 499051,
+		character_position = "Pos600130",
+		character_id = 49905,
+		ik_id = {
+			{
+				60013000,
+				0,
+				{
+					4,
+					0.3,
+					140204
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine2)",
+				1,
+				0.098,
+				0.098
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0.1,
+			0.2
+		},
+		enter_scene_anim = {},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	},
+	[600210] = {
+		base = 600210,
+		camera_group = 60020,
+		character_action = "IK_desk01_idle01",
+		ik_camera = "Cam600210",
+		id = 600210,
+		skin_id = 499051,
+		character_position = "Pos600210",
+		character_id = 49905,
+		ik_id = {
+			{
+				60021000,
+				0,
+				{
+					4,
+					0.3,
+					140205
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine2)",
+				1,
+				0.098,
+				0.098
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {
+			{
+				2015,
+				"IK_desk01_idle01_ZZ"
+			}
+		},
+		enter_extra_item = {},
+		hide_scene_item = {
+			"no_bake_pay_prop/study/pre_db_aijier_study01_0/pre_db_drink13"
+		}
+	},
+	[600220] = {
+		base = 600220,
+		camera_group = 60020,
+		character_action = "IK_desk01_idle01",
+		ik_camera = "Cam600220",
+		id = 600220,
+		skin_id = 499051,
+		character_position = "Pos600220",
+		character_id = 49905,
+		ik_id = {
+			{
+				60022000,
+				0,
+				{
+					4,
+					0.3,
+					140206
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine2)",
+				1,
+				0.098,
+				0.098
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {
+			{
+				2015,
+				"IK_desk01_idle01_ZZ"
+			}
+		},
+		enter_extra_item = {},
+		hide_scene_item = {
+			"no_bake_pay_prop/study/pre_db_aijier_study01_0/pre_db_drink13"
+		}
+	},
+	[600230] = {
+		base = 600230,
+		camera_group = 60020,
+		character_action = "IK_desk01_idle01",
+		ik_camera = "Cam600230",
+		id = 600230,
+		skin_id = 499051,
+		character_position = "Pos600230",
+		character_id = 49905,
+		ik_id = {
+			{
+				60023000,
+				0,
+				{
+					4,
+					0.3,
+					140207
+				}
+			},
+			{
+				60023001,
+				0,
+				{
+					4,
+					0.3,
+					140208
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine2)",
+				1,
+				0.098,
+				0.098
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {
+			{
+				2015,
+				"IK_desk01_idle01_ZZ"
+			}
+		},
+		enter_extra_item = {},
+		hide_scene_item = {
+			"no_bake_pay_prop/study/pre_db_aijier_study01_0/pre_db_drink13"
+		}
+	},
+	[600310] = {
+		base = 600310,
+		camera_group = 60030,
+		character_action = "IK_living01_idle01",
+		ik_camera = "Cam600310",
+		id = 600310,
+		skin_id = 499051,
+		character_position = "Pos600310",
+		character_id = 49905,
+		ik_id = {
+			{
+				60031000,
+				0,
+				{
+					4,
+					0.3,
+					140209
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine2)",
+				1,
+				0.098,
+				0.098
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	},
+	[600320] = {
+		base = 600320,
+		camera_group = 60030,
+		character_action = "IK_living01_idle01",
+		ik_camera = "Cam600320",
+		id = 600320,
+		skin_id = 499051,
+		character_position = "Pos600320",
+		character_id = 49905,
+		ik_id = {
+			{
+				60032000,
+				0,
+				{
+					4,
+					0.3,
+					140211
+				}
+			},
+			{
+				60032001,
+				0,
+				{
+					4,
+					0.3,
+					140210
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine2)",
+				1,
+				0.098,
+				0.098
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	},
+	[600330] = {
+		base = 600330,
+		camera_group = 60030,
+		character_action = "IK_living01_idle01",
+		ik_camera = "Cam600330",
+		id = 600330,
+		skin_id = 499051,
+		character_position = "Pos600330",
+		character_id = 49905,
+		ik_id = {
+			{
+				60033000,
+				0,
+				{
+					4,
+					0.3,
+					140212
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine2)",
+				1,
+				0.098,
+				0.098
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	},
+	[600410] = {
+		base = 600410,
+		camera_group = 60040,
+		character_action = "IK_bed02_idle01",
+		ik_camera = "Cam600410",
+		id = 600410,
+		skin_id = 499051,
+		character_position = "Pos600410",
+		character_id = 49905,
+		ik_id = {
+			{
+				60041000,
+				0,
+				{
+					4,
+					0.3,
+					140213
+				}
+			}
+		},
+		touch_data = {
+			{
+				6004001,
+				0,
+				{
+					4,
+					0.3,
+					140214
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine2)",
+				1,
+				0.098,
+				0.098
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0
+		},
+		enter_scene_anim = {
+			{
+				2016,
+				"IK_bed02_idle01_C"
+			}
+		},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	},
+	[600420] = {
+		base = 600420,
+		camera_group = 60040,
+		character_action = "IK_bed02_idle01",
+		ik_camera = "Cam600420",
+		id = 600420,
+		skin_id = 499051,
+		character_position = "Pos600420",
+		character_id = 49905,
+		ik_id = {
+			{
+				60042000,
+				0,
+				{
+					4,
+					0.3,
+					140215
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine2)",
+				1,
+				0.098,
+				0.098
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0
+		},
+		enter_scene_anim = {
+			{
+				2016,
+				"IK_bed02_idle01_C"
+			}
+		},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	},
+	[600430] = {
+		base = 600430,
+		camera_group = 60040,
+		character_action = "IK_bed02_idle02",
+		ik_camera = "Cam600430",
+		id = 600430,
+		skin_id = 499051,
+		character_position = "Pos600430",
+		character_id = 49905,
+		ik_id = {
+			{
+				60043000,
+				0,
+				{
+					4,
+					0.3,
+					140216
+				}
+			},
+			{
+				60043001,
+				0,
+				{
+					4,
+					0.3,
+					140217
+				}
+			},
+			{
+				60043002,
+				0,
+				{
+					4,
+					0.3,
+					140218
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine2)",
+				1,
+				0.098,
+				0.098
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0
+		},
+		enter_scene_anim = {
+			{
+				2016,
+				"IK_bed02_idle02_C"
+			}
+		},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	},
+	[610110] = {
+		base = 600110,
+		camera_group = 61010,
+		character_action = "IK_bed01_idle01",
+		ik_camera = "Cam610110",
+		id = 610110,
+		skin_id = 499053,
+		character_position = "Pos610110",
+		character_id = 49905,
+		ik_id = {
+			{
+				61011000,
+				0,
+				{
+					4,
+					0.3,
+					140201
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0.1,
+			0.2
+		},
+		enter_scene_anim = {},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	},
+	[610120] = {
+		base = 600120,
+		camera_group = 61010,
+		character_action = "IK_bed01_idle01",
+		ik_camera = "Cam610120",
+		id = 610120,
+		skin_id = 499053,
+		character_position = "Pos610120",
+		character_id = 49905,
+		ik_id = {
+			{
+				61012000,
+				0,
+				{
+					4,
+					0.3,
+					140203
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0.1,
+			0.2
+		},
+		enter_scene_anim = {},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	},
+	[610130] = {
+		base = 600130,
+		camera_group = 61010,
+		character_action = "IK_bed01_idle01",
+		ik_camera = "Cam610130",
+		id = 610130,
+		skin_id = 499053,
+		character_position = "Pos610130",
+		character_id = 49905,
+		ik_id = {
+			{
+				61013000,
+				0,
+				{
+					4,
+					0.3,
+					140204
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0.1,
+			0.2
+		},
+		enter_scene_anim = {},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	},
+	[610210] = {
+		base = 600210,
+		camera_group = 61020,
+		character_action = "IK_desk01_idle01",
+		ik_camera = "Cam610210",
+		id = 610210,
+		skin_id = 499053,
+		character_position = "Pos610210",
+		character_id = 49905,
+		ik_id = {
+			{
+				61021000,
+				0,
+				{
+					4,
+					0.3,
+					140205
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {
+			{
+				2015,
+				"IK_desk01_idle01_ZZ"
+			}
+		},
+		enter_extra_item = {},
+		hide_scene_item = {
+			"no_bake_pay_prop/study/pre_db_aijier_study01_0/pre_db_drink13"
+		}
+	},
+	[610220] = {
+		base = 600220,
+		camera_group = 61020,
+		character_action = "IK_desk01_idle01",
+		ik_camera = "Cam610220",
+		id = 610220,
+		skin_id = 499053,
+		character_position = "Pos610220",
+		character_id = 49905,
+		ik_id = {
+			{
+				61022000,
+				0,
+				{
+					4,
+					0.3,
+					140206
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {
+			{
+				2015,
+				"IK_desk01_idle01_ZZ"
+			}
+		},
+		enter_extra_item = {},
+		hide_scene_item = {
+			"no_bake_pay_prop/study/pre_db_aijier_study01_0/pre_db_drink13"
+		}
+	},
+	[610230] = {
+		base = 600230,
+		camera_group = 61020,
+		character_action = "IK_desk01_idle01",
+		ik_camera = "Cam610230",
+		id = 610230,
+		skin_id = 499053,
+		character_position = "Pos610230",
+		character_id = 49905,
+		ik_id = {
+			{
+				61023000,
+				0,
+				{
+					4,
+					0.3,
+					140207
+				}
+			},
+			{
+				61023001,
+				0,
+				{
+					4,
+					0.3,
+					140208
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {
+			{
+				2015,
+				"IK_desk01_idle01_ZZ"
+			}
+		},
+		enter_extra_item = {},
+		hide_scene_item = {
+			"no_bake_pay_prop/study/pre_db_aijier_study01_0/pre_db_drink13"
+		}
+	},
+	[610310] = {
+		base = 600310,
+		camera_group = 61030,
+		character_action = "IK_living01_idle01",
+		ik_camera = "Cam610310",
+		id = 610310,
+		skin_id = 499053,
+		character_position = "Pos610310",
+		character_id = 49905,
+		ik_id = {
+			{
+				61031000,
+				0,
+				{
+					4,
+					0.3,
+					140209
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	},
+	[610320] = {
+		base = 600320,
+		camera_group = 61030,
+		character_action = "IK_living01_idle01",
+		ik_camera = "Cam610320",
+		id = 610320,
+		skin_id = 499053,
+		character_position = "Pos610320",
+		character_id = 49905,
+		ik_id = {
+			{
+				61032000,
+				0,
+				{
+					4,
+					0.3,
+					140211
+				}
+			},
+			{
+				61032001,
+				0,
+				{
+					4,
+					0.3,
+					140210
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	},
+	[610330] = {
+		base = 600330,
+		camera_group = 61030,
+		character_action = "IK_living01_idle01",
+		ik_camera = "Cam610330",
+		id = 610330,
+		skin_id = 499053,
+		character_position = "Pos610330",
+		character_id = 49905,
+		ik_id = {
+			{
+				61033000,
+				0,
+				{
+					4,
+					0.3,
+					140212
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	},
+	[610410] = {
+		base = 600410,
+		camera_group = 61040,
+		character_action = "IK_bed02_idle01",
+		ik_camera = "Cam610410",
+		id = 610410,
+		skin_id = 499053,
+		character_position = "Pos610410",
+		character_id = 49905,
+		ik_id = {
+			{
+				61041000,
+				0,
+				{
+					4,
+					0.3,
+					140213
+				}
+			}
+		},
+		touch_data = {
+			{
+				6004001,
+				0,
+				{
+					4,
+					0.3,
+					140214
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0
+		},
+		enter_scene_anim = {
+			{
+				2016,
+				"IK_bed02_idle01_C"
+			}
+		},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	},
+	[610420] = {
+		base = 600420,
+		camera_group = 61040,
+		character_action = "IK_bed02_idle01",
+		ik_camera = "Cam610420",
+		id = 610420,
+		skin_id = 499053,
+		character_position = "Pos610420",
+		character_id = 49905,
+		ik_id = {
+			{
+				61042000,
+				0,
+				{
+					4,
+					0.3,
+					140215
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0
+		},
+		enter_scene_anim = {
+			{
+				2016,
+				"IK_bed02_idle01_C"
+			}
+		},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	},
+	[610430] = {
+		base = 600430,
+		camera_group = 61040,
+		character_action = "IK_bed02_idle02",
+		ik_camera = "Cam610430",
+		id = 610430,
+		skin_id = 499053,
+		character_position = "Pos610430",
+		character_id = 49905,
+		ik_id = {
+			{
+				61043000,
+				0,
+				{
+					4,
+					0.3,
+					140216
+				}
+			},
+			{
+				61043001,
+				0,
+				{
+					4,
+					0.3,
+					140217
+				}
+			},
+			{
+				61043002,
+				0,
+				{
+					4,
+					0.3,
+					140218
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0
+		},
+		enter_scene_anim = {
+			{
+				2016,
+				"IK_bed02_idle02_C"
+			}
+		},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	},
+	[610910] = {
+		base = 610910,
+		camera_group = 60090,
+		character_action = "bunny_IK_cafe_idle01",
+		ik_camera = "Cam610910",
+		id = 610910,
+		skin_id = 499053,
+		character_position = "Pos610910",
+		character_id = 49905,
+		ik_id = {
+			{
+				61091000,
+				0,
+				{
+					4,
+					0.3,
+					140219
+				}
+			},
+			{
+				61091001,
+				0,
+				{
+					4,
+					0.3,
+					140220
+				}
+			}
+		},
+		touch_data = {
+			{
+				6004002,
+				0,
+				{
+					4,
+					0.3,
+					140223
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.3
+		},
+		enter_scene_anim = {
+			{
+				2017,
+				"bunny_IK_cafe_idle01_YZ"
+			}
+		},
+		enter_extra_item = {
+			{
+				"furniture/Item/Glasscup_01/pre_db_glasscup_01a",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"bunny_IK_cafe_idle01_GJB"
+			}
+		},
+		hide_scene_item = {
+			"fbx/litmap_05/pre_db_drink13_4"
+		}
+	},
+	[610920] = {
+		base = 610920,
+		camera_group = 60090,
+		character_action = "bunny_IK_cafe_idle02",
+		ik_camera = "Cam610920",
+		id = 610920,
+		skin_id = 499053,
+		character_position = "Pos610920",
+		character_id = 49905,
+		ik_id = {
+			{
+				61092000,
+				0,
+				{
+					4,
+					0.3,
+					140221
+				}
+			},
+			{
+				61092001,
+				0,
+				{
+					4,
+					0.3,
+					140222
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.044,
+				0.029
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.05,
+				0.05
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine2)",
+				1,
+				0.098,
+				0.098
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.3
+		},
+		enter_scene_anim = {},
+		enter_extra_item = {},
+		hide_scene_item = {}
 	},
 	get_id_list_by_camera_group = {
 		{
@@ -21761,19 +30128,25 @@ pg.dorm3d_ik_status = {
 			100230,
 			110210,
 			110220,
-			110230
+			110230,
+			120210,
+			120220,
+			120230
 		},
 		[10021] = {
 			100211,
-			110211
+			110211,
+			120211
 		},
 		[10022] = {
 			100221,
-			110221
+			110221,
+			120221
 		},
 		[10023] = {
 			100231,
-			110231
+			110231,
+			120231
 		},
 		[10025] = {
 			100250,
@@ -21864,6 +30237,50 @@ pg.dorm3d_ik_status = {
 		},
 		[11027] = {
 			110251
+		},
+		[12010] = {
+			120110,
+			120120,
+			120130
+		},
+		[12030] = {
+			120310,
+			120320,
+			120330
+		},
+		[12040] = {
+			120410,
+			120420,
+			120430
+		},
+		[12070] = {
+			120710,
+			120720,
+			120730
+		},
+		[12071] = {
+			120711
+		},
+		[12072] = {
+			120721
+		},
+		[12073] = {
+			120731
+		},
+		[12025] = {
+			120250,
+			120260,
+			120270
+		},
+		[12026] = {
+			120280
+		},
+		[12027] = {
+			120251
+		},
+		[12080] = {
+			120810,
+			120820
 		},
 		[20010] = {
 			200110,
@@ -22047,6 +30464,12 @@ pg.dorm3d_ik_status = {
 			300630,
 			300640
 		},
+		[30070] = {
+			300710,
+			300720,
+			300730,
+			300740
+		},
 		[31051] = {
 			310510,
 			310511,
@@ -22060,6 +30483,52 @@ pg.dorm3d_ik_status = {
 			310620,
 			310630,
 			310640
+		},
+		[31070] = {
+			310710,
+			310720,
+			310730,
+			310740
+		},
+		[32011] = {
+			320110,
+			320111,
+			320112
+		},
+		[32012] = {
+			320210,
+			320211,
+			320212
+		},
+		[32013] = {
+			320310,
+			320311,
+			320312
+		},
+		[32014] = {
+			320410,
+			320411,
+			320412
+		},
+		[32051] = {
+			320510,
+			320511,
+			320512
+		},
+		[32052] = {
+			320513
+		},
+		[32061] = {
+			320610,
+			320620,
+			320630,
+			320640
+		},
+		[32070] = {
+			320710,
+			320720,
+			320730,
+			320740
 		},
 		[30019] = {
 			310910,
@@ -22101,6 +30570,16 @@ pg.dorm3d_ik_status = {
 			400730,
 			400740,
 			400750
+		},
+		[40080] = {
+			400810,
+			400820,
+			400830,
+			400840,
+			410810,
+			410820,
+			410830,
+			410840
 		},
 		[41010] = {
 			410110,
@@ -22171,6 +30650,14 @@ pg.dorm3d_ik_status = {
 			500530,
 			500540
 		},
+		[50060] = {
+			500610,
+			500620,
+			500630,
+			510610,
+			510620,
+			510630
+		},
 		[51050] = {
 			510510,
 			510520,
@@ -22180,6 +30667,50 @@ pg.dorm3d_ik_status = {
 		[50090] = {
 			510910,
 			510920
+		},
+		[60010] = {
+			600110,
+			600120,
+			600130
+		},
+		[60020] = {
+			600210,
+			600220,
+			600230
+		},
+		[60030] = {
+			600310,
+			600320,
+			600330
+		},
+		[60040] = {
+			600410,
+			600420,
+			600430
+		},
+		[61010] = {
+			610110,
+			610120,
+			610130
+		},
+		[61020] = {
+			610210,
+			610220,
+			610230
+		},
+		[61030] = {
+			610310,
+			610320,
+			610330
+		},
+		[61040] = {
+			610410,
+			610420,
+			610430
+		},
+		[60090] = {
+			610910,
+			610920
 		}
 	},
 	get_id_list_by_base = {
@@ -22248,108 +30779,134 @@ pg.dorm3d_ik_status = {
 		},
 		[100110] = {
 			100110,
-			110110
+			110110,
+			120110
 		},
 		[100120] = {
 			100120,
-			110120
+			110120,
+			120120
 		},
 		[100130] = {
 			100130,
-			110130
+			110130,
+			120130
 		},
 		[100210] = {
 			100210,
-			110210
+			110210,
+			120210
 		},
 		[100220] = {
 			100220,
-			110220
+			110220,
+			120220
 		},
 		[100230] = {
 			100230,
-			110230
+			110230,
+			120230
 		},
 		[100211] = {
 			100211,
-			110211
+			110211,
+			120211
 		},
 		[100221] = {
 			100221,
-			110221
+			110221,
+			120221
 		},
 		[100231] = {
 			100231,
-			110231
+			110231,
+			120231
 		},
 		[100250] = {
 			100250,
-			110250
+			110250,
+			120250
 		},
 		[100260] = {
 			100260,
-			110260
+			110260,
+			120260
 		},
 		[100270] = {
 			100270,
-			110270
+			110270,
+			120270
 		},
 		[100280] = {
 			100280,
-			110280
+			110280,
+			120280
 		},
 		[100251] = {
 			100251,
-			110251
+			110251,
+			120251
 		},
 		[100310] = {
 			100310,
-			110310
+			110310,
+			120310
 		},
 		[100320] = {
 			100320,
 			110320,
-			199999
+			199999,
+			120320
 		},
 		[100330] = {
 			100330,
-			110330
+			110330,
+			120330
 		},
 		[100410] = {
 			100410,
-			110410
+			110410,
+			120410
 		},
 		[100420] = {
 			100420,
-			110420
+			110420,
+			120420
 		},
 		[100430] = {
 			100430,
-			110430
+			110430,
+			120430
 		},
 		[100710] = {
 			100710,
-			110710
+			110710,
+			120710
 		},
 		[100720] = {
 			100720,
-			110720
+			110720,
+			120720
 		},
 		[100730] = {
 			100730,
-			110730
+			110730,
+			120730
 		},
 		[100711] = {
 			100711,
-			110711
+			110711,
+			120711
 		},
 		[100721] = {
 			100721,
-			110721
+			110721,
+			120721
 		},
 		[100731] = {
 			100731,
-			110731
+			110731,
+			120731
 		},
 		[115010] = {
 			115010
@@ -22374,6 +30931,12 @@ pg.dorm3d_ik_status = {
 		},
 		[115080] = {
 			115080
+		},
+		[120810] = {
+			120810
+		},
+		[120820] = {
+			120820
 		},
 		[200110] = {
 			200110,
@@ -22513,83 +31076,123 @@ pg.dorm3d_ik_status = {
 		},
 		[300110] = {
 			300110,
-			310110
+			310110,
+			320110
 		},
 		[300111] = {
 			300111,
-			310111
+			310111,
+			320111
 		},
 		[300112] = {
 			300112,
-			310112
+			310112,
+			320112
 		},
 		[300210] = {
 			300210,
-			310210
+			310210,
+			320210
 		},
 		[300211] = {
 			300211,
-			310211
+			310211,
+			320211
 		},
 		[300212] = {
 			300212,
-			310212
+			310212,
+			320212
 		},
 		[300310] = {
 			300310,
-			310310
+			310310,
+			320310
 		},
 		[300311] = {
 			300311,
-			310311
+			310311,
+			320311
 		},
 		[300312] = {
 			300312,
-			310312
+			310312,
+			320312
 		},
 		[300410] = {
 			300410,
-			310410
+			310410,
+			320410
 		},
 		[300411] = {
 			300411,
-			310411
+			310411,
+			320411
 		},
 		[300412] = {
 			300412,
-			310412
+			310412,
+			320412
 		},
 		[300510] = {
 			300510,
-			310510
+			310510,
+			320510
 		},
 		[300511] = {
 			300511,
-			310511
+			310511,
+			320511
 		},
 		[300512] = {
 			300512,
-			310512
+			310512,
+			320512
 		},
 		[300513] = {
 			300513,
-			310513
+			310513,
+			320513
 		},
 		[300610] = {
 			300610,
-			310610
+			310610,
+			320610
 		},
 		[300620] = {
 			300620,
-			310620
+			310620,
+			320620
 		},
 		[300630] = {
 			300630,
-			310630
+			310630,
+			320630
 		},
 		[300640] = {
 			300640,
-			310640
+			310640,
+			320640
+		},
+		[300710] = {
+			300710,
+			310710,
+			320710
+		},
+		[300720] = {
+			300720,
+			310720,
+			320720
+		},
+		[300730] = {
+			300730,
+			310730,
+			320730
+		},
+		[300740] = {
+			300740,
+			310740,
+			320740
 		},
 		[310910] = {
 			310910
@@ -22681,6 +31284,22 @@ pg.dorm3d_ik_status = {
 			400750,
 			410750
 		},
+		[400810] = {
+			400810,
+			410810
+		},
+		[400820] = {
+			400820,
+			410820
+		},
+		[400830] = {
+			400830,
+			410830
+		},
+		[400840] = {
+			400840,
+			410840
+		},
 		[410910] = {
 			410910
 		},
@@ -22751,11 +31370,77 @@ pg.dorm3d_ik_status = {
 			500540,
 			510540
 		},
+		[500610] = {
+			500610,
+			510610
+		},
+		[500620] = {
+			500620,
+			510620
+		},
+		[500630] = {
+			500630,
+			510630
+		},
 		[510910] = {
 			510910
 		},
 		[510920] = {
 			510920
+		},
+		[600110] = {
+			600110,
+			610110
+		},
+		[600120] = {
+			600120,
+			610120
+		},
+		[600130] = {
+			600130,
+			610130
+		},
+		[600210] = {
+			600210,
+			610210
+		},
+		[600220] = {
+			600220,
+			610220
+		},
+		[600230] = {
+			600230,
+			610230
+		},
+		[600310] = {
+			600310,
+			610310
+		},
+		[600320] = {
+			600320,
+			610320
+		},
+		[600330] = {
+			600330,
+			610330
+		},
+		[600410] = {
+			600410,
+			610410
+		},
+		[600420] = {
+			600420,
+			610420
+		},
+		[600430] = {
+			600430,
+			610430
+		},
+		[610910] = {
+			610910
+		},
+		[610920] = {
+			610920
 		}
 	},
 	all = {
@@ -22841,6 +31526,34 @@ pg.dorm3d_ik_status = {
 		110270,
 		110280,
 		110251,
+		120110,
+		120120,
+		120130,
+		120210,
+		120220,
+		120230,
+		120211,
+		120221,
+		120231,
+		120310,
+		120320,
+		120330,
+		120410,
+		120420,
+		120430,
+		120710,
+		120720,
+		120730,
+		120711,
+		120721,
+		120731,
+		120250,
+		120260,
+		120270,
+		120280,
+		120251,
+		120810,
+		120820,
 		200110,
 		200120,
 		200130,
@@ -22927,6 +31640,10 @@ pg.dorm3d_ik_status = {
 		300620,
 		300630,
 		300640,
+		300710,
+		300720,
+		300730,
+		300740,
 		310110,
 		310111,
 		310112,
@@ -22947,6 +31664,34 @@ pg.dorm3d_ik_status = {
 		310620,
 		310630,
 		310640,
+		310710,
+		310720,
+		310730,
+		310740,
+		320110,
+		320111,
+		320112,
+		320210,
+		320211,
+		320212,
+		320310,
+		320311,
+		320312,
+		320410,
+		320411,
+		320412,
+		320510,
+		320511,
+		320512,
+		320513,
+		320610,
+		320620,
+		320630,
+		320640,
+		320710,
+		320720,
+		320730,
+		320740,
 		310910,
 		310911,
 		400110,
@@ -22970,6 +31715,10 @@ pg.dorm3d_ik_status = {
 		400730,
 		400740,
 		400750,
+		400810,
+		400820,
+		400830,
+		400840,
 		410110,
 		410111,
 		410112,
@@ -22993,6 +31742,10 @@ pg.dorm3d_ik_status = {
 		410730,
 		410740,
 		410750,
+		410810,
+		410820,
+		410830,
+		410840,
 		500110,
 		500120,
 		500130,
@@ -23009,6 +31762,9 @@ pg.dorm3d_ik_status = {
 		500520,
 		500530,
 		500540,
+		500610,
+		500620,
+		500630,
 		510110,
 		510120,
 		510130,
@@ -23025,7 +31781,36 @@ pg.dorm3d_ik_status = {
 		510520,
 		510530,
 		510540,
+		510610,
+		510620,
+		510630,
 		510910,
-		510920
+		510920,
+		600110,
+		600120,
+		600130,
+		600210,
+		600220,
+		600230,
+		600310,
+		600320,
+		600330,
+		600410,
+		600420,
+		600430,
+		610110,
+		610120,
+		610130,
+		610210,
+		610220,
+		610230,
+		610310,
+		610320,
+		610330,
+		610410,
+		610420,
+		610430,
+		610910,
+		610920
 	}
 }

@@ -66,7 +66,15 @@ var_0_0.ShowTypeColors = {
 	[var_0_0.SHOW_WEEKLY] = "#46cd92",
 	[var_0_0.SHOW_ACTIVITY] = "#ffc561"
 }
+var_0_0.ShowTypeTrackColors = {
+	[var_0_0.SHOW_MAIN] = "#39bfff",
+	[var_0_0.SHOW_BRANCH] = "#cb72d1",
+	[var_0_0.SHOW_DAILY] = "#b29dff",
+	[var_0_0.SHOW_WEEKLY] = "#8dffc0",
+	[var_0_0.SHOW_ACTIVITY] = "#ffe18e"
+}
 var_0_0.EXCLUED_TRACK_TYPES = {
+	var_0_0.MAIN,
 	var_0_0.SEASON,
 	var_0_0.HIDE
 }
@@ -100,7 +108,7 @@ function var_0_0.GetTrackPriority(arg_2_0)
 end
 
 function var_0_0.GetHudPriority(arg_11_0)
-	return switch(type, {
+	return switch(arg_11_0, {
 		[var_0_0.SHOW_MAIN] = function()
 			return 1
 		end,

@@ -24,12 +24,14 @@ function var_0_8.Ctor(arg_1_0, arg_1_1)
 end
 
 function var_0_8.UpdateMotion(arg_2_0)
+	local var_2_0 = 0
+
 	if arg_2_0._motionReferenceUnit then
 		arg_2_0._motionVO:UpdatePos(arg_2_0._motionReferenceUnit)
 		arg_2_0._motionVO:UpdateVelocityAndDirection(arg_2_0:GetFleetVelocity(), arg_2_0._motionSourceFunc())
-	end
 
-	local var_2_0 = math.max(arg_2_0._motionVO:GetPos().x - arg_2_0._rightBound, 0)
+		var_2_0 = math.max(arg_2_0._motionVO:GetPos().x - arg_2_0._rightBound, 0)
+	end
 
 	if var_2_0 >= 0 and var_2_0 ~= arg_2_0._lastDist then
 		arg_2_0._lastDist = var_2_0
@@ -1309,6 +1311,10 @@ function var_0_8.FixSubRefLine(arg_105_0, arg_105_1)
 end
 
 function var_0_8.AppendIndieSonar(arg_106_0, arg_106_1, arg_106_2)
+	if not arg_106_0._motionReferenceUnit then
+		return
+	end
+
 	local var_106_0 = var_0_0.Battle.BattleIndieSonar.New(arg_106_0, arg_106_1, arg_106_2)
 
 	var_106_0:SwitchHost(arg_106_0._motionReferenceUnit)

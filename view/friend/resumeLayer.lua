@@ -153,30 +153,42 @@ function var_0_0.display(arg_6_0, arg_6_1)
 		if iter_6_2 <= #arg_6_1.displayTrophyList then
 			setActive(var_6_8:Find("icon"), true)
 
-			local var_6_9 = pg.medal_template[arg_6_1.displayTrophyList[iter_6_2]]
+			local var_6_9 = arg_6_1.displayTrophyList[iter_6_2]
 
-			LoadImageSpriteAsync("medal/" .. var_6_9.icon, var_6_8:Find("icon"), true)
+			if Trophy.IsLoveLetterID(var_6_9) then
+				local var_6_10 = LoveLetterTrophy.New({
+					id = var_6_9
+				})
+
+				setLoveLetterMedal(var_6_8, var_6_10, {
+					hideMark = true
+				})
+			else
+				local var_6_11 = pg.medal_template[arg_6_1.displayTrophyList[iter_6_2]]
+
+				LoadImageSpriteAsync("medal/" .. var_6_11.icon, var_6_8:Find("icon"), true)
+			end
 		end
 	end
 
 	for iter_6_3, iter_6_4 in ipairs(var_0_1) do
-		local var_6_10 = arg_6_0.resumeInfo:GetChild(iter_6_3 - 1)
+		local var_6_12 = arg_6_0.resumeInfo:GetChild(iter_6_3 - 1)
 
-		setText(var_6_10:Find("tag"), iter_6_4.tag)
+		setText(var_6_12:Find("tag"), iter_6_4.tag)
 
-		local var_6_11 = var_6_10:Find("value")
+		local var_6_13 = var_6_12:Find("value")
 
 		if iter_6_4.type == 1 then
-			setText(var_6_11, arg_6_0.player[iter_6_4.value])
+			setText(var_6_13, arg_6_0.player[iter_6_4.value])
 		elseif iter_6_4.type == 2 then
-			local var_6_12 = math.max(arg_6_0.player[iter_6_4.value[1]], 1)
-			local var_6_13 = math.max(arg_6_0.player[iter_6_4.value[2]], 0)
+			local var_6_14 = math.max(arg_6_0.player[iter_6_4.value[1]], 1)
+			local var_6_15 = math.max(arg_6_0.player[iter_6_4.value[2]], 0)
 
-			setText(var_6_11, string.format("%0.2f", var_6_13 / var_6_12 * 100) .. "%")
+			setText(var_6_13, string.format("%0.2f", var_6_15 / var_6_14 * 100) .. "%")
 		elseif iter_6_4.type == 3 then
-			local var_6_14 = arg_6_0.player[iter_6_4.value[1]] or 1
+			local var_6_16 = arg_6_0.player[iter_6_4.value[1]] or 1
 
-			setText(var_6_11, string.format("%0.2f", var_6_14 / getProxy(CollectionProxy):getCollectionTotal() * 100) .. "%")
+			setText(var_6_13, string.format("%0.2f", var_6_16 / getProxy(CollectionProxy):getCollectionTotal() * 100) .. "%")
 		end
 	end
 end

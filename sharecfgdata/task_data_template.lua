@@ -3267,7 +3267,7 @@ end)()
 		priority_type = 0,
 		fix_task = 0,
 		target_id = "1401",
-		next_task = "[57,3053]",
+		next_task = "[57,3053,6053]",
 		auto_commit = 0,
 		story_icon_shift = "",
 		story_id = "",
@@ -3326,7 +3326,7 @@ end)()
 		priority_type = 0,
 		fix_task = 0,
 		target_id = "1402",
-		next_task = "[58,3054]",
+		next_task = "[58,3054,6054]",
 		auto_commit = 0,
 		story_icon_shift = "",
 		story_id = "",
@@ -3385,7 +3385,7 @@ end)()
 		priority_type = 0,
 		fix_task = 0,
 		target_id = "1403",
-		next_task = "[59,3055]",
+		next_task = "[59,3055,6055]",
 		auto_commit = 0,
 		story_icon_shift = "",
 		story_id = "",
@@ -3444,7 +3444,7 @@ end)()
 		priority_type = 0,
 		fix_task = 0,
 		target_id = "1404",
-		next_task = "[60,3056]",
+		next_task = "[60,3056,6056]",
 		auto_commit = 0,
 		story_icon_shift = "",
 		story_id = "",
@@ -3680,7 +3680,7 @@ end)()
 		priority_type = 0,
 		fix_task = 0,
 		target_id = "1504",
-		next_task = "3060",
+		next_task = "[64,3060]",
 		auto_commit = 0,
 		story_icon_shift = "",
 		story_id = "",
@@ -3712,6 +3712,242 @@ end)()
 			{
 				mapIdx = 15,
 				chapterId = 1504
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[64] = {
+		name = "第十六章1图",
+		guild_coin_award = 0,
+		award = 64,
+		type = 1,
+		desc = "Clear 16-1.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1601",
+		next_task = "[65,3061]",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 64,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				300
+			},
+			{
+				1,
+				2,
+				50
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 16,
+				chapterId = 1601
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[65] = {
+		name = "第十六章2图",
+		guild_coin_award = 0,
+		award = 65,
+		type = 1,
+		desc = "Clear 16-2.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1602",
+		next_task = "[66,3062]",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 65,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				300
+			},
+			{
+				1,
+				2,
+				50
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 16,
+				chapterId = 1602
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[66] = {
+		name = "第十六章3图",
+		guild_coin_award = 0,
+		award = 66,
+		type = 1,
+		desc = "Clear 16-3.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1603",
+		next_task = "[67,3063]",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 66,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				300
+			},
+			{
+				1,
+				2,
+				50
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 16,
+				chapterId = 1603
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[67] = {
+		name = "第十六章4图",
+		guild_coin_award = 0,
+		award = 67,
+		type = 1,
+		desc = "Clear 16-4.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1604",
+		next_task = "3064",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 67,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				1,
+				2,
+				150
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 16,
+				chapterId = 1604
 			}
 		}
 	}
@@ -7461,6 +7697,242 @@ end)()
 			{
 				mapIdx = 15,
 				chapterId = 1504
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[3061] = {
+		name = "第十六章1图",
+		guild_coin_award = 0,
+		award = 3061,
+		type = 2,
+		desc = "Get 3 stars in stage 16-1.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1601",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 3061,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				14,
+				50
+			},
+			{
+				2,
+				54034,
+				1
+			},
+			{
+				2,
+				51001,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 16,
+				chapterId = 1601
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[3062] = {
+		name = "第十六章2图",
+		guild_coin_award = 0,
+		award = 3062,
+		type = 2,
+		desc = "Get 3 stars in stage 16-2.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1602",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 3062,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				14,
+				50
+			},
+			{
+				4,
+				100001,
+				1
+			},
+			{
+				2,
+				51002,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 16,
+				chapterId = 1602
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[3063] = {
+		name = "第十六章3图",
+		guild_coin_award = 0,
+		award = 3063,
+		type = 2,
+		desc = "Get 3 stars in stage 16-3.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1603",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 3063,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				14,
+				50
+			},
+			{
+				2,
+				54035,
+				1
+			},
+			{
+				2,
+				51003,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 16,
+				chapterId = 1603
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[3064] = {
+		name = "第十六章4图",
+		guild_coin_award = 0,
+		award = 3064,
+		type = 2,
+		desc = "Get 3 stars in stage 16-4.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1604",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 3064,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				14,
+				100
+			},
+			{
+				4,
+				100011,
+				1
+			},
+			{
+				2,
+				51004,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 16,
+				chapterId = 1604
 			}
 		}
 	}
@@ -42660,6 +43132,222 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[6053] = {
+		name = "Night Combat – Hard",
+		guild_coin_award = 0,
+		award = 6053,
+		type = 2,
+		desc = "Get 3 stars on Hard mode in stage 14-1.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "11401",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 6053,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				2
+			},
+			{
+				2,
+				51001,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 214,
+				chapterId = 11401
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[6054] = {
+		name = "Crossing the T – Hard",
+		guild_coin_award = 0,
+		award = 6054,
+		type = 2,
+		desc = "Get 3 stars on Hard mode in stage 14-2.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "11402",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 6054,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				2
+			},
+			{
+				2,
+				51002,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 214,
+				chapterId = 11402
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[6055] = {
+		name = "All-Out Brawl – Hard",
+		guild_coin_award = 0,
+		award = 6055,
+		type = 2,
+		desc = "Get 3 stars on Hard mode in stage 14-3.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "11403",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 6055,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				2
+			},
+			{
+				2,
+				51003,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 214,
+				chapterId = 11403
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[6056] = {
+		name = "Dawnlight Pursuit – Hard",
+		guild_coin_award = 0,
+		award = 6056,
+		type = 2,
+		desc = "Get 3 stars on Hard mode in stage 14-4.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "11404",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 6056,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				2
+			},
+			{
+				2,
+				51004,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 214,
+				chapterId = 11404
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[7201] = {
 		name = "击退敌军舰队",
 		guild_coin_award = 0,
@@ -44515,7 +45203,7 @@ end)()
 		guild_coin_award = 0,
 		award = 8088,
 		type = 26,
-		desc = "Sortie and obtain 15 victories.",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -51090,7 +51778,7 @@ end)()
 		guild_coin_award = 0,
 		award = 8137,
 		type = 36,
-		desc = "Sortie and obtain 15 victories.",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -54883,6 +55571,596 @@ end)()
 		scene = "",
 		tutorial_handbook_pic = "",
 		id = 12004,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7010,
+			7011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15014,
+				3
+			},
+			{
+				2,
+				15017,
+				5
+			},
+			{
+				2,
+				15021,
+				1
+			},
+			{
+				2,
+				15020,
+				4
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[12005] = {
+		name = "[Event] Emergency Module Development I",
+		guild_coin_award = 0,
+		award = 94085,
+		type = 6,
+		desc = "Clear the Emergency Module Development Daily Challenge 1 time.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 12005,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7010,
+			7011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15014,
+				1
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				2,
+				15021,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[12006] = {
+		name = "[Event] Emergency Module Development II",
+		guild_coin_award = 0,
+		award = 94085,
+		type = 6,
+		desc = "Clear the Emergency Module Development Daily Challenge 2 times.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 12006,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7010,
+			7011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15014,
+				1
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				2,
+				15021,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[12007] = {
+		name = "[Event] Emergency Module Development III",
+		guild_coin_award = 0,
+		award = 94086,
+		type = 6,
+		desc = "Clear the Emergency Module Development Daily Challenge 3 times.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 12007,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7010,
+			7011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15014,
+				1
+			},
+			{
+				2,
+				15016,
+				25
+			},
+			{
+				2,
+				15021,
+				1
+			},
+			{
+				2,
+				15020,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[12008] = {
+		name = "[Event] Emergency Module Development IV",
+		guild_coin_award = 0,
+		award = 94087,
+		type = 6,
+		desc = "Clear the Emergency Module Development Daily Challenge 4 times.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 12008,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7010,
+			7011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15014,
+				2
+			},
+			{
+				2,
+				15016,
+				25
+			},
+			{
+				2,
+				15021,
+				1
+			},
+			{
+				2,
+				15020,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[12009] = {
+		name = "[Event] Emergency Module Development V",
+		guild_coin_award = 0,
+		award = 94088,
+		type = 6,
+		desc = "Clear the Emergency Module Development Daily Challenge 5 times.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 12009,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7010,
+			7011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15014,
+				3
+			},
+			{
+				2,
+				15017,
+				5
+			},
+			{
+				2,
+				15021,
+				1
+			},
+			{
+				2,
+				15020,
+				4
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[12010] = {
+		name = "[Event] Emergency Module Development I",
+		guild_coin_award = 0,
+		award = 94085,
+		type = 6,
+		desc = "Clear the Emergency Module Development Daily Challenge 1 time.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 12010,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7010,
+			7011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15014,
+				1
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				2,
+				15021,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[12011] = {
+		name = "[Event] Emergency Module Development II",
+		guild_coin_award = 0,
+		award = 94085,
+		type = 6,
+		desc = "Clear the Emergency Module Development Daily Challenge 2 times.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 12011,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7010,
+			7011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15014,
+				1
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				2,
+				15021,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[12012] = {
+		name = "[Event] Emergency Module Development III",
+		guild_coin_award = 0,
+		award = 94086,
+		type = 6,
+		desc = "Clear the Emergency Module Development Daily Challenge 3 times.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 12012,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7010,
+			7011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15014,
+				1
+			},
+			{
+				2,
+				15016,
+				25
+			},
+			{
+				2,
+				15021,
+				1
+			},
+			{
+				2,
+				15020,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[12013] = {
+		name = "[Event] Emergency Module Development IV",
+		guild_coin_award = 0,
+		award = 94087,
+		type = 6,
+		desc = "Clear the Emergency Module Development Daily Challenge 4 times.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 12013,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7010,
+			7011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15014,
+				2
+			},
+			{
+				2,
+				15016,
+				25
+			},
+			{
+				2,
+				15021,
+				1
+			},
+			{
+				2,
+				15020,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[12014] = {
+		name = "[Event] Emergency Module Development V",
+		guild_coin_award = 0,
+		award = 94088,
+		type = 6,
+		desc = "Clear the Emergency Module Development Daily Challenge 5 times.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 12014,
 		target_num = 5,
 		activity_client_config = "",
 		added_tip = 0,
@@ -59696,7 +60974,7 @@ end)()
 		guild_coin_award = 0,
 		award = 8567,
 		type = 36,
-		desc = "Sortie and complete 1 battle in Operation Siren.",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -64069,7 +65347,7 @@ end)()
 		guild_coin_award = 0,
 		award = 8828,
 		type = 6,
-		desc = "Spent a total of 1000 Oil.",
+		desc = "Spend a total of 1000 Oil.",
 		count_inherit = 13799,
 		sub_type = 121,
 		target_id_2 = "",
@@ -64179,7 +65457,7 @@ end)()
 		guild_coin_award = 0,
 		award = 8830,
 		type = 6,
-		desc = "Spent a total of 2000 Oil.",
+		desc = "Spend a total of 2000 Oil.",
 		count_inherit = 13801,
 		sub_type = 121,
 		target_id_2 = "",
@@ -64289,7 +65567,7 @@ end)()
 		guild_coin_award = 0,
 		award = 8832,
 		type = 6,
-		desc = "Spent a total of 3000 Oil.",
+		desc = "Spend a total of 3000 Oil.",
 		count_inherit = 13803,
 		sub_type = 121,
 		target_id_2 = "",
@@ -64399,7 +65677,7 @@ end)()
 		guild_coin_award = 0,
 		award = 8834,
 		type = 6,
-		desc = "Spent a total of 5000 Oil.",
+		desc = "Spend a total of 5000 Oil.",
 		count_inherit = 13805,
 		sub_type = 121,
 		target_id_2 = "",
@@ -64674,7 +65952,7 @@ end)()
 		guild_coin_award = 0,
 		award = 8839,
 		type = 6,
-		desc = "Spent a total of 10000 Oil.",
+		desc = "Spend a total of 10,000 Oil.",
 		count_inherit = 13810,
 		sub_type = 121,
 		target_id_2 = "",
@@ -73863,7 +75141,7 @@ end)()
 		guild_coin_award = 0,
 		award = 90389,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -77165,7 +78443,7 @@ end)()
 		guild_coin_award = 0,
 		award = 90490,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -77308,7 +78586,7 @@ end)()
 		guild_coin_award = 0,
 		award = 90547,
 		type = 6,
-		desc = "Total Oil Spent 1000",
+		desc = "Spend a total of 1000 Oil.",
 		count_inherit = 14170,
 		sub_type = 121,
 		target_id_2 = "",
@@ -77418,7 +78696,7 @@ end)()
 		guild_coin_award = 0,
 		award = 90549,
 		type = 6,
-		desc = "Total Oil Spent 2000",
+		desc = "Spend a total of 2000 Oil.",
 		count_inherit = 14172,
 		sub_type = 121,
 		target_id_2 = "",
@@ -77528,7 +78806,7 @@ end)()
 		guild_coin_award = 0,
 		award = 90551,
 		type = 6,
-		desc = "Total Oil Spent 3000",
+		desc = "Spend a total of 3000 Oil.",
 		count_inherit = 14174,
 		sub_type = 121,
 		target_id_2 = "",
@@ -77638,7 +78916,7 @@ end)()
 		guild_coin_award = 0,
 		award = 90553,
 		type = 6,
-		desc = "Total Oil Spent 5000",
+		desc = "Spend a total of 5000 Oil.",
 		count_inherit = 14176,
 		sub_type = 121,
 		target_id_2 = "",
@@ -77913,7 +79191,7 @@ end)()
 		guild_coin_award = 0,
 		award = 90558,
 		type = 6,
-		desc = "Total Oil Spent 10000",
+		desc = "Spend a total of 10,000 Oil.",
 		count_inherit = 14181,
 		sub_type = 121,
 		target_id_2 = "",
@@ -81909,7 +83187,7 @@ end)()
 		guild_coin_award = 0,
 		award = 90814,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -82570,7 +83848,7 @@ end)()
 		guild_coin_award = 0,
 		award = 90926,
 		type = 6,
-		desc = "Spend a total of 1,000 Oil.",
+		desc = "Spend a total of 1000 Oil.",
 		count_inherit = 14388,
 		sub_type = 121,
 		target_id_2 = "",
@@ -82680,7 +83958,7 @@ end)()
 		guild_coin_award = 0,
 		award = 90928,
 		type = 6,
-		desc = "Spend a total of 2,000 Oil.",
+		desc = "Spend a total of 2000 Oil.",
 		count_inherit = 14390,
 		sub_type = 121,
 		target_id_2 = "",
@@ -82790,7 +84068,7 @@ end)()
 		guild_coin_award = 0,
 		award = 90930,
 		type = 6,
-		desc = "Spend a total of 3,000 Oil.",
+		desc = "Spend a total of 3000 Oil.",
 		count_inherit = 14392,
 		sub_type = 121,
 		target_id_2 = "",
@@ -82900,7 +84178,7 @@ end)()
 		guild_coin_award = 0,
 		award = 90932,
 		type = 6,
-		desc = "Spend a total of 5,000 Oil.",
+		desc = "Spend a total of 5000 Oil.",
 		count_inherit = 14394,
 		sub_type = 121,
 		target_id_2 = "",
@@ -83098,7 +84376,7 @@ end)()
 		guild_coin_award = 0,
 		award = 91047,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -83831,7 +85109,7 @@ end)()
 		guild_coin_award = 0,
 		award = 91065,
 		type = 36,
-		desc = "Sortie and obtain 15 victories.",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -87349,7 +88627,7 @@ end)()
 		guild_coin_award = 0,
 		award = 91251,
 		type = 36,
-		desc = "Sortie and obtain 15 victories.",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -88257,7 +89535,7 @@ end)()
 		guild_coin_award = 0,
 		award = 91317,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -89420,7 +90698,7 @@ end)()
 		guild_coin_award = 0,
 		award = 91351,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -92975,7 +94253,7 @@ end)()
 		guild_coin_award = 0,
 		award = 91547,
 		type = 26,
-		desc = "Login to the game.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -95774,7 +97052,7 @@ end)()
 		guild_coin_award = 0,
 		award = 91792,
 		type = 6,
-		desc = "Total Oil Spent 1000",
+		desc = "Spend a total of 1000 Oil.",
 		count_inherit = 15009,
 		sub_type = 121,
 		target_id_2 = "",
@@ -95884,7 +97162,7 @@ end)()
 		guild_coin_award = 0,
 		award = 91794,
 		type = 6,
-		desc = "Total Oil Spent 2000",
+		desc = "Spend a total of 2000 Oil.",
 		count_inherit = 15011,
 		sub_type = 121,
 		target_id_2 = "",
@@ -95994,7 +97272,7 @@ end)()
 		guild_coin_award = 0,
 		award = 91796,
 		type = 6,
-		desc = "Total Oil Spent 3000",
+		desc = "Spend a total of 3000 Oil.",
 		count_inherit = 15013,
 		sub_type = 121,
 		target_id_2 = "",
@@ -96104,7 +97382,7 @@ end)()
 		guild_coin_award = 0,
 		award = 91798,
 		type = 6,
-		desc = "Total Oil Spent 5000",
+		desc = "Spend a total of 5000 Oil.",
 		count_inherit = 15015,
 		sub_type = 121,
 		target_id_2 = "",
@@ -96379,7 +97657,7 @@ end)()
 		guild_coin_award = 0,
 		award = 91803,
 		type = 6,
-		desc = "Total Oil Spent 10000",
+		desc = "Spend a total of 10,000 Oil.",
 		count_inherit = 15020,
 		sub_type = 121,
 		target_id_2 = "",
@@ -96759,7 +98037,7 @@ end)()
 		guild_coin_award = 0,
 		award = 91816,
 		type = 36,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -96802,7 +98080,7 @@ end)()
 		guild_coin_award = 0,
 		award = 91817,
 		type = 36,
-		desc = "Sortie and clear 1 non-event Hard Mode stage.",
+		desc = "Clear any Hard Mode stage 1 time.",
 		count_inherit = 0,
 		sub_type = 182,
 		target_id_2 = "",
@@ -99071,7 +100349,7 @@ end)()
 		guild_coin_award = 0,
 		award = 92009,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -104693,7 +105971,7 @@ end)()
 		guild_coin_award = 0,
 		award = 92234,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -106985,7 +108263,7 @@ end)()
 		guild_coin_award = 0,
 		award = 92411,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -107601,7 +108879,7 @@ end)()
 		guild_coin_award = 0,
 		award = 92462,
 		type = 6,
-		desc = "Spent a total of 1,000 Oil.",
+		desc = "Spend a total of 1000 Oil.",
 		count_inherit = 15312,
 		sub_type = 121,
 		target_id_2 = "",
@@ -107711,7 +108989,7 @@ end)()
 		guild_coin_award = 0,
 		award = 92464,
 		type = 6,
-		desc = "Spent a total of 2,000 Oil.",
+		desc = "Spend a total of 2000 Oil.",
 		count_inherit = 15314,
 		sub_type = 121,
 		target_id_2 = "",
@@ -107821,7 +109099,7 @@ end)()
 		guild_coin_award = 0,
 		award = 92466,
 		type = 6,
-		desc = "Spent a total of 3,000 Oil.",
+		desc = "Spend a total of 3000 Oil.",
 		count_inherit = 15316,
 		sub_type = 121,
 		target_id_2 = "",
@@ -107931,7 +109209,7 @@ end)()
 		guild_coin_award = 0,
 		award = 92468,
 		type = 6,
-		desc = "Spent a total of 5,000 Oil.",
+		desc = "Spend a total of 5000 Oil.",
 		count_inherit = 15318,
 		sub_type = 121,
 		target_id_2 = "",
@@ -108206,7 +109484,7 @@ end)()
 		guild_coin_award = 0,
 		award = 92473,
 		type = 6,
-		desc = "Spent a total of 10,000 Oil.",
+		desc = "Spend a total of 10,000 Oil.",
 		count_inherit = 15323,
 		sub_type = 121,
 		target_id_2 = "",
@@ -108536,7 +109814,7 @@ end)()
 		guild_coin_award = 0,
 		award = 92395,
 		type = 36,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -108579,7 +109857,7 @@ end)()
 		guild_coin_award = 0,
 		award = 92396,
 		type = 36,
-		desc = "Clear 1 non-event Hard Mode stage.",
+		desc = "Clear any Hard Mode stage 1 time.",
 		count_inherit = 0,
 		sub_type = 182,
 		target_id_2 = "",
@@ -108820,7 +110098,7 @@ end)()
 		guild_coin_award = 0,
 		award = 92572,
 		type = 6,
-		desc = "Spent a total of 1,000 Oil.",
+		desc = "Spend a total of 1000 Oil.",
 		count_inherit = 15352,
 		sub_type = 121,
 		target_id_2 = "",
@@ -108930,7 +110208,7 @@ end)()
 		guild_coin_award = 0,
 		award = 92574,
 		type = 6,
-		desc = "Spent a total of 2,000 Oil.",
+		desc = "Spend a total of 2000 Oil.",
 		count_inherit = 15354,
 		sub_type = 121,
 		target_id_2 = "",
@@ -109040,7 +110318,7 @@ end)()
 		guild_coin_award = 0,
 		award = 92576,
 		type = 6,
-		desc = "Spent a total of 3,000 Oil.",
+		desc = "Spend a total of 3000 Oil.",
 		count_inherit = 15356,
 		sub_type = 121,
 		target_id_2 = "",
@@ -109150,7 +110428,7 @@ end)()
 		guild_coin_award = 0,
 		award = 92578,
 		type = 6,
-		desc = "Spent a total of 5,000 Oil.",
+		desc = "Spend a total of 5000 Oil.",
 		count_inherit = 15358,
 		sub_type = 121,
 		target_id_2 = "",
@@ -109425,7 +110703,7 @@ end)()
 		guild_coin_award = 0,
 		award = 92583,
 		type = 6,
-		desc = "Spent a total of 10,000 Oil.",
+		desc = "Spend a total of 10,000 Oil.",
 		count_inherit = 15363,
 		sub_type = 121,
 		target_id_2 = "",
@@ -111174,7 +112452,7 @@ end)()
 		guild_coin_award = 0,
 		award = 92670,
 		type = 6,
-		desc = "Login to the game.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -115231,7 +116509,7 @@ end)()
 		guild_coin_award = 0,
 		award = 92875,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -116470,7 +117748,7 @@ end)()
 		guild_coin_award = 0,
 		award = 92990,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -117503,7 +118781,7 @@ end)()
 		guild_coin_award = 0,
 		award = 93105,
 		type = 26,
-		desc = "Login to the game.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -120565,7 +121843,7 @@ end)()
 		guild_coin_award = 0,
 		award = 93292,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -120608,7 +121886,7 @@ end)()
 		guild_coin_award = 0,
 		award = 93293,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -120696,7 +121974,7 @@ end)()
 		guild_coin_award = 0,
 		award = 93301,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -121312,7 +122590,7 @@ end)()
 		guild_coin_award = 0,
 		award = 93315,
 		type = 6,
-		desc = "Spent a total of 1,000 Oil.",
+		desc = "Spend a total of 1000 Oil.",
 		count_inherit = 15716,
 		sub_type = 121,
 		target_id_2 = "",
@@ -121422,7 +122700,7 @@ end)()
 		guild_coin_award = 0,
 		award = 93317,
 		type = 6,
-		desc = "Spent a total of 2,000 Oil.",
+		desc = "Spend a total of 2000 Oil.",
 		count_inherit = 15718,
 		sub_type = 121,
 		target_id_2 = "",
@@ -121532,7 +122810,7 @@ end)()
 		guild_coin_award = 0,
 		award = 93319,
 		type = 6,
-		desc = "Spent a total of 3,000 Oil.",
+		desc = "Spend a total of 3000 Oil.",
 		count_inherit = 15720,
 		sub_type = 121,
 		target_id_2 = "",
@@ -121642,7 +122920,7 @@ end)()
 		guild_coin_award = 0,
 		award = 93321,
 		type = 6,
-		desc = "Spent a total of 5,000 Oil.",
+		desc = "Spend a total of 5000 Oil.",
 		count_inherit = 15722,
 		sub_type = 121,
 		target_id_2 = "",
@@ -122618,7 +123896,7 @@ end)()
 		guild_coin_award = 0,
 		award = 93440,
 		type = 36,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -122661,7 +123939,7 @@ end)()
 		guild_coin_award = 0,
 		award = 93440,
 		type = 36,
-		desc = "Sortie and clear 1 non-event Hard Mode Stage.",
+		desc = "Clear any Hard Mode stage 1 time.",
 		count_inherit = 0,
 		sub_type = 182,
 		target_id_2 = "",
@@ -124231,7 +125509,7 @@ end)()
 		guild_coin_award = 0,
 		award = 93527,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -124274,7 +125552,7 @@ end)()
 		guild_coin_award = 0,
 		award = 91132,
 		type = 6,
-		desc = "Login to the game.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -126148,7 +127426,7 @@ end)()
 		guild_coin_award = 0,
 		award = 93666,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -126881,7 +128159,7 @@ end)()
 		guild_coin_award = 0,
 		award = 93683,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -131573,7 +132851,7 @@ end)()
 		guild_coin_award = 0,
 		award = 93788,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -131876,7 +133154,7 @@ end)()
 		guild_coin_award = 0,
 		award = 93809,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -131919,7 +133197,7 @@ end)()
 		guild_coin_award = 0,
 		award = 93809,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -133572,7 +134850,7 @@ end)()
 		guild_coin_award = 0,
 		award = 95252,
 		type = 26,
-		desc = "Login to the game.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -134821,7 +136099,7 @@ end)()
 		guild_coin_award = 0,
 		award = 96251,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -135996,7 +137274,7 @@ end)()
 		guild_coin_award = 0,
 		award = 97512,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -137914,7 +139192,7 @@ end)()
 		guild_coin_award = 0,
 		award = 99266,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -138571,7 +139849,7 @@ end)()
 		guild_coin_award = 0,
 		award = 99779,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -139897,7 +141175,7 @@ end)()
 		guild_coin_award = 0,
 		award = 99902,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -140425,7 +141703,7 @@ end)()
 		guild_coin_award = 0,
 		award = 99915,
 		type = 6,
-		desc = "Spent a total of 1,000 Oil.",
+		desc = "Spend a total of 1000 Oil.",
 		count_inherit = 18905,
 		sub_type = 121,
 		target_id_2 = "",
@@ -140535,7 +141813,7 @@ end)()
 		guild_coin_award = 0,
 		award = 99917,
 		type = 6,
-		desc = "Spent a total of 2,000 Oil.",
+		desc = "Spend a total of 2000 Oil.",
 		count_inherit = 18907,
 		sub_type = 121,
 		target_id_2 = "",
@@ -140645,7 +141923,7 @@ end)()
 		guild_coin_award = 0,
 		award = 99919,
 		type = 6,
-		desc = "Spent a total of 3,000 Oil.",
+		desc = "Spend a total of 3000 Oil.",
 		count_inherit = 18909,
 		sub_type = 121,
 		target_id_2 = "",
@@ -140755,7 +142033,7 @@ end)()
 		guild_coin_award = 0,
 		award = 99921,
 		type = 6,
-		desc = "Spent a total of 5,000 Oil.",
+		desc = "Spend a total of 5000 Oil.",
 		count_inherit = 18911,
 		sub_type = 121,
 		target_id_2 = "",
@@ -141030,7 +142308,7 @@ end)()
 		guild_coin_award = 0,
 		award = 99926,
 		type = 6,
-		desc = "Spent a total of 10,000 Oil.",
+		desc = "Spend a total of 10,000 Oil.",
 		count_inherit = 18916,
 		sub_type = 121,
 		target_id_2 = "",
@@ -141403,7 +142681,7 @@ end)()
 		guild_coin_award = 0,
 		award = 99945,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -142516,7 +143794,7 @@ end)()
 		guild_coin_award = 0,
 		award = 95157,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -143096,7 +144374,7 @@ end)()
 		guild_coin_award = 0,
 		award = 99967,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -143139,7 +144417,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900041,
 		type = 36,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -143182,7 +144460,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900042,
 		type = 36,
-		desc = "Sortie and clear 1 non-event Hard Mode stage.",
+		desc = "Clear any Hard Mode stage 1 time.",
 		count_inherit = 0,
 		sub_type = 182,
 		target_id_2 = "",
@@ -143458,7 +144736,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900100,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -143501,7 +144779,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900100,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -143544,7 +144822,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900100,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -143587,7 +144865,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900101,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -143673,7 +144951,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900193,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -144605,7 +145883,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900212,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -145901,7 +147179,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900249,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -146462,7 +147740,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900443,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -146505,7 +147783,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900443,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -146548,7 +147826,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900443,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -146591,7 +147869,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900444,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -146679,7 +147957,7 @@ end)()
 		guild_coin_award = 0,
 		award = 99853,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -149067,7 +150345,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900503,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -149673,7 +150951,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900517,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -150277,7 +151555,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900531,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -151237,7 +152515,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900606,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -151280,7 +152558,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900607,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -151323,7 +152601,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900607,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -151366,7 +152644,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900607,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -151409,7 +152687,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900607,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -153343,7 +154621,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900607,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -153386,7 +154664,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900607,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -153429,7 +154707,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900607,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -153472,7 +154750,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900702,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -153560,7 +154838,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900689,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -154121,7 +155399,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900607,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -154164,7 +155442,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900607,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -154207,7 +155485,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900607,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -154250,7 +155528,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900607,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -154293,7 +155571,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900607,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -154381,7 +155659,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900718,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -154987,7 +156265,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900732,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -155548,7 +156826,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900750,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -156359,7 +157637,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900800,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -157675,7 +158953,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900833,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -157810,7 +159088,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900879,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -158829,7 +160107,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900931,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -158872,7 +160150,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900932,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -158915,7 +160193,7 @@ end)()
 		guild_coin_award = 0,
 		award = 900933,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -165370,7 +166648,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901168,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -165976,7 +167254,7 @@ end)()
 		guild_coin_award = 0,
 		award = 99853,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -166537,7 +167815,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901185,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -166580,7 +167858,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901185,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -166623,7 +167901,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901185,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -166666,7 +167944,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901185,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -166752,7 +168030,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901203,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -167717,7 +168995,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901264,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -168876,7 +170154,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901185,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -168919,7 +170197,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901185,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -168962,7 +170240,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901185,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -169005,7 +170283,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901268,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -169048,7 +170326,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901357,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -170204,7 +171482,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901361,
 		type = 36,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -170247,7 +171525,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901362,
 		type = 36,
-		desc = "Sortie and clear 1 non-event Hard Mode stage.",
+		desc = "Clear any Hard Mode stage 1 time.",
 		count_inherit = 0,
 		sub_type = 182,
 		target_id_2 = "",
@@ -170523,7 +171801,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901455,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -170566,7 +171844,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901455,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -170609,7 +171887,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901455,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -170652,7 +171930,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901463,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -170750,7 +172028,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901505,
 		type = 6,
-		desc = "Spent a total of 1,000 Oil.",
+		desc = "Spend a total of 1000 Oil.",
 		count_inherit = 19699,
 		sub_type = 121,
 		target_id_2 = "",
@@ -170860,7 +172138,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901507,
 		type = 6,
-		desc = "Spent a total of 2,000 Oil.",
+		desc = "Spend a total of 2000 Oil.",
 		count_inherit = 19701,
 		sub_type = 121,
 		target_id_2 = "",
@@ -170970,7 +172248,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901509,
 		type = 6,
-		desc = "Spent a total of 3,000 Oil.",
+		desc = "Spend a total of 3000 Oil.",
 		count_inherit = 19703,
 		sub_type = 121,
 		target_id_2 = "",
@@ -171080,7 +172358,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901511,
 		type = 6,
-		desc = "Spent a total of 5,000 Oil.",
+		desc = "Spend a total of 5000 Oil.",
 		count_inherit = 19705,
 		sub_type = 121,
 		target_id_2 = "",
@@ -171355,7 +172633,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901516,
 		type = 6,
-		desc = "Spent a total of 10,000 Oil.",
+		desc = "Spend a total of 10,000 Oil.",
 		count_inherit = 19710,
 		sub_type = 121,
 		target_id_2 = "",
@@ -171730,7 +173008,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901535,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -173216,7 +174494,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901570,
 		type = 6,
-		desc = "Spent a total of 5,000 Oil.",
+		desc = "Spend a total of 5000 Oil.",
 		count_inherit = 19751,
 		sub_type = 121,
 		target_id_2 = "",
@@ -173306,7 +174584,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901572,
 		type = 6,
-		desc = "Spent a total of 10,000 Oil.",
+		desc = "Spend a total of 10,000 Oil.",
 		count_inherit = 19753,
 		sub_type = 121,
 		target_id_2 = "",
@@ -173441,7 +174719,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901577,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -173484,7 +174762,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901455,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -173527,7 +174805,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901455,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -173570,7 +174848,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901455,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -173658,7 +174936,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901586,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -175393,7 +176671,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901628,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -175436,7 +176714,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901679,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -175522,7 +176800,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901681,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -176766,7 +178044,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901785,
 		type = 6,
-		desc = "Spent a total of 1,000 Oil.",
+		desc = "Spend a total of 1000 Oil.",
 		count_inherit = 0,
 		sub_type = 121,
 		target_id_2 = "",
@@ -176809,7 +178087,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901785,
 		type = 6,
-		desc = "Spent a total of 2,000 Oil.",
+		desc = "Spend a total of 2000 Oil.",
 		count_inherit = 0,
 		sub_type = 121,
 		target_id_2 = "",
@@ -176852,7 +178130,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901785,
 		type = 6,
-		desc = "Spent a total of 3,000 Oil.",
+		desc = "Spend a total of 3000 Oil.",
 		count_inherit = 0,
 		sub_type = 121,
 		target_id_2 = "",
@@ -176938,7 +178216,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901787,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -178193,7 +179471,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901919,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -179213,7 +180491,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901937,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -179256,7 +180534,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901938,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -179299,7 +180577,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901939,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -179342,7 +180620,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901940,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -180856,7 +182134,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901980,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -180991,7 +182269,7 @@ end)()
 		guild_coin_award = 0,
 		award = 902023,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -181595,7 +182873,7 @@ end)()
 		guild_coin_award = 0,
 		award = 902037,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -182381,7 +183659,7 @@ end)()
 		guild_coin_award = 0,
 		award = 902142,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -182472,7 +183750,7 @@ end)()
 		guild_coin_award = 0,
 		award = 902053,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -182515,7 +183793,7 @@ end)()
 		guild_coin_award = 0,
 		award = 902053,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -182558,7 +183836,7 @@ end)()
 		guild_coin_award = 0,
 		award = 902053,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -183494,7 +184772,7 @@ end)()
 		guild_coin_award = 0,
 		award = 902201,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -184141,7 +185419,7 @@ end)()
 		guild_coin_award = 0,
 		award = 902237,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -185277,7 +186555,7 @@ end)()
 		guild_coin_award = 0,
 		award = 902258,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -185934,7 +187212,7 @@ end)()
 		guild_coin_award = 0,
 		award = 902311,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -188459,7 +189737,7 @@ end)()
 		guild_coin_award = 0,
 		award = 902258,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -188547,7 +189825,7 @@ end)()
 		guild_coin_award = 0,
 		award = 902488,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -189153,7 +190431,7 @@ end)()
 		guild_coin_award = 0,
 		award = 902512,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -190777,7 +192055,7 @@ end)()
 		guild_coin_award = 0,
 		award = 902544,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -192279,7 +193557,7 @@ end)()
 		guild_coin_award = 0,
 		award = 902726,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -193299,7 +194577,7 @@ end)()
 		guild_coin_award = 0,
 		award = 902744,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -193390,7 +194668,7 @@ end)()
 		guild_coin_award = 0,
 		award = 902777,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -193433,7 +194711,7 @@ end)()
 		guild_coin_award = 0,
 		award = 902785,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -193476,7 +194754,7 @@ end)()
 		guild_coin_award = 0,
 		award = 902785,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -193519,7 +194797,7 @@ end)()
 		guild_coin_award = 0,
 		award = 902785,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -194000,7 +195278,7 @@ end)()
 		guild_coin_award = 0,
 		award = 902871,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -194725,7 +196003,7 @@ end)()
 		guild_coin_award = 0,
 		award = 902885,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -195431,7 +196709,7 @@ end)()
 		guild_coin_award = 0,
 		award = 902902,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -196460,7 +197738,7 @@ end)()
 		guild_coin_award = 0,
 		award = 902923,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -197766,7 +199044,7 @@ end)()
 		guild_coin_award = 0,
 		award = 903042,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -199561,7 +200839,7 @@ end)()
 		guild_coin_award = 0,
 		award = 903113,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -200165,7 +201443,7 @@ end)()
 		guild_coin_award = 0,
 		award = 903318,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -201350,7 +202628,7 @@ end)()
 		guild_coin_award = 0,
 		award = 903340,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -201438,7 +202716,7 @@ end)()
 		guild_coin_award = 0,
 		award = 903351,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -201999,7 +203277,7 @@ end)()
 		guild_coin_award = 0,
 		award = 903341,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -202388,7 +203666,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904009,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -202994,7 +204272,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904023,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -204666,7 +205944,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904060,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -205014,7 +206292,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904102,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -205148,7 +206426,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904105,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -206964,7 +208242,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904144,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -207712,7 +208990,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904222,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -208780,7 +210058,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904241,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -209128,7 +210406,7 @@ end)()
 		guild_coin_award = 0,
 		award = 998512,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -209171,7 +210449,7 @@ end)()
 		guild_coin_award = 0,
 		award = 998513,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -209214,7 +210492,7 @@ end)()
 		guild_coin_award = 0,
 		award = 998514,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -214767,7 +216045,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904488,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -214855,7 +216133,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904527,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -215507,7 +216785,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904561,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -216549,7 +217827,7 @@ end)()
 		guild_coin_award = 0,
 		award = 998526,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -217155,7 +218433,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904629,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -217198,7 +218476,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904629,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -217241,7 +218519,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904629,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -217284,7 +218562,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904629,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -217327,7 +218605,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904629,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -217370,7 +218648,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904629,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -218765,7 +220043,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904495,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -218853,7 +220131,7 @@ end)()
 		guild_coin_award = 0,
 		award = 99853,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -219551,7 +220829,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904629,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -219594,7 +220872,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904629,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -219637,7 +220915,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904629,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -219680,7 +220958,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904629,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -219723,7 +221001,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904629,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -219766,7 +221044,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904491,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -220920,7 +222198,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904691,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -221354,7 +222632,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904747,
 		type = 26,
-		desc = "Spend a total of 1,000 Oil.",
+		desc = "Spend a total of 1000 Oil.",
 		count_inherit = 0,
 		sub_type = 121,
 		target_id_2 = "",
@@ -221708,7 +222986,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904755,
 		type = 36,
-		desc = "Sortie and clear 1 non-event Hard Mode Stage.",
+		desc = "Clear any Hard Mode stage 1 time.",
 		count_inherit = 0,
 		sub_type = 182,
 		target_id_2 = "",
@@ -222039,7 +223317,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904831,
 		type = 6,
-		desc = "Spend a total of 1,000 Oil.",
+		desc = "Spend a total of 1000 Oil.",
 		count_inherit = 21140,
 		sub_type = 121,
 		target_id_2 = "",
@@ -222149,7 +223427,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904833,
 		type = 6,
-		desc = "Spend a total of 2,000 Oil.",
+		desc = "Spend a total of 2000 Oil.",
 		count_inherit = 21142,
 		sub_type = 121,
 		target_id_2 = "",
@@ -222259,7 +223537,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904835,
 		type = 6,
-		desc = "Spend a total of 3,000 Oil.",
+		desc = "Spend a total of 3000 Oil.",
 		count_inherit = 21144,
 		sub_type = 121,
 		target_id_2 = "",
@@ -222369,7 +223647,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904837,
 		type = 6,
-		desc = "Spend a total of 5,000 Oil.",
+		desc = "Spend a total of 5000 Oil.",
 		count_inherit = 21146,
 		sub_type = 121,
 		target_id_2 = "",
@@ -223899,7 +225177,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904870,
 		type = 6,
-		desc = "Spend a total of 5,000 Oil.",
+		desc = "Spend a total of 5000 Oil.",
 		count_inherit = 21178,
 		sub_type = 121,
 		target_id_2 = "",
@@ -224124,7 +225402,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904875,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -224167,7 +225445,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904876,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -224210,7 +225488,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904877,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -224253,7 +225531,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904878,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -224296,7 +225574,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904879,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -224339,7 +225617,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904977,
 		type = 36,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -225055,7 +226333,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904956,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -225098,7 +226376,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904875,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -225141,7 +226419,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904876,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -225184,7 +226462,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904877,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -225227,7 +226505,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904878,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -225270,7 +226548,7 @@ end)()
 		guild_coin_award = 0,
 		award = 905001,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -226163,7 +227441,7 @@ end)()
 		guild_coin_award = 0,
 		award = 905065,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -226767,7 +228045,7 @@ end)()
 		guild_coin_award = 0,
 		award = 905082,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -227852,7 +229130,7 @@ end)()
 		guild_coin_award = 0,
 		award = 905103,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -228332,7 +229610,7 @@ end)()
 		guild_coin_award = 0,
 		award = 905244,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -228375,7 +229653,7 @@ end)()
 		guild_coin_award = 0,
 		award = 905244,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -228418,7 +229696,7 @@ end)()
 		guild_coin_award = 0,
 		award = 905244,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -228461,7 +229739,7 @@ end)()
 		guild_coin_award = 0,
 		award = 905244,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -228729,7 +230007,7 @@ end)()
 		guild_coin_award = 0,
 		award = 905251,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -229290,7 +230568,7 @@ end)()
 		guild_coin_award = 0,
 		award = 905267,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -238356,7 +239634,7 @@ end)()
 		guild_coin_award = 0,
 		award = 905455,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -239012,7 +240290,7 @@ end)()
 		guild_coin_award = 0,
 		award = 905515,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -239098,7 +240376,7 @@ end)()
 		guild_coin_award = 0,
 		award = 905517,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -239772,7 +241050,7 @@ end)()
 		guild_coin_award = 0,
 		award = 905550,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -239815,7 +241093,7 @@ end)()
 		guild_coin_award = 0,
 		award = 905550,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -239858,7 +241136,7 @@ end)()
 		guild_coin_award = 0,
 		award = 905550,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -239901,7 +241179,7 @@ end)()
 		guild_coin_award = 0,
 		award = 905550,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -241547,7 +242825,7 @@ end)()
 		guild_coin_award = 0,
 		award = 905670,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -242774,7 +244052,7 @@ end)()
 		guild_coin_award = 0,
 		award = 905693,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -242862,7 +244140,7 @@ end)()
 		guild_coin_award = 0,
 		award = 906153,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -244399,7 +245677,7 @@ end)()
 		guild_coin_award = 0,
 		award = 906833,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -245452,7 +246730,7 @@ end)()
 		guild_coin_award = 0,
 		award = 906914,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -245495,7 +246773,7 @@ end)()
 		guild_coin_award = 0,
 		award = 906915,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -245538,7 +246816,7 @@ end)()
 		guild_coin_award = 0,
 		award = 906916,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -245581,7 +246859,7 @@ end)()
 		guild_coin_award = 0,
 		award = 906917,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -245624,7 +246902,7 @@ end)()
 		guild_coin_award = 0,
 		award = 906918,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -245667,7 +246945,7 @@ end)()
 		guild_coin_award = 0,
 		award = 906919,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -245710,7 +246988,7 @@ end)()
 		guild_coin_award = 0,
 		award = 906920,
 		type = 14,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -245898,7 +247176,7 @@ end)()
 		guild_coin_award = 0,
 		award = 906962,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -247710,6 +248988,1920 @@ end)()
 				319,
 				1
 			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21861] = {
+		name = "【马赛曲SP轻量化复刻】通关SP1",
+		guild_coin_award = 0,
+		award = 907598,
+		type = 6,
+		desc = "Clear SP1 1 time.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1730001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 21861,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1730001,
+				chapterId = 1730001
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21862] = {
+		name = "【马赛曲SP轻量化复刻】通关SP2",
+		guild_coin_award = 0,
+		award = 907599,
+		type = 6,
+		desc = "Clear SP2 1 time.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1730002",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 21862,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1730001,
+				chapterId = 1730002
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21863] = {
+		name = "【马赛曲SP轻量化复刻】通关SP3",
+		guild_coin_award = 0,
+		award = 907600,
+		type = 6,
+		desc = "Clear SP3 1 time.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1730003",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 21863,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18013,
+				1
+			},
+			{
+				14,
+				604,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1730001,
+				chapterId = 1730003
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21864] = {
+		name = "【马赛曲SP轻量化复刻】SP1三星",
+		guild_coin_award = 0,
+		award = 907601,
+		type = 6,
+		desc = "Complete SP1 with 3 stars.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1730001",
+		next_task = "21865",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 21864,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1730001,
+				chapterId = 1730001
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21865] = {
+		name = "【马赛曲SP轻量化复刻】SP1三星",
+		guild_coin_award = 0,
+		award = 907602,
+		type = 6,
+		desc = "Complete SP2 with 3 stars.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1730002",
+		next_task = "21866",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 21865,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1730001,
+				chapterId = 1730002
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21866] = {
+		name = "【马赛曲SP轻量化复刻】SP1三星",
+		guild_coin_award = 0,
+		award = 907603,
+		type = 6,
+		desc = "Complete SP3 with 3 stars.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1730003",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 21866,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1730001,
+				chapterId = 1730003
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21867] = {
+		name = "20251113美服黑五返场 登陆奖励1",
+		guild_coin_award = 0,
+		award = 907706,
+		type = 6,
+		desc = "不应该被看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21867,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54016,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21868] = {
+		name = "20251113美服黑五返场 登陆奖励2",
+		guild_coin_award = 0,
+		award = 907707,
+		type = 6,
+		desc = "不应该被看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21868,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54051,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21869] = {
+		name = "20251113美服黑五返场 登陆奖励3",
+		guild_coin_award = 0,
+		award = 907708,
+		type = 6,
+		desc = "不应该被看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21869,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21873] = {
+		name = "『列克星敦II活动』纪念任务1",
+		guild_coin_award = 0,
+		award = 908277,
+		type = 26,
+		desc = "Collect all stickers in A Note Through the Firmament.",
+		count_inherit = 0,
+		sub_type = 131,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "50295",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21873,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65785,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21874] = {
+		name = "『列克星敦II活动』纪念贴纸获取1",
+		guild_coin_award = 0,
+		award = 908278,
+		type = 26,
+		desc = "Collect 7 stickers in A Note Through the Firmament.",
+		count_inherit = 0,
+		sub_type = 131,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "50295",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21874,
+		target_num = 7,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65786,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21875] = {
+		name = "『列克星敦II活动』纪念贴纸获取2",
+		guild_coin_award = 0,
+		award = 908279,
+		type = 26,
+		desc = "Read the whole story in A Note Through the Firmament.",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21875,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7431
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65787,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21876] = {
+		name = "『列克星敦II活动』纪念贴纸获取3",
+		guild_coin_award = 0,
+		award = 908280,
+		type = 26,
+		desc = "Clear the A3/C3 stage in A Note Through the Firmament.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21876,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990003,
+			1990023
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65788,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21877] = {
+		name = "『列克星敦II活动』纪念贴纸获取4",
+		guild_coin_award = 0,
+		award = 908281,
+		type = 26,
+		desc = "Defeat 300 enemies on the A Note Through the Firmament event stages.",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21877,
+		target_num = 300,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16800001,
+			16800002,
+			16800003,
+			16800004,
+			16800005,
+			16800006,
+			16800007,
+			16800201,
+			16800202,
+			16800203,
+			16800301,
+			16800302,
+			16800303,
+			16801001,
+			16801002,
+			16801003,
+			16801004,
+			16801005,
+			16801006,
+			16801007,
+			16801101,
+			16801102,
+			16801103,
+			16801104,
+			16801105,
+			16801106,
+			16801107,
+			16801201,
+			16801202,
+			16801203,
+			16801204,
+			16801205,
+			16801206,
+			16801301,
+			16801302,
+			16801303,
+			16802001,
+			16802002,
+			16802003,
+			16802004,
+			16802005,
+			16802006,
+			16802007,
+			16802201,
+			16802202,
+			16802203,
+			16802301,
+			16802302,
+			16802303,
+			16803001,
+			16803002,
+			16803003,
+			16803004,
+			16803005,
+			16803006,
+			16803007,
+			16803101,
+			16803102,
+			16803103,
+			16803104,
+			16803105,
+			16803106,
+			16803107,
+			16803201,
+			16803202,
+			16803203,
+			16803204,
+			16803205,
+			16803206,
+			16803301,
+			16803302,
+			16803303,
+			16804001,
+			16804002,
+			16804003,
+			16804004,
+			16804005,
+			16804006,
+			16804007,
+			16804101,
+			16804102,
+			16804103,
+			16804104,
+			16804105,
+			16804106,
+			16804107,
+			16804201,
+			16804202,
+			16804203,
+			16804301,
+			16804302,
+			16804303,
+			16804304,
+			16805001,
+			16805002,
+			16805003,
+			16805004,
+			16805101,
+			16805102,
+			16805103,
+			16805104,
+			16806001,
+			16806002,
+			16806003,
+			16806004,
+			16806101,
+			16806102,
+			16806103,
+			16806104,
+			16806201,
+			16806202,
+			16806203,
+			16806204
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65789,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21878] = {
+		name = "『列克星敦II活动』纪念贴纸获取5",
+		guild_coin_award = 0,
+		award = 908282,
+		type = 26,
+		desc = "Clear 50 stages in A Note Through the Firmament.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21878,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990001,
+			1990002,
+			1990003,
+			1990004,
+			1990005,
+			1990006,
+			1990021,
+			1990022,
+			1990023,
+			1990024,
+			1990025,
+			1990026,
+			1990041,
+			1990051,
+			1990052
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65790,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21879] = {
+		name = "『列克星敦II活动』纪念贴纸获取6",
+		guild_coin_award = 0,
+		award = 908283,
+		type = 26,
+		desc = "Clear the B3/D3 stage in A Note Through the Firmament.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21879,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990006,
+			1990026
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65791,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21880] = {
+		name = "『列克星敦II活动』纪念贴纸获取7",
+		guild_coin_award = 0,
+		award = 908284,
+		type = 26,
+		desc = "Clear the SP stage in A Note Through the Firmament.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1990041",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21880,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65792,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21881] = {
+		name = "『列克星敦II活动』纪念贴纸获取8",
+		guild_coin_award = 0,
+		award = 908285,
+		type = 26,
+		desc = "Collect a total of 10,000 Council's Marks.",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "50288",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "596",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21881,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65793,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21882] = {
+		name = "『列克星敦II活动』大佬章获取任务",
+		guild_coin_award = 0,
+		award = 908286,
+		type = 26,
+		desc = "Clear the D3 stage in A Note Through the Firmament.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1990026",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21882,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				323,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21883] = {
+		name = "『撒丁SP』纪念任务1",
+		guild_coin_award = 0,
+		award = 908553,
+		type = 26,
+		desc = "Collect all stickers in the Light & Shadow Fashion Shoot! event.",
+		count_inherit = 0,
+		sub_type = 131,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "50359",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21883,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65802,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21884] = {
+		name = "『撒丁SP』纪念贴纸获取1",
+		guild_coin_award = 0,
+		award = 908554,
+		type = 26,
+		desc = "Collect 7 stickers in the Light & Shadow Fashion Shoot! event.",
+		count_inherit = 0,
+		sub_type = 131,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "50359",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21884,
+		target_num = 7,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65803,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21885] = {
+		name = "『撒丁SP』纪念贴纸获取2",
+		guild_coin_award = 0,
+		award = 908555,
+		type = 26,
+		desc = "Read the whole story in the Light & Shadow Fashion Shoot! event.",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21885,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7480
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65804,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21886] = {
+		name = "『撒丁SP』纪念贴纸获取3",
+		guild_coin_award = 0,
+		award = 908556,
+		type = 26,
+		desc = "Clear any stage in the Light & Shadow Fashion Shoot! event.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21886,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1999101,
+			1999201,
+			1999202,
+			1999301,
+			1999302,
+			1999303,
+			1999401,
+			1999402,
+			1999403,
+			1999404,
+			1999501,
+			1999502,
+			1999503,
+			1999504,
+			1999505
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65805,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21887] = {
+		name = "『撒丁SP』纪念贴纸获取4",
+		guild_coin_award = 0,
+		award = 908557,
+		type = 26,
+		desc = "Defeat 100 enemies on the Light & Shadow Fashion Shoot! event stages.",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21887,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16810001,
+			16810002,
+			16810003,
+			16810004,
+			16810005,
+			16810006,
+			16810007,
+			16810301,
+			16811001,
+			16811002,
+			16811003,
+			16811004,
+			16811005,
+			16811006,
+			16811007,
+			16811101,
+			16811102,
+			16811103,
+			16811104,
+			16811105,
+			16811301,
+			16811302,
+			16812001,
+			16812002,
+			16812003,
+			16812004,
+			16812005,
+			16812006,
+			16812007,
+			16812101,
+			16812102,
+			16812103,
+			16812104,
+			16812105,
+			16812301,
+			16812302,
+			16812303,
+			16813001,
+			16813002,
+			16813003,
+			16813004,
+			16813005,
+			16813006,
+			16813007,
+			16813101,
+			16813102,
+			16813103,
+			16813104,
+			16813105,
+			16813301,
+			16813302,
+			16813303,
+			16813304,
+			16814001,
+			16814002,
+			16814003,
+			16814004,
+			16814005,
+			16814006,
+			16814007,
+			16814101,
+			16814102,
+			16814103,
+			16814104,
+			16814105,
+			16814301,
+			16814302,
+			16814303,
+			16814304,
+			16814305
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65806,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21888] = {
+		name = "『撒丁SP』纪念贴纸获取5",
+		guild_coin_award = 0,
+		award = 908558,
+		type = 26,
+		desc = "Clear stages 40 times in the Light & Shadow Fashion Shoot! event.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21888,
+		target_num = 40,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1999101,
+			1999201,
+			1999202,
+			1999301,
+			1999302,
+			1999303,
+			1999401,
+			1999402,
+			1999403,
+			1999404,
+			1999501,
+			1999502,
+			1999503,
+			1999504,
+			1999505
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65807,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21889] = {
+		name = "『撒丁SP』纪念贴纸获取6",
+		guild_coin_award = 0,
+		award = 908559,
+		type = 26,
+		desc = "Clear the Window of the Heart Hard Mode stage in the Light & Shadow Fashion Shoot! event.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1999303",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21889,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65808,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21890] = {
+		name = "『撒丁SP』纪念贴纸获取7",
+		guild_coin_award = 0,
+		award = 908560,
+		type = 26,
+		desc = "Clear the Pure White Heart SP stage in the Light & Shadow Fashion Shoot! event.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1999404",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21890,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65809,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21891] = {
+		name = "『撒丁SP』纪念贴纸获取8",
+		guild_coin_award = 0,
+		award = 908561,
+		type = 26,
+		desc = "Collect a total of 10,000 Camera Film.",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "50357",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "616",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21891,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65810,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21892] = {
+		name = "『彰武共斗』纪念任务1（只送勋章）",
+		guild_coin_award = 0,
+		award = 908770,
+		type = 26,
+		desc = "Collect all stickers in the Spring Auction Adventure event.",
+		count_inherit = 0,
+		sub_type = 131,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "50405",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21892,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65848,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21893] = {
+		name = "『彰武共斗』纪念贴纸获取1",
+		guild_coin_award = 0,
+		award = 908771,
+		type = 26,
+		desc = "Collect 7 stickers in the Spring Auction Adventure event.",
+		count_inherit = 0,
+		sub_type = 131,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "50405",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21893,
+		target_num = 7,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65849,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21894] = {
+		name = "『彰武共斗』纪念贴纸获取2",
+		guild_coin_award = 0,
+		award = 908772,
+		type = 26,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21894,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65850,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21895] = {
+		name = "『彰武共斗』纪念贴纸获取3",
+		guild_coin_award = 0,
+		award = 908773,
+		type = 26,
+		desc = "Spend a total of 1000 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21895,
+		target_num = 1000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65851,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21896] = {
+		name = "『彰武共斗』纪念贴纸获取4",
+		guild_coin_award = 0,
+		award = 908774,
+		type = 26,
+		desc = "Build 10 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21896,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65852,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21897] = {
+		name = "『彰武共斗』纪念贴纸获取5",
+		guild_coin_award = 0,
+		award = 908775,
+		type = 26,
+		desc = "Sortie and clear 3 non-event Hard Mode Stages.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21897,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65853,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21898] = {
+		name = "『彰武共斗』纪念贴纸获取6",
+		guild_coin_award = 0,
+		award = 908776,
+		type = 26,
+		desc = "Clear stages 3 times in the Spring Auction Adventure event.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21898,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1999901,
+			1999902,
+			1999903,
+			1999904,
+			1999905
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65854,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21899] = {
+		name = "『彰武共斗』纪念贴纸获取7",
+		guild_coin_award = 0,
+		award = 908777,
+		type = 26,
+		desc = "Complete 5 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21899,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65855,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21900] = {
+		name = "『彰武共斗』纪念贴纸获取8",
+		guild_coin_award = 0,
+		award = 908778,
+		type = 26,
+		desc = "Play Fei Yuen's Great Adventure 1 time.",
+		count_inherit = 0,
+		sub_type = 415,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "68",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 21900,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65856,
+				1
+			}
+		},
+		scene = {
+			"MINI_GAME",
+			81
 		}
 	}
 end)()
@@ -256197,7 +259389,7 @@ end)()
 		guild_coin_award = 0,
 		award = 905628,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -257563,7 +260755,7 @@ end)()
 		guild_coin_award = 0,
 		award = 906051,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -262837,7 +266029,7 @@ end)()
 		guild_coin_award = 0,
 		award = 906262,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -264869,7 +268061,7 @@ end)()
 		guild_coin_award = 0,
 		award = 906171,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -265481,7 +268673,7 @@ end)()
 		guild_coin_award = 0,
 		award = 906308,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -265567,7 +268759,7 @@ end)()
 		guild_coin_award = 0,
 		award = 906310,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -267309,7 +270501,7 @@ end)()
 		guild_coin_award = 0,
 		award = 906498,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -275200,7 +278392,7 @@ end)()
 		guild_coin_award = 0,
 		award = 906854,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -275286,7 +278478,7 @@ end)()
 		guild_coin_award = 0,
 		award = 906922,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -276455,7 +279647,7 @@ end)()
 		guild_coin_award = 0,
 		award = 906985,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -277107,7 +280299,7 @@ end)()
 		guild_coin_award = 0,
 		award = 907042,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -280812,7 +284004,7 @@ end)()
 		guild_coin_award = 0,
 		award = 906558,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -281289,7 +284481,7 @@ end)()
 		guild_coin_award = 0,
 		award = 907402,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -281893,7 +285085,7 @@ end)()
 		guild_coin_award = 0,
 		award = 907449,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -283705,7 +286897,7 @@ end)()
 		guild_coin_award = 0,
 		award = 906562,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -284868,6 +288060,18571 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[24601] = {
+		name = "『风帆三期』外观装备箱保底",
+		guild_coin_award = 0,
+		award = 907574,
+		type = 6,
+		desc = "Buy 20 Gear Skin Boxes (Halloween Horrors) from the Event Exchange or the Supply Shop.",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "30361",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24601,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30547,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24611] = {
+		name = "『云仙轻量化复刻』前哨战七日任务1",
+		guild_coin_award = 0,
+		award = 907651,
+		type = 26,
+		desc = "Sortie and obtain 10 victories with S-rating.",
+		count_inherit = 0,
+		sub_type = 24,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24611,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24612] = {
+		name = "『云仙轻量化复刻』前哨战七日任务2",
+		guild_coin_award = 0,
+		award = 907652,
+		type = 26,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24612,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24613] = {
+		name = "『云仙轻量化复刻』前哨战七日任务3",
+		guild_coin_award = 0,
+		award = 907653,
+		type = 26,
+		desc = "Conduct 2 exercises.",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24613,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24614] = {
+		name = "『云仙轻量化复刻』前哨战七日任务4",
+		guild_coin_award = 0,
+		award = 907654,
+		type = 26,
+		desc = "Complete 2 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24614,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24615] = {
+		name = "『云仙轻量化复刻』前哨战七日任务5",
+		guild_coin_award = 0,
+		award = 907655,
+		type = 26,
+		desc = "Retire 2 ships.",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24615,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24616] = {
+		name = "『云仙轻量化复刻』前哨战七日任务6",
+		guild_coin_award = 0,
+		award = 907656,
+		type = 26,
+		desc = "Complete 3 Daily Challenges.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24616,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24617] = {
+		name = "『云仙轻量化复刻』前哨战七日任务7",
+		guild_coin_award = 0,
+		award = 907657,
+		type = 26,
+		desc = "Enhance ship 5 times.",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24617,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54033,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24618] = {
+		name = "『云仙轻量化复刻』前哨战七日任务8",
+		guild_coin_award = 0,
+		award = 907658,
+		type = 26,
+		desc = "Conduct tactical training 2 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24618,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24619] = {
+		name = "『云仙轻量化复刻』前哨战七日任务9",
+		guild_coin_award = 0,
+		award = 907659,
+		type = 26,
+		desc = "Defeat 20 enemies.",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24619,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24620] = {
+		name = "『云仙轻量化复刻』前哨战七日任务10",
+		guild_coin_award = 0,
+		award = 907660,
+		type = 26,
+		desc = "Restock snacks in your dorm 5 times.",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24620,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24621] = {
+		name = "『云仙轻量化复刻』前哨战七日任务11",
+		guild_coin_award = 0,
+		award = 907661,
+		type = 26,
+		desc = "Build 2 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24621,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24622] = {
+		name = "『云仙轻量化复刻』前哨战七日任务12",
+		guild_coin_award = 0,
+		award = 907662,
+		type = 26,
+		desc = "Open 1 Tech Box.",
+		count_inherit = 0,
+		sub_type = 50,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24622,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24623] = {
+		name = "『云仙轻量化复刻』前哨战七日任务13",
+		guild_coin_award = 0,
+		award = 907663,
+		type = 26,
+		desc = "Conduct tactical training 2 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24623,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24624] = {
+		name = "『云仙轻量化复刻』前哨战七日任务14",
+		guild_coin_award = 0,
+		award = 907664,
+		type = 26,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24624,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				3,
+				150000,
+				1
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24625] = {
+		name = "『云仙轻量化复刻』-日常建造",
+		guild_coin_award = 0,
+		award = 907665,
+		type = 36,
+		desc = "Build 3 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24625,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65732,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24626] = {
+		name = "『云仙轻量化复刻』-日常出击",
+		guild_coin_award = 0,
+		award = 907666,
+		type = 36,
+		desc = "Sortie and obtain 15 victories.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24626,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65732,
+				300
+			},
+			{
+				2,
+				65733,
+				1
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24627] = {
+		name = "『云仙轻量化复刻』-日常困难本",
+		guild_coin_award = 0,
+		award = 907667,
+		type = 36,
+		desc = "Sortie and clear 1 non-event Hard Mode Stage.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24627,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65732,
+				150
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24628] = {
+		name = "『云仙轻量化复刻』-日常活动关卡",
+		guild_coin_award = 0,
+		award = 907668,
+		type = 36,
+		desc = "Clear any event stage 1 time.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24628,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1750001,
+			1750002,
+			1750003,
+			1750004,
+			1750005,
+			1750006,
+			1750007,
+			1750008,
+			1750021,
+			1750022,
+			1750023,
+			1750024,
+			1750025,
+			1750026,
+			1750027,
+			1750028,
+			1750041,
+			1750051
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65732,
+				300
+			},
+			{
+				2,
+				54006,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50222
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24629] = {
+		name = "『云仙轻量化复刻』通关A1/C1",
+		guild_coin_award = 0,
+		award = 907669,
+		type = 6,
+		desc = "Clear A1 or C1 1 time.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24629,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1750001,
+			1750021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				65733,
+				1
+			},
+			{
+				2,
+				65732,
+				200
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50222
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24630] = {
+		name = "『云仙轻量化复刻』通关A2/C2",
+		guild_coin_award = 0,
+		award = 907670,
+		type = 6,
+		desc = "Clear A2 or C2 1 time.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24630,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1750002,
+			1750022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				65733,
+				1
+			},
+			{
+				2,
+				65732,
+				400
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50222
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24631] = {
+		name = "『云仙轻量化复刻』通关A3/C3",
+		guild_coin_award = 0,
+		award = 907671,
+		type = 6,
+		desc = "Clear A3 or C3 1 time.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24631,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1750003,
+			1750023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				2,
+				65733,
+				2
+			},
+			{
+				2,
+				65732,
+				600
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50222
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24632] = {
+		name = "『云仙轻量化复刻』通关B1/D1",
+		guild_coin_award = 0,
+		award = 907672,
+		type = 6,
+		desc = "Clear B1 or D1 1 time.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24632,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1750004,
+			1750024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				65733,
+				1
+			},
+			{
+				2,
+				65732,
+				400
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50223
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24633] = {
+		name = "『云仙轻量化复刻』通关B2/D2",
+		guild_coin_award = 0,
+		award = 907673,
+		type = 6,
+		desc = "Clear B2 or D2 1 time.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24633,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1750005,
+			1750025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				65733,
+				1
+			},
+			{
+				2,
+				65732,
+				600
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50223
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24634] = {
+		name = "『云仙轻量化复刻』通关B3/D3",
+		guild_coin_award = 0,
+		award = 907674,
+		type = 6,
+		desc = "Clear B3 or D3 1 time.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24634,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1750006,
+			1750026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				2,
+				65733,
+				2
+			},
+			{
+				2,
+				65732,
+				800
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50223
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24635] = {
+		name = "『云仙轻量化复刻』通关SP",
+		guild_coin_award = 0,
+		award = 907675,
+		type = 6,
+		desc = "Clear SP.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1750041",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24635,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				2,
+				65733,
+				3
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1750025,
+				chapterId = 1750041
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24636] = {
+		name = "『云仙轻量化复刻』通关EX",
+		guild_coin_award = 0,
+		award = 907676,
+		type = 6,
+		desc = "Clear EX.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1750051",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24636,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1750026,
+				chapterId = 1750051
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24637] = {
+		name = "『云仙轻量化复刻』通关D3",
+		guild_coin_award = 0,
+		award = 907677,
+		type = 6,
+		desc = "Clear D3 Stage<color=#92fc63> (can only be obtained once)</color>",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1750026",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24637,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				259,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1750012,
+				chapterId = 1750026
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24638] = {
+		name = "『云仙轻量化复刻』A1/C1的3星",
+		guild_coin_award = 0,
+		award = 907678,
+		type = 6,
+		desc = "Complete A1 or C1 with 3 stars",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24639",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24638,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1750001,
+			1750021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50222
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24639] = {
+		name = "『云仙轻量化复刻』A2/C2的3星",
+		guild_coin_award = 0,
+		award = 907679,
+		type = 6,
+		desc = "Complete A2 or C2 with 3 stars",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24640",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24639,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1750002,
+			1750022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50222
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24640] = {
+		name = "『云仙轻量化复刻』A3/C3的3星",
+		guild_coin_award = 0,
+		award = 907680,
+		type = 6,
+		desc = "Complete A3 or C3 with 3 stars",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24641",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24640,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1750003,
+			1750023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50222
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24641] = {
+		name = "『云仙轻量化复刻』B1/D1的3星",
+		guild_coin_award = 0,
+		award = 907681,
+		type = 6,
+		desc = "Complete B1 or D1 with 3 stars",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24642",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24641,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1750004,
+			1750024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50223
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24642] = {
+		name = "『云仙轻量化复刻』B2/D2的3星",
+		guild_coin_award = 0,
+		award = 907682,
+		type = 6,
+		desc = "Complete B2 or D2 with 3 stars",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24643",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24642,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1750005,
+			1750025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50223
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24643] = {
+		name = "『云仙轻量化复刻』B3/D3的3星",
+		guild_coin_award = 0,
+		award = 907683,
+		type = 6,
+		desc = "Complete B3 or D3 with 3 stars",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24643,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1750006,
+			1750026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50223
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24644] = {
+		name = "『云仙轻量化复刻』外观装备箱保底",
+		guild_coin_award = 0,
+		award = 907684,
+		type = 6,
+		desc = "Buy 20 Gear Skin Boxes (Spirits Eve) from the Event Exchange or the Supply Shop.",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "30348",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24644,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30529,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24645] = {
+		name = "『20251113』七天双任务送提尔比茨赛车换装七日任务1",
+		guild_coin_award = 0,
+		award = 907685,
+		type = 26,
+		desc = "Sortie and obtain 10 victories with S-rating.",
+		count_inherit = 0,
+		sub_type = 24,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24645,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24646] = {
+		name = "『20251113』七天双任务送提尔比茨赛车换装七日任务2",
+		guild_coin_award = 0,
+		award = 907686,
+		type = 26,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24646,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24647] = {
+		name = "『20251113』七天双任务送提尔比茨赛车换装七日任务3",
+		guild_coin_award = 0,
+		award = 907687,
+		type = 26,
+		desc = "Conduct 2 exercises.",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24647,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24648] = {
+		name = "『20251113』七天双任务送提尔比茨赛车换装七日任务4",
+		guild_coin_award = 0,
+		award = 907688,
+		type = 26,
+		desc = "Complete 2 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24648,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24649] = {
+		name = "『20251113』七天双任务送提尔比茨赛车换装七日任务5",
+		guild_coin_award = 0,
+		award = 907689,
+		type = 26,
+		desc = "Retire 2 ships.",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24649,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24650] = {
+		name = "『20251113』七天双任务送提尔比茨赛车换装七日任务6",
+		guild_coin_award = 0,
+		award = 907690,
+		type = 26,
+		desc = "Complete 3 Daily Challenges.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24650,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24651] = {
+		name = "『20251113』七天双任务送提尔比茨赛车换装七日任务7",
+		guild_coin_award = 0,
+		award = 907691,
+		type = 26,
+		desc = "Enhance ship 5 times.",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24651,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54033,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24652] = {
+		name = "『20251113』七天双任务送提尔比茨赛车换装七日任务8",
+		guild_coin_award = 0,
+		award = 907692,
+		type = 26,
+		desc = "Conduct tactical training 2 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24652,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24653] = {
+		name = "『20251113』七天双任务送提尔比茨赛车换装七日任务9",
+		guild_coin_award = 0,
+		award = 907693,
+		type = 26,
+		desc = "Defeat 20 enemies.",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24653,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24654] = {
+		name = "『20251113』七天双任务送提尔比茨赛车换装七日任务10",
+		guild_coin_award = 0,
+		award = 907694,
+		type = 26,
+		desc = "Restock snacks in your dorm 5 times.",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24654,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24655] = {
+		name = "『20251113』七天双任务送提尔比茨赛车换装七日任务11",
+		guild_coin_award = 0,
+		award = 907695,
+		type = 26,
+		desc = "Build 2 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24655,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24656] = {
+		name = "『20251113』七天双任务送提尔比茨赛车换装七日任务12",
+		guild_coin_award = 0,
+		award = 907696,
+		type = 26,
+		desc = "Open 1 Tech Box.",
+		count_inherit = 0,
+		sub_type = 50,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24656,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24657] = {
+		name = "『20251113』七天双任务送提尔比茨赛车换装七日任务13",
+		guild_coin_award = 0,
+		award = 907697,
+		type = 26,
+		desc = "Conduct tactical training 2 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24657,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24658] = {
+		name = "『20251113』七天双任务送提尔比茨赛车换装七日任务14",
+		guild_coin_award = 0,
+		award = 907698,
+		type = 26,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24658,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				7,
+				405025,
+				1
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24659] = {
+		name = "『20251113』皮肤剧情签到活动1",
+		guild_coin_award = 0,
+		award = 907699,
+		type = 14,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24659,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65736,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24660] = {
+		name = "『20251113』皮肤剧情签到活动2",
+		guild_coin_award = 0,
+		award = 907700,
+		type = 14,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24660,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65736,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24661] = {
+		name = "『20251113』皮肤剧情签到活动3",
+		guild_coin_award = 0,
+		award = 907701,
+		type = 14,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24661,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65736,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24662] = {
+		name = "『251113版本』登录送皮肤体验券活动",
+		guild_coin_award = 0,
+		award = 906566,
+		type = 6,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24662,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				586,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24701] = {
+		name = "『约战联动』npc临时加入",
+		guild_coin_award = 0,
+		award = 907850,
+		type = 6,
+		desc = "？",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24701,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				4,
+				11500051,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24702] = {
+		name = "Operation Affinity Point!",
+		guild_coin_award = 0,
+		award = 907874,
+		type = 6,
+		desc = "Seize full control of Anomalous Area - Sector 1 to unlock.",
+		count_inherit = 0,
+		sub_type = 426,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "13",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24702,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65745,
+				1
+			}
+		},
+		scene = {
+			"BOSSRUSH_DAL_COLLAB"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24703] = {
+		name = "Something Even Better?",
+		guild_coin_award = 0,
+		award = 907875,
+		type = 6,
+		desc = "Seize full control of Anomalous Area - Sector 2 to unlock.",
+		count_inherit = 0,
+		sub_type = 426,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "14",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24703,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65745,
+				1
+			}
+		},
+		scene = {
+			"BOSSRUSH_DAL_COLLAB"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24704] = {
+		name = "A Gathering of Geniuses",
+		guild_coin_award = 0,
+		award = 907876,
+		type = 6,
+		desc = "Seize full control of Anomalous Area - Sector 3 to unlock.",
+		count_inherit = 0,
+		sub_type = 426,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "15",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24704,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65745,
+				1
+			}
+		},
+		scene = {
+			"BOSSRUSH_DAL_COLLAB"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24705] = {
+		name = "Blooming Flowers",
+		guild_coin_award = 0,
+		award = 907877,
+		type = 6,
+		desc = "Seize full control of Anomalous Area - Sector 4 to unlock.",
+		count_inherit = 0,
+		sub_type = 426,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "16",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24705,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65745,
+				1
+			}
+		},
+		scene = {
+			"BOSSRUSH_DAL_COLLAB"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24706] = {
+		name = "Empathizing With Cats",
+		guild_coin_award = 0,
+		award = 907878,
+		type = 6,
+		desc = "Seize full control of Anomalous Area - Sector 5 to unlock.",
+		count_inherit = 0,
+		sub_type = 426,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "17",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24706,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65745,
+				1
+			}
+		},
+		scene = {
+			"BOSSRUSH_DAL_COLLAB"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24707] = {
+		name = "How to Use Zafkiel Properly",
+		guild_coin_award = 0,
+		award = 907879,
+		type = 6,
+		desc = "Seize full control of Anomalous Area - Sector 6 to unlock.",
+		count_inherit = 0,
+		sub_type = 426,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "18",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24707,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65745,
+				1
+			}
+		},
+		scene = {
+			"BOSSRUSH_DAL_COLLAB"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24708] = {
+		name = "『约战联动』登录送皮肤体验券活动",
+		guild_coin_award = 0,
+		award = 906570,
+		type = 6,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24708,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				586,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24709] = {
+		name = "『约战联动』阅读全部日常剧情",
+		guild_coin_award = 0,
+		award = 906571,
+		type = 6,
+		desc = "Read all the side stories.",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24709,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7311,
+			7312,
+			7313,
+			7314,
+			7315,
+			7316
+		},
+		open_need = {},
+		award_display = {
+			{
+				3,
+				150860,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24710] = {
+		name = "『约战联动』替换任务1",
+		guild_coin_award = 0,
+		award = 907844,
+		type = 6,
+		desc = "Earn a total of 3000 Battle Contributions.",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "50258",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "588",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24710,
+		target_num = 3000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				21,
+				14780,
+				1
+			},
+			{
+				2,
+				20001,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24711] = {
+		name = "『约战联动』替换任务2",
+		guild_coin_award = 0,
+		award = 907845,
+		type = 6,
+		desc = "Earn a total of 6000 Battle Contributions.",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "50258",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "588",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24711,
+		target_num = 6000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				21,
+				14760,
+				1
+			},
+			{
+				2,
+				20001,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24712] = {
+		name = "『约战联动』替换任务3",
+		guild_coin_award = 0,
+		award = 907846,
+		type = 6,
+		desc = "Earn a total of 9000 Battle Contributions.",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "50258",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "588",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24712,
+		target_num = 9000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				21,
+				14800,
+				1
+			},
+			{
+				2,
+				20001,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24713] = {
+		name = "『约战联动』替换任务4",
+		guild_coin_award = 0,
+		award = 907847,
+		type = 6,
+		desc = "Earn a total of 12,000 Battle Contributions.",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "50258",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "588",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24713,
+		target_num = 12000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				21,
+				14840,
+				1
+			},
+			{
+				2,
+				20001,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24714] = {
+		name = "『约战联动』替换任务5",
+		guild_coin_award = 0,
+		award = 907848,
+		type = 6,
+		desc = "Earn a total of 15,000 Battle Contributions.",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "50258",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "588",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24714,
+		target_num = 15000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				21,
+				14860,
+				1
+			},
+			{
+				2,
+				20001,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24715] = {
+		name = "『约战联动』替换任务6",
+		guild_coin_award = 0,
+		award = 907849,
+		type = 6,
+		desc = "Earn a total of 18,000 Battle Contributions.",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "50258",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "588",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24715,
+		target_num = 18000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				21,
+				14820,
+				1
+			},
+			{
+				2,
+				20001,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24716] = {
+		name = "『约战联动』飞船升级任务",
+		guild_coin_award = 0,
+		award = 907880,
+		type = 6,
+		desc = "Fully upgrade the airship.",
+		count_inherit = 0,
+		sub_type = 410,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24716,
+		target_num = 27,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			31,
+			32,
+			33,
+			34,
+			35,
+			36,
+			37,
+			38,
+			39
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				321,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24717] = {
+		name = "『约战联动』外观装备箱保底",
+		guild_coin_award = 0,
+		award = 907881,
+		type = 6,
+		desc = "Exchange for 20 Gear Skin Boxes (Date A Live) in the event shop or the supply shop.",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "30377",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24717,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30561,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24718] = {
+		name = "『约战联动』-日常建造",
+		guild_coin_award = 0,
+		award = 907882,
+		type = 36,
+		desc = "Build 3 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24718,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65741,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24719] = {
+		name = "『约战联动』-日常出击",
+		guild_coin_award = 0,
+		award = 907883,
+		type = 36,
+		desc = "Sortie and obtain 15 victories.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24719,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65741,
+				300
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24720] = {
+		name = "『约战联动』-日常困难本",
+		guild_coin_award = 0,
+		award = 907884,
+		type = 36,
+		desc = "Sortie and clear 1 non-event Hard Mode Stage.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24720,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65741,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24721] = {
+		name = "『约战联动』-飞船升级任务1",
+		guild_coin_award = 0,
+		award = 907885,
+		type = 6,
+		desc = "Clear DATE A LANE collab stages 5 times.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24721,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1980002,
+			1980102,
+			1981003,
+			1981004,
+			1981005,
+			1981006,
+			1982003,
+			1982004,
+			1982005,
+			1982006,
+			1983004,
+			1984004
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				589,
+				1
+			},
+			{
+				1,
+				588,
+				200
+			}
+		},
+		scene = {
+			"BOSSRUSH_DAL_COLLAB"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24722] = {
+		name = "『约战联动』-飞船升级任务2",
+		guild_coin_award = 0,
+		award = 907886,
+		type = 6,
+		desc = "Clear DATE A LANE collab stages 10 times.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24722,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1980002,
+			1980102,
+			1981003,
+			1981004,
+			1981005,
+			1981006,
+			1982003,
+			1982004,
+			1982005,
+			1982006,
+			1983004,
+			1984004
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				589,
+				1
+			},
+			{
+				1,
+				588,
+				200
+			}
+		},
+		scene = {
+			"BOSSRUSH_DAL_COLLAB"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24723] = {
+		name = "『约战联动』-飞船升级任务3",
+		guild_coin_award = 0,
+		award = 907887,
+		type = 6,
+		desc = "Clear DATE A LANE collab stages 15 times.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24723,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1980002,
+			1980102,
+			1981003,
+			1981004,
+			1981005,
+			1981006,
+			1982003,
+			1982004,
+			1982005,
+			1982006,
+			1983004,
+			1984004
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				589,
+				1
+			},
+			{
+				1,
+				588,
+				200
+			}
+		},
+		scene = {
+			"BOSSRUSH_DAL_COLLAB"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24724] = {
+		name = "『约战联动』-飞船升级任务4",
+		guild_coin_award = 0,
+		award = 907888,
+		type = 6,
+		desc = "Clear DATE A LANE collab stages 25 times.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24724,
+		target_num = 25,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1980002,
+			1980102,
+			1981003,
+			1981004,
+			1981005,
+			1981006,
+			1982003,
+			1982004,
+			1982005,
+			1982006,
+			1983004,
+			1984004
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				589,
+				1
+			},
+			{
+				1,
+				588,
+				200
+			}
+		},
+		scene = {
+			"BOSSRUSH_DAL_COLLAB"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24725] = {
+		name = "『约战联动』-飞船升级任务5",
+		guild_coin_award = 0,
+		award = 907889,
+		type = 6,
+		desc = "Clear DATE A LANE collab stages 40 times.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24725,
+		target_num = 40,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1980002,
+			1980102,
+			1981003,
+			1981004,
+			1981005,
+			1981006,
+			1982003,
+			1982004,
+			1982005,
+			1982006,
+			1983004,
+			1984004
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				589,
+				2
+			},
+			{
+				1,
+				588,
+				200
+			}
+		},
+		scene = {
+			"BOSSRUSH_DAL_COLLAB"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24726] = {
+		name = "『约战联动』-飞船升级任务6",
+		guild_coin_award = 0,
+		award = 907890,
+		type = 6,
+		desc = "Spend a total of 1000 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24726,
+		target_num = 1000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				589,
+				1
+			},
+			{
+				1,
+				588,
+				200
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24727] = {
+		name = "『约战联动』-飞船升级任务7",
+		guild_coin_award = 0,
+		award = 907891,
+		type = 6,
+		desc = "Spend a total of 2000 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24727,
+		target_num = 2000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				589,
+				1
+			},
+			{
+				1,
+				588,
+				200
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24728] = {
+		name = "『约战联动』-飞船升级任务8",
+		guild_coin_award = 0,
+		award = 907892,
+		type = 6,
+		desc = "Spend a total of 3000 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24728,
+		target_num = 3000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				589,
+				1
+			},
+			{
+				1,
+				588,
+				200
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24729] = {
+		name = "『约战联动』-飞船升级任务9",
+		guild_coin_award = 0,
+		award = 907893,
+		type = 6,
+		desc = "Spend a total of 5000 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24729,
+		target_num = 5000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				589,
+				1
+			},
+			{
+				1,
+				588,
+				200
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24730] = {
+		name = "『约战联动』-飞船升级任务10",
+		guild_coin_award = 0,
+		award = 907894,
+		type = 6,
+		desc = "Spend a total of 10,000 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24730,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				589,
+				1
+			},
+			{
+				1,
+				588,
+				200
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24731] = {
+		name = "『约战联动』-飞船升级任务11",
+		guild_coin_award = 0,
+		award = 907895,
+		type = 6,
+		desc = "Spend a total of 1000 Battle Contributions in the event shop.",
+		count_inherit = 0,
+		sub_type = 123,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "50246",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24731,
+		target_num = 1000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				589,
+				1
+			},
+			{
+				1,
+				588,
+				200
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = 1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24732] = {
+		name = "『约战联动』-飞船升级任务12",
+		guild_coin_award = 0,
+		award = 907896,
+		type = 6,
+		desc = "Spend a total of 2000 Battle Contributions in the event shop.",
+		count_inherit = 0,
+		sub_type = 123,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "50246",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24732,
+		target_num = 2000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				589,
+				1
+			},
+			{
+				1,
+				588,
+				200
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = 1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24733] = {
+		name = "『约战联动』-飞船升级任务13",
+		guild_coin_award = 0,
+		award = 907897,
+		type = 6,
+		desc = "Spend a total of 3000 Battle Contributions in the event shop.",
+		count_inherit = 0,
+		sub_type = 123,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "50246",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24733,
+		target_num = 3000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				589,
+				1
+			},
+			{
+				1,
+				588,
+				200
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = 1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24734] = {
+		name = "『约战联动』-飞船升级任务14",
+		guild_coin_award = 0,
+		award = 907898,
+		type = 6,
+		desc = "Spend a total of 5000 Battle Contributions in the event shop.",
+		count_inherit = 0,
+		sub_type = 123,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "50246",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24734,
+		target_num = 5000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				589,
+				1
+			},
+			{
+				1,
+				588,
+				200
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = 1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24735] = {
+		name = "『约战联动』-飞船升级任务15",
+		guild_coin_award = 0,
+		award = 907899,
+		type = 6,
+		desc = "Spend a total of 10,000 Battle Contributions in the event shop.",
+		count_inherit = 0,
+		sub_type = 123,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "50246",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24735,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				589,
+				2
+			},
+			{
+				1,
+				588,
+				200
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = 1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24736] = {
+		name = "『约战联动』-飞船升级任务16",
+		guild_coin_award = 0,
+		award = 907900,
+		type = 6,
+		desc = "Defeat 50 enemies on DATE A LANE collab stages.",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24736,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16790001,
+			16790002,
+			16790003,
+			16790006,
+			16790007,
+			16790101,
+			16790102,
+			16790103,
+			16790104,
+			16790105,
+			16790301,
+			16790302,
+			16790401,
+			16790402,
+			16791001,
+			16791002,
+			16791003,
+			16791004,
+			16791005,
+			16791006,
+			16791007,
+			16791101,
+			16791102,
+			16791103,
+			16791104,
+			16791105,
+			16791301,
+			16791302,
+			16791303,
+			16791304,
+			16791305,
+			16791306,
+			16792001,
+			16792002,
+			16792003,
+			16792004,
+			16792005,
+			16792006,
+			16792007,
+			16792101,
+			16792102,
+			16792103,
+			16792104,
+			16792105,
+			16792301,
+			16792302,
+			16792303,
+			16792304,
+			16792305,
+			16792306,
+			16793001,
+			16793002,
+			16793003,
+			16793004,
+			16793005,
+			16793006,
+			16793007,
+			16793101,
+			16793102,
+			16793103,
+			16793104,
+			16793105,
+			16793301,
+			16793302,
+			16793303,
+			16793304,
+			16794001,
+			16794002,
+			16794003,
+			16794004,
+			16794005,
+			16794006,
+			16794007,
+			16794101,
+			16794102,
+			16794103,
+			16794104,
+			16794105,
+			16794301,
+			16794302,
+			16794303,
+			16794304
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				589,
+				2
+			},
+			{
+				1,
+				588,
+				300
+			}
+		},
+		scene = {
+			"BOSSRUSH_DAL_COLLAB"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24737] = {
+		name = "『约战联动』-飞船升级任务17",
+		guild_coin_award = 0,
+		award = 907901,
+		type = 6,
+		desc = "Defeat 100 enemies on DATE A LANE collab stages.",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24737,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16790001,
+			16790002,
+			16790003,
+			16790006,
+			16790007,
+			16790101,
+			16790102,
+			16790103,
+			16790104,
+			16790105,
+			16790301,
+			16790302,
+			16790401,
+			16790402,
+			16791001,
+			16791002,
+			16791003,
+			16791004,
+			16791005,
+			16791006,
+			16791007,
+			16791101,
+			16791102,
+			16791103,
+			16791104,
+			16791105,
+			16791301,
+			16791302,
+			16791303,
+			16791304,
+			16791305,
+			16791306,
+			16792001,
+			16792002,
+			16792003,
+			16792004,
+			16792005,
+			16792006,
+			16792007,
+			16792101,
+			16792102,
+			16792103,
+			16792104,
+			16792105,
+			16792301,
+			16792302,
+			16792303,
+			16792304,
+			16792305,
+			16792306,
+			16793001,
+			16793002,
+			16793003,
+			16793004,
+			16793005,
+			16793006,
+			16793007,
+			16793101,
+			16793102,
+			16793103,
+			16793104,
+			16793105,
+			16793301,
+			16793302,
+			16793303,
+			16793304,
+			16794001,
+			16794002,
+			16794003,
+			16794004,
+			16794005,
+			16794006,
+			16794007,
+			16794101,
+			16794102,
+			16794103,
+			16794104,
+			16794105,
+			16794301,
+			16794302,
+			16794303,
+			16794304
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				589,
+				2
+			},
+			{
+				1,
+				588,
+				300
+			}
+		},
+		scene = {
+			"BOSSRUSH_DAL_COLLAB"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24738] = {
+		name = "『约战联动』-飞船升级任务18",
+		guild_coin_award = 0,
+		award = 907902,
+		type = 6,
+		desc = "Defeat 150 enemies on DATE A LANE collab stages.",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24738,
+		target_num = 150,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16790001,
+			16790002,
+			16790003,
+			16790006,
+			16790007,
+			16790101,
+			16790102,
+			16790103,
+			16790104,
+			16790105,
+			16790301,
+			16790302,
+			16790401,
+			16790402,
+			16791001,
+			16791002,
+			16791003,
+			16791004,
+			16791005,
+			16791006,
+			16791007,
+			16791101,
+			16791102,
+			16791103,
+			16791104,
+			16791105,
+			16791301,
+			16791302,
+			16791303,
+			16791304,
+			16791305,
+			16791306,
+			16792001,
+			16792002,
+			16792003,
+			16792004,
+			16792005,
+			16792006,
+			16792007,
+			16792101,
+			16792102,
+			16792103,
+			16792104,
+			16792105,
+			16792301,
+			16792302,
+			16792303,
+			16792304,
+			16792305,
+			16792306,
+			16793001,
+			16793002,
+			16793003,
+			16793004,
+			16793005,
+			16793006,
+			16793007,
+			16793101,
+			16793102,
+			16793103,
+			16793104,
+			16793105,
+			16793301,
+			16793302,
+			16793303,
+			16793304,
+			16794001,
+			16794002,
+			16794003,
+			16794004,
+			16794005,
+			16794006,
+			16794007,
+			16794101,
+			16794102,
+			16794103,
+			16794104,
+			16794105,
+			16794301,
+			16794302,
+			16794303,
+			16794304
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				589,
+				2
+			},
+			{
+				1,
+				588,
+				300
+			}
+		},
+		scene = {
+			"BOSSRUSH_DAL_COLLAB"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24739] = {
+		name = "『约战联动』-飞船升级任务19",
+		guild_coin_award = 0,
+		award = 907903,
+		type = 6,
+		desc = "Defeat 200 enemies on DATE A LANE collab stages.",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24739,
+		target_num = 200,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16790001,
+			16790002,
+			16790003,
+			16790006,
+			16790007,
+			16790101,
+			16790102,
+			16790103,
+			16790104,
+			16790105,
+			16790301,
+			16790302,
+			16790401,
+			16790402,
+			16791001,
+			16791002,
+			16791003,
+			16791004,
+			16791005,
+			16791006,
+			16791007,
+			16791101,
+			16791102,
+			16791103,
+			16791104,
+			16791105,
+			16791301,
+			16791302,
+			16791303,
+			16791304,
+			16791305,
+			16791306,
+			16792001,
+			16792002,
+			16792003,
+			16792004,
+			16792005,
+			16792006,
+			16792007,
+			16792101,
+			16792102,
+			16792103,
+			16792104,
+			16792105,
+			16792301,
+			16792302,
+			16792303,
+			16792304,
+			16792305,
+			16792306,
+			16793001,
+			16793002,
+			16793003,
+			16793004,
+			16793005,
+			16793006,
+			16793007,
+			16793101,
+			16793102,
+			16793103,
+			16793104,
+			16793105,
+			16793301,
+			16793302,
+			16793303,
+			16793304,
+			16794001,
+			16794002,
+			16794003,
+			16794004,
+			16794005,
+			16794006,
+			16794007,
+			16794101,
+			16794102,
+			16794103,
+			16794104,
+			16794105,
+			16794301,
+			16794302,
+			16794303,
+			16794304
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				589,
+				2
+			},
+			{
+				1,
+				588,
+				300
+			}
+		},
+		scene = {
+			"BOSSRUSH_DAL_COLLAB"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24740] = {
+		name = "『约战联动』-飞船升级任务20",
+		guild_coin_award = 0,
+		award = 907904,
+		type = 6,
+		desc = "Defeat 300 enemies on DATE A LANE collab stages.",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24740,
+		target_num = 300,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16790001,
+			16790002,
+			16790003,
+			16790006,
+			16790007,
+			16790101,
+			16790102,
+			16790103,
+			16790104,
+			16790105,
+			16790301,
+			16790302,
+			16790401,
+			16790402,
+			16791001,
+			16791002,
+			16791003,
+			16791004,
+			16791005,
+			16791006,
+			16791007,
+			16791101,
+			16791102,
+			16791103,
+			16791104,
+			16791105,
+			16791301,
+			16791302,
+			16791303,
+			16791304,
+			16791305,
+			16791306,
+			16792001,
+			16792002,
+			16792003,
+			16792004,
+			16792005,
+			16792006,
+			16792007,
+			16792101,
+			16792102,
+			16792103,
+			16792104,
+			16792105,
+			16792301,
+			16792302,
+			16792303,
+			16792304,
+			16792305,
+			16792306,
+			16793001,
+			16793002,
+			16793003,
+			16793004,
+			16793005,
+			16793006,
+			16793007,
+			16793101,
+			16793102,
+			16793103,
+			16793104,
+			16793105,
+			16793301,
+			16793302,
+			16793303,
+			16793304,
+			16794001,
+			16794002,
+			16794003,
+			16794004,
+			16794005,
+			16794006,
+			16794007,
+			16794101,
+			16794102,
+			16794103,
+			16794104,
+			16794105,
+			16794301,
+			16794302,
+			16794303,
+			16794304
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				589,
+				2
+			},
+			{
+				1,
+				588,
+				300
+			}
+		},
+		scene = {
+			"BOSSRUSH_DAL_COLLAB"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24741] = {
+		name = "『约战联动』-日常活动本",
+		guild_coin_award = 0,
+		award = 907983,
+		type = 36,
+		desc = "Clear DATE A LANE collab stages 3 times.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24741,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1980002,
+			1980102,
+			1981003,
+			1981004,
+			1981005,
+			1981006,
+			1982003,
+			1982004,
+			1982005,
+			1982006,
+			1983004,
+			1984004
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65741,
+				800
+			}
+		},
+		scene = {
+			"BOSSRUSH_DAL_COLLAB"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24742] = {
+		name = "『海伦娜故事集』剧情模式通关",
+		guild_coin_award = 0,
+		award = 908167,
+		type = 6,
+		desc = "Read the whole story.",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24742,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7349
+		},
+		open_need = {},
+		award_display = {
+			{
+				3,
+				150920,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY",
+			{
+				id = 50261
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24781] = {
+		name = "『20251211』前哨战七日任务1",
+		guild_coin_award = 0,
+		award = 908181,
+		type = 26,
+		desc = "Sortie and obtain 10 victories with S-rating.",
+		count_inherit = 0,
+		sub_type = 24,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24781,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24782] = {
+		name = "『20251211』前哨战七日任务2",
+		guild_coin_award = 0,
+		award = 908182,
+		type = 26,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24782,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24783] = {
+		name = "『20251211』前哨战七日任务3",
+		guild_coin_award = 0,
+		award = 908183,
+		type = 26,
+		desc = "Conduct 2 exercises.",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24783,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24784] = {
+		name = "『20251211』前哨战七日任务4",
+		guild_coin_award = 0,
+		award = 908184,
+		type = 26,
+		desc = "Complete 2 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24784,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24785] = {
+		name = "『20251211』前哨战七日任务5",
+		guild_coin_award = 0,
+		award = 908185,
+		type = 26,
+		desc = "Retire 2 ships.",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24785,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24786] = {
+		name = "『20251211』前哨战七日任务6",
+		guild_coin_award = 0,
+		award = 908186,
+		type = 26,
+		desc = "Complete 3 Daily Challenges.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24786,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24787] = {
+		name = "『20251211』前哨战七日任务7",
+		guild_coin_award = 0,
+		award = 908187,
+		type = 26,
+		desc = "Enhance ship 5 times.",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24787,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54033,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24788] = {
+		name = "『20251211』前哨战七日任务8",
+		guild_coin_award = 0,
+		award = 908188,
+		type = 26,
+		desc = "Conduct tactical training 2 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24788,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24789] = {
+		name = "『20251211』前哨战七日任务9",
+		guild_coin_award = 0,
+		award = 908189,
+		type = 26,
+		desc = "Defeat 20 enemies.",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24789,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24790] = {
+		name = "『20251211』前哨战七日任务10",
+		guild_coin_award = 0,
+		award = 908190,
+		type = 26,
+		desc = "Restock snacks in your dorm 5 times.",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24790,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24791] = {
+		name = "『20251211』前哨战七日任务11",
+		guild_coin_award = 0,
+		award = 908191,
+		type = 26,
+		desc = "Build 2 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24791,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24792] = {
+		name = "『20251211』前哨战七日任务12",
+		guild_coin_award = 0,
+		award = 908192,
+		type = 26,
+		desc = "Open 1 Tech Box.",
+		count_inherit = 0,
+		sub_type = 50,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24792,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24793] = {
+		name = "『20251211』前哨战七日任务13",
+		guild_coin_award = 0,
+		award = 908193,
+		type = 26,
+		desc = "Conduct tactical training 2 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24793,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24794] = {
+		name = "『20251211』前哨战七日任务14",
+		guild_coin_award = 0,
+		award = 908194,
+		type = 26,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24794,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				3,
+				150940,
+				1
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24801] = {
+		name = "『列克星敦II活动』皮肤剧情签到活动1",
+		guild_coin_award = 0,
+		award = 908244,
+		type = 14,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24801,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65783,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24802] = {
+		name = "『列克星敦II活动』皮肤剧情签到活动2",
+		guild_coin_award = 0,
+		award = 908245,
+		type = 14,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24802,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65783,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24803] = {
+		name = "『列克星敦II活动』皮肤剧情签到活动3",
+		guild_coin_award = 0,
+		award = 908246,
+		type = 14,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24803,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65783,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24804] = {
+		name = "『列克星敦II活动』皮肤剧情签到活动4",
+		guild_coin_award = 0,
+		award = 908247,
+		type = 14,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24804,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65783,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24805] = {
+		name = "『列克星敦II活动』皮肤剧情签到活动5",
+		guild_coin_award = 0,
+		award = 908248,
+		type = 14,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24805,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65783,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24806] = {
+		name = "『列克星敦II活动』-日常建造",
+		guild_coin_award = 0,
+		award = 908249,
+		type = 36,
+		desc = "Build 3 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24806,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65781,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24807] = {
+		name = "『列克星敦II活动』-日常出击",
+		guild_coin_award = 0,
+		award = 908250,
+		type = 36,
+		desc = "Sortie and obtain 15 victories.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24807,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65781,
+				300
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24808] = {
+		name = "『列克星敦II活动』-日常困难本",
+		guild_coin_award = 0,
+		award = 908251,
+		type = 36,
+		desc = "Sortie and clear 1 non-event Hard Mode Stage.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24808,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65781,
+				150
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24809] = {
+		name = "『列克星敦II活动』通关A1/C1",
+		guild_coin_award = 0,
+		award = 908252,
+		type = 6,
+		desc = "Clear A1 or C1.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24810",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24809,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990001,
+			1990021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				65781,
+				200
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24810] = {
+		name = "『列克星敦II活动』通关A2/C2",
+		guild_coin_award = 0,
+		award = 908253,
+		type = 6,
+		desc = "Clear A2 or C2.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24811",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24810,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990002,
+			1990022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				65781,
+				400
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24811] = {
+		name = "『列克星敦II活动』通关A3/C3",
+		guild_coin_award = 0,
+		award = 908254,
+		type = 6,
+		desc = "Clear A3 or C3.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24812",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24811,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990003,
+			1990023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				2,
+				65781,
+				600
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24812] = {
+		name = "『列克星敦II活动』通关B1/D1",
+		guild_coin_award = 0,
+		award = 908255,
+		type = 6,
+		desc = "Clear B1 or D1.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24813",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24812,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990004,
+			1990024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				65781,
+				400
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50282
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24813] = {
+		name = "『列克星敦II活动』通关B2/D2",
+		guild_coin_award = 0,
+		award = 908256,
+		type = 6,
+		desc = "Clear B2 or D2.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24814",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24813,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990005,
+			1990025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				65781,
+				600
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50282
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24814] = {
+		name = "『列克星敦II活动』通关B3/D3",
+		guild_coin_award = 0,
+		award = 908257,
+		type = 6,
+		desc = "Clear B3 or D3.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24815",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24814,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990006,
+			1990026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				2,
+				65781,
+				800
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50282
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24815] = {
+		name = "『列克星敦II活动』通关SP",
+		guild_coin_award = 0,
+		award = 908258,
+		type = 6,
+		desc = "Clear the SP.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1990041",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24815,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				1,
+				597,
+				50
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1990025,
+				chapterId = 1990041
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24816] = {
+		name = "『列克星敦II活动』通关EX",
+		guild_coin_award = 0,
+		award = 908259,
+		type = 6,
+		desc = "Clear EX.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24816,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990051,
+			1990052
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1990026,
+				chapterId = 1990051
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24817] = {
+		name = "『列克星敦II活动』A1/C1的3星",
+		guild_coin_award = 0,
+		award = 908260,
+		type = 6,
+		desc = "Complete A1 or C1 with 3 stars.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24818",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24817,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990001,
+			1990021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24818] = {
+		name = "『列克星敦II活动』A2/C2的3星",
+		guild_coin_award = 0,
+		award = 908261,
+		type = 6,
+		desc = "Complete A2 or C2 with 3 stars.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24819",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24818,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990002,
+			1990022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24819] = {
+		name = "『列克星敦II活动』A3/C3的3星",
+		guild_coin_award = 0,
+		award = 908262,
+		type = 6,
+		desc = "Complete A3 or C3 with 3 stars.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24820",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24819,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990003,
+			1990023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24820] = {
+		name = "『列克星敦II活动』B1/D1的3星",
+		guild_coin_award = 0,
+		award = 908263,
+		type = 6,
+		desc = "Complete B1 or D1 with 3 stars.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24821",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24820,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990004,
+			1990024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50282
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24821] = {
+		name = "『列克星敦II活动』B2/D2的3星",
+		guild_coin_award = 0,
+		award = 908264,
+		type = 6,
+		desc = "Complete B2 or D2 with 3 stars.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24822",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24821,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990005,
+			1990025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50282
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24822] = {
+		name = "『列克星敦II活动』B3/D3的3星",
+		guild_coin_award = 0,
+		award = 908265,
+		type = 6,
+		desc = "Complete B3 or D3 with 3 stars.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24822,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990006,
+			1990026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50282
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24823] = {
+		name = "『列克星敦II活动』外观装备箱保底",
+		guild_coin_award = 0,
+		award = 908266,
+		type = 6,
+		desc = "Get 20 Gear Skin Boxes (Maid's Bar) from the Event Exchange or the Supply Shop.",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "30378",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24823,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30562,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24824] = {
+		name = "『列克星敦II活动』剧情模式",
+		guild_coin_award = 0,
+		award = 908267,
+		type = 6,
+		desc = "Read the whole story in A Note Through the Firmament.",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24824,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7431
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24825] = {
+		name = "『列克星敦II活动』通关任务10次",
+		guild_coin_award = 0,
+		award = 908268,
+		type = 6,
+		desc = "Clear 10 stages in A Note Through the Firmament.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24825,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990001,
+			1990002,
+			1990003,
+			1990004,
+			1990005,
+			1990006,
+			1990021,
+			1990022,
+			1990023,
+			1990024,
+			1990025,
+			1990026,
+			1990041
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65781,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24826] = {
+		name = "『列克星敦II活动』通关任务30次",
+		guild_coin_award = 0,
+		award = 908269,
+		type = 6,
+		desc = "Clear 30 stages in A Note Through the Firmament.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24826,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990001,
+			1990002,
+			1990003,
+			1990004,
+			1990005,
+			1990006,
+			1990021,
+			1990022,
+			1990023,
+			1990024,
+			1990025,
+			1990026,
+			1990041
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65781,
+				1500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24827] = {
+		name = "『列克星敦II活动』通关任务60次",
+		guild_coin_award = 0,
+		award = 908270,
+		type = 6,
+		desc = "Clear 60 stages in A Note Through the Firmament.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24827,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990001,
+			1990002,
+			1990003,
+			1990004,
+			1990005,
+			1990006,
+			1990021,
+			1990022,
+			1990023,
+			1990024,
+			1990025,
+			1990026,
+			1990041
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65781,
+				3000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24830] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "Clear any event stage 3 times.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24830,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990001,
+			1990002,
+			1990003,
+			1990004,
+			1990005,
+			1990006,
+			1990021,
+			1990022,
+			1990023,
+			1990024,
+			1990025,
+			1990026,
+			1990041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24831] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "Enhance gear 2 times.",
+		count_inherit = 0,
+		sub_type = 40,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24831,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24832] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "Complete 2 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24832,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24833] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "Conduct 2 exercises.",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24833,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24834] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "Retire 2 ships.",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24834,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24835] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "Build 1 ship.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24835,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24836] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "Conduct tactical training 2 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24836,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24837] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "Defeat 20 enemies.",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24837,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24838] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "Restock snacks in your dorm 5 times.",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24838,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24839] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "Spend a total of 300 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24839,
+		target_num = 300,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24840] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "Enhance ship 5 times.",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24840,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24841] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "Open 1 Tech Box.",
+		count_inherit = 0,
+		sub_type = 50,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24841,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24842] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "Complete 1 Research Project.",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24842,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24843] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "Interact with 1 ship in your dorm.",
+		count_inherit = 0,
+		sub_type = 2010,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24843,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24844] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "Interact with your secretary ship 1 time.",
+		count_inherit = 0,
+		sub_type = 2011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24844,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24845] = {
+		name = "『列克星敦II活动』进阶PT挑战任务-列克星敦II",
+		guild_coin_award = 0,
+		award = 908273,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "With Lexington II afloat in your fleet, defeat the Boss fleet of stage B3/D3.",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 1,
+		ryza_type = 0,
+		ryza_icon = "",
+		quick_finish = 0,
+		level = 1,
+		fix_task = 0,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24845,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1991213,
+			1993213
+		},
+		target_id_2 = {
+			107161,
+			107162,
+			107163,
+			107164
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				10
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24846] = {
+		name = "『列克星敦II活动』进阶PT挑战任务-科本斯",
+		guild_coin_award = 0,
+		award = 908273,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "With Cowpens afloat in your fleet, defeat the Boss fleet of stage B3/D3.",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 1,
+		ryza_type = 0,
+		ryza_icon = "",
+		quick_finish = 0,
+		level = 1,
+		fix_task = 0,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24846,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1991213,
+			1993213
+		},
+		target_id_2 = {
+			107251,
+			107252,
+			107253,
+			107254
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				10
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24847] = {
+		name = "『列克星敦II活动』进阶PT挑战任务-克拉伦斯·K·布朗森",
+		guild_coin_award = 0,
+		award = 908273,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "With Clarence K. Bronson afloat in your fleet, defeat the Boss fleet of stage B3/D3.",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 1,
+		ryza_type = 0,
+		ryza_icon = "",
+		quick_finish = 0,
+		level = 1,
+		fix_task = 0,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24847,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1991213,
+			1993213
+		},
+		target_id_2 = {
+			101551,
+			101552,
+			101553,
+			101554
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				10
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24848] = {
+		name = "『列克星敦II活动』进阶PT挑战任务-帕萨迪纳",
+		guild_coin_award = 0,
+		award = 908273,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "With Pasadena afloat in your fleet, defeat the Boss fleet of stage B3/D3.",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 1,
+		ryza_type = 0,
+		ryza_icon = "",
+		quick_finish = 0,
+		level = 1,
+		fix_task = 0,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24848,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1991213,
+			1993213
+		},
+		target_id_2 = {
+			102351,
+			102352,
+			102353,
+			102354
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				10
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24849] = {
+		name = "『列克星敦II活动』进阶PT挑战任务-克利夫兰·META",
+		guild_coin_award = 0,
+		award = 908273,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "With Cleveland META afloat in your fleet, defeat the Boss fleet of stage B3/D3.",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 1,
+		ryza_type = 0,
+		ryza_icon = "",
+		quick_finish = 0,
+		level = 1,
+		fix_task = 0,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24849,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1991213,
+			1993213
+		},
+		target_id_2 = {
+			9702091,
+			9702092,
+			9702093,
+			9702094
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				10
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24850] = {
+		name = "『列II』登录送皮肤体验券活动",
+		guild_coin_award = 0,
+		award = 906575,
+		type = 6,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24850,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				601,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24851] = {
+		name = "『列克星敦II活动』通关任意活动关卡5次",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "Clear 5 stages in A Note Through the Firmament.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24851,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990013,
+			1990113,
+			1990213,
+			1991013,
+			1991113,
+			1991213,
+			1992013,
+			1992113,
+			1992213,
+			1993013,
+			1993113,
+			1993213,
+			1994013
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24852] = {
+		name = "『列克星敦II活动』通关任意活动关卡15次",
+		guild_coin_award = 0,
+		award = 908273,
+		type = 6,
+		desc = "Clear 15 stages in A Note Through the Firmament.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24852,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990013,
+			1990113,
+			1990213,
+			1991013,
+			1991113,
+			1991213,
+			1992013,
+			1992113,
+			1992213,
+			1993013,
+			1993113,
+			1993213,
+			1994013
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				10
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24853] = {
+		name = "『列克星敦II活动』通关任意活动关卡30次",
+		guild_coin_award = 0,
+		award = 908274,
+		type = 6,
+		desc = "Clear 30 stages in A Note Through the Firmament.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24853,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990013,
+			1990113,
+			1990213,
+			1991013,
+			1991113,
+			1991213,
+			1992013,
+			1992113,
+			1992213,
+			1993013,
+			1993113,
+			1993213,
+			1994013
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				20
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24854] = {
+		name = "『列克星敦II活动』通关任意活动关卡45次",
+		guild_coin_award = 0,
+		award = 908275,
+		type = 6,
+		desc = "Clear 45 stages in A Note Through the Firmament.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24854,
+		target_num = 45,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990013,
+			1990113,
+			1990213,
+			1991013,
+			1991113,
+			1991213,
+			1992013,
+			1992113,
+			1992213,
+			1993013,
+			1993113,
+			1993213,
+			1994013
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				30
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24855] = {
+		name = "『列克星敦II活动』通关任意活动关卡60次",
+		guild_coin_award = 0,
+		award = 908276,
+		type = 6,
+		desc = "Clear 60 stages in A Note Through the Firmament.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24855,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990013,
+			1990113,
+			1990213,
+			1991013,
+			1991113,
+			1991213,
+			1992013,
+			1992113,
+			1992213,
+			1993013,
+			1993113,
+			1993213,
+			1994013
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				40
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24856] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动1",
+		guild_coin_award = 0,
+		award = 908287,
+		type = 26,
+		desc = "Sortie and obtain 10 victories with S-rating.",
+		count_inherit = 0,
+		sub_type = 24,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24856,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24857] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动2",
+		guild_coin_award = 0,
+		award = 908288,
+		type = 26,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24857,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24858] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动3",
+		guild_coin_award = 0,
+		award = 908289,
+		type = 26,
+		desc = "Complete 2 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24858,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24859] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动4",
+		guild_coin_award = 0,
+		award = 908290,
+		type = 26,
+		desc = "Conduct 2 exercises.",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24859,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24860] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动5",
+		guild_coin_award = 0,
+		award = 908291,
+		type = 26,
+		desc = "Complete 3 Daily Challenges.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24860,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24861] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动6",
+		guild_coin_award = 0,
+		award = 908292,
+		type = 26,
+		desc = "Retire 2 ships.",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24861,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24862] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动7",
+		guild_coin_award = 0,
+		award = 908293,
+		type = 26,
+		desc = "Conduct tactical training 2 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24862,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24863] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动8",
+		guild_coin_award = 0,
+		award = 908294,
+		type = 26,
+		desc = "Enhance ship 5 times.",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24863,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54033,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24864] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动9",
+		guild_coin_award = 0,
+		award = 908295,
+		type = 26,
+		desc = "Defeat 20 enemies.",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24864,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24865] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动10",
+		guild_coin_award = 0,
+		award = 908296,
+		type = 26,
+		desc = "Restock snacks in your dorm 5 times.",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24865,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24866] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动11",
+		guild_coin_award = 0,
+		award = 908297,
+		type = 26,
+		desc = "Open 1 Tech Box.",
+		count_inherit = 0,
+		sub_type = 50,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24866,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24867] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动12",
+		guild_coin_award = 0,
+		award = 908298,
+		type = 26,
+		desc = "Build 2 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24867,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24868] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动13",
+		guild_coin_award = 0,
+		award = 908299,
+		type = 26,
+		desc = "Conduct tactical training 2 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24868,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24869] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动14",
+		guild_coin_award = 0,
+		award = 908300,
+		type = 26,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24869,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				7,
+				101502,
+				1
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24870] = {
+		name = "『撒丁SP版本』外观装备箱保底",
+		guild_coin_award = 0,
+		award = 908632,
+		type = 6,
+		desc = "Exchange for 20 Gear Skin Boxes (Photo Vision) in the shop.",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "30379",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24870,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30563,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24871] = {
+		name = "『列克星敦II活动』皮肤剧情签到活动6",
+		guild_coin_award = 0,
+		award = 908244,
+		type = 14,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24871,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65783,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24872] = {
+		name = "『列克星敦II活动』皮肤剧情签到活动7",
+		guild_coin_award = 0,
+		award = 908245,
+		type = 14,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24872,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65783,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24873] = {
+		name = "『列克星敦II活动』皮肤剧情签到活动8",
+		guild_coin_award = 0,
+		award = 908246,
+		type = 14,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24873,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65783,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24874] = {
+		name = "『列克星敦II活动』皮肤剧情签到活动9",
+		guild_coin_award = 0,
+		award = 908247,
+		type = 14,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24874,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65783,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24875] = {
+		name = "『列克星敦II活动』皮肤剧情签到活动10",
+		guild_coin_award = 0,
+		award = 908248,
+		type = 14,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24875,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65783,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24876] = {
+		name = "『1225双旦第二弹』登录送皮肤体验券活动",
+		guild_coin_award = 0,
+		award = 906579,
+		type = 6,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24876,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				601,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24877] = {
+		name = "『列克星敦II活动』皮肤剧情签到活动11",
+		guild_coin_award = 0,
+		award = 908248,
+		type = 14,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24877,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65783,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24901] = {
+		name = "『关岛轻量化复刻』登录送皮肤体验券活动",
+		guild_coin_award = 0,
+		award = 908451,
+		type = 6,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24901,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				609,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24902] = {
+		name = "『关岛轻量化复刻』-日常建造",
+		guild_coin_award = 0,
+		award = 908452,
+		type = 36,
+		desc = "Build 3 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24902,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65796,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24903] = {
+		name = "『关岛轻量化复刻』-日常出击",
+		guild_coin_award = 0,
+		award = 908453,
+		type = 36,
+		desc = "Sortie and obtain 15 victories.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24903,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65796,
+				300
+			},
+			{
+				2,
+				65800,
+				1
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24904] = {
+		name = "『关岛轻量化复刻』-日常困难本",
+		guild_coin_award = 0,
+		award = 908454,
+		type = 36,
+		desc = "Sortie and clear 1 non-event Hard Mode Stage.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24904,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65796,
+				150
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24905] = {
+		name = "『关岛轻量化复刻』-日常活动关卡",
+		guild_coin_award = 0,
+		award = 908455,
+		type = 36,
+		desc = "Clear any event stage 1 time.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24905,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1780001,
+			1780002,
+			1780003,
+			1780004,
+			1780005,
+			1780006,
+			1780021,
+			1780022,
+			1780023,
+			1780024,
+			1780025,
+			1780026,
+			1780041,
+			1780051
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65796,
+				300
+			},
+			{
+				2,
+				54006,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24906] = {
+		name = "『关岛轻量化复刻』通关A1/C1",
+		guild_coin_award = 0,
+		award = 908456,
+		type = 6,
+		desc = "Clear A1 or C1 1 time.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24906,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1780001,
+			1780021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				65800,
+				1
+			},
+			{
+				2,
+				65796,
+				200
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50326
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24907] = {
+		name = "『关岛轻量化复刻』通关A2/C2",
+		guild_coin_award = 0,
+		award = 908457,
+		type = 6,
+		desc = "Clear A2 or C2 1 time.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24907,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1780002,
+			1780022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				65800,
+				1
+			},
+			{
+				2,
+				65796,
+				400
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50326
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24908] = {
+		name = "『关岛轻量化复刻』通关A3/C3",
+		guild_coin_award = 0,
+		award = 908458,
+		type = 6,
+		desc = "Clear A3 or C3 1 time.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24908,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1780003,
+			1780023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				2,
+				65800,
+				2
+			},
+			{
+				2,
+				65796,
+				600
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50326
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24909] = {
+		name = "『关岛轻量化复刻』通关B1/D1",
+		guild_coin_award = 0,
+		award = 908459,
+		type = 6,
+		desc = "Clear B1 or D1 1 time.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24909,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1780004,
+			1780024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				65800,
+				1
+			},
+			{
+				2,
+				65796,
+				400
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24910] = {
+		name = "『关岛轻量化复刻』通关B2/D2",
+		guild_coin_award = 0,
+		award = 908460,
+		type = 6,
+		desc = "Clear B2 or D2 1 time.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24910,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1780005,
+			1780025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				65800,
+				1
+			},
+			{
+				2,
+				65796,
+				600
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24911] = {
+		name = "『关岛轻量化复刻』通关B3/D3",
+		guild_coin_award = 0,
+		award = 908461,
+		type = 6,
+		desc = "Clear B3 or D3 1 time.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24911,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1780006,
+			1780026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				2,
+				65800,
+				2
+			},
+			{
+				2,
+				65796,
+				800
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24912] = {
+		name = "『关岛轻量化复刻』通关SP",
+		guild_coin_award = 0,
+		award = 908462,
+		type = 6,
+		desc = "Clear the SP.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1780041",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24912,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				608,
+				50
+			},
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				2,
+				65800,
+				3
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1780025,
+				chapterId = 1780041
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24913] = {
+		name = "『关岛轻量化复刻』通关D3",
+		guild_coin_award = 0,
+		award = 908463,
+		type = 6,
+		desc = "Clear D3 Stage<color=#92fc63> (can only be obtained once) </color>",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1780026",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24913,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				268,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1780012,
+				chapterId = 1780026
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24914] = {
+		name = "『关岛轻量化复刻』通关EX",
+		guild_coin_award = 0,
+		award = 908464,
+		type = 6,
+		desc = "Clear EX.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1780051",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24914,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1780026,
+				chapterId = 1780051
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24915] = {
+		name = "『关岛轻量化复刻』A1/C1的3星",
+		guild_coin_award = 0,
+		award = 908465,
+		type = 6,
+		desc = "Complete A1 or C1 with 3 stars.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24916",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24915,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1780001,
+			1780021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50326
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24916] = {
+		name = "『关岛轻量化复刻』A2/C2的3星",
+		guild_coin_award = 0,
+		award = 908466,
+		type = 6,
+		desc = "Complete A2 or C2 with 3 stars.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24917",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24916,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1780002,
+			1780022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50326
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24917] = {
+		name = "『关岛轻量化复刻』A3/C3的3星",
+		guild_coin_award = 0,
+		award = 908467,
+		type = 6,
+		desc = "Complete A3 or C3 with 3 stars.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24918",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24917,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1780003,
+			1780023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50326
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24918] = {
+		name = "『关岛轻量化复刻』B1/D1的3星",
+		guild_coin_award = 0,
+		award = 908468,
+		type = 6,
+		desc = "Complete B1 or D1 with 3 stars.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24919",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24918,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1780004,
+			1780024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24919] = {
+		name = "『关岛轻量化复刻』B2/D2的3星",
+		guild_coin_award = 0,
+		award = 908469,
+		type = 6,
+		desc = "Complete B2 or D2 with 3 stars.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24920",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24919,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1780005,
+			1780025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24920] = {
+		name = "『关岛轻量化复刻』B3/D3的3星",
+		guild_coin_award = 0,
+		award = 908470,
+		type = 6,
+		desc = "Complete B3 or D3 with 3 stars.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24920,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1780006,
+			1780026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24921] = {
+		name = "『关岛轻量化复刻』外观装备箱保底",
+		guild_coin_award = 0,
+		award = 908471,
+		type = 6,
+		desc = "Exchange for 20 Gear Skin Boxes (Night Club) in the event shop or the supply shop.",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "30351",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24921,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30534,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24922] = {
+		name = "『关岛轻量化复刻』前哨战七日任务1",
+		guild_coin_award = 0,
+		award = 908472,
+		type = 26,
+		desc = "Sortie and obtain 10 victories with S-rating.",
+		count_inherit = 0,
+		sub_type = 24,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24922,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24923] = {
+		name = "『关岛轻量化复刻』前哨战七日任务2",
+		guild_coin_award = 0,
+		award = 908473,
+		type = 26,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24923,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24924] = {
+		name = "『关岛轻量化复刻』前哨战七日任务3",
+		guild_coin_award = 0,
+		award = 908474,
+		type = 26,
+		desc = "Conduct 2 exercises.",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24924,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24925] = {
+		name = "『关岛轻量化复刻』前哨战七日任务4",
+		guild_coin_award = 0,
+		award = 908475,
+		type = 26,
+		desc = "Complete 2 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24925,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24926] = {
+		name = "『关岛轻量化复刻』前哨战七日任务5",
+		guild_coin_award = 0,
+		award = 908476,
+		type = 26,
+		desc = "Retire 2 ships.",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24926,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24927] = {
+		name = "『关岛轻量化复刻』前哨战七日任务6",
+		guild_coin_award = 0,
+		award = 908477,
+		type = 26,
+		desc = "Complete 3 Daily Challenges.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24927,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24928] = {
+		name = "『关岛轻量化复刻』前哨战七日任务7",
+		guild_coin_award = 0,
+		award = 908478,
+		type = 26,
+		desc = "Enhance ship 5 times.",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24928,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54033,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24929] = {
+		name = "『关岛轻量化复刻』前哨战七日任务8",
+		guild_coin_award = 0,
+		award = 908479,
+		type = 26,
+		desc = "Conduct tactical training 2 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24929,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24930] = {
+		name = "『关岛轻量化复刻』前哨战七日任务9",
+		guild_coin_award = 0,
+		award = 908480,
+		type = 26,
+		desc = "Defeat 20 enemies.",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24930,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24931] = {
+		name = "『关岛轻量化复刻』前哨战七日任务10",
+		guild_coin_award = 0,
+		award = 908481,
+		type = 26,
+		desc = "Restock snacks in your dorm 5 times.",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24931,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24932] = {
+		name = "『关岛轻量化复刻』前哨战七日任务11",
+		guild_coin_award = 0,
+		award = 908482,
+		type = 26,
+		desc = "Build 2 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24932,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24933] = {
+		name = "『关岛轻量化复刻』前哨战七日任务12",
+		guild_coin_award = 0,
+		award = 908483,
+		type = 26,
+		desc = "Open 1 Tech Box.",
+		count_inherit = 0,
+		sub_type = 50,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24933,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24934] = {
+		name = "『关岛轻量化复刻』前哨战七日任务13",
+		guild_coin_award = 0,
+		award = 908484,
+		type = 26,
+		desc = "Conduct tactical training 2 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24934,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24935] = {
+		name = "『关岛轻量化复刻』前哨战七日任务14",
+		guild_coin_award = 0,
+		award = 908485,
+		type = 26,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24935,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				3,
+				150200,
+				1
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24941] = {
+		name = "『列克星敦II故事集』剧情模式通关",
+		guild_coin_award = 0,
+		award = 908538,
+		type = 6,
+		desc = "Read the whole story.",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24941,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7450
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			}
+		},
+		scene = {
+			"ACTIVITY",
+			{
+				id = 50341
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24942] = {
+		name = "『关岛轻量化复刻』登录送皮肤体验券活动",
+		guild_coin_award = 0,
+		award = 906583,
+		type = 6,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24942,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				614,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24943] = {
+		name = "『关岛轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 906584,
+		type = 6,
+		desc = "Clear any event stage 3 times.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24943,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1780001,
+			1780002,
+			1780003,
+			1780004,
+			1780005,
+			1780006,
+			1780021,
+			1780022,
+			1780023,
+			1780024,
+			1780025,
+			1780026,
+			1780041,
+			1780051
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				608,
+				15
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24944] = {
+		name = "『关岛轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 906584,
+		type = 6,
+		desc = "Enhance gear 2 times.",
+		count_inherit = 0,
+		sub_type = 40,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24944,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				608,
+				15
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24945] = {
+		name = "『关岛轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 906584,
+		type = 6,
+		desc = "Complete 2 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24945,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				608,
+				15
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24946] = {
+		name = "『关岛轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 906584,
+		type = 6,
+		desc = "Conduct 2 exercises.",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24946,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				608,
+				15
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24947] = {
+		name = "『关岛轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 906584,
+		type = 6,
+		desc = "Retire 2 ships.",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24947,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				608,
+				15
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24948] = {
+		name = "『关岛轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 906584,
+		type = 6,
+		desc = "Build 1 ship.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24948,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				608,
+				15
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24949] = {
+		name = "『关岛轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 906584,
+		type = 6,
+		desc = "Conduct tactical training 2 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24949,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				608,
+				15
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24950] = {
+		name = "『关岛轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 906584,
+		type = 6,
+		desc = "Defeat 20 enemies.",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24950,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				608,
+				15
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24951] = {
+		name = "『关岛轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 906584,
+		type = 6,
+		desc = "Restock snacks in your dorm 5 times.",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24951,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				608,
+				15
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24952] = {
+		name = "『关岛轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 906584,
+		type = 6,
+		desc = "Spend a total of 300 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24952,
+		target_num = 300,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				608,
+				15
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24953] = {
+		name = "『关岛轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 906584,
+		type = 6,
+		desc = "Enhance ship 5 times.",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24953,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				608,
+				15
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24954] = {
+		name = "『关岛轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 906584,
+		type = 6,
+		desc = "Open 1 Tech Box.",
+		count_inherit = 0,
+		sub_type = 50,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24954,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				608,
+				15
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24955] = {
+		name = "『关岛轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 906584,
+		type = 6,
+		desc = "Complete 1 Research Project.",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24955,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				608,
+				15
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24956] = {
+		name = "『关岛轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 906584,
+		type = 6,
+		desc = "Interact with 1 ship in your dorm.",
+		count_inherit = 0,
+		sub_type = 2010,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24956,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				608,
+				15
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24957] = {
+		name = "『关岛轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 906584,
+		type = 6,
+		desc = "Interact with your secretary ship 1 time.",
+		count_inherit = 0,
+		sub_type = 2011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24957,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				608,
+				15
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24958] = {
+		name = "『关岛轻量化复刻』进阶PT挑战任务-关岛",
+		guild_coin_award = 0,
+		award = 906585,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "Defeat the Boss Fleet of B3/D3 with Guam still afloat in your fleet.",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 1,
+		ryza_type = 0,
+		ryza_icon = "",
+		quick_finish = 0,
+		level = 1,
+		fix_task = 0,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24958,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1781213,
+			1783213
+		},
+		target_id_2 = {
+			118021,
+			118022,
+			118023,
+			118024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				608,
+				10
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24959] = {
+		name = "『关岛轻量化复刻』进阶PT挑战任务-星座",
+		guild_coin_award = 0,
+		award = 906585,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "Defeat the Boss Fleet of B3/D3 with Constellation still afloat in your fleet.",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 1,
+		ryza_type = 0,
+		ryza_icon = "",
+		quick_finish = 0,
+		level = 1,
+		fix_task = 0,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24959,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1781213,
+			1783213
+		},
+		target_id_2 = {
+			104011,
+			104012,
+			104013,
+			104014
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				608,
+				10
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24960] = {
+		name = "『关岛轻量化复刻』进阶PT挑战任务-松鲷",
+		guild_coin_award = 0,
+		award = 906585,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "Defeat the Boss Fleet of B3/D3 with Flasher still afloat in your fleet.",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 1,
+		ryza_type = 0,
+		ryza_icon = "",
+		quick_finish = 0,
+		level = 1,
+		fix_task = 0,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24960,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1781213,
+			1783213
+		},
+		target_id_2 = {
+			108081,
+			108082,
+			108083,
+			108084
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				608,
+				10
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24961] = {
+		name = "『关岛轻量化复刻』进阶PT挑战任务-圣哈辛托",
+		guild_coin_award = 0,
+		award = 906585,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "Defeat the Boss Fleet of B3/D3 with San Jacinto still afloat in your fleet.",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 1,
+		ryza_type = 0,
+		ryza_icon = "",
+		quick_finish = 0,
+		level = 1,
+		fix_task = 0,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24961,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1781213,
+			1783213
+		},
+		target_id_2 = {
+			107301,
+			107302,
+			107303,
+			107304
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				608,
+				10
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24962] = {
+		name = "『关岛轻量化复刻』进阶PT挑战任务-路易斯维尔",
+		guild_coin_award = 0,
+		award = 906585,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "Defeat the Boss Fleet of B3/D3 with Louisville still afloat in your fleet.",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 1,
+		ryza_type = 0,
+		ryza_icon = "",
+		quick_finish = 0,
+		level = 1,
+		fix_task = 0,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24962,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1781213,
+			1783213
+		},
+		target_id_2 = {
+			103271,
+			103272,
+			103273,
+			103274
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				608,
+				10
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24963] = {
+		name = "『撒丁SP版本』剧情送装备",
+		guild_coin_award = 0,
+		award = 908605,
+		type = 6,
+		desc = "Read the whole story.",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24963,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7472,
+			7473,
+			7474,
+			7475,
+			7476,
+			7477,
+			7478,
+			7479
+		},
+		open_need = {},
+		award_display = {
+			{
+				9,
+				3068,
+				1
+			}
+		},
+		scene = {
+			"BOSSRUSH_MAIN",
+			{
+				displayMode = 2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24964] = {
+		name = "『撒丁SP版本』通关任意关卡1次给剧情解锁道具",
+		guild_coin_award = 0,
+		award = 908621,
+		type = 26,
+		desc = "Clear any stage 1 time in the Light & Shadow Fashion Shoot! event.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24964,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1999101,
+			1999202,
+			1999303,
+			1999404,
+			1999505
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65812,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24965] = {
+		name = "『撒丁SP版本』通关任意关卡1次给剧情解锁道具",
+		guild_coin_award = 0,
+		award = 908621,
+		type = 26,
+		desc = "Clear any stage 2 times in the Light & Shadow Fashion Shoot! event.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24965,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1999101,
+			1999202,
+			1999303,
+			1999404,
+			1999505
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65812,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24966] = {
+		name = "『撒丁SP版本』通关任意关卡1次给剧情解锁道具",
+		guild_coin_award = 0,
+		award = 908621,
+		type = 26,
+		desc = "Clear any stage 3 times in the Light & Shadow Fashion Shoot! event.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24966,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1999101,
+			1999202,
+			1999303,
+			1999404,
+			1999505
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65812,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24967] = {
+		name = "『撒丁SP版本』通关任意关卡1次给剧情解锁道具",
+		guild_coin_award = 0,
+		award = 908621,
+		type = 26,
+		desc = "Clear any stage 4 times in the Light & Shadow Fashion Shoot! event.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24967,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1999101,
+			1999202,
+			1999303,
+			1999404,
+			1999505
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65812,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24968] = {
+		name = "『撒丁SP版本』通关任意关卡1次给剧情解锁道具",
+		guild_coin_award = 0,
+		award = 908621,
+		type = 26,
+		desc = "Clear any stage 5 times in the Light & Shadow Fashion Shoot! event.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24968,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1999101,
+			1999202,
+			1999303,
+			1999404,
+			1999505
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65812,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24969] = {
+		name = "『撒丁SP版本』通关任意关卡1次给剧情解锁道具",
+		guild_coin_award = 0,
+		award = 908621,
+		type = 26,
+		desc = "Clear any stage 6 times in the Light & Shadow Fashion Shoot! event.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24969,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1999101,
+			1999202,
+			1999303,
+			1999404,
+			1999505
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65812,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24970] = {
+		name = "『撒丁SP版本』通关任意关卡1次给剧情解锁道具",
+		guild_coin_award = 0,
+		award = 908621,
+		type = 26,
+		desc = "Clear any stage 7 times in the Light & Shadow Fashion Shoot! event.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24970,
+		target_num = 7,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1999101,
+			1999202,
+			1999303,
+			1999404,
+			1999505
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65812,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24971] = {
+		name = "『撒丁SP版本』通关任意关卡1次给剧情解锁道具",
+		guild_coin_award = 0,
+		award = 908621,
+		type = 26,
+		desc = "Clear any stage 8 times in the Light & Shadow Fashion Shoot! event.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24971,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1999101,
+			1999202,
+			1999303,
+			1999404,
+			1999505
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65812,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24972] = {
+		name = "『0122萨丁SP』登录送皮肤体验券活动",
+		guild_coin_award = 0,
+		award = 906589,
+		type = 6,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24972,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				620,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24973] = {
+		name = "『2026撒丁SP』多队出击挑战1",
+		guild_coin_award = 0,
+		award = 908626,
+		type = 6,
+		desc = "Clear Window of the Heart Hard Mode stage with multiple fleets that don't include a DD or DDG.",
+		count_inherit = 0,
+		sub_type = 107,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24973,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			{
+				1,
+				20,
+				21
+			},
+			5003
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17023,
+				20
+			},
+			{
+				2,
+				42076,
+				1
+			},
+			{
+				2,
+				15008,
+				200
+			}
+		},
+		scene = {
+			"BOSSRUSH_MAIN"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25155] = {
+		name = "『异世界轻量化复刻』登录送皮肤体验券活动",
+		guild_coin_award = 0,
+		award = 906593,
+		type = 6,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25155,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				624,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25156] = {
+		name = "『异世界轻量化复刻』通关SP1",
+		guild_coin_award = 0,
+		award = 908788,
+		type = 6,
+		desc = "Finish 1 battle in the Western Fortress.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 1,
+		fix_task = 0,
+		target_id = "1799001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25156,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65816,
+				600
+			},
+			{
+				8,
+				65815,
+				2
+			}
+		},
+		scene = {
+			"OTHERWORLD_MAP",
+			{
+				mode = 2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25157] = {
+		name = "『异世界轻量化复刻』通关SP2",
+		guild_coin_award = 0,
+		award = 908789,
+		type = 6,
+		desc = "Finish 1 battle in the Central Fortress.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 1,
+		fix_task = 0,
+		target_id = "1799002",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25157,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65816,
+				900
+			},
+			{
+				8,
+				65815,
+				2
+			}
+		},
+		scene = {
+			"OTHERWORLD_MAP",
+			{
+				mode = 2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25158] = {
+		name = "『异世界轻量化复刻』通关SP3",
+		guild_coin_award = 0,
+		award = 908790,
+		type = 6,
+		desc = "Finish 1 battle in the Eastern Fortress.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 1,
+		fix_task = 0,
+		target_id = "1799003",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25158,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65816,
+				1200
+			},
+			{
+				8,
+				65815,
+				2
+			}
+		},
+		scene = {
+			"OTHERWORLD_MAP",
+			{
+				mode = 2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25159] = {
+		name = "『异世界轻量化复刻』通关SP",
+		guild_coin_award = 0,
+		award = 908791,
+		type = 6,
+		desc = "Finish 1 battle in the Demon King's Castle.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 1,
+		fix_task = 0,
+		target_id = "1799004",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25159,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65816,
+				1800
+			},
+			{
+				8,
+				65815,
+				2
+			}
+		},
+		scene = {
+			"OTHERWORLD_MAP",
+			{
+				mode = 2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25160] = {
+		name = "『异世界轻量化复刻』通关SP5",
+		guild_coin_award = 0,
+		award = 908792,
+		type = 6,
+		desc = "Finish 1 battle in the Dragon's Dwelling.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 1,
+		fix_task = 0,
+		target_id = "1799005",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25160,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65816,
+				7500
+			},
+			{
+				8,
+				65815,
+				2
+			}
+		},
+		scene = {
+			"OTHERWORLD_MAP",
+			{
+				mode = 2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25161] = {
+		name = "『异世界轻量化复刻』累计通关20次",
+		guild_coin_award = 0,
+		award = 908793,
+		type = 6,
+		desc = "Win 20 battles on the Fantasy Battlefield.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 1,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25161,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1799001,
+			1799002,
+			1799003,
+			1799004,
+			1799005
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				600
+			}
+		},
+		scene = {
+			"OTHERWORLD_MAP",
+			{
+				mode = 2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25162] = {
+		name = "『异世界轻量化复刻』累计通关50次",
+		guild_coin_award = 0,
+		award = 908794,
+		type = 6,
+		desc = "Win 50 battles on the Fantasy Battlefield.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 1,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25162,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1799001,
+			1799002,
+			1799003,
+			1799004,
+			1799005
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				600
+			}
+		},
+		scene = {
+			"OTHERWORLD_MAP",
+			{
+				mode = 2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25163] = {
+		name = "『异世界轻量化复刻』累计通关80次",
+		guild_coin_award = 0,
+		award = 908795,
+		type = 6,
+		desc = "Win 80 battles on the Fantasy Battlefield.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 1,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25163,
+		target_num = 80,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1799001,
+			1799002,
+			1799003,
+			1799004,
+			1799005
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				600
+			}
+		},
+		scene = {
+			"OTHERWORLD_MAP",
+			{
+				mode = 2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25164] = {
+		name = "『异世界轻量化复刻』完成9次每日随机委托",
+		guild_coin_award = 0,
+		award = 908796,
+		type = 6,
+		desc = "Finish 9 daily requests.",
+		count_inherit = 0,
+		sub_type = 418,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 1,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25164,
+		target_num = 9,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2001,
+			2002,
+			2003,
+			2004,
+			2005,
+			2006,
+			2007,
+			2008,
+			2009,
+			2010,
+			2011,
+			2012,
+			2013,
+			2014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				600
+			}
+		},
+		scene = {
+			"OTHERWORLD_MAP",
+			{
+				mode = 2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25165] = {
+		name = "『异世界轻量化复刻』完成15次每日随机委托",
+		guild_coin_award = 0,
+		award = 908797,
+		type = 6,
+		desc = "Finish 15 daily requests.",
+		count_inherit = 0,
+		sub_type = 418,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 1,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25165,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2001,
+			2002,
+			2003,
+			2004,
+			2005,
+			2006,
+			2007,
+			2008,
+			2009,
+			2010,
+			2011,
+			2012,
+			2013,
+			2014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				600
+			}
+		},
+		scene = {
+			"OTHERWORLD_MAP",
+			{
+				mode = 2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25166] = {
+		name = "『异世界轻量化复刻』完成21次每日随机委托",
+		guild_coin_award = 0,
+		award = 908798,
+		type = 6,
+		desc = "Finish 21 daily requests.",
+		count_inherit = 0,
+		sub_type = 418,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 1,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25166,
+		target_num = 21,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2001,
+			2002,
+			2003,
+			2004,
+			2005,
+			2006,
+			2007,
+			2008,
+			2009,
+			2010,
+			2011,
+			2012,
+			2013,
+			2014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				600
+			}
+		},
+		scene = {
+			"OTHERWORLD_MAP",
+			{
+				mode = 2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25167] = {
+		name = "『异世界轻量化复刻』通关奖励",
+		guild_coin_award = 0,
+		award = 908799,
+		type = 6,
+		desc = "Read the whole story.",
+		count_inherit = 0,
+		sub_type = 418,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 1,
+		fix_task = 0,
+		target_id = "1025",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25167,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				273,
+				1
+			},
+			{
+				2,
+				65816,
+				3000
+			},
+			{
+				3,
+				150280,
+				1
+			}
+		},
+		scene = {
+			"OTHERWORLD_MAP",
+			{
+				mode = 1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25168] = {
+		name = "『异世界轻量化复刻』日常委托1",
+		guild_coin_award = 0,
+		award = 908800,
+		type = 36,
+		desc = "Complete the \"Repair the Wall\" daily request.",
+		count_inherit = 0,
+		sub_type = 418,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 3,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25168,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				200
+			},
+			{
+				2,
+				65817,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25169] = {
+		name = "『异世界轻量化复刻』日常委托2",
+		guild_coin_award = 0,
+		award = 908801,
+		type = 36,
+		desc = "Complete the \"Search the Ruins\" daily request.",
+		count_inherit = 0,
+		sub_type = 418,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 3,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2002",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25169,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				200
+			},
+			{
+				2,
+				65817,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25170] = {
+		name = "『异世界轻量化复刻』日常委托3",
+		guild_coin_award = 0,
+		award = 908802,
+		type = 36,
+		desc = "Complete the \"Stand Guard\" daily request.",
+		count_inherit = 0,
+		sub_type = 418,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 3,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2003",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25170,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				200
+			},
+			{
+				2,
+				65817,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25171] = {
+		name = "『异世界轻量化复刻』日常委托4",
+		guild_coin_award = 0,
+		award = 908803,
+		type = 36,
+		desc = "Complete the \"Infiltrate the Supply Base\" daily request.",
+		count_inherit = 0,
+		sub_type = 418,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 3,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2004",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25171,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				200
+			},
+			{
+				2,
+				65817,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25172] = {
+		name = "『异世界轻量化复刻』日常委托5",
+		guild_coin_award = 0,
+		award = 908804,
+		type = 36,
+		desc = "Complete the \"Survey Magma Mountain\" daily request.",
+		count_inherit = 0,
+		sub_type = 418,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 3,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2005",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25172,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				200
+			},
+			{
+				2,
+				65817,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25173] = {
+		name = "『异世界轻量化复刻』日常委托6",
+		guild_coin_award = 0,
+		award = 908805,
+		type = 36,
+		desc = "Complete the \"Mayor of Thermalq's Request\" daily request.",
+		count_inherit = 0,
+		sub_type = 418,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 3,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2006",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25173,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				200
+			},
+			{
+				2,
+				65817,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25174] = {
+		name = "『异世界轻量化复刻』日常委托7",
+		guild_coin_award = 0,
+		award = 908806,
+		type = 36,
+		desc = "Complete the \"Mayor of Ursp's Request\" daily request.",
+		count_inherit = 0,
+		sub_type = 418,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 3,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2007",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25174,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				200
+			},
+			{
+				2,
+				65817,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25175] = {
+		name = "『异世界轻量化复刻』日常委托8",
+		guild_coin_award = 0,
+		award = 908807,
+		type = 36,
+		desc = "Complete the \"Mayor of Friede's Request\" daily request.",
+		count_inherit = 0,
+		sub_type = 418,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 3,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2008",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25175,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				200
+			},
+			{
+				2,
+				65817,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25176] = {
+		name = "『异世界轻量化复刻』日常委托9",
+		guild_coin_award = 0,
+		award = 908808,
+		type = 36,
+		desc = "Complete the \"Mapping the Withered Woods\" daily request.",
+		count_inherit = 0,
+		sub_type = 418,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 3,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2009",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25176,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				200
+			},
+			{
+				2,
+				65817,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25177] = {
+		name = "『异世界轻量化复刻』日常委托10",
+		guild_coin_award = 0,
+		award = 908809,
+		type = 36,
+		desc = "Complete the \"Fishing in the Lava Lake\" daily request.",
+		count_inherit = 0,
+		sub_type = 418,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 3,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2010",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25177,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				200
+			},
+			{
+				2,
+				65817,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25178] = {
+		name = "『异世界轻量化复刻』日常委托11",
+		guild_coin_award = 0,
+		award = 908810,
+		type = 36,
+		desc = "Complete the \"Gather Stone\" daily request.",
+		count_inherit = 0,
+		sub_type = 418,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 3,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2011",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25178,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				200
+			},
+			{
+				2,
+				65817,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25179] = {
+		name = "『异世界轻量化复刻』日常委托12",
+		guild_coin_award = 0,
+		award = 908811,
+		type = 36,
+		desc = "Complete the \"Infiltrate the Armory\" daily request.",
+		count_inherit = 0,
+		sub_type = 418,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 3,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2012",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25179,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				200
+			},
+			{
+				2,
+				65817,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25180] = {
+		name = "『异世界轻量化复刻』日常委托13",
+		guild_coin_award = 0,
+		award = 908812,
+		type = 36,
+		desc = "Complete the \"Hunting in the Endless Woods\" daily request.",
+		count_inherit = 0,
+		sub_type = 418,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 3,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2013",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25180,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				200
+			},
+			{
+				2,
+				65817,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25181] = {
+		name = "『异世界轻量化复刻』日常委托14",
+		guild_coin_award = 0,
+		award = 908813,
+		type = 36,
+		desc = "Complete the \"Just Fishing\" daily request.",
+		count_inherit = 0,
+		sub_type = 418,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 3,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2014",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25181,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				200
+			},
+			{
+				2,
+				65817,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25182] = {
+		name = "『异世界轻量化复刻』冒险终端累计PT计数",
+		guild_coin_award = 0,
+		award = 908814,
+		type = 6,
+		desc = "Royal Coins Collected",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "50382",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "625",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25182,
+		target_num = 999999,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				100
+			},
+			{
+				2,
+				65817,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25183] = {
+		name = "『异世界轻量化复刻』冒险终端魔王城计数",
+		guild_coin_award = 0,
+		award = 908815,
+		type = 6,
+		desc = "Demon Kings Defeated",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1799004",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25183,
+		target_num = 9999,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				100
+			},
+			{
+				2,
+				65817,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25184] = {
+		name = "『异世界轻量化复刻』冒险终端巨炎龙计数",
+		guild_coin_award = 0,
+		award = 908816,
+		type = 6,
+		desc = "Great Fire Dragons Defeated",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1799005",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25184,
+		target_num = 9999,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				100
+			},
+			{
+				2,
+				65817,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25185] = {
+		name = "『异世界轻量化复刻』冒险终端任务完成计数",
+		guild_coin_award = 0,
+		award = 908817,
+		type = 6,
+		desc = "Daily Requests Completed",
+		count_inherit = 0,
+		sub_type = 418,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25185,
+		target_num = 9999,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2001,
+			2002,
+			2003,
+			2004,
+			2005,
+			2006,
+			2007,
+			2008,
+			2009,
+			2010,
+			2011,
+			2012,
+			2013,
+			2014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				100
+			},
+			{
+				2,
+				65817,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25186] = {
+		name = "『异世界轻量化复刻』冒险终端杀敌计数",
+		guild_coin_award = 0,
+		award = 908818,
+		type = 6,
+		desc = "Monsters Defeated",
+		count_inherit = 0,
+		sub_type = 14,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25186,
+		target_num = 9999999,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1799001,
+			1799002,
+			1799003,
+			1799004,
+			1799005
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				100
+			},
+			{
+				2,
+				65817,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25187] = {
+		name = "『异世界轻量化复刻』冒险终端守护神计数",
+		guild_coin_award = 0,
+		award = 908819,
+		type = 6,
+		desc = "Blessings Unlocked",
+		count_inherit = 0,
+		sub_type = 419,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25187,
+		target_num = 99,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				100
+			},
+			{
+				2,
+				65817,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25188] = {
+		name = "『异世界轻量化复刻』日常通关",
+		guild_coin_award = 0,
+		award = 908877,
+		type = 36,
+		desc = "Win 15 battles on the Fantasy Battlefield.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 3,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25188,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1799001,
+			1799002,
+			1799003,
+			1799004,
+			1799005
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				900
+			},
+			{
+				2,
+				65817,
+				100
+			},
+			{
+				8,
+				65815,
+				1
+			}
+		},
+		scene = {
+			"OTHERWORLD_MAP",
+			{
+				mode = 2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25189] = {
+		name = "『异世界轻量化复刻』外观装备箱保底",
+		guild_coin_award = 0,
+		award = 908846,
+		type = 6,
+		desc = "Open 20 Gear Skin Boxes (RPG Adventure).",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "30354",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25189,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30538,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25190] = {
+		name = "『异世界轻量化复刻』日常无限完成任务",
+		guild_coin_award = 0,
+		award = 908820,
+		type = 16,
+		desc = "Win 5 battles on the Fantasy Battlefield.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 3,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25190,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1799001,
+			1799002,
+			1799003,
+			1799004,
+			1799005
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65816,
+				200
+			}
+		},
+		scene = {
+			"OTHERWORLD_MAP",
+			{
+				mode = 2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25191] = {
+		name = "『异世界轻量化复刻』新增任务",
+		guild_coin_award = 0,
+		award = 908878,
+		type = 36,
+		desc = "Win 1 battle on the Fantasy Battlefield.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 3,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25191,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1799001,
+			1799002,
+			1799003,
+			1799004,
+			1799005
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65817,
+				500
+			}
+		},
+		scene = {
+			"OTHERWORLD_MAP",
+			{
+				mode = 2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24974] = {
+		name = "『2026撒丁SP』多队出击挑战2",
+		guild_coin_award = 0,
+		award = 908627,
+		type = 6,
+		desc = "Clear Window of the Heart Hard Mode stage with multiple fleets that don't include a CL.",
+		count_inherit = 0,
+		sub_type = 107,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24974,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			{
+				2
+			},
+			5003
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17033,
+				20
+			},
+			{
+				2,
+				42076,
+				1
+			},
+			{
+				2,
+				15008,
+				200
+			}
+		},
+		scene = {
+			"BOSSRUSH_MAIN"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24975] = {
+		name = "『2026撒丁SP』多队出击挑战3",
+		guild_coin_award = 0,
+		award = 908628,
+		type = 6,
+		desc = "Clear Window of the Heart Hard Mode stage with multiple fleets that don't include a CA or CB.",
+		count_inherit = 0,
+		sub_type = 107,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24975,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			{
+				3,
+				18
+			},
+			5003
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				20
+			},
+			{
+				2,
+				42076,
+				1
+			},
+			{
+				2,
+				15008,
+				200
+			}
+		},
+		scene = {
+			"BOSSRUSH_MAIN"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24976] = {
+		name = "『2026撒丁SP』多队出击挑战4",
+		guild_coin_award = 0,
+		award = 908629,
+		type = 6,
+		desc = "Clear Window of the Heart Hard Mode stage with multiple fleets that don't include a CV or CVL.",
+		count_inherit = 0,
+		sub_type = 107,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24976,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			{
+				6,
+				7
+			},
+			5003
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17043,
+				20
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15012,
+				20
+			}
+		},
+		scene = {
+			"BOSSRUSH_MAIN"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24977] = {
+		name = "『2026撒丁SP』多队出击挑战5",
+		guild_coin_award = 0,
+		award = 908630,
+		type = 6,
+		desc = "Clear Window of the Heart Hard Mode stage with multiple fleets that don't include a BB, BC, or BM.",
+		count_inherit = 0,
+		sub_type = 107,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24977,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			{
+				4,
+				5,
+				13
+			},
+			5003
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17013,
+				20
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15012,
+				20
+			}
+		},
+		scene = {
+			"BOSSRUSH_MAIN"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24978] = {
+		name = "『2026撒丁SP』EX挑战",
+		guild_coin_award = 0,
+		award = 908631,
+		type = 6,
+		desc = "Win a battle on EX difficulty.",
+		count_inherit = 0,
+		sub_type = 108,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24978,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"BOSSRUSH_MAIN"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24979] = {
+		name = "『2026撒丁SP』外观装备箱保底",
+		guild_coin_award = 0,
+		award = 908632,
+		type = 6,
+		desc = "Exchange for 20 Gear Skin Boxes (Photo Vision) in the shop.",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "30379",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24979,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30563,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24981] = {
+		name = "『2026撒丁SP』-日常建造",
+		guild_coin_award = 0,
+		award = 908623,
+		type = 36,
+		desc = "(Daily) Build 3 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24981,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				616,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24982] = {
+		name = "『2026撒丁SP』-日常出击",
+		guild_coin_award = 0,
+		award = 908624,
+		type = 36,
+		desc = "(Daily) Sortie and obtain 15 victories.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24982,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				616,
+				300
+			}
+		},
+		scene = {
+			"BOSSRUSH_MAIN"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24983] = {
+		name = "『2026撒丁SP』-日常困难本",
+		guild_coin_award = 0,
+		award = 908625,
+		type = 36,
+		desc = "(Daily) Sortie and clear 1 non-event hard mode stage.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "10101",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24983,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				616,
+				150
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25050] = {
+		name = "Daily",
+		guild_coin_award = 0,
+		award = 908952,
+		type = 36,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25050,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				622,
+				150
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25051] = {
+		name = "Daily",
+		guild_coin_award = 0,
+		award = 908953,
+		type = 36,
+		desc = "Clear any main story stage on\nHard Mode.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25051,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				622,
+				150
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25052] = {
+		name = "Sortie",
+		guild_coin_award = 0,
+		award = 908954,
+		type = 6,
+		desc = "[1/7]Sortie and obtain 10 victories.",
+		count_inherit = 25053,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25053",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25052,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				622,
+				1000
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25053] = {
+		name = "Sortie",
+		guild_coin_award = 0,
+		award = 908955,
+		type = 6,
+		desc = "[2/7]Sortie and obtain 20 victories.",
+		count_inherit = 25054,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25054",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25053,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				622,
+				1000
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25054] = {
+		name = "Sortie",
+		guild_coin_award = 0,
+		award = 908956,
+		type = 6,
+		desc = "[3/7]Sortie and obtain 30 victories.",
+		count_inherit = 25055,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25055",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25054,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				622,
+				1000
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25055] = {
+		name = "Sortie",
+		guild_coin_award = 0,
+		award = 908957,
+		type = 6,
+		desc = "[4/7]Sortie and obtain 50 victories.",
+		count_inherit = 25056,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25056",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25055,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				622,
+				1000
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25056] = {
+		name = "Sortie",
+		guild_coin_award = 0,
+		award = 908958,
+		type = 6,
+		desc = "[5/7]Sortie and obtain 70 victories.",
+		count_inherit = 25057,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25057",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25056,
+		target_num = 70,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				622,
+				1000
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25057] = {
+		name = "Sortie",
+		guild_coin_award = 0,
+		award = 908959,
+		type = 6,
+		desc = "[6/7]Sortie and obtain 100 victories.",
+		count_inherit = 25064,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25064",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25057,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				622,
+				1000
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25058] = {
+		name = "Oil Spent",
+		guild_coin_award = 0,
+		award = 908960,
+		type = 6,
+		desc = "[1/7]Spend a total of 1,000 Oil.",
+		count_inherit = 25059,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25059",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25058,
+		target_num = 1000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				622,
+				1000
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25059] = {
+		name = "Oil Spent",
+		guild_coin_award = 0,
+		award = 908961,
+		type = 6,
+		desc = "[2/7]Spend a total of 2,000 Oil.",
+		count_inherit = 25060,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25060",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25059,
+		target_num = 2000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				622,
+				1000
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25060] = {
+		name = "Oil Spent",
+		guild_coin_award = 0,
+		award = 908962,
+		type = 6,
+		desc = "[3/7]Spend a total of 3,000 Oil.",
+		count_inherit = 25061,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25061",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25060,
+		target_num = 3000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				622,
+				1000
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25061] = {
+		name = "Oil Spent",
+		guild_coin_award = 0,
+		award = 908963,
+		type = 6,
+		desc = "[4/7]Spend a total of 5,000 Oil.",
+		count_inherit = 25062,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25062",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25061,
+		target_num = 5000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				622,
+				1000
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25062] = {
+		name = "Oil Spent",
+		guild_coin_award = 0,
+		award = 908964,
+		type = 6,
+		desc = "[5/7]Spend a total of 7,000 Oil.",
+		count_inherit = 25063,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25063",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25062,
+		target_num = 7000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				622,
+				1000
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25063] = {
+		name = "Oil Spent",
+		guild_coin_award = 0,
+		award = 908965,
+		type = 6,
+		desc = "[6/7]Spend a total of 10,000 Oil.",
+		count_inherit = 25065,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25065",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25063,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				622,
+				1000
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25064] = {
+		name = "Sortie",
+		guild_coin_award = 0,
+		award = 908967,
+		type = 6,
+		desc = "[7/7]Sortie and obtain 150 victories.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25064,
+		target_num = 150,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				622,
+				2000
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25065] = {
+		name = "Oil Spent",
+		guild_coin_award = 0,
+		award = 908968,
+		type = 6,
+		desc = "[7/7]Spend a total of 15,000 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25065,
+		target_num = 15000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				622,
+				2000
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25066] = {
+		name = "『2026春节』绘图日记耗油1",
+		guild_coin_award = 0,
+		award = 908656,
+		type = 6,
+		desc = "Spend a total of 500 Oil.",
+		count_inherit = 25067,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25067",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25066,
+		target_num = 500,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60347,
+				200
+			},
+			{
+				8,
+				60348,
+				150
+			},
+			{
+				8,
+				60351,
+				45
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25067] = {
+		name = "『2026春节』绘图日记耗油2",
+		guild_coin_award = 0,
+		award = 908657,
+		type = 6,
+		desc = "Spend a total of 1000 Oil.",
+		count_inherit = 25068,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25068",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25067,
+		target_num = 1000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60349,
+				65
+			},
+			{
+				8,
+				60350,
+				30
+			},
+			{
+				8,
+				60352,
+				20
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25068] = {
+		name = "『2026春节』绘图日记耗油3",
+		guild_coin_award = 0,
+		award = 908658,
+		type = 6,
+		desc = "Spent a total of 1,500 Oil.",
+		count_inherit = 25069,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25069",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25068,
+		target_num = 1500,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60347,
+				200
+			},
+			{
+				8,
+				60348,
+				150
+			},
+			{
+				8,
+				60351,
+				45
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25069] = {
+		name = "『2026春节』绘图日记耗油4",
+		guild_coin_award = 0,
+		award = 908659,
+		type = 6,
+		desc = "Spend a total of 2000 Oil.",
+		count_inherit = 25070,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25070",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25069,
+		target_num = 2000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60350,
+				30
+			},
+			{
+				8,
+				60351,
+				45
+			},
+			{
+				8,
+				60353,
+				15
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25070] = {
+		name = "『2026春节』绘图日记耗油5",
+		guild_coin_award = 0,
+		award = 908660,
+		type = 6,
+		desc = "Spent a total of 2,500 Oil.",
+		count_inherit = 25071,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25071",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25070,
+		target_num = 2500,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60347,
+				200
+			},
+			{
+				8,
+				60349,
+				65
+			},
+			{
+				8,
+				60352,
+				20
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25071] = {
+		name = "『2026春节』绘图日记耗油6",
+		guild_coin_award = 0,
+		award = 908661,
+		type = 6,
+		desc = "Spend a total of 3000 Oil.",
+		count_inherit = 25072,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25072",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25071,
+		target_num = 3000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60348,
+				150
+			},
+			{
+				8,
+				60351,
+				45
+			},
+			{
+				8,
+				60353,
+				15
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25072] = {
+		name = "『2026春节』绘图日记耗油7",
+		guild_coin_award = 0,
+		award = 908662,
+		type = 6,
+		desc = "Spent a total of 4,000 Oil.",
+		count_inherit = 25073,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25073",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25072,
+		target_num = 4000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60347,
+				200
+			},
+			{
+				8,
+				60350,
+				30
+			},
+			{
+				8,
+				60351,
+				45
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25073] = {
+		name = "『2026春节』绘图日记耗油8",
+		guild_coin_award = 0,
+		award = 908663,
+		type = 6,
+		desc = "Spend a total of 5000 Oil.",
+		count_inherit = 25074,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25074",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25073,
+		target_num = 5000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60348,
+				150
+			},
+			{
+				8,
+				60351,
+				45
+			},
+			{
+				8,
+				60353,
+				15
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25074] = {
+		name = "『2026春节』绘图日记耗油9",
+		guild_coin_award = 0,
+		award = 908664,
+		type = 6,
+		desc = "Spent a total of 6,000 Oil.",
+		count_inherit = 25075,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25075",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25074,
+		target_num = 6000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60347,
+				200
+			},
+			{
+				8,
+				60349,
+				65
+			},
+			{
+				8,
+				60352,
+				20
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25075] = {
+		name = "『2026春节』绘图日记耗油10",
+		guild_coin_award = 0,
+		award = 908665,
+		type = 6,
+		desc = "Spent a total of 7,000 Oil.",
+		count_inherit = 25076,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25076",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25075,
+		target_num = 7000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60348,
+				150
+			},
+			{
+				8,
+				60350,
+				30
+			},
+			{
+				8,
+				60351,
+				45
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25076] = {
+		name = "『2026春节』绘图日记耗油11",
+		guild_coin_award = 0,
+		award = 908666,
+		type = 6,
+		desc = "Spent a total of 8,000 Oil.",
+		count_inherit = 25077,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25077",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25076,
+		target_num = 8000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60347,
+				200
+			},
+			{
+				8,
+				60349,
+				65
+			},
+			{
+				8,
+				60351,
+				45
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25077] = {
+		name = "『2026春节』绘图日记耗油12",
+		guild_coin_award = 0,
+		award = 908667,
+		type = 6,
+		desc = "Spent a total of 9,000 Oil.",
+		count_inherit = 25078,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25078",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25077,
+		target_num = 9000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60350,
+				30
+			},
+			{
+				8,
+				60352,
+				20
+			},
+			{
+				8,
+				60353,
+				15
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25078] = {
+		name = "『2026春节』绘图日记耗油13",
+		guild_coin_award = 0,
+		award = 908668,
+		type = 6,
+		desc = "Spend a total of 10,000 Oil.",
+		count_inherit = 25079,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25079",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25078,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60347,
+				200
+			},
+			{
+				8,
+				60348,
+				150
+			},
+			{
+				8,
+				60351,
+				45
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25079] = {
+		name = "『2026春节』绘图日记耗油14",
+		guild_coin_award = 0,
+		award = 908669,
+		type = 6,
+		desc = "Spent a total of 11,000 Oil.",
+		count_inherit = 25080,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25080",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25079,
+		target_num = 11000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60350,
+				30
+			},
+			{
+				8,
+				60351,
+				45
+			},
+			{
+				8,
+				60353,
+				15
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25080] = {
+		name = "『2026春节』绘图日记耗油15",
+		guild_coin_award = 0,
+		award = 908670,
+		type = 6,
+		desc = "Spent a total of 12,000 Oil.",
+		count_inherit = 25081,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25081",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25080,
+		target_num = 12000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60347,
+				200
+			},
+			{
+				8,
+				60349,
+				65
+			},
+			{
+				8,
+				60352,
+				16
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25081] = {
+		name = "『2026春节』绘图日记耗油16",
+		guild_coin_award = 0,
+		award = 908671,
+		type = 6,
+		desc = "Spent a total of 13,000 Oil.",
+		count_inherit = 25082,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25082",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25081,
+		target_num = 13000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60348,
+				150
+			},
+			{
+				8,
+				60350,
+				5
+			},
+			{
+				8,
+				60351,
+				45
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25082] = {
+		name = "『2026春节』绘图日记耗油17",
+		guild_coin_award = 0,
+		award = 908672,
+		type = 6,
+		desc = "Spent a total of 14,000 Oil.",
+		count_inherit = 25083,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25083",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25082,
+		target_num = 14000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60347,
+				200
+			},
+			{
+				8,
+				60349,
+				9
+			},
+			{
+				8,
+				60351,
+				23
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25083] = {
+		name = "『2026春节』绘图日记耗油18",
+		guild_coin_award = 0,
+		award = 908673,
+		type = 6,
+		desc = "Spent a total of 15,000 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25083,
+		target_num = 15000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				60347,
+				185
+			},
+			{
+				8,
+				60348,
+				23
+			},
+			{
+				8,
+				60353,
+				4
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25084] = {
+		name = "『2026春节』皮肤剧情签到活动",
+		guild_coin_award = 0,
+		award = 908766,
+		type = 14,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25084,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65847,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25085] = {
+		name = "『2026春节』皮肤剧情签到活动",
+		guild_coin_award = 0,
+		award = 908767,
+		type = 14,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25085,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65847,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25086] = {
+		name = "『2026春节』皮肤剧情签到活动",
+		guild_coin_award = 0,
+		award = 908768,
+		type = 14,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25086,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65847,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25087] = {
+		name = "『2026春节』皮肤剧情签到活动",
+		guild_coin_award = 0,
+		award = 908769,
+		type = 14,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25087,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65847,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25088] = {
+		name = "『2026春节』贺年卡建造任务1",
+		guild_coin_award = 0,
+		award = 908969,
+		type = 6,
+		desc = "Build 20 ships.",
+		count_inherit = 25089,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "25089",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25088,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				623,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25089] = {
+		name = "『2026春节』贺年卡建造任务2",
+		guild_coin_award = 0,
+		award = 908970,
+		type = 6,
+		desc = "Build 40 ships.",
+		count_inherit = 25090,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "25090",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25089,
+		target_num = 40,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				623,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25090] = {
+		name = "『2026春节』贺年卡建造任务3",
+		guild_coin_award = 0,
+		award = 908971,
+		type = 6,
+		desc = "Build 60 ships.",
+		count_inherit = 25091,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "25091",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25090,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				623,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25091] = {
+		name = "『2026春节』贺年卡建造任务4",
+		guild_coin_award = 0,
+		award = 908972,
+		type = 6,
+		desc = "Build 80 ships.",
+		count_inherit = 25092,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "25092",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25091,
+		target_num = 80,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				623,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25092] = {
+		name = "『2026春节』贺年卡建造任务5",
+		guild_coin_award = 0,
+		award = 908973,
+		type = 6,
+		desc = "Build 100 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25092,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				623,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25093] = {
+		name = "『2026春节』贺年卡出击任务1",
+		guild_coin_award = 0,
+		award = 908974,
+		type = 6,
+		desc = "Sortie and obtain 10 victories.",
+		count_inherit = 25094,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25094",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25093,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				623,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25094] = {
+		name = "『2026春节』贺年卡出击任务2",
+		guild_coin_award = 0,
+		award = 908975,
+		type = 6,
+		desc = "Sortie and obtain 20 victories.",
+		count_inherit = 25095,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25095",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25094,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				623,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25095] = {
+		name = "『2026春节』贺年卡出击任务3",
+		guild_coin_award = 0,
+		award = 908976,
+		type = 6,
+		desc = "Sortie and obtain 30 victories.",
+		count_inherit = 25096,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25096",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25095,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				623,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25096] = {
+		name = "『2026春节』贺年卡出击任务4",
+		guild_coin_award = 0,
+		award = 908977,
+		type = 6,
+		desc = "Sortie and obtain 40 victories.",
+		count_inherit = 25097,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25097",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25096,
+		target_num = 40,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				623,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25097] = {
+		name = "『2026春节』贺年卡出击任务5",
+		guild_coin_award = 0,
+		award = 908978,
+		type = 6,
+		desc = "Sortie and obtain 50 victories.",
+		count_inherit = 25098,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25098",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25097,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				623,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25098] = {
+		name = "『2026春节』贺年卡出击任务6",
+		guild_coin_award = 0,
+		award = 908979,
+		type = 6,
+		desc = "Sortie and obtain 60 victories.",
+		count_inherit = 25099,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25099",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25098,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				623,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25099] = {
+		name = "『2026春节』贺年卡出击任务7",
+		guild_coin_award = 0,
+		award = 908980,
+		type = 6,
+		desc = "Sortie and obtain 70 victories.",
+		count_inherit = 25100,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25100",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25099,
+		target_num = 70,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				623,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25100] = {
+		name = "『2026春节』贺年卡出击任务8",
+		guild_coin_award = 0,
+		award = 908981,
+		type = 6,
+		desc = "Sortie and obtain 80 victories.",
+		count_inherit = 25101,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25101",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25100,
+		target_num = 80,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				623,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25101] = {
+		name = "『2026春节』贺年卡出击任务9",
+		guild_coin_award = 0,
+		award = 908982,
+		type = 6,
+		desc = "Sortie and obtain 90 victories.",
+		count_inherit = 25102,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25102",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25101,
+		target_num = 90,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				623,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25102] = {
+		name = "『2026春节』贺年卡出击任务10",
+		guild_coin_award = 0,
+		award = 908983,
+		type = 6,
+		desc = "Sortie and obtain 100 victories.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25102,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				623,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25103] = {
+		name = "『2026春节』贺年卡委托任务1",
+		guild_coin_award = 0,
+		award = 908984,
+		type = 6,
+		desc = "Complete 10 commissions.",
+		count_inherit = 25104,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "25104",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25103,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				623,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25104] = {
+		name = "『2026春节』贺年卡委托任务2",
+		guild_coin_award = 0,
+		award = 908985,
+		type = 6,
+		desc = "Complete 20 commissions.",
+		count_inherit = 25105,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "25105",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25104,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				623,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25105] = {
+		name = "『2026春节』贺年卡委托任务3",
+		guild_coin_award = 0,
+		award = 908986,
+		type = 6,
+		desc = "Complete 30 commissions.",
+		count_inherit = 25106,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "25106",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25105,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				623,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25106] = {
+		name = "『2026春节』贺年卡委托任务4",
+		guild_coin_award = 0,
+		award = 908987,
+		type = 6,
+		desc = "Complete 40 commissions.",
+		count_inherit = 25107,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "25107",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25106,
+		target_num = 40,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				623,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25107] = {
+		name = "『2026春节』贺年卡委托任务5",
+		guild_coin_award = 0,
+		award = 908988,
+		type = 6,
+		desc = "Complete 50 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25107,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				623,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25108] = {
+		name = "『2026春节』n选一石油任务1",
+		guild_coin_award = 0,
+		award = 908989,
+		type = 6,
+		desc = "Spent a total of 2,500 Oil.",
+		count_inherit = 25109,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25109",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25108,
+		target_num = 2500,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				623,
+				40
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25109] = {
+		name = "『2026春节』n选一石油任务2",
+		guild_coin_award = 0,
+		award = 908990,
+		type = 6,
+		desc = "Spend a total of 5000 Oil.",
+		count_inherit = 25110,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25110",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25109,
+		target_num = 5000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				623,
+				40
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25110] = {
+		name = "『2026春节』n选一石油任务3",
+		guild_coin_award = 0,
+		award = 908991,
+		type = 6,
+		desc = "Spend a total of 7,500 Oil.",
+		count_inherit = 25111,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25111",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25110,
+		target_num = 7500,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				623,
+				40
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25111] = {
+		name = "『2026春节』n选一石油任务4",
+		guild_coin_award = 0,
+		award = 908992,
+		type = 6,
+		desc = "Spend a total of 10,000 Oil.",
+		count_inherit = 25112,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25112",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25111,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				623,
+				40
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25112] = {
+		name = "『2026春节』n选一石油任务5",
+		guild_coin_award = 0,
+		award = 908993,
+		type = 6,
+		desc = "Spend a total of 12,500 Oil.",
+		count_inherit = 25113,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "25113",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25112,
+		target_num = 12500,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				623,
+				40
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25113] = {
+		name = "『2026春节』n选一石油任务6",
+		guild_coin_award = 0,
+		award = 908994,
+		type = 6,
+		desc = "Spent a total of 15,000 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25113,
+		target_num = 15000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				623,
+				40
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25200] = {
+		name = "『0212春节版本』登录送皮肤体验券活动",
+		guild_coin_award = 0,
+		award = 906597,
+		type = 6,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25200,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				630,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25192] = {
+		name = "『0212春节版本』外观装备箱保底（25复刻）",
+		guild_coin_award = 0,
+		award = 908764,
+		type = 6,
+		desc = "Open 20 Gear Skin Boxes (Spring Auspices) in the shop.",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "30364",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25192,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30551,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25193] = {
+		name = "『0212春节版本』外观装备箱保底",
+		guild_coin_award = 0,
+		award = 908765,
+		type = 6,
+		desc = "Open 20 Gear Skin Boxes (Spring Festival Auction) in the shop.",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "30380",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25193,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30564,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25194] = {
+		name = "『0212春节版本』挑战券任务1",
+		guild_coin_award = 0,
+		award = 908779,
+		type = 36,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25194,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2025,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25195] = {
+		name = "『0212春节版本』挑战券任务2",
+		guild_coin_award = 0,
+		award = 908780,
+		type = 36,
+		desc = "Clear any Hard Mode stage 1 time.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25195,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2025,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25196] = {
+		name = "『0212春节版本』挑战券任务3",
+		guild_coin_award = 0,
+		award = 908781,
+		type = 36,
+		desc = "Clear any 3 Hard Mode stages.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25196,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2025,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25197] = {
+		name = "『0212春节版本』挑战券任务4",
+		guild_coin_award = 0,
+		award = 908782,
+		type = 36,
+		desc = "Clear stages 5 times in the Spring Auction Adventure event.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25197,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1999901,
+			1999902,
+			1999903,
+			1999904,
+			1999905
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2025,
+				1
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25198] = {
+		name = "『0212春节版本』挑战券任务5",
+		guild_coin_award = 0,
+		award = 908783,
+		type = 36,
+		desc = "Clear stages 10 times in the Spring Auction Adventure event.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25198,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1999901,
+			1999902,
+			1999903,
+			1999904,
+			1999905
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2025,
+				1
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25199] = {
+		name = "『0212春节版本』通关挑战关卡",
+		guild_coin_award = 0,
+		award = 908784,
+		type = 6,
+		desc = "Clear the EX stage 1 time in the Spring Auction Adventure event.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1999905",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25199,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE"
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[31017] = {
 		name = "殿堂奖励第一名",
 		guild_coin_award = 0,
@@ -285208,7 +306965,7 @@ end)()
 		award_display = {
 			{
 				14,
-				415,
+				417,
 				1
 			}
 		}
@@ -285251,7 +307008,7 @@ end)()
 		award_display = {
 			{
 				14,
-				416,
+				420,
 				1
 			}
 		}
@@ -285294,7 +307051,136 @@ end)()
 		award_display = {
 			{
 				14,
-				417,
+				421,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[31048] = {
+		name = "殿堂奖励第一名 2025",
+		guild_coin_award = 0,
+		award = 908116,
+		type = 6,
+		desc = "？",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 31048,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				14,
+				418,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[31049] = {
+		name = "殿堂奖励第二名 2025",
+		guild_coin_award = 0,
+		award = 908118,
+		type = 6,
+		desc = "？",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 31049,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				14,
+				422,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[31050] = {
+		name = "殿堂奖励第三名 2025",
+		guild_coin_award = 0,
+		award = 908121,
+		type = 6,
+		desc = "？",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 31050,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				14,
+				425,
 				1
 			}
 		}
@@ -288914,7 +310800,7 @@ end)()
 		guild_coin_award = 0,
 		award = 65073,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -290474,7 +312360,7 @@ end)()
 		guild_coin_award = 0,
 		award = 65118,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -291254,7 +313140,7 @@ end)()
 		guild_coin_award = 0,
 		award = 65136,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -292032,7 +313918,7 @@ end)()
 		guild_coin_award = 0,
 		award = 65154,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -292638,7 +314524,7 @@ end)()
 		guild_coin_award = 0,
 		award = 65168,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -295023,7 +316909,7 @@ end)()
 		guild_coin_award = 0,
 		award = 65230,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -295944,7 +317830,7 @@ end)()
 		guild_coin_award = 0,
 		award = 65247,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -296550,7 +318436,7 @@ end)()
 		guild_coin_award = 0,
 		award = 65261,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -297156,7 +319042,7 @@ end)()
 		guild_coin_award = 0,
 		award = 65282,
 		type = 26,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -301058,7 +322944,7 @@ end)()
 		guild_coin_award = 0,
 		award = 102330,
 		type = 6,
-		desc = "Spent a total of 2,000 Oil.",
+		desc = "Spend a total of 2000 Oil.",
 		count_inherit = 0,
 		sub_type = 121,
 		target_id_2 = "",
@@ -301230,7 +323116,7 @@ end)()
 		guild_coin_award = 0,
 		award = 102330,
 		type = 6,
-		desc = "Spent a total of 10,000 Oil.",
+		desc = "Spend a total of 10,000 Oil.",
 		count_inherit = 0,
 		sub_type = 121,
 		target_id_2 = "",
@@ -305525,7 +327411,7 @@ end)()
 		guild_coin_award = 0,
 		award = 102630,
 		type = 6,
-		desc = "Spent a total of 2,000 Oil.",
+		desc = "Spend a total of 2000 Oil.",
 		count_inherit = 0,
 		sub_type = 121,
 		target_id_2 = "",
@@ -305697,7 +327583,7 @@ end)()
 		guild_coin_award = 0,
 		award = 102630,
 		type = 6,
-		desc = "Spent a total of 10,000 Oil.",
+		desc = "Spend a total of 10,000 Oil.",
 		count_inherit = 0,
 		sub_type = 121,
 		target_id_2 = "",
@@ -309992,7 +331878,7 @@ end)()
 		guild_coin_award = 0,
 		award = 102930,
 		type = 6,
-		desc = "Spent a total of 2,000 Oil.",
+		desc = "Spend a total of 2000 Oil.",
 		count_inherit = 0,
 		sub_type = 121,
 		target_id_2 = "",
@@ -310164,7 +332050,7 @@ end)()
 		guild_coin_award = 0,
 		award = 102930,
 		type = 6,
-		desc = "Spent a total of 10,000 Oil.",
+		desc = "Spend a total of 10,000 Oil.",
 		count_inherit = 0,
 		sub_type = 121,
 		target_id_2 = "",
@@ -314459,7 +336345,7 @@ end)()
 		guild_coin_award = 0,
 		award = 103230,
 		type = 6,
-		desc = "Spent a total of 2,000 Oil.",
+		desc = "Spend a total of 2000 Oil.",
 		count_inherit = 0,
 		sub_type = 121,
 		target_id_2 = "",
@@ -314631,7 +336517,7 @@ end)()
 		guild_coin_award = 0,
 		award = 103230,
 		type = 6,
-		desc = "Spent a total of 10,000 Oil.",
+		desc = "Spend a total of 10,000 Oil.",
 		count_inherit = 0,
 		sub_type = 121,
 		target_id_2 = "",
@@ -318926,7 +340812,7 @@ end)()
 		guild_coin_award = 0,
 		award = 103530,
 		type = 6,
-		desc = "Spent a total of 2,000 Oil.",
+		desc = "Spend a total of 2000 Oil.",
 		count_inherit = 0,
 		sub_type = 121,
 		target_id_2 = "",
@@ -319098,7 +340984,7 @@ end)()
 		guild_coin_award = 0,
 		award = 103530,
 		type = 6,
-		desc = "Spent a total of 10,000 Oil.",
+		desc = "Spend a total of 10,000 Oil.",
 		count_inherit = 0,
 		sub_type = 121,
 		target_id_2 = "",
@@ -323393,7 +345279,7 @@ end)()
 		guild_coin_award = 0,
 		award = 103830,
 		type = 6,
-		desc = "Spent a total of 2,000 Oil.",
+		desc = "Spend a total of 2000 Oil.",
 		count_inherit = 0,
 		sub_type = 121,
 		target_id_2 = "",
@@ -323565,7 +345451,7 @@ end)()
 		guild_coin_award = 0,
 		award = 103830,
 		type = 6,
-		desc = "Spent a total of 10,000 Oil.",
+		desc = "Spend a total of 10,000 Oil.",
 		count_inherit = 0,
 		sub_type = 121,
 		target_id_2 = "",
@@ -327860,7 +349746,7 @@ end)()
 		guild_coin_award = 0,
 		award = 104130,
 		type = 6,
-		desc = "Spent a total of 2,000 Oil.",
+		desc = "Spend a total of 2000 Oil.",
 		count_inherit = 0,
 		sub_type = 121,
 		target_id_2 = "",
@@ -328032,7 +349918,7 @@ end)()
 		guild_coin_award = 0,
 		award = 104130,
 		type = 6,
-		desc = "Spent a total of 10,000 Oil.",
+		desc = "Spend a total of 10,000 Oil.",
 		count_inherit = 0,
 		sub_type = 121,
 		target_id_2 = "",
@@ -332327,7 +354213,7 @@ end)()
 		guild_coin_award = 0,
 		award = 104334,
 		type = 6,
-		desc = "Spent a total of 2,000 Oil.",
+		desc = "Spend a total of 2000 Oil.",
 		count_inherit = 0,
 		sub_type = 121,
 		target_id_2 = "",
@@ -332499,7 +354385,7 @@ end)()
 		guild_coin_award = 0,
 		award = 104334,
 		type = 6,
-		desc = "Spent a total of 10,000 Oil.",
+		desc = "Spend a total of 10,000 Oil.",
 		count_inherit = 0,
 		sub_type = 121,
 		target_id_2 = "",
@@ -333541,6 +355427,3682 @@ end)()
 				59599,
 				240
 			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43802] = {
+		name = "黑五通行证第一日任务1（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Conduct tactical training 4 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43802,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43803] = {
+		name = "黑五通行证第一日任务2（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Sortie and obtain 3 victories.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43803,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43804] = {
+		name = "黑五通行证第一日任务3（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Complete 4 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43804,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43805] = {
+		name = "黑五通行证第一日任务4（仅美服）",
+		guild_coin_award = 0,
+		award = 104537,
+		type = 6,
+		desc = "Build 3 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43805,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43806] = {
+		name = "黑五通行证第二日任务1（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Enhance gear 2 times.",
+		count_inherit = 0,
+		sub_type = 40,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43806,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43807] = {
+		name = "黑五通行证第二日任务2（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Clear a total of 3 Hard Mode stages.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43807,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43808] = {
+		name = "黑五通行证第二日任务3（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Disassemble 10 gears",
+		count_inherit = 0,
+		sub_type = 41,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43808,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43809] = {
+		name = "黑五通行证第二日任务4（仅美服）",
+		guild_coin_award = 0,
+		award = 104537,
+		type = 6,
+		desc = "Train 1 Meowfficers.",
+		count_inherit = 0,
+		sub_type = 170,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43809,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43810] = {
+		name = "黑五通行证第三日任务1（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Complete 6 Daily Challenges.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43810,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43811] = {
+		name = "黑五通行证第三日任务2（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Restock snacks in your dorm 5 times.",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43811,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43812] = {
+		name = "黑五通行证第三日任务3（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Retire 2 ships",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43812,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43813] = {
+		name = "黑五通行证第三日任务4（仅美服）",
+		guild_coin_award = 0,
+		award = 104537,
+		type = 6,
+		desc = "Complete 4 Research Projects.",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43813,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43814] = {
+		name = "黑五通行证第四日任务1（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Conduct tactical training 4 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43814,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43815] = {
+		name = "黑五通行证第四日任务2（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Sortie and obtain 3 victories.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43815,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43816] = {
+		name = "黑五通行证第四日任务3（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Complete 4 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43816,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43817] = {
+		name = "黑五通行证第四日任务4（仅美服）",
+		guild_coin_award = 0,
+		award = 104537,
+		type = 6,
+		desc = "Build 3 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43817,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43818] = {
+		name = "黑五通行证第五日任务1（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Enhance gear 2 times.",
+		count_inherit = 0,
+		sub_type = 40,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43818,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43819] = {
+		name = "黑五通行证第五日任务2（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Clear a total of 3 Hard Mode stages.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43819,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43820] = {
+		name = "黑五通行证第五日任务3（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Disassemble 10 gears",
+		count_inherit = 0,
+		sub_type = 41,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43820,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43821] = {
+		name = "黑五通行证第五日任务4（仅美服）",
+		guild_coin_award = 0,
+		award = 104537,
+		type = 6,
+		desc = "Train 1 Meowfficers.",
+		count_inherit = 0,
+		sub_type = 170,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43821,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43822] = {
+		name = "黑五通行证第六日任务1（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Complete 6 Daily Challenges.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43822,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43823] = {
+		name = "黑五通行证第六日任务2（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Restock snacks in your dorm 5 times.",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43823,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43824] = {
+		name = "黑五通行证第六日任务3（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Retire 2 ships",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43824,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43825] = {
+		name = "黑五通行证第六日任务4（仅美服）",
+		guild_coin_award = 0,
+		award = 104537,
+		type = 6,
+		desc = "Complete 4 Research Projects.",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43825,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43826] = {
+		name = "黑五通行证第七日任务1（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Conduct tactical training 4 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43826,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43827] = {
+		name = "黑五通行证第七日任务2（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Sortie and obtain 3 victories.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43827,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43828] = {
+		name = "黑五通行证第七日任务3（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Complete 4 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43828,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43829] = {
+		name = "黑五通行证第七日任务4（仅美服）",
+		guild_coin_award = 0,
+		award = 104537,
+		type = 6,
+		desc = "Build 3 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43829,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43830] = {
+		name = "黑五通行证第八日任务1（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Enhance gear 2 times.",
+		count_inherit = 0,
+		sub_type = 40,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43830,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43831] = {
+		name = "黑五通行证第八日任务2（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Clear a total of 3 Hard Mode stages.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43831,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43832] = {
+		name = "黑五通行证第八日任务3（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Disassemble 10 gears",
+		count_inherit = 0,
+		sub_type = 41,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43832,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43833] = {
+		name = "黑五通行证第八日任务4（仅美服）",
+		guild_coin_award = 0,
+		award = 104537,
+		type = 6,
+		desc = "Train 1 Meowfficers.",
+		count_inherit = 0,
+		sub_type = 170,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43833,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43834] = {
+		name = "黑五通行证第九日任务1（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Complete 6 Daily Challenges.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43834,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43835] = {
+		name = "黑五通行证第九日任务2（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Restock snacks in your dorm 5 times.",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43835,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43836] = {
+		name = "黑五通行证第九日任务3（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Retire 2 ships",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43836,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43837] = {
+		name = "黑五通行证第九日任务4（仅美服）",
+		guild_coin_award = 0,
+		award = 104537,
+		type = 6,
+		desc = "Complete 4 Research Projects.",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43837,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43838] = {
+		name = "黑五通行证第十日任务1（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Conduct tactical training 4 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43838,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43839] = {
+		name = "黑五通行证第十日任务2（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Sortie and obtain 3 victories.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43839,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43840] = {
+		name = "黑五通行证第十日任务3（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Complete 4 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43840,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43841] = {
+		name = "黑五通行证第十日任务4（仅美服）",
+		guild_coin_award = 0,
+		award = 104537,
+		type = 6,
+		desc = "Build 3 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43841,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43842] = {
+		name = "黑五通行证第十一日任务1（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Enhance gear 2 times.",
+		count_inherit = 0,
+		sub_type = 40,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43842,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43843] = {
+		name = "黑五通行证第十一日任务2（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Clear a total of 3 Hard Mode stages.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43843,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43844] = {
+		name = "黑五通行证第十一日任务3（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Disassemble 10 gears",
+		count_inherit = 0,
+		sub_type = 41,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43844,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43845] = {
+		name = "黑五通行证第十一日任务4（仅美服）",
+		guild_coin_award = 0,
+		award = 104537,
+		type = 6,
+		desc = "Train 1 Meowfficers.",
+		count_inherit = 0,
+		sub_type = 170,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43845,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43846] = {
+		name = "黑五通行证第十二日任务1（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Complete 6 Daily Challenges.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43846,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43847] = {
+		name = "黑五通行证第十二日任务2（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Restock snacks in your dorm 5 times.",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43847,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43848] = {
+		name = "黑五通行证第十二日任务3（仅美服）",
+		guild_coin_award = 0,
+		award = 104536,
+		type = 6,
+		desc = "Retire 2 ships",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43848,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43849] = {
+		name = "黑五通行证第十二日任务4（仅美服）",
+		guild_coin_award = 0,
+		award = 104537,
+		type = 6,
+		desc = "Complete 4 Research Projects.",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43849,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43850] = {
+		name = "黑五通行证·【SP任务1】（仅美服）",
+		guild_coin_award = 0,
+		award = 104538,
+		type = 6,
+		desc = "Spend a total of 5000 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43850,
+		target_num = 5000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43851] = {
+		name = "黑五通行证·【SP任务2】（仅美服）",
+		guild_coin_award = 0,
+		award = 104538,
+		type = 6,
+		desc = "Spend a total of 10,000 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43851,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43852] = {
+		name = "黑五通行证·【SP任务3】（仅美服）",
+		guild_coin_award = 0,
+		award = 104538,
+		type = 6,
+		desc = "Earn a total of 500,000 EXP from sorties.",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43852,
+		target_num = 500000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43853] = {
+		name = "黑五通行证·【SP任务4】（仅美服）",
+		guild_coin_award = 0,
+		award = 104538,
+		type = 6,
+		desc = "Earn a total of 1,000,000 EXP from sorties.",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43853,
+		target_num = 1000000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43854] = {
+		name = "黑五通行证·【SP任务5】（仅美服）",
+		guild_coin_award = 0,
+		award = 104538,
+		type = 6,
+		desc = "Build 20 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43854,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43855] = {
+		name = "黑五通行证·【SP任务6】（仅美服）",
+		guild_coin_award = 0,
+		award = 104538,
+		type = 6,
+		desc = "Build 40 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43855,
+		target_num = 40,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43856] = {
+		name = "黑五通行证·【SP任务7】（仅美服）",
+		guild_coin_award = 0,
+		award = 104539,
+		type = 6,
+		desc = "Build 80 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43856,
+		target_num = 80,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43857] = {
+		name = "黑五通行证·【SP任务8】（仅美服）",
+		guild_coin_award = 0,
+		award = 104538,
+		type = 6,
+		desc = "Log in once.",
+		count_inherit = 0,
+		sub_type = 106,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43857,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				50
+			}
+		},
+		scene = {
+			"MAINUI"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43858] = {
+		name = "黑五通行证·【SP任务9】（仅美服）",
+		guild_coin_award = 0,
+		award = 104539,
+		type = 6,
+		desc = "Log in for 7 days.",
+		count_inherit = 0,
+		sub_type = 106,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43858,
+		target_num = 7,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				100
+			}
+		},
+		scene = {
+			"MAINUI"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43859] = {
+		name = "黑五通行证·【SP任务10】（仅美服）",
+		guild_coin_award = 0,
+		award = 104540,
+		type = 6,
+		desc = "Buy 3 skins from the skin shop or packs.",
+		count_inherit = 0,
+		sub_type = 156,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43859,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			60698,
+			70001,
+			70009,
+			70013,
+			70014,
+			70060,
+			70062,
+			70063,
+			70090,
+			70091,
+			70092,
+			70108,
+			70110,
+			70162,
+			70163,
+			70170,
+			70171,
+			70172,
+			70181,
+			70182,
+			70203,
+			70204,
+			70205,
+			70216,
+			70218,
+			70219,
+			70220,
+			70221,
+			70222,
+			70223,
+			70224,
+			70225,
+			70227,
+			70250,
+			70251,
+			70252,
+			70274,
+			70299,
+			70314,
+			70317,
+			70342,
+			70343,
+			70344,
+			70345,
+			70346,
+			70347,
+			70348,
+			70390,
+			70391,
+			70392,
+			70401,
+			70402,
+			70403,
+			70408,
+			70433,
+			70434,
+			70435,
+			70443,
+			70526,
+			70532,
+			70533,
+			70540,
+			70571,
+			70579,
+			70580,
+			70581,
+			70582,
+			70583,
+			70585,
+			70613,
+			70691,
+			70692,
+			70693,
+			70709,
+			70710,
+			70711,
+			70712,
+			70714,
+			70715,
+			70759,
+			70760,
+			70761,
+			70762,
+			70775,
+			70776,
+			70777,
+			70778,
+			70779,
+			70822,
+			70823,
+			70824,
+			70825,
+			70826,
+			70827,
+			70828,
+			70829,
+			70830,
+			70831,
+			70832,
+			70833,
+			70834,
+			70835,
+			70836,
+			70837,
+			70841,
+			70842,
+			70861,
+			70862,
+			70863,
+			70864,
+			70865,
+			70866,
+			70867,
+			70913,
+			70927,
+			70935,
+			70936,
+			70939,
+			70942,
+			70943,
+			70954,
+			70955,
+			70956,
+			70957,
+			70958,
+			70959,
+			70960,
+			70961,
+			70962,
+			70964,
+			70965,
+			70966,
+			70967,
+			70968,
+			70969,
+			70970,
+			70971,
+			70972,
+			70974,
+			70975,
+			70976,
+			70977,
+			70978,
+			70979,
+			70980,
+			70981,
+			70982,
+			70983,
+			70984,
+			70985,
+			70987,
+			70988,
+			70989,
+			70990,
+			70991,
+			70992,
+			70993,
+			70994,
+			70995,
+			70996,
+			70997,
+			70998,
+			71000,
+			71001,
+			71002,
+			71003,
+			71004,
+			71005,
+			71006,
+			71007,
+			71010,
+			71011,
+			71012,
+			71013,
+			71014,
+			71015,
+			71016,
+			71017,
+			71018,
+			71019,
+			71020,
+			71021,
+			71022,
+			71023,
+			71024,
+			71025,
+			71026,
+			71027,
+			71028,
+			71029,
+			71031,
+			71043,
+			71044,
+			71045,
+			71046,
+			71047,
+			71048,
+			71049,
+			71050,
+			71051,
+			71052,
+			71053,
+			71054,
+			71055,
+			71056,
+			71057,
+			71058,
+			71059,
+			71060,
+			71061,
+			71062,
+			71063,
+			71064,
+			71065,
+			71066,
+			71067,
+			71068,
+			71069,
+			71070,
+			71071,
+			71078,
+			71079,
+			71080,
+			71081,
+			71082,
+			71083,
+			71084,
+			71085,
+			71086,
+			71090,
+			71091,
+			71092,
+			71093,
+			71094,
+			71095,
+			71096,
+			71097,
+			71098,
+			71099,
+			71100,
+			71101,
+			71102,
+			71103,
+			71104,
+			71105,
+			71106,
+			71107,
+			71108,
+			71109,
+			71110,
+			71111,
+			71112,
+			71113,
+			71114,
+			71115,
+			71116,
+			71117,
+			71118,
+			71119,
+			71120,
+			71121,
+			71122,
+			71123,
+			71124,
+			71125,
+			71126,
+			71127,
+			71128,
+			71129,
+			71130,
+			71131,
+			71132,
+			71133,
+			71134,
+			71135,
+			71136,
+			71137,
+			71138,
+			71139,
+			71140,
+			71141,
+			71142,
+			71143,
+			71144,
+			71145,
+			71146,
+			71147,
+			70002,
+			70003,
+			70004,
+			70005,
+			70006,
+			70007,
+			70008,
+			70009,
+			70010,
+			70011,
+			70012,
+			70013,
+			70014,
+			70015,
+			70016,
+			70017,
+			70018,
+			70019,
+			70020,
+			70021,
+			70022,
+			70023,
+			70024,
+			70025,
+			70026,
+			70027,
+			70028,
+			70029,
+			70030,
+			70031,
+			70032,
+			70033,
+			70034,
+			70035,
+			70036,
+			70037,
+			70038,
+			70039,
+			70040,
+			70041,
+			70042,
+			70043,
+			70044,
+			70045,
+			70046,
+			70047,
+			70048,
+			70049,
+			70050,
+			70051,
+			70052,
+			70053,
+			70054,
+			70055,
+			70056,
+			70057,
+			70058,
+			70059,
+			70060,
+			70061,
+			70062,
+			70063,
+			70064,
+			70065,
+			70066,
+			70067,
+			70068,
+			70069,
+			70070,
+			70071,
+			70072,
+			70073,
+			70074,
+			70075,
+			70076,
+			70077,
+			70078,
+			70079,
+			70080,
+			70081,
+			70082,
+			70083,
+			70084,
+			70085,
+			70086,
+			70087,
+			70088,
+			70089,
+			70090,
+			70091,
+			70092,
+			70093,
+			70095,
+			70096,
+			70097,
+			70098,
+			70099,
+			70100,
+			70101,
+			70102,
+			70103,
+			70104,
+			70105,
+			70106,
+			70107,
+			70108,
+			70109,
+			70110,
+			70111,
+			70112,
+			70113,
+			70114,
+			70115,
+			70116,
+			70117,
+			70124,
+			70125,
+			70126,
+			70127,
+			70128,
+			70129,
+			70130,
+			70131,
+			70132,
+			70133,
+			70134,
+			70135,
+			70136,
+			70137,
+			70138,
+			70139,
+			70140,
+			70141,
+			70142,
+			70143,
+			70144,
+			70145,
+			70146,
+			70147,
+			70148,
+			70149,
+			70150,
+			70151,
+			70152,
+			70153,
+			70154,
+			70156,
+			70157,
+			70158,
+			70159,
+			70160,
+			70161,
+			70162,
+			70163,
+			70164,
+			70165,
+			70171,
+			70172,
+			70166,
+			70167,
+			70168,
+			70170,
+			70173,
+			70174,
+			70175,
+			70176,
+			70177,
+			70178,
+			70179,
+			70181,
+			70182,
+			70183,
+			70184,
+			70185,
+			70186,
+			70187,
+			70188,
+			70189,
+			70190,
+			70191,
+			70192,
+			70193,
+			70194,
+			70195,
+			70196,
+			70197,
+			70198,
+			70199,
+			70200,
+			70201,
+			70202,
+			70203,
+			70204,
+			70205,
+			70206,
+			70207,
+			70208,
+			70209,
+			70210,
+			70211,
+			70212,
+			70213,
+			70214,
+			70215,
+			70216,
+			70217,
+			70218,
+			70219,
+			70220,
+			70221,
+			70222,
+			70223,
+			70224,
+			70225,
+			70226,
+			70227,
+			70228,
+			70229,
+			70230,
+			70231,
+			70232,
+			70233,
+			70234,
+			70235,
+			70236,
+			70237,
+			70238,
+			70239,
+			70240,
+			70241,
+			70242,
+			70243,
+			70244,
+			70245,
+			70246,
+			70248,
+			70249,
+			70250,
+			70251,
+			70252,
+			70253,
+			70254,
+			70255,
+			70256,
+			70257,
+			70258,
+			70259,
+			70260,
+			70261,
+			70262,
+			70263,
+			70264,
+			70265,
+			70267,
+			70268,
+			70269,
+			70270,
+			70271,
+			70272,
+			70273,
+			70274,
+			70275,
+			70276,
+			70277,
+			70278,
+			70279,
+			70280,
+			70281,
+			70282,
+			70283,
+			70284,
+			70285,
+			70286,
+			70287,
+			70288,
+			70289,
+			70290,
+			70291,
+			70292,
+			70293,
+			70294,
+			70295,
+			70296,
+			70297,
+			70298,
+			70299,
+			70300,
+			70301,
+			70302,
+			70303,
+			70304,
+			70305,
+			70306,
+			70307,
+			70308,
+			70309,
+			70310,
+			70311,
+			70312,
+			70313,
+			70314,
+			70315,
+			70316,
+			70317,
+			70318,
+			70319,
+			70320,
+			70321,
+			70322,
+			70323,
+			70324,
+			70325,
+			70326,
+			70327,
+			70328,
+			70329,
+			70330,
+			70331,
+			70332,
+			70333,
+			70334,
+			70335,
+			70336,
+			70337,
+			70338,
+			70339,
+			70340,
+			70341,
+			70342,
+			70343,
+			70344,
+			70345,
+			70346,
+			70347,
+			70348,
+			70349,
+			70350,
+			70357,
+			70358,
+			70359,
+			70360,
+			70361,
+			70362,
+			70363,
+			70364,
+			70365,
+			70366,
+			70367,
+			70368,
+			70369,
+			70370,
+			70371,
+			70372,
+			70373,
+			70374,
+			70375,
+			70376,
+			70377,
+			70378,
+			70379,
+			70380,
+			70381,
+			70382,
+			70383,
+			70384,
+			70385,
+			70386,
+			70387,
+			70388,
+			70389,
+			70390,
+			70391,
+			70392,
+			70393,
+			70394,
+			70395,
+			70396,
+			70397,
+			70398,
+			70399,
+			70400,
+			70401,
+			70402,
+			70403,
+			70404,
+			70405,
+			70406,
+			70407,
+			70408,
+			70409,
+			70410,
+			70411,
+			70412,
+			70413,
+			70414,
+			70415,
+			70416,
+			70417,
+			70418,
+			70419,
+			70420,
+			70421,
+			70422,
+			70423,
+			70424,
+			70425,
+			70426,
+			70427,
+			70428,
+			70429,
+			70430,
+			70431,
+			70432,
+			70433,
+			70434,
+			70435,
+			70436,
+			70437,
+			70438,
+			70439,
+			70440,
+			70441,
+			70442,
+			70443,
+			70444,
+			70445,
+			70446,
+			70447,
+			70448,
+			70449,
+			70450,
+			70451,
+			70452,
+			70453,
+			70454,
+			70455,
+			70456,
+			70457,
+			70459,
+			70460,
+			70461,
+			70462,
+			70463,
+			70464,
+			70465,
+			70466,
+			70467,
+			70468,
+			70469,
+			70470,
+			70471,
+			70472,
+			70473,
+			70474,
+			70475,
+			70476,
+			70477,
+			70478,
+			70479,
+			70481,
+			70482,
+			70483,
+			70484,
+			70485,
+			70486,
+			70487,
+			70488,
+			70489,
+			70490,
+			70491,
+			70492,
+			70493,
+			70494,
+			70495,
+			70496,
+			70497,
+			70498,
+			70499,
+			70500,
+			70501,
+			70502,
+			70503,
+			70504,
+			70505,
+			70506,
+			70507,
+			70508,
+			70509,
+			70510,
+			70511,
+			70513,
+			70514,
+			70515,
+			70516,
+			70517,
+			70518,
+			70519,
+			70520,
+			70521,
+			70522,
+			70523,
+			70524,
+			70525,
+			70526,
+			70527,
+			70528,
+			70529,
+			70530,
+			70531,
+			70532,
+			70533,
+			70534,
+			70535,
+			70536,
+			70537,
+			70538,
+			70539,
+			70540,
+			70541,
+			70542,
+			70543,
+			70544,
+			70545,
+			70546,
+			70547,
+			70548,
+			70549,
+			70550,
+			70551,
+			70552,
+			70553,
+			70554,
+			70555,
+			70556,
+			70557,
+			70558,
+			70559,
+			70560,
+			70561,
+			70562,
+			70563,
+			70564,
+			70565,
+			70566,
+			70567,
+			70568,
+			70569,
+			70570,
+			70571,
+			70572,
+			70573,
+			70574,
+			70575,
+			70576,
+			70577,
+			70578,
+			70579,
+			70580,
+			70581,
+			70582,
+			70583,
+			70584,
+			70585,
+			70586,
+			70587,
+			70588,
+			70589,
+			70590,
+			70591,
+			70592,
+			70593,
+			70594,
+			70595,
+			70596,
+			70597,
+			70598,
+			70599,
+			70600,
+			70601,
+			70602,
+			70603,
+			70604,
+			70605,
+			70606,
+			70607,
+			70608,
+			70609,
+			70610,
+			70611,
+			70612,
+			70613,
+			70614,
+			70615,
+			70616,
+			70617,
+			70618,
+			70619,
+			70620,
+			70621,
+			70622,
+			70623,
+			70624,
+			70625,
+			70626,
+			70627,
+			70628,
+			70629,
+			70630,
+			70631,
+			70632,
+			70633,
+			70634,
+			70635,
+			70636,
+			70637,
+			70638,
+			70639,
+			70640,
+			70641,
+			70642,
+			70643,
+			70644,
+			70645,
+			70646,
+			70647,
+			70648,
+			70649,
+			70650,
+			70651,
+			70652,
+			70653,
+			70654,
+			70655,
+			70656,
+			70657,
+			70658,
+			70659,
+			70660,
+			70661,
+			70662,
+			70663,
+			70664,
+			70665,
+			70666,
+			70667,
+			70668,
+			70669,
+			70670,
+			70671,
+			70672,
+			70673,
+			70674,
+			70675,
+			70676,
+			70677,
+			70678,
+			70679,
+			70680,
+			70681,
+			70682,
+			70683,
+			70684,
+			70685,
+			70686,
+			70687,
+			70688,
+			70689,
+			70690,
+			70691,
+			70692,
+			70693,
+			70694,
+			70695,
+			70696,
+			70697,
+			70698,
+			70699,
+			70700,
+			70701,
+			70702,
+			70703,
+			70704,
+			70705,
+			70706,
+			70707,
+			70708,
+			70709,
+			70710,
+			70711,
+			70712,
+			70713,
+			70714,
+			70715,
+			70716,
+			70717,
+			70718,
+			70719,
+			70720,
+			70721,
+			70722,
+			70723,
+			70724,
+			70725,
+			70726,
+			70727,
+			70728,
+			70729,
+			70730,
+			70731,
+			70732,
+			70733,
+			70734,
+			70735,
+			70736,
+			70737,
+			70738,
+			70739,
+			70740,
+			70741,
+			70742,
+			70743,
+			70744,
+			70745,
+			70746,
+			70747,
+			70748,
+			70749,
+			70750,
+			70751,
+			70752,
+			70753,
+			70754,
+			70755,
+			70756,
+			70757,
+			70758,
+			70759,
+			70760,
+			70761,
+			70762,
+			70763,
+			70764,
+			70765,
+			70766,
+			70767,
+			70768,
+			70769,
+			70770,
+			70771,
+			70772,
+			70773,
+			70774,
+			70775,
+			70776,
+			70777,
+			70778,
+			70779,
+			70780,
+			70781,
+			70782,
+			70783,
+			70784,
+			70785,
+			70786,
+			70788,
+			70789,
+			70790,
+			70791,
+			70792,
+			70804,
+			70805,
+			70806,
+			70807,
+			70808,
+			70809,
+			70810,
+			70811,
+			70812,
+			70813,
+			70814,
+			70815,
+			70816,
+			70817,
+			70818,
+			70819,
+			70820,
+			70821,
+			70822,
+			70823,
+			70824,
+			70825,
+			70826,
+			70827,
+			70828,
+			70829,
+			70830,
+			70831,
+			70832,
+			70833,
+			70834,
+			70835,
+			70836,
+			70837,
+			70838,
+			70839,
+			70840,
+			70841,
+			70842,
+			70843,
+			70844,
+			70845,
+			70846,
+			70847,
+			70848,
+			70849,
+			70850,
+			70851,
+			70852,
+			70853,
+			70854,
+			70855,
+			70856,
+			70857,
+			70858,
+			70859,
+			70860,
+			70861,
+			70862,
+			70863,
+			70864,
+			70865,
+			70866,
+			70867,
+			70868,
+			70869,
+			70870,
+			70871,
+			70872,
+			70873,
+			70874,
+			70890,
+			70891,
+			70892,
+			70893,
+			70894,
+			70895,
+			70896,
+			70897,
+			70898,
+			70899,
+			70900,
+			70901,
+			70902,
+			70903,
+			70904,
+			70905,
+			70906,
+			70907,
+			70908,
+			70909,
+			70910,
+			70911,
+			70912,
+			70913,
+			70914,
+			70915,
+			70920,
+			70921,
+			70922,
+			70923,
+			70924,
+			70925,
+			70926,
+			71234,
+			71235,
+			71236
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65107,
+				200
+			}
+		},
+		scene = {
+			"NEW_SHOP"
 		}
 	}
 end)()
@@ -339675,6 +365237,892 @@ end)()
 			{
 				2,
 				42056,
+				30
+			}
+		},
+		scene = {
+			"SELTECHNOLOGY"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[51221] = {
+		name = "科研7期测试经验追赶1",
+		guild_coin_award = 1,
+		award = 9352,
+		type = 26,
+		desc = "Complete 3 Daily Challenges.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 51221,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20107,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[51222] = {
+		name = "科研7期测试经验追赶2",
+		guild_coin_award = 2,
+		award = 9353,
+		type = 26,
+		desc = "Complete 30 Daily Challenges.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 51222,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20107,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[51223] = {
+		name = "科研7期测试经验追赶3",
+		guild_coin_award = 3,
+		award = 9352,
+		type = 26,
+		desc = "Sortie and clear 3 non-event Hard Mode stages.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 51223,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20107,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[51224] = {
+		name = "科研7期测试经验追赶4",
+		guild_coin_award = 4,
+		award = 9353,
+		type = 26,
+		desc = "Sortie and clear 30 non-event Hard Mode Stages.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 51224,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20107,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[51225] = {
+		name = "科研7期测试经验追赶5",
+		guild_coin_award = 5,
+		award = 9352,
+		type = 26,
+		desc = "Complete 5 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 51225,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20107,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[51226] = {
+		name = "科研7期测试经验追赶6",
+		guild_coin_award = 6,
+		award = 9353,
+		type = 26,
+		desc = "Complete 50 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 51226,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20107,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[51227] = {
+		name = "科研7期测试经验追赶7",
+		guild_coin_award = 7,
+		award = 9354,
+		type = 26,
+		desc = "Complete 100 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 51227,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[51228] = {
+		name = "科研7期测试经验追赶8",
+		guild_coin_award = 8,
+		award = 9352,
+		type = 26,
+		desc = "Complete 1 Research Project.",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 51228,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20107,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[51229] = {
+		name = "科研7期测试经验追赶9",
+		guild_coin_award = 9,
+		award = 9353,
+		type = 26,
+		desc = "Complete 10 Research Projects.",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 51229,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20107,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[51230] = {
+		name = "科研7期测试经验追赶10",
+		guild_coin_award = 10,
+		award = 9354,
+		type = 26,
+		desc = "Complete 20 Research Projects.",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 51230,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20107,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[51231] = {
+		name = "科研7期测试经验追赶11",
+		guild_coin_award = 11,
+		award = 9355,
+		type = 26,
+		desc = "Complete 30 Research Projects.",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 51231,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20107,
+				40
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[51232] = {
+		name = "科研7期测试经验追赶12",
+		guild_coin_award = 12,
+		award = 9353,
+		type = 26,
+		desc = "Build 10 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 51232,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20107,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[51233] = {
+		name = "科研7期测试经验追赶13",
+		guild_coin_award = 13,
+		award = 9353,
+		type = 26,
+		desc = "Build 20 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 51233,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20107,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[51234] = {
+		name = "科研7期测试经验追赶14",
+		guild_coin_award = 14,
+		award = 9356,
+		type = 26,
+		desc = "Make a Promise to any ship.",
+		count_inherit = 0,
+		sub_type = 1015,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 51234,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20107,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[51235] = {
+		name = "科研7期测试经验追赶15",
+		guild_coin_award = 15,
+		award = 9352,
+		type = 26,
+		desc = "Get any ship to Level 105.",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 51235,
+		target_num = 105,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20107,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[51236] = {
+		name = "科研7期测试经验追赶16",
+		guild_coin_award = 16,
+		award = 9353,
+		type = 26,
+		desc = "Get any ship to Level 115.",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 51236,
+		target_num = 115,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20107,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[51237] = {
+		name = "科研7期测试经验追赶17",
+		guild_coin_award = 17,
+		award = 9352,
+		type = 26,
+		desc = "Clear 8-4.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "804",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 51237,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20107,
+				10
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 8,
+				chapterId = 804
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[51238] = {
+		name = "科研7期测试经验追赶18",
+		guild_coin_award = 18,
+		award = 9353,
+		type = 26,
+		desc = "Clear 9-4.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "904",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 51238,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20107,
+				20
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 9,
+				chapterId = 904
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[51239] = {
+		name = "科研7期测试经验追赶19",
+		guild_coin_award = 19,
+		award = 9354,
+		type = 26,
+		desc = "Clear 10-4.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1004",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 51239,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20107,
+				30
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 10,
+				chapterId = 1004
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[51240] = {
+		name = "科研7期测试经验追赶20",
+		guild_coin_award = 20,
+		award = 9357,
+		type = 26,
+		desc = "Finish building any Series 7 PR or DR ship.",
+		count_inherit = 0,
+		sub_type = 1014,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 51240,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			19905,
+			39907,
+			69902,
+			79902,
+			89904
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				42066,
 				30
 			}
 		},
@@ -347573,13 +374021,17 @@ end)()
 		next_task = "0",
 		auto_commit = 0,
 		story_icon_shift = "",
-		target_id = "611",
 		scene = "",
 		tutorial_handbook_pic = "",
 		id = 56063,
 		target_num = 1,
 		activity_client_config = "",
 		added_tip = 0,
+		target_id = {
+			611,
+			612,
+			613
+		},
 		open_need = {},
 		award_display = {}
 	}
@@ -370046,7 +396498,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901137,
 		type = 6,
-		desc = "Spent a total of 1,000 Oil.",
+		desc = "Spend a total of 1000 Oil.",
 		count_inherit = 0,
 		sub_type = 121,
 		target_id_2 = "",
@@ -370132,7 +396584,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901137,
 		type = 6,
-		desc = "Spent a total of 2,000 Oil.",
+		desc = "Spend a total of 2000 Oil.",
 		count_inherit = 0,
 		sub_type = 121,
 		target_id_2 = "",
@@ -370218,7 +396670,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901137,
 		type = 6,
-		desc = "Spent a total of 3,000 Oil.",
+		desc = "Spend a total of 3000 Oil.",
 		count_inherit = 0,
 		sub_type = 121,
 		target_id_2 = "",
@@ -370390,7 +396842,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901137,
 		type = 6,
-		desc = "Spent a total of 5,000 Oil.",
+		desc = "Spend a total of 5000 Oil.",
 		count_inherit = 0,
 		sub_type = 121,
 		target_id_2 = "",
@@ -370605,7 +397057,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901139,
 		type = 6,
-		desc = "Spent a total of 10,000 Oil.",
+		desc = "Spend a total of 10,000 Oil.",
 		count_inherit = 0,
 		sub_type = 121,
 		target_id_2 = "",
@@ -372613,7 +399065,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901165,
 		type = 36,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -372656,7 +399108,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901165,
 		type = 36,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -372699,7 +399151,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901165,
 		type = 36,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -372742,7 +399194,7 @@ end)()
 		guild_coin_award = 0,
 		award = 901166,
 		type = 6,
-		desc = "Log in once.",
+		desc = "Log in to the game.",
 		count_inherit = 0,
 		sub_type = 1011,
 		target_id_2 = "",
@@ -372774,6 +399226,3562 @@ end)()
 				5,
 				269,
 				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90201] = {
+		name = "【人气投票第5期】累计完成军事委托1",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Complete 4 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90201,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90202] = {
+		name = "【人气投票第5期】累计完成军事委托2",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Complete 8 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90202,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90203] = {
+		name = "【人气投票第5期】累计完成军事委托3",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Complete 12 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90203,
+		target_num = 12,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90204] = {
+		name = "【人气投票第5期】累计完成军事委托4",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Complete 16 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90204,
+		target_num = 16,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90205] = {
+		name = "【人气投票第5期】累计完成军事委托5",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Complete 20 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90205,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90206] = {
+		name = "【人气投票第5期】累计完成军事委托6",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Complete 24 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90206,
+		target_num = 24,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90207] = {
+		name = "【人气投票第5期】累计完成军事委托7",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Complete 28 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90207,
+		target_num = 28,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90208] = {
+		name = "【人气投票第5期】累计完成军事委托8",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Complete 32 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90208,
+		target_num = 32,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90209] = {
+		name = "【人气投票第5期】累计完成军事委托9",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Complete 36 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90209,
+		target_num = 36,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90210] = {
+		name = "【人气投票第5期】累计完成军事委托10",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Complete 40 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90210,
+		target_num = 40,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90211] = {
+		name = "【人气投票第5期】累计完成军事委托11",
+		guild_coin_award = 0,
+		award = 908129,
+		type = 6,
+		desc = "Complete 50 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90211,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90212] = {
+		name = "【人气投票第5期】累计完成军事委托12",
+		guild_coin_award = 0,
+		award = 908129,
+		type = 6,
+		desc = "Complete 60 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90212,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90213] = {
+		name = "【人气投票第5期】累计完成军事委托13",
+		guild_coin_award = 0,
+		award = 908129,
+		type = 6,
+		desc = "Complete 70 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90213,
+		target_num = 70,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90214] = {
+		name = "【人气投票第5期】累计完成军事委托14",
+		guild_coin_award = 0,
+		award = 908129,
+		type = 6,
+		desc = "Complete 80 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90214,
+		target_num = 80,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90215] = {
+		name = "【人气投票第5期】累计完成军事委托15",
+		guild_coin_award = 0,
+		award = 908129,
+		type = 6,
+		desc = "Complete 100 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90215,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90216] = {
+		name = "【人气投票第5期】累计消耗石油1",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Spend a total of 500 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90216,
+		target_num = 500,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90217] = {
+		name = "【人气投票第5期】累计消耗石油2",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Spend a total of 1000 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90217,
+		target_num = 1000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90218] = {
+		name = "【人气投票第5期】累计消耗石油3",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Spent a total of 1,500 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90218,
+		target_num = 1500,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90219] = {
+		name = "【人气投票第5期】累计消耗石油4",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Spend a total of 2000 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90219,
+		target_num = 2000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90220] = {
+		name = "【人气投票第5期】累计消耗石油5",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Spent a total of 2,500 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90220,
+		target_num = 2500,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90221] = {
+		name = "【人气投票第5期】累计消耗石油6",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Spend a total of 3000 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90221,
+		target_num = 3000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90222] = {
+		name = "【人气投票第5期】累计消耗石油7",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Spent a total of 3,500 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90222,
+		target_num = 3500,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90223] = {
+		name = "【人气投票第5期】累计消耗石油8",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Spent a total of 4,000 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90223,
+		target_num = 4000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90224] = {
+		name = "【人气投票第5期】累计消耗石油9",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Spent a total of 4,500 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90224,
+		target_num = 4500,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90225] = {
+		name = "【人气投票第5期】累计消耗石油10",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Spend a total of 5000 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90225,
+		target_num = 5000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90226] = {
+		name = "【人气投票第5期】累计消耗石油11",
+		guild_coin_award = 0,
+		award = 908129,
+		type = 6,
+		desc = "Spent a total of 6,000 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90226,
+		target_num = 6000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90227] = {
+		name = "【人气投票第5期】累计消耗石油12",
+		guild_coin_award = 0,
+		award = 908129,
+		type = 6,
+		desc = "Spent a total of 7,000 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90227,
+		target_num = 7000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90228] = {
+		name = "【人气投票第5期】累计消耗石油13",
+		guild_coin_award = 0,
+		award = 908129,
+		type = 6,
+		desc = "Spent a total of 8,000 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90228,
+		target_num = 8000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90229] = {
+		name = "【人气投票第5期】累计消耗石油14",
+		guild_coin_award = 0,
+		award = 908129,
+		type = 6,
+		desc = "Spent a total of 9,000 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90229,
+		target_num = 9000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90230] = {
+		name = "【人气投票第5期】累计消耗石油15",
+		guild_coin_award = 0,
+		award = 908129,
+		type = 6,
+		desc = "Spend a total of 10,000 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90230,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90231] = {
+		name = "【人气投票第5期】累计获取舰船经验1",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Earn a total of 10,000 EXP from sorties.",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 90231,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90232] = {
+		name = "【人气投票第5期】累计获取舰船经验2",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Earn a total of 20,000 EXP from sorties.",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 90232,
+		target_num = 20000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90233] = {
+		name = "【人气投票第5期】累计获取舰船经验3",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Earn a total of 30,000 EXP from sorties.",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 90233,
+		target_num = 30000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90234] = {
+		name = "【人气投票第5期】累计获取舰船经验4",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Earn a total of 40,000 EXP from sorties.",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 90234,
+		target_num = 40000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90235] = {
+		name = "【人气投票第5期】累计获取舰船经验5",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Earn a total of 50,000 EXP from sorties.",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 90235,
+		target_num = 50000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90236] = {
+		name = "【人气投票第5期】累计获取舰船经验6",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Earn a total of 60,000 EXP from sorties.",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 90236,
+		target_num = 60000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90237] = {
+		name = "【人气投票第5期】累计获取舰船经验7",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Earn a total of 70,000 EXP from sorties.",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 90237,
+		target_num = 70000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90238] = {
+		name = "【人气投票第5期】累计获取舰船经验8",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Earn a total of 80,000 EXP from sorties.",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 90238,
+		target_num = 80000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90239] = {
+		name = "【人气投票第5期】累计获取舰船经验9",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Earn a total of 90,000 EXP from sorties.",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 90239,
+		target_num = 90000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90240] = {
+		name = "【人气投票第5期】累计获取舰船经验10",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Earn a total of 100,000 EXP from sorties.",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 90240,
+		target_num = 100000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90241] = {
+		name = "【人气投票第5期】累计获取舰船经验11",
+		guild_coin_award = 0,
+		award = 908129,
+		type = 6,
+		desc = "Earn a total of 120,000 EXP from sorties.",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 90241,
+		target_num = 120000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				20
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90242] = {
+		name = "【人气投票第5期】累计获取舰船经验12",
+		guild_coin_award = 0,
+		award = 908129,
+		type = 6,
+		desc = "Earn a total of 140,000 EXP from sorties.",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 90242,
+		target_num = 140000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				20
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90243] = {
+		name = "【人气投票第5期】累计获取舰船经验13",
+		guild_coin_award = 0,
+		award = 908129,
+		type = 6,
+		desc = "Earn a total of 160,000 EXP from sorties.",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 90243,
+		target_num = 160000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				20
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90244] = {
+		name = "【人气投票第5期】累计获取舰船经验14",
+		guild_coin_award = 0,
+		award = 908129,
+		type = 6,
+		desc = "Earn a total of 180,000 EXP from sorties.",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 90244,
+		target_num = 180000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				20
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90245] = {
+		name = "【人气投票第5期】累计获取舰船经验15",
+		guild_coin_award = 0,
+		award = 908129,
+		type = 6,
+		desc = "Earn a total of 200,000 EXP from sorties.",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 90245,
+		target_num = 200000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				20
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90246] = {
+		name = "【人气投票第5期】累计战术训练1",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Conduct tactical training 1 time.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90246,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90247] = {
+		name = "【人气投票第5期】累计战术训练2",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Conduct tactical training 3 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90247,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90248] = {
+		name = "【人气投票第5期】累计战术训练3",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Conduct tactical training 6 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90248,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90249] = {
+		name = "【人气投票第5期】累计战术训练4",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Conduct tactical training 9 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90249,
+		target_num = 9,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90250] = {
+		name = "【人气投票第5期】累计战术训练5",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Conduct tactical training 12 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90250,
+		target_num = 12,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90251] = {
+		name = "【人气投票第5期】累计战术训练6",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Conduct tactical training 15 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90251,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90252] = {
+		name = "【人气投票第5期】累计战术训练7",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Conduct tactical training 18 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90252,
+		target_num = 18,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90253] = {
+		name = "【人气投票第5期】累计战术训练8",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Conduct tactical training 21 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90253,
+		target_num = 21,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90254] = {
+		name = "【人气投票第5期】累计战术训练9",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Conduct tactical training 24 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90254,
+		target_num = 24,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90255] = {
+		name = "【人气投票第5期】累计战术训练10",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Conduct tactical training 27 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90255,
+		target_num = 27,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90256] = {
+		name = "【人气投票第5期】累计战术训练11",
+		guild_coin_award = 0,
+		award = 908129,
+		type = 6,
+		desc = "Conduct tactical training 30 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90256,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90257] = {
+		name = "【人气投票第5期】累计战术训练12",
+		guild_coin_award = 0,
+		award = 908129,
+		type = 6,
+		desc = "Conduct tactical training 35 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90257,
+		target_num = 35,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90258] = {
+		name = "【人气投票第5期】累计战术训练13",
+		guild_coin_award = 0,
+		award = 908129,
+		type = 6,
+		desc = "Conduct tactical training 40 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90258,
+		target_num = 40,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90259] = {
+		name = "【人气投票第5期】累计战术训练14",
+		guild_coin_award = 0,
+		award = 908129,
+		type = 6,
+		desc = "Conduct tactical training 45 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90259,
+		target_num = 45,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90260] = {
+		name = "【人气投票第5期】累计战术训练15",
+		guild_coin_award = 0,
+		award = 908129,
+		type = 6,
+		desc = "Conduct tactical training 50 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90260,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90261] = {
+		name = "【人气投票第5期】累计舰船强化1",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Enhance ship 5 times.",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90261,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90262] = {
+		name = "【人气投票第5期】累计舰船强化2",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Enhance ships 10 times.",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90262,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90263] = {
+		name = "【人气投票第5期】累计舰船强化3",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Enhance ships 20 times.",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90263,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90264] = {
+		name = "【人气投票第5期】累计舰船强化4",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Enhance ships 30 times.",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90264,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90265] = {
+		name = "【人气投票第5期】累计舰船强化5",
+		guild_coin_award = 0,
+		award = 908129,
+		type = 6,
+		desc = "Enhance ships 50 times.",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90265,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90266] = {
+		name = "【人气投票第5期】累计强化装备1",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Enhance gear 2 times.",
+		count_inherit = 0,
+		sub_type = 40,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90266,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90267] = {
+		name = "【人气投票第5期】累计强化装备2",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Enhance gear 4 times.",
+		count_inherit = 0,
+		sub_type = 40,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90267,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90268] = {
+		name = "【人气投票第5期】累计强化装备3",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Enhance gear 6 times.",
+		count_inherit = 0,
+		sub_type = 40,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90268,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90269] = {
+		name = "【人气投票第5期】累计强化装备4",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Enhance gear 8 times.",
+		count_inherit = 0,
+		sub_type = 40,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90269,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90270] = {
+		name = "【人气投票第5期】累计强化装备5",
+		guild_coin_award = 0,
+		award = 908129,
+		type = 6,
+		desc = "Enhance gear 10 times.",
+		count_inherit = 0,
+		sub_type = 40,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90270,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90271] = {
+		name = "【人气投票第5期】累计后宅补充食物1",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Supply 5,000 snacks to your Dorm.",
+		count_inherit = 0,
+		sub_type = 60,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90271,
+		target_num = 5000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90272] = {
+		name = "【人气投票第5期】累计后宅补充食物2",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Supply 10,000 snacks to your Dorm.",
+		count_inherit = 0,
+		sub_type = 60,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90272,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90273] = {
+		name = "【人气投票第5期】累计后宅补充食物3",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Supply 20,000 snacks to your Dorm.",
+		count_inherit = 0,
+		sub_type = 60,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90273,
+		target_num = 20000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90274] = {
+		name = "【人气投票第5期】累计后宅补充食物4",
+		guild_coin_award = 0,
+		award = 908127,
+		type = 6,
+		desc = "Supply 40,000 snacks to your Dorm.",
+		count_inherit = 0,
+		sub_type = 60,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90274,
+		target_num = 40000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90275] = {
+		name = "【人气投票第5期】累计后宅补充食物5",
+		guild_coin_award = 0,
+		award = 908129,
+		type = 6,
+		desc = "Supply 60,000 snacks to your Dorm.",
+		count_inherit = 0,
+		sub_type = 60,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90275,
+		target_num = 60000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65756,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90305] = {
+		name = "【人气投票第5期】趣味投票1登陆送投票券",
+		guild_coin_award = 0,
+		award = 908155,
+		type = 36,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90305,
+		target_num = 25,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65757,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90306] = {
+		name = "【人气投票第5期】趣味投票2登陆送投票券",
+		guild_coin_award = 0,
+		award = 908155,
+		type = 36,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90306,
+		target_num = 25,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65757,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90307] = {
+		name = "【人气投票第5期】趣味投票3登陆送投票券",
+		guild_coin_award = 0,
+		award = 908155,
+		type = 36,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90307,
+		target_num = 25,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65757,
+				20
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90308] = {
+		name = "【人气投票第5期】纪念家具赠送",
+		guild_coin_award = 0,
+		award = 908156,
+		type = 6,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 25,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90308,
+		target_num = 25,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				269,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90309] = {
+		name = "【情人节2026】签到活动1",
+		guild_coin_award = 0,
+		award = 908641,
+		type = 6,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90309,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				120002,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90310] = {
+		name = "【情人节2026】签到活动2",
+		guild_coin_award = 0,
+		award = 908642,
+		type = 6,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90310,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				120002,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[90311] = {
+		name = "【情人节2026】签到活动2",
+		guild_coin_award = 0,
+		award = 908643,
+		type = 6,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 90311,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				120002,
+				100
 			}
 		}
 	}
@@ -379961,6 +409969,1359 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[500181] = {
+		name = "Taking Shelter at Capacitor City",
+		guild_coin_award = 0,
+		award = 500181,
+		type = 5,
+		desc = "Acquire 3 \"Torpedo Tempura\" (will be automatically consumed).",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "qisheng",
+		is_head = 1,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500182",
+		auto_commit = 0,
+		target_id = "50003",
+		story_id = "QISHENG1",
+		tutorial_handbook_pic = "",
+		id = 500181,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		story_icon_shift = {
+			0,
+			50
+		},
+		scene = {
+			"BACKYARD"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500182] = {
+		name = "Automatic Sprinkler",
+		guild_coin_award = 0,
+		award = 500182,
+		type = 5,
+		desc = "Enhance any character 10 times.",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "qisheng",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "QISHENG2",
+		ryza_icon = "",
+		next_task = "500183",
+		auto_commit = 0,
+		fix_task = 0,
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500182,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		story_icon_shift = {
+			0,
+			50
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500183] = {
+		name = "Predictable Problems",
+		guild_coin_award = 0,
+		award = 500183,
+		type = 5,
+		desc = "Sortie and obtain 20 victories with De Zeven Provinciën in the fleet.",
+		count_inherit = 0,
+		sub_type = 18,
+		target_id_2 = "",
+		story_icon = "qisheng",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "QISHENG3",
+		ryza_icon = "",
+		next_task = "500184",
+		auto_commit = 0,
+		fix_task = 0,
+		target_id = "110201",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500183,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		story_icon_shift = {
+			0,
+			50
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500184] = {
+		name = "Coffee for Your Beloved",
+		guild_coin_award = 0,
+		award = 500184,
+		type = 5,
+		desc = "Spend a total of 500 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "qisheng",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "QISHENG4",
+		ryza_icon = "",
+		next_task = "500185",
+		auto_commit = 0,
+		fix_task = 0,
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500184,
+		target_num = 500,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		story_icon_shift = {
+			0,
+			50
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500185] = {
+		name = "The Coffee Trial",
+		guild_coin_award = 0,
+		award = 500185,
+		type = 5,
+		desc = "Reach 100 Affinity with De Zeven Provinciën.",
+		count_inherit = 0,
+		sub_type = 1012,
+		target_id_2 = "",
+		story_icon = "qisheng",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "QISHENG5",
+		ryza_icon = "",
+		next_task = "500186",
+		auto_commit = 0,
+		fix_task = 0,
+		target_id = "110201",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500185,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16022,
+				1
+			}
+		},
+		story_icon_shift = {
+			0,
+			50
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500186] = {
+		name = "One Little Wish",
+		guild_coin_award = 0,
+		award = 500186,
+		type = 5,
+		desc = "Fully Limit Break De Zeven Provinciën.",
+		count_inherit = 0,
+		sub_type = 33,
+		target_id_2 = "",
+		story_icon = "qisheng",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "QISHENG6",
+		ryza_icon = "",
+		next_task = "500187",
+		auto_commit = 0,
+		fix_task = 0,
+		target_id = "110201",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500186,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		},
+		story_icon_shift = {
+			0,
+			50
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500187] = {
+		name = "Operation: Learn to Make Coffee",
+		guild_coin_award = 0,
+		award = 500187,
+		type = 5,
+		desc = "Get De Zeven Provinciën to Level 100.",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "qisheng",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "QISHENG7",
+		ryza_icon = "",
+		next_task = "0",
+		auto_commit = 0,
+		fix_task = 0,
+		target_id = "110201",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500187,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		story_icon_shift = {
+			0,
+			50
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500191] = {
+		name = "Imperfect Data",
+		guild_coin_award = 0,
+		award = 500191,
+		type = 5,
+		desc = "Acquire 3 \"Torpedo Tempura\" (will be automatically consumed).",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "fage",
+		is_head = 1,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500192",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "50003",
+		story_id = "FAGE1",
+		tutorial_handbook_pic = "",
+		id = 500191,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500192] = {
+		name = "Module Disabling Protocol",
+		guild_coin_award = 0,
+		award = 500192,
+		type = 5,
+		desc = "Enhance any character 10 times.",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "fage",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "FAGE2",
+		ryza_icon = "",
+		next_task = "500193",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "0",
+		tutorial_handbook_pic = "",
+		id = 500192,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500193] = {
+		name = "Going by Instinct",
+		guild_coin_award = 0,
+		award = 500193,
+		type = 5,
+		desc = "Sortie and obtain 20 victories with Fargo in the fleet.",
+		count_inherit = 0,
+		sub_type = 18,
+		target_id_2 = "",
+		story_icon = "fage",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "FAGE3",
+		ryza_icon = "",
+		next_task = "500194",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "10233",
+		tutorial_handbook_pic = "",
+		id = 500193,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500194] = {
+		name = "50.00% Happiness",
+		guild_coin_award = 0,
+		award = 500194,
+		type = 5,
+		desc = "Spend a total of 500 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "fage",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "FAGE4",
+		ryza_icon = "",
+		next_task = "500195",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "0",
+		tutorial_handbook_pic = "",
+		id = 500194,
+		target_num = 500,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500195] = {
+		name = "Roller Coaster of Logic",
+		guild_coin_award = 0,
+		award = 500195,
+		type = 5,
+		desc = "Reach 100 Affinity with Fargo.",
+		count_inherit = 0,
+		sub_type = 1012,
+		target_id_2 = "",
+		story_icon = "fage",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "FAGE5",
+		ryza_icon = "",
+		next_task = "500196",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "10233",
+		tutorial_handbook_pic = "",
+		id = 500195,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16022,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500196] = {
+		name = "Return-to-Zero Operation",
+		guild_coin_award = 0,
+		award = 500196,
+		type = 5,
+		desc = "Fully Limit Break Fargo.",
+		count_inherit = 0,
+		sub_type = 33,
+		target_id_2 = "",
+		story_icon = "fage",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "FAGE6",
+		ryza_icon = "",
+		next_task = "500197",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "10233",
+		tutorial_handbook_pic = "",
+		id = 500196,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500197] = {
+		name = "Midnight Magic",
+		guild_coin_award = 0,
+		award = 500197,
+		type = 5,
+		desc = "Get Fargo to Level 100.",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "fage",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "FAGE7",
+		ryza_icon = "",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "10233",
+		tutorial_handbook_pic = "",
+		id = 500197,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500201] = {
+		name = "Project Glorify the Office",
+		guild_coin_award = 0,
+		award = 500201,
+		type = 5,
+		desc = "Acquire 3 \"Torpedo Tempura\" (will be automatically consumed).",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "weineituo",
+		is_head = 1,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500202",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "50003",
+		story_id = "WEINEITUO1",
+		tutorial_handbook_pic = "",
+		id = 500201,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500202] = {
+		name = "A Lovely Time in the Garden",
+		guild_coin_award = 0,
+		award = 500202,
+		type = 5,
+		desc = "Enhance any character 10 times.",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "weineituo",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "WEINEITUO2",
+		ryza_icon = "",
+		next_task = "500203",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "0",
+		tutorial_handbook_pic = "",
+		id = 500202,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500203] = {
+		name = "The Resonance of Art",
+		guild_coin_award = 0,
+		award = 500203,
+		type = 5,
+		desc = "Sortie and obtain 20 victories with Vittorio Veneto in the fleet.",
+		count_inherit = 0,
+		sub_type = 18,
+		target_id_2 = "",
+		story_icon = "weineituo",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "WEINEITUO3",
+		ryza_icon = "",
+		next_task = "500204",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "60501",
+		tutorial_handbook_pic = "",
+		id = 500203,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500204] = {
+		name = "Bathing Prep",
+		guild_coin_award = 0,
+		award = 500204,
+		type = 5,
+		desc = "Spend a total of 500 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "weineituo",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "WEINEITUO4",
+		ryza_icon = "",
+		next_task = "500205",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "0",
+		tutorial_handbook_pic = "",
+		id = 500204,
+		target_num = 500,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500205] = {
+		name = "Permeating Warmth",
+		guild_coin_award = 0,
+		award = 500205,
+		type = 5,
+		desc = "Reach 100 Affinity with Vittorio Veneto.",
+		count_inherit = 0,
+		sub_type = 1012,
+		target_id_2 = "",
+		story_icon = "weineituo",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "WEINEITUO5",
+		ryza_icon = "",
+		next_task = "500206",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "60501",
+		tutorial_handbook_pic = "",
+		id = 500205,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500206] = {
+		name = "Fingertip Rhythm",
+		guild_coin_award = 0,
+		award = 500206,
+		type = 5,
+		desc = "Fully Limit Break Vittorio Veneto.",
+		count_inherit = 0,
+		sub_type = 33,
+		target_id_2 = "",
+		story_icon = "weineituo",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "WEINEITUO6",
+		ryza_icon = "",
+		next_task = "500207",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "60501",
+		tutorial_handbook_pic = "",
+		id = 500206,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18022,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500207] = {
+		name = "More Advanced",
+		guild_coin_award = 0,
+		award = 500207,
+		type = 5,
+		desc = "Get Vittorio Veneto to Level 100.",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "weineituo",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "WEINEITUO7",
+		ryza_icon = "",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "60501",
+		tutorial_handbook_pic = "",
+		id = 500207,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18023,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500211] = {
+		name = "Crisis Looms",
+		guild_coin_award = 0,
+		award = 500211,
+		type = 5,
+		desc = "Acquire 3 \"Torpedo Tempura\" (will be automatically consumed).",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "dingan",
+		is_head = 1,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500212",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "50003",
+		story_id = "DINGAN1",
+		tutorial_handbook_pic = "",
+		id = 500211,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500212] = {
+		name = "Who to Investigate?",
+		guild_coin_award = 0,
+		award = 500212,
+		type = 5,
+		desc = "Enhance any character 10 times.",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "dingan",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DINGAN2",
+		ryza_icon = "",
+		next_task = "500213",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "0",
+		tutorial_handbook_pic = "",
+		id = 500212,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500213] = {
+		name = "Guaranteed Loss!",
+		guild_coin_award = 0,
+		award = 500213,
+		type = 5,
+		desc = "Sortie and obtain 20 victories with Ting An in the fleet.",
+		count_inherit = 0,
+		sub_type = 18,
+		target_id_2 = "",
+		story_icon = "dingan",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DINGAN3",
+		ryza_icon = "",
+		next_task = "500214",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "51901",
+		tutorial_handbook_pic = "",
+		id = 500213,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500214] = {
+		name = "The Secret to Profit",
+		guild_coin_award = 0,
+		award = 500214,
+		type = 5,
+		desc = "Spend a total of 500 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "dingan",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DINGAN4",
+		ryza_icon = "",
+		next_task = "500215",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "0",
+		tutorial_handbook_pic = "",
+		id = 500214,
+		target_num = 500,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500215] = {
+		name = "The Big Loss Plan 2.0",
+		guild_coin_award = 0,
+		award = 500215,
+		type = 5,
+		desc = "Reach 100 Affinity with Ting An.",
+		count_inherit = 0,
+		sub_type = 1012,
+		target_id_2 = "",
+		story_icon = "dingan",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DINGAN5",
+		ryza_icon = "",
+		next_task = "500216",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "51901",
+		tutorial_handbook_pic = "",
+		id = 500215,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16022,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500216] = {
+		name = "What Did We Sell?",
+		guild_coin_award = 0,
+		award = 500216,
+		type = 5,
+		desc = "Fully Limit Break Ting An.",
+		count_inherit = 0,
+		sub_type = 33,
+		target_id_2 = "",
+		story_icon = "dingan",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DINGAN6",
+		ryza_icon = "",
+		next_task = "500217",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "51901",
+		tutorial_handbook_pic = "",
+		id = 500216,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18032,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500217] = {
+		name = "True Profit",
+		guild_coin_award = 0,
+		award = 500217,
+		type = 5,
+		desc = "Get Ting An to Level 100.",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "dingan",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DINGAN7",
+		ryza_icon = "",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "51901",
+		tutorial_handbook_pic = "",
+		id = 500217,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18032,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[999950] = {
 		name = "\"Dichotomous Chess\" - Opening",
 		guild_coin_award = 0,
@@ -380964,7 +412325,7 @@ end)()
 		guild_coin_award = 0,
 		award = 8567,
 		type = 36,
-		desc = "Sortie and obtain 15 victories",
+		desc = "Sortie and obtain 15 victories.",
 		count_inherit = 0,
 		sub_type = 20,
 		target_id_2 = "",
@@ -381064,7 +412425,7 @@ end)()
 		guild_coin_award = 0,
 		award = 1092572,
 		type = 6,
-		desc = "Spent a total of 1,000 Oil.",
+		desc = "Spend a total of 1000 Oil.",
 		count_inherit = 15352,
 		sub_type = 121,
 		target_id_2 = "",
@@ -381174,7 +412535,7 @@ end)()
 		guild_coin_award = 0,
 		award = 1092574,
 		type = 6,
-		desc = "Spent a total of 2,000 Oil.",
+		desc = "Spend a total of 2000 Oil.",
 		count_inherit = 15354,
 		sub_type = 121,
 		target_id_2 = "",
@@ -381284,7 +412645,7 @@ end)()
 		guild_coin_award = 0,
 		award = 1092576,
 		type = 6,
-		desc = "Spent a total of 3,000 Oil.",
+		desc = "Spend a total of 3000 Oil.",
 		count_inherit = 15356,
 		sub_type = 121,
 		target_id_2 = "",
@@ -381394,7 +412755,7 @@ end)()
 		guild_coin_award = 0,
 		award = 1092578,
 		type = 6,
-		desc = "Spent a total of 5,000 Oil.",
+		desc = "Spend a total of 5000 Oil.",
 		count_inherit = 15358,
 		sub_type = 121,
 		target_id_2 = "",
@@ -381669,7 +413030,7 @@ end)()
 		guild_coin_award = 0,
 		award = 1092583,
 		type = 6,
-		desc = "Spent a total of 10,000 Oil.",
+		desc = "Spend a total of 10,000 Oil.",
 		count_inherit = 15363,
 		sub_type = 121,
 		target_id_2 = "",

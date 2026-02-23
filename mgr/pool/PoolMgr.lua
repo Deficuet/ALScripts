@@ -450,7 +450,7 @@ function var_0_0.ExcessDymPainting(arg_36_0, arg_36_1)
 		end
 	elseif var_36_1 < #var_36_2 then
 		gcAll(false)
-	elseif var_0_10 >= 10 then
+	elseif var_0_10 >= 5 then
 		gcAll(false)
 	end
 end
@@ -570,7 +570,7 @@ function var_0_0.ReturnPrefab(arg_46_0, arg_46_1, arg_46_2, arg_46_3, arg_46_4)
 	local var_46_0 = arg_46_1
 
 	if IsNil(arg_46_3) then
-		Debugger.LogError(debug.traceback("empty go: " .. arg_46_2))
+		Debugger.LogError(debug.traceback("empty go: " .. arg_46_1))
 	elseif arg_46_0.pools_plural[var_46_0] then
 		if string.find(arg_46_1, "emoji/") == 1 then
 			local var_46_1 = arg_46_3:GetComponent(typeof(CriManaEffectUI))

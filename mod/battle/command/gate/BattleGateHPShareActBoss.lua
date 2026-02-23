@@ -200,4 +200,10 @@ function var_0_0.Exit(arg_4_0, arg_4_1)
 	arg_4_1:SendRequest(var_4_16, var_4_18)
 end
 
+function var_0_0.GetPreloadList(arg_7_0)
+	local var_7_0, var_7_1 = ys.Battle.BattleGateActBoss.GetPreloadList(arg_7_0)
+
+	return var_7_0, var_7_1
+end
+
 return var_0_0

@@ -45,6 +45,7 @@ function var_0_3.DoPrologue(arg_3_0)
 		arg_3_0._dataProxy:GetFleetByIFF(var_0_0.Battle.BattleConfig.FRIENDLY_CODE):FleetWarcry()
 		arg_3_0._dataProxy:InitAllFleetUnitsWeaponCD()
 		arg_3_0._dataProxy:TirggerBattleStartBuffs()
+		arg_3_0._dataProxy:ChapterSupportBarrage(var_0_0.Battle.BattleConfig.FRIENDLY_CODE, var_0_0.Battle.BattleConfig.SubSupportDelay)
 	end
 
 	arg_3_0._uiMediator:SeaSurfaceShift(45, 0, nil, var_3_0)
@@ -108,6 +109,7 @@ function var_0_3.initWaveModule(arg_12_0)
 			return
 		end
 
+		arg_12_0._dataProxy:TriggerFinishBattle()
 		arg_12_0:CalcStatistic()
 		arg_12_0._state:BattleEnd()
 	end
@@ -197,6 +199,7 @@ function var_0_3.onPlayerShutDown(arg_24_0, arg_24_1)
 	end
 
 	if arg_24_1.Data.unit == arg_24_0._userFleet:GetFlagShip() and arg_24_0._dataProxy:GetInitData().battleType ~= SYSTEM_PROLOGUE and arg_24_0._dataProxy:GetInitData().battleType ~= SYSTEM_PERFORM then
+		arg_24_0._dataProxy:TriggerFinishBattle()
 		arg_24_0:CalcStatistic()
 		arg_24_0._state:BattleEnd()
 
@@ -204,6 +207,7 @@ function var_0_3.onPlayerShutDown(arg_24_0, arg_24_1)
 	end
 
 	if #arg_24_0._userFleet:GetScoutList() == 0 then
+		arg_24_0._dataProxy:TriggerFinishBattle()
 		arg_24_0:CalcStatistic()
 		arg_24_0._state:BattleEnd()
 	end

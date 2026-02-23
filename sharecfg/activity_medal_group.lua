@@ -422,6 +422,116 @@ pg.activity_medal_group = {
 			}
 		}
 	},
+	[50295] = {
+		id = 50295,
+		entrance_picture = "medalAlbum/50295",
+		is_out_of_print = 0,
+		group_name = "A Note Through the Firmament",
+		activity_link = {
+			{
+				1,
+				50295,
+				{
+					21873,
+					21874,
+					21875,
+					21876,
+					21877,
+					21878,
+					21879,
+					21880,
+					21881,
+					21882
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "TianqiongMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{
+				5,
+				323,
+				1
+			},
+			{
+				8,
+				65785,
+				1
+			}
+		}
+	},
+	[50359] = {
+		id = 50359,
+		entrance_picture = "medalAlbum/50359",
+		is_out_of_print = 0,
+		group_name = "Light & Shadow Fashion Shoot!",
+		activity_link = {
+			{
+				1,
+				50359,
+				{
+					21883,
+					21884,
+					21885,
+					21886,
+					21887,
+					21888,
+					21889,
+					21890,
+					21891
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "SardiniaSPMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{},
+			{
+				8,
+				65802,
+				1
+			}
+		}
+	},
+	[50405] = {
+		id = 50405,
+		entrance_picture = "medalAlbum/50405",
+		is_out_of_print = 0,
+		group_name = "Spring Auction Adventure",
+		activity_link = {
+			{
+				1,
+				50405,
+				{
+					21892,
+					21893,
+					21894,
+					21895,
+					21896,
+					21897,
+					21898,
+					21899,
+					21900
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "DonghuangMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{},
+			{
+				8,
+				65848,
+				1
+			}
+		}
+	},
 	all = {
 		5711,
 		5769,
@@ -433,6 +543,9 @@ pg.activity_medal_group = {
 		50021,
 		50087,
 		50136,
-		50209
+		50209,
+		50295,
+		50359,
+		50405
 	}
 }

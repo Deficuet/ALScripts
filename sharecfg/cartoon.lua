@@ -2028,6 +2028,126 @@ pg.cartoon = {
 		resource = "338",
 		cartoon_id = 338
 	},
+	{
+		id = 339,
+		mark = 51,
+		resource = "339",
+		cartoon_id = 339
+	},
+	{
+		id = 340,
+		mark = 51,
+		resource = "340",
+		cartoon_id = 340
+	},
+	{
+		id = 341,
+		mark = 51,
+		resource = "341",
+		cartoon_id = 341
+	},
+	{
+		id = 342,
+		mark = 51,
+		resource = "342",
+		cartoon_id = 342
+	},
+	{
+		id = 343,
+		mark = 51,
+		resource = "343",
+		cartoon_id = 343
+	},
+	{
+		id = 344,
+		mark = 52,
+		resource = "344",
+		cartoon_id = 344
+	},
+	{
+		id = 345,
+		mark = 52,
+		resource = "345",
+		cartoon_id = 345
+	},
+	{
+		id = 346,
+		mark = 52,
+		resource = "346",
+		cartoon_id = 346
+	},
+	{
+		id = 347,
+		mark = 52,
+		resource = "347",
+		cartoon_id = 347
+	},
+	{
+		id = 348,
+		mark = 52,
+		resource = "348",
+		cartoon_id = 348
+	},
+	{
+		id = 349,
+		mark = 53,
+		resource = "349",
+		cartoon_id = 349
+	},
+	{
+		id = 350,
+		mark = 53,
+		resource = "350",
+		cartoon_id = 350
+	},
+	{
+		id = 351,
+		mark = 53,
+		resource = "351",
+		cartoon_id = 351
+	},
+	{
+		id = 352,
+		mark = 53,
+		resource = "352",
+		cartoon_id = 352
+	},
+	{
+		id = 353,
+		mark = 53,
+		resource = "353",
+		cartoon_id = 353
+	},
+	{
+		id = 354,
+		mark = 54,
+		resource = "354",
+		cartoon_id = 354
+	},
+	{
+		id = 355,
+		mark = 54,
+		resource = "355",
+		cartoon_id = 355
+	},
+	{
+		id = 356,
+		mark = 54,
+		resource = "356",
+		cartoon_id = 356
+	},
+	{
+		id = 357,
+		mark = 54,
+		resource = "357",
+		cartoon_id = 357
+	},
+	{
+		id = 358,
+		mark = 54,
+		resource = "358",
+		cartoon_id = 358
+	},
 	all = {
 		1,
 		2,
@@ -2366,6 +2486,26 @@ pg.cartoon = {
 		335,
 		336,
 		337,
-		338
+		338,
+		339,
+		340,
+		341,
+		342,
+		343,
+		344,
+		345,
+		346,
+		347,
+		348,
+		349,
+		350,
+		351,
+		352,
+		353,
+		354,
+		355,
+		356,
+		357,
+		358
 	}
 }

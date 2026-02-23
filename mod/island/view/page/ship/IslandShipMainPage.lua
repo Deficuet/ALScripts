@@ -3,6 +3,7 @@ local var_0_0 = class("IslandShipMainPage", import(".IslandBaseShipDisplayPage")
 var_0_0.OPEN_PAGE = "IslandShipMainPage:OPEN_PAGE"
 var_0_0.SELECT_SHIP = "IslandShipMainPage:SELECT_SHIP"
 var_0_0.CLOSE_DOCK = "IslandShipMainPage:CLOSE_DOCK"
+var_0_0.CLEAR_ITEM_ANIMATOR = "IslandShipMainPage:CLEAR_ITEM_ANIMATOR"
 var_0_0.PAGE_DRESS = 1
 var_0_0.PAGE_INFO = 2
 var_0_0.PAGE_STATUS = 3
@@ -58,6 +59,7 @@ function var_0_0.AddListeners(arg_6_0)
 	arg_6_0:AddListener(IslandShipMainPage.SELECT_SHIP, arg_6_0.OnSelectShip)
 	arg_6_0:AddListener(IslandCharacterAgency.ADD_SHIP, arg_6_0.OnAddShip)
 	arg_6_0:AddListener(GAME.ISLAND_UPGRADE_SKILL_DONE, arg_6_0.OnSkillUpgrade)
+	arg_6_0:AddListener(var_0_0.CLEAR_ITEM_ANIMATOR, arg_6_0.OnClearItemAnimator)
 end
 
 function var_0_0.RemoveListeners(arg_7_0)
@@ -66,6 +68,7 @@ function var_0_0.RemoveListeners(arg_7_0)
 	arg_7_0:RemoveListener(IslandShipMainPage.SELECT_SHIP, arg_7_0.OnSelectShip)
 	arg_7_0:RemoveListener(IslandCharacterAgency.ADD_SHIP, arg_7_0.OnAddShip)
 	arg_7_0:RemoveListener(GAME.ISLAND_UPGRADE_SKILL_DONE, arg_7_0.OnSkillUpgrade)
+	arg_7_0:RemoveListener(var_0_0.CLEAR_ITEM_ANIMATOR, arg_7_0.OnClearItemAnimator)
 end
 
 function var_0_0.OnCloseDock(arg_8_0)
@@ -349,31 +352,45 @@ function var_0_0.OnHide(arg_41_0)
 	end
 end
 
-function var_0_0.OnCharLoaded(arg_42_0, arg_42_1)
-	if arg_42_0.shipDressHelper then
-		arg_42_0.shipDressHelper:OnRoleLoaded(arg_42_0.role.transform, arg_42_1)
+function var_0_0.CanEsc(arg_42_0)
+	if arg_42_0.childPage then
+		arg_42_0.childPage:CheckInReturn(function()
+			arg_42_0:Hide()
+
+			arg_42_0.childPage = nil
+		end)
+
+		return false
+	else
+		return true
 	end
 end
 
-function var_0_0.SetObjInitRotaion(arg_43_0, arg_43_1)
-	local var_43_0 = arg_43_0:GetSmoothRotateObject()
-	local var_43_1 = GetOrAddComponent(var_43_0, typeof(SmoothRotateObject))
+function var_0_0.OnCharLoaded(arg_44_0, arg_44_1)
+	if arg_44_0.shipDressHelper then
+		arg_44_0.shipDressHelper:OnRoleLoaded(arg_44_0.role.transform, arg_44_1)
+	end
+end
 
-	var_43_1.rotationSpeed = 5
+function var_0_0.SetObjInitRotaion(arg_45_0, arg_45_1)
+	local var_45_0 = arg_45_0:GetSmoothRotateObject()
+	local var_45_1 = GetOrAddComponent(var_45_0, typeof(SmoothRotateObject))
 
-	ReflectionHelp.RefSetProperty(typeof(SmoothRotateObject), "targetRotation", var_43_1, arg_43_1)
+	var_45_1.rotationSpeed = 5
 
-	if arg_43_0.timer then
-		arg_43_0.timer:Stop()
+	ReflectionHelp.RefSetProperty(typeof(SmoothRotateObject), "targetRotation", var_45_1, arg_45_1)
+
+	if arg_45_0.timer then
+		arg_45_0.timer:Stop()
 	end
 
-	arg_43_0.timer = Timer.New(function()
-		local var_44_0 = pg.island_set.character_detail_camera_speed.key_value_int
+	arg_45_0.timer = Timer.New(function()
+		local var_46_0 = pg.island_set.character_detail_camera_speed.key_value_int
 
-		var_43_1.rotationSpeed = var_44_0
+		var_45_1.rotationSpeed = var_46_0
 	end, 0.5, 1)
 
-	arg_43_0.timer:Start()
+	arg_45_0.timer:Start()
 end
 
 return var_0_0

@@ -41,16 +41,12 @@ end
 function var_0_0.GetSpine(arg_5_0, arg_5_1, arg_5_2)
 	local var_5_0 = arg_5_1:GetSpineName()
 
-	PoolMgr.GetInstance():GetSpineChar(var_5_0, true, function(arg_6_0)
-		setParent(arg_6_0, arg_5_0.spAnimPanel)
+	arg_5_0.spineChar = SpineAnimChar.New()
 
-		tf(arg_6_0).localPosition = Vector3(0, 0, 0)
-
-		local var_6_0 = arg_6_0:GetComponent("SpineAnimUI")
-
-		arg_5_0.spineAnim = var_6_0
-		arg_5_0.shipModel = arg_6_0
-
+	arg_5_0.spineChar:SetPaint(var_5_0)
+	arg_5_0.spineChar:Load(true, function(arg_6_0)
+		arg_6_0:SetParent(arg_5_0.spAnimPanel)
+		arg_6_0:SetLocalPosition(Vector3(0, 0, 0))
 		arg_5_2()
 	end)
 
@@ -58,14 +54,14 @@ function var_0_0.GetSpine(arg_5_0, arg_5_1, arg_5_2)
 end
 
 function var_0_0.PlaySpAnim(arg_7_0, arg_7_1, arg_7_2)
-	arg_7_0.spineAnim:SetActionCallBack(nil)
+	arg_7_0.spineChar:SetActionCallBack(nil)
 
 	if arg_7_1:HasStopTime() then
 		arg_7_0:DelayCall(arg_7_1:GetStopTime(), arg_7_2)
 	else
-		arg_7_0.spineAnim:SetActionCallBack(function(arg_8_0)
+		arg_7_0.spineChar:SetActionCallBack(function(arg_8_0)
 			if arg_8_0 == "finish" then
-				arg_7_0.spineAnim:SetActionCallBack(nil)
+				arg_7_0.spineChar:SetActionCallBack(nil)
 				arg_7_2()
 			end
 		end)
@@ -73,7 +69,7 @@ function var_0_0.PlaySpAnim(arg_7_0, arg_7_1, arg_7_2)
 
 	local var_7_0 = arg_7_1:GetActionName()
 
-	arg_7_0.spineAnim:SetAction(var_7_0, 0)
+	arg_7_0.spineChar:SetAction(var_7_0, 0)
 
 	if arg_7_1:ShouldAdjustSpeed() then
 		arg_7_0:AdjustSpeed(arg_7_1:GetSpeed())
@@ -87,21 +83,19 @@ function var_0_0.AdjustSpeed(arg_9_0, arg_9_1)
 end
 
 function var_0_0.GetAnimationState(arg_10_0)
-	return arg_10_0.shipModel:GetComponent("Spine.Unity.SkeletonGraphic").AnimationState
+	return arg_10_0.spineChar:GetSkeletonGraphic().AnimationState
 end
 
 function var_0_0.ReturnSpine(arg_11_0)
-	if arg_11_0.shipModel == nil or arg_11_0.spineAnim == nil or arg_11_0.prefab == nil then
+	if arg_11_0.spineChar == nil or arg_11_0.prefab == nil then
 		return
 	end
 
 	arg_11_0:GetAnimationState().TimeScale = 1
 
-	arg_11_0.spineAnim:SetActionCallBack(nil)
-	PoolMgr.GetInstance():ReturnSpineChar(arg_11_0.prefab, arg_11_0.shipModel)
+	arg_11_0.spineChar:Dispose()
 
-	arg_11_0.shipModel = nil
-	arg_11_0.spineAnim = nil
+	arg_11_0.spineChar = nil
 	arg_11_0.prefab = nil
 end
 

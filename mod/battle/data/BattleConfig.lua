@@ -26,6 +26,7 @@ var_0_0.SPINE_SCALE = 2
 var_0_0.BULLET_UPPER_BOUND_VISION_OFFSET = 30
 var_0_0.BULLET_LEFT_BOUND_SPLIT_OFFSET = 8
 var_0_0.BULLET_LOWER_BOUND_SPLIT_OFFSET = 8
+var_0_0.BULLET_SPLIT_SHIFT_DELAY = 0.2
 var_0_0.CAMERA_INIT_POS = Vector3(0, 62, -10)
 var_0_0.CAMERA_SIZE = 20
 var_0_0.CAMERA_BASE_HEIGH = 8
@@ -42,6 +43,12 @@ var_0_0.AntiAirConfig.RangeBulletID = 2001
 var_0_0.AntiAirConfig.RangeBarrageID = 1
 var_0_0.AntiAirConfig.RangeAntiAirBone = "rangeantiaircraft"
 var_0_0.AirSupportUnitPos = Vector3(-105, 0, 58)
+var_0_0.SubSupportUnitPosList = {
+	Vector3(-36, 0, 58),
+	Vector3(-30, 0, 78),
+	Vector3(-30, 0, 38)
+}
+var_0_0.SubSupportDelay = 5
 var_0_0.AnitAirRepeaterConfig = {}
 var_0_0.AnitAirRepeaterConfig.const_A = 32
 var_0_0.AnitAirRepeaterConfig.const_B = 12
@@ -405,13 +412,15 @@ var_0_0.AIM_BIAS_MAX_RANGE_MONSTER = 60
 var_0_0.AIM_BIAS_MAX_RANGE_SUB = 25
 var_0_0.AIM_BIAS_ENEMY_INIT_TIME = 1.5
 var_0_0.FLEET_ATTR_CAP = {
+	kuangsanshuliang = 3,
 	shenpanzhijian = 6,
+	yuanchou = 9,
+	Judgement = 12,
 	YumiaManaFlow = 10,
+	kuangsanshijian = 50,
 	ReisalinAP = 99,
 	KansasSP = 3,
-	Judgement = 12,
 	YumiaMANA = 100,
-	yuanchou = 9,
 	huohun = 5
 }
 var_0_0.TARGET_SELECT_PRIORITY = {
@@ -455,3 +464,7 @@ var_0_0.YUMIA_MANA_UI = {
 	113
 }
 var_0_0.YUMIA_MANA_NAME = "YumiaMANA"
+var_0_0.MIRROR_QICON_KEY = "_turn"
+var_0_0.MIRROR_QICON_SHIP_GROUP = {
+	1150005
+}

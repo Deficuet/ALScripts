@@ -10,13 +10,14 @@ var_0_0.Fields = {
 	highestDamage = "number",
 	isSetup = "boolean",
 	guildSupport = "number",
-	isFetched = "boolean",
+	currentBossLV = "number",
 	ranks = "table",
 	summonPt = "number",
+	isFetched = "boolean",
 	cacheBosses = "table",
-	timers = "table",
 	archivesId = "number",
 	fleet = "table",
+	timers = "table",
 	summonPtOld = "number",
 	cacheLock = "number",
 	tipProgress = "boolean",
@@ -63,6 +64,7 @@ function var_0_0.Setup(arg_1_0, arg_1_1)
 	arg_1_0.guildSupport = arg_1_1.guild_support or 0
 	arg_1_0.friendSupport = arg_1_1.friend_support or 0
 	arg_1_0.worldSupport = arg_1_1.world_support or 0
+	arg_1_0.currentBossLV = arg_1_1.self_boss_lv or 1
 	arg_1_0.cacheBosses = {}
 	arg_1_0.ranks = {}
 	arg_1_0.timers = {}
@@ -273,20 +275,20 @@ end
 function var_0_0.GenFleet(arg_36_0)
 	local var_36_0 = arg_36_0:GetCacheShips(var_0_1)
 
-	arg_36_0.fleet = Fleet.New({
-		0,
+	arg_36_0.fleet = TypedFleet.New({
 		id = 1,
 		name = i18n("world_boss_fleet"),
-		ship_list = var_36_0
+		ship_list = var_36_0,
+		fleetType = FleetType.Normal
 	})
 
 	local var_36_1 = arg_36_0:GetCacheShips(var_0_2)
 
-	arg_36_0.fleetForArchives = Fleet.New({
-		0,
+	arg_36_0.fleetForArchives = TypedFleet.New({
 		id = 1,
 		name = i18n("world_boss_fleet"),
-		ship_list = var_36_1
+		ship_list = var_36_1,
+		fleetType = FleetType.Normal
 	})
 end
 
@@ -341,10 +343,10 @@ function var_0_0.GetFleet(arg_39_0, arg_39_1)
 	end
 
 	var_39_1 = var_39_1 or Fleet.New({
-		0,
 		id = 1,
 		name = i18n("world_boss_fleet"),
-		ship_list = {}
+		ship_list = {},
+		fleetType = FleetType.Normal
 	})
 
 	for iter_39_0 = #var_39_1.ships, 1, -1 do

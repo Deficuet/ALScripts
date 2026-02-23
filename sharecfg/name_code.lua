@@ -1911,6 +1911,20 @@ pg.name_code = {
 		code = "Sentoku Type",
 		nation = 0
 	},
+	[309] = {
+		name = "Mass-Produced Kongou Class",
+		type = 1,
+		id = 309,
+		code = "Mass-Produced Kongou Class",
+		nation = 0
+	},
+	[310] = {
+		name = "Fujinami",
+		type = 1,
+		id = 310,
+		code = "Fujinami",
+		nation = 0
+	},
 	[400] = {
 		name = "Z1",
 		type = 1,
@@ -2966,6 +2980,13 @@ pg.name_code = {
 		type = 1,
 		id = 550,
 		code = "Mecklenburg",
+		nation = 0
+	},
+	[551] = {
+		name = "Boise META",
+		type = 1,
+		id = 551,
+		code = "Boise META",
 		nation = 0
 	},
 	[10000] = {

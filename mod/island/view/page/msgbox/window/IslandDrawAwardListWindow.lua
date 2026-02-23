@@ -44,7 +44,7 @@ function var_0_0.OnInit(arg_3_0)
 			})
 
 			IslandShopDrawAwardPage.ShowDropInfo(var_5_3, arg_5_2:Find("mask/Image"))
-			setText(arg_5_2:Find("name/Text"), var_5_3:getName())
+			setScrollText(arg_5_2:Find("name/Text"), var_5_3:getName())
 			setText(arg_5_2:Find("got/got/Text"), i18n("island_draw_get"))
 			setActive(arg_5_2:Find("got"), not var_5_1)
 			arg_3_0:detachOnCardButton(arg_5_2)

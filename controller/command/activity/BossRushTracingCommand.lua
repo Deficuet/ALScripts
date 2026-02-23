@@ -8,78 +8,77 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_0 = arg_1_1.body
 	local var_1_1 = var_1_0.seriesId
 	local var_1_2 = var_1_0.actId
+	local var_1_3 = getProxy(ActivityProxy):getActivityById(var_1_2)
 
-	if not getProxy(ActivityProxy):getActivityById(var_1_2) then
+	if not var_1_3 then
 		return
 	end
 
-	local var_1_3 = var_1_0.mode
-	local var_1_4 = BossRushSeriesData.New({
-		id = var_1_1,
-		actId = var_1_2,
-		mode = var_1_3
-	})
-	local var_1_5 = var_1_4:GetFleetIds()
-	local var_1_6 = var_1_0.mode
-	local var_1_7 = Clone(var_1_5)
-	local var_1_8 = {
-		table.remove(var_1_7)
-	}
+	local var_1_4 = var_1_0.mode
+	local var_1_5
 
-	if var_1_6 == BossRushSeriesData.MODE.SINGLE then
-		var_1_7 = {
-			table.remove(var_1_7, 1)
-		}
+	if var_1_3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB then
+		var_1_5 = var_1_3:GetCollabSeriesData(var_1_1)
+		var_1_5.mode = var_1_4
+		var_1_1 = var_1_5:GetActivitySeriesID()
+	else
+		var_1_5 = BossRushSeriesData.New({
+			id = var_1_1,
+			actId = var_1_2,
+			mode = var_1_4
+		})
 	end
 
-	local var_1_9 = getProxy(FleetProxy):getActivityFleets()[var_1_2]
-	local var_1_10 = _.map(var_1_7, function(arg_2_0)
-		return var_1_9[arg_2_0]
-	end)
-	local var_1_11 = var_1_9[var_1_8[1]]
+	local var_1_6 = var_1_5:GetFleetIds()
+	local var_1_7 = var_1_0.mode
+	local var_1_8, var_1_9 = var_1_5:GetModeFleetIDs(var_1_7)
+	local var_1_10 = var_1_5:GetFleets(var_1_8)
+	local var_1_11 = var_1_5:GetFleets(var_1_9)[1]
 
 	if var_1_11:isEmpty() then
-		table.remove(var_1_8)
+		table.remove(var_1_9)
 	end
 
 	local var_1_12 = (function()
-		local var_3_0 = 0
-		local var_3_1 = var_1_4:GetType() == BossRushSeriesData.TYPE.EXTRA and SYSTEM_BOSS_RUSH_EX or SYSTEM_BOSS_RUSH
-		local var_3_2 = pg.battle_cost_template[var_3_1]
-		local var_3_3 = var_1_4:GetOilLimit()
-		local var_3_4 = var_3_2.oil_cost > 0
+		local var_2_0 = 0
+		local var_2_1
 
-		local function var_3_5(arg_4_0, arg_4_1)
-			local var_4_0 = 0
+		if var_1_5.__cname == "CollabrateBossRushSeriesData" then
+			var_2_1 = SYSTEM_BOSS_RUSH_COLLABRATE
+		elseif var_1_5:GetType() == BossRushSeriesData.TYPE.EXTRA then
+			var_2_1 = SYSTEM_BOSS_RUSH_EX
+		else
+			var_2_1 = SYSTEM_BOSS_RUSH
+		end
 
-			if var_3_4 then
-				var_4_0 = arg_4_0:GetCostSum().oil
+		local var_2_2 = pg.battle_cost_template[var_2_1]
+		local var_2_3 = var_1_5:GetOilLimit()
+		local var_2_4 = var_2_2.oil_cost > 0
 
-				if arg_4_1 > 0 then
-					var_4_0 = math.min(arg_4_1, var_4_0)
+		local function var_2_5(arg_3_0, arg_3_1)
+			local var_3_0 = 0
+
+			if var_2_4 then
+				var_3_0 = arg_3_0:GetCostSum().oil
+
+				if arg_3_1 > 0 then
+					var_3_0 = math.min(arg_3_1, var_3_0)
 				end
 			end
 
-			return var_4_0
+			return var_3_0
 		end
 
-		local var_3_6 = #var_1_4:GetExpeditionIds()
+		local var_2_6 = #var_1_5:GetExpeditionIds()
+		local var_2_7 = var_2_5(var_1_11, var_2_3[2]) * var_2_6
 
-		if var_1_6 == BossRushSeriesData.MODE.SINGLE then
-			var_3_0 = var_3_0 + var_3_5(var_1_10[1], var_3_3[1])
-			var_3_0 = var_3_0 + var_3_5(var_1_11, var_3_3[2])
-			var_3_0 = var_3_0 * var_3_6
-		else
-			var_3_0 = var_3_5(var_1_11, var_3_3[2]) * var_3_6
-
-			_.each(var_1_10, function(arg_5_0)
-				var_3_0 = var_3_0 + var_3_5(arg_5_0, var_3_3[1])
-			end)
+		for iter_2_0 = 1, var_2_6 do
+			var_2_7 = var_2_7 + var_2_5(var_1_10[iter_2_0] or var_1_10[1], var_2_3[1])
 		end
 
-		return var_3_0
+		return var_2_7
 	end)()
-	local var_1_13 = var_1_4:GetOilCost()
+	local var_1_13 = var_1_5:GetOilCost()
 	local var_1_14 = var_1_12 + var_1_13
 
 	if var_1_14 > getProxy(PlayerProxy):getRawData().oil then
@@ -94,36 +93,36 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		cmd = 1,
 		activity_id = var_1_2,
 		arg1 = var_1_1,
-		arg2 = var_1_6,
-		arg_list = var_1_7,
-		arg_list2 = var_1_8
-	}, 11203, function(arg_6_0)
-		if arg_6_0.result == 0 then
-			getProxy(ActivityProxy):getActivityById(var_1_2):SetSeriesData(var_1_4)
+		arg2 = var_1_7,
+		arg_list = var_1_8,
+		arg_list2 = var_1_9
+	}, 11203, function(arg_4_0)
+		if arg_4_0.result == 0 then
+			getProxy(ActivityProxy):getActivityById(var_1_2):SetSeriesData(var_1_5)
 
 			if var_1_13 > 0 then
-				local var_6_0 = getProxy(PlayerProxy):getRawData()
+				local var_4_0 = getProxy(PlayerProxy):getRawData()
 
-				var_6_0:consume({
+				var_4_0:consume({
 					oil = var_1_13
 				})
-				getProxy(PlayerProxy):updatePlayer(var_6_0)
+				getProxy(PlayerProxy):updatePlayer(var_4_0)
 			end
 
 			;(function()
-				local var_7_0 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_EXTRA_BOSSRUSH_RANK)
+				local var_5_0 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_EXTRA_BOSSRUSH_RANK)
 
-				if not var_7_0 then
+				if not var_5_0 then
 					return
 				end
 
-				var_7_0:ResetLast()
-				getProxy(ActivityProxy):updateActivity(var_7_0)
+				var_5_0:ResetLast()
+				getProxy(ActivityProxy):updateActivity(var_5_0)
 			end)()
-			arg_1_0:sendNotification(GAME.BOSSRUSH_TRACE_DONE, var_1_4)
+			arg_1_0:sendNotification(GAME.BOSSRUSH_TRACE_DONE, var_1_5)
 		else
-			pg.TipsMgr.GetInstance():ShowTips(errorTip("", arg_6_0.result))
-			arg_1_0:sendNotification(GAME.BOSSRUSH_TRACE_ERROR, arg_6_0.result)
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("", arg_4_0.result))
+			arg_1_0:sendNotification(GAME.BOSSRUSH_TRACE_ERROR, arg_4_0.result)
 		end
 	end)
 end

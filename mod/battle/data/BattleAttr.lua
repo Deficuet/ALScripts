@@ -330,6 +330,8 @@ function var_0_0.SetPlayerAttrFromOutBattle(arg_34_0, arg_34_1, arg_34_2)
 	var_34_0.aimBiasDecaySpeed = 0
 	var_34_0.aimBiasDecaySpeedRatio = 0
 	var_34_0.aimBiasExtraACC = 0
+	var_34_0.baseScale = arg_34_1.scale / 50
+	var_34_0.modelScale = var_34_0.baseScale
 	var_34_0.healingRate = 1
 	var_34_0.DMG_TAG_EHC_N_99 = arg_34_1[AttributeType.AntiSiren] or 0
 	var_34_0.comboTag = "combo_" .. var_34_0.battleUID
@@ -337,6 +339,8 @@ function var_0_0.SetPlayerAttrFromOutBattle(arg_34_0, arg_34_1, arg_34_2)
 	var_34_0.barrageCounterMod = 1
 	var_34_0.TargetChoise = {}
 	var_34_0.guardian = {}
+	var_34_0.injureRatioKamikazeAir = 1
+	var_34_0.injureRatioKamikazeShip = 1
 
 	var_0_0.SetBaseAttr(arg_34_0)
 end
@@ -400,6 +404,8 @@ function var_0_0.SetEnemyAttr(arg_37_0, arg_37_1)
 	var_37_2.repressReduce = 1
 	var_37_2.healingRate = 1
 	var_37_2.comboTag = "combo_" .. var_37_2.battleUID
+	var_37_2.baseScale = var_37_0.scale / 50
+	var_37_2.modelScale = var_37_2.baseScale
 	var_37_2.labelTag = {}
 	var_37_2.TargetChoise = {}
 	var_37_2.guardian = {}
@@ -466,14 +472,22 @@ function var_0_0.SetMinionAttr(arg_39_0, arg_39_1)
 	var_39_4.id = var_39_1.id
 	var_39_4.level = var_39_3
 	var_39_4.formulaLevel = var_39_3
+	var_39_4.baseScale = var_39_2.scale / 50
+	var_39_4.modelScale = var_39_4.baseScale
 
 	local function var_39_5(arg_40_0, arg_40_1)
 		local var_40_0 = var_39_2[arg_40_0 .. "_growth"]
 
-		if var_40_0 ~= 0 then
-			var_39_4[arg_40_1] = var_39_1[arg_40_1] * var_40_0 * 0.0001
-		else
+		if var_40_0 == 0 then
 			var_39_4[arg_40_1] = var_39_2[arg_40_0]
+		elseif var_40_0 == -1 then
+			if arg_40_0 == "durability" then
+				var_39_4[arg_40_1] = var_39_0:GetCurrentHP()
+			else
+				var_39_4[arg_40_1] = var_39_1[arg_40_1]
+			end
+		else
+			var_39_4[arg_40_1] = var_39_1[arg_40_1] * var_40_0 * 0.0001
 		end
 	end
 

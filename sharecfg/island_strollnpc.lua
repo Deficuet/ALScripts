@@ -235,6 +235,71 @@ pg.island_strollnpc = {
 			}
 		}
 	},
+	[30312] = {
+		id = 30312,
+		behaviourTree = "",
+		unit_id = 3031200,
+		action_feedback = 1,
+		unlock = -1,
+		mapId = {
+			{
+				1002,
+				13
+			}
+		}
+	},
+	[49902] = {
+		id = 49902,
+		behaviourTree = "",
+		unit_id = 4990200,
+		action_feedback = 1,
+		unlock = -1,
+		mapId = {
+			{
+				1004,
+				3
+			}
+		}
+	},
+	[10205] = {
+		id = 10205,
+		behaviourTree = "",
+		unit_id = 1020500,
+		action_feedback = 1,
+		unlock = -1,
+		mapId = {
+			{
+				1005,
+				3
+			}
+		}
+	},
+	[10110] = {
+		id = 10110,
+		behaviourTree = "",
+		unit_id = 1011000,
+		action_feedback = 1,
+		unlock = -1,
+		mapId = {
+			{
+				1001,
+				3
+			}
+		}
+	},
+	[50601] = {
+		id = 50601,
+		behaviourTree = "",
+		unit_id = 5060100,
+		action_feedback = 1,
+		unlock = -1,
+		mapId = {
+			{
+				1001,
+				4
+			}
+		}
+	},
 	[300900] = {
 		behaviourTree = "",
 		mapId = "",
@@ -384,6 +449,11 @@ pg.island_strollnpc = {
 		60802,
 		70104,
 		90111,
+		30312,
+		49902,
+		10205,
+		10110,
+		50601,
 		300900,
 		300901,
 		300902,

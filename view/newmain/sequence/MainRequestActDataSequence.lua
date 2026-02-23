@@ -7,6 +7,7 @@ function var_0_0.Execute(arg_1_0, arg_1_1)
 	arg_1_0:RequestMetaData()
 	arg_1_0:RequestManualSignAct()
 	arg_1_0:RequestRandomDailyTask()
+	arg_1_0:RequestDALDailyTask()
 	arg_1_1()
 end
 
@@ -102,6 +103,18 @@ function var_0_0.RequestRandomDailyTask(arg_9_0)
 	pg.m02:sendNotification(GAME.ACT_RANDOM_DAILY_TASK, {
 		activity_id = var_9_0.id,
 		cmd = ActivityConst.RANDOM_DAILY_TASK_OP_RANDOM
+	})
+end
+
+function var_0_0.RequestDALDailyTask(arg_10_0)
+	local var_10_0 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB)
+
+	if not var_10_0 then
+		return 0
+	end
+
+	pg.m02:sendNotification(GAME.COLLABRATE_BOSS_RUSH_REQUEST_DATA, {
+		actId = var_10_0.id
 	})
 end
 

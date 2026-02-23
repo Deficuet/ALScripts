@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50166
+			50371
 		}
 	},
 	{
@@ -37,9 +37,8 @@ pg.activity_link_button = {
 		order = 99
 	},
 	[10] = {
-		param = "0",
+		type = 2,
 		name = "event_map",
-		type = 0,
 		text_pic = "text_event_map",
 		id = 10,
 		group_id = 2,
@@ -47,7 +46,10 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50181
+			50408
+		},
+		param = {
+			"act boss battle"
 		}
 	},
 	[11] = {
@@ -60,6 +62,22 @@ pg.activity_link_button = {
 		id = 11,
 		group_id = 3,
 		order = 1
+	},
+	[12] = {
+		type = 2,
+		name = "event_sub_act",
+		text_pic = "text_event_map_sub",
+		id = 12,
+		group_id = 3,
+		pic = "event_map_sub",
+		order = 1,
+		time = {
+			"default",
+			50400
+		},
+		param = {
+			"love letter activity"
+		}
 	},
 	[20] = {
 		type = 2,
@@ -289,7 +307,7 @@ pg.activity_link_button = {
 		}
 	},
 	[109] = {
-		param = "SailingShip3CoreActivityUI",
+		param = "SardiniaSPCoreActivityUI",
 		name = "event_core",
 		type = 16,
 		text_pic = "text_event_core",
@@ -299,21 +317,21 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50205
+			50353
 		}
 	},
 	[110] = {
-		param = "ALYCoreActivityUI",
+		param = "SpringFestival2026CoreActivityUI",
 		name = "event_core_2",
 		type = 16,
-		text_pic = "text_event_yumia",
+		text_pic = "text_event_core2",
 		id = 110,
 		group_id = 2,
-		pic = "event_yumia",
+		pic = "event_core2",
 		order = 2,
 		time = {
 			"default",
-			50058
+			50404
 		}
 	},
 	[111] = {
@@ -358,6 +376,20 @@ pg.activity_link_button = {
 			50118
 		}
 	},
+	[114] = {
+		param = "WinterFestival2025CoreActivityUI",
+		name = "event_core",
+		type = 16,
+		text_pic = "text_event_core3",
+		id = 114,
+		group_id = 1,
+		pic = "event_core3",
+		order = 1,
+		time = {
+			"default",
+			50298
+		}
+	},
 	get_id_list_by_name = {
 		event_all = {
 			1,
@@ -369,6 +401,9 @@ pg.activity_link_button = {
 		},
 		event_map_sub = {
 			11
+		},
+		event_sub_act = {
+			12
 		},
 		event_minigame = {
 			20,
@@ -417,7 +452,8 @@ pg.activity_link_button = {
 			107
 		},
 		event_core = {
-			109
+			109,
+			114
 		},
 		event_core_2 = {
 			110,
@@ -436,6 +472,7 @@ pg.activity_link_button = {
 		9,
 		10,
 		11,
+		12,
 		20,
 		21,
 		30,
@@ -456,6 +493,7 @@ pg.activity_link_button = {
 		110,
 		111,
 		112,
-		113
+		113,
+		114
 	}
 }

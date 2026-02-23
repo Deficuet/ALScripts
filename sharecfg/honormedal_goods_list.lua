@@ -981,6 +981,57 @@ pg.honormedal_goods_list = {
 			59010
 		}
 	},
+	{
+		price = 15,
+		goods_purchase_limit = 20,
+		goods_icon = "Props/30208",
+		type = 2,
+		group = 10038,
+		num = 1,
+		goods_name = "Northern Parliament Gear Development Pack",
+		goods_type = 1,
+		id = 53,
+		is_ship = 0,
+		goods_rarity = 2,
+		order = 34,
+		goods = {
+			30208
+		}
+	},
+	{
+		price = 20,
+		goods_purchase_limit = 15,
+		goods_icon = "Props/42070",
+		type = 2,
+		group = 10039,
+		num = 1,
+		goods_name = "General Blueprint - Series 8",
+		goods_type = 1,
+		id = 54,
+		is_ship = 0,
+		goods_rarity = 4,
+		order = 7,
+		goods = {
+			42070
+		}
+	},
+	{
+		price = 20,
+		goods_purchase_limit = 5,
+		goods_icon = "Props/42076",
+		type = 2,
+		group = 10040,
+		num = 1,
+		goods_name = "Special General Blueprint - Series 8",
+		goods_type = 1,
+		id = 55,
+		is_ship = 0,
+		goods_rarity = 5,
+		order = 6,
+		goods = {
+			42076
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1033,6 +1084,9 @@ pg.honormedal_goods_list = {
 		49,
 		50,
 		51,
-		52
+		52,
+		53,
+		54,
+		55
 	}
 }

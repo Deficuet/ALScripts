@@ -185,6 +185,179 @@ pg.map_event_list = {
 			"helpbg/supportfleet_help2"
 		}
 	},
+	[1601] = {
+		help_open = 1,
+		chapter_id = 1601,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/supportfleet_submarine_help1",
+			"helpbg/supportfleet_submarine_help2",
+			"helpbg/battle_suligao_1",
+			"helpbg/battle_suligao_2",
+			"helpbg/battle_suligao_3",
+			"helpbg/battle_suligao_4",
+			"helpbg/battle_suligao_5",
+			"helpbg/battle_suligao_6",
+			"helpbg/battle_suligao_8",
+			"helpbg/battle_suligao_10"
+		}
+	},
+	[1602] = {
+		help_open = 0,
+		chapter_id = 1602,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/supportfleet_submarine_help1",
+			"helpbg/supportfleet_submarine_help2",
+			"helpbg/battle_suligao_1",
+			"helpbg/battle_suligao_2",
+			"helpbg/battle_suligao_3",
+			"helpbg/battle_suligao_4",
+			"helpbg/battle_suligao_5",
+			"helpbg/battle_suligao_6",
+			"helpbg/battle_suligao_8",
+			"helpbg/battle_suligao_10"
+		}
+	},
+	[1603] = {
+		help_open = 1,
+		chapter_id = 1603,
+		event_list = {
+			930,
+			931,
+			932
+		},
+		event_list_loop = {
+			930,
+			931,
+			932
+		},
+		help_pictures = {
+			"helpbg/map16_2_help1",
+			"helpbg/map16_2_help2",
+			"helpbg/map16_2_help3",
+			"helpbg/map16_2_help4",
+			"helpbg/supportfleet_help1",
+			"helpbg/supportfleet_help_16",
+			"helpbg/map15_help2",
+			"helpbg/map15_help3",
+			"helpbg/map15_help4"
+		}
+	},
+	[1604] = {
+		help_open = 0,
+		chapter_id = 1604,
+		event_list = {
+			933,
+			934,
+			935
+		},
+		event_list_loop = {
+			933,
+			934,
+			935
+		},
+		help_pictures = {
+			"helpbg/map16_2_help1",
+			"helpbg/map16_2_help2",
+			"helpbg/map16_2_help3",
+			"helpbg/map16_2_help4",
+			"helpbg/supportfleet_help1",
+			"helpbg/supportfleet_help_16",
+			"helpbg/map15_help2",
+			"helpbg/map15_help3",
+			"helpbg/map15_help4"
+		}
+	},
+	[11401] = {
+		help_open = 1,
+		chapter_id = 11401,
+		event_list = {
+			561
+		},
+		event_list_loop = {
+			561
+		},
+		help_pictures = {
+			"helpbg/battle_suligao_1",
+			"helpbg/battle_suligao_2",
+			"helpbg/battle_suligao_3",
+			"helpbg/battle_suligao_4",
+			"helpbg/battle_suligao_5",
+			"helpbg/battle_suligao_6",
+			"helpbg/battle_suligao_7",
+			"helpbg/battle_suligao_8",
+			"helpbg/battle_suligao_9",
+			"helpbg/battle_suligao_10"
+		}
+	},
+	[11402] = {
+		help_open = 0,
+		chapter_id = 11402,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_suligao_1",
+			"helpbg/battle_suligao_2",
+			"helpbg/battle_suligao_3",
+			"helpbg/battle_suligao_4",
+			"helpbg/battle_suligao_5",
+			"helpbg/battle_suligao_6",
+			"helpbg/battle_suligao_7",
+			"helpbg/battle_suligao_8",
+			"helpbg/battle_suligao_9",
+			"helpbg/battle_suligao_10"
+		}
+	},
+	[11403] = {
+		help_open = 0,
+		chapter_id = 11403,
+		event_list = {
+			566,
+			563
+		},
+		event_list_loop = {
+			563
+		},
+		help_pictures = {
+			"helpbg/battle_suligao_1",
+			"helpbg/battle_suligao_2",
+			"helpbg/battle_suligao_3",
+			"helpbg/battle_suligao_4",
+			"helpbg/battle_suligao_5",
+			"helpbg/battle_suligao_6",
+			"helpbg/battle_suligao_7",
+			"helpbg/battle_suligao_8",
+			"helpbg/battle_suligao_9",
+			"helpbg/battle_suligao_10"
+		}
+	},
+	[11404] = {
+		help_open = 1,
+		chapter_id = 11404,
+		event_list = {
+			567,
+			565
+		},
+		event_list_loop = {
+			565
+		},
+		help_pictures = {
+			"helpbg/battle_suligao_11",
+			"helpbg/battle_suligao_1",
+			"helpbg/battle_suligao_2",
+			"helpbg/battle_suligao_3",
+			"helpbg/battle_suligao_4",
+			"helpbg/battle_suligao_5",
+			"helpbg/battle_suligao_6",
+			"helpbg/battle_suligao_7",
+			"helpbg/battle_suligao_8",
+			"helpbg/battle_suligao_9",
+			"helpbg/battle_suligao_10"
+		}
+	},
 	[1160001] = {
 		help_open = 0,
 		chapter_id = 1160001,
@@ -4195,6 +4368,17 @@ pg.map_event_list = {
 		},
 		help_pictures = {}
 	},
+	[1990041] = {
+		help_open = 0,
+		chapter_id = 1990041,
+		event_list = {
+			708
+		},
+		event_list_loop = {
+			708
+		},
+		help_pictures = {}
+	},
 	[2100243] = {
 		help_open = 1,
 		chapter_id = 2100243,
@@ -5659,6 +5843,138 @@ pg.map_event_list = {
 		event_list_loop = {},
 		help_pictures = {}
 	},
+	[2100521] = {
+		help_open = 0,
+		chapter_id = 2100521,
+		event_list = {
+			733
+		},
+		event_list_loop = {
+			733
+		},
+		help_pictures = {}
+	},
+	[2100522] = {
+		help_open = 0,
+		chapter_id = 2100522,
+		event_list = {
+			734
+		},
+		event_list_loop = {
+			735
+		},
+		help_pictures = {}
+	},
+	[2100523] = {
+		help_open = 0,
+		chapter_id = 2100523,
+		event_list = {
+			736
+		},
+		event_list_loop = {
+			737
+		},
+		help_pictures = {}
+	},
+	[2100524] = {
+		help_open = 0,
+		chapter_id = 2100524,
+		event_list = {
+			738
+		},
+		event_list_loop = {
+			739
+		},
+		help_pictures = {}
+	},
+	[2100525] = {
+		help_open = 0,
+		chapter_id = 2100525,
+		event_list = {
+			740
+		},
+		event_list_loop = {
+			741
+		},
+		help_pictures = {}
+	},
+	[2100526] = {
+		help_open = 0,
+		chapter_id = 2100526,
+		event_list = {
+			742
+		},
+		event_list_loop = {
+			731
+		},
+		help_pictures = {}
+	},
+	[2100531] = {
+		help_open = 0,
+		chapter_id = 2100531,
+		event_list = {
+			733
+		},
+		event_list_loop = {
+			733
+		},
+		help_pictures = {}
+	},
+	[2100532] = {
+		help_open = 0,
+		chapter_id = 2100532,
+		event_list = {
+			734
+		},
+		event_list_loop = {
+			735
+		},
+		help_pictures = {}
+	},
+	[2100533] = {
+		help_open = 0,
+		chapter_id = 2100533,
+		event_list = {
+			736
+		},
+		event_list_loop = {
+			737
+		},
+		help_pictures = {}
+	},
+	[2100534] = {
+		help_open = 0,
+		chapter_id = 2100534,
+		event_list = {
+			738
+		},
+		event_list_loop = {
+			739
+		},
+		help_pictures = {}
+	},
+	[2100535] = {
+		help_open = 0,
+		chapter_id = 2100535,
+		event_list = {
+			740
+		},
+		event_list_loop = {
+			741
+		},
+		help_pictures = {}
+	},
+	[2100536] = {
+		help_open = 0,
+		chapter_id = 2100536,
+		event_list = {
+			742
+		},
+		event_list_loop = {
+			731
+		},
+		help_pictures = {}
+	},
 	[2200071] = {
 		help_open = 1,
 		chapter_id = 2200071,
@@ -5758,6 +6074,14 @@ pg.map_event_list = {
 		1502,
 		1503,
 		1504,
+		1601,
+		1602,
+		1603,
+		1604,
+		11401,
+		11402,
+		11403,
+		11404,
 		1160001,
 		1160002,
 		1160003,
@@ -6012,6 +6336,7 @@ pg.map_event_list = {
 		1910003,
 		1910023,
 		1910041,
+		1990041,
 		2100243,
 		2100244,
 		2100245,
@@ -6104,6 +6429,18 @@ pg.map_event_list = {
 		2100511,
 		2100514,
 		2100516,
+		2100521,
+		2100522,
+		2100523,
+		2100524,
+		2100525,
+		2100526,
+		2100531,
+		2100532,
+		2100533,
+		2100534,
+		2100535,
+		2100536,
 		2200071,
 		2200072,
 		2200073,

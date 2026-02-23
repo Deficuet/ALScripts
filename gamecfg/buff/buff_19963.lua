@@ -14,7 +14,7 @@ return {
 			},
 			arg_list = {
 				attr = "DMG_FROM_TAG_1_SlowerThanVC",
-				number = 0.01
+				number = -0.01
 			}
 		}
 	},
@@ -27,7 +27,7 @@ return {
 				},
 				arg_list = {
 					attr = "DMG_FROM_TAG_1_SlowerThanVC",
-					number = 0.01
+					number = -0.01
 				}
 			}
 		}
@@ -41,7 +41,7 @@ return {
 				},
 				arg_list = {
 					attr = "DMG_FROM_TAG_1_SlowerThanVC",
-					number = 0.02
+					number = -0.02
 				}
 			}
 		}
@@ -55,7 +55,7 @@ return {
 				},
 				arg_list = {
 					attr = "DMG_FROM_TAG_1_SlowerThanVC",
-					number = 0.03
+					number = -0.03
 				}
 			}
 		}
@@ -69,7 +69,7 @@ return {
 				},
 				arg_list = {
 					attr = "DMG_FROM_TAG_1_SlowerThanVC",
-					number = 0.04
+					number = -0.04
 				}
 			}
 		}
@@ -83,7 +83,7 @@ return {
 				},
 				arg_list = {
 					attr = "DMG_FROM_TAG_1_SlowerThanVC",
-					number = 0.05
+					number = -0.05
 				}
 			}
 		}
@@ -97,7 +97,7 @@ return {
 				},
 				arg_list = {
 					attr = "DMG_FROM_TAG_1_SlowerThanVC",
-					number = 0.06
+					number = -0.06
 				}
 			}
 		}
@@ -111,7 +111,7 @@ return {
 				},
 				arg_list = {
 					attr = "DMG_FROM_TAG_1_SlowerThanVC",
-					number = 0.07
+					number = -0.07
 				}
 			}
 		}
@@ -125,7 +125,7 @@ return {
 				},
 				arg_list = {
 					attr = "DMG_FROM_TAG_1_SlowerThanVC",
-					number = 0.08
+					number = -0.08
 				}
 			}
 		}
@@ -139,7 +139,7 @@ return {
 				},
 				arg_list = {
 					attr = "DMG_FROM_TAG_1_SlowerThanVC",
-					number = 0.09
+					number = -0.09
 				}
 			}
 		}
@@ -153,7 +153,7 @@ return {
 				},
 				arg_list = {
 					attr = "DMG_FROM_TAG_1_SlowerThanVC",
-					number = 0.1
+					number = -0.1
 				}
 			}
 		}

@@ -92,6 +92,46 @@ var_0_1.assistantEvents = {
 	event_change_get = {
 		action = "get",
 		dialog = ""
+	},
+	asmr_001 = {
+		action = "asmr_001",
+		dialog = "asmr_001"
+	},
+	asmr_002 = {
+		action = "asmr_002",
+		dialog = "asmr_002"
+	},
+	asmr_003 = {
+		action = "asmr_003",
+		dialog = "asmr_003"
+	},
+	asmr_004 = {
+		action = "asmr_004",
+		dialog = "asmr_004"
+	},
+	asmr_005 = {
+		action = "asmr_005",
+		dialog = "asmr_005"
+	},
+	asmr_006 = {
+		action = "asmr_006",
+		dialog = "asmr_006"
+	},
+	asmr_007 = {
+		action = "asmr_007",
+		dialog = "asmr_007"
+	},
+	asmr_008 = {
+		action = "asmr_008",
+		dialog = "asmr_008"
+	},
+	asmr_009 = {
+		action = "asmr_009",
+		dialog = "asmr_009"
+	},
+	asmr_010 = {
+		action = "asmr_010",
+		dialog = "asmr_010"
 	}
 }
 var_0_1.assistantTouchParts = {
@@ -143,60 +183,61 @@ var_0_1.useNewTouchEventShip = {
 }
 var_0_1.action2Id = {
 	touch_drag19 = 120,
-	feeling2 = 23,
+	touch_drag48 = 149,
 	touch_drag39 = 140,
+	feeling2 = 23,
 	battle = 28,
-	touch_drag3 = 104,
 	touch_idle10 = 211,
 	touch_drag6 = 107,
 	mission = 9,
-	touch_idle41 = 242,
+	touch_drag3 = 104,
 	touch_idle4 = 205,
+	main_1 = 2,
 	touch_drag50 = 151,
-	touch_body = 13,
 	touch_drag5 = 106,
+	touch_idle41 = 242,
 	touch_idle42 = 243,
 	touch_idle43 = 244,
 	touch_idle49 = 250,
 	touch_idle50 = 251,
-	idle = 1,
 	feeling5 = 26,
-	home_ex = 312,
+	idle = 1,
 	touch_drag40 = 141,
-	touch_drag48 = 149,
+	home_ex = 312,
+	main_6 = 36,
 	touch_idle39 = 240,
-	main_1 = 2,
+	touch_drag4 = 105,
 	main_2 = 3,
-	wedding = 11,
-	touch_drag20 = 121,
+	main_3 = 4,
 	hp_warning = 32,
+	touch_drag20 = 121,
 	main_4 = 18,
-	touch_idle28 = 229,
 	touch_drag2 = 103,
-	touch_drag10 = 111,
+	touch_idle28 = 229,
 	touch_drag42 = 143,
+	touch_drag10 = 111,
 	touch_idle36 = 237,
-	touch_drag49 = 150,
 	touch_idle1 = 202,
 	touch_drag1 = 102,
 	touch_special = 14,
 	touch_idle17 = 218,
+	touch_drag49 = 150,
 	touch_idle37 = 238,
-	touch_idle20 = 221,
 	main_2_ex = 302,
 	touch_drag43 = 144,
 	touch_drag8 = 109,
+	touch_idle20 = 221,
 	touch_idle19 = 220,
 	touch_drag26 = 127,
 	touch_drag16 = 117,
-	gold = 15,
 	touch_drag = 101,
+	gold = 15,
 	touch_idle22 = 223,
 	complete = 5,
 	login = 6,
-	touch_head = 12,
 	upgrade = 27,
 	touch_drag45 = 146,
+	touch_head = 12,
 	main_5 = 19,
 	detail = 21,
 	touch_idle = 201,
@@ -210,13 +251,13 @@ var_0_1.action2Id = {
 	touch_drag9 = 110,
 	diamond = 17,
 	touch_drag41 = 142,
-	touch_drag4 = 105,
+	touch_body = 13,
 	touch_idle24 = 225,
 	touch_idle29 = 230,
 	touch_idle6 = 207,
 	touch_idle38 = 239,
 	touch_drag44 = 145,
-	main_3 = 4,
+	wedding = 11,
 	change_in = 33,
 	main_1_ex = 301,
 	touch_idle9 = 210,
@@ -338,9 +379,12 @@ var_0_1.PaintingTouchEvents = {
 	"idleRandom9"
 }
 var_0_1.PaintingTouchParts = {
+	["2"] = "TouchBody",
+	["22"] = "TouchBody",
 	["1"] = "TouchSpecial",
+	["33"] = "TouchHead",
 	["3"] = "TouchHead",
-	["2"] = "TouchBody"
+	["11"] = "TouchSpecial"
 }
 
 function var_0_1.enable()

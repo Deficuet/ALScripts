@@ -4,10 +4,10 @@ pg.island_unit_interactive_item = {
 		navAgentParam = "",
 		name = "互动椅子",
 		model = "island/item/collider/1002/prefab/chair_collider",
-		slot_cnt = 2,
+		slot_cnt = 1,
 		id = 100203,
 		timeline = {
-			4
+			14
 		},
 		param = {
 			{}
@@ -34,8 +34,36 @@ pg.island_unit_interactive_item = {
 			}
 		}
 	},
+	[100205] = {
+		navAgentParam = "",
+		name = "床",
+		model = "island/item/collider/1002/prefab/chair_collider",
+		slot_cnt = 1,
+		id = 100205,
+		timeline = {
+			15
+		},
+		param = {
+			{}
+		}
+	},
+	[100206] = {
+		navAgentParam = "",
+		name = "躺椅",
+		model = "island/item/collider/1002/prefab/chair_collider",
+		slot_cnt = 1,
+		id = 100206,
+		timeline = {
+			16
+		},
+		param = {
+			{}
+		}
+	},
 	all = {
 		100203,
-		100204
+		100204,
+		100205,
+		100206
 	}
 }

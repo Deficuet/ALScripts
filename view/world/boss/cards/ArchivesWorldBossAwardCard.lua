@@ -45,7 +45,7 @@ function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2)
 	elseif var_2_3 < var_2_1 then
 		var_2_5 = 2
 
-		local var_2_6 = math.floor(var_2_1 / var_2_4 * 100) .. "%"
+		local var_2_6 = calcFloor(var_2_1 / var_2_4 * 100) .. "%"
 
 		arg_2_0.lockTr.text = "T-" .. arg_2_2 .. " " .. var_2_6
 	else

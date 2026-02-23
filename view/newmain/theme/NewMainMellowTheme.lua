@@ -8,7 +8,6 @@ function var_0_0.OnLoaded(arg_2_0)
 	var_0_0.super.OnLoaded(arg_2_0)
 
 	arg_2_0.switcherAnimationPlayer = arg_2_0._tf:Find("frame/right"):GetComponent(typeof(Animation))
-	arg_2_0.fxEffect = arg_2_0._tf:Find("frame/right/1/battle/root/FX")
 	arg_2_0.animationPlayer = arg_2_0._tf:GetComponent(typeof(Animation))
 	arg_2_0.dftAniEvent = arg_2_0._tf:GetComponent(typeof(DftAniEvent))
 	arg_2_0.switcher = arg_2_0._tf:Find("frame/right/switch")
@@ -74,7 +73,7 @@ end
 function var_0_0.SetEffectPanelVisible(arg_13_0, arg_13_1)
 	for iter_13_0, iter_13_1 in ipairs(arg_13_0.panels) do
 		if isa(iter_13_1, MainRightPanel4Mellow) then
-			iter_13_1:SetVisible(arg_13_1)
+			iter_13_1:SetEffectVisible(arg_13_1)
 		end
 	end
 end
@@ -185,46 +184,55 @@ function var_0_0.GetChangeSkinView(arg_30_0)
 	return MainChangeSkinView.New(arg_30_0._tf:Find("frame/right/change_skin"), arg_30_0.event)
 end
 
-function var_0_0.GetRedDots(arg_31_0)
+function var_0_0.GetAsmrChatView(arg_31_0)
+	return MainAsmrChatView.New(arg_31_0._tf:Find("frame/bottom/asmr_chat"), arg_31_0.event)
+end
+
+function var_0_0.OnAsmrTurnning(arg_32_0, arg_32_1)
+	var_0_0.super.OnAsmrTurnning(arg_32_0, arg_32_1)
+	setActive(findTF(arg_32_0._tf, "s"), not arg_32_1)
+end
+
+function var_0_0.GetRedDots(arg_33_0)
 	return {
-		RedDotNode.New(arg_31_0._tf:Find("frame/bottom/frame/task/tip"), {
+		RedDotNode.New(arg_33_0._tf:Find("frame/bottom/frame/task/tip"), {
 			pg.RedDotMgr.TYPES.TASK
 		}),
-		MailRedDotNode4Mellow.New(arg_31_0._tf:Find("frame/top/btns/mail")),
-		RedDotNode.New(arg_31_0._tf:Find("frame/bottom/frame/build/tip"), {
+		MailRedDotNode4Mellow.New(arg_33_0._tf:Find("frame/top/btns/mail")),
+		RedDotNode.New(arg_33_0._tf:Find("frame/bottom/frame/build/tip"), {
 			pg.RedDotMgr.TYPES.BUILD
 		}),
-		RedDotNode.New(arg_31_0._tf:Find("frame/bottom/frame/guild/tip"), {
+		RedDotNode.New(arg_33_0._tf:Find("frame/bottom/frame/guild/tip"), {
 			pg.RedDotMgr.TYPES.GUILD
 		}),
-		RedDotNode.New(arg_31_0._tf:Find("frame/top/icon_front/tip"), {
+		RedDotNode.New(arg_33_0._tf:Find("frame/top/icon_front/tip"), {
 			pg.RedDotMgr.TYPES.ATTIRE
 		}),
-		RedDotNode.New(arg_31_0._tf:Find("frame/right/2/menor/root/tip"), {
+		RedDotNode.New(arg_33_0._tf:Find("frame/right/2/menor/root/tip"), {
 			pg.RedDotMgr.TYPES.MEMORY_REVIEW
 		}),
-		RedDotNode.New(arg_31_0._tf:Find("frame/right/2/collection/root/tip"), {
+		RedDotNode.New(arg_33_0._tf:Find("frame/right/2/collection/root/tip"), {
 			pg.RedDotMgr.TYPES.COLLECTION
 		}),
-		RedDotNode.New(arg_31_0._tf:Find("frame/right/2/friend/root/tip"), {
+		RedDotNode.New(arg_33_0._tf:Find("frame/right/2/friend/root/tip"), {
 			pg.RedDotMgr.TYPES.FRIEND
 		}),
-		RedDotNode.New(arg_31_0._tf:Find("frame/left/extend/tip"), {
+		RedDotNode.New(arg_33_0._tf:Find("frame/left/extend/tip"), {
 			pg.RedDotMgr.TYPES.COMMISSION
 		}),
-		SettingsRedDotNode.New(arg_31_0._tf:Find("frame/top/btns/settings/tip"), {
+		SettingsRedDotNode.New(arg_33_0._tf:Find("frame/top/btns/settings/tip"), {
 			pg.RedDotMgr.TYPES.SETTTING
 		}),
-		RedDotNode.New(arg_31_0._tf:Find("frame/top/btns/noti/tip"), {
+		RedDotNode.New(arg_33_0._tf:Find("frame/top/btns/noti/tip"), {
 			pg.RedDotMgr.TYPES.SERVER
 		}),
-		RedDotNode.New(arg_31_0._tf:Find("frame/bottom/frame/tech/tip"), {
+		RedDotNode.New(arg_33_0._tf:Find("frame/bottom/frame/tech/tip"), {
 			pg.RedDotMgr.TYPES.BLUEPRINT
 		}),
-		RedDotNode.New(arg_31_0._tf:Find("frame/right/1/battle/root/tip"), {
+		RedDotNode.New(arg_33_0._tf:Find("frame/right/1/battle/root/tip"), {
 			pg.RedDotMgr.TYPES.EVENT
 		}),
-		RedDotNode.New(arg_31_0._tf:Find("frame/bottom/frame/live/tip"), {
+		RedDotNode.New(arg_33_0._tf:Find("frame/bottom/frame/live/tip"), {
 			pg.RedDotMgr.TYPES.COURTYARD,
 			pg.RedDotMgr.TYPES.SCHOOL,
 			pg.RedDotMgr.TYPES.COMMANDER,
@@ -232,12 +240,12 @@ function var_0_0.GetRedDots(arg_31_0)
 			pg.RedDotMgr.TYPES.EDUCATE_NEW_CHILD,
 			pg.RedDotMgr.TYPES.ISLAND_3D
 		}),
-		SwitcherRedDotNode.New(arg_31_0._tf:Find("frame/right/switch"), {
+		SwitcherRedDotNode.New(arg_33_0._tf:Find("frame/right/switch"), {
 			pg.RedDotMgr.TYPES.COLLECTION,
 			pg.RedDotMgr.TYPES.FRIEND,
 			pg.RedDotMgr.TYPES.MEMORY_REVIEW
 		}, true),
-		SwitcherRedDotNode.New(arg_31_0._tf:Find("frame/right/switch"), {
+		SwitcherRedDotNode.New(arg_33_0._tf:Find("frame/right/switch"), {
 			pg.RedDotMgr.TYPES.EVENT
 		}, false)
 	}

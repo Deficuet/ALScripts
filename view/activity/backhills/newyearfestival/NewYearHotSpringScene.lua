@@ -325,9 +325,9 @@ function var_0_0.SetSpineWash(arg_39_0, arg_39_1)
 	arg_39_1:SetAction("wash")
 	arg_39_1:ChangeMaterial(Object.Instantiate(arg_39_0.washMaterial))
 
-	local var_39_0 = arg_39_1.model.transform.position.y
+	local var_39_0 = arg_39_1:GetRoleModel().transform.position.y
 
-	arg_39_1._modleGraphic.material:SetFloat("_PositionY", var_39_0 + 1.5)
+	arg_39_1:GetSkeletonGraphic().material:SetFloat("_PositionY", var_39_0 + 1.5)
 end
 
 function var_0_0.CleanSpines(arg_40_0)

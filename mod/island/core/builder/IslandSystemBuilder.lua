@@ -1,7 +1,9 @@
 local var_0_0 = class("IslandSystemBuilder", import(".IslandGenericBuilder"))
 
-function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
-	var_0_0.super.Ctor(arg_1_0, arg_1_1, IslandConst.UNIT_LIST_SYSTEM)
+function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2, arg_1_3)
+	local var_1_0 = arg_1_3 or IslandConst.UNIT_LIST_SYSTEM
+
+	var_0_0.super.Ctor(arg_1_0, arg_1_1, var_1_0)
 
 	arg_1_0.cls = arg_1_2
 end

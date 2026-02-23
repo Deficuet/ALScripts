@@ -5,7 +5,7 @@ function var_0_0.GetUIName(arg_1_0)
 	return "IslandSlotHudUI"
 end
 
-function var_0_0.SetUIParent(arg_2_0, arg_2_1)
+function var_0_0.GetUIParent(arg_2_0, arg_2_1)
 	return arg_2_0:GetView().hudContainer
 end
 

@@ -51,7 +51,7 @@ function var_0_0.applyTo(arg_7_0, arg_7_1, arg_7_2)
 				arg_7_1:updateChapterCell(var_8_0)
 			end)
 
-			var_7_0 = bit.bor(var_7_0, ChapterConst.DirtyCellFlag)
+			var_7_0 = bit.bor(var_7_0, ChapterConst.DirtyCellFlag, ChapterConst.DirtyWeather)
 		end
 
 		if #arg_7_0.cellUpdates > 0 then

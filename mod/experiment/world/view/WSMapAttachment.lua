@@ -4,11 +4,12 @@ var_0_0.Fields = {
 	cell = "table",
 	lurkTimer = "table",
 	map = "table",
-	twTimer = "userdata",
+	isFighting = "boolean",
 	attachment = "table",
-	isInit = "boolean",
+	twTimer = "userdata",
 	twBreathId = "number",
-	isFighting = "boolean"
+	spineChar = "table",
+	isInit = "boolean"
 }
 var_0_0.Listeners = {
 	onUpdate = "Update"

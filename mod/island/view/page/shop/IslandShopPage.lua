@@ -109,7 +109,7 @@ function var_0_0.SetShopList(arg_10_0)
 
 			if var_11_0 then
 				setActive(arg_11_2:Find("shop2List"), false)
-				LoadImageSpriteAsync(var_11_0.tag_icon[3], arg_11_2:Find("shop1Tg/selected/icon"), false)
+				GetImageSpriteFromAtlasAsync("island/islandshopicon", var_11_0.tag_icon[3], arg_11_2:Find("shop1Tg/selected/icon"), false)
 				setText(arg_11_2:Find("shop1Tg/name"), var_11_0.tag_icon[1])
 				setText(arg_11_2:Find("shop1Tg/name/en"), var_11_0.tag_icon[2])
 				onToggle(arg_10_0, arg_11_2:Find("shop1Tg"), function(arg_12_0)
@@ -570,8 +570,6 @@ end
 function var_0_0.SetCommodity(arg_35_0, arg_35_1, arg_35_2)
 	var_0_0.StaticUpdateCommodityTpl(arg_35_1, arg_35_2)
 	setActive(arg_35_1:Find("notInTime"), not arg_35_0.showingShop:IsInTime())
-	setText(arg_35_1:Find("sellOut/Text"), i18n("common_sale_out"))
-	setText(arg_35_1:Find("hold/Text"), i18n("common_already owned"))
 
 	local var_35_0 = false
 
@@ -1246,6 +1244,8 @@ function var_0_0.LoadCharacter(arg_81_0, arg_81_1, arg_81_2)
 
 		var_82_3.rotationSpeed = pg.island_set.character_detail_camera_speed.key_value_int
 
+		arg_81_0.displayUnit:OnAttach(arg_82_0, arg_81_0.toolContainer)
+
 		local var_82_4 = arg_81_0.modelData and arg_81_0.modelData.personal_ani
 
 		if var_82_4 and var_82_4 ~= "" then
@@ -1274,6 +1274,7 @@ function var_0_0.UnloadCharacter(arg_85_0)
 	arg_85_0.islandShipDressHelper:Destroy()
 
 	if arg_85_0.role then
+		arg_85_0.displayUnit:OnDetach()
 		pg.ViewUtils.SetLayer(arg_85_0.role.transform, Layer.Default)
 
 		if arg_85_0.isCommander then
@@ -1384,6 +1385,8 @@ function var_0_0.StaticUpdateCommodityTpl(arg_90_0, arg_90_1)
 	setActive(arg_90_0:Find("sellOut"), arg_90_1:GetMaxNum() ~= 0 and var_90_0 == 0 and not isActive(arg_90_0:Find("hold")))
 	setActive(arg_90_0:Find("cost"), not isActive(arg_90_0:Find("sellOut")) and not isActive(arg_90_0:Find("hold")))
 	setActive(arg_90_0:Find("select"), false)
+	setText(arg_90_0:Find("sellOut/Text"), i18n("common_sale_out"))
+	setText(arg_90_0:Find("hold/Text"), i18n("common_already owned"))
 end
 
 function var_0_0.SortShopCommodities(arg_91_0)

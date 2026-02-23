@@ -4,7 +4,7 @@ pg.island_chara_skill = {
 		id = 1000,
 		name = "Manufacturing Expertise",
 		icon = "chara_all_skill_14",
-		desc = "When assigned to the manual workbench at the Base Factory, items take $1% less time to manufacture.",
+		desc = "When assigned to the manual workbench at the Base Factory, working speed increases by $1%.",
 		desc_add = {
 			{
 				{
@@ -398,7 +398,7 @@ pg.island_chara_skill = {
 		id = 1003,
 		name = "Fruit-Growing Expertise",
 		icon = "chara_all_skill_10",
-		desc = "When performing work at Sweetscent Orchard, fruit ripening time is shortened by $1%.",
+		desc = "When assigned to Sweetscent Orchard, working speed increases by $1%.",
 		desc_add = {
 			{
 				{
@@ -526,7 +526,7 @@ pg.island_chara_skill = {
 		id = 1004,
 		name = "Lumberjack Expertise",
 		icon = "chara_all_skill_2",
-		desc = "When performing work in the Verdant Woods, lumber production time is shortened by $1%.",
+		desc = "When assigned to the Verdant Woods, working speed increases by $1%.",
 		desc_add = {
 			{
 				{
@@ -654,7 +654,7 @@ pg.island_chara_skill = {
 		id = 1005,
 		name = "Ranching Expertise",
 		icon = "chara_all_skill_6",
-		desc = "When performing work at Laidback Ranch, animal product production time is shortened by $1%.",
+		desc = "When assigned to Laidback Ranch, working speed increases by $1%.",
 		desc_add = {
 			{
 				{
@@ -782,7 +782,7 @@ pg.island_chara_skill = {
 		id = 1006,
 		name = "Cooking Expertise",
 		icon = "chara_all_skill_7",
-		desc = "When performing work at the Golden Koi Restaurant, food preparation time is shortened by $1%.",
+		desc = "When assigned to the Golden Koi Restaurant, working speed increases by $1%.",
 		desc_add = {
 			{
 				{
@@ -910,7 +910,7 @@ pg.island_chara_skill = {
 		id = 1007,
 		name = "Research Expertise",
 		icon = "chara_all_skill_3",
-		desc = "When researching Island Technologies, research time is shortened by $1%.",
+		desc = "When researching Island Technology, working speed increases by $1%.",
 		desc_add = {
 			{
 				{
@@ -1038,7 +1038,7 @@ pg.island_chara_skill = {
 		id = 1008,
 		name = "Mining Expertise",
 		icon = "chara_all_skill_1",
-		desc = "When performing work at Rockheap Mine, mineral mining time is shortened by $1%.",
+		desc = "When assigned to Rockheap Mine, working speed increases by $1%.",
 		desc_add = {
 			{
 				{
@@ -1166,7 +1166,7 @@ pg.island_chara_skill = {
 		id = 1009,
 		name = "Farming Expertise",
 		icon = "chara_all_skill_5",
-		desc = "When performing work at Faircrop Fields, crop ripening time is shortened by $1%.",
+		desc = "When assigned to Faircrop Fields, working speed increases by $1%.",
 		desc_add = {
 			{
 				{
@@ -1422,7 +1422,7 @@ pg.island_chara_skill = {
 		id = 1011,
 		name = "Nursery Expertise",
 		icon = "chara_all_skill_9",
-		desc = "When performing work at Newsprout Nursery, crop ripening time is shortened by $1%.",
+		desc = "When assigned to Newsprout Nursery, working speed increases by $1%.",
 		desc_add = {
 			{
 				{
@@ -1940,11 +1940,661 @@ pg.island_chara_skill = {
 			}
 		}
 	},
+	[1015] = {
+		id = 1015,
+		name = "Production Skill",
+		icon = "chara_all_skill_15",
+		desc = "When assigned to industrial equipment at the Base Factory, there is a $1% chance of getting additional output each time work is done.",
+		desc_add = {
+			{
+				{
+					"6"
+				},
+				{
+					"6.5"
+				},
+				{
+					"7"
+				},
+				{
+					"7.5"
+				},
+				{
+					"8"
+				},
+				{
+					"8.5"
+				},
+				{
+					"9"
+				},
+				{
+					"10"
+				},
+				{
+					"11"
+				},
+				{
+					"12"
+				}
+			}
+		},
+		material = {
+			{
+				{
+					100101,
+					2
+				}
+			},
+			{
+				{
+					100101,
+					4
+				}
+			},
+			{
+				{
+					100101,
+					6
+				}
+			},
+			{
+				{
+					100102,
+					2
+				}
+			},
+			{
+				{
+					100102,
+					4
+				}
+			},
+			{
+				{
+					100102,
+					6
+				}
+			},
+			{
+				{
+					100103,
+					4
+				}
+			},
+			{
+				{
+					100103,
+					6
+				}
+			},
+			{
+				{
+					100103,
+					10
+				}
+			}
+		},
+		skill_effect = {
+			{
+				10150
+			},
+			{
+				10151
+			},
+			{
+				10152
+			},
+			{
+				10153
+			},
+			{
+				10154
+			},
+			{
+				10155
+			},
+			{
+				10156
+			},
+			{
+				10157
+			},
+			{
+				10158
+			},
+			{
+				10159
+			}
+		}
+	},
+	[1016] = {
+		id = 1016,
+		name = "Gathering Skill",
+		icon = "chara_all_skill_5",
+		desc = "When performing work at Faircrop Fields, there is a $1% chance of getting additional output each time work is done.",
+		desc_add = {
+			{
+				{
+					"6"
+				},
+				{
+					"6.5"
+				},
+				{
+					"7"
+				},
+				{
+					"7.5"
+				},
+				{
+					"8"
+				},
+				{
+					"8.5"
+				},
+				{
+					"9"
+				},
+				{
+					"10"
+				},
+				{
+					"11"
+				},
+				{
+					"12"
+				}
+			}
+		},
+		material = {
+			{
+				{
+					100101,
+					2
+				}
+			},
+			{
+				{
+					100101,
+					4
+				}
+			},
+			{
+				{
+					100101,
+					6
+				}
+			},
+			{
+				{
+					100102,
+					2
+				}
+			},
+			{
+				{
+					100102,
+					4
+				}
+			},
+			{
+				{
+					100102,
+					6
+				}
+			},
+			{
+				{
+					100103,
+					4
+				}
+			},
+			{
+				{
+					100103,
+					6
+				}
+			},
+			{
+				{
+					100103,
+					10
+				}
+			}
+		},
+		skill_effect = {
+			{
+				10160
+			},
+			{
+				10161
+			},
+			{
+				10162
+			},
+			{
+				10163
+			},
+			{
+				10164
+			},
+			{
+				10165
+			},
+			{
+				10166
+			},
+			{
+				10167
+			},
+			{
+				10168
+			},
+			{
+				10169
+			}
+		}
+	},
+	[1017] = {
+		id = 1017,
+		name = "Grazing Skill",
+		icon = "chara_all_skill_6",
+		desc = "When performing work at Laidback Ranch, stamina consumption is reduced by $1%.",
+		desc_add = {
+			{
+				{
+					"3"
+				},
+				{
+					"3.5"
+				},
+				{
+					"4"
+				},
+				{
+					"4.5"
+				},
+				{
+					"5"
+				},
+				{
+					"5.5"
+				},
+				{
+					"6"
+				},
+				{
+					"6.5"
+				},
+				{
+					"7"
+				},
+				{
+					"8"
+				}
+			}
+		},
+		material = {
+			{
+				{
+					100101,
+					2
+				}
+			},
+			{
+				{
+					100101,
+					4
+				}
+			},
+			{
+				{
+					100101,
+					6
+				}
+			},
+			{
+				{
+					100102,
+					2
+				}
+			},
+			{
+				{
+					100102,
+					4
+				}
+			},
+			{
+				{
+					100102,
+					6
+				}
+			},
+			{
+				{
+					100103,
+					4
+				}
+			},
+			{
+				{
+					100103,
+					6
+				}
+			},
+			{
+				{
+					100103,
+					10
+				}
+			}
+		},
+		skill_effect = {
+			{
+				10170
+			},
+			{
+				10171
+			},
+			{
+				10172
+			},
+			{
+				10173
+			},
+			{
+				10174
+			},
+			{
+				10175
+			},
+			{
+				10176
+			},
+			{
+				10177
+			},
+			{
+				10178
+			},
+			{
+				10179
+			}
+		}
+	},
+	[1018] = {
+		id = 1018,
+		name = "Café Specialization",
+		icon = "chara_all_skill_12",
+		desc = "When assigned as staff to the Manjuu Eatery, +1 menu item slots and revenue from food increases by $1%.",
+		desc_add = {
+			{
+				{
+					"4"
+				},
+				{
+					"4.5"
+				},
+				{
+					"5"
+				},
+				{
+					"5.5"
+				},
+				{
+					"6"
+				},
+				{
+					"6.5"
+				},
+				{
+					"7"
+				},
+				{
+					"8"
+				},
+				{
+					"9"
+				},
+				{
+					"10"
+				}
+			}
+		},
+		material = {
+			{
+				{
+					100101,
+					2
+				}
+			},
+			{
+				{
+					100101,
+					4
+				}
+			},
+			{
+				{
+					100101,
+					6
+				}
+			},
+			{
+				{
+					100102,
+					2
+				}
+			},
+			{
+				{
+					100102,
+					4
+				}
+			},
+			{
+				{
+					100102,
+					6
+				}
+			},
+			{
+				{
+					100103,
+					4
+				}
+			},
+			{
+				{
+					100103,
+					6
+				}
+			},
+			{
+				{
+					100103,
+					10
+				}
+			}
+		},
+		skill_effect = {
+			{
+				10180,
+				100003
+			},
+			{
+				10181,
+				100003
+			},
+			{
+				10182,
+				100003
+			},
+			{
+				10183,
+				100003
+			},
+			{
+				10184,
+				100003
+			},
+			{
+				10185,
+				100003
+			},
+			{
+				10186,
+				100003
+			},
+			{
+				10187,
+				100003
+			},
+			{
+				10188,
+				100003
+			},
+			{
+				10189,
+				100003
+			}
+		}
+	},
+	[1019] = {
+		id = 1019,
+		name = "Modulation Skill",
+		icon = "chara_all_skill_4",
+		desc = "When assigned as staff to Café Manjuu, there is a $1% chance of getting additional output each time work is done.",
+		desc_add = {
+			{
+				{
+					"3"
+				},
+				{
+					"3.5"
+				},
+				{
+					"4"
+				},
+				{
+					"4.5"
+				},
+				{
+					"5"
+				},
+				{
+					"5.5"
+				},
+				{
+					"6"
+				},
+				{
+					"6.5"
+				},
+				{
+					"7"
+				},
+				{
+					"8"
+				}
+			}
+		},
+		material = {
+			{
+				{
+					100101,
+					2
+				}
+			},
+			{
+				{
+					100101,
+					4
+				}
+			},
+			{
+				{
+					100101,
+					6
+				}
+			},
+			{
+				{
+					100102,
+					2
+				}
+			},
+			{
+				{
+					100102,
+					4
+				}
+			},
+			{
+				{
+					100102,
+					6
+				}
+			},
+			{
+				{
+					100103,
+					4
+				}
+			},
+			{
+				{
+					100103,
+					6
+				}
+			},
+			{
+				{
+					100103,
+					10
+				}
+			}
+		},
+		skill_effect = {
+			{
+				10190
+			},
+			{
+				10191
+			},
+			{
+				10192
+			},
+			{
+				10193
+			},
+			{
+				10194
+			},
+			{
+				10195
+			},
+			{
+				10196
+			},
+			{
+				10197
+			},
+			{
+				10198
+			},
+			{
+				10199
+			}
+		}
+	},
 	[99999] = {
 		id = 99999,
-		name = "Infinite Stamina",
+		name = "Limitless Stamina",
 		icon = "chara_all_skill_8",
-		desc = "When performing work of any sort, stamina will not deplete.",
+		desc = "Workerjuus have no stamina limit and can be assigned to multiple slots at once.",
 		desc_add = {},
 		material = {},
 		skill_effect = {
@@ -1969,6 +2619,11 @@ pg.island_chara_skill = {
 		1012,
 		1013,
 		1014,
+		1015,
+		1016,
+		1017,
+		1018,
+		1019,
 		99999
 	}
 }

@@ -1,0 +1,15 @@
+return {
+	id = 201557,
+	name = "2025约战联动 L3 BOSS光环 回血",
+	cd = 0,
+	painting = 0,
+	effect_list = {
+		{
+			target_choise = "TargetSelf",
+			type = "BattleSkillHeal",
+			arg_list = {
+				maxHPRatio = 0.05
+			}
+		}
+	}
+}

@@ -55,9 +55,11 @@ function var_0_0.register(arg_1_0)
 			data = arg_5_1,
 			onRemoved = function()
 				arg_1_0.viewComponent:InitExtraSystem({
-					DormConst.EXTRA_SYSTEMS.FurnitureSlide
+					SlideExtraSystem
 				})
 				arg_1_0.viewComponent:TempHideUI(false, arg_5_2)
+
+				arg_1_0.viewComponent.isInFurnitureSelect = false
 			end
 		}), nil, function()
 			arg_1_0.viewComponent:TempHideUI(true)
@@ -401,22 +403,25 @@ function var_0_0.handleNotification(arg_68_0, arg_68_1)
 
 	local var_68_0 = arg_68_1:getName()
 	local var_68_1 = arg_68_1:getBody()
-	local var_68_2 = arg_68_0.viewComponent.systemList or {}
 
-	for iter_68_0, iter_68_1 in pairs(var_68_2) do
-		iter_68_1:HandleNotification(var_68_0, var_68_1)
+	if arg_68_0.viewComponent.systemManager then
+		arg_68_0.viewComponent.systemManager:BroadcastNotification(var_68_0, var_68_1)
 	end
 end
 
 function var_0_0.listNotificationInterests(arg_69_0)
 	local var_69_0 = underscore.keys(arg_69_0.handleDic or {})
-	local var_69_1 = {
-		SlideExtraSystem,
-		Dorm3dStockingMgr
-	}
 
-	for iter_69_0, iter_69_1 in pairs(var_69_1) do
-		var_69_0 = table.mergeArray(var_69_0, iter_69_1.GetInterests())
+	if arg_69_0.viewComponent and arg_69_0.viewComponent.systemManager then
+		var_69_0 = table.mergeArray(var_69_0, arg_69_0.viewComponent.systemManager:GetAllInterests(), true)
+	else
+		local var_69_1 = DormConst.GetDefaultSystemClasses()
+
+		for iter_69_0, iter_69_1 in ipairs(var_69_1) do
+			if iter_69_1.GetInterests then
+				var_69_0 = table.mergeArray(var_69_0, iter_69_1.GetInterests())
+			end
+		end
 	end
 
 	return var_69_0

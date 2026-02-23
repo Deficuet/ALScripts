@@ -232,15 +232,12 @@ function var_0_0.UpdateShip(arg_24_0, arg_24_1, arg_24_2)
 
 	var_24_3:SetData(var_24_1:getPrefab())
 	var_24_3:Load(function()
-		local var_27_0 = var_24_3.modelRoot
-
-		var_27_0.name = "model"
-		var_27_0.transform.localScale = Vector2.New(var_0_0.SDScale, var_0_0.SDScale)
-		rtf(var_27_0).sizeDelta = Vector2.New(200, 500)
-
-		SetParent(var_27_0, var_24_0)
+		var_24_3:SetName("model")
+		var_24_3:SetLocalScale(Vector2.New(var_0_0.SDScale, var_0_0.SDScale))
+		var_24_3:SetSizeDelta(Vector2.New(200, 500))
+		var_24_3:SetParent(var_24_0)
 		var_24_3:SetAction("stand")
-		var_27_0.transform:SetAsFirstSibling()
+		go.transform:SetAsFirstSibling()
 		setActive(var_24_0, true)
 	end, true)
 

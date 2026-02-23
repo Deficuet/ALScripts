@@ -1,238 +1,5 @@
 pg = pg or {}
 pg.enemy_data_statistics_3 = {
-	[50069] = {
-		torpedo_growth = 9400,
-		name = "Bunbun Strikers",
-		luck_growth = 10000,
-		cannon_growth = 9400,
-		hit_growth = 9400,
-		fog_fx = "",
-		reload_growth = 9400,
-		dodge_growth = 4700,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 50061,
-		durability = 920,
-		armor_growth = 0,
-		durability_growth = 0,
-		bubble_fx = "",
-		antiaircraft_growth = 9400,
-		id = 50069,
-		specific_fx_scale = {},
-		appear_fx = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[50070] = {
-		torpedo_growth = 10000,
-		name = "Bunbun Strikers",
-		luck_growth = 10000,
-		cannon_growth = 10000,
-		hit_growth = 10000,
-		fog_fx = "",
-		reload_growth = 10000,
-		dodge_growth = 5000,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 50061,
-		durability = 1000,
-		armor_growth = 0,
-		durability_growth = 0,
-		bubble_fx = "",
-		antiaircraft_growth = 10000,
-		id = 50070,
-		specific_fx_scale = {},
-		appear_fx = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[50071] = {
-		cannon = 0,
-		name = "「罗德尼」",
-		type = 5,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 3000,
-		armor = 0,
-		friendly_cld = 0,
-		id = 50071,
-		bubble_fx = "",
-		dodge_growth = 10000,
-		icon = "luodeni",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 10000,
-		icon_type = 5,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 5000,
-		speed = 23,
-		luck = 0,
-		antisub = 0,
-		scale = 100,
-		wave_fx = "",
-		prefab = "luodeni",
-		cannon_growth = 5000,
-		pilot_ai_template_id = 20006,
-		reload = 0,
-		dodge = 0,
-		reload_growth = 5000,
-		hit = 0,
-		nationality = 97,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 5000,
-		armor_type = 3,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			9,
-			9,
-			12
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.126,
-					1.3,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.327,
-					0.824,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.465,
-					0.245,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.71,
-							0.72,
-							-0.12
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.96,
-							0.84,
-							-0.32
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[50072] = {
-		torpedo_growth = 0,
-		name = "「罗德尼」",
-		luck_growth = 10000,
-		cannon_growth = 5500,
-		hit_growth = 5500,
-		fog_fx = "",
-		reload_growth = 5500,
-		dodge_growth = 10000,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 50071,
-		durability = 3000,
-		armor_growth = 0,
-		durability_growth = 0,
-		bubble_fx = "",
-		antiaircraft_growth = 5500,
-		id = 50072,
-		specific_fx_scale = {},
-		appear_fx = {},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
 	[50073] = {
 		torpedo_growth = 0,
 		name = "「罗德尼」",
@@ -1606,5 +1373,231 @@ pg.enemy_data_statistics_3 = {
 		equipment_list = {
 			167085
 		}
+	},
+	[50106] = {
+		antisub_growth = 0,
+		name = "\"Pterosaur\" Ornithopter",
+		air_growth = 0,
+		cannon_growth = 7750,
+		base = 50101,
+		fog_fx = "",
+		torpedo_growth = 0,
+		luck_growth = 10000,
+		antiaircraft_growth = 7750,
+		armor_growth = 0,
+		durability_growth = 0,
+		reload_growth = 7750,
+		dodge_growth = 4000,
+		bubble_fx = "",
+		hit_growth = 7750,
+		id = 50106,
+		equipment_list = {
+			167086
+		}
+	},
+	[50107] = {
+		antisub_growth = 0,
+		name = "\"Pterosaur\" Ornithopter",
+		air_growth = 0,
+		cannon_growth = 8300,
+		base = 50101,
+		fog_fx = "",
+		torpedo_growth = 0,
+		luck_growth = 10000,
+		antiaircraft_growth = 8300,
+		armor_growth = 0,
+		durability_growth = 0,
+		reload_growth = 8300,
+		dodge_growth = 4200,
+		bubble_fx = "",
+		hit_growth = 8300,
+		id = 50107,
+		equipment_list = {
+			167087
+		}
+	},
+	[50108] = {
+		antisub_growth = 0,
+		name = "\"Pterosaur\" Ornithopter",
+		air_growth = 0,
+		cannon_growth = 8850,
+		base = 50101,
+		fog_fx = "",
+		torpedo_growth = 0,
+		luck_growth = 10000,
+		antiaircraft_growth = 8850,
+		armor_growth = 0,
+		durability_growth = 0,
+		reload_growth = 8850,
+		dodge_growth = 4400,
+		bubble_fx = "",
+		hit_growth = 8850,
+		id = 50108,
+		equipment_list = {
+			167088
+		}
+	},
+	[50109] = {
+		antisub_growth = 0,
+		name = "\"Pterosaur\" Ornithopter",
+		air_growth = 0,
+		cannon_growth = 9400,
+		base = 50101,
+		fog_fx = "",
+		torpedo_growth = 0,
+		luck_growth = 10000,
+		antiaircraft_growth = 9400,
+		armor_growth = 0,
+		durability_growth = 0,
+		reload_growth = 9400,
+		dodge_growth = 4600,
+		bubble_fx = "",
+		hit_growth = 9400,
+		id = 50109,
+		equipment_list = {
+			167089
+		}
+	},
+	[50110] = {
+		antisub_growth = 0,
+		name = "\"Pterosaur\" Ornithopter",
+		air_growth = 0,
+		cannon_growth = 10000,
+		base = 50101,
+		fog_fx = "",
+		torpedo_growth = 0,
+		luck_growth = 10000,
+		antiaircraft_growth = 10000,
+		armor_growth = 0,
+		durability_growth = 0,
+		reload_growth = 10000,
+		dodge_growth = 5000,
+		bubble_fx = "",
+		hit_growth = 10000,
+		id = 50110,
+		equipment_list = {
+			167090
+		}
+	},
+	[50111] = {
+		cannon = 0,
+		name = "Bloody Shadow",
+		type = 1,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 1000,
+		armor = 0,
+		friendly_cld = 0,
+		id = 50111,
+		bubble_fx = "",
+		dodge_growth = 3000,
+		icon = "jiangfeng_alter_shadow",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 10000,
+		icon_type = 1,
+		armor_growth = 0,
+		torpedo_growth = 5000,
+		hit_growth = 5000,
+		speed = 25,
+		luck = 0,
+		antisub = 0,
+		scale = 70,
+		wave_fx = "",
+		prefab = "jiangfeng_alter_shadow",
+		cannon_growth = 5000,
+		pilot_ai_template_id = 20006,
+		reload = 0,
+		dodge = 0,
+		reload_growth = 5000,
+		hit = 0,
+		nationality = 97,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 5000,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5,
+			8,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					3.5,
+					3.5,
+					0
+				}
+			}
+		},
+		smoke = {},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			3
+		},
+		equipment_list = {
+			180002
+		},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
 	}
 }

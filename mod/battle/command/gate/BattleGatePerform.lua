@@ -69,6 +69,7 @@ function var_0_0.Exit(arg_4_0, arg_4_1)
 		local var_4_0 = arg_4_1.GeneralPackage(arg_4_0, {})
 
 		local function var_4_1(arg_5_0)
+			print(arg_4_0.exitCallback)
 			arg_4_1:sendNotification(GAME.FINISH_STAGE_DONE, {
 				system = SYSTEM_PERFORM,
 				exitCallback = arg_4_0.exitCallback

@@ -72,8 +72,8 @@ function var_0_0.AddAgoraListeners(arg_4_0)
 	arg_4_0:AddAgoraListener(ISLAND_AGORA_EVT.DRAG_ITEM, arg_4_0.OnDragItem)
 	arg_4_0:AddAgoraListener(ISLAND_AGORA_EVT.DRAG_ITEM_END, arg_4_0.OnEndDragItem)
 	arg_4_0:AddAgoraListener(ISLAND_AGORA_EVT.MAP_SIZE_UPDATE, arg_4_0.OnBoardUpdate)
-	arg_4_0:AddAgoraListener(ISLAND_AGORA_EVT.START_INTERACTION, arg_4_0.OnStartInteraction)
-	arg_4_0:AddAgoraListener(ISLAND_AGORA_EVT.END_INTERACTION, arg_4_0.OnEndInteraction)
+	arg_4_0:AddAgoraListener(ISLAND_AGORA_EVT.START_INTERACTION, arg_4_0.OnAgoraVirtualStartInteraction)
+	arg_4_0:AddAgoraListener(ISLAND_AGORA_EVT.END_INTERACTION, arg_4_0.OnAgoraVirtualEndInteraction)
 	arg_4_0:AddAgoraListener(ISLAND_AGORA_EVT.ITEM_OCCUPIED, arg_4_0.OnPositionOccupied)
 	arg_4_0:AddAgoraListener(ISLAND_AGORA_EVT.ITEM_CLEAR_OCCUPIED, arg_4_0.OnClearPositionOccupied)
 	arg_4_0:AddAgoraListener(ISLAND_AGORA_EVT.SIGN_IN_CNT_UPDATE, arg_4_0.OnSignCntUpdate)
@@ -113,8 +113,8 @@ function var_0_0.RemoveAgoraListeners(arg_5_0)
 	arg_5_0:RemoveAgoraListener(ISLAND_AGORA_EVT.DRAG_ITEM, arg_5_0.OnDragItem)
 	arg_5_0:RemoveAgoraListener(ISLAND_AGORA_EVT.DRAG_ITEM_END, arg_5_0.OnEndDragItem)
 	arg_5_0:RemoveAgoraListener(ISLAND_AGORA_EVT.MAP_SIZE_UPDATE, arg_5_0.OnBoardUpdate)
-	arg_5_0:RemoveAgoraListener(ISLAND_AGORA_EVT.START_INTERACTION, arg_5_0.OnStartInteraction)
-	arg_5_0:RemoveAgoraListener(ISLAND_AGORA_EVT.END_INTERACTION, arg_5_0.OnEndInteraction)
+	arg_5_0:RemoveAgoraListener(ISLAND_AGORA_EVT.START_INTERACTION, arg_5_0.OnAgoraVirtualStartInteraction)
+	arg_5_0:RemoveAgoraListener(ISLAND_AGORA_EVT.END_INTERACTION, arg_5_0.OnAgoraVirtualEndInteraction)
 	arg_5_0:RemoveAgoraListener(ISLAND_AGORA_EVT.ITEM_OCCUPIED, arg_5_0.OnPositionOccupied)
 	arg_5_0:RemoveAgoraListener(ISLAND_AGORA_EVT.ITEM_CLEAR_OCCUPIED, arg_5_0.OnClearPositionOccupied)
 	arg_5_0:RemoveAgoraListener(ISLAND_AGORA_EVT.SIGN_IN_CNT_UPDATE, arg_5_0.OnSignCntUpdate)
@@ -367,7 +367,7 @@ function var_0_0.OnClearPositionOccupied(arg_34_0, arg_34_1)
 	end
 end
 
-function var_0_0.OnStartInteraction(arg_35_0, arg_35_1, arg_35_2, arg_35_3)
+function var_0_0.OnAgoraVirtualStartInteraction(arg_35_0, arg_35_1, arg_35_2, arg_35_3)
 	local var_35_0 = arg_35_2:GetHostId()
 	local var_35_1 = arg_35_2:GetUserId()
 
@@ -382,11 +382,12 @@ function var_0_0.OnStartInteraction(arg_35_0, arg_35_1, arg_35_2, arg_35_3)
 	end
 
 	local var_35_5 = arg_35_1:GetTimeline()[arg_35_3]
+	local var_35_6 = arg_35_1:GetBlackboardParam()[arg_35_3]
 
-	var_35_2:StartInteract(var_35_3, arg_35_2.id, arg_35_3, var_35_5, nil, arg_35_1:AnySlotUsing(), var_35_4)
+	var_35_2:StartInteract(var_35_3, arg_35_2.id, arg_35_3, var_35_5, var_35_6, arg_35_1:AnySlotUsing(), var_35_4)
 end
 
-function var_0_0.OnEndInteraction(arg_36_0, arg_36_1, arg_36_2)
+function var_0_0.OnAgoraVirtualEndInteraction(arg_36_0, arg_36_1, arg_36_2)
 	local var_36_0 = arg_36_2:GetHostId()
 	local var_36_1 = arg_36_2:GetUserId()
 

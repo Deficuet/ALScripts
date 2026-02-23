@@ -242,6 +242,19 @@ pg.memory_group = setmetatable({
 		342,
 		343,
 		344,
+		345,
+		346,
+		347,
+		348,
+		349,
+		350,
+		351,
+		352,
+		353,
+		354,
+		355,
+		356,
+		357,
 		501,
 		502,
 		503,
@@ -355,6 +368,10 @@ pg.memory_group = setmetatable({
 		613,
 		614,
 		615,
+		616,
+		617,
+		618,
+		619,
 		1000,
 		1001,
 		1002,
@@ -1605,7 +1622,10 @@ pg.base.memory_group = {
 			1875,
 			3211,
 			3217,
-			3218
+			3218,
+			3212,
+			3213,
+			4834
 		}
 	},
 	[167] = {
@@ -6012,6 +6032,298 @@ pg.base.memory_group = {
 			4749
 		}
 	},
+	[345] = {
+		id = 345,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 50235,
+		title = "Port Fashion Collection: Race Track Fever",
+		group_id = "",
+		memories = {
+			4761,
+			4762,
+			4763
+		}
+	},
+	[346] = {
+		id = 346,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 50268,
+		title = "The New Sales Campaign Just Dropped!",
+		group_id = "",
+		memories = {
+			4771
+		}
+	},
+	[347] = {
+		id = 347,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 50256,
+		title = "DATE A LANE",
+		group_id = "",
+		memories = {
+			4781,
+			4782,
+			4783,
+			4784,
+			4785,
+			4786,
+			4787,
+			4788,
+			4789,
+			4790,
+			4791,
+			4792,
+			4793,
+			4794,
+			4795,
+			4796,
+			4797,
+			4798,
+			4799,
+			4800,
+			4801,
+			4802,
+			4803,
+			4804,
+			4805,
+			4806,
+			4807,
+			4808,
+			4809,
+			4810,
+			4811,
+			4812
+		}
+	},
+	[348] = {
+		id = 348,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 50256,
+		title = "DATE A LANE - Side Stories",
+		group_id = "",
+		memories = {
+			4821,
+			4822,
+			4823,
+			4824,
+			4825,
+			4826
+		}
+	},
+	[349] = {
+		id = 349,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 50262,
+		title = "Memories in Echo",
+		group_id = "",
+		memories = {
+			4841,
+			4842,
+			4843,
+			4844,
+			4845,
+			4846,
+			4847,
+			4848,
+			4849,
+			4850,
+			4851,
+			4852,
+			4853,
+			4854,
+			4855,
+			4856,
+			4857,
+			4858,
+			4859
+		}
+	},
+	[350] = {
+		id = 350,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 50266,
+		title = "To a Brighter World",
+		group_id = "",
+		memories = {
+			4871,
+			4872,
+			4873,
+			4874,
+			4875,
+			4876,
+			4877,
+			4878,
+			4879
+		}
+	},
+	[351] = {
+		id = 351,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 50281,
+		title = "A Note Through the Firmament",
+		group_id = "",
+		memories = {
+			4881,
+			4882,
+			4883,
+			4884,
+			4885,
+			4886,
+			4887,
+			4888,
+			4889,
+			4890,
+			4891,
+			4892,
+			4893,
+			4894,
+			4895,
+			4896,
+			4897,
+			4898,
+			4899,
+			4900,
+			4901,
+			4902,
+			4903,
+			4904,
+			4905,
+			4906,
+			4907,
+			4908,
+			4909,
+			4910,
+			4911,
+			4912,
+			4913,
+			4914,
+			4915,
+			4916,
+			4917,
+			4918,
+			4919,
+			4920,
+			4921,
+			4922,
+			4923,
+			4924
+		}
+	},
+	[352] = {
+		id = 352,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 50290,
+		title = "Port Fashion Collection: Heart-Throbbing Moment I",
+		group_id = "",
+		memories = {
+			4931,
+			4932,
+			4933,
+			4934,
+			4935
+		}
+	},
+	[353] = {
+		id = 353,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 50297,
+		title = "Port Fashion Collection: Heart-Throbbing Moment II",
+		group_id = "",
+		memories = {
+			4941,
+			4942,
+			4943,
+			4944,
+			4945,
+			4946
+		}
+	},
+	[354] = {
+		id = 354,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 50360,
+		title = "Light & Shadow Fashion Shoot!",
+		group_id = "",
+		memories = {
+			4961,
+			4962,
+			4963,
+			4964,
+			4965,
+			4966,
+			4967,
+			4968,
+			4969,
+			4970
+		}
+	},
+	[355] = {
+		id = 355,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 50404,
+		title = "Spring Auction Adventure",
+		group_id = "",
+		memories = {
+			4981,
+			4982,
+			4983,
+			4984,
+			4985,
+			4986,
+			4987
+		}
+	},
+	[356] = {
+		id = 356,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 50401,
+		title = "Valentine's Day - The Chocolatastrophy!",
+		group_id = "",
+		memories = {
+			4991,
+			4992,
+			4993
+		}
+	},
+	[357] = {
+		id = 357,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 50412,
+		title = "Port Fashion Collection: Silken-Red Embrace",
+		group_id = "",
+		memories = {
+			5001,
+			5002,
+			5003,
+			5004
+		}
+	},
 	[501] = {
 		id = 501,
 		subtype = 0,
@@ -8278,6 +8590,86 @@ pg.base.memory_group = {
 			4705,
 			4706,
 			4707
+		},
+		group_id = {
+			10000
+		}
+	},
+	[616] = {
+		id = 616,
+		subtype = 0,
+		icon = "title_chara_qisheng",
+		type = 3,
+		link_event = 0,
+		title = "An Electronics Store in Bloom",
+		memories = {
+			4751,
+			4752,
+			4753,
+			4754,
+			4755,
+			4756,
+			4757
+		},
+		group_id = {
+			10000
+		}
+	},
+	[617] = {
+		id = 617,
+		subtype = 0,
+		icon = "title_chara_fage",
+		type = 3,
+		link_event = 0,
+		title = "Happiness Is Incalculable",
+		memories = {
+			4861,
+			4862,
+			4863,
+			4864,
+			4865,
+			4866,
+			4867
+		},
+		group_id = {
+			10000
+		}
+	},
+	[618] = {
+		id = 618,
+		subtype = 0,
+		icon = "title_chara_weineituo",
+		type = 3,
+		link_event = 0,
+		title = "The Guide to Sardegnian Glory",
+		memories = {
+			4951,
+			4952,
+			4953,
+			4954,
+			4955,
+			4956,
+			4957
+		},
+		group_id = {
+			10000
+		}
+	},
+	[619] = {
+		id = 619,
+		subtype = 0,
+		icon = "title_chara_dingan",
+		type = 3,
+		link_event = 0,
+		title = "A Disastrous Investment",
+		memories = {
+			4971,
+			4972,
+			4973,
+			4974,
+			4975,
+			4976,
+			4977
 		},
 		group_id = {
 			10000

@@ -16,6 +16,7 @@ var_0_0.ON_ACTIVE_ARCHIVES_BOSS = "WorldBossMediator:ON_ACTIVE_ARCHIVES_BOSS"
 var_0_0.ON_ARCHIVES_BOSS_AUTO_BATTLE = "WorldBossMediator:ON_ARCHIVES_BOSS_AUTO_BATTLE"
 var_0_0.ON_ARCHIVES_BOSS_STOP_AUTO_BATTLE = "WorldBossMediator:ON_ARCHIVES_BOSS_STOP_AUTO_BATTLE"
 var_0_0.ON_ARCHIVES_BOSS_AUTO_BATTLE_TIMEOVER = "WorldBossMediator:ON_ARCHIVES_BOSS_AUTO_BATTLE_TIMEOVER"
+var_0_0.ON_UPDATE_BOSS_INFO = "WorldBossMediator:UPDATE_BOSS_INFO"
 
 function var_0_0.register(arg_1_0)
 	arg_1_0:bind(var_0_0.ON_ARCHIVES_BOSS_STOP_AUTO_BATTLE, function(arg_2_0, arg_2_1)
@@ -96,11 +97,12 @@ function var_0_0.register(arg_1_0)
 	arg_1_0:bind(var_0_0.ON_FETCH_BOSS, function(arg_13_0)
 		arg_1_0:updateBossProxy()
 	end)
-	arg_1_0:bind(var_0_0.ON_BATTLE, function(arg_14_0, arg_14_1, arg_14_2, arg_14_3)
+	arg_1_0:bind(var_0_0.ON_BATTLE, function(arg_14_0, arg_14_1, arg_14_2, arg_14_3, arg_14_4)
 		arg_1_0:sendNotification(GAME.WORLD_BOSS_START_BATTLE, {
 			bossId = arg_14_1,
 			isOther = arg_14_2,
-			hpRate = arg_14_3 or 1
+			hpRate = arg_14_3 or 1,
+			isSimulate = arg_14_4
 		})
 	end)
 	arg_1_0:bind(var_0_0.ON_RANK_LIST, function(arg_15_0, arg_15_1)
@@ -125,36 +127,41 @@ function var_0_0.register(arg_1_0)
 			callback = arg_17_1
 		})
 	end)
+	arg_1_0:bind(var_0_0.ON_UPDATE_BOSS_INFO, function(arg_18_0, arg_18_1)
+		arg_1_0:sendNotification(GAME.WORLD_GET_BOSS, {
+			callback = arg_18_1
+		})
+	end)
 end
 
-function var_0_0.updateBossProxy(arg_18_0)
-	local var_18_0 = nowWorld():GetBossProxy()
-	local var_18_1 = getProxy(MetaCharacterProxy)
+function var_0_0.updateBossProxy(arg_19_0)
+	local var_19_0 = nowWorld():GetBossProxy()
+	local var_19_1 = getProxy(MetaCharacterProxy)
 
-	arg_18_0.viewComponent:SetBossProxy(var_18_0, var_18_1)
+	arg_19_0.viewComponent:SetBossProxy(var_19_0, var_19_1)
 
-	if not WorldBossScene.inOtherBossBattle and not arg_18_0.contextData.worldBossId and not var_18_0:ExistSelfBossAward() then
-		local var_18_2 = var_18_0:GetCanGetAwardBoss()
+	if not WorldBossScene.inOtherBossBattle and not arg_19_0.contextData.worldBossId and not var_19_0:ExistSelfBossAward() then
+		local var_19_2 = var_19_0:GetCanGetAwardBoss()
 
-		if var_18_2 then
-			arg_18_0.contextData.worldBossId = var_18_2.id
+		if var_19_2 then
+			arg_19_0.contextData.worldBossId = var_19_2.id
 		end
 	end
 
-	if WorldBossScene.inOtherBossBattle or arg_18_0.contextData.worldBossId then
-		local var_18_3 = var_18_0:GetCacheBoss(arg_18_0.contextData.worldBossId)
+	if WorldBossScene.inOtherBossBattle or arg_19_0.contextData.worldBossId then
+		local var_19_3 = var_19_0:GetCacheBoss(arg_19_0.contextData.worldBossId)
 
-		if var_18_3 and not WorldBossConst._IsCurrBoss(var_18_3) then
-			arg_18_0.viewComponent:SwitchPage(WorldBossScene.PAGE_ARCHIVES_CHALLENGE)
+		if var_19_3 and not WorldBossConst._IsCurrBoss(var_19_3) then
+			arg_19_0.viewComponent:SwitchPage(WorldBossScene.PAGE_ARCHIVES_CHALLENGE)
 		else
-			arg_18_0.viewComponent:SwitchPage(WorldBossScene.PAGE_CHALLENGE)
+			arg_19_0.viewComponent:SwitchPage(WorldBossScene.PAGE_CHALLENGE)
 		end
 	else
-		arg_18_0.viewComponent:SwitchPage(WorldBossScene.PAGE_ENTRANCE)
+		arg_19_0.viewComponent:SwitchPage(WorldBossScene.PAGE_ENTRANCE)
 	end
 end
 
-function var_0_0.listNotificationInterests(arg_19_0)
+function var_0_0.listNotificationInterests(arg_20_0)
 	return {
 		GAME.WORLD_GET_BOSS_DONE,
 		GAME.WORLD_BOSS_SUPPORT_DONE,
@@ -168,33 +175,33 @@ function var_0_0.listNotificationInterests(arg_19_0)
 	}
 end
 
-function var_0_0.handleNotification(arg_20_0, arg_20_1)
-	local var_20_0 = arg_20_1:getName()
-	local var_20_1 = arg_20_1:getBody()
+function var_0_0.handleNotification(arg_21_0, arg_21_1)
+	local var_21_0 = arg_21_1:getName()
+	local var_21_1 = arg_21_1:getBody()
 
-	if var_20_0 == GAME.WORLD_GET_BOSS_DONE then
-		arg_20_0:updateBossProxy()
-	elseif var_20_0 == GAME.WORLD_BOSS_SUPPORT_DONE then
+	if var_21_0 == GAME.WORLD_GET_BOSS_DONE then
+		arg_21_0:updateBossProxy()
+	elseif var_21_0 == GAME.WORLD_BOSS_SUPPORT_DONE then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("world_joint_call_support_success"))
-	elseif var_20_0 == GAME.WORLD_BOSS_SUBMIT_AWARD_DONE then
-		arg_20_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_20_1.items)
-		arg_20_0.viewComponent:getAwardDone()
-	elseif var_20_0 == GAME.REMOVE_LAYERS then
-		if not var_20_1.onHome and var_20_1.context.mediator == WorldBossFormationMediator then
-			arg_20_0.viewComponent:OnRemoveLayers()
+	elseif var_21_0 == GAME.WORLD_BOSS_SUBMIT_AWARD_DONE then
+		arg_21_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_21_1.items)
+		arg_21_0.viewComponent:getAwardDone()
+	elseif var_21_0 == GAME.REMOVE_LAYERS then
+		if not var_21_1.onHome and var_21_1.context.mediator == WorldBossFormationMediator then
+			arg_21_0.viewComponent:OnRemoveLayers()
 		end
-	elseif var_20_0 == GAME.WORLD_BOSS_GET_FORMATION_DONE then
-		arg_20_0.viewComponent:OnShowFormationPreview(var_20_1.ships)
-	elseif var_20_0 == GAME.SWITCH_WORLD_BOSS_ARCHIVES_DONE then
-		arg_20_0.viewComponent:OnSwitchArchives()
+	elseif var_21_0 == GAME.WORLD_BOSS_GET_FORMATION_DONE then
+		arg_21_0.viewComponent:OnShowFormationPreview(var_21_1.ships)
+	elseif var_21_0 == GAME.SWITCH_WORLD_BOSS_ARCHIVES_DONE then
+		arg_21_0.viewComponent:OnSwitchArchives()
 		pg.TipsMgr.GetInstance():ShowTips(i18n("world_boss_switch_archives_success"))
-	elseif var_20_0 == GAME.WORLD_ARCHIVES_BOSS_STOP_AUTO_BATTLE_DONE then
-		arg_20_0.viewComponent:OnAutoBattleResult(var_20_1)
-	elseif var_20_0 == GAME.WORLD_ARCHIVES_BOSS_AUTO_BATTLE_DONE then
-		arg_20_0.viewComponent:OnAutoBattleStart(var_20_1)
-	elseif var_20_0 == GAME.GET_META_PT_AWARD_DONE then
-		arg_20_0.viewComponent:OnGetMetaAwards()
-		arg_20_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_20_1.awards)
+	elseif var_21_0 == GAME.WORLD_ARCHIVES_BOSS_STOP_AUTO_BATTLE_DONE then
+		arg_21_0.viewComponent:OnAutoBattleResult(var_21_1)
+	elseif var_21_0 == GAME.WORLD_ARCHIVES_BOSS_AUTO_BATTLE_DONE then
+		arg_21_0.viewComponent:OnAutoBattleStart(var_21_1)
+	elseif var_21_0 == GAME.GET_META_PT_AWARD_DONE then
+		arg_21_0.viewComponent:OnGetMetaAwards()
+		arg_21_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_21_1.awards)
 	end
 end
 

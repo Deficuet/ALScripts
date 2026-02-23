@@ -6957,6 +6957,104 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.weapon_name[52080] = {
+		id = 52080,
+		name = "2 x Bomb (Skip Bomb)"
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52081] = {
+		id = 52081,
+		base = 52080
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52082] = {
+		id = 52082,
+		base = 52080
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52083] = {
+		id = 52083,
+		base = 52080
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52084] = {
+		id = 52084,
+		base = 52080
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52085] = {
+		id = 52085,
+		base = 52080
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52086] = {
+		id = 52086,
+		base = 52080
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52087] = {
+		id = 52087,
+		base = 52080
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52088] = {
+		id = 52088,
+		base = 52080
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52089] = {
+		id = 52089,
+		base = 52080
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52090] = {
+		id = 52090,
+		base = 52080
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52091] = {
+		id = 52091,
+		base = 52080
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52092] = {
+		id = 52092,
+		base = 52080
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52093] = {
+		id = 52093,
+		base = 52080
+	}
+end)()
+
+(function()
 	_G.pg.base.weapon_name[52100] = {
 		id = 52100,
 		name = "2 x 100lb Bomb"
@@ -8031,6 +8129,104 @@ end)()
 	_G.pg.base.weapon_name[52373] = {
 		id = 52373,
 		base = 52360
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52380] = {
+		id = 52380,
+		name = "2 x 1000lb Bomb"
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52381] = {
+		id = 52381,
+		base = 52380
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52382] = {
+		id = 52382,
+		base = 52380
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52383] = {
+		id = 52383,
+		base = 52380
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52384] = {
+		id = 52384,
+		base = 52380
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52385] = {
+		id = 52385,
+		base = 52380
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52386] = {
+		id = 52386,
+		base = 52380
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52387] = {
+		id = 52387,
+		base = 52380
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52388] = {
+		id = 52388,
+		base = 52380
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52389] = {
+		id = 52389,
+		base = 52380
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52390] = {
+		id = 52390,
+		base = 52380
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52391] = {
+		id = 52391,
+		base = 52380
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52392] = {
+		id = 52392,
+		base = 52380
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[52393] = {
+		id = 52393,
+		base = 52380
 	}
 end)()
 
@@ -12245,6 +12441,202 @@ end)()
 	_G.pg.base.weapon_name[53433] = {
 		id = 53433,
 		base = 53420
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53440] = {
+		id = 53440,
+		name = "2 x 1000lb Bomb"
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53441] = {
+		id = 53441,
+		base = 53440
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53442] = {
+		id = 53442,
+		base = 53440
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53443] = {
+		id = 53443,
+		base = 53440
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53444] = {
+		id = 53444,
+		base = 53440
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53445] = {
+		id = 53445,
+		base = 53440
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53446] = {
+		id = 53446,
+		base = 53440
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53447] = {
+		id = 53447,
+		base = 53440
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53448] = {
+		id = 53448,
+		base = 53440
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53449] = {
+		id = 53449,
+		base = 53440
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53450] = {
+		id = 53450,
+		base = 53440
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53451] = {
+		id = 53451,
+		base = 53440
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53452] = {
+		id = 53452,
+		base = 53440
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53453] = {
+		id = 53453,
+		base = 53440
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53460] = {
+		id = 53460,
+		name = "4 x 100lb Bomb"
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53461] = {
+		id = 53461,
+		base = 53460
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53462] = {
+		id = 53462,
+		base = 53460
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53463] = {
+		id = 53463,
+		base = 53460
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53464] = {
+		id = 53464,
+		base = 53460
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53465] = {
+		id = 53465,
+		base = 53460
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53466] = {
+		id = 53466,
+		base = 53460
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53467] = {
+		id = 53467,
+		base = 53460
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53468] = {
+		id = 53468,
+		base = 53460
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53469] = {
+		id = 53469,
+		base = 53460
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53470] = {
+		id = 53470,
+		base = 53460
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53471] = {
+		id = 53471,
+		base = 53460
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53472] = {
+		id = 53472,
+		base = 53460
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_name[53473] = {
+		id = 53473,
+		base = 53460
 	}
 end)()
 

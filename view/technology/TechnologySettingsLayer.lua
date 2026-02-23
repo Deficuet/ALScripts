@@ -7,6 +7,7 @@ var_0_0.TEC_PAGE_CATCHUP_TARGET3 = 4
 var_0_0.TEC_PAGE_CATCHUP_TARGET4 = 5
 var_0_0.TEC_PAGE_CATCHUP_TARGET5 = 6
 var_0_0.TEC_PAGE_CATCHUP_TARGET6 = 7
+var_0_0.TEC_PAGE_CATCHUP_TARGET7 = 8
 var_0_0.TEC_PAGE_CATCHUP_ACT = 99
 var_0_0.PANEL_INTO_TIME = 0.15
 var_0_0.SELECT_TENDENCY_FADE_TIME = 0.3
@@ -17,9 +18,10 @@ var_0_0.CATCHUP_CLASSES = {
 	import("view.technology.TargetCatchup.TargetCatchupPanel3"),
 	import("view.technology.TargetCatchup.TargetCatchupPanel4"),
 	import("view.technology.TargetCatchup.TargetCatchupPanel5"),
-	import("view.technology.TargetCatchup.TargetCatchupPanel6")
+	import("view.technology.TargetCatchup.TargetCatchupPanel6"),
+	import("view.technology.TargetCatchup.TargetCatchupPanel7")
 }
-var_0_0.CATCHUP_VERSION = 6
+var_0_0.CATCHUP_VERSION = 7
 
 function var_0_0.getUIName(arg_1_0)
 	return "TechnologySettingsUI"
@@ -329,7 +331,7 @@ function var_0_0.initActCatchupPage(arg_25_0)
 			})
 			setAnchoredPosition(arg_26_0, Vector2.zero)
 
-			arg_25_0.actCatchupTF = tf(arg_26_0:Find("AD"))
+			arg_25_0.actCatchupTF = tf(arg_26_0):Find("AD")
 			arg_25_0.actCatchupItemTF = arg_25_0.actCatchupTF:Find("Award")
 			arg_25_0.actCatchupSliderTF = arg_25_0.actCatchupTF:Find("Slider")
 			arg_25_0.actCatchupProgressText = arg_25_0.actCatchupTF:Find("Progress")

@@ -2875,6 +2875,116 @@ pg.mini_game = {
 			}
 		}
 	},
+	{
+		is_ranking = 0,
+		view_name = "WinterFestival2025ShrineView",
+		type = 5,
+		game_room = 0,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		name = "2025神社舰娘许愿",
+		config_csv = "",
+		id = 79,
+		hub_id = 67,
+		request_data = 1,
+		simple_config_data = {
+			8,
+			65794,
+			1
+		},
+		config_data = {
+			0,
+			{
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95
+			},
+			1
+		}
+	},
+	{
+		is_ranking = 0,
+		view_name = "WinterFestival2025ShrineView",
+		type = 3,
+		game_room = 0,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		name = "2025神社指挥官许愿",
+		config_csv = "",
+		id = 80,
+		hub_id = 67,
+		request_data = 1,
+		simple_config_data = {
+			target = 100000,
+			shipGameID = 79
+		},
+		config_data = {
+			5,
+			{
+				143,
+				144,
+				145
+			},
+			2
+		}
+	},
+	{
+		is_ranking = 0,
+		view_name = "PacGameView",
+		type = 2,
+		game_room = 0,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		name = "Fei Yuen's Great Adventure",
+		config_csv = "",
+		id = 81,
+		hub_id = 68,
+		request_data = 1,
+		simple_config_data = {
+			drop_ids = {
+				{
+					2,
+					60027,
+					1
+				},
+				{
+					2,
+					60027,
+					1
+				},
+				{
+					2,
+					60027,
+					1
+				},
+				{
+					9,
+					908,
+					1
+				},
+				{
+					2,
+					60027,
+					2
+				},
+				{
+					2,
+					60027,
+					2
+				},
+				{
+					4,
+					501071,
+					1
+				}
+			}
+		},
+		config_data = {}
+	},
 	[1001] = {
 		is_ranking = 0,
 		view_name = "GameRoomFushun3View",
@@ -3527,6 +3637,9 @@ pg.mini_game = {
 		76,
 		77,
 		78,
+		79,
+		80,
+		81,
 		1001,
 		1002,
 		1003,

@@ -1,4 +1,4 @@
-local var_0_0 = class("IslandSignInInvitationPage", import("...base.IslandBasePage"))
+local var_0_0 = class("IslandVisitorPage", import("...base.IslandBasePage"))
 local var_0_1 = 1
 local var_0_2 = 2
 

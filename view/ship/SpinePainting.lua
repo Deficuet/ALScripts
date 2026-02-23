@@ -137,6 +137,7 @@ local function var_0_2(arg_7_0, arg_7_1)
 	arg_7_0._effectsTf = findTF(arg_7_0._tf, "effects")
 
 	arg_7_0:playPaintingInitIdle()
+	arg_7_0:SetDefaultSkeletonSkin()
 end
 
 function var_0_0.getNormalIdleName(arg_9_0)
@@ -158,6 +159,7 @@ function var_0_0.Ctor(arg_11_0, arg_11_1, arg_11_2)
 	arg_11_0._spinePaintingData = arg_11_1
 	arg_11_0._loadSpineDic = {}
 	arg_11_0._loadUIDic = {}
+	arg_11_0._initCallback = {}
 
 	parallelAsync({
 		function(arg_12_0)
@@ -194,6 +196,12 @@ function var_0_0.Ctor(arg_11_0, arg_11_1, arg_11_2)
 
 		arg_11_0:updateLink()
 
+		for iter_16_0, iter_16_1 in ipairs(arg_11_0._initCallback) do
+			iter_16_1()
+		end
+
+		arg_11_0._initCallback = {}
+
 		if arg_11_2 then
 			arg_11_2(arg_11_0)
 		end
@@ -222,24 +230,43 @@ function var_0_0.updateLink(arg_17_0)
 			var_17_4 = var_17_4 or {}
 
 			for iter_17_0, iter_17_1 in ipairs(var_17_3) do
-				if iter_17_1.type == ChangeSkinLink.change_parameter_link_slot then
-					local var_17_5 = true
-					local var_17_6 = iter_17_1.link_parameter
-					local var_17_7 = iter_17_1.slot_list
+				local var_17_5 = iter_17_1.type
 
-					for iter_17_2, iter_17_3 in ipairs(var_17_6) do
-						local var_17_8 = iter_17_3.name
-						local var_17_9 = iter_17_3.num
+				if var_17_5 == ChangeSkinLink.change_parameter_link_slot then
+					local var_17_6 = true
+					local var_17_7 = iter_17_1.link_parameter
+					local var_17_8 = iter_17_1.slot_list
 
-						if (var_17_4[var_17_8] and var_17_4[var_17_8] or 0) ~= var_17_9 then
-							var_17_5 = false
+					for iter_17_2, iter_17_3 in ipairs(var_17_7) do
+						local var_17_9 = iter_17_3.name
+						local var_17_10 = iter_17_3.num
+
+						if (var_17_4[var_17_9] and var_17_4[var_17_9] or 0) ~= var_17_10 then
+							var_17_6 = false
 						end
 					end
 
-					if var_17_5 then
-						for iter_17_4, iter_17_5 in ipairs(var_17_7) do
+					if var_17_6 then
+						for iter_17_4, iter_17_5 in ipairs(var_17_8) do
 							table.insert(arg_17_0.slotOverride, iter_17_5)
 						end
+					end
+				elseif var_17_5 == ChangeSkinLink.change_parameter_link_skin then
+					local var_17_11 = true
+					local var_17_12 = iter_17_1.link_parameter
+					local var_17_13 = iter_17_1.skeleton_skin
+
+					for iter_17_6, iter_17_7 in ipairs(var_17_12) do
+						local var_17_14 = iter_17_7.name
+						local var_17_15 = iter_17_7.num
+
+						if (var_17_4[var_17_14] and var_17_4[var_17_14] or 0) ~= var_17_15 then
+							var_17_11 = false
+						end
+					end
+
+					if var_17_11 then
+						arg_17_0:SetSkeletonSkin(var_17_13)
 					end
 				end
 			end
@@ -395,97 +422,141 @@ function var_0_0.readyDragAction(arg_30_0, arg_30_1, arg_30_2)
 	return false
 end
 
-function var_0_0.startDragAction(arg_31_0, arg_31_1)
-	local var_31_0 = arg_31_0.shipDragData.drag_data
-	local var_31_1 = var_31_0.type
+function var_0_0.SetSkeletonSkin(arg_31_0, arg_31_1)
+	arg_31_0._skeletonSkin = arg_31_1
 
-	if var_31_1 == SpinePaintingConst.drag_type_normal or var_31_1 == SpinePaintingConst.drag_type_rgb then
-		return arg_31_0:changePaintingNormal(var_31_0, arg_31_1)
-	elseif var_31_1 == SpinePaintingConst.drag_type_list then
-		arg_31_0.clickActionList = Clone(var_31_0.config_client)
+	arg_31_0._skeletonGraphic.Skeleton:SetSkin(arg_31_1)
+	arg_31_0:updateSkeletonGraphicTime()
+end
 
-		return arg_31_0:checkListAction()
+function var_0_0.SetDefaultSkeletonSkin(arg_32_0)
+	local var_32_0 = arg_32_0._spinePaintingData:GetShipSkinConfig().skeleton_default_skin
+
+	if not var_32_0 or var_32_0 == "" then
+		var_32_0 = "1"
+	end
+
+	local var_32_1 = arg_32_0._skeletonGraphic.SkeletonData:FindSkin(var_32_0)
+
+	if var_32_1 and var_32_1 ~= nil then
+		arg_32_0:SetSkeletonSkin(var_32_0)
+	end
+end
+
+function var_0_0.startDragAction(arg_33_0, arg_33_1)
+	local var_33_0 = arg_33_0.shipDragData.drag_data
+	local var_33_1 = var_33_0.type
+
+	if var_33_1 == SpinePaintingConst.drag_type_normal or var_33_1 == SpinePaintingConst.drag_type_rgb then
+		return arg_33_0:changePaintingNormal(var_33_0, arg_33_1)
+	elseif var_33_1 == SpinePaintingConst.drag_type_list then
+		arg_33_0.clickActionList = Clone(var_33_0.config_client)
+
+		return arg_33_0:checkListAction()
 	end
 
 	return false
 end
 
-function var_0_0.setEventTriggerCallback(arg_32_0, arg_32_1)
-	arg_32_0._eventTriggerCall = arg_32_1
+function var_0_0.GetDragDataConfig(arg_34_0, arg_34_1)
+	if arg_34_0.shipDragData then
+		return arg_34_0.shipDragData[arg_34_1]
+	end
+
+	return nil
 end
 
-function var_0_0.changePaintingNormal(arg_33_0, arg_33_1, arg_33_2)
-	local var_33_0 = arg_33_0:getIdleName()
-	local var_33_1 = arg_33_1.config_client
-	local var_33_2 = arg_33_1.type
+function var_0_0.setEventTriggerCallback(arg_35_0, arg_35_1)
+	arg_35_0._eventTriggerCall = arg_35_1
+end
 
-	for iter_33_0, iter_33_1 in ipairs(var_33_1) do
-		if arg_33_0:matchDragFlag(var_33_0, arg_33_2, iter_33_1) then
-			return arg_33_0:doDragAction(var_33_2, arg_33_1, iter_33_1)
+function var_0_0.changePaintingNormal(arg_36_0, arg_36_1, arg_36_2)
+	local var_36_0 = arg_36_0:getIdleName()
+	local var_36_1 = arg_36_1.config_client
+	local var_36_2 = arg_36_1.type
+
+	for iter_36_0, iter_36_1 in ipairs(var_36_1) do
+		if arg_36_0:matchDragFlag(var_36_0, arg_36_2, iter_36_1) then
+			return arg_36_0:doDragAction(var_36_2, arg_36_1, iter_36_1)
 		end
 	end
 
 	return false
 end
 
-function var_0_0.doDragAction(arg_34_0, arg_34_1, arg_34_2, arg_34_3)
-	local var_34_0 = arg_34_3.change_idle
-	local var_34_1
+function var_0_0.doDragAction(arg_37_0, arg_37_1, arg_37_2, arg_37_3)
+	local var_37_0 = arg_37_3.change_idle
+	local var_37_1
 
-	if type(arg_34_3.action) == "string" then
-		var_34_1 = arg_34_3.action
-	elseif type(arg_34_3.action) == "table" then
-		var_34_1 = arg_34_3.action[math.random(1, #arg_34_3.action)]
+	if type(arg_37_3.action) == "string" then
+		var_37_1 = arg_37_3.action
+	elseif type(arg_37_3.action) == "table" then
+		var_37_1 = arg_37_3.action[math.random(1, #arg_37_3.action)]
 	end
 
-	local var_34_2 = arg_34_3.event
-	local var_34_3 = arg_34_3.fold
-	local var_34_4 = arg_34_3.effect_hide
+	local var_37_2 = arg_37_3.event
+	local var_37_3 = arg_37_3.fold
+	local var_37_4 = arg_37_3.effect_hide
+	local var_37_5 = arg_37_3.cv
 
-	if arg_34_1 == SpinePaintingConst.drag_type_normal then
-		if var_34_1 and var_34_1 ~= "" and arg_34_0:ablePlayAction(var_34_1, false, 0) then
-			if var_34_3 then
+	if arg_37_1 == SpinePaintingConst.drag_type_normal then
+		if var_37_1 and var_37_1 ~= "" and arg_37_0:ablePlayAction(var_37_1, false, 0) then
+			if var_37_3 then
 				pg.m02:sendNotification(NewMainMediator.HIDE_PANEL, true)
 			end
 
-			arg_34_0:setEffectVisible(var_34_4, false)
-			arg_34_0:SetActionWithFinishCallback(var_34_1, 0, function()
-				if var_34_3 then
+			arg_37_0:setEffectVisible(var_37_4, false)
+			arg_37_0:SetActionWithFinishCallback(var_37_1, 0, function()
+				if var_37_3 then
 					pg.m02:sendNotification(NewMainMediator.HIDE_PANEL, false)
 				end
 
-				arg_34_0:changePaintingIdle(var_34_0)
-				arg_34_0:setEffectVisible(var_34_4, true)
+				arg_37_0:changePaintingIdle(var_37_0)
+				arg_37_0:setEffectVisible(var_37_4, true)
 			end, false, function()
-				if var_34_2 and var_34_2 ~= "" and arg_34_0._eventTriggerCall then
-					arg_34_0._eventTriggerCall(var_34_2)
+				if var_37_5 and var_37_5 ~= "" then
+					local var_39_0 = arg_37_0._spinePaintingData.ship:getSkinId()
+					local var_39_1 = pg.CriMgr.GetCVBankName(ShipWordHelper.RawGetCVKey(var_39_0))
+					local var_39_2 = pg.ship_skin_template[var_39_0].group_index
+					local var_39_3 = var_37_5 .. "_" .. var_39_2
+
+					print("try playing cv" .. var_39_1 .. ":" .. var_39_3)
+					pg.CriMgr.GetInstance():playCueSheetVoice(var_39_1, var_39_3, true, function(arg_40_0)
+						if arg_40_0 then
+							print("播放的语音长度为 = " .. arg_40_0:GetLength())
+						end
+					end)
+				end
+
+				if var_37_2 and var_37_2 ~= "" and arg_37_0._eventTriggerCall then
+					arg_37_0._eventTriggerCall(var_37_2)
 				end
 			end)
 		else
-			if var_34_0 and var_34_0 ~= "" then
-				arg_34_0:changePaintingIdle(var_34_0)
+			if var_37_0 and var_37_0 ~= "" then
+				arg_37_0:changePaintingIdle(var_37_0)
 			end
 
-			if var_34_2 and var_34_2 ~= "" and arg_34_0._eventTriggerCall then
-				arg_34_0._eventTriggerCall(var_34_2)
+			if var_37_2 and var_37_2 ~= "" and arg_37_0._eventTriggerCall then
+				arg_37_0._eventTriggerCall(var_37_2)
 			end
 
 			return false
 		end
-	elseif arg_34_1 == SpinePaintingConst.drag_type_rgb then
-		local var_34_5 = arg_34_2.material
+	elseif arg_37_1 == SpinePaintingConst.drag_type_rgb then
+		local var_37_6 = arg_37_2.material
 
-		if LeanTween.isTweening(go(arg_34_0._tf)) then
+		if LeanTween.isTweening(go(arg_37_0._tf)) then
 			return false
 		end
 
-		arg_34_0:getSpineMaterial(var_34_5, function(arg_37_0)
-			arg_34_0._skeletonGraphic.material = arg_37_0
+		arg_37_0:getSpineMaterial(var_37_6, function(arg_41_0)
+			arg_37_0._skeletonGraphic.material = arg_41_0
 
-			LeanTween.delayedCall(go(arg_34_0._tf), 0.5, System.Action(function()
-				arg_34_0._skeletonGraphic.material = arg_34_0._baseMaterial
+			LeanTween.delayedCall(go(arg_37_0._tf), 0.5, System.Action(function()
+				arg_37_0._skeletonGraphic.material = arg_37_0._baseMaterial
 
-				arg_34_0:changePaintingIdle(var_34_0)
+				arg_37_0:changePaintingIdle(var_37_0)
 			end))
 		end)
 	end
@@ -493,115 +564,145 @@ function var_0_0.doDragAction(arg_34_0, arg_34_1, arg_34_2, arg_34_3)
 	return true
 end
 
-function var_0_0.setEffectVisible(arg_39_0, arg_39_1, arg_39_2)
-	if not arg_39_1 or #arg_39_1 == 0 then
+function var_0_0.setEffectVisible(arg_43_0, arg_43_1, arg_43_2)
+	if not arg_43_1 or #arg_43_1 == 0 then
 		return
 	end
 
-	for iter_39_0 = 1, #arg_39_1 do
-		local var_39_0 = findTF(arg_39_0._tf, arg_39_1[iter_39_0])
+	for iter_43_0 = 1, #arg_43_1 do
+		local var_43_0 = findTF(arg_43_0._tf, arg_43_1[iter_43_0])
 
-		if var_39_0 then
-			setActive(var_39_0, arg_39_2)
+		if var_43_0 then
+			setActive(var_43_0, arg_43_2)
 		end
 	end
 end
 
-function var_0_0.matchDragFlag(arg_40_0, arg_40_1, arg_40_2, arg_40_3)
-	local var_40_0 = arg_40_3.hit
+function var_0_0.matchDragFlag(arg_44_0, arg_44_1, arg_44_2, arg_44_3)
+	local var_44_0 = arg_44_3.hit
 
-	if var_40_0 and var_40_0 ~= arg_40_2 then
+	if var_44_0 and var_44_0 ~= arg_44_2 then
 		return false
 	end
 
-	local var_40_1 = arg_40_3.is_default
-	local var_40_2 = arg_40_3.idle
+	local var_44_1 = arg_44_3.is_default
+	local var_44_2 = arg_44_3.idle
 
-	if not arg_40_1 and var_40_1 then
+	if not arg_44_1 and var_44_1 then
 		return true
-	elseif arg_40_1 == var_40_2 then
+	elseif arg_44_1 == var_44_2 then
 		return true
 	end
 
 	return false
 end
 
-function var_0_0.getSpineMaterial(arg_41_0, arg_41_1, arg_41_2)
-	if not arg_41_0._materialDic then
-		arg_41_0._materialDic = {}
+function var_0_0.getSpineMaterial(arg_45_0, arg_45_1, arg_45_2)
+	if not arg_45_0._materialDic then
+		arg_45_0._materialDic = {}
 	end
 
-	if arg_41_0._materialDic[arg_41_1] then
-		arg_41_2(arg_41_0._materialDic[arg_41_1])
+	if arg_45_0._materialDic[arg_45_1] then
+		arg_45_2(arg_45_0._materialDic[arg_45_1])
 	else
-		arg_41_0._materialDic[arg_41_1] = LoadAny("spinematerials", arg_41_1, typeof(Material))
+		arg_45_0._materialDic[arg_45_1] = LoadAny("spinematerials", arg_45_1, typeof(Material))
 
-		arg_41_2(arg_41_0._materialDic[arg_41_1])
+		arg_45_2(arg_45_0._materialDic[arg_45_1])
 	end
 end
 
-function var_0_0.changePaintingIdle(arg_42_0, arg_42_1)
-	arg_42_0:setIdleName(arg_42_1)
-	arg_42_0:SetAction(arg_42_1, 0, true)
-	SpinePaintingDrag.SetPaintingInitIdle(arg_42_0.mainSpineAnim.name, arg_42_0._spinePaintingData.ship.id, arg_42_1)
+function var_0_0.changePaintingIdle(arg_46_0, arg_46_1)
+	arg_46_0:setIdleName(arg_46_1)
+	arg_46_0:SetAction(arg_46_1, 0, true)
+	SpinePaintingDrag.SetPaintingInitIdle(arg_46_0.mainSpineAnim.name, arg_46_0._spinePaintingData.ship.id, arg_46_1)
 
-	arg_42_0.inAction = false
+	arg_46_0.inAction = false
 end
 
-function var_0_0.SetAction(arg_43_0, arg_43_1, arg_43_2, arg_43_3)
-	if not arg_43_0:ablePlayAction(arg_43_1, arg_43_3, arg_43_2) then
+function var_0_0.SetAction(arg_47_0, arg_47_1, arg_47_2, arg_47_3)
+	if not arg_47_0:ablePlayAction(arg_47_1, arg_47_3, arg_47_2) then
 		return false
 	end
 
-	if arg_43_2 and arg_43_2 == 0 then
-		arg_43_0.lastPlayAction = arg_43_1
+	if arg_47_2 and arg_47_2 == 0 then
+		arg_47_0.lastPlayAction = arg_47_1
 	end
 
-	if arg_43_2 == 0 and arg_43_1 ~= arg_43_0:getIdleName() then
-		arg_43_0.inAction = true
+	if arg_47_2 == 0 and arg_47_1 ~= arg_47_0:getIdleName() then
+		arg_47_0.inAction = true
 	end
 
-	if arg_43_0.multipleFaceFlag and not arg_43_0.inAction then
-		arg_43_1 = arg_43_0:getMultipFaceAction(arg_43_1)
+	if arg_47_0.multipleFaceFlag and not arg_47_0.inAction then
+		arg_47_1 = arg_47_0:getMultipFaceAction(arg_47_1)
 	end
 
-	arg_43_0:updateEffectVisible(arg_43_1)
+	local var_47_0 = arg_47_0._spinePaintingData.ship:getSkinId()
+	local var_47_1 = pg.ship_skin_template[var_47_0].voice_lang
 
-	for iter_43_0, iter_43_1 in ipairs(arg_43_0.spineAnimList) do
-		iter_43_1:SetAction(arg_43_1, arg_43_2)
+	if arg_47_2 == 0 and var_47_1 and #var_47_1 > 0 then
+		local var_47_2 = ShipWordHelper.GetLanguageSetting(var_47_0)
 
-		if iter_43_1:GetAnimationState() then
-			GetComponent(iter_43_1.transform, "SkeletonGraphic"):Update(Time.deltaTime)
+		if var_47_2 <= 0 then
+			var_47_2 = 1
+		end
+
+		local var_47_3 = var_47_1[var_47_2]
+		local var_47_4 = arg_47_0:GetVoiceLandAction(arg_47_1, var_47_3)
+
+		if arg_47_0:getAnimationExist(var_47_4) then
+			arg_47_1 = var_47_4
+		end
+	end
+
+	arg_47_0:updateEffectVisible(arg_47_1)
+
+	for iter_47_0, iter_47_1 in ipairs(arg_47_0.spineAnimList) do
+		iter_47_1:SetAction(arg_47_1, arg_47_2)
+
+		if iter_47_1:GetAnimationState() then
+			GetComponent(iter_47_1.transform, "SkeletonGraphic"):Update(Time.deltaTime)
 		end
 	end
 
 	return true
 end
 
-function var_0_0.ablePlayAction(arg_44_0, arg_44_1, arg_44_2, arg_44_3)
-	if arg_44_3 and arg_44_3 == 0 and arg_44_0.inAction and not arg_44_2 then
+function var_0_0.GetVoiceLandAction(arg_48_0, arg_48_1, arg_48_2)
+	local var_48_0 = ""
+
+	if arg_48_2 == ShipSkin.VOICE_LANG_JP then
+		var_48_0 = "_jp"
+	elseif arg_48_2 == ShipSkin.VOICE_LANG_CN then
+		var_48_0 = "_cn"
+	end
+
+	return arg_48_1 .. var_48_0
+end
+
+function var_0_0.ablePlayAction(arg_49_0, arg_49_1, arg_49_2, arg_49_3)
+	if arg_49_3 and arg_49_3 == 0 and arg_49_0.inAction and not arg_49_2 then
 		return false
 	end
 
-	if arg_44_0.lockLayer and not arg_44_2 and arg_44_0.inAction and arg_44_3 and arg_44_3 > 0 then
+	if arg_49_0.lockLayer and not arg_49_2 and arg_49_0.inAction and arg_49_3 and arg_49_3 > 0 then
 		return false
 	end
 
-	if arg_44_0.lastPlayAction and arg_44_0.lastPlayAction ~= arg_44_0._idleName and arg_44_3 and arg_44_3 > 0 then
+	if arg_49_0.lastPlayAction and arg_49_0.lastPlayAction ~= arg_49_0._idleName and arg_49_3 and arg_49_3 > 0 then
 		return false
 	end
 
-	if arg_44_0._idleName ~= arg_44_0:getNormalIdleName() and arg_44_1 == "login" then
+	if arg_49_0._idleName ~= arg_49_0:getNormalIdleName() and arg_49_1 == "login" then
 		return false
 	end
 
-	if arg_44_0.dragShipFlag and arg_44_0.shipDragData.action_enable then
-		local var_44_0 = arg_44_0.shipDragData.action_enable
+	if arg_49_0.dragShipFlag and arg_49_0.shipDragData.action_enable then
+		local var_49_0 = arg_49_0.shipDragData.action_enable
 
-		for iter_44_0 = 1, #var_44_0 do
-			local var_44_1 = var_44_0[iter_44_0]
+		for iter_49_0 = 1, #var_49_0 do
+			local var_49_1 = var_49_0[iter_49_0]
 
-			if var_44_1.name == arg_44_0._idleName and table.contains(var_44_1.ignore, arg_44_1) then
+			if var_49_1.name == arg_49_0._idleName and table.contains(var_49_1.ignore, arg_49_1) then
 				return false
 			end
 		end
@@ -610,160 +711,178 @@ function var_0_0.ablePlayAction(arg_44_0, arg_44_1, arg_44_2, arg_44_3)
 	return true
 end
 
-function var_0_0.updateEffectVisible(arg_45_0, arg_45_1)
-	if arg_45_0.shipEffectActionAble and arg_45_0._effectsTf then
-		if table.contains(arg_45_0.shipEffectActionAble, arg_45_1) then
-			if isActive(arg_45_0._effectsTf) then
-				setActive(arg_45_0._effectsTf, false)
+function var_0_0.updateEffectVisible(arg_50_0, arg_50_1)
+	if arg_50_0.shipEffectActionAble and arg_50_0._effectsTf then
+		if table.contains(arg_50_0.shipEffectActionAble, arg_50_1) then
+			if isActive(arg_50_0._effectsTf) then
+				setActive(arg_50_0._effectsTf, false)
 			end
-		elseif not isActive(arg_45_0._effectsTf) then
-			setActive(arg_45_0._effectsTf, true)
+		elseif not isActive(arg_50_0._effectsTf) then
+			setActive(arg_50_0._effectsTf, true)
 		end
 	end
 end
 
-function var_0_0.isInAction(arg_46_0)
-	return arg_46_0.inAction
+function var_0_0.isInAction(arg_51_0)
+	return arg_51_0.inAction
 end
 
-function var_0_0.SetActionWithFinishCallback(arg_47_0, arg_47_1, arg_47_2, arg_47_3, arg_47_4, arg_47_5)
-	if not arg_47_0:ablePlayAction(arg_47_1, arg_47_4, arg_47_2) then
+function var_0_0.SetActionWithFinishCallback(arg_52_0, arg_52_1, arg_52_2, arg_52_3, arg_52_4, arg_52_5)
+	if not arg_52_0:ablePlayAction(arg_52_1, arg_52_4, arg_52_2) then
 		return
 	end
 
-	if arg_47_0.mainSpineAnim then
-		arg_47_0.mainSpineAnim:SetActionCallBack(function(arg_48_0)
-			if arg_48_0 == "finish" and arg_47_3 then
-				arg_47_0.inAction = false
+	if arg_52_0.mainSpineAnim then
+		arg_52_0.mainSpineAnim:SetActionCallBack(function(arg_53_0)
+			if arg_53_0 == "finish" and arg_52_3 then
+				arg_52_0.inAction = false
 
-				arg_47_0.mainSpineAnim:SetActionCallBack(nil)
-				arg_47_3()
-			elseif arg_48_0 == "action" and arg_47_5 then
-				arg_47_5()
+				arg_52_0.mainSpineAnim:SetActionCallBack(nil)
+				arg_52_3()
+
+				arg_52_3 = nil
+			elseif arg_53_0 == "action" and arg_52_5 then
+				arg_52_5()
+
+				arg_52_5 = nil
 			end
 		end)
 	end
 
-	arg_47_0:SetAction(arg_47_1, arg_47_2, arg_47_4)
+	arg_52_0:SetAction(arg_52_1, arg_52_2, arg_52_4)
 end
 
-function var_0_0.SetOnceAction(arg_49_0, arg_49_1, arg_49_2, arg_49_3, arg_49_4)
-	if not arg_49_0:ablePlayAction(arg_49_1, arg_49_4, 0) then
+function var_0_0.SetOnceAction(arg_54_0, arg_54_1, arg_54_2, arg_54_3, arg_54_4)
+	if not arg_54_0:ablePlayAction(arg_54_1, arg_54_4, 0) then
 		return
 	end
 
-	arg_49_0:SetActionWithFinishCallback(arg_49_1, 0, function()
-		arg_49_0:SetAction(arg_49_0:getIdleName(), 0)
+	arg_54_0:SetActionWithFinishCallback(arg_54_1, 0, function()
+		arg_54_0:SetAction(arg_54_0:getIdleName(), 0)
 
-		if arg_49_2 then
-			arg_49_2()
+		if arg_54_2 then
+			arg_54_2()
+
+			arg_54_2 = nil
 		end
-	end, arg_49_4, function()
-		if arg_49_3 then
-			arg_49_3()
+	end, arg_54_4, function()
+		if arg_54_3 then
+			arg_54_3()
+
+			arg_54_3 = nil
 		end
 	end)
 end
 
-function var_0_0.getAnimationExist(arg_52_0, arg_52_1)
-	if not arg_52_0._mainAnimationData then
-		arg_52_0._mainAnimationData = arg_52_0.mainSpineAnim:GetAnimationState()
-	end
-
-	local var_52_0
-
-	if arg_52_0._skeletonGraphic then
-		var_52_0 = arg_52_0._skeletonGraphic.Skeleton.Data:FindAnimation(arg_52_1)
-	end
-
-	return var_52_0
+function var_0_0.pullInitCallback(arg_57_0, arg_57_1)
+	table.insert(arg_57_0._initCallback, arg_57_1)
 end
 
-function var_0_0.SetEmptyAction(arg_53_0, arg_53_1)
-	if not arg_53_0.spineAnimList then
+function var_0_0.getAnimationExist(arg_58_0, arg_58_1)
+	if not arg_58_0._mainAnimationData then
+		arg_58_0._mainAnimationData = arg_58_0.mainSpineAnim:GetAnimationState()
+	end
+
+	local var_58_0
+
+	if arg_58_0._skeletonGraphic then
+		var_58_0 = arg_58_0._skeletonGraphic.Skeleton.Data:FindAnimation(arg_58_1)
+	end
+
+	return var_58_0
+end
+
+function var_0_0.SetEmptyAction(arg_59_0, arg_59_1)
+	if not arg_59_0.spineAnimList then
 		return
 	end
 
-	for iter_53_0, iter_53_1 in ipairs(arg_53_0.spineAnimList) do
-		local var_53_0 = iter_53_1:GetAnimationState()
+	for iter_59_0, iter_59_1 in ipairs(arg_59_0.spineAnimList) do
+		local var_59_0 = iter_59_1:GetAnimationState()
 
-		if var_53_0 then
-			var_53_0:SetEmptyAnimation(arg_53_1, 0)
-			GetComponent(iter_53_1.transform, "SkeletonGraphic"):Update(Time.deltaTime)
+		if var_59_0 then
+			var_59_0:SetEmptyAnimation(arg_59_1, 0)
+			GetComponent(iter_59_1.transform, "SkeletonGraphic"):Update(Time.deltaTime)
 		end
 	end
 end
 
-function var_0_0.GetSpineTrasform(arg_54_0)
-	return arg_54_0._tf
+function var_0_0.GetSpineTrasform(arg_60_0)
+	return arg_60_0._tf
 end
 
-function var_0_0.SetSkin(arg_55_0, arg_55_1)
-	if arg_55_0._skeletonGraphic and arg_55_0._skeletonGraphic.SkeletonData and arg_55_0._skeletonGraphic.SkeletonData:FindSkin(arg_55_1) ~= nil then
-		arg_55_0._skeletonGraphic.Skeleton:SetSkin(arg_55_1)
-		arg_55_0._skeletonGraphic.Skeleton:SetSlotsToSetupPose()
+function var_0_0.SetSkin(arg_61_0, arg_61_1)
+	if arg_61_0._skeletonGraphic and arg_61_0._skeletonGraphic.SkeletonData and arg_61_0._skeletonGraphic.SkeletonData:FindSkin(arg_61_1) ~= nil then
+		arg_61_0._skeletonGraphic.Skeleton:SetSkin(arg_61_1)
+		arg_61_0._skeletonGraphic.Skeleton:SetSlotsToSetupPose()
 	end
 end
 
-function var_0_0.getMultipFaceAction(arg_56_0, arg_56_1)
-	if arg_56_0.multipleFaceFlag then
-		local var_56_0 = tonumber(arg_56_1)
+function var_0_0.updateSkeletonGraphicTime(arg_62_0)
+	if arg_62_0._skeletonGraphic then
+		arg_62_0._skeletonGraphic:Update(Time.deltaTime)
+	end
+end
 
-		if var_56_0 and var_56_0 >= 0 then
-			for iter_56_0, iter_56_1 in ipairs(arg_56_0.multipleFaceData) do
-				if iter_56_1[1] == arg_56_0:getIdleName() then
-					return tostring(var_56_0 + iter_56_1[2])
+function var_0_0.getMultipFaceAction(arg_63_0, arg_63_1)
+	if arg_63_0.multipleFaceFlag then
+		local var_63_0 = tonumber(arg_63_1)
+
+		if var_63_0 and var_63_0 >= 0 then
+			for iter_63_0, iter_63_1 in ipairs(arg_63_0.multipleFaceData) do
+				if iter_63_1[1] == arg_63_0:getIdleName() then
+					return tostring(var_63_0 + iter_63_1[2])
 				end
 			end
 		end
 	end
 
-	return arg_56_1
+	return arg_63_1
 end
 
-function var_0_0.Dispose(arg_57_0)
-	arg_57_0._materialDic = {}
+function var_0_0.Dispose(arg_64_0)
+	arg_64_0._materialDic = {}
 
-	if arg_57_0.updateLocal then
-		arg_57_0._skeletonGraphic.UpdateLocal = arg_57_0._skeletonGraphic.UpdateLocal - arg_57_0.updateLocal
-		arg_57_0.updateLocal = nil
+	if arg_64_0.updateLocal then
+		arg_64_0._skeletonGraphic.UpdateLocal = arg_64_0._skeletonGraphic.UpdateLocal - arg_64_0.updateLocal
+		arg_64_0.updateLocal = nil
 	end
 
-	if arg_57_0._spinePaintingData then
-		arg_57_0._spinePaintingData:Clear()
+	if arg_64_0._spinePaintingData then
+		arg_64_0._spinePaintingData:Clear()
 	end
 
-	for iter_57_0, iter_57_1 in pairs(arg_57_0._loadSpineDic) do
-		PoolMgr.GetInstance():ReturnSpinePainting(iter_57_0, iter_57_1)
+	for iter_64_0, iter_64_1 in pairs(arg_64_0._loadSpineDic) do
+		PoolMgr.GetInstance():ReturnSpinePainting(iter_64_0, iter_64_1)
 	end
 
-	for iter_57_2, iter_57_3 in pairs(arg_57_0._loadUIDic) do
-		PoolMgr.GetInstance():ReturnUI(iter_57_2, iter_57_3)
+	for iter_64_2, iter_64_3 in pairs(arg_64_0._loadUIDic) do
+		PoolMgr.GetInstance():ReturnUI(iter_64_2, iter_64_3)
 	end
 
-	arg_57_0._loadSpineDic = {}
-	arg_57_0._loadUIDic = {}
+	arg_64_0._loadSpineDic = {}
+	arg_64_0._loadUIDic = {}
 
-	if arg_57_0._go ~= nil then
-		var_0_1.Destroy(arg_57_0._go)
+	if arg_64_0._go ~= nil then
+		var_0_1.Destroy(arg_64_0._go)
 	end
 
-	if arg_57_0._bgEffectGo ~= nil then
-		var_0_1.Destroy(arg_57_0._bgEffectGo)
+	if arg_64_0._bgEffectGo ~= nil then
+		var_0_1.Destroy(arg_64_0._bgEffectGo)
 	end
 
-	arg_57_0._go = nil
-	arg_57_0._tf = nil
-	arg_57_0._bgEffectGo = nil
-	arg_57_0._bgEffectTf = nil
+	arg_64_0._go = nil
+	arg_64_0._tf = nil
+	arg_64_0._bgEffectGo = nil
+	arg_64_0._bgEffectTf = nil
 
-	if arg_57_0.spineAnim then
-		arg_57_0.spineAnim:SetActionCallBack(nil)
+	if arg_64_0.spineAnim then
+		arg_64_0.spineAnim:SetActionCallBack(nil)
 	end
 end
 
-function var_0_0.getPaintingName(arg_58_0)
-	return arg_58_0._spinePaintingData:GetShipName()
+function var_0_0.getPaintingName(arg_65_0)
+	return arg_65_0._spinePaintingData:GetShipName()
 end
 
 return var_0_0

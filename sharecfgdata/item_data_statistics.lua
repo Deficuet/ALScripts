@@ -10367,6 +10367,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_data_statistics[13055] = {
+		open_directly = 0,
+		name = "Triple 25mm Type 96 AT/AA Gun Mount T0 Design",
+		display = "Triple 25mm Type 96 AT/AA Gun Mount T0 Design",
+		type = 9,
+		display_effect = "",
+		id = 13055,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Equips/36360",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_data_statistics[14001] = {
 		open_directly = 0,
 		name = "Prototype Weapon Blueprint - Series 1",
@@ -10957,6 +10989,90 @@ end)()
 			{
 				2,
 				13048,
+				1
+			}
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[14008] = {
+		open_directly = 0,
+		name = "Prototype Weapon Blueprint - Series 8",
+		display = "Can be converted to one of the following SR gear blueprints:\nPrototype Triple 283mm/54.5 Main Gun Mount T0 Design\nPrototype Triple 406mm/45 MK7 Main Gun Mount T0 Design\nPrototype Sextuple 20mm Scotti Model 1941 Anti-Air Gun T0 Design\nPrototype Quadruple 533mm Si 270 Torpedo Mount T0 Design\nPrototype Triple 180mm B-1-P Model 1932 (Impr.) Main Gun Mount T0 Design",
+		type = 13,
+		display_effect = "",
+		id = 14008,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop_appointed",
+		link_id = 0,
+		icon = "Props/14008",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				13050,
+				1
+			},
+			{
+				2,
+				13051,
+				1
+			},
+			{
+				2,
+				13052,
+				1
+			},
+			{
+				2,
+				13053,
+				1
+			},
+			{
+				2,
+				13054,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			{
+				2,
+				13050,
+				1
+			},
+			{
+				2,
+				13051,
+				1
+			},
+			{
+				2,
+				13052,
+				1
+			},
+			{
+				2,
+				13053,
+				1
+			},
+			{
+				2,
+				13054,
 				1
 			}
 		},
@@ -14583,6 +14699,41 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_data_statistics[20107] = {
+		open_directly = 0,
+		name = "Combat Data Pack - Series 7",
+		display = "A compilation of experimental data from the Research Department, can be used to add 10,000 EXP towards PR Series 7 Combat Data Collection missions. <color=#ff5c5c>￼(Can be converted into Prototype Cores).￼</color>",
+		type = 18,
+		display_effect = "",
+		id = 20107,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/20107",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			9,
+			2
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_data_statistics[21000] = {
 		open_directly = 0,
 		name = "Crystal Fragment",
@@ -16279,6 +16430,134 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_data_statistics[21053] = {
+		open_directly = 0,
+		name = "META Crystal – Boise META",
+		display = "An item that increases the potential of Boise META. Used in the META Lab during Somatic Activation.",
+		type = 4,
+		display_effect = "",
+		id = 21053,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/21053",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[21054] = {
+		open_directly = 0,
+		name = "META Crystal – Yorktown META",
+		display = "An item that increases the potential of Yorktown META. Used in the META Lab during Somatic Activation.",
+		type = 4,
+		display_effect = "",
+		id = 21054,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/21054",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[21055] = {
+		open_directly = 0,
+		name = "META Crystal – Cleveland META",
+		display = "An item that increases the potential of Cleveland META. Used in the META Lab during Somatic Activation.",
+		type = 4,
+		display_effect = "",
+		id = 21055,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/21055",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[21056] = {
+		open_directly = 0,
+		name = "META Crystal – Carabiniere META",
+		display = "An item that increases the potential of Carabiniere META. Used in the META Lab during Somatic Activation.",
+		type = 4,
+		display_effect = "",
+		id = 21056,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/21056",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_data_statistics[21101] = {
 		open_directly = 0,
 		name = "Crystallized Heat-Resistant Steel",
@@ -17027,6 +17306,38 @@ end)()
 		usage = "usage_undefined",
 		link_id = 0,
 		icon = "Props/21920",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[21921] = {
+		open_directly = 0,
+		name = "Synchronization Point – Yorktown META",
+		display = "Sync Points for Yorktown META.",
+		type = 0,
+		display_effect = "",
+		id = 21921,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/21921",
 		order = 0,
 		rarity = 4,
 		max_num = 0,
@@ -18953,6 +19264,38 @@ end)()
 		virtual_type = 0,
 		other_item_cost = "[]",
 		usage_arg = "30207",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[30208] = {
+		open_directly = 0,
+		name = "Northern Parliament Gear Development Pack",
+		display = "Contains a random piece of Northern Parliament gear.",
+		type = 5,
+		display_effect = "OpenBox",
+		id = 30208,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "Props/30208",
+		order = 0,
+		rarity = 2,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "30208",
 		is_world = 0,
 		compose_number = 0,
 		target_id = 0,
@@ -28356,6 +28699,510 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_data_statistics[30377] = {
+		open_directly = 1,
+		name = "Gear Skin Box (Date A Live)",
+		display = "Contains a random Date A Live-themed gear skin.",
+		type = 11,
+		display_effect = "",
+		id = 30377,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "Props/appearanceboxdal",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "30374",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				9,
+				1511,
+				1
+			},
+			{
+				9,
+				1512,
+				1
+			},
+			{
+				9,
+				1513,
+				1
+			},
+			{
+				9,
+				1514,
+				1
+			},
+			{
+				9,
+				1515,
+				1
+			},
+			{
+				9,
+				1516,
+				1
+			},
+			{
+				9,
+				1517,
+				1
+			},
+			{
+				9,
+				1518,
+				1
+			},
+			{
+				9,
+				1519,
+				1
+			},
+			{
+				9,
+				1520,
+				1
+			},
+			{
+				9,
+				1521,
+				1
+			},
+			{
+				9,
+				1522,
+				1
+			},
+			{
+				9,
+				1523,
+				1
+			},
+			{
+				9,
+				1524,
+				1
+			},
+			{
+				9,
+				1525,
+				1
+			},
+			{
+				9,
+				1526,
+				1
+			},
+			{
+				9,
+				1527,
+				1
+			},
+			{
+				9,
+				1528,
+				1
+			}
+		},
+		price = {
+			1,
+			7000
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[30378] = {
+		open_directly = 1,
+		name = "Gear Skin Box (Maid's Bar)",
+		display = "Contains a random Maid's Bar-themed gear skin.",
+		type = 11,
+		display_effect = "",
+		id = 30378,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "Props/appearanceboxmeifennvpuwu",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "30375",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				9,
+				4258,
+				1
+			},
+			{
+				9,
+				4259,
+				1
+			},
+			{
+				9,
+				4260,
+				1
+			},
+			{
+				9,
+				4261,
+				1
+			},
+			{
+				9,
+				4262,
+				1
+			},
+			{
+				9,
+				4263,
+				1
+			},
+			{
+				9,
+				4264,
+				1
+			},
+			{
+				9,
+				4265,
+				1
+			},
+			{
+				9,
+				4266,
+				1
+			},
+			{
+				9,
+				4267,
+				1
+			},
+			{
+				9,
+				4268,
+				1
+			},
+			{
+				9,
+				4269,
+				1
+			},
+			{
+				9,
+				4270,
+				1
+			},
+			{
+				9,
+				4271,
+				1
+			},
+			{
+				9,
+				4272,
+				1
+			},
+			{
+				9,
+				4273,
+				1
+			},
+			{
+				9,
+				4274,
+				1
+			},
+			{
+				9,
+				4275,
+				1
+			}
+		},
+		price = {
+			1,
+			7000
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[30379] = {
+		open_directly = 1,
+		name = "Gear Skin Box (Photo Vision)",
+		display = "Contains a random Photo Vision-themed gear skin.",
+		type = 11,
+		display_effect = "",
+		id = 30379,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "Props/appearanceboxsheyingshijie",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "30376",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				9,
+				4276,
+				1
+			},
+			{
+				9,
+				4277,
+				1
+			},
+			{
+				9,
+				4278,
+				1
+			},
+			{
+				9,
+				4279,
+				1
+			},
+			{
+				9,
+				4280,
+				1
+			},
+			{
+				9,
+				4281,
+				1
+			},
+			{
+				9,
+				4282,
+				1
+			},
+			{
+				9,
+				4283,
+				1
+			},
+			{
+				9,
+				4284,
+				1
+			},
+			{
+				9,
+				4285,
+				1
+			},
+			{
+				9,
+				4286,
+				1
+			},
+			{
+				9,
+				4287,
+				1
+			},
+			{
+				9,
+				4288,
+				1
+			},
+			{
+				9,
+				4289,
+				1
+			},
+			{
+				9,
+				4290,
+				1
+			},
+			{
+				9,
+				4291,
+				1
+			},
+			{
+				9,
+				4292,
+				1
+			},
+			{
+				9,
+				4293,
+				1
+			}
+		},
+		price = {
+			1,
+			7000
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[30380] = {
+		open_directly = 1,
+		name = "Gear Skin Box (Spring Festival Auction)",
+		display = "Contains a random Spring Festival Auction-themed gear skin.",
+		type = 11,
+		display_effect = "",
+		id = 30380,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "Props/appearanceboxxinchunpaimaihui",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "30377",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				9,
+				4294,
+				1
+			},
+			{
+				9,
+				4295,
+				1
+			},
+			{
+				9,
+				4296,
+				1
+			},
+			{
+				9,
+				4297,
+				1
+			},
+			{
+				9,
+				4298,
+				1
+			},
+			{
+				9,
+				4299,
+				1
+			},
+			{
+				9,
+				4300,
+				1
+			},
+			{
+				9,
+				4301,
+				1
+			},
+			{
+				9,
+				4302,
+				1
+			},
+			{
+				9,
+				4303,
+				1
+			},
+			{
+				9,
+				4304,
+				1
+			},
+			{
+				9,
+				4305,
+				1
+			},
+			{
+				9,
+				4306,
+				1
+			},
+			{
+				9,
+				4307,
+				1
+			},
+			{
+				9,
+				4308,
+				1
+			},
+			{
+				9,
+				4309,
+				1
+			},
+			{
+				9,
+				4310,
+				1
+			},
+			{
+				9,
+				4311,
+				1
+			}
+		},
+		price = {
+			1,
+			7000
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_data_statistics[30401] = {
 		open_directly = 1,
 		name = "Random Gear Skin Box",
@@ -30007,6 +30854,112 @@ end)()
 			{
 				9,
 				2108,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[30432] = {
+		open_directly = 1,
+		name = "Gear Skin Box (Cruise Missions)",
+		display = "Contains 1 random Cruise Mission gear skin.",
+		type = 11,
+		display_effect = "",
+		id = 30432,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "Props/appearanceboxshijiexunyou",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "111226",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				9,
+				2109,
+				1
+			},
+			{
+				9,
+				2110,
+				1
+			},
+			{
+				9,
+				2111,
+				1
+			},
+			{
+				9,
+				2112,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[30433] = {
+		open_directly = 1,
+		name = "Gear Skin Box (Cruise Missions)",
+		display = "Contains 1 random Cruise Mission gear skin.",
+		type = 11,
+		display_effect = "",
+		id = 30433,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "Props/appearanceboxshijiexunyou",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "111227",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				9,
+				2113,
+				1
+			},
+			{
+				9,
+				2114,
+				1
+			},
+			{
+				9,
+				2115,
+				1
+			},
+			{
+				9,
+				2116,
 				1
 			}
 		},
@@ -42845,6 +43798,862 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_data_statistics[30561] = {
+		open_directly = 0,
+		name = "Selection Gear Skin Box (Date A Live)",
+		display = "Can be opened to receive 1 Date A Live-themed gear skin of your choosing.",
+		type = 13,
+		display_effect = "",
+		id = 30561,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop_appointed",
+		link_id = 0,
+		icon = "Props/appearanceboxdalzixuan",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				9,
+				1511,
+				1
+			},
+			{
+				9,
+				1512,
+				1
+			},
+			{
+				9,
+				1513,
+				1
+			},
+			{
+				9,
+				1514,
+				1
+			},
+			{
+				9,
+				1515,
+				1
+			},
+			{
+				9,
+				1516,
+				1
+			},
+			{
+				9,
+				1517,
+				1
+			},
+			{
+				9,
+				1518,
+				1
+			},
+			{
+				9,
+				1519,
+				1
+			},
+			{
+				9,
+				1520,
+				1
+			},
+			{
+				9,
+				1521,
+				1
+			},
+			{
+				9,
+				1522,
+				1
+			},
+			{
+				9,
+				1523,
+				1
+			},
+			{
+				9,
+				1524,
+				1
+			},
+			{
+				9,
+				1525,
+				1
+			},
+			{
+				9,
+				1526,
+				1
+			},
+			{
+				9,
+				1527,
+				1
+			},
+			{
+				9,
+				1528,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			{
+				9,
+				1511,
+				1
+			},
+			{
+				9,
+				1512,
+				1
+			},
+			{
+				9,
+				1513,
+				1
+			},
+			{
+				9,
+				1514,
+				1
+			},
+			{
+				9,
+				1515,
+				1
+			},
+			{
+				9,
+				1516,
+				1
+			},
+			{
+				9,
+				1517,
+				1
+			},
+			{
+				9,
+				1518,
+				1
+			},
+			{
+				9,
+				1519,
+				1
+			},
+			{
+				9,
+				1520,
+				1
+			},
+			{
+				9,
+				1521,
+				1
+			},
+			{
+				9,
+				1522,
+				1
+			},
+			{
+				9,
+				1523,
+				1
+			},
+			{
+				9,
+				1524,
+				1
+			},
+			{
+				9,
+				1525,
+				1
+			},
+			{
+				9,
+				1526,
+				1
+			},
+			{
+				9,
+				1527,
+				1
+			},
+			{
+				9,
+				1528,
+				1
+			}
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[30562] = {
+		open_directly = 0,
+		name = "Selection Gear Skin Box (Maid's Bar)",
+		display = "Can be opened to receive 1 Maid's Bar-themed gear skin of your choosing.",
+		type = 13,
+		display_effect = "",
+		id = 30562,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop_appointed",
+		link_id = 0,
+		icon = "Props/appearanceboxmeifennvpuwuzixuan",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				9,
+				4258,
+				1
+			},
+			{
+				9,
+				4259,
+				1
+			},
+			{
+				9,
+				4260,
+				1
+			},
+			{
+				9,
+				4261,
+				1
+			},
+			{
+				9,
+				4262,
+				1
+			},
+			{
+				9,
+				4263,
+				1
+			},
+			{
+				9,
+				4264,
+				1
+			},
+			{
+				9,
+				4265,
+				1
+			},
+			{
+				9,
+				4266,
+				1
+			},
+			{
+				9,
+				4267,
+				1
+			},
+			{
+				9,
+				4268,
+				1
+			},
+			{
+				9,
+				4269,
+				1
+			},
+			{
+				9,
+				4270,
+				1
+			},
+			{
+				9,
+				4271,
+				1
+			},
+			{
+				9,
+				4272,
+				1
+			},
+			{
+				9,
+				4273,
+				1
+			},
+			{
+				9,
+				4274,
+				1
+			},
+			{
+				9,
+				4275,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			{
+				9,
+				4258,
+				1
+			},
+			{
+				9,
+				4259,
+				1
+			},
+			{
+				9,
+				4260,
+				1
+			},
+			{
+				9,
+				4261,
+				1
+			},
+			{
+				9,
+				4262,
+				1
+			},
+			{
+				9,
+				4263,
+				1
+			},
+			{
+				9,
+				4264,
+				1
+			},
+			{
+				9,
+				4265,
+				1
+			},
+			{
+				9,
+				4266,
+				1
+			},
+			{
+				9,
+				4267,
+				1
+			},
+			{
+				9,
+				4268,
+				1
+			},
+			{
+				9,
+				4269,
+				1
+			},
+			{
+				9,
+				4270,
+				1
+			},
+			{
+				9,
+				4271,
+				1
+			},
+			{
+				9,
+				4272,
+				1
+			},
+			{
+				9,
+				4273,
+				1
+			},
+			{
+				9,
+				4274,
+				1
+			},
+			{
+				9,
+				4275,
+				1
+			}
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[30563] = {
+		open_directly = 0,
+		name = "Selection Gear Skin Box (Photo Vision)",
+		display = "Can be opened to receive 1 Photo Vision-themed gear skin of your choosing.",
+		type = 13,
+		display_effect = "",
+		id = 30563,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop_appointed",
+		link_id = 0,
+		icon = "Props/appearanceboxsheyingshijiezixuan",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				9,
+				4276,
+				1
+			},
+			{
+				9,
+				4277,
+				1
+			},
+			{
+				9,
+				4278,
+				1
+			},
+			{
+				9,
+				4279,
+				1
+			},
+			{
+				9,
+				4280,
+				1
+			},
+			{
+				9,
+				4281,
+				1
+			},
+			{
+				9,
+				4282,
+				1
+			},
+			{
+				9,
+				4283,
+				1
+			},
+			{
+				9,
+				4284,
+				1
+			},
+			{
+				9,
+				4285,
+				1
+			},
+			{
+				9,
+				4286,
+				1
+			},
+			{
+				9,
+				4287,
+				1
+			},
+			{
+				9,
+				4288,
+				1
+			},
+			{
+				9,
+				4289,
+				1
+			},
+			{
+				9,
+				4290,
+				1
+			},
+			{
+				9,
+				4291,
+				1
+			},
+			{
+				9,
+				4292,
+				1
+			},
+			{
+				9,
+				4293,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			{
+				9,
+				4276,
+				1
+			},
+			{
+				9,
+				4277,
+				1
+			},
+			{
+				9,
+				4278,
+				1
+			},
+			{
+				9,
+				4279,
+				1
+			},
+			{
+				9,
+				4280,
+				1
+			},
+			{
+				9,
+				4281,
+				1
+			},
+			{
+				9,
+				4282,
+				1
+			},
+			{
+				9,
+				4283,
+				1
+			},
+			{
+				9,
+				4284,
+				1
+			},
+			{
+				9,
+				4285,
+				1
+			},
+			{
+				9,
+				4286,
+				1
+			},
+			{
+				9,
+				4287,
+				1
+			},
+			{
+				9,
+				4288,
+				1
+			},
+			{
+				9,
+				4289,
+				1
+			},
+			{
+				9,
+				4290,
+				1
+			},
+			{
+				9,
+				4291,
+				1
+			},
+			{
+				9,
+				4292,
+				1
+			},
+			{
+				9,
+				4293,
+				1
+			}
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[30564] = {
+		open_directly = 0,
+		name = "Selection Gear Skin Box (Spring Festival Auction)",
+		display = "Can be opened to receive 1 Spring Festival Auction-themed gear skin of your choosing.",
+		type = 13,
+		display_effect = "",
+		id = 30564,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop_appointed",
+		link_id = 0,
+		icon = "Props/appearanceboxxinchunpaimaihuizixuan",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				9,
+				4294,
+				1
+			},
+			{
+				9,
+				4295,
+				1
+			},
+			{
+				9,
+				4296,
+				1
+			},
+			{
+				9,
+				4297,
+				1
+			},
+			{
+				9,
+				4298,
+				1
+			},
+			{
+				9,
+				4299,
+				1
+			},
+			{
+				9,
+				4300,
+				1
+			},
+			{
+				9,
+				4301,
+				1
+			},
+			{
+				9,
+				4302,
+				1
+			},
+			{
+				9,
+				4303,
+				1
+			},
+			{
+				9,
+				4304,
+				1
+			},
+			{
+				9,
+				4305,
+				1
+			},
+			{
+				9,
+				4306,
+				1
+			},
+			{
+				9,
+				4307,
+				1
+			},
+			{
+				9,
+				4308,
+				1
+			},
+			{
+				9,
+				4309,
+				1
+			},
+			{
+				9,
+				4310,
+				1
+			},
+			{
+				9,
+				4311,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			{
+				9,
+				4294,
+				1
+			},
+			{
+				9,
+				4295,
+				1
+			},
+			{
+				9,
+				4296,
+				1
+			},
+			{
+				9,
+				4297,
+				1
+			},
+			{
+				9,
+				4298,
+				1
+			},
+			{
+				9,
+				4299,
+				1
+			},
+			{
+				9,
+				4300,
+				1
+			},
+			{
+				9,
+				4301,
+				1
+			},
+			{
+				9,
+				4302,
+				1
+			},
+			{
+				9,
+				4303,
+				1
+			},
+			{
+				9,
+				4304,
+				1
+			},
+			{
+				9,
+				4305,
+				1
+			},
+			{
+				9,
+				4306,
+				1
+			},
+			{
+				9,
+				4307,
+				1
+			},
+			{
+				9,
+				4308,
+				1
+			},
+			{
+				9,
+				4309,
+				1
+			},
+			{
+				9,
+				4310,
+				1
+			},
+			{
+				9,
+				4311,
+				1
+			}
+		},
+		limit = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_data_statistics[30900] = {
 		open_directly = 0,
 		name = "Universal T4 Part",
@@ -46671,6 +48480,208 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_data_statistics[40070] = {
+		open_directly = 1,
+		name = "Outfit Selection Pack (Musashi)",
+		display = "Contains loads of valuable rewards.",
+		type = 17,
+		display_effect = "OpenBox",
+		id = 40070,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "ChargeIcon/huteng_package",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "4071",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				59565,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				1,
+				1,
+				30000
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[40074] = {
+		open_directly = 1,
+		name = "Battle UI Pack – Maid Café (Basic)",
+		display = "Contains the Battle UI - Maid Café theme and 1,000 Coins.",
+		type = 17,
+		display_effect = "OpenBox",
+		id = 40074,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "ChargeIcon/ui7",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "4075",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				31,
+				206,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[40075] = {
+		open_directly = 1,
+		name = "Battle UI Pack – Maid Café (Premium)",
+		display = "Contains the Battle UI - Maid Café theme and 3,060 Gems.",
+		type = 17,
+		display_effect = "OpenBox",
+		id = 40075,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "ChargeIcon/ui7",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "4076",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				31,
+				206,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[40076] = {
+		open_directly = 1,
+		name = "Premium Winter Gift Pack",
+		display = "Contains loads of valuable rewards.",
+		type = 17,
+		display_effect = "OpenBox",
+		id = 40076,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "ChargeIcon/dongzhi3",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "4031",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				1,
+				14,
+				3880
+			},
+			{
+				4,
+				100021,
+				1
+			},
+			{
+				4,
+				100011,
+				2
+			},
+			{
+				2,
+				15012,
+				150
+			},
+			{
+				2,
+				16502,
+				60
+			},
+			{
+				2,
+				30113,
+				150
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_data_statistics[40100] = {
 		open_directly = 1,
 		name = "Promise Crate",
@@ -48320,6 +50331,44 @@ end)()
 				79901
 			}
 		}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[40141] = {
+		open_directly = 1,
+		name = "Race Track Fever Bundle",
+		display = "Buy 3 featured skins to receive a Promise Ring",
+		type = 17,
+		display_effect = "",
+		id = 40141,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 50242,
+		icon = "Props/black5bundle1",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				15006,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
 	}
 end)()
 
@@ -92700,6 +94749,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_data_statistics[44004] = {
+		open_directly = 0,
+		name = "New Year's Warmth",
+		display = "A holiday gift from $1. Stay by my side, Commander, and I look forward to spending more time with you in the future.",
+		type = 23,
+		display_effect = "",
+		id = 44004,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/manhanquanxi ",
+		price = "",
+		order = 0,
+		rarity = 8,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_data_statistics[44011] = {
 		open_directly = 0,
 		name = "Valentine Gift",
@@ -92904,6 +94985,134 @@ end)()
 		usage = "usage_undefined",
 		link_id = 0,
 		icon = "Props/manhanquanxi ",
+		price = "",
+		order = 0,
+		rarity = 8,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[44018] = {
+		open_directly = 0,
+		name = "中式信封",
+		display = "中式信封",
+		type = 23,
+		display_effect = "",
+		id = 44018,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/loveletter_cn",
+		price = "",
+		order = 0,
+		rarity = 8,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[44019] = {
+		open_directly = 0,
+		name = "日式信封",
+		display = "日式信封",
+		type = 23,
+		display_effect = "",
+		id = 44019,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/loveletter_jp",
+		price = "",
+		order = 0,
+		rarity = 8,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[44020] = {
+		open_directly = 0,
+		name = "西式信封",
+		display = "西式信封",
+		type = 23,
+		display_effect = "",
+		id = 44020,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/loveletter_en",
+		price = "",
+		order = 0,
+		rarity = 8,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[44021] = {
+		open_directly = 0,
+		name = "META信封",
+		display = "META信封",
+		type = 23,
+		display_effect = "",
+		id = 44021,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/loveletter_meta",
 		price = "",
 		order = 0,
 		rarity = 8,
@@ -95304,6 +97513,58 @@ end)()
 			{},
 			{
 				205131
+			},
+			0,
+			59552
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[59565] = {
+		open_directly = 0,
+		name = "Outfit Selection Voucher (Musashi)",
+		display = "Can be used from your Depot to select 1 skin of your choosing.\n(<color=#ff5c5c>You may only choose from the skins presented. If you already own all the skins, you will instead receive a Skin Voucher.</color>)",
+		type = 26,
+		display_effect = "",
+		id = 59565,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop_appointed_skinexchange",
+		link_id = 0,
+		icon = "Props/skin_exchange_huteng",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				7,
+				305101,
+				1
+			},
+			{
+				7,
+				305102,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			0,
+			{},
+			{
+				305101,
+				305102
 			},
 			0,
 			59552
@@ -107872,6 +110133,542 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_data_statistics[60565] = {
+		open_directly = 0,
+		name = "Wish-Fulfilling Card (2026)",
+		display = "A wishing card packed with blessings. Can be used to receive a shipgirl of your choice.",
+		type = 21,
+		display_effect = "",
+		id = 60565,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_invitation",
+		link_id = 0,
+		icon = "Props/60565",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			3031,
+			3032,
+			3033,
+			3034,
+			3035,
+			3036,
+			3037
+		},
+		limit = {},
+		open_ui = {
+			"shrine_year_winterfestival_2025",
+			"t_shrine"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[60566] = {
+		open_directly = 0,
+		name = "Graf Zeppelin's Gift (New Year 2026)",
+		display = "A card from Graf Zeppelin.",
+		type = 1,
+		display_effect = "",
+		id = 60566,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/60565",
+		order = 0,
+		rarity = 9,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[60567] = {
+		open_directly = 0,
+		name = "Belfast's Gift (New Year 2026)",
+		display = "A card from Belfast.",
+		type = 1,
+		display_effect = "",
+		id = 60567,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/60565",
+		order = 0,
+		rarity = 9,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[60568] = {
+		open_directly = 0,
+		name = "South Dakota's Gift (New Year 2026)",
+		display = "A card from South Dakota.",
+		type = 1,
+		display_effect = "",
+		id = 60568,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/60565",
+		order = 0,
+		rarity = 9,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[60569] = {
+		open_directly = 0,
+		name = "Kuybyshev's Gift (New Year 2026)",
+		display = "A card from Kuybyshev.",
+		type = 1,
+		display_effect = "",
+		id = 60569,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/60565",
+		order = 0,
+		rarity = 9,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[60570] = {
+		open_directly = 0,
+		name = "Impero's Gift (New Year 2026)",
+		display = "A card from Impero.",
+		type = 1,
+		display_effect = "",
+		id = 60570,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/60565",
+		order = 0,
+		rarity = 9,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[60571] = {
+		open_directly = 0,
+		name = "Bismarck's Gift (New Year 2026)",
+		display = "A card from Bismarck.",
+		type = 1,
+		display_effect = "",
+		id = 60571,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/60565",
+		order = 0,
+		rarity = 9,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[60572] = {
+		open_directly = 0,
+		name = "Richelieu's Gift (New Year 2026)",
+		display = "A card from Richelieu.",
+		type = 1,
+		display_effect = "",
+		id = 60572,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/60565",
+		order = 0,
+		rarity = 9,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[60573] = {
+		open_directly = 0,
+		name = "Spring Festival's Card (2026)",
+		display = "May the New Year's fortunes be yours. Use to receive an SR shipgirl of your choosing and a commemorative item.",
+		type = 21,
+		display_effect = "",
+		id = 60573,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_invitation",
+		link_id = 0,
+		icon = "Props/henianka2026",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			3201,
+			3202,
+			3203,
+			3204,
+			3205,
+			3206,
+			3207
+		},
+		limit = {},
+		open_ui = {
+			"greeting_year",
+			"t_greeting"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[60574] = {
+		open_directly = 0,
+		name = "Taihou's Spring Festival's Card",
+		display = "New Year's greetings (LNY '26) given to you by Taihou.",
+		type = 1,
+		display_effect = "",
+		id = 60574,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/henianka2026",
+		order = 0,
+		rarity = 9,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[60575] = {
+		open_directly = 0,
+		name = "Hu Pen's Spring Festival's Card",
+		display = "A Spring Festival's card from Hu Pen.",
+		type = 1,
+		display_effect = "",
+		id = 60575,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/henianka2026",
+		order = 0,
+		rarity = 9,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[60576] = {
+		open_directly = 0,
+		name = "Lung Wu's Spring Festival's Card",
+		display = "A Spring Festival's card from Lung Wu.",
+		type = 1,
+		display_effect = "",
+		id = 60576,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/henianka2026",
+		order = 0,
+		rarity = 9,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[60577] = {
+		open_directly = 0,
+		name = "Fu Shun's Spring Festival's Card",
+		display = "A Spring Festival's card from Fu Shun.",
+		type = 1,
+		display_effect = "",
+		id = 60577,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/henianka2026",
+		order = 0,
+		rarity = 9,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[60578] = {
+		open_directly = 0,
+		name = "Jeanne d'Arc's Spring Festival's Card",
+		display = "A Spring Festival's card from Jeanne d'Arc.",
+		type = 1,
+		display_effect = "",
+		id = 60578,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/henianka2026",
+		order = 0,
+		rarity = 9,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[60579] = {
+		open_directly = 0,
+		name = "Centaur's Spring Festival's Card",
+		display = "A Spring Festival's card from Centaur.",
+		type = 1,
+		display_effect = "",
+		id = 60579,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/henianka2026",
+		order = 0,
+		rarity = 9,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[60580] = {
+		open_directly = 0,
+		name = "Chi An's Spring Festival's Card",
+		display = "A Spring Festival's card from Chi An.",
+		type = 1,
+		display_effect = "",
+		id = 60580,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/henianka2026",
+		order = 0,
+		rarity = 9,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_data_statistics[68133] = {
 		open_directly = 0,
 		name = "换装体验券(隐秘之拥的呼唤)",
@@ -107977,6 +110774,228 @@ end)()
 		combination_display = {},
 		usage_arg = {
 			90392
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68142] = {
+		open_directly = 0,
+		name = "换装体验券(漆黑的超极速前奏)",
+		display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:199}</color>换装<color=#92fc63FF>漆黑的超极速前奏</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年12月3日 23:59，过期后此道具将消失</color>",
+		type = 1,
+		display_effect = "",
+		id = 68142,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_skin_exp",
+		link_id = 0,
+		icon = "Props/limit_skinticket",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			1,
+			0
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			90396
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68143] = {
+		open_directly = 0,
+		name = "换装体验券(机械师的满分应援)",
+		display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>纳希莫夫海军上将</color>换装<color=#92fc63FF>机械师的满分应援</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年12月3日 23:59，过期后此道具将消失</color>",
+		type = 1,
+		display_effect = "",
+		id = 68143,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_skin_exp",
+		link_id = 0,
+		icon = "Props/limit_skinticket",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			1,
+			0
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			90397
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68144] = {
+		open_directly = 0,
+		name = "换装体验券(水漾在疾驰之前)",
+		display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>埃塞克斯</color>换装<color=#92fc63FF>水漾在疾驰之前</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年12月3日 23:59，过期后此道具将消失</color>",
+		type = 1,
+		display_effect = "",
+		id = 68144,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_skin_exp",
+		link_id = 0,
+		icon = "Props/limit_skinticket",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			1,
+			0
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			90398
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68151] = {
+		open_directly = 0,
+		name = "换装体验券(小憩时光)",
+		display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>夜刀神十香</color>换装<color=#92fc63FF>小憩时光</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年12月3日 23:59，过期后此道具将消失</color>",
+		type = 1,
+		display_effect = "",
+		id = 68151,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_skin_exp",
+		link_id = 0,
+		icon = "Props/limit_skinticket",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			1,
+			0
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			90399
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68152] = {
+		open_directly = 0,
+		name = "换装体验券(双生蔷薇)",
+		display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>时崎狂三</color>换装<color=#92fc63FF>双生蔷薇</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年12月3日 23:59，过期后此道具将消失</color>",
+		type = 1,
+		display_effect = "",
+		id = 68152,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_skin_exp",
+		link_id = 0,
+		icon = "Props/limit_skinticket",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			1,
+			0
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			90400
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68153] = {
+		open_directly = 0,
+		name = "换装体验券(水边的女神)",
+		display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>五河琴里</color>换装<color=#92fc63FF>水边的女神</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年12月3日 23:59，过期后此道具将消失</color>",
+		type = 1,
+		display_effect = "",
+		id = 68153,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_skin_exp",
+		link_id = 0,
+		icon = "Props/limit_skinticket",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			1,
+			0
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			90401
 		},
 		limit = {}
 	}
@@ -109521,6 +112540,210 @@ end)()
 				2,
 				16502,
 				12
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[81230] = {
+		open_directly = 1,
+		name = "Maidly Service Lucky Box A",
+		display = "Contains a random Maidly Service Lucky Box A skin, Special General Blueprint - Series 8 x2, Gems x2026, Cognitive Chips x50, Wisdom Cubes x20, Decor Tokens x100, and Quick Finishers x10.",
+		type = 17,
+		display_effect = "",
+		id = 81230,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "Props/fudai30",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "998326",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				86222,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[81231] = {
+		open_directly = 1,
+		name = "Maidly Service Lucky Box B",
+		display = "Contains a random Maidly Service Lucky Box B skin, Special General Blueprint - Series 8 x2, Gems x2026, Cognitive Chips x50, Wisdom Cubes x20, Decor Tokens x100, and Quick Finishers x10.",
+		type = 17,
+		display_effect = "",
+		id = 81231,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "Props/fudai31",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "998327",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				86223,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[81232] = {
+		open_directly = 1,
+		name = "Spring Lucky Box 2026 A",
+		display = "Contains a random Spring Lucky Box 2026 A skin, Special General Blueprint - Series 8 x2, Gems x2026, Cognitive Chips x50, Wisdom Cubes x20, Decor Tokens x100, and Quick Finishers x10.",
+		type = 17,
+		display_effect = "",
+		id = 81232,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "Props/fudai32",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "998328",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				86224,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
 			}
 		},
 		price = {},
@@ -111118,6 +114341,1436 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_data_statistics[81429] = {
+		open_directly = 0,
+		name = "Choose-Your-Own Gift Pack I 2025",
+		display = "Can be used to obtain one of the following items: 1x Prototype Bulin MKII, 15x Wisdom Cubes.",
+		type = 13,
+		display_effect = "",
+		id = 81429,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop_appointed",
+		link_id = 0,
+		icon = "Props/59555",
+		price = "",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				4,
+				100011,
+				1
+			},
+			{
+				2,
+				20001,
+				15
+			}
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			{
+				4,
+				100011,
+				1
+			},
+			{
+				2,
+				20001,
+				15
+			}
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[81430] = {
+		open_directly = 0,
+		name = "Choose-Your-Own Gift Pack II 2025",
+		display = "Can be used to obtain one of the following items: 1x Promise Ring, 15x Special General Blueprints - Series 8, 20x Wisdom Cubes.",
+		type = 13,
+		display_effect = "",
+		id = 81430,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop_appointed",
+		link_id = 0,
+		icon = "Props/59504",
+		price = "",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				15006,
+				1
+			},
+			{
+				2,
+				42076,
+				15
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			{
+				2,
+				15006,
+				1
+			},
+			{
+				2,
+				42076,
+				15
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[81431] = {
+		open_directly = 0,
+		name = "Choose-Your-Own Gift Pack III 2025",
+		display = "Can be used to obtain one of the following items: 1x Skin Voucher (2025), 25x Prototype Weapon Blueprints - Series 1, 25x Prototype Weapon Blueprints - Series 2, 25x Prototype Weapon Blueprints - Series 3, 25x Prototype Weapon Blueprints - Series 4, 25x Prototype Weapon Blueprints - Series 5, 25x Prototype Weapon Blueprints - Series 6, 25x Prototype Weapon Blueprints - Series 7, 30x Wisdom Cubes.",
+		type = 13,
+		display_effect = "",
+		id = 81431,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop_appointed",
+		link_id = 0,
+		icon = "Props/59505",
+		price = "",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				81432,
+				1
+			},
+			{
+				2,
+				14001,
+				25
+			},
+			{
+				2,
+				14002,
+				25
+			},
+			{
+				2,
+				14003,
+				25
+			},
+			{
+				2,
+				14004,
+				25
+			},
+			{
+				2,
+				14005,
+				25
+			},
+			{
+				2,
+				14006,
+				25
+			},
+			{
+				2,
+				14007,
+				25
+			},
+			{
+				2,
+				20001,
+				30
+			}
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			{
+				2,
+				81432,
+				1
+			},
+			{
+				2,
+				14001,
+				25
+			},
+			{
+				2,
+				14002,
+				25
+			},
+			{
+				2,
+				14003,
+				25
+			},
+			{
+				2,
+				14004,
+				25
+			},
+			{
+				2,
+				14005,
+				25
+			},
+			{
+				2,
+				14006,
+				25
+			},
+			{
+				2,
+				14007,
+				25
+			},
+			{
+				2,
+				20001,
+				30
+			}
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[81432] = {
+		open_directly = 0,
+		name = "Static Skin Voucher (2025)",
+		display = "Use from your Depot to receive 1 skin of your choosing.\n<color=#ff5c5c>(You may only choose from the offered lineup. If you already own every skin, you will instead receive an Outfit Coupon.)</color>",
+		type = 26,
+		display_effect = "",
+		id = 81432,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop_appointed_skinexchange",
+		link_id = 0,
+		icon = "Props/skin_exchange_n",
+		order = 99,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			50240,
+			{
+				213011,
+				502022,
+				502032,
+				304041,
+				301131,
+				301261,
+				305111,
+				304021,
+				301611,
+				301091,
+				302131,
+				107381,
+				107221,
+				207033,
+				305112,
+				201104,
+				102161,
+				101331,
+				308061,
+				408061,
+				308041,
+				307061,
+				399031,
+				301112,
+				301122,
+				202082,
+				308022,
+				301322,
+				304042,
+				203071,
+				305026,
+				408081,
+				202261,
+				302202,
+				301721,
+				305081,
+				303092,
+				304023,
+				302141,
+				301821,
+				301801,
+				301831,
+				107382,
+				308012,
+				199013,
+				203072,
+				299041,
+				299031,
+				306081,
+				107231,
+				106013,
+				103112,
+				101161,
+				107171,
+				307024,
+				204032,
+				301851,
+				305142,
+				401022,
+				301264,
+				301661,
+				903011,
+				205032,
+				702033,
+				403012,
+				901131,
+				302132,
+				907011,
+				102254,
+				903022,
+				201217,
+				431232,
+				331055,
+				131171,
+				101501,
+				107271,
+				202331,
+				205141,
+				206021,
+				201361,
+				301472,
+				102274,
+				403093,
+				705071,
+				603042,
+				499032,
+				307015,
+				305115,
+				203011,
+				601101,
+				204034,
+				605024,
+				605071,
+				207043,
+				108081,
+				401352,
+				201353,
+				399061,
+				499081,
+				999021,
+				103262,
+				402083,
+				502091,
+				501071,
+				202275,
+				301114,
+				204011,
+				407033,
+				502027,
+				502037,
+				701111,
+				705081,
+				701121,
+				213043,
+				299023,
+				201371,
+				202341,
+				236031,
+				705062,
+				403022,
+				406032,
+				403141,
+				302217,
+				304014,
+				102294,
+				404033,
+				403112,
+				803021,
+				302062,
+				137031,
+				703022,
+				401471,
+				408131,
+				101266,
+				401431,
+				901141,
+				903031,
+				399053,
+				9600081,
+				9600101,
+				9600111,
+				101492,
+				201354,
+				401091,
+				401111,
+				899041,
+				402102,
+				303061,
+				502101,
+				501081,
+				501091,
+				702062,
+				603043,
+				301132,
+				9900011,
+				301834,
+				601111,
+				602031,
+				102341,
+				101531,
+				303172,
+				1101011,
+				702081,
+				399054,
+				501042,
+				202351,
+				201391,
+				202361,
+				105102,
+				105093,
+				502043,
+				705042,
+				207025,
+				302261,
+				301911,
+				401353,
+				202085,
+				301016,
+				519012,
+				499072,
+				306063
+			},
+			{
+				303112,
+				307011,
+				307021,
+				204031,
+				301151,
+				107031,
+				205041,
+				502031,
+				205061,
+				101251,
+				403031,
+				502021,
+				306051,
+				102091,
+				301051,
+				301171,
+				207031,
+				301111,
+				301121,
+				101261,
+				107061,
+				305022,
+				201102,
+				102081,
+				301321,
+				303122,
+				307031,
+				307012,
+				307022,
+				101172,
+				312011,
+				403032,
+				301141,
+				303113,
+				202151,
+				201231,
+				206032,
+				501031,
+				305011,
+				101311,
+				101262,
+				202111,
+				307032,
+				307041,
+				102121,
+				301011,
+				401011,
+				301161,
+				301621,
+				403051,
+				301053,
+				301351,
+				207061,
+				201021,
+				301631,
+				304031,
+				301491,
+				301381,
+				299021,
+				303114,
+				303123,
+				308011,
+				308021,
+				408021,
+				401251,
+				103081,
+				103091,
+				103101,
+				801021,
+				207021,
+				112011,
+				202152,
+				205011,
+				202031,
+				312012,
+				201011,
+				105141,
+				408011,
+				207032,
+				202191,
+				101361,
+				101371,
+				103131,
+				302051,
+				213021,
+				205031,
+				102181,
+				306061,
+				403052,
+				101312,
+				205021,
+				301591,
+				102123,
+				399021,
+				205062,
+				301601,
+				102051,
+				102141,
+				303091,
+				301211,
+				103102,
+				207041,
+				202081,
+				205072,
+				202171,
+				202201,
+				107062,
+				206042,
+				299022,
+				301262,
+				301054,
+				107021,
+				101392,
+				202211,
+				202221,
+				206051,
+				305012,
+				103061,
+				103071,
+				305051,
+				304011,
+				301581,
+				305061,
+				101174,
+				201213,
+				301055,
+				401233,
+				199021,
+				205051,
+				401234,
+				102052,
+				107071,
+				107051,
+				403053,
+				301152,
+				201261,
+				202161,
+				202231,
+				206052,
+				901111,
+				904012,
+				901012,
+				801022,
+				801041,
+				108031,
+				103161,
+				101401,
+				102231,
+				107291,
+				102093,
+				101021,
+				999011,
+				199022,
+				203091,
+				107063,
+				605021,
+				207051,
+				603011,
+				601021,
+				605061,
+				408022,
+				403033,
+				405022,
+				399012,
+				403043,
+				199011,
+				301143,
+				202123,
+				905011,
+				499011,
+				101351,
+				202112,
+				213012,
+				213041,
+				101421,
+				301411,
+				301057,
+				101176,
+				401236,
+				301541,
+				302201,
+				102182,
+				302052,
+				101022,
+				499021,
+				305052,
+				502034,
+				502024,
+				301101,
+				206034,
+				401351,
+				304043,
+				331050,
+				202071,
+				102094,
+				301811,
+				207023,
+				403044,
+				202242,
+				304022,
+				102251,
+				202101,
+				404011,
+				101431,
+				201022,
+				301391,
+				102101,
+				201031,
+				705051,
+				702031,
+				702011,
+				701031,
+				705011,
+				702021,
+				701041,
+				103241,
+				108041,
+				102271,
+				106551,
+				201105,
+				101352,
+				304051,
+				901021,
+				801031,
+				802021,
+				903021,
+				902011,
+				807011,
+				901031,
+				401232,
+				605022,
+				102252,
+				302203,
+				502025,
+				203092,
+				101252,
+				801023,
+				201321,
+				205091,
+				206061,
+				201331,
+				205101,
+				304012,
+				207011,
+				107222,
+				408091,
+				401261,
+				303181,
+				306091,
+				101313,
+				202233,
+				102262,
+				201332,
+				301841,
+				305121,
+				307013,
+				408082,
+				304032,
+				103111,
+				202083,
+				301242,
+				301251,
+				301113,
+				301123,
+				205012,
+				201234,
+				408083,
+				101253,
+				401021,
+				101442,
+				101301,
+				101254,
+				107035,
+				499041,
+				202126,
+				199023,
+				301842,
+				403091,
+				408101,
+				402051,
+				406011,
+				401241,
+				304033,
+				102253,
+				301632,
+				401281,
+				408084,
+				301643,
+				102232,
+				107036,
+				205014,
+				201141,
+				304044,
+				308042,
+				502051,
+				202291,
+				408111,
+				202032,
+				107232,
+				101314,
+				703011,
+				705041,
+				702041,
+				701071,
+				702061,
+				701081,
+				705012,
+				702022,
+				702032,
+				701022,
+				701061,
+				701042,
+				107223,
+				302214,
+				305113,
+				605023,
+				399014,
+				305053,
+				801032,
+				103164,
+				602011,
+				607011,
+				608011,
+				601051,
+				601041,
+				605062,
+				605051,
+				601061,
+				105171,
+				107141,
+				108061,
+				103141,
+				308013,
+				101461,
+				201023,
+				302082,
+				101471,
+				206036,
+				207052,
+				202273,
+				102142,
+				204033,
+				202243,
+				205102,
+				301832,
+				301861,
+				301021,
+				301812,
+				301592,
+				306062,
+				102163,
+				101041,
+				101031,
+				307121,
+				101265,
+				102273,
+				302071,
+				301471,
+				301481,
+				202244,
+				302053,
+				407032,
+				102221,
+				601032,
+				901032,
+				201121,
+				203081,
+				607012,
+				802013,
+				801071,
+				801081,
+				303182,
+				102292,
+				107224,
+				301093,
+				402061,
+				406021,
+				408121,
+				499061,
+				399051,
+				402041,
+				408023,
+				401465,
+				405012,
+				201333,
+				108022,
+				202292,
+				205092,
+				303141,
+				302215,
+				699011,
+				506011,
+				502071,
+				502081,
+				301582,
+				301833,
+				105031,
+				105041,
+				301633,
+				205043,
+				301822,
+				301852,
+				331053,
+				501012,
+				301153,
+				701101,
+				707011,
+				701091,
+				705061,
+				703012,
+				702012,
+				601071,
+				607021,
+				603041,
+				108062,
+				304013,
+				301232,
+				301644,
+				404031,
+				402081,
+				403111,
+				405041,
+				202084,
+				408024,
+				201341,
+				207121,
+				205111,
+				202311,
+				207024,
+				701024,
+				205093,
+				102293,
+				405024,
+				306082,
+				105131,
+				608021,
+				601091,
+				601081,
+				603051,
+				302111,
+				303183,
+				402062,
+				406013,
+				107094,
+				801082,
+				202302,
+				102071,
+				401282,
+				506012,
+				305054,
+				206071,
+				202091,
+				105021,
+				9600011,
+				299051,
+				799011,
+				599011,
+				301293,
+				202303,
+				603052,
+				101272,
+				107233,
+				502011,
+				206081,
+				519011,
+				408085,
+				404042,
+				901132,
+				105201,
+				501032,
+				303102,
+				702024,
+				302232,
+				202092,
+				107142,
+				131172,
+				331056,
+				236030,
+				805021,
+				803011,
+				901041,
+				105112,
+				302061,
+				301901,
+				108072,
+				307122,
+				206022,
+				431233,
+				301294,
+				9600021,
+				9600041,
+				9600051,
+				9600061,
+				502073,
+				401243,
+				306081
+			},
+			99999,
+			59551
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[81433] = {
+		open_directly = 1,
+		name = "Choose-Your-Own Gift Pack I 2025",
+		display = "Contains 980x Gems, 1x Choose-Your-Own Gift Pack I, and loads of other valuable rewards.",
+		type = 17,
+		display_effect = "",
+		id = 81433,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "Props/pack_2024_98",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "998564",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				81429,
+				1
+			},
+			{
+				1,
+				14,
+				980
+			},
+			{
+				2,
+				16501,
+				100
+			},
+			{
+				2,
+				59010,
+				1000
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[81434] = {
+		open_directly = 1,
+		name = "Choose-Your-Own Gift Pack II 2025",
+		display = "Contains 1980x Gems, 1x Choose-Your-Own Gift Pack II, and loads of other valuable rewards.",
+		type = 17,
+		display_effect = "",
+		id = 81434,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "Props/pack_2024_198",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "998565",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				81430,
+				1
+			},
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				15008,
+				1000
+			},
+			{
+				2,
+				30114,
+				30
+			},
+			{
+				2,
+				59010,
+				2000
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[81435] = {
+		open_directly = 1,
+		name = "Choose-Your-Own Gift Pack III 2025",
+		display = "Contains 3280x Gems, 1x Choose-Your-Own Gift Pack III, and loads of other valuable rewards.",
+		type = 17,
+		display_effect = "",
+		id = 81435,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "Props/pack_2024_328",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "998566",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				81431,
+				1
+			},
+			{
+				1,
+				14,
+				3280
+			},
+			{
+				2,
+				15012,
+				150
+			},
+			{
+				2,
+				15008,
+				2000
+			},
+			{
+				2,
+				16004,
+				2
+			},
+			{
+				2,
+				16014,
+				2
+			},
+			{
+				2,
+				16024,
+				2
+			},
+			{
+				2,
+				16032,
+				30
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[81436] = {
+		open_directly = 1,
+		name = "Black Friday Lucky Bag (2025)",
+		display = "Contains 1x random skin, 2x Special General Blueprints - Series 8, 2025x Gems, 50x Cognitive Chips, 35x Wisdom Cubes, 100x Decor Tokens, and 12x Quick Finishers.",
+		type = 17,
+		display_effect = "",
+		id = 81436,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "Props/fudai99",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "998567",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				86419,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[81437] = {
+		open_directly = 1,
+		name = "Live2D Surprise Lucky Bag (2025)",
+		display = "Contains a random unowned Live2D skin of \"Black Friday Limited-time Rerun Outfits\" (Commanders that have owned all Live2D skins will get 1080 Gems instead)",
+		type = 17,
+		display_effect = "",
+		id = 81437,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop_random_skin",
+		link_id = 0,
+		icon = "Props/fudai_L2d_new",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				86420,
+				1
+			},
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			998568,
+			1080,
+			{
+				299034,
+				403102,
+				299024,
+				403142,
+				207055,
+				805031,
+				901071,
+				102134,
+				205161,
+				201381,
+				307076,
+				1102011,
+				703021,
+				701025,
+				901072,
+				207053,
+				605081,
+				502092,
+				501051,
+				103261,
+				206072,
+				199032,
+				206062,
+				499033,
+				905014,
+				899032,
+				904021,
+				907013,
+				207037,
+				301863,
+				199041,
+				799021,
+				307084,
+				699021,
+				118021,
+				102097,
+				407041,
+				405013,
+				499053,
+				102124,
+				201233,
+				202153,
+				102263,
+				105121,
+				213042,
+				603061,
+				405032,
+				705021,
+				203131,
+				305132,
+				499091,
+				307151,
+				302251,
+				202204,
+				305102
+			}
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[81438] = {
+		open_directly = 1,
+		name = "Photoshoot Lucky Bag",
+		display = "Contains a random Photoshoot Lucky Bag skin, Special General Blueprint - Series 8 x2, Gems x2026, Cognitive Chips x50, Wisdom Cubes x20, Decor Tokens x100, and Quick Finishers x10.",
+		type = 17,
+		display_effect = "",
+		id = 81438,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "Props/fudai100",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "998570",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				86421,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				1,
+				6,
+				100
+			},
+			{
+				2,
+				15003,
+				10
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[81439] = {
+		open_directly = 1,
+		name = "Bathed in Brightness and Spirit",
+		display = "This necklace's glimmer and texture in the steam is truly splendid... Oh, Commander. Would you care to come in and share in this scene you've gifted me?",
+		type = 17,
+		display_effect = "",
+		id = 81439,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "SquareIcon/bisimaiz_3",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "908110",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				7,
+				405052,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_data_statistics[99958] = {
 		open_directly = 0,
 		name = "5th Anniversary Invitation",
@@ -112490,6 +117143,38 @@ end)()
 			180009,
 			100
 		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[180010] = {
+		open_directly = 0,
+		name = "Lovely Mystery Box",
+		display = "A present packed to the seams with love. Open to receive a random Affinity-increasing gift (excluding rare gifts).",
+		type = 1,
+		display_effect = "",
+		id = 180010,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/giftbox01",
+		price = "",
+		order = 0,
+		rarity = 4,
+		max_num = 10000,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
 		limit = {}
 	}
 end)()

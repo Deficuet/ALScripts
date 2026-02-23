@@ -10,6 +10,10 @@ end
 function var_0_0.Update(arg_2_0, arg_2_1)
 	local var_2_0 = arg_2_1.player
 
+	if not var_2_0 then
+		return
+	end
+
 	if arg_2_0.data and var_2_0.id == arg_2_0.data.player.id and arg_2_0.data.timestamp == arg_2_1.timestamp then
 		return
 	end
@@ -40,12 +44,16 @@ function var_0_0.Update(arg_2_0, arg_2_1)
 	end
 end
 
-function var_0_0.Dispose(arg_3_0)
-	arg_3_0.selfBubble:dispose()
-	arg_3_0.otherBubble:dispose()
+function var_0_0.IsTradeLink(arg_3_0)
+	return arg_3_0.otherBubble.isTradeLink or arg_3_0.selfBubble.isTradeLink
+end
 
-	arg_3_0.selfBubble = nil
-	arg_3_0.otherBubble = nil
+function var_0_0.Dispose(arg_4_0)
+	arg_4_0.selfBubble:dispose()
+	arg_4_0.otherBubble:dispose()
+
+	arg_4_0.selfBubble = nil
+	arg_4_0.otherBubble = nil
 end
 
 return var_0_0

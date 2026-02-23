@@ -54,6 +54,8 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.addBtn = arg_2_0.contentTF:Find("btns/add")
 	arg_2_0.canRewardIcon = arg_2_0.getBtn:Find("hasicon")
 	arg_2_0.canRewardNum = arg_2_0.getBtn:Find("num")
+	arg_2_0.canExtraRewardIcon = arg_2_0.getBtn:Find("extraIcon")
+	arg_2_0.canExtraRewardNum = arg_2_0.getBtn:Find("extraNum")
 	arg_2_0.shipDetailsBtn = arg_2_0.processTF:Find("ship/details")
 	arg_2_0.shipDetailsPanel = arg_2_0._tf:Find("layout/ship_container")
 	arg_2_0.shipDetailBack = arg_2_0.shipDetailsPanel:Find("back")
@@ -194,6 +196,8 @@ function var_0_0.FlushInfos(arg_19_0)
 	setActive(arg_19_0.lockSlot, not arg_19_0.slotData)
 	setActive(arg_19_0.unlockSlot, arg_19_0.slotData)
 	setActive(arg_19_0.addBtn, false)
+	setActive(arg_19_0.canExtraRewardIcon, false)
+	setActive(arg_19_0.canExtraRewardNum, false)
 
 	if not arg_19_0.slotData then
 		return
@@ -256,81 +260,113 @@ function var_0_0.FlushInfos(arg_19_0)
 
 			GetImageSpriteFromAtlasAsync("island/" .. var_19_11, "", arg_19_0.canRewardIcon)
 
-			local var_19_12 = "×" .. var_19_10
-			local var_19_13 = var_19_5.main_num
+			local var_19_12 = var_19_5.main_num or 0
+			local var_19_13 = "×" .. var_19_10 + var_19_12
 
-			if var_19_13 and var_19_13 > 0 then
-				var_19_12 = string.format("%s+%d", var_19_12, var_19_13)
+			if var_19_12 > 0 then
+				setTextColor(arg_19_0.canRewardNum, Color.NewHex("#7df39f"))
+			else
+				setTextColor(arg_19_0.canRewardNum, Color.NewHex("#FFFFFF"))
 			end
 
-			setText(arg_19_0.canRewardNum, var_19_12)
+			setText(arg_19_0.canRewardNum, var_19_13)
 
 			local var_19_14 = pg.island_formula[var_19_7].item_id
 			local var_19_15 = pg.island_item_data_template[var_19_14]
 
 			GetImageSpriteFromAtlasAsync("island/" .. var_19_15.icon, "", arg_19_0.finishFurmalaIcon)
+
+			if var_19_5.formula_drop_list[2] then
+				setActive(arg_19_0.canExtraRewardIcon, true)
+				setActive(arg_19_0.canExtraRewardNum, true)
+
+				local var_19_16 = pg.island_formula[var_19_7].second_product_display[1][1]
+				local var_19_17 = var_19_5.formula_drop_list[2].num * pg.island_formula[var_19_7].second_product_display[1][2]
+				local var_19_18 = Drop.New({
+					count = 0,
+					type = DROP_TYPE_ISLAND_ITEM,
+					id = var_19_16
+				}):getConfigTable().icon
+
+				GetImageSpriteFromAtlasAsync("island/" .. var_19_18, "", arg_19_0.canExtraRewardIcon)
+
+				local var_19_19 = var_19_5.other_num or 0
+				local var_19_20 = "×" .. var_19_17 + var_19_19
+
+				if var_19_19 > 0 then
+					setTextColor(arg_19_0.canExtraRewardNum, Color.NewHex("#7df39f"))
+				else
+					setTextColor(arg_19_0.canExtraRewardNum, Color.NewHex("#FFFFFF"))
+				end
+
+				setText(arg_19_0.canExtraRewardNum, var_19_20)
+			end
 		end
 
 		if var_19_4 then
 			arg_19_0.showShip = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(var_19_4.ship_id)
 
-			local var_19_16 = arg_19_0.showShip:GetCurrentEnergy()
-			local var_19_17 = arg_19_0.showShip:GetMaxEnergy()
+			local var_19_21 = arg_19_0.showShip:GetCurrentEnergy()
+			local var_19_22 = arg_19_0.showShip:GetMaxEnergy()
 
-			setText(arg_19_0.energyTFText, var_19_16 .. "/" .. var_19_17)
-			setSlider(arg_19_0.energySliderTF, 0, 1, var_19_16 / var_19_17)
+			setText(arg_19_0.energyTFText, var_19_21 .. "/" .. var_19_22)
+			setSlider(arg_19_0.energySliderTF, 0, 1, var_19_21 / var_19_22)
 			setText(arg_19_0.seletShipName, arg_19_0.showShip:GetName())
 
-			local var_19_18 = IslandShip.StaticGetPrefab(var_19_4.ship_id)
+			local var_19_23 = IslandShip.StaticGetPrefab(var_19_4.ship_id)
 
-			GetImageSpriteFromAtlasAsync("ShipYardIcon/" .. var_19_18, "", arg_19_0.shipIconTF)
+			GetImageSpriteFromAtlasAsync("ShipYardIcon/" .. var_19_23, "", arg_19_0.shipIconTF)
 
-			local var_19_19 = var_19_4.formula_id
-			local var_19_20 = pg.island_formula[var_19_19]
-			local var_19_21 = var_19_20.commission_product[1][1]
-			local var_19_22 = pg.island_item_data_template[var_19_21]
-			local var_19_23 = Drop.New({
+			local var_19_24 = var_19_4.formula_id
+			local var_19_25 = pg.island_formula[var_19_24]
+			local var_19_26 = var_19_25.commission_product[1][1]
+			local var_19_27 = pg.island_item_data_template[var_19_26]
+			local var_19_28 = Drop.New({
 				count = 0,
 				type = DROP_TYPE_ISLAND_ITEM,
-				id = var_19_21
+				id = var_19_26
 			})
 
 			onButton(arg_19_0, arg_19_0.currentFormulaIcon, function()
 				arg_19_0.contextData:ShowMsgBox({
 					title = i18n("island_word_desc"),
 					type = IslandMsgBox.TYPE_COMMON_DROP_DESCRIBE,
-					dropData = var_19_23
+					dropData = var_19_28
 				})
 			end)
-			GetImageSpriteFromAtlasAsync("island/" .. var_19_22.icon, "", arg_19_0.currentFormulaIcon)
-			setText(arg_19_0.currentFormulaNum, "×" .. var_19_20.commission_product[1][2])
+			GetImageSpriteFromAtlasAsync("island/" .. var_19_27.icon, "", arg_19_0.currentFormulaIcon)
+			setText(arg_19_0.currentFormulaNum, "×" .. var_19_25.commission_product[1][2])
+			GetImageSpriteFromAtlasAsync("island/" .. var_19_27.icon, "", arg_19_0.canRewardIcon)
 
-			local var_19_24 = getProxy(IslandProxy):GetIsland():GetAblityAgency()
+			local var_19_29 = getProxy(IslandProxy):GetIsland():GetAblityAgency()
 
-			if #var_19_20.second_product == 0 or not var_19_24:IsUnlcokSecondProduct(var_19_19) then
+			if #var_19_25.second_product == 0 or not var_19_29:IsUnlcokSecondProduct(var_19_24) then
 				setActive(arg_19_0.extraProduct, false)
+				setActive(arg_19_0.canExtraRewardIcon, false)
+				setActive(arg_19_0.canExtraRewardNum, false)
 			else
 				setActive(arg_19_0.extraProduct, true)
 
-				local var_19_25 = var_19_20.second_product_display
-				local var_19_26 = var_19_25[1][1]
-				local var_19_27 = pg.island_item_data_template[var_19_26]
+				local var_19_30 = var_19_25.second_product_display
+				local var_19_31 = var_19_30[1][1]
+				local var_19_32 = pg.island_item_data_template[var_19_31]
 
-				GetImageSpriteFromAtlasAsync("island/" .. var_19_27.icon, "", arg_19_0.extraProductIcon)
-				setText(arg_19_0.extraProductName, var_19_27.name)
-				setText(arg_19_0.extraProductNum, "×" .. var_19_25[1][2])
+				GetImageSpriteFromAtlasAsync("island/" .. var_19_32.icon, "", arg_19_0.extraProductIcon)
+				GetImageSpriteFromAtlasAsync("island/" .. var_19_32.icon, "", arg_19_0.canExtraRewardIcon)
+				setText(arg_19_0.extraProductName, var_19_32.name)
+				setText(arg_19_0.extraProductNum, "×" .. var_19_30[1][2])
 
-				local var_19_28 = Drop.New({
+				local var_19_33 = Drop.New({
 					count = 0,
 					type = DROP_TYPE_ISLAND_ITEM,
-					id = var_19_26
+					id = var_19_31
 				})
 
 				onButton(arg_19_0, arg_19_0.extraProductIcon, function()
 					arg_19_0.contextData:ShowMsgBox({
 						title = i18n("island_word_desc"),
 						type = IslandMsgBox.TYPE_COMMON_DROP_DESCRIBE,
-						dropData = var_19_28
+						dropData = var_19_33
 					})
 				end)
 			end
@@ -351,6 +387,7 @@ function var_0_0.OpenShipSelectPage(arg_23_0)
 
 	arg_23_0:emit(IslandMediator.OPEN_PAGE, "IslandShipSelectPage", {
 		{
+			needWorkSpeed = true,
 			attrType = var_23_0,
 			confirmFunc = function(arg_24_0)
 				arg_23_0:AfterShipSelect(arg_24_0[1])
@@ -391,7 +428,6 @@ function var_0_0.UpdateTime(arg_27_0)
 	end
 
 	local var_27_1 = var_27_0:GetSlotRoleData()
-	local var_27_2 = var_27_0:GetSlotRewardData()
 
 	if not var_27_1 then
 		arg_27_0:FlushInfos()
@@ -399,85 +435,110 @@ function var_0_0.UpdateTime(arg_27_0)
 		return
 	end
 
-	local var_27_3 = var_27_1:GetFinishTime() - arg_27_0.timeMgr:GetServerTime()
+	local var_27_2 = var_27_1:GetFinishTime() - arg_27_0.timeMgr:GetServerTime()
 
-	setText(arg_27_0.timeTF, arg_27_0.timeMgr:DescCDTime(var_27_3))
-	setSlider(arg_27_0.roleDelegationSliderTF, 0, 1, 1 - var_27_3 / var_27_1:GetAllTime())
+	setText(arg_27_0.timeTF, arg_27_0.timeMgr:DescCDTime(var_27_2))
+	setSlider(arg_27_0.roleDelegationSliderTF, 0, 1, 1 - var_27_2 / var_27_1:GetAllTime())
 
-	local var_27_4 = var_27_1:CanRewardTimes()
-	local var_27_5 = var_27_1.formula_id
-	local var_27_6 = pg.island_formula[var_27_5]
-	local var_27_7 = var_27_1:GetCurrentCanRewardExtraMainNum()
-	local var_27_8 = "×" .. tostring(var_27_6.commission_product[1][2] * var_27_4)
+	local var_27_3 = var_27_1:CanRewardTimes()
+	local var_27_4 = var_27_1.formula_id
+	local var_27_5 = pg.island_formula[var_27_4]
+	local var_27_6 = var_27_1:GetCurrentCanRewardExtraMainNum()
+	local var_27_7 = "×" .. tostring(var_27_5.commission_product[1][2] * var_27_3 + var_27_6)
 
-	if var_27_7 and var_27_7 > 0 then
-		var_27_8 = string.format("%s+%d", var_27_8, var_27_7)
+	if var_27_6 and var_27_6 > 0 then
+		setTextColor(arg_27_0.canRewardNum, Color.NewHex("#7df39f"))
+	else
+		setTextColor(arg_27_0.canRewardNum, Color.NewHex("#FFFFFF"))
 	end
 
-	setText(arg_27_0.canRewardNum, var_27_8)
+	setText(arg_27_0.canRewardNum, var_27_7)
 
-	local var_27_9 = var_27_1:InCurrentTime()
-	local var_27_10 = arg_27_0.timeMgr:GetServerTime() - var_27_1:InCurrentTimeStart(var_27_9)
+	local var_27_8 = var_27_1:InCurrentTime()
+	local var_27_9 = arg_27_0.timeMgr:GetServerTime() - var_27_1:InCurrentTimeStart(var_27_8)
 
-	arg_27_0.formulaProcess.fillAmount = var_27_10 / var_27_1:CurrentTimeNeed(var_27_9)
+	arg_27_0.formulaProcess.fillAmount = var_27_9 / var_27_1:CurrentTimeNeed(var_27_8)
 
-	local var_27_11 = var_27_6.commission_product[1][1]
-	local var_27_12 = pg.island_item_data_template[var_27_11]
+	local var_27_10 = var_27_1:LastTimes()
 
-	GetImageSpriteFromAtlasAsync("island/" .. var_27_12.icon, "", arg_27_0.canRewardIcon)
+	setText(arg_27_0.currentFormulaLastNum, var_27_10)
 
-	local var_27_13 = var_27_1:LastTimes()
+	local var_27_11 = var_27_1:GetExtraMainProduct(var_27_8)
+	local var_27_12 = "×" .. var_27_5.commission_product[1][2]
 
-	setText(arg_27_0.currentFormulaLastNum, var_27_13)
-
-	local var_27_14 = var_27_1:GetExtraMainProduct(var_27_9)
-	local var_27_15 = "×" .. var_27_6.commission_product[1][2]
-
-	if var_27_14 > 0 then
-		var_27_15 = string.format("×(%s<color=#7df39f>+%d</color>)", var_27_6.commission_product[1][2], var_27_14)
+	if var_27_11 > 0 then
+		var_27_12 = string.format("×(%s<color=#7df39f>+%d</color>)", var_27_5.commission_product[1][2], var_27_11)
 	end
 
-	setText(arg_27_0.currentFormulaNum, var_27_15)
+	setText(arg_27_0.currentFormulaNum, var_27_12 .. i18n("island_production_tip"))
 
-	if #var_27_6.second_product > 0 and getProxy(IslandProxy):GetIsland():GetAblityAgency():IsUnlcokSecondProduct(var_27_5) then
-		local var_27_16 = var_27_1:GetExtraExtraProduct(var_27_9)
-		local var_27_17 = "×" .. var_27_6.second_product_display[1][2]
-
-		if var_27_16 > 0 then
-			var_27_17 = string.format("×(%s<color=#7df39f>+%d</color>)", var_27_6.second_product_display[1][2], var_27_16)
-		end
-
-		setText(arg_27_0.extraProductNum, var_27_17)
-	end
-
-	if var_27_4 > 0 then
+	if var_27_3 > 0 then
 		setActive(arg_27_0.getBtn, true)
 		setActive(arg_27_0.addBtn, false)
 	else
-		setActive(arg_27_0.addBtn, var_27_13 < 5)
+		local var_27_13 = var_27_5.production_limit or 5
+
+		setActive(arg_27_0.addBtn, var_27_10 < var_27_13)
 		onButton(arg_27_0, arg_27_0.addBtn, function()
-			arg_27_0:OpenFormulaSelectPage(var_27_5, var_27_13, var_27_4, var_27_1.ship_id)
+			arg_27_0:OpenFormulaSelectPage(var_27_4, var_27_10, var_27_3, var_27_1.ship_id)
 		end, SFX_PANEL)
 	end
 
-	if #var_27_6.second_product == 0 then
+	if #var_27_5.second_product == 0 or not getProxy(IslandProxy):GetIsland():GetAblityAgency():IsUnlcokSecondProduct(var_27_4) then
 		return
 	end
 
-	local var_27_18 = var_27_0:GetFromulaTatalCount(var_27_6.id) + var_27_4
-	local var_27_19 = var_27_6.second_product[1]
-	local var_27_20 = math.floor(var_27_18 / var_27_19)
-	local var_27_21 = var_27_18 % var_27_19
+	local var_27_14 = var_27_1:GetExtraExtraProduct(var_27_8)
+	local var_27_15 = "×" .. var_27_5.second_product_display[1][2]
 
-	if var_27_21 ~= arg_27_0.extraProcess then
-		arg_27_0.extraProcess = var_27_21
-
-		arg_27_0.extraProductList:align(var_27_19)
+	if var_27_14 > 0 then
+		var_27_15 = string.format("×(%s<color=#7df39f>+%d</color>)", var_27_5.second_product_display[1][2], var_27_14)
 	end
 
-	local var_27_22 = math.floor((var_27_13 + var_27_21) / var_27_19)
+	setText(arg_27_0.extraProductNum, var_27_15 .. i18n("island_production_tip"))
 
-	setText(arg_27_0.extraProductLastNum, "×" .. var_27_22)
+	local var_27_16 = var_27_0:GetFromulaTatalCount(var_27_5.id)
+	local var_27_17 = var_27_16 + var_27_3
+	local var_27_18 = var_27_5.second_product[1]
+	local var_27_19 = var_27_17 % var_27_18
+
+	if var_27_19 ~= arg_27_0.extraProcess then
+		arg_27_0.extraProcess = var_27_19
+
+		arg_27_0.extraProductList:align(var_27_18)
+	end
+
+	local var_27_20 = math.floor((var_27_10 + var_27_19) / var_27_18)
+
+	setText(arg_27_0.extraProductLastNum, "×" .. var_27_20)
+
+	local var_27_21 = math.floor(var_27_16 / var_27_18)
+	local var_27_22 = math.floor(var_27_17 / var_27_18) - var_27_21
+
+	setActive(arg_27_0.canExtraRewardIcon, var_27_22 > 0)
+	setActive(arg_27_0.canExtraRewardNum, var_27_22 > 0)
+
+	if var_27_22 > 0 then
+		local var_27_23 = var_27_16 % var_27_18
+		local var_27_24 = 0
+
+		for iter_27_0 = 1, var_27_22 do
+			local var_27_25 = var_27_8 - (iter_27_0 - 1) * var_27_18
+			local var_27_26 = math.floor((var_27_25 + var_27_23) / var_27_18) * var_27_18 - var_27_23
+
+			var_27_24 = var_27_24 + var_27_1:GetExtraExtraProduct(var_27_26)
+		end
+
+		local var_27_27 = "×" .. var_27_5.second_product_display[1][2] * var_27_22 + var_27_24
+
+		if var_27_24 > 0 then
+			setTextColor(arg_27_0.canExtraRewardNum, Color.NewHex("#7df39f"))
+		else
+			setTextColor(arg_27_0.canExtraRewardNum, Color.NewHex("#FFFFFF"))
+		end
+
+		setText(arg_27_0.canExtraRewardNum, var_27_27)
+	end
 end
 
 function var_0_0.StartTimer(arg_29_0)

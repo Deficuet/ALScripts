@@ -651,6 +651,159 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[15019] = {
+		id = 15019,
+		name = "角色用/技能用AI - 时崎狂三分身移动1号",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -65,
+					z = 85
+				}
+			},
+			{
+				index = 2,
+				to = 2,
+				type = 5,
+				param = {
+					Z1 = 5,
+					Z2 = -25,
+					X2 = 25,
+					moveCount = 240,
+					duration = -1,
+					X1 = -5,
+					stopCount = 60
+				}
+			}
+		}
+	},
+	[15020] = {
+		id = 15020,
+		name = "角色用/技能用AI - 时崎狂三分身移动2号",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -65,
+					z = 60
+				}
+			},
+			{
+				index = 2,
+				to = 2,
+				type = 5,
+				param = {
+					Z1 = 5,
+					Z2 = -25,
+					X2 = 25,
+					moveCount = 240,
+					duration = -1,
+					X1 = -5,
+					stopCount = 60
+				}
+			}
+		}
+	},
+	[15021] = {
+		id = 15021,
+		name = "角色用/技能用AI - 时崎狂三分身移动3号",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -65,
+					z = 25
+				}
+			},
+			{
+				index = 2,
+				to = 2,
+				type = 5,
+				param = {
+					Z1 = 25,
+					Z2 = -5,
+					X2 = 25,
+					moveCount = 240,
+					duration = -1,
+					X1 = -5,
+					stopCount = 60
+				}
+			}
+		}
+	},
+	[15022] = {
+		id = 15022,
+		name = "角色用/技能用AI - 拉菲机器人移动1号-演习",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 5,
+				param = {
+					Z1 = 30,
+					Z2 = -5,
+					X2 = 5,
+					moveCount = 240,
+					duration = -1,
+					X1 = -15,
+					stopCount = 60
+				}
+			}
+		}
+	},
+	[15023] = {
+		id = 15023,
+		name = "角色用/技能用AI - 拉菲机器人移动2号-演习",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 5,
+				param = {
+					Z1 = 15,
+					Z2 = -15,
+					X2 = 5,
+					moveCount = 240,
+					duration = -1,
+					X1 = -15,
+					stopCount = 60
+				}
+			}
+		}
+	},
+	[15024] = {
+		id = 15024,
+		name = "角色用/技能用AI - 拉菲机器人移动3号-演习",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 5,
+				param = {
+					Z1 = 5,
+					Z2 = -30,
+					X2 = 5,
+					moveCount = 240,
+					duration = -1,
+					X1 = -15,
+					stopCount = 60
+				}
+			}
+		}
+	},
 	[20001] = {
 		id = 20001,
 		name = "蛋船固定移动ai-23",
@@ -11590,6 +11743,105 @@ pg.auto_pilot_template = {
 				param = {
 					x = 100,
 					z = 0
+				}
+			}
+		}
+	},
+	[70305] = {
+		id = 70305,
+		name = "2025信标BOSS 约克城meta 浮游炮",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 4,
+				param = {
+					z = 50,
+					radius = 15,
+					antiClockWise = false,
+					duration = 4.5,
+					x = -10
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 3
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 4,
+				param = {
+					z = 50,
+					radius = 15,
+					antiClockWise = false,
+					duration = 5,
+					x = -10
+				}
+			},
+			{
+				index = 4,
+				to = 5,
+				type = 0,
+				param = {
+					duration = 3
+				}
+			},
+			{
+				index = 5,
+				to = 6,
+				type = 4,
+				param = {
+					z = 50,
+					radius = 15,
+					antiClockWise = false,
+					duration = 5,
+					x = -10
+				}
+			},
+			{
+				index = 6,
+				to = 7,
+				type = 0,
+				param = {
+					duration = 3
+				}
+			},
+			{
+				index = 7,
+				to = 8,
+				type = 4,
+				param = {
+					z = 50,
+					radius = 15,
+					antiClockWise = true,
+					duration = 5,
+					x = -10
+				}
+			},
+			{
+				index = 8,
+				to = 9,
+				type = 0,
+				param = {
+					duration = 3
+				}
+			},
+			{
+				index = 9,
+				to = 2,
+				type = 4,
+				param = {
+					z = 50,
+					radius = 15,
+					antiClockWise = true,
+					duration = 5,
+					x = -10
 				}
 			}
 		}

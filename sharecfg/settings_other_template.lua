@@ -208,13 +208,22 @@ pg.settings_other_template = {
 		desc = "Toggle this setting ON to get push notifications when another player visits your Island."
 	},
 	{
-		default = 1,
+		default = 0,
 		name = "GRAPHI_API_SWITCH_OPTION",
 		type = 3,
 		alignment = 0,
 		id = 24,
 		title = "Rendering Compatibility Mode",
 		desc = "When toggled ON, this can reduce some bugs where the screen turns black under certain circumstances."
+	},
+	{
+		default = 1,
+		name = "REMOVE_LOW_MOOD",
+		type = 0,
+		alignment = 0,
+		id = 25,
+		title = "Skip Low Morale Ships in Auto Formation",
+		desc = "When toggled ON, shipgirls at low Morale will be automatically excluded when creating a suggested formation."
 	},
 	all = {
 		1,
@@ -240,6 +249,7 @@ pg.settings_other_template = {
 		21,
 		22,
 		23,
-		24
+		24,
+		25
 	}
 }

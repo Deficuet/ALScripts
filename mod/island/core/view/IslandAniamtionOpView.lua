@@ -15,7 +15,7 @@ function var_0_0.GetExitAnimationName(arg_3_0)
 	return "Anim_IslandActionOpUI_Out"
 end
 
-function var_0_0.SetUIParent(arg_4_0, arg_4_1)
+function var_0_0.GetUIParent(arg_4_0, arg_4_1)
 	return arg_4_0:GetView().topContainer
 end
 

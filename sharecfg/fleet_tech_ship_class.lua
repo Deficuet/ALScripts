@@ -67,7 +67,9 @@ pg.fleet_tech_ship_class = {
 			10111,
 			10152,
 			10143,
-			19905
+			10155,
+			19905,
+			10110
 		}
 	},
 	[10105] = {
@@ -164,7 +166,8 @@ pg.fleet_tech_ship_class = {
 			10223,
 			10225,
 			10231,
-			10234
+			10234,
+			10235
 		}
 	},
 	[10203] = {
@@ -494,6 +497,7 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			10722,
 			10723,
+			10725,
 			10729,
 			10727,
 			10730
@@ -560,6 +564,7 @@ pg.fleet_tech_ship_class = {
 			10712,
 			10713,
 			10714,
+			10716,
 			10717,
 			10738
 		}
@@ -1453,6 +1458,7 @@ pg.fleet_tech_ship_class = {
 			30183,
 			30154,
 			30191,
+			30194,
 			30192
 		}
 	},
@@ -2707,7 +2713,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 131,
 		t_level = 1,
 		ships = {
-			50210
+			50210,
+			50212
 		}
 	},
 	[50301] = {
@@ -2719,6 +2726,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 1,
 		ships = {
 			50301
+		}
+	},
+	[50302] = {
+		shiptype = 3,
+		name = "Chang Wu",
+		nation = 5,
+		id = 50302,
+		t_level_1 = 130,
+		t_level = 4,
+		ships = {
+			50302
 		}
 	},
 	[50401] = {
@@ -2810,7 +2828,8 @@ pg.fleet_tech_ship_class = {
 		t_level = 4,
 		ships = {
 			60106,
-			60109
+			60109,
+			60112
 		}
 	},
 	[60105] = {
@@ -2856,7 +2875,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 132,
 		t_level = 7,
 		ships = {
-			60203
+			60203,
+			60204
 		}
 	},
 	[60301] = {
@@ -2962,6 +2982,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 8,
 		ships = {
 			60508
+		}
+	},
+	[60506] = {
+		shiptype = 5,
+		name = "Francesco Caracciolo-class battleship – Francesco Caracciolo.",
+		nation = 6,
+		id = 60506,
+		t_level_1 = 133,
+		t_level = 6,
+		ships = {
+			60509
 		}
 	},
 	[60701] = {
@@ -3831,7 +3862,7 @@ pg.fleet_tech_ship_class = {
 		nation = 96,
 		id = 960013,
 		t_level_1 = 1,
-		t_level = 1,
+		t_level = 2,
 		ships = {
 			960013
 		}
@@ -3979,6 +4010,17 @@ pg.fleet_tech_ship_class = {
 			970110
 		}
 	},
+	[970111] = {
+		shiptype = 1,
+		name = "Carabiniere META",
+		nation = 97,
+		id = 970111,
+		t_level_1 = 19,
+		t_level = 3,
+		ships = {
+			970111
+		}
+	},
 	[970201] = {
 		shiptype = 2,
 		name = "Helena META",
@@ -4054,6 +4096,28 @@ pg.fleet_tech_ship_class = {
 		t_level = 4,
 		ships = {
 			970207
+		}
+	},
+	[970208] = {
+		shiptype = 2,
+		name = "Boise META",
+		nation = 97,
+		id = 970208,
+		t_level_1 = 7,
+		t_level = 2,
+		ships = {
+			970208
+		}
+	},
+	[970209] = {
+		shiptype = 2,
+		name = "Cleveland META",
+		nation = 97,
+		id = 970209,
+		t_level_1 = 17,
+		t_level = 1,
+		ships = {
+			970209
 		}
 	},
 	[970301] = {
@@ -4408,6 +4472,17 @@ pg.fleet_tech_ship_class = {
 			970707
 		}
 	},
+	[970708] = {
+		shiptype = 7,
+		name = "Yorktown META",
+		nation = 97,
+		id = 970708,
+		t_level_1 = 1,
+		t_level = 2,
+		ships = {
+			970708
+		}
+	},
 	[970801] = {
 		shiptype = 8,
 		name = "U-556 META",
@@ -4663,6 +4738,7 @@ pg.fleet_tech_ship_class = {
 		50206,
 		50207,
 		50301,
+		50302,
 		50401,
 		50601,
 		50602,
@@ -4684,6 +4760,7 @@ pg.fleet_tech_ship_class = {
 		60503,
 		60504,
 		60505,
+		60506,
 		60701,
 		60702,
 		60801,
@@ -4774,6 +4851,7 @@ pg.fleet_tech_ship_class = {
 		970108,
 		970109,
 		970110,
+		970111,
 		970201,
 		970202,
 		970203,
@@ -4781,6 +4859,8 @@ pg.fleet_tech_ship_class = {
 		970205,
 		970206,
 		970207,
+		970208,
+		970209,
 		970301,
 		970302,
 		970303,
@@ -4813,6 +4893,7 @@ pg.fleet_tech_ship_class = {
 		970705,
 		970706,
 		970707,
+		970708,
 		970801,
 		971201,
 		971301

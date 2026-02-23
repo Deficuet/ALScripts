@@ -1,9 +1,9 @@
 pg = pg or {}
 pg.medal_template = {
 	[10011] = {
-		explain1 = "for numerous victories in battle.",
+		explain1 = "Awarded to courageous naval personnel",
 		name = "Naval Service Medal",
-		explain2 = "Awarded to courageous naval personnel",
+		explain2 = "for numerous victories in battle.",
 		type = 0,
 		is_out_of_print = 0,
 		count_inherit = 0,
@@ -22,9 +22,9 @@ pg.medal_template = {
 		target_id = "0"
 	},
 	[10012] = {
-		explain1 = "for numerous victories in battle.",
+		explain1 = "Awarded to courageous naval personnel",
 		name = "Naval Service Medal",
-		explain2 = "Awarded to courageous naval personnel",
+		explain2 = "for numerous victories in battle.",
 		type = 0,
 		is_out_of_print = 0,
 		count_inherit = 0,
@@ -43,9 +43,9 @@ pg.medal_template = {
 		target_id = "0"
 	},
 	[10013] = {
-		explain1 = "for numerous victories in battle.",
+		explain1 = "Awarded to courageous naval personnel",
 		name = "Naval Service Medal",
-		explain2 = "Awarded to courageous naval personnel",
+		explain2 = "for numerous victories in battle.",
 		type = 0,
 		is_out_of_print = 0,
 		count_inherit = 0,
@@ -64,9 +64,9 @@ pg.medal_template = {
 		target_id = "0"
 	},
 	[10014] = {
-		explain1 = "for numerous victories in battle.",
+		explain1 = "Awarded to courageous naval personnel",
 		name = "Naval Service Medal",
-		explain2 = "Awarded to courageous naval personnel",
+		explain2 = "for numerous victories in battle.",
 		type = 0,
 		is_out_of_print = 0,
 		count_inherit = 0,
@@ -85,9 +85,9 @@ pg.medal_template = {
 		target_id = "0"
 	},
 	[10015] = {
-		explain1 = "for numerous victories in battle.",
+		explain1 = "Awarded to courageous naval personnel",
 		name = "Naval Service Medal",
-		explain2 = "Awarded to courageous naval personnel",
+		explain2 = "for numerous victories in battle.",
 		type = 0,
 		is_out_of_print = 0,
 		count_inherit = 0,
@@ -211,9 +211,9 @@ pg.medal_template = {
 		target_id = "0"
 	},
 	[10031] = {
-		explain1 = "for always facing the sea's challenges.",
+		explain1 = "Awarded to adventurous naval personnel",
 		name = "Seaborne Explorer Medal",
-		explain2 = "Awarded to adventurous naval personnel",
+		explain2 = "for always facing the sea's challenges.",
 		type = 0,
 		is_out_of_print = 0,
 		count_inherit = 10032,
@@ -232,9 +232,9 @@ pg.medal_template = {
 		target_id = "5"
 	},
 	[10032] = {
-		explain1 = "for always facing the sea's challenges.",
+		explain1 = "Awarded to adventurous naval personnel",
 		name = "Seaborne Explorer Medal",
-		explain2 = "Awarded to adventurous naval personnel",
+		explain2 = "for always facing the sea's challenges.",
 		type = 0,
 		is_out_of_print = 0,
 		count_inherit = 10033,
@@ -253,9 +253,9 @@ pg.medal_template = {
 		target_id = "5"
 	},
 	[10033] = {
-		explain1 = "for always facing the sea's challenges.",
+		explain1 = "Awarded to adventurous naval personnel",
 		name = "Seaborne Explorer Medal",
-		explain2 = "Awarded to adventurous naval personnel",
+		explain2 = "for always facing the sea's challenges.",
 		type = 0,
 		is_out_of_print = 0,
 		count_inherit = 10034,
@@ -274,9 +274,9 @@ pg.medal_template = {
 		target_id = "5"
 	},
 	[10034] = {
-		explain1 = "for always facing the sea's challenges.",
+		explain1 = "Awarded to adventurous naval personnel",
 		name = "Seaborne Explorer Medal",
-		explain2 = "Awarded to adventurous naval personnel",
+		explain2 = "for always facing the sea's challenges.",
 		type = 0,
 		is_out_of_print = 0,
 		count_inherit = 0,
@@ -295,9 +295,9 @@ pg.medal_template = {
 		target_id = "5"
 	},
 	[10035] = {
-		explain1 = "for always facing the sea's challenges.",
+		explain1 = "Awarded to adventurous naval personnel",
 		name = "Seaborne Explorer Medal",
-		explain2 = "Awarded to adventurous naval personnel",
+		explain2 = "for always facing the sea's challenges.",
 		type = 0,
 		is_out_of_print = 0,
 		count_inherit = 0,
@@ -316,9 +316,9 @@ pg.medal_template = {
 		target_id = "0"
 	},
 	[10041] = {
-		explain1 = "for improving living conditions.",
+		explain1 = "Awarded to considerate naval personnel",
 		name = "Renovation Merit Medal",
-		explain2 = "Awarded to considerate naval personnel",
+		explain2 = "for improving living conditions.",
 		type = 0,
 		is_out_of_print = 0,
 		count_inherit = 0,
@@ -337,9 +337,9 @@ pg.medal_template = {
 		target_id = "0"
 	},
 	[10042] = {
-		explain1 = "for improving living conditions.",
+		explain1 = "Awarded to considerate naval personnel",
 		name = "Renovation Merit Medal",
-		explain2 = "Awarded to considerate naval personnel",
+		explain2 = "for improving living conditions.",
 		type = 0,
 		is_out_of_print = 0,
 		count_inherit = 0,
@@ -358,9 +358,9 @@ pg.medal_template = {
 		target_id = "0"
 	},
 	[10043] = {
-		explain1 = "for improving living conditions.",
+		explain1 = "Awarded to considerate naval personnel",
 		name = "Renovation Merit Medal",
-		explain2 = "Awarded to considerate naval personnel",
+		explain2 = "for improving living conditions.",
 		type = 0,
 		is_out_of_print = 0,
 		count_inherit = 0,
@@ -379,9 +379,9 @@ pg.medal_template = {
 		target_id = "0"
 	},
 	[10044] = {
-		explain1 = "for improving living conditions.",
+		explain1 = "Awarded to considerate naval personnel",
 		name = "Renovation Merit Medal",
-		explain2 = "Awarded to considerate naval personnel",
+		explain2 = "for improving living conditions.",
 		type = 0,
 		is_out_of_print = 0,
 		count_inherit = 0,
@@ -400,9 +400,9 @@ pg.medal_template = {
 		target_id = "0"
 	},
 	[10045] = {
-		explain1 = "for improving living conditions.",
+		explain1 = "Awarded to considerate naval personnel",
 		name = "Renovation Merit Medal",
-		explain2 = "Awarded to considerate naval personnel",
+		explain2 = "for improving living conditions.",
 		type = 0,
 		is_out_of_print = 0,
 		count_inherit = 0,
@@ -421,9 +421,9 @@ pg.medal_template = {
 		target_id = "0"
 	},
 	[10051] = {
-		explain1 = "with ships as well as people.",
+		explain1 = "Awarded to those who form bonds",
 		name = "Rose Vows Award",
-		explain2 = "Awarded to those who form bonds",
+		explain2 = "with ships as well as people.",
 		type = 0,
 		is_out_of_print = 0,
 		count_inherit = 0,
@@ -442,9 +442,9 @@ pg.medal_template = {
 		target_id = "10000"
 	},
 	[10052] = {
-		explain1 = "with ships as well as people.",
+		explain1 = "Awarded to those who form bonds",
 		name = "Rose Vows Award",
-		explain2 = "Awarded to those who form bonds",
+		explain2 = "with ships as well as people.",
 		type = 0,
 		is_out_of_print = 0,
 		count_inherit = 0,
@@ -463,9 +463,9 @@ pg.medal_template = {
 		target_id = "10000"
 	},
 	[10053] = {
-		explain1 = "with ships as well as people.",
+		explain1 = "Awarded to those who form bonds",
 		name = "Rose Vows Award",
-		explain2 = "Awarded to those who form bonds",
+		explain2 = "with ships as well as people.",
 		type = 0,
 		is_out_of_print = 0,
 		count_inherit = 0,
@@ -484,9 +484,9 @@ pg.medal_template = {
 		target_id = "10000"
 	},
 	[10054] = {
-		explain1 = "with ships as well as people.",
+		explain1 = "Awarded to those who form bonds",
 		name = "Rose Vows Award",
-		explain2 = "Awarded to those who form bonds",
+		explain2 = "with ships as well as people.",
 		type = 0,
 		is_out_of_print = 0,
 		count_inherit = 0,
@@ -505,9 +505,9 @@ pg.medal_template = {
 		target_id = "10000"
 	},
 	[10055] = {
-		explain1 = "with ships as well as people.",
+		explain1 = "Awarded to those who form bonds",
 		name = "Rose Vows Award",
-		explain2 = "Awarded to those who form bonds",
+		explain2 = "with ships as well as people.",
 		type = 0,
 		is_out_of_print = 0,
 		count_inherit = 0,
@@ -865,7 +865,7 @@ pg.medal_template = {
 		target_id = "0"
 	},
 	[10091] = {
-		explain1 = "for the sake of their comrades in the Iron Blood.",
+		explain1 = "Awarded to those who have become a pillar of strength",
 		name = "Iron Blood Adamant Medal",
 		type = 0,
 		is_out_of_print = 0,
@@ -882,7 +882,7 @@ pg.medal_template = {
 		rank = 1,
 		id = 10091,
 		target_num = 3,
-		explain2 = "Awarded to those who have become a pillar of strength",
+		explain2 = "for the sake of their comrades in the Iron Blood.",
 		target_id = {
 			100911,
 			100921,
@@ -890,7 +890,7 @@ pg.medal_template = {
 		}
 	},
 	[10092] = {
-		explain1 = "for the sake of their comrades in the Iron Blood.",
+		explain1 = "Awarded to those who have become a pillar of strength",
 		name = "Iron Blood Adamant Medal",
 		type = 0,
 		is_out_of_print = 0,
@@ -907,7 +907,7 @@ pg.medal_template = {
 		rank = 2,
 		id = 10092,
 		target_num = 3,
-		explain2 = "Awarded to those who have become a pillar of strength",
+		explain2 = "for the sake of their comrades in the Iron Blood.",
 		target_id = {
 			100912,
 			100922,
@@ -915,9 +915,9 @@ pg.medal_template = {
 		}
 	},
 	[10093] = {
-		explain1 = "for the sake of their comrades in the Iron Blood.",
+		explain1 = "Awarded to those who have become a pillar of strength",
 		name = "Iron Blood Adamant Medal",
-		explain2 = "Awarded to those who have become a pillar of strength",
+		explain2 = "for the sake of their comrades in the Iron Blood.",
 		type = 0,
 		is_out_of_print = 0,
 		count_inherit = 0,
@@ -936,9 +936,9 @@ pg.medal_template = {
 		target_id = "0"
 	},
 	[10094] = {
-		explain1 = "for the sake of their comrades in the Iron Blood.",
+		explain1 = "Awarded to those who have become a pillar of strength",
 		name = "Iron Blood Adamant Medal",
-		explain2 = "Awarded to those who have become a pillar of strength",
+		explain2 = "for the sake of their comrades in the Iron Blood.",
 		type = 0,
 		is_out_of_print = 0,
 		count_inherit = 0,
@@ -957,9 +957,9 @@ pg.medal_template = {
 		target_id = "0"
 	},
 	[10095] = {
-		explain1 = "for the sake of their comrades in the Iron Blood.",
+		explain1 = "Awarded to those who have become a pillar of strength",
 		name = "Iron Blood Adamant Medal",
-		explain2 = "Awarded to those who have become a pillar of strength",
+		explain2 = "for the sake of their comrades in the Iron Blood.",
 		type = 0,
 		is_out_of_print = 0,
 		count_inherit = 0,
@@ -2653,6 +2653,69 @@ pg.medal_template = {
 		target_num = 8,
 		target_id = "50209"
 	},
+	[200111] = {
+		explain1 = "A Note Through the Firmament",
+		name = "Star of the Firmament Medal",
+		explain2 = "Event",
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "A medal based on the Anchorage National Observatory.\n——You peeled back the Veil and traversed the firmament.\n——The past and the present are connected in this moment.\n——A new era has begun.",
+		next = 0,
+		icon = "9111",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9111",
+		condition = "Collect 8 stickers in A Note Through the Firmament.",
+		rank = 1,
+		id = 200111,
+		target_num = 8,
+		target_id = "50295"
+	},
+	[200121] = {
+		explain1 = "Light & Shadow Fashion Shoot!",
+		name = "Fashion Shoot Medal",
+		explain2 = "Event",
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "Power up the fashion radar and switch into photo gear! Close the shutter and capture some trendy moments! \n——You are today's fashion chronicler!",
+		next = 0,
+		icon = "9121",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9121",
+		condition = "Collect 8 stickers in the Light & Shadow Fashion Shoot! event.",
+		rank = 1,
+		id = 200121,
+		target_num = 8,
+		target_id = "50359"
+	},
+	[200131] = {
+		explain1 = "Spring Auction Adventure",
+		name = "Spring Auction Medal",
+		explain2 = "Event",
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "This warm, masterfully cut jade rests in its case, its faint aroma filling the whole garden. All these lucky encounters are merely waiting for your arrival. \nSince you've come here, surely you must have a discerning eye for good jade?",
+		next = 0,
+		icon = "9131",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9131",
+		condition = "Collect 8 stickers in the Spring Auction Adventure event.",
+		rank = 1,
+		id = 200131,
+		target_num = 8,
+		target_id = "50405"
+	},
 	all = {
 		10011,
 		10012,
@@ -2774,6 +2837,9 @@ pg.medal_template = {
 		200071,
 		200081,
 		200091,
-		200101
+		200101,
+		200111,
+		200121,
+		200131
 	}
 }

@@ -12,6 +12,7 @@ pg.island_item_data_template = setmetatable({
 			7,
 			8,
 			9,
+			10,
 			1000,
 			1001,
 			1002,
@@ -34,6 +35,22 @@ pg.island_item_data_template = setmetatable({
 			1020,
 			1021,
 			1022,
+			1101,
+			1102,
+			1103,
+			1104,
+			1105,
+			1106,
+			1107,
+			1108,
+			1201,
+			1202,
+			1203,
+			1204,
+			1205,
+			1206,
+			1207,
+			1208,
 			2000,
 			2001,
 			2002,
@@ -56,6 +73,8 @@ pg.island_item_data_template = setmetatable({
 			2020,
 			2021,
 			2022,
+			2521,
+			2522,
 			2600,
 			2601,
 			2602,
@@ -141,6 +160,13 @@ pg.island_item_data_template = setmetatable({
 			3111,
 			3112,
 			3113,
+			3114,
+			3115,
+			3116,
+			3117,
+			3118,
+			3119,
+			3120,
 			4001,
 			4002,
 			4003,
@@ -155,6 +181,37 @@ pg.island_item_data_template = setmetatable({
 			4012,
 			4013,
 			4014,
+			4015,
+			4016,
+			4017,
+			4018,
+			4019,
+			4020,
+			4021,
+			4022,
+			4023,
+			4024,
+			4025,
+			4026,
+			4027,
+			4028,
+			5001,
+			5002,
+			5003,
+			5004,
+			5005,
+			5006,
+			5007,
+			5008,
+			5101,
+			5102,
+			5103,
+			5104,
+			5105,
+			5106,
+			5107,
+			5108,
+			9900,
 			100001,
 			100002,
 			100003,
@@ -195,12 +252,23 @@ pg.island_item_data_template = setmetatable({
 			200013,
 			200014,
 			200015,
+			200016,
+			200017,
+			200018,
+			200019,
+			200020,
 			300001,
 			300002,
 			300003,
 			300004,
 			300005,
 			300006
+		},
+		usage_fish = {
+			1500,
+			1501,
+			1502,
+			1503
 		},
 		usage_island_gift = {
 			110001,
@@ -218,7 +286,11 @@ pg.island_item_data_template = setmetatable({
 			6,
 			7,
 			8,
-			9
+			9,
+			1500,
+			1501,
+			1502,
+			1503
 		},
 		[4] = {
 			2
@@ -269,6 +341,11 @@ pg.island_item_data_template = setmetatable({
 			200013,
 			200014,
 			200015,
+			200016,
+			200017,
+			200018,
+			200019,
+			200020,
 			300001,
 			300002,
 			300003,
@@ -277,6 +354,7 @@ pg.island_item_data_template = setmetatable({
 			300006
 		},
 		{
+			10,
 			1000,
 			1001,
 			1002,
@@ -299,6 +377,22 @@ pg.island_item_data_template = setmetatable({
 			1020,
 			1021,
 			1022,
+			1101,
+			1102,
+			1103,
+			1104,
+			1105,
+			1106,
+			1107,
+			1108,
+			1201,
+			1202,
+			1203,
+			1204,
+			1205,
+			1206,
+			1207,
+			1208,
 			2000,
 			2001,
 			2002,
@@ -321,6 +415,8 @@ pg.island_item_data_template = setmetatable({
 			2020,
 			2021,
 			2022,
+			2521,
+			2522,
 			2600,
 			2601,
 			2602,
@@ -406,6 +502,13 @@ pg.island_item_data_template = setmetatable({
 			3111,
 			3112,
 			3113,
+			3114,
+			3115,
+			3116,
+			3117,
+			3118,
+			3119,
+			3120,
 			4001,
 			4002,
 			4003,
@@ -419,7 +522,38 @@ pg.island_item_data_template = setmetatable({
 			4011,
 			4012,
 			4013,
-			4014
+			4014,
+			4015,
+			4016,
+			4017,
+			4018,
+			4019,
+			4020,
+			4021,
+			4022,
+			4023,
+			4024,
+			4025,
+			4026,
+			4027,
+			4028,
+			5001,
+			5002,
+			5003,
+			5004,
+			5005,
+			5006,
+			5007,
+			5008,
+			5101,
+			5102,
+			5103,
+			5104,
+			5105,
+			5106,
+			5107,
+			5108,
+			9900
 		},
 		[5] = {
 			100001,
@@ -437,6 +571,7 @@ pg.island_item_data_template = setmetatable({
 		7,
 		8,
 		9,
+		10,
 		1000,
 		1001,
 		1002,
@@ -459,6 +594,26 @@ pg.island_item_data_template = setmetatable({
 		1020,
 		1021,
 		1022,
+		1101,
+		1102,
+		1103,
+		1104,
+		1105,
+		1106,
+		1107,
+		1108,
+		1201,
+		1202,
+		1203,
+		1204,
+		1205,
+		1206,
+		1207,
+		1208,
+		1500,
+		1501,
+		1502,
+		1503,
 		2000,
 		2001,
 		2002,
@@ -481,6 +636,8 @@ pg.island_item_data_template = setmetatable({
 		2020,
 		2021,
 		2022,
+		2521,
+		2522,
 		2600,
 		2601,
 		2602,
@@ -566,6 +723,13 @@ pg.island_item_data_template = setmetatable({
 		3111,
 		3112,
 		3113,
+		3114,
+		3115,
+		3116,
+		3117,
+		3118,
+		3119,
+		3120,
 		4001,
 		4002,
 		4003,
@@ -580,6 +744,37 @@ pg.island_item_data_template = setmetatable({
 		4012,
 		4013,
 		4014,
+		4015,
+		4016,
+		4017,
+		4018,
+		4019,
+		4020,
+		4021,
+		4022,
+		4023,
+		4024,
+		4025,
+		4026,
+		4027,
+		4028,
+		5001,
+		5002,
+		5003,
+		5004,
+		5005,
+		5006,
+		5007,
+		5008,
+		5101,
+		5102,
+		5103,
+		5104,
+		5105,
+		5106,
+		5107,
+		5108,
+		9900,
 		100001,
 		100002,
 		100003,
@@ -626,6 +821,11 @@ pg.island_item_data_template = setmetatable({
 		200013,
 		200014,
 		200015,
+		200016,
+		200017,
+		200018,
+		200019,
+		200020,
 		300001,
 		300002,
 		300003,
@@ -733,6 +933,10 @@ pg.base.island_item_data_template = {
 		jump_page = {
 			{
 				"Buy in Shop",
+				{}
+			},
+			{
+				"Milestone Rewards",
 				{}
 			}
 		}
@@ -893,6 +1097,32 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {}
 	},
+	{
+		pt_num = 1,
+		name = "Island Seasonal PT Exchange Ticket",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A ticket that can be exchanged for Island Dev. Points. Will be automatically converted into Island Dev. Points when a season ends, but can also be used manually in your Warehouse.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "islandprops/Item_6",
+		price = 1,
+		icon_normal = "props/item_island_6",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 10,
+		have_max = 0,
+		filter = {
+			10114
+		},
+		sub_attribute = {},
+		jump_page = {}
+	},
 	[1000] = {
 		pt_num = 1,
 		name = "Wheat Seeds",
@@ -915,15 +1145,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"Buy in Shop",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10022
+					}
 				}
 			}
 		}
@@ -950,15 +1189,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"Buy in Shop",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10022
+					}
 				}
 			}
 		}
@@ -985,15 +1233,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"Buy in Shop",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10022
+					}
 				}
 			}
 		}
@@ -1020,15 +1277,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"Buy in Shop",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10022
+					}
 				}
 			}
 		}
@@ -1055,15 +1321,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"Buy in Shop",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
 				}
 			}
 		}
@@ -1090,15 +1365,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"Buy in Shop",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10022
+					}
 				}
 			}
 		}
@@ -1125,15 +1409,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"Buy in Shop",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10022
+					}
 				}
 			}
 		}
@@ -1160,15 +1453,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"Buy in Shop",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
 				}
 			}
 		}
@@ -1195,15 +1497,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"Buy in Shop",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10022
+					}
 				}
 			}
 		}
@@ -1230,15 +1541,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"Buy in Shop",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10022
+					}
 				}
 			}
 		}
@@ -1265,15 +1585,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"Buy in Shop",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
 				}
 			}
 		}
@@ -1300,15 +1629,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"Buy in Shop",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
 				}
 			}
 		}
@@ -1335,15 +1673,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"Buy in Shop",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
 				}
 			}
 		}
@@ -1370,15 +1717,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"Buy in Shop",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
 				}
 			}
 		}
@@ -1405,15 +1761,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"Buy in Shop",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
 				}
 			}
 		}
@@ -1440,15 +1805,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"Buy in Shop",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
 			}
 		}
@@ -1475,15 +1849,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"Buy in Shop",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
 			}
 		}
@@ -1510,15 +1893,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"Buy in Shop",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
 			}
 		}
@@ -1545,15 +1937,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"Buy in Shop",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
 			}
 		}
@@ -1580,15 +1981,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"Buy in Shop",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
 			}
 		}
@@ -1615,15 +2025,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"Buy in Shop",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
 			}
 		}
@@ -1650,16 +2069,848 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"Buy in Shop",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
+			}
+		}
+	},
+	[1101] = {
+		pt_num = 1,
+		name = "Shellfish Spat",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A juvenile bivalve. It exhibits stable growth, with good cultivation techniques in place.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1101",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1101,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Fish Fry Shop",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1102] = {
+		pt_num = 1,
+		name = "Catfish Fry",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A juvenile benthic freshwater fish. It's resilient to low-oxygen environments and is suited for high-density cultivation in fish pens with muddy bottoms.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1102",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1102,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Fish Fry Shop",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1103] = {
+		pt_num = 1,
+		name = "Koi Carp Fry",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A juvenile omnivorous freshwater fish. It's highly adaptable to its environment, and exhibits stable growth in all kinds of water conditions.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1103",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1103,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Fish Fry Shop",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1104] = {
+		pt_num = 1,
+		name = "Common Carp Fry",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A juvenile freshwater fish. It mainly eats algae and organic matter, contributing to the ecosystem's maintenance.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1104",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1104,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Fish Fry Shop",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1105] = {
+		pt_num = 1,
+		name = "Freshwater Shrimp Fry",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A juvenile freshwater shrimp. It eats leftover feed and some species of algae, functioning as a natural cleaner.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1105",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1105,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Fish Fry Shop",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1106] = {
+		pt_num = 1,
+		name = "Crayfish Fry",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A juvenile crustacean. Its shell turns red and becomes hard as it grows. Its mature form is traded as a popular marine product.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1106",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1106,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Fish Fry Shop",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1107] = {
+		pt_num = 1,
+		name = "Sea Bass Fry",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A juvenile carnivorous fish. Its meat is tender, and it's cultivated as a high-quality edible fish.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1107",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1107,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Fish Fry Shop",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1108] = {
+		pt_num = 1,
+		name = "Juvenile Crab",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A juvenile crab that frequently molts. It needs to be raised in a clean water environment.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1108",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1108,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Fish Fry Shop",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1201] = {
+		pt_num = 1,
+		name = "Squid Fry",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A juvenile cephalopod. After undergoing several transformations during its growth process, it develops tender flesh.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1201",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1201,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Fish Fry Shop",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1202] = {
+		pt_num = 1,
+		name = "Mackerel Fry",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A juvenile carnivorous fish. It's often found in the middle water layers and boasts good growth potential.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1202",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1202,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Fish Fry Shop",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1203] = {
+		pt_num = 1,
+		name = "Tuna Fry",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A juvenile large palegic fish. It grows quickly and demands an aquatic environment with ample oxygen supply.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1203",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1203,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Fish Fry Shop",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1204] = {
+		pt_num = 1,
+		name = "Salmon Fry",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A juvenile migratory fish. It loves cooler waters and develops a delectable flesh through gentle care.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1204",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1204,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Fish Fry Shop",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1205] = {
+		pt_num = 1,
+		name = "Red Sea Bream Fry",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A juvenile warm saltwater fish. It gains a vibrant body color after finishing its growth, making it a prized ornamental fish.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1205",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1205,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Fish Fry Shop",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1206] = {
+		pt_num = 1,
+		name = "Black Porgy Fry",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A juvenile fish that lives in coral reefs. Its robust constitution makes it easy to cultivate.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1206",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1206,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Fish Fry Shop",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1207] = {
+		pt_num = 1,
+		name = "Yellowfin Tuna Fry",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A juvenile yellowfin tuna. It's a quick swimmer and demands oxygen-rich waters for successful cultivation.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1207",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1207,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Fish Fry Shop",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1208] = {
+		pt_num = 1,
+		name = "Sea Cucumber Fry",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A juvenile benthic echinoderm. It subsists on accumulated organic matter, so it cleans the bottom of the fish pen efficiently.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_1208",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 1208,
+		have_max = 0,
+		filter = {
+			10114,
+			10140
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Fish Fry Shop",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10031
+					}
+				}
+			}
+		}
+	},
+	[1500] = {
+		pt_num = 0,
+		name = "Earthworm",
+		group_max = 0,
+		type = 3,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "A lure shaped like an earthworm. Fish are likely to go for it on account of its realistic appearance.",
+		usage = "usage_fish",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_1500",
+		price = 0,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[[{{5003,300},{5004,300},{5002,200},{5007,200},{5106,200},{5108,-300}}],[]]",
+		id = 1500,
+		have_max = 1,
+		filter = {
+			10313
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Buy in Shop",
+				{}
+			}
+		}
+	},
+	[1501] = {
+		pt_num = 0,
+		name = "Corn",
+		group_max = 0,
+		type = 3,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "A lure shaped like corn with a unique flavor. Its golden color appeals to omnivorous fish.",
+		usage = "usage_fish",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_1501",
+		price = 0,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[[{{5005,-400},{5006,-400},{5008,-200},{5103,-500},{5104,-500},{5107,-500}}],[]]",
+		id = 1501,
+		have_max = 1,
+		filter = {
+			10313
+		},
+		sub_attribute = {},
+		jump_page = {}
+	},
+	[1502] = {
+		pt_num = 0,
+		name = "Shelled Shrimp",
+		group_max = 0,
+		type = 3,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "A lure carefully made to look like a shelled shrimp. Its natural form and movements entice many carnivorous species.",
+		usage = "usage_fish",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_1502",
+		price = 0,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[[{{5003,-500},{5004,-500},{5101,200},{5102,300},{5104,300},{5108,-200}}],[]]",
+		id = 1502,
+		have_max = 1,
+		filter = {
+			10313
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Buy in Shop",
+				{}
+			}
+		}
+	},
+	[1503] = {
+		pt_num = 0,
+		name = "Octopus Arm",
+		group_max = 0,
+		type = 3,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "A lure with a distinctive shape. Its lively motions in the water are irresistible to larger fish.",
+		usage = "usage_fish",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_1503",
+		price = 0,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[[{{5003,-500},{5004,-500},{5101,-200},{5103,500},{5107,500},{5108,-200}}],[]]",
+		id = 1503,
+		have_max = 1,
+		filter = {
+			10313
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Buy in Shop",
+				{}
 			}
 		}
 	},
@@ -1690,11 +2941,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Faircrop Fields",
+				{}
 			}
 		}
 	},
@@ -1725,11 +2973,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Faircrop Fields",
+				{}
 			}
 		}
 	},
@@ -1760,11 +3005,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Faircrop Fields",
+				{}
 			}
 		}
 	},
@@ -1795,11 +3037,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Faircrop Fields",
+				{}
 			}
 		}
 	},
@@ -1825,16 +3064,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Newsprout Nursery",
+				{}
 			}
 		}
 	},
@@ -1865,11 +3101,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Faircrop Fields",
+				{}
 			}
 		}
 	},
@@ -1900,11 +3133,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Faircrop Fields",
+				{}
 			}
 		}
 	},
@@ -1930,16 +3160,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Newsprout Nursery",
+				{}
 			}
 		}
 	},
@@ -1970,11 +3197,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Faircrop Fields",
+				{}
 			}
 		}
 	},
@@ -2005,11 +3229,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Faircrop Fields",
+				{}
 			}
 		}
 	},
@@ -2035,16 +3256,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Newsprout Nursery",
+				{}
 			}
 		}
 	},
@@ -2070,16 +3288,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Newsprout Nursery",
+				{}
 			}
 		}
 	},
@@ -2105,16 +3320,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Newsprout Nursery",
+				{}
 			}
 		}
 	},
@@ -2140,16 +3352,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Newsprout Nursery",
+				{}
 			}
 		}
 	},
@@ -2175,16 +3384,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Newsprout Nursery",
+				{}
 			}
 		}
 	},
@@ -2210,16 +3416,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Sweetscent Orchard",
+				{}
 			}
 		}
 	},
@@ -2245,16 +3448,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Sweetscent Orchard",
+				{}
 			}
 		}
 	},
@@ -2280,16 +3480,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Sweetscent Orchard",
+				{}
 			}
 		}
 	},
@@ -2315,16 +3512,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Sweetscent Orchard",
+				{}
 			}
 		}
 	},
@@ -2350,16 +3544,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Sweetscent Orchard",
+				{}
 			}
 		}
 	},
@@ -2385,16 +3576,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Sweetscent Orchard",
+				{}
 			}
 		}
 	},
@@ -2420,16 +3608,77 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Sweetscent Orchard",
+				{}
+			}
+		}
+	},
+	[2521] = {
+		pt_num = 18,
+		name = "Freshwater Fish Meat",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "Processed freshwater fish meat. A versatile ingredient that's foundational to home cooking.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 180,
+		icon = "IslandProps/item_2521",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 2521,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Process Fish Meat",
+				{}
+			}
+		}
+	},
+	[2522] = {
+		pt_num = 48,
+		name = "Saltwater Fish Meat",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "Processed saltwater fish meat. It faintly gives off the smell of the sea.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 400,
+		icon = "IslandProps/item_2522",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 2522,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Process Fish Meat",
+				{}
 			}
 		}
 	},
@@ -2460,11 +3709,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Laidback Ranch",
+				{}
 			}
 		}
 	},
@@ -2495,11 +3741,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Laidback Ranch",
+				{}
 			}
 		}
 	},
@@ -2530,11 +3773,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Laidback Ranch",
+				{}
 			}
 		}
 	},
@@ -2565,11 +3805,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Laidback Ranch",
+				{}
 			}
 		}
 	},
@@ -2600,11 +3837,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Laidback Ranch",
+				{}
 			}
 		}
 	},
@@ -2635,11 +3869,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Laidback Ranch",
+				{}
 			}
 		}
 	},
@@ -2665,16 +3896,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Map Collection",
+				{}
 			}
 		}
 	},
@@ -2705,11 +3933,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Rockheap Mine",
+				{}
 			}
 		}
 	},
@@ -2740,11 +3965,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Rockheap Mine",
+				{}
 			}
 		}
 	},
@@ -2775,11 +3997,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Rockheap Mine",
+				{}
 			}
 		}
 	},
@@ -2810,11 +4029,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Rockheap Mine",
+				{}
 			}
 		}
 	},
@@ -2845,11 +4061,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Rockheap Mine",
+				{}
 			}
 		}
 	},
@@ -2880,11 +4093,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Rockheap Mine",
+				{}
 			}
 		}
 	},
@@ -2915,11 +4125,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Verdant Woods",
+				{}
 			}
 		}
 	},
@@ -2950,11 +4157,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Verdant Woods",
+				{}
 			}
 		}
 	},
@@ -2985,11 +4189,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Verdant Woods",
+				{}
 			}
 		}
 	},
@@ -3020,16 +4221,13 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Verdant Woods",
+				{}
 			}
 		}
 	},
 	[3000] = {
-		pt_num = 1,
+		pt_num = 3,
 		name = "Clucky Clucky Bird Feed",
 		group_max = 0,
 		type = 1,
@@ -3050,21 +4248,30 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10112,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
+				"Make in Mill",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10019
+					}
 				}
 			}
 		}
 	},
 	[3001] = {
-		pt_num = 1,
+		pt_num = 3,
 		name = "Oinky Oinky Pig Feed",
 		group_max = 0,
 		type = 1,
@@ -3085,15 +4292,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10112,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
+				"Make in Mill",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10019
+					}
 				}
 			}
 		}
@@ -3120,15 +4336,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10112,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
+				"Make in Mill",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10019
+					}
 				}
 			}
 		}
@@ -3155,21 +4380,30 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10112,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
+				"Make in Mill",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10019
+					}
 				}
 			}
 		}
 	},
 	[3004] = {
-		pt_num = 1,
+		pt_num = 6,
 		name = "Flour",
 		group_max = 0,
 		type = 1,
@@ -3190,21 +4424,18 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10112,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Mill",
+				{}
 			}
 		}
 	},
 	[3005] = {
-		pt_num = 1,
+		pt_num = 15,
 		name = "Iced Coffee",
 		group_max = 0,
 		type = 1,
@@ -3233,11 +4464,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Café Manjuu",
+				{}
 			}
 		}
 	},
@@ -3271,11 +4499,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Café Manjuu",
+				{}
 			}
 		}
 	},
@@ -3309,16 +4534,13 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Café Manjuu",
+				{}
 			}
 		}
 	},
 	[3008] = {
-		pt_num = 20,
+		pt_num = 25,
 		name = "Citrus Coffee",
 		group_max = 0,
 		type = 1,
@@ -3347,11 +4569,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Café Manjuu",
+				{}
 			}
 		}
 	},
@@ -3377,7 +4596,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10126
+			10129
 		},
 		sub_attribute = {
 			3,
@@ -3385,16 +4604,13 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Café Manjuu",
+				{}
 			}
 		}
 	},
 	[3010] = {
-		pt_num = 25,
+		pt_num = 60,
 		name = "Strawberry Milkshake",
 		group_max = 0,
 		type = 1,
@@ -3423,11 +4639,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Café Manjuu",
+				{}
 			}
 		}
 	},
@@ -3453,7 +4666,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			5,
@@ -3461,11 +4674,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Golden Koi Restaurant",
+				{}
 			}
 		}
 	},
@@ -3491,7 +4701,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			3,
@@ -3499,11 +4709,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Golden Koi Restaurant",
+				{}
 			}
 		}
 	},
@@ -3529,7 +4736,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			4,
@@ -3537,16 +4744,13 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Golden Koi Restaurant",
+				{}
 			}
 		}
 	},
 	[3014] = {
-		pt_num = 40,
+		pt_num = 65,
 		name = "Cabbage and Tofu Soup",
 		group_max = 0,
 		type = 1,
@@ -3567,7 +4771,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			5,
@@ -3575,11 +4779,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Golden Koi Restaurant",
+				{}
 			}
 		}
 	},
@@ -3605,7 +4806,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			3,
@@ -3613,11 +4814,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Golden Koi Restaurant",
+				{}
 			}
 		}
 	},
@@ -3643,7 +4841,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			5,
@@ -3651,16 +4849,13 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Polar Bear Teahouse",
+				{}
 			}
 		}
 	},
 	[3018] = {
-		pt_num = 20,
+		pt_num = 25,
 		name = "Banana and Mango Juice",
 		group_max = 0,
 		type = 1,
@@ -3681,7 +4876,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			3,
@@ -3689,11 +4884,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Polar Bear Teahouse",
+				{}
 			}
 		}
 	},
@@ -3719,7 +4911,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			4,
@@ -3727,16 +4919,13 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Polar Bear Teahouse",
+				{}
 			}
 		}
 	},
 	[3020] = {
-		pt_num = 25,
+		pt_num = 50,
 		name = "Strawberry Lemon Drink",
 		group_max = 0,
 		type = 1,
@@ -3757,7 +4946,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			4,
@@ -3765,11 +4954,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Polar Bear Teahouse",
+				{}
 			}
 		}
 	},
@@ -3795,7 +4981,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			3,
@@ -3803,11 +4989,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Polar Bear Teahouse",
+				{}
 			}
 		}
 	},
@@ -3833,7 +5016,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			4,
@@ -3841,16 +5024,13 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Polar Bear Teahouse",
+				{}
 			}
 		}
 	},
 	[3023] = {
-		pt_num = 4,
+		pt_num = 7,
 		name = "Corn Cup",
 		group_max = 0,
 		type = 1,
@@ -3871,7 +5051,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10129
 		},
 		sub_attribute = {
 			5,
@@ -3879,11 +5059,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Manjuu Eatery",
+				{}
 			}
 		}
 	},
@@ -3909,7 +5086,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10126
+			10129
 		},
 		sub_attribute = {
 			3,
@@ -3917,11 +5094,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Manjuu Eatery",
+				{}
 			}
 		}
 	},
@@ -3947,7 +5121,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10126
+			10129
 		},
 		sub_attribute = {
 			4,
@@ -3955,11 +5129,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Manjuu Eatery",
+				{}
 			}
 		}
 	},
@@ -3985,7 +5156,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10126
+			10129
 		},
 		sub_attribute = {
 			5,
@@ -3993,11 +5164,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Manjuu Eatery",
+				{}
 			}
 		}
 	},
@@ -4023,7 +5191,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10126
+			10129
 		},
 		sub_attribute = {
 			4,
@@ -4031,11 +5199,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Manjuu Eatery",
+				{}
 			}
 		}
 	},
@@ -4061,7 +5226,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			4,
@@ -4069,11 +5234,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Fin-'n'-Feather Grill",
+				{}
 			}
 		}
 	},
@@ -4099,7 +5261,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			5,
@@ -4107,11 +5269,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Fin-'n'-Feather Grill",
+				{}
 			}
 		}
 	},
@@ -4137,7 +5296,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			4,
@@ -4145,11 +5304,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Fin-'n'-Feather Grill",
+				{}
 			}
 		}
 	},
@@ -4175,7 +5331,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			5,
@@ -4183,11 +5339,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Fin-'n'-Feather Grill",
+				{}
 			}
 		}
 	},
@@ -4213,7 +5366,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			4,
@@ -4221,11 +5374,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Fin-'n'-Feather Grill",
+				{}
 			}
 		}
 	},
@@ -4251,16 +5401,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Arts & Crafts Production",
+				{}
 			}
 		}
 	},
@@ -4286,16 +5433,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Arts & Crafts Production",
+				{}
 			}
 		}
 	},
@@ -4321,16 +5465,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Arts & Crafts Production",
+				{}
 			}
 		}
 	},
@@ -4356,16 +5497,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Arts & Crafts Production",
+				{}
 			}
 		}
 	},
@@ -4391,16 +5529,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Arts & Crafts Production",
+				{}
 			}
 		}
 	},
@@ -4426,16 +5561,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Arts & Crafts Production",
+				{}
 			}
 		}
 	},
@@ -4461,16 +5593,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Arts & Crafts Production",
+				{}
 			}
 		}
 	},
@@ -4496,16 +5625,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Machinery Production",
+				{}
 			}
 		}
 	},
@@ -4531,16 +5657,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Machinery Production",
+				{}
 			}
 		}
 	},
@@ -4566,16 +5689,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Machinery Production",
+				{}
 			}
 		}
 	},
@@ -4601,16 +5721,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Machinery Production",
+				{}
 			}
 		}
 	},
@@ -4636,16 +5753,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Machinery Production",
+				{}
 			}
 		}
 	},
@@ -4671,21 +5785,18 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Machinery Production",
+				{}
 			}
 		}
 	},
 	[3048] = {
-		pt_num = 1,
+		pt_num = 6,
 		name = "Paper",
 		group_max = 0,
 		type = 1,
@@ -4706,16 +5817,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Lumber Processing",
+				{}
 			}
 		}
 	},
@@ -4741,16 +5849,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Lumber Processing",
+				{}
 			}
 		}
 	},
@@ -4776,16 +5881,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Lumber Processing",
+				{}
 			}
 		}
 	},
@@ -4811,16 +5913,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Lumber Processing",
+				{}
 			}
 		}
 	},
@@ -4846,16 +5945,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Lumber Processing",
+				{}
 			}
 		}
 	},
@@ -4881,16 +5977,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Electronic Production",
+				{}
 			}
 		}
 	},
@@ -4916,16 +6009,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Electronic Production",
+				{}
 			}
 		}
 	},
@@ -4951,16 +6041,13 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Electronic Production",
+				{}
 			}
 		}
 	},
@@ -4986,21 +6073,18 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Electronic Production",
+				{}
 			}
 		}
 	},
 	[3059] = {
-		pt_num = 1,
+		pt_num = 2,
 		name = "Omelette",
 		group_max = 0,
 		type = 1,
@@ -5029,16 +6113,13 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Café Manjuu",
+				{}
 			}
 		}
 	},
 	[3101] = {
-		pt_num = 200,
+		pt_num = 230,
 		name = "Classic Tofu Combo",
 		group_max = 0,
 		type = 1,
@@ -5059,7 +6140,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			5,
@@ -5067,11 +6148,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Golden Koi Restaurant",
+				{}
 			}
 		}
 	},
@@ -5097,7 +6175,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			5,
@@ -5105,16 +6183,13 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Golden Koi Restaurant",
+				{}
 			}
 		}
 	},
 	[3103] = {
-		pt_num = 200,
+		pt_num = 250,
 		name = "Floral and Fruity",
 		group_max = 0,
 		type = 1,
@@ -5135,7 +6210,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			3,
@@ -5143,11 +6218,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Polar Bear Teahouse",
+				{}
 			}
 		}
 	},
@@ -5173,7 +6245,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			5,
@@ -5181,16 +6253,13 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Polar Bear Teahouse",
+				{}
 			}
 		}
 	},
 	[3105] = {
-		pt_num = 60,
+		pt_num = 70,
 		name = "Sunny Honey",
 		group_max = 0,
 		type = 1,
@@ -5211,7 +6280,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			5,
@@ -5219,16 +6288,13 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Polar Bear Teahouse",
+				{}
 			}
 		}
 	},
 	[3106] = {
-		pt_num = 65,
+		pt_num = 70,
 		name = "Succulently Sweet",
 		group_max = 0,
 		type = 1,
@@ -5249,7 +6315,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10129
 		},
 		sub_attribute = {
 			3,
@@ -5257,11 +6323,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Manjuu Eatery",
+				{}
 			}
 		}
 	},
@@ -5287,7 +6350,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10129
 		},
 		sub_attribute = {
 			5,
@@ -5295,11 +6358,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Manjuu Eatery",
+				{}
 			}
 		}
 	},
@@ -5325,7 +6385,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10129
 		},
 		sub_attribute = {
 			5,
@@ -5333,11 +6393,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Manjuu Eatery",
+				{}
 			}
 		}
 	},
@@ -5363,7 +6420,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			3,
@@ -5371,11 +6428,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Fin-'n'-Feather Grill",
+				{}
 			}
 		}
 	},
@@ -5401,7 +6455,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			5,
@@ -5409,11 +6463,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Fin-'n'-Feather Grill",
+				{}
 			}
 		}
 	},
@@ -5439,7 +6490,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10126
 		},
 		sub_attribute = {
 			5,
@@ -5447,11 +6498,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Café Manjuu",
+				{}
 			}
 		}
 	},
@@ -5477,7 +6525,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10126
 		},
 		sub_attribute = {
 			3,
@@ -5485,16 +6533,13 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Café Manjuu",
+				{}
 			}
 		}
 	},
 	[3113] = {
-		pt_num = 65,
+		pt_num = 90,
 		name = "Fruity & Fruitier",
 		group_max = 0,
 		type = 1,
@@ -5515,7 +6560,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10126
 		},
 		sub_attribute = {
 			3,
@@ -5523,11 +6568,250 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"Buy in Shop",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"Café Manjuu",
+				{}
+			}
+		}
+	},
+	[3114] = {
+		pt_num = 30,
+		name = "Fish & Chips",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 280,
+		desc = "Fried fish that's crunchy on the outside and soft on the inside, paired with appetizing fries. A combination loved by everyone.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 300,
+		icon = "IslandProps/item_3114",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 3114,
+		have_max = 0,
+		filter = {
+			10113,
+			10127
+		},
+		sub_attribute = {
+			6,
+			35
+		},
+		jump_page = {
+			{
+				"Golden Koi Restaurant",
+				{}
+			}
+		}
+	},
+	[3115] = {
+		pt_num = 60,
+		name = "Lemon Shrimp",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 220,
+		desc = "A combination of the sweet tenderness of shrimp meat and the refreshing zing of lemon. It stirs the appetite.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 500,
+		icon = "IslandProps/item_3115",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 3115,
+		have_max = 0,
+		filter = {
+			10113,
+			10130
+		},
+		sub_attribute = {
+			5,
+			35
+		},
+		jump_page = {
+			{
+				"Fin-'n'-Feather Grill",
+				{}
+			}
+		}
+	},
+	[3116] = {
+		pt_num = 57,
+		name = "Steamed Fish with Onions",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 180,
+		desc = "Steamed fish paired with finely chopped sweet onions. It brings out the fish's inherent flavor to the greatest extent.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 420,
+		icon = "IslandProps/item_3116",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 3116,
+		have_max = 0,
+		filter = {
+			10113,
+			10127
+		},
+		sub_attribute = {
+			3,
+			35
+		},
+		jump_page = {
+			{
+				"Golden Koi Restaurant",
+				{}
+			}
+		}
+	},
+	[3117] = {
+		pt_num = 82,
+		name = "Ornamental Painting",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A delicate painting to decorate your wall with. It adds a bit of artistic flair to any room.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 820,
+		icon = "IslandProps/item_3117",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 3117,
+		have_max = 0,
+		filter = {
+			10113,
+			10131
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Lumber Processing",
+				{}
+			}
+		}
+	},
+	[3118] = {
+		pt_num = 187,
+		name = "Paella",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 200,
+		desc = "A dish made with the ocean's bounties. The flavors of the sea are mixed in with every grain of ice.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 900,
+		icon = "IslandProps/item_3118",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 3118,
+		have_max = 0,
+		filter = {
+			10113,
+			10129
+		},
+		sub_attribute = {
+			2,
+			35
+		},
+		jump_page = {
+			{
+				"Manjuu Eatery",
+				{}
+			}
+		}
+	},
+	[3119] = {
+		pt_num = 152,
+		name = "Crayfish Stir-Fry",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 240,
+		desc = "A crayfish that has been quickly fried on high heat. Its brilliant red color makes your mouth water, and it pairs well with rice.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 720,
+		icon = "IslandProps/item_3119",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 3119,
+		have_max = 0,
+		filter = {
+			10113,
+			10130
+		},
+		sub_attribute = {
+			5,
+			35
+		},
+		jump_page = {
+			{
+				"Fin-'n'-Feather Grill",
+				{}
+			}
+		}
+	},
+	[3120] = {
+		pt_num = 381,
+		name = "Buddha's Temptation",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 150,
+		desc = "A delicacy that's been carefully boiled for several hours. It's often served as the pièce de résistance at banquets.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 2000,
+		icon = "IslandProps/item_3120",
+		price = 1,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 3120,
+		have_max = 0,
+		filter = {
+			10113,
+			10127
+		},
+		sub_attribute = {
+			5,
+			60
+		},
+		jump_page = {
+			{
+				"Golden Koi Restaurant",
+				{}
 			}
 		}
 	},
@@ -5557,7 +6841,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Gather on Map",
+				"Map Collection",
 				{}
 			}
 		}
@@ -5588,7 +6872,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Gather on Map",
+				"Map Collection",
 				{}
 			}
 		}
@@ -5619,7 +6903,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Gather on Map",
+				"Map Collection",
 				{}
 			}
 		}
@@ -5650,7 +6934,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Gather on Map",
+				"Map Collection",
 				{}
 			}
 		}
@@ -5677,7 +6961,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -5715,8 +6999,17 @@ pg.base.island_item_data_template = {
 			{
 				"Buy in Shop",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
 			}
 		}
@@ -5743,7 +7036,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -5781,8 +7074,17 @@ pg.base.island_item_data_template = {
 			{
 				"Buy in Shop",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
 			}
 		}
@@ -5809,7 +7111,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10129
+			10127
 		},
 		sub_attribute = {
 			4,
@@ -5844,7 +7146,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10129
+			10127
 		},
 		sub_attribute = {
 			5,
@@ -5997,6 +7299,1027 @@ pg.base.island_item_data_template = {
 			}
 		}
 	},
+	[4015] = {
+		pt_num = 75,
+		name = "Spring Bamboo Shoots",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "Fresh bamboo shoots harvested from spring soil. They're chewy and known for being a famous seasonal ingredient.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 600,
+		icon = "IslandProps/item_4015",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4015,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Map Collection",
+				{}
+			}
+		}
+	},
+	[4016] = {
+		pt_num = 2,
+		name = "Shepherd's Purse",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A refreshing spring flower. It possesses a distinctive aroma and often sees use as a garnish in some dishes.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 225,
+		icon = "IslandProps/item_4016",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4016,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Map Collection",
+				{}
+			}
+		}
+	},
+	[4017] = {
+		pt_num = 18,
+		name = "Winter Jasmine",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A vibrant-yellow flower that blooms during the early spring. In addition to appreciating it for its looks, you can also dry and make a tea out of it.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 180,
+		icon = "IslandProps/item_4017",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4017,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Map Collection",
+				{}
+			}
+		}
+	},
+	[4018] = {
+		pt_num = 54,
+		name = "Hyacinth",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "An aromatic, ornamental early spring flower. Often planted in flower beds and gardens.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 540,
+		icon = "IslandProps/item_4018",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4018,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Map Collection",
+				{}
+			}
+		}
+	},
+	[4019] = {
+		pt_num = 5,
+		name = "Asparagus",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A delectable vegetable harvested in the spring. It has a crisp texture and can simply be cooked or used as a side dish.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 50,
+		icon = "IslandProps/item_4019",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4019,
+		have_max = 0,
+		filter = {
+			10111,
+			10132
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Newsprout Nursery",
+				{}
+			}
+		}
+	},
+	[4020] = {
+		pt_num = 1,
+		name = "Asparagus Seeds",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "Plant them in soil and you'll soon have a field of asparagus sprouts.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_4020",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4020,
+		have_max = 0,
+		filter = {
+			10114
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Buy in Shop",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
+				}
+			}
+		}
+	},
+	[4021] = {
+		pt_num = 11,
+		name = "Pineapple",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A tropical fruit filled with sweet and acidic juice. It can be eaten as it is or further processed.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 70,
+		icon = "IslandProps/item_4021",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4021,
+		have_max = 0,
+		filter = {
+			10111,
+			10132
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Newsprout Nursery",
+				{}
+			}
+		}
+	},
+	[4022] = {
+		pt_num = 1,
+		name = "Pineapple Seeds",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "Seeds teeming with the blessings of the tropical sun. Once grown, they'll turn into delicious pineapples.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_4022",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4022,
+		have_max = 0,
+		filter = {
+			10114
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Buy in Shop",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
+				}
+			}
+		}
+	},
+	[4023] = {
+		pt_num = 18,
+		name = "Fresh Pineapple Juice",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 250,
+		desc = "Juice squeezed out of freshly harvested pineapples. It has a refreshing, tropical flavor.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 200,
+		icon = "IslandProps/item_4023",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4023,
+		have_max = 0,
+		filter = {
+			10113,
+			10128
+		},
+		sub_attribute = {
+			1,
+			35
+		},
+		jump_page = {
+			{
+				"Polar Bear Teahouse",
+				{}
+			}
+		}
+	},
+	[4024] = {
+		pt_num = 112,
+		name = "Winter Jasmine Tea",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 250,
+		desc = "Herbal tea made from the dried buds of winter jasmine. Its faint aroma has a soothing effect on the mind.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 800,
+		icon = "IslandProps/item_4024",
+		price = 1,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4024,
+		have_max = 0,
+		filter = {
+			10113,
+			10128
+		},
+		sub_attribute = {
+			6,
+			35
+		},
+		jump_page = {
+			{
+				"Polar Bear Teahouse",
+				{}
+			}
+		}
+	},
+	[4025] = {
+		pt_num = 72,
+		name = "Cold Mixed Bamboo Shoots and Asparagus",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 250,
+		desc = "A fresh spring dish made with asparagus and bamboo shoots. It's pleasantly chewy, and the flavors come together perfectly.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 800,
+		icon = "IslandProps/item_4025",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4025,
+		have_max = 0,
+		filter = {
+			10113,
+			10127
+		},
+		sub_attribute = {
+			2,
+			35
+		},
+		jump_page = {
+			{
+				"Golden Koi Restaurant",
+				{}
+			}
+		}
+	},
+	[4026] = {
+		pt_num = 180,
+		name = "Shrimp and Asparagus Stir-Fry",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 250,
+		desc = "A dish consisting of asparagus and fresh shrimp, quickly stirred together. The umami flavor of the shrimp and the crispiness of the asparagus make it a common sight at the family dinner table.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 600,
+		icon = "IslandProps/item_4026",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4026,
+		have_max = 0,
+		filter = {
+			10113,
+			10127
+		},
+		sub_attribute = {
+			2,
+			35
+		},
+		jump_page = {
+			{
+				"Golden Koi Restaurant",
+				{}
+			}
+		}
+	},
+	[4027] = {
+		pt_num = 72,
+		name = "Dried Shepherd's Purse",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "Shepherd's purse flowers that have been dried in the sun. They store well and can be used in soups or soaked and added to stuffings.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 720,
+		icon = "IslandProps/item_4027",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4027,
+		have_max = 0,
+		filter = {
+			10113,
+			10131
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Arts & Crafts Production",
+				{}
+			}
+		}
+	},
+	[4028] = {
+		pt_num = 108,
+		name = "Spring Bouquet",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A bouquet of winter jasmine and hyacinth flowers. Their bright colors add a spring mood to the room.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 1080,
+		icon = "IslandProps/item_4028",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4028,
+		have_max = 0,
+		filter = {
+			10113,
+			10131
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Arts & Crafts Production",
+				{}
+			}
+		}
+	},
+	[5001] = {
+		pt_num = 1,
+		name = "Shellfish",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "Shellfish shells are often used as a material in ornaments and handicrafts.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 42,
+		icon = "IslandProps/item_5001",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5001,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Manjuu Fish Hatchery",
+				{}
+			}
+		}
+	},
+	[5002] = {
+		pt_num = 2,
+		name = "Catfish",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A plump catfish. It's suited for dishes with heavy seasoning.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 250,
+		icon = "IslandProps/item_5002",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5002,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Manjuu Fish Hatchery",
+				{}
+			}
+		}
+	},
+	[5003] = {
+		pt_num = 16,
+		name = "Koi Carp",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A representative of the taste of freshwater seafood. It's featured as the chef's special in some restaurants.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 165,
+		icon = "IslandProps/item_5003",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5003,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Manjuu Fish Hatchery",
+				{}
+			}
+		}
+	},
+	[5004] = {
+		pt_num = 11,
+		name = "Common Carp",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A type of edible fish. Its flesh is smooth and highly nutritious.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 110,
+		icon = "IslandProps/item_5004",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5004,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Manjuu Fish Hatchery",
+				{}
+			}
+		}
+	},
+	[5005] = {
+		pt_num = 12,
+		name = "Freshwater Shrimp",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "An example of quality seafood that is high in protein, low in fat, and low in calories.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 100,
+		icon = "IslandProps/item_5005",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5005,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Manjuu Fish Hatchery",
+				{}
+			}
+		}
+	},
+	[5006] = {
+		pt_num = 13,
+		name = "Crayfish",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A crayfish commonly found in rivers and similar bodies of water. It has a very rustic texture.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 115,
+		icon = "IslandProps/item_5006",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5006,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Manjuu Fish Hatchery",
+				{}
+			}
+		}
+	},
+	[5007] = {
+		pt_num = 16,
+		name = "Sea Bass",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A fresh sea bass. Its white and tender flesh is perfect for steamed and sauted dishes.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 136,
+		icon = "IslandProps/item_5007",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5007,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Manjuu Fish Hatchery",
+				{}
+			}
+		}
+	},
+	[5008] = {
+		pt_num = 58,
+		name = "Crab",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A fresh and tasty crab. Its somewhat sweet flesh is full of nutrients and flavor.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 390,
+		icon = "IslandProps/item_5008",
+		price = 1,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5008,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Manjuu Fish Hatchery",
+				{}
+			}
+		}
+	},
+	[5101] = {
+		pt_num = 1,
+		name = "Squid",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A chewy squid. Tastes good both grilled and roasted.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 116,
+		icon = "IslandProps/item_5101",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5101,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Manjuu Fish Hatchery",
+				{}
+			}
+		}
+	},
+	[5102] = {
+		pt_num = 27,
+		name = "Mackerel",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A speedy fish with an aerodynamic body. Its flesh is firm and perfect for pan-frying with aromatics.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 270,
+		icon = "IslandProps/item_5102",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5102,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Manjuu Fish Hatchery",
+				{}
+			}
+		}
+	},
+	[5103] = {
+		pt_num = 104,
+		name = "Tuna",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "Tuna that's high in protein, low in fat. It's one of the top targets of fishermen.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 870,
+		icon = "IslandProps/item_5103",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5103,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Manjuu Fish Hatchery",
+				{}
+			}
+		}
+	},
+	[5104] = {
+		pt_num = 45,
+		name = "Salmon",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A popular fish used in seafood. Its flesh with its beautiful patterns and abundant umami flavor are its standout features.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 380,
+		icon = "IslandProps/item_5104",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5104,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Manjuu Fish Hatchery",
+				{}
+			}
+		}
+	},
+	[5105] = {
+		pt_num = 1,
+		name = "Red Sea Bream",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "An omnivorous fish. They like to swim in groups and move quickly. They're also widely adored for being high in nutrients.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 172,
+		icon = "IslandProps/item_5105",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5105,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Manjuu Fish Hatchery",
+				{}
+			}
+		}
+	},
+	[5106] = {
+		pt_num = 24,
+		name = "Black Porgy",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "It's a quick and crafty little creature. It takes considerable skill to catch.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 245,
+		icon = "IslandProps/item_5106",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5106,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Manjuu Fish Hatchery",
+				{}
+			}
+		}
+	},
+	[5107] = {
+		pt_num = 198,
+		name = "Yellowfin Tuna",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "Fine-quality yellowfin tuna. It's low in fat and often ends up inside cans.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 1320,
+		icon = "IslandProps/item_5107",
+		price = 1,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5107,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Manjuu Fish Hatchery",
+				{}
+			}
+		}
+	},
+	[5108] = {
+		pt_num = 162,
+		name = "Sea Cucumber",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "A nourishing sea cucumber. It requires a bit of patience and luck to get your hands on.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 1080,
+		icon = "IslandProps/item_5108",
+		price = 1,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 5108,
+		have_max = 0,
+		filter = {
+			10111,
+			10125
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Manjuu Fish Hatchery",
+				{}
+			}
+		}
+	},
+	[9900] = {
+		pt_num = 0,
+		name = "Pearl",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "Natural jewelry with a warm color. It has a flourishing market of sellers and buyers.",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "IslandProps/item_9900",
+		price = 400,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 9900,
+		have_max = 0,
+		filter = {
+			10312
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Buy from Peary",
+				{}
+			}
+		}
+	},
 	[100001] = {
 		pt_num = 0,
 		name = "Island EXP Textbook T1",
@@ -6023,7 +8346,15 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Polar Bear Teahouse",
+				"Milestone Rewards",
+				{}
+			},
+			{
+				"Shop",
+				{}
+			},
+			{
+				"Planning",
 				{}
 			}
 		}
@@ -6053,6 +8384,10 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {
+			{
+				"Milestone Rewards",
+				{}
+			},
 			{
 				"Shop",
 				{}
@@ -6089,6 +8424,10 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
+				"Milestone Rewards",
+				{}
+			},
+			{
 				"Shop",
 				{}
 			},
@@ -6123,6 +8462,10 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {
+			{
+				"Milestone Rewards",
+				{}
+			},
 			{
 				"Shop",
 				{}
@@ -6159,11 +8502,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Milestone Points",
-				{}
-			},
-			{
-				"Development Plan",
+				"Milestone Rewards",
 				{}
 			}
 		}
@@ -6192,12 +8531,7 @@ pg.base.island_item_data_template = {
 			10211
 		},
 		sub_attribute = {},
-		jump_page = {
-			{
-				"Milestone Points",
-				{}
-			}
-		}
+		jump_page = {}
 	},
 	[100021] = {
 		pt_num = 0,
@@ -6225,11 +8559,15 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Milestone Points",
+				"Milestone Rewards",
 				{}
 			},
 			{
-				"Development Plan",
+				"Shop",
+				{}
+			},
+			{
+				"Planning",
 				{}
 			}
 		}
@@ -6260,7 +8598,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Milestone Points",
+				"Milestone Rewards",
 				{}
 			}
 		}
@@ -6317,11 +8655,15 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Milestone Points",
+				"Milestone Rewards",
 				{}
 			},
 			{
-				"Development Plan",
+				"Shop",
+				{}
+			},
+			{
+				"Planning",
 				{}
 			}
 		}
@@ -6352,7 +8694,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Milestone Points",
+				"Milestone Rewards",
 				{}
 			}
 		}
@@ -6409,11 +8751,15 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Milestone Points",
+				"Milestone Rewards",
 				{}
 			},
 			{
-				"Development Plan",
+				"Shop",
+				{}
+			},
+			{
+				"Planning",
 				{}
 			}
 		}
@@ -6444,7 +8790,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Milestone Points",
+				"Milestone Rewards",
 				{}
 			}
 		}
@@ -6501,11 +8847,15 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Milestone Points",
+				"Milestone Rewards",
 				{}
 			},
 			{
-				"Development Plan",
+				"Shop",
+				{}
+			},
+			{
+				"Planning",
 				{}
 			}
 		}
@@ -6536,7 +8886,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Milestone Points",
+				"Milestone Rewards",
 				{}
 			}
 		}
@@ -6593,11 +8943,15 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Milestone Points",
+				"Milestone Rewards",
 				{}
 			},
 			{
-				"Development Plan",
+				"Shop",
+				{}
+			},
+			{
+				"Planning",
 				{}
 			}
 		}
@@ -6628,7 +8982,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"Milestone Points",
+				"Milestone Rewards",
 				{}
 			}
 		}
@@ -6685,7 +9039,15 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
+				"Milestone Rewards",
+				{}
+			},
+			{
 				"Shop",
+				{}
+			},
+			{
+				"Planning",
 				{}
 			}
 		}
@@ -6716,7 +9078,15 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
+				"Milestone Rewards",
+				{}
+			},
+			{
 				"Shop",
+				{}
+			},
+			{
+				"Planning",
 				{}
 			}
 		}
@@ -6747,7 +9117,15 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
+				"Milestone Rewards",
+				{}
+			},
+			{
 				"Shop",
+				{}
+			},
+			{
+				"Planning",
 				{}
 			}
 		}
@@ -6877,7 +9255,7 @@ pg.base.island_item_data_template = {
 		tech_id = 0,
 		convert = 0,
 		manage_influence = 0,
-		desc = "Recovers 50 stamina. Character also gains a buff: when assigned to farming, gathering or husbandry, the time needed for production is reduced by 5% for 8 hours. Its sweet strawberry fragrance fills you with joy and energy.",
+		desc = "Recovers 50 stamina and grants a buff: for 8 hours, when producing basic resources, increases working speed by 5%. Its sweet strawberry fragrance fills you with joy and energy.",
 		usage = "usage_island_gift",
 		order_price = 0,
 		icon = "IslandProps/item_110003",
@@ -6919,7 +9297,7 @@ pg.base.island_item_data_template = {
 		tech_id = 0,
 		convert = 0,
 		manage_influence = 0,
-		desc = "Recovers 50 stamina. Character also gains a buff: when assigned to Base Factory, the time needed for manufacturing is reduced by 5% for 8 hours. While the kumquat is a bit sour, its aftertaste is sweet and uplifting.",
+		desc = "Recovers 50 stamina and grants a buff: for 8 hours, when manufacturing items at the Base Factory, increases working speed by 5%. While the kumquat is a bit sour, its aftertaste is sweet and uplifting.",
 		usage = "usage_island_gift",
 		order_price = 0,
 		icon = "IslandProps/item_110004",
@@ -6961,7 +9339,7 @@ pg.base.island_item_data_template = {
 		tech_id = 0,
 		convert = 0,
 		manage_influence = 0,
-		desc = "Recovers 50 stamina. Character also gains a buff: when assigned to cook in a food store, the time needed for cooking is reduced by 5% for 8 hours. Sweet and sour, it's brimming with the joyful and fruity flavor of berries.",
+		desc = "Recovers 50 stamina and grants a buff: for 8 hours, when cooking food, working speed increases by 5%. Sweet and sour, it's brimming with the joyful and fruity flavor of berries.",
 		usage = "usage_island_gift",
 		order_price = 0,
 		icon = "IslandProps/item_110005",
@@ -7021,7 +9399,9 @@ pg.base.island_item_data_template = {
 		usage_arg = {
 			{
 				50,
-				{}
+				{
+					5
+				}
 			},
 			{
 				50,
@@ -7061,7 +9441,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"星彩赏",
+				"Stellar Draw Prize",
 				{}
 			}
 		}
@@ -7118,7 +9498,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"计划",
+				"Island Plan",
 				{}
 			}
 		}
@@ -7175,7 +9555,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"科技",
+				"Island Tech",
 				{}
 			}
 		}
@@ -7206,7 +9586,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"图鉴",
+				"Island Collection",
 				{}
 			}
 		}
@@ -7237,7 +9617,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"科技",
+				"Island Tech",
 				{}
 			}
 		}
@@ -7268,7 +9648,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"成就",
+				"Island Achievement",
 				{}
 			}
 		}
@@ -7299,7 +9679,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"星彩赏",
+				"Stellar Draw Prize",
 				{}
 			}
 		}
@@ -7330,7 +9710,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"科技",
+				"Island Tech",
 				{}
 			}
 		}
@@ -7361,7 +9741,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"科技",
+				"Island Tech",
 				{}
 			}
 		}
@@ -7392,7 +9772,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"星彩赏",
+				"Stellar Draw Prize",
 				{}
 			}
 		}
@@ -7421,7 +9801,12 @@ pg.base.island_item_data_template = {
 			10213
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"Island Tech",
+				{}
+			}
+		}
 	},
 	[200014] = {
 		pt_num = 0,
@@ -7449,7 +9834,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"科技",
+				"Island Tech",
 				{}
 			}
 		}
@@ -7480,7 +9865,162 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"成就",
+				"Island Achievement",
+				{}
+			}
+		}
+	},
+	[200016] = {
+		pt_num = 0,
+		name = "Island Authority Permit: William D. Porter",
+		group_max = 0,
+		type = 2,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "An Island Authority Permit for William D. Porter. Use it to give the character the credentials to visit the island freely.",
+		usage = "usage_undefined",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_200016",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 200016,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Shop",
+				{}
+			}
+		}
+	},
+	[200017] = {
+		pt_num = 0,
+		name = "Island Authority Permit: Chen Hai",
+		group_max = 0,
+		type = 2,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "An Island Authority Permit for Chen Hai. Use it to give the character the credentials to visit the island freely.",
+		usage = "usage_undefined",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_200017",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 200017,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Shop",
+				{}
+			}
+		}
+	},
+	[200018] = {
+		pt_num = 0,
+		name = "Island Authority Permit: Atago",
+		group_max = 0,
+		type = 2,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "An Island Authority Permit for Atago. Use it to give the character the credentials to visit the island freely.",
+		usage = "usage_undefined",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_200018",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 200018,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[200019] = {
+		pt_num = 0,
+		name = "Island Authority Permit: Helena",
+		group_max = 0,
+		type = 2,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "An Island Authority Permit for Helena. Use it to give the character the credentials to visit the island freely.",
+		usage = "usage_undefined",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_200019",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 200019,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	},
+	[200020] = {
+		pt_num = 0,
+		name = "Island Authority Permit: Friedrich der Große",
+		group_max = 0,
+		type = 2,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "An Island Authority Permit for Friedrich der Große. Use it to give the character the credentials to visit the island freely.",
+		usage = "usage_undefined",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_200020",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 200020,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
 				{}
 			}
 		}

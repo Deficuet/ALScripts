@@ -369,19 +369,31 @@ function var_0_0.GetShipExpBooks(arg_32_0)
 	return var_32_0
 end
 
-function var_0_0.OnSeasonReset(arg_33_0)
-	local var_33_0 = 0
+function var_0_0.GetFishingItems(arg_33_0)
+	local var_33_0 = {}
 
-	arg_33_0.overflowItemList = {}
-
-	for iter_33_0, iter_33_1 in pairs(arg_33_0.itemList) do
-		if iter_33_1:CanConvert() then
-			var_33_0 = var_33_0 + iter_33_1:GetConvertPt() * iter_33_1:GetCount()
-			arg_33_0.itemList[iter_33_0] = nil
+	for iter_33_0, iter_33_1 in pairs(arg_33_0:GetItemList()) do
+		if iter_33_1:IsFishingProp() then
+			table.insert(var_33_0, iter_33_1)
 		end
 	end
 
 	return var_33_0
+end
+
+function var_0_0.OnSeasonReset(arg_34_0)
+	local var_34_0 = 0
+
+	arg_34_0.overflowItemList = {}
+
+	for iter_34_0, iter_34_1 in pairs(arg_34_0.itemList) do
+		if iter_34_1:CanConvert() then
+			var_34_0 = var_34_0 + iter_34_1:GetConvertPt() * iter_34_1:GetCount()
+			arg_34_0.itemList[iter_34_0] = nil
+		end
+	end
+
+	return var_34_0
 end
 
 return var_0_0

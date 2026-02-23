@@ -86,6 +86,7 @@ function var_0_7.SetTemplate(arg_12_0, arg_12_1, arg_12_2, arg_12_3)
 	arg_12_0:InitCldComponent()
 
 	arg_12_2.armorType = arg_12_0._tmpData.armor_type
+	arg_12_2.scale = arg_12_0._tmpData.scale
 
 	arg_12_0:setAttrFromOutBattle(arg_12_2, arg_12_3)
 	var_0_3.InitDOTAttr(arg_12_0._attr, arg_12_0._tmpData)
@@ -570,49 +571,55 @@ function var_0_7.GetTemplate(arg_43_0)
 	return arg_43_0._tmpData
 end
 
-function var_0_7.GetRarity(arg_44_0)
-	return arg_44_0._rarity or arg_44_0._tmpData.rarity
+function var_0_7.GetGroupID(arg_44_0)
+	local var_44_0 = arg_44_0:GetTemplateID()
+
+	return var_0_1.GetPlayerShipModelFromID(var_44_0).group_type
 end
 
-function var_0_7.GetIntimacy(arg_45_0)
-	return arg_45_0._intimacy or 0
+function var_0_7.GetRarity(arg_45_0)
+	return arg_45_0._rarity or arg_45_0._tmpData.rarity
 end
 
-function var_0_7.GetAutoPilotPreference(arg_46_0)
-	return arg_46_0._personality
+function var_0_7.GetIntimacy(arg_46_0)
+	return arg_46_0._intimacy or 0
 end
 
-function var_0_7.GetFleetVO(arg_47_0)
-	return arg_47_0._fleet
+function var_0_7.GetAutoPilotPreference(arg_47_0)
+	return arg_47_0._personality
 end
 
-function var_0_7.InitCldComponent(arg_48_0)
-	var_0_7.super.InitCldComponent(arg_48_0)
+function var_0_7.GetFleetVO(arg_48_0)
+	return arg_48_0._fleet
+end
 
-	local var_48_0 = {
+function var_0_7.InitCldComponent(arg_49_0)
+	var_0_7.super.InitCldComponent(arg_49_0)
+
+	local var_49_0 = {
 		type = var_0_4.CldType.SHIP,
-		IFF = arg_48_0:GetIFF(),
-		UID = arg_48_0:GetUniqueID(),
+		IFF = arg_49_0:GetIFF(),
+		UID = arg_49_0:GetUniqueID(),
 		Mass = var_0_4.CldMass.L2
 	}
 
-	arg_48_0._cldComponent:SetCldData(var_48_0)
+	arg_49_0._cldComponent:SetCldData(var_49_0)
 end
 
-function var_0_7.AddPointAirStrike(arg_49_0, arg_49_1, arg_49_2, arg_49_3)
-	local var_49_0 = arg_49_0:AddWeapon(arg_49_1, {}, nil, 1, -1)
+function var_0_7.AddPointAirStrike(arg_50_0, arg_50_1, arg_50_2, arg_50_3)
+	local var_50_0 = arg_50_0:AddWeapon(arg_50_1, {}, nil, 1, -1)
 
-	arg_49_0:GetFleetVO():GetChargeWeaponVO():AppendWeapon(var_49_0)
+	arg_50_0:GetFleetVO():GetChargeWeaponVO():AppendWeapon(var_50_0)
 
-	if arg_49_3 then
-		var_49_0:OverHeat()
-		var_49_0:EnterCoolDown()
+	if arg_50_3 then
+		var_50_0:OverHeat()
+		var_50_0:EnterCoolDown()
 	end
 
-	arg_49_0:GetFleetVO():GetChargeWeaponVO():DispatchCountChange()
-	arg_49_0:DispatchEvent(var_0_0.Event.New(var_0_0.Battle.BattleUnitEvent.CREATE_POINT_AIR_STRIKE, {
-		weapon = var_49_0
+	arg_50_0:GetFleetVO():GetChargeWeaponVO():DispatchCountChange()
+	arg_50_0:DispatchEvent(var_0_0.Event.New(var_0_0.Battle.BattleUnitEvent.CREATE_POINT_AIR_STRIKE, {
+		weapon = var_50_0
 	}))
 
-	return var_49_0
+	return var_50_0
 end

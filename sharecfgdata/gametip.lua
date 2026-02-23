@@ -107,8 +107,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.valentinesday__shop_tip = {
-		tip = "Would you like to go to the Outfit Store?"
+	_G.pg.base.gametip.valentinesday__txt5_tip = {
+		tip = "You should collect some chocolate ingredients first."
 	}
 end)()
 
@@ -308,8 +308,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.buyProp_noResource_error = {
-		tip = "You don't have enough <color=#92fc63>$1</color>."
+	_G.pg.base.gametip.new_airi_error_code_100113 = {
+		tip = "Account binding success; Verification failed"
 	}
 end)()
 
@@ -398,6 +398,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_trade_price_unrefresh = {
+		tip = "Cannot complete purchase; this island's price hasn't yet updated"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.guild_apply_erro = {
 		tip = "Failed to send guild application."
 	}
@@ -422,8 +428,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.meta_switch_skill_box_title = {
-		tip = "Would you like to start learning $1? "
+	_G.pg.base.gametip.tec_target_catchup_none_x = {
+		tip = "PR$1 / Not Selected"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_trade_send_msg_match_label = {
+		tip = "Mystery Trader"
 	}
 end)()
 
@@ -498,21 +510,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.pocky_help = {
-		tip = {
-			{
-				info = "Event Instructions:"
-			},
-			{
-				info = "1. During the event, complete all Punch Card missions, Manjuu Manufactory missions, and Head Maid's Request missions to earn Belfast's limited outfit, \"Shopping with the Head Maid.\""
-			},
-			{
-				info = "2. A batch of new missions will unlock every day. Completing previous missions will allow you to play the next batch of missions."
-			},
-			{
-				info = "3. Complete the task to finish each Head Maid's Request mission, spend Oil to complete Manjuu Manufactory missions, and log in to complete Punch Card missions.\n4. Rewards must be collected by December 15, 2019 23:59"
-			}
-		}
+	_G.pg.base.gametip.chapter_tip_bp_ammo = {
+		tip = "Appropriate battle preparations have granted Ammo +2."
 	}
 end)()
 
@@ -559,6 +558,12 @@ end)()
 (function()
 	_G.pg.base.gametip.dreamland_label_day = {
 		tip = "Day"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveactivity_ui_3 = {
+		tip = "Messages"
 	}
 end)()
 
@@ -611,8 +616,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equipment_select_device_destroy_bonus_tip = {
-		tip = "Items received:"
+	_G.pg.base.gametip.charge_title_getitem = {
+		tip = "May receive the following items: "
 	}
 end)()
 
@@ -691,6 +696,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.battlepass_main_tip_2602 = {
+		tip = "Complete Cruise Missions between 2/1/2026 - 3/31/2026, accumulate <icon name=pt w=0.5 h=0.5/>, and receive <color=#854747>Carabiniere META</color> and other rewards!"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.roll_card_skill = {
 		tip = "Skills"
 	}
@@ -724,6 +735,12 @@ end)()
 (function()
 	_G.pg.base.gametip.tec_target_catchup_pry_char = {
 		tip = "PR Ships"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_addition_influence = {
+		tip = "Customer Appeal"
 	}
 end)()
 
@@ -958,7 +975,7 @@ end)()
 
 (function()
 	_G.pg.base.gametip.island_production_collect = {
-		tip = "Collect Products"
+		tip = "Collect"
 	}
 end)()
 
@@ -1311,8 +1328,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100180 = {
-		tip = "The third party account is not bound with any game account"
+	_G.pg.base.gametip.course_state_lession = {
+		tip = "Elapsed Time:"
 	}
 end)()
 
@@ -1399,8 +1416,12 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.text_nofood_no = {
-		tip = "Ignore"
+	_G.pg.base.gametip.world_reset_tip = {
+		tip = {
+			{
+				info = "-Short Summary: \nAfter you've cleared chapter 4 of the Operation Siren story, the following things will happen at server reset on the <color=#92fc63>1st</color> day of each month:\n1. The state of all secured zones will reset. \n2. Your Action Points will reset and your ships will have any installed Adaptive Tuning removed. \n3. Items used exclusively in Operation Siren will be reset, with some of them being converted into Supply Shop Vouchers. \n\nThe following items are available in the Operation Siren store: \n1. Operation Siren Data Logger. Costs <color=#92fc63>5,000 Oil</color>. \n2. A myriad of helpful items and resources. Purchased using Supply Shop Vouchers.\n\nThe Operation Siren Data Logger can be used from the Items menu. Doing so will grant you a lot of assorted Operation Siren items and resources and also lifts the movement restrictions between zones. \n\n-Reset Prerequisite:\nAfter you have cleared chapter 4 of the Operation Siren story, the entire Operation Siren map will return to its original state on the <color=#92fc63>1st</color> of each month at server reset time. \nOnce the reset occurs, you will be redirected to the main Operation Siren menu.\n Any fleets deployed at this time will be returned to Liverpool.\n\n -Things Affected by the Reset:\n 1: All Zones \nWhen the OPS reset occurs, all zones you've secured will reset. After the reset, you can earn Zone Control Rewards from securing a zone once more.You will keep any stars you've earned for a zone, as these do not reset. Exploration bonuses do not reset either.\n\nAfter the reset, a new item called the Operation Siren Data Logger will be available for purchase in the store. Once you've purchased it, you can use it from the Operation Siren Items menu to instantly unlock all zones and receive all the rewards for securing them. \n\nUsing the Operation Siren Data Logger will award you the following items:\nAdaptive Tuning-Offense <color=#92fc63>(90 pcs)</color> \n\nAdaptive Tuning-Survivability <color=#92fc63>(90 pcs)</color> \n\nAdaptive Tuning-Tactics <color=#92fc63>(90 pcs)</color>\n\nEmergency Repair Pack<color=#92fc63> (45 pcs)</color>\n\nAction Point Refill (S) <color=#92fc63>(45 pcs) </color>\n\nOperation Supply Coins<color=#92fc63> (84,000 pcs)</color>\n\nNote: The Operation Siren Data Logger will NOT award any random drops that are gained through defeating enemies.\n\n2: All Modifiers to Your Operation Siren Fleets \n\nAll your ships active in Operation Siren will have their HP, status modifiers, and Adaptive Tuning reset to the default.\n\nYour Action Points will also reset, starting you off with <color=#92fc63>200 AP.</color>\n\n"
+			}
+		}
 	}
 end)()
 
@@ -1481,8 +1502,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_setting_submititemtip = {
-		tip = "When enabled: During Auto Search mode, items will automatically be used when encountering events that normally require the use of items.\nWhen disabled: During Auto Search mode, events that normally require the use of items will be ignored."
+	_G.pg.base.gametip.common_limit_cmd = {
+		tip = "Commander, now is not the time to give this command~!"
 	}
 end)()
 
@@ -1505,8 +1526,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.secondarypassword_confirm_tips = {
-		tip = "Would you like to set <color=#FFDE38>\"%s\"</color> as your Secondary Password hint? "
+	_G.pg.base.gametip.meta_award_get = {
+		tip = "Collect"
 	}
 end)()
 
@@ -1649,8 +1670,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_upgradeStar_notConfig = {
-		tip = "Unable to find Limit Break config <color=#92fc63>$1</color>."
+	_G.pg.base.gametip.ship_upgrade_unequip_tip = {
+		tip = "This limit break will change <color=$2>$1</color>'s gear selections. Some gear will be unequipped. Are you sure you want to continue?"
 	}
 end)()
 
@@ -1773,6 +1794,12 @@ end)()
 (function()
 	_G.pg.base.gametip.multiple_sorties_stopped = {
 		tip = "Stopped"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.HelenaCoreActivity_title2 = {
+		tip = "Event"
 	}
 end)()
 
@@ -2029,6 +2056,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.skinstory_20251225 = {
+		tip = "Fashion II"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.new_airi_error_code_100213 = {
 		tip = "Unable to unbind the account"
 	}
@@ -2043,6 +2076,12 @@ end)()
 (function()
 	_G.pg.base.gametip.word_main_cannons = {
 		tip = "Main Gun "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ANTTFFCoreActivityPtpage_title2 = {
+		tip = ""
 	}
 end)()
 
@@ -2209,8 +2248,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.channel_name_5 = {
-		tip = "Guild"
+	_G.pg.base.gametip.world_joint_whitout_guild = {
+		tip = "You haven’t joined a Guild yet. "
 	}
 end)()
 
@@ -2487,8 +2526,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.dal_main_sheet5 = {
+		tip = "Reward List"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.task_taskMediator_getItem = {
 		tip = "Items received: <color=#92fc63>$1</color> <color=#92fc63>x$2</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.HelenaPTPage_title = {
+		tip = "Memories in Echo"
 	}
 end)()
 
@@ -2501,6 +2552,12 @@ end)()
 (function()
 	_G.pg.base.gametip.dorm3d_photo_depthoffield = {
 		tip = "Blur"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveactivity_ui_18 = {
+		tip = "This character is currently selected"
 	}
 end)()
 
@@ -2571,6 +2628,12 @@ end)()
 (function()
 	_G.pg.base.gametip.world_boss_title_total_damage = {
 		tip = "Total DMG"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveactivity_ui_1 = {
+		tip = "Sweet Memories"
 	}
 end)()
 
@@ -2684,6 +2747,12 @@ end)()
 (function()
 	_G.pg.base.gametip.ship_remould_warning_105214 = {
 		tip = "Completing the retrofit will upgrade the skill <color=#92fc63>Big Seven</color> into <color=#92fc63>Big Seven - Colorado</color>."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spring_present_tips2 = {
+		tip = "This shipgirl cannot send you a New Year gift. Please change your Secretary shipgirl and try again."
 	}
 end)()
 
@@ -2808,8 +2877,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_backyardGranaryLayer_full = {
-		tip = "<color=red>Restocking failed! Supplies are already full.</color>"
+	_G.pg.base.gametip.ship_remould_warning_520044 = {
+		tip = "Completing the retrofit will change the ship's designation into:\nGuided-Missile Destroyer (Vanguard Mode)\nHer stats and combat performance may change significantly.\nProceed with retrofit?"
 	}
 end)()
 
@@ -2930,8 +2999,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_live2dfiles_checkend_title = {
-		tip = "Character Live2D Pack Verification Completed"
+	_G.pg.base.gametip.word_live2dfiles_download_title = {
+		tip = "Download Character Live2D Pack"
 	}
 end)()
 
@@ -3128,8 +3197,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100232 = {
-		tip = "Unable to restore, no deletion history of the account"
+	_G.pg.base.gametip.new_airi_error_code_200232 = {
+		tip = "Apple Pay is not available on this device"
 	}
 end)()
 
@@ -3186,8 +3255,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.mingshi_task_tip_3 = {
-		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>U</color>>\nThe next target is... <<color=#a0ff40>the Munitions Shop</color>>!"
+	_G.pg.base.gametip.reduce_sp3_pass_count = {
+		tip = "SP3クリア回数"
 	}
 end)()
 
@@ -3430,6 +3499,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.black5_bundle_purchased = {
+		tip = "Purchased"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.island_need_star = {
 		tip = "Must be enhanced to $1 stars."
 	}
@@ -3518,8 +3593,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.level_fleet_not_enough = {
-		tip = "Failed to form this fleet. Unable to attack."
+	_G.pg.base.gametip.inform_sueecss_tip = {
+		tip = "Thank you for helping keep the community of Azur Lane safe for all Commanders!"
 	}
 end)()
 
@@ -3542,8 +3617,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_instruction_redeploy_1 = {
-		tip = "Fleet Redeployment can only be carried out in a port. "
+	_G.pg.base.gametip.guild_shop_label_1 = {
+		tip = "Select an item to exchange for："
 	}
 end)()
 
@@ -3636,6 +3711,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_ship_order_delegate_auto_refresh_time = {
+		tip = "Transport Job List Refreshes in:"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.workbench_tips7 = {
 		tip = "Materials"
 	}
@@ -3656,6 +3737,12 @@ end)()
 (function()
 	_G.pg.base.gametip.cryptolalia_download_task_already_exists = {
 		tip = "Downloading the Secret \"$1\"..."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dal_story_tip_name_en_5 = {
+		tip = "SECTOR-5"
 	}
 end)()
 
@@ -3760,6 +3847,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.loveactivity_ui_4_1 = {
+		tip = "Give <color=#3DC6FFFF>$1</color> an additional <color=#3DC6FFFF>500</color> Sweet Memories?\nOnce given, this <color=#FF5C5CFF>cannot be changed</color>. Make sure you've selected the correct shipgirl."
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.backyard_backyardShipInfoMediator_error_vanguardFleetOnlyOneShip = {
 		tip = "At least 1 ship must be deployed to Vanguard."
 	}
@@ -3838,6 +3931,12 @@ end)()
 (function()
 	_G.pg.base.gametip.dorm3d_appellation_waring1 = {
 		tip = "Your nickname contains a forbidden word."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.SardiniaSPCoreActivityUI_fleetconfirm = {
+		tip = "Current formation is empty. Do you want to import the formation from the previous stage?"
 	}
 end)()
 
@@ -4014,6 +4113,12 @@ end)()
 (function()
 	_G.pg.base.gametip.inform_level_limit = {
 		tip = "Reporting is available after reaching Commander Lv. 20 "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_season_review_titleone = {
+		tip = "Season"
 	}
 end)()
 
@@ -4440,6 +4545,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.blackfriday_cruise_btn_all = {
+		tip = "Collect All"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.activity_puzzle_get15 = {
 		tip = "<color=#A9F548FF>How to get: \nmission 6</color>"
 	}
@@ -4476,8 +4587,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_item_recycle_2 = {
-		tip = "The following items will be lost when Operation Siren resets:"
+	_G.pg.base.gametip.world_low_morale = {
+		tip = "You are unable to start a boss battle because your fleet Resolve is low. \nYou can restore Resolve by issuing a Regroup and Rest command or by winning battles. "
 	}
 end)()
 
@@ -4516,14 +4627,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.msgbox_text_inconsume = {
-		tip = "NO"
+	_G.pg.base.gametip.apply_permission_record_audio_tip2 = {
+		tip = "You have turned off Record permission, please confirm Record permission in the game settings menu."
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.dorm3d_privatechat_telephone_calllog = {
 		tip = "Video Call History"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.DAL_stage_label_data = {
+		tip = "Sector Intel"
 	}
 end)()
 
@@ -4582,8 +4699,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.intimacy_desc_1_buff = {
-		tip = "Current buff: None"
+	_G.pg.base.gametip.intimacy_desc_7_buff = {
+		tip = "Current buff: All base stats (except speed and gear) +12%"
 	}
 end)()
 
@@ -4786,8 +4903,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_sub_cannons = {
-		tip = "Secondary Gun "
+	_G.pg.base.gametip.mail_move_button = {
+		tip = "Batch Move"
 	}
 end)()
 
@@ -4879,8 +4996,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.number_0 = {
-		tip = "0"
+	_G.pg.base.gametip.guild_ship_attr_desc = {
+		tip = "The Guild's $1 has $2 when $3 during operations."
 	}
 end)()
 
@@ -4938,7 +5055,7 @@ end)()
 
 (function()
 	_G.pg.base.gametip.gift_giving_dislike = {
-		tip = "It seems she is confused by your gift."
+		tip = " is confused by your gift."
 	}
 end)()
 
@@ -5031,8 +5148,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_attr_antiaircraft = {
-		tip = "AA "
+	_G.pg.base.gametip.new_airi_error_code_100242 = {
+		tip = "Apple authorization request failed"
 	}
 end)()
 
@@ -5067,6 +5184,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.DAL_upgrade_unlock = {
+		tip = "Locked"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.vote_vote_time = {
 		tip = "Voting window: $1 - $2"
 	}
@@ -5093,6 +5216,12 @@ end)()
 (function()
 	_G.pg.base.gametip.player_changePlayerIcon_ok = {
 		tip = "Secretary changed!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_simulated_btn = {
+		tip = "Would you like to simulate a battle of the current META showdown? \nDifficulty: Lv. $1\n* Simulated battles cost no Oil and give no rewards."
 	}
 end)()
 
@@ -5245,8 +5374,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.text_clear = {
-		tip = "Clear"
+	_G.pg.base.gametip.word_hot = {
+		tip = "Hot"
 	}
 end)()
 
@@ -5275,8 +5404,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.words_desc_change_settings = {
-		tip = "Change Secondary Password-restricted functions"
+	_G.pg.base.gametip.text_win_condition = {
+		tip = "Win conditions:"
 	}
 end)()
 
@@ -5313,6 +5442,12 @@ end)()
 (function()
 	_G.pg.base.gametip.new_airi_error_code_100234 = {
 		tip = "The account is not authorized to login"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.pac_game_start_btn = {
+		tip = "Start"
 	}
 end)()
 
@@ -5439,6 +5574,12 @@ end)()
 (function()
 	_G.pg.base.gametip.ship_buildShipImmediately_error_finished = {
 		tip = "Construction complete!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_exchange_fate_unlock_over = {
+		tip = "Your exchange amount of <color=#22ff22>$1</color> is higher than the required amount of <color=#ff5c5c>$2</color>"
 	}
 end)()
 
@@ -5647,8 +5788,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200260 = {
-		tip = "Fatal error during API operation"
+	_G.pg.base.gametip.destroy_eliteequipment_tip = {
+		tip = "You've selected $1 gear(s)."
 	}
 end)()
 
@@ -5758,8 +5899,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_boxtitle_information = {
-		tip = "Info"
+	_G.pg.base.gametip.simulation_advantage_counting = {
+		tip = "Enemy using special tactic in $1s"
 	}
 end)()
 
@@ -5842,8 +5983,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.destroy_high_rarity_tip = {
-		tip = "<color=#92fc63>Elite and above</color>"
+	_G.pg.base.gametip.backyard_theme_cancel_collection = {
+		tip = "Are you sure you want to unfavorite this?"
 	}
 end)()
 
@@ -5894,36 +6035,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_result_dead_score = {
-		tip = "Casualties * $1:"
+	_G.pg.base.gametip.battle_result_base_score = {
+		tip = "Stage cleared:"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_tech_tip = {
-		tip = {
-			{
-				info = "- Guild Tech Info:\n"
-			},
-			{
-				info = "1. Guild Tech Facilities:\nGuild Tech facilities are jointly managed by the entire Guild and grant a number of benefits to its members.\nMembers of the Guild can gain access to these benefits by contributing Guild Tokens and Guild Funds.\nThe facilities themselves are administered by the Guild Leader and Officers, who can choose to upgrade the buildings and make their boosts stronger.\nMembers of the Guild can gain access to these benefits by contributing Guild Tokens and Guild Funds.\nThe facilities themselves are administered by the Guild Leader and Officers, who can choose to upgrade the buildings and make their boosts stronger.\n"
-			},
-			{
-				info = "Facility information and construction options can be found via the button in the top right corner on the Guild Tech screen.\n"
-			},
-			{
-				info = "2. Facility Management:\n- The requirements to use or upgrade a facility can be found on the Guild Tech screen.\n- Facilities must be upgraded by expending Guild Tokens and Guild Funds. If your Contribution Level does not meet a facility's level threshold, the Guild Token and Guild Fund cost will increase.\n- If a player leaves their Guild and does not join another, their facility levels will stay at the highest they upgraded to.\n- If a player leaves their Guild and joins another, their facility levels will carry over to the new Guild, meaning they do not need to start over from scratch.\n"
-			},
-			{
-				info = "3. Factility Level Caps:\nYour facility level cap is determined by whichever is highest between the Guild Tech level of the Guild you are in, or the Public Guild Tech level."
-			},
-			{
-				info = "4. Upgrading Facilities:\nTo upgrade a facility, a Guild Leader or an Officer must go to the Guild Tech screen, enable Research Mode, and choose a facility to upgrade.\nOnce a facility has been chosen, members of the Guild must contribute materials until the bar has fully filled up, at which point the facility will level up."
-			},
-			{
-				info = "5. Contributing Materials:\nTo donate items to your Guild, go to the Contributions screen and select the items you wish to give.\nOnce a facility has been chosen, members of the Guild must contribute materials until the bar has fully filled up, at which point the facility will level up.\n\nThe Guild can only change which facility it upgrades once every 24 hours. The default facility upgrade is the Guild Roster Expansion.\nThe number of progress increments that can be made in one day is determined by the amount of Guild members multiplied by 3. If you exceed this threshold, contributing items will yield no further progress, but you will still gain Guild Tokens."
-			}
-		}
+	_G.pg.base.gametip.tec_notice_not_open_tip = {
+		tip = "Unlocks after completing the previous set of missions"
 	}
 end)()
 
@@ -5934,8 +6053,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_word_apply = {
-		tip = "Apply"
+	_G.pg.base.gametip.guild_left_supply_day = {
+		tip = "$1 day(s) left"
 	}
 end)()
 
@@ -5966,6 +6085,12 @@ end)()
 (function()
 	_G.pg.base.gametip.random_ship_custom_mode_main_button_remove = {
 		tip = "Remove"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blackfriday_battlepass_complete = {
+		tip = "Black Friday Cruise Missions have been completed"
 	}
 end)()
 
@@ -6018,36 +6143,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.qte_game_help = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/guinu_help1",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/guinu_help2",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
+	_G.pg.base.gametip.world_pressing = {
+		tip = "Zones Cleared"
 	}
 end)()
 
@@ -6088,8 +6185,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_talent_learn_erro = {
-		tip = "Failed to learn the following Talent: $1."
+	_G.pg.base.gametip.ship_energy_low_desc = {
+		tip = "Exhausted\nAffinity will be reduced if you attack"
 	}
 end)()
 
@@ -6130,8 +6227,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_not_exist_activation_tech = {
-		tip = "There are no operational Guild Tech facilities."
+	_G.pg.base.gametip.venusvolleyball_return_tip = {
+		tip = "Would you like to end the minigame?"
 	}
 end)()
 
@@ -6341,8 +6438,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_preCombatLayer_clear_confirm = {
-		tip = "Are you sure you want to clear the selected formation?"
+	_G.pg.base.gametip.warning_mail_max_4 = {
+		tip = "Your mailbox is full (<color=#FF5C5C>$1</color>/100) and you cannot receive any new mail. Would you like to close your inbox?"
 	}
 end)()
 
@@ -6384,7 +6481,7 @@ end)()
 
 (function()
 	_G.pg.base.gametip.pray_cant_tips = {
-		tip = "Hang up Ema to receive Offerings to use at the Shrine."
+		tip = "Send cards to receive wishes."
 	}
 end)()
 
@@ -6522,7 +6619,7 @@ end)()
 
 (function()
 	_G.pg.base.gametip.island_season_review_relax = {
-		tip = "Minigame"
+		tip = "Achievement"
 	}
 end)()
 
@@ -6539,8 +6636,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.attribute_armor = {
-		tip = "Armor"
+	_G.pg.base.gametip.backayrd_theme_delete_erro = {
+		tip = "Failed to delete theme."
 	}
 end)()
 
@@ -6569,8 +6666,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_shop_refresh_done = {
-		tip = "Shop refreshed."
+	_G.pg.base.gametip.login_newPlayerScene_word_biaoqiang = {
+		tip = "I'm Javelin! Commander, I've already told you my name... Now you have to tell me yours!"
 	}
 end)()
 
@@ -6681,8 +6778,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.task_submitTask_error_client = {
-		tip = "Failed to submit mission: "
+	_G.pg.base.gametip.meta_tactics_switch = {
+		tip = "Upgraded"
 	}
 end)()
 
@@ -6785,8 +6882,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_catsearch_help_5 = {
-		tip = "This Meowfficer's skills will not apply as they are busy."
+	_G.pg.base.gametip.ship_limit_notice = {
+		tip = "*The Submarine Fleet's stats do not count towards the Status Requirements. "
 	}
 end)()
 
@@ -6886,13 +6983,19 @@ end)()
 
 (function()
 	_G.pg.base.gametip.island_season_review_ordernum = {
-		tip = "Resources Delivered"
+		tip = "Order Count"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.island_shiporder_refresh_tip1 = {
 		tip = "You have already submitted this order and cannot change it."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_guide_help_fish = {
+		tip = "Unlocking fishing content on the island gives you Collection Points. Once you accumulate enough points, your Collection Level will increase, and you'll receive the corresponding Collection Rewards:\n\n1. When you <color=#39bfff>unlock a fish in the Fish Collection</color>, you'll receive <color=#39bfff>10</color> Collection Points per fish.\n2. <color=#39bfff>Achieving the biggest catch</color>: When you catch a fish that meets the weight requirement for its species, you'll receive additional Collection Points. The weight requirement differs from species to species."
 	}
 end)()
 
@@ -6975,8 +7078,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_warning_303154 = {
-		tip = "<size=35>Completing the retrofit will change <color=#92fc63>$1</color>'s hull classification.\nHer Main Gun slot will change from equipping <color=#92fc63>CL Main Guns</color> to equipping <color=#92fc63>CA Main Guns</color>, so her currently equipped Main Gun will be unequipped.\nAny <color=#92fc63>Augment Modules</color> she can no longer use post-retrofit will be returned to your Depot.\nContinue with retrofit? <color=#92fc63><material=underline c=#A9F548 event=clickDetail>Details</material></color></size>"
+	_G.pg.base.gametip.word_equipment_aircraft = {
+		tip = "Aircraft"
 	}
 end)()
 
@@ -7297,8 +7400,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.result_firework_produce = {
-		tip = "Fireworks production has been completed. Your final rating: "
+	_G.pg.base.gametip.win_condition_display_qijian = {
+		tip = "Defeat the enemy boss fleet."
 	}
 end)()
 
@@ -7327,8 +7430,12 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.friend_confirm_add_blacklist = {
-		tip = "Are you sure you want to blacklist <color=#92fc63>$1</color>?\n(View your blacklist from your friends menu)"
+	_G.pg.base.gametip.help_newyear_shrine = {
+		tip = {
+			{
+				info = "<size=31><color=#92fc63>TIPS: \nTapping the prayer button without any Shrine Visits will still consume coins, but will not grant any blessing.</color></size>\n\n1. Spending tickets to play the fireworks workshop, shooting gallery, or new year's feast minigames will grant Shrine Visits.\n\n2. Tapping the bell rope when you have Shrine Visits will consume 5 coins and grant a blessing.\n\nThere are several types of blessings with several different effects:\n\nEducation: Reduces the time it takes to train in the Tactical Academy.\n\nCareer: Our fleet gets a damage bonus in main story, hard mode, and battle record sorties.\n\nRomance: Your secretary ship gains affection faster.\n\nBlessings remain in effect for one day.\n\n3. An education blessing will not reduce the training time of any lesson in progress when the blessing is activated.\n\nThe expiration of the education blessing will not cause any lesson in progress to lengthen.\n\n4. Should you pray for a new blessing when a blessing is already in effect, the new blessing will override the existing one, and its duration will reset.\n\n5. You may only have one active blessing at any one time."
+			}
+		}
 	}
 end)()
 
@@ -7505,6 +7612,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.dal_main_sheet1_en = {
+		tip = "Main Page"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.shop_filter_all = {
 		tip = "All"
 	}
@@ -7519,6 +7632,12 @@ end)()
 (function()
 	_G.pg.base.gametip.backyard_backyardGranaryLayer_foodTimeNotice_bottom = {
 		tip = "will be eaten up~"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blackfriday_battlepass_pay_acquire = {
+		tip = "Buy Now to Get:"
 	}
 end)()
 
@@ -7898,8 +8017,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.sham_count_reset = {
-		tip = "This Simulation battle is complete.\nReset now?"
+	_G.pg.base.gametip.friend_send_msg_erro_tip = {
+		tip = "Player is offline. Unable to send message."
 	}
 end)()
 
@@ -7960,8 +8079,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_status_inPVP = {
-		tip = "Exercising"
+	_G.pg.base.gametip.pocky_jiujiu = {
+		tip = "Manjuu Manufactory"
 	}
 end)()
 
@@ -8104,8 +8223,12 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.task_submitTask_error = {
-		tip = "Failed to submit mission: "
+	_G.pg.base.gametip.music_juus = {
+		tip = {
+			{
+				info = "- FleetChat & Juustagram Overview -\n\nFleetChat and Juustagram are the port's social media apps where you can view posts, leave likes, and have chats with shipgirls.\nPress the button in the bottom left corner of the screen to swap between FleetChat and Juustagram.\n\n- FleetChat Details -\n· FleetChat is divided into private chats and group chats, letting you interact with one-on-one and group conversations with shipgirls, respectively.\n· An icon will appear on the FleetChat and Juustagram button when you have unread posts or messages.\n· You can switch between chats by pressing the icons on the left side of the screen.\n· You can prioritize a chat by pressing the heart icon on the top right of the screen. In addition, you can change the chat background or change topics by pressing the button in the top right.\n\n- Juustagram Details -\n· Use Juustagram to view posts from shipgirls, leave likes, and comment under their posts.\n· Shipgirls will make new posts every now and then automatically.\n"
+			}
+		}
 	}
 end)()
 
@@ -8168,8 +8291,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_sort_tag_price = {
-		tip = "Price "
+	_G.pg.base.gametip.number_7 = {
+		tip = "7"
 	}
 end)()
 
@@ -8180,8 +8303,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_69901 = {
-		tip = "<size=28>Would you like to start a Battle Simulation?\nNote: the Priority ship's stats and abilities may differ from her fully-developed equivalent.\nEquipped gear:<color=#ff5c5c>\nPrototype Triple 406mm Model 1940 Main Gun Mount\nTriple 152mm Model 1934 Main Gun Mount\nPrototype Twin 90mm High Angle Gun Mount</color></size>"
+	_G.pg.base.gametip.blueprint_simulation_confirm_19901 = {
+		tip = "<size=28>Would you like to start a Battle Simulation?<color=#ff5c5c> Note: the ship's stats and abilities may differ from its fully developed equivalent.</color>\nEquipped gear:<color=#92fc63>\nPrototype Triple 152mm Main Gun (DP MK17)\nPrototype Triple 152mm Main Gun (DP MK17)\nQuadruple 40mm Bofors Gun</color></size>"
 	}
 end)()
 
@@ -8224,6 +8347,18 @@ end)()
 (function()
 	_G.pg.base.gametip.activity_puzzle_get12 = {
 		tip = "<color=#A9F548FF>How to get: \nmission 3</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spring_present_tips3 = {
+		tip = "A gift has been sent to your mailbox!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spring_present_tips1 = {
+		tip = "The leftmost secretary shipgirl in your list will send a message to your mailbox. Continue?"
 	}
 end)()
 
@@ -8277,8 +8412,26 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.spring_present_tips0 = {
+		tip = "Please disable the Random Secretary feature and try again."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_tip_skin = {
+		tip = "Seasonal Missions"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.island_spoperation_level_2509_1 = {
 		tip = "Requirement: Reach Island Dev. Level 1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spring_present_tips_btn = {
+		tip = "New Year's Warmth"
 	}
 end)()
 
@@ -8295,6 +8448,58 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.loveactivity_help_tips = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/love_help_1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/love_help_2",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/love_help_3",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/love_help_4",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_enhancement_lv = {
+		tip = "+ "
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.main_playerInfoLayer_error_changeNameNoGem = {
 		tip = "You don't have enough Gems."
 	}
@@ -8303,6 +8508,12 @@ end)()
 (function()
 	_G.pg.base.gametip.Supplement_pay4 = {
 		tip = "Confirm"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_production_speed_tip1 = {
+		tip = "Working Efficiency <color=#39bfff>+$1%</color>"
 	}
 end)()
 
@@ -8319,8 +8530,30 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equipment_skin_no_old_ship = {
-		tip = "The (old ship) does not exist"
+	_G.pg.base.gametip.equipment_skin_no_new_ship = {
+		tip = "The ship does not exist"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.drawdiary_ui_2026 = {
+		tip = "Drawing Book"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_task_level_num = {
+		tip = "Rep. Level"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_chunjie_jiulou_2026 = {
+		tip = {
+			{
+				info = "- Manjuu Resort Info -\n· You can visit the Manjuu Resort to open the Red Envelopes you've collected through playing minigames and get rewards.\n· Red Envelopes can be gotten from playing <color=#92fc63>Fei Yuen's Great Adventure</color>,<color=#92fc63>Drawing Book</color>, <color=#92fc63>Fu Po's Flawless Plan</color>, and <color=#92fc63>Spring Fireworks Party</color>.\n· Opening envelopes will grant you a number of randomly chosen rewards, potentially including Gems.\n· Your first 15 envelopes are Special Red Envelopes and will yield better rewards than regular Red Envelopes. These will be prioritized when opening Red Envelopes.\n· After opening 15 envelopes in total, you will receive <color=#92fc63>a rerun skin for Fu Shun</color>, and after 25 envelopes you'll also receive <color=#92fc63>a new skin for Long Island</color>."
+			}
+		}
 	}
 end)()
 
@@ -8343,14 +8576,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.loveactivity_ui_20 = {
+		tip = "Accumulated Sweet Memories Lv. Rewards"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.tolovegame_puzzle_title = {
 		tip = "Request Requirements"
 	}
 end)()
 
 (function()
+	_G.pg.base.gametip.levelScene_who_to_retreat = {
+		tip = "Commander, are you sure you want to retreat from <color=#92fc63>$1</color>?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.vote_lable_window_title = {
+		tip = "Rewards"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.option_desc9 = {
 		tip = "When toggled on, your friends will be able to see your secretary ship after you visit their Dorm."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveactivity_ui_16 = {
+		tip = "No claimable rewards"
 	}
 end)()
 
@@ -8410,8 +8667,32 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.equip_skin_detail_count = {
+		tip = "Owned:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveactivity_ui_14 = {
+		tip = "$1's Sweet Memories Medal"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.word_kind = {
 		tip = "Type"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveactivity_ui_13 = {
+		tip = "Valentine's Day message has been unlocked"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveactivity_ui_12 = {
+		tip = "* You can switch your character during the event ($1/$2 remaining switches today)"
 	}
 end)()
 
@@ -8444,14 +8725,32 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_guide_help = {
+		tip = "Unlocking character-related content on the island gives you Collection Points. Once you accumulate enough points, your Collection Level will increase, and you'll receive the corresponding Collection Rewards:\n\n1. When you <color=#39bfff>obtain a character (complete their Island Authority Permit process)</color>, you'll receive <color=#39bfff>20</color> Collection Points per character.\n2. When you <color=#39bfff>Limit Break a character (use a Profession Star on them)</color>, you'll receive <color=#39bfff>30</color> Collection Points per Limit Break. And when a character reaches Limit Break ★5, you'll receive an additional <color=#39bfff>10</color> Collection Points.\n3. When <color=#39bfff>raising a character's Island Level to 50</color>, you'll receive <color=#39bfff>50</color> Collection Points."
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.ssssmedal_name1 = {
 		tip = "Augmented Scavenger: Wanderer"
 	}
 end)()
 
 (function()
+	_G.pg.base.gametip.shop_extendMagazine_error = {
+		tip = "Failed to expand arsenal: "
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.week_task_pt_name = {
 		tip = "Activity Points"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveactivity_ui_9 = {
+		tip = "$1's Valentine's Gift"
 	}
 end)()
 
@@ -8468,6 +8767,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.loveactivity_ui_8 = {
+		tip = "Unlock"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.random_ship_custom_mode_add_title = {
 		tip = "Add Shipgirls"
 	}
@@ -8480,14 +8785,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.loveactivity_ui_7 = {
+		tip = "* Unlocking the message does not remove any presents"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.world_redeploy_warn = {
 		tip = "Redeploying the fleet will also remove the fleet stationed at port. Are you sure you want to continue? "
 	}
 end)()
 
 (function()
+	_G.pg.base.gametip.sail_boat_equip_tip_2 = {
+		tip = "<color=#E3CEAF>Decently Strong, Decently Quick Gun</color>\n<color=#F1B969>Equipping this on your ship reduces her speed.</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveactivity_ui_5 = {
+		tip = "Unlock Message"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.child_unlock_attr2 = {
 		tip = "Personality"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.temple_consume_not_enough = {
+		tip = "Insufficient resources"
 	}
 end)()
 
@@ -8499,7 +8828,7 @@ end)()
 
 (function()
 	_G.pg.base.gametip.limit_skin_time_before_maintenance = {
-		tip = "Until $1/$2 "
+		tip = "Until Maint. on $1/$2"
 	}
 end)()
 
@@ -8522,6 +8851,18 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.loveactivity_ui_4_2 = {
+		tip = "Give <color=#3DC6FFFF>$1</color> an additional <color=#3DC6FFFF>800</color> Sweet Memories?\nOnce given, this <color=#FF5C5CFF>cannot be changed</color>. Make sure you've selected the correct shipgirl."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveactivity_ui_4 = {
+		tip = "Give Sweet Memories to $1?\nOnce given, this cannot be changed."
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.confirm_unlock_lv = {
 		tip = "Are you sure you want to unlock $2 ($1)?"
 	}
@@ -8530,6 +8871,24 @@ end)()
 (function()
 	_G.pg.base.gametip.world_joint_boss_is_death = {
 		tip = "Coordinates have expired. Please try another target. "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.valentinesday__txt4_tip = {
+		tip = "The chocolate is ready. Don't forget to pick up your reward."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_bar_quick_game = {
+		tip = "Quick Game"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_group_msgbox_content = {
+		tip = "This will download all of the game's additional assets. Would you like to download $1 of data?"
 	}
 end)()
 
@@ -8564,6 +8923,18 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.haidaojudian_building_tip = {
+		tip = "Insufficient materials to upgrade your Base Camp."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_supply_log = {
+		tip = "$1 $2 spent $3 Guild Funds and bought Guild Supplies for $4 day(s)."
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.battlepass_main_tip_2404 = {
 		tip = "Complete Cruise Missions between 4/1/2024 00:00 – 5/31/2024 23:59 to receive <color=#854747>Vampire META</color> and other rewards!"
 	}
@@ -8582,6 +8953,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.ninja_game_income = {
+		tip = "Obtained:"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.equipment_skin_no_equipment_tip = {
 		tip = "Unable to apply the weapon skin, please equip a weapon first"
 	}
@@ -8590,6 +8967,18 @@ end)()
 (function()
 	_G.pg.base.gametip.shipmodechange_reject_inactivity = {
 		tip = "A ship has already been added to an event fleet. Please check your formation and try again."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_trade_invite_success = {
+		tip = "Invitation successful"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_trade_msg_pop = {
+		tip = "You've received an invitation from $1. Their island's pearl selling price is $3"
 	}
 end)()
 
@@ -8618,6 +9007,46 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_trade_help_2 = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/island_trade_help1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/island_trade_help2",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/island_trade_help3",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.holiday_tip_gametip = {
 		tip = {
 			{
@@ -8634,6 +9063,40 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_trade_help_1 = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/island_trade_help4",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_friend = {
+		tip = "Friends"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.guild_deputy_commander_cnt_is_full = {
 		tip = "<color=#C3C3C3>No more Officer slots available.</color>"
 	}
@@ -8646,8 +9109,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_manage_1 = {
-		tip = "All"
+	_G.pg.base.gametip.guild_tech_gold_desc = {
+		tip = "Coins Storage Cap +$1"
 	}
 end)()
 
@@ -8670,6 +9133,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_trade_reset_label = {
+		tip = "The price has been updated"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.meta_energy_preview_title = {
 		tip = "Final stats at Max Fortification: "
 	}
@@ -8682,8 +9151,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.word_chuansong = {
+		tip = "Furniture Tokens "
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.child_plan_type3 = {
 		tip = "Life Experience"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_trade_sell_failed_label2 = {
+		tip = "Pearls are sold out on this island today."
 	}
 end)()
 
@@ -8696,6 +9177,12 @@ end)()
 (function()
 	_G.pg.base.gametip.shop_item_title = {
 		tip = "Items"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.words_desc_change_settings = {
+		tip = "Change Secondary Password-restricted functions"
 	}
 end)()
 
@@ -8746,8 +9233,26 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_trade_purchase_failed_label = {
+		tip = "You have reached your weekly purchase limit"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_trade_sell_tip_label = {
+		tip = "$1 sell chance(s) left today on this island"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.word_gold = {
 		tip = "Coins"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_trade_send_msg_label = {
+		tip = "<material=underline c=#006400 ><color=#006400>Today's Price: $2</color></material>"
 	}
 end)()
 
@@ -8810,6 +9315,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_trade_limit_label = {
+		tip = "$1 purchase chance(s) left this week"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.battle_text_lumei_1 = {
 		tip = "\"Don't just stand there! Follow me!\""
 	}
@@ -8822,8 +9333,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_trade_tip_label2 = {
+		tip = "The purchase price is updated at 03:00 every day"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_weakness = {
+		tip = "Weak Point "
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.technology_uplevel_error_no_res = {
 		tip = "Spend <color=#A9F548>$1</color> coins to unlock this tech level?\n Duration: <color=#A9F548>$2</color>\n Upgrade:<color=#A9F548>Lv.$3->Lv.$4</color> "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_trade_invite_label = {
+		tip = "Invite Player"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_trade_rank_level_label = {
+		tip = "Island Lv."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_trade_rank_price_label = {
+		tip = "Current Price"
 	}
 end)()
 
@@ -8846,8 +9387,50 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_trade_rank_info_label = {
+		tip = "Island Info"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_trade_rank_num_label = {
+		tip = "Development Rank"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["3ddorm_beach_slide_tip2"] = {
+		tip = "Playing Shipgirl"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.multiple_sorties_stop_end = {
+		tip = "Auto-Repeat has been stopped."
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.commission_normal = {
 		tip = "Commission: "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_trade_rank_label = {
+		tip = "Friend Rankings"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_trade_purchase_label = {
+		tip = "Buy Pearls"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.random_ship_custom_mode_main_button_add = {
+		tip = "Add"
 	}
 end)()
 
@@ -8876,14 +9459,74 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_trade_sell_label = {
+		tip = "Pearl Trade"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_tip_materal_no_enough = {
+		tip = "You don't have enough materials."
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.island_draw_null = {
 		tip = "Finished"
 	}
 end)()
 
 (function()
+	_G.pg.base.gametip.roll_reward_word1 = {
+		tip = "Prologue"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blackfriday_cruise_task_unlock = {
+		tip = "Unlocks in $1 day(s) $2 hour(s)"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.medal_notice_1 = {
+		tip = "Show highes rank "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_post_event_addition_label = {
+		tip = "The following dishes receive a buff:"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.series_enemy_reward_tip2 = {
 		tip = "Coalition Battle Rewards"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.words_battle_expose_line = {
+		tip = "Toggle in-combat CV detection line "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_post_event_close_label = {
+		tip = "Return"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commission_label_finish_mellow = {
+		tip = "Complete"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_7 = {
+		tip = "Port Fashion Collection"
 	}
 end)()
 
@@ -8906,6 +9549,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_6 = {
+		tip = "Fei Yuen's Great Adventure"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.guild_task_autoaccept_1 = {
 		tip = "A new Guild mission has been received: $1"
 	}
@@ -8918,6 +9567,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_5 = {
+		tip = "Spring Fireworks Party"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.ship_formationMediator_addShipError_overlimit = {
 		tip = "Fleet may only have <color=#92fc63>$1</color> <color=#92fc63>$2</color>."
 	}
@@ -8926,6 +9581,24 @@ end)()
 (function()
 	_G.pg.base.gametip.commander_material_noenough = {
 		tip = "Insufficient crafting materials"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commandercat_label_custom_name = {
+		tip = "Custom Name"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_3 = {
+		tip = "Manjuu Resort"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_2 = {
+		tip = "Fu Po's Flawless Plan"
 	}
 end)()
 
@@ -8972,10 +9645,10 @@ end)()
 				info = "Sync Points obtained through META Showdown in Operation Siren can be used to recruit certain META ships."
 			},
 			{
-				info = "Obtainable rewards from accumulating Sync Points can be viewed and claimed on each corresponding META ship’s tab in the META Lab. Furthermore, upon obtaining enough Sync Points, you’ll be able to recruit a META ship.\n\n"
+				info = "Obtainable rewards from accumulating Sync Points can be viewed and claimed on each corresponding META ship's tab in the META Lab. Furthermore, upon obtaining enough Sync Points, you'll be able to recruit a META ship.\n\n"
 			},
 			{
-				info = "From <color=#92fc63>9/4/25 to 12/10/25</color>, challenge Yuudachi META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Yuudachi META</color> as well as other great rewards.\n\n"
+				info = "From <color=#92fc63>12/11/2025 to 3/11/2026</color>, challenge Yorktown META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Yorktown META</color> as well as other great rewards.\n\n"
 			},
 			{
 				info = "2. About Rigging Fortification:"
@@ -9002,15 +9675,37 @@ end)()
 				info = "4. About Tactical Research:"
 			},
 			{
-				info = "The skills of META ships can only be leveled in the META Lab. You can head to a META ship’s skill menu through the Somatic Activation screen."
+				info = "The skills of META ships can only be leveled in the META Lab. You can head to a META ship's skill menu through the Somatic Activation screen."
 			},
 			{
-				info = "Leveling a META ship’s skills requires specific materials and are fed EXP through the completion of special META ship skill missions."
+				info = "Leveling a META ship's skills requires specific materials and are fed EXP through the completion of special META ship skill missions."
 			},
 			{
 				info = "Note that there is a limit to how much EXP can be gained in a single day, and that only 1 skill per META ship can be leveled at a time."
 			}
 		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_1 = {
+		tip = "Spring Auction Adventure"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.pac_minigame_help = {
+		tip = {
+			{
+				info = "- Overview -\nTake control of Fei Yuen, run away from other characters, and collect Dragon Empery food to earn points.\nA new stage will be unlocked every day until February 26th. Complete the minigame over 7 days to receive various rewards, including the DD Fei Yuen.\n\nHow to Play:\n1. Control Fei Yuen and help her escape the clutches of incoming characters!\n2. Pick up items to gain different effects:\n· Gold Drops - Increases your score\n· Hawthorn Tanghulu - Increases your movement speed, and when you bump into other characters, banishes them to the starting point with the sourness of the tanghulu.\n3. The game ends either when you're caught by another character or when you quit the game."
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.town_place_next_title = {
+		tip = "On the next level:"
 	}
 end)()
 
@@ -9027,6 +9722,18 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.mini_game_continue = {
+		tip = "Return"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.pac_game_gaming_score = {
+		tip = "Score:"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.pre_combat_consume = {
 		tip = "Cost:"
 	}
@@ -9035,6 +9742,12 @@ end)()
 (function()
 	_G.pg.base.gametip.yumia_pt_4 = {
 		tip = "Obtained"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.pac_game_gaming_time_desc = {
+		tip = "Time:"
 	}
 end)()
 
@@ -9055,20 +9768,54 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.pac_game_rule_btn = {
+		tip = "How to Play"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.pac_game_high_score_tip = {
+		tip = "High Score: $1"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.disassemble_available = {
 		tip = "Obtainable"
 	}
 end)()
 
 (function()
+	_G.pg.base.gametip.SardiniaSPCoreActivityUI_help = {
+		tip = {
+			{
+				info = "- Overview -\nLight & Shadow Fashion Shoot! is available between <color=#92fc63>January 22nd and February 4th</color>!\nComplete missions, dispatch your fleets, and clear event stages to collect Camera Films and receive rewards!\n\n1. Tap the button in the bottom left corner to switch between Story Mode and Battle Mode.\n2. Battle Mode presents a series of stages which you can challenge with your fleets to earn Camera Films.\nBefore going into battle, you can decide whether you\\'d like to fight in a joint sortie or a solo sortie.\n· In a solo sortie, you will challenge each stage with only a single fleet. In this mode, all your shipgirls recover all their health at the start of the battle.\n· In a joint sortie, you will instead send out multiple fleets to battle on each stage. Completing the challenge in this mode will grant you additional rewards.\n3. You will receive rewards for collecting enough Camera Films, including <color=#92fc63>Elite DD Ugolino Vivaldi</color> and a <color=#92fc63>Prototype Triple 406mm Model 1940 Main Gun</color>.\n4. There are special missions available during the event. Complete these to receive additional rewards.\n5. There is a special story available in Story Mode. Read it in its entirety to receive a commemorative gear skin.\n"
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.elite_fleet_confirm = {
-		tip = "$1 <color=#ff0000>does not meet</color> requirements to attack and may not enter battle. Would you like to continue your attack?"
+		tip = "$1 cannot participate in battle because she <color=#ff5c5c>does not meet the sortie requirements.</color>"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate3 = {
 		tip = "Passion"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.SardiniaSPCoreActivityUI_unlock = {
+		tip = "Locked"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.SardiniaSPCoreActivityUI_story_reward_count = {
+		tip = "Tap shipgirl, consume <icon name=65812 w=0.4 h=0.4/> <color=#10a7a9>($1 remaining)</color> to enter her feature page (event story chapter).\nComplete all stories to get special event gear skins <color=#10a7a9>($2/8)</color>"
 	}
 end)()
 
@@ -9085,6 +9832,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.new_airi_error_code_100190 = {
+		tip = "Failed to verify the third party parameter"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.roll_reward_word3 = {
 		tip = "Chapter 2"
 	}
@@ -9093,6 +9846,12 @@ end)()
 (function()
 	_G.pg.base.gametip.cook_game_flandre = {
 		tip = "Has helper manjuus!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipment_skin_no_old_ship = {
+		tip = "The (old ship) does not exist"
 	}
 end)()
 
@@ -9109,14 +9868,56 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.SardiniaSPCoreActivityUI_title = {
+		tip = "Event"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.courtyard_label_decoration = {
 		tip = "Move"
 	}
 end)()
 
 (function()
+	_G.pg.base.gametip.island_visit_set_title = {
+		tip = "Island Visit Approval"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ANTTFFCoreActivityPtpage_title = {
+		tip = "Finale"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ANTTFFCoreActivity_title2 = {
+		tip = ""
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.switch_to_shop_tip_2 = {
 		tip = "You don't have enough $1. Care to buy some from the shop?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ANTTFFCoreActivity_title = {
+		tip = "Finale"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ANTTFFCoreActivity_subtitle_1 = {
+		tip = "A Note Through the Firmament - Finale"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.terminal_adventure_title = {
+		tip = "Adventure Data"
 	}
 end)()
 
@@ -9139,8 +9940,30 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_survey_ui_award = {
+		tip = ""
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.feast_res_window_go_label = {
 		tip = "Confirm"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_xinnian2021_feast = {
+		tip = {
+			{
+				info = "Event Duration:<color=#92fc63>12/29/20 - 1/14/21</color>\nFeatured Events:\nManjuu Snowdown: Play this minigame to get the limited\noutfit, \"A Dance to the Coming Spring.\"\nFood Festival: Play this minigame to get the limited character, Z28.\nShrine Visit: Play this minigame to get the \"New Year’s Invitation\" item.\nOutfit Store: Purchas limited New Year-themed outfits.\nLimited Construction: Build brand new limited ships."
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_survey_ui_1 = {
+		tip = ""
 	}
 end)()
 
@@ -9163,6 +9986,18 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.battle_battleMediator_quest_exist_submarine_support = {
+		tip = "If you stop the battle, your result will be calculated based on the boss' remaining HP. Stop the battle?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.index_shipType_zhanLie = {
+		tip = "BB"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.hand_account_tip = {
 		tip = "Can be unlocked by collecting certain items. "
 	}
@@ -9171,6 +10006,16 @@ end)()
 (function()
 	_G.pg.base.gametip.yumia_stronghold_2 = {
 		tip = "Complete Base Building to get limited furniture!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_task_help_2602 = {
+		tip = {
+			{
+				info = "- Regarding Cruise Missions - \n· Two types of missions will be released at the same time at the start of the campaign season:\na) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.\nb) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.\n\n· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.\n\n· You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.\nWe do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.\nAny purchased Cruise Mission Vouchers will remain even after the campaign season ends."
+			}
+		}
 	}
 end)()
 
@@ -9187,8 +10032,30 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.battlepass_main_help_2602 = {
+		tip = {
+			{
+				info = "Cruise Missions Seasonal Campaign\n2026/2/1 00:00 – 2026/3/31 23:59\n\n- Overview -\n\"Cruise Missions\" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.\nAdditionally, you can unlock an additional set of \"Fair Winds Cruise\" rewards by purchasing the \"Fair Winds Cruise Pass\" item from Akashi's shop.\nCarabiniere META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfit for Z47, \"Batter ★ Home Run.\"\n\n- How to Play -\n· Two types of missions will be released at the same time at the start of the campaign season:\na) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.\nb) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.\n· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.\n· If you purchase a Fair Winds Cruise Pass, you will automatically receive 15 levels worth of progress (1500 Progress Pts).\n· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:\na) Cruise Rewards - Rewards that can be obtained based on the total number of accumulated Progress Pts. There are a total of 100 levels.\nb) Fair Winds Rewards - An additional set of rewards that will be unlocked when you purchase a Fair Winds Cruise Pass. As with the regular Cruise Rewards, there are a total of 100 levels, and they can be collected alongside Cruise Rewards at the same Progress level.\n· When the campaign season ends, your Progress Pts will be reset.\n\n- Tips - \n· Play at your own pace\nCruise Missions have a total of 100 Progress levels, and are not meant to be cleared in one session. We recommend that you complete them at your own pace.\n\n· Fair Winds Cruise Pass\nIf you purchase a Fair Winds Cruise Pass from Akashi's shop, you will automatically earn 1500 Progress Pts and unlock access to valuable rewards. Furthermore, there is an exclusive outfit available only through the Fair Winds rewards, so please plan accordingly.\n\n· Skipping Missions (not recommended)\nYou can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.\nWe do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.\nAny purchased Cruise Mission Vouchers will remain even after the campaign season ends."
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.winterwish_20251225_tip2 = {
+		tip = "Wishes Left"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.dorm3d_appellation_waring2 = {
 		tip = "Your nickname is too long."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.winterwish_20251225_tip1 = {
+		tip = "Cards Left"
 	}
 end)()
 
@@ -9205,8 +10072,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.winterwish_20251225 = {
+		tip = "Winter Cards"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.commander_lock_setting_title = {
 		tip = "Upon finishing Cat Box training, auto-lock Meowfficers based on the following criteria:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_aijier_bed = {
+		tip = "Bedroom"
 	}
 end)()
 
@@ -9229,6 +10108,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.dorm3d_aijier_chair = {
+		tip = "Parlor"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.vote_rank_refresh_time = {
 		tip = "*Rankings refresh every 30 minutes"
 	}
@@ -9237,6 +10122,18 @@ end)()
 (function()
 	_G.pg.base.gametip.grapihcs3d_setting_common_title = {
 		tip = "General Island Settings"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_settings_btn_word = {
+		tip = "Research Focus"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.resource_clear_gallery = {
+		tip = "Would you like to delete all illustration assets?\nData size: $1.\n(After deleting the assets, you will need to redownload them to access them again.)"
 	}
 end)()
 
@@ -9253,6 +10150,18 @@ end)()
 				info = "1. Floating Funland Summary\nThe Floating Funland is home to the following event activities:\n- The Party Venue, where you can view your account milestones and statistics\n- A list of special missions available during this event\n- Floating Funland buildings\n- The Manjuu Salvaging Crew minigame\n\n2. Event Mission Info\nNew event missions will be unlocked daily at server reset, up until September 22nd.\nThe event missions can be found under the Missions tab on the main menu.\nCompleting the missions awards you with Floating Funland Building Material.\n\n3. Floating Funland Building Info\nYou'll find a number of buildings on the Floating Funland menu. These can be built and upgraded to grant stat buffs to your fleet which last the whole event duration. Building and upgrading these buildings takes Floating Funland Building Material.\n\n4. Manjuu Salvaging Crew Info\nYou'll receive 1 minigame voucher every day during the event period. Any unspent daily vouchers will be saved for later. You can hold up to 7 vouchers at a time. The number of vouchers you have is shown on the right side of the screen."
 			}
 		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.unique_ship_retire_before_tip = {
+		tip = "Confirm"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.skinstory_20251218 = {
+		tip = "Fashion I"
 	}
 end)()
 
@@ -9293,6 +10202,24 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.blueprint_lab_exchange_fate_unlock = {
+		tip = "Fate Simulation has not yet been unlocked. Do you want to exchange?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_lab_fate_unlock = {
+		tip = "Fate Simulation <color=#92fc63>Unlocked</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_lab_fate_lock = {
+		tip = "Fate Simulation <color=#ff5c5c>Locked</color>"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.launchball_minigame_un_select = {
 		tip = "Tap again to cancel selection"
 	}
@@ -9305,8 +10232,26 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.blueprint_exchange_fate_unlock = {
+		tip = "Fate Simulation has not yet been unlocked. Do you want to exchange?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.DAL_stage_finish_at = {
+		tip = "Complete:"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.spweapon_ui_index_shipType_weiXiu = {
 		tip = "AR"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_text_haidao_1 = {
+		tip = "<color=#f1f102>/// Warning: Non-Tempesta Ship Detected ///</color>"
 	}
 end)()
 
@@ -9329,8 +10274,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.stage_beginStage_error_noEnergy = {
-		tip = "Your ships are <color=#92fc63>fatigued</color>!"
+	_G.pg.base.gametip.ship_modShip_error_notEnoughGold = {
+		tip = "<color=#92fc63>Not enough Coins</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.HelenaCoreActivity_subtitle_5 = {
+		tip = "Veil Resupply Point"
 	}
 end)()
 
@@ -9361,6 +10312,24 @@ end)()
 (function()
 	_G.pg.base.gametip.help_build_2 = {
 		tip = "\t\t\t\t<size=23>$1 Construct Rate:</size>\n\n\t\t\t\t\t\t\t\t<color=#fff157> Super Rare</color>: $2%\n\t\t\t\t\t\t\t\t <color=#966af6>Elite</color>: $3%\n\t\t\t\t\t\t\t\t <color=#60a9ff>Rare</color>: $4%\n\t\t\t\t\t\t\t\t Common: $5% \n\n\t\t\t\t\t\t\t\t\t"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.HelenaCoreActivity_subtitle_4 = {
+		tip = "A Note Through the Firmament"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.HelenaCoreActivity_subtitle_3 = {
+		tip = "To a Brighter World"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.HelenaCoreActivity_subtitle_2 = {
+		tip = "Call to Arms"
 	}
 end)()
 
@@ -9430,14 +10399,56 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_skill_desc_get = {
-		tip = "(Capped $1)"
+	_G.pg.base.gametip.intensify = {
+		tip = "Enhance"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.siren_chase_warning = {
+		tip = "Expanding Hazard Zone"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.HelenaPTPage_title2 = {
+		tip = ""
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.HelenaCoreActivity_title = {
+		tip = "Event"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.mail_storeroom_resourcetaken = {
 		tip = "Claim Resources"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.firend_relieve_blacklist_ok = {
+		tip = "Removed!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.scenario_unlock = {
+		tip = "Unlock Next Story Segment"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.scenario_unlock_pt_require = {
+		tip = "Unlocks   At   $1   Event   Pts"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dal_chapter_tip2 = {
+		tip = "Complete missions for rewards."
 	}
 end)()
 
@@ -9454,8 +10465,44 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_equipment_small_cannon = {
-		tip = "DD Main Gun"
+	_G.pg.base.gametip.dal_chapter_tip = {
+		tip = "- Info on the DATE A LANE Collab Event Joint Operation Stage -\n1. During the event period, six Joint Operation stages (ranging from Sector 1 to 6) are available. Completing one of these stages rewards you with Battle Contributions, the event currency.\nEach stage has a Normal and a Hard difficulty version available. The amount of Battle Contributions you get depends on the difficulty. Some rewards additionally vary by difficulty.\n2. The stages have enemy control bars, indicating how strong the enemy's presence is. As you and all other players on your server earn more Battle Contributions, these control bars will decrease in value.\n3. At the start, only Sector 1 will be available. Once the control bar for Sector 1 reaches 0%, Sectors 2 through 5 will be unlocked. Once the control bars for all these stages have reached a value of 0%, Sector 6 will be unlocked.\nIf you begin playing the collab event while a given stage has already been completed (i.e., it has been 100% seized,) you can still challenge the stage if you wish. Clearing a 100% seized stage will also unlock event story progress and let you advance to the next stage.\n4. Once the enemy control bar reaches 0%, a full Sector suppression reward will be sent to the mailbox of all players who have participated in the event.\n5. If a control bar reaches 0% on a stage which you have not cleared a single time, you will receive special missions that give you the rewards upon completing them.\n\n- Upgrade Airship -\n1. In the bottom right on the event stage select screen, there is an Upgrade Airship button. Tapping this will bring you to the Upgrade Airship screen.\n2. On this screen, you can use the Fraxinus AL Improvement Data that you've obtained through collab missions to upgrade its various faction-specific modules. Upgrading these modules will give you buffs on the collab stages.\n"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.DAL_upgrade_not_enough = {
+		tip = "Complete the event missions to receive Fraxinus AL Improvement Data"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.random_ship_custom_mode_remove_title = {
+		tip = "Remove Shipgirls"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_plan_skip = {
+		tip = "Skip Cinematic"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.time_remaining_tip = {
+		tip = "Time left: "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dal_AwardPage_name_1 = {
+		tip = "Gear"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dal_story_tip3 = {
+		tip = "Complete"
 	}
 end)()
 
@@ -9490,6 +10537,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.dal_story_tip2 = {
+		tip = "Read the story to obtain"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.word_study = {
 		tip = "Learn"
 	}
@@ -9502,8 +10555,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.sort_energy = {
+		tip = "Morale"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.login_newPlayerScene_name_tooShort = {
 		tip = "Name is too short."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dal_story_tip_name_en_6 = {
+		tip = "SECTOR-6"
 	}
 end)()
 
@@ -9526,6 +10591,30 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.ship_formationMediator_request_replace_support = {
+		tip = "This shipgirl is assigned to your Support Fleet. Remove her from the formation?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dal_story_tip_name_en_3 = {
+		tip = "SECTOR-3"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dal_story_tip_name_en_2 = {
+		tip = "SECTOR-2"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dal_story_tip_name_en_1 = {
+		tip = "SECTOR-1"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip["card_battle_card details_switchto_deck"] = {
 		tip = "View Deck"
 	}
@@ -9544,8 +10633,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.DAL_upgrade_program = {
+		tip = "Upgrade Airship"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.new_airi_error_code_200280 = {
 		tip = "Item has already been purchased, not consumed yet"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.DAL_story_tip = {
+		tip = "Read the side stories to receive an exclusive piece of gear"
 	}
 end)()
 
@@ -9556,8 +10657,26 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.dal_main_sheet5_en = {
+		tip = "Reward List"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tactics_lesson_cancel = {
+		tip = "If you cancel class, only partial EXP will be granted and you will <color=#92fc63>lose your textbook</color>. Continue canceling this class?"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.island_word_place = {
 		tip = "Place"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.refresh_shopStreet_ok = {
+		tip = "Manual refresh complete!"
 	}
 end)()
 
@@ -9580,8 +10699,32 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.dal_main_sheet2_en = {
+		tip = "Milestone"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.DAL_upgrade_active = {
+		tip = "Applied"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.SuperBulin2_tip4 = {
 		tip = "Look for the code in the Dorm, bulin!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.DAL_upgrade_ship = {
+		tip = "Upgrade Airship"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_text_bisimaiz_1 = {
+		tip = "Current Corrosion Level: <color=#92fc63>0</color>"
 	}
 end)()
 
@@ -9592,14 +10735,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tec_catchup_6 = {
-		tip = "Series 6"
+	_G.pg.base.gametip.dal_main_sheet3 = {
+		tip = "Nightmare Rhapsody"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.sure_resume_volume = {
+		tip = "Restore default volume settings?"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.show_design_demand_count = {
-		tip = "Display number required for <color=#92fc63>Dev Lv. 30</color>."
+		tip = "Switch to display amount required for <color=#92fc63>Level 30</color>"
 	}
 end)()
 
@@ -9610,14 +10759,56 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.dal_main_sheet2 = {
+		tip = "Milestone Rewards"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_0 = {
 		tip = "Off"
 	}
 end)()
 
 (function()
+	_G.pg.base.gametip.dal_main_sheet1 = {
+		tip = "Main Page"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_remain_time = {
+		tip = "Time Left"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.fate_unlock_icon_desc = {
+		tip = "* Fate Simulation has been unlocked"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.sculpture_drawline_exit = {
+		tip = "If you quit now, progress won't be saved.(You can try again without spending extra materials)"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.main_mailLayer_quest_clear = {
 		tip = "Would you like to delete all your read mail? <color=#238c40>(Mail with unclaimed items will not be deleted.)</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.DAL_stage_label_analysis_2 = {
+		tip = "Analysis Complete"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_chara_gift_power = {
+		tip = "Stamina Recovery: $1"
 	}
 end)()
 
@@ -9640,8 +10831,54 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.DAL_stage_label_support = {
+		tip = "Aerial Support"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.clue_close_tip = {
+		tip = "Tap the screen to return"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_task_help_2512 = {
+		tip = {
+			{
+				info = "- Regarding Cruise Missions - \n· Two types of missions will be released at the same time at the start of the campaign season:\na) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.\nb) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.\n\n· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.\n\n· You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.\nWe do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.\nAny purchased Cruise Mission Vouchers will remain even after the campaign season ends."
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.index_all = {
+		tip = "All"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_main_tip_2512 = {
+		tip = "Complete seasonal missions <icon name=pt w=0.5 h=0.5/> during the 2025.12.1 - 2026.1.31 Cruise Mission season and obtain rewards such as <color=#854747>Boise META</color> and more!"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.technology_refresh_sucess = {
 		tip = "Successfully updated Research Project list."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blackfriday_luckybag_165 = {
+		tip = "After purchasing this Lucky Bag, you can collect 1 Skin Discount Coupon (300 Gems Off) on the event page that can be used on any featured skin in the Black Friday Campaign. The coupon expires when the campaign ends.\nThe Lucky Bag contains 1 random Live2D skin in the Black Friday Campaign rerun skin list that you do not yet own (if you already own all the listed skins, you will receive Gems x1080 instead), as well as Coins x2,000, Oil x1,000, and Cognitive Chips x20."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.notify_clock_tip = {
+		tip = ""
 	}
 end)()
 
@@ -9670,6 +10907,22 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.black5_bundle_help = {
+		tip = {
+			{
+				info = "If you have already purchased some of these skins, you can pay the price difference to get the rest of the pack's content.\n*The Outfit Coupon cannot be used when purchasing this pack, but it can be applied to individual skins in the skin shop."
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blackfriday_battlepass_rewards = {
+		tip = "REWARDS"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.world_task_maplock = {
 		tip = "You may not leave this zone yet because there are still unfinished missions. Please check\"Information\" for more details. Confirm？"
 	}
@@ -9682,8 +10935,36 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.vote_vote_group = {
-		tip = "Group $1"
+	_G.pg.base.gametip.blackfriday_battlepass_mission = {
+		tip = "MISSIONS"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_main_pos = {
+		tip = "Command Cat"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_search_new = {
+		tip = "Tap to Search"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_emptyBlock = {
+		tip = "The required weapon is not equipped"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blackfriday_battlepass_main_help_1113 = {
+		tip = {
+			{
+				info = "Black Friday Cruise Missions\n2025/11/13 00:00 – 2025/12/3 23:59\n\n- Overview -\n\"Black Friday Cruise Missions\" is a special campaign where you can complete special missions, collect BF Progress Pts., and obtain great rewards for reaching certain Progress milestones.\nAdditionally, you can unlock an additional set of \"Black Friday Cruise\" rewards by purchasing the \"Black Friday Cruise Pass\" item from Akashi's shop.\n\n\n- How to Play -\n· Two types of missions will be released at the same time at the start of the campaign season:\na) Daily Missions - Missions unlocked in batches every day during the campaign, for a total of 12 batches.\nb) SP Missions - One set of missions available for the entire campaign, available from the start of the campaign.\n· All of the above missions are automatically active, and when you open the Black Friday Cruise Missions menu, you will automatically obtain BF Progress Pts. for any missions you've completed.\n· If you purchase the Black Friday Cruise Pass, you will automatically receive <color=#ff5c5c>200 BF Progress Pts.</color>\n· You can purchase the Black Friday Cruise Pass up until 1 hour before the campaign ends, i.e. 2025/12/3 22:59:59.\n· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:\na) Base Rewards - Rewards that can be obtained based on the total number of accumulated BF Progress Pts. There are a total of 15 levels. Base Rewards include <color=#ff5c5c>Skin Coupon (BF Cruise Missions)</color>, <color=#ff5c5c>Special General Blueprint - Series 8</color> and more.\nb) Bonus Rewards - An additional set of rewards that will be unlocked when you purchase a Black Friday Cruise Pass. As with the Base Rewards, there are a total of 15 levels, and they can be collected alongside Base Rewards at the same Progress level. Bonus Rewards include <color=#ff5c5c>Wisdom Cubes</color>, <color=#ff5c5c>Gems</color> and more.\n\n- Tips - \n· When the campaign ends, you cannot continue completing the missions or collecting the rewards. Please take note of the campaign period and collect the rewards on time.\n· BF Progress Pts. and Black Friday Cruise Pass only apply to the Black Friday Cruise Missions Campaign, and not to any other Cruise Missions Campaign."
+			}
+		}
 	}
 end)()
 
@@ -9708,6 +10989,30 @@ end)()
 (function()
 	_G.pg.base.gametip.mail_boxroom_page = {
 		tip = "Archive"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blackfriday_cruise_btn_pay = {
+		tip = "Unlock Bonus Rewards"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blackfriday_battlepass_main_time_title = {
+		tip = "Time Remaining:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blackfriday_cruise_title_1113 = {
+		tip = "Black Friday Cruise Missions"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blackfriday_cruise_phase_title = {
+		tip = "Phase"
 	}
 end)()
 
@@ -9746,14 +11051,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_instruction_supply_1 = {
-		tip = "未配置tip"
+	_G.pg.base.gametip.pray_build_select_ship_instruction = {
+		tip = "Select 2 shipgirls."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blackfriday_battlepass_pay_tip = {
+		tip = "Purchase to unlock these Bonus Rewards:"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.technology_queue_complete = {
 		tip = "Complete"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blackfriday_cruise_task_day = {
+		tip = "Day $1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blackfriday_cruise_task_tips = {
+		tip = "Completed"
 	}
 end)()
 
@@ -9766,6 +11089,18 @@ end)()
 (function()
 	_G.pg.base.gametip.caibulin_tip3 = {
 		tip = "Maybe you'll find something in 2-2 of the Main Campaign, bulin?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.skinshop_on_sale_tip_2 = {
+		tip = "Lucky Bag on Sale"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.skinshop_on_sale_tip = {
+		tip = "Packs on Sale"
 	}
 end)()
 
@@ -9852,8 +11187,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.black5_bundle_button = {
+		tip = "Packs"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.battle_text_luodeni_3 = {
 		tip = "Rodney META <color=#ffc038>cannot use the skill Rodney's Demise</color> while she still has phantoms."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.black5_bundle_receive = {
+		tip = "Claim Bonus"
 	}
 end)()
 
@@ -9870,8 +11217,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_getbox_title = {
-		tip = "Claim Mail"
+	_G.pg.base.gametip.black5_bundle_popup = {
+		tip = "Do you want to spend <color=#92fc63>$1</color> Gems to receive <color=#92fc63>$2</color>?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.touch_body = {
+		tip = "Interact"
 	}
 end)()
 
@@ -9900,6 +11253,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.ship_exchange_medalCount_noEnough = {
+		tip = "You don't have enough Medals."
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.setting_resdownload_title_sound = {
 		tip = "Update Voices"
 	}
@@ -9912,6 +11271,18 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.black5_bundle_tip = {
+		tip = "Purchase to Receive All"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_spoperation_item_2602_1 = {
+		tip = "Spring Bamboo Shoots"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.Valentine_minigame_label1 = {
 		tip = "Score:"
 	}
@@ -9920,6 +11291,12 @@ end)()
 (function()
 	_G.pg.base.gametip.commander_choice_talent_4 = {
 		tip = "Meowfficer Talents can be improved by using Talent Points"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveletter_exchange_tip2 = {
+		tip = "Please retry after collecting the Valentine's gift."
 	}
 end)()
 
@@ -9960,8 +11337,26 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.item_type16_tip1 = {
+		tip = "Contents"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_item_type_consume = {
+		tip = "Consumables"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.world_instruction_submarine_3 = {
 		tip = "The submarine fleet is already sortieing."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.general_activity_side_bar2 = {
+		tip = "Port Fashion Collection"
 	}
 end)()
 
@@ -9974,6 +11369,12 @@ end)()
 (function()
 	_G.pg.base.gametip.guild_tech_livness_no_enough = {
 		tip = "This facility's upgrade cost is increased because you currently need <color=#ff5c5c>$1</color> more Guild Contribution points. Do you want to continue with the facility upgrade?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.general_activity_side_bar1 = {
+		tip = "Pit Stop Standby"
 	}
 end)()
 
@@ -10014,6 +11415,18 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_cancel_follow_success = {
+		tip = "Unfollow"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_order_ship_exchange_tip_1 = {
+		tip = "Do you want to update the jobs list? (If you have submitted any materials, they will not be reimbursed, and your transport job attempt will be deducted.)"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.cook_game_noshiro = {
 		tip = "Scores 1 point for serving the wrong dessert!"
 	}
@@ -10032,14 +11445,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.words_information = {
-		tip = "Info"
+	_G.pg.base.gametip.tec_target_need_print = {
+		tip = "Required BPs:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_automode_start_tip1 = {
+		tip = "No zones meet the set conditions."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_order_ship_exchange_tip_2 = {
+		tip = "Insufficient number of transport job attempts"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip["airi_error_code_ 100711"] = {
 		tip = "TW The account is not binded to any user"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveactivity_ui_4_3 = {
+		tip = "Give <color=#3DC6FFFF>$1</color> an additional <color=#3DC6FFFF>1500</color> Sweet Memories?\nOnce given, this <color=#FF5C5CFF>cannot be changed</color>. Make sure you've selected the correct shipgirl."
 	}
 end)()
 
@@ -10056,8 +11487,26 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_fishing_exit = {
+		tip = "Do you want to stop fishing?"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.world_setting_mapauto = {
 		tip = "Default to Auto Mode in secured zones"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.Outpost_20250904_Title1 = {
+		tip = "Call to Arms"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_fishing_tip_hooked = {
+		tip = "A fish is on the hook!"
 	}
 end)()
 
@@ -10116,8 +11565,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.item_is_max_cnt = {
+		tip = "You cannot obtain more of this."
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.words_display_ship_get_effect = {
 		tip = "Identical Ships"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_order_ship_exchange_tip = {
+		tip = "Do you want to change to a new transport job?"
 	}
 end)()
 
@@ -10130,6 +11591,18 @@ end)()
 (function()
 	_G.pg.base.gametip.dailyLevel_quickfinish = {
 		tip = "Carrying out quick battles will grant rewards according to the total number of battle attempts.\nCommander EXP and Ship EXP will not be granted from quick battles, and Morale/Affection will not be affected.\nAre you sure you want to continue? "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_trade_activity_desc_2 = {
+		tip = "Pearls can be bought from Peary. The selling and purchase price of pearls changes every day."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.naval_academy_res_desc_class = {
+		tip = "Upgrading the Lecture Hall will increase <color=#92fc63>Proficiency Limit</color>, <color=#92fc63>Proficiency Gain Rate</color>, and <color=#92fc63>EXP Data Production</color>."
 	}
 end)()
 
@@ -10158,14 +11631,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_order_ship_sel_delegate_label = {
+		tip = "- Tap to Select Job -"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.couplete_stay = {
 		tip = "Do you need a hint, Commander?"
 	}
 end)()
 
 (function()
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate1 = {
+		tip = "Expert"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_ship_order_delegate_auto_refresh_label = {
+		tip = "There are no transport jobs you can accept."
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.common_play = {
 		tip = "Play"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_ship_order_toggle_label_request = {
+		tip = "Cost"
 	}
 end)()
 
@@ -10188,14 +11685,56 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.battle_text_bisimaiz_2 = {
+		tip = "Current Corrosion Level: <color=#f1f102>1</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.zengke_series_pt = {
+		tip = "Total"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.tech_package_tip = {
 		tip = "The PR Voucher can only be bought once for each series. You may buy the Blueprints separately after buying the Voucher.\nThe items will be sent to your Mailbox."
 	}
 end)()
 
 (function()
+	_G.pg.base.gametip.roll_noname = {
+		tip = "You need to name your investigator first."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shop_sell_ended = {
+		tip = "Unavailable"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_enhancement_required = {
+		tip = "Materials Needed:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_enhancement_title = {
+		tip = "Enhance"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.holiday_tip_task = {
 		tip = "Missions"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_enhancement_finish = {
+		tip = "Enhanced"
 	}
 end)()
 
@@ -10218,8 +11757,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.backyard_shipExit_error = {
+		tip = "Failed to leave dorm: "
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.couplete_enter = {
 		tip = "Shall we complete a rhyming couplet?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_enhancement_lv1 = {
+		tip = "Enhance +1"
 	}
 end)()
 
@@ -10248,8 +11799,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.attribute_expend = {
-		tip = "OIL "
+	_G.pg.base.gametip.battle_result_max_combo = {
+		tip = "Max COMBO:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ranking_word_3 = {
+		tip = "Promises Made"
 	}
 end)()
 
@@ -10260,8 +11817,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.meta_reproduce_btn = {
+		tip = "Would you like to simulate a battle of the current META showdown? \nDifficulty: Lv. 15\n* Simulated battles cost no Oil and give no rewards."
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.world_level_prefix = {
 		tip = "LV.$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_replay_tip = {
+		tip = "A game interruption was detected. Do you want to return to prior to the interruption? (Press the Return button to go back to the previous screen.)"
 	}
 end)()
 
@@ -10302,20 +11871,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_visit_tip2 = {
+		tip = "The island does not permit visitors."
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.storyline_chapter2 = {
 		tip = "Chapter 2"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_resourceSiteMediator_shipState_fight = {
-		tip = "She's currently <color=#92fc63>in battle</color>!"
+	_G.pg.base.gametip.new_airi_error_code_200420 = {
+		tip = "Payment incomplete"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.battle_preCombatLayer_quest_leaveFleet = {
 		tip = "Remove <color=#92fc63>$1</color> from formation?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_word_commder = {
+		tip = "Admiral"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_quickselect_tip = {
+		tip = "* Press and hold the icon to quickly increase the amount used"
 	}
 end)()
 
@@ -10344,8 +11931,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_selectall = {
+		tip = "All"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_expand = {
+		tip = "Expand"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.sculpture_drawline_tip = {
 		tip = "Trace the dotted line to follow the design!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_chara_attr_help = {
+		tip = "1. The higher a character's <color=#39bfff>stats</color> are, the higher their corresponding <color=#39bfff>grade</color> will be.\n2. A character with a high <color=#39bfff>grade</color> works with <color=#39bfff>superior efficiency</color> when performing a task <color=#39bfff>related to that stat</color>.\n3.<color=#39bfff>Grades</color> are defined as follows based on the <color=#39bfff>stat</color> in question:\n\t<color=#E79CC6>S</color> Stat>=200\n\t<color=#FFDC1C>A</color> 120<=Stat<200\n\t<color=#B7A4FF>B</color> 80<=Stat<120\n\t<color=#97CFF6>C</color> 50<=Stat<80\n\t<color=#757577>D</color> 25<=Stat<50\n\t<color=#757577>E</color> 0<=Stat<25"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_shop_tag8 = {
+		tip = "Unlock Tights Interaction"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.submarine_support_oil_consume_tip = {
+		tip = "Sending your supporting Submarine Fleet into battle will cost $1 Oil. Continue?"
 	}
 end)()
 
@@ -10362,14 +11979,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_89904 = {
-		tip = "<size=28>\nWould you like to start a Battle Simulation?\n(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)\nEquipment: <color=#92fc63>\nTriple 152mm Mle1930 Main Gun Mount (HE)\n550mm Triple Torpedo Mount\nTwin 57mm/L60 Bofors Mle 1951 AA Gun Mount</color></size>"
+	_G.pg.base.gametip.blueprint_simulation_confirm_39904 = {
+		tip = "<size=28>Would you like to start a Battle Simulation? <color=#ff5c5c>Note: the Priority ship's stats and abilities may differ from its fully developed equivalent.</color>\nEquipped gear:<color=#92fc63>\nPrototype Triple 310mm Main Gun (Type 0)\nTwin 100mm (Type 98) AA Gun\nPrototype 40mm AA Gun (Type 5)</color></size>"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.shop_new_able_to_exchange = {
 		tip = "Can be exchanged"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_shiporder_refresh_preparing = {
+		tip = "Refreshing Transport Jobs"
 	}
 end)()
 
@@ -10398,6 +12021,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_shiporder_refresh_tip2 = {
+		tip = "Do you want to refresh your transport jobs?"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.new_airi_error_code_400020 = {
 		tip = "Nintendo authorization failed"
 	}
@@ -10406,6 +12035,12 @@ end)()
 (function()
 	_G.pg.base.gametip.warning_mail_max_2 = {
 		tip = "Your mailbox is full!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.limit_skin_time_day = {
+		tip = "Time left: $1 day(s)"
 	}
 end)()
 
@@ -10434,6 +12069,22 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_helpbtn_card = {
+		tip = {
+			{
+				info = "Information about the island is displayed on your profile. You can use the <color=#39bfff>Chat</color> and <color=#39bfff>Visit</color> functions to view other Commanders' profiles.\n<color=#E58A00>Achievements</color>: Tap to display the <color=#39bfff>achievements</color> you've completed on your profile.\n<color=#E58A00>Rename Island</color>: Tap to change the name of your island.\n<color=#E58A00>Change Greeting</color>: Tap to change the greeting displayed on your profile.\n<color=#E58A00>Tag Settings</color>: Tap to view the rating tags you've received.\n<color=#E58A00>Island Photos</color>: Tap to change your displayed island photos."
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_helpbtn_speedup = {
+		tip = "You can use Express Tickets to speed up things like <color=#39bfff>the production time of an assigned slot</color>, <color=#39bfff>the refresh time of an island request</color>, and so on.\n\nDifferent tickets <color=#39bfff>speed the process up by different amounts of time</color>. Any excess time reduction <color=#FD5650>will not be reimbursed</color>. Furthermore, Express Tickets have <color=#39bfff>expiration dates</color>, and they will <color=#FD5650>expire</color> once you reach this limit."
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.cattery_settlement_dialogue_1 = {
 		tip = "While you were gone for"
 	}
@@ -10442,6 +12093,18 @@ end)()
 (function()
 	_G.pg.base.gametip.word_shipNation_um = {
 		tip = "Utawarerumono "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_helpbtn_commission = {
+		tip = "The Manage All menu lets you check on the status of your <color=#39bfff>Production</color>, <color=#39bfff>Management</color>, and <color=#39bfff>Daily Supplies</color>, as well as letting you manage each.\n<color=#E58A00>Production</color>: Tap the <color=#39bfff>assignment slots</color> to assign characters and claim produce. Tap the <color=#39bfff>button to swap</color> to alternate between the respective options.\n<color=#E58A00>Management</color>: Tap the <color=#39bfff>Manage</color> button to view what staff you have assigned as well as what dishes you're selling. Tap the button to <color=#39bfff>Open Business</color> to collect your revenue.\n<color=#E58A00>Supplies</color>: Tap the <color=#39bfff>Supplies</color> button to instantly jump to the collection site on Get-Together Island."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_helpbtn_order = {
+		tip = "<color=#E58A00>Island Requests</color>: Spending the designated <color=#39bfff>resources</color> will complete the request. Completing requests gives you <color=#39bfff>Development Funds</color> and <color=#39bfff>Island Dev. EXP</color>.\n<color=#E58A00>Urgent Requests</color>: Urgent Requests are unlocked after you research them in <color=#39bfff>Tech Research</color>. They have a chance of appearing when <color=#39bfff>time passes</color>, when you <color=#39bfff>complete regular requests</color>, and when you undertake <color=#39bfff>transport jobs</color>.\n<color=#E58A00>Island Request Limit</color>: Regular requests and urgent requests have separate caps as to how many you can complete in a certain period. The regular requests limit is reset <color=#39bfff>daily</color>, while the urgent requests limit is reset <color=#39bfff>weekly</color>.\n<color=#E58A00>Request Preference</color>: This allows you to change the difficulty of the island requests that appear. The change will take effect starting from <color=#39bfff>the next time that requests are issued</color>."
 	}
 end)()
 
@@ -10458,8 +12121,18 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_result_sink_limit = {
-		tip = "Lose less than $1 ships"
+	_G.pg.base.gametip.sevenday_nianye = {
+		tip = {
+			{
+				info = "During the event, log in every day and tap the button on the right-hand side of the screen to prepare the menu item of the day.\nDifferent foods will randomly appear over the event period, but all 7 types of food will appear.\nAll Commanders will receive the same rewards by the end of the 7-day period."
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_result_time_limit = {
+		tip = "Destroy all enemies within $1 seconds"
 	}
 end)()
 
@@ -10482,8 +12155,26 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.danmachi_award_unget = {
+		tip = "Unobtained"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.danmachi_award_name2 = {
+		tip = "Ryu Lion"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.ship_formationUI_fleetName_extra = {
 		tip = "EX"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.danmachi_award_name1 = {
+		tip = "Hestia"
 	}
 end)()
 
@@ -10512,8 +12203,26 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.danmachi_award_4 = {
+		tip = "Augments"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.equipment_upgrade_initial_node = {
 		tip = "This gear can't be created in Gear Lab "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.danmachi_award_3 = {
+		tip = "Gear Skins"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.danmachi_award_1 = {
+		tip = "Shipgirl"
 	}
 end)()
 
@@ -10530,8 +12239,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.danmachi_main_time = {
+		tip = "$1 hour(s) left"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.word_materal_no_enough = {
 		tip = "You don't have enough materials."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.danmachi_main_sheet5 = {
+		tip = "Reward List"
 	}
 end)()
 
@@ -10554,14 +12275,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.danmachi_main_sheet4 = {
+		tip = "Story"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.danmachi_main_sheet3 = {
+		tip = "Ryu Lion"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.archives_boss_was_opened = {
 		tip = "Dossier Analysis is in progress. Unable to begin a standard META Showdown."
 	}
 end)()
 
 (function()
+	_G.pg.base.gametip.danmachi_main_sheet2 = {
+		tip = "Hestia"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.login_loginScene_choiseServer = {
 		tip = "Please select a server."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.file_down_msgbox = {
+		tip = "Assets needed for the game's bootup are missing. \nWould you like to download <color=#92fc63>$1</color> of data?"
 	}
 end)()
 
@@ -10580,6 +12325,12 @@ end)()
 (function()
 	_G.pg.base.gametip.package_view_1 = {
 		tip = "Trade License purchased! You received the following:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_dresscolorunlock = {
+		tip = "Unlock"
 	}
 end)()
 
@@ -10618,6 +12369,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_dresscolorunlock_tips = {
+		tip = "Unlock Consumes"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.word_succeed = {
 		tip = "Success"
 	}
@@ -10626,6 +12383,42 @@ end)()
 (function()
 	_G.pg.base.gametip.tip_account_del_reborn = {
 		tip = "Your account deletion request has been canceled."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_shipselect_confirm = {
+		tip = "Confirm "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_setmeal_title = {
+		tip = "Combo Guide"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_inventory_tip = {
+		tip = "Converted After the Reset"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_commontips_close = {
+		tip = "Tap the Screen to Close"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.show_fate_demand_count = {
+		tip = "Switch to display amount required for <color=#92fc63>Fate Simulation</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_agora_no_interact_point = {
+		tip = "You cannot interact with this."
 	}
 end)()
 
@@ -10642,20 +12435,44 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_combo_produced = {
+		tip = "Make"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_manage_item_select = {
+		tip = "Food Selected"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_btn_label_visit = {
+		tip = "Visit"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.word_shipNation_meta = {
 		tip = "???"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_not_exist = {
-		tip = "This Meowfficer does not exist."
+	_G.pg.base.gametip.elite_disable_formation_unsatisfied = {
+		tip = "Formation requirements not met. Unable to attack."
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.msgbox_text_iknow = {
 		tip = "Got it"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_guide_help_npc = {
+		tip = "Unlocking development team-related on the island gives you Collection Points. Once you accumulate enough points, your Collection Level will increase, and you'll receive the corresponding Collection Rewards: \nInteract with development team members to unlock the Collection and receive Collection Points."
 	}
 end)()
 
@@ -10708,6 +12525,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_additional_production_tip2 = {
+		tip = "No more can be added as the current production is done."
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.cook_game_howe = {
 		tip = "50% chance for 1 bonus point after serving the right dessert!"
 	}
@@ -10720,14 +12543,72 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_agora_no_size = {
+		tip = "No vacancies available."
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.msgbox_text_apply = {
 		tip = "Send"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dailyLevel_restCount_notEnough = {
-		tip = "You're out of daily stage challenges. "
+	_G.pg.base.gametip.compensate_ui_nothing2 = {
+		tip = "No compensation received yet"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_supportfleet_16_submarine = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/supportfleet_submarine_help1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/supportfleet_submarine_help2",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_dress_initial_makesure = {
+		tip = "Confirm "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.exchangecode_use_error_9 = {
+		tip = "Code does not exist."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.autofight_onceagain = {
+		tip = "Continue"
 	}
 end)()
 
@@ -10784,14 +12665,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_sell_ended = {
-		tip = "Unavailable "
+	_G.pg.base.gametip.dorm3d_dafeng_bed = {
+		tip = "Bedroom"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_stop_success = {
-		tip = "Successfully suspended development."
+	_G.pg.base.gametip.dorm3d_dafeng_chair = {
+		tip = "Living Room"
 	}
 end)()
 
@@ -10802,14 +12683,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_chara_attr_help = {
-		tip = "1. The higher a character's <color=#39bfff>stats</color> are, the higher their corresponding <color=#39bfff>grade</color> will be.\n2. A character with a high <color=#39bfff>grade</color> works with <color=#39bfff>superior efficiency</color> when performing a task <color=#39bfff>related to that stat</color>.\n3.<color=#39bfff>Grades</color> are defined as follows based on the <color=#39bfff>stat</color> in question:\n\t<color=#E79CC6>S</color> Stat>=200\n\t<color=#FFDC1C>A</color> 120<=Stat<200\n\t<color=#B7A4FF>B</color> 80<=Stat<120\n\t<color=#97CFF6>C</color> 50<=Stat<80\n\t<color=#757577>D</color> 25<=Stat<50\n\t<color=#757577>E</color> 0<=Stat<25"
+	_G.pg.base.gametip.dorm3d_publicroom_unlock = {
+		tip = "You need to unlock shared areas first."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_shop_tag8 = {
-		tip = "Unlock Tights Interaction"
+	_G.pg.base.gametip.island_ship_buff_cover_2 = {
+		tip = "There is a stronger buff available. Do you want to use this gift?"
 	}
 end)()
 
@@ -10826,8 +12707,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visitor_record = {
-		tip = "Visit Log"
+	_G.pg.base.gametip.island_card_no_label_tip = {
+		tip = "You have not received any rating tags."
 	}
 end)()
 
@@ -10838,8 +12719,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_shiporder_refresh_preparing = {
-		tip = "Refreshing Transport Jobs"
+	_G.pg.base.gametip.holiday_villa_locked = {
+		tip = "Unlocks after completing the <color=#92fc63>The Villa Vacation</color> event."
 	}
 end)()
 
@@ -10854,8 +12735,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_shiporder_refresh_tip2 = {
-		tip = "Do you want to refresh your transport jobs?"
+	_G.pg.base.gametip.playerinfo_ship_is_already_flagship = {
+		tip = "She's already your Secretary!"
 	}
 end)()
 
@@ -10866,8 +12747,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.personal_random_tip = {
-		tip = "Unlocks after <color=#92fc63>reading the story</color>."
+	_G.pg.base.gametip.SardiniaSPCoreActivityUI_subtitle_1 = {
+		tip = "Light & Shadow"
 	}
 end)()
 
@@ -10884,12 +12765,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_helpbtn_card = {
-		tip = {
-			{
-				info = "Information about the island is displayed on your profile. You can use the <color=#39bfff>Chat</color> and <color=#39bfff>Visit</color> functions to view other Commanders' profiles.\n<color=#E58A00>Achievements</color>: Tap to display the <color=#39bfff>achievements</color> you've completed on your profile.\n<color=#E58A00>Rename Island</color>: Tap to change the name of your island.\n<color=#E58A00>Change Greeting</color>: Tap to change the greeting displayed on your profile.\n<color=#E58A00>Tag Settings</color>: Tap to view the rating tags you've received.\n<color=#E58A00>Island Photos</color>: Tap to change your displayed island photos."
-			}
-		}
+	_G.pg.base.gametip.island_spoperation_btn_2509_3 = {
+		tip = "Event Manager"
 	}
 end)()
 
@@ -10912,8 +12789,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_helpbtn_speedup = {
-		tip = "You can use Express Tickets to speed up things like <color=#39bfff>the production time of an assigned slot</color>, <color=#39bfff>the refresh time of an island request</color>, and so on.\n\nDifferent tickets <color=#39bfff>speed the process up by different amounts of time</color>. Any excess time reduction <color=#FD5650>will not be reimbursed</color>. Furthermore, Express Tickets have <color=#39bfff>expiration dates</color>, and they will <color=#FD5650>expire</color> once you reach this limit."
+	_G.pg.base.gametip.ninja_game_ptcount = {
+		tip = "Remaining:"
 	}
 end)()
 
@@ -10936,20 +12813,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_helpbtn_commission = {
-		tip = "The Manage All menu lets you check on the status of your <color=#39bfff>Production</color>, <color=#39bfff>Management</color>, and <color=#39bfff>Daily Supplies</color>, as well as letting you manage each.\n<color=#E58A00>Production</color>: Tap the <color=#39bfff>assignment slots</color> to assign characters and claim produce. Tap the <color=#39bfff>button to swap</color> to alternate between the respective options.\n<color=#E58A00>Management</color>: Tap the <color=#39bfff>Manage</color> button to view what staff you have assigned as well as what dishes you're selling. Tap the button to <color=#39bfff>Open Business</color> to collect your revenue.\n<color=#E58A00>Supplies</color>: Tap the <color=#39bfff>Supplies</color> button to instantly jump to the collection site on Get-Together Island."
+	_G.pg.base.gametip.ninja_game_update_failed = {
+		tip = "Insufficient materials. Complete missions and do Castle Defense to gain some."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_helpbtn_order = {
-		tip = "<color=#E58A00>Island Requests</color>: Spending the designated <color=#39bfff>resources</color> will complete the request. Completing requests gives you <color=#39bfff>Development Funds</color> and <color=#39bfff>Island Dev. EXP</color>.\n<color=#E58A00>Urgent Requests</color>: Urgent Requests are unlocked after you research them in <color=#39bfff>Tech Research</color>. They have a chance of appearing when <color=#39bfff>time passes</color>, when you <color=#39bfff>complete regular requests</color>, and when you undertake <color=#39bfff>transport jobs</color>.\n<color=#E58A00>Island Request Limit</color>: Regular requests and urgent requests have separate caps as to how many you can complete in a certain period. The regular requests limit is reset <color=#39bfff>daily</color>, while the urgent requests limit is reset <color=#39bfff>weekly</color>.\n<color=#E58A00>Request Preference</color>: This allows you to change the difficulty of the island requests that appear. The change will take effect starting from <color=#39bfff>the next time that requests are issued</color>."
+	_G.pg.base.gametip.no_open_system_tip = {
+		tip = "Reach Commander <color=#92fc63>lv. $2</color> to unlock <color=#92fc63>$1</color>."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.settings_enable_standby_mode = {
-		tip = "Enable Idle Screen"
+	_G.pg.base.gametip.word_equipDestory = {
+		tip = "Destroy"
 	}
 end)()
 
@@ -10966,14 +12843,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.danmachi_award_unget = {
-		tip = "Unobtained"
+	_G.pg.base.gametip.island_production_speed_addition2 = {
+		tip = "Skill Effect"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.danmachi_award_name2 = {
-		tip = "Ryu Lion"
+	_G.pg.base.gametip.ninja_game_buffcost = {
+		tip = "Next Level in"
 	}
 end)()
 
@@ -10984,8 +12861,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.danmachi_award_name1 = {
-		tip = "Hestia"
+	_G.pg.base.gametip.ninja_game_buffeffect = {
+		tip = "Active Buffs"
 	}
 end)()
 
@@ -10996,8 +12873,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.danmachi_award_4 = {
-		tip = "Augments"
+	_G.pg.base.gametip.island_trade_share_success = {
+		tip = "Invitation successful"
 	}
 end)()
 
@@ -11018,20 +12895,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.danmachi_award_3 = {
-		tip = "Gear Skins"
+	_G.pg.base.gametip.ninja_game_dps = {
+		tip = "Damage Per Second:"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.danmachi_award_1 = {
-		tip = "Shipgirl"
+	_G.pg.base.gametip.ninja_game_allydmg = {
+		tip = "Troop Damage:"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.danmachi_main_time = {
-		tip = "$1 hour(s) left"
+	_G.pg.base.gametip.ninja_game_citydmg = {
+		tip = "Facility Damage:"
 	}
 end)()
 
@@ -11054,14 +12931,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.danmachi_main_sheet5 = {
-		tip = "Reward List"
+	_G.pg.base.gametip.ninja_game_allycost = {
+		tip = "Recruitment Cost"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.danmachi_main_sheet4 = {
-		tip = "Story"
+	_G.pg.base.gametip.island_production_manually_cancel = {
+		tip = "You are already growing crops. Would you like to stop growing and assign a character?"
 	}
 end)()
 
@@ -11078,14 +12955,33 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.danmachi_main_sheet3 = {
-		tip = "Ryu Lion"
+	_G.pg.base.gametip.ninja_game_citylevel = {
+		tip = "Repair Progress"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.danmachi_main_sheet2 = {
-		tip = "Hestia"
+	_G.pg.base.gametip.ninja_game_helper = {
+		tip = {
+			{
+				info = "- Turmoil in the Ninja Castle Overview -"
+			},
+			{
+				info = "This event is available between <color=#92fc63>September 12th, 2025 and October 2nd, 2025.</color>"
+			},
+			{
+				info = "<b>1. Turmoil in the Ninja Castle</b>\n· Complete the Castle Defense mission and defeat enemies to obtain materials to repair the castle and recruit troops. As you restore the castle and grow your ranks, you'll gain progress and unlock new parts of the story.\n· Participate in the event to earn rewards such as exclusive furniture, gear skins, Dream Stone (UR Voucher), and Amahara Phoenix Feathers (event PT)."
+			},
+			{
+				info = "<b>2. Castle Defense</b>\n· Crush all the assailants on your castle to earn rewards!\n· In this minigame, your troops and defensive facilities will attack the enemies automatically. The enemies drop materials to repair your castle with upon defeat. The first time you clear a certain number of waves, you'll also receive bonus rewards. You can defeat all the enemies in a single wave and move on, or you can take on an endless horde of enemies.\n- Increasing the level of your defenses will help you defeat enemies more efficiently.\n- The battle will continue even if you leave the Castle Defense screen or turn the game off; your rewards will accumulate automatically."
+			},
+			{
+				info = "<b>3. Lord's Scroll</b>\n· Open the Lord's Scroll to view how your repairs are coming along, which new buildings you can repair, which troops you've recruited and which are available for recruitment, what level your defenses are at, and perform actions related to each of these things."
+			},
+			{
+				info = "<b>4. Shinobi Secrets</b>\n· Here you can view the stories you've unlocked. You may also view them through the Memories menu."
+			}
+		}
 	}
 end)()
 
@@ -11096,8 +12992,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.indexsort_rarityeng = {
-		tip = "Rarity"
+	_G.pg.base.gametip.mail_storeroom_extend = {
+		tip = "Storage Capacity Increase:"
 	}
 end)()
 
@@ -11108,8 +13004,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.setting_group_prefs_tip = {
-		tip = "Automatically downloaded on bootup."
+	_G.pg.base.gametip.eighth_spring_not_enough = {
+		tip = "Insufficient Onsen Notes."
 	}
 end)()
 
@@ -11126,32 +13022,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_dresscolorunlock = {
-		tip = "Unlock"
+	_G.pg.base.gametip.hotspring_buff = {
+		tip = "Open-Air Onsen|Shipgirls recover Morale faster while bathing."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_dresscolorunlock_tips = {
-		tip = "Unlock Consumes"
+	_G.pg.base.gametip.island_bag_max_tip = {
+		tip = "Your Island Warehouse is full"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_shipselect_confirm = {
-		tip = "Confirm "
+	_G.pg.base.gametip.word_get_emoji = {
+		tip = "「$1」"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_setmeal_title = {
-		tip = "Combo Guide"
+	_G.pg.base.gametip.blueprint_commit_tip = {
+		tip = "$1 will be spent to complete the development mission. Would you like to proceed?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_inventory_tip = {
-		tip = "Converted After the Reset"
+	_G.pg.base.gametip.tolovegame_puzzle_pop_next = {
+		tip = "Next"
 	}
 end)()
 
@@ -11186,8 +13082,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_commontips_close = {
-		tip = "Tap the Screen to Close"
+	_G.pg.base.gametip.activity_return_reward_pt = {
+		tip = "Mobilization Pts:"
 	}
 end)()
 
@@ -11198,8 +13094,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_chuansong = {
-		tip = "Furniture Tokens "
+	_G.pg.base.gametip.please_input_1_99 = {
+		tip = "Enter a number from 1 to 99"
 	}
 end)()
 
@@ -11222,32 +13118,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_no_interact_point = {
-		tip = "You cannot interact with this."
+	_G.pg.base.gametip.word_harbour = {
+		tip = "Port"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_combo_produced = {
-		tip = "Make"
+	_G.pg.base.gametip.activity_ninjia_main_sheet1 = {
+		tip = "Ninja Castle"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_manage_item_select = {
-		tip = "Food Selected"
+	_G.pg.base.gametip.activity_ninjia_main_title_en = {
+		tip = "EVENT"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_formationUI_changeFormationError_countError = {
-		tip = "Not enough ships in fleet."
+	_G.pg.base.gametip.vote_love_confirm = {
+		tip = "Are you sure you want to use a special vote?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.equipskin_typewrong_en = {
-		tip = "Gear Skin Unavailable "
+	_G.pg.base.gametip.activity_ninjia_main_title = {
+		tip = "Event"
 	}
 end)()
 
@@ -11258,8 +13154,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_equipskin_cannon = {
-		tip = "Artillery "
+	_G.pg.base.gametip.ship_remould_warning_201514 = {
+		tip = "Retrofitting this ship will <color=#92fc63>add 1 Anti-Air Gun mount</color> but <color=#92fc63>remove 1 Torpedo mount.</color> \nWould you like to continue? "
 	}
 end)()
 
@@ -11294,20 +13190,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_additional_production_tip2 = {
-		tip = "No more can be added as the current production is done."
+	_G.pg.base.gametip.school_title_xiaoyouxiting = {
+		tip = "Arcade"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_no_size = {
-		tip = "No vacancies available."
+	_G.pg.base.gametip.ninja_buff_effect9 = {
+		tip = "Facilities\nDMG dealt +$1%"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_quality_option_high = {
-		tip = "High"
+	_G.pg.base.gametip.five_shujuhuigu = {
+		tip = "You have not yet unlocked Operation Siren."
 	}
 end)()
 
@@ -11336,32 +13232,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_dress_initial_makesure = {
-		tip = "Confirm "
+	_G.pg.base.gametip.ninja_buff_effect7 = {
+		tip = "Facilities\nDMG dealt +$1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_dafeng_bed = {
-		tip = "Bedroom"
+	_G.pg.base.gametip.ninja_buff_effect6 = {
+		tip = "Upgrades\nNinja Koban cost -$1%"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_dafeng_chair = {
-		tip = "Living Room"
+	_G.pg.base.gametip.dorm3d_reload_favor = {
+		tip = "Intimacy Story"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_publicroom_unlock = {
-		tip = "You need to unlock shared areas first."
+	_G.pg.base.gametip.ninja_buff_effect4 = {
+		tip = "Ninja Koban\nGain +$1%"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_material_ship_on_exist = {
-		tip = "Selected material ship does not exist."
+	_G.pg.base.gametip.ninja_buff_effect3 = {
+		tip = "Enemy\nHP -$1%"
 	}
 end)()
 
@@ -11400,8 +13296,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_card_no_label_tip = {
-		tip = "You have not received any rating tags."
+	_G.pg.base.gametip.ninja_buff_effect2 = {
+		tip = "Active characters\nDMG dealt +$1"
 	}
 end)()
 
@@ -11430,8 +13326,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shadow_skin_change_success = {
-		tip = "Successfully changed the currently projected skin."
+	_G.pg.base.gametip.ninja_buff_effect1 = {
+		tip = "Active characters\nDMG dealt +$1%"
 	}
 end)()
 
@@ -11442,8 +13338,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200180 = {
-		tip = "It takes a long time for searching the purchase result"
+	_G.pg.base.gametip.ninja_buff_name10 = {
+		tip = "Defensive Structures"
 	}
 end)()
 
@@ -11490,8 +13386,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child_attr_name2 = {
-		tip = "Abilities"
+	_G.pg.base.gametip.ninja_buff_name9 = {
+		tip = "Reinforced Watchtowers"
 	}
 end)()
 
@@ -11502,8 +13398,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_draw_A = {
-		tip = "Prize A"
+	_G.pg.base.gametip.roll_reward_got = {
+		tip = "Claimed"
 	}
 end)()
 
@@ -11514,8 +13410,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_game_ptcount = {
-		tip = "Remaining:"
+	_G.pg.base.gametip.valentinesday__txt6_tip = {
+		tip = "The chocolate has been completed. Please enjoy it, Master."
 	}
 end)()
 
@@ -11544,20 +13440,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_game_update_failed = {
-		tip = "Insufficient materials. Complete missions and do Castle Defense to gain some."
+	_G.pg.base.gametip.island_post_event_label = {
+		tip = "Business Event"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_backyardShipInfoLayer_quest_openPos = {
-		tip = "Unlock this row for <color=#92fc63>$1 Gems</color>?"
+	_G.pg.base.gametip.ninja_buff_name4 = {
+		tip = "Wealth Be With us"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.school_title_xiaoyouxiting = {
-		tip = "Arcade"
+	_G.pg.base.gametip.word_status_inEvent = {
+		tip = "In action"
 	}
 end)()
 
@@ -11590,14 +13486,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_game_buffcost = {
-		tip = "Next Level in"
+	_G.pg.base.gametip.ninja_buff_name2 = {
+		tip = "Unity Through Force"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_game_buffeffect = {
-		tip = "Active Buffs"
+	_G.pg.base.gametip.ninja_buff_name1 = {
+		tip = "Pushing Past the Limit"
 	}
 end)()
 
@@ -11614,44 +13510,44 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_game_income = {
-		tip = "Obtained:"
+	_G.pg.base.gametip.live2d_reset_desc = {
+		tip = "L2D Settings have been reset."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_game_dps = {
-		tip = "Damage Per Second:"
+	_G.pg.base.gametip.outpost_20250904_Title1 = {
+		tip = "Event"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_game_allydmg = {
-		tip = "Troop Damage:"
+	_G.pg.base.gametip.player_name_change_time_lv_tip = {
+		tip = "Identity Change will be available when you reach lv.<color=#92fc63>$1</color>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_game_citydmg = {
-		tip = "Facility Damage:"
+	_G.pg.base.gametip.new_airi_error_code_200141 = {
+		tip = "Order creation failed: Purchase currency is not supported"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_game_allycost = {
-		tip = "Recruitment Cost"
+	_G.pg.base.gametip.Outpost_20250904_Progress = {
+		tip = "Progress"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_card_label_done = {
-		tip = "You've already given a rating this week."
+	_G.pg.base.gametip.child_close_tip = {
+		tip = "Tap anywhere to return"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_game_citylevel = {
-		tip = "Repair Progress"
+	_G.pg.base.gametip.island_fishing_tip_escape = {
+		tip = "The fish got away..."
 	}
 end)()
 
@@ -11680,27 +13576,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_game_helper = {
-		tip = {
-			{
-				info = "- Turmoil in the Ninja Castle Overview -"
-			},
-			{
-				info = "This event is available between <color=#92fc63>September 12th, 2025 and October 2nd, 2025.</color>"
-			},
-			{
-				info = "<b>1. Turmoil in the Ninja Castle</b>\n· Complete the Castle Defense mission and defeat enemies to obtain materials to repair the castle and recruit troops. As you restore the castle and grow your ranks, you'll gain progress and unlock new parts of the story.\n· Participate in the event to earn rewards such as exclusive furniture, gear skins, Dream Stone (UR Voucher), and Amahara Phoenix Feathers (event PT)."
-			},
-			{
-				info = "<b>2. Castle Defense</b>\n· Crush all the assailants on your castle to earn rewards!\n· In this minigame, your troops and defensive facilities will attack the enemies automatically. The enemies drop materials to repair your castle with upon defeat. The first time you clear a certain number of waves, you'll also receive bonus rewards. You can defeat all the enemies in a single wave and move on, or you can take on an endless horde of enemies.\n- Increasing the level of your defenses will help you defeat enemies more efficiently.\n- The battle will continue even if you leave the Castle Defense screen or turn the game off; your rewards will accumulate automatically."
-			},
-			{
-				info = "<b>3. Lord's Scroll</b>\n· Open the Lord's Scroll to view how your repairs are coming along, which new buildings you can repair, which troops you've recruited and which are available for recruitment, what level your defenses are at, and perform actions related to each of these things."
-			},
-			{
-				info = "<b>4. Shinobi Secrets</b>\n· Here you can view the stories you've unlocked. You may also view them through the Memories menu."
-			}
-		}
+	_G.pg.base.gametip.island_no_activity = {
+		tip = "No Events Available"
 	}
 end)()
 
@@ -11711,14 +13588,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.eighth_spring_not_enough = {
-		tip = "Insufficient Onsen Notes."
+	_G.pg.base.gametip.Outpost_20250904_Sidebar4 = {
+		tip = "Call to Arms"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_skin = {
-		tip = "Skins"
+	_G.pg.base.gametip.new_airi_error_code_100803 = {
+		tip = "Callback URL exceeds its maximum characters"
 	}
 end)()
 
@@ -11741,8 +13618,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.other_world_temple_toggle_2 = {
-		tip = "Statue of Harvest"
+	_G.pg.base.gametip.island_activity_expired = {
+		tip = "Event Has Ended"
 	}
 end)()
 
@@ -11757,8 +13634,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.multiple_sorties_locked_tip = {
-		tip = "Unlock <color=#92fc63>Auto-Repeat</color> by clearing the stage on this difficulty once."
+	_G.pg.base.gametip.world_instruction_morale_4 = {
+		tip = "*You will not be able to use this command again for a period of time."
 	}
 end)()
 
@@ -11769,14 +13646,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100223 = {
-		tip = "Google authorization failed"
+	_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity = {
+		tip = "Bloom Intensity"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.activity_return_reward_pt = {
-		tip = "Mobilization Pts:"
+	_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname3 = {
+		tip = "Very High"
 	}
 end)()
 
@@ -11811,8 +13688,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child2_replay_continue = {
-		tip = "Continue"
+	_G.pg.base.gametip.island_production_plantable = {
+		tip = "Plantable"
 	}
 end)()
 
@@ -11845,8 +13722,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.notice_label_room = {
-		tip = "Receive"
+	_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname1 = {
+		tip = "Medium"
 	}
 end)()
 
@@ -11857,14 +13734,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.loading_tip_PoolMgr = {
-		tip = "Adding paint..."
+	_G.pg.base.gametip.text_forward = {
+		tip = "Go"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_photo_lighting = {
-		tip = "Lighting"
+	_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname0 = {
+		tip = "Low"
 	}
 end)()
 
@@ -11875,32 +13752,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.activity_ninjia_main_sheet1 = {
-		tip = "Ninja Castle"
+	_G.pg.base.gametip.grapihcs3d_setting_global_illumination = {
+		tip = "Overall Graphics Quality"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.activity_ninjia_main_title_en = {
-		tip = "EVENT"
+	_G.pg.base.gametip.vote_final_title1 = {
+		tip = "Runoff!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.activity_ninjia_main_title = {
-		tip = "Event"
+	_G.pg.base.gametip["3ddorm_beach_slide_tip7"] = {
+		tip = "Beach Slide"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_fighter = {
-		tip = "Fighter"
+	_G.pg.base.gametip.elite_condition_level = {
+		tip = "Average Level"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_79902 = {
-		tip = "<size=28>\nWould you like to start a Battle Simulation?\n(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)\nEquipment: <color=#92fc63>\nPrototype Carrier-Based La-9\nPrototype Carrier-Based La-9\nPrototype VIT-2 (Mode Change)</color></size>"
+	_G.pg.base.gametip["3ddorm_beach_slide_tip6"] = {
+		tip = "Number of Sliders"
 	}
 end)()
 
@@ -11917,8 +13794,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_buff_effect9 = {
-		tip = "Facilities\nDMG dealt +$1%"
+	_G.pg.base.gametip["3ddorm_beach_slide_tip5"] = {
+		tip = "Invite to Slide"
 	}
 end)()
 
@@ -11981,14 +13858,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.five_shujuhuigu1 = {
-		tip = "Reached$1"
+	_G.pg.base.gametip["3ddorm_beach_slide_tip4"] = {
+		tip = "Select Plaything"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_buff_effect7 = {
-		tip = "Facilities\nDMG dealt +$1"
+	_G.pg.base.gametip["3ddorm_beach_slide_tip3"] = {
+		tip = "Slide"
 	}
 end)()
 
@@ -11999,8 +13876,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_buff_effect6 = {
-		tip = "Upgrades\nNinja Koban cost -$1%"
+	_G.pg.base.gametip.island_trade_sell_sub_label = {
+		tip = "Sell"
 	}
 end)()
 
@@ -12051,8 +13928,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_role_choose = {
-		tip = "Choose Room"
+	_G.pg.base.gametip["3ddorm_beach_slide_tip1"] = {
+		tip = "Slide"
 	}
 end)()
 
@@ -12069,8 +13946,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_buff_effect4 = {
-		tip = "Ninja Koban\nGain +$1%"
+	_G.pg.base.gametip.island_word_ship_level_upgrade_1 = {
+		tip = "At Each Level Up"
 	}
 end)()
 
@@ -12081,8 +13958,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_buff_effect3 = {
-		tip = "Enemy\nHP -$1%"
+	_G.pg.base.gametip.dont_send_message_frequently = {
+		tip = "Do not spam the chat. "
 	}
 end)()
 
@@ -12114,32 +13991,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_buff_effect2 = {
-		tip = "Active characters\nDMG dealt +$1"
+	_G.pg.base.gametip.island_exchange_own_count = {
+		tip = "Amt. Owned"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_buff_effect1 = {
-		tip = "Active characters\nDMG dealt +$1%"
+	_G.pg.base.gametip.dorm3d_time_choose = {
+		tip = "Select Time"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.friend_addblacklist_error = {
-		tip = "Failed to blacklist: "
+	_G.pg.base.gametip.friend_no_request = {
+		tip = "No requests found."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_buff_name10 = {
-		tip = "Defensive Structures"
+	_G.pg.base.gametip.island_exchange_title = {
+		tip = "Crafting"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_buff_name9 = {
-		tip = "Reinforced Watchtowers"
+	_G.pg.base.gametip.commander_reset_talent_success = {
+		tip = "Talents have been reset."
 	}
 end)()
 
@@ -12160,14 +14037,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_89903 = {
-		tip = "<size=28>Would you like to start a Battle Simulation?\nNote: the Priority ship's stats and abilities may differ from her fully-developed equivalent.\nEquipped gear:<color=#ff5c5c>\nPrototype Quadruple 330mm Mle 1931 (CB Only) Main Gun Mount\nSingle 138.6mm Mle 1929 Naval Gun\nTwin 40mm Bofors AA Gun Mount</color></size>"
+	_G.pg.base.gametip.island_3Dshop_lack_gem = {
+		tip = "Insufficient Gems."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.liner_target_type1 = {
-		tip = "Fixed Event"
+	_G.pg.base.gametip.mail_manage_tip_1 = {
+		tip = "* Batch delete will only delete mail whose rewards you've already claimed."
 	}
 end)()
 
@@ -12178,14 +14055,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_buff_name4 = {
-		tip = "Wealth Be With us"
+	_G.pg.base.gametip.island_3Dshop_bag_max = {
+		tip = "You have reached your storage capacity for island items."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.jp6th_lihoushan_order = {
-		tip = "Unlock the next stage by clearing the one before it."
+	_G.pg.base.gametip.island_3Dshop_buy_have = {
+		tip = "Owned"
 	}
 end)()
 
@@ -12214,8 +14091,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_buff_name2 = {
-		tip = "Unity Through Force"
+	_G.pg.base.gametip.dorm3d_sirius_chair = {
+		tip = "Living Area"
 	}
 end)()
 
@@ -12232,18 +14109,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_buff_name1 = {
-		tip = "Pushing Past the Limit"
+	_G.pg.base.gametip.island_order_difficulty_1 = {
+		tip = "Normal"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.help_chunjie2024 = {
-		tip = {
-			{
-				info = "Even lasts between <color=#92fc63>January 30th and February 21st</color>.\n\n- Overview -\n<color=#92fc63>Retrofit</color>: Complete all event missions to receive the retrofit material for <color=#92fc63>Tai Yuan</color>.\n<color=#92fc63>Fei Yuan's Adventure</color>: Log in to the game to receive the shipgirl <color=#92fc63>Fei Yuen</color> and gear skins.\n<color=#92fc63>Fireworks</color>: Complete chapter 3+ story stages or Joint Operation stages to earn Festive Shooting Stars. Unlock all fireworks to receive the limited shipgirl <color=#92fc63>Ting An</color>.\n<color=#92fc63>Drawing Book</color>: Gather paint and fill in the paintings to receive the shipgirl <color=#92fc63>An Shan</color>.\n<color=#92fc63>Fu Shun's Great Adventure</color>: Play the minigame over 7 days to receive the shipgirl <color=#92fc63>Fu Shun</color>.\n<color=#92fc63>Manjuu Resort</color>: Open the Red Envelopes you've collected through mini-events and minigames. Open 15 in total to receive a skin for Fu Shun. Open 25 in total to receive a new skin for Wakatsuki, <color=#92fc63>Blue Sparrow Heralding Spring</color>.\n<color=#92fc63>New Skins</color>: Check out the latest shipgirl fashion.\n<color=#92fc63>Limited Construction</color>: Brings you to the build screen."
-			}
-		}
+	_G.pg.base.gametip.island_3Dshop_buy_tip0 = {
+		tip = "Obtain"
 	}
 end)()
 
@@ -12254,20 +14127,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.outpost_20250904_Title1 = {
-		tip = "Event"
+	_G.pg.base.gametip.island_3Dshop_buy = {
+		tip = "Buy"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.main_notificationLayer_enter_room = {
-		tip = "Entered room <color=#92fc63>$1</color>."
+	_G.pg.base.gametip.mail_takeAttachment_error_dockYrad_full = {
+		tip = "<color=#92fc63>Failed to collect.</color> Insufficient space in your <color=#92fc63>Dock</color>."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dont_add_self = {
-		tip = "Commander, you can't friend yourself!"
+	_G.pg.base.gametip.battle_ui_unlock = {
+		tip = "Unlock Battle UI"
 	}
 end)()
 
@@ -12302,36 +14175,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.Outpost_20250904_Progress = {
-		tip = "Progress"
+	_G.pg.base.gametip.island_3Dshop_no_have = {
+		tip = "Owned ($1)"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.liner_help = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/2024liner",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
+	_G.pg.base.gametip.island_3Dshop_close = {
+		tip = "Tap the Screen to Close"
 	}
 end)()
 
@@ -12348,8 +14199,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.Outpost_20250904_Title1 = {
-		tip = "Call to Arms"
+	_G.pg.base.gametip.charge_scene_buy_confirm_backyard = {
+		tip = "Spend <color=#72bc42>$1 Gems</color> to buy <color=#72bc42>$2</color>?"
 	}
 end)()
 
@@ -12360,8 +14211,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ssssmedal_desc6 = {
-		tip = "How many times are you going to lose your memory..."
+	_G.pg.base.gametip.island_3Dshop_time_unlock = {
+		tip = "Unlocks in $1"
 	}
 end)()
 
@@ -12390,20 +14241,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.Outpost_20250904_Sidebar4 = {
-		tip = "Call to Arms"
+	_G.pg.base.gametip.trade_card_tips2 = {
+		tip = "Heads up, nya. \nThe Trade License you purchased expired on $1, nya. \nYou can renew your license to continue receiving rewards every day, nya! \nCome visit my shop and see what's on offer, nya~"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_warning_521024 = {
-		tip = "Completing the retrofit will change the ship's designation into:\nGuided-Missile Destroyer (Main Fleet Mode)\nHer stats and combat performance may change significantly.\nProceed with retrofit?"
+	_G.pg.base.gametip.pre_combat_vanguard = {
+		tip = "Vanguard"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ship_no_energy = {
-		tip = "Exhausted"
+	_G.pg.base.gametip.shop_new_during_time = {
+		tip = "Time Left"
 	}
 end)()
 
@@ -12414,8 +14265,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.spweapon_ui_levelmax = {
-		tip = "Max Level"
+	_G.pg.base.gametip.island_3Dshop_time_close = {
+		tip = "The shop will close in $1."
 	}
 end)()
 
@@ -12432,8 +14283,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity = {
-		tip = "Bloom Intensity"
+	_G.pg.base.gametip.island_3Dshop_res_have = {
+		tip = "Max Amount of Resources Owned: "
 	}
 end)()
 
@@ -12444,26 +14295,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname3 = {
-		tip = "Very High"
+	_G.pg.base.gametip.island_3Dshop_chara_choose = {
+		tip = "Select Character"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_card_choose_label = {
-		tip = "Selected: $1/$2"
+	_G.pg.base.gametip.island_sign_text = {
+		tip = "- Development Stars -"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname1 = {
-		tip = "Medium"
+	_G.pg.base.gametip["card_battle_card details"] = {
+		tip = "View Details"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname0 = {
-		tip = "Low"
+	_G.pg.base.gametip.island_guide_lock_desc = {
+		tip = "Unavailable"
 	}
 end)()
 
@@ -12480,14 +14331,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_global_illumination = {
-		tip = "Overall Graphics Quality"
+	_G.pg.base.gametip.island_guide_do_active = {
+		tip = "Unlock"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ten_even_draw = {
-		tip = "$1回交換する"
+	_G.pg.base.gametip.island_book_award_title = {
+		tip = "View Details"
 	}
 end)()
 
@@ -12534,32 +14385,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip["3ddorm_beach_slide_tip7"] = {
-		tip = "Beach Slide"
+	_G.pg.base.gametip.island_book_collection_award_title = {
+		tip = "Collection $1 Rewards"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip["3ddorm_beach_slide_tip6"] = {
-		tip = "Number of Sliders"
+	_G.pg.base.gametip.island_get_collect_point_success = {
+		tip = "Receive $1 Collection Points"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip["3ddorm_beach_slide_tip5"] = {
-		tip = "Invite to Slide"
+	_G.pg.base.gametip.island_guide_fish_max_weight = {
+		tip = "Max Amount"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip["3ddorm_beach_slide_tip4"] = {
-		tip = "Select Plaything"
+	_G.pg.base.gametip.zengke_series_task_small = {
+		tip = "MISSIONS"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip["3ddorm_beach_slide_tip3"] = {
-		tip = "Slide"
+	_G.pg.base.gametip.island_guide_collectionpoint = {
+		tip = "Get Collection Points"
 	}
 end)()
 
@@ -12576,8 +14427,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.login_loginMediator_kickUndefined = {
-		tip = "Connection error - [$1]"
+	_G.pg.base.gametip.word_attr_armor = {
+		tip = "Armor"
 	}
 end)()
 
@@ -12588,14 +14439,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip["3ddorm_beach_slide_tip2"] = {
-		tip = "Playing Shipgirl"
+	_G.pg.base.gametip.island_guide_item = {
+		tip = "Resources"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip["3ddorm_beach_slide_tip1"] = {
-		tip = "Slide"
+	_G.pg.base.gametip.login_loginScene_error_diffPassword = {
+		tip = "Passwords do not match."
 	}
 end)()
 
@@ -12624,8 +14475,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commandercat_label_custom_name = {
-		tip = "Custom Name"
+	_G.pg.base.gametip.island_guide_npc = {
+		tip = "Island Development Team"
 	}
 end)()
 
@@ -12642,8 +14493,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.reflux_word_1 = {
-		tip = "Time Left:"
+	_G.pg.base.gametip.island_guide_character_en = {
+		tip = "Characters"
 	}
 end)()
 
@@ -12678,8 +14529,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_3Dshop_lack_gem = {
-		tip = "Insufficient Gems."
+	_G.pg.base.gametip.caibulin_tip4 = {
+		tip = "The dock? How suspicious... Sounds like a great place for clues to be hidden, bulin!"
 	}
 end)()
 
@@ -12708,8 +14559,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.autofight_errors_tip = {
-		tip = "No valid enemy found. Auto-Search Mode has been disabled."
+	_G.pg.base.gametip.island_guide_character_help = {
+		tip = "Info"
 	}
 end)()
 
@@ -12756,18 +14607,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.levelScene_loop_help_tip = {
-		tip = {
-			{
-				info = "Upon reaching 100% completion for a given stage, you may choose to enable <color=#92fc63>Clearing Mode</color> for it.\n\nEnabling Clearing Mode affects a stage in the following ways: \n\n1. A maximum Fuel cost limit is added. If the combined Fuel cost of entering a battle with your surface fleets and submarine fleets would exceed this limit, your Fuel cost is automatically reduced to the limit's maximum. This limit is only active while Clearing Mode is enabled.\n2. On Hard Mode stages, enemy escort fleets <color=#92fc63>will not appear</color>.\n3. On Event stages, some changes will be made to the configurations of enemy fleets.\n4. On event stages, <color=#92fc63>movement restrictions</color> will be lifted, allowing you to move your fleets freely.\n5. On normal stages, <color=#92fc63>ambushes and air raids will no longer occur</color>.\n6. <color=#92fc63>Fleet Formation Lock</color> will be enabled.\n7. <color=#92fc63>Auto-Search Mode</color> will be enabled.\n\n <color=#92fc63>Auto-Search Mode</color> Details:\n1. <color=#92fc63>Auto-Search Mode</color> can only be enabled in Clearing Mode, and will be automatically activated the first time you enter a stage in Clearing Mode.\n2.When Auto-Search Mode is enabled, <color=#92fc63>Auto Combat</color> and <color=#92fc63>Fleet Lock</color> will automatically be enabled as well. Auto Submarine will not be automatically enabled and depends on your personal settings.\n3.After enabling Auto-Search, you may change 4 settings on the fleet selection interface. The settings are as follows:①<color=#92fc63>Escorts Only</color>: This fleet will only engage escort fleets. When set, the other fleet will automatically be set to engage the enemy boss fleet.\n②<color=#92fc63>Flagship Only</color>: When the enemy flagship fleet spawns, this fleet will automatically move to engage it. When set, the other fleet will automatically be set to engage enemy escort fleets.\n③<color=#92fc63>All Enemies</color>: This fleet will engage enemy escort fleets until the flagship fleet spawns, then engage the enemy flagship. When set, the other fleet will automatically be set to standby.\n④<color=#92fc63>Standby</color>: This fleet will not be used to engage enemies. When set, the other fleet will automatically be set to engage all enemies.\n When Auto-Search is enabled, if there is an <color=#92fc63>Elite Enemy</color> present on the battlefield, that fleet will be prioritized. If there is no Elite Enemy present, your fleets will attempt to engage the <color=#92fc63>closest available enemy</color>. When the enemy flagship fleet appears, your fleets will prioritize attacking the <color=#92fc63>enemy flagship</color>."
-			}
-		}
+	_G.pg.base.gametip.battle_result_undefeated = {
+		tip = "No casualties"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_3Dshop_bag_max = {
-		tip = "You have reached your storage capacity for island items."
+	_G.pg.base.gametip.island_guide_help_item = {
+		tip = "Unlocking resource-related content on the island gives you Collection Points. Once you accumulate enough points, your Collection Level will increase, and you'll receive the corresponding Collection Rewards: \n\n1. <color=#39bfff>Unlocking</color> Resources: Unlocking a resource in the Collection gives you <color=#39bfff>20</color> Collection points. \n2. <color=#39bfff>Obtaining</color> Resources: Getting a specific amount of a resource gives you Collection points. You can view the reward stages and the required amounts of each resource in the Collection."
 	}
 end)()
 
@@ -12778,8 +14625,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_3Dshop_buy_have = {
-		tip = "Owned"
+	_G.pg.base.gametip.loveactivity_ui_11 = {
+		tip = "Do you want to choose $1?"
 	}
 end)()
 
@@ -12812,8 +14659,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_reload_favor = {
-		tip = "Intimacy Story"
+	_G.pg.base.gametip.island_guide = {
+		tip = "Collection"
 	}
 end)()
 
@@ -12827,45 +14674,45 @@ end)()
 	_G.pg.base.gametip.Pray_activity_tips1 = {
 		tip = {
 			{
-				info = "- Overview -\nDuring the New Year's Wishes campaign, offer your prayers and hang up Ema to grant your fleet temporary buffs.\nIn addition to providing buffs, hanging up Ema will also give you 1 Origami Crane per Ema hung up.\nCollecting 7 Origami Cranes will grant you the New Year's Invitation (2024), which can be used to select an SR shipgirl to add to your dock.\n\n- Decorating with Ema -\n· You receive 1 Ema every day of the campaign. You can hold up to 7 of them at a time.\n· Ema can be hung up at the shrine as decorations. Each time you do so, you will gain the following:\n1. A buff that applies to all your ships for a limited time. Which buff you receive depends on the Ema you used.\n2. An Origami Crane. Collecting 7 of these will reward you with the New Year's Invitation.\n3. 2 Offerings which can be used at the shrine to pray for additional buffs.\n· Note that only 1 Ema buff can be active at a time. If you use another Ema before the effect of the previous buff has worn off, the new buff will replace it.\n\n- Making Offerings -\n· You receive Offerings by hanging up Ema. Each Ema hung up grants 2 Offerings.\n· Making an offering presents you with 3 different buffs to choose from. All your shipgirls can benefit from these buffs, and they apply in most game modes.\n· Note that only 1 Offering buff can be active at a time. If you make another Offering before the effect of the previous buff has worn off, the new buff will replace it."
+				info = "- Overview -\nDuring the Winter Wishing Well Cards campaign, make wishes and grant temporary buffs to your fleet.\n\nAfter sending a card, you'll receive a Winter Wish. Collect 7 Winter Wishes to receive a Wish-Fulfilling Card (2026) that can be exchanged for a shipgirl on the event page.\n\nAfter making a wish, your fleet will also receive a temporary buff.\n\n - Cards -\n· Every day during the campaign, you get 1 card, up to a total of 7.\n· As long as you have cards remaining, you can send them to a shipgirl.\n· The following happens after you send a card:\n 1. You gain 1 Winter Wish\n 2. You can make an additional 2 wishes\n 3. You gain a fleet-wide buff from the shipgirl you sent the card to\n Note: Different shipgirls give different buffs, and only 1 buff of a given type can be active at the same time. If you send another card, your previously chosen buff will be overwritten.\n· After you have collected 7 Winter Wishes, you can turn them in on the event page to receive a Wish-Fulfilling Card (2026), which can be used from your Depot to receive an SR shipgirl and a commemorative item.\n\n - Making Wishes -\n· As long as you have wishes remaining, you can make a wish by tapping on the button on the right side.\n· After making a wish, you can select 1 of 3 types of buffs that will be applied to your whole fleet.\n Note: Only 1 buff of a given type can be active at the same time. If you send another card, your previously chosen buff will be overwritten."
 			}
 		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_3Dshop_buy_tip0 = {
-		tip = "Obtain"
+	_G.pg.base.gametip.island_dress_replace_tip = {
+		tip = "Another character is using this outfit. Do you want to take it off?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_3Dshop_buy = {
-		tip = "Buy"
+	_G.pg.base.gametip.island_ticket_expired_day = {
+		tip = "Expired in $1 Day(s)"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_repair_normal_name = {
-		tip = "Daily free chances: "
+	_G.pg.base.gametip.ship_formationUI_fleetName_extra_ss = {
+		tip = "Sub Fleet - EX"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100210 = {
-		tip = "The third party account does not match with the one bound to this account"
+	_G.pg.base.gametip.new_airi_error_code_300210 = {
+		tip = "ID authorization incomplete"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.attire_combatui_confirm = {
-		tip = "Apply"
+	_G.pg.base.gametip.island_use_ticket_success = {
+		tip = "Successfully Used"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_3Dshop_no_have = {
-		tip = "Owned ($1)"
+	_G.pg.base.gametip.island_ticket_expired = {
+		tip = "Expired"
 	}
 end)()
 
@@ -12876,14 +14723,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_3Dshop_close = {
-		tip = "Tap the Screen to Close"
+	_G.pg.base.gametip.island_ticket_finished = {
+		tip = "Finished"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.roll_room7 = {
-		tip = "Dining Area"
+	_G.pg.base.gametip.island_ticket_expiration_tip2 = {
+		tip = "The following Express Tickets have expired:"
 	}
 end)()
 
@@ -12906,8 +14753,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_3Dshop_time_unlock = {
-		tip = "Unlocks in $1"
+	_G.pg.base.gametip.town_unlcok_level = {
+		tip = "Level Cap Increased"
 	}
 end)()
 
@@ -12924,24 +14771,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.spweapon_tip_materal_no_enough = {
-		tip = "You don't have enough materials."
+	_G.pg.base.gametip.island_ticket_nearing_expiration = {
+		tip = "Expiring: $1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.beach_guard_e4_desc = {
-		tip = "A hardy Siren. High damage and health, but low speed."
+	_G.pg.base.gametip.island_ticket_completed_quantity = {
+		tip = "Speed Up $1 Time(s)"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ssss_medal_tip = {
-		tip = {
-			{
-				info = "- Overview -\n\n· \"Akane's Collection\" is a special campaign in which you can unlock data files about Siren foes by completing certain achievements. Unlock all the data files to get the exclusive \"SSSS Commemoration\" furniture.\n\n· You must collect the SSSS Commemoration before 8/09 23:59 (UTC-7)."
-			}
-		}
+	_G.pg.base.gametip.island_ticket_sort_speedup = {
+		tip = "Speed Up"
 	}
 end)()
 
@@ -12952,8 +14795,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_3Dshop_time_close = {
-		tip = "The shop will close in $1."
+	_G.pg.base.gametip.island_ticket_sort_valid = {
+		tip = "Valid Period"
 	}
 end)()
 
@@ -12964,8 +14807,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_3Dshop_res_have = {
-		tip = "Max Amount of Resources Owned: "
+	_G.pg.base.gametip.masaina_main_sheet4 = {
+		tip = "Minigame"
 	}
 end)()
 
@@ -12976,8 +14819,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_3Dshop_chara_choose = {
-		tip = "Select Character"
+	_G.pg.base.gametip.island_ticket_view = {
+		tip = "Show All"
 	}
 end)()
 
@@ -12988,14 +14831,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_sign_text = {
-		tip = "- Development Stars -"
+	_G.pg.base.gametip.island_ticket_auto_select = {
+		tip = "Auto-Select"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.text_noRes_info_tip = {
-		tip = "<color=#FF0000>$2 $1</color>"
+	_G.pg.base.gametip.ship_remould_material_ship_no_enough = {
+		tip = "Not enough ships selected as material."
 	}
 end)()
 
@@ -13006,20 +14849,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_guide_lock_desc = {
-		tip = "Unavailable"
+	_G.pg.base.gametip.island_freight_btn_idle = {
+		tip = "Awaiting\nTransport"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.mingshi_task_tip_10 = {
-		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>H</color>>\nThe last target is... <<color=#a0ff40>the land of joy and sorrow</color>>!"
+	_G.pg.base.gametip.level_chapter_state_safety = {
+		tip = "<color=#92fc63>【Threat: Safe】</color>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_guide_do_active = {
-		tip = "Unlock"
+	_G.pg.base.gametip.grapihcs3d_setting_enable_gup_driver = {
+		tip = "Enable GPGPU"
 	}
 end)()
 
@@ -13060,14 +14903,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_book_award_title = {
-		tip = "View Details"
+	_G.pg.base.gametip.island_freight_btn_locked = {
+		tip = "Unavailable"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_book_collection_award_title = {
-		tip = "Collection $1 Rewards"
+	_G.pg.base.gametip.island_draw_tip4 = {
+		tip = "Insufficient Gems. Do you want to purchase some?"
 	}
 end)()
 
@@ -13078,14 +14921,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_get_collect_point_success = {
-		tip = "Receive $1 Collection Points"
+	_G.pg.base.gametip.grapihcs3d_setting_bloom = {
+		tip = "Visual Quality"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_guide_collectionpoint = {
-		tip = "Get Collection Points"
+	_G.pg.base.gametip.child_btn_bag = {
+		tip = "Items"
 	}
 end)()
 
@@ -13102,20 +14945,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_guide_item = {
-		tip = "Resources"
+	_G.pg.base.gametip.emptymarkroom_tip_mailboxui = {
+		tip = "You haven't saved any mail yet."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.Normalbuild_URexchange_text2 = {
-		tip = "Total"
+	_G.pg.base.gametip.island_tech_detail_desctitle = {
+		tip = "Tech Gain"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_guide_npc = {
-		tip = "Island Development Team"
+	_G.pg.base.gametip.island_draw_get = {
+		tip = "Obtained"
 	}
 end)()
 
@@ -13126,14 +14969,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_guide_character_en = {
-		tip = "Characters"
+	_G.pg.base.gametip.island_draw_C = {
+		tip = "Prize C"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_skin_en = {
-		tip = "Skins"
+	_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode = {
+		tip = "Shadow refresh frequency"
 	}
 end)()
 
@@ -13144,14 +14987,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_guide_character_help = {
-		tip = "Info"
+	_G.pg.base.gametip.island_draw_A = {
+		tip = "Prize A"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_guide_help = {
-		tip = "Unlocking character-related content on the island gives you Collection Points. Once you accumulate enough points, your Collection Level will increase, and you'll receive the corresponding Collection Rewards:\n\n1. When you <color=#39bfff>obtain a character (complete their Island Authority Permit process)</color>, you'll receive <color=#39bfff>20</color> Collection Points per character.\n2. When you <color=#39bfff>Limit Break a character (use a Profession Star on them)</color>, you'll receive <color=#39bfff>30</color> Collection Points per Limit Break. And when a character reaches Limit Break ★5, you'll receive an additional <color=#39bfff>10</color> Collection Points.\n3. When <color=#39bfff>raising a character's Island Level to 50</color>, you'll receive <color=#39bfff>50</color> Collection Points."
+	_G.pg.base.gametip.island_draw_S = {
+		tip = "Prize S"
 	}
 end)()
 
@@ -13180,8 +15023,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_guide = {
-		tip = "Collection"
+	_G.pg.base.gametip.island_draw_S_order = {
+		tip = "Drag to Change Order of Acquirement"
 	}
 end)()
 
@@ -13192,14 +15035,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_activity_expired = {
-		tip = "Event Has Ended"
+	_G.pg.base.gametip.island_draw_S_order_title = {
+		tip = "Prize S Order"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_dress_replace_tip = {
-		tip = "Another character is using this outfit. Do you want to take it off?"
+	_G.pg.base.gametip.island_draw_time_1 = {
+		tip = "Maintenance"
 	}
 end)()
 
@@ -13210,8 +15053,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ticket_expired_day = {
-		tip = "Expired in $1 Day(s)"
+	_G.pg.base.gametip.shop_new_purchased = {
+		tip = "Purchased"
 	}
 end)()
 
@@ -13222,8 +15065,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_resolution_optionname2 = {
-		tip = "2K"
+	_G.pg.base.gametip.levelscene_mapselect_normal = {
+		tip = "Normal"
 	}
 end)()
 
@@ -13234,8 +15077,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_use_ticket_success = {
-		tip = "Successfully Used"
+	_G.pg.base.gametip.island_draw_pick = {
+		tip = "Choices"
 	}
 end)()
 
@@ -13294,14 +15137,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ticket_expired = {
-		tip = "Expired"
+	_G.pg.base.gametip.island_draw_lottery = {
+		tip = "Draw"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ticket_finished = {
-		tip = "Finished"
+	_G.pg.base.gametip.island_draw_last = {
+		tip = "Remaining:"
 	}
 end)()
 
@@ -13318,20 +15161,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ticket_expiration_tip2 = {
-		tip = "The following Express Tickets have expired:"
+	_G.pg.base.gametip.island_draw_tab = {
+		tip = "Stellar Prize Draw"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.award_max_warning_minigame = {
-		tip = "Any rewards that <color=#ff5c5c>exceed your max storage capacity</color> will be discarded if you claim them. Do you wish to continue?"
+	_G.pg.base.gametip.ship_formationUI_fleetName13 = {
+		tip = "Support Fleet"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ticket_nearing_expiration = {
-		tip = "Expiring: $1"
+	_G.pg.base.gametip.island_follow_btn_State_disable = {
+		tip = "Busy"
 	}
 end)()
 
@@ -13352,20 +15195,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ticket_completed_quantity = {
-		tip = "Speed Up $1 Time(s)"
+	_G.pg.base.gametip.cruise_title_2602 = {
+		tip = "Cruise Missions - S27"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ticket_sort_speedup = {
-		tip = "Speed Up"
+	_G.pg.base.gametip.island_follower_state_no_normal = {
+		tip = "This person seems to be busy."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ticket_sort_valid = {
-		tip = "Valid Period"
+	_G.pg.base.gametip.island_cancel_follow_tip = {
+		tip = "Character is following you, do you want to unfollow?"
 	}
 end)()
 
@@ -13388,26 +15231,33 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_now_is_downloading = {
-		tip = "Downloading assets..."
+	_G.pg.base.gametip.island_follower_cnt_max = {
+		tip = "You cannot have any more followers."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ticket_view = {
-		tip = "Show All"
+	_G.pg.base.gametip.island_urgent_notice = {
+		tip = {
+			{
+				info = "1. Island Planner Season Reset"
+			},
+			{
+				info = "After the next maintenance on <color=#39bfff>November 6th</color>, the current Island Planner Season will be reset. The new season will run from <color=#39bfff>11/6/2025 after maintenance - 2/5/2026 maintenance</color>. Compensation will be sent through <color=#39bfff>Main Menu > Compensation</color> to Commanders who participated in the Island Planner. \n* Reset and Compensation Rules: \n1. Production and Store Management: Ongoing <color=#39bfff>island requests, transport jobs, character assignments, manual farming, and store management</color> will be cleared and reset.\n2. Development Rank: All Commanders will automatically receive the highest-tier development ranking reward.\n3. Development Plan: Development Plan will be reset. Commanders will receive Stellar Tickets through <color=#39bfff>Main Menu > Compensation</color> based on the progress of incomplete development plans and completed but unclaimed development plans.\n4. Shop: The shop's content will be reset. Commander accessories or actions in the shop before the next maintenance will remain (they can only be obtained once).\n5. Island Request: <color=#39bfff>Island Seasonal PT Exchange Tickets</color> will be added. Based on the number of completed seasonal requests, Commanders will receive corresponding PT tickets, which can be directly converted into a certain amount of Island Dev. Points.\n* Island Seasonal PT Exchange Tickets is a resource and will be automatically converted into Island Dev. Points when the season ends.\n6. Other Progress Reset: Island requests (daily requests, weekly urgent requests limit, weekly ratings), transport jobs (refresh count is reset), development plan (daily and weekly plans), map collection points (map items, ore, logging sites), daily supplies and available daily supply limit, and store management counts will also be reset.\n* As the season ended early, for this special reset, after all resources have been converted, the total Island Dev. Points will be converted <color=#39bfff>x4</color> into Final Island Dev. Points. Accumulated Island Dev. Points rewards will be sent based on this Final Island Dev. Points, to be collected through <color=#39bfff>Main Menu > Compensation</color>.\n - Note: Autumn's seasonal resources will not be converted.\n\nWhat will NOT be reset after the special reset:\n- Island Dev. Level, character status, Island Tech;\n- Stellar Prize Draw status, including Prizes, obtained rewards, draws remaining, accumulative rewards, and Stellar Tickets;\n- Autumn specialties and resources\n- Seasonal Express Tickets"
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100306 = {
-		tip = "Verification code cannot be empty"
+	_G.pg.base.gametip.reflux_word_1 = {
+		tip = "Time Left:"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ticket_auto_select = {
-		tip = "Auto-Select"
+	_G.pg.base.gametip.island_spoperation_item_2602_4 = {
+		tip = "Hyacinth"
 	}
 end)()
 
@@ -13418,8 +15268,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.common_compare_not_less_than = {
-		tip = "≥"
+	_G.pg.base.gametip.island_spoperation_item_2602_3 = {
+		tip = "Winter Jasmine"
 	}
 end)()
 
@@ -13448,20 +15298,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_freight_btn_idle = {
-		tip = "Awaiting\nTransport"
+	_G.pg.base.gametip.switch_to_shop_tip_noPos = {
+		tip = "Please sort or expand your storage!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_rendering_quality_optionname1 = {
-		tip = "High"
+	_G.pg.base.gametip.island_spoperation_btn_2602_3 = {
+		tip = "Event Manager"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_freight_btn_locked = {
-		tip = "Unavailable"
+	_G.pg.base.gametip.island_spoperation_btn_2602_2 = {
+		tip = "Make Specialty Products"
 	}
 end)()
 
@@ -13472,14 +15322,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_draw_tip4 = {
-		tip = "Insufficient Gems. Do you want to purchase some?"
+	_G.pg.base.gametip.island_spoperation_btn_2602_1 = {
+		tip = "Gather Specialty Products"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_main_tip_1 = {
-		tip = "Build"
+	_G.pg.base.gametip.island_spoperation_tip_2602_3 = {
+		tip = "During the event, you can produce corresponding specialty products at Newsprout Nursery, the Golden Koi Restaurant, the Polar Bear Teahouse, and the Base Factory."
 	}
 end)()
 
@@ -13508,8 +15358,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.anniversary_task_title_6 = {
-		tip = "The possibilities of the world branch out before my eyes. As I walk, I find myself where I started again and again."
+	_G.pg.base.gametip.island_spoperation_tip_2602_2 = {
+		tip = "During the event, unique items will appear within specific areas. Search the areas and gather the items quickly!"
 	}
 end)()
 
@@ -13544,8 +15394,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_request = {
-		tip = "Request"
+	_G.pg.base.gametip.island_spoperation_item_2509_4 = {
+		tip = "Matsutake"
 	}
 end)()
 
@@ -13562,8 +15412,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_draw_get = {
-		tip = "Obtained"
+	_G.pg.base.gametip.battlepass_main_time_title = {
+		tip = "Time Remaining:"
 	}
 end)()
 
@@ -13580,8 +15430,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_draw_C = {
-		tip = "Prize C"
+	_G.pg.base.gametip.island_spoperation_item_2509_2 = {
+		tip = "Reed Flowers"
 	}
 end)()
 
@@ -13604,8 +15454,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality_optionname1 = {
-		tip = "Medium"
+	_G.pg.base.gametip.backyard_shipAddMoney_error = {
+		tip = "Failed to collect Coins: "
 	}
 end)()
 
@@ -13634,8 +15484,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_draw_S = {
-		tip = "Prize S"
+	_G.pg.base.gametip.island_spoperation_btn_2509_2 = {
+		tip = "Gather Specialty Products"
 	}
 end)()
 
@@ -13664,8 +15514,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_draw_S_order = {
-		tip = "Drag to Change Order of Acquirement"
+	_G.pg.base.gametip.island_spoperation_btn_2509_1 = {
+		tip = "Make Specialty Products"
 	}
 end)()
 
@@ -13676,8 +15526,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_draw_S_order_title = {
-		tip = "Prize S Order"
+	_G.pg.base.gametip.island_spoperation_tip_2509_3 = {
+		tip = "During the event, you can produce corresponding specialty products at Sweetscent Orchard, the Golden Koi Restaurant, Polar Bear Teahouse, and the Base Factory."
 	}
 end)()
 
@@ -13688,14 +15538,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_draw_time_1 = {
-		tip = "Maintenance"
+	_G.pg.base.gametip.island_spoperation_tip_2509_2 = {
+		tip = "During the event, unique items will appear within specific areas. Search the areas and gather the items quickly!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_new_try = {
-		tip = "Rental"
+	_G.pg.base.gametip.word_photo_mode = {
+		tip = "Photo"
 	}
 end)()
 
@@ -13724,26 +15574,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_draw_pick = {
-		tip = "Choices"
+	_G.pg.base.gametip.island_activity_decorative_word = {
+		tip = "Special Event"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_draw_lottery = {
-		tip = "Draw"
+	_G.pg.base.gametip.shipyard_favorability_max = {
+		tip = "Your Affinity is at the maximum."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_draw_last = {
-		tip = "Remaining:"
+	_G.pg.base.gametip.island_visit_code_likelist = {
+		tip = "Favorite Codes"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_draw_tab = {
-		tip = "Stellar Prize Draw"
+	_G.pg.base.gametip.shipyard_favorability_exceed = {
+		tip = "Any Affinity past the cap will be wasted. Continue?"
 	}
 end)()
 
@@ -13760,26 +15610,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_follow_btn_State_disable = {
-		tip = "Busy"
+	_G.pg.base.gametip.shipyard_gift_non_existent = {
+		tip = "No Gifts to Give"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_79901 = {
-		tip = "<size=28>Would you like to start a Battle Simulation?\nNote: the Priority ship's stats and abilities may differ from her fully-developed equivalent.\nEquipped gear:<color=#ff5c5c>\nPrototype Su-2\nPrototype Su-2\nPrototype VIT-2 (VK-107)</color></size>"
+	_G.pg.base.gametip.shipyard_gift_exceed = {
+		tip = "You are at the maximum capacity and cannot gain more gift tickets."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_follower_state_no_normal = {
-		tip = "This person seems to be busy."
+	_G.pg.base.gametip.ship_gift2 = {
+		tip = "Give"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_cancel_follow_tip = {
-		tip = "Character is following you, do you want to unfollow?"
+	_G.pg.base.gametip.ship_gift = {
+		tip = "Gifts"
 	}
 end)()
 
@@ -13878,8 +15728,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_follower_cnt_max = {
-		tip = "You cannot have any more followers."
+	_G.pg.base.gametip.island_card_no_label = {
+		tip = "No Tags"
 	}
 end)()
 
@@ -13896,26 +15746,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_cancel_follow_success = {
-		tip = "Unfollow"
+	_G.pg.base.gametip.island_repeat_blacklist = {
+		tip = "This user is already on your blacklist."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_spoperation_item_2509_4 = {
-		tip = "Matsutake"
+	_G.pg.base.gametip.courtyard_label_go = {
+		tip = "Confirm"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.task_got = {
-		tip = "Completed"
+	_G.pg.base.gametip.island_leave = {
+		tip = "Return"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_spoperation_item_2509_2 = {
-		tip = "Reed Flowers"
+	_G.pg.base.gametip["202406_wenquan_unlock_tip2"] = {
+		tip = "Insufficient materials."
 	}
 end)()
 
@@ -13926,14 +15776,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.login_loginMediator_registerFail_error = {
-		tip = "Registration failed: "
+	_G.pg.base.gametip.island_card_no_achv_self = {
+		tip = "Not Displayed"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.msgbox_text_analyse = {
-		tip = "Analyze"
+	_G.pg.base.gametip.world_automode_title_2 = {
+		tip = ""
 	}
 end)()
 
@@ -13944,8 +15794,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_spoperation_btn_2509_3 = {
-		tip = "Event Manager"
+	_G.pg.base.gametip.island_card_label_done = {
+		tip = "You've already given a rating this week."
 	}
 end)()
 
@@ -13956,8 +15806,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_spoperation_btn_2509_2 = {
-		tip = "Gather Specialty Products"
+	_G.pg.base.gametip.island_card_like_done = {
+		tip = "You've already left a like today."
 	}
 end)()
 
@@ -13968,38 +15818,38 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_spoperation_btn_2509_1 = {
-		tip = "Make Specialty Products"
+	_G.pg.base.gametip.island_card_choose_label = {
+		tip = "Selected: $1/$2"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_instruction_morale_4 = {
-		tip = "*You will not be able to use this command again for a period of time."
+	_G.pg.base.gametip.extra_chapter_locked_tip = {
+		tip = "Pass Hard Mode to unlock EX Mode"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_spoperation_tip_2509_3 = {
-		tip = "During the event, you can produce corresponding specialty products at Sweetscent Orchard, the Golden Koi Restaurant, Polar Bear Teahouse, and the Base Factory."
+	_G.pg.base.gametip.island_card_choose_achievement = {
+		tip = "Selected: $1/4"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_spoperation_tip_2509_2 = {
-		tip = "During the event, unique items will appear within specific areas. Search the areas and gather the items quickly!"
+	_G.pg.base.gametip.island_card_label_list = {
+		tip = "Island Rating Tags"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_sort_time = {
-		tip = "Time"
+	_G.pg.base.gametip.guild_cancel_assult_ship_recommend_conflict = {
+		tip = "The recommended status of this ship has already been cleared."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_no_activity = {
-		tip = "No Events Available"
+	_G.pg.base.gametip.island_card_choose_photo = {
+		tip = "Island Photo Collection"
 	}
 end)()
 
@@ -14010,8 +15860,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_activity_decorative_word = {
-		tip = "Special Event"
+	_G.pg.base.gametip.island_card_close = {
+		tip = "Tap to Close"
 	}
 end)()
 
@@ -14052,8 +15902,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shipyard_favorability_max = {
-		tip = "Your Affinity is at the maximum."
+	_G.pg.base.gametip.island_card_default_word = {
+		tip = "Welcome to the Island Development Area"
 	}
 end)()
 
@@ -14064,8 +15914,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visit_balcklist_tip = {
-		tip = "Visit requests from blacklisted users will never be accepted."
+	_G.pg.base.gametip.island_card_edit_word = {
+		tip = "Change Greeting"
 	}
 end)()
 
@@ -14076,8 +15926,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shipyard_favorability_exceed = {
-		tip = "Any Affinity past the cap will be wasted. Continue?"
+	_G.pg.base.gametip.island_achv_finish_tip = {
+		tip = "Achievement: [$1] Completed"
 	}
 end)()
 
@@ -14088,20 +15938,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shipyard_gift_non_existent = {
-		tip = "No Gifts to Give"
+	_G.pg.base.gametip.loveletter_exchange_tip1 = {
+		tip = "No mail matches the requirement, please contact customer service."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.shipyard_gift_exceed = {
-		tip = "You are at the maximum capacity and cannot gain more gift tickets."
+	_G.pg.base.gametip.island_achievement_title = {
+		tip = "Island Achievements"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_gift2 = {
-		tip = "Give"
+	_G.pg.base.gametip.unlock_date_tip = {
+		tip = "Unlocks on <color=#92fc63>$1/$2</color>"
 	}
 end)()
 
@@ -14112,8 +15962,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_gift = {
-		tip = "Gifts"
+	_G.pg.base.gametip.hit_preview = {
+		tip = "Hitting Preview"
 	}
 end)()
 
@@ -14142,8 +15992,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_card_no_label = {
-		tip = "No Tags"
+	_G.pg.base.gametip.island_production_speed_addition3 = {
+		tip = "Buff Effect"
 	}
 end)()
 
@@ -14160,8 +16010,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_repeat_blacklist = {
-		tip = "This user is already on your blacklist."
+	_G.pg.base.gametip.island_production_speed_addition1 = {
+		tip = "<color=#39bfff>$1</color> Stat"
 	}
 end)()
 
@@ -14178,14 +16028,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.feast_drag_invitation_tip = {
-		tip = "Drag the invitation to the shipgirl to send it to her"
+	_G.pg.base.gametip.island_production_tip = {
+		tip = "/time(s)"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_leave = {
-		tip = "Return"
+	_G.pg.base.gametip.island_production_seeds_empty = {
+		tip = "You have no seeds. Please buy some in the shop."
 	}
 end)()
 
@@ -14202,14 +16052,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.MonopolyCar2024Game_open_auto_tip = {
-		tip = "You have unlocked auto-advance mode. You will automatically pick a new crewmate when you pass the starting line."
+	_G.pg.base.gametip.Settings_title_Notification = {
+		tip = "Push Notifications"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_card_no_achv_self = {
-		tip = "Not Displayed"
+	_G.pg.base.gametip.island_production_harvestable = {
+		tip = "Harvestable"
 	}
 end)()
 
@@ -14226,8 +16076,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_card_like_done = {
-		tip = "You've already left a like today."
+	_G.pg.base.gametip.island_production_being_planted = {
+		tip = "No Growing Crops to Harvest"
 	}
 end)()
 
@@ -14266,14 +16116,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_card_choose_achievement = {
-		tip = "Selected: $1/4"
+	_G.pg.base.gametip.island_production_log_recover = {
+		tip = "All gathering opportunities have been used. New ones gained in: $1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_card_label_list = {
-		tip = "Island Rating Tags"
+	_G.pg.base.gametip.island_settings = {
+		tip = "Settings"
 	}
 end)()
 
@@ -14326,44 +16176,48 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.skin_exchange_title = {
-		tip = "Redeemable Skins"
+	_G.pg.base.gametip.island_production_selected_tip2 = {
+		tip = "Select a Character"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_card_choose_photo = {
-		tip = "Island Photo Collection"
+	_G.pg.base.gametip.island_production_selected_tip1 = {
+		tip = "No Characters That Meet Requirements"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_card_close = {
-		tip = "Tap to Close"
+	_G.pg.base.gametip.island_production_character_info = {
+		tip = "Character Details"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_card_default_word = {
-		tip = "Welcome to the Island Development Area"
+	_G.pg.base.gametip.word_expAdd = {
+		tip = "EXP +$1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_card_edit_word = {
-		tip = "Change Greeting"
+	_G.pg.base.gametip.help_vote = {
+		tip = {
+			{
+				info = "Azur Lane Popularity Poll 2021\n\n- About the Popularity Poll:\nThe Azur Lane Popularity Poll makes its comeback for 2021. During this campaign, commanders can complete ingame tasks to receive votes which they can give to their favorite shipgirls.\nThe poll will be conducted in 5 rounds: Qualifiers, Qualifier Comeback, Groups, Finals Comeback, and lastly, Finals.\n\n- Popularity Poll Rules:\nVotes from commanders across all servers will be pooled together during each round of voting. After the votes are in, the winners will proceed to the next round.\nIn the event of a tie during the Qualifiers round, the shipgirl who reached that number of votes first will be the one to advance.\nIn the event of a tie during any round after the Qualifiers, the shipgirl who ranked higher during the Qualifiers round will be the one to advance.\n\nThe 3 winners of the previous global server Popularity Poll have entered the popularity Hall of Fame, and are excluded from the voting list.\nCollaboration-exclusive characters, META ships, µ ships, and any ships implemented after October 14th, 2021, are also excluded from this list. PR/DR ships are still eligible, assuming they don't also fit into any of the above criteria.\n\nThe winners of the previous Popularity Poll (Amagi, Laffey, and Bismarck) have been given a special story snippet each, which can be viewed through the Hall of Fame, located on the Popularity Poll event banner. Commanders can also unlock special commemorative chat frames through this banner.\n\n- Voting Schedule:\n\n1. Qualifiers Round:\nBegins after the October 14th maintenance, ends on October 25th, 23:59 server time.\nA total of 451 ships will participate in this round of voting. The top 200 shipgirls with the most votes will move on to the Groups round.\nThe individual shipgirl vote totals will not be shown for this round, only their ranks.\n\n2. Qualifiers Comeback Round:\nBegins at midnight server time on October 28th, ends on November 1st, 23:59 server time.\nAll shipgirls who didn't advance in the previous round will participate in this one. The top 15 shipgirls with the most votes will move on to the Finals Comeback round.\n3. Groups Round:\nGroup A: begins at midnight server time on November 4th, ends on November 8th, 23:59 server time.\nGroup B: begins at midnight server time on November 11th, ends on November 15th, 23:59 server time.\nGroup C: begins at midnight server time on November 18th, ends on November 22nd, 23:59 server time.\nGroup D: begins at midnight server time on November 25th, ends on November 29th, 23:59 server time.\nGroup E: begins at midnight server time on December 2nd, ends on December 6th, 23:59 server time.\nShipgirls that advanced to the Groups round are sorted into 5 groups of 40 shipgirls per group. The top 4 shipgirls within each group with the most votes will move on to the Finals round, and those with the top 5 to 12 most votes within each group will move on to the Finals Comeback round.\n\n4. Finals Comeback Round:\nBegins at midnight server time on December 9th, ends on December 12th, 23:59 server time.\nThe participants of this round will be the top 15 winners of the Qualifiers Comeback round, and the 40 shipgirls who barely didn't make the cut during the Groups round. The top 12 shipgirls who receive the most votes this round move on to the Finals.\n\n5. Finals Round:\nBegins at midnight server time on December 17th, ends on December 23rd, 23:59 server time.\nThe participants of this round will be the top 12 winners of the Finals Comeback round, and the top 4 winners of each group during the Groups round, for a total of 32 shipgirls who'll compete for the final round of voting.\n\n- Final Results Announcement:\n\nOnce each step has concluded, barring the Finals round, the voting results will be announced the next day at 12:00 both in the game client and on the poll website.\nOnce the Finals round has concluded, the final results will be announced on Twitter and Facebook the following day after server maintenance.\n\n- How to Vote:\n\nAll commanders at Commander level 25 and above are eligible to vote with the use of Ballots. Ballots can be obtained the following two ways:\n\n1) By completing special missions available during the voting period. These can be viewed from the Missions menu.\n2) By sortieing and defeating Boss fleets in Campaign Chapters 3 and above to earn a Certificate of Support.\nCommanders can use their Certificates of Support on the Campaign overworld screen or the Popularity Poll banner to receive Support Points.\nSupport Points will in turn give the commander Ballots based on how many Points they earned.\nCommanders can then use their Ballots to vote for their favorite shipgirls with the Vote button on the Popularity Poll banner.\nBe aware that once each step of the Poll has concluded, all unspent Ballots will disappear from your inventory.\n\n- More Info about Certificates of Support:\n\n1. Commanders can obtain a Certificate of Support by defeating Boss nodes on Campaign (Normal mode only) and Event maps (excluding through War Archives.)\n2. Commanders can only possess 1 Certificate of Support at a time. It can be used on the Campaign overworld map or from the Popularity Poll banner.\n3. When using their Certificate of Support, commanders will be sent to a screen with the chibi sprites of several characters. By tapping the chibis in the direction that the Manjuu is pointing, the Certificate of Support will be spent and the commander will receive Support Points.\n4. The Certificate of Support will disappear from your inventory if not used within a certain time.\n5. Certificates of Support obtained from higher level Campaign maps give more Support Points. The number of points earned per Chapter is shown in the table below:\n\nChapter 3: 120 Points\nChapter 4: 150 Points\nChapter 5: 180 Points\nChapter 6: 220 Points\nChapter 7: 270 Points\nChapter 8: 350 Points\nChapter 9: 450 Points\nChapter 10: 550 Points\nChapter 11: 700 Points\nChapter 12: 850 Points\nChapter 13: 1,000 Points\nChapter 14: 1,150 Points."
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_achv_finish_tip = {
-		tip = "Achievement: [$1] Completed"
+	_G.pg.base.gametip.island_production_finish = {
+		tip = "Work Complete"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.loveletter_exchange_tip3 = {
-		tip = "Replacement successful. Please check your Inbox to receive your new items."
+	_G.pg.base.gametip.island_confirm = {
+		tip = "Confirm "
 	}
 end)()
 
@@ -14374,14 +16228,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_achievement_title = {
-		tip = "Island Achievements"
+	_G.pg.base.gametip.island_dressup_tip = {
+		tip = "Do you want to keep this appearance? You can change it later."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.cook_game_marcopolo = {
-		tip = "Gives your team a longer timer!"
+	_G.pg.base.gametip.loveletter_recover_tip6 = {
+		tip = "Your mail has been scanned. You can resend Valentine's mail from $1."
 	}
 end)()
 
@@ -14398,26 +16252,72 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_production_seeds_empty = {
-		tip = "You have no seeds. Please buy some in the shop."
+	_G.pg.base.gametip.child2_select_help = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/educate_tb_help1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/educate_tb_help2",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/educate_tb_help3",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/educate_tb_help4",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/educate_tb_help5",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_photo_mode = {
-		tip = "Photo"
+	_G.pg.base.gametip.grapihcs3d_setting_card_socialdata = {
+		tip = "Data Display"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_production_harvestable = {
-		tip = "Harvestable"
+	_G.pg.base.gametip.island_post_operate = {
+		tip = "Management"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_production_manually_cancel = {
-		tip = "You are already growing crops. Would you like to stop growing and assign a character?"
+	_G.pg.base.gametip.child_news_other_title = {
+		tip = "Ordinary Events"
 	}
 end)()
 
@@ -14428,20 +16328,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_production_being_planted = {
-		tip = "No Growing Crops to Harvest"
+	_G.pg.base.gametip.intimacy_desc_5_buff = {
+		tip = "Current buff: All base stats (except speed and gear) +6%"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_production_plantable = {
-		tip = "Plantable"
+	_G.pg.base.gametip.island_request = {
+		tip = "Request"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_production_log_recover = {
-		tip = "All gathering opportunities have been used. New ones gained in: $1"
+	_G.pg.base.gametip.child_random_polaroid_drop = {
+		tip = "Moments"
 	}
 end)()
 
@@ -14464,8 +16364,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_shipNation_imas = {
-		tip = "The Idolmaster "
+	_G.pg.base.gametip.world_consume_carry_tips = {
+		tip = "未配置tip"
 	}
 end)()
 
@@ -14476,8 +16376,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_production_selected_tip2 = {
-		tip = "Select a Character"
+	_G.pg.base.gametip.island_friend_add = {
+		tip = "Add"
 	}
 end)()
 
@@ -14494,20 +16394,24 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_production_selected_tip1 = {
-		tip = "No Characters That Meet Requirements"
+	_G.pg.base.gametip.island_submit_order_cd_tip = {
+		tip = "Can Be Submitted in $1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_production_character_info = {
-		tip = "Character Details"
+	_G.pg.base.gametip.gift_act_help = {
+		tip = {
+			{
+				info = "- Manjuu Papercraft Overview -\nUse the materials you collect on Seabreeze Island and craft them into gifts for your shipgirls!\nGive the gifts to your shipgirls to get rewards such as Adventure Coins in return.\n\n- How to Play -\n1. Select the shipgirl you'd like to give a gift to, and follow the instructions on the screen to craft the gift.\n2. Once you've finished the gift, drag it onto the shipgirl to deliver it. Doing so will grant you rewards such as Adventure Coins.\n3. You can only give one gift to the same ship.\n4. Shiny Gemstones can be obtained by converting Unprocessed Ore at the Crafting Station."
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_energy_mid_desc = {
-		tip = "Normal\nWill not receive Affinity during attacks"
+	_G.pg.base.gametip.island_dress_mutually_exclusive1 = {
+		tip = "$1 cannot be worn with current outfit."
 	}
 end)()
 
@@ -14518,8 +16422,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_story_unlock_tip = {
-		tip = "Story unlocked"
+	_G.pg.base.gametip.island_tech_unlock_tip3 = {
+		tip = "Researched Technologies Needed: $1"
 	}
 end)()
 
@@ -14542,14 +16446,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_production_finish = {
-		tip = "Work Complete"
+	_G.pg.base.gametip.island_tech_unlock_tip2 = {
+		tip = "Unlocked Features Needed: $1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_chara_consum = {
-		tip = "Spend"
+	_G.pg.base.gametip.island_tech_unlock_tip1 = {
+		tip = "Completed Projects Needed: $1"
 	}
 end)()
 
@@ -14576,8 +16480,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_dev_level_tip = {
-		tip = "Raising your Island Development Level increases your research power and unlocks new technologies to research."
+	_G.pg.base.gametip.island_tech_unlock_tip0 = {
+		tip = "Dev. Level Needed: $1"
 	}
 end)()
 
@@ -14588,14 +16492,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.loveletter_recover_bottom1 = {
-		tip = "Scan"
+	_G.pg.base.gametip.island_tech_unlock_tip = {
+		tip = "Insufficient levels and items."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.workbench_tips9 = {
-		tip = "Materials Needed"
+	_G.pg.base.gametip.island_visit_on = {
+		tip = "On"
 	}
 end)()
 
@@ -14642,8 +16546,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_task_goto0 = {
-		tip = "There are no missions in this zone."
+	_G.pg.base.gametip.island_visit_off = {
+		tip = "Off"
 	}
 end)()
 
@@ -14666,8 +16570,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_post_operate = {
-		tip = "Management"
+	_G.pg.base.gametip.island_tech_can_get = {
+		tip = "Claimable"
 	}
 end)()
 
@@ -14684,8 +16588,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child_target_finish_tip = {
-		tip = "Current growth goals achieved."
+	_G.pg.base.gametip.island_tech_nodev = {
+		tip = "No Research"
 	}
 end)()
 
@@ -14696,8 +16600,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.venusvolleyball_rule_tip = {
-		tip = "Earn $1 points first "
+	_G.pg.base.gametip.island_tech_detail_unlocktitle = {
+		tip = "Unlock Conditions"
 	}
 end)()
 
@@ -14750,18 +16654,27 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blackfriday_main_tip = {
-		tip = {
-			{
-				info = "- Overview -\n· The 2024 Black Friday Akashi's Fire Sale (Part 2) is available between<color=#92fc63>November 14th and December 4th</color>.\n· Event Missions\nComplete event missions to get Black Friday PT.\n· Event Shops\nUse Black Friday PT, Gems and Coins in PT Shop, Gem Shop, and Coin Shop respectively to purchase items.\n· Gift Packs\nEvery day until November 20th, a new Daily Free Pack and a new Daily Paid Pack are unlocked."
-			}
-		}
+	_G.pg.base.gametip.island_tech_dev_cost = {
+		tip = "Research Cost"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.build_ship_quickly_buy_tool = {
-		tip = "Spend <color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color> Gems to buy Quick Finisher x<color=$3>$2</color>?"
+	_G.pg.base.gametip.pocky_help = {
+		tip = {
+			{
+				info = "Event Instructions:"
+			},
+			{
+				info = "1. During the event, complete all Punch Card missions, Manjuu Manufactory missions, and Head Maid's Request missions to earn Belfast's limited outfit, \"Shopping with the Head Maid.\""
+			},
+			{
+				info = "2. A batch of new missions will unlock every day. Completing previous missions will allow you to play the next batch of missions."
+			},
+			{
+				info = "3. Complete the task to finish each Head Maid's Request mission, spend Oil to complete Manjuu Manufactory missions, and log in to complete Punch Card missions.\n4. Rewards must be collected by December 15, 2019 23:59"
+			}
+		}
 	}
 end)()
 
@@ -14778,14 +16691,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_friend_add = {
-		tip = "Add"
+	_G.pg.base.gametip.faest_nothing_to_get = {
+		tip = "No rewards available."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_submit_order_cd_tip = {
-		tip = "Can Be Submitted in $1"
+	_G.pg.base.gametip.island_tech_dev_success = {
+		tip = "Research Complete"
 	}
 end)()
 
@@ -14808,8 +16721,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_total_damage = {
-		tip = "Damage"
+	_G.pg.base.gametip.activity_puzzle_get4 = {
+		tip = "<color=#A9F548FF>How to get: Normal difficulty 3-1</color>"
 	}
 end)()
 
@@ -14820,20 +16733,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_act_tips1 = {
-		tip = "Tap to go back"
+	_G.pg.base.gametip.battle_result_boss_hp_lower = {
+		tip = "The boss has less than $1% HP left"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.levelScene_escort_win = {
-		tip = "The transport ship has arrived at its goal. Escort mission complete!"
+	_G.pg.base.gametip.login_loginMediator_kickUndefined = {
+		tip = "Connection error - [$1]"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_tech_unlock_tip3 = {
-		tip = "Researched Technologies Needed: $1"
+	_G.pg.base.gametip.island_tech_dev_start = {
+		tip = "Begin Research"
 	}
 end)()
 
@@ -14850,8 +16763,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_tech_unlock_tip2 = {
-		tip = "Unlocked Features Needed: $1"
+	_G.pg.base.gametip.island_tech_unlock_dev = {
+		tip = "Unlock Research"
 	}
 end)()
 
@@ -14862,8 +16775,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_tech_unlock_tip1 = {
-		tip = "Completed Projects Needed: $1"
+	_G.pg.base.gametip.island_tech_unlock_need = {
+		tip = "Technology Needed"
 	}
 end)()
 
@@ -14898,8 +16811,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_tech_unlock_tip0 = {
-		tip = "Dev. Level Needed: $1"
+	_G.pg.base.gametip.island_tech_noauthority = {
+		tip = "Research Unavailable"
 	}
 end)()
 
@@ -14974,8 +16887,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_mat = {
-		tip = "Carpet"
+	_G.pg.base.gametip.login_game_login_full = {
+		tip = "Too many players are logged into this server. Please wait and try again."
 	}
 end)()
 
@@ -14986,8 +16899,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_tech_unlock_tip = {
-		tip = "Insufficient levels and items."
+	_G.pg.base.gametip.island_technology_title = {
+		tip = "Island Technologies"
 	}
 end)()
 
@@ -15004,8 +16917,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visit_on = {
-		tip = "On"
+	_G.pg.base.gametip.island_invite_title = {
+		tip = "Island Authorization Device"
 	}
 end)()
 
@@ -15016,8 +16929,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visit_off = {
-		tip = "Off"
+	_G.pg.base.gametip.island_dev_level_tip = {
+		tip = "Raising your Island Development Level increases your research power and unlocks new technologies to research."
 	}
 end)()
 
@@ -15038,8 +16951,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_tech_can_get = {
-		tip = "Claimable"
+	_G.pg.base.gametip.game_room_shooting_tip = {
+		tip = "Current Score:"
 	}
 end)()
 
@@ -15050,8 +16963,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_tech_nodev = {
-		tip = "No Research"
+	_G.pg.base.gametip.mail_moveto_markroom_1 = {
+		tip = "Would you like to move your mail to your <color=#238c40>Archive</color>? \nMoving your mail will automatically claim any attached items."
 	}
 end)()
 
@@ -15123,26 +17036,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_tech_detail_unlocktitle = {
-		tip = "Unlock Conditions"
+	_G.pg.base.gametip.island_task_tracking = {
+		tip = "Select"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_tech_detail_desctitle = {
-		tip = "Tech Gain"
+	_G.pg.base.gametip.child_plan_event = {
+		tip = "Special Activity"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_tech_dev_cost = {
-		tip = "Research Cost"
+	_G.pg.base.gametip.newplayer_notice_7 = {
+		tip = "Unlocked after completing previous mission"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_catsearch_help_2 = {
-		tip = "Potential Rewards: "
+	_G.pg.base.gametip.complete = {
+		tip = "Commi-\nssion"
 	}
 end)()
 
@@ -15189,8 +17102,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_discount = {
-		tip = "0% price"
+	_G.pg.base.gametip.island_word_ship_rank = {
+		tip = "Current Rank"
 	}
 end)()
 
@@ -15225,14 +17138,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_tech_dev_success = {
-		tip = "Research Complete"
+	_G.pg.base.gametip.island_exchange_sure_tip = {
+		tip = "Craft this item?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.attribute_intimacy = {
-		tip = "Affinity"
+	_G.pg.base.gametip.dreamland_label_explore_award_tip = {
+		tip = "Area Exploration Reward"
 	}
 end)()
 
@@ -15249,8 +17162,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.resource_max_tip_destroy = {
-		tip = "Unable to recycle gear."
+	_G.pg.base.gametip.spweapon_ui_keep_attr_text2 = {
+		tip = "Continue with <color=#92fc63>attribute conversion</color>?"
 	}
 end)()
 
@@ -15267,8 +17180,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_tech_dev_start = {
-		tip = "Begin Research"
+	_G.pg.base.gametip.island_word_ship_enengy_recover = {
+		tip = "Stamina Recovery"
 	}
 end)()
 
@@ -15279,20 +17192,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_tech_unlock_dev = {
-		tip = "Unlock Research"
+	_G.pg.base.gametip.island_select_ship_gift = {
+		tip = "Select a Gift"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_tech_unlock_need = {
-		tip = "Technology Needed"
+	_G.pg.base.gametip.island_need_ship_level = {
+		tip = "Must Reach Character Lv. $1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_tech_noauthority = {
-		tip = "Research Unavailable"
+	_G.pg.base.gametip.liner_target_type1 = {
+		tip = "Fixed Event"
 	}
 end)()
 
@@ -15315,8 +17228,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_technology_title = {
-		tip = "Island Technologies"
+	_G.pg.base.gametip.equipment_equipmentScene_selectError_more = {
+		tip = "May select up to <color=#92fc63>$1</color> pieces of gear"
 	}
 end)()
 
@@ -15349,8 +17262,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_invite_title = {
-		tip = "Island Authorization Device"
+	_G.pg.base.gametip.word_equipment_intensify = {
+		tip = "Enhance"
 	}
 end)()
 
@@ -15415,8 +17328,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.file_down_msgbox = {
-		tip = "Assets needed for the game's bootup are missing. \nWould you like to download <color=#92fc63>$1</color> of data?"
+	_G.pg.base.gametip.island_unlock_ship_skill_color = {
+		tip = "Do you want to unlock outfit coloring?"
 	}
 end)()
 
@@ -15427,32 +17340,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_chara_totalname = {
-		tip = "Character Details"
+	_G.pg.base.gametip.world_automode_setting_new_1_2 = {
+		tip = "4"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_task_tracking = {
-		tip = "Select"
+	_G.pg.base.gametip.island_ship_newskill_unlock = {
+		tip = "Unlock Skill:"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_sell_lock = {
-		tip = "Unavailable"
+	_G.pg.base.gametip.island_ship_breakout_consume = {
+		tip = "Spend"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_resourceSiteMediator_ok_end = {
-		tip = "Ship recalled."
+	_G.pg.base.gametip.island_ship_breakout = {
+		tip = "Enhance"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.res_wifi_tip = {
-		tip = "You are currently not on a Wi-Fi network. Downloading may use up a large amount of cellular data. Continue with download anyway?"
+	_G.pg.base.gametip.player_vitae_skin_setting = {
+		tip = "Skin Settings"
 	}
 end)()
 
@@ -15481,30 +17394,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_word_ship_rank = {
-		tip = "Current Rank"
+	_G.pg.base.gametip.island_ship_lock_attr_tip = {
+		tip = "Select Stat to Enhance"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_word_ship_level_upgrade_1 = {
-		tip = "At Each Level Up"
+	_G.pg.base.gametip.island_ship_title4 = {
+		tip = "Resources Needed"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dream_land_tip = {
-		tip = {
-			{
-				info = "- Overview -\nThe Dreamy Day in Dream Park event is available between <color=#92fc63>September 12th and October 2nd</color>.\n\n· Explore the park to unlock new areas and receive rewards, including <color=#92fc63>limited furniture</color> and <color=#92fc63>gear skin boxes</color>!\n· Each area contains its own interactable elements. If you're unable to find them, you can check <color=#92fc63>the stars displayed on the map</color> or your <color=#92fc63>Dreamland Guidebook</color> to receive a hint.\n· Some elements can only be interacted with at the right time of day. Finish the event story to unlock the Change Time option, letting you alter the park's time at will.\n· Let your shipgirls relax under the Sweet Dreams tab and they'll both recover Morale faster and appear inside the park. You'll unlock more slots as you gain access to more areas to explore."
-			}
-		}
+	_G.pg.base.gametip.adventure_award_title = {
+		tip = "Adventurer Level Reward"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_word_ship_enengy_recover = {
-		tip = "Stamina Recovery"
+	_G.pg.base.gametip.vote_not_enough = {
+		tip = "You do not have enough Ballots. "
 	}
 end)()
 
@@ -15521,36 +17430,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_select_ship_gift = {
-		tip = "Select a Gift"
+	_G.pg.base.gametip.island_ship_title1 = {
+		tip = "Develop Stats"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_need_ship_level = {
-		tip = "Must Reach Character Lv. $1"
+	_G.pg.base.gametip.island_word_own = {
+		tip = "Owned: $1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.liner_log_event_title = {
-		tip = "Investigate Case"
+	_G.pg.base.gametip.shop_supply_prop = {
+		tip = "Supply"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.help_equipment_skin = {
-		tip = {
-			{
-				info = "Different shipgirls use different weapons\n\n• Guns under 140mm:\nused as the main gun of Destroyers and some Light Cruisers, and secondary gun of Battleships, \nLight Cruisers, Heavy Cruisers and Battlecruisers\n\n• Guns bigger than140mm and under 200mm:\nused as the main gun of  Light Cruisers, and secondary gun of some Battleships\n\n• Guns bigger than 200mm and under 283mm:\nused as the main gun of Heavy Cruisers\n\n• Guns bigger than 283mm:\nused as the main gun of Battleships and Battlecruisers\n\n• Torpedos are used as secondary weapons of Destroyers and some Light Cruisers and Heavy Cruisers\n\n• Anti-Air weapons are equipped on most shipgirls\n\n• Different Carriers can carry different aircrafts\n\n• Equipment avatars change animation effects\n(Equipment avatars do not take storage space) "
-			}
-		}
+	_G.pg.base.gametip.index_no_limit = {
+		tip = "No Limit"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_result_time_limit = {
-		tip = "Destroy all enemies within $1 seconds"
+	_G.pg.base.gametip.island_cancel_queue = {
+		tip = "Cancel Visit"
 	}
 end)()
 
@@ -15579,8 +17484,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_dressup_tip = {
-		tip = "Do you want to keep this appearance? You can change it later."
+	_G.pg.base.gametip.island_order_ship_page_award = {
+		tip = "View Rewards"
 	}
 end)()
 
@@ -15591,8 +17496,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_unlock_ship_skill_color = {
-		tip = "Do you want to unlock outfit coloring?"
+	_G.pg.base.gametip.island_order_ship_page_req = {
+		tip = "View Details"
 	}
 end)()
 
@@ -15621,38 +17526,63 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.simulation_advantage_counting = {
-		tip = "Enemy using special tactic in $1s"
+	_G.pg.base.gametip.list_empty_tip_dockyardui = {
+		tip = "Found no ships matching your filter criteria."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ship_newskill_unlock = {
-		tip = "Unlock Skill:"
+	_G.pg.base.gametip.random_ship_now = {
+		tip = "Secretary Settings"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ship_breakout_consume = {
-		tip = "Spend"
+	_G.pg.base.gametip.link_link_help_tip = {
+		tip = {
+			{
+				info = " How to Play:\n"
+			},
+			{
+				info = "1. Once a day, after server reset at midnight, you will receive 1 San Diego Star minigame point."
+			},
+			{
+				info = "2. You will receive this point even if you didn't login during a particular day or didn't complete the minigame. You can earn all San Diego Stars in one day if you have 7 minigame points."
+			},
+			{
+				info = "3. The number of San Diego Stars you obtain depends on how many you've collected up to that point. The more you've collected, the more you'll receive."
+			},
+			{
+				info = "4. You play the minigame by drawing a line to connect 2 identical character tiles, which, if the conditions below are met, will clear them from the board."
+			},
+			{
+				info = "5. The line can only bend twice to reach the other tile. The connection can't be made if the line has to bend more than 2 times. The line can bend horizontally and vertically."
+			},
+			{
+				info = "6. Once you clear the board of all the tiles, you can receive a San Diego Star."
+			},
+			{
+				info = "7. Once you collect all 18 San Diego Stars from the minigame, you'll receive San Diego's retrofit item, the Sparkling Mic."
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ship_breakout = {
-		tip = "Enhance"
+	_G.pg.base.gametip.island_order_ship_worktime = {
+		tip = "Transport Time: $1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_manage_produce_tip = {
-		tip = "Some Items Gain Customer Appeal"
+	_G.pg.base.gametip.island_order_ship_end_work = {
+		tip = "Complete..."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ship_lock_attr_tip = {
-		tip = "Select Stat to Enhance"
+	_G.pg.base.gametip.cryptolalia_list_title = {
+		tip = "Secrets"
 	}
 end)()
 
@@ -15669,8 +17599,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ship_title4 = {
-		tip = "Resources Needed"
+	_G.pg.base.gametip.island_order_get_label = {
+		tip = "Claim Rewards"
 	}
 end)()
 
@@ -15687,8 +17617,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.handbook_research_final_task_desc_locked = {
-		tip = "Clear all $1 development missions to \nunlock the final missions for this phase."
+	_G.pg.base.gametip.island_order_leftCnt_tip = {
+		tip = "Daily Requests Left:"
 	}
 end)()
 
@@ -15735,8 +17665,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_not_exist_notifycation = {
-		tip = "There is are no entries on the Guild's message board."
+	_G.pg.base.gametip.island_order_difficulty = {
+		tip = "Request Preference"
 	}
 end)()
 
@@ -15747,26 +17677,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ship_title1 = {
-		tip = "Develop Stats"
+	_G.pg.base.gametip.island_order_title = {
+		tip = "Request List"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_word_own = {
-		tip = "Owned: $1"
+	_G.pg.base.gametip.launch_ball_yura_skill_1_desc = {
+		tip = "Exorcism Stance: Greatly slows the speed of all youkai on the field for 5s."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_activity = {
-		tip = "Event Exchange"
+	_G.pg.base.gametip.spweapon_tip_gold_no_enough = {
+		tip = "You don't have enough Coins."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_cancel_queue = {
-		tip = "Cancel Visit"
+	_G.pg.base.gametip.island_skill_desc = {
+		tip = "Skill Details"
 	}
 end)()
 
@@ -15777,14 +17707,533 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_order_ship_page_award = {
-		tip = "View Rewards"
+	_G.pg.base.gametip.island_custom_theme_name_tip = {
+		tip = "Save this layout as a theme?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_order_ship_page_req = {
-		tip = "View Details"
+	_G.pg.base.gametip.island_custom_theme_name = {
+		tip = "Custom Theme $1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_input_theme_name = {
+		tip = "Enter Theme Name"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_no_remind_today = {
+		tip = "Don't Show Again Today"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_word_convert = {
+		tip = "Convert"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.skinshop_live2d_fliter_failed = {
+		tip = "No outfits to display under current filter settings "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_own_cnt = {
+		tip = "Owned:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_day4 = {
+		tip = "Thu"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_filter_type3 = {
+		tip = "Cost Type"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_build_pool_tip = {
+		tip = "Do you wish to use $2 $1(s) to train this Meowfficer? "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_msg_info = {
+		tip = "Info"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cattery_op_feed_success = {
+		tip = "You fed your Meowfficer(s)!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200230 = {
+		tip = "Payment backend response - payment canceled"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.maid_task_tips1 = {
+		tip = {
+			{
+				info = "- Overview -\n· The Tonic and Tea mini-event centers around a story of two competing shops – a Royal Navy teahouse and an Iron Blood café.\n· Complete event missions to earn Store Upgrade Permits. These permits can be used to upgrade the shops around the New Year's Port.\n\n- How to Play -\n· 2 new event missions will be unlocked every day up to January 4th. Complete these missions to earn Store Upgrade Permits.\n· You can use your Store Upgrade Permits to upgrade the Royal Navy Teahouse and Iron Blood Café found on the New Year's Port screen.\n· Upgrading these shops will provide your fleet with buffs that last for the entire duration of the event.\n· Once you complete all the event missions, you can go to the event banner to claim a piece of exclusive furniture.\n· Upgrading all shops to level 4 will unlock a set of hidden missions. Completing these will allow you to see how the entire event story plays out."
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_count_2 = {
+		tip = "<color=$1>$2つ</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.senran_pt_consume_tip = {
+		tip = "Would you like to use <color=#3fbe0d>$1</color> <icon name=renzhinan_pt w=0.6 h=0.6/> to increase your level to <color=#3fbe0d>Lv.$2</color>?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.random_ship_label = {
+		tip = "Random Secretary"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.msgbox_text_exit = {
+		tip = "Exit"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_no_exist = {
+		tip = "Guild does not exist."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_main_tip_5 = {
+		tip = "Event"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.text_apply = {
+		tip = "Requests "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_label_furniture_exit = {
+		tip = "Return"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_files_repair = {
+		tip = "Tap to repair "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_upgradeStar_notConfig = {
+		tip = "Unable to find Limit Break config <color=#92fc63>$1</color>."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_reset_talent_tip = {
+		tip = "Would you like to reset this Meowfficer's Talents?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveactivity_ui_17 = {
+		tip = "No claimable rewards"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_chara_attribute_develop = {
+		tip = "Enhance Stats"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_season_charts_refresh = {
+		tip = "The Development Ranks are updated every 30 minutes."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_label_furniture_cnt = {
+		tip = "Amount"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_exchange_question = {
+		tip = "Exchange <color=#92fc63>$1</color> Medals for <color=#92fc63>$2</color>?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_label_furniture = {
+		tip = "Furniture"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_map_title = {
+		tip = "Island Map"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_word_go = {
+		tip = "Confirm "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_status_inTactics = {
+		tip = "Studying"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_manage_buff_tip = {
+		tip = "* Once you open for business, your characters' stat changes and buff changes will not affect your sales"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200340 = {
+		tip = "Payment canceled by user"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_tip_item_access = {
+		tip = "Tap on a material's icon to check how to obtain it."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_newPlayerScene_randomName = {
+		tip = "Random name"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.zan_ship_eva_error_7 = {
+		tip = "You've already reviewed this comment!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_manage_help_tip = {
+		tip = "The customer appeal of your dishes affects your sales. The higher the customer appeal, the likelier a customer is to make a purchase.\nCustomer appeal is influenced by the stats (main and sub) of your assigned characters.\n\n· Main stats: Greatly increase the customer appeal.\n· Sub stats: Moderately increase the customer appeal."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.words_bg_fit_mode = {
+		tip = "Auto-adjust loading \nscreen aspect ratio"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_task_help_2210 = {
+		tip = {
+			{
+				info = "- Regarding Cruise Missions - \n· Two types of missions will be released at the same time at the start of the campaign season:\na) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.\nb) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.\n\n· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.\n\n· You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.\nWe do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.\nAny purchased Cruise Mission Vouchers will remain even after the campaign season ends."
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shop_new_ship_havent_owned = {
+		tip = "Unowned Ship"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_automode_setting_all_1 = {
+		tip = "When encountering the Mysterious Merchant:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_manage_shop_exp = {
+		tip = "Store EXP"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_character_quality_optionname2 = {
+		tip = "High"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_manage_word_cnt = {
+		tip = "Sales"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.class_attr_store = {
+		tip = "Capacity "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_manage_result_3 = {
+		tip = "Current Sales"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_manage_result_1 = {
+		tip = "Dishes Left"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_manage_real_price = {
+		tip = "Show Price"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_boss_archives_stop_auto_battle_title = {
+		tip = "<size=40>Auto-Deploy In Progress</size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.fightfail_choiceequip = {
+		tip = "Select a ship with gear you would like to enhance."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.attribute_anti_siren = {
+		tip = "OPS Damage Boost "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_monopoly_3th = {
+		tip = {
+			{
+				info = "Event Duration: <color=#92fc63>1/27/2022 – 2/9/2022</color>"
+			},
+			{
+				info = "- Overview -\n· Tap the button on the bottom-right side of the screen to Explore once.\n· Every 5 times you Explore, you will earn a Red Envelope as a special bonus.\n· Red Envelopes can be opened in the Manjuu Resort.\n· Every day during the event, you will be able to Explore 5 times. Exploration Points can be saved and used later.\n· After Exploring 35 times (7 days' worth), you will get light cruiser Ying Swei's limited outfit, \"Snowy Pine's Warmth.\"\n· Random events may occur during this minigame.\n· You can tap the Auto Explore button to keep revealing tiles until you run out of Exploration Points."
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.report_type_1 = {
+		tip = "Inappropriate Comment"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.probabilityskinshop_tip = {
+		tip = "If you receive a duplicate skin, it will be converted into a corresponding sum of Gems."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_boss_daily_limit = {
+		tip = "Insufficient analysis attempts. "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.random_ship_off_0 = {
+		tip = "The Random Secretary setting has been toggled OFF because you don't have enough eligible shipgirls."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.charge_error_disable = {
+		tip = "The store payment processor is currently under maintenance."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_manage_worker_cnt = {
+		tip = "Staff"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.exit_backyard_exp_display = {
+		tip = "$1 received $2 EXP through training."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_manage_food_cnt = {
+		tip = "Dish Capacity"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_manage_slot = {
+		tip = "Dish Slots"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100130 = {
+		tip = "Login failed, UID is banned"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_index_extra_all = {
+		tip = "Unlimited"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_task_tag_daily = {
+		tip = "Dailies"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_main_tip_2408 = {
+		tip = "Complete Cruise Missions between 8/1/2024 00:00 – 9/30/2024 23:59 to receive <color=#854747>Kasumi META</color> and other rewards!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_tip_base = {
+		tip = "- Base Rewards -"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_port_inbattle = {
+		tip = "Your fleet is engaged in battle and can't return to port."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_use = {
+		tip = "Use"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_manage_start_work = {
+		tip = "Start Work"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_manage_auto_work = {
+		tip = "Auto-Select"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.other_world_task_got = {
+		tip = "Claimed"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.couplete_task = {
+		tip = "Complete the missions to unlock the next set of couplets."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.level_fleet_ship_desc = {
+		tip = "Deployable Fleets:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_manage_addition = {
+		tip = "Buff List"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.pass_times = {
+		tip = "Stage clears."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_manage_cnt = {
+		tip = "Amount:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_manage_predict_saleroom = {
+		tip = "Predicted Sales"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.vote_lable_task_title = {
+		tip = "Event Tasks"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality = {
+		tip = "Environmental details"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.workbench_tips1 = {
+		tip = "You can't craft any more"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_manage_saleroom = {
+		tip = "Sales"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_manage_upgrade_worker_level = {
+		tip = "Must be Upgraded to Gold Store"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_emoji_unlock = {
+		tip = "New Sticker Unlocked!"
 	}
 end)()
 
@@ -15865,533 +18314,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.player_vitae_skin_setting = {
-		tip = "Skin Settings"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_no_request = {
-		tip = "No requests found."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.skinshop_live2d_fliter_failed = {
-		tip = "No outfits to display under current filter settings "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_order_ship_worktime = {
-		tip = "Transport Time: $1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_day4 = {
-		tip = "Thu"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_filter_type3 = {
-		tip = "Cost Type"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_order_ship_end_work = {
-		tip = "Complete..."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cryptolalia_coming_soom = {
-		tip = "Coming Soon..."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cattery_op_feed_success = {
-		tip = "You fed your Meowfficer(s)!"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_order_get_label = {
-		tip = "Claim Rewards"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_order_leftCnt_tip = {
-		tip = "Daily Requests Left:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_count_2 = {
-		tip = "<color=$1>$2つ</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.senran_pt_consume_tip = {
-		tip = "Would you like to use <color=#3fbe0d>$1</color> <icon name=renzhinan_pt w=0.6 h=0.6/> to increase your level to <color=#3fbe0d>Lv.$2</color>?"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_order_difficulty = {
-		tip = "Request Preference"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.msgbox_text_exit = {
-		tip = "Exit"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_order_title = {
-		tip = "Request List"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.yumia_main_tip_5 = {
-		tip = "Event"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.text_apply = {
-		tip = "Requests "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.launch_ball_shimakaze_skill_1_desc = {
-		tip = "Lightning Upon the Wind: Repels all youkai in a fan-shaped area in front of Shimakaze, granting the corresponding base score."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.inform_chat_msg = {
-		tip = "Chat content is empty."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_skill_desc = {
-		tip = "Skill Details"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_reset_talent_tip = {
-		tip = "Would you like to reset this Meowfficer's Talents?"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_custom_theme_name_tip = {
-		tip = "Save this layout as a theme?"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_chara_attribute_develop = {
-		tip = "Enhance Stats"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_season_charts_refresh = {
-		tip = "The Development Ranks are updated every 30 minutes."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_custom_theme_name = {
-		tip = "Custom Theme $1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_exchange_question = {
-		tip = "Exchange <color=#92fc63>$1</color> Medals for <color=#92fc63>$2</color>?"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_input_theme_name = {
-		tip = "Enter Theme Name"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_no_remind_today = {
-		tip = "Don't Show Again Today"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_word_convert = {
-		tip = "Convert"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_status_inTactics = {
-		tip = "Studying"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_own_cnt = {
-		tip = "Owned:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200340 = {
-		tip = "Payment canceled by user"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_tip_item_access = {
-		tip = "Tap on a material's icon to check how to obtain it."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_newPlayerScene_randomName = {
-		tip = "Random name"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.zan_ship_eva_error_7 = {
-		tip = "You've already reviewed this comment!"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.resource_clear_gallery = {
-		tip = "Would you like to delete all illustration assets?\nData size: $1.\n(After deleting the assets, you will need to redownload them to access them again.)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.words_bg_fit_mode = {
-		tip = "Auto-adjust loading \nscreen aspect ratio"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cruise_task_help_2210 = {
-		tip = {
-			{
-				info = "- Regarding Cruise Missions - \n· Two types of missions will be released at the same time at the start of the campaign season:\na) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.\nb) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.\n\n· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.\n\n· You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.\nWe do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.\nAny purchased Cruise Mission Vouchers will remain even after the campaign season ends."
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.shop_new_ship_havent_owned = {
-		tip = "Unowned Ship"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_automode_setting_all_1 = {
-		tip = "When encountering the Mysterious Merchant:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_msg_info = {
-		tip = "Info"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_character_quality_optionname2 = {
-		tip = "High"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["not yet completed"] = {
-		tip = "尚未完成"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.class_attr_store = {
-		tip = "Capacity "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.setting_interface_revert_check = {
-		tip = "Are you sure you want to reset your battle formation?"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.random_ship_tips2 = {
-		tip = "You can change the settings of your individual secretary slots."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.chapter_no = {
-		tip = "Chapter <color=#92fc63>$1</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_boss_archives_stop_auto_battle_title = {
-		tip = "<size=40>Auto-Deploy In Progress</size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.fightfail_choiceequip = {
-		tip = "Select a ship with gear you would like to enhance."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.attribute_anti_siren = {
-		tip = "OPS Damage Boost "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_monopoly_3th = {
-		tip = {
-			{
-				info = "Event Duration: <color=#92fc63>1/27/2022 – 2/9/2022</color>"
-			},
-			{
-				info = "- Overview -\n· Tap the button on the bottom-right side of the screen to Explore once.\n· Every 5 times you Explore, you will earn a Red Envelope as a special bonus.\n· Red Envelopes can be opened in the Manjuu Resort.\n· Every day during the event, you will be able to Explore 5 times. Exploration Points can be saved and used later.\n· After Exploring 35 times (7 days' worth), you will get light cruiser Ying Swei's limited outfit, \"Snowy Pine's Warmth.\"\n· Random events may occur during this minigame.\n· You can tap the Auto Explore button to keep revealing tiles until you run out of Exploration Points."
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.report_type_1 = {
-		tip = "Inappropriate Comment"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.probabilityskinshop_tip = {
-		tip = "If you receive a duplicate skin, it will be converted into a corresponding sum of Gems."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_label_furniture_exit = {
-		tip = "Return"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.random_ship_off_0 = {
-		tip = "The Random Secretary setting has been toggled OFF because you don't have enough eligible shipgirls."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_low_morale = {
-		tip = "You are unable to start a boss battle because your fleet Resolve is low. \nYou can restore Resolve by issuing a Regroup and Rest command or by winning battles. "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blackfriday_help = {
-		tip = {
-			{
-				info = "Event Rules:\n1. During the event, the purchase of each limited rerun outfit will unlock 1 Tier of the reward list that you can claim immediately.\n2. The event's limited furniture is also purchasable in the Dorm. If you've bought the furniture before claiming your reward from the event, then when you claim the reward, the rewarded limited furniture will be converted into Gems of the same value automatically.\n3. If the number of rerun outfits you do not own is less than 6, you will get the corresponding Tier rewards from Akashi's Fire Sale directly.\n4. Purchasing the Black Friday Lucky Bag (2022) will unlock 1 Tier of the reward list no matter if you get a new skin or a skin you already have."
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.exit_backyard_exp_display = {
-		tip = "$1 received $2 EXP through training."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.vote_lable_task_title = {
-		tip = "Event Tasks"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_label_furniture_cnt = {
-		tip = "Amount"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_label_furniture = {
-		tip = "Furniture"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_map_title = {
-		tip = "Island Map"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_task_tag_daily = {
-		tip = "Dailies"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_tip_2408 = {
-		tip = "Complete Cruise Missions between 8/1/2024 00:00 – 9/30/2024 23:59 to receive <color=#854747>Kasumi META</color> and other rewards!"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_word_go = {
-		tip = "Confirm "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_port_inbattle = {
-		tip = "Your fleet is engaged in battle and can't return to port."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_manage_help_tip = {
-		tip = "The customer appeal of your dishes affects your sales. The higher the customer appeal, the likelier a customer is to make a purchase.\nCustomer appeal is influenced by the stats (main and sub) of your assigned characters.\n\n· Main stats: Greatly increase the customer appeal.\n· Sub stats: Moderately increase the customer appeal."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_manage_shop_exp = {
-		tip = "Store EXP"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_manage_word_cnt = {
-		tip = "Sales"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.other_world_task_got = {
-		tip = "Claimed"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.couplete_task = {
-		tip = "Complete the missions to unlock the next set of couplets."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_manage_result_3 = {
-		tip = "Current Sales"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_manage_result_1 = {
-		tip = "Dishes Left"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.pass_times = {
-		tip = "Stage clears."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_manage_real_price = {
-		tip = "Show Price"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_backyardScene_error_noPosPutFurniture = {
-		tip = "This doesn't fit anywhere."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_automode_setting_all_2_2 = {
-		tip = "Every 100 Coordinates"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_manage_worker_cnt = {
-		tip = "Staff"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.workbench_tips1 = {
-		tip = "You can't craft any more"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_manage_food_cnt = {
-		tip = "Dish Capacity"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_manage_slot = {
-		tip = "Dish Slots"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_emoji_unlock = {
-		tip = "New Sticker Unlocked!"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_strategying = {
-		tip = "In progress..."
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.caibulin_tip8 = {
 		tip = "The academy? How suspicious... Sounds like a great place for clues to be hidden, bulin!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.Normalbuild_URexchange_text1 = {
-		tip = "UR Exchange"
+	_G.pg.base.gametip.island_manage_produce_tip = {
+		tip = "Some Items Gain Customer Appeal"
 	}
 end)()
 
@@ -16402,8 +18332,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_chara_now_rank = {
-		tip = "Current Rank"
+	_G.pg.base.gametip.limit_team_character_tips = {
+		tip = "You cannot have same name ships in your Coalition Battle fleets."
 	}
 end)()
 
@@ -16420,14 +18350,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.spweapon_tip_gold_no_enough = {
-		tip = "You don't have enough Coins."
+	_G.pg.base.gametip.island_manage_result = {
+		tip = "Work Results"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_sort_duty = {
-		tip = "Post"
+	_G.pg.base.gametip.island_manage_view = {
+		tip = "Inspect"
 	}
 end)()
 
@@ -16448,20 +18378,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_manage_start_work = {
-		tip = "Start Work"
+	_G.pg.base.gametip.island_manage_no_work = {
+		tip = "No Work"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_manage_auto_work = {
-		tip = "Auto-Select"
+	_G.pg.base.gametip.island_rename_subtitle = {
+		tip = "Island Name"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.mktea_4 = {
-		tip = "Place the processed tea leaves in a cool place, and spread them thinly to reabsorb moisture. After cooling, sieve off the tea powder, and winnow out any debris."
+	_G.pg.base.gametip.island_prosperity_value_display = {
+		tip = "繁荣度达到：$1"
 	}
 end)()
 
@@ -16484,8 +18414,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_manage_addition = {
-		tip = "Buff List"
+	_G.pg.base.gametip.island_word_get = {
+		tip = "Accept"
 	}
 end)()
 
@@ -16496,8 +18426,12 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_manage_cnt = {
-		tip = "Amount:"
+	_G.pg.base.gametip.help_newyear_feast = {
+		tip = {
+			{
+				info = "- Summary:\nDuring this event, you can enjoy a handful of minigames and earn Stamps, which can be exchanged for Kinu's skin - \"New Year's Blade Demon.\"\n\nTo receive a Stamp, you first need to have a Ticket, which you can get every day by logging in during the event period.\n\n- How to Get Stamps and Tickets You will recieve 1 Ticket a day when you login during the event period.\n\nIf you don't login for several days during the event period, you will receive all the Tickets you would have gotten up to that point at the next point you login.\n\n- About the Minigame By tapping the New Year Challenge button, you'll be taken to another screen where you can play Kinu's New Year Training.\n\nWhen you clear this minigame while in possession of a Ticket, you'll receive 1 Stamp as well as 2 Prayers at the Shrine.\n\nOnce you've collected 7 Stamps, you can tap the Check In button on the right to exchange them for Kinu's skin.\n\nOnce you've made 7 Prayers at the Shrine, you can claim the New Year's Invitation (2019) from the corresponding event banner.\n\nNote: While you can still play the minigame without a Ticket, you will not receive any rewards from it if you do so.\nYou may also quit the minigame at any time without losing a Ticket, but you will not receive rewards from it either."
+			}
+		}
 	}
 end)()
 
@@ -16568,20 +18502,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_manage_predict_saleroom = {
-		tip = "Predicted Sales"
+	_G.pg.base.gametip.island_upgrade_res = {
+		tip = "Resources Needed"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_newSkin_name = {
-		tip = "$1"
+	_G.pg.base.gametip.island_upgrade_exp = {
+		tip = "Island Dev. EXP"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_enable_post_process = {
-		tip = "Post-processing"
+	_G.pg.base.gametip.island_upgrade_preview = {
+		tip = "Level Up Effects"
 	}
 end)()
 
@@ -16644,8 +18578,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_manage_saleroom = {
-		tip = "Sales"
+	_G.pg.base.gametip.island_rename_consutme_tip = {
+		tip = "Island's name can be up to 18 characters long."
 	}
 end)()
 
@@ -16656,8 +18590,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_manage_upgrade_worker_level = {
-		tip = "Must be Upgraded to Gold Store"
+	_G.pg.base.gametip.island_rename_input_tip = {
+		tip = "Tap to Enter Name"
 	}
 end)()
 
@@ -16674,14 +18608,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.game_ticket_max_month = {
-		tip = "You've reached your monthly limit of Game Tickets, and will not be able to earn any more. Continue playing the minigame?"
+	_G.pg.base.gametip.island_bag_upgrade_capacity = {
+		tip = "Resource Warehouse Capacity"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_manage_result = {
-		tip = "Work Results"
+	_G.pg.base.gametip.island_bag_upgrade_req = {
+		tip = "Needed to Expand"
 	}
 end)()
 
@@ -16692,14 +18626,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_manage_view = {
-		tip = "Inspect"
+	_G.pg.base.gametip.quota_shop_title1 = {
+		tip = "Core (Ltd.)"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_manage_no_work = {
-		tip = "No Work"
+	_G.pg.base.gametip.island_open_ship_tip = {
+		tip = "You will jump to the Research Center. Continue?"
 	}
 end)()
 
@@ -16710,8 +18644,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_rename_subtitle = {
-		tip = "Island Name"
+	_G.pg.base.gametip.island_trade_cnt_inadequate = {
+		tip = "Insufficient Amount"
 	}
 end)()
 
@@ -16722,14 +18656,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_prosperity_value_display = {
-		tip = "繁荣度达到：$1"
+	_G.pg.base.gametip.island_word_temp = {
+		tip = "Temporary"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_word_get = {
-		tip = "Accept"
+	_G.pg.base.gametip.island_total_price = {
+		tip = "Total Price:"
 	}
 end)()
 
@@ -16740,8 +18674,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.re_battle = {
-		tip = "Retry "
+	_G.pg.base.gametip.island_batch_covert = {
+		tip = "Batch Convert"
 	}
 end)()
 
@@ -16752,8 +18686,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_upgrade_res = {
-		tip = "Resources Needed"
+	_G.pg.base.gametip.island_word_reset = {
+		tip = "Reset"
 	}
 end)()
 
@@ -16764,8 +18698,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_upgrade_exp = {
-		tip = "Island Dev. EXP"
+	_G.pg.base.gametip.island_word_sort = {
+		tip = "Sort"
 	}
 end)()
 
@@ -16776,14 +18710,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_upgrade_preview = {
-		tip = "Level Up Effects"
+	_G.pg.base.gametip.island_open_settings_tip2 = {
+		tip = "Visitors are prohibited."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_rename_consutme_tip = {
-		tip = "Island's name can be up to 18 characters long."
+	_G.pg.base.gametip.island_open_settings_tip1 = {
+		tip = "Please set a range where visits are allowed."
 	}
 end)()
 
@@ -16823,7 +18757,7 @@ end)()
 
 (function()
 	_G.pg.base.gametip.island_season_review_formulanum = {
-		tip = "Dishes Produced"
+		tip = "Produced"
 	}
 end)()
 
@@ -16834,14 +18768,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_rename_input_tip = {
-		tip = "Tap to Enter Name"
+	_G.pg.base.gametip.island_open_settings = {
+		tip = "Island Visit Approval"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.technology_task_none_tip = {
-		tip = "-Nothing-"
+	_G.pg.base.gametip.island_input_my_id = {
+		tip = "Tap to Enter UID"
 	}
 end)()
 
@@ -16852,26 +18786,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_bag_upgrade_capacity = {
-		tip = "Resource Warehouse Capacity"
+	_G.pg.base.gametip.island_chara_skill_unlock = {
+		tip = "Skill Unlocked"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_bag_upgrade_req = {
-		tip = "Needed to Expand"
+	_G.pg.base.gametip.island_code_exist = {
+		tip = "This code already exists."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_rename_success_tip = {
-		tip = "Name change successful."
+	_G.pg.base.gametip.island_input_code_erro = {
+		tip = "Please enter a code."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_redeploy_tip = {
-		tip = "Fleet not yet formed. "
+	_G.pg.base.gametip.vote_rank_in_current_server = {
+		tip = "*Rankings are for current server only"
 	}
 end)()
 
@@ -16882,8 +18816,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_open_ship_tip = {
-		tip = "You will jump to the Research Center. Continue?"
+	_G.pg.base.gametip.search_sp_equipment = {
+		tip = "Search Aug. Module by Name"
 	}
 end)()
 
@@ -16900,14 +18834,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ryza_task_submit = {
-		tip = "Submit"
+	_G.pg.base.gametip.commander_reserve_count_is_max = {
+		tip = "You cannot buy any more than this."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_word_temp = {
-		tip = "Temporary"
+	_G.pg.base.gametip.island_white_list_tip = {
+		tip = "Whitelisted users' requests to visit your island are automatically approved."
 	}
 end)()
 
@@ -16924,8 +18858,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_total_price = {
-		tip = "Total Price:"
+	_G.pg.base.gametip.island_black_list_tip = {
+		tip = "Blacklisted users cannot visit your island."
 	}
 end)()
 
@@ -16954,8 +18888,15 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_batch_covert = {
-		tip = "Batch Convert"
+	_G.pg.base.gametip.coloring_help_tip = {
+		tip = {
+			{
+				info = "- Overview -\n"
+			},
+			{
+				info = "1. Each cell of the Drawing Book is marked with a number that corresponds to a paint color. Select the paint color from the palette on the right and click on the cell to color it. \n2. The drawing area can be zoomed in and out by stretching or pinching with two fingers. \n3. All adjacent cells with the same number will be automatically colored until the cells are filled in or there is no paint of that color left. \n4. Coloring each cell will consume paint. If no paint is left, no more cells can be colored. \n5. Paint can be obtained by completing event missions which require you to consume a certain total amount of Oil. \n6. Completing pages in the Drawing Book will grant rewards. \n7. The rewards for completing each page are as follows: \n· Page 1: Random Skill Book T3 x2\n· Page 2: Red Envelope x1\n· Page 3: Dragon Empery CL Ying Swei\n· Page 4: Red Envelope x1\n· Page 5: Red Envelope x2\n· Page 6: Red Envelope x1\n· Page 7: Dragon Empery CL Chao Ho & Red Envelope x2\n8. After the event ends, all unused paint will be removed.\n9. A new page will be unlocked every day until February 18th."
+			}
+		}
 	}
 end)()
 
@@ -16976,14 +18917,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_word_reset = {
-		tip = "Reset"
+	_G.pg.base.gametip.island_btn_label_kick = {
+		tip = "Kick"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_word_sort = {
-		tip = "Sort"
+	_G.pg.base.gametip.island_btn_label_online = {
+		tip = "Logged In"
 	}
 end)()
 
@@ -16994,8 +18935,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_open_settings_tip2 = {
-		tip = "Visitors are prohibited."
+	_G.pg.base.gametip.island_btn_label_invitation_already = {
+		tip = "Invited"
 	}
 end)()
 
@@ -17018,14 +18959,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_open_settings_tip1 = {
-		tip = "Please set a range where visits are allowed."
+	_G.pg.base.gametip.list_empty_tip_friendui_black = {
+		tip = "There are no commanders on your blacklist."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_open_settings = {
-		tip = "Island Visit Approval"
+	_G.pg.base.gametip.island_btn_label_more = {
+		tip = "Misc."
 	}
 end)()
 
@@ -17036,14 +18977,60 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_input_my_id = {
-		tip = "Tap to Enter UID"
+	_G.pg.base.gametip.help_battle_rule = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/battle_maincanon",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/battle_plane",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/battle_sub_3",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/battle_sub_4",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/battle_sub_5",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_chara_buff_nomal = {
-		tip = "The applied buff will be overwritten. Continue?"
+	_G.pg.base.gametip.guild_log_quit = {
+		tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> has left the guild."
 	}
 end)()
 
@@ -17054,8 +19041,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_code_exist = {
-		tip = "This code already exists."
+	_G.pg.base.gametip.new_airi_error_code_300102 = {
+		tip = "0"
 	}
 end)()
 
@@ -17084,8 +19071,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.charge_start_tip = {
-		tip = "Buy to receive $2 Gems"
+	_G.pg.base.gametip.word_attr_range = {
+		tip = "Range"
 	}
 end)()
 
@@ -17102,14 +19089,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_input_code_erro = {
-		tip = "Please enter a code."
+	_G.pg.base.gametip.island_close_access_state = {
+		tip = "Already blocked to visitors."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip["2023spring_minigame_tip2"] = {
-		tip = "Equipped"
+	_G.pg.base.gametip.commission_label_go = {
+		tip = "Confirm"
 	}
 end)()
 
@@ -17148,8 +19135,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_reserve_count_is_max = {
-		tip = "You cannot buy any more than this."
+	_G.pg.base.gametip.island_close_visit = {
+		tip = "Cannot Visit"
 	}
 end)()
 
@@ -17161,13 +19148,13 @@ end)()
 
 (function()
 	_G.pg.base.gametip.island_season_window_pt = {
-		tip = "Obtained Through $1 Resource Conversion"
+		tip = "Obtained Through $1 \nResource Conversion"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_white_list_tip = {
-		tip = "Whitelisted users' requests to visit your island are automatically approved."
+	_G.pg.base.gametip.battle_duel_main_rage = {
+		tip = "Both sides' <color=#92fc63>vanguards have been destroyed</color>. Battle accelerated."
 	}
 end)()
 
@@ -17184,14 +19171,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_black_list_tip = {
-		tip = "Blacklisted users cannot visit your island."
+	_G.pg.base.gametip.island_visitor_log = {
+		tip = "Visit Log"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_shipSpeedUpEnergy_error = {
-		tip = "Speed up failed."
+	_G.pg.base.gametip.island_curr_visitor = {
+		tip = "Visiting"
 	}
 end)()
 
@@ -17202,8 +19189,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_btn_label_kick = {
-		tip = "Kick"
+	_G.pg.base.gametip.sham_team_limit = {
+		tip = "Please ensure that each fleet has at least 1 ship in the Vanguard and 1 ship in the Main fleet."
 	}
 end)()
 
@@ -17214,8 +19201,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_btn_label_online = {
-		tip = "Logged In"
+	_G.pg.base.gametip.loading_tip_PoolMgr = {
+		tip = "Adding paint..."
 	}
 end)()
 
@@ -17232,8 +19219,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_btn_label_invitation_already = {
-		tip = "Invited"
+	_G.pg.base.gametip.island_public_invitation = {
+		tip = "Public Invite"
 	}
 end)()
 
@@ -17268,8 +19255,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_btn_label_more = {
-		tip = "Misc."
+	_G.pg.base.gametip.number_3 = {
+		tip = "3"
 	}
 end)()
 
@@ -17280,14 +19267,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.index_awakening = {
-		tip = "Can Cog. Aw."
+	_G.pg.base.gametip.island_blackList = {
+		tip = "Blacklist"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.autofight_rewards_none = {
-		tip = "No rewards earned."
+	_G.pg.base.gametip.island_whiteList = {
+		tip = "Whitelist"
 	}
 end)()
 
@@ -17316,20 +19303,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_close_access_state = {
-		tip = "Already blocked to visitors."
+	_G.pg.base.gametip.island_code = {
+		tip = "Visit Code"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.roll_room17 = {
-		tip = "Garden"
+	_G.pg.base.gametip.island_guild = {
+		tip = "Guild"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_close_visit = {
-		tip = "Cannot Visit"
+	_G.pg.base.gametip.island_trade_help = {
+		tip = "Tip"
 	}
 end)()
 
@@ -17346,8 +19333,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200420 = {
-		tip = "Payment incomplete"
+	_G.pg.base.gametip.guild_shop_title = {
+		tip = "Guild"
 	}
 end)()
 
@@ -17358,26 +19345,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visitor_log = {
-		tip = "Visit Log"
+	_G.pg.base.gametip.island_select_ship_overview = {
+		tip = "Buff List"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_curr_visitor = {
-		tip = "Visiting"
+	_G.pg.base.gametip.island_select_ship_label_1 = {
+		tip = "Selected:"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_yisegefuke_pt = {
-		tip = "Points"
+	_G.pg.base.gametip.island_select_ship = {
+		tip = "Select Character"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_commander_and_sub_op = {
-		tip = "Only the Guild Leader and Officers may carry out this action."
+	_G.pg.base.gametip.island_sub_product_cnt = {
+		tip = "By-Products x $1"
 	}
 end)()
 
@@ -17394,8 +19381,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_public_invitation = {
-		tip = "Public Invite"
+	_G.pg.base.gametip.island_select_product = {
+		tip = "Select Product"
 	}
 end)()
 
@@ -17406,8 +19393,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_btn_label_visit = {
-		tip = "Visit"
+	_G.pg.base.gametip.blueprint_simulation_confirm_19902 = {
+		tip = "<size=28>Would you like to start a Battle Simulation? <color=#ff5c5c>Note: the ship's stats and abilities may differ from its fully developed equivalent.</color>\nEquipped gear:<color=#92fc63>\nPrototype Twin 457mm Main Gun (18\" MKA)\nTwin 127mm MK12 Dual Gun\nQuadruple 40mm Bofors Gun</color></size>"
 	}
 end)()
 
@@ -17424,8 +19411,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_card_tag = {
-		tip = "Tag Settings"
+	_G.pg.base.gametip.autofight_tip_bigworld_loop = {
+		tip = "Unable to reach destination; Auto-Search has been disabled."
 	}
 end)()
 
@@ -17454,78 +19441,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.help_shipinfo_maxlevel = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/strength",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/equip",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/bullet",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/energy",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/levelup",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/fanqian",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/break",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/maxlevel",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 8,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
+	_G.pg.base.gametip.backyard_theme_bought = {
+		tip = "Purchased"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_settings = {
-		tip = "Settings"
+	_G.pg.base.gametip.island_word_working = {
+		tip = "Working"
 	}
 end)()
 
@@ -17554,8 +19477,12 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_blackList = {
-		tip = "Blacklist"
+	_G.pg.base.gametip.battlepass_main_help_2512 = {
+		tip = {
+			{
+				info = "Cruise Missions Seasonal Campaign\n2025/12/1 00:00 – 2026/1/31 23:59\n\n- Overview -\n\"Cruise Missions\" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.\nAdditionally, you can unlock an additional set of \"Fair Winds Cruise\" rewards by purchasing the \"Fair Winds Cruise Pass\" item from Akashi's shop.\nBoise META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfit for I-13, \"After-School Observations.\"\n\n- How to Play -\n· Two types of missions will be released at the same time at the start of the campaign season:\na) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.\nb) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.\n· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.\n· If you purchase a Fair Winds Cruise Pass, you will automatically receive 15 levels worth of progress (1500 Progress Pts).\n· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:\na) Cruise Rewards - Rewards that can be obtained based on the total number of accumulated Progress Pts. There are a total of 100 levels.\nb) Fair Winds Rewards - An additional set of rewards that will be unlocked when you purchase a Fair Winds Cruise Pass. As with the regular Cruise Rewards, there are a total of 100 levels, and they can be collected alongside Cruise Rewards at the same Progress level.\n· When the campaign season ends, your Progress Pts will be reset.\n\n- Tips - \n· Play at your own pace\nCruise Missions have a total of 100 Progress levels, and are not meant to be cleared in one session. We recommend that you complete them at your own pace.\n\n· Fair Winds Cruise Pass\nIf you purchase a Fair Winds Cruise Pass from Akashi's shop, you will automatically earn 1500 Progress Pts and unlock access to valuable rewards. Furthermore, there is an exclusive outfit available only through the Fair Winds rewards, so please plan accordingly.\n\n· Skipping Missions (not recommended)\nYou can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.\nWe do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.\nAny purchased Cruise Mission Vouchers will remain even after the campaign season ends."
+			}
+		}
 	}
 end)()
 
@@ -17600,8 +19527,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_whiteList = {
-		tip = "Whitelist"
+	_G.pg.base.gametip.island_building_title_info = {
+		tip = "建筑信息"
 	}
 end)()
 
@@ -17612,14 +19539,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_code = {
-		tip = "Visit Code"
+	_G.pg.base.gametip.island_unlock_skill = {
+		tip = "<color=#39bfff>[Skill Unlocked]</color>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_guild = {
-		tip = "Guild"
+	_G.pg.base.gametip.word_special_challenge_ticket = {
+		tip = "Bonus Ticket"
 	}
 end)()
 
@@ -17630,8 +19557,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_friend = {
-		tip = "Friends"
+	_G.pg.base.gametip.island_ship_no_energy = {
+		tip = "Exhausted"
 	}
 end)()
 
@@ -17658,26 +19585,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tolovegame_puzzle_pop_save = {
-		tip = "Progress Recorded"
+	_G.pg.base.gametip.blueprint_simulation_confirm_89904 = {
+		tip = "<size=28>\nWould you like to start a Battle Simulation?\n(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)\nEquipment: <color=#92fc63>\nTriple 152mm Mle1930 Main Gun Mount (HE)\n550mm Triple Torpedo Mount\nTwin 57mm/L60 Bofors Mle 1951 AA Gun Mount</color></size>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_select_ship_overview = {
-		tip = "Buff List"
+	_G.pg.base.gametip.island_item_overflow = {
+		tip = "Exceeded by $1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_select_ship_label_1 = {
-		tip = "Selected:"
+	_G.pg.base.gametip.mail_delet_button = {
+		tip = "Delete"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_select_ship = {
-		tip = "Select Character"
+	_G.pg.base.gametip.island_lock_map_tip = {
+		tip = "You haven't unlocked the map yet."
 	}
 end)()
 
@@ -17700,14 +19627,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_sub_product_cnt = {
-		tip = "By-Products x $1"
+	_G.pg.base.gametip.island_toast_ship = {
+		tip = "$2 has formally joined $1."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_select_product = {
-		tip = "Select Product"
+	_G.pg.base.gametip.island_toast_level = {
+		tip = "$2 has reached level $1."
 	}
 end)()
 
@@ -17736,8 +19663,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.no_share_skin_tianchenghangmu = {
-		tip = "Amagi(CV)"
+	_G.pg.base.gametip.world_battle_pause2 = {
+		tip = "Operation Siren "
 	}
 end)()
 
@@ -17754,8 +19681,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.area_yaosai_2 = {
-		tip = "Siren-Occupied Zone"
+	_G.pg.base.gametip.island_prosperity_level = {
+		tip = "繁荣度"
 	}
 end)()
 
@@ -17778,8 +19705,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_word_working = {
-		tip = "Working"
+	_G.pg.base.gametip.island_set_manifesto_success = {
+		tip = "Changes Saved"
 	}
 end)()
 
@@ -17796,14 +19723,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_moveto_markroom_max = {
-		tip = "Your <color=#92fc63>Archive</color> has reached its mail capacity. You cannot move any more mail."
+	_G.pg.base.gametip.island_task_lefttime = {
+		tip = "$1 day(s), $2 hour(s)"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_building_title_info = {
-		tip = "建筑信息"
+	_G.pg.base.gametip.doa_jiqiao = {
+		tip = "TEC"
 	}
 end)()
 
@@ -17814,8 +19741,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_unlock_skill = {
-		tip = "<color=#39bfff>[Skill Unlocked]</color>"
+	_G.pg.base.gametip.word_japanese = {
+		tip = "1"
 	}
 end)()
 
@@ -17826,8 +19753,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.vote_fame_tip = {
-		tip = "Tap the winners of the popularity vote to receive a commemorative chat border! $1, $2, $3"
+	_G.pg.base.gametip.island_order_difficulty_2 = {
+		tip = "Easy"
 	}
 end)()
 
@@ -17850,8 +19777,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_49905 = {
-		tip = "<size=28>Would you like to start a Battle Simulation?\nNote: the Priority ship's stats and abilities may differ from her fully-developed equivalent.\nEquipped gear:<color=#ff5c5c>\nPrototype Triple 305mm SK C/39 Main Gun Mount\n533mm Quadruple Magnetic Torpedo Mount\nTwin 105mm SK C/33 AA Gun Mount</color></size>"
+	_G.pg.base.gametip.island_order_desc_3 = {
+		tip = "A somewhat challenging request. Takes more effort, but the rewards will be well worth it."
 	}
 end)()
 
@@ -17862,14 +19789,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_item_overflow = {
-		tip = "Exceeded by $1"
+	_G.pg.base.gametip.shop_filter_trial = {
+		tip = "Rental"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.mingshi_task_tip_7 = {
-		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>K</color>>\nThe next target is... <<color=#a0ff40>looking at your collection</color>>!"
+	_G.pg.base.gametip.island_follower_exiting_tip = {
+		tip = "The character is leaving..."
 	}
 end)()
 
@@ -17884,14 +19811,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_lock_map_tip = {
-		tip = "You haven't unlocked the map yet."
+	_G.pg.base.gametip.island_order_type_1 = {
+		tip = "Regular Requests"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_toast_ship = {
-		tip = "$2 has formally joined $1."
+	_G.pg.base.gametip.activity_yanhua_tip7 = {
+		tip = "Tap the fireworks again to remove them from the Launch Order arrangement."
 	}
 end)()
 
@@ -17908,8 +19835,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.system_database_busy = {
-		tip = "Database is busy. Please try again later."
+	_G.pg.base.gametip.new_airi_error_code_0 = {
+		tip = "Success"
 	}
 end)()
 
@@ -17926,20 +19853,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_toast_level = {
-		tip = "$2 has reached level $1."
+	_G.pg.base.gametip.new_airi_error_code_200110 = {
+		tip = "Monthly purchase limit exceeded"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.index_no_limit = {
-		tip = "No Limit"
+	_G.pg.base.gametip.blueprint_build_consume = {
+		tip = "Spend $1 to commence development?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.upgrade_to_next_maxlevel_succeed = {
-		tip = "Cognitive Awakening Complete\nThis ship's Level Cap has increased to Level <color=#92fc63FF>$1</color>"
+	_G.pg.base.gametip.island_task_type_5 = {
+		tip = "Weekly"
 	}
 end)()
 
@@ -17950,8 +19877,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_prosperity_level = {
-		tip = "繁荣度"
+	_G.pg.base.gametip.battleui_display2 = {
+		tip = "Effect"
 	}
 end)()
 
@@ -17962,26 +19889,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_set_manifesto_success = {
-		tip = "Changes Saved"
+	_G.pg.base.gametip.island_task_type_3 = {
+		tip = "Island Life"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_task_lefttime = {
-		tip = "$1 day(s), $2 hour(s)"
+	_G.pg.base.gametip.island_task_type_2 = {
+		tip = "Island\nDevelopment"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.destroy_ur_rarity_tip = {
-		tip = "You have selected a ship of <color=#92fc63>UR</color> rarity. \nPlease enter the following into the box below: <color=#92fc63>$1</color> \n\n"
+	_G.pg.base.gametip.battle_text_yingxiv4_1 = {
+		tip = "The Horseman is charging <color=#f1f102>left</color>!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.level_fleet_ship_desc = {
-		tip = "Deployable Fleets:"
+	_G.pg.base.gametip.island_task_title_en = {
+		tip = "MISSIONS"
 	}
 end)()
 
@@ -17992,14 +19919,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_order_difficulty_2 = {
-		tip = "Easy"
+	_G.pg.base.gametip.island_ship_attrName_4 = {
+		tip = "Cook."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_order_difficulty_1 = {
-		tip = "Normal"
+	_G.pg.base.gametip.island_ship_attrName_3 = {
+		tip = "Husb."
 	}
 end)()
 
@@ -18010,8 +19937,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_order_desc_3 = {
-		tip = "A somewhat challenging request. Takes more effort, but the rewards will be well worth it."
+	_G.pg.base.gametip.island_ship_attrName_2 = {
+		tip = "Gath."
 	}
 end)()
 
@@ -18040,8 +19967,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.list_empty_tip_eventui = {
-		tip = "No urgent commissions available."
+	_G.pg.base.gametip.island_ship_attrName_1 = {
+		tip = "Farm."
 	}
 end)()
 
@@ -18076,32 +20003,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_order_type_1 = {
-		tip = "Regular Requests"
+	_G.pg.base.gametip.island_item_type_spe = {
+		tip = "Special"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_word_consume_for_battle = {
-		tip = "Cost: "
+	_G.pg.base.gametip.general_activity_side_bar3 = {
+		tip = "BF Cruise Missions"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100140 = {
-		tip = "Access Token verification failed"
+	_G.pg.base.gametip.island_item_type_res = {
+		tip = "Resources"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_task_type_5 = {
-		tip = "Weekly"
+	_G.pg.base.gametip.island_log_trade = {
+		tip = "has invited you to trade pearls"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_bloom_optionname1 = {
-		tip = "Low"
+	_G.pg.base.gametip.island_log_exit = {
+		tip = "has left your island."
 	}
 end)()
 
@@ -18112,8 +20039,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_task_type_3 = {
-		tip = "Island Life"
+	_G.pg.base.gametip.island_log_visit = {
+		tip = "has come to your island."
 	}
 end)()
 
@@ -18130,20 +20057,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_task_type_2 = {
-		tip = "Island\nDevelopment"
+	_G.pg.base.gametip.island_ship_buff_cover_3 = {
+		tip = "There is a stronger buff available. Do you want to use this gift?"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.gift_giving_prefer = {
-		tip = "It seems she really likes your gift."
+		tip = " really likes your gift."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_task_title_en = {
-		tip = "MISSIONS"
+	_G.pg.base.gametip.island_ship_buff_cover_1 = {
+		tip = "The currently applied buff will be overwritten. Do you want to use a gift?"
 	}
 end)()
 
@@ -18166,26 +20093,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_chara_attribute1 = {
-		tip = "Farm."
+	_G.pg.base.gametip.island_index_name = {
+		tip = "Stamina Left"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ship_attrName_4 = {
-		tip = "Cook."
+	_G.pg.base.gametip.island_dectect_mode3x3 = {
+		tip = "Changed to 3*3 Mode"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ship_attrName_3 = {
-		tip = "Husb."
+	_G.pg.base.gametip.island_invitation_gift_success = {
+		tip = "Request to collect resources has been sent."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ship_attrName_2 = {
-		tip = "Gath."
+	_G.pg.base.gametip.battlepass_pay_acquire = {
+		tip = "Buy Now to Get:"
 	}
 end)()
 
@@ -18196,8 +20123,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ship_attrName_1 = {
-		tip = "Farm."
+	_G.pg.base.gametip.island_inviteCode_refresh = {
+		tip = "You have already updated your code today."
 	}
 end)()
 
@@ -18220,20 +20147,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_item_type_spe = {
-		tip = "Special"
+	_G.pg.base.gametip.island_black_list_full = {
+		tip = "Your blacklist is full."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_item_type_consume = {
-		tip = "Consumables"
+	_G.pg.base.gametip.list_empty_tip_eventui = {
+		tip = "No urgent commissions available."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_item_type_res = {
-		tip = "Resources"
+	_G.pg.base.gametip.island_agora_save_success = {
+		tip = "Successfully saved."
 	}
 end)()
 
@@ -18256,8 +20183,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_log_exit = {
-		tip = "has left your island."
+	_G.pg.base.gametip.island_bag_uprade_success = {
+		tip = "Level increased."
 	}
 end)()
 
@@ -18274,8 +20201,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_log_visit = {
-		tip = "has come to your island."
+	_G.pg.base.gametip.island_bag_max_level = {
+		tip = "Max level reached."
 	}
 end)()
 
@@ -18286,8 +20213,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ship_buff_cover_3 = {
-		tip = "There is a stronger buff available. Do you want to use this gift?"
+	_G.pg.base.gametip.friend_inpout_key_tip = {
+		tip = "Please enter query..."
 	}
 end)()
 
@@ -18298,8 +20225,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ship_buff_cover_2 = {
-		tip = "There is a stronger buff available. Do you want to use this gift?"
+	_G.pg.base.gametip.island_order_cant_replace = {
+		tip = "This cannot be replaced."
 	}
 end)()
 
@@ -18320,26 +20247,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ship_buff_cover_1 = {
-		tip = "The currently applied buff will be overwritten. Do you want to use a gift?"
+	_G.pg.base.gametip.island_agora_pave_tip = {
+		tip = "Drag and drop to arrange."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_chara_up_button = {
-		tip = "Level Up"
+	_G.pg.base.gametip.island_agora_no_pos_place = {
+		tip = "There is no location to save to."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_dectect_mode3x3 = {
-		tip = "Changed to 3*3 Mode"
+	_G.pg.base.gametip.island_agora_exit_and_unsave = {
+		tip = "Remove Theme"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_invitation_gift_success = {
-		tip = "Request to collect resources has been sent."
+	_G.pg.base.gametip.levelScene_tracking_error_pre_2 = {
+		tip = "Unlocked by clearing $1 or $2."
 	}
 end)()
 
@@ -18362,8 +20289,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.class_res_maxlevel_tip = {
-		tip = "Max Level"
+	_G.pg.base.gametip.island_agora_revert_tip = {
+		tip = "Do you want to reset all changes?"
 	}
 end)()
 
@@ -18374,8 +20301,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_inviteCode_refresh = {
-		tip = "You have already updated your code today."
+	_G.pg.base.gametip.add_skin_random_secretary_ship_list = {
+		tip = "Add Random Secretary"
 	}
 end)()
 
@@ -18398,8 +20325,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_black_list_full = {
-		tip = "Your blacklist is full."
+	_G.pg.base.gametip.island_agora_label_empty_tip = {
+		tip = "There is no furniture of this kind."
 	}
 end)()
 
@@ -18438,20 +20365,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_shipModMediator_choiseMaterial = {
-		tip = "Please select materials to use during limit break."
+	_G.pg.base.gametip.world_automode_setting_1 = {
+		tip = "Auto-Search by Corrosion Level:"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_save_success = {
-		tip = "Successfully saved."
+	_G.pg.base.gametip.island_agora_label_search = {
+		tip = "Tap to Search"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_bag_uprade_success = {
-		tip = "Level increased."
+	_G.pg.base.gametip.island_agora_title = {
+		tip = "Get-Together Island"
 	}
 end)()
 
@@ -18566,20 +20493,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_bag_max_level = {
-		tip = "Max level reached."
+	_G.pg.base.gametip.child2_not_start = {
+		tip = "This hasn't opened yet."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.win_condition_display_shangchuan = {
-		tip = "The transport ship arrives at the designated location."
+	_G.pg.base.gametip.meta_tactics_detail = {
+		tip = "Details"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.collection_fetched = {
-		tip = "This has already been collected!"
+	_G.pg.base.gametip.island_agora_btn_label_revert = {
+		tip = "Reset"
 	}
 end)()
 
@@ -18590,8 +20517,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_order_cant_replace = {
-		tip = "This cannot be replaced."
+	_G.pg.base.gametip.word_maingroup_updatefailure = {
+		tip = "Updated failed. Please try again."
 	}
 end)()
 
@@ -18608,26 +20535,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_pave_tip = {
-		tip = "Drag and drop to arrange."
+	_G.pg.base.gametip.island_agora_signIn_tip = {
+		tip = "It's the start of a new day. Come get your daily supplies!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_no_pos_place = {
-		tip = "There is no location to save to."
+	_G.pg.base.gametip.msgbox_text_goon_fight = {
+		tip = "Continue"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_exit_and_unsave = {
-		tip = "Remove Theme"
+	_G.pg.base.gametip.dorm3d_privatechat_video_call = {
+		tip = "Video Call"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_bomber = {
-		tip = "Dive Bomber"
+	_G.pg.base.gametip.common_food = {
+		tip = "Snacks"
 	}
 end)()
 
@@ -18644,14 +20571,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.town_unlcok_level = {
-		tip = "Level Cap Increased"
+	_G.pg.base.gametip.island_agora_capacity = {
+		tip = "Space Capacity"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_revert_tip = {
-		tip = "Do you want to reset all changes?"
+	_G.pg.base.gametip.island_agora_label_capacity = {
+		tip = "Capacity"
 	}
 end)()
 
@@ -18662,45 +20589,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.projection_help = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/projection_help1",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
+	_G.pg.base.gametip.island_agora_label_gettime = {
+		tip = "Time Obtained"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_label_empty_tip = {
-		tip = "There is no furniture of this kind."
+	_G.pg.base.gametip.island_agora_label_rarity = {
+		tip = "Rarity"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.sevenday_nianye = {
-		tip = {
-			{
-				info = "During the event, log in every day and tap the button on the right-hand side of the screen to prepare the menu item of the day.\nDifferent foods will randomly appear over the event period, but all 7 types of food will appear.\nAll Commanders will receive the same rewards by the end of the 7-day period."
-			}
-		}
+	_G.pg.base.gametip.island_agora_label_default = {
+		tip = "Default"
 	}
 end)()
 
@@ -18711,20 +20613,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_label_search = {
-		tip = "Tap to Search"
+	_G.pg.base.gametip.tec_target_catchup_finish_4 = {
+		tip = "PR4 / Complete"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_title = {
-		tip = "Get-Together Island"
+	_G.pg.base.gametip.island_agora_label_tile = {
+		tip = "Floor Decorations"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.activity_puzzle_get13 = {
-		tip = "<color=#A9F548FF>How to get: \nmission 4</color>"
+	_G.pg.base.gametip.island_agora_label_dec = {
+		tip = "Decorations"
 	}
 end)()
 
@@ -18765,14 +20667,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_btn_label_revert = {
-		tip = "Reset"
+	_G.pg.base.gametip.island_agora_label_furniture = {
+		tip = "Furnishings"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.cryptolalia_not_download_res = {
-		tip = "Assets Not Downloaded"
+	_G.pg.base.gametip.island_agora_label_building = {
+		tip = "Site"
 	}
 end)()
 
@@ -18789,36 +20691,66 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_signIn_tip = {
-		tip = "It's the start of a new day. Come get your daily supplies!"
+	_G.pg.base.gametip.island_agora_label_base = {
+		tip = "Address"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.help_summer_stamp = {
+	_G.pg.base.gametip.ship_remould_warning_203114 = {
+		tip = "This ship's <color=#92fc63>Torpedo slot</color> will be converted into an <color=#92fc63>Auxiliary Weapon slot.</color><color=#92fc63>\n<material=underline c=#92fc63 event=clickDetail>View more info here.</material></color>\nWould you like to proceed with the retrofit? "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_agora_pos_unavailability = {
+		tip = "Already Placed"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["2023spring_minigame_skill_sprint"] = {
+		tip = "Fast Footwork|Temporarily increases your speed by 20%."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_help_fish = {
 		tip = {
 			{
-				info = "Use Game Tickets to play minigames in order to earn stamps.Stamps earned are displayed in the \"Stamps\" booklet.When 14 stamps have been collected,click on the button on the left-hand side of the booklet to get Juno’s limited outfit."
+				icon = {
+					atlas = "helpbg/island_help_fish1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/island_help_fish2",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/island_help_fish3",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
 			}
 		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_skin_equip = {
-		tip = "Apply $2 to $1?"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_agora_capacity = {
-		tip = "Space Capacity"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_agora_label_capacity = {
-		tip = "Capacity"
 	}
 end)()
 
@@ -18835,14 +20767,64 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_label_gettime = {
-		tip = "Time Obtained"
+	_G.pg.base.gametip.island_help_photo = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/island_help_photo1",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_label_rarity = {
-		tip = "Rarity"
+	_G.pg.base.gametip.island_help_renovation = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/island_help_renovation1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/island_help_renovation2",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	}
 end)()
 
@@ -18853,14 +20835,60 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_label_default = {
-		tip = "Default"
+	_G.pg.base.gametip.island_help_season = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/island_help_season1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/island_help_season2",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/island_help_season3",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/island_help_season4",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/island_help_season5",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.school_title_dajiangtang = {
-		tip = "Lecture Hall "
+	_G.pg.base.gametip.battle_text_bisimaiz_5 = {
+		tip = "Current Corrosion Level: <color=#ffc038>4</color>"
 	}
 end)()
 
@@ -18953,270 +20981,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_label_tile = {
-		tip = "Floor Decorations"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_agora_label_dec = {
-		tip = "Decorations"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_agora_label_furniture = {
-		tip = "Furnishings"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_agora_label_building = {
-		tip = "Site"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_agora_label_base = {
-		tip = "Address"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_formationUI_fleetName_6 = {
-		tip = "T2 Recuperation Center (Dusk)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guardian_sure_limit_tip = {
-		tip = "You cannot equip any more blessings."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_agora_pos_unavailability = {
-		tip = "Already Placed"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_formationUI_fleetName_11 = {
-		tip = "T3 Logistics Center (Night)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_help_photo = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/island_help_photo1",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_help_renovation = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/island_help_renovation1",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/island_help_renovation2",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipment_newEquipLayer_getNewEquip = {
-		tip = "Gear received: <color=#92fc63>$1</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.acceleration_tips_2 = {
-		tip = "<color=#827c7c><size=26>(Training will be complete for: $1 Rare Cat Box(es), $2 Elite Cat Box(es), and $3 Super Rare Cat Box(es)</size></color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_boss_get_item = {
-		tip = "You’ve obtained the maximum amount of META Coordinates. Do you want to analyze the META Coordinates and begin an META Showdown? "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_help_season = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/island_help_season1",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/island_help_season2",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/island_help_season3",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/island_help_season4",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/island_help_season5",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.common_not_enter_room = {
-		tip = "Not in room"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_help_combo = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/island_help_combo1",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/island_help_combo2",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_exist = {
-		tip = "Exit"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_formation_erro_in_boss_battle = {
-		tip = "The support ship cannot be changed as a boss battle is taking place."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.map_event_stop_story_tip = {
-		tip = "<color=#92fc63>Step on an event tile</color> to remove the Restricted status. "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.formationScene_use_oil_limit_enemy = {
-		tip = "Escort"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.reconnect_tip = {
-		tip = "Network connection failed. Reconnect now?\n[$1]"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ssssmedal_name2 = {
-		tip = "Augmented Chaser: Guardian"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_storeroom_tips = {
-		tip = "* Attached Coins and Oil will be moved to your Storage."
+	_G.pg.base.gametip.yumia_main_tip_8 = {
+		tip = "Milestone"
 	}
 end)()
 
@@ -19335,12 +21101,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.box_account_del_target = {
-		tip = "Delete"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_help_farm = {
 		tip = {
 			{
@@ -19369,6 +21129,224 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_help_ship_order = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/island_help_ship_order1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/island_help_ship_order2",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/island_help_ship_order3",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/island_help_ship_order4",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/island_help_ship_order5",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guardian_sure_limit_tip = {
+		tip = "You cannot equip any more blessings."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_400050 = {
+		tip = "The Nintendo account has not been bound to a Yostar account"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_season_review_miss = {
+		tip = "You have not yet participated in the season."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_season_window_out = {
+		tip = "Not Listed"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_season_window_award = {
+		tip = "Ranking Rewards"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipment_newEquipLayer_getNewEquip = {
+		tip = "Gear received: <color=#92fc63>$1</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.acceleration_tips_2 = {
+		tip = "<color=#827c7c><size=26>(Training will be complete for: $1 Rare Cat Box(es), $2 Elite Cat Box(es), and $3 Super Rare Cat Box(es)</size></color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_boss_get_item = {
+		tip = "You’ve obtained the maximum amount of META Coordinates. Do you want to analyze the META Coordinates and begin an META Showdown? "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_season_window_ranking = {
+		tip = "Final Ranking"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.common_not_enter_room = {
+		tip = "Not in room"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_help_combo = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/island_help_combo1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/island_help_combo2",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_exist = {
+		tip = "Exit"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_formation_erro_in_boss_battle = {
+		tip = "The support ship cannot be changed as a boss battle is taking place."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_schedule_sure_tip2 = {
+		tip = "You have unspent action points. Proceed to the next turn anyway?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.formationScene_use_oil_limit_enemy = {
+		tip = "Escort"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.reconnect_tip = {
+		tip = "Network connection failed. Reconnect now?\n[$1]"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ssssmedal_name2 = {
+		tip = "Augmented Chaser: Guardian"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_storeroom_tips = {
+		tip = "* Attached Coins and Oil will be moved to your Storage."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_season_window_end = {
+		tip = "The season will end soon."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_season_review_blank = {
+		tip = "No participation in this season"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_season_review_guidenum = {
+		tip = "Collection Pt."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.box_account_del_target = {
+		tip = "Delete"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_season_review_achinum = {
+		tip = "Achieved"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.mini_game_shop_title = {
 		tip = "Prize"
 	}
@@ -19393,66 +21371,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_help_ship_order = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/island_help_ship_order1",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/island_help_ship_order2",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/island_help_ship_order3",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
+	_G.pg.base.gametip.island_season_review_achi = {
+		tip = "Achievement"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.formationScene_use_oil_limit_tip_worldboss = {
-		tip = "Cost Limit:"
+	_G.pg.base.gametip.island_season_review_gamenum = {
+		tip = "Collection Pt."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_season_review_miss = {
-		tip = "You have not yet participated in the season."
+	_G.pg.base.gametip.island_season_review_fishnum = {
+		tip = "Achieved"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_season_window_out = {
-		tip = "Not Listed"
+	_G.pg.base.gametip.liner_event_get_tip = {
+		tip = "Clues Obtained: $1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_season_window_award = {
-		tip = "Ranking Rewards"
+	_G.pg.base.gametip.island_order_ship_finish_cnt_not_enough = {
+		tip = "Refresh"
 	}
 end)()
 
@@ -19463,8 +21407,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_season_window_ranking = {
-		tip = "Final Ranking"
+	_G.pg.base.gametip.island_season_review_ptnum = {
+		tip = "IDP"
 	}
 end)()
 
@@ -19475,32 +21419,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_stronghold_4 = {
-		tip = "Chance to Get"
+	_G.pg.base.gametip.island_season_review_projuctnum = {
+		tip = "Research Slots"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.child2_shop_benefit_sure2 = {
-		tip = "This status is already in effect, purchasing it again won't have any additional effects. Continue?"
+	_G.pg.base.gametip.island_season_review_charnum = {
+		tip = "No. of Characters"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_season_window_end = {
-		tip = "The season will end soon."
+	_G.pg.base.gametip.island_season_review_lv = {
+		tip = "Island Dev Lv"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_season_review_gamenum = {
-		tip = "Events Done"
+	_G.pg.base.gametip.island_season_charts_out = {
+		tip = "Not in Rank"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_season_review_fishnum = {
-		tip = "Fish Obtained"
+	_G.pg.base.gametip.guild_join_cd = {
+		tip = "You must wait 24 hours after leaving your guild to join another."
 	}
 end)()
 
@@ -19523,8 +21467,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.liner_event_title3 = {
-		tip = "Clue 3"
+	_G.pg.base.gametip.commandercat_label_raw_name = {
+		tip = "Original Name"
 	}
 end)()
 
@@ -19535,14 +21479,18 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.number_7 = {
-		tip = "7"
+	_G.pg.base.gametip.senran_pt_help = {
+		tip = {
+			{
+				info = "This event is available between <color=#92fc63>November 23rd and December 6th.</color>\n\n1. Participate in The Ninja Scrolls, complete tasks on the Mission Board, and finish time-limited missions to receive <color=#92fc63>Ninja Teachings</color>.\n2. Spend your Ninja Teachings in the Ninjutsu Dojo and increase the attribute level to 8 to receive rewards, including <color=#92fc63>Homura</color>, an SR Submarine.\n3. Homura is claimable until <color=#92fc63>midnight on December 13th.</color>"
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_season_review_ptnum = {
-		tip = "IDP"
+	_G.pg.base.gametip.island_season_shop_stage2 = {
+		tip = "Stage 2"
 	}
 end)()
 
@@ -19565,14 +21513,18 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_season_review_projuctnum = {
-		tip = "Research Technology"
+	_G.pg.base.gametip.re_battle = {
+		tip = "Retry "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_season_review_charnum = {
-		tip = "No. of Characters"
+	_G.pg.base.gametip.senrankagura_backhill_help = {
+		tip = {
+			{
+				info = "- Overview -\nThe Ninja Scrolls: Azur Flash is available between <color=#92fc63>November 23rd and December 6th.</color>\n\n- Details -\n1. Complete event stages and missions to receive Castle Tickets, the event currency.\nCastle Tickets can be spent in the event exchange shop for various rewards, including the SR collaboration character Ikaruga.\nYou can also claim the Elite collaboration character Murasaki as a milestone reward for collecting enough Castle Tickets.\n2. The Missions Board lists new event missions every day. Complete these missions to receive Shinobi Teachings and the time-limited furniture Shinobi Sliding Doors.\n3. The Ninja Scrolls has special missions available for each character. Complete these missions to receive Shinobi Teachings, Augment Modules for the new characters, and the special furniture Akashi Castle Scroll.\n4. The Ninjutsu Dojo is where you can spend your Shinobi Teachings to raise the Dojo's attribute level. Raise it high enough to receive the SR collaboration character Homura.\n5. The New Skins button takes you to the skin shop.\n6. The Limited Construction button takes you to the build screen."
+			}
+		}
 	}
 end)()
 
@@ -19583,14 +21535,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.return_award_bind_erro = {
-		tip = "UID entry failed $1."
+	_G.pg.base.gametip.ship_energy_low_warn_no_exp = {
+		tip = "<color=#92fc63FF>$2</color> currently has low morale! If you continue to force her to sortie, her <color=#ff5c5c>affection will decrease</color>! Are you sure you wish to continue? "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_click_to_close = {
-		tip = "Tap to close"
+	_G.pg.base.gametip.island_season_charts = {
+		tip = "Development Rank"
 	}
 end)()
 
@@ -19613,29 +21565,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.senran_pt_words_zi = {
-		tip = {
-			{
-				"1100006/pt1",
-				"I'll... give it my best shot."
-			},
-			{
-				"1100006/pt2",
-				"Do you think I've gotten stronger?"
-			},
-			{
-				"1100006/pt3",
-				"I want to try a little harder."
-			},
-			{
-				"1100006/pt4",
-				"I feel like... I've gotten the hang of this."
-			},
-			{
-				"1100006/pt5",
-				"I can do just a little more... if you can."
-			}
-		}
+	_G.pg.base.gametip.activity_kill = {
+		tip = "Total Enemies Sunk"
 	}
 end)()
 
@@ -19646,8 +21577,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_season_shop_stage2 = {
-		tip = "Stage 2"
+	_G.pg.base.gametip.island_season_task = {
+		tip = "Development Plan"
 	}
 end)()
 
@@ -19664,8 +21595,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equipskin_typewrong = {
-		tip = "— No match for selected skin —"
+	_G.pg.base.gametip.ssssmedal_name4 = {
+		tip = "Augmented Smasher: Annihilator"
 	}
 end)()
 
@@ -19676,80 +21607,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.vote_lable_voting = {
-		tip = "In Progress"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_updateShipLock_ok_unlock = {
-		tip = "<color=#92fc63>$1</color> unlocked."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_season_charts = {
-		tip = "Development Rank"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.other_world_task_type_daily = {
-		tip = "Daily"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_season_task = {
-		tip = "Development Plan"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_wait_tip = {
-		tip = "Server is currently busy, please wait.\n(Position in queue: $1)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_shop_title = {
-		tip = "Quarters Shop"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_instruction_submarine_5 = {
-		tip = "The submarine fleet has left the zone."
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_season_pt_collectall = {
 		tip = "Obtain All"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_should_input_keyword = {
-		tip = "Your search query is empty."
+	_G.pg.base.gametip.grapihcs3d_setting_character_quality = {
+		tip = "Character model quality"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_set_like = {
-		tip = "Set as Favorite"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.acl_oil_count = {
-		tip = "Spent Oil:"
+	_G.pg.base.gametip["2023spring_minigame_nenjuu_skill8"] = {
+		tip = "Supersonic|Every 10s, a Nianjuu's speed increases by 20% for 5s. This effect is negated if the Nianjuu attacks during it."
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.island_season_help = {
-		tip = "1. When a new season begins, your Island Development Points (IDP) will be <color=#FD5650>automatically reset</color>.\n2. During a season, you can earn IDP by doing things such as <color=#39bfff>converting</color> and <color=#39bfff>producing specific resources</color>, <color=#39bfff>completing transport jobs</color>, <color=#39bfff>participate in seasonal events</color>, and <color=#39bfff>making purchases in the seasonal shop</color>.\n3. At the end of a season, the resources in your warehouse will be <color=#FD5650>automatically converted into IDP</color>, and you will be placed on the development ranking accordingly.\n4. When the season finishes, you will be <color=#FD5650>unable to claim</color> development and milestone rewards from the season that just ended."
+		tip = "1. When a new season begins, your Island Development Points (IDP) will be <color=#FD5650>automatically reset</color>.\n2. During a season, you can earn IDP by doing things such as <color=#39bfff>converting</color> and <color=#39bfff>producing specific resources</color>, <color=#39bfff>participate in seasonal events</color>, and <color=#39bfff>making purchases in the seasonal shop</color>.\n3. At the end of a season, the resources in your warehouse will be <color=#FD5650>automatically converted into IDP</color>, and you will be placed on the development ranking accordingly.\n4. When the season finishes, active <color=#39bfff> island requests, transport jobs, character assignments, manual farming, store management</color> will be reset.\n5. When the season finishes, you will be <color=#FD5650>unable to claim</color> development and milestone rewards from the season that just ended."
 	}
 end)()
 
@@ -19766,44 +21643,48 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.anniversary_eight_main_page_desc = {
-		tip = "· The magic barrier protecting the castle's treasure fell in an unprecedented earthquake, and now ninja are scheming to steal your treasure!\n· Repair the castle, recruit troops, bolster your defenses, and restore peace!"
+	_G.pg.base.gametip.dorm3d_shop_title = {
+		tip = "Quarters Shop"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.area_yaosai = {
-		tip = "Stronghold"
+	_G.pg.base.gametip.world_instruction_submarine_5 = {
+		tip = "The submarine fleet has left the zone."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.common_compare_larger = {
-		tip = ">"
+	_G.pg.base.gametip.multiple_sorties_title = {
+		tip = "Auto-Repeat"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visit_tip2 = {
-		tip = "The island does not permit visitors."
+	_G.pg.base.gametip.help_summer_stamp = {
+		tip = {
+			{
+				info = "Use Game Tickets to play minigames in order to earn stamps.Stamps earned are displayed in the \"Stamps\" booklet.When 14 stamps have been collected,click on the button on the left-hand side of the booklet to get Juno’s limited outfit."
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_extendMagazine_error = {
-		tip = "Failed to expand arsenal: "
+	_G.pg.base.gametip.island_set_like = {
+		tip = "Set as Favorite"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_apply_sucess = {
-		tip = "Application has been sent!"
+	_G.pg.base.gametip.acl_oil_count = {
+		tip = "Spent Oil:"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_book = {
-		tip = "<color=#92fc63>Textbook</color>"
+	_G.pg.base.gametip.levelScene_unselect_SP_OP = {
+		tip = "No Item"
 	}
 end)()
 
@@ -19820,8 +21701,62 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.charge_scene_buy_confirm = {
-		tip = "Spend <color=#A9F548FF>$1 Gems</color> to buy <color=#A9F548FF>$2</color>?"
+	_G.pg.base.gametip.anniversary_eight_main_page_desc = {
+		tip = "· The magic barrier protecting the castle's treasure fell in an unprecedented earthquake, and now ninja are scheming to steal your treasure!\n· Repair the castle, recruit troops, bolster your defenses, and restore peace!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.area_yaosai = {
+		tip = "Stronghold"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_visitor_kickall = {
+		tip = "Kick All"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_visitor_kick = {
+		tip = "Kick"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_visitor_num = {
+		tip = "Queue:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_apply_sucess = {
+		tip = "Application has been sent!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_book = {
+		tip = "<color=#92fc63>Textbook</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_visitor_record = {
+		tip = "Visit Log"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_minigame_close = {
+		tip = "Back"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_visitor_button = {
+		tip = "Visit"
 	}
 end)()
 
@@ -19856,14 +21791,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visitor_kickall = {
-		tip = "Kick All"
+	_G.pg.base.gametip.adventure_get_all = {
+		tip = "Claim All"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visitor_kick = {
-		tip = "Kick"
+	_G.pg.base.gametip.island_visit_set_refresh = {
+		tip = "Refresh"
 	}
 end)()
 
@@ -19880,8 +21815,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visitor_num = {
-		tip = "Queue:"
+	_G.pg.base.gametip.island_visit_set_tip = {
+		tip = "Set Visit Permission Range"
 	}
 end)()
 
@@ -19910,8 +21845,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_exp_limit = {
-		tip = "This Meowfficer has reached max level and cannot be added here."
+	_G.pg.base.gametip.island_visit_balcklist_tip = {
+		tip = "Visit requests from blacklisted users will never be accepted."
 	}
 end)()
 
@@ -19922,66 +21857,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visitor_button = {
-		tip = "Visit"
+	_G.pg.base.gametip.yumia_buff_desc_2 = {
+		tip = "Core effect applies to the stage TS2.\nObtain the following materials to level up:"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.otherworld_backhill_help = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/otherworld_help1",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/otherworld_help2",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/otherworld_help3",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/otherworld_help4",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/otherworld_help5",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
+	_G.pg.base.gametip.spweapon_tip_create_sussess = {
+		tip = "You obtained the Augment Module: <color=#92fc63>$1</color>."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visit_set_refresh = {
-		tip = "Refresh"
+	_G.pg.base.gametip.island_visit_search_mineid = {
+		tip = "UID"
 	}
 end)()
 
@@ -19992,14 +21881,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visit_set_tip = {
-		tip = "Set Visit Permission Range"
+	_G.pg.base.gametip.island_visit_code_copy = {
+		tip = "Copy"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visit_set_title = {
-		tip = "Island Visit Approval"
+	_G.pg.base.gametip.island_visit_code_remove = {
+		tip = "Remove"
 	}
 end)()
 
@@ -20022,20 +21911,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_soundfiles_checkend_title = {
-		tip = "Language pack verification complete."
+	_G.pg.base.gametip.word_soundfiles_checking_title = {
+		tip = "Checking..."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_buff_2 = {
-		tip = "Level Up"
+	_G.pg.base.gametip.island_visit_more = {
+		tip = "More"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_get_skills_done = {
-		tip = "Failed to fetch list of learnable Talents."
+	_G.pg.base.gametip.island_visit_delete = {
+		tip = "Delete"
 	}
 end)()
 
@@ -20052,14 +21941,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visit_search_mineid = {
-		tip = "UID"
+	_G.pg.base.gametip.skin_exchange_timelimit = {
+		tip = "The pool of skins that this item may be redeemed for will change after $1. Please plan your usage accordingly."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visit_code_copy = {
-		tip = "Copy"
+	_G.pg.base.gametip.island_visit_balcklist = {
+		tip = "Blacklist"
 	}
 end)()
 
@@ -20076,20 +21965,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visit_code_remove = {
-		tip = "Remove"
+	_G.pg.base.gametip.levelscene_airexpel_cancel = {
+		tip = "Cancel"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visit_code_likelist = {
-		tip = "Favorite Codes"
+	_G.pg.base.gametip.island_visit_teammate = {
+		tip = "Guild"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visit_more = {
-		tip = "More"
+	_G.pg.base.gametip.island_visit_friend = {
+		tip = "Friends"
 	}
 end)()
 
@@ -20172,8 +22061,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visit_delete = {
-		tip = "Delete"
+	_G.pg.base.gametip.dorm3d_collect_not_owned = {
+		tip = "You don't own this item."
 	}
 end)()
 
@@ -20209,8 +22098,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.handbook_new_player_task_locked_by_section = {
-		tip = "Complete all missions in the previous section to unlock."
+	_G.pg.base.gametip.DAL_stage_label_commander = {
+		tip = "Command System"
 	}
 end)()
 
@@ -20227,8 +22116,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visit_balcklist = {
-		tip = "Blacklist"
+	_G.pg.base.gametip.island_chara_buff_nomal = {
+		tip = "The applied buff will be overwritten. Continue?"
 	}
 end)()
 
@@ -20251,26 +22140,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visit_teammate = {
-		tip = "Guild"
+	_G.pg.base.gametip.island_chara_choose_gift = {
+		tip = "Tap to Select Gift"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visit_friend = {
-		tip = "Friends"
+	_G.pg.base.gametip.island_chara_ceiling_unlock = {
+		tip = "Do you want to spend 1 Profession Star to Limit Break this character?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dreamland_label_area = {
-		tip = "Area"
+	_G.pg.base.gametip.mail_storeroom_max_3 = {
+		tip = "Claiming this Oil will put you over your max capacity."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_chara_gift_power = {
-		tip = "Stamina Recovery: $1"
+	_G.pg.base.gametip.levelScene_tracking_error_pre = {
+		tip = "Available after <color=#92fc63>$1</color> cleared"
 	}
 end)()
 
@@ -20305,8 +22194,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_chara_choose_gift = {
-		tip = "Tap to Select Gift"
+	_G.pg.base.gametip.island_chara_power_limit = {
+		tip = "Stamina Cap"
 	}
 end)()
 
@@ -20329,8 +22218,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_chara_ceiling_unlock = {
-		tip = "Do you want to spend 1 Profession Star to Limit Break this character?"
+	_G.pg.base.gametip.word_yisegefuke_pt = {
+		tip = "Points"
 	}
 end)()
 
@@ -20341,8 +22230,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.res_music_no_next_tip = {
-		tip = "Last Track"
+	_G.pg.base.gametip.inform_chat_msg = {
+		tip = "Chat content is empty."
 	}
 end)()
 
@@ -20353,8 +22242,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_shipExit_error = {
-		tip = "Failed to leave dorm: "
+	_G.pg.base.gametip.island_chara_breakout_button = {
+		tip = "Enhance"
 	}
 end)()
 
@@ -20365,8 +22254,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_chara_skill_unlock = {
-		tip = "Skill Unlocked"
+	_G.pg.base.gametip.island_chara_consum = {
+		tip = "Spend"
 	}
 end)()
 
@@ -20377,32 +22266,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.levelscene_airexpel_select_confirm_left = {
-		tip = "Issuing Command: Move <color=#92fc63>$1</color> 1 tile to the <color=#92fc63>left</color>. Continue?"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_chara_power_limit = {
-		tip = "Stamina Cap"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_equipment_intensify = {
+	_G.pg.base.gametip.island_chara_breakout = {
 		tip = "Enhance"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.sham_ship_equip_forbid_2 = {
-		tip = "You will be unable to change ships or gear after you begin. Are you sure you want to continue?"
+	_G.pg.base.gametip.island_chara_now_rank = {
+		tip = "Current Rank"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_chara_breakout_button = {
-		tip = "Enhance"
+	_G.pg.base.gametip.island_chara_up_button = {
+		tip = "Level Up"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.multiple_sorties_title_eng = {
+		tip = "Multiple Sorties"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_cancel = {
+		tip = "Return"
 	}
 end)()
 
@@ -20419,8 +22308,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_chara_breakout = {
-		tip = "Enhance"
+	_G.pg.base.gametip.island_index_skill = {
+		tip = "Skill Upgradable"
 	}
 end)()
 
@@ -20443,8 +22332,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tec_tendency_cur_4 = {
-		tip = "Research Focus / Series 4"
+	_G.pg.base.gametip.island_chara_list_workspeed = {
+		tip = "Efficiency"
 	}
 end)()
 
@@ -20467,26 +22356,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_cancel = {
-		tip = "Return"
+	_G.pg.base.gametip.island_chara_list_attribute = {
+		tip = "Combined Stats"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_confirm = {
-		tip = "Confirm "
+	_G.pg.base.gametip.island_chara_list_filter = {
+		tip = "Filter"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_index_skill = {
-		tip = "Skill Upgradable"
+	_G.pg.base.gametip.island_chara_list = {
+		tip = "Character List"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_index_extra_all = {
-		tip = "Unlimited"
+	_G.pg.base.gametip.tolovegame_buff_desc_5 = {
+		tip = "Increases your final score multiplier by 1.2. Every 5 successful dodges increases the score multiplier by an additional 0.01."
 	}
 end)()
 
@@ -20503,8 +22392,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_index_name = {
-		tip = "Stamina Left"
+	_G.pg.base.gametip.island_chara_attribute6 = {
+		tip = "Manuf."
 	}
 end)()
 
@@ -20515,20 +22404,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_chara_list_attribute = {
-		tip = "Combined Stats"
+	_G.pg.base.gametip.island_chara_attribute5 = {
+		tip = "Mana."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_chara_list_filter = {
-		tip = "Filter"
+	_G.pg.base.gametip.other_world_temple_award_desc = {
+		tip = "Give Royal Coins the manjuu statue to receive rewards and a blessing."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_chara_list = {
-		tip = "Character List"
+	_G.pg.base.gametip.island_chara_attribute2 = {
+		tip = "Gath."
 	}
 end)()
 
@@ -20579,14 +22468,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tolovegame_lock_1 = {
-		tip = "Unlocks in $1 day(s) and $2 hour(s)"
+	_G.pg.base.gametip.island_chara_attribute1 = {
+		tip = "Farm."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_chara_attribute6 = {
-		tip = "Manuf."
+	_G.pg.base.gametip.child_plan_perform_title = {
+		tip = "Plan an Activity"
 	}
 end)()
 
@@ -20597,8 +22486,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_chara_attribute5 = {
-		tip = "Mana."
+	_G.pg.base.gametip.island_chara_totalname = {
+		tip = "Character Details"
 	}
 end)()
 
@@ -20609,18 +22498,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.help_shipinfo_hunting = {
-		tip = {
-			{
-				info = "About Attack/Support Range:\n- The Flagship of the Submarine Fleet determines the whole Submarine Fleet's Attack/Support Range (ASR.)\n\n- The Submarine Fleet can move on their own and attack enemies within their range, lowering the enemy's combat strength.\n\n- Tapping the \"Submarine Support\" button when in combat with an enemy within the Submarine Fleet's range will summon your Submarine Fleet to assist you in battle.\n\n- Submarines will only use Ammunition when attacking enemies on their own. When summoned in a battle, they will both use Ammunition and consume Oil.\n\n- The Submarine Fleet has 2 settings: Support Mode (the fleet will be on standby) and Attack Mode (the fleet will attack enemies automatically.)\n- This setting can be changed at any time from the Formation menu on the right side of the screen when sortieing.\n\nAttack/Support Range Level:\n- The higher the ASR level the Submarine Fleet's Flagship is, the further from their starting location they can attack or provide support.\n\n- You can increase the ASR level through Limit Breaking your Submarines, leveling certain skills, and equipping them with certain gear."
-			}
-		}
+	_G.pg.base.gametip.dal_AwardPage_name_2 = {
+		tip = "Module"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_chara_attribute2 = {
-		tip = "Gath."
+	_G.pg.base.gametip.shop_filter_retro = {
+		tip = "Rerun"
 	}
 end)()
 
@@ -20649,8 +22534,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child_date_text4 = {
-		tip = "Update System"
+	_G.pg.base.gametip.beat_game_my_record = {
+		tip = "My Rank"
 	}
 end)()
 
@@ -20667,14 +22552,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child_task_system_type2 = {
-		tip = "Growth"
+	_G.pg.base.gametip.fragment_shop_titleen = {
+		tip = ""
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_filter_retro = {
-		tip = "Rerun"
+	_G.pg.base.gametip.medal_shop_titleen = {
+		tip = ""
 	}
 end)()
 
@@ -20685,8 +22570,29 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_filter_trial = {
-		tip = "Rental"
+	_G.pg.base.gametip.senran_pt_words_yan = {
+		tip = {
+			{
+				"1100003/pt1",
+				"Heheh, this'll be fun. I have high hopes."
+			},
+			{
+				"1100003/pt2",
+				"C'mon, no breaks! Next one!"
+			},
+			{
+				"1100003/pt3",
+				"You're not half-bad at this, Commander."
+			},
+			{
+				"1100003/pt4",
+				"Surely we're not done already?"
+			},
+			{
+				"1100003/pt5",
+				"Nice work. I can feel my new strength, and it's all thanks to you."
+			}
+		}
 	}
 end)()
 
@@ -20721,8 +22627,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.beat_game_my_record = {
-		tip = "My Rank"
+	_G.pg.base.gametip.quota_shop_title1en = {
+		tip = ""
 	}
 end)()
 
@@ -20733,42 +22639,38 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_19906 = {
-		tip = "<size=28>\nWould you like to start a Battle Simulation?\n(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)\nEquipment: <color=#92fc63>\nPrototype Triple 406mm/45 MK7 Main Gun Mount\nTwin 127mm Mk 12 Dual-Purpose Gun Mount\nQuadruple 40mm Bofors AA Gun Mount\n</color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.fragment_shop_titleen = {
-		tip = ""
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.medal_shop_titleen = {
-		tip = ""
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.senrankagura_backhill_help = {
-		tip = {
-			{
-				info = "- Overview -\nThe Ninja Scrolls: Azur Flash is available between <color=#92fc63>November 23rd and December 6th.</color>\n\n- Details -\n1. Complete event stages and missions to receive Castle Tickets, the event currency.\nCastle Tickets can be spent in the event exchange shop for various rewards, including the SR collaboration character Ikaruga.\nYou can also claim the Elite collaboration character Murasaki as a milestone reward for collecting enough Castle Tickets.\n2. The Missions Board lists new event missions every day. Complete these missions to receive Shinobi Teachings and the time-limited furniture Shinobi Sliding Doors.\n3. The Ninja Scrolls has special missions available for each character. Complete these missions to receive Shinobi Teachings, Augment Modules for the new characters, and the special furniture Akashi Castle Scroll.\n4. The Ninjutsu Dojo is where you can spend your Shinobi Teachings to raise the Dojo's attribute level. Raise it high enough to receive the SR collaboration character Homura.\n5. The New Skins button takes you to the skin shop.\n6. The Limited Construction button takes you to the build screen."
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.quota_shop_title1en = {
-		tip = ""
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.shop_countdown = {
 		tip = "Ends in $1d $2h $3m"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shop_new_retro = {
+		tip = "Rerun"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_rendering_quality = {
+		tip = "Rendering quality"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shop_new_get_now = {
+		tip = "Get $1 now"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["2023spring_minigame_skill_sprint_up"] = {
+		tip = "Unlocks the skill Fast Footwork. Duration: 5s. Cooldown: 20s.|Further increases your speed by 10%|Increases the duration by 2s"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.level_scene_title_word_1 = {
+		tip = "Recon value:"
 	}
 end)()
 
@@ -20785,8 +22687,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_new_retro = {
-		tip = "Rerun"
+	_G.pg.base.gametip.shop_new_unable_to_use = {
+		tip = "Unusable"
 	}
 end)()
 
@@ -20809,8 +22711,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_shadow_quality = {
-		tip = "Shadow quality"
+	_G.pg.base.gametip.shop_new_skin_permanent = {
+		tip = "Hot"
 	}
 end)()
 
@@ -20852,8 +22754,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_new_get_now = {
-		tip = "Get $1 now"
+	_G.pg.base.gametip.island_fishing_lure_empty = {
+		tip = "Select rarity"
 	}
 end)()
 
@@ -20870,26 +22772,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip["2023spring_minigame_bless_substitute_up"] = {
-		tip = "Unlocks the skill Decoy."
+	_G.pg.base.gametip.shop_new_props = {
+		tip = "Items"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.bulin_tip4 = {
-		tip = "Nya? Maybe check the dockyard nya?"
+	_G.pg.base.gametip.shop_new_packs = {
+		tip = "Packs"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_new_unable_to_use = {
-		tip = "Unusable"
+	_G.pg.base.gametip.shop_new_skin_shop = {
+		tip = "Skins"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_new_skin_permanent = {
-		tip = "Hot"
+	_G.pg.base.gametip.shop_new_daily = {
+		tip = "Daily"
 	}
 end)()
 
@@ -20906,8 +22808,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_new_props = {
-		tip = "Items"
+	_G.pg.base.gametip.shop_new_confirm = {
+		tip = "Confirm"
 	}
 end)()
 
@@ -20924,14 +22826,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_new_packs = {
-		tip = "Packs"
+	_G.pg.base.gametip.shop_new_skin_theme = {
+		tip = "Theme"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_new_skin_shop = {
-		tip = "Skins"
+	_G.pg.base.gametip.shop_new_category = {
+		tip = "Shiptype"
 	}
 end)()
 
@@ -20958,8 +22860,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_new_daily = {
-		tip = "Daily"
+	_G.pg.base.gametip.shop_new_nation = {
+		tip = "Faction"
 	}
 end)()
 
@@ -20970,8 +22872,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_new_during_time = {
-		tip = "Time Left"
+	_G.pg.base.gametip.shop_new_ship_owned = {
+		tip = "Owned Ship"
 	}
 end)()
 
@@ -21003,8 +22905,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_new_confirm = {
-		tip = "Confirm"
+	_G.pg.base.gametip.shop_new_index = {
+		tip = "Sort"
 	}
 end)()
 
@@ -21015,20 +22917,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_new_skin_theme = {
-		tip = "Theme"
+	_G.pg.base.gametip.guild_new_member_get_award_tip = {
+		tip = "Guild Supplies are not available to new members until one day after joining the Guild."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_new_category = {
-		tip = "Shiptype"
+	_G.pg.base.gametip.no_share_skin_jiahehangmu = {
+		tip = "Kaga(CV)"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_new_nation = {
-		tip = "Faction"
+	_G.pg.base.gametip.caibulin_tip11 = {
+		tip = "The archives? How suspicious... Sounds like a great place for clues to be hidden, bulin!"
 	}
 end)()
 
@@ -21045,63 +22947,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_new_ship_owned = {
-		tip = "Owned Ship"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.shop_new_index = {
-		tip = "Sort"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_activity_bossbattle = {
-		tip = {
-			{
-				info = "                                         ※作战手册※\n"
-			},
-			{
-				info = "  活动期间，不同难度的演习，每次通关时可以获得额外收益，\n  额外收益每天有获得次数上限。不同难度的额外收益次数分\n  别为：初级演习：<color=#92fc63>20</color>次；中级演习：<color=#92fc63>20</color>次；高级演习：<color=#92fc63>40</color>次\n"
-			},
-			{
-				info = "1.参与活动获取pt点数，并与本服玩家协力攻略女仆据点；"
-			},
-			{
-				info = "2.女仆据点攻略完成后，所有参与据点战斗的玩家都将获得限\n定角色<color=#92fc63>【纽卡斯尔号】</color>（通过邮件发放）；"
-			},
-			{
-				info = "3.女仆据点攻略完成后，玩家可继续参与活动累计pt获得大量\n奖励与限定角色<color=#92fc63>【纽卡斯尔号】</color>；"
-			},
-			{
-				info = "4.个人累计pt的奖励截止时间为<color=#92fc63>2018.10.18 23.59.59</color>"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_ui_unlock = {
-		tip = "Unlock Battle UI"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_yanhua_tip3 = {
-		tip = "Available Fireworks"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cannot_build_multiple_printblue = {
-		tip = "Would you like to pause <color=#92fc63>$1</color>'s development and start on <color=#92fc63>$2</color> instead? Your development progress will be saved.\nOnce you start or resume development, you can not change which ship to develop for <color=#92fc63>24 hours</color>. "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_is_in_guild = {
-		tip = "There are Meowfficers currently assigned to a Guild Operation boss battle. Are you sure you want to continue?"
+	_G.pg.base.gametip.blueprint_simulation_confirm_99902 = {
+		tip = "<size=28>\nWould you like to start a Battle Simulation?\n<color=#ff5c5c>Note: the Priority ship's stats and abilities may differ from her fully-developed equivalent.</color>\nEquipped gear:<color=#92fc63>\nPrototype Triple 380mm Mle 1935 Main Gun Mount\nTriple 152mm Mle 1930 Main Gun Mount\nTwin 40mm Bofors AA Gun Mount\n</color></size>"
 	}
 end)()
 
@@ -21112,14 +22959,50 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.yumia_base_name_1 = {
+		tip = "Atelier Workspace"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shop_new_all = {
+		tip = "All"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.win_condition_display_shangchuan = {
+		tip = "The transport ship arrives at the designated location."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cannot_build_multiple_printblue = {
+		tip = "Would you like to pause <color=#92fc63>$1</color>'s development and start on <color=#92fc63>$2</color> instead? Your development progress will be saved.\nOnce you start or resume development, you can not change which ship to develop for <color=#92fc63>24 hours</color>. "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shop_new_try = {
+		tip = "Rental"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shop_new_discount = {
+		tip = "Discounted"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.spweapon_ui_index_shipType_zhanLie = {
 		tip = "BB"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_stronghold_6 = {
-		tip = "Obtained"
+	_G.pg.base.gametip.spweapon_ui_index_shipType_hangMu = {
+		tip = "CV"
 	}
 end)()
 
@@ -21136,14 +23019,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_new_all = {
-		tip = "All"
+	_G.pg.base.gametip.guild_create_error_nomoney = {
+		tip = "You don't have enough Gems!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.equipment_info_change_name_b = {
-		tip = "Twin 203mm Mle 1931 Main Gun Mount"
+	_G.pg.base.gametip.shop_new_purchase = {
+		tip = "Purchase"
 	}
 end)()
 
@@ -21154,14 +23037,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_new_discount = {
-		tip = "Discounted"
+	_G.pg.base.gametip.charge_scene_buy_confirm = {
+		tip = "Spend <color=#A9F548FF>$1 Gems</color> to buy <color=#A9F548FF>$2</color>?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_intensify_phase = {
-		tip = "Enhance Phase"
+	_G.pg.base.gametip.shop_new_sort = {
+		tip = "Filter"
 	}
 end)()
 
@@ -21172,8 +23055,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.level_ammo_empty = {
-		tip = "Ammo supplies. Ammo +$1. Ammo resupplies exhausted."
+	_G.pg.base.gametip.shop_new_during_hour = {
+		tip = "$1h left"
 	}
 end)()
 
@@ -21196,8 +23079,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_new_purchase = {
-		tip = "Purchase"
+	_G.pg.base.gametip.shop_new_during_day = {
+		tip = "$1d left"
 	}
 end)()
 
@@ -21214,14 +23097,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_new_purchased = {
-		tip = "Purchased"
+	_G.pg.base.gametip.emoji_type_1 = {
+		tip = "Default"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.temple_consume_not_enough = {
-		tip = "Insufficient resources"
+	_G.pg.base.gametip.intimacy_desc_3_detail = {
+		tip = "$1 thinks you're a trustworthy Commander.\n<color=#92fc63><size=18>All stats (except Speed) +1%</size></color>"
 	}
 end)()
 
@@ -21232,8 +23115,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_new_sort = {
-		tip = "Filter"
+	_G.pg.base.gametip.shop_item_title_en = {
+		tip = "Items"
 	}
 end)()
 
@@ -21250,8 +23133,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_new_during_hour = {
-		tip = "$1h left"
+	_G.pg.base.gametip.hotspring_shop_touch2 = {
+		tip = "You won't get free stuff by poking me, nya!"
 	}
 end)()
 
@@ -21262,26 +23145,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_new_during_day = {
-		tip = "$1d left"
+	_G.pg.base.gametip.shop_diamond_title_en = {
+		tip = "Gems"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_shipNation_link = {
-		tip = "Collab "
+	_G.pg.base.gametip["2023spring_minigame_item_firecracker"] = {
+		tip = "Firecrackers|Use to scare Nianjuus when they are near you, allowing you to flee for 5s."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_role_check_in = {
-		tip = "Would you like to unlock <color=#39bfff>$1</color>'s room?"
+	_G.pg.base.gametip.word_facility = {
+		tip = "设施"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_item_title_en = {
-		tip = "Items"
+	_G.pg.base.gametip.beat_game_exit_desc = {
+		tip = "Your current score will be used to calculate your ranking."
 	}
 end)()
 
@@ -21322,8 +23205,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.hotspring_shop_exchange = {
-		tip = "Do you want to spend $1  <icon name=Props/wenquanjuan w=0.7 h=0.7/>  to exchange for $2 $3(s)?"
+	_G.pg.base.gametip.beat_game_current_score = {
+		tip = "Current Score"
 	}
 end)()
 
@@ -21386,8 +23269,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_diamond_title_en = {
-		tip = "Gems"
+	_G.pg.base.gametip.beat_game_high_score = {
+		tip = "High Score"
 	}
 end)()
 
@@ -21446,8 +23329,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip["2023spring_minigame_skill_sprint_up"] = {
-		tip = "Unlocks the skill Fast Footwork. Duration: 5s. Cooldown: 20s.|Further increases your speed by 10%|Increases the duration by 2s"
+	_G.pg.base.gametip.mail_toggle_off = {
+		tip = "Off"
 	}
 end)()
 
@@ -21464,8 +23347,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_live2dfiles_checkend = {
-		tip = "Tap to update"
+	_G.pg.base.gametip.beat_game_rank = {
+		tip = "Ranking"
 	}
 end)()
 
@@ -21516,8 +23399,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.beat_game_exit_desc = {
-		tip = "Your current score will be used to calculate your ranking."
+	_G.pg.base.gametip.shop_item_unobtained = {
+		tip = "Unobtained"
 	}
 end)()
 
@@ -21544,20 +23427,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.beat_game_current_score = {
-		tip = "Current Score"
+	_G.pg.base.gametip.shop_item_unlock = {
+		tip = "Pack Content"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.beat_game_high_score = {
-		tip = "High Score"
+	_G.pg.base.gametip.dorm3d_VIDEO_TELEPHONE_LABEL = {
+		tip = "Call from $1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_atelier_tip8 = {
-		tip = "Synthesizable"
+	_G.pg.base.gametip.option_desc11 = {
+		tip = "Display Carrier Detection line\n\nAbout Carrier Detection:The carriers in your Main Fleet can be in one of two states: Hidden, and Detected.\n\nYour carriers start the battle in the Hidden state, but once their Detection Gauge fills up, they will enter and remain in the Detected state until the gauge falls back down below a certain threshold.\n\nWhile Hidden, your carriers will not be targeted by most enemy skills and attacks.\n\nAdditionally, your carriers will also deal increased damage.\n\n1. About the Detection Gauge:\n\nThe Detection Gauge represents how close the enemy is to detecting the presence of your carriers. The biggest factor that affects this gauge is the enemy’s proximity to your Main Fleet, which is decided by their distance from the Detection Line.\n\nHowever, other factors affect this gauge as well. The Detection Gauge increases:\n\n- When an enemy crosses the Detection Line\n\n- When an enemy ship or aircraft reaches the left-hand side of the screen\n\n- When a friendly carrier launches an Airstrike\n\n- When the skills of certain friendly carriers activate\n\n- When a friendly carrier catches fire (when this happens, the Detection Gauge will not go below a certain threshold until the fire is put out)\n\nThe Detection Gauge will decrease as long as there are no enemies past the Detection Line.\n\nEach carrier has a separate Detection Gauge, and the higher their AVI stat, the longer it will take for them to be Detected.\n\n2. The Detection Gauge During Exercises:\n\nThe Detection Gauge will not decrease in Exercise Battles. Additionally, once the opponent’s fleet gets near enough to your Main Fleet, all of your carriers will enter the Detected state."
 	}
 end)()
 
@@ -21568,8 +23451,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.beat_game_rank = {
-		tip = "Ranking"
+	_G.pg.base.gametip.street_shop_titleen = {
+		tip = "Shop"
 	}
 end)()
 
@@ -21598,8 +23481,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_item_unobtained = {
-		tip = "Unobtained"
+	_G.pg.base.gametip.yumia_storymode_tip2 = {
+		tip = "Obtained From Synthesis in the Atelier"
 	}
 end)()
 
@@ -21610,14 +23493,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_item_unlock = {
-		tip = "Pack Content"
+	_G.pg.base.gametip.shop_refresh_time = {
+		tip = "Resets in $1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.equip_share_label_2 = {
-		tip = "Anti Medium Armor"
+	_G.pg.base.gametip.shop_goods_left_minute = {
+		tip = "$1m left"
 	}
 end)()
 
@@ -21646,8 +23529,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.street_shop_titleen = {
-		tip = "Shop"
+	_G.pg.base.gametip.shop_goods_left_day = {
+		tip = "$1d left"
 	}
 end)()
 
@@ -21668,8 +23551,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.masaina_main_sheet2 = {
-		tip = "Milestone"
+	_G.pg.base.gametip.shop_package_sort_en_3 = {
+		tip = "PR"
 	}
 end)()
 
@@ -21698,8 +23581,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_refresh_time = {
-		tip = "Resets in $1"
+	_G.pg.base.gametip.shop_package_sort_3 = {
+		tip = "PR"
 	}
 end)()
 
@@ -21710,14 +23593,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_goods_left_minute = {
-		tip = "$1m left"
+	_G.pg.base.gametip.roll_card_info = {
+		tip = "Profile"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.caibulin_tip10 = {
-		tip = "The construction pools? How suspicious... Sounds like a great place for clues to be hidden, bulin!"
+	_G.pg.base.gametip.dorm3d_furniture_count = {
+		tip = "Amount: $1"
 	}
 end)()
 
@@ -21728,20 +23611,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_goods_left_day = {
-		tip = "$1d left"
+	_G.pg.base.gametip.shop_package_sort_0 = {
+		tip = "All"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_package_sort_en_3 = {
-		tip = "PR"
+	_G.pg.base.gametip.shop_activity = {
+		tip = "Event Exchange"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_package_sort_3 = {
-		tip = "PR"
+	_G.pg.base.gametip.new_airi_error_code_100204 = {
+		tip = "The guest account can't be linked to a Google Play Games account so you can't log on another device with the guest account. If you want to link the guest account to a Google Play Games account, please link it to a Yostar account/third-party account first."
 	}
 end)()
 
@@ -21752,8 +23635,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.levelscene_mapselect_part2 = {
-		tip = "Part 2"
+	_G.pg.base.gametip.shop_month = {
+		tip = "Monthly"
 	}
 end)()
 
@@ -21810,8 +23693,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_waiting = {
-		tip = "Setting Up"
+	_G.pg.base.gametip.shop_skin_permanent = {
+		tip = "Popular"
 	}
 end)()
 
@@ -21832,8 +23715,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_package_sort_0 = {
-		tip = "All"
+	_G.pg.base.gametip.shop_skin_new = {
+		tip = "Limited"
 	}
 end)()
 
@@ -21850,14 +23733,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_command_ability = {
-		tip = "Directives"
+	_G.pg.base.gametip.shop_skin_en = {
+		tip = "Skins"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_month = {
-		tip = "Monthly"
+	_G.pg.base.gametip.shop_skin = {
+		tip = "Skins"
 	}
 end)()
 
@@ -21874,8 +23757,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_skin_permanent = {
-		tip = "Popular"
+	_G.pg.base.gametip.word_got_pt = {
+		tip = "Granted"
 	}
 end)()
 
@@ -21892,14 +23775,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_skin_new = {
-		tip = "Limited"
+	_G.pg.base.gametip.shop_recommend = {
+		tip = "Top"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_supply_prop = {
-		tip = "Supply"
+	_G.pg.base.gametip.shop_title = {
+		tip = "Shop"
 	}
 end)()
 
@@ -21922,8 +23805,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.spece_illegal_tip = {
-		tip = "Cannot uses spaces"
+	_G.pg.base.gametip.ship_remould_warning_402134 = {
+		tip = "Completing this Retrofit will permanently change the first \"Auxiliary\" equipment slot to a <color=#92fc63>\"Helicopter\"</color>\n equipment slot. Proceed with the Retrofit? "
 	}
 end)()
 
@@ -21934,8 +23817,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_recommend = {
-		tip = "Top"
+	_G.pg.base.gametip.masaina_main_sheet3 = {
+		tip = "Fashion"
 	}
 end)()
 
@@ -21958,26 +23841,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_title = {
-		tip = "Shop"
+	_G.pg.base.gametip.masaina_main_sheet2 = {
+		tip = "Milestone"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.tip_exchange_ticket = {
-		tip = "Would you like to exchange a Challenge Ticket for 1 additional Reward Sortie on the $1 stage?"
+	_G.pg.base.gametip.masaina_main_sheet1 = {
+		tip = "Main Event"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.random_ship_custom_mode_main_button_add = {
-		tip = "Add"
+	_G.pg.base.gametip.masaina_main_title_en = {
+		tip = "Secrets of the Abyss"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.masaina_main_sheet4 = {
-		tip = "Minigame"
+	_G.pg.base.gametip.blueprint_simulation_confirm_49904 = {
+		tip = "<size=28>Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.\nEquipped gear:<color=#92fc63>\nPrototype Triple 305mm Main Gun (SK C/39) \nQuadruple 533mm Magnetic Torpedo\nTwin 105mm AA Gun (SK C)</color></size>"
 	}
 end)()
 
@@ -22006,8 +23889,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.masaina_main_sheet3 = {
-		tip = "Fashion"
+	_G.pg.base.gametip.yumia_pt_tip = {
+		tip = "Total"
 	}
 end)()
 
@@ -22018,8 +23901,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_propose_cost_tip = {
-		tip = "Marriage requires <color=#92fc63>1</color> Promise Ring (In Depot: <color=#92fc63>$1</color>).\n\n<size=32>Marrying a shipgirl grants her a special status, lets you change her name, and gives her a <color=#92fc63>3%</color> boost to most stats.</size>\n<size=32>Marrying a shipgirl automatically locks her in your dock. You can unlock her manually if so desired.</size>"
+	_G.pg.base.gametip.word_propose_ring_tip = {
+		tip = "Put a ring on your ship!"
 	}
 end)()
 
@@ -22030,72 +23913,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.masaina_main_sheet1 = {
-		tip = "Main Event"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.masaina_main_title_en = {
-		tip = "Secrets of the Abyss"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.text_forward = {
-		tip = "Go"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.yumia_pt_tip = {
-		tip = "Total"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_battery = {
-		tip = "ニココイン"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.click_back_tip = {
-		tip = "Tap to Return "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_create_error_noname = {
-		tip = "Guild name may not be empty."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.yumia_storymode_tip2 = {
-		tip = "Obtained From Synthesis in the Atelier"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.yumia_storymode_tip1 = {
 		tip = "Obtain $1 to Unlock"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.help_newyear_shrine = {
-		tip = {
-			{
-				info = "<size=31><color=#92fc63>TIPS: \nTapping the prayer button without any Shrine Visits will still consume coins, but will not grant any blessing.</color></size>\n\n1. Spending tickets to play the fireworks workshop, shooting gallery, or new year's feast minigames will grant Shrine Visits.\n\n2. Tapping the bell rope when you have Shrine Visits will consume 5 coins and grant a blessing.\n\nThere are several types of blessings with several different effects:\n\nEducation: Reduces the time it takes to train in the Tactical Academy.\n\nCareer: Our fleet gets a damage bonus in main story, hard mode, and battle record sorties.\n\nRomance: Your secretary ship gains affection faster.\n\nBlessings remain in effect for one day.\n\n3. An education blessing will not reduce the training time of any lesson in progress when the blessing is activated.\n\nThe expiration of the education blessing will not cause any lesson in progress to lengthen.\n\n4. Should you pray for a new blessing when a blessing is already in effect, the new blessing will override the existing one, and its duration will reset.\n\n5. You may only have one active blessing at any one time."
-			}
-		}
+	_G.pg.base.gametip.equip_info_extralevel_2 = {
+		tip = "Level 2"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.juuschat_filter_tip2 = {
-		tip = "Answered"
+	_G.pg.base.gametip.tolovemainpage_skin_countdown = {
+		tip = "Time Remaining: $1"
 	}
 end)()
 
@@ -22106,44 +23937,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.emoji_type_3 = {
-		tip = "Pixel "
+	_G.pg.base.gametip.word_battery = {
+		tip = "ニココイン"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100221 = {
-		tip = "FB authorization failed"
+	_G.pg.base.gametip.ambush_display_2 = {
+		tip = "V.Low"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.levelScene_who_to_exchange = {
-		tip = "Are you sure you want to swap fleet positions? "
+	_G.pg.base.gametip.guild_create_error_noname = {
+		tip = "Guild name may not be empty."
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.yumia_atelier_tip20 = {
 		tip = "Would you like to synthesize $1 x $2?"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_fleet_pos_not_exist = {
-		tip = "A Meowfficer has not been assigned."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.lanternRiddles_answer_is_wrong = {
-		tip = "Sorry, please try again!"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_formationMediator_quest_replace = {
-		tip = "The selected ship is already deployed to <color=#92fc63>$1</color>. Continue switching?"
 	}
 end)()
 
@@ -22166,6 +23979,72 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.yumia_atelier_tip15 = {
+		tip = "Amount Made: $1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.emoji_type_3 = {
+		tip = "Pixel "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100221 = {
+		tip = "FB authorization failed"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelScene_who_to_exchange = {
+		tip = "Are you sure you want to swap fleet positions? "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_atelier_tip14 = {
+		tip = "Details"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_fleet_pos_not_exist = {
+		tip = "A Meowfficer has not been assigned."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.lanternRiddles_answer_is_wrong = {
+		tip = "Sorry, please try again!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_formationMediator_quest_replace = {
+		tip = "The selected ship is already deployed to <color=#92fc63>$1</color>. Continue switching?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_atelier_tip13 = {
+		tip = "Tap to Return"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_atelier_tip12 = {
+		tip = "Missing Materials"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_atelier_tip11 = {
+		tip = "Obtained Materials"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.yumia_buff_name_2 = {
 		tip = "Core: L1 Area"
 	}
@@ -22184,26 +24063,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_atelier_tip15 = {
-		tip = "Amount Made: $1"
+	_G.pg.base.gametip.yumia_atelier_tip10 = {
+		tip = "Usable Materials"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_atelier_tip14 = {
-		tip = "Details"
+	_G.pg.base.gametip.yumia_atelier_tip9 = {
+		tip = "Back to Recipes"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_atelier_tip13 = {
-		tip = "Tap to Return"
+	_G.pg.base.gametip.yumia_atelier_tip8 = {
+		tip = "Synthesizable"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_atelier_tip12 = {
-		tip = "Missing Materials"
+	_G.pg.base.gametip.dorm3d_gift_story_unlock = {
+		tip = "Special Story Unlocked"
 	}
 end)()
 
@@ -22214,14 +24093,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_atelier_tip11 = {
-		tip = "Obtained Materials"
+	_G.pg.base.gametip.yumia_atelier_tip5 = {
+		tip = "Select Recipe on the Left"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_atelier_tip10 = {
-		tip = "Usable Materials"
+	_G.pg.base.gametip.ship_remould_warning_310044 = {
+		tip = "Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed.\n<color=#92fc63>Secondary Weapon</color> will become <color=#92fc63>Water Detection</color> slot <color=#92fc63><material=underline c=#92fc63 event=clickDetail>(Info)</material></color>.\n<color=#92fc63>Your current Secondary Weapon</color> will be unequipped.\nWould you like to continue?"
 	}
 end)()
 
@@ -22238,8 +24117,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_atelier_tip9 = {
-		tip = "Back to Recipes"
+	_G.pg.base.gametip.avatar_task_ship_1 = {
+		tip = "Obtain $1."
 	}
 end)()
 
@@ -22262,8 +24141,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_preview = {
-		tip = "Preview"
+	_G.pg.base.gametip.yumia_buff_4 = {
+		tip = "Unlocked at <color=#7bd2ceff>Core Lv.$1</color>"
 	}
 end)()
 
@@ -22344,14 +24223,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_atelier_tip5 = {
-		tip = "Select Recipe on the Left"
+	_G.pg.base.gametip.settings_flagship_interaction = {
+		tip = "Play Voice Lines on Idle Screen"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.login_newPlayerScene_word_yingHuoChong = {
-		tip = "Wow! It's the new Commander! Did you come here to play with Glowworm? You better watch out for my headbutt!"
+	_G.pg.base.gametip.yumia_buff_2 = {
+		tip = "Level Up"
 	}
 end)()
 
@@ -22374,8 +24253,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_game_limit_help = {
-		tip = "You'll gain $1 Adventure Pass(es) every day at midnight."
+	_G.pg.base.gametip.yumia_buff_1 = {
+		tip = "Materials Needed"
 	}
 end)()
 
@@ -22386,20 +24265,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200230 = {
-		tip = "Payment backend response - payment canceled"
+	_G.pg.base.gametip.yumia_buff_desc_5 = {
+		tip = "Core effect applies to the stage TS5.\nObtain the following materials to level up:"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_buff_4 = {
-		tip = "Unlocked at <color=#7bd2ceff>Core Lv.$1</color>"
+	_G.pg.base.gametip.grapihcs3d_setting_quality_option_high = {
+		tip = "High"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.MonopolyCar2024Game_pick_tip = {
-		tip = "You can pick a crewmate at the starting line. Completing a lap with a crewmate can yield a reward."
+	_G.pg.base.gametip.yumia_buff_desc_3 = {
+		tip = "Core effect applies to the stage TS3.\nObtain the following materials to level up:"
 	}
 end)()
 
@@ -22416,14 +24295,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_buff_1 = {
-		tip = "Materials Needed"
+	_G.pg.base.gametip.yumia_buff_desc_1 = {
+		tip = "Core effect applies to the stage TS1.\nObtain the following materials to level up:"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_buff_desc_5 = {
-		tip = "Core effect applies to the stage TS5.\nObtain the following materials to level up:"
+	_G.pg.base.gametip.yumia_buff_name_5 = {
+		tip = "Core: Top"
 	}
 end)()
 
@@ -22434,8 +24313,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_shop_tag2 = {
-		tip = "Unlocks Photo Actions"
+	_G.pg.base.gametip.friend_max_count_1 = {
+		tip = "This person's friends list is full."
 	}
 end)()
 
@@ -22452,20 +24331,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_buff_desc_3 = {
-		tip = "Core effect applies to the stage TS3.\nObtain the following materials to level up:"
+	_G.pg.base.gametip.yumia_buff_name_3 = {
+		tip = "Core: L2 Area"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_buff_desc_2 = {
-		tip = "Core effect applies to the stage TS2.\nObtain the following materials to level up:"
+	_G.pg.base.gametip.yumia_buff_name_1 = {
+		tip = "Core: Entrance Area"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_buff_desc_1 = {
-		tip = "Core effect applies to the stage TS1.\nObtain the following materials to level up:"
+	_G.pg.base.gametip.sitelasibao_expup_name = {
+		tip = "EXP Boost"
 	}
 end)()
 
@@ -22482,50 +24361,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_buff_name_5 = {
-		tip = "Core: Top"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_privatechat_new_calls = {
-		tip = "New Calls"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.yumia_buff_name_3 = {
-		tip = "Core: L2 Area"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.upgrade_to_next_maxlevel_tip = {
-		tip = "The resources below will be used to induce a Cognitive Awakening and increase this ship's Level Cap.\nLevel Cap increase after Cognitive Awakening:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.yumia_buff_name_1 = {
-		tip = "Core: Entrance Area"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_which_month = {
-		tip = "Month $1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.playervtae_setting_btn_label = {
-		tip = "Settings"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.challenge_season_update_infinite_clear = {
-		tip = "Current Stage: $1.\nSince the Challenge Stage lineup has changed, this won't affect your high score.\nWould you like to restart Challenge Mode?"
+	_G.pg.base.gametip.child_task_finish_all = {
+		tip = "Current growth goals achieved."
 	}
 end)()
 
@@ -22542,26 +24379,32 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.upgrade_to_next_maxlevel_tip = {
+		tip = "The resources below will be used to induce a Cognitive Awakening and increase this ship's Level Cap.\nLevel Cap increase after Cognitive Awakening:"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.yumia_award_4 = {
 		tip = "Augment Modules"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.bulin_tip7 = {
-		tip = "Sortie nya! Target 2-4 nya!"
+	_G.pg.base.gametip.mini_game_leave = {
+		tip = "Quit the game?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.playervtae_setting_btn_label = {
+		tip = "Settings"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.yumia_award_1 = {
 		tip = "Gear"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.old_class_is_close = {
-		tip = "The Lecture Hall is being updated. You cannot add shipgirls. "
 	}
 end)()
 
@@ -22578,14 +24421,50 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.yumia_stronghold_7 = {
+		tip = "Finished"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_stronghold_6 = {
+		tip = "Obtained"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_stronghold_5 = {
+		tip = "Comfort Rewards"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.old_class_is_close = {
+		tip = "The Lecture Hall is being updated. You cannot add shipgirls. "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_stronghold_4 = {
+		tip = "Chance to Get"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_base_name_3 = {
+		tip = "Atelier Courtyard"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.spweapon_ui_storage = {
 		tip = "Depot"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_stronghold_7 = {
-		tip = "Finished"
+	_G.pg.base.gametip.yumia_base_name_2 = {
+		tip = "Atelier Break Space"
 	}
 end)()
 
@@ -22621,62 +24500,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_stronghold_5 = {
-		tip = "Comfort Rewards"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_season_window_transformtip = {
-		tip = "Do you want to convert the selected item(s)?"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.yumia_base_name_3 = {
-		tip = "Atelier Courtyard"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.yumia_base_name_2 = {
-		tip = "Atelier Break Space"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.yumia_base_name_1 = {
-		tip = "Atelier Workspace"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_shop_limit = {
-		tip = "Limited"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_task_tag_develop = {
-		tip = "Res."
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.yumia_main_tip_9 = {
 		tip = "Reward List"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_main_tip_8 = {
-		tip = "Milestone"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_boss_formation_1 = {
-		tip = "Up to 3 support ships belonging to players from your Guild can be chosen."
+	_G.pg.base.gametip.island_season_window_transformtip = {
+		tip = "Do you want to convert the selected item(s)?"
 	}
 end)()
 
@@ -22699,8 +24530,56 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.dorm3d_shop_limit = {
+		tip = "Limited"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_task_tag_develop = {
+		tip = "Res."
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.yumia_main_tip_2 = {
 		tip = "Sortie"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_main_tip_1 = {
+		tip = "Build"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_boss_formation_1 = {
+		tip = "Up to 3 support ships belonging to players from your Guild can be chosen."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.task_got = {
+		tip = "Completed"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.open_today = {
+		tip = "Open Today:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_bloom_optionname1 = {
+		tip = "Low"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_bloom_optionname0 = {
+		tip = "High"
 	}
 end)()
 
@@ -22747,14 +24626,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.cruise_tip_skin = {
-		tip = "Seasonal Missions"
+	_G.pg.base.gametip.guild_start_supply_consume_tip = {
+		tip = "Spend $1 Guild Funds to purchase Guild Supplies?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.open_today = {
-		tip = "Open Today:"
+	_G.pg.base.gametip.battleui_display3 = {
+		tip = "Pause Bar"
 	}
 end)()
 
@@ -22795,14 +24674,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_bloom_optionname0 = {
-		tip = "High"
+	_G.pg.base.gametip.zengke_series_ex_confirm = {
+		tip = "Return"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_bloom = {
-		tip = "Visual Quality"
+	_G.pg.base.gametip.ryza_tip_control = {
+		tip = "Place Cores into the circles to obtain various boost effects."
 	}
 end)()
 
@@ -22813,14 +24692,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.simulation_enhancing = {
-		tip = "Enemy has used a special tactic, increasing Reload and DMG!"
+	_G.pg.base.gametip.friend_resume_fleet_gs = {
+		tip = "Fleet Power:"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.battleui_display3 = {
-		tip = "Pause Bar"
+	_G.pg.base.gametip.new_airi_error_code_200310 = {
+		tip = "Unable to connect to Google Play service"
 	}
 end)()
 
@@ -22831,14 +24710,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battleui_display2 = {
-		tip = "Effect"
+	_G.pg.base.gametip.zengke_story_reward_count = {
+		tip = "Read the whole story to receive a limited gear skin:"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.zengke_series_ex_confirm = {
-		tip = "Return"
+	_G.pg.base.gametip.zengke_series_confirm = {
+		tip = "Sortie"
 	}
 end)()
 
@@ -22849,8 +24728,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_levelScene_ryza_lock = {
-		tip = "Gathering Site stages will unlock after clearing <color=#92fc63>T5 - The Home Stretch</color>."
+	_G.pg.base.gametip.island_guide_fish_min_weight = {
+		tip = "Min. Amount"
 	}
 end)()
 
@@ -22925,14 +24804,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.qiuqiu_total_count = {
-		tip = "累計数"
+	_G.pg.base.gametip.zengke_series_rank_small = {
+		tip = "RANKING"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ryza_tip_control_buff_replace = {
-		tip = "Replace"
+	_G.pg.base.gametip.island_taskjump_placenoopen_tips = {
+		tip = "You have not yet unlocked this location."
 	}
 end)()
 
@@ -22949,20 +24828,24 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.zengke_story_reward_count = {
-		tip = "Read the whole story to receive a limited gear skin:"
+	_G.pg.base.gametip.zengke_series_help = {
+		tip = {
+			{
+				info = "- Overview -\nThe Neon City Investigator event is available between <color=#92fc63>June 26th and July 9th</color>!\nComplete missions, dispatch your fleets, and clear event stages to collect Neon City Movie Tickets and receive rewards!\n\n1. Tap the button in the bottom left corner to switch between Story Mode and Battle Mode.\n2. Battle Mode presents a series of stages which you can challenge with your fleets to earn Neon City Movie Tickets.\nBefore going into battle, you can decide whether you'd like to fight in a joint sortie or a solo sortie.\n· In a solo sortie, you will challenge each stage with only a single fleet. In this mode, all your shipgirls recover all their health at the start of the battle.\n· In a joint sortie, you will instead send out multiple fleets to battle on each stage. Completing the challenge in this mode will grant you additional rewards.\n3. You will receive rewards for collecting enough Neon City Movie Tickets, including <color=#92fc63>Elite DD Z13</color> and a <color=#92fc63>Prototype Triple 305mm SK C/39 Main Gun Mount</color>.\n4. There are special missions available during the event. Complete these to receive additional rewards.\n5. There's a special story available in Story Mode. Read it in its entirety to receive a commemorative gear skin.\n"
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.zengke_series_confirm = {
-		tip = "Sortie"
+	_G.pg.base.gametip.dorm3d_collection_cafe = {
+		tip = "Café"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.zengke_series_task_small = {
-		tip = "MISSIONS"
+	_G.pg.base.gametip.dorm3d_dance_button = {
+		tip = "Dance"
 	}
 end)()
 
@@ -22985,8 +24868,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.zengke_series_rank_small = {
-		tip = "RANKING"
+	_G.pg.base.gametip.brs_reward_tip_1 = {
+		tip = "How to Obtain"
 	}
 end)()
 
@@ -23025,18 +24908,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.zengke_series_pt = {
-		tip = "Total"
+	_G.pg.base.gametip.brs_dmact_tip = {
+		tip = "Total Destroyed"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.zengke_series_help = {
-		tip = {
-			{
-				info = "- Overview -\nThe Neon City Investigator event is available between <color=#92fc63>June 26th and July 9th</color>!\nComplete missions, dispatch your fleets, and clear event stages to collect Neon City Movie Tickets and receive rewards!\n\n1. Tap the button in the bottom left corner to switch between Story Mode and Battle Mode.\n2. Battle Mode presents a series of stages which you can challenge with your fleets to earn Neon City Movie Tickets.\nBefore going into battle, you can decide whether you'd like to fight in a joint sortie or a solo sortie.\n· In a solo sortie, you will challenge each stage with only a single fleet. In this mode, all your shipgirls recover all their health at the start of the battle.\n· In a joint sortie, you will instead send out multiple fleets to battle on each stage. Completing the challenge in this mode will grant you additional rewards.\n3. You will receive rewards for collecting enough Neon City Movie Tickets, including <color=#92fc63>Elite DD Z13</color> and a <color=#92fc63>Prototype Triple 305mm SK C/39 Main Gun Mount</color>.\n4. There are special missions available during the event. Complete these to receive additional rewards.\n5. There's a special story available in Story Mode. Read it in its entirety to receive a commemorative gear skin.\n"
-			}
-		}
+	_G.pg.base.gametip.brs_expedition_tip = {
+		tip = "Beat the challenge stage to receive time-limited rewards!"
 	}
 end)()
 
@@ -23069,32 +24948,75 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_collection_cafe = {
-		tip = "Café"
+	_G.pg.base.gametip.littleaijier_npc = {
+		tip = {
+			{
+				info = "- Overview -\nDuring the event, Little Ägir will provisionally join your fleet. Fight boss fleets to earn Trust. Collect enough Trust to have Little Ägir permanently join your fleet!"
+			},
+			{
+				info = "- How to Play -\n· Collect Trust during the event period to have Little Ägir permanently join your fleet.\n· Trust can be gathered by defeating the boss fleet of campaign maps starting from Chapter 3 on normal difficulty and event maps (not including War Archives). If Little Ägir is in the fleet that defeats the boss and she is still afloat, you'll receive double the amount of Trust.\n· The Trust you've collected can be turned in for additional rewards on the event banner."
+			},
+			{
+				info = "· You will not be able to give a Promise Ring to Little Ägir until you have formally recruited her to the fleet. You will also not be able to Retire her or use her as Enhancement or Limit Break material."
+			},
+			{
+				info = "· If Little Ägir has not been formally recruited by the end of the event, she will leave the port."
+			},
+			{
+				info = "· Rewards for reaching certain amounts of Trust will unlock in phases, one phase per day up to May 1st."
+			},
+			{
+				info = "· Little Ägir cannot participate in Operation Siren or META Showdowns until she has been formally recruited."
+			},
+			{
+				info = "· Little Ägir cannot participate in Guild Bosses until she has been formally recruited.￼"
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_dance_button = {
-		tip = "Dance"
+	_G.pg.base.gametip.projection_help = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/projection_help1",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.brs_reward_tip_1 = {
-		tip = "How to Obtain"
+	_G.pg.base.gametip.text_shop_enoughRes_tip = {
+		tip = "Commander, you can't hold any more Coins!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.brs_dmact_tip = {
-		tip = "Total Destroyed"
+	_G.pg.base.gametip.choose_secretary_change_title = {
+		tip = "Secretary"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.brs_expedition_tip = {
-		tip = "Beat the challenge stage to receive time-limited rewards!"
+	_G.pg.base.gametip.random_ship_custom_mode_remove_shadow_complete = {
+		tip = "Shipgirl has been removed from your random secretary list."
 	}
 end)()
 
@@ -23217,30 +25139,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.littleaijier_npc = {
-		tip = {
-			{
-				info = "- Overview -\nDuring the event, Little Ägir will provisionally join your fleet. Fight boss fleets to earn Trust. Collect enough Trust to have Little Ägir permanently join your fleet!"
-			},
-			{
-				info = "- How to Play -\n· Collect Trust during the event period to have Little Ägir permanently join your fleet.\n· Trust can be gathered by defeating the boss fleet of campaign maps starting from Chapter 3 on normal difficulty and event maps (not including War Archives). If Little Ägir is in the fleet that defeats the boss and she is still afloat, you'll receive double the amount of Trust.\n· The Trust you've collected can be turned in for additional rewards on the event banner."
-			},
-			{
-				info = "· You will not be able to give a Promise Ring to Little Ägir until you have formally recruited her to the fleet. You will also not be able to Retire her or use her as Enhancement or Limit Break material."
-			},
-			{
-				info = "· If Little Ägir has not been formally recruited by the end of the event, she will leave the port."
-			},
-			{
-				info = "· Rewards for reaching certain amounts of Trust will unlock in phases, one phase per day up to May 1st."
-			},
-			{
-				info = "· Little Ägir cannot participate in Operation Siren or META Showdowns until she has been formally recruited."
-			},
-			{
-				info = "· Little Ägir cannot participate in Guild Bosses until she has been formally recruited.￼"
-			}
-		}
+	_G.pg.base.gametip.islandnode_tips7 = {
+		tip = "$1 cared for the flowers while you were gone!"
 	}
 end)()
 
@@ -23251,62 +25151,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.login_game_login_full = {
-		tip = "Too many players are logged into this server. Please wait and try again."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.choose_secretary_change_title = {
-		tip = "Secretary"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_theme_word_collection = {
-		tip = "Favorites"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.random_ship_custom_mode_remove_shadow_complete = {
-		tip = "Shipgirl has been removed from your random secretary list."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cryptolalia_exchange_success = {
-		tip = "Secret Unlocked"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.add_skin_random_secretary_ship_list = {
-		tip = "Add Random Secretary"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_sairen_description3 = {
-		tip = "Siren Control: <color=#ff5c5c>$1%</color>"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.add_skin_secretary_ship = {
 		tip = "Add to Secretary Slot"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_card_no_achieve_tip = {
-		tip = "You have no achievements."
+	_G.pg.base.gametip.shadow_skin_change_success = {
+		tip = "Successfully changed the currently projected skin."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_build_revert_tip = {
-		tip = "Would you like to reset to previous furniture arrangement?"
+	_G.pg.base.gametip.backyard_theme_word_collection = {
+		tip = "Favorites"
 	}
 end)()
 
@@ -23329,48 +25187,38 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battlepass_main_help_2110 = {
-		tip = {
-			{
-				info = "Cruise Missions Seasonal Campaign\n10/1 0:00 - 11/30 23:59\n\n- Overview -\n\"Cruise Missions\" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.\nAdditionally, you can unlock an additional set of \"Fair Winds Cruise\" rewards by purchasing the \"Fair Winds Cruise Pass\" item from Akashi's shop.\nFusou META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfit for Yorktown, \"Saintly Wings.\"\n\n- How to Play -\n· Two types of missions will be released at the same time at the start of the campaign season:\na) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.\nb) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.\n· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.\n· If you purchase a Fair Winds Cruise Pass, you will automatically receive 15 levels worth of progress (1500 Progress Pts).\n· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:\na) Cruise Rewards - Rewards that can be obtained based on the total number of accumulated Progress Pts. There are a total of 100 levels.\nb) Fair Winds Rewards - An additional set of rewards that will be unlocked when you purchase a Fair Winds Cruise Pass. As with the regular Cruise Rewards, there are a total of 100 levels, and they can be collected alongside Cruise Rewards at the same Progress level.\n· When the campaign season ends, your Progress Pts will be reset.\n\n- Tips - \n· Play at your own pace\nCruise Missions have a total of 100 Progress levels, and are not meant to be cleared in one session. We recommend that you complete them at your own pace.\n\n· Fair Winds Cruise Pass\nIf. you purchase a Fair Winds Cruise Pass from Akashi's shop, you will automatically earn 1500 Progress Pts and unlock access to valuable rewards. Furthermore, there is an exclusive outfit available only through the Fair Winds rewards, so please plan accordingly.\n\n· Skipping Missions (not recommended)\nYou can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.\nWe do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.\nAny purchased Cruise Mission Vouchers will remain even after the campaign season ends."
-			}
-		}
+	_G.pg.base.gametip.world_sairen_description3 = {
+		tip = "Siren Control: <color=#ff5c5c>$1%</color>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.holiday_villa_locked = {
-		tip = "Unlocks after completing the <color=#92fc63>The Villa Vacation</color> event."
+	_G.pg.base.gametip.desc_defense_reward = {
+		tip = "The rewards you receive are based on how effective your defense was."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.resource_clear_3disland = {
-		tip = "Would you like to delete all Island Planner assets?\nData size: $1.\n(After deleting the Island Planner assets, you will need to redownload them to access them again.)"
+	_G.pg.base.gametip.island_card_no_achieve_tip = {
+		tip = "You have no achievements."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_reload_unlock = {
-		tip = "- Locked -"
+	_G.pg.base.gametip.island_build_revert_tip = {
+		tip = "Would you like to reset to previous furniture arrangement?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.challenge_current_score = {
-		tip = "Points Earned: $1"
+	_G.pg.base.gametip.dorm3d_collect_not_found = {
+		tip = "Obtainable at $1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_text_bisimaiz_5 = {
-		tip = "Current Corrosion Level: <color=#ffc038>4</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_box_cancel = {
-		tip = "Cancel"
+	_G.pg.base.gametip.drom3d_memory_limit_tip = {
+		tip = "Your device's specs are below the recommended level. You may experience crashes while playing."
 	}
 end)()
 
@@ -23387,38 +25235,18 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.meta_pt_point = {
-		tip = "Sync Pt"
+	_G.pg.base.gametip.five_qingdian = {
+		tip = {
+			{
+				info = "- Overview -\nYou will receive <color=#92fc63>1 Minigame Point</color> daily for the duration of the event. You can store up to <color=#92fc63>7 points</color>.\n· Finishing the minigame with a Minigame Point in your possession will subtract 1 point and grant progress toward the <color=#92fc63>Early Summer Invitation.</color>\n· You can check how many points you have on the <color=#92fc63>Summer Plaza</color> screen.\n· The minigame can be played even if you don't have points, but doing so won't grant any progress."
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.friend_resume_title_detail = {
-		tip = "Info"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_puzzle_get3 = {
-		tip = "<color=#A9F548FF>How to get: Normal difficulty 2-3</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_page_1 = {
-		tip = "Mail"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.fragment_shop_title = {
-		tip = "Proto"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.common_no_x = {
-		tip = "You don't have enough <color=#92fc63>$1</color>!"
+	_G.pg.base.gametip.resource_clear_3disland = {
+		tip = "Would you like to delete all Island Planner assets?\nData size: $1.\n(After deleting the Island Planner assets, you will need to redownload them to access them again.)"
 	}
 end)()
 
@@ -23451,12 +25279,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tips_shakebeads = {
-		tip = {
-			{
-				info = "- Luck of the Draw Info\nCompleting special missions during the event period will award you with vouchers which can be used to win prizes from the Luck of the Draw lottery. A new mission will unlock every day up to September 22nd.\n\nUsing the vouchers at the Luck of the Draw event page will earn you a random item from the prize pool. Which prize you win is based on the color of the ball that pops out when you spin the lottery wheel. Each prize is limited in quantity; getting all the prizes associated with a given color of ball will remove that reward from subsequent lottery wheel spins.\nThe following balls and their corresponding amount and prize are as follows:\n\nGold (1 available) - Special General Blueprint - Series 4 (x2)\nPurple (2 available) - High-Efficiency Combat Logistics Plan (x5)\nBlue (3 available) - Super Rare Cat Box (x1)\nGreen (4 available) - T3 Skill Book (x2)\nWhite (4 available) - T4 Sakura Tech Pack (x2)"
-			}
-		}
+	_G.pg.base.gametip.challenge_current_score = {
+		tip = "Points Earned: $1"
 	}
 end)()
 
@@ -23467,14 +25291,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.playerinfo_ship_is_already_flagship = {
-		tip = "She's already your Secretary!"
+	_G.pg.base.gametip.mail_box_cancel = {
+		tip = "Cancel"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.meta_pt_left = {
-		tip = "$1 Days Left"
+	_G.pg.base.gametip.guild_quit_erro = {
+		tip = "Failed to leave guild."
 	}
 end)()
 
@@ -23485,14 +25309,54 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.meta_pt_point = {
+		tip = "Sync Pt"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.sure_exit_resolve_equip = {
 		tip = "If no action is taken, all the gear will be sent to your <color=#5f984d>Depot</color>.\nReturn to the previous screen?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_gift_story_unlock = {
-		tip = "Special Story Unlocked"
+	_G.pg.base.gametip.activity_puzzle_get3 = {
+		tip = "<color=#A9F548FF>How to get: Normal difficulty 2-3</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_page_1 = {
+		tip = "Mail"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.fragment_shop_title = {
+		tip = "Proto"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.common_no_x = {
+		tip = "You don't have enough <color=#92fc63>$1</color>!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_furniture_locked = {
+		tip = "Furniture Unavailable"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tips_shakebeads = {
+		tip = {
+			{
+				info = "- Luck of the Draw Info\nCompleting special missions during the event period will award you with vouchers which can be used to win prizes from the Luck of the Draw lottery. A new mission will unlock every day up to September 22nd.\n\nUsing the vouchers at the Luck of the Draw event page will earn you a random item from the prize pool. Which prize you win is based on the color of the ball that pops out when you spin the lottery wheel. Each prize is limited in quantity; getting all the prizes associated with a given color of ball will remove that reward from subsequent lottery wheel spins.\nThe following balls and their corresponding amount and prize are as follows:\n\nGold (1 available) - Special General Blueprint - Series 4 (x2)\nPurple (2 available) - High-Efficiency Combat Logistics Plan (x5)\nBlue (3 available) - Super Rare Cat Box (x1)\nGreen (4 available) - T3 Skill Book (x2)\nWhite (4 available) - T4 Sakura Tech Pack (x2)"
+			}
+		}
 	}
 end)()
 
@@ -23503,60 +25367,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.skinatlas_search_holder = {
-		tip = "Search by skin / ship name"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.skin_gift_desc = {
-		tip = "You will obtain one of the following random skins (duplicate skins will be converted into a corresponding sum of Gems).\nThe available skins and their rarities are as follows: \n$1"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.storyline_memorysearch1 = {
 		tip = "Story Search"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.roll_room2 = {
-		tip = "1st Floor Hall"
+	_G.pg.base.gametip.meta_pt_left = {
+		tip = "$1 Days Left"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.chapter_tip_change = {
-		tip = "Switch formations: $1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.level_scene_not_enough = {
-		tip = "You don't have enough to use this."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.game_room_help = {
-		tip = {
-			{
-				info = "- About the Arcade -\nIn the Arcade, you'll be able to play certain minigames. Minigames will be gradually added in the future, and some minigames may not be made available for the time being.\nWhen playing minigames, using Credits will allow you to earn Game Tickets at the end of the minigame.\nGame Tickets may be exchanged for certain rerun items at the Prize Shop.\n\nYou may play minigames without spending Credits.\n\n- About Credits -\nCredits can be used to allow you to earn Game Tickets at the end of a minigame.\nWhen starting a minigame, you can choose the number of Credits you'd like to use at the start screen.\nEvery week, you can obtain 10 Credits from Akashi in the Arcade. Additional Credits can be purchased with Coins.\nYou can hold a maximum of 40 Credits.\n\n- About Game Tickets -\nGame Tickets can be used at the Prize Shop to exchange for rewards. The rewards available at the Prize Shop will be continuously updated in the future.\nGame Tickets can be obtained through spending Credits on playing minigames.\nThe number of Game Tickets earned depends on the number of Credits used, as well as your minigame score.\nYou can hold a maximum of 50,000 Game Tickets, and you may earn a maximum of 10,000 Game Tickets per month."
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.number_1 = {
-		tip = "1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_syn_finish = {
-		tip = "Synchronization Complete"
+	_G.pg.base.gametip.battlepass_task_quickfinish1 = {
+		tip = "Automatically completing this Cruise Mission will cost $1 Cruise Mission Voucher(s).\n(You currently have $2.)\nWould you like to continue?"
 	}
 end)()
 
@@ -23579,14 +25403,86 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.skinatlas_search_holder = {
+		tip = "Search by skin / ship name"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.skin_gift_desc = {
+		tip = "You will obtain one of the following random skins (duplicate skins will be converted into a corresponding sum of Gems).\nThe available skins and their rarities are as follows: \n$1"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.holiday_tip_trans_tip = {
 		tip = "Logistics Pier"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.common_no_item = {
-		tip = "You don't have enough <color=#92fc63>[$1]</color>!"
+	_G.pg.base.gametip.roll_room2 = {
+		tip = "1st Floor Hall"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.chapter_tip_change = {
+		tip = "Switch formations: $1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.level_scene_not_enough = {
+		tip = "You don't have enough to use this."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_exchange_erro = {
+		tip = "Exchange failed: <color=#92fc63>$1</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.number_1 = {
+		tip = "1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_syn_finish = {
+		tip = "Synchronization Complete"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.holiday_tip_trans_not = {
+		tip = "Insufficient logistics for reconstruction."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.holiday_tip_trans_get = {
+		tip = "Complete reconstruction missions to gain logistics."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.holiday_tip_finish = {
+		tip = "You have completed <color=#5f984d>all resort reconstruction missions</color>. \nYour remaining reconstruction materials can be exchanged for <color=#5f984d>villa coins</color>."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.holiday_tip_task_now = {
+		tip = "Current Goal"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.holiday_tip_trans = {
+		tip = "Logistics Pier"
 	}
 end)()
 
@@ -23603,8 +25499,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.holiday_tip_trans_not = {
-		tip = "Insufficient logistics for reconstruction."
+	_G.pg.base.gametip.holiday_tip_bath = {
+		tip = "Vacay Thermae"
 	}
 end)()
 
@@ -23615,8 +25511,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.holiday_tip_trans_get = {
-		tip = "Complete reconstruction missions to gain logistics."
+	_G.pg.base.gametip.holiday_tip_minigame2 = {
+		tip = "Salvaging"
 	}
 end)()
 
@@ -23633,8 +25529,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.holiday_tip_finish = {
-		tip = "You have completed <color=#5f984d>all resort reconstruction missions</color>. \nYour remaining reconstruction materials can be exchanged for <color=#5f984d>villa coins</color>."
+	_G.pg.base.gametip.dorm3d_privatechat_screen_floor_2 = {
+		tip = "Loft"
 	}
 end)()
 
@@ -23651,8 +25547,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.holiday_tip_task_now = {
-		tip = "Current Goal"
+	_G.pg.base.gametip.NewMusic_6 = {
+		tip = "Albums"
 	}
 end)()
 
@@ -23675,14 +25571,36 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.holiday_tip_trans = {
-		tip = "Logistics Pier"
+	_G.pg.base.gametip.NewMusic_5 = {
+		tip = "Favorites"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.holiday_tip_bath = {
-		tip = "Vacay Thermae"
+	_G.pg.base.gametip.NewMusic_help = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/music_help",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	}
 end)()
 
@@ -23765,14 +25683,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.holiday_tip_minigame2 = {
-		tip = "Salvaging"
+	_G.pg.base.gametip.NewMusic_2 = {
+		tip = "Searching..."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_privatechat_video_call = {
-		tip = "Video Call"
+	_G.pg.base.gametip.shops_rest_day = {
+		tip = "Store refreshes in :"
 	}
 end)()
 
@@ -23783,14 +25701,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.NewMusic_6 = {
-		tip = "Albums"
+	_G.pg.base.gametip.world_instruction_port_goods_locked = {
+		tip = "Area Capture Progress"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.NewMusic_5 = {
-		tip = "Favorites"
+	_G.pg.base.gametip.handbook_research_final_task_desc_locked = {
+		tip = "Clear all $1 development missions to \nunlock the final missions for this phase."
 	}
 end)()
 
@@ -23807,28 +25725,22 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.NewMusic_help = {
+	_G.pg.base.gametip.handbook_gametip = {
 		tip = {
 			{
-				icon = {
-					atlas = "helpbg/music_help",
-					path = ""
-				}
+				info = "- Commander Handbook Overview -"
 			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
+			{
+				info = "The Commander Handbook contains 3 types of missions: rookie missions, development missions, and mechanic tutorials."
 			},
-			windowPos = {
-				y = -70
+			{
+				info = "<b>1. Rookie missions:</b>\n· This is a series of missions aimed at Commanders new to the game.\n· There are nine mission phases in total, with each phase containing a handful of missions.\n· Completing six missions within a given phase unlocks the missions in the next phase. Completing all the missions across all phases gives you completion rewards.\n· When you complete all missions across all nine phases, you'll receive a Rookie Mission Invitation. This item can be used to redeem one of two UR-rarity shipgirls: <color=#92fc63>Shinano</color> or <color=#92fc63>New Jersey</color>."
 			},
-			helpSize = {
-				x = 1176,
-				y = 1024
+			{
+				info = "<b>2. Development missions:</b>\n· These missions are unlocked at Commander Lvl. 30. Completing them will give you items that can be used in the Development Dock, such as Data Packs and Blueprints.\n· You can choose a shipgirl from a particular development series to advance these missions with.\n· NOTE: Once you unlock the development missions, you need to clear all the missions of a particular series before you can switch to missions from other series."
+			},
+			{
+				info = "<b>3. Mechanic tutorials:</b>\n· This is a compilation of tutorials and tips to help Commanders just starting out.\n· Each mechanic group contains its own tutorials and associated missions. Completing all missions will give you Wisdom Cubes."
 			}
 		}
 	}
@@ -23859,8 +25771,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.NewMusic_2 = {
-		tip = "Searching..."
+	_G.pg.base.gametip.handbook_finished = {
+		tip = "Completed"
 	}
 end)()
 
@@ -23877,8 +25789,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.last_times_sign = {
-		tip = "Unlocks Remaining: $1"
+	_G.pg.base.gametip.handbook_claim = {
+		tip = "Collect"
 	}
 end)()
 
@@ -23889,8 +25801,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.friend_fetchFriendMsg_error = {
-		tip = "Failed to retrieve message: "
+	_G.pg.base.gametip.handbook_process = {
+		tip = "In Progress"
 	}
 end)()
 
@@ -23901,42 +25813,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.handbook_gametip = {
-		tip = {
-			{
-				info = "- Commander Handbook Overview -"
-			},
-			{
-				info = "The Commander Handbook contains 3 types of missions: rookie missions, development missions, and mechanic tutorials."
-			},
-			{
-				info = "<b>1. Rookie missions:</b>\n· This is a series of missions aimed at Commanders new to the game.\n· There are nine mission phases in total, with each phase containing a handful of missions.\n· Completing six missions within a given phase unlocks the missions in the next phase. Completing all the missions across all phases gives you completion rewards.\n· When you complete all missions across all nine phases, you'll receive a Rookie Mission Invitation. This item can be used to redeem one of two UR-rarity shipgirls: <color=#92fc63>Shinano</color> or <color=#92fc63>New Jersey</color>."
-			},
-			{
-				info = "<b>2. Development missions:</b>\n· These missions are unlocked at Commander Lvl. 30. Completing them will give you items that can be used in the Development Dock, such as Data Packs and Blueprints.\n· You can choose a shipgirl from a particular development series to advance these missions with.\n· NOTE: Once you unlock the development missions, you need to clear all the missions of a particular series before you can switch to missions from other series."
-			},
-			{
-				info = "<b>3. Mechanic tutorials:</b>\n· This is a compilation of tutorials and tips to help Commanders just starting out.\n· Each mechanic group contains its own tutorials and associated missions. Completing all missions will give you Wisdom Cubes."
-			}
-		}
+	_G.pg.base.gametip.levelScene_chapter_count_tip = {
+		tip = "Attempts Remaining:  "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.handbook_finished = {
-		tip = "Completed"
+	_G.pg.base.gametip.levelScene_new_chapter_coming = {
+		tip = "New Chapter(s): "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.handbook_claim = {
-		tip = "Collect"
+	_G.pg.base.gametip.blueprint_simulation_confirm_19906 = {
+		tip = "<size=28>\nWould you like to start a Battle Simulation?\n(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)\nEquipment: <color=#92fc63>\nPrototype Triple 406mm/45 MK7 Main Gun Mount\nTwin 127mm Mk 12 Dual-Purpose Gun Mount\nQuadruple 40mm Bofors AA Gun Mount\n</color></size>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.handbook_process = {
-		tip = "In Progress"
+	_G.pg.base.gametip.handbook_new_player_task_locked_by_section = {
+		tip = "Complete all missions in the previous section to unlock."
 	}
 end)()
 
@@ -23947,8 +25843,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.intimacy_desc_2_detail = {
-		tip = "$1 wants to know you better.\n<color=#fad545><size=18>(No buff)</size></color>"
+	_G.pg.base.gametip.island_dress_send_tip_success = {
+		tip = "$1 gifted to $1"
 	}
 end)()
 
@@ -24029,8 +25925,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.friend_send_msg_null_tip = {
-		tip = "Unable to send message."
+	_G.pg.base.gametip.island_dress_send_tip = {
+		tip = "Do you want to gift $1 to $1"
 	}
 end)()
 
@@ -24047,8 +25943,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_left_supply_day = {
-		tip = "$1 day(s) left"
+	_G.pg.base.gametip.island_dress_save2 = {
+		tip = "Saved. Unowned outfits have been removed."
 	}
 end)()
 
@@ -24083,14 +25979,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_dress_send_tip_success = {
-		tip = "$1 gifted to $1"
+	_G.pg.base.gametip.chapter_no = {
+		tip = "Chapter <color=#92fc63>$1</color>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_dress_send_tip = {
-		tip = "Do you want to gift $1 to $1"
+	_G.pg.base.gametip.island_order_ship_finish_cnt = {
+		tip = "Transports $1/$2"
 	}
 end)()
 
@@ -24101,14 +25997,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_dress_mutually_exclusive1 = {
-		tip = "$1 cannot be worn with current outfit."
+	_G.pg.base.gametip.island_dress_exit = {
+		tip = "Do you want to save the outfit changes?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_dress_save2 = {
-		tip = "Saved. Unowned outfits have been removed."
+	_G.pg.base.gametip.tolovegame_buff_desc_2 = {
+		tip = "Increases your final score multiplier by 1.2."
 	}
 end)()
 
@@ -24125,12 +26021,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.senran_pt_help = {
-		tip = {
-			{
-				info = "This event is available between <color=#92fc63>November 23rd and December 6th.</color>\n\n1. Participate in The Ninja Scrolls, complete tasks on the Mission Board, and finish time-limited missions to receive <color=#92fc63>Ninja Teachings</color>.\n2. Spend your Ninja Teachings in the Ninjutsu Dojo and increase the attribute level to 8 to receive rewards, including <color=#92fc63>Homura</color>, an SR Submarine.\n3. Homura is claimable until <color=#92fc63>midnight on December 13th.</color>"
-			}
-		}
+	_G.pg.base.gametip.cruise_title_2512 = {
+		tip = "Cruise Missions - S26"
 	}
 end)()
 
@@ -24147,8 +26039,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100100 = {
-		tip = "Device ID is banned"
+	_G.pg.base.gametip.new_airi_error_code_300100 = {
+		tip = "System sharing failed"
 	}
 end)()
 
@@ -24159,14 +26051,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_no_exist = {
-		tip = "Guild does not exist."
+	_G.pg.base.gametip.dorm3d_privatechat_new_topics = {
+		tip = "New Post from \n$1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.child_unlock_new_secretary = {
-		tip = "You've unlocked a new clothing module. You can change clothing settings from the special secretary screen."
+	_G.pg.base.gametip.elite_condition_antisub = {
+		tip = "Total ASW"
 	}
 end)()
 
@@ -24177,8 +26069,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_dress_exit = {
-		tip = "Do you want to save the outfit changes?"
+	_G.pg.base.gametip.grapihcs3d_setting_common_use = {
+		tip = "Use"
 	}
 end)()
 
@@ -24219,8 +26111,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_is_loading = {
-		tip = "Loading furniture... "
+	_G.pg.base.gametip.grapihcs3d_setting_card_tag = {
+		tip = "Tag Settings"
 	}
 end)()
 
@@ -24243,8 +26135,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100310 = {
-		tip = "Behavior Verification failed, please try again"
+	_G.pg.base.gametip.grapihcs3d_setting_general = {
+		tip = "Island\nSettings"
 	}
 end)()
 
@@ -24271,14 +26163,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.index_rare4 = {
-		tip = "Elite"
+	_G.pg.base.gametip.pt_ship_now = {
+		tip = "Enemies Defeated: "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_common_use = {
-		tip = "Use"
+	_G.pg.base.gametip.grapihcs3d_setting_3Dquality = {
+		tip = "Graphics"
 	}
 end)()
 
@@ -24289,8 +26181,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_card_socialdata = {
-		tip = "Data Display"
+	_G.pg.base.gametip.grapihcs3d_setting_enable_dof = {
+		tip = "Depth of field"
 	}
 end)()
 
@@ -24301,8 +26193,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_general = {
-		tip = "Island\nSettings"
+	_G.pg.base.gametip.grapihcs3d_setting_enable_post_process = {
+		tip = "Post-processing"
 	}
 end)()
 
@@ -24319,8 +26211,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_3Dquality = {
-		tip = "Graphics"
+	_G.pg.base.gametip.grapihcs3d_setting_enable_additional_lights = {
+		tip = "Multi-lighting"
 	}
 end)()
 
@@ -24337,8 +26229,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_enable_dof = {
-		tip = "Depth of field"
+	_G.pg.base.gametip.word_shipState_rest = {
+		tip = "She's currently resting..."
 	}
 end)()
 
@@ -24355,8 +26247,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.islandnode_tips7 = {
-		tip = "$1 cared for the flowers while you were gone!"
+	_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality_optionname1 = {
+		tip = "Medium"
 	}
 end)()
 
@@ -24379,20 +26271,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_character_quality = {
-		tip = "Character model quality"
+	_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname3 = {
+		tip = "Per frame"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_enable_additional_lights = {
-		tip = "Multi-lighting"
+	_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname1 = {
+		tip = "Medium"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.child_mind_time_title = {
-		tip = "Time Left:"
+	_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname0 = {
+		tip = "Low"
 	}
 end)()
 
@@ -24403,8 +26295,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality = {
-		tip = "Environmental details"
+	_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname2 = {
+		tip = "Medium"
 	}
 end)()
 
@@ -24449,8 +26341,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname3 = {
-		tip = "Per frame"
+	_G.pg.base.gametip.mail_boxtitle_information = {
+		tip = "Info"
 	}
 end)()
 
@@ -24461,8 +26353,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname1 = {
-		tip = "Medium"
+	_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname0 = {
+		tip = "Off"
 	}
 end)()
 
@@ -24479,8 +26371,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname0 = {
-		tip = "Low"
+	_G.pg.base.gametip.grapihcs3d_setting_shadow_quality = {
+		tip = "Shadow quality"
 	}
 end)()
 
@@ -24497,8 +26389,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode = {
-		tip = "Shadow refresh frequency"
+	_G.pg.base.gametip.grapihcs3d_setting_shader_quality_optionname1 = {
+		tip = "High"
 	}
 end)()
 
@@ -24515,14 +26407,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname2 = {
-		tip = "Medium"
+	_G.pg.base.gametip.tec_target_catchup_select_tip = {
+		tip = "Would you like to prioritize $1 Research?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_instruction_all_1 = {
-		tip = "This feature has not been released yet. "
+	_G.pg.base.gametip.grapihcs3d_setting_rendering_quality_optionname1 = {
+		tip = "High"
 	}
 end)()
 
@@ -24543,8 +26435,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname0 = {
-		tip = "Off"
+	_G.pg.base.gametip.grapihcs3d_setting_rendering_quality_optionname0 = {
+		tip = "Low"
 	}
 end)()
 
@@ -24561,8 +26453,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_shader_quality_optionname1 = {
-		tip = "High"
+	_G.pg.base.gametip.grapihcs3d_setting_resolution_optionname2 = {
+		tip = "2K"
 	}
 end)()
 
@@ -24579,8 +26471,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100300 = {
-		tip = "Invalid email address format"
+	_G.pg.base.gametip.grapihcs3d_setting_resolution_optionname0 = {
+		tip = "720P"
 	}
 end)()
 
@@ -24603,8 +26495,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_rendering_quality_optionname0 = {
-		tip = "Low"
+	_G.pg.base.gametip.island_name_exist_special_word = {
+		tip = "Island name contains invalid characters. Please re-enter."
 	}
 end)()
 
@@ -24615,8 +26507,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_rendering_quality = {
-		tip = "Rendering quality"
+	_G.pg.base.gametip.island_name_too_long_or_too_short = {
+		tip = "Island name must be 1-18 characters long. Please re-enter."
 	}
 end)()
 
@@ -24627,14 +26519,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_resolution_optionname0 = {
-		tip = "720P"
+	_G.pg.base.gametip.dorm3d_cafe_minigame5 = {
+		tip = "Exit"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_enable_gup_driver = {
-		tip = "Enable GPGPU"
+	_G.pg.base.gametip.dorm3d_cafe_minigame3 = {
+		tip = "Finish Shoot"
 	}
 end)()
 
@@ -24657,14 +26549,33 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_name_exist_special_word = {
-		tip = "Island name contains invalid characters. Please re-enter."
+	_G.pg.base.gametip.dorm3d_cafe_minigame1 = {
+		tip = "$1's Impromptu Dance"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_name_too_long_or_too_short = {
-		tip = "Island name must be 1-18 characters long. Please re-enter."
+	_G.pg.base.gametip.utaware_warmup_notice = {
+		tip = {
+			{
+				info = "活动说明："
+			},
+			{
+				info = "    1.活动期间，玩家可获得临时npc角色芙米露露，临时角色不\n    可誓约、不可退役、不可被选为强化突破材料；"
+			},
+			{
+				info = "    2.活动期间，击破普通难度主线第三章及之后章节旗舰&传颂\n    之物活动地图旗舰，可增加临时npc角色芙米露露的友好度；"
+			},
+			{
+				info = "    3.上阵芙米露露参与战斗，且未被击沉，可增加双倍友好度；"
+			},
+			{
+				info = "    4.在活动结束前累计获得1500点好友度，可领取奖励并将临时\n    角色【芙米露露】转化为永久角色；"
+			},
+			{
+				info = "    5.在活动结束后，未完成转化的临时角色【芙米露露】将离开\n    港区，不返还已经消耗的强化、突破等培养材料；"
+			}
+		}
 	}
 end)()
 
@@ -24687,8 +26598,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.challenge_normal_tip = {
-		tip = "Clear the Challenge Stages and aim for a personal high score!"
+	_G.pg.base.gametip.dorm3d_shop_furniture = {
+		tip = "Furniture"
 	}
 end)()
 
@@ -24699,20 +26610,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_cafe_minigame5 = {
-		tip = "Exit"
+	_G.pg.base.gametip.dorm3d_shop_gift1 = {
+		tip = "Gifts"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_cafe_minigame3 = {
-		tip = "Finish Shoot"
+	_G.pg.base.gametip.dorm3d_privatechat_nonew_messages = {
+		tip = "New Messages"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_decorate = {
-		tip = "Decorations"
+	_G.pg.base.gametip.ssssmedal_desc6 = {
+		tip = "How many times are you going to lose your memory..."
 	}
 end)()
 
@@ -24735,14 +26646,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_cafe_minigame1 = {
-		tip = "$1's Impromptu Dance"
+	_G.pg.base.gametip.dorm3d_shop_sold_out = {
+		tip = "Sold Out"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.apply_permission_camera_tip1 = {
-		tip = "To use AR recording game feature, need to grant permission to access recording function."
+	_G.pg.base.gametip.multiple_sorties_stop_tip_end = {
+		tip = "<color=#92fc63>Auto-Repeat</color> has been stopped."
 	}
 end)()
 
@@ -24753,20 +26664,24 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_shop_furniture = {
-		tip = "Furniture"
+	_G.pg.base.gametip.SuperBulin2_lock_tip = {
+		tip = "Collect all the clues to unlock a secret stage!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_shop_gift1 = {
-		tip = "Gifts"
+	_G.pg.base.gametip.SuperBulin2_help = {
+		tip = {
+			{
+				info = "How to Play:\n1. During the event, navigate to certain menus or stages to search for mysterious clues.\n2. If you're having difficulty finding the clue, tap the Clue icon to unlock the next phase of the clue search.\nNote: Clues can only be unlocked this way once every 10 minutes.\n3. Once all the clues have been collected, you will be able to challenge a secret stage. Complete it to obtain a special reward."
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_privatechat_ins = {
-		tip = "JUUSTAGRAM"
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_day6 = {
+		tip = "Sat"
 	}
 end)()
 
@@ -24777,8 +26692,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_shop_sold_out = {
-		tip = "Sold Out"
+	_G.pg.base.gametip.index_propose_skin = {
+		tip = "Pledge Outfit "
 	}
 end)()
 
@@ -24807,18 +26722,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.SuperBulin2_lock_tip = {
-		tip = "Collect all the clues to unlock a secret stage!"
+	_G.pg.base.gametip.world_stamina_not_enough = {
+		tip = "Insufficient AP."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.SuperBulin2_help = {
-		tip = {
-			{
-				info = "How to Play:\n1. During the event, navigate to certain menus or stages to search for mysterious clues.\n2. If you're having difficulty finding the clue, tap the Clue icon to unlock the next phase of the clue search.\nNote: Clues can only be unlocked this way once every 10 minutes.\n3. Once all the clues have been collected, you will be able to challenge a secret stage. Complete it to obtain a special reward."
-			}
-		}
+	_G.pg.base.gametip.SuperBulin2_tip1 = {
+		tip = "Look for the code in the Depot, bulin!"
 	}
 end)()
 
@@ -24829,14 +26740,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior6 = {
-		tip = "Exercise"
+	_G.pg.base.gametip.clue_buff_ticket_tips = {
+		tip = "Tap the check box to use Tenko Group Badge to increase the amount of PT received."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.bulin_tip_other3 = {
-		tip = "Quit the stage? You won't get any rewards."
+	_G.pg.base.gametip.ship_formationUI_fleetName_12 = {
+		tip = "T4 Research Center (Night)"
 	}
 end)()
 
@@ -24847,14 +26758,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.event_recommend_level1 = {
-		tip = "No suitable shipgirls found. Would you like to automatically add a locked Lv. 1 shipgirl?"
+	_G.pg.base.gametip.ship_formationUI_fleetName_11 = {
+		tip = "T3 Logistics Center (Night)"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.hide_chat_warning = {
-		tip = "Turning off chat to hide messages."
+	_G.pg.base.gametip.ship_formationUI_fleetName_10 = {
+		tip = "T2 Recuperation Center (Night)"
 	}
 end)()
 
@@ -24901,20 +26812,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.SuperBulin2_tip1 = {
-		tip = "Look for the code in the Depot, bulin!"
+	_G.pg.base.gametip.ship_formationUI_fleetName_9 = {
+		tip = "T1 Inpatient Building (Night)"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.clue_buff_ticket_tips = {
-		tip = "Tap the check box to use Tenko Group Badge to increase the amount of PT received."
+	_G.pg.base.gametip.ship_formationUI_fleetName_8 = {
+		tip = "T4 Research Center (Dusk)"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_formationUI_fleetName_12 = {
-		tip = "T4 Research Center (Night)"
+	_G.pg.base.gametip.ship_formationUI_fleetName_6 = {
+		tip = "T2 Recuperation Center (Dusk)"
 	}
 end)()
 
@@ -24931,8 +26842,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_formationUI_fleetName_10 = {
-		tip = "T2 Recuperation Center (Night)"
+	_G.pg.base.gametip.ship_formationUI_fleetName_4 = {
+		tip = "T4 Research Center (Day)"
 	}
 end)()
 
@@ -24943,14 +26854,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_formationUI_fleetName_9 = {
-		tip = "T1 Inpatient Building (Night)"
+	_G.pg.base.gametip.ship_formationUI_fleetName_3 = {
+		tip = "T3 Logistics Center (Day)"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_formationUI_fleetName_8 = {
-		tip = "T4 Research Center (Dusk)"
+	_G.pg.base.gametip.ship_vo_fighting = {
+		tip = "Selected character is already attacking."
 	}
 end)()
 
@@ -24961,8 +26872,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip["2023spring_minigame_bless_speed"] = {
-		tip = "Gotta Go Fast|Increases your base speed."
+	_G.pg.base.gametip.shopStreet_upgrade_done = {
+		tip = "Shop leveled up!"
 	}
 end)()
 
@@ -24973,8 +26884,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_formationUI_fleetName_4 = {
-		tip = "T4 Research Center (Day)"
+	_G.pg.base.gametip.word_star = {
+		tip = "Stars"
 	}
 end)()
 
@@ -24985,8 +26896,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_formationUI_fleetName_3 = {
-		tip = "T3 Logistics Center (Day)"
+	_G.pg.base.gametip.beach_guard_e5_desc = {
+		tip = "A well-rounded Siren. Don't underestimate her."
 	}
 end)()
 
@@ -25003,8 +26914,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.gold = {
-		tip = "Funds"
+	_G.pg.base.gametip.firework_2025_level = {
+		tip = "Level $1"
 	}
 end)()
 
@@ -25021,8 +26932,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tec_target_catchup_none_1 = {
-		tip = "PR1 / Not Selected"
+	_G.pg.base.gametip.batch_destroy = {
+		tip = "Multi Recycle"
 	}
 end)()
 
@@ -25033,8 +26944,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_dockyardMediator_destroy = {
-		tip = "Ship retired."
+	_G.pg.base.gametip.clue_pt_tip = {
+		tip = "Total: x"
 	}
 end)()
 
@@ -25045,8 +26956,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.beach_guard_e7_desc = {
-		tip = "Periodically negates the effects of all smokescreens and speed debuffs around her."
+	_G.pg.base.gametip.clue_unselect_tip = {
+		tip = "Go to your notes and select an investigation target"
 	}
 end)()
 
@@ -25063,8 +26974,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.skin_discount_desc = {
-		tip = "Spend 1 $1 to purchase $3 at a discounted price of $2?"
+	_G.pg.base.gametip.clue_lock_tip2 = {
+		tip = "Unlock $1"
 	}
 end)()
 
@@ -25075,8 +26986,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.friend_search_page_tip = {
-		tip = "Display up to <color=#92fc63>$1</color>  players"
+	_G.pg.base.gametip.clue_task_goto = {
+		tip = "Start Investigation"
 	}
 end)()
 
@@ -25087,8 +26998,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.clue_pt_tip = {
-		tip = "Total: x"
+	_G.pg.base.gametip.clue_title_4 = {
+		tip = "Story"
 	}
 end)()
 
@@ -25099,8 +27010,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.clue_close_tip = {
-		tip = "Tap the screen to return"
+	_G.pg.base.gametip.clue_title_3 = {
+		tip = "Important Info"
 	}
 end)()
 
@@ -25127,20 +27038,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.clue_unselect_tip = {
-		tip = "Go to your notes and select an investigation target"
+	_G.pg.base.gametip.dorm3d_volleyball_button = {
+		tip = "Beach Volleyball"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.clue_lock_tip2 = {
-		tip = "Unlock $1"
+	_G.pg.base.gametip.child_msg_title_tip = {
+		tip = "Tips"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.clue_task_goto = {
-		tip = "Start Investigation"
+	_G.pg.base.gametip.SkinDiscount_Owned_Tips = {
+		tip = "You already own at least one skin ($1/$2). Purchasing this pack will give you a coupon that can be used when purchasing an unowned skin.\nIf you already own all the eligible skins, you will receive 680 Gems instead and will not receive a coupon.\nDo you want to buy this pack?"
 	}
 end)()
 
@@ -25157,14 +27068,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.clue_title_4 = {
-		tip = "Story"
+	_G.pg.base.gametip.tolovegame_puzzle_task_need = {
+		tip = "Materials Needed:"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.clue_title_3 = {
-		tip = "Important Info"
+	_G.pg.base.gametip.island_trade_trend_label = {
+		tip = "Price Changes"
 	}
 end)()
 
@@ -25193,14 +27104,18 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_gift_maximum = {
-		tip = "You have reached the limit."
+	_G.pg.base.gametip.SkinDiscount_Hint = {
+		tip = "You have an unclaimed coupon. Would you like to go to the claim coupon page?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_boss_progress_tip_desc = {
-		tip = "When toggled, this function determines how often you will receive pop-up prompts when collecting Coordinates during Operation Siren.\nOFF: Never\nEvery 100: Reminders will appear at 100 and 200 Coordinates\nEvery 200: Reminders will appear only at 200 Coordinates"
+	_G.pg.base.gametip.SkinDiscountHelp_BlackFriday = {
+		tip = {
+			{
+				info = "1. During the campaign, if you purchase a Black Friday rerun skin in this campaign <color=#92fc63>without using a coupon</color> or purchase any one of the Black Friday campaign's lucky bags, you may claim a <color=#92fc63>Skin Coupon (Black Friday 2025)</color> from the campaign page.\n2. The <color=#92fc63>Skin Coupon (Black Friday 2025)</color> gives you a discount of 300 Gems when purchasing a Black Friday rerun skin. This discount is not applicable to item packs.\n3. If you have not used this coupon before the campaign ends (at the server reset on December 3rd, 2025), it will be removed automatically."
+			}
+		}
 	}
 end)()
 
@@ -25217,8 +27132,12 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.SkinDiscount_Owned_Tips = {
-		tip = "You already own at least one skin ($1/$2). Purchasing this pack will give you a coupon that can be used when purchasing an unowned skin.\nIf you already own all the eligible skins, you will receive 680 Gems instead and will not receive a coupon.\nDo you want to buy this pack?"
+	_G.pg.base.gametip.SkinDiscountHelp_School = {
+		tip = {
+			{
+				info = "1. During the campaign, if you purchase a School Girl series skin <color=#92fc63>without using a coupon</color> or purchase the School Return Lucky Box, you may claim a <color=#92fc63>Skin Coupon (School)</color> from the campaign page.\n2. The <color=#92fc63>Skin Coupon (School)</color> gives you a discount of 300 Gems when purchasing a School series skin. This discount is not applicable to item packs.\n3. If you have not used this coupon before the campaign ends (at the server reset on April 10th, 2025), it will be removed automatically."
+			}
+		}
 	}
 end)()
 
@@ -25229,14 +27148,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100170 = {
-		tip = "Invalid birthday format"
+	_G.pg.base.gametip.rps_game_take_card = {
+		tip = "Confirm Card"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.random_ship_custom_mode_add_tip1 = {
-		tip = "Select a shipgirl to add her to your secretary rotation list."
+	_G.pg.base.gametip["2025Valentine_minigame_c"] = {
+		tip = "Uhh... Is this flavour really passable? This isn't very passable for a Royal Maid... Let me give it another shot, Commander!"
 	}
 end)()
 
@@ -25253,24 +27172,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.SkinDiscount_Hint = {
-		tip = "You have an unclaimed coupon. Would you like to go to the claim coupon page?"
+	_G.pg.base.gametip["2025Valentine_minigame_b"] = {
+		tip = "It's finally done! It's a little different from how I pictured it, but it shouldn't be that bad since you helped me so much, right? Heehee!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.SkinDiscountHelp_School = {
-		tip = {
-			{
-				info = "1. During the campaign, if you purchase a School Girl series skin <color=#92fc63>without using a coupon</color> or purchase the School Return Lucky Box, you may claim a <color=#92fc63>Skin Coupon (School)</color> from the campaign page.\n2. The <color=#92fc63>Skin Coupon (School)</color> gives you a discount of 300 Gems when purchasing a School series skin. This discount is not applicable to item packs.\n3. If you have not used this coupon before the campaign ends (at the server reset on April 10th, 2025), it will be removed automatically."
-			}
-		}
+	_G.pg.base.gametip.word_soundfiles_checkend_title = {
+		tip = "Language pack verification complete."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.rps_game_take_card = {
-		tip = "Confirm Card"
+	_G.pg.base.gametip.child2_shop_point_sure = {
+		tip = "With this purchase, the action points that surpass the max limit will be nulled. Continue?"
 	}
 end)()
 
@@ -25281,8 +27196,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip["2025Valentine_minigame_c"] = {
-		tip = "Uhh... Is this flavour really passable? This isn't very passable for a Royal Maid... Let me give it another shot, Commander!"
+	_G.pg.base.gametip["card_battle_card details_hand"] = {
+		tip = "Selected Command"
 	}
 end)()
 
@@ -25299,14 +27214,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip["2025Valentine_minigame_b"] = {
-		tip = "It's finally done! It's a little different from how I pictured it, but it shouldn't be that bad since you helped me so much, right? Heehee!"
+	_G.pg.base.gametip.child2_mood_desc3 = {
+		tip = "Current Mood: Normal; No effect on rewards"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ranking_word_3 = {
-		tip = "Promises Made"
+	_G.pg.base.gametip.world_boss_tip = {
+		tip = "<color=#7e7e7f>$1</color> has contributed <color=#8299bc>$2</color> points towards the world boss progress gauge! "
 	}
 end)()
 
@@ -25323,38 +27238,38 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.login_newPlayerScene_name_tooLong = {
-		tip = "Name is too long."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_shop_point_sure = {
-		tip = "With this purchase, the action points that surpass the max limit will be nulled. Continue?"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_automode_setting_1_1 = {
-		tip = "4 and under"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_mood_desc3 = {
-		tip = "Current Mood: Normal; No effect on rewards"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.child2_mood_desc2 = {
 		tip = "Current Mood: Sad; <color=#ff6767>Rewards gained -20%</color>"
 	}
 end)()
 
 (function()
+	_G.pg.base.gametip.child2_mood_desc1 = {
+		tip = "Current Mood: Depressed; <color=#ee4a4a>Rewards gained -40%</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.secretary_special_character_buy_unlock = {
+		tip = "You do not have this character. You can unlock her through playing <color=#39bfff>Project Identity</color>."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_target_finish_tip = {
+		tip = "Current growth goals achieved."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.firework_2025_tip2 = {
+		tip = "Morale Recovery Speed:"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.vote_lable_title = {
-		tip = "<size=30>Popularity Poll is open between</size> <size=28>12/7/2023 and 2/5/2024 12 AM</size>"
+		tip = "<size=30>Popularity Poll is open between</size> <size=28>12/4/2025 and 2/7/2026 12 AM</size>"
 	}
 end)()
 
@@ -25365,8 +27280,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child2_mood_desc1 = {
-		tip = "Current Mood: Depressed; <color=#ee4a4a>Rewards gained -40%</color>"
+	_G.pg.base.gametip.commander_get_commander_coptyright = {
+		tip = "Meowfficer Boarding"
 	}
 end)()
 
@@ -25383,8 +27298,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.set_birth_success = {
-		tip = "Birthday set successfully!"
+	_G.pg.base.gametip.tip_exchange_ticket = {
+		tip = "Would you like to exchange a Challenge Ticket for 1 additional Reward Sortie on the $1 stage?"
 	}
 end)()
 
@@ -25423,8 +27338,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.secretary_special_character_buy_unlock = {
-		tip = "You do not have this character. You can unlock her through playing <color=#39bfff>Project Identity</color>."
+	_G.pg.base.gametip.firework_2025_got = {
+		tip = "Claimed"
 	}
 end)()
 
@@ -25435,8 +27350,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child_target_title2 = {
-		tip = "Growth Goal"
+	_G.pg.base.gametip.firework_2025_get = {
+		tip = "Claimable"
 	}
 end)()
 
@@ -25459,8 +27374,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.firework_2025_tip2 = {
-		tip = "Morale Recovery Speed:"
+	_G.pg.base.gametip.firework_2025_pt = {
+		tip = "Festivity Pt"
 	}
 end)()
 
@@ -25477,14 +27392,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.firework_2025_got = {
-		tip = "Claimed"
+	_G.pg.base.gametip.child2_replay_continue = {
+		tip = "Continue"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.firework_2025_get = {
-		tip = "Claimable"
+	_G.pg.base.gametip.child2_replay_clear = {
+		tip = "Return"
 	}
 end)()
 
@@ -25501,8 +27416,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.firework_2025_pt = {
-		tip = "Festivity Pt"
+	_G.pg.base.gametip.search_equipment_appearance = {
+		tip = "Search Gear Skin by Name"
 	}
 end)()
 
@@ -25513,8 +27428,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.firework_2025_level = {
-		tip = "Level $1"
+	_G.pg.base.gametip.hotspring_shop_exchange = {
+		tip = "Do you want to spend $1  <icon name=Props/wenquanjuan w=0.7 h=0.7/>  to exchange for $2 $3(s)?"
 	}
 end)()
 
@@ -25547,14 +27462,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child2_replay_clear = {
-		tip = "Return"
+	_G.pg.base.gametip.dorm3d_room_floor_2 = {
+		tip = "Loft"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.child2_replay_tip = {
-		tip = "A game interruption was detected. Do you want to return to prior to the interruption? (Press the Return button to go back to the previous screen.)"
+	_G.pg.base.gametip.dorm3d_shop_gift_owned = {
+		tip = "You cannot purchase any more of this."
 	}
 end)()
 
@@ -25565,8 +27480,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip["2023spring_minigame_nenjuu_skill7"] = {
-		tip = "Black Hole|A black hole spawns in a random location every 20s. Being near it reduces Fu Shun's speed, and entering it stuns her for 1s."
+	_G.pg.base.gametip.dorm3d_skin_equip = {
+		tip = "Apply $2 to $1?"
 	}
 end)()
 
@@ -25601,8 +27516,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.please_input_1_99 = {
-		tip = "Enter a number from 1 to 99"
+	_G.pg.base.gametip.dorm3d_skin_already = {
+		tip = "Current"
 	}
 end)()
 
@@ -25617,8 +27532,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_room_floor_2 = {
-		tip = "Loft"
+	_G.pg.base.gametip.dorm3d_skin_confirm = {
+		tip = "Confirm Change"
 	}
 end)()
 
@@ -25629,44 +27544,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_day6 = {
-		tip = "Sat"
+	_G.pg.base.gametip.exercise_count_recover_tip = {
+		tip = "(Recover in <color=#92fc63>$1</color>)"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.island_agora_furniure_preview = {
 		tip = "Preview"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_skin_already = {
-		tip = "Current"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_skin_confirm = {
-		tip = "Confirm Change"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_battle_pause2 = {
-		tip = "Operation Siren "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.techpackage_item_use = {
-		tip = "Do you want to spend your PR Voucher to immediately unlock $1? \nShe will be added to your Dock at Development Level 1."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.holiday_tip_minigame1 = {
-		tip = "Shipgirl Game"
 	}
 end)()
 
@@ -25689,14 +27574,44 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_privatechat_screen_floor_2 = {
-		tip = "Loft"
+	_G.pg.base.gametip.techpackage_item_use = {
+		tip = "Do you want to spend your PR Voucher to immediately unlock $1? \nShe will be added to your Dock at Development Level 1."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_buildShipImmediately_error_noItem = {
-		tip = "You don't have any Quick Finishers."
+	_G.pg.base.gametip.holiday_tip_minigame1 = {
+		tip = "Shipgirl Game"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_guild_res = {
+		tip = "舰队资源"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.Valentine_minigame_label2 = {
+		tip = "Chocolates Needed:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.technology_uplevel_error_studying = {
+		tip = "You are already improving the $1's Faction Tech.\nYou can only improve one Faction Tech at a time. "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.create_player_success = {
+		tip = "Character created."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_privatechat_room_beach = {
+		tip = "The seaside, swimsuits, beach volleyball... Enjoy the beach sunshine!"
 	}
 end)()
 
@@ -25788,8 +27703,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_toggle_off = {
-		tip = "Off"
+	_G.pg.base.gametip.dorm3d_privatechat_nonew_topics = {
+		tip = "Nothing New"
 	}
 end)()
 
@@ -25810,14 +27725,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.meta_exp_per_day = {
-		tip = "Daily EXP "
+	_G.pg.base.gametip.dorm3d_privatechat_ins = {
+		tip = "JUUSTAGRAM"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_privatechat_room_beach = {
-		tip = "The seaside, swimsuits, beach volleyball... Enjoy the beach sunshine!"
+	_G.pg.base.gametip.dorm3d_privatechat_topics = {
+		tip = "JUUSTAGRAM"
 	}
 end)()
 
@@ -25828,14 +27743,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_privatechat_nonew_topics = {
-		tip = "Nothing New"
+	_G.pg.base.gametip.dorm3d_privatechat_new_calls = {
+		tip = "New Calls"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_privatechat_new_topics = {
-		tip = "New Post from \n$1"
+	_G.pg.base.gametip.dorm3d_privatechat_phone = {
+		tip = "Voice Call"
 	}
 end)()
 
@@ -25936,8 +27851,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_privatechat_topics = {
-		tip = "JUUSTAGRAM"
+	_G.pg.base.gametip.battle_preCombatLayer_save_success = {
+		tip = "Formation saved."
 	}
 end)()
 
@@ -26014,14 +27929,35 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_privatechat_phone = {
-		tip = "Voice Call"
+	_G.pg.base.gametip.dorm3d_privatechat_no_visit_time = {
+		tip = "Locked"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_privatechat_nonew_messages = {
-		tip = "New Messages"
+	_G.pg.base.gametip.senran_pt_words_xishao = {
+		tip = {
+			{
+				"1100007/pt1",
+				"I'll... be in your care..."
+			},
+			{
+				"1100007/pt2",
+				"I'll... try to work harder..."
+			},
+			{
+				"1100007/pt3",
+				"I think... I'm a bit more confident now."
+			},
+			{
+				"1100007/pt4",
+				"I still... need to do more."
+			},
+			{
+				"1100007/pt5",
+				"Next time... I'll need to give it my all as well..."
+			}
+		}
 	}
 end)()
 
@@ -26032,8 +27968,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.liner_log_event_group_title3 = {
-		tip = "Record - 3"
+	_G.pg.base.gametip.index_fleetrear = {
+		tip = "Main "
 	}
 end)()
 
@@ -26044,14 +27980,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_privatechat_no_visit_time = {
-		tip = "Locked"
+	_G.pg.base.gametip.dorm3d_VIDEO_CHAT_LABEL = {
+		tip = "Request From $1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.vote_lable_not_start = {
-		tip = "Locked"
+	_G.pg.base.gametip.dorm3d_gift_favor_max = {
+		tip = "You have reached the maximum Intimacy level, and giving this gift won't increase Intimacy further, continue?"
 	}
 end)()
 
@@ -26062,8 +27998,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_result_max_combo = {
-		tip = "Max COMBO:"
+	_G.pg.base.gametip.dorm3d_xinzexi_bed = {
+		tip = "Bedroom"
 	}
 end)()
 
@@ -26074,8 +28010,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_VIDEO_TELEPHONE_LABEL = {
-		tip = "Call from $1"
+	_G.pg.base.gametip.dorm3d_xinzexi_table = {
+		tip = "Dining Area"
 	}
 end)()
 
@@ -26086,8 +28022,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_VIDEO_CHAT_LABEL = {
-		tip = "Request From $1"
+	_G.pg.base.gametip.dorm3d_Ankeleiqi_bed = {
+		tip = "Bedroom"
 	}
 end)()
 
@@ -26104,8 +28040,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_gift_favor_max = {
-		tip = "You have reached the maximum Intimacy level, and giving this gift won't increase Intimacy further, continue?"
+	_G.pg.base.gametip.dorm3d_Ankeleiqi_chair = {
+		tip = "Living Area"
 	}
 end)()
 
@@ -26122,8 +28058,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_xinzexi_bed = {
-		tip = "Bedroom"
+	_G.pg.base.gametip.dorm3d_Ankeleiqi_entertainmentarea = {
+		tip = "Amusement Area"
 	}
 end)()
 
@@ -26174,36 +28110,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_xinzexi_table = {
-		tip = "Dining Area"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_Ankeleiqi_bed = {
-		tip = "Bedroom"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_accept_erro = {
-		tip = "Failed to accept application."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_Ankeleiqi_chair = {
-		tip = "Living Area"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_Ankeleiqi_entertainmentarea = {
-		tip = "Amusement Area"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.dorm3d_guide_beach_tip = {
 		tip = "Please download assets for the corresponding character first "
 	}
@@ -26216,14 +28122,44 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.guild_accept_erro = {
+		tip = "Failed to accept application."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_furnitrue_type_couch = {
+		tip = "Couches"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_noshiro_table = {
+		tip = "Dining Area"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_story_unlock_tip = {
+		tip = "Story unlocked"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_guide_tip = {
+		tip = "Check out Sirius' quarters."
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.word_propose_changename_tip2 = {
 		tip = "*Cooldown is 30 days "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.vote_lable_acc_title_1 = {
-		tip = "Total Votes"
+	_G.pg.base.gametip.dorm3d_delete_finish = {
+		tip = "Files deted."
 	}
 end)()
 
@@ -26246,26 +28182,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_noshiro_table = {
-		tip = "Dining Area"
+	_G.pg.base.gametip.dorm3d_now_is_downloading = {
+		tip = "Downloading assets..."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_accompany_locked = {
-		tip = "Unavailable"
+	_G.pg.base.gametip.activity_shop_template_extratext = {
+		tip = "活動追趕道具兌換 "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_guide_tip = {
-		tip = "Check out Sirius' quarters."
+	_G.pg.base.gametip.intimacy_desc_7_detail = {
+		tip = "Love will guide the way, our hearts bound by an eternal promise!\nWe share our smile, our words unspoken.\nOur love will be one of respect, trust, and confidence forever.\nFrom this day forth, our fates are bound together.\nPromise date: $1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_delete_finish = {
-		tip = "Files deted."
+	_G.pg.base.gametip.word_activity_not_open = {
+		tip = "Event unavailable"
 	}
 end)()
 
@@ -26288,8 +28224,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.activity_shop_template_extratext = {
-		tip = "活動追趕道具兌換 "
+	_G.pg.base.gametip.word_show_expire_content = {
+		tip = "Show Unobtainable"
 	}
 end)()
 
@@ -26300,50 +28236,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_normal_junhe = {
-		tip = "Normal"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_activity_not_open = {
-		tip = "Event unavailable"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_got_pt = {
-		tip = "Granted"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_show_expire_content = {
-		tip = "Show Unobtainable"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_shipAddMoney_error = {
-		tip = "Failed to collect Coins: "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_theme_refresh_time_tip = {
-		tip = "Please wait before refreshing"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.energy_desc_angry = {
-		tip = "She's exhausted. She needs to rest, now!"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.retire_1 = {
-		tip = "If you <color=#92fc63>own a ship</color> that has been <color=#92fc63>fully Limit Broken</color>, this option determines what you want to do with the corresponding duplicate ships."
+	_G.pg.base.gametip.attribute_angle = {
+		tip = "Firing Angle"
 	}
 end)()
 
@@ -26354,15 +28248,9 @@ end)()
 				info = "- Commemorative Album -"
 			},
 			{
-				info = "1.  The Commemorative Album tab has been added to the Memories screen.\n2.  During the event, you can complete event missions to receive <color=#92fc63>commemorative stickers</color>. Finishing your collection will award you with a limited furniture piece and a medal.\n Note:   While the event is available, tapping the <color=#92fc63>Commemoration button on the event banner or the Commemorative Album tab under Memories</color> will bring you to the commemorative stickers menu.\n Note:   Following the end of the event, <color=#92fc63>you can only access the stickers menu from the Commemorative Album tab under Memories</color>.\n Note:   Commemorative stickers are earned by completing event missions.\n Note:   Rewards may be claimed for a period even after the event ends."
+				info = "1.  The Commemorative Album tab has been added to the Memories screen.\n2.  During the event, you can complete event missions to receive <color=#92fc63>commemorative stickers</color>. Finishing your collection will award you with a limited furniture piece and a medal.\n Note:   While the event is available, tapping the <color=#92fc63>Commemoration button on the event banner or the Commemorative Album tab under Memories</color> will bring you to the commemorative stickers menu.\n Note:   Following the end of the event, <color=#92fc63>you can only access the stickers menu from the Commemorative Album tab under Memories</color>.\n Note:   Commemorative stickers are earned by completing event missions.\n Note:   Rewards may be claimed for a short period after the event has ended."
 			}
 		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_movelimit_event_text = {
-		tip = "Can't leave now due to unfinished missions in this zone. Confirm？"
 	}
 end)()
 
@@ -26379,8 +28267,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.notify_clock_tip = {
-		tip = ""
+	_G.pg.base.gametip.word_equipment_special = {
+		tip = "Misc"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_theme_refresh_time_tip = {
+		tip = "Please wait before refreshing"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.energy_desc_angry = {
+		tip = "She's exhausted. She needs to rest, now!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blackfriday_luckybag_164 = {
+		tip = "After purchasing this Lucky Bag, you can collect 1 Skin Discount Coupon (300 Gems Off) on the event page that can be used on any featured skin in the Black Friday Campaign. The coupon expires when the campaign ends."
 	}
 end)()
 
@@ -26391,14 +28297,44 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.world_movelimit_event_text = {
+		tip = "Can't leave now due to unfinished missions in this zone. Confirm？"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.maintenance_message_stop_text = {
 		tip = "Server down."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.child_item_type2 = {
-		tip = "Instruments"
+	_G.pg.base.gametip.child_target_title2 = {
+		tip = "Growth Goal"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_newSkin_name = {
+		tip = "$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_puzzle_lock = {
+		tip = "Mystery Request"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_puzzle_pop_save = {
+		tip = "Progress Recorded"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.common_no_open = {
+		tip = "Not yet open"
 	}
 end)()
 
@@ -26415,8 +28351,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tolovegame_puzzle_lock = {
-		tip = "Mystery Request"
+	_G.pg.base.gametip.battlepass_main_tip_2112 = {
+		tip = "During the campaign season (12/1/2021 - 1/31/2022), complete Cruise Missions to get great rewards, including <color=#854747>Hiyou META</color>."
 	}
 end)()
 
@@ -26457,14 +28393,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.memorybook_get_award_tip = {
-		tip = "You must unlock all \"Port Memories\" to receive the \"Commemorative Pyoko-Pyoko Medal\""
+	_G.pg.base.gametip.battle_result_dmg = {
+		tip = "Damage"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.tolovegame_puzzle_pop_next = {
-		tip = "Next"
+	_G.pg.base.gametip.ship_remould_warning_105224 = {
+		tip = "Completing the retrofit will change the skill <color=#92fc63>Big Seven</color> into <color=#92fc63>Big Seven - Maryland</color>."
 	}
 end)()
 
@@ -26482,7 +28418,7 @@ end)()
 
 (function()
 	_G.pg.base.gametip.buildship_heavy_tip = {
-		tip = "São Martinho added to standard build pool!"
+		tip = "Chien Wu added to standard build pool!"
 	}
 end)()
 
@@ -26499,8 +28435,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.launchball_lock_Yura = {
-		tip = "Unlocked after purchasing <color=#92fc63>Yura's Token</color> at the Reward Shop."
+	_G.pg.base.gametip.tolovegame_puzzle_detail_collect = {
+		tip = "Collect Materials"
 	}
 end)()
 
@@ -26511,8 +28447,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equip_info_22 = {
-		tip = "Max Plane Eva."
+	_G.pg.base.gametip.tolovegame_puzzle_ship_need = {
+		tip = "Request From $1"
 	}
 end)()
 
@@ -26523,38 +28459,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tolovegame_puzzle_detail_collect = {
-		tip = "Collect Materials"
+	_G.pg.base.gametip.tolovegame_collected = {
+		tip = "Claimed"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.idolmaster_voice_name_feeling1 = {
 		tip = "Disappointed "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_puzzle_task_need = {
-		tip = "Materials Needed:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_puzzle_ship_need = {
-		tip = "Request From $1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovemainpage_skin_countdown = {
-		tip = "Time Remaining: $1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_collected = {
-		tip = "Claimed"
 	}
 end)()
 
@@ -26577,8 +28489,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_energy_low_warn = {
-		tip = "$2's ($1) Mood is very low. Her Affinity will be reduced if you force her to attack."
+	_G.pg.base.gametip.word_got = {
+		tip = "Granted"
 	}
 end)()
 
@@ -26589,14 +28501,38 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_chara_skill_lock = {
-		tip = "Must be enhanced to 2 stars."
+	_G.pg.base.gametip.tolovegame_lock_1 = {
+		tip = "Unlocks in $1 day(s) and $2 hour(s)"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.tolovegame_score = {
 		tip = "Score"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_buff_desc_7 = {
+		tip = "Grants 1 shield at the start of the minigame, extends the time limit by 10 seconds, and increases your final score multiplier by 1.2."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_addFood_ok = {
+		tip = "Restocking complete! Supplies <color=#92fc63>+$1</color>."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_chara_skill_lock = {
+		tip = "Must be enhanced to 2 stars."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveactivity_ui_19 = {
+		tip = "There are presents you haven't chosen yet"
 	}
 end)()
 
@@ -26619,8 +28555,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tolovegame_buff_desc_7 = {
-		tip = "Grants 1 shield at the start of the minigame, extends the time limit by 10 seconds, and increases your final score multiplier by 1.2."
+	_G.pg.base.gametip.tolovegame_buff_desc_3 = {
+		tip = "Extends the time limit by 10 seconds."
 	}
 end)()
 
@@ -26631,32 +28567,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tolovegame_buff_desc_5 = {
-		tip = "Increases your final score multiplier by 1.2. Every 5 successful dodges increases the score multiplier by an additional 0.01."
+	_G.pg.base.gametip.tolovegame_buff_desc_1 = {
+		tip = "Grants 1 shield at the start of the minigame. Each shield can protect against 1 explosion."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_fleet_exist_same_kind_ship = {
-		tip = "This ship is already supporting this Guild Operation. "
+	_G.pg.base.gametip.tolovegame_buff_name_6 = {
+		tip = "Time Limit Mega Boost"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.lesson_endToLearn_error = {
-		tip = "Class failed: "
+	_G.pg.base.gametip.text_buy_fashion_tip = {
+		tip = "Spend $1 Gems to buy $2?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.tolovegame_buff_desc_3 = {
-		tip = "Extends the time limit by 10 seconds."
+	_G.pg.base.gametip.autofight_story = {
+		tip = "The story will start playing shortly. "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.tolovegame_buff_desc_2 = {
-		tip = "Increases your final score multiplier by 1.2."
+	_G.pg.base.gametip.dal_main_sheet4 = {
+		tip = "Side Stories"
 	}
 end)()
 
@@ -26673,8 +28609,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tolovegame_buff_desc_1 = {
-		tip = "Grants 1 shield at the start of the minigame. Each shield can protect against 1 explosion."
+	_G.pg.base.gametip.blackfriday_shop_tip = {
+		tip = "Unlocks on $1 at $2"
 	}
 end)()
 
@@ -26701,14 +28637,18 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tolovegame_buff_name_6 = {
-		tip = "Time Limit Mega Boost"
+	_G.pg.base.gametip.blackfriday_main_tip = {
+		tip = {
+			{
+				info = "- Overview -\n· The 2024 Black Friday Akashi's Fire Sale (Part 2) is available between<color=#92fc63>November 14th and December 4th</color>.\n· Event Missions\nComplete event missions to get Black Friday PT.\n· Event Shops\nUse Black Friday PT, Gems and Coins in PT Shop, Gem Shop, and Coin Shop respectively to purchase items.\n· Gift Packs\nEvery day until November 20th, a new Daily Free Pack and a new Daily Paid Pack are unlocked."
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.sham_team_limit = {
-		tip = "Please ensure that each fleet has at least 1 ship in the Vanguard and 1 ship in the Main fleet."
+	_G.pg.base.gametip.islandshop_tips2 = {
+		tip = "Limited"
 	}
 end)()
 
@@ -26725,8 +28665,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blackfriday_shop_tip = {
-		tip = "Unlocks on $1 at $2"
+	_G.pg.base.gametip.juuschat_background_tip1 = {
+		tip = "Not Owned"
 	}
 end)()
 
@@ -26739,52 +28679,6 @@ end)()
 (function()
 	_G.pg.base.gametip.backyard_addExp_Info = {
 		tip = "Commander, everyone rested up while you were gone during\n||<color=#FAFAF7FF>$1</color>|| ||  You used up ||<color=#A9F548FF>$2</color>|| snacks, and received ||<color=#A9F548FF>$3</color>|| EXP."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.package_view_4 = {
-		tip = "Acquired:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.drom3d_memory_limit_tip = {
-		tip = "Your device's specs are below the recommended level. You may experience crashes while playing."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_resume_attack_count = {
-		tip = "Attacks: "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.juuschat_background_tip1 = {
-		tip = "Not Owned"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_dress_mutually_exclusive = {
-		tip = "$1 cannot be worn with current outfit, has been automatically removed."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.save_success = {
-		tip = "Data Saved Successfully"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_help_2408 = {
-		tip = {
-			{
-				info = "Cruise Missions Seasonal Campaign\n8/1/2024 00:00 – 9/30/2024 23:59\n\n- Overview -\n\"Cruise Missions\" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.\nAdditionally, you can unlock an additional set of \"Fair Winds Cruise\" rewards by purchasing the \"Fair Winds Cruise Pass\" item from Akashi's shop.\nKasumi META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfit for Roma, \"Vacation Upon the Tiber.\"\n\n- How to Play -\n· Two types of missions will be released at the same time at the start of the campaign season:\na) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.\nb) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.\n· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.\n· If you purchase a Fair Winds Cruise Pass, you will automatically receive 15 levels worth of progress (1500 Progress Pts).\n· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:\na) Cruise Rewards - Rewards that can be obtained based on the total number of accumulated Progress Pts. There are a total of 100 levels.\nb) Fair Winds Rewards - An additional set of rewards that will be unlocked when you purchase a Fair Winds Cruise Pass. As with the regular Cruise Rewards, there are a total of 100 levels, and they can be collected alongside Cruise Rewards at the same Progress level.\n· When the campaign season ends, your Progress Pts will be reset.\n\n- Tips - \n· Play at your own pace\nCruise Missions have a total of 100 Progress levels, and are not meant to be cleared in one session. We recommend that you complete them at your own pace.\n\n· Fair Winds Cruise Pass\nIf. you purchase a Fair Winds Cruise Pass from Akashi's shop, you will automatically earn 1500 Progress Pts and unlock access to valuable rewards. Furthermore, there is an exclusive outfit available only through the Fair Winds rewards, so please plan accordingly.\n\n· Skipping Missions (not recommended)\nYou can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.\nWe do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.\nAny purchased Cruise Mission Vouchers will remain even after the campaign season ends."
-			}
-		}
 	}
 end)()
 
@@ -26823,8 +28717,54 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200150 = {
-		tip = "Payment receipt verification failed"
+	_G.pg.base.gametip.friend_resume_attack_count = {
+		tip = "Attacks: "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.pre_combat_targets = {
+		tip = "Targets"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_dress_mutually_exclusive = {
+		tip = "$1 cannot be worn with current outfit, has been automatically removed."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.save_success = {
+		tip = "Data Saved Successfully"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_main_help_2408 = {
+		tip = {
+			{
+				info = "Cruise Missions Seasonal Campaign\n8/1/2024 00:00 – 9/30/2024 23:59\n\n- Overview -\n\"Cruise Missions\" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.\nAdditionally, you can unlock an additional set of \"Fair Winds Cruise\" rewards by purchasing the \"Fair Winds Cruise Pass\" item from Akashi's shop.\nKasumi META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfit for Roma, \"Vacation Upon the Tiber.\"\n\n- How to Play -\n· Two types of missions will be released at the same time at the start of the campaign season:\na) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.\nb) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.\n· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.\n· If you purchase a Fair Winds Cruise Pass, you will automatically receive 15 levels worth of progress (1500 Progress Pts).\n· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:\na) Cruise Rewards - Rewards that can be obtained based on the total number of accumulated Progress Pts. There are a total of 100 levels.\nb) Fair Winds Rewards - An additional set of rewards that will be unlocked when you purchase a Fair Winds Cruise Pass. As with the regular Cruise Rewards, there are a total of 100 levels, and they can be collected alongside Cruise Rewards at the same Progress level.\n· When the campaign season ends, your Progress Pts will be reset.\n\n- Tips - \n· Play at your own pace\nCruise Missions have a total of 100 Progress levels, and are not meant to be cleared in one session. We recommend that you complete them at your own pace.\n\n· Fair Winds Cruise Pass\nIf. you purchase a Fair Winds Cruise Pass from Akashi's shop, you will automatically earn 1500 Progress Pts and unlock access to valuable rewards. Furthermore, there is an exclusive outfit available only through the Fair Winds rewards, so please plan accordingly.\n\n· Skipping Missions (not recommended)\nYou can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.\nWe do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.\nAny purchased Cruise Mission Vouchers will remain even after the campaign season ends."
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior11 = {
+		tip = "Walk"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior8 = {
+		tip = "Cooking"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior7 = {
+		tip = "Cleaning"
 	}
 end)()
 
@@ -26845,8 +28785,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate1 = {
-		tip = "Expert"
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior6 = {
+		tip = "Exercise"
 	}
 end)()
 
@@ -26857,8 +28797,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior11 = {
-		tip = "Walk"
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_choose = {
+		tip = "Assign today's schedule."
 	}
 end)()
 
@@ -26880,25 +28820,25 @@ end)()
 
 (function()
 	_G.pg.base.gametip.adventure_award_end_tip = {
-		tip = "*Claimable until 4/17 23:59:59 (UTC-7)"
+		tip = "* Claimable until Feb. 18th"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior8 = {
-		tip = "Cooking"
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_remember = {
+		tip = "Remember today's schedule."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200170 = {
-		tip = "Purchase request failed on game server"
+	_G.pg.base.gametip.ship_equip_exchange_tip = {
+		tip = "Take <color=#a0ff40>$1</color>'s <color=#a0ff40>$2</color> and equip it to <color=#a0ff40>$3</color>?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior7 = {
-		tip = "Cleaning"
+	_G.pg.base.gametip.warning_mail_max_1 = {
+		tip = "Your mailbox is nearing its capacity (<color=#FF5C5C>$1</color>/$2). Please manage it before you run out of space."
 	}
 end)()
 
@@ -26915,8 +28855,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_choose = {
-		tip = "Assign today's schedule."
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_day3 = {
+		tip = "Wed"
 	}
 end)()
 
@@ -26927,14 +28867,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_remember = {
-		tip = "Remember today's schedule."
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_day1 = {
+		tip = "Mon"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_shipType_weiXiu = {
-		tip = "Repair"
+	_G.pg.base.gametip.dorm3d_accompany_not_download = {
+		tip = "You need to download the $1 assets first."
 	}
 end)()
 
@@ -26975,42 +28915,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_day3 = {
-		tip = "Wed"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_day1 = {
-		tip = "Mon"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_addFood_ok = {
-		tip = "Restocking complete! Supplies <color=#92fc63>+$1</color>."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_yanhua_tip1 = {
-		tip = "Fireworks"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_accompany_not_download = {
-		tip = "You need to download the $1 assets first."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_shop_gift_owned = {
-		tip = "You cannot purchase any more of this."
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.dorm3d_appellation_waring3 = {
 		tip = "Your nickname is too short."
 	}
@@ -27023,8 +28927,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_preCombatLayer_save_march = {
-		tip = "Save fleet formation and exit?"
+	_G.pg.base.gametip.levelScene_retreat_erro = {
+		tip = "Failed to retreat."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_yanhua_tip1 = {
+		tip = "Fireworks"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ranking_word_2 = {
+		tip = "Collection Rate"
 	}
 end)()
 
@@ -27035,20 +28951,44 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.juuschat_reddot_title = {
+		tip = "FleetChat"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.destroy_importantequipment_tip = {
+		tip = "<color=#92fc63>Important</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.juuschat_chattip2 = {
+		tip = "[Presents]"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_status_time2 = {
+		tip = "Permanent"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.mail_confirm_set_important_flag = {
 		tip = "Mark as important"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_vo_event = {
-		tip = "Selected character is deployed on special ops."
+	_G.pg.base.gametip.charge_error_count_limit = {
+		tip = "Unable to make any more purchases today."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.juuschat_reddot_title = {
-		tip = "FleetChat"
+	_G.pg.base.gametip.juuschat_label2 = {
+		tip = "Viewing"
 	}
 end)()
 
@@ -27065,8 +29005,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.juuschat_chattip2 = {
-		tip = "[Presents]"
+	_G.pg.base.gametip.juuschat_filter_tip4 = {
+		tip = "Private"
 	}
 end)()
 
@@ -27077,14 +29017,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_japanese = {
-		tip = "1"
+	_G.pg.base.gametip.juuschat_filter_tip3 = {
+		tip = "Unreplied"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.juuschat_label2 = {
-		tip = "Viewing"
+	_G.pg.base.gametip.juuschat_filter_tip2 = {
+		tip = "Answered"
 	}
 end)()
 
@@ -27095,26 +29035,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tec_target_catchup_finish_4 = {
-		tip = "PR4 / Complete"
+	_G.pg.base.gametip.juuschat_filter_title = {
+		tip = "Filter"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_cancel_assult_ship_recommend = {
-		tip = "Recommended support ship cleared."
+	_G.pg.base.gametip.nodisplay_player_home_share = {
+		tip = "Layout"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.juuschat_filter_tip4 = {
-		tip = "Private"
+	_G.pg.base.gametip.equipcode_like_success = {
+		tip = "You left a like."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.juuschat_filter_tip3 = {
-		tip = "Unreplied"
+	_G.pg.base.gametip.levelscene_mapselect_material = {
+		tip = "Materials"
 	}
 end)()
 
@@ -27137,8 +29077,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.juuschat_filter_title = {
-		tip = "Filter"
+	_G.pg.base.gametip.levelscene_mapselect_ex = {
+		tip = "EX"
 	}
 end)()
 
@@ -27149,8 +29089,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_89902 = {
-		tip = "<size=28>Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.\nEquipped gear:<color=#92fc63>\nPrototype Triple 406mm/50 Main Gun \nTriple 152mm Main Gun (Mle 1930)\nTwin 37mm AA Gun (Mle 1936)</color></size>"
+	_G.pg.base.gametip.blueprint_simulation_confirm_49902 = {
+		tip = "<size=28>Would you like to start a Battle Simulation? <color=#ff5c5c>Note: the Priority ship's stats and abilities may differ from its fully developed equivalent.</color>\nEquipped gear:<color=#92fc63>\nPrototype Twin 406mm Main Gun (SK C/34)\nTwin 150mm Main Gun (TbtsK C/36)\nTwin 105mm AA Gun (SK C)</color></size>"
 	}
 end)()
 
@@ -27167,20 +29107,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equip_info_28 = {
-		tip = "Damage Modifier "
+	_G.pg.base.gametip.levelscene_mapselect_tp = {
+		tip = "TP"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.levelscene_mapselect_material = {
-		tip = "Materials"
+	_G.pg.base.gametip.islandnode_tips5 = {
+		tip = "Unlucky... Better luck next time!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.levelscene_mapselect_normal = {
-		tip = "Normal"
+	_G.pg.base.gametip.levelscene_mapselect_part2 = {
+		tip = "Part 2"
 	}
 end)()
 
@@ -27197,13 +29137,13 @@ end)()
 				info = "<color=#92fc63>- Overview -</color>"
 			},
 			{
-				info = "During the Spring Fashion Festa event, your goal is to accumulate <color=#92fc63>Contribution Points (CPts)</color> which will progress the mission and can be used to claim both individual rewards and milestone rewards.\n"
+				info = "During the Spring Auction Adventure event, your goal is to accumulate <color=#92fc63>Contribution Points (CPts)</color> which will progress the mission and can be used to claim both individual rewards and milestone rewards.\n"
 			},
 			{
-				info = "During the event period, you will play on a special stage and face off against an opposing exercise fleet.\nAll Commanders on the same server will need to work together by gathering CPts and <color=#92fc63>lowering the progress gauge to 0%</color> in order to complete the mission.\nOnce the mission is completed, all players who participated will be rewarded with a special piece of gear sent to their Mailbox.\nBe aware that you will not be able to claim this reward if your Mailbox is completely full.\n<color=#92fc63>Note that you can still earn CPts through the event stage even once the progress gauge has hit 0%.</color>\n"
+				info = "During the event period, you will play on a special stage and face off against an opposing exercise fleet.\nAll Commanders on the same server will need to work together by gathering CPts and <color=#92fc63>lowering the progress gauge to 0%</color> in order to complete the mission.\nOnce the mission is completed, all players who participated will be rewarded with a special piece of gear sent to their Mailbox.\nPlease be aware that you will not be able to claim this reward if your Mailbox is completely full.\n<color=#92fc63>Note that you can still earn CPts through the event stage even once the progress gauge has hit 0%.</color>\n"
 			},
 			{
-				info = "<color=#92fc63>- Contribution Points Info -</color>\n1. You earn Contribution Points by clearing the Special Stage.\n2. The progress gauge is affected by the total number of CPts earned by all Commanders on your server.\n3. Once the progress bar hits <color=#92fc63>0%</color>, the mission is complete. Note that each server's progress bar is independent of the others.\n4. You can claim nice rewards from the event banner by collecting a lot of CPts.\n"
+				info = "<color=#92fc63>- Contribution Points Info -</color>\n1. You earn Contribution Points by clearing the Special Stage.\n2. The progress gauge is affected by the total number of CPts earned by all Commanders on your server.\n3. Once the progress bar hits <color=#92fc63>0%</color>, the mission is complete. Note that each server's progress bar is independent of the others.\n4. You can claim rewards from the event banner by collecting a lot of CPts.\n"
 			},
 			{
 				info = "<color=#92fc63>- Event Stage Info -</color>\n1. The event stage can be played on 4 difficulty modes: <color=#92fc63>Easy</color>, <color=#92fc63>Normal</color>, <color=#92fc63>Hard</color>, and <color=#92fc63>EX</color>.\n2. You earn a <color=#92fc63>fixed amount</color> of CPts from the first 3 difficulties, but the amount of CPts and which rewards you receive on <color=#92fc63>EX difficulty</color> are based on how much damage you dealt during the battle.\n3. The event stage uses a <color=#92fc63>different fleet composition</color> to regular maps. You can change its formation beforehand.\n4. <color=#92fc63>Oil</color> will be consumed when you sortie for and win on the event stage. When you complete the map, you receive <color=#92fc63>EXP</color> and <color=#92fc63>clear rewards</color> as per usual, and Morale changes will take effect.\n· Note that the EX difficulty also imposes a <color=#92fc63>60-second time limit</color>. Your EX difficulty run concludes when you run out of time, when you defeat the boss, or when your Flagship sinks.\n· Shipgirls do not suffer a Morale penalty from being sunk on the event stage.\n5. You can deploy <color=#92fc63>a Submarine Fleet</color> and <color=#92fc63>Meowfficers</color> on EX difficulty. Calling in your Submarine Fleet during a battle will cost Oil.\n6. You can play on Easy, Normal, and Hard difficulty <color=#92fc63>as much as you like</color>, but you will need to spend a <color=#92fc63>Bonus Ticket</color> each time you wish to do a run on <color=#92fc63>EX difficulty</color>.\n"
@@ -27212,7 +29152,7 @@ end)()
 				info = "<color=#92fc63>- Reward Sorties and Bonus Tickets Info -</color>\n1. Your first <color=#92fc63>15 battles</color> on Easy, Normal, or Hard difficulty of each day are treated as <color=#92fc63>Reward Sorties</color>, which will give you better clear rewards than usual.\n2. If you've <color=#92fc63>used up</color> your 15 daily Reward Sorties, you can use <color=#92fc63>Bonus Tickets</color> to gain access to more Reward Sorties.\n3. <color=#92fc63>Bonus Tickets</color> are also used to gain access to EX difficulty.\n4. <color=#92fc63>Bonus Tickets</color> can be acquired through <color=#92fc63>missions</color> available during the event period.\n"
 			},
 			{
-				info = "<color=#ff5c5c>- Miscellaneous Info -</color>\n1. If you abort an EX difficulty run partway through, your Bonus Ticket will still be consumed, <color=#ff5c5c>but you will not receive any rewards or CPts</color>.\n2. We recommend you play the game on <color=#92fc63>Manual Mode</color> when doing a run on EX difficulty.\n3. You can do practice runs of EX mode from the Formation screen. Practice runs do not cost Bonus Tickets or Oil, and do not affect your shipgirls' Morale, but they do not award EXP or rewards either. \n4. A Reward Sortie will <color=#92fc63>not be deducted from your daily 15</color> if you choose to abort a run partway through on Easy, Normal, or Hard difficulty.\n5. We urge you to keep an eye on your shipgirls' Morale and Affinity and to not sortie too much. <color=#92fc63>Please be considerate!</color>\n6. The number of clears required for any given server to complete the event will differ based on the combined user data of that server."
+				info = "<color=#ff5c5c>- Miscellaneous Info -</color>\n1. If you abort an EX difficulty run partway through, your Bonus Ticket will still be consumed, <color=#ff5c5c>but you will not receive any rewards or CPts</color>.\n2. It is recommended to play the game on <color=#92fc63>Manual Mode</color> when doing a run on EX difficulty.\n3. You can do practice runs of EX mode from the Formation screen. Practice runs do not cost Bonus Tickets or Oil, and do not affect your shipgirls' Morale, but they do not award EXP or rewards either. \n4. A Reward Sortie will <color=#92fc63>not be deducted from your daily 15</color> if you choose to abort a run partway through on Easy, Normal, or Hard difficulty.\n5. We urge you to keep an eye on your shipgirls' Morale and Affinity and to not sortie too much. <color=#92fc63>Please be considerate!</color>\n6. The number of clears required for any given server to complete the event will differ based on the combined user data of that server."
 			}
 		}
 	}
@@ -27225,8 +29165,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.levelscene_mapselect_ex = {
-		tip = "EX"
+	_G.pg.base.gametip.levelscene_mapselect_part1 = {
+		tip = "Part 1"
 	}
 end)()
 
@@ -27249,14 +29189,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.levelscene_mapselect_tp = {
-		tip = "TP"
+	_G.pg.base.gametip.world_file_tip = {
+		tip = "* Scroll the page by sliding the screen. Close the page by tapping the screen."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_extendCapacity_error = {
-		tip = "Expansion failed: "
+	_G.pg.base.gametip.child2_shop_benefit_sure2 = {
+		tip = "This status is already in effect, purchasing it again won't have any additional effects. Continue?"
 	}
 end)()
 
@@ -27291,26 +29231,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.levelscene_mapselect_part1 = {
-		tip = "Part 1"
+	_G.pg.base.gametip.new_airi_error_code_200210 = {
+		tip = "productid does not exist on payment backend"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_file_tip = {
-		tip = "* Scroll the page by sliding the screen. Close the page by tapping the screen."
+	_G.pg.base.gametip.destory_ship_before_tip = {
+		tip = "Continue?\n\n"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.island_season_window_rule = {
-		tip = "1. At the end of a season, the <color=#39bfff>resources in your warehouse</color> will be automatically <color=#FD5650>converted to Island Development Points (IDP)</color>, and you will be placed on the development ranking accordingly. Additionally, the contents of your <color=#FD5650>temporary warehouse will be cleared</color>, and all <color=#39bfff>active requests, transport jobs, food production, and character assignments will be reset</color>.\n2. When the season finishes, you will be <color=#39bfff>unable to claim development and milestone rewards from the season that just ended</color>.\n3. When a new season begins, your IDP will <color=#FD5650>automatically reset</color>."
+		tip = "1. At the end of a season, the contents of your <color=#39bfff>temporary warehouse</color> will be <color=#FD5650>cleared</color>, and the <color=#39bfff>resources in your warehouse</color> will be automatically converted to Island Development Points (IDP), and you will be placed on the development ranking accordingly.\n2. When the season finishes, all active <color=#39bfff> island requests, transport jobs, character assignments, manual farming, store management</color> will be reset.\n3. When the season finishes, you will be <color=#FD5650>unable to claim development and milestone rewards from the season that just ended</color>.\n4. When a new season begins, your IDP will <color=#FD5650>automatically reset</color>."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.commandercat_label_raw_name = {
-		tip = "Original Name"
+	_G.pg.base.gametip.island_survey_ui_2 = {
+		tip = ""
 	}
 end)()
 
@@ -27345,14 +29285,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child2_schedule_sure_tip2 = {
-		tip = "You have unspent action points. Proceed to the next turn anyway?"
+	_G.pg.base.gametip.child2_enter = {
+		tip = "Start Raising"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.feast_invitation_part3 = {
-		tip = "Place the invitation inside a premium envelope. It is made with excellent materials, much like the invitation letter itself, fully conveying your respect towards the status of the recipient."
+	_G.pg.base.gametip.collect_chapter_is_activation = {
+		tip = "Your are on a mission, do you want to retreat?"
 	}
 end)()
 
@@ -27375,8 +29315,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child2_not_start = {
-		tip = "This hasn't opened yet."
+	_G.pg.base.gametip.child2_endings_toggle_on = {
+		tip = "View Endings"
 	}
 end)()
 
@@ -27415,66 +29355,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child2_select_help = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/educate_tb_help1",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/educate_tb_help2",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/educate_tb_help3",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/educate_tb_help4",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/educate_tb_help5",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
+	_G.pg.base.gametip.child2_plan_upgrade_condition = {
+		tip = "[Level-Up Requirements]"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.child2_enter = {
-		tip = "Start Raising"
+	_G.pg.base.gametip.child2_ship_upgrade_favor = {
+		tip = "Your event progress with $1 went up to $2."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.resource_clear_all = {
-		tip = "Would you like to clear your cache data? \nThe game will automatically restart upon completion. "
+	_G.pg.base.gametip.child2_personal_change = {
+		tip = "Personality Change"
 	}
 end)()
 
@@ -27501,14 +29395,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child2_endings_toggle_on = {
-		tip = "View Endings"
+	_G.pg.base.gametip.child2_personal_tag2 = {
+		tip = "Rebellious"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.child2_plan_upgrade_condition = {
-		tip = "[Level-Up Requirements]"
+	_G.pg.base.gametip.word_chinese = {
+		tip = "中文"
 	}
 end)()
 
@@ -27519,8 +29413,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child2_ship_upgrade_favor = {
-		tip = "Your event progress with $1 went up to $2."
+	_G.pg.base.gametip.child2_site_drop_add = {
+		tip = "$1 increased from $2 to $3; $4 in total"
 	}
 end)()
 
@@ -27531,8 +29425,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child2_personal_change = {
-		tip = "Personality Change"
+	_G.pg.base.gametip.child2_unlock_site_round = {
+		tip = "$1 more turn(s) until the next level unlocks"
 	}
 end)()
 
@@ -27549,14 +29443,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child2_personal_tag2 = {
-		tip = "Rebellious"
+	_G.pg.base.gametip.child2_assess_tip = {
+		tip = "<color=#393a3c>Assessment</color> Starts in $1 Turn(s)"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_exchange_erro = {
-		tip = "Exchange failed: <color=#92fc63>$1</color>"
+	_G.pg.base.gametip.attribute_sonarInterval = {
+		tip = "FREQ "
 	}
 end)()
 
@@ -27597,36 +29491,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child2_site_drop_add = {
-		tip = "$1 increased from $2 to $3; $4 in total"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_unlock_site_round = {
-		tip = "$1 more turn(s) until the next level unlocks"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_assess_tip = {
-		tip = "<color=#393a3c>Assessment</color> Starts in $1 Turn(s)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["2023Valentine_minigame_s"] = {
-		tip = "Woah, we've finished some amazing-looking chocolate... Commander, come give it a taste-test!"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_status_time2 = {
-		tip = "Permanent"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.child2_talent_unlock_tip = {
 		tip = "Unlocks on Turn $1"
 	}
@@ -27639,38 +29503,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.exchangecode_use_error_7 = {
-		tip = "Code has already been used."
+	_G.pg.base.gametip.read_the_user_agreement = {
+		tip = "Please scroll to the bottom of the Terms of Service first."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_max_page = {
-		tip = "Max"
+	_G.pg.base.gametip["2023Valentine_minigame_s"] = {
+		tip = "Woah, we've finished some amazing-looking chocolate... Commander, come give it a taste-test!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.level_remaster_tip2 = {
-		tip = "Sortie"
+	_G.pg.base.gametip.ryza_tip_composite_unlock = {
+		tip = "The Synthesis system will be unlocked after clearing event stage T5."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ryza_tip_no_item = {
-		tip = "You don't have any synthesis materials."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_buildBatchShip = {
-		tip = "Spend <color=#92fc63>$1 Gems</color> to receive <color=#92fc63>10 high performance ships</color>?"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.number_6 = {
-		tip = "6"
+	_G.pg.base.gametip.text_retreat = {
+		tip = "Retreat"
 	}
 end)()
 
@@ -27733,8 +29585,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_sametask_tip = {
-		tip = "Unable to accept mission: Only one of the same mission can be active."
+	_G.pg.base.gametip.exchangecode_use_error_7 = {
+		tip = "Code has already been used."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_exp_per_day = {
+		tip = "Daily EXP "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.level_remaster_tip2 = {
+		tip = "Sortie"
 	}
 end)()
 
@@ -27745,8 +29609,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.beach_guard_e7 = {
-		tip = "Purifier"
+	_G.pg.base.gametip.ship_buildBatchShip = {
+		tip = "Spend <color=#92fc63>$1 Gems</color> to receive <color=#92fc63>10 high performance ships</color>?"
 	}
 end)()
 
@@ -27757,8 +29621,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_role_manage = {
-		tip = "Manage Quarters"
+	_G.pg.base.gametip.dorm3d_own_favor = {
+		tip = "Owning a character increases their Intimacy by 100."
 	}
 end)()
 
@@ -27769,20 +29633,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.islandshop_tips2 = {
-		tip = "Limited"
+	_G.pg.base.gametip.word_manga_updating = {
+		tip = "Updating: $1/$2"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.package_detail_tip = {
-		tip = "Detail"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_tip_2402 = {
-		tip = "Complete Cruise Missions between 2/1-3/31 to receive <color=#854748>Kimberly META</color> and other rewards!"
+	_G.pg.base.gametip.beach_guard_e7 = {
+		tip = "Purifier"
 	}
 end)()
 
@@ -27811,14 +29669,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.AR_plane_summon_fail_by_near = {
-		tip = "Could not invite character; distance too short."
+	_G.pg.base.gametip.package_detail_tip = {
+		tip = "Detail"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.like_ship_success = {
-		tip = "Action complete!"
+	_G.pg.base.gametip.battlepass_main_tip_2402 = {
+		tip = "Complete Cruise Missions between 2/1-3/31 to receive <color=#854748>Kimberly META</color> and other rewards!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.AR_plane_summon_fail_by_near = {
+		tip = "Could not invite character; distance too short."
 	}
 end)()
 
@@ -27829,14 +29693,44 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.AR_plane_check = {
+		tip = "Please detect a level surface."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.resource_max_tip_destroy = {
+		tip = "Unable to recycle gear."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_gift_maximum = {
+		tip = "You have reached the limit."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.like_ship_success = {
+		tip = "Action complete!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_recall_locked = {
+		tip = "Unavailable?"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.roll_room11 = {
 		tip = "Second Bedroom"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.AR_plane_check = {
-		tip = "Please detect a level surface."
+	_G.pg.base.gametip.dorm3d_furniture_replace_tip = {
+		tip = "Place the right furniture"
 	}
 end)()
 
@@ -27859,8 +29753,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_recall_locked = {
-		tip = "Unavailable?"
+	_G.pg.base.gametip.dorm3d_role_locked = {
+		tip = "You must unlock related content first (including character and area)"
 	}
 end)()
 
@@ -27877,8 +29771,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_furniture_replace_tip = {
-		tip = "Place the right furniture"
+	_G.pg.base.gametip.dorm3d_accompany_locked = {
+		tip = "Unavailable"
 	}
 end)()
 
@@ -27899,8 +29793,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_volleyball_button = {
-		tip = "Beach Volleyball"
+	_G.pg.base.gametip.dorm3d_photo_no_role = {
+		tip = "Character Unavailable"
 	}
 end)()
 
@@ -27911,8 +29805,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_role_locked = {
-		tip = "You must unlock related content first (including character and area)"
+	_G.pg.base.gametip.dorm3d_skin_locked = {
+		tip = "Outfit Unavailable"
 	}
 end)()
 
@@ -27929,8 +29823,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_furniture_locked = {
-		tip = "Furniture Unavailable"
+	_G.pg.base.gametip.islandnode_tips2 = {
+		tip = "TIPS"
 	}
 end)()
 
@@ -27941,14 +29835,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_photo_no_role = {
-		tip = "Character Unavailable"
+	_G.pg.base.gametip.loveletter_recover_tip7 = {
+		tip = "Your mail has been scanned. Your Valentine's mail already exists in your mailbox or Archive."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_skin_locked = {
-		tip = "Outfit Unavailable"
+	_G.pg.base.gametip.cruise_title_2408 = {
+		tip = "Cruise Missions S18"
 	}
 end)()
 
@@ -27959,8 +29853,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.islandnode_tips9 = {
-		tip = "Level up your Base Camp to unlock the next part of the story!"
+	_G.pg.base.gametip.blueprint_simulation_confirm_29905 = {
+		tip = "<size=28>Would you like to start a Battle Simulation?\nNote: the Priority ship's stats and abilities may differ from her fully-developed equivalent.\nEquipped gear:<color=#ff5c5c>\nPrototype Quadruple 152mm Main Gun Mount\n533mm Quadruple Torpedo Mount Mk IX\nTwin 20mm AA Oerlikon Design</color></size>"
 	}
 end)()
 
@@ -27989,8 +29883,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.cruise_title_2408 = {
-		tip = "Cruise Missions S18"
+	_G.pg.base.gametip.spring_present_tips_time = {
+		tip = "Event Period: 00:00, February 17 - 23:59, March 3"
 	}
 end)()
 
@@ -28001,8 +29895,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tactics_lesson_cancel = {
-		tip = "If you cancel class, only partial EXP will be granted and you will <color=#92fc63>lose your textbook</color>. Continue canceling this class?"
+	_G.pg.base.gametip.cruise_shop_lock_tip = {
+		tip = "Reach Seasonal Cruise Mission Lv. 50"
 	}
 end)()
 
@@ -28019,20 +29913,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.loveletter_exchange_tip2 = {
-		tip = "Please retry after collecting the Valentine's gift."
+	_G.pg.base.gametip.cruise_shop_title_equip_skin = {
+		tip = "Gear Skin"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.cruise_tip_base = {
-		tip = "- Base Rewards -"
+	_G.pg.base.gametip.equip_info_22 = {
+		tip = "Max Plane Eva."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_resourceSiteLayer_no_shipTypeCount = {
-		tip = "Missing <color=#92fc63>$1 x$2</color> in team"
+	_G.pg.base.gametip.new_airi_error_code_100223 = {
+		tip = "Google authorization failed"
 	}
 end)()
 
@@ -28049,8 +29943,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.cruise_shop_lock_tip = {
-		tip = "Reach Seasonal Cruise Mission Lv. 50"
+	_G.pg.base.gametip.task_go = {
+		tip = "Confirm"
 	}
 end)()
 
@@ -28073,8 +29967,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.cruise_shop_title_equip_skin = {
-		tip = "Gear Skin"
+	_G.pg.base.gametip.cruise_btn_all = {
+		tip = "Claim All"
 	}
 end)()
 
@@ -28085,8 +29979,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_shipNation_yujinwangguo = {
-		tip = "Tulipa"
+	_G.pg.base.gametip.cruise_shop_no_open = {
+		tip = "Available at Oct 1st 00:00"
 	}
 end)()
 
@@ -28115,44 +30009,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.task_go = {
-		tip = "Confirm"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cruise_btn_all = {
-		tip = "Claim All"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cruise_shop_no_open = {
-		tip = "Available at Oct 1st 00:00"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.technology_uplevel_error_studying = {
-		tip = "You are already improving the $1's Faction Tech.\nYou can only improve one Faction Tech at a time. "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_time_title = {
-		tip = "Time Remaining:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_gift_owner_num = {
-		tip = "Amount: "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_task_level_desc = {
-		tip = "Rep. "
+	_G.pg.base.gametip.battle_levelScene_ryza_lock = {
+		tip = "Gathering Site stages will unlock after clearing <color=#92fc63>T5 - The Home Stretch</color>."
 	}
 end)()
 
@@ -28169,8 +30027,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.autofight_rewards = {
-		tip = "Total Rewards"
+	_G.pg.base.gametip.world_wind_move = {
+		tip = "Cannot proceed to the target zone. Please first move the fleet that is in the target zone. "
 	}
 end)()
 
@@ -28181,14 +30039,50 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.event_recommend_fail = {
-		tip = "Does not match Commissions requirements "
+	_G.pg.base.gametip.dorm3d_gift_owner_num = {
+		tip = "Amount: "
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.cruise_title_2412 = {
 		tip = "Seasonal Missions – S20"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.hide_chat_warning = {
+		tip = "Turning off chat to hide messages."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_phase_title = {
+		tip = "Phase"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.autofight_rewards = {
+		tip = "Total Rewards"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_collect_block_by_furniture = {
+		tip = "This item has been replaced by $1, and cannot be obtained now."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.event_recommend_fail = {
+		tip = "Does not match Commissions requirements "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_purchase_outtime = {
+		tip = "Not currently available."
 	}
 end)()
 
@@ -28233,20 +30127,24 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.charge_title_getitem = {
-		tip = "May receive the following items: "
+	_G.pg.base.gametip.fleet_antisub_range_tip = {
+		tip = {
+			{
+				info = "- Submarine Scan Info:\nWhen an enemy submarine comes within range of ASW-capable Vanguard Fleet ships (DDs and CLs,) they will automatically be detected, thus rendering them open to attack.\nDamage can be dealt to a detected submarine using ASW weaponry such as depth charges. However, if the enemy submarine leaves your Vanguard Fleet's scan range, they will return to being undetected after some time has passed.\n\n- How your Scan Range is Calculated:\nThe following 4 factors affect the size of your Vanguard Fleet's Submarine Scan Range:\n1. The greatest base ASW stat among the DDs and CLs in your Vanguard Fleet.\n2. The combined ASW stat of all ships in your Main Fleet.\n3. The additional range granted by equipping a sonar on your ships.\n4. Certain miscellaneous map-specific buffs/debuffs, the stats and skills of enemy ships, etc.\n\nImportant note: any bonus points to the ASW stat gained from gear, skills, Meowfficers, or Fleet Tech does NOT affect your Scan Range.\n"
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.cruise_phase_title = {
-		tip = "Phase"
+	_G.pg.base.gametip.ship_shipUpgradeLayer2_uncommon_tip = {
+		tip = "You have selected an <color=#92fc63>Elite or better</color> ship to use as an enhancing material. Continue enhancing?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_collect_block_by_furniture = {
-		tip = "This item has been replaced by $1, and cannot be obtained now."
+	_G.pg.base.gametip.login_wait_tip = {
+		tip = "Server is currently busy, please wait.\n(Position in queue: $1)"
 	}
 end)()
 
@@ -28287,14 +30185,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_purchase_outtime = {
-		tip = "Not currently available."
+	_G.pg.base.gametip.dorm3d_purchase_confirm_original = {
+		tip = "Would you like to spend <color=#39bfff>$2</color> $1 to purchase <color=#39bfff>$3</color>?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.course_state_lession = {
-		tip = "Elapsed Time:"
+	_G.pg.base.gametip.dorm3d_invite_confirm_discount = {
+		tip = "Would you like to spend <color=#39bfff>$2</color> $1 ($3 before discount) and unlock $5's placement in the <color=#39bfff>$4</color>?"
 	}
 end)()
 
@@ -28305,26 +30203,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_exist_unreceived_supply_award = {
-		tip = "<color=red>Unclaimed</color>"
+	_G.pg.base.gametip.dorm3d_invite_confirm_original = {
+		tip = "Would you like to spend <color=#39bfff>$2</color> $1 and unlock <color=#39bfff>$3</color>'s placement in the $4?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_photo_paramaters = {
-		tip = "Parameters"
+	_G.pg.base.gametip.racing_cost = {
+		tip = "Total\nSpent"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_purchase_confirm_original = {
-		tip = "Would you like to spend <color=#39bfff>$2</color> $1 to purchase <color=#39bfff>$3</color>?"
+	_G.pg.base.gametip.dorm3d_beach_switch = {
+		tip = "Setting up the beach..."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_invite_confirm_discount = {
-		tip = "Would you like to spend <color=#39bfff>$2</color> $1 ($3 before discount) and unlock $5's placement in the <color=#39bfff>$4</color>?"
+	_G.pg.base.gametip.dorm3d_shop_tag5 = {
+		tip = "Unlocks Conversation Topic"
 	}
 end)()
 
@@ -28341,8 +30239,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_invite_confirm_original = {
-		tip = "Would you like to spend <color=#39bfff>$2</color> $1 and unlock <color=#39bfff>$3</color>'s placement in the $4?"
+	_G.pg.base.gametip.dorm3d_shop_tag4 = {
+		tip = "Unlocks Special Story Vignette"
 	}
 end)()
 
@@ -28365,30 +30263,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_reset_tip = {
-		tip = {
-			{
-				info = "-Short Summary: \nAfter you've cleared chapter 4 of the Operation Siren story, the following things will happen at server reset on the <color=#92fc63>1st</color> day of each month:\n1. The state of all secured zones will reset. \n2. Your Action Points will reset and your ships will have any installed Adaptive Tuning removed. \n3. Items used exclusively in Operation Siren will be reset, with some of them being converted into Supply Shop Vouchers. \n\nThe following items are available in the Operation Siren store: \n1. Operation Siren Data Logger. Costs <color=#92fc63>5,000 Oil</color>. \n2. A myriad of helpful items and resources. Purchased using Supply Shop Vouchers.\n\nThe Operation Siren Data Logger can be used from the Items menu. Doing so will grant you a lot of assorted Operation Siren items and resources and also lifts the movement restrictions between zones. \n\n-Reset Prerequisite:\nAfter you have cleared chapter 4 of the Operation Siren story, the entire Operation Siren map will return to its original state on the <color=#92fc63>1st</color> of each month at server reset time. \nOnce the reset occurs, you will be redirected to the main Operation Siren menu.\n Any fleets deployed at this time will be returned to Liverpool.\n\n -Things Affected by the Reset:\n 1: All Zones \nWhen the OPS reset occurs, all zones you've secured will reset. After the reset, you can earn Zone Control Rewards from securing a zone once more.You will keep any stars you've earned for a zone, as these do not reset. Exploration bonuses do not reset either.\n\nAfter the reset, a new item called the Operation Siren Data Logger will be available for purchase in the store. Once you've purchased it, you can use it from the Operation Siren Items menu to instantly unlock all zones and receive all the rewards for securing them. \n\nUsing the Operation Siren Data Logger will award you the following items:\nAdaptive Tuning-Offense <color=#92fc63>(90 pcs)</color> \n\nAdaptive Tuning-Survivability <color=#92fc63>(90 pcs)</color> \n\nAdaptive Tuning-Tactics <color=#92fc63>(90 pcs)</color>\n\nEmergency Repair Pack<color=#92fc63> (45 pcs)</color>\n\nAction Point Refill (S) <color=#92fc63>(45 pcs) </color>\n\nOperation Supply Coins<color=#92fc63> (84,000 pcs)</color>\n\nNote: The Operation Siren Data Logger will NOT award any random drops that are gained through defeating enemies.\n\n2: All Modifiers to Your Operation Siren Fleets \n\nAll your ships active in Operation Siren will have their HP, status modifiers, and Adaptive Tuning reset to the default.\n\nYour Action Points will also reset, starting you off with <color=#92fc63>200 AP.</color>\n\n"
-			}
-		}
+	_G.pg.base.gametip.skin_exchange_confirm = {
+		tip = "Spend <color=#92fc63>1 $1</color> to exchange for <color=#92fc63>$2</color>?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_beach_switch = {
-		tip = "Setting up the beach..."
+	_G.pg.base.gametip.dorm3d_shop_tag2 = {
+		tip = "Unlocks Photo Actions"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_shop_tag5 = {
-		tip = "Unlocks Conversation Topic"
+	_G.pg.base.gametip.dorm3d_shop_tag1 = {
+		tip = "Unlocks Exclusive Interaction"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_shop_tag4 = {
-		tip = "Unlocks Special Story Vignette"
+	_G.pg.base.gametip.grapihcs3d_setting_universal = {
+		tip = "Typical 3D Settings"
 	}
 end)()
 
@@ -28399,8 +30293,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shan_luan_task_level_tip = {
-		tip = "Secret Level: $1"
+	_G.pg.base.gametip.equipment_equipmentInfoLayer_error_canNotEquip = {
+		tip = "Unable to equip: <color=#92fc63>$1</color>"
 	}
 end)()
 
@@ -28411,8 +30305,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_shop_tag1 = {
-		tip = "Unlocks Exclusive Interaction"
+	_G.pg.base.gametip.commander_play_erro = {
+		tip = "Failed to Enhance $1."
 	}
 end)()
 
@@ -28435,14 +30329,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_universal = {
-		tip = "Typical 3D Settings"
+	_G.pg.base.gametip.grapihcs3d_setting_quality_option_low = {
+		tip = "Low"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.roll_room1 = {
-		tip = "Servants' Room"
+	_G.pg.base.gametip.attire_combatui_confirm = {
+		tip = "Apply"
 	}
 end)()
 
@@ -28459,14 +30353,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_expand = {
-		tip = "Expand"
+	_G.pg.base.gametip.compensate_ui_title1 = {
+		tip = "Comp."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.grapihcs3d_setting_quality_option_low = {
-		tip = "Low"
+	_G.pg.base.gametip.compensate_ui_expiration_hour = {
+		tip = "Expires in $1 hour(s)"
 	}
 end)()
 
@@ -28483,14 +30377,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.compensate_ui_nothing2 = {
-		tip = "No compensation received yet"
+	_G.pg.base.gametip.word_equipment_submarine_torpedo = {
+		tip = "Sub Torpedo"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.compensate_ui_title1 = {
-		tip = "Comp."
+	_G.pg.base.gametip.ui_pack_tip2 = {
+		tip = "Basic"
 	}
 end)()
 
@@ -28501,8 +30395,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.compensate_ui_expiration_hour = {
-		tip = "Expires in $1 hour(s)"
+	_G.pg.base.gametip.ui_pack_tip1 = {
+		tip = "* You can only choose to buy ONE version. The purchased item(s) will be sent to your mail."
 	}
 end)()
 
@@ -28537,14 +30431,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.player_name_change_time_lv_tip = {
-		tip = "Identity Change will be available when you reach lv.<color=#92fc63>$1</color>"
+	_G.pg.base.gametip.no_share_skin_tianchengzhanlie = {
+		tip = "Amagi(BC)"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ui_pack_tip2 = {
-		tip = "Basic"
+	_G.pg.base.gametip.no_share_skin_tianchenghangmu = {
+		tip = "Amagi(CV)"
 	}
 end)()
 
@@ -28555,8 +30449,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ui_pack_tip1 = {
-		tip = "* You can only choose to buy ONE version. The purchased item(s) will be sent to your mail."
+	_G.pg.base.gametip.dreamland_main_desc = {
+		tip = "Obtain rewards between September 12th and October 2nd by <color=#85E7FF>exploring the park</color> and <color=#85E7FF>playing the minigame</color>!"
 	}
 end)()
 
@@ -28573,14 +30467,18 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.no_share_skin_jiahehangmu = {
-		tip = "Kaga(CV)"
+	_G.pg.base.gametip.dream_land_tip = {
+		tip = {
+			{
+				info = "- Overview -\nThe Dreamy Day in Dream Park event is available between <color=#92fc63>September 12th and October 2nd</color>.\n\n· Explore the park to unlock new areas and receive rewards, including <color=#92fc63>limited furniture</color> and <color=#92fc63>gear skin boxes</color>!\n· Each area contains its own interactable elements. If you're unable to find them, you can check <color=#92fc63>the stars displayed on the map</color> or your <color=#92fc63>Dreamland Guidebook</color> to receive a hint.\n· Some elements can only be interacted with at the right time of day. Finish the event story to unlock the Change Time option, letting you alter the park's time at will.\n· Let your shipgirls relax under the Sweet Dreams tab and they'll both recover Morale faster and appear inside the park. You'll unlock more slots as you gain access to more areas to explore."
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.no_share_skin_tianchengzhanlie = {
-		tip = "Amagi(BC)"
+	_G.pg.base.gametip.dreamland_spring_tip = {
+		tip = "Dream Park Morale Recovery: $1/h"
 	}
 end)()
 
@@ -28597,14 +30495,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dreamland_main_desc = {
-		tip = "Obtain rewards between September 12th and October 2nd by <color=#85E7FF>exploring the park</color> and <color=#85E7FF>playing the minigame</color>!"
+	_G.pg.base.gametip.dreamland_area_lock_tip = {
+		tip = "- Area unlocks after reading the story -"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.charge_limit_lv = {
-		tip = "Unlocks lv. $1"
+	_G.pg.base.gametip.ship_newSkinLayer_get = {
+		tip = "Receive <color=#92fc63>$1</color> skin - <color=#92fc63>$2</color>"
 	}
 end)()
 
@@ -28615,20 +30513,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dreamland_spring_tip = {
-		tip = "Dream Park Morale Recovery: $1/h"
+	_G.pg.base.gametip.dreamland_label_explore = {
+		tip = "Explore"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.valentinesday__txt6_tip = {
-		tip = "The chocolate has been completed. Please enjoy it, Master."
+	_G.pg.base.gametip.dreamland_label_area = {
+		tip = "Area"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dreamland_area_lock_tip = {
-		tip = "- Area unlocks after reading the story -"
+	_G.pg.base.gametip.new_airi_error_code_100121 = {
+		tip = "Guest login is not supported on PC client"
 	}
 end)()
 
@@ -28639,8 +30537,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dreamland_label_explore_award_tip = {
-		tip = "Area Exploration Reward"
+	_G.pg.base.gametip.commander_exp_limit = {
+		tip = "This Meowfficer has reached max level and cannot be added here."
 	}
 end)()
 
@@ -28657,8 +30555,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dreamland_label_explore = {
-		tip = "Explore"
+	_G.pg.base.gametip.idle = {
+		tip = "Pause"
 	}
 end)()
 
@@ -28669,8 +30567,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_automode_setting_all_1_2 = {
-		tip = "Continue Strategic Search"
+	_G.pg.base.gametip.world_automode_treasure_3 = {
+		tip = "Can be purchased after Operation Siren resets."
 	}
 end)()
 
@@ -28687,8 +30585,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_limit_notice = {
-		tip = "*The Submarine Fleet's stats do not count towards the Status Requirements. "
+	_G.pg.base.gametip.common_compare_larger = {
+		tip = ">"
 	}
 end)()
 
@@ -28723,38 +30621,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_status_inEvent = {
-		tip = "In action"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_collect_not_owned = {
-		tip = "You don't own this item."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200200 = {
-		tip = "Order status tracking timed out"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_minigame_close = {
-		tip = "Back"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.dorm3d_shop_gift_not_owned = {
 		tip = "You don't own this gift."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_text_pizibao_2 = {
-		tip = "The supporting fleet <color=#f1f102>has been destroyed</color>! The battle will get tougher!"
+	_G.pg.base.gametip["2023spring_minigame_nenjuu_skill7"] = {
+		tip = "Black Hole|A black hole spawns in a random location every 20s. Being near it reduces Fu Shun's speed, and entering it stuns her for 1s."
 	}
 end)()
 
@@ -28829,14 +30703,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.dorm3d_role_manage_role = {
+		tip = "Characters"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_role_manage = {
+		tip = "Manage Quarters"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_role_check_in = {
+		tip = "Would you like to unlock <color=#39bfff>$1</color>'s room?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_beach_role = {
+		tip = "Unlocking this will let you move <color=#39bfff>$1</color> here."
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.word_serverLoadVindicate = {
 		tip = "<color=#a2a2a2>Maintenance</color>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_role_manage_role = {
-		tip = "Characters"
+	_G.pg.base.gametip.dorm3d_role_choose = {
+		tip = "Choose Room"
 	}
 end)()
 
@@ -28859,8 +30757,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_beach_role = {
-		tip = "Unlocking this will let you move <color=#39bfff>$1</color> here."
+	_G.pg.base.gametip.dorm3d_collect_unlock = {
+		tip = "- Locked -"
 	}
 end)()
 
@@ -28877,8 +30775,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_own_favor = {
-		tip = "Owning a character increases their Intimacy by 100."
+	_G.pg.base.gametip.dorm3d_reload_unlock = {
+		tip = "- Locked -"
 	}
 end)()
 
@@ -28889,8 +30787,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_acquire_erro = {
-		tip = "The following Meowfficer could not be obtained: $1."
+	_G.pg.base.gametip.dorm3d_collection_beach = {
+		tip = "Beach"
 	}
 end)()
 
@@ -28901,8 +30799,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_collect_unlock = {
-		tip = "- Locked -"
+	_G.pg.base.gametip.dorm3d_sirius_bed = {
+		tip = "Bedroom"
 	}
 end)()
 
@@ -28929,62 +30827,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_collection_beach = {
-		tip = "Beach"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_sirius_bed = {
-		tip = "Bedroom"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_sirius_chair = {
-		tip = "Living Area"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_collect_not_found = {
-		tip = "Obtainable at $1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_chapter_notInStrategy = {
-		tip = "Not in progress..."
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.dorm3d_collect_locked = {
 		tip = "Unlocked at Intimacy $1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.challenge_current_progress = {
-		tip = "Challenge Mode Round $1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_theme_upload_time = {
-		tip = "Upload Time:"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.dorm3d_collect_favor_plus = {
 		tip = "Bonus: Intimacy+"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_energy_active_box_tip = {
-		tip = "Are you sure you want this ship to undergo Somatic Activation? (The ship will gain a ★ afterwards) "
 	}
 end)()
 
@@ -29001,20 +30851,60 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.levelScene_chapter_count_tip = {
-		tip = "Attempts Remaining:  "
+	_G.pg.base.gametip.levelScene_chapter_notInStrategy = {
+		tip = "Not in progress..."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.time_remaining_tip = {
-		tip = "Time left: "
+	_G.pg.base.gametip.guild_tech_tip = {
+		tip = {
+			{
+				info = "- Guild Tech Info:\n"
+			},
+			{
+				info = "1. Guild Tech Facilities:\nGuild Tech facilities are jointly managed by the entire Guild and grant a number of benefits to its members.\nMembers of the Guild can gain access to these benefits by contributing Guild Tokens and Guild Funds.\nThe facilities themselves are administered by the Guild Leader and Officers, who can choose to upgrade the buildings and make their boosts stronger.\nMembers of the Guild can gain access to these benefits by contributing Guild Tokens and Guild Funds.\nThe facilities themselves are administered by the Guild Leader and Officers, who can choose to upgrade the buildings and make their boosts stronger.\n"
+			},
+			{
+				info = "Facility information and construction options can be found via the button in the top right corner on the Guild Tech screen.\n"
+			},
+			{
+				info = "2. Facility Management:\n- The requirements to use or upgrade a facility can be found on the Guild Tech screen.\n- Facilities must be upgraded by expending Guild Tokens and Guild Funds. If your Contribution Level does not meet a facility's level threshold, the Guild Token and Guild Fund cost will increase.\n- If a player leaves their Guild and does not join another, their facility levels will stay at the highest they upgraded to.\n- If a player leaves their Guild and joins another, their facility levels will carry over to the new Guild, meaning they do not need to start over from scratch.\n"
+			},
+			{
+				info = "3. Factility Level Caps:\nYour facility level cap is determined by whichever is highest between the Guild Tech level of the Guild you are in, or the Public Guild Tech level."
+			},
+			{
+				info = "4. Upgrading Facilities:\nTo upgrade a facility, a Guild Leader or an Officer must go to the Guild Tech screen, enable Research Mode, and choose a facility to upgrade.\nOnce a facility has been chosen, members of the Guild must contribute materials until the bar has fully filled up, at which point the facility will level up."
+			},
+			{
+				info = "5. Contributing Materials:\nTo donate items to your Guild, go to the Contributions screen and select the items you wish to give.\nOnce a facility has been chosen, members of the Guild must contribute materials until the bar has fully filled up, at which point the facility will level up.\n\nThe Guild can only change which facility it upgrades once every 24 hours. The default facility upgrade is the Guild Roster Expansion.\nThe number of progress increments that can be made in one day is determined by the amount of Guild members multiplied by 3. If you exceed this threshold, contributing items will yield no further progress, but you will still gain Guild Tokens."
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_word_picked = {
-		tip = "Elite"
+	_G.pg.base.gametip.challenge_current_progress = {
+		tip = "Challenge Mode Round $1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_theme_upload_time = {
+		tip = "Upload Time:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_mail_page = {
+		tip = "Mail"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_energy_active_box_tip = {
+		tip = "Are you sure you want this ship to undergo Somatic Activation? (The ship will gain a ★ afterwards) "
 	}
 end)()
 
@@ -29025,8 +30915,38 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_warning_520034 = {
-		tip = "Completing the retrofit will change the ship's designation into:\nGuided-Missile Destroyer (Vanguard Mode)\nHer stats and combat performance may change significantly.\nProceed with retrofit?"
+	_G.pg.base.gametip.unique_ship_retire_protect = {
+		tip = "Accidental Retire Protection"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_buildShipImmediately_error_noItem = {
+		tip = "You don't have any Quick Finishers."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_photo_lighting = {
+		tip = "Lighting"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_word_picked = {
+		tip = "Elite"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.indexsort_rarityeng = {
+		tip = "Rarity"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_photo_paramaters = {
+		tip = "Parameters"
 	}
 end)()
 
@@ -29049,8 +30969,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.intimacy_desc_6_buff = {
-		tip = "Current buff: All base stats (except speed and gear) +9%"
+	_G.pg.base.gametip.dorm3d_photo_focusstrength = {
+		tip = "Blur Intensity"
 	}
 end)()
 
@@ -29067,8 +30987,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100200 = {
-		tip = "The third party account is already bound with another UID"
+	_G.pg.base.gametip.award_max_warning_minigame = {
+		tip = "Any rewards that <color=#ff5c5c>exceed your max storage capacity</color> will be discarded if you claim them. Do you wish to continue?"
 	}
 end)()
 
@@ -29119,14 +31039,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_photo_focusstrength = {
-		tip = "Blur Intensity"
+	_G.pg.base.gametip.activity_0815_town_memory = {
+		tip = "Insufficient items. Complete event missions to unlock more event stories!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.child_archive_name = {
-		tip = "Name"
+	_G.pg.base.gametip.gold = {
+		tip = "Funds"
 	}
 end)()
 
@@ -29149,14 +31069,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.activity_0815_town_memory = {
-		tip = "Insufficient items. Complete event missions to unlock more event stories!"
+	_G.pg.base.gametip.mini_game_over_game = {
+		tip = "Quit"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.tech_simulate_closed = {
-		tip = "You have not yet unlocked the Battle Simulation feature."
+	_G.pg.base.gametip.town_lock_level = {
+		tip = "This will unlock after you read the story."
 	}
 end)()
 
@@ -29203,8 +31123,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.town_place_next_title = {
-		tip = "On the next level:"
+	_G.pg.base.gametip.MonopolyCar2024Game_total_num_tip = {
+		tip = "Attempts: $1"
 	}
 end)()
 
@@ -29227,14 +31147,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.town_lock_level = {
-		tip = "This will unlock after you read the story."
+	_G.pg.base.gametip.MonopolyCar2024Game_open_auto_tip = {
+		tip = "You have unlocked auto-advance mode. You will automatically pick a new crewmate when you pass the starting line."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.levelScene_tracking_error_pre_2 = {
-		tip = "Unlocked by clearing $1 or $2."
+	_G.pg.base.gametip.MonopolyCar2024Game_sel_label = {
+		tip = "Choose"
 	}
 end)()
 
@@ -29251,14 +31171,18 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.sitelasibao_expup_name = {
-		tip = "EXP Boost"
+	_G.pg.base.gametip.MonopolyCar2024Game_pick_tip = {
+		tip = "You can pick a crewmate at the starting line. Completing a lap with a crewmate can yield a reward."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.MonopolyCar2024Game_total_num_tip = {
-		tip = "Attempts: $1"
+	_G.pg.base.gametip["202406_main_help"] = {
+		tip = {
+			{
+				info = "- Overview -\nThe Welcome to Little Academy event is available from <color=#92fc63>June 27th to July 10th</color>!\nComplete missions, build your fleets, and clear the event stages to collect Colorful Doodles and earn rewards!\n\n· Tap the bottom left button to switch between story and operation modes.\n· In operation mode, build your fleets and take on the SP stage to receive Colorful Doodles. Accumulate these to earn rewards, including the Elite shipgirl <color=#92fc63>U-31</color> and the limited gear <color=#92fc63>533mm Improved Quadruple Magnetic Torpedo Mount</color>!\n· From the homework menu, you can view and claim rewards for any event missions you've accomplished.\n· Go to story mode to read the fun event story. Read it to the end to receive a special gear skin.\n· Head to the playground and position your shipgirls to let them recover their Morale more quickly.\n· Use little star construction vouchers to upgrade the event buildings."
+			}
+		}
 	}
 end)()
 
@@ -29299,8 +31223,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.MonopolyCar2024Game_sel_label = {
-		tip = "Choose"
+	_G.pg.base.gametip.settings_enter_standby_mode_time = {
+		tip = "Automatic Idle Screen Activation"
 	}
 end)()
 
@@ -29311,24 +31235,41 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip["202406_main_help"] = {
+	_G.pg.base.gametip.senran_pt_words_zi = {
 		tip = {
 			{
-				info = "- Overview -\nThe Welcome to Little Academy event is available from <color=#92fc63>June 27th to July 10th</color>!\nComplete missions, build your fleets, and clear the event stages to collect Colorful Doodles and earn rewards!\n\n· Tap the bottom left button to switch between story and operation modes.\n· In operation mode, build your fleets and take on the SP stage to receive Colorful Doodles. Accumulate these to earn rewards, including the Elite shipgirl <color=#92fc63>U-31</color> and the limited gear <color=#92fc63>533mm Improved Quadruple Magnetic Torpedo Mount</color>!\n· From the homework menu, you can view and claim rewards for any event missions you've accomplished.\n· Go to story mode to read the fun event story. Read it to the end to receive a special gear skin.\n· Head to the playground and position your shipgirls to let them recover their Morale more quickly.\n· Use little star construction vouchers to upgrade the event buildings."
+				"1100006/pt1",
+				"I'll... give it my best shot."
+			},
+			{
+				"1100006/pt2",
+				"Do you think I've gotten stronger?"
+			},
+			{
+				"1100006/pt3",
+				"I want to try a little harder."
+			},
+			{
+				"1100006/pt4",
+				"I feel like... I've gotten the hang of this."
+			},
+			{
+				"1100006/pt5",
+				"I can do just a little more... if you can."
 			}
 		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip["202406_wenquan_unlock_tip2"] = {
-		tip = "Insufficient materials."
+	_G.pg.base.gametip.settings_enable_standby_mode = {
+		tip = "Enable Idle Screen"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.settings_enter_standby_mode_time = {
-		tip = "Automatic Idle Screen Activation"
+	_G.pg.base.gametip.tec_tendency_x = {
+		tip = "PR/DR $1"
 	}
 end)()
 
@@ -29351,14 +31292,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.settings_flagship_interaction = {
-		tip = "Play Voice Lines on Idle Screen"
+	_G.pg.base.gametip.resource_max_tip_battle = {
+		tip = "You will be unable to receive Coins as rewards from this attack. Continue?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_furnitrue_type_table = {
-		tip = "Tables"
+	_G.pg.base.gametip.change_skin_asmr_desc_1 = {
+		tip = "Returning to the previous screen. Please mind the volume."
 	}
 end)()
 
@@ -29399,116 +31340,48 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.help_monopoly = {
-		tip = {
-			{
-				info = "Rules:"
-			},
-			{
-				info = "1. Tapping the dice on the bottom right corner of the screen \nwill consume 1 Die, and you will be able to move once on \nthe board；"
-			},
-			{
-				info = "2. For every 8 Dice you use, you will receive a New Year's \nGift"
-			},
-			{
-				info = "3. The first 7 New Year's Gifts are special and contain a \nbigger reward, the 8th onward will contain regular rewards"
-			},
-			{
-				info = "4. During the event, players will receive 4 additional Dice \neach day. Dice can also be acquired through the \"An Shan's \nColoring Book\" and \"Fu Shun's Great Adventure\" events；"
-			},
-			{
-				info = "5. Clearing the board 10 times and reaching the starting \npoint for the 11th time will reward you with Kimberly's skin \n- \"Style of the East\"；"
-			},
-			{
-				info = "6. All tiles on the board have various effects. In addition, \npassing the starting point will reward you with a small \namount of Coins；"
-			},
-			{
-				info = "       : You will get a small amount of Coins；",
-				icon = {
-					path = "jinbi",
-					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
-					posX = 0
-				}
-			},
-			{
-				info = "      ：You will acquire a small amount of Oil；",
-				icon = {
-					path = "shiyou",
-					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
-					posX = 0
-				}
-			},
-			{
-				info = "      ：A random Chance Event will occur；",
-				icon = {
-					path = "minyun",
-					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
-					posX = 0
-				}
-			},
-			{
-				info = "      ：You will acquire a random item；",
-				icon = {
-					path = "daoju",
-					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
-					posX = 0
-				}
-			},
-			{
-				info = "      ：Random movement event；",
-				icon = {
-					path = "teshu",
-					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
-					posX = 0
-				}
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.unique_ship_retire_before_tip = {
-		tip = "Confirm"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.couplet_index_desc = {
-		tip = "Poem $1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.unique_ship_retire_protect = {
-		tip = "Accidental Retire Protection"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.one_click_retire_subtitle = {
 		tip = "Mass Retire Settings"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.multiple_sorties_resume_tip = {
-		tip = "Continuing <color=#92fc63>Auto-Repeat</color>."
+	_G.pg.base.gametip.battle_result_defeat_all_enemys = {
+		tip = "Defeat all enemy ships"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_impeach_sucess = {
-		tip = "Impeachment successful!"
+	_G.pg.base.gametip.text_nofood_no = {
+		tip = "Ignore"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.UrExchange_Pt_charges = {
+		tip = "($1 times remaining)"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.UrExchange_Pt_NotEnough = {
+		tip = "You don't have enough exchange points."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_equipment_skin = {
+		tip = {
+			{
+				info = "Different shipgirls use different weapons\n\n• Guns under 140mm:\nused as the main gun of Destroyers and some Light Cruisers, and secondary gun of Battleships, \nLight Cruisers, Heavy Cruisers and Battlecruisers\n\n• Guns bigger than140mm and under 200mm:\nused as the main gun of  Light Cruisers, and secondary gun of some Battleships\n\n• Guns bigger than 200mm and under 283mm:\nused as the main gun of Heavy Cruisers\n\n• Guns bigger than 283mm:\nused as the main gun of Battleships and Battlecruisers\n\n• Torpedos are used as secondary weapons of Destroyers and some Light Cruisers and Heavy Cruisers\n\n• Anti-Air weapons are equipped on most shipgirls\n\n• Different Carriers can carry different aircrafts\n\n• Equipment avatars change animation effects\n(Equipment avatars do not take storage space) "
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.liner_activity_lock = {
+		tip = "Unlocked by completing the Before the Voyage event."
 	}
 end)()
 
@@ -29525,8 +31398,30 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.UrExchange_Pt_charges = {
-		tip = "($1 times remaining)"
+	_G.pg.base.gametip.liner_help = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/2024liner",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	}
 end)()
 
@@ -29537,8 +31432,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.UrExchange_Pt_NotEnough = {
-		tip = "You don't have enough exchange points."
+	_G.pg.base.gametip.liner_event_title3 = {
+		tip = "Clue 3"
 	}
 end)()
 
@@ -29567,8 +31462,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.liner_activity_lock = {
-		tip = "Unlocked by completing the Before the Voyage event."
+	_G.pg.base.gametip.vote_lable_ship_votes = {
+		tip = "$1 vote(s)"
 	}
 end)()
 
@@ -29604,37 +31499,7 @@ end)()
 
 (function()
 	_G.pg.base.gametip.island_season_review_produce = {
-		tip = "Island Production"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["2023spring_minigame_tip1"] = {
-		tip = "Equip"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_count = {
-		tip = "Amount"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_skill_ui_confirm = {
-		tip = "Confirm"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_dockyardScene_error_choiseRoleMore = {
-		tip = "Must select at least <color=#92fc63>$1</color> character(s)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.liner_event_get_tip = {
-		tip = "Clues Obtained: $1"
+		tip = "Production Statistics"
 	}
 end)()
 
@@ -29645,8 +31510,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.word_count = {
+		tip = "Amount"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.pipe_minigame_rank = {
 		tip = "Only Show Friends and Guildmates"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.liner_event_award_tip2 = {
+		tip = "You have found all the clues."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.launch_ball_shimakaze_skill_1_desc = {
+		tip = "Lightning Upon the Wind: Repels all youkai in a fan-shaped area in front of Shimakaze, granting the corresponding base score."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.liner_log_event_group_title3 = {
+		tip = "Record - 3"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.liner_log_event_group_title1 = {
+		tip = "Record - 1"
 	}
 end)()
 
@@ -29675,14 +31570,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.liner_event_award_tip2 = {
-		tip = "You have found all the clues."
+	_G.pg.base.gametip.formation_switch_success = {
+		tip = "Changed to $1."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.siren_chase_warning = {
-		tip = "Expanding Hazard Zone"
+	_G.pg.base.gametip.liner_log_event_title = {
+		tip = "Investigate Case"
 	}
 end)()
 
@@ -29693,20 +31588,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.same_player_name_tip = {
-		tip = "You cannot use this name "
+	_G.pg.base.gametip.draw_big_luck_3 = {
+		tip = "Something good will surely come your way today nya!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.liner_log_event_group_title1 = {
-		tip = "Record - 1"
+	_G.pg.base.gametip.guild_tech_label_condition = {
+		tip = "New progress milestone has been reached."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.intensify = {
-		tip = "Enhance"
+	_G.pg.base.gametip.dorm3d_furniture_used = {
+		tip = "<color=#00a3ef>[Placed]</color>"
 	}
 end)()
 
@@ -29735,14 +31630,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200110 = {
-		tip = "Monthly purchase limit exceeded"
+	_G.pg.base.gametip.liner_sign_unlock_tip = {
+		tip = "Unlocks on 5/21"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.tec_target_catchup_none_x = {
-		tip = "PR$1 / Not Selected"
+	_G.pg.base.gametip.roll_room9 = {
+		tip = "Banquet Hall"
 	}
 end)()
 
@@ -29753,8 +31648,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.player_expResource_mail_fullBag = {
-		tip = "You won't be able to collect resources that exceed the storage limit. Are you sure you want to continue?"
+	_G.pg.base.gametip.friend_resume_attack_win_rate = {
+		tip = "ATK-WR:"
 	}
 end)()
 
@@ -29765,8 +31660,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.mingshi_get_tip = {
-		tip = "Found a Peculiar Material!"
+	_G.pg.base.gametip.commission_label_unlock_event_tip = {
+		tip = "Unlocks at Commander Level 12"
 	}
 end)()
 
@@ -29789,8 +31684,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.liner_sign_unlock_tip = {
-		tip = "Unlocks on 5/21"
+	_G.pg.base.gametip.commission_label_go_mellow = {
+		tip = "Confirm"
 	}
 end)()
 
@@ -29807,20 +31702,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commission_label_unlock_event_tip = {
-		tip = "Unlocks at Commander Level 12"
+	_G.pg.base.gametip.main_silent_tip_5 = {
+		tip = "There are claimable resources."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.commission_label_finish_mellow = {
-		tip = "Complete"
+	_G.pg.base.gametip.main_silent_tip_4 = {
+		tip = "ship(s) finished tactical training"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.commission_label_go_mellow = {
-		tip = "Confirm"
+	_G.pg.base.gametip.courtyard_label_detail = {
+		tip = "Details"
 	}
 end)()
 
@@ -29843,8 +31738,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commission_label_go = {
-		tip = "Confirm"
+	_G.pg.base.gametip.main_silent_tip_2 = {
+		tip = "ship(s) finished construction"
 	}
 end)()
 
@@ -29855,8 +31750,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.main_silent_tip_5 = {
-		tip = "There are claimable resources."
+	_G.pg.base.gametip.dorm3d_unlock_tips = {
+		tip = "Unlocked at Intimacy $1"
 	}
 end)()
 
@@ -29873,38 +31768,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.main_silent_tip_4 = {
-		tip = "ship(s) finished tactical training"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_backyardGranaryLayer_noFood = {
-		tip = "Commander, there's nothing to eat~ We're starving!"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_instruction_supply_2 = {
-		tip = "$1 until this command can be given again. "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.main_silent_tip_2 = {
-		tip = "ship(s) finished construction"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_unlock_tips = {
-		tip = "Unlocked at Intimacy $1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.charge_title = {
-		tip = "Spend $1 to buy $3 x$2"
+	_G.pg.base.gametip.equipment_skin_unload_failed = {
+		tip = "Failed to apply skin on the new ship"
 	}
 end)()
 
@@ -29915,20 +31780,50 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.world_instruction_supply_2 = {
+		tip = "$1 until this command can be given again. "
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.dorm3d_now_time = {
 		tip = "Current Time"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_time_choose = {
-		tip = "Select Time"
+	_G.pg.base.gametip.island_exchange_title_en = {
+		tip = "Crafting"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.sort_intimacy = {
-		tip = "Affinity"
+	_G.pg.base.gametip.levelScene_notCargo = {
+		tip = "No treasure chest found."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.special_animal5 = {
+		tip = "[Uranami's Collection of Cuties - #5] Inwanshirible: somehow, this dog learned how to make itself nearly invisible. Keyword: nearly. Its fluffy butt remains in full view."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_waiting = {
+		tip = "Setting Up"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_furniture_unfit = {
+		tip = "Unusable"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_furniture_lack = {
+		tip = "[Unobtained]"
 	}
 end)()
 
@@ -29951,8 +31846,12 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_furniture_unfit = {
-		tip = "Unusable"
+	_G.pg.base.gametip.idol3rd_practice = {
+		tip = {
+			{
+				info = "- Rehearsal Overview -\n\nComplete event missions and clear event stages to earn <color=#92fc63>Harmonious Emblems</color>, which can be used to initiate rehearsals.\nCheck back regularly to see if you've collected enough for another rehearsal.\n\nThere are 3 types of rehearsal, each granting a different bonus.\nAdditionally, your rehearsal level for a given category increases as you perform it again. Maxing out your rehearsal level will award you an additional bonus at the end.\n\nThe 3 rehearsal types are as follows:\n1. Vocal Appeal - Increases the DMG your ships deal in battle.\n2. Glamorous Steps - Decreases the DMG your ships take in battle.\n3. Memorable Performance - Increases the EXP your ships gain in battle.\n\nIf you're not sure what your current rehearsal level is, you can check it from the right-hand-side of the event banner."
+			}
+		}
 	}
 end)()
 
@@ -29963,8 +31862,18 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_furniture_lack = {
-		tip = "[Unobtained]"
+	_G.pg.base.gametip.idol3rd_houshan = {
+		tip = {
+			{
+				info = "- Heart-Linking Harmony Overview -"
+			},
+			{
+				info = "The Heart-Linking Harmony event screen is a quick and easy way to navigate to all functions and features of the event.\n"
+			},
+			{
+				info = "- Features -\nEvent Stages:\nSpecial stages available only during the event. Clearing a stage will award you with Harmonious Emblems, the event currency.\n \nExchange:\nThe event shop where you can exchange your Harmonious Emblems for various rewards.\n \nMilestone Rewards:\nClaim rewards based on the total number of Harmonious Emblems you've gathered, including the shipgirl Le Téméraire µ.\n \nLimited Construction:\nJump to the event construction page where you can build the newly added shipgirls.\n \nNew Skins:\nJump to the skins shop and check out the latest fashion.\n \nCommemoration:\nComplete different objectives to obtain memorabilia. After obtaining all of it, you'll receive the limited event furniture, Harmonious Stages.\n \nMinigame:\nJump to the event minigame, a rhythm game. Play it for 7 days to receive the limited event gear, Harmony μ Ticket."
+			}
+		}
 	}
 end)()
 
@@ -29987,58 +31896,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_furniture_used = {
-		tip = "<color=#00a3ef>[Placed]</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_furniture_count = {
-		tip = "Amount: $1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.idol3rd_practice = {
-		tip = {
-			{
-				info = "- Rehearsal Overview -\n\nComplete event missions and clear event stages to earn <color=#92fc63>Harmonious Emblems</color>, which can be used to initiate rehearsals.\nCheck back regularly to see if you've collected enough for another rehearsal.\n\nThere are 3 types of rehearsal, each granting a different bonus.\nAdditionally, your rehearsal level for a given category increases as you perform it again. Maxing out your rehearsal level will award you an additional bonus at the end.\n\nThe 3 rehearsal types are as follows:\n1. Vocal Appeal - Increases the DMG your ships deal in battle.\n2. Glamorous Steps - Decreases the DMG your ships take in battle.\n3. Memorable Performance - Increases the EXP your ships gain in battle.\n\nIf you're not sure what your current rehearsal level is, you can check it from the right-hand-side of the event banner."
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_puzzle_get14 = {
-		tip = "<color=#A9F548FF>How to get: \nmission 5</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.idol3rd_houshan = {
-		tip = {
-			{
-				info = "- Heart-Linking Harmony Overview -"
-			},
-			{
-				info = "The Heart-Linking Harmony event screen is a quick and easy way to navigate to all functions and features of the event.\n"
-			},
-			{
-				info = "- Features -\nEvent Stages:\nSpecial stages available only during the event. Clearing a stage will award you with Harmonious Emblems, the event currency.\n \nExchange:\nThe event shop where you can exchange your Harmonious Emblems for various rewards.\n \nMilestone Rewards:\nClaim rewards based on the total number of Harmonious Emblems you've gathered, including the shipgirl Le Téméraire µ.\n \nLimited Construction:\nJump to the event construction page where you can build the newly added shipgirls.\n \nNew Skins:\nJump to the skins shop and check out the latest fashion.\n \nCommemoration:\nComplete different objectives to obtain memorabilia. After obtaining all of it, you'll receive the limited event furniture, Harmonious Stages.\n \nMinigame:\nJump to the event minigame, a rhythm game. Play it for 7 days to receive the limited event gear, Harmony μ Ticket."
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.list_empty_tip_friendui = {
-		tip = "Your friends list is empty."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_target_catchup_select_tip = {
-		tip = "Would you like to prioritize $1 Research?"
+	_G.pg.base.gametip.world_mapbuff_tip = {
+		tip = "All enemies within this zone are strengthened."
 	}
 end)()
 
@@ -30055,14 +31914,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.sham_count_limit = {
-		tip = "This Simulation battle is complete."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_notPosition_shipExit = {
-		tip = "Dorm is full. Ship has left the dorm."
+	_G.pg.base.gametip.activity_puzzle_get14 = {
+		tip = "<color=#A9F548FF>How to get: \nmission 5</color>"
 	}
 end)()
 
@@ -30119,6 +31972,94 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.list_empty_tip_friendui = {
+		tip = "Your friends list is empty."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.otherworld_backhill_help = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/otherworld_help1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/otherworld_help2",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/otherworld_help3",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/otherworld_help4",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/otherworld_help5",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.personal_random_tip = {
+		tip = "Unlocks after <color=#92fc63>reading the story</color>."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.Announcements_Donotshow = {
+		tip = "Don't show again today"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.sham_count_limit = {
+		tip = "This Simulation battle is complete."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_notPosition_shipExit = {
+		tip = "Dorm is full. Ship has left the dorm."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.Announcements_Event_Notice = {
+		tip = "Event"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.island_visit_set_help = {
 		tip = "Island Visits Enabled: Only the group of users chosen may visit the island.\nIsland Visits Disabled: No guests may visit the island.\nInvite Code: If island visits are enabled, as long as a user is not on your blacklist, they may visit the island using a code.\nInvite Code Reset: Your visit code can be reset once a day."
 	}
@@ -30149,32 +32090,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.Announcements_Donotshow = {
-		tip = "Don't show again today"
+	_G.pg.base.gametip.skin_shop_buy_confirm = {
+		tip = "Do you want to use <color=$1>$2 Gems</color> to buy <color=#92fc63FF>$3</color>?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.Announcements_Event_Notice = {
-		tip = "Event"
+	_G.pg.base.gametip.guardian_select_title = {
+		tip = "Choose Blessing"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.adventure_get_all = {
-		tip = "Claim All"
+	_G.pg.base.gametip.world_target_goto = {
+		tip = "Enter Zone "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_word_member = {
-		tip = "Members"
+	_G.pg.base.gametip.Settings_title_sound = {
+		tip = "Audio Settings"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.other_world_temple_char_title = {
-		tip = "Blessings"
+	_G.pg.base.gametip.new_airi_error_code_100220 = {
+		tip = "Authorization canceled"
 	}
 end)()
 
@@ -30185,8 +32126,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guardian_select_title = {
-		tip = "Choose Blessing"
+	_G.pg.base.gametip.adventure_progress_title = {
+		tip = "Next level in:"
 	}
 end)()
 
@@ -30219,14 +32160,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200310 = {
-		tip = "Unable to connect to Google Play service"
+	_G.pg.base.gametip.guild_not_exist_notifycation = {
+		tip = "There is are no entries on the Guild's message board."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_automode_setting_1 = {
-		tip = "Auto-Search by Corrosion Level:"
+	_G.pg.base.gametip.personal_info_title = {
+		tip = "Basic Info"
 	}
 end)()
 
@@ -30249,8 +32190,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.adventure_progress_title = {
-		tip = "Next level in:"
+	_G.pg.base.gametip.island_survey_ui_button = {
+		tip = ""
 	}
 end)()
 
@@ -30273,42 +32214,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.adventure_award_title = {
-		tip = "Adventurer Level Reward"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_fleet_update_done = {
-		tip = "Fleet composition has been updated."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.personal_info_title = {
-		tip = "Basic Info"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.terminal_adventure_title = {
-		tip = "Adventure Data"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_part_sub_title = {
-		tip = "Use (Auxiliary)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_year = {
-		tip = "一年内"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.terminal_personal_title = {
 		tip = "Commander Info"
 	}
@@ -30327,6 +32232,42 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.new_airi_error_code_100200 = {
+		tip = "The third party account is already bound with another UID"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_part_sub_title = {
+		tip = "Use (Auxiliary)"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_year = {
+		tip = "一年内"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_takeAttachment_error_noAttach = {
+		tip = "Failed to collect rewards."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tips_fail_secondarypwd_much_times = {
+		tip = "Your Secondary Password is incorrect. Please try again after <color=#92FC63>%s</color>."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.other_world_task_type_daily = {
+		tip = "Daily"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.shop_new_skin_new = {
 		tip = "Limited"
 	}
@@ -30339,8 +32280,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.challenge_season_update_casual_switch = {
-		tip = "You are currently playing on Normal Mode.\nTotal score: $1.\nSince the Challenge Stage lineup has changed, this won't affect your high score.\nWould you like to change modes?"
+	_G.pg.base.gametip.other_world_temple_lottery_all = {
+		tip = "You have obtained all rewards"
 	}
 end)()
 
@@ -30369,32 +32310,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.other_world_temple_award_desc = {
-		tip = "Give Royal Coins the manjuu statue to receive rewards and a blessing."
+	_G.pg.base.gametip.other_world_temple_award_last = {
+		tip = "$1/$2 Remaining"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.other_world_temple_lottery_all = {
-		tip = "You have obtained all rewards"
+	_G.pg.base.gametip.other_world_temple_char_title = {
+		tip = "Blessings"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_result_dmg = {
-		tip = "Damage"
+	_G.pg.base.gametip.other_world_temple_char = {
+		tip = "Blessings"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_warning_521044 = {
-		tip = "Completing the retrofit will change the ship's designation into:\nGuided-Missile Destroyer (Main Fleet Mode)\nHer stats and combat performance may change significantly.\nProceed with retrofit?"
+	_G.pg.base.gametip.other_world_temple_toggle_2 = {
+		tip = "Statue of Harvest"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.levelScene_tracking_error_3001 = {
-		tip = "A ship is currently under commission. Unable to attack."
+	_G.pg.base.gametip.login_register_full = {
+		tip = "Too many players registered."
 	}
 end)()
 
@@ -30405,8 +32346,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.other_world_temple_award_last = {
-		tip = "$1/$2 Remaining"
+	_G.pg.base.gametip.other_world_temple_toggle_1 = {
+		tip = "Statue of Power"
 	}
 end)()
 
@@ -30429,8 +32370,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.other_world_temple_char = {
-		tip = "Blessings"
+	_G.pg.base.gametip.word_show_extra_reward_at_fudai_dialog = {
+		tip = "(<color=#92fc63>Bonus $1</color>)"
 	}
 end)()
 
@@ -30445,26 +32386,39 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.other_world_temple_toggle_1 = {
-		tip = "Statue of Power"
+	_G.pg.base.gametip.MeixiV4_help = {
+		tip = {
+			{
+				info = "\"Silver Archives\" Prelude Event Info:"
+			},
+			{
+				info = "1. During the event, clear the available event mission to unlock the next mission."
+			},
+			{
+				info = "2. Complete missions to get rewards including the limited gear Action Report: Operation AF."
+			},
+			{
+				info = "3. Each days' rewards are as follows:\nMission 1: 5 T2 Plates, 100 Coins.\nMission 2: Unlocks Part 1 of the event story.\nMission 3: 2 T2 Retrofit Blueprints.\nMission 4: 100 Coins.\nMission 5: 3 T2 Tech Packs, 100 Coins.\nMission 6: Unlocks Part 2 of the event story.\nMission 7: 3 Naval Curry.\nMission 8: 100 Coins.\nMission 9: T3 Tech Pack, 100 Coins.\nMission 10: Unlocks Part 3 of the event story.\nMission 11: 2 T3 Skill Books.\nMission 12: 100 Coins.\nMission 13: Action Report: Operation AF, 100 Coins.\nMission 14: Unlocks Part 4 of the event story."
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.skin_shop_buy_confirm = {
-		tip = "Do you want to use <color=$1>$2 Gems</color> to buy <color=#92fc63FF>$3</color>?"
+	_G.pg.base.gametip.word_week_day7 = {
+		tip = "Sunday"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_show_extra_reward_at_fudai_dialog = {
-		tip = "(<color=#92fc63>Bonus $1</color>)"
+	_G.pg.base.gametip.word_week_day6 = {
+		tip = "Saturday"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_get_emoji = {
-		tip = "「$1」"
+	_G.pg.base.gametip.blueprint_simulation_confirm_19905 = {
+		tip = "<size=28>\nWould you like to start a Battle Simulation?\n(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)\nEquipment: <color=#92fc63>\nSingle 127mm Main Gun\n533mm Quintuple Torpedo Mount\nPrototype F8F Bearcat (Float)</color></size>"
 	}
 end)()
 
@@ -30491,14 +32445,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_kiss = {
-		tip = "*Mwah!*"
+	_G.pg.base.gametip.guild_get_week_done = {
+		tip = "New Guild Missions have already been posted."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.intimacy_desc_5_detail = {
-		tip = "$1 looks at you with eyes full of love.\n<color=#92fc63><size=18>All stats (except Speed) +6%</size></color>"
+	_G.pg.base.gametip.challenge_season_update_infinite_clear = {
+		tip = "Current Stage: $1.\nSince the Challenge Stage lineup has changed, this won't affect your high score.\nWould you like to restart Challenge Mode?"
 	}
 end)()
 
@@ -30521,8 +32475,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_week_day7 = {
-		tip = "Sunday"
+	_G.pg.base.gametip.ship_remould_need_level = {
+		tip = "Lvl: $1"
 	}
 end)()
 
@@ -30533,8 +32487,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_week_day6 = {
-		tip = "Saturday"
+	_G.pg.base.gametip.child_target_set_empty = {
+		tip = "Growth Goal not set yet."
 	}
 end)()
 
@@ -30545,8 +32499,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_49903 = {
-		tip = "<size=28>Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.\nEquipped gear:<color=#92fc63>\nTriple 150mm Main Gun (SK C/25) \nQuadruple 533mm Magnetic Torpedo\nTwin 105mm AA Gun (SK C)</color></size>"
+	_G.pg.base.gametip.child_unlock_new_secretary = {
+		tip = "You've unlocked a new clothing module. You can change clothing settings from the special secretary screen."
 	}
 end)()
 
@@ -30563,8 +32517,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child_target_set_empty = {
-		tip = "Growth Goal not set yet."
+	_G.pg.base.gametip.child_random_ops_drop = {
+		tip = "Random Rewards"
 	}
 end)()
 
@@ -30575,8 +32529,12 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child_task_finish_all = {
-		tip = "Current growth goals achieved."
+	_G.pg.base.gametip.help_chunjie2024 = {
+		tip = {
+			{
+				info = "Even lasts between <color=#92fc63>January 30th and February 21st</color>.\n\n- Overview -\n<color=#92fc63>Retrofit</color>: Complete all event missions to receive the retrofit material for <color=#92fc63>Tai Yuan</color>.\n<color=#92fc63>Fei Yuan's Adventure</color>: Log in to the game to receive the shipgirl <color=#92fc63>Fei Yuen</color> and gear skins.\n<color=#92fc63>Fireworks</color>: Complete chapter 3+ story stages or Joint Operation stages to earn Festive Shooting Stars. Unlock all fireworks to receive the limited shipgirl <color=#92fc63>Ting An</color>.\n<color=#92fc63>Drawing Book</color>: Gather paint and fill in the paintings to receive the shipgirl <color=#92fc63>An Shan</color>.\n<color=#92fc63>Fu Shun's Great Adventure</color>: Play the minigame over 7 days to receive the shipgirl <color=#92fc63>Fu Shun</color>.\n<color=#92fc63>Manjuu Resort</color>: Open the Red Envelopes you've collected through mini-events and minigames. Open 15 in total to receive a skin for Fu Shun. Open 25 in total to receive a new skin for Wakatsuki, <color=#92fc63>Blue Sparrow Heralding Spring</color>.\n<color=#92fc63>New Skins</color>: Check out the latest shipgirl fashion.\n<color=#92fc63>Limited Construction</color>: Brings you to the build screen."
+			}
+		}
 	}
 end)()
 
@@ -30587,10 +32545,10 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.maid_task_tips1 = {
+	_G.pg.base.gametip.help_jiujiu_expedition_game = {
 		tip = {
 			{
-				info = "- Overview -\n· The Tonic and Tea mini-event centers around a story of two competing shops – a Royal Navy teahouse and an Iron Blood café.\n· Complete event missions to earn Store Upgrade Permits. These permits can be used to upgrade the shops around the New Year's Port.\n\n- How to Play -\n· 2 new event missions will be unlocked every day up to January 4th. Complete these missions to earn Store Upgrade Permits.\n· You can use your Store Upgrade Permits to upgrade the Royal Navy Teahouse and Iron Blood Café found on the New Year's Port screen.\n· Upgrading these shops will provide your fleet with buffs that last for the entire duration of the event.\n· Once you complete all the event missions, you can go to the event banner to claim a piece of exclusive furniture.\n· Upgrading all shops to level 4 will unlock a set of hidden missions. Completing these will allow you to see how the entire event story plays out."
+				info = "Minigame Rules:\n1. During the event, tap on a grid in the game area to\nexplore the zone. Each attempt requires exploration\npoints.\n2. Upon reaching 100% exploration in a zone, you\nmay progress to the next zone.\n3. You may only explore grids adjacent to areas you\nhave already explored. Exploration will further increase\nyour population.\n4. The stage has three types of grids: normal grids,\ntreasure grids, and combat grids. The rewards for\nexploring each type of grid differ.\nNotice: Treasure grids must be opened, and enemies\nmust defeated for treasure and combat grids to count\nas explored, respectively."
 			}
 		}
 	}
@@ -30603,14 +32561,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child_random_ops_drop = {
-		tip = "Random Rewards"
+	_G.pg.base.gametip.trade_card_tips3 = {
+		tip = "Heads up, nya. \nThe Trade License you purchased will expire on $1, nya. \nYou can extend your license to continue receiving rewards every day, nya! \nCome visit my shop and see what's on offer, nya~"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.child_random_polaroid_drop = {
-		tip = "Moments"
+	_G.pg.base.gametip.skin_exchange_usetip = {
+		tip = "$1 was sent to your Depot. It can be used from there."
 	}
 end)()
 
@@ -30639,32 +32597,36 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_resourceSiteLayer_shipTypeCount = {
-		tip = "$1 x$2"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.box_account_del_success_content = {
-		tip = "Your account will be deleted in $1."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.skin_exchange_usetip = {
-		tip = "$1 was sent to your Depot. It can be used from there."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.live2d_reset_desc = {
-		tip = "L2D Settings have been reset."
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.skin_page_desc = {
 		tip = "Log in every day to get $1 unlock chance(s). Tap on an icon to unlock the corresponding side story!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.last_times_sign = {
+		tip = "Unlocks Remaining: $1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.newyear2024_backhill_help = {
+		tip = {
+			{
+				info = "Event lasts between <color=#92fc63>December 21st, 2023 to January 3rd, 2023</color>.\n\n- Overview -\nThe New Year's Port campaign consists of the following:\n· New Year's Wishes\n· Operation: Patisserie II (minigame)\n· New Skins\n· Limited Construction\n\n- New Year's Wishes -\nYou receive 1 Ema every day during the campaign. You can have up to 7 of them at a time.\nYou can hang up Ema to receive fleet-wide buffs.\n\n- Operation: Patisserie II -\nYou gain 1 Minigame Point every day during the campaign. You can have up to 7 of them at a time.\nCompleting the minigame while in possession of a Minigame Point will subtract 1 point.\nRewards obtainable from this minigame include the furnitures Surprise Lights, Neon Spotlights, and Bunbun UR Vouchers that can be exchanged for the UR shipgirl Laffey II.\n\n- New Skins -\nThis takes you to the skins shop.\n\n- Limited Construction -\nThis takes you to the build screen.\n"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_skill_ui_confirm = {
+		tip = "Confirm"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100114 = {
+		tip = "IP is restricted during login creation"
 	}
 end)()
 
@@ -30687,12 +32649,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.newyear2024_backhill_help = {
-		tip = {
-			{
-				info = "Event lasts between <color=#92fc63>December 21st, 2023 to January 3rd, 2023</color>.\n\n- Overview -\nThe New Year's Port campaign consists of the following:\n· New Year's Wishes\n· Operation: Patisserie II (minigame)\n· New Skins\n· Limited Construction\n\n- New Year's Wishes -\nYou receive 1 Ema every day during the campaign. You can have up to 7 of them at a time.\nYou can hang up Ema to receive fleet-wide buffs.\n\n- Operation: Patisserie II -\nYou gain 1 Minigame Point every day during the campaign. You can have up to 7 of them at a time.\nCompleting the minigame while in possession of a Minigame Point will subtract 1 point.\nRewards obtainable from this minigame include the furnitures Surprise Lights, Neon Spotlights, and Bunbun UR Vouchers that can be exchanged for the UR shipgirl Laffey II.\n\n- New Skins -\nThis takes you to the skins shop.\n\n- Limited Construction -\nThis takes you to the build screen.\n"
-			}
-		}
+	_G.pg.base.gametip.vote_label_rank = {
+		tip = "Rank"
 	}
 end)()
 
@@ -30727,20 +32685,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.vote_label_rank = {
-		tip = "Rank"
+	_G.pg.base.gametip.vote_lable_daily_task_tip = {
+		tip = "Complete daily missions to receive $1 reward(s)."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.vote_lable_ship_votes = {
-		tip = "$1 vote(s)"
+	_G.pg.base.gametip.vote_lable_daily_task_title = {
+		tip = "Dailies"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_supply_log = {
-		tip = "$1 $2 spent $3 Guild Funds and bought Guild Supplies for $4 day(s)."
+	_G.pg.base.gametip.guild_member_max_count = {
+		tip = "The guild is full!"
 	}
 end)()
 
@@ -30763,20 +32721,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.vote_lable_daily_task_tip = {
-		tip = "Complete daily missions to receive $1 reward(s)."
+	_G.pg.base.gametip.commander_get_skills_done = {
+		tip = "Failed to fetch list of learnable Talents."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.vote_lable_daily_task_title = {
-		tip = "Dailies"
+	_G.pg.base.gametip.vote_lable_curr_title_1 = {
+		tip = "Votes This Round"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_destory_tip = {
-		tip = "You can not retire Priority ships."
+	_G.pg.base.gametip.elite_condition_air = {
+		tip = "Total AVI"
 	}
 end)()
 
@@ -30787,8 +32745,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_soundfiles_download = {
-		tip = "Start Download"
+	_G.pg.base.gametip.vote_lable_acc_title_1 = {
+		tip = "Total Votes"
 	}
 end)()
 
@@ -30805,20 +32763,57 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_shipState_collect = {
-		tip = "She's currently on commission!"
+	_G.pg.base.gametip.world_instruction_help_1 = {
+		tip = {
+			{
+				info = "About Orders:"
+			},
+			{
+				info = "During Operation Siren, you can issue orders to aid you in the operation. Issuing orders costs Action Points.\n\n"
+			},
+			{
+				info = "1. Order: Fleet Redeployment"
+			},
+			{
+				info = "If there is a friendly port in the zone you are in, you can use Action Points to dock at it and change your active fleet composition."
+			},
+			{
+				info = "Redeploying your fleet will repair your ships to full HP and fully restore their Resolve (Operation Siren-only Morale, in essence) in addition to clearing any debuffs they may have.\n\n"
+			},
+			{
+				info = "2. Order: Regroup and Rest"
+			},
+			{
+				info = "Issuing this order will repair your ships to full HP and fully restore their Resolve in addition to clearing the Tolls of War debuff.\n\n"
+			},
+			{
+				info = "3. Order: Reconnaissance"
+			},
+			{
+				info = "This will commence reconnaissance over a zone and give you a more detailed overview of it.\n\n"
+			},
+			{
+				info = "4. Order: Submarine Support"
+			},
+			{
+				info = "Issuing this order will deploy your submarine fleet in the target zone. You must have already created a valid submarine fleet to issue this order."
+			},
+			{
+				info = "This submarine fleet works much the same as the one outside Operation Siren; the submarine fleet’s mode of attack can be changed using the panel on the right-hand side of the screen, and it can be called into battle to provide direct support."
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.vote_lable_window_title = {
-		tip = "Rewards"
+	_G.pg.base.gametip.vote_lable_voting = {
+		tip = "In Progress"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.resource_verify_fail = {
-		tip = "Game resource restoration complete. Restart the game and begin updating. Tap confirm to close the game. $1"
+	_G.pg.base.gametip.vote_lable_not_start = {
+		tip = "Locked"
 	}
 end)()
 
@@ -30835,8 +32830,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.vote_lable_curr_title_1 = {
-		tip = "Votes This Round"
+	_G.pg.base.gametip.dorm3d_furnitrue_type_table = {
+		tip = "Tables"
 	}
 end)()
 
@@ -30902,8 +32897,29 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_furnitrue_type_couch = {
-		tip = "Couches"
+	_G.pg.base.gametip.senran_pt_words_xuebugui = {
+		tip = {
+			{
+				"1100005/pt1",
+				"Thank you for taking this time out of your busy schedule."
+			},
+			{
+				"1100005/pt2",
+				"Heehee. Is this how it's done?"
+			},
+			{
+				"1100005/pt3",
+				"This activity leads to surprising discoveries."
+			},
+			{
+				"1100005/pt4",
+				"Yes, I can see now why you're so widely adored."
+			},
+			{
+				"1100005/pt5",
+				"I look forward to our next time."
+			}
+		}
 	}
 end)()
 
@@ -30914,27 +32930,27 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.senran_pt_words_xishao = {
+	_G.pg.base.gametip.senran_pt_words_feiniao = {
 		tip = {
 			{
-				"1100007/pt1",
-				"I'll... be in your care..."
+				"1100001/pt1",
+				"I've been waiting for you, Commander!"
 			},
 			{
-				"1100007/pt2",
-				"I'll... try to work harder..."
+				"1100001/pt2",
+				"Now I feel tense all of a sudden."
 			},
 			{
-				"1100007/pt3",
-				"I think... I'm a bit more confident now."
+				"1100001/pt3",
+				"Has my training bore fruit?"
 			},
 			{
-				"1100007/pt4",
-				"I still... need to do more."
+				"1100001/pt4",
+				"I could totally keep going!"
 			},
 			{
-				"1100007/pt5",
-				"Next time... I'll need to give it my all as well..."
+				"1100001/pt5",
+				"I'm happy to keep receiving your guidance and encouragement, moving forward!"
 			}
 		}
 	}
@@ -30965,35 +32981,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_mod_skin_unlock = {
-		tip = "Acquire skin: $1 "
+	_G.pg.base.gametip.blueprint_mod_word_unlock = {
+		tip = "Unlocks voice line: $1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.senran_pt_words_xuebugui = {
-		tip = {
-			{
-				"1100005/pt1",
-				"Thank you for taking this time out of your busy schedule."
-			},
-			{
-				"1100005/pt2",
-				"Heehee. Is this how it's done?"
-			},
-			{
-				"1100005/pt3",
-				"This activity leads to surprising discoveries."
-			},
-			{
-				"1100005/pt4",
-				"Yes, I can see now why you're so widely adored."
-			},
-			{
-				"1100005/pt5",
-				"I look forward to our next time."
-			}
-		}
+	_G.pg.base.gametip.senran_pt_not_enough = {
+		tip = "Insufficient <color=#92fc63>Shinobi Teachings</color>."
 	}
 end)()
 
@@ -31010,29 +33005,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.senran_pt_words_yan = {
-		tip = {
-			{
-				"1100003/pt1",
-				"Heheh, this'll be fun. I have high hopes."
-			},
-			{
-				"1100003/pt2",
-				"C'mon, no breaks! Next one!"
-			},
-			{
-				"1100003/pt3",
-				"You're not half-bad at this, Commander."
-			},
-			{
-				"1100003/pt4",
-				"Surely we're not done already?"
-			},
-			{
-				"1100003/pt5",
-				"Nice work. I can feel my new strength, and it's all thanks to you."
-			}
-		}
+	_G.pg.base.gametip.shan_luan_task_buff_default = {
+		tip = "???"
 	}
 end)()
 
@@ -31043,29 +33017,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.senran_pt_words_feiniao = {
-		tip = {
-			{
-				"1100001/pt1",
-				"I've been waiting for you, Commander!"
-			},
-			{
-				"1100001/pt2",
-				"Now I feel tense all of a sudden."
-			},
-			{
-				"1100001/pt3",
-				"Has my training bore fruit?"
-			},
-			{
-				"1100001/pt4",
-				"I could totally keep going!"
-			},
-			{
-				"1100001/pt5",
-				"I'm happy to keep receiving your guidance and encouragement, moving forward!"
-			}
-		}
+	_G.pg.base.gametip.shan_luan_task_level_tip = {
+		tip = "Secret Level: $1"
 	}
 end)()
 
@@ -31112,14 +33065,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.senran_pt_not_enough = {
-		tip = "Insufficient <color=#92fc63>Shinobi Teachings</color>."
+	_G.pg.base.gametip.skin_discount_desc = {
+		tip = "Spend 1 $1 to purchase $3 at a discounted price of $2?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.shan_luan_task_buff_default = {
-		tip = "???"
+	_G.pg.base.gametip.skin_exchange_title = {
+		tip = "Redeemable Skins"
 	}
 end)()
 
@@ -31140,8 +33093,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.skin_exchange_timelimit = {
-		tip = "The pool of skins that this item may be redeemed for will change after $1. Please plan your usage accordingly."
+	_G.pg.base.gametip.commander_choice_talent_reset = {
+		tip = "Spend $1 Coins to respec this Meowfficer's Talents?Talents will be \t reset to their initial state, and you will be refunded $2 Talent Points."
 	}
 end)()
 
@@ -31164,8 +33117,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.skin_exchange_confirm = {
-		tip = "Spend <color=#92fc63>1 $1</color> to exchange for <color=#92fc63>$2</color>?"
+	_G.pg.base.gametip.commander_tactical_ability = {
+		tip = "Tactics"
 	}
 end)()
 
@@ -31182,20 +33135,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_choice_talent_reset = {
-		tip = "Spend $1 Coins to respec this Meowfficer's Talents?Talents will be \t reset to their initial state, and you will be refunded $2 Talent Points."
+	_G.pg.base.gametip.commander_logistics_ability = {
+		tip = "Logistics"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_get_commander_coptyright = {
-		tip = "Meowfficer Boarding"
+	_G.pg.base.gametip.commander_command_ability = {
+		tip = "Directives"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.tips_confirm_teleport_sub = {
-		tip = "To change the <color=#92fc63FF>Submarine Fleet's</color> position from <color=#92fc63FF>$1</color> to <color=#92fc63FF>$2</color>, they must be moved <color=#92fc63FF>$3</color> tiles, which will cost <color=#92fc63FF>$4</color> Oil. Continue? "
+	_G.pg.base.gametip.commander_use_box_queue = {
+		tip = "Selected"
 	}
 end)()
 
@@ -31206,8 +33159,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_tactical_ability = {
-		tip = "Tactics"
+	_G.pg.base.gametip.commander_use_box_tip = {
+		tip = "Cat Boxes Owned:"
 	}
 end)()
 
@@ -31218,8 +33171,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_logistics_ability = {
-		tip = "Logistics"
+	_G.pg.base.gametip.word_r = {
+		tip = "R"
 	}
 end)()
 
@@ -31242,14 +33195,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_use_box_queue = {
-		tip = "Selected"
+	_G.pg.base.gametip.commander_choice_talent_3 = {
+		tip = "Select the Talent you'd like to overwrite."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_use_box_tip = {
-		tip = "Cat Boxes Owned:"
+	_G.pg.base.gametip.commander_choice_talent_2 = {
+		tip = "Available Talents"
 	}
 end)()
 
@@ -31260,8 +33213,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_guild_res = {
-		tip = "舰队资源"
+	_G.pg.base.gametip.commander_choice_talent_1 = {
+		tip = "Select the Talent to learn or upgrade."
 	}
 end)()
 
@@ -31272,26 +33225,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.levelScene_new_chapter_coming = {
-		tip = "New Chapter(s): "
+	_G.pg.base.gametip.commander_skill_effect = {
+		tip = "Skill Effects"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.create_player_success = {
-		tip = "Character created."
+	_G.pg.base.gametip.word_level_upperLimit = {
+		tip = "Max Level"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_choice_talent_3 = {
-		tip = "Select the Talent you'd like to overwrite."
+	_G.pg.base.gametip.battle_text_common_2 = {
+		tip = "Warning: <color=#ffc038>battle data abnormality</color> detected. Your fleet's <color=#f1f102>Augment Modules and skills will be ineffective!</color>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_choice_talent_2 = {
-		tip = "Available Talents"
+	_G.pg.base.gametip.commander_confirm_tip = {
+		tip = "*This will consume the assigned Meowfficers."
 	}
 end)()
 
@@ -31312,8 +33265,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_choice_talent_1 = {
-		tip = "Select the Talent to learn or upgrade."
+	_G.pg.base.gametip.commander_subtile_talent = {
+		tip = "Talent Bonuses"
 	}
 end)()
 
@@ -31330,14 +33283,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_skill_effect = {
-		tip = "Skill Effects"
+	_G.pg.base.gametip.commander_subtile_ablity = {
+		tip = "Inherent Bonuses"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_text_yingxiv4_1 = {
-		tip = "The Horseman is charging <color=#f1f102>left</color>!"
+	_G.pg.base.gametip.word_click_to_close = {
+		tip = "Tap to close"
 	}
 end)()
 
@@ -31354,8 +33307,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_confirm_tip = {
-		tip = "*This will consume the assigned Meowfficers."
+	_G.pg.base.gametip.word_talent = {
+		tip = "Talent"
 	}
 end)()
 
@@ -31366,14 +33319,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_subtile_talent = {
-		tip = "Talent Bonuses"
+	_G.pg.base.gametip.commandercat_label_display_name = {
+		tip = "Custom Name"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_subtile_ablity = {
-		tip = "Inherent Bonuses"
+	_G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_4 = {
+		tip = "Happy Spring Festival"
 	}
 end)()
 
@@ -31390,14 +33343,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_talent = {
-		tip = "Talent"
+	_G.pg.base.gametip.word_equipment_equip = {
+		tip = "Auxiliary"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.commandercat_label_display_name = {
-		tip = "Custom Name"
+	_G.pg.base.gametip.roll_ending_tip1 = {
+		tip = "Explore all areas on the 1st and 2nd Floor to reach the finale of the story."
 	}
 end)()
 
@@ -31420,38 +33373,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_equipToShip_ok = {
-		tip = "<color=#92fc63>$1</color> equipped!"
+	_G.pg.base.gametip.island_taskjump_systemnoopen_tips = {
+		tip = "You have not yet unlocked this feature."
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.backyard_rest_tip = {
 		tip = "Resting greatly improves Morale recovery."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_ending_tip1 = {
-		tip = "Explore all areas on the 1st and 2nd Floor to reach the finale of the story."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_reward_got = {
-		tip = "Claimed"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_card_info = {
-		tip = "Profile"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_noname = {
-		tip = "You need to name your investigator first."
 	}
 end)()
 
@@ -31474,8 +33403,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.roll_reward_word1 = {
-		tip = "Prologue"
+	_G.pg.base.gametip.island_trade_title = {
+		tip = "Pearl Trade Spot"
 	}
 end)()
 
@@ -31544,6 +33473,30 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.roll_room17 = {
+		tip = "Garden"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.msgbox_repair_cipher = {
+		tip = "Redownload   Assets"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.roll_room14 = {
+		tip = "Main Bedroom"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.roll_room13 = {
+		tip = "2nd Floor Hall"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.commission_label_unlock_tech_tip = {
 		tip = "Unlocks at Commander Level 30"
 	}
@@ -31556,14 +33509,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.faest_nothing_to_get = {
-		tip = "No rewards available."
+	_G.pg.base.gametip.tec_target_catchup_none_1 = {
+		tip = "PR1 / Not Selected"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.roll_room14 = {
-		tip = "Main Bedroom"
+	_G.pg.base.gametip.roll_room7 = {
+		tip = "Dining Area"
 	}
 end)()
 
@@ -31580,20 +33533,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.roll_room13 = {
-		tip = "2nd Floor Hall"
+	_G.pg.base.gametip.roll_room4 = {
+		tip = "Courtyard"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.roll_room9 = {
-		tip = "Banquet Hall"
+	_G.pg.base.gametip.word_systemClose = {
+		tip = "Commander, you haven't unlocked this feature yet!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_stamina_not_enough = {
-		tip = "Insufficient AP."
+	_G.pg.base.gametip.roll_room1 = {
+		tip = "Servants' Room"
 	}
 end)()
 
@@ -31604,14 +33557,18 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.roll_room4 = {
-		tip = "Courtyard"
+	_G.pg.base.gametip.harbor_backhill_help = {
+		tip = {
+			{
+				info = "- Event Overview -\nThe Swashbuckler's Retreat event is available between October 25th and November 8th.\n\n- Details -\n· Secret Shipyard\n Tap this button to go to the prelude event, Tempesta's Secret Shipyard.\nFinishing the prelude event gives you access to a minigame. A new minigame stage will unlock every day until November 1st. Complete them all to receive the following great rewards!\nComplete stage 3: receive Fruit Rations, a Tempesta auxiliary gear.\nComplete stage 5: receive Tempesta Augment Module set.\nComplete stage 7: receive the Pirate Ship, a piece of furniture.\n\n· Commemoration\nTap this button to view the limited event missions and claim rewards.\nComplete the event missions to receive rewards such as the SR Main Gun Old Heavy Cannon, the new Meowfficers Bellamy and Kidd, and the exclusive furniture Brilliant Compass.\n\n· Event Shop\nTap this button to go to the shop and exchange event currency for items.\n\n· Limited Construction\nTap this button to go to the build screen.\n\n· New Skins\nTap this button to view the port's latest fashion.\n\n"
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_upgrade_unequip_tip = {
-		tip = "This limit break will change <color=$2>$1</color>'s gear selections. Some gear will be unequipped. Are you sure you want to continue?"
+	_G.pg.base.gametip.activity_puzzle_get13 = {
+		tip = "<color=#A9F548FF>How to get: \nmission 4</color>"
 	}
 end)()
 
@@ -31646,8 +33603,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.charge_scene_buy_confirm_backyard = {
-		tip = "Spend <color=#72bc42>$1 Gems</color> to buy <color=#72bc42>$2</color>?"
+	_G.pg.base.gametip.loveactivity_ui_6 = {
+		tip = "Unlocked"
 	}
 end)()
 
@@ -31676,54 +33633,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.harbor_backhill_help = {
-		tip = {
-			{
-				info = "- Event Overview -\nThe Swashbuckler's Retreat event is available between October 25th and November 8th.\n\n- Details -\n· Secret Shipyard\n Tap this button to go to the prelude event, Tempesta's Secret Shipyard.\nFinishing the prelude event gives you access to a minigame. A new minigame stage will unlock every day until November 1st. Complete them all to receive the following great rewards!\nComplete stage 3: receive Fruit Rations, a Tempesta auxiliary gear.\nComplete stage 5: receive Tempesta Augment Module set.\nComplete stage 7: receive the Pirate Ship, a piece of furniture.\n\n· Commemoration\nTap this button to view the limited event missions and claim rewards.\nComplete the event missions to receive rewards such as the SR Main Gun Old Heavy Cannon, the new Meowfficers Bellamy and Kidd, and the exclusive furniture Brilliant Compass.\n\n· Event Shop\nTap this button to go to the shop and exchange event currency for items.\n\n· Limited Construction\nTap this button to go to the build screen.\n\n· New Skins\nTap this button to view the port's latest fashion.\n\n"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_loginMediator_kickLoginOut = {
-		tip = "Connection lost."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_newPlayerScene_error_notChoiseShip = {
-		tip = "No character selected"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.chapter_tip_bp_ammo = {
-		tip = "Appropriate battle preparations have granted Ammo +2."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.course_class_name = {
-		tip = "Today's Lecture: $1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.sail_boat_equip_tip_2 = {
-		tip = "<color=#E3CEAF>Decently Strong, Decently Quick Gun</color>\n<color=#F1B969>Equipping this on your ship reduces her speed.</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_profile_label_diff = {
-		tip = "Expressions"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.building_tip = {
-		tip = "Insufficient building materials. Please complete <color=#92fc63>Event missions</color> to get more. "
+	_G.pg.base.gametip.word_cannon = {
+		tip = "Main Gun "
 	}
 end)()
 
@@ -31734,14 +33645,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.login_newPlayerScene_error_notChoiseShip = {
+		tip = "No character selected"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.equipcode_share_ruletips = {
 		tip = "You can share your loadout after giving it 2 tags."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.friend_info_page_tip = {
-		tip = "Select a friend to visit "
+	_G.pg.base.gametip.course_class_name = {
+		tip = "Today's Lecture: $1"
 	}
 end)()
 
@@ -31752,8 +33669,48 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.decodegame_gametip = {
+		tip = {
+			{
+				info = "- Decryption -\nIn this minigame, use Intel Pts earned from the \"Darkness Within Dawn\" event to decrypt pieces of intel and unlock Passcodes to gain corresponding rewards.\n\n- Decryption Screen Details -\nYou can see your current decryption attempts on the left side of the screen.\nBy tapping the knobs on the right side of the screen, you can change the displayed intel.\nYou can decrypt intel by tapping the noise-like squares in the middle of the intel display screen.\nYou can access Passcodes by tapping the button on the bottom-right.\nAfter completing intel decryption, collect the corresponding rewards from the bottom left side of the screen.\n\n- How to Play -\n1. Earn Intel Pts by completing \"Darkness Within Dawn\" event missions. For every <color=#92fc63>200</color> Intel Pts you earn, you will gain 1 Decryption attempt.\n2. Tap on the knobs on the right-hand side of the screen to display the intel being decrypted, and tap on undecrypted parts of the screen (noise-like appearance) to decrypt it, spending 1 Decryption attempt in the process.\n3. After all the panels have been decrypted, the intel is considered completely decrypted, and you can change the decryption target by tapping on the knobs on the right-hand side of the screen.\n4. When all intel has been decrypted, the Passcodes page at the bottom right-hand side of the screen will be unlocked.\n5. Opening the Passcodes page shows you all the Passcodes you've decrypted.\n6. The light on the top left side of the screen will glow green when you've entered the right codes in the right order.\n7. Once you've correctly input 3 Passcodes, you can claim a reward from the bottom left side of the screen.\n8. You'll be able to claim the following rewards in order based on the number of grids you've decrypted:\n10 grids: 1,000 Coins\n20 grids: 5 T3 Universal Retrofit Materials\n30 grids: 1,000 Coins\n40 grids: 2 T3 Offensive Skill Books\n50 grids: 2 random T3 Retrofit Blueprints\n60 grids: 2 T3 Support Skill Books"
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.equipcode_export_success = {
 		tip = "Gear code copied."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_voice_name_feeling3 = {
+		tip = "Friend"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.pt_total_count = {
+		tip = "In possession $1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.friend_info_page_tip = {
+		tip = "Select a friend to visit "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipcode_level_unmatched = {
+		tip = "Wrong Level"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipcode_report_warning = {
+		tip = "You will be unable to share loadouts if you report too often."
 	}
 end)()
 
@@ -31782,8 +33739,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.number_4 = {
-		tip = "4"
+	_G.pg.base.gametip.equipcode_dislike_success = {
+		tip = "Thank you for your report."
 	}
 end)()
 
@@ -31804,8 +33761,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equipcode_level_unmatched = {
-		tip = "Wrong Level"
+	_G.pg.base.gametip.equipcode_import_success = {
+		tip = "Successfully equipped the imported loadout."
 	}
 end)()
 
@@ -31816,14 +33773,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equipcode_report_warning = {
-		tip = "You will be unable to share loadouts if you report too often."
+	_G.pg.base.gametip.equipcode_share_exceedlimit = {
+		tip = "You can only select up to 2 tags."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.equipcode_dislike_success = {
-		tip = "Thank you for your report."
+	_G.pg.base.gametip.equipcode_share_nolabel = {
+		tip = "You must select 2 tags before you can share."
 	}
 end)()
 
@@ -31834,8 +33791,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equipcode_like_success = {
-		tip = "You left a like."
+	_G.pg.base.gametip.equipcode_slot_unmatch = {
+		tip = "This loadout contains unequippable gear for the current character."
 	}
 end)()
 
@@ -31846,8 +33803,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equipcode_import_success = {
-		tip = "Successfully equipped the imported loadout."
+	_G.pg.base.gametip.equip_share_label_8 = {
+		tip = "Dailies"
 	}
 end)()
 
@@ -31876,14 +33833,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equipcode_share_exceedlimit = {
-		tip = "You can only select up to 2 tags."
+	_G.pg.base.gametip.equip_share_label_7 = {
+		tip = "Main"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.equipcode_share_nolabel = {
-		tip = "You must select 2 tags before you can share."
+	_G.pg.base.gametip.island_act_tips1 = {
+		tip = "Tap to go back"
 	}
 end)()
 
@@ -31900,8 +33857,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equipcode_slot_unmatch = {
-		tip = "This loadout contains unequippable gear for the current character."
+	_G.pg.base.gametip.random_ship_custom_mode_add_complete = {
+		tip = "Shipgirls successfully added."
 	}
 end)()
 
@@ -31912,14 +33869,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equip_share_label_8 = {
-		tip = "Dailies"
+	_G.pg.base.gametip.equip_share_label_2 = {
+		tip = "Anti Medium Armor"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.equip_share_label_7 = {
-		tip = "Main"
+	_G.pg.base.gametip.word_skill_desc_get = {
+		tip = "(Capped $1)"
 	}
 end)()
 
@@ -31936,8 +33893,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.index_dressed = {
-		tip = "Wearing Skin"
+	_G.pg.base.gametip.courtyard_label_empty_collection_list = {
+		tip = "没有找到符合条件的收藏"
 	}
 end)()
 
@@ -31948,14 +33905,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.npcfriendly_count = {
-		tip = "Target Affection:"
+	_G.pg.base.gametip.courtyard_label_cancel_share = {
+		tip = "Stop Sharing"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.courtyard_label_go = {
-		tip = "Confirm"
+	_G.pg.base.gametip.backyard_sort_tag_price = {
+		tip = "Price "
 	}
 end)()
 
@@ -31984,8 +33941,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.courtyard_label_empty_collection_list = {
-		tip = "没有找到符合条件的收藏"
+	_G.pg.base.gametip.courtyard_label_place_pnekey = {
+		tip = "Batch Place"
 	}
 end)()
 
@@ -31996,50 +33953,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.courtyard_label_cancel_share = {
-		tip = "Stop Sharing"
+	_G.pg.base.gametip.equip_info_extralevel_0 = {
+		tip = "Level 0"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.newserver_build_tip = {
 		tip = "Only Newcomers' Build Tickets may be used to build from this pool."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_result_victory = {
-		tip = "Claim victory"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_place_pnekey = {
-		tip = "Batch Place"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.resource_max_tip_eventstart = {
-		tip = "Unable to accept commission"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.change_player_name_illegal = {
-		tip = "Your layout name contains an inappropriate word and has been changed into <color=#FFDE38FF>$1</color> instead.\nPlease try giving it a different name."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_detail = {
-		tip = "Details"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200235 = {
-		tip = "Steam transaction timeout"
 	}
 end)()
 
@@ -32056,32 +33977,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.story_setting_label = {
-		tip = "Text Auto-Scroll Speed"
+	_G.pg.base.gametip.resource_max_tip_eventstart = {
+		tip = "Unable to accept commission"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dockyard_data_loss_detected = {
-		tip = "A dock data synchronization error has occurred. Return to the login screen?"
+	_G.pg.base.gametip.change_player_name_illegal = {
+		tip = "Your layout name contains an inappropriate word and has been changed into <color=#FFDE38FF>$1</color> instead.\nPlease try giving it a different name."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.courtyard_label_month = {
-		tip = "一月内"
+	_G.pg.base.gametip.dont_remind_today = {
+		tip = "Notified"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_save = {
+		tip = "Save"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.courtyard_label_time = {
 		tip = "Time"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.words_auto_battle_label = {
-		tip = "Auto Combat Alert "
 	}
 end)()
 
@@ -32098,26 +34019,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_automode_setting_all_2 = {
-		tip = "Display reminders to analyze META Coordinates:"
+	_G.pg.base.gametip.dockyard_data_loss_detected = {
+		tip = "A dock data synchronization error has occurred. Return to the login screen?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.words_show_ship_name_label = {
-		tip = "Custom Ship Name"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_save = {
-		tip = "Save"
+	_G.pg.base.gametip.courtyard_label_month = {
+		tip = "一月内"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.courtyard_label_clear = {
 		tip = "Clear"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.words_auto_battle_label = {
+		tip = "Auto Combat Alert "
 	}
 end)()
 
@@ -32134,14 +34055,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.report_type_1_1 = {
-		tip = "<size=23>Comment is spam or inappropriate/sexual in nature.</size>"
+	_G.pg.base.gametip.world_automode_setting_all_2 = {
+		tip = "Display reminders to analyze META Coordinates:"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.index_strengthen = {
-		tip = "Enhanceable"
+	_G.pg.base.gametip.words_show_ship_name_label = {
+		tip = "Custom Ship Name"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_pt_get_way = {
+		tip = "未配置tip"
 	}
 end)()
 
@@ -32158,8 +34085,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_formationMediator_request_replace_support = {
-		tip = "This ship is currently in the <color=#92fc63>Support Fleet</color>. Continue making changes?"
+	_G.pg.base.gametip.dal_story_tip_name_en_4 = {
+		tip = "SECTOR-4"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.report_type_1_1 = {
+		tip = "<size=23>Comment is spam or inappropriate/sexual in nature.</size>"
 	}
 end)()
 
@@ -32170,8 +34103,36 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip["airi_error_code_ 100810"] = {
-		tip = "FB Failed to authorize, unable to login"
+	_G.pg.base.gametip.help_supportfleet_16 = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/supportfleet_help1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/supportfleet_help_16",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	}
 end)()
 
@@ -32222,6 +34183,30 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip["airi_error_code_ 100810"] = {
+		tip = "FB Failed to authorize, unable to login"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_fleet_not_exist = {
+		tip = "This fleet does not exist."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelscene_airexpel_select_confirm_down = {
+		tip = "Issuing Command: Move <color=#92fc63>$1</color> 1 tile <color=#92fc63>down</color>. Continue?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelscene_airexpel_select_confirm_up = {
+		tip = "Issuing Command: Move <color=#92fc63>$1</color> 1 tile <color=#92fc63>up</color>. Continue?"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.login_loginMediator_serverLoginFail_error = {
 		tip = "Failed to log in: "
 	}
@@ -32234,8 +34219,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_special_challenge_ticket = {
-		tip = "Bonus Ticket"
+	_G.pg.base.gametip.levelscene_airexpel_select_confirm_left = {
+		tip = "Issuing Command: Move <color=#92fc63>$1</color> 1 tile to the <color=#92fc63>left</color>. Continue?"
 	}
 end)()
 
@@ -32252,14 +34237,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.levelscene_airexpel_select_confirm_down = {
-		tip = "Issuing Command: Move <color=#92fc63>$1</color> 1 tile <color=#92fc63>down</color>. Continue?"
+	_G.pg.base.gametip.levelscene_airexpel_outrange = {
+		tip = "No available tile for the target to move to."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.levelscene_airexpel_select_confirm_up = {
-		tip = "Issuing Command: Move <color=#92fc63>$1</color> 1 tile <color=#92fc63>up</color>. Continue?"
+	_G.pg.base.gametip.levelscene_airexpel_select_enemy = {
+		tip = "Only enemy fleets can be targeted."
 	}
 end)()
 
@@ -32300,14 +34285,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.levelscene_airexpel_outrange = {
-		tip = "No available tile for the target to move to."
+	_G.pg.base.gametip.new_airi_error_code_200160 = {
+		tip = "Invalid purchase request"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.levelscene_airexpel_select_enemy = {
-		tip = "Only enemy fleets can be targeted."
+	_G.pg.base.gametip.levelscene_deploy_submarine = {
+		tip = "Confirm Target"
 	}
 end)()
 
@@ -32324,32 +34309,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.levelscene_airexpel_cancel = {
-		tip = "Cancel"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_result_defeat_all_enemys = {
-		tip = "Defeat all enemy ships"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelscene_deploy_submarine = {
-		tip = "Confirm Target"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_emptyBlock = {
-		tip = "The required weapon is not equipped"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tactics_recent_ship_label = {
-		tip = "Training History"
+	_G.pg.base.gametip.tech_catchup_sentence_pauses = {
+		tip = "—"
 	}
 end)()
 
@@ -32372,32 +34333,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.rename_input = {
-		tip = "Enter a new name."
+	_G.pg.base.gametip.tactics_recent_ship_label = {
+		tip = "Training History"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_ssr = {
-		tip = "SR"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_49910 = {
-		tip = "<size=28>\nWould you like to start a Battle Simulation?\n(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)\nEquipment: <color=#92fc63>\nPrototype Quadruple 305mm SKC39 Main Gun Mount\nTwin 127mm KM40 Main Gun Mount\nPrototype 55mm Gerät 58 AA Gun Mount\n</color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_setting_title = {
-		tip = "Operation Siren Settings "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.main_mailLayer_noNewMail = {
-		tip = "No new mail."
+	_G.pg.base.gametip.ship_formationUI_changeFormationError_countError = {
+		tip = "Not enough ships in fleet."
 	}
 end)()
 
@@ -32414,8 +34357,32 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.rename_input = {
+		tip = "Enter a new name."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_ssr = {
+		tip = "SR"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.child_extraAttr_sure_tip = {
 		tip = "是否确认个性补正？确认后将无法修改"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_setting_title = {
+		tip = "Operation Siren Settings "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_mailLayer_noNewMail = {
+		tip = "No new mail."
 	}
 end)()
 
@@ -32426,14 +34393,32 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.child_upgrade_sure_tip = {
+		tip = "TB's growth goals will reset if you enter the next growth stage and unused action points will not carry over. Proceed to the next growth stage?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_date_text4 = {
+		tip = "Update System"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.sculpture_gratitude_tip = {
+		tip = "Drag to deliver the gifts to the shipgirls!"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.word_upgrade = {
 		tip = "Limit Break"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.child_upgrade_sure_tip = {
-		tip = "TB's growth goals will reset if you enter the next growth stage and unused action points will not carry over. Proceed to the next growth stage?"
+	_G.pg.base.gametip.child_date_text1 = {
+		tip = "Home Activity"
 	}
 end)()
 
@@ -32456,20 +34441,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.gift_act_tips = {
-		tip = "Insufficient $1"
+	_G.pg.base.gametip.child_task_system_type2 = {
+		tip = "Growth"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.child_date_text1 = {
-		tip = "Home Activity"
+	_G.pg.base.gametip.child_attr_name2 = {
+		tip = "Abilities"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.child_plan_perform_title = {
-		tip = "Plan an Activity"
+	_G.pg.base.gametip.child_attr_name1 = {
+		tip = "Stats"
 	}
 end)()
 
@@ -32516,8 +34501,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child_attr_name1 = {
-		tip = "Stats"
+	_G.pg.base.gametip.secretary_unlock2 = {
+		tip = "Clear stage 3-4 \nto unlock "
 	}
 end)()
 
@@ -32534,26 +34519,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child_plan_skip = {
-		tip = "Skip Cinematic"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.item_type16_tip1 = {
-		tip = "Contents"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.clear_transcode_cache_success = {
-		tip = "Transfer Code cleared."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_unselect_SP_OP = {
-		tip = "No Item"
+	_G.pg.base.gametip.msgbox_text_shop = {
+		tip = "Shop "
 	}
 end)()
 
@@ -32564,20 +34531,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.qiuqiu_count = {
-		tip = "目標数"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_info_12 = {
-		tip = "Spread Range"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mingshi_task_tip_5 = {
-		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>T</color>>\nThe next target is... <<color=#a0ff40>your formation</color>>!"
+	_G.pg.base.gametip.technology_queue_getaward = {
+		tip = "Claim"
 	}
 end)()
 
@@ -32594,8 +34549,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.qiuqiu_count = {
+		tip = "目標数"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_info_12 = {
+		tip = "Spread Range"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.child_mood_desc1 = {
 		tip = "Current Mood: Depressed - <color=#72bc42>Rewards Gained -40%</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_filter_award_attr2 = {
+		tip = "Abilities"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.beach_guard_e2 = {
+		tip = "Chaser"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_filter_award_nature = {
+		tip = "Personality"
 	}
 end)()
 
@@ -32612,8 +34597,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child_filter_award_attr2 = {
-		tip = "Abilities"
+	_G.pg.base.gametip.child_filter_award_res = {
+		tip = "Money"
 	}
 end)()
 
@@ -32628,8 +34613,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.beach_guard_e6 = {
-		tip = "Tester"
+	_G.pg.base.gametip.pgs_login_binding_exist3 = {
+		tip = "This game account is already bound to another PGS account, and your current PGS account is also bound to another game account.\nWould you like to rebind your game and/or PGS account?"
 	}
 end)()
 
@@ -32652,12 +34637,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.venusvolleyball_help = {
-		tip = {
-			{
-				info = "Event Rules:\n1. <color=#92fc63>A new match</color> will become available every day until\n<color=#92fc63>5/3</color> at midnight, up to a total of <color=#92fc63>7</color> matches. \nComplete all the matches to earn the limited gear, <color=#92fc63>\"Venus Awakening Gem,\"</color>as well as\nthe following item-<color=#92fc63>\"Favorite Food (Monica)\"</color>.\n2. Tap to start the game and choose two characters to enter the match.\nThe match will conclude when either side scores <color=#92fc63>5</color> points.\n3. A timing circle will appear when it's the player's turn to hit the ball.\nTap anywhere on the screen at the proper time to hit the ball.\n4. When the timing circle is between the outer and inner scoring circles,\na \"Good\" rating will be given. When the timing circle is tapped within the\ninner scoring circle, a \"Perfect\" rating will be given.\nIf the screen is not tapped, or tapped before the timing circle\nis allowed to retract, a \"Miss\" rating will be given.\nA \"Miss\" will result in the other side scoring.\nA Good or Perfect rating counts as a successful receive.\n5. If all matches have been unlocked, you may can repeat\nthe match on the same day. After completing all the matches,\nFree Play will be unlocked, allowing players to freely select\ntheir desired character to play with."
-			}
-		}
+	_G.pg.base.gametip.guild_fire_tip = {
+		tip = "Are you sure you want to kick this player?"
 	}
 end)()
 
@@ -32672,14 +34653,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child_filter_award_nature = {
-		tip = "Personality"
+	_G.pg.base.gametip.main_mailLayer_takeAttach = {
+		tip = "Collect Rewards"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.child_filter_award_res = {
-		tip = "Money"
+	_G.pg.base.gametip.equip_enhancement_lvx = {
+		tip = "Enhance to +$1"
 	}
 end)()
 
@@ -32690,8 +34671,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.seven_choose_one = {
-		tip = "You may choose only one New Year's gift. \nWould you like <color=#92fc63>$1</color>'s gift? \nYou will receive this character and her greeting. "
+	_G.pg.base.gametip.beach_guard_e1 = {
+		tip = "Scavenger"
 	}
 end)()
 
@@ -32714,14 +34695,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.technology_stop_tip = {
-		tip = "Would you like to suspend research? The items and resources you've spent will not be refunded."
+	_G.pg.base.gametip.child_plan_check_tip5 = {
+		tip = "TB is feeling sad. Unable to add this activity."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_text_yingxiv4_9 = {
-		tip = "Direct the enemy's <color=#f1f102>attacks</color> to the devices!"
+	_G.pg.base.gametip.child_plan_check_tip4 = {
+		tip = "Not enough money. Unable to add this activity."
 	}
 end)()
 
@@ -32738,14 +34719,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child_plan_event = {
-		tip = "Special Activity"
+	_G.pg.base.gametip.child_schedule_sure_tip2 = {
+		tip = "You have unspent action points. Proceed to the next week?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.child_plan_check_tip5 = {
-		tip = "TB is feeling sad. Unable to add this activity."
+	_G.pg.base.gametip.set_birth_success = {
+		tip = "Birthday set successfully!"
 	}
 end)()
 
@@ -32756,14 +34737,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.intimacy_desc_6_detail = {
-		tip = "Love will guide the way, our hearts bound by an eternal promise!\nWe share our smile, our words unspoken.\nOur love will be one of respect, trust, and confidence forever.\nFrom this day forth, our fates are bound together.\nPromise date: $1"
+	_G.pg.base.gametip.intimacy_desc_1_detail = {
+		tip = "$1 is upset with you.\n<color=#fad545><size=18>(No buff)</size></color>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.child_plan_check_tip4 = {
-		tip = "Not enough money. Unable to add this activity."
+	_G.pg.base.gametip.child_schedule_event_tip = {
+		tip = "Plans have already been made for this timeslot."
 	}
 end)()
 
@@ -32774,8 +34755,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child_schedule_sure_tip2 = {
-		tip = "You have unspent action points. Proceed to the next week?"
+	_G.pg.base.gametip.child_mind_time_title = {
+		tip = "Time Left:"
 	}
 end)()
 
@@ -32792,8 +34773,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_search_new = {
-		tip = "Tap to Search"
+	_G.pg.base.gametip.child_mind_processing_title = {
+		tip = "In Progress"
 	}
 end)()
 
@@ -32810,8 +34791,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child_schedule_event_tip = {
-		tip = "Plans have already been made for this timeslot."
+	_G.pg.base.gametip.child_item_type4 = {
+		tip = "Misc."
 	}
 end)()
 
@@ -32828,8 +34809,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child_mind_processing_title = {
-		tip = "In Progress"
+	_G.pg.base.gametip.child_item_type2 = {
+		tip = "Instruments"
 	}
 end)()
 
@@ -32840,14 +34821,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child_item_type4 = {
-		tip = "Misc."
+	_G.pg.base.gametip.child_item_type1 = {
+		tip = "Books"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.emoji_type_1 = {
-		tip = "Default"
+	_G.pg.base.gametip.child_item_type0 = {
+		tip = "All"
 	}
 end)()
 
@@ -32864,8 +34845,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child_item_type1 = {
-		tip = "Books"
+	_G.pg.base.gametip.cook_game_constellation_skill_desc = {
+		tip = "For 7s, your rivals can't serve the customer and you get double points when serving them the right dessert!"
 	}
 end)()
 
@@ -32882,14 +34863,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tec_tip_material_stock = {
-		tip = "Owned"
+	_G.pg.base.gametip.blueprint_simulation_confirm_39907 = {
+		tip = "<size=28>\nWould you like to start a Battle Simulation?\n(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)\nEquipment: <color=#92fc63>\nPrototype Twin 410mm mod.A Main Gun Mount\nSingle 140mm Naval Gun\nTwin 40mm Bofors Type 5 AA Gun Mount</color></size>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.child_item_type0 = {
-		tip = "All"
+	_G.pg.base.gametip.click_back_tip = {
+		tip = "Tap to Return "
 	}
 end)()
 
@@ -32931,8 +34912,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_other = {
-		tip = "Misc"
+	_G.pg.base.gametip.dont_remind_session = {
+		tip = "Notified"
 	}
 end)()
 
@@ -32943,8 +34924,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_boss_inbattle = {
-		tip = "You have an active META Showdown and cannot initiate a new one."
+	_G.pg.base.gametip.child_archive_name = {
+		tip = "Name"
 	}
 end)()
 
@@ -32967,14 +34948,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child_news_other_title = {
-		tip = "Ordinary Events"
+	_G.pg.base.gametip.child_btn_mind = {
+		tip = "Thoughts"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100190 = {
-		tip = "Failed to verify the third party parameter"
+	_G.pg.base.gametip.new_airi_error_code_200190 = {
+		tip = "Order ID does not exist"
 	}
 end)()
 
@@ -32991,8 +34972,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child_btn_bag = {
-		tip = "Items"
+	_G.pg.base.gametip.Supplement_pay3 = {
+		tip = "All purchases have been successfully processed, and you are now able to log back in to the game. Thank you for your cooperation."
 	}
 end)()
 
@@ -33003,8 +34984,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_minute = {
-		tip = "m"
+	_G.pg.base.gametip.backyard_buyExtendItem_question = {
+		tip = "This will cost <color=#92fc63>$1</color>. Are you sure you want to continue?"
 	}
 end)()
 
@@ -33021,8 +35002,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child_btn_mind = {
-		tip = "Thoughts"
+	_G.pg.base.gametip.word_which_week = {
+		tip = "Week $1"
 	}
 end)()
 
@@ -33033,8 +35014,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_harbour = {
-		tip = "Port"
+	_G.pg.base.gametip.word_which_month = {
+		tip = "Month $1"
 	}
 end)()
 
@@ -33057,26 +35038,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.charge_limit_all = {
-		tip = "Purchases: $1/$2"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_which_week = {
-		tip = "Week $1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.town_unlcok_new = {
-		tip = "Unlock New Worksite"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_close_tip = {
-		tip = "Tap anywhere to return"
+	_G.pg.base.gametip.word_goldField = {
+		tip = "Coins Port"
 	}
 end)()
 
@@ -33087,14 +35050,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child_msg_title_tip = {
-		tip = "Tips"
+	_G.pg.base.gametip.town_unlcok_new = {
+		tip = "Unlock New Worksite"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.random_ship_on = {
-		tip = "The Random Secretary setting has been toggled ON."
+	_G.pg.base.gametip.cook_game_constellation = {
+		tip = "Serving the right dessert has a chance to give the customer a <color=#FFE555>unique status</color>!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_shop_exchange_limit = {
+		tip = "Unobtained"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.racing_rank_half_h = {
+		tip = "* Updates every 30m."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.racing_rank_top_text = {
+		tip = "Friend Ranking"
 	}
 end)()
 
@@ -33105,8 +35086,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.racing_rank_half_h = {
-		tip = "* Updates every 30m."
+	_G.pg.base.gametip.ryza_tip_no_item = {
+		tip = "You don't have any synthesis materials."
 	}
 end)()
 
@@ -33123,14 +35104,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.racing_rank_top_text = {
-		tip = "Friend Ranking"
+	_G.pg.base.gametip.luckybag_skin_islive2d = {
+		tip = "Live 2d"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.racing_cost = {
-		tip = "Total\nSpent"
+	_G.pg.base.gametip.luckybag_skin_isani = {
+		tip = "Dynamic"
 	}
 end)()
 
@@ -33143,24 +35124,6 @@ end)()
 (function()
 	_G.pg.base.gametip.world_automode_start_tip5 = {
 		tip = "Cannot be activated here. Please go to a Secured Zone first and try again."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_tip_control_buff_limit = {
-		tip = "Maxed"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.luckybag_skin_islive2d = {
-		tip = "Live 2d"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.luckybag_skin_isani = {
-		tip = "Dynamic"
 	}
 end)()
 
@@ -33189,60 +35152,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.sp_no_quota = {
-		tip = "You cannot sortie any more today."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_ammo_type_2 = {
-		tip = "HE"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.chapter_ap_not_enough = {
-		tip = "You don't have enough AP."
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.launchball_lock_Shimakaze = {
 		tip = "Unlocked after purchasing <color=#92fc63>Shimakaze's Token</color> at the Reward Shop."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.tec_target_catchup_dr_finish_tip = {
-		tip = "Completed"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolove_main_help = {
-		tip = {
-			{
-				info = "- Event Overview -"
-			},
-			{
-				info = "The collab event Dangerous Inventions Incoming! is available between <color=#92fc63>November 11th and December 4th</color>."
-			},
-			{
-				info = "<color=#7D7D7D>The commemorative event medal, cumulative rewards, and the event exchange are available until December 11th</color>.\n"
-			},
-			{
-				info = "<color=#FCD400>Event Stages</color>\nSet sail for the event stages and collect Energy Stones to exchange for rewards on the Stockpiling Battle Rewards! event banner and in the event exchange.\n"
-			},
-			{
-				info = "<color=#FCD400>Help Me, Miss Lala!</color>\nComplete event stages and chapter 3 and beyond campaign stages to receive Energy Fragments and unlock invention requests for shipgirls around the port. Play the minigame, complete inventions, and turn in requests to receive rewards, including the limited gear \"\"All Work, All Play Robot.\"\"\n"
-			},
-			{
-				info = "<color=#FCD400>Tick Tick Kaboom-kun</color>\nPlay this minigame daily to unlock the limited furniture \"\"Princess's Drawing.\"\" A new stage will be unlocked every day up to November 27th. In addition, complete tasks to receive rewards.\n"
-			},
-			{
-				info = "<color=#FCD400>Commemorative Medal</color>\nCollect Data Chips through playing and experiencing all the new event content. When you collect all 6 chips, they can be exchanged for a commemorative medal on the event banner.\n"
-			}
-		}
+	_G.pg.base.gametip.launchball_lock_Yura = {
+		tip = "Unlocked after purchasing <color=#92fc63>Yura's Token</color> at the Reward Shop."
 	}
 end)()
 
@@ -33281,6 +35198,70 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.sp_no_quota = {
+		tip = "You cannot sortie any more today."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_ammo_type_2 = {
+		tip = "HE"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.chapter_ap_not_enough = {
+		tip = "You don't have enough AP."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.jp6th_lihoushan_order = {
+		tip = "Unlock the next stage by clearing the one before it."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_target_catchup_dr_finish_tip = {
+		tip = "Completed"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolove_main_help = {
+		tip = {
+			{
+				info = "- Event Overview -"
+			},
+			{
+				info = "The collab event Dangerous Inventions Incoming! is available between <color=#92fc63>November 11th and December 4th</color>."
+			},
+			{
+				info = "<color=#7D7D7D>The commemorative event medal, cumulative rewards, and the event exchange are available until December 11th</color>.\n"
+			},
+			{
+				info = "<color=#FCD400>Event Stages</color>\nSet sail for the event stages and collect Energy Stones to exchange for rewards on the Stockpiling Battle Rewards! event banner and in the event exchange.\n"
+			},
+			{
+				info = "<color=#FCD400>Help Me, Miss Lala!</color>\nComplete event stages and chapter 3 and beyond campaign stages to receive Energy Fragments and unlock invention requests for shipgirls around the port. Play the minigame, complete inventions, and turn in requests to receive rewards, including the limited gear \"\"All Work, All Play Robot.\"\"\n"
+			},
+			{
+				info = "<color=#FCD400>Tick Tick Kaboom-kun</color>\nPlay this minigame daily to unlock the limited furniture \"\"Princess's Drawing.\"\" A new stage will be unlocked every day up to November 27th. In addition, complete tasks to receive rewards.\n"
+			},
+			{
+				info = "<color=#FCD400>Commemorative Medal</color>\nCollect Data Chips through playing and experiencing all the new event content. When you collect all 6 chips, they can be exchanged for a commemorative medal on the event banner.\n"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_simulation_confirm_89902 = {
+		tip = "<size=28>Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.\nEquipped gear:<color=#92fc63>\nPrototype Triple 406mm/50 Main Gun \nTriple 152mm Main Gun (Mle 1930)\nTwin 37mm AA Gun (Mle 1936)</color></size>"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.ship_shipInfoScene_equipUnlockSlostYesText = {
 		tip = "Enhance Ship"
 	}
@@ -33293,14 +35274,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.metaskill_up = {
-		tip = "<color=#E0E0E0>* EXP gained from META Universal Skill Books does not count towards the daily EXP limit</color>"
+	_G.pg.base.gametip.launch_ball_shimakaze_skill_2_desc = {
+		tip = "Faster than a Flash: Reduces the cooldown of Lightning Upon the Wind by 0.5s for every youkai repelled."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_important_page = {
-		tip = "Important"
+	_G.pg.base.gametip.mingshi_task_tip_7 = {
+		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>K</color>>\nThe next target is... <<color=#a0ff40>looking at your collection</color>>!"
 	}
 end)()
 
@@ -33311,14 +35292,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.launch_ball_shimakaze_skill_2_desc = {
-		tip = "Faster than a Flash: Reduces the cooldown of Lightning Upon the Wind by 0.5s for every youkai repelled."
+	_G.pg.base.gametip.launch_ball_yura_skill_2_desc = {
+		tip = "Other Self's Protection: Increases the duration of buffs obtained after repelling slowed or knocked back youkai."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.player_changePlayerName_ok = {
-		tip = "Name changed!"
+	_G.pg.base.gametip.launch_ball_yura_skill_2 = {
+		tip = "Passive: Other Self's Protection"
 	}
 end)()
 
@@ -33341,8 +35322,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.launch_ball_yura_skill_2_desc = {
-		tip = "Other Self's Protection: Increases the duration of buffs obtained after repelling slowed or knocked back youkai."
+	_G.pg.base.gametip.launch_ball_yura_skill_1 = {
+		tip = "Active: Exorcism Stance"
 	}
 end)()
 
@@ -33377,14 +35358,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.launch_ball_yura_skill_2 = {
-		tip = "Passive: Other Self's Protection"
+	_G.pg.base.gametip.launch_ball_shinano_skill_2_desc = {
+		tip = "Everlasting Butterfly: After not making any attacks for 10s, Shinano falls asleep and creates butterflies every 2s that eliminate a random youkai on the field."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.launch_ball_yura_skill_1_desc = {
-		tip = "Exorcism Stance: Greatly slows the speed of all youkai on the field for 5s."
+	_G.pg.base.gametip.charge_level_limit = {
+		tip = "Level is too low."
 	}
 end)()
 
@@ -33419,32 +35400,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.launch_ball_yura_skill_1 = {
-		tip = "Active: Exorcism Stance"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.launch_ball_shinano_skill_2_desc = {
-		tip = "Everlasting Butterfly: After not making any attacks for 10s, Shinano falls asleep and creates butterflies every 2s that eliminate a random youkai on the field."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_theme_open_tip = {
-		tip = "To unlock:\nReach Commander lv. <color=#92fc63>$1</color>"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.launch_ball_hatsuduki_skill_2_desc = {
 		tip = "Youkai Allergy: Gains increased attack speed the closer youkai are to the end point.Wild Slash: After not making any attacks for 10s, Hatsuzuki enters a Rampage and quickly attacks 3 times with a knockback effect in random directions."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_donate_tip = {
-		tip = "You are about to contribute <color=#92FC63FF>$2 $1</color> to the Guild (Currently held: <color=$4>$3</color>). Are you sure you want to continue?"
 	}
 end)()
 
@@ -33461,6 +35418,30 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.new_airi_error_code_100205 = {
+		tip = "Unbind failed. Your game account hasn't been linked to a Google Play Games account."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_donate_tip = {
+		tip = "You are about to contribute <color=#92FC63FF>$2 $1</color> to the Guild (Currently held: <color=$4>$3</color>). Are you sure you want to continue?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_production_speed_tip2 = {
+		tip = "Working Efficiency Buff"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shoot_preview = {
+		tip = "Firing Preview"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.guild_start_event_consume_tip_extra = {
 		tip = "The Guild has launched <color=#ff5c5c>$3</color> operations this month. Do you want to spend $1 to commence operation $2? "
 	}
@@ -33473,14 +35454,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_pressing = {
-		tip = "Zones Cleared"
+	_G.pg.base.gametip.feast_drag_invitation_tip = {
+		tip = "Drag the invitation to the shipgirl to send it to her"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.hit_preview = {
-		tip = "Hitting Preview"
+	_G.pg.base.gametip.feast_invitation_part3 = {
+		tip = "Place the invitation inside a premium envelope. It is made with excellent materials, much like the invitation letter itself, fully conveying your respect towards the status of the recipient."
 	}
 end)()
 
@@ -33491,8 +35472,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shoot_preview = {
-		tip = "Firing Preview"
+	_G.pg.base.gametip.feast_invitation_part1 = {
+		tip = "Place the shipgirls' icons in the correct spot."
 	}
 end)()
 
@@ -33515,8 +35496,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.feast_invitation_part1 = {
-		tip = "Place the shipgirls' icons in the correct spot."
+	_G.pg.base.gametip.feast_task_tag_daily = {
+		tip = "Daily"
 	}
 end)()
 
@@ -33527,14 +35508,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.attribute_cannon = {
-		tip = "FP "
+	_G.pg.base.gametip.feast_task_pt_got = {
+		tip = "Claimed"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_gem_icon = {
-		tip = "<icon name=diamond w=0.7 h=0.7/>"
+	_G.pg.base.gametip.commander_not_exist = {
+		tip = "This Meowfficer does not exist."
 	}
 end)()
 
@@ -33542,33 +35523,15 @@ end)()
 	_G.pg.base.gametip.world_boss_help_meta = {
 		tip = {
 			{
-				info = "- META Showdown Overview -\n\nFrom <color=#92fc63>9/4/25 to 12/10/25</color>, challenge Yuudachi META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Yuudachi META</color> as well as other great rewards.\n<color=#ff5c5c>Note: Sync Points will expire after the event period ends.</color>\n\n- Acquiring and Analyzing META Coordinates -\n· META Coordinates can be earned by playing Operation Siren. Sufficient amounts of META Coordinates can be analyzed to begin a META Showdown.\n· You may perform Analysis <color=#92fc63>2 times</color> per day, resetting every day at midnight. Unused META Coordinates will be retained.\n· You need <color=#92fc63>100</color> META Coordinates to begin a META Showdown.\n\n- Fighting Your Bosses -\n· Your first time challenging a META boss that you spawned will not require Oil. From the second attempt onwards, cost of each attempt will gradually drop from <color=#92fc63>40</color> Oil to <color=#92fc63>0</color> Oil. (Will not consume a challenge attempt).\n· When a META Showdown boss reaches 0 HP, they will be defeated. Participants will be able to collect rewards, including a large amount of Sync Points.\n· Each META Showdown will only last for <color=#92fc63>24 hours</color>, after which it will disappear. Use Request Support if you need help.\n· After defeating a META boss, the difficulty of subsequent META Showdowns will increase by 1 level, up to a maximum of 15.\n\n- Fighting Others' Bosses -\n· In the Boss List menu, you can see requests that other Commanders have sent. When fighting another Commander's boss, you will immediately gain Sync Points based upon the <color=#92fc63>amount of DMG</color> you dealt.\n· Each attempt uses 1 Challenge Attempt, but uses no Oil.\n· You can have up to <color=#92fc63>3</color> Challenge attempts, resetting each day at midnight.\nEach META Showdown can have up to 30 participants.\n\n- Combat Instructions -\n· You cannot bring Meowfficers or submarines.\n· At the end of battle, no EXP is gained, and Morale will not be affected.\n· You cannot quit during an META Showdown. If connection is lost due to unstable network conditions, the following will occur:\na. If challenging a boss you discovered, you will spend 40 Oil (the first battle is still free), and any damage done will not count.\nb. If challenging someone else's boss, a challenge attempt will be used, but no rewards will be granted.\n<color=#92fc63>Please make sure your network conditions are stable before attempting an META Showdown!</color>\n\n- Artillery Support -\nFrom the 31st day of this META Showdown season onwards, whenever you begin an META Showdown, your fleet will gain an additional wave of artillery support. This artillery support will deal damage to the enemy and apply a special debuff that inflicts damage over time (this damage cannot be amplified by any bonus effects).\nThe later in the META Showdown season it is, the greater the damage inflicted by this artillery support.\n*Artillery Support will only appear during META Showdown battles you discover, and will trigger with each challenge attempt."
+				info = "- META Showdown Overview -\n\nFrom <color=#92fc63>12/11/2025 to 3/11/2026</color>, challenge Yorktown META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Yorktown META</color> as well as other great rewards.\n<color=#ff5c5c>Note: Sync Points will expire after the event period ends.</color>\n\n- Acquiring and Analyzing META Coordinates -\n· META Coordinates can be earned by playing Operation Siren. Sufficient amounts of META Coordinates can be analyzed to begin a META Showdown.\n· You may perform Analysis <color=#92fc63>2 times</color> per day, resetting every day at midnight. Unused META Coordinates will be retained.\n· You need <color=#92fc63>100</color> META Coordinates to begin a META Showdown.\n\n- Fighting Your Bosses -\n· Your first time challenging a META boss that you spawned will not require Oil. From the second attempt onwards, cost of each attempt will gradually drop from <color=#92fc63>40</color> Oil to <color=#92fc63>0</color> Oil. (Will not consume a challenge attempt).\n· When a META Showdown boss reaches 0 HP, they will be defeated. Participants will be able to collect rewards, including a large amount of Sync Points.\n· Each META Showdown will only last for <color=#92fc63>24 hours</color>, after which it will disappear. Use Request Support if you need help.\n· After defeating a META boss, the difficulty of subsequent META Showdowns will increase by 1 level, up to a maximum of 15.\n\n- Fighting Others' Bosses -\n· In the Boss List menu, you can see requests that other Commanders have sent. When fighting another Commander's boss, you will immediately gain Sync Points based upon the <color=#92fc63>amount of DMG</color> you dealt.\n· Each attempt uses 1 Challenge Attempt, but uses no Oil.\n· You can have up to <color=#92fc63>3</color> Challenge attempts, resetting each day at midnight.\nEach META Showdown can have up to 30 participants.\n\n- Combat Instructions -\n· You cannot bring Meowfficers or submarines.\n· At the end of battle, no EXP is gained, and Morale will not be affected.\n· You cannot quit during an META Showdown. If connection is lost due to unstable network conditions, the following will occur:\na. If challenging a boss you discovered, you will spend 40 Oil (the first battle is still free), and any damage done will not count.\nb. If challenging someone else's boss, a challenge attempt will be used, but no rewards will be granted.\n<color=#92fc63>Please make sure your network conditions are stable before attempting an META Showdown!</color>\n\n- Artillery Support -\nFrom the 31st day of this META Showdown season onwards, whenever you begin an META Showdown, your fleet will gain an additional wave of artillery support. This artillery support will deal damage to the enemy and apply a special debuff that inflicts damage over time (this damage cannot be amplified by any bonus effects).\nThe later in the META Showdown season it is, the greater the damage inflicted by this artillery support.\n*Artillery Support will only appear during META Showdown battles you discover, and will trigger with each challenge attempt."
 			}
 		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.feast_task_tag_daily = {
-		tip = "Daily"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.feast_task_pt_got = {
-		tip = "Claimed"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mission_complete = {
-		tip = "Mission\nComplete"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_tech_dev_finish = {
-		tip = "Researched"
+	_G.pg.base.gametip.intimacy_desc_3_buff = {
+		tip = "Current buff: All base stats (except speed and gear) +1%"
 	}
 end)()
 
@@ -33585,30 +35548,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_tech_dev_finish = {
+		tip = "Researched"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveactivity_ui_15 = {
+		tip = "You have scrolled to the end"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_event_start_tip1 = {
+		tip = "A new Guild Operation has been started. Press the button to refresh this screen."
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.roll_room15 = {
 		tip = "Study"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.equip_skin_detail_count = {
-		tip = "Owned:"
+	_G.pg.base.gametip.metaskill_overflow_tip = {
+		tip = "<color=#FFDE60>$1</color> EXP will go over the cap. Do you want to continue?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_public_office_tip = {
-		tip = {
-			{
-				info = "Contributing Materials Info:"
-			},
-			{
-				info = "1.Even players who aren't in a Guild can contribute items to receive Guild Tokens."
-			},
-			{
-				info = "2.Up to <color=#92fc63>3</color> contributions can be made every day."
-			}
-		}
+	_G.pg.base.gametip.metaskill_up = {
+		tip = "<color=#E0E0E0>* EXP gained from META Universal Skill Books does not count towards the daily EXP limit</color>"
 	}
 end)()
 
@@ -33619,8 +35590,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.msgbox_repair_cipher = {
-		tip = "Redownload   Assets"
+	_G.pg.base.gametip.meta_shop_title = {
+		tip = "META"
 	}
 end)()
 
@@ -33637,8 +35608,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.metaskill_overflow_tip = {
-		tip = "<color=#FFDE60>$1</color> EXP will go over the cap. Do you want to continue?"
+	_G.pg.base.gametip.seven_choose_one = {
+		tip = "You may choose only one New Year's gift. \nWould you like <color=#92fc63>$1</color>'s gift? \nYou will receive this character and her greeting. "
 	}
 end)()
 
@@ -33661,8 +35632,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.meta_shop_title = {
-		tip = "META"
+	_G.pg.base.gametip.blueprint_simulation_confirm_29904 = {
+		tip = "<size=28>Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.\nEquipped gear:<color=#92fc63>\nPrototype Triple 234mm Main Gun (9.2\" MK XII)\nQuadruple 533mm Torpedo\nSextuple Bofors 40mm AA Gun</color></size>"
 	}
 end)()
 
@@ -33689,8 +35660,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_shop_title = {
-		tip = "Guild"
+	_G.pg.base.gametip.activity_shop_title = {
+		tip = "Event"
 	}
 end)()
 
@@ -33701,14 +35672,39 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.resource_max_tip_battle = {
-		tip = "You will be unable to receive Coins as rewards from this attack. Continue?"
+	_G.pg.base.gametip.guild_supply_help_tip = {
+		tip = {
+			{
+				info = "Supplies distributed by the Guild management. Contains the following items:"
+			},
+			{
+				info = "<color=#D797FFFF>Guild Tokens x30</color>"
+			},
+			{
+				info = "There is an additional chance of receiving the following items (all odds are calculated independently)"
+			},
+			{
+				info = "<color=#D797FFFF>Guild Tokens x10 (40.00% chance)</color>"
+			},
+			{
+				info = "<color=#D797FFFF>Guild Tokens x10 (10.00% chance)</color>"
+			},
+			{
+				info = "<color=#D797FFFF>Prototype Cores x10 (5.00% chance)</color>"
+			},
+			{
+				info = "<color=#D797FFFF>Gems (1.00% chance)</color>"
+			},
+			{
+				info = "<color=#D797FFFF>Prototype Gear Upgrade Part (0.10% chance)</color>"
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.quota_shop_title1 = {
-		tip = "Core (Ltd.)"
+	_G.pg.base.gametip.activityboss_sp_score_update = {
+		tip = "New High Score"
 	}
 end)()
 
@@ -33725,8 +35721,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.activity_shop_title = {
-		tip = "Event"
+	_G.pg.base.gametip.activityboss_sp_score_target = {
+		tip = "Target Score:"
 	}
 end)()
 
@@ -33737,26 +35733,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.technology_queue_getaward = {
-		tip = "Claim"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activityboss_sp_score_update = {
-		tip = "New High Score"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activityboss_sp_score_target = {
-		tip = "Target Score:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.loveletter_exchange_tip1 = {
-		tip = "No mail matches the requirement, please contact customer service."
+	_G.pg.base.gametip.dal_story_tip1 = {
+		tip = "Read the story\nto get rewards"
 	}
 end)()
 
@@ -33767,14 +35745,32 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.ship_formationUI_fleetName_sp_ss = {
+		tip = "Custom Chal. Sub Fleet"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cryptolalia_no_ticket = {
+		tip = "You don't have enough Secrets Tickets. You can buy them in the Shop with Gems."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cryptolalia_unopen = {
+		tip = "Locked"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip["airi_error_code_ 100211"] = {
 		tip = "TW Unable to login, please bind your account first"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.friend_not_add = {
-		tip = "You aren't friends with this player."
+	_G.pg.base.gametip.activity_hit_monster_erro = {
+		tip = "Attack failed "
 	}
 end)()
 
@@ -33785,8 +35781,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_formationUI_fleetName_sp_ss = {
-		tip = "Custom Chal. Sub Fleet"
+	_G.pg.base.gametip.cryptolalia_coming_soom = {
+		tip = "Coming Soon..."
 	}
 end)()
 
@@ -33797,8 +35793,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.cryptolalia_no_ticket = {
-		tip = "You don't have enough Secrets Tickets. You can buy them in the Shop with Gems."
+	_G.pg.base.gametip.cryptolalia_download_done = {
+		tip = "Assets Downloaded"
 	}
 end)()
 
@@ -33815,8 +35811,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.cryptolalia_unopen = {
-		tip = "Locked"
+	_G.pg.base.gametip.DAL_stage_label_analysis_1 = {
+		tip = "Analyzing..."
 	}
 end)()
 
@@ -33833,8 +35829,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.cryptolalia_download_done = {
-		tip = "Assets Downloaded"
+	_G.pg.base.gametip.cryptolalia_exchange_success = {
+		tip = "Secret Unlocked"
 	}
 end)()
 
@@ -33845,8 +35841,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.cryptolalia_list_title = {
-		tip = "Secrets"
+	_G.pg.base.gametip.cryptolalia_use_ticket_title = {
+		tip = "Unlock with Tickets"
 	}
 end)()
 
@@ -33857,8 +35853,12 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_donate_list_update_failed = {
-		tip = "Unable to refresh available contribution attempts."
+	_G.pg.base.gametip.ore_minigame_help = {
+		tip = {
+			{
+				info = "- Minigame Overview -\nHelp Akashi carry ore from the top side of the screen to the bottom and rack up as many points as you can.\n\n- How to Play -\n1. Use the control stick on the bottom left side of the screen to move Akashi around.\n2. Reach the top side of the screen, approach the ore on the ground, and tap the Move button to carry the ore.\n· You can pick up more than one ore, but only up to a certain weight. Once you hit this threshold, you can't carry more.\n· When you become over-encumbered with ore, your movement speed drops.\n3. Once you reach the ramp on the bottom side of the screen, you can drop off the ore. Doing so will give you points.\n4. Colliding with any of the manjuus passing through the middle of the screen makes you lose all the ore you're carrying.\n5. The minigame ends either when the timer hits 0 or when you exit it."
+			}
+		}
 	}
 end)()
 
@@ -33875,8 +35875,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.cryptolalia_use_ticket_title = {
-		tip = "Unlock with Tickets"
+	_G.pg.base.gametip.cryptolalia_not_download_res = {
+		tip = "Assets Not Downloaded"
 	}
 end)()
 
@@ -33924,8 +35924,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.meta_class_t_level_3 = {
-		tip = "Cinders of Hope"
+	_G.pg.base.gametip.destroy_ur_rarity_tip = {
+		tip = "You have selected a ship of <color=#92fc63>UR</color> rarity. \nPlease enter the following into the box below: <color=#92fc63>$1</color> \n\n"
 	}
 end)()
 
@@ -33936,14 +35936,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_manga_updating = {
-		tip = "Updating: $1/$2"
+	_G.pg.base.gametip.word_maingroup_updatesuccess = {
+		tip = "Update complete."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.multiple_sorties_title_eng = {
-		tip = "Multiple Sorties"
+	_G.pg.base.gametip.retire_1 = {
+		tip = "If you <color=#92fc63>own a ship</color> that has been <color=#92fc63>fully Limit Broken</color>, this option determines what you want to do with the corresponding duplicate ships."
 	}
 end)()
 
@@ -33982,26 +35982,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_maingroup_updatefailure = {
-		tip = "Updated failed. Please try again."
+	_G.pg.base.gametip.couplete_pair_1 = {
+		tip = "Its vibrant colors always leave us awestruck"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_maingroup_updatesuccess = {
-		tip = "Update complete."
+	_G.pg.base.gametip.word_maingroup_checkfailure = {
+		tip = "Check failed. Please try again."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_storeroom_extend = {
-		tip = "Storage Capacity Increase:"
+	_G.pg.base.gametip.island_trade_activity_unlock = {
+		tip = "Requirement: Reach Island Development Lv. 22"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.couplete_pair_7 = {
-		tip = "May this year also be pleasant too"
+	_G.pg.base.gametip.setting_group_prefs_tip = {
+		tip = "Automatically downloaded on bootup."
 	}
 end)()
 
@@ -34018,14 +36018,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_maingroup_checkfailure = {
-		tip = "Check failed. Please try again."
+	_G.pg.base.gametip.file_down_mgr_progress = {
+		tip = "$1/$2"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.main_group_msgbox_content = {
-		tip = "This will download all of the game's additional assets. Would you like to download $1 of data?"
+	_G.pg.base.gametip.file_down_mgr_title = {
+		tip = "Downloading necessary assets..."
 	}
 end)()
 
@@ -34042,32 +36042,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.file_down_mgr_progress = {
-		tip = "$1/$2"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.file_down_mgr_title = {
-		tip = "Downloading necessary assets..."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_dev_level = {
-		tip = "Island Dev. Level"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.game_icon_max_full = {
 		tip = "Unable to claim; you cannot hold any more of this item."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cattery_settlement_dialogue_4 = {
-		tip = "EXP, nya~"
 	}
 end)()
 
@@ -34078,20 +36054,44 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.twitter_link_title = {
-		tip = "Twitter Account:$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.game_room_shooting_tip = {
-		tip = "Current Score:"
+	_G.pg.base.gametip.island_dev_level = {
+		tip = "Island Dev. Level"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.charge_game_room_coin_tip = {
 		tip = "Spend <color=#92fc63><icon name=res_gold w=0.5 h=0.5/>$1</color> to purchase \n\n<color=$3>$4 $2</color>?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cattery_settlement_dialogue_4 = {
+		tip = "EXP, nya~"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_tip_attr_modify = {
+		tip = "Please decide whether to replace the old attributes first. "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.twitter_link_title = {
+		tip = "Twitter Account:$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_ui_transform = {
+		tip = "Attribute Conversion"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_status_activity = {
+		tip = "In Event"
 	}
 end)()
 
@@ -34108,50 +36108,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equipment_skin_unload_failed = {
-		tip = "Failed to apply skin on the new ship"
+	_G.pg.base.gametip.guild_set_duty_title = {
+		tip = "Appoint $1 as: "
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.cook_game_august = {
 		tip = "Moves faster than the others!"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_status_activity = {
-		tip = "In Event"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_collection_back = {
-		tip = "Tap to return "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.class_attr_costproficiency = {
-		tip = "EXP Production"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.index_skin = {
-		tip = "Has Skin"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.retire_selectzero = {
-		tip = "No ships fit the specified conditions for quick retire. "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_tip_control_buff = {
-		tip = "Boosts will be applied to your fleets on the following stages: TH1-5, SP, EX."
 	}
 end)()
 
@@ -34184,14 +36148,50 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.world_collection_back = {
+		tip = "Tap to return "
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.notice_label_tip = {
 		tip = "You cannot enter as this chat room is full."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.meta_award_get = {
-		tip = "Collect"
+	_G.pg.base.gametip.which_day = {
+		tip = "Day <color=#92fc63>$1</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.retire_selectzero = {
+		tip = "No ships fit the specified conditions for quick retire. "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_tip_control_buff = {
+		tip = "Boosts will be applied to your fleets on the following stages: TH1-5, SP, EX."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.notice_label_room = {
+		tip = "Receive"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.notice_label_send = {
+		tip = "Send"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mktea_4 = {
+		tip = "Place the processed tea leaves in a cool place, and spread them thinly to reabsorb moisture. After cooling, sieve off the tea powder, and winnow out any debris."
 	}
 end)()
 
@@ -34232,8 +36232,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.notice_label_send = {
-		tip = "Send"
+	_G.pg.base.gametip.meta_class_t_level_3 = {
+		tip = "Cinders of Hope"
 	}
 end)()
 
@@ -34262,8 +36262,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_shop_label_1 = {
-		tip = "Select an item to exchange for："
+	_G.pg.base.gametip.meta_shop_tip = {
+		tip = "You may only purchase as many as needed for Max Limit Break."
 	}
 end)()
 
@@ -34292,14 +36292,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.Valentine_minigame_label2 = {
-		tip = "Chocolates Needed:"
+	_G.pg.base.gametip.caibulin_tip9 = {
+		tip = "The shop? How suspicious... Sounds like a great place for clues to be hidden, bulin!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.meta_shop_tip = {
-		tip = "You may only purchase as many as needed for Max Limit Break."
+	_G.pg.base.gametip.island_game_limit_help = {
+		tip = "You'll gain $1 Adventure Pass(es) every day at midnight."
 	}
 end)()
 
@@ -34316,12 +36316,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ore_minigame_help = {
-		tip = {
-			{
-				info = "- Minigame Overview -\nHelp Akashi carry ore from the top side of the screen to the bottom and rack up as many points as you can.\n\n- How to Play -\n1. Use the control stick on the bottom left side of the screen to move Akashi around.\n2. Reach the top side of the screen, approach the ore on the ground, and tap the Move button to carry the ore.\n· You can pick up more than one ore, but only up to a certain weight. Once you hit this threshold, you can't carry more.\n· When you become over-encumbered with ore, your movement speed drops.\n3. Once you reach the ramp on the bottom side of the screen, you can drop off the ore. Doing so will give you points.\n4. Colliding with any of the manjuus passing through the middle of the screen makes you lose all the ore you're carrying.\n5. The minigame ends either when the timer hits 0 or when you exit it."
-			}
-		}
+	_G.pg.base.gametip.island_history_desc = {
+		tip = "Unlock hidden treasure chests by completely exploring an area!"
 	}
 end)()
 
@@ -34338,8 +36334,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.caibulin_tip11 = {
-		tip = "The archives? How suspicious... Sounds like a great place for clues to be hidden, bulin!"
+	_G.pg.base.gametip.island_build_desc = {
+		tip = "Upgrade your buildings to level up your Base Camp."
 	}
 end)()
 
@@ -34350,8 +36346,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_history_desc = {
-		tip = "Unlock hidden treasure chests by completely exploring an area!"
+	_G.pg.base.gametip.package_view_4 = {
+		tip = "Acquired:"
 	}
 end)()
 
@@ -34362,8 +36358,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_build_desc = {
-		tip = "Upgrade your buildings to level up your Base Camp."
+	_G.pg.base.gametip.package_view_3 = {
+		tip = "Cruise Pass Purchased"
 	}
 end)()
 
@@ -34380,57 +36376,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.pray_build_help = {
-		tip = {
-			{
-				info = "Event Description: \n"
-			},
-			{
-				info = "1. Focus your wishes upon one of the three permanent build categories — Light, Heavy, or Special builds — then choose one ship to wish for. (Ultra Rare ships can only appear in Heavy or Special builds.)"
-			},
-			{
-				info = "2. The acquisition rate of each rarity is the same in the Wishing Well as it is for normal building:"
-			},
-			{
-				info = "Light Ships: <color=#ffde38>Super Rare</color>: 7%, <color=#d797ff>Elite</color>: 12%, <color=#3dc6ff>Rare</color>: 26%, Common: 55%"
-			},
-			{
-				info = "Heavy Ships: <color=#ff5e39>Ultra Rare</color>: 1.2%, <color=#ffde38>Super Rare</color>: 7%, <color=#d797ff>Elite</color>: 12%, <color=#3dc6ff>Rare</color>: 51%, Common: 28.8%"
-			},
-			{
-				info = "Special Ships: <color=#ff5e39>Ultra Rare</color>: 1.2%, <color=#ffde38>Super Rare</color>: 7%, <color=#d797ff>Elite</color>: 12%, <color=#3dc6ff>Rare</color>: 51%, Common: 28.8%"
-			},
-			{
-				info = "3. You can see a list of all ships available for construction in the Wishing Well."
-			},
-			{
-				info = "4. You may choose two ships on which to focus your wishes. (You can only choose one Ultra Rare ship and any other Ultra Rare ship cannot be build in the Wishing Well.)"
-			},
-			{
-				info = "5. Only ships added to the normal building pool prior to March 26th, 2025 can hear your wishes."
-			},
-			{
-				info = "6. Ships that have an unlock condition cannot hear your wishes, and will not appear in the Wishing Well."
-			},
-			{
-				info = "7. The acquisition rate of each ship in the Wishing Well varies according to differences in rarity."
-			},
-			{
-				info = "<color=#ff5e39>Ultra Rare</color>: 1.2%, <color=#ffde38>Super Rare</color>: 2.0%, <color=#d797ff>Elite</color>: 2.5%, <color=#3dc6ff>Rare</color>: 2.5%, Common: 2.5%"
-			},
-			{
-				info = "8. Once you have chosen your two ships, you are ready to begin wishing."
-			},
-			{
-				info = "9. Once you start wishing, you cannot change your selections for the duration of the event."
-			},
-			{
-				info = "10. Wishing Well build costs are the same as ordinary builds, as are build durations, which can be skipped with a Quick Finisher."
-			},
-			{
-				info = "11. Wishing Well builds count toward the standard UR Exchange following the same rules as other standard build pools."
-			}
-		}
+	_G.pg.base.gametip.chargetip_crusing = {
+		tip = "Cruise Pass Purchased"
 	}
 end)()
 
@@ -34441,8 +36388,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.package_view_3 = {
-		tip = "Cruise Pass Purchased"
+	_G.pg.base.gametip.SardiniaSPCoreActivityUI_subtitle_2 = {
+		tip = "Milestone"
 	}
 end)()
 
@@ -34453,8 +36400,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.chargetip_crusing = {
-		tip = "Cruise Pass Purchased"
+	_G.pg.base.gametip.islandnode_tips9 = {
+		tip = "Level up your Base Camp to unlock the next part of the story!"
 	}
 end)()
 
@@ -34497,24 +36444,6 @@ end)()
 (function()
 	_G.pg.base.gametip.login_createNewPlayer_error_nameNull = {
 		tip = "Please give yourself a name!"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.islandnode_tips5 = {
-		tip = "Unlucky... Better luck next time!"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.islandnode_tips2 = {
-		tip = "TIPS"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_shop_exchange_limit = {
-		tip = "Unobtained"
 	}
 end)()
 
@@ -34583,6 +36512,24 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.workbench_tips10 = {
+		tip = "Display craftable only"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.workbench_tips9 = {
+		tip = "Materials Needed"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.workbench_tips3 = {
+		tip = "You can't craft any more of this item."
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.world_boss_current_boss_label = {
 		tip = "Daily Limit"
 	}
@@ -34631,8 +36578,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.workbench_tips10 = {
-		tip = "Display craftable only"
+	_G.pg.base.gametip.workbench_tips2 = {
+		tip = "Insufficient crafting materials"
 	}
 end)()
 
@@ -34643,14 +36590,18 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.workbench_tips3 = {
-		tip = "You can't craft any more of this item."
+	_G.pg.base.gametip.island_order_ship_reset_all = {
+		tip = "Do you want to refresh all displayed jobs?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.workbench_tips2 = {
-		tip = "Insufficient crafting materials"
+	_G.pg.base.gametip.haidaojudian_help = {
+		tip = {
+			{
+				info = "- Event Overview - \nUncharted Summer is an event filled with activities centered around Seabreeze Island. Explore the island, gather Adventure Coins, and earn various rewards!\nThis event is split up into 2 parts – the Adventure Map, and your Base Camp.\nAdventure Map – explore the island and play minigames to get Adventure Coins, which can be traded for rewards in the shop.\nBase Camp – use the resources you found on the island to expand your camp and craft items to receive rewards and open up new areas to explore.\n\n- Base Camp Details -\nYour Base Camp has various icons which can take you to more specific camp features.\nIt can also be leveled up, providing buffs to your whole fleet for the duration of the event.\nTo increase your camp's level, use your Crafting Station to make items to upgrade your buildings using the materials you found while exploring.\nAfter you've upgraded your buildings sufficiently, the camp will level up on its own. You can check your current Base Camp level at the Mission Board.\n\n- Specific Functions -\n1. The Crafting Station\nHere you can use the materials found while exploring or brought back by the Expedition Squad to create exclusive furniture and items used around your Base Camp.\nUpgrading your Crafting Station gives you access to a wider range of items to craft.\n\n2. The Expedition Squad\nOnce a day, your Expedition Squad will automatically collect materials for you.\nThe amount of materials the squad brings back is dependent on your Expedition Squad's level as well as the level of certain other buildings.\n\n3. Manjuu Papercraft\nHere you can create gifts for your shipgirls using the materials you've gathered and the items you've made at the Crafting Station.\nThe shipgirls will reciprocate your gift and give you rewards such as materials and Adventure Coins.\n\n4. The Mission Board\nThe Mission Board has a list of missions you can complete, earning you Adventure Coins and other rewards for your efforts.\nYou can also check the Records to see how far into the story you are and how much of the island you've explored. As you fill in the pages, you'll get hints showing you where to find hidden treasure chests on the Adventure Map.\n\n5. The Dining Area and Living Quarters\nUpgrading these buildings will raise your Base Camp level in addition to increasing the number of rewards your Expedition Squad can bring back.\n"
+			}
+		}
 	}
 end)()
 
@@ -34667,8 +36618,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.haidaojudian_building_tip = {
-		tip = "Insufficient materials to upgrade your Base Camp."
+	_G.pg.base.gametip.gift_act_tips = {
+		tip = "Insufficient $1"
 	}
 end)()
 
@@ -34679,12 +36630,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.haidaojudian_help = {
-		tip = {
-			{
-				info = "- Event Overview - \nUncharted Summer is an event filled with activities centered around Seabreeze Island. Explore the island, gather Adventure Coins, and earn various rewards!\nThis event is split up into 2 parts – the Adventure Map, and your Base Camp.\nAdventure Map – explore the island and play minigames to get Adventure Coins, which can be traded for rewards in the shop.\nBase Camp – use the resources you found on the island to expand your camp and craft items to receive rewards and open up new areas to explore.\n\n- Base Camp Details -\nYour Base Camp has various icons which can take you to more specific camp features.\nIt can also be leveled up, providing buffs to your whole fleet for the duration of the event.\nTo increase your camp's level, use your Crafting Station to make items to upgrade your buildings using the materials you found while exploring.\nAfter you've upgraded your buildings sufficiently, the camp will level up on its own. You can check your current Base Camp level at the Mission Board.\n\n- Specific Functions -\n1. The Crafting Station\nHere you can use the materials found while exploring or brought back by the Expedition Squad to create exclusive furniture and items used around your Base Camp.\nUpgrading your Crafting Station gives you access to a wider range of items to craft.\n\n2. The Expedition Squad\nOnce a day, your Expedition Squad will automatically collect materials for you.\nThe amount of materials the squad brings back is dependent on your Expedition Squad's level as well as the level of certain other buildings.\n\n3. Manjuu Papercraft\nHere you can create gifts for your shipgirls using the materials you've gathered and the items you've made at the Crafting Station.\nThe shipgirls will reciprocate your gift and give you rewards such as materials and Adventure Coins.\n\n4. The Mission Board\nThe Mission Board has a list of missions you can complete, earning you Adventure Coins and other rewards for your efforts.\nYou can also check the Records to see how far into the story you are and how much of the island you've explored. As you fill in the pages, you'll get hints showing you where to find hidden treasure chests on the Adventure Map.\n\n5. The Dining Area and Living Quarters\nUpgrading these buildings will raise your Base Camp level in addition to increasing the number of rewards your Expedition Squad can bring back.\n"
-			}
-		}
+	_G.pg.base.gametip.guild_msg_is_null = {
+		tip = "Unable to send empty messages."
 	}
 end)()
 
@@ -34713,18 +36660,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.gift_act_help = {
-		tip = {
-			{
-				info = "- Manjuu Papercraft Overview -\nUse the materials you collect on Seabreeze Island and craft them into gifts for your shipgirls!\nGive the gifts to your shipgirls to get rewards such as Adventure Coins in return.\n\n- How to Play -\n1. Select the shipgirl you'd like to give a gift to, and follow the instructions on the screen to craft the gift.\n2. Once you've finished the gift, drag it onto the shipgirl to deliver it. Doing so will grant you rewards such as Adventure Coins.\n3. You can only give one gift to the same ship.\n4. Shiny Gemstones can be obtained by converting Unprocessed Ore at the Crafting Station."
-			}
-		}
+	_G.pg.base.gametip.sculpture_drawline_done = {
+		tip = "You followed the design, and assembled all the different parts!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.sculpture_gratitude_tip = {
-		tip = "Drag to deliver the gifts to the shipgirls!"
+	_G.pg.base.gametip.blueprint_combatperformance = {
+		tip = "Performance"
 	}
 end)()
 
@@ -34741,44 +36684,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.sculpture_drawline_exit = {
-		tip = "If you quit now, progress won't be saved.(You can try again without spending extra materials)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.area_renwu = {
-		tip = "Mission"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.sculpture_drawline_done = {
-		tip = "You followed the design, and assembled all the different parts!"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_combatperformance = {
-		tip = "Performance"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_word_effect_addition = {
-		tip = "Efficiency Increased:"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.doa_character_select_confirm = {
 		tip = "Using <color=#92fc63>Venus Exchange Ticket</color> to redeem Venus Vacation collab character <color=#92fc63>$1</color>.\nDo you want to continue? "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ryza_task_tag_explore = {
-		tip = "Expl."
+	_G.pg.base.gametip.area_renwu = {
+		tip = "Mission"
 	}
 end)()
 
@@ -34817,14 +36730,44 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.event_start = {
-		tip = "Start"
+	_G.pg.base.gametip.guild_word_effect_addition = {
+		tip = "Efficiency Increased:"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.doa_minigame_Misaki = {
 		tip = "Misaki"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_task_tag_explore = {
+		tip = "Expl."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.event_recommend_level1 = {
+		tip = "No suitable shipgirls found. Would you like to automatically add a locked Lv. 1 shipgirl?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_build_solt_deficiency = {
+		tip = "Only up to 10 Cat Boxes can be prepared for training at a time."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.event_start = {
+		tip = "Start"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.caibulin_lock_tip = {
+		tip = "Collect all Clues to unlock special stage!"
 	}
 end)()
 
@@ -34841,33 +36784,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.utaware_warmup_notice = {
-		tip = {
-			{
-				info = "活动说明："
-			},
-			{
-				info = "    1.活动期间，玩家可获得临时npc角色芙米露露，临时角色不\n    可誓约、不可退役、不可被选为强化突破材料；"
-			},
-			{
-				info = "    2.活动期间，击破普通难度主线第三章及之后章节旗舰&传颂\n    之物活动地图旗舰，可增加临时npc角色芙米露露的友好度；"
-			},
-			{
-				info = "    3.上阵芙米露露参与战斗，且未被击沉，可增加双倍友好度；"
-			},
-			{
-				info = "    4.在活动结束前累计获得1500点好友度，可领取奖励并将临时\n    角色【芙米露露】转化为永久角色；"
-			},
-			{
-				info = "    5.在活动结束后，未完成转化的临时角色【芙米露露】将离开\n    港区，不返还已经消耗的强化、突破等培养材料；"
-			}
-		}
+	_G.pg.base.gametip.intimacy_desc_5_detail = {
+		tip = "$1 looks at you with eyes full of love.\n<color=#92fc63><size=18>All stats (except Speed) +6%</size></color>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.caibulin_lock_tip = {
-		tip = "Collect all Clues to unlock special stage!"
+	_G.pg.base.gametip.caibulin_tip10 = {
+		tip = "The construction pools? How suspicious... Sounds like a great place for clues to be hidden, bulin!"
 	}
 end)()
 
@@ -34884,8 +36808,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.words_desc_unlock = {
-		tip = "This is a Secondary Password-restricted function."
+	_G.pg.base.gametip.caibulin_tip6 = {
+		tip = "The dorms? How suspicious... Sounds like a great place for clues to be hidden, bulin!"
 	}
 end)()
 
@@ -34902,30 +36826,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.caibulin_tip9 = {
-		tip = "The shop? How suspicious... Sounds like a great place for clues to be hidden, bulin!"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.caibulin_tip6 = {
-		tip = "The dorms? How suspicious... Sounds like a great place for clues to be hidden, bulin!"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.caibulin_tip4 = {
-		tip = "The dock? How suspicious... Sounds like a great place for clues to be hidden, bulin!"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_puzzle_get11 = {
-		tip = "<color=#A9F548FF>How to get: \nmission 2</color>"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.caibulin_tip2 = {
 		tip = "The depot? How suspicious... Sounds like a great place for clues to be hidden, bulin!"
 	}
@@ -34938,14 +36838,42 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.game_ticket_max_month = {
+		tip = "You've reached your monthly limit of Game Tickets, and will not be able to earn any more. Continue playing the minigame?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_puzzle_get11 = {
+		tip = "<color=#A9F548FF>How to get: \nmission 2</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_decorate = {
+		tip = "Decorations"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.game_room_help = {
+		tip = {
+			{
+				info = "- About the Arcade -\nIn the Arcade, you'll be able to play certain minigames. Minigames will be gradually added in the future, and some minigames may not be made available for the time being.\nWhen playing minigames, using Credits will allow you to earn Game Tickets at the end of the minigame.\nGame Tickets may be exchanged for certain rerun items at the Prize Shop.\n\nYou may play minigames without spending Credits.\n\n- About Credits -\nCredits can be used to allow you to earn Game Tickets at the end of a minigame.\nWhen starting a minigame, you can choose the number of Credits you'd like to use at the start screen.\nEvery week, you can obtain 10 Credits from Akashi in the Arcade. Additional Credits can be purchased with Coins.\nYou can hold a maximum of 40 Credits.\n\n- About Game Tickets -\nGame Tickets can be used at the Prize Shop to exchange for rewards. The rewards available at the Prize Shop will be continuously updated in the future.\nGame Tickets can be obtained through spending Credits on playing minigames.\nThe number of Game Tickets earned depends on the number of Credits used, as well as your minigame score.\nYou can hold a maximum of 50,000 Game Tickets, and you may earn a maximum of 10,000 Game Tickets per month."
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.island_manage_daily_cnt_tip = {
 		tip = "On Break"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_takeAttachment_error_reWorld = {
-		tip = "Since Operation Siren was reset, the collected items will be converted into Supply Shop Vouchers. Continue?"
+	_G.pg.base.gametip.series_enemy_team_notenough = {
+		tip = "Cannot start sortie unless all fleets meet the sortie requirements (each fleet must have at least one ship in the Main Fleet and Vanguard)."
 	}
 end)()
 
@@ -34968,8 +36896,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.limit_team_character_tips = {
-		tip = "You cannot have same name ships in your Coalition Battle fleets."
+	_G.pg.base.gametip.index_upgrade = {
+		tip = "Can Lim. Brk. "
 	}
 end)()
 
@@ -34986,32 +36914,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.series_enemy_team_notenough = {
-		tip = "Cannot start sortie unless all fleets meet the sortie requirements (each fleet must have at least one ship in the Main Fleet and Vanguard)."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.elite_condition_antisub = {
-		tip = "Total ASW"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_exchange_tip = {
-		tip = "1. You will receive Medals of Honor when retiring a ship.\n2. You may exchange Medals for new ships.\n3. The Exchange Shop refreshes every day at <color=#92fc63>06:00</color> and <color=#92fc63>18:00</color>."
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.series_enemy_mode_1 = {
 		tip = "Solo Challenge"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_tip_to_consumption = {
-		tip = "Cost "
 	}
 end)()
 
@@ -35022,26 +36926,32 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.tec_catchup_7 = {
+		tip = "Series 7"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.setting_label_private = {
 		tip = ""
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_joint_call_guild_support_txt = {
-		tip = "未配置tip"
+	_G.pg.base.gametip.tec_tip_to_consumption = {
+		tip = "Cost "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.remould_ship_ok = {
-		tip = "Improved!"
+	_G.pg.base.gametip.words_autoFIght_down_frame_des = {
+		tip = "When toggled on, reduces game FPS when battery saver mode is active."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_result_toggle_off = {
-		tip = "Surface Fleet"
+	_G.pg.base.gametip.battle_result_toggle_on = {
+		tip = "Sub Fleet"
 	}
 end)()
 
@@ -35052,8 +36962,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_boss_archives_continue_auto_battle = {
-		tip = "<size=40>Auto-Deploy Resumed</size>"
+	_G.pg.base.gametip.remould_ship_ok = {
+		tip = "Improved!"
 	}
 end)()
 
@@ -35064,8 +36974,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.pt_ship_now = {
-		tip = "Enemies Defeated: "
+	_G.pg.base.gametip.intimacy_desc_6_detail = {
+		tip = "Love will guide the way, our hearts bound by an eternal promise!\nWe share our smile, our words unspoken.\nOur love will be one of respect, trust, and confidence forever.\nFrom this day forth, our fates are bound together.\nPromise date: $1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_boss_archives_continue_auto_battle = {
+		tip = "<size=40>Auto-Deploy Resumed</size>"
 	}
 end)()
 
@@ -35094,20 +37010,32 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.battle_text_pizibao_2 = {
+		tip = "The supporting fleet <color=#f1f102>has been destroyed</color>! The battle will get tougher!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.friend_relieveblacklist_success = {
+		tip = "Removed from blacklist!"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.liner_name_modify = {
 		tip = "Your cruise ship's name has been changed."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.level_scene_title_word_3 = {
-		tip = "Current ACV:"
+	_G.pg.base.gametip.dailyLevel_unopened = {
+		tip = "Not open"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.event_finish = {
-		tip = "Complete"
+	_G.pg.base.gametip.HelenaCoreActivity_subtitle_6 = {
+		tip = "UR Exchange"
 	}
 end)()
 
@@ -35148,8 +37076,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_text_haidao_1 = {
-		tip = "<color=#f1f102>/// Warning: Non-Tempesta Ship Detected ///</color>"
+	_G.pg.base.gametip.battle_text_bisimaiz_7 = {
+		tip = "The Corrosion has been purged. Current Corrosion Level: <color=#92fc63>0</color>"
 	}
 end)()
 
@@ -35188,8 +37116,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_text_bisimaiz_7 = {
-		tip = "The Corrosion has been purged. Current Corrosion Level: <color=#92fc63>0</color>"
+	_G.pg.base.gametip.island_ship_order_toggle_label_award = {
+		tip = "Rewards"
 	}
 end)()
 
@@ -35212,8 +37140,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_text_bisimaiz_2 = {
-		tip = "Current Corrosion Level: <color=#f1f102>1</color>"
+	_G.pg.base.gametip.battle_text_yingxiv4_9 = {
+		tip = "Direct the enemy's <color=#f1f102>attacks</color> to the devices!"
 	}
 end)()
 
@@ -35224,8 +37152,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_text_bisimaiz_1 = {
-		tip = "Current Corrosion Level: <color=#92fc63>0</color>"
+	_G.pg.base.gametip.battle_text_yingxiv4_8 = {
+		tip = "The Horseman is <color=#f1f102>targeting</color> your Main Fleet!"
 	}
 end)()
 
@@ -35236,8 +37164,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_text_yingxiv4_8 = {
-		tip = "The Horseman is <color=#f1f102>targeting</color> your Main Fleet!"
+	_G.pg.base.gametip.battle_text_yingxiv4_5 = {
+		tip = "The Horseman is <color=#f1f102>powering up</color>!"
 	}
 end)()
 
@@ -35271,8 +37199,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.five_shujuhuigu = {
-		tip = "You have not yet unlocked Operation Siren."
+	_G.pg.base.gametip.battle_resourceSiteLayer_no_shipTypeCount = {
+		tip = "Missing <color=#92fc63>$1 x$2</color> in team"
 	}
 end)()
 
@@ -35287,8 +37215,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_text_yingxiv4_5 = {
-		tip = "The Horseman is <color=#f1f102>powering up</color>!"
+	_G.pg.base.gametip.battle_text_yingxiv4_3 = {
+		tip = "The Horseman is charging <color=#f1f102>right</color>!"
 	}
 end)()
 
@@ -35305,8 +37233,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_text_yingxiv4_3 = {
-		tip = "The Horseman is charging <color=#f1f102>right</color>!"
+	_G.pg.base.gametip.special_animal1 = {
+		tip = "[Uranami's Collection of Cuties - #1] Axofrostl: a strange creature with the power to rapidly freeze its prey. It builds its nest in frozen lakes."
 	}
 end)()
 
@@ -35317,8 +37245,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_attr_level = {
-		tip = "Max Level"
+	_G.pg.base.gametip.loveletter_recover_bottom3 = {
+		tip = "$1"
 	}
 end)()
 
@@ -35335,14 +37263,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_text_common_2 = {
-		tip = "Warning: <color=#ffc038>battle data abnormality</color> detected. Your fleet's <color=#f1f102>Augment Modules and skills will be ineffective!</color>"
+	_G.pg.base.gametip.commander_is_in_guild = {
+		tip = "There are Meowfficers currently assigned to a Guild Operation boss battle. Are you sure you want to continue?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.loveletter_recover_bottom3 = {
-		tip = "$1"
+	_G.pg.base.gametip.loveletter_recover_bottom1 = {
+		tip = "Scan"
 	}
 end)()
 
@@ -35365,8 +37293,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.loveletter_recover_tip7 = {
-		tip = "Your mail has been scanned. Your Valentine's mail already exists in your mailbox or Archive."
+	_G.pg.base.gametip.loveletter_recover_tip4 = {
+		tip = "This character was not available during the year selected."
 	}
 end)()
 
@@ -35383,8 +37311,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.loveletter_recover_tip6 = {
-		tip = "Your mail has been scanned. You can resend Valentine's mail from $1."
+	_G.pg.base.gametip.loveletter_exchange_tip3 = {
+		tip = "Replacement successful. Please check your Inbox to receive your new items."
 	}
 end)()
 
@@ -35401,8 +37329,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.loveletter_recover_tip4 = {
-		tip = "This character was not available during the year selected."
+	_G.pg.base.gametip.black5_bundle_desc = {
+		tip = "Buy 3 featured skins to receive a Promise Ring"
 	}
 end)()
 
@@ -35419,8 +37347,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.amercian_notice_3 = {
-		tip = "Period：2019.2.21~3.20"
+	_G.pg.base.gametip.battle_levelMediator_ok_takeResource = {
+		tip = "Resources collected"
 	}
 end)()
 
@@ -35431,8 +37359,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.list_empty_tip_dockyardui = {
-		tip = "Found no ships matching your filter criteria."
+	_G.pg.base.gametip.guild_donate_list_update_failed = {
+		tip = "Unable to refresh available contribution attempts."
 	}
 end)()
 
@@ -35449,8 +37377,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.sort_energy = {
-		tip = "Morale"
+	_G.pg.base.gametip["2023Valentine_minigame_label3"] = {
+		tip = "Progress"
 	}
 end)()
 
@@ -35467,14 +37395,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip["2023Valentine_minigame_label3"] = {
-		tip = "Progress"
+	_G.pg.base.gametip.new_airi_error_code_200200 = {
+		tip = "Order status tracking timed out"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.limit_skin_time_day = {
-		tip = "Time left: $1 day(s)"
+	_G.pg.base.gametip.multiple_sorties_retry_desc = {
+		tip = "Repeat $1 sorties"
 	}
 end)()
 
@@ -35485,14 +37413,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.bulin_tip_other2 = {
-		tip = "Clues are on cooldown, bulin!"
+	_G.pg.base.gametip.ship_energy_low_warn = {
+		tip = "$2's ($1) Mood is very low. Her Affinity will be reduced if you force her to attack."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.multiple_sorties_retry_desc = {
-		tip = "Repeat $1 sorties"
+	_G.pg.base.gametip.multiple_sorties_main_end = {
+		tip = "–Expected Repeat Sortie runs: <color=#92fc63>$1</color>, Actual Completed Sortie runs: <color=#92fc63>$2</color>"
 	}
 end)()
 
@@ -35509,20 +37437,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.technology_queue_in_mission_incomplete = {
-		tip = "You cannot queue this research because you don't fulfill its requirements."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.multiple_sorties_main_end = {
-		tip = "–Expected Repeat Sortie runs: <color=#92fc63>$1</color>, Actual Completed Sortie runs: <color=#92fc63>$2</color>"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.multiple_sorties_main_tip = {
 		tip = "–<color=#92fc63>Auto-Search</color> is enabled by default during Repeat Sortie mode.\n–If Auto-Search is disabled, Repeat Sortie mode will be canceled as well."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.taiyuan_nianye = {
+		tip = "Phew... Thank goodness none of the dumplings fell apart in the pot..."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.multiple_sorties_stop_reason2 = {
+		tip = "Due to Fleet <color=#92fc63>$2</color>'s low morale, "
 	}
 end)()
 
@@ -35545,20 +37473,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.charge_ship_bag_max = {
-		tip = "Your dock has been fully expanded."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.multiple_sorties_stop_reason2 = {
-		tip = "Due to Fleet <color=#92fc63>$2</color>'s low morale, "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.multiple_sorties_stop_tip_end = {
-		tip = "<color=#92fc63>Auto-Repeat</color> has been stopped."
+	_G.pg.base.gametip.word_shipNation_dongHuang = {
+		tip = "Dragon Empery"
 	}
 end)()
 
@@ -35569,20 +37485,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equipment_select_device_destroy_nobonus_tip = {
-		tip = "No materials"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.multiple_sorties_end_status = {
 		tip = "You completed <color=#92fc63>$2</color> out of <color=#92fc63>$1</color> planned sorties."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.multiple_sorties_stop_end = {
-		tip = "Auto-Repeat has been stopped."
+	_G.pg.base.gametip.island_trade_purchase_sub_label = {
+		tip = "Buy"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipment_select_device_destroy_nobonus_tip = {
+		tip = "No materials"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.multiple_sorties_resume_tip = {
+		tip = "Continuing <color=#92fc63>Auto-Repeat</color>."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_task_submit = {
+		tip = "Submit"
 	}
 end)()
 
@@ -35599,8 +37527,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.hotspring_buff = {
-		tip = "Open-Air Onsen|Shipgirls recover Morale faster while bathing."
+	_G.pg.base.gametip.multiple_sorties_locked_tip = {
+		tip = "Unlock <color=#92fc63>Auto-Repeat</color> by clearing the stage on this difficulty once."
 	}
 end)()
 
@@ -35651,14 +37579,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.multiple_sorties_title = {
-		tip = "Auto-Repeat"
+	_G.pg.base.gametip["2023spring_minigame_tip2"] = {
+		tip = "Equipped"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.meta_pt_get_way = {
-		tip = "未配置tip"
+	_G.pg.base.gametip["2023spring_minigame_tip1"] = {
+		tip = "Equip"
 	}
 end)()
 
@@ -35675,8 +37603,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip["2023spring_minigame_nenjuu_skill8"] = {
-		tip = "Supersonic|Every 10s, a Nianjuu's speed increases by 20% for 5s. This effect is negated if the Nianjuu attacks during it."
+	_G.pg.base.gametip["2023spring_minigame_nenjuu_skill5"] = {
+		tip = "Double Trouble|Creates a Nianjuu clone. The clone has no special abilities and moves at 70% of the original's speed."
 	}
 end)()
 
@@ -35717,8 +37645,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip["2023spring_minigame_nenjuu_skill5"] = {
-		tip = "Double Trouble|Creates a Nianjuu clone. The clone has no special abilities and moves at 70% of the original's speed."
+	_G.pg.base.gametip.word_status_world = {
+		tip = "Operation Siren "
 	}
 end)()
 
@@ -35729,76 +37657,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm = {
-		tip = "Would you like to start a Battle Simulation?<color=#ff5c5c> Note:the ship's stats and abilities may differ from its fully developed equivalent.</color>"
+	_G.pg.base.gametip["2023spring_minigame_bless_substitute_up"] = {
+		tip = "Unlocks the skill Decoy."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.help_backyard = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/strength",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/break",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/equip",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/bullet",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/energy",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/maxlevel",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/fanqian",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 7,
-			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
-			},
-			windowPos = {
-				y = 15
-			},
-			helpSize = {
-				x = 836,
-				y = 660
-			}
-		}
+	_G.pg.base.gametip["2023spring_minigame_bless_speed"] = {
+		tip = "Gotta Go Fast|Increases your base speed."
 	}
 end)()
 
@@ -35827,14 +37693,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip["2023spring_minigame_skill_sprint"] = {
-		tip = "Fast Footwork|Temporarily increases your speed by 20%."
+	_G.pg.base.gametip.beach_guard_e2_desc = {
+		tip = "A regular Siren with higher movement speed than Scavenger."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_warning_310034 = {
-		tip = "Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed.\n<color=#92fc63>Secondary Weapon</color> will become <color=#92fc63>Water Detection</color> slot <color=#92fc63><material=underline c=#92fc63 event=clickDetail>(Info)</material></color>.\n<color=#92fc63>Your current Secondary Weapon</color> will be unequipped.\nWould you like to continue?"
+	_G.pg.base.gametip.ship_remould_warning_520034 = {
+		tip = "Completing the retrofit will change the ship's designation into:\nGuided-Missile Destroyer (Vanguard Mode)\nHer stats and combat performance may change significantly.\nProceed with retrofit?"
 	}
 end)()
 
@@ -35851,8 +37717,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip["2023spring_minigame_item_firecracker"] = {
-		tip = "Firecrackers|Use to scare Nianjuus when they are near you, allowing you to flee for 5s."
+	_G.pg.base.gametip.couplete_pair_7 = {
+		tip = "May this year also be pleasant too"
 	}
 end)()
 
@@ -35875,8 +37741,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_shipState_study = {
-		tip = "She's currently in class!"
+	_G.pg.base.gametip.couplete_complete = {
+		tip = "Commander, you've already completed all the poems."
 	}
 end)()
 
@@ -35887,8 +37753,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.couplete_pair_1 = {
-		tip = "Its vibrant colors always leave us awestruck"
+	_G.pg.base.gametip.couplete_remind = {
+		tip = "Commander, the second line is \"$1\"."
 	}
 end)()
 
@@ -35899,14 +37765,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.couplete_complete = {
-		tip = "Commander, you've already completed all the poems."
+	_G.pg.base.gametip.couplete_drag_tip = {
+		tip = "*Change the order of the words by dragging on them."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.couplete_remind = {
-		tip = "Commander, the second line is \"$1\"."
+	_G.pg.base.gametip.couplet_index_desc = {
+		tip = "Poem $1"
 	}
 end)()
 
@@ -35917,8 +37783,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.couplete_drag_tip = {
-		tip = "*Change the order of the words by dragging on them."
+	_G.pg.base.gametip.tip_nianye = {
+		tip = "Please wait for the cook to be ready, thank you!"
 	}
 end)()
 
@@ -35953,8 +37819,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tip_nianye = {
-		tip = "Please wait for the cook to be ready, thank you!"
+	_G.pg.base.gametip.ship_remould_max_level = {
+		tip = "You've reached the maximum number of improvements."
 	}
 end)()
 
@@ -36022,20 +37888,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_levelMediator_ok_takeResource = {
-		tip = "Resources collected"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_yanhua_tip7 = {
-		tip = "Tap the fireworks again to remove them from the Launch Order arrangement."
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.activity_yanhua_tip5 = {
 		tip = "Insufficient Festive Shooting Stars."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_yanhua_tip3 = {
+		tip = "Available Fireworks"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yixian_nianye = {
+		tip = "May each and every year be blessed with peace and prosperity! Happy New Year, Commander!"
 	}
 end)()
 
@@ -36052,20 +37918,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.yixian_nianye = {
-		tip = "May each and every year be blessed with peace and prosperity! Happy New Year, Commander!"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.taiyuan_nianye = {
-		tip = "Phew... Thank goodness none of the dumplings fell apart in the pot..."
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.zhaohe_nianye = {
 		tip = "Not overcooked at all, right? See, I told you I got this!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ninghai_nianye = {
+		tip = "The baozi are done steaming! Want to give one a try, Commander?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.beach_guard_e7_desc = {
+		tip = "Periodically negates the effects of all smokescreens and speed debuffs around her."
 	}
 end)()
 
@@ -36082,8 +37948,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ninghai_nianye = {
-		tip = "The baozi are done steaming! Want to give one a try, Commander?"
+	_G.pg.base.gametip.beach_guard_e6_desc = {
+		tip = "When her HP falls below 50.0%, she deploys barriers capable of tanking 10.0% of her max HP around all Sirens on the field. \nThe barriers cannot stack."
 	}
 end)()
 
@@ -36094,14 +37960,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.beach_guard_e6_desc = {
-		tip = "When her HP falls below 50.0%, she deploys barriers capable of tanking 10.0% of her max HP around all Sirens on the field. \nThe barriers cannot stack."
+	_G.pg.base.gametip.beach_guard_e4_desc = {
+		tip = "A hardy Siren. High damage and health, but low speed."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.beach_guard_e5_desc = {
-		tip = "A well-rounded Siren. Don't underestimate her."
+	_G.pg.base.gametip.beach_guard_e3_desc = {
+		tip = "A regular Siren with higher attack speed than Scavenger."
 	}
 end)()
 
@@ -36118,20 +37984,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.beach_guard_e3_desc = {
-		tip = "A regular Siren with higher attack speed than Scavenger."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.beach_guard_e2_desc = {
-		tip = "A regular Siren with higher movement speed than Scavenger."
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.beach_guard_e1_desc = {
 		tip = "A regular Siren. Average attack and movement speed."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.beach_guard_e6 = {
+		tip = "Tester"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.pt_count_tip = {
+		tip = "Total"
 	}
 end)()
 
@@ -36158,14 +38024,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.beach_guard_e2 = {
-		tip = "Chaser"
+	_G.pg.base.gametip.beach_guard_m_guard_name = {
+		tip = "Defendjuu"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.beach_guard_e1 = {
-		tip = "Scavenger"
+	_G.pg.base.gametip.mingshi_task_tip_3 = {
+		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>U</color>>\nThe next target is... <<color=#a0ff40>the Munitions Shop</color>>!"
 	}
 end)()
 
@@ -36176,8 +38042,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.beach_guard_m_guard_name = {
-		tip = "Defendjuu"
+	_G.pg.base.gametip.beach_guard_m_craft_name = {
+		tip = "Prodjuucer"
 	}
 end)()
 
@@ -36206,8 +38072,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.beach_guard_m_craft_name = {
-		tip = "Prodjuucer"
+	_G.pg.base.gametip.beach_guard_m_atk = {
+		tip = "Shoots fireworks at the enemy!"
 	}
 end)()
 
@@ -36224,20 +38090,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_19905 = {
-		tip = "<size=28>\nWould you like to start a Battle Simulation?\n(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)\nEquipment: <color=#92fc63>\nSingle 127mm Main Gun\n533mm Quintuple Torpedo Mount\nPrototype F8F Bearcat (Float)</color></size>"
+	_G.pg.base.gametip.blueprint_simulation_confirm_49905 = {
+		tip = "<size=28>Would you like to start a Battle Simulation?\nNote: the Priority ship's stats and abilities may differ from her fully-developed equivalent.\nEquipped gear:<color=#ff5c5c>\nPrototype Triple 305mm SK C/39 Main Gun Mount\n533mm Quadruple Magnetic Torpedo Mount\nTwin 105mm SK C/33 AA Gun Mount</color></size>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.loading_tip_MsgboxMgr = {
-		tip = "Loading dialog...."
+	_G.pg.base.gametip.area_lock = {
+		tip = "This zone has not been unlocked. "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.setting_resdownload_title_live2d = {
-		tip = "Update Live2D"
+	_G.pg.base.gametip.us_error_download_painting = {
+		tip = "As data has been detected as missing, the game will now close to clear the cache. The neccessary files will be downloaded once the game is open again. "
 	}
 end)()
 
@@ -36248,8 +38114,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.beach_guard_m_atk = {
-		tip = "Shoots fireworks at the enemy!"
+	_G.pg.base.gametip.event_condition_ship_count = {
+		tip = "Have at least <color=#92fc63>$1</color> ships in team."
 	}
 end)()
 
@@ -36272,14 +38138,27 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.msgbox_text_equipdetail = {
-		tip = "Details"
+	_G.pg.base.gametip.word_gem_icon = {
+		tip = "<icon name=diamond w=0.7 h=0.7/>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_warning_102174 = {
-		tip = "The <color=#92fc63>Sparkling Mic</color> will be used to complete the retrofit.\nWould you like to continue? "
+	_G.pg.base.gametip.doa_collection = {
+		tip = {
+			{
+				info = "- Character Likes Overview -"
+			},
+			{
+				info = "You can learn more about the Venus cast by participating in the event and completing tasks.\nBy collecting all 18 character likes you'll receive the Venus Vacation Statue as well as 3 Venus Vacation gear skin boxes. (The Vacation Statue can only be obtained once.)"
+			},
+			{
+				info = "- Unlocking Character Likes -"
+			},
+			{
+				info = "There are a few different ways to unlock character likes, which vary from character to character:\n· Clearing the event stages\n· Completing event missions\n· Amassing enough Venus Points\n· Playing the Volleyball Scrimmage minigame\n· Playing the Butt Battle minigame\n\nMilestone rewards for collecting character likes remain claimable up to May 17th, 11:59 PM. (UTC-7)."
+			}
+		}
 	}
 end)()
 
@@ -36330,14 +38209,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.index_all = {
-		tip = "All"
+	_G.pg.base.gametip.word_date = {
+		tip = "d"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guidl_r_box_time_desc = {
-		tip = "Rare Cat Box Training Time -$1"
+	_G.pg.base.gametip.spweapon_tip_creatept_no_enough = {
+		tip = "Insufficient materials. Please select all the materials needed to complete crafting."
 	}
 end)()
 
@@ -36378,22 +38257,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.icecreamgame_tip = {
-		tip = {
-			{
-				info = "- Manjuu Ice Cream Overview -\nMatch the correct toppings and ice cream flavors with what the customers order by tapping on the ingredients. Matching correctly scores you points. Try to get as high a score as possible before the timer runs out.\nPlay the minigame for 7 days during the event to receive a special chat frame.\n\n- How to Play -\n1. Customers appear and ask for a particular combination of flavors and toppings.\n2. Tap the correct ingredients on the bottom of the screen to create their desired ice cream. The ice cream will be handed to them after you've chosen the same number of ingredients as they ask for, then you'll receive a new order.\n3. Your score and the customer's reaction depend on if you got their order correct or not. How long it took you to pick the toppings and flavors and if they were the right ones or not also influence your score.\n4. The minigame ends once the timer reaches 0 or when you quit the game early.\n\n- Combo Bonuses -\n· When you get a customer's order exactly right, there is a chance that the countdown timer for the next ice cream order will move slower for 4 seconds. This bonus cannot activate again until 5 seconds after it expires.\n· When you get 2 orders exactly right in a row, 2 seconds will be added to the next order countdown timer.\n· When you get 2 orders exactly right in a row from the same customer, you gain twice as many points from the next customer. This bonus can only activate once per unique customer."
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.hotspring_shop_touch2 = {
-		tip = "You won't get free stuff by poking me, nya!"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.hotspring_shop_touch1 = {
 		tip = "I'm not for sale, nya!"
 	}
@@ -36408,6 +38271,18 @@ end)()
 (function()
 	_G.pg.base.gametip.hotspring_shop_success1 = {
 		tip = "Thank you for your patronyage~"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.Normalbuild_URexchange_text1 = {
+		tip = "UR Exchange"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dal_chapter_goto = {
+		tip = "Go"
 	}
 end)()
 
@@ -36454,8 +38329,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200240 = {
-		tip = "Current API version does not support the request"
+	_G.pg.base.gametip.index_dressed = {
+		tip = "Wearing Skin"
 	}
 end)()
 
@@ -36466,8 +38341,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.random_ship_custom_mode_remove_title = {
-		tip = "Remove Shipgirls"
+	_G.pg.base.gametip.dal_main_sheet4_en = {
+		tip = "Side Stories"
 	}
 end)()
 
@@ -36484,26 +38359,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_build_solt_deficiency = {
-		tip = "Only up to 10 Cat Boxes can be prepared for training at a time."
+	_G.pg.base.gametip.exercise_fleet_exit_tip = {
+		tip = "This ship is currently part of an <color=#92fc63>Arena defensive fleet</color>. Are you sure you want to remove them?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ins_word_minu = {
-		tip = "$1 minutes ago"
+	_G.pg.base.gametip.word_shipNation_weixi = {
+		tip = "Vichya Dominion"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.random_ship_custom_mode_add_complete = {
-		tip = "Shipgirls successfully added."
+	_G.pg.base.gametip.random_ship_custom_mode_add_tip1 = {
+		tip = "Select a shipgirl to add her to your secretary rotation list."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100205 = {
-		tip = "Unbind failed. Your game account hasn't been linked to a Google Play Games account."
+	_G.pg.base.gametip.random_ship_custom_mode_main_empty = {
+		tip = "Your secretary rotation list is empty."
 	}
 end)()
 
@@ -36514,8 +38389,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.random_ship_custom_mode_main_empty = {
-		tip = "Your secretary rotation list is empty."
+	_G.pg.base.gametip.random_ship_custom_mode_empty = {
+		tip = "You can add shipgirls to your secretary rotation list."
 	}
 end)()
 
@@ -36538,8 +38413,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.random_ship_custom_mode_empty = {
-		tip = "You can add shipgirls to your secretary rotation list."
+	_G.pg.base.gametip.ryza_task_detail = {
+		tip = "Check"
 	}
 end)()
 
@@ -36550,8 +38425,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ryza_task_detail = {
-		tip = "Check"
+	_G.pg.base.gametip.ryza_task_level_add = {
+		tip = "Rep. Bonuses"
 	}
 end)()
 
@@ -36562,8 +38437,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ryza_task_level_add = {
-		tip = "Rep. Bonuses"
+	_G.pg.base.gametip.ryza_task_detail_award = {
+		tip = "Rewards"
 	}
 end)()
 
@@ -36574,14 +38449,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ryza_task_level_num = {
-		tip = "Rep. Level"
+	_G.pg.base.gametip.ryza_task_detail_content = {
+		tip = "Description"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ryza_task_detail_award = {
-		tip = "Rewards"
+	_G.pg.base.gametip.new_airi_error_code_100232 = {
+		tip = "Unable to restore, no deletion history of the account"
 	}
 end)()
 
@@ -36598,18 +38473,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ryza_task_detail_content = {
-		tip = "Description"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.Settings_title_resUpdate = {
-		tip = "Download Assets"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.ryza_task_tag_adventure = {
 		tip = "Expedition"
 	}
@@ -36622,8 +38485,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.cruise_title_2508 = {
-		tip = "Cruise Missions S24"
+	_G.pg.base.gametip.ryza_task_level_desc = {
+		tip = "Rep. "
 	}
 end)()
 
@@ -36674,6 +38537,22 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.cruise_title_2508 = {
+		tip = "Cruise Missions S24"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_tip_main = {
+		tip = {
+			{
+				info = "Event Info:\nThe limited collab event, \"The Alchemist and the Archipelago of Secrets,\" is available from <color=#92fc63>11/24 to 12/7</color>!\n1. Clear event stages to obtain Crystal Clusters, which can be exchanged for great rewards. You'll also receive milestone rewards for collecting lots of Crystal Clusters.\n2. Play the \"Operation Hot Spring\" minigame for a total of 7 days to obtain the <color=#92fc63>Small Hot Spring</color> limited furniture, as well as exclusive collab gear skins.\n3. Request Board: During the event, you will be able to take on a variety of different requests. Complete them to obtain <color=#92fc63>special Synthesis materials</color> as well as limited furniture! Furthermore, completing a certain number of requests will grant buffs to your fleets during the event period!\nNew requests will be posted every day until 11/30.\n4. Synthesis: During the event, convert the materials obtained from Gathering Sites and completing Requests into brand new items using the Synthesis system! Follow recipes to create great items such as <color=#92fc63>exclusive commemorative furniture</color>, <color=#92fc63>unique collab gear</color>, and <color=#92fc63>Augment Modules for collab characters</color>!\n5. Brand new skins are available at the Outfit Store.\n6. Exclusive collab characters can be obtained from Limited Construction."
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.zengke_series_ex = {
 		tip = "EX"
 	}
@@ -36692,24 +38571,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ryza_tip_main = {
-		tip = {
-			{
-				info = "Event Info:\nThe limited collab event, \"The Alchemist and the Archipelago of Secrets,\" is available from <color=#92fc63>11/24 to 12/7</color>!\n1. Clear event stages to obtain Crystal Clusters, which can be exchanged for great rewards. You'll also receive milestone rewards for collecting lots of Crystal Clusters.\n2. Play the \"Operation Hot Spring\" minigame for a total of 7 days to obtain the <color=#92fc63>Small Hot Spring</color> limited furniture, as well as exclusive collab gear skins.\n3. Request Board: During the event, you will be able to take on a variety of different requests. Complete them to obtain <color=#92fc63>special Synthesis materials</color> as well as limited furniture! Furthermore, completing a certain number of requests will grant buffs to your fleets during the event period!\nNew requests will be posted every day until 11/30.\n4. Synthesis: During the event, convert the materials obtained from Gathering Sites and completing Requests into brand new items using the Synthesis system! Follow recipes to create great items such as <color=#92fc63>exclusive commemorative furniture</color>, <color=#92fc63>unique collab gear</color>, and <color=#92fc63>Augment Modules for collab characters</color>!\n5. Brand new skins are available at the Outfit Store.\n6. Exclusive collab characters can be obtained from Limited Construction."
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_tip_control = {
-		tip = "Place Cores into the circles to obtain various boost effects."
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.ryza_tip_control_buff_already_active_tip = {
 		tip = "Slotted"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_tip_control_buff_limit = {
+		tip = "Maxed"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_tip_control_buff_replace = {
+		tip = "Replace"
 	}
 end)()
 
@@ -36744,18 +38619,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_drop_desc_default = {
-		tip = "Received a ship"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_tip_composite_unlock = {
-		tip = "The Synthesis system will be unlocked after clearing event stage T5."
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.ryza_tip_put_materials = {
 		tip = "Tap on the circle to add synthesis materials ($1/$2)"
 	}
@@ -36764,12 +38627,6 @@ end)()
 (function()
 	_G.pg.base.gametip.ryza_tip_select_recipe = {
 		tip = "Select a recipe on the left"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_theme_defaultname = {
-		tip = "Custom Theme"
 	}
 end)()
 
@@ -36786,6 +38643,24 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.backyard_theme_defaultname = {
+		tip = "Custom Theme"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_other = {
+		tip = "Misc"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipment_select_device_destroy_bonus_tip = {
+		tip = "Items received:"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.tactics_lesson_start_tip = {
 		tip = "Are you sure you want to spend <color=#92fc63>1</color><color=#92fc63> \"$1\" </color>to train <color=#92fc63>$2's</color> <color=#92fc63>$3</color> skill?"
 	}
@@ -36798,14 +38673,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_warning_107984 = {
-		tip = "Fully retrofitting this ship will give her <color=#92fc63>Fighters +1 and Torpedo Bombers +1</color>.\nDo you want to proceed with this retrofit? "
+	_G.pg.base.gametip.tag_level_bomb = {
+		tip = "英系轰炸"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_boss_tip = {
-		tip = "<color=#7e7e7f>$1</color> has contributed <color=#8299bc>$2</color> points towards the world boss progress gauge! "
+	_G.pg.base.gametip.pgs_binding_account = {
+		tip = "Your account is bound to:"
 	}
 end)()
 
@@ -36834,8 +38709,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.pgs_binding_account = {
-		tip = "Your account is bound to:"
+	_G.pg.base.gametip.defense_formation_tip_npc = {
+		tip = "Your 1st fleet cannot be set as an exercise fleet because it contains a <color=#92fc63>temporary recruit</color>."
 	}
 end)()
 
@@ -36846,8 +38721,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.pgs_login_binding_exist3 = {
-		tip = "This game account is already bound to another PGS account, and your current PGS account is also bound to another game account.\nWould you like to rebind your game and/or PGS account?"
+	_G.pg.base.gametip.ex_pass_use = {
+		tip = "Use:"
 	}
 end)()
 
@@ -36858,14 +38733,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.defense_formation_tip_npc = {
-		tip = "Your 1st fleet cannot be set as an exercise fleet because it contains a <color=#92fc63>temporary recruit</color>."
+	_G.pg.base.gametip.restart_music_game = {
+		tip = "Would you like to stop the song and start over?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ex_pass_use = {
-		tip = "Use:"
+	_G.pg.base.gametip.word_normal_2 = {
+		tip = "So so"
 	}
 end)()
 
@@ -36876,26 +38751,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_guildgold_no_enough_for_battle = {
-		tip = "There are not enough Guild Funds to commence a Guild Operation."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.desc_quick_play = {
-		tip = "Fast Forward"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.random_flag_ship_changskinBtn_label = {
 		tip = "Change Skins"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.setting_story_speed_4 = {
-		tip = "Very Fast"
 	}
 end)()
 
@@ -36934,6 +38791,24 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.setting_story_speed_4 = {
+		tip = "Very Fast"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_supply_no_open = {
+		tip = "Guild Supplies currently unavailable."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.random_ship_tips2 = {
+		tip = "You can change the settings of your individual secretary slots."
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.juuschat_label1 = {
 		tip = "In Use"
 	}
@@ -36952,14 +38827,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.random_ship_label = {
-		tip = "Random Secretary"
+	_G.pg.base.gametip.msgbox_text_inconsume = {
+		tip = "NO"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.random_ship_now = {
-		tip = "Secretary Settings"
+	_G.pg.base.gametip.random_ship_on = {
+		tip = "The Random Secretary setting has been toggled ON."
 	}
 end)()
 
@@ -36986,14 +38861,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.cook_game_constellation_skill_desc = {
-		tip = "For 7s, your rivals can't serve the customer and you get double points when serving them the right dessert!"
+	_G.pg.base.gametip.cook_game_janus = {
+		tip = "Raises/lowers the score for serving the right/wrong dessert at random!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.cook_game_constellation = {
-		tip = "Serving the right dessert has a chance to give the customer a <color=#FFE555>unique status</color>!"
+	_G.pg.base.gametip.cook_game_laffey = {
+		tip = "After serving the right dessert, gains 1 extra point when serving the right dessert again!"
 	}
 end)()
 
@@ -37008,14 +38883,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.cook_game_janus = {
-		tip = "Raises/lowers the score for serving the right/wrong dessert at random!"
+	_G.pg.base.gametip.cook_game_marcopolo = {
+		tip = "Gives your team a longer timer!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.cook_game_laffey = {
-		tip = "After serving the right dessert, gains 1 extra point when serving the right dessert again!"
+	_G.pg.base.gametip.spweapon_tip_breakout_materal_check = {
+		tip = "Select the materials required for uncapping."
 	}
 end)()
 
@@ -37026,20 +38901,12 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.sort_attribute = {
-		tip = "Stat"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.unlock_date_tip = {
-		tip = "Unlocks on <color=#92fc63>$1/$2</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.hotspring_shop_touch3 = {
-		tip = "Ey, what's the big idea, nya?!"
+	_G.pg.base.gametip.icecreamgame_tip = {
+		tip = {
+			{
+				info = "- Manjuu Ice Cream Overview -\nMatch the correct toppings and ice cream flavors with what the customers order by tapping on the ingredients. Matching correctly scores you points. Try to get as high a score as possible before the timer runs out.\nPlay the minigame for 7 days during the event to receive a special chat frame.\n\n- How to Play -\n1. Customers appear and ask for a particular combination of flavors and toppings.\n2. Tap the correct ingredients on the bottom of the screen to create their desired ice cream. The ice cream will be handed to them after you've chosen the same number of ingredients as they ask for, then you'll receive a new order.\n3. Your score and the customer's reaction depend on if you got their order correct or not. How long it took you to pick the toppings and flavors and if they were the right ones or not also influence your score.\n4. The minigame ends once the timer reaches 0 or when you quit the game early.\n\n- Combo Bonuses -\n· When you get a customer's order exactly right, there is a chance that the countdown timer for the next ice cream order will move slower for 4 seconds. This bonus cannot activate again until 5 seconds after it expires.\n· When you get 2 orders exactly right in a row, 2 seconds will be added to the next order countdown timer.\n· When you get 2 orders exactly right in a row from the same customer, you gain twice as many points from the next customer. This bonus can only activate once per unique customer."
+			}
+		}
 	}
 end)()
 
@@ -37050,6 +38917,18 @@ end)()
 				info = "- Event Overview -\nThe Manjuu Waterpark event is available between <color=#92fc63>August 18th and August 31st</color>.\n\n- Quick Navigation -\n· Minigame: takes you to the Manjuu Ice Cream minigame.\n· Event Missions: brings up the event mission screen.\n· Data Review: takes you to the player anniversary statistics screen.\n· Outfit Store: takes you to the store where you can purchase skins.\n· Limited Construction: takes you to the event build screen.\n"
 			}
 		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.hotspring_shop_touch3 = {
+		tip = "Ey, what's the big idea, nya?!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_order_ship_btn_replace = {
+		tip = "Change Jobs"
 	}
 end)()
 
@@ -37066,8 +38945,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.item_is_max_cnt = {
-		tip = "You cannot obtain more of this."
+	_G.pg.base.gametip.channel_name_5 = {
+		tip = "Guild"
 	}
 end)()
 
@@ -37100,20 +38979,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_chinese = {
-		tip = "中文"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.technology_mission_unfinish = {
 		tip = "<size=16>Requirements Not Met</size>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_extendcommander_success = {
-		tip = "Slots purchased. The Cattery was successfully expanded."
+	_G.pg.base.gametip.word_museum_1 = {
+		tip = "No more Model Parts can be obtained today. "
 	}
 end)()
 
@@ -37136,8 +39009,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.player_summary_data = {
-		tip = "Obtained on:"
+	_G.pg.base.gametip.words_set_password = {
+		tip = "Change Secondary Password"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.technology_queue_in_mission_incomplete = {
+		tip = "You cannot queue this research because you don't fulfill its requirements."
 	}
 end)()
 
@@ -37184,14 +39063,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_star = {
-		tip = "Stars"
+	_G.pg.base.gametip.tips_confirm_teleport_sub = {
+		tip = "To change the <color=#92fc63FF>Submarine Fleet's</color> position from <color=#92fc63FF>$1</color> to <color=#92fc63FF>$2</color>, they must be moved <color=#92fc63FF>$3</color> tiles, which will cost <color=#92fc63FF>$4</color> Oil. Continue? "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.equipment_destroyEquipments_error_noEquip = {
-		tip = "Gear does not exist."
+	_G.pg.base.gametip.Settings_title_resManage_All = {
+		tip = "Update All Assets"
 	}
 end)()
 
@@ -37220,12 +39099,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.avatar_task_ship_1 = {
-		tip = "Obtain $1."
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.avatar_task_level = {
 		tip = "Defeat the Boss Fleet of $3 $4 times with $1$2 in your fleet. $2 must remain afloat."
 	}
@@ -37246,6 +39119,12 @@ end)()
 (function()
 	_G.pg.base.gametip.report_type_other = {
 		tip = "Misc"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.report_type_2 = {
+		tip = "Offensive Comment"
 	}
 end)()
 
@@ -37272,14 +39151,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.report_type_2 = {
-		tip = "Offensive Comment"
+	_G.pg.base.gametip.report_sent_title = {
+		tip = "Report"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.report_sent_title = {
-		tip = "Report"
+	_G.pg.base.gametip.word_shipState_collect = {
+		tip = "She's currently on commission!"
 	}
 end)()
 
@@ -37312,24 +39191,18 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_select_overflow_tip = {
-		tip = "You are exchanging for <color=#ff5c5c>$2</color> more <color=#22ff22>$1</color> than you need."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_levelScene_close = {
-		tip = "This event stage is currently unavailable."
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.commission_event_tip = {
 		tip = {
 			{
 				info = " - Overview - \n· Throughout the event, all commissions will also yield Commission Merits.\n· The number of merits received is based on the time required to complete the commission. \n<color=#92fc63>Every 5 minutes is worth 1 merit.</color>\n· For example: completing a commission that takes 1 hour will award you with 12 Commission Merits.\n· Only commissions completed during the event period will grant Commission Merits.\n· Canceling a commission will reward no Commission Merits.\n· Commission Merits can be spent on a myriad of items in the associated event tab in the shop.\n· Be aware that some items in the shop pool may only be purchased after you've cleared a particular stage in the Main Campaign."
 			}
 		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_levelScene_close = {
+		tip = "This event stage is currently unavailable."
 	}
 end)()
 
@@ -37346,14 +39219,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.emoji_type_2 = {
-		tip = "Animated"
+	_G.pg.base.gametip.playerinfo_mask_word = {
+		tip = "Contains blocked words."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_catsearch_leavemap = {
-		tip = "Are you sure you want to withdraw from this zone and recall all dispatched Meowfficers? \nYou will receive rewards based on the number of turns elapsed. "
+	_G.pg.base.gametip.main_4 = {
+		tip = "MAIN4"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_task_view2 = {
+		tip = "Current Location："
 	}
 end)()
 
@@ -37368,8 +39247,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.main_4 = {
-		tip = "MAIN4"
+	_G.pg.base.gametip.item_type17_tip2 = {
+		tip = "Details"
 	}
 end)()
 
@@ -37380,14 +39259,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.item_type17_tip2 = {
+	_G.pg.base.gametip.item_type17_tip1 = {
 		tip = "Details"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.item_type17_tip1 = {
-		tip = "Details"
+	_G.pg.base.gametip.item_type16_tip2 = {
+		tip = "Contents"
 	}
 end)()
 
@@ -37414,8 +39293,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.item_type16_tip2 = {
-		tip = "Contents"
+	_G.pg.base.gametip.general_activity_side_bar4 = {
+		tip = "BF Ltd. Rerun Outfits"
 	}
 end)()
 
@@ -37426,8 +39305,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equipment_skin_no_new_ship = {
-		tip = "The ship does not exist"
+	_G.pg.base.gametip.friend_resume_title_detail = {
+		tip = "Info"
 	}
 end)()
 
@@ -37450,12 +39329,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.five_qingdian = {
-		tip = {
-			{
-				info = "- Overview -\nYou will receive <color=#92fc63>1 Minigame Point</color> daily for the duration of the event. You can store up to <color=#92fc63>7 points</color>.\n· Finishing the minigame with a Minigame Point in your possession will subtract 1 point and grant progress toward the <color=#92fc63>Early Summer Invitation.</color>\n· You can check how many points you have on the <color=#92fc63>Summer Plaza</color> screen.\n· The minigame can be played even if you don't have points, but doing so won't grant any progress."
-			}
-		}
+	_G.pg.base.gametip.five_shujuhuigu1 = {
+		tip = "Reached$1"
 	}
 end)()
 
@@ -37478,8 +39353,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.pt_count_tip = {
-		tip = "Total"
+	_G.pg.base.gametip.word_shipType_weiXiu = {
+		tip = "Repair"
 	}
 end)()
 
@@ -37508,8 +39383,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.pre_combat_targets = {
-		tip = "Targets"
+	_G.pg.base.gametip.guild_level_no_enough = {
+		tip = "The Guild does not meet the level requirement to start a Guild Operation."
 	}
 end)()
 
@@ -37520,14 +39395,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_vo_fighting = {
-		tip = "Selected character is already attacking."
+	_G.pg.base.gametip.levelScene_select_SP_OP = {
+		tip = "Select Item"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.pre_combat_vanguard = {
-		tip = "Vanguard"
+	_G.pg.base.gametip.battle_result_share_battle = {
+		tip = "Share"
 	}
 end)()
 
@@ -37556,8 +39431,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_result_share_battle = {
-		tip = "Share"
+	_G.pg.base.gametip.guild_event_is_lock = {
+		tip = "This Guild Event is unavailable."
 	}
 end)()
 
@@ -37574,14 +39449,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_tech_gold_desc = {
-		tip = "Coins Storage Cap +$1"
+	_G.pg.base.gametip.battle_result_continue_battle = {
+		tip = "Continue"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_result_continue_battle = {
-		tip = "Continue"
+	_G.pg.base.gametip.battle_result_toggle_off = {
+		tip = "Surface Fleet"
 	}
 end)()
 
@@ -37598,8 +39473,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_result_toggle_on = {
-		tip = "Sub Fleet"
+	_G.pg.base.gametip.text_noPos_buy = {
+		tip = "Expand"
 	}
 end)()
 
@@ -37640,14 +39515,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.activity_kill = {
-		tip = "Total Enemies Sunk"
+	_G.pg.base.gametip.title_limit_time = {
+		tip = "「Event」"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.msgbox_text_exchange = {
-		tip = "Exchange"
+	_G.pg.base.gametip.index_meta_repair = {
+		tip = "Fortification Available"
 	}
 end)()
 
@@ -37670,8 +39545,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.elite_disable_unsatisfied = {
-		tip = "Must get full stars in entire chapter."
+	_G.pg.base.gametip.island_spoperation_tip_2602_1 = {
+		tip = "During the event, Peary will issue requests for specialty products. Complete these orders to earn rewards such as Season Points.\nNote: Specialty products do not count toward your request completion limit, and they do not affect your rating level."
 	}
 end)()
 
@@ -37700,8 +39575,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equipment_equipmentInfoLayer_error_canNotEquip = {
-		tip = "Unable to equip: <color=#92fc63>$1</color>"
+	_G.pg.base.gametip.world_instruction_redeploy_3 = {
+		tip = "You are carrying an Energy Matrix and are unable to redeploy your fleet. "
 	}
 end)()
 
@@ -37718,14 +39593,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.vote_final_title1 = {
-		tip = "Runoff!"
+	_G.pg.base.gametip.secondarypassword_confirm_tips = {
+		tip = "Would you like to set <color=#FFDE38>\"%s\"</color> as your Secondary Password hint? "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_instruction_detect_1 = {
-		tip = "Spent $1 AP to request reconnaissance?"
+	_G.pg.base.gametip.technology_task_none_tip = {
+		tip = "-Nothing-"
 	}
 end)()
 
@@ -37736,26 +39611,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.err_name_existOtherChar = {
-		tip = "No special characters allowed."
+	_G.pg.base.gametip.emoji_type_2 = {
+		tip = "Animated"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_propose_ring_tip = {
-		tip = "Put a ring on your ship!"
+	_G.pg.base.gametip.word_equipment_small_cannon = {
+		tip = "DD Main Gun"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.destroy_eliteequipment_tip = {
-		tip = "You've selected $1 gear(s)."
+	_G.pg.base.gametip.building_tip = {
+		tip = "Insufficient building materials. Please complete <color=#92fc63>Event missions</color> to get more. "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.destroy_importantequipment_tip = {
-		tip = "<color=#92fc63>Important</color>"
+	_G.pg.base.gametip.new_airi_error_code_200100 = {
+		tip = "User birthday is required"
 	}
 end)()
 
@@ -37778,8 +39653,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.words_battle_expose_line = {
-		tip = "Toggle in-combat CV detection line "
+	_G.pg.base.gametip.vote_final_title2 = {
+		tip = "Event Rewards"
 	}
 end)()
 
@@ -37790,14 +39665,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.playerinfo_mask_word = {
-		tip = "Contains blocked words."
+	_G.pg.base.gametip.set_birth_confirm_tip = {
+		tip = "Confirm your birthday: $1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_cannon = {
-		tip = "Main Gun "
+	_G.pg.base.gametip.friend_not_add = {
+		tip = "You aren't friends with this player."
 	}
 end)()
 
@@ -37808,8 +39683,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_charge_level_limit = {
-		tip = " Unlocks at Lv."
+	_G.pg.base.gametip.mail_storeroom_taken_1 = {
+		tip = "Resources claimed."
 	}
 end)()
 
@@ -37820,8 +39695,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.set_birth_confirm_tip = {
-		tip = "Confirm your birthday: $1"
+	_G.pg.base.gametip.ten_even_draw = {
+		tip = "$1回交換する"
 	}
 end)()
 
@@ -37850,14 +39725,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ssssmedal_name4 = {
-		tip = "Augmented Smasher: Annihilator"
+	_G.pg.base.gametip.new_airi_error_code_100100 = {
+		tip = "Device ID is banned"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_join_cd = {
-		tip = "You must wait 24 hours after leaving your guild to join another."
+	_G.pg.base.gametip.ssssmedal_desc4 = {
+		tip = "An augmented Smasher-type Siren, equipped with extremely powerful firearms."
 	}
 end)()
 
@@ -37898,8 +39773,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.Settings_title_resManage_All = {
-		tip = "Update All Assets"
+	_G.pg.base.gametip["not yet completed"] = {
+		tip = "尚未完成"
 	}
 end)()
 
@@ -37928,8 +39803,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.friend_relieveblacklist_success = {
-		tip = "Removed from blacklist!"
+	_G.pg.base.gametip.intimacy_desc_2_buff = {
+		tip = "Current buff: None"
 	}
 end)()
 
@@ -37946,8 +39821,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_fire_tip = {
-		tip = "Are you sure you want to kick this player?"
+	_G.pg.base.gametip.level_scene_title_word_3 = {
+		tip = "Current ACV:"
 	}
 end)()
 
@@ -37976,14 +39851,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_soundfiles_checking_title = {
-		tip = "Checking..."
+	_G.pg.base.gametip.world_instruction_redeploy_1 = {
+		tip = "Fleet Redeployment can only be carried out in a port. "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.battlepass_main_tip_2112 = {
-		tip = "During the campaign season (12/1/2021 - 1/31/2022), complete Cruise Missions to get great rewards, including <color=#854747>Hiyou META</color>."
+	_G.pg.base.gametip.world_fleet_in_vortex = {
+		tip = "The fleet has been caught in a Maelstrom and has restricted movement. "
 	}
 end)()
 
@@ -38000,14 +39875,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.formationScene_use_oil_limit_submarine = {
-		tip = "SS"
+	_G.pg.base.gametip.monoply_drop_ship_step = {
+		tip = "Complete $1 more laps to earn the limited outfit, \"Style of the East.\""
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.index_upgrade = {
-		tip = "Can Lim. Brk. "
+	_G.pg.base.gametip.mingshi_task_tip_5 = {
+		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>T</color>>\nThe next target is... <<color=#a0ff40>your formation</color>>!"
 	}
 end)()
 
@@ -38028,8 +39903,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_live2dfiles_download_title = {
-		tip = "Download Character Live2D Pack"
+	_G.pg.base.gametip.autofight_rewards_none = {
+		tip = "No rewards earned."
 	}
 end)()
 
@@ -38040,8 +39915,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_19902 = {
-		tip = "<size=28>Would you like to start a Battle Simulation? <color=#ff5c5c>Note: the ship's stats and abilities may differ from its fully developed equivalent.</color>\nEquipped gear:<color=#92fc63>\nPrototype Twin 457mm Main Gun (18\" MKA)\nTwin 127mm MK12 Dual Gun\nQuadruple 40mm Bofors Gun</color></size>"
+	_G.pg.base.gametip.word_fit = {
+		tip = "Apply to"
 	}
 end)()
 
@@ -38052,8 +39927,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.common_no_open = {
-		tip = "Not yet open"
+	_G.pg.base.gametip.ship_exchange_tip = {
+		tip = "1. You will receive Medals of Honor when retiring a ship.\n2. You may exchange Medals for new ships.\n3. The Exchange Shop refreshes every day at <color=#92fc63>06:00</color> and <color=#92fc63>18:00</color>."
 	}
 end)()
 
@@ -38064,8 +39939,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_skill_desc_learn = {
-		tip = "($1)"
+	_G.pg.base.gametip.formationScene_use_oil_limit_submarine = {
+		tip = "SS"
 	}
 end)()
 
@@ -38094,14 +39969,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.player_expResource_mail_overflow = {
-		tip = "You won't be able to collect $1 that exceed the storage limit. Are you sure you want to continue? "
+	_G.pg.base.gametip.activity_puzzle_get9 = {
+		tip = "<color=#A9F548FF>How to get: Normal difficulty 3-2</color>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_warning_201514 = {
-		tip = "Retrofitting this ship will <color=#92fc63>add 1 Anti-Air Gun mount</color> but <color=#92fc63>remove 1 Torpedo mount.</color> \nWould you like to continue? "
+	_G.pg.base.gametip.world_automode_setting_all_1_1 = {
+		tip = "Stop Strategic Search"
 	}
 end)()
 
@@ -38118,8 +39993,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_automode_setting_all_1_1 = {
-		tip = "Stop Strategic Search"
+	_G.pg.base.gametip.guild_sort_time = {
+		tip = "Time"
 	}
 end)()
 
@@ -38148,20 +40023,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.words_autoFIght_down_frame_des = {
-		tip = "When toggled on, reduces game FPS when battery saver mode is active."
+	_G.pg.base.gametip.login_newPlayerScene_word_yingHuoChong = {
+		tip = "Wow! It's the new Commander! Did you come here to play with Glowworm? You better watch out for my headbutt!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.list_empty_tip_friendui_black = {
-		tip = "There are no commanders on your blacklist."
+	_G.pg.base.gametip.word_shipNation_dal = {
+		tip = "Date A Live"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_warning_310014 = {
-		tip = "Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed.\n<color=#92fc63>Secondary Weapon</color> will become <color=#92fc63>Water Detection</color> slot <color=#92fc63><material=underline c=#92fc63 event=clickDetail>(Info)</material></color>.\n<color=#92fc63>Your current Secondary Weapon</color> will be unequipped.\nWould you like to continue?"
+	_G.pg.base.gametip.class_res_maxlevel_tip = {
+		tip = "Max Level"
 	}
 end)()
 
@@ -38220,14 +40095,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equip_ammo_type_9 = {
-		tip = "Contact"
+	_G.pg.base.gametip.ship_remould_warning_310034 = {
+		tip = "Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed.\n<color=#92fc63>Secondary Weapon</color> will become <color=#92fc63>Water Detection</color> slot <color=#92fc63><material=underline c=#92fc63 event=clickDetail>(Info)</material></color>.\n<color=#92fc63>Your current Secondary Weapon</color> will be unequipped.\nWould you like to continue?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.inform_sueecss_tip = {
-		tip = "Thank you for helping keep the community of Azur Lane safe for all Commanders!"
+	_G.pg.base.gametip.spweapon_ui_autoselect = {
+		tip = "Auto-Select"
 	}
 end)()
 
@@ -38244,8 +40119,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_shipAlreadyExit = {
-		tip = "Ships has already left."
+	_G.pg.base.gametip.ship_remould_warning_107984 = {
+		tip = "Fully retrofitting this ship will give her <color=#92fc63>Fighters +1 and Torpedo Bombers +1</color>.\nDo you want to proceed with this retrofit? "
 	}
 end)()
 
@@ -38256,8 +40131,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_99902 = {
-		tip = "<size=28>\nWould you like to start a Battle Simulation?\n<color=#ff5c5c>Note: the Priority ship's stats and abilities may differ from her fully-developed equivalent.</color>\nEquipped gear:<color=#92fc63>\nPrototype Triple 380mm Mle 1935 Main Gun Mount\nTriple 152mm Mle 1930 Main Gun Mount\nTwin 40mm Bofors AA Gun Mount\n</color></size>"
+	_G.pg.base.gametip.new_airi_error_code_200170 = {
+		tip = "Purchase request failed on game server"
 	}
 end)()
 
@@ -38292,8 +40167,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.exercise_count_recover_tip = {
-		tip = "(Recover in <color=#92fc63>$1</color>)"
+	_G.pg.base.gametip.backyard_shipAlreadyExit = {
+		tip = "Ships has already left."
 	}
 end)()
 
@@ -38314,20 +40189,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_equipment_special = {
-		tip = "Misc"
+	_G.pg.base.gametip.word_shipNation_yumia = {
+		tip = "Atelier Yumia"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_automode_treasure_3 = {
-		tip = "Can be purchased after Operation Siren resets."
+	_G.pg.base.gametip.intimacy_desc_1_buff = {
+		tip = "Current buff: None"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_buildSingleShip = {
-		tip = "Spend <color=#92fc63>$1 Gems</color> to receive <color=#92fc63>1 high performance ships</color>?"
+	_G.pg.base.gametip.attr_air = {
+		tip = "AVI"
 	}
 end)()
 
@@ -38338,8 +40213,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.draw_big_luck_2 = {
-		tip = "How fortunate nya! You're making me jealous nya~"
+	_G.pg.base.gametip.idolmaster_game_tip5 = {
+		tip = "Score"
 	}
 end)()
 
@@ -38396,54 +40271,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.help_battle_rule = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/battle_maincanon",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/battle_plane",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/battle_sub_3",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/battle_sub_4",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/battle_sub_5",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
+	_G.pg.base.gametip.onebutton_max_tip = {
+		tip = "Batch Analysis "
 	}
 end)()
 
@@ -38478,8 +40307,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.elite_condition_antiaircraft = {
-		tip = "Total AA"
+	_G.pg.base.gametip.upgrade_to_next_maxlevel_succeed = {
+		tip = "Cognitive Awakening Complete\nThis ship's Level Cap has increased to Level <color=#92fc63FF>$1</color>"
 	}
 end)()
 
@@ -38524,14 +40353,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_random = {
-		tip = "Random"
+	_G.pg.base.gametip.elite_warp_to_latest_map = {
+		tip = "Viewing newest chapter."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_equipDestory = {
-		tip = "Destroy"
+	_G.pg.base.gametip.friend_send_msg_null_tip = {
+		tip = "Unable to send message."
 	}
 end)()
 
@@ -38548,20 +40377,42 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.levelScene_retreat_erro = {
-		tip = "Failed to retreat."
+	_G.pg.base.gametip.backyard_theme_save_tip = {
+		tip = "Are you sure you want to save the current dorm layout as \n<color=#5FD500>$1</color>?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.spweapon_ui_empty = {
-		tip = "No Augment Modules found."
+	_G.pg.base.gametip.word_live2dfiles_checkend = {
+		tip = "Tap to update"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_set_duty_title = {
-		tip = "Appoint $1 as: "
+	_G.pg.base.gametip.gametip_xiaotiancheng = {
+		tip = {
+			{
+				info = "Summary: During the Young Tactician's Learning Log event, you can earn Trust for Amagi-chan. She will upgrade from a Temporary Recruit to a full addition to your dock once you've earned enough Trust with her."
+			},
+			{
+				info = "1. For the duration of the event, you'll receive Trust for Amagi-chan by defeating Boss Fleets on any Campaign map after World 3, or on any of the event stages. You'll also unlock additional rewards as you accumulate Trust."
+			},
+			{
+				info = "2. Until you fully recruit Amagi-chan, you won't be able to give her a Promise Ring, retire her, or use her as Enhancement or Limit Break material."
+			},
+			{
+				info = "3. Your Trust reward for defeating the Boss Fleet will be doubled if Amagi-chan participates in the battle with the Boss Fleet and remains afloat until the end of the battle."
+			},
+			{
+				info = "4. 1,000 Trust is required to fully recruit Amagi-chan. If you do not fully recruit her before the event concludes, she will automatically leave your dock."
+			},
+			{
+				info = "5. One Trust Reward stage is unlocked each day up to March 15th"
+			},
+			{
+				info = "6. Amagi-chan cannot participate in any Operation Siren or Guild activities and you do not gain Trust from Operation Siren battles."
+			}
+		}
 	}
 end)()
 
@@ -38590,26 +40441,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.technology_start_up = {
-		tip = "Research started."
+	_G.pg.base.gametip.ship_vo_event = {
+		tip = "Selected character is deployed on special ops."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_use = {
-		tip = "Use"
+	_G.pg.base.gametip.task_submitTask_error_client = {
+		tip = "Failed to submit mission: "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.tactics_noskill_erro = {
-		tip = "Skill must exist."
+	_G.pg.base.gametip.guild_should_input_keyword = {
+		tip = "Your search query is empty."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_member_full = {
-		tip = "This Guild is full. "
+	_G.pg.base.gametip.mingshi_task_tip_10 = {
+		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>H</color>>\nThe last target is... <<color=#a0ff40>the land of joy and sorrow</color>>!"
 	}
 end)()
 
@@ -38626,8 +40477,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.charge_error_count_limit = {
-		tip = "Unable to make any more purchases today."
+	_G.pg.base.gametip.battle_repair_normal_name = {
+		tip = "Daily free chances: "
 	}
 end)()
 
@@ -38638,8 +40489,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_takeAttachment_error_dockYrad_full = {
-		tip = "<color=#92fc63>Failed to collect.</color> Insufficient space in your <color=#92fc63>Dock</color>."
+	_G.pg.base.gametip.word_clear = {
+		tip = "Sort"
 	}
 end)()
 
@@ -38650,20 +40501,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_word_deputy_commder = {
-		tip = "Vice Admiral"
+	_G.pg.base.gametip.world_instruction_submarine_4 = {
+		tip = "Cannot request support because the sub fleet has not been set up yet."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_clear = {
-		tip = "Sort"
+	_G.pg.base.gametip.world_ship_repair = {
+		tip = "Please select target:"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_automode_setting_new_1_2 = {
-		tip = "4"
+	_G.pg.base.gametip.guild_sort_duty = {
+		tip = "Post"
 	}
 end)()
 
@@ -38686,8 +40537,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100220 = {
-		tip = "Authorization canceled"
+	_G.pg.base.gametip.guild_word_deputy_commder = {
+		tip = "Vice Admiral"
 	}
 end)()
 
@@ -38704,8 +40555,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_map_not_open = {
-		tip = "Zone is unavailable."
+	_G.pg.base.gametip.index_rare4 = {
+		tip = "Elite"
 	}
 end)()
 
@@ -38740,20 +40591,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.friend_resume_attack_win_rate = {
-		tip = "ATK-WR:"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.nine_choose_one = {
 		tip = "Your Invitation can only be used once.\nWould you like to invite <color=#92fc63>$1</color>?\nIf so, <color=#92fc63>$1</color> will join your fleet and you will receive a commemorative item. "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_automode_title_2 = {
-		tip = ""
+	_G.pg.base.gametip.world_automode_setting_new_1 = {
+		tip = "Auto-Search by Corrosion Level"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.elite_disable_unsatisfied = {
+		tip = "Must get full stars in entire chapter."
 	}
 end)()
 
@@ -38764,20 +40615,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_status_world = {
-		tip = "Operation Siren "
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.apply_permission_record_audio_tip1 = {
 		tip = "To use AR Record game feature, need permission to access Record."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.naval_academy_res_desc_class = {
-		tip = "Upgrading the Lecture Hall will increase <color=#92fc63>Proficiency Limit</color>, <color=#92fc63>Proficiency Gain Rate</color>, and <color=#92fc63>EXP Data Production</color>."
 	}
 end)()
 
@@ -38810,8 +40649,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.friend_add_ok = {
-		tip = "Friend added!"
+	_G.pg.base.gametip.list_empty_tip_friendui_search = {
+		tip = "Found no commanders matching your search criteria."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_attr_air = {
+		tip = "AVI "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_boss_inbattle = {
+		tip = "You have an active META Showdown and cannot initiate a new one."
 	}
 end)()
 
@@ -38834,8 +40685,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.attribute_durability = {
-		tip = "HP"
+	_G.pg.base.gametip.attribute_cannon = {
+		tip = "FP "
 	}
 end)()
 
@@ -38846,8 +40697,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.text_buy_fashion_tip = {
-		tip = "Spend $1 Gems to buy $2?"
+	_G.pg.base.gametip.technology_stop_erro = {
+		tip = "Failed to suspend research."
 	}
 end)()
 
@@ -38868,8 +40719,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.technology_stop_erro = {
-		tip = "Failed to suspend research."
+	_G.pg.base.gametip.world_word_friend = {
+		tip = "Friends "
 	}
 end)()
 
@@ -38886,14 +40737,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.friend_resume_fleet_gs = {
-		tip = "Fleet Power:"
+	_G.pg.base.gametip.equipment_upgrade_erro = {
+		tip = "Failed to upgrade weapon!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.levelScene_who_to_retreat = {
-		tip = "Commander, are you sure you want to retreat from <color=#92fc63>$1</color>?"
+	_G.pg.base.gametip.word_take_effect = {
+		tip = " in Effect "
 	}
 end)()
 
@@ -38904,8 +40755,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.exchangecode_use_error_8 = {
-		tip = "Code does not exist."
+	_G.pg.base.gametip.text_noRes_info_tip = {
+		tip = "<color=#FF0000>$2 $1</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_ui_levelmax = {
+		tip = "Max Level"
 	}
 end)()
 
@@ -38916,20 +40773,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.exchangecode_use_error_3 = {
-		tip = "Code has expired."
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.dorm3d_purchase_label_special = {
 		tip = "Exclusive"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.intimacy_desc_4_detail = {
-		tip = "$1 is so happy and only wants to be with you!\n<color=#92fc63><size=18>All stats (except Speed) +3%</size></color>"
+	_G.pg.base.gametip.exchangecode_use_error_8 = {
+		tip = "Code does not exist."
 	}
 end)()
 
@@ -38940,8 +40791,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_boss_ad = {
-		tip = "[$1] Lv. $2 "
+	_G.pg.base.gametip.battle_repair_special_name = {
+		tip = "Daily bonus chances: "
 	}
 end)()
 
@@ -38964,12 +40815,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.fleet_antisub_range_tip = {
-		tip = {
-			{
-				info = "- Submarine Scan Info:\nWhen an enemy submarine comes within range of ASW-capable Vanguard Fleet ships (DDs and CLs,) they will automatically be detected, thus rendering them open to attack.\nDamage can be dealt to a detected submarine using ASW weaponry such as depth charges. However, if the enemy submarine leaves your Vanguard Fleet's scan range, they will return to being undetected after some time has passed.\n\n- How your Scan Range is Calculated:\nThe following 4 factors affect the size of your Vanguard Fleet's Submarine Scan Range:\n1. The greatest base ASW stat among the DDs and CLs in your Vanguard Fleet.\n2. The combined ASW stat of all ships in your Main Fleet.\n3. The additional range granted by equipping a sonar on your ships.\n4. Certain miscellaneous map-specific buffs/debuffs, the stats and skills of enemy ships, etc.\n\nImportant note: any bonus points to the ASW stat gained from gear, skills, Meowfficers, or Fleet Tech does NOT affect your Scan Range.\n"
-			}
-		}
+	_G.pg.base.gametip.login_loginMediator_kickServerClose = {
+		tip = "Server Maintenance"
 	}
 end)()
 
@@ -38980,8 +40827,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_repair_special_name = {
-		tip = "Daily bonus chances: "
+	_G.pg.base.gametip.backyard_backyardScene_restSuccess = {
+		tip = "<color=#92fc63>Reset!</color>"
 	}
 end)()
 
@@ -38992,20 +40839,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_warning_402134 = {
-		tip = "Completing this Retrofit will permanently change the first \"Auxiliary\" equipment slot to a <color=#92fc63>\"Helicopter\"</color>\n equipment slot. Proceed with the Retrofit? "
+	_G.pg.base.gametip.word_propose_cost_tip = {
+		tip = "Marriage requires <color=#92fc63>1</color> Promise Ring (In Depot: <color=#92fc63>$1</color>).\n\n<size=32>Marrying a shipgirl grants her a special status, lets you change her name, and gives her a <color=#92fc63>3%</color> boost to most stats.</size>\n<size=32>Marrying a shipgirl automatically locks her in your dock. You can unlock her manually if so desired.</size>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_theme_save_tip = {
-		tip = "Are you sure you want to save the current dorm layout as \n<color=#5FD500>$1</color>?"
+	_G.pg.base.gametip.equipment_skin_no_old_skinorequipment = {
+		tip = "The (old ship) has no weapon or weapon skin equipped/applied"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_backyardScene_restSuccess = {
-		tip = "<color=#92fc63>Reset!</color>"
+	_G.pg.base.gametip.meta_switch_skill_box_title = {
+		tip = "Would you like to start learning $1? "
 	}
 end)()
 
@@ -39016,38 +40863,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.meta_sys_lock_tip = {
-		tip = "未配置tip"
+	_G.pg.base.gametip.meta_energy_preview_tip = {
+		tip = "*Does not include effects from affection or oath. "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_map_version = {
-		tip = "This zone will be reset because assets have been updated. "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_word_commder = {
-		tip = "Admiral"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_text_luodeni_2 = {
-		tip = "<color=#ffc038>Harmony is restored; an instant becomes an eternity; the Demise is coming; let us witness it.</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.special_animal3 = {
-		tip = "[Uranami's Collection of Cuties - #3] Pinnisphere: it puffs itself up into a ball by filling its lungs beyond capacity. Apparently it's just a party trick."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_energy_low_warn_no_exp = {
-		tip = "<color=#92fc63FF>$2</color> currently has low morale! If you continue to force her to sortie, her <color=#ff5c5c>affection will decrease</color>! Are you sure you wish to continue? "
+	_G.pg.base.gametip.guild_word_battle_type = {
+		tip = "Type:"
 	}
 end)()
 
@@ -39058,8 +40881,96 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.activity_puzzle_get4 = {
-		tip = "<color=#A9F548FF>How to get: Normal difficulty 3-1</color>"
+	_G.pg.base.gametip.battle_text_luodeni_2 = {
+		tip = "<color=#ffc038>Harmony is restored; an instant becomes an eternity; the Demise is coming; let us witness it.</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveactivity_ui_10 = {
+		tip = "Sweet Memories Lv."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_status_inEventFinished = {
+		tip = "Completed"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_shipinfo_maxlevel = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/strength",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/equip",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/bullet",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/energy",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/levelup",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/fanqian",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/break",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/maxlevel",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 8,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_navalAcademyScene_upgrade_complete = {
+		tip = "<color=#92fc63>$1</color> upgraded! Max capacity <color=#9CFF5CE6>+$2</color>!"
 	}
 end)()
 
@@ -39070,8 +40981,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.intimacy_desc_1_detail = {
-		tip = "$1 is upset with you.\n<color=#fad545><size=18>(No buff)</size></color>"
+	_G.pg.base.gametip.charge_limit_all = {
+		tip = "Purchases: $1/$2"
 	}
 end)()
 
@@ -39096,14 +41007,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_warning_520024 = {
-		tip = "Completing the retrofit will change the ship's designation into:\nGuided-Missile Destroyer (Vanguard Mode)\nHer stats and combat performance may change significantly.\nProceed with retrofit?"
+	_G.pg.base.gametip.equipment_upgrade_ok = {
+		tip = "Gear upgraded!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_status_inEventFinished = {
-		tip = "Completed"
+	_G.pg.base.gametip.world_catsearch_help_5 = {
+		tip = "This Meowfficer's skills will not apply as they are busy."
 	}
 end)()
 
@@ -39114,20 +41025,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_theme_lock_tip = {
-		tip = "This theme is <color=#92fc63>not yet open</color>."
+	_G.pg.base.gametip.levelScene_chapter_unlock_tip = {
+		tip = "Reach Commander lv. <color=#92fc63>$1</color> to unlock this chapter."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.main_navalAcademyScene_upgrade_complete = {
-		tip = "<color=#92fc63>$1</color> upgraded! Max capacity <color=#9CFF5CE6>+$2</color>!"
+	_G.pg.base.gametip.charge_title = {
+		tip = "Spend $1 to buy $3 x$2"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.intimacy_desc_7_buff = {
-		tip = "Current buff: All base stats (except speed and gear) +12%"
+	_G.pg.base.gametip.new_version_tip = {
+		tip = "Commander, your game is out of date! Please restart the game and download the update."
 	}
 end)()
 
@@ -39156,14 +41067,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.valentinesday__txt3_tip = {
-		tip = "There seems to... not be enough cocoa powder... Zzzzz"
+	_G.pg.base.gametip.ship_remould_warning_520024 = {
+		tip = "Completing the retrofit will change the ship's designation into:\nGuided-Missile Destroyer (Vanguard Mode)\nHer stats and combat performance may change significantly.\nProceed with retrofit?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.intimacy_desc_3_buff = {
-		tip = "Current buff: All base stats (except speed and gear) +1%"
+	_G.pg.base.gametip.word_bomber = {
+		tip = "Dive Bomber"
 	}
 end)()
 
@@ -39174,8 +41085,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_version_tip = {
-		tip = "Commander, your game is out of date! Please restart the game and download the update."
+	_G.pg.base.gametip.intimacy_desc_6_buff = {
+		tip = "Current buff: All base stats (except speed and gear) +9%"
 	}
 end)()
 
@@ -39190,20 +41101,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.autofight_story = {
-		tip = "The story will start playing shortly. "
+	_G.pg.base.gametip.battle_preCombatLayer_sink_limit = {
+		tip = "Lose less than $1 ships"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.autofight_discovery = {
-		tip = "Exploration Goals Achieved:$1"
+	_G.pg.base.gametip.loveactivity_ui_2 = {
+		tip = "Daily Rewards"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.common_food = {
-		tip = "Snacks"
+	_G.pg.base.gametip.intimacy_desc_4_buff = {
+		tip = "Current buff: All base stats (except speed and gear) +3%"
 	}
 end)()
 
@@ -39220,14 +41131,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_warning_702124 = {
-		tip = "<size=35>Retrofitting <color=#92fc63>$1</color> will change her\n<color=#92fc63>Main Gun (Light Cruiser)</color> gear slot into a\n<color=#92fc63>Main Gun (Destroyer )</color> gear slot.<color=#92fc63>\nGear in the <color=#92fc63>Main Gun</color> slot will be unequipped.\nAre you sure you want to continue?\n<material=underline c=#92fc63 event=clickDetail>Tap here for details.</material></color></size>"
+	_G.pg.base.gametip.word_contribution = {
+		tip = "贡献"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.charge_month_card_title = {
-		tip = "Extra bonus gems $1 now and items every day for a month"
+	_G.pg.base.gametip.new_airi_error_code_300101 = {
+		tip = "0"
 	}
 end)()
 
@@ -39238,8 +41149,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_preCombatLayer_time_limit = {
-		tip = "Finish battle in $1 seconds"
+	_G.pg.base.gametip.level_flare_supply = {
+		tip = "You've retrieved a supply of flares. The fleet that retrieved them will be able to fire flares during the next $1 battle(s). "
 	}
 end)()
 
@@ -39274,8 +41185,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.no_open_system_tip = {
-		tip = "Reach Commander <color=#92fc63>lv. $2</color> to unlock <color=#92fc63>$1</color>."
+	_G.pg.base.gametip.words_rare_ship_vibrate = {
+		tip = "New Ship Buzz"
 	}
 end)()
 
@@ -39286,14 +41197,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.autofight_onceagain = {
-		tip = "Continue"
+	_G.pg.base.gametip.simulation_enhancing = {
+		tip = "Enemy has used a special tactic, increasing Reload and DMG!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_shipModLayer_effect = {
-		tip = "Current EXP: <color=#92fc63>$1/$2</color>\n"
+	_G.pg.base.gametip.attribute_dodge_limit = {
+		tip = "Evasion Limit "
 	}
 end)()
 
@@ -39310,48 +41221,44 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.spweapon_ui_keep_attr_text2 = {
-		tip = "Continue with <color=#92fc63>attribute conversion</color>?"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200120 = {
-		tip = "Item does not exist please check the SKU"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.level_flare_supply = {
-		tip = "You've retrieved a supply of flares. The fleet that retrieved them will be able to fire flares during the next $1 battle(s). "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_xinnian2021_feast = {
-		tip = {
-			{
-				info = "Event Duration:<color=#92fc63>12/29/20 - 1/14/21</color>\nFeatured Events:\nManjuu Snowdown: Play this minigame to get the limited\noutfit, \"A Dance to the Coming Spring.\"\nFood Festival: Play this minigame to get the limited character, Z28.\nShrine Visit: Play this minigame to get the \"New Year’s Invitation\" item.\nOutfit Store: Purchas limited New Year-themed outfits.\nLimited Construction: Build brand new limited ships."
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.attribute_dodge_limit = {
-		tip = "Evasion Limit "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.medal_notice_1 = {
-		tip = "Show highes rank "
+	_G.pg.base.gametip.island_addition_sale = {
+		tip = "Price"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.equipment_select_device_tip = {
 		tip = "Please select required gear."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.common_no_rmb = {
+		tip = "You don't have enough <color=#92fc63>Gems</color>!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_shipModLayer_effect = {
+		tip = "Current EXP: <color=#92fc63>$1/$2</color>\n"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.common_compare_equal = {
+		tip = "="
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.msgbox_text_noPos_clear = {
+		tip = "Sort"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200390 = {
+		tip = "0"
 	}
 end)()
 
@@ -39374,14 +41281,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.common_compare_equal = {
-		tip = "="
+	_G.pg.base.gametip.word_reset = {
+		tip = "Reset"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.msgbox_text_noPos_clear = {
-		tip = "Sort"
+	_G.pg.base.gametip.word_shipNation_link = {
+		tip = "Collab "
 	}
 end)()
 
@@ -39410,8 +41317,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.firend_relieve_blacklist_ok = {
-		tip = "Removed!"
+	_G.pg.base.gametip.buyProp_noResource_error = {
+		tip = "You don't have enough <color=#92fc63>$1</color>."
 	}
 end)()
 
@@ -39428,8 +41335,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_donate_list_updated = {
-		tip = "Available contribution attempts have been refreshed."
+	_G.pg.base.gametip.word_japanese_3 = {
+		tip = "1"
 	}
 end)()
 
@@ -39459,14 +41366,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_delet_button = {
-		tip = "Delete"
+	_G.pg.base.gametip.login_loginMediator_kickIntError = {
+		tip = "Network Error"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_cancel_assult_ship_recommend_conflict = {
-		tip = "The recommended status of this ship has already been cleared."
+	_G.pg.base.gametip.guild_total_damage = {
+		tip = "Damage"
 	}
 end)()
 
@@ -39489,14 +41396,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.text_iknow = {
-		tip = "Got it"
+	_G.pg.base.gametip.new_airi_error_code_300220 = {
+		tip = "ID authorization outdated"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.login_loginMediator_kickIntError = {
-		tip = "Network Error"
+	_G.pg.base.gametip.friend_id_copy_ok = {
+		tip = "Your UID has been copied!"
 	}
 end)()
 
@@ -39519,14 +41426,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tactics_continue_to_learn = {
-		tip = "\nWould you like to upgrade this skill?"
+	_G.pg.base.gametip.confirm_app_exit = {
+		tip = "Are you sure you want to quit the game?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.formation_switch_success = {
-		tip = "Changed to $1."
+	_G.pg.base.gametip.formation_invalide = {
+		tip = "No available fleets. Unable to battle."
 	}
 end)()
 
@@ -39543,8 +41450,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.reduce_sp3_pass_count = {
-		tip = "SP3クリア回数"
+	_G.pg.base.gametip.new_airi_error_code_200260 = {
+		tip = "Fatal error during API operation"
 	}
 end)()
 
@@ -39567,14 +41474,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equip_info_31 = {
-		tip = "FR "
+	_G.pg.base.gametip.ship_remould_warning_301534 = {
+		tip = "The skill <color=#92fc63>Foo and Friends</color> will be upgraded upon retrofit completion."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.batch_destroy = {
-		tip = "Multi Recycle"
+	_G.pg.base.gametip.word_status_inPVP = {
+		tip = "Exercising"
 	}
 end)()
 
@@ -39585,14 +41492,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_battle_pause = {
-		tip = "OPERATION"
+	_G.pg.base.gametip.exchange_limit_skin_tip = {
+		tip = "Would you like to use $1 Rental Outfit Voucher(s)\n and gain access to \"$2\" for $3 days and $4 hours?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.attribute_sonarInterval = {
-		tip = "FREQ "
+	_G.pg.base.gametip.tec_tendency_cur_x = {
+		tip = "Research Focus / $1"
 	}
 end)()
 
@@ -39603,14 +41510,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_400100 = {
-		tip = "The Nintendo account has been bound to other Yostar account"
+	_G.pg.base.gametip.levelScene_tracking_error_3001 = {
+		tip = "A ship is currently under commission. Unable to attack."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.levelScene_tracking_error_pre = {
-		tip = "Available after <color=#92fc63>$1</color> cleared"
+	_G.pg.base.gametip.world_battle_pause = {
+		tip = "OPERATION"
 	}
 end)()
 
@@ -39621,8 +41528,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_warning_301534 = {
-		tip = "The skill <color=#92fc63>Foo and Friends</color> will be upgraded upon retrofit completion."
+	_G.pg.base.gametip.battle_result_victory = {
+		tip = "Claim victory"
 	}
 end)()
 
@@ -39633,8 +41540,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_event_is_lock = {
-		tip = "This Guild Event is unavailable."
+	_G.pg.base.gametip.world_mapbuff_attrtxt_2 = {
+		tip = "Survival Boost "
 	}
 end)()
 
@@ -39645,8 +41552,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_mission_complate = {
-		tip = "Guild mission completed."
+	_G.pg.base.gametip.battle_preCombatLayer_auto_confirm = {
+		tip = "Do you want to replace your current formation with the recommended formation?"
 	}
 end)()
 
@@ -39663,8 +41570,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.attribute_hit = {
-		tip = "Hit"
+	_G.pg.base.gametip.task_submitTask_error = {
+		tip = "Failed to submit mission: "
 	}
 end)()
 
@@ -39705,20 +41612,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.text_retreat = {
-		tip = "Retreat"
+	_G.pg.base.gametip.coloring_color_not_enough = {
+		tip = "You do not have enough paint"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_shipType_zhanLie = {
-		tip = "Battleship"
+	_G.pg.base.gametip.newplayer_notice_4 = {
+		tip = "Receive Portland after claiming victory"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.number_3 = {
-		tip = "3"
+	_G.pg.base.gametip.battle_result_boss_destruct = {
+		tip = "Defeat the boss before it self-destructs"
 	}
 end)()
 
@@ -39729,8 +41636,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_tech_label_condition = {
-		tip = "New progress milestone has been reached."
+	_G.pg.base.gametip.guild_event_start_event_tip = {
+		tip = "Once dispatched, you will not be able to change this formation until the operation ends. Would you like to continue?"
 	}
 end)()
 
@@ -39747,14 +41654,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.login_loginMediator_kickServerClose = {
-		tip = "Server Maintenance"
+	_G.pg.base.gametip.levelScene_strategying = {
+		tip = "In progress..."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_ship_attr_desc = {
-		tip = "The Guild's $1 has $2 when $3 during operations."
+	_G.pg.base.gametip.guild_fleet_update_done = {
+		tip = "Fleet composition has been updated."
 	}
 end)()
 
@@ -39771,14 +41678,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.activity_puzzle_get7 = {
-		tip = "<color=#A9F548FF>How to get: Normal difficulty 2-2</color>"
+	_G.pg.base.gametip.guild_tip_quit = {
+		tip = "Are you sure you want to leave the guild?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.coloring_color_not_enough = {
-		tip = "You do not have enough paint"
+	_G.pg.base.gametip.guild_fleet_exist_same_kind_ship = {
+		tip = "This ship is already supporting this Guild Operation. "
 	}
 end)()
 
@@ -39789,8 +41696,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_result_boss_destruct = {
-		tip = "Defeat the boss before it self-destructs"
+	_G.pg.base.gametip.guild_mission_complate = {
+		tip = "Guild mission completed."
 	}
 end)()
 
@@ -39823,14 +41730,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.main_notificationLayer_searchInput = {
-		tip = "Please enter player ID or name."
+	_G.pg.base.gametip.sort_attribute = {
+		tip = "Stat"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_exist_activation_tech = {
-		tip = "You can only upgrade one facility at a time."
+	_G.pg.base.gametip.mail_takeAttachment_error_reWorld = {
+		tip = "Since Operation Siren was reset, the collected items will be converted into Supply Shop Vouchers. Continue?"
 	}
 end)()
 
@@ -39865,8 +41772,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_shop_label_2 = {
-		tip = "Stock"
+	_G.pg.base.gametip.login_loginMediator_vertifyFail = {
+		tip = "Data validation failed."
 	}
 end)()
 
@@ -39883,8 +41790,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_shipUpgradeLayer2_mod_uncommon_tip = {
-		tip = "You have selected an <color=#92fc63>Elite or better</color> ship to use as an enhancing material. Continue enhancing?"
+	_G.pg.base.gametip.submarine_approach = {
+		tip = "Submarines Detected"
 	}
 end)()
 
@@ -39913,20 +41820,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.spweapon_ui_breakout_exp = {
-		tip = "Upgrade EXP required to uncap"
+	_G.pg.base.gametip.guild_exist_activation_tech = {
+		tip = "You can only upgrade one facility at a time."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_map_title_tips_en = {
-		tip = "OPERATION INFO"
+	_G.pg.base.gametip.coloring_erase_all_warning = {
+		tip = "Resetting will clear all of the currently painted boxes of their color. Are you sure you would like to reset?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_29903 = {
-		tip = "<size=28>Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.\nEquipped gear:<color=#92fc63>\nPrototype Twin 234mm Main Gun (9.2\" MK XII)\nQuadruple 533mm Torpedo\nTwin 40mm Bofors STAAG</color></size>"
+	_G.pg.base.gametip.blueprint_simulation_confirm_89903 = {
+		tip = "<size=28>Would you like to start a Battle Simulation?\nNote: the Priority ship's stats and abilities may differ from her fully-developed equivalent.\nEquipped gear:<color=#ff5c5c>\nPrototype Quadruple 330mm Mle 1931 (CB Only) Main Gun Mount\nSingle 138.6mm Mle 1929 Naval Gun\nTwin 40mm Bofors AA Gun Mount</color></size>"
 	}
 end)()
 
@@ -39937,8 +41844,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.login_loginMediator_vertifyFail = {
-		tip = "Data validation failed."
+	_G.pg.base.gametip.new_airi_error_code_200235 = {
+		tip = "Steam transaction timeout"
 	}
 end)()
 
@@ -39949,8 +41856,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.spweapon_ui_create_exp = {
-		tip = "Upgrade EXP required to craft"
+	_G.pg.base.gametip.tec_target_catchup_show_the_finished_version = {
+		tip = "Show completed catch-ups"
 	}
 end)()
 
@@ -39961,8 +41868,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200236 = {
-		tip = "Payment cancelled"
+	_G.pg.base.gametip.spweapon_tip_transform_attrmax = {
+		tip = "This item's random attribute have already been maxed."
 	}
 end)()
 
@@ -39973,20 +41880,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_daily_task_none_2 = {
-		tip = ""
+	_G.pg.base.gametip.msgbox_text_exchange = {
+		tip = "Exchange"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.equipment_upgrade_ok = {
-		tip = "Gear upgraded!"
+	_G.pg.base.gametip.guild_shop_must_select_goods = {
+		tip = "Select an item to exchange for："
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.levelScene_activate_loop_mode_failed = {
-		tip = "You must reach 100% completion on this map to unlock Clearing Mode."
+	_G.pg.base.gametip.system_database_busy = {
+		tip = "Database is busy. Please try again later."
 	}
 end)()
 
@@ -39997,8 +41904,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_level_upperLimit = {
-		tip = "Max Level"
+	_G.pg.base.gametip.commander_lock_erro = {
+		tip = "The following could not be locked: $1."
 	}
 end)()
 
@@ -40021,14 +41928,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_0 = {
-		tip = "Success"
+	_G.pg.base.gametip.world_redeploy_tip = {
+		tip = "Fleet not yet formed. "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_get_week_done = {
-		tip = "New Guild Missions have already been posted."
+	_G.pg.base.gametip.world_task_goto3 = {
+		tip = "The fleet has already been deployed to the target zone."
 	}
 end)()
 
@@ -40039,8 +41946,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.anniversary_task_title_5 = {
-		tip = "Though the road ahead of me will be treacherous, there is only one direction that I can go now."
+	_G.pg.base.gametip.levelScene_activate_loop_mode_failed = {
+		tip = "You must reach 100% completion on this map to unlock Clearing Mode."
 	}
 end)()
 
@@ -40057,8 +41964,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_attr_range = {
-		tip = "Range"
+	_G.pg.base.gametip.levelScene_map_lock = {
+		tip = "<color=#92fc63>Complete this chapter</color> in order to unlock the next."
 	}
 end)()
 
@@ -40069,8 +41976,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_task_goto3 = {
-		tip = "The fleet has already been deployed to the target zone."
+	_G.pg.base.gametip.word_attr_luck = {
+		tip = "OIL "
 	}
 end)()
 
@@ -40093,8 +42000,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.exchangecode_use_error_20 = {
-		tip = "Code does not exist."
+	_G.pg.base.gametip.ship_drop_desc_default = {
+		tip = "Received a ship"
 	}
 end)()
 
@@ -40105,20 +42012,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_instruction_detect_2 = {
-		tip = "Conducted aerial reconnaissance."
+	_G.pg.base.gametip.battle_resourceSiteLayer_collecTime = {
+		tip = "Harvesting time: <color=#92fc63>$1</color>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.levelScene_map_lock = {
-		tip = "<color=#92fc63>Complete this chapter</color> in order to unlock the next."
+	_G.pg.base.gametip.backyard_cant_buy_tip = {
+		tip = "Unable to purchase!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_files_repair = {
-		tip = "Tap to repair "
+	_G.pg.base.gametip.word_shipNation_yujinwangguo = {
+		tip = "Tulipa"
 	}
 end)()
 
@@ -40135,8 +42042,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.spweapon_tip_creatept_no_enough = {
-		tip = "Insufficient materials. Please select all the materials needed to complete crafting."
+	_G.pg.base.gametip.world_instruction_detect_2 = {
+		tip = "Conducted aerial reconnaissance."
 	}
 end)()
 
@@ -40175,20 +42082,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_resourceSiteLayer_collecTime = {
-		tip = "Harvesting time: <color=#92fc63>$1</color>"
+	_G.pg.base.gametip.word_shipNation_imas = {
+		tip = "The Idolmaster "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.tec_tendency_cur_x = {
-		tip = "Research Focus / $1"
+	_G.pg.base.gametip.shop_spweapon_success = {
+		tip = "Your Augment Module storage capacity has increased."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_theme_cancel_collection = {
-		tip = "Are you sure you want to unfavorite this?"
+	_G.pg.base.gametip.equip_info_23 = {
+		tip = "Equippable by"
 	}
 end)()
 
@@ -40205,8 +42112,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200390 = {
-		tip = "0"
+	_G.pg.base.gametip.equipment_info_change_name_b = {
+		tip = "Twin 203mm Mle 1931 Main Gun Mount"
 	}
 end)()
 
@@ -40217,8 +42124,15 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_warning_203114 = {
-		tip = "This ship's <color=#92fc63>Torpedo slot</color> will be converted into an <color=#92fc63>Auxiliary Weapon slot.</color><color=#92fc63>\n<material=underline c=#92fc63 event=clickDetail>View more info here.</material></color>\nWould you like to proceed with the retrofit? "
+	_G.pg.base.gametip.technology_help_text = {
+		tip = {
+			{
+				info = "<color=#A1E400FF>- Update - (July 13th, 2023)</color>\n"
+			},
+			{
+				info = "The Research Academy has received an update with the addition of series 6 PRs/DRs.\n\nNew series 6 research projects have been added.\n\n\n- Update -\nThe Research Academy has received an update with the addition of series 5 PRs/DRs.\n\n1. New series 5 research projects have been added.\n\n2. A new feature, research queueing, has been added to the Research Academy.\nYou can now queue up research projects if you meet all their completion requirements. Queued projects will be completed in the order they were added to the queue, and once added, cannot be removed.\nYour research queue can hold up to 5 projects at a time. When you add a project to the queue, the list of available research projects will be refreshed.\n\n\n- Update -\nThe Research Academy has received an update with the addition of series 4 PRs/DRs.\n\n1. New series 4 research projects have been added.\n\n2. If you possess enough Blueprints to fully Enhance (including Fate Simulation) a PR/DR, you will no longer get Catch-Up research projects specific to that ship.\nFor example, if you only have Monarch fully Fate Simulated (or have enough Blueprints to do so) among all PR1 ships and set your Research Focus to PR1 ships, you will receive projects for all PR1 ships except Monarch.\n\nIf you have Research Focus set to a specific PR/DR series and you've fully Enhanced all ships from that series (or have enough Blueprints to do so), you will get research projects for all ships from that series.\nConversely, if you have Research Focus disabled, you will only receive research projects for ships that you've not fully Enhanced (or have enough Blueprints to do so for).\n\nOtherwise, the amount of Blueprints you possess for a given ship does not affect your probability of getting research projects for her.\n\n\n- Update -\nThe Research Academy has received an update with the addition of series 3 PRs/DRs.\n\n1. New series 3 research projects have been added.\nSeries 3 research projects are marked with the roman numeral \"III\" in the top right corner of the project.\n\n2. The Research Focus menu has been completely revamped.  Now when you wish to focus on a particular PR/DR series, you can choose between series 1, 2, and 3.\nFocusing on a series will increase the likelihood you'll get research projects from the corresponding series, with at least 3 of them guaranteed to be from the chosen series.\n\nAdditionally, with the new Catch-Up feature, you can prioritize a ship of a given PR/DR series and receive additional Blueprints for her.\nSetting an active Catch-Up ship is done through the Research Focus menu."
+			}
+		}
 	}
 end)()
 
@@ -40241,8 +42155,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_get_oneclick = {
-		tip = "Batch Claim"
+	_G.pg.base.gametip.levelScene_escort_win = {
+		tip = "The transport ship has arrived at its goal. Escort mission complete!"
 	}
 end)()
 
@@ -40295,8 +42209,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equip_info_13 = {
-		tip = "Specialty"
+	_G.pg.base.gametip.Settings_title_resUpdate = {
+		tip = "Download Assets"
 	}
 end)()
 
@@ -40307,8 +42221,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equip_info_6 = {
-		tip = "Shell Velocity"
+	_G.pg.base.gametip.word_soundfiles_download_title = {
+		tip = "Download Language Pack"
 	}
 end)()
 
@@ -40319,27 +42233,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.technology_help_text = {
-		tip = {
-			{
-				info = "<color=#A1E400FF>- Update - (July 13th, 2023)</color>\n"
-			},
-			{
-				info = "The Research Academy has received an update with the addition of series 6 PRs/DRs.\n\nNew series 6 research projects have been added.\n\n\n- Update -\nThe Research Academy has received an update with the addition of series 5 PRs/DRs.\n\n1. New series 5 research projects have been added.\n\n2. A new feature, research queueing, has been added to the Research Academy.\nYou can now queue up research projects if you meet all their completion requirements. Queued projects will be completed in the order they were added to the queue, and once added, cannot be removed.\nYour research queue can hold up to 5 projects at a time. When you add a project to the queue, the list of available research projects will be refreshed.\n\n\n- Update -\nThe Research Academy has received an update with the addition of series 4 PRs/DRs.\n\n1. New series 4 research projects have been added.\n\n2. If you possess enough Blueprints to fully Enhance (including Fate Simulation) a PR/DR, you will no longer get Catch-Up research projects specific to that ship.\nFor example, if you only have Monarch fully Fate Simulated (or have enough Blueprints to do so) among all PR1 ships and set your Research Focus to PR1 ships, you will receive projects for all PR1 ships except Monarch.\n\nIf you have Research Focus set to a specific PR/DR series and you've fully Enhanced all ships from that series (or have enough Blueprints to do so), you will get research projects for all ships from that series.\nConversely, if you have Research Focus disabled, you will only receive research projects for ships that you've not fully Enhanced (or have enough Blueprints to do so for).\n\nOtherwise, the amount of Blueprints you possess for a given ship does not affect your probability of getting research projects for her.\n\n\n- Update -\nThe Research Academy has received an update with the addition of series 3 PRs/DRs.\n\n1. New series 3 research projects have been added.\nSeries 3 research projects are marked with the roman numeral \"III\" in the top right corner of the project.\n\n2. The Research Focus menu has been completely revamped.  Now when you wish to focus on a particular PR/DR series, you can choose between series 1, 2, and 3.\nFocusing on a series will increase the likelihood you'll get research projects from the corresponding series, with at least 3 of them guaranteed to be from the chosen series.\n\nAdditionally, with the new Catch-Up feature, you can prioritize a ship of a given PR/DR series and receive additional Blueprints for her.\nSetting an active Catch-Up ship is done through the Research Focus menu."
-			}
-		}
+	_G.pg.base.gametip.stage_beginStage_error_noEnergy = {
+		tip = "Your ships are <color=#92fc63>fatigued</color>!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_theme_bought = {
-		tip = "Purchased"
+	_G.pg.base.gametip.backyard_theme_template_list_is_empty = {
+		tip = "No usable furniture."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200210 = {
-		tip = "productid does not exist on payment backend"
+	_G.pg.base.gametip.npc_evaluation_tip = {
+		tip = "You can't Like or Comment on ships that haven't been recruited"
 	}
 end)()
 
@@ -40400,14 +42307,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100121 = {
-		tip = "Guest login is not supported on PC client"
+	_G.pg.base.gametip.friend_fetchFriendMsg_error = {
+		tip = "Failed to retrieve message: "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.win_condition_display_tuoli = {
-		tip = "Any fleet reaches the escape point."
+	_G.pg.base.gametip.word_sell_lock = {
+		tip = "Unavailable"
 	}
 end)()
 
@@ -40418,8 +42325,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_soundfiles_download_title = {
-		tip = "Download Language Pack"
+	_G.pg.base.gametip.text_iknow = {
+		tip = "Got it"
 	}
 end)()
 
@@ -40450,8 +42357,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_hot = {
-		tip = "Hot"
+	_G.pg.base.gametip.backyard_theme_upload_success = {
+		tip = "Uploaded"
 	}
 end)()
 
@@ -40468,8 +42375,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.npc_evaluation_tip = {
-		tip = "You can't Like or Comment on ships that haven't been recruited"
+	_G.pg.base.gametip.battle_preCombatLayer_changeFormationError = {
+		tip = "Formation switch error. Please check your formations."
 	}
 end)()
 
@@ -40486,8 +42393,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.test_ship_intensify_tip = {
-		tip = "Engineers can't be enhanced!"
+	_G.pg.base.gametip.world_map_title_tips_en = {
+		tip = "OPERATION INFO"
 	}
 end)()
 
@@ -40498,8 +42405,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_instruction_submarine_4 = {
-		tip = "Cannot request support because the sub fleet has not been set up yet."
+	_G.pg.base.gametip.ship_shipUpgradeLayer2_mod_uncommon_tip = {
+		tip = "You have selected an <color=#92fc63>Elite or better</color> ship to use as an enhancing material. Continue enhancing?"
 	}
 end)()
 
@@ -40516,8 +42423,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_target_goto = {
-		tip = "Enter Zone "
+	_G.pg.base.gametip.word_shipType_qinXun = {
+		tip = "Light Cruiser"
 	}
 end)()
 
@@ -40534,8 +42441,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_duel_main_rage = {
-		tip = "Both sides' <color=#92fc63>vanguards have been destroyed</color>. Battle accelerated."
+	_G.pg.base.gametip.world_catsearch_leavemap = {
+		tip = "Are you sure you want to withdraw from this zone and recall all dispatched Meowfficers? \nYou will receive rewards based on the number of turns elapsed. "
 	}
 end)()
 
@@ -40564,44 +42471,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_synthesize_power = {
-		tip = "Total Stats"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_tip_transform_attrmax = {
-		tip = "This item's random attribute have already been maxed."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100235 = {
-		tip = "Invalid email format. Please enter again"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_get_box_tip = {
-		tip = "Gives you a random \nCat Box."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.formation_forbid_when_in_chapter = {
-		tip = "Fleet is currently attacking at sea. Unable to edit formation."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_takeAttachment_error_noAttach = {
-		tip = "Failed to collect rewards."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.other_world_task_get_all = {
-		tip = "Claim All"
+	_G.pg.base.gametip.res_music_no_pre_tip = {
+		tip = "First Track"
 	}
 end)()
 
@@ -40618,8 +42489,44 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_r = {
-		tip = "R"
+	_G.pg.base.gametip.commander_get_box_tip = {
+		tip = "Gives you a random \nCat Box."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.formation_forbid_when_in_chapter = {
+		tip = "Fleet is currently attacking at sea. Unable to edit formation."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_tech_price_inc_tip = {
+		tip = "This facility's upgrade cost is increased as you do not meet the <color=#92fc63>Guild Tech</color> leveling criteria. Do you want to continue with the facility upgrade?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.other_world_task_get_all = {
+		tip = "Claim All"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200231 = {
+		tip = "0"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dal_main_sheet3_en = {
+		tip = "Kurumi Event"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_season_label = {
+		tip = "Season $1"
 	}
 end)()
 
@@ -40636,14 +42543,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.index_meta_repair = {
-		tip = "Fortification Available"
+	_G.pg.base.gametip.attribute_intimacy = {
+		tip = "Affinity"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.levelScene_time_out = {
-		tip = "Battle time exceeded."
+	_G.pg.base.gametip.new_airi_error_code_300200 = {
+		tip = "0"
 	}
 end)()
 
@@ -40660,14 +42567,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100204 = {
-		tip = "The guest account can't be linked to a Google Play Games account so you can't log on another device with the guest account. If you want to link the guest account to a Google Play Games account, please link it to a Yostar account/third-party account first."
+	_G.pg.base.gametip.ship_buildShipImmediately_error_noSHip = {
+		tip = "No ships at dock."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_energy_low_desc = {
-		tip = "Exhausted\nAffinity will be reduced if you attack"
+	_G.pg.base.gametip.levelScene_time_out = {
+		tip = "Battle time exceeded."
 	}
 end)()
 
@@ -40678,8 +42585,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100225 = {
-		tip = "Google authorization was canceled by user"
+	_G.pg.base.gametip.index_spweapon = {
+		tip = "Unique Module"
 	}
 end)()
 
@@ -40694,8 +42601,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_shipInfoScene_equipUnlockSlostContent = {
-		tip = "Slot is locked. Please limit break selected ship to unlock."
+	_G.pg.base.gametip.ship_equipToShip_ok = {
+		tip = "<color=#92fc63>$1</color> equipped!"
 	}
 end)()
 
@@ -40706,8 +42613,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dont_send_message_frequently = {
-		tip = "Do not spam the chat. "
+	_G.pg.base.gametip.index_awakening = {
+		tip = "Can Cog. Aw."
 	}
 end)()
 
@@ -40724,8 +42631,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.event_same_type_not_allowed = {
-		tip = "May not add a ship of the same type."
+	_G.pg.base.gametip.blueprint_simulation_confirm_49903 = {
+		tip = "<size=28>Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.\nEquipped gear:<color=#92fc63>\nTriple 150mm Main Gun (SK C/25) \nQuadruple 533mm Magnetic Torpedo\nTwin 105mm AA Gun (SK C)</color></size>"
 	}
 end)()
 
@@ -40750,42 +42657,6 @@ end)()
 (function()
 	_G.pg.base.gametip.commander_select_box_tip = {
 		tip = "Commence training for $1 Cat Box(es)? A maximum of 4 can be trained simultaneously."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_tip_attr_modify = {
-		tip = "Please decide whether to replace the old attributes first. "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.special_animal7 = {
-		tip = "[Uranami's Collection of Cuties - #7] Meunchkus: it secretes a rainbow-colored liquid through its mouth. Accounts from people who'd rather remain anonymous claim \"it also tastes like a rainbow.\""
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_got = {
-		tip = "Granted"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_rename_tip = {
-		tip = "Confirm your island's name.\nYou can change it later."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_primary_weapons = {
-		tip = "Main Weapon"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.destroy_high_level_tip = {
-		tip = "<color=#92fc63>$1 is higher than lv. 1</color>"
 	}
 end)()
 
@@ -40860,8 +42731,44 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.friend_inpout_key_tip = {
-		tip = "Please enter query..."
+	_G.pg.base.gametip.special_animal7 = {
+		tip = "[Uranami's Collection of Cuties - #7] Meunchkus: it secretes a rainbow-colored liquid through its mouth. Accounts from people who'd rather remain anonymous claim \"it also tastes like a rainbow.\""
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_sub_cannons = {
+		tip = "Secondary Gun "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_rename_tip = {
+		tip = "Confirm your island's name.\nYou can change it later."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_primary_weapons = {
+		tip = "Main Weapon"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.destroy_high_level_tip = {
+		tip = "<color=#92fc63>$1 is higher than lv. 1</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_notificationLayer_searchInput = {
+		tip = "Please enter player ID or name."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.event_same_type_not_allowed = {
+		tip = "May not add a ship of the same type."
 	}
 end)()
 
@@ -40890,14 +42797,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.bulin_tip6 = {
-		tip = "Don't forget to feed the kids nya!"
+	_G.pg.base.gametip.clear_transcode_cache_success = {
+		tip = "Transfer Code cleared."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_shipUpgradeLayer2_uncommon_tip = {
-		tip = "You have selected an <color=#92fc63>Elite or better</color> ship to use as an enhancing material. Continue enhancing?"
+	_G.pg.base.gametip.ship_shipUpgradeLayer2_advanced_tip = {
+		tip = "You have selected a <color=#92fc63>lv. 2 or higher</color> ship to use as a limit break material. Continue to limit break?"
 	}
 end)()
 
@@ -40908,8 +42815,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_quit_erro = {
-		tip = "Failed to leave guild."
+	_G.pg.base.gametip.player_changePlayerIcon_error = {
+		tip = "Failed to change secretary: "
 	}
 end)()
 
@@ -40926,8 +42833,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_300100 = {
-		tip = "System sharing failed"
+	_G.pg.base.gametip.story_setting_label = {
+		tip = "Text Auto-Scroll Speed"
 	}
 end)()
 
@@ -40938,8 +42845,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_equipment_aircraft = {
-		tip = "Aircraft"
+	_G.pg.base.gametip.backyard_cant_put_tip = {
+		tip = "Unable to place."
 	}
 end)()
 
@@ -40956,8 +42863,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_normal_2 = {
-		tip = "So so"
+	_G.pg.base.gametip.new_airi_error_code_200150 = {
+		tip = "Payment receipt verification failed"
 	}
 end)()
 
@@ -40974,14 +42881,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.special_animal1 = {
-		tip = "[Uranami's Collection of Cuties - #1] Axofrostl: a strange creature with the power to rapidly freeze its prey. It builds its nest in frozen lakes."
+	_G.pg.base.gametip.backyard_backyardShipInfoLayer_error_noQuickItem = {
+		tip = "You don't have enough Quick Finishers."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_backyardShipInfoLayer_error_noQuickItem = {
-		tip = "You don't have enough Quick Finishers."
+	_G.pg.base.gametip.word_no_cache = {
+		tip = "There are no assets to repair."
 	}
 end)()
 
@@ -40998,8 +42905,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_instruction_redeploy_3 = {
-		tip = "You are carrying an Energy Matrix and are unable to redeploy your fleet. "
+	_G.pg.base.gametip.new_airi_error_code_100116 = {
+		tip = "UID is banned during login creation"
 	}
 end)()
 
@@ -41010,38 +42917,38 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100242 = {
-		tip = "Apple authorization request failed"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100116 = {
-		tip = "UID is banned during login creation"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.word_shipNation_saDing = {
 		tip = "Sardegna Empire "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.shopStreet_upgrade_done = {
-		tip = "Shop leveled up!"
+	_G.pg.base.gametip.word_attr_level = {
+		tip = "Max Level"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.friend_id_copy_ok = {
-		tip = "Your UID has been copied!"
+	_G.pg.base.gametip.tactics_continue_to_learn = {
+		tip = "\nWould you like to upgrade this skill?"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.reselect_music_game = {
 		tip = "Would you like to stop and return to the song select screen?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_synthesize_power = {
+		tip = "Total Stats"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.map_event_memory_collected = {
+		tip = "Successfully unlocked hidden story <color=#92fc63>$1</color>!"
 	}
 end)()
 
@@ -41064,8 +42971,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200380 = {
-		tip = "0"
+	_G.pg.base.gametip.exchangecode_use_error_20 = {
+		tip = "Code does not exist."
 	}
 end)()
 
@@ -41086,8 +42993,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.resourceSite_finishResourceSite_error = {
-		tip = "Failed to complete harvesting: "
+	_G.pg.base.gametip.res_music_no_next_tip = {
+		tip = "Last Track"
 	}
 end)()
 
@@ -41110,26 +43017,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_attr_armor = {
-		tip = "Armor"
+	_G.pg.base.gametip.friend_add_ok = {
+		tip = "Friend added!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.vote_rank_in_current_server = {
-		tip = "*Rankings are for current server only"
+	_G.pg.base.gametip.login_loginMediator_kickLoginOut = {
+		tip = "Connection lost."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200231 = {
-		tip = "0"
+	_G.pg.base.gametip.list_empty_tip_equipmentdesignui = {
+		tip = "You don't have any blueprints."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.us_error_download_painting = {
-		tip = "As data has been detected as missing, the game will now close to clear the cache. The neccessary files will be downloaded once the game is open again. "
+	_G.pg.base.gametip.guild_not_exist_battle = {
+		tip = "This Guild Operation has never occurred."
 	}
 end)()
 
@@ -41168,14 +43075,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.list_empty_tip_equipmentdesignui = {
-		tip = "You don't have any blueprints."
+	_G.pg.base.gametip.word_exp = {
+		tip = "EXP"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_preCombatLayer_save_success = {
-		tip = "Formation saved."
+	_G.pg.base.gametip.venusvolleyball_rule_tip = {
+		tip = "Earn $1 points first "
 	}
 end)()
 
@@ -41228,8 +43135,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_reset = {
-		tip = "Reset"
+	_G.pg.base.gametip.shop_tag_control_tip = {
+		tip = "Cannot download assets."
 	}
 end)()
 
@@ -41240,8 +43147,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.login_newPlayerScene_inputName = {
-		tip = "Enter name"
+	_G.pg.base.gametip.number_6 = {
+		tip = "6"
 	}
 end)()
 
@@ -41252,8 +43159,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.attr_antiaircraft = {
-		tip = "AA"
+	_G.pg.base.gametip.charge_start_tip = {
+		tip = "Buy to receive $2 Gems"
 	}
 end)()
 
@@ -41264,24 +43171,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.login_loginScene_server_full = {
-		tip = "Server is full."
+	_G.pg.base.gametip.level_risk_level_mitigation_rate = {
+		tip = "<size=28>Threat Level Evaluation:<color=#92fc63>【$1】</color>\nDamage reduction received when sortieing: <color=#92fc63>$2%</color></size> "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.music_juus = {
-		tip = {
-			{
-				info = "- FleetChat & Juustagram Overview -\n\nFleetChat and Juustagram are the port's social media apps where you can view posts, leave likes, and have chats with shipgirls.\nPress the button in the bottom left corner of the screen to swap between FleetChat and Juustagram.\n\n- FleetChat Details -\n· FleetChat is divided into private chats and group chats, letting you interact with one-on-one and group conversations with shipgirls, respectively.\n· An icon will appear on the FleetChat and Juustagram button when you have unread posts or messages.\n· You can switch between chats by pressing the icons on the left side of the screen.\n· You can prioritize a chat by pressing the heart icon on the top right of the screen. In addition, you can change the chat background or change topics by pressing the button in the top right.\n\n- Juustagram Details -\n· Use Juustagram to view posts from shipgirls, leave likes, and comment under their posts.\n· Shipgirls will make new posts every now and then automatically.\n"
-			}
-		}
+	_G.pg.base.gametip.channel_name_2 = {
+		tip = "World"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_main_pos = {
-		tip = "Command Cat"
+	_G.pg.base.gametip.ins_word_minu = {
+		tip = "$1 minutes ago"
 	}
 end)()
 
@@ -41353,14 +43256,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_300200 = {
-		tip = "0"
+	_G.pg.base.gametip.black5_bundle_buy_all = {
+		tip = "Purchase All"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.level_risk_level_mitigation_rate = {
-		tip = "<size=28>Threat Level Evaluation:<color=#92fc63>【$1】</color>\nDamage reduction received when sortieing: <color=#92fc63>$2%</color></size> "
+	_G.pg.base.gametip.login_newPlayerScene_inputName = {
+		tip = "Enter name"
 	}
 end)()
 
@@ -41371,14 +43274,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.backayrd_theme_delete_erro = {
-		tip = "Failed to delete theme."
+	_G.pg.base.gametip.setting_interface_revert_check = {
+		tip = "Are you sure you want to reset your battle formation?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_storeroom_taken_1 = {
-		tip = "Resources claimed."
+	_G.pg.base.gametip.login_loginScene_server_full = {
+		tip = "Server is full."
 	}
 end)()
 
@@ -41389,8 +43292,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_exchange_medalCount_noEnough = {
-		tip = "You don't have enough Medals."
+	_G.pg.base.gametip.pocky_jiujiu_desc = {
+		tip = "The Manjuus are hard at work today..."
 	}
 end)()
 
@@ -41401,14 +43304,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.exercise_replace_rivals_question = {
-		tip = "Spend <color=#92fc63>$1</color> Gems to refresh list of opponents?"
+	_G.pg.base.gametip.new_airi_error_code_100235 = {
+		tip = "Invalid email format. Please enter again"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.charge_items_title = {
-		tip = "Items received"
+	_G.pg.base.gametip.option_desc10 = {
+		tip = "Enabling this option hides background art in skins during battle "
 	}
 end)()
 
@@ -41419,8 +43322,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_300300 = {
-		tip = "Yostar account binding failed"
+	_G.pg.base.gametip.option_desc5 = {
+		tip = "When toggled ON, displays a tap effect when you tap the screen."
 	}
 end)()
 
@@ -41431,8 +43334,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.pocky_jiujiu_desc = {
-		tip = "The Manjuus are hard at work today..."
+	_G.pg.base.gametip.ship_updateShipLock_ok_unlock = {
+		tip = "<color=#92fc63>$1</color> unlocked."
 	}
 end)()
 
@@ -41471,8 +43374,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_start_supply_consume_tip = {
-		tip = "Spend $1 Guild Funds to purchase Guild Supplies?"
+	_G.pg.base.gametip.index_skin = {
+		tip = "Has Skin"
 	}
 end)()
 
@@ -41502,8 +43405,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_fleet_not_exist = {
-		tip = "This fleet does not exist."
+	_G.pg.base.gametip.battle_levelScene_0Gold = {
+		tip = "Coins Production is 0"
 	}
 end)()
 
@@ -41514,14 +43417,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.Supplement_pay3 = {
-		tip = "All purchases have been successfully processed, and you are now able to log back in to the game. Thank you for your cooperation."
+	_G.pg.base.gametip.ship_dockyardScene_error_choiseRoleMore = {
+		tip = "Must select at least <color=#92fc63>$1</color> character(s)"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_equipment_submarine_torpedo = {
-		tip = "Sub Torpedo"
+	_G.pg.base.gametip.player_name_change_warning = {
+		tip = "It will cost you <color=#92fc63>$1</color> <color=#92fc63>$2</color>, are you sure you want to change your Commander’s name to <color=#92fc63>$3</color>?"
 	}
 end)()
 
@@ -41532,8 +43435,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip["card_battle_card details"] = {
-		tip = "View Details"
+	_G.pg.base.gametip.word_minute = {
+		tip = "m"
 	}
 end)()
 
@@ -41544,14 +43447,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.collection_award_ship = {
-		tip = "$1 research complete! Now in construction queue."
+	_G.pg.base.gametip.new_airi_error_code_200120 = {
+		tip = "Item does not exist please check the SKU"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.spweapon_ui_transform = {
-		tip = "Attribute Conversion"
+	_G.pg.base.gametip.new_airi_error_code_100160 = {
+		tip = "User birthday has already been added"
 	}
 end)()
 
@@ -41574,20 +43477,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_goldField = {
-		tip = "Coins Port"
+	_G.pg.base.gametip.battle_preCombatLayer_clear_confirm = {
+		tip = "Are you sure you want to clear the selected formation?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200160 = {
-		tip = "Invalid purchase request"
+	_G.pg.base.gametip.number_4 = {
+		tip = "4"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_need_level = {
-		tip = "Lvl: $1"
+	_G.pg.base.gametip.guild_member_full = {
+		tip = "This Guild is full. "
 	}
 end)()
 
@@ -41598,14 +43501,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.list_empty_tip_friendui_search = {
-		tip = "Found no commanders matching your search criteria."
+	_G.pg.base.gametip.backyard_backyardScene_error_noPosPutFurniture = {
+		tip = "This doesn't fit anywhere."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.channel_name_3 = {
-		tip = "Notice"
+	_G.pg.base.gametip.word_intensify_phase = {
+		tip = "Enhance Phase"
 	}
 end)()
 
@@ -41616,8 +43519,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_fit = {
-		tip = "Apply to"
+	_G.pg.base.gametip.ship_remould_warning_205154 = {
+		tip = "Completing the retrofit will upgrade this ship's <color=#92fc63>Big Seven</color> skill into\n<color=#92fc63>Big Seven - Nelson</color>."
 	}
 end)()
 
@@ -41628,8 +43531,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200100 = {
-		tip = "User birthday is required"
+	_G.pg.base.gametip.backyard_theme_shop_title = {
+		tip = "Explore Loadouts"
 	}
 end)()
 
@@ -41646,8 +43549,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200190 = {
-		tip = "Order ID does not exist"
+	_G.pg.base.gametip.words_desc_unlock = {
+		tip = "This is a Secondary Password-restricted function."
 	}
 end)()
 
@@ -41658,8 +43561,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.event_condition_ship_count = {
-		tip = "Have at least <color=#92fc63>$1</color> ships in team."
+	_G.pg.base.gametip.backyard_theme_lock_tip = {
+		tip = "This theme is <color=#92fc63>not yet open</color>."
 	}
 end)()
 
@@ -41686,14 +43589,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.text_goon_fight = {
-		tip = "Continue"
+	_G.pg.base.gametip.word_shipType_hangMu = {
+		tip = "Carrier"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_preCombatLayer_auto_confirm = {
-		tip = "Are you sure you want to use the recommended formation?"
+	_G.pg.base.gametip.battle_preCombatLayer_save_confirm = {
+		tip = "Save this fleet formation?"
 	}
 end)()
 
@@ -41726,8 +43629,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_shipType_hangMu = {
-		tip = "Carrier"
+	_G.pg.base.gametip.friend_resume_title_metal = {
+		tip = "Highest rank: "
 	}
 end)()
 
@@ -41744,27 +43647,24 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.answer_help_tip = {
+	_G.pg.base.gametip.world_catsearch_help_1 = {
+		tip = "Retrieval progress will proceed as your <color=#ffde38>fleet operations advance</color>. \nAre you sure you want to cancel the item retrieval?\n\n<color=#92fc63>(If cancelled, partial awards will be rewarded immediately.)</color> "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.sham_my_assist_ship_level_limit = {
+		tip = "Support ship must be at least lv. $1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blackfriday_cruise_task_help_1113 = {
 		tip = {
 			{
-				info = "                                       游戏规则\n"
-			},
-			{
-				info = "1 ???????"
+				info = "- Regarding Cruise Missions - \n2025/11/13 00:00 – 2025/12/3 23:59\n\n· Two types of missions will be released at the same time at the start of the campaign season:\na) Daily Missions - Missions unlocked in batches every day during the campaign, for a total of 12 batches.\nb) SP Missions - One set of missions available for the entire campaign, available from the start of the campaign.\n· All of the above missions are automatically active, and when you open the Black Friday Cruise Missions menu, you will automatically obtain BF Progress Pts. for any missions you've completed."
 			}
 		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_tip_view = {
-		tip = "<material=underline event=displayDetail>View Details</material>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_shipNation_dongHuang = {
-		tip = "Dragon Empery"
 	}
 end)()
 
@@ -41775,14 +43675,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.friend_resume_title_metal = {
-		tip = "Highest rank: "
+	_G.pg.base.gametip.text_goon_fight = {
+		tip = "Continue"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.index_propose_skin = {
-		tip = "Pledge Outfit "
+	_G.pg.base.gametip.ship_shipModMediator_choiseMaterial = {
+		tip = "Please select materials to use during limit break."
 	}
 end)()
 
@@ -41793,8 +43693,57 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.exercise_count_insufficient = {
-		tip = "<color=#92fc63>You don't have enough exercises.</color>"
+	_G.pg.base.gametip.pray_build_help = {
+		tip = {
+			{
+				info = "Event Description: \n"
+			},
+			{
+				info = "1. Focus your wishes upon one of the three permanent build categories — Light, Heavy, or Special builds — then choose one ship to wish for. (Ultra Rare ships can only appear in Heavy or Special builds.)"
+			},
+			{
+				info = "2. The acquisition rate of each rarity is the same in the Wishing Well as it is for normal building:"
+			},
+			{
+				info = "Light Ships: <color=#ffde38>Super Rare</color>: 7%, <color=#d797ff>Elite</color>: 12%, <color=#3dc6ff>Rare</color>: 26%, Common: 55%"
+			},
+			{
+				info = "Heavy Ships: <color=#ff5e39>Ultra Rare</color>: 1.2%, <color=#ffde38>Super Rare</color>: 7%, <color=#d797ff>Elite</color>: 12%, <color=#3dc6ff>Rare</color>: 51%, Common: 28.8%"
+			},
+			{
+				info = "Special Ships: <color=#ff5e39>Ultra Rare</color>: 1.2%, <color=#ffde38>Super Rare</color>: 7%, <color=#d797ff>Elite</color>: 12%, <color=#3dc6ff>Rare</color>: 51%, Common: 28.8%"
+			},
+			{
+				info = "3. You can see a list of all ships available for construction in the Wishing Well."
+			},
+			{
+				info = "4. You may choose two ships on which to focus your wishes. (You can only choose one Ultra Rare ship and any other Ultra Rare ship cannot be build in the Wishing Well.)"
+			},
+			{
+				info = "5. Only ships added to the normal building pool prior to March 26th, 2025 can hear your wishes."
+			},
+			{
+				info = "6. Ships that have an unlock condition cannot hear your wishes, and will not appear in the Wishing Well."
+			},
+			{
+				info = "7. The acquisition rate of each ship in the Wishing Well varies according to differences in rarity."
+			},
+			{
+				info = "<color=#ff5e39>Ultra Rare</color>: 1.2%, <color=#ffde38>Super Rare</color>: 2.0%, <color=#d797ff>Elite</color>: 2.5%, <color=#3dc6ff>Rare</color>: 2.5%, Common: 2.5%"
+			},
+			{
+				info = "8. Once you have chosen your two ships, you are ready to begin wishing."
+			},
+			{
+				info = "9. Once you start wishing, you cannot change your selections for the duration of the event."
+			},
+			{
+				info = "10. Wishing Well build costs are the same as ordinary builds, as are build durations, which can be skipped with a Quick Finisher."
+			},
+			{
+				info = "11. Wishing Well builds count toward the standard UR Exchange following the same rules as other standard build pools."
+			}
+		}
 	}
 end)()
 
@@ -41805,26 +43754,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200232 = {
-		tip = "Apple Pay is not available on this device"
+	_G.pg.base.gametip.blueprint_simulation_confirm_39903 = {
+		tip = "<size=28>Would you like to start a Battle Simulation? <color=#ff5c5c>Note: the Priority ship's stats and abilities may differ from its fully developed equivalent.</color>\nEquipped gear:<color=#92fc63>\nTwin 100mm (Type 98) AA Gun\nQuadruple 610mm Torpedo\nPrototype 40mm AA Gun (Type 5)</color></size>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.charge_level_limit = {
-		tip = "Level is too low."
+	_G.pg.base.gametip.friend_addblacklist_error = {
+		tip = "Failed to blacklist: "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_resourceSiteLayer_startError_limit = {
-		tip = "Requirements not met: <color=#92fc63>$1</color>"
+	_G.pg.base.gametip.box_account_del_success_content = {
+		tip = "Your account will be deleted in $1."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_backyardShipInfoMediator_error_noFood = {
-		tip = "You don't have enough snacks."
+	_G.pg.base.gametip.backyard_backyardGranaryLayer_full = {
+		tip = "<color=red>Restocking failed! Supplies are already full.</color>"
 	}
 end)()
 
@@ -41853,8 +43802,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.elite_condition_level = {
-		tip = "Average Level"
+	_G.pg.base.gametip.main_navalAcademyScene_class_upgrade_complete = {
+		tip = "$1 upgrade successful"
 	}
 end)()
 
@@ -41895,14 +43844,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.friend_max_count_1 = {
-		tip = "This person's friends list is full."
+	_G.pg.base.gametip.daily_level_quick_battle_label1 = {
+		tip = "Quick\nBattle x"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_300210 = {
-		tip = "ID authorization incomplete"
+	_G.pg.base.gametip.levelScene_escort_retreat = {
+		tip = "Would you like to retreat and end this Maritime Escort run?\nYour daily run will NOT be refunded.\nYou will still receive some rewards. "
 	}
 end)()
 
@@ -41925,14 +43874,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_exp = {
-		tip = "EXP"
+	_G.pg.base.gametip.common_compare_not_less_than = {
+		tip = "≥"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.trade_card_tips3 = {
-		tip = "Heads up, nya. \nThe Trade License you purchased will expire on $1, nya. \nYou can extend your license to continue receiving rewards every day, nya! \nCome visit my shop and see what's on offer, nya~"
+	_G.pg.base.gametip.equipment_destroyEquipments_error_noEquip = {
+		tip = "Gear does not exist."
 	}
 end)()
 
@@ -41961,73 +43910,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.daily_level_quick_battle_label1 = {
-		tip = "Quick\nBattle x"
+	_G.pg.base.gametip.guild_word_member = {
+		tip = "Members"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.index_rare3 = {
-		tip = "Rare"
+	_G.pg.base.gametip.desc_quick_play = {
+		tip = "Fast Forward"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_supply_help_tip = {
-		tip = {
-			{
-				info = "Supplies distributed by the Guild management. Contains the following items:"
-			},
-			{
-				info = "<color=#D797FFFF>Guild Tokens x30</color>"
-			},
-			{
-				info = "There is an additional chance of receiving the following items (all odds are calculated independently)"
-			},
-			{
-				info = "<color=#D797FFFF>Guild Tokens x10 (40.00% chance)</color>"
-			},
-			{
-				info = "<color=#D797FFFF>Guild Tokens x10 (10.00% chance)</color>"
-			},
-			{
-				info = "<color=#D797FFFF>Prototype Cores x10 (5.00% chance)</color>"
-			},
-			{
-				info = "<color=#D797FFFF>Gems (1.00% chance)</color>"
-			},
-			{
-				info = "<color=#D797FFFF>Prototype Gear Upgrade Part (0.10% chance)</color>"
-			}
-		}
+	_G.pg.base.gametip.word_special = {
+		tip = "Special"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.gametip_xiaotiancheng = {
-		tip = {
-			{
-				info = "Summary: During the Young Tactician's Learning Log event, you can earn Trust for Amagi-chan. She will upgrade from a Temporary Recruit to a full addition to your dock once you've earned enough Trust with her."
-			},
-			{
-				info = "1. For the duration of the event, you'll receive Trust for Amagi-chan by defeating Boss Fleets on any Campaign map after World 3, or on any of the event stages. You'll also unlock additional rewards as you accumulate Trust."
-			},
-			{
-				info = "2. Until you fully recruit Amagi-chan, you won't be able to give her a Promise Ring, retire her, or use her as Enhancement or Limit Break material."
-			},
-			{
-				info = "3. Your Trust reward for defeating the Boss Fleet will be doubled if Amagi-chan participates in the battle with the Boss Fleet and remains afloat until the end of the battle."
-			},
-			{
-				info = "4. 1,000 Trust is required to fully recruit Amagi-chan. If you do not fully recruit her before the event concludes, she will automatically leave your dock."
-			},
-			{
-				info = "5. One Trust Reward stage is unlocked each day up to March 15th"
-			},
-			{
-				info = "6. Amagi-chan cannot participate in any Operation Siren or Guild activities and you do not gain Trust from Operation Siren battles."
-			}
-		}
+	_G.pg.base.gametip.backyard_backyardGranaryLayer_noFood = {
+		tip = "Commander, there's nothing to eat~ We're starving!"
 	}
 end)()
 
@@ -42038,8 +43940,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_tip_quit = {
-		tip = "Are you sure you want to leave the guild?"
+	_G.pg.base.gametip.word_equipskin_cannon = {
+		tip = "Artillery "
 	}
 end)()
 
@@ -42050,20 +43952,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_79903 = {
-		tip = "<size=28>\nWould you like to start a Battle Simulation?\n(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)\nEquipment: <color=#92fc63>\nPrototype Triple 180mm B-1-P Model 1932 (Impr.) Main Gun Mount\n550mm Triple Torpedo Mount\nTwin 57mm/L60 Bofors Mle 1951 AA Gun Mount\n</color></size>"
+	_G.pg.base.gametip.lesson_endToLearn_error = {
+		tip = "Class failed: "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_mapbuff_tip = {
-		tip = "All enemies within this zone are strengthened."
+	_G.pg.base.gametip.number_8 = {
+		tip = "8"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.main_notificationLayer_quest_request = {
-		tip = " wants to be your friend. Would you like to accept their request?"
+	_G.pg.base.gametip.index_other = {
+		tip = "Misc"
 	}
 end)()
 
@@ -42086,8 +43988,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_special = {
-		tip = "Special"
+	_G.pg.base.gametip.backyard_theme_open_tip = {
+		tip = "To unlock:\nReach Commander lv. <color=#92fc63>$1</color>"
 	}
 end)()
 
@@ -42098,20 +44000,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_39907 = {
-		tip = "<size=28>\nWould you like to start a Battle Simulation?\n(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)\nEquipment: <color=#92fc63>\nPrototype Twin 410mm mod.A Main Gun Mount\nSingle 140mm Naval Gun\nTwin 40mm Bofors Type 5 AA Gun Mount</color></size>"
+	_G.pg.base.gametip.friend_max_count = {
+		tip = "Friends list <color=#92fc63>is full</color>! Unable to add friend."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.class_label_upgrading = {
-		tip = "Upgrading"
+	_G.pg.base.gametip.commander_talent_learned = {
+		tip = "Learned the following Talent: $1."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.number_8 = {
-		tip = "8"
+	_G.pg.base.gametip.blueprint_simulation_confirm_79903 = {
+		tip = "<size=28>\nWould you like to start a Battle Simulation?\n(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)\nEquipment: <color=#92fc63>\nPrototype Triple 180mm B-1-P Model 1932 (Impr.) Main Gun Mount\n550mm Triple Torpedo Mount\nTwin 57mm/L60 Bofors Mle 1951 AA Gun Mount\n</color></size>"
 	}
 end)()
 
@@ -42122,8 +44024,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_19904 = {
-		tip = "<size=28>\nWould you like to start a Battle Simulation?\n<color=#ff5c5c>Note: the Priority ship's stats and abilities may differ from her fully-developed equivalent.</color>\nEquipped gear:<color=#92fc63>\nPrototype Triple 406mm Mk6 Main Gun Mount\nF8F Bearcat\nTwin 127mm Mk 12 Dual-Purpose Gun Mount (Time Fuze)\n</color></size>"
+	_G.pg.base.gametip.word_mat = {
+		tip = "Carpet"
 	}
 end)()
 
@@ -42140,8 +44042,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_59901 = {
-		tip = "<size=28>Would you like to start a Battle Simulation?\nNote: the Priority ship's stats and abilities may differ from her fully-developed equivalent.\nEquipped gear:<color=#ff5c5c>\nPrototype Twin 130mm Model 1936 Main Gun Mount\n533mm Triple Torpedo Mount\nSingle 37mm 70-K AA Gun Mount</color></size>"
+	_G.pg.base.gametip.mail_get_oneclick = {
+		tip = "Batch Claim"
 	}
 end)()
 
@@ -42152,20 +44054,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tec_target_catchup_show_the_finished_version = {
-		tip = "Show completed catch-ups"
+	_G.pg.base.gametip.blueprint_simulation_confirm_49910 = {
+		tip = "<size=28>\nWould you like to start a Battle Simulation?\n(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)\nEquipment: <color=#92fc63>\nPrototype Quadruple 305mm SKC39 Main Gun Mount\nTwin 127mm KM40 Main Gun Mount\nPrototype 55mm Gerät 58 AA Gun Mount\n</color></size>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.friend_max_count = {
-		tip = "Friends list <color=#92fc63>is full</color>! Unable to add friend."
+	_G.pg.base.gametip.blueprint_simulation_confirm_79902 = {
+		tip = "<size=28>\nWould you like to start a Battle Simulation?\n(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)\nEquipment: <color=#92fc63>\nPrototype Carrier-Based La-9\nPrototype Carrier-Based La-9\nPrototype VIT-2 (Mode Change)</color></size>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.level_chapter_state_safety = {
-		tip = "<color=#92fc63>【Threat: Safe】</color>"
+	_G.pg.base.gametip.new_airi_error_code_100180 = {
+		tip = "The third party account is not bound with any game account"
 	}
 end)()
 
@@ -42176,8 +44078,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.formation_invalide = {
-		tip = "No available fleets. Unable to battle."
+	_G.pg.base.gametip.word_shipType_other = {
+		tip = "Misc"
 	}
 end)()
 
@@ -42200,39 +44102,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.link_link_help_tip = {
-		tip = {
-			{
-				info = " How to Play:\n"
-			},
-			{
-				info = "1. Once a day, after server reset at midnight, you will receive 1 San Diego Star minigame point."
-			},
-			{
-				info = "2. You will receive this point even if you didn't login during a particular day or didn't complete the minigame. You can earn all San Diego Stars in one day if you have 7 minigame points."
-			},
-			{
-				info = "3. The number of San Diego Stars you obtain depends on how many you've collected up to that point. The more you've collected, the more you'll receive."
-			},
-			{
-				info = "4. You play the minigame by drawing a line to connect 2 identical character tiles, which, if the conditions below are met, will clear them from the board."
-			},
-			{
-				info = "5. The line can only bend twice to reach the other tile. The connection can't be made if the line has to bend more than 2 times. The line can bend horizontally and vertically."
-			},
-			{
-				info = "6. Once you clear the board of all the tiles, you can receive a San Diego Star."
-			},
-			{
-				info = "7. Once you collect all 18 San Diego Stars from the minigame, you'll receive San Diego's retrofit item, the Sparkling Mic."
-			}
-		}
+	_G.pg.base.gametip.ship_remould_warning_702124 = {
+		tip = "<size=35>Retrofitting <color=#92fc63>$1</color> will change her\n<color=#92fc63>Main Gun (Light Cruiser)</color> gear slot into a\n<color=#92fc63>Main Gun (Destroyer )</color> gear slot.<color=#92fc63>\nGear in the <color=#92fc63>Main Gun</color> slot will be unequipped.\nAre you sure you want to continue?\n<material=underline c=#92fc63 event=clickDetail>Tap here for details.</material></color></size>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_49906 = {
-		tip = "<size=28>Would you like to start a Battle Simulation?\nNote: the Priority ship's stats and abilities may differ from her fully-developed equivalent.\nEquipped gear:<color=#ff5c5c>\nPrototype BF-109G\nJu-87C Dive Bomber\nJu-87 D-4</color></size>"
+	_G.pg.base.gametip.blueprint_simulation_confirm_49907 = {
+		tip = "<size=28>Would you like to start a Battle Simulation?\nNote: the Priority ship's stats and abilities may differ from her fully-developed equivalent.\nEquipped gear:<color=#ff5c5c>\nPrototype 406mm SK C/34 Main Gun Mount\nTwin 150mm TbtsK C/36 Main Gun Mount\nPrototype Quadruple 30mm AA Gun Mount</color></size>"
 	}
 end)()
 
@@ -42255,14 +44132,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.main_mailMediator_notingToTake = {
-		tip = "No rewards available."
+	_G.pg.base.gametip.backyard_backyardShipInfoMediator_error_noFood = {
+		tip = "You don't have enough snacks."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_29904 = {
-		tip = "<size=28>Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.\nEquipped gear:<color=#92fc63>\nPrototype Triple 234mm Main Gun (9.2\" MK XII)\nQuadruple 533mm Torpedo\nSextuple Bofors 40mm AA Gun</color></size>"
+	_G.pg.base.gametip.blueprint_simulation_confirm_49906 = {
+		tip = "<size=28>Would you like to start a Battle Simulation?\nNote: the Priority ship's stats and abilities may differ from her fully-developed equivalent.\nEquipped gear:<color=#ff5c5c>\nPrototype BF-109G\nJu-87C Dive Bomber\nJu-87 D-4</color></size>"
 	}
 end)()
 
@@ -42273,8 +44150,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.apply_permission_record_audio_tip2 = {
-		tip = "You have turned off Record permission, please confirm Record permission in the game settings menu."
+	_G.pg.base.gametip.level_ammo_empty = {
+		tip = "Ammo supplies. Ammo +$1. Ammo resupplies exhausted."
 	}
 end)()
 
@@ -42319,8 +44196,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.friend_send_msg_erro_tip = {
-		tip = "Player is offline. Unable to send message."
+	_G.pg.base.gametip.new_airi_error_code_100310 = {
+		tip = "Behavior Verification failed, please try again"
 	}
 end)()
 
@@ -42331,8 +44208,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_consume_carry_tips = {
-		tip = "未配置tip"
+	_G.pg.base.gametip.blueprint_simulation_confirm_29903 = {
+		tip = "<size=28>Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.\nEquipped gear:<color=#92fc63>\nPrototype Twin 234mm Main Gun (9.2\" MK XII)\nQuadruple 533mm Torpedo\nTwin 40mm Bofors STAAG</color></size>"
 	}
 end)()
 
@@ -42355,8 +44232,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_date = {
-		tip = "d"
+	_G.pg.base.gametip.area_shenyuan = {
+		tip = "Abyssal"
 	}
 end)()
 
@@ -42367,14 +44244,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.spweapon_tip_breakout_materal_check = {
-		tip = "Select the materials required for uncapping."
+	_G.pg.base.gametip.levelScene_oni_lose = {
+		tip = "Special Target has fled, capture failed!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100130 = {
-		tip = "Login failed, UID is banned"
+	_G.pg.base.gametip.login_game_banned = {
+		tip = "Account frozen. Please contact customer support."
 	}
 end)()
 
@@ -42391,104 +44268,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_create_error_nomoney = {
-		tip = "You don't have enough Gems!"
+	_G.pg.base.gametip.charge_items_title = {
+		tip = "Items received"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.show_fate_demand_count = {
-		tip = "Display number required for <color=#92fc63>Fate Simulation</color>."
+	_G.pg.base.gametip.medal_notice_2 = {
+		tip = "Display "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.area_shenyuan = {
-		tip = "Abyssal"
+	_G.pg.base.gametip.island_spoperation_item_2602_2 = {
+		tip = "Shepherd's Purse"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.player_changePlayerIcon_error = {
-		tip = "Failed to change secretary: "
+	_G.pg.base.gametip.new_airi_error_code_100306 = {
+		tip = "Verification code cannot be empty"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100803 = {
-		tip = "Callback URL exceeds its maximum characters"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_oni_lose = {
-		tip = "Special Target has fled, capture failed!"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tips_shrine_buff = {
-		tip = "You spent 5 Coins and received a blessing"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_destroy_tip = {
-		tip = "META ships cannot be retired. "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.index_spweapon = {
-		tip = "Unique Module"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_game_banned = {
-		tip = "Account frozen. Please contact customer support."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.channel_name_2 = {
-		tip = "World"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_resume_manoeuvre_count = {
-		tip = "Exercises: "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.pgs_unbind = {
-		tip = "Unbind PGS Account"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_live2dfiles_checking_title = {
-		tip = "Verifying..."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.switch_to_shop_tip_noPos = {
-		tip = "Please sort or expand your storage!"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.map_event_memory_collected = {
-		tip = "Successfully unlocked hidden story <color=#92fc63>$1</color>!"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.map_event_save_nekone = {
-		tip = "Successfully Rescued <color=#92fc63>Nekone</color>"
+	_G.pg.base.gametip.charge_month_card_title = {
+		tip = "Extra bonus gems $1 now and items every day for a month"
 	}
 end)()
 
@@ -42675,6 +44480,78 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.tips_shrine_buff = {
+		tip = "You spent 5 Coins and received a blessing"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_destroy_tip = {
+		tip = "META ships cannot be retired. "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_warning_310014 = {
+		tip = "Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed.\n<color=#92fc63>Secondary Weapon</color> will become <color=#92fc63>Water Detection</color> slot <color=#92fc63><material=underline c=#92fc63 event=clickDetail>(Info)</material></color>.\n<color=#92fc63>Your current Secondary Weapon</color> will be unequipped.\nWould you like to continue?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_energy_mid_desc = {
+		tip = "Normal\nWill not receive Affinity during attacks"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_rename_time_tip = {
+		tip = "Please wait another $1 days before naming this exclusive ship!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.friend_resume_manoeuvre_count = {
+		tip = "Exercises: "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.pgs_unbind = {
+		tip = "Unbind PGS Account"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.attribute_expend = {
+		tip = "OIL "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.collection_fetched = {
+		tip = "This has already been collected!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_result_dead_score = {
+		tip = "Casualties * $1:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_sub_weapons = {
+		tip = "Auxiliary Weapon"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.collection_award_ship = {
+		tip = "$1 research complete! Now in construction queue."
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.setting_resdownload_title_manga = {
 		tip = "Update Comics"
 	}
@@ -42693,74 +44570,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.anniversary_task_title_10 = {
-		tip = "As I slowly opened up to her, she painstakingly etched my story into her picture book."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_result_base_score = {
-		tip = "Stage cleared:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_result_total_score = {
-		tip = "Total Score:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_300220 = {
-		tip = "ID authorization outdated"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.npc_strength_tip = {
-		tip = "If this Temporary Recruit leaves the port, any items or materials used to Enhance her will NOT be refunded. Continue anyway?"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.sham_my_assist_ship_level_limit = {
-		tip = "Support ship must be at least lv. $1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_player_is_friend_tip = {
-		tip = "You are already friends with this player."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_shipUpgradeLayer2_mod_advanced_tip = {
-		tip = "You have selected a <color=#92fc63>lv. 2 or higher</color> ship to use as an enhancing material. Continue enhancing?"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["airi_error_code_ 100710"] = {
-		tip = "TW Failed to authorize, unable to unbind"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_talent_learned = {
-		tip = "Learned the following Talent: $1."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_sub_weapons = {
-		tip = "Auxiliary Weapon"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_facility = {
-		tip = "设施"
+	_G.pg.base.gametip.dont_add_self = {
+		tip = "Commander, you can't friend yourself!"
 	}
 end)()
 
@@ -42783,6 +44594,72 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.destination_can_not_reach = {
+		tip = "Unable to reach target location."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.map_event_stop_battle_tip = {
+		tip = "<color=#92fc63>Defeat designated enemies</color> to remove the Restricted status. "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.friend_player_is_friend_tip = {
+		tip = "You are already friends with this player."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_shipUpgradeLayer2_mod_advanced_tip = {
+		tip = "You have selected a <color=#92fc63>lv. 2 or higher</color> ship to use as an enhancing material. Continue enhancing?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["airi_error_code_ 100710"] = {
+		tip = "TW Failed to authorize, unable to unbind"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.resourceSite_collectResource_error = {
+		tip = "Failed to retrieve resource point: "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_400100 = {
+		tip = "The Nintendo account has been bound to other Yostar account"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.build_ship_quickly_buy_tool = {
+		tip = "Spend <color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color> Gems to buy Quick Finisher x<color=$3>$2</color>?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_shipState_study = {
+		tip = "She's currently in class!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_stop_success = {
+		tip = "Successfully suspended development."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_equip_to_fleet_erro = {
+		tip = "Could not assign the following Meowfficer: $1."
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.autofight_tip_bigworld_suspend = {
 		tip = "Auto Search has been disabled because there are no more visible exploration targets."
 	}
@@ -42801,8 +44678,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.formation_switch_tip = {
-		tip = "Current fleet cannot be formed. Auto switching to <color=#92fc63>$1</color>."
+	_G.pg.base.gametip.return_award_bind_erro = {
+		tip = "UID entry failed $1."
 	}
 end)()
 
@@ -42835,8 +44712,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.extra_chapter_locked_tip = {
-		tip = "Pass Hard Mode to unlock EX Mode"
+	_G.pg.base.gametip.vote_vote_group = {
+		tip = "Group $1"
 	}
 end)()
 
@@ -42847,26 +44724,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.resourceSite_collectResource_error = {
-		tip = "Failed to retrieve resource point: "
+	_G.pg.base.gametip.backyard_backyardShipInfoMediator_ok_unlock = {
+		tip = "Unlocked!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_equip_exchange_tip = {
-		tip = "Take <color=#a0ff40>$1</color>'s <color=#a0ff40>$2</color> and equip it to <color=#a0ff40>$3</color>?"
+	_G.pg.base.gametip.commander_ability_replace_warning = {
+		tip = "The above Talent will be replaced by the one the Meowfficer is about to learn. Would you like to continue? "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.pt_total_count = {
-		tip = "In possession $1"
+	_G.pg.base.gametip.charge_ship_bag_max = {
+		tip = "Your dock has been fully expanded."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_angry = {
-		tip = "<color=#E40006>Angry</color>"
+	_G.pg.base.gametip.tec_catchup_6 = {
+		tip = "Series 6"
 	}
 end)()
 
@@ -42893,8 +44770,24 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.spweapon_ui_need_resource = {
-		tip = "Required materials:"
+	_G.pg.base.gametip.newplayer_help_tip = {
+		tip = {
+			{
+				info = "Rookie Missions Info:"
+			},
+			{
+				info = "With the addition of PR Series 3, a new set of\nDevelopment Missions aimed at new players has been added.\nUpon reaching Level 30, the Development tab will be\nunlocked in the Rookie Missions tab.\n Tap on the tab to complete Development-related missions."
+			},
+			{
+				info = "After completing the Development Missions, you will\nunlock the ability to research PR Series 1 ships and\nearn Combat Data Packs that can accelerate the\nresearch process.\nCombat Data Packs can be converted into EXP that\ncounts towards Combat Data Collection."
+			},
+			{
+				info = "Details:"
+			},
+			{
+				info = "1. These missions have unlimited duration.\n2. Complete all beginner, intermediate, and advanced\nmissions to unlock challenge missions.\n3. Complete all challenge missions to advance to the next phase.\n4. After completing all missions, the Rookie Missions tab will disappear."
+			}
+		}
 	}
 end)()
 
@@ -42911,20 +44804,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.levelScene_select_SP_OP = {
-		tip = "Select Item"
+	_G.pg.base.gametip.commander_select_matiral_erro = {
+		tip = "<size=22>This Meowfficer is at the max level; you can only Enhance its Skill with Meowfficers of the same type.</size>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_backyardShipInfoMediator_ok_unlock = {
-		tip = "Unlocked!"
+	_G.pg.base.gametip.backyard_extendArea_tip = {
+		tip = "Required: Expansion License:||$1|| ||You have: ||$2||"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.vote_final_title2 = {
-		tip = "Event Rewards"
+	_G.pg.base.gametip.world_resource_tip_2 = {
+		tip = "未配置tip"
 	}
 end)()
 
@@ -42941,8 +44834,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_build_pool_tip = {
-		tip = "Do you wish to use $2 $1(s) to train this Meowfficer? "
+	_G.pg.base.gametip.spweapon_tip_view = {
+		tip = "<material=underline event=displayDetail>View Details</material>"
 	}
 end)()
 
@@ -42983,20 +44876,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_cant_buy_tip = {
-		tip = "Unable to purchase!"
+	_G.pg.base.gametip.world_ship_repair_2 = {
+		tip = "Conducting complete repairs on $1 costs: \n$2 <icon name=world_money w=0.7 h=0.7/>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_play_erro = {
-		tip = "Failed to Enhance $1."
+	_G.pg.base.gametip.technology_start_up = {
+		tip = "Research started."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_warning_520014 = {
-		tip = "Completing the retrofit will change the ship's designation into:\nGuided-Missile Destroyer (Vanguard Mode)\nHer stats and combat performance may change significantly.\nProceed with retrofit?"
+	_G.pg.base.gametip.commander_talent_learn_erro = {
+		tip = "Failed to learn the following Talent: $1."
 	}
 end)()
 
@@ -43013,8 +44906,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_extendArea_tip = {
-		tip = "Required: Expansion License:||$1|| ||You have: ||$2||"
+	_G.pg.base.gametip.ship_remould_warning_520014 = {
+		tip = "Completing the retrofit will change the ship's designation into:\nGuided-Missile Destroyer (Vanguard Mode)\nHer stats and combat performance may change significantly.\nProceed with retrofit?"
 	}
 end)()
 
@@ -43025,8 +44918,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.spweapon_ui_autoselect = {
-		tip = "Auto-Select"
+	_G.pg.base.gametip.resource_verify_fail = {
+		tip = "Game resource restoration complete. Restart the game and begin updating. Tap confirm to close the game. $1"
 	}
 end)()
 
@@ -43049,20 +44942,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_ship_repair_2 = {
-		tip = "Conducting complete repairs on $1 costs: \n$2 <icon name=world_money w=0.7 h=0.7/>"
+	_G.pg.base.gametip.mission_complete = {
+		tip = "Mission\nComplete"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.intimacy_desc_7_detail = {
-		tip = "Love will guide the way, our hearts bound by an eternal promise!\nWe share our smile, our words unspoken.\nOur love will be one of respect, trust, and confidence forever.\nFrom this day forth, our fates are bound together.\nPromise date: $1"
+	_G.pg.base.gametip.res_wifi_tip = {
+		tip = "You are currently not on a Wi-Fi network. Downloading may use up a large amount of cellular data. Continue with download anyway?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.mail = {
-		tip = "Mail\nTips"
+	_G.pg.base.gametip.new_airi_error_code_200380 = {
+		tip = "0"
 	}
 end)()
 
@@ -43073,20 +44966,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.buleprint_need_level_tip = {
-		tip = "The corresponding ship will be unlocked at Level $1."
+	_G.pg.base.gametip.technology_stop_tip = {
+		tip = "Would you like to suspend research? The items and resources you've spent will not be refunded."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dont_remind_session = {
-		tip = "Notified"
+	_G.pg.base.gametip.ai_change_2 = {
+		tip = "The Submarine Fleet is now in Attack Mode."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.err_resloveequip_nochoice = {
-		tip = "You have not selected any gear."
+	_G.pg.base.gametip.HelenaCoreActivity_subtitle_1 = {
+		tip = "Memories in Echo"
 	}
 end)()
 
@@ -43133,12 +45026,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.help_newyear_feast = {
-		tip = {
-			{
-				info = "- Summary:\nDuring this event, you can enjoy a handful of minigames and earn Stamps, which can be exchanged for Kinu's skin - \"New Year's Blade Demon.\"\n\nTo receive a Stamp, you first need to have a Ticket, which you can get every day by logging in during the event period.\n\n- How to Get Stamps and Tickets You will recieve 1 Ticket a day when you login during the event period.\n\nIf you don't login for several days during the event period, you will receive all the Tickets you would have gotten up to that point at the next point you login.\n\n- About the Minigame By tapping the New Year Challenge button, you'll be taken to another screen where you can play Kinu's New Year Training.\n\nWhen you clear this minigame while in possession of a Ticket, you'll receive 1 Stamp as well as 2 Prayers at the Shrine.\n\nOnce you've collected 7 Stamps, you can tap the Check In button on the right to exchange them for Kinu's skin.\n\nOnce you've made 7 Prayers at the Shrine, you can claim the New Year's Invitation (2019) from the corresponding event banner.\n\nNote: While you can still play the minigame without a Ticket, you will not receive any rewards from it if you do so.\nYou may also quit the minigame at any time without losing a Ticket, but you will not receive rewards from it either."
-			}
-		}
+	_G.pg.base.gametip.anniversary_task_title_5 = {
+		tip = "Though the road ahead of me will be treacherous, there is only one direction that I can go now."
 	}
 end)()
 
@@ -43175,8 +45064,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_commit_tip = {
-		tip = "$1 will be spent to complete the development mission. Would you like to proceed?"
+	_G.pg.base.gametip.anniversary_task_title_10 = {
+		tip = "As I slowly opened up to her, she painstakingly etched my story into her picture book."
 	}
 end)()
 
@@ -43187,14 +45076,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.complete = {
-		tip = "Commi-\nssion"
+	_G.pg.base.gametip.ship_remould_warning_521044 = {
+		tip = "Completing the retrofit will change the ship's designation into:\nGuided-Missile Destroyer (Main Fleet Mode)\nHer stats and combat performance may change significantly.\nProceed with retrofit?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.confirm_app_exit = {
-		tip = "Are you sure you want to quit the game?"
+	_G.pg.base.gametip.err_resloveequip_nochoice = {
+		tip = "You have not selected any gear."
 	}
 end)()
 
@@ -43235,8 +45124,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_levelScene_0Gold = {
-		tip = "Coins Production is 0"
+	_G.pg.base.gametip.mail = {
+		tip = "Mail\nTips"
 	}
 end)()
 
@@ -43247,8 +45136,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ai_change_2 = {
-		tip = "The Submarine Fleet is now in Attack Mode."
+	_G.pg.base.gametip.ship_unequipFromShip_error_noEquip = {
+		tip = "No gear in this slot."
 	}
 end)()
 
@@ -43271,8 +45160,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.text_shop_enoughRes_tip = {
-		tip = "Commander, you can't hold any more Coins!"
+	_G.pg.base.gametip.blueprint_destory_tip = {
+		tip = "You can not retire Priority ships."
 	}
 end)()
 
@@ -43283,14 +45172,39 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.idle = {
-		tip = "Pause"
+	_G.pg.base.gametip.goldship_help_tip = {
+		tip = {
+			{
+				info = "- How to Play:"
+			},
+			{
+				info = "1. You receive points by ramming into the Manjuus transporting coins."
+			},
+			{
+				info = "2. You can start a combo and gain more points by repeatedly ramming into these Manjuus."
+			},
+			{
+				info = "3. If you ram into a Manjuu with explosives, your combo is reset."
+			},
+			{
+				info = "4. You will receive 1 Proof of Veterancy if you reach a score of 10 points or more."
+			},
+			{
+				info = "5. Once you collect all 7 Proofs of Veterancy, you will receive the item required to retrofit Warspite – The Warrior's Prowess."
+			},
+			{
+				info = "6. You will not receive any rewards if you retreat during the minigame."
+			},
+			{
+				info = "7. The minigame ends once the timer hits 0."
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.refresh_shopStreet_ok = {
-		tip = "Manual refresh complete!"
+	_G.pg.base.gametip.guild_guildgold_no_enough_for_battle = {
+		tip = "There are not enough Guild Funds to commence a Guild Operation."
 	}
 end)()
 
@@ -43313,14 +45227,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.touch_body = {
-		tip = "Interact"
+	_G.pg.base.gametip.intimacy_desc_4_detail = {
+		tip = "$1 is so happy and only wants to be with you!\n<color=#92fc63><size=18>All stats (except Speed) +3%</size></color>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_unequipFromShip_error_noEquip = {
-		tip = "No gear in this slot."
+	_G.pg.base.gametip.commander_acquire_erro = {
+		tip = "The following Meowfficer could not be obtained: $1."
 	}
 end)()
 
@@ -43337,14 +45251,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_instruction_port_goods_locked = {
-		tip = "Area Capture Progress"
+	_G.pg.base.gametip.player_summary_from = {
+		tip = "Obtained from:"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.collect_chapter_is_activation = {
-		tip = "Your are on a mission, do you want to retreat?"
+	_G.pg.base.gametip.player_summary_data = {
+		tip = "Obtained on:"
 	}
 end)()
 
@@ -43377,33 +45291,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.goldship_help_tip = {
-		tip = {
-			{
-				info = "- How to Play:"
-			},
-			{
-				info = "1. You receive points by ramming into the Manjuus transporting coins."
-			},
-			{
-				info = "2. You can start a combo and gain more points by repeatedly ramming into these Manjuus."
-			},
-			{
-				info = "3. If you ram into a Manjuu with explosives, your combo is reset."
-			},
-			{
-				info = "4. You will receive 1 Proof of Veterancy if you reach a score of 10 points or more."
-			},
-			{
-				info = "5. Once you collect all 7 Proofs of Veterancy, you will receive the item required to retrofit Warspite – The Warrior's Prowess."
-			},
-			{
-				info = "6. You will not receive any rewards if you retreat during the minigame."
-			},
-			{
-				info = "7. The minigame ends once the timer hits 0."
-			}
-		}
+	_G.pg.base.gametip.backyard_backyardScene_quest_saveFurniture = {
+		tip = "<color=#92fc63>Save</color> current settings?"
 	}
 end)()
 
@@ -43508,8 +45397,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.levelScene_chapter_open_count_down = {
-		tip = "Open time:"
+	_G.pg.base.gametip.word_soundfiles_download = {
+		tip = "Start Download"
 	}
 end)()
 
@@ -43520,8 +45409,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_reset_talent_success = {
-		tip = "Talents have been reset."
+	_G.pg.base.gametip.title_item_ways = {
+		tip = "<color=#92fc63>$1</color> can be obtained through the following methods "
 	}
 end)()
 
@@ -43538,8 +45427,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.player_summary_from = {
-		tip = "Obtained from:"
+	_G.pg.base.gametip.spweapon_ui_need_resource = {
+		tip = "Required materials:"
 	}
 end)()
 
@@ -43568,126 +45457,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_select_matiral_erro = {
-		tip = "<size=22>This Meowfficer is at the max level; you can only Enhance its Skill with Meowfficers of the same type.</size>"
+	_G.pg.base.gametip.apply_permission_camera_tip1 = {
+		tip = "To use AR recording game feature, need to grant permission to access recording function."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_material_is_rarity = {
-		tip = "You have selected an SR Meowfficer. Would you like to continue?"
+	_G.pg.base.gametip.world_map_not_open = {
+		tip = "Zone is unavailable."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200141 = {
-		tip = "Order creation failed: Purchase currency is not supported"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_backyardScene_quest_saveFurniture = {
-		tip = "<color=#92fc63>Save</color> current settings?"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_shipInfoScene_reinfomation = {
-		tip = "Limit Break"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.vote_lable_rearch = {
-		tip = "Completed"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_shipType_other = {
-		tip = "Misc"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_expAdd = {
-		tip = "EXP +$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_manage_reach = {
-		tip = "Completed"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.newplayer_help_tip = {
-		tip = {
-			{
-				info = "Rookie Missions Info:"
-			},
-			{
-				info = "With the addition of PR Series 3, a new set of\nDevelopment Missions aimed at new players has been added.\nUpon reaching Level 30, the Development tab will be\nunlocked in the Rookie Missions tab.\n Tap on the tab to complete Development-related missions."
-			},
-			{
-				info = "After completing the Development Missions, you will\nunlock the ability to research PR Series 1 ships and\nearn Combat Data Packs that can accelerate the\nresearch process.\nCombat Data Packs can be converted into EXP that\ncounts towards Combat Data Collection."
-			},
-			{
-				info = "Details:"
-			},
-			{
-				info = "1. These missions have unlimited duration.\n2. Complete all beginner, intermediate, and advanced\nmissions to unlock challenge missions.\n3. Complete all challenge missions to advance to the next phase.\n4. After completing all missions, the Rookie Missions tab will disappear."
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_mod_no_addition_tip = {
-		tip = "Enhancing <color=#92fc63>has no buffs</color>. Continue?"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.archives_whether_to_retreat = {
-		tip = "Are you sure you want to <color=#92fc63>retreat</color>? Your Data Key will not be refunded if you retreat."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.newplayer_notice_4 = {
-		tip = "Receive Portland after claiming victory"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.monoply_drop_ship_step = {
-		tip = "Complete $1 more laps to earn the limited outfit, \"Style of the East.\""
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_voice_name_feeling5 = {
-		tip = "Love"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_notice_not_open_tip = {
-		tip = "Unlocks after completing the previous set of missions"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_shop_limit1 = {
-		tip = "Weekly Limited"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_attr_air = {
-		tip = "AVI "
+	_G.pg.base.gametip.world_daily_task_none_2 = {
+		tip = ""
 	}
 end)()
 
@@ -43774,8 +45557,98 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_ability_replace_warning = {
-		tip = "The above Talent will be replaced by the one the Meowfficer is about to learn. Would you like to continue? "
+	_G.pg.base.gametip.word_shipInfoScene_reinfomation = {
+		tip = "Limit Break"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.vote_lable_rearch = {
+		tip = "Completed"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.formation_switch_tip = {
+		tip = "Current fleet cannot be formed. Auto switching to <color=#92fc63>$1</color>."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.anniversary_task_title_7 = {
+		tip = "But I believe that the light of dawn will not abandon me. I know that I will be able to find my way to your side."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_manage_reach = {
+		tip = "Completed"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_rename_coldtime_tip = {
+		tip = "You can only change a Meowfficer's name once every 24 hours."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_mod_no_addition_tip = {
+		tip = "Enhancing <color=#92fc63>has no buffs</color>. Continue?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.archives_whether_to_retreat = {
+		tip = "Are you sure you want to <color=#92fc63>retreat</color>? Your Data Key will not be refunded if you retreat."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_main_tip_2310 = {
+		tip = "Complete Cruise Missions between 10/1-11/30 to receive <color=#854748>Princeton META</color> and other rewards!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.amercian_notice_3 = {
+		tip = "Period：2019.2.21~3.20"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_voice_name_feeling5 = {
+		tip = "Love"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spece_illegal_tip = {
+		tip = "Cannot uses spaces"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_shop_limit1 = {
+		tip = "Weekly Limited"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.npc_strength_tip = {
+		tip = "If this Temporary Recruit leaves the port, any items or materials used to Enhance her will NOT be refunded. Continue anyway?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_resourceSiteMediator_shipState_fight = {
+		tip = "She's currently <color=#92fc63>in battle</color>!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_trade_bag_full_label = {
+		tip = "Cannot complete purchase; Warehouse space is insufficient"
 	}
 end)()
 
@@ -43792,20 +45665,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_member_max_count = {
-		tip = "The guild is full!"
+	_G.pg.base.gametip.sham_ship_equip_forbid_2 = {
+		tip = "You will be unable to change ships or gear after you begin. Are you sure you want to continue?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.destination_can_not_reach = {
-		tip = "Unable to reach target location."
+	_G.pg.base.gametip.player_changePlayerName_ok = {
+		tip = "Name changed!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_rename_coldtime_tip = {
-		tip = "You can only change a Meowfficer's name once every 24 hours."
+	_G.pg.base.gametip.map_event_save_nekone = {
+		tip = "Successfully Rescued <color=#92fc63>Nekone</color>"
 	}
 end)()
 
@@ -43828,14 +45701,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_equip_to_fleet_erro = {
-		tip = "Could not assign the following Meowfficer: $1."
+	_G.pg.base.gametip.backyard_extendArea_ok = {
+		tip = "Dorm expanded!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.battlepass_main_tip_2310 = {
-		tip = "Complete Cruise Missions between 10/1-11/30 to receive <color=#854748>Princeton META</color> and other rewards!"
+	_G.pg.base.gametip.school_title_dajiangtang = {
+		tip = "Lecture Hall "
 	}
 end)()
 
@@ -43852,20 +45725,92 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_shipNation_yumia = {
-		tip = "Atelier Yumia"
+	_G.pg.base.gametip.npcfriendly_count = {
+		tip = "Target Affection:"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_move_button = {
-		tip = "Batch Move"
+	_G.pg.base.gametip.secretary_unlock4 = {
+		tip = "Clear stage 9-4 \nto unlock "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_preCombatLayer_save_confirm = {
-		tip = "Save this fleet formation?"
+	_G.pg.base.gametip.help_monopoly = {
+		tip = {
+			{
+				info = "Rules:"
+			},
+			{
+				info = "1. Tapping the dice on the bottom right corner of the screen \nwill consume 1 Die, and you will be able to move once on \nthe board；"
+			},
+			{
+				info = "2. For every 8 Dice you use, you will receive a New Year's \nGift"
+			},
+			{
+				info = "3. The first 7 New Year's Gifts are special and contain a \nbigger reward, the 8th onward will contain regular rewards"
+			},
+			{
+				info = "4. During the event, players will receive 4 additional Dice \neach day. Dice can also be acquired through the \"An Shan's \nColoring Book\" and \"Fu Shun's Great Adventure\" events；"
+			},
+			{
+				info = "5. Clearing the board 10 times and reaching the starting \npoint for the 11th time will reward you with Kimberly's skin \n- \"Style of the East\"；"
+			},
+			{
+				info = "6. All tiles on the board have various effects. In addition, \npassing the starting point will reward you with a small \namount of Coins；"
+			},
+			{
+				info = "       : You will get a small amount of Coins；",
+				icon = {
+					path = "jinbi",
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					posX = 0
+				}
+			},
+			{
+				info = "      ：You will acquire a small amount of Oil；",
+				icon = {
+					path = "shiyou",
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					posX = 0
+				}
+			},
+			{
+				info = "      ：A random Chance Event will occur；",
+				icon = {
+					path = "minyun",
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					posX = 0
+				}
+			},
+			{
+				info = "      ：You will acquire a random item；",
+				icon = {
+					path = "daoju",
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					posX = 0
+				}
+			},
+			{
+				info = "      ：Random movement event；",
+				icon = {
+					path = "teshu",
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					posX = 0
+				}
+			}
+		}
 	}
 end)()
 
@@ -43876,14 +45821,18 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_getMailList_error_noNewMail = {
-		tip = "No new mail."
+	_G.pg.base.gametip.levelScene_loop_help_tip = {
+		tip = {
+			{
+				info = "Upon reaching 100% completion for a given stage, you may choose to enable <color=#92fc63>Clearing Mode</color> for it.\n\nEnabling Clearing Mode affects a stage in the following ways: \n\n1. A maximum Fuel cost limit is added. If the combined Fuel cost of entering a battle with your surface fleets and submarine fleets would exceed this limit, your Fuel cost is automatically reduced to the limit's maximum. This limit is only active while Clearing Mode is enabled.\n2. On Hard Mode stages, enemy escort fleets <color=#92fc63>will not appear</color>.\n3. On Event stages, some changes will be made to the configurations of enemy fleets.\n4. On event stages, <color=#92fc63>movement restrictions</color> will be lifted, allowing you to move your fleets freely.\n5. On normal stages, <color=#92fc63>ambushes and air raids will no longer occur</color>.\n6. <color=#92fc63>Fleet Formation Lock</color> will be enabled.\n7. <color=#92fc63>Auto-Search Mode</color> will be enabled.\n\n <color=#92fc63>Auto-Search Mode</color> Details:\n1. <color=#92fc63>Auto-Search Mode</color> can only be enabled in Clearing Mode, and will be automatically activated the first time you enter a stage in Clearing Mode.\n2.When Auto-Search Mode is enabled, <color=#92fc63>Auto Combat</color> and <color=#92fc63>Fleet Lock</color> will automatically be enabled as well. Auto Submarine will not be automatically enabled and depends on your personal settings.\n3.After enabling Auto-Search, you may change 4 settings on the fleet selection interface. The settings are as follows:①<color=#92fc63>Escorts Only</color>: This fleet will only engage escort fleets. When set, the other fleet will automatically be set to engage the enemy boss fleet.\n②<color=#92fc63>Flagship Only</color>: When the enemy flagship fleet spawns, this fleet will automatically move to engage it. When set, the other fleet will automatically be set to engage enemy escort fleets.\n③<color=#92fc63>All Enemies</color>: This fleet will engage enemy escort fleets until the flagship fleet spawns, then engage the enemy flagship. When set, the other fleet will automatically be set to standby.\n④<color=#92fc63>Standby</color>: This fleet will not be used to engage enemies. When set, the other fleet will automatically be set to engage all enemies.\n When Auto-Search is enabled, if there is an <color=#92fc63>Elite Enemy</color> present on the battlefield, that fleet will be prioritized. If there is no Elite Enemy present, your fleets will attempt to engage the <color=#92fc63>closest available enemy</color>. When the enemy flagship fleet appears, your fleets will prioritize attacking the <color=#92fc63>enemy flagship</color>."
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.map_event_stop_battle_tip = {
-		tip = "<color=#92fc63>Defeat designated enemies</color> to remove the Restricted status. "
+	_G.pg.base.gametip.word_preview = {
+		tip = "Preview"
 	}
 end)()
 
@@ -43936,8 +45885,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tag_level_bomb = {
-		tip = "英系轰炸"
+	_G.pg.base.gametip.level_scene_title_word_5 = {
+		tip = "Rec. ACV:"
 	}
 end)()
 
@@ -43948,8 +45897,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.secretary_unlock4 = {
-		tip = "Clear stage 9-4 \nto unlock "
+	_G.pg.base.gametip.ship_buildSingleShip = {
+		tip = "Spend <color=#92fc63>$1 Gems</color> to receive <color=#92fc63>1 high performance ships</color>?"
 	}
 end)()
 
@@ -43966,14 +45915,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.read_the_user_agreement = {
-		tip = "Please scroll to the bottom of the Terms of Service first."
+	_G.pg.base.gametip.blueprint_simulation_confirm = {
+		tip = "Would you like to start a Battle Simulation?<color=#ff5c5c> Note:the ship's stats and abilities may differ from its fully developed equivalent.</color>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.medal_notice_2 = {
-		tip = "Display "
+	_G.pg.base.gametip.blueprint_simulation_confirm_99901 = {
+		tip = "<size=28>Would you like to start a Battle Simulation? <color=#ff5c5c>Note: the Priority ship's stats and abilities may differ from its fully developed equivalent.</color>\nEquipped gear:<color=#92fc63>\nQuadruple 380mm Main Gun (Mle 1935)\nTriple 152mm Main Gun (Mle 1930)\nTwin 37mm AA Gun (Mle 1936)</color></size>"
 	}
 end)()
 
@@ -43996,14 +45945,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.level_scene_title_word_1 = {
-		tip = "Recon value:"
+	_G.pg.base.gametip.blueprint_simulation_confirm_19903 = {
+		tip = "<size=28>Would you like to start a Battle Simulation?\nNote: the Priority ship's stats and abilities may differ from her fully-developed equivalent.\nEquipped gear:<color=#ff5c5c>\nTriple 203mm Mk 15 Main Gun Mount\n533mm Quadruple Torpedo Mount Mk 17\nQuadruple 28mm \"Chicago Piano\" AA Gun Mount</color></size>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.level_scene_title_word_5 = {
-		tip = "Rec. ACV:"
+	_G.pg.base.gametip.blueprint_simulation_confirm_39905 = {
+		tip = "<size=28>Would you like to start a Battle Simulation?\nNote: the Priority ship's stats and abilities may differ from her fully-developed equivalent.\nEquipped gear:<color=#ff5c5c>\nPrototype Saiun Kai\nPrototype Tenrai\nPrototype Saiun Kai</color></size>"
 	}
 end)()
 
@@ -44038,8 +45987,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.levelScene_chapter_unlock_tip = {
-		tip = "Reach Commander lv. <color=#92fc63>$1</color> to unlock this chapter."
+	_G.pg.base.gametip.blueprint_simulation_confirm_69901 = {
+		tip = "<size=28>Would you like to start a Battle Simulation?\nNote: the Priority ship's stats and abilities may differ from her fully-developed equivalent.\nEquipped gear:<color=#ff5c5c>\nPrototype Triple 406mm Model 1940 Main Gun Mount\nTriple 152mm Model 1934 Main Gun Mount\nPrototype Twin 90mm High Angle Gun Mount</color></size>"
 	}
 end)()
 
@@ -44056,14 +46005,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_19901 = {
-		tip = "<size=28>Would you like to start a Battle Simulation?<color=#ff5c5c> Note: the ship's stats and abilities may differ from its fully developed equivalent.</color>\nEquipped gear:<color=#92fc63>\nPrototype Triple 152mm Main Gun (DP MK17)\nPrototype Triple 152mm Main Gun (DP MK17)\nQuadruple 40mm Bofors Gun</color></size>"
+	_G.pg.base.gametip.blueprint_simulation_confirm_79901 = {
+		tip = "<size=28>Would you like to start a Battle Simulation?\nNote: the Priority ship's stats and abilities may differ from her fully-developed equivalent.\nEquipped gear:<color=#ff5c5c>\nPrototype Su-2\nPrototype Su-2\nPrototype VIT-2 (VK-107)</color></size>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_49902 = {
-		tip = "<size=28>Would you like to start a Battle Simulation? <color=#ff5c5c>Note: the Priority ship's stats and abilities may differ from its fully developed equivalent.</color>\nEquipped gear:<color=#92fc63>\nPrototype Twin 406mm Main Gun (SK C/34)\nTwin 150mm Main Gun (TbtsK C/36)\nTwin 105mm AA Gun (SK C)</color></size>"
+	_G.pg.base.gametip.elite_condition_reload = {
+		tip = "Total RLD"
 	}
 end)()
 
@@ -44080,14 +46029,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_49904 = {
-		tip = "<size=28>Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.\nEquipped gear:<color=#92fc63>\nPrototype Triple 305mm Main Gun (SK C/39) \nQuadruple 533mm Magnetic Torpedo\nTwin 105mm AA Gun (SK C)</color></size>"
+	_G.pg.base.gametip.blueprint_simulation_confirm_69902 = {
+		tip = "<size=28>\nWould you like to start a Battle Simulation?\n(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)\nEquipment: <color=#92fc63>\nPrototype Triple 254mm Model 1939 Main Gun Mount\nPrototype Triple 152mm Model 1936 Main Gun Mount\nPrototype Twin 90mm Model 1939 High Angle Gun</color></size>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_19903 = {
-		tip = "<size=28>Would you like to start a Battle Simulation?\nNote: the Priority ship's stats and abilities may differ from her fully-developed equivalent.\nEquipped gear:<color=#ff5c5c>\nTriple 203mm Mk 15 Main Gun Mount\n533mm Quadruple Torpedo Mount Mk 17\nQuadruple 28mm \"Chicago Piano\" AA Gun Mount</color></size>"
+	_G.pg.base.gametip.main_notificationLayer_quest_request = {
+		tip = " wants to be your friend. Would you like to accept their request?"
 	}
 end)()
 
@@ -44110,8 +46059,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_shipUpgradeLayer2_advanced_tip = {
-		tip = "You have selected a <color=#92fc63>lv. 2 or higher</color> ship to use as a limit break material. Continue to limit break?"
+	_G.pg.base.gametip.new_airi_error_code_100210 = {
+		tip = "The third party account does not match with the one bound to this account"
 	}
 end)()
 
@@ -44122,14 +46071,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_29905 = {
-		tip = "<size=28>Would you like to start a Battle Simulation?\nNote: the Priority ship's stats and abilities may differ from her fully-developed equivalent.\nEquipped gear:<color=#ff5c5c>\nPrototype Quadruple 152mm Main Gun Mount\n533mm Quadruple Torpedo Mount Mk IX\nTwin 20mm AA Oerlikon Design</color></size>"
+	_G.pg.base.gametip.guild_sort_power = {
+		tip = "Best"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_49907 = {
-		tip = "<size=28>Would you like to start a Battle Simulation?\nNote: the Priority ship's stats and abilities may differ from her fully-developed equivalent.\nEquipped gear:<color=#ff5c5c>\nPrototype 406mm SK C/34 Main Gun Mount\nTwin 150mm TbtsK C/36 Main Gun Mount\nPrototype Quadruple 30mm AA Gun Mount</color></size>"
+	_G.pg.base.gametip.blueprint_simulation_confirm_69903 = {
+		tip = "<size=28>\nWould you like to start a Battle Simulation?\n(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)\nEquipment: <color=#92fc63>\n135mm Twin Main Gun Mount Model 1938\nPrototype Quadruple 533mm Si 270 Torpedo Mount\nPrototype Sextuple 20mm Scotti Model 1941 Anti-Air Gun\n</color></size>"
 	}
 end)()
 
@@ -44146,8 +46095,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_shipskin = {
-		tip = "Special"
+	_G.pg.base.gametip.doa_pt_complete = {
+		tip = "Upgrade Complete "
 	}
 end)()
 
@@ -44165,7 +46114,7 @@ end)()
 
 (function()
 	_G.pg.base.gametip.buildship_light_tip = {
-		tip = "Golden Hind added to standard build pool!"
+		tip = "Hai Yung and Chang Feng added to standard build pool!"
 	}
 end)()
 
@@ -44176,8 +46125,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.elite_condition_reload = {
-		tip = "Total RLD"
+	_G.pg.base.gametip.index_rare3 = {
+		tip = "Rare"
 	}
 end)()
 
@@ -44188,8 +46137,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_69902 = {
-		tip = "<size=28>\nWould you like to start a Battle Simulation?\n(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)\nEquipment: <color=#92fc63>\nPrototype Triple 254mm Model 1939 Main Gun Mount\nPrototype Triple 152mm Model 1936 Main Gun Mount\nPrototype Twin 90mm Model 1939 High Angle Gun</color></size>"
+	_G.pg.base.gametip.new_airi_error_code_100300 = {
+		tip = "Invalid email address format"
 	}
 end)()
 
@@ -44242,8 +46191,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_sort_power = {
-		tip = "Best"
+	_G.pg.base.gametip.mail_manage_1 = {
+		tip = "All"
 	}
 end)()
 
@@ -44254,26 +46203,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.intimacy_desc_2_buff = {
-		tip = "Current buff: None"
+	_G.pg.base.gametip.word_max_page = {
+		tip = "Max"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_result_undefeated = {
-		tip = "No casualties"
+	_G.pg.base.gametip.mail_buy_button = {
+		tip = "Buy"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.index_shipType_zhanLie = {
-		tip = "BB"
+	_G.pg.base.gametip.login_newPlayerScene_name_tooLong = {
+		tip = "Name is too long."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.index_other = {
-		tip = "Misc"
+	_G.pg.base.gametip.mail_storeroom_max_4 = {
+		tip = "Claiming these Coins will put you over your max capacity."
 	}
 end)()
 
@@ -44284,32 +46233,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.warning_mail_max_1 = {
-		tip = "Your mailbox is nearing its capacity (<color=#FF5C5C>$1</color>/$2). Please manage it before you run out of space."
+	_G.pg.base.gametip.level_diffcult_chapter_state_safety = {
+		tip = "<size=24>After reaching 100% completion on this map, you may directly attack the <color=#92fc63>enemy flagships</color> .</size>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.warning_mail_max_4 = {
-		tip = "Your mailbox is full (<color=#FF5C5C>$1</color>/100) and you cannot receive any new mail. Would you like to close your inbox?"
+	_G.pg.base.gametip.backyard_backyardShipInfoLayer_quest_openPos = {
+		tip = "Unlock this row for <color=#92fc63>$1 Gems</color>?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_moveto_markroom_1 = {
-		tip = "Would you like to move your mail to your <color=#238c40>Archive</color>? \nMoving your mail will automatically claim any attached items."
+	_G.pg.base.gametip.resourceSite_finishResourceSite_error = {
+		tip = "Failed to complete harvesting: "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_material_ship_no_enough = {
-		tip = "Not enough ships selected as material."
+	_G.pg.base.gametip.return_award_bind_success = {
+		tip = "UID entry successful."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_preCombatLayer_changeFormationError = {
-		tip = "Formation switch error. Please check your formations."
+	_G.pg.base.gametip.battle_resourceSiteLayer_startError_limit = {
+		tip = "Requirements not met: <color=#92fc63>$1</color>"
 	}
 end)()
 
@@ -44344,14 +46293,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_catsearch_help_1 = {
-		tip = "Retrieval progress will proceed as your <color=#ffde38>fleet operations advance</color>. \nAre you sure you want to cancel the item retrieval?\n\n<color=#92fc63>(If cancelled, partial awards will be rewarded immediately.)</color> "
+	_G.pg.base.gametip.memorybook_get_award_tip = {
+		tip = "You must unlock all \"Port Memories\" to receive the \"Commemorative Pyoko-Pyoko Medal\""
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_buy_button = {
-		tip = "Buy"
+	_G.pg.base.gametip.attribute_armor = {
+		tip = "Armor"
 	}
 end)()
 
@@ -44362,14 +46311,21 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.levelScene_escort_retreat = {
-		tip = "Would you like to retreat and end this Maritime Escort run?\nYour daily run will NOT be refunded.\nYou will still receive some rewards. "
+	_G.pg.base.gametip.island_trade_title2 = {
+		tip = "Pearl Trade Spot"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.level_diffcult_chapter_state_safety = {
-		tip = "<size=24>After reaching 100% completion on this map, you may directly attack the <color=#92fc63>enemy flagships</color> .</size>"
+	_G.pg.base.gametip.answer_help_tip = {
+		tip = {
+			{
+				info = "                                       游戏规则\n"
+			},
+			{
+				info = "1 ???????"
+			}
+		}
 	}
 end)()
 
@@ -44426,32 +46382,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100114 = {
-		tip = "IP is restricted during login creation"
+	_G.pg.base.gametip.word_fighter = {
+		tip = "Fighter"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.trade_card_tips2 = {
-		tip = "Heads up, nya. \nThe Trade License you purchased expired on $1, nya. \nYou can renew your license to continue receiving rewards every day, nya! \nCome visit my shop and see what's on offer, nya~"
+	_G.pg.base.gametip.activity_puzzle_get7 = {
+		tip = "<color=#A9F548FF>How to get: Normal difficulty 2-2</color>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200400 = {
-		tip = "0"
+	_G.pg.base.gametip.main_notificationLayer_enter_room = {
+		tip = "Entered room <color=#92fc63>$1</color>."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.spweapon_ui_index_shipType_hangMu = {
-		tip = "CV"
+	_G.pg.base.gametip.guild_donate_list_updated = {
+		tip = "Available contribution attempts have been refreshed."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.exchange_limit_skin_tip = {
-		tip = "Would you like to use $1 Rental Outfit Voucher(s)\n and gain access to \"$2\" for $3 days and $4 hours?"
+	_G.pg.base.gametip.tech_simulate_closed = {
+		tip = "You have not yet unlocked the Battle Simulation feature."
 	}
 end)()
 
@@ -44466,20 +46422,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.pray_build_select_ship_instruction = {
-		tip = "Select 2 shipgirls."
+	_G.pg.base.gametip.world_task_goto0 = {
+		tip = "There are no missions in this zone."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.which_day = {
-		tip = "Day <color=#92fc63>$1</color>"
+	_G.pg.base.gametip.word_shipType_zhanLie = {
+		tip = "Battleship"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.tip_pray_build_pool_success = {
-		tip = "Your wish has been granted."
+	_G.pg.base.gametip.blueprint_simulation_confirm_59901 = {
+		tip = "<size=28>Would you like to start a Battle Simulation?\nNote: the Priority ship's stats and abilities may differ from her fully-developed equivalent.\nEquipped gear:<color=#ff5c5c>\nPrototype Twin 130mm Model 1936 Main Gun Mount\n533mm Triple Torpedo Mount\nSingle 37mm 70-K AA Gun Mount</color></size>"
 	}
 end)()
 
@@ -44490,14 +46446,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_39903 = {
-		tip = "<size=28>Would you like to start a Battle Simulation? <color=#ff5c5c>Note: the Priority ship's stats and abilities may differ from its fully developed equivalent.</color>\nEquipped gear:<color=#92fc63>\nTwin 100mm (Type 98) AA Gun\nQuadruple 610mm Torpedo\nPrototype 40mm AA Gun (Type 5)</color></size>"
+	_G.pg.base.gametip.challenge_normal_tip = {
+		tip = "Clear the Challenge Stages and aim for a personal high score!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.coloring_erase_all_warning = {
-		tip = "Resetting will clear all of the currently painted boxes of their color. Are you sure you would like to reset?"
+	_G.pg.base.gametip.guild_exist_unreceived_supply_award = {
+		tip = "<color=red>Unclaimed</color>"
 	}
 end)()
 
@@ -44582,8 +46538,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.intimacy_desc_5_buff = {
-		tip = "Current buff: All base stats (except speed and gear) +6%"
+	_G.pg.base.gametip.world_item_recycle_2 = {
+		tip = "The following items will be lost when Operation Siren resets:"
 	}
 end)()
 
@@ -44594,8 +46550,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.doa_pt_complete = {
-		tip = "Upgrade Complete "
+	_G.pg.base.gametip.words_information = {
+		tip = "Info"
 	}
 end)()
 
@@ -44606,8 +46562,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_extendArea_ok = {
-		tip = "Dorm expanded!"
+	_G.pg.base.gametip.words_settings_create_inherit = {
+		tip = "Create Bind Code"
 	}
 end)()
 
@@ -44636,8 +46592,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_theme_shop_title = {
-		tip = "Explore Loadouts"
+	_G.pg.base.gametip.word_soundfiles_checkend = {
+		tip = "Tap to update"
 	}
 end)()
 
@@ -44648,26 +46604,48 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.emptymarkroom_tip_mailboxui = {
-		tip = "You haven't saved any mail yet."
+	_G.pg.base.gametip.blueprint_simulation_confirm_19904 = {
+		tip = "<size=28>\nWould you like to start a Battle Simulation?\n<color=#ff5c5c>Note: the Priority ship's stats and abilities may differ from her fully-developed equivalent.</color>\nEquipped gear:<color=#92fc63>\nPrototype Triple 406mm Mk6 Main Gun Mount\nF8F Bearcat\nTwin 127mm Mk 12 Dual-Purpose Gun Mount (Time Fuze)\n</color></size>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100160 = {
-		tip = "User birthday has already been added"
+	_G.pg.base.gametip.help_chunjie2021_feast = {
+		tip = {
+			{
+				info = "Event Duration: 2/4/2021 - 2/19/2021\nSpring Festival Event Contents:"
+			},
+			{
+				info = "- Fu Shun's Great Adventure II: Defeat Nian beasts\nto get the destroyer, Fu Shun!"
+			},
+			{
+				info = "- Ying Swei's Spring Travels: Log in every day,\nexplore, and get Red Envelopes as well as Ying Swei's limited outfit!"
+			},
+			{
+				info = "- Drawing Book: Complete the drawings to get the destroyer, An Shan!"
+			},
+			{
+				info = "- Manjuu Resort: Open up the Red Envelopes you've won from various minigames here."
+			},
+			{
+				info = "- Outfit Store: Head to check out the new Lunar New Year-themed outfits."
+			},
+			{
+				info = "- Limited Construction: Head to the Build page."
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_warning_205154 = {
-		tip = "Completing the retrofit will upgrade this ship's <color=#92fc63>Big Seven</color> skill into\n<color=#92fc63>Big Seven - Nelson</color>."
+	_G.pg.base.gametip.mail_moveto_markroom_max = {
+		tip = "Your <color=#92fc63>Archive</color> has reached its mail capacity. You cannot move any more mail."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.words_settings_create_inherit = {
-		tip = "Create Bind Code"
+	_G.pg.base.gametip.ship_profile_voice_locked_propose = {
+		tip = "Unlocks after Oath"
 	}
 end)()
 
@@ -44684,14 +46662,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tips_fail_secondarypwd_much_times = {
-		tip = "Your Secondary Password is incorrect. Please try again after <color=#92FC63>%s</color>."
+	_G.pg.base.gametip.commander_op_play_level = {
+		tip = "Food Level: $1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.words_set_password = {
-		tip = "Change Secondary Password"
+	_G.pg.base.gametip.map_event_save_rurutie = {
+		tip = "Successfully Rescued <color=#92fc63>Rulutieh</color>"
 	}
 end)()
 
@@ -44720,8 +46698,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_automode_start_tip1 = {
-		tip = "No zones meet the set conditions."
+	_G.pg.base.gametip.challenge_season_update_casual_switch = {
+		tip = "You are currently playing on Normal Mode.\nTotal score: $1.\nSince the Challenge Stage lineup has changed, this won't affect your high score.\nWould you like to change modes?"
 	}
 end)()
 
@@ -44732,36 +46710,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.msgbox_text_shop = {
-		tip = "Shop "
+	_G.pg.base.gametip.formationScene_use_oil_limit_tip_worldboss = {
+		tip = "Cost Limit:"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_soundfiles_checkend = {
-		tip = "Tap to update"
+	_G.pg.base.gametip.vote_fame_tip = {
+		tip = "Tap the winners of the popularity vote to receive a commemorative chat border! $1, $2, $3"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.submarine_approach = {
-		tip = "Submarines Detected"
+	_G.pg.base.gametip.login_loginMediator_registerFail_error = {
+		tip = "Registration failed: "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.help_summer_feast = {
-		tip = {
-			{
-				info = "- Overview -\nDuring the event, play the minigames and earn stamps to get Juno's limited outfit.\nYou will need Game Tickets to earn stamps.\nGame Tickets can be obtained by logging in every day.\n- Getting Tickets and Stamps -\nDuring the event, logging in for the first time each day will yield 2 Game Tickets.\nIf you complete a minigame while in possession of at least 1 Game Ticket, a Game Ticket will be used and 1 stamp will be awarded.\nIf you did not collect your Game Tickets for a certain day, you will be given all the Game Tickets you've missed upon logging in.\n- Minigames -\nThe three minigames you can play are: Shooting Game, Fireworks Workshop, and Food Stalls.\nIf you complete a minigame while having a Game Ticket, you will be given minigame rewards.\nThe rewards may vary depending on your performance in the minigames.\nFirst-tier Prize: Coins x150, Festival Food(?) x1\nSecond-tier Prize: Coins x130, Festival Food(?) x1\nThird-tier Prize: Coins x110\nBooby Prize: Coins x100\nPlaying minigames without Game Tickets will not award prizes or stamps."
-			}
-		}
+	_G.pg.base.gametip.battle_result_total_score = {
+		tip = "Total Score:"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.words_rare_ship_vibrate = {
-		tip = "New Ship Buzz"
+	_G.pg.base.gametip.word_normal_junhe = {
+		tip = "Normal"
 	}
 end)()
 
@@ -44784,14 +46758,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_op_play_level = {
-		tip = "Food Level: $1"
+	_G.pg.base.gametip.qiuqiu_total_count = {
+		tip = "累計数"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.map_event_save_rurutie = {
-		tip = "Successfully Rescued <color=#92fc63>Rulutieh</color>"
+	_G.pg.base.gametip.shop_entendShipYard_error = {
+		tip = "Failed to expand dock: "
 	}
 end)()
 
@@ -44802,24 +46776,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.player_name_change_warning = {
-		tip = "It will cost you <color=#92fc63>$1</color> <color=#92fc63>$2</color>, are you sure you want to change your Commander’s name to <color=#92fc63>$3</color>?"
+	_G.pg.base.gametip.friend_search_page_tip = {
+		tip = "Display up to <color=#92fc63>$1</color>  players"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.help_vote = {
-		tip = {
-			{
-				info = "Azur Lane Popularity Poll 2021\n\n- About the Popularity Poll:\nThe Azur Lane Popularity Poll makes its comeback for 2021. During this campaign, commanders can complete ingame tasks to receive votes which they can give to their favorite shipgirls.\nThe poll will be conducted in 5 rounds: Qualifiers, Qualifier Comeback, Groups, Finals Comeback, and lastly, Finals.\n\n- Popularity Poll Rules:\nVotes from commanders across all servers will be pooled together during each round of voting. After the votes are in, the winners will proceed to the next round.\nIn the event of a tie during the Qualifiers round, the shipgirl who reached that number of votes first will be the one to advance.\nIn the event of a tie during any round after the Qualifiers, the shipgirl who ranked higher during the Qualifiers round will be the one to advance.\n\nThe 3 winners of the previous global server Popularity Poll have entered the popularity Hall of Fame, and are excluded from the voting list.\nCollaboration-exclusive characters, META ships, µ ships, and any ships implemented after October 14th, 2021, are also excluded from this list. PR/DR ships are still eligible, assuming they don't also fit into any of the above criteria.\n\nThe winners of the previous Popularity Poll (Amagi, Laffey, and Bismarck) have been given a special story snippet each, which can be viewed through the Hall of Fame, located on the Popularity Poll event banner. Commanders can also unlock special commemorative chat frames through this banner.\n\n- Voting Schedule:\n\n1. Qualifiers Round:\nBegins after the October 14th maintenance, ends on October 25th, 23:59 server time.\nA total of 451 ships will participate in this round of voting. The top 200 shipgirls with the most votes will move on to the Groups round.\nThe individual shipgirl vote totals will not be shown for this round, only their ranks.\n\n2. Qualifiers Comeback Round:\nBegins at midnight server time on October 28th, ends on November 1st, 23:59 server time.\nAll shipgirls who didn't advance in the previous round will participate in this one. The top 15 shipgirls with the most votes will move on to the Finals Comeback round.\n3. Groups Round:\nGroup A: begins at midnight server time on November 4th, ends on November 8th, 23:59 server time.\nGroup B: begins at midnight server time on November 11th, ends on November 15th, 23:59 server time.\nGroup C: begins at midnight server time on November 18th, ends on November 22nd, 23:59 server time.\nGroup D: begins at midnight server time on November 25th, ends on November 29th, 23:59 server time.\nGroup E: begins at midnight server time on December 2nd, ends on December 6th, 23:59 server time.\nShipgirls that advanced to the Groups round are sorted into 5 groups of 40 shipgirls per group. The top 4 shipgirls within each group with the most votes will move on to the Finals round, and those with the top 5 to 12 most votes within each group will move on to the Finals Comeback round.\n\n4. Finals Comeback Round:\nBegins at midnight server time on December 9th, ends on December 12th, 23:59 server time.\nThe participants of this round will be the top 15 winners of the Qualifiers Comeback round, and the 40 shipgirls who barely didn't make the cut during the Groups round. The top 12 shipgirls who receive the most votes this round move on to the Finals.\n\n5. Finals Round:\nBegins at midnight server time on December 17th, ends on December 23rd, 23:59 server time.\nThe participants of this round will be the top 12 winners of the Finals Comeback round, and the top 4 winners of each group during the Groups round, for a total of 32 shipgirls who'll compete for the final round of voting.\n\n- Final Results Announcement:\n\nOnce each step has concluded, barring the Finals round, the voting results will be announced the next day at 12:00 both in the game client and on the poll website.\nOnce the Finals round has concluded, the final results will be announced on Twitter and Facebook the following day after server maintenance.\n\n- How to Vote:\n\nAll commanders at Commander level 25 and above are eligible to vote with the use of Ballots. Ballots can be obtained the following two ways:\n\n1) By completing special missions available during the voting period. These can be viewed from the Missions menu.\n2) By sortieing and defeating Boss fleets in Campaign Chapters 3 and above to earn a Certificate of Support.\nCommanders can use their Certificates of Support on the Campaign overworld screen or the Popularity Poll banner to receive Support Points.\nSupport Points will in turn give the commander Ballots based on how many Points they earned.\nCommanders can then use their Ballots to vote for their favorite shipgirls with the Vote button on the Popularity Poll banner.\nBe aware that once each step of the Poll has concluded, all unspent Ballots will disappear from your inventory.\n\n- More Info about Certificates of Support:\n\n1. Commanders can obtain a Certificate of Support by defeating Boss nodes on Campaign (Normal mode only) and Event maps (excluding through War Archives.)\n2. Commanders can only possess 1 Certificate of Support at a time. It can be used on the Campaign overworld map or from the Popularity Poll banner.\n3. When using their Certificate of Support, commanders will be sent to a screen with the chibi sprites of several characters. By tapping the chibis in the direction that the Manjuu is pointing, the Certificate of Support will be spent and the commander will receive Support Points.\n4. The Certificate of Support will disappear from your inventory if not used within a certain time.\n5. Certificates of Support obtained from higher level Campaign maps give more Support Points. The number of points earned per Chapter is shown in the table below:\n\nChapter 3: 120 Points\nChapter 4: 150 Points\nChapter 5: 180 Points\nChapter 6: 220 Points\nChapter 7: 270 Points\nChapter 8: 350 Points\nChapter 9: 450 Points\nChapter 10: 550 Points\nChapter 11: 700 Points\nChapter 12: 850 Points\nChapter 13: 1,000 Points\nChapter 14: 1,150 Points."
-			}
-		}
+	_G.pg.base.gametip.autofight_errors_tip = {
+		tip = "No valid enemy found. Auto-Search Mode has been disabled."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.vote_love_confirm = {
-		tip = "Are you sure you want to use a special vote?"
+	_G.pg.base.gametip.world_catsearch_help_2 = {
+		tip = "Potential Rewards: "
 	}
 end)()
 
@@ -44912,8 +46882,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_entendShipYard_error = {
-		tip = "Failed to expand dock: "
+	_G.pg.base.gametip.attr_antiaircraft = {
+		tip = "AA"
 	}
 end)()
 
@@ -44936,8 +46906,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.desc_defense_reward = {
-		tip = "The rewards you receive are based on how effective your defense was."
+	_G.pg.base.gametip.new_airi_error_code_100140 = {
+		tip = "Access Token verification failed"
 	}
 end)()
 
@@ -44958,14 +46928,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.option_desc10 = {
-		tip = "Enabling this option hides background art in skins during battle "
+	_G.pg.base.gametip.dailyLevel_restCount_notEnough = {
+		tip = "You're out of daily stage challenges. "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.option_desc11 = {
-		tip = "Display Carrier Detection line\n\nAbout Carrier Detection:The carriers in your Main Fleet can be in one of two states: Hidden, and Detected.\n\nYour carriers start the battle in the Hidden state, but once their Detection Gauge fills up, they will enter and remain in the Detected state until the gauge falls back down below a certain threshold.\n\nWhile Hidden, your carriers will not be targeted by most enemy skills and attacks.\n\nAdditionally, your carriers will also deal increased damage.\n\n1. About the Detection Gauge:\n\nThe Detection Gauge represents how close the enemy is to detecting the presence of your carriers. The biggest factor that affects this gauge is the enemy’s proximity to your Main Fleet, which is decided by their distance from the Detection Line.\n\nHowever, other factors affect this gauge as well. The Detection Gauge increases:\n\n- When an enemy crosses the Detection Line\n\n- When an enemy ship or aircraft reaches the left-hand side of the screen\n\n- When a friendly carrier launches an Airstrike\n\n- When the skills of certain friendly carriers activate\n\n- When a friendly carrier catches fire (when this happens, the Detection Gauge will not go below a certain threshold until the fire is put out)\n\nThe Detection Gauge will decrease as long as there are no enemies past the Detection Line.\n\nEach carrier has a separate Detection Gauge, and the higher their AVI stat, the longer it will take for them to be Detected.\n\n2. The Detection Gauge During Exercises:\n\nThe Detection Gauge will not decrease in Exercise Battles. Additionally, once the opponent’s fleet gets near enough to your Main Fleet, all of your carriers will enter the Detected state."
+	_G.pg.base.gametip.shop_extendcommander_success = {
+		tip = "Slots purchased. The Cattery was successfully expanded."
 	}
 end)()
 
@@ -44976,27 +46946,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equipment_upgrade_erro = {
-		tip = "Failed to upgrade weapon!"
+	_G.pg.base.gametip.secretary_unlock5 = {
+		tip = "Clear stage 12-4 \nto unlock "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.doa_collection = {
-		tip = {
-			{
-				info = "- Character Likes Overview -"
-			},
-			{
-				info = "You can learn more about the Venus cast by participating in the event and completing tasks.\nBy collecting all 18 character likes you'll receive the Venus Vacation Statue as well as 3 Venus Vacation gear skin boxes. (The Vacation Statue can only be obtained once.)"
-			},
-			{
-				info = "- Unlocking Character Likes -"
-			},
-			{
-				info = "There are a few different ways to unlock character likes, which vary from character to character:\n· Clearing the event stages\n· Completing event missions\n· Amassing enough Venus Points\n· Playing the Volleyball Scrimmage minigame\n· Playing the Butt Battle minigame\n\nMilestone rewards for collecting character likes remain claimable up to May 17th, 11:59 PM. (UTC-7)."
-			}
-		}
+	_G.pg.base.gametip.secretary_closed = {
+		tip = "Not open"
 	}
 end)()
 
@@ -45076,104 +47033,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.pocky_jiujiu = {
-		tip = "Manjuu Manufactory"
+	_G.pg.base.gametip.map_event_stop_story_tip = {
+		tip = "<color=#92fc63>Step on an event tile</color> to remove the Restricted status. "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_300101 = {
-		tip = "0"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.secretary_unlock2 = {
-		tip = "Clear stage 3-4 \nto unlock "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.exchangecode_use_error_9 = {
-		tip = "Code does not exist."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.secretary_unlock5 = {
-		tip = "Clear stage 12-4 \nto unlock "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_hard = {
-		tip = "Hard"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.secretary_closed = {
-		tip = "Not open"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100307 = {
-		tip = "0"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_chara_level_limit = {
-		tip = "Level Cap"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_task_quickfinish1 = {
-		tip = "Automatically completing this Cruise Mission will cost $1 Cruise Mission Voucher(s).\n(You currently have $2.)\nWould you like to continue?"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.secretary_pos_save_success = {
-		tip = "Save successful"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.random_ship_forbidden = {
-		tip = "You can't change your secretary slot because the Random Secretary setting is toggled ON."
+	_G.pg.base.gametip.new_airi_error_code_200180 = {
+		tip = "It takes a long time for searching the purchase result"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.naval_academy_res_desc_cateen = {
 		tip = "This is where our girls get all their tasty meals! Upgrade to increase <color=#92fc63>Oil production</color> and <color=#92fc63>capacity</color>."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.elite_disable_formation_unsatisfied = {
-		tip = "Formation requirements not met. Unable to attack."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.technology_detail = {
-		tip = "Details"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.msgbox_text_goon_fight = {
-		tip = "Continue"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.msgbox_text_replace = {
-		tip = "Equip"
 	}
 end)()
 
@@ -45212,8 +47085,92 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.msgbox_text_noPos_buy = {
-		tip = "Expand"
+	_G.pg.base.gametip.commander_material_is_rarity = {
+		tip = "You have selected an SR Meowfficer. Would you like to continue?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_hard = {
+		tip = "Hard"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_dockyardMediator_destroy = {
+		tip = "Ship retired."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100307 = {
+		tip = "0"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_chara_level_limit = {
+		tip = "Level Cap"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.msgbox_text_consume = {
+		tip = "Cost"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.secretary_pos_save_success = {
+		tip = "Save successful"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.random_ship_forbidden = {
+		tip = "You can't change your secretary slot because the Random Secretary setting is toggled ON."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200400 = {
+		tip = "0"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.msgbox_text_equipdetail = {
+		tip = "Details"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.technology_detail = {
+		tip = "Details"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_result_sink_limit = {
+		tip = "Lose less than $1 ships"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.msgbox_text_replace = {
+		tip = "Equip"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.msgbox_text_analyse = {
+		tip = "Analyze"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_shop_label_2 = {
+		tip = "Stock"
 	}
 end)()
 
@@ -45246,20 +47203,52 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.msgbox_text_consume = {
-		tip = "Cost"
+	_G.pg.base.gametip.levelScene_escort_lose = {
+		tip = "The transport ship has taken critical damage. Escort mission failed."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_museum_1 = {
-		tip = "No more Model Parts can be obtained today. "
+	_G.pg.base.gametip.help_newyear_stamp = {
+		tip = {
+			{
+				info = "You can acquire Stamps by playing Kinu's New Year Training while in possession of a Ticket.\n\nCollect 7 Stamps to receive the skin!"
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.shops_rest_day = {
-		tip = "Store refreshes in :"
+	_G.pg.base.gametip.qte_game_help = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/guinu_help1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/guinu_help2",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	}
 end)()
 
@@ -45270,14 +47259,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.title_limit_time = {
-		tip = "「Event」"
+	_G.pg.base.gametip.text_clear = {
+		tip = "Clear"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.draw_big_luck_3 = {
-		tip = "Something good will surely come your way today nya!"
+	_G.pg.base.gametip.word_equipskin_tarpedo = {
+		tip = "Torpedoes "
 	}
 end)()
 
@@ -45294,12 +47283,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.help_newyear_stamp = {
-		tip = {
-			{
-				info = "You can acquire Stamps by playing Kinu's New Year Training while in possession of a Ticket.\n\nCollect 7 Stamps to receive the skin!"
-			}
-		}
+	_G.pg.base.gametip.loading_tip_MsgboxMgr = {
+		tip = "Loading dialog...."
 	}
 end)()
 
@@ -45310,8 +47295,12 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.levelScene_escort_lose = {
-		tip = "The transport ship has taken critical damage. Escort mission failed."
+	_G.pg.base.gametip.help_summer_feast = {
+		tip = {
+			{
+				info = "- Overview -\nDuring the event, play the minigames and earn stamps to get Juno's limited outfit.\nYou will need Game Tickets to earn stamps.\nGame Tickets can be obtained by logging in every day.\n- Getting Tickets and Stamps -\nDuring the event, logging in for the first time each day will yield 2 Game Tickets.\nIf you complete a minigame while in possession of at least 1 Game Ticket, a Game Ticket will be used and 1 stamp will be awarded.\nIf you did not collect your Game Tickets for a certain day, you will be given all the Game Tickets you've missed upon logging in.\n- Minigames -\nThe three minigames you can play are: Shooting Game, Fireworks Workshop, and Food Stalls.\nIf you complete a minigame while having a Game Ticket, you will be given minigame rewards.\nThe rewards may vary depending on your performance in the minigames.\nFirst-tier Prize: Coins x150, Festival Food(?) x1\nSecond-tier Prize: Coins x130, Festival Food(?) x1\nThird-tier Prize: Coins x110\nBooby Prize: Coins x100\nPlaying minigames without Game Tickets will not award prizes or stamps."
+			}
+		}
 	}
 end)()
 
@@ -45326,20 +47315,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_equipskin_tarpedo = {
-		tip = "Torpedoes "
+	_G.pg.base.gametip.backyard_extendArea_erro = {
+		tip = "Failed to expand dorm: <color=#92fc63>$1</color>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_39904 = {
-		tip = "<size=28>Would you like to start a Battle Simulation? <color=#ff5c5c>Note: the Priority ship's stats and abilities may differ from its fully developed equivalent.</color>\nEquipped gear:<color=#92fc63>\nPrototype Triple 310mm Main Gun (Type 0)\nTwin 100mm (Type 98) AA Gun\nPrototype 40mm AA Gun (Type 5)</color></size>"
+	_G.pg.base.gametip.mail_important_page = {
+		tip = "Important"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.equip_info_extralevel_2 = {
-		tip = "Level 2"
+	_G.pg.base.gametip.mingshi_get_tip = {
+		tip = "Found a Peculiar Material!"
 	}
 end)()
 
@@ -45350,14 +47339,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_resource_tip_2 = {
-		tip = "未配置tip"
+	_G.pg.base.gametip.special_animal3 = {
+		tip = "[Uranami's Collection of Cuties - #3] Pinnisphere: it puffs itself up into a ball by filling its lungs beyond capacity. Apparently it's just a party trick."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_no_cache = {
-		tip = "There are no assets to repair."
+	_G.pg.base.gametip.backyard_is_loading = {
+		tip = "Loading furniture... "
 	}
 end)()
 
@@ -45368,8 +47357,12 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_extendArea_erro = {
-		tip = "Failed to expand dorm: <color=#92fc63>$1</color>"
+	_G.pg.base.gametip.bulin_help = {
+		tip = {
+			{
+				info = "Info:\n1: During the event, find and collect clues across various screens and stages.\n2. If you have trouble finding clues, tap the clue box for a hint.\nNote: You may only get one hint every 20 minutes.\n3. Collecting all the clues will unlock a special stage. Complete that stage\nto earn special rewards."
+			}
+		}
 	}
 end)()
 
@@ -45390,8 +47383,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.special_animal5 = {
-		tip = "[Uranami's Collection of Cuties - #5] Inwanshirible: somehow, this dog learned how to make itself nearly invisible. Keyword: nearly. Its fluffy butt remains in full view."
+	_G.pg.base.gametip.bulin_tip4 = {
+		tip = "Nya? Maybe check the dockyard nya?"
 	}
 end)()
 
@@ -45402,30 +47395,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.bulin_help = {
-		tip = {
-			{
-				info = "Info:\n1: During the event, find and collect clues across various screens and stages.\n2. If you have trouble finding clues, tap the clue box for a hint.\nNote: You may only get one hint every 20 minutes.\n3. Collecting all the clues will unlock a special stage. Complete that stage\nto earn special rewards."
-			}
-		}
+	_G.pg.base.gametip.bulin_tip6 = {
+		tip = "Don't forget to feed the kids nya!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_rename_time_tip = {
-		tip = "Please wait another $1 days before naming this exclusive ship!"
+	_G.pg.base.gametip.bulin_tip7 = {
+		tip = "Sortie nya! Target 2-4 nya!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_39905 = {
-		tip = "<size=28>Would you like to start a Battle Simulation?\nNote: the Priority ship's stats and abilities may differ from her fully-developed equivalent.\nEquipped gear:<color=#ff5c5c>\nPrototype Saiun Kai\nPrototype Tenrai\nPrototype Saiun Kai</color></size>"
+	_G.pg.base.gametip.bulin_tip9 = {
+		tip = "Drop by the store and get some more goodies nya!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_manage_tip_1 = {
-		tip = "* Batch delete will only delete mail whose rewards you've already claimed."
+	_G.pg.base.gametip.bulin_tip_other2 = {
+		tip = "Clues are on cooldown, bulin!"
 	}
 end)()
 
@@ -45454,14 +47443,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.index_fleetrear = {
-		tip = "Main "
+	_G.pg.base.gametip.island_exchange_btn_text = {
+		tip = "Crafting"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.bulin_tip9 = {
-		tip = "Drop by the store and get some more goodies nya!"
+	_G.pg.base.gametip.ship_getShip_error_full = {
+		tip = "<color=#92fc63>Your dock is full.</color> Unable to receive ship!"
 	}
 end)()
 
@@ -45524,8 +47513,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_getShip_error_full = {
-		tip = "<color=#92fc63>Your dock is full.</color> Unable to receive ship!"
+	_G.pg.base.gametip.indexsort_campeng = {
+		tip = "Faction"
 	}
 end)()
 
@@ -45542,8 +47531,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.spweapon_tip_create_sussess = {
-		tip = "You obtained the Augment Module: <color=#92fc63>$1</color>."
+	_G.pg.base.gametip.mail_getbox_title = {
+		tip = "Claim Mail"
 	}
 end)()
 
@@ -45554,24 +47543,24 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.levelScene_notCargo = {
-		tip = "No treasure chest found."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.decodegame_gametip = {
+	_G.pg.base.gametip.help_shipinfo_hunting = {
 		tip = {
 			{
-				info = "- Decryption -\nIn this minigame, use Intel Pts earned from the \"Darkness Within Dawn\" event to decrypt pieces of intel and unlock Passcodes to gain corresponding rewards.\n\n- Decryption Screen Details -\nYou can see your current decryption attempts on the left side of the screen.\nBy tapping the knobs on the right side of the screen, you can change the displayed intel.\nYou can decrypt intel by tapping the noise-like squares in the middle of the intel display screen.\nYou can access Passcodes by tapping the button on the bottom-right.\nAfter completing intel decryption, collect the corresponding rewards from the bottom left side of the screen.\n\n- How to Play -\n1. Earn Intel Pts by completing \"Darkness Within Dawn\" event missions. For every <color=#92fc63>200</color> Intel Pts you earn, you will gain 1 Decryption attempt.\n2. Tap on the knobs on the right-hand side of the screen to display the intel being decrypted, and tap on undecrypted parts of the screen (noise-like appearance) to decrypt it, spending 1 Decryption attempt in the process.\n3. After all the panels have been decrypted, the intel is considered completely decrypted, and you can change the decryption target by tapping on the knobs on the right-hand side of the screen.\n4. When all intel has been decrypted, the Passcodes page at the bottom right-hand side of the screen will be unlocked.\n5. Opening the Passcodes page shows you all the Passcodes you've decrypted.\n6. The light on the top left side of the screen will glow green when you've entered the right codes in the right order.\n7. Once you've correctly input 3 Passcodes, you can claim a reward from the bottom left side of the screen.\n8. You'll be able to claim the following rewards in order based on the number of grids you've decrypted:\n10 grids: 1,000 Coins\n20 grids: 5 T3 Universal Retrofit Materials\n30 grids: 1,000 Coins\n40 grids: 2 T3 Offensive Skill Books\n50 grids: 2 random T3 Retrofit Blueprints\n60 grids: 2 T3 Support Skill Books"
+				info = "About Attack/Support Range:\n- The Flagship of the Submarine Fleet determines the whole Submarine Fleet's Attack/Support Range (ASR.)\n\n- The Submarine Fleet can move on their own and attack enemies within their range, lowering the enemy's combat strength.\n\n- Tapping the \"Submarine Support\" button when in combat with an enemy within the Submarine Fleet's range will summon your Submarine Fleet to assist you in battle.\n\n- Submarines will only use Ammunition when attacking enemies on their own. When summoned in a battle, they will both use Ammunition and consume Oil.\n\n- The Submarine Fleet has 2 settings: Support Mode (the fleet will be on standby) and Attack Mode (the fleet will attack enemies automatically.)\n- This setting can be changed at any time from the Formation menu on the right side of the screen when sortieing.\n\nAttack/Support Range Level:\n- The higher the ASR level the Submarine Fleet's Flagship is, the further from their starting location they can attack or provide support.\n\n- You can increase the ASR level through Limit Breaking your Submarines, leveling certain skills, and equipping them with certain gear."
 			}
 		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.indexsort_campeng = {
-		tip = "Faction"
+	_G.pg.base.gametip.retire_marry_skin = {
+		tip = "$1's skin has been reset."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_instruction_supply_1 = {
+		tip = "未配置tip"
 	}
 end)()
 
@@ -45600,8 +47589,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_log_quit = {
-		tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> has left the guild."
+	_G.pg.base.gametip.ship_remould_warning_521024 = {
+		tip = "Completing the retrofit will change the ship's designation into:\nGuided-Missile Destroyer (Main Fleet Mode)\nHer stats and combat performance may change significantly.\nProceed with retrofit?"
 	}
 end)()
 
@@ -45618,8 +47607,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.retire_marry_skin = {
-		tip = "$1's skin has been reset."
+	_G.pg.base.gametip.apple_link_title = {
+		tip = "Account Link Complete"
 	}
 end)()
 
@@ -45636,38 +47625,100 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_build_consume = {
-		tip = "Spend $1 to commence development?"
+	_G.pg.base.gametip.bulin_tip_other3 = {
+		tip = "Quit the stage? You won't get any rewards."
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.buildship_special_tip = {
-		tip = "Mary Celeste and Whydah added to standard build pool!"
+		tip = "Implacable and Argus added to standard build pool!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.res_music_no_pre_tip = {
-		tip = "First Track"
+	_G.pg.base.gametip.guild_sort_level = {
+		tip = "Lv."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_formationUI_fleetName_extra_ss = {
-		tip = "Sub Fleet - EX"
+	_G.pg.base.gametip.help_backyard = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/strength",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/break",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/equip",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/bullet",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/energy",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/maxlevel",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/fanqian",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 7,
+			windowSize = {
+				x = 836,
+				y = 720
+			},
+			windowSize = {
+				x = 836,
+				y = 740
+			},
+			windowPos = {
+				y = 15
+			},
+			helpSize = {
+				x = 836,
+				y = 660
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.apple_link_title = {
-		tip = "Account Link Complete"
+	_G.pg.base.gametip.anniversary_task_title_14 = {
+		tip = "I can't wait until I can see you once more. When the birds resume their song once more..."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_profile_voice_locked_propose = {
-		tip = "Unlocks after Oath"
+	_G.pg.base.gametip.island_trade_tip_label = {
+		tip = "The selling price is updated at 03:00 every day"
 	}
 end)()
 
@@ -45696,38 +47747,38 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_weakness = {
-		tip = "Weak Point "
+	_G.pg.base.gametip.new_airi_error_code_100225 = {
+		tip = "Google authorization was canceled by user"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_sort_level = {
-		tip = "Lv."
+	_G.pg.base.gametip.island_post_event_open_label = {
+		tip = "Confirm"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.anniversary_task_title_14 = {
-		tip = "I can't wait until I can see you once more. When the birds resume their song once more..."
+	_G.pg.base.gametip.blueprint_mod_skin_unlock = {
+		tip = "Acquire skin: $1 "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.area_lock = {
-		tip = "This zone has not been unlocked. "
+	_G.pg.base.gametip.backyard_backyardScene_comforChatContent2 = {
+		tip = "The number of pieces of furniture included in this count increases depending on how many times the dorm has been expanded. Current expansions: <color=#72bc42>$1</color>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.sure_resume_volume = {
-		tip = "Restore default volume settings?"
+	_G.pg.base.gametip.word_discount = {
+		tip = "0% price"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_buildShipImmediately_error_noSHip = {
-		tip = "No ships at dock."
+	_G.pg.base.gametip.main_mailMediator_notingToTake = {
+		tip = "No rewards available."
 	}
 end)()
 
@@ -45750,20 +47801,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_backyardScene_comforChatContent2 = {
-		tip = "The number of pieces of furniture included in this count increases depending on how many times the dorm has been expanded. Current expansions: <color=#72bc42>$1</color>"
+	_G.pg.base.gametip.backyard_theme_delete_themplate_tip = {
+		tip = "Are you sure you want to delete this loadout? Once deleted, you will lose all Likes and Favorites associated with that loadout."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_theme_upload_success = {
-		tip = "Uploaded"
+	_G.pg.base.gametip.exercise_count_insufficient = {
+		tip = "<color=#92fc63>You don't have enough exercises.</color>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_shipNation_weixi = {
-		tip = "Vichya Dominion"
+	_G.pg.base.gametip.ship_remould_warning_102174 = {
+		tip = "The <color=#92fc63>Sparkling Mic</color> will be used to complete the retrofit.\nWould you like to continue? "
 	}
 end)()
 
@@ -45780,8 +47831,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_mail_page = {
-		tip = "Mail"
+	_G.pg.base.gametip.option_desc8 = {
+		tip = "When toggled on, displays the secretary of friends visiting your Dorm."
 	}
 end)()
 
@@ -45792,14 +47843,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.option_desc8 = {
-		tip = "When toggled on, displays the secretary of friends visiting your Dorm."
+	_G.pg.base.gametip.fate_phase_word = {
+		tip = "Research Progress: "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_modShip_error_notEnoughGold = {
-		tip = "<color=#92fc63>Not enough Coins</color>"
+	_G.pg.base.gametip.open_skill_pos = {
+		tip = "It will cost you <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffff00>$1</color><color=#92fc63>Gems</color> to unlock another slot, Do you wish to proceed?"
 	}
 end)()
 
@@ -45810,8 +47861,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.main_mailLayer_takeAttach = {
-		tip = "Collect Rewards"
+	_G.pg.base.gametip.world_instruction_all_1 = {
+		tip = "This feature has not been released yet. "
 	}
 end)()
 
@@ -45828,14 +47879,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_theme_template_list_is_empty = {
-		tip = "No usable furniture."
+	_G.pg.base.gametip.win_condition_display_tuoli = {
+		tip = "Any fleet reaches the escape point."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.fate_phase_word = {
-		tip = "Research Progress: "
+	_G.pg.base.gametip.lose_condition_display_quanmie = {
+		tip = "All your fleets are defeated."
 	}
 end)()
 
@@ -45846,20 +47897,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.open_skill_pos = {
-		tip = "It will cost you <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffff00>$1</color><color=#92fc63>Gems</color> to unlock another slot, Do you wish to proceed?"
+	_G.pg.base.gametip.npc_propse_tip = {
+		tip = "You cannot Oath Temporary Recruits."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_shop_must_select_goods = {
-		tip = "Select an item to exchange for："
+	_G.pg.base.gametip.ssssmedal_belonging2 = {
+		tip = "Some higher-up?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.win_condition_display_qijian = {
-		tip = "Defeat the enemy boss fleet."
+	_G.pg.base.gametip.equip_info_6 = {
+		tip = "Shell Velocity"
 	}
 end)()
 
@@ -45876,14 +47927,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.lose_condition_display_quanmie = {
-		tip = "All your fleets are defeated."
+	_G.pg.base.gametip.submarine_approach_desc = {
+		tip = "Enemy submarines have appeared on the map!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.Settings_title_resManage_Main = {
-		tip = "Manage Main Assets"
+	_G.pg.base.gametip.equip_info_13 = {
+		tip = "Specialty"
 	}
 end)()
 
@@ -45910,8 +47961,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.npc_propse_tip = {
-		tip = "You cannot Oath Temporary Recruits."
+	_G.pg.base.gametip.wwf_bamboo_tip3 = {
+		tip = "Not enough Tasty Bamboo. Complete missions to get more!"
 	}
 end)()
 
@@ -45934,8 +47985,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.submarine_approach_desc = {
-		tip = "Enemy submarines have appeared on the map!"
+	_G.pg.base.gametip.equip_info_28 = {
+		tip = "Damage Modifier "
 	}
 end)()
 
@@ -45958,8 +48009,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equip_info_23 = {
-		tip = "Equippable by"
+	_G.pg.base.gametip.dorm3d_aijier_table = {
+		tip = "Study"
 	}
 end)()
 
@@ -45976,8 +48027,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_spweapon_success = {
-		tip = "Your Augment Module storage capacity has increased."
+	_G.pg.base.gametip.tec_tendency_cur_4 = {
+		tip = "Research Focus / Series 4"
 	}
 end)()
 
@@ -45988,8 +48039,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_systemClose = {
-		tip = "Commander, you haven't unlocked this feature yet!"
+	_G.pg.base.gametip.battle_preCombatLayer_save_march = {
+		tip = "Save fleet formation and exit?"
 	}
 end)()
 
@@ -46000,8 +48051,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_warning_105224 = {
-		tip = "Completing the retrofit will change the skill <color=#92fc63>Big Seven</color> into <color=#92fc63>Big Seven - Maryland</color>."
+	_G.pg.base.gametip.tip_pray_build_pool_success = {
+		tip = "Your wish has been granted."
 	}
 end)()
 
@@ -46018,14 +48069,33 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tec_settings_btn_word = {
-		tip = "Research Focus"
+	_G.pg.base.gametip.bulin_tip_other1 = {
+		tip = "Unlock this clue now, bulin? It takes 10 minutes cooldown before another one can be unlocked like this, bulin! "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.tec_tendency_x = {
-		tip = "PR/DR $1"
+	_G.pg.base.gametip.help_activity_bossbattle = {
+		tip = {
+			{
+				info = "                                         ※作战手册※\n"
+			},
+			{
+				info = "  活动期间，不同难度的演习，每次通关时可以获得额外收益，\n  额外收益每天有获得次数上限。不同难度的额外收益次数分\n  别为：初级演习：<color=#92fc63>20</color>次；中级演习：<color=#92fc63>20</color>次；高级演习：<color=#92fc63>40</color>次\n"
+			},
+			{
+				info = "1.参与活动获取pt点数，并与本服玩家协力攻略女仆据点；"
+			},
+			{
+				info = "2.女仆据点攻略完成后，所有参与据点战斗的玩家都将获得限\n定角色<color=#92fc63>【纽卡斯尔号】</color>（通过邮件发放）；"
+			},
+			{
+				info = "3.女仆据点攻略完成后，玩家可继续参与活动累计pt获得大量\n奖励与限定角色<color=#92fc63>【纽卡斯尔号】</color>；"
+			},
+			{
+				info = "4.个人累计pt的奖励截止时间为<color=#92fc63>2018.10.18 23.59.59</color>"
+			}
+		}
 	}
 end)()
 
@@ -46094,14 +48164,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.text_noPos_buy = {
-		tip = "Expand"
+	_G.pg.base.gametip.backyard_shipSpeedUpEnergy_error = {
+		tip = "Speed up failed."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.return_award_bind_success = {
-		tip = "UID entry successful."
+	_G.pg.base.gametip.guild_commander_and_sub_op = {
+		tip = "Only the Guild Leader and Officers may carry out this action."
 	}
 end)()
 
@@ -46118,14 +48188,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.login_register_full = {
-		tip = "Too many players registered."
+	_G.pg.base.gametip.spweapon_ui_create_exp = {
+		tip = "Upgrade EXP required to craft"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.bulin_tip_other1 = {
-		tip = "Unlock this clue now, bulin? It takes 10 minutes cooldown before another one can be unlocked like this, bulin! "
+	_G.pg.base.gametip.spweapon_ui_breakout_exp = {
+		tip = "Upgrade EXP required to uncap"
 	}
 end)()
 
@@ -46136,8 +48206,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tec_target_need_print = {
-		tip = "Required BPs:"
+	_G.pg.base.gametip.mail_getMailList_error_noNewMail = {
+		tip = "No new mail."
 	}
 end)()
 
@@ -46184,14 +48254,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_attr_luck = {
-		tip = "OIL "
+	_G.pg.base.gametip.guild_not_exist_activation_tech = {
+		tip = "There are no operational Guild Tech facilities."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dailyLevel_unopened = {
-		tip = "Not open"
+	_G.pg.base.gametip.attribute_hit = {
+		tip = "Hit"
 	}
 end)()
 
@@ -46208,20 +48278,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_supply_no_open = {
-		tip = "Guild Supplies currently unavailable."
+	_G.pg.base.gametip.change_skin_asmr_desc_2 = {
+		tip = "This content is best experienced with earbuds."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_new_member_get_award_tip = {
-		tip = "Guild Supplies are not available to new members until one day after joining the Guild."
+	_G.pg.base.gametip.guidl_r_box_time_desc = {
+		tip = "Rare Cat Box Training Time -$1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.intimacy_desc_4_buff = {
-		tip = "Current buff: All base stats (except speed and gear) +3%"
+	_G.pg.base.gametip.guild_member_max_cnt_desc = {
+		tip = "Guild Roster Size +$1"
 	}
 end)()
 
@@ -46262,8 +48332,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_lock_erro = {
-		tip = "The following could not be locked: $1."
+	_G.pg.base.gametip.guild_impeach_sucess = {
+		tip = "Impeachment successful!"
 	}
 end)()
 
@@ -46274,15 +48344,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.coloring_help_tip = {
-		tip = {
-			{
-				info = "Game Rules:\n"
-			},
-			{
-				info = "1. Each cell of the Drawing Book is marked with a number that corresponds to the paint color of the same number. Select the paint color from the palette on the right and click on the cell to color it. \n2. The drawing area can be zoomed in and out by stretching or pinching with two fingers. \n3. All adjacent cells with the same number will be automatically colored until the cells are filled in or there is no paint of that color left. \n4. Coloring each cell will consume paint. If no paint is left, no more cells may be colored. \n5. Paint can be obtained by completing event missions to consume a total amount of Oil. \n6. Completing pages in the Drawing Book will grant rewards. \n7. The rewards for completing each page are as follows: \n· Page 1: Random Skill Book T3 x2\n· Page 2: Red Envelope x2\n· Page 3: The limited furniture \"Bamboo Bubble-Blower\"\n· Page 4: Red Envelope x2\n· Page 5: The limited furniture \"Bamboo Bubble-Blower\"\n· Page 6: Red Envelope x2\n· Page 7: Dragon Empery DD An Shan & Red Envelope x1\n8. After the event ends, all unused paint will be removed.\n9. A new page will be unlocked every day until January 22nd."
-			}
-		}
+	_G.pg.base.gametip.guild_word_consume_for_battle = {
+		tip = "Cost: "
 	}
 end)()
 
@@ -46293,8 +48356,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_msg_is_null = {
-		tip = "Unable to send empty messages."
+	_G.pg.base.gametip.ship_shipInfoScene_equipUnlockSlostContent = {
+		tip = "Slot is locked. Please limit break selected ship to unlock."
 	}
 end)()
 
@@ -46329,8 +48392,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_member_max_cnt_desc = {
-		tip = "Guild Roster Size +$1"
+	_G.pg.base.gametip.word_achieved_item = {
+		tip = "Time joined"
 	}
 end)()
 
@@ -46341,8 +48404,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.main_navalAcademyScene_class_upgrade_complete = {
-		tip = "$1 upgrade successful"
+	_G.pg.base.gametip.resource_max_tip_mail = {
+		tip = "Unable to collect rewards from mail."
 	}
 end)()
 
@@ -46353,8 +48416,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_69903 = {
-		tip = "<size=28>\nWould you like to start a Battle Simulation?\n(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)\nEquipment: <color=#92fc63>\n135mm Twin Main Gun Mount Model 1938\nPrototype Quadruple 533mm Si 270 Torpedo Mount\nPrototype Sextuple 20mm Scotti Model 1941 Anti-Air Gun\n</color></size>"
+	_G.pg.base.gametip.equip_info_31 = {
+		tip = "FR "
 	}
 end)()
 
@@ -46365,14 +48428,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_contribution = {
-		tip = "贡献"
+	_G.pg.base.gametip.guild_not_exist_boss = {
+		tip = "No data on this boss exists."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_not_exist_battle = {
-		tip = "This Guild Operation has never occurred."
+	_G.pg.base.gametip.guild_boss_formation_2 = {
+		tip = "1 support ship from this guild member's list can be chosen."
 	}
 end)()
 
@@ -46454,8 +48517,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_word_battle_type = {
-		tip = "Type:"
+	_G.pg.base.gametip.island_trade_activity_desc_1 = {
+		tip = "During the event, you can sell pearls to the mysterious trader who appears on Get-Together Island."
 	}
 end)()
 
@@ -46466,38 +48529,38 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_event_start_event_tip = {
-		tip = "Once dispatched, you will not be able to change this formation until the operation ends. Would you like to continue?"
+	_G.pg.base.gametip.index_strengthen = {
+		tip = "Enhanceable"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.equip_info_extralevel_0 = {
-		tip = "Level 0"
+	_G.pg.base.gametip.sham_count_reset = {
+		tip = "This Simulation battle is complete.\nReset now?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_achieved_item = {
-		tip = "Time joined"
+	_G.pg.base.gametip.msgbox_text_noPos_buy = {
+		tip = "Expand"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.resource_max_tip_mail = {
-		tip = "Unable to collect rewards from mail."
+	_G.pg.base.gametip.ship_quick_change_noequip = {
+		tip = "Unable to find usable gear."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_not_exist_boss = {
-		tip = "No data on this boss exists."
+	_G.pg.base.gametip.new_airi_error_code_200270 = {
+		tip = "The request is not supported by the Play store on current device"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_boss_formation_2 = {
-		tip = "1 support ship from this guild member's list can be chosen."
+	_G.pg.base.gametip.battle_resourceSiteLayer_shipTypeCount = {
+		tip = "$1 x$2"
 	}
 end)()
 
@@ -46514,8 +48577,18 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_mapbuff_attrtxt_2 = {
-		tip = "Survival Boost "
+	_G.pg.base.gametip.guild_public_office_tip = {
+		tip = {
+			{
+				info = "Contributing Materials Info:"
+			},
+			{
+				info = "1.Even players who aren't in a Guild can contribute items to receive Guild Tokens."
+			},
+			{
+				info = "2.Up to <color=#92fc63>3</color> contributions can be made every day."
+			}
+		}
 	}
 end)()
 
@@ -46538,8 +48611,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_max_level = {
-		tip = "You've reached the maximum number of improvements."
+	_G.pg.base.gametip.guild_cancel_assult_ship_recommend = {
+		tip = "Recommended support ship cleared."
 	}
 end)()
 
@@ -46568,20 +48641,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.activity_hit_monster_erro = {
-		tip = "Attack failed "
+	_G.pg.base.gametip.guild_time_remaining_tip = {
+		tip = "Time Remaining: "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_quick_change_noequip = {
-		tip = "Unable to find usable gear."
+	_G.pg.base.gametip.multiple_ship_energy_low_warn_no_exp = {
+		tip = "<color=#92fc63FF>$2</color> currently has low morale! If you continue to force her to sortie, her <color=#ff5c5c>affection will decrease</color>! Are you sure you wish to continue?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200270 = {
-		tip = "The request is not supported by the Play store on current device"
+	_G.pg.base.gametip.ship_unequip_all_tip = {
+		tip = "Are you sure you want to unequip all gear?"
 	}
 end)()
 
@@ -46604,8 +48677,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_tech_price_inc_tip = {
-		tip = "This facility's upgrade cost is increased as you do not meet the <color=#92fc63>Guild Tech</color> leveling criteria. Do you want to continue with the facility upgrade?"
+	_G.pg.base.gametip.mail_input_erro = {
+		tip = "Write the correct text to claim your items."
 	}
 end)()
 
@@ -46616,14 +48689,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.exercise_fleet_exit_tip = {
-		tip = "This ship is currently part of an <color=#92fc63>Arena defensive fleet</color>. Are you sure you want to remove them?"
+	_G.pg.base.gametip.jiujiu_expedition_reward_tip = {
+		tip = "Explore the minigame stages to receive rewards!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.vote_not_enough = {
-		tip = "You do not have enough Ballots. "
+	_G.pg.base.gametip.buleprint_need_level_tip = {
+		tip = "The corresponding ship will be unlocked at Level $1."
 	}
 end)()
 
@@ -46663,7 +48736,7 @@ end)()
 
 (function()
 	_G.pg.base.gametip.buildship_new_tip = {
-		tip = "Rate UP for Clemenceau, Guichen, and more!"
+		tip = "Rate UP for Francesco Caracciolo and more!"
 	}
 end)()
 
@@ -46674,14 +48747,22 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_time_remaining_tip = {
-		tip = "Time Remaining: "
+	_G.pg.base.gametip.vote_help_2025 = {
+		tip = {
+			{
+				info = "<color=#FFDD00>Azur Lane Popularity Poll 2025 Information</color>\n\n- Overview -\n· Complete event missions to collect ballots and use them to vote for your favorite shipgirls and receive rewards based on how many votes you have cast.\n· Tap the Popularity Poll button in the top right corner on the main screen to view the event missions, current rankings, and cast votes in the active round.\n· The Popularity Poll is available from <color=#92fc63>December 4th, 2025 to 12 AM on February 2nd, 2026</color>.\n· The Daily Results board displays the current total votes in each round across all servers.\n· Excluding shipgirls already in the Hall of Fame, <color=#92fc63>all shipgirls that were available in the game before October 23rd, 2025</color> are eligible to participate. Collaboration characters (excluding blueprint ships), µ-rigging, Type II rigging, as well as alternate versions of shipgirls cannot participate in the poll, but META and Little shipgirls can be voted on in the special vote rounds.\n\n- Obtaining Ballots -\nAll Commanders who have reached Commander Level 25 are able to obtain <color=#92fc63>ballots</color> through the following means:\nQualifiers (Excluding Special Votes):\n· Completing the <color=#92fc63>daily missions</color> that appear during the poll <color=#92fc63>automatically awards you with ballots</color>. You can obtain up to a maximum of <color=#92fc63>20 ballots a day</color> this way.\n· Completing the <color=#92fc63>one-time missions</color> that appear during the poll <color=#92fc63>automatically awards you with ballots</color>. Each poll round has a limit on how many ballots may be obtained this way.\nFor more on the mission objectives and the maximum caps on ballots obtained, please check the Event Tasks tab.\n\nMax Ballot Caps for Each Round of the Poll:\nQualifiers: 480\nGroup A: 200\nGroup B: 200\nGroup C: 200\nGroup D: 200\nRepechage: 160\nFinals: 280\nWhenever a polling round finishes, your remaining ballots will be <color=#92fc63>automatically removed</color> and your progress on the event missions will <color=#92fc63>reset</color>.\nSpecial Votes:\nYou receive <color=#92fc63>1 ballot</color> a day when you log in to the game.\n\n- Voting Schedule -\nThe main and special votes follow the schedule below:\n<color=#92fc63>Qualifiers</color>: after the 12/4/2025 maintenance to 12/15/2025, 11:59 PM.\n<color=#92fc63>Group A</color>: from 12/18/2025, midnight to 12/22/2025, 11:59 PM.\n<color=#92fc63>Special Vote I</color>: from 12/23/2025, midnight to 12/25/2025, 11:59 PM.\n<color=#92fc63>Group B</color>: from 12/27/2025, midnight to 12/31/2025, 11:59 PM.\n<color=#92fc63>Special Vote II</color>: from 1/1/2026, midnight to 1/3/2026, 11:59 PM.\n<color=#92fc63>Group C</color>: from 1/5/2026, midnight to 1/9/2026, 11:59 PM.\n<color=#92fc63>Special Vote III</color>: from 1/10/2026, midnight to 1/12/2026, 11:59 PM.\n<color=#92fc63>Group D</color>: from 1/14/2026, midnight to 1/18/2026, 11:59 PM.\n<color=#92fc63>Repechage</color>: from 1/20/2026, midnight to 1/23/2026, 11:59 PM.\n<color=#92fc63>Finals</color>: from 1/27/2026, midnight to 2/2/2026, 11:59 PM.\n\nThe voting time and final results of each round are available on the <color=#92fc63>Daily Results</color>.\n\n- Round-Specific Rules -\n<color=#92fc63>Qualifiers</color>\nDuring the Qualifiers round, the total number of votes for each character will not be shown, only their current rankings.\nAll shipgirls are able to participate in this round, with the exception of: shipgirls in the Hall of Fame, collaboration characters (excluding blueprint ships), µ-rigging shipgirls, Type II-rigging shipgirls, alternate versions of shipgirls, META shipgirls, and Little shipgirls. The latter 5 types of shipgirls are treated the same as their originals.\nThe top 240 shipgirls with the most votes this round advance to the group votes. Each group consists of 60 shipgirls.\n\n<color=#92fc63>Group Votes</color>\nThe group votes will consist of all the winners from the qualifiers divided into 4 groups.\nThe top 5 shipgirls with the most votes in each group will advance to the finals. The shipgirls from 6th to 15th place will instead advance to the <color=#92fc63>repechage</color>.\n\n<color=#92fc63>Special Votes</color>\nThere will be a total of 3 special votes, one each dedicated to Sirens, META shipgirls, and Little shipgirls. The participants in this round cannot participate in the main poll.\n\n<color=#92fc63>Repechage</color>\nThe repechage will consist of all shipgirls who placed between 6th and 15th from each group during the group votes.\nThe top 15 shipgirls with the most votes in this round will advance to the finals.\n\n<color=#92fc63>Finals</color>\nA total of 20 participants from the group votes and 15 from the repechage will participate in the finals.\n\n- In Case of a Tie in Number of Votes -\nIn the <color=#92fc63>qualifiers</color>, if there occurs a tie in the number of votes between shipgirls, the winner will be chosen based on the order of who reached the final number of votes first.\nIn the <color=#92fc63>group votes</color>, the <color=#92fc63>repechage</color>, and the <color=#92fc63>finals</color>, the winner will be chosen based on the order of the final rankings in the qualifiers.\n"
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.multiple_ship_energy_low_warn_no_exp = {
-		tip = "<color=#92fc63FF>$2</color> currently has low morale! If you continue to force her to sortie, her <color=#ff5c5c>affection will decrease</color>! Are you sure you wish to continue?"
+	_G.pg.base.gametip.venusvolleyball_help = {
+		tip = {
+			{
+				info = "Event Rules:\n1. <color=#92fc63>A new match</color> will become available every day until\n<color=#92fc63>5/3</color> at midnight, up to a total of <color=#92fc63>7</color> matches. \nComplete all the matches to earn the limited gear, <color=#92fc63>\"Venus Awakening Gem,\"</color>as well as\nthe following item-<color=#92fc63>\"Favorite Food (Monica)\"</color>.\n2. Tap to start the game and choose two characters to enter the match.\nThe match will conclude when either side scores <color=#92fc63>5</color> points.\n3. A timing circle will appear when it's the player's turn to hit the ball.\nTap anywhere on the screen at the proper time to hit the ball.\n4. When the timing circle is between the outer and inner scoring circles,\na \"Good\" rating will be given. When the timing circle is tapped within the\ninner scoring circle, a \"Perfect\" rating will be given.\nIf the screen is not tapped, or tapped before the timing circle\nis allowed to retract, a \"Miss\" rating will be given.\nA \"Miss\" will result in the other side scoring.\nA Good or Perfect rating counts as a successful receive.\n5. If all matches have been unlocked, you may can repeat\nthe match on the same day. After completing all the matches,\nFree Play will be unlocked, allowing players to freely select\ntheir desired character to play with."
+			}
+		}
 	}
 end)()
 
@@ -46692,30 +48773,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.help_jiujiu_expedition_game = {
-		tip = {
-			{
-				info = "Minigame Rules:\n1. During the event, tap on a grid in the game area to\nexplore the zone. Each attempt requires exploration\npoints.\n2. Upon reaching 100% exploration in a zone, you\nmay progress to the next zone.\n3. You may only explore grids adjacent to areas you\nhave already explored. Exploration will further increase\nyour population.\n4. The stage has three types of grids: normal grids,\ntreasure grids, and combat grids. The rewards for\nexploring each type of grid differ.\nNotice: Treasure grids must be opened, and enemies\nmust defeated for treasure and combat grids to count\nas explored, respectively."
-			}
-		}
+	_G.pg.base.gametip.elite_condition_antiaircraft = {
+		tip = "Total AA"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_unequip_all_tip = {
-		tip = "Are you sure you want to unequip all gear?"
+	_G.pg.base.gametip.friend_confirm_add_blacklist = {
+		tip = "Are you sure you want to blacklist <color=#92fc63>$1</color>?\n(View your blacklist from your friends menu)"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_input_erro = {
-		tip = "Write the correct text to claim your items."
+	_G.pg.base.gametip.guild_shop_refresh_done = {
+		tip = "Shop refreshed."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_event_start_tip1 = {
-		tip = "A new Guild Operation has been started. Press the button to refresh this screen."
+	_G.pg.base.gametip.result_firework_produce = {
+		tip = "Fireworks production has been completed. Your final rating: "
 	}
 end)()
 
@@ -46726,8 +48803,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.jiujiu_expedition_reward_tip = {
-		tip = "Explore the minigame stages to receive rewards!"
+	_G.pg.base.gametip.new_airi_error_code_200236 = {
+		tip = "Payment cancelled"
 	}
 end)()
 
@@ -46744,14 +48821,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_shipState_rest = {
-		tip = "She's currently resting..."
+	_G.pg.base.gametip.exercise_replace_rivals_question = {
+		tip = "Spend <color=#92fc63>$1</color> Gems to refresh list of opponents?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_300102 = {
-		tip = "0"
+	_G.pg.base.gametip.intimacy_desc_2_detail = {
+		tip = "$1 wants to know you better.\n<color=#fad545><size=18>(No buff)</size></color>"
 	}
 end)()
 
@@ -46768,8 +48845,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.venusvolleyball_return_tip = {
-		tip = "Would you like to end the minigame?"
+	_G.pg.base.gametip.equipment_upgrade_overlimit = {
+		tip = "You cannot upgrade this item any further."
 	}
 end)()
 
@@ -46798,14 +48875,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.doa_jiqiao = {
-		tip = "TEC"
+	_G.pg.base.gametip.autofight_entrust = {
+		tip = "Urgent Commission Posted: $1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_buyExtendItem_question = {
-		tip = "This will cost <color=#92fc63>$1</color>. Are you sure you want to continue?"
+	_G.pg.base.gametip.autofight_discovery = {
+		tip = "Exploration Goals Achieved:$1"
 	}
 end)()
 
@@ -46822,26 +48899,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.common_no_rmb = {
-		tip = "You don't have enough <color=#92fc63>Gems</color>!"
+	_G.pg.base.gametip.valentinesday__txt1_tip = {
+		tip = "If you want to enjoy delicious chocolate, you'll have to gather the ingredients first."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.intimacy_desc_3_detail = {
-		tip = "$1 thinks you're a trustworthy Commander.\n<color=#92fc63><size=18>All stats (except Speed) +1%</size></color>"
+	_G.pg.base.gametip.valentinesday__txt2_tip = {
+		tip = "Do you need me to feed you the chocolate? Ehehe~"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.equipment_upgrade_overlimit = {
-		tip = "You cannot upgrade this item any further."
+	_G.pg.base.gametip.valentinesday__txt3_tip = {
+		tip = "There seems to... not be enough cocoa powder... Zzzzz"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.restart_music_game = {
-		tip = "Would you like to stop the song and start over?"
+	_G.pg.base.gametip.ship_remould_warning_303154 = {
+		tip = "<size=35>Completing the retrofit will change <color=#92fc63>$1</color>'s hull classification.\nHer Main Gun slot will change from equipping <color=#92fc63>CL Main Guns</color> to equipping <color=#92fc63>CA Main Guns</color>, so her currently equipped Main Gun will be unequipped.\nAny <color=#92fc63>Augment Modules</color> she can no longer use post-retrofit will be returned to your Depot.\nContinue with retrofit? <color=#92fc63><material=underline c=#A9F548 event=clickDetail>Details</material></color></size>"
 	}
 end)()
 
@@ -46852,14 +48929,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_preCombatLayer_sink_limit = {
-		tip = "Lose less than $1 ships"
+	_G.pg.base.gametip.battle_preCombatLayer_time_limit = {
+		tip = "Finish battle in $1 seconds"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.autofight_entrust = {
-		tip = "Urgent Commission Posted: $1"
+	_G.pg.base.gametip.valentinesday__shop_tip = {
+		tip = "Would you like to go to the Outfit Store?"
 	}
 end)()
 
@@ -46888,8 +48965,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.autofight_tip_bigworld_loop = {
-		tip = "Unable to reach destination; Auto-Search has been disabled."
+	_G.pg.base.gametip.battle_levelScene_0Oil = {
+		tip = "Oil Production is 0"
 	}
 end)()
 
@@ -46900,8 +48977,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_warning_310044 = {
-		tip = "Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed.\n<color=#92fc63>Secondary Weapon</color> will become <color=#92fc63>Water Detection</color> slot <color=#92fc63><material=underline c=#92fc63 event=clickDetail>(Info)</material></color>.\n<color=#92fc63>Your current Secondary Weapon</color> will be unequipped.\nWould you like to continue?"
+	_G.pg.base.gametip.sort_intimacy = {
+		tip = "Affinity"
 	}
 end)()
 
@@ -46918,14 +48995,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.valentinesday__txt1_tip = {
-		tip = "If you want to enjoy delicious chocolate, you'll have to gather the ingredients first."
+	_G.pg.base.gametip.world_joint_call_guild_support_txt = {
+		tip = "未配置tip"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.valentinesday__txt2_tip = {
-		tip = "Do you need me to feed you the chocolate? Ehehe~"
+	_G.pg.base.gametip.test_ship_intensify_tip = {
+		tip = "Engineers can't be enhanced!"
 	}
 end)()
 
@@ -46936,14 +49013,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.valentinesday__txt4_tip = {
-		tip = "The chocolate is ready. Don't forget to pick up your reward."
+	_G.pg.base.gametip.world_word_guild_member = {
+		tip = "Guild member"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.valentinesday__txt5_tip = {
-		tip = "You should collect some chocolate ingredients first."
+	_G.pg.base.gametip.world_sametask_tip = {
+		tip = "Unable to accept mission: Only one of the same mission can be active."
 	}
 end)()
 
@@ -46954,45 +49031,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_instruction_help_1 = {
-		tip = {
-			{
-				info = "About Orders:"
-			},
-			{
-				info = "During Operation Siren, you can issue orders to aid you in the operation. Issuing orders costs Action Points.\n\n"
-			},
-			{
-				info = "1. Order: Fleet Redeployment"
-			},
-			{
-				info = "If there is a friendly port in the zone you are in, you can use Action Points to dock at it and change your active fleet composition."
-			},
-			{
-				info = "Redeploying your fleet will repair your ships to full HP and fully restore their Resolve (Operation Siren-only Morale, in essence) in addition to clearing any debuffs they may have.\n\n"
-			},
-			{
-				info = "2. Order: Regroup and Rest"
-			},
-			{
-				info = "Issuing this order will repair your ships to full HP and fully restore their Resolve in addition to clearing the Tolls of War debuff.\n\n"
-			},
-			{
-				info = "3. Order: Reconnaissance"
-			},
-			{
-				info = "This will commence reconnaissance over a zone and give you a more detailed overview of it.\n\n"
-			},
-			{
-				info = "4. Order: Submarine Support"
-			},
-			{
-				info = "Issuing this order will deploy your submarine fleet in the target zone. You must have already created a valid submarine fleet to issue this order."
-			},
-			{
-				info = "This submarine fleet works much the same as the one outside Operation Siren; the submarine fleet’s mode of attack can be changed using the panel on the right-hand side of the screen, and it can be called into battle to provide direct support."
-			}
-		}
+	_G.pg.base.gametip.search_equipment = {
+		tip = "Search Gear by Name"
 	}
 end)()
 
@@ -47003,30 +49043,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.help_chunjie2021_feast = {
-		tip = {
-			{
-				info = "Event Duration: 2/4/2021 - 2/19/2021\nSpring Festival Event Contents:"
-			},
-			{
-				info = "- Fu Shun's Great Adventure II: Defeat Nian beasts\nto get the destroyer, Fu Shun!"
-			},
-			{
-				info = "- Ying Swei's Spring Travels: Log in every day,\nexplore, and get Red Envelopes as well as Ying Swei's limited outfit!"
-			},
-			{
-				info = "- Drawing Book: Complete the drawings to get the destroyer, An Shan!"
-			},
-			{
-				info = "- Manjuu Resort: Open up the Red Envelopes you've won from various minigames here."
-			},
-			{
-				info = "- Outfit Store: Head to check out the new Lunar New Year-themed outfits."
-			},
-			{
-				info = "- Limited Construction: Head to the Build page."
-			}
-		}
+	_G.pg.base.gametip.world_map_version = {
+		tip = "This zone will be reset because assets have been updated. "
 	}
 end)()
 
@@ -47037,20 +49055,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_joint_whitout_guild = {
-		tip = "You haven’t joined a Guild yet. "
+	_G.pg.base.gametip.ship_remould_material_ship_on_exist = {
+		tip = "Selected material ship does not exist."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_equipment_equip = {
-		tip = "Auxiliary"
+	_G.pg.base.gametip.meta_sys_lock_tip = {
+		tip = "未配置tip"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.Settings_title_sound = {
-		tip = "Audio Settings"
+	_G.pg.base.gametip.ship_profile_label_diff = {
+		tip = "Expressions"
 	}
 end)()
 
@@ -47061,8 +49079,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_word_guild_member = {
-		tip = "Guild member"
+	_G.pg.base.gametip.channel_name_3 = {
+		tip = "Notice"
 	}
 end)()
 
@@ -47189,8 +49207,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.login_newPlayerScene_word_biaoqiang = {
-		tip = "I'm Javelin! Commander, I've already told you my name... Now you have to tell me yours!"
+	_G.pg.base.gametip.autofight_function1 = {
+		tip = "Escorts"
 	}
 end)()
 
@@ -47201,8 +49219,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.meta_energy_ship_level_need = {
-		tip = "Level Requirement: $1/$2"
+	_G.pg.base.gametip.world_boss_ad = {
+		tip = "[$1] Lv. $2 "
 	}
 end)()
 
@@ -47213,14 +49231,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equipment_skin_no_old_skinorequipment = {
-		tip = "The (old ship) has no weapon or weapon skin equipped/applied"
+	_G.pg.base.gametip.world_boss_drop_title = {
+		tip = "未配置tip"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.meta_voice_name_feeling3 = {
-		tip = "Friend"
+	_G.pg.base.gametip.world_boss_pt_recove_desc = {
+		tip = "$1 Challenge Attempts will be restored each day at midnight. "
 	}
 end)()
 
@@ -47247,14 +49265,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_boss_drop_title = {
-		tip = "未配置tip"
+	_G.pg.base.gametip.meta_energy_ship_level_need = {
+		tip = "Level Requirement: $1/$2"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_boss_pt_recove_desc = {
-		tip = "$1 Challenge Attempts will be restored each day at midnight. "
+	_G.pg.base.gametip.equip_ammo_type_5 = {
+		tip = "Normal "
 	}
 end)()
 
@@ -47265,8 +49283,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.autofight_function1 = {
-		tip = "Escorts"
+	_G.pg.base.gametip.word_shipskin = {
+		tip = "Special"
 	}
 end)()
 
@@ -47277,8 +49295,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.meta_energy_preview_tip = {
-		tip = "*Does not include effects from affection or oath. "
+	_G.pg.base.gametip.attribute_durability = {
+		tip = "HP"
 	}
 end)()
 
@@ -47289,8 +49307,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equip_ammo_type_5 = {
-		tip = "Normal "
+	_G.pg.base.gametip.Normalbuild_URexchange_text2 = {
+		tip = "Total"
 	}
 end)()
 
@@ -47307,26 +49325,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_boss_daily_limit = {
-		tip = "Insufficient analysis attempts. "
+	_G.pg.base.gametip.guild_word_apply = {
+		tip = "Apply"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.meta_pt_notenough = {
-		tip = "Insufficient Sync Points. Participate in <color=#92fc63>Operation Siren</color> to earn more!"
+	_G.pg.base.gametip.world_setting_submititem = {
+		tip = "Auto use items during Auto Search"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_take_effect = {
-		tip = " in Effect "
+	_G.pg.base.gametip.world_setting_submititemtip = {
+		tip = "When enabled: During Auto Search mode, items will automatically be used when encountering events that normally require the use of items.\nWhen disabled: During Auto Search mode, events that normally require the use of items will be ignored."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_mod_word_unlock = {
-		tip = "Unlocks voice line: $1"
+	_G.pg.base.gametip.world_boss_maintenance = {
+		tip = "You are unable to begin an META Showdown immediately before server maintenance. "
 	}
 end)()
 
@@ -47343,38 +49361,38 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.destory_ship_before_tip = {
-		tip = "Continue?\n\n"
+	_G.pg.base.gametip.destroy_high_rarity_tip = {
+		tip = "<color=#92fc63>Elite and above</color>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.elite_condition_air = {
-		tip = "Total AVI"
+	_G.pg.base.gametip.new_airi_error_code_300300 = {
+		tip = "Yostar account binding failed"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_cant_put_tip = {
-		tip = "Unable to place."
+	_G.pg.base.gametip.word_kiss = {
+		tip = "*Mwah!*"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.wwf_bamboo_tip3 = {
-		tip = "Not enough Tasty Bamboo. Complete missions to get more!"
+	_G.pg.base.gametip.word_attr_antiaircraft = {
+		tip = "AA "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_setting_submititem = {
-		tip = "Auto use items during Auto Search"
+	_G.pg.base.gametip.charge_limit_lv = {
+		tip = "Unlocks lv. $1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_boss_maintenance = {
-		tip = "You are unable to begin an META Showdown immediately before server maintenance. "
+	_G.pg.base.gametip.world_automode_setting_1_1 = {
+		tip = "4 and under"
 	}
 end)()
 
@@ -47397,20 +49415,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_storeroom_max_4 = {
-		tip = "Claiming these Coins will put you over your max capacity."
+	_G.pg.base.gametip.word_skill_desc_learn = {
+		tip = "($1)"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.login_loginScene_error_diffPassword = {
-		tip = "Passwords do not match."
+	_G.pg.base.gametip.world_automode_setting_all_1_2 = {
+		tip = "Continue Strategic Search"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.title_item_ways = {
-		tip = "<color=#92fc63>$1</color> can be obtained through the following methods "
+	_G.pg.base.gametip.battle_resourceSiteMediator_ok_end = {
+		tip = "Ship recalled."
 	}
 end)()
 
@@ -47446,8 +49464,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ranking_word_2 = {
-		tip = "Collection Rate"
+	_G.pg.base.gametip.word_live2dfiles_checking_title = {
+		tip = "Verifying..."
 	}
 end)()
 
@@ -47458,8 +49476,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_warning_520044 = {
-		tip = "Completing the retrofit will change the ship's designation into:\nGuided-Missile Destroyer (Vanguard Mode)\nHer stats and combat performance may change significantly.\nProceed with retrofit?"
+	_G.pg.base.gametip.tactics_noskill_erro = {
+		tip = "Skill must exist."
 	}
 end)()
 
@@ -47470,8 +49488,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_99901 = {
-		tip = "<size=28>Would you like to start a Battle Simulation? <color=#ff5c5c>Note: the Priority ship's stats and abilities may differ from its fully developed equivalent.</color>\nEquipped gear:<color=#92fc63>\nQuadruple 380mm Main Gun (Mle 1935)\nTriple 152mm Main Gun (Mle 1930)\nTwin 37mm AA Gun (Mle 1936)</color></size>"
+	_G.pg.base.gametip.event_finish = {
+		tip = "Complete"
 	}
 end)()
 
@@ -47482,8 +49500,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_automode_setting_new_1 = {
-		tip = "Auto-Search by Corrosion Level"
+	_G.pg.base.gametip.same_player_name_tip = {
+		tip = "You cannot use this name "
 	}
 end)()
 
@@ -47506,8 +49524,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip["card_battle_card details_hand"] = {
-		tip = "Selected Command"
+	_G.pg.base.gametip.spweapon_ui_empty = {
+		tip = "No Augment Modules found."
 	}
 end)()
 
@@ -47518,8 +49536,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.text_win_condition = {
-		tip = "Win conditions:"
+	_G.pg.base.gametip.island_trade_sell_failed_label = {
+		tip = "Cannot complete sale; amount owned is insufficient"
 	}
 end)()
 
@@ -47542,8 +49560,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.charge_error_disable = {
-		tip = "The store payment processor is currently under maintenance."
+	_G.pg.base.gametip.word_random = {
+		tip = "Random"
 	}
 end)()
 
@@ -47566,8 +49584,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_ship_repair = {
-		tip = "Please select target:"
+	_G.pg.base.gametip.err_name_existOtherChar = {
+		tip = "No special characters allowed."
 	}
 end)()
 
@@ -47614,26 +49632,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.elite_warp_to_latest_map = {
-		tip = "Viewing newest chapter."
+	_G.pg.base.gametip.common_feed = {
+		tip = "Feed"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.dont_remind_today = {
-		tip = "Notified"
+	_G.pg.base.gametip.meta_pt_notenough = {
+		tip = "Insufficient Sync Points. Participate in <color=#92fc63>Operation Siren</color> to earn more!"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.attribute_angle = {
-		tip = "Firing Angle"
+	_G.pg.base.gametip.number_0 = {
+		tip = "0"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_storeroom_max_3 = {
-		tip = "Claiming this Oil will put you over your max capacity."
+	_G.pg.base.gametip.draw_big_luck_2 = {
+		tip = "How fortunate nya! You're making me jealous nya~"
 	}
 end)()
 
@@ -47668,8 +49686,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.common_feed = {
-		tip = "Feed"
+	_G.pg.base.gametip.word_investigate = {
+		tip = "Recon "
 	}
 end)()
 
@@ -47680,8 +49698,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_word_friend = {
-		tip = "Friends "
+	_G.pg.base.gametip.anniversary_task_title_6 = {
+		tip = "The possibilities of the world branch out before my eyes. As I walk, I find myself where I started again and again."
 	}
 end)()
 
@@ -47704,45 +49722,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.MeixiV4_help = {
-		tip = {
-			{
-				info = "\"Silver Archives\" Prelude Event Info:"
-			},
-			{
-				info = "1. During the event, clear the available event mission to unlock the next mission."
-			},
-			{
-				info = "2. Complete missions to get rewards including the limited gear Action Report: Operation AF."
-			},
-			{
-				info = "3. Each days' rewards are as follows:\nMission 1: 5 T2 Plates, 100 Coins.\nMission 2: Unlocks Part 1 of the event story.\nMission 3: 2 T2 Retrofit Blueprints.\nMission 4: 100 Coins.\nMission 5: 3 T2 Tech Packs, 100 Coins.\nMission 6: Unlocks Part 2 of the event story.\nMission 7: 3 Naval Curry.\nMission 8: 100 Coins.\nMission 9: T3 Tech Pack, 100 Coins.\nMission 10: Unlocks Part 3 of the event story.\nMission 11: 2 T3 Skill Books.\nMission 12: 100 Coins.\nMission 13: Action Report: Operation AF, 100 Coins.\nMission 14: Unlocks Part 4 of the event story."
-			}
-		}
+	_G.pg.base.gametip.memory_activity_sp = {
+		tip = "Special"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_investigate = {
-		tip = "Recon "
+	_G.pg.base.gametip.backyard_extendCapacity_error = {
+		tip = "Expansion failed: "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.onebutton_max_tip = {
-		tip = "Batch Analysis "
+	_G.pg.base.gametip.meta_skill_learn = {
+		tip = "*Tap to change the skill you'd like to upgrade."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_newSkinLayer_get = {
-		tip = "Receive <color=#92fc63>$1</color> skin - <color=#92fc63>$2</color>"
+	_G.pg.base.gametip.equip_ammo_type_9 = {
+		tip = "Contact"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.anniversary_task_title_7 = {
-		tip = "But I believe that the light of dawn will not abandon me. I know that I will be able to find my way to your side."
+	_G.pg.base.gametip.common_no_item = {
+		tip = "You don't have enough <color=#92fc63>[$1]</color>!"
 	}
 end)()
 
@@ -47753,20 +49758,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_fleet_in_vortex = {
-		tip = "The fleet has been caught in a Maelstrom and has restricted movement. "
+	_G.pg.base.gametip.tec_tip_no_consumption = {
+		tip = "Free"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.equipment_equipmentScene_selectError_more = {
-		tip = "May select up to <color=#92fc63>$1</color> pieces of gear"
+	_G.pg.base.gametip.tec_tip_material_stock = {
+		tip = "Owned"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.idolmaster_game_tip5 = {
-		tip = "Score"
+	_G.pg.base.gametip.autofight_function3 = {
+		tip = "All Enemies"
 	}
 end)()
 
@@ -47777,8 +49782,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.activity_puzzle_get9 = {
-		tip = "<color=#A9F548FF>How to get: Normal difficulty 3-2</color>"
+	_G.pg.base.gametip.new_airi_error_code_100117 = {
+		tip = "Missing parameters"
 	}
 end)()
 
@@ -47793,14 +49798,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.memory_activity_sp = {
-		tip = "Special"
+	_G.pg.base.gametip.equipskin_typewrong = {
+		tip = "— No match for selected skin —"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.meta_skill_learn = {
-		tip = "*Tap to change the skill you'd like to upgrade."
+	_G.pg.base.gametip.equipskin_typewrong_en = {
+		tip = "Gear Skin Unavailable "
 	}
 end)()
 
@@ -47811,14 +49816,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.meta_tactics_detail = {
-		tip = "Details"
+	_G.pg.base.gametip.class_attr_costproficiency = {
+		tip = "EXP Production"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.meta_tactics_switch = {
-		tip = "Upgraded"
+	_G.pg.base.gametip.class_label_upgrading = {
+		tip = "Upgrading"
 	}
 end)()
 
@@ -47841,20 +49846,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tec_tip_no_consumption = {
-		tip = "Free"
+	_G.pg.base.gametip.player_expResource_mail_fullBag = {
+		tip = "You won't be able to collect resources that exceed the storage limit. Are you sure you want to continue?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_wind_move = {
-		tip = "Cannot proceed to the target zone. Please first move the fleet that is in the target zone. "
+	_G.pg.base.gametip.player_expResource_mail_overflow = {
+		tip = "You won't be able to collect $1 that exceed the storage limit. Are you sure you want to continue? "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.autofight_function3 = {
-		tip = "All Enemies"
+	_G.pg.base.gametip.coures_exp_overflow_tip = {
+		tip = "The <color=#ffde38>$1</color> EXP exceeding this ship's level cap will be lost. Are you sure you want to continue?"
 	}
 end)()
 
@@ -47869,8 +49874,12 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100117 = {
-		tip = "Missing parameters"
+	_G.pg.base.gametip.battlepass_main_help_2110 = {
+		tip = {
+			{
+				info = "Cruise Missions Seasonal Campaign\n10/1 0:00 - 11/30 23:59\n\n- Overview -\n\"Cruise Missions\" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.\nAdditionally, you can unlock an additional set of \"Fair Winds Cruise\" rewards by purchasing the \"Fair Winds Cruise Pass\" item from Akashi's shop.\nFusou META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfit for Yorktown, \"Saintly Wings.\"\n\n- How to Play -\n· Two types of missions will be released at the same time at the start of the campaign season:\na) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.\nb) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.\n· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.\n· If you purchase a Fair Winds Cruise Pass, you will automatically receive 15 levels worth of progress (1500 Progress Pts).\n· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:\na) Cruise Rewards - Rewards that can be obtained based on the total number of accumulated Progress Pts. There are a total of 100 levels.\nb) Fair Winds Rewards - An additional set of rewards that will be unlocked when you purchase a Fair Winds Cruise Pass. As with the regular Cruise Rewards, there are a total of 100 levels, and they can be collected alongside Cruise Rewards at the same Progress level.\n· When the campaign season ends, your Progress Pts will be reset.\n\n- Tips - \n· Play at your own pace\nCruise Missions have a total of 100 Progress levels, and are not meant to be cleared in one session. We recommend that you complete them at your own pace.\n\n· Fair Winds Cruise Pass\nIf. you purchase a Fair Winds Cruise Pass from Akashi's shop, you will automatically earn 1500 Progress Pts and unlock access to valuable rewards. Furthermore, there is an exclusive outfit available only through the Fair Winds rewards, so please plan accordingly.\n\n· Skipping Missions (not recommended)\nYou can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.\nWe do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.\nAny purchased Cruise Mission Vouchers will remain even after the campaign season ends."
+			}
+		}
 	}
 end)()
 
@@ -47899,8 +49908,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.option_desc5 = {
-		tip = "When toggled ON, displays a tap effect when you tap the screen."
+	_G.pg.base.gametip.resource_clear_all = {
+		tip = "Would you like to clear your cache data? \nThe game will automatically restart upon completion. "
 	}
 end)()
 
@@ -47911,8 +49920,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.coures_exp_overflow_tip = {
-		tip = "The <color=#ffde38>$1</color> EXP exceeding this ship's level cap will be lost. Are you sure you want to continue?"
+	_G.pg.base.gametip.new_airi_error_code_100170 = {
+		tip = "Invalid birthday format"
 	}
 end)()
 
@@ -47941,8 +49950,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battlepass_pay_acquire = {
-		tip = "Buy Now to Get:"
+	_G.pg.base.gametip.commander_anyone_is_in_fleet = {
+		tip = "The selected Meowfficer is already in a fleet."
 	}
 end)()
 
@@ -47953,8 +49962,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_task_view2 = {
-		tip = "Current Location："
+	_G.pg.base.gametip.anniversary_task_title_4 = {
+		tip = "But now, when I think about your smile in the first rays of the dawn, I am inspired to sing about the future yet to come."
 	}
 end)()
 
@@ -47965,14 +49974,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_shipType_qinXun = {
-		tip = "Light Cruiser"
+	_G.pg.base.gametip.attr_antisub = {
+		tip = "ASW"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.newplayer_notice_7 = {
-		tip = "Unlocked after completing previous mission"
+	_G.pg.base.gametip.exchangecode_use_error_3 = {
+		tip = "Code has expired."
 	}
 end)()
 
@@ -48001,8 +50010,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.attr_antisub = {
-		tip = "ASW"
+	_G.pg.base.gametip.level_fleet_not_enough = {
+		tip = "Failed to form this fleet. Unable to attack."
 	}
 end)()
 
@@ -48019,8 +50028,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_anyone_is_in_fleet = {
-		tip = "The selected Meowfficer is already in a fleet."
+	_G.pg.base.gametip.world_automode_setting_all_2_2 = {
+		tip = "Every 100 Coordinates"
 	}
 end)()
 
@@ -48031,8 +50040,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.anniversary_task_title_4 = {
-		tip = "But now, when I think about your smile in the first rays of the dawn, I am inspired to sing about the future yet to come."
+	_G.pg.base.gametip.word_angry = {
+		tip = "<color=#E40006>Angry</color>"
 	}
 end)()
 
@@ -48049,8 +50058,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_400050 = {
-		tip = "The Nintendo account has not been bound to a Yostar account"
+	_G.pg.base.gametip.Settings_title_resManage_Main = {
+		tip = "Manage Main Assets"
 	}
 end)()
 
@@ -48067,8 +50076,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.Settings_title_Notification = {
-		tip = "Push Notifications"
+	_G.pg.base.gametip.world_boss_progress_tip_desc = {
+		tip = "When toggled, this function determines how often you will receive pop-up prompts when collecting Coordinates during Operation Siren.\nOFF: Never\nEvery 100: Reminders will appear at 100 and 200 Coordinates\nEvery 200: Reminders will appear only at 200 Coordinates"
 	}
 end)()
 
@@ -48109,20 +50118,24 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_levelScene_0Oil = {
-		tip = "Oil Production is 0"
+	_G.pg.base.gametip.word_live2dfiles_checkend_title = {
+		tip = "Character Live2D Pack Verification Completed"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.mini_game_leave = {
-		tip = "Quit the game?"
+	_G.pg.base.gametip.ssss_medal_tip = {
+		tip = {
+			{
+				info = "- Overview -\n\n· \"Akane's Collection\" is a special campaign in which you can unlock data files about Siren foes by completing certain achievements. Unlock all the data files to get the exclusive \"SSSS Commemoration\" furniture.\n\n· You must collect the SSSS Commemoration before 8/09 23:59 (UTC-7)."
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.attr_air = {
-		tip = "AVI"
+	_G.pg.base.gametip.blueprint_select_overflow_tip = {
+		tip = "You are exchanging for <color=#ff5c5c>$2</color> more <color=#22ff22>$1</color> than you need."
 	}
 end)()
 
@@ -48133,14 +50146,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ssssmedal_belonging2 = {
-		tip = "Some higher-up?"
+	_G.pg.base.gametip.new_airi_error_code_200240 = {
+		tip = "Current API version does not support the request"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ssssmedal_desc4 = {
-		tip = "An augmented Smasher-type Siren, equipped with extremely powerful firearms."
+	_G.pg.base.gametip.tag_ship_locked = {
+		tip = "Entry Locked"
 	}
 end)()
 
@@ -48169,14 +50182,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tag_ship_locked = {
-		tip = "Entry Locked"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_level_no_enough = {
-		tip = "The Guild does not meet the level requirement to start a Guild Operation."
+	_G.pg.base.gametip.setting_resdownload_title_live2d = {
+		tip = "Update Live2D"
 	}
 end)()
 
@@ -48187,14 +50194,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.equip_enhancement_tip = {
+		tip = "Insufficient Materials"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.child_refresh_sure_tip = {
 		tip = "Start growth from the beginning?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_theme_delete_themplate_tip = {
-		tip = "Are you sure you want to delete this loadout? Once deleted, you will lose all Likes and Favorites associated with that loadout."
+	_G.pg.base.gametip.shop_charge_level_limit = {
+		tip = " Unlocks at Lv."
 	}
 end)()
 
@@ -48205,8 +50218,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.nodisplay_player_home_share = {
-		tip = "Layout"
+	_G.pg.base.gametip.area_yaosai_2 = {
+		tip = "Siren-Occupied Zone"
 	}
 end)()
 
@@ -48229,14 +50242,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shipmodechange_reject_worldfleet_only = {
-		tip = "You cannot leave this fleet without at least 1 Vanguard/Main Fleet ship. Edit your fleet formation and try again."
+	_G.pg.base.gametip.guild_event_recomm_ship_failed = {
+		tip = "There are no ships that meet the conditions."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_event_recomm_ship_failed = {
-		tip = "There are no ships that meet the conditions."
+	_G.pg.base.gametip.shipmodechange_reject_worldfleet_only = {
+		tip = "You cannot leave this fleet without at least 1 Vanguard/Main Fleet ship. Edit your fleet formation and try again."
 	}
 end)()
 
@@ -48253,18 +50266,18 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tech_catchup_sentence_pauses = {
-		tip = "—"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.cruise_task_help_2212 = {
 		tip = {
 			{
 				info = "- Regarding Cruise Missions - \n· Two types of missions will be released at the same time at the start of the campaign season:\na) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.\nb) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.\n\n· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.\n\n· You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.\nWe do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.\nAny purchased Cruise Mission Vouchers will remain even after the campaign season ends."
 			}
 		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_rename_success_tip = {
+		tip = "Name change successful."
 	}
 end)()
 
@@ -48281,8 +50294,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.common_limit_cmd = {
-		tip = "Commander, now is not the time to give this command~!"
+	_G.pg.base.gametip.levelScene_chapter_open_count_down = {
+		tip = "Open time:"
 	}
 end)()
 
@@ -48299,8 +50312,12 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ambush_display_2 = {
-		tip = "V.Low"
+	_G.pg.base.gametip.blackfriday_help = {
+		tip = {
+			{
+				info = "Event Rules:\n1. During the event, the purchase of each limited rerun outfit will unlock 1 Tier of the reward list that you can claim immediately.\n2. The event's limited furniture is also purchasable in the Dorm. If you've bought the furniture before claiming your reward from the event, then when you claim the reward, the rewarded limited furniture will be converted into Gems of the same value automatically.\n3. If the number of rerun outfits you do not own is less than 6, you will get the corresponding Tier rewards from Akashi's Fire Sale directly.\n4. Purchasing the Black Friday Lucky Bag (2022) will unlock 1 Tier of the reward list no matter if you get a new skin or a skin you already have."
+			}
+		}
 	}
 end)()
 
@@ -48311,8 +50328,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_skin_no_choose = {
-		tip = "You have not selected a ship to change. Close without making any changes?"
+	_G.pg.base.gametip.world_instruction_detect_1 = {
+		tip = "Spent $1 AP to request reconnaissance?"
 	}
 end)()
 
@@ -48323,8 +50340,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100113 = {
-		tip = "Account binding success; Verification failed"
+	_G.pg.base.gametip.new_skin_no_choose = {
+		tip = "You have not selected a ship to change. Close without making any changes?"
 	}
 end)()
 

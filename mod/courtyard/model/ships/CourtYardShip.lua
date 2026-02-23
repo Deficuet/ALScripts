@@ -28,6 +28,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 
 	arg_1_0.state = var_0_0.STATE_IDLE
 	arg_1_0.moveCnt = 0
+	arg_1_0.sideIndex = 0
 end
 
 function var_0_0.GetLevel(arg_2_0)
@@ -182,6 +183,20 @@ function var_0_0.GetState(arg_26_0)
 end
 
 function var_0_0.GetPrefab(arg_27_0)
+	local var_27_0 = pg.ship_skin_template[arg_27_0.skinId]
+
+	assert(var_27_0, "ship_skin_template not exist: " .. arg_27_0.configId .. " " .. arg_27_0.skinId)
+
+	if var_27_0.double_char and var_27_0.double_char == 1 and arg_27_0.sideIndex and arg_27_0.sideIndex ~= 0 then
+		local var_27_1
+
+		if arg_27_0.sideIndex == 1 then
+			return arg_27_0.prefab .. "_L"
+		elseif arg_27_0.sideIndex == 2 then
+			return arg_27_0.prefab .. "_R"
+		end
+	end
+
 	return arg_27_0.prefab
 end
 
@@ -189,74 +204,90 @@ function var_0_0.getPrefab(arg_28_0)
 	return arg_28_0:GetPrefab()
 end
 
-function var_0_0.getAttachmentPrefab(arg_29_0)
-	return arg_29_0.attachments
+function var_0_0.SetSide(arg_29_0, arg_29_1)
+	arg_29_0.sideIndex = arg_29_1
 end
 
-function var_0_0.GetMoveTime(arg_30_0)
-	return arg_30_0.moveTime
+function var_0_0.GetSide(arg_30_0, arg_30_1)
+	return arg_30_0.sideIndex
 end
 
-function var_0_0.Clear(arg_31_0)
-	if arg_31_0.timer then
-		arg_31_0.timer:Stop()
+function var_0_0.IsDoubleSkin(arg_31_0)
+	local var_31_0 = pg.ship_skin_template[arg_31_0.skinId]
 
-		arg_31_0.timer = nil
+	assert(var_31_0, "ship_skin_template not exist: " .. arg_31_0.configId .. " " .. arg_31_0.skinId)
+
+	return var_31_0.double_char and var_31_0.double_char == 1 or false
+end
+
+function var_0_0.getAttachmentPrefab(arg_32_0)
+	return arg_32_0.attachments
+end
+
+function var_0_0.GetMoveTime(arg_33_0)
+	return arg_33_0.moveTime
+end
+
+function var_0_0.Clear(arg_34_0)
+	if arg_34_0.timer then
+		arg_34_0.timer:Stop()
+
+		arg_34_0.timer = nil
 	end
 end
 
-function var_0_0.ChangeInimacy(arg_32_0, arg_32_1)
-	arg_32_0.inimacy = arg_32_1
+function var_0_0.ChangeInimacy(arg_35_0, arg_35_1)
+	arg_35_0.inimacy = arg_35_1
 
-	arg_32_0:DispatchEvent(CourtYardEvent.SHIP_INIMACY_CHANGE, arg_32_1)
+	arg_35_0:DispatchEvent(CourtYardEvent.SHIP_INIMACY_CHANGE, arg_35_1)
 end
 
-function var_0_0.ChangeCoin(arg_33_0, arg_33_1)
-	arg_33_0.coin = arg_33_1
+function var_0_0.ChangeCoin(arg_36_0, arg_36_1)
+	arg_36_0.coin = arg_36_1
 
-	arg_33_0:DispatchEvent(CourtYardEvent.SHIP_COIN_CHANGE, arg_33_1)
+	arg_36_0:DispatchEvent(CourtYardEvent.SHIP_COIN_CHANGE, arg_36_1)
 end
 
-function var_0_0.ClearInimacy(arg_34_0)
-	local var_34_0 = arg_34_0.inimacy
+function var_0_0.ClearInimacy(arg_37_0)
+	local var_37_0 = arg_37_0.inimacy
 
-	if var_34_0 <= 0 then
+	if var_37_0 <= 0 then
 		return
 	end
 
-	arg_34_0:ChangeInimacy(0)
-	arg_34_0:ChangeState(var_0_0.STATE_GETAWARD)
-	arg_34_0:DispatchEvent(CourtYardEvent.SHIP_GET_AWARD, var_34_0, 2)
+	arg_37_0:ChangeInimacy(0)
+	arg_37_0:ChangeState(var_0_0.STATE_GETAWARD)
+	arg_37_0:DispatchEvent(CourtYardEvent.SHIP_GET_AWARD, var_37_0, 2)
 end
 
-function var_0_0.ClearCoin(arg_35_0)
-	local var_35_0 = arg_35_0.coin
+function var_0_0.ClearCoin(arg_38_0)
+	local var_38_0 = arg_38_0.coin
 
-	if var_35_0 <= 0 then
+	if var_38_0 <= 0 then
 		return
 	end
 
-	arg_35_0:ChangeCoin(0)
-	arg_35_0:ChangeState(var_0_0.STATE_GETAWARD)
-	arg_35_0:DispatchEvent(CourtYardEvent.SHIP_GET_AWARD, var_35_0, 1)
+	arg_38_0:ChangeCoin(0)
+	arg_38_0:ChangeState(var_0_0.STATE_GETAWARD)
+	arg_38_0:DispatchEvent(CourtYardEvent.SHIP_GET_AWARD, var_38_0, 1)
 end
 
-function var_0_0.AddExp(arg_36_0, arg_36_1)
-	arg_36_0:DispatchEvent(CourtYardEvent.SHIP_GET_AWARD, arg_36_1, 3)
+function var_0_0.AddExp(arg_39_0, arg_39_1)
+	arg_39_0:DispatchEvent(CourtYardEvent.SHIP_GET_AWARD, arg_39_1, 3)
 end
 
-function var_0_0.GetInterActionBgm(arg_37_0)
+function var_0_0.GetInterActionBgm(arg_40_0)
 	return nil
 end
 
-function var_0_0.Dispose(arg_38_0)
-	var_0_0.super.Dispose(arg_38_0)
-	arg_38_0:Clear()
+function var_0_0.Dispose(arg_41_0)
+	var_0_0.super.Dispose(arg_41_0)
+	arg_41_0:Clear()
 
-	local var_38_0 = arg_38_0:GetInterActionData()
+	local var_41_0 = arg_41_0:GetInterActionData()
 
-	if var_38_0 then
-		var_38_0:Stop()
+	if var_41_0 then
+		var_41_0:Stop()
 	end
 end
 

@@ -27,7 +27,7 @@ function var_0_0.Execute(arg_2_0)
 		arg_2_0:ExitWorldBossSystem(var_2_0)
 	elseif var_2_1 == SYSTEM_WORLD then
 		arg_2_0:ExitWorldSystem(var_2_0)
-	elseif var_2_1 == SYSTEM_BOSS_RUSH or var_2_1 == SYSTEM_BOSS_RUSH_EX then
+	elseif var_2_1 == SYSTEM_BOSS_RUSH or var_2_1 == SYSTEM_BOSS_RUSH_EX or var_2_1 == SYSTEM_BOSS_RUSH_COLLABRATE then
 		if arg_2_0:CheckBossRushSystem(var_2_0) then
 			arg_2_0:ResultRushBossSystem(var_2_0)
 		end
@@ -139,7 +139,7 @@ function var_0_0.ExitWorldBossSystem(arg_9_0, arg_9_1)
 	local var_9_0 = getProxy(ContextProxy):getContextByMediator(WorldBossMediator)
 	local var_9_1 = var_9_0:getContextByMediator(WorldBossFormationMediator)
 
-	if var_9_1 then
+	if var_9_1 and not arg_9_1.isSimulate then
 		var_9_0:removeChild(var_9_1)
 	end
 
@@ -200,8 +200,19 @@ function var_0_0.ExitRushBossSystem(arg_13_0, arg_13_1, arg_13_2)
 	local var_13_1 = arg_13_1.actId
 	local var_13_2 = arg_13_2.seriesData
 	local var_13_3 = arg_13_1.score > ys.Battle.BattleConst.BattleScore.C
-	local var_13_4 = var_13_0 == SYSTEM_BOSS_RUSH and BossRushBattleResultMediator or BossRushBattleResultMediator
-	local var_13_5 = var_13_0 == SYSTEM_BOSS_RUSH and BossRushBattleResultLayer or BossRushConst.GetEXBattleResultLayer(var_13_1)
+	local var_13_4
+	local var_13_5
+
+	if var_13_0 == SYSTEM_BOSS_RUSH_COLLABRATE then
+		var_13_4 = BossRushDALBattleResultMediator
+		var_13_5 = BossRushDALBattleResultLayer
+	elseif var_13_0 == SYSTEM_BOSS_RUSH_EX then
+		var_13_4 = BossRushBattleResultMediator
+		var_13_5 = BossRushConst.GetEXBattleResultLayer(var_13_1)
+	else
+		var_13_4 = BossRushBattleResultMediator
+		var_13_5 = BossRushBattleResultLayer
+	end
 
 	arg_13_0:addSubLayers(Context.New({
 		mediator = var_13_4,
@@ -263,11 +274,7 @@ end
 function var_0_0.ExitRewardPerform(arg_17_0, arg_17_1)
 	local var_17_0, var_17_1 = getProxy(ContextProxy):getContextByMediator(BossSinglePreCombatLiteMediator)
 
-	print(var_17_0.parent)
-
 	if var_17_0 then
-		print(var_17_1.mediator.__cname)
-
 		local var_17_2 = var_17_1:removeChild(var_17_0)
 	end
 
@@ -498,15 +505,19 @@ end
 function var_0_0.ContinuousBossRush(arg_33_0, arg_33_1, arg_33_2, arg_33_3, arg_33_4, arg_33_5, arg_33_6)
 	seriesAsync({
 		function(arg_34_0)
-			arg_33_0:addSubLayers(Context.New({
-				mediator = ChallengePassedMediator,
-				viewComponent = BossRushConst.GetPassedLayer(arg_33_2),
-				data = {
-					curIndex = arg_33_3 - 1,
-					maxIndex = #arg_33_4
-				},
-				onRemoved = arg_34_0
-			}))
+			if arg_33_1 == SYSTEM_BOSS_RUSH_COLLABRATE then
+				arg_34_0()
+			else
+				arg_33_0:addSubLayers(Context.New({
+					mediator = ChallengePassedMediator,
+					viewComponent = BossRushConst.GetPassedLayer(arg_33_2),
+					data = {
+						curIndex = arg_33_3 - 1,
+						maxIndex = #arg_33_4
+					},
+					onRemoved = arg_34_0
+				}))
+			end
 		end,
 		function(arg_35_0)
 			pg.m02:sendNotification(GAME.BEGIN_STAGE, {

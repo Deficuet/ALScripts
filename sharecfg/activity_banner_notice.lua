@@ -182,6 +182,66 @@ pg.activity_banner_notice = {
 			}
 		}
 	},
+	{
+		id = 23,
+		param = {
+			"scene core activity",
+			{
+				coreName = "PSSCoreActivityUI"
+			}
+		}
+	},
+	{
+		id = 24,
+		param = {
+			"scene core activity",
+			{
+				coreName = "DALCoreActivityUI"
+			}
+		}
+	},
+	{
+		id = 25,
+		param = {
+			"scene vote entrance"
+		}
+	},
+	{
+		id = 26,
+		param = {
+			"scene core activity",
+			{
+				coreName = "WinterFestival2025CoreActivityUI"
+			}
+		}
+	},
+	{
+		id = 27,
+		param = {
+			"scene core activity",
+			{
+				coreName = "HelenaCoreActivityUI"
+			}
+		}
+	},
+	{
+		id = 28,
+		param = {
+			"scene core activity",
+			{
+				coreName = "SardiniaSPCoreActivityUI"
+			}
+		}
+	},
+	{
+		id = 29,
+		param = {
+			"scene core activity",
+			{
+				coreName = "SpringFestival2026CoreActivityUI"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -204,6 +264,13 @@ pg.activity_banner_notice = {
 		19,
 		20,
 		21,
-		22
+		22,
+		23,
+		24,
+		25,
+		26,
+		27,
+		28,
+		29
 	}
 }

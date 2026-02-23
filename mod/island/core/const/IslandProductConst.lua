@@ -12,6 +12,7 @@ var_0_0.TechnologyPlaceId = 702
 var_0_0.CoffeePlaceId = 901
 var_0_0.OrchardPlaceId = 501
 var_0_0.GardenPlaceId = 502
+var_0_0.FisheryPlaceId = 201
 var_0_0.WoodProcessingPlaceId = 703
 var_0_0.MachinePlaceId = 704
 var_0_0.ElectronicPlaceId = 705
@@ -31,6 +32,9 @@ var_0_0.haveModelPlaces = {
 	var_0_0.MealPlaceId,
 	var_0_0.SimpeleMealPlaceId,
 	var_0_0.kebabPlaceId
+}
+var_0_0.havePerformPlace = {
+	var_0_0.FisheryPlaceId
 }
 var_0_0.PlantPlaceIdLists = {
 	var_0_0.FarmlandPlaceId,

@@ -148,6 +148,51 @@ pg.item_data_battleui = {
 			1
 		}
 	},
+	[110] = {
+		key = "SkinNormal_20251113",
+		name = "Black Friday",
+		desc = "This Battle UI is designed for shopping-loving Commanders. While enjoying the thrill of shopping, overwhelm your opponents with a deluge of gifts.",
+		display_icon = "ui_110",
+		is_unlock = 1,
+		rare = 3,
+		unlock = "Obtained from Black Friday Cruise Pass.",
+		id = 110,
+		icon = "110",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
+	[111] = {
+		key = "SkinNormal_20251120",
+		name = "Shadow Pictures",
+		desc = "Simple shadow pictures evoke boundless imagination, and modest stories abound with wonderful hopes.",
+		display_icon = "ui_111",
+		is_unlock = 1,
+		rare = 3,
+		unlock = "Cruise Missions S26",
+		id = 111,
+		icon = "111",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
+	[113] = {
+		key = "SkinNormal_20260129",
+		name = "Ancient Dynasty",
+		desc = "Adorn your interface with towering stone pillars, their worn patterns telling tales of a lost order and filling your battles with a solemn and tragic atmosphere that transcends time.",
+		display_icon = "ui_113",
+		is_unlock = 1,
+		rare = 3,
+		unlock = "Cruise Missions S27",
+		id = 113,
+		icon = "113",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
 	[201] = {
 		key = "SkinNormal_20241209",
 		name = "Christmas",
@@ -233,6 +278,23 @@ pg.item_data_battleui = {
 			3
 		}
 	},
+	[206] = {
+		key = "SkinElite_20251218",
+		name = "Maid Café",
+		desc = "Indulge in sweet snacks made by a loving maid and take on new and sugary challenges!",
+		display_icon = "ui_206",
+		is_unlock = 1,
+		rare = 4,
+		unlock = "Buy the Battle UI Pack – Maid Café",
+		id = 206,
+		icon = "206",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	},
 	all = {
 		0,
 		101,
@@ -244,10 +306,14 @@ pg.item_data_battleui = {
 		107,
 		108,
 		109,
+		110,
+		111,
+		113,
 		201,
 		202,
 		203,
 		204,
-		205
+		205,
+		206
 	}
 }

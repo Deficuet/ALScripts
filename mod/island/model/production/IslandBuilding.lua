@@ -70,18 +70,25 @@ function var_0_0.InitSlotRoleDataByAbility(arg_8_0, arg_8_1)
 	end
 
 	local var_8_1 = {}
+	local var_8_2 = getProxy(IslandProxy):GetIsland()
 
 	if var_8_0.type == 3 then
-		local var_8_2 = var_8_0.animal == "" and {} or var_8_0.animal
+		local var_8_3 = var_8_0.animal == "" and {} or var_8_0.animal
 
-		for iter_8_0, iter_8_1 in ipairs(var_8_2) do
+		for iter_8_0, iter_8_1 in ipairs(var_8_3) do
 			if pg.island_ranch_animal[iter_8_1].unlock_type == 0 then
 				table.insert(var_8_1, iter_8_1)
 			end
 		end
 
-		getProxy(IslandProxy):GetIsland():DispatchEvent(IslandBuildingAgency.GEN_ANIMAL_INT, {
+		var_8_2:DispatchEvent(IslandBuildingAgency.GEN_ANIMAL_INT, {
 			aniList = var_8_1,
+			slotId = arg_8_1
+		})
+	end
+
+	if var_8_0.type == 9 then
+		var_8_2:DispatchEvent(IslandBuildingAgency.SLOT_DELEGATE_INIT, {
 			slotId = arg_8_1
 		})
 	end
@@ -247,9 +254,23 @@ function var_0_0.GetShipIdAndAreaIdList(arg_23_0)
 	return var_23_0
 end
 
-function var_0_0.IsPostTip(arg_24_0)
+function var_0_0.GetDelegateingSlotAndFormulaList(arg_24_0)
+	local var_24_0 = {}
+
 	for iter_24_0, iter_24_1 in pairs(arg_24_0.delegationSlotData) do
-		if iter_24_1:CanStartDelegationTip() or iter_24_1:GetSlotRewardData() then
+		local var_24_1 = iter_24_1:GetRoleSlotAndFormulaData()
+
+		if var_24_1 then
+			table.insert(var_24_0, var_24_1)
+		end
+	end
+
+	return var_24_0
+end
+
+function var_0_0.IsPostTip(arg_25_0)
+	for iter_25_0, iter_25_1 in pairs(arg_25_0.delegationSlotData) do
+		if iter_25_1:CanStartDelegationTip() or iter_25_1:GetSlotRewardData() then
 			return true
 		end
 	end
@@ -257,9 +278,9 @@ function var_0_0.IsPostTip(arg_24_0)
 	return false
 end
 
-function var_0_0.GetCollectSlotData(arg_25_0, arg_25_1)
-	if arg_25_0.collectPlaceSystem then
-		return arg_25_0.collectPlaceSystem:GetCollectSlotData(arg_25_1)
+function var_0_0.GetCollectSlotData(arg_26_0, arg_26_1)
+	if arg_26_0.collectPlaceSystem then
+		return arg_26_0.collectPlaceSystem:GetCollectSlotData(arg_26_1)
 	end
 end
 

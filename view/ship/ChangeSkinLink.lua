@@ -2,15 +2,124 @@ local var_0_0 = class("ChangeSkinLink")
 
 var_0_0.L2D_SAVE_TEMPLATE_DISPOSE = {
 	705022,
-	705023
+	705023,
+	107102,
+	107103
 }
 var_0_0.L2D_PARAMETER_DIC = {}
-var_0_0.L2D_LINK_PARAMETER = {}
 var_0_0.L2D_TYPE = 1
 var_0_0.SPINE_TYPE = 2
-var_0_0.change_parameter_link_idle = 1
+var_0_0.change_parameter_link_skin = 1
 var_0_0.change_parameter_link_slot = 2
+
+function var_0_0.GetSaveL2dData(arg_1_0, arg_1_1)
+	local var_1_0 = {}
+	local var_1_1 = {}
+
+	if pg.ship_skin_template[arg_1_1].ship_l2d_id and #pg.ship_skin_template[arg_1_1].ship_l2d_id > 0 then
+		var_1_1 = pg.ship_skin_template[arg_1_1].ship_l2d_id
+	end
+
+	for iter_1_0, iter_1_1 in ipairs(var_1_1) do
+		if pg.ship_l2d[iter_1_1] then
+			local var_1_2 = pg.ship_l2d[iter_1_1].parameter
+
+			if var_1_2 and #var_1_2 > 0 then
+				var_1_0[var_1_2] = Live2dConst.GetDragData(iter_1_1, arg_1_1, arg_1_0)
+			end
+		else
+			print(iter_1_1 == "not exit dragId")
+		end
+	end
+
+	return var_1_0
+end
+
 var_0_0.CHANGE_SKIN_LINK_DATA = {
+	[499024] = {
+		link_id = 499023,
+		type = var_0_0.SPINE_TYPE,
+		link_type = var_0_0.L2D_TYPE,
+		relations = {
+			{
+				skeleton_skin = "1",
+				type = var_0_0.change_parameter_link_skin,
+				link_parameter = {
+					{
+						name = "touch_drag1",
+						num = 0,
+						match = true
+					}
+				}
+			},
+			{
+				skeleton_skin = "2",
+				type = var_0_0.change_parameter_link_skin,
+				link_parameter = {
+					{
+						name = "touch_drag1",
+						num = 1,
+						match = true
+					}
+				}
+			}
+		}
+	},
+	[107103] = {
+		link_id = 107102,
+		type = var_0_0.SPINE_TYPE,
+		link_type = var_0_0.L2D_TYPE,
+		relations = {
+			{
+				skeleton_skin = "1",
+				type = var_0_0.change_parameter_link_skin,
+				link_parameter = {
+					{
+						name = "touch_drag1",
+						num = 1,
+						match = true
+					},
+					{
+						name = "touch_drag2",
+						num = 1,
+						match = true
+					}
+				}
+			},
+			{
+				skeleton_skin = "2",
+				type = var_0_0.change_parameter_link_skin,
+				link_parameter = {
+					{
+						name = "touch_drag1",
+						num = 0,
+						match = true
+					},
+					{
+						name = "touch_drag1",
+						num = 0,
+						match = true
+					}
+				}
+			},
+			{
+				skeleton_skin = "3",
+				type = var_0_0.change_parameter_link_skin,
+				link_parameter = {
+					{
+						name = "touch_drag1",
+						num = 1,
+						match = true
+					},
+					{
+						name = "touch_drag2",
+						num = 0,
+						match = true
+					}
+				}
+			}
+		}
+	},
 	[705023] = {
 		link_id = 705022,
 		type = var_0_0.SPINE_TYPE,
@@ -1187,24 +1296,5 @@ var_0_0.CHANGE_SKIN_LINK_DATA = {
 		}
 	}
 }
-
-function var_0_0.GetSaveL2dData(arg_1_0, arg_1_1)
-	local var_1_0 = {}
-	local var_1_1 = pg.ship_skin_template[arg_1_1].ship_l2d_id
-
-	for iter_1_0, iter_1_1 in ipairs(var_1_1) do
-		if pg.ship_l2d[iter_1_1] then
-			local var_1_2 = pg.ship_l2d[iter_1_1].parameter
-
-			if var_1_2 and #var_1_2 > 0 then
-				var_1_0[var_1_2] = Live2dConst.GetDragData(iter_1_1, arg_1_1, arg_1_0)
-			end
-		else
-			print(iter_1_1 == "not exit dragId")
-		end
-	end
-
-	return var_1_0
-end
 
 return var_0_0

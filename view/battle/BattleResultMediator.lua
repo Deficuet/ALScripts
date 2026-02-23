@@ -187,28 +187,22 @@ function var_0_0.register(arg_1_0)
 		for iter_1_16, iter_1_17 in ipairs(var_1_35:GetShips()) do
 			table.insert(var_1_12, iter_1_17.ship)
 		end
-	elseif var_1_5 == SYSTEM_BOSS_RUSH or var_1_5 == SYSTEM_BOSS_RUSH_EX then
+	elseif var_1_5 == SYSTEM_BOSS_RUSH or var_1_5 == SYSTEM_BOSS_RUSH_EX or var_1_5 == SYSTEM_BOSS_RUSH_COLLABRATE then
 		local var_1_36 = arg_1_0.contextData.actId
 		local var_1_37 = getProxy(ActivityProxy):getActivityById(var_1_36):GetSeriesData()
 
 		assert(var_1_37)
 
 		local var_1_38 = var_1_37:GetStaegLevel()
-		local var_1_39 = var_1_37:GetFleetIds()
-		local var_1_40 = var_1_39[var_1_38]
+		local var_1_39 = var_1_37:GetStageFleets(var_1_37:GetMode(), var_1_38)
+		local var_1_40 = var_1_1:getActivityFleets()[var_1_36][var_1_39]
 
-		if var_1_37:GetMode() == BossRushSeriesData.MODE.SINGLE then
-			var_1_40 = var_1_39[1]
-		end
-
-		local var_1_41 = var_1_1:getActivityFleets()[var_1_36][var_1_40]
-
-		var_1_12 = var_1_2:getShipsByFleet(var_1_41)
+		var_1_12 = var_1_2:getShipsByFleet(var_1_40)
 	else
-		local var_1_42 = arg_1_0.contextData.mainFleetId
-		local var_1_43 = var_1_1:getFleetById(var_1_42)
+		local var_1_41 = arg_1_0.contextData.mainFleetId
+		local var_1_42 = var_1_1:getFleetById(var_1_41)
 
-		var_1_12 = var_1_2:getShipsByFleet(var_1_43)
+		var_1_12 = var_1_2:getShipsByFleet(var_1_42)
 	end
 
 	arg_1_0.viewComponent:setShips(var_1_12)
@@ -419,7 +413,7 @@ function var_0_0.register(arg_1_0)
 			if var_6_41 then
 				var_6_40:removeChild(var_6_41)
 			end
-		elseif var_1_5 == SYSTEM_BOSS_RUSH or var_1_5 == SYSTEM_BOSS_RUSH_EX then
+		elseif var_1_5 == SYSTEM_BOSS_RUSH or var_1_5 == SYSTEM_BOSS_RUSH_EX or var_1_5 == SYSTEM_BOSS_RUSH_COLLABRATE then
 			local var_6_42 = arg_1_0.contextData.score > ys.Battle.BattleConst.BattleScore.C
 			local var_6_43 = arg_1_0.contextData.actId
 			local var_6_44 = getProxy(ActivityProxy):getActivityById(var_6_43):GetSeriesData()
@@ -690,16 +684,16 @@ function var_0_0.register(arg_1_0)
 		})
 	end)
 
-	local var_1_44 = 0
+	local var_1_43 = 0
 
 	if var_1_12 then
 		for iter_1_18, iter_1_19 in ipairs(var_1_12) do
-			var_1_44 = iter_1_19:getBattleTotalExpend() + var_1_44
+			var_1_43 = iter_1_19:getBattleTotalExpend() + var_1_43
 		end
 	end
 
 	originalPrint("耗时：", arg_1_0.contextData.statistics._totalTime, "秒")
-	originalPrint("编队基础油耗：", var_1_44)
+	originalPrint("编队基础油耗：", var_1_43)
 
 	if arg_1_0.contextData.statistics._enemyInfoList then
 		for iter_1_20, iter_1_21 in pairs(arg_1_0.contextData.statistics._enemyInfoList) do
@@ -707,19 +701,19 @@ function var_0_0.register(arg_1_0)
 		end
 	end
 
-	local var_1_45 = false
+	local var_1_44 = false
 
 	if var_1_5 == SYSTEM_SCENARIO then
-		local var_1_46 = var_1_3:getActiveChapter()
+		local var_1_45 = var_1_3:getActiveChapter()
 
-		var_1_45 = getProxy(ChapterProxy):GetChapterAutoFlag(var_1_46.id) == 1
+		var_1_44 = getProxy(ChapterProxy):GetChapterAutoFlag(var_1_45.id) == 1
 	elseif var_1_5 == SYSTEM_WORLD then
-		var_1_45 = nowWorld().isAutoFight
+		var_1_44 = nowWorld().isAutoFight
 	end
 
-	local var_1_47 = PlayerPrefs.GetInt(AUTO_BATTLE_LABEL, 0) > 0
+	local var_1_46 = PlayerPrefs.GetInt(AUTO_BATTLE_LABEL, 0) > 0
 
-	if ys.Battle.BattleState.IsAutoBotActive() and var_1_47 and not var_1_45 then
+	if ys.Battle.BattleState.IsAutoBotActive() and var_1_46 and not var_1_44 then
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_AUTO_BATTLE)
 		LuaHelper.Vibrate()
 	end
@@ -799,8 +793,19 @@ function var_0_0.handleNotification(arg_30_0, arg_30_1)
 			return
 		end
 
-		local var_30_6 = var_30_2 == SYSTEM_BOSS_RUSH and BossRushBattleResultMediator or BossRushBattleResultMediator
-		local var_30_7 = var_30_2 == SYSTEM_BOSS_RUSH and BossRushBattleResultLayer or BossRushConst.GetEXBattleResultLayer(var_30_3)
+		local var_30_6
+		local var_30_7
+
+		if var_30_2 == SYSTEM_BOSS_RUSH_COLLABRATE then
+			var_30_6 = BossRushDALBattleResultMediator
+			var_30_7 = BossRushDALBattleResultLayer
+		elseif var_30_2 == SYSTEM_BOSS_RUSH_EX then
+			var_30_6 = BossRushBattleResultMediator
+			var_30_7 = BossRushConst.GetEXBattleResultLayer(var_30_3)
+		else
+			var_30_6 = BossRushBattleResultMediator
+			var_30_7 = BossRushBattleResultLayer
+		end
 
 		arg_30_0:addSubLayers(Context.New({
 			mediator = var_30_6,

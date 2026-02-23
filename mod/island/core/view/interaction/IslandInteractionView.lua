@@ -4,7 +4,7 @@ function var_0_0.GetUIName(arg_1_0)
 	return "IslandInteractionUI"
 end
 
-function var_0_0.SetUIParent(arg_2_0, arg_2_1)
+function var_0_0.GetUIParent(arg_2_0, arg_2_1)
 	return arg_2_0:GetView().interactionContainer
 end
 
@@ -102,7 +102,7 @@ function var_0_0.AddTimer(arg_11_0, arg_11_1, arg_11_2)
 end
 
 function var_0_0.RemoveTimers(arg_13_0)
-	for iter_13_0, iter_13_1 in pairs(arg_13_0.timers) do
+	for iter_13_0, iter_13_1 in pairs(arg_13_0.timers or {}) do
 		iter_13_1:Stop()
 	end
 

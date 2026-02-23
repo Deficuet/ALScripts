@@ -55,9 +55,10 @@ function var_0_0.GetLinkObjectsByTaskId(arg_2_0)
 
 	for iter_2_0, iter_2_1 in ipairs(var_2_0.target_id) do
 		local var_2_4 = pg.island_task_target[iter_2_1]
+		local var_2_5 = tonumber(var_2_4.tips)
 
-		if table.contains(IslandTaskTargetType.GetObjectLinkTypes(), var_2_4.type) then
-			var_2_3[var_2_4.target_param[1]] = {
+		if var_2_5 then
+			var_2_3[var_2_5] = {
 				arg_2_0,
 				iter_2_1
 			}

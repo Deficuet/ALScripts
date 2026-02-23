@@ -176,6 +176,33 @@ pg.dorm3d_collection_template = setmetatable({
 			1607,
 			1608,
 			1609
+		},
+		[14] = {
+			1401,
+			1402,
+			1403,
+			1404,
+			1405,
+			1406,
+			1407,
+			1408,
+			1409,
+			1410,
+			1411,
+			1412,
+			1413,
+			1414,
+			1415,
+			1416,
+			1417,
+			1418,
+			1419,
+			1420,
+			1421,
+			1422,
+			1423,
+			1424,
+			1425
 		}
 	},
 	all = {
@@ -339,7 +366,32 @@ pg.dorm3d_collection_template = setmetatable({
 		1606,
 		1607,
 		1608,
-		1609
+		1609,
+		1401,
+		1402,
+		1403,
+		1404,
+		1405,
+		1406,
+		1407,
+		1408,
+		1409,
+		1410,
+		1411,
+		1412,
+		1413,
+		1414,
+		1415,
+		1416,
+		1417,
+		1418,
+		1419,
+		1420,
+		1421,
+		1422,
+		1423,
+		1424,
+		1425
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3687,6 +3739,531 @@ pg.base.dorm3d_collection_template = {
 		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_publiccafe01_statue01/vfx_wupintishi01"
+		}
+	},
+	[1401] = {
+		text = "dorm3d_aijier_chair",
+		name = "Vintage Gramophone",
+		award = 0,
+		time = 0,
+		id = 1401,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item1",
+		desc = "An intricate, traditional record player. It brings out the warm, rich depth of vinyl.",
+		model = {
+			"fbx/litmap_01/pre_db_decoration25"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration25/vfx_wupintishi01"
+		}
+	},
+	[1402] = {
+		text = "dorm3d_aijier_chair",
+		name = "Classic Candelabra",
+		award = 0,
+		time = 2,
+		id = 1402,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item2",
+		desc = "A meticulously designed candelabra. Its brass base holds three candles, each giving off a warm, soft glow.",
+		model = {
+			"fbx/litmap_01/night/pre_db_decoration26_on"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_decoration26_on/vfx_wupintishi01"
+		}
+	},
+	[1403] = {
+		text = "dorm3d_aijier_table",
+		name = "Record Collection",
+		award = 0,
+		time = 0,
+		id = 1403,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item3",
+		desc = "A curated collection of records spanning diverse genres. From the beautiful sleeves to the music inside, it's an ideal selection for her gramophone.",
+		model = {
+			"fbx/litmap_05/pre_db_decoration28"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_decoration28/vfx_wupintishi01"
+		}
+	},
+	[1404] = {
+		text = "dorm3d_aijier_table",
+		name = "Twinbell Alarm Clock",
+		award = 0,
+		time = 0,
+		id = 1404,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item4",
+		desc = "An alarm clock with a simple design. Its clarion call pierces even the deepest of sleeps, waking one up from any dream.",
+		model = {
+			"fbx/litmap_05/pre_db_clock04"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_clock04/vfx_wupintishi01"
+		}
+	},
+	[1405] = {
+		text = "dorm3d_aijier_chair",
+		name = "Bronze Goblet",
+		award = 0,
+		time = 2,
+		id = 1405,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item5",
+		desc = "An elegant goblet with a flawless silhouette. It is the ideal vessel for enjoying red wine or fine liquor.",
+		model = {
+			"fbx/litmap_01/night/pre_db_decoration23"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_decoration23/vfx_wupintishi01"
+		}
+	},
+	[1406] = {
+		text = "dorm3d_aijier_chair",
+		name = "Ceramic Teacup",
+		award = 0,
+		time = 0,
+		id = 1406,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item6",
+		desc = "A ceramic teacup with a design that is understated yet intricate. Together with its saucer, it brings a quiet elegance to the table.",
+		model = {
+			"no_bake_pay_prop/livingroom/pre_db_aijier_living01_0/pre_db_ceram28_group02/pre_db_ceram28a"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/livingroom/pre_db_aijier_living01_0/pre_db_ceram28_group02/pre_db_ceram28a/vfx_wupintishi01"
+		}
+	},
+	[1407] = {
+		text = "dorm3d_aijier_chair",
+		name = "Art Display",
+		award = 0,
+		time = 0,
+		id = 1407,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item7",
+		desc = "A set of framed classical art pieces hangs on the wall. They add a gallery-like feel to her room.",
+		model = {
+			"fbx/litmap_01/pre_db_billboard_group"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_billboard_group/vfx_wupintishi01"
+		}
+	},
+	[1408] = {
+		text = "dorm3d_aijier_bed",
+		name = "Wooden Wardrobe",
+		award = 0,
+		time = 0,
+		id = 1408,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item8",
+		desc = "Behind the patterned doors of this beautiful wooden wardrobe lies ample space for all her clothes.",
+		model = {
+			"fbx/litmap_01/pre_db_cupboard38"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cupboard38/vfx_wupintishi01"
+		}
+	},
+	[1409] = {
+		text = "dorm3d_aijier_bed",
+		name = "Hand Mirror",
+		award = 0,
+		time = 0,
+		id = 1409,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item9",
+		desc = "A small mirror with a pretty design. Its smooth, flawless surface makes her daily routine just a touch more effortless and elegant.",
+		model = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_mirror05"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_mirror05/vfx_wupintishi01"
+		}
+	},
+	[1410] = {
+		text = "dorm3d_aijier_chair",
+		name = "Painting A",
+		award = 0,
+		time = 0,
+		id = 1410,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item10",
+		desc = "An exquisite oil painting of a landscape. It's so realistic that it puts the artist's talent on full display.",
+		model = {
+			"fbx/litmap_01/pre_db_billboard32"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_billboard32/vfx_wupintishi01"
+		}
+	},
+	[1411] = {
+		text = "dorm3d_aijier_chair",
+		name = "Painting B",
+		award = 0,
+		time = 0,
+		id = 1411,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item11",
+		desc = "An exquisite oil painting of a landscape. It's so realistic that it puts the artist's talent on full display.",
+		model = {
+			"fbx/litmap_01/pre_db_billboard31"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_billboard31/vfx_wupintishi01"
+		}
+	},
+	[1412] = {
+		text = "dorm3d_aijier_bed",
+		name = "Jewelry Box",
+		award = 0,
+		time = 1,
+		id = 1412,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item12",
+		desc = "A lovely jewelry box with built-in dividers. It neatly stores her various accessories.",
+		model = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_jewelrybox02"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_jewelrybox02/vfx_wupintishi01"
+		}
+	},
+	[1413] = {
+		text = "dorm3d_aijier_table",
+		name = "Suitcase",
+		award = 0,
+		time = 0,
+		id = 1413,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item13",
+		desc = "A very practical suitcase made of soft and durable material. Its spacious interior makes it perfect for vacations and day trips.",
+		model = {
+			"fbx/litmap_03/pre_db_bag08"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_bag08/vfx_wupintishi01"
+		}
+	},
+	[1414] = {
+		text = "dorm3d_aijier_table",
+		name = "Small Cabinet",
+		award = 0,
+		time = 0,
+		id = 1414,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item14",
+		desc = "This standing cabinet has many drawers and compartments. Ägir uses it to store her books and documents.",
+		model = {
+			"fbx/litmap_05/pre_db_cupboard39"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_cupboard39/vfx_wupintishi01"
+		}
+	},
+	[1415] = {
+		text = "dorm3d_aijier_chair",
+		name = "Fireplace",
+		award = 0,
+		time = 0,
+		id = 1415,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item15",
+		desc = "The black marble fireplace feels cool and smooth to the touch. Wood sits inside, ready to be lit at any time.",
+		model = {
+			"fbx/litmap_01/pre_db_fireplace02"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_fireplace02/vfx_wupintishi01"
+		}
+	},
+	[1416] = {
+		text = "dorm3d_aijier_chair",
+		name = "Floor Lamp",
+		award = 0,
+		time = 0,
+		id = 1416,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item16",
+		desc = "This tall standing lamp has a translucent shade that lets its soft light spread through the room.",
+		model = {
+			"fbx/litmap_01/day/pre_db_floorlamp04_2"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/day/pre_db_floorlamp04_2/vfx_wupintishi01"
+		}
+	},
+	[1417] = {
+		text = "dorm3d_aijier_bed",
+		name = "Fresh Flowers",
+		award = 0,
+		time = 0,
+		id = 1417,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item17",
+		desc = "A carefully arranged bouquet of fresh blooms. The red and white roses smell as sweet as if they were still in the garden.",
+		model = {
+			"fbx/litmap_01/pre_db_flowers17"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_flowers17/vfx_wupintishi01"
+		}
+	},
+	[1418] = {
+		text = "dorm3d_aijier_chair",
+		name = "Decorative Flowers",
+		award = 0,
+		time = 0,
+		id = 1418,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item18",
+		desc = "A cluster of dark, decorative flowers. As a rare species, they seem to be used to adorn specific, special items.",
+		model = {
+			"fbx/litmap_01/pre_db_flowers18"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_flowers18/vfx_wupintishi01"
+		}
+	},
+	[1419] = {
+		text = "dorm3d_aijier_bed",
+		name = "Scented Candle",
+		award = 0,
+		time = 2,
+		id = 1419,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item19",
+		desc = "Decorative and functional, the candle casts a warm light while releasing a refreshing scent.",
+		model = {
+			"fbx/litmap_01/night/pre_db_decoration24_on"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_decoration24_on/vfx_wupintishi01"
+		}
+	},
+	[1420] = {
+		text = "dorm3d_aijier_bed",
+		name = "Wide Cabinet",
+		award = 0,
+		time = 0,
+		id = 1420,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item20",
+		desc = "A two-tiered wooden cabinet with a carved pattern on the front. Ägir stores many of her odds and ends inside.",
+		model = {
+			"fbx/litmap_01/pre_db_cupboard37"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cupboard37/vfx_wupintishi01"
+		}
+	},
+	[1421] = {
+		text = "dorm3d_aijier_table",
+		name = "Wall Lamp",
+		award = 0,
+		time = 0,
+		id = 1421,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item21",
+		desc = "A simple wall lamp illuminates the hallway, adding warmth to the space.",
+		model = {
+			"fbx/litmap_05/pre_db_aijier_lamp01_7"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_aijier_lamp01_7/vfx_wupintishi01"
+		}
+	},
+	[1422] = {
+		text = "dorm3d_aijier_bed",
+		name = "Cosmetics Set",
+		award = 0,
+		time = 1,
+		id = 1422,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item22",
+		desc = "A simple wall lamp illuminates the room, adding warmth to the space.",
+		model = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_cosmetic19"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_cosmetic19/vfx_wupintishi01"
+		}
+	},
+	[1423] = {
+		text = "dorm3d_aijier_bed",
+		name = "Reading Materials?",
+		award = 0,
+		time = 0,
+		id = 1423,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item23",
+		desc = "A well-bound book that she reads in her spare time. Apparently, it's some kind of light reading?",
+		model = {
+			"fbx/litmap_01/book_group"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/book_group/vfx_wupintishi01"
+		}
+	},
+	[1424] = {
+		text = "dorm3d_aijier_table",
+		name = "Oil Painting",
+		award = 0,
+		time = 0,
+		id = 1424,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item24",
+		desc = "An oil painting by a well-known artist. It's one of her favorites.",
+		model = {
+			"fbx/litmap_05/pre_db_billboard29a"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_billboard29a/vfx_wupintishi01"
+		}
+	},
+	[1425] = {
+		text = "dorm3d_aijier_chair",
+		name = "Gold Trophy",
+		award = 0,
+		time = 0,
+		id = 1425,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item25",
+		desc = "A gold trophy awarded for some achievement. She doesn't seem to attach much importance to it, given how carelessly it's been placed.",
+		model = {
+			"fbx/litmap_01/pre_db_decoration21"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration21/vfx_wupintishi01"
 		}
 	}
 }

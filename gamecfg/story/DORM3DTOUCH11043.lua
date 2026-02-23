@@ -17,7 +17,8 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "Touch me more, if you want...",
+			say = "We're already together like this, but I still get so nervous...",
+			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_ik_gfit3_tone7",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,10 +29,20 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "shuohua_kaixing_01",
+							name = "IK_dining02_idle01_fb02",
 							time = 0,
 							type = "action",
 							skip = true
+						},
+						{
+							id = 2018,
+							name = "IK_dining02_idle01_fb02_BX",
+							type = "item_action"
+						},
+						{
+							skip = true,
+							name = "face_happy_start",
+							type = "action"
 						},
 						{
 							skip = false,

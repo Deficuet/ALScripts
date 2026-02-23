@@ -38,11 +38,27 @@ function var_0_0.OnInit(arg_2_0)
 		local var_4_2 = arg_2_0:GetBlueprintNeed(var_4_0.id)
 		local var_4_3 = {}
 
-		if not arg_2_0.isAllNeedZero and var_4_2 < var_4_1 then
-			table.insert(var_4_3, function(arg_5_0)
+		if arg_2_0.isSwitch and not arg_2_0:checkBlueprintIsFate(var_4_0.id) then
+			if var_4_1 <= var_4_2 then
+				table.insert(var_4_3, function(arg_5_0)
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						content = i18n("blueprint_exchange_fate_unlock"),
+						onYes = arg_5_0
+					})
+				end)
+			else
+				table.insert(var_4_3, function(arg_6_0)
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						content = i18n("blueprint_exchange_fate_unlock_over", var_4_0:getConfig("name"), var_4_1 - var_4_2),
+						onYes = arg_6_0
+					})
+				end)
+			end
+		elseif not arg_2_0.isAllNeedZero and var_4_2 < var_4_1 then
+			table.insert(var_4_3, function(arg_7_0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("blueprint_select_overflow_tip", var_4_0:getConfig("name"), var_4_1 - var_4_2),
-					onYes = arg_5_0
+					onYes = arg_7_0
 				})
 			end)
 		end
@@ -55,115 +71,125 @@ function var_0_0.OnInit(arg_2_0)
 
 	arg_2_0.toggleSwitch = arg_2_0._tf:Find("operate/got/top/switch_btn")
 
-	setText(arg_2_0.toggleSwitch:Find("Text_off"), i18n("show_design_demand_count"))
-	setText(arg_2_0.toggleSwitch:Find("Text_on"), i18n("show_fate_demand_count"))
-	onToggle(arg_2_0, arg_2_0.toggleSwitch, function(arg_7_0)
-		arg_2_0.isSwitch = arg_7_0
+	setText(arg_2_0.toggleSwitch:Find("Text_off"), i18n("show_fate_demand_count"))
+	setText(arg_2_0.toggleSwitch:Find("Text_on"), i18n("show_design_demand_count"))
+	onToggle(arg_2_0, arg_2_0.toggleSwitch, function(arg_9_0)
+		arg_2_0.isSwitch = arg_9_0
 
 		arg_2_0:updateValue()
 	end, SFX_PANEL)
+	setText(arg_2_0._tf:Find("operate/got/top/info/Text"), i18n("fate_unlock_icon_desc"))
 end
 
-function var_0_0.GetBlueprintNeed(arg_8_0, arg_8_1)
-	arg_8_0.technologyProxy = arg_8_0.technologyProxy or getProxy(TechnologyProxy)
+function var_0_0.GetBlueprintNeed(arg_10_0, arg_10_1)
+	arg_10_0.technologyProxy = arg_10_0.technologyProxy or getProxy(TechnologyProxy)
 
-	local var_8_0 = arg_8_0.technologyProxy:getBluePrintById(arg_8_0.technologyProxy:GetBlueprint4Item(arg_8_1))
+	local var_10_0 = arg_10_0.technologyProxy:getBluePrintById(arg_10_0.technologyProxy:GetBlueprint4Item(arg_10_1))
 
-	arg_8_0.bagProxy = arg_8_0.bagProxy or getProxy(BagProxy)
+	arg_10_0.bagProxy = arg_10_0.bagProxy or getProxy(BagProxy)
 
-	return math.max(var_8_0:getUseageMaxItem() + (arg_8_0.isSwitch and var_8_0:getFateMaxLeftOver() or 0) - arg_8_0.bagProxy:getItemCountById(var_8_0:getItemId()), 0)
+	warning(arg_10_0.isSwitch)
+
+	return math.max(var_10_0:getUseageMaxItem() + (arg_10_0.isSwitch and var_10_0:getFateMaxLeftOver() or 0) - arg_10_0.bagProxy:getItemCountById(var_10_0:getItemId()), 0)
 end
 
-function var_0_0.checkBlueprintIsUnlock(arg_9_0, arg_9_1)
-	arg_9_0.technologyProxy = arg_9_0.technologyProxy or getProxy(TechnologyProxy)
+function var_0_0.checkBlueprintIsUnlock(arg_11_0, arg_11_1)
+	arg_11_0.technologyProxy = arg_11_0.technologyProxy or getProxy(TechnologyProxy)
 
-	return arg_9_0.technologyProxy:getBluePrintById(arg_9_0.technologyProxy:GetBlueprint4Item(arg_9_1)):isUnlock()
+	return arg_11_0.technologyProxy:getBluePrintById(arg_11_0.technologyProxy:GetBlueprint4Item(arg_11_1)):isUnlock()
 end
 
-function var_0_0.updateValue(arg_10_0)
-	arg_10_0.isAllNeedZero = underscore.all(arg_10_0.displayDrops, function(arg_11_0)
-		return arg_10_0:GetBlueprintNeed(arg_11_0.id) == 0
+function var_0_0.checkBlueprintIsFate(arg_12_0, arg_12_1)
+	arg_12_0.technologyProxy = arg_12_0.technologyProxy or getProxy(TechnologyProxy)
+
+	return arg_12_0.technologyProxy:getBluePrintById(arg_12_0.technologyProxy:GetBlueprint4Item(arg_12_1)):IsFate()
+end
+
+function var_0_0.updateValue(arg_13_0)
+	arg_13_0.isAllNeedZero = underscore.all(arg_13_0.displayDrops, function(arg_14_0)
+		return arg_13_0:GetBlueprintNeed(arg_14_0.id) == 0
 	end)
 
-	arg_10_0:updateCountText()
-	arg_10_0.ulist:each(function(arg_12_0, arg_12_1)
-		if not isActive(arg_12_1) then
+	arg_13_0:updateCountText()
+	arg_13_0.ulist:each(function(arg_15_0, arg_15_1)
+		if not isActive(arg_15_1) then
 			return
 		end
 
-		arg_12_0 = arg_12_0 + 1
+		arg_15_0 = arg_15_0 + 1
 
-		local var_12_0 = arg_10_0.displayDrops[arg_12_0]
-		local var_12_1 = arg_10_0.count * var_12_0.count
-		local var_12_2 = arg_10_0:GetBlueprintNeed(var_12_0.id)
+		local var_15_0 = arg_13_0.displayDrops[arg_15_0]
+		local var_15_1 = arg_13_0.count * var_15_0.count
+		local var_15_2 = arg_13_0:GetBlueprintNeed(var_15_0.id)
 
-		setText(arg_12_1:Find("item/icon_bg/count"), setColorStr(var_12_1, not arg_10_0.isAllNeedZero and var_12_2 < var_12_1 and "#FF5A5A" or "#FFEC6E") .. "/" .. var_12_2)
+		setText(arg_15_1:Find("item/icon_bg/count"), setColorStr(var_15_1, not arg_13_0.isAllNeedZero and var_15_2 < var_15_1 and "#FF5A5A" or "#FFEC6E") .. "/" .. var_15_2)
 	end)
 end
 
-function var_0_0.updateCountText(arg_13_0)
-	local var_13_0 = arg_13_0.displayDrops[arg_13_0.selectedIndex]
-	local var_13_1 = arg_13_0.count * var_13_0.count
-	local var_13_2 = arg_13_0:GetBlueprintNeed(var_13_0.id)
+function var_0_0.updateCountText(arg_16_0)
+	local var_16_0 = arg_16_0.displayDrops[arg_16_0.selectedIndex]
+	local var_16_1 = arg_16_0.count * var_16_0.count
+	local var_16_2 = arg_16_0:GetBlueprintNeed(var_16_0.id)
 
-	setText(arg_13_0.valueText, not arg_13_0.isAllNeedZero and var_13_2 < var_13_1 and setColorStr(arg_13_0.count, "#FF5A5A") or arg_13_0.count)
-	setActive(arg_13_0.countOver, not arg_13_0.isAllNeedZero and var_13_2 < var_13_1)
+	setText(arg_16_0.valueText, not arg_16_0.isAllNeedZero and var_16_2 < var_16_1 and setColorStr(arg_16_0.count, "#FF5A5A") or arg_16_0.count)
+	setActive(arg_16_0.countOver, not arg_16_0.isAllNeedZero and var_16_2 < var_16_1)
 end
 
-function var_0_0.update(arg_14_0, arg_14_1)
-	arg_14_0.count = 1
-	arg_14_0.selectedIndex = nil
-	arg_14_0.selectedItem = nil
-	arg_14_0.isSwitch = false
-	arg_14_0.itemVO = arg_14_1
-	arg_14_0.displayDrops = underscore.map(arg_14_1:getConfig("display_icon"), function(arg_15_0)
+function var_0_0.update(arg_17_0, arg_17_1)
+	arg_17_0.count = 1
+	arg_17_0.selectedIndex = nil
+	arg_17_0.selectedItem = nil
+	arg_17_0.isSwitch = false
+	arg_17_0.itemVO = arg_17_1
+	arg_17_0.displayDrops = underscore.map(arg_17_1:getConfig("display_icon"), function(arg_18_0)
 		return {
-			type = arg_15_0[1],
-			id = arg_15_0[2],
-			count = arg_15_0[3]
+			type = arg_18_0[1],
+			id = arg_18_0[2],
+			count = arg_18_0[3]
 		}
 	end)
 
-	arg_14_0.ulist:make(function(arg_16_0, arg_16_1, arg_16_2)
-		arg_16_1 = arg_16_1 + 1
+	arg_17_0.ulist:make(function(arg_19_0, arg_19_1, arg_19_2)
+		arg_19_1 = arg_19_1 + 1
 
-		if arg_16_0 == UIItemList.EventUpdate then
-			updateDrop(arg_16_2:Find("item"), arg_14_0.displayDrops[arg_16_1])
-			onToggle(arg_14_0, arg_16_2, function(arg_17_0)
-				if arg_17_0 then
-					arg_14_0.selectedIndex = arg_16_1
-					arg_14_0.selectedItem = arg_16_2
+		if arg_19_0 == UIItemList.EventUpdate then
+			updateDrop(arg_19_2:Find("item"), arg_17_0.displayDrops[arg_19_1])
+			onToggle(arg_17_0, arg_19_2, function(arg_20_0)
+				if arg_20_0 then
+					arg_17_0.selectedIndex = arg_19_1
+					arg_17_0.selectedItem = arg_19_2
 
-					arg_14_0:updateCountText()
+					arg_17_0:updateCountText()
 				end
 			end, SFX_PANEL)
-			triggerToggle(arg_16_2, arg_16_1 == 1)
-			setScrollText(arg_16_2:Find("name_bg/Text"), arg_14_0.displayDrops[arg_16_1]:getConfig("name"))
+			triggerToggle(arg_19_2, arg_19_1 == 1)
+			setScrollText(arg_19_2:Find("name_bg/Text"), arg_17_0.displayDrops[arg_19_1]:getConfig("name"))
 
-			arg_14_0.selectedItem = arg_14_0.selectedItem or arg_16_2
+			arg_17_0.selectedItem = arg_17_0.selectedItem or arg_19_2
 
-			setText(arg_16_2:Find("item/tip/Text"), i18n("tech_character_get"))
-			setActive(arg_16_2:Find("item/tip"), arg_14_0:checkBlueprintIsUnlock(arg_14_0.displayDrops[arg_16_1].id))
+			setText(arg_19_2:Find("item/tip/Text"), i18n("tech_character_get"))
+			setActive(arg_19_2:Find("item/tip"), arg_17_0:checkBlueprintIsUnlock(arg_17_0.displayDrops[arg_19_1].id))
+			setActive(arg_19_2:Find("fateFlag"), arg_17_0:checkBlueprintIsFate(arg_17_0.displayDrops[arg_19_1].id))
 		end
 	end)
-	arg_14_0.ulist:align(#arg_14_0.displayDrops)
-	triggerToggle(arg_14_0.selectedItem, true)
-	triggerToggle(arg_14_0.toggleSwitch, true)
+	arg_17_0.ulist:align(#arg_17_0.displayDrops)
+	triggerToggle(arg_17_0.selectedItem, true)
+	triggerToggle(arg_17_0.toggleSwitch, false)
 
-	local var_14_0 = Drop.New({
+	local var_17_0 = Drop.New({
 		type = DROP_TYPE_ITEM,
-		id = arg_14_1.id,
-		count = arg_14_1.count
+		id = arg_17_1.id,
+		count = arg_17_1.count
 	})
 
-	updateDrop(arg_14_0.itemTF:Find("left/IconTpl"), setmetatable({
+	updateDrop(arg_17_0.itemTF:Find("left/IconTpl"), setmetatable({
 		count = 0
 	}, {
-		__index = var_14_0
+		__index = var_17_0
 	}))
-	UpdateOwnDisplay(arg_14_0.itemTF:Find("left/own"), var_14_0)
-	setText(arg_14_0.nameTF, arg_14_1:getConfig("name"))
-	setText(arg_14_0.descTF, arg_14_1:getConfig("display"))
+	UpdateOwnDisplay(arg_17_0.itemTF:Find("left/own"), var_17_0)
+	setText(arg_17_0.nameTF, arg_17_1:getConfig("name"))
+	setText(arg_17_0.descTF, arg_17_1:getConfig("display"))
 end
 
 return var_0_0

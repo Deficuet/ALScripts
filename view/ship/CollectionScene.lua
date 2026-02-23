@@ -842,7 +842,7 @@ function var_0_0.onInitMemory(arg_61_0, arg_61_1)
 		if var_61_0.info then
 			if var_61_0.isGroup then
 				arg_61_0:showSubMemories(var_61_0.info)
-			elseif var_61_0.info.is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(var_61_0.info.story, true) then
+			elseif var_61_0.info.is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(var_61_0.info.unlock_pre, true) then
 				arg_61_0:playMemory(var_61_0.info)
 			end
 		end

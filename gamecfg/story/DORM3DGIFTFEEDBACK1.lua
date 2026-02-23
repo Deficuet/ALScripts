@@ -2,14 +2,18 @@ return {
 	hideRecord = true,
 	dialogbox = 2,
 	mode = 2,
-	alpha = 0,
 	id = "DORM3DGIFTFEEDBACK1",
+	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
-			say = "This tea set is for me? I'm so flattered. Oh, you're too generous, Master.",
 			actorName = 20220,
+			nameColor = "#FFFFFF",
+			say = "This tea set is for me? I'm so flattered. Oh, you're too generous, Master.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,8 +46,9 @@ return {
 			}
 		},
 		{
-			say = "I'll use it with care! I will do my best to brew delicious tea for you!",
 			actorName = 20220,
+			nameColor = "#FFFFFF",
+			say = "I'll use it with care! I will do my best to brew delicious tea for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

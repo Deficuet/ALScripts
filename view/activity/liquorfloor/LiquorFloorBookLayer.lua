@@ -103,23 +103,20 @@ end
 function var_0_0.selectTag(arg_8_0, arg_8_1, arg_8_2)
 	arg_8_0.selectTagIndex = arg_8_1
 
+	arg_8_0:updateTag()
 	arg_8_0:updatePage()
 	arg_8_0:updateAwardPanel()
 end
 
 function var_0_0.updateTag(arg_9_0)
-	for iter_9_0 = 1, #arg_9_0.tags do
-		local var_9_0 = arg_9_0.tags[iter_9_0]
+	for iter_9_0 = 1, #arg_9_0.taskIds do
+		local var_9_0 = arg_9_0.taskIds[iter_9_0]
+		local var_9_1 = getProxy(TaskProxy):getTaskById(var_9_0)
 
-		setActive(var_9_0.bg, var_9_0.index == arg_9_0.selectTagIndex)
-
-		local var_9_1 = arg_9_0.pageCollectSiteIds[iter_9_0]
-		local var_9_2 = getProxy(TaskProxy):getTaskById(var_9_1)
-
-		if var_9_2 and var_9_2:getTaskStatus() == 1 then
-			setActive(findTF(var_9_0.btn, "ad/tip"), true)
+		if var_9_1 and var_9_1:getTaskStatus() == 1 then
+			setActive(arg_9_0._ad:Find("tag/" .. iter_9_0 .. "/tip"), true)
 		else
-			setActive(findTF(var_9_0.btn, "ad/tip"), false)
+			setActive(arg_9_0._ad:Find("tag/" .. iter_9_0 .. "/tip"), false)
 		end
 	end
 end
@@ -390,7 +387,7 @@ function var_0_0.updateAwardPanel(arg_20_0)
 	local var_20_10 = findTF(arg_20_0.awardPanelTf, "btnGo")
 
 	setText(findTF(var_20_8, "text"), i18n("LiquorFloor_story_get"))
-	setText(findTF(var_20_9, "text"), i18n("LiquorFloor_story_go"))
+	setText(findTF(var_20_9, "text"), i18n("LiquorFloor_story_got"))
 	setText(findTF(var_20_10, "text"), i18n("LiquorFloor_story_go"))
 	setActive(var_20_8, false)
 	setActive(var_20_9, false)

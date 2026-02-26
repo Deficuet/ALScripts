@@ -535,10 +535,10 @@ function var_0_0.GetShareSkinsForShip(arg_44_0, arg_44_1)
 					table.remove(var_44_1, iter_44_0)
 				end
 			elseif not arg_44_0:hasSkin(var_44_2.id) then
-				if var_44_4 ~= var_44_2.id then
+				if var_44_5 and var_44_5 ~= "" and var_44_5.index ~= 1 then
 					table.remove(var_44_1, iter_44_0)
 				end
-			elseif var_44_5 and var_44_5 ~= "" and var_44_4 ~= var_44_2.id then
+			elseif var_44_4 ~= var_44_2.id then
 				table.remove(var_44_1, iter_44_0)
 			end
 		end

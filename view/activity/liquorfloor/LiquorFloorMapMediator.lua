@@ -211,6 +211,7 @@ function var_0_0.handleNotification(arg_17_0, arg_17_1)
 				arg_17_0.placeData = arg_17_0.activity:GetPlaceList()
 
 				arg_17_0.viewComponent:OnBox(arg_17_0.placeData[arg_17_0.indexplaceData], arg_17_0.indexplaceData, arg_17_0.activity)
+				arg_17_0.viewComponent:OnBox(arg_17_0.placeData[arg_17_0.indexplaceData], arg_17_0.indexplaceData, arg_17_0.activity)
 
 				arg_17_0.upgradeplaceData = nil
 				arg_17_0.indexplaceData = nil

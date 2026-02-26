@@ -143,6 +143,8 @@ function var_0_0.didEnter(arg_5_0)
 	end, SFX_CANCEL)
 	setText(arg_5_0.ui:Find("Allgold/Text"), i18n("LiquorFloor_gold_get"))
 	onButton(arg_5_0, arg_5_0.ui:Find("Allgold"), function()
+		SetActive(arg_5_0.box, false)
+
 		if arg_5_0.activity:HasMaxGold() then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("LiquorFloor_gold_max_tip")
@@ -500,6 +502,9 @@ function var_0_0.OnBox(arg_42_0, arg_42_1, arg_42_2, arg_42_3)
 	local var_42_2 = arg_42_1:GetNeedTownLv()
 
 	if var_42_2 <= arg_42_3:TownLevel() and #arg_42_1:GetUpgrade() ~= 0 then
+		SetActive(arg_42_0.box:Find("box_bg/num"), true)
+		SetActive(arg_42_0.box:Find("box_bg/decorate2"), true)
+		SetActive(arg_42_0.box:Find("box_bg/num_1"), true)
 		SetActive(arg_42_0.box:Find("box_bg/btn_lock"), false)
 		SetActive(arg_42_0.box:Find("box_bg/upgrade"), true)
 
@@ -548,7 +553,6 @@ function var_0_0.OnBox(arg_42_0, arg_42_1, arg_42_2, arg_42_3)
 		SetActive(arg_42_0.box:Find("box_bg/num_man"), false)
 		SetActive(arg_42_0.box:Find("box_bg/btn_lock"), true)
 		SetActive(arg_42_0.box:Find("box_bg/upgrade"), false)
-		warning("            GetNeedTownLv   ", var_42_2)
 		setText(arg_42_0.box:Find("box_bg/btn_lock/name"), i18n("LiquorFloor_update_unlock", var_42_2))
 	end
 end
@@ -571,16 +575,16 @@ end
 function var_0_0.UpdateTask(arg_46_0, arg_46_1, arg_46_2, arg_46_3, arg_46_4, arg_46_5)
 	local var_46_0 = arg_46_1 + 1
 
-	if not #arg_46_5:GetUpgrade() or #arg_46_5:GetUpgrade() == 0 then
+	if not arg_46_5:GetUpgrade() or #arg_46_5:GetUpgrade() == 0 then
 		SetActive(arg_46_2:Find("icon"), false)
 		SetActive(arg_46_2:Find("Text"), false)
 		SetActive(arg_46_2:Find("btn"), false)
 	else
-		setButtonEnabled(arg_46_2, var_46_0 < arg_46_4)
 		SetActive(arg_46_2:Find("icon"), false)
 		SetActive(arg_46_2:Find("Text"), var_46_0 == arg_46_4)
 	end
 
+	setButtonEnabled(arg_46_2, var_46_0 < arg_46_4 or arg_46_4 == -1)
 	SetActive(arg_46_2:Find("btn"), var_46_0 < arg_46_4 or arg_46_4 == -1)
 
 	if var_46_0 < arg_46_4 and arg_46_4 == -1 then
@@ -632,6 +636,7 @@ end
 
 function var_0_0.RefreshRedPoint(arg_50_0)
 	setActive(arg_50_0.taskTip, var_0_0.ShouldShowTaskTip())
+	SetActive(arg_50_0.storyBtn:Find("tip"), var_0_0.GetCollectionBookTip())
 end
 
 function var_0_0.ShouldShowTaskTip()
@@ -659,6 +664,38 @@ function var_0_0.getCollectDataBySiteId(arg_52_0, arg_52_1)
 	end
 
 	return nil
+end
+
+function var_0_0.GetCollectionBookTip()
+	local var_53_0 = ActivityConst.ACTIVITY_TYPE_TOWN2
+	local var_53_1 = getProxy(TaskProxy)
+	local var_53_2 = getProxy(ActivityProxy):getActivityByType(var_53_0):getConfig("config_client").BookData
+
+	for iter_53_0 = 1, #var_53_2 do
+		local var_53_3 = getProxy(TaskProxy):getTaskVO(var_53_2[iter_53_0].task)
+
+		if var_53_3 and var_53_3:getTaskStatus() == 1 then
+			return true
+		end
+	end
+
+	return false
+end
+
+function var_0_0.GetLiquorFloorMapTip()
+	local var_54_0 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TOWN2):GetPlaceList()
+
+	for iter_54_0 = 1, #var_54_0 do
+		if var_54_0[iter_54_0]:GetType() == 1 and var_54_0[iter_54_0]:GetLevel() > 0 then
+			warning("       placeData[i]   ", var_54_0[iter_54_0]:OnStartTime(), var_54_0[iter_54_0]:GetName(), var_54_0[iter_54_0]:GetTypeParam() * 14400)
+
+			if var_54_0[iter_54_0]:OnStartTime() > var_54_0[iter_54_0]:GetTypeParam() * 14400 then
+				return true
+			end
+		end
+	end
+
+	return false
 end
 
 return var_0_0

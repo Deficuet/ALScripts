@@ -12,6 +12,7 @@ return {
 			bgName = "star_level_bg_197",
 			hidePaintObj = true,
 			say = "正午时分，酒楼大堂里坐满了来客，不时传来几句赞美菜样丰富、厨艺出众的点评。",
+			bgm = "story-kezhan-china",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

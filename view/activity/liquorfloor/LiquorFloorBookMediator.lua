@@ -22,6 +22,7 @@ function var_0_0.handleNotification(arg_4_0, arg_4_1)
 	if var_4_0 == GAME.SUBMIT_TASK_AWARD_DOWN then
 		arg_4_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_4_1.awards, function()
 			arg_4_0.viewComponent:updateAwardPanel()
+			arg_4_0.viewComponent:updateTag()
 		end)
 	end
 end

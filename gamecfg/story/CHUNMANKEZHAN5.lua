@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502037,
-			say = "是三线春卷……唔，好辣。",
+			say = "是三丝春卷……唔，好辣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

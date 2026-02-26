@@ -3107,7 +3107,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 131,
 		t_level = 6,
 		ships = {
-			70111
+			70111,
+			70113
 		}
 	},
 	[70201] = {
@@ -3129,6 +3130,7 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 132,
 		t_level = 1,
 		ships = {
+			70210,
 			70202,
 			70208
 		}
@@ -3179,6 +3181,17 @@ pg.fleet_tech_ship_class = {
 			79903
 		}
 	},
+	[70207] = {
+		shiptype = 2,
+		name = "纳希莫夫海军上将级",
+		nation = 7,
+		id = 70207,
+		t_level_1 = 135,
+		t_level = 5,
+		ships = {
+			70209
+		}
+	},
 	[70301] = {
 		shiptype = 3,
 		name = "塔林",
@@ -3199,6 +3212,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 8,
 		ships = {
 			70302
+		}
+	},
+	[70303] = {
+		shiptype = 3,
+		name = "莫斯科",
+		nation = 7,
+		id = 70303,
+		t_level_1 = 136,
+		t_level = 10,
+		ships = {
+			70303
 		}
 	},
 	[70501] = {
@@ -4351,6 +4375,17 @@ pg.fleet_tech_ship_class = {
 			970509
 		}
 	},
+	[970510] = {
+		shiptype = 5,
+		name = "甘古特·META",
+		nation = 97,
+		id = 970510,
+		t_level_1 = 16,
+		t_level = 3,
+		ships = {
+			970510
+		}
+	},
 	[970601] = {
 		shiptype = 6,
 		name = "飞鹰·META",
@@ -4777,8 +4812,10 @@ pg.fleet_tech_ship_class = {
 		70204,
 		70205,
 		70206,
+		70207,
 		70301,
 		70302,
+		70303,
 		70501,
 		70502,
 		70503,
@@ -4882,6 +4919,7 @@ pg.fleet_tech_ship_class = {
 		970507,
 		970508,
 		970509,
+		970510,
 		970601,
 		970602,
 		970603,

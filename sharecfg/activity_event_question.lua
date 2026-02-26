@@ -1,159 +1,159 @@
 pg = pg or {}
 pg.activity_event_question = {
-	[71] = {
-		answer_right = "南十字座",
-		answer_false1 = "南极星",
-		question = "看不到北极星的南半球，水手用来导航的天体是（）",
+	[85] = {
+		answer_right = "赤道",
+		answer_false1 = "国际日期变更线",
+		question = "漫长的远洋航行中,官兵们会在跨越(  )线时举行庆祝,从而放松一下",
 		type = 1,
-		id = 71,
-		answer_false3 = "半人马座α星",
+		id = 85,
+		answer_false3 = "马甲线",
 		wrong_time = 30,
-		answer_false2 = "人马座"
+		answer_false2 = "本初子午线"
 	},
-	[72] = {
-		answer_right = "土豆",
-		answer_false1 = "火鸡",
-		question = "取得过间接击沉潜艇战绩的食材是（） ",
+	[86] = {
+		answer_right = "争取巡逻机架次",
+		answer_false1 = "短波电台放噪音",
+		question = "帮助护航船团规避潜艇攻击的手段中,最有用的是",
 		type = 1,
-		id = 72,
-		answer_false3 = "青椒",
+		id = 86,
+		answer_false3 = "周期性对海开火",
 		wrong_time = 30,
-		answer_false2 = "菠菜"
+		answer_false2 = "贿赂沿途海豚"
 	},
-	[73] = {
-		answer_right = "晕船",
-		answer_false1 = "火灾",
-		question = "不属于损管部队职责范围的是（） ",
+	[87] = {
+		answer_right = "推动船只航行",
+		answer_false1 = "舰船舱室的地暖",
+		question = "军舰上锅炉烧出的蒸汽主要用于",
 		type = 1,
-		id = 73,
-		answer_false3 = "机械损坏",
+		id = 87,
+		answer_false3 = "厨师烧菜泡茶",
 		wrong_time = 30,
-		answer_false2 = "进水"
+		answer_false2 = "气压机旋转炮塔"
 	},
-	[74] = {
-		answer_right = "长波无线电",
-		answer_false1 = "信鸽",
-		question = "海上航行时，和地面通讯能信赖的手段是（） ",
+	[88] = {
+		answer_right = "调理心里健康",
+		answer_false1 = "靠夜视晚班放哨",
+		question = "不再需要用来防治鼠患后,水兵们在舰上养猫更多是为了",
 		type = 1,
-		id = 74,
-		answer_false3 = "游泳健将",
+		id = 88,
+		answer_false3 = "外聘随船渔夫",
 		wrong_time = 30,
-		answer_false2 = "空心邮件炮弹"
+		answer_false2 = "感知风暴低气压"
 	},
-	[75] = {
-		answer_right = "炮弹发射药",
-		answer_false1 = "去掉纽扣的制服",
-		question = "哪怕是特殊情况下，也不能当成燃料扔进蒸汽锅炉的是（） ",
+	[89] = {
+		answer_right = "航空兵投入实战",
+		answer_false1 = "主炮越打越远",
+		question = "主力舰二级主炮逐渐退出历史舞台的原因不包括",
 		type = 1,
-		id = 75,
-		answer_false3 = "厨师拿来的肥肉",
+		id = 89,
+		answer_false3 = "护航舰分担职能",
 		wrong_time = 30,
-		answer_false2 = "拆了把手的门板"
+		answer_false2 = "齐射精度提升"
 	},
-	[76] = {
-		answer_right = "拖着破雷卫航行",
-		answer_false1 = "全方向声纳探听",
-		question = "对护航编队保护商船免受潜艇攻击基本无法起作用的是（）",
+	[90] = {
+		answer_right = "Oscar",
+		answer_false1 = "Ginger",
+		question = "以下哪只猫咪被称为“不沉的山姆”（Unsinkable Sam）",
 		type = 1,
-		id = 76,
-		answer_false3 = "间歇性调整航向",
+		id = 90,
+		answer_false3 = "Sam",
 		wrong_time = 30,
-		answer_false2 = "借助侦察机探路"
+		answer_false2 = "Fishcakes"
 	},
-	[77] = {
-		answer_right = "左红右绿顶白",
-		answer_false1 = "左红右黄",
-		question = "船只航行灯的布置方式是（）",
+	[91] = {
+		answer_right = "古代祈福的延续",
+		answer_false1 = "测试船体硬度",
+		question = "新船下水典礼时行祝礼,采用在船头砸酒瓶的理由是",
 		type = 1,
-		id = 77,
-		answer_false3 = "前红后蓝",
+		id = 91,
+		answer_false3 = "安抚机魂",
 		wrong_time = 30,
-		answer_false2 = "前绿后橙顶粉"
+		answer_false2 = "波塞冬不会英语"
 	},
-	[78] = {
-		answer_right = "领洋者",
-		answer_false1 = "领航员",
-		question = "养成计划中最新加入的角色是（）",
+	[92] = {
+		answer_right = "第十六章",
+		answer_false1 = "第十五章",
+		question = "主线最新章节是第几章",
 		type = 2,
-		id = 78,
-		answer_false3 = "潜伏者",
+		id = 92,
+		answer_false3 = "第十七章",
 		wrong_time = 30,
-		answer_false2 = "探索者"
+		answer_false2 = "第十四章"
 	},
-	[79] = {
-		answer_right = "50%",
-		answer_false1 = "30%",
-		question = "弹药匮乏状态下我方造成的伤害会变为原先的（） ",
+	[93] = {
+		answer_right = "改良声纳",
+		answer_false1 = "液压舵机",
+		question = "以下哪件装备航母舰种不适用",
 		type = 2,
-		id = 79,
-		answer_false3 = "70%",
+		id = 93,
+		answer_false3 = "防鱼雷隔舱",
 		wrong_time = 30,
-		answer_false2 = "60%"
+		answer_false2 = "对空雷达"
 	},
-	[80] = {
-		answer_right = "60",
-		answer_false1 = "50",
-		question = "开启作战档案需要消耗的档案密钥存储上限是（） ",
+	[94] = {
+		answer_right = "天狼星",
+		answer_false1 = "柴郡",
+		question = "第一个加入宿舍计划的角色是",
 		type = 2,
-		id = 80,
-		answer_false3 = "70",
+		id = 94,
+		answer_false3 = "安克雷奇",
 		wrong_time = 30,
-		answer_false2 = "40"
+		answer_false2 = "萨拉托加"
 	},
-	[81] = {
-		answer_right = "主线出击",
-		answer_false1 = "抚顺大冒险",
-		question = "以下哪种游戏行为会消耗石油（） ",
+	[95] = {
+		answer_right = "马塞纳",
+		answer_false1 = "埃佛森",
+		question = "以下哪个角色不属于郁金王国阵营",
 		type = 2,
-		id = 81,
-		answer_false3 = "演习",
+		id = 95,
+		answer_false3 = "七省",
 		wrong_time = 30,
-		answer_false2 = "限界挑战"
+		answer_false2 = "金狮"
 	},
-	[82] = {
-		answer_right = "200",
-		answer_false1 = "100",
-		question = "目前游戏中指挥官等级上限是（） ",
+	[96] = {
+		answer_right = "圣地亚哥",
+		answer_false1 = "彗星",
+		question = "星辉闪耀爆射枪是( )的专属特殊兵装",
 		type = 2,
-		id = 82,
-		answer_false3 = "180",
+		id = 96,
+		answer_false3 = "水星纪念",
 		wrong_time = 30,
-		answer_false2 = "150"
+		answer_false2 = "海王星"
 	},
-	[83] = {
-		answer_right = "3",
-		answer_false1 = "1",
-		question = "后宅最多可以扩建（）次 ",
+	[97] = {
+		answer_right = "青花鱼",
+		answer_false1 = "F6F地狱猫",
+		question = "以下哪种舰载机属于鱼雷机",
 		type = 2,
-		id = 83,
-		answer_false3 = "5",
+		id = 97,
+		answer_false3 = "F4F野猫",
 		wrong_time = 30,
-		answer_false2 = "2"
+		answer_false2 = "萤火虫"
 	},
-	[84] = {
-		answer_right = "机动",
-		answer_false1 = "炮击",
-		question = "游戏中单纵阵突入阵型会降低（）属性 ",
+	[98] = {
+		answer_right = "舰艇攻击教材T4",
+		answer_false1 = "心智单元",
+		question = "以下哪个道具可用于在战术学院中提升舰船技能等级",
 		type = 2,
-		id = 84,
-		answer_false3 = "防空",
+		id = 98,
+		answer_false3 = "心智魔方",
 		wrong_time = 30,
-		answer_false2 = "雷击"
+		answer_false2 = "驱逐改造图纸T2"
 	},
 	all = {
-		71,
-		72,
-		73,
-		74,
-		75,
-		76,
-		77,
-		78,
-		79,
-		80,
-		81,
-		82,
-		83,
-		84
+		85,
+		86,
+		87,
+		88,
+		89,
+		90,
+		91,
+		92,
+		93,
+		94,
+		95,
+		96,
+		97,
+		98
 	}
 }

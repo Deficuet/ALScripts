@@ -854,7 +854,7 @@ end
 
 function var_0_0.GetAutoShipIds(arg_66_0)
 	local var_66_0 = underscore.select(getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShips(), function(arg_67_0)
-		return arg_67_0:GetState() == IslandShip.STATE_NORMAL
+		return arg_67_0:IsDelegable()
 	end)
 
 	table.sort(var_66_0, CompareFuncs({

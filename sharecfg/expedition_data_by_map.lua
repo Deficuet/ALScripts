@@ -192,6 +192,12 @@ pg.expedition_data_by_map = setmetatable({
 		1990012,
 		1990025,
 		1990026,
+		2000001,
+		2000002,
+		2000011,
+		2000012,
+		2000025,
+		2000026,
 		2100000,
 		2100001,
 		2100010,
@@ -13863,6 +13869,367 @@ pg.base.expedition_data_by_map = {
 			364,
 			365,
 			366
+		}
+	},
+	[2000001] = {
+		map = 2000001,
+		name = "春满客栈Online·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-kezhan-china",
+		enter_story = "",
+		ani_name = "Map_2000001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_part1",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 50426,
+		ui_type = 10,
+		bg = "Map_2000001",
+		story_id = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 2000011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2000001,
+				2000021
+			},
+			{
+				2000002,
+				2000022
+			},
+			{
+				2000003,
+				2000023
+			}
+		}
+	},
+	[2000002] = {
+		map = 2000002,
+		name = "春满客栈Online·下篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-kezhan-china",
+		enter_story = "",
+		ani_name = "Map_2000002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_part2",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 50426,
+		ui_type = 10,
+		bg = "Map_2000002",
+		story_id = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 2000012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2000004,
+				2000024
+			},
+			{
+				2000005,
+				2000025
+			},
+			{
+				2000006,
+				2000026
+			}
+		}
+	},
+	[2000011] = {
+		map = 2000011,
+		name = "春满客栈Online·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-kezhan-china",
+		enter_story = "",
+		ani_name = "Map_2000001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_part1",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 50426,
+		ui_type = 10,
+		bg = "Map_2000001",
+		story_id = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 2000001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2000001,
+				2000021
+			},
+			{
+				2000002,
+				2000022
+			},
+			{
+				2000003,
+				2000023
+			}
+		}
+	},
+	[2000012] = {
+		map = 2000012,
+		name = "春满客栈Online·下篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-kezhan-china",
+		enter_story = "",
+		ani_name = "Map_2000002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_part2",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 50426,
+		ui_type = 10,
+		bg = "Map_2000002",
+		story_id = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 2000002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2000004,
+				2000024
+			},
+			{
+				2000005,
+				2000025
+			},
+			{
+				2000006,
+				2000026
+			}
+		}
+	},
+	[2000025] = {
+		map = 2000025,
+		name = "春满客栈Online·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-china-jianwu",
+		enter_story = "",
+		ani_name = "Map_2000003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_sp",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 50426,
+		ui_type = 10,
+		bg = "Map_2000003",
+		story_id = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 2000011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2000041
+			}
+		}
+	},
+	[2000026] = {
+		map = 2000026,
+		name = "春满客栈Online·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-chunjie2025-1",
+		enter_story = "",
+		ani_name = "Map_2000003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_ex",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 50426,
+		ui_type = 10,
+		bg = "Map_2000003",
+		story_id = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 2000012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2000051,
+				2000052
+			}
 		}
 	},
 	[2100000] = {

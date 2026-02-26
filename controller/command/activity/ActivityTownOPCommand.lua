@@ -24,23 +24,47 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 
 			var_1_3 = var_1_2:getActivityById(var_1_0.activity_id)
 
-			switch(var_1_0.cmd, {
-				[TownActivity.OPERATION.UPGRADE_TOWN] = function()
-					var_1_3:OnUpgradeTown(arg_2_0.number[1])
-				end,
-				[TownActivity.OPERATION.UPGRADE_PLACE] = function()
-					var_1_3:OnUpgradePlace(var_1_0.arg1, arg_2_0.number[1])
-				end,
-				[TownActivity.OPERATION.CHANGE_SHIPS] = function()
-					var_1_3:OnChangeShips(var_1_0.kvargs1)
-				end,
-				[TownActivity.OPERATION.CLICK_BUBBLE] = function()
-					var_1_3:OnGetBubbleAward(var_1_0.arg_list, arg_2_0.number)
-				end,
-				[TownActivity.OPERATION.SETTLE_GOLD] = function()
-					var_1_3:OnSettleGold(arg_2_0.number[1])
-				end
-			})
+			if var_1_3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_TOWN2 then
+				switch(var_1_0.cmd, {
+					[TownActivity2.OPERATION.UPGRADE_TOWN] = function()
+						return
+					end,
+					[TownActivity2.OPERATION.UPGRADE_PLACE] = function()
+						var_1_3:OnUpgradePlace(var_1_0.arg1, arg_2_0.number[1])
+					end,
+					[TownActivity2.OPERATION.CHANGE_SHIPS] = function()
+						var_1_3:OnChangeShips(var_1_0.kvargs1)
+					end,
+					[TownActivity2.OPERATION.CLICK_BUBBLE] = function()
+						var_1_3:OnGetBubbleAward(var_1_0.arg_list, arg_2_0.number)
+					end,
+					[TownActivity2.OPERATION.SETTLE_GOLD] = function()
+						var_1_3:OnGatherPlaceGold(var_1_0.arg1, arg_2_0.number[2])
+					end,
+					[TownActivity2.OPERATION.ALL_GOLD] = function()
+						var_1_3:OnAllGatherPlaceGold(arg_2_0.number)
+					end
+				})
+			else
+				switch(var_1_0.cmd, {
+					[TownActivity.OPERATION.UPGRADE_TOWN] = function()
+						var_1_3:OnUpgradeTown(arg_2_0.number[1])
+					end,
+					[TownActivity.OPERATION.UPGRADE_PLACE] = function()
+						var_1_3:OnUpgradePlace(var_1_0.arg1, arg_2_0.number[1])
+					end,
+					[TownActivity.OPERATION.CHANGE_SHIPS] = function()
+						var_1_3:OnChangeShips(var_1_0.kvargs1)
+					end,
+					[TownActivity.OPERATION.CLICK_BUBBLE] = function()
+						var_1_3:OnGetBubbleAward(var_1_0.arg_list, arg_2_0.number)
+					end,
+					[TownActivity.OPERATION.SETTLE_GOLD] = function()
+						var_1_3:OnSettleGold(arg_2_0.number[2])
+					end
+				})
+			end
+
 			var_1_2:updateActivity(var_1_3)
 
 			if var_1_1 then

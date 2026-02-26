@@ -1991,5 +1991,17 @@ pg.voice_actor_CN = {
 	{
 		code = 498,
 		actor_name = "熊谷海丽"
+	},
+	{
+		code = 499,
+		actor_name = "田所梓"
+	},
+	{
+		code = 500,
+		actor_name = "大森心"
+	},
+	{
+		code = 501,
+		actor_name = "吉田有里"
 	}
 }

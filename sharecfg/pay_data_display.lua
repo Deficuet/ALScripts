@@ -109,6 +109,8 @@ pg.pay_data_display = setmetatable({
 		9010,
 		9011,
 		9012,
+		9013,
+		9014,
 		1000,
 		1001,
 		1002,
@@ -202,6 +204,9 @@ pg.pay_data_display = setmetatable({
 		2069,
 		2070,
 		2071,
+		2074,
+		2075,
+		2076,
 		2077,
 		5001,
 		5002,
@@ -11781,7 +11786,7 @@ pg.base.pay_data_display = {
 		extra_gem = 0,
 		descrip = "可获得980钻，冬日自选礼物盒1*1，和大量其他奖励",
 		package_tag_open = 0,
-		airijp_id = "com.bilibili.blhx.zuanshi201",
+		airijp_id = "com.yostarjp.azurlane.diamond197",
 		extra_service_item = {
 			{
 				2,
@@ -11889,7 +11894,7 @@ pg.base.pay_data_display = {
 		extra_gem = 0,
 		descrip = "可获得1980钻，冬日自选礼物盒2*1，和大量其他奖励",
 		package_tag_open = 0,
-		airijp_id = "com.bilibili.blhx.zuanshi202",
+		airijp_id = "com.yostarjp.azurlane.diamond198",
 		extra_service_item = {
 			{
 				2,
@@ -12002,7 +12007,7 @@ pg.base.pay_data_display = {
 		extra_gem = 0,
 		descrip = "可获得3280钻，冬日自选礼物盒3*1，和大量其他奖励",
 		package_tag_open = 0,
-		airijp_id = "com.bilibili.blhx.zuanshi203",
+		airijp_id = "com.yostarjp.azurlane.diamond199",
 		extra_service_item = {
 			{
 				2,
@@ -12129,7 +12134,7 @@ pg.base.pay_data_display = {
 		first_pay_double = 0,
 		extra_gem = 0,
 		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
-		airijp_id = "com.bilibili.blhx.zuanshi204",
+		airijp_id = "com.yostarjp.azurlane.diamond200",
 		extra_service_item = {
 			{
 				2,
@@ -12263,7 +12268,7 @@ pg.base.pay_data_display = {
 		first_pay_double = 0,
 		extra_gem = 0,
 		descrip = "可获得列表中未拥有的L2D换装*1（拥有列表中所有换装则转换为获得钻石）和其他奖励",
-		airijp_id = "com.bilibili.blhx.zuanshi205",
+		airijp_id = "com.yostarjp.azurlane.diamond201",
 		extra_service_item = {
 			{
 				2,
@@ -13142,6 +13147,274 @@ pg.base.pay_data_display = {
 			{
 				2,
 				86210,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
+	[9013] = {
+		limit_group = 0,
+		name = "2026年春节福袋·II",
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		second_text = "大量奖励",
+		type_order = 2,
+		subject = "2026年春节福袋·II",
+		first_text = "随机换装和大量钻石",
+		limit_arg = 1,
+		tip = "",
+		money = 198,
+		tip_open = 0,
+		tag = 2,
+		id = 9013,
+		gem = 0,
+		name_display = "2026年春节福袋·II",
+		package_sort_id = 0,
+		limit_type = 2,
+		akashi_pick = 1,
+		extra_service = 3,
+		package_tag = "",
+		picture = "fudai33",
+		show_group = "",
+		skin_inquire_relation = 86225,
+		package_tag_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi212",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "可获得一件角色换装，2026钻，和大量其他奖励",
+		airijp_id = "com.yostarjp.azurlane.diamond195",
+		extra_service_item = {
+			{
+				2,
+				86225,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81233,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86225,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			}
+		}
+	},
+	[9014] = {
+		limit_group = 0,
+		name = "2025年春节福袋·II复刻",
+		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		second_text = "大量奖励",
+		type_order = 2,
+		subject = "2025年春节福袋·II复刻",
+		first_text = "随机换装和大量钻石",
+		limit_arg = 1,
+		tip = "",
+		money = 198,
+		tip_open = 0,
+		tag = 2,
+		id = 9014,
+		gem = 0,
+		name_display = "2025年春节福袋·II复刻",
+		package_sort_id = 0,
+		limit_type = 2,
+		akashi_pick = 1,
+		extra_service = 3,
+		package_tag = "",
+		picture = "fudai22",
+		show_group = "",
+		skin_inquire_relation = 86211,
+		package_tag_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi213",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
+		airijp_id = "com.yostarjp.azurlane.diamond196",
+		extra_service_item = {
+			{
+				2,
+				86211,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81211,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86211,
 				1
 			},
 			{
@@ -21256,6 +21529,269 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40076,
+				1
+			}
+		}
+	},
+	[2074] = {
+		limit_group = 108,
+		name = "春满客栈主题礼包",
+		descrip_extra = "此处不会被看到",
+		type = 0,
+		second_text = "",
+		type_order = 4,
+		subject = "春满客栈主题礼包",
+		first_text = "",
+		first_icon = "",
+		limit_arg = 0,
+		money = 78,
+		tip = "",
+		tag = 2,
+		tip_open = 0,
+		gem = 0,
+		id = 2074,
+		name_display = "春满客栈主题礼包",
+		limit_type = 5,
+		package_sort_id = 0,
+		akashi_pick = 1,
+		package_tag = "",
+		picture = "ui8",
+		extra_service = 3,
+		skin_inquire_relation = 0,
+		show_group = "uigift",
+		id_str = "com.bilibili.blhx.ui21",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "可获得战斗界面主题 春满客栈*1",
+		package_tag_open = 0,
+		airijp_id = "com.yostarjp.azurlane.ui21",
+		extra_service_item = {
+			{
+				31,
+				207,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				207,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2075] = {
+		limit_group = 108,
+		name = "春满客栈主题礼包(基础版)",
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		type = 0,
+		second_text = "",
+		type_order = 4,
+		subject = "春满客栈主题礼包(基础版)",
+		first_text = "",
+		first_icon = "",
+		limit_arg = 1,
+		money = 78,
+		tip = "",
+		tag = 2,
+		tip_open = 0,
+		gem = 0,
+		id = 2075,
+		name_display = "春满客栈主题礼包(基础版)",
+		limit_type = 5,
+		package_sort_id = 0,
+		akashi_pick = 1,
+		package_tag = "",
+		picture = "ui8",
+		extra_service = 3,
+		skin_inquire_relation = 0,
+		show_group = "uigift",
+		id_str = "com.bilibili.blhx.ui22",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "可获得战斗界面主题 春满客栈*1,1000物资",
+		package_tag_open = 0,
+		airijp_id = "com.yostarjp.azurlane.ui22",
+		extra_service_item = {
+			{
+				31,
+				207,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				207,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40077,
+				1
+			}
+		}
+	},
+	[2076] = {
+		limit_group = 108,
+		name = "春满客栈主题礼包(豪华版)",
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		type = 0,
+		second_text = "",
+		type_order = 4,
+		subject = "春满客栈主题礼包(豪华版)",
+		first_text = "",
+		first_icon = "",
+		limit_arg = 1,
+		money = 258,
+		tip = "",
+		tag = 2,
+		tip_open = 0,
+		gem = 0,
+		id = 2076,
+		name_display = "春满客栈主题礼包(豪华版)",
+		limit_type = 5,
+		package_sort_id = 0,
+		akashi_pick = 1,
+		package_tag = "",
+		picture = "ui8",
+		extra_service = 3,
+		skin_inquire_relation = 0,
+		show_group = "uigift",
+		id_str = "com.bilibili.blhx.ui23",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "可获得战斗界面主题 春满客栈*1,3060钻石",
+		package_tag_open = 0,
+		airijp_id = "com.yostarjp.azurlane.ui23",
+		extra_service_item = {
+			{
+				31,
+				207,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				207,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40078,
 				1
 			}
 		}

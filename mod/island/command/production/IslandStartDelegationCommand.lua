@@ -56,10 +56,21 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 				slotId = var_1_2
 			})
 			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandStartDelegation(var_1_3, var_1_1, var_1_2, var_1_4, var_1_5))
+
+			local var_2_7 = var_0_0.GetLocalKeyForLastData(var_1_2)
+			local var_2_8 = PackIntToString(var_1_3, var_1_4)
+
+			PlayerPrefs.SetString(var_2_7, var_2_8)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[arg_2_0.result] .. arg_2_0.result)
 		end
 	end)
+end
+
+function var_0_0.GetLocalKeyForLastData(arg_3_0)
+	local var_3_0 = getProxy(PlayerProxy):getData().id
+
+	return "LAST_DELEGATE" .. tostring(arg_3_0) .. "_" .. var_3_0
 end
 
 return var_0_0

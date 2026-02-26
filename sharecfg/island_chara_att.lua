@@ -1,9 +1,10 @@
 pg = pg or {}
 pg.island_chara_att = {
 	{
-		id = 1,
-		effect = 25,
 		name = "SSS",
+		effect = 25,
+		id = 1,
+		gather_effect = 7,
 		manage_effect = 10000,
 		range = {
 			500,
@@ -11,9 +12,10 @@ pg.island_chara_att = {
 		}
 	},
 	{
-		id = 2,
-		effect = 23,
 		name = "SS",
+		effect = 23,
+		id = 2,
+		gather_effect = 6,
 		manage_effect = 8400,
 		range = {
 			320,
@@ -21,9 +23,10 @@ pg.island_chara_att = {
 		}
 	},
 	{
-		id = 3,
-		effect = 20,
 		name = "S",
+		effect = 20,
+		id = 3,
+		gather_effect = 5,
 		manage_effect = 7200,
 		range = {
 			200,
@@ -31,9 +34,10 @@ pg.island_chara_att = {
 		}
 	},
 	{
-		id = 4,
-		effect = 15,
 		name = "A",
+		effect = 15,
+		id = 4,
+		gather_effect = 4,
 		manage_effect = 5600,
 		range = {
 			120,
@@ -41,9 +45,10 @@ pg.island_chara_att = {
 		}
 	},
 	{
-		id = 5,
-		effect = 10,
 		name = "B",
+		effect = 10,
+		id = 5,
+		gather_effect = 3,
 		manage_effect = 4200,
 		range = {
 			80,
@@ -51,9 +56,10 @@ pg.island_chara_att = {
 		}
 	},
 	{
-		id = 6,
-		effect = 5,
 		name = "C",
+		effect = 5,
+		id = 6,
+		gather_effect = 2,
 		manage_effect = 3000,
 		range = {
 			50,
@@ -61,9 +67,10 @@ pg.island_chara_att = {
 		}
 	},
 	{
-		id = 7,
-		effect = 2,
 		name = "D",
+		effect = 2,
+		id = 7,
+		gather_effect = 1,
 		manage_effect = 1600,
 		range = {
 			25,
@@ -71,9 +78,10 @@ pg.island_chara_att = {
 		}
 	},
 	{
-		id = 8,
-		effect = 0,
 		name = "E",
+		effect = 0,
+		id = 8,
+		gather_effect = 0,
 		manage_effect = 500,
 		range = {
 			0,

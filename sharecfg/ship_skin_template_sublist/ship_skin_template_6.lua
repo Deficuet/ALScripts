@@ -14420,6 +14420,221 @@ pg.base.ship_skin_template_6 = {
 			1.7
 		}
 	},
+	[207072] = {
+		ship_group = 20707,
+		name = "杯盏盈芳华",
+		hand_id = 1,
+		lover_kiss = "",
+		bgm = "",
+		illustrator2 = -1,
+		id = 207072,
+		gyro = 0,
+		group_index = 2,
+		prefab = "yuanchou_3",
+		painting = "yuanchou_3",
+		lover_hand = "",
+		part_scale = "",
+		shop_id = 71311,
+		shop_type_id = 3,
+		shop_dynamic_hx = 0,
+		illustrator = -1,
+		lip_smoothing = 0,
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		bg = "152",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 4,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "指挥官，您灼热的眼神……是在渴望品尝这壶中的美酒还是终于按捺不住——想要细细品味更醉人的芬芳呢？",
+		voice_actor = 356,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			4
+		},
+		live2d_offset = {
+			0,
+			-35,
+			0,
+			82
+		},
+		shop_offset = {
+			0,
+			-35,
+			0,
+			82
+		},
+		purchase_offset = {
+			0,
+			0,
+			0,
+			82
+		},
+		live2d_offset_profile = {
+			0,
+			-35,
+			0,
+			82
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.732,
+					2.262,
+					0
+				}
+			},
+			plane = {
+				{
+					0.85,
+					0.77,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.704,
+							2.376,
+							-1.47
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		ship_l2d_id = {
+			20707201,
+			20707202,
+			20707203,
+			20707204,
+			20707205,
+			20707206,
+			20707207,
+			20707208,
+			20707209,
+			20707210,
+			20707211,
+			20707212,
+			20707213,
+			20707214,
+			20707215,
+			20707216,
+			20707217,
+			20707218,
+			20707219,
+			20707220,
+			20707221,
+			20707222,
+			20707223,
+			20707224,
+			20707225,
+			20707226,
+			20707227,
+			20707228,
+			20707229,
+			20707230,
+			20707231,
+			20707232,
+			20707233,
+			20707234,
+			20707235,
+			20707236,
+			20707237,
+			20707238
+		},
+		l2d_drag_rate = {
+			0.7,
+			0.7,
+			1
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1449,
+					102,
+					2.3,
+					0,
+					143,
+					2
+				},
+				{
+					-292,
+					806,
+					2.3,
+					125,
+					0,
+					2
+				},
+				{
+					30,
+					-375,
+					2.3,
+					0,
+					-159,
+					2
+				}
+			}
+		}
+	},
 	[207090] = {
 		ship_group = 20709,
 		name = "小光辉",
@@ -17033,132 +17248,6 @@ pg.base.ship_skin_template_6 = {
 				{
 					0.98,
 					1.05,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.45,
-							2.45,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301011] = {
-		ship_group = 30101,
-		name = "迟到前的一刻",
-		hand_id = 14,
-		lover_kiss = "lip02",
-		bgm = "",
-		illustrator2 = -1,
-		shop_offset = "",
-		id = 301011,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "chuixue_2",
-		lover_hand = "hand_2_02",
-		gyro = 0,
-		l2d_drag_rate = "",
-		shop_type_id = 4,
-		prefab = "chuixue_2",
-		part_scale = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		shop_id = 70055,
-		shop_dynamic_hx = 0,
-		bg = "103",
-		illustrator = 2,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = 4,
-		double_char = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		l2d_para_range = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		l2d_voice_calibrate = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "呜哇，快、快迟到了！汪汪也快一点！呼……呼……明明有那么多妹妹，为什么谁都没有提醒我快迟到了啊！",
-		voice_actor = 116,
-		spine_offset = "",
-		change_skin = "",
-		rarity_bg = "",
-		time = "",
-		get_showing = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.03,
-					0.8,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.02,
-					0.78,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.18,
-					0.11,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0,
-					0.83,
 					0
 				}
 			}

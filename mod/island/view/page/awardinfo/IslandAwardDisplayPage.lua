@@ -4,6 +4,7 @@ var_0_0.TYPE_COMMON = 1
 var_0_0.TYPE_SHIP_SKILL = 2
 var_0_0.TYPE_SHIP_BREAK = 3
 var_0_0.TYPE_SIGN_GIFT = 4
+var_0_0.AUTO_COLLECT = 5
 
 function var_0_0.getUIName(arg_1_0)
 	return "IslandAwardDisplayConatiner"
@@ -14,7 +15,8 @@ function var_0_0.OnLoaded(arg_2_0)
 		[var_0_0.TYPE_COMMON] = IslandAwardDisplayWindow.New(arg_2_0._tf),
 		[var_0_0.TYPE_SHIP_SKILL] = IslandAwardDisplay4ShipSkillWindow.New(arg_2_0._tf),
 		[var_0_0.TYPE_SHIP_BREAK] = IslandAwardDisplay4ShipBreakWindow.New(arg_2_0._tf),
-		[var_0_0.TYPE_SIGN_GIFT] = IslandAwardDisplay4SignGiftWindow.New(arg_2_0._tf)
+		[var_0_0.TYPE_SIGN_GIFT] = IslandAwardDisplay4SignGiftWindow.New(arg_2_0._tf),
+		[var_0_0.AUTO_COLLECT] = IslandAutoCollectAwardDisplayWindow.New(arg_2_0._tf)
 	}
 end
 

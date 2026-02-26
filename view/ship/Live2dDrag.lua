@@ -216,7 +216,7 @@ function var_0_0.onListenerTrigger(arg_3_0, arg_3_1, arg_3_2)
 			arg_3_0.nextTriggerTime = arg_3_0.limitTime
 		end
 	elseif arg_3_1 == Live2D.ON_ACTION_PLAY then
-		arg_3_0.nextTriggerTime = arg_3_0.limitTime
+		arg_3_0.nextTriggerTime = arg_3_0.limitTime <= 1 and arg_3_0.limitTime or 1
 	end
 end
 
@@ -1083,7 +1083,7 @@ function var_0_0.updateTrigger(arg_52_0)
 				print("获取到数值 " .. var_52_4 .. " = " .. arg_55_0)
 
 				if arg_55_0 >= var_52_5[1] and arg_55_0 < var_52_5[2] then
-					print("数值范围内，开始触发")
+					print("数值范围内，开始触发动作  = " .. tostring(arg_52_0.id))
 					arg_52_0:onEventCallback(Live2D.EVENT_ACTION_APPLY, nil, function(arg_56_0)
 						arg_52_0:onEventNotice(Live2D.ON_ACTION_DRAG_CLICK)
 					end)
@@ -1470,30 +1470,24 @@ function var_0_0.checkClickAction(arg_79_0)
 		if not arg_79_0.actionTrigger.down and var_79_0 and var_79_1 then
 			if arg_79_0.actionTrigger.focus == 1 and arg_79_0.l2dIsPlaying then
 				if arg_79_0.l2dPlayActionName == arg_79_0.actionTrigger.action then
-					arg_79_0.clickTriggerTime = 0.01
-					arg_79_0.clickApplyFlag = true
+					arg_79_0.clickTriggerTime = Time.realtimeSinceStartup + 0.1
 				end
 			elseif not arg_79_0.l2dIsPlaying then
-				arg_79_0.clickTriggerTime = 0.01
-				arg_79_0.clickApplyFlag = true
+				arg_79_0.clickTriggerTime = Time.realtimeSinceStartup + 0.1
 			end
 		else
 			arg_79_0:setAbleWithFlag(false)
 		end
-	elseif arg_79_0.clickTriggerTime and arg_79_0.clickTriggerTime > 0 then
-		arg_79_0.clickTriggerTime = arg_79_0.clickTriggerTime - Time.deltaTime
+	elseif arg_79_0.clickTriggerTime and arg_79_0.clickTriggerTime > 0 and Time.realtimeSinceStartup >= arg_79_0.clickTriggerTime then
+		arg_79_0:setAbleWithFlag(false)
 
-		if arg_79_0.clickTriggerTime <= 0 then
-			arg_79_0.clickTriggerTime = nil
+		if Time.realtimeSinceStartup - arg_79_0.clickTriggerTime <= 0.5 then
+			print("点击成功" .. arg_79_0.id)
 
-			arg_79_0:setAbleWithFlag(false)
-
-			if arg_79_0.clickApplyFlag then
-				arg_79_0.clickApplyFlag = false
-
-				return true
-			end
+			return true
 		end
+
+		arg_79_0.clickTriggerTime = nil
 	end
 
 	return false

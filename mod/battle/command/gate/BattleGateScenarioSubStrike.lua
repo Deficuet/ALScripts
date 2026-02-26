@@ -35,4 +35,23 @@ function var_0_0.Exit(arg_2_0, arg_2_1)
 	})
 end
 
+function var_0_0.GetPreloadList(arg_4_0)
+	local var_4_0 = {}
+	local var_4_1
+	local var_4_2 = getProxy(BayProxy)
+	local var_4_3 = getProxy(ChapterProxy)
+	local var_4_4 = ys.Battle.BattleResourceManager.GetInstance()
+	local var_4_5 = var_4_3:getActiveChapter():getChapterSupportFleet():getTeamByName(TeamType.Submarine)
+
+	for iter_4_0, iter_4_1 in ipairs(var_4_5) do
+		local var_4_6 = var_4_2:getShipById(iter_4_1)
+
+		table.insert(var_4_0, var_4_6)
+	end
+
+	local var_4_7, var_4_8 = var_4_4.GetPlayerShipResource(var_4_0, arg_4_0.system)
+
+	return var_4_7, var_4_8
+end
+
 return var_0_0

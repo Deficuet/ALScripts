@@ -217,6 +217,12 @@ pg.furniture_data_template = setmetatable({
 			322,
 			323,
 			325,
+			326,
+			327,
+			328,
+			329,
+			330,
+			331,
 			100001,
 			100002,
 			100003,
@@ -299,6 +305,7 @@ pg.furniture_data_template = setmetatable({
 			100080,
 			100081,
 			100082,
+			100083,
 			200001,
 			200002,
 			200003,
@@ -4048,6 +4055,11 @@ pg.furniture_data_template = setmetatable({
 			317,
 			322,
 			325,
+			326,
+			327,
+			328,
+			329,
+			330,
 			100001,
 			100002,
 			100003,
@@ -4130,6 +4142,7 @@ pg.furniture_data_template = setmetatable({
 			100080,
 			100081,
 			100082,
+			100083,
 			31101,
 			54101,
 			54102,
@@ -4208,7 +4221,8 @@ pg.furniture_data_template = setmetatable({
 			318,
 			319,
 			321,
-			323
+			323,
+			331
 		},
 		[7] = {
 			213,
@@ -7767,6 +7781,12 @@ pg.furniture_data_template = setmetatable({
 			322,
 			323,
 			325,
+			326,
+			327,
+			328,
+			329,
+			330,
+			331,
 			100001,
 			100002,
 			100004,
@@ -10151,6 +10171,7 @@ pg.furniture_data_template = setmetatable({
 			100071,
 			100073,
 			100077,
+			100083,
 			30123,
 			35128,
 			36125,
@@ -11486,6 +11507,12 @@ pg.furniture_data_template = setmetatable({
 		322,
 		323,
 		325,
+		326,
+		327,
+		328,
+		329,
+		330,
+		331,
 		100001,
 		100002,
 		100003,
@@ -11568,6 +11595,7 @@ pg.furniture_data_template = setmetatable({
 		100080,
 		100081,
 		100082,
+		100083,
 		200001,
 		200002,
 		200003,
@@ -25893,6 +25921,240 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[326] = {
+		spine_extra = "",
+		describe = "春满客栈神秘仓库的微缩模型。",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		icon = "jiuloucangkuicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		name = "神秘仓库微缩模型 ",
+		spine_action_replace = "",
+		picture = "chuanmo/jiuloucangku",
+		comfortable = 0,
+		canputon = 0,
+		id = 326,
+		can_rotate = 0,
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[327] = {
+		spine_extra = "",
+		describe = "春满客栈池塘的微缩模型",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		icon = "jiulouchitangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		name = "池塘微缩模型",
+		spine_action_replace = "",
+		picture = "chuanmo/jiulouchitang",
+		comfortable = 0,
+		canputon = 0,
+		id = 327,
+		can_rotate = 0,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[328] = {
+		spine_extra = "",
+		describe = "春满客栈水榭楼台的微缩模型。",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		icon = "jiulouloutaiicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		name = "水榭楼台微缩模型",
+		spine_action_replace = "",
+		picture = "chuanmo/jiulouloutai",
+		comfortable = 0,
+		canputon = 0,
+		id = 328,
+		can_rotate = 0,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[329] = {
+		spine_extra = "",
+		describe = "春满客栈旅舍的微缩模型。 ",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		icon = "jiuloulvsheicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		name = "旅舍微缩模型",
+		spine_action_replace = "",
+		picture = "chuanmo/jiuloulvshe",
+		comfortable = 0,
+		canputon = 0,
+		id = 329,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[330] = {
+		spine_extra = "",
+		describe = "春满客栈花园的微缩模型。",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		icon = "jiuloushulinicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		name = "花园微缩模型",
+		spine_action_replace = "",
+		picture = "chuanmo/jiuloushulin",
+		comfortable = 0,
+		canputon = 0,
+		id = 330,
+		can_rotate = 0,
+		size = {
+			6,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[331] = {
+		spine_extra = "",
+		describe = "仿照春满客栈酒楼制作的微缩模型，每一处细节都精细还原，仿佛能听见其中的喧闹人声。",
+		gain_by = "春满客栈Online",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		icon = "jiulouxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 8,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		name = "春满客栈微缩模型",
+		canputon = 0,
+		id = 331,
+		can_rotate = 0,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"jiulouxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		gain_by = "",
 		name = "本ID禁用，后端固定会删除",
@@ -31726,6 +31988,91 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[100083] = {
+		gain_by = "",
+		name = "幻光飞行器",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		comfortable = 0,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		icon = "chaojitegongfengzhengicon",
+		deblocking = 1,
+		level = 1,
+		describe = "于霓虹中划出独一无二的轨迹～",
+		effect = "",
+		can_rotate = 0,
+		tag = 6,
+		spine_action_replace = "",
+		picture = "",
+		spine_extra = "",
+		canputon = 0,
+		id = 100083,
+		advice = 0,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chaojitegongfengzhengB",
+				"normal"
+			},
+			{
+				"chaojitegongfengzhengT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"action4",
+						nil,
+						"tuozhuai2"
+					}
+				},
+				{
+					[3] = {
+						"action1",
+						"tuozhuai2",
+						false,
+						true
+					}
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.8
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},

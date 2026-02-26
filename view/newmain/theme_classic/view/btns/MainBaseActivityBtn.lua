@@ -28,9 +28,11 @@ function var_0_0.GetLinkConfig(arg_2_0)
 	end)
 
 	if #var_2_3 > 0 then
-		table.sort(var_2_3, function(arg_4_0, arg_4_1)
-			return var_2_1[arg_4_0].order < var_2_1[arg_4_1].order
-		end)
+		table.sort(var_2_3, CompareFuncs({
+			function(arg_4_0)
+				return var_2_1[arg_4_0].order
+			end
+		}))
 
 		return var_2_1[var_2_3[1]]
 	end

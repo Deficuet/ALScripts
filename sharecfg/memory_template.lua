@@ -4033,6 +4033,26 @@ pg.memory_template = setmetatable({
 		5002,
 		5003,
 		5004,
+		5011,
+		5012,
+		5013,
+		5014,
+		5015,
+		5016,
+		5017,
+		5018,
+		5019,
+		5020,
+		5021,
+		5022,
+		5023,
+		5024,
+		5025,
+		5026,
+		5027,
+		5028,
+		5029,
+		5030,
 		10011,
 		10012,
 		10013,
@@ -64710,6 +64730,306 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"SHISHANGTEKANHONGXIAOZHANGNUAN4"
+		}
+	},
+	[5011] = {
+		type = 1,
+		subtitle = "",
+		story = "CHUNMANKEZHAN1",
+		mask = "bg/bg_memory",
+		title = "春满之日",
+		condition = "开始春满客栈活动",
+		number = 0,
+		id = 5011,
+		icon = "memory_chunmankezhan1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN1"
+		}
+	},
+	[5012] = {
+		type = 1,
+		subtitle = "",
+		story = "CHUNMANKEZHAN2",
+		mask = "bg/bg_memory",
+		title = "客栈潜入大作战",
+		condition = "客栈等级达到3级",
+		number = 0,
+		id = 5012,
+		icon = "memory_chunmankezhan1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN2"
+		}
+	},
+	[5013] = {
+		type = 1,
+		subtitle = "",
+		story = "CHUNMANKEZHAN3",
+		mask = "bg/bg_memory",
+		title = "测试环节需测试",
+		condition = "客栈等级达到6级",
+		number = 0,
+		id = 5013,
+		icon = "memory_chunmankezhan1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN3"
+		}
+	},
+	[5014] = {
+		type = 1,
+		subtitle = "",
+		story = "CHUNMANKEZHAN4",
+		mask = "bg/bg_memory",
+		title = "底层修复日志",
+		condition = "客栈等级达到9级",
+		number = 0,
+		id = 5014,
+		icon = "memory_chunmankezhan1",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN4"
+		}
+	},
+	[5015] = {
+		type = 1,
+		subtitle = "",
+		story = "CHUNMANKEZHAN5",
+		mask = "bg/bg_memory",
+		title = "喜气洋洋的庆典时光",
+		condition = "客栈等级达到12级",
+		number = 0,
+		id = 5015,
+		icon = "memory_chunmankezhan2",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN5"
+		}
+	},
+	[5016] = {
+		type = 1,
+		subtitle = "",
+		story = "CHUNMANKEZHAN6",
+		mask = "bg/bg_memory",
+		title = "棋局未了",
+		condition = "将旅舍提升到3级",
+		number = 0,
+		id = 5016,
+		icon = "memory_chunmankezhan3",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN6"
+		}
+	},
+	[5017] = {
+		type = 1,
+		subtitle = "",
+		story = "CHUNMANKEZHAN7",
+		mask = "bg/bg_memory",
+		title = "深阁舞戏",
+		condition = "将旅舍提升到6级",
+		number = 0,
+		id = 5017,
+		icon = "memory_chunmankezhan4",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN7"
+		}
+	},
+	[5018] = {
+		type = 1,
+		subtitle = "",
+		story = "CHUNMANKEZHAN8",
+		mask = "bg/bg_memory",
+		title = "共醉之夜",
+		condition = "将旅舍提升到9级",
+		number = 0,
+		id = 5018,
+		icon = "memory_chunmankezhan5",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN8"
+		}
+	},
+	[5019] = {
+		type = 1,
+		subtitle = "",
+		story = "CHUNMANKEZHAN9",
+		mask = "bg/bg_memory",
+		title = "盲打练习~触觉麻将",
+		condition = "将水榭楼台提升到6级",
+		number = 0,
+		id = 5019,
+		icon = "memory_chunmankezhan6",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN9"
+		}
+	},
+	[5020] = {
+		type = 1,
+		subtitle = "",
+		story = "CHUNMANKEZHAN10",
+		mask = "bg/bg_memory",
+		title = "今夜，你哪也不许去",
+		condition = "将花园提升到8级",
+		number = 0,
+		id = 5020,
+		icon = "memory_chunmankezhan7",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN10"
+		}
+	},
+	[5021] = {
+		type = 1,
+		subtitle = "",
+		story = "CHUNMANKEZHAN11",
+		mask = "bg/bg_memory",
+		title = "顽皮的实用防身教学",
+		condition = "将酒楼提升到4级",
+		number = 0,
+		id = 5021,
+		icon = "memory_chunmankezhan8",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN11"
+		}
+	},
+	[5022] = {
+		type = 1,
+		subtitle = "",
+		story = "CHUNMANKEZHAN12",
+		mask = "bg/bg_memory",
+		title = "服务器维护中",
+		condition = "将神秘仓库提升到8级",
+		number = 0,
+		id = 5022,
+		icon = "memory_chunmankezhan9",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN12"
+		}
+	},
+	[5023] = {
+		type = 1,
+		subtitle = "",
+		story = "CHUNMANKEZHAN13",
+		mask = "bg/bg_memory",
+		title = "厨娘的休假日",
+		condition = "将酒楼提升到8级",
+		number = 0,
+		id = 5023,
+		icon = "memory_chunmankezhan10",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN13"
+		}
+	},
+	[5024] = {
+		type = 1,
+		subtitle = "",
+		story = "CHUNMANKEZHAN14",
+		mask = "bg/bg_memory",
+		title = "宵夜的正确食用方法",
+		condition = "将酒楼提升到12级",
+		number = 0,
+		id = 5024,
+		icon = "memory_chunmankezhan11",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN14"
+		}
+	},
+	[5025] = {
+		type = 1,
+		subtitle = "",
+		story = "CHUNMANKEZHAN15",
+		mask = "bg/bg_memory",
+		title = "满园灯火",
+		condition = "将池塘提升到8级",
+		number = 0,
+		id = 5025,
+		icon = "memory_chunmankezhan12",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN15"
+		}
+	},
+	[5026] = {
+		type = 1,
+		subtitle = "",
+		story = "CHUNMANKEZHAN16",
+		mask = "bg/bg_memory",
+		title = "踢馆！厨艺切磋赛！",
+		condition = "将酒楼提升到6级",
+		number = 0,
+		id = 5026,
+		icon = "memory_chunmankezhan13",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN16"
+		}
+	},
+	[5027] = {
+		type = 1,
+		subtitle = "",
+		story = "CHUNMANKEZHAN17",
+		mask = "bg/bg_memory",
+		title = "各怀心思的牌局",
+		condition = "将水榭楼台提升到10级",
+		number = 0,
+		id = 5027,
+		icon = "memory_chunmankezhan14",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN17"
+		}
+	},
+	[5028] = {
+		type = 1,
+		subtitle = "",
+		story = "CHUNMANKEZHAN18",
+		mask = "bg/bg_memory",
+		title = "争厢斗艳",
+		condition = "将旅舍提升到5级",
+		number = 0,
+		id = 5028,
+		icon = "memory_chunmankezhan13",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN18"
+		}
+	},
+	[5029] = {
+		type = 1,
+		subtitle = "",
+		story = "CHUNMANKEZHAN19",
+		mask = "bg/bg_memory",
+		title = "幸运之人与幸运锦鲤",
+		condition = "将池塘提升到6级",
+		number = 0,
+		id = 5029,
+		icon = "memory_chunmankezhan13",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN19"
+		}
+	},
+	[5030] = {
+		type = 1,
+		subtitle = "",
+		story = "CHUNMANKEZHAN20",
+		mask = "bg/bg_memory",
+		title = "写生奇遇",
+		condition = "将花园提升到6级",
+		number = 0,
+		id = 5030,
+		icon = "memory_chunmankezhan13",
+		is_open = 0,
+		unlock_pre = {
+			"CHUNMANKEZHAN20"
 		}
 	},
 	[10011] = {

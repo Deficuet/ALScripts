@@ -3,10 +3,10 @@ local var_0_1 = Vector3(0, 1, 40)
 local var_0_2 = Vector3(35, 1, 40)
 local var_0_3 = Vector3(30, 0, 0)
 local var_0_4 = Vector3(330, 0, 0)
-local var_0_5 = Vector3(-532, 157, -675)
+local var_0_5 = Vector3(-532, 157, 0)
 local var_0_6 = Vector3(-665, 70, -675)
-local var_0_7 = Vector3(473, 157, -675)
-local var_0_8 = Vector3(-791, 70, -675)
+local var_0_7 = Vector3(473, 157, 0)
+local var_0_8 = Vector3(-791, 70, 0)
 local var_0_9 = Vector3(464, 70, -675)
 
 function var_0_0.Ctor(arg_1_0, arg_1_1)
@@ -68,6 +68,14 @@ function var_0_0.setCombatUI(arg_3_0, arg_3_1, arg_3_2, arg_3_3, arg_3_4)
 		var_3_1:SwitchIconEffect(iter_3_0, arg_3_4)
 		var_3_1:SetTextActive(true)
 		var_3_1:SetToCombatUIPreview(iter_3_0 > 1)
+
+		if iter_3_0 == 3 then
+			local var_3_4 = GetOrAddComponent(go(var_3_2), typeof(UnityEngine.Playables.PlayableDirector))
+
+			if var_3_4 then
+				var_3_4.enabled = true
+			end
+		end
 	end
 
 	arg_3_0.heroBar = arg_3_2.transform
@@ -96,21 +104,21 @@ function var_0_0.setCombatUI(arg_3_0, arg_3_1, arg_3_2, arg_3_3, arg_3_4)
 
 	setActive(arg_3_0.bossHPBar, true)
 
-	local var_3_4 = arg_3_0.bossHPBar:Find("bloodBarContainer")
-	local var_3_5 = var_3_4.childCount - 1
+	local var_3_5 = arg_3_0.bossHPBar:Find("bloodBarContainer")
+	local var_3_6 = var_3_5.childCount - 1
 
-	for iter_3_1 = 0, var_3_5 do
-		var_3_4:GetChild(iter_3_1):GetComponent(typeof(Image)).fillAmount = 1
+	for iter_3_1 = 0, var_3_6 do
+		var_3_5:GetChild(iter_3_1):GetComponent(typeof(Image)).fillAmount = 1
 		iter_3_1 = iter_3_1 + 1
 	end
 
 	arg_3_0.skillContainer = var_3_0:Find("Skill_Activation/Root")
 	arg_3_0.skill = var_3_0:Find("Skill_Activation/mask")
 
-	local var_3_6 = var_3_0:Find("Stick/Area/BG/spine")
+	local var_3_7 = var_3_0:Find("Stick/Area/BG/spine")
 
-	if var_3_6 then
-		var_3_6:GetComponent(typeof(SpineAnimUI)):SetAction("normal", 0)
+	if var_3_7 then
+		var_3_7:GetComponent(typeof(SpineAnimUI)):SetAction("normal", 0)
 	end
 
 	arg_3_0.stick = var_3_0:Find("Stick/Area/Stick")

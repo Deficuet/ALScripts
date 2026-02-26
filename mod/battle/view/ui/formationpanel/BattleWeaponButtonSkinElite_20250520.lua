@@ -38,7 +38,7 @@ end
 
 function var_0_1.OnCountChange(arg_2_0)
 	var_0_1.super.OnCountChange(arg_2_0)
-	SetActive(arg_2_0._chargeEff, arg_2_0._progressInfo:GetCount() > 0)
+	SetActive(arg_2_0._gizmos1, arg_2_0._progressInfo:GetCount() > 0)
 end
 
 function var_0_1.OnOverLoadChange(arg_3_0, arg_3_1)

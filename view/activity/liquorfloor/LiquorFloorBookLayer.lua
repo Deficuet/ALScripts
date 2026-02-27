@@ -157,9 +157,9 @@ function var_0_0.updatePage2(arg_11_0, arg_11_1, arg_11_2)
 
 			setImageSprite(var_11_4, LoadSprite("ui/LiquorFloorUI_atlas", var_11_2.icon), true)
 
-			local var_11_5 = var_11_3:Find("bg/name")
+			local var_11_5 = var_11_3:Find("bg/GameObject/name")
 
-			setText(var_11_5, var_11_2.name)
+			setScrollText(var_11_5, var_11_2.name)
 
 			local var_11_6 = var_11_3:Find("bg/lock/name")
 
@@ -187,7 +187,7 @@ function var_0_0.updatePage2(arg_11_0, arg_11_1, arg_11_2)
 
 		setActive(var_11_12, not var_11_10)
 
-		local var_11_13 = var_11_8:Find("bg/name")
+		local var_11_13 = var_11_8:Find("bg/GameObject/name")
 		local var_11_14 = var_11_8:Find("bg/lock")
 
 		setActive(var_11_13, var_11_10)

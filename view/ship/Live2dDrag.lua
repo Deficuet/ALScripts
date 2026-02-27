@@ -932,12 +932,18 @@ function var_0_0.updateRelationValue(arg_46_0)
 		else
 			local var_46_8 = arg_46_0:fixRelationParameter(var_46_4, var_46_0)
 			local var_46_9 = iter_46_1.value or arg_46_0.startValue
-			local var_46_10 = iter_46_1.parameterSmooth or 0
-			local var_46_11 = var_46_0.smooth and var_46_0.smooth / 1000 or arg_46_0.smooth
 
-			var_46_6, var_46_7 = Mathf.SmoothDamp(var_46_9, var_46_8, var_46_10, var_46_11)
+			if math.abs(var_46_8 - var_46_9) <= 0.01 then
+				var_46_6 = var_46_8
+			else
+				local var_46_10 = iter_46_1.parameterSmooth or 0
+				local var_46_11 = var_46_0.smooth and var_46_0.smooth / 1000 or arg_46_0.smooth
+
+				var_46_6, var_46_7 = Mathf.SmoothDamp(var_46_9, var_46_8, var_46_10, var_46_11)
+			end
 		end
 
+		iter_46_1.target = var_46_4
 		iter_46_1.value = var_46_6
 		iter_46_1.parameterSmooth = var_46_7
 		iter_46_1.enable = var_46_5
@@ -1481,13 +1487,13 @@ function var_0_0.checkClickAction(arg_79_0)
 	elseif arg_79_0.clickTriggerTime and arg_79_0.clickTriggerTime > 0 and Time.realtimeSinceStartup >= arg_79_0.clickTriggerTime then
 		arg_79_0:setAbleWithFlag(false)
 
-		if Time.realtimeSinceStartup - arg_79_0.clickTriggerTime <= 0.5 then
+		if Time.realtimeSinceStartup - arg_79_0.clickTriggerTime <= 0.1 then
 			print("点击成功" .. arg_79_0.id)
+
+			arg_79_0.clickTriggerTime = nil
 
 			return true
 		end
-
-		arg_79_0.clickTriggerTime = nil
 	end
 
 	return false

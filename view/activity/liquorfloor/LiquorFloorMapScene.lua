@@ -333,6 +333,8 @@ function var_0_0.InitData(arg_30_0)
 	arg_30_0:UpdateGold()
 
 	local var_30_1 = arg_30_0.activity:getConfig("config_client")
+
+	SetActive(arg_30_0.ui:Find("Allgold/tip"), LiquorFloorMapScene.GetLiquorFloorMapTip())
 end
 
 function var_0_0.OnPlaceDes(arg_31_0)
@@ -352,11 +354,14 @@ function var_0_0.UpdatePlace(arg_33_0, arg_33_1, arg_33_2, arg_33_3)
 	arg_33_0._subTime = pg.TimeMgr.GetInstance():GetServerTime()
 
 	if arg_33_3[i]:GetType() == 1 then
+		SetActive(arg_33_0.architectureData[i]:Find("tip"), false)
+
 		if arg_33_3[i]:OnStartTime() < arg_33_3[i]:GetTypeParam() * 7200 or arg_33_3[i]:GetTypeParam() == 0 then
 			setImageSprite(arg_33_0.architectureData[i]:Find("numbg/icon1"), LoadSprite("ui/LiquorFloorUI_atlas", "settleGold_1"), true)
 		elseif arg_33_3[i]:OnStartTime() > arg_33_3[i]:GetTypeParam() * 7200 and arg_33_3[i]:OnStartTime() < arg_33_3[i]:GetTypeParam() * 14400 then
 			setImageSprite(arg_33_0.architectureData[i]:Find("numbg/icon1"), LoadSprite("ui/LiquorFloorUI_atlas", "settleGold_2"), true)
 		elseif arg_33_3[i]:OnStartTime() > arg_33_3[i]:GetTypeParam() * 14400 then
+			SetActive(arg_33_0.architectureData[i]:Find("tip"), true)
 			setImageSprite(arg_33_0.architectureData[i]:Find("numbg/icon1"), LoadSprite("ui/LiquorFloorUI_atlas", "settleGold_3"), true)
 		end
 	end
@@ -687,9 +692,9 @@ function var_0_0.GetLiquorFloorMapTip()
 
 	for iter_54_0 = 1, #var_54_0 do
 		if var_54_0[iter_54_0]:GetType() == 1 and var_54_0[iter_54_0]:GetLevel() > 0 then
-			warning("       placeData[i]   ", var_54_0[iter_54_0]:OnStartTime(), var_54_0[iter_54_0]:GetName(), var_54_0[iter_54_0]:GetTypeParam() * 14400)
+			local var_54_1 = pg.activity_town_2[ActivityConst.LiquorFloor_ACT_ID].gold_time_limit
 
-			if var_54_0[iter_54_0]:OnStartTime() > var_54_0[iter_54_0]:GetTypeParam() * 14400 then
+			if var_54_0[iter_54_0]:OnStartTime() >= var_54_0[iter_54_0]:GetTypeParam() * var_54_1 then
 				return true
 			end
 		end

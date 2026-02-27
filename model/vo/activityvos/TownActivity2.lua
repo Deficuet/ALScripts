@@ -30,6 +30,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0.nextplaceData = {}
 	arg_1_0.settleGold, arg_1_0.totalGold = 0, 0
 	arg_1_0.totalGold2 = 0
+	arg_1_0.AllGold = 0
 
 	for iter_1_1, iter_1_2 in ipairs(arg_1_1.date1_key_value_list) do
 		if iter_1_2.key == 1 then
@@ -73,6 +74,22 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 				end
 			end
 		end
+
+		if iter_1_2.key == 5 then
+			for iter_1_11, iter_1_12 in ipairs(iter_1_2.value_list) do
+				if iter_1_12.key == 1 then
+					arg_1_0.AllGold = arg_1_0.AllGold + iter_1_12.value
+				end
+
+				if iter_1_12.key == 2 then
+					arg_1_0.AllGold = arg_1_0.AllGold + iter_1_12.value * var_0_0.Million
+				end
+
+				if iter_1_12.key == 3 then
+					arg_1_0.AllGold = arg_1_0.AllGold + iter_1_12.value * var_0_0.Billion
+				end
+			end
+		end
 	end
 
 	arg_1_0:UpdateTotalGold()
@@ -80,11 +97,11 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 end
 
 function var_0_0.GetPtAllGold(arg_2_0)
-	return arg_2_0.data1
+	return arg_2_0.AllGold or 0
 end
 
 function var_0_0.AddAllGold(arg_3_0, arg_3_1)
-	arg_3_0.data1 = arg_3_0.data1 + arg_3_1
+	arg_3_0.AllGold = arg_3_0.AllGold + arg_3_1
 end
 
 function var_0_0.GetTownLevel(arg_4_0)

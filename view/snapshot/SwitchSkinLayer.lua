@@ -57,6 +57,8 @@ function var_0_0.initSelectSkinPanel(arg_9_0)
 		else
 			arg_9_0:Flush(arg_9_0.skins)
 		end
+
+		arg_9_0.shareOn = arg_12_0
 	end, SFX_PANEL)
 
 	arg_9_0.skinScroll = arg_9_0.skinPanel:Find("select_skin/style_scroll")
@@ -69,7 +71,11 @@ function var_0_0.initSelectSkinPanel(arg_9_0)
 end
 
 function var_0_0.openSelectSkinPanel(arg_13_0)
-	arg_13_0:Flush(arg_13_0.skins)
+	if arg_13_0.shareOn then
+		arg_13_0:Flush(arg_13_0.shareSkins)
+	else
+		arg_13_0:Flush(arg_13_0.skins)
+	end
 end
 
 function var_0_0.Flush(arg_14_0, arg_14_1)
@@ -122,10 +128,9 @@ function var_0_0.Flush(arg_14_0, arg_14_1)
 			ShipSkin.SetStoreChangeSkinId(var_16_0, arg_14_0.shipVO:GetShipPhantomMark())
 
 			if var_14_6 then
+				arg_14_0:emit(SwitchSkinMediator.CHANGE_SKIN, arg_14_0.shipVO:GetShipPhantomMark(), var_16_0)
 				pg.m02:sendNotification(GAME.CHANGE_SKIN_UPDATE, arg_14_0.shipVO:GetShipPhantomMark())
 			end
-
-			arg_14_0:emit(GAME.CHANGE_SKIN_UPDATE)
 		end, SFX_PANEL)
 		onButton(arg_14_0, var_14_2, function()
 			if var_14_11 then

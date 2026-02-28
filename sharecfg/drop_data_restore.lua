@@ -4437,6 +4437,114 @@ pg.drop_data_restore = {
 		drop_id = 0,
 		target_id = 327
 	},
+	[582] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 582,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 307084
+	},
+	[583] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 583,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 499022
+	},
+	[584] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 584,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 699021
+	},
+	[585] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 585,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 205161
+	},
+	[586] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 586,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 499053
+	},
+	[587] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 587,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 307076
+	},
+	[588] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 588,
+		resource_num = 1200,
+		drop_id = 998324,
+		target_id = 202204
+	},
+	[589] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 589,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 904021
+	},
+	[590] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 590,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 407041
+	},
+	[591] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 591,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 799021
+	},
+	[592] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 592,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 901072
+	},
+	[593] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 593,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 405013
+	},
 	[594] = {
 		target_type = 7,
 		type = 1,
@@ -4643,6 +4751,78 @@ pg.drop_data_restore = {
 		resource_num = 780,
 		drop_id = 998328,
 		target_id = 501072
+	},
+	[625] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 625,
+		resource_num = 1200,
+		drop_id = 998329,
+		target_id = 207072
+	},
+	[626] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 626,
+		resource_num = 1180,
+		drop_id = 998329,
+		target_id = 499092
+	},
+	[627] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 627,
+		resource_num = 980,
+		drop_id = 998329,
+		target_id = 703031
+	},
+	[628] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 628,
+		resource_num = 950,
+		drop_id = 998329,
+		target_id = 702101
+	},
+	[629] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 629,
+		resource_num = 880,
+		drop_id = 998329,
+		target_id = 702091
+	},
+	[630] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 630,
+		resource_num = 900,
+		drop_id = 998329,
+		target_id = 701131
+	},
+	[631] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 631,
+		resource_num = 700,
+		drop_id = 998329,
+		target_id = 306083
+	},
+	[632] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 632,
+		resource_num = 700,
+		drop_id = 998329,
+		target_id = 306092
 	},
 	[1020] = {
 		target_type = 7,
@@ -5993,6 +6173,18 @@ pg.drop_data_restore = {
 		579,
 		580,
 		581,
+		582,
+		583,
+		584,
+		585,
+		586,
+		587,
+		588,
+		589,
+		590,
+		591,
+		592,
+		593,
 		594,
 		595,
 		596,
@@ -6016,6 +6208,14 @@ pg.drop_data_restore = {
 		622,
 		623,
 		624,
+		625,
+		626,
+		627,
+		628,
+		629,
+		630,
+		631,
+		632,
 		1020,
 		1142,
 		1143,

@@ -166968,6 +166968,135 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[21870] = {
+		name = "20251211国服冬日返场 登陆奖励1",
+		guild_coin_award = 0,
+		award = 907733,
+		type = 6,
+		desc = "不应该被看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21870,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54016,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21871] = {
+		name = "20251211国服冬日返场 登陆奖励2",
+		guild_coin_award = 0,
+		award = 907734,
+		type = 6,
+		desc = "不应该被看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21871,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54051,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21872] = {
+		name = "20251211国服冬日返场 登陆奖励3",
+		guild_coin_award = 0,
+		award = 907735,
+		type = 6,
+		desc = "不应该被看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21872,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[21873] = {
 		name = "『列克星敦II活动』纪念任务1",
 		guild_coin_award = 0,
@@ -168419,6 +168548,551 @@ end)()
 		scene = {
 			"MINI_GAME",
 			81
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21901] = {
+		name = "『莫斯科UR活动』纪念任务1（只送勋章）",
+		guild_coin_award = 0,
+		award = 909165,
+		type = 26,
+		desc = "「春色旅籠Online」のステッカーを全部集める",
+		count_inherit = 0,
+		sub_type = 131,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "50441",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21901,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65860,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21902] = {
+		name = "『莫斯科UR活动』纪念贴纸获取1",
+		guild_coin_award = 0,
+		award = 909166,
+		type = 26,
+		desc = "「春色旅籠Online」のステッカーを7個集める",
+		count_inherit = 0,
+		sub_type = 131,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "50441",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21902,
+		target_num = 7,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65861,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21903] = {
+		name = "『莫斯科UR活动』纪念贴纸获取2",
+		guild_coin_award = 0,
+		award = 909167,
+		type = 26,
+		desc = "「春色旅籠Online」のストーリーをすべて読む",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21903,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7540
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65862,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21904] = {
+		name = "『莫斯科UR活动』纪念贴纸获取3",
+		guild_coin_award = 0,
+		award = 909168,
+		type = 26,
+		desc = "「春色旅籠Online」ステージA3/C3を1回クリアする",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21904,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000003,
+			2000023
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65863,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21905] = {
+		name = "『莫斯科UR活动』纪念贴纸获取4",
+		guild_coin_award = 0,
+		award = 909169,
+		type = 26,
+		desc = "「春色旅籠Online」イベントステージで敵を300体撃破する",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21905,
+		target_num = 300,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16820001,
+			16820002,
+			16820003,
+			16820004,
+			16820005,
+			16820006,
+			16820101,
+			16820102,
+			16820103,
+			16820104,
+			16820105,
+			16820201,
+			16820202,
+			16820203,
+			16820301,
+			16820302,
+			16820303,
+			16821001,
+			16821002,
+			16821003,
+			16821004,
+			16821005,
+			16821006,
+			16821101,
+			16821102,
+			16821103,
+			16821104,
+			16821105,
+			16821201,
+			16821202,
+			16821203,
+			16821204,
+			16821205,
+			16821206,
+			16821301,
+			16821302,
+			16821303,
+			16822001,
+			16822002,
+			16822003,
+			16822004,
+			16822005,
+			16822006,
+			16822101,
+			16822102,
+			16822103,
+			16822104,
+			16822105,
+			16822201,
+			16822202,
+			16822203,
+			16822301,
+			16822302,
+			16822303,
+			16823001,
+			16823002,
+			16823003,
+			16823004,
+			16823005,
+			16823006,
+			16823101,
+			16823102,
+			16823103,
+			16823104,
+			16823105,
+			16823201,
+			16823202,
+			16823203,
+			16823204,
+			16823205,
+			16823206,
+			16823301,
+			16823302,
+			16823303,
+			16824001,
+			16824002,
+			16824003,
+			16824004,
+			16824005,
+			16824006,
+			16824101,
+			16824102,
+			16824103,
+			16824104,
+			16824105,
+			16824201,
+			16824202,
+			16824301,
+			16825001,
+			16825101
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65864,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21906] = {
+		name = "『莫斯科UR活动』纪念贴纸获取5",
+		guild_coin_award = 0,
+		award = 909170,
+		type = 26,
+		desc = "「春色旅籠Online」ステージを累計50回クリアする",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21906,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041,
+			2000051,
+			2000052
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65865,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21907] = {
+		name = "『莫斯科UR活动』纪念贴纸获取6",
+		guild_coin_award = 0,
+		award = 909171,
+		type = 26,
+		desc = "「春色旅籠Online」ステージB3/D3を1回クリアする",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21907,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000006,
+			2000026
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65866,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21908] = {
+		name = "『莫斯科UR活动』纪念贴纸获取7",
+		guild_coin_award = 0,
+		award = 909172,
+		type = 26,
+		desc = "「春色旅籠Online」SPステージを1回クリアする",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2000041",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21908,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65867,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21909] = {
+		name = "『莫斯科UR活动』纪念贴纸获取8",
+		guild_coin_award = 0,
+		award = 909173,
+		type = 26,
+		desc = "「如意灯籠」を累計10000個集める",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "50431",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "632",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21909,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65868,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21910] = {
+		name = "『莫斯科UR活动』大佬章获取任务",
+		guild_coin_award = 0,
+		award = 909198,
+		type = 26,
+		desc = "旅籠のレベルが10に到達",
+		count_inherit = 0,
+		sub_type = 9008,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21910,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				331,
+				1
+			}
 		}
 	}
 end)()
@@ -226374,7 +227048,7 @@ end)()
 		is_head = 1,
 		task_fold = 0,
 		award_choice = "",
-		visibility = 1,
+		visibility = 0,
 		ryza_type = 0,
 		quick_finish = 0,
 		level = 1,
@@ -226417,7 +227091,7 @@ end)()
 		is_head = 1,
 		task_fold = 0,
 		award_choice = "",
-		visibility = 1,
+		visibility = 0,
 		ryza_type = 0,
 		quick_finish = 0,
 		level = 1,
@@ -226460,7 +227134,7 @@ end)()
 		is_head = 1,
 		task_fold = 0,
 		award_choice = "",
-		visibility = 1,
+		visibility = 0,
 		ryza_type = 0,
 		quick_finish = 0,
 		level = 1,
@@ -226503,7 +227177,7 @@ end)()
 		is_head = 1,
 		task_fold = 0,
 		award_choice = "",
-		visibility = 1,
+		visibility = 0,
 		ryza_type = 0,
 		quick_finish = 0,
 		level = 1,
@@ -226554,7 +227228,7 @@ end)()
 		is_head = 1,
 		task_fold = 0,
 		award_choice = "",
-		visibility = 1,
+		visibility = 0,
 		ryza_type = 0,
 		quick_finish = 0,
 		level = 1,
@@ -226605,7 +227279,7 @@ end)()
 		is_head = 1,
 		task_fold = 0,
 		award_choice = "",
-		visibility = 1,
+		visibility = 0,
 		ryza_type = 0,
 		quick_finish = 0,
 		level = 1,
@@ -226632,6 +227306,3281 @@ end)()
 		},
 		scene = {
 			"ACT_BOSS_BATTLE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25201] = {
+		name = "『莫斯科活动』-日常建造",
+		guild_coin_award = 0,
+		award = 909101,
+		type = 36,
+		desc = "3回建造する",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25201,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65822,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25202] = {
+		name = "『莫斯科活动』-日常出击",
+		guild_coin_award = 0,
+		award = 909102,
+		type = 36,
+		desc = "艦隊を出撃させ、15回勝利せよ！",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25202,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65822,
+				300
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25203] = {
+		name = "『莫斯科活动』-日常困难本",
+		guild_coin_award = 0,
+		award = 909103,
+		type = 36,
+		desc = "通常海域ハードを1回クリアする",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25203,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65822,
+				150
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25204] = {
+		name = "『莫斯科活动』通关A1/C1",
+		guild_coin_award = 0,
+		award = 909104,
+		type = 6,
+		desc = "イベントステージA1かC1をクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25205",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25204,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				65822,
+				200
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50426
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25205] = {
+		name = "『莫斯科活动』通关A2/C2",
+		guild_coin_award = 0,
+		award = 909105,
+		type = 6,
+		desc = "イベントステージA2かC2をクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25206",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25205,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000002,
+			2000022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				65822,
+				400
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50426
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25206] = {
+		name = "『莫斯科活动』通关A3/C3",
+		guild_coin_award = 0,
+		award = 909106,
+		type = 6,
+		desc = "イベントステージA3かC3をクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25207",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25206,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000003,
+			2000023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				2,
+				65822,
+				600
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50426
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25207] = {
+		name = "『莫斯科活动』通关B1/D1",
+		guild_coin_award = 0,
+		award = 909107,
+		type = 6,
+		desc = "イベントステージB1かD1をクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25208",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25207,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000004,
+			2000024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				65822,
+				400
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50427
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25208] = {
+		name = "『莫斯科活动』通关B2/D2",
+		guild_coin_award = 0,
+		award = 909108,
+		type = 6,
+		desc = "イベントステージB2かD2をクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25209",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25208,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000005,
+			2000025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				65822,
+				600
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50427
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25209] = {
+		name = "『莫斯科活动』通关B3/D3",
+		guild_coin_award = 0,
+		award = 909109,
+		type = 6,
+		desc = "イベントステージB3かD3をクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25210",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25209,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000006,
+			2000026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				2,
+				65822,
+				800
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50427
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25210] = {
+		name = "『莫斯科活动』通关SP",
+		guild_coin_award = 0,
+		award = 909110,
+		type = 6,
+		desc = "イベントステージSPをクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2000041",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25210,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 2000025,
+				chapterId = 2000041
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25211] = {
+		name = "『莫斯科活动』通关EX",
+		guild_coin_award = 0,
+		award = 909111,
+		type = 6,
+		desc = "EXステージをクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25211,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000051,
+			2000052
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 2000026,
+				chapterId = 2000051
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25212] = {
+		name = "『莫斯科活动』A1/C1的3星",
+		guild_coin_award = 0,
+		award = 909112,
+		type = 6,
+		desc = "A1かC1の作戦目標（星3つ）を全て達成！",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25213",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25212,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50426
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25213] = {
+		name = "『莫斯科活动』A2/C2的3星",
+		guild_coin_award = 0,
+		award = 909113,
+		type = 6,
+		desc = "A2かC2の作戦目標（星3つ）を全て達成！",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25214",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25213,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000002,
+			2000022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50426
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25214] = {
+		name = "『莫斯科活动』A3/C3的3星",
+		guild_coin_award = 0,
+		award = 909114,
+		type = 6,
+		desc = "A3かC3の作戦目標（星3つ）を全て達成！",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25215",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25214,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000003,
+			2000023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50426
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25215] = {
+		name = "『莫斯科活动』B1/D1的3星",
+		guild_coin_award = 0,
+		award = 909115,
+		type = 6,
+		desc = "B1かD1の作戦目標（星3つ）を全て達成！",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25216",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25215,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000004,
+			2000024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50427
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25216] = {
+		name = "『莫斯科活动』B2/D2的3星",
+		guild_coin_award = 0,
+		award = 909116,
+		type = 6,
+		desc = "B2かD2の作戦目標（星3つ）を全て達成！",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25217",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25216,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000005,
+			2000025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50427
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25217] = {
+		name = "『莫斯科活动』B3/D3的3星",
+		guild_coin_award = 0,
+		award = 909117,
+		type = 6,
+		desc = "B3かD3の作戦目標（星3つ）を全て達成！",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25217,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000006,
+			2000026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50427
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25218] = {
+		name = "『莫斯科活动』外观装备箱保底",
+		guild_coin_award = 0,
+		award = 909118,
+		type = 6,
+		desc = "装備外装箱（春色旅籠）を20個開ける",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "30381",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25218,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30565,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25219] = {
+		name = "『莫斯科活动』通关任务10次",
+		guild_coin_award = 0,
+		award = 909119,
+		type = 6,
+		desc = "「春色旅籠Online」ステージを累計10回クリアする",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25219,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65822,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25220] = {
+		name = "『莫斯科活动』通关任务30次",
+		guild_coin_award = 0,
+		award = 909120,
+		type = 6,
+		desc = "「春色旅籠Online」ステージを累計30回クリアする",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25220,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65822,
+				1500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25221] = {
+		name = "『莫斯科活动』通关任务60次",
+		guild_coin_award = 0,
+		award = 909121,
+		type = 6,
+		desc = "「春色旅籠Online」ステージを累計60回クリアする",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25221,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65822,
+				3000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25231] = {
+		name = "『春满客栈』酒楼达到6级",
+		guild_coin_award = 0,
+		award = 909181,
+		type = 26,
+		desc = "レストランがLv6に到達",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25231,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59002,
+				400
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25232] = {
+		name = "『春满客栈』酒楼达到12级",
+		guild_coin_award = 0,
+		award = 909182,
+		type = 26,
+		desc = "レストランがLv12に到達",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25232,
+		target_num = 12,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59001,
+				4000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25233] = {
+		name = "『春满客栈』酒楼达到满级",
+		guild_coin_award = 0,
+		award = 909219,
+		type = 26,
+		desc = "レストランがLv15に到達",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25233,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59001,
+				2000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25234] = {
+		name = "『春满客栈』水榭楼台达到6级",
+		guild_coin_award = 0,
+		award = 909183,
+		type = 26,
+		desc = "水辺の東屋がLv6に到達",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "4",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25234,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65869,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25235] = {
+		name = "『春满客栈』水榭楼台达到12级",
+		guild_coin_award = 0,
+		award = 909184,
+		type = 26,
+		desc = "水辺の東屋がLv12に到達",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "4",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25235,
+		target_num = 12,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				328,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25236] = {
+		name = "『春满客栈』水榭楼台达到满级",
+		guild_coin_award = 0,
+		award = 909219,
+		type = 26,
+		desc = "水辺の東屋がLv15に到達",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "4",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25236,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59001,
+				2000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25237] = {
+		name = "『春满客栈』花园达到6级",
+		guild_coin_award = 0,
+		award = 909185,
+		type = 26,
+		desc = "庭園がLv6に到達",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "6",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25237,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59002,
+				400
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25238] = {
+		name = "『春满客栈』花园达到12级",
+		guild_coin_award = 0,
+		award = 909186,
+		type = 26,
+		desc = "庭園がLv12に到達",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "6",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25238,
+		target_num = 12,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				330,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25239] = {
+		name = "『春满客栈』花园达到满级",
+		guild_coin_award = 0,
+		award = 909219,
+		type = 26,
+		desc = "庭園がLv15に到達",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "6",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25239,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59001,
+				2000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25240] = {
+		name = "『春满客栈』池塘达到6级",
+		guild_coin_award = 0,
+		award = 909187,
+		type = 26,
+		desc = "池がLv6に到達",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "5",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25240,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65869,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25241] = {
+		name = "『春满客栈』池塘达到12级",
+		guild_coin_award = 0,
+		award = 909188,
+		type = 26,
+		desc = "池がLv12に到達",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "5",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25241,
+		target_num = 12,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				327,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25242] = {
+		name = "『春满客栈』池塘达到满级",
+		guild_coin_award = 0,
+		award = 909219,
+		type = 26,
+		desc = "池がLv15に到達",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "5",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25242,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59001,
+				2000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25243] = {
+		name = "『春满客栈』仓库达到6级",
+		guild_coin_award = 0,
+		award = 909189,
+		type = 26,
+		desc = "謎の倉庫がLv6に到達",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25243,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20013,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25244] = {
+		name = "『春满客栈』仓库达到12级",
+		guild_coin_award = 0,
+		award = 909190,
+		type = 26,
+		desc = "謎の倉庫がLv12に到達",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25244,
+		target_num = 12,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				326,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25245] = {
+		name = "『春满客栈』仓库达到满级",
+		guild_coin_award = 0,
+		award = 909219,
+		type = 26,
+		desc = "謎の倉庫がLv15に到達",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25245,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59001,
+				2000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25246] = {
+		name = "『春满客栈』旅舍达到4级",
+		guild_coin_award = 0,
+		award = 909191,
+		type = 26,
+		desc = "客間Lv4に到達",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "3",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25246,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				54006,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25247] = {
+		name = "『春满客栈』旅舍达到满级",
+		guild_coin_award = 0,
+		award = 909192,
+		type = 26,
+		desc = "客間Lv9に到達",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "3",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25247,
+		target_num = 9,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				329,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25248] = {
+		name = "『春满客栈』金币返还",
+		guild_coin_award = 0,
+		award = 909193,
+		type = 16,
+		desc = "ゼニを1000000000提出",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "66011",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1006",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25248,
+		target_num = 1000000000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				2000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25249] = {
+		name = "『春满客栈』总等级达到2级",
+		guild_coin_award = 0,
+		award = 909194,
+		type = 26,
+		desc = "旅籠Lvが2到達",
+		count_inherit = 0,
+		sub_type = 9008,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25249,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59002,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25250] = {
+		name = "『春满客栈』总等级达到4级",
+		guild_coin_award = 0,
+		award = 909195,
+		type = 26,
+		desc = "旅籠Lvが4到達",
+		count_inherit = 0,
+		sub_type = 9008,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25250,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59001,
+				4000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25251] = {
+		name = "『春满客栈』总等级达到6级",
+		guild_coin_award = 0,
+		award = 909196,
+		type = 26,
+		desc = "旅籠Lvが6到達",
+		count_inherit = 0,
+		sub_type = 9008,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25251,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				16501,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25252] = {
+		name = "『春满客栈』总等级达到8级",
+		guild_coin_award = 0,
+		award = 909197,
+		type = 26,
+		desc = "旅籠Lvが8到達",
+		count_inherit = 0,
+		sub_type = 9008,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25252,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				54016,
+				15
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25253] = {
+		name = "『春满客栈』总等级达到11级",
+		guild_coin_award = 0,
+		award = 909199,
+		type = 26,
+		desc = "旅籠Lvが11到達",
+		count_inherit = 0,
+		sub_type = 9008,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25253,
+		target_num = 11,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				42070,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25254] = {
+		name = "『春满客栈』总等级达到12级",
+		guild_coin_award = 0,
+		award = 909200,
+		type = 26,
+		desc = "旅籠Lvが12到達",
+		count_inherit = 0,
+		sub_type = 9008,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25254,
+		target_num = 12,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25255] = {
+		name = "『春满客栈』总等级达到13级",
+		guild_coin_award = 0,
+		award = 909201,
+		type = 26,
+		desc = "旅籠Lvが13到達",
+		count_inherit = 0,
+		sub_type = 9008,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25255,
+		target_num = 13,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				54006,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25256] = {
+		name = "『春满客栈』总等级达到14级",
+		guild_coin_award = 0,
+		award = 909202,
+		type = 26,
+		desc = "旅籠Lvが14到達",
+		count_inherit = 0,
+		sub_type = 9008,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25256,
+		target_num = 14,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25257] = {
+		name = "『春满客栈』总等级达到15级",
+		guild_coin_award = 0,
+		award = 909203,
+		type = 26,
+		desc = "旅籠Lvが15到達",
+		count_inherit = 0,
+		sub_type = 9008,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "25248",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25257,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				42076,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25258] = {
+		name = "『春满客栈』阅读全部活动剧情",
+		guild_coin_award = 0,
+		award = 909204,
+		type = 26,
+		desc = "旅籠物語をすべて読む",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25258,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7521,
+			7522,
+			7523,
+			7524,
+			7525,
+			7526,
+			7527,
+			7528,
+			7529,
+			7530,
+			7531,
+			7532,
+			7533,
+			7534,
+			7535,
+			7536,
+			7537,
+			7538,
+			7539,
+			7540
+		},
+		open_need = {},
+		award_display = {
+			{
+				14,
+				614,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25259] = {
+		name = "『春满客栈』通关活动关卡5次",
+		guild_coin_award = 0,
+		award = 909205,
+		type = 26,
+		desc = "「春色旅籠Online」ステージを累計5回クリアする",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25259,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25260] = {
+		name = "『春满客栈』通关活动关卡10次",
+		guild_coin_award = 0,
+		award = 909206,
+		type = 26,
+		desc = "「春色旅籠Online」ステージを累計10回クリアする",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25260,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25261] = {
+		name = "『春满客栈』通关活动关卡15次",
+		guild_coin_award = 0,
+		award = 909207,
+		type = 26,
+		desc = "「春色旅籠Online」ステージを累計15回クリアする",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25261,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25262] = {
+		name = "『春满客栈』通关活动关卡20次",
+		guild_coin_award = 0,
+		award = 909208,
+		type = 26,
+		desc = "「春色旅籠Online」ステージを累計20回クリアする",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25262,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25263] = {
+		name = "『春满客栈』通关活动关卡25次",
+		guild_coin_award = 0,
+		award = 909209,
+		type = 26,
+		desc = "「春色旅籠Online」ステージを累計25回クリアする",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25263,
+		target_num = 25,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25264] = {
+		name = "『春满客栈』通关活动关卡30次",
+		guild_coin_award = 0,
+		award = 909210,
+		type = 26,
+		desc = "「春色旅籠Online」ステージを累計30回クリアする",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25264,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25265] = {
+		name = "『春满客栈』通关活动关卡35次",
+		guild_coin_award = 0,
+		award = 909211,
+		type = 26,
+		desc = "「春色旅籠Online」ステージを累計35回クリアする",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25265,
+		target_num = 35,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25266] = {
+		name = "『春满客栈』通关活动关卡40次",
+		guild_coin_award = 0,
+		award = 909212,
+		type = 26,
+		desc = "「春色旅籠Online」ステージを累計40回クリアする",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25266,
+		target_num = 40,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25267] = {
+		name = "『春满客栈』通关活动关卡45次",
+		guild_coin_award = 0,
+		award = 909213,
+		type = 26,
+		desc = "「春色旅籠Online」ステージを累計45回クリアする",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25267,
+		target_num = 45,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25268] = {
+		name = "『春满客栈』通关活动关卡50次",
+		guild_coin_award = 0,
+		award = 909214,
+		type = 26,
+		desc = "「春色旅籠Online」ステージを累計50回クリアする",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25268,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25269] = {
+		name = "『春满客栈』通关活动关卡55次",
+		guild_coin_award = 0,
+		award = 909215,
+		type = 26,
+		desc = "「春色旅籠Online」ステージを累計55回クリアする",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25269,
+		target_num = 55,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25270] = {
+		name = "『春满客栈』通关活动关卡60次",
+		guild_coin_award = 0,
+		award = 909216,
+		type = 26,
+		desc = "「春色旅籠Online」ステージを累計60回クリアする",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25270,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25271] = {
+		name = "『春满客栈』阅读全部经营日记",
+		guild_coin_award = 0,
+		award = 909217,
+		type = 26,
+		desc = "経営日記をすべて読む",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25271,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7521,
+			7522,
+			7523,
+			7524,
+			7525
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25272] = {
+		name = "『春满客栈』阅读全部檐下趣闻",
+		guild_coin_award = 0,
+		award = 909217,
+		type = 26,
+		desc = "客間逸話をすべて読む",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25272,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7536,
+			7537,
+			7538,
+			7539,
+			7540
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25273] = {
+		name = "『春满客栈』阅读全部神秘邂逅",
+		guild_coin_award = 0,
+		award = 909217,
+		type = 26,
+		desc = "謎の邂逅をすべて読む",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25273,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7526,
+			7527,
+			7528,
+			7529,
+			7530,
+			7531,
+			7532,
+			7533,
+			7534,
+			7535
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25274] = {
+		name = "『2026春节第二弹』登录送皮肤体验券活动",
+		guild_coin_award = 0,
+		award = 88001,
+		type = 6,
+		desc = "ゲームにログインせよ！",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25274,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				630,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25275] = {
+		name = "『春满客栈』登录游戏",
+		guild_coin_award = 0,
+		award = 909218,
+		type = 6,
+		desc = "「春色旅籠Online」を始める",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25275,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66011,
+				1000
+			}
 		}
 	}
 end)()
@@ -275529,6 +279478,3407 @@ end)()
 				59599,
 				240
 			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43860] = {
+		name = "冬日通行证第一日任务1（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "戦術訓練を4回行う",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43860,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43861] = {
+		name = "冬日通行证第一日任务2（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "艦隊を出撃させ、3回勝利する",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43861,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43862] = {
+		name = "冬日通行证第一日任务3（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "軍事委託を4回完了させる",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43862,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43863] = {
+		name = "冬日通行证第一日任务4（仅国服）",
+		guild_coin_award = 0,
+		award = 104542,
+		type = 6,
+		desc = "建造を3回行う",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43863,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43864] = {
+		name = "冬日通行证第二日任务1（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "装備を2回行う",
+		count_inherit = 0,
+		sub_type = 40,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43864,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43865] = {
+		name = "冬日通行证第二日任务2（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "ハードステージを3回クリアする",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43865,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43866] = {
+		name = "冬日通行证第二日任务3（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "装備を10回分解する",
+		count_inherit = 0,
+		sub_type = 41,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43866,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43867] = {
+		name = "冬日通行证第二日任务4（仅国服）",
+		guild_coin_award = 0,
+		award = 104542,
+		type = 6,
+		desc = "オフニャを1回訓練する",
+		count_inherit = 0,
+		sub_type = 170,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43867,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43868] = {
+		name = "冬日通行证第三日任务1（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "デイリーチャレンジを6回クリアする",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43868,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43869] = {
+		name = "冬日通行证第三日任务2（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "寮舎の食糧補充を5回行う",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43869,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43870] = {
+		name = "冬日通行证第三日任务3（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "艦船を2隻退役させる",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43870,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43871] = {
+		name = "冬日通行证第三日任务4（仅国服）",
+		guild_coin_award = 0,
+		award = 104542,
+		type = 6,
+		desc = "科学研究を4回行う",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43871,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43872] = {
+		name = "冬日通行证第四日任务1（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "戦術訓練を4回行う",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43872,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43873] = {
+		name = "冬日通行证第四日任务2（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "艦隊を出撃させ、3回勝利する",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43873,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43874] = {
+		name = "冬日通行证第四日任务3（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "軍事委託を4回完了させる",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43874,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43875] = {
+		name = "冬日通行证第四日任务4（仅国服）",
+		guild_coin_award = 0,
+		award = 104542,
+		type = 6,
+		desc = "建造を3回行う",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43875,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43876] = {
+		name = "冬日通行证第五日任务1（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "装備を2回行う",
+		count_inherit = 0,
+		sub_type = 40,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43876,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43877] = {
+		name = "冬日通行证第五日任务2（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "ハードステージを3回クリアする",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43877,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43878] = {
+		name = "冬日通行证第五日任务3（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "装備を10回分解する",
+		count_inherit = 0,
+		sub_type = 41,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43878,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43879] = {
+		name = "冬日通行证第五日任务4（仅国服）",
+		guild_coin_award = 0,
+		award = 104542,
+		type = 6,
+		desc = "オフニャを1回訓練する",
+		count_inherit = 0,
+		sub_type = 170,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43879,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43880] = {
+		name = "冬日通行证第六日任务1（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "デイリーチャレンジを6回クリアする",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43880,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43881] = {
+		name = "冬日通行证第六日任务2（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "寮舎の食糧補充を5回行う",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43881,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43882] = {
+		name = "冬日通行证第六日任务3（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "艦船を2隻退役させる",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43882,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43883] = {
+		name = "冬日通行证第六日任务4（仅国服）",
+		guild_coin_award = 0,
+		award = 104542,
+		type = 6,
+		desc = "科学研究を4回行う",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43883,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43884] = {
+		name = "冬日通行证第七日任务1（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "戦術訓練を4回行う",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43884,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43885] = {
+		name = "冬日通行证第七日任务2（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "艦隊を出撃させ、3回勝利する",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43885,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43886] = {
+		name = "冬日通行证第七日任务3（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "軍事委託を4回完了させる",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43886,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43887] = {
+		name = "冬日通行证第七日任务4（仅国服）",
+		guild_coin_award = 0,
+		award = 104542,
+		type = 6,
+		desc = "建造を3回行う",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43887,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43888] = {
+		name = "冬日通行证第八日任务1（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "装備を2回行う",
+		count_inherit = 0,
+		sub_type = 40,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43888,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43889] = {
+		name = "冬日通行证第八日任务2（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "ハードステージを3回クリアする",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43889,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43890] = {
+		name = "冬日通行证第八日任务3（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "装備を10回分解する",
+		count_inherit = 0,
+		sub_type = 41,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43890,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43891] = {
+		name = "冬日通行证第八日任务4（仅国服）",
+		guild_coin_award = 0,
+		award = 104542,
+		type = 6,
+		desc = "オフニャを1回訓練する",
+		count_inherit = 0,
+		sub_type = 170,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43891,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43892] = {
+		name = "冬日通行证第九日任务1（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "デイリーチャレンジを6回クリアする",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43892,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43893] = {
+		name = "冬日通行证第九日任务2（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "寮舎の食糧補充を5回行う",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43893,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43894] = {
+		name = "冬日通行证第九日任务3（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "艦船を2隻退役させる",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43894,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43895] = {
+		name = "冬日通行证第九日任务4（仅国服）",
+		guild_coin_award = 0,
+		award = 104542,
+		type = 6,
+		desc = "科学研究を4回行う",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43895,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43896] = {
+		name = "冬日通行证第十日任务1（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "戦術訓練を4回行う",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43896,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43897] = {
+		name = "冬日通行证第十日任务2（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "艦隊を出撃させ、3回勝利する",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43897,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43898] = {
+		name = "冬日通行证第十日任务3（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "軍事委託を4回完了させる",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43898,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43899] = {
+		name = "冬日通行证第十日任务4（仅国服）",
+		guild_coin_award = 0,
+		award = 104542,
+		type = 6,
+		desc = "建造を3回行う",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43899,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43900] = {
+		name = "冬日通行证第十一日任务1（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "装備を2回行う",
+		count_inherit = 0,
+		sub_type = 40,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43900,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43901] = {
+		name = "冬日通行证第十一日任务2（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "ハードステージを3回クリアする",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43901,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43902] = {
+		name = "冬日通行证第十一日任务3（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "装備を10回分解する",
+		count_inherit = 0,
+		sub_type = 41,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43902,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43903] = {
+		name = "冬日通行证第十一日任务4（仅国服）",
+		guild_coin_award = 0,
+		award = 104542,
+		type = 6,
+		desc = "オフニャを1回訓練する",
+		count_inherit = 0,
+		sub_type = 170,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43903,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43904] = {
+		name = "冬日通行证第十二日任务1（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "デイリーチャレンジを6回クリアする",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43904,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43905] = {
+		name = "冬日通行证第十二日任务2（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "寮舎の食糧補充を5回行う",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43905,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43906] = {
+		name = "冬日通行证第十二日任务3（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "艦船を2隻退役させる",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43906,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43907] = {
+		name = "冬日通行证第十二日任务4（仅国服）",
+		guild_coin_award = 0,
+		award = 104542,
+		type = 6,
+		desc = "科学研究を4回行う",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43907,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43908] = {
+		name = "冬日通行证·【SP任务1】（仅国服）",
+		guild_coin_award = 0,
+		award = 104543,
+		type = 6,
+		desc = "累計で燃料を5000消費する",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43908,
+		target_num = 5000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43909] = {
+		name = "冬日通行证·【SP任务2】（仅国服）",
+		guild_coin_award = 0,
+		award = 104543,
+		type = 6,
+		desc = "累計で燃料を10000消費する",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43909,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43910] = {
+		name = "冬日通行证·【SP任务3】（仅国服）",
+		guild_coin_award = 0,
+		award = 104543,
+		type = 6,
+		desc = "任意のステージで累計50万経験値を獲得する",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43910,
+		target_num = 500000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43911] = {
+		name = "冬日通行证·【SP任务4】（仅国服）",
+		guild_coin_award = 0,
+		award = 104543,
+		type = 6,
+		desc = "任意のステージで累計100万経験値を獲得する",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43911,
+		target_num = 1000000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43912] = {
+		name = "冬日通行证·【SP任务5】（仅国服）",
+		guild_coin_award = 0,
+		award = 104543,
+		type = 6,
+		desc = "建造を20回行う",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43912,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43913] = {
+		name = "冬日通行证·【SP任务6】（仅国服）",
+		guild_coin_award = 0,
+		award = 104543,
+		type = 6,
+		desc = "建造を40回行う",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43913,
+		target_num = 40,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43914] = {
+		name = "冬日通行证·【SP任务7】（仅国服）",
+		guild_coin_award = 0,
+		award = 104544,
+		type = 6,
+		desc = "建造を80回行う",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43914,
+		target_num = 80,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43915] = {
+		name = "冬日通行证·【SP任务8】（仅国服）",
+		guild_coin_award = 0,
+		award = 104543,
+		type = 6,
+		desc = "累計1日間ログインする",
+		count_inherit = 0,
+		sub_type = 106,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43915,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				50
+			}
+		},
+		scene = {
+			"MAINUI"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43916] = {
+		name = "冬日通行证·【SP任务9】（仅国服）",
+		guild_coin_award = 0,
+		award = 104544,
+		type = 6,
+		desc = "累計7日間ログインする",
+		count_inherit = 0,
+		sub_type = 106,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43916,
+		target_num = 7,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				100
+			}
+		},
+		scene = {
+			"MAINUI"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43917] = {
+		name = "冬日通行证·【SP任务10】（仅国服）",
+		guild_coin_award = 0,
+		award = 104545,
+		type = 6,
+		desc = "着せ替えショップで累計3着購入する",
+		count_inherit = 0,
+		sub_type = 156,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43917,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			70001,
+			70090,
+			70162,
+			70171,
+			70172,
+			70181,
+			70182,
+			70203,
+			70216,
+			70218,
+			70219,
+			70220,
+			70221,
+			70222,
+			70223,
+			70224,
+			70225,
+			70227,
+			70299,
+			70317,
+			70390,
+			70391,
+			70392,
+			70401,
+			70402,
+			70403,
+			70433,
+			70434,
+			70435,
+			70443,
+			70526,
+			70579,
+			70580,
+			70581,
+			70582,
+			70583,
+			70584,
+			70585,
+			70586,
+			70587,
+			70613,
+			70625,
+			70709,
+			70710,
+			70711,
+			70712,
+			70714,
+			70759,
+			70760,
+			70761,
+			70762,
+			70773,
+			70774,
+			70831,
+			70832,
+			70833,
+			70834,
+			70835,
+			70836,
+			70837,
+			70861,
+			70862,
+			70863,
+			70864,
+			70865,
+			70866,
+			70867,
+			70913,
+			70935,
+			70977,
+			70978,
+			70996,
+			70997,
+			70998,
+			70999,
+			71000,
+			71001,
+			71002,
+			71003,
+			71004,
+			71005,
+			71006,
+			71007,
+			71008,
+			71009,
+			71010,
+			71011,
+			71012,
+			71013,
+			71014,
+			71015,
+			71016,
+			71017,
+			71018,
+			71019,
+			71024,
+			71025,
+			71026,
+			71027,
+			71028,
+			71029,
+			71031,
+			71032,
+			71033,
+			71034,
+			71035,
+			71036,
+			71037,
+			71038,
+			71039,
+			71040,
+			71041,
+			71042,
+			71043,
+			71070,
+			71105,
+			71106,
+			71107,
+			71108,
+			71109,
+			71110,
+			71111,
+			71114,
+			71115,
+			71116,
+			71117,
+			71118,
+			71119,
+			71120,
+			71121,
+			71122,
+			71123,
+			71124,
+			71125,
+			71126,
+			71127,
+			71128,
+			71129,
+			71130,
+			71131,
+			71132,
+			71133,
+			71134,
+			71135,
+			71136,
+			71137,
+			71138,
+			71140,
+			71141,
+			71142,
+			71143,
+			71144,
+			71145,
+			71146,
+			71147,
+			71151,
+			71152,
+			71153,
+			71154,
+			71155,
+			71156,
+			71157,
+			71165,
+			71166,
+			71167,
+			71168,
+			71169,
+			71170,
+			71171,
+			71172,
+			71173,
+			71174,
+			70002,
+			70003,
+			70004,
+			70005,
+			70006,
+			70007,
+			70008,
+			70009,
+			70010,
+			70011,
+			70012,
+			70013,
+			70014,
+			70015,
+			70016,
+			70017,
+			70018,
+			70019,
+			70020,
+			70021,
+			70022,
+			70023,
+			70024,
+			70025,
+			70026,
+			70027,
+			70028,
+			70029,
+			70030,
+			70031,
+			70032,
+			70033,
+			70034,
+			70035,
+			70036,
+			70037,
+			70042,
+			70043,
+			70044,
+			70045,
+			70046,
+			70047,
+			70048,
+			70049,
+			70050,
+			70051,
+			70052,
+			70053,
+			70054,
+			70055,
+			70056,
+			70057,
+			70058,
+			70059,
+			70061,
+			70062,
+			70063,
+			70064,
+			70065,
+			70066,
+			70067,
+			70068,
+			70069,
+			70070,
+			70071,
+			70072,
+			70073,
+			70074,
+			70075,
+			70076,
+			70077,
+			70078,
+			70079,
+			70080,
+			70081,
+			70082,
+			70083,
+			70084,
+			70085,
+			70086,
+			70087,
+			70088,
+			70089,
+			70093,
+			70095,
+			70096,
+			70097,
+			70098,
+			70099,
+			70100,
+			70101,
+			70102,
+			70103,
+			70104,
+			70105,
+			70106,
+			70107,
+			70108,
+			70109,
+			70110,
+			70111,
+			70112,
+			70113,
+			70114,
+			70115,
+			70116,
+			70117,
+			70124,
+			70125,
+			70126,
+			70127,
+			70128,
+			70129,
+			70130,
+			70131,
+			70132,
+			70133,
+			70134,
+			70135,
+			70136,
+			70137,
+			70138,
+			70139,
+			70140,
+			70141,
+			70142,
+			70143,
+			70144,
+			70145,
+			70146,
+			70147,
+			70148,
+			70149,
+			70150,
+			70151,
+			70152,
+			70153,
+			70154,
+			70156,
+			70157,
+			70158,
+			70159,
+			70160,
+			70161,
+			70164,
+			70165,
+			70166,
+			70167,
+			70168,
+			70170,
+			70173,
+			70175,
+			70176,
+			70177,
+			70178,
+			70183,
+			70184,
+			70185,
+			70186,
+			70187,
+			70188,
+			70189,
+			70190,
+			70191,
+			70192,
+			70193,
+			70194,
+			70195,
+			70196,
+			70197,
+			70198,
+			70199,
+			70200,
+			70201,
+			70202,
+			70206,
+			70207,
+			70208,
+			70209,
+			70210,
+			70211,
+			70212,
+			70213,
+			70214,
+			70215,
+			70217,
+			70226,
+			70228,
+			70229,
+			70230,
+			70231,
+			70232,
+			70233,
+			70234,
+			70235,
+			70236,
+			70237,
+			70238,
+			70239,
+			70240,
+			70241,
+			70242,
+			70243,
+			70244,
+			70246,
+			70249,
+			70253,
+			70254,
+			70255,
+			70256,
+			70257,
+			70258,
+			70259,
+			70260,
+			70261,
+			70262,
+			70263,
+			70264,
+			70265,
+			70276,
+			70277,
+			70278,
+			70279,
+			70280,
+			70281,
+			70282,
+			70283,
+			70284,
+			70285,
+			70286,
+			70287,
+			70288,
+			70289,
+			70290,
+			70291,
+			70292,
+			70293,
+			70294,
+			70295,
+			70296,
+			70297,
+			70298,
+			70300,
+			70301,
+			70302,
+			70303,
+			70304,
+			70305,
+			70306,
+			70307,
+			70308,
+			70309,
+			70310,
+			70311,
+			70312,
+			70313,
+			70315,
+			70316,
+			70318,
+			70319,
+			70320,
+			70321,
+			70322,
+			70323,
+			70324,
+			70325,
+			70326,
+			70327,
+			70328,
+			70329,
+			70330,
+			70331,
+			70332,
+			70333,
+			70334,
+			70335,
+			70336,
+			70337,
+			70339,
+			70340,
+			70341,
+			70342,
+			70343,
+			70344,
+			70345,
+			70346,
+			70347,
+			70348,
+			70349,
+			70350,
+			70357,
+			70358,
+			70359,
+			70360,
+			70361,
+			70362,
+			70363,
+			70365,
+			70366,
+			70367,
+			70368,
+			70369,
+			70370,
+			70371,
+			70372,
+			70373,
+			70374,
+			70375,
+			70376,
+			70377,
+			70378,
+			70379,
+			70380,
+			70381,
+			70382,
+			70383,
+			70384,
+			70385,
+			70386,
+			70387,
+			70388,
+			70389,
+			70393,
+			70394,
+			70395,
+			70396,
+			70397,
+			70398,
+			70399,
+			70400,
+			70404,
+			70405,
+			70406,
+			70407,
+			70408,
+			70409,
+			70410,
+			70411,
+			70412,
+			70413,
+			70414,
+			70415,
+			70416,
+			70417,
+			70418,
+			70419,
+			70420,
+			70421,
+			70422,
+			70423,
+			70424,
+			70425,
+			70426,
+			70427,
+			70428,
+			70429,
+			70430,
+			70431,
+			70432,
+			70436,
+			70437,
+			70438,
+			70439,
+			70440,
+			70441,
+			70442,
+			70444,
+			70452,
+			70453,
+			70454,
+			70455,
+			70456,
+			70457,
+			70459,
+			70460,
+			70461,
+			70462,
+			70463,
+			70465,
+			70466,
+			70467,
+			70468,
+			70469,
+			70470,
+			70471,
+			70472,
+			70473,
+			70474,
+			70475,
+			70476,
+			70477,
+			70478,
+			70481,
+			70482,
+			70483,
+			70484,
+			70485,
+			70486,
+			70488,
+			70489,
+			70490,
+			70491,
+			70492,
+			70494,
+			70495,
+			70496,
+			70497,
+			70498,
+			70499,
+			70500,
+			70501,
+			70502,
+			70503,
+			70504,
+			70505,
+			70506,
+			70507,
+			70508,
+			70509,
+			70510,
+			70511,
+			70513,
+			70514,
+			70515,
+			70516,
+			70517,
+			70518,
+			70519,
+			70520,
+			70521,
+			70522,
+			70523,
+			70524,
+			70525,
+			70528,
+			70529,
+			70530,
+			70531,
+			70534,
+			70535,
+			70536,
+			70537,
+			70538,
+			70539,
+			70541,
+			70542,
+			70543,
+			70544,
+			70545,
+			70546,
+			70547,
+			70548,
+			70549,
+			70550,
+			70551,
+			70553,
+			70554,
+			70555,
+			70556,
+			70557,
+			70558,
+			70559,
+			70560,
+			70561,
+			70562,
+			70563,
+			70565,
+			70566,
+			70568,
+			70569,
+			70570,
+			70589,
+			70590,
+			70591,
+			70592,
+			70593,
+			70594,
+			70595,
+			70596,
+			70597,
+			70598,
+			70599,
+			70600,
+			70601,
+			70602,
+			70603,
+			70604,
+			70605,
+			70606,
+			70607,
+			70608,
+			70609,
+			70610,
+			70611,
+			70612,
+			70614,
+			70615,
+			70623,
+			70624,
+			70626,
+			70627,
+			70628,
+			70629,
+			70630,
+			70631,
+			70632,
+			70633,
+			70634,
+			70635,
+			70636,
+			70637,
+			70638,
+			70639,
+			70640,
+			70641,
+			70642,
+			70643,
+			70644,
+			70645,
+			70646,
+			70647,
+			70648,
+			70649,
+			70650,
+			70651,
+			70652,
+			70653,
+			70654,
+			70655,
+			70656,
+			70657,
+			70658,
+			70659,
+			70660,
+			70661,
+			70662,
+			70663,
+			70664,
+			70665,
+			70666,
+			70667,
+			70668,
+			70669,
+			70670,
+			70671,
+			70672,
+			70673,
+			70674,
+			70675,
+			70676,
+			70677,
+			70678,
+			70679,
+			70680,
+			70681,
+			70682,
+			70683,
+			70684,
+			70685,
+			70686,
+			70687,
+			70688,
+			70689,
+			70690,
+			70694,
+			70695,
+			70696,
+			70697,
+			70698,
+			70699,
+			70700,
+			70701,
+			70702,
+			70703,
+			70704,
+			70705,
+			70706,
+			70707,
+			70708,
+			70713,
+			70715,
+			70716,
+			70717,
+			70718,
+			70719,
+			70720,
+			70721,
+			70722,
+			70723,
+			70724,
+			70725,
+			70726,
+			70734,
+			70737,
+			70738,
+			70739,
+			70740,
+			70741,
+			70742,
+			70743,
+			70744,
+			70745,
+			70746,
+			70747,
+			70748,
+			70749,
+			70750,
+			70751,
+			70752,
+			70753,
+			70754,
+			70755,
+			70756,
+			70757,
+			70758,
+			70763,
+			70764,
+			70765,
+			70766,
+			70767,
+			70775,
+			70776,
+			70777,
+			70778,
+			70779,
+			70780,
+			70781,
+			70782,
+			70783,
+			70784,
+			70785,
+			70786,
+			70788,
+			70789,
+			70790,
+			70791,
+			70792,
+			70804,
+			70805,
+			70806,
+			70807,
+			70808,
+			70809,
+			70810,
+			70811,
+			70812,
+			70813,
+			70814,
+			70815,
+			70816,
+			70817,
+			70818,
+			70819,
+			70820,
+			70821,
+			70822,
+			70823,
+			70824,
+			70825,
+			70826,
+			70827,
+			70828,
+			70829,
+			70830,
+			70847,
+			70848,
+			70849,
+			70850,
+			70851,
+			70852,
+			70853,
+			70854,
+			70855,
+			70856,
+			70857,
+			70858,
+			70859,
+			70860,
+			70890,
+			70891,
+			70892,
+			70893,
+			70894,
+			70895,
+			70896,
+			70897,
+			70898,
+			70899,
+			70900,
+			70901,
+			70902,
+			70903,
+			70904,
+			70905,
+			70906,
+			70907,
+			70908,
+			70909,
+			70910,
+			70911,
+			70912,
+			70915,
+			70920,
+			70921,
+			70922,
+			70923,
+			70924,
+			70925,
+			70926,
+			70954,
+			70955,
+			70956,
+			70957,
+			70958,
+			70959,
+			70960
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				200
+			}
+		},
+		scene = {
+			"NEW_SHOP"
 		}
 	}
 end)()

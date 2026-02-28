@@ -2,12 +2,15 @@ local var_0_0 = class("IslandPostRestPanel", import("view.base.BaseSubView"))
 
 var_0_0.MAX_ASSISTANT_CNT = 2
 var_0_0.MAX_SHELF_CNT = 5
+var_0_0.ScrollValue = 0
 
 function var_0_0.getUIName(arg_1_0)
 	return "IslandPostRestPanel"
 end
 
 function var_0_0.OnLoaded(arg_2_0)
+	arg_2_0.scrollTF = arg_2_0._tf:Find("view")
+
 	local var_2_0 = arg_2_0._tf:Find("view/content")
 	local var_2_1 = var_2_0:Find("tpl")
 
@@ -29,199 +32,203 @@ function var_0_0.OnInit(arg_3_0)
 			arg_3_0:UpdateItem(arg_4_1, arg_4_2)
 		end
 	end)
+	onScroll(arg_3_0, arg_3_0.scrollTF, function(arg_5_0)
+		var_0_0.ScrollValue = arg_5_0.x
+	end)
 end
 
-function var_0_0.TriggerEvent(arg_5_0, arg_5_1)
-	local var_5_0 = -1
+function var_0_0.TriggerEvent(arg_6_0, arg_6_1)
+	local var_6_0 = -1
 
-	for iter_5_0, iter_5_1 in ipairs(arg_5_0.restIds) do
-		if iter_5_1 == arg_5_1 then
-			var_5_0 = iter_5_0
+	for iter_6_0, iter_6_1 in ipairs(arg_6_0.restIds) do
+		if iter_6_1 == arg_6_1 then
+			var_6_0 = iter_6_0
 
 			break
 		end
 	end
 
-	if var_5_0 < 0 then
+	if var_6_0 < 0 then
 		return
 	end
 
-	arg_5_0.uiList:eachActive(function(arg_6_0, arg_6_1)
-		if arg_6_0 + 1 == var_5_0 then
-			triggerButton(arg_6_1:Find("btns/opening"))
+	arg_6_0.uiList:eachActive(function(arg_7_0, arg_7_1)
+		if arg_7_0 + 1 == var_6_0 then
+			triggerButton(arg_7_1:Find("btns/opening"))
 		end
 	end)
 end
 
-function var_0_0.InitItem(arg_7_0, arg_7_1, arg_7_2)
-	onButton(arg_7_0, arg_7_2:Find("btns/prepare"), function()
-		arg_7_0:OpenRestaurant(arg_7_0.restIds[arg_7_1 + 1])
+function var_0_0.InitItem(arg_8_0, arg_8_1, arg_8_2)
+	onButton(arg_8_0, arg_8_2:Find("btns/prepare"), function()
+		arg_8_0:OpenRestaurant(arg_8_0.restIds[arg_8_1 + 1])
 	end, SFX_PANEL)
-	onButton(arg_7_0, arg_7_2:Find("btns/opening"), function()
-		arg_7_0:OpenRestaurant(arg_7_0.restIds[arg_7_1 + 1])
+	onButton(arg_8_0, arg_8_2:Find("btns/opening"), function()
+		arg_8_0:OpenRestaurant(arg_8_0.restIds[arg_8_1 + 1])
 	end, SFX_PANEL)
-	onButton(arg_7_0, arg_7_2:Find("btns/close"), function()
-		arg_7_0:OpenRestaurant(arg_7_0.restIds[arg_7_1 + 1])
+	onButton(arg_8_0, arg_8_2:Find("btns/close"), function()
+		arg_8_0:OpenRestaurant(arg_8_0.restIds[arg_8_1 + 1])
 	end, SFX_PANEL)
 end
 
-function var_0_0.OpenRestaurant(arg_11_0, arg_11_1)
-	arg_11_0:emit(IslandMediator.OPEN_PAGE, "IslandRestaurantPage", {
-		arg_11_1,
+function var_0_0.OpenRestaurant(arg_12_0, arg_12_1)
+	arg_12_0:emit(IslandMediator.OPEN_PAGE, "IslandRestaurantPage", {
+		arg_12_1,
 		true
 	})
 end
 
-function var_0_0.UpdateItem(arg_12_0, arg_12_1, arg_12_2)
-	local var_12_0 = arg_12_0.restIds[arg_12_1 + 1]
+function var_0_0.UpdateItem(arg_13_0, arg_13_1, arg_13_2)
+	local var_13_0 = arg_13_0.restIds[arg_13_1 + 1]
 
-	arg_12_2.name = var_12_0
+	arg_13_2.name = var_13_0
 
-	local var_12_1 = pg.island_manage_restaurant[var_12_0].name
+	local var_13_1 = pg.island_manage_restaurant[var_13_0].name
 
-	setText(arg_12_2:Find("name"), var_12_1)
+	setText(arg_13_2:Find("name"), var_13_1)
 
-	local var_12_2 = arg_12_0.rests[var_12_0]
+	local var_13_2 = arg_13_0.rests[var_13_0]
 
-	setActive(arg_12_2:Find("lock"), not var_12_2)
-	setActive(arg_12_2:Find("btns/lock"), not var_12_2)
-	setActive(arg_12_2:Find("rank"), var_12_2)
-	setActive(arg_12_2:Find("opening"), var_12_2 and var_12_2:GetStatus() == IslandRestaurant.STATUS.OPENING)
+	setActive(arg_13_2:Find("lock"), not var_13_2)
+	setActive(arg_13_2:Find("btns/lock"), not var_13_2)
+	setActive(arg_13_2:Find("rank"), var_13_2)
+	setActive(arg_13_2:Find("opening"), var_13_2 and var_13_2:GetStatus() == IslandRestaurant.STATUS.OPENING)
 
-	if var_12_2 then
-		local var_12_3 = var_12_2:GetEventInfo()
+	if var_13_2 then
+		local var_13_3 = var_13_2:GetEventInfo()
 
-		setActive(arg_12_2:Find("name/event"), var_12_2:GetEventInfo() ~= 0)
+		setActive(arg_13_2:Find("name/event"), var_13_2:GetEventInfo() ~= 0)
 	else
-		setActive(arg_12_2:Find("name/event"), false)
+		setActive(arg_13_2:Find("name/event"), false)
 	end
 
-	onButton(arg_12_0, arg_12_2:Find("name/event"), function()
-		arg_12_0:emit(IslandPostManagePage.EVENT_SHOW_SP_EVENT_TIP, var_12_2, false)
+	onButton(arg_13_0, arg_13_2:Find("name/event"), function()
+		arg_13_0:emit(IslandPostManagePage.EVENT_SHOW_SP_EVENT_TIP, var_13_2, false)
 	end, SFX_PANEL)
 
-	local var_12_4 = var_12_2 and var_12_2:GetAssistants() or {}
+	local var_13_4 = var_13_2 and var_13_2:GetAssistants() or {}
 
-	UIItemList.StaticAlign(arg_12_2:Find("ships"), arg_12_2:Find("ships/tpl"), var_0_0.MAX_ASSISTANT_CNT, function(arg_14_0, arg_14_1, arg_14_2)
-		if arg_14_0 == UIItemList.EventUpdate then
-			local var_14_0 = var_12_4[arg_14_1 + 1]
+	UIItemList.StaticAlign(arg_13_2:Find("ships"), arg_13_2:Find("ships/tpl"), var_0_0.MAX_ASSISTANT_CNT, function(arg_15_0, arg_15_1, arg_15_2)
+		if arg_15_0 == UIItemList.EventUpdate then
+			local var_15_0 = var_13_4[arg_15_1 + 1]
 
-			setActive(arg_14_2:Find("lock"), not var_14_0)
+			setActive(arg_15_2:Find("lock"), not var_15_0)
 
-			local var_14_1 = var_14_0 and var_14_0.shipId
+			local var_15_1 = var_15_0 and var_15_0.shipId
 
-			setActive(arg_14_2:Find("icon"), var_14_1 and var_14_1 ~= 0)
+			setActive(arg_15_2:Find("icon"), var_15_1 and var_15_1 ~= 0)
 
-			if var_14_1 and var_14_1 ~= 0 then
-				local var_14_2 = IslandShip.StaticGetPrefab(var_14_1)
+			if var_15_1 and var_15_1 ~= 0 then
+				local var_15_2 = IslandShip.StaticGetPrefab(var_15_1)
 
-				LoadImageSpriteAsync("squareicon/" .. var_14_2, arg_14_2:Find("icon"))
+				LoadImageSpriteAsync("squareicon/" .. var_15_2, arg_15_2:Find("icon"))
 			end
 		end
 	end)
 
-	local var_12_5 = var_12_2 and var_12_2:GetCommondities() or {}
-	local var_12_6 = var_12_2 and var_12_2:GetShelfCnt() or 0
+	local var_13_5 = var_13_2 and var_13_2:GetCommondities() or {}
+	local var_13_6 = var_13_2 and var_13_2:GetShelfCnt() or 0
 
-	UIItemList.StaticAlign(arg_12_2:Find("shelfs"), arg_12_2:Find("shelfs/tpl"), var_0_0.MAX_SHELF_CNT, function(arg_15_0, arg_15_1, arg_15_2)
-		if arg_15_0 == UIItemList.EventUpdate then
-			local var_15_0 = var_12_5[arg_15_1 + 1]
-			local var_15_1 = var_12_6 < arg_15_1 + 1
+	UIItemList.StaticAlign(arg_13_2:Find("shelfs"), arg_13_2:Find("shelfs/tpl"), var_0_0.MAX_SHELF_CNT, function(arg_16_0, arg_16_1, arg_16_2)
+		if arg_16_0 == UIItemList.EventUpdate then
+			local var_16_0 = var_13_5[arg_16_1 + 1]
+			local var_16_1 = var_13_6 < arg_16_1 + 1
 
-			setActive(arg_15_2:Find("lock"), var_15_1)
-			setActive(arg_15_2:Find("drop"), var_15_0)
+			setActive(arg_16_2:Find("lock"), var_16_1)
+			setActive(arg_16_2:Find("drop"), var_16_0)
 
-			if var_15_0 then
-				local var_15_2 = Drop.New({
+			if var_16_0 then
+				local var_16_2 = Drop.New({
 					type = DROP_TYPE_ISLAND_ITEM,
-					id = var_15_0.id,
-					count = var_15_0.num
+					id = var_16_0.id,
+					count = var_16_0.num
 				})
 
-				updateCustomDrop(arg_15_2:Find("drop"), var_15_2)
+				updateCustomDrop(arg_16_2:Find("drop"), var_16_2)
 			end
 		end
 	end)
 
-	if var_12_2 then
-		local var_12_7 = var_12_2:getConfig("opening_number")
-		local var_12_8 = var_12_2:GetRemainCnt()
+	if var_13_2 then
+		local var_13_7 = var_13_2:getConfig("opening_number")
+		local var_13_8 = var_13_2:GetRemainCnt()
 
-		setText(arg_12_2:Find("btns/prepare/Text"), string.format("%s(%d/%d)", i18n("island_manage_prepare"), var_12_8, var_12_7))
-		setText(arg_12_2:Find("btns/end/Text"), string.format("%s(%d/%d)", i18n("island_manage_daily_cnt_tip"), var_12_8, var_12_7))
-		LoadImageSpriteAsync("island/islandrestaurant/" .. var_12_2:GetRankIcon(), arg_12_2:Find("rank"), true)
-		arg_12_0:UpdataStatusInfo(arg_12_2, var_12_2)
+		setText(arg_13_2:Find("btns/prepare/Text"), string.format("%s(%d/%d)", i18n("island_manage_prepare"), var_13_8, var_13_7))
+		setText(arg_13_2:Find("btns/end/Text"), string.format("%s(%d/%d)", i18n("island_manage_daily_cnt_tip"), var_13_8, var_13_7))
+		LoadImageSpriteAsync("island/islandrestaurant/" .. var_13_2:GetRankIcon(), arg_13_2:Find("rank"), true)
+		arg_13_0:UpdataStatusInfo(arg_13_2, var_13_2)
 	end
 end
 
-function var_0_0.UpdataStatusInfo(arg_16_0, arg_16_1, arg_16_2)
-	local var_16_0 = arg_16_2:GetStatus()
+function var_0_0.UpdataStatusInfo(arg_17_0, arg_17_1, arg_17_2)
+	local var_17_0 = arg_17_2:GetStatus()
 
-	if var_16_0 == IslandRestaurant.STATUS.OPENING then
-		local var_16_1 = pg.TimeMgr.GetInstance()
-		local var_16_2 = arg_16_2:GetEndTime() - var_16_1:GetServerTime()
+	if var_17_0 == IslandRestaurant.STATUS.OPENING then
+		local var_17_1 = pg.TimeMgr.GetInstance()
+		local var_17_2 = arg_17_2:GetEndTime() - var_17_1:GetServerTime()
 
-		setText(arg_16_1:Find("opening/Text"), var_16_1:DescCDTime(var_16_2))
+		setText(arg_17_1:Find("opening/Text"), var_17_1:DescCDTime(var_17_2))
 	end
 
-	eachChild(arg_16_1:Find("btns"), function(arg_17_0)
-		setActive(arg_17_0, arg_17_0.name == var_16_0)
+	eachChild(arg_17_1:Find("btns"), function(arg_18_0)
+		setActive(arg_18_0, arg_18_0.name == var_17_0)
 	end)
 end
 
-function var_0_0.Show(arg_18_0)
-	arg_18_0.super.Show(arg_18_0)
-	arg_18_0:Flush()
-	arg_18_0:CheckEventTip()
+function var_0_0.Show(arg_19_0)
+	arg_19_0.super.Show(arg_19_0)
+	arg_19_0:Flush()
+	arg_19_0:CheckEventTip()
+	scrollTo(arg_19_0.scrollTF, var_0_0.ScrollValue)
 end
 
-function var_0_0.CheckEventTip(arg_19_0)
+function var_0_0.CheckEventTip(arg_20_0)
 	if not getProxy(SettingsProxy):ShouldTipIslandRestEvet() then
 		return
 	end
 
-	local var_19_0
+	local var_20_0
 
-	for iter_19_0, iter_19_1 in pairs(arg_19_0.rests) do
-		local var_19_1 = iter_19_1:GetEventInfo()
+	for iter_20_0, iter_20_1 in pairs(arg_20_0.rests) do
+		local var_20_1 = iter_20_1:GetEventInfo()
 
-		if iter_19_1:GetEventInfo() ~= 0 then
-			var_19_0 = iter_19_1
+		if iter_20_1:GetEventInfo() ~= 0 then
+			var_20_0 = iter_20_1
 
 			break
 		end
 	end
 
-	if var_19_0 then
-		arg_19_0:emit(IslandPostManagePage.EVENT_SHOW_SP_EVENT_TIP, var_19_0, true)
+	if var_20_0 then
+		arg_20_0:emit(IslandPostManagePage.EVENT_SHOW_SP_EVENT_TIP, var_20_0, true)
 	end
 end
 
-function var_0_0.Flush(arg_20_0)
-	arg_20_0:StopTimer()
+function var_0_0.Flush(arg_21_0)
+	arg_21_0:StopTimer()
 
-	arg_20_0.rests = getProxy(IslandProxy):GetIsland():GetManageAgency():GetRestaurants()
+	arg_21_0.rests = getProxy(IslandProxy):GetIsland():GetManageAgency():GetRestaurants()
 
-	table.sort(arg_20_0.restIds, CompareFuncs({
-		function(arg_21_0)
-			return arg_20_0.rests[arg_21_0] and 0 or 1
-		end,
+	table.sort(arg_21_0.restIds, CompareFuncs({
 		function(arg_22_0)
-			local var_22_0 = arg_20_0.rests[arg_22_0]
-
-			return var_22_0 and arg_20_0:GetStatusSortWeight(var_22_0:GetStatus()) or 999
+			return arg_21_0.rests[arg_22_0] and 0 or 1
 		end,
 		function(arg_23_0)
-			return arg_23_0
+			local var_23_0 = arg_21_0.rests[arg_23_0]
+
+			return var_23_0 and arg_21_0:GetStatusSortWeight(var_23_0:GetStatus()) or 999
+		end,
+		function(arg_24_0)
+			return arg_24_0
 		end
 	}))
-	arg_20_0.uiList:align(#arg_20_0.restIds)
-	arg_20_0:StartTimer()
-	arg_20_0:UpdateTime()
+	arg_21_0.uiList:align(#arg_21_0.restIds)
+	arg_21_0:StartTimer()
+	arg_21_0:UpdateTime()
 end
 
-function var_0_0.GetStatusSortWeight(arg_24_0, arg_24_1)
-	return switch(arg_24_1, {
+function var_0_0.GetStatusSortWeight(arg_25_0, arg_25_1)
+	return switch(arg_25_1, {
 		[IslandRestaurant.STATUS.CLOSE] = function()
 			return 1
 		end,
@@ -239,38 +246,38 @@ function var_0_0.GetStatusSortWeight(arg_24_0, arg_24_1)
 	end)
 end
 
-function var_0_0.UpdateTime(arg_30_0)
-	arg_30_0.uiList:eachActive(function(arg_31_0, arg_31_1)
-		local var_31_0 = arg_30_0.rests[arg_30_0.restIds[arg_31_0 + 1]]
+function var_0_0.UpdateTime(arg_31_0)
+	arg_31_0.uiList:eachActive(function(arg_32_0, arg_32_1)
+		local var_32_0 = arg_31_0.rests[arg_31_0.restIds[arg_32_0 + 1]]
 
-		if var_31_0 then
-			arg_30_0:UpdataStatusInfo(arg_31_1, var_31_0)
+		if var_32_0 then
+			arg_31_0:UpdataStatusInfo(arg_32_1, var_32_0)
 		end
 	end)
 end
 
-function var_0_0.StartTimer(arg_32_0)
-	arg_32_0.timer = Timer.New(function()
-		arg_32_0:UpdateTime()
+function var_0_0.StartTimer(arg_33_0)
+	arg_33_0.timer = Timer.New(function()
+		arg_33_0:UpdateTime()
 	end, 1, -1)
 
-	arg_32_0.timer:Start()
+	arg_33_0.timer:Start()
 end
 
-function var_0_0.StopTimer(arg_34_0)
-	if arg_34_0.timer ~= nil then
-		arg_34_0.timer:Stop()
+function var_0_0.StopTimer(arg_35_0)
+	if arg_35_0.timer ~= nil then
+		arg_35_0.timer:Stop()
 
-		arg_34_0.timer = nil
+		arg_35_0.timer = nil
 	end
 end
 
-function var_0_0.OnHide(arg_35_0)
-	arg_35_0:StopTimer()
+function var_0_0.OnHide(arg_36_0)
+	arg_36_0:StopTimer()
 end
 
-function var_0_0.OnDestroy(arg_36_0)
-	arg_36_0:OnHide()
+function var_0_0.OnDestroy(arg_37_0)
+	arg_37_0:OnHide()
 end
 
 return var_0_0

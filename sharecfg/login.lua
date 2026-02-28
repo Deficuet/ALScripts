@@ -2405,6 +2405,24 @@ pg.login = {
 	},
 	[82] = {
 		id = 82,
+		login_static = "login",
+		date = "stop",
+		op_play = 1,
+		op_time = "stop",
+		login_cri = "",
+		bgm = ""
+	},
+	[83] = {
+		id = 83,
+		login_static = "login_qiye",
+		date = "stop",
+		op_play = 0,
+		op_time = "stop",
+		login_cri = "",
+		bgm = ""
+	},
+	[84] = {
+		id = 84,
 		op_play = 1,
 		login_static = "login",
 		login_cri = "",
@@ -2415,7 +2433,7 @@ pg.login = {
 				{
 					2026,
 					2,
-					12
+					26
 				},
 				{
 					0,
@@ -2426,8 +2444,8 @@ pg.login = {
 			{
 				{
 					2026,
-					2,
-					15
+					3,
+					11
 				},
 				{
 					23,
@@ -2441,7 +2459,7 @@ pg.login = {
 				{
 					2026,
 					2,
-					12
+					26
 				},
 				{
 					0,
@@ -2452,8 +2470,8 @@ pg.login = {
 			{
 				{
 					2026,
-					2,
-					15
+					3,
+					11
 				},
 				{
 					23,
@@ -2463,40 +2481,14 @@ pg.login = {
 			}
 		}
 	},
-	[83] = {
-		id = 83,
+	[85] = {
+		id = 85,
 		login_static = "login_qiye",
+		date = "stop",
 		op_play = 0,
-		op_time = "",
+		op_time = "stop",
 		login_cri = "",
-		bgm = "",
-		date = {
-			"timer",
-			{
-				{
-					2026,
-					2,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					2,
-					26
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		bgm = ""
 	},
 	all = {
 		1,
@@ -2572,6 +2564,8 @@ pg.login = {
 		80,
 		81,
 		82,
-		83
+		83,
+		84,
+		85
 	}
 }

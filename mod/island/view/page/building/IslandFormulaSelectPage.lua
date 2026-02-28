@@ -477,6 +477,7 @@ function var_0_0.OnShow(arg_37_0, arg_37_1)
 	arg_37_0.addDelegateFormula = arg_37_1.addDelegateFormula
 	arg_37_0.addDelegateFormulaTimes = arg_37_1.addDelegateFormulaTimes
 	arg_37_0.canRewardTime = arg_37_1.canRewardTime
+	arg_37_0.selectFormulaId = arg_37_1.selectFormulaId
 
 	setActive(arg_37_0.addExpTF, arg_37_0.selectedShipId ~= 1)
 
@@ -505,10 +506,29 @@ function var_0_0.OnShow(arg_37_0, arg_37_1)
 	arg_37_0:InitUnlockedFormulaList()
 
 	if #arg_37_0.formulaList > 0 then
-		arg_37_0.uiList:align(#arg_37_0.formulaList)
-		setActive(arg_37_0.rightInfo, true)
-		setActive(arg_37_0.rightInfoEmpty, false)
-		arg_37_0:OnSelectFormulaIndex(1)
+		local var_37_3 = 1
+
+		if arg_37_0.selectFormulaId then
+			for iter_37_0, iter_37_1 in ipairs(arg_37_0.formulaList) do
+				if iter_37_1 == arg_37_0.selectFormulaId then
+					var_37_3 = iter_37_0
+
+					break
+				end
+			end
+		end
+
+		arg_37_0:OnSelectFormulaIndex(var_37_3)
+		onNextTick(function()
+			local var_38_0 = arg_37_0._tf:Find("formulaView/content")
+			local var_38_1 = var_38_0.sizeDelta.y
+			local var_38_2 = arg_37_0._tf:Find("formulaView/content/tpl").rect.height
+			local var_38_3 = math.min((var_37_3 - 1) * var_38_2, var_38_1)
+
+			setAnchoredPosition(var_38_0, {
+				y = var_38_3
+			})
+		end)
 	else
 		arg_37_0.uiList:align(#arg_37_0.formulaList)
 		setActive(arg_37_0.rightInfo, false)
@@ -518,218 +538,218 @@ function var_0_0.OnShow(arg_37_0, arg_37_1)
 	arg_37_0:RefreshShip()
 end
 
-function var_0_0.RefreshShip(arg_38_0)
-	local var_38_0 = IslandShip.StaticGetPrefab(arg_38_0.selectedShipId)
+function var_0_0.RefreshShip(arg_39_0)
+	local var_39_0 = IslandShip.StaticGetPrefab(arg_39_0.selectedShipId)
 
-	GetImageSpriteFromAtlasAsync("SquareIcon/" .. var_38_0, "", arg_38_0.selectShipIcon)
-	setText(arg_38_0.selectShipName, arg_38_0.selectedShip:GetName())
-	setText(arg_38_0.selectShipLv, string.format("-Lv.%d", arg_38_0.selectedShip:GetLevel()))
+	GetImageSpriteFromAtlasAsync("SquareIcon/" .. var_39_0, "", arg_39_0.selectShipIcon)
+	setText(arg_39_0.selectShipName, arg_39_0.selectedShip:GetName())
+	setText(arg_39_0.selectShipLv, string.format("-Lv.%d", arg_39_0.selectedShip:GetLevel()))
 
-	local var_38_1 = arg_38_0.selectedShip:GetSkill()
-	local var_38_2 = var_38_1:IsEffectiveInPlace(arg_38_0.placeId)
+	local var_39_1 = arg_39_0.selectedShip:GetSkill()
+	local var_39_2 = var_39_1:IsEffectiveInPlace(arg_39_0.placeId)
 
-	setActive(arg_38_0.skillInUse, var_38_2)
-	setActive(arg_38_0.skillUnUse, not var_38_2)
-	setActive(arg_38_0.skillUnUse, not var_38_2)
+	setActive(arg_39_0.skillInUse, var_39_2)
+	setActive(arg_39_0.skillUnUse, not var_39_2)
+	setActive(arg_39_0.skillUnUse, not var_39_2)
 
-	arg_38_0.skillName.text = string.format("%s - %s", var_38_1:GetName(), "Lv." .. var_38_1:GetLevel() .. "")
+	arg_39_0.skillName.text = string.format("%s - %s", var_39_1:GetName(), "Lv." .. var_39_1:GetLevel() .. "")
 end
 
-function var_0_0.RefreshShipEnergy(arg_39_0)
-	local var_39_0 = arg_39_0.addDelegateFormulaTimes and arg_39_0.curSelectCount - arg_39_0.addDelegateFormulaTimes or arg_39_0.curSelectCount
-	local var_39_1 = math.floor(arg_39_0.formulaCfg.stamina_cost * (1 - IslandProductCostHelper.GetReducePercentInPlace(arg_39_0.selectedShipId, arg_39_0.placeId))) * var_39_0
+function var_0_0.RefreshShipEnergy(arg_40_0)
+	local var_40_0 = arg_40_0.addDelegateFormulaTimes and arg_40_0.curSelectCount - arg_40_0.addDelegateFormulaTimes or arg_40_0.curSelectCount
+	local var_40_1 = math.floor(arg_40_0.formulaCfg.stamina_cost * (1 - IslandProductCostHelper.GetReducePercentInPlace(arg_40_0.selectedShipId, arg_40_0.placeId))) * var_40_0
 
-	if arg_39_0.selectedShipId == 1 then
-		var_39_1 = 0
+	if arg_40_0.selectedShipId == 1 then
+		var_40_1 = 0
 	else
-		arg_39_0.animationPlayer:Play("anim_IslandFormulaSelectNewUI_bar_Loop")
+		arg_40_0.animationPlayer:Play("anim_IslandFormulaSelectNewUI_bar_Loop")
 	end
 
-	setText(arg_39_0.addExp, "EXP+" .. arg_39_0.formulaCfg.ship_exp * var_39_0)
+	setText(arg_40_0.addExp, "EXP+" .. arg_40_0.formulaCfg.ship_exp * var_40_0)
 
-	if arg_39_0.eneryTimer then
-		arg_39_0.eneryTimer:Stop()
+	if arg_40_0.eneryTimer then
+		arg_40_0.eneryTimer:Stop()
 	end
 
-	arg_39_0.eneryTimer = Timer.New(function()
-		local var_40_0 = arg_39_0.selectedShip:GetCurrentEnergy()
-		local var_40_1 = arg_39_0.selectedShip:GetMaxEnergy()
+	arg_40_0.eneryTimer = Timer.New(function()
+		local var_41_0 = arg_40_0.selectedShip:GetCurrentEnergy()
+		local var_41_1 = arg_40_0.selectedShip:GetMaxEnergy()
 
-		setSlider(arg_39_0.energyBarTf, 0, 1, (var_40_0 - var_39_1) / var_40_1)
-		setSlider(arg_39_0.energyBarUseTf, 0, 1, var_40_0 / var_40_1)
-		setText(arg_39_0.energy_countTf, string.format("%d-<color=#f7c35f>%d</color>/%d", var_40_0, var_39_1, var_40_1))
+		setSlider(arg_40_0.energyBarTf, 0, 1, (var_41_0 - var_40_1) / var_41_1)
+		setSlider(arg_40_0.energyBarUseTf, 0, 1, var_41_0 / var_41_1)
+		setText(arg_40_0.energy_countTf, string.format("%d-<color=#f7c35f>%d</color>/%d", var_41_0, var_40_1, var_41_1))
 	end, 1, -1)
 
-	arg_39_0.eneryTimer:Start()
-	arg_39_0.eneryTimer.func()
+	arg_40_0.eneryTimer:Start()
+	arg_40_0.eneryTimer.func()
 end
 
-function var_0_0.InitUnlockedFormulaList(arg_41_0)
-	arg_41_0.formulaList = {}
-	arg_41_0.formulaToActivityDic = {}
+function var_0_0.InitUnlockedFormulaList(arg_42_0)
+	arg_42_0.formulaList = {}
+	arg_42_0.formulaToActivityDic = {}
 
-	if arg_41_0.addDelegateFormula then
-		table.insert(arg_41_0.formulaList, arg_41_0.addDelegateFormula)
+	if arg_42_0.addDelegateFormula then
+		table.insert(arg_42_0.formulaList, arg_42_0.addDelegateFormula)
 
 		return
 	end
 
-	local var_41_0 = getProxy(IslandProxy):GetIsland():GetAblityAgency()
+	local var_42_0 = getProxy(IslandProxy):GetIsland():GetAblityAgency()
 
-	for iter_41_0, iter_41_1 in ipairs(pg.island_production_slot[arg_41_0.slotId].activity_formula or {}) do
-		local var_41_1 = iter_41_1[1]
-		local var_41_2 = iter_41_1[2]
-		local var_41_3 = getProxy(ActivityProxy):getActivityById(var_41_1)
+	for iter_42_0, iter_42_1 in ipairs(pg.island_production_slot[arg_42_0.slotId].activity_formula or {}) do
+		local var_42_1 = iter_42_1[1]
+		local var_42_2 = iter_42_1[2]
+		local var_42_3 = getProxy(ActivityProxy):getActivityById(var_42_1)
 
-		if var_41_3 and not var_41_3:isEnd() then
-			for iter_41_2, iter_41_3 in ipairs(var_41_2 or {}) do
-				if pg.island_formula[iter_41_3].unlock_type == 0 or var_41_0:IsUnlockFormuate(iter_41_3) then
-					table.insert(arg_41_0.formulaList, iter_41_3)
+		if var_42_3 and not var_42_3:isEnd() then
+			for iter_42_2, iter_42_3 in ipairs(var_42_2 or {}) do
+				if pg.island_formula[iter_42_3].unlock_type == 0 or var_42_0:IsUnlockFormuate(iter_42_3) then
+					table.insert(arg_42_0.formulaList, iter_42_3)
 
-					arg_41_0.formulaToActivityDic[iter_41_3] = var_41_1
+					arg_42_0.formulaToActivityDic[iter_42_3] = var_42_1
 				end
 			end
 		end
 	end
 
-	for iter_41_4, iter_41_5 in ipairs(pg.island_production_slot[arg_41_0.slotId].formula or {}) do
-		local var_41_4 = pg.island_formula[iter_41_5].unlock_type == 0
-		local var_41_5 = pg.island_formula[iter_41_5].unlock_type == -1
-		local var_41_6 = true
+	for iter_42_4, iter_42_5 in ipairs(pg.island_production_slot[arg_42_0.slotId].formula or {}) do
+		local var_42_4 = pg.island_formula[iter_42_5].unlock_type == 0
+		local var_42_5 = pg.island_formula[iter_42_5].unlock_type == -1
+		local var_42_6 = true
 
-		if var_41_5 then
-			local var_41_7 = pg.island_combo[iter_41_5].unlock_condition
-			local var_41_8 = getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetFormulaNums()
+		if var_42_5 then
+			local var_42_7 = pg.island_combo[iter_42_5].unlock_condition
+			local var_42_8 = getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetFormulaNums()
 
-			for iter_41_6, iter_41_7 in ipairs(var_41_7) do
-				local var_41_9 = iter_41_7[1]
-				local var_41_10 = iter_41_7[2]
+			for iter_42_6, iter_42_7 in ipairs(var_42_7) do
+				local var_42_9 = iter_42_7[1]
+				local var_42_10 = iter_42_7[2]
 
-				if not var_41_8[var_41_9] or var_41_10 > var_41_8[var_41_9] then
-					var_41_6 = false
+				if not var_42_8[var_42_9] or var_42_10 > var_42_8[var_42_9] then
+					var_42_6 = false
 
 					break
 				end
 			end
 		end
 
-		if var_41_4 or var_41_0:IsUnlockFormuate(iter_41_5) or var_41_5 and var_41_6 then
-			table.insert(arg_41_0.formulaList, iter_41_5)
+		if var_42_4 or var_42_0:IsUnlockFormuate(iter_42_5) or var_42_5 and var_42_6 then
+			table.insert(arg_42_0.formulaList, iter_42_5)
 		end
 	end
 end
 
-function var_0_0.RefreshCurSelectCount(arg_42_0)
-	local var_42_0 = arg_42_0.addDelegateFormulaTimes or arg_42_0.curSelectCount
+function var_0_0.RefreshCurSelectCount(arg_43_0)
+	local var_43_0 = arg_43_0.addDelegateFormulaTimes or arg_43_0.curSelectCount
 
-	setText(arg_42_0.curCountTips, tostring(var_42_0))
+	setText(arg_43_0.curCountTips, tostring(var_43_0))
 
-	local var_42_1 = arg_42_0.addDelegateFormulaTimes and arg_42_0.curSelectCount - arg_42_0.addDelegateFormulaTimes or 0
+	local var_43_1 = arg_43_0.addDelegateFormulaTimes and arg_43_0.curSelectCount - arg_43_0.addDelegateFormulaTimes or 0
 
-	setText(arg_42_0.addCountTips, "+" .. var_42_1)
-	setSlider(arg_42_0.curCountNumSlider, 1, arg_42_0.productMaxTime, arg_42_0.curSelectCount)
-	arg_42_0:RefreshExtraProduct()
+	setText(arg_43_0.addCountTips, "+" .. var_43_1)
+	setSlider(arg_43_0.curCountNumSlider, 1, arg_43_0.productMaxTime, arg_43_0.curSelectCount)
+	arg_43_0:RefreshExtraProduct()
 
-	local var_42_2 = "×" .. arg_42_0.formulaCfg.commission_product[1][2]
-	local var_42_3 = arg_42_0:GetAniExtraGainByConfigName("efficiency_gains_num")
+	local var_43_2 = "×" .. arg_43_0.formulaCfg.commission_product[1][2]
+	local var_43_3 = arg_43_0:GetAniExtraGainByConfigName("efficiency_gains_num")
 
-	if var_42_3 > 0 then
-		var_42_2 = string.format("×(%s<color=#7df39f>+%d</color>)", arg_42_0.formulaCfg.commission_product[1][2], var_42_3)
+	if var_43_3 > 0 then
+		var_43_2 = string.format("×(%s<color=#7df39f>+%d</color>)", arg_43_0.formulaCfg.commission_product[1][2], var_43_3)
 	end
 
-	setText(arg_42_0.currentformulaIcon:Find("icon_bg/product_count_bg/product_count"), var_42_2 .. i18n("island_production_tip"))
+	setText(arg_43_0.currentformulaIcon:Find("icon_bg/product_count_bg/product_count"), var_43_2 .. i18n("island_production_tip"))
 
-	local var_42_4, var_42_5 = arg_42_0:CacaluteProductTime()
-	local var_42_6 = 0
+	local var_43_4, var_43_5 = arg_43_0:CacaluteProductTime()
+	local var_43_6 = 0
 
-	for iter_42_0, iter_42_1 in ipairs(var_42_4) do
-		var_42_6 = var_42_6 + iter_42_1
+	for iter_43_0, iter_43_1 in ipairs(var_43_4) do
+		var_43_6 = var_43_6 + iter_43_1
 	end
 
-	local var_42_7 = var_42_5 - var_42_6
-	local var_42_8 = pg.TimeMgr.GetInstance():DescCDTime(var_42_6)
+	local var_43_7 = var_43_5 - var_43_6
+	local var_43_8 = pg.TimeMgr.GetInstance():DescCDTime(var_43_6)
 
-	if var_42_7 > 0 then
-		var_42_8 = string.format("%s(<color=#7df39f>-%s</color>)", var_42_8, pg.TimeMgr.GetInstance():DescCDTime(var_42_7))
+	if var_43_7 > 0 then
+		var_43_8 = string.format("%s(<color=#7df39f>-%s</color>)", var_43_8, pg.TimeMgr.GetInstance():DescCDTime(var_43_7))
 	end
 
-	setText(arg_42_0.needTimeText, var_42_8)
+	setText(arg_43_0.needTimeText, var_43_8)
 end
 
-function var_0_0.RefreshExtraProduct(arg_43_0)
-	local var_43_0 = getProxy(IslandProxy):GetIsland():GetAblityAgency()
+function var_0_0.RefreshExtraProduct(arg_44_0)
+	local var_44_0 = getProxy(IslandProxy):GetIsland():GetAblityAgency()
 
-	if #arg_43_0.formulaCfg.second_product == 0 or not var_43_0:IsUnlcokSecondProduct(arg_43_0.selectFormulaId) then
-		setActive(arg_43_0.extraProduct, false)
+	if #arg_44_0.formulaCfg.second_product == 0 or not var_44_0:IsUnlcokSecondProduct(arg_44_0.selectFormulaId) then
+		setActive(arg_44_0.extraProduct, false)
 
 		return
 	end
 
-	setActive(arg_43_0.extraProduct, true)
+	setActive(arg_44_0.extraProduct, true)
 
-	local var_43_1 = arg_43_0.formulaCfg.second_product_display[1][1]
-	local var_43_2 = arg_43_0.formulaCfg.second_product_display[1][2]
-	local var_43_3 = pg.island_item_data_template[var_43_1]
-	local var_43_4 = Drop.New({
+	local var_44_1 = arg_44_0.formulaCfg.second_product_display[1][1]
+	local var_44_2 = arg_44_0.formulaCfg.second_product_display[1][2]
+	local var_44_3 = pg.island_item_data_template[var_44_1]
+	local var_44_4 = Drop.New({
 		count = 0,
 		type = DROP_TYPE_ISLAND_ITEM,
-		id = var_43_1
+		id = var_44_1
 	})
 
-	onButton(arg_43_0, arg_43_0.extraProductIcon, function()
-		arg_43_0:ShowMsgBox({
+	onButton(arg_44_0, arg_44_0.extraProductIcon, function()
+		arg_44_0:ShowMsgBox({
 			title = i18n("island_word_desc"),
 			type = IslandMsgBox.TYPE_COMMON_DROP_DESCRIBE,
-			dropData = var_43_4
+			dropData = var_44_4
 		})
 	end)
-	GetImageSpriteFromAtlasAsync("island/" .. var_43_3.icon, "", arg_43_0.extraProductIcon)
+	GetImageSpriteFromAtlasAsync("island/" .. var_44_3.icon, "", arg_44_0.extraProductIcon)
 
-	local var_43_5 = "×" .. var_43_2
-	local var_43_6 = arg_43_0:GetAniExtraGainByConfigName("efficiency_gains_bonus_num")
+	local var_44_5 = "×" .. var_44_2
+	local var_44_6 = arg_44_0:GetAniExtraGainByConfigName("efficiency_gains_bonus_num")
 
-	if var_43_6 > 0 then
-		var_43_5 = string.format("×(%s<color=#7df39f>+%d</color>)", var_43_2, var_43_6)
+	if var_44_6 > 0 then
+		var_44_5 = string.format("×(%s<color=#7df39f>+%d</color>)", var_44_2, var_44_6)
 	end
 
-	setText(arg_43_0.extraProductNum, var_43_5 .. i18n("island_production_tip"))
+	setText(arg_44_0.extraProductNum, var_44_5 .. i18n("island_production_tip"))
 
-	local var_43_7 = pg.island_production_slot[arg_43_0.slotId].place
-	local var_43_8 = getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetBuilding(var_43_7):GetDelegationSlotData(arg_43_0.slotId):GetFromulaTatalCount(arg_43_0.formulaCfg.id)
-	local var_43_9 = arg_43_0.formulaCfg.second_product[1]
-	local var_43_10 = (var_43_8 + (arg_43_0.canRewardTime or 0)) % var_43_9
-	local var_43_11 = var_43_10 + (arg_43_0.addDelegateFormulaTimes and arg_43_0.curSelectCount - arg_43_0.addDelegateFormulaTimes or arg_43_0.curSelectCount)
-	local var_43_12 = math.floor(var_43_11 / var_43_9)
+	local var_44_7 = pg.island_production_slot[arg_44_0.slotId].place
+	local var_44_8 = getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetBuilding(var_44_7):GetDelegationSlotData(arg_44_0.slotId):GetFromulaTatalCount(arg_44_0.formulaCfg.id)
+	local var_44_9 = arg_44_0.formulaCfg.second_product[1]
+	local var_44_10 = (var_44_8 + (arg_44_0.canRewardTime or 0)) % var_44_9
+	local var_44_11 = var_44_10 + (arg_44_0.addDelegateFormulaTimes and arg_44_0.curSelectCount - arg_44_0.addDelegateFormulaTimes or arg_44_0.curSelectCount)
+	local var_44_12 = math.floor(var_44_11 / var_44_9)
 
-	arg_43_0.extraProcess = var_43_11 % var_43_9
+	arg_44_0.extraProcess = var_44_11 % var_44_9
 
-	setText(arg_43_0.extraProductName, var_43_3.name .. "×" .. var_43_12)
+	setText(arg_44_0.extraProductName, var_44_3.name .. "×" .. var_44_12)
 
-	if arg_43_0.addDelegateFormulaTimes then
-		setActive(arg_43_0.extraProductAddnum, true)
+	if arg_44_0.addDelegateFormulaTimes then
+		setActive(arg_44_0.extraProductAddnum, true)
 
-		local var_43_13 = arg_43_0.curSelectCount - arg_43_0.addDelegateFormulaTimes
-		local var_43_14 = math.floor((var_43_10 + var_43_13) / var_43_9)
+		local var_44_13 = arg_44_0.curSelectCount - arg_44_0.addDelegateFormulaTimes
+		local var_44_14 = math.floor((var_44_10 + var_44_13) / var_44_9)
 
-		setText(arg_43_0.extraProductAddnum, "+" .. var_43_14)
+		setText(arg_44_0.extraProductAddnum, "+" .. var_44_14)
 	else
-		setActive(arg_43_0.extraProductAddnum, false)
+		setActive(arg_44_0.extraProductAddnum, false)
 	end
 
-	arg_43_0.extraProductList:align(var_43_9)
+	arg_44_0.extraProductList:align(var_44_9)
 end
 
-function var_0_0.CacaluteProductTime(arg_45_0)
-	local var_45_0 = arg_45_0.addDelegateFormulaTimes and arg_45_0.curSelectCount - arg_45_0.addDelegateFormulaTimes or arg_45_0.curSelectCount
-	local var_45_1 = pg.island_set.base_efficiency.key_value_int
-	local var_45_2 = math.ceil(arg_45_0.formulaCfg.workload / var_45_1)
+function var_0_0.CacaluteProductTime(arg_46_0)
+	local var_46_0 = arg_46_0.addDelegateFormulaTimes and arg_46_0.curSelectCount - arg_46_0.addDelegateFormulaTimes or arg_46_0.curSelectCount
+	local var_46_1 = pg.island_set.base_efficiency.key_value_int
+	local var_46_2 = math.ceil(arg_46_0.formulaCfg.workload / var_46_1)
 
-	return IslandProductTimeHelper.CalculateTimeToProductFormula(arg_45_0.selectedShipId, arg_45_0.selectFormulaId, var_45_0, arg_45_0.placeId, arg_45_0.slotId), var_45_2 * var_45_0
+	return IslandProductTimeHelper.CalculateTimeToProductFormula(arg_46_0.selectedShipId, arg_46_0.selectFormulaId, var_46_0, arg_46_0.placeId, arg_46_0.slotId), var_46_2 * var_46_0
 end
 
-function var_0_0.CheckInPlace(arg_46_0, arg_46_1, arg_46_2)
-	for iter_46_0, iter_46_1 in ipairs(arg_46_2) do
-		if iter_46_1 == arg_46_1 then
+function var_0_0.CheckInPlace(arg_47_0, arg_47_1, arg_47_2)
+	for iter_47_0, iter_47_1 in ipairs(arg_47_2) do
+		if iter_47_1 == arg_47_1 then
 			return true
 		end
 	end
@@ -737,73 +757,73 @@ function var_0_0.CheckInPlace(arg_46_0, arg_46_1, arg_46_2)
 	return false
 end
 
-function var_0_0.GetAttrGrade(arg_47_0, arg_47_1)
-	local var_47_0 = pg.island_chara_att.all[#pg.island_chara_att.all]
+function var_0_0.GetAttrGrade(arg_48_0, arg_48_1)
+	local var_48_0 = pg.island_chara_att.all[#pg.island_chara_att.all]
 
-	for iter_47_0, iter_47_1 in ipairs(pg.island_chara_att.all) do
-		local var_47_1 = pg.island_chara_att[iter_47_1]
-		local var_47_2 = var_47_1.range[1]
-		local var_47_3 = var_47_1.range[2]
+	for iter_48_0, iter_48_1 in ipairs(pg.island_chara_att.all) do
+		local var_48_1 = pg.island_chara_att[iter_48_1]
+		local var_48_2 = var_48_1.range[1]
+		local var_48_3 = var_48_1.range[2]
 
-		if var_47_2 <= arg_47_1 and arg_47_1 <= var_47_3 then
-			var_47_0 = iter_47_1
+		if var_48_2 <= arg_48_1 and arg_48_1 <= var_48_3 then
+			var_48_0 = iter_48_1
 
 			break
 		end
 	end
 
-	return var_47_0
+	return var_48_0
 end
 
-function var_0_0.GetAttrGrowingValueByBuff(arg_48_0, arg_48_1, arg_48_2)
-	for iter_48_0, iter_48_1 in ipairs(arg_48_2) do
-		if iter_48_1[1] == arg_48_1 then
-			return iter_48_1[2]
+function var_0_0.GetAttrGrowingValueByBuff(arg_49_0, arg_49_1, arg_49_2)
+	for iter_49_0, iter_49_1 in ipairs(arg_49_2) do
+		if iter_49_1[1] == arg_49_1 then
+			return iter_49_1[2]
 		end
 	end
 
 	return 0
 end
 
-function var_0_0.OnHide(arg_49_0)
-	arg_49_0:UnBlurPanel()
+function var_0_0.OnHide(arg_50_0)
+	arg_50_0:UnBlurPanel()
 
-	if arg_49_0.eneryTimer then
-		arg_49_0.eneryTimer:Stop()
+	if arg_50_0.eneryTimer then
+		arg_50_0.eneryTimer:Stop()
 	end
 end
 
-function var_0_0.OnDisable(arg_50_0)
-	arg_50_0:OnHide()
-end
-
-function var_0_0.OnDestroy(arg_51_0)
+function var_0_0.OnDisable(arg_51_0)
 	arg_51_0:OnHide()
 end
 
-function var_0_0.Show(arg_52_0, ...)
-	arg_52_0:AddListeners()
-	arg_52_0.islandUIController:Show(true)
-	arg_52_0:OnShow(...)
+function var_0_0.OnDestroy(arg_52_0)
+	arg_52_0:OnHide()
 end
 
-function var_0_0.Hide(arg_53_0, arg_53_1, arg_53_2)
-	local var_53_0 = defaultValue(arg_53_1, true)
+function var_0_0.Show(arg_53_0, ...)
+	arg_53_0:AddListeners()
+	arg_53_0.islandUIController:Show(true)
+	arg_53_0:OnShow(...)
+end
 
-	local function var_53_1()
-		arg_53_0:ClosePage(arg_53_0)
-		arg_53_0:RemoveListeners()
-		arg_53_0:OnHide()
+function var_0_0.Hide(arg_54_0, arg_54_1, arg_54_2)
+	local var_54_0 = defaultValue(arg_54_1, true)
 
-		if not arg_53_2 then
-			arg_53_0:OnExit()
+	local function var_54_1()
+		arg_54_0:ClosePage(arg_54_0)
+		arg_54_0:RemoveListeners()
+		arg_54_0:OnHide()
+
+		if not arg_54_2 then
+			arg_54_0:OnExit()
 		end
 	end
 
-	if var_53_0 then
-		arg_53_0.islandUIController:Hide(true, var_53_1)
+	if var_54_0 then
+		arg_54_0.islandUIController:Hide(true, var_54_1)
 	else
-		var_53_1()
+		var_54_1()
 	end
 end
 

@@ -6,6 +6,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	arg_1_0.pos = arg_1_1.pos
 	arg_1_0.state = arg_1_1.state
 	arg_1_0.mark = arg_1_1.mark
+	arg_1_0.refresh_time = arg_1_1.refresh_time
 	arg_1_0.isSelfIsLand = arg_1_2
 end
 

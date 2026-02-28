@@ -48,6 +48,6 @@ return {
 	desc = "",
 	stack = 1,
 	id = 17970,
-	icon = 10320,
+	icon = 17970,
 	last_effect = ""
 }

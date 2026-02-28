@@ -26,6 +26,12 @@ function var_0_0.OnInit(arg_3_0)
 	setText(arg_3_0.hudTitle, var_3_0.title)
 	setText(arg_3_0.hudName, var_3_0.name)
 
+	arg_3_0.tfDic = {
+		hudImage = arg_3_0.hudImageBg,
+		title = arg_3_0.hudTitle,
+		name = arg_3_0.hudName
+	}
+	arg_3_0.activeTFDic = {}
 	arg_3_0.playerTF = arg_3_0:GetPlayer()
 
 	arg_3_0:CheckPlayer()
@@ -90,48 +96,127 @@ function var_0_0.OnUpdate(arg_8_0)
 
 		arg_8_0.isNear = var_8_0
 
-		setActive(arg_8_0.hudTitle, arg_8_0.isNear)
-		setActive(arg_8_0.hudName, arg_8_0.isNear)
+		local var_8_1 = {
+			"title",
+			"name"
+		}
+
+		for iter_8_0, iter_8_1 in ipairs(var_8_1) do
+			arg_8_0:SetTFActive(iter_8_1, arg_8_0.isNear)
+		end
 	end
 end
 
-function var_0_0.RefreshHud(arg_9_0)
-	arg_9_0:UpdateTaskDisplay()
-end
+function var_0_0.SetTFActive(arg_9_0, arg_9_1, arg_9_2)
+	local var_9_0 = arg_9_0.tfDic[arg_9_1]
 
-function var_0_0.UpdateTaskDisplay(arg_10_0)
-	if IsNil(arg_10_0.hudImageBg) then
+	if IsNil(var_9_0) then
 		return
 	end
 
-	local var_10_0, var_10_1 = IslandObjectTaskHudHelper.GetObjectTaskHud(arg_10_0.unitId)
+	if arg_9_0.activeTFDic[arg_9_1] == arg_9_2 then
+		return
+	end
 
-	if arg_10_0.currentTaskId ~= var_10_1 then
-		arg_10_0.currentTaskId = var_10_1
+	arg_9_0.activeTFDic[arg_9_1] = arg_9_2
 
-		if var_10_1 then
-			local var_10_2, var_10_3 = IslandObjectTaskHudHelper.GetHudDislayInfoByTaskId(var_10_1)
+	local var_9_1 = var_9_0:GetComponent(typeof(Animation))
 
-			setActive(arg_10_0.hudImageBg, true)
-			GetImageSpriteFromAtlasAsync("island/IslandHudIcon", var_10_2, arg_10_0.hudImageBg)
-			setImageColor(arg_10_0.hudImageTF, Color.NewHex(var_10_3))
+	if arg_9_2 then
+		var_9_1:Play("anim_IslandNormalNpcHud_in")
+
+		if arg_9_1 == "hudImage" then
+			arg_9_0:UpdateTaskDisplay()
 		else
-			setActive(arg_10_0.hudImageBg, arg_10_0.hudImageIcon ~= "")
-			GetImageSpriteFromAtlasAsync("island/IslandHudIcon", "hud_main", arg_10_0.hudImageBg)
-			setImageColor(arg_10_0.hudImageTF, Color.NewHex("78787a"))
+			setActive(var_9_0, true)
+		end
+	else
+		var_9_1:Play("anim_IslandNormalNpcHud_out")
+		var_9_0:GetComponent("DftAniEvent"):SetEndEvent(function(arg_10_0)
+			if arg_9_1 == "hudImage" then
+				arg_9_0:UpdateTaskDisplay()
+			else
+				setActive(var_9_0, false)
+			end
+		end)
+	end
+end
+
+function var_0_0.RefreshHud(arg_11_0)
+	arg_11_0:UpdateTaskDisplay()
+end
+
+function var_0_0.UpdateTaskDisplay(arg_12_0)
+	if IsNil(arg_12_0.hudImageBg) then
+		return
+	end
+
+	local var_12_0, var_12_1 = IslandObjectTaskHudHelper.GetObjectTaskHud(arg_12_0.unitId)
+
+	if arg_12_0.currentTaskId ~= var_12_1 then
+		arg_12_0.currentTaskId = var_12_1
+
+		if var_12_1 then
+			local var_12_2, var_12_3 = IslandObjectTaskHudHelper.GetHudDislayInfoByTaskId(var_12_1)
+
+			setActive(arg_12_0.hudImageBg, true)
+			GetImageSpriteFromAtlasAsync("island/IslandHudIcon", var_12_2, arg_12_0.hudImageBg)
+			setImageColor(arg_12_0.hudImageTF, Color.NewHex(var_12_3))
+		else
+			setActive(arg_12_0.hudImageBg, arg_12_0.hudImageIcon ~= "")
+			GetImageSpriteFromAtlasAsync("island/IslandHudIcon", "hud_main", arg_12_0.hudImageBg)
+			setImageColor(arg_12_0.hudImageTF, Color.NewHex("78787a"))
 		end
 	end
 
-	if var_10_0 ~= arg_10_0.currentTaskType then
-		arg_10_0.currentTaskType = var_10_0
+	if var_12_0 ~= arg_12_0.currentTaskType then
+		arg_12_0.currentTaskType = var_12_0
 
-		local var_10_4 = IslandObjectTaskHudHelper.TaskProcessToHudIcon[var_10_0] or arg_10_0.hudImageIcon
+		local var_12_4 = IslandObjectTaskHudHelper.TaskProcessToHudIcon[var_12_0] or arg_12_0.hudImageIcon
 
-		setActive(arg_10_0.hudImageBg, var_10_4 ~= "")
+		setActive(arg_12_0.hudImageBg, var_12_4 ~= "")
 
-		if var_10_4 ~= "" then
-			GetImageSpriteFromAtlasAsync("island/IslandHudIcon", var_10_4, arg_10_0.hudImageTF)
+		if var_12_4 ~= "" then
+			GetImageSpriteFromAtlasAsync("island/IslandHudIcon", var_12_4, arg_12_0.hudImageTF)
 		end
+	end
+end
+
+function var_0_0.Show(arg_13_0)
+	if not arg_13_0._tf or arg_13_0.active == true then
+		return
+	end
+
+	arg_13_0.active = true
+
+	setActive(arg_13_0._tf, true)
+
+	local var_13_0 = {
+		"hudImage",
+		"title",
+		"name"
+	}
+
+	for iter_13_0, iter_13_1 in ipairs(var_13_0) do
+		arg_13_0:SetTFActive(iter_13_1, true)
+	end
+end
+
+function var_0_0.Hide(arg_14_0)
+	if not arg_14_0._tf then
+		return
+	end
+
+	arg_14_0.active = false
+
+	local var_14_0 = {
+		"hudImage",
+		"title",
+		"name"
+	}
+
+	for iter_14_0, iter_14_1 in ipairs(var_14_0) do
+		arg_14_0:SetTFActive(iter_14_1, false)
 	end
 end
 

@@ -119,6 +119,20 @@ function var_0_0.IsPostRestTip()
 	end)
 end
 
+function var_0_0.IsPostCollectionTip()
+	local var_23_0 = getProxy(PlayerProxy):getPlayerId()
+	local var_23_1 = "IslandSignAutoCollectTime" .. tostring(var_23_0)
+	local var_23_2 = PlayerPrefs.GetInt(var_23_1, 0)
+
+	if var_23_2 == 0 then
+		return true
+	end
+
+	local var_23_3 = pg.TimeMgr.GetInstance():GetServerTime()
+
+	return not pg.TimeMgr.GetInstance():IsSameDay(var_23_3, var_23_2)
+end
+
 function var_0_0.IsBookTip()
 	return getProxy(IslandProxy):GetIsland():GetBookAgency():IsTipFromTypes({
 		IslandIllustration.TYPES.CHAR,
@@ -128,25 +142,25 @@ function var_0_0.IsBookTip()
 	})
 end
 
-function var_0_0.IsUnlock(arg_24_0)
-	local var_24_0 = underscore.detect(pg.island_main_btns.all, function(arg_25_0)
-		return pg.island_main_btns[arg_25_0].btn_name == arg_24_0
+function var_0_0.IsUnlock(arg_25_0)
+	local var_25_0 = underscore.detect(pg.island_main_btns.all, function(arg_26_0)
+		return pg.island_main_btns[arg_26_0].btn_name == arg_25_0
 	end)
 
-	if not var_24_0 then
+	if not var_25_0 then
 		return false
 	end
 
-	local var_24_1 = pg.island_main_btns[var_24_0].ability_id
+	local var_25_1 = pg.island_main_btns[var_25_0].ability_id
 
-	return getProxy(IslandProxy):GetIsland():GetAblityAgency():HasAbility(var_24_1)
+	return getProxy(IslandProxy):GetIsland():GetAblityAgency():HasAbility(var_25_1)
 end
 
 function var_0_0.IsSeasonTip()
-	local var_26_0 = getProxy(ActivityProxy):getIslandPanelActivities()
+	local var_27_0 = getProxy(ActivityProxy):getIslandPanelActivities()
 
-	return _.any(var_26_0, function(arg_27_0)
-		return arg_27_0:readyToAchieve()
+	return _.any(var_27_0, function(arg_28_0)
+		return arg_28_0:readyToAchieve()
 	end)
 end
 

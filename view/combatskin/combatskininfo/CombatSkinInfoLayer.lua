@@ -11,6 +11,9 @@ function var_0_0.init(arg_2_0)
 	arg_2_0.confirm = arg_2_0._tf:Find("display/actions/confirm")
 	arg_2_0.skinViewTF = arg_2_0._tf:Find("display")
 	arg_2_0.toggleList = UIItemList.New(arg_2_0._tf:Find("display/info/display_panel/combat_skin/elementList"), arg_2_0._tf:Find("display/info/display_panel/combat_skin/elementList/main"))
+
+	setText(arg_2_0.confirm:Find("upgrade"), i18n("text_consume"))
+	setText(arg_2_0._tf:Find("display/top/bg/infomation/title"), i18n("words_information"))
 end
 
 function var_0_0.didEnter(arg_3_0)

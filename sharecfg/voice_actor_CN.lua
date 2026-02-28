@@ -1895,5 +1895,17 @@ pg.voice_actor_CN = {
 	[498] = {
 		code = 498,
 		actor_name = "熊谷海麗"
+	},
+	[499] = {
+		code = 499,
+		actor_name = "田所あずさ"
+	},
+	[500] = {
+		code = 500,
+		actor_name = "大森こころ"
+	},
+	[501] = {
+		code = 501,
+		actor_name = "吉田有里"
 	}
 }

@@ -1332,6 +1332,102 @@ pg.activity_medal_template = {
 		id = 5040508,
 		activity_medal_desc = "君子懐玉、温潤にして艶やかなり。"
 	},
+	[5044101] = {
+		prefab_node = "1",
+		next_medal = 0,
+		item = 65861,
+		remake_task_id = 0,
+		group = 50441,
+		task_id = 21902,
+		medal_asset = "ActivityMedal/5044101",
+		activity_medal_name = "ステッカー：春色旅籠",
+		id = 5044101,
+		activity_medal_desc = "お客さま、こちらへどうぞ！春の賑わいは全部中にあります！"
+	},
+	[5044102] = {
+		prefab_node = "2",
+		next_medal = 0,
+		item = 65862,
+		remake_task_id = 0,
+		group = 50441,
+		task_id = 21903,
+		medal_asset = "ActivityMedal/5044102",
+		activity_medal_name = "ステッカー：ロード中……",
+		id = 5044102,
+		activity_medal_desc = "マップデータ読み込み中……"
+	},
+	[5044103] = {
+		prefab_node = "3",
+		next_medal = 0,
+		item = 65863,
+		remake_task_id = 0,
+		group = 50441,
+		task_id = 21904,
+		medal_asset = "ActivityMedal/5044103",
+		activity_medal_name = "ステッカー：ダーバオとアーバオ",
+		id = 5044103,
+		activity_medal_desc = "可愛さ担当は働かない！"
+	},
+	[5044104] = {
+		prefab_node = "4",
+		next_medal = 0,
+		item = 65864,
+		remake_task_id = 0,
+		group = 50441,
+		task_id = 21905,
+		medal_asset = "ActivityMedal/5044104",
+		activity_medal_name = "ステッカー：品質モニタリング",
+		id = 5044104,
+		activity_medal_desc = "いつでもどこでもQC開始可能。あなたにこそ必要！"
+	},
+	[5044105] = {
+		prefab_node = "5",
+		next_medal = 0,
+		item = 65865,
+		remake_task_id = 0,
+		group = 50441,
+		task_id = 21906,
+		medal_asset = "ActivityMedal/5044105",
+		activity_medal_name = "ステッカー：鎮海のそろばん",
+		id = 5044105,
+		activity_medal_desc = "じゃらじゃらじゃら～お金が四方八方から流れ込んでくる♪"
+	},
+	[5044106] = {
+		prefab_node = "6",
+		next_medal = 0,
+		item = 65866,
+		remake_task_id = 0,
+		group = 50441,
+		task_id = 21907,
+		medal_asset = "ActivityMedal/5044106",
+		activity_medal_name = "ステッカー：看板湯包",
+		id = 5044106,
+		activity_medal_desc = "熱々だよ～やけどには気をつけて！"
+	},
+	[5044107] = {
+		prefab_node = "7",
+		next_medal = 0,
+		item = 65867,
+		remake_task_id = 0,
+		group = 50441,
+		task_id = 21908,
+		medal_asset = "ActivityMedal/5044107",
+		activity_medal_name = "ステッカー：迎春の扇子",
+		id = 5044107,
+		activity_medal_desc = "ひと度扇子を扇げば、春風が想いを運んでくれる"
+	},
+	[5044108] = {
+		prefab_node = "8",
+		next_medal = 0,
+		item = 65868,
+		remake_task_id = 0,
+		group = 50441,
+		task_id = 21909,
+		medal_asset = "ActivityMedal/5044108",
+		activity_medal_name = "ステッカー：如意灯籠",
+		id = 5044108,
+		activity_medal_desc = "一張り提灯を灯せば、庭に溢れる福が来たれり"
+	},
 	get_id_list_by_group = {
 		[5711] = {
 			571101,
@@ -1471,6 +1567,16 @@ pg.activity_medal_template = {
 			5040506,
 			5040507,
 			5040508
+		},
+		[50441] = {
+			5044101,
+			5044102,
+			5044103,
+			5044104,
+			5044105,
+			5044106,
+			5044107,
+			5044108
 		}
 	},
 	all = {
@@ -1584,6 +1690,14 @@ pg.activity_medal_template = {
 		5040505,
 		5040506,
 		5040507,
-		5040508
+		5040508,
+		5044101,
+		5044102,
+		5044103,
+		5044104,
+		5044105,
+		5044106,
+		5044107,
+		5044108
 	}
 }

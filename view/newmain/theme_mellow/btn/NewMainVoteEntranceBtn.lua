@@ -33,10 +33,10 @@ function var_0_0.AnyVoteActIsOpening(arg_5_0)
 end
 
 function var_0_0.IsShowTip(arg_6_0)
-	return arg_6_0:ShouldTipNewRace() or arg_6_0:ShouldTipVotes() or arg_6_0:ShouldTipAward() or arg_6_0:ShouldTipFinalAward()
+	return NewMainVoteEntranceBtn.ShouldTipNewRace() or NewMainVoteEntranceBtn.ShouldTipVotes() or NewMainVoteEntranceBtn.ShouldTipAward() or NewMainVoteEntranceBtn.ShouldTipFinalAward()
 end
 
-function var_0_0.ShouldTipFinalAward(arg_7_0)
+function var_0_0.ShouldTipFinalAward()
 	local var_7_0 = getProxy(ActivityProxy):getActivityById(ActivityConst.VOTE_ENTRANCE_ACT_ID)
 
 	if not var_7_0 or var_7_0:isEnd() then
@@ -49,7 +49,7 @@ function var_0_0.ShouldTipFinalAward(arg_7_0)
 	return var_7_2 and var_7_2:isFinish() and not var_7_2:isReceive()
 end
 
-function var_0_0.ShouldTipNewRace(arg_8_0)
+function var_0_0.ShouldTipNewRace()
 	local var_8_0 = getProxy(VoteProxy):GetVoteGroupList()
 	local var_8_1 = getProxy(PlayerProxy):getRawData().id
 
@@ -62,7 +62,7 @@ function var_0_0.ShouldTipNewRace(arg_8_0)
 	return false
 end
 
-function var_0_0.ShouldTipVotes(arg_9_0)
+function var_0_0.ShouldTipVotes()
 	local var_9_0 = getProxy(VoteProxy):GetVoteGroupList()
 
 	for iter_9_0, iter_9_1 in ipairs(var_9_0) do
@@ -74,7 +74,7 @@ function var_0_0.ShouldTipVotes(arg_9_0)
 	return false
 end
 
-function var_0_0.ShouldTipAward(arg_10_0)
+function var_0_0.ShouldTipAward()
 	return getProxy(VoteProxy):ExistPastVoteAward()
 end
 
@@ -84,7 +84,11 @@ function var_0_0.Hide(arg_11_0)
 	end
 end
 
-function var_0_0.Dispose(arg_12_0)
+function var_0_0.IsShowTip()
+	return NewMainVoteEntranceBtn.ShouldTipNewRace() or NewMainVoteEntranceBtn.ShouldTipVotes() or NewMainVoteEntranceBtn.ShouldTipAward() or NewMainVoteEntranceBtn.ShouldTipFinalAward()
+end
+
+function var_0_0.Dispose(arg_13_0)
 	return
 end
 

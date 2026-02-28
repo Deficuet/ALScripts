@@ -347,6 +347,11 @@ pg.task_meta_data_template = setmetatable({
 		100513,
 		100514,
 		100515,
+		100521,
+		100522,
+		100523,
+		100524,
+		100525,
 		200001,
 		200002,
 		200003,
@@ -514,7 +519,11 @@ pg.task_meta_data_template = setmetatable({
 		200421,
 		200422,
 		200423,
-		200424
+		200424,
+		200431,
+		200432,
+		200433,
+		200434
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3279,6 +3288,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100521] = {
+		target_id_2 = "970510",
+		sub_type = 180,
+		desc = "ガングート(META)を編成した艦隊で1回戦闘を勝利する",
+		id = 100521,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100522] = {
+		target_id_2 = "970510",
+		sub_type = 180,
+		desc = "ガングート(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		id = 100522,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100523] = {
+		target_id_2 = "970510",
+		sub_type = 180,
+		desc = "ガングート(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		id = 100523,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100524] = {
+		target_id_2 = "970510",
+		sub_type = 180,
+		desc = "ガングート(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		id = 100524,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100525] = {
+		target_id_2 = "970510",
+		sub_type = 180,
+		desc = "ガングート(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		id = 100525,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -4620,6 +4669,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "セイレーン作戦でカラビニエーレ(META)を含めた艦隊でLv100+の敵を撃破",
 		id = 200424,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200431] = {
+		target_id_2 = "970510",
+		sub_type = 302,
+		desc = "セイレーン作戦でガングート(META)を含めた艦隊で1回勝利する",
+		id = 200431,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200432] = {
+		target_id_2 = "970510",
+		sub_type = 302,
+		desc = "セイレーン作戦でガングート(META)を含めた艦隊でLv70+の敵を撃破",
+		id = 200432,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200433] = {
+		target_id_2 = "970510",
+		sub_type = 302,
+		desc = "セイレーン作戦でガングート(META)を含めた艦隊でLv90+の敵を撃破",
+		id = 200433,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200434] = {
+		target_id_2 = "970510",
+		sub_type = 302,
+		desc = "セイレーン作戦でガングート(META)を含めた艦隊でLv100+の敵を撃破",
+		id = 200434,
 		target_num = 1,
 		target_id = "100"
 	}

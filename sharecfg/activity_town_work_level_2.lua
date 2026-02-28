@@ -1,0 +1,1809 @@
+pg = pg or {}
+pg.activity_town_work_level_2 = {
+	{
+		group = 1,
+		name = "レストラン",
+		act_id = 50434,
+		type = 1,
+		type_param = 0,
+		id = 1,
+		pic = "jiulou_xiao",
+		desc = "高く掲げられた看板が目を引くレストラン。満足な味を提供する名所であるほか、歓談して節日を祝うのに絶好の場所でもある。 ",
+		town_level = 1,
+		level = 0,
+		upgrade = {
+			{
+				8,
+				66011,
+				1000
+			}
+		}
+	},
+	{
+		group = 1,
+		name = "レストラン",
+		act_id = 50434,
+		type = 1,
+		type_param = 100,
+		id = 2,
+		pic = "jiulou_xiao",
+		desc = "高く掲げられた看板が目を引くレストラン。満足な味を提供する名所であるほか、歓談して節日を祝うのに絶好の場所でもある。 ",
+		town_level = 2,
+		level = 1,
+		upgrade = {
+			{
+				8,
+				66011,
+				2000
+			}
+		}
+	},
+	{
+		group = 1,
+		name = "レストラン",
+		act_id = 50434,
+		type = 1,
+		type_param = 130,
+		id = 3,
+		pic = "jiulou_xiao",
+		desc = "高く掲げられた看板が目を引くレストラン。満足な味を提供する名所であるほか、歓談して節日を祝うのに絶好の場所でもある。 ",
+		town_level = 3,
+		level = 2,
+		upgrade = {
+			{
+				8,
+				66011,
+				5000
+			}
+		}
+	},
+	{
+		group = 1,
+		name = "レストラン",
+		act_id = 50434,
+		type = 1,
+		type_param = 170,
+		id = 4,
+		pic = "jiulou_xiao",
+		desc = "高く掲げられた看板が目を引くレストラン。満足な味を提供する名所であるほか、歓談して節日を祝うのに絶好の場所でもある。 ",
+		town_level = 4,
+		level = 3,
+		upgrade = {
+			{
+				8,
+				66011,
+				15000
+			}
+		}
+	},
+	{
+		group = 1,
+		name = "レストラン",
+		act_id = 50434,
+		type = 1,
+		type_param = 220,
+		id = 5,
+		pic = "jiulou_xiao",
+		desc = "高く掲げられた看板が目を引くレストラン。満足な味を提供する名所であるほか、歓談して節日を祝うのに絶好の場所でもある。 ",
+		town_level = 5,
+		level = 4,
+		upgrade = {
+			{
+				8,
+				66011,
+				50000
+			}
+		}
+	},
+	{
+		group = 1,
+		name = "レストラン",
+		act_id = 50434,
+		type = 1,
+		type_param = 285,
+		id = 6,
+		pic = "jiulou_xiao",
+		desc = "高く掲げられた看板が目を引くレストラン。満足な味を提供する名所であるほか、歓談して節日を祝うのに絶好の場所でもある。 ",
+		town_level = 6,
+		level = 5,
+		upgrade = {
+			{
+				8,
+				66011,
+				200000
+			},
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	},
+	{
+		group = 1,
+		name = "レストラン",
+		act_id = 50434,
+		type = 1,
+		type_param = 355,
+		id = 7,
+		pic = "jiulou_zhong",
+		desc = "高く掲げられた看板が目を引くレストラン。満足な味を提供する名所であるほか、歓談して節日を祝うのに絶好の場所でもある。 ",
+		town_level = 7,
+		level = 6,
+		upgrade = {
+			{
+				8,
+				66011,
+				800000
+			}
+		}
+	},
+	{
+		group = 1,
+		name = "レストラン",
+		act_id = 50434,
+		type = 1,
+		type_param = 445,
+		id = 8,
+		pic = "jiulou_zhong",
+		desc = "高く掲げられた看板が目を引くレストラン。満足な味を提供する名所であるほか、歓談して節日を祝うのに絶好の場所でもある。 ",
+		town_level = 8,
+		level = 7,
+		upgrade = {
+			{
+				8,
+				66011,
+				2000000
+			}
+		}
+	},
+	{
+		group = 1,
+		name = "レストラン",
+		act_id = 50434,
+		type = 1,
+		type_param = 555,
+		id = 9,
+		pic = "jiulou_zhong",
+		desc = "高く掲げられた看板が目を引くレストラン。満足な味を提供する名所であるほか、歓談して節日を祝うのに絶好の場所でもある。 ",
+		town_level = 9,
+		level = 8,
+		upgrade = {
+			{
+				8,
+				66011,
+				4000000
+			}
+		}
+	},
+	{
+		group = 1,
+		name = "レストラン",
+		act_id = 50434,
+		type = 1,
+		type_param = 695,
+		id = 10,
+		pic = "jiulou_zhong",
+		desc = "高く掲げられた看板が目を引くレストラン。満足な味を提供する名所であるほか、歓談して節日を祝うのに絶好の場所でもある。 ",
+		town_level = 10,
+		level = 9,
+		upgrade = {
+			{
+				8,
+				66011,
+				6000000
+			}
+		}
+	},
+	{
+		group = 1,
+		name = "レストラン",
+		act_id = 50434,
+		type = 1,
+		type_param = 870,
+		id = 11,
+		pic = "jiulou_zhong",
+		desc = "高く掲げられた看板が目を引くレストラン。満足な味を提供する名所であるほか、歓談して節日を祝うのに絶好の場所でもある。 ",
+		town_level = 11,
+		level = 10,
+		upgrade = {
+			{
+				8,
+				66011,
+				8000000
+			},
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	},
+	{
+		group = 1,
+		name = "レストラン",
+		act_id = 50434,
+		type = 1,
+		type_param = 1040,
+		id = 12,
+		pic = "jiulou_da",
+		desc = "高く掲げられた看板が目を引くレストラン。満足な味を提供する名所であるほか、歓談して節日を祝うのに絶好の場所でもある。 ",
+		town_level = 12,
+		level = 11,
+		upgrade = {
+			{
+				8,
+				66011,
+				10000000
+			}
+		}
+	},
+	{
+		group = 1,
+		name = "レストラン",
+		act_id = 50434,
+		type = 1,
+		type_param = 1250,
+		id = 13,
+		pic = "jiulou_da",
+		desc = "高く掲げられた看板が目を引くレストラン。満足な味を提供する名所であるほか、歓談して節日を祝うのに絶好の場所でもある。 ",
+		town_level = 13,
+		level = 12,
+		upgrade = {
+			{
+				8,
+				66011,
+				12000000
+			}
+		}
+	},
+	{
+		group = 1,
+		name = "レストラン",
+		act_id = 50434,
+		type = 1,
+		type_param = 1500,
+		id = 14,
+		pic = "jiulou_da",
+		desc = "高く掲げられた看板が目を引くレストラン。満足な味を提供する名所であるほか、歓談して節日を祝うのに絶好の場所でもある。 ",
+		town_level = 14,
+		level = 13,
+		upgrade = {
+			{
+				8,
+				66011,
+				14000000
+			}
+		}
+	},
+	{
+		group = 1,
+		name = "レストラン",
+		act_id = 50434,
+		type = 1,
+		type_param = 1750,
+		id = 15,
+		pic = "jiulou_da",
+		desc = "高く掲げられた看板が目を引くレストラン。満足な味を提供する名所であるほか、歓談して節日を祝うのに絶好の場所でもある。 ",
+		town_level = 15,
+		level = 14,
+		upgrade = {
+			{
+				8,
+				66011,
+				16000000
+			}
+		}
+	},
+	{
+		group = 1,
+		name = "レストラン",
+		act_id = 50434,
+		type = 1,
+		type_param = 2000,
+		id = 16,
+		pic = "jiulou_da",
+		desc = "高く掲げられた看板が目を引くレストラン。満足な味を提供する名所であるほか、歓談して節日を祝うのに絶好の場所でもある。 ",
+		town_level = 0,
+		level = 15,
+		upgrade = {}
+	},
+	[21] = {
+		group = 2,
+		name = "謎の倉庫 ",
+		act_id = 50434,
+		type = 2,
+		type_param = 20000,
+		id = 21,
+		pic = "cangku_xiao",
+		desc = "物資を保管するための倉庫。重厚な扉は常に固く閉ざされており、その内に別天地が隠されていることを知る者はほとんどいない…… ",
+		town_level = 1,
+		level = 1,
+		upgrade = {
+			{
+				8,
+				66011,
+				2000
+			}
+		}
+	},
+	[22] = {
+		group = 2,
+		name = "謎の倉庫 ",
+		act_id = 50434,
+		type = 2,
+		type_param = 50000,
+		id = 22,
+		pic = "cangku_xiao",
+		desc = "物資を保管するための倉庫。重厚な扉は常に固く閉ざされており、その内に別天地が隠されていることを知る者はほとんどいない…… ",
+		town_level = 2,
+		level = 2,
+		upgrade = {
+			{
+				8,
+				66011,
+				5000
+			}
+		}
+	},
+	[23] = {
+		group = 2,
+		name = "謎の倉庫 ",
+		act_id = 50434,
+		type = 2,
+		type_param = 150000,
+		id = 23,
+		pic = "cangku_xiao",
+		desc = "物資を保管するための倉庫。重厚な扉は常に固く閉ざされており、その内に別天地が隠されていることを知る者はほとんどいない…… ",
+		town_level = 3,
+		level = 3,
+		upgrade = {
+			{
+				8,
+				66011,
+				15000
+			}
+		}
+	},
+	[24] = {
+		group = 2,
+		name = "謎の倉庫 ",
+		act_id = 50434,
+		type = 2,
+		type_param = 500000,
+		id = 24,
+		pic = "cangku_xiao",
+		desc = "物資を保管するための倉庫。重厚な扉は常に固く閉ざされており、その内に別天地が隠されていることを知る者はほとんどいない…… ",
+		town_level = 4,
+		level = 4,
+		upgrade = {
+			{
+				8,
+				66011,
+				50000
+			}
+		}
+	},
+	[25] = {
+		group = 2,
+		name = "謎の倉庫 ",
+		act_id = 50434,
+		type = 2,
+		type_param = 2000000,
+		id = 25,
+		pic = "cangku_xiao",
+		desc = "物資を保管するための倉庫。重厚な扉は常に固く閉ざされており、その内に別天地が隠されていることを知る者はほとんどいない…… ",
+		town_level = 5,
+		level = 5,
+		upgrade = {
+			{
+				8,
+				66011,
+				200000
+			},
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	},
+	[26] = {
+		group = 2,
+		name = "謎の倉庫 ",
+		act_id = 50434,
+		type = 2,
+		type_param = 8000000,
+		id = 26,
+		pic = "cangku_zhong",
+		desc = "物資を保管するための倉庫。重厚な扉は常に固く閉ざされており、その内に別天地が隠されていることを知る者はほとんどいない…… ",
+		town_level = 6,
+		level = 6,
+		upgrade = {
+			{
+				8,
+				66011,
+				800000
+			}
+		}
+	},
+	[27] = {
+		group = 2,
+		name = "謎の倉庫 ",
+		act_id = 50434,
+		type = 2,
+		type_param = 20000000,
+		id = 27,
+		pic = "cangku_zhong",
+		desc = "物資を保管するための倉庫。重厚な扉は常に固く閉ざされており、その内に別天地が隠されていることを知る者はほとんどいない…… ",
+		town_level = 7,
+		level = 7,
+		upgrade = {
+			{
+				8,
+				66011,
+				2000000
+			}
+		}
+	},
+	[28] = {
+		group = 2,
+		name = "謎の倉庫 ",
+		act_id = 50434,
+		type = 2,
+		type_param = 40000000,
+		id = 28,
+		pic = "cangku_zhong",
+		desc = "物資を保管するための倉庫。重厚な扉は常に固く閉ざされており、その内に別天地が隠されていることを知る者はほとんどいない…… ",
+		town_level = 8,
+		level = 8,
+		upgrade = {
+			{
+				8,
+				66011,
+				4000000
+			}
+		}
+	},
+	[29] = {
+		group = 2,
+		name = "謎の倉庫 ",
+		act_id = 50434,
+		type = 2,
+		type_param = 100000000,
+		id = 29,
+		pic = "cangku_zhong",
+		desc = "物資を保管するための倉庫。重厚な扉は常に固く閉ざされており、その内に別天地が隠されていることを知る者はほとんどいない…… ",
+		town_level = 9,
+		level = 9,
+		upgrade = {
+			{
+				8,
+				66011,
+				6000000
+			}
+		}
+	},
+	[30] = {
+		group = 2,
+		name = "謎の倉庫 ",
+		act_id = 50434,
+		type = 2,
+		type_param = 200000000,
+		id = 30,
+		pic = "cangku_zhong",
+		desc = "物資を保管するための倉庫。重厚な扉は常に固く閉ざされており、その内に別天地が隠されていることを知る者はほとんどいない…… ",
+		town_level = 10,
+		level = 10,
+		upgrade = {
+			{
+				8,
+				66011,
+				8000000
+			},
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	},
+	[31] = {
+		group = 2,
+		name = "謎の倉庫 ",
+		act_id = 50434,
+		type = 2,
+		type_param = 400000000,
+		id = 31,
+		pic = "cangku_da",
+		desc = "物資を保管するための倉庫。重厚な扉は常に固く閉ざされており、その内に別天地が隠されていることを知る者はほとんどいない…… ",
+		town_level = 11,
+		level = 11,
+		upgrade = {
+			{
+				8,
+				66011,
+				10000000
+			}
+		}
+	},
+	[32] = {
+		group = 2,
+		name = "謎の倉庫 ",
+		act_id = 50434,
+		type = 2,
+		type_param = 800000000,
+		id = 32,
+		pic = "cangku_da",
+		desc = "物資を保管するための倉庫。重厚な扉は常に固く閉ざされており、その内に別天地が隠されていることを知る者はほとんどいない…… ",
+		town_level = 12,
+		level = 12,
+		upgrade = {
+			{
+				8,
+				66011,
+				12000000
+			}
+		}
+	},
+	[33] = {
+		group = 2,
+		name = "謎の倉庫 ",
+		act_id = 50434,
+		type = 2,
+		type_param = 1000000000,
+		id = 33,
+		pic = "cangku_da",
+		desc = "物資を保管するための倉庫。重厚な扉は常に固く閉ざされており、その内に別天地が隠されていることを知る者はほとんどいない…… ",
+		town_level = 13,
+		level = 13,
+		upgrade = {
+			{
+				8,
+				66011,
+				14000000
+			}
+		}
+	},
+	[34] = {
+		group = 2,
+		name = "謎の倉庫 ",
+		act_id = 50434,
+		type = 2,
+		type_param = 2000000000,
+		id = 34,
+		pic = "cangku_da",
+		desc = "物資を保管するための倉庫。重厚な扉は常に固く閉ざされており、その内に別天地が隠されていることを知る者はほとんどいない…… ",
+		town_level = 14,
+		level = 14,
+		upgrade = {
+			{
+				8,
+				66011,
+				16000000
+			}
+		}
+	},
+	[35] = {
+		group = 2,
+		name = "謎の倉庫 ",
+		act_id = 50434,
+		type = 2,
+		type_param = 3000000000,
+		id = 35,
+		pic = "cangku_da",
+		desc = "物資を保管するための倉庫。重厚な扉は常に固く閉ざされており、その内に別天地が隠されていることを知る者はほとんどいない…… ",
+		town_level = 0,
+		level = 15,
+		upgrade = {}
+	},
+	[36] = {
+		group = 3,
+		name = "客間 ",
+		act_id = 50434,
+		type = 3,
+		type_param = 0,
+		id = 36,
+		pic = "lvshe_xiao",
+		desc = "景色の趣に恵まれた憩いの場。客室には素朴な帳が静かに垂れ、灯火のぬくもりとともに安らぎと心地よさをもたらす。 ",
+		town_level = 1,
+		level = 0,
+		upgrade = {
+			{
+				8,
+				66011,
+				1500
+			}
+		}
+	},
+	[37] = {
+		group = 3,
+		name = "客間 ",
+		act_id = 50434,
+		type = 3,
+		type_param = 1,
+		id = 37,
+		pic = "lvshe_xiao",
+		desc = "景色の趣に恵まれた憩いの場。客室には素朴な帳が静かに垂れ、灯火のぬくもりとともに安らぎと心地よさをもたらす。 ",
+		town_level = 2,
+		level = 1,
+		upgrade = {
+			{
+				8,
+				66011,
+				5000
+			}
+		}
+	},
+	[38] = {
+		group = 3,
+		name = "客間 ",
+		act_id = 50434,
+		type = 3,
+		type_param = 2,
+		id = 38,
+		pic = "lvshe_xiao",
+		desc = "景色の趣に恵まれた憩いの場。客室には素朴な帳が静かに垂れ、灯火のぬくもりとともに安らぎと心地よさをもたらす。 ",
+		town_level = 3,
+		level = 2,
+		upgrade = {
+			{
+				8,
+				66011,
+				18000
+			}
+		}
+	},
+	[39] = {
+		group = 3,
+		name = "客間 ",
+		act_id = 50434,
+		type = 3,
+		type_param = 3,
+		id = 39,
+		pic = "lvshe_xiao",
+		desc = "景色の趣に恵まれた憩いの場。客室には素朴な帳が静かに垂れ、灯火のぬくもりとともに安らぎと心地よさをもたらす。 ",
+		town_level = 4,
+		level = 3,
+		upgrade = {
+			{
+				8,
+				66011,
+				60000
+			},
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	},
+	[40] = {
+		group = 3,
+		name = "客間 ",
+		act_id = 50434,
+		type = 3,
+		type_param = 4,
+		id = 40,
+		pic = "lvshe_zhong",
+		desc = "景色の趣に恵まれた憩いの場。客室には素朴な帳が静かに垂れ、灯火のぬくもりとともに安らぎと心地よさをもたらす。 ",
+		town_level = 5,
+		level = 4,
+		upgrade = {
+			{
+				8,
+				66011,
+				200000
+			}
+		}
+	},
+	[41] = {
+		group = 3,
+		name = "客間 ",
+		act_id = 50434,
+		type = 3,
+		type_param = 5,
+		id = 41,
+		pic = "lvshe_zhong",
+		desc = "景色の趣に恵まれた憩いの場。客室には素朴な帳が静かに垂れ、灯火のぬくもりとともに安らぎと心地よさをもたらす。 ",
+		town_level = 6,
+		level = 5,
+		upgrade = {
+			{
+				8,
+				66011,
+				600000
+			}
+		}
+	},
+	[42] = {
+		group = 3,
+		name = "客間 ",
+		act_id = 50434,
+		type = 3,
+		type_param = 6,
+		id = 42,
+		pic = "lvshe_zhong",
+		desc = "景色の趣に恵まれた憩いの場。客室には素朴な帳が静かに垂れ、灯火のぬくもりとともに安らぎと心地よさをもたらす。 ",
+		town_level = 7,
+		level = 6,
+		upgrade = {
+			{
+				8,
+				66011,
+				1800000
+			},
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	},
+	[43] = {
+		group = 3,
+		name = "客間 ",
+		act_id = 50434,
+		type = 3,
+		type_param = 7,
+		id = 43,
+		pic = "lvshe_da",
+		desc = "景色の趣に恵まれた憩いの場。客室には素朴な帳が静かに垂れ、灯火のぬくもりとともに安らぎと心地よさをもたらす。 ",
+		town_level = 8,
+		level = 7,
+		upgrade = {
+			{
+				8,
+				66011,
+				5000000
+			}
+		}
+	},
+	[44] = {
+		group = 3,
+		name = "客間 ",
+		act_id = 50434,
+		type = 3,
+		type_param = 8,
+		id = 44,
+		pic = "lvshe_da",
+		desc = "景色の趣に恵まれた憩いの場。客室には素朴な帳が静かに垂れ、灯火のぬくもりとともに安らぎと心地よさをもたらす。 ",
+		town_level = 9,
+		level = 8,
+		upgrade = {
+			{
+				8,
+				66011,
+				12000000
+			}
+		}
+	},
+	[45] = {
+		group = 3,
+		name = "客間 ",
+		act_id = 50434,
+		type = 3,
+		type_param = 9,
+		id = 45,
+		pic = "lvshe_da",
+		desc = "景色の趣に恵まれた憩いの場。客室には素朴な帳が静かに垂れ、灯火のぬくもりとともに安らぎと心地よさをもたらす。 ",
+		town_level = 0,
+		level = 9,
+		upgrade = {}
+	},
+	[51] = {
+		group = 4,
+		name = "水辺の東屋 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 0,
+		id = 51,
+		pic = "loutai_xiao",
+		desc = "池のほとりに建つ精巧な東屋。暇な折に訪れて四季折々の景色を眺めれば、格別な雅趣を味わえる。 ",
+		town_level = 1,
+		level = 0,
+		upgrade = {
+			{
+				8,
+				66011,
+				1000
+			}
+		}
+	},
+	[52] = {
+		group = 4,
+		name = "水辺の東屋 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 100,
+		id = 52,
+		pic = "loutai_xiao",
+		desc = "池のほとりに建つ精巧な東屋。暇な折に訪れて四季折々の景色を眺めれば、格別な雅趣を味わえる。 ",
+		town_level = 2,
+		level = 1,
+		upgrade = {
+			{
+				8,
+				66011,
+				2000
+			}
+		}
+	},
+	[53] = {
+		group = 4,
+		name = "水辺の東屋 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 130,
+		id = 53,
+		pic = "loutai_xiao",
+		desc = "池のほとりに建つ精巧な東屋。暇な折に訪れて四季折々の景色を眺めれば、格別な雅趣を味わえる。 ",
+		town_level = 3,
+		level = 2,
+		upgrade = {
+			{
+				8,
+				66011,
+				5000
+			}
+		}
+	},
+	[54] = {
+		group = 4,
+		name = "水辺の東屋 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 170,
+		id = 54,
+		pic = "loutai_xiao",
+		desc = "池のほとりに建つ精巧な東屋。暇な折に訪れて四季折々の景色を眺めれば、格別な雅趣を味わえる。 ",
+		town_level = 4,
+		level = 3,
+		upgrade = {
+			{
+				8,
+				66011,
+				15000
+			}
+		}
+	},
+	[55] = {
+		group = 4,
+		name = "水辺の東屋 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 220,
+		id = 55,
+		pic = "loutai_xiao",
+		desc = "池のほとりに建つ精巧な東屋。暇な折に訪れて四季折々の景色を眺めれば、格別な雅趣を味わえる。 ",
+		town_level = 5,
+		level = 4,
+		upgrade = {
+			{
+				8,
+				66011,
+				50000
+			}
+		}
+	},
+	[56] = {
+		group = 4,
+		name = "水辺の東屋 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 285,
+		id = 56,
+		pic = "loutai_xiao",
+		desc = "池のほとりに建つ精巧な東屋。暇な折に訪れて四季折々の景色を眺めれば、格別な雅趣を味わえる。 ",
+		town_level = 6,
+		level = 5,
+		upgrade = {
+			{
+				8,
+				66011,
+				200000
+			},
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	},
+	[57] = {
+		group = 4,
+		name = "水辺の東屋 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 355,
+		id = 57,
+		pic = "loutai_zhong",
+		desc = "池のほとりに建つ精巧な東屋。暇な折に訪れて四季折々の景色を眺めれば、格別な雅趣を味わえる。 ",
+		town_level = 7,
+		level = 6,
+		upgrade = {
+			{
+				8,
+				66011,
+				800000
+			}
+		}
+	},
+	[58] = {
+		group = 4,
+		name = "水辺の東屋 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 445,
+		id = 58,
+		pic = "loutai_zhong",
+		desc = "池のほとりに建つ精巧な東屋。暇な折に訪れて四季折々の景色を眺めれば、格別な雅趣を味わえる。 ",
+		town_level = 8,
+		level = 7,
+		upgrade = {
+			{
+				8,
+				66011,
+				2000000
+			}
+		}
+	},
+	[59] = {
+		group = 4,
+		name = "水辺の東屋 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 555,
+		id = 59,
+		pic = "loutai_zhong",
+		desc = "池のほとりに建つ精巧な東屋。暇な折に訪れて四季折々の景色を眺めれば、格別な雅趣を味わえる。 ",
+		town_level = 9,
+		level = 8,
+		upgrade = {
+			{
+				8,
+				66011,
+				4000000
+			}
+		}
+	},
+	[60] = {
+		group = 4,
+		name = "水辺の東屋 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 695,
+		id = 60,
+		pic = "loutai_zhong",
+		desc = "池のほとりに建つ精巧な東屋。暇な折に訪れて四季折々の景色を眺めれば、格別な雅趣を味わえる。 ",
+		town_level = 10,
+		level = 9,
+		upgrade = {
+			{
+				8,
+				66011,
+				6000000
+			}
+		}
+	},
+	[61] = {
+		group = 4,
+		name = "水辺の東屋 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 870,
+		id = 61,
+		pic = "loutai_zhong",
+		desc = "池のほとりに建つ精巧な東屋。暇な折に訪れて四季折々の景色を眺めれば、格別な雅趣を味わえる。 ",
+		town_level = 11,
+		level = 10,
+		upgrade = {
+			{
+				8,
+				66011,
+				8000000
+			},
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	},
+	[62] = {
+		group = 4,
+		name = "水辺の東屋 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 1040,
+		id = 62,
+		pic = "loutai_da",
+		desc = "池のほとりに建つ精巧な東屋。暇な折に訪れて四季折々の景色を眺めれば、格別な雅趣を味わえる。 ",
+		town_level = 12,
+		level = 11,
+		upgrade = {
+			{
+				8,
+				66011,
+				10000000
+			}
+		}
+	},
+	[63] = {
+		group = 4,
+		name = "水辺の東屋 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 1250,
+		id = 63,
+		pic = "loutai_da",
+		desc = "池のほとりに建つ精巧な東屋。暇な折に訪れて四季折々の景色を眺めれば、格別な雅趣を味わえる。 ",
+		town_level = 13,
+		level = 12,
+		upgrade = {
+			{
+				8,
+				66011,
+				12000000
+			}
+		}
+	},
+	[64] = {
+		group = 4,
+		name = "水辺の東屋 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 1500,
+		id = 64,
+		pic = "loutai_da",
+		desc = "池のほとりに建つ精巧な東屋。暇な折に訪れて四季折々の景色を眺めれば、格別な雅趣を味わえる。 ",
+		town_level = 14,
+		level = 13,
+		upgrade = {
+			{
+				8,
+				66011,
+				14000000
+			}
+		}
+	},
+	[65] = {
+		group = 4,
+		name = "水辺の東屋 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 1750,
+		id = 65,
+		pic = "loutai_da",
+		desc = "池のほとりに建つ精巧な東屋。暇な折に訪れて四季折々の景色を眺めれば、格別な雅趣を味わえる。 ",
+		town_level = 15,
+		level = 14,
+		upgrade = {
+			{
+				8,
+				66011,
+				16000000
+			}
+		}
+	},
+	[66] = {
+		group = 4,
+		name = "水辺の東屋 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 2000,
+		id = 66,
+		pic = "loutai_da",
+		desc = "池のほとりに建つ精巧な東屋。暇な折に訪れて四季折々の景色を眺めれば、格別な雅趣を味わえる。 ",
+		town_level = 0,
+		level = 15,
+		upgrade = {}
+	},
+	[71] = {
+		group = 5,
+		name = "池 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 0,
+		id = 71,
+		pic = "chitang_xiao",
+		desc = "広々として澄みきった池。風が柳の梢を撫でる季節には錦鯉が水面を跳ね、まるで橋を行き交う人影と戯れているようだ。 ",
+		town_level = 1,
+		level = 0,
+		upgrade = {
+			{
+				8,
+				66011,
+				1000
+			}
+		}
+	},
+	[72] = {
+		group = 5,
+		name = "池 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 100,
+		id = 72,
+		pic = "chitang_xiao",
+		desc = "広々として澄みきった池。風が柳の梢を撫でる季節には錦鯉が水面を跳ね、まるで橋を行き交う人影と戯れているようだ。 ",
+		town_level = 2,
+		level = 1,
+		upgrade = {
+			{
+				8,
+				66011,
+				2000
+			}
+		}
+	},
+	[73] = {
+		group = 5,
+		name = "池 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 130,
+		id = 73,
+		pic = "chitang_xiao",
+		desc = "広々として澄みきった池。風が柳の梢を撫でる季節には錦鯉が水面を跳ね、まるで橋を行き交う人影と戯れているようだ。 ",
+		town_level = 3,
+		level = 2,
+		upgrade = {
+			{
+				8,
+				66011,
+				5000
+			}
+		}
+	},
+	[74] = {
+		group = 5,
+		name = "池 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 170,
+		id = 74,
+		pic = "chitang_xiao",
+		desc = "広々として澄みきった池。風が柳の梢を撫でる季節には錦鯉が水面を跳ね、まるで橋を行き交う人影と戯れているようだ。 ",
+		town_level = 4,
+		level = 3,
+		upgrade = {
+			{
+				8,
+				66011,
+				15000
+			}
+		}
+	},
+	[75] = {
+		group = 5,
+		name = "池 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 220,
+		id = 75,
+		pic = "chitang_xiao",
+		desc = "広々として澄みきった池。風が柳の梢を撫でる季節には錦鯉が水面を跳ね、まるで橋を行き交う人影と戯れているようだ。 ",
+		town_level = 5,
+		level = 4,
+		upgrade = {
+			{
+				8,
+				66011,
+				50000
+			}
+		}
+	},
+	[76] = {
+		group = 5,
+		name = "池 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 285,
+		id = 76,
+		pic = "chitang_xiao",
+		desc = "広々として澄みきった池。風が柳の梢を撫でる季節には錦鯉が水面を跳ね、まるで橋を行き交う人影と戯れているようだ。 ",
+		town_level = 6,
+		level = 5,
+		upgrade = {
+			{
+				8,
+				66011,
+				200000
+			},
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	},
+	[77] = {
+		group = 5,
+		name = "池 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 355,
+		id = 77,
+		pic = "chitang_zhong",
+		desc = "広々として澄みきった池。風が柳の梢を撫でる季節には錦鯉が水面を跳ね、まるで橋を行き交う人影と戯れているようだ。 ",
+		town_level = 7,
+		level = 6,
+		upgrade = {
+			{
+				8,
+				66011,
+				800000
+			}
+		}
+	},
+	[78] = {
+		group = 5,
+		name = "池 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 445,
+		id = 78,
+		pic = "chitang_zhong",
+		desc = "広々として澄みきった池。風が柳の梢を撫でる季節には錦鯉が水面を跳ね、まるで橋を行き交う人影と戯れているようだ。 ",
+		town_level = 8,
+		level = 7,
+		upgrade = {
+			{
+				8,
+				66011,
+				2000000
+			}
+		}
+	},
+	[79] = {
+		group = 5,
+		name = "池 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 555,
+		id = 79,
+		pic = "chitang_zhong",
+		desc = "広々として澄みきった池。風が柳の梢を撫でる季節には錦鯉が水面を跳ね、まるで橋を行き交う人影と戯れているようだ。 ",
+		town_level = 9,
+		level = 8,
+		upgrade = {
+			{
+				8,
+				66011,
+				4000000
+			}
+		}
+	},
+	[80] = {
+		group = 5,
+		name = "池 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 695,
+		id = 80,
+		pic = "chitang_zhong",
+		desc = "広々として澄みきった池。風が柳の梢を撫でる季節には錦鯉が水面を跳ね、まるで橋を行き交う人影と戯れているようだ。 ",
+		town_level = 10,
+		level = 9,
+		upgrade = {
+			{
+				8,
+				66011,
+				6000000
+			}
+		}
+	},
+	[81] = {
+		group = 5,
+		name = "池 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 870,
+		id = 81,
+		pic = "chitang_zhong",
+		desc = "広々として澄みきった池。風が柳の梢を撫でる季節には錦鯉が水面を跳ね、まるで橋を行き交う人影と戯れているようだ。 ",
+		town_level = 11,
+		level = 10,
+		upgrade = {
+			{
+				8,
+				66011,
+				8000000
+			},
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	},
+	[82] = {
+		group = 5,
+		name = "池 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 1040,
+		id = 82,
+		pic = "chitang_da",
+		desc = "広々として澄みきった池。風が柳の梢を撫でる季節には錦鯉が水面を跳ね、まるで橋を行き交う人影と戯れているようだ。 ",
+		town_level = 12,
+		level = 11,
+		upgrade = {
+			{
+				8,
+				66011,
+				10000000
+			}
+		}
+	},
+	[83] = {
+		group = 5,
+		name = "池 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 1250,
+		id = 83,
+		pic = "chitang_da",
+		desc = "広々として澄みきった池。風が柳の梢を撫でる季節には錦鯉が水面を跳ね、まるで橋を行き交う人影と戯れているようだ。 ",
+		town_level = 13,
+		level = 12,
+		upgrade = {
+			{
+				8,
+				66011,
+				12000000
+			}
+		}
+	},
+	[84] = {
+		group = 5,
+		name = "池 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 1500,
+		id = 84,
+		pic = "chitang_da",
+		desc = "広々として澄みきった池。風が柳の梢を撫でる季節には錦鯉が水面を跳ね、まるで橋を行き交う人影と戯れているようだ。 ",
+		town_level = 14,
+		level = 13,
+		upgrade = {
+			{
+				8,
+				66011,
+				14000000
+			}
+		}
+	},
+	[85] = {
+		group = 5,
+		name = "池 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 1750,
+		id = 85,
+		pic = "chitang_da",
+		desc = "広々として澄みきった池。風が柳の梢を撫でる季節には錦鯉が水面を跳ね、まるで橋を行き交う人影と戯れているようだ。 ",
+		town_level = 15,
+		level = 14,
+		upgrade = {
+			{
+				8,
+				66011,
+				16000000
+			}
+		}
+	},
+	[86] = {
+		group = 5,
+		name = "池 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 2000,
+		id = 86,
+		pic = "chitang_da",
+		desc = "広々として澄みきった池。風が柳の梢を撫でる季節には錦鯉が水面を跳ね、まるで橋を行き交う人影と戯れているようだ。 ",
+		town_level = 0,
+		level = 15,
+		upgrade = {}
+	},
+	[91] = {
+		group = 6,
+		name = "庭園 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 0,
+		id = 91,
+		pic = "shulin_xiao",
+		desc = "丹念に造り込まれた庭園景観。奇岩の庭石と繁った草花が、趣深い情景を織りなしている。 ",
+		town_level = 1,
+		level = 0,
+		upgrade = {
+			{
+				8,
+				66011,
+				1000
+			}
+		}
+	},
+	[92] = {
+		group = 6,
+		name = "庭園 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 100,
+		id = 92,
+		pic = "shulin_xiao",
+		desc = "丹念に造り込まれた庭園景観。奇岩の庭石と繁った草花が、趣深い情景を織りなしている。 ",
+		town_level = 2,
+		level = 1,
+		upgrade = {
+			{
+				8,
+				66011,
+				2000
+			}
+		}
+	},
+	[93] = {
+		group = 6,
+		name = "庭園 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 130,
+		id = 93,
+		pic = "shulin_xiao",
+		desc = "丹念に造り込まれた庭園景観。奇岩の庭石と繁った草花が、趣深い情景を織りなしている。 ",
+		town_level = 3,
+		level = 2,
+		upgrade = {
+			{
+				8,
+				66011,
+				5000
+			}
+		}
+	},
+	[94] = {
+		group = 6,
+		name = "庭園 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 170,
+		id = 94,
+		pic = "shulin_xiao",
+		desc = "丹念に造り込まれた庭園景観。奇岩の庭石と繁った草花が、趣深い情景を織りなしている。 ",
+		town_level = 4,
+		level = 3,
+		upgrade = {
+			{
+				8,
+				66011,
+				15000
+			}
+		}
+	},
+	[95] = {
+		group = 6,
+		name = "庭園 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 220,
+		id = 95,
+		pic = "shulin_xiao",
+		desc = "丹念に造り込まれた庭園景観。奇岩の庭石と繁った草花が、趣深い情景を織りなしている。 ",
+		town_level = 5,
+		level = 4,
+		upgrade = {
+			{
+				8,
+				66011,
+				50000
+			}
+		}
+	},
+	[96] = {
+		group = 6,
+		name = "庭園 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 285,
+		id = 96,
+		pic = "shulin_xiao",
+		desc = "丹念に造り込まれた庭園景観。奇岩の庭石と繁った草花が、趣深い情景を織りなしている。 ",
+		town_level = 6,
+		level = 5,
+		upgrade = {
+			{
+				8,
+				66011,
+				200000
+			},
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	},
+	[97] = {
+		group = 6,
+		name = "庭園 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 355,
+		id = 97,
+		pic = "shulin_zhong",
+		desc = "丹念に造り込まれた庭園景観。奇岩の庭石と繁った草花が、趣深い情景を織りなしている。 ",
+		town_level = 7,
+		level = 6,
+		upgrade = {
+			{
+				8,
+				66011,
+				800000
+			}
+		}
+	},
+	[98] = {
+		group = 6,
+		name = "庭園 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 445,
+		id = 98,
+		pic = "shulin_zhong",
+		desc = "丹念に造り込まれた庭園景観。奇岩の庭石と繁った草花が、趣深い情景を織りなしている。 ",
+		town_level = 8,
+		level = 7,
+		upgrade = {
+			{
+				8,
+				66011,
+				2000000
+			}
+		}
+	},
+	[99] = {
+		group = 6,
+		name = "庭園 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 555,
+		id = 99,
+		pic = "shulin_zhong",
+		desc = "丹念に造り込まれた庭園景観。奇岩の庭石と繁った草花が、趣深い情景を織りなしている。 ",
+		town_level = 9,
+		level = 8,
+		upgrade = {
+			{
+				8,
+				66011,
+				4000000
+			}
+		}
+	},
+	[100] = {
+		group = 6,
+		name = "庭園 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 695,
+		id = 100,
+		pic = "shulin_zhong",
+		desc = "丹念に造り込まれた庭園景観。奇岩の庭石と繁った草花が、趣深い情景を織りなしている。 ",
+		town_level = 10,
+		level = 9,
+		upgrade = {
+			{
+				8,
+				66011,
+				6000000
+			}
+		}
+	},
+	[101] = {
+		group = 6,
+		name = "庭園 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 870,
+		id = 101,
+		pic = "shulin_zhong",
+		desc = "丹念に造り込まれた庭園景観。奇岩の庭石と繁った草花が、趣深い情景を織りなしている。 ",
+		town_level = 11,
+		level = 10,
+		upgrade = {
+			{
+				8,
+				66011,
+				8000000
+			},
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	},
+	[102] = {
+		group = 6,
+		name = "庭園 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 1040,
+		id = 102,
+		pic = "shulin_da",
+		desc = "丹念に造り込まれた庭園景観。奇岩の庭石と繁った草花が、趣深い情景を織りなしている。 ",
+		town_level = 12,
+		level = 11,
+		upgrade = {
+			{
+				8,
+				66011,
+				10000000
+			}
+		}
+	},
+	[103] = {
+		group = 6,
+		name = "庭園 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 1250,
+		id = 103,
+		pic = "shulin_da",
+		desc = "丹念に造り込まれた庭園景観。奇岩の庭石と繁った草花が、趣深い情景を織りなしている。 ",
+		town_level = 13,
+		level = 12,
+		upgrade = {
+			{
+				8,
+				66011,
+				12000000
+			}
+		}
+	},
+	[104] = {
+		group = 6,
+		name = "庭園 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 1500,
+		id = 104,
+		pic = "shulin_da",
+		desc = "丹念に造り込まれた庭園景観。奇岩の庭石と繁った草花が、趣深い情景を織りなしている。 ",
+		town_level = 14,
+		level = 13,
+		upgrade = {
+			{
+				8,
+				66011,
+				14000000
+			}
+		}
+	},
+	[105] = {
+		group = 6,
+		name = "庭園 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 1750,
+		id = 105,
+		pic = "shulin_da",
+		desc = "丹念に造り込まれた庭園景観。奇岩の庭石と繁った草花が、趣深い情景を織りなしている。 ",
+		town_level = 15,
+		level = 14,
+		upgrade = {
+			{
+				8,
+				66011,
+				16000000
+			}
+		}
+	},
+	[106] = {
+		group = 6,
+		name = "庭園 ",
+		act_id = 50434,
+		type = 1,
+		type_param = 2000,
+		id = 106,
+		pic = "shulin_da",
+		desc = "丹念に造り込まれた庭園景観。奇岩の庭石と繁った草花が、趣深い情景を織りなしている。 ",
+		town_level = 0,
+		level = 15,
+		upgrade = {}
+	},
+	all = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		14,
+		15,
+		16,
+		21,
+		22,
+		23,
+		24,
+		25,
+		26,
+		27,
+		28,
+		29,
+		30,
+		31,
+		32,
+		33,
+		34,
+		35,
+		36,
+		37,
+		38,
+		39,
+		40,
+		41,
+		42,
+		43,
+		44,
+		45,
+		51,
+		52,
+		53,
+		54,
+		55,
+		56,
+		57,
+		58,
+		59,
+		60,
+		61,
+		62,
+		63,
+		64,
+		65,
+		66,
+		71,
+		72,
+		73,
+		74,
+		75,
+		76,
+		77,
+		78,
+		79,
+		80,
+		81,
+		82,
+		83,
+		84,
+		85,
+		86,
+		91,
+		92,
+		93,
+		94,
+		95,
+		96,
+		97,
+		98,
+		99,
+		100,
+		101,
+		102,
+		103,
+		104,
+		105,
+		106
+	}
+}

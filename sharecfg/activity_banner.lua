@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					12
+					26
 				},
 				{
 					0,
@@ -25,7 +25,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					4
+					11
 				},
 				{
 					23,
@@ -38,16 +38,6 @@ pg.activity_banner = {
 	{
 		id = 2,
 		pic = "temp2",
-		time = "stop",
-		type = 2,
-		param = {
-			"scene skinshop",
-			{}
-		}
-	},
-	{
-		id = 3,
-		pic = "temp3",
 		type = 2,
 		param = {
 			"scene get boat",
@@ -61,7 +51,7 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					12
+					26
 				},
 				{
 					0,
@@ -72,8 +62,45 @@ pg.activity_banner = {
 			{
 				{
 					2026,
+					3,
+					12
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	},
+	{
+		id = 3,
+		pic = "temp3",
+		type = 2,
+		param = {
+			"scene core activity",
+			{
+				coreName = "MoscowURCoreActivityUI"
+			}
+		},
+		time = {
+			{
+				{
+					2026,
 					2,
 					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					12
 				},
 				{
 					16,
@@ -88,43 +115,6 @@ pg.activity_banner = {
 		pic = "temp4",
 		type = 2,
 		param = {
-			"scene core activity",
-			{
-				coreName = "SpringFestival2026CoreActivityUI"
-			}
-		},
-		time = {
-			{
-				{
-					2026,
-					2,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					2,
-					26
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
-		}
-	},
-	{
-		id = 5,
-		pic = "temp5",
-		type = 2,
-		param = {
 			"scene charge",
 			{
 				wrap = 4
@@ -135,7 +125,7 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					12
+					26
 				},
 				{
 					0,
@@ -146,20 +136,20 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					2,
-					26
+					3,
+					11
 				},
 				{
-					16,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
 	},
 	{
-		id = 6,
-		pic = "temp6",
+		id = 5,
+		pic = "temp5",
 		type = 2,
 		param = {
 			"scene shop",
@@ -172,7 +162,7 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					12
+					26
 				},
 				{
 					0,
@@ -183,19 +173,19 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					2,
-					26
+					3,
+					11
 				},
 				{
-					16,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
 	},
 	{
-		id = 7,
+		id = 6,
 		pic = "temp7",
 		type = 2,
 		param = {
@@ -229,18 +219,30 @@ pg.activity_banner = {
 		}
 	},
 	{
+		id = 7,
+		pic = "temp6",
+		time = "stop",
+		type = 2,
+		param = {
+			"dorm 3d select"
+		}
+	},
+	{
 		id = 8,
 		pic = "temp8",
 		type = 2,
 		param = {
-			"dorm 3d select"
+			"scene core activity",
+			{
+				coreName = "WinterFestival2025CoreActivityUI"
+			}
 		},
 		time = {
 			{
 				{
 					2026,
 					2,
-					12
+					26
 				},
 				{
 					0,
@@ -251,8 +253,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					2,
-					18
+					3,
+					11
 				},
 				{
 					23,
@@ -263,11 +265,38 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "50372",
-		time = "stop",
-		type = 3,
 		id = 9,
-		pic = "temp9"
+		pic = "temp9",
+		type = 2,
+		param = {
+			"LiquorFloor"
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					12
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
 	},
 	[90] = {
 		param = "",
@@ -300,7 +329,7 @@ pg.activity_banner = {
 				{
 					2026,
 					2,
-					12
+					26
 				},
 				{
 					0,
@@ -312,7 +341,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					4
+					11
 				},
 				{
 					23,
@@ -324,35 +353,10 @@ pg.activity_banner = {
 	},
 	[100] = {
 		param = "水餃子|東煌で有名な食べ物<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
-		id = 100,
-		pic = "dumpling",
+		time = "stop",
 		type = 10,
-		time = {
-			{
-				{
-					2026,
-					2,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					3,
-					12
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
-		}
+		id = 100,
+		pic = "dumpling"
 	},
 	[101] = {
 		param = "鏡餅|割ってから食べちゃうぞー<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
@@ -377,35 +381,10 @@ pg.activity_banner = {
 	},
 	[201] = {
 		param = "",
-		id = 201,
-		pic = "springfes",
+		time = "always",
 		type = 13,
-		time = {
-			{
-				{
-					2026,
-					2,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					3,
-					12
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
-		}
+		id = 201,
+		pic = "spring"
 	},
 	[202] = {
 		param = "",
@@ -423,9 +402,7 @@ pg.activity_banner = {
 			5,
 			6,
 			7,
-			8
-		},
-		[3] = {
+			8,
 			9
 		},
 		[9] = {

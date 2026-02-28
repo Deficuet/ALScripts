@@ -59,7 +59,7 @@ function var_0_0.HandleBulletHit(arg_6_0, arg_6_1, arg_6_2)
 
 	arg_6_1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_COLLIDE, var_6_0)
 
-	if arg_6_2:GetUnitType() == var_0_3.UnitType.PLAYER_UNIT and arg_6_2:GetIFF() == var_0_4.FRIENDLY_CODE then
+	if arg_6_2:GetUnitType() == var_0_3.UnitType.PLAYER_UNIT and arg_6_2:GetIFF() == var_0_4.FRIENDLY_CODE and not arg_6_1:IsSpectreBullet() then
 		ys.Battle.BattleCameraUtil.GetInstance():StartShake(pg.shake_template[var_0_3.ShakeType.HIT])
 	end
 
@@ -96,58 +96,63 @@ function var_0_0.HandleDamage(arg_7_0, arg_7_1, arg_7_2, arg_7_3, arg_7_4)
 
 	local var_7_11 = var_7_3.type
 	local var_7_12 = var_7_0:GetEquipmentIndex()
-	local var_7_13 = {
+	local var_7_13 = arg_7_1:IsSpectreBullet()
+
+	var_7_5 = var_7_13 and 0 or var_7_5
+
+	local var_7_14 = {
 		target = arg_7_2,
 		damage = var_7_5,
 		weaponType = var_7_11,
 		equipIndex = var_7_12,
 		bulletTag = var_7_2
 	}
-	local var_7_14 = {
+	local var_7_15 = {
 		isHeal = false,
 		isMiss = var_7_8,
 		isCri = var_7_9,
 		attr = var_7_10,
 		font = var_7_7,
 		cldPos = arg_7_1:GetPosition(),
-		srcID = var_7_1.hostUID or var_7_1.battleUID
+		srcID = var_7_1.hostUID or var_7_1.battleUID,
+		spectreBullet = var_7_13
 	}
 
 	arg_7_1:GetWeapon():WeaponStatistics(var_7_5, var_7_9, var_7_8)
 
-	local var_7_15 = arg_7_2:UpdateHP(var_7_5 * -1, var_7_14)
+	local var_7_16 = arg_7_2:UpdateHP(var_7_5 * -1, var_7_15)
 
-	arg_7_0:DamageStatistics(var_7_1.id, arg_7_2:GetAttrByName("id"), -var_7_15)
+	arg_7_0:DamageStatistics(var_7_1.id, arg_7_2:GetAttrByName("id"), -var_7_16)
 
 	if not var_7_8 and arg_7_1:GetWeaponTempData().type ~= var_0_3.EquipmentType.ANTI_AIR then
-		arg_7_1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_HIT, var_7_13)
+		arg_7_1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_HIT, var_7_14)
 
-		local var_7_16 = arg_7_1:GetHost()
+		local var_7_17 = arg_7_1:GetHost()
 
-		if var_7_16 and var_7_16:IsAlive() and var_7_16:GetUnitType() ~= ys.Battle.BattleConst.UnitType.AIRFIGHTER_UNIT then
-			if table.contains(var_0_3.AircraftUnitType, var_7_16:GetUnitType()) then
-				var_7_16 = var_7_16:GetMotherUnit()
+		if var_7_17 and var_7_17:IsAlive() and var_7_17:GetUnitType() ~= ys.Battle.BattleConst.UnitType.AIRFIGHTER_UNIT then
+			if table.contains(var_0_3.AircraftUnitType, var_7_17:GetUnitType()) then
+				var_7_17 = var_7_17:GetMotherUnit()
 			end
 
-			local var_7_17 = var_7_16:GetIFF()
+			local var_7_18 = var_7_17:GetIFF()
 
 			for iter_7_0, iter_7_1 in pairs(arg_7_0._unitList) do
-				if iter_7_1:GetIFF() == var_7_17 and iter_7_1 ~= var_7_16 then
-					iter_7_1:TriggerBuff(ys.Battle.BattleConst.BuffEffectType.ON_TEAMMATE_BULLET_HIT, var_7_13)
+				if iter_7_1:GetIFF() == var_7_18 and iter_7_1 ~= var_7_17 then
+					iter_7_1:TriggerBuff(ys.Battle.BattleConst.BuffEffectType.ON_TEAMMATE_BULLET_HIT, var_7_14)
 				end
 			end
 		end
 	end
 
-	local var_7_18 = arg_7_2:GetUnitType()
-	local var_7_19 = true
+	local var_7_19 = arg_7_2:GetUnitType()
+	local var_7_20 = true
 
-	if var_7_18 ~= var_0_3.UnitType.AIRCRAFT_UNIT and var_7_18 ~= var_0_3.UnitType.AIRFIGHTER_UNIT and var_7_18 ~= var_0_3.UnitType.FUNNEL_UNIT and var_7_18 ~= var_0_3.UnitType.UAV_UNIT then
-		var_7_19 = false
+	if var_7_19 ~= var_0_3.UnitType.AIRCRAFT_UNIT and var_7_19 ~= var_0_3.UnitType.AIRFIGHTER_UNIT and var_7_19 ~= var_0_3.UnitType.FUNNEL_UNIT and var_7_19 ~= var_0_3.UnitType.UAV_UNIT then
+		var_7_20 = false
 	end
 
 	if arg_7_2:IsAlive() then
-		if not var_7_19 then
+		if not var_7_20 then
 			for iter_7_2, iter_7_3 in ipairs(arg_7_1:GetAttachBuff()) do
 				if iter_7_3.hit_ignore or not var_7_8 then
 					var_0_0.HandleBuffPlacer(iter_7_3, arg_7_1, arg_7_2)
@@ -163,7 +168,7 @@ function var_0_0.HandleDamage(arg_7_0, arg_7_1, arg_7_2, arg_7_3, arg_7_4)
 			unit = arg_7_2,
 			killer = arg_7_1
 		})
-		arg_7_0:obituary(arg_7_2, var_7_19, arg_7_1)
+		arg_7_0:obituary(arg_7_2, var_7_20, arg_7_1)
 		arg_7_0:KillCountStatistics(var_7_1.id, arg_7_2:GetAttrByName("id"))
 	end
 

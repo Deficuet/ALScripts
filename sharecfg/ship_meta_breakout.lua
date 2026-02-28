@@ -166,6 +166,10 @@ pg.ship_meta_breakout = setmetatable({
 		9705092,
 		9705093,
 		9705094,
+		9705101,
+		9705102,
+		9705103,
+		9705104,
 		9706011,
 		9706012,
 		9706013,
@@ -873,7 +877,7 @@ pg.base.ship_meta_breakout = {
 		item1 = 21056,
 		pre_id = 0,
 		weapon_ids = {
-			80581
+			80583
 		}
 	},
 	[9701112] = {
@@ -906,7 +910,7 @@ pg.base.ship_meta_breakout = {
 		item1 = 21056,
 		pre_id = 9701112,
 		weapon_ids = {
-			80582
+			80584
 		}
 	},
 	[9701114] = {
@@ -2864,6 +2868,73 @@ pg.base.ship_meta_breakout = {
 		id = 9705094,
 		item1 = 21046,
 		pre_id = 9705093,
+		weapon_ids = {}
+	},
+	[9705101] = {
+		breakout_view = "【焔追の灰-ガングート】習得/主砲砲座+1/主砲補正+5％",
+		gold = 1000,
+		breakout_id = 9705102,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9705101,
+		item1 = 21057,
+		pre_id = 0,
+		weapon_ids = {
+			85420,
+			85420
+		}
+	},
+	[9705102] = {
+		breakout_view = "副砲砲座+2/主砲補正+10％",
+		gold = 3000,
+		breakout_id = 9705103,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9705102,
+		item1 = 21057,
+		pre_id = 9705101,
+		weapon_ids = {
+			101,
+			101,
+			101
+		}
+	},
+	[9705103] = {
+		breakout_view = "【焔追の灰-ガングート】強化/主砲砲座+1/主砲補正+15％",
+		gold = 10000,
+		breakout_id = 9705104,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9705103,
+		item1 = 21057,
+		pre_id = 9705102,
+		weapon_ids = {
+			85420,
+			85420,
+			85420
+		}
+	},
+	[9705104] = {
+		breakout_view = "なし",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9705104,
+		item1 = 21057,
+		pre_id = 9705103,
 		weapon_ids = {}
 	},
 	[9706011] = {

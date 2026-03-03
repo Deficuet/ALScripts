@@ -360,6 +360,10 @@ pg.strategy_data_template = setmetatable({
 		201651,
 		201654,
 		201655,
+		201701,
+		201705,
+		201706,
+		201707,
 		205001,
 		205002,
 		205003,
@@ -4370,6 +4374,50 @@ pg.base.strategy_data_template = {
 		icon = "200908",
 		buff_type = 0,
 		desc = "The boss mimics 3 different types of enemies depending on what the boss' current HP is (<color=#92fc63>above 71%, below 70%, and below 40%</color>). The boss takes <color=#92fc63>50% less DMG</color> while in a mimic state.\nWhile in a mimic state, the boss' max HP is fixed. <color=#92fc63>When their HP is reduced to 0, the mimic state is dispelled, and then they regain it after 8s.</color>\nAdditionally, while in a mimic state, the boss' Armor Type becomes Heavy Armor; while not in this state, it becomes Light Armor.\n\n- Hard Mode Details -\nEnemies <color=#ffc038>deal significantly more DMG.</color> Their large shells cannot be negated by shields or by launching an airstrike.\n<color=#92fc63>Your Vanguard's hitbox is substantially smaller than usual, and only the frontmost ship in your Vanguard possesses a hitbox.</color>\nYour ships become briefly invulnerable after taking DMG.\n\n· The skills \"Operation Rainbow,\" \"Fiercer When Cornered,\" and \"Eleventh Hour\" are rendered ineffective.",
+		arg = {}
+	},
+	[201701] = {
+		buff_id = 201701,
+		name = "Riches Abound",
+		iconSize = "",
+		type = 10,
+		id = 201701,
+		icon = "201701",
+		buff_type = 0,
+		desc = "During battle, you receive supporting barrages with a sycee design.",
+		arg = {}
+	},
+	[201705] = {
+		buff_id = 201705,
+		name = "Glowing Dishes!",
+		iconSize = "",
+		type = 10,
+		id = 201705,
+		icon = "201705",
+		buff_type = 0,
+		desc = "During battle, you receive the effects of one of three random dishes:\n1. When the battle starts: all your ships recover 1.0% of their max HP;\n2. When the battle starts: increases all your ships' SPD by 10.0% and DMG dealt by 3.0% for 30s;\n3. Your Vanguard starts glowing brilliantly.",
+		arg = {}
+	},
+	[201706] = {
+		buff_id = 0,
+		name = "Challenge Mode",
+		iconSize = "",
+		type = 10,
+		id = 201706,
+		icon = "200908",
+		buff_type = 0,
+		desc = "During battle, the boss fires large amounts of Go stones which cannot be destroyed.\nWhite Go stones inflict heavy DMG against ships with Light Armor, while black Go stones inflict heavy DMG against ships with Medium and Heavy Armor.",
+		arg = {}
+	},
+	[201707] = {
+		buff_id = 0,
+		name = "Challenge Mode",
+		iconSize = "",
+		type = 10,
+		id = 201707,
+		icon = "200908",
+		buff_type = 0,
+		desc = "During battle, the boss fires large amounts of Go stones which cannot be destroyed.\nWhen one of your ships touches a Go stone, <color=#92fc63>she is inflicted with the Color Marking status</color> if she does not already have it; <color=#92fc63>if the Color Marking status she has is of a different color to the Go stone she touched,</color> her Color Marking status will change to match that Go stone's color; <color=#92fc63>if her Color Marking status is of the same color as the Go stone</color>, she will take <color=#ffc038>extremely high fixed DMG</color>. This fixed DMG can be taken once every 0.5 seconds.\nWhen your fleet launches an airstrike, all Color Marking statuses are removed.\n\n- Hard Mode Details -\nEnemies <color=#ffc038>deal significantly more DMG.</color> Their large shells cannot be negated by shields or by launching an airstrike.\n<color=#92fc63>Your Vanguard's hitbox is substantially smaller than usual, and only the frontmost ship in your Vanguard possesses a hitbox.</color>\nYour ships become briefly invulnerable after taking DMG.\n\n· The skills \"Operation Rainbow,\" \"Fiercer When Cornered,\" and \"Eleventh Hour\" are rendered ineffective.",
 		arg = {}
 	},
 	[205001] = {

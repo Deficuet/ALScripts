@@ -5054,3 +5054,13 @@ function addSubLayer(arg_367_0, arg_367_1, arg_367_2, arg_367_3, arg_367_4)
 
 	pg.m02:sendNotification(GAME.LOAD_LAYERS, var_367_0)
 end
+
+function PackIntToString(arg_368_0, arg_368_1)
+	return tostring(arg_368_0) .. "," .. tostring(arg_368_1)
+end
+
+function UnpackIntFromString(arg_369_0)
+	local var_369_0, var_369_1 = string.match(arg_369_0, "(%-?%d+),(%-?%d+)")
+
+	return tonumber(var_369_0), tonumber(var_369_1)
+end

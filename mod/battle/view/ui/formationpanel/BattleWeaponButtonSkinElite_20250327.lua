@@ -56,9 +56,9 @@ function var_0_1.SetToCombatUIPreview(arg_4_0, arg_4_1)
 		arg_4_0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = 0
 		arg_4_0._countTxt.text = "1/1"
 
-		if arg_4_0._chargeEff then
-			SetActive(arg_4_0._chargeEff, true)
-			SetActive(arg_4_0._fullChargeEff, true)
+		if arg_4_0._gizmos1 then
+			SetActive(arg_4_0._gizmos1, true)
+			SetActive(arg_4_0._gizmosXue, true)
 		end
 
 		SetActive(arg_4_0._glowEff, true)
@@ -73,9 +73,9 @@ function var_0_1.SetToCombatUIPreview(arg_4_0, arg_4_1)
 
 		SetActive(arg_4_0._glowEff, false)
 
-		if arg_4_0._chargeEff then
-			SetActive(arg_4_0._chargeEff, false)
-			SetActive(arg_4_0._fullChargeEff, false)
+		if arg_4_0._gizmos1 then
+			SetActive(arg_4_0._gizmos1, false)
+			SetActive(arg_4_0._gizmosXue, false)
 		end
 	end
 end

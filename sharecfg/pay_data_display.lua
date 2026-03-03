@@ -85,6 +85,8 @@ pg.pay_data_display = setmetatable({
 		9010,
 		9011,
 		9012,
+		9013,
+		9014,
 		100,
 		101,
 		102,
@@ -242,6 +244,9 @@ pg.pay_data_display = setmetatable({
 		2069,
 		2070,
 		2071,
+		2074,
+		2075,
+		2076,
 		5011,
 		5012,
 		5013,
@@ -10369,6 +10374,274 @@ pg.base.pay_data_display = {
 			{
 				2,
 				86210,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
+	[9013] = {
+		limit_group = 0,
+		name = "Spring Lucky Box 2026 B",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
+		type = 1,
+		second_text = "Many Rewards",
+		type_order = 2,
+		subject = "Spring Lucky Box 2026 B",
+		first_text = "Random Skin & Abundant Gems",
+		limit_arg = 1,
+		tip = "",
+		money = 2999,
+		tip_open = 0,
+		tag = 2,
+		id = 9013,
+		gem = 0,
+		name_display = "Spring Lucky Box 2026 B",
+		package_sort_id = 0,
+		limit_type = 2,
+		akashi_pick = 1,
+		extra_service = 3,
+		package_tag = "",
+		picture = "fudai33",
+		show_group = "",
+		skin_inquire_relation = 86225,
+		package_tag_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag81",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "Contains a skin, Gems x2026, and more.",
+		airijp_id = "com.yostaren.azurlane.luckybag81",
+		extra_service_item = {
+			{
+				2,
+				86225,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81233,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86225,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			}
+		}
+	},
+	[9014] = {
+		limit_group = 0,
+		name = "Spring Lucky Box 2025 B Rerun",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
+		type = 1,
+		second_text = "Many Rewards",
+		type_order = 2,
+		subject = "Spring Lucky Box 2025 B Rerun",
+		first_text = "Random Skin & Abundant Gems",
+		limit_arg = 1,
+		tip = "",
+		money = 2999,
+		tip_open = 0,
+		tag = 2,
+		id = 9014,
+		gem = 0,
+		name_display = "Spring Lucky Box 2025 B Rerun",
+		package_sort_id = 0,
+		limit_type = 2,
+		akashi_pick = 1,
+		extra_service = 3,
+		package_tag = "",
+		picture = "fudai22",
+		show_group = "",
+		skin_inquire_relation = 86211,
+		package_tag_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag82",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "Contains a skin, Gems x2025, and more.",
+		airijp_id = "com.yostaren.azurlane.luckybag82",
+		extra_service_item = {
+			{
+				2,
+				86211,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81211,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86211,
 				1
 			},
 			{
@@ -26231,6 +26504,269 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40076,
+				1
+			}
+		}
+	},
+	[2074] = {
+		limit_group = 108,
+		name = "Battle UI Pack - Springtide Inn",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		second_text = "",
+		type_order = 4,
+		subject = "Battle UI Pack - Springtide Inn",
+		first_text = "",
+		first_icon = "",
+		limit_arg = 0,
+		money = 1199,
+		tip = "",
+		tag = 2,
+		tip_open = 0,
+		gem = 0,
+		id = 2074,
+		name_display = "Battle UI Pack - Springtide Inn",
+		limit_type = 5,
+		package_sort_id = 0,
+		akashi_pick = 1,
+		package_tag = "",
+		picture = "ui8",
+		extra_service = 3,
+		skin_inquire_relation = 0,
+		show_group = "uigift",
+		id_str = "com.yostaren.azurlane.pack38",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "Contains a new combat UI theme.",
+		package_tag_open = 0,
+		airijp_id = "com.yostaren.azurlane.pack38",
+		extra_service_item = {
+			{
+				31,
+				207,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				207,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2075] = {
+		limit_group = 108,
+		name = "Battle UI Pack – Springtide Inn (Basic)",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		second_text = "",
+		type_order = 4,
+		subject = "Battle UI Pack – Springtide Inn (Basic)",
+		first_text = "",
+		first_icon = "",
+		limit_arg = 1,
+		money = 1199,
+		tip = "",
+		tag = 2,
+		tip_open = 0,
+		gem = 0,
+		id = 2075,
+		name_display = "Battle UI Pack – Springtide Inn (Basic)",
+		limit_type = 5,
+		package_sort_id = 0,
+		akashi_pick = 1,
+		package_tag = "",
+		picture = "ui8",
+		extra_service = 3,
+		skin_inquire_relation = 0,
+		show_group = "uigift",
+		id_str = "com.yostaren.azurlane.pack38",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "Contains the Battle UI - Springtide Inn theme and 1,000 Coins.",
+		package_tag_open = 0,
+		airijp_id = "com.yostaren.azurlane.pack38",
+		extra_service_item = {
+			{
+				31,
+				207,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				207,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40077,
+				1
+			}
+		}
+	},
+	[2076] = {
+		limit_group = 108,
+		name = "Battle UI Pack – Springtide Inn (Premium)",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		second_text = "",
+		type_order = 4,
+		subject = "Battle UI Pack – Springtide Inn (Premium)",
+		first_text = "",
+		first_icon = "",
+		limit_arg = 1,
+		money = 3699,
+		tip = "",
+		tag = 2,
+		tip_open = 0,
+		gem = 0,
+		id = 2076,
+		name_display = "Battle UI Pack – Springtide Inn (Premium)",
+		limit_type = 5,
+		package_sort_id = 0,
+		akashi_pick = 1,
+		package_tag = "",
+		picture = "ui8",
+		extra_service = 3,
+		skin_inquire_relation = 0,
+		show_group = "uigift",
+		id_str = "com.yostaren.azurlane.pack39",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "Contains the Battle UI - Springtide Inn theme and 3,060 Gems.",
+		package_tag_open = 0,
+		airijp_id = "com.yostaren.azurlane.pack39",
+		extra_service_item = {
+			{
+				31,
+				207,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					2,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				207,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40078,
 				1
 			}
 		}

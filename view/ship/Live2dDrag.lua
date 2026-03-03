@@ -216,7 +216,7 @@ function var_0_0.onListenerTrigger(arg_3_0, arg_3_1, arg_3_2)
 			arg_3_0.nextTriggerTime = arg_3_0.limitTime
 		end
 	elseif arg_3_1 == Live2D.ON_ACTION_PLAY then
-		arg_3_0.nextTriggerTime = arg_3_0.limitTime
+		arg_3_0.nextTriggerTime = arg_3_0.limitTime <= 1 and arg_3_0.limitTime or 1
 	end
 end
 
@@ -932,12 +932,18 @@ function var_0_0.updateRelationValue(arg_46_0)
 		else
 			local var_46_8 = arg_46_0:fixRelationParameter(var_46_4, var_46_0)
 			local var_46_9 = iter_46_1.value or arg_46_0.startValue
-			local var_46_10 = iter_46_1.parameterSmooth or 0
-			local var_46_11 = var_46_0.smooth and var_46_0.smooth / 1000 or arg_46_0.smooth
 
-			var_46_6, var_46_7 = Mathf.SmoothDamp(var_46_9, var_46_8, var_46_10, var_46_11)
+			if math.abs(var_46_8 - var_46_9) <= 0.01 then
+				var_46_6 = var_46_8
+			else
+				local var_46_10 = iter_46_1.parameterSmooth or 0
+				local var_46_11 = var_46_0.smooth and var_46_0.smooth / 1000 or arg_46_0.smooth
+
+				var_46_6, var_46_7 = Mathf.SmoothDamp(var_46_9, var_46_8, var_46_10, var_46_11)
+			end
 		end
 
+		iter_46_1.target = var_46_4
 		iter_46_1.value = var_46_6
 		iter_46_1.parameterSmooth = var_46_7
 		iter_46_1.enable = var_46_5
@@ -1083,7 +1089,7 @@ function var_0_0.updateTrigger(arg_52_0)
 				print("获取到数值 " .. var_52_4 .. " = " .. arg_55_0)
 
 				if arg_55_0 >= var_52_5[1] and arg_55_0 < var_52_5[2] then
-					print("数值范围内，开始触发")
+					print("数值范围内，开始触发动作  = " .. tostring(arg_52_0.id))
 					arg_52_0:onEventCallback(Live2D.EVENT_ACTION_APPLY, nil, function(arg_56_0)
 						arg_52_0:onEventNotice(Live2D.ON_ACTION_DRAG_CLICK)
 					end)
@@ -1470,29 +1476,23 @@ function var_0_0.checkClickAction(arg_79_0)
 		if not arg_79_0.actionTrigger.down and var_79_0 and var_79_1 then
 			if arg_79_0.actionTrigger.focus == 1 and arg_79_0.l2dIsPlaying then
 				if arg_79_0.l2dPlayActionName == arg_79_0.actionTrigger.action then
-					arg_79_0.clickTriggerTime = 0.01
-					arg_79_0.clickApplyFlag = true
+					arg_79_0.clickTriggerTime = Time.realtimeSinceStartup + 0.1
 				end
 			elseif not arg_79_0.l2dIsPlaying then
-				arg_79_0.clickTriggerTime = 0.01
-				arg_79_0.clickApplyFlag = true
+				arg_79_0.clickTriggerTime = Time.realtimeSinceStartup + 0.1
 			end
 		else
 			arg_79_0:setAbleWithFlag(false)
 		end
-	elseif arg_79_0.clickTriggerTime and arg_79_0.clickTriggerTime > 0 then
-		arg_79_0.clickTriggerTime = arg_79_0.clickTriggerTime - Time.deltaTime
+	elseif arg_79_0.clickTriggerTime and arg_79_0.clickTriggerTime > 0 and Time.realtimeSinceStartup >= arg_79_0.clickTriggerTime then
+		arg_79_0:setAbleWithFlag(false)
 
-		if arg_79_0.clickTriggerTime <= 0 then
+		if Time.realtimeSinceStartup - arg_79_0.clickTriggerTime <= 0.1 then
+			print("点击成功" .. arg_79_0.id)
+
 			arg_79_0.clickTriggerTime = nil
 
-			arg_79_0:setAbleWithFlag(false)
-
-			if arg_79_0.clickApplyFlag then
-				arg_79_0.clickApplyFlag = false
-
-				return true
-			end
+			return true
 		end
 	end
 

@@ -37,7 +37,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0.skillUnuse = arg_1_0.iconsTF:Find("skill/skill_dark")
 end
 
-function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2, arg_2_3, arg_2_4)
+function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2, arg_2_3, arg_2_4, arg_2_5)
 	arg_2_0.ship = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_2_1)
 	arg_2_0.id = arg_2_1
 	arg_2_0.attrType = arg_2_2
@@ -73,12 +73,26 @@ function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2, arg_2_3, arg_2_4)
 
 	setSlider(arg_2_0.energySliderTF, 0, 1, var_2_6 / var_2_7)
 	setText(arg_2_0.energyTF, var_2_6 .. "/" .. var_2_7)
-	setActive(arg_2_0.workingMaskTF, arg_2_0.ship:GetState() ~= IslandShip.STATE_NORMAL)
+	setActive(arg_2_0.workingMaskTF, not arg_2_0.ship:IsDelegable())
 
-	local var_2_8 = arg_2_0.ship:GetSkill():IsEffectiveInPlace(arg_2_0.buildingId)
+	if arg_2_5 then
+		local var_2_8 = false
 
-	setActive(arg_2_0.skillInuse, var_2_8)
-	setActive(arg_2_0.skillUnuse, not var_2_8)
+		for iter_2_2, iter_2_3 in pairs(arg_2_5) do
+			if arg_2_0.id == iter_2_3 then
+				var_2_8 = true
+			end
+		end
+
+		if var_2_8 then
+			setActive(arg_2_0.workingMaskTF, true)
+		end
+	end
+
+	local var_2_9 = arg_2_0.ship:GetSkill():IsEffectiveInPlace(arg_2_0.buildingId)
+
+	setActive(arg_2_0.skillInuse, var_2_9)
+	setActive(arg_2_0.skillUnuse, not var_2_9)
 end
 
 function var_0_0.UpdateSelected(arg_3_0, arg_3_1)

@@ -860,6 +860,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.LiquorFloor_character_unlock = {
+		tip = "Unlocks at Lv. $1"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.word_soundfiles_update_end = {
 		tip = "Update complete!"
 	}
@@ -1654,6 +1660,12 @@ end)()
 (function()
 	_G.pg.base.gametip.clue_got = {
 		tip = "Claimed"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.LiquorFloor_story_title = {
+		tip = "Inn Story"
 	}
 end)()
 
@@ -2734,7 +2746,7 @@ end)()
 
 (function()
 	_G.pg.base.gametip.shop_street_activity_tip = {
-		tip = "※<color=#2E852C>Gear Skins</color> are purchasable during(<color=#2E852C>$1</COLOR>)!"
+		tip = "Gear Skin Box (Spring Festival Auction) & (Spring Auspices) are purchasable during (<color=#539b2c>02.12-03.04</COLOR>)\nGear Skin Box (Springtide Inn) are purchasable during (<color=#539b2c>02.26-03.11</COLOR>)"
 	}
 end)()
 
@@ -3683,6 +3695,12 @@ end)()
 (function()
 	_G.pg.base.gametip.island_search = {
 		tip = "Search"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.LiquorFloorTaskUI_title = {
+		tip = "Business Missions"
 	}
 end)()
 
@@ -7802,8 +7820,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.spring_present_tips3 = {
+		tip = "A gift has been sent to your mailbox!"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.attribute_range = {
 		tip = "Range"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spring_present_tips1 = {
+		tip = "The leftmost secretary shipgirl in your list will send a message to your mailbox. Continue?"
 	}
 end)()
 
@@ -7814,8 +7844,26 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.spring_present_tips0 = {
+		tip = "Please disable the Random Secretary feature and try again."
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.island_manage_sp_event = {
 		tip = "Business Event"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_tip_skin = {
+		tip = "Seasonal Missions"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spring_present_tips_btn = {
+		tip = "New Year's Warmth"
 	}
 end)()
 
@@ -7854,6 +7902,52 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.loveactivity_help_tips = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/love_help_1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/love_help_2",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/love_help_3",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/love_help_4",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.pay_cancel = {
 		tip = "Cancel Payment"
 	}
@@ -7862,6 +7956,12 @@ end)()
 (function()
 	_G.pg.base.gametip.battle_resourceSiteLayer_endError_notStar = {
 		tip = "Harvesting not yet begun."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["2023spring_minigame_nenjuu_skill7"] = {
+		tip = "Black Hole|A black hole spawns in a random location every 20s. Being near it reduces Fu Shun's speed, and entering it stuns her for 1s."
 	}
 end)()
 
@@ -7876,8 +7976,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.dont_send_message_frequently = {
+		tip = "Do not spam the chat. "
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.child_unlock_out = {
 		tip = "Go Outside"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.LiquorFloor_gold_get = {
+		tip = "Collect Old Coins"
 	}
 end)()
 
@@ -7908,6 +8020,18 @@ end)()
 (function()
 	_G.pg.base.gametip.island_ship_energy_full = {
 		tip = "Stamina is Full"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.LiquorFloorTaskUI_got = {
+		tip = "Claimed"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.LiquorFloorTaskUI_get = {
+		tip = "Accept"
 	}
 end)()
 
@@ -7947,6 +8071,12 @@ end)()
 				y = 1024
 			}
 		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.LiquorFloorTaskUI_go = {
+		tip = "Confirm"
 	}
 end)()
 
@@ -8005,6 +8135,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.black5_bundle_popup = {
+		tip = "Do you want to spend <color=#92fc63>$1</color> Gems to receive <color=#92fc63>$2</color>?"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.battle_text_common_3 = {
 		tip = "<color=#f1f102>The enemy's DMG dealt is greatly increased, but their DMG taken increases over time.</color>"
 	}
@@ -8013,6 +8149,12 @@ end)()
 (function()
 	_G.pg.base.gametip.guild_word_ordinary = {
 		tip = "Normal"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.LiquorFloor_gold_max_tip = {
+		tip = "Your Old Coins capacity has maxed out"
 	}
 end)()
 
@@ -8045,6 +8187,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.world_instruction_morale_4 = {
+		tip = "*You will not be able to use this command again for a period of time."
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.multiple_sorties_times = {
 		tip = "Sorties"
 	}
@@ -8061,8 +8209,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.LiquorFloor_update_unlock = {
+		tip = "Inn Lv. has been raised to $1"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.dorm3d_photo_postexposure = {
 		tip = "Exposure"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.LiquorFloor_update = {
+		tip = "Level Up"
 	}
 end)()
 
@@ -8101,8 +8261,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.LiquorFloor_gold = {
+		tip = "earned per sec."
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.island_add_friend = {
 		tip = "Add"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_task_level_add = {
+		tip = "Rep. Bonuses"
 	}
 end)()
 
@@ -8131,8 +8303,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.LiquorFloor_character_tip = {
+		tip = "Assign shipgirls to get extra Old Coins. Assigned shipgirls gain extra Affinity on sorties."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.LiquorFloor_character_num = {
+		tip = "Char. Capacity"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.bulin_tip6 = {
+		tip = "Don't forget to feed the kids nya!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_warning_107984 = {
+		tip = "Fully retrofitting this ship will give her <color=#92fc63>Fighters +1 and Torpedo Bombers +1</color>.\nDo you want to proceed with this retrofit? "
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.world_automode_setting_1_4 = {
 		tip = "All Zones"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.LiquorFloor_story_go = {
+		tip = "Confirm"
 	}
 end)()
 
@@ -8145,6 +8347,12 @@ end)()
 (function()
 	_G.pg.base.gametip.world_boss_none = {
 		tip = "Coordinates have expired. Please try another target. "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.LiquorFloor_story_title_4 = {
+		tip = "Inn Story"
 	}
 end)()
 
@@ -8175,8 +8383,44 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.DAL_upgrade_not_enough = {
+		tip = "Complete the event missions to receive Fraxinus AL Improvement Data"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.LiquorFloor_story_title_2 = {
+		tip = "Parlor Anecdotes"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.specialshipyard_tip = {
 		tip = "* META shipgirls go into your special dock and do not take up regular dock space."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.LiquorFloor_story_title_1 = {
+		tip = "Business Journal"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.LiquorFloor_level = {
+		tip = "Inn Lv."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.LiquorFloor_title_en = {
+		tip = "Springtide"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.LiquorFloor_title = {
+		tip = "Springtide Inn Online"
 	}
 end)()
 
@@ -8189,6 +8433,12 @@ end)()
 (function()
 	_G.pg.base.gametip.word_manga_updatesuccess = {
 		tip = "Update complete."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_quick_delegation_notenough_onduty = {
+		tip = "$1 can't be assigned due to being busy with other work"
 	}
 end)()
 
@@ -8213,6 +8463,12 @@ end)()
 (function()
 	_G.pg.base.gametip.ambush_display_3 = {
 		tip = "Low"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_quick_delegation_notenough_encourage = {
+		tip = "$1 can't be assigned due to not having sufficient stamina"
 	}
 end)()
 
@@ -8267,6 +8523,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.ryza_task_detail = {
+		tip = "Check"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.event_start_success = {
 		tip = "Commission has begun!"
 	}
@@ -8297,8 +8559,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_chara_gather_no_target = {
+		tip = "No gatherable items found"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.verification_code_req_tip2 = {
 		tip = "Verification request successful! Please check your e-mail for the verification code."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_chara_gather_done = {
+		tip = "Gathering Complete"
 	}
 end)()
 
@@ -8327,6 +8601,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.class_attr_costproficiency = {
+		tip = "EXP Production"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.battle_result_targets = {
 		tip = "Targets"
 	}
@@ -8345,20 +8625,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_chara_gather_tag_2 = {
+		tip = "Minerals & Wood"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_chara_gather_tag_1 = {
+		tip = "Wild Gatherables"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_chara_gather_start = {
+		tip = "Start"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.activity_puzzle_get12 = {
 		tip = "<color=#A9F548FF>How to get: \nmission 3</color>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.spring_present_tips3 = {
-		tip = "A gift has been sent to your mailbox!"
+	_G.pg.base.gametip.backyard_theme_shop_title = {
+		tip = "Explore Loadouts"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.spring_present_tips1 = {
-		tip = "The leftmost secretary shipgirl in your list will send a message to your mailbox. Continue?"
+	_G.pg.base.gametip.island_chara_gather_money = {
+		tip = "Funds Cost"
 	}
 end)()
 
@@ -8412,14 +8710,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.spring_present_tips0 = {
-		tip = "Please disable the Random Secretary feature and try again."
+	_G.pg.base.gametip.island_chara_gather_power = {
+		tip = "Stamina Cost"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.cruise_tip_skin = {
-		tip = "Seasonal Missions"
+	_G.pg.base.gametip.shop_filter_trial = {
+		tip = "Rental"
 	}
 end)()
 
@@ -8430,8 +8728,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.spring_present_tips_btn = {
-		tip = "New Year's Warmth"
+	_G.pg.base.gametip.island_gift_tip = {
+		tip = "Any excess stamina the gift recipient receives will be wasted. Do you still want to give the gift?"
 	}
 end)()
 
@@ -8448,48 +8746,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.loveactivity_help_tips = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/love_help_1",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/love_help_2",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/love_help_3",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/love_help_4",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
+	_G.pg.base.gametip.attr_antisub = {
+		tip = "ASW"
 	}
 end)()
 
@@ -8536,24 +8794,24 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.drawdiary_ui_2026 = {
-		tip = "Drawing Book"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_task_level_num = {
-		tip = "Rep. Level"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.help_chunjie_jiulou_2026 = {
 		tip = {
 			{
 				info = "- Manjuu Resort Info -\n· You can visit the Manjuu Resort to open the Red Envelopes you've collected through playing minigames and get rewards.\n· Red Envelopes can be gotten from playing <color=#92fc63>Fei Yuen's Great Adventure</color>,<color=#92fc63>Drawing Book</color>, <color=#92fc63>Fu Po's Flawless Plan</color>, and <color=#92fc63>Spring Fireworks Party</color>.\n· Opening envelopes will grant you a number of randomly chosen rewards, potentially including Gems.\n· Your first 15 envelopes are Special Red Envelopes and will yield better rewards than regular Red Envelopes. These will be prioritized when opening Red Envelopes.\n· After opening 15 envelopes in total, you will receive <color=#92fc63>a rerun skin for Fu Shun</color>, and after 25 envelopes you'll also receive <color=#92fc63>a new skin for Long Island</color>."
 			}
 		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveactivity_ui_20 = {
+		tip = "Accumulated Sweet Memories Lv. Rewards"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelScene_who_to_retreat = {
+		tip = "Commander, are you sure you want to retreat from <color=#92fc63>$1</color>?"
 	}
 end)()
 
@@ -8576,8 +8834,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.loveactivity_ui_20 = {
-		tip = "Accumulated Sweet Memories Lv. Rewards"
+	_G.pg.base.gametip.vote_lable_window_title = {
+		tip = "Rewards"
 	}
 end)()
 
@@ -8588,14 +8846,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.levelScene_who_to_retreat = {
-		tip = "Commander, are you sure you want to retreat from <color=#92fc63>$1</color>?"
+	_G.pg.base.gametip.loveactivity_ui_16 = {
+		tip = "No claimable rewards"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.vote_lable_window_title = {
-		tip = "Rewards"
+	_G.pg.base.gametip.equip_skin_detail_count = {
+		tip = "Owned:"
 	}
 end)()
 
@@ -8606,8 +8864,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.loveactivity_ui_16 = {
-		tip = "No claimable rewards"
+	_G.pg.base.gametip.loveactivity_ui_14 = {
+		tip = "$1's Sweet Memories Medal"
 	}
 end)()
 
@@ -8667,14 +8925,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equip_skin_detail_count = {
-		tip = "Owned:"
+	_G.pg.base.gametip.loveactivity_ui_13 = {
+		tip = "Valentine's Day message has been unlocked"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.loveactivity_ui_14 = {
-		tip = "$1's Sweet Memories Medal"
+	_G.pg.base.gametip.loveactivity_ui_12 = {
+		tip = "* You can switch your character during the event ($1/$2 remaining switches)"
 	}
 end)()
 
@@ -8685,14 +8943,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.loveactivity_ui_13 = {
-		tip = "Valentine's Day message has been unlocked"
+	_G.pg.base.gametip.island_guide_help = {
+		tip = "Unlocking character-related content on the island gives you Collection Points. Once you accumulate enough points, your Collection Level will increase, and you'll receive the corresponding Collection Rewards:\n\n1. When you <color=#39bfff>obtain a character (complete their Island Authority Permit process)</color>, you'll receive <color=#39bfff>20</color> Collection Points per character.\n2. When you <color=#39bfff>Limit Break a character (use a Profession Star on them)</color>, you'll receive <color=#39bfff>30</color> Collection Points per Limit Break. And when a character reaches Limit Break ★5, you'll receive an additional <color=#39bfff>10</color> Collection Points.\n3. When <color=#39bfff>raising a character's Island Level to 50</color>, you'll receive <color=#39bfff>50</color> Collection Points."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.loveactivity_ui_12 = {
-		tip = "* You can switch your character during the event ($1/$2 remaining switches today)"
+	_G.pg.base.gametip.shop_extendMagazine_error = {
+		tip = "Failed to expand arsenal: "
 	}
 end)()
 
@@ -8725,8 +8983,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_guide_help = {
-		tip = "Unlocking character-related content on the island gives you Collection Points. Once you accumulate enough points, your Collection Level will increase, and you'll receive the corresponding Collection Rewards:\n\n1. When you <color=#39bfff>obtain a character (complete their Island Authority Permit process)</color>, you'll receive <color=#39bfff>20</color> Collection Points per character.\n2. When you <color=#39bfff>Limit Break a character (use a Profession Star on them)</color>, you'll receive <color=#39bfff>30</color> Collection Points per Limit Break. And when a character reaches Limit Break ★5, you'll receive an additional <color=#39bfff>10</color> Collection Points.\n3. When <color=#39bfff>raising a character's Island Level to 50</color>, you'll receive <color=#39bfff>50</color> Collection Points."
+	_G.pg.base.gametip.loveactivity_ui_9 = {
+		tip = "$1's Valentine's Gift"
 	}
 end)()
 
@@ -8737,8 +8995,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_extendMagazine_error = {
-		tip = "Failed to expand arsenal: "
+	_G.pg.base.gametip.loveactivity_ui_8 = {
+		tip = "Unlock"
 	}
 end)()
 
@@ -8749,8 +9007,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.loveactivity_ui_9 = {
-		tip = "$1's Valentine's Gift"
+	_G.pg.base.gametip.loveactivity_ui_7 = {
+		tip = "* Unlocking the message does not remove any presents"
 	}
 end)()
 
@@ -8767,8 +9025,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.loveactivity_ui_8 = {
-		tip = "Unlock"
+	_G.pg.base.gametip.sail_boat_equip_tip_2 = {
+		tip = "<color=#E3CEAF>Decently Strong, Decently Quick Gun</color>\n<color=#F1B969>Equipping this on your ship reduces her speed.</color>"
 	}
 end)()
 
@@ -8785,8 +9043,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.loveactivity_ui_7 = {
-		tip = "* Unlocking the message does not remove any presents"
+	_G.pg.base.gametip.loveactivity_ui_5 = {
+		tip = "Unlock Message"
 	}
 end)()
 
@@ -8797,14 +9055,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.sail_boat_equip_tip_2 = {
-		tip = "<color=#E3CEAF>Decently Strong, Decently Quick Gun</color>\n<color=#F1B969>Equipping this on your ship reduces her speed.</color>"
+	_G.pg.base.gametip.temple_consume_not_enough = {
+		tip = "Insufficient resources"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.loveactivity_ui_5 = {
-		tip = "Unlock Message"
+	_G.pg.base.gametip.loveactivity_ui_4_2 = {
+		tip = "Give <color=#3DC6FFFF>$1</color> an additional <color=#3DC6FFFF>800</color> Sweet Memories?\nOnce given, this <color=#FF5C5CFF>cannot be changed</color>. Make sure you've selected the correct shipgirl."
 	}
 end)()
 
@@ -8815,8 +9073,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.temple_consume_not_enough = {
-		tip = "Insufficient resources"
+	_G.pg.base.gametip.loveactivity_ui_4 = {
+		tip = "Give Sweet Memories to $1?\nOnce given, this cannot be changed."
 	}
 end)()
 
@@ -8851,14 +9109,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.loveactivity_ui_4_2 = {
-		tip = "Give <color=#3DC6FFFF>$1</color> an additional <color=#3DC6FFFF>800</color> Sweet Memories?\nOnce given, this <color=#FF5C5CFF>cannot be changed</color>. Make sure you've selected the correct shipgirl."
+	_G.pg.base.gametip.valentinesday__txt4_tip = {
+		tip = "The chocolate is ready. Don't forget to pick up your reward."
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.loveactivity_ui_4 = {
-		tip = "Give Sweet Memories to $1?\nOnce given, this cannot be changed."
+	_G.pg.base.gametip.drawdiary_ui_2026 = {
+		tip = "Drawing Book"
 	}
 end)()
 
@@ -8875,8 +9133,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.valentinesday__txt4_tip = {
-		tip = "The chocolate is ready. Don't forget to pick up your reward."
+	_G.pg.base.gametip.ryza_task_level_num = {
+		tip = "Rep. Level"
 	}
 end)()
 
@@ -10471,8 +10729,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.DAL_upgrade_not_enough = {
-		tip = "Complete the event missions to receive Fraxinus AL Improvement Data"
+	_G.pg.base.gametip.LiquorFloor_story_title_3 = {
+		tip = "Random Encounters"
 	}
 end)()
 
@@ -11217,8 +11475,12 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.black5_bundle_popup = {
-		tip = "Do you want to spend <color=#92fc63>$1</color> Gems to receive <color=#92fc63>$2</color>?"
+	_G.pg.base.gametip.LiquorFloor_tip = {
+		tip = {
+			{
+				info = "- Event Overview -\nDuring the Springtide Inn Online event, manage your inn facilities, host guests, and unlock content based on the success of your management to earn rewards.\n\n1. Attached to the inn are various facilities with a range of effects that can be improved by leveling the facilities. Some level-ups require Sycees, a resource gained by completing event missions.\n2. The Restaurant, the Gazebo, the Garden, and the Pond automatically generate Old Coins, an event resource, which you can manually claim. Additionally, leveling up these facilities makes them produce more Old Coins. Each facility can store up to 6 hours' worth of Old Coins.\n3. Leveling up the Warehouse increases your maximum Old Coins capacity.\n4. You can assign your shipgirls to the Parlor. This will give you additional Old Coins at regular intervals. Furthermore, shipgirls assigned to the Parlor gain more Affinity from sorties. Leveling up the Parlor gives you more slots to assign shipgirls to.\n5. When you have enough Old Coins to reach certain thresholds, your Inn Level will go up.\n6. Once your Inn and its facilities reach certain levels, you will unlock additional content such as new story chapters.\n7. You can complete Business Missions to earn various rewards, including more Old Coins, a portrait frame, event-exclusive furniture, and more."
+			}
+		}
 	}
 end)()
 
@@ -13634,8 +13896,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_instruction_morale_4 = {
-		tip = "*You will not be able to use this command again for a period of time."
+	_G.pg.base.gametip.LiquorFloor_update_max = {
+		tip = "Level Cap Reached"
 	}
 end)()
 
@@ -13958,8 +14220,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dont_send_message_frequently = {
-		tip = "Do not spam the chat. "
+	_G.pg.base.gametip.MoscowURCoreActivity_subtitle_1 = {
+		tip = "Springtide Inn Online"
 	}
 end)()
 
@@ -19789,8 +20051,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_filter_trial = {
-		tip = "Rental"
+	_G.pg.base.gametip.island_chara_gather_tip = {
+		tip = "Gathering"
 	}
 end)()
 
@@ -30627,8 +30889,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip["2023spring_minigame_nenjuu_skill7"] = {
-		tip = "Black Hole|A black hole spawns in a random location every 20s. Being near it reduces Fu Shun's speed, and entering it stuns her for 1s."
+	_G.pg.base.gametip.MoscowURCoreActivity_subtitle_2 = {
+		tip = "Supply Station"
 	}
 end)()
 
@@ -38413,8 +38675,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ryza_task_detail = {
-		tip = "Check"
+	_G.pg.base.gametip.island_quick_delegation = {
+		tip = "Reassign"
 	}
 end)()
 
@@ -38425,8 +38687,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ryza_task_level_add = {
-		tip = "Rep. Bonuses"
+	_G.pg.base.gametip.LiquorFloor_gold_num = {
+		tip = "Old Coins Capacity"
 	}
 end)()
 
@@ -40119,8 +40381,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_warning_107984 = {
-		tip = "Fully retrofitting this ship will give her <color=#92fc63>Fighters +1 and Torpedo Bombers +1</color>.\nDo you want to proceed with this retrofit? "
+	_G.pg.base.gametip.LiquorFloor_story_get = {
+		tip = "Accept"
 	}
 end)()
 
@@ -43531,8 +43793,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_theme_shop_title = {
-		tip = "Explore Loadouts"
+	_G.pg.base.gametip.island_chara_gather_range = {
+		tip = "Select Item to Gather"
 	}
 end)()
 
@@ -47395,8 +47657,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.bulin_tip6 = {
-		tip = "Don't forget to feed the kids nya!"
+	_G.pg.base.gametip.LiquorFloor_story_got = {
+		tip = "Claimed"
 	}
 end)()
 
@@ -48736,7 +48998,7 @@ end)()
 
 (function()
 	_G.pg.base.gametip.buildship_new_tip = {
-		tip = "Rate UP for Francesco Caracciolo and more!"
+		tip = "Get Moskva guaranteed with every 200 event builds (can be done up to 4 times)!"
 	}
 end)()
 
@@ -49816,8 +50078,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.class_attr_costproficiency = {
-		tip = "EXP Production"
+	_G.pg.base.gametip.island_chara_gather_skill_effect = {
+		tip = "Stamina Cost"
 	}
 end)()
 
@@ -49974,8 +50236,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.attr_antisub = {
-		tip = "ASW"
+	_G.pg.base.gametip.island_gift_tip_title = {
+		tip = "Stamina"
 	}
 end)()
 

@@ -28,16 +28,15 @@ function var_0_0.OnInit(arg_4_0)
 end
 
 function var_0_0.IsShowTip(arg_5_0)
-	local var_5_0 = arg_5_0:GetActivityID()
-	local var_5_1 = arg_5_0:GetActivity()
-	local var_5_2 = var_5_1:getConfig("type")
+	local var_5_0 = arg_5_0:GetActivity()
+	local var_5_1 = var_5_0:getConfig("type")
 
-	return switch(var_5_2, {
-		[ActivityConst.OTHER_WORLD_TERMINAL_BATTLE_ID] = function()
-			return var_5_1:rereadyToAchieve()
+	return switch(var_5_1, {
+		[ActivityConst.ACTIVITY_TYPE_TOWN2] = function()
+			return LiquorFloorMapScene.ShouldShowTaskTip()
 		end
 	}, function()
-		return false
+		return var_5_0:readyToAchieve()
 	end)
 end
 

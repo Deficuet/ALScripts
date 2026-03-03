@@ -80,91 +80,95 @@ function var_0_0.UpdateGetCollectNum(arg_8_0, arg_8_1)
 	end
 end
 
-function var_0_0.UpdateCollectDataBySlotId(arg_9_0, arg_9_1, arg_9_2)
-	local var_9_0 = arg_9_1.id
-	local var_9_1 = arg_9_0.collectionSlotData[var_9_0]
+function var_0_0.SetAllTakeColelct(arg_9_0)
+	arg_9_0.get_num = #arg_9_0.recoverQueue
+end
 
-	if not var_9_1 then
+function var_0_0.UpdateCollectDataBySlotId(arg_10_0, arg_10_1, arg_10_2)
+	local var_10_0 = arg_10_1.id
+	local var_10_1 = arg_10_0.collectionSlotData[var_10_0]
+
+	if not var_10_1 then
 		return
 	end
 
-	if arg_9_2 == var_0_0.slotType.Task then
-		var_9_1:UpdateCollectData(arg_9_1, arg_9_2)
+	if arg_10_2 == var_0_0.slotType.Task then
+		var_10_1:UpdateCollectData(arg_10_1, arg_10_2)
 
-		arg_9_0.collectionSlotData[var_9_0] = nil
+		arg_10_0.collectionSlotData[var_10_0] = nil
 	else
-		arg_9_0:RefreshRecoverQueue(var_9_0)
-		var_9_1:UpdateCollectData(arg_9_1, arg_9_2)
+		arg_10_0:RefreshRecoverQueue(var_10_0)
+		var_10_1:UpdateCollectData(arg_10_1, arg_10_2)
 	end
 end
 
-function var_0_0.RefreshRecoverQueue(arg_10_0, arg_10_1)
-	local var_10_0 = -1
+function var_0_0.RefreshRecoverQueue(arg_11_0, arg_11_1)
+	local var_11_0 = -1
 
-	for iter_10_0, iter_10_1 in ipairs(arg_10_0.recoverQueue) do
-		if iter_10_1 == arg_10_1 then
-			var_10_0 = iter_10_0
+	for iter_11_0, iter_11_1 in ipairs(arg_11_0.recoverQueue) do
+		if iter_11_1 == arg_11_1 then
+			var_11_0 = iter_11_0
 		end
 	end
 
-	if var_10_0 ~= -1 then
-		table.remove(arg_10_0.recoverQueue, var_10_0)
+	if var_11_0 ~= -1 then
+		table.remove(arg_11_0.recoverQueue, var_11_0)
 	end
 
-	table.insert(arg_10_0.recoverQueue, arg_10_1)
+	table.insert(arg_11_0.recoverQueue, arg_11_1)
 end
 
-function var_0_0.GetCollectSlotData(arg_11_0, arg_11_1)
-	return arg_11_0.collectionSlotData[arg_11_1]
+function var_0_0.GetCollectSlotData(arg_12_0, arg_12_1)
+	return arg_12_0.collectionSlotData[arg_12_1]
 end
 
-function var_0_0.InitHandSlotData(arg_12_0, arg_12_1)
-	local var_12_0 = arg_12_1.id
+function var_0_0.InitHandSlotData(arg_13_0, arg_13_1)
+	local var_13_0 = arg_13_1.id
 
-	if arg_12_0.collectionSlotData[var_12_0] then
+	if arg_13_0.collectionSlotData[var_13_0] then
 		warning("已经存在当前槽位的信息了")
 
 		return
 	end
 
-	local var_12_1 = arg_12_0.taskPointDic[var_12_0] and var_0_0.slotType.Task or var_0_0.slotType.Normal
+	local var_13_1 = arg_13_0.taskPointDic[var_13_0] and var_0_0.slotType.Task or var_0_0.slotType.Normal
 
-	if var_12_1 == var_0_0.slotType.Normal then
-		table.insert(arg_12_0.recoverQueue, 1, var_12_0)
+	if var_13_1 == var_0_0.slotType.Normal then
+		table.insert(arg_13_0.recoverQueue, 1, var_13_0)
 	end
 
-	local var_12_2 = IslandCollectSlotNew.New(arg_12_0.configId, arg_12_1, var_12_1)
+	local var_13_2 = IslandCollectSlotNew.New(arg_13_0.configId, arg_13_1, var_13_1)
 
-	arg_12_0.collectionSlotData[arg_12_1.id] = var_12_2
+	arg_13_0.collectionSlotData[arg_13_1.id] = var_13_2
 
 	getProxy(IslandProxy):GetIsland():DispatchEvent(IslandBuildingAgency.COLLECT_SlOT_UNIT_INIT, {
-		slotId = arg_12_1.id
+		slotId = arg_13_1.id
 	})
 end
 
-function var_0_0.UpdatePerSecond(arg_13_0)
-	local var_13_0 = pg.TimeMgr.GetInstance():GetServerTime()
+function var_0_0.UpdatePerSecond(arg_14_0)
+	local var_14_0 = pg.TimeMgr.GetInstance():GetServerTime()
 
-	if arg_13_0.needRefresh and var_13_0 >= arg_13_0.refresh_time then
-		arg_13_0.needRefresh = false
+	if arg_14_0.needRefresh and var_14_0 >= arg_14_0.refresh_time then
+		arg_14_0.needRefresh = false
 
-		local var_13_1 = #arg_13_0.recoverQueue - arg_13_0.get_num + 1
+		local var_14_1 = #arg_14_0.recoverQueue - arg_14_0.get_num + 1
 
-		arg_13_0.get_num = 0
+		arg_14_0.get_num = 0
 
-		local var_13_2 = getProxy(IslandProxy):GetIsland()
-		local var_13_3 = math.max(1, var_13_1)
+		local var_14_2 = getProxy(IslandProxy):GetIsland()
+		local var_14_3 = math.max(1, var_14_1)
 
-		for iter_13_0 = #arg_13_0.recoverQueue, var_13_3, -1 do
-			local var_13_4 = arg_13_0.recoverQueue[iter_13_0]
+		for iter_14_0 = #arg_14_0.recoverQueue, var_14_3, -1 do
+			local var_14_4 = arg_14_0.recoverQueue[iter_14_0]
 
-			if arg_13_0.placeId == IslandProductConst.MinePlaceId then
-				var_13_2:DispatchEvent(IslandBuildingAgency.COLLECT_SlOT_UNIT_INIT, {
-					slotId = var_13_4
+			if arg_14_0.placeId == IslandProductConst.MinePlaceId then
+				var_14_2:DispatchEvent(IslandBuildingAgency.COLLECT_SlOT_UNIT_INIT, {
+					slotId = var_14_4
 				})
 			else
-				var_13_2:DispatchEvent(IslandBuildingAgency.COLLECT_SlOT_UNIT_UPDATE, {
-					slotId = var_13_4
+				var_14_2:DispatchEvent(IslandBuildingAgency.COLLECT_SlOT_UNIT_UPDATE, {
+					slotId = var_14_4
 				})
 			end
 		end

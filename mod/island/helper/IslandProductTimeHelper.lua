@@ -34,336 +34,363 @@ function var_0_0.GetAllAddPercent(arg_9_0, arg_9_1, arg_9_2)
 	return var_9_0, var_9_1, var_9_2, var_9_3
 end
 
-function var_0_0.GetAttributeAddPercent(arg_10_0, arg_10_1)
+function var_0_0.GetAttributeGradeId(arg_10_0, arg_10_1)
 	local var_10_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_10_0)
 	local var_10_1 = var_10_0:GetAttr(IslandShipAttr.ATTRS[arg_10_1])
 	local var_10_2 = var_10_0:GetAttrGradeByValue(var_10_1)
-	local var_10_3 = pg.island_chara_att[var_10_2].effect
-	local var_10_4 = var_10_0:GetVaildStatusByType(IslandBuffType.SHIP_ATTR)
+	local var_10_3 = var_10_0:GetVaildStatusByType(IslandBuffType.SHIP_ATTR)
 
-	if #var_10_4 == 0 then
-		return var_10_3
+	if #var_10_3 == 0 then
+		return var_10_2
 	end
 
-	local var_10_5 = 0
+	local var_10_4 = 0
 
-	for iter_10_0, iter_10_1 in ipairs(var_10_4) do
-		local var_10_6 = iter_10_1:GetBuffEffect()
+	for iter_10_0, iter_10_1 in ipairs(var_10_3) do
+		local var_10_5 = iter_10_1:GetBuffEffect()
 
-		for iter_10_2, iter_10_3 in ipairs(var_10_6) do
+		for iter_10_2, iter_10_3 in ipairs(var_10_5) do
 			if iter_10_3[1] == arg_10_1 then
-				var_10_5 = var_10_5 + iter_10_3[2]
+				var_10_4 = var_10_4 + iter_10_3[2]
 			end
 		end
 	end
 
-	local var_10_7 = math.floor(var_10_1 * (1 + var_10_5 * 0.01))
-	local var_10_8 = var_10_0:GetAttrGradeByValue(var_10_7)
+	local var_10_6 = math.floor(var_10_1 * (1 + var_10_4 * 0.01))
 
-	return pg.island_chara_att[var_10_8].effect
+	return (var_10_0:GetAttrGradeByValue(var_10_6))
 end
 
-function var_0_0.GetAttributeAddPercentByAttribute(arg_11_0, arg_11_1)
-	local var_11_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_11_0):GetVaildStatusByType(IslandBuffType.SHIP_ATTR)
+function var_0_0.GetAttributeAddPercent(arg_11_0, arg_11_1)
+	local var_11_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_11_0)
+	local var_11_1 = var_11_0:GetAttr(IslandShipAttr.ATTRS[arg_11_1])
+	local var_11_2 = var_11_0:GetAttrGradeByValue(var_11_1)
+	local var_11_3 = pg.island_chara_att[var_11_2].effect
+	local var_11_4 = var_11_0:GetVaildStatusByType(IslandBuffType.SHIP_ATTR)
 
-	if #var_11_0 == 0 then
+	if #var_11_4 == 0 then
+		return var_11_3
+	end
+
+	local var_11_5 = 0
+
+	for iter_11_0, iter_11_1 in ipairs(var_11_4) do
+		local var_11_6 = iter_11_1:GetBuffEffect()
+
+		for iter_11_2, iter_11_3 in ipairs(var_11_6) do
+			if iter_11_3[1] == arg_11_1 then
+				var_11_5 = var_11_5 + iter_11_3[2]
+			end
+		end
+	end
+
+	local var_11_7 = math.floor(var_11_1 * (1 + var_11_5 * 0.01))
+	local var_11_8 = var_11_0:GetAttrGradeByValue(var_11_7)
+
+	return pg.island_chara_att[var_11_8].effect
+end
+
+function var_0_0.GetAttributeAddPercentByAttribute(arg_12_0, arg_12_1)
+	local var_12_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_12_0):GetVaildStatusByType(IslandBuffType.SHIP_ATTR)
+
+	if #var_12_0 == 0 then
 		return 0
 	end
 
-	local var_11_1 = 0
+	local var_12_1 = 0
 
-	for iter_11_0, iter_11_1 in ipairs(var_11_0) do
-		local var_11_2 = iter_11_1:GetBuffEffect()
+	for iter_12_0, iter_12_1 in ipairs(var_12_0) do
+		local var_12_2 = iter_12_1:GetBuffEffect()
 
-		for iter_11_2, iter_11_3 in ipairs(var_11_2) do
-			if iter_11_3[1] == arg_11_1 then
-				var_11_1 = var_11_1 + iter_11_3[2]
+		for iter_12_2, iter_12_3 in ipairs(var_12_2) do
+			if iter_12_3[1] == arg_12_1 then
+				var_12_1 = var_12_1 + iter_12_3[2]
 			end
 		end
 	end
 
-	return var_11_1
+	return var_12_1
 end
 
-function var_0_0.GetPlaceAddPercent(arg_12_0, arg_12_1)
-	local var_12_0 = 0
-	local var_12_1 = getProxy(IslandProxy):GetIsland()
-	local var_12_2 = var_0_0.GetSpeedAddtionTypeByPlaceId(arg_12_1)
+function var_0_0.GetPlaceAddPercent(arg_13_0, arg_13_1)
+	local var_13_0 = 0
+	local var_13_1 = getProxy(IslandProxy):GetIsland()
+	local var_13_2 = var_0_0.GetSpeedAddtionTypeByPlaceId(arg_13_1)
 
-	if var_12_2 then
-		var_12_0 = var_12_0 + var_12_1:GetAblityAgency():GetProductAdditionSpeedByAblityType(var_12_2)
+	if var_13_2 then
+		var_13_0 = var_13_0 + var_13_1:GetAblityAgency():GetProductAdditionSpeedByAblityType(var_13_2)
 	end
 
-	return var_12_0
+	return var_13_0
 end
 
-function var_0_0.GetSkillAddPercent(arg_13_0, arg_13_1)
-	local var_13_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_13_0)
-	local var_13_1 = 0
+function var_0_0.GetSkillAddPercent(arg_14_0, arg_14_1)
+	local var_14_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_14_0)
+	local var_14_1 = 0
 
-	for iter_13_0, iter_13_1 in ipairs(var_13_0:GetSkill():GetUnlockShipEffectIds()) do
-		local var_13_2 = pg.island_buff_template[iter_13_1]
+	for iter_14_0, iter_14_1 in ipairs(var_14_0:GetSkill():GetUnlockShipEffectIds()) do
+		local var_14_2 = pg.island_buff_template[iter_14_1]
 
-		if var_13_2.buff_type == IslandBuffType.SHIP_PRODUCT_RATIO then
-			local var_13_3 = var_13_2.type_use
-			local var_13_4 = var_13_3[1]
+		if var_14_2.buff_type == IslandBuffType.SHIP_PRODUCT_RATIO then
+			local var_14_3 = var_14_2.type_use
+			local var_14_4 = var_14_3[1]
 
-			if underscore.any(var_13_4, function(arg_14_0)
-				return arg_14_0 == arg_13_1
+			if underscore.any(var_14_4, function(arg_15_0)
+				return arg_15_0 == arg_14_1
 			end) then
-				var_13_1 = var_13_1 + var_13_3[2]
+				var_14_1 = var_14_1 + var_14_3[2]
 			end
 		end
 	end
 
-	return var_13_1
+	return var_14_1
 end
 
-function var_0_0.GetShipBuffPercent(arg_15_0, arg_15_1)
-	local var_15_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_15_0):GetVaildStatusByType(IslandBuffType.SHIP_PRODUCT_RATIO)
-	local var_15_1 = 0
+function var_0_0.GetShipBuffPercent(arg_16_0, arg_16_1)
+	local var_16_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_16_0):GetVaildStatusByType(IslandBuffType.SHIP_PRODUCT_RATIO)
+	local var_16_1 = 0
 
-	for iter_15_0, iter_15_1 in ipairs(var_15_0) do
-		local var_15_2 = iter_15_1:GetBuffEffect()
-		local var_15_3 = var_15_2[1]
+	for iter_16_0, iter_16_1 in ipairs(var_16_0) do
+		local var_16_2 = iter_16_1:GetBuffEffect()
+		local var_16_3 = var_16_2[1]
 
-		if underscore.any(var_15_3, function(arg_16_0)
-			return arg_16_0 == arg_15_1
+		if underscore.any(var_16_3, function(arg_17_0)
+			return arg_17_0 == arg_16_1
 		end) then
-			var_15_1 = var_15_1 + var_15_2[2]
+			var_16_1 = var_16_1 + var_16_2[2]
 		end
 	end
 
-	return var_15_1
+	return var_16_1
 end
 
-function var_0_0.CalculateTimeToProductFormula(arg_17_0, arg_17_1, arg_17_2, arg_17_3, arg_17_4)
-	local var_17_0 = getProxy(IslandProxy):GetIsland()
-	local var_17_1 = var_17_0:GetCharacterAgency():GetShipById(arg_17_0)
-	local var_17_2 = pg.island_set.base_efficiency.key_value_int
-	local var_17_3 = pg.island_formula[arg_17_1]
-	local var_17_4 = var_17_3.attribute
-	local var_17_5 = 0
+function var_0_0.CalculateTimeToProductFormula(arg_18_0, arg_18_1, arg_18_2, arg_18_3, arg_18_4)
+	local var_18_0 = getProxy(IslandProxy):GetIsland()
+	local var_18_1 = var_18_0:GetCharacterAgency():GetShipById(arg_18_0)
+	local var_18_2 = pg.island_set.base_efficiency.key_value_int
+	local var_18_3 = pg.island_formula[arg_18_1]
+	local var_18_4 = var_18_3.attribute
+	local var_18_5 = 0
 
-	for iter_17_0, iter_17_1 in ipairs(var_17_1:GetSkill():GetUnlockShipEffectIds()) do
-		local var_17_6 = pg.island_buff_template[iter_17_1]
+	for iter_18_0, iter_18_1 in ipairs(var_18_1:GetSkill():GetUnlockShipEffectIds()) do
+		local var_18_6 = pg.island_buff_template[iter_18_1]
 
-		if var_17_6.buff_type == IslandBuffType.SHIP_PRODUCT_RATIO then
-			local var_17_7 = var_17_6.type_use
-			local var_17_8 = var_17_7[1]
+		if var_18_6.buff_type == IslandBuffType.SHIP_PRODUCT_RATIO then
+			local var_18_7 = var_18_6.type_use
+			local var_18_8 = var_18_7[1]
 
-			if underscore.any(var_17_8, function(arg_18_0)
-				return arg_18_0 == arg_17_3
+			if underscore.any(var_18_8, function(arg_19_0)
+				return arg_19_0 == arg_18_3
 			end) then
-				var_17_5 = var_17_5 + var_17_7[2]
+				var_18_5 = var_18_5 + var_18_7[2]
 			end
 		end
 	end
 
-	local var_17_9 = 0
-	local var_17_10 = var_0_0.GetSpeedAddtionTypeByPlaceId(arg_17_3)
+	local var_18_9 = 0
+	local var_18_10 = var_0_0.GetSpeedAddtionTypeByPlaceId(arg_18_3)
 
-	if var_17_10 then
-		var_17_9 = var_17_9 + var_17_0:GetAblityAgency():GetProductAdditionSpeedByAblityType(var_17_10)
+	if var_18_10 then
+		var_18_9 = var_18_9 + var_18_0:GetAblityAgency():GetProductAdditionSpeedByAblityType(var_18_10)
 	end
 
-	local var_17_11 = var_17_1:GetAttr(IslandShipAttr.ATTRS[var_17_4])
-	local var_17_12 = var_17_1:GetAttrGradeByValue(var_17_11)
-	local var_17_13 = pg.island_chara_att[var_17_12].effect
-	local var_17_14 = var_17_5 + var_17_9
-	local var_17_15 = var_17_1:GetVaildStatusByType(IslandBuffType.SHIP_ATTR)
+	local var_18_11 = var_18_1:GetAttr(IslandShipAttr.ATTRS[var_18_4])
+	local var_18_12 = var_18_1:GetAttrGradeByValue(var_18_11)
+	local var_18_13 = pg.island_chara_att[var_18_12].effect
+	local var_18_14 = var_18_5 + var_18_9
+	local var_18_15 = var_18_1:GetVaildStatusByType(IslandBuffType.SHIP_ATTR)
 
-	table.sort(var_17_15, function(arg_19_0, arg_19_1)
-		local var_19_0 = arg_19_0:GetEndTime()
-		local var_19_1 = arg_19_1:GetEndTime()
+	table.sort(var_18_15, function(arg_20_0, arg_20_1)
+		local var_20_0 = arg_20_0:GetEndTime()
+		local var_20_1 = arg_20_1:GetEndTime()
 
-		if var_19_0 ~= var_19_1 then
-			return var_19_0 < var_19_1
+		if var_20_0 ~= var_20_1 then
+			return var_20_0 < var_20_1
 		end
 
-		return arg_19_0.id < arg_19_1.id
+		return arg_20_0.id < arg_20_1.id
 	end)
 
-	local var_17_16 = pg.TimeMgr.GetInstance():GetServerTime()
-	local var_17_17 = {}
-	local var_17_18 = var_17_16
-	local var_17_19 = #var_17_15
+	local var_18_16 = pg.TimeMgr.GetInstance():GetServerTime()
+	local var_18_17 = {}
+	local var_18_18 = var_18_16
+	local var_18_19 = #var_18_15
 
-	for iter_17_2, iter_17_3 in ipairs(var_17_15) do
-		local var_17_20 = iter_17_3:GetEndTime()
+	for iter_18_2, iter_18_3 in ipairs(var_18_15) do
+		local var_18_20 = iter_18_3:GetEndTime()
 
-		if var_17_18 ~= var_17_20 then
-			local var_17_21 = math.max(var_17_20 - var_17_18, 0)
+		if var_18_18 ~= var_18_20 then
+			local var_18_21 = math.max(var_18_20 - var_18_18, 0)
 
-			var_17_18 = var_17_20
+			var_18_18 = var_18_20
 
-			table.insert(var_17_17, {
-				timeLength = var_17_21,
-				buffCount = var_17_19
+			table.insert(var_18_17, {
+				timeLength = var_18_21,
+				buffCount = var_18_19
 			})
 		end
 
-		var_17_19 = var_17_19 - 1
+		var_18_19 = var_18_19 - 1
 	end
 
-	local var_17_22 = {}
+	local var_18_22 = {}
 
-	for iter_17_4, iter_17_5 in ipairs(var_17_17) do
-		local var_17_23 = 0
-		local var_17_24 = iter_17_5.buffCount
-		local var_17_25 = #var_17_15
+	for iter_18_4, iter_18_5 in ipairs(var_18_17) do
+		local var_18_23 = 0
+		local var_18_24 = iter_18_5.buffCount
+		local var_18_25 = #var_18_15
 
-		for iter_17_6 = var_17_25, var_17_25 - var_17_24 + 1, -1 do
-			local var_17_26 = var_17_15[iter_17_6]:GetBuffEffect()
+		for iter_18_6 = var_18_25, var_18_25 - var_18_24 + 1, -1 do
+			local var_18_26 = var_18_15[iter_18_6]:GetBuffEffect()
 
-			for iter_17_7, iter_17_8 in ipairs(var_17_26) do
-				if iter_17_8[1] == var_17_4 then
-					var_17_23 = var_17_23 + iter_17_8[2]
+			for iter_18_7, iter_18_8 in ipairs(var_18_26) do
+				if iter_18_8[1] == var_18_4 then
+					var_18_23 = var_18_23 + iter_18_8[2]
 				end
 			end
 		end
 
-		local var_17_27 = math.floor(var_17_11 * (1 + var_17_23 * 0.01))
-		local var_17_28 = var_17_1:GetAttrGradeByValue(var_17_27)
+		local var_18_27 = math.floor(var_18_11 * (1 + var_18_23 * 0.01))
+		local var_18_28 = var_18_1:GetAttrGradeByValue(var_18_27)
 
-		if var_17_28 == var_17_12 then
+		if var_18_28 == var_18_12 then
 			break
 		end
 
-		local var_17_29 = pg.island_chara_att[var_17_28].effect - var_17_13
+		local var_18_29 = pg.island_chara_att[var_18_28].effect - var_18_13
 
-		table.insert(var_17_22, {
-			buffAddPercent = var_17_29,
-			timeLength = iter_17_5.timeLength
+		table.insert(var_18_22, {
+			buffAddPercent = var_18_29,
+			timeLength = iter_18_5.timeLength
 		})
 	end
 
-	local var_17_30 = var_17_1:GetVaildStatusByType(IslandBuffType.SHIP_PRODUCT_RATIO)
-	local var_17_31 = {}
-	local var_17_32 = 0
+	local var_18_30 = var_18_1:GetVaildStatusByType(IslandBuffType.SHIP_PRODUCT_RATIO)
+	local var_18_31 = {}
+	local var_18_32 = 0
 
-	for iter_17_9, iter_17_10 in ipairs(var_17_30) do
-		local var_17_33 = iter_17_10:GetBuffEffect()
-		local var_17_34 = var_17_33[1]
+	for iter_18_9, iter_18_10 in ipairs(var_18_30) do
+		local var_18_33 = iter_18_10:GetBuffEffect()
+		local var_18_34 = var_18_33[1]
 
-		if underscore.any(var_17_34, function(arg_20_0)
-			return arg_20_0 == arg_17_3
+		if underscore.any(var_18_34, function(arg_21_0)
+			return arg_21_0 == arg_18_3
 		end) then
-			table.insert(var_17_31, iter_17_10)
+			table.insert(var_18_31, iter_18_10)
 
-			var_17_32 = var_17_32 + var_17_33[2]
+			var_18_32 = var_18_32 + var_18_33[2]
 		end
 	end
 
-	table.sort(var_17_31, function(arg_21_0, arg_21_1)
-		local var_21_0 = arg_21_0:GetEndTime()
-		local var_21_1 = arg_21_1:GetEndTime()
+	table.sort(var_18_31, function(arg_22_0, arg_22_1)
+		local var_22_0 = arg_22_0:GetEndTime()
+		local var_22_1 = arg_22_1:GetEndTime()
 
-		if var_21_0 ~= var_21_1 then
-			return var_21_0 < var_21_1
+		if var_22_0 ~= var_22_1 then
+			return var_22_0 < var_22_1
 		end
 
-		return arg_21_0.id < arg_21_1.id
+		return arg_22_0.id < arg_22_1.id
 	end)
 
-	local var_17_35 = var_17_16
-	local var_17_36 = {}
-	local var_17_37 = 0
+	local var_18_35 = var_18_16
+	local var_18_36 = {}
+	local var_18_37 = 0
 
-	for iter_17_11, iter_17_12 in ipairs(var_17_31) do
-		local var_17_38 = iter_17_12:GetEndTime()
-		local var_17_39 = iter_17_12:GetBuffEffect()[2]
+	for iter_18_11, iter_18_12 in ipairs(var_18_31) do
+		local var_18_38 = iter_18_12:GetEndTime()
+		local var_18_39 = iter_18_12:GetBuffEffect()[2]
 
-		if var_17_35 ~= var_17_38 then
-			local var_17_40 = math.max(var_17_38 - var_17_35, 0)
+		if var_18_35 ~= var_18_38 then
+			local var_18_40 = math.max(var_18_38 - var_18_35, 0)
 
-			var_17_35 = var_17_38
-			var_17_32 = var_17_32 - var_17_37
+			var_18_35 = var_18_38
+			var_18_32 = var_18_32 - var_18_37
 
-			table.insert(var_17_36, {
-				buffAddPercent = var_17_32,
-				timeLength = var_17_40
+			table.insert(var_18_36, {
+				buffAddPercent = var_18_32,
+				timeLength = var_18_40
 			})
 		end
 
-		var_17_37 = var_17_37 + var_17_39
+		var_18_37 = var_18_37 + var_18_39
 	end
 
-	local var_17_41 = 1
-	local var_17_42 = 1
-	local var_17_43 = (function(arg_22_0, arg_22_1)
-		local var_22_0 = {}
+	local var_18_41 = 1
+	local var_18_42 = 1
+	local var_18_43 = (function(arg_23_0, arg_23_1)
+		local var_23_0 = {}
 
-		if #arg_22_0 == 0 and #arg_22_1 == 0 then
+		if #arg_23_0 == 0 and #arg_23_1 == 0 then
 			return {}
 		end
 
-		if #arg_22_0 == 0 then
-			return arg_22_1
+		if #arg_23_0 == 0 then
+			return arg_23_1
 		end
 
-		if #arg_22_1 == 0 then
-			return arg_22_0
+		if #arg_23_1 == 0 then
+			return arg_23_0
 		end
 
-		while var_17_41 <= #arg_22_0 and var_17_42 <= #arg_22_1 do
-			local var_22_1 = arg_22_0[var_17_41]
-			local var_22_2 = arg_22_1[var_17_42]
-			local var_22_3 = math.min(var_22_1.timeLength, var_22_2.timeLength)
+		while var_18_41 <= #arg_23_0 and var_18_42 <= #arg_23_1 do
+			local var_23_1 = arg_23_0[var_18_41]
+			local var_23_2 = arg_23_1[var_18_42]
+			local var_23_3 = math.min(var_23_1.timeLength, var_23_2.timeLength)
 
-			table.insert(var_22_0, {
-				timeLength = var_22_3,
-				buffAddPercent = var_22_1.buffAddPercent + var_22_2.buffAddPercent
+			table.insert(var_23_0, {
+				timeLength = var_23_3,
+				buffAddPercent = var_23_1.buffAddPercent + var_23_2.buffAddPercent
 			})
 
-			var_22_1.timeLength = var_22_1.timeLength - var_22_3
-			var_22_2.timeLength = var_22_2.timeLength - var_22_3
+			var_23_1.timeLength = var_23_1.timeLength - var_23_3
+			var_23_2.timeLength = var_23_2.timeLength - var_23_3
 
-			if var_22_1.timeLength <= 0 then
-				var_17_41 = var_17_41 + 1
+			if var_23_1.timeLength <= 0 then
+				var_18_41 = var_18_41 + 1
 			end
 
-			if var_22_2.timeLength <= 0 then
-				var_17_42 = var_17_42 + 1
+			if var_23_2.timeLength <= 0 then
+				var_18_42 = var_18_42 + 1
 			end
 		end
 
-		return var_22_0
-	end)(var_17_36, var_17_22)
-	local var_17_44 = {}
-	local var_17_45 = var_17_3.workload
+		return var_23_0
+	end)(var_18_36, var_18_22)
+	local var_18_44 = {}
+	local var_18_45 = var_18_3.workload
 
-	for iter_17_13 = 1, arg_17_2 do
-		local var_17_46 = var_17_45
-		local var_17_47 = 0
+	for iter_18_13 = 1, arg_18_2 do
+		local var_18_46 = var_18_45
+		local var_18_47 = 0
 
-		for iter_17_14, iter_17_15 in ipairs(var_17_43) do
-			local var_17_48 = var_17_2 * (1 + 0.01 * (var_17_13 + iter_17_15.buffAddPercent + var_17_14))
-			local var_17_49 = math.floor(var_17_46 / var_17_48)
+		for iter_18_14, iter_18_15 in ipairs(var_18_43) do
+			local var_18_48 = var_18_2 * (1 + 0.01 * (var_18_13 + iter_18_15.buffAddPercent + var_18_14))
+			local var_18_49 = math.floor(var_18_46 / var_18_48)
 
-			if var_17_49 <= iter_17_15.timeLength then
-				iter_17_15.timeLength = iter_17_15.timeLength - var_17_49
-				var_17_47 = var_17_47 + var_17_49
-				var_17_46 = 0
+			if var_18_49 <= iter_18_15.timeLength then
+				iter_18_15.timeLength = iter_18_15.timeLength - var_18_49
+				var_18_47 = var_18_47 + var_18_49
+				var_18_46 = 0
 
 				break
 			else
-				var_17_47 = var_17_47 + iter_17_15.timeLength
-				var_17_46 = var_17_46 - iter_17_15.timeLength * var_17_48
-				iter_17_15.timeLength = 0
+				var_18_47 = var_18_47 + iter_18_15.timeLength
+				var_18_46 = var_18_46 - iter_18_15.timeLength * var_18_48
+				iter_18_15.timeLength = 0
 			end
 		end
 
-		if var_17_46 > 0 then
-			local var_17_50 = var_17_2 * (1 + 0.01 * (var_17_13 + var_17_14))
+		if var_18_46 > 0 then
+			local var_18_50 = var_18_2 * (1 + 0.01 * (var_18_13 + var_18_14))
 
-			var_17_47 = var_17_47 + math.floor(var_17_46 / var_17_50)
+			var_18_47 = var_18_47 + math.floor(var_18_46 / var_18_50)
 		end
 
-		table.insert(var_17_44, var_17_47)
+		table.insert(var_18_44, var_18_47)
 	end
 
-	return var_17_44
+	return var_18_44
 end
 
 return var_0_0

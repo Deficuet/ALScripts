@@ -250907,6 +250907,551 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[21901] = {
+		name = "『莫斯科UR活动』纪念任务1（只送勋章）",
+		guild_coin_award = 0,
+		award = 909165,
+		type = 26,
+		desc = "Collect all stickers in the Springtide Inn Online event.",
+		count_inherit = 0,
+		sub_type = 131,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "50441",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21901,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65860,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21902] = {
+		name = "『莫斯科UR活动』纪念贴纸获取1",
+		guild_coin_award = 0,
+		award = 909166,
+		type = 26,
+		desc = "Collect 7 stickers in the Springtide Inn Online event.",
+		count_inherit = 0,
+		sub_type = 131,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "50441",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21902,
+		target_num = 7,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65861,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21903] = {
+		name = "『莫斯科UR活动』纪念贴纸获取2",
+		guild_coin_award = 0,
+		award = 909167,
+		type = 26,
+		desc = "Read the whole story in the Springtide Inn Online event.",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21903,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7540
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65862,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21904] = {
+		name = "『莫斯科UR活动』纪念贴纸获取3",
+		guild_coin_award = 0,
+		award = 909168,
+		type = 26,
+		desc = "Clear the A3/C3 stage in Springtide Inn Online.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21904,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000003,
+			2000023
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65863,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21905] = {
+		name = "『莫斯科UR活动』纪念贴纸获取4",
+		guild_coin_award = 0,
+		award = 909169,
+		type = 26,
+		desc = "Defeat 300 enemies on the Springtide Inn Online event stages.",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21905,
+		target_num = 300,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16820001,
+			16820002,
+			16820003,
+			16820004,
+			16820005,
+			16820006,
+			16820101,
+			16820102,
+			16820103,
+			16820104,
+			16820105,
+			16820201,
+			16820202,
+			16820203,
+			16820301,
+			16820302,
+			16820303,
+			16821001,
+			16821002,
+			16821003,
+			16821004,
+			16821005,
+			16821006,
+			16821101,
+			16821102,
+			16821103,
+			16821104,
+			16821105,
+			16821201,
+			16821202,
+			16821203,
+			16821204,
+			16821205,
+			16821206,
+			16821301,
+			16821302,
+			16821303,
+			16822001,
+			16822002,
+			16822003,
+			16822004,
+			16822005,
+			16822006,
+			16822101,
+			16822102,
+			16822103,
+			16822104,
+			16822105,
+			16822201,
+			16822202,
+			16822203,
+			16822301,
+			16822302,
+			16822303,
+			16823001,
+			16823002,
+			16823003,
+			16823004,
+			16823005,
+			16823006,
+			16823101,
+			16823102,
+			16823103,
+			16823104,
+			16823105,
+			16823201,
+			16823202,
+			16823203,
+			16823204,
+			16823205,
+			16823206,
+			16823301,
+			16823302,
+			16823303,
+			16824001,
+			16824002,
+			16824003,
+			16824004,
+			16824005,
+			16824006,
+			16824101,
+			16824102,
+			16824103,
+			16824104,
+			16824105,
+			16824201,
+			16824202,
+			16824301,
+			16825001,
+			16825101
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65864,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21906] = {
+		name = "『莫斯科UR活动』纪念贴纸获取5",
+		guild_coin_award = 0,
+		award = 909170,
+		type = 26,
+		desc = "Clear 50 stages in Springtide Inn Online.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21906,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041,
+			2000051,
+			2000052
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65865,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21907] = {
+		name = "『莫斯科UR活动』纪念贴纸获取6",
+		guild_coin_award = 0,
+		award = 909171,
+		type = 26,
+		desc = "Clear the B3/D3 stage in Springtide Inn Online.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21907,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000006,
+			2000026
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65866,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21908] = {
+		name = "『莫斯科UR活动』纪念贴纸获取7",
+		guild_coin_award = 0,
+		award = 909172,
+		type = 26,
+		desc = "Clear the SP stage in Springtide Inn Online.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2000041",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21908,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65867,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21909] = {
+		name = "『莫斯科UR活动』纪念贴纸获取8",
+		guild_coin_award = 0,
+		award = 909173,
+		type = 26,
+		desc = "Collect a total of 10,000 Paper Lanterns.",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "50431",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "632",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21909,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65868,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21910] = {
+		name = "『莫斯科UR活动』大佬章获取任务",
+		guild_coin_award = 0,
+		award = 909198,
+		type = 26,
+		desc = "Raise the Inn to Lv. 10.",
+		count_inherit = 0,
+		sub_type = 9008,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21910,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				331,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[22011] = {
 		name = "新手任务阶段1-任务1",
 		guild_coin_award = 0,
@@ -306362,7 +306907,7 @@ end)()
 		is_head = 1,
 		task_fold = 0,
 		award_choice = "",
-		visibility = 1,
+		visibility = 0,
 		ryza_type = 0,
 		quick_finish = 0,
 		level = 1,
@@ -306405,7 +306950,7 @@ end)()
 		is_head = 1,
 		task_fold = 0,
 		award_choice = "",
-		visibility = 1,
+		visibility = 0,
 		ryza_type = 0,
 		quick_finish = 0,
 		level = 1,
@@ -306448,7 +306993,7 @@ end)()
 		is_head = 1,
 		task_fold = 0,
 		award_choice = "",
-		visibility = 1,
+		visibility = 0,
 		ryza_type = 0,
 		quick_finish = 0,
 		level = 1,
@@ -306491,7 +307036,7 @@ end)()
 		is_head = 1,
 		task_fold = 0,
 		award_choice = "",
-		visibility = 1,
+		visibility = 0,
 		ryza_type = 0,
 		quick_finish = 0,
 		level = 1,
@@ -306542,7 +307087,7 @@ end)()
 		is_head = 1,
 		task_fold = 0,
 		award_choice = "",
-		visibility = 1,
+		visibility = 0,
 		ryza_type = 0,
 		quick_finish = 0,
 		level = 1,
@@ -306593,7 +307138,7 @@ end)()
 		is_head = 1,
 		task_fold = 0,
 		award_choice = "",
-		visibility = 1,
+		visibility = 0,
 		ryza_type = 0,
 		quick_finish = 0,
 		level = 1,
@@ -306620,6 +307165,3281 @@ end)()
 		},
 		scene = {
 			"ACT_BOSS_BATTLE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25201] = {
+		name = "『莫斯科活动』-日常建造",
+		guild_coin_award = 0,
+		award = 909101,
+		type = 36,
+		desc = "Build 3 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25201,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65822,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25202] = {
+		name = "『莫斯科活动』-日常出击",
+		guild_coin_award = 0,
+		award = 909102,
+		type = 36,
+		desc = "Sortie and obtain 15 victories.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25202,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65822,
+				300
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25203] = {
+		name = "『莫斯科活动』-日常困难本",
+		guild_coin_award = 0,
+		award = 909103,
+		type = 36,
+		desc = "Sortie and clear 1 non-event Hard Mode Stage.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25203,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65822,
+				150
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25204] = {
+		name = "『莫斯科活动』通关A1/C1",
+		guild_coin_award = 0,
+		award = 909104,
+		type = 6,
+		desc = "Clear A1 or C1",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25205",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25204,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				65822,
+				200
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50426
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25205] = {
+		name = "『莫斯科活动』通关A2/C2",
+		guild_coin_award = 0,
+		award = 909105,
+		type = 6,
+		desc = "Clear A2 or C2",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25206",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25205,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000002,
+			2000022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				65822,
+				400
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50426
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25206] = {
+		name = "『莫斯科活动』通关A3/C3",
+		guild_coin_award = 0,
+		award = 909106,
+		type = 6,
+		desc = "Clear A3 or C3",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25207",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25206,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000003,
+			2000023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				2,
+				65822,
+				600
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50426
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25207] = {
+		name = "『莫斯科活动』通关B1/D1",
+		guild_coin_award = 0,
+		award = 909107,
+		type = 6,
+		desc = "Clear B1 or D1",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25208",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25207,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000004,
+			2000024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				65822,
+				400
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50427
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25208] = {
+		name = "『莫斯科活动』通关B2/D2",
+		guild_coin_award = 0,
+		award = 909108,
+		type = 6,
+		desc = "Clear B2 or D2",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25209",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25208,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000005,
+			2000025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				65822,
+				600
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50427
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25209] = {
+		name = "『莫斯科活动』通关B3/D3",
+		guild_coin_award = 0,
+		award = 909109,
+		type = 6,
+		desc = "Clear B3 or D3",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25210",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25209,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000006,
+			2000026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				2,
+				65822,
+				800
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50427
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25210] = {
+		name = "『莫斯科活动』通关SP",
+		guild_coin_award = 0,
+		award = 909110,
+		type = 6,
+		desc = "Clear the SP.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2000041",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25210,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 2000025,
+				chapterId = 2000041
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25211] = {
+		name = "『莫斯科活动』通关EX",
+		guild_coin_award = 0,
+		award = 909111,
+		type = 6,
+		desc = "Clear EX.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25211,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000051,
+			2000052
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 2000026,
+				chapterId = 2000051
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25212] = {
+		name = "『莫斯科活动』A1/C1的3星",
+		guild_coin_award = 0,
+		award = 909112,
+		type = 6,
+		desc = "Complete A1 or C1 with 3 stars",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25213",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25212,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50426
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25213] = {
+		name = "『莫斯科活动』A2/C2的3星",
+		guild_coin_award = 0,
+		award = 909113,
+		type = 6,
+		desc = "Complete A2 or C2 with 3 stars",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25214",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25213,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000002,
+			2000022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50426
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25214] = {
+		name = "『莫斯科活动』A3/C3的3星",
+		guild_coin_award = 0,
+		award = 909114,
+		type = 6,
+		desc = "Complete A3 or C3 with 3 stars",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25215",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25214,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000003,
+			2000023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50426
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25215] = {
+		name = "『莫斯科活动』B1/D1的3星",
+		guild_coin_award = 0,
+		award = 909115,
+		type = 6,
+		desc = "Complete B1 or D1 with 3 stars",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25216",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25215,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000004,
+			2000024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50427
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25216] = {
+		name = "『莫斯科活动』B2/D2的3星",
+		guild_coin_award = 0,
+		award = 909116,
+		type = 6,
+		desc = "Complete B2 or D2 with 3 stars",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25217",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25216,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000005,
+			2000025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50427
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25217] = {
+		name = "『莫斯科活动』B3/D3的3星",
+		guild_coin_award = 0,
+		award = 909117,
+		type = 6,
+		desc = "Complete B3 or D3 with 3 stars",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25217,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000006,
+			2000026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50427
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25218] = {
+		name = "『莫斯科活动』外观装备箱保底",
+		guild_coin_award = 0,
+		award = 909118,
+		type = 6,
+		desc = "Open 20 Gear Skin Boxes (Springtide Inn).",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "30381",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25218,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30565,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25219] = {
+		name = "『莫斯科活动』通关任务10次",
+		guild_coin_award = 0,
+		award = 909119,
+		type = 6,
+		desc = "Clear 10 stages in Springtide Inn Online.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25219,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65822,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25220] = {
+		name = "『莫斯科活动』通关任务30次",
+		guild_coin_award = 0,
+		award = 909120,
+		type = 6,
+		desc = "Clear 30 stages in Springtide Inn Online.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25220,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65822,
+				1500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25221] = {
+		name = "『莫斯科活动』通关任务60次",
+		guild_coin_award = 0,
+		award = 909121,
+		type = 6,
+		desc = "Clear 60 stages in Springtide Inn Online.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25221,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65822,
+				3000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25231] = {
+		name = "『春满客栈』酒楼达到6级",
+		guild_coin_award = 0,
+		award = 909181,
+		type = 26,
+		desc = "Raise the Restaurant to Lv. 6.",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25231,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59002,
+				400
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25232] = {
+		name = "『春满客栈』酒楼达到12级",
+		guild_coin_award = 0,
+		award = 909182,
+		type = 26,
+		desc = "Raise the Restaurant to Lv. 12.",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25232,
+		target_num = 12,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59001,
+				4000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25233] = {
+		name = "『春满客栈』酒楼达到满级",
+		guild_coin_award = 0,
+		award = 909219,
+		type = 26,
+		desc = "Raise the Restaurant to Max Level.",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25233,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59001,
+				2000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25234] = {
+		name = "『春满客栈』水榭楼台达到6级",
+		guild_coin_award = 0,
+		award = 909183,
+		type = 26,
+		desc = "Raise the Gazebo to Lv. 6.",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "4",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25234,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65869,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25235] = {
+		name = "『春满客栈』水榭楼台达到12级",
+		guild_coin_award = 0,
+		award = 909184,
+		type = 26,
+		desc = "Raise the Gazebo to Lv. 12.",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "4",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25235,
+		target_num = 12,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				328,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25236] = {
+		name = "『春满客栈』水榭楼台达到满级",
+		guild_coin_award = 0,
+		award = 909219,
+		type = 26,
+		desc = "Raise the Gazebo to Max Level.",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "4",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25236,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59001,
+				2000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25237] = {
+		name = "『春满客栈』花园达到6级",
+		guild_coin_award = 0,
+		award = 909185,
+		type = 26,
+		desc = "Raise the Garden to Lv. 6.",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "6",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25237,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59002,
+				400
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25238] = {
+		name = "『春满客栈』花园达到12级",
+		guild_coin_award = 0,
+		award = 909186,
+		type = 26,
+		desc = "Raise the Garden to Lv. 12.",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "6",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25238,
+		target_num = 12,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				330,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25239] = {
+		name = "『春满客栈』花园达到满级",
+		guild_coin_award = 0,
+		award = 909219,
+		type = 26,
+		desc = "Raise the Garden to Max Level.",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "6",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25239,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59001,
+				2000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25240] = {
+		name = "『春满客栈』池塘达到6级",
+		guild_coin_award = 0,
+		award = 909187,
+		type = 26,
+		desc = "Raise the Pond to Lv. 6.",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "5",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25240,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65869,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25241] = {
+		name = "『春满客栈』池塘达到12级",
+		guild_coin_award = 0,
+		award = 909188,
+		type = 26,
+		desc = "Raise the Pond to Lv. 12.",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "5",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25241,
+		target_num = 12,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				327,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25242] = {
+		name = "『春满客栈』池塘达到满级",
+		guild_coin_award = 0,
+		award = 909219,
+		type = 26,
+		desc = "Raise the Pond to Max Level.",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "5",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25242,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59001,
+				2000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25243] = {
+		name = "『春满客栈』仓库达到6级",
+		guild_coin_award = 0,
+		award = 909189,
+		type = 26,
+		desc = "Raise the Warehouse to Lv. 6.",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25243,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20013,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25244] = {
+		name = "『春满客栈』仓库达到12级",
+		guild_coin_award = 0,
+		award = 909190,
+		type = 26,
+		desc = "Raise the Warehouse to Lv. 12.",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25244,
+		target_num = 12,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				326,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25245] = {
+		name = "『春满客栈』仓库达到满级",
+		guild_coin_award = 0,
+		award = 909219,
+		type = 26,
+		desc = "Raise the Warehouse to Max Level.",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25245,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59001,
+				2000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25246] = {
+		name = "『春满客栈』旅舍达到4级",
+		guild_coin_award = 0,
+		award = 909191,
+		type = 26,
+		desc = "Raise the Parlor to Lv. 4.",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "3",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25246,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				54006,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25247] = {
+		name = "『春满客栈』旅舍达到满级",
+		guild_coin_award = 0,
+		award = 909192,
+		type = 26,
+		desc = "Raise the Parlor to Max Level.",
+		count_inherit = 0,
+		sub_type = 9009,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "3",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25247,
+		target_num = 9,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				329,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25248] = {
+		name = "『春满客栈』金币返还",
+		guild_coin_award = 0,
+		award = 909193,
+		type = 16,
+		desc = "Submit 1000000000 Old Coins.",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "66011",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1006",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25248,
+		target_num = 1000000000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				2000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25249] = {
+		name = "『春满客栈』总等级达到2级",
+		guild_coin_award = 0,
+		award = 909194,
+		type = 26,
+		desc = "Raise the Inn to Lv. 2.",
+		count_inherit = 0,
+		sub_type = 9008,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25249,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59002,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25250] = {
+		name = "『春满客栈』总等级达到4级",
+		guild_coin_award = 0,
+		award = 909195,
+		type = 26,
+		desc = "Raise the Inn to Lv. 4.",
+		count_inherit = 0,
+		sub_type = 9008,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25250,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59001,
+				4000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25251] = {
+		name = "『春满客栈』总等级达到6级",
+		guild_coin_award = 0,
+		award = 909196,
+		type = 26,
+		desc = "Raise the Inn to Lv. 6.",
+		count_inherit = 0,
+		sub_type = 9008,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25251,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				16501,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25252] = {
+		name = "『春满客栈』总等级达到8级",
+		guild_coin_award = 0,
+		award = 909197,
+		type = 26,
+		desc = "Raise the Inn to Lv. 8.",
+		count_inherit = 0,
+		sub_type = 9008,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25252,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				54016,
+				15
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25253] = {
+		name = "『春满客栈』总等级达到11级",
+		guild_coin_award = 0,
+		award = 909199,
+		type = 26,
+		desc = "Raise the Inn to Lv. 11.",
+		count_inherit = 0,
+		sub_type = 9008,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25253,
+		target_num = 11,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				42070,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25254] = {
+		name = "『春满客栈』总等级达到12级",
+		guild_coin_award = 0,
+		award = 909200,
+		type = 26,
+		desc = "Raise the Inn to Lv. 12.",
+		count_inherit = 0,
+		sub_type = 9008,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25254,
+		target_num = 12,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25255] = {
+		name = "『春满客栈』总等级达到13级",
+		guild_coin_award = 0,
+		award = 909201,
+		type = 26,
+		desc = "Raise the Inn to Lv. 13.",
+		count_inherit = 0,
+		sub_type = 9008,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25255,
+		target_num = 13,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				54006,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25256] = {
+		name = "『春满客栈』总等级达到14级",
+		guild_coin_award = 0,
+		award = 909202,
+		type = 26,
+		desc = "Raise the Inn to Lv. 14.",
+		count_inherit = 0,
+		sub_type = 9008,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25256,
+		target_num = 14,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25257] = {
+		name = "『春满客栈』总等级达到15级",
+		guild_coin_award = 0,
+		award = 909203,
+		type = 26,
+		desc = "Raise the Inn to Lv. 15.",
+		count_inherit = 0,
+		sub_type = 9008,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "25248",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25257,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				42076,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25258] = {
+		name = "『春满客栈』阅读全部活动剧情",
+		guild_coin_award = 0,
+		award = 909204,
+		type = 26,
+		desc = "Read the whole inn story.",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25258,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7521,
+			7522,
+			7523,
+			7524,
+			7525,
+			7526,
+			7527,
+			7528,
+			7529,
+			7530,
+			7531,
+			7532,
+			7533,
+			7534,
+			7535,
+			7536,
+			7537,
+			7538,
+			7539,
+			7540
+		},
+		open_need = {},
+		award_display = {
+			{
+				14,
+				614,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25259] = {
+		name = "『春满客栈』通关活动关卡5次",
+		guild_coin_award = 0,
+		award = 909205,
+		type = 26,
+		desc = "Clear 5 stages in Springtide Inn Online.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25259,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25260] = {
+		name = "『春满客栈』通关活动关卡10次",
+		guild_coin_award = 0,
+		award = 909206,
+		type = 26,
+		desc = "Clear 10 stages in Springtide Inn Online.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25260,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25261] = {
+		name = "『春满客栈』通关活动关卡15次",
+		guild_coin_award = 0,
+		award = 909207,
+		type = 26,
+		desc = "Clear 15 stages in Springtide Inn Online.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25261,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25262] = {
+		name = "『春满客栈』通关活动关卡20次",
+		guild_coin_award = 0,
+		award = 909208,
+		type = 26,
+		desc = "Clear 20 stages in Springtide Inn Online.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25262,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25263] = {
+		name = "『春满客栈』通关活动关卡25次",
+		guild_coin_award = 0,
+		award = 909209,
+		type = 26,
+		desc = "Clear 25 stages in Springtide Inn Online.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25263,
+		target_num = 25,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25264] = {
+		name = "『春满客栈』通关活动关卡30次",
+		guild_coin_award = 0,
+		award = 909210,
+		type = 26,
+		desc = "Clear 30 stages in Springtide Inn Online.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25264,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25265] = {
+		name = "『春满客栈』通关活动关卡35次",
+		guild_coin_award = 0,
+		award = 909211,
+		type = 26,
+		desc = "Clear 35 stages in Springtide Inn Online.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25265,
+		target_num = 35,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25266] = {
+		name = "『春满客栈』通关活动关卡40次",
+		guild_coin_award = 0,
+		award = 909212,
+		type = 26,
+		desc = "Clear 40 stages in Springtide Inn Online.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25266,
+		target_num = 40,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25267] = {
+		name = "『春满客栈』通关活动关卡45次",
+		guild_coin_award = 0,
+		award = 909213,
+		type = 26,
+		desc = "Clear 45 stages in Springtide Inn Online.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25267,
+		target_num = 45,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25268] = {
+		name = "『春满客栈』通关活动关卡50次",
+		guild_coin_award = 0,
+		award = 909214,
+		type = 26,
+		desc = "Clear 50 stages in Springtide Inn Online.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25268,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25269] = {
+		name = "『春满客栈』通关活动关卡55次",
+		guild_coin_award = 0,
+		award = 909215,
+		type = 26,
+		desc = "Clear 55 stages in Springtide Inn Online.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25269,
+		target_num = 55,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25270] = {
+		name = "『春满客栈』通关活动关卡60次",
+		guild_coin_award = 0,
+		award = 909216,
+		type = 26,
+		desc = "Clear 60 stages in Springtide Inn Online.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25270,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2000001,
+			2000002,
+			2000003,
+			2000004,
+			2000005,
+			2000006,
+			2000021,
+			2000022,
+			2000023,
+			2000024,
+			2000025,
+			2000026,
+			2000041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66012,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25271] = {
+		name = "『春满客栈』阅读全部经营日记",
+		guild_coin_award = 0,
+		award = 909217,
+		type = 26,
+		desc = "Read all business journal entries.",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25271,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7521,
+			7522,
+			7523,
+			7524,
+			7525
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25272] = {
+		name = "『春满客栈』阅读全部檐下趣闻",
+		guild_coin_award = 0,
+		award = 909217,
+		type = 26,
+		desc = "Read all parlor anecdotes.",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25272,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7536,
+			7537,
+			7538,
+			7539,
+			7540
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25273] = {
+		name = "『春满客栈』阅读全部神秘邂逅",
+		guild_coin_award = 0,
+		award = 909217,
+		type = 26,
+		desc = "Read all random encounters.",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25273,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7526,
+			7527,
+			7528,
+			7529,
+			7530,
+			7531,
+			7532,
+			7533,
+			7534,
+			7535
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25274] = {
+		name = "『2026春节第二弹』登录送皮肤体验券活动",
+		guild_coin_award = 0,
+		award = 88001,
+		type = 6,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25274,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				630,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25275] = {
+		name = "『春满客栈』登录游戏",
+		guild_coin_award = 0,
+		award = 909218,
+		type = 6,
+		desc = "Begin Springtide Inn Online.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25275,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66011,
+				1000
+			}
 		}
 	}
 end)()

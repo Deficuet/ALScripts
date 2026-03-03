@@ -1,0 +1,54 @@
+return {
+	init_effect = "",
+	name = "",
+	time = 0,
+	picture = "",
+	desc = "防空降低+北联微减速",
+	stack = 1,
+	id = 152162,
+	icon = 152160,
+	last_effect = "Darkness",
+	effect_list = {
+		{
+			type = "BattleBuffAddAttrRatio",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				attr = "antiAirPower",
+				number = -500
+			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "enemyantiAirPowerDownTag"
+			}
+		},
+		{
+			type = "BattleBuffFixVelocity",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				add = 0,
+				mul = -500
+			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "naximofubeilianjiansu"
+			}
+		}
+	}
+}

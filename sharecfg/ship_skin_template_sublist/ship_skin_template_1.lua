@@ -16762,5 +16762,122 @@ pg.base.ship_skin_template_1 = {
 				}
 			}
 		}
+	},
+	[102058] = {
+		ship_group = 10205,
+		name = "Miracle in White",
+		hand_id = 13,
+		lover_kiss = "lip02",
+		bgm = "",
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 102058,
+		group_index = 8,
+		purchase_offset = "",
+		painting = "hailunna_h",
+		lover_hand = "hand_2_02",
+		gyro = 0,
+		l2d_drag_rate = "",
+		shop_type_id = 9998,
+		prefab = "hailunna_h",
+		part_scale = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		shop_id = 0,
+		shop_dynamic_hx = 0,
+		bg = "",
+		illustrator = -1,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 1,
+		double_char = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		l2d_para_range = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		l2d_voice_calibrate = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Wh-what do you think, Commander? Does it suit me? ...I never could've imagined getting to wear this even in my dreams, let alone experience the bliss I feel now... Thank you so, so much.",
+		voice_actor = 34,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.771,
+					0.975,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.777,
+					0.983,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.969,
+					1.128,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.825,
+							1.901,
+							0
+						}
+					}
+				}
+			}
+		}
 	}
 }

@@ -65,90 +65,101 @@ function var_0_0.Preload(arg_6_0)
 		setImageSprite(arg_6_0.bg, LoadSprite("bg/star_level_bg_211"))
 	end
 
+	local var_6_2, var_6_3 = var_0_0.GetTotalResourceList(arg_6_0.contextData)
+
+	for iter_6_0, iter_6_1 in ipairs(var_6_2) do
+		var_6_0:AddPreloadResource(iter_6_1)
+	end
+
+	for iter_6_2, iter_6_3 in ipairs(var_6_3) do
+		var_6_0:AddPreloadCV(iter_6_3)
+	end
+
 	if arg_6_0.contextData.system == SYSTEM_DEBUG and BATTLE_DEBUG_CUSTOM_WEAPON then
-		for iter_6_0, iter_6_1 in pairs(ys.Battle.BattleUnitDetailView.BulletForger) do
-			local var_6_2 = "触发自定义子弹替换>>>" .. iter_6_0 .. "<<<，检查是否测试需要，否则联系程序"
-
-			pg.TipsMgr.GetInstance():ShowTips(var_6_2)
-
-			pg.bullet_template[iter_6_0] = iter_6_1
-		end
-
-		for iter_6_2, iter_6_3 in pairs(ys.Battle.BattleUnitDetailView.BarrageForger) do
-			local var_6_3 = "触发自定义弹幕替换>>>" .. iter_6_2 .. "<<<，检查是否测试需要，否则联系程序"
-
-			pg.TipsMgr.GetInstance():ShowTips(var_6_3)
-
-			pg.barrage_template[iter_6_2] = iter_6_3
-		end
-
-		for iter_6_4, iter_6_5 in pairs(ys.Battle.BattleUnitDetailView.AircraftForger) do
-			local var_6_4 = "触发自定义飞机替换>>>" .. iter_6_4 .. "<<<，检查是否测试需要，否则联系程序"
+		for iter_6_4, iter_6_5 in pairs(ys.Battle.BattleUnitDetailView.BulletForger) do
+			local var_6_4 = "触发自定义子弹替换>>>" .. iter_6_4 .. "<<<，检查是否测试需要，否则联系程序"
 
 			pg.TipsMgr.GetInstance():ShowTips(var_6_4)
 
-			pg.aircraft_template[iter_6_4] = iter_6_5
+			pg.bullet_template[iter_6_4] = iter_6_5
 		end
 
-		for iter_6_6, iter_6_7 in pairs(ys.Battle.BattleUnitDetailView.WeaponForger) do
-			local var_6_5 = "触发自定义武器替换>>>" .. iter_6_6 .. "<<<，检查是否测试需要，否则联系程序"
+		for iter_6_6, iter_6_7 in pairs(ys.Battle.BattleUnitDetailView.BarrageForger) do
+			local var_6_5 = "触发自定义弹幕替换>>>" .. iter_6_6 .. "<<<，检查是否测试需要，否则联系程序"
 
 			pg.TipsMgr.GetInstance():ShowTips(var_6_5)
 
-			pg.weapon_property[iter_6_6] = iter_6_7
+			pg.barrage_template[iter_6_6] = iter_6_7
+		end
 
-			local var_6_6 = var_6_0.GetWeaponResource(iter_6_6)
+		for iter_6_8, iter_6_9 in pairs(ys.Battle.BattleUnitDetailView.AircraftForger) do
+			local var_6_6 = "触发自定义飞机替换>>>" .. iter_6_8 .. "<<<，检查是否测试需要，否则联系程序"
 
-			for iter_6_8, iter_6_9 in ipairs(var_6_6) do
-				var_6_0:AddPreloadResource(iter_6_9)
+			pg.TipsMgr.GetInstance():ShowTips(var_6_6)
+
+			pg.aircraft_template[iter_6_8] = iter_6_9
+		end
+
+		for iter_6_10, iter_6_11 in pairs(ys.Battle.BattleUnitDetailView.WeaponForger) do
+			local var_6_7 = "触发自定义武器替换>>>" .. iter_6_10 .. "<<<，检查是否测试需要，否则联系程序"
+
+			pg.TipsMgr.GetInstance():ShowTips(var_6_7)
+
+			pg.weapon_property[iter_6_10] = iter_6_11
+
+			local var_6_8 = var_6_0.GetWeaponResource(iter_6_10)
+
+			for iter_6_12, iter_6_13 in ipairs(var_6_8) do
+				var_6_0:AddPreloadResource(iter_6_13)
 			end
 		end
 	end
 
-	local var_6_7, var_6_8 = var_0_0.GetTotalResourceList(arg_6_0.contextData)
-
-	for iter_6_10, iter_6_11 in ipairs(var_6_7) do
-		var_6_0:AddPreloadResource(iter_6_11)
-	end
-
-	for iter_6_12, iter_6_13 in ipairs(var_6_8) do
-		var_6_0:AddPreloadCV(iter_6_13)
-	end
-
 	if BATTLE_DEBUG and BATTLE_FREE_SUBMARINE then
-		local var_6_9 = getProxy(FleetProxy):getFleetById(11)
-		local var_6_10 = var_6_9:getTeamByName(TeamType.Submarine)
+		local var_6_9 = {}
+		local var_6_10 = getProxy(FleetProxy):getFleetById(11)
+		local var_6_11 = var_6_10:getTeamByName(TeamType.Submarine)
 
-		for iter_6_14, iter_6_15 in ipairs(var_6_10) do
-			table.insert(loadShip, var_6_1:getShipById(iter_6_15))
+		for iter_6_14, iter_6_15 in ipairs(var_6_11) do
+			table.insert(var_6_9, var_6_1:getShipById(iter_6_15))
 		end
 
-		var_0_0.addCommanderBuffRes(var_6_9:buildBattleBuffList())
+		local var_6_12, var_6_13 = var_6_0.GetPlayerShipResource(var_6_9, contextData.system)
+
+		for iter_6_16, iter_6_17 in ipairs(var_6_12) do
+			var_6_0:AddPreloadResource(iter_6_17)
+		end
+
+		for iter_6_18, iter_6_19 in ipairs(var_6_13) do
+			var_6_0:AddPreloadCV(iter_6_19)
+		end
+
+		var_0_0.addCommanderBuffRes(var_6_10:buildBattleBuffList())
 	end
 
-	local function var_6_11()
+	local function var_6_14()
 		SetActive(arg_6_0._loadingAnima, false)
 		SetActive(arg_6_0._finishAnima, true)
 
 		arg_6_0._finishAnima:GetComponent("Animator").enabled = true
 	end
 
-	local var_6_12 = 0
+	local var_6_15 = 0
 
-	local function var_6_13(arg_8_0)
+	local function var_6_16(arg_8_0)
 		local var_8_0
-		local var_8_1 = var_6_12 == 0 and 0 or arg_8_0 / var_6_12
+		local var_8_1 = var_6_15 == 0 and 0 or arg_8_0 / var_6_15
 
 		arg_6_0._loadingProgress.value = var_8_1
 		arg_6_0._loadingText.text = string.format("%.2f", var_8_1 * 100) .. "%"
 		arg_6_0._loadingAnima.anchoredPosition = Vector2(var_8_1 * var_0_0.LOADING_ANIMA_DISTANCE, arg_6_0._loadingAnimaPosY)
 	end
 
-	local var_6_14 = pg.UIMgr.GetInstance():GetMainCamera()
+	local var_6_17 = pg.UIMgr.GetInstance():GetMainCamera()
 
-	setActive(var_6_14, true)
+	setActive(var_6_17, true)
 
-	var_6_12 = var_6_0:StartPreload(var_6_11, var_6_13)
+	var_6_15 = var_6_0:StartPreload(var_6_14, var_6_16)
 	arg_6_0._tipsText.text = pg.server_language[math.random(#pg.server_language)].content
 end
 

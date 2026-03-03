@@ -347,6 +347,11 @@ pg.task_meta_data_template = setmetatable({
 		100513,
 		100514,
 		100515,
+		100521,
+		100522,
+		100523,
+		100524,
+		100525,
 		200001,
 		200002,
 		200003,
@@ -514,7 +519,11 @@ pg.task_meta_data_template = setmetatable({
 		200421,
 		200422,
 		200423,
-		200424
+		200424,
+		200431,
+		200432,
+		200433,
+		200434
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3279,6 +3288,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100521] = {
+		target_id_2 = "970510",
+		sub_type = 180,
+		desc = "Win 1 battle with Gangut META in your fleet.",
+		id = 100521,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100522] = {
+		target_id_2 = "970510",
+		sub_type = 180,
+		desc = "Defeat a Lv. 30+ fleet with Gangut META in your fleet.",
+		id = 100522,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100523] = {
+		target_id_2 = "970510",
+		sub_type = 180,
+		desc = "Defeat a Lv. 55+ fleet with Gangut META in your fleet.",
+		id = 100523,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100524] = {
+		target_id_2 = "970510",
+		sub_type = 180,
+		desc = "Defeat a Lv. 80+ fleet with Gangut META in your fleet.",
+		id = 100524,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100525] = {
+		target_id_2 = "970510",
+		sub_type = 180,
+		desc = "Defeat a Lv. 100+ fleet with Gangut META in your fleet.",
+		id = 100525,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -4620,6 +4669,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Carabiniere META in your fleet.",
 		id = 200424,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200431] = {
+		target_id_2 = "970510",
+		sub_type = 302,
+		desc = "Win 1 Operation Siren battle with Gangut META in your fleet.",
+		id = 200431,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200432] = {
+		target_id_2 = "970510",
+		sub_type = 302,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Gangut META in your fleet.",
+		id = 200432,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200433] = {
+		target_id_2 = "970510",
+		sub_type = 302,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Gangut META in your fleet.",
+		id = 200433,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200434] = {
+		target_id_2 = "970510",
+		sub_type = 302,
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Gangut META in your fleet.",
+		id = 200434,
 		target_num = 1,
 		target_id = "100"
 	}

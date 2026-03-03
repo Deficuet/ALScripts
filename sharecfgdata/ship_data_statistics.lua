@@ -324859,6 +324859,538 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[701131] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Ozornoy",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 701130,
+		english_name = "SN Ozornoy",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 701131,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			379,
+			27,
+			46,
+			35,
+			0,
+			75,
+			0,
+			69,
+			64,
+			43.8,
+			80,
+			52
+		},
+		attrs_growth = {
+			10788,
+			373,
+			636,
+			762,
+			0,
+			523,
+			0,
+			1062,
+			1190,
+			0,
+			0,
+			587
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.2,
+			1.05
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Ognevoy-class",
+			"Northern Union-DD",
+			"Ozornoy"
+		},
+		gift_dislike = {
+			180006,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[701132] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Ozornoy",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 701130,
+		english_name = "SN Ozornoy",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 701132,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			471,
+			34,
+			57,
+			44,
+			0,
+			75,
+			0,
+			69,
+			64,
+			43.8,
+			80,
+			65
+		},
+		attrs_growth = {
+			10788,
+			373,
+			636,
+			762,
+			0,
+			523,
+			0,
+			1062,
+			1190,
+			0,
+			0,
+			587
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.2,
+			1.05
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Ognevoy-class",
+			"Northern Union-DD",
+			"Ozornoy"
+		},
+		gift_dislike = {
+			180006,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[701133] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Ozornoy",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 701130,
+		english_name = "SN Ozornoy",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 701133,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			656,
+			47,
+			80,
+			61,
+			0,
+			75,
+			0,
+			69,
+			64,
+			43.8,
+			80,
+			90
+		},
+		attrs_growth = {
+			10788,
+			373,
+			636,
+			762,
+			0,
+			523,
+			0,
+			1062,
+			1190,
+			0,
+			0,
+			587
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1.2,
+			1.05
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Ognevoy-class",
+			"Northern Union-DD",
+			"Ozornoy"
+		},
+		gift_dislike = {
+			180006,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[701134] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Ozornoy",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 701130,
+		english_name = "SN Ozornoy",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 701134,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			933,
+			67,
+			114,
+			86,
+			0,
+			75,
+			0,
+			69,
+			64,
+			43.8,
+			80,
+			129
+		},
+		attrs_growth = {
+			10788,
+			373,
+			636,
+			762,
+			0,
+			523,
+			0,
+			1062,
+			1190,
+			0,
+			0,
+			587
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.6,
+			1.25,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Ognevoy-class",
+			"Northern Union-DD",
+			"Ozornoy"
+		},
+		gift_dislike = {
+			180006,
+			180007
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[702011] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -329143,6 +329675,1078 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[702091] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Krasny Kavkaz",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 702090,
+		english_name = "SN Krasny Kavkaz",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 702091,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			654,
+			29,
+			56,
+			32,
+			0,
+			51,
+			0,
+			49,
+			28,
+			29.5,
+			85,
+			13
+		},
+		attrs_growth = {
+			17697,
+			401,
+			747,
+			709,
+			0,
+			356,
+			0,
+			734,
+			618,
+			0,
+			0,
+			165
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			201
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.2,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180002,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[702092] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Krasny Kavkaz",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 702090,
+		english_name = "SN Krasny Kavkaz",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 702092,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			814,
+			36,
+			70,
+			40,
+			0,
+			51,
+			0,
+			49,
+			28,
+			29.5,
+			85,
+			16
+		},
+		attrs_growth = {
+			17697,
+			401,
+			747,
+			709,
+			0,
+			356,
+			0,
+			734,
+			618,
+			0,
+			0,
+			165
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			202
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.2,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180002,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[702093] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Krasny Kavkaz",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 702090,
+		english_name = "SN Krasny Kavkaz",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 702093,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1133,
+			50,
+			97,
+			56,
+			0,
+			51,
+			0,
+			49,
+			28,
+			29.5,
+			85,
+			23
+		},
+		attrs_growth = {
+			17697,
+			401,
+			747,
+			709,
+			0,
+			356,
+			0,
+			734,
+			618,
+			0,
+			0,
+			165
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			203
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.2,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180002,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[702094] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Krasny Kavkaz",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 702090,
+		english_name = "SN Krasny Kavkaz",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 702094,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1611,
+			72,
+			139,
+			80,
+			0,
+			51,
+			0,
+			49,
+			28,
+			29.5,
+			85,
+			33
+		},
+		attrs_growth = {
+			17697,
+			401,
+			747,
+			709,
+			0,
+			356,
+			0,
+			734,
+			618,
+			0,
+			0,
+			165
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			204
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			1.2,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180002,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[702101] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Bogatyr",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 702100,
+		english_name = "SN Bogatyr",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 702101,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			625,
+			23,
+			40,
+			27,
+			0,
+			68,
+			0,
+			57,
+			27,
+			23,
+			80,
+			13
+		},
+		attrs_growth = {
+			16911,
+			319,
+			551,
+			593,
+			0,
+			475,
+			0,
+			835,
+			570,
+			0,
+			0,
+			165
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			261
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.9,
+			1.2,
+			0.8,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180005,
+			180006
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[702102] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Bogatyr",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 702100,
+		english_name = "SN Bogatyr",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 702102,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			777,
+			29,
+			50,
+			34,
+			0,
+			68,
+			0,
+			57,
+			27,
+			23,
+			80,
+			16
+		},
+		attrs_growth = {
+			16911,
+			319,
+			551,
+			593,
+			0,
+			475,
+			0,
+			835,
+			570,
+			0,
+			0,
+			165
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			262
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			1.2,
+			0.8,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180005,
+			180006
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[702103] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Bogatyr",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 702100,
+		english_name = "SN Bogatyr",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 702103,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1082,
+			40,
+			70,
+			47,
+			0,
+			68,
+			0,
+			57,
+			27,
+			23,
+			80,
+			23
+		},
+		attrs_growth = {
+			16911,
+			319,
+			551,
+			593,
+			0,
+			475,
+			0,
+			835,
+			570,
+			0,
+			0,
+			165
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			263
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.2,
+			0.8,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180005,
+			180006
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[702104] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Bogatyr",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 702100,
+		english_name = "SN Bogatyr",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 702104,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1540,
+			57,
+			99,
+			67,
+			0,
+			68,
+			0,
+			57,
+			27,
+			23,
+			80,
+			33
+		},
+		attrs_growth = {
+			16911,
+			319,
+			551,
+			593,
+			0,
+			475,
+			0,
+			835,
+			570,
+			0,
+			0,
+			165
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			264
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.2,
+			0.8,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180005,
+			180006
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[702124] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -330332,6 +331936,534 @@ end)()
 		gift_dislike = {
 			180009,
 			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[703031] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Moskva",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 703030,
+		english_name = "SN Moskva",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 703031,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1307,
+			54,
+			0,
+			75,
+			0,
+			76,
+			0,
+			53,
+			16,
+			27.6,
+			66,
+			0
+		},
+		attrs_growth = {
+			33493,
+			726,
+			0,
+			1551,
+			0,
+			531,
+			0,
+			784,
+			485,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			0.95,
+			1.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Northern Union-CA",
+			"MOSKVA"
+		},
+		gift_dislike = {
+			180009,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[703032] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Moskva",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 703030,
+		english_name = "SN Moskva",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 703032,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1626,
+			67,
+			0,
+			93,
+			0,
+			76,
+			0,
+			53,
+			16,
+			27.6,
+			66,
+			0
+		},
+		attrs_growth = {
+			33493,
+			726,
+			0,
+			1551,
+			0,
+			531,
+			0,
+			784,
+			485,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			0.95,
+			1.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Northern Union-CA",
+			"MOSKVA"
+		},
+		gift_dislike = {
+			180009,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[703033] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Moskva",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 703030,
+		english_name = "SN Moskva",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 703033,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2264,
+			94,
+			0,
+			130,
+			0,
+			76,
+			0,
+			53,
+			16,
+			27.6,
+			66,
+			0
+		},
+		attrs_growth = {
+			33493,
+			726,
+			0,
+			1551,
+			0,
+			531,
+			0,
+			784,
+			485,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			0.95,
+			1.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Northern Union-CA",
+			"MOSKVA"
+		},
+		gift_dislike = {
+			180009,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[703034] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Moskva",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 703030,
+		english_name = "SN Moskva",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 703034,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			3220,
+			134,
+			0,
+			185,
+			0,
+			76,
+			0,
+			53,
+			16,
+			27.6,
+			66,
+			0
+		},
+		attrs_growth = {
+			33493,
+			726,
+			0,
+			1551,
+			0,
+			531,
+			0,
+			784,
+			485,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1,
+			1.35
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Northern Union-CA",
+			"MOSKVA"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -453318,6 +455450,522 @@ end)()
 		gift_dislike = {
 			180005,
 			180002
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9705101] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Gangut META",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 9705100,
+		english_name = "Gangut.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 9705101,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1123,
+			71,
+			0,
+			34,
+			0,
+			57,
+			0,
+			15,
+			4,
+			24,
+			85,
+			0
+		},
+		attrs_growth = {
+			21174,
+			857,
+			0,
+			459,
+			0,
+			395,
+			0,
+			237,
+			191,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9705102] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Gangut META",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 9705100,
+		english_name = "Gangut.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 9705102,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1397,
+			89,
+			0,
+			42,
+			0,
+			57,
+			0,
+			15,
+			4,
+			24,
+			85,
+			0
+		},
+		attrs_growth = {
+			21174,
+			857,
+			0,
+			459,
+			0,
+			395,
+			0,
+			237,
+			191,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9705103] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Gangut META",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 9705100,
+		english_name = "Gangut.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 9705103,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1945,
+			124,
+			0,
+			59,
+			0,
+			57,
+			0,
+			15,
+			4,
+			24,
+			85,
+			0
+		},
+		attrs_growth = {
+			21174,
+			857,
+			0,
+			459,
+			0,
+			395,
+			0,
+			237,
+			191,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9705104] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Gangut META",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 9705100,
+		english_name = "Gangut.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 9705104,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2766,
+			177,
+			0,
+			84,
+			0,
+			57,
+			0,
+			15,
+			4,
+			24,
+			85,
+			0
+		},
+		attrs_growth = {
+			21174,
+			857,
+			0,
+			459,
+			0,
+			395,
+			0,
+			237,
+			191,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180007
 		}
 	}
 end)()

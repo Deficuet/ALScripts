@@ -16558,6 +16558,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_data_statistics[21057] = {
+		open_directly = 0,
+		name = "META Crystal – Gangut META",
+		display = "An item that increases the potential of Gangut META. Used in the META Lab during Somatic Activation.",
+		type = 4,
+		display_effect = "",
+		id = 21057,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/21057",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_data_statistics[21101] = {
 		open_directly = 0,
 		name = "Crystallized Heat-Resistant Steel",
@@ -29188,6 +29220,132 @@ end)()
 			{
 				9,
 				4311,
+				1
+			}
+		},
+		price = {
+			1,
+			7000
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[30381] = {
+		open_directly = 1,
+		name = "Gear Skin Box (Springtide Inn)",
+		display = "Contains a random Springtide Inn-themed gear skin.",
+		type = 11,
+		display_effect = "",
+		id = 30381,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "Props/appearanceboxchunmankezhan",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "30378",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				9,
+				4312,
+				1
+			},
+			{
+				9,
+				4313,
+				1
+			},
+			{
+				9,
+				4314,
+				1
+			},
+			{
+				9,
+				4315,
+				1
+			},
+			{
+				9,
+				4316,
+				1
+			},
+			{
+				9,
+				4317,
+				1
+			},
+			{
+				9,
+				4318,
+				1
+			},
+			{
+				9,
+				4319,
+				1
+			},
+			{
+				9,
+				4320,
+				1
+			},
+			{
+				9,
+				4321,
+				1
+			},
+			{
+				9,
+				4322,
+				1
+			},
+			{
+				9,
+				4323,
+				1
+			},
+			{
+				9,
+				4324,
+				1
+			},
+			{
+				9,
+				4325,
+				1
+			},
+			{
+				9,
+				4326,
+				1
+			},
+			{
+				9,
+				4327,
+				1
+			},
+			{
+				9,
+				4328,
+				1
+			},
+			{
+				9,
+				4329,
 				1
 			}
 		},
@@ -44654,6 +44812,220 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_data_statistics[30565] = {
+		open_directly = 0,
+		name = "Selection Gear Skin Box (Springtide Inn)",
+		display = "Can be opened to receive 1 Springtide Inn-themed gear skin of your choosing.",
+		type = 13,
+		display_effect = "",
+		id = 30565,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop_appointed",
+		link_id = 0,
+		icon = "Props/appearanceboxchunmankezhanzixuan",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				9,
+				4312,
+				1
+			},
+			{
+				9,
+				4313,
+				1
+			},
+			{
+				9,
+				4314,
+				1
+			},
+			{
+				9,
+				4315,
+				1
+			},
+			{
+				9,
+				4316,
+				1
+			},
+			{
+				9,
+				4317,
+				1
+			},
+			{
+				9,
+				4318,
+				1
+			},
+			{
+				9,
+				4319,
+				1
+			},
+			{
+				9,
+				4320,
+				1
+			},
+			{
+				9,
+				4321,
+				1
+			},
+			{
+				9,
+				4322,
+				1
+			},
+			{
+				9,
+				4323,
+				1
+			},
+			{
+				9,
+				4324,
+				1
+			},
+			{
+				9,
+				4325,
+				1
+			},
+			{
+				9,
+				4326,
+				1
+			},
+			{
+				9,
+				4327,
+				1
+			},
+			{
+				9,
+				4328,
+				1
+			},
+			{
+				9,
+				4329,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			{
+				9,
+				4312,
+				1
+			},
+			{
+				9,
+				4313,
+				1
+			},
+			{
+				9,
+				4314,
+				1
+			},
+			{
+				9,
+				4315,
+				1
+			},
+			{
+				9,
+				4316,
+				1
+			},
+			{
+				9,
+				4317,
+				1
+			},
+			{
+				9,
+				4318,
+				1
+			},
+			{
+				9,
+				4319,
+				1
+			},
+			{
+				9,
+				4320,
+				1
+			},
+			{
+				9,
+				4321,
+				1
+			},
+			{
+				9,
+				4322,
+				1
+			},
+			{
+				9,
+				4323,
+				1
+			},
+			{
+				9,
+				4324,
+				1
+			},
+			{
+				9,
+				4325,
+				1
+			},
+			{
+				9,
+				4326,
+				1
+			},
+			{
+				9,
+				4327,
+				1
+			},
+			{
+				9,
+				4328,
+				1
+			},
+			{
+				9,
+				4329,
+				1
+			}
+		},
+		limit = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_data_statistics[30900] = {
 		open_directly = 0,
 		name = "Universal T4 Part",
@@ -48671,6 +49043,92 @@ end)()
 				2,
 				30113,
 				150
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[40077] = {
+		open_directly = 1,
+		name = "Battle UI Pack - Springtide Inn (Basic)",
+		display = "Contains the Battle UI - Springtide Inn theme and 1,000 Coins.",
+		type = 17,
+		display_effect = "OpenBox",
+		id = 40077,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "ChargeIcon/ui8",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "4077",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				31,
+				207,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[40078] = {
+		open_directly = 1,
+		name = "Battle UI Pack - Springtide Inn (Premium)",
+		display = "Contains the Battle UI - Springtide Inn theme and 3,060 Gems.",
+		type = 17,
+		display_effect = "OpenBox",
+		id = 40078,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "ChargeIcon/ui8",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "4078",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				31,
+				207,
+				1
+			},
+			{
+				1,
+				14,
+				3060
 			}
 		},
 		price = {},
@@ -112690,7 +113148,7 @@ end)()
 	_G.pg.base.item_data_statistics[81232] = {
 		open_directly = 1,
 		name = "Spring Lucky Box 2026 A",
-		display = "Contains a random Spring Lucky Box 2026 A skin, Special General Blueprint - Series 8 x2, Gems x2026, Cognitive Chips x50, Wisdom Cubes x20, Decor Tokens x100, and Quick Finishers x10.",
+		display = "Buy to receive one random Spring Lucky Box 2026 A skin, Special General Blueprint - Series 8 x2, Gems x2026, Cognitive Chips x50, Wisdom Cubes x20, Decor Tokens x100, and Quick Finishers x10.",
 		type = 17,
 		display_effect = "",
 		id = 81232,
@@ -112713,6 +113171,74 @@ end)()
 			{
 				2,
 				86224,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[81233] = {
+		open_directly = 1,
+		name = "Spring Lucky Box 2026 B",
+		display = "Buy to receive one random Spring Lucky Box 2026 B skin, Special General Blueprint - Series 8 x2, Gems x2026, Cognitive Chips x50, Wisdom Cubes x20, Decor Token x100, and Quick Finisher x10.",
+		type = 17,
+		display_effect = "",
+		id = 81233,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "Props/fudai33",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "998329",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				86225,
 				1
 			},
 			{

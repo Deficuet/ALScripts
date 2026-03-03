@@ -48,7 +48,7 @@ function var_0_0.addListener(arg_7_0)
 			x = 1558,
 			y = 515
 		})
-		scrollToBottom(arg_7_0._tf.parent.parent)
+		scrollToBottom(arg_7_0._tf.parent)
 		setActive(arg_7_0.panel, true)
 		setActive(arg_7_0.expandBtn, false)
 	end, SFX_PANEL)

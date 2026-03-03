@@ -18,8 +18,8 @@ function var_0_1.OnTotalChange(arg_1_0, arg_1_1)
 		SetActive(arg_1_0._glowEff, false)
 		arg_1_0:OnUnfill()
 		arg_1_0:OnUnSelect()
-		SetActive(arg_1_0._chargeEff, false)
-		SetActive(arg_1_0._fullChargeEff, false)
+		SetActive(arg_1_0._gizmos1, false)
+		SetActive(arg_1_0._gizmosXue, false)
 	else
 		if arg_1_0._progressInfo:GetTotal() == arg_1_0._progressInfo:GetCount() then
 			SetActive(arg_1_0._glowEff, true)
@@ -40,7 +40,7 @@ end
 
 function var_0_1.OnCountChange(arg_2_0)
 	var_0_1.super.OnCountChange(arg_2_0)
-	SetActive(arg_2_0._fullChargeEff, arg_2_0._progressInfo:GetCount() > 0)
+	SetActive(arg_2_0._gizmosXue, arg_2_0._progressInfo:GetCount() > 0)
 end
 
 function var_0_1.SetToCombatUIPreview(arg_3_0, arg_3_1)
@@ -52,9 +52,9 @@ function var_0_1.SetToCombatUIPreview(arg_3_0, arg_3_1)
 		arg_3_0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = 1
 		arg_3_0._countTxt.text = "1/1"
 
-		if arg_3_0._chargeEff then
-			SetActive(arg_3_0._chargeEff, true)
-			SetActive(arg_3_0._fullChargeEff, true)
+		if arg_3_0._gizmos1 then
+			SetActive(arg_3_0._gizmos1, true)
+			SetActive(arg_3_0._gizmosXue, true)
 		end
 
 		SetActive(arg_3_0._glowEff, true)
@@ -69,9 +69,9 @@ function var_0_1.SetToCombatUIPreview(arg_3_0, arg_3_1)
 
 		SetActive(arg_3_0._glowEff, false)
 
-		if arg_3_0._chargeEff then
-			SetActive(arg_3_0._chargeEff, false)
-			SetActive(arg_3_0._fullChargeEff, false)
+		if arg_3_0._gizmos1 then
+			SetActive(arg_3_0._gizmos1, false)
+			SetActive(arg_3_0._gizmosXue, false)
 		end
 	end
 end

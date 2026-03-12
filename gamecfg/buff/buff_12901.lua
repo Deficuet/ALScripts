@@ -11,6 +11,16 @@ return {
 				skill_id = 12901,
 				time = 10
 			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "Hibiki_Phoenix_Skill_1"
+			}
 		}
 	},
 	{
@@ -25,6 +35,16 @@ return {
 					target = "TargetSelf",
 					skill_id = 12901,
 					time = 10
+				}
+			},
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "Hibiki_Phoenix_Skill_1"
 				}
 			}
 		}
@@ -42,6 +62,16 @@ return {
 					skill_id = 12901,
 					time = 10
 				}
+			},
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "Hibiki_Phoenix_Skill_1"
+				}
 			}
 		}
 	},
@@ -57,6 +87,16 @@ return {
 					target = "TargetSelf",
 					skill_id = 12901,
 					time = 10
+				}
+			},
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "Hibiki_Phoenix_Skill_1"
 				}
 			}
 		}
@@ -74,6 +114,16 @@ return {
 					skill_id = 12901,
 					time = 10
 				}
+			},
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "Hibiki_Phoenix_Skill_1"
+				}
 			}
 		}
 	},
@@ -89,6 +139,16 @@ return {
 					target = "TargetSelf",
 					skill_id = 12901,
 					time = 10
+				}
+			},
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "Hibiki_Phoenix_Skill_1"
 				}
 			}
 		}
@@ -106,6 +166,16 @@ return {
 					skill_id = 12901,
 					time = 10
 				}
+			},
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "Hibiki_Phoenix_Skill_1"
+				}
 			}
 		}
 	},
@@ -121,6 +191,16 @@ return {
 					target = "TargetSelf",
 					skill_id = 12901,
 					time = 10
+				}
+			},
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "Hibiki_Phoenix_Skill_1"
 				}
 			}
 		}
@@ -138,6 +218,16 @@ return {
 					skill_id = 12901,
 					time = 10
 				}
+			},
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "Hibiki_Phoenix_Skill_1"
+				}
 			}
 		}
 	},
@@ -154,6 +244,16 @@ return {
 					skill_id = 12901,
 					time = 10
 				}
+			},
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "Hibiki_Phoenix_Skill_1"
+				}
 			}
 		}
 	},
@@ -169,6 +269,16 @@ return {
 					target = "TargetSelf",
 					skill_id = 12901,
 					time = 10
+				}
+			},
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "Hibiki_Phoenix_Skill_1"
 				}
 			}
 		}

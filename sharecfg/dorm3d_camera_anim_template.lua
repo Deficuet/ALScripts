@@ -5842,6 +5842,215 @@ pg.dorm3d_camera_anim_template = {
 		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
+	[14501] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 49905,
+		state = "IK_desk02_idle01",
+		desc = "静待",
+		staypoint = "Pos600510",
+		id = 14501,
+		pre_anim = 0,
+		zone = "14002",
+		icon = "camera_action24",
+		room = 14,
+		hide_scene_item = "",
+		furniture_id = 1462,
+		finish_anim = 0,
+		enter_scene_anim = {
+			{
+				2023,
+				"IK_desk02_idle01_ZZ"
+			}
+		},
+		enter_extra_item = {
+			{
+				"furniture/Item/Book_01/pre_db_book_01_IK600510",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_desk02_idle01_book"
+			}
+		}
+	},
+	[14502] = {
+		anim_time = 23.9,
+		unlock = "",
+		ship_group = 49905,
+		state = "IK_desk02_idle01_fb02",
+		desc = "伸懒腰",
+		staypoint = "Pos600510",
+		id = 14502,
+		pre_anim = 14501,
+		zone = "14002",
+		icon = "camera_action25",
+		room = 14,
+		hide_scene_item = "",
+		furniture_id = 1462,
+		finish_anim = 14501,
+		enter_scene_anim = {
+			{
+				2023,
+				"IK_desk02_idle01_fb02_ZZ"
+			}
+		},
+		enter_extra_item = {
+			{
+				"furniture/Item/Book_01/pre_db_book_01_IK600510",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_desk02_idle01_fb02_book"
+			}
+		}
+	},
+	[14503] = {
+		anim_time = 15.567,
+		unlock = "",
+		ship_group = 49905,
+		state = "IK_desk02_idle01_fb01",
+		desc = "侧身",
+		staypoint = "Pos600510",
+		id = 14503,
+		pre_anim = 14501,
+		zone = "14002",
+		icon = "camera_action14",
+		room = 14,
+		hide_scene_item = "",
+		furniture_id = 1462,
+		finish_anim = 14501,
+		enter_scene_anim = {
+			{
+				2023,
+				"IK_desk02_idle01_fb01_ZZ"
+			}
+		},
+		enter_extra_item = {
+			{
+				"furniture/Item/Book_01/pre_db_book_01_IK600510",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_desk02_idle01_fb01_book"
+			}
+		}
+	},
+	[14504] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 49905,
+		state = "IK_desk02_idle02",
+		desc = "静待",
+		staypoint = "Pos600520",
+		id = 14504,
+		pre_anim = 0,
+		zone = "14002",
+		icon = "camera_action20",
+		room = 14,
+		enter_extra_item = "",
+		furniture_id = 1462,
+		finish_anim = 0,
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				2023,
+				"IK_desk02_idle02_ZZ"
+			}
+		}
+	},
+	[14505] = {
+		anim_time = 11.333,
+		unlock = "",
+		ship_group = 49905,
+		state = "IK_desk02_idle02_fb01",
+		desc = "伸懒腰",
+		staypoint = "Pos600520",
+		id = 14505,
+		pre_anim = 14504,
+		zone = "14002",
+		icon = "camera_action13",
+		room = 14,
+		enter_extra_item = "",
+		furniture_id = 1462,
+		finish_anim = 14504,
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				2023,
+				"IK_desk02_idle02_fb01_ZZ"
+			}
+		}
+	},
+	[14506] = {
+		anim_time = 24.533,
+		unlock = "",
+		ship_group = 49905,
+		state = "IK_desk02_idle02_fb02",
+		desc = "开心",
+		staypoint = "Pos600520",
+		id = 14506,
+		pre_anim = 14504,
+		zone = "14002",
+		icon = "camera_action14",
+		room = 14,
+		enter_extra_item = "",
+		furniture_id = 1462,
+		finish_anim = 14504,
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				2023,
+				"IK_desk02_idle02_fb02_ZZ"
+			}
+		}
+	},
+	[14507] = {
+		anim_time = 23.667,
+		unlock = "",
+		ship_group = 49905,
+		state = "IK_desk02_idle02_fb03",
+		desc = "得意",
+		staypoint = "Pos600520",
+		id = 14507,
+		pre_anim = 14504,
+		zone = "14002",
+		icon = "camera_action15",
+		room = 14,
+		enter_extra_item = "",
+		furniture_id = 1462,
+		finish_anim = 14504,
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				2023,
+				"IK_desk02_idle02_fb03_ZZ"
+			}
+		}
+	},
 	[16001] = {
 		anim_time = 0,
 		unlock = "",
@@ -6593,6 +6802,15 @@ pg.dorm3d_camera_anim_template = {
 			14404,
 			14405,
 			14406
+		},
+		[1462] = {
+			14501,
+			14502,
+			14503,
+			14504,
+			14505,
+			14506,
+			14507
 		}
 	},
 	all = {
@@ -6891,6 +7109,13 @@ pg.dorm3d_camera_anim_template = {
 		14404,
 		14405,
 		14406,
+		14501,
+		14502,
+		14503,
+		14504,
+		14505,
+		14506,
+		14507,
 		16001,
 		16002,
 		16003,

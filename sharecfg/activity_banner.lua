@@ -12,8 +12,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					2,
-					26
+					3,
+					12
 				},
 				{
 					0,
@@ -25,7 +25,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					4
+					18
 				},
 				{
 					23,
@@ -50,8 +50,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					2,
-					26
+					3,
+					12
 				},
 				{
 					0,
@@ -63,7 +63,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					12
+					19
 				},
 				{
 					12,
@@ -74,21 +74,16 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "50461",
 		id = 3,
 		pic = "temp3",
-		type = 2,
-		param = {
-			"scene core activity",
-			{
-				coreName = "MoscowURCoreActivityUI"
-			}
-		},
+		type = 3,
 		time = {
 			{
 				{
 					2026,
-					2,
-					26
+					3,
+					12
 				},
 				{
 					0,
@@ -100,7 +95,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					12
+					19
 				},
 				{
 					12,
@@ -124,8 +119,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					2,
-					26
+					3,
+					12
 				},
 				{
 					0,
@@ -137,7 +132,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					11
+					18
 				},
 				{
 					23,
@@ -161,8 +156,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					2,
-					26
+					3,
+					12
 				},
 				{
 					0,
@@ -174,7 +169,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					11
+					18
 				},
 				{
 					23,
@@ -186,16 +181,16 @@ pg.activity_banner = {
 	},
 	{
 		id = 6,
-		pic = "temp7",
+		pic = "temp6",
 		type = 2,
 		param = {
-			"scene court yard"
+			"scene dailylevel"
 		},
 		time = {
 			{
 				{
 					2026,
-					2,
+					3,
 					12
 				},
 				{
@@ -208,7 +203,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					4
+					18
 				},
 				{
 					23,
@@ -220,33 +215,17 @@ pg.activity_banner = {
 	},
 	{
 		id = 7,
-		pic = "temp6",
-		time = "stop",
+		pic = "temp7",
 		type = 2,
 		param = {
 			"dorm 3d select"
-		}
-	},
-	{
-		param = "50372",
-		time = "stop",
-		type = 2,
-		id = 8,
-		pic = "temp8"
-	},
-	{
-		id = 9,
-		pic = "temp9",
-		type = 2,
-		param = {
-			"LiquorFloor"
 		},
 		time = {
 			{
 				{
 					2026,
-					2,
-					26
+					3,
+					12
 				},
 				{
 					0,
@@ -258,7 +237,79 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	{
+		id = 8,
+		pic = "temp8",
+		type = 2,
+		param = {
+			"scene equip",
+			{
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					3,
 					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	{
+		id = 9,
+		pic = "temp9",
+		type = 2,
+		param = {
+			"metacharacter"
+		},
+		time = {
+			{
+				{
+					2026,
+					3,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					3,
+					19
 				},
 				{
 					12,
@@ -342,13 +393,15 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			2,
-			3,
 			4,
 			5,
 			6,
 			7,
 			8,
 			9
+		},
+		[3] = {
+			3
 		},
 		[9] = {
 			90,

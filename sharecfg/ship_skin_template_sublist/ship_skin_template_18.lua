@@ -10070,6 +10070,130 @@ pg.base.ship_skin_template_18 = {
 			}
 		}
 	},
+	[9702110] = {
+		ship_group = 970211,
+		name = "{namecode:516}·META",
+		hand_id = 1,
+		lover_kiss = "",
+		bgm = "",
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 9702110,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "leigensibao_alter",
+		lover_hand = "",
+		gyro = 0,
+		l2d_drag_rate = "",
+		shop_type_id = 0,
+		prefab = "leigensibao_alter",
+		part_scale = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		shop_id = 0,
+		shop_dynamic_hx = 0,
+		bg = "",
+		illustrator = 1,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = -1,
+		double_char = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		l2d_para_range = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		l2d_voice_calibrate = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "我是神圣联合帝国选侯之一的{namecode:516}。指挥官，希望你能比那些笼中的野兽更有趣些，毕竟，驯服你这样的存在，才配得上我的闲暇时光。 ",
+		voice_actor = 362,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.188,
+					0.747,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.206,
+					0.881,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.723,
+					2.332,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.639,
+							2.398,
+							-0.18
+						}
+					}
+				}
+			}
+		}
+	},
 	[9703010] = {
 		ship_group = 970301,
 		name = "特伦托·META",
@@ -16628,125 +16752,6 @@ pg.base.ship_skin_template_18 = {
 		show_skin = "stand",
 		ship_l2d_id = "",
 		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.96,
-					0.81,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.16,
-					0.12,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.73,
-					0.81,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.57,
-							2.46,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[10300021] = {
-		ship_group = 1030002,
-		name = "猫音(传颂之物)",
-		hand_id = 6,
-		lover_kiss = "lip01",
-		bgm = "",
-		illustrator2 = -1,
-		shop_offset = "",
-		id = 10300021,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "maoyin_2",
-		lover_hand = "hand_3_02",
-		gyro = 0,
-		l2d_drag_rate = "",
-		shop_type_id = 9999,
-		prefab = "maoyin_2",
-		part_scale = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		shop_id = 70119,
-		shop_dynamic_hx = 0,
-		bg = "208",
-		illustrator = -1,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = 4,
-		double_char = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		l2d_para_range = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		l2d_voice_calibrate = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "额…好、好的……初、初次见面……",
-		voice_actor = 157,
-		spine_offset = "",
-		change_skin = "",
-		rarity_bg = "",
-		time = "",
-		get_showing = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
 		live2d_offset = {
 			0,
 			0,

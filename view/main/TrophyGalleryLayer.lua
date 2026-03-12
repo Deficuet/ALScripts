@@ -98,6 +98,7 @@ function var_0_0.didEnter(arg_8_0)
 		setActive(arg_14_0, var_14_0:IsTipLevelUp() or var_14_0:IsTipAllLevelReward())
 	end)
 	pg.EasyRedDotMgr.GetInstance():RegisterRedDot(arg_8_0.rtCountLevelPanel:Find("info/icon/tip"), {
+		"love_letter_level_up",
 		"love_letter_level_reward"
 	}, function(arg_15_0)
 		setActive(arg_15_0, getProxy(LoveLetterProxy):IsTipAllLevelReward())

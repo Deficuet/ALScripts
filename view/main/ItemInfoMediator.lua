@@ -4,6 +4,7 @@ var_0_0.USE_ITEM = "ItemInfoMediator:USE_ITEM"
 var_0_0.COMPOSE_ITEM = "ItemInfoMediator:COMPOSE_ITEM"
 var_0_0.SELL_BLUEPRINT = "sell blueprint"
 var_0_0.EXCHANGE_LOVE_LETTER_ITEM = "ItemInfoMediator.EXCHANGE_LOVE_LETTER_ITEM"
+var_0_0.REPAIR_LOVE_LETTER_ITEM = "ItemInfoMediator.REPAIR_LOVE_LETTER_ITEM"
 var_0_0.CHECK_LOVE_LETTER_MAIL = "ItemInfoMediator.CHECK_LOVE_LETTER_MAIL"
 var_0_0.REPAIR_LOVE_LETTER_MAIL = "ItemInfoMediator.REPAIR_LOVE_LETTER_MAIL"
 
@@ -41,23 +42,33 @@ function var_0_0.register(arg_1_0)
 			activity_id = arg_6_1
 		})
 	end)
-	arg_1_0:bind(var_0_0.CHECK_LOVE_LETTER_MAIL, function(arg_7_0, arg_7_1, arg_7_2)
+	arg_1_0:bind(var_0_0.REPAIR_LOVE_LETTER_ITEM, function(arg_7_0, arg_7_1)
+		arg_1_0:addSubLayers(Context.New({
+			mediator = LoveLetterSelectCharMediator,
+			viewComponent = LoveLetterSelectCharLayer,
+			data = {
+				isRepair = true,
+				itemVO = arg_7_1
+			}
+		}))
+	end)
+	arg_1_0:bind(var_0_0.CHECK_LOVE_LETTER_MAIL, function(arg_8_0, arg_8_1, arg_8_2)
 		arg_1_0:sendNotification(GAME.LOVE_ITEM_MAIL_CHECK, {
-			item_id = arg_7_1,
-			group_id = arg_7_2
+			item_id = arg_8_1,
+			group_id = arg_8_2
 		})
 	end)
-	arg_1_0:bind(var_0_0.REPAIR_LOVE_LETTER_MAIL, function(arg_8_0, arg_8_1, arg_8_2, arg_8_3)
+	arg_1_0:bind(var_0_0.REPAIR_LOVE_LETTER_MAIL, function(arg_9_0, arg_9_1, arg_9_2, arg_9_3)
 		arg_1_0:sendNotification(GAME.LOVE_ITEM_MAIL_REPAIR, {
-			item_id = arg_8_1,
-			year = arg_8_2,
-			group_id = arg_8_3
+			item_id = arg_9_1,
+			year = arg_9_2,
+			group_id = arg_9_3
 		})
 	end)
 	arg_1_0.viewComponent:setDrop(arg_1_0.contextData.drop)
 end
 
-function var_0_0.listNotificationInterests(arg_9_0)
+function var_0_0.listNotificationInterests(arg_10_0)
 	return {
 		BagProxy.ITEM_UPDATED,
 		GAME.USE_ITEM_DONE,
@@ -66,31 +77,31 @@ function var_0_0.listNotificationInterests(arg_9_0)
 	}
 end
 
-function var_0_0.handleNotification(arg_10_0, arg_10_1)
-	local var_10_0 = arg_10_1:getName()
-	local var_10_1 = arg_10_1:getBody()
+function var_0_0.handleNotification(arg_11_0, arg_11_1)
+	local var_11_0 = arg_11_1:getName()
+	local var_11_1 = arg_11_1:getBody()
 
-	if var_10_0 == BagProxy.ITEM_UPDATED then
-		local var_10_2 = arg_10_0.viewComponent.itemVO
+	if var_11_0 == BagProxy.ITEM_UPDATED then
+		local var_11_2 = arg_11_0.viewComponent.itemVO
 
-		if var_10_1.id == var_10_2.id then
-			if var_10_1.count <= 0 or var_10_2.extra and not getProxy(BagProxy):hasExtraData(var_10_2.id, var_10_2.extra) then
-				arg_10_0.viewComponent:closeView()
+		if var_11_1.id == var_11_2.id then
+			if var_11_1.count <= 0 or var_11_2.extra and not getProxy(BagProxy):hasExtraData(var_11_2.id, var_11_2.extra) then
+				arg_11_0.viewComponent:closeView()
 			else
-				arg_10_0.viewComponent:setItem(Drop.New({
+				arg_11_0.viewComponent:setItem(Drop.New({
 					type = DROP_TYPE_ITEM,
-					id = var_10_1.id,
-					count = var_10_1.count,
-					extra = var_10_1.extra
+					id = var_11_1.id,
+					count = var_11_1.count,
+					extra = var_11_1.extra
 				}))
 			end
 		end
-	elseif var_10_0 == GAME.USE_ITEM_DONE then
-		arg_10_0.viewComponent:SetOperateCount(1)
-	elseif var_10_0 == GAME.FRAG_SELL_DONE then
-		arg_10_0.viewComponent:SetOperateCount(1)
-	elseif var_10_0 == GAME.LOVE_ITEM_MAIL_CHECK_DONE then
-		arg_10_0.viewComponent:setDrop(arg_10_0.contextData.drop)
+	elseif var_11_0 == GAME.USE_ITEM_DONE then
+		arg_11_0.viewComponent:SetOperateCount(1)
+	elseif var_11_0 == GAME.FRAG_SELL_DONE then
+		arg_11_0.viewComponent:SetOperateCount(1)
+	elseif var_11_0 == GAME.LOVE_ITEM_MAIL_CHECK_DONE then
+		arg_11_0.viewComponent:setDrop(arg_11_0.contextData.drop)
 	end
 end
 

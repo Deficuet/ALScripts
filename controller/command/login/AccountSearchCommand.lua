@@ -7,6 +7,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_3 = getProxy(UserProxy):getData()
 	local var_1_4 = getProxy(ServerProxy).data
 	local var_1_5 = {}
+	local var_1_6 = false
 
 	for iter_1_0, iter_1_1 in pairs(var_1_4) do
 		table.insert(var_1_5, function(arg_2_0)
@@ -17,7 +18,10 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			pg.SimpleConnectionMgr.GetInstance():Disconnect()
 			pg.SimpleConnectionMgr.GetInstance():SetErrorCB(function()
 				if not var_2_2 then
+					var_1_6 = true
+
 					var_1_2({
+						isFail = true,
 						id = iter_1_1.id
 					})
 					arg_2_0()
@@ -49,6 +53,10 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 
 	seriesAsync(var_1_5, function()
 		var_1_1()
+
+		if var_1_6 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("query_role_fail_and_retry"))
+		end
 	end)
 end
 

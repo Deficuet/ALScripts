@@ -156,9 +156,7 @@ function var_0_0.CanRealizeGift(arg_9_0)
 	end
 
 	for iter_9_4, iter_9_5 in pairs(var_9_2) do
-		if iter_9_5 ~= 0 then
-			assert(#var_9_1 >= #arg_9_0.giftRecord)
-
+		if iter_9_5 > 0 then
 			return var_9_1
 		end
 	end
@@ -263,10 +261,10 @@ function var_0_0.GetDisplayGroupList(arg_14_0)
 
 	table.sort(var_14_0)
 
-	local var_14_1 = getProxy(CollectionProxy):RawgetGroups()
-
 	return underscore.map(var_14_0, function(arg_15_0)
-		return var_14_1[arg_15_0]
+		return ShipGroup.New({
+			id = arg_15_0
+		})
 	end)
 end
 

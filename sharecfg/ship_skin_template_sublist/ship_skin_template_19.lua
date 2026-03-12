@@ -1,6 +1,125 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_19 = {
+	[10300021] = {
+		ship_group = 1030002,
+		name = "猫音(传颂之物)",
+		hand_id = 6,
+		lover_kiss = "lip01",
+		bgm = "",
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 10300021,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "maoyin_2",
+		lover_hand = "hand_3_02",
+		gyro = 0,
+		l2d_drag_rate = "",
+		shop_type_id = 9999,
+		prefab = "maoyin_2",
+		part_scale = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		shop_id = 70119,
+		shop_dynamic_hx = 0,
+		bg = "208",
+		illustrator = -1,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 4,
+		double_char = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		l2d_para_range = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		l2d_voice_calibrate = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "额…好、好的……初、初次见面……",
+		voice_actor = 157,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.96,
+					0.81,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.16,
+					0.12,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.73,
+					0.81,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[10300030] = {
 		ship_group = 1030003,
 		name = "露露缇耶",
@@ -16419,167 +16538,6 @@ pg.base.ship_skin_template_19 = {
 							0
 						}
 					}
-				}
-			}
-		}
-	},
-	[11300031] = {
-		ship_group = 1130003,
-		name = "Cafe & Diner mode",
-		hand_id = 3,
-		lover_kiss = "lip03",
-		bgm = "yumia-az-story",
-		illustrator2 = -1,
-		shop_offset = "",
-		id = 11300031,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "nina_2",
-		lover_hand = "hand_1_01",
-		gyro = 0,
-		l2d_drag_rate = "",
-		shop_type_id = 20,
-		prefab = "nina_2",
-		part_scale = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		shop_id = 71160,
-		shop_dynamic_hx = 0,
-		bg = "160",
-		illustrator = -1,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = 4,
-		double_char = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		l2d_voice_calibrate = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "呵呵，指挥官？您怎么发起呆来了呀？怎么啦？是在意热乎乎的汉堡吗？还是说……呵呵……更进一步的话……就·留·到·之·后·吧♪",
-		voice_actor = 98,
-		change_skin = "",
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			6,
-			2,
-			5
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.983,
-					1.409,
-					0
-				}
-			},
-			vicegun = {
-				{
-					2.009,
-					1.469,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.758,
-					2.433,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.808,
-							2.348,
-							0
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			42.8,
-			-739.7,
-			0,
-			0.65
-		},
-		get_showing = {
-			show = 1,
-			data = {
-				{
-					-1120,
-					628,
-					2,
-					180,
-					-60,
-					2
-				},
-				{
-					-411,
-					0,
-					2,
-					100,
-					-100,
-					2
-				},
-				{
-					-360,
-					-555,
-					2,
-					-120,
-					-60,
-					2
 				}
 			}
 		}

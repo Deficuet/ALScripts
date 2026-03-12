@@ -1,5 +1,44 @@
 pg = pg or {}
 pg.enemy_data_statistics_216 = {
+	[15601903] = {
+		cannon = 80,
+		reload = 150,
+		rarity = 2,
+		cannon_growth = 0,
+		torpedo = 0,
+		air = 0,
+		durability_growth = 0,
+		dodge = 0,
+		antiaircraft = 0,
+		luck = 0,
+		hit_growth = 120,
+		reload_growth = 0,
+		dodge_growth = 0,
+		icon = "sairenboss11",
+		star = 2,
+		hit = 9999,
+		antisub_growth = 0,
+		air_growth = 0,
+		speed_growth = 0,
+		base = 90535,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		speed = 10,
+		armor = 0,
+		id = 15601903,
+		antiaircraft_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 8925,
+				LV = 1
+			}
+		}
+	},
 	[15602001] = {
 		cannon = 7,
 		reload = 150,
@@ -1324,58 +1363,6 @@ pg.enemy_data_statistics_216 = {
 		equipment_list = {
 			873903,
 			873904,
-			873905,
-			1100023
-		},
-		buff_list = {
-			{
-				ID = 8924,
-				LV = 1
-			}
-		}
-	},
-	[15603113] = {
-		cannon = 54,
-		name = "噩梦投射-「重巡洋舰」",
-		type = 3,
-		speed_growth = 0,
-		antiaircraft_growth = 3380,
-		air = 0,
-		rarity = 4,
-		armor = 0,
-		id = 15603113,
-		reload = 150,
-		luck_growth = 0,
-		battle_unit_type = 60,
-		dodge_growth = 136,
-		star = 4,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90618,
-		durability = 4420,
-		armor_growth = 0,
-		torpedo_growth = 2800,
-		speed = 18,
-		luck = 0,
-		antisub = 0,
-		cannon_growth = 1500,
-		fog_fx = "",
-		dodge = 11,
-		reload_growth = 0,
-		hit = 25,
-		torpedo = 58,
-		durability_growth = 41600,
-		antiaircraft = 88,
-		hit_growth = 280,
-		armor_type = 2,
-		specific_fx_scale = {},
-		appear_fx = {
-			"heisewuqi_stg",
-			"appearQ"
-		},
-		equipment_list = {
-			873906,
-			873907,
 			873905,
 			1100023
 		},

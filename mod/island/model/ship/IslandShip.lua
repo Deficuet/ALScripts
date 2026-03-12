@@ -313,9 +313,9 @@ function var_0_0.GetName(arg_28_0)
 end
 
 function var_0_0.GetEnName(arg_29_0)
-	local var_29_0 = arg_29_0:GetShipGroup()
+	local var_29_0 = arg_29_0:GetModelUnit()
 
-	return ShipGroup.getDefaultShipConfig(var_29_0).english_name
+	return pg.island_unit_character[var_29_0].english_name
 end
 
 function var_0_0.StaticGetName(arg_30_0)

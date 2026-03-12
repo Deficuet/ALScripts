@@ -1169308,6 +1169308,816 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.expedition_data_template[296316] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "yuekecheng_alter",
+		difficulty = 4,
+		level = 70,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296316,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296316,
+		scale = 100,
+		map_id = {
+			{
+				7001,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296317] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "yuekecheng_alter",
+		difficulty = 4,
+		level = 74,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296317,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296317,
+		scale = 100,
+		map_id = {
+			{
+				7001,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296318] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "yuekecheng_alter",
+		difficulty = 4,
+		level = 78,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296318,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296318,
+		scale = 100,
+		map_id = {
+			{
+				7001,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296319] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "yuekecheng_alter",
+		difficulty = 4,
+		level = 82,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296319,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296319,
+		scale = 100,
+		map_id = {
+			{
+				7001,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296320] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "yuekecheng_alter",
+		difficulty = 4,
+		level = 86,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296320,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296320,
+		scale = 100,
+		map_id = {
+			{
+				7001,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296321] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "yuekecheng_alter",
+		difficulty = 4,
+		level = 90,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296321,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296321,
+		scale = 100,
+		map_id = {
+			{
+				7001,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296322] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "yuekecheng_alter",
+		difficulty = 4,
+		level = 94,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296322,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296322,
+		scale = 100,
+		map_id = {
+			{
+				7001,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296323] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "yuekecheng_alter",
+		difficulty = 4,
+		level = 98,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296323,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296323,
+		scale = 100,
+		map_id = {
+			{
+				7001,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296324] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "yuekecheng_alter",
+		difficulty = 4,
+		level = 102,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296324,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296324,
+		scale = 100,
+		map_id = {
+			{
+				7001,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296325] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "yuekecheng_alter",
+		difficulty = 4,
+		level = 106,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296325,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296325,
+		scale = 100,
+		map_id = {
+			{
+				7001,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296326] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "yuekecheng_alter",
+		difficulty = 4,
+		level = 110,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296326,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296326,
+		scale = 100,
+		map_id = {
+			{
+				7001,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296327] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "yuekecheng_alter",
+		difficulty = 4,
+		level = 114,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296327,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296327,
+		scale = 100,
+		map_id = {
+			{
+				7001,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296328] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "yuekecheng_alter",
+		difficulty = 4,
+		level = 118,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296328,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296328,
+		scale = 100,
+		map_id = {
+			{
+				7001,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296329] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "yuekecheng_alter",
+		difficulty = 4,
+		level = 122,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296329,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296329,
+		scale = 100,
+		map_id = {
+			{
+				7001,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296330] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "yuekecheng_alter",
+		difficulty = 4,
+		level = 126,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296330,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296330,
+		scale = 100,
+		map_id = {
+			{
+				7001,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.expedition_data_template[297101] = {
 		objective_3 = "",
 		name = "敌方旗舰",

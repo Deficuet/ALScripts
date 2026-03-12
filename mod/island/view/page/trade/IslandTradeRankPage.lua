@@ -54,7 +54,11 @@ function var_0_0.GenRank(arg_8_0, arg_8_1, arg_8_2)
 	end
 
 	table.sort(var_8_0, function(arg_9_0, arg_9_1)
-		return arg_9_0.value > arg_9_1.value
+		if arg_8_0.mode == IslandTradePage.MODE_SELL then
+			return arg_9_0.value > arg_9_1.value
+		elseif arg_8_0.mode == IslandTradePage.MODE_PURCHAS then
+			return arg_9_0.value < arg_9_1.value
+		end
 	end)
 
 	local var_8_1 = {}
@@ -83,7 +87,11 @@ function var_0_0.GetDislays(arg_10_0)
 	end
 
 	table.sort(var_10_2, function(arg_11_0, arg_11_1)
-		return arg_11_0.value > arg_11_1.value
+		if arg_10_0.mode == IslandTradePage.MODE_SELL then
+			return arg_11_0.value > arg_11_1.value
+		elseif arg_10_0.mode == IslandTradePage.MODE_PURCHAS then
+			return arg_11_0.value < arg_11_1.value
+		end
 	end)
 
 	return var_10_1, var_10_2
@@ -101,10 +109,14 @@ function var_0_0.DisplayResult(arg_13_0, arg_13_1)
 	end
 
 	table.sort(arg_13_0.displays, function(arg_14_0, arg_14_1)
-		return arg_14_0.value > arg_14_1.value
+		if arg_13_0.mode == IslandTradePage.MODE_SELL then
+			return arg_14_0.value > arg_14_1.value
+		elseif arg_13_0.mode == IslandTradePage.MODE_PURCHAS then
+			return arg_14_0.value < arg_14_1.value
+		end
 	end)
 
-	local var_13_0 = math.min(10, #arg_13_0.displays)
+	local var_13_0 = #arg_13_0.displays
 
 	arg_13_0.scrollrect:SetTotalCount(var_13_0)
 end

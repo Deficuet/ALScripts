@@ -356,40 +356,47 @@ function var_0_0.setNoticeDetail(arg_18_0, arg_18_1)
 			return string.sub(arg_23_0, var_23_2 + 1, var_23_3 - 1)
 		end
 
-		arg_18_0._contentInfo = {}
+		local function var_18_3(arg_24_0)
+			_.each(string.split(arg_24_0, "<segment/>"), function(arg_25_0)
+				local var_25_0 = var_18_2(arg_25_0)
 
-		local var_18_3 = 1
-
-		for iter_18_0 in string.gmatch(arg_18_1.content, "<banner>%S-</banner>") do
-			local var_18_4, var_18_5 = string.find(iter_18_0, "<banner>")
-			local var_18_6, var_18_7 = string.find(iter_18_0, "</banner>")
-			local var_18_8 = string.sub(iter_18_0, var_18_5 + 1, var_18_6 - 1)
-			local var_18_9, var_18_10 = string.find(arg_18_1.content, iter_18_0, var_18_3, true)
-
-			if var_18_9 ~= nil then
-				local var_18_11 = var_18_2(string.sub(arg_18_1.content, var_18_3, var_18_9 - 1))
-
-				if #var_18_11 > 0 then
+				if #var_25_0 > 0 then
 					table.insert(arg_18_0._contentInfo, {
 						type = var_0_0.CONTENT_TYPE.RICHTEXT,
-						text = var_18_11
+						text = var_25_0
 					})
+				end
+			end)
+		end
+
+		arg_18_0._contentInfo = {}
+
+		local var_18_4 = 1
+
+		for iter_18_0 in string.gmatch(arg_18_1.content, "<banner>%S-</banner>") do
+			local var_18_5, var_18_6 = string.find(iter_18_0, "<banner>")
+			local var_18_7, var_18_8 = string.find(iter_18_0, "</banner>")
+			local var_18_9 = string.sub(iter_18_0, var_18_6 + 1, var_18_7 - 1)
+			local var_18_10, var_18_11 = string.find(arg_18_1.content, iter_18_0, var_18_4, true)
+
+			if var_18_10 ~= nil then
+				local var_18_12 = var_18_2(string.sub(arg_18_1.content, var_18_4, var_18_10 - 1))
+
+				if #var_18_12 > 0 then
+					var_18_3(var_18_12)
 				end
 			end
 
 			table.insert(arg_18_0._contentInfo, {
 				type = var_0_0.CONTENT_TYPE.BANNER,
-				text = var_18_8
+				text = var_18_9
 			})
 
-			var_18_3 = var_18_10 + 1
+			var_18_4 = var_18_11 + 1
 		end
 
-		if var_18_3 < #arg_18_1.content then
-			table.insert(arg_18_0._contentInfo, {
-				type = var_0_0.CONTENT_TYPE.RICHTEXT,
-				text = var_18_2(string.sub(arg_18_1.content, var_18_3, #arg_18_1.content))
-			})
+		if var_18_4 < #arg_18_1.content then
+			var_18_3(string.sub(arg_18_1.content, var_18_4, #arg_18_1.content))
 		end
 
 		for iter_18_1, iter_18_2 in pairs(arg_18_0._contentInfo) do
@@ -404,58 +411,58 @@ function var_0_0.setNoticeDetail(arg_18_0, arg_18_1)
 	end
 end
 
-function var_0_0.bannerRotate(arg_24_0)
-	for iter_24_0, iter_24_1 in pairs(arg_24_0._contentList) do
-		local var_24_0 = iter_24_1:Find("loading/Image")
+function var_0_0.bannerRotate(arg_26_0)
+	for iter_26_0, iter_26_1 in pairs(arg_26_0._contentList) do
+		local var_26_0 = iter_26_1:Find("loading/Image")
 
-		if var_24_0 then
-			table.insert(arg_24_0.LTList, LeanTween.rotateAroundLocal(rtf(var_24_0), Vector3(0, 0, -1), 360, 5):setLoopClamp().uniqueId)
+		if var_26_0 then
+			table.insert(arg_26_0.LTList, LeanTween.rotateAroundLocal(rtf(var_26_0), Vector3(0, 0, -1), 360, 5):setLoopClamp().uniqueId)
 		end
 	end
 end
 
-function var_0_0.clearLeanTween(arg_25_0)
-	for iter_25_0, iter_25_1 in pairs(arg_25_0.LTList or {}) do
-		LeanTween.cancel(iter_25_1)
+function var_0_0.clearLeanTween(arg_27_0)
+	for iter_27_0, iter_27_1 in pairs(arg_27_0.LTList or {}) do
+		LeanTween.cancel(iter_27_1)
 	end
 end
 
-function var_0_0.clearContent(arg_26_0)
-	for iter_26_0, iter_26_1 in pairs(arg_26_0._contentList) do
-		Destroy(iter_26_1)
+function var_0_0.clearContent(arg_28_0)
+	for iter_28_0, iter_28_1 in pairs(arg_28_0._contentList) do
+		Destroy(iter_28_1)
 	end
 
-	arg_26_0._contentList = {}
+	arg_28_0._contentList = {}
 end
 
-function var_0_0.clearTab(arg_27_0)
-	if arg_27_0.subTabLT then
-		LeanTween.cancel(arg_27_0.subTabLT)
+function var_0_0.clearTab(arg_29_0)
+	if arg_29_0.subTabLT then
+		LeanTween.cancel(arg_29_0.subTabLT)
 
-		arg_27_0.subTabLT = nil
+		arg_29_0.subTabLT = nil
 	end
 
-	arg_27_0.currentSubTab = nil
+	arg_29_0.currentSubTab = nil
 
-	for iter_27_0, iter_27_1 in pairs(arg_27_0._subTabList) do
-		Destroy(iter_27_1)
+	for iter_29_0, iter_29_1 in pairs(arg_29_0._subTabList) do
+		Destroy(iter_29_1)
 	end
 
-	arg_27_0._subTabList = {}
-	arg_27_0._subTabAnims = {}
+	arg_29_0._subTabList = {}
+	arg_29_0._subTabAnims = {}
 end
 
-function var_0_0.clearLoadingPic(arg_28_0)
-	for iter_28_0, iter_28_1 in pairs(arg_28_0._loadingFlag) do
-		BulletinBoardMgr.Inst:StopLoader(iter_28_0)
+function var_0_0.clearLoadingPic(arg_30_0)
+	for iter_30_0, iter_30_1 in pairs(arg_30_0._loadingFlag) do
+		BulletinBoardMgr.Inst:StopLoader(iter_30_0)
 
-		arg_28_0._loadingFlag[iter_28_0] = nil
+		arg_30_0._loadingFlag[iter_30_0] = nil
 	end
 end
 
-function var_0_0.willExit(arg_29_0)
-	arg_29_0:clearLoadingPic()
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_29_0._tf)
+function var_0_0.willExit(arg_31_0)
+	arg_31_0:clearLoadingPic()
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_31_0._tf)
 end
 
 return var_0_0

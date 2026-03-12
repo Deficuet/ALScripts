@@ -182930,6 +182930,136 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[65871] = {
+		display = "用于「限时体验商店」兑换角色限时换装",
+		name = "换装体验券",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = 1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/skinTicket",
+		id = 65871,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65872] = {
+		display = "用于「雪境迷踪」复刻活动兑换，活动结束后将会消失",
+		name = "“融雪区”结晶",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/tongmeng_pt",
+		id = 65872,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65873] = {
+		display = "于「雪境迷踪」活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
+		name = "单次建造券",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50474,
+		virtual_type = 22,
+		is_world = 0,
+		icon = "Props/buildTicket",
+		id = 65873,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65874] = {
+		display = "用于头像框活动兑换，活动结束后将会消失",
+		name = "训练点数",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/xunliandianshu_rv3",
+		id = 65874,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65875] = {
+		display = "用于「限时体验商店」兑换角色限时换装",
+		name = "换装体验券",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = 1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/skinTicket",
+		id = 65875,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[66001] = {
 		display = "重要的重建物资之一，木香与海风更配哦",
 		name = "木料",

@@ -449490,6 +449490,542 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[9702111] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "雷根斯堡·META",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 9702110,
+		english_name = "Regensburg.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.23",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9702111,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			630,
+			35,
+			60,
+			70,
+			0,
+			71,
+			0,
+			43,
+			23,
+			36,
+			46,
+			33
+		},
+		attrs_growth = {
+			10584,
+			478,
+			793,
+			879,
+			0,
+			491,
+			0,
+			607,
+			566,
+			0,
+			0,
+			462
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			231
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.3,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"RegensburgMETA"
+		},
+		gift_dislike = {
+			180005,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9702112] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "雷根斯堡·META",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 9702110,
+		english_name = "Regensburg.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.23",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9702112,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			784,
+			44,
+			75,
+			87,
+			0,
+			71,
+			0,
+			43,
+			23,
+			36,
+			46,
+			41
+		},
+		attrs_growth = {
+			10584,
+			478,
+			793,
+			879,
+			0,
+			491,
+			0,
+			607,
+			566,
+			0,
+			0,
+			462
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			232
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.3,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"RegensburgMETA"
+		},
+		gift_dislike = {
+			180005,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9702113] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "雷根斯堡·META",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 9702110,
+		english_name = "Regensburg.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.23",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9702113,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1091,
+			61,
+			105,
+			121,
+			0,
+			71,
+			0,
+			43,
+			23,
+			36,
+			46,
+			58
+		},
+		attrs_growth = {
+			10584,
+			478,
+			793,
+			879,
+			0,
+			491,
+			0,
+			607,
+			566,
+			0,
+			0,
+			462
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			233
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.3,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"RegensburgMETA"
+		},
+		gift_dislike = {
+			180005,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9702114] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "雷根斯堡·META",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 9702110,
+		english_name = "Regensburg.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.23",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9702114,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1552,
+			86,
+			149,
+			172,
+			0,
+			71,
+			0,
+			43,
+			23,
+			36,
+			46,
+			83
+		},
+		attrs_growth = {
+			10584,
+			478,
+			793,
+			879,
+			0,
+			491,
+			0,
+			607,
+			566,
+			0,
+			0,
+			462
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			234
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.35,
+			1.2,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"RegensburgMETA"
+		},
+		gift_dislike = {
+			180005,
+			180009
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[9703011] = {
 		raid_distance = 0,
 		oxy_max = 0,

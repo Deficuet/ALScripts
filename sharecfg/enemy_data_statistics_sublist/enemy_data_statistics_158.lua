@@ -1,5 +1,43 @@
 pg = pg or {}
 pg.enemy_data_statistics_158 = {
+	[13300460] = {
+		cannon = 86,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 0,
+		rarity = 3,
+		air = 145,
+		torpedo = 0,
+		dodge = 15,
+		durability_growth = 59600,
+		antiaircraft = 230,
+		luck = 0,
+		reload_growth = 0,
+		dodge_growth = 120,
+		hit_growth = 350,
+		star = 4,
+		hit = 30,
+		antisub_growth = 0,
+		air_growth = 4500,
+		battle_unit_type = 70,
+		base = 90427,
+		durability = 7820,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		speed = 16,
+		armor = 0,
+		id = 13300460,
+		antiaircraft_growth = 5280,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {
+			1002179,
+			1002184,
+			1002189,
+			1002194
+		}
+	},
 	[13300461] = {
 		cannon = 5,
 		reload = 150,
@@ -1491,164 +1529,6 @@ pg.enemy_data_statistics_158 = {
 			4
 		},
 		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[13400012] = {
-		cannon = 500,
-		name = "试作型布里MKII",
-		type = 1,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 0,
-		id = 13400012,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "kin_2",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 500,
-		luck_growth = 0,
-		icon_type = 1,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 100,
-		wave_fx = "movewave",
-		prefab = "kin_2",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 999,
-		nationality = 98,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.23,
-					0.74,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.52,
-					0.3,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.23,
-							0.55,
-							-0.07
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							0.4,
-							2.39,
-							1.02
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {
-			630083
-		},
 		random_equipment_list = {},
 		random_nub = {},
 		buff_list = {}

@@ -1,5 +1,58 @@
 pg = pg or {}
 pg.enemy_data_statistics_254 = {
+	[16502204] = {
+		cannon = 140,
+		name = "勒马尔统御武装-「毁灭」",
+		type = 5,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		fog_fx = "",
+		dodge = 11,
+		speed = 20,
+		luck = 15,
+		antisub = 0,
+		reload_growth = 0,
+		dodge_growth = 156,
+		antiaircraft_growth = 3600,
+		reload = 150,
+		hit = 16,
+		antisub_growth = 0,
+		air_growth = 0,
+		cannon_growth = 2500,
+		base = 90279,
+		icon_type = 5,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 175,
+		hit_growth = 210,
+		armor = 0,
+		durability = 17340,
+		torpedo = 0,
+		id = 16502204,
+		durability_growth = 346800,
+		luck_growth = 0,
+		battle_unit_type = 90,
+		specific_fx_scale = {
+			yuanchou_kandao = 0.04
+		},
+		appear_fx = {
+			"appearQ",
+			"yuanchou_kandao"
+		},
+		equipment_list = {
+			1101092,
+			1101112,
+			1101117,
+			1101122
+		},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 3
+			}
+		}
+	},
 	[16502205] = {
 		cannon = 98,
 		name = "拉·加利索尼埃统御武装-「侵袭」",
@@ -1454,52 +1507,6 @@ pg.enemy_data_statistics_254 = {
 			1000634,
 			1000639,
 			1000644
-		},
-		buff_list = {}
-	},
-	[16504005] = {
-		cannon = 0,
-		hit_growth = 144,
-		bubble_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 20004,
-		air = 55,
-		speed = 15,
-		dodge = 0,
-		id = 16504005,
-		cannon_growth = 0,
-		fog_fx = "",
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck = 0,
-		reload = 150,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 2000,
-		torpedo = 0,
-		base = 90127,
-		durability = 4680,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 65,
-		armor = 0,
-		durability_growth = 65600,
-		antiaircraft = 150,
-		antisub = 0,
-		antiaircraft_growth = 1800,
-		specific_fx_scale = {
-			yuanchou_kandao = 0.04
-		},
-		appear_fx = {
-			"appearsmall",
-			"yuanchou_kandao"
-		},
-		equipment_list = {
-			1000649,
-			1000654,
-			1000659,
-			1000664
 		},
 		buff_list = {}
 	}

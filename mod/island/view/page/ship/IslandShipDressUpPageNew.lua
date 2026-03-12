@@ -374,14 +374,13 @@ function var_0_0.OnSkinUpdateItem(arg_19_0, arg_19_1, arg_19_2)
 
 	local var_19_1 = arg_19_0.skinList[arg_19_1 + 1]
 	local var_19_2 = tf(arg_19_2)
-	local var_19_3 = #pg.island_skin_colordiff_template.get_id_list_by_skin_group[var_19_1] or {}
 
-	setActive(var_19_2:Find("changeColor"), var_19_3 > 0)
+	setActive(var_19_2:Find("changeColor"), true)
 
-	local var_19_4 = arg_19_0.curSkinId
-	local var_19_5 = var_19_4 ~= 0 and var_19_4 or nil
+	local var_19_3 = arg_19_0.curSkinId
+	local var_19_4 = var_19_3 ~= 0 and var_19_3 or nil
 
-	var_19_0:Update(var_19_1, var_19_5)
+	var_19_0:Update(var_19_1, var_19_4)
 	onButton(arg_19_0, var_19_2, function()
 		arg_19_0:ClickSkinCardItem(var_19_1)
 	end)
@@ -1286,28 +1285,25 @@ function var_0_0.UpdateColorItemList(arg_79_0)
 			end
 		else
 			local var_80_7 = pg.island_skin_colordiff_template.get_id_list_by_skin_group[arg_79_0.curSkinId] or {}
+			local var_80_8 = arg_79_0.curskinColorId == 0
+			local var_80_9 = arg_79_0.characterAgency:CheckSkinIsOwned(arg_79_0.curSkinId)
 
-			if #var_80_7 > 0 then
-				local var_80_8 = arg_79_0.curskinColorId == 0
-				local var_80_9 = arg_79_0.characterAgency:CheckSkinIsOwned(arg_79_0.curSkinId)
+			table.insert(arg_79_0.colorItemList, {
+				itemId = 0,
+				selected = var_80_8,
+				owned = var_80_9
+			})
+
+			for iter_80_2, iter_80_3 in ipairs(var_80_7) do
+				local var_80_10 = arg_79_0.curskinColorId == iter_80_3
+				local var_80_11 = arg_79_0.characterAgency:CheckSkinColorIsOwned(arg_79_0.curSkinId, iter_80_3)
 
 				table.insert(arg_79_0.colorItemList, {
-					itemId = 0,
-					selected = var_80_8,
-					owned = var_80_9
+					itemId = iter_80_3,
+					selected = var_80_10,
+					owned = var_80_11,
+					costItemIcon = pg.island_skin_colordiff_template[iter_80_3].color_icon
 				})
-
-				for iter_80_2, iter_80_3 in ipairs(var_80_7) do
-					local var_80_10 = arg_79_0.curskinColorId == iter_80_3
-					local var_80_11 = arg_79_0.characterAgency:CheckSkinColorIsOwned(arg_79_0.curSkinId, iter_80_3)
-
-					table.insert(arg_79_0.colorItemList, {
-						itemId = iter_80_3,
-						selected = var_80_10,
-						owned = var_80_11,
-						costItemIcon = pg.island_skin_colordiff_template[iter_80_3].color_icon
-					})
-				end
 			end
 		end
 	end)()

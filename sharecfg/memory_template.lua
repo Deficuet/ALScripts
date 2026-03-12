@@ -4053,6 +4053,13 @@ pg.memory_template = setmetatable({
 		5028,
 		5029,
 		5030,
+		5031,
+		5032,
+		5033,
+		5034,
+		5035,
+		5036,
+		5037,
 		10011,
 		10012,
 		10013,
@@ -65030,6 +65037,111 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"CHUNMANKEZHAN20"
+		}
+	},
+	[5031] = {
+		type = 1,
+		subtitle = "",
+		story = "AERBIEN1",
+		mask = "bg/bg_memory",
+		title = "森林的邀约",
+		condition = "解锁「林间风与心之罗盘」任务1",
+		number = 0,
+		id = 5031,
+		icon = "memory_aerbien",
+		is_open = 0,
+		unlock_pre = {
+			"AERBIEN1"
+		}
+	},
+	[5032] = {
+		type = 1,
+		subtitle = "",
+		story = "AERBIEN2",
+		mask = "bg/bg_memory",
+		title = "林间生灵",
+		condition = "解锁「林间风与心之罗盘」任务2",
+		number = 0,
+		id = 5032,
+		icon = "memory_aerbien",
+		is_open = 0,
+		unlock_pre = {
+			"AERBIEN2"
+		}
+	},
+	[5033] = {
+		type = 1,
+		subtitle = "",
+		story = "AERBIEN3",
+		mask = "bg/bg_memory",
+		title = "日光下的茶会",
+		condition = "解锁「林间风与心之罗盘」任务3",
+		number = 0,
+		id = 5033,
+		icon = "memory_aerbien",
+		is_open = 0,
+		unlock_pre = {
+			"AERBIEN3"
+		}
+	},
+	[5034] = {
+		type = 1,
+		subtitle = "",
+		story = "AERBIEN4",
+		mask = "bg/bg_memory",
+		title = "迷途之声",
+		condition = "解锁「林间风与心之罗盘」任务4",
+		number = 0,
+		id = 5034,
+		icon = "memory_aerbien",
+		is_open = 0,
+		unlock_pre = {
+			"AERBIEN4"
+		}
+	},
+	[5035] = {
+		type = 1,
+		subtitle = "",
+		story = "AERBIEN5",
+		mask = "bg/bg_memory",
+		title = "萤火所在之处",
+		condition = "解锁「林间风与心之罗盘」任务5",
+		number = 0,
+		id = 5035,
+		icon = "memory_aerbien",
+		is_open = 0,
+		unlock_pre = {
+			"AERBIEN5"
+		}
+	},
+	[5036] = {
+		type = 1,
+		subtitle = "",
+		story = "AERBIEN6",
+		mask = "bg/bg_memory",
+		title = "治愈之风",
+		condition = "解锁「林间风与心之罗盘」任务6",
+		number = 0,
+		id = 5036,
+		icon = "memory_aerbien",
+		is_open = 0,
+		unlock_pre = {
+			"AERBIEN6"
+		}
+	},
+	[5037] = {
+		type = 1,
+		subtitle = "",
+		story = "AERBIEN7",
+		mask = "bg/bg_memory",
+		title = "阿尔比恩的心声",
+		condition = "解锁「林间风与心之罗盘」任务7",
+		number = 0,
+		id = 5037,
+		icon = "memory_aerbien",
+		is_open = 0,
+		unlock_pre = {
+			"AERBIEN7"
 		}
 	},
 	[10011] = {

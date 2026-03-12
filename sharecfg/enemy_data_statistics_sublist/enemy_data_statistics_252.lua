@@ -1,5 +1,53 @@
 pg = pg or {}
 pg.enemy_data_statistics_252 = {
+	[16500204] = {
+		cannon = 35,
+		name = "勒马尔统御武装-「铁卫」",
+		type = 2,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		fog_fx = "",
+		dodge = 14,
+		speed = 20,
+		luck = 0,
+		antisub = 0,
+		reload_growth = 0,
+		dodge_growth = 198,
+		antiaircraft_growth = 3600,
+		reload = 150,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		cannon_growth = 1600,
+		base = 90279,
+		icon_type = 2,
+		armor_growth = 0,
+		torpedo_growth = 2000,
+		antiaircraft = 115,
+		hit_growth = 210,
+		armor = 0,
+		durability = 1370,
+		torpedo = 55,
+		id = 16500204,
+		durability_growth = 134400,
+		luck_growth = 0,
+		battle_unit_type = 90,
+		specific_fx_scale = {
+			yuanchou_kandao = 0.04
+		},
+		appear_fx = {
+			"appearQ",
+			"yuanchou_kandao"
+		},
+		equipment_list = {
+			1101070,
+			1101075,
+			1101080,
+			1101085,
+			769000
+		}
+	},
 	[16500205] = {
 		cannon = 35,
 		name = "拉·加利索尼埃统御武装-「铁卫」",
@@ -1425,44 +1473,6 @@ pg.enemy_data_statistics_252 = {
 		},
 		equipment_list = {
 			1000867
-		}
-	},
-	[16502007] = {
-		cannon = 5,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 300,
-		pilot_ai_template_id = 10002,
-		air = 0,
-		battle_unit_type = 65,
-		dodge = 0,
-		base = 90129,
-		durability_growth = 4400,
-		antiaircraft = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 14,
-		luck = 0,
-		hit = 8,
-		antisub_growth = 0,
-		air_growth = 0,
-		antiaircraft_growth = 0,
-		torpedo = 24,
-		durability = 220,
-		armor_growth = 0,
-		torpedo_growth = 2200,
-		luck_growth = 0,
-		hit_growth = 120,
-		armor = 0,
-		id = 16502007,
-		fog_fx = "",
-		antisub = 0,
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			1100697,
-			1100712
 		}
 	}
 }

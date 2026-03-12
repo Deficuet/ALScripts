@@ -6802,7 +6802,18 @@ function temp()
 		根 = {
 			斯 = {
 				堡 = {
-					this = true
+					this = true,
+					· = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		},
@@ -6818,7 +6829,18 @@ function temp()
 	var_0_1.瑞 = {
 		吉 = {
 			娜 = {
-				this = true
+				this = true,
+				· = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}

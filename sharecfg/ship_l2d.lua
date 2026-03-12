@@ -91187,58 +91187,6 @@ pg.ship_l2d = {
 			type = 2
 		}
 	},
-	[70502206] = {
-		id = 70502206,
-		offset_y = 0,
-		gyro_y = 0,
-		action_trigger_active = "",
-		drag_direct = 0,
-		parts_data = "",
-		revert_action_index = 0,
-		draw_able_name = "",
-		limit_time = 1,
-		mode = 2,
-		relation_parameter = "",
-		gyro = 0,
-		gyro_x = 0,
-		react_pos_y = 0,
-		ignore_react = 1,
-		revert = -1,
-		parameter = "touch_drag1",
-		save_parameter = 0,
-		ignore_action = 1,
-		react_pos_x = 0,
-		offset_x = 0,
-		shop_action = 0,
-		revert_idle_index = "",
-		start_value = 0,
-		gyro_z = 0,
-		offset_circle = "",
-		smooth = 100,
-		react_condition = "",
-		range_abs = 1,
-		ship_skin_id = 705022,
-		revert_smooth = 100,
-		range = {
-			0,
-			1
-		},
-		listener_data = {
-			type = 1,
-			change = {
-				{
-					2,
-					{
-						"touch_drag3"
-					},
-					0.5
-				}
-			}
-		},
-		action_trigger = {
-			type = 7
-		}
-	},
 	[70502207] = {
 		ship_skin_id = 705022,
 		id = 70502207,
@@ -91657,9 +91605,9 @@ pg.ship_l2d = {
 		drag_direct = 0,
 		parts_data = "",
 		revert_action_index = 0,
-		draw_able_name = "TouchDrag3",
+		draw_able_name = "",
 		limit_time = 3,
-		mode = 2,
+		mode = 1,
 		relation_parameter = "",
 		gyro = 0,
 		gyro_x = 0,
@@ -91691,6 +91639,13 @@ pg.ship_l2d = {
 				{
 					2,
 					{
+						"touch_drag3"
+					},
+					1
+				},
+				{
+					2,
+					{
 						"touch_drag5"
 					},
 					0
@@ -91698,10 +91653,7 @@ pg.ship_l2d = {
 			}
 		},
 		action_trigger = {
-			time = 1,
-			target = 1,
-			action = "touch_drag3",
-			type = 2
+			type = 7
 		}
 	},
 	[70502215] = {
@@ -91712,9 +91664,9 @@ pg.ship_l2d = {
 		drag_direct = 0,
 		parts_data = "",
 		revert_action_index = 0,
-		draw_able_name = "TouchDrag4",
+		draw_able_name = "",
 		limit_time = 3,
-		mode = 2,
+		mode = 1,
 		relation_parameter = "",
 		gyro = 0,
 		gyro_x = 0,
@@ -91731,7 +91683,7 @@ pg.ship_l2d = {
 		start_value = 0,
 		gyro_z = 0,
 		offset_circle = "",
-		smooth = 3000,
+		smooth = 2500,
 		react_condition = "",
 		range_abs = 1,
 		ship_skin_id = 705022,
@@ -91749,14 +91701,18 @@ pg.ship_l2d = {
 						"touch_drag5"
 					},
 					0
+				},
+				{
+					2,
+					{
+						"touch_drag4"
+					},
+					1
 				}
 			}
 		},
 		action_trigger = {
-			time = 3,
-			target = 1,
-			action = "touch_drag4",
-			type = 2
+			type = 7
 		}
 	},
 	[70502216] = {
@@ -142023,7 +141979,6 @@ pg.ship_l2d = {
 		70502203,
 		70502204,
 		70502205,
-		70502206,
 		70502207,
 		70502208,
 		70502209,

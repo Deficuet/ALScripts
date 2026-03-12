@@ -1,5 +1,70 @@
 pg = pg or {}
 pg.enemy_data_statistics_75 = {
+	[113003] = {
+		cannon = 126,
+		reload = 150,
+		armor = 0,
+		speed_growth = 0,
+		pilot_ai_template_id = 20005,
+		air = 0,
+		fog_fx = "",
+		dodge = 0,
+		speed = 20,
+		friendly_cld = 1,
+		id = 113003,
+		reload_growth = 0,
+		dodge_growth = 0,
+		hit_growth = 0,
+		star = 2,
+		hit = 40,
+		antisub_growth = 0,
+		air_growth = 0,
+		cannon_growth = 0,
+		base = 90101,
+		durability = 1040,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		luck = 0,
+		rarity = 1,
+		torpedo = 324,
+		antisub = 0,
+		durability_growth = 13536,
+		antiaircraft = 205,
+		battle_unit_type = 20,
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				1,
+				0.2,
+				-0.3464
+			},
+			{
+				0,
+				-1,
+				2.2
+			}
+		},
+		specific_fx_scale = {
+			zhihuiRing02_buff = 2
+		},
+		equipment_list = {
+			100226,
+			100406,
+			313091,
+			330014
+		}
+	},
 	[113004] = {
 		cannon = 192,
 		reload = 150,
@@ -1549,70 +1614,6 @@ pg.enemy_data_statistics_75 = {
 		},
 		equipment_list = {
 			330012
-		}
-	},
-	[113036] = {
-		cannon = 216,
-		reload = 150,
-		hit_growth = 0,
-		speed_growth = 0,
-		pilot_ai_template_id = 80000,
-		air = 0,
-		rarity = 1,
-		dodge = 0,
-		luck = 0,
-		id = 113036,
-		cannon_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		star = 2,
-		hit = 230,
-		antisub_growth = 0,
-		air_growth = 0,
-		fog_fx = "",
-		base = 90080,
-		durability = 800,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		torpedo = 360,
-		durability_growth = 4080,
-		antisub = 0,
-		antiaircraft = 0,
-		battle_unit_type = 15,
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				-0.48,
-				0
-			},
-			{
-				0,
-				0.006,
-				0.2691
-			},
-			{
-				0,
-				-1,
-				2.2
-			}
-		},
-		specific_fx_scale = {
-			zhihuiRing02_buff = 2
-		},
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			330013
 		}
 	}
 }

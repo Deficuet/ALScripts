@@ -4265,7 +4265,75 @@ pg.memory_template = setmetatable({
 		20146,
 		20147,
 		20148,
-		20149
+		20149,
+		20150,
+		20151,
+		20152,
+		20153,
+		20154,
+		20155,
+		20156,
+		20157,
+		20158,
+		20159,
+		20160,
+		20161,
+		20162,
+		20163,
+		20164,
+		20165,
+		20166,
+		20167,
+		20168,
+		20169,
+		20170,
+		20171,
+		20172,
+		20173,
+		20174,
+		20175,
+		20176,
+		20177,
+		20178,
+		20179,
+		20180,
+		20181,
+		20182,
+		20183,
+		20184,
+		20185,
+		20186,
+		20187,
+		20188,
+		20189,
+		20190,
+		20191,
+		20192,
+		20193,
+		20194,
+		20195,
+		20196,
+		20197,
+		20198,
+		20199,
+		20200,
+		20201,
+		20202,
+		20203,
+		20204,
+		20205,
+		20206,
+		20207,
+		20208,
+		20209,
+		20210,
+		20211,
+		20212,
+		20213,
+		20214,
+		20215,
+		20216,
+		20217
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -68232,6 +68300,1026 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"LINGYANGZHELAIFANGJISHI12"
+		}
+	},
+	[20150] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA1",
+		mask = "bg/bg_memory",
+		title = "探索者养成计划，启动！（上）",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20150,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA1"
+		}
+	},
+	[20151] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA2",
+		mask = "bg/bg_memory",
+		title = "探索者养成计划，启动！（下）",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20151,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA2"
+		}
+	},
+	[20152] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA3",
+		mask = "bg/bg_memory",
+		title = "青涩的上学日",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20152,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA3"
+		}
+	},
+	[20153] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA4",
+		mask = "bg/bg_memory",
+		title = "旋转木马",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20153,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA4"
+		}
+	},
+	[20154] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA5",
+		mask = "bg/bg_memory",
+		title = "冬日暖意",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20154,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA5"
+		}
+	},
+	[20155] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA6",
+		mask = "bg/bg_memory",
+		title = "与小兔子们的一日",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20155,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA6"
+		}
+	},
+	[20156] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA7",
+		mask = "bg/bg_memory",
+		title = "花树之下",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20156,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA7"
+		}
+	},
+	[20157] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA8",
+		mask = "bg/bg_memory",
+		title = "秋千上的约定",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20157,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA8"
+		}
+	},
+	[20158] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA9",
+		mask = "bg/bg_memory",
+		title = "轻盈的期望I",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20158,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA9"
+		}
+	},
+	[20159] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA10",
+		mask = "bg/bg_memory",
+		title = "轻盈的期望II",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20159,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA10"
+		}
+	},
+	[20160] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA11",
+		mask = "bg/bg_memory",
+		title = "清凉水花大作战",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20160,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA11"
+		}
+	},
+	[20161] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA12",
+		mask = "bg/bg_memory",
+		title = "独角仙的味道",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20161,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA12"
+		}
+	},
+	[20162] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA13",
+		mask = "bg/bg_memory",
+		title = "深夜的修补时光",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20162,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA13"
+		}
+	},
+	[20163] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA14",
+		mask = "bg/bg_memory",
+		title = "画下的光景",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20163,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA14"
+		}
+	},
+	[20164] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA15",
+		mask = "bg/bg_memory",
+		title = "于细雨中",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20164,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA15"
+		}
+	},
+	[20165] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA16",
+		mask = "bg/bg_memory",
+		title = "留下这美丽雪天",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20165,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA16"
+		}
+	},
+	[20166] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA17",
+		mask = "bg/bg_memory",
+		title = "见习大副日志",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20166,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA17"
+		}
+	},
+	[20167] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA18",
+		mask = "bg/bg_memory",
+		title = "与最爱的你，奔赴明日I",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20167,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA18"
+		}
+	},
+	[20168] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA19",
+		mask = "bg/bg_memory",
+		title = "与最爱的你，奔赴明日II",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20168,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA19"
+		}
+	},
+	[20169] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA20",
+		mask = "bg/bg_memory",
+		title = "衣柜大换新I",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20169,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA20"
+		}
+	},
+	[20170] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA21",
+		mask = "bg/bg_memory",
+		title = "衣柜大换新II",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20170,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA21"
+		}
+	},
+	[20171] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA22",
+		mask = "bg/bg_memory",
+		title = "少女的秘密",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20171,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA22"
+		}
+	},
+	[20172] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA23",
+		mask = "bg/bg_memory",
+		title = "心映琳琅",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20172,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA23"
+		}
+	},
+	[20173] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA24",
+		mask = "bg/bg_memory",
+		title = "弦上之意",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20173,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA24"
+		}
+	},
+	[20174] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA25",
+		mask = "bg/bg_memory",
+		title = "甜蜜分享",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20174,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA25"
+		}
+	},
+	[20175] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA26",
+		mask = "bg/bg_memory",
+		title = "定格的春天",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20175,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA26"
+		}
+	},
+	[20176] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA27",
+		mask = "bg/bg_memory",
+		title = "占卜初体验",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20176,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA27"
+		}
+	},
+	[20177] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA28",
+		mask = "bg/bg_memory",
+		title = "伴你同行",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20177,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA28"
+		}
+	},
+	[20178] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA29",
+		mask = "bg/bg_memory",
+		title = "伴你同行",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20178,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA29"
+		}
+	},
+	[20179] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA30",
+		mask = "bg/bg_memory",
+		title = "新的起点",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20179,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA30"
+		}
+	},
+	[20180] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA31",
+		mask = "bg/bg_memory",
+		title = "毕业升学之时",
+		condition = "解锁「养成计划」-探索者相应结局",
+		number = 0,
+		id = 20180,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA31"
+		}
+	},
+	[20181] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA32",
+		mask = "bg/bg_memory",
+		title = "全职女儿",
+		condition = "解锁「养成计划」-探索者相应结局",
+		number = 0,
+		id = 20181,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA32"
+		}
+	},
+	[20182] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA33",
+		mask = "bg/bg_memory",
+		title = "高定裁缝",
+		condition = "解锁「养成计划」-探索者相应结局",
+		number = 0,
+		id = 20182,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA33"
+		}
+	},
+	[20183] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA34",
+		mask = "bg/bg_memory",
+		title = "美食主播",
+		condition = "解锁「养成计划」-探索者相应结局",
+		number = 0,
+		id = 20183,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA34"
+		}
+	},
+	[20184] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA35",
+		mask = "bg/bg_memory",
+		title = "轻小说写手",
+		condition = "解锁「养成计划」-探索者相应结局",
+		number = 0,
+		id = 20184,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA35"
+		}
+	},
+	[20185] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA36",
+		mask = "bg/bg_memory",
+		title = "新闻记者",
+		condition = "解锁「养成计划」-探索者相应结局",
+		number = 0,
+		id = 20185,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA36"
+		}
+	},
+	[20186] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA37",
+		mask = "bg/bg_memory",
+		title = "玩偶扮演",
+		condition = "解锁「养成计划」-探索者相应结局",
+		number = 0,
+		id = 20186,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA37"
+		}
+	},
+	[20187] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA38",
+		mask = "bg/bg_memory",
+		title = "花店店长",
+		condition = "解锁「养成计划」-探索者相应结局",
+		number = 0,
+		id = 20187,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA38"
+		}
+	},
+	[20188] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA39",
+		mask = "bg/bg_memory",
+		title = "旅游达人",
+		condition = "解锁「养成计划」-探索者相应结局",
+		number = 0,
+		id = 20188,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA39"
+		}
+	},
+	[20189] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA40",
+		mask = "bg/bg_memory",
+		title = "钓鱼能手",
+		condition = "解锁「养成计划」-探索者相应结局",
+		number = 0,
+		id = 20189,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA40"
+		}
+	},
+	[20190] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA41",
+		mask = "bg/bg_memory",
+		title = "咖啡师",
+		condition = "解锁「养成计划」-探索者相应结局",
+		number = 0,
+		id = 20190,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA41"
+		}
+	},
+	[20191] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA42",
+		mask = "bg/bg_memory",
+		title = "街头占卜师",
+		condition = "解锁「养成计划」-探索者相应结局",
+		number = 0,
+		id = 20191,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA42"
+		}
+	},
+	[20192] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA43",
+		mask = "bg/bg_memory",
+		title = "书店店员",
+		condition = "解锁「养成计划」-探索者相应结局",
+		number = 0,
+		id = 20192,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA43"
+		}
+	},
+	[20193] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA44",
+		mask = "bg/bg_memory",
+		title = "钢琴演奏家",
+		condition = "解锁「养成计划」-探索者相应结局",
+		number = 0,
+		id = 20193,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA44"
+		}
+	},
+	[20194] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA45",
+		mask = "bg/bg_memory",
+		title = "标本师",
+		condition = "解锁「养成计划」-探索者相应结局",
+		number = 0,
+		id = 20194,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA45"
+		}
+	},
+	[20195] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEYANGCHENGJIHUA46",
+		mask = "bg/bg_memory",
+		title = "再度相逢",
+		condition = "解锁「养成计划」-探索者主线剧情",
+		number = 0,
+		id = 20195,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA46"
+		}
+	},
+	[20196] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEXINZHIXUYU1",
+		mask = "bg/bg_memory",
+		title = "雨天散步",
+		condition = "「养成计划」-探索者中，触发相应谈心",
+		number = 0,
+		id = 20196,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU1"
+		}
+	},
+	[20197] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEXINZHIXUYU2",
+		mask = "bg/bg_memory",
+		title = "下午茶时间",
+		condition = "「养成计划」-探索者中，触发相应谈心",
+		number = 0,
+		id = 20197,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU2"
+		}
+	},
+	[20198] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEXINZHIXUYU3",
+		mask = "bg/bg_memory",
+		title = "文件整理",
+		condition = "「养成计划」-探索者中，触发相应谈心",
+		number = 0,
+		id = 20198,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU3"
+		}
+	},
+	[20199] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEXINZHIXUYU4",
+		mask = "bg/bg_memory",
+		title = "挑选礼物",
+		condition = "「养成计划」-探索者中，触发相应谈心",
+		number = 0,
+		id = 20199,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU4"
+		}
+	},
+	[20200] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEXINZHIXUYU5",
+		mask = "bg/bg_memory",
+		title = "发现新奇事物",
+		condition = "「养成计划」-探索者中，触发相应谈心",
+		number = 0,
+		id = 20200,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU5"
+		}
+	},
+	[20201] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEXINZHIXUYU6",
+		mask = "bg/bg_memory",
+		title = "纪念册制作",
+		condition = "「养成计划」-探索者中，触发相应谈心",
+		number = 0,
+		id = 20201,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU6"
+		}
+	},
+	[20202] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEXINZHIXUYU7",
+		mask = "bg/bg_memory",
+		title = "游乐园邀约",
+		condition = "「养成计划」-探索者中，触发相应谈心",
+		number = 0,
+		id = 20202,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU7"
+		}
+	},
+	[20203] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEXINZHIXUYU8",
+		mask = "bg/bg_memory",
+		title = "仓库寻宝",
+		condition = "「养成计划」-探索者中，触发相应谈心",
+		number = 0,
+		id = 20203,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU8"
+		}
+	},
+	[20204] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEXINZHIXUYU9",
+		mask = "bg/bg_memory",
+		title = "健康监督",
+		condition = "「养成计划」-探索者中，触发相应谈心",
+		number = 0,
+		id = 20204,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU9"
+		}
+	},
+	[20205] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHEXINZHIXUYU10",
+		mask = "bg/bg_memory",
+		title = "装饰计划",
+		condition = "「养成计划」-探索者中，触发相应谈心",
+		number = 0,
+		id = 20205,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU10"
+		}
+	},
+	[20206] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHELAIFANGJISHI1",
+		mask = "bg/bg_memory",
+		title = "闪耀的秘诀I",
+		condition = "「养成计划」-探索者中，拜访舰船",
+		number = 0,
+		id = 20206,
+		icon = "explorer_baifang1",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI1"
+		}
+	},
+	[20207] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHELAIFANGJISHI2",
+		mask = "bg/bg_memory",
+		title = "花语庭院I",
+		condition = "「养成计划」-探索者中，拜访舰船",
+		number = 0,
+		id = 20207,
+		icon = "explorer_baifang2",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI2"
+		}
+	},
+	[20208] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHELAIFANGJISHI3",
+		mask = "bg/bg_memory",
+		title = "不必改变的直率I",
+		condition = "「养成计划」-探索者中，拜访舰船",
+		number = 0,
+		id = 20208,
+		icon = "explorer_baifang3",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI3"
+		}
+	},
+	[20209] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHELAIFANGJISHI4",
+		mask = "bg/bg_memory",
+		title = "围裙与荣光I",
+		condition = "「养成计划」-探索者中，拜访舰船",
+		number = 0,
+		id = 20209,
+		icon = "explorer_baifang4",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI4"
+		}
+	},
+	[20210] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHELAIFANGJISHI5",
+		mask = "bg/bg_memory",
+		title = "笨拙心意I",
+		condition = "「养成计划」-探索者中，拜访舰船",
+		number = 0,
+		id = 20210,
+		icon = "explorer_baifang5",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI5"
+		}
+	},
+	[20211] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHELAIFANGJISHI6",
+		mask = "bg/bg_memory",
+		title = "井井有条之日I",
+		condition = "「养成计划」-探索者中，拜访舰船",
+		number = 0,
+		id = 20211,
+		icon = "explorer_baifang6",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI6"
+		}
+	},
+	[20212] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHELAIFANGJISHI7",
+		mask = "bg/bg_memory",
+		title = "闪耀的秘诀II",
+		condition = "「养成计划」-探索者中，拜访舰船",
+		number = 0,
+		id = 20212,
+		icon = "explorer_baifang1",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI7"
+		}
+	},
+	[20213] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHELAIFANGJISHI8",
+		mask = "bg/bg_memory",
+		title = "花语庭院II",
+		condition = "「养成计划」-探索者中，拜访舰船",
+		number = 0,
+		id = 20213,
+		icon = "explorer_baifang2",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI8"
+		}
+	},
+	[20214] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHELAIFANGJISHI9",
+		mask = "bg/bg_memory",
+		title = "不必改变的直率II",
+		condition = "「养成计划」-探索者中，拜访舰船",
+		number = 0,
+		id = 20214,
+		icon = "explorer_baifang3",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI9"
+		}
+	},
+	[20215] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHELAIFANGJISHI10",
+		mask = "bg/bg_memory",
+		title = "围裙与荣光II",
+		condition = "「养成计划」-探索者中，拜访舰船",
+		number = 0,
+		id = 20215,
+		icon = "explorer_baifang4",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI10"
+		}
+	},
+	[20216] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHELAIFANGJISHI11",
+		mask = "bg/bg_memory",
+		title = "笨拙心意II",
+		condition = "「养成计划」-探索者中，拜访舰船",
+		number = 0,
+		id = 20216,
+		icon = "explorer_baifang5",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI11"
+		}
+	},
+	[20217] = {
+		type = 1,
+		subtitle = "",
+		story = "TANSUOZHELAIFANGJISHI12",
+		mask = "bg/bg_memory",
+		title = "井井有条之日II",
+		condition = "「养成计划」-探索者中，拜访舰船",
+		number = 0,
+		id = 20217,
+		icon = "explorer_baifang6",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI12"
 		}
 	}
 }

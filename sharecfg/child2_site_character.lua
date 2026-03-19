@@ -510,6 +510,1026 @@ pg.child2_site_character = {
 		drop_display = {},
 		cost = {}
 	},
+	[201] = {
+		group = 7,
+		level = 0,
+		type = 1,
+		id = 201,
+		option_name = "前往拜访",
+		node_id = 3240101,
+		drop_display = {
+			{
+				1,
+				101,
+				5
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[202] = {
+		group = 7,
+		level = 1,
+		type = 1,
+		id = 202,
+		option_name = "前往拜访",
+		node_id = 3240201,
+		drop_display = {
+			{
+				1,
+				101,
+				10
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[203] = {
+		group = 7,
+		level = 2,
+		type = 1,
+		id = 203,
+		option_name = "前往拜访",
+		node_id = 3240301,
+		drop_display = {
+			{
+				1,
+				101,
+				15
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[204] = {
+		group = 7,
+		level = 3,
+		type = 1,
+		id = 204,
+		option_name = "前往拜访",
+		node_id = 0,
+		drop_display = {},
+		cost = {}
+	},
+	[205] = {
+		group = 8,
+		level = 0,
+		type = 1,
+		id = 205,
+		option_name = "前往拜访",
+		node_id = 3241101,
+		drop_display = {
+			{
+				1,
+				101,
+				5
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[206] = {
+		group = 8,
+		level = 1,
+		type = 1,
+		id = 206,
+		option_name = "前往拜访",
+		node_id = 3241201,
+		drop_display = {
+			{
+				1,
+				101,
+				10
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[207] = {
+		group = 8,
+		level = 2,
+		type = 1,
+		id = 207,
+		option_name = "前往拜访",
+		node_id = 3241301,
+		drop_display = {
+			{
+				1,
+				101,
+				15
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[208] = {
+		group = 8,
+		level = 3,
+		type = 1,
+		id = 208,
+		option_name = "前往拜访",
+		node_id = 0,
+		drop_display = {},
+		cost = {}
+	},
+	[209] = {
+		group = 9,
+		level = 0,
+		type = 1,
+		id = 209,
+		option_name = "前往拜访",
+		node_id = 3242101,
+		drop_display = {
+			{
+				1,
+				101,
+				5
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[210] = {
+		group = 9,
+		level = 1,
+		type = 1,
+		id = 210,
+		option_name = "前往拜访",
+		node_id = 3242201,
+		drop_display = {
+			{
+				1,
+				101,
+				10
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[211] = {
+		group = 9,
+		level = 2,
+		type = 1,
+		id = 211,
+		option_name = "前往拜访",
+		node_id = 3242301,
+		drop_display = {
+			{
+				1,
+				101,
+				15
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[212] = {
+		group = 9,
+		level = 3,
+		type = 1,
+		id = 212,
+		option_name = "前往拜访",
+		node_id = 0,
+		drop_display = {},
+		cost = {}
+	},
+	[213] = {
+		group = 10,
+		level = 0,
+		type = 2,
+		id = 213,
+		option_name = "前往拜访",
+		node_id = 3243101,
+		drop_display = {
+			{
+				1,
+				101,
+				5
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[214] = {
+		group = 10,
+		level = 1,
+		type = 2,
+		id = 214,
+		option_name = "前往拜访",
+		node_id = 3243201,
+		drop_display = {
+			{
+				1,
+				101,
+				10
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[215] = {
+		group = 10,
+		level = 2,
+		type = 2,
+		id = 215,
+		option_name = "前往拜访",
+		node_id = 3243301,
+		drop_display = {
+			{
+				1,
+				101,
+				15
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[216] = {
+		group = 10,
+		level = 3,
+		type = 2,
+		id = 216,
+		option_name = "前往拜访",
+		node_id = 0,
+		drop_display = {},
+		cost = {}
+	},
+	[217] = {
+		group = 11,
+		level = 0,
+		type = 2,
+		id = 217,
+		option_name = "前往拜访",
+		node_id = 3244101,
+		drop_display = {
+			{
+				1,
+				101,
+				5
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[218] = {
+		group = 11,
+		level = 1,
+		type = 2,
+		id = 218,
+		option_name = "前往拜访",
+		node_id = 3244201,
+		drop_display = {
+			{
+				1,
+				101,
+				10
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[219] = {
+		group = 11,
+		level = 2,
+		type = 2,
+		id = 219,
+		option_name = "前往拜访",
+		node_id = 3244301,
+		drop_display = {
+			{
+				1,
+				101,
+				15
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[220] = {
+		group = 11,
+		level = 3,
+		type = 2,
+		id = 220,
+		option_name = "前往拜访",
+		node_id = 0,
+		drop_display = {},
+		cost = {}
+	},
+	[221] = {
+		group = 12,
+		level = 0,
+		type = 2,
+		id = 221,
+		option_name = "前往拜访",
+		node_id = 3245101,
+		drop_display = {
+			{
+				1,
+				101,
+				5
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[222] = {
+		group = 12,
+		level = 1,
+		type = 2,
+		id = 222,
+		option_name = "前往拜访",
+		node_id = 3245201,
+		drop_display = {
+			{
+				1,
+				101,
+				10
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[223] = {
+		group = 12,
+		level = 2,
+		type = 2,
+		id = 223,
+		option_name = "前往拜访",
+		node_id = 3245301,
+		drop_display = {
+			{
+				1,
+				101,
+				15
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[224] = {
+		group = 12,
+		level = 3,
+		type = 2,
+		id = 224,
+		option_name = "前往拜访",
+		node_id = 0,
+		drop_display = {},
+		cost = {}
+	},
+	[301] = {
+		group = 13,
+		level = 0,
+		type = 1,
+		id = 301,
+		option_name = "前往拜访",
+		node_id = 3640101,
+		drop_display = {
+			{
+				1,
+				301,
+				5
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[302] = {
+		group = 13,
+		level = 1,
+		type = 1,
+		id = 302,
+		option_name = "前往拜访",
+		node_id = 3640201,
+		drop_display = {
+			{
+				1,
+				301,
+				10
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[303] = {
+		group = 13,
+		level = 2,
+		type = 1,
+		id = 303,
+		option_name = "前往拜访",
+		node_id = 3640301,
+		drop_display = {
+			{
+				1,
+				301,
+				15
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[304] = {
+		group = 13,
+		level = 3,
+		type = 1,
+		id = 304,
+		option_name = "前往拜访",
+		node_id = 0,
+		drop_display = {},
+		cost = {}
+	},
+	[305] = {
+		group = 14,
+		level = 0,
+		type = 1,
+		id = 305,
+		option_name = "前往拜访",
+		node_id = 3641101,
+		drop_display = {
+			{
+				1,
+				301,
+				5
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[306] = {
+		group = 14,
+		level = 1,
+		type = 1,
+		id = 306,
+		option_name = "前往拜访",
+		node_id = 3641201,
+		drop_display = {
+			{
+				1,
+				301,
+				10
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[307] = {
+		group = 14,
+		level = 2,
+		type = 1,
+		id = 307,
+		option_name = "前往拜访",
+		node_id = 3641301,
+		drop_display = {
+			{
+				1,
+				301,
+				15
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[308] = {
+		group = 14,
+		level = 3,
+		type = 1,
+		id = 308,
+		option_name = "前往拜访",
+		node_id = 0,
+		drop_display = {},
+		cost = {}
+	},
+	[309] = {
+		group = 15,
+		level = 0,
+		type = 1,
+		id = 309,
+		option_name = "前往拜访",
+		node_id = 3642101,
+		drop_display = {
+			{
+				1,
+				301,
+				5
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[310] = {
+		group = 15,
+		level = 1,
+		type = 1,
+		id = 310,
+		option_name = "前往拜访",
+		node_id = 3642201,
+		drop_display = {
+			{
+				1,
+				301,
+				10
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[311] = {
+		group = 15,
+		level = 2,
+		type = 1,
+		id = 311,
+		option_name = "前往拜访",
+		node_id = 3642301,
+		drop_display = {
+			{
+				1,
+				301,
+				15
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[312] = {
+		group = 15,
+		level = 3,
+		type = 1,
+		id = 312,
+		option_name = "前往拜访",
+		node_id = 0,
+		drop_display = {},
+		cost = {}
+	},
+	[313] = {
+		group = 16,
+		level = 0,
+		type = 2,
+		id = 313,
+		option_name = "前往拜访",
+		node_id = 3643101,
+		drop_display = {
+			{
+				1,
+				301,
+				5
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[314] = {
+		group = 16,
+		level = 1,
+		type = 2,
+		id = 314,
+		option_name = "前往拜访",
+		node_id = 3643201,
+		drop_display = {
+			{
+				1,
+				301,
+				10
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[315] = {
+		group = 16,
+		level = 2,
+		type = 2,
+		id = 315,
+		option_name = "前往拜访",
+		node_id = 3643301,
+		drop_display = {
+			{
+				1,
+				301,
+				15
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[316] = {
+		group = 16,
+		level = 3,
+		type = 2,
+		id = 316,
+		option_name = "前往拜访",
+		node_id = 0,
+		drop_display = {},
+		cost = {}
+	},
+	[317] = {
+		group = 17,
+		level = 0,
+		type = 2,
+		id = 317,
+		option_name = "前往拜访",
+		node_id = 3644101,
+		drop_display = {
+			{
+				1,
+				301,
+				5
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[318] = {
+		group = 17,
+		level = 1,
+		type = 2,
+		id = 318,
+		option_name = "前往拜访",
+		node_id = 3644201,
+		drop_display = {
+			{
+				1,
+				301,
+				10
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[319] = {
+		group = 17,
+		level = 2,
+		type = 2,
+		id = 319,
+		option_name = "前往拜访",
+		node_id = 3644301,
+		drop_display = {
+			{
+				1,
+				301,
+				15
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[320] = {
+		group = 17,
+		level = 3,
+		type = 2,
+		id = 320,
+		option_name = "前往拜访",
+		node_id = 0,
+		drop_display = {},
+		cost = {}
+	},
+	[321] = {
+		group = 18,
+		level = 0,
+		type = 2,
+		id = 321,
+		option_name = "前往拜访",
+		node_id = 3645101,
+		drop_display = {
+			{
+				1,
+				301,
+				5
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[322] = {
+		group = 18,
+		level = 1,
+		type = 2,
+		id = 322,
+		option_name = "前往拜访",
+		node_id = 3645201,
+		drop_display = {
+			{
+				1,
+				301,
+				10
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[323] = {
+		group = 18,
+		level = 2,
+		type = 2,
+		id = 323,
+		option_name = "前往拜访",
+		node_id = 3645301,
+		drop_display = {
+			{
+				1,
+				301,
+				15
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[324] = {
+		group = 18,
+		level = 3,
+		type = 2,
+		id = 324,
+		option_name = "前往拜访",
+		node_id = 0,
+		drop_display = {},
+		cost = {}
+	},
 	get_id_list_by_group = {
 		{
 			1,
@@ -546,6 +1566,78 @@ pg.child2_site_character = {
 			22,
 			23,
 			24
+		},
+		{
+			201,
+			202,
+			203,
+			204
+		},
+		{
+			205,
+			206,
+			207,
+			208
+		},
+		{
+			209,
+			210,
+			211,
+			212
+		},
+		{
+			213,
+			214,
+			215,
+			216
+		},
+		{
+			217,
+			218,
+			219,
+			220
+		},
+		{
+			221,
+			222,
+			223,
+			224
+		},
+		{
+			301,
+			302,
+			303,
+			304
+		},
+		{
+			305,
+			306,
+			307,
+			308
+		},
+		{
+			309,
+			310,
+			311,
+			312
+		},
+		{
+			313,
+			314,
+			315,
+			316
+		},
+		{
+			317,
+			318,
+			319,
+			320
+		},
+		{
+			321,
+			322,
+			323,
+			324
 		}
 	},
 	all = {
@@ -572,6 +1664,54 @@ pg.child2_site_character = {
 		21,
 		22,
 		23,
-		24
+		24,
+		201,
+		202,
+		203,
+		204,
+		205,
+		206,
+		207,
+		208,
+		209,
+		210,
+		211,
+		212,
+		213,
+		214,
+		215,
+		216,
+		217,
+		218,
+		219,
+		220,
+		221,
+		222,
+		223,
+		224,
+		301,
+		302,
+		303,
+		304,
+		305,
+		306,
+		307,
+		308,
+		309,
+		310,
+		311,
+		312,
+		313,
+		314,
+		315,
+		316,
+		317,
+		318,
+		319,
+		320,
+		321,
+		322,
+		323,
+		324
 	}
 }

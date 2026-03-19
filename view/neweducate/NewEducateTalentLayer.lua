@@ -91,7 +91,7 @@ function var_0_0.UpdateItem(arg_11_0, arg_11_1, arg_11_2)
 end
 
 function var_0_0.RefreshView(arg_14_0)
-	local var_14_0 = arg_14_0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.TALENT)
+	local var_14_0 = arg_14_0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.TALENT)
 
 	arg_14_0.talentList = var_14_0:GetTalents()
 	arg_14_0.reTalentList = var_14_0:GetReTalents()
@@ -100,7 +100,7 @@ function var_0_0.RefreshView(arg_14_0)
 end
 
 function var_0_0.OnRefreshTalent(arg_15_0, arg_15_1, arg_15_2)
-	local var_15_0 = arg_15_0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.TALENT)
+	local var_15_0 = arg_15_0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.TALENT)
 
 	arg_15_0.talentList = var_15_0:GetTalents()
 	arg_15_0.reTalentList = var_15_0:GetReTalents()
@@ -110,7 +110,7 @@ function var_0_0.OnRefreshTalent(arg_15_0, arg_15_1, arg_15_2)
 			local var_16_0 = arg_16_0:GetComponent(typeof(DftAniEvent))
 
 			var_16_0:SetTriggerEvent(function()
-				var_16_0:SetEndEvent(nil)
+				var_16_0:SetTriggerEvent(nil)
 
 				arg_15_0.isPlaying = false
 
@@ -124,31 +124,46 @@ function var_0_0.OnRefreshTalent(arg_15_0, arg_15_1, arg_15_2)
 end
 
 function var_0_0.OnSelectedDone(arg_18_0, arg_18_1)
-	arg_18_0.animEvent:SetEndEvent(function()
-		arg_18_0.animEvent:SetEndEvent(nil)
-
-		arg_18_0.isPlaying = false
-
-		arg_18_0:closeView()
-	end)
-	arg_18_0.animCom:Play("Anim_educate_talent_select")
-
-	arg_18_0.isPlaying = true
-
-	eachChild(arg_18_0.uiList.container, function(arg_20_0)
-		if tonumber(arg_20_0.name) ~= arg_18_1 then
-			arg_20_0:GetComponent(typeof(Animation)):Play("Anim_educate_talent_tpl_out")
+	seriesAsync({
+		function(arg_19_0)
+			if #arg_18_1.drops > 0 then
+				arg_18_0:emit(var_0_0.ON_DROP, {
+					items = arg_18_1.drops,
+					removeFunc = function()
+						arg_19_0()
+					end
+				})
+			else
+				arg_19_0()
+			end
 		end
+	}, function()
+		arg_18_0.animEvent:SetEndEvent(function()
+			arg_18_0.animEvent:SetEndEvent(nil)
+
+			arg_18_0.isPlaying = false
+
+			arg_18_0:closeView()
+		end)
+		arg_18_0.animCom:Play("Anim_educate_talent_select")
+
+		arg_18_0.isPlaying = true
+
+		eachChild(arg_18_0.uiList.container, function(arg_23_0)
+			if tonumber(arg_23_0.name) ~= arg_18_1.idx then
+				arg_23_0:GetComponent(typeof(Animation)):Play("Anim_educate_talent_tpl_out")
+			end
+		end)
 	end)
 end
 
-function var_0_0.onBackPressed(arg_21_0)
+function var_0_0.onBackPressed(arg_24_0)
 	return
 end
 
-function var_0_0.willExit(arg_22_0)
-	arg_22_0:UnOverlayPanel(arg_22_0._tf)
-	existCall(arg_22_0.contextData.onExit)
+function var_0_0.willExit(arg_25_0)
+	arg_25_0:UnOverlayPanel(arg_25_0._tf)
+	existCall(arg_25_0.contextData.onExit)
 end
 
 return var_0_0

@@ -37693,7 +37693,11 @@ end)()
 		ai_refresh = {
 			0
 		},
-		use_oil_limit = {},
+		use_oil_limit = {
+			47,
+			63,
+			18
+		},
 		win_condition = {
 			{
 				1,
@@ -38564,7 +38568,11 @@ end)()
 		ai_refresh = {
 			0
 		},
-		use_oil_limit = {},
+		use_oil_limit = {
+			48,
+			64,
+			18
+		},
 		win_condition = {
 			{
 				1,
@@ -39137,7 +39145,7 @@ end)()
 			{
 				0,
 				1,
-				"16zhang_1x1_2",
+				"suligao_1x1_2",
 				0,
 				0
 			}
@@ -39423,7 +39431,11 @@ end)()
 		ai_refresh = {
 			0
 		},
-		use_oil_limit = {},
+		use_oil_limit = {
+			49,
+			65,
+			18
+		},
 		win_condition = {
 			{
 				1,
@@ -40169,7 +40181,11 @@ end)()
 		ai_refresh = {
 			0
 		},
-		use_oil_limit = {},
+		use_oil_limit = {
+			50,
+			66,
+			18
+		},
 		win_condition = {
 			{
 				1,

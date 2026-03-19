@@ -1336,6 +1336,1342 @@ pg.child2_plan = {
 		},
 		replace_type = {}
 	},
+	[1201] = {
+		type = 1,
+		name = "趣球课堂",
+		replace_type_show = 1,
+		icon_rectangle = "plan_explorer_rectangle_1",
+		result_node = 3700001,
+		is_show = 1,
+		icon_square = "plan_explorer_square_1",
+		name_2 = "趣球课堂",
+		id = 1201,
+		group_id = 101,
+		level = 1,
+		cost = {
+			{
+				2,
+				301,
+				6
+			},
+			{
+				2,
+				302,
+				1
+			}
+		},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				1,
+				301,
+				5
+			}
+		},
+		replace_type = {}
+	},
+	[1202] = {
+		type = 1,
+		name = "巧手课堂",
+		replace_type_show = 1,
+		icon_rectangle = "plan_explorer_rectangle_2",
+		result_node = 3700003,
+		is_show = 1,
+		icon_square = "plan_explorer_square_2",
+		name_2 = "巧手课堂",
+		id = 1202,
+		group_id = 102,
+		level = 1,
+		cost = {
+			{
+				2,
+				301,
+				6
+			},
+			{
+				2,
+				302,
+				1
+			}
+		},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				1,
+				303,
+				5
+			}
+		},
+		replace_type = {}
+	},
+	[1203] = {
+		type = 1,
+		name = "悦读课堂",
+		replace_type_show = 1,
+		icon_rectangle = "plan_explorer_rectangle_3",
+		result_node = 3700005,
+		is_show = 1,
+		icon_square = "plan_explorer_square_3",
+		name_2 = "悦读课堂",
+		id = 1203,
+		group_id = 103,
+		level = 1,
+		cost = {
+			{
+				2,
+				301,
+				6
+			},
+			{
+				2,
+				302,
+				1
+			}
+		},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				1,
+				302,
+				5
+			}
+		},
+		replace_type = {}
+	},
+	[1204] = {
+		type = 1,
+		name = "奇思课堂",
+		replace_type_show = 1,
+		icon_rectangle = "plan_explorer_rectangle_4",
+		result_node = 3700007,
+		is_show = 1,
+		icon_square = "plan_explorer_square_4",
+		name_2 = "奇思课堂",
+		id = 1204,
+		group_id = 104,
+		level = 1,
+		cost = {
+			{
+				2,
+				301,
+				6
+			},
+			{
+				2,
+				302,
+				1
+			}
+		},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				1,
+				304,
+				5
+			}
+		},
+		replace_type = {}
+	},
+	[1205] = {
+		type = 2,
+		name = "律动课堂",
+		replace_type_show = 1,
+		icon_rectangle = "plan_explorer_rectangle_5",
+		result_node = 3700009,
+		is_show = 1,
+		icon_square = "plan_explorer_square_5",
+		name_2 = "律动课堂",
+		id = 1205,
+		group_id = 105,
+		level = 1,
+		cost = {},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				2,
+				302,
+				3
+			}
+		},
+		replace_type = {}
+	},
+	[1206] = {
+		type = 2,
+		name = "生活课堂",
+		replace_type_show = 1,
+		icon_rectangle = "plan_explorer_rectangle_6",
+		result_node = 3700011,
+		is_show = 1,
+		icon_square = "plan_explorer_square_6",
+		name_2 = "生活课堂",
+		id = 1206,
+		group_id = 106,
+		level = 1,
+		cost = {},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				2,
+				301,
+				8
+			}
+		},
+		replace_type = {}
+	},
+	[1207] = {
+		type = 1,
+		name = "体能课程Lv.1",
+		replace_type_show = 1,
+		icon_rectangle = "plan_explorer_rectangle_7",
+		result_node = 3700013,
+		is_show = 1,
+		icon_square = "plan_explorer_square_7",
+		name_2 = "体能课程",
+		id = 1207,
+		group_id = 107,
+		level = 1,
+		cost = {
+			{
+				2,
+				301,
+				12
+			},
+			{
+				2,
+				302,
+				2
+			}
+		},
+		level_condition = {
+			"&&",
+			{
+				3700010,
+				3700050
+			}
+		},
+		condition_desc = {
+			{
+				{
+					3700010
+				},
+				"体能<color=#f7f7f7>>=300</color>"
+			},
+			{
+				{
+					3700050
+				},
+				"总属性<color=#f7f7f7>>=600</color>"
+			}
+		},
+		result_display = {
+			{
+				1,
+				301,
+				10
+			}
+		},
+		replace_type = {
+			1,
+			2
+		}
+	},
+	[1208] = {
+		type = 1,
+		name = "体能课程Lv.2",
+		replace_type_show = 1,
+		icon_rectangle = "plan_explorer_rectangle_7",
+		result_node = 3700015,
+		is_show = 1,
+		icon_square = "plan_explorer_square_7",
+		name_2 = "体能课程",
+		id = 1208,
+		group_id = 107,
+		level = 2,
+		cost = {
+			{
+				2,
+				301,
+				20
+			},
+			{
+				2,
+				302,
+				4
+			}
+		},
+		level_condition = {
+			"&&",
+			{
+				3700011,
+				3700051
+			}
+		},
+		condition_desc = {
+			{
+				{
+					3700011
+				},
+				"体能<color=#f7f7f7>>=1000</color>"
+			},
+			{
+				{
+					3700051
+				},
+				"总属性<color=#f7f7f7>>=1800</color>"
+			}
+		},
+		result_display = {
+			{
+				1,
+				301,
+				20
+			}
+		},
+		replace_type = {
+			1,
+			2
+		}
+	},
+	[1209] = {
+		type = 1,
+		name = "体能课程Lv.Max",
+		replace_type_show = 1,
+		icon_rectangle = "plan_explorer_rectangle_7",
+		result_node = 3700017,
+		is_show = 1,
+		icon_square = "plan_explorer_square_7",
+		name_2 = "体能课程",
+		id = 1209,
+		group_id = 107,
+		level = 3,
+		cost = {
+			{
+				2,
+				301,
+				40
+			},
+			{
+				2,
+				302,
+				8
+			}
+		},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				1,
+				301,
+				40
+			}
+		},
+		replace_type = {
+			1,
+			2
+		}
+	},
+	[1210] = {
+		type = 1,
+		name = "实践课程Lv.1",
+		replace_type_show = 1,
+		icon_rectangle = "plan_explorer_rectangle_8",
+		result_node = 3700019,
+		is_show = 1,
+		icon_square = "plan_explorer_square_8",
+		name_2 = "实践课程",
+		id = 1210,
+		group_id = 108,
+		level = 1,
+		cost = {
+			{
+				2,
+				301,
+				12
+			},
+			{
+				2,
+				302,
+				2
+			}
+		},
+		level_condition = {
+			"&&",
+			{
+				3700020,
+				3700050
+			}
+		},
+		condition_desc = {
+			{
+				{
+					3700020
+				},
+				"实践<color=#f7f7f7>>=300</color>"
+			},
+			{
+				{
+					3700050
+				},
+				"总属性<color=#f7f7f7>>=600</color>"
+			}
+		},
+		result_display = {
+			{
+				1,
+				303,
+				10
+			}
+		},
+		replace_type = {
+			1,
+			2
+		}
+	},
+	[1211] = {
+		type = 1,
+		name = "实践课程Lv.2",
+		replace_type_show = 1,
+		icon_rectangle = "plan_explorer_rectangle_8",
+		result_node = 3700021,
+		is_show = 1,
+		icon_square = "plan_explorer_square_8",
+		name_2 = "实践课程",
+		id = 1211,
+		group_id = 108,
+		level = 2,
+		cost = {
+			{
+				2,
+				301,
+				20
+			},
+			{
+				2,
+				302,
+				4
+			}
+		},
+		level_condition = {
+			"&&",
+			{
+				3700021,
+				3700051
+			}
+		},
+		condition_desc = {
+			{
+				{
+					3700021
+				},
+				"实践<color=#f7f7f7>>=1000</color>"
+			},
+			{
+				{
+					3700051
+				},
+				"总属性<color=#f7f7f7>>=1800</color>"
+			}
+		},
+		result_display = {
+			{
+				1,
+				303,
+				20
+			}
+		},
+		replace_type = {
+			1,
+			2
+		}
+	},
+	[1212] = {
+		type = 1,
+		name = "实践课程Lv.Max",
+		replace_type_show = 1,
+		icon_rectangle = "plan_explorer_rectangle_8",
+		result_node = 3700023,
+		is_show = 1,
+		icon_square = "plan_explorer_square_8",
+		name_2 = "实践课程",
+		id = 1212,
+		group_id = 108,
+		level = 3,
+		cost = {
+			{
+				2,
+				301,
+				40
+			},
+			{
+				2,
+				302,
+				8
+			}
+		},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				1,
+				303,
+				40
+			}
+		},
+		replace_type = {
+			1,
+			2
+		}
+	},
+	[1213] = {
+		type = 1,
+		name = "阅读课程Lv.1",
+		replace_type_show = 1,
+		icon_rectangle = "plan_explorer_rectangle_9",
+		result_node = 3700025,
+		is_show = 1,
+		icon_square = "plan_explorer_square_9",
+		name_2 = "阅读课程",
+		id = 1213,
+		group_id = 109,
+		level = 1,
+		cost = {
+			{
+				2,
+				301,
+				12
+			},
+			{
+				2,
+				302,
+				2
+			}
+		},
+		level_condition = {
+			"&&",
+			{
+				3700040,
+				3700050
+			}
+		},
+		condition_desc = {
+			{
+				{
+					3700040
+				},
+				"知识<color=#f7f7f7>>=300</color>"
+			},
+			{
+				{
+					3700050
+				},
+				"总属性<color=#f7f7f7>>=600</color>"
+			}
+		},
+		result_display = {
+			{
+				1,
+				302,
+				10
+			}
+		},
+		replace_type = {
+			1,
+			2
+		}
+	},
+	[1214] = {
+		type = 1,
+		name = "阅读课程Lv.2",
+		replace_type_show = 1,
+		icon_rectangle = "plan_explorer_rectangle_9",
+		result_node = 3700027,
+		is_show = 1,
+		icon_square = "plan_explorer_square_9",
+		name_2 = "阅读课程",
+		id = 1214,
+		group_id = 109,
+		level = 2,
+		cost = {
+			{
+				2,
+				301,
+				20
+			},
+			{
+				2,
+				302,
+				4
+			}
+		},
+		level_condition = {
+			"&&",
+			{
+				3700041,
+				3700051
+			}
+		},
+		condition_desc = {
+			{
+				{
+					3700041
+				},
+				"知识<color=#f7f7f7>>=1000</color>"
+			},
+			{
+				{
+					3700051
+				},
+				"总属性<color=#f7f7f7>>=1800</color>"
+			}
+		},
+		result_display = {
+			{
+				1,
+				302,
+				20
+			}
+		},
+		replace_type = {
+			1,
+			2
+		}
+	},
+	[1215] = {
+		type = 1,
+		name = "阅读课程Lv.Max",
+		replace_type_show = 1,
+		icon_rectangle = "plan_explorer_rectangle_9",
+		result_node = 3700029,
+		is_show = 1,
+		icon_square = "plan_explorer_square_9",
+		name_2 = "阅读课程",
+		id = 1215,
+		group_id = 109,
+		level = 3,
+		cost = {
+			{
+				2,
+				301,
+				40
+			},
+			{
+				2,
+				302,
+				8
+			}
+		},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				1,
+				302,
+				40
+			}
+		},
+		replace_type = {
+			1,
+			2
+		}
+	},
+	[1216] = {
+		type = 1,
+		name = "感知课程Lv.1",
+		replace_type_show = 1,
+		icon_rectangle = "plan_explorer_rectangle_10",
+		result_node = 3700031,
+		is_show = 1,
+		icon_square = "plan_explorer_square_10",
+		name_2 = "感知课程",
+		id = 1216,
+		group_id = 110,
+		level = 1,
+		cost = {
+			{
+				2,
+				301,
+				12
+			},
+			{
+				2,
+				302,
+				2
+			}
+		},
+		level_condition = {
+			"&&",
+			{
+				3700030,
+				3700050
+			}
+		},
+		condition_desc = {
+			{
+				{
+					3700030
+				},
+				"感知<color=#f7f7f7>>=300</color>"
+			},
+			{
+				{
+					3700050
+				},
+				"总属性<color=#f7f7f7>>=600</color>"
+			}
+		},
+		result_display = {
+			{
+				1,
+				304,
+				10
+			}
+		},
+		replace_type = {
+			1,
+			2
+		}
+	},
+	[1217] = {
+		type = 1,
+		name = "感知课程Lv.2",
+		replace_type_show = 1,
+		icon_rectangle = "plan_explorer_rectangle_10",
+		result_node = 3700033,
+		is_show = 1,
+		icon_square = "plan_explorer_square_10",
+		name_2 = "感知课程",
+		id = 1217,
+		group_id = 110,
+		level = 2,
+		cost = {
+			{
+				2,
+				301,
+				20
+			},
+			{
+				2,
+				302,
+				4
+			}
+		},
+		level_condition = {
+			"&&",
+			{
+				3700031,
+				3700051
+			}
+		},
+		condition_desc = {
+			{
+				{
+					3700031
+				},
+				"感知<color=#f7f7f7>>=1000</color>"
+			},
+			{
+				{
+					3700051
+				},
+				"总属性<color=#f7f7f7>>=1800</color>"
+			}
+		},
+		result_display = {
+			{
+				1,
+				304,
+				20
+			}
+		},
+		replace_type = {
+			1,
+			2
+		}
+	},
+	[1218] = {
+		type = 1,
+		name = "感知课程Lv.Max",
+		replace_type_show = 1,
+		icon_rectangle = "plan_explorer_rectangle_10",
+		result_node = 3700035,
+		is_show = 1,
+		icon_square = "plan_explorer_square_10",
+		name_2 = "感知课程",
+		id = 1218,
+		group_id = 110,
+		level = 3,
+		cost = {
+			{
+				2,
+				301,
+				40
+			},
+			{
+				2,
+				302,
+				8
+			}
+		},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				1,
+				304,
+				40
+			}
+		},
+		replace_type = {
+			1,
+			2
+		}
+	},
+	[1219] = {
+		type = 2,
+		name = "元气舞蹈",
+		replace_type_show = 1,
+		icon_rectangle = "plan_explorer_rectangle_12",
+		result_node = 3700037,
+		is_show = 1,
+		icon_square = "plan_explorer_square_12",
+		name_2 = "元气舞蹈",
+		id = 1219,
+		group_id = 111,
+		level = 1,
+		cost = {},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				2,
+				302,
+				6
+			}
+		},
+		replace_type = {}
+	},
+	[1222] = {
+		type = 2,
+		name = "庄园助手",
+		replace_type_show = 1,
+		icon_rectangle = "plan_explorer_rectangle_11",
+		result_node = 3700039,
+		is_show = 1,
+		icon_square = "plan_explorer_square_11",
+		name_2 = "庄园助手",
+		id = 1222,
+		group_id = 112,
+		level = 1,
+		cost = {},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				2,
+				301,
+				15
+			}
+		},
+		replace_type = {}
+	},
+	[1223] = {
+		type = 1,
+		name = "随心探索 ",
+		replace_type_show = 2,
+		icon_rectangle = "plan_explorer_rectangle_15",
+		result_node = 3700501,
+		is_show = 1,
+		icon_square = "plan_explorer_square_15",
+		name_2 = "随心探索 ",
+		id = 1223,
+		group_id = 130,
+		level = 1,
+		cost = {},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				1,
+				301,
+				1
+			}
+		},
+		replace_type = {}
+	},
+	[1224] = {
+		type = 1,
+		name = "随心探索 ",
+		replace_type_show = 2,
+		icon_rectangle = "plan_explorer_rectangle_15",
+		result_node = 3700503,
+		is_show = 1,
+		icon_square = "plan_explorer_square_15",
+		name_2 = "随心探索 ",
+		id = 1224,
+		group_id = 130,
+		level = 2,
+		cost = {},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				1,
+				301,
+				1
+			}
+		},
+		replace_type = {}
+	},
+	[1225] = {
+		type = 1,
+		name = "随心探索 ",
+		replace_type_show = 2,
+		icon_rectangle = "plan_explorer_rectangle_15",
+		result_node = 3700505,
+		is_show = 1,
+		icon_square = "plan_explorer_square_15",
+		name_2 = "随心探索 ",
+		id = 1225,
+		group_id = 130,
+		level = 3,
+		cost = {},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				1,
+				301,
+				1
+			}
+		},
+		replace_type = {}
+	},
+	[1226] = {
+		type = 1,
+		name = "体能课程Lv.1",
+		replace_type_show = 3,
+		icon_rectangle = "plan_explorer_rectangle_7",
+		result_node = 3700513,
+		is_show = 1,
+		icon_square = "plan_explorer_square_7",
+		name_2 = "体能课程",
+		id = 1226,
+		group_id = 115,
+		level = 1,
+		cost = {
+			{
+				2,
+				301,
+				12
+			},
+			{
+				2,
+				302,
+				2
+			}
+		},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				1,
+				301,
+				10
+			}
+		},
+		replace_type = {}
+	},
+	[1227] = {
+		type = 1,
+		name = "体能课程Lv.2",
+		replace_type_show = 3,
+		icon_rectangle = "plan_explorer_rectangle_7",
+		result_node = 3700515,
+		is_show = 1,
+		icon_square = "plan_explorer_square_7",
+		name_2 = "体能课程",
+		id = 1227,
+		group_id = 115,
+		level = 2,
+		cost = {
+			{
+				2,
+				301,
+				20
+			},
+			{
+				2,
+				302,
+				4
+			}
+		},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				1,
+				301,
+				20
+			}
+		},
+		replace_type = {}
+	},
+	[1228] = {
+		type = 1,
+		name = "体能课程Lv.Max",
+		replace_type_show = 3,
+		icon_rectangle = "plan_explorer_rectangle_7",
+		result_node = 3700517,
+		is_show = 1,
+		icon_square = "plan_explorer_square_7",
+		name_2 = "体能课程",
+		id = 1228,
+		group_id = 115,
+		level = 3,
+		cost = {
+			{
+				2,
+				301,
+				40
+			},
+			{
+				2,
+				302,
+				8
+			}
+		},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				1,
+				301,
+				40
+			}
+		},
+		replace_type = {}
+	},
+	[1229] = {
+		type = 1,
+		name = "实践课程Lv.1",
+		replace_type_show = 3,
+		icon_rectangle = "plan_explorer_rectangle_8",
+		result_node = 3700519,
+		is_show = 1,
+		icon_square = "plan_explorer_square_8",
+		name_2 = "实践课程",
+		id = 1229,
+		group_id = 116,
+		level = 1,
+		cost = {
+			{
+				2,
+				301,
+				12
+			},
+			{
+				2,
+				302,
+				2
+			}
+		},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				1,
+				303,
+				10
+			}
+		},
+		replace_type = {}
+	},
+	[1230] = {
+		type = 1,
+		name = "实践课程Lv.2",
+		replace_type_show = 3,
+		icon_rectangle = "plan_explorer_rectangle_8",
+		result_node = 3700521,
+		is_show = 1,
+		icon_square = "plan_explorer_square_8",
+		name_2 = "实践课程",
+		id = 1230,
+		group_id = 116,
+		level = 2,
+		cost = {
+			{
+				2,
+				301,
+				20
+			},
+			{
+				2,
+				302,
+				4
+			}
+		},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				1,
+				303,
+				20
+			}
+		},
+		replace_type = {}
+	},
+	[1231] = {
+		type = 1,
+		name = "实践课程Lv.Max",
+		replace_type_show = 3,
+		icon_rectangle = "plan_explorer_rectangle_8",
+		result_node = 3700523,
+		is_show = 1,
+		icon_square = "plan_explorer_square_8",
+		name_2 = "实践课程",
+		id = 1231,
+		group_id = 116,
+		level = 3,
+		cost = {
+			{
+				2,
+				301,
+				40
+			},
+			{
+				2,
+				302,
+				8
+			}
+		},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				1,
+				303,
+				40
+			}
+		},
+		replace_type = {}
+	},
+	[1232] = {
+		type = 1,
+		name = "阅读课程Lv.1",
+		replace_type_show = 3,
+		icon_rectangle = "plan_explorer_rectangle_9",
+		result_node = 3700525,
+		is_show = 1,
+		icon_square = "plan_explorer_square_9",
+		name_2 = "阅读课程",
+		id = 1232,
+		group_id = 117,
+		level = 1,
+		cost = {
+			{
+				2,
+				301,
+				12
+			},
+			{
+				2,
+				302,
+				2
+			}
+		},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				1,
+				302,
+				10
+			}
+		},
+		replace_type = {}
+	},
+	[1233] = {
+		type = 1,
+		name = "阅读课程Lv.2",
+		replace_type_show = 3,
+		icon_rectangle = "plan_explorer_rectangle_9",
+		result_node = 3700527,
+		is_show = 1,
+		icon_square = "plan_explorer_square_9",
+		name_2 = "阅读课程",
+		id = 1233,
+		group_id = 117,
+		level = 2,
+		cost = {
+			{
+				2,
+				301,
+				20
+			},
+			{
+				2,
+				302,
+				4
+			}
+		},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				1,
+				302,
+				20
+			}
+		},
+		replace_type = {}
+	},
+	[1234] = {
+		type = 1,
+		name = "阅读课程Lv.Max",
+		replace_type_show = 3,
+		icon_rectangle = "plan_explorer_rectangle_9",
+		result_node = 3700529,
+		is_show = 1,
+		icon_square = "plan_explorer_square_9",
+		name_2 = "阅读课程",
+		id = 1234,
+		group_id = 117,
+		level = 3,
+		cost = {
+			{
+				2,
+				301,
+				40
+			},
+			{
+				2,
+				302,
+				8
+			}
+		},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				1,
+				302,
+				40
+			}
+		},
+		replace_type = {}
+	},
+	[1235] = {
+		type = 1,
+		name = "感知课程Lv.1",
+		replace_type_show = 3,
+		icon_rectangle = "plan_explorer_rectangle_10",
+		result_node = 3700531,
+		is_show = 1,
+		icon_square = "plan_explorer_square_10",
+		name_2 = "感知课程",
+		id = 1235,
+		group_id = 118,
+		level = 1,
+		cost = {
+			{
+				2,
+				301,
+				12
+			},
+			{
+				2,
+				302,
+				2
+			}
+		},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				1,
+				304,
+				10
+			}
+		},
+		replace_type = {}
+	},
+	[1236] = {
+		type = 1,
+		name = "感知课程Lv.2",
+		replace_type_show = 3,
+		icon_rectangle = "plan_explorer_rectangle_10",
+		result_node = 3700533,
+		is_show = 1,
+		icon_square = "plan_explorer_square_10",
+		name_2 = "感知课程",
+		id = 1236,
+		group_id = 118,
+		level = 2,
+		cost = {
+			{
+				2,
+				301,
+				20
+			},
+			{
+				2,
+				302,
+				4
+			}
+		},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				1,
+				304,
+				20
+			}
+		},
+		replace_type = {}
+	},
+	[1237] = {
+		type = 1,
+		name = "感知课程Lv.Max",
+		replace_type_show = 3,
+		icon_rectangle = "plan_explorer_rectangle_10",
+		result_node = 3700535,
+		is_show = 1,
+		icon_square = "plan_explorer_square_10",
+		name_2 = "感知课程",
+		id = 1237,
+		group_id = 118,
+		level = 3,
+		cost = {
+			{
+				2,
+				301,
+				40
+			},
+			{
+				2,
+				302,
+				8
+			}
+		},
+		level_condition = {},
+		condition_desc = {},
+		result_display = {
+			{
+				1,
+				304,
+				40
+			}
+		},
+		replace_type = {}
+	},
 	get_id_list_by_group_id = {
 		{
 			1101
@@ -1405,6 +2741,75 @@ pg.child2_plan = {
 			3116,
 			3117,
 			3118
+		},
+		[101] = {
+			1201
+		},
+		[102] = {
+			1202
+		},
+		[103] = {
+			1203
+		},
+		[104] = {
+			1204
+		},
+		[105] = {
+			1205
+		},
+		[106] = {
+			1206
+		},
+		[107] = {
+			1207,
+			1208,
+			1209
+		},
+		[108] = {
+			1210,
+			1211,
+			1212
+		},
+		[109] = {
+			1213,
+			1214,
+			1215
+		},
+		[110] = {
+			1216,
+			1217,
+			1218
+		},
+		[111] = {
+			1219
+		},
+		[112] = {
+			1222
+		},
+		[130] = {
+			1223,
+			1224,
+			1225
+		},
+		[115] = {
+			1226,
+			1227,
+			1228
+		},
+		[116] = {
+			1229,
+			1230,
+			1231
+		},
+		[117] = {
+			1232,
+			1233,
+			1234
+		},
+		[118] = {
+			1235,
+			1236,
+			1237
 		}
 	},
 	all = {
@@ -1442,6 +2847,41 @@ pg.child2_plan = {
 		3115,
 		3116,
 		3117,
-		3118
+		3118,
+		1201,
+		1202,
+		1203,
+		1204,
+		1205,
+		1206,
+		1207,
+		1208,
+		1209,
+		1210,
+		1211,
+		1212,
+		1213,
+		1214,
+		1215,
+		1216,
+		1217,
+		1218,
+		1219,
+		1222,
+		1223,
+		1224,
+		1225,
+		1226,
+		1227,
+		1228,
+		1229,
+		1230,
+		1231,
+		1232,
+		1233,
+		1234,
+		1235,
+		1236,
+		1237
 	}
 }

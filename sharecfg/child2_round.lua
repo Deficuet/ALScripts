@@ -1,13 +1,18 @@
 pg = pg or {}
 pg.child2_round = {
 	{
+		stage = 1,
+		endless_factor = "",
 		id = 1,
+		tarot_select = "",
 		main_background = "educate_oceana_1",
+		round_type = 1,
 		round = 1,
+		refresh_refill = 0,
 		character = 1,
 		plan_num = 5,
 		map_mobility = 0,
-		stage = 1,
+		is_hard_mode = 0,
 		stage_change_event_node_id = 0,
 		target_id = 0,
 		main_painting = {
@@ -279,14 +284,19 @@ pg.child2_round = {
 		}
 	},
 	{
-		id = 2,
+		stage = 1,
 		benefit_select = "",
-		main_background = "educate_oceana_1",
+		endless_factor = "",
+		tarot_select = "",
+		id = 2,
+		round_type = 1,
 		round = 2,
+		main_background = "educate_oceana_1",
+		refresh_refill = 0,
 		character = 1,
 		plan_num = 5,
 		map_mobility = 3,
-		stage = 1,
+		is_hard_mode = 0,
 		stage_change_event_node_id = 0,
 		target_id = 0,
 		main_painting = {
@@ -364,14 +374,19 @@ pg.child2_round = {
 		main_event_chat_node_id = {}
 	},
 	{
-		id = 3,
+		stage = 1,
 		benefit_select = "",
-		main_background = "educate_oceana_1",
+		endless_factor = "",
+		tarot_select = "",
+		id = 3,
+		round_type = 1,
 		round = 3,
+		main_background = "educate_oceana_1",
+		refresh_refill = 0,
 		character = 1,
 		plan_num = 5,
 		map_mobility = 3,
-		stage = 1,
+		is_hard_mode = 0,
 		stage_change_event_node_id = 0,
 		target_id = 0,
 		main_painting = {
@@ -449,14 +464,19 @@ pg.child2_round = {
 		main_event_chat_node_id = {}
 	},
 	{
-		id = 4,
+		stage = 1,
 		benefit_select = "",
-		main_background = "educate_oceana_1",
+		endless_factor = "",
+		tarot_select = "",
+		id = 4,
+		round_type = 1,
 		round = 4,
+		main_background = "educate_oceana_1",
+		refresh_refill = 0,
 		character = 1,
 		plan_num = 5,
 		map_mobility = 3,
-		stage = 1,
+		is_hard_mode = 0,
 		stage_change_event_node_id = 0,
 		target_id = 0,
 		main_painting = {
@@ -534,14 +554,19 @@ pg.child2_round = {
 		}
 	},
 	{
-		id = 5,
+		stage = 1,
 		benefit_select = "",
-		main_background = "educate_oceana_1",
+		endless_factor = "",
+		tarot_select = "",
+		id = 5,
+		round_type = 1,
 		round = 5,
+		main_background = "educate_oceana_1",
+		refresh_refill = 0,
 		character = 1,
 		plan_num = 5,
 		map_mobility = 3,
-		stage = 1,
+		is_hard_mode = 0,
 		stage_change_event_node_id = 0,
 		target_id = 1,
 		main_painting = {
@@ -619,13 +644,18 @@ pg.child2_round = {
 		main_event_chat_node_id = {}
 	},
 	{
+		stage = 2,
+		endless_factor = "",
 		id = 6,
+		tarot_select = "",
 		main_background = "educate_oceana_2",
+		round_type = 1,
 		round = 6,
+		refresh_refill = 0,
 		character = 1,
 		plan_num = 5,
 		map_mobility = 3,
-		stage = 2,
+		is_hard_mode = 0,
 		stage_change_event_node_id = 0,
 		target_id = 0,
 		main_painting = {
@@ -913,14 +943,19 @@ pg.child2_round = {
 		main_event_chat_node_id = {}
 	},
 	{
-		id = 7,
+		stage = 2,
 		benefit_select = "",
-		main_background = "educate_oceana_2",
+		endless_factor = "",
+		tarot_select = "",
+		id = 7,
+		round_type = 1,
 		round = 7,
+		main_background = "educate_oceana_2",
+		refresh_refill = 0,
 		character = 1,
 		plan_num = 5,
 		map_mobility = 3,
-		stage = 2,
+		is_hard_mode = 0,
 		stage_change_event_node_id = 0,
 		target_id = 0,
 		main_painting = {
@@ -998,14 +1033,19 @@ pg.child2_round = {
 		main_event_chat_node_id = {}
 	},
 	{
-		id = 8,
+		stage = 2,
 		benefit_select = "",
-		main_background = "educate_oceana_2",
+		endless_factor = "",
+		tarot_select = "",
+		id = 8,
+		round_type = 1,
 		round = 8,
+		main_background = "educate_oceana_2",
+		refresh_refill = 0,
 		character = 1,
 		plan_num = 5,
 		map_mobility = 3,
-		stage = 2,
+		is_hard_mode = 0,
 		stage_change_event_node_id = 0,
 		target_id = 0,
 		main_painting = {
@@ -1083,14 +1123,19 @@ pg.child2_round = {
 		main_event_chat_node_id = {}
 	},
 	{
-		id = 9,
+		stage = 2,
 		benefit_select = "",
-		main_background = "educate_oceana_2",
+		endless_factor = "",
+		tarot_select = "",
+		id = 9,
+		round_type = 1,
 		round = 9,
+		main_background = "educate_oceana_2",
+		refresh_refill = 0,
 		character = 1,
 		plan_num = 5,
 		map_mobility = 3,
-		stage = 2,
+		is_hard_mode = 0,
 		stage_change_event_node_id = 0,
 		target_id = 0,
 		main_painting = {
@@ -1177,14 +1222,19 @@ pg.child2_round = {
 		}
 	},
 	{
-		id = 10,
+		stage = 2,
 		benefit_select = "",
-		main_background = "educate_oceana_2",
+		endless_factor = "",
+		tarot_select = "",
+		id = 10,
+		round_type = 1,
 		round = 10,
+		main_background = "educate_oceana_2",
+		refresh_refill = 0,
 		character = 1,
 		plan_num = 5,
 		map_mobility = 3,
-		stage = 2,
+		is_hard_mode = 0,
 		stage_change_event_node_id = 0,
 		target_id = 2,
 		main_painting = {
@@ -1262,13 +1312,18 @@ pg.child2_round = {
 		main_event_chat_node_id = {}
 	},
 	{
+		stage = 3,
+		endless_factor = "",
 		id = 11,
+		tarot_select = "",
 		main_background = "educate_oceana_2",
+		round_type = 1,
 		round = 11,
+		refresh_refill = 0,
 		character = 1,
 		plan_num = 5,
 		map_mobility = 3,
-		stage = 3,
+		is_hard_mode = 0,
 		stage_change_event_node_id = 0,
 		target_id = 0,
 		main_painting = {
@@ -1556,14 +1611,19 @@ pg.child2_round = {
 		main_event_chat_node_id = {}
 	},
 	{
-		id = 12,
+		stage = 3,
 		benefit_select = "",
-		main_background = "educate_oceana_2",
+		endless_factor = "",
+		tarot_select = "",
+		id = 12,
+		round_type = 1,
 		round = 12,
+		main_background = "educate_oceana_2",
+		refresh_refill = 0,
 		character = 1,
 		plan_num = 5,
 		map_mobility = 3,
-		stage = 3,
+		is_hard_mode = 0,
 		stage_change_event_node_id = 0,
 		target_id = 0,
 		main_painting = {
@@ -1632,14 +1692,19 @@ pg.child2_round = {
 		main_event_chat_node_id = {}
 	},
 	{
-		id = 13,
+		stage = 3,
 		benefit_select = "",
-		main_background = "educate_oceana_3",
+		endless_factor = "",
+		tarot_select = "",
+		id = 13,
+		round_type = 1,
 		round = 13,
+		main_background = "educate_oceana_3",
+		refresh_refill = 0,
 		character = 1,
 		plan_num = 5,
 		map_mobility = 3,
-		stage = 3,
+		is_hard_mode = 0,
 		stage_change_event_node_id = 0,
 		target_id = 0,
 		main_painting = {
@@ -1717,14 +1782,19 @@ pg.child2_round = {
 		main_event_chat_node_id = {}
 	},
 	{
-		id = 14,
+		stage = 3,
 		benefit_select = "",
-		main_background = "educate_oceana_3",
+		endless_factor = "",
+		tarot_select = "",
+		id = 14,
+		round_type = 1,
 		round = 14,
+		main_background = "educate_oceana_3",
+		refresh_refill = 0,
 		character = 1,
 		plan_num = 5,
 		map_mobility = 3,
-		stage = 3,
+		is_hard_mode = 0,
 		stage_change_event_node_id = 0,
 		target_id = 0,
 		main_painting = {
@@ -1802,14 +1872,19 @@ pg.child2_round = {
 		}
 	},
 	{
-		id = 15,
+		stage = 3,
 		benefit_select = "",
-		main_background = "educate_oceana_3",
+		endless_factor = "",
+		tarot_select = "",
+		id = 15,
+		round_type = 1,
 		round = 15,
+		main_background = "educate_oceana_3",
+		refresh_refill = 0,
 		character = 1,
 		plan_num = 5,
 		map_mobility = 3,
-		stage = 3,
+		is_hard_mode = 0,
 		stage_change_event_node_id = 0,
 		target_id = 3,
 		main_painting = {
@@ -1887,13 +1962,18 @@ pg.child2_round = {
 		main_event_chat_node_id = {}
 	},
 	{
+		stage = 3,
+		endless_factor = "",
 		id = 16,
+		tarot_select = "",
 		main_background = "educate_oceana_3",
+		round_type = 1,
 		round = 16,
+		refresh_refill = 0,
 		character = 1,
 		plan_num = 5,
 		map_mobility = 3,
-		stage = 3,
+		is_hard_mode = 0,
 		stage_change_event_node_id = 0,
 		target_id = 0,
 		main_painting = {
@@ -2148,14 +2228,19 @@ pg.child2_round = {
 		main_event_chat_node_id = {}
 	},
 	{
-		id = 17,
+		stage = 3,
 		benefit_select = "",
-		main_background = "educate_oceana_3",
+		endless_factor = "",
+		tarot_select = "",
+		id = 17,
+		round_type = 1,
 		round = 17,
+		main_background = "educate_oceana_3",
+		refresh_refill = 0,
 		character = 1,
 		plan_num = 5,
 		map_mobility = 3,
-		stage = 3,
+		is_hard_mode = 0,
 		stage_change_event_node_id = 0,
 		target_id = 0,
 		main_painting = {
@@ -2233,14 +2318,19 @@ pg.child2_round = {
 		main_event_chat_node_id = {}
 	},
 	{
-		id = 18,
+		stage = 3,
 		benefit_select = "",
-		main_background = "educate_oceana_3",
+		endless_factor = "",
+		tarot_select = "",
+		id = 18,
+		round_type = 1,
 		round = 18,
+		main_background = "educate_oceana_3",
+		refresh_refill = 0,
 		character = 1,
 		plan_num = 5,
 		map_mobility = 3,
-		stage = 3,
+		is_hard_mode = 0,
 		stage_change_event_node_id = 0,
 		target_id = 0,
 		main_painting = {
@@ -2309,14 +2399,19 @@ pg.child2_round = {
 		main_event_chat_node_id = {}
 	},
 	{
-		id = 19,
+		stage = 3,
 		benefit_select = "",
-		main_background = "educate_oceana_3",
+		endless_factor = "",
+		tarot_select = "",
+		id = 19,
+		round_type = 1,
 		round = 19,
+		main_background = "educate_oceana_3",
+		refresh_refill = 0,
 		character = 1,
 		plan_num = 5,
 		map_mobility = 3,
-		stage = 3,
+		is_hard_mode = 0,
 		stage_change_event_node_id = 0,
 		target_id = 0,
 		main_painting = {
@@ -2394,14 +2489,19 @@ pg.child2_round = {
 		}
 	},
 	{
-		id = 20,
+		stage = 3,
 		benefit_select = "",
-		main_background = "educate_oceana_3",
+		endless_factor = "",
+		tarot_select = "",
+		id = 20,
+		round_type = 1,
 		round = 20,
+		main_background = "educate_oceana_3",
+		refresh_refill = 0,
 		character = 1,
 		plan_num = 5,
 		map_mobility = 3,
-		stage = 3,
+		is_hard_mode = 0,
 		stage_change_event_node_id = 0,
 		target_id = 4,
 		main_painting = {
@@ -2478,6 +2578,5956 @@ pg.child2_round = {
 		},
 		main_event_chat_node_id = {}
 	},
+	[101] = {
+		stage = 1,
+		benefit_select = "",
+		endless_factor = "",
+		id = 101,
+		main_background = "educate_explorer_1",
+		round_type = 1,
+		round = 1,
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 0,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe1_1"
+			},
+			{
+				"tag2",
+				"tansuozhe1_1"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000001,
+					3000002,
+					3000003,
+					3000004,
+					3000005
+				}
+			},
+			{
+				"tag2",
+				{
+					3000001,
+					3000002,
+					3000003,
+					3000004,
+					3000005
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					11,
+					14,
+					12,
+					1,
+					15
+				}
+			},
+			{
+				"tag2",
+				{
+					11,
+					14,
+					12,
+					1,
+					15
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			101,
+			102,
+			103,
+			104,
+			105,
+			106
+		},
+		main_event_chat_node_id = {
+			{
+				"tag1",
+				3300401
+			},
+			{
+				"tag2",
+				3300701
+			}
+		},
+		tarot_select = {
+			1000
+		}
+	},
+	[102] = {
+		stage = 1,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 102,
+		round_type = 1,
+		round = 2,
+		main_background = "educate_explorer_1",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe1_1"
+			},
+			{
+				"tag2",
+				"tansuozhe1_1"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000001,
+					3000002,
+					3000003,
+					3000004,
+					3000005
+				}
+			},
+			{
+				"tag2",
+				{
+					3000001,
+					3000002,
+					3000003,
+					3000004,
+					3000005
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					11,
+					14,
+					12,
+					1,
+					15
+				}
+			},
+			{
+				"tag2",
+				{
+					11,
+					14,
+					12,
+					1,
+					15
+				}
+			}
+		},
+		main_event_node_id = {
+			{
+				"tag1",
+				3400001
+			},
+			{
+				"tag2",
+				3400003
+			}
+		},
+		plan_group = {
+			101,
+			102,
+			103,
+			104,
+			105,
+			106
+		},
+		main_event_chat_node_id = {}
+	},
+	[103] = {
+		stage = 1,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 103,
+		round_type = 1,
+		round = 3,
+		main_background = "educate_explorer_1",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe1_1"
+			},
+			{
+				"tag2",
+				"tansuozhe1_1"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000001,
+					3000002,
+					3000003,
+					3000004,
+					3000005
+				}
+			},
+			{
+				"tag2",
+				{
+					3000001,
+					3000002,
+					3000003,
+					3000004,
+					3000005
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					11,
+					14,
+					12,
+					1,
+					15
+				}
+			},
+			{
+				"tag2",
+				{
+					11,
+					14,
+					12,
+					1,
+					15
+				}
+			}
+		},
+		main_event_node_id = {
+			{
+				"tag1",
+				3400002
+			},
+			{
+				"tag2",
+				3400004
+			}
+		},
+		plan_group = {
+			101,
+			102,
+			103,
+			104,
+			105,
+			106
+		},
+		main_event_chat_node_id = {
+			{
+				"tag1",
+				3300501
+			},
+			{
+				"tag2",
+				3300801
+			}
+		}
+	},
+	[104] = {
+		stage = 1,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 104,
+		round_type = 1,
+		round = 4,
+		main_background = "educate_explorer_1",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe1_2"
+			},
+			{
+				"tag2",
+				"tansuozhe1_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000001,
+					3000002,
+					3000003,
+					3000004,
+					3000005
+				}
+			},
+			{
+				"tag2",
+				{
+					3000001,
+					3000002,
+					3000003,
+					3000004,
+					3000005
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					11,
+					14,
+					12,
+					1,
+					15
+				}
+			},
+			{
+				"tag2",
+				{
+					11,
+					14,
+					12,
+					1,
+					15
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			101,
+			102,
+			103,
+			104,
+			105,
+			106
+		},
+		main_event_chat_node_id = {}
+	},
+	[105] = {
+		stage = 1,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 105,
+		round_type = 1,
+		round = 5,
+		main_background = "educate_explorer_1",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 101,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe1_2"
+			},
+			{
+				"tag2",
+				"tansuozhe1_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000001,
+					3000002,
+					3000003,
+					3000004,
+					3000005
+				}
+			},
+			{
+				"tag2",
+				{
+					3000001,
+					3000002,
+					3000003,
+					3000004,
+					3000005
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					11,
+					14,
+					12,
+					1,
+					15
+				}
+			},
+			{
+				"tag2",
+				{
+					11,
+					14,
+					12,
+					1,
+					15
+				}
+			}
+		},
+		main_event_node_id = {
+			{
+				"tag1",
+				3400005
+			},
+			{
+				"tag2",
+				3400005
+			}
+		},
+		plan_group = {
+			101,
+			102,
+			103,
+			104,
+			105,
+			106
+		},
+		main_event_chat_node_id = {}
+	},
+	[106] = {
+		stage = 2,
+		endless_factor = "",
+		id = 106,
+		tarot_select = "",
+		main_background = "educate_explorer_2",
+		round_type = 1,
+		round = 6,
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe21_1"
+			},
+			{
+				"tag2",
+				"tansuozhe22_1"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000006,
+					3000007,
+					3000008,
+					3000009,
+					3000010
+				}
+			},
+			{
+				"tag2",
+				{
+					3000011,
+					3000012,
+					3000013,
+					3000014,
+					3000015
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					9,
+					2,
+					7,
+					8,
+					5
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					1,
+					2,
+					7,
+					10
+				}
+			}
+		},
+		main_event_node_id = {
+			{
+				"tag1",
+				3400006
+			},
+			{
+				"tag2",
+				3400006
+			}
+		},
+		benefit_select = {
+			{
+				3830001,
+				22
+			},
+			{
+				3830002,
+				22
+			},
+			{
+				3830003,
+				22
+			},
+			{
+				3830004,
+				22
+			},
+			{
+				3830005,
+				22
+			},
+			{
+				3830006,
+				22
+			},
+			{
+				3830008,
+				22
+			},
+			{
+				3830009,
+				22
+			},
+			{
+				3830010,
+				22
+			},
+			{
+				3830012,
+				22
+			},
+			{
+				3830013,
+				22
+			},
+			{
+				3830018,
+				22
+			},
+			{
+				3830022,
+				22
+			},
+			{
+				3830023,
+				22
+			},
+			{
+				3830024,
+				22
+			},
+			{
+				3830025,
+				22
+			},
+			{
+				3830027,
+				22
+			},
+			{
+				3830028,
+				22
+			},
+			{
+				3830029,
+				22
+			},
+			{
+				3830030,
+				22
+			},
+			{
+				3830031,
+				22
+			},
+			{
+				3830032,
+				22
+			},
+			{
+				3830033,
+				22
+			},
+			{
+				3830034,
+				22
+			},
+			{
+				3830035,
+				22
+			},
+			{
+				3830036,
+				22
+			},
+			{
+				3830037,
+				22
+			}
+		},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {
+			{
+				"tag1",
+				3300101
+			},
+			{
+				"tag2",
+				3300601
+			}
+		}
+	},
+	[107] = {
+		stage = 2,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 107,
+		round_type = 1,
+		round = 7,
+		main_background = "educate_explorer_2",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe21_1"
+			},
+			{
+				"tag2",
+				"tansuozhe22_1"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000006,
+					3000007,
+					3000008,
+					3000009,
+					3000010
+				}
+			},
+			{
+				"tag2",
+				{
+					3000011,
+					3000012,
+					3000013,
+					3000014,
+					3000015
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					9,
+					2,
+					7,
+					8,
+					5
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					1,
+					2,
+					7,
+					10
+				}
+			}
+		},
+		main_event_node_id = {
+			{
+				"tag1",
+				3400008
+			},
+			{
+				"tag2",
+				3400011
+			}
+		},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[108] = {
+		stage = 2,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 108,
+		round_type = 1,
+		round = 8,
+		main_background = "educate_explorer_2",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe21_2"
+			},
+			{
+				"tag2",
+				"tansuozhe22_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000006,
+					3000007,
+					3000008,
+					3000009,
+					3000010
+				}
+			},
+			{
+				"tag2",
+				{
+					3000011,
+					3000012,
+					3000013,
+					3000014,
+					3000015
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					9,
+					2,
+					7,
+					8,
+					5
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					1,
+					2,
+					7,
+					10
+				}
+			}
+		},
+		main_event_node_id = {
+			{
+				"tag1",
+				3400009
+			},
+			{
+				"tag2",
+				3400012
+			}
+		},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[109] = {
+		stage = 2,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 109,
+		round_type = 1,
+		round = 9,
+		main_background = "educate_explorer_2",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe21_2"
+			},
+			{
+				"tag2",
+				"tansuozhe22_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000006,
+					3000007,
+					3000008,
+					3000009,
+					3000010
+				}
+			},
+			{
+				"tag2",
+				{
+					3000011,
+					3000012,
+					3000013,
+					3000014,
+					3000015
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					9,
+					2,
+					7,
+					8,
+					5
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					1,
+					2,
+					7,
+					10
+				}
+			}
+		},
+		main_event_node_id = {
+			{
+				"tag1",
+				3400010
+			},
+			{
+				"tag2",
+				3400013
+			}
+		},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[110] = {
+		stage = 2,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 110,
+		round_type = 1,
+		round = 10,
+		main_background = "educate_explorer_2",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 102,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe21_2"
+			},
+			{
+				"tag2",
+				"tansuozhe22_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000006,
+					3000007,
+					3000008,
+					3000009,
+					3000010
+				}
+			},
+			{
+				"tag2",
+				{
+					3000011,
+					3000012,
+					3000013,
+					3000014,
+					3000015
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					9,
+					2,
+					7,
+					8,
+					5
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					1,
+					2,
+					7,
+					10
+				}
+			}
+		},
+		main_event_node_id = {
+			{
+				"tag1",
+				3400015
+			},
+			{
+				"tag2",
+				3400014
+			}
+		},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[111] = {
+		stage = 3,
+		endless_factor = "",
+		id = 111,
+		tarot_select = "",
+		main_background = "educate_explorer_2",
+		round_type = 1,
+		round = 11,
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {
+			{
+				"tag1",
+				3400016
+			},
+			{
+				"tag2",
+				3400016
+			}
+		},
+		benefit_select = {
+			{
+				3830001,
+				22
+			},
+			{
+				3830002,
+				22
+			},
+			{
+				3830003,
+				22
+			},
+			{
+				3830004,
+				22
+			},
+			{
+				3830005,
+				22
+			},
+			{
+				3830006,
+				22
+			},
+			{
+				3830008,
+				22
+			},
+			{
+				3830009,
+				22
+			},
+			{
+				3830010,
+				22
+			},
+			{
+				3830012,
+				22
+			},
+			{
+				3830013,
+				22
+			},
+			{
+				3830018,
+				22
+			},
+			{
+				3830022,
+				22
+			},
+			{
+				3830023,
+				22
+			},
+			{
+				3830024,
+				22
+			},
+			{
+				3830025,
+				22
+			},
+			{
+				3830027,
+				22
+			},
+			{
+				3830028,
+				22
+			},
+			{
+				3830029,
+				22
+			},
+			{
+				3830030,
+				22
+			},
+			{
+				3830031,
+				22
+			},
+			{
+				3830032,
+				22
+			},
+			{
+				3830033,
+				22
+			},
+			{
+				3830034,
+				22
+			},
+			{
+				3830035,
+				22
+			},
+			{
+				3830036,
+				22
+			},
+			{
+				3830037,
+				22
+			}
+		},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {
+			{
+				"tag1",
+				3300201
+			},
+			{
+				"tag2",
+				3300901
+			}
+		}
+	},
+	[112] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 112,
+		round_type = 1,
+		round = 12,
+		main_background = "educate_explorer_2",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[113] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 113,
+		round_type = 1,
+		round = 13,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_1"
+			},
+			{
+				"tag2",
+				"tansuozhe32_1"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {
+			{
+				"tag1",
+				3400017
+			},
+			{
+				"tag2",
+				3400020
+			}
+		},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[114] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 114,
+		round_type = 1,
+		round = 14,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_1"
+			},
+			{
+				"tag2",
+				"tansuozhe32_1"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[115] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 115,
+		round_type = 1,
+		round = 15,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 103,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {
+			{
+				"tag1",
+				3400018
+			},
+			{
+				"tag2",
+				3400021
+			}
+		},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[116] = {
+		stage = 3,
+		endless_factor = "",
+		id = 116,
+		tarot_select = "",
+		main_background = "educate_explorer_3",
+		round_type = 1,
+		round = 16,
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		benefit_select = {
+			{
+				3830001,
+				22
+			},
+			{
+				3830002,
+				22
+			},
+			{
+				3830003,
+				22
+			},
+			{
+				3830004,
+				22
+			},
+			{
+				3830005,
+				22
+			},
+			{
+				3830006,
+				22
+			},
+			{
+				3830008,
+				22
+			},
+			{
+				3830009,
+				22
+			},
+			{
+				3830010,
+				22
+			},
+			{
+				3830012,
+				22
+			},
+			{
+				3830013,
+				22
+			},
+			{
+				3830018,
+				22
+			},
+			{
+				3830022,
+				22
+			},
+			{
+				3830023,
+				22
+			},
+			{
+				3830024,
+				22
+			},
+			{
+				3830025,
+				22
+			},
+			{
+				3830027,
+				22
+			},
+			{
+				3830028,
+				22
+			},
+			{
+				3830029,
+				22
+			},
+			{
+				3830030,
+				22
+			},
+			{
+				3830031,
+				22
+			},
+			{
+				3830032,
+				22
+			},
+			{
+				3830033,
+				22
+			},
+			{
+				3830034,
+				22
+			},
+			{
+				3830035,
+				22
+			},
+			{
+				3830036,
+				22
+			},
+			{
+				3830037,
+				22
+			}
+		},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {
+			{
+				"tag1",
+				3300301
+			},
+			{
+				"tag2",
+				3301001
+			}
+		}
+	},
+	[117] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 117,
+		round_type = 1,
+		round = 17,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {
+			{
+				"tag1",
+				3400019
+			},
+			{
+				"tag2",
+				3400022
+			}
+		},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[118] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 118,
+		round_type = 1,
+		round = 18,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[119] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 119,
+		round_type = 1,
+		round = 19,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_1"
+			},
+			{
+				"tag2",
+				"tansuozhe32_1"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[120] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 120,
+		round_type = 1,
+		round = 20,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 104,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {
+			{
+				"tag1",
+				3400023
+			},
+			{
+				"tag2",
+				3400023
+			}
+		},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[151] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "1",
+		tarot_select = "",
+		id = 151,
+		round_type = 2,
+		round = 1,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 111,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[152] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "1",
+		tarot_select = "",
+		id = 152,
+		round_type = 2,
+		round = 1,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 112,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[153] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "1",
+		tarot_select = "",
+		id = 153,
+		round_type = 2,
+		round = 1,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 113,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[154] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "1",
+		tarot_select = "",
+		id = 154,
+		round_type = 2,
+		round = 1,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 114,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[155] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "1",
+		tarot_select = "",
+		id = 155,
+		round_type = 2,
+		round = 1,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 115,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[156] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "1",
+		tarot_select = "",
+		id = 156,
+		round_type = 2,
+		round = 1,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 116,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[157] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "1",
+		tarot_select = "",
+		id = 157,
+		round_type = 2,
+		round = 1,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 117,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[158] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "1",
+		tarot_select = "",
+		id = 158,
+		round_type = 2,
+		round = 1,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 118,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[159] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "1",
+		tarot_select = "",
+		id = 159,
+		round_type = 2,
+		round = 1,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 119,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[160] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "1",
+		tarot_select = "",
+		id = 160,
+		round_type = 2,
+		round = 1,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 0,
+		stage_change_event_node_id = 0,
+		target_id = 120,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[201] = {
+		stage = 1,
+		benefit_select = "",
+		endless_factor = "",
+		id = 201,
+		main_background = "educate_explorer_1",
+		round_type = 1,
+		round = 1,
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 0,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe1_1"
+			},
+			{
+				"tag2",
+				"tansuozhe1_1"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000001,
+					3000002,
+					3000003,
+					3000004,
+					3000005
+				}
+			},
+			{
+				"tag2",
+				{
+					3000001,
+					3000002,
+					3000003,
+					3000004,
+					3000005
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					11,
+					14,
+					12,
+					1,
+					15
+				}
+			},
+			{
+				"tag2",
+				{
+					11,
+					14,
+					12,
+					1,
+					15
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			101,
+			102,
+			103,
+			104,
+			105,
+			106
+		},
+		main_event_chat_node_id = {
+			{
+				"tag1",
+				3300401
+			},
+			{
+				"tag2",
+				3300701
+			}
+		},
+		tarot_select = {
+			1001
+		}
+	},
+	[202] = {
+		stage = 1,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 202,
+		round_type = 1,
+		round = 2,
+		main_background = "educate_explorer_1",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe1_1"
+			},
+			{
+				"tag2",
+				"tansuozhe1_1"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000001,
+					3000002,
+					3000003,
+					3000004,
+					3000005
+				}
+			},
+			{
+				"tag2",
+				{
+					3000001,
+					3000002,
+					3000003,
+					3000004,
+					3000005
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					11,
+					14,
+					12,
+					1,
+					15
+				}
+			},
+			{
+				"tag2",
+				{
+					11,
+					14,
+					12,
+					1,
+					15
+				}
+			}
+		},
+		main_event_node_id = {
+			{
+				"tag1",
+				3400001
+			},
+			{
+				"tag2",
+				3400003
+			}
+		},
+		plan_group = {
+			101,
+			102,
+			103,
+			104,
+			105,
+			106
+		},
+		main_event_chat_node_id = {}
+	},
+	[203] = {
+		stage = 1,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 203,
+		round_type = 1,
+		round = 3,
+		main_background = "educate_explorer_1",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe1_1"
+			},
+			{
+				"tag2",
+				"tansuozhe1_1"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000001,
+					3000002,
+					3000003,
+					3000004,
+					3000005
+				}
+			},
+			{
+				"tag2",
+				{
+					3000001,
+					3000002,
+					3000003,
+					3000004,
+					3000005
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					11,
+					14,
+					12,
+					1,
+					15
+				}
+			},
+			{
+				"tag2",
+				{
+					11,
+					14,
+					12,
+					1,
+					15
+				}
+			}
+		},
+		main_event_node_id = {
+			{
+				"tag1",
+				3400002
+			},
+			{
+				"tag2",
+				3400004
+			}
+		},
+		plan_group = {
+			101,
+			102,
+			103,
+			104,
+			105,
+			106
+		},
+		main_event_chat_node_id = {
+			{
+				"tag1",
+				3300501
+			},
+			{
+				"tag2",
+				3300801
+			}
+		}
+	},
+	[204] = {
+		stage = 1,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 204,
+		round_type = 1,
+		round = 4,
+		main_background = "educate_explorer_1",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe1_2"
+			},
+			{
+				"tag2",
+				"tansuozhe1_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000001,
+					3000002,
+					3000003,
+					3000004,
+					3000005
+				}
+			},
+			{
+				"tag2",
+				{
+					3000001,
+					3000002,
+					3000003,
+					3000004,
+					3000005
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					11,
+					14,
+					12,
+					1,
+					15
+				}
+			},
+			{
+				"tag2",
+				{
+					11,
+					14,
+					12,
+					1,
+					15
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			101,
+			102,
+			103,
+			104,
+			105,
+			106
+		},
+		main_event_chat_node_id = {}
+	},
+	[205] = {
+		stage = 1,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 205,
+		round_type = 1,
+		round = 5,
+		main_background = "educate_explorer_1",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 201,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe1_2"
+			},
+			{
+				"tag2",
+				"tansuozhe1_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000001,
+					3000002,
+					3000003,
+					3000004,
+					3000005
+				}
+			},
+			{
+				"tag2",
+				{
+					3000001,
+					3000002,
+					3000003,
+					3000004,
+					3000005
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					11,
+					14,
+					12,
+					1,
+					15
+				}
+			},
+			{
+				"tag2",
+				{
+					11,
+					14,
+					12,
+					1,
+					15
+				}
+			}
+		},
+		main_event_node_id = {
+			{
+				"tag1",
+				3400005
+			},
+			{
+				"tag2",
+				3400005
+			}
+		},
+		plan_group = {
+			101,
+			102,
+			103,
+			104,
+			105,
+			106
+		},
+		main_event_chat_node_id = {}
+	},
+	[206] = {
+		stage = 2,
+		endless_factor = "",
+		id = 206,
+		tarot_select = "",
+		main_background = "educate_explorer_2",
+		round_type = 1,
+		round = 6,
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe21_1"
+			},
+			{
+				"tag2",
+				"tansuozhe22_1"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000006,
+					3000007,
+					3000008,
+					3000009,
+					3000010
+				}
+			},
+			{
+				"tag2",
+				{
+					3000011,
+					3000012,
+					3000013,
+					3000014,
+					3000015
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					9,
+					2,
+					7,
+					8,
+					5
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					1,
+					2,
+					7,
+					10
+				}
+			}
+		},
+		main_event_node_id = {
+			{
+				"tag1",
+				3400006
+			},
+			{
+				"tag2",
+				3400006
+			}
+		},
+		benefit_select = {
+			{
+				3830001,
+				1
+			},
+			{
+				3830002,
+				1
+			},
+			{
+				3830003,
+				1
+			},
+			{
+				3830004,
+				1
+			},
+			{
+				3830005,
+				1
+			},
+			{
+				3830006,
+				1
+			},
+			{
+				3830008,
+				1
+			},
+			{
+				3830009,
+				1
+			},
+			{
+				3830010,
+				1
+			},
+			{
+				3830011,
+				1
+			},
+			{
+				3830012,
+				1
+			},
+			{
+				3830013,
+				1
+			},
+			{
+				3830014,
+				1
+			},
+			{
+				3830015,
+				1
+			},
+			{
+				3830016,
+				1
+			},
+			{
+				3830017,
+				1
+			},
+			{
+				3830018,
+				1
+			},
+			{
+				3830019,
+				1
+			},
+			{
+				3830020,
+				1
+			},
+			{
+				3830021,
+				1
+			},
+			{
+				3830022,
+				1
+			},
+			{
+				3830023,
+				1
+			},
+			{
+				3830024,
+				1
+			},
+			{
+				3830025,
+				1
+			},
+			{
+				3830026,
+				1
+			},
+			{
+				3830027,
+				1
+			},
+			{
+				3830028,
+				1
+			},
+			{
+				3830029,
+				1
+			},
+			{
+				3830030,
+				1
+			},
+			{
+				3830031,
+				1
+			},
+			{
+				3830032,
+				1
+			},
+			{
+				3830033,
+				1
+			},
+			{
+				3830034,
+				1
+			},
+			{
+				3830035,
+				1
+			},
+			{
+				3830036,
+				1
+			},
+			{
+				3830037,
+				1
+			}
+		},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {
+			{
+				"tag1",
+				3300101
+			},
+			{
+				"tag2",
+				3300601
+			}
+		}
+	},
+	[207] = {
+		stage = 2,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 207,
+		round_type = 1,
+		round = 7,
+		main_background = "educate_explorer_2",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe21_1"
+			},
+			{
+				"tag2",
+				"tansuozhe22_1"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000006,
+					3000007,
+					3000008,
+					3000009,
+					3000010
+				}
+			},
+			{
+				"tag2",
+				{
+					3000011,
+					3000012,
+					3000013,
+					3000014,
+					3000015
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					9,
+					2,
+					7,
+					8,
+					5
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					1,
+					2,
+					7,
+					10
+				}
+			}
+		},
+		main_event_node_id = {
+			{
+				"tag1",
+				3400008
+			},
+			{
+				"tag2",
+				3400011
+			}
+		},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[208] = {
+		stage = 2,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 208,
+		round_type = 1,
+		round = 8,
+		main_background = "educate_explorer_2",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe21_2"
+			},
+			{
+				"tag2",
+				"tansuozhe22_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000006,
+					3000007,
+					3000008,
+					3000009,
+					3000010
+				}
+			},
+			{
+				"tag2",
+				{
+					3000011,
+					3000012,
+					3000013,
+					3000014,
+					3000015
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					9,
+					2,
+					7,
+					8,
+					5
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					1,
+					2,
+					7,
+					10
+				}
+			}
+		},
+		main_event_node_id = {
+			{
+				"tag1",
+				3400009
+			},
+			{
+				"tag2",
+				3400012
+			}
+		},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[209] = {
+		stage = 2,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 209,
+		round_type = 1,
+		round = 9,
+		main_background = "educate_explorer_2",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe21_2"
+			},
+			{
+				"tag2",
+				"tansuozhe22_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000006,
+					3000007,
+					3000008,
+					3000009,
+					3000010
+				}
+			},
+			{
+				"tag2",
+				{
+					3000011,
+					3000012,
+					3000013,
+					3000014,
+					3000015
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					9,
+					2,
+					7,
+					8,
+					5
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					1,
+					2,
+					7,
+					10
+				}
+			}
+		},
+		main_event_node_id = {
+			{
+				"tag1",
+				3400010
+			},
+			{
+				"tag2",
+				3400013
+			}
+		},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[210] = {
+		stage = 2,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 210,
+		round_type = 1,
+		round = 10,
+		main_background = "educate_explorer_2",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 202,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe21_2"
+			},
+			{
+				"tag2",
+				"tansuozhe22_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000006,
+					3000007,
+					3000008,
+					3000009,
+					3000010
+				}
+			},
+			{
+				"tag2",
+				{
+					3000011,
+					3000012,
+					3000013,
+					3000014,
+					3000015
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					9,
+					2,
+					7,
+					8,
+					5
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					1,
+					2,
+					7,
+					10
+				}
+			}
+		},
+		main_event_node_id = {
+			{
+				"tag1",
+				3400015
+			},
+			{
+				"tag2",
+				3400014
+			}
+		},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[211] = {
+		stage = 3,
+		endless_factor = "",
+		id = 211,
+		tarot_select = "",
+		main_background = "educate_explorer_2",
+		round_type = 1,
+		round = 11,
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {
+			{
+				"tag1",
+				3400016
+			},
+			{
+				"tag2",
+				3400016
+			}
+		},
+		benefit_select = {
+			{
+				3830001,
+				1
+			},
+			{
+				3830002,
+				1
+			},
+			{
+				3830003,
+				1
+			},
+			{
+				3830004,
+				1
+			},
+			{
+				3830005,
+				1
+			},
+			{
+				3830006,
+				1
+			},
+			{
+				3830008,
+				1
+			},
+			{
+				3830009,
+				1
+			},
+			{
+				3830010,
+				1
+			},
+			{
+				3830011,
+				1
+			},
+			{
+				3830012,
+				1
+			},
+			{
+				3830013,
+				1
+			},
+			{
+				3830014,
+				1
+			},
+			{
+				3830015,
+				1
+			},
+			{
+				3830016,
+				1
+			},
+			{
+				3830017,
+				1
+			},
+			{
+				3830018,
+				1
+			},
+			{
+				3830019,
+				1
+			},
+			{
+				3830020,
+				1
+			},
+			{
+				3830021,
+				1
+			},
+			{
+				3830022,
+				1
+			},
+			{
+				3830023,
+				1
+			},
+			{
+				3830024,
+				1
+			},
+			{
+				3830025,
+				1
+			},
+			{
+				3830026,
+				1
+			},
+			{
+				3830027,
+				1
+			},
+			{
+				3830028,
+				1
+			},
+			{
+				3830029,
+				1
+			},
+			{
+				3830030,
+				1
+			},
+			{
+				3830031,
+				1
+			},
+			{
+				3830032,
+				1
+			},
+			{
+				3830033,
+				1
+			},
+			{
+				3830034,
+				1
+			},
+			{
+				3830035,
+				1
+			},
+			{
+				3830036,
+				1
+			},
+			{
+				3830037,
+				1
+			}
+		},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {
+			{
+				"tag1",
+				3300201
+			},
+			{
+				"tag2",
+				3300901
+			}
+		}
+	},
+	[212] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 212,
+		round_type = 1,
+		round = 12,
+		main_background = "educate_explorer_2",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[213] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 213,
+		round_type = 1,
+		round = 13,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_1"
+			},
+			{
+				"tag2",
+				"tansuozhe32_1"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {
+			{
+				"tag1",
+				3400017
+			},
+			{
+				"tag2",
+				3400020
+			}
+		},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[214] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 214,
+		round_type = 1,
+		round = 14,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_1"
+			},
+			{
+				"tag2",
+				"tansuozhe32_1"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[215] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 215,
+		round_type = 1,
+		round = 15,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 203,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {
+			{
+				"tag1",
+				3400018
+			},
+			{
+				"tag2",
+				3400021
+			}
+		},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[216] = {
+		stage = 3,
+		endless_factor = "",
+		id = 216,
+		tarot_select = "",
+		main_background = "educate_explorer_3",
+		round_type = 1,
+		round = 16,
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		benefit_select = {
+			{
+				3830001,
+				1
+			},
+			{
+				3830002,
+				1
+			},
+			{
+				3830003,
+				1
+			},
+			{
+				3830004,
+				1
+			},
+			{
+				3830005,
+				1
+			},
+			{
+				3830006,
+				1
+			},
+			{
+				3830008,
+				1
+			},
+			{
+				3830009,
+				1
+			},
+			{
+				3830010,
+				1
+			},
+			{
+				3830011,
+				1
+			},
+			{
+				3830012,
+				1
+			},
+			{
+				3830013,
+				1
+			},
+			{
+				3830014,
+				1
+			},
+			{
+				3830015,
+				1
+			},
+			{
+				3830016,
+				1
+			},
+			{
+				3830017,
+				1
+			},
+			{
+				3830018,
+				1
+			},
+			{
+				3830019,
+				1
+			},
+			{
+				3830020,
+				1
+			},
+			{
+				3830021,
+				1
+			},
+			{
+				3830022,
+				1
+			},
+			{
+				3830023,
+				1
+			},
+			{
+				3830024,
+				1
+			},
+			{
+				3830025,
+				1
+			},
+			{
+				3830026,
+				1
+			},
+			{
+				3830027,
+				1
+			},
+			{
+				3830028,
+				1
+			},
+			{
+				3830029,
+				1
+			},
+			{
+				3830030,
+				1
+			},
+			{
+				3830031,
+				1
+			},
+			{
+				3830032,
+				1
+			},
+			{
+				3830033,
+				1
+			},
+			{
+				3830034,
+				1
+			},
+			{
+				3830035,
+				1
+			},
+			{
+				3830036,
+				1
+			},
+			{
+				3830037,
+				1
+			}
+		},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {
+			{
+				"tag1",
+				3300301
+			},
+			{
+				"tag2",
+				3301001
+			}
+		}
+	},
+	[217] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 217,
+		round_type = 1,
+		round = 17,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {
+			{
+				"tag1",
+				3400019
+			},
+			{
+				"tag2",
+				3400022
+			}
+		},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[218] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 218,
+		round_type = 1,
+		round = 18,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[219] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 219,
+		round_type = 1,
+		round = 19,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 0,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_1"
+			},
+			{
+				"tag2",
+				"tansuozhe32_1"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[220] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "",
+		tarot_select = "",
+		id = 220,
+		round_type = 1,
+		round = 20,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 204,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {
+			{
+				"tag1",
+				3400023
+			},
+			{
+				"tag2",
+				3400023
+			}
+		},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[251] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "1",
+		tarot_select = "",
+		id = 251,
+		round_type = 2,
+		round = 1,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 211,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[252] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "1",
+		tarot_select = "",
+		id = 252,
+		round_type = 2,
+		round = 1,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 212,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[253] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "1",
+		tarot_select = "",
+		id = 253,
+		round_type = 2,
+		round = 1,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 213,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[254] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "1",
+		tarot_select = "",
+		id = 254,
+		round_type = 2,
+		round = 1,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 214,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[255] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "1",
+		tarot_select = "",
+		id = 255,
+		round_type = 2,
+		round = 1,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 215,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[256] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "1",
+		tarot_select = "",
+		id = 256,
+		round_type = 2,
+		round = 1,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 216,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[257] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "1",
+		tarot_select = "",
+		id = 257,
+		round_type = 2,
+		round = 1,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 217,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[258] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "1",
+		tarot_select = "",
+		id = 258,
+		round_type = 2,
+		round = 1,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 218,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[259] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "1",
+		tarot_select = "",
+		id = 259,
+		round_type = 2,
+		round = 1,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 219,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
+	[260] = {
+		stage = 3,
+		benefit_select = "",
+		endless_factor = "1",
+		tarot_select = "",
+		id = 260,
+		round_type = 2,
+		round = 1,
+		main_background = "educate_explorer_3",
+		refresh_refill = 1,
+		character = 2,
+		plan_num = 5,
+		map_mobility = 3,
+		is_hard_mode = 1,
+		stage_change_event_node_id = 0,
+		target_id = 220,
+		main_painting = {
+			{
+				"tag1",
+				"tansuozhe31_2"
+			},
+			{
+				"tag2",
+				"tansuozhe32_2"
+			}
+		},
+		main_word = {
+			{
+				"tag1",
+				{
+					3000016,
+					3000017,
+					3000018,
+					3000019,
+					3000020
+				}
+			},
+			{
+				"tag2",
+				{
+					3000021,
+					3000022,
+					3000023,
+					3000024,
+					3000025
+				}
+			}
+		},
+		main_word_expression = {
+			{
+				"tag1",
+				{
+					1,
+					5,
+					7,
+					7,
+					10
+				}
+			},
+			{
+				"tag2",
+				{
+					10,
+					5,
+					6,
+					10,
+					6
+				}
+			}
+		},
+		main_event_node_id = {},
+		plan_group = {
+			107,
+			108,
+			109,
+			110,
+			111,
+			112
+		},
+		main_event_chat_node_id = {}
+	},
 	get_id_list_by_character = {
 		{
 			1,
@@ -2500,6 +8550,68 @@ pg.child2_round = {
 			18,
 			19,
 			20
+		},
+		{
+			101,
+			102,
+			103,
+			104,
+			105,
+			106,
+			107,
+			108,
+			109,
+			110,
+			111,
+			112,
+			113,
+			114,
+			115,
+			116,
+			117,
+			118,
+			119,
+			120,
+			151,
+			152,
+			153,
+			154,
+			155,
+			156,
+			157,
+			158,
+			159,
+			160,
+			201,
+			202,
+			203,
+			204,
+			205,
+			206,
+			207,
+			208,
+			209,
+			210,
+			211,
+			212,
+			213,
+			214,
+			215,
+			216,
+			217,
+			218,
+			219,
+			220,
+			251,
+			252,
+			253,
+			254,
+			255,
+			256,
+			257,
+			258,
+			259,
+			260
 		}
 	},
 	all = {
@@ -2522,6 +8634,66 @@ pg.child2_round = {
 		17,
 		18,
 		19,
-		20
+		20,
+		101,
+		102,
+		103,
+		104,
+		105,
+		106,
+		107,
+		108,
+		109,
+		110,
+		111,
+		112,
+		113,
+		114,
+		115,
+		116,
+		117,
+		118,
+		119,
+		120,
+		151,
+		152,
+		153,
+		154,
+		155,
+		156,
+		157,
+		158,
+		159,
+		160,
+		201,
+		202,
+		203,
+		204,
+		205,
+		206,
+		207,
+		208,
+		209,
+		210,
+		211,
+		212,
+		213,
+		214,
+		215,
+		216,
+		217,
+		218,
+		219,
+		220,
+		251,
+		252,
+		253,
+		254,
+		255,
+		256,
+		257,
+		258,
+		259,
+		260
 	}
 }

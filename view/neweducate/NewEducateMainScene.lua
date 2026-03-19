@@ -37,7 +37,10 @@ function var_0_0.init(arg_3_0)
 	arg_3_0.scheduleBtn = arg_3_0.normalBtns:Find("schedule")
 	arg_3_0.mapBtn = arg_3_0.normalBtns:Find("map")
 	arg_3_0.endingBtn = arg_3_0.adaptTF:Find("ending")
-	arg_3_0.resetBtn = arg_3_0.adaptTF:Find("reset")
+	arg_3_0.resetInEndlessBtn = arg_3_0.adaptTF:Find("reset_endless")
+	arg_3_0.resetBtns = arg_3_0.adaptTF:Find("reset")
+	arg_3_0.resetBtn = arg_3_0.resetBtns:Find("reset")
+	arg_3_0.endlessBtn = arg_3_0.resetBtns:Find("endless")
 	arg_3_0.topPanel = NewEducateTopPanel.New(arg_3_0.adaptTF, arg_3_0.event, setmetatable({
 		hideBlurBg = true
 	}, {
@@ -66,7 +69,11 @@ function var_0_0.init(arg_3_0)
 
 	arg_3_0.personalityTipPanel:RegisterView(arg_3_0)
 
-	arg_3_0.nodePanel = NewEducateNodePanel.New(arg_3_0.adaptTF, arg_3_0.event, arg_3_0.contextData)
+	arg_3_0.nodePanel = NewEducateNodePanel.New(arg_3_0.adaptTF, arg_3_0.event, setmetatable({
+		view = arg_3_0
+	}, {
+		__index = arg_3_0.contextData
+	}))
 
 	arg_3_0.nodePanel:RegisterView(arg_3_0)
 end
@@ -79,20 +86,44 @@ function var_0_0.didEnter(arg_4_0)
 		arg_4_0:ShowDialogue()
 	end, SFX_PANEL)
 	onButton(arg_4_0, arg_4_0.mindBtn, function()
+		if arg_4_0.contextData.char:GetFSM():CheckPriorityStystem() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("child2_priority_tip"))
+
+			return
+		end
+
 		setActive(arg_4_0.mindBtn, false)
 		arg_4_0:emit(NewEducateMainMediator.ON_SELECT_MIND, function()
 			arg_4_0:SeriesCheck()
 		end)
 	end, SFX_PANEL)
 	onButton(arg_4_0, arg_4_0.favorTF, function()
+		if arg_4_0.contextData.char:GetFSM():CheckPriorityStystem() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("child2_priority_tip"))
+
+			return
+		end
+
 		arg_4_0.favorPanel:ExecuteAction("Show")
 	end, SFX_PANEL)
 	onButton(arg_4_0, arg_4_0.scheduleBtn, function()
+		if arg_4_0.contextData.char:GetFSM():CheckPriorityStystem() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("child2_priority_tip"))
+
+			return
+		end
+
 		arg_4_0:emit(var_0_0.GO_SCENE, SCENE.NEW_EDUCATE_SCHEDULE, {
 			scheduleDataTable = arg_4_0.contextData.scheduleDataTable
 		})
 	end, SFX_PANEL)
 	onButton(arg_4_0, arg_4_0.mapBtn, function()
+		if arg_4_0.contextData.char:GetFSM():CheckPriorityStystem() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("child2_priority_tip"))
+
+			return
+		end
+
 		if not arg_4_0.contextData.char:IsUnlock("out") then
 			return
 		end
@@ -105,23 +136,20 @@ function var_0_0.didEnter(arg_4_0)
 	onButton(arg_4_0, arg_4_0.resetBtn, function()
 		arg_4_0:OnClickResetBtn()
 	end, SFX_PANEL)
+	onButton(arg_4_0, arg_4_0.resetInEndlessBtn, function()
+		arg_4_0:OnClickResetInEndlessBtn()
+	end, SFX_PANEL)
+	onButton(arg_4_0, arg_4_0.endlessBtn, function()
+		arg_4_0:OnClickEndlessBtn()
+	end, SFX_PANEL)
 	onButton(arg_4_0, arg_4_0.topicBtn, function()
-		seriesAsync({
-			function(arg_14_0)
-				if not arg_4_0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.TOPIC) then
-					arg_4_0:emit(NewEducateMainMediator.ON_REQ_TOPICS, arg_14_0)
-				else
-					arg_14_0()
-				end
-			end
-		}, function()
-			local var_15_0 = arg_4_0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.TOPIC):GetTopics()
+		setActive(arg_4_0.topicBtn, false)
 
-			if #var_15_0 > 0 then
-				setActive(arg_4_0.topicBtn, false)
-				arg_4_0:emit(NewEducateMainMediator.ON_SELECT_TOPIC, var_15_0[1])
-			end
-		end)
+		local var_15_0 = arg_4_0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.TOPIC):GetTopics()
+
+		if var_15_0[1] then
+			arg_4_0:emit(NewEducateMainMediator.ON_SELECT_TOPIC, var_15_0[1])
+		end
 	end, SFX_PANEL)
 	arg_4_0:UpdatePaintingUI()
 	arg_4_0:UpdateFavorInfo()
@@ -273,20 +301,21 @@ end
 
 function var_0_0.UpdataTopicAndMind(arg_29_0)
 	local var_29_0 = arg_29_0.contextData.char:GetFSM()
-	local var_29_1 = var_29_0:GetState(NewEducateFSM.STYSTEM.TOPIC)
+	local var_29_1 = arg_29_0.contextData.char:GetRoundData()
+	local var_29_2 = var_29_0:GetState(NewEducateFSM.SYSTEM.TOPIC)
 
-	if var_29_1 and var_29_1:IsFinish() then
+	if var_29_1:IsTemp() or var_29_2 and var_29_2:IsFinish() then
 		setActive(arg_29_0.topicBtn, false)
 	else
 		setActive(arg_29_0.topicBtn, true)
 	end
 
-	local var_29_2 = arg_29_0.contextData.char:GetRoundData():getConfig("main_event_chat_node_id")
+	local var_29_3 = var_29_1:getConfig("main_event_chat_node_id")
 
-	if var_29_2 ~= "" and #var_29_2 > 0 then
-		local var_29_3 = var_29_0:GetState(NewEducateFSM.STYSTEM.MIND)
+	if var_29_3 ~= "" and #var_29_3 > 0 and not var_29_1:IsTemp() then
+		local var_29_4 = var_29_0:GetState(NewEducateFSM.SYSTEM.MIND)
 
-		setActive(arg_29_0.mindBtn, not var_29_3)
+		setActive(arg_29_0.mindBtn, not var_29_4)
 	else
 		setActive(arg_29_0.mindBtn, false)
 	end
@@ -343,317 +372,371 @@ function var_0_0.CheckFavorUpgrade(arg_36_0, arg_36_1)
 end
 
 function var_0_0.CheckFSM(arg_37_0)
-	local var_37_0 = arg_37_0.contextData.char:GetFSM():CheckStystem()
+	if arg_37_0.contextData.char:GetFSM():CheckPriorityStystem() then
+		arg_37_0:emit(var_0_0.ON_PRIORITY_STATE)
+	else
+		arg_37_0:CheckGameFSM()
+	end
+end
 
-	arg_37_0:UpdateStateUI(var_37_0)
-	switch(var_37_0, {
-		[NewEducateFSM.STYSTEM.EVENT] = function()
-			arg_37_0:EventHandler()
+function var_0_0.CheckGameFSM(arg_38_0)
+	local var_38_0 = arg_38_0.contextData.char:GetFSM()
+	local var_38_1 = var_38_0:CheckStystem()
+
+	warning("CheckGameFSM", var_38_0:GetSystemNo() .. "->" .. var_38_1)
+	arg_38_0:UpdateStateUI(var_38_1)
+	switch(var_38_1, {
+		[NewEducateFSM.SYSTEM.EVENT] = function()
+			arg_38_0:EventHandler()
 		end,
-		[NewEducateFSM.STYSTEM.TALENT] = function()
-			arg_37_0:TalentHandler()
+		[NewEducateFSM.SYSTEM.TALENT] = function()
+			arg_38_0:TalentHandler()
 		end,
-		[NewEducateFSM.STYSTEM.TOPIC] = function()
-			arg_37_0:TopicHandler()
+		[NewEducateFSM.SYSTEM.TOPIC] = function()
+			arg_38_0:TopicHandler()
 		end,
-		[NewEducateFSM.STYSTEM.MAP] = function()
-			arg_37_0:MapHandler()
+		[NewEducateFSM.SYSTEM.MAP] = function()
+			arg_38_0:MapHandler()
 		end,
-		[NewEducateFSM.STYSTEM.PLAN] = function()
-			arg_37_0:PlanHandler()
+		[NewEducateFSM.SYSTEM.PLAN] = function()
+			arg_38_0:PlanHandler()
 		end,
-		[NewEducateFSM.STYSTEM.ASSESS] = function()
-			arg_37_0:AssessHandler()
+		[NewEducateFSM.SYSTEM.ASSESS] = function()
+			arg_38_0:AssessHandler()
 		end,
-		[NewEducateFSM.STYSTEM.PHASE] = function()
-			arg_37_0:StageHandler()
+		[NewEducateFSM.SYSTEM.PHASE] = function()
+			arg_38_0:StageHandler()
 		end,
-		[NewEducateFSM.STYSTEM.ENDING] = function()
-			arg_37_0:EndingHandler()
+		[NewEducateFSM.SYSTEM.ENDING] = function()
+			arg_38_0:EndingHandler()
 		end,
-		[NewEducateFSM.STYSTEM.MIND] = function()
-			arg_37_0:MindHandler()
+		[NewEducateFSM.SYSTEM.MIND] = function()
+			arg_38_0:MindHandler()
+		end,
+		[NewEducateFSM.SYSTEM.CHOOSE] = function()
+			arg_38_0:ChooseHandler()
+		end,
+		[NewEducateFSM.SYSTEM.FAIL] = function()
+			arg_38_0:FailHandler()
 		end
 	}, function()
 		assert(false, "不合法FSM状态")
 	end)
 end
 
-function var_0_0.OnReset(arg_48_0)
-	arg_48_0:HideDialogueUI()
-	arg_48_0.infoPanel:ExecuteAction("Hide")
+function var_0_0.OnReset(arg_51_0)
+	arg_51_0:HideDialogueUI()
+	arg_51_0.infoPanel:ExecuteAction("Hide")
 
-	arg_48_0.contextData.char = getProxy(NewEducateProxy):GetCurChar()
+	arg_51_0.contextData.char = getProxy(NewEducateProxy):GetCurChar()
 
-	setActive(arg_48_0.topicBtn, false)
-	setActive(arg_48_0.mindBtn, false)
-	arg_48_0.infoPanel:ExecuteAction("Flush")
-	arg_48_0.topPanel:ExecuteAction("Flush", NewEducateFSM.STYSTEM.INIT)
-	arg_48_0:UpdatePaintingUI()
-	arg_48_0:UpdateUnlockUI()
+	setActive(arg_51_0.topicBtn, false)
+	setActive(arg_51_0.mindBtn, false)
+	arg_51_0.infoPanel:ExecuteAction("Flush")
+	arg_51_0.topPanel:ExecuteAction("Flush", NewEducateFSM.SYSTEM.INIT)
+	arg_51_0:UpdatePaintingUI()
+	arg_51_0:UpdateUnlockUI()
 	seriesAsync({
-		function(arg_49_0)
-			arg_48_0:CheckNewChar(arg_49_0)
+		function(arg_52_0)
+			arg_51_0:CheckNewChar(arg_52_0)
 		end
 	}, function()
-		arg_48_0:ShowDialogueUI()
-		arg_48_0.infoPanel:ExecuteAction("Show")
-		arg_48_0:SeriesCheck()
+		arg_51_0:ShowDialogueUI()
+		arg_51_0.infoPanel:ExecuteAction("Show")
+		arg_51_0:SeriesCheck()
 	end)
 end
 
-function var_0_0.UpdateStateUI(arg_51_0, arg_51_1)
-	arg_51_0:UpdateBtns(arg_51_1)
-	arg_51_0.topPanel:ExecuteAction("FlushProgress", arg_51_1)
+function var_0_0.UpdateStateUI(arg_54_0, arg_54_1)
+	arg_54_0:UpdateBtns(arg_54_1)
+	arg_54_0.topPanel:ExecuteAction("FlushProgress", arg_54_1)
 end
 
-function var_0_0.UpdateBtns(arg_52_0, arg_52_1)
-	setActive(arg_52_0.endingBtn, false)
-	setActive(arg_52_0.resetBtn, false)
-	setActive(arg_52_0.normalBtns, arg_52_1 ~= NewEducateFSM.STYSTEM.ENDING)
+function var_0_0.UpdateBtns(arg_55_0, arg_55_1)
+	setActive(arg_55_0.endingBtn, false)
+	setActive(arg_55_0.resetBtns, false)
+	setActive(arg_55_0.endlessBtn, false)
 
-	local var_52_0 = arg_52_0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.MAP)
+	local var_55_0 = arg_55_0.contextData.char:GetRoundData()
 
-	setActive(arg_52_0.mapBtn:Find("tip"), var_52_0 and var_52_0:IsSpecial())
+	setActive(arg_55_0.resetInEndlessBtn, var_55_0:IsEndless())
+	setActive(arg_55_0.normalBtns, arg_55_1 ~= NewEducateFSM.SYSTEM.ENDING and not var_55_0:IsEndlessFail())
+
+	local var_55_1 = arg_55_0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.MAP)
+
+	setActive(arg_55_0.mapBtn:Find("tip"), var_55_1 and var_55_1:IsSpecial())
 end
 
-function var_0_0.AddNewRoundDrops(arg_53_0, arg_53_1)
-	arg_53_0.newRoundDrops = arg_53_1
+function var_0_0.AddNewRoundDrops(arg_56_0, arg_56_1)
+	arg_56_0.newRoundDrops = arg_56_1
 end
 
-function var_0_0.ContinuePlayNode(arg_54_0)
+function var_0_0.ContinuePlayNode(arg_57_0)
 	seriesAsync({
-		function(arg_55_0)
-			arg_54_0:emit(var_0_0.ON_BOX, {
+		function(arg_58_0)
+			arg_57_0:emit(var_0_0.ON_BOX, {
 				hideClose = true,
 				content = i18n("child2_replay_tip"),
 				noText = i18n("child2_replay_clear"),
 				yesText = i18n("child2_replay_continue"),
-				onYes = arg_55_0,
+				onYes = arg_58_0,
 				onNo = function()
-					arg_54_0:emit(NewEducateMainMediator.ON_CLEAR_NODE_CHAIN)
+					arg_57_0:emit(NewEducateMainMediator.ON_CLEAR_NODE_CHAIN)
 				end
 			})
 		end
 	}, function()
-		arg_54_0:OnNodeStart(arg_54_0.contextData.char:GetFSM():GetCurNode())
+		arg_57_0:OnNodeStart(arg_57_0.contextData.char:GetFSM():GetCurNode())
 	end)
 end
 
-function var_0_0.EventHandler(arg_58_0)
-	if arg_58_0.contextData.char:GetFSM():GetCurNode() ~= 0 then
-		arg_58_0:ContinuePlayNode()
+function var_0_0.EventHandler(arg_61_0)
+	if arg_61_0.contextData.char:GetFSM():GetCurNode() ~= 0 then
+		arg_61_0:ContinuePlayNode()
 
 		return
 	end
 
 	seriesAsync({
-		function(arg_59_0)
-			arg_58_0.roundTipPanel:ExecuteAction("Show", arg_59_0)
+		function(arg_62_0)
+			arg_61_0.roundTipPanel:ExecuteAction("Show", arg_62_0)
 		end,
-		function(arg_60_0)
-			if #arg_58_0.newRoundDrops > 0 then
-				arg_58_0:emit(NewEducateBaseUI.ON_DROP, {
-					items = arg_58_0.newRoundDrops,
-					removeFunc = arg_60_0
-				})
-			else
-				arg_60_0()
-			end
-		end
-	}, function()
-		arg_58_0.newRoundDrops = {}
-
-		arg_58_0:emit(NewEducateMainMediator.ON_TRIGGER_MAIN_EVENT)
-	end)
-end
-
-function var_0_0.TalentHandler(arg_62_0)
-	local var_62_0 = arg_62_0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.TALENT)
-
-	seriesAsync({
 		function(arg_63_0)
-			if not var_62_0 then
-				arg_62_0:emit(NewEducateMainMediator.ON_REQ_TALENTS, arg_63_0)
+			if #arg_61_0.newRoundDrops > 0 then
+				arg_61_0:emit(NewEducateBaseUI.ON_DROP, {
+					items = arg_61_0.newRoundDrops,
+					removeFunc = arg_63_0
+				})
 			else
 				arg_63_0()
 			end
-		end,
-		function(arg_64_0)
-			if arg_62_0.contextData.char:GetRoundData():IsTalentRound() then
-				arg_62_0:emit(var_0_0.GO_SUBLAYER, Context.New({
-					mediator = NewEducateTalentMediator,
-					viewComponent = NewEducateTalentLayer,
-					data = {
-						onExit = arg_64_0
-					}
-				}))
-			else
-				arg_64_0()
-			end
 		end
 	}, function()
-		arg_62_0:SeriesCheck()
+		arg_61_0.newRoundDrops = {}
+
+		arg_61_0:emit(NewEducateMainMediator.ON_TRIGGER_MAIN_EVENT)
 	end)
 end
 
-function var_0_0.ReqParallelData(arg_66_0)
-	if not arg_66_0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.MAP) then
-		arg_66_0:emit(NewEducateMainMediator.ON_REQ_MAP)
-	else
-		arg_66_0:UpdataTopicAndMind()
-		NewEducateGuideSequence.CheckGuide(arg_66_0.__cname)
-	end
-end
+function var_0_0.TalentHandler(arg_65_0)
+	local var_65_0 = arg_65_0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.TALENT)
 
-function var_0_0.TopicHandler(arg_67_0)
-	if arg_67_0.contextData.char:GetFSM():GetCurNode() ~= 0 then
-		arg_67_0:ContinuePlayNode()
-
-		return
-	end
-
-	arg_67_0:ReqParallelData()
-end
-
-function var_0_0.MindHandler(arg_68_0)
-	if arg_68_0.contextData.char:GetFSM():GetCurNode() ~= 0 then
-		arg_68_0:ContinuePlayNode()
-
-		return
-	end
-
-	arg_68_0:ReqParallelData()
-end
-
-function var_0_0.MapHandler(arg_69_0)
-	if arg_69_0.contextData.char:GetFSM():GetCurNode() ~= 0 then
-		arg_69_0:emit(var_0_0.ON_BOX, {
-			hideClose = true,
-			content = i18n("child2_replay_tip"),
-			noText = i18n("child2_replay_clear"),
-			yesText = i18n("child2_replay_continue"),
-			onYes = function()
-				arg_69_0:emit(var_0_0.GO_SCENE, SCENE.NEW_EDUCATE_MAP)
-			end,
-			onNo = function()
-				arg_69_0:emit(NewEducateMainMediator.ON_CLEAR_NODE_CHAIN)
+	seriesAsync({
+		function(arg_66_0)
+			if not var_65_0 then
+				arg_65_0:emit(NewEducateMainMediator.ON_REQ_TALENTS, arg_66_0)
+			else
+				arg_66_0()
 			end
-		})
-
-		return
-	end
-
-	arg_69_0:ReqParallelData()
+		end,
+		function(arg_67_0)
+			if arg_65_0.contextData.char:GetRoundData():IsTalentRound() then
+				arg_65_0:emit(var_0_0.GO_SUBLAYER, Context.New({
+					mediator = NewEducateTalentMediator,
+					viewComponent = NewEducateTalentLayer,
+					data = {
+						onExit = arg_67_0
+					}
+				}))
+			else
+				arg_67_0()
+			end
+		end
+	}, function()
+		arg_65_0:SeriesCheck()
+	end)
 end
 
-function var_0_0.PlanHandler(arg_72_0)
-	if arg_72_0.contextData.char:GetFSM():GetCurNode() ~= 0 then
-		arg_72_0:ContinuePlayNode()
+function var_0_0.ReqParallelData(arg_69_0)
+	local var_69_0 = arg_69_0.contextData.char:GetFSM()
 
-		return
-	end
-
-	arg_72_0:emit(NewEducateMainMediator.ON_NEXT_PLAN, true)
+	seriesAsync({
+		function(arg_70_0)
+			if not arg_69_0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.TOPIC) then
+				arg_69_0:emit(NewEducateMainMediator.ON_REQ_TOPICS, arg_70_0)
+			else
+				arg_70_0()
+			end
+		end,
+		function(arg_71_0)
+			if not arg_69_0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.MAP) then
+				arg_69_0:emit(NewEducateMainMediator.ON_REQ_MAP)
+			else
+				arg_71_0()
+			end
+		end
+	}, function()
+		arg_69_0:UpdataTopicAndMind()
+		NewEducateGuideSequence.CheckGuide(arg_69_0.__cname)
+	end)
 end
 
-function var_0_0.AssessHandler(arg_73_0)
+function var_0_0.TopicHandler(arg_73_0)
 	if arg_73_0.contextData.char:GetFSM():GetCurNode() ~= 0 then
 		arg_73_0:ContinuePlayNode()
 
 		return
 	end
 
-	local var_73_0 = arg_73_0.contextData.char:GetAssessPreStory()
-	local var_73_1 = arg_73_0.contextData.char:GetAssessRankIdx()
-
-	seriesAsync({
-		function(arg_74_0)
-			if var_73_0 and var_73_0 ~= "" then
-				NewEducateHelper.PlaySpecialStory(var_73_0, arg_74_0, true)
-			else
-				arg_74_0()
-			end
-		end,
-		function(arg_75_0)
-			if var_73_1 ~= 0 then
-				arg_73_0.assessPanel:ExecuteAction("Show", arg_75_0)
-			else
-				arg_73_0:emit(NewEducateMainMediator.ON_SET_ASSESS_RANK, var_73_1, arg_75_0)
-			end
-		end
-	}, function(arg_76_0)
-		arg_73_0:SeriesCheck()
-	end)
+	arg_73_0:ReqParallelData()
 end
 
-function var_0_0.StageHandler(arg_77_0)
-	if arg_77_0.assessPanel:isShowing() then
-		arg_77_0.assessPanel:ExecuteAction("Hide")
-	end
-
-	if arg_77_0.contextData.char:GetFSM():GetCurNode() ~= 0 then
-		arg_77_0:ContinuePlayNode()
+function var_0_0.MindHandler(arg_74_0)
+	if arg_74_0.contextData.char:GetFSM():GetCurNode() ~= 0 then
+		arg_74_0:ContinuePlayNode()
 
 		return
 	end
 
-	arg_77_0:emit(NewEducateMainMediator.ON_STAGE_CHANGE)
+	arg_74_0:ReqParallelData()
 end
 
-function var_0_0.EndingHandler(arg_78_0)
-	if arg_78_0.assessPanel:isShowing() then
-		arg_78_0.assessPanel:ExecuteAction("Hide")
+function var_0_0.MapHandler(arg_75_0)
+	if arg_75_0.contextData.char:GetFSM():GetCurNode() ~= 0 then
+		arg_75_0:emit(var_0_0.ON_BOX, {
+			hideClose = true,
+			content = i18n("child2_replay_tip"),
+			noText = i18n("child2_replay_clear"),
+			yesText = i18n("child2_replay_continue"),
+			onYes = function()
+				arg_75_0:emit(var_0_0.GO_SCENE, SCENE.NEW_EDUCATE_MAP)
+			end,
+			onNo = function()
+				arg_75_0:emit(NewEducateMainMediator.ON_CLEAR_NODE_CHAIN)
+			end
+		})
+
+		return
 	end
 
-	local var_78_0 = arg_78_0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.ENDING)
-	local var_78_1 = var_78_0 and var_78_0:IsFinish()
-
-	setActive(arg_78_0.resetBtn, var_78_1)
-	setActive(arg_78_0.endingBtn, not var_78_1)
-
-	if var_78_1 then
-		local var_78_2 = arg_78_0.contextData.char:getConfig("special_memory").after_ending
-
-		if not pg.NewStoryMgr.GetInstance():IsPlayed(var_78_2) then
-			NewEducateHelper.PlaySpecialStory(var_78_2, function()
-				return
-			end)
-		end
-	else
-		local var_78_3 = arg_78_0.contextData.char:getConfig("special_memory").pre_ending
-
-		if var_78_3 ~= "" then
-			NewEducateHelper.PlaySpecialStory(var_78_3, function()
-				return
-			end)
-		end
-	end
+	arg_75_0:ReqParallelData()
 end
 
-function var_0_0.OnEndingClick(arg_81_0)
-	local var_81_0 = arg_81_0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.ENDING)
+function var_0_0.PlanHandler(arg_78_0)
+	if arg_78_0.contextData.char:GetFSM():GetCurNode() ~= 0 then
+		arg_78_0:ContinuePlayNode()
+
+		return
+	end
+
+	arg_78_0:emit(NewEducateMainMediator.ON_NEXT_PLAN, true)
+end
+
+function var_0_0.AssessHandler(arg_79_0)
+	if arg_79_0.contextData.char:GetFSM():GetCurNode() ~= 0 then
+		arg_79_0:ContinuePlayNode()
+
+		return
+	end
+
+	local var_79_0 = arg_79_0.contextData.char:GetAssessPreStory()
+	local var_79_1 = arg_79_0.contextData.char:GetAssessRankIdx()
 
 	seriesAsync({
-		function(arg_82_0)
-			if not var_81_0 then
-				arg_81_0:emit(NewEducateMainMediator.ON_REQ_ENDINGS, arg_82_0)
+		function(arg_80_0)
+			if not (arg_79_0.contextData.char:GetFSM():GetSystemNo() == NewEducateFSM.SYSTEM.ASSESS) then
+				arg_79_0:emit(NewEducateMainMediator.ON_ENTER_ASSESS, arg_80_0)
 			else
+				arg_80_0()
+			end
+		end,
+		function(arg_81_0)
+			if var_79_0 and var_79_0 ~= "" then
+				NewEducateHelper.PlaySpecialStory(var_79_0, arg_81_0, true)
+			else
+				arg_81_0()
+			end
+		end,
+		function(arg_82_0)
+			if var_79_1 ~= 0 then
+				arg_79_0.assessPanel:ExecuteAction("Show", arg_82_0)
+			else
+				arg_79_0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.ASSESS):MarkFinish()
 				arg_82_0()
 			end
 		end
-	}, function()
-		local var_83_0 = arg_81_0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.ENDING):GetEndings()
+	}, function(arg_83_0)
+		arg_79_0:SeriesCheck()
+	end)
+end
 
-		if #var_83_0 == 1 then
-			arg_81_0:emit(NewEducateMainMediator.ON_SELECT_ENDING, var_83_0[1])
+function var_0_0.StageHandler(arg_84_0)
+	if arg_84_0.assessPanel:isShowing() then
+		arg_84_0.assessPanel:ExecuteAction("Hide")
+	end
+
+	if arg_84_0.contextData.char:GetFSM():GetCurNode() ~= 0 then
+		arg_84_0:ContinuePlayNode()
+
+		return
+	end
+
+	arg_84_0:emit(NewEducateMainMediator.ON_STAGE_CHANGE)
+end
+
+function var_0_0.EndingHandler(arg_85_0)
+	if arg_85_0.assessPanel:isShowing() then
+		arg_85_0.assessPanel:ExecuteAction("Hide")
+	end
+
+	local var_85_0 = arg_85_0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.ENDING)
+	local var_85_1 = var_85_0 and var_85_0:IsFinish()
+
+	setActive(arg_85_0.resetBtns, var_85_1)
+	setActive(arg_85_0.resetBtn, var_85_1)
+	setActive(arg_85_0.endlessBtn, var_85_1 and arg_85_0.contextData.char:GetRoundData():ExistEndless())
+	setActive(arg_85_0.endingBtn, not var_85_1)
+
+	if var_85_1 then
+		local var_85_2 = arg_85_0.contextData.char:getConfig("special_memory").after_ending
+
+		if not pg.NewStoryMgr.GetInstance():IsPlayed(var_85_2) then
+			NewEducateHelper.PlaySpecialStory(var_85_2, function()
+				if getProxy(EducateProxy):GetSelectInfo().gameCnt == 1 and CultivatingPlantTools.IsPopActivity(arg_85_0.contextData.char.id) then
+					arg_85_0:emit(var_0_0.GO_SUBLAYER, Context.New({
+						mediator = CultivatingPlantMediator,
+						viewComponent = CultivatingPlantScene,
+						data = {
+							id = arg_85_0.contextData.char.id
+						}
+					}))
+				end
+			end)
+		end
+	else
+		local var_85_3 = arg_85_0.contextData.char:getConfig("special_memory").pre_ending
+
+		if var_85_3 ~= "" then
+			NewEducateHelper.PlaySpecialStory(var_85_3, function()
+				return
+			end)
+		end
+	end
+end
+
+function var_0_0.OnEndingClick(arg_88_0)
+	local var_88_0 = arg_88_0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.ENDING)
+
+	seriesAsync({
+		function(arg_89_0)
+			if not var_88_0 then
+				arg_88_0:emit(NewEducateMainMediator.ON_REQ_ENDINGS, arg_89_0)
+			else
+				arg_89_0()
+			end
+		end
+	}, function()
+		local var_90_0 = arg_88_0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.ENDING):GetEndings()
+
+		if #var_90_0 == 1 then
+			arg_88_0:emit(NewEducateMainMediator.ON_SELECT_ENDING, var_90_0[1])
 		else
-			arg_81_0:emit(var_0_0.GO_SUBLAYER, Context.New({
+			arg_88_0:emit(var_0_0.GO_SUBLAYER, Context.New({
 				mediator = NewEducateSelEndingMediator,
 				viewComponent = NewEducateSelEndingLayer,
 				data = {
 					onExit = function()
-						arg_81_0:SeriesCheck()
+						arg_88_0:SeriesCheck()
 					end
 				}
 			}))
@@ -661,161 +744,222 @@ function var_0_0.OnEndingClick(arg_81_0)
 	end)
 end
 
-function var_0_0.OnSelDone(arg_85_0, arg_85_1)
-	local var_85_0 = pg.child2_ending[arg_85_1].performance
-
-	NewEducateHelper.PlaySpecialStory(var_85_0, function()
-		arg_85_0:SeriesCheck()
-	end, true)
-end
-
-function var_0_0.OnClickResetBtn(arg_87_0)
+function var_0_0.ChooseHandler(arg_92_0)
 	seriesAsync({
-		function(arg_88_0)
-			arg_87_0:emit(var_0_0.ON_BOX, {
-				content = i18n("child2_reset_sure_tip"),
-				onYes = arg_88_0
-			})
-		end,
-		function(arg_89_0)
-			arg_87_0:emit(NewEducateMainMediator.ON_RESET, arg_89_0)
+		function(arg_93_0)
+			arg_92_0:emit(NewEducateMainMediator.ON_REQ_CHOOSE, arg_93_0)
 		end
 	}, function()
-		arg_87_0:OnReset()
+		arg_92_0:SeriesCheck()
 	end)
 end
 
-function var_0_0.OnResUpdate(arg_91_0)
-	arg_91_0.topPanel:ExecuteAction("FlushRes")
-	arg_91_0:CheckFavorUpgrade()
+function var_0_0.FailHandler(arg_95_0)
+	if arg_95_0.assessPanel:isShowing() then
+		arg_95_0.assessPanel:ExecuteAction("Hide")
+	end
+
+	setActive(arg_95_0.resetBtns, true)
+	setActive(arg_95_0.resetBtn, true)
+	setActive(arg_95_0.endlessBtn, false)
+	setActive(arg_95_0.resetInEndlessBtn, false)
 end
 
-function var_0_0.OnAttrUpdate(arg_92_0)
-	arg_92_0.infoPanel:ExecuteAction("FlushAttrs")
-	arg_92_0.topPanel:ExecuteAction("FlushProgress")
+function var_0_0.OnSelDone(arg_96_0, arg_96_1)
+	local var_96_0 = pg.child2_ending[arg_96_1].performance
+
+	NewEducateHelper.PlaySpecialStory(var_96_0, function()
+		arg_96_0:SeriesCheck()
+	end, true)
 end
 
-function var_0_0.OnPersonalityUpdate(arg_93_0, arg_93_1, arg_93_2)
-	arg_93_0.personalityTipPanel:ExecuteAction("FlushPersonality", arg_93_1, arg_93_2)
+function var_0_0.OnClickResetBtn(arg_98_0)
+	seriesAsync({
+		function(arg_99_0)
+			arg_98_0:emit(var_0_0.ON_BOX, {
+				content = i18n("child2_reset_sure_tip"),
+				onYes = arg_99_0
+			})
+		end,
+		function(arg_100_0)
+			arg_98_0:emit(NewEducateMainMediator.ON_RESET, arg_100_0)
+		end
+	}, function()
+		arg_98_0:OnReset()
+	end)
+end
 
-	if arg_93_0.contextData.char:GetPersonalityTag() ~= arg_93_2 then
-		arg_93_0:UpdatePaintingUI()
-		arg_93_0:PlayBGM()
+function var_0_0.OnClickResetInEndlessBtn(arg_102_0)
+	seriesAsync({
+		function(arg_103_0)
+			arg_102_0:emit(var_0_0.GO_SUBLAYER, Context.New({
+				viewComponent = NewEducateMsgBoxLayer,
+				mediator = NewEducateMsgBoxMediator,
+				data = {
+					type = NewEducateMsgBoxLayer.TYPE.RESET,
+					onYes = arg_103_0
+				}
+			}))
+		end,
+		function(arg_104_0)
+			arg_102_0:emit(NewEducateMainMediator.ON_RESET, arg_104_0)
+		end
+	}, function()
+		arg_102_0:OnReset()
+	end)
+end
+
+function var_0_0.OnClickEndlessBtn(arg_106_0)
+	seriesAsync({
+		function(arg_107_0)
+			arg_106_0:emit(var_0_0.ON_BOX, {
+				content = i18n("child2_endless_sure_tip"),
+				onYes = arg_107_0
+			})
+		end,
+		function(arg_108_0)
+			arg_106_0:emit(NewEducateMainMediator.ON_START_ENDLESS, arg_108_0)
+		end
+	}, function()
+		arg_106_0:CheckFSM()
+	end)
+end
+
+function var_0_0.OnResUpdate(arg_110_0)
+	arg_110_0.topPanel:ExecuteAction("FlushRes")
+	arg_110_0:CheckFavorUpgrade()
+end
+
+function var_0_0.OnAttrUpdate(arg_111_0)
+	arg_111_0.infoPanel:ExecuteAction("FlushAttrs")
+	arg_111_0.topPanel:ExecuteAction("FlushProgress")
+end
+
+function var_0_0.OnPersonalityUpdate(arg_112_0, arg_112_1, arg_112_2)
+	arg_112_0.personalityTipPanel:ExecuteAction("FlushPersonality", arg_112_1, arg_112_2)
+
+	if arg_112_0.contextData.char:GetPersonalityTag() ~= arg_112_2 then
+		arg_112_0:UpdatePaintingUI()
+		arg_112_0:PlayBGM()
 	end
 end
 
-function var_0_0.OnTalentUpdate(arg_94_0)
-	arg_94_0.infoPanel:ExecuteAction("FlushTalents")
+function var_0_0.OnTalentUpdate(arg_113_0)
+	arg_113_0.infoPanel:ExecuteAction("FlushTalents")
 end
 
-function var_0_0.OnStatusUpdate(arg_95_0)
-	arg_95_0.infoPanel:ExecuteAction("FlushStatus")
+function var_0_0.OnStatusUpdate(arg_114_0)
+	arg_114_0.infoPanel:ExecuteAction("FlushStatus")
 end
 
-function var_0_0.UpdateUnlockUI(arg_96_0)
-	setActive(arg_96_0.mapBtn:Find("lock"), not arg_96_0.contextData.char:IsUnlock("out"))
+function var_0_0.OnTarotUpdate(arg_115_0)
+	arg_115_0.infoPanel:ExecuteAction("FlushTarot")
 end
 
-function var_0_0.OnNextRound(arg_97_0)
-	arg_97_0.topPanel:ExecuteAction("Flush")
-	arg_97_0.infoPanel:ExecuteAction("Flush")
-	arg_97_0:UpdatePaintingUI()
-	arg_97_0:UpdateUnlockUI()
+function var_0_0.UpdateUnlockUI(arg_116_0)
+	setActive(arg_116_0.mapBtn:Find("lock"), not arg_116_0.contextData.char:IsUnlock("out"))
 end
 
-function var_0_0.OnNodeStart(arg_98_0, arg_98_1)
-	if arg_98_1 == 0 then
+function var_0_0.OnNextRound(arg_117_0)
+	arg_117_0.topPanel:ExecuteAction("Flush")
+	arg_117_0.infoPanel:ExecuteAction("Flush")
+	arg_117_0:UpdatePaintingUI()
+	arg_117_0:UpdateUnlockUI()
+end
+
+function var_0_0.OnNodeStart(arg_118_0, arg_118_1)
+	if arg_118_1 == 0 then
 		return
 	end
 
-	assert(pg.child2_node[arg_98_1], "child2_node缺少id:" .. arg_98_1)
-	arg_98_0.nodePanel:ExecuteAction("StartNode", arg_98_1)
+	assert(pg.child2_node[arg_118_1], "child2_node缺少id:" .. arg_118_1)
+	arg_118_0.nodePanel:ExecuteAction("StartNode", arg_118_1)
 
-	if pg.child2_node[arg_98_1].type == NewEducateNodePanel.NODE_TYPE.MAIN_TEXT then
-		arg_98_0:HideDialogueUI()
-		arg_98_0:UpdatePaintingFace(arg_98_1)
+	if pg.child2_node[arg_118_1].type == NewEducateNodePanel.NODE_TYPE.MAIN_TEXT then
+		arg_118_0:HideDialogueUI()
+		arg_118_0:UpdatePaintingFace(arg_118_1)
 	end
 end
 
-function var_0_0.OnNextNode(arg_99_0, arg_99_1)
-	arg_99_0.nodePanel:ExecuteAction("ProceedNode", arg_99_1.node, arg_99_1.drop, arg_99_1.noNextCb)
+function var_0_0.OnNextNode(arg_119_0, arg_119_1)
+	arg_119_0.nodePanel:ExecuteAction("ProceedNode", arg_119_1.node, arg_119_1.drop, arg_119_1.noNextCb)
 
-	if arg_99_0.contextData.char:GetFSM():GetStystemNo() ~= NewEducateFSM.STYSTEM.PLAN then
-		arg_99_0:UpdatePaintingFace(arg_99_1.node)
+	if arg_119_0.contextData.char:GetFSM():GetSystemNo() ~= NewEducateFSM.SYSTEM.PLAN then
+		arg_119_0:UpdatePaintingFace(arg_119_1.node)
 	end
 end
 
-function var_0_0.UpdateCallName(arg_100_0)
-	arg_100_0.nodePanel:ExecuteAction("UpdateCallName")
+function var_0_0.UpdateCallName(arg_120_0)
+	arg_120_0.nodePanel:ExecuteAction("UpdateCallName")
 end
 
-function var_0_0.onBackPressed(arg_101_0)
-	if arg_101_0.lockBackPressed then
+function var_0_0.onBackPressed(arg_121_0)
+	if arg_121_0.lockBackPressed then
 		return
 	end
 
-	if arg_101_0.assessPanel:isShowing() then
+	if arg_121_0.assessPanel:isShowing() then
 		return
 	end
 
-	if arg_101_0.nodePanel:isShowing() then
+	if arg_121_0.nodePanel:isShowing() then
 		return
 	end
 
-	if arg_101_0.roundTipPanel:isShowing() then
+	if arg_121_0.roundTipPanel:isShowing() then
 		return
 	end
 
-	arg_101_0.super.onBackPressed(arg_101_0)
+	arg_121_0.super.onBackPressed(arg_121_0)
 end
 
-function var_0_0.willExit(arg_102_0)
-	arg_102_0.contextData.isMainEnter = nil
+function var_0_0.willExit(arg_122_0)
+	arg_122_0.contextData.isMainEnter = nil
 
-	if arg_102_0.topPanel then
-		arg_102_0.topPanel:Destroy()
+	if arg_122_0.topPanel then
+		arg_122_0.topPanel:Destroy()
 
-		arg_102_0.topPanel = nil
+		arg_122_0.topPanel = nil
 	end
 
-	if arg_102_0.infoPanel then
-		arg_102_0.infoPanel:Destroy()
+	if arg_122_0.infoPanel then
+		arg_122_0.infoPanel:Destroy()
 
-		arg_102_0.infoPanel = nil
+		arg_122_0.infoPanel = nil
 	end
 
-	if arg_102_0.roundTipPanel then
-		arg_102_0.roundTipPanel:Destroy()
+	if arg_122_0.roundTipPanel then
+		arg_122_0.roundTipPanel:Destroy()
 
-		arg_102_0.roundTipPanel = nil
+		arg_122_0.roundTipPanel = nil
 	end
 
-	if arg_102_0.assessPanel then
-		arg_102_0.assessPanel:Destroy()
+	if arg_122_0.assessPanel then
+		arg_122_0.assessPanel:Destroy()
 
-		arg_102_0.assessPanel = nil
+		arg_122_0.assessPanel = nil
 	end
 
-	if arg_102_0.favorPanel then
-		arg_102_0.favorPanel:Destroy()
+	if arg_122_0.favorPanel then
+		arg_122_0.favorPanel:Destroy()
 
-		arg_102_0.favorPanel = nil
+		arg_122_0.favorPanel = nil
 	end
 
-	if arg_102_0.personalityTipPanel then
-		arg_102_0.personalityTipPanel:Destroy()
+	if arg_122_0.personalityTipPanel then
+		arg_122_0.personalityTipPanel:Destroy()
 
-		arg_102_0.personalityTipPanel = nil
+		arg_122_0.personalityTipPanel = nil
 	end
 
-	if arg_102_0.nodePanel then
-		arg_102_0.nodePanel:Destroy()
+	if arg_122_0.nodePanel then
+		arg_122_0.nodePanel:Destroy()
 
-		arg_102_0.nodePanel = nil
+		arg_122_0.nodePanel = nil
 	end
 
-	if LeanTween.isTweening(arg_102_0.dialogueTF) then
-		LeanTween.cancel(arg_102_0.dialogueTF)
+	if LeanTween.isTweening(arg_122_0.dialogueTF) then
+		LeanTween.cancel(arg_122_0.dialogueTF)
 	end
 end
 

@@ -1566,6 +1566,11 @@ end
 
 function var_0_0.DisplayContinuousWindow(arg_133_0, arg_133_1, arg_133_2, arg_133_3, arg_133_4)
 	local var_133_0 = arg_133_1:getConfig("oil")
+
+	if arg_133_1:IsSupportSubmarineStage() and #arg_133_1:getSupportFleet() > 0 then
+		var_133_0 = var_133_0 + getGameset("submarine_support_oil_consume")[1]
+	end
+
 	local var_133_1 = arg_133_1:getPlayType()
 	local var_133_2 = 0
 	local var_133_3 = 0

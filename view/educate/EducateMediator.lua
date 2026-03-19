@@ -45,9 +45,10 @@ function var_0_0.register(arg_1_0)
 		})
 	end)
 	arg_1_0:bind(var_0_0.ON_ENDING_TRIGGER, function(arg_8_0, arg_8_1)
-		arg_1_0:sendNotification(GAME.EDUCATE_TRIGGER_END, {
-			id = getProxy(EducateProxy):GetEndingResult()
-		})
+		arg_1_0:addSubLayers(Context.New({
+			mediator = EducateSelEndingMediator,
+			viewComponent = EducateSelEndingLayer
+		}))
 	end)
 	arg_1_0:bind(var_0_0.ON_GAME_RESET, function(arg_9_0, arg_9_1)
 		arg_1_0:sendNotification(GAME.EDUCATE_RESET)
@@ -144,8 +145,9 @@ function var_0_0.handleNotification(arg_12_0, arg_12_1)
 		arg_12_0.viewComponent:emit(EducateBaseUI.EDUCATE_CHANGE_SCENE, SCENE.EDUCATE)
 	elseif var_12_0 == GAME.EDUCATE_EXECUTE_PLANS_DONE then
 		local var_12_2 = var_12_1.isSkip
+		local var_12_3 = var_12_1.isSkipEvent
 
-		arg_12_0:playPlansPerform(var_12_2, var_12_1)
+		arg_12_0:playPlansPerform(var_12_2, var_12_3, var_12_1)
 	elseif var_12_0 == GAME.EDUCATE_SUBMIT_TASK_DONE then
 		arg_12_0.viewComponent:updateTargetPanel()
 		arg_12_0.viewComponent:updateMindTip()
@@ -153,7 +155,17 @@ function var_0_0.handleNotification(arg_12_0, arg_12_1)
 		arg_12_0.viewComponent:updateTargetPanel()
 	elseif var_12_0 == EducateProxy.GUIDE_CHECK then
 		if var_12_1.view == arg_12_0.viewComponent.__cname then
-			arg_12_0.viewComponent:OnCheckGuide()
+			arg_12_0.viewComponent:OnCheckGuide(function()
+				if var_12_1.popActivityWindow == true and getProxy(EducateProxy):IsFirstGame() == 1 then
+					arg_12_0:addSubLayers(Context.New({
+						mediator = CultivatingPlantMediator,
+						viewComponent = CultivatingPlantScene,
+						data = {
+							id = getProxy(EducateProxy):GetCharData().id
+						}
+					}))
+				end
+			end)
 		end
 	elseif var_12_0 == EducateProxy.MAIN_SCENE_ADD_LAYER then
 		arg_12_0:addSubLayers(var_12_1)
@@ -171,47 +183,48 @@ function var_0_0.handleNotification(arg_12_0, arg_12_1)
 	end
 end
 
-function var_0_0.playPlansPerform(arg_13_0, arg_13_1, arg_13_2)
-	local var_13_0 = {}
+function var_0_0.playPlansPerform(arg_14_0, arg_14_1, arg_14_2, arg_14_3)
+	local var_14_0 = {}
 
-	table.insert(var_13_0, function(arg_14_0)
-		arg_13_0:addSubLayers(Context.New({
+	table.insert(var_14_0, function(arg_15_0)
+		arg_14_0:addSubLayers(Context.New({
 			viewComponent = EducateCalendarLayer,
 			mediator = EducateCalendarMediator,
 			data = {
-				onExit = arg_14_0
+				onExit = arg_15_0
 			}
 		}))
 	end)
 
-	if not EducateConst.FORCE_SKIP_PLAN_PERFORM then
-		table.insert(var_13_0, function(arg_15_0)
-			arg_13_0:addSubLayers(Context.New({
+	if not arg_14_1 or not arg_14_2 then
+		table.insert(var_14_0, function(arg_16_0)
+			arg_14_0:addSubLayers(Context.New({
 				viewComponent = EducateSchedulePerformLayer,
 				mediator = EducateSchedulePerformMediator,
 				data = {
-					gridData = arg_13_2.gridData,
-					plan_results = arg_13_2.plan_results,
-					events = arg_13_2.events,
-					skip = arg_13_1,
-					onExit = arg_15_0
+					gridData = arg_14_3.gridData,
+					plan_results = arg_14_3.plan_results,
+					events = arg_14_3.events,
+					skip = arg_14_1,
+					skipEvent = arg_14_2,
+					onExit = arg_16_0
 				}
 			}))
 		end)
 	end
 
-	table.insert(var_13_0, function(arg_16_0)
-		arg_13_0:addSubLayers(Context.New({
+	table.insert(var_14_0, function(arg_17_0)
+		arg_14_0:addSubLayers(Context.New({
 			viewComponent = EducateScheduleResultLayer,
 			mediator = EducateScheduleResultMediator,
 			data = {
-				plan_results = arg_13_2.plan_results,
-				onExit = arg_16_0
+				plan_results = arg_14_3.plan_results,
+				onExit = arg_17_0
 			}
 		}))
 	end)
-	seriesAsync(var_13_0, function()
-		arg_13_0.viewComponent:FlushView()
+	seriesAsync(var_14_0, function()
+		arg_14_0.viewComponent:FlushView()
 	end)
 end
 

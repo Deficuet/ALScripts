@@ -7,11 +7,6 @@ var_0_0.TPL_TYPE = {
 	ARROWS = 5,
 	OPTION = 3
 }
-var_0_0.TEXT_WORLD_TYPE = {
-	RIGHT = 2,
-	ASIDE = 0,
-	LEFT = 1
-}
 
 function var_0_0.Ctor(arg_1_0, arg_1_1)
 	pg.DelegateInfo.New(arg_1_0)
@@ -261,54 +256,60 @@ function var_0_0.UpdateOption(arg_23_0, arg_23_1, arg_23_2)
 
 	setScrollText(arg_23_2:Find("mask/name"), arg_23_0:_GetText(var_23_1.text))
 
-	local var_23_2 = var_23_1.performance_param
+	local var_23_2 = getProxy(NewEducateProxy):GetCurChar()
+	local var_23_3 = var_23_1.performance_param
 
-	setActive(arg_23_2:Find("bg"), var_23_2 ~= "")
+	setActive(arg_23_2:Find("bg"), var_23_3 ~= "")
 
-	if var_23_2 ~= "" then
-		LoadImageSpriteAtlasAsync("ui/neweducatenodeui_atlas", "option_bg" .. var_23_2, arg_23_2:Find("bg"))
+	if var_23_3 ~= "" then
+		if var_23_3 == 3 then
+			LoadImageSpriteAtlasAsync("ui/neweducatenodeui_atlas", "option_bg" .. var_23_3, arg_23_2:Find("bg"))
+		else
+			local var_23_4 = var_23_2:GetPersonalityTagOptionBg(var_23_3)
+
+			LoadImageSpriteAsync("neweducateicon/" .. var_23_4, arg_23_2:Find("bg"))
+		end
 	end
 
-	local var_23_3 = false
-	local var_23_4 = getProxy(NewEducateProxy):GetCurChar()
+	local var_23_5 = false
 
 	if #var_23_1.option_condition > 0 then
-		var_23_3 = not var_23_4:IsMatchComplex(var_23_1.option_condition)
+		var_23_5 = not var_23_2:IsMatchComplex(var_23_1.option_condition)
 	end
 
 	setActive(arg_23_2:Find("cost"), #var_23_1.option_cost > 0)
 
-	local var_23_5 = NewEducateHelper.Config2Drops(var_23_1.option_cost)
+	local var_23_6 = NewEducateHelper.Config2Drops(var_23_1.option_cost)
 
-	if #var_23_5 > 0 then
-		local var_23_6 = UIItemList.New(arg_23_2:Find("cost"), arg_23_2:Find("cost/tpl"))
+	if #var_23_6 > 0 then
+		local var_23_7 = UIItemList.New(arg_23_2:Find("cost"), arg_23_2:Find("cost/tpl"))
 
-		var_23_6:make(function(arg_24_0, arg_24_1, arg_24_2)
+		var_23_7:make(function(arg_24_0, arg_24_1, arg_24_2)
 			if arg_24_0 == UIItemList.EventUpdate then
-				local var_24_0 = var_23_5[arg_24_1 + 1]
+				local var_24_0 = var_23_6[arg_24_1 + 1]
 				local var_24_1 = NewEducateHelper.GetDropConfig(var_24_0).icon
 
 				LoadImageSpriteAsync("neweducateicon/" .. var_24_1, arg_24_2:Find("Image"))
 				setText(arg_24_2:Find("Text"), "-" .. var_24_0.number)
 			end
 		end)
-		var_23_6:align(#var_23_5)
+		var_23_7:align(#var_23_6)
 
-		local var_23_7 = underscore.map(var_23_5, function(arg_25_0)
+		local var_23_8 = underscore.map(var_23_6, function(arg_25_0)
 			arg_25_0.operator = ">="
 
 			return arg_25_0
 		end)
 
-		var_23_3 = var_23_3 or not var_23_4:IsMatchs(var_23_7)
+		var_23_5 = var_23_5 or not var_23_2:IsMatchs(var_23_8)
 	end
 
-	setImageColor(arg_23_2, Color.NewHex(var_23_3 and "C8CAD5" or "FFFFFF"))
-	setTextColor(arg_23_2:Find("mask/name"), Color.NewHex(var_23_3 and "717171" or "393A3C"))
+	setImageColor(arg_23_2, Color.NewHex(var_23_5 and "C8CAD5" or "FFFFFF"))
+	setTextColor(arg_23_2:Find("mask/name"), Color.NewHex(var_23_5 and "717171" or "393A3C"))
 
-	if not var_23_3 then
+	if not var_23_5 then
 		onButton(arg_23_0, arg_23_2, function()
-			existCall(arg_23_0.callback(var_23_0, var_23_5))
+			existCall(arg_23_0.callback(var_23_0, var_23_6))
 		end, SFX_PANEL)
 	else
 		removeOnButton(arg_23_2)
@@ -438,8 +439,9 @@ function var_0_0.AddDrops(arg_33_0, arg_33_1, arg_33_2, arg_33_3)
 	setActive(var_33_0:Find("tpl"), false)
 
 	local var_33_1 = {}
+	local var_33_2 = NewEducateHelper.MergeDrops(arg_33_2)
 
-	for iter_33_0, iter_33_1 in ipairs(arg_33_2) do
+	for iter_33_0, iter_33_1 in ipairs(var_33_2) do
 		table.insert(var_33_1, function(arg_34_0)
 			local var_34_0 = cloneTplTo(var_33_0:Find("tpl"), var_33_0, iter_33_1.type .. "_" .. iter_33_1.id)
 
@@ -448,7 +450,7 @@ function var_0_0.AddDrops(arg_33_0, arg_33_1, arg_33_2, arg_33_3)
 	end
 
 	seriesAsync(var_33_1, function()
-		local var_35_0 = underscore.reduce(arg_33_2, 0, function(arg_36_0, arg_36_1)
+		local var_35_0 = underscore.reduce(var_33_2, 0, function(arg_36_0, arg_36_1)
 			return arg_36_0 + (NewEducateHelper.IsPersonalDrop(arg_36_1) and arg_36_1.number or 0)
 		end)
 
@@ -464,38 +466,39 @@ function var_0_0.UpdateDropText(arg_37_0, arg_37_1, arg_37_2, arg_37_3)
 	arg_37_0.speed = NewEducateConst.TYPEWRITE_SPEED
 
 	local var_37_0 = NewEducateHelper.GetDropConfig(arg_37_1)
+	local var_37_1 = getProxy(NewEducateProxy):GetCurChar()
 
 	if NewEducateHelper.IsPersonalDrop(arg_37_1) then
-		local var_37_1 = arg_37_1.number > 0 and i18n("child2_personal_tag2") or i18n("child2_personal_tag1")
+		local var_37_2 = arg_37_1.number > 0 and var_37_1:GetPersonalityTagTip(2) or var_37_1:GetPersonalityTagTip(1)
 
-		setText(arg_37_2:Find("content/value"), var_37_1 .. "+" .. math.abs(arg_37_1.number))
+		setText(arg_37_2:Find("content/value"), var_37_2 .. "+" .. math.abs(arg_37_1.number))
 	elseif arg_37_1.type == NewEducateConst.DROP_TYPE.ATTR or arg_37_1.type == NewEducateConst.DROP_TYPE.RES then
-		local var_37_2 = arg_37_1.number > 0 and "child2_site_drop_add" or "child2_site_drop_reduce"
-		local var_37_3 = getProxy(NewEducateProxy):GetCurChar():GetOwnCnt(arg_37_1)
-		local var_37_4 = var_37_3 - arg_37_1.number + (arg_37_1.overflow or 0)
-		local var_37_5 = math.abs(arg_37_1.number - (arg_37_1.overflow or 0))
+		local var_37_3 = arg_37_1.number > 0 and "child2_site_drop_add" or "child2_site_drop_reduce"
+		local var_37_4 = var_37_1:GetOwnCnt(arg_37_1)
+		local var_37_5 = var_37_4 - arg_37_1.number + (arg_37_1.overflow or 0)
+		local var_37_6 = math.abs(arg_37_1.number - (arg_37_1.overflow or 0))
 
-		setText(arg_37_2:Find("content/value"), i18n(var_37_2, var_37_0.name, var_37_4, var_37_3, var_37_5))
+		setText(arg_37_2:Find("content/value"), i18n(var_37_3, var_37_0.name, var_37_5, var_37_4, var_37_6))
 	else
 		setText(arg_37_2:Find("content/value"), i18n("child2_site_drop_item", var_37_0.name))
 	end
 
 	setActive(arg_37_2:Find("content/benefit"), false)
 
-	local var_37_6 = GetComponent(arg_37_2:Find("content/value"), typeof(Typewriter))
+	local var_37_7 = GetComponent(arg_37_2:Find("content/value"), typeof(Typewriter))
 
-	function var_37_6.endFunc()
+	function var_37_7.endFunc()
 		onDelayTick(function()
 			existCall(arg_37_3)
 		end, 0.5)
 	end
 
-	var_37_6:setSpeed(arg_37_0.speed)
+	var_37_7:setSpeed(arg_37_0.speed)
 
 	if not isActive(arg_37_0._tf) then
 		existCall(arg_37_3)
 	else
-		var_37_6:Play()
+		var_37_7:Play()
 
 		if arg_37_0.speed ~= NewEducateConst.TYPEWRITE_SPEED_UP then
 			onButton(arg_37_0, arg_37_0.windowTF, function()
@@ -503,7 +506,7 @@ function var_0_0.UpdateDropText(arg_37_0, arg_37_1, arg_37_2, arg_37_3)
 
 				arg_37_0.speed = NewEducateConst.TYPEWRITE_SPEED_UP
 
-				var_37_6:setSpeed(arg_37_0.speed)
+				var_37_7:setSpeed(arg_37_0.speed)
 			end)
 		end
 
@@ -519,7 +522,7 @@ function var_0_0.CheckPersonalChange(arg_41_0, arg_41_1)
 
 	if var_41_0:GetPersonalityTag(var_41_0:GetPersonality() - arg_41_1) ~= var_41_1 then
 		local var_41_2 = cloneTplTo(arg_41_0.tpls[var_0_0.TPL_TYPE.DROP], arg_41_0.contentTF, "personal_change"):Find("tpl")
-		local var_41_3 = arg_41_1 > 0 and i18n("child2_personal_tag2") or i18n("child2_personal_tag1")
+		local var_41_3 = arg_41_1 > 0 and var_41_0:GetPersonalityTagTip(2) or var_41_0:GetPersonalityTagTip(1)
 
 		setText(var_41_2:Find("content/value"), i18n("child2_personal_change") .. ">>" .. var_41_3)
 		setActive(var_41_2:Find("content/benefit"), false)

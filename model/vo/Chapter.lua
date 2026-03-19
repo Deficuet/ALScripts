@@ -49,17 +49,16 @@ function var_0_0.Ctor(arg_2_0, arg_2_1)
 		[FleetType.Support] = {}
 	}
 	arg_2_0.loopFlag = 0
-	arg_2_0.miscArgDic = {}
-
-	for iter_2_1, iter_2_2 in ipairs(noEmptyStr(arg_2_0:getConfig("misc_arg")) or {}) do
-		local var_2_2, var_2_3 = unpack(iter_2_2)
-
-		arg_2_0.miscArgDic[var_2_2] = var_2_3
-	end
 end
 
 function var_0_0.getConfigMiscArg(arg_3_0, arg_3_1)
-	return arg_3_0.miscArgDic[arg_3_1]
+	for iter_3_0, iter_3_1 in ipairs(noEmptyStr(arg_3_0:getConfig("misc_arg")) or {}) do
+		if arg_3_1 == iter_3_1[1] then
+			return iter_3_1[2]
+		end
+	end
+
+	return nil
 end
 
 function var_0_0.BuildEliteFleetInfo(arg_4_0)

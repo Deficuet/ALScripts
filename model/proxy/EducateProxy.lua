@@ -86,6 +86,9 @@ function var_0_0.initData(arg_5_0, arg_5_1)
 	arg_5_0:initVirtualStage()
 	arg_5_0:initUnlockSecretary(var_5_0.is_special_secretary_valid == 1)
 
+	arg_5_0.endingBuyCnt = var_5_0.ending_buy_count
+	arg_5_0.memoryBuyCnt = var_5_0.memory_buy_count
+	arg_5_0.polaroidBuyCnt = var_5_0.polaroid_buy_count
 	arg_5_0.requestDataEnd = true
 end
 
@@ -93,564 +96,625 @@ function var_0_0.CheckDataRequestEnd(arg_6_0)
 	return arg_6_0.requestDataEnd
 end
 
-function var_0_0.initItems(arg_7_0, arg_7_1)
-	arg_7_0.itemData = {}
-
-	for iter_7_0, iter_7_1 in ipairs(arg_7_1) do
-		arg_7_0.itemData[iter_7_1.id] = EducateItem.New(iter_7_1)
-	end
-end
-
-function var_0_0.initOptions(arg_8_0, arg_8_1)
-	local var_8_0 = {}
-
-	for iter_8_0, iter_8_1 in ipairs(arg_8_1) do
-		var_8_0[iter_8_1.id] = iter_8_1.count
-	end
-
-	arg_8_0.siteOptionData = {}
-
-	for iter_8_2, iter_8_3 in ipairs(pg.child_site_option.all) do
-		local var_8_1 = EducateSiteOption.New(iter_8_3, var_8_0[iter_8_3])
-
-		arg_8_0.siteOptionData[iter_8_3] = var_8_1
-	end
-end
-
-function var_0_0.initRandomOpts(arg_9_0, arg_9_1)
-	arg_9_0.siteRandomOpts = {}
-
-	for iter_9_0, iter_9_1 in ipairs(arg_9_1) do
-		arg_9_0.siteRandomOpts[iter_9_1.site_id] = iter_9_1.option_ids
-	end
-end
-
-function var_0_0.NeedRequestOptsData(arg_10_0)
-	return not arg_10_0.siteRandomOpts
-end
-
-function var_0_0.initBuffs(arg_11_0, arg_11_1)
-	arg_11_0.buffData = {}
-
-	for iter_11_0, iter_11_1 in ipairs(arg_11_1) do
-		arg_11_0.buffData[iter_11_1.id] = EducateBuff.New(iter_11_1)
-	end
-end
-
-function var_0_0.initPolaroids(arg_12_0, arg_12_1)
-	arg_12_0.polaroidData = {}
-
-	for iter_12_0, iter_12_1 in ipairs(arg_12_1) do
-		arg_12_0.polaroidData[iter_12_1.id] = EducatePolaroid.New(iter_12_1)
-	end
-end
-
-function var_0_0.SetEndings(arg_13_0, arg_13_1)
-	arg_13_0.endings = arg_13_1
-
-	arg_13_0:updateSecretaryIDs(false)
-end
-
-function var_0_0.GetSelectInfo(arg_14_0)
-	local var_14_0 = EducateHelper.GetShowMonthNumber(arg_14_0.curTime.month) .. i18n("word_month") .. i18n("word_which_week", arg_14_0.curTime.week)
+function var_0_0.GetSelectInfo(arg_7_0)
+	local var_7_0 = EducateHelper.GetShowMonthNumber(arg_7_0.curTime.month) .. i18n("word_month") .. i18n("word_which_week", arg_7_0.curTime.week)
 
 	return {
-		bg = arg_14_0.char:GetBGName(),
-		name = arg_14_0.char:GetName(),
-		gameCnt = arg_14_0.gameCount,
-		progressStr = arg_14_0.isUnlockSecretary and var_14_0 or i18n("child2_not_start")
+		bg = arg_7_0.char:GetBGName(),
+		name = arg_7_0.char:GetName(),
+		gameCnt = arg_7_0.gameCount,
+		progressStr = arg_7_0.isUnlockSecretary and var_7_0 or i18n("child2_not_start")
 	}
 end
 
-function var_0_0.IsFirstGame(arg_15_0)
-	return arg_15_0.gameCount == 1
+function var_0_0.CheckGuide(arg_8_0, arg_8_1)
+	arg_8_0:sendNotification(var_0_0.GUIDE_CHECK, {
+		view = arg_8_1
+	})
 end
 
-function var_0_0.UpdateGameStatus(arg_16_0)
-	arg_16_0.gameStatus = EducateConst.STATUES_NORMAL
+function var_0_0.MainAddLayer(arg_9_0, arg_9_1)
+	arg_9_0:sendNotification(var_0_0.MAIN_SCENE_ADD_LAYER, arg_9_1)
+end
 
-	if arg_16_0.exsitEnding then
-		arg_16_0.gameStatus = EducateConst.STATUES_RESET
-	elseif arg_16_0:IsEndingTime() then
-		arg_16_0.gameStatus = EducateConst.STATUES_ENDING
-	elseif arg_16_0.taskProxy:CheckTargetSet() then
-		arg_16_0.gameStatus = EducateConst.STATUES_PREPARE
+function var_0_0.initItems(arg_10_0, arg_10_1)
+	arg_10_0.itemData = {}
+
+	for iter_10_0, iter_10_1 in ipairs(arg_10_1) do
+		arg_10_0.itemData[iter_10_1.id] = EducateItem.New(iter_10_1)
 	end
 end
 
-function var_0_0.GetGameStatus(arg_17_0)
-	return arg_17_0.gameStatus
+function var_0_0.initOptions(arg_11_0, arg_11_1)
+	local var_11_0 = {}
+
+	for iter_11_0, iter_11_1 in ipairs(arg_11_1) do
+		var_11_0[iter_11_1.id] = iter_11_1.count
+	end
+
+	arg_11_0.siteOptionData = {}
+
+	for iter_11_2, iter_11_3 in ipairs(pg.child_site_option.all) do
+		local var_11_1 = EducateSiteOption.New(iter_11_3, var_11_0[iter_11_3])
+
+		arg_11_0.siteOptionData[iter_11_3] = var_11_1
+	end
 end
 
-function var_0_0.initVirtualStage(arg_18_0)
-	local var_18_0 = getProxy(EducateProxy):GetTaskProxy():GetTargetId()
-	local var_18_1 = arg_18_0.char:GetStage()
+function var_0_0.initRandomOpts(arg_12_0, arg_12_1)
+	arg_12_0.siteRandomOpts = {}
 
-	if var_18_0 ~= 0 and pg.child_target_set[var_18_0].stage == var_18_1 + 1 then
-		arg_18_0.isVirtualStage = true
+	for iter_12_0, iter_12_1 in ipairs(arg_12_1) do
+		arg_12_0.siteRandomOpts[iter_12_1.site_id] = iter_12_1.option_ids
+	end
+end
+
+function var_0_0.NeedRequestOptsData(arg_13_0)
+	return not arg_13_0.siteRandomOpts
+end
+
+function var_0_0.initBuffs(arg_14_0, arg_14_1)
+	arg_14_0.buffData = {}
+
+	for iter_14_0, iter_14_1 in ipairs(arg_14_1) do
+		arg_14_0.buffData[iter_14_1.id] = EducateBuff.New(iter_14_1)
+	end
+end
+
+function var_0_0.initPolaroids(arg_15_0, arg_15_1)
+	arg_15_0.polaroidData = {}
+
+	for iter_15_0, iter_15_1 in ipairs(arg_15_1) do
+		arg_15_0.polaroidData[iter_15_1.id] = EducatePolaroid.New(iter_15_1)
+	end
+end
+
+function var_0_0.SetEndings(arg_16_0, arg_16_1, arg_16_2)
+	arg_16_0.endings = arg_16_2
+	arg_16_0.completeEndings = arg_16_1
+
+	arg_16_0:updateSecretaryIDs(false)
+end
+
+function var_0_0.IsFirstGame(arg_17_0)
+	return arg_17_0.gameCount == 1
+end
+
+function var_0_0.GetGameCnt(arg_18_0)
+	return arg_18_0.gameCount
+end
+
+function var_0_0.UpdateGameStatus(arg_19_0)
+	arg_19_0.gameStatus = EducateConst.STATUES_NORMAL
+
+	if arg_19_0.exsitEnding then
+		arg_19_0.gameStatus = EducateConst.STATUES_RESET
+	elseif arg_19_0:IsEndingTime() then
+		arg_19_0.gameStatus = EducateConst.STATUES_ENDING
+	elseif arg_19_0.taskProxy:CheckTargetSet() then
+		arg_19_0.gameStatus = EducateConst.STATUES_PREPARE
+	end
+end
+
+function var_0_0.GetGameStatus(arg_20_0)
+	return arg_20_0.gameStatus
+end
+
+function var_0_0.initVirtualStage(arg_21_0)
+	local var_21_0 = getProxy(EducateProxy):GetTaskProxy():GetTargetId()
+	local var_21_1 = arg_21_0.char:GetStage()
+
+	if var_21_0 ~= 0 and pg.child_target_set[var_21_0].stage == var_21_1 + 1 then
+		arg_21_0.isVirtualStage = true
 	else
-		arg_18_0.isVirtualStage = false
+		arg_21_0.isVirtualStage = false
 	end
 end
 
-function var_0_0.SetVirtualStage(arg_19_0, arg_19_1)
-	arg_19_0.isVirtualStage = arg_19_1
+function var_0_0.SetVirtualStage(arg_22_0, arg_22_1)
+	arg_22_0.isVirtualStage = arg_22_1
 end
 
-function var_0_0.InVirtualStage(arg_20_0)
-	return arg_20_0.isVirtualStage
+function var_0_0.InVirtualStage(arg_23_0)
+	return arg_23_0.isVirtualStage
 end
 
-function var_0_0.Reset(arg_21_0, arg_21_1)
+function var_0_0.Reset(arg_24_0, arg_24_1)
 	EducateTipHelper.ClearAllRecord()
-	arg_21_0:GetPlanProxy():ClearLocalPlansData()
-	arg_21_0:sendNotification(GAME.EDUCATE_REQUEST, {
-		callback = arg_21_1
+	arg_24_0:GetPlanProxy():ClearLocalPlansData()
+	arg_24_0:sendNotification(GAME.EDUCATE_REQUEST, {
+		callback = arg_24_1
 	})
 end
 
-function var_0_0.Refresh(arg_22_0, arg_22_1)
+function var_0_0.Refresh(arg_25_0, arg_25_1)
 	EducateTipHelper.ClearAllRecord()
-	arg_22_0:GetPlanProxy():ClearLocalPlansData()
-	arg_22_0:sendNotification(GAME.EDUCATE_REQUEST, {
-		callback = arg_22_1
+	arg_25_0:GetPlanProxy():ClearLocalPlansData()
+	arg_25_0:sendNotification(GAME.EDUCATE_REQUEST, {
+		callback = arg_25_1
 	})
 end
 
-function var_0_0.GetCurTime(arg_23_0)
-	return arg_23_0.curTime
+function var_0_0.GetCurTime(arg_26_0)
+	return arg_26_0.curTime
 end
 
-function var_0_0.UpdateTime(arg_24_0)
-	arg_24_0.curTime.week = arg_24_0.curTime.week + 1
+function var_0_0.UpdateTime(arg_27_0)
+	arg_27_0.curTime.week = arg_27_0.curTime.week + 1
 
-	if arg_24_0.curTime.week > 4 then
-		arg_24_0.curTime.week = 1
-		arg_24_0.curTime.month = arg_24_0.curTime.month + 1
+	if arg_27_0.curTime.week > 4 then
+		arg_27_0.curTime.week = 1
+		arg_27_0.curTime.month = arg_27_0.curTime.month + 1
 	end
 end
 
-function var_0_0.OnNextWeek(arg_25_0)
-	arg_25_0:SetVirtualStage(false)
-	arg_25_0:UpdateTime()
-	arg_25_0.char:OnNewWeek(arg_25_0.curTime)
-	arg_25_0.planProxy:OnNewWeek(arg_25_0.curTime)
-	arg_25_0.eventProxy:OnNewWeek(arg_25_0.curTime)
-	arg_25_0.shopProxy:OnNewWeek(arg_25_0.curTime)
-	arg_25_0.taskProxy:OnNewWeek(arg_25_0.curTime)
-	arg_25_0:RefreshBuffs()
-	arg_25_0:RefreshOptions()
+function var_0_0.OnNextWeek(arg_28_0)
+	arg_28_0:SetVirtualStage(false)
+	arg_28_0:UpdateTime()
+	arg_28_0.char:OnNewWeek(arg_28_0.curTime)
+	arg_28_0.planProxy:OnNewWeek(arg_28_0.curTime)
+	arg_28_0.eventProxy:OnNewWeek(arg_28_0.curTime)
+	arg_28_0.shopProxy:OnNewWeek(arg_28_0.curTime)
+	arg_28_0.taskProxy:OnNewWeek(arg_28_0.curTime)
+	arg_28_0:RefreshBuffs()
+	arg_28_0:RefreshOptions()
 
-	arg_25_0.siteRandomOpts = nil
+	arg_28_0.siteRandomOpts = nil
 
-	arg_25_0:UpdateGameStatus()
-	arg_25_0:sendNotification(var_0_0.TIME_UPDATED)
+	arg_28_0:UpdateGameStatus()
+	arg_28_0:sendNotification(var_0_0.TIME_UPDATED)
 end
 
-function var_0_0.GetCharData(arg_26_0)
-	return arg_26_0.char
+function var_0_0.GetCharData(arg_29_0)
+	return arg_29_0.char
 end
 
-function var_0_0.GetPersonalityId(arg_27_0)
-	return arg_27_0.char:GetPersonalityId()
+function var_0_0.GetPersonalityId(arg_30_0)
+	return arg_30_0.char:GetPersonalityId()
 end
 
-function var_0_0.UpdateRes(arg_28_0, arg_28_1, arg_28_2)
-	arg_28_0.char:UpdateRes(arg_28_1, arg_28_2)
-	arg_28_0:sendNotification(var_0_0.RESOURCE_UPDATED)
+function var_0_0.UpdateRes(arg_31_0, arg_31_1, arg_31_2)
+	arg_31_0.char:UpdateRes(arg_31_1, arg_31_2)
+	arg_31_0:sendNotification(var_0_0.RESOURCE_UPDATED)
 end
 
-function var_0_0.ReduceResForPlans(arg_29_0)
-	local var_29_0, var_29_1 = arg_29_0.planProxy:GetCost()
+function var_0_0.ReduceResForPlans(arg_32_0)
+	local var_32_0, var_32_1 = arg_32_0.planProxy:GetCost()
 
-	arg_29_0:UpdateRes(EducateChar.RES_MONEY_ID, -var_29_0)
-	arg_29_0:UpdateRes(EducateChar.RES_MOOD_ID, -var_29_1)
+	arg_32_0:UpdateRes(EducateChar.RES_MONEY_ID, -var_32_0)
+	arg_32_0:UpdateRes(EducateChar.RES_MOOD_ID, -var_32_1)
 end
 
-function var_0_0.ReduceResForCosts(arg_30_0, arg_30_1)
-	for iter_30_0, iter_30_1 in ipairs(arg_30_1) do
-		arg_30_0:UpdateRes(iter_30_1.id, -iter_30_1.num)
+function var_0_0.ReduceResForCosts(arg_33_0, arg_33_1)
+	for iter_33_0, iter_33_1 in ipairs(arg_33_1) do
+		arg_33_0:UpdateRes(iter_33_1.id, -iter_33_1.num)
 	end
 end
 
-function var_0_0.UpdateAttr(arg_31_0, arg_31_1, arg_31_2)
-	arg_31_0.char:UpdateAttr(arg_31_1, arg_31_2)
-	arg_31_0:sendNotification(var_0_0.ATTR_UPDATED)
+function var_0_0.UpdateAttr(arg_34_0, arg_34_1, arg_34_2)
+	arg_34_0.char:UpdateAttr(arg_34_1, arg_34_2)
+	arg_34_0:sendNotification(var_0_0.ATTR_UPDATED)
 end
 
-function var_0_0.CheckExtraAttr(arg_32_0)
-	return arg_32_0.char:CheckExtraAttrAdd()
+function var_0_0.CheckExtraAttr(arg_35_0)
+	return arg_35_0.char:CheckExtraAttrAdd()
 end
 
-function var_0_0.AddExtraAttr(arg_33_0, arg_33_1)
-	arg_33_0:UpdateAttr(arg_33_1, arg_33_0.char:getConfig("attr_2_add"))
-	arg_33_0.char:SetIsAddedExtraAttr(true)
+function var_0_0.AddExtraAttr(arg_36_0, arg_36_1)
+	arg_36_0:UpdateAttr(arg_36_1, arg_36_0.char:getConfig("attr_2_add"))
+	arg_36_0.char:SetIsAddedExtraAttr(true)
 end
 
-function var_0_0.GetPlanProxy(arg_34_0)
-	return arg_34_0.planProxy
+function var_0_0.GetPlanProxy(arg_37_0)
+	return arg_37_0.planProxy
 end
 
-function var_0_0.GetEventProxy(arg_35_0)
-	return arg_35_0.eventProxy
+function var_0_0.GetEventProxy(arg_38_0)
+	return arg_38_0.eventProxy
 end
 
-function var_0_0.GetShopProxy(arg_36_0)
-	return arg_36_0.shopProxy
+function var_0_0.GetShopProxy(arg_39_0)
+	return arg_39_0.shopProxy
 end
 
-function var_0_0.GetTaskProxy(arg_37_0)
-	return arg_37_0.taskProxy
+function var_0_0.GetTaskProxy(arg_40_0)
+	return arg_40_0.taskProxy
 end
 
-function var_0_0.GetFinishEndings(arg_38_0)
-	return arg_38_0.endings
+function var_0_0.GetAllEndings(arg_41_0)
+	return arg_41_0.endings
 end
 
-function var_0_0.AddEnding(arg_39_0, arg_39_1)
-	arg_39_0.exsitEnding = true
+function var_0_0.GetCompleteEndings(arg_42_0)
+	return arg_42_0.completeEndings
+end
 
-	arg_39_0:UpdateGameStatus()
+function var_0_0.GetEndingBuyCnt(arg_43_0)
+	return arg_43_0.endingBuyCnt
+end
 
-	if table.contains(arg_39_0.endings, arg_39_1) then
+function var_0_0.AddEndingBuyCnt(arg_44_0)
+	arg_44_0.endingBuyCnt = arg_44_0.endingBuyCnt + 1
+end
+
+function var_0_0.AddEnding(arg_45_0, arg_45_1, arg_45_2)
+	arg_45_0.exsitEnding = true
+
+	arg_45_0:UpdateGameStatus()
+
+	if not table.contains(arg_45_0.completeEndings, arg_45_1) then
+		table.insert(arg_45_0.completeEndings, arg_45_1)
+	end
+
+	local var_45_0 = false
+
+	for iter_45_0, iter_45_1 in ipairs(arg_45_2) do
+		if not table.contains(arg_45_0.endings, iter_45_1) then
+			table.insert(arg_45_0.endings, iter_45_1)
+
+			var_45_0 = true
+		end
+	end
+
+	if var_45_0 then
+		arg_45_0:updateSecretaryIDs(true)
+		arg_45_0:sendNotification(var_0_0.ENDING_ADDED)
+	end
+end
+
+function var_0_0.AddEndingFromBuy(arg_46_0, arg_46_1)
+	if table.contains(arg_46_0.endings, arg_46_1) then
 		return
 	end
 
-	table.insert(arg_39_0.endings, arg_39_1)
-	arg_39_0:updateSecretaryIDs(true)
-	arg_39_0:sendNotification(var_0_0.ENDING_ADDED)
+	table.insert(arg_46_0.endings, arg_46_1)
+	arg_46_0:updateSecretaryIDs(true)
+	arg_46_0:sendNotification(var_0_0.ENDING_ADDED)
 end
 
-function var_0_0.IsEndingTime(arg_40_0)
-	local var_40_0 = arg_40_0:GetCurTime()
+function var_0_0.IsEndingTime(arg_47_0)
+	local var_47_0 = arg_47_0:GetCurTime()
 
-	if var_40_0.month >= arg_40_0.endTime[1] and var_40_0.week >= arg_40_0.endTime[2] and var_40_0.day >= arg_40_0.endTime[3] then
+	if var_47_0.month >= arg_47_0.endTime[1] and var_47_0.week >= arg_47_0.endTime[2] and var_47_0.day >= arg_47_0.endTime[3] then
 		return true
 	end
 
 	return false
 end
 
-function var_0_0.GetEndingResult(arg_41_0)
-	local var_41_0 = underscore.detect(pg.child_ending.all, function(arg_42_0)
-		local var_42_0 = pg.child_ending[arg_42_0].condition
+function var_0_0.GetEndingResult(arg_48_0)
+	local var_48_0 = underscore.select(pg.child_ending.all, function(arg_49_0)
+		local var_49_0 = pg.child_ending[arg_49_0].condition
 
-		return arg_41_0.char:CheckEndCondition(var_42_0)
+		return arg_48_0.char:CheckEndCondition(var_49_0)
 	end)
 
-	assert(var_41_0, "not matching ending")
+	assert(#var_48_0 > 0, "not matching ending")
 
-	return var_41_0
+	return var_48_0
 end
 
-function var_0_0.GetBuffData(arg_43_0)
-	return arg_43_0.buffData
+function var_0_0.GetBuffData(arg_50_0)
+	return arg_50_0.buffData
 end
 
-function var_0_0.GetBuffList(arg_44_0)
-	local var_44_0 = {}
+function var_0_0.GetBuffList(arg_51_0)
+	local var_51_0 = {}
 
-	for iter_44_0, iter_44_1 in pairs(arg_44_0.buffData) do
-		table.insert(var_44_0, iter_44_1)
+	for iter_51_0, iter_51_1 in pairs(arg_51_0.buffData) do
+		table.insert(var_51_0, iter_51_1)
 	end
 
-	return var_44_0
+	return var_51_0
 end
 
-function var_0_0.AddBuff(arg_45_0, arg_45_1)
-	if arg_45_0.buffData[arg_45_1] then
-		arg_45_0.buffData[arg_45_1]:ResetEndTime()
+function var_0_0.AddBuff(arg_52_0, arg_52_1)
+	if arg_52_0.buffData[arg_52_1] then
+		arg_52_0.buffData[arg_52_1]:ResetEndTime()
 	else
-		arg_45_0.buffData[arg_45_1] = EducateBuff.New({
-			id = arg_45_1
+		arg_52_0.buffData[arg_52_1] = EducateBuff.New({
+			id = arg_52_1
 		})
 	end
 
-	arg_45_0:sendNotification(var_0_0.BUFF_ADDED)
+	arg_52_0:sendNotification(var_0_0.BUFF_ADDED)
 end
 
-function var_0_0.RefreshBuffs(arg_46_0)
-	for iter_46_0, iter_46_1 in pairs(arg_46_0.buffData) do
-		if iter_46_1:IsEnd() then
-			arg_46_0.buffData[iter_46_1.id] = nil
+function var_0_0.RefreshBuffs(arg_53_0)
+	for iter_53_0, iter_53_1 in pairs(arg_53_0.buffData) do
+		if iter_53_1:IsEnd() then
+			arg_53_0.buffData[iter_53_1.id] = nil
 		end
 	end
 end
 
-function var_0_0.GetAttrBuffEffects(arg_47_0, arg_47_1)
-	local var_47_0 = {}
+function var_0_0.GetAttrBuffEffects(arg_54_0, arg_54_1)
+	local var_54_0 = {}
 
-	for iter_47_0, iter_47_1 in pairs(arg_47_0.buffData) do
-		if iter_47_1:IsAttrType() and iter_47_1:IsId(arg_47_1) then
-			table.insert(var_47_0, iter_47_1)
+	for iter_54_0, iter_54_1 in pairs(arg_54_0.buffData) do
+		if iter_54_1:IsAttrType() and iter_54_1:IsId(arg_54_1) then
+			table.insert(var_54_0, iter_54_1)
 		end
 	end
 
-	return EducateBuff.GetBuffEffects(var_47_0)
+	return EducateBuff.GetBuffEffects(var_54_0)
 end
 
-function var_0_0.GetResBuffEffects(arg_48_0, arg_48_1)
-	local var_48_0 = {}
+function var_0_0.GetResBuffEffects(arg_55_0, arg_55_1)
+	local var_55_0 = {}
 
-	for iter_48_0, iter_48_1 in pairs(arg_48_0.buffData) do
-		if iter_48_1:IsResType() and iter_48_1:IsId(arg_48_1) then
-			table.insert(var_48_0, iter_48_1)
+	for iter_55_0, iter_55_1 in pairs(arg_55_0.buffData) do
+		if iter_55_1:IsResType() and iter_55_1:IsId(arg_55_1) then
+			table.insert(var_55_0, iter_55_1)
 		end
 	end
 
-	return EducateBuff.GetBuffEffects(var_48_0)
+	return EducateBuff.GetBuffEffects(var_55_0)
 end
 
-function var_0_0.GetOptionById(arg_49_0, arg_49_1)
-	return arg_49_0.siteOptionData[arg_49_1]
+function var_0_0.GetOptionById(arg_56_0, arg_56_1)
+	return arg_56_0.siteOptionData[arg_56_1]
 end
 
-function var_0_0.UpdateOptionData(arg_50_0, arg_50_1)
-	arg_50_0.siteOptionData[arg_50_1.id] = arg_50_1
+function var_0_0.UpdateOptionData(arg_57_0, arg_57_1)
+	arg_57_0.siteOptionData[arg_57_1.id] = arg_57_1
 
-	arg_50_0:sendNotification(var_0_0.OPTION_UPDATED)
+	arg_57_0:sendNotification(var_0_0.OPTION_UPDATED)
 end
 
-function var_0_0.RefreshOptions(arg_51_0)
-	local var_51_0 = arg_51_0:GetCurTime()
+function var_0_0.RefreshOptions(arg_58_0)
+	local var_58_0 = arg_58_0:GetCurTime()
 
-	for iter_51_0, iter_51_1 in pairs(arg_51_0.siteOptionData) do
-		iter_51_1:OnWeekUpdate(var_51_0)
+	for iter_58_0, iter_58_1 in pairs(arg_58_0.siteOptionData) do
+		iter_58_1:OnWeekUpdate(var_58_0)
 	end
 end
 
-function var_0_0.GetShowSiteIds(arg_52_0)
-	return underscore.select(pg.child_site.all, function(arg_53_0)
-		return pg.child_site[arg_53_0].type == 1 and EducateHelper.IsSiteUnlock(arg_53_0, arg_52_0:IsFirstGame())
+function var_0_0.GetShowSiteIds(arg_59_0)
+	return underscore.select(pg.child_site.all, function(arg_60_0)
+		return pg.child_site[arg_60_0].type == 1 and EducateHelper.IsSiteUnlock(arg_60_0, arg_59_0:IsFirstGame())
 	end)
 end
 
-function var_0_0.GetOptionsBySiteId(arg_54_0, arg_54_1)
-	local var_54_0 = pg.child_site[arg_54_1].option
-	local var_54_1 = arg_54_0:GetCurTime()
-	local var_54_2 = {}
-	local var_54_3 = {}
+function var_0_0.GetOptionsBySiteId(arg_61_0, arg_61_1)
+	local var_61_0 = pg.child_site[arg_61_1].option
+	local var_61_1 = arg_61_0:GetCurTime()
+	local var_61_2 = {}
+	local var_61_3 = {}
 
-	underscore.each(var_54_0, function(arg_55_0)
-		local var_55_0 = arg_54_0.siteOptionData[arg_55_0]
+	underscore.each(var_61_0, function(arg_62_0)
+		local var_62_0 = arg_61_0.siteOptionData[arg_62_0]
 
-		if var_55_0 and var_55_0:IsShow(var_54_1) then
-			if var_55_0:IsReplace() then
-				var_54_3[var_55_0:getConfig("replace")] = var_55_0
+		if var_62_0 and var_62_0:IsShow(var_61_1) then
+			if var_62_0:IsReplace() then
+				var_61_3[var_62_0:getConfig("replace")] = var_62_0
 			else
-				table.insert(var_54_2, var_55_0)
+				table.insert(var_61_2, var_62_0)
 			end
 		end
 	end)
-	underscore.each(var_54_2, function(arg_56_0)
-		if var_54_3[arg_56_0.id] then
-			table.removebyvalue(var_54_2, arg_56_0)
-			table.insert(var_54_2, var_54_3[arg_56_0.id])
+	underscore.each(var_61_2, function(arg_63_0)
+		if var_61_3[arg_63_0.id] then
+			table.removebyvalue(var_61_2, arg_63_0)
+			table.insert(var_61_2, var_61_3[arg_63_0.id])
 		end
 	end)
 
-	local var_54_4 = arg_54_0.siteRandomOpts and arg_54_0.siteRandomOpts[arg_54_1] or {}
+	local var_61_4 = arg_61_0.siteRandomOpts and arg_61_0.siteRandomOpts[arg_61_1] or {}
 
-	underscore.each(var_54_4, function(arg_57_0)
-		local var_57_0 = arg_54_0.siteOptionData[arg_57_0]
+	underscore.each(var_61_4, function(arg_64_0)
+		local var_64_0 = arg_61_0.siteOptionData[arg_64_0]
 
-		if var_57_0:IsShow(var_54_1) then
-			table.insert(var_54_2, var_57_0)
+		if var_64_0:IsShow(var_61_1) then
+			table.insert(var_61_2, var_64_0)
 		end
 	end)
-	table.sort(var_54_2, CompareFuncs({
-		function(arg_58_0)
-			return arg_58_0:getConfig("order")
+	table.sort(var_61_2, CompareFuncs({
+		function(arg_65_0)
+			return arg_65_0:getConfig("order")
 		end,
-		function(arg_59_0)
-			return arg_59_0.id
+		function(arg_66_0)
+			return arg_66_0.id
 		end
 	}))
 
-	return var_54_2
+	return var_61_2
 end
 
-function var_0_0.GetItemData(arg_60_0)
-	return arg_60_0.itemData
+function var_0_0.GetItemData(arg_67_0)
+	return arg_67_0.itemData
 end
 
-function var_0_0.GetItemList(arg_61_0)
-	local var_61_0 = {}
+function var_0_0.GetItemList(arg_68_0)
+	local var_68_0 = {}
 
-	for iter_61_0, iter_61_1 in pairs(arg_61_0.itemData) do
-		table.insert(var_61_0, iter_61_1)
+	for iter_68_0, iter_68_1 in pairs(arg_68_0.itemData) do
+		table.insert(var_68_0, iter_68_1)
 	end
 
-	return var_61_0
+	return var_68_0
 end
 
-function var_0_0.AddItem(arg_62_0, arg_62_1, arg_62_2)
-	if arg_62_0.itemData[arg_62_1] then
-		arg_62_0.itemData[arg_62_1]:AddCount(arg_62_2)
+function var_0_0.AddItem(arg_69_0, arg_69_1, arg_69_2)
+	if arg_69_0.itemData[arg_69_1] then
+		arg_69_0.itemData[arg_69_1]:AddCount(arg_69_2)
 	else
-		arg_62_0.itemData[arg_62_1] = EducateItem.New({
-			id = arg_62_1,
-			num = arg_62_2
+		arg_69_0.itemData[arg_69_1] = EducateItem.New({
+			id = arg_69_1,
+			num = arg_69_2
 		})
 	end
 
-	arg_62_0:sendNotification(var_0_0.ITEM_ADDED)
+	arg_69_0:sendNotification(var_0_0.ITEM_ADDED)
 end
 
-function var_0_0.GetItemCntById(arg_63_0, arg_63_1)
-	return arg_63_0.itemData[arg_63_1] and arg_63_0.itemData[arg_63_1].count or 0
+function var_0_0.GetItemCntById(arg_70_0, arg_70_1)
+	return arg_70_0.itemData[arg_70_1] and arg_70_0.itemData[arg_70_1].count or 0
 end
 
-function var_0_0.GetPolaroidData(arg_64_0)
-	return arg_64_0.polaroidData
+function var_0_0.GetPolaroidData(arg_71_0)
+	return arg_71_0.polaroidData
 end
 
-function var_0_0.GetPolaroidList(arg_65_0)
-	local var_65_0 = {}
+function var_0_0.GetPolaroidBuyCnt(arg_72_0)
+	return arg_72_0.polaroidBuyCnt
+end
 
-	for iter_65_0, iter_65_1 in pairs(arg_65_0.polaroidData) do
-		table.insert(var_65_0, iter_65_1)
+function var_0_0.AddPolaroidBuyCnt(arg_73_0)
+	arg_73_0.polaroidBuyCnt = arg_73_0.polaroidBuyCnt + 1
+end
+
+function var_0_0.GetPolaroidList(arg_74_0)
+	local var_74_0 = {}
+
+	for iter_74_0, iter_74_1 in pairs(arg_74_0.polaroidData) do
+		table.insert(var_74_0, iter_74_1)
 	end
 
-	return var_65_0
+	return var_74_0
 end
 
-function var_0_0.GetPolaroidIdList(arg_66_0)
-	local var_66_0 = {}
+function var_0_0.GetPolaroidIdList(arg_75_0)
+	local var_75_0 = {}
 
-	for iter_66_0, iter_66_1 in pairs(arg_66_0.polaroidData) do
-		table.insert(var_66_0, iter_66_0)
+	for iter_75_0, iter_75_1 in pairs(arg_75_0.polaroidData) do
+		table.insert(var_75_0, iter_75_0)
 	end
 
-	return var_66_0
+	return var_75_0
 end
 
-function var_0_0.AddPolaroid(arg_67_0, arg_67_1)
-	if arg_67_0.polaroidData[arg_67_1] then
+function var_0_0.AddPolaroid(arg_76_0, arg_76_1)
+	if arg_76_0.polaroidData[arg_76_1] then
 		return
 	end
 
-	arg_67_0.polaroidData[arg_67_1] = EducatePolaroid.New({
-		id = arg_67_1,
-		time = arg_67_0:GetCurTime()
+	arg_76_0.polaroidData[arg_76_1] = EducatePolaroid.New({
+		id = arg_76_1,
+		time = arg_76_0:GetCurTime()
 	})
 
 	EducateTipHelper.SetNewTip(EducateTipHelper.NEW_POLAROID)
-	arg_67_0:updateSecretaryIDs(true)
-	arg_67_0:sendNotification(var_0_0.POLAROID_ADDED)
+	arg_76_0:updateSecretaryIDs(true)
+	arg_76_0:sendNotification(var_0_0.POLAROID_ADDED)
 end
 
-function var_0_0.IsExistPolaroidByGroup(arg_68_0, arg_68_1)
-	local var_68_0 = pg.child_polaroid.get_id_list_by_group[arg_68_1]
+function var_0_0.IsExistPolaroidByGroup(arg_77_0, arg_77_1)
+	local var_77_0 = pg.child_polaroid.get_id_list_by_group[arg_77_1]
 
-	return underscore.any(var_68_0, function(arg_69_0)
-		return arg_68_0.polaroidData[arg_69_0]
+	return underscore.any(var_77_0, function(arg_78_0)
+		return arg_77_0.polaroidData[arg_78_0]
 	end)
 end
 
-function var_0_0.CanGetPolaroidByGroup(arg_70_0, arg_70_1)
-	local var_70_0 = pg.child_polaroid.get_id_list_by_group[arg_70_1]
+function var_0_0.CanGetPolaroidByGroup(arg_79_0, arg_79_1)
+	local var_79_0 = pg.child_polaroid.get_id_list_by_group[arg_79_1]
 
-	return underscore.any(var_70_0, function(arg_71_0)
-		return arg_70_0:CanGetPolaroidById(arg_71_0)
+	return underscore.any(var_79_0, function(arg_80_0)
+		return arg_79_0:CanGetPolaroidById(arg_80_0)
 	end)
 end
 
-function var_0_0.CanGetPolaroidById(arg_72_0, arg_72_1)
-	local var_72_0 = arg_72_0.char:GetStage()
-	local var_72_1 = arg_72_0:GetPersonalityId()
-	local var_72_2 = pg.child_polaroid[arg_72_1]
+function var_0_0.CanGetPolaroidById(arg_81_0, arg_81_1)
+	local var_81_0 = arg_81_0.char:GetStage()
+	local var_81_1 = arg_81_0:GetPersonalityId()
+	local var_81_2 = pg.child_polaroid[arg_81_1]
 
-	if table.contains(var_72_2.stage, var_72_0) then
-		if var_72_2.xingge == "" then
+	if table.contains(var_81_2.stage, var_81_0) then
+		if var_81_2.xingge == "" then
 			return true
 		end
 
-		return table.contains(var_72_2.xingge, var_72_1)
+		return table.contains(var_81_2.xingge, var_81_1)
 	end
 
 	return false
 end
 
-function var_0_0.GetPolaroidGroupCnt(arg_73_0)
-	local var_73_0 = 0
-	local var_73_1 = 0
+function var_0_0.GetPolaroidGroupCnt(arg_82_0)
+	local var_82_0 = 0
+	local var_82_1 = 0
 
-	for iter_73_0, iter_73_1 in pairs(pg.child_polaroid.get_id_list_by_group) do
-		if arg_73_0:IsExistPolaroidByGroup(iter_73_0) then
-			var_73_0 = var_73_0 + 1
+	for iter_82_0, iter_82_1 in pairs(pg.child_polaroid.get_id_list_by_group) do
+		if arg_82_0:IsExistPolaroidByGroup(iter_82_0) then
+			var_82_0 = var_82_0 + 1
 		end
 
-		var_73_1 = var_73_1 + 1
+		var_82_1 = var_82_1 + 1
 	end
 
-	return var_73_0, var_73_1
+	return var_82_0, var_82_1
 end
 
-function var_0_0.GetMemories(arg_74_0)
-	return arg_74_0.memories
+function var_0_0.GetMemories(arg_83_0)
+	return arg_83_0.memories
 end
 
-function var_0_0.AddMemory(arg_75_0, arg_75_1)
-	if table.contains(arg_75_0.memories, arg_75_1) then
+function var_0_0.AddMemory(arg_84_0, arg_84_1)
+	if table.contains(arg_84_0.memories, arg_84_1) then
 		return
 	end
 
-	table.insert(arg_75_0.memories, arg_75_1)
-	EducateTipHelper.SetNewTip(EducateTipHelper.NEW_MEMORY, arg_75_1)
-	arg_75_0:sendNotification(var_0_0.MEMORY_ADDED)
+	table.insert(arg_84_0.memories, arg_84_1)
+	EducateTipHelper.SetNewTip(EducateTipHelper.NEW_MEMORY, arg_84_1)
+	arg_84_0:sendNotification(var_0_0.MEMORY_ADDED)
 end
 
-function var_0_0.CheckGuide(arg_76_0, arg_76_1)
-	arg_76_0:sendNotification(var_0_0.GUIDE_CHECK, {
-		view = arg_76_1
+function var_0_0.GetMemoryBuyCnt(arg_85_0)
+	return arg_85_0.memoryBuyCnt
+end
+
+function var_0_0.CheckGuide(arg_86_0, arg_86_1, arg_86_2)
+	arg_86_0:sendNotification(var_0_0.GUIDE_CHECK, {
+		view = arg_86_1,
+		popActivityWindow = arg_86_2
 	})
 end
 
-function var_0_0.MainAddLayer(arg_77_0, arg_77_1)
-	arg_77_0:sendNotification(var_0_0.MAIN_SCENE_ADD_LAYER, arg_77_1)
+function var_0_0.AddMemoryBuyCnt(arg_87_0)
+	arg_87_0.memoryBuyCnt = arg_87_0.memoryBuyCnt + 1
 end
 
-function var_0_0.initUnlockSecretary(arg_78_0, arg_78_1)
-	arg_78_0.isUnlockSecretary = arg_78_1
-	arg_78_0.unlockSecretaryTaskId = (function()
-		for iter_79_0, iter_79_1 in ipairs(pg.secretary_special_ship.all) do
-			if pg.secretary_special_ship[iter_79_1].unlock_type == EducateConst.SECRETARY_UNLCOK_TYPE_DEFAULT then
-				return pg.secretary_special_ship[iter_79_1].unlock[1]
+function var_0_0.initUnlockSecretary(arg_88_0, arg_88_1)
+	arg_88_0.isUnlockSecretary = arg_88_1
+	arg_88_0.unlockSecretaryTaskId = (function()
+		for iter_89_0, iter_89_1 in ipairs(pg.secretary_special_ship.all) do
+			if pg.secretary_special_ship[iter_89_1].unlock_type == EducateConst.SECRETARY_UNLCOK_TYPE_DEFAULT then
+				return pg.secretary_special_ship[iter_89_1].unlock[1]
 			end
 		end
 	end)()
-	arg_78_0.unlcokTipByPolaroidCnt = {}
+	arg_88_0.unlcokTipByPolaroidCnt = {}
 
-	for iter_78_0, iter_78_1 in ipairs(pg.secretary_special_ship.all) do
-		local var_78_0 = pg.secretary_special_ship[iter_78_1]
+	for iter_88_0, iter_88_1 in ipairs(pg.secretary_special_ship.all) do
+		local var_88_0 = pg.secretary_special_ship[iter_88_1]
 
-		if var_78_0.unlock_type == EducateConst.SECRETARY_UNLCOK_TYPE_POLAROID then
-			local var_78_1 = var_78_0.unlock[1]
+		if var_88_0.unlock_type == EducateConst.SECRETARY_UNLCOK_TYPE_POLAROID then
+			local var_88_1 = var_88_0.unlock[1]
 
-			if not table.contains(arg_78_0.unlcokTipByPolaroidCnt, var_78_1) then
-				table.insert(arg_78_0.unlcokTipByPolaroidCnt, var_78_1)
+			if not table.contains(arg_88_0.unlcokTipByPolaroidCnt, var_88_1) then
+				table.insert(arg_88_0.unlcokTipByPolaroidCnt, var_88_1)
 			end
 		end
 	end
 end
 
-function var_0_0.GetUnlockSecretaryTaskId(arg_80_0)
-	return arg_80_0.unlockSecretaryTaskId
+function var_0_0.GetUnlockSecretaryTaskId(arg_90_0)
+	return arg_90_0.unlockSecretaryTaskId
 end
 
-function var_0_0.SetSecretaryUnlock(arg_81_0)
-	arg_81_0.isUnlockSecretary = true
+function var_0_0.SetSecretaryUnlock(arg_91_0)
+	arg_91_0.isUnlockSecretary = true
 
-	arg_81_0:updateSecretaryIDs(false)
+	arg_91_0:updateSecretaryIDs(false)
 end
 
-function var_0_0.CheckNewSecretaryTip(arg_82_0)
-	local var_82_0 = arg_82_0:GetPolaroidGroupCnt()
+function var_0_0.CheckNewSecretaryTip(arg_92_0)
+	local var_92_0 = arg_92_0:GetPolaroidGroupCnt()
 
-	if table.contains(arg_82_0.unlcokTipByPolaroidCnt, var_82_0) then
-		arg_82_0:updateSecretaryIDs(false)
-		arg_82_0:sendNotification(var_0_0.UNLCOK_NEW_SECRETARY_BY_CNT)
+	if table.contains(arg_92_0.unlcokTipByPolaroidCnt, var_92_0) then
+		arg_92_0:updateSecretaryIDs(false)
+		arg_92_0:sendNotification(var_0_0.UNLCOK_NEW_SECRETARY_BY_CNT)
 
 		return true
 	end
@@ -658,18 +722,18 @@ function var_0_0.CheckNewSecretaryTip(arg_82_0)
 	return false
 end
 
-function var_0_0.checkSecretaryID(arg_83_0, arg_83_1, arg_83_2)
-	if arg_83_2 == "or" then
-		for iter_83_0, iter_83_1 in ipairs(arg_83_1) do
-			if table.contains(arg_83_0.endings, iter_83_1[1]) then
+function var_0_0.checkSecretaryID(arg_93_0, arg_93_1, arg_93_2)
+	if arg_93_2 == "or" then
+		for iter_93_0, iter_93_1 in ipairs(arg_93_1) do
+			if table.contains(arg_93_0.endings, iter_93_1[1]) then
 				return true
 			end
 		end
 
 		return false
-	elseif arg_83_2 == "and" then
-		for iter_83_2, iter_83_3 in ipairs(arg_83_1) do
-			if not table.contains(arg_83_0.endings, iter_83_3) then
+	elseif arg_93_2 == "and" then
+		for iter_93_2, iter_93_3 in ipairs(arg_93_1) do
+			if not table.contains(arg_93_0.endings, iter_93_3) then
 				return false
 			end
 
@@ -680,52 +744,52 @@ function var_0_0.checkSecretaryID(arg_83_0, arg_83_1, arg_83_2)
 	return false
 end
 
-function var_0_0.updateSecretaryIDs(arg_84_0, arg_84_1)
-	if not arg_84_0:IsUnlockSecretary() then
-		arg_84_0.unlockSecretaryIds = {}
+function var_0_0.updateSecretaryIDs(arg_94_0, arg_94_1)
+	if not arg_94_0:IsUnlockSecretary() then
+		arg_94_0.unlockSecretaryIds = {}
 
 		return
 	end
 
-	local var_84_0
+	local var_94_0
 
-	if arg_84_1 then
-		var_84_0 = Clone(NewEducateHelper.GetAllUnlockSecretaryIds())
+	if arg_94_1 then
+		var_94_0 = Clone(NewEducateHelper.GetAllUnlockSecretaryIds())
 	end
 
-	arg_84_0.unlockSecretaryIds = {}
+	arg_94_0.unlockSecretaryIds = {}
 
-	local var_84_1 = #arg_84_0:GetPolaroidIdList()
+	local var_94_1, var_94_2 = arg_94_0:GetPolaroidGroupCnt()
 
-	for iter_84_0, iter_84_1 in ipairs(pg.secretary_special_ship.get_id_list_by_tb_id[0]) do
-		local var_84_2 = pg.secretary_special_ship[iter_84_1].unlock_type
-		local var_84_3 = pg.secretary_special_ship[iter_84_1].unlock
+	for iter_94_0, iter_94_1 in ipairs(pg.secretary_special_ship.get_id_list_by_tb_id[0]) do
+		local var_94_3 = pg.secretary_special_ship[iter_94_1].unlock_type
+		local var_94_4 = pg.secretary_special_ship[iter_94_1].unlock
 
-		switch(var_84_2, {
+		switch(var_94_3, {
 			[EducateConst.SECRETARY_UNLCOK_TYPE_DEFAULT] = function()
-				if arg_84_0:IsUnlockSecretary() then
-					table.insert(arg_84_0.unlockSecretaryIds, iter_84_1)
+				if arg_94_0:IsUnlockSecretary() then
+					table.insert(arg_94_0.unlockSecretaryIds, iter_94_1)
 				end
 			end,
 			[EducateConst.SECRETARY_UNLCOK_TYPE_POLAROID] = function()
-				if var_84_3[1] and var_84_1 >= var_84_3[1] then
-					table.insert(arg_84_0.unlockSecretaryIds, iter_84_1)
+				if var_94_4[1] and var_94_1 >= var_94_4[1] then
+					table.insert(arg_94_0.unlockSecretaryIds, iter_94_1)
 				end
 			end,
 			[EducateConst.SECRETARY_UNLCOK_TYPE_ENDING] = function()
-				if var_84_3[1] then
-					if type(var_84_3[1]) == "table" then
-						if arg_84_0:checkSecretaryID(var_84_3, "or") then
-							table.insert(arg_84_0.unlockSecretaryIds, iter_84_1)
+				if var_94_4[1] then
+					if type(var_94_4[1]) == "table" then
+						if arg_94_0:checkSecretaryID(var_94_4, "or") then
+							table.insert(arg_94_0.unlockSecretaryIds, iter_94_1)
 						end
-					elseif type(var_84_3[1]) == "number" and arg_84_0:checkSecretaryID(var_84_3, "and") then
-						table.insert(arg_84_0.unlockSecretaryIds, iter_84_1)
+					elseif type(var_94_4[1]) == "number" and arg_94_0:checkSecretaryID(var_94_4, "and") then
+						table.insert(arg_94_0.unlockSecretaryIds, iter_94_1)
 					end
 				end
 			end,
 			[EducateConst.SECRETARY_UNLCOK_TYPE_SHOP] = function()
-				if var_84_3[1] and getProxy(ShipSkinProxy):hasSkin(var_84_3[1]) then
-					table.insert(arg_84_0.unlockSecretaryIds, iter_84_1)
+				if var_94_4[1] and getProxy(ShipSkinProxy):hasSkin(var_94_4[1]) then
+					table.insert(arg_94_0.unlockSecretaryIds, iter_94_1)
 				end
 			end,
 			[EducateConst.SECRETARY_UNLCOK_TYPE_STORY] = function()
@@ -734,38 +798,38 @@ function var_0_0.updateSecretaryIDs(arg_84_0, arg_84_1)
 		})
 	end
 
-	if arg_84_1 then
-		getProxy(SettingsProxy):UpdateEducateCharTip(var_84_0)
+	if arg_94_1 then
+		getProxy(SettingsProxy):UpdateEducateCharTip(var_94_0)
 	end
 end
 
-function var_0_0.GetEducateGroupList(arg_90_0)
-	local var_90_0 = {}
+function var_0_0.GetEducateGroupList(arg_100_0)
+	local var_100_0 = {}
 
-	for iter_90_0, iter_90_1 in pairs(pg.secretary_special_ship.get_id_list_by_group) do
-		table.insert(var_90_0, EducateCharGroup.New(iter_90_0))
+	for iter_100_0, iter_100_1 in pairs(pg.secretary_special_ship.get_id_list_by_group) do
+		table.insert(var_100_0, EducateCharGroup.New(iter_100_0))
 	end
 
-	return var_90_0
+	return var_100_0
 end
 
-function var_0_0.GetStoryInfo(arg_91_0)
-	return arg_91_0.char:GetPaintingName(), arg_91_0.char:GetCallName(), arg_91_0.char:GetBGName()
+function var_0_0.GetStoryInfo(arg_101_0)
+	return arg_101_0.char:GetPaintingName(), arg_101_0.char:GetCallName(), arg_101_0.char:GetBGName()
 end
 
-function var_0_0.GetSecretaryIDs(arg_92_0)
-	return arg_92_0.unlockSecretaryIds
+function var_0_0.GetSecretaryIDs(arg_102_0)
+	return arg_102_0.unlockSecretaryIds
 end
 
-function var_0_0.GetPolaroidCnt(arg_93_0)
-	return #arg_93_0:GetPolaroidIdList()
+function var_0_0.GetPolaroidCnt(arg_103_0)
+	return #arg_103_0:GetPolaroidIdList()
 end
 
-function var_0_0.IsUnlockSecretary(arg_94_0)
-	return arg_94_0.isUnlockSecretary
+function var_0_0.IsUnlockSecretary(arg_104_0)
+	return arg_104_0.isUnlockSecretary
 end
 
-function var_0_0.remove(arg_95_0)
+function var_0_0.remove(arg_105_0)
 	return
 end
 

@@ -203,67 +203,55 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			arg_7_0()
 		end,
 		function(arg_9_0)
-			if var_1_8:IsSupportSubmarineStage() and #var_1_8:getSupportFleet() > 0 then
-				local var_9_0 = getGameset("submarine_support_oil_consume")[1]
+			local var_9_0 = var_1_8:getConfig("enter_story")
+			local var_9_1 = var_1_8:getConfig("enter_story_limit")
 
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("submarine_support_oil_consume_tip", var_9_0),
-					onYes = arg_9_0
-				})
-			else
-				arg_9_0()
-			end
-		end,
-		function(arg_10_0)
-			local var_10_0 = var_1_8:getConfig("enter_story")
-			local var_10_1 = var_1_8:getConfig("enter_story_limit")
+			if var_9_0 and var_9_0 ~= "" and arg_1_0:isCrossStoryLimit(var_9_1) and not var_1_9:isRemaster() and not pg.NewStoryMgr.GetInstance():IsPlayed(var_9_0) then
+				local var_9_2 = tonumber(var_9_0)
 
-			if var_10_0 and var_10_0 ~= "" and arg_1_0:isCrossStoryLimit(var_10_1) and not var_1_9:isRemaster() and not pg.NewStoryMgr.GetInstance():IsPlayed(var_10_0) then
-				local var_10_2 = tonumber(var_10_0)
-
-				if var_10_2 and var_10_2 > 0 then
+				if var_9_2 and var_9_2 > 0 then
 					arg_1_0:sendNotification(GAME.BEGIN_STAGE, {
 						system = SYSTEM_PERFORM,
-						stageId = var_10_2,
-						exitCallback = arg_10_0
+						stageId = var_9_2,
+						exitCallback = arg_9_0
 					})
 
 					return
 				else
-					ChapterOpCommand.PlayChapterStory(var_10_0, arg_10_0, var_1_8:isLoop() and PlayerPrefs.GetInt("chapter_autofight_flag_" .. var_1_8.id, 1) == 1)
+					ChapterOpCommand.PlayChapterStory(var_9_0, arg_9_0, var_1_8:isLoop() and PlayerPrefs.GetInt("chapter_autofight_flag_" .. var_1_8.id, 1) == 1)
 
 					return
 				end
 			end
 
-			arg_10_0()
+			arg_9_0()
 		end,
-		function(arg_11_0)
+		function(arg_10_0)
 			if var_1_10 then
-				local var_11_0 = var_1_10:GetRestBattleTime()
-				local var_11_1 = {
+				local var_10_0 = var_1_10:GetRestBattleTime()
+				local var_10_1 = {
 					1,
 					1,
 					2
 				}
 
 				if var_1_9:isRemaster() then
-					table.insert(var_11_1, 1)
+					table.insert(var_10_1, 1)
 				end
 
-				if var_11_0 > _.reduce(var_11_1, -1, function(arg_12_0, arg_12_1)
-					return arg_12_0 + arg_12_1
+				if var_10_0 > _.reduce(var_10_1, -1, function(arg_11_0, arg_11_1)
+					return arg_11_0 + arg_11_1
 				end) then
 					arg_1_0:sendNotification(15300, {
 						type = 2,
-						ver_str = string.format("tracking Chapter %d by CO times %d", var_1_8.id, var_11_0)
+						ver_str = string.format("tracking Chapter %d by CO times %d", var_1_8.id, var_10_0)
 					})
 				end
 			end
 
-			arg_11_0()
+			arg_10_0()
 		end,
-		function(arg_13_0)
+		function(arg_12_0)
 			arg_1_0.chapterId = var_1_1
 			arg_1_0.fleetDatas = var_1_11
 			arg_1_0.loopFlag = var_1_4
@@ -276,140 +264,140 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	})
 end
 
-function var_0_0.sendProto(arg_14_0)
-	local var_14_0 = arg_14_0.chapterId
-	local var_14_1 = arg_14_0.fleetIds
-	local var_14_2 = arg_14_0.fleetDatas
-	local var_14_3 = arg_14_0.operationItem
-	local var_14_4 = arg_14_0.loopFlag
-	local var_14_5 = arg_14_0.dutiesKeyValue
-	local var_14_6 = arg_14_0.autoFightFlag
+function var_0_0.sendProto(arg_13_0)
+	local var_13_0 = arg_13_0.chapterId
+	local var_13_1 = arg_13_0.fleetIds
+	local var_13_2 = arg_13_0.fleetDatas
+	local var_13_3 = arg_13_0.operationItem
+	local var_13_4 = arg_13_0.loopFlag
+	local var_13_5 = arg_13_0.dutiesKeyValue
+	local var_13_6 = arg_13_0.autoFightFlag
 
 	pg.ConnectionMgr.GetInstance():Send(13101, {
-		id = var_14_0,
-		fleet = var_14_2,
-		operation_item = var_14_3,
-		loop_flag = var_14_4,
-		fleet_duties = var_14_5
-	}, 13102, function(arg_15_0)
-		if arg_15_0.result == 0 then
-			local var_15_0 = getProxy(ChapterProxy)
-			local var_15_1 = var_15_0:getChapterById(var_14_0)
-			local var_15_2 = var_15_0:getMapById(var_15_1:getConfig("map"))
-			local var_15_3 = getProxy(PlayerProxy)
-			local var_15_4 = var_15_3:getData()
+		id = var_13_0,
+		fleet = var_13_2,
+		operation_item = var_13_3,
+		loop_flag = var_13_4,
+		fleet_duties = var_13_5
+	}, 13102, function(arg_14_0)
+		if arg_14_0.result == 0 then
+			local var_14_0 = getProxy(ChapterProxy)
+			local var_14_1 = var_14_0:getChapterById(var_13_0)
+			local var_14_2 = var_14_0:getMapById(var_14_1:getConfig("map"))
+			local var_14_3 = getProxy(PlayerProxy)
+			local var_14_4 = var_14_3:getData()
 
-			var_15_1:update(arg_15_0.current_chapter)
+			var_14_1:update(arg_14_0.current_chapter)
 
-			local var_15_5 = var_15_1:getConfig("oil")
+			local var_14_5 = var_14_1:getConfig("oil")
 
-			if var_15_1:IsSupportSubmarineStage() and var_15_1:getChapterSupportFleet() then
-				var_15_5 = var_15_5 + getGameset("submarine_support_oil_consume")[1]
+			if var_14_1:IsSupportSubmarineStage() and var_14_1:getChapterSupportFleet() then
+				var_14_5 = var_14_5 + getGameset("submarine_support_oil_consume")[1]
 			end
 
-			var_15_4:consume({
-				oil = var_15_5 * var_15_1:GetExtraCostRate()
+			var_14_4:consume({
+				oil = var_14_5 * var_14_1:GetExtraCostRate()
 			})
-			var_15_3:updatePlayer(var_15_4)
+			var_14_3:updatePlayer(var_14_4)
 
-			if var_14_3 ~= 0 then
-				getProxy(BagProxy):removeItemById(var_14_3, 1)
+			if var_13_3 ~= 0 then
+				getProxy(BagProxy):removeItemById(var_13_3, 1)
 			end
 
-			for iter_15_0, iter_15_1 in pairs(var_15_1.cells) do
-				if ChapterConst.NeedMarkAsLurk(iter_15_1) then
-					iter_15_1.trait = ChapterConst.TraitLurk
+			for iter_14_0, iter_14_1 in pairs(var_14_1.cells) do
+				if ChapterConst.NeedMarkAsLurk(iter_14_1) then
+					iter_14_1.trait = ChapterConst.TraitLurk
 				end
 			end
 
-			for iter_15_2, iter_15_3 in ipairs(var_15_1.champions) do
-				iter_15_3.trait = ChapterConst.TraitLurk
+			for iter_14_2, iter_14_3 in ipairs(var_14_1.champions) do
+				iter_14_3.trait = ChapterConst.TraitLurk
 			end
 
-			var_15_0:updateChapter(var_15_1)
+			var_14_0:updateChapter(var_14_1)
 
-			if var_15_2:isEscort() then
-				var_15_0.escortChallengeTimes = var_15_0.escortChallengeTimes + 1
+			if var_14_2:isEscort() then
+				var_14_0.escortChallengeTimes = var_14_0.escortChallengeTimes + 1
 			end
 
-			if var_15_2:isRemaster() then
-				var_15_0.remasterTickets = var_15_0.remasterTickets - 1
+			if var_14_2:isRemaster() then
+				var_14_0.remasterTickets = var_14_0.remasterTickets - 1
 			end
 
-			local var_15_6 = var_15_0:GetContinuousData(SYSTEM_SCENARIO)
+			local var_14_6 = var_14_0:GetContinuousData(SYSTEM_SCENARIO)
 
-			if var_15_6 then
-				var_15_6:TryActivate()
+			if var_14_6 then
+				var_14_6:TryActivate()
 			end
 
-			arg_14_0:sendNotification(GAME.TRACKING_DONE, var_15_1)
-			getProxy(ChapterProxy):updateExtraFlag(var_15_1, var_15_1:getExtraFlags(), {}, true)
+			arg_13_0:sendNotification(GAME.TRACKING_DONE, var_14_1)
+			getProxy(ChapterProxy):updateExtraFlag(var_14_1, var_14_1:getExtraFlags(), {}, true)
 
-			if var_14_4 ~= 0 and var_14_6 then
-				getProxy(ChapterProxy):SetChapterAutoFlag(var_14_0, true)
+			if var_13_4 ~= 0 and var_13_6 then
+				getProxy(ChapterProxy):SetChapterAutoFlag(var_13_0, true)
 			end
 
 			return
 		end
 
-		if arg_15_0.result == 1 then
+		if arg_14_0.result == 1 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_tracking_error_retry"))
-			arg_14_0:sendNotification(GAME.CHAPTER_OP, {
+			arg_13_0:sendNotification(GAME.CHAPTER_OP, {
 				type = ChapterConst.OpRetreat
 			})
-		elseif arg_15_0.result == 3010 then
+		elseif arg_14_0.result == 3010 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_tracking_error_3001"))
 		else
-			pg.TipsMgr.GetInstance():ShowTips(errorTip("levelScene_tracking_erro", arg_15_0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("levelScene_tracking_erro", arg_14_0.result))
 		end
 
-		local var_15_7 = getProxy(ChapterProxy):getChapterById(var_14_0)
+		local var_14_7 = getProxy(ChapterProxy):getChapterById(var_13_0)
 
-		arg_14_0:sendNotification(GAME.TRACKING_ERROR, {
-			chapter = var_15_7
+		arg_13_0:sendNotification(GAME.TRACKING_ERROR, {
+			chapter = var_14_7
 		})
 	end)
 end
 
-function var_0_0.isCrossStoryLimit(arg_16_0, arg_16_1)
-	local var_16_0 = true
+function var_0_0.isCrossStoryLimit(arg_15_0, arg_15_1)
+	local var_15_0 = true
 
-	if arg_16_1 ~= "" and #arg_16_1 > 0 then
-		var_16_0 = _.all(arg_16_1, function(arg_17_0)
-			if arg_17_0[1] == 1 then
-				local var_17_0 = getProxy(TaskProxy):getTaskById(arg_17_0[2])
+	if arg_15_1 ~= "" and #arg_15_1 > 0 then
+		var_15_0 = _.all(arg_15_1, function(arg_16_0)
+			if arg_16_0[1] == 1 then
+				local var_16_0 = getProxy(TaskProxy):getTaskById(arg_16_0[2])
 
-				return var_17_0 and not var_17_0:isFinish()
+				return var_16_0 and not var_16_0:isFinish()
 			end
 
 			return false
 		end)
 	end
 
-	return var_16_0
+	return var_15_0
 end
 
-function var_0_0.CalculateSpItemMoreCostRate(arg_18_0)
-	local var_18_0 = 1
+function var_0_0.CalculateSpItemMoreCostRate(arg_17_0)
+	local var_17_0 = 1
 
-	if not arg_18_0 or arg_18_0 == 0 then
-		return var_18_0
+	if not arg_17_0 or arg_17_0 == 0 then
+		return var_17_0
 	end
 
-	local var_18_1 = Item.getConfigData(arg_18_0).usage_arg
-	local var_18_2 = _.map(string.split(string.sub(var_18_1, 2, -2), ","), function(arg_19_0)
-		return tonumber(arg_19_0)
+	local var_17_1 = Item.getConfigData(arg_17_0).usage_arg
+	local var_17_2 = _.map(string.split(string.sub(var_17_1, 2, -2), ","), function(arg_18_0)
+		return tonumber(arg_18_0)
 	end)
 
-	for iter_18_0, iter_18_1 in ipairs(var_18_2) do
-		local var_18_3 = pg.benefit_buff_template[iter_18_0]
+	for iter_17_0, iter_17_1 in ipairs(var_17_2) do
+		local var_17_3 = pg.benefit_buff_template[iter_17_0]
 
-		if var_18_3 and var_18_3.benefit_type == Chapter.OPERATION_BUFF_TYPE_COST then
-			var_18_0 = var_18_0 + tonumber(var_18_3.benefit_effect) * 0.01
+		if var_17_3 and var_17_3.benefit_type == Chapter.OPERATION_BUFF_TYPE_COST then
+			var_17_0 = var_17_0 + tonumber(var_17_3.benefit_effect) * 0.01
 		end
 	end
 
-	return (math.max(1, var_18_0))
+	return (math.max(1, var_17_0))
 end
 
 return var_0_0

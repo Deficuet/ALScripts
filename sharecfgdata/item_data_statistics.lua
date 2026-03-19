@@ -133791,6 +133791,94 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_data_statistics[81234] = {
+		open_directly = 1,
+		name = "换装礼盒(宴会礼服)",
+		display = "购买礼包可获得列表中未拥有的换装*1（拥有列表中的所有换装则转换为获得680钻石），物资*2000，石油*1000，心智单元*20",
+		type = 17,
+		display_effect = "",
+		id = 81234,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop_random_skin",
+		link_id = 0,
+		icon = "Props/fudai34",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				86226,
+				1
+			},
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			998330,
+			680,
+			{
+				307151,
+				302251,
+				299033,
+				131172,
+				102221,
+				102252,
+				103111,
+				105191,
+				107065,
+				107222,
+				108021,
+				202041,
+				202083,
+				202123,
+				301113,
+				301123,
+				302203,
+				302212,
+				307013,
+				307023,
+				307081,
+				403033,
+				405022,
+				605022,
+				905011,
+				199011,
+				105141,
+				202152,
+				205072,
+				199021
+			}
+		},
+		limit = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_data_statistics[81407] = {
 		open_directly = 1,
 		name = "冬日自选礼包1",

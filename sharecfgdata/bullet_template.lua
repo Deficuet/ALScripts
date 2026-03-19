@@ -761433,7 +761433,7 @@ end)()
 		hit_sfx = "battle/hit",
 		range_offset = 0,
 		modle_ID = "chuantoudan",
-		type = 5,
+		type = 1,
 		out_bound = 3,
 		antisub_enhancement = 0,
 		hit_fx = "CAHit",

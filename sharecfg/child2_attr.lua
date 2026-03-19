@@ -176,6 +176,182 @@ pg.child2_attr = {
 		item_icon = "attr_xingge",
 		rank = {}
 	},
+	[301] = {
+		default_value = 0,
+		name = "体能",
+		icon = "attr_tineng",
+		type = 1,
+		max_value = 99999999,
+		min_value = 0,
+		character = 2,
+		id = 301,
+		item_icon = "attr_tineng2",
+		rank = {
+			{
+				{
+					0,
+					599
+				},
+				"D"
+			},
+			{
+				{
+					600,
+					1199
+				},
+				"C"
+			},
+			{
+				{
+					1200,
+					2399
+				},
+				"B"
+			},
+			{
+				{
+					2400,
+					90000
+				},
+				"A"
+			}
+		}
+	},
+	[302] = {
+		default_value = 0,
+		name = "知识",
+		icon = "attr_zhishi",
+		type = 1,
+		max_value = 99999999,
+		min_value = 0,
+		character = 2,
+		id = 302,
+		item_icon = "attr_zhishi2",
+		rank = {
+			{
+				{
+					0,
+					599
+				},
+				"D"
+			},
+			{
+				{
+					600,
+					1199
+				},
+				"C"
+			},
+			{
+				{
+					1200,
+					2399
+				},
+				"B"
+			},
+			{
+				{
+					2400,
+					90000
+				},
+				"A"
+			}
+		}
+	},
+	[303] = {
+		default_value = 0,
+		name = "实践",
+		icon = "attr_shijian",
+		type = 1,
+		max_value = 99999999,
+		min_value = 0,
+		character = 2,
+		id = 303,
+		item_icon = "attr_shijian2",
+		rank = {
+			{
+				{
+					0,
+					599
+				},
+				"D"
+			},
+			{
+				{
+					600,
+					1199
+				},
+				"C"
+			},
+			{
+				{
+					1200,
+					2399
+				},
+				"B"
+			},
+			{
+				{
+					2400,
+					90000
+				},
+				"A"
+			}
+		}
+	},
+	[304] = {
+		default_value = 0,
+		name = "感知",
+		icon = "attr_ganzhi",
+		type = 1,
+		max_value = 99999999,
+		min_value = 0,
+		character = 2,
+		id = 304,
+		item_icon = "attr_ganzhi2",
+		rank = {
+			{
+				{
+					0,
+					599
+				},
+				"D"
+			},
+			{
+				{
+					600,
+					1199
+				},
+				"C"
+			},
+			{
+				{
+					1200,
+					2399
+				},
+				"B"
+			},
+			{
+				{
+					2400,
+					90000
+				},
+				"A"
+			}
+		}
+	},
+	[305] = {
+		default_value = 145,
+		name = "性格",
+		icon = "attr_xingge",
+		type = 2,
+		max_value = 300,
+		min_value = 0,
+		character = 2,
+		id = 305,
+		item_icon = "attr_xingge",
+		rank = {}
+	},
 	get_id_list_by_character = {
 		{
 			101,
@@ -183,6 +359,13 @@ pg.child2_attr = {
 			103,
 			104,
 			201
+		},
+		{
+			301,
+			302,
+			303,
+			304,
+			305
 		}
 	},
 	all = {
@@ -190,6 +373,11 @@ pg.child2_attr = {
 		102,
 		103,
 		104,
-		201
+		201,
+		301,
+		302,
+		303,
+		304,
+		305
 	}
 }

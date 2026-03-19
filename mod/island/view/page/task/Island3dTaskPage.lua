@@ -420,9 +420,12 @@ function var_0_0.FlushDetail(arg_35_0)
 		LoadImageSpriteAtlasAsync("ui/island3dtaskui_atlas", "title_bg_" .. var_35_1, arg_35_0.titleBg)
 		LoadImageSpriteAtlasAsync("ui/island3dtaskui_atlas", "title_icon_" .. var_35_1, arg_35_0.typeIcon)
 		setText(arg_35_0.nameTF, arg_35_0.showVO:GetName())
-		setActive(arg_35_0.timeTF, var_35_0 == IslandTaskType.SHOW_ACTIVITY)
 
-		if var_35_0 == IslandTaskType.SHOW_ACTIVITY then
+		local var_35_2 = var_35_0 == IslandTaskType.SHOW_ACTIVITY and arg_35_0.showVO.endTime ~= 0
+
+		setActive(arg_35_0.timeTF, var_35_2)
+
+		if var_35_2 then
 			setText(arg_35_0.timeTF:Find("Text"), arg_35_0.showVO:GetRemainTimeStr())
 		end
 
@@ -448,36 +451,36 @@ function var_0_0.FlushDetail(arg_35_0)
 
 		arg_35_0.showTargets = arg_35_0.showVO:GetTargetList()
 
-		local var_35_2 = not arg_35_0.showVO:IsSubmitImmediately() and arg_35_0.showVO:IsFinish()
+		local var_35_3 = not arg_35_0.showVO:IsSubmitImmediately() and arg_35_0.showVO:IsFinish()
 
 		arg_35_0.targetUIList:align(#arg_35_0.showTargets)
-		setActive(arg_35_0.finishedTargetTF, var_35_2)
+		setActive(arg_35_0.finishedTargetTF, var_35_3)
 
-		if var_35_2 then
+		if var_35_3 then
 			setText(arg_35_0.finishedTargetTextTF, arg_35_0.showVO:GetFinishedDesc())
 			arg_35_0:UpdateLocation(arg_35_0.finishedTargetLocTF, arg_35_0.showVO)
 		end
 
-		arg_35_0.targetBtnUIList:align(#arg_35_0.showTargets + (var_35_2 and 1 or 0))
+		arg_35_0.targetBtnUIList:align(#arg_35_0.showTargets + (var_35_3 and 1 or 0))
 
 		arg_35_0.showAwards = arg_35_0.showVO:GetAwards()
 
 		arg_35_0.awardUIList:align(#arg_35_0.showAwards)
 
-		local var_35_3 = arg_35_0.showVO:GetType() == IslandTaskType.MAIN
-		local var_35_4 = var_35_3 and IslandTaskTrackCard.TYPES.MAIN or IslandTaskTrackCard.TYPES.OTHER
+		local var_35_4 = arg_35_0.showVO:GetType() == IslandTaskType.MAIN
+		local var_35_5 = var_35_4 and IslandTaskTrackCard.TYPES.MAIN or IslandTaskTrackCard.TYPES.OTHER
 
-		setActive(arg_35_0.traceBtn, not var_35_3 and arg_35_0.showVO.id ~= arg_35_0.trackTaskId)
+		setActive(arg_35_0.traceBtn, not var_35_4 and arg_35_0.showVO.id ~= arg_35_0.trackTaskId)
 		onButton(arg_35_0, arg_35_0.traceBtn, function()
-			arg_35_0:emit(IslandMediator.ON_SET_TRACE_ID, arg_35_0.showVO.id, var_35_4)
+			arg_35_0:emit(IslandMediator.ON_SET_TRACE_ID, arg_35_0.showVO.id, var_35_5)
 		end, SFX_PANEL)
-		setActive(arg_35_0.tracedBtn, var_35_3 or arg_35_0.showVO.id == arg_35_0.trackTaskId)
+		setActive(arg_35_0.tracedBtn, var_35_4 or arg_35_0.showVO.id == arg_35_0.trackTaskId)
 		onButton(arg_35_0, arg_35_0.tracedBtn, function()
-			if var_35_3 then
+			if var_35_4 then
 				return
 			end
 
-			arg_35_0:emit(IslandMediator.ON_SET_TRACE_ID, 0, var_35_4)
+			arg_35_0:emit(IslandMediator.ON_SET_TRACE_ID, 0, var_35_5)
 		end, SFX_PANEL)
 	end
 end

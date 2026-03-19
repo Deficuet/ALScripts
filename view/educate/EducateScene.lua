@@ -75,7 +75,9 @@ function var_0_0.findUI(arg_7_0)
 
 	setText(arg_7_0.bagBtn:Find("unlock/Text"), i18n("child_btn_bag"))
 
-	arg_7_0.datePanel = EducateDatePanel.New(arg_7_0.topTF:Find("date"), arg_7_0.event)
+	arg_7_0.datePanel = EducateDatePanel.New(arg_7_0.topTF:Find("date"), arg_7_0.event, {
+		isMain = true
+	})
 
 	arg_7_0.datePanel:RegisterView(arg_7_0)
 
@@ -231,9 +233,9 @@ function var_0_0.SeriesCheck(arg_20_0)
 	end)
 end
 
-function var_0_0.OnCheckGuide(arg_27_0)
+function var_0_0.OnCheckGuide(arg_27_0, arg_27_1)
 	EducateGuideSequence.CheckGuide(arg_27_0.__cname, function()
-		return
+		existCall(arg_27_1)
 	end)
 end
 
@@ -545,7 +547,9 @@ function var_0_0.FlushView(arg_73_0)
 end
 
 function var_0_0.onBackPressed(arg_74_0)
-	arg_74_0:emit(var_0_0.EDUCATE_GO_SCENE, SCENE.NEW_EDUCATE_SELECT)
+	arg_74_0:emit(var_0_0.EDUCATE_GO_SCENE, SCENE.NEW_EDUCATE_SELECT, {
+		isTb1 = true
+	})
 end
 
 function var_0_0.willExit(arg_75_0)

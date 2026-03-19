@@ -24,4 +24,8 @@ function var_0_0.Clear(arg_5_0)
 	assert(nil, "Clear方法必须由子类实现")
 end
 
+function var_0_0.Dispose(arg_6_0)
+	return
+end
+
 return var_0_0

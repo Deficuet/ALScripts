@@ -1,0 +1,197 @@
+local var_0_0 = class("NewEducateDropHelper")
+
+function var_0_0.HandleDrops(arg_1_0)
+	local var_1_0 = {}
+
+	for iter_1_0, iter_1_1 in ipairs(arg_1_0.base_drop or {}) do
+		local var_1_1 = {
+			type = iter_1_1.type,
+			id = iter_1_1.id,
+			number = iter_1_1.number
+		}
+
+		table.insert(var_1_0, var_1_1)
+	end
+
+	for iter_1_2, iter_1_3 in ipairs(arg_1_0.benefit_drop or {}) do
+		local var_1_2 = {
+			isBenefit = true,
+			type = iter_1_3.type,
+			id = iter_1_3.id,
+			number = iter_1_3.number
+		}
+
+		table.insert(var_1_0, var_1_2)
+	end
+
+	local var_1_3 = {}
+
+	for iter_1_4, iter_1_5 in ipairs(var_1_0) do
+		switch(iter_1_5.type, {
+			[NewEducateConst.DROP_TYPE.ATTR] = function()
+				local var_2_0 = var_0_0.AddAttrDrop(iter_1_5)
+
+				if var_2_0 then
+					table.insert(var_1_3, var_2_0)
+				end
+			end,
+			[NewEducateConst.DROP_TYPE.RES] = function()
+				local var_3_0 = var_0_0.AddResDrop(iter_1_5)
+
+				if var_3_0 then
+					table.insert(var_1_3, var_3_0)
+				end
+			end,
+			[NewEducateConst.DROP_TYPE.POLAROID] = function()
+				local var_4_0 = var_0_0.AddPolaroidDrop(iter_1_5)
+
+				if var_4_0 then
+					table.insert(var_1_3, var_4_0)
+				end
+			end,
+			[NewEducateConst.DROP_TYPE.BUFF] = function()
+				local var_5_0 = var_0_0.AddBuffDrop(iter_1_5)
+
+				if var_5_0 then
+					table.insert(var_1_3, var_5_0)
+				end
+			end,
+			[NewEducateConst.DROP_TYPE.TAROT] = function()
+				local var_6_0 = var_0_0.AddTarotDrop(iter_1_5)
+
+				if var_6_0 then
+					table.insert(var_1_3, var_6_0)
+				end
+			end,
+			[NewEducateConst.DROP_TYPE.CHOOSE] = function()
+				var_0_0.AddChooseState(iter_1_5)
+			end,
+			[NewEducateConst.DROP_TYPE.UP_ENTRY] = function()
+				var_0_0.AddUpEntryState(iter_1_5)
+			end,
+			[NewEducateConst.DROP_TYPE.TEMP_ROUND] = function()
+				var_0_0.AddTempRound(iter_1_5)
+			end
+		})
+	end
+
+	var_0_0.UpdateBenefitDisplay(arg_1_0.display)
+
+	return var_1_3
+end
+
+function var_0_0.AddAttrDrop(arg_10_0)
+	getProxy(NewEducateProxy):UpdateAttr(arg_10_0.id, arg_10_0.number)
+
+	return pg.child2_attr[arg_10_0.id].type == NewEducateChar.ATTR_TYPE.ATTR and arg_10_0 or nil
+end
+
+function var_0_0.AddResDrop(arg_11_0)
+	local var_11_0 = getProxy(NewEducateProxy)
+	local var_11_1 = var_11_0:GetCurChar():GetRes(arg_11_0.id) + arg_11_0.number
+	local var_11_2 = math.max(0, var_11_1 - pg.child2_resource[arg_11_0.id].max_value)
+
+	var_11_0:UpdateRes(arg_11_0.id, arg_11_0.number)
+
+	local var_11_3 = {}
+
+	if var_11_2 then
+		var_11_3 = setmetatable({
+			overflow = var_11_2
+		}, {
+			__index = arg_11_0
+		})
+	else
+		var_11_3 = arg_11_0
+	end
+
+	return var_11_3
+end
+
+function var_0_0.AddPolaroidDrop(arg_12_0)
+	getProxy(NewEducateProxy):AddPolaroid(arg_12_0.id, arg_12_0.number)
+
+	return arg_12_0
+end
+
+function var_0_0.AddBuffDrop(arg_13_0)
+	if var_0_0.CheckReplaceTarot(arg_13_0) then
+		var_0_0.AddReplaceTarotState(arg_13_0)
+
+		return nil
+	else
+		getProxy(NewEducateProxy):AddBuff(arg_13_0.id, arg_13_0.number)
+
+		return arg_13_0.number > 0 and pg.child2_benefit_list[arg_13_0.id].is_show == 1 and arg_13_0 or nil
+	end
+end
+
+function var_0_0.AddTarotDrop(arg_14_0)
+	getProxy(NewEducateProxy):AddBuff(arg_14_0.id, arg_14_0.number)
+
+	return arg_14_0.number > 0 and pg.child2_benefit_list[arg_14_0.id].is_show == 1 and arg_14_0 or nil
+end
+
+function var_0_0.AddTempRound(arg_15_0)
+	getProxy(NewEducateProxy):AddTempRound(arg_15_0.number)
+end
+
+function var_0_0.CheckReplaceTarot(arg_16_0)
+	if arg_16_0.number <= 0 then
+		return false
+	end
+
+	return pg.child2_benefit_list[arg_16_0.id].type == NewEducateBuff.TYPE.TAROT and getProxy(NewEducateProxy):GetCurChar():GetTarotId()
+end
+
+function var_0_0.AddReplaceTarotState(arg_17_0)
+	if arg_17_0.number <= 0 then
+		return
+	end
+
+	local var_17_0 = getProxy(NewEducateProxy):GetCurChar():GetFSM()
+
+	for iter_17_0 = 1, arg_17_0.number do
+		var_17_0:AddReplaceTarotState(arg_17_0.id)
+	end
+
+	pg.m02:sendNotification(GAME.NEW_EDUCATE_CHECK_PRIORITY_FSM)
+end
+
+function var_0_0.AddChooseState(arg_18_0)
+	if arg_18_0.number <= 0 then
+		return
+	end
+
+	local var_18_0 = getProxy(NewEducateProxy):GetCurChar():GetFSM()
+
+	for iter_18_0 = 1, arg_18_0.number do
+		var_18_0:AddChooseState(arg_18_0.id)
+	end
+
+	pg.m02:sendNotification(GAME.NEW_EDUCATE_CHECK_PRIORITY_FSM)
+end
+
+function var_0_0.AddUpEntryState(arg_19_0)
+	if arg_19_0.number <= 0 then
+		return
+	end
+
+	local var_19_0 = getProxy(NewEducateProxy):GetCurChar():GetFSM()
+
+	for iter_19_0 = 1, arg_19_0.number do
+		var_19_0:AddChooseUpEntryState()
+	end
+
+	pg.m02:sendNotification(GAME.NEW_EDUCATE_CHECK_PRIORITY_FSM)
+end
+
+function var_0_0.UpdateBenefitDisplay(arg_20_0)
+	local var_20_0 = getProxy(NewEducateProxy):GetCurChar():GetBenefitData()
+
+	var_20_0:UpdateDisplayPct(arg_20_0.benefit_display)
+	var_20_0:UpdateDisplayNum(arg_20_0.dollar_num_display)
+	var_20_0:UpdateDisplayCounter(arg_20_0.counter)
+end
+
+return var_0_0

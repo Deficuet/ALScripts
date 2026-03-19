@@ -22,6 +22,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	end
 
 	arg_1_0.selectedShip = arg_1_2.character_this_round or {}
+	arg_1_0.refreshShopCnt = arg_1_2.refresh_count or 0
 end
 
 function var_0_0.SetSiteState(arg_2_0, arg_2_1)
@@ -41,6 +42,8 @@ function var_0_0.SetSiteState(arg_2_0, arg_2_1)
 		arg_2_0.curSiteId = var_2_1:GetSiteId(var_2_3)
 	elseif arg_2_1.key == NewEducateConst.SITE_STATE_TYPE.SHIP then
 		arg_2_0.curSiteId = var_2_1:GetSiteId(NewEducateConst.SITE_TYPE.SHIP, arg_2_1.value)
+	elseif arg_2_1.key == NewEducateConst.SITE_STATE_TYPE.SHOP then
+		arg_2_0.curSiteId = var_2_1:GetSiteId(NewEducateConst.SITE_TYPE.SHOP)
 	end
 end
 
@@ -86,16 +89,31 @@ function var_0_0.IsSpecial(arg_10_0)
 	end)
 end
 
-function var_0_0.IsFinish(arg_12_0)
+function var_0_0.GetRefreshShopCnt(arg_12_0)
+	return arg_12_0.refreshShopCnt
+end
+
+function var_0_0.OnRefreshShopDone(arg_13_0, arg_13_1, arg_13_2)
+	if arg_13_2 then
+		arg_13_0.refreshShopCnt = arg_13_0.refreshShopCnt + 1
+	end
+
+	arg_13_0.goods = {}
+
+	for iter_13_0, iter_13_1 in ipairs(arg_13_1) do
+		arg_13_0.goods[iter_13_1] = NewEducateGoods.New(iter_13_1)
+	end
+end
+
+function var_0_0.IsFinish(arg_14_0)
 	return true
 end
 
-function var_0_0.Reset(arg_13_0)
-	arg_13_0.events = {}
-	arg_13_0.ships = {}
-	arg_13_0.goods = {}
-	arg_13_0.buyGoods = {}
-	arg_13_0.selectedShip = {}
+function var_0_0.Reset(arg_15_0)
+	arg_15_0.events = {}
+	arg_15_0.goods = {}
+	arg_15_0.selectedShip = {}
+	arg_15_0.refreshShopCnt = 0
 end
 
 return var_0_0

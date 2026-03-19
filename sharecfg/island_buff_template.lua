@@ -4157,6 +4157,606 @@ pg.island_buff_template = {
 		},
 		buff_duel = {}
 	},
+	[10200] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "采集技艺",
+		buff_type = 102,
+		buff_level = 1,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10200,
+		buff_group = 1020,
+		type_use = {
+			{
+				401,
+				402
+			},
+			3
+		},
+		type_duel = {
+			1020
+		},
+		buff_duel = {}
+	},
+	[10201] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "采集技艺",
+		buff_type = 102,
+		buff_level = 2,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10201,
+		buff_group = 1020,
+		type_use = {
+			{
+				401,
+				402
+			},
+			3.5
+		},
+		type_duel = {
+			1020
+		},
+		buff_duel = {}
+	},
+	[10202] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "采集技艺",
+		buff_type = 102,
+		buff_level = 3,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10202,
+		buff_group = 1020,
+		type_use = {
+			{
+				401,
+				402
+			},
+			4
+		},
+		type_duel = {
+			1020
+		},
+		buff_duel = {}
+	},
+	[10203] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "采集技艺",
+		buff_type = 102,
+		buff_level = 4,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10203,
+		buff_group = 1020,
+		type_use = {
+			{
+				401,
+				402
+			},
+			4.5
+		},
+		type_duel = {
+			1020
+		},
+		buff_duel = {}
+	},
+	[10204] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "采集技艺",
+		buff_type = 102,
+		buff_level = 5,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10204,
+		buff_group = 1020,
+		type_use = {
+			{
+				401,
+				402
+			},
+			5
+		},
+		type_duel = {
+			1020
+		},
+		buff_duel = {}
+	},
+	[10205] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "采集技艺",
+		buff_type = 102,
+		buff_level = 6,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10205,
+		buff_group = 1020,
+		type_use = {
+			{
+				401,
+				402
+			},
+			5.5
+		},
+		type_duel = {
+			1020
+		},
+		buff_duel = {}
+	},
+	[10206] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "采集技艺",
+		buff_type = 102,
+		buff_level = 7,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10206,
+		buff_group = 1020,
+		type_use = {
+			{
+				401,
+				402
+			},
+			6
+		},
+		type_duel = {
+			1020
+		},
+		buff_duel = {}
+	},
+	[10207] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "采集技艺",
+		buff_type = 102,
+		buff_level = 8,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10207,
+		buff_group = 1020,
+		type_use = {
+			{
+				401,
+				402
+			},
+			6.5
+		},
+		type_duel = {
+			1020
+		},
+		buff_duel = {}
+	},
+	[10208] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "采集技艺",
+		buff_type = 102,
+		buff_level = 9,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10208,
+		buff_group = 1020,
+		type_use = {
+			{
+				401,
+				402
+			},
+			7
+		},
+		type_duel = {
+			1020
+		},
+		buff_duel = {}
+	},
+	[10209] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "采集技艺",
+		buff_type = 102,
+		buff_level = 10,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10209,
+		buff_group = 1020,
+		type_use = {
+			{
+				401,
+				402
+			},
+			8
+		},
+		type_duel = {
+			1020
+		},
+		buff_duel = {}
+	},
+	[10210] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "加速回复",
+		buff_type = 2,
+		buff_level = 1,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10210,
+		buff_group = 1021,
+		type_use = {
+			2
+		},
+		type_duel = {
+			1021
+		},
+		buff_duel = {}
+	},
+	[10211] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "加速回复",
+		buff_type = 2,
+		buff_level = 2,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10211,
+		buff_group = 1021,
+		type_use = {
+			2.2
+		},
+		type_duel = {
+			1021
+		},
+		buff_duel = {}
+	},
+	[10212] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "加速回复",
+		buff_type = 2,
+		buff_level = 3,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10212,
+		buff_group = 1021,
+		type_use = {
+			2.5
+		},
+		type_duel = {
+			1021
+		},
+		buff_duel = {}
+	},
+	[10213] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "加速回复",
+		buff_type = 2,
+		buff_level = 4,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10213,
+		buff_group = 1021,
+		type_use = {
+			2.7
+		},
+		type_duel = {
+			1021
+		},
+		buff_duel = {}
+	},
+	[10214] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "加速回复",
+		buff_type = 2,
+		buff_level = 5,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10214,
+		buff_group = 1021,
+		type_use = {
+			3
+		},
+		type_duel = {
+			1021
+		},
+		buff_duel = {}
+	},
+	[10215] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "加速回复",
+		buff_type = 2,
+		buff_level = 6,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10215,
+		buff_group = 1021,
+		type_use = {
+			3.2
+		},
+		type_duel = {
+			1021
+		},
+		buff_duel = {}
+	},
+	[10216] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "加速回复",
+		buff_type = 2,
+		buff_level = 7,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10216,
+		buff_group = 1021,
+		type_use = {
+			3.5
+		},
+		type_duel = {
+			1021
+		},
+		buff_duel = {}
+	},
+	[10217] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "加速回复",
+		buff_type = 2,
+		buff_level = 8,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10217,
+		buff_group = 1021,
+		type_use = {
+			4
+		},
+		type_duel = {
+			1021
+		},
+		buff_duel = {}
+	},
+	[10218] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "加速回复",
+		buff_type = 2,
+		buff_level = 9,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10218,
+		buff_group = 1021,
+		type_use = {
+			4.5
+		},
+		type_duel = {
+			1021
+		},
+		buff_duel = {}
+	},
+	[10219] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "加速回复",
+		buff_type = 2,
+		buff_level = 10,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10219,
+		buff_group = 1021,
+		type_use = {
+			5
+		},
+		type_duel = {
+			1021
+		},
+		buff_duel = {}
+	},
+	[10220] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "农作技艺",
+		buff_type = 102,
+		buff_level = 1,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10220,
+		buff_group = 1022,
+		type_use = {
+			{
+				101,
+				501,
+				502
+			},
+			3
+		},
+		type_duel = {
+			1022
+		},
+		buff_duel = {}
+	},
+	[10221] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "农作技艺",
+		buff_type = 102,
+		buff_level = 2,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10221,
+		buff_group = 1022,
+		type_use = {
+			{
+				101,
+				501,
+				502
+			},
+			3.2
+		},
+		type_duel = {
+			1022
+		},
+		buff_duel = {}
+	},
+	[10222] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "农作技艺",
+		buff_type = 102,
+		buff_level = 3,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10222,
+		buff_group = 1022,
+		type_use = {
+			{
+				101,
+				501,
+				502
+			},
+			3.5
+		},
+		type_duel = {
+			1022
+		},
+		buff_duel = {}
+	},
+	[10223] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "农作技艺",
+		buff_type = 102,
+		buff_level = 4,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10223,
+		buff_group = 1022,
+		type_use = {
+			{
+				101,
+				501,
+				502
+			},
+			3.7
+		},
+		type_duel = {
+			1022
+		},
+		buff_duel = {}
+	},
+	[10224] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "农作技艺",
+		buff_type = 102,
+		buff_level = 5,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10224,
+		buff_group = 1022,
+		type_use = {
+			{
+				101,
+				501,
+				502
+			},
+			4
+		},
+		type_duel = {
+			1022
+		},
+		buff_duel = {}
+	},
+	[10225] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "农作技艺",
+		buff_type = 102,
+		buff_level = 6,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10225,
+		buff_group = 1022,
+		type_use = {
+			{
+				101,
+				501,
+				502
+			},
+			4.2
+		},
+		type_duel = {
+			1022
+		},
+		buff_duel = {}
+	},
+	[10226] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "农作技艺",
+		buff_type = 102,
+		buff_level = 7,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10226,
+		buff_group = 1022,
+		type_use = {
+			{
+				101,
+				501,
+				502
+			},
+			4.5
+		},
+		type_duel = {
+			1022
+		},
+		buff_duel = {}
+	},
+	[10227] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "农作技艺",
+		buff_type = 102,
+		buff_level = 8,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10227,
+		buff_group = 1022,
+		type_use = {
+			{
+				101,
+				501,
+				502
+			},
+			5
+		},
+		type_duel = {
+			1022
+		},
+		buff_duel = {}
+	},
+	[10228] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "农作技艺",
+		buff_type = 102,
+		buff_level = 9,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10228,
+		buff_group = 1022,
+		type_use = {
+			{
+				101,
+				501,
+				502
+			},
+			5.5
+		},
+		type_duel = {
+			1022
+		},
+		buff_duel = {}
+	},
+	[10229] = {
+		buff_desc = "无需本地化，角色技能读skill表",
+		name = "农作技艺",
+		buff_type = 102,
+		buff_level = 10,
+		buff_color = 0,
+		buff_time = 0,
+		id = 10229,
+		buff_group = 1022,
+		type_use = {
+			{
+				101,
+				501,
+				502
+			},
+			6
+		},
+		type_duel = {
+			1022
+		},
+		buff_duel = {}
+	},
 	[100001] = {
 		buff_desc = "无需本地化，角色技能读skill表",
 		name = "饮品销售",
@@ -4431,6 +5031,36 @@ pg.island_buff_template = {
 		10197,
 		10198,
 		10199,
+		10200,
+		10201,
+		10202,
+		10203,
+		10204,
+		10205,
+		10206,
+		10207,
+		10208,
+		10209,
+		10210,
+		10211,
+		10212,
+		10213,
+		10214,
+		10215,
+		10216,
+		10217,
+		10218,
+		10219,
+		10220,
+		10221,
+		10222,
+		10223,
+		10224,
+		10225,
+		10226,
+		10227,
+		10228,
+		10229,
 		100001,
 		100002,
 		100003,

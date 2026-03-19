@@ -8,6 +8,7 @@ function var_0_0.register(arg_1_0)
 		arg_1_0:sendNotification(GAME.EDUCATE_GET_PLANS, {
 			plans = EducatePlanProxy.GridData2ProtData(arg_2_1.gridData),
 			isSkip = arg_2_1.isSkip,
+			isSkipEvent = arg_2_1.isSkipEvent,
 			callback = function()
 				return
 			end

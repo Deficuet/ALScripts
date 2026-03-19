@@ -28,7 +28,6 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	warning("onloaded")
 	eachChild(arg_2_0._tf, function(arg_3_0)
 		setActive(arg_3_0, false)
 	end)
@@ -45,6 +44,7 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.dropHandler = NewEducateDropHandler.New(arg_2_0._tf:Find("drop"))
 	arg_2_0.siteHandler = NewEducateSiteHandler.New(arg_2_0._tf:Find("site"))
 	arg_2_0.optionsHandler = NewEducateOptionsHandler.New(arg_2_0._tf:Find("options"))
+	arg_2_0.minigameHandler = NewEducateMinigameHandler.New(arg_2_0._tf:Find("minigame"), arg_2_0.contextData.view)
 	arg_2_0.scheduleTF = arg_2_0._tf:Find("scheduleBg")
 
 	setText(arg_2_0.scheduleTF:Find("root/window/left/title/Text"), i18n("child_plan_perform_title"))
@@ -115,15 +115,14 @@ function var_0_0.StopLoopCpk(arg_9_0)
 end
 
 function var_0_0.StartNode(arg_10_0, arg_10_1)
-	warning("startnode")
 	arg_10_0:Show()
 
-	arg_10_0.stystemNo = arg_10_0.contextData.char:GetFSM():GetStystemNo()
+	arg_10_0.stystemNo = arg_10_0.contextData.char:GetFSM():GetSystemNo()
 
-	setActive(arg_10_0.scheduleTF, arg_10_0.stystemNo == NewEducateFSM.STYSTEM.PLAN)
+	setActive(arg_10_0.scheduleTF, arg_10_0.stystemNo == NewEducateFSM.SYSTEM.PLAN)
 
-	if arg_10_0.stystemNo == NewEducateFSM.STYSTEM.MAP then
-		local var_10_0 = arg_10_0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.MAP):GetCurSiteId()
+	if arg_10_0.stystemNo == NewEducateFSM.SYSTEM.MAP then
+		local var_10_0 = arg_10_0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.MAP):GetCurSiteId()
 
 		arg_10_0.siteHandler:SetSite(var_10_0)
 
@@ -149,14 +148,15 @@ end
 function var_0_0.OnNodeChainEnd(arg_11_0)
 	setActive(arg_11_0.loopCpkTF, false)
 
-	if arg_11_0.stystemNo == NewEducateFSM.STYSTEM.MAP then
+	if arg_11_0.stystemNo == NewEducateFSM.SYSTEM.MAP then
 		arg_11_0.cpkHandler:Reset()
 		arg_11_0.pictureHandler:Reset()
 		arg_11_0.wordHandler:Reset()
 		arg_11_0.dropHandler:Reset()
+		arg_11_0.minigameHandler:Reset()
 		arg_11_0.siteHandler:OnEventEnd()
-	elseif arg_11_0.stystemNo == NewEducateFSM.STYSTEM.PLAN then
-		if arg_11_0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.PLAN):IsFinish() then
+	elseif arg_11_0.stystemNo == NewEducateFSM.SYSTEM.PLAN then
+		if arg_11_0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.PLAN):IsFinish() then
 			arg_11_0:Hide()
 		end
 	else
@@ -205,8 +205,8 @@ function var_0_0.InitCallback(arg_12_0, arg_12_1)
 end
 
 function var_0_0.CheckSchedule(arg_22_0)
-	if arg_22_0.stystemNo == NewEducateFSM.STYSTEM.PLAN then
-		local var_22_0 = arg_22_0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.PLAN)
+	if arg_22_0.stystemNo == NewEducateFSM.SYSTEM.PLAN then
+		local var_22_0 = arg_22_0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.PLAN)
 
 		arg_22_0.unlockPlanNum = arg_22_0.contextData.char:GetRoundData():getConfig("plan_num")
 		arg_22_0.plans = var_22_0:GetPlans()
@@ -225,8 +225,8 @@ function var_0_0.CheckLastDrops(arg_23_0, arg_23_1, arg_23_2)
 
 		switch(var_23_1, {
 			[var_0_0.DROP_TYPE.WORD_PERFORMANCE] = function()
-				if arg_23_0.stystemNo == NewEducateFSM.STYSTEM.PLAN then
-					arg_23_0.contextData.char:GetFSM():GetState(NewEducateFSM.STYSTEM.PLAN):AddDrops(arg_23_1)
+				if arg_23_0.stystemNo == NewEducateFSM.SYSTEM.PLAN then
+					arg_23_0.contextData.char:GetFSM():GetState(NewEducateFSM.SYSTEM.PLAN):AddDrops(arg_23_1)
 				end
 
 				arg_23_0.wordHandler:Play(var_23_0.performance_param[1], arg_23_2, arg_23_1, false)
@@ -293,10 +293,14 @@ function var_0_0.CheckLastDrops(arg_23_0, arg_23_1, arg_23_2)
 				})
 			end
 		}, function()
-			assert(false, "node表非法drop_type_client: " .. var_23_1 .. ",node:" .. arg_23_0.curNodeId)
+			warning("node表非法drop_type_client: " .. var_23_1 .. ",node:" .. arg_23_0.curNodeId)
+			arg_23_0:emit(NewEducateBaseUI.ON_DROP, {
+				items = arg_23_1,
+				removeFunc = arg_23_2
+			})
 		end)
 
-		if arg_23_0.stystemNo == NewEducateFSM.STYSTEM.MAP and var_23_1 == var_0_0.DROP_TYPE.WORD_PERFORMANCE then
+		if arg_23_0.stystemNo == NewEducateFSM.SYSTEM.MAP and var_23_1 == var_0_0.DROP_TYPE.WORD_PERFORMANCE then
 			arg_23_0.siteHandler:AddDropRecords(arg_23_1)
 		end
 	end
@@ -326,8 +330,8 @@ function var_0_0._ProceedNode(arg_39_0, arg_39_1, arg_39_2, arg_39_3)
 
 	local var_39_0 = pg.child2_node[arg_39_1]
 
-	arg_39_0:InitCallback(var_39_0.next_type)
 	originalPrint("ProceedNode", arg_39_1)
+	arg_39_0:InitCallback(var_39_0.next_type)
 	switch(var_39_0.type, {
 		[var_0_0.NODE_TYPE.PERFORMANCE] = function()
 			arg_39_0:PlayPerformances(var_39_0.performance_type, var_39_0.performance_param, arg_39_0.callback)
@@ -389,13 +393,13 @@ function var_0_0.PlayPerformances(arg_51_0, arg_51_1, arg_51_2, arg_51_3)
 			local var_52_0 = arg_51_0.contextData.char:GetRoundData():getConfig("stage")
 			local var_52_1 = ""
 
-			if arg_51_0.stystemNo == NewEducateFSM.STYSTEM.PLAN then
+			if arg_51_0.stystemNo == NewEducateFSM.SYSTEM.PLAN then
 				local var_52_2 = arg_51_0.plans[arg_51_0.curPlanIdx]
 
 				var_52_1 = pg.child2_plan[var_52_2].name
 			end
 
-			arg_51_0.cpkHandler:SetUIParam(arg_51_0.stystemNo == NewEducateFSM.STYSTEM.PLAN)
+			arg_51_0.cpkHandler:SetUIParam(arg_51_0.stystemNo == NewEducateFSM.SYSTEM.PLAN)
 			arg_51_0.cpkHandler:Play(arg_51_2[var_52_0], arg_51_3, var_52_1)
 		end,
 		[NewEducateConst.PERFORM_TYPE.PICTURE] = function()
@@ -411,82 +415,81 @@ function var_0_0.PlayPerformances(arg_51_0, arg_51_1, arg_51_2, arg_51_3)
 			NewEducateHelper.PlaySpecialStory(arg_51_2, function(arg_56_0, arg_56_1)
 				arg_51_3(arg_56_1)
 			end, true)
+		end,
+		[NewEducateConst.PERFORM_TYPE.MINIGAME] = function()
+			arg_51_0.minigameHandler:Play(tonumber(arg_51_2), function(arg_58_0)
+				arg_51_3(arg_58_0)
+				arg_51_0.minigameHandler:Reset()
+			end)
 		end
 	}, function()
 		assert(false, "node表非法performance_type: " .. arg_51_1)
 	end)
 end
 
-function var_0_0.PlayStoryBranch(arg_58_0, arg_58_1, arg_58_2)
-	NewEducateHelper.PlaySpecialStory(arg_58_1, function(arg_59_0, arg_59_1)
-		arg_58_2(arg_59_1)
+function var_0_0.PlayStoryBranch(arg_60_0, arg_60_1, arg_60_2)
+	NewEducateHelper.PlaySpecialStory(arg_60_1, function(arg_61_0, arg_61_1)
+		arg_60_2(arg_61_1)
 	end, true)
 end
 
-function var_0_0.PlayWordIds(arg_60_0, arg_60_1, arg_60_2)
-	arg_60_0:Show()
-	arg_60_0.wordHandler:PlayWordIds(arg_60_1, function()
-		arg_60_0.wordHandler:Reset()
-		arg_60_0.super.Hide(arg_60_0)
-		existCall(arg_60_2)
+function var_0_0.PlayWordIds(arg_62_0, arg_62_1, arg_62_2)
+	arg_62_0:Show()
+	arg_62_0.wordHandler:PlayWordIds(arg_62_1, function()
+		arg_62_0.wordHandler:Reset()
+		arg_62_0.super.Hide(arg_62_0)
+		existCall(arg_62_2)
 	end)
 end
 
-function var_0_0.UpdateCallName(arg_62_0)
-	arg_62_0.wordHandler:UpdateCallName()
-	arg_62_0.siteHandler:UpdateCallName()
-	arg_62_0.optionsHandler:UpdateCallName()
+function var_0_0.UpdateCallName(arg_64_0)
+	arg_64_0.wordHandler:UpdateCallName()
+	arg_64_0.siteHandler:UpdateCallName()
+	arg_64_0.optionsHandler:UpdateCallName()
 end
 
-function var_0_0.Hide(arg_63_0)
-	existCall(arg_63_0.contextData.onHide)
-	arg_63_0:StopLoopCpk()
-	arg_63_0.cpkHandler:Reset()
-	arg_63_0.pictureHandler:Reset()
-	arg_63_0.wordHandler:Reset()
-	arg_63_0.dropHandler:Reset()
-	arg_63_0.siteHandler:Reset()
-	arg_63_0.optionsHandler:Reset()
-	arg_63_0.super.Hide(arg_63_0)
+function var_0_0.Hide(arg_65_0)
+	existCall(arg_65_0.contextData.onHide)
+	arg_65_0:StopLoopCpk()
+	arg_65_0.cpkHandler:Reset()
+	arg_65_0.pictureHandler:Reset()
+	arg_65_0.wordHandler:Reset()
+	arg_65_0.dropHandler:Reset()
+	arg_65_0.siteHandler:Reset()
+	arg_65_0.optionsHandler:Reset()
+	arg_65_0.minigameHandler:Reset()
+	arg_65_0.super.Hide(arg_65_0)
 end
 
-function var_0_0.OnDestroy(arg_64_0)
-	arg_64_0:UnOverlayPanel(arg_64_0._tf, arg_64_0._parentTf)
+function var_0_0.OnDestroy(arg_66_0)
+	arg_66_0:UnOverlayPanel(arg_66_0._tf, arg_66_0._parentTf)
 
-	if arg_64_0.cpkHandler then
-		arg_64_0.cpkHandler:Destroy()
-	else
-		warning("not exist self.cpkHandler")
+	if arg_66_0.cpkHandler then
+		arg_66_0.cpkHandler:Destroy()
 	end
 
-	if arg_64_0.pictureHandler then
-		arg_64_0.pictureHandler:Destroy()
-	else
-		warning("not exist self.pictureHandler")
+	if arg_66_0.pictureHandler then
+		arg_66_0.pictureHandler:Destroy()
 	end
 
-	if arg_64_0.wordHandler then
-		arg_64_0.wordHandler:Destroy()
-	else
-		warning("not exist self.wordHandler")
+	if arg_66_0.wordHandler then
+		arg_66_0.wordHandler:Destroy()
 	end
 
-	if arg_64_0.dropHandler then
-		arg_64_0.dropHandler:Destroy()
-	else
-		warning("not exist self.dropHandler")
+	if arg_66_0.dropHandler then
+		arg_66_0.dropHandler:Destroy()
 	end
 
-	if arg_64_0.siteHandler then
-		arg_64_0.siteHandler:Destroy()
-	else
-		warning("not exist self.siteHandler")
+	if arg_66_0.siteHandler then
+		arg_66_0.siteHandler:Destroy()
 	end
 
-	if arg_64_0.optionsHandler then
-		arg_64_0.optionsHandler:Destroy()
-	else
-		warning("not exist self.optionsHandler")
+	if arg_66_0.optionsHandler then
+		arg_66_0.optionsHandler:Destroy()
+	end
+
+	if arg_66_0.minigameHandler then
+		arg_66_0.minigameHandler:Destroy()
 	end
 end
 

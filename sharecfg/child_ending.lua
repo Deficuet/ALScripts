@@ -1,12 +1,17 @@
 pg = pg or {}
 pg.child_ending = {
 	{
-		group = 1,
-		name = "平面模特",
 		pic = "bg_project_tb_cg26",
-		id = 1,
+		name = "平面模特",
+		unlock_desc = "可解锁",
+		child_cg_basic_price = 2000,
+		group = 1,
+		lock_name = "平面模特",
 		polaroid_condition = 201,
 		level = 1,
+		id = 1,
+		pic_preview = "tb_ending1",
+		sp_bg = 2,
 		condition = {
 			{
 				1,
@@ -33,12 +38,17 @@ pg.child_ending = {
 		}
 	},
 	{
-		group = 2,
-		name = "艺术家",
 		pic = "bg_project_tb_cg27",
-		id = 2,
+		name = "艺术家",
+		unlock_desc = "可解锁",
+		child_cg_basic_price = 2000,
+		group = 2,
+		lock_name = "艺术家",
 		polaroid_condition = 201,
 		level = 1,
+		id = 2,
+		pic_preview = "tb_ending2",
+		sp_bg = 2,
 		condition = {
 			{
 				1,
@@ -70,12 +80,17 @@ pg.child_ending = {
 		}
 	},
 	{
-		group = 3,
-		name = "音乐人",
 		pic = "bg_project_tb_cg28",
-		id = 3,
+		name = "音乐人",
+		unlock_desc = "可解锁",
+		child_cg_basic_price = 2000,
+		group = 3,
+		lock_name = "音乐人",
 		polaroid_condition = 201,
 		level = 1,
+		id = 3,
+		pic_preview = "tb_ending3",
+		sp_bg = 2,
 		condition = {
 			{
 				1,
@@ -97,12 +112,17 @@ pg.child_ending = {
 		}
 	},
 	{
-		group = 4,
-		name = "瞩目新星",
 		pic = "bg_project_tb_cg29",
-		id = 4,
+		name = "瞩目新星",
+		unlock_desc = "可解锁",
+		child_cg_basic_price = 2000,
+		group = 4,
+		lock_name = "瞩目新星",
 		polaroid_condition = 203,
 		level = 1,
+		id = 4,
+		pic_preview = "tb_ending4",
+		sp_bg = 2,
 		condition = {
 			{
 				1,
@@ -134,12 +154,17 @@ pg.child_ending = {
 		}
 	},
 	{
-		group = 5,
-		name = "烘焙达人",
 		pic = "bg_project_tb_cg30",
-		id = 5,
+		name = "烘焙达人",
+		unlock_desc = "可解锁",
+		child_cg_basic_price = 2000,
+		group = 5,
+		lock_name = "烘焙达人",
 		polaroid_condition = 203,
 		level = 1,
+		id = 5,
+		pic_preview = "tb_ending5",
+		sp_bg = 2,
 		condition = {
 			{
 				1,
@@ -166,12 +191,17 @@ pg.child_ending = {
 		}
 	},
 	{
-		group = 6,
-		name = "小说作家",
 		pic = "bg_project_tb_cg31",
-		id = 6,
+		name = "小说作家",
+		unlock_desc = "可解锁",
+		child_cg_basic_price = 2000,
+		group = 6,
+		lock_name = "小说作家",
 		polaroid_condition = 203,
 		level = 1,
+		id = 6,
+		pic_preview = "tb_ending6",
+		sp_bg = 2,
 		condition = {
 			{
 				1,
@@ -198,12 +228,17 @@ pg.child_ending = {
 		}
 	},
 	{
-		group = 7,
-		name = "赛场新秀",
 		pic = "bg_project_tb_cg32",
-		id = 7,
+		name = "赛场新秀",
+		unlock_desc = "可解锁",
+		child_cg_basic_price = 2000,
+		group = 7,
+		lock_name = "赛场新秀",
 		polaroid_condition = 202,
 		level = 1,
+		id = 7,
+		pic_preview = "tb_ending7",
+		sp_bg = 2,
 		condition = {
 			{
 				1,
@@ -225,12 +260,17 @@ pg.child_ending = {
 		}
 	},
 	{
-		group = 8,
-		name = "商业奇才",
 		pic = "bg_project_tb_cg33",
-		id = 8,
+		name = "商业奇才",
+		unlock_desc = "可解锁",
+		child_cg_basic_price = 2000,
+		group = 8,
+		lock_name = "商业奇才",
 		polaroid_condition = 202,
 		level = 1,
+		id = 8,
+		pic_preview = "tb_ending8",
+		sp_bg = 2,
 		condition = {
 			{
 				1,
@@ -257,12 +297,17 @@ pg.child_ending = {
 		}
 	},
 	{
-		group = 9,
-		name = "农场能手",
 		pic = "bg_project_tb_cg34",
-		id = 9,
+		name = "农场能手",
+		unlock_desc = "可解锁",
+		child_cg_basic_price = 2000,
+		group = 9,
+		lock_name = "农场能手",
 		polaroid_condition = 202,
 		level = 1,
+		id = 9,
+		pic_preview = "tb_ending9",
+		sp_bg = 2,
 		condition = {
 			{
 				1,
@@ -294,12 +339,17 @@ pg.child_ending = {
 		}
 	},
 	{
-		group = 10,
-		name = "日复一日",
 		pic = "bg_project_tb_cg35",
-		id = 10,
+		name = "日复一日",
+		unlock_desc = "可解锁",
+		child_cg_basic_price = 2000,
+		group = 10,
+		lock_name = "日复一日",
 		polaroid_condition = 0,
 		level = 1,
+		id = 10,
+		pic_preview = "tb_ending10",
+		sp_bg = 2,
 		condition = {
 			{
 				1,
@@ -327,12 +377,17 @@ pg.child_ending = {
 		}
 	},
 	{
-		group = 11,
-		name = "足不出户",
 		pic = "bg_project_tb_cg36",
-		id = 11,
+		name = "足不出户",
+		unlock_desc = "可解锁",
+		child_cg_basic_price = 2000,
+		group = 11,
+		lock_name = "足不出户",
 		polaroid_condition = 0,
 		level = 1,
+		id = 11,
+		pic_preview = "tb_ending11",
+		sp_bg = 2,
 		condition = {},
 		performance = {
 			143

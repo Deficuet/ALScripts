@@ -876,6 +876,870 @@ pg.child2_polaroid = {
 			3
 		}
 	},
+	[101] = {
+		pic = "polaroid_explorer_1_1",
+		character = 2,
+		pic_2 = "polaroid_explorer_1_1_b",
+		id = 101,
+		group = 101,
+		title = "初航的仪式",
+		condition = "出行-外出旅游",
+		desc = {
+			3600101,
+			3600102
+		},
+		stage = {
+			1
+		}
+	},
+	[102] = {
+		pic = "polaroid_explorer_1_2",
+		character = 2,
+		pic_2 = "polaroid_explorer_1_2_b",
+		id = 102,
+		group = 101,
+		title = "初航的仪式",
+		condition = "出行-外出旅游",
+		desc = {
+			3600101,
+			3600102
+		},
+		stage = {
+			2
+		}
+	},
+	[103] = {
+		pic = "polaroid_explorer_1_3",
+		character = 2,
+		pic_2 = "polaroid_explorer_1_3_b",
+		id = 103,
+		group = 101,
+		title = "初航的仪式",
+		condition = "出行-外出旅游",
+		desc = {
+			3600101,
+			3600102
+		},
+		stage = {
+			3
+		}
+	},
+	[104] = {
+		pic = "polaroid_explorer_2_1",
+		character = 2,
+		pic_2 = "polaroid_explorer_2_1_b",
+		id = 104,
+		group = 102,
+		title = "池畔祈愿",
+		condition = "出行-外出旅游",
+		desc = {
+			3600201,
+			3600202
+		},
+		stage = {
+			1
+		}
+	},
+	[105] = {
+		pic = "polaroid_explorer_2_2",
+		character = 2,
+		pic_2 = "polaroid_explorer_2_2_b",
+		id = 105,
+		group = 102,
+		title = "池畔祈愿",
+		condition = "出行-外出旅游",
+		desc = {
+			3600201,
+			3600202
+		},
+		stage = {
+			2
+		}
+	},
+	[106] = {
+		pic = "polaroid_explorer_2_3",
+		character = 2,
+		pic_2 = "polaroid_explorer_2_3_b",
+		id = 106,
+		group = 102,
+		title = "池畔祈愿",
+		condition = "出行-外出旅游",
+		desc = {
+			3600201,
+			3600202
+		},
+		stage = {
+			3
+		}
+	},
+	[107] = {
+		pic = "polaroid_explorer_3_1",
+		character = 2,
+		pic_2 = "polaroid_explorer_3_1_b",
+		id = 107,
+		group = 103,
+		title = "倒影",
+		condition = "出行-外出旅游",
+		desc = {
+			3600301,
+			3600302
+		},
+		stage = {
+			1
+		}
+	},
+	[108] = {
+		pic = "polaroid_explorer_3_2",
+		character = 2,
+		pic_2 = "polaroid_explorer_3_2_b",
+		id = 108,
+		group = 103,
+		title = "倒影",
+		condition = "出行-外出旅游",
+		desc = {
+			3600301,
+			3600302
+		},
+		stage = {
+			2
+		}
+	},
+	[109] = {
+		pic = "polaroid_explorer_3_3",
+		character = 2,
+		pic_2 = "polaroid_explorer_3_3_b",
+		id = 109,
+		group = 103,
+		title = "倒影",
+		condition = "出行-外出旅游",
+		desc = {
+			3600301,
+			3600302
+		},
+		stage = {
+			3
+		}
+	},
+	[110] = {
+		pic = "polaroid_explorer_4_1",
+		character = 2,
+		pic_2 = "polaroid_explorer_4_1_b",
+		id = 110,
+		group = 104,
+		title = "海边鸥鸣",
+		condition = "出行-外出旅游",
+		desc = {
+			3600401,
+			3600402
+		},
+		stage = {
+			1
+		}
+	},
+	[111] = {
+		pic = "polaroid_explorer_4_2",
+		character = 2,
+		pic_2 = "polaroid_explorer_4_2_b",
+		id = 111,
+		group = 104,
+		title = "海边鸥鸣",
+		condition = "出行-外出旅游",
+		desc = {
+			3600401,
+			3600402
+		},
+		stage = {
+			2
+		}
+	},
+	[112] = {
+		pic = "polaroid_explorer_4_3",
+		character = 2,
+		pic_2 = "polaroid_explorer_4_3_b",
+		id = 112,
+		group = 104,
+		title = "海边鸥鸣",
+		condition = "出行-外出旅游",
+		desc = {
+			3600401,
+			3600402
+		},
+		stage = {
+			3
+		}
+	},
+	[113] = {
+		pic = "polaroid_explorer_5_1",
+		character = 2,
+		pic_2 = "polaroid_explorer_5_1_b",
+		id = 113,
+		group = 105,
+		title = "湖水宁静",
+		condition = "出行-外出旅游",
+		desc = {
+			3600501,
+			3600502
+		},
+		stage = {
+			1
+		}
+	},
+	[114] = {
+		pic = "polaroid_explorer_5_2",
+		character = 2,
+		pic_2 = "polaroid_explorer_5_2_b",
+		id = 114,
+		group = 105,
+		title = "湖水宁静",
+		condition = "出行-外出旅游",
+		desc = {
+			3600501,
+			3600502
+		},
+		stage = {
+			2
+		}
+	},
+	[115] = {
+		pic = "polaroid_explorer_5_3",
+		character = 2,
+		pic_2 = "polaroid_explorer_5_3_b",
+		id = 115,
+		group = 105,
+		title = "湖水宁静",
+		condition = "出行-外出旅游",
+		desc = {
+			3600501,
+			3600502
+		},
+		stage = {
+			3
+		}
+	},
+	[116] = {
+		pic = "polaroid_explorer_6_1",
+		character = 2,
+		pic_2 = "polaroid_explorer_6_1_b",
+		id = 116,
+		group = 106,
+		title = "泛舟池上",
+		condition = "出行-外出旅游",
+		desc = {
+			3600601,
+			3600602
+		},
+		stage = {
+			1
+		}
+	},
+	[117] = {
+		pic = "polaroid_explorer_6_2",
+		character = 2,
+		pic_2 = "polaroid_explorer_6_2_b",
+		id = 117,
+		group = 106,
+		title = "泛舟池上",
+		condition = "出行-外出旅游",
+		desc = {
+			3600601,
+			3600602
+		},
+		stage = {
+			2
+		}
+	},
+	[118] = {
+		pic = "polaroid_explorer_6_3",
+		character = 2,
+		pic_2 = "polaroid_explorer_6_3_b",
+		id = 118,
+		group = 106,
+		title = "泛舟池上",
+		condition = "出行-外出旅游",
+		desc = {
+			3600601,
+			3600602
+		},
+		stage = {
+			3
+		}
+	},
+	[119] = {
+		pic = "polaroid_explorer_7_1",
+		character = 2,
+		pic_2 = "polaroid_explorer_7_1_b",
+		id = 119,
+		group = 107,
+		title = "远方",
+		condition = "出行-外出旅游",
+		desc = {
+			3600701,
+			3600702
+		},
+		stage = {
+			1
+		}
+	},
+	[120] = {
+		pic = "polaroid_explorer_7_2",
+		character = 2,
+		pic_2 = "polaroid_explorer_7_2_b",
+		id = 120,
+		group = 107,
+		title = "远方",
+		condition = "出行-外出旅游",
+		desc = {
+			3600701,
+			3600702
+		},
+		stage = {
+			2
+		}
+	},
+	[121] = {
+		pic = "polaroid_explorer_7_3",
+		character = 2,
+		pic_2 = "polaroid_explorer_7_3_b",
+		id = 121,
+		group = 107,
+		title = "远方",
+		condition = "出行-外出旅游",
+		desc = {
+			3600701,
+			3600702
+		},
+		stage = {
+			3
+		}
+	},
+	[122] = {
+		pic = "polaroid_explorer_8_1",
+		character = 2,
+		pic_2 = "polaroid_explorer_8_1_b",
+		id = 122,
+		group = 108,
+		title = "光影摇曳",
+		condition = "出行-外出旅游",
+		desc = {
+			3600801,
+			3600802
+		},
+		stage = {
+			1
+		}
+	},
+	[123] = {
+		pic = "polaroid_explorer_8_2",
+		character = 2,
+		pic_2 = "polaroid_explorer_8_2_b",
+		id = 123,
+		group = 108,
+		title = "光影摇曳",
+		condition = "出行-外出旅游",
+		desc = {
+			3600801,
+			3600802
+		},
+		stage = {
+			2
+		}
+	},
+	[124] = {
+		pic = "polaroid_explorer_8_3",
+		character = 2,
+		pic_2 = "polaroid_explorer_8_3_b",
+		id = 124,
+		group = 108,
+		title = "光影摇曳",
+		condition = "出行-外出旅游",
+		desc = {
+			3600801,
+			3600802
+		},
+		stage = {
+			3
+		}
+	},
+	[125] = {
+		pic = "polaroid_explorer_9_1",
+		character = 2,
+		pic_2 = "polaroid_explorer_9_1_b",
+		id = 125,
+		group = 109,
+		title = "星空之下",
+		condition = "出行-外出旅游",
+		desc = {
+			3600901,
+			3600902
+		},
+		stage = {
+			1
+		}
+	},
+	[126] = {
+		pic = "polaroid_explorer_9_2",
+		character = 2,
+		pic_2 = "polaroid_explorer_9_2_b",
+		id = 126,
+		group = 109,
+		title = "星空之下",
+		condition = "出行-外出旅游",
+		desc = {
+			3600901,
+			3600902
+		},
+		stage = {
+			2
+		}
+	},
+	[127] = {
+		pic = "polaroid_explorer_9_3",
+		character = 2,
+		pic_2 = "polaroid_explorer_9_3_b",
+		id = 127,
+		group = 109,
+		title = "星空之下",
+		condition = "出行-外出旅游",
+		desc = {
+			3600901,
+			3600902
+		},
+		stage = {
+			3
+		}
+	},
+	[128] = {
+		pic = "polaroid_explorer_10_1",
+		character = 2,
+		pic_2 = "polaroid_explorer_10_1_b",
+		id = 128,
+		group = 110,
+		title = "纸页间的宁静",
+		condition = "出行-外出旅游",
+		desc = {
+			3601001,
+			3601002
+		},
+		stage = {
+			1
+		}
+	},
+	[129] = {
+		pic = "polaroid_explorer_10_2",
+		character = 2,
+		pic_2 = "polaroid_explorer_10_2_b",
+		id = 129,
+		group = 110,
+		title = "纸页间的宁静",
+		condition = "出行-外出旅游",
+		desc = {
+			3601001,
+			3601002
+		},
+		stage = {
+			2
+		}
+	},
+	[130] = {
+		pic = "polaroid_explorer_10_3",
+		character = 2,
+		pic_2 = "polaroid_explorer_10_3_b",
+		id = 130,
+		group = 110,
+		title = "纸页间的宁静",
+		condition = "出行-外出旅游",
+		desc = {
+			3601001,
+			3601002
+		},
+		stage = {
+			3
+		}
+	},
+	[131] = {
+		pic = "polaroid_explorer_11_1",
+		character = 2,
+		pic_2 = "polaroid_explorer_11_1_b",
+		id = 131,
+		group = 111,
+		title = "指尖涟漪",
+		condition = "出行-外出旅游",
+		desc = {
+			3601101,
+			3601102
+		},
+		stage = {
+			1
+		}
+	},
+	[132] = {
+		pic = "polaroid_explorer_11_2",
+		character = 2,
+		pic_2 = "polaroid_explorer_11_2_b",
+		id = 132,
+		group = 111,
+		title = "指尖涟漪",
+		condition = "出行-外出旅游",
+		desc = {
+			3601101,
+			3601102
+		},
+		stage = {
+			2
+		}
+	},
+	[133] = {
+		pic = "polaroid_explorer_11_3",
+		character = 2,
+		pic_2 = "polaroid_explorer_11_3_b",
+		id = 133,
+		group = 111,
+		title = "指尖涟漪",
+		condition = "出行-外出旅游",
+		desc = {
+			3601101,
+			3601102
+		},
+		stage = {
+			3
+		}
+	},
+	[134] = {
+		pic = "polaroid_explorer_12_1",
+		character = 2,
+		pic_2 = "polaroid_explorer_12_1_b",
+		id = 134,
+		group = 112,
+		title = "叠石头",
+		condition = "出行-外出旅游",
+		desc = {
+			3601201,
+			3601202
+		},
+		stage = {
+			1
+		}
+	},
+	[135] = {
+		pic = "polaroid_explorer_12_2",
+		character = 2,
+		pic_2 = "polaroid_explorer_12_2_b",
+		id = 135,
+		group = 112,
+		title = "叠石头",
+		condition = "出行-外出旅游",
+		desc = {
+			3601201,
+			3601202
+		},
+		stage = {
+			2
+		}
+	},
+	[136] = {
+		pic = "polaroid_explorer_12_3",
+		character = 2,
+		pic_2 = "polaroid_explorer_12_3_b",
+		id = 136,
+		group = 112,
+		title = "叠石头",
+		condition = "出行-外出旅游",
+		desc = {
+			3601201,
+			3601202
+		},
+		stage = {
+			3
+		}
+	},
+	[137] = {
+		pic = "polaroid_explorer_13_1",
+		character = 2,
+		pic_2 = "polaroid_explorer_13_1_b",
+		id = 137,
+		group = 113,
+		title = "遇见海豹",
+		condition = "出行-外出旅游",
+		desc = {
+			3601301,
+			3601302
+		},
+		stage = {
+			1
+		}
+	},
+	[138] = {
+		pic = "polaroid_explorer_13_2",
+		character = 2,
+		pic_2 = "polaroid_explorer_13_2_b",
+		id = 138,
+		group = 113,
+		title = "遇见海豹",
+		condition = "出行-外出旅游",
+		desc = {
+			3601301,
+			3601302
+		},
+		stage = {
+			2
+		}
+	},
+	[139] = {
+		pic = "polaroid_explorer_13_3",
+		character = 2,
+		pic_2 = "polaroid_explorer_13_3_b",
+		id = 139,
+		group = 113,
+		title = "遇见海豹",
+		condition = "出行-外出旅游",
+		desc = {
+			3601301,
+			3601302
+		},
+		stage = {
+			3
+		}
+	},
+	[140] = {
+		pic = "polaroid_explorer_14_1",
+		character = 2,
+		pic_2 = "polaroid_explorer_14_1_b",
+		id = 140,
+		group = 114,
+		title = "海边漂流瓶",
+		condition = "出行-外出旅游",
+		desc = {
+			3601401,
+			3601402
+		},
+		stage = {
+			1
+		}
+	},
+	[141] = {
+		pic = "polaroid_explorer_14_2",
+		character = 2,
+		pic_2 = "polaroid_explorer_14_2_b",
+		id = 141,
+		group = 114,
+		title = "海边漂流瓶",
+		condition = "出行-外出旅游",
+		desc = {
+			3601401,
+			3601402
+		},
+		stage = {
+			2
+		}
+	},
+	[142] = {
+		pic = "polaroid_explorer_14_3",
+		character = 2,
+		pic_2 = "polaroid_explorer_14_3_b",
+		id = 142,
+		group = 114,
+		title = "海边漂流瓶",
+		condition = "出行-外出旅游",
+		desc = {
+			3601401,
+			3601402
+		},
+		stage = {
+			3
+		}
+	},
+	[143] = {
+		pic = "polaroid_explorer_15_1",
+		character = 2,
+		pic_2 = "polaroid_explorer_15_1_b",
+		id = 143,
+		group = 115,
+		title = "落叶小径",
+		condition = "出行-外出旅游",
+		desc = {
+			3601501,
+			3601502
+		},
+		stage = {
+			1
+		}
+	},
+	[144] = {
+		pic = "polaroid_explorer_15_2",
+		character = 2,
+		pic_2 = "polaroid_explorer_15_2_b",
+		id = 144,
+		group = 115,
+		title = "落叶小径",
+		condition = "出行-外出旅游",
+		desc = {
+			3601501,
+			3601502
+		},
+		stage = {
+			2
+		}
+	},
+	[145] = {
+		pic = "polaroid_explorer_15_3",
+		character = 2,
+		pic_2 = "polaroid_explorer_15_3_b",
+		id = 145,
+		group = 115,
+		title = "落叶小径",
+		condition = "出行-外出旅游",
+		desc = {
+			3601501,
+			3601502
+		},
+		stage = {
+			3
+		}
+	},
+	[146] = {
+		pic = "polaroid_explorer_16_1",
+		character = 2,
+		pic_2 = "polaroid_explorer_16_1_b",
+		id = 146,
+		group = 116,
+		title = "湖心一刻",
+		condition = "出行-外出旅游",
+		desc = {
+			3601601,
+			3601602
+		},
+		stage = {
+			1
+		}
+	},
+	[147] = {
+		pic = "polaroid_explorer_16_2",
+		character = 2,
+		pic_2 = "polaroid_explorer_16_2_b",
+		id = 147,
+		group = 116,
+		title = "湖心一刻",
+		condition = "出行-外出旅游",
+		desc = {
+			3601601,
+			3601602
+		},
+		stage = {
+			2
+		}
+	},
+	[148] = {
+		pic = "polaroid_explorer_16_3",
+		character = 2,
+		pic_2 = "polaroid_explorer_16_3_b",
+		id = 148,
+		group = 116,
+		title = "湖心一刻",
+		condition = "出行-外出旅游",
+		desc = {
+			3601601,
+			3601602
+		},
+		stage = {
+			3
+		}
+	},
+	[149] = {
+		pic = "polaroid_explorer_17_1",
+		character = 2,
+		pic_2 = "polaroid_explorer_17_1_b",
+		id = 149,
+		group = 117,
+		title = "雪落之后 ",
+		condition = "出行-外出旅游",
+		desc = {
+			3601701,
+			3601702
+		},
+		stage = {
+			1
+		}
+	},
+	[150] = {
+		pic = "polaroid_explorer_17_2",
+		character = 2,
+		pic_2 = "polaroid_explorer_17_2_b",
+		id = 150,
+		group = 117,
+		title = "雪落之后 ",
+		condition = "出行-外出旅游",
+		desc = {
+			3601701,
+			3601702
+		},
+		stage = {
+			2
+		}
+	},
+	[151] = {
+		pic = "polaroid_explorer_17_3",
+		character = 2,
+		pic_2 = "polaroid_explorer_17_3_b",
+		id = 151,
+		group = 117,
+		title = "雪落之后 ",
+		condition = "出行-外出旅游",
+		desc = {
+			3601701,
+			3601702
+		},
+		stage = {
+			3
+		}
+	},
+	[152] = {
+		pic = "polaroid_explorer_18_1",
+		character = 2,
+		pic_2 = "polaroid_explorer_18_1_b",
+		id = 152,
+		group = 118,
+		title = "悠然心境 ",
+		condition = "出行-外出旅游",
+		desc = {
+			3601801,
+			3601802
+		},
+		stage = {
+			1
+		}
+	},
+	[153] = {
+		pic = "polaroid_explorer_18_2",
+		character = 2,
+		pic_2 = "polaroid_explorer_18_2_b",
+		id = 153,
+		group = 118,
+		title = "悠然心境 ",
+		condition = "出行-外出旅游",
+		desc = {
+			3601801,
+			3601802
+		},
+		stage = {
+			2
+		}
+	},
+	[154] = {
+		pic = "polaroid_explorer_18_3",
+		character = 2,
+		pic_2 = "polaroid_explorer_18_3_b",
+		id = 154,
+		group = 118,
+		title = "悠然心境 ",
+		condition = "出行-外出旅游",
+		desc = {
+			3601801,
+			3601802
+		},
+		stage = {
+			3
+		}
+	},
 	get_id_list_by_character = {
 		{
 			1,
@@ -932,6 +1796,62 @@ pg.child2_polaroid = {
 			55,
 			56,
 			57
+		},
+		{
+			101,
+			102,
+			103,
+			104,
+			105,
+			106,
+			107,
+			108,
+			109,
+			110,
+			111,
+			112,
+			113,
+			114,
+			115,
+			116,
+			117,
+			118,
+			119,
+			120,
+			121,
+			122,
+			123,
+			124,
+			125,
+			126,
+			127,
+			128,
+			129,
+			130,
+			131,
+			132,
+			133,
+			134,
+			135,
+			136,
+			137,
+			138,
+			139,
+			140,
+			141,
+			142,
+			143,
+			144,
+			145,
+			146,
+			147,
+			148,
+			149,
+			150,
+			151,
+			152,
+			153,
+			154
 		}
 	},
 	all = {
@@ -988,6 +1908,60 @@ pg.child2_polaroid = {
 		54,
 		55,
 		56,
-		57
+		57,
+		101,
+		102,
+		103,
+		104,
+		105,
+		106,
+		107,
+		108,
+		109,
+		110,
+		111,
+		112,
+		113,
+		114,
+		115,
+		116,
+		117,
+		118,
+		119,
+		120,
+		121,
+		122,
+		123,
+		124,
+		125,
+		126,
+		127,
+		128,
+		129,
+		130,
+		131,
+		132,
+		133,
+		134,
+		135,
+		136,
+		137,
+		138,
+		139,
+		140,
+		141,
+		142,
+		143,
+		144,
+		145,
+		146,
+		147,
+		148,
+		149,
+		150,
+		151,
+		152,
+		153,
+		154
 	}
 }

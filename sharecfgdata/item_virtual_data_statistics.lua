@@ -176807,6 +176807,32 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[65557] = {
+		display = "用于「换装商店」内购买所有「宴会礼服」分类换装时享有300钻石优惠\n有效期至：2026年4月8日 23:59:59",
+		name = "换装折扣券（宴会礼服）",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = 1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50500,
+		virtual_type = 13,
+		is_world = 0,
+		icon = "Props/skin_300_school",
+		id = 65557,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[65561] = {
 		display = "用于「深谷来信」活动的ESP关卡，活动结束后将会消失",
 		name = "天狐集团徽章",
@@ -183258,6 +183284,58 @@ end)()
 		is_world = 0,
 		icon = "Props/66012",
 		id = 66012,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[66013] = {
+		display = "用于「今日的指挥练习」活动提升角色好感，活动结束后将会消失",
+		name = "友好度-{namecode:535}",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/xiaofeitelie_pt",
+		id = 66013,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[66014] = {
+		display = "看不到看不到",
+		name = "小腓特烈大帝转换虚拟道具（不显示）",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50501,
+		virtual_type = 17,
+		is_world = 0,
+		icon = "Props/masaiqu_pt",
+		id = 66014,
 		order = 0,
 		display_icon = {},
 		price = {},
@@ -191702,6 +191780,32 @@ end)()
 				1340
 			}
 		}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[86226] = {
+		display = "从如下换装中随机获得1件未拥有的换装(如果所有换装都已拥有，则会转化为获得680钻石) \n各换装概率均等，包含换装如下：\n{namecode:161}换装 落于王座之花；\n{namecode:231}换装 不会消失的换装魔法；\n柴郡换装 冰雪公主；\n拉菲换装 白日慵懒；\n圣胡安换装 Loinging Princess；\n比洛克西换装 洛城女帝；\n威奇塔换装 “将军”的晚宴；\n马萨诸塞换装 盛宴的准备；\n企业换装 英雄的礼服；\n独立换装 「独立」品牌；\n大青花鱼换装 黑裙下的「秘密」；\n黛朵换装 多愁的BIsqueDoll；\n谢菲尔德换装 黑鸦的晚宴；\n贝尔法斯特换装 优雅而高贵的从者；\n{namecode:13}换装 晨曦精灵Ikazuchi；\n{namecode:14}换装 月下妖精Inazuma；\n{namecode:49}换装 告白的蓝闪蝶；\n{namecode:50}换装 夜响的绝园；\n{namecode:91}换装 朱娟余醺；\n{namecode:92}换装 白羽风华；\n{namecode:182}换装 胧月十夜；\n{namecode:427}换装 Wein Kornblume；\n{namecode:436}换装 铁血的冰风；\n利托里奥换装 Calabria Aurea；\n{namecode:523}换装 不羁的BloodStone；\n西雅图换装 绚烂的盛宴；\n南达科他换装 剧场上的独奏；\n欧若拉换装 黎明的赞歌；\n约克公爵换装 永夜的卡罗拉；\n佐治亚换装 南方的黑珍珠；",
+		name = "随机换装",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/clothIcon",
+		id = 86226,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
 	}
 end)()
 

@@ -273,7 +273,35 @@ function var_0_0.Hide(arg_30_0)
 end
 
 function var_0_0.Quit(arg_31_0)
+	Object.Destroy(arg_31_0._go)
+
+	arg_31_0._go = nil
+	arg_31_0._tf = nil
 	arg_31_0.status = var_0_7
+
+	if arg_31_0.cpkPlayer then
+		arg_31_0.cpkPlayer:Dispose()
+
+		arg_31_0.cpkPlayer = nil
+	end
+
+	if arg_31_0.dialoguePlayer then
+		arg_31_0.dialoguePlayer:Dispose()
+
+		arg_31_0.dialoguePlayer = nil
+	end
+
+	if arg_31_0.picturePlayer then
+		arg_31_0.picturePlayer:Dispose()
+
+		arg_31_0.picturePlayer = nil
+	end
+
+	if arg_31_0.storyPlayer then
+		arg_31_0.storyPlayer:Dispose()
+
+		arg_31_0.storyPlayer = nil
+	end
 end
 
 function var_0_0.SetParamForUI(arg_32_0, arg_32_1)

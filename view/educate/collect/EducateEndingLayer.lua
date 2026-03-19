@@ -1,4 +1,11 @@
 local var_0_0 = class("EducateEndingLayer", import(".EducateCollectLayerTemplate"))
+local var_0_1 = {
+	frame_1 = "frame1",
+	frame_5 = "frame3",
+	frame_3 = "frame2",
+	frame_4 = "frame3",
+	frame_2 = "frame2"
+}
 
 function var_0_0.getUIName(arg_1_0)
 	return "EducateEndingUI"
@@ -9,94 +16,146 @@ function var_0_0.initConfig(arg_2_0)
 end
 
 function var_0_0.didEnter(arg_3_0)
+	setText(arg_3_0.windowTF:Find("tip"), i18n("child_buy_ending_tip"))
 	setText(arg_3_0.performTF:Find("review_btn/Text"), i18n("child_btn_review"))
 
-	arg_3_0.endings = getProxy(EducateProxy):GetFinishEndings()
-	arg_3_0.char = getProxy(EducateProxy):GetCharData()
 	arg_3_0.tpl = arg_3_0.windowTF:Find("condition_tpl")
+	arg_3_0.addPrice = pg.gameset.child_cg_add_price.key_value
+	arg_3_0.maxPrice = pg.gameset.child_cg_max_price.key_value
 
-	setText(arg_3_0.curCntTF, #arg_3_0.endings)
-	setText(arg_3_0.allCntTF, "/" .. #arg_3_0.config.all)
-	arg_3_0:updatePage()
+	arg_3_0:Flush()
 end
 
-function var_0_0.updateItem(arg_4_0, arg_4_1, arg_4_2)
-	local var_4_0 = table.contains(arg_4_0.endings, arg_4_1.id)
+function var_0_0.SetData(arg_4_0)
+	local var_4_0 = getProxy(EducateProxy)
 
-	if var_4_0 then
-		LoadImageSpriteAsync("bg/" .. arg_4_1.pic, arg_4_2:Find("unlock/mask/Image"))
-		setText(arg_4_2:Find("unlock/name"), arg_4_1.name)
-		onButton(arg_4_0, arg_4_2, function()
-			arg_4_0:showPerformWindow(arg_4_1)
+	arg_4_0.endings = var_4_0:GetAllEndings()
+	arg_4_0.completeEndings = var_4_0:GetCompleteEndings()
+	arg_4_0.char = var_4_0:GetCharData()
+	arg_4_0.gameCnt = var_4_0:GetGameCnt()
+	arg_4_0.bugCnt = var_4_0:GetEndingBuyCnt()
+end
+
+function var_0_0.Flush(arg_5_0)
+	arg_5_0:SetData()
+	setText(arg_5_0.curCntTF, #arg_5_0.endings)
+	setText(arg_5_0.allCntTF, "/" .. #arg_5_0.config.all)
+	arg_5_0:updatePage()
+end
+
+function var_0_0.updateItem(arg_6_0, arg_6_1, arg_6_2)
+	local var_6_0 = var_0_1[arg_6_2.name]
+
+	GetImageSpriteFromAtlasAsync("ui/educateendingui_atlas", var_6_0 .. "_" .. arg_6_1.sp_bg, arg_6_2)
+	LoadImageSpriteAsync("bg/" .. arg_6_1.pic, arg_6_2:Find("icon/Image"))
+	setText(arg_6_2:Find("unlock/name"), arg_6_1.name)
+	setText(arg_6_2:Find("lock/name"), arg_6_1.lock_name)
+
+	local var_6_1 = table.contains(arg_6_0.endings, arg_6_1.id)
+
+	setActive(arg_6_2:Find("icon/lock"), not var_6_1)
+	setActive(arg_6_2:Find("unlock"), var_6_1)
+	setActive(arg_6_2:Find("lock"), not var_6_1)
+
+	if var_6_1 then
+		onButton(arg_6_0, arg_6_2, function()
+			arg_6_0:showPerformWindow(arg_6_1)
 		end, SFX_PANEL)
+		setActive(arg_6_2:Find("unlock/complete"), table.contains(arg_6_0.completeEndings, arg_6_1.id))
 	else
-		removeOnButton(arg_4_2)
+		removeOnButton(arg_6_2)
 
-		local var_4_1 = arg_4_2:Find("lock/conditions")
-		local var_4_2 = arg_4_1.condition
+		local var_6_2 = arg_6_2:Find("lock/desc/conditions")
+		local var_6_3 = arg_6_1.condition
 
-		arg_4_0:updateConditions(var_4_2, var_4_1)
+		arg_6_0:updateConditions(var_6_3, var_6_2)
+		setActive(var_6_2, #arg_6_1.condition > 0)
+
+		local var_6_4 = arg_6_2:Find("lock/desc/Text")
+
+		setText(var_6_4, arg_6_1.unlock_desc)
+		setActive(var_6_4, arg_6_1.unlock_desc ~= "")
+
+		local var_6_5 = arg_6_2:Find("lock/unlock_btn")
+
+		setActive(var_6_5, arg_6_0.gameCnt > 1)
+		onButton(arg_6_0, var_6_5, function()
+			arg_6_0:OnClickBuyBtn(arg_6_1)
+		end, SFX_PANEL)
 	end
-
-	setActive(arg_4_2:Find("unlock"), var_4_0)
-	setActive(arg_4_2:Find("lock"), not var_4_0)
 end
 
-function var_0_0.updateConditions(arg_6_0, arg_6_1, arg_6_2)
-	local var_6_0 = 0
+function var_0_0.updateConditions(arg_9_0, arg_9_1, arg_9_2)
+	local var_9_0 = 0
 
-	for iter_6_0 = 1, #arg_6_1 do
-		local var_6_1 = arg_6_1[iter_6_0]
+	for iter_9_0 = 1, #arg_9_1 do
+		local var_9_1 = arg_9_1[iter_9_0]
 
-		if var_6_1[1] == EducateConst.DROP_TYPE_ATTR then
-			var_6_0 = var_6_0 + 1
+		if var_9_1[1] == EducateConst.DROP_TYPE_ATTR then
+			var_9_0 = var_9_0 + 1
 
-			local var_6_2 = iter_6_0 <= arg_6_2.childCount and arg_6_2:GetChild(iter_6_0 - 1) or cloneTplTo(arg_6_0.tpl, arg_6_2)
-			local var_6_3 = false
-			local var_6_4 = ""
+			local var_9_2 = iter_9_0 <= arg_9_2.childCount and arg_9_2:GetChild(iter_9_0 - 1) or cloneTplTo(arg_9_0.tpl, arg_9_2)
+			local var_9_3 = false
+			local var_9_4 = ""
 
-			if var_6_1[3] then
-				var_6_3 = arg_6_0.char:GetAttrById(var_6_1[2]) >= var_6_1[3]
-				var_6_4 = pg.child_attr[var_6_1[2]].name .. " > " .. var_6_1[3]
+			if var_9_1[3] then
+				var_9_3 = arg_9_0.char:GetAttrById(var_9_1[2]) >= var_9_1[3]
+				var_9_4 = pg.child_attr[var_9_1[2]].name .. " > " .. var_9_1[3]
 			else
-				var_6_3 = arg_6_0.char:GetPersonalityId() == var_6_1[2]
-				var_6_4 = i18n("child_nature_title") .. pg.child_attr[var_6_1[2]].name
+				var_9_3 = arg_9_0.char:GetPersonalityId() == var_9_1[2]
+				var_9_4 = i18n("child_nature_title") .. pg.child_attr[var_9_1[2]].name
 			end
 
-			setActive(var_6_2:Find("icon/unlock"), var_6_3)
+			setActive(var_9_2:Find("icon/unlock"), var_9_3)
 
-			local var_6_5 = var_6_3 and "F59F48" or "888888"
+			local var_9_5 = var_9_3 and "F59F48" or "FFFFFF"
 
-			setTextColor(var_6_2:Find("Text"), Color.NewHex(var_6_5))
-			setText(var_6_2:Find("Text"), var_6_4)
+			setTextColor(var_9_2:Find("Text"), Color.NewHex(var_9_5))
+			setText(var_9_2:Find("Text"), var_9_4)
 		end
 	end
 
-	for iter_6_1 = 1, arg_6_2.childCount do
-		setActive(arg_6_2:GetChild(iter_6_1 - 1), iter_6_1 <= var_6_0)
+	for iter_9_1 = 1, arg_9_2.childCount do
+		setActive(arg_9_2:GetChild(iter_9_1 - 1), iter_9_1 <= var_9_0)
 	end
 end
 
-function var_0_0.showPerformWindow(arg_7_0, arg_7_1)
-	local var_7_0 = arg_7_0.performTF:Find("Image")
+function var_0_0.showPerformWindow(arg_10_0, arg_10_1)
+	local var_10_0 = arg_10_0.performTF:Find("Image")
 
-	LoadImageSpriteAsync("bg/" .. arg_7_1.pic, var_7_0)
-	setActive(arg_7_0.performTF, true)
-	onButton(arg_7_0, var_7_0, function()
-		setActive(arg_7_0.performTF, false)
+	LoadImageSpriteAsync("bg/" .. arg_10_1.pic, var_10_0)
+	setActive(arg_10_0.performTF, true)
+	onButton(arg_10_0, var_10_0, function()
+		setActive(arg_10_0.performTF, false)
 	end, SFX_PANEL)
-	onButton(arg_7_0, arg_7_0.performTF:Find("review_btn"), function()
-		pg.PerformMgr.GetInstance():PlayGroup(arg_7_1.performance)
+	onButton(arg_10_0, arg_10_0.performTF:Find("review_btn"), function()
+		pg.PerformMgr.GetInstance():PlayGroup(arg_10_1.performance)
 	end, SFX_PANEL)
 end
 
-function var_0_0.playAnimChange(arg_10_0)
-	arg_10_0.anim:Stop()
-	arg_10_0.anim:Play("anim_educate_ending_change")
+function var_0_0.OnClickBuyBtn(arg_13_0, arg_13_1)
+	local var_13_0 = arg_13_1.lock_name
+	local var_13_1 = math.min(arg_13_0.maxPrice, arg_13_1.child_cg_basic_price + arg_13_0.bugCnt * arg_13_0.addPrice)
+
+	arg_13_0:emit(EducateBaseUI.EDUCATE_ON_MSG_TIP, {
+		content = i18n("child_cg_buy", var_13_1, var_13_0),
+		onYes = function()
+			arg_13_0:emit(EducateCollectMediatorTemplate.UNLOCK, {
+				type = EducateBuyCollectCommand.TYPE.ENDING,
+				id = arg_13_1.id,
+				cost = var_13_1
+			})
+		end
+	})
 end
 
-function var_0_0.playAnimClose(arg_11_0)
-	arg_11_0.anim:Play("anim_educate_ending_out")
+function var_0_0.playAnimChange(arg_15_0)
+	arg_15_0.anim:Stop()
+	arg_15_0.anim:Play("anim_educate_ending_change")
+end
+
+function var_0_0.playAnimClose(arg_16_0)
+	arg_16_0.anim:Play("anim_educate_ending_out")
 end
 
 return var_0_0

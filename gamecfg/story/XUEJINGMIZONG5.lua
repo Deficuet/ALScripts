@@ -573,13 +573,14 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
+			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_170",
-			nameColor = "#A9F548FF",
+			oldPhoto = true,
 			dir = 1,
-			actor = 900407,
 			actorName = "？？？",
+			actor = 900407,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "怎么说呢，愿意拿出私人飞机执行这个方案的你也很厉害……",
 			painting = {
@@ -728,13 +729,14 @@ return {
 			}
 		},
 		{
+			expression = 0,
+			side = 2,
+			bgName = "star_level_bg_170",
+			oldPhoto = true,
+			actorName = "？？？",
 			actor = 900407,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_170",
 			hidePaintObj = true,
-			side = 2,
-			actorName = "？？？",
-			oldPhoto = true,
 			say = "在脱离信号区前，我们有大约两小时通话时间。",
 			typewriter = {
 				speed = 0.05,

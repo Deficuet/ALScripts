@@ -414,6 +414,388 @@ pg.child2_ending = {
 			}
 		}
 	},
+	[101] = {
+		pic = "bg_project_explorer_cg32",
+		name = "毕业升学之时",
+		character = 2,
+		performance = "TANSUOZHEYANGCHENGJIHUA31",
+		id = 101,
+		pic_preview = "explorer_ending1",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"完成养成计划"
+			}
+		},
+		condition = {
+			"&&",
+			{
+				3800101
+			}
+		}
+	},
+	[102] = {
+		pic = "bg_project_explorer_cg15",
+		name = "专属生活顾问",
+		character = 2,
+		performance = "TANSUOZHEYANGCHENGJIHUA32",
+		id = 102,
+		pic_preview = "explorer_ending2",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"总属性>3000"
+			}
+		},
+		condition = {
+			"&&",
+			{
+				3800201
+			}
+		}
+	},
+	[103] = {
+		pic = "bg_project_explorer_cg14",
+		name = "高定裁缝",
+		character = 2,
+		performance = "TANSUOZHEYANGCHENGJIHUA33",
+		id = 103,
+		pic_preview = "explorer_ending3",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"总属性>6000"
+			}
+		},
+		condition = {
+			"&&",
+			{
+				3800301
+			}
+		}
+	},
+	[104] = {
+		pic = "bg_project_explorer_cg20",
+		name = "美食主播",
+		character = 2,
+		performance = "TANSUOZHEYANGCHENGJIHUA34",
+		id = 104,
+		pic_preview = "explorer_ending4",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"性格-外向"
+			},
+			{
+				{
+					99801
+				},
+				"总属性>4000"
+			}
+		},
+		condition = {
+			"&&",
+			{
+				3800401,
+				3800402
+			}
+		}
+	},
+	[105] = {
+		pic = "bg_project_explorer_cg23",
+		name = "轻小说写手",
+		character = 2,
+		performance = "TANSUOZHEYANGCHENGJIHUA35",
+		id = 105,
+		pic_preview = "explorer_ending5",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"性格-内向"
+			},
+			{
+				{
+					99801
+				},
+				"总属性>4000"
+			}
+		},
+		condition = {
+			"&&",
+			{
+				3800501,
+				3800502
+			}
+		}
+	},
+	[106] = {
+		pic = "bg_project_explorer_cg18",
+		name = "新闻记者",
+		character = 2,
+		performance = "TANSUOZHEYANGCHENGJIHUA36",
+		id = 106,
+		pic_preview = "explorer_ending14",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"性格-外向>80"
+			}
+		},
+		condition = {
+			"&&",
+			{
+				3800601
+			}
+		}
+	},
+	[107] = {
+		pic = "bg_project_explorer_cg11",
+		name = "玩偶扮演",
+		character = 2,
+		performance = "TANSUOZHEYANGCHENGJIHUA37",
+		id = 107,
+		pic_preview = "explorer_ending15",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"性格-内向>80"
+			}
+		},
+		condition = {
+			"&&",
+			{
+				3800701
+			}
+		}
+	},
+	[108] = {
+		pic = "bg_project_explorer_cg16",
+		name = "花店店长",
+		character = 2,
+		performance = "TANSUOZHEYANGCHENGJIHUA38",
+		id = 108,
+		pic_preview = "explorer_ending6",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"知识>4000"
+			},
+			{
+				{
+					99801
+				},
+				"总属性>12000"
+			}
+		},
+		condition = {
+			"&&",
+			{
+				3800801,
+				3800802
+			}
+		}
+	},
+	[109] = {
+		pic = "bg_project_explorer_cg19",
+		name = "旅游达人",
+		character = 2,
+		performance = "TANSUOZHEYANGCHENGJIHUA39",
+		id = 109,
+		pic_preview = "explorer_ending11",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"外出旅游次数>=20"
+			}
+		},
+		condition = {
+			"&&",
+			{
+				3800901
+			}
+		}
+	},
+	[110] = {
+		pic = "bg_project_explorer_cg17",
+		name = "钓鱼能手",
+		character = 2,
+		performance = "TANSUOZHEYANGCHENGJIHUA40",
+		id = 110,
+		pic_preview = "explorer_ending8",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"体能>4000"
+			},
+			{
+				{
+					99801
+				},
+				"总属性>12000"
+			}
+		},
+		condition = {
+			"&&",
+			{
+				3801001,
+				3801002
+			}
+		}
+	},
+	[111] = {
+		pic = "bg_project_explorer_cg22",
+		name = "咖啡师",
+		character = 2,
+		performance = "TANSUOZHEYANGCHENGJIHUA41",
+		id = 111,
+		pic_preview = "explorer_ending7",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"实践>4000"
+			},
+			{
+				{
+					99801
+				},
+				"总属性>12000"
+			}
+		},
+		condition = {
+			"&&",
+			{
+				3801101,
+				3801102
+			}
+		}
+	},
+	[112] = {
+		pic = "bg_project_explorer_cg21",
+		name = "街头占卜师",
+		character = 2,
+		performance = "TANSUOZHEYANGCHENGJIHUA42",
+		id = 112,
+		pic_preview = "explorer_ending9",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"感知>4000"
+			},
+			{
+				{
+					99801
+				},
+				"总属性>12000"
+			}
+		},
+		condition = {
+			"&&",
+			{
+				3801201,
+				3801202
+			}
+		}
+	},
+	[113] = {
+		pic = "bg_project_explorer_cg12",
+		name = "书店店员",
+		character = 2,
+		performance = "TANSUOZHEYANGCHENGJIHUA43",
+		id = 113,
+		pic_preview = "explorer_ending10",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"生活体验次数>=20"
+			}
+		},
+		condition = {
+			"&&",
+			{
+				3801301
+			}
+		}
+	},
+	[114] = {
+		pic = "bg_project_explorer_cg13",
+		name = "钢琴演奏家",
+		character = 2,
+		performance = "TANSUOZHEYANGCHENGJIHUA44",
+		id = 114,
+		pic_preview = "explorer_ending12",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"完成三个对应特殊结局事件"
+			}
+		},
+		condition = {
+			"||",
+			{
+				3801401,
+				3801402,
+				3801403,
+				3801404,
+				3801405,
+				3801406
+			}
+		}
+	},
+	[115] = {
+		pic = "bg_project_explorer_cg10",
+		name = "标本师",
+		character = 2,
+		performance = "TANSUOZHEYANGCHENGJIHUA45",
+		id = 115,
+		pic_preview = "explorer_ending13",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"完成三个对应特殊结局事件"
+			}
+		},
+		condition = {
+			"||",
+			{
+				3801501,
+				3801502,
+				3801503,
+				3801504,
+				3801505,
+				3801506
+			}
+		}
+	},
 	get_id_list_by_character = {
 		{
 			1,
@@ -431,6 +813,23 @@ pg.child2_ending = {
 			13,
 			14,
 			15
+		},
+		{
+			101,
+			102,
+			103,
+			104,
+			105,
+			106,
+			107,
+			108,
+			109,
+			110,
+			111,
+			112,
+			113,
+			114,
+			115
 		}
 	},
 	all = {
@@ -448,6 +847,21 @@ pg.child2_ending = {
 		12,
 		13,
 		14,
-		15
+		15,
+		101,
+		102,
+		103,
+		104,
+		105,
+		106,
+		107,
+		108,
+		109,
+		110,
+		111,
+		112,
+		113,
+		114,
+		115
 	}
 }

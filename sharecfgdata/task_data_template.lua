@@ -44440,6 +44440,135 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[8001] = {
+		name = "TB一期一周目通关",
+		guild_coin_award = 0,
+		award = 7801,
+		type = 6,
+		desc = "完成<color=#268BC5>养成计划(一周目)</color>，和岛屿<color=#268BC5>开发计划<向着远方></color>，可解锁对应岛屿<color=#268BC5>活动计划</color>，完成<color=#268BC5>活动计划</color>后可获取<color=#268BC5>岛屿角色领航员-TB</color>",
+		count_inherit = 0,
+		sub_type = 1070,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 8001,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				41,
+				12,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[8002] = {
+		name = "TB二期一周目通关",
+		guild_coin_award = 0,
+		award = 7802,
+		type = 6,
+		desc = "完成<color=#268BC5>养成计划(一周目)</color>，和岛屿<color=#268BC5>开发计划<向着远方></color>，可解锁对应岛屿<color=#268BC5>活动计划</color>，完成<color=#268BC5>活动计划</color>后可获取<color=#268BC5>岛屿角色领洋者-娜比娅</color>",
+		count_inherit = 0,
+		sub_type = 1071,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "1",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 8002,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				41,
+				11,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[8003] = {
+		name = "TB三期一周目通关",
+		guild_coin_award = 0,
+		award = 7803,
+		type = 6,
+		desc = "完成<color=#268BC5>养成计划(一周目)</color>，和岛屿<color=#268BC5>开发计划<向着远方></color>，可解锁对应岛屿<color=#268BC5>活动计划</color>，完成<color=#268BC5>活动计划</color>后可获取<color=#268BC5>岛屿角色探索者-艾普洛</color>",
+		count_inherit = 0,
+		sub_type = 1071,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "2",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 8003,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				41,
+				13,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[10003] = {
 		name = "SP1·不详的疑云",
 		guild_coin_award = 0,
@@ -167062,6 +167191,135 @@ end)()
 				5,
 				331,
 				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21911] = {
+		name = "『宴会礼服』系列返场 登陆奖励1",
+		guild_coin_award = 0,
+		award = 905247,
+		type = 6,
+		desc = "不应该被看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21911,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54016,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21912] = {
+		name = "『宴会礼服』系列返场 登陆奖励2",
+		guild_coin_award = 0,
+		award = 905248,
+		type = 6,
+		desc = "不应该被看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21912,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54051,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21913] = {
+		name = "『宴会礼服』系列返场 登陆奖励3",
+		guild_coin_award = 0,
+		award = 905249,
+		type = 6,
+		desc = "不应该被看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21913,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				3
 			}
 		}
 	}

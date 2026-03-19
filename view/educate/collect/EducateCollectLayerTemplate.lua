@@ -53,47 +53,53 @@ function var_0_0.init(arg_3_0)
 	arg_3_0:OverlayPanel(arg_3_0._tf, {
 		groupDelta = 2
 	})
+	eachChild(arg_3_0.pageTF, function(arg_8_0)
+		local var_8_0 = arg_8_0:Find("lock/unlock_btn/Text")
+
+		var_8_0:GetComponent("RichText"):AddSprite("gold", arg_3_0._tf:Find("res/gold"):GetComponent(typeof(Image)).sprite)
+		setText(var_8_0, i18n("child_could_buy"))
+	end)
 end
 
-function var_0_0.updatePage(arg_8_0)
-	setActive(arg_8_0.nextBtn, arg_8_0.pages ~= 1 and arg_8_0.curPageIndex < arg_8_0.pages)
-	setActive(arg_8_0.lastBtn, arg_8_0.pages ~= 1 and arg_8_0.curPageIndex > 1)
-	setText(arg_8_0.paginationTF, arg_8_0.curPageIndex .. "/" .. arg_8_0.pages)
+function var_0_0.updatePage(arg_9_0)
+	setActive(arg_9_0.nextBtn, arg_9_0.pages ~= 1 and arg_9_0.curPageIndex < arg_9_0.pages)
+	setActive(arg_9_0.lastBtn, arg_9_0.pages ~= 1 and arg_9_0.curPageIndex > 1)
+	setText(arg_9_0.paginationTF, arg_9_0.curPageIndex .. "/" .. arg_9_0.pages)
 
-	local var_8_0 = (arg_8_0.curPageIndex - 1) * arg_8_0.onePageCnt
+	local var_9_0 = (arg_9_0.curPageIndex - 1) * arg_9_0.onePageCnt
 
-	for iter_8_0 = 1, arg_8_0.onePageCnt do
-		local var_8_1 = arg_8_0.pageTF:Find("frame_" .. iter_8_0)
-		local var_8_2 = arg_8_0.config[arg_8_0.config.all[var_8_0 + iter_8_0]]
+	for iter_9_0 = 1, arg_9_0.onePageCnt do
+		local var_9_1 = arg_9_0.pageTF:Find("frame_" .. iter_9_0)
+		local var_9_2 = arg_9_0.config[arg_9_0.config.all[var_9_0 + iter_9_0]]
 
-		if var_8_2 then
-			setActive(var_8_1, true)
-			arg_8_0:updateItem(var_8_2, var_8_1)
+		if var_9_2 then
+			setActive(var_9_1, true)
+			arg_9_0:updateItem(var_9_2, var_9_1)
 		else
-			setActive(var_8_1, false)
+			setActive(var_9_1, false)
 		end
 	end
 end
 
-function var_0_0.updateItem(arg_9_0, arg_9_1, arg_9_2)
+function var_0_0.updateItem(arg_10_0, arg_10_1, arg_10_2)
 	assert(nil, "updateItem方法必须由子类实现")
 end
 
-function var_0_0.playAnimChange(arg_10_0)
+function var_0_0.playAnimChange(arg_11_0)
 	assert(nil, "playAnimClose方法必须由子类实现")
 end
 
-function var_0_0.playAnimClose(arg_11_0)
+function var_0_0.playAnimClose(arg_12_0)
 	assert(nil, "playAnimClose方法必须由子类实现")
 end
 
-function var_0_0.onBackPressed(arg_12_0)
-	arg_12_0:playAnimClose()
+function var_0_0.onBackPressed(arg_13_0)
+	arg_13_0:playAnimClose()
 end
 
-function var_0_0.willExit(arg_13_0)
-	arg_13_0.animEvent:SetEndEvent(nil)
-	arg_13_0:UnOverlayPanel(arg_13_0._tf)
+function var_0_0.willExit(arg_14_0)
+	arg_14_0.animEvent:SetEndEvent(nil)
+	arg_14_0:UnOverlayPanel(arg_14_0._tf)
 end
 
 return var_0_0

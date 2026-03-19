@@ -21,6 +21,8 @@ function var_0_0.init(arg_3_0)
 	arg_3_0.contentTF.offsetMax = Vector2(0, 0)
 	arg_3_0.memoryBtn = arg_3_0.contentTF:Find("memory_btn")
 	arg_3_0.polaroidBtn = arg_3_0.contentTF:Find("polaroid_btn")
+	arg_3_0.polaroidBtn2 = arg_3_0.contentTF:Find("polaroid_btn2")
+	arg_3_0.buffBtn = arg_3_0.contentTF:Find("buff_btn")
 	arg_3_0.endingBtn = arg_3_0.contentTF:Find("ending_btn")
 	arg_3_0.reviewBtn = arg_3_0.contentTF:Find("review_btn")
 	arg_3_0.leftTF = arg_3_0._tf:Find("anim_root/left")
@@ -55,10 +57,6 @@ function var_0_0.didEnter(arg_5_0)
 	end, SFX_PANEL)
 	onButton(arg_5_0, arg_5_0.polaroidBtn, function()
 		if arg_5_0.contextData.id == 0 then
-			if isActive(arg_5_0.polaroidBtn:Find("lock")) then
-				return
-			end
-
 			arg_5_0:emit(NewEducateCollectEntranceMediator.GO_SUBLAYER, Context.New({
 				mediator = EducateCollectMediatorTemplate,
 				viewComponent = EducatePolaroidLayer
@@ -73,6 +71,15 @@ function var_0_0.didEnter(arg_5_0)
 				}
 			}))
 		end
+	end, SFX_PANEL)
+	onButton(arg_5_0, arg_5_0.polaroidBtn2, function()
+		arg_5_0:emit(NewEducateCollectEntranceMediator.GO_SUBLAYER, Context.New({
+			mediator = NewEducateCollectMediatorTemplate,
+			viewComponent = NewEducatePolaroidLayer,
+			data = {
+				permanentData = arg_5_0.permanentData
+			}
+		}))
 	end, SFX_PANEL)
 	onButton(arg_5_0, arg_5_0.endingBtn:Find("unlock"), function()
 		if arg_5_0.contextData.id == 0 then
@@ -102,27 +109,36 @@ function var_0_0.didEnter(arg_5_0)
 				memoryGroup = EducateConst.REVIEW_GROUP_ID
 			})
 		else
-			local var_10_0 = pg.child2_data[arg_5_0.contextData.id].memory_group
+			local var_11_0 = pg.child2_data[arg_5_0.contextData.id].memory_group
 
 			arg_5_0:emit(var_0_0.ON_CLOSE)
 			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.WORLD_COLLECTION, {
 				page = WorldMediaCollectionScene.PAGE_MEMORTY,
-				memoryGroup = var_10_0
+				memoryGroup = var_11_0
 			})
 		end
 	end, SFX_PANEL)
-	arg_5_0.toggleList:make(function(arg_11_0, arg_11_1, arg_11_2)
-		if arg_11_0 == UIItemList.EventInit then
-			local var_11_0 = arg_5_0.ids[arg_11_1 + 1]
+	onButton(arg_5_0, arg_5_0.buffBtn, function()
+		arg_5_0:emit(NewEducateCollectEntranceMediator.GO_SUBLAYER, Context.New({
+			mediator = NewEducateCollectMediatorTemplate,
+			viewComponent = NewEducateBuffLayer,
+			data = {
+				permanentData = arg_5_0.permanentData
+			}
+		}))
+	end, SFX_PANEL)
+	arg_5_0.toggleList:make(function(arg_13_0, arg_13_1, arg_13_2)
+		if arg_13_0 == UIItemList.EventInit then
+			local var_13_0 = arg_5_0.ids[arg_13_1 + 1]
 
-			arg_11_2.name = var_11_0
+			arg_13_2.name = var_13_0
 
-			local var_11_1 = var_11_0 == 0 and "linghangyuan1_1" or pg.child2_data[var_11_0].head
+			local var_13_1 = var_13_0 == 0 and "linghangyuan1_1" or pg.child2_data[var_13_0].head
 
-			LoadImageSpriteAsync("qicon/" .. var_11_1, arg_11_2:Find("icon"))
-			onToggle(arg_5_0, arg_11_2, function(arg_12_0)
-				if arg_12_0 then
-					arg_5_0.contextData.id = var_11_0
+			LoadImageSpriteAsync("qicon/" .. var_13_1, arg_13_2:Find("icon"))
+			onToggle(arg_5_0, arg_13_2, function(arg_14_0)
+				if arg_14_0 then
+					arg_5_0.contextData.id = var_13_0
 
 					if arg_5_0.contextData.id == 0 then
 						arg_5_0:FlushTBView()
@@ -143,77 +159,92 @@ function var_0_0.didEnter(arg_5_0)
 	end
 end
 
-function var_0_0.FlushView(arg_13_0, arg_13_1)
-	arg_13_0.permanentData = getProxy(NewEducateProxy):GetChar(arg_13_1):GetPermanentData()
+function var_0_0.FlushView(arg_15_0, arg_15_1)
+	arg_15_0.permanentData = getProxy(NewEducateProxy):GetChar(arg_15_1):GetPermanentData()
 
-	local var_13_0 = #arg_13_0.permanentData:GetUnlockMemoryIds()
-	local var_13_1 = #arg_13_0.permanentData:GetAllMemoryIds()
+	local var_15_0 = #arg_15_0.permanentData:GetUnlockMemoryIds()
+	local var_15_1 = #arg_15_0.permanentData:GetAllMemoryIds()
 
-	setText(arg_13_0.memoryBtn:Find("Text"), var_13_0 .. "/" .. var_13_1)
-	setActive(arg_13_0.memoryBtn:Find("new"), false)
+	setText(arg_15_0.memoryBtn:Find("Text"), var_15_0 .. "/" .. var_15_1)
+	setActive(arg_15_0.memoryBtn:Find("new"), false)
 
-	local var_13_2 = #arg_13_0.permanentData:GetUnlockPolaroidGroups()
-	local var_13_3 = #arg_13_0.permanentData:GetAllPolaroidGroups()
+	local var_15_2 = arg_15_0.permanentData:IsTarotType()
+	local var_15_3 = #arg_15_0.permanentData:GetUnlockPolaroidGroups()
+	local var_15_4 = #arg_15_0.permanentData:GetAllPolaroidGroups()
 
-	setActive(arg_13_0.polaroidBtn:Find("lock"), false)
-	setText(arg_13_0.polaroidBtn:Find("Text"), var_13_2 .. "/" .. var_13_3)
-	setActive(arg_13_0.polaroidBtn:Find("new"), false)
+	setText(arg_15_0.polaroidBtn:Find("Text"), var_15_3 .. "/" .. var_15_4)
+	setText(arg_15_0.polaroidBtn2:Find("Text"), var_15_3 .. "/" .. var_15_4)
+	setActive(arg_15_0.polaroidBtn:Find("new"), false)
+	setActive(arg_15_0.polaroidBtn2:Find("new"), false)
+	setActive(arg_15_0.polaroidBtn, not var_15_2)
+	setActive(arg_15_0.polaroidBtn2, var_15_2)
+	setActive(arg_15_0.buffBtn, var_15_2)
 
-	local var_13_4 = #arg_13_0.permanentData:GetActivatedEndings()
-	local var_13_5 = #arg_13_0.permanentData:GetAllEndingIds()
+	if var_15_2 then
+		local var_15_5 = arg_15_0.permanentData:GetAllBuffCnt()
+		local var_15_6 = arg_15_0.permanentData:GetAllUnlockBuffCnt()
 
-	setText(arg_13_0.endingBtn:Find("unlock/Text"), var_13_4 .. "/" .. var_13_5)
+		setText(arg_15_0.buffBtn:Find("Text"), var_15_6 .. "/" .. var_15_5)
+	end
 
-	local var_13_6 = NewEducateConst.LOCK_ENDING and arg_13_0.permanentData:GetGameCnt()
+	local var_15_7 = #arg_15_0.permanentData:GetActivatedEndings()
+	local var_15_8 = #arg_15_0.permanentData:GetAllEndingIds()
 
-	setActive(arg_13_0.endingBtn:Find("unlock"), not var_13_6)
-	setActive(arg_13_0.endingBtn:Find("lock"), var_13_6)
+	setText(arg_15_0.endingBtn:Find("unlock/Text"), var_15_7 .. "/" .. var_15_8)
+
+	local var_15_9 = NewEducateConst.LOCK_ENDING and arg_15_0.permanentData:GetGameCnt()
+
+	setActive(arg_15_0.endingBtn:Find("unlock"), not var_15_9)
+	setActive(arg_15_0.endingBtn:Find("lock"), var_15_9)
 end
 
-function var_0_0.FlushTBView(arg_14_0)
-	local var_14_0 = getProxy(EducateProxy)
-	local var_14_1 = var_14_0:GetMemories()
-	local var_14_2 = var_14_0:GetFinishEndings()
-	local var_14_3 = #pg.child_memory.all
+function var_0_0.FlushTBView(arg_16_0)
+	local var_16_0 = getProxy(EducateProxy)
+	local var_16_1 = var_16_0:GetMemories()
+	local var_16_2 = var_16_0:GetAllEndings()
+	local var_16_3 = #pg.child_memory.all
 
-	setText(arg_14_0.memoryBtn:Find("Text"), #var_14_1 .. "/" .. var_14_3)
-	arg_14_0:UpdateMemoryTip()
+	setText(arg_16_0.memoryBtn:Find("Text"), #var_16_1 .. "/" .. var_16_3)
+	arg_16_0:UpdateMemoryTip()
 
-	local var_14_4, var_14_5 = var_14_0:GetPolaroidGroupCnt()
+	local var_16_4, var_16_5 = var_16_0:GetPolaroidGroupCnt()
 
-	setText(arg_14_0.polaroidBtn:Find("Text"), var_14_4 .. "/" .. var_14_5)
-	setActive(arg_14_0.polaroidBtn:Find("lock"), not EducateHelper.IsSystemUnlock(EducateConst.SYSTEM_POLAROID))
-	setActive(arg_14_0.polaroidBtn:Find("new"), EducateTipHelper.IsShowNewTip(EducateTipHelper.NEW_POLAROID))
+	setText(arg_16_0.polaroidBtn:Find("Text"), var_16_4 .. "/" .. var_16_5)
+	setActive(arg_16_0.polaroidBtn:Find("lock"), not EducateHelper.IsSystemUnlock(EducateConst.SYSTEM_POLAROID))
+	setActive(arg_16_0.polaroidBtn:Find("new"), EducateTipHelper.IsShowNewTip(EducateTipHelper.NEW_POLAROID))
+	setActive(arg_16_0.polaroidBtn, true)
+	setActive(arg_16_0.polaroidBtn2, false)
+	setActive(arg_16_0.buffBtn, false)
 
-	local var_14_6 = #pg.child_ending.all
+	local var_16_6 = #pg.child_ending.all
 
-	setText(arg_14_0.endingBtn:Find("unlock/Text"), #var_14_2 .. "/" .. var_14_6)
+	setText(arg_16_0.endingBtn:Find("unlock/Text"), #var_16_2 .. "/" .. var_16_6)
 
-	local var_14_7 = EducateHelper.IsSystemUnlock(EducateConst.SYSTEM_ENDING) or #var_14_2 > 0
+	local var_16_7 = EducateHelper.IsSystemUnlock(EducateConst.SYSTEM_ENDING) or #var_16_2 > 0
 
-	setActive(arg_14_0.endingBtn:Find("unlock"), var_14_7)
-	setActive(arg_14_0.endingBtn:Find("lock"), not var_14_7)
+	setActive(arg_16_0.endingBtn:Find("unlock"), var_16_7)
+	setActive(arg_16_0.endingBtn:Find("lock"), not var_16_7)
 end
 
-function var_0_0.UpdateMemoryTip(arg_15_0)
-	local var_15_0 = underscore.any(pg.child_memory.all, function(arg_16_0)
-		return EducateTipHelper.IsShowNewTip(EducateTipHelper.NEW_MEMORY, arg_16_0)
+function var_0_0.UpdateMemoryTip(arg_17_0)
+	local var_17_0 = underscore.any(pg.child_memory.all, function(arg_18_0)
+		return EducateTipHelper.IsShowNewTip(EducateTipHelper.NEW_MEMORY, arg_18_0)
 	end)
 
-	setActive(arg_15_0.memoryBtn:Find("new"), var_15_0)
+	setActive(arg_17_0.memoryBtn:Find("new"), var_17_0)
 end
 
-function var_0_0._close(arg_17_0)
-	arg_17_0.anim:Play("anim_educate_collectentrance_out")
+function var_0_0._close(arg_19_0)
+	arg_19_0.anim:Play("anim_educate_collectentrance_out")
 end
 
-function var_0_0.onBackPressed(arg_18_0)
-	arg_18_0:_close()
+function var_0_0.onBackPressed(arg_20_0)
+	arg_20_0:_close()
 end
 
-function var_0_0.willExit(arg_19_0)
-	arg_19_0.animEvent:SetEndEvent(nil)
-	arg_19_0:UnOverlayPanel(arg_19_0._tf)
+function var_0_0.willExit(arg_21_0)
+	arg_21_0.animEvent:SetEndEvent(nil)
+	arg_21_0:UnOverlayPanel(arg_21_0._tf)
 end
 
 return var_0_0

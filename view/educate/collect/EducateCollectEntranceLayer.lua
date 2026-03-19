@@ -14,7 +14,7 @@ function var_0_0.initData(arg_3_0)
 	local var_3_0 = getProxy(EducateProxy)
 
 	arg_3_0.memories = var_3_0:GetMemories()
-	arg_3_0.endings = var_3_0:GetFinishEndings()
+	arg_3_0.endings = var_3_0:GetAllEndings()
 end
 
 function var_0_0.findUI(arg_4_0)

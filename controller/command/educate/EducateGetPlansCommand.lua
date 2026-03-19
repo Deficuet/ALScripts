@@ -12,7 +12,8 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		if arg_2_0.result == 0 then
 			getProxy(EducateProxy):GetPlanProxy():SetGridData(arg_2_0.plans)
 			arg_1_0:sendNotification(GAME.EDUCATE_EXECUTE_PLANS, {
-				isSkip = var_1_0.isSkip
+				isSkip = var_1_0.isSkip,
+				isSkipEvent = var_1_0.isSkipEvent
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("educate get plans error: ", arg_2_0.result))

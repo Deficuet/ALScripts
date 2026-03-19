@@ -8,7 +8,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		type = 0
 	}, 27011, function(arg_2_0)
 		if arg_2_0.endings then
-			getProxy(EducateProxy):SetEndings(arg_2_0.endings)
+			getProxy(EducateProxy):SetEndings(arg_2_0.endings, arg_2_0.qualifieds)
 			arg_1_0:sendNotification(GAME.EDUCATE_GET_ENDINGS_DONE)
 
 			if var_1_1 then

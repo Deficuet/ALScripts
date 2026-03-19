@@ -111,6 +111,7 @@ pg.pay_data_display = setmetatable({
 		9012,
 		9013,
 		9014,
+		9015,
 		1000,
 		1001,
 		1002,
@@ -13421,6 +13422,120 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				2025
+			}
+		}
+	},
+	[9015] = {
+		limit_group = 0,
+		name = "换装礼盒(宴会礼服)",
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*拥有列表中的所有换装则转换为获得680钻石。",
+		type = 1,
+		second_text = "大量奖励",
+		type_order = 2,
+		subject = "换装礼盒(宴会礼服)",
+		first_text = "随机换装",
+		limit_arg = 2,
+		tip = "",
+		money = 48,
+		tip_open = 0,
+		tag = 2,
+		id = 9015,
+		gem = 0,
+		name_display = "换装礼盒(宴会礼服)",
+		package_sort_id = 0,
+		limit_type = 2,
+		akashi_pick = 1,
+		extra_service = 3,
+		package_tag = "",
+		picture = "fudai34",
+		show_group = "",
+		skin_inquire_relation = 86226,
+		package_tag_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi214",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "可获得列表中未拥有的换装*1（拥有列表中所有换装则转换为获得钻石）和其他奖励",
+		airijp_id = "com.yostarjp.azurlane.diamond202",
+		extra_service_item = {
+			{
+				2,
+				86226,
+				1
+			},
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					3,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81234,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86226,
+				1
 			}
 		}
 	},

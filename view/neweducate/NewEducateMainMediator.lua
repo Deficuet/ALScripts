@@ -5,8 +5,10 @@ var_0_0.ON_SELECT_MIND = "NewEducateMainMediator.ON_SELECT_MIND"
 var_0_0.ON_UPGRADE_FAVOR = "NewEducateMainMediator.ON_UPGRADE_FAVOR"
 var_0_0.ON_TRIGGER_MAIN_EVENT = "NewEducateMainMediator.ON_TRIGGER_MAIN_EVENT"
 var_0_0.ON_REQ_TALENTS = "NewEducateMainMediator.ON_REQ_TALENTS"
+var_0_0.ON_REQ_CHOOSE = "NewEducateMainMediator.ON_REQ_CHOOSE"
 var_0_0.ON_REQ_TOPICS = "NewEducateMainMediator.ON_REQ_TOPICS"
 var_0_0.ON_SELECT_TOPIC = "NewEducateMainMediator.ON_SELECT_TOPIC"
+var_0_0.ON_ENTER_ASSESS = "NewEducateMainMediator.ON_ENTER_ASSESS"
 var_0_0.ON_SET_ASSESS_RANK = "NewEducateMainMediator.ON_SET_ASSESS_RANK"
 var_0_0.ON_STAGE_CHANGE = "NewEducateMainMediator.ON_STAGE_CHANGE"
 var_0_0.ON_NEXT_PLAN = "NewEducateMainMediator.ON_NEXT_PLAN"
@@ -14,6 +16,7 @@ var_0_0.ON_REQ_MAP = "NewEducateMainMediator.ON_REQ_MAP"
 var_0_0.ON_REQ_ENDINGS = "NewEducateMainMediator.ON_REQ_ENDINGS"
 var_0_0.ON_RESET = "NewEducateMainMediator.ON_RESET"
 var_0_0.ON_SELECT_ENDING = "NewEducateMainMediator.ON_SELECT_ENDING"
+var_0_0.ON_START_ENDLESS = "NewEducateMainMediator.ON_START_ENDLESS"
 var_0_0.ON_CLEAR_NODE_CHAIN = "NewEducateMainMediator.ON_CLEAR_NODE_CHAIN"
 
 function var_0_0.register(arg_1_0)
@@ -46,82 +49,105 @@ function var_0_0.register(arg_1_0)
 			callback = arg_6_1
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_REQ_TOPICS, function(arg_7_0, arg_7_1)
-		arg_1_0:sendNotification(GAME.NEW_EDUCATE_GET_TOPICS, {
+	arg_1_0:bind(var_0_0.ON_REQ_CHOOSE, function(arg_7_0, arg_7_1)
+		arg_1_0:sendNotification(GAME.NEW_EDUCATE_GET_CHOOSE, {
 			id = arg_1_0.contextData.char.id,
 			callback = arg_7_1
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_SELECT_TOPIC, function(arg_8_0, arg_8_1)
-		arg_1_0:sendNotification(GAME.NEW_EDUCATE_SEL_TOPIC, {
+	arg_1_0:bind(var_0_0.ON_REQ_TOPICS, function(arg_8_0, arg_8_1)
+		arg_1_0:sendNotification(GAME.NEW_EDUCATE_GET_TOPICS, {
 			id = arg_1_0.contextData.char.id,
-			topicId = arg_8_1
+			callback = arg_8_1
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_NEXT_PLAN, function(arg_9_0, arg_9_1)
+	arg_1_0:bind(var_0_0.ON_SELECT_TOPIC, function(arg_9_0, arg_9_1)
+		arg_1_0:sendNotification(GAME.NEW_EDUCATE_SEL_TOPIC, {
+			id = arg_1_0.contextData.char.id,
+			topicId = arg_9_1
+		})
+	end)
+	arg_1_0:bind(var_0_0.ON_NEXT_PLAN, function(arg_10_0, arg_10_1)
 		arg_1_0:sendNotification(GAME.NEW_EDUCATE_NEXT_PLAN, {
 			rePlay = true,
 			id = arg_1_0.contextData.char.id
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_SET_ASSESS_RANK, function(arg_10_0, arg_10_1, arg_10_2)
-		arg_1_0:sendNotification(GAME.NEW_EDUCATE_ASSESS, {
+	arg_1_0:bind(var_0_0.ON_ENTER_ASSESS, function(arg_11_0, arg_11_1)
+		arg_1_0:sendNotification(GAME.NEW_EDUCATE_ENTER_ASSESS, {
 			id = arg_1_0.contextData.char.id,
-			rank = arg_10_1,
-			callback = arg_10_2
+			callback = arg_11_1
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_STAGE_CHANGE, function(arg_11_0)
+	arg_1_0:bind(var_0_0.ON_SET_ASSESS_RANK, function(arg_12_0, arg_12_1, arg_12_2, arg_12_3)
+		arg_1_0:sendNotification(GAME.NEW_EDUCATE_ASSESS, {
+			id = arg_1_0.contextData.char.id,
+			rank = arg_12_1,
+			endlessFail = arg_12_2,
+			callback = arg_12_3
+		})
+	end)
+	arg_1_0:bind(var_0_0.ON_STAGE_CHANGE, function(arg_13_0)
 		arg_1_0:sendNotification(GAME.NEW_EDUCATE_CHANGE_PHASE, {
 			id = arg_1_0.contextData.char.id
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_REQ_MAP, function(arg_12_0)
+	arg_1_0:bind(var_0_0.ON_REQ_MAP, function(arg_14_0)
 		arg_1_0:sendNotification(GAME.NEW_EDUCATE_GET_MAP, {
 			id = arg_1_0.contextData.char.id
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_REQ_ENDINGS, function(arg_13_0, arg_13_1)
+	arg_1_0:bind(var_0_0.ON_REQ_ENDINGS, function(arg_15_0, arg_15_1)
 		arg_1_0:sendNotification(GAME.NEW_EDUCATE_GET_ENDINGS, {
 			id = arg_1_0.contextData.char.id,
-			callback = arg_13_1
+			callback = arg_15_1
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_RESET, function(arg_14_0, arg_14_1)
+	arg_1_0:bind(var_0_0.ON_RESET, function(arg_16_0, arg_16_1)
 		arg_1_0:sendNotification(GAME.NEW_EDUCATE_RESET, {
 			id = arg_1_0.contextData.char.id,
-			callback = arg_14_1
+			difficulty = arg_1_0.contextData.char.difficulty,
+			callback = arg_16_1
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_SELECT_ENDING, function(arg_15_0, arg_15_1)
+	arg_1_0:bind(var_0_0.ON_SELECT_ENDING, function(arg_17_0, arg_17_1)
 		arg_1_0:sendNotification(GAME.NEW_EDUCATE_SEL_ENDING, {
 			isMain = true,
 			id = arg_1_0.contextData.char.id,
-			endingId = arg_15_1
+			endingId = arg_17_1
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_CLEAR_NODE_CHAIN, function(arg_16_0)
+	arg_1_0:bind(var_0_0.ON_START_ENDLESS, function(arg_18_0)
+		arg_1_0:sendNotification(GAME.NEW_EDUCATE_CHANGE_PHASE, {
+			id = arg_1_0.contextData.char.id
+		})
+	end)
+	arg_1_0:bind(var_0_0.ON_CLEAR_NODE_CHAIN, function(arg_19_0)
 		arg_1_0:sendNotification(GAME.NEW_EDUCATE_CLEAR_NODE_CHAIN, {
 			id = arg_1_0.contextData.char.id
 		})
 	end)
 end
 
-function var_0_0.listNotificationInterests(arg_17_0)
+function var_0_0.listNotificationInterests(arg_20_0)
 	return {
 		NewEducateProxy.RESOURCE_UPDATED,
 		NewEducateProxy.ATTR_UPDATED,
 		NewEducateProxy.PERSONALITY_UPDATED,
 		NewEducateProxy.TALENT_UPDATED,
 		NewEducateProxy.STATUS_UPDATED,
+		NewEducateProxy.TAROT_UPDATED,
 		NewEducateProxy.NEXT_ROUND,
 		GAME.NEW_EDUCATE_SEL_TOPIC_DONE,
 		GAME.NEW_EDUCATE_NODE_START,
 		GAME.NEW_EDUCATE_NEXT_NODE,
 		GAME.NEW_EDUCATE_CHECK_FSM,
+		GAME.NEW_EDUCATE_CHECK_PRIORITY_FSM,
 		GAME.NEW_EDUCATE_GET_EXTRA_DROP_DONE,
 		GAME.NEW_EDUCATE_UPGRADE_FAVOR_DONE,
 		GAME.NEW_EDUCATE_REFRESH_DONE,
+		GAME.NEW_EDUCATE_ENTER_ASSESS_DONE,
+		GAME.NEW_EDUCATE_ASSESS_DONE,
 		GAME.NEW_EDUCATE_CHANGE_PHASE_DONE,
 		GAME.NEW_EDUCATE_NEXT_PLAN_DONE,
 		GAME.NEW_EDUCATE_GET_MAP_DONE,
@@ -131,129 +157,161 @@ function var_0_0.listNotificationInterests(arg_17_0)
 	}
 end
 
-function var_0_0.handleNotification(arg_18_0, arg_18_1)
-	local var_18_0 = arg_18_1:getName()
-	local var_18_1 = arg_18_1:getBody()
+function var_0_0.handleNotification(arg_21_0, arg_21_1)
+	local var_21_0 = arg_21_1:getName()
+	local var_21_1 = arg_21_1:getBody()
 
-	if var_18_0 == NewEducateProxy.RESOURCE_UPDATED then
-		arg_18_0.viewComponent:OnResUpdate()
-	elseif var_18_0 == NewEducateProxy.ATTR_UPDATED then
-		arg_18_0.viewComponent:OnAttrUpdate()
-	elseif var_18_0 == NewEducateProxy.PERSONALITY_UPDATED then
-		arg_18_0.viewComponent:OnPersonalityUpdate(var_18_1.number, var_18_1.oldTag)
-	elseif var_18_0 == NewEducateProxy.TALENT_UPDATED then
-		arg_18_0.viewComponent:OnTalentUpdate()
-	elseif var_18_0 == NewEducateProxy.STATUS_UPDATED then
-		arg_18_0.viewComponent:OnStatusUpdate()
-	elseif var_18_0 == NewEducateProxy.NEXT_ROUND then
-		arg_18_0.viewComponent:OnNextRound()
-	elseif var_18_0 == GAME.NEW_EDUCATE_NODE_START then
-		arg_18_0.viewComponent:OnNodeStart(var_18_1.node)
-	elseif var_18_0 == GAME.NEW_EDUCATE_NEXT_NODE then
-		arg_18_0.viewComponent:OnNextNode(var_18_1)
-	elseif var_18_0 == GAME.NEW_EDUCATE_CHECK_FSM then
-		arg_18_0.viewComponent:CheckFSM()
-	elseif var_18_0 == GAME.NEW_EDUCATE_GET_EXTRA_DROP_DONE then
-		if #var_18_1.drops == 0 then
-			arg_18_0:AddResultLayer(var_18_1)
+	if var_21_0 == NewEducateProxy.RESOURCE_UPDATED then
+		arg_21_0.viewComponent:OnResUpdate()
+	elseif var_21_0 == NewEducateProxy.ATTR_UPDATED then
+		arg_21_0.viewComponent:OnAttrUpdate()
+	elseif var_21_0 == NewEducateProxy.PERSONALITY_UPDATED then
+		arg_21_0.viewComponent:OnPersonalityUpdate(var_21_1.number, var_21_1.oldTag)
+	elseif var_21_0 == NewEducateProxy.TALENT_UPDATED then
+		arg_21_0.viewComponent:OnTalentUpdate()
+	elseif var_21_0 == NewEducateProxy.STATUS_UPDATED then
+		arg_21_0.viewComponent:OnStatusUpdate()
+	elseif var_21_0 == NewEducateProxy.TAROT_UPDATED then
+		arg_21_0.viewComponent:OnTarotUpdate()
+	elseif var_21_0 == NewEducateProxy.NEXT_ROUND then
+		arg_21_0.viewComponent:OnNextRound()
+	elseif var_21_0 == GAME.NEW_EDUCATE_NODE_START then
+		arg_21_0.viewComponent:OnNodeStart(var_21_1.node)
+	elseif var_21_0 == GAME.NEW_EDUCATE_NEXT_NODE then
+		arg_21_0.viewComponent:OnNextNode(var_21_1)
+	elseif var_21_0 == GAME.NEW_EDUCATE_CHECK_FSM then
+		arg_21_0.viewComponent:CheckFSM()
+	elseif var_21_0 == GAME.NEW_EDUCATE_CHECK_PRIORITY_FSM then
+		arg_21_0:CheckPriorityState()
+	elseif var_21_0 == GAME.NEW_EDUCATE_GET_EXTRA_DROP_DONE then
+		if #var_21_1.drops == 0 then
+			arg_21_0:AddResultLayer(var_21_1)
 		else
-			arg_18_0.viewComponent:emit(NewEducateBaseUI.ON_DROP, {
-				items = var_18_1.drops,
+			arg_21_0.viewComponent:emit(NewEducateBaseUI.ON_DROP, {
+				items = var_21_1.drops,
 				removeFunc = function()
-					arg_18_0:AddResultLayer(var_18_1)
+					arg_21_0:AddResultLayer(var_21_1)
 				end
 			})
 		end
-	elseif var_18_0 == GAME.NEW_EDUCATE_UPGRADE_FAVOR_DONE then
-		arg_18_0.viewComponent:UpdateFavorInfo()
-		arg_18_0.viewComponent:emit(NewEducateBaseUI.ON_DROP, {
+	elseif var_21_0 == GAME.NEW_EDUCATE_UPGRADE_FAVOR_DONE then
+		arg_21_0.viewComponent:UpdateFavorInfo()
+		arg_21_0.viewComponent:emit(NewEducateBaseUI.ON_DROP, {
 			isFavor = true,
-			items = var_18_1.drops,
+			items = var_21_1.drops,
 			removeFunc = function()
-				arg_18_0.viewComponent:CheckFavorUpgrade(var_18_1.callback)
+				arg_21_0.viewComponent:CheckFavorUpgrade(var_21_1.callback)
 			end
 		})
-	elseif var_18_0 == GAME.NEW_EDUCATE_REFRESH_DONE then
-		arg_18_0.viewComponent:OnReset()
-	elseif var_18_0 == GAME.NEW_EDUCATE_SEL_TOPIC_DONE then
-		arg_18_0:StartNodeWithCheckDrops(var_18_1)
-	elseif var_18_0 == GAME.NEW_EDUCATE_CHANGE_PHASE_DONE then
-		arg_18_0.viewComponent:AddNewRoundDrops(var_18_1.drops)
-		arg_18_0:CheckFirstNodeExist(var_18_1.node)
-	elseif var_18_0 == GAME.NEW_EDUCATE_NEXT_PLAN_DONE then
-		local function var_18_2()
-			if var_18_1.isFristNode then
-				arg_18_0.viewComponent:OnNodeStart(var_18_1.node)
+	elseif var_21_0 == GAME.NEW_EDUCATE_REFRESH_DONE then
+		arg_21_0.viewComponent:OnReset()
+	elseif var_21_0 == GAME.NEW_EDUCATE_SEL_TOPIC_DONE then
+		arg_21_0:StartNodeWithCheckDrops(var_21_1)
+	elseif var_21_0 == GAME.NEW_EDUCATE_ENTER_ASSESS_DONE then
+		if #var_21_1.drops == 0 then
+			existCall(var_21_1.callback)
+		else
+			arg_21_0.viewComponent:emit(NewEducateBaseUI.ON_DROP, {
+				items = var_21_1.drops,
+				removeFunc = var_21_1.callback
+			})
+		end
+	elseif var_21_0 == GAME.NEW_EDUCATE_ASSESS_DONE then
+		seriesAsync({
+			function(arg_24_0)
+				if #var_21_1.drops == 0 then
+					arg_24_0()
+				else
+					arg_21_0.viewComponent:emit(NewEducateBaseUI.ON_DROP, {
+						items = var_21_1.drops,
+						removeFunc = arg_24_0
+					})
+				end
+			end
+		}, function(arg_25_0)
+			if var_21_1.node ~= 0 then
+				arg_21_0.viewComponent:OnNodeStart(var_21_1.node)
 			else
-				arg_18_0.viewComponent:OnNextNode(var_18_1)
+				arg_21_0.viewComponent:SeriesCheck()
+			end
+		end)
+	elseif var_21_0 == GAME.NEW_EDUCATE_CHANGE_PHASE_DONE then
+		arg_21_0.viewComponent:AddNewRoundDrops(var_21_1.drops)
+		arg_21_0:CheckFirstNodeExist(var_21_1.node)
+	elseif var_21_0 == GAME.NEW_EDUCATE_NEXT_PLAN_DONE then
+		local function var_21_2()
+			if var_21_1.isFristNode then
+				arg_21_0.viewComponent:OnNodeStart(var_21_1.node)
+			else
+				arg_21_0.viewComponent:OnNextNode(var_21_1)
 			end
 		end
 
-		if #var_18_1.drops == 0 then
-			var_18_2()
+		if #var_21_1.drops == 0 then
+			var_21_2()
 		else
-			arg_18_0.viewComponent:emit(NewEducateBaseUI.ON_DROP, {
-				items = var_18_1.drops,
-				removeFunc = var_18_2
+			arg_21_0.viewComponent:emit(NewEducateBaseUI.ON_DROP, {
+				items = var_21_1.drops,
+				removeFunc = var_21_2
 			})
 		end
-	elseif var_18_0 == GAME.NEW_EDUCATE_GET_MAP_DONE then
-		if #var_18_1.drops == 0 then
-			arg_18_0.viewComponent:CheckFSM()
+	elseif var_21_0 == GAME.NEW_EDUCATE_GET_MAP_DONE then
+		if #var_21_1.drops == 0 then
+			arg_21_0.viewComponent:CheckFSM()
 		else
-			arg_18_0.viewComponent:emit(NewEducateBaseUI.ON_DROP, {
-				items = var_18_1.drops,
+			arg_21_0.viewComponent:emit(NewEducateBaseUI.ON_DROP, {
+				items = var_21_1.drops,
 				removeFunc = function()
-					arg_18_0.viewComponent:CheckFSM()
+					arg_21_0.viewComponent:CheckFSM()
 				end
 			})
 		end
-	elseif var_18_0 == GAME.NEW_EDUCATE_SEL_MIND_DONE then
-		arg_18_0:StartNodeWithCheckDrops(var_18_1)
-	elseif var_18_0 == GAME.NEW_EDUCATE_SEL_ENDING_DONE then
-		if var_18_1.isMain then
-			arg_18_0.viewComponent:OnSelDone(var_18_1.id)
+	elseif var_21_0 == GAME.NEW_EDUCATE_SEL_MIND_DONE then
+		arg_21_0:StartNodeWithCheckDrops(var_21_1)
+	elseif var_21_0 == GAME.NEW_EDUCATE_SEL_ENDING_DONE then
+		if var_21_1.isMain then
+			arg_21_0.viewComponent:OnSelDone(var_21_1.id)
 		end
-	elseif var_18_0 == GAME.NEW_EDUCATE_SET_CALL_DONE then
-		arg_18_0.viewComponent:UpdateCallName()
+	elseif var_21_0 == GAME.NEW_EDUCATE_SET_CALL_DONE then
+		arg_21_0.viewComponent:UpdateCallName()
 	end
 end
 
-function var_0_0.CheckFirstNodeExist(arg_23_0, arg_23_1)
-	if arg_23_1 == 0 then
-		arg_23_0.viewComponent:SeriesCheck()
+function var_0_0.CheckFirstNodeExist(arg_28_0, arg_28_1)
+	if arg_28_1 == 0 then
+		arg_28_0.viewComponent:SeriesCheck()
 	else
-		arg_23_0.viewComponent:OnNodeStart(arg_23_1)
+		arg_28_0.viewComponent:OnNodeStart(arg_28_1)
 	end
 end
 
-function var_0_0.StartNodeWithCheckDrops(arg_24_0, arg_24_1)
-	if #arg_24_1.drops == 0 then
-		arg_24_0.viewComponent:OnNodeStart(arg_24_1.node)
+function var_0_0.StartNodeWithCheckDrops(arg_29_0, arg_29_1)
+	if #arg_29_1.drops == 0 then
+		arg_29_0.viewComponent:OnNodeStart(arg_29_1.node)
 	else
-		arg_24_0.viewComponent:emit(NewEducateBaseUI.ON_DROP, {
-			items = arg_24_1.drops,
+		arg_29_0.viewComponent:emit(NewEducateBaseUI.ON_DROP, {
+			items = arg_29_1.drops,
 			removeFunc = function()
-				arg_24_0.viewComponent:OnNodeStart(arg_24_1.node)
+				arg_29_0.viewComponent:OnNodeStart(arg_29_1.node)
 			end
 		})
 	end
 end
 
-function var_0_0.AddResultLayer(arg_26_0, arg_26_1)
-	if #arg_26_1.scheduleDrops > 0 then
-		arg_26_0:addSubLayers(Context.New({
+function var_0_0.AddResultLayer(arg_31_0, arg_31_1)
+	if #arg_31_1.scheduleDrops > 0 then
+		arg_31_0:addSubLayers(Context.New({
 			viewComponent = NewEducateScheduleResultLayer,
 			mediator = NewEducateScheduleResultMediator,
 			data = {
-				drops = arg_26_1.scheduleDrops,
+				drops = arg_31_1.scheduleDrops,
 				onExit = function()
-					arg_26_0.viewComponent:CheckFSM()
+					arg_31_0.viewComponent:CheckFSM()
 				end
 			}
 		}))
 	else
-		arg_26_0.viewComponent:CheckFSM()
+		arg_31_0.viewComponent:CheckFSM()
 	end
 end
 

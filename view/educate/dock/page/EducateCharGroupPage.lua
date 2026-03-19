@@ -185,14 +185,46 @@ function var_0_0.InitCard(arg_19_0, arg_19_1, arg_19_2, arg_19_3)
 		end
 
 		if arg_19_2:IsLock() then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("secretary_special_lock_tip"))
+			local var_20_0 = pg.secretary_special_ship[arg_19_2.id]
+
+			if var_20_0.unlock_type == 4 then
+				local var_20_1 = var_20_0.unlock[1]
+				local var_20_2 = pg.ship_skin_template[var_20_1].shop_id
+
+				if var_20_2 ~= 0 and Goods.Create({
+					shop_id = var_20_2
+				}, Goods.TYPE_SKIN):inTime() then
+					local var_20_3 = {}
+
+					if PLATFORM_CODE ~= PLATFORM_JP then
+						table.insert(var_20_3, function(arg_21_0)
+							pg.MsgboxMgr.GetInstance():ShowMsgBox({
+								content = i18n("child2_secretary_skin_confirm"),
+								onYes = arg_21_0
+							})
+						end)
+					end
+
+					seriesAsync(var_20_3, function()
+						arg_19_0:emit(EducateCharDockMediator.ON_SKIN_SHOP, var_20_1)
+					end)
+
+					return
+				end
+
+				pg.TipsMgr.GetInstance():ShowTips(i18n("不在贩卖期间"))
+
+				return
+			end
+
+			pg.TipsMgr.GetInstance():ShowTips(i18n("child2_secretary_skin_expire"))
 
 			return
 		end
 
 		arg_19_0.doAnim = true
 
-		arg_19_0.dftAniEvent:SetEndEvent(function(arg_21_0)
+		arg_19_0.dftAniEvent:SetEndEvent(function(arg_23_0)
 			arg_19_0.doAnim = nil
 
 			arg_19_0.dftAniEvent:SetEndEvent(nil)
@@ -210,36 +242,36 @@ function var_0_0.InitCard(arg_19_0, arg_19_1, arg_19_2, arg_19_3)
 	arg_19_0.timers[arg_19_3]:Start()
 end
 
-function var_0_0.UpdateCard(arg_23_0, arg_23_1, arg_23_2)
-	local var_23_0 = arg_23_1:Find("anim_root")
+function var_0_0.UpdateCard(arg_25_0, arg_25_1, arg_25_2)
+	local var_25_0 = arg_25_1:Find("anim_root")
 
-	setActive(var_23_0:Find("lock"), arg_23_2:IsLock())
-	setActive(var_23_0:Find("mark"), arg_23_2:IsSelected(arg_23_0.selectedId))
-	setScrollText(var_23_0:Find("lock/desc/Text"), arg_23_2:GetUnlockDesc())
-	setActive(var_23_0:Find("tip"), arg_23_2:ShouldTip())
+	setActive(var_25_0:Find("lock"), arg_25_2:IsLock())
+	setActive(var_25_0:Find("mark"), arg_25_2:IsSelected(arg_25_0.selectedId))
+	setScrollText(var_25_0:Find("lock/desc/Text"), arg_25_2:GetUnlockDesc())
+	setActive(var_25_0:Find("tip"), arg_25_2:ShouldTip())
 end
 
-function var_0_0.RemoveAllTimer(arg_24_0)
-	for iter_24_0, iter_24_1 in pairs(arg_24_0.timers) do
-		iter_24_1:Stop()
+function var_0_0.RemoveAllTimer(arg_26_0)
+	for iter_26_0, iter_26_1 in pairs(arg_26_0.timers) do
+		iter_26_1:Stop()
 
-		iter_24_1 = nil
+		iter_26_1 = nil
 	end
 
-	arg_24_0.timers = {}
+	arg_26_0.timers = {}
 end
 
-function var_0_0.Destroy(arg_25_0)
-	for iter_25_0, iter_25_1 in pairs(arg_25_0.cards or {}) do
-		local var_25_0 = iter_25_1:IsSp() and iter_25_0:Find("sp_mask/painting") or iter_25_0:Find("mask/painting")
-		local var_25_1 = iter_25_1:GetShowPainting()
+function var_0_0.Destroy(arg_27_0)
+	for iter_27_0, iter_27_1 in pairs(arg_27_0.cards or {}) do
+		local var_27_0 = iter_27_1:IsSp() and iter_27_0:Find("sp_mask/painting") or iter_27_0:Find("mask/painting")
+		local var_27_1 = iter_27_1:GetShowPainting()
 
-		retPaintingPrefab(var_25_0, var_25_1)
+		retPaintingPrefab(var_27_0, var_27_1)
 	end
 
-	pg.DelegateInfo.Dispose(arg_25_0)
-	arg_25_0.dftAniEvent:SetEndEvent(nil)
-	arg_25_0:RemoveAllTimer()
+	pg.DelegateInfo.Dispose(arg_27_0)
+	arg_27_0.dftAniEvent:SetEndEvent(nil)
+	arg_27_0:RemoveAllTimer()
 end
 
 return var_0_0

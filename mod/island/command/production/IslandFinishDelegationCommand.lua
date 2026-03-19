@@ -55,7 +55,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 
 			local var_2_10
 
-			if #arg_2_0.award == 0 then
+			if arg_2_0.return_num ~= 0 then
 				if arg_2_0.add_exp > 0 then
 					var_2_10 = {
 						addShipId = arg_2_0.ship_id,

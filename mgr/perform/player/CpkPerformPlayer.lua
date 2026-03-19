@@ -135,4 +135,8 @@ function var_0_0.Clear(arg_11_0)
 	gcAll()
 end
 
+function var_0_0.Dispose(arg_12_0)
+	arg_12_0:Clear()
+end
+
 return var_0_0

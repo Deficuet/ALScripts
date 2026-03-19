@@ -302,74 +302,81 @@ pg.child2_memory = {
 		lua = "TANSUOZHEYANGCHENGJIHUA19"
 	},
 	[219] = {
-		desc = "衣柜大换新",
+		desc = "衣柜大换新I",
 		character = 2,
 		id = 219,
 		pic = "bg_project_explorer_cg30",
 		lua = "TANSUOZHEYANGCHENGJIHUA20"
 	},
 	[220] = {
-		desc = "少女的秘密",
+		desc = "衣柜大换新II",
 		character = 2,
 		id = 220,
 		pic = "bg_project_explorer_cg30",
 		lua = "TANSUOZHEYANGCHENGJIHUA21"
 	},
 	[221] = {
-		desc = "心映琳琅",
+		desc = "少女的秘密",
 		character = 2,
 		id = 221,
 		pic = "bg_project_explorer_cg27",
 		lua = "TANSUOZHEYANGCHENGJIHUA22"
 	},
 	[222] = {
-		desc = "弦上之意",
+		desc = "心映琳琅",
 		character = 2,
 		id = 222,
 		pic = "bg_project_explorer_cg29",
 		lua = "TANSUOZHEYANGCHENGJIHUA23"
 	},
 	[223] = {
-		desc = "甜蜜分享",
+		desc = "弦上之意",
 		character = 2,
 		id = 223,
 		pic = "bg_project_explorer_cg28",
 		lua = "TANSUOZHEYANGCHENGJIHUA24"
 	},
 	[224] = {
-		desc = "定格的春天",
+		desc = "甜蜜分享",
 		character = 2,
 		id = 224,
 		pic = "bg_project_explorer_cg24",
 		lua = "TANSUOZHEYANGCHENGJIHUA25"
 	},
 	[225] = {
-		desc = "占卜初体验",
+		desc = "定格的春天",
 		character = 2,
 		id = 225,
 		pic = "bg_project_explorer_cg25",
 		lua = "TANSUOZHEYANGCHENGJIHUA26"
 	},
 	[226] = {
-		desc = "伴你同行",
+		desc = "占卜初体验",
 		character = 2,
 		id = 226,
 		pic = "bg_project_explorer_cg26",
 		lua = "TANSUOZHEYANGCHENGJIHUA27"
 	},
 	[227] = {
-		desc = "新的起点",
+		desc = "伴你同行I",
 		character = 2,
 		id = 227,
 		pic = "bg_project_explorer_cg31",
 		lua = "TANSUOZHEYANGCHENGJIHUA28"
 	},
 	[228] = {
-		desc = "新的起点",
+		desc = "伴你同行II",
 		character = 2,
 		id = 228,
 		pic = "bg_project_explorer_cg31",
 		lua = "TANSUOZHEYANGCHENGJIHUA29"
+	},
+	[229] = {
+		desc = "新的起点",
+		character = 2,
+		id = 229,
+		pic = "bg_project_explorer_cg32",
+		lua = "TANSUOZHEYANGCHENGJIHUA30"
 	},
 	get_id_list_by_character = {
 		{
@@ -427,7 +434,8 @@ pg.child2_memory = {
 			225,
 			226,
 			227,
-			228
+			228,
+			229
 		}
 	},
 	all = {
@@ -483,6 +491,7 @@ pg.child2_memory = {
 		225,
 		226,
 		227,
-		228
+		228,
+		229
 	}
 }

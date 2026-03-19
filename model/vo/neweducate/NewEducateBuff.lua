@@ -79,4 +79,10 @@ function var_0_0.GetDisplayNum(arg_10_0, arg_10_1)
 	return arg_10_0.effectNums[arg_10_1] or 0
 end
 
+function var_0_0.IsVisible(arg_11_0)
+	local var_11_0 = pg.child2_benefit_list[arg_11_0]
+
+	return var_11_0.ignore_on_collection ~= 1 and var_11_0.is_show ~= 0
+end
+
 return var_0_0

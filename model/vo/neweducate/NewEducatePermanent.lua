@@ -145,41 +145,31 @@ end
 
 function var_0_0.GetAllTarotIds(arg_24_0)
 	return underscore.select(arg_24_0:GetAllBuffIds(), function(arg_25_0)
-		local var_25_0 = pg.child2_benefit_list[arg_25_0]
-
-		return var_25_0.type == NewEducateBuff.TYPE.TAROT and var_25_0.ignore_on_collection ~= 1
+		return pg.child2_benefit_list[arg_25_0].type == NewEducateBuff.TYPE.TAROT and NewEducateBuff.IsVisible(arg_25_0)
 	end)
 end
 
 function var_0_0.GetActivatedTarotIds(arg_26_0)
 	return underscore.select(arg_26_0.buffIds, function(arg_27_0)
-		local var_27_0 = pg.child2_benefit_list[arg_27_0]
-
-		return var_27_0.type == NewEducateBuff.TYPE.TAROT and var_27_0.ignore_on_collection ~= 1
+		return pg.child2_benefit_list[arg_27_0].type == NewEducateBuff.TYPE.TAROT and NewEducateBuff.IsVisible(arg_27_0)
 	end)
 end
 
 function var_0_0.GetAllTalentIds(arg_28_0)
 	return underscore.select(arg_28_0:GetAllBuffIds(), function(arg_29_0)
-		local var_29_0 = pg.child2_benefit_list[arg_29_0]
-
-		return var_29_0.type == NewEducateBuff.TYPE.TALENT and var_29_0.ignore_on_collection ~= 1
+		return pg.child2_benefit_list[arg_29_0].type == NewEducateBuff.TYPE.TALENT and NewEducateBuff.IsVisible(arg_29_0)
 	end)
 end
 
 function var_0_0.GetActivatedTalentIds(arg_30_0)
 	return underscore.select(arg_30_0.buffIds, function(arg_31_0)
-		local var_31_0 = pg.child2_benefit_list[arg_31_0]
-
-		return var_31_0.type == NewEducateBuff.TYPE.TALENT and var_31_0.ignore_on_collection ~= 1
+		return pg.child2_benefit_list[arg_31_0].type == NewEducateBuff.TYPE.TALENT and NewEducateBuff.IsVisible(arg_31_0)
 	end)
 end
 
 function var_0_0.GetAllEntryIds(arg_32_0)
 	return underscore.select(arg_32_0:GetAllBuffIds(), function(arg_33_0)
-		local var_33_0 = pg.child2_benefit_list[arg_33_0]
-
-		return var_33_0.type == NewEducateBuff.TYPE.ENTRY and var_33_0.ignore_on_collection ~= 1
+		return pg.child2_benefit_list[arg_33_0].type == NewEducateBuff.TYPE.ENTRY and NewEducateBuff.IsVisible(arg_33_0)
 	end)
 end
 
@@ -207,9 +197,7 @@ end
 
 function var_0_0.GetActivatedEntryIds(arg_37_0)
 	return underscore.select(arg_37_0.buffIds, function(arg_38_0)
-		local var_38_0 = pg.child2_benefit_list[arg_38_0]
-
-		return var_38_0.type == NewEducateBuff.TYPE.ENTRY and var_38_0.ignore_on_collection ~= 1
+		return pg.child2_benefit_list[arg_38_0].type == NewEducateBuff.TYPE.ENTRY and NewEducateBuff.IsVisible(arg_38_0)
 	end)
 end
 

@@ -39669,7 +39669,8 @@ pg.activity_template = {
 			12039,
 			12040,
 			12041,
-			12042
+			12042,
+			12043
 		},
 		config_client = {
 			"commonbg/meta_shop_bg",

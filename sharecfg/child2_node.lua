@@ -43060,6 +43060,20 @@ pg.child2_node = {
 		option_condition = {},
 		option_cost = {}
 	},
+	[3400024] = {
+		performance_type = 5,
+		name = 0,
+		drop_type_client = 0,
+		type = 1,
+		performance_param = "TANSUOZHEYANGCHENGJIHUA10",
+		next_type = 1,
+		﻿id = 3400024,
+		text = 0,
+		next = "3400007",
+		option_condition_show = 0,
+		option_condition = {},
+		option_cost = {}
+	},
 	[3400007] = {
 		performance_type = 5,
 		name = 0,
@@ -43200,6 +43214,20 @@ pg.child2_node = {
 		option_condition = {},
 		option_cost = {}
 	},
+	[3400025] = {
+		performance_type = 5,
+		name = 0,
+		drop_type_client = 0,
+		type = 1,
+		performance_param = "TANSUOZHEYANGCHENGJIHUA21",
+		next_type = 1,
+		﻿id = 3400025,
+		text = 0,
+		next = "",
+		option_condition_show = 0,
+		option_condition = {},
+		option_cost = {}
+	},
 	[3400017] = {
 		performance_type = 5,
 		name = 0,
@@ -43292,6 +43320,20 @@ pg.child2_node = {
 		performance_param = "TANSUOZHEYANGCHENGJIHUA28",
 		next_type = 1,
 		﻿id = 3400023,
+		text = 0,
+		next = "",
+		option_condition_show = 0,
+		option_condition = {},
+		option_cost = {}
+	},
+	[3400026] = {
+		performance_type = 5,
+		name = 0,
+		drop_type_client = 0,
+		type = 1,
+		performance_param = "TANSUOZHEYANGCHENGJIHUA29",
+		next_type = 1,
+		﻿id = 3400026,
 		text = 0,
 		next = "",
 		option_condition_show = 0,
@@ -58250,11 +58292,13 @@ pg.child2_node = {
 		drop_type_client = 0,
 		type = 1,
 		performance_param = "1",
-		next_type = 1,
+		next_type = 2,
 		﻿id = 3209503,
 		text = 0,
-		next = "",
 		option_condition_show = 0,
+		next = {
+			3209504
+		},
 		option_condition = {},
 		option_cost = {}
 	},
@@ -58348,11 +58392,13 @@ pg.child2_node = {
 		drop_type_client = 0,
 		type = 1,
 		performance_param = "2",
-		next_type = 1,
+		next_type = 2,
 		﻿id = 3209510,
 		text = 0,
-		next = "",
 		option_condition_show = 0,
+		next = {
+			3209504
+		},
 		option_condition = {},
 		option_cost = {}
 	},
@@ -142447,6 +142493,7 @@ pg.child2_node = {
 		3400004,
 		3400005,
 		3400006,
+		3400024,
 		3400007,
 		3400008,
 		3400009,
@@ -142457,6 +142504,7 @@ pg.child2_node = {
 		3400014,
 		3400015,
 		3400016,
+		3400025,
 		3400017,
 		3400018,
 		3400019,
@@ -142464,6 +142512,7 @@ pg.child2_node = {
 		3400021,
 		3400022,
 		3400023,
+		3400026,
 		3200101,
 		3200102,
 		3200103,

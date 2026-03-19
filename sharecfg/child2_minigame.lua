@@ -22,12 +22,12 @@ pg.child2_minigame = {
 		id = 2,
 		view_name = "NewEducateNailingGame",
 		config_data = {
-			count = 6,
-			hammer_spd = 300,
+			count = 3,
+			hammer_spd = 350,
 			nail_score = 1,
 			nail_count = 3,
 			red_nail_score = -1,
-			red_nail_count = 0
+			red_nail_count = 1
 		},
 		result_data = {
 			{
@@ -36,7 +36,7 @@ pg.child2_minigame = {
 					1
 				},
 				{
-					3209514
+					3209504
 				}
 			},
 			{
@@ -45,7 +45,7 @@ pg.child2_minigame = {
 					3
 				},
 				{
-					3209512
+					3209504
 				}
 			},
 			{
@@ -54,7 +54,7 @@ pg.child2_minigame = {
 					99
 				},
 				{
-					3209519
+					3209504
 				}
 			}
 		}

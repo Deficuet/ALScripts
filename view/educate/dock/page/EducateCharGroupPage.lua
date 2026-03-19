@@ -212,12 +212,12 @@ function var_0_0.InitCard(arg_19_0, arg_19_1, arg_19_2, arg_19_3)
 					return
 				end
 
-				pg.TipsMgr.GetInstance():ShowTips(i18n("不在贩卖期间"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("child2_secretary_skin_expire"))
 
 				return
 			end
 
-			pg.TipsMgr.GetInstance():ShowTips(i18n("child2_secretary_skin_expire"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("secretary_special_lock_tip"))
 
 			return
 		end

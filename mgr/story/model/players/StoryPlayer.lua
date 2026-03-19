@@ -666,6 +666,14 @@ function var_0_0.UpdateOptionBGWithTB(arg_62_0, arg_62_1, arg_62_2)
 	local var_62_1 = arg_62_1:Find("type1")
 	local var_62_2 = arg_62_1:Find("type2")
 
+	if var_62_1 then
+		setActive(var_62_1, false)
+	end
+
+	if var_62_2 then
+		setActive(var_62_2, false)
+	end
+
 	if var_62_0 and var_62_1 then
 		local var_62_3 = arg_62_2 and arg_62_2 == 1
 

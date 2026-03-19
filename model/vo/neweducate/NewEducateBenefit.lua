@@ -28,7 +28,7 @@ function var_0_0.GetListByType(arg_5_0, arg_5_1)
 	local var_5_0 = {}
 
 	for iter_5_0, iter_5_1 in pairs(arg_5_0.buffs) do
-		if iter_5_1:getConfig("is_show") == 1 and iter_5_1:getConfig("type") == arg_5_1 then
+		if NewEducateBuff.IsVisible(iter_5_1.id) and iter_5_1:getConfig("type") == arg_5_1 then
 			table.insert(var_5_0, iter_5_1)
 		end
 	end

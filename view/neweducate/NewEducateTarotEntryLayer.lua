@@ -222,7 +222,7 @@ end
 
 function var_0_0.UpdateSummary(arg_22_0)
 	local var_22_0 = underscore.select(arg_22_0.contextData.char:GetPermanentData():GetAllBuffIds(), function(arg_23_0)
-		return arg_22_0.config[arg_23_0].type == NewEducateBuff.TYPE.ENTRY
+		return arg_22_0.config[arg_23_0].type == NewEducateBuff.TYPE.ENTRY and NewEducateBuff.IsVisible(arg_23_0)
 	end)
 
 	arg_22_0.allEntryCntText.text = #arg_22_0.entries .. "/" .. #var_22_0

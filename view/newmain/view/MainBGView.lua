@@ -85,6 +85,8 @@ function var_0_0.Init(arg_4_0, arg_4_1)
 
 	local var_4_1, var_4_2 = MainPaintingView.GetAssistantStatus(arg_4_1)
 
+	arg_4_0._showBg = var_4_2
+
 	if arg_4_0.isSpecialBg and var_4_2 then
 		arg_4_0:SetSpecailBg(var_4_0)
 		arg_4_0:ClearMapBg()
@@ -130,7 +132,13 @@ end
 function var_0_0.SetSpecailBg(arg_7_0, arg_7_1)
 	arg_7_0.isloading = true
 
+	local var_7_0 = var_0_0.GetBgAndBgm()
+
 	pg.DynamicBgMgr.GetInstance():LoadBg(arg_7_0, arg_7_1, arg_7_0._tf.parent, arg_7_0._tf, function(arg_8_0)
+		arg_7_0:SetCommonBg(var_7_0)
+		setActive(arg_7_0._tf, true)
+		tf(arg_8_0):SetAsFirstSibling()
+
 		arg_7_0.isloading = false
 		arg_8_0.transform.localPosition = Vector3(0, 0, 200)
 	end, function()
@@ -212,6 +220,7 @@ function var_0_0.AdjustMapEffect(arg_17_0, arg_17_1)
 end
 
 function var_0_0.SetCommonBg(arg_18_0, arg_18_1)
+	setActive(arg_18_0._tf, false)
 	setActive(arg_18_0._tf, true)
 
 	local var_18_0 = arg_18_0._tf:GetComponent(typeof(Image)).sprite

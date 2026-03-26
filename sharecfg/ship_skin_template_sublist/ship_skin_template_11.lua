@@ -13861,6 +13861,160 @@ pg.base.ship_skin_template_11 = {
 			}
 		}
 	},
+	[404034] = {
+		ship_group = 40403,
+		name = "双面危局",
+		hand_id = 13,
+		lover_kiss = "lip02",
+		bgm = "",
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 404034,
+		group_index = 4,
+		purchase_offset = "",
+		painting = "saidelici_8",
+		lover_hand = "hand_2_02",
+		gyro = 0,
+		l2d_drag_rate = "",
+		shop_type_id = 12,
+		prefab = "saidelici_8",
+		part_scale = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		shop_id = 71322,
+		shop_dynamic_hx = 0,
+		bg = "154",
+		illustrator = -1,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 4,
+		double_char = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		l2d_voice_calibrate = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "长官，您就是组织派来接应我的人吗？目前计划进行顺利，货已到手，可以按照原定路线撤离了……",
+		voice_actor = 144,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.691,
+					0.808,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.348,
+					1.235,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.795,
+					2.314,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.72,
+							2.549,
+							-0.73
+						}
+					}
+				}
+			}
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					2013,
+					-96,
+					2,
+					0,
+					144,
+					2
+				},
+				{
+					198,
+					1429,
+					2,
+					-137,
+					0,
+					2
+				},
+				{
+					-299,
+					-428,
+					2,
+					0,
+					-126,
+					2
+				}
+			}
+		}
+	},
 	[404040] = {
 		ship_group = 40404,
 		name = "{namecode:461}",

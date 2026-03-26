@@ -24,6 +24,7 @@ function var_0_0.InitByServer(arg_2_0, arg_2_1)
 	arg_2_0.text = arg_2_1.text
 	arg_2_0.picture = arg_2_1.picture
 	arg_2_0.time = arg_2_1.time
+	arg_2_0.oaListPic = arg_2_1.oalist_pic
 	arg_2_0.optionDiscuss = {}
 	arg_2_0.discussList = {}
 	arg_2_0.allReply = {}
@@ -70,6 +71,7 @@ function var_0_0.InitByConfig(arg_3_0, arg_3_1)
 	arg_3_0.text = var_0_1[var_3_0].value
 	arg_3_0.picture = arg_3_0:getConfig("picture_persist")
 	arg_3_0.time = pg.TimeMgr.GetInstance():parseTimeFromConfig(arg_3_0:getConfig("time_persist"))
+	arg_3_0.oaListPic = arg_3_0:getConfig("oalist_pic_persist")
 	arg_3_0.optionDiscuss = {}
 	arg_3_0.discussList = {}
 	arg_3_0.allReply = getProxy(InstagramProxy):GetAllReply()

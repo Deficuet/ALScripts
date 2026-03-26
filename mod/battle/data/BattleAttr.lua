@@ -341,6 +341,7 @@ function var_0_0.SetPlayerAttrFromOutBattle(arg_34_0, arg_34_1, arg_34_2)
 	var_34_0.guardian = {}
 	var_34_0.injureRatioKamikazeAir = 1
 	var_34_0.injureRatioKamikazeShip = 1
+	var_34_0.nationality = arg_34_0:GetTemplate().nationality
 
 	var_0_0.SetBaseAttr(arg_34_0)
 end
@@ -401,6 +402,7 @@ function var_0_0.SetEnemyAttr(arg_37_0, arg_37_1)
 	var_37_2.luck = var_37_0.luck + var_37_0.luck_growth * var_37_3
 	var_37_2.bulletSpeedRatio = 0
 	var_37_2.id = "enemy_" .. tostring(var_37_0.id)
+	var_37_2.nationality = var_37_0.nationality
 	var_37_2.repressReduce = 1
 	var_37_2.healingRate = 1
 	var_37_2.comboTag = "combo_" .. var_37_2.battleUID
@@ -518,6 +520,7 @@ function var_0_0.SetMinionAttr(arg_39_0, arg_39_1)
 	var_39_4.labelTag = {}
 	var_39_4.TargetChoise = {}
 	var_39_4.guardian = {}
+	var_39_4.nationality = var_39_2.nationality
 
 	var_0_0.SetBaseAttr(arg_39_0)
 end

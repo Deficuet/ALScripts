@@ -3,11 +3,18 @@ local var_0_0 = class("InstagramPlayerComment", import(".InstagramComment"))
 function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2, arg_1_3, arg_1_4)
 	var_0_0.super.Ctor(arg_1_0, arg_1_1, arg_1_2, arg_1_3, arg_1_4)
 
-	if arg_1_1.npc_reply ~= 0 then
-		local var_1_0 = arg_1_0.level + 1
-		local var_1_1 = InstagramNpcComment.New(arg_1_0.allReply[arg_1_1.npc_reply], arg_1_2, var_1_0, arg_1_0)
+	local var_1_0 = arg_1_0.level + 1
 
-		table.insert(arg_1_0.replyList, var_1_1)
+	if type(arg_1_1.npc_reply) == "table" then
+		for iter_1_0, iter_1_1 in ipairs(arg_1_1.npc_reply) do
+			local var_1_1 = InstagramNpcComment.New(arg_1_0.allReply[iter_1_1], arg_1_2, var_1_0, arg_1_0)
+
+			table.insert(arg_1_0.replyList, var_1_1)
+		end
+	elseif arg_1_1.npc_reply ~= 0 then
+		local var_1_2 = InstagramNpcComment.New(arg_1_0.allReply[arg_1_1.npc_reply], arg_1_2, var_1_0, arg_1_0)
+
+		table.insert(arg_1_0.replyList, var_1_2)
 	end
 end
 

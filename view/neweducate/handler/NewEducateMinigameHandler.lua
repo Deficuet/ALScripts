@@ -28,6 +28,10 @@ function var_0_0.Play(arg_2_0, arg_2_1, arg_2_2)
 end
 
 function var_0_0.GetNextId(arg_4_0, arg_4_1)
+	if type(arg_4_1) ~= "number" then
+		arg_4_1 = 0
+	end
+
 	local var_4_0 = arg_4_0.config.result_data
 
 	for iter_4_0, iter_4_1 in ipairs(var_4_0) do

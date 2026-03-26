@@ -94,7 +94,7 @@ function var_0_0.InitSpecialTouch(arg_7_0)
 	end
 
 	eachChild(var_7_1, function(arg_8_0)
-		if arg_7_0:getDragTouchAble(arg_8_0.name, var_7_0, false) then
+		if arg_7_0:getDragTouchAble(arg_8_0.name, var_7_0) then
 			arg_7_0.dragEvent = GetOrAddComponent(arg_8_0, typeof(EventTriggerListener))
 
 			arg_7_0.dragEvent:AddPointDownFunc(function(arg_9_0, arg_9_1)
@@ -115,7 +115,7 @@ function var_0_0.InitSpecialTouch(arg_7_0)
 
 						local var_10_0
 
-						if arg_7_0:getDragTouchAble(arg_8_0.name, var_7_0, true) then
+						if arg_7_0:getDragTouchAble(arg_8_0.name, var_7_0) then
 							var_10_0 = arg_7_0.spinePainting:readyDragAction(arg_8_0.name, false)
 						end
 
@@ -151,11 +151,11 @@ function var_0_0.InitSpecialTouch(arg_7_0)
 
 					arg_7_0.dragOffset = Vector2(arg_7_0.dragStart.x - arg_11_1.position.x, arg_7_0.dragStart.y - arg_11_1.position.y)
 
-					if math.abs(arg_7_0.dragOffset.x) > 200 or math.abs(arg_7_0.dragOffset.y) > 200 then
+					if (math.abs(arg_7_0.dragOffset.x) > 200 or math.abs(arg_7_0.dragOffset.y) > 200) and arg_7_0.spinePainting:readyDragAction(arg_8_0.name, true) then
 						arg_7_0.dragActive = false
-
-						arg_7_0.spinePainting:readyDragAction(arg_8_0.name, true)
 					end
+
+					arg_7_0.spinePainting:OnDragMove(arg_8_0.name, arg_7_0.dragOffset)
 				end
 			end)
 		else
@@ -177,7 +177,7 @@ function var_0_0.InitSpecialTouch(arg_7_0)
 
 				local var_12_0 = arg_7_0:GetSpecialTouchEvent(arg_8_0.name)
 
-				if arg_7_0:getDragTouchAble(arg_8_0.name, var_7_0, true) then
+				if arg_7_0:getDragTouchAble(arg_8_0.name, var_7_0) then
 					if arg_7_0.isDragAndZoomState then
 						return
 					end
@@ -271,14 +271,10 @@ function var_0_0.GetPartStateType(arg_22_0)
 	return MainPaintingView.STATE_SPINE_PAINTING
 end
 
-function var_0_0.getDragTouchAble(arg_23_0, arg_23_1, arg_23_2, arg_23_3)
+function var_0_0.getDragTouchAble(arg_23_0, arg_23_1, arg_23_2)
 	local var_23_0 = SpinePaintingConst.ship_drag_datas[arg_23_2]
 
 	if not var_23_0 then
-		return false
-	end
-
-	if var_23_0.drag_data and var_23_0.click_trigger ~= arg_23_3 then
 		return false
 	end
 
@@ -329,9 +325,9 @@ function var_0_0.PlayChangeSkinActionIn(arg_27_0, arg_27_1)
 			local var_29_0 = arg_27_0.spinePainting:GetDragDataConfig("change_in_hit")
 
 			if var_29_0 and #var_29_0 > 0 then
-				arg_27_0.spinePainting:readyDragAction(var_29_0)
+				arg_27_0.spinePainting:readyDragAction(var_29_0, false)
 				var_27_0()
-			elseif arg_27_0.spinePainting:getAnimationExist("change_in") and arg_27_0.spinePainting:ablePlayAction("change_in", false, 0) then
+			elseif arg_27_0.spinePainting:getAnimationExist("change_in") and arg_27_0.spinePainting:checkActionPlayAble("change_in", false, 0) then
 				arg_27_0.spinePainting:SetOnceAction("change_in", nil, function()
 					var_27_0()
 				end, true)
@@ -355,7 +351,7 @@ end
 
 function var_0_0.PlayChangeSkinActionOut(arg_32_0, arg_32_1)
 	if arg_32_0.spinePainting and arg_32_0.spinePainting:getAnimationExist("change_out") then
-		if arg_32_0.spinePainting:ablePlayAction("change_out", false, 0) then
+		if arg_32_0.spinePainting:checkActionPlayAble("change_out", false, 0) then
 			arg_32_0.spinePainting:SetOnceAction("change_out", function()
 				return
 			end, function()

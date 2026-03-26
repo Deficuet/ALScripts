@@ -151660,6 +151660,63 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.equip_data_statistics[80621] = {
+		type = 1,
+		name = "专属弹幕-科隆METAI",
+		speciality = "<[NA]>",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能弹幕",
+		id = 80621,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			170991
+		},
+		skill_id = {},
+		hidden_skill_id = {},
+		part_main = {
+			1,
+			19,
+			20,
+			21
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[80622] = {
+		id = 80622,
+		name = "专属弹幕-科隆METAII",
+		base = 80621,
+		weapon_id = {
+			170992
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.equip_data_statistics[85000] = {
 		tech = 1,
 		name = "B-13 双联装130mm主炮B-2LM",
@@ -191964,6 +192021,499 @@ end)()
 		anti_siren = 100,
 		value_1 = "530",
 		base = 151000,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151020] = {
+		type = 10,
+		name = "漫游者",
+		speciality = "<[NA]>",
+		tech = 0,
+		value_2 = 6,
+		ammo = 10,
+		nationality = 0,
+		descrip = "不被系统记录的身份标识，是漫游者们彼此确认的唯一信标。 ",
+		rarity = 5,
+		attribute_1 = "hit",
+		value_3 = 0,
+		torpedo_ammo = 0,
+		id = 151020,
+		icon = "151020",
+		value_1 = "15",
+		attribute_2 = "dodge",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			{
+				61040,
+				1
+			}
+		},
+		hidden_skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151021] = {
+		id = 151021,
+		value_1 = "17",
+		base = 151020,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151022] = {
+		id = 151022,
+		value_2 = 7,
+		value_1 = "19",
+		base = 151020,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151023] = {
+		id = 151023,
+		value_2 = 8,
+		value_1 = "21",
+		base = 151020,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151024] = {
+		id = 151024,
+		value_2 = 9,
+		value_1 = "23",
+		base = 151020,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151025] = {
+		id = 151025,
+		value_2 = 10,
+		value_1 = "25",
+		base = 151020,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151026] = {
+		id = 151026,
+		value_2 = 11,
+		value_1 = "27",
+		base = 151020,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151027] = {
+		id = 151027,
+		value_2 = 12,
+		value_1 = "29",
+		base = 151020,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151028] = {
+		id = 151028,
+		value_2 = 13,
+		value_1 = "31",
+		base = 151020,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151029] = {
+		id = 151029,
+		value_2 = 14,
+		value_1 = "33",
+		base = 151020,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151030] = {
+		id = 151030,
+		value_2 = 15,
+		value_1 = "36",
+		base = 151020,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151031] = {
+		value_2 = 16,
+		anti_siren = 100,
+		base = 151020,
+		id = 151031,
+		value_1 = "39",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151032] = {
+		value_2 = 17,
+		anti_siren = 200,
+		base = 151020,
+		id = 151032,
+		value_1 = "42",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151033] = {
+		value_2 = 18,
+		anti_siren = 300,
+		base = 151020,
+		id = 151033,
+		value_1 = "45",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151040] = {
+		type = 10,
+		name = "系统通缉者",
+		speciality = "<[NA]>",
+		tech = 0,
+		value_2 = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "被系统标记的通缉者，每一次现身，都在为追捕者点亮坐标。 ",
+		rarity = 4,
+		attribute_1 = "durability",
+		value_3 = 0,
+		torpedo_ammo = 0,
+		id = 151040,
+		icon = "151040",
+		value_1 = "140",
+		attribute_2 = "speed",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			{
+				61050,
+				1
+			}
+		},
+		hidden_skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151041] = {
+		id = 151041,
+		value_1 = "161",
+		base = 151040,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151042] = {
+		id = 151042,
+		value_1 = "182",
+		base = 151040,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151043] = {
+		id = 151043,
+		value_1 = "203",
+		base = 151040,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151044] = {
+		id = 151044,
+		value_2 = 2,
+		value_1 = "224",
+		base = 151040,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151045] = {
+		id = 151045,
+		value_2 = 2,
+		value_1 = "245",
+		base = 151040,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151046] = {
+		id = 151046,
+		value_2 = 2,
+		value_1 = "266",
+		base = 151040,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151047] = {
+		id = 151047,
+		value_2 = 3,
+		value_1 = "287",
+		base = 151040,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151048] = {
+		id = 151048,
+		value_2 = 3,
+		value_1 = "308",
+		base = 151040,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151049] = {
+		id = 151049,
+		value_2 = 3,
+		value_1 = "329",
+		base = 151040,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151050] = {
+		id = 151050,
+		value_2 = 3,
+		value_1 = "350",
+		base = 151040,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151051] = {
+		value_2 = 3,
+		anti_siren = 100,
+		base = 151040,
+		id = 151051,
+		value_1 = "371",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151060] = {
+		type = 10,
+		name = "零号协议密钥",
+		speciality = "<[NA]>",
+		tech = 0,
+		value_2 = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "一枚足以格式化整个虚拟世界的芯片，是最后的底牌，也是最后的退路。 ",
+		rarity = 5,
+		attribute_1 = "durability",
+		value_3 = 0,
+		torpedo_ammo = 0,
+		id = 151060,
+		icon = "151060",
+		value_1 = "100",
+		attribute_2 = "speed",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			{
+				61060,
+				1
+			}
+		},
+		hidden_skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151061] = {
+		id = 151061,
+		value_1 = "130",
+		base = 151060,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151062] = {
+		id = 151062,
+		value_1 = "160",
+		base = 151060,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151063] = {
+		id = 151063,
+		value_1 = "190",
+		base = 151060,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151064] = {
+		id = 151064,
+		value_2 = 2,
+		value_1 = "220",
+		base = 151060,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151065] = {
+		id = 151065,
+		value_2 = 2,
+		value_1 = "250",
+		base = 151060,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151066] = {
+		id = 151066,
+		value_2 = 2,
+		value_1 = "280",
+		base = 151060,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151067] = {
+		id = 151067,
+		value_2 = 3,
+		value_1 = "310",
+		base = 151060,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151068] = {
+		id = 151068,
+		value_2 = 3,
+		value_1 = "340",
+		base = 151060,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151069] = {
+		id = 151069,
+		value_2 = 3,
+		value_1 = "370",
+		base = 151060,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151070] = {
+		id = 151070,
+		value_2 = 4,
+		value_1 = "400",
+		base = 151060,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151071] = {
+		value_2 = 4,
+		anti_siren = 100,
+		base = 151060,
+		id = 151071,
+		value_1 = "424",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151072] = {
+		value_2 = 4,
+		anti_siren = 200,
+		base = 151060,
+		id = 151072,
+		value_1 = "448",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151073] = {
+		value_2 = 4,
+		anti_siren = 300,
+		base = 151060,
+		id = 151073,
+		value_1 = "472",
 		hidden_skill_id = {}
 	}
 end)()

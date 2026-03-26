@@ -57,7 +57,7 @@ function var_0_0.initUI(arg_6_0)
 	local var_6_0 = arg_6_0._tf:Find("Ratio")
 
 	for iter_6_0 = 2, 6 do
-		local var_6_1 = getImageSprite(arg_6_0._tf:Find(tostring(iter_6_0), var_6_0))
+		local var_6_1 = getImageSprite(var_6_0:Find(tostring(iter_6_0)))
 
 		arg_6_0.ratioSpriteMap[iter_6_0] = var_6_1
 	end

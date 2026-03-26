@@ -14,6 +14,7 @@ var_0_0.TYPESPSERIES = 11
 var_0_0.TYPESPSERIESFULL = 12
 var_0_0.TYPEATELIERYUMIA = 13
 var_0_0.TYPEEXSP = 14
+var_0_0.TYPESPSERIESRECREW = 15
 
 function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	var_0_0.super.Ctor(arg_1_0, arg_1_1, arg_1_2.event, arg_1_2.contextData)

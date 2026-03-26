@@ -82,6 +82,10 @@ pg.ship_meta_breakout = setmetatable({
 		9702092,
 		9702093,
 		9702094,
+		9702101,
+		9702102,
+		9702103,
+		9702104,
 		9702111,
 		9702112,
 		9702113,
@@ -1496,6 +1500,69 @@ pg.base.ship_meta_breakout = {
 		id = 9702094,
 		item1 = 21055,
 		pre_id = 9702093,
+		weapon_ids = {}
+	},
+	[9702101] = {
+		breakout_view = "习得技能【逐光之焰·{namecode:423}】/全武器效率提高2%",
+		gold = 500,
+		breakout_id = 9702102,
+		repair = 0,
+		item2 = 21059,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9702101,
+		item1 = 21059,
+		pre_id = 0,
+		weapon_ids = {
+			80621
+		}
+	},
+	[9702102] = {
+		breakout_view = "鱼雷底座+1/鱼雷预装填+1/全武器效率提高3%",
+		gold = 1500,
+		breakout_id = 9702103,
+		repair = 0,
+		item2 = 21059,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9702102,
+		item1 = 21059,
+		pre_id = 9702101,
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[9702103] = {
+		breakout_view = "【逐光之焰·{namecode:423}】升级/全武器效率提高5%",
+		gold = 2500,
+		breakout_id = 9702104,
+		repair = 0,
+		item2 = 21059,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9702103,
+		item1 = 21059,
+		pre_id = 9702102,
+		weapon_ids = {
+			80622
+		}
+	},
+	[9702104] = {
+		breakout_view = "无",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21059,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9702104,
+		item1 = 21059,
+		pre_id = 9702103,
 		weapon_ids = {}
 	},
 	[9702111] = {

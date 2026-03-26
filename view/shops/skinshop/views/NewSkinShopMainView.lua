@@ -673,6 +673,7 @@ function var_0_0.LoadSpinePainting(arg_42_0, arg_42_1)
 
 		arg_42_0:CheckShowShopHx(var_43_0, arg_42_1)
 		pg.UIMgr.GetInstance():LoadingOff()
+		arg_43_0:SetShopHx()
 	end)
 end
 

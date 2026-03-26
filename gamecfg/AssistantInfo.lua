@@ -132,6 +132,10 @@ var_0_1.assistantEvents = {
 	asmr_010 = {
 		action = "asmr_010",
 		dialog = "asmr_010"
+	},
+	feeling5 = {
+		action = "feeling5",
+		dialog = "feeling5"
 	}
 }
 var_0_1.assistantTouchParts = {

@@ -1,5 +1,6 @@
 local var_0_0 = class("Live2dConst")
 
+var_0_0.l2d_bound_open = false
 var_0_0.l2d_arm_32 = false
 var_0_0.UnLoadL2dPating = nil
 

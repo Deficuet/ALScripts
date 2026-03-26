@@ -90,6 +90,8 @@ function var_0_0.Ctor(arg_2_0, arg_2_1, arg_2_2, arg_2_3, arg_2_4, arg_2_5, arg_
 	local var_2_2 = arg_2_3 or {}
 	local var_2_3 = {}
 
+	arg_2_0.globalOptionBranchJump = {}
+
 	for iter_2_2, iter_2_3 in ipairs(arg_2_1.scripts or {}) do
 		local var_2_4 = iter_2_3.mode or arg_2_0.mode
 		local var_2_5 = var_0_0.GetStoryStepCls(var_2_4).New(iter_2_3)
@@ -124,6 +126,10 @@ function var_0_0.Ctor(arg_2_0, arg_2_1, arg_2_2, arg_2_3, arg_2_4, arg_2_5, arg_
 			end
 
 			table.insert(arg_2_0.steps, var_2_5)
+		end
+
+		if iter_2_3.globalOptionFlag and iter_2_3.jumpto then
+			table.insert(arg_2_0.globalOptionBranchJump, iter_2_3.jumpto)
 		end
 	end
 
@@ -349,7 +355,7 @@ end
 function var_0_0.GetStepByIndex(arg_35_0, arg_35_1)
 	local var_35_0 = arg_35_0.steps[arg_35_1]
 
-	if not var_35_0 or arg_35_0.branchCode and not var_35_0:IsSameBranch(arg_35_0.branchCode) then
+	if not var_35_0 or arg_35_0.branchCode and not var_35_0:IsSameBranch(arg_35_0.branchCode) or var_35_0.globalBranchCode and not var_35_0:IsGlobalFlagHit() then
 		return nil
 	end
 
@@ -464,6 +470,10 @@ function var_0_0.GetAllStepDispatcherRecallName(arg_49_0)
 	end
 
 	return var_49_2
+end
+
+function var_0_0.GlobalOptionBranch(arg_50_0)
+	return arg_50_0.globalOptionBranchJump
 end
 
 return var_0_0

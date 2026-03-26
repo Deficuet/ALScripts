@@ -99,29 +99,45 @@ function var_0_0.GetCleanAnimator(arg_14_0)
 	return var_14_0
 end
 
-function var_0_0.GetOptionBranchByStoryName(arg_15_0, arg_15_1)
-	local var_15_0 = pg.activity_sp_story
-	local var_15_1
+function var_0_0.IsRecrew(arg_15_0)
+	local var_15_0 = arg_15_0:getConfig("label_key")
 
-	for iter_15_0, iter_15_1 in pairs(var_15_0) do
-		if iter_15_1.story == arg_15_0 then
-			var_15_1 = iter_15_0
+	if type(var_15_0) ~= "table" then
+		return nil
+	end
+
+	local var_15_1 = StoryStep.GetGlobalFlagKey(var_15_0.flagID) .. var_15_0.flagIndex
+
+	if not PlayerPrefs.HasKey(var_15_1) then
+		return false
+	end
+
+	return PlayerPrefs.GetInt(var_15_1) > 0
+end
+
+function var_0_0.GetOptionBranchByStoryName(arg_16_0, arg_16_1)
+	local var_16_0 = pg.activity_sp_story
+	local var_16_1
+
+	for iter_16_0, iter_16_1 in pairs(var_16_0) do
+		if iter_16_1.story == arg_16_0 then
+			var_16_1 = iter_16_0
 		end
 	end
 
-	local var_15_2
+	local var_16_2
 
-	for iter_15_2, iter_15_3 in pairs(var_15_0) do
-		if iter_15_3.lock then
-			_.each(iter_15_3.lock, function(arg_16_0)
-				if arg_16_0[1] == var_0_0.CONDITION.PRE_OPTION and arg_16_0[2] == var_15_1 and arg_16_0[3] == arg_15_1 then
-					var_15_2 = iter_15_3
+	for iter_16_2, iter_16_3 in pairs(var_16_0) do
+		if iter_16_3.lock then
+			_.each(iter_16_3.lock, function(arg_17_0)
+				if arg_17_0[1] == var_0_0.CONDITION.PRE_OPTION and arg_17_0[2] == var_16_1 and arg_17_0[3] == arg_16_1 then
+					var_16_2 = iter_16_3
 				end
 			end)
 		end
 	end
 
-	return var_15_2
+	return var_16_2
 end
 
 return var_0_0

@@ -7,17 +7,10 @@ function var_0_0.Execute(arg_1_0, arg_1_1)
 		return
 	end
 
-	local var_1_0, var_1_1 = getProxy(InstagramProxy):GetNewInstagramBeginIdAndEndId()
-
-	if var_1_1 - var_1_0 <= 0 then
-		arg_1_1()
-
-		return
-	end
+	local var_1_0 = getProxy(InstagramProxy):GetNewInstagramIds()
 
 	pg.m02:sendNotification(GAME.REQ_NEW_INSTAGRAM_DATA, {
-		beginId = var_1_0,
-		endId = var_1_1,
+		idList = var_1_0,
 		callback = arg_1_1
 	})
 end

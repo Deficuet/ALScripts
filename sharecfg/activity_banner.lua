@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					19
+					26
 				},
 				{
 					0,
@@ -24,13 +24,13 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					3,
-					26
+					4,
+					1
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -38,13 +38,38 @@ pg.activity_banner = {
 	{
 		id = 2,
 		pic = "temp2",
-		time = "stop",
 		type = 2,
 		param = {
 			"scene get boat",
 			{
 				projectName = "new",
 				page = 1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					3,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					9
+				},
+				{
+					12,
+					0,
+					0
+				}
 			}
 		}
 	},
@@ -53,10 +78,9 @@ pg.activity_banner = {
 		pic = "temp3",
 		type = 2,
 		param = {
-			"scene activity",
+			"scene core activity",
 			{
-				event = "ActivityMediator.OPEN_CULTIVATING_PLANT",
-				data = {}
+				coreName = "YunLongSPCoreActivityUI"
 			}
 		},
 		time = {
@@ -64,7 +88,7 @@ pg.activity_banner = {
 				{
 					2026,
 					3,
-					19
+					26
 				},
 				{
 					0,
@@ -75,8 +99,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					3,
-					26
+					4,
+					9
 				},
 				{
 					12,
@@ -87,16 +111,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "50479",
 		id = 4,
 		pic = "temp4",
-		type = 3,
+		type = 2,
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
 		time = {
 			{
 				{
 					2026,
 					3,
-					19
+					26
 				},
 				{
 					0,
@@ -107,13 +136,13 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					3,
-					26
+					4,
+					8
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -121,42 +150,19 @@ pg.activity_banner = {
 	{
 		id = 5,
 		pic = "temp5",
-		time = "stop",
 		type = 2,
 		param = {
 			"scene shop",
 			{
 				warp = "shopstreet"
 			}
-		}
-	},
-	{
-		param = "50448",
-		time = "stop",
-		type = 3,
-		id = 6,
-		pic = "temp6"
-	},
-	{
-		id = 7,
-		pic = "temp7",
-		time = "stop",
-		type = 2,
-		param = {
-			"dorm 3d select"
-		}
-	},
-	{
-		param = "50501",
-		id = 8,
-		pic = "temp8",
-		type = 3,
+		},
 		time = {
 			{
 				{
 					2026,
 					3,
-					19
+					26
 				},
 				{
 					0,
@@ -167,8 +173,110 @@ pg.activity_banner = {
 			{
 				{
 					2026,
+					4,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 6,
+		pic = "temp6",
+		type = 2,
+		param = {
+			"scene court yard"
+		},
+		time = {
+			{
+				{
+					2026,
 					3,
 					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 7,
+		pic = "temp7",
+		type = 2,
+		param = {
+			"dorm 3d select"
+		},
+		time = {
+			{
+				{
+					2026,
+					3,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					9
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	{
+		id = 8,
+		pic = "temp8",
+		type = 2,
+		param = {
+			"crusing"
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					9
 				},
 				{
 					12,
@@ -182,13 +290,9 @@ pg.activity_banner = {
 		id = 9,
 		pic = "temp9",
 		time = "stop",
-		type = 3,
+		type = 2,
 		param = {
-			"scene level",
-			{
-				open_remaster = true,
-				isSP = true
-			}
+			"LiquorFloor"
 		}
 	},
 	[90] = {
@@ -266,12 +370,10 @@ pg.activity_banner = {
 			1,
 			2,
 			3,
-			5,
-			7
-		},
-		[3] = {
 			4,
+			5,
 			6,
+			7,
 			8,
 			9
 		},

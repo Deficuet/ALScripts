@@ -59,12 +59,14 @@ function var_0_0.init(arg_3_0)
 	arg_3_0.charaScrollrect = arg_3_0.leftPanel:Find("charaScroll"):GetComponent("LScrollRect")
 	arg_3_0.charaScrollContent = arg_3_0.leftPanel:Find("charaScroll/Viewport/Content")
 	arg_3_0.rightPanel = arg_3_0._tf:Find("main/rightPanel")
-	arg_3_0.characterName = arg_3_0.rightPanel:Find("rightTop/name")
-	arg_3_0.careBtn = arg_3_0.rightPanel:Find("rightTop/careBtn")
-	arg_3_0.topicBtn = arg_3_0.rightPanel:Find("rightTop/topicBtn")
-	arg_3_0.backgroundBtn = arg_3_0.rightPanel:Find("rightTop/backgroundBtn")
-	arg_3_0.messageList = UIItemList.New(arg_3_0.rightPanel:Find("messageScroll/Viewport/Content"), arg_3_0.rightPanel:Find("messageScroll/Viewport/Content/messageCard"))
-	arg_3_0.optionPanel = arg_3_0.rightPanel:Find("optionPanel")
+	arg_3_0.rightChatPanel = arg_3_0.rightPanel:Find("chat")
+	arg_3_0.rightOfficialAccountsPanel = arg_3_0.rightPanel:Find("officialAccounts")
+	arg_3_0.characterName = arg_3_0.rightPanel:Find("chat/rightTop/name")
+	arg_3_0.careBtn = arg_3_0.rightPanel:Find("chat/rightTop/careBtn")
+	arg_3_0.topicBtn = arg_3_0.rightPanel:Find("chat/rightTop/topicBtn")
+	arg_3_0.backgroundBtn = arg_3_0.rightPanel:Find("chat/rightTop/backgroundBtn")
+	arg_3_0.messageList = UIItemList.New(arg_3_0.rightPanel:Find("chat/messageScroll/Viewport/Content"), arg_3_0.rightPanel:Find("chat/messageScroll/Viewport/Content/messageCard"))
+	arg_3_0.optionPanel = arg_3_0.rightPanel:Find("chat/optionPanel")
 	arg_3_0.optionList = UIItemList.New(arg_3_0.optionPanel, arg_3_0.optionPanel:Find("option"))
 	arg_3_0.filterUI = arg_3_0._tf:Find("subPages/InstagramFilterUI")
 	arg_3_0.topicUI = arg_3_0._tf:Find("subPages/InstagramTopicUI")
@@ -104,7 +106,7 @@ function var_0_0.init(arg_3_0)
 	arg_3_0.timerList = {}
 	arg_3_0.canFresh = false
 
-	local var_3_0 = arg_3_0.rightPanel:Find("messageScroll/Scrollbar Vertical"):GetComponent(typeof(RectTransform))
+	local var_3_0 = arg_3_0.rightPanel:Find("chat/messageScroll/Scrollbar Vertical"):GetComponent(typeof(RectTransform))
 
 	arg_3_0.messageScrollWidth = var_3_0.rect.width
 	arg_3_0.messageScrollHeight = var_3_0.rect.height
@@ -112,6 +114,7 @@ function var_0_0.init(arg_3_0)
 	arg_3_0.filterUI:Find("panel/title"):GetComponent(typeof(Image)):SetNativeSize()
 	arg_3_0.topicUI:Find("panel/title"):GetComponent(typeof(Image)):SetNativeSize()
 	arg_3_0.backgroundUI:Find("panel/title"):GetComponent(typeof(Image)):SetNativeSize()
+	arg_3_0:InitOfficialAccounts()
 end
 
 function var_0_0.didEnter(arg_4_0)
@@ -127,1417 +130,1835 @@ function var_0_0.didEnter(arg_4_0)
 
 	arg_4_0:UpdateCharaList(false, false)
 	arg_4_0:SetFilterPanel()
+
+	arg_4_0.officialAccountsTimerList = {}
+	arg_4_0.officialAccountsItemList = {}
+
+	arg_4_0:AddOfficialAccountsTimer()
 end
 
-function var_0_0.OnInitItem(arg_7_0, arg_7_1)
-	return
-end
-
-function var_0_0.OnUpdateItem(arg_8_0, arg_8_1, arg_8_2)
-	local var_8_0 = arg_8_0.chatList[arg_8_1 + 1]
-	local var_8_1 = tf(arg_8_2)
-
-	setActive(var_8_1, true)
-
-	local var_8_2 = var_8_0.sculpture
-
-	if var_8_0.currentTopic.isII and var_8_0.sculptureII ~= "" then
-		var_8_2 = var_8_0.sculptureII
-	end
-
-	setImageSprite(var_8_1:Find("charaBg/chara"), LoadSprite("qicon/" .. var_8_2), false)
-	setText(var_8_1:Find("name"), var_8_0.name)
-
-	local var_8_3 = var_8_0:GetDisplayWord()
-
-	if not arg_8_0.currentChat or arg_8_0.currentChat.characterId ~= var_8_0.characterId or not arg_8_0.isSlowMsg then
-		setText(var_8_1:Find("msg"), var_8_3)
-	end
-
-	setText(var_8_1:Find("displayWord"), var_8_3)
-	SetActive(var_8_1:Find("care"), var_8_0.care == 1)
-
-	if var_8_0.care == 1 and arg_8_0.careAniTriggerId and arg_8_0.careAniTriggerId == var_8_0.characterId then
-		arg_8_0.careAniTriggerId = nil
-
-		var_8_1:Find("care"):GetComponent(typeof(Animation)):Play("anim_newinstagram_care")
-	end
-
-	if arg_8_0.currentChat then
-		SetActive(var_8_1:Find("frame"), arg_8_0.currentChat == var_8_0)
-	end
-
-	SetActive(var_8_1:Find("tip"), var_8_0:GetCharacterEndFlag() == 0)
-	setText(var_8_1:Find("id"), var_8_0.characterId)
-	onButton(arg_8_0, var_8_1, function()
-		if arg_8_0.currentChat and arg_8_0.currentChat.characterId ~= var_8_0.characterId then
-			arg_8_0:ResetCharaTextFunc(arg_8_0.currentChat.characterId)
-		end
-
-		arg_8_0.currentChat = var_8_0
-
-		SetActive(arg_8_0.rightPanel, true)
-		SetActive(arg_8_0._tf:Find("main/rightNoMessageBg"), false)
-		arg_8_0:UpdateChatContent(var_8_0, false, false)
-		arg_8_0:SetTopicPanel(var_8_0)
-		arg_8_0:SetBackgroundPanel(var_8_0)
-
-		for iter_9_0 = 0, arg_8_0.charaScrollContent.childCount - 1 do
-			SetActive(arg_8_0.charaScrollContent:GetChild(iter_9_0):Find("frame"), false)
-		end
-
-		SetActive(var_8_1:Find("frame"), true)
-
-		function arg_8_0.cancelFrame()
-			if not IsNil(var_8_1) then
-				SetActive(var_8_1:Find("frame"), false)
-			end
-		end
-
-		local var_9_0 = arg_8_0.rightPanel:GetComponent(typeof(Animation))
-
-		var_9_0:Stop()
-		var_9_0:Play("anim_newinstagram_chat_right_in")
-	end, SFX_PANEL)
-end
-
-function var_0_0.UpdateCharaList(arg_11_0, arg_11_1, arg_11_2)
-	if not arg_11_0.chatList or #arg_11_0.chatList == 0 then
-		SetActive(arg_11_0.leftPanel, false)
-		SetActive(arg_11_0.rightPanel, false)
-		SetActive(arg_11_0._tf:Find("main/noMessageBg"), true)
-		SetActive(arg_11_0._tf:Find("main/noFilteredMessageBg"), false)
-		SetActive(arg_11_0._tf:Find("main/rightNoMessageBg"), false)
-
-		return
-	end
-
-	if not arg_11_0.currentChat then
-		SetActive(arg_11_0.rightPanel, false)
-		SetActive(arg_11_0._tf:Find("main/rightNoMessageBg"), true)
-	else
-		SetActive(arg_11_0.rightPanel, true)
-		SetActive(arg_11_0._tf:Find("main/rightNoMessageBg"), false)
-	end
-
-	arg_11_0.isSlowMsg = arg_11_1
-
-	arg_11_0:SetFilterResult()
-
-	if arg_11_0.currentChat then
-		arg_11_0:UpdateChatContent(arg_11_0.currentChat, arg_11_1, arg_11_2)
-		arg_11_0:SetTopicPanel(arg_11_0.currentChat)
-	end
-end
-
-function var_0_0.UpdateChatContent(arg_12_0, arg_12_1, arg_12_2, arg_12_3)
-	SetActive(arg_12_0.rightPanel, true)
-	setText(arg_12_0.characterName, arg_12_1.name)
-
-	local var_12_0 = arg_12_0.careBtn:Find("care")
-
-	SetActive(var_12_0, arg_12_1.care == 1)
-	onButton(arg_12_0, arg_12_0.careBtn, function()
-		local var_13_0 = arg_12_1.care == 0 and 1 or 0
-
-		arg_12_0:emit(InstagramChatMediator.CHANGE_CARE, arg_12_1.characterId, var_13_0)
-
-		arg_12_0.careAniTriggerId = arg_12_1.characterId
-	end, SFX_PANEL)
-
-	local var_12_1 = arg_12_0.rightPanel:Find("paintingMask")
-	local var_12_2 = var_12_1:Find("painting")
-	local var_12_3 = arg_12_0.rightPanel:Find("groupBackground")
-
-	if arg_12_1.type == 1 then
-		SetActive(var_12_1, true)
-		SetActive(var_12_3, false)
-
-		local var_12_4 = "unknown"
-
-		if arg_12_1.skinId == 0 then
-			var_12_4 = arg_12_1:GetPainting()
-		else
-			for iter_12_0, iter_12_1 in ipairs(arg_12_1.skins) do
-				if iter_12_1.id == arg_12_1.skinId then
-					var_12_4 = iter_12_1.painting
-				end
-			end
-		end
-
-		if not arg_12_0.paintingName then
-			setPaintingPrefabAsync(var_12_2, var_12_4, "pifu")
-
-			arg_12_0.paintingName = var_12_4
-		elseif arg_12_0.paintingName and arg_12_0.paintingName ~= var_12_4 then
-			retPaintingPrefab(var_12_2, arg_12_0.paintingName)
-			setPaintingPrefabAsync(var_12_2, var_12_4, "pifu")
-
-			arg_12_0.paintingName = var_12_4
-		end
-	else
-		SetActive(var_12_1, false)
-		SetActive(var_12_3, true)
-
-		if arg_12_0.paintingName then
-			retPaintingPrefab(var_12_2, arg_12_0.paintingName)
-
-			arg_12_0.paintingName = nil
-		end
-
-		setImageSprite(var_12_3, LoadSprite("ui/InstagramChatBackgrounds_atlas", arg_12_1.groupBackground), true)
-	end
-
-	local var_12_5 = arg_12_1.currentTopic:GetDisplayWordList()
-
-	if not arg_12_3 then
-		arg_12_0:UpdateOptionPanel(arg_12_1.currentTopic, var_12_5)
-		arg_12_0:UpdateMessageList(arg_12_1.currentTopic, var_12_5, arg_12_2, arg_12_1.characterId, arg_12_1.type)
-	end
-
-	if not arg_12_2 and arg_12_1.currentTopic.readFlag == 0 then
-		arg_12_0:emit(InstagramChatMediator.SET_READED, {
-			arg_12_1.currentTopic.topicId
+function var_0_0.InsertOfficialAccounts(arg_7_0)
+	if InstagramTools.ExistOfficialAccounts() then
+		table.insert(arg_7_0.chatList, 1, {
+			chatType = InstagramConst.INSTAGRAM_CHAT_TYPE.OFFICIAL_ACCOUNT
 		})
 	end
 end
 
-function var_0_0.UpdateMessageList(arg_14_0, arg_14_1, arg_14_2, arg_14_3, arg_14_4, arg_14_5)
-	arg_14_0:RemoveAllTimer()
+function var_0_0.OnInitItem(arg_8_0, arg_8_1)
+	return
+end
 
-	local var_14_0
+function var_0_0.OnUpdateItem(arg_9_0, arg_9_1, arg_9_2)
+	local var_9_0 = arg_9_0.chatList[arg_9_1 + 1]
+	local var_9_1 = tf(arg_9_2)
 
-	for iter_14_0 = #arg_14_2, 1, -1 do
-		if arg_14_2[iter_14_0].ship_group == 0 or arg_14_2[iter_14_0].type == 3 and arg_14_1:RedPacketGotFlag(tonumber(arg_14_2[iter_14_0].param)) then
-			var_14_0 = iter_14_0
+	setActive(var_9_1, true)
+
+	local var_9_2 = var_9_0.chatType == InstagramConst.INSTAGRAM_CHAT_TYPE.OFFICIAL_ACCOUNT
+
+	setActive(var_9_1:Find("chat"), not var_9_2)
+	setActive(var_9_1:Find("officialAccounts"), var_9_2)
+
+	if not var_9_2 then
+		local var_9_3 = var_9_0.sculpture
+
+		if var_9_0.currentTopic.isII and var_9_0.sculptureII ~= "" then
+			var_9_3 = var_9_0.sculptureII
+		end
+
+		setImageSprite(var_9_1:Find("chat/charaBg/chara"), LoadSprite("qicon/" .. var_9_3), false)
+		setText(var_9_1:Find("chat/name"), var_9_0.name)
+
+		local var_9_4 = var_9_0:GetDisplayWord()
+
+		if not arg_9_0.currentChat or arg_9_0.currentChat.characterId ~= var_9_0.characterId or not arg_9_0.isSlowMsg then
+			setText(var_9_1:Find("chat/msg"), var_9_4)
+		end
+
+		setText(var_9_1:Find("chat/displayWord"), var_9_4)
+		SetActive(var_9_1:Find("chat/care"), var_9_0.care == 1)
+
+		if var_9_0.care == 1 and arg_9_0.careAniTriggerId and arg_9_0.careAniTriggerId == var_9_0.characterId then
+			arg_9_0.careAniTriggerId = nil
+
+			var_9_1:Find("chat/care"):GetComponent(typeof(Animation)):Play("anim_newinstagram_care")
+		end
+
+		SetActive(var_9_1:Find("chat/tip"), var_9_0:GetCharacterEndFlag() == 0)
+		setText(var_9_1:Find("chat/id"), var_9_0.characterId)
+		onButton(arg_9_0, var_9_1, function()
+			if arg_9_0.currentChat and arg_9_0.currentChat.characterId ~= var_9_0.characterId then
+				arg_9_0:ResetCharaTextFunc(arg_9_0.currentChat.characterId)
+			end
+
+			arg_9_0.currentChat = var_9_0
+
+			SetActive(arg_9_0.rightPanel, true)
+			SetActive(arg_9_0._tf:Find("main/rightNoMessageBg"), false)
+			arg_9_0:UpdateChatContent(var_9_0, false, false)
+			arg_9_0:SetTopicPanel(var_9_0)
+			arg_9_0:SetBackgroundPanel(var_9_0)
+
+			for iter_10_0 = 0, arg_9_0.charaScrollContent.childCount - 1 do
+				SetActive(arg_9_0.charaScrollContent:GetChild(iter_10_0):Find("frame"), false)
+			end
+
+			SetActive(var_9_1:Find("frame"), true)
+
+			function arg_9_0.cancelFrame()
+				if not IsNil(var_9_1) then
+					SetActive(var_9_1:Find("frame"), false)
+				end
+			end
+
+			local var_10_0 = arg_9_0.rightPanel:GetComponent(typeof(Animation))
+
+			var_10_0:Stop()
+			var_10_0:Play("anim_newinstagram_chat_right_in")
+		end, SFX_PANEL)
+	else
+		SetActive(var_9_1:Find("officialAccounts/tip"), getProxy(InstagramProxy):ShouldShowOfficialAccountsTip())
+		onButton(arg_9_0, var_9_1, function()
+			SetActive(arg_9_0.rightPanel, true)
+			SetActive(arg_9_0._tf:Find("main/rightNoMessageBg"), false)
+
+			for iter_12_0 = 0, arg_9_0.charaScrollContent.childCount - 1 do
+				SetActive(arg_9_0.charaScrollContent:GetChild(iter_12_0):Find("frame"), false)
+			end
+
+			SetActive(var_9_1:Find("frame"), true)
+
+			function arg_9_0.cancelFrame()
+				if not IsNil(var_9_1) then
+					SetActive(var_9_1:Find("frame"), false)
+				end
+			end
+
+			arg_9_0.currentChat = var_9_0
+
+			arg_9_0:UpdateOfficialAccounts(var_9_0)
+
+			local var_12_0 = arg_9_0.rightPanel:GetComponent(typeof(Animation))
+
+			var_12_0:Stop()
+			var_12_0:Play("anim_newinstagram_chat_right_in")
+		end, SFX_PANEL)
+	end
+
+	if arg_9_0.currentChat then
+		SetActive(var_9_1:Find("frame"), arg_9_0.currentChat == var_9_0)
+	end
+end
+
+function var_0_0.UpdateCharaList(arg_14_0, arg_14_1, arg_14_2)
+	if not arg_14_0.chatList or #arg_14_0.chatList == 0 then
+		SetActive(arg_14_0.leftPanel, false)
+		SetActive(arg_14_0.rightPanel, false)
+		SetActive(arg_14_0._tf:Find("main/noMessageBg"), true)
+		SetActive(arg_14_0._tf:Find("main/noFilteredMessageBg"), false)
+		SetActive(arg_14_0._tf:Find("main/rightNoMessageBg"), false)
+
+		return
+	end
+
+	if not arg_14_0.currentChat then
+		SetActive(arg_14_0.rightPanel, false)
+		SetActive(arg_14_0._tf:Find("main/rightNoMessageBg"), true)
+	else
+		SetActive(arg_14_0.rightPanel, true)
+		SetActive(arg_14_0._tf:Find("main/rightNoMessageBg"), false)
+	end
+
+	arg_14_0.isSlowMsg = arg_14_1
+
+	arg_14_0:SetFilterResult()
+
+	if arg_14_0.currentChat then
+		if arg_14_0.currentChat.chatType == InstagramConst.INSTAGRAM_CHAT_TYPE.OFFICIAL_ACCOUNT then
+			arg_14_0:UpdateOfficialAccounts(arg_14_0.currentChat)
+		else
+			arg_14_0:UpdateChatContent(arg_14_0.currentChat, arg_14_1, arg_14_2)
+			arg_14_0:SetTopicPanel(arg_14_0.currentChat)
+		end
+	end
+end
+
+function var_0_0.UpdateChatContent(arg_15_0, arg_15_1, arg_15_2, arg_15_3)
+	setActive(arg_15_0.rightChatPanel, true)
+	setActive(arg_15_0.rightOfficialAccountsPanel, false)
+	SetActive(arg_15_0.rightPanel, true)
+	setText(arg_15_0.characterName, arg_15_1.name)
+
+	local var_15_0 = arg_15_0.careBtn:Find("care")
+
+	SetActive(var_15_0, arg_15_1.care == 1)
+	onButton(arg_15_0, arg_15_0.careBtn, function()
+		local var_16_0 = arg_15_1.care == 0 and 1 or 0
+
+		arg_15_0:emit(InstagramChatMediator.CHANGE_CARE, arg_15_1.characterId, var_16_0)
+
+		arg_15_0.careAniTriggerId = arg_15_1.characterId
+	end, SFX_PANEL)
+
+	local var_15_1 = arg_15_0.rightPanel:Find("chat/paintingMask")
+	local var_15_2 = var_15_1:Find("painting")
+	local var_15_3 = arg_15_0.rightPanel:Find("chat/groupBackground")
+
+	if arg_15_1.type == 1 then
+		SetActive(var_15_1, true)
+		SetActive(var_15_3, false)
+
+		local var_15_4 = "unknown"
+
+		if arg_15_1.skinId == 0 then
+			var_15_4 = arg_15_1:GetPainting()
+		else
+			for iter_15_0, iter_15_1 in ipairs(arg_15_1.skins) do
+				if iter_15_1.id == arg_15_1.skinId then
+					var_15_4 = iter_15_1.painting
+				end
+			end
+		end
+
+		if not arg_15_0.paintingName then
+			setPaintingPrefabAsync(var_15_2, var_15_4, "pifu")
+
+			arg_15_0.paintingName = var_15_4
+		elseif arg_15_0.paintingName and arg_15_0.paintingName ~= var_15_4 then
+			retPaintingPrefab(var_15_2, arg_15_0.paintingName)
+			setPaintingPrefabAsync(var_15_2, var_15_4, "pifu")
+
+			arg_15_0.paintingName = var_15_4
+		end
+	else
+		SetActive(var_15_1, false)
+		SetActive(var_15_3, true)
+
+		if arg_15_0.paintingName then
+			retPaintingPrefab(var_15_2, arg_15_0.paintingName)
+
+			arg_15_0.paintingName = nil
+		end
+
+		setImageSprite(var_15_3, LoadSprite("ui/InstagramChatBackgrounds_atlas", arg_15_1.groupBackground), true)
+	end
+
+	local var_15_5 = arg_15_1.currentTopic:GetDisplayWordList()
+
+	if not arg_15_3 then
+		arg_15_0:UpdateOptionPanel(arg_15_1.currentTopic, var_15_5)
+		arg_15_0:UpdateMessageList(arg_15_1.currentTopic, var_15_5, arg_15_2, arg_15_1.characterId, arg_15_1.type)
+	end
+
+	if not arg_15_2 and arg_15_1.currentTopic.readFlag == 0 then
+		arg_15_0:emit(InstagramChatMediator.SET_READED, {
+			arg_15_1.currentTopic.topicId
+		})
+	end
+end
+
+function var_0_0.UpdateMessageList(arg_17_0, arg_17_1, arg_17_2, arg_17_3, arg_17_4, arg_17_5)
+	arg_17_0:RemoveAllTimer()
+
+	local var_17_0
+
+	for iter_17_0 = #arg_17_2, 1, -1 do
+		if arg_17_2[iter_17_0].ship_group == 0 or arg_17_2[iter_17_0].type == 3 and arg_17_1:RedPacketGotFlag(tonumber(arg_17_2[iter_17_0].param)) then
+			var_17_0 = iter_17_0
 
 			break
 		end
 	end
 
-	local var_14_1 = {}
+	local var_17_1 = {}
 
-	if var_14_0 then
-		for iter_14_1 = var_14_0, 1, -1 do
-			if arg_14_2[iter_14_1].ship_group == 0 then
-				table.insert(var_14_1, iter_14_1)
+	if var_17_0 then
+		for iter_17_1 = var_17_0, 1, -1 do
+			if arg_17_2[iter_17_1].ship_group == 0 then
+				table.insert(var_17_1, iter_17_1)
 			else
 				break
 			end
 		end
 	end
 
-	if arg_14_0.shouldShowOption and arg_14_3 then
-		arg_14_0:SetOptionPanelActive(false)
+	if arg_17_0.shouldShowOption and arg_17_3 then
+		arg_17_0:SetOptionPanelActive(false)
 	end
 
-	if arg_14_3 then
-		onButton(arg_14_0, arg_14_0.rightPanel:Find("messageScroll"), function()
-			arg_14_0:SpeedUpMessage()
+	if arg_17_3 then
+		onButton(arg_17_0, arg_17_0.rightPanel:Find("chat/messageScroll"), function()
+			arg_17_0:SpeedUpMessage()
 		end, SFX_PANEL)
 	end
 
-	local var_14_2 = GetComponent(arg_14_0.rightPanel:Find("messageScroll"), typeof(ScrollRect))
+	local var_17_2 = GetComponent(arg_17_0.rightPanel:Find("chat/messageScroll"), typeof(ScrollRect))
 
-	local function var_14_3(arg_16_0)
-		local var_16_0 = Vector2(0, arg_16_0)
+	local function var_17_3(arg_19_0)
+		local var_19_0 = Vector2(0, arg_19_0)
 
-		var_14_2.normalizedPosition = var_16_0
+		var_17_2.normalizedPosition = var_19_0
 	end
 
-	local var_14_4 = pg.gameset.juuschat_dialogue_trigger_time.key_value / 1000
-	local var_14_5 = pg.gameset.juuschat_entering_time.key_value / 1000
-	local var_14_6 = var_14_4 - var_14_5
+	local var_17_4 = pg.gameset.juuschat_dialogue_trigger_time.key_value / 1000
+	local var_17_5 = pg.gameset.juuschat_entering_time.key_value / 1000
+	local var_17_6 = var_17_4 - var_17_5
 
-	arg_14_0.messageList:make(function(arg_17_0, arg_17_1, arg_17_2)
-		if arg_17_0 == UIItemList.EventUpdate then
-			local var_17_0 = arg_14_2[arg_17_1 + 1]
+	arg_17_0.messageList:make(function(arg_20_0, arg_20_1, arg_20_2)
+		if arg_20_0 == UIItemList.EventUpdate then
+			local var_20_0 = arg_17_2[arg_20_1 + 1]
 
-			if var_17_0.ship_group == 0 and var_17_0.type == 0 then
-				SetActive(arg_17_2, false)
+			if var_20_0.ship_group == 0 and var_20_0.type == 0 then
+				SetActive(arg_20_2, false)
 
 				return
 			end
 
-			local var_17_1 = arg_17_2:Find("charaMessageCard")
-			local var_17_2 = arg_17_2:Find("playerReplyCard")
+			local var_20_1 = arg_20_2:Find("charaMessageCard")
+			local var_20_2 = arg_20_2:Find("playerReplyCard")
 
-			SetActive(var_17_1, var_17_0.ship_group ~= 0)
-			SetActive(var_17_2, var_17_0.ship_group == 0)
+			SetActive(var_20_1, var_20_0.ship_group ~= 0)
+			SetActive(var_20_2, var_20_0.ship_group == 0)
 
-			if var_17_0.ship_group ~= 0 and arg_14_5 == 2 and var_17_0.type ~= 5 then
-				SetActive(arg_17_2:Find("nameBar"), true)
-				setText(arg_17_2:Find("nameBar/Text"), var_0_1[var_17_0.ship_group].name)
+			if var_20_0.ship_group ~= 0 and arg_17_5 == 2 and var_20_0.type ~= 5 then
+				SetActive(arg_20_2:Find("nameBar"), true)
+				setText(arg_20_2:Find("nameBar/Text"), var_0_1[var_20_0.ship_group].name)
 			else
-				SetActive(arg_17_2:Find("nameBar"), false)
+				SetActive(arg_20_2:Find("nameBar"), false)
 			end
 
-			local var_17_3
+			local var_20_3
 
-			if arg_14_3 and var_14_0 and arg_17_1 + 1 > var_14_0 then
-				var_17_3 = (arg_17_1 + 1 - var_14_0) * var_14_4 - var_14_5
+			if arg_17_3 and var_17_0 and arg_20_1 + 1 > var_17_0 then
+				var_20_3 = (arg_20_1 + 1 - var_17_0) * var_17_4 - var_17_5
 
-				if #var_14_1 > 1 then
-					var_17_3 = var_17_3 + (#var_14_1 - 1) * var_14_6
+				if #var_17_1 > 1 then
+					var_20_3 = var_20_3 + (#var_17_1 - 1) * var_17_6
 				end
 			end
 
-			if var_17_0.ship_group ~= 0 then
-				local var_17_4 = "unknown"
-				local var_17_5 = var_0_1[var_17_0.ship_group]
+			if var_20_0.ship_group ~= 0 then
+				local var_20_4 = "unknown"
+				local var_20_5 = var_0_1[var_20_0.ship_group]
 
-				if var_17_5 then
-					if var_17_0.ship_group == arg_14_4 and arg_14_1.isII and var_17_5.sculpture_ii ~= "" then
-						var_17_4 = var_17_5.sculpture_ii
+				if var_20_5 then
+					if var_20_0.ship_group == arg_17_4 and arg_17_1.isII and var_20_5.sculpture_ii ~= "" then
+						var_20_4 = var_20_5.sculpture_ii
 					else
-						var_17_4 = var_17_5.sculpture
+						var_20_4 = var_20_5.sculpture
 					end
 				end
 
-				if var_17_0.type ~= 5 then
-					setImageSprite(arg_17_2:Find("charaMessageCard/charaBg/chara"), LoadSprite("qicon/" .. var_17_4), false)
+				if var_20_0.type ~= 5 then
+					setImageSprite(arg_20_2:Find("charaMessageCard/charaBg/chara"), LoadSprite("qicon/" .. var_20_4), false)
 				end
 
-				if var_17_0.type == 1 then
-					arg_14_0:SetCharaMessageCardActive(var_17_1, {
+				if var_20_0.type == 1 then
+					arg_17_0:SetCharaMessageCardActive(var_20_1, {
 						3
 					})
-					setText(arg_17_2:Find("charaMessageCard/msgBox/msg"), var_17_0.param)
+					setText(arg_20_2:Find("charaMessageCard/msgBox/msg"), var_20_0.param)
 
-					if arg_14_3 and var_14_0 and arg_17_1 + 1 > var_14_0 then
-						SetActive(arg_17_2, false)
-						arg_14_0:StartTimer(function()
-							SetActive(arg_17_2, true)
-							arg_17_2:Find("charaMessageCard/charaBg"):GetComponent(typeof(Animation)):Play("anim_newinstagram_charabg")
-							SetActive(arg_17_2:Find("charaMessageCard/waiting"), true)
-							SetActive(arg_17_2:Find("charaMessageCard/msgBox"), false)
+					if arg_17_3 and var_17_0 and arg_20_1 + 1 > var_17_0 then
+						SetActive(arg_20_2, false)
+						arg_17_0:StartTimer(function()
+							SetActive(arg_20_2, true)
+							arg_20_2:Find("charaMessageCard/charaBg"):GetComponent(typeof(Animation)):Play("anim_newinstagram_charabg")
+							SetActive(arg_20_2:Find("charaMessageCard/waiting"), true)
+							SetActive(arg_20_2:Find("charaMessageCard/msgBox"), false)
 							Canvas.ForceUpdateCanvases()
-							LeanTween.value(go(arg_14_0.rightPanel:Find("messageScroll")), var_14_2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(var_14_3)):setEase(LeanTweenType.easeInOutCubic)
-							arg_14_0:StartTimer(function()
-								SetActive(arg_17_2:Find("charaMessageCard/waiting"), false)
-								SetActive(arg_17_2:Find("charaMessageCard/msgBox"), true)
-								arg_17_2:Find("charaMessageCard/msgBox"):GetComponent(typeof(Animation)):Play("anim_newinstagram_chat_common_in")
+							LeanTween.value(go(arg_17_0.rightPanel:Find("chat/messageScroll")), var_17_2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(var_17_3)):setEase(LeanTweenType.easeInOutCubic)
+							arg_17_0:StartTimer(function()
+								SetActive(arg_20_2:Find("charaMessageCard/waiting"), false)
+								SetActive(arg_20_2:Find("charaMessageCard/msgBox"), true)
+								arg_20_2:Find("charaMessageCard/msgBox"):GetComponent(typeof(Animation)):Play("anim_newinstagram_chat_common_in")
 
-								if arg_17_1 + 1 ~= #arg_14_2 then
-									arg_14_0:ChangeCharaTextFunc(arg_14_4, var_17_0.param)
+								if arg_20_1 + 1 ~= #arg_17_2 then
+									arg_17_0:ChangeCharaTextFunc(arg_17_4, var_20_0.param)
 								else
-									arg_14_0:emit(InstagramChatMediator.SET_READED, {
-										arg_14_1.topicId
+									arg_17_0:emit(InstagramChatMediator.SET_READED, {
+										arg_17_1.topicId
 									})
 								end
 
 								Canvas.ForceUpdateCanvases()
-								LeanTween.value(go(arg_14_0.rightPanel:Find("messageScroll")), var_14_2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(var_14_3)):setEase(LeanTweenType.easeInOutCubic)
-								arg_14_0:SetEndAniEvent(arg_17_2:Find("charaMessageCard/msgBox"), function()
-									if arg_14_0.shouldShowOption and arg_17_1 + 1 == #arg_14_2 then
-										arg_14_0:SetOptionPanelActive(true)
+								LeanTween.value(go(arg_17_0.rightPanel:Find("chat/messageScroll")), var_17_2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(var_17_3)):setEase(LeanTweenType.easeInOutCubic)
+								arg_17_0:SetEndAniEvent(arg_20_2:Find("charaMessageCard/msgBox"), function()
+									if arg_17_0.shouldShowOption and arg_20_1 + 1 == #arg_17_2 then
+										arg_17_0:SetOptionPanelActive(true)
 									end
 								end)
-							end, var_14_5)
-						end, var_17_3)
+							end, var_17_5)
+						end, var_20_3)
 					end
-				elseif var_17_0.type == 2 then
-					arg_14_0:SetCharaMessageCardActive(var_17_1, {
+				elseif var_20_0.type == 2 then
+					arg_17_0:SetCharaMessageCardActive(var_20_1, {
 						2,
 						7
 					})
-					pg.CriMgr.GetInstance():GetCueInfo("cv-" .. var_17_0.ship_group, var_17_0.param[1], function(arg_21_0)
-						setText(arg_17_2:Find("charaMessageCard/voiceBox/time"), tostring(math.ceil(tonumber(tostring(arg_21_0.length)) / 1000)) .. "\"")
+					pg.CriMgr.GetInstance():GetCueInfo("cv-" .. var_20_0.ship_group, var_20_0.param[1], function(arg_24_0)
+						setText(arg_20_2:Find("charaMessageCard/voiceBox/time"), tostring(math.ceil(tonumber(tostring(arg_24_0.length)) / 1000)) .. "\"")
 					end)
-					onButton(arg_14_0, arg_17_2:Find("charaMessageCard/voiceBox"), function()
-						pg.CriMgr.GetInstance():PlaySoundEffect_V3("event:/cv/" .. var_17_0.ship_group .. "/" .. var_17_0.param[1])
+					onButton(arg_17_0, arg_20_2:Find("charaMessageCard/voiceBox"), function()
+						pg.CriMgr.GetInstance():PlaySoundEffect_V3("event:/cv/" .. var_20_0.ship_group .. "/" .. var_20_0.param[1])
 					end, SFX_PANEL)
-					setText(arg_17_2:Find("charaMessageCard/voiceMsgBox/voiceMsg/msg"), var_17_0.param[2])
+					setText(arg_20_2:Find("charaMessageCard/voiceMsgBox/voiceMsg/msg"), var_20_0.param[2])
 
-					if arg_14_3 and var_14_0 and arg_17_1 + 1 > var_14_0 then
-						SetActive(arg_17_2, false)
-						arg_14_0:StartTimer(function()
-							SetActive(arg_17_2, true)
-							arg_17_2:Find("charaMessageCard/charaBg"):GetComponent(typeof(Animation)):Play("anim_newinstagram_charabg")
-							SetActive(arg_17_2:Find("charaMessageCard/waiting"), true)
-							SetActive(arg_17_2:Find("charaMessageCard/voiceBox"), false)
-							SetActive(arg_17_2:Find("charaMessageCard/voiceMsgBox"), false)
+					if arg_17_3 and var_17_0 and arg_20_1 + 1 > var_17_0 then
+						SetActive(arg_20_2, false)
+						arg_17_0:StartTimer(function()
+							SetActive(arg_20_2, true)
+							arg_20_2:Find("charaMessageCard/charaBg"):GetComponent(typeof(Animation)):Play("anim_newinstagram_charabg")
+							SetActive(arg_20_2:Find("charaMessageCard/waiting"), true)
+							SetActive(arg_20_2:Find("charaMessageCard/voiceBox"), false)
+							SetActive(arg_20_2:Find("charaMessageCard/voiceMsgBox"), false)
 							Canvas.ForceUpdateCanvases()
-							LeanTween.value(go(arg_14_0.rightPanel:Find("messageScroll")), var_14_2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(var_14_3)):setEase(LeanTweenType.easeInOutCubic)
-							arg_14_0:StartTimer(function()
-								SetActive(arg_17_2:Find("charaMessageCard/waiting"), false)
-								SetActive(arg_17_2:Find("charaMessageCard/voiceBox"), true)
-								SetActive(arg_17_2:Find("charaMessageCard/voiceMsgBox"), true)
-								arg_17_2:Find("charaMessageCard/voiceBox"):GetComponent(typeof(Animation)):Play("anim_newinstagram_chat_common_in")
-								arg_17_2:Find("charaMessageCard/voiceMsgBox"):GetComponent(typeof(Animation)):Play("anim_newinstagram_voicetip_in")
+							LeanTween.value(go(arg_17_0.rightPanel:Find("chat/messageScroll")), var_17_2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(var_17_3)):setEase(LeanTweenType.easeInOutCubic)
+							arg_17_0:StartTimer(function()
+								SetActive(arg_20_2:Find("charaMessageCard/waiting"), false)
+								SetActive(arg_20_2:Find("charaMessageCard/voiceBox"), true)
+								SetActive(arg_20_2:Find("charaMessageCard/voiceMsgBox"), true)
+								arg_20_2:Find("charaMessageCard/voiceBox"):GetComponent(typeof(Animation)):Play("anim_newinstagram_chat_common_in")
+								arg_20_2:Find("charaMessageCard/voiceMsgBox"):GetComponent(typeof(Animation)):Play("anim_newinstagram_voicetip_in")
 
-								if arg_17_1 + 1 ~= #arg_14_2 then
-									arg_14_0:ChangeCharaTextFunc(arg_14_4, "<color=#ff6666>" .. i18n("juuschat_chattip1") .. "</color>")
+								if arg_20_1 + 1 ~= #arg_17_2 then
+									arg_17_0:ChangeCharaTextFunc(arg_17_4, "<color=#ff6666>" .. i18n("juuschat_chattip1") .. "</color>")
 								else
-									arg_14_0:emit(InstagramChatMediator.SET_READED, {
-										arg_14_1.topicId
+									arg_17_0:emit(InstagramChatMediator.SET_READED, {
+										arg_17_1.topicId
 									})
 								end
 
 								Canvas.ForceUpdateCanvases()
-								LeanTween.value(go(arg_14_0.rightPanel:Find("messageScroll")), var_14_2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(var_14_3)):setEase(LeanTweenType.easeInOutCubic)
-								arg_14_0:SetEndAniEvent(arg_17_2:Find("charaMessageCard/voiceBox"), function()
-									if arg_14_0.shouldShowOption and arg_17_1 + 1 == #arg_14_2 then
-										arg_14_0:SetOptionPanelActive(true)
+								LeanTween.value(go(arg_17_0.rightPanel:Find("chat/messageScroll")), var_17_2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(var_17_3)):setEase(LeanTweenType.easeInOutCubic)
+								arg_17_0:SetEndAniEvent(arg_20_2:Find("charaMessageCard/voiceBox"), function()
+									if arg_17_0.shouldShowOption and arg_20_1 + 1 == #arg_17_2 then
+										arg_17_0:SetOptionPanelActive(true)
 									end
 								end)
-							end, var_14_5)
-						end, var_17_3)
+							end, var_17_5)
+						end, var_20_3)
 					end
-				elseif var_17_0.type == 3 then
-					arg_14_0:SetCharaMessageCardActive(var_17_1, {
+				elseif var_20_0.type == 3 then
+					arg_17_0:SetCharaMessageCardActive(var_20_1, {
 						5
 					})
 
-					local var_17_6 = var_0_2[tonumber(var_17_0.param)]
+					local var_20_6 = var_0_2[tonumber(var_20_0.param)]
 
-					setText(arg_17_2:Find("charaMessageCard/redPacket/desc"), var_17_6.desc)
+					setText(arg_20_2:Find("charaMessageCard/redPacket/desc"), var_20_6.desc)
 
-					local var_17_7 = arg_14_1:RedPacketGotFlag(var_17_6.id)
+					local var_20_7 = arg_17_1:RedPacketGotFlag(var_20_6.id)
 
-					SetActive(arg_17_2:Find("charaMessageCard/redPacket/got"), var_17_7)
-					arg_14_0:SetRedPacketPanel(arg_17_2:Find("charaMessageCard/redPacket"), var_17_6, var_17_7, var_17_4, arg_14_1.topicId, var_17_0.id)
+					SetActive(arg_20_2:Find("charaMessageCard/redPacket/got"), var_20_7)
+					arg_17_0:SetRedPacketPanel(arg_20_2:Find("charaMessageCard/redPacket"), var_20_6, var_20_7, var_20_4, arg_17_1.topicId, var_20_0.id)
 
-					if arg_14_3 and var_14_0 and arg_17_1 + 1 == var_14_0 then
-						arg_14_0:ChangeCharaTextFunc(arg_14_4, "<color=#ff6666>" .. i18n("juuschat_chattip2") .. "</color>" .. pg.activity_ins_redpackage[tonumber(var_17_0.param)].desc)
+					if arg_17_3 and var_17_0 and arg_20_1 + 1 == var_17_0 then
+						arg_17_0:ChangeCharaTextFunc(arg_17_4, "<color=#ff6666>" .. i18n("juuschat_chattip2") .. "</color>" .. pg.activity_ins_redpackage[tonumber(var_20_0.param)].desc)
 					end
 
-					if arg_14_3 and var_14_0 and arg_17_1 + 1 > var_14_0 then
-						SetActive(arg_17_2, false)
-						arg_14_0:StartTimer(function()
-							SetActive(arg_17_2, true)
-							arg_17_2:Find("charaMessageCard/charaBg"):GetComponent(typeof(Animation)):Play("anim_newinstagram_charabg")
-							SetActive(arg_17_2:Find("charaMessageCard/waiting"), true)
-							SetActive(arg_17_2:Find("charaMessageCard/redPacket"), false)
+					if arg_17_3 and var_17_0 and arg_20_1 + 1 > var_17_0 then
+						SetActive(arg_20_2, false)
+						arg_17_0:StartTimer(function()
+							SetActive(arg_20_2, true)
+							arg_20_2:Find("charaMessageCard/charaBg"):GetComponent(typeof(Animation)):Play("anim_newinstagram_charabg")
+							SetActive(arg_20_2:Find("charaMessageCard/waiting"), true)
+							SetActive(arg_20_2:Find("charaMessageCard/redPacket"), false)
 							Canvas.ForceUpdateCanvases()
-							LeanTween.value(go(arg_14_0.rightPanel:Find("messageScroll")), var_14_2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(var_14_3)):setEase(LeanTweenType.easeInOutCubic)
-							arg_14_0:StartTimer(function()
-								SetActive(arg_17_2:Find("charaMessageCard/waiting"), false)
-								SetActive(arg_17_2:Find("charaMessageCard/redPacket"), true)
-								arg_17_2:Find("charaMessageCard/redPacket"):GetComponent(typeof(Animation)):Play("anim_newinstagram_redpacket_in")
+							LeanTween.value(go(arg_17_0.rightPanel:Find("chat/messageScroll")), var_17_2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(var_17_3)):setEase(LeanTweenType.easeInOutCubic)
+							arg_17_0:StartTimer(function()
+								SetActive(arg_20_2:Find("charaMessageCard/waiting"), false)
+								SetActive(arg_20_2:Find("charaMessageCard/redPacket"), true)
+								arg_20_2:Find("charaMessageCard/redPacket"):GetComponent(typeof(Animation)):Play("anim_newinstagram_redpacket_in")
 
-								if arg_17_1 + 1 ~= #arg_14_2 then
-									arg_14_0:ChangeCharaTextFunc(arg_14_4, "<color=#ff6666>" .. i18n("juuschat_chattip2") .. "</color>" .. pg.activity_ins_redpackage[tonumber(var_17_0.param)].desc)
+								if arg_20_1 + 1 ~= #arg_17_2 then
+									arg_17_0:ChangeCharaTextFunc(arg_17_4, "<color=#ff6666>" .. i18n("juuschat_chattip2") .. "</color>" .. pg.activity_ins_redpackage[tonumber(var_20_0.param)].desc)
 								else
-									arg_14_0:emit(InstagramChatMediator.SET_READED, {
-										arg_14_1.topicId
+									arg_17_0:emit(InstagramChatMediator.SET_READED, {
+										arg_17_1.topicId
 									})
 								end
 
 								Canvas.ForceUpdateCanvases()
-								LeanTween.value(go(arg_14_0.rightPanel:Find("messageScroll")), var_14_2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(var_14_3)):setEase(LeanTweenType.easeInOutCubic)
-								arg_14_0:SetEndAniEvent(arg_17_2:Find("charaMessageCard/redPacket"), function()
-									if arg_14_0.shouldShowOption and arg_17_1 + 1 == #arg_14_2 then
-										arg_14_0:SetOptionPanelActive(true)
+								LeanTween.value(go(arg_17_0.rightPanel:Find("chat/messageScroll")), var_17_2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(var_17_3)):setEase(LeanTweenType.easeInOutCubic)
+								arg_17_0:SetEndAniEvent(arg_20_2:Find("charaMessageCard/redPacket"), function()
+									if arg_17_0.shouldShowOption and arg_20_1 + 1 == #arg_17_2 then
+										arg_17_0:SetOptionPanelActive(true)
 									end
 								end)
-							end, var_14_5)
-						end, var_17_3)
+							end, var_17_5)
+						end, var_20_3)
 					end
-				elseif var_17_0.type == 4 then
-					arg_14_0:SetCharaMessageCardActive(var_17_1, {
+				elseif var_20_0.type == 4 then
+					arg_17_0:SetCharaMessageCardActive(var_20_1, {
 						4
 					})
-					arg_14_0:ClearEmoji(arg_17_2:Find("charaMessageCard/emoji/emoticon"))
-					arg_14_0:SetEmoji(arg_17_2:Find("charaMessageCard/emoji/emoticon"), var_0_3[tonumber(var_17_0.param)].pic)
+					arg_17_0:ClearEmoji(arg_20_2:Find("charaMessageCard/emoji/emoticon"))
+					arg_17_0:SetEmoji(arg_20_2:Find("charaMessageCard/emoji/emoticon"), var_0_3[tonumber(var_20_0.param)].pic)
 
-					if arg_14_3 and var_14_0 and arg_17_1 + 1 > var_14_0 then
-						SetActive(arg_17_2, false)
-						arg_14_0:StartTimer(function()
-							SetActive(arg_17_2, true)
-							arg_17_2:Find("charaMessageCard/charaBg"):GetComponent(typeof(Animation)):Play("anim_newinstagram_charabg")
-							SetActive(arg_17_2:Find("charaMessageCard/waiting"), true)
-							SetActive(arg_17_2:Find("charaMessageCard/emoji"), false)
+					if arg_17_3 and var_17_0 and arg_20_1 + 1 > var_17_0 then
+						SetActive(arg_20_2, false)
+						arg_17_0:StartTimer(function()
+							SetActive(arg_20_2, true)
+							arg_20_2:Find("charaMessageCard/charaBg"):GetComponent(typeof(Animation)):Play("anim_newinstagram_charabg")
+							SetActive(arg_20_2:Find("charaMessageCard/waiting"), true)
+							SetActive(arg_20_2:Find("charaMessageCard/emoji"), false)
 							Canvas.ForceUpdateCanvases()
-							LeanTween.value(go(arg_14_0.rightPanel:Find("messageScroll")), var_14_2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(var_14_3)):setEase(LeanTweenType.easeInOutCubic)
-							arg_14_0:StartTimer(function()
-								SetActive(arg_17_2:Find("charaMessageCard/waiting"), false)
-								SetActive(arg_17_2:Find("charaMessageCard/emoji"), true)
-								arg_17_2:Find("charaMessageCard/emoji"):GetComponent(typeof(Animation)):Play("anim_newinstagram_emoji_in")
+							LeanTween.value(go(arg_17_0.rightPanel:Find("chat/messageScroll")), var_17_2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(var_17_3)):setEase(LeanTweenType.easeInOutCubic)
+							arg_17_0:StartTimer(function()
+								SetActive(arg_20_2:Find("charaMessageCard/waiting"), false)
+								SetActive(arg_20_2:Find("charaMessageCard/emoji"), true)
+								arg_20_2:Find("charaMessageCard/emoji"):GetComponent(typeof(Animation)):Play("anim_newinstagram_emoji_in")
 
-								if arg_17_1 + 1 ~= #arg_14_2 then
-									local var_30_0 = var_0_3[tonumber(var_17_0.param)].desc
-									local var_30_1 = string.gsub(var_30_0, "#%w+>", "#28af6e>")
+								if arg_20_1 + 1 ~= #arg_17_2 then
+									local var_33_0 = var_0_3[tonumber(var_20_0.param)].desc
+									local var_33_1 = string.gsub(var_33_0, "#%w+>", "#28af6e>")
 
-									arg_14_0:ChangeCharaTextFunc(arg_14_4, var_30_1)
+									arg_17_0:ChangeCharaTextFunc(arg_17_4, var_33_1)
 								else
-									arg_14_0:emit(InstagramChatMediator.SET_READED, {
-										arg_14_1.topicId
+									arg_17_0:emit(InstagramChatMediator.SET_READED, {
+										arg_17_1.topicId
 									})
 								end
 
 								Canvas.ForceUpdateCanvases()
-								LeanTween.value(go(arg_14_0.rightPanel:Find("messageScroll")), var_14_2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(var_14_3)):setEase(LeanTweenType.easeInOutCubic)
-								arg_14_0:SetEndAniEvent(arg_17_2:Find("charaMessageCard/emoji"), function()
-									if arg_14_0.shouldShowOption and arg_17_1 + 1 == #arg_14_2 then
-										arg_14_0:SetOptionPanelActive(true)
+								LeanTween.value(go(arg_17_0.rightPanel:Find("chat/messageScroll")), var_17_2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(var_17_3)):setEase(LeanTweenType.easeInOutCubic)
+								arg_17_0:SetEndAniEvent(arg_20_2:Find("charaMessageCard/emoji"), function()
+									if arg_17_0.shouldShowOption and arg_20_1 + 1 == #arg_17_2 then
+										arg_17_0:SetOptionPanelActive(true)
 									end
 								end)
-							end, var_14_5)
-						end, var_17_3)
+							end, var_17_5)
+						end, var_20_3)
 					end
-				elseif var_17_0.type == 5 then
-					arg_14_0:SetCharaMessageCardActive(var_17_1, {
+				elseif var_20_0.type == 5 then
+					arg_17_0:SetCharaMessageCardActive(var_20_1, {
 						6
 					})
 
-					local var_17_8 = var_17_0.param
+					local var_20_8 = var_20_0.param
 
-					for iter_17_0 in string.gmatch(var_17_0.param, "'%d+'") do
-						local var_17_9 = string.sub(iter_17_0, 2, #iter_17_0 - 1)
+					for iter_20_0 in string.gmatch(var_20_0.param, "'%d+'") do
+						local var_20_9 = string.sub(iter_20_0, 2, #iter_20_0 - 1)
 
-						var_17_8 = string.gsub(var_17_8, iter_17_0, "<color=#93e9ff>" .. var_0_1[tonumber(var_17_9)].name .. "</color>")
+						var_20_8 = string.gsub(var_20_8, iter_20_0, "<color=#93e9ff>" .. var_0_1[tonumber(var_20_9)].name .. "</color>")
 					end
 
-					setText(arg_17_2:Find("charaMessageCard/systemTip/panel/Text"), var_17_8)
+					setText(arg_20_2:Find("charaMessageCard/systemTip/panel/Text"), var_20_8)
 
-					if arg_14_3 and var_14_0 and arg_17_1 + 1 > var_14_0 then
-						SetActive(arg_17_2, false)
-						arg_14_0:StartTimer(function()
-							SetActive(arg_17_2, true)
-							arg_17_2:Find("charaMessageCard/systemTip"):GetComponent(typeof(Animation)):Play("anim_newinstagram_tip_in")
+					if arg_17_3 and var_17_0 and arg_20_1 + 1 > var_17_0 then
+						SetActive(arg_20_2, false)
+						arg_17_0:StartTimer(function()
+							SetActive(arg_20_2, true)
+							arg_20_2:Find("charaMessageCard/systemTip"):GetComponent(typeof(Animation)):Play("anim_newinstagram_tip_in")
 
-							if arg_17_1 + 1 ~= #arg_14_2 then
-								arg_14_0:ChangeCharaTextFunc(arg_14_4, var_17_8)
+							if arg_20_1 + 1 ~= #arg_17_2 then
+								arg_17_0:ChangeCharaTextFunc(arg_17_4, var_20_8)
 							else
-								arg_14_0:emit(InstagramChatMediator.SET_READED, {
-									arg_14_1.topicId
+								arg_17_0:emit(InstagramChatMediator.SET_READED, {
+									arg_17_1.topicId
 								})
 							end
 
 							Canvas.ForceUpdateCanvases()
-							LeanTween.value(go(arg_14_0.rightPanel:Find("messageScroll")), var_14_2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(var_14_3)):setEase(LeanTweenType.easeInOutCubic)
-							arg_14_0:SetEndAniEvent(arg_17_2:Find("charaMessageCard/systemTip"), function()
-								if arg_14_0.shouldShowOption and arg_17_1 + 1 == #arg_14_2 then
-									arg_14_0:SetOptionPanelActive(true)
+							LeanTween.value(go(arg_17_0.rightPanel:Find("chat/messageScroll")), var_17_2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(var_17_3)):setEase(LeanTweenType.easeInOutCubic)
+							arg_17_0:SetEndAniEvent(arg_20_2:Find("charaMessageCard/systemTip"), function()
+								if arg_17_0.shouldShowOption and arg_20_1 + 1 == #arg_17_2 then
+									arg_17_0:SetOptionPanelActive(true)
 								end
 							end)
-						end, var_17_3)
+						end, var_20_3)
 					end
 				end
 			else
-				if var_17_0.type == 1 then
-					arg_14_0:SetPlayerMessageCardActive(var_17_2, {
+				if var_20_0.type == 1 then
+					arg_17_0:SetPlayerMessageCardActive(var_20_2, {
 						0
 					})
-					setText(arg_17_2:Find("playerReplyCard/msgBox/msg"), var_17_0.param)
-				elseif var_17_0.type == 4 then
-					arg_14_0:SetPlayerMessageCardActive(var_17_2, {
+					setText(arg_20_2:Find("playerReplyCard/msgBox/msg"), var_20_0.param)
+				elseif var_20_0.type == 4 then
+					arg_17_0:SetPlayerMessageCardActive(var_20_2, {
 						1
 					})
-					arg_14_0:ClearEmoji(arg_17_2:Find("playerReplyCard/emoji/emoticon"))
-					arg_14_0:SetEmoji(arg_17_2:Find("playerReplyCard/emoji/emoticon"), var_0_3[tonumber(var_17_0.param)].pic)
-				elseif var_17_0.type == 5 then
-					arg_14_0:SetPlayerMessageCardActive(var_17_2, {
+					arg_17_0:ClearEmoji(arg_20_2:Find("playerReplyCard/emoji/emoticon"))
+					arg_17_0:SetEmoji(arg_20_2:Find("playerReplyCard/emoji/emoticon"), var_0_3[tonumber(var_20_0.param)].pic)
+				elseif var_20_0.type == 5 then
+					arg_17_0:SetPlayerMessageCardActive(var_20_2, {
 						2
 					})
 
-					local var_17_10 = var_17_0.param
+					local var_20_10 = var_20_0.param
 
-					for iter_17_1 in string.gmatch(var_17_0.param, "'%d+'") do
-						local var_17_11 = string.sub(iter_17_1, 2, #iter_17_1 - 1)
+					for iter_20_1 in string.gmatch(var_20_0.param, "'%d+'") do
+						local var_20_11 = string.sub(iter_20_1, 2, #iter_20_1 - 1)
 
-						var_17_10 = string.gsub(var_17_10, iter_17_1, "<color=#93e9ff>" .. var_0_1[tonumber(var_17_11)].name .. "</color>")
+						var_20_10 = string.gsub(var_20_10, iter_20_1, "<color=#93e9ff>" .. var_0_1[tonumber(var_20_11)].name .. "</color>")
 					end
 
-					setText(arg_17_2:Find("playerReplyCard/systemTip/panel/Text"), var_17_10)
+					setText(arg_20_2:Find("playerReplyCard/systemTip/panel/Text"), var_20_10)
 				end
 
-				if arg_14_3 and var_14_0 and _.contains(var_14_1, arg_17_1 + 1) then
-					if table.indexof(var_14_1, arg_17_1 + 1) < #var_14_1 then
-						SetActive(arg_17_2, false)
-						arg_14_0:StartTimer(function()
-							SetActive(arg_17_2, true)
+				if arg_17_3 and var_17_0 and _.contains(var_17_1, arg_20_1 + 1) then
+					if table.indexof(var_17_1, arg_20_1 + 1) < #var_17_1 then
+						SetActive(arg_20_2, false)
+						arg_17_0:StartTimer(function()
+							SetActive(arg_20_2, true)
 
-							if var_17_0.type == 1 then
-								arg_17_2:Find("playerReplyCard/msgBox"):GetComponent(typeof(Animation)):Play("anim_newinstagram_playerchat_common_in")
-								arg_14_0:ChangeCharaTextFunc(arg_14_4, var_17_0.param)
-							elseif var_17_0.type == 4 then
-								arg_17_2:Find("playerReplyCard/emoji"):GetComponent(typeof(Animation)):Play("anim_newinstagram_emoji_in")
+							if var_20_0.type == 1 then
+								arg_20_2:Find("playerReplyCard/msgBox"):GetComponent(typeof(Animation)):Play("anim_newinstagram_playerchat_common_in")
+								arg_17_0:ChangeCharaTextFunc(arg_17_4, var_20_0.param)
+							elseif var_20_0.type == 4 then
+								arg_20_2:Find("playerReplyCard/emoji"):GetComponent(typeof(Animation)):Play("anim_newinstagram_emoji_in")
 
-								local var_34_0 = var_0_3[tonumber(var_17_0.param)].desc
-								local var_34_1 = string.gsub(var_34_0, "#%w+>", "#28af6e>")
+								local var_37_0 = var_0_3[tonumber(var_20_0.param)].desc
+								local var_37_1 = string.gsub(var_37_0, "#%w+>", "#28af6e>")
 
-								arg_14_0:ChangeCharaTextFunc(arg_14_4, var_34_1)
-							elseif var_17_0.type == 5 then
-								arg_17_2:Find("playerReplyCard/systemTip"):GetComponent(typeof(Animation)):Play("anim_newinstagram_tip_in")
+								arg_17_0:ChangeCharaTextFunc(arg_17_4, var_37_1)
+							elseif var_20_0.type == 5 then
+								arg_20_2:Find("playerReplyCard/systemTip"):GetComponent(typeof(Animation)):Play("anim_newinstagram_tip_in")
 
-								local var_34_2 = var_17_0.param
+								local var_37_2 = var_20_0.param
 
-								for iter_34_0 in string.gmatch(var_17_0.param, "'%d+'") do
-									local var_34_3 = string.sub(iter_34_0, 2, #iter_34_0 - 1)
+								for iter_37_0 in string.gmatch(var_20_0.param, "'%d+'") do
+									local var_37_3 = string.sub(iter_37_0, 2, #iter_37_0 - 1)
 
-									var_34_2 = string.gsub(var_34_2, iter_34_0, "<color=#93e9ff>" .. var_0_1[tonumber(var_34_3)].name .. "</color>")
+									var_37_2 = string.gsub(var_37_2, iter_37_0, "<color=#93e9ff>" .. var_0_1[tonumber(var_37_3)].name .. "</color>")
 								end
 
-								arg_14_0:ChangeCharaTextFunc(arg_14_4, var_34_2)
+								arg_17_0:ChangeCharaTextFunc(arg_17_4, var_37_2)
 							end
 
-							if arg_17_1 + 1 == #arg_14_2 then
-								arg_14_0:emit(InstagramChatMediator.SET_READED, {
-									arg_14_1.topicId
+							if arg_20_1 + 1 == #arg_17_2 then
+								arg_17_0:emit(InstagramChatMediator.SET_READED, {
+									arg_17_1.topicId
 								})
 							end
 
 							Canvas.ForceUpdateCanvases()
-							LeanTween.value(go(arg_14_0.rightPanel:Find("messageScroll")), var_14_2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(var_14_3)):setEase(LeanTweenType.easeInOutCubic)
-						end, (#var_14_1 - table.indexof(var_14_1, arg_17_1 + 1)) * var_14_6)
+							LeanTween.value(go(arg_17_0.rightPanel:Find("chat/messageScroll")), var_17_2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(var_17_3)):setEase(LeanTweenType.easeInOutCubic)
+						end, (#var_17_1 - table.indexof(var_17_1, arg_20_1 + 1)) * var_17_6)
 					else
-						if var_17_0.type == 1 then
-							arg_17_2:Find("playerReplyCard/msgBox"):GetComponent(typeof(Animation)):Play("anim_newinstagram_playerchat_common_in")
-							arg_14_0:ChangeCharaTextFunc(arg_14_4, var_17_0.param)
-						elseif var_17_0.type == 4 then
-							arg_17_2:Find("playerReplyCard/emoji"):GetComponent(typeof(Animation)):Play("anim_newinstagram_emoji_in")
+						if var_20_0.type == 1 then
+							arg_20_2:Find("playerReplyCard/msgBox"):GetComponent(typeof(Animation)):Play("anim_newinstagram_playerchat_common_in")
+							arg_17_0:ChangeCharaTextFunc(arg_17_4, var_20_0.param)
+						elseif var_20_0.type == 4 then
+							arg_20_2:Find("playerReplyCard/emoji"):GetComponent(typeof(Animation)):Play("anim_newinstagram_emoji_in")
 
-							local var_17_12 = var_0_3[tonumber(var_17_0.param)].desc
-							local var_17_13 = string.gsub(var_17_12, "#%w+>", "#28af6e>")
+							local var_20_12 = var_0_3[tonumber(var_20_0.param)].desc
+							local var_20_13 = string.gsub(var_20_12, "#%w+>", "#28af6e>")
 
-							arg_14_0:ChangeCharaTextFunc(arg_14_4, var_17_13)
-						elseif var_17_0.type == 5 then
-							arg_17_2:Find("playerReplyCard/systemTip"):GetComponent(typeof(Animation)):Play("anim_newinstagram_tip_in")
+							arg_17_0:ChangeCharaTextFunc(arg_17_4, var_20_13)
+						elseif var_20_0.type == 5 then
+							arg_20_2:Find("playerReplyCard/systemTip"):GetComponent(typeof(Animation)):Play("anim_newinstagram_tip_in")
 
-							local var_17_14 = var_17_0.param
+							local var_20_14 = var_20_0.param
 
-							for iter_17_2 in string.gmatch(var_17_0.param, "'%d+'") do
-								local var_17_15 = string.sub(iter_17_2, 2, #iter_17_2 - 1)
+							for iter_20_2 in string.gmatch(var_20_0.param, "'%d+'") do
+								local var_20_15 = string.sub(iter_20_2, 2, #iter_20_2 - 1)
 
-								var_17_14 = string.gsub(var_17_14, iter_17_2, "<color=#93e9ff>" .. var_0_1[tonumber(var_17_15)].name .. "</color>")
+								var_20_14 = string.gsub(var_20_14, iter_20_2, "<color=#93e9ff>" .. var_0_1[tonumber(var_20_15)].name .. "</color>")
 							end
 
-							arg_14_0:ChangeCharaTextFunc(arg_14_4, var_17_14)
+							arg_17_0:ChangeCharaTextFunc(arg_17_4, var_20_14)
 						end
 
-						if arg_17_1 + 1 == #arg_14_2 then
-							arg_14_0:emit(InstagramChatMediator.SET_READED, {
-								arg_14_1.topicId
+						if arg_20_1 + 1 == #arg_17_2 then
+							arg_17_0:emit(InstagramChatMediator.SET_READED, {
+								arg_17_1.topicId
 							})
 						end
 					end
 				end
 			end
 
-			if not arg_14_1:isWaiting() and arg_17_1 + 1 == #arg_14_2 then
-				if arg_14_3 then
-					if var_17_0.ship_group ~= 0 then
-						arg_14_0:StartTimer(function()
-							setActive(arg_17_2:Find("end"), true)
-						end, var_17_3 + var_14_4)
+			if not arg_17_1:isWaiting() and arg_20_1 + 1 == #arg_17_2 then
+				if arg_17_3 then
+					if var_20_0.ship_group ~= 0 then
+						arg_17_0:StartTimer(function()
+							setActive(arg_20_2:Find("end"), true)
+						end, var_20_3 + var_17_4)
 					else
-						arg_14_0:StartTimer(function()
-							setActive(arg_17_2:Find("end"), true)
-						end, (#var_14_1 - table.indexof(var_14_1, arg_17_1 + 1)) * var_14_6 + var_14_6)
+						arg_17_0:StartTimer(function()
+							setActive(arg_20_2:Find("end"), true)
+						end, (#var_17_1 - table.indexof(var_17_1, arg_20_1 + 1)) * var_17_6 + var_17_6)
 					end
 				else
-					setActive(arg_17_2:Find("end"), true)
+					setActive(arg_20_2:Find("end"), true)
 				end
 			else
-				setActive(arg_17_2:Find("end"), false)
+				setActive(arg_20_2:Find("end"), false)
 			end
 		end
 	end)
-	arg_14_0.messageList:align(#arg_14_2)
+	arg_17_0.messageList:align(#arg_17_2)
 
-	if arg_14_3 then
+	if arg_17_3 then
 		Canvas.ForceUpdateCanvases()
-		LeanTween.value(go(arg_14_0.rightPanel:Find("messageScroll")), var_14_2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(var_14_3)):setEase(LeanTweenType.easeInOutCubic)
+		LeanTween.value(go(arg_17_0.rightPanel:Find("chat/messageScroll")), var_17_2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(var_17_3)):setEase(LeanTweenType.easeInOutCubic)
 	else
-		scrollToBottom(arg_14_0.rightPanel:Find("messageScroll"))
+		scrollToBottom(arg_17_0.rightPanel:Find("chat/messageScroll"))
 	end
 end
 
-function var_0_0.SetCharaMessageCardActive(arg_37_0, arg_37_1, arg_37_2)
-	if _.contains(arg_37_2, 6) then
-		SetActive(arg_37_1:GetChild(0), false)
+function var_0_0.SetCharaMessageCardActive(arg_40_0, arg_40_1, arg_40_2)
+	if _.contains(arg_40_2, 6) then
+		SetActive(arg_40_1:GetChild(0), false)
 	else
-		SetActive(arg_37_1:GetChild(0), true)
+		SetActive(arg_40_1:GetChild(0), true)
 	end
 
-	for iter_37_0 = 1, arg_37_1.childCount - 1 do
-		if _.contains(arg_37_2, iter_37_0) then
-			SetActive(arg_37_1:GetChild(iter_37_0), true)
+	for iter_40_0 = 1, arg_40_1.childCount - 1 do
+		if _.contains(arg_40_2, iter_40_0) then
+			SetActive(arg_40_1:GetChild(iter_40_0), true)
 		else
-			SetActive(arg_37_1:GetChild(iter_37_0), false)
+			SetActive(arg_40_1:GetChild(iter_40_0), false)
 		end
 	end
 end
 
-function var_0_0.SetPlayerMessageCardActive(arg_38_0, arg_38_1, arg_38_2)
-	for iter_38_0 = 0, arg_38_1.childCount - 1 do
-		if _.contains(arg_38_2, iter_38_0) then
-			SetActive(arg_38_1:GetChild(iter_38_0), true)
+function var_0_0.SetPlayerMessageCardActive(arg_41_0, arg_41_1, arg_41_2)
+	for iter_41_0 = 0, arg_41_1.childCount - 1 do
+		if _.contains(arg_41_2, iter_41_0) then
+			SetActive(arg_41_1:GetChild(iter_41_0), true)
 		else
-			SetActive(arg_38_1:GetChild(iter_38_0), false)
+			SetActive(arg_41_1:GetChild(iter_41_0), false)
 		end
 	end
 end
 
-function var_0_0.SetEmoji(arg_39_0, arg_39_1, arg_39_2)
-	PoolMgr.GetInstance():GetPrefab("emoji/" .. arg_39_2, arg_39_2, true, function(arg_40_0)
-		if not IsNil(arg_39_1) then
-			arg_40_0.name = arg_39_2
-			tf(arg_40_0).sizeDelta = arg_39_1.sizeDelta
-			tf(arg_40_0).anchoredPosition = Vector2.zero
+function var_0_0.SetEmoji(arg_42_0, arg_42_1, arg_42_2)
+	PoolMgr.GetInstance():GetPrefab("emoji/" .. arg_42_2, arg_42_2, true, function(arg_43_0)
+		if not IsNil(arg_42_1) then
+			arg_43_0.name = arg_42_2
+			tf(arg_43_0).sizeDelta = arg_42_1.sizeDelta
+			tf(arg_43_0).anchoredPosition = Vector2.zero
 
-			local var_40_0 = arg_40_0:GetComponent("Animator")
+			local var_43_0 = arg_43_0:GetComponent("Animator")
 
-			if var_40_0 then
-				var_40_0.enabled = true
+			if var_43_0 then
+				var_43_0.enabled = true
 			end
 
-			setParent(arg_40_0, arg_39_1, false)
+			setParent(arg_43_0, arg_42_1, false)
 		else
-			PoolMgr.GetInstance():ReturnPrefab("emoji/" .. arg_39_2, arg_39_2, arg_40_0)
+			PoolMgr.GetInstance():ReturnPrefab("emoji/" .. arg_42_2, arg_42_2, arg_43_0)
 		end
 	end)
 end
 
-function var_0_0.ClearEmoji(arg_41_0, arg_41_1)
-	eachChild(arg_41_1, function(arg_42_0)
-		local var_42_0 = go(arg_42_0)
+function var_0_0.ClearEmoji(arg_44_0, arg_44_1)
+	eachChild(arg_44_1, function(arg_45_0)
+		local var_45_0 = go(arg_45_0)
 
-		PoolMgr.GetInstance():ReturnPrefab("emoji/" .. var_42_0.name, var_42_0.name, var_42_0)
+		PoolMgr.GetInstance():ReturnPrefab("emoji/" .. var_45_0.name, var_45_0.name, var_45_0)
 	end)
 end
 
-function var_0_0.UpdateOptionPanel(arg_43_0, arg_43_1, arg_43_2)
-	local var_43_0 = arg_43_2[#arg_43_2].option
+function var_0_0.UpdateOptionPanel(arg_46_0, arg_46_1, arg_46_2)
+	local var_46_0 = arg_46_2[#arg_46_2].option
 
-	if var_43_0 and type(var_43_0) == "table" then
-		arg_43_0.shouldShowOption = true
-		arg_43_0.optionCount = #var_43_0
+	if var_46_0 and type(var_46_0) == "table" then
+		arg_46_0.shouldShowOption = true
+		arg_46_0.optionCount = #var_46_0
 
-		arg_43_0:SetOptionPanelActive(true)
-		arg_43_0.optionList:make(function(arg_44_0, arg_44_1, arg_44_2)
-			if arg_44_0 == UIItemList.EventUpdate then
-				local var_44_0 = var_43_0[arg_44_1 + 1]
+		arg_46_0:SetOptionPanelActive(true)
+		arg_46_0.optionList:make(function(arg_47_0, arg_47_1, arg_47_2)
+			if arg_47_0 == UIItemList.EventUpdate then
+				local var_47_0 = var_46_0[arg_47_1 + 1]
 
-				setText(arg_44_2:Find("Text"), HXSet.hxLan(var_44_0[2]))
-				onButton(arg_43_0, arg_44_2, function()
-					arg_43_0:emit(InstagramChatMediator.REPLY, arg_43_1.topicId, arg_43_2[#arg_43_2].id, var_44_0[1])
+				setText(arg_47_2:Find("Text"), HXSet.hxLan(var_47_0[2]))
+				onButton(arg_46_0, arg_47_2, function()
+					arg_46_0:emit(InstagramChatMediator.REPLY, arg_46_1.topicId, arg_46_2[#arg_46_2].id, var_47_0[1])
 				end, SFX_PANEL)
 			end
 		end)
-		arg_43_0.optionList:align(#var_43_0)
+		arg_46_0.optionList:align(#var_46_0)
 	else
-		arg_43_0:SetOptionPanelActive(false)
+		arg_46_0:SetOptionPanelActive(false)
 
-		arg_43_0.shouldShowOption = false
+		arg_46_0.shouldShowOption = false
 	end
 end
 
-function var_0_0.SetOptionPanelActive(arg_46_0, arg_46_1)
-	SetActive(arg_46_0.optionPanel, arg_46_1)
+function var_0_0.SetOptionPanelActive(arg_49_0, arg_49_1)
+	SetActive(arg_49_0.optionPanel, arg_49_1)
 
-	local var_46_0 = arg_46_0.rightPanel:Find("messageScroll/Viewport/Content"):GetComponent(typeof(VerticalLayoutGroup))
-	local var_46_1 = UnityEngine.RectOffset.New()
+	local var_49_0 = arg_49_0.rightPanel:Find("chat/messageScroll/Viewport/Content"):GetComponent(typeof(VerticalLayoutGroup))
+	local var_49_1 = UnityEngine.RectOffset.New()
 
-	var_46_1.left = 0
-	var_46_1.right = 0
-	var_46_1.top = 0
+	var_49_1.left = 0
+	var_49_1.right = 0
+	var_49_1.top = 0
 
-	local var_46_2 = arg_46_0.rightPanel:Find("messageScroll/Scrollbar Vertical"):GetComponent(typeof(RectTransform))
+	local var_49_2 = arg_49_0.rightPanel:Find("chat/messageScroll/Scrollbar Vertical"):GetComponent(typeof(RectTransform))
 
-	if arg_46_1 then
-		var_46_1.bottom = 42 + 88 * arg_46_0.optionCount
-		var_46_2.sizeDelta = Vector2(arg_46_0.messageScrollWidth, -var_46_1.bottom)
+	if arg_49_1 then
+		var_49_1.bottom = 42 + 88 * arg_49_0.optionCount
+		var_49_2.sizeDelta = Vector2(arg_49_0.messageScrollWidth, -var_49_1.bottom)
 	else
-		var_46_1.bottom = 50
-		var_46_2.sizeDelta = Vector2(arg_46_0.messageScrollWidth, 0)
+		var_49_1.bottom = 50
+		var_49_2.sizeDelta = Vector2(arg_49_0.messageScrollWidth, 0)
 	end
 
-	var_46_0.padding = var_46_1
+	var_49_0.padding = var_49_1
 
-	scrollToBottom(arg_46_0.rightPanel:Find("messageScroll"))
+	scrollToBottom(arg_49_0.rightPanel:Find("chat/messageScroll"))
 end
 
-function var_0_0.SetFilterPanel(arg_47_0)
-	arg_47_0.readFilter = arg_47_0.readFilter or var_0_0.ReadType[1]
-	arg_47_0.typeFilter = arg_47_0.typeFilter or var_0_0.TypeType[1]
-	arg_47_0.campFilter = arg_47_0.campFilter or {
+function var_0_0.SetFilterPanel(arg_50_0)
+	arg_50_0.readFilter = arg_50_0.readFilter or var_0_0.ReadType[1]
+	arg_50_0.typeFilter = arg_50_0.typeFilter or var_0_0.TypeType[1]
+	arg_50_0.campFilter = arg_50_0.campFilter or {
 		var_0_0.CampIds[1]
 	}
 
-	local var_47_0 = arg_47_0.filterUI:Find("panel/filterScroll/Viewport/Content/read")
-	local var_47_1 = arg_47_0.filterUI:Find("panel/filterScroll/Viewport/Content/type")
-	local var_47_2 = arg_47_0.filterUI:Find("panel/filterScroll/Viewport/Content/camp")
-	local var_47_3 = UIItemList.New(var_47_2, var_47_2:Find("option"))
+	local var_50_0 = arg_50_0.filterUI:Find("panel/filterScroll/Viewport/Content/read")
+	local var_50_1 = arg_50_0.filterUI:Find("panel/filterScroll/Viewport/Content/type")
+	local var_50_2 = arg_50_0.filterUI:Find("panel/filterScroll/Viewport/Content/camp")
+	local var_50_3 = UIItemList.New(var_50_2, var_50_2:Find("option"))
 
-	onButton(arg_47_0, arg_47_0.filterBtn, function()
-		SetActive(arg_47_0.filterUI, true)
-		pg.UIMgr.GetInstance():BlurPanel(arg_47_0.filterUI)
+	onButton(arg_50_0, arg_50_0.filterBtn, function()
+		SetActive(arg_50_0.filterUI, true)
+		pg.UIMgr.GetInstance():BlurPanel(arg_50_0.filterUI)
 
-		for iter_48_0, iter_48_1 in ipairs(var_0_0.ReadType) do
-			local var_48_0 = var_47_0:GetChild(iter_48_0)
-			local var_48_1 = var_48_0:Find("selectedFrame")
+		for iter_51_0, iter_51_1 in ipairs(var_0_0.ReadType) do
+			local var_51_0 = var_50_0:GetChild(iter_51_0)
+			local var_51_1 = var_51_0:Find("selectedFrame")
 
-			SetActive(var_48_1, arg_47_0.readFilter == iter_48_1)
-			onButton(arg_47_0, var_48_0, function()
-				for iter_49_0, iter_49_1 in ipairs(var_0_0.ReadType) do
-					SetActive(var_47_0:GetChild(iter_49_0):Find("selectedFrame"), false)
+			SetActive(var_51_1, arg_50_0.readFilter == iter_51_1)
+			onButton(arg_50_0, var_51_0, function()
+				for iter_52_0, iter_52_1 in ipairs(var_0_0.ReadType) do
+					SetActive(var_50_0:GetChild(iter_52_0):Find("selectedFrame"), false)
 				end
 
-				SetActive(var_48_1, true)
+				SetActive(var_51_1, true)
 			end, SFX_PANEL)
 		end
 
-		for iter_48_2, iter_48_3 in ipairs(var_0_0.TypeType) do
-			local var_48_2 = var_47_1:GetChild(iter_48_2)
-			local var_48_3 = var_48_2:Find("selectedFrame")
+		for iter_51_2, iter_51_3 in ipairs(var_0_0.TypeType) do
+			local var_51_2 = var_50_1:GetChild(iter_51_2)
+			local var_51_3 = var_51_2:Find("selectedFrame")
 
-			SetActive(var_48_3, arg_47_0.typeFilter == iter_48_3)
-			onButton(arg_47_0, var_48_2, function()
-				for iter_50_0, iter_50_1 in ipairs(var_0_0.TypeType) do
-					SetActive(var_47_1:GetChild(iter_50_0):Find("selectedFrame"), false)
+			SetActive(var_51_3, arg_50_0.typeFilter == iter_51_3)
+			onButton(arg_50_0, var_51_2, function()
+				for iter_53_0, iter_53_1 in ipairs(var_0_0.TypeType) do
+					SetActive(var_50_1:GetChild(iter_53_0):Find("selectedFrame"), false)
 				end
 
-				SetActive(var_48_3, true)
+				SetActive(var_51_3, true)
 			end, SFX_PANEL)
 		end
 
-		var_47_3:make(function(arg_51_0, arg_51_1, arg_51_2)
-			if arg_51_0 == UIItemList.EventUpdate then
-				setText(arg_51_2:Find("Text"), i18n(var_0_0.CampNames[arg_51_1 + 1]))
+		var_50_3:make(function(arg_54_0, arg_54_1, arg_54_2)
+			if arg_54_0 == UIItemList.EventUpdate then
+				setText(arg_54_2:Find("Text"), i18n(var_0_0.CampNames[arg_54_1 + 1]))
 
-				local var_51_0 = arg_51_2:Find("selectedFrame")
+				local var_54_0 = arg_54_2:Find("selectedFrame")
 
-				SetActive(var_51_0, _.contains(arg_47_0.campFilter, var_0_0.CampIds[arg_51_1 + 1]))
-				onButton(arg_47_0, arg_51_2, function()
-					if arg_51_1 == 0 then
-						SetActive(var_51_0, true)
+				SetActive(var_54_0, _.contains(arg_50_0.campFilter, var_0_0.CampIds[arg_54_1 + 1]))
+				onButton(arg_50_0, arg_54_2, function()
+					if arg_54_1 == 0 then
+						SetActive(var_54_0, true)
 
-						for iter_52_0 = 2, #var_0_0.CampIds do
-							SetActive(var_47_2:GetChild(iter_52_0 - 1):Find("selectedFrame"), false)
+						for iter_55_0 = 2, #var_0_0.CampIds do
+							SetActive(var_50_2:GetChild(iter_55_0 - 1):Find("selectedFrame"), false)
 						end
 					else
-						SetActive(var_51_0, not isActive(var_51_0))
+						SetActive(var_54_0, not isActive(var_54_0))
 
-						local var_52_0 = true
-						local var_52_1 = true
+						local var_55_0 = true
+						local var_55_1 = true
 
-						for iter_52_1 = 2, #var_0_0.CampIds do
-							if not isActive(var_47_2:GetChild(iter_52_1 - 1):Find("selectedFrame")) then
-								var_52_0 = false
+						for iter_55_1 = 2, #var_0_0.CampIds do
+							if not isActive(var_50_2:GetChild(iter_55_1 - 1):Find("selectedFrame")) then
+								var_55_0 = false
 							end
 
-							if isActive(var_47_2:GetChild(iter_52_1 - 1):Find("selectedFrame")) then
-								var_52_1 = false
+							if isActive(var_50_2:GetChild(iter_55_1 - 1):Find("selectedFrame")) then
+								var_55_1 = false
 							end
 						end
 
-						if var_52_0 then
-							SetActive(var_47_2:GetChild(0):Find("selectedFrame"), true)
+						if var_55_0 then
+							SetActive(var_50_2:GetChild(0):Find("selectedFrame"), true)
 
-							for iter_52_2 = 2, #var_0_0.CampIds do
-								SetActive(var_47_2:GetChild(iter_52_2 - 1):Find("selectedFrame"), false)
+							for iter_55_2 = 2, #var_0_0.CampIds do
+								SetActive(var_50_2:GetChild(iter_55_2 - 1):Find("selectedFrame"), false)
 							end
-						elseif var_52_1 then
-							SetActive(var_47_2:GetChild(0):Find("selectedFrame"), true)
+						elseif var_55_1 then
+							SetActive(var_50_2:GetChild(0):Find("selectedFrame"), true)
 						else
-							SetActive(var_47_2:GetChild(0):Find("selectedFrame"), false)
+							SetActive(var_50_2:GetChild(0):Find("selectedFrame"), false)
 						end
 					end
 				end, SFX_PANEL)
 			end
 		end)
-		var_47_3:align(#var_0_0.CampIds)
+		var_50_3:align(#var_0_0.CampIds)
 	end, SFX_PANEL)
-	onButton(arg_47_0, arg_47_0.filterUI:Find("bg"), function()
-		arg_47_0:CloseFilterPanel()
+	onButton(arg_50_0, arg_50_0.filterUI:Find("bg"), function()
+		arg_50_0:CloseFilterPanel()
 	end, SFX_PANEL)
-	onButton(arg_47_0, arg_47_0.filterUI:Find("panel/bottom/close"), function()
-		arg_47_0:CloseFilterPanel()
+	onButton(arg_50_0, arg_50_0.filterUI:Find("panel/bottom/close"), function()
+		arg_50_0:CloseFilterPanel()
 	end, SFX_PANEL)
-	onButton(arg_47_0, arg_47_0.filterUI:Find("panel/bottom/ok"), function()
-		for iter_55_0, iter_55_1 in ipairs(var_0_0.ReadType) do
-			local var_55_0 = var_47_0:GetChild(iter_55_0):Find("selectedFrame")
+	onButton(arg_50_0, arg_50_0.filterUI:Find("panel/bottom/ok"), function()
+		for iter_58_0, iter_58_1 in ipairs(var_0_0.ReadType) do
+			local var_58_0 = var_50_0:GetChild(iter_58_0):Find("selectedFrame")
 
-			if isActive(var_55_0) then
-				arg_47_0.readFilter = iter_55_1
+			if isActive(var_58_0) then
+				arg_50_0.readFilter = iter_58_1
 			end
 		end
 
-		for iter_55_2, iter_55_3 in ipairs(var_0_0.TypeType) do
-			local var_55_1 = var_47_1:GetChild(iter_55_2):Find("selectedFrame")
+		for iter_58_2, iter_58_3 in ipairs(var_0_0.TypeType) do
+			local var_58_1 = var_50_1:GetChild(iter_58_2):Find("selectedFrame")
 
-			if isActive(var_55_1) then
-				arg_47_0.typeFilter = iter_55_3
+			if isActive(var_58_1) then
+				arg_50_0.typeFilter = iter_58_3
 			end
 		end
 
-		arg_47_0.campFilter = {}
+		arg_50_0.campFilter = {}
 
-		for iter_55_4, iter_55_5 in ipairs(var_0_0.CampIds) do
-			local var_55_2 = var_47_2:GetChild(iter_55_4 - 1):Find("selectedFrame")
+		for iter_58_4, iter_58_5 in ipairs(var_0_0.CampIds) do
+			local var_58_2 = var_50_2:GetChild(iter_58_4 - 1):Find("selectedFrame")
 
-			if isActive(var_55_2) then
-				table.insert(arg_47_0.campFilter, iter_55_5)
+			if isActive(var_58_2) then
+				table.insert(arg_50_0.campFilter, iter_58_5)
 			end
 		end
 
-		arg_47_0:CloseFilterPanel()
-		arg_47_0:SetFilterResult()
+		arg_50_0:CloseFilterPanel()
+		arg_50_0:SetFilterResult()
 	end, SFX_PANEL)
 end
 
-function var_0_0.SetFilterResult(arg_56_0)
-	local var_56_0 = true
-	local var_56_1 = false
+function var_0_0.SetFilterResult(arg_59_0)
+	local var_59_0 = true
+	local var_59_1 = false
 
-	if not arg_56_0.readFilter then
-		arg_56_0.readFilter = var_0_0.ReadType[1]
-		arg_56_0.typeFilter = var_0_0.TypeType[1]
-		arg_56_0.campFilter = {
+	if not arg_59_0.readFilter then
+		arg_59_0.readFilter = var_0_0.ReadType[1]
+		arg_59_0.typeFilter = var_0_0.TypeType[1]
+		arg_59_0.campFilter = {
 			var_0_0.CampIds[1]
 		}
 	end
 
-	arg_56_0.chatList = table.insertto({}, arg_56_0.allChatList)
+	arg_59_0.chatList = table.insertto({}, arg_59_0.allChatList)
 
-	for iter_56_0 = #arg_56_0.chatList, 1, -1 do
-		local var_56_2 = arg_56_0.chatList[iter_56_0]
-		local var_56_3 = true
+	for iter_59_0 = #arg_59_0.chatList, 1, -1 do
+		local var_59_2 = arg_59_0.chatList[iter_59_0]
+		local var_59_3 = true
 
-		if arg_56_0.readFilter ~= "all" then
-			local var_56_4 = arg_56_0.readFilter == "hasReaded" and 1 or 0
+		if arg_59_0.readFilter ~= "all" then
+			local var_59_4 = arg_59_0.readFilter == "hasReaded" and 1 or 0
 
-			if var_56_2:GetCharacterEndFlag() ~= var_56_4 then
-				var_56_3 = false
+			if var_59_2:GetCharacterEndFlag() ~= var_59_4 then
+				var_59_3 = false
 			end
 		end
 
-		if arg_56_0.typeFilter ~= "all" then
-			local var_56_5 = arg_56_0.typeFilter == "single" and 1 or 2
+		if arg_59_0.typeFilter ~= "all" then
+			local var_59_5 = arg_59_0.typeFilter == "single" and 1 or 2
 
-			if var_56_2.type ~= var_56_5 then
-				var_56_3 = false
+			if var_59_2.type ~= var_59_5 then
+				var_59_3 = false
 			end
 		end
 
-		if not _.contains(arg_56_0.campFilter, 0) and not _.contains(arg_56_0.campFilter, var_56_2.nationality) then
-			var_56_3 = false
+		if not _.contains(arg_59_0.campFilter, 0) and not _.contains(arg_59_0.campFilter, var_59_2.nationality) then
+			var_59_3 = false
 		end
 
-		if not var_56_3 then
-			table.remove(arg_56_0.chatList, iter_56_0)
+		if not var_59_3 then
+			table.remove(arg_59_0.chatList, iter_59_0)
 		end
 
-		if var_56_3 then
-			var_56_0 = false
+		if var_59_3 then
+			var_59_0 = false
 		end
 
-		if arg_56_0.currentChat and arg_56_0.currentChat.characterId == var_56_2.characterId and var_56_3 then
-			var_56_1 = true
+		if arg_59_0.currentChat and arg_59_0.currentChat.characterId == var_59_2.characterId and var_59_3 then
+			var_59_1 = true
 		end
 	end
 
-	local var_56_6 = arg_56_0.readFilter == "all" and arg_56_0.typeFilter == "all" and _.contains(arg_56_0.campFilter, 0)
+	local var_59_6 = arg_59_0.readFilter == "all" and arg_59_0.typeFilter == "all" and _.contains(arg_59_0.campFilter, 0)
 
-	SetActive(arg_56_0.isFiltered, not var_56_6)
+	SetActive(arg_59_0.isFiltered, not var_59_6)
 
-	if var_56_0 then
-		SetActive(arg_56_0.leftPanel:Find("charaScroll"), false)
-		SetActive(arg_56_0._tf:Find("main/noFilteredMessageBg"), true)
-		SetActive(arg_56_0.rightPanel, false)
-		SetActive(arg_56_0._tf:Find("main/rightNoMessageBg"), false)
+	if var_59_6 then
+		arg_59_0:InsertOfficialAccounts()
+	end
+
+	if var_59_0 then
+		SetActive(arg_59_0.leftPanel:Find("charaScroll"), false)
+		SetActive(arg_59_0._tf:Find("main/noFilteredMessageBg"), true)
+		SetActive(arg_59_0.rightPanel, false)
+		SetActive(arg_59_0._tf:Find("main/rightNoMessageBg"), false)
 	else
-		SetActive(arg_56_0.leftPanel:Find("charaScroll"), true)
-		arg_56_0.charaScrollrect:SetTotalCount(#arg_56_0.chatList)
-		SetActive(arg_56_0._tf:Find("main/noFilteredMessageBg"), false)
+		SetActive(arg_59_0.leftPanel:Find("charaScroll"), true)
+		arg_59_0.charaScrollrect:SetTotalCount(#arg_59_0.chatList)
+		SetActive(arg_59_0._tf:Find("main/noFilteredMessageBg"), false)
 
-		if var_56_1 then
-			SetActive(arg_56_0.rightPanel, true)
-			SetActive(arg_56_0._tf:Find("main/rightNoMessageBg"), false)
+		if var_59_1 then
+			SetActive(arg_59_0.rightPanel, true)
+			SetActive(arg_59_0._tf:Find("main/rightNoMessageBg"), false)
 		else
-			SetActive(arg_56_0.rightPanel, false)
-			SetActive(arg_56_0._tf:Find("main/rightNoMessageBg"), true)
+			SetActive(arg_59_0.rightPanel, false)
+			SetActive(arg_59_0._tf:Find("main/rightNoMessageBg"), true)
 
-			arg_56_0.currentChat = nil
+			arg_59_0.currentChat = nil
 
-			if arg_56_0.cancelFrame then
-				arg_56_0.cancelFrame()
+			if arg_59_0.cancelFrame then
+				arg_59_0.cancelFrame()
 
-				arg_56_0.cancelFrame = nil
+				arg_59_0.cancelFrame = nil
 			end
 		end
 	end
 end
 
-function var_0_0.CloseFilterPanel(arg_57_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_57_0.filterUI, arg_57_0._tf:Find("subPages"))
-	SetActive(arg_57_0.filterUI, false)
+function var_0_0.CloseFilterPanel(arg_60_0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_60_0.filterUI, arg_60_0._tf:Find("subPages"))
+	SetActive(arg_60_0.filterUI, false)
 end
 
-function var_0_0.SetTopicPanel(arg_58_0, arg_58_1)
-	SetActive(arg_58_0.topicBtn:Find("tip"), arg_58_1:GetCharacterEndFlagExceptCurrent() == 0)
-	onButton(arg_58_0, arg_58_0.topicBtn, function()
-		SetActive(arg_58_0.topicUI, true)
-		pg.UIMgr.GetInstance():BlurPanel(arg_58_0.topicUI)
+function var_0_0.SetTopicPanel(arg_61_0, arg_61_1)
+	SetActive(arg_61_0.topicBtn:Find("tip"), arg_61_1:GetCharacterEndFlagExceptCurrent() == 0)
+	onButton(arg_61_0, arg_61_0.topicBtn, function()
+		SetActive(arg_61_0.topicUI, true)
+		pg.UIMgr.GetInstance():BlurPanel(arg_61_0.topicUI)
 
-		arg_58_0.currentTopic = nil
+		arg_61_0.currentTopic = nil
 
-		arg_58_1:SortTopicList()
+		arg_61_1:SortTopicList()
 
-		local var_59_0 = {}
-		local var_59_1 = {}
+		local var_62_0 = {}
+		local var_62_1 = {}
 
-		for iter_59_0, iter_59_1 in ipairs(arg_58_1.topics) do
-			if iter_59_1.active then
-				if iter_59_1.isII then
-					table.insert(var_59_1, iter_59_1)
+		for iter_62_0, iter_62_1 in ipairs(arg_61_1.topics) do
+			if iter_62_1.active then
+				if iter_62_1.isII then
+					table.insert(var_62_1, iter_62_1)
 				else
-					table.insert(var_59_0, iter_59_1)
+					table.insert(var_62_0, iter_62_1)
 				end
 			end
 		end
 
-		setActive(arg_58_0.topicUI:Find("panel/topicScroll/Viewport/Content/self"), #var_59_0 > 0)
-		setActive(arg_58_0.topicUI:Find("panel/topicScroll/Viewport/Content/other"), #var_59_1 > 0)
-		setActive(arg_58_0.topicUI:Find("panel/topicScroll/Viewport/Content/line"), #var_59_0 > 0 and #var_59_1 > 0)
+		setActive(arg_61_0.topicUI:Find("panel/topicScroll/Viewport/Content/self"), #var_62_0 > 0)
+		setActive(arg_61_0.topicUI:Find("panel/topicScroll/Viewport/Content/other"), #var_62_1 > 0)
+		setActive(arg_61_0.topicUI:Find("panel/topicScroll/Viewport/Content/line"), #var_62_0 > 0 and #var_62_1 > 0)
 
-		if #var_59_0 > 0 then
-			local var_59_2 = UIItemList.New(arg_58_0.topicUI:Find("panel/topicScroll/Viewport/Content/self"), arg_58_0.topicUI:Find("panel/topicScroll/Viewport/Content/self/topic"))
+		if #var_62_0 > 0 then
+			local var_62_2 = UIItemList.New(arg_61_0.topicUI:Find("panel/topicScroll/Viewport/Content/self"), arg_61_0.topicUI:Find("panel/topicScroll/Viewport/Content/self/topic"))
 
-			var_59_2:make(function(arg_60_0, arg_60_1, arg_60_2)
-				if arg_60_0 == UIItemList.EventUpdate then
-					local var_60_0 = var_59_0[arg_60_1 + 1]
+			var_62_2:make(function(arg_63_0, arg_63_1, arg_63_2)
+				if arg_63_0 == UIItemList.EventUpdate then
+					local var_63_0 = var_62_0[arg_63_1 + 1]
 
-					arg_58_0:SetTopic(arg_60_2, arg_58_1, var_60_0, var_59_0, var_59_1)
+					arg_61_0:SetTopic(arg_63_2, arg_61_1, var_63_0, var_62_0, var_62_1)
 				end
 			end)
-			var_59_2:align(#var_59_0)
+			var_62_2:align(#var_62_0)
 		end
 
-		if #var_59_1 > 0 then
-			local var_59_3 = UIItemList.New(arg_58_0.topicUI:Find("panel/topicScroll/Viewport/Content/other"), arg_58_0.topicUI:Find("panel/topicScroll/Viewport/Content/other/topic"))
+		if #var_62_1 > 0 then
+			local var_62_3 = UIItemList.New(arg_61_0.topicUI:Find("panel/topicScroll/Viewport/Content/other"), arg_61_0.topicUI:Find("panel/topicScroll/Viewport/Content/other/topic"))
 
-			var_59_3:make(function(arg_61_0, arg_61_1, arg_61_2)
-				if arg_61_0 == UIItemList.EventUpdate then
-					local var_61_0 = var_59_1[arg_61_1 + 1]
+			var_62_3:make(function(arg_64_0, arg_64_1, arg_64_2)
+				if arg_64_0 == UIItemList.EventUpdate then
+					local var_64_0 = var_62_1[arg_64_1 + 1]
 
-					arg_58_0:SetTopic(arg_61_2, arg_58_1, var_61_0, var_59_0, var_59_1)
+					arg_61_0:SetTopic(arg_64_2, arg_61_1, var_64_0, var_62_0, var_62_1)
 				end
 			end)
-			var_59_3:align(#var_59_1)
+			var_62_3:align(#var_62_1)
 		end
 	end, SFX_PANEL)
-	onButton(arg_58_0, arg_58_0.topicUI:Find("bg"), function()
-		arg_58_0:CloseTopicPanel()
+	onButton(arg_61_0, arg_61_0.topicUI:Find("bg"), function()
+		arg_61_0:CloseTopicPanel()
 	end, SFX_PANEL)
-	onButton(arg_58_0, arg_58_0.topicUI:Find("panel/bottom/close"), function()
-		arg_58_0:CloseTopicPanel()
+	onButton(arg_61_0, arg_61_0.topicUI:Find("panel/bottom/close"), function()
+		arg_61_0:CloseTopicPanel()
 	end, SFX_PANEL)
-	onButton(arg_58_0, arg_58_0.topicUI:Find("panel/bottom/ok"), function()
-		arg_58_0:emit(InstagramChatMediator.SET_CURRENT_TOPIC, arg_58_0.currentTopic.topicId)
-		arg_58_0:CloseTopicPanel()
+	onButton(arg_61_0, arg_61_0.topicUI:Find("panel/bottom/ok"), function()
+		arg_61_0:emit(InstagramChatMediator.SET_CURRENT_TOPIC, arg_61_0.currentTopic.topicId)
+		arg_61_0:CloseTopicPanel()
 
-		local var_64_0 = arg_58_0.rightPanel:GetComponent(typeof(Animation))
+		local var_67_0 = arg_61_0.rightPanel:GetComponent(typeof(Animation))
 
-		var_64_0:Stop()
-		var_64_0:Play("anim_newinstagram_chat_right_in")
+		var_67_0:Stop()
+		var_67_0:Play("anim_newinstagram_chat_right_in")
 	end, SFX_PANEL)
 end
 
-function var_0_0.SetTopic(arg_65_0, arg_65_1, arg_65_2, arg_65_3, arg_65_4, arg_65_5)
-	setScrollText(arg_65_1:Find("mask/name"), HXSet.hxLan(arg_65_3.name))
-	SetActive(arg_65_1:Find("lock"), not arg_65_3.active)
-	SetActive(arg_65_1:Find("waiting"), arg_65_3.active and arg_65_3:isWaiting())
-	SetActive(arg_65_1:Find("complete"), arg_65_3.active and arg_65_3:IsCompleted())
-	SetActive(arg_65_1:Find("selectedFrame"), arg_65_2.currentTopicId == arg_65_3.topicId)
-	SetActive(arg_65_1:Find("selected"), arg_65_2.currentTopicId == arg_65_3.topicId)
-	SetActive(arg_65_1:Find("tip"), arg_65_3.active and not arg_65_3:IsCompleted())
+function var_0_0.SetTopic(arg_68_0, arg_68_1, arg_68_2, arg_68_3, arg_68_4, arg_68_5)
+	setScrollText(arg_68_1:Find("mask/name"), HXSet.hxLan(arg_68_3.name))
+	SetActive(arg_68_1:Find("lock"), not arg_68_3.active)
+	SetActive(arg_68_1:Find("waiting"), arg_68_3.active and arg_68_3:isWaiting())
+	SetActive(arg_68_1:Find("complete"), arg_68_3.active and arg_68_3:IsCompleted())
+	SetActive(arg_68_1:Find("selectedFrame"), arg_68_2.currentTopicId == arg_68_3.topicId)
+	SetActive(arg_68_1:Find("selected"), arg_68_2.currentTopicId == arg_68_3.topicId)
+	SetActive(arg_68_1:Find("tip"), arg_68_3.active and not arg_68_3:IsCompleted())
 
-	if arg_65_2.currentTopicId == arg_65_3.topicId then
-		arg_65_0.currentTopic = arg_65_3
+	if arg_68_2.currentTopicId == arg_68_3.topicId then
+		arg_68_0.currentTopic = arg_68_3
 	end
 
-	SetActive(arg_65_1, arg_65_3.active)
+	SetActive(arg_68_1, arg_68_3.active)
 
-	if arg_65_3.active then
-		onButton(arg_65_0, arg_65_1, function()
-			for iter_66_0 = 1, #arg_65_4 do
-				SetActive(arg_65_0.topicUI:Find("panel/topicScroll/Viewport/Content/self"):GetChild(iter_66_0 - 1):Find("selectedFrame"), false)
+	if arg_68_3.active then
+		onButton(arg_68_0, arg_68_1, function()
+			for iter_69_0 = 1, #arg_68_4 do
+				SetActive(arg_68_0.topicUI:Find("panel/topicScroll/Viewport/Content/self"):GetChild(iter_69_0 - 1):Find("selectedFrame"), false)
 			end
 
-			for iter_66_1 = 1, #arg_65_5 do
-				SetActive(arg_65_0.topicUI:Find("panel/topicScroll/Viewport/Content/other"):GetChild(iter_66_1 - 1):Find("selectedFrame"), false)
+			for iter_69_1 = 1, #arg_68_5 do
+				SetActive(arg_68_0.topicUI:Find("panel/topicScroll/Viewport/Content/other"):GetChild(iter_69_1 - 1):Find("selectedFrame"), false)
 			end
 
-			SetActive(arg_65_1:Find("selectedFrame"), true)
+			SetActive(arg_68_1:Find("selectedFrame"), true)
 
-			arg_65_0.currentTopic = arg_65_3
+			arg_68_0.currentTopic = arg_68_3
 		end, SFX_PANEL)
 	else
-		onButton(arg_65_0, arg_65_1, function()
-			pg.TipsMgr.GetInstance():ShowTips(arg_65_3.unlockDesc)
+		onButton(arg_68_0, arg_68_1, function()
+			pg.TipsMgr.GetInstance():ShowTips(arg_68_3.unlockDesc)
 		end, SFX_PANEL)
 	end
 end
 
-function var_0_0.CloseTopicPanel(arg_68_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_68_0.topicUI, arg_68_0._tf:Find("subPages"))
-	SetActive(arg_68_0.topicUI, false)
+function var_0_0.CloseTopicPanel(arg_71_0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_71_0.topicUI, arg_71_0._tf:Find("subPages"))
+	SetActive(arg_71_0.topicUI, false)
 end
 
-function var_0_0.SetBackgroundPanel(arg_69_0, arg_69_1)
-	if arg_69_1.type == 2 then
-		SetActive(arg_69_0.backgroundBtn, false)
+function var_0_0.SetBackgroundPanel(arg_72_0, arg_72_1)
+	if arg_72_1.type == 2 then
+		SetActive(arg_72_0.backgroundBtn, false)
 
 		return
 	end
 
-	SetActive(arg_69_0.backgroundBtn, true)
-	onButton(arg_69_0, arg_69_0.backgroundBtn, function()
-		SetActive(arg_69_0.backgroundUI, true)
-		pg.UIMgr.GetInstance():BlurPanel(arg_69_0.backgroundUI)
+	SetActive(arg_72_0.backgroundBtn, true)
+	onButton(arg_72_0, arg_72_0.backgroundBtn, function()
+		SetActive(arg_72_0.backgroundUI, true)
+		pg.UIMgr.GetInstance():BlurPanel(arg_72_0.backgroundUI)
 
-		arg_69_0.currentBgId = nil
+		arg_72_0.currentBgId = nil
 
-		local var_70_0 = arg_69_1:GetSkins()
-		local var_70_1 = UIItemList.New(arg_69_0.backgroundUI:Find("panel/backgroundScroll/Viewport/Content"), arg_69_0.backgroundUI:Find("panel/backgroundScroll/Viewport/Content/background"))
+		local var_73_0 = arg_72_1:GetSkins()
+		local var_73_1 = UIItemList.New(arg_72_0.backgroundUI:Find("panel/backgroundScroll/Viewport/Content"), arg_72_0.backgroundUI:Find("panel/backgroundScroll/Viewport/Content/background"))
 
-		var_70_1:make(function(arg_71_0, arg_71_1, arg_71_2)
-			if arg_71_0 == UIItemList.EventUpdate then
-				local var_71_0 = var_70_0[arg_71_1 + 1]
-				local var_71_1 = var_71_0.id
-				local var_71_2 = var_71_0.painting
+		var_73_1:make(function(arg_74_0, arg_74_1, arg_74_2)
+			if arg_74_0 == UIItemList.EventUpdate then
+				local var_74_0 = var_73_0[arg_74_1 + 1]
+				local var_74_1 = var_74_0.id
+				local var_74_2 = var_74_0.painting
 
-				LoadImageSpriteAsync("herohrzicon/" .. var_71_2, arg_71_2:Find("skinMask/skin"), false)
-				setScrollText(arg_71_2:Find("skinMask/Panel/mask/Text"), var_71_0.name)
+				LoadImageSpriteAsync("herohrzicon/" .. var_74_2, arg_74_2:Find("skinMask/skin"), false)
+				setScrollText(arg_74_2:Find("skinMask/Panel/mask/Text"), var_74_0.name)
 
-				local var_71_3 = getProxy(ShipSkinProxy):hasSkin(var_71_0.id) or var_71_0.skin_type == ShipSkin.SKIN_TYPE_DEFAULT or var_71_0.skin_type == ShipSkin.SKIN_TYPE_PROPOSE or var_71_0.skin_type == ShipSkin.SKIN_TYPE_REMAKE
+				local var_74_3 = getProxy(ShipSkinProxy):hasSkin(var_74_0.id) or var_74_0.skin_type == ShipSkin.SKIN_TYPE_DEFAULT or var_74_0.skin_type == ShipSkin.SKIN_TYPE_PROPOSE or var_74_0.skin_type == ShipSkin.SKIN_TYPE_REMAKE
 
-				SetActive(arg_71_2:Find("lockFrame"), not var_71_3)
+				SetActive(arg_74_2:Find("lockFrame"), not var_74_3)
 
-				if arg_69_1.skinId ~= 0 then
-					SetActive(arg_71_2:Find("selectedFrame"), arg_69_1.skinId == var_71_1)
-					SetActive(arg_71_2:Find("selected"), arg_69_1.skinId == var_71_1)
+				if arg_72_1.skinId ~= 0 then
+					SetActive(arg_74_2:Find("selectedFrame"), arg_72_1.skinId == var_74_1)
+					SetActive(arg_74_2:Find("selected"), arg_72_1.skinId == var_74_1)
 
-					if arg_69_1.skinId == var_71_1 then
-						arg_69_0.currentBgId = var_71_1
+					if arg_72_1.skinId == var_74_1 then
+						arg_72_0.currentBgId = var_74_1
 					end
 				else
-					local var_71_4 = arg_69_1:GetPaintingId()
+					local var_74_4 = arg_72_1:GetPaintingId()
 
-					SetActive(arg_71_2:Find("selectedFrame"), var_71_4 == var_71_1)
-					SetActive(arg_71_2:Find("selected"), var_71_4 == var_71_1)
+					SetActive(arg_74_2:Find("selectedFrame"), var_74_4 == var_74_1)
+					SetActive(arg_74_2:Find("selected"), var_74_4 == var_74_1)
 
-					if var_71_4 == var_71_1 then
-						arg_69_0.currentBgId = var_71_1
+					if var_74_4 == var_74_1 then
+						arg_72_0.currentBgId = var_74_1
 					end
 				end
 
-				onButton(arg_69_0, arg_71_2, function()
-					if var_71_3 then
-						SetActive(arg_71_2:Find("selectedFrame"), true)
+				onButton(arg_72_0, arg_74_2, function()
+					if var_74_3 then
+						SetActive(arg_74_2:Find("selectedFrame"), true)
 
-						for iter_72_0 = 1, #var_70_0 do
-							if iter_72_0 ~= arg_71_1 + 1 then
-								local var_72_0 = arg_69_0.backgroundUI:Find("panel/backgroundScroll/Viewport/Content"):GetChild(iter_72_0 - 1)
+						for iter_75_0 = 1, #var_73_0 do
+							if iter_75_0 ~= arg_74_1 + 1 then
+								local var_75_0 = arg_72_0.backgroundUI:Find("panel/backgroundScroll/Viewport/Content"):GetChild(iter_75_0 - 1)
 
-								SetActive(var_72_0:Find("selectedFrame"), false)
+								SetActive(var_75_0:Find("selectedFrame"), false)
 							end
 						end
 
-						arg_69_0.currentBgId = var_71_1
+						arg_72_0.currentBgId = var_74_1
 					else
 						pg.TipsMgr.GetInstance():ShowTips(i18n("juuschat_background_tip2"))
 					end
 				end, SFX_PANEL)
 			end
 		end)
-		var_70_1:align(#var_70_0)
+		var_73_1:align(#var_73_0)
 	end, SFX_PANEL)
-	onButton(arg_69_0, arg_69_0.backgroundUI:Find("bg"), function()
-		arg_69_0:CloseBackgroundPanel()
+	onButton(arg_72_0, arg_72_0.backgroundUI:Find("bg"), function()
+		arg_72_0:CloseBackgroundPanel()
 	end, SFX_PANEL)
-	onButton(arg_69_0, arg_69_0.backgroundUI:Find("panel/bottom/close"), function()
-		arg_69_0:CloseBackgroundPanel()
+	onButton(arg_72_0, arg_72_0.backgroundUI:Find("panel/bottom/close"), function()
+		arg_72_0:CloseBackgroundPanel()
 	end, SFX_PANEL)
-	onButton(arg_69_0, arg_69_0.backgroundUI:Find("panel/bottom/ok"), function()
-		arg_69_0:emit(InstagramChatMediator.SET_CURRENT_BACKGROUND, arg_69_1.characterId, arg_69_0.currentBgId)
-		arg_69_0:CloseBackgroundPanel()
+	onButton(arg_72_0, arg_72_0.backgroundUI:Find("panel/bottom/ok"), function()
+		arg_72_0:emit(InstagramChatMediator.SET_CURRENT_BACKGROUND, arg_72_1.characterId, arg_72_0.currentBgId)
+		arg_72_0:CloseBackgroundPanel()
 	end, SFX_PANEL)
 end
 
-function var_0_0.CloseBackgroundPanel(arg_76_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_76_0.backgroundUI, arg_76_0._tf:Find("subPages"))
-	SetActive(arg_76_0.backgroundUI, false)
+function var_0_0.CloseBackgroundPanel(arg_79_0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_79_0.backgroundUI, arg_79_0._tf:Find("subPages"))
+	SetActive(arg_79_0.backgroundUI, false)
 end
 
-function var_0_0.SetRedPacketPanel(arg_77_0, arg_77_1, arg_77_2, arg_77_3, arg_77_4, arg_77_5, arg_77_6)
-	onButton(arg_77_0, arg_77_1, function()
-		SetActive(arg_77_0.redPacketUI, true)
-		pg.UIMgr.GetInstance():BlurPanel(arg_77_0.redPacketUI)
-		setImageSprite(arg_77_0.redPacketUI:Find("panel/charaBg/chara"), LoadSprite("qicon/" .. arg_77_4), false)
+function var_0_0.SetRedPacketPanel(arg_80_0, arg_80_1, arg_80_2, arg_80_3, arg_80_4, arg_80_5, arg_80_6)
+	onButton(arg_80_0, arg_80_1, function()
+		SetActive(arg_80_0.redPacketUI, true)
+		pg.UIMgr.GetInstance():BlurPanel(arg_80_0.redPacketUI)
+		setImageSprite(arg_80_0.redPacketUI:Find("panel/charaBg/chara"), LoadSprite("qicon/" .. arg_80_4), false)
 
-		if not arg_77_3 then
-			SetActive(arg_77_0.redPacketUI:Find("panel/panelBg"), true)
-			SetActive(arg_77_0.redPacketUI:Find("panel/openImg"), false)
-			SetActive(arg_77_0.redPacketUI:Find("panel/get"), true)
-			SetActive(arg_77_0.redPacketUI:Find("panel/got"), false)
-			SetActive(arg_77_0.redPacketUI:Find("panel/detail"), false)
-			setText(arg_77_0.redPacketUI:Find("panel/get/titleBg/title"), arg_77_2.desc)
-			onButton(arg_77_0, arg_77_0.redPacketUI:Find("panel/get/getBtn"), function()
-				arg_77_0:emit(InstagramChatMediator.GET_REDPACKET, arg_77_5, arg_77_6, arg_77_2.id)
+		if not arg_80_3 then
+			SetActive(arg_80_0.redPacketUI:Find("panel/panelBg"), true)
+			SetActive(arg_80_0.redPacketUI:Find("panel/openImg"), false)
+			SetActive(arg_80_0.redPacketUI:Find("panel/get"), true)
+			SetActive(arg_80_0.redPacketUI:Find("panel/got"), false)
+			SetActive(arg_80_0.redPacketUI:Find("panel/detail"), false)
+			setText(arg_80_0.redPacketUI:Find("panel/get/titleBg/title"), arg_80_2.desc)
+			onButton(arg_80_0, arg_80_0.redPacketUI:Find("panel/get/getBtn"), function()
+				arg_80_0:emit(InstagramChatMediator.GET_REDPACKET, arg_80_5, arg_80_6, arg_80_2.id)
 			end, SFX_PANEL)
 		else
-			arg_77_0:UpdateRedPacketUI(arg_77_2.id)
+			arg_80_0:UpdateRedPacketUI(arg_80_2.id)
 		end
 	end, SFX_PANEL)
-	onButton(arg_77_0, arg_77_0.redPacketUI:Find("bg"), function()
-		arg_77_0:CloseRedPacketPanel()
+	onButton(arg_80_0, arg_80_0.redPacketUI:Find("bg"), function()
+		arg_80_0:CloseRedPacketPanel()
 
-		if arg_77_0.canFresh then
-			arg_77_0.canFresh = false
+		if arg_80_0.canFresh then
+			arg_80_0.canFresh = false
 
-			local var_80_0 = arg_77_0.currentChat.currentTopic:GetDisplayWordList()
+			local var_83_0 = arg_80_0.currentChat.currentTopic:GetDisplayWordList()
 
-			if var_80_0[#var_80_0].type == 0 then
-				arg_77_0:UpdateCharaList(false, false)
+			if var_83_0[#var_83_0].type == 0 then
+				arg_80_0:UpdateCharaList(false, false)
 			else
-				arg_77_0:UpdateCharaList(true, false)
+				arg_80_0:UpdateCharaList(true, false)
 			end
 		end
 	end, SFX_PANEL)
 end
 
-function var_0_0.UpdateRedPacketUI(arg_81_0, arg_81_1)
-	local var_81_0 = var_0_2[arg_81_1]
+function var_0_0.UpdateRedPacketUI(arg_84_0, arg_84_1)
+	local var_84_0 = var_0_2[arg_84_1]
 
-	SetActive(arg_81_0.redPacketUI:Find("panel/panelBg"), true)
-	SetActive(arg_81_0.redPacketUI:Find("panel/openImg"), false)
-	SetActive(arg_81_0.redPacketUI:Find("panel/get"), false)
-	SetActive(arg_81_0.redPacketUI:Find("panel/got"), true)
-	SetActive(arg_81_0.redPacketUI:Find("panel/detail"), false)
+	SetActive(arg_84_0.redPacketUI:Find("panel/panelBg"), true)
+	SetActive(arg_84_0.redPacketUI:Find("panel/openImg"), false)
+	SetActive(arg_84_0.redPacketUI:Find("panel/get"), false)
+	SetActive(arg_84_0.redPacketUI:Find("panel/got"), true)
+	SetActive(arg_84_0.redPacketUI:Find("panel/detail"), false)
 
-	local var_81_1 = Drop.Create(var_81_0.content)
+	local var_84_1 = Drop.Create(var_84_0.content)
 
-	var_81_1.count = 0
+	var_84_1.count = 0
 
-	updateDrop(arg_81_0.redPacketUI:Find("panel/got/item"), var_81_1)
-	onButton(arg_81_0, arg_81_0.redPacketUI:Find("panel/got/item"), function()
-		arg_81_0:emit(BaseUI.ON_DROP, var_81_1)
+	updateDrop(arg_84_0.redPacketUI:Find("panel/got/item"), var_84_1)
+	onButton(arg_84_0, arg_84_0.redPacketUI:Find("panel/got/item"), function()
+		arg_84_0:emit(BaseUI.ON_DROP, var_84_1)
 	end, SFX_PANEL)
 
-	arg_81_0.redPacketUI:Find("panel/got/item/icon_bg"):GetComponent(typeof(Image)).enabled = false
-	arg_81_0.redPacketUI:Find("panel/got/item/icon_bg/frame"):GetComponent(typeof(Image)).enabled = false
+	arg_84_0.redPacketUI:Find("panel/got/item/icon_bg"):GetComponent(typeof(Image)).enabled = false
+	arg_84_0.redPacketUI:Find("panel/got/item/icon_bg/frame"):GetComponent(typeof(Image)).enabled = false
 
-	setText(arg_81_0.redPacketUI:Find("panel/got/awardCount"), var_81_0.content[3])
+	setText(arg_84_0.redPacketUI:Find("panel/got/awardCount"), var_84_0.content[3])
 
-	if var_81_0.type == 1 then
-		SetActive(arg_81_0.redPacketUI:Find("panel/got/detailBtn"), false)
+	if var_84_0.type == 1 then
+		SetActive(arg_84_0.redPacketUI:Find("panel/got/detailBtn"), false)
 	else
-		SetActive(arg_81_0.redPacketUI:Find("panel/got/detailBtn"), true)
-		onButton(arg_81_0, arg_81_0.redPacketUI:Find("panel/got/detailBtn"), function()
-			SetActive(arg_81_0.redPacketUI:Find("panel/panelBg"), false)
-			SetActive(arg_81_0.redPacketUI:Find("panel/openImg"), true)
-			SetActive(arg_81_0.redPacketUI:Find("panel/got"), false)
-			SetActive(arg_81_0.redPacketUI:Find("panel/detail"), true)
+		SetActive(arg_84_0.redPacketUI:Find("panel/got/detailBtn"), true)
+		onButton(arg_84_0, arg_84_0.redPacketUI:Find("panel/got/detailBtn"), function()
+			SetActive(arg_84_0.redPacketUI:Find("panel/panelBg"), false)
+			SetActive(arg_84_0.redPacketUI:Find("panel/openImg"), true)
+			SetActive(arg_84_0.redPacketUI:Find("panel/got"), false)
+			SetActive(arg_84_0.redPacketUI:Find("panel/detail"), true)
 
-			local var_83_0 = 0
-			local var_83_1 = 0
-			local var_83_2 = UIItemList.New(arg_81_0.redPacketUI:Find("panel/detail/detailScroll/Viewport/Content"), arg_81_0.redPacketUI:Find("panel/detail/detailScroll/Viewport/Content/charaGetCard"))
+			local var_86_0 = 0
+			local var_86_1 = 0
+			local var_86_2 = UIItemList.New(arg_84_0.redPacketUI:Find("panel/detail/detailScroll/Viewport/Content"), arg_84_0.redPacketUI:Find("panel/detail/detailScroll/Viewport/Content/charaGetCard"))
 
-			var_83_2:make(function(arg_84_0, arg_84_1, arg_84_2)
-				if arg_84_0 == UIItemList.EventUpdate then
-					local var_84_0 = var_81_0.group_receive[arg_84_1 + 1]
-					local var_84_1 = var_84_0[1]
-					local var_84_2 = {
-						var_84_0[2],
-						var_84_0[3],
-						var_84_0[4]
+			var_86_2:make(function(arg_87_0, arg_87_1, arg_87_2)
+				if arg_87_0 == UIItemList.EventUpdate then
+					local var_87_0 = var_84_0.group_receive[arg_87_1 + 1]
+					local var_87_1 = var_87_0[1]
+					local var_87_2 = {
+						var_87_0[2],
+						var_87_0[3],
+						var_87_0[4]
 					}
 
-					if var_84_0[1] ~= 0 then
-						local var_84_3 = "unknown"
+					if var_87_0[1] ~= 0 then
+						local var_87_3 = "unknown"
 
-						if var_0_1[var_84_1] then
-							var_84_3 = var_0_1[var_84_1].sculpture
+						if var_0_1[var_87_1] then
+							var_87_3 = var_0_1[var_87_1].sculpture
 						end
 
-						setImageSprite(arg_84_2:Find("charaBg/chara"), LoadSprite("qicon/" .. var_84_3), false)
+						setImageSprite(arg_87_2:Find("charaBg/chara"), LoadSprite("qicon/" .. var_87_3), false)
 					else
-						setImageSprite(arg_84_2:Find("charaBg/chara"), GetSpriteFromAtlas("ui/InstagramUI_atlas", "txdi_3"), false)
+						setImageSprite(arg_87_2:Find("charaBg/chara"), GetSpriteFromAtlas("ui/InstagramUI_atlas", "txdi_3"), false)
 					end
 
-					local var_84_4 = Drop.Create(var_84_2)
+					local var_87_4 = Drop.Create(var_87_2)
 
-					var_84_4.count = 0
+					var_87_4.count = 0
 
-					updateDrop(arg_84_2:Find("item"), var_84_4)
-					onButton(arg_81_0, arg_84_2:Find("item"), function()
-						arg_81_0:emit(BaseUI.ON_DROP, var_84_4)
+					updateDrop(arg_87_2:Find("item"), var_87_4)
+					onButton(arg_84_0, arg_87_2:Find("item"), function()
+						arg_84_0:emit(BaseUI.ON_DROP, var_87_4)
 					end, SFX_PANEL)
 
-					arg_84_2:Find("item/icon_bg"):GetComponent(typeof(Image)).enabled = false
-					arg_84_2:Find("item/icon_bg/frame"):GetComponent(typeof(Image)).enabled = false
+					arg_87_2:Find("item/icon_bg"):GetComponent(typeof(Image)).enabled = false
+					arg_87_2:Find("item/icon_bg/frame"):GetComponent(typeof(Image)).enabled = false
 
-					setText(arg_84_2:Find("awardCount"), var_84_0[4])
+					setText(arg_87_2:Find("awardCount"), var_87_0[4])
 
-					if var_84_0[4] > var_83_1 then
-						var_83_0 = arg_84_1
-						var_83_1 = var_84_0[4]
+					if var_87_0[4] > var_86_1 then
+						var_86_0 = arg_87_1
+						var_86_1 = var_87_0[4]
 					end
 				end
 			end)
-			var_83_2:align(#var_81_0.group_receive)
+			var_86_2:align(#var_84_0.group_receive)
 
-			for iter_83_0 = 1, #var_81_0.group_receive do
-				SetActive(arg_81_0.redPacketUI:Find("panel/detail/detailScroll/Viewport/Content"):GetChild(iter_83_0 - 1):Find("charaBg/king"), var_83_0 == iter_83_0 - 1)
+			for iter_86_0 = 1, #var_84_0.group_receive do
+				SetActive(arg_84_0.redPacketUI:Find("panel/detail/detailScroll/Viewport/Content"):GetChild(iter_86_0 - 1):Find("charaBg/king"), var_86_0 == iter_86_0 - 1)
 			end
 		end, SFX_PANEL)
 	end
 end
 
-function var_0_0.CloseRedPacketPanel(arg_86_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_86_0.redPacketUI, arg_86_0._tf:Find("subPages"))
-	SetActive(arg_86_0.redPacketUI, false)
+function var_0_0.CloseRedPacketPanel(arg_89_0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_89_0.redPacketUI, arg_89_0._tf:Find("subPages"))
+	SetActive(arg_89_0.redPacketUI, false)
 end
 
-function var_0_0.SetData(arg_87_0)
-	local var_87_0 = getProxy(InstagramChatProxy)
+function var_0_0.SetData(arg_90_0)
+	local var_90_0 = getProxy(InstagramChatProxy)
 
-	arg_87_0.allChatList = var_87_0:GetChatList()
-	arg_87_0.chatList = table.insertto({}, arg_87_0.allChatList)
+	arg_90_0.allChatList = var_90_0:GetChatList()
+	arg_90_0.chatList = table.insertto({}, arg_90_0.allChatList)
 
-	var_87_0:SortChatList()
+	var_90_0:SortChatList()
 end
 
-function var_0_0.willExit(arg_88_0)
-	local var_88_0 = arg_88_0.rightPanel:Find("paintingMask/painting")
+function var_0_0.willExit(arg_91_0)
+	local var_91_0 = arg_91_0.rightPanel:Find("chat/paintingMask/painting")
 
-	if arg_88_0.paintingName then
-		retPaintingPrefab(var_88_0, arg_88_0.paintingName)
+	if arg_91_0.paintingName then
+		retPaintingPrefab(var_91_0, arg_91_0.paintingName)
 
-		arg_88_0.paintingName = nil
+		arg_91_0.paintingName = nil
 	end
 
-	arg_88_0:RemoveAllTimer()
+	arg_91_0:RemoveAllTimer()
+	arg_91_0:EixtOfficialAccounts()
 end
 
-function var_0_0.StartTimer(arg_89_0, arg_89_1, arg_89_2)
-	local var_89_0 = Timer.New(arg_89_1, arg_89_2, 1)
+function var_0_0.StartTimer(arg_92_0, arg_92_1, arg_92_2)
+	local var_92_0 = Timer.New(arg_92_1, arg_92_2, 1)
 
-	var_89_0:Start()
-	table.insert(arg_89_0.timerList, var_89_0)
+	var_92_0:Start()
+	table.insert(arg_92_0.timerList, var_92_0)
 end
 
-function var_0_0.RemoveAllTimer(arg_90_0)
-	for iter_90_0, iter_90_1 in ipairs(arg_90_0.timerList) do
-		iter_90_1:Stop()
+function var_0_0.RemoveAllTimer(arg_93_0)
+	for iter_93_0, iter_93_1 in ipairs(arg_93_0.timerList) do
+		iter_93_1:Stop()
 	end
 
-	arg_90_0.timerList = {}
+	arg_93_0.timerList = {}
 end
 
-function var_0_0.StartTimer2(arg_91_0, arg_91_1, arg_91_2)
-	arg_91_0.timer = Timer.New(arg_91_1, arg_91_2, 1)
+function var_0_0.StartTimer2(arg_94_0, arg_94_1, arg_94_2)
+	arg_94_0.timer = Timer.New(arg_94_1, arg_94_2, 1)
 
-	arg_91_0.timer:Start()
+	arg_94_0.timer:Start()
 end
 
-function var_0_0.SpeedUpMessage(arg_92_0)
-	local var_92_0 = pg.gameset.juuschat_dialogue_trigger_time.key_value / 1000
-	local var_92_1 = pg.gameset.juuschat_entering_time.key_value / 1000
+function var_0_0.SpeedUpMessage(arg_95_0)
+	local var_95_0 = pg.gameset.juuschat_dialogue_trigger_time.key_value / 1000
+	local var_95_1 = pg.gameset.juuschat_entering_time.key_value / 1000
 
-	for iter_92_0, iter_92_1 in ipairs(arg_92_0.timerList) do
-		if iter_92_1.running then
-			if iter_92_1.duration == var_92_1 then
-				iter_92_1.time = 0.05
-			elseif iter_92_1.time - var_92_0 < 0.05 then
-				iter_92_1.time = 0.05
+	for iter_95_0, iter_95_1 in ipairs(arg_95_0.timerList) do
+		if iter_95_1.running then
+			if iter_95_1.duration == var_95_1 then
+				iter_95_1.time = 0.05
+			elseif iter_95_1.time - var_95_0 < 0.05 then
+				iter_95_1.time = 0.05
 
-				arg_92_0:StartTimer2(function()
-					arg_92_0:SpeedUpWaiting()
+				arg_95_0:StartTimer2(function()
+					arg_95_0:SpeedUpWaiting()
 				end, 0.05)
 			else
-				iter_92_1.time = iter_92_1.time - var_92_0
+				iter_95_1.time = iter_95_1.time - var_95_0
 			end
 		end
 	end
 end
 
-function var_0_0.SpeedUpWaiting(arg_94_0)
-	local var_94_0 = pg.gameset.juuschat_entering_time.key_value / 1000
+function var_0_0.SpeedUpWaiting(arg_97_0)
+	local var_97_0 = pg.gameset.juuschat_entering_time.key_value / 1000
 
-	for iter_94_0, iter_94_1 in ipairs(arg_94_0.timerList) do
-		if iter_94_1.running and iter_94_1.duration == var_94_0 then
-			iter_94_1.time = 0.05
+	for iter_97_0, iter_97_1 in ipairs(arg_97_0.timerList) do
+		if iter_97_1.running and iter_97_1.duration == var_97_0 then
+			iter_97_1.time = 0.05
 
 			break
 		end
 	end
 end
 
-function var_0_0.ChangeFresh(arg_95_0)
-	arg_95_0.canFresh = true
+function var_0_0.ChangeFresh(arg_98_0)
+	arg_98_0.canFresh = true
 end
 
-function var_0_0.ChangeCharaTextFunc(arg_96_0, arg_96_1, arg_96_2)
-	local function var_96_0(arg_97_0)
-		if arg_97_0:Find("id"):GetComponent(typeof(Text)).text == tostring(arg_96_1) then
-			setText(arg_97_0:Find("msg"), arg_96_2)
+function var_0_0.ChangeCharaTextFunc(arg_99_0, arg_99_1, arg_99_2)
+	local function var_99_0(arg_100_0)
+		if arg_100_0:Find("chat/id"):GetComponent(typeof(Text)).text == tostring(arg_99_1) then
+			setText(arg_100_0:Find("chat/msg"), arg_99_2)
 		end
 	end
 
-	for iter_96_0 = 0, arg_96_0.charaScrollContent.childCount - 1 do
-		local var_96_1 = arg_96_0.charaScrollContent:GetChild(iter_96_0)
+	for iter_99_0 = 0, arg_99_0.charaScrollContent.childCount - 1 do
+		local var_99_1 = arg_99_0.charaScrollContent:GetChild(iter_99_0)
 
-		var_96_0(var_96_1)
+		var_99_0(var_99_1)
 	end
 end
 
-function var_0_0.ResetCharaTextFunc(arg_98_0, arg_98_1)
-	local function var_98_0(arg_99_0)
-		if arg_99_0:Find("id"):GetComponent(typeof(Text)).text == tostring(arg_98_1) then
-			setText(arg_99_0:Find("msg"), arg_99_0:Find("displayWord"):GetComponent(typeof(Text)).text)
+function var_0_0.ResetCharaTextFunc(arg_101_0, arg_101_1)
+	local function var_101_0(arg_102_0)
+		if arg_102_0:Find("chat/id"):GetComponent(typeof(Text)).text == tostring(arg_101_1) then
+			setText(arg_102_0:Find("chat/msg"), arg_102_0:Find("chat/displayWord"):GetComponent(typeof(Text)).text)
 		end
 	end
 
-	for iter_98_0 = 0, arg_98_0.charaScrollContent.childCount - 1 do
-		local var_98_1 = arg_98_0.charaScrollContent:GetChild(iter_98_0)
+	for iter_101_0 = 0, arg_101_0.charaScrollContent.childCount - 1 do
+		local var_101_1 = arg_101_0.charaScrollContent:GetChild(iter_101_0)
 
-		var_98_0(var_98_1)
+		var_101_0(var_101_1)
 	end
 end
 
-function var_0_0.SetEndAniEvent(arg_100_0, arg_100_1, arg_100_2)
-	local var_100_0 = arg_100_1:GetComponent(typeof(DftAniEvent))
+function var_0_0.SetEndAniEvent(arg_103_0, arg_103_1, arg_103_2)
+	local var_103_0 = arg_103_1:GetComponent(typeof(DftAniEvent))
 
-	if var_100_0 then
-		var_100_0:SetEndEvent(function()
-			arg_100_2()
-			var_100_0:SetEndEvent(nil)
+	if var_103_0 then
+		var_103_0:SetEndEvent(function()
+			arg_103_2()
+			var_103_0:SetEndEvent(nil)
 		end)
 	end
 end
 
-function var_0_0.onBackPressed(arg_102_0)
-	if isActive(arg_102_0.filterUI) then
-		arg_102_0:CloseFilterPanel()
+function var_0_0.onBackPressed(arg_105_0)
+	if isActive(arg_105_0.filterUI) then
+		arg_105_0:CloseFilterPanel()
 
 		return
 	end
 
-	if isActive(arg_102_0.topicUI) then
-		arg_102_0:CloseTopicPanel()
+	if isActive(arg_105_0.topicUI) then
+		arg_105_0:CloseTopicPanel()
 
 		return
 	end
 
-	if isActive(arg_102_0.backgroundUI) then
-		arg_102_0:CloseBackgroundPanel()
+	if isActive(arg_105_0.backgroundUI) then
+		arg_105_0:CloseBackgroundPanel()
 
 		return
 	end
 
-	if isActive(arg_102_0.redPacketUI) then
-		arg_102_0:CloseRedPacketPanel()
+	if isActive(arg_105_0.redPacketUI) then
+		arg_105_0:CloseRedPacketPanel()
 
 		return
 	end
 
-	arg_102_0:emit(InstagramChatMediator.CLOSE_ALL)
+	if isActive(arg_105_0.rightOfficialAccountsPanel) and isActive(arg_105_0.rightOfficialAccountsInfoPanel) then
+		arg_105_0:ExitOfficialAccountsInfo()
+
+		return
+	end
+
+	arg_105_0:emit(InstagramChatMediator.CLOSE_ALL)
+end
+
+function var_0_0.InitOfficialAccounts(arg_106_0)
+	arg_106_0.rightOfficialAccountsListPanel = arg_106_0.rightOfficialAccountsPanel:Find("officialAccountsPanel")
+	arg_106_0.rightOfficialAccountsInfoPanel = arg_106_0.rightOfficialAccountsPanel:Find("officialAccountsInfoPanel")
+
+	setText(arg_106_0.rightOfficialAccountsListPanel:Find("topBg/Text"), i18n("juusoa_title"))
+	setText(arg_106_0.rightOfficialAccountsInfoPanel:Find("topBg/Text"), i18n("juusoa_title"))
+
+	arg_106_0.officialAccountsScroll = arg_106_0.rightOfficialAccountsListPanel:Find("charaScroll"):GetComponent("LScrollRect")
+	arg_106_0.officialAccountsScroll.onInitItem = handler(arg_106_0, arg_106_0.OfficialAccountsInitItem)
+	arg_106_0.officialAccountsScroll.onUpdateItem = handler(arg_106_0, arg_106_0.OfficialAccountsUpdateItem)
+	arg_106_0.downloadmgr = BulletinBoardMgr.Inst
+	arg_106_0.sprites = {}
+	arg_106_0.toDownloadList = {}
+	arg_106_0.officialAccountsInfoScroll = arg_106_0.rightOfficialAccountsInfoPanel:Find("scroll"):GetComponent(typeof(ScrollRect))
+	arg_106_0.officialAccountsInfoItem = arg_106_0.rightOfficialAccountsInfoPanel:Find("scroll/content/infoItem")
+	arg_106_0.commentList = UIItemList.New(arg_106_0.rightOfficialAccountsInfoPanel:Find("scroll/content/commentPanel"), arg_106_0.rightOfficialAccountsInfoPanel:Find("scroll/content/commentPanel/tpl"))
+	arg_106_0.commentPanel = arg_106_0.rightOfficialAccountsInfoPanel:Find("last/bg2")
+	arg_106_0.optionalPanel = arg_106_0.rightOfficialAccountsInfoPanel:Find("last/bg2/option")
+
+	setActive(arg_106_0.rightOfficialAccountsPanel, false)
+	setActive(arg_106_0.rightOfficialAccountsInfoPanel, false)
+end
+
+function var_0_0.UpdateOfficialAccounts(arg_107_0, arg_107_1)
+	setActive(arg_107_0.rightChatPanel, false)
+	setActive(arg_107_0.rightOfficialAccountsPanel, true)
+	setActive(arg_107_0.rightOfficialAccountsListPanel, true)
+	setActive(arg_107_0.rightOfficialAccountsInfoPanel, false)
+
+	arg_107_0.currentChat = arg_107_1
+	arg_107_0.instagramOfficialAccounts = {}
+
+	for iter_107_0, iter_107_1 in pairs(getProxy(InstagramProxy):GetOfficialAccounts()) do
+		table.insert(arg_107_0.instagramOfficialAccounts, iter_107_1)
+	end
+
+	table.sort(arg_107_0.instagramOfficialAccounts, function(arg_108_0, arg_108_1)
+		return arg_108_0.id > arg_108_1.id
+	end)
+	arg_107_0.officialAccountsScroll:SetTotalCount(#arg_107_0.instagramOfficialAccounts)
+end
+
+function var_0_0.OfficialAccountsInitItem(arg_109_0, arg_109_1)
+	arg_109_0.officialAccountsItemList[arg_109_1] = InstagramOfficialAccountsItem.New(tf(arg_109_1), arg_109_0)
+end
+
+function var_0_0.OfficialAccountsUpdateItem(arg_110_0, arg_110_1, arg_110_2)
+	local var_110_0 = arg_110_0.officialAccountsItemList[arg_110_2]
+
+	if var_110_0 == nil then
+		arg_110_0:OfficialAccountsInitItem(arg_110_2)
+
+		var_110_0 = arg_110_0.officialAccountsItemList[arg_110_2]
+	end
+
+	local var_110_1 = arg_110_0.instagramOfficialAccounts[arg_110_1 + 1]
+	local var_110_2 = tf(arg_110_2)
+
+	var_110_0:SetData(var_110_1.id)
+	arg_110_0:SetImageByUrl(var_110_1.oaListPic, var_110_2:Find("Image"):GetComponent(typeof(RawImage)))
+	onButton(arg_110_0, var_110_2, function()
+		arg_110_0.currentOfficalID = var_110_1.id
+
+		pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildJuusOfficialAccountsClick(var_110_1.id))
+		arg_110_0:ShowOfficialAccountsInfo(var_110_1)
+		arg_110_0:ReadOfficialAccountComment()
+
+		arg_110_0.officialAccountsInfoScroll.verticalNormalizedPosition = 1
+	end, SFX_PANEL)
+end
+
+function var_0_0.ShowOfficialAccountsInfo(arg_112_0, arg_112_1)
+	setActive(arg_112_0.rightOfficialAccountsListPanel, false)
+	setActive(arg_112_0.rightOfficialAccountsInfoPanel, true)
+	arg_112_0:CloseCommentPanel()
+	onButton(arg_112_0, arg_112_0.rightOfficialAccountsInfoPanel:Find("topBg"), function()
+		arg_112_0:ExitOfficialAccountsInfo()
+	end, SFX_PANEL)
+	setScrollText(arg_112_0.officialAccountsInfoItem:Find("title/Text"), arg_112_1:getConfig("title"))
+	setText(arg_112_0.officialAccountsInfoItem:Find("content"), arg_112_1.text)
+	arg_112_0:SetImageByUrl(arg_112_1:GetImage(), arg_112_0.officialAccountsInfoItem:Find("Image/Image"):GetComponent(typeof(RawImage)))
+	setText(arg_112_0.officialAccountsInfoItem:Find("bottom/time"), arg_112_1:GetPushTime())
+	arg_112_0:UpdateLinkBtn(arg_112_1.id)
+	onButton(arg_112_0, arg_112_0.officialAccountsInfoItem:Find("bottom/time/share"), function()
+		arg_112_0:emit(InstagramChatMediator.ON_OFFICIAL_ACCOUNTS_OPERATE, ActivityConst.INSTAGRAM_OP_SHARE, arg_112_1.id)
+	end, SFX_PANEL)
+	arg_112_0:UpdateCommentList(arg_112_1.id)
+	Canvas.ForceUpdateCanvases()
+	onToggle(arg_112_0, arg_112_0.commentPanel, function(arg_115_0)
+		if arg_115_0 then
+			arg_112_0:OpenCommentPanel(arg_112_1.id)
+		else
+			arg_112_0:CloseCommentPanel()
+		end
+	end, SFX_PANEL)
+end
+
+function var_0_0.ExitOfficialAccountsInfo(arg_116_0)
+	setActive(arg_116_0.rightOfficialAccountsListPanel, true)
+	setActive(arg_116_0.rightOfficialAccountsInfoPanel, false)
+
+	arg_116_0.currentOfficalID = nil
+end
+
+function var_0_0.UpdateLinkBtn(arg_117_0, arg_117_1)
+	local var_117_0 = getProxy(InstagramProxy):GetOfficialAccounts()[arg_117_1]
+	local var_117_1 = var_117_0:IsLiking()
+	local var_117_2 = arg_117_0.officialAccountsInfoItem:Find("bottom/notCare")
+
+	if not var_117_1 then
+		onButton(arg_117_0, var_117_2, function()
+			arg_117_0:emit(InstagramChatMediator.ON_OFFICIAL_ACCOUNTS_OPERATE, ActivityConst.INSTAGRAM_OP_LIKE, var_117_0.id)
+		end, SFX_PANEL)
+	else
+		removeOnButton(var_117_2)
+	end
+
+	setActive(var_117_2, not var_117_1)
+	setActive(arg_117_0.officialAccountsInfoItem:Find("bottom/care"), var_117_1)
+	setText(arg_117_0.officialAccountsInfoItem:Find("bottom/careText"), i18n("ins_word_like", var_117_0:GetLikeCnt()))
+end
+
+function var_0_0.UpdateCommentList(arg_119_0, arg_119_1)
+	if arg_119_0.currentOfficalID ~= arg_119_1 then
+		return
+	end
+
+	local var_119_0 = getProxy(InstagramProxy):GetOfficialAccounts()[arg_119_1]
+
+	if not var_119_0 then
+		return
+	end
+
+	local var_119_1, var_119_2 = var_119_0:GetCanDisplayComments()
+
+	table.sort(var_119_1, function(arg_120_0, arg_120_1)
+		return arg_120_0.time < arg_120_1.time
+	end)
+	arg_119_0.commentList:make(function(arg_121_0, arg_121_1, arg_121_2)
+		if arg_121_0 == UIItemList.EventUpdate then
+			local var_121_0 = var_119_1[arg_121_1 + 1]
+			local var_121_1 = var_121_0:HasReply()
+
+			setText(arg_121_2:Find("main/reply"), var_121_0:GetReplyBtnTxt())
+
+			local var_121_2 = var_121_0:GetContent()
+			local var_121_3 = SwitchSpecialChar(var_121_2)
+
+			setText(arg_121_2:Find("main/content"), HXSet.hxLan(var_121_3))
+			setText(arg_121_2:Find("main/bubble/Text"), var_121_0:GetReplyCnt())
+			setText(arg_121_2:Find("main/time"), var_121_0:GetTime())
+
+			if var_121_0:GetType() == Instagram.TYPE_PLAYER_COMMENT then
+				local var_121_4, var_121_5 = var_121_0:GetIcon()
+
+				setImageSprite(arg_121_2:Find("main/head/icon"), GetSpriteFromAtlas(var_121_4, var_121_5))
+			else
+				setImageSprite(arg_121_2:Find("main/head/icon"), LoadSprite("qicon/" .. var_121_0:GetIcon()), false)
+			end
+
+			if var_121_1 then
+				onToggle(arg_119_0, arg_121_2:Find("main/bubble"), function(arg_122_0)
+					setActive(arg_121_2:Find("replys"), arg_122_0)
+				end, SFX_PANEL)
+				arg_119_0:UpdateReplys(arg_121_2, var_121_0)
+				triggerToggle(arg_121_2:Find("main/bubble"), true)
+			else
+				setActive(arg_121_2:Find("replys"), false)
+				triggerToggle(arg_121_2:Find("main/bubble"), false)
+			end
+
+			arg_121_2:Find("main/bubble"):GetComponent(typeof(Toggle)).enabled = var_121_1
+		end
+	end)
+	Canvas.ForceUpdateCanvases()
+	arg_119_0.commentList:align(#var_119_1)
+end
+
+function var_0_0.UpdateReplys(arg_123_0, arg_123_1, arg_123_2)
+	local var_123_0, var_123_1 = arg_123_2:GetCanDisplayReply()
+	local var_123_2 = UIItemList.New(arg_123_1:Find("replys"), arg_123_1:Find("replys/sub"))
+
+	table.sort(var_123_0, function(arg_124_0, arg_124_1)
+		if arg_124_0.level == arg_124_1.level then
+			if arg_124_0.time == arg_124_1.time then
+				return arg_124_0.id < arg_124_1.id
+			else
+				return arg_124_0.time < arg_124_1.time
+			end
+		else
+			return arg_124_0.level < arg_124_1.level
+		end
+	end)
+	var_123_2:make(function(arg_125_0, arg_125_1, arg_125_2)
+		if arg_125_0 == UIItemList.EventUpdate then
+			local var_125_0 = var_123_0[arg_125_1 + 1]
+
+			setImageSprite(arg_125_2:Find("head/icon"), LoadSprite("qicon/" .. var_125_0:GetIcon()), false)
+
+			local var_125_1 = var_125_0:GetContent()
+			local var_125_2 = SwitchSpecialChar(var_125_1)
+
+			setText(arg_125_2:Find("content"), HXSet.hxLan(var_125_2))
+		end
+	end)
+	var_123_2:align(#var_123_0)
+end
+
+function var_0_0.OpenCommentPanel(arg_126_0, arg_126_1)
+	local var_126_0 = getProxy(InstagramProxy):GetOfficialAccounts()[arg_126_1]
+
+	if not var_126_0:CanOpenComment() then
+		return
+	end
+
+	setActive(arg_126_0.optionalPanel, true)
+
+	local var_126_1 = var_126_0:GetOptionComment()
+
+	arg_126_0.commentPanel.sizeDelta = Vector2(0, #var_126_1 * 120 + 40)
+
+	local var_126_2 = UIItemList.New(arg_126_0.optionalPanel, arg_126_0.optionalPanel:Find("option1"))
+
+	var_126_2:make(function(arg_127_0, arg_127_1, arg_127_2)
+		if arg_127_0 == UIItemList.EventUpdate then
+			local var_127_0 = arg_127_1 + 1
+			local var_127_1 = var_126_1[var_127_0].text
+			local var_127_2 = var_126_1[var_127_0].id
+			local var_127_3 = var_126_1[var_127_0].index
+
+			setText(arg_127_2:Find("Text"), HXSet.hxLan(var_127_1))
+			onButton(arg_126_0, arg_127_2, function()
+				arg_126_0:emit(InstagramChatMediator.ON_OFFICIAL_ACCOUNTS_OPERATE, ActivityConst.INSTAGRAM_OP_COMMENT, arg_126_1, var_127_2, var_127_3)
+				arg_126_0:CloseCommentPanel()
+			end, SFX_PANEL)
+		end
+	end)
+	var_126_2:align(#var_126_1)
+end
+
+function var_0_0.CloseCommentPanel(arg_129_0)
+	arg_129_0.commentPanel.sizeDelta = Vector2(0, 0)
+
+	setActive(arg_129_0.optionalPanel, false)
+end
+
+function var_0_0.ReadOfficialAccountComment(arg_130_0)
+	if arg_130_0.currentChat and arg_130_0.currentChat.chatType == InstagramConst.INSTAGRAM_CHAT_TYPE.OFFICIAL_ACCOUNT and arg_130_0.currentOfficalID then
+		local var_130_0 = getProxy(InstagramProxy):GetOfficialAccounts()[arg_130_0.currentOfficalID]
+
+		if var_130_0 and not var_130_0:IsReaded() then
+			arg_130_0:emit(InstagramChatMediator.ON_OFFICIAL_ACCOUNTS_OPERATE, ActivityConst.INSTAGRAM_OP_MARK_READ, arg_130_0.currentOfficalID)
+		end
+	end
+end
+
+function var_0_0.RefreshOfficialAccountTips(arg_131_0)
+	for iter_131_0, iter_131_1 in pairs(arg_131_0.officialAccountsItemList) do
+		iter_131_1:RefreshTip()
+	end
+
+	arg_131_0.charaScrollrect:SetTotalCount(#arg_131_0.chatList)
+end
+
+function var_0_0.SetImageByUrl(arg_132_0, arg_132_1, arg_132_2, arg_132_3)
+	if not arg_132_1 or arg_132_1 == "" then
+		setActive(arg_132_2.gameObject, false)
+
+		if arg_132_3 then
+			arg_132_3()
+		end
+	else
+		setActive(arg_132_2.gameObject, true)
+
+		local var_132_0 = arg_132_0.sprites[arg_132_1]
+
+		if var_132_0 then
+			arg_132_2.texture = var_132_0
+
+			if arg_132_3 then
+				arg_132_3()
+			end
+		else
+			arg_132_2.enabled = false
+
+			arg_132_0.downloadmgr:GetTexture("ins", "1", arg_132_1, UnityEngine.Events.UnityAction_UnityEngine_Texture(function(arg_133_0)
+				if arg_132_0.exited then
+					return
+				end
+
+				if not arg_132_0.sprites then
+					return
+				end
+
+				arg_132_0.sprites[arg_132_1] = arg_133_0
+				arg_132_2.texture = arg_133_0
+				arg_132_2.enabled = true
+
+				if arg_132_3 then
+					arg_132_3()
+				end
+			end))
+			table.insert(arg_132_0.toDownloadList, arg_132_1)
+		end
+	end
+end
+
+function var_0_0.AddOfficialAccountsTimer(arg_134_0)
+	arg_134_0:StopOfficialAccountsTimer()
+
+	local var_134_0 = getProxy(InstagramProxy):GetOfficialAccounts()
+	local var_134_1 = pg.TimeMgr.GetInstance():GetServerTime()
+
+	for iter_134_0, iter_134_1 in pairs(var_134_0) do
+		local var_134_2 = iter_134_1:GetFastestRefreshTime()
+
+		if var_134_2 then
+			local var_134_3 = var_134_2 - var_134_1
+
+			if var_134_3 <= 0 then
+				arg_134_0:emit(InstagramChatMediator.ON_OFFICIAL_ACCOUNTS_OPERATE, ActivityConst.INSTAGRAM_OP_UPDATE, iter_134_1.id)
+			else
+				arg_134_0.officialAccountsTimerList[iter_134_1.id] = Timer.New(function()
+					arg_134_0:emit(InstagramChatMediator.ON_OFFICIAL_ACCOUNTS_OPERATE, ActivityConst.INSTAGRAM_OP_UPDATE, iter_134_1.id)
+				end, var_134_3, 1)
+
+				arg_134_0.officialAccountsTimerList[iter_134_1.id]:Start()
+			end
+		end
+	end
+end
+
+function var_0_0.StopOfficialAccountsTimer(arg_136_0)
+	for iter_136_0, iter_136_1 in pairs(arg_136_0.officialAccountsTimerList) do
+		arg_136_0.officialAccountsTimerList[iter_136_0]:Stop()
+	end
+
+	arg_136_0.officialAccountsTimerList = {}
+end
+
+function var_0_0.EixtOfficialAccounts(arg_137_0)
+	arg_137_0:StopOfficialAccountsTimer()
+
+	arg_137_0.officialAccountsItemList = nil
+	arg_137_0.exited = true
+	arg_137_0.sprites = nil
+
+	for iter_137_0, iter_137_1 in ipairs(arg_137_0.toDownloadList or {}) do
+		arg_137_0.downloadmgr:StopLoader(iter_137_1)
+	end
+
+	arg_137_0.toDownloadList = {}
 end
 
 return var_0_0

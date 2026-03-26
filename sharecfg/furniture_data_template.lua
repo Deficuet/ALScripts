@@ -224,6 +224,7 @@ pg.furniture_data_template = setmetatable({
 			329,
 			330,
 			331,
+			332,
 			100001,
 			100002,
 			100003,
@@ -307,6 +308,7 @@ pg.furniture_data_template = setmetatable({
 			100081,
 			100082,
 			100083,
+			100084,
 			200001,
 			200002,
 			200003,
@@ -3913,6 +3915,27 @@ pg.furniture_data_template = setmetatable({
 			335119,
 			335301,
 			335302
+		},
+		[136] = {
+			336001,
+			336002,
+			336101,
+			336102,
+			336103,
+			336104,
+			336105,
+			336106,
+			336107,
+			336108,
+			336109,
+			336110,
+			336111,
+			336112,
+			336113,
+			336114,
+			336115,
+			336301,
+			336302
 		}
 	},
 	get_id_list_by_tag = {
@@ -4145,6 +4168,7 @@ pg.furniture_data_template = setmetatable({
 			100081,
 			100082,
 			100083,
+			100084,
 			31101,
 			54101,
 			54102,
@@ -4224,7 +4248,8 @@ pg.furniture_data_template = setmetatable({
 			319,
 			321,
 			323,
-			331
+			331,
+			332
 		},
 		[7] = {
 			213,
@@ -4438,7 +4463,8 @@ pg.furniture_data_template = setmetatable({
 			331309,
 			333119,
 			334123,
-			335119
+			335119,
+			336115
 		},
 		[4] = {
 			1001,
@@ -4564,7 +4590,8 @@ pg.furniture_data_template = setmetatable({
 			331001,
 			333001,
 			334001,
-			335001
+			335001,
+			336001
 		},
 		[3] = {
 			1002,
@@ -4690,7 +4717,8 @@ pg.furniture_data_template = setmetatable({
 			331002,
 			333002,
 			334002,
-			335002
+			335002,
+			336002
 		},
 		{
 			1101,
@@ -6995,7 +7023,21 @@ pg.furniture_data_template = setmetatable({
 			335115,
 			335116,
 			335117,
-			335118
+			335118,
+			336101,
+			336102,
+			336103,
+			336104,
+			336105,
+			336106,
+			336107,
+			336108,
+			336109,
+			336110,
+			336111,
+			336112,
+			336113,
+			336114
 		},
 		{
 			1108,
@@ -7594,7 +7636,9 @@ pg.furniture_data_template = setmetatable({
 			334301,
 			334302,
 			335301,
-			335302
+			335302,
+			336301,
+			336302
 		}
 	},
 	get_id_list_by_type = {
@@ -7790,6 +7834,7 @@ pg.furniture_data_template = setmetatable({
 			329,
 			330,
 			331,
+			332,
 			100001,
 			100002,
 			100004,
@@ -7851,7 +7896,8 @@ pg.furniture_data_template = setmetatable({
 			100079,
 			100080,
 			100081,
-			100082
+			100082,
+			100084
 		},
 		[2] = {
 			120,
@@ -10151,7 +10197,22 @@ pg.furniture_data_template = setmetatable({
 			335116,
 			335117,
 			335118,
-			335119
+			335119,
+			336101,
+			336102,
+			336103,
+			336104,
+			336105,
+			336106,
+			336107,
+			336108,
+			336109,
+			336110,
+			336111,
+			336112,
+			336113,
+			336114,
+			336115
 		},
 		[11] = {
 			131,
@@ -10616,7 +10677,9 @@ pg.furniture_data_template = setmetatable({
 			334301,
 			334302,
 			335301,
-			335302
+			335302,
+			336301,
+			336302
 		},
 		[15] = {
 			251,
@@ -10758,7 +10821,8 @@ pg.furniture_data_template = setmetatable({
 			331001,
 			333001,
 			334001,
-			335001
+			335001,
+			336001
 		},
 		{
 			1002,
@@ -10884,7 +10948,8 @@ pg.furniture_data_template = setmetatable({
 			331002,
 			333002,
 			334002,
-			335002
+			335002,
+			336002
 		},
 		[5] = {
 			1101,
@@ -11517,6 +11582,7 @@ pg.furniture_data_template = setmetatable({
 		329,
 		330,
 		331,
+		332,
 		100001,
 		100002,
 		100003,
@@ -11600,6 +11666,7 @@ pg.furniture_data_template = setmetatable({
 		100081,
 		100082,
 		100083,
+		100084,
 		200001,
 		200002,
 		200003,
@@ -14957,7 +15024,26 @@ pg.furniture_data_template = setmetatable({
 		335118,
 		335119,
 		335301,
-		335302
+		335302,
+		336001,
+		336002,
+		336101,
+		336102,
+		336103,
+		336104,
+		336105,
+		336106,
+		336107,
+		336108,
+		336109,
+		336110,
+		336111,
+		336112,
+		336113,
+		336114,
+		336115,
+		336301,
+		336302
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -26197,6 +26283,50 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[332] = {
+		spine_extra = "",
+		describe = "荆棘市市政管理大楼，规则与指令的中枢，寂静地嘉立在夜色中。",
+		gain_by = "漫游者招募计划",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		icon = "tegongdushixunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 8,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		name = "市政管理大楼",
+		canputon = 0,
+		id = 332,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"tegongdushixunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		gain_by = "",
 		name = "本ID禁用，后端固定会删除",
@@ -32115,6 +32245,54 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100084] = {
+		spine_extra = "",
+		describe = "好伙伴，来表演个一飞冲天吧！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		icon = "happydicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		name = "Happy D ",
+		canputon = 0,
+		id = 100084,
+		can_rotate = 1,
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"happyd",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
 		},
 		interAction_group = {}
 	},
@@ -183841,6 +184019,959 @@ pg.base.furniture_data_template = {
 		spine = {
 			{
 				"qiangshicj8",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336001] = {
+		spine_extra = "",
+		describe = "进入指挥中心，在数据流光中俯瞰都市天际吧~",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "指挥中心地板",
+		effect = "",
+		advice = 0,
+		tag = 4,
+		spine_action_replace = "",
+		picture = "tg/dibantg",
+		icon = "dibantgicon",
+		canputon = 0,
+		comfortable = 4,
+		id = 336001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[336002] = {
+		spine_extra = "",
+		describe = "进入指挥中心，在数据流光中俯瞰都市天际吧~",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "指挥中心壁纸",
+		effect = "",
+		advice = 0,
+		tag = 3,
+		spine_action_replace = "",
+		picture = "",
+		comfortable = 4,
+		canputon = 0,
+		icon = "qiangbitgicon",
+		id = 336002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbitg",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336101] = {
+		gain_by = "",
+		name = "指挥中心操作台",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		comfortable = 4,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "caozuotaitgicon",
+		deblocking = 1,
+		level = 1,
+		describe = "多个操作面板组合的控制台，小心别点错了按键~",
+		effect = "",
+		can_rotate = 0,
+		tag = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 336101,
+		advice = 0,
+		size = {
+			14,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"caozuotaitgB",
+				"normal"
+			},
+			{
+				"caozuotaitgT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit1",
+						nil,
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				},
+				{
+					{
+						"sit1"
+					},
+					{
+						"sit2"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char2",
+				1
+			},
+			{
+				"char1",
+				-1
+			}
+		},
+		interAction_group = {}
+	},
+	[336102] = {
+		spine_extra = "",
+		describe = "生物识别通过，允许访问~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "damentgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		name = "指挥中心安全门",
+		canputon = 0,
+		id = 336102,
+		can_rotate = 0,
+		size = {
+			24,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"damentg",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336103] = {
+		spine_extra = "",
+		describe = "标准的物资储存箱，用来存放各类行动装备与配件",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "daxiangzitgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		name = "指挥中心储物箱",
+		spine_action_replace = "",
+		picture = "tg/daxiangzitg",
+		comfortable = 1,
+		canputon = 0,
+		id = 336103,
+		can_rotate = 0,
+		size = {
+			2,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[336104] = {
+		spine_extra = "",
+		describe = "高精度三维空间成像设备，实时投影城市全貌",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "ditutgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		name = "立体城市投影",
+		canputon = 0,
+		id = 336104,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"ditutg",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336105] = {
+		spine_extra = "",
+		describe = "高密度数据运算中心，为各项行动提供算力支持",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "fuwuqitgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		name = "指挥中心服务器",
+		canputon = 0,
+		id = 336105,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fuwuqitg",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336106] = {
+		spine_extra = "",
+		describe = "采用液冷散热与静音风道设计，高效降噪",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "jixiangtgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		name = "指挥中心机箱",
+		spine_action_replace = "",
+		picture = "tg/jixiangtg",
+		comfortable = 1,
+		canputon = 0,
+		id = 336106,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[336107] = {
+		spine_extra = "",
+		describe = "多轴可调显示器阵列，满足情报分析的多维需求",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "pingmuzutgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		name = "指挥中心屏幕组",
+		canputon = 0,
+		id = 336107,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"pingmuzutg",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336108] = {
+		spine_extra = "",
+		describe = "正在使用全息投影出击！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "quanxitgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		name = "全息投影",
+		canputon = 0,
+		id = 336108,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"quanxitg",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336109] = {
+		gain_by = "",
+		name = "指挥中心工作台",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		comfortable = 3,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "shuzhuotgicon",
+		deblocking = 1,
+		level = 1,
+		describe = "工位喜提硬件升级，干活更有力气了~",
+		effect = "",
+		can_rotate = 0,
+		tag = 1,
+		spine_action_replace = "",
+		picture = "",
+		spine_extra = "",
+		canputon = 0,
+		id = 336109,
+		advice = 0,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shuzhuotgB",
+				"normal"
+			},
+			{
+				"shuzhuotgT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[336110] = {
+		spine_extra = "",
+		describe = "弯腰，侧身，小心别碰到红线！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "tanceqitgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		name = "激光发生器",
+		canputon = 0,
+		id = 336110,
+		can_rotate = 0,
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tanceqitg",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336111] = {
+		spine_extra = "",
+		describe = "任务目标出现，即刻出发！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "tegongjiutgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		name = "特工啾",
+		canputon = 0,
+		id = 336111,
+		can_rotate = 0,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tegongjiutg",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336112] = {
+		spine_extra = "",
+		describe = "杂物就放心交给储存箱吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "xiangzikaitgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		name = "指挥中心杂物箱",
+		spine_action_replace = "",
+		picture = "tg/xiangzikaitg",
+		comfortable = 1,
+		canputon = 0,
+		id = 336112,
+		can_rotate = 0,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[336113] = {
+		spine_extra = "",
+		describe = "今天的指挥中心也很安全呢~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "xunluojiutgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		name = "巡逻啾",
+		canputon = 0,
+		id = 336113,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xunluojiutg",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336114] = {
+		spine_extra = "",
+		describe = "滴——滴——啾~~！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "yinxiangtgicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "",
+		name = "指挥中心音响",
+		canputon = 0,
+		id = 336114,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yinxiangtg",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336115] = {
+		gain_by = "",
+		name = "指挥中心扫描仪",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		comfortable = 4,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "saomiaoyitgicon",
+		deblocking = 1,
+		level = 1,
+		describe = "支持多光谱扫描与实时三维重建，可用于识别身份、分析装备等……",
+		effect = "",
+		can_rotate = 0,
+		tag = 7,
+		spine_action_replace = "",
+		picture = "",
+		spine_extra = "",
+		canputon = 0,
+		id = 336115,
+		advice = 0,
+		size = {
+			7,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"saomiaoyitgB",
+				"normal"
+			},
+			{
+				"saomiaoyitgT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[336301] = {
+		spine_extra = "",
+		describe = "监控画面实时投影，全局动向一目了然",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 3,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "dapingtgicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		tag = 5,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		name = "指挥中心监控屏",
+		canputon = 0,
+		id = 336301,
+		can_rotate = 1,
+		size = {
+			18,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"dapingtg",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336302] = {
+		spine_extra = "",
+		describe = "嫌犯名单已更新，立即发布逮捕令！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 4,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		icon = "tongjilingtgicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		tag = 5,
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		name = "指挥中心通缉令",
+		canputon = 0,
+		id = 336302,
+		can_rotate = 1,
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tongjilingtg",
 				"normal"
 			}
 		},

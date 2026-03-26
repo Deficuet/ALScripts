@@ -1,125 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_3 = {
-	[103262] = {
-		ship_group = 10326,
-		name = "闲云野鹤",
-		hand_id = 3,
-		lover_kiss = "lip03",
-		bgm = "",
-		illustrator2 = -1,
-		shop_offset = "",
-		id = 103262,
-		group_index = 2,
-		purchase_offset = "",
-		painting = "beianpudunII_3",
-		lover_hand = "hand_1_01",
-		gyro = 0,
-		l2d_drag_rate = "",
-		shop_type_id = 3,
-		prefab = "beianpudunII_3",
-		part_scale = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		shop_id = 70961,
-		shop_dynamic_hx = 0,
-		bg = "157",
-		illustrator = -1,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = 4,
-		double_char = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		l2d_para_range = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		l2d_voice_calibrate = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "呼——为了更好的体验节日氛围，才换上了这身衣服……虽然既漂亮又舒服，但总觉得有点不好意思呢……唔、指挥官什么时候来的？",
-		voice_actor = 27,
-		spine_offset = "",
-		change_skin = "",
-		rarity_bg = "",
-		time = "",
-		get_showing = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.57,
-					0.82,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.56,
-					0.82,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.34,
-							0.14
-						}
-					}
-				}
-			}
-		}
-	},
 	[103270] = {
 		ship_group = 10327,
 		name = "路易斯维尔",
@@ -16800,6 +16681,313 @@ pg.base.ship_skin_template_3 = {
 						{
 							-0.573,
 							2.346,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
+	[107251] = {
+		ship_group = 10725,
+		name = "心动营养灌输中",
+		hand_id = 1,
+		lover_kiss = "lip03",
+		bgm = "",
+		illustrator2 = -1,
+		id = 107251,
+		gyro = 0,
+		group_index = 1,
+		l2d_drag_rate = "",
+		painting = "kebensi_2",
+		lover_hand = "hand_1_02",
+		prefab = "kebensi_2",
+		part_scale = "",
+		shop_type_id = 17,
+		shop_id = 71246,
+		shop_dynamic_hx = 0,
+		lip_smoothing = 0,
+		illustrator = -1,
+		double_char = 0,
+		skeleton_default_skin = "",
+		bg = "185",
+		voice_lang = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 4,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "指挥官，准备好了吗~我会让你感受到最舒服的营养灌输方式哦，请先放松下来吧~",
+		voice_actor = 490,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0,
+			30
+		},
+		shop_offset = {
+			0,
+			0,
+			0,
+			30
+		},
+		purchase_offset = {
+			0,
+			0,
+			0,
+			30
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.683,
+					2.327,
+					0
+				}
+			},
+			plane = {
+				{
+					1.197,
+					0.988,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.573,
+							2.346,
+							-0.25
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		ship_l2d_id = {
+			10725101,
+			10725102,
+			10725103,
+			10725104,
+			10725105,
+			10725106,
+			10725107,
+			10725108,
+			10725109,
+			10725110,
+			10725111,
+			10725112,
+			10725113,
+			10725114,
+			10725115,
+			10725116,
+			10725117,
+			10725118,
+			10725119,
+			10725120,
+			10725121,
+			10725122,
+			10725123,
+			10725124,
+			10725125,
+			10725126,
+			10725127,
+			10725128,
+			10725129
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1223,
+					-108,
+					2,
+					0,
+					185,
+					2
+				},
+				{
+					-175,
+					656.72,
+					2,
+					219,
+					0,
+					2.5
+				},
+				{
+					101,
+					-310.77,
+					2,
+					0,
+					-123,
+					1.5
+				}
+			}
+		}
+	},
+	[107270] = {
+		ship_group = 10727,
+		name = "兰利II",
+		hand_id = 5,
+		lover_kiss = "lip01",
+		bgm = "",
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 107270,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "lanliII",
+		lover_hand = "hand_3_02",
+		gyro = 0,
+		l2d_drag_rate = "",
+		shop_type_id = 0,
+		prefab = "lanliII",
+		part_scale = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		shop_id = 0,
+		shop_dynamic_hx = 0,
+		bg = "",
+		illustrator = -1,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = -1,
+		double_char = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		l2d_para_range = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		l2d_voice_calibrate = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "独立级轻型航空母舰—兰利II，舷号CVL-27",
+		voice_actor = 50,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.16,
+					1.25,
+					0
+				}
+			},
+			plane = {
+				{
+					1.1,
+					0.9,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.53,
+							2.225,
 							-0.25
 						}
 					}

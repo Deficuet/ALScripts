@@ -26290,6 +26290,148 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_breakout[302281] = {
+		use_gold = 500,
+		breakout_id = 302282,
+		use_char_num = 1,
+		use_char = 30228,
+		breakout_view = "获得全弹发射I/主炮效率提高5%",
+		level = 10,
+		id = 302281,
+		icon = "10001",
+		pre_id = 0,
+		use_item = {},
+		weapon_ids = {
+			72131
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[302282] = {
+		use_gold = 1500,
+		breakout_id = 302283,
+		use_char_num = 1,
+		use_char = 30228,
+		breakout_view = "鱼雷底座+1/鱼雷预装填+1/鱼雷效率提高10%",
+		level = 30,
+		id = 302282,
+		icon = "10001",
+		pre_id = 302281,
+		use_item = {},
+		weapon_ids = {
+			105,
+			105
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[302283] = {
+		use_gold = 2500,
+		breakout_id = 302284,
+		use_char_num = 2,
+		use_char = 30228,
+		breakout_view = "全弹发射弹幕升级/鱼雷效率提高15%",
+		level = 70,
+		id = 302283,
+		icon = "10001",
+		pre_id = 302282,
+		use_item = {},
+		weapon_ids = {
+			72132
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[302284] = {
+		use_gold = 0,
+		breakout_id = 0,
+		use_char_num = 0,
+		use_char = 30228,
+		breakout_view = "无",
+		level = 0,
+		id = 302284,
+		icon = "10001",
+		pre_id = 302283,
+		use_item = {},
+		weapon_ids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[302291] = {
+		use_gold = 500,
+		breakout_id = 302292,
+		use_char_num = 1,
+		use_char = 30229,
+		breakout_view = "获得全弹发射I/主炮效率提高5%",
+		level = 10,
+		id = 302291,
+		icon = "10001",
+		pre_id = 0,
+		use_item = {},
+		weapon_ids = {
+			72131
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[302292] = {
+		use_gold = 1500,
+		breakout_id = 302293,
+		use_char_num = 1,
+		use_char = 30229,
+		breakout_view = "鱼雷底座+1/鱼雷预装填+1/鱼雷效率提高10%",
+		level = 30,
+		id = 302292,
+		icon = "10001",
+		pre_id = 302291,
+		use_item = {},
+		weapon_ids = {
+			105,
+			105
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[302293] = {
+		use_gold = 2500,
+		breakout_id = 302294,
+		use_char_num = 2,
+		use_char = 30229,
+		breakout_view = "全弹发射弹幕升级/鱼雷效率提高15%",
+		level = 70,
+		id = 302293,
+		icon = "10001",
+		pre_id = 302292,
+		use_item = {},
+		weapon_ids = {
+			72132
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[302294] = {
+		use_gold = 0,
+		breakout_id = 0,
+		use_char_num = 0,
+		use_char = 30229,
+		breakout_view = "无",
+		level = 0,
+		id = 302294,
+		icon = "10001",
+		pre_id = 302293,
+		use_item = {},
+		weapon_ids = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_breakout[302201] = {
 		use_gold = 500,
 		breakout_id = 302202,
@@ -31494,6 +31636,83 @@ end)()
 		id = 307164,
 		icon = "10001",
 		pre_id = 307163,
+		use_item = {},
+		weapon_ids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[307171] = {
+		use_gold = 1000,
+		breakout_id = 307172,
+		use_char_num = 1,
+		use_char = 30717,
+		breakout_view = "所有鱼雷机+1/舰载机效率提高3%",
+		level = 10,
+		id = 307171,
+		icon = "10001",
+		pre_id = 0,
+		use_item = {},
+		weapon_ids = {
+			60711,
+			54014
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[307172] = {
+		use_gold = 3000,
+		breakout_id = 307173,
+		use_char_num = 1,
+		use_char = 30717,
+		breakout_view = "机库容量+1/所有战斗机+1/舰载机效率提高5%",
+		level = 30,
+		id = 307172,
+		icon = "10001",
+		pre_id = 307171,
+		use_item = {},
+		weapon_ids = {
+			60712,
+			54014,
+			60712,
+			54014
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[307173] = {
+		use_gold = 10000,
+		breakout_id = 307174,
+		use_char_num = 2,
+		use_char = 30717,
+		breakout_view = "所有舰载机+1/舰载机效率提高7%",
+		level = 70,
+		id = 307173,
+		icon = "10001",
+		pre_id = 307172,
+		use_item = {},
+		weapon_ids = {
+			60713,
+			54015,
+			60713,
+			54015
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[307174] = {
+		use_gold = 0,
+		breakout_id = 0,
+		use_char_num = 0,
+		use_char = 30717,
+		breakout_view = "无",
+		level = 0,
+		id = 307174,
+		icon = "10001",
+		pre_id = 307173,
 		use_item = {},
 		weapon_ids = {}
 	}

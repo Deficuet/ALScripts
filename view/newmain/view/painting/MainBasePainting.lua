@@ -255,7 +255,7 @@ function var_0_0.OnTimerTriggerEvent(arg_29_0)
 
 		arg_29_0.lastChatEvent = var_29_0[math.ceil(math.random(#var_29_0))]
 
-		arg_29_0:_TriggerEvent(arg_29_0.lastChatEvent)
+		arg_29_0:PrepareTriggerAction(arg_29_0.lastChatEvent)
 		arg_29_0:OnTriggerEventAuto()
 		arg_29_0:RemoveTimer()
 	end
@@ -507,114 +507,118 @@ function var_0_0.GetOffset(arg_63_0)
 	return 0
 end
 
-function var_0_0.IslimitYPos(arg_64_0)
+function var_0_0.UpdateBound(arg_64_0)
+	return
+end
+
+function var_0_0.IslimitYPos(arg_65_0)
 	return false
 end
 
-function var_0_0.PlayChangeSkinActionIn(arg_65_0, arg_65_1)
+function var_0_0.PlayChangeSkinActionIn(arg_66_0, arg_66_1)
 	return
 end
 
-function var_0_0.PlayChangeSkinActionOut(arg_66_0, arg_66_1)
+function var_0_0.PlayChangeSkinActionOut(arg_67_0, arg_67_1)
 	return
 end
 
-function var_0_0.PauseForSilent(arg_67_0)
+function var_0_0.PauseForSilent(arg_68_0)
 	if SettingsMainScenePanel.IsEnableFlagShipInteraction() then
 		return
 	end
 
-	if arg_67_0:IsLoaded() then
-		arg_67_0:_Pause()
+	if arg_68_0:IsLoaded() then
+		arg_68_0:_Pause()
 	end
 end
 
-function var_0_0._Pause(arg_68_0)
-	arg_68_0.isPuase = true
+function var_0_0._Pause(arg_69_0)
+	arg_69_0.isPuase = true
 
-	arg_68_0:RemoveMoveTimer()
-	arg_68_0:StopChatAnimtion()
-	arg_68_0:RemoveChatTimer()
-	arg_68_0:RemoveTimer()
-	arg_68_0.cvLoader:Stop()
+	arg_69_0:RemoveMoveTimer()
+	arg_69_0:StopChatAnimtion()
+	arg_69_0:RemoveChatTimer()
+	arg_69_0:RemoveTimer()
+	arg_69_0.cvLoader:Stop()
 end
 
-function var_0_0.Pause(arg_69_0)
-	arg_69_0:_Pause()
-	arg_69_0:OnPause()
+function var_0_0.Pause(arg_70_0)
+	arg_70_0:_Pause()
+	arg_70_0:OnPause()
 end
 
-function var_0_0.ResumeForSilent(arg_70_0)
+function var_0_0.ResumeForSilent(arg_71_0)
 	if SettingsMainScenePanel.IsEnableFlagShipInteraction() then
 		return
 	end
 
-	if arg_70_0:IsLoaded() then
-		arg_70_0:_Resume()
+	if arg_71_0:IsLoaded() then
+		arg_71_0:_Resume()
 	end
 end
 
-function var_0_0._Resume(arg_71_0)
-	arg_71_0.isPuase = false
+function var_0_0._Resume(arg_72_0)
+	arg_72_0.isPuase = false
 
-	arg_71_0:TriggerNextEventAuto()
+	arg_72_0:TriggerNextEventAuto()
 end
 
-function var_0_0.Resume(arg_72_0)
-	arg_72_0:_Resume()
-	arg_72_0:OnResume()
+function var_0_0.Resume(arg_73_0)
+	arg_73_0:_Resume()
+	arg_73_0:OnResume()
 end
 
-function var_0_0.updateShip(arg_73_0, arg_73_1)
-	if arg_73_1 and arg_73_0.ship.id == arg_73_1.id then
-		arg_73_0.ship = arg_73_1
+function var_0_0.updateShip(arg_74_0, arg_74_1)
+	if arg_74_1 and arg_74_0.ship.id == arg_74_1.id then
+		arg_74_0.ship = arg_74_1
 	end
 
-	arg_73_0:OnUpdateShip(arg_73_1)
+	arg_74_0:OnUpdateShip(arg_74_1)
 end
 
-function var_0_0.OnUpdateShip(arg_74_0, arg_74_1)
+function var_0_0.OnUpdateShip(arg_75_0, arg_75_1)
 	return
 end
 
-function var_0_0.InitScalePart(arg_75_0)
-	local var_75_0 = arg_75_0:GetPartScaleData()
+function var_0_0.InitScalePart(arg_76_0)
+	local var_76_0 = arg_76_0:GetPartScaleData()
 
-	if var_75_0 and #var_75_0 > 0 then
-		arg_75_0.partScaleList = {}
-		arg_75_0.partScaleSelectList = {}
+	if var_76_0 and #var_76_0 > 0 then
+		arg_76_0.partScaleList = {}
+		arg_76_0.partScaleSelectList = {}
 
-		local var_75_1 = arg_75_0:GetPaintingTransform()
+		local var_76_1 = arg_76_0:GetPaintingTransform()
 
-		if var_75_1 then
-			for iter_75_0, iter_75_1 in ipairs(var_75_0) do
-				local var_75_2 = findTF(var_75_1, iter_75_1)
+		if var_76_1 then
+			for iter_76_0, iter_76_1 in ipairs(var_76_0) do
+				local var_76_2 = findTF(var_76_1, iter_76_1)
 
-				if var_75_2 then
-					local var_75_3 = GetOrAddComponent(var_75_2, typeof(PinchZoom))
+				if var_76_2 then
+					local var_76_3 = GetOrAddComponent(var_76_2, typeof(PinchZoom))
 
-					var_75_3.enabled = false
+					var_76_3.enabled = false
 
-					PoolMgr.GetInstance():GetUI("mainuiscalepart", false, function(arg_76_0)
-						SetParent(arg_76_0, var_75_2)
-						setActive(arg_76_0, false)
-						table.insert(arg_75_0.partScaleSelectList, {
-							tf = tf(arg_76_0),
-							name = iter_75_1
+					PoolMgr.GetInstance():GetUI("mainuiscalepart", false, function(arg_77_0)
+						SetParent(arg_77_0, var_76_2)
+						setActive(arg_77_0, false)
+						table.insert(arg_76_0.partScaleSelectList, {
+							tf = tf(arg_77_0),
+							name = iter_76_1
 						})
 					end)
-					onButton(arg_75_0._event, var_75_2, function()
-						if arg_75_0.partScaleFlag then
-							arg_75_0.selectPartName = iter_75_1
+					onButton(arg_76_0._event, var_76_2, function()
+						if arg_76_0.partScaleFlag then
+							arg_76_0.selectPartName = iter_76_1
 
-							arg_75_0:updateSelectPartScale()
+							arg_76_0:updateSelectPartScale()
 						end
 					end)
-					arg_75_0:ResetPartScale(true)
-					table.insert(arg_75_0.partScaleList, {
-						name = iter_75_1,
-						tf = var_75_2,
-						com = var_75_3
+					arg_76_0:ResetPartScale(true)
+					table.insert(arg_76_0.partScaleList, {
+						name = iter_76_1,
+						tf = var_76_2,
+						com = var_76_3
 					})
 				end
 			end
@@ -622,175 +626,175 @@ function var_0_0.InitScalePart(arg_75_0)
 	end
 end
 
-function var_0_0.updatePartCotent(arg_78_0, arg_78_1)
-	for iter_78_0 = 1, #arg_78_0.partScaleSelectList do
-		if arg_78_1 then
-			arg_78_0:emit(NewMainScene.SET_SCALE_PART_CONTENT, arg_78_0.partScaleSelectList[iter_78_0].tf)
+function var_0_0.updatePartCotent(arg_79_0, arg_79_1)
+	for iter_79_0 = 1, #arg_79_0.partScaleSelectList do
+		if arg_79_1 then
+			arg_79_0:emit(NewMainScene.SET_SCALE_PART_CONTENT, arg_79_0.partScaleSelectList[iter_79_0].tf)
 		else
-			setParent(arg_78_0.partScaleSelectList[iter_78_0].tf, arg_78_0:GetPaintingTransform(), true)
+			setParent(arg_79_0.partScaleSelectList[iter_79_0].tf, arg_79_0:GetPaintingTransform(), true)
 		end
 	end
 end
 
-function var_0_0.updateSelectPartScale(arg_79_0)
-	for iter_79_0 = 1, #arg_79_0.partScaleList do
-		local var_79_0 = arg_79_0.partScaleList[iter_79_0]
-		local var_79_1 = arg_79_0.partScaleFlag and var_79_0.name == arg_79_0.selectPartName
+function var_0_0.updateSelectPartScale(arg_80_0)
+	for iter_80_0 = 1, #arg_80_0.partScaleList do
+		local var_80_0 = arg_80_0.partScaleList[iter_80_0]
+		local var_80_1 = arg_80_0.partScaleFlag and var_80_0.name == arg_80_0.selectPartName
 
-		var_79_0.com.enabled = var_79_1
+		var_80_0.com.enabled = var_80_1
 
-		setActive(arg_79_0.partScaleSelectList[iter_79_0].tf, arg_79_0.partScaleFlag and arg_79_0.partScaleSelectList[iter_79_0].name == arg_79_0.selectPartName)
+		setActive(arg_80_0.partScaleSelectList[iter_80_0].tf, arg_80_0.partScaleFlag and arg_80_0.partScaleSelectList[iter_80_0].name == arg_80_0.selectPartName)
 	end
 end
 
-function var_0_0.ClearScalePart(arg_80_0)
-	if arg_80_0.partScaleList and #arg_80_0.partScaleList > 0 then
-		for iter_80_0 = 1, #arg_80_0.partScaleList do
-			if arg_80_0.partScaleList[iter_80_0].tf then
-				removeOnButton(arg_80_0.partScaleList[iter_80_0].tf)
-			end
-		end
-
-		arg_80_0.partScaleList = nil
-	end
-
-	if arg_80_0.partScaleSelectList and #arg_80_0.partScaleSelectList > 0 then
-		for iter_80_1 = 1, #arg_80_0.partScaleSelectList do
-			if arg_80_0.partScaleSelectList[iter_80_1].tf then
-				PoolMgr.GetInstance():ReturnUI("mainuiscalepart", go(arg_80_0.partScaleSelectList[iter_80_1].tf))
-			end
-		end
-
-		arg_80_0.partScaleSelectList = nil
-	end
-end
-
-function var_0_0.OnEnablePartScale(arg_81_0, arg_81_1)
-	if arg_81_0.partScaleList then
-		arg_81_0.partScaleFlag = arg_81_1
-		arg_81_0.selectPartName = nil
-
+function var_0_0.ClearScalePart(arg_81_0)
+	if arg_81_0.partScaleList and #arg_81_0.partScaleList > 0 then
 		for iter_81_0 = 1, #arg_81_0.partScaleList do
-			local var_81_0 = arg_81_0.partScaleList[iter_81_0].tf
-
-			GetOrAddComponent(var_81_0, typeof(CanvasGroup)).blocksRaycasts = arg_81_1
+			if arg_81_0.partScaleList[iter_81_0].tf then
+				removeOnButton(arg_81_0.partScaleList[iter_81_0].tf)
+			end
 		end
 
-		arg_81_0:updateSelectPartScale()
-		arg_81_0:updatePartCotent(arg_81_1)
+		arg_81_0.partScaleList = nil
+	end
 
-		if not arg_81_1 then
-			arg_81_0:ResetPartScale(true)
+	if arg_81_0.partScaleSelectList and #arg_81_0.partScaleSelectList > 0 then
+		for iter_81_1 = 1, #arg_81_0.partScaleSelectList do
+			if arg_81_0.partScaleSelectList[iter_81_1].tf then
+				PoolMgr.GetInstance():ReturnUI("mainuiscalepart", go(arg_81_0.partScaleSelectList[iter_81_1].tf))
+			end
 		end
+
+		arg_81_0.partScaleSelectList = nil
 	end
 end
 
-function var_0_0.ResetPartScale(arg_82_0, arg_82_1)
-	if arg_82_0.partScaleList and #arg_82_0.partScaleList > 0 then
+function var_0_0.OnEnablePartScale(arg_82_0, arg_82_1)
+	if arg_82_0.partScaleList then
+		arg_82_0.partScaleFlag = arg_82_1
+		arg_82_0.selectPartName = nil
+
 		for iter_82_0 = 1, #arg_82_0.partScaleList do
 			local var_82_0 = arg_82_0.partScaleList[iter_82_0].tf
-			local var_82_1 = arg_82_0.partScaleList[iter_82_0].name
-			local var_82_2 = arg_82_1 and getProxy(SettingsProxy):getSkinScaleSetting(arg_82_0.ship, arg_82_0:GetPartStateType(), var_82_1) or 1
 
-			var_82_0.localScale = Vector3(var_82_2, var_82_2, var_82_2)
+			GetOrAddComponent(var_82_0, typeof(CanvasGroup)).blocksRaycasts = arg_82_1
+		end
+
+		arg_82_0:updateSelectPartScale()
+		arg_82_0:updatePartCotent(arg_82_1)
+
+		if not arg_82_1 then
+			arg_82_0:ResetPartScale(true)
 		end
 	end
 end
 
-function var_0_0.SavePartScaleData(arg_83_0)
-	if not arg_83_0.partScaleList or #arg_83_0.partScaleList == 0 then
+function var_0_0.ResetPartScale(arg_83_0, arg_83_1)
+	if arg_83_0.partScaleList and #arg_83_0.partScaleList > 0 then
+		for iter_83_0 = 1, #arg_83_0.partScaleList do
+			local var_83_0 = arg_83_0.partScaleList[iter_83_0].tf
+			local var_83_1 = arg_83_0.partScaleList[iter_83_0].name
+			local var_83_2 = arg_83_1 and getProxy(SettingsProxy):getSkinScaleSetting(arg_83_0.ship, arg_83_0:GetPartStateType(), var_83_1) or 1
+
+			var_83_0.localScale = Vector3(var_83_2, var_83_2, var_83_2)
+		end
+	end
+end
+
+function var_0_0.SavePartScaleData(arg_84_0)
+	if not arg_84_0.partScaleList or #arg_84_0.partScaleList == 0 then
 		return
 	end
 
-	if not arg_83_0.ship then
+	if not arg_84_0.ship then
 		return
 	end
 
-	for iter_83_0 = 1, #arg_83_0.partScaleList do
-		local var_83_0 = arg_83_0.partScaleList[iter_83_0]
-		local var_83_1 = arg_83_0:GetPartStateType()
-		local var_83_2 = var_83_0.name
-		local var_83_3 = var_83_0.tf.localScale.x
+	for iter_84_0 = 1, #arg_84_0.partScaleList do
+		local var_84_0 = arg_84_0.partScaleList[iter_84_0]
+		local var_84_1 = arg_84_0:GetPartStateType()
+		local var_84_2 = var_84_0.name
+		local var_84_3 = var_84_0.tf.localScale.x
 
-		getProxy(SettingsProxy):setSkinScaleSetting(arg_83_0.ship, var_83_1, var_83_2, var_83_3)
+		getProxy(SettingsProxy):setSkinScaleSetting(arg_84_0.ship, var_84_1, var_84_2, var_84_3)
 	end
 end
 
-function var_0_0.GetPaintingTransform(arg_84_0)
+function var_0_0.GetPaintingTransform(arg_85_0)
 	return nil
 end
 
-function var_0_0.GetPartScaleData(arg_85_0)
+function var_0_0.GetPartScaleData(arg_86_0)
 	return nil
 end
 
-function var_0_0.GetPartStateType(arg_86_0)
+function var_0_0.GetPartStateType(arg_87_0)
 	return
 end
 
-function var_0_0.Dispose(arg_87_0)
-	arg_87_0:disposeEvent()
+function var_0_0.Dispose(arg_88_0)
+	arg_88_0:disposeEvent()
 
-	arg_87_0.isExited = true
+	arg_88_0.isExited = true
 
-	pg.DelegateInfo.Dispose(arg_87_0)
+	pg.DelegateInfo.Dispose(arg_88_0)
 
-	if arg_87_0.state == var_0_3 then
-		arg_87_0:UnLoad()
+	if arg_88_0.state == var_0_3 then
+		arg_88_0:UnLoad()
 	end
 
-	arg_87_0.cvLoader:Dispose()
+	arg_88_0.cvLoader:Dispose()
 
-	arg_87_0.cvLoader = nil
-	arg_87_0.triggerWhenLoaded = false
+	arg_88_0.cvLoader = nil
+	arg_88_0.triggerWhenLoaded = false
 
-	arg_87_0:RemoveTimer()
-	arg_87_0:RemoveMoveTimer()
-	arg_87_0:RemoveChatTimer()
-	arg_87_0:ClearScalePart()
+	arg_88_0:RemoveTimer()
+	arg_88_0:RemoveMoveTimer()
+	arg_88_0:RemoveChatTimer()
+	arg_88_0:ClearScalePart()
 end
 
-function var_0_0.OnLoad(arg_88_0, arg_88_1)
-	arg_88_1()
+function var_0_0.OnLoad(arg_89_0, arg_89_1)
+	arg_89_1()
 end
 
-function var_0_0.OnUnload(arg_89_0)
+function var_0_0.OnUnload(arg_90_0)
 	return
 end
 
-function var_0_0.OnClick(arg_90_0)
+function var_0_0.OnClick(arg_91_0)
 	return
 end
 
-function var_0_0.OnLongPress(arg_91_0)
+function var_0_0.OnLongPress(arg_92_0)
 	return
 end
 
-function var_0_0.OnTriggerEvent(arg_92_0)
+function var_0_0.OnTriggerEvent(arg_93_0)
 	return
 end
 
-function var_0_0.OnTriggerEventAuto(arg_93_0)
+function var_0_0.OnTriggerEventAuto(arg_94_0)
 	return
 end
 
-function var_0_0.OnDisplayWorld(arg_94_0, arg_94_1)
+function var_0_0.OnDisplayWorld(arg_95_0, arg_95_1)
 	return
 end
 
-function var_0_0.OnFold(arg_95_0, arg_95_1)
+function var_0_0.OnFold(arg_96_0, arg_96_1)
 	return
 end
 
-function var_0_0.OnEnableOrDisableDragAndZoom(arg_96_0, arg_96_1)
+function var_0_0.OnEnableOrDisableDragAndZoom(arg_97_0, arg_97_1)
 	return
 end
 
-function var_0_0.OnPause(arg_97_0)
+function var_0_0.OnPause(arg_98_0)
 	return
 end
 
-function var_0_0.OnResume(arg_98_0)
+function var_0_0.OnResume(arg_99_0)
 	return
 end
 

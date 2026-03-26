@@ -62,6 +62,8 @@ function var_0_0.align(arg_3_0, arg_3_1, arg_3_2)
 
 		local var_3_7 = 0
 
+		arg_3_0:StopTimer()
+
 		arg_3_0.timer = Timer.New(function()
 			local var_4_0 = var_3_0:GetChild(var_3_7)
 

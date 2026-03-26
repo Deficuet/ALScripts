@@ -212,11 +212,19 @@ function var_0_2.ChangeState(arg_18_0, arg_18_1)
 		arg_18_0._dataProxy:Start()
 
 		local var_18_0 = arg_18_0._dataProxy._dungeonInfo.beginStoy
+		local var_18_1 = getProxy(ChapterProxy)
+		local var_18_2 = var_18_1 and var_18_1:GetContinuousData(SYSTEM_SCENARIO)
 
 		if var_18_0 then
-			pg.NewStoryMgr.GetInstance():ForceAutoPlay(var_18_0, function()
-				arg_18_0._battleCommand:DoPrologue()
-			end)
+			if var_18_2 then
+				pg.NewStoryMgr.GetInstance():ForceAutoPlay(var_18_0, function()
+					arg_18_0._battleCommand:DoPrologue()
+				end)
+			else
+				pg.NewStoryMgr.GetInstance():Play(var_18_0, function()
+					arg_18_0._battleCommand:DoPrologue()
+				end)
+			end
 		else
 			arg_18_0._battleCommand:DoPrologue()
 		end
@@ -232,227 +240,227 @@ function var_0_2.ChangeState(arg_18_0, arg_18_1)
 	end
 end
 
-function var_0_2.GetUI(arg_20_0)
-	return arg_20_0._baseUI
+function var_0_2.GetUI(arg_21_0)
+	return arg_21_0._baseUI
 end
 
-function var_0_2.ConfigBattleEndFunc(arg_21_0, arg_21_1)
-	arg_21_0._endFunc = arg_21_1
+function var_0_2.ConfigBattleEndFunc(arg_22_0, arg_22_1)
+	arg_22_0._endFunc = arg_22_1
 end
 
-function var_0_2.BattleEnd(arg_22_0)
-	arg_22_0:disableCommon()
+function var_0_2.BattleEnd(arg_23_0)
+	arg_23_0:disableCommon()
 
-	if arg_22_0._dataProxy:GetStatistics()._battleScore >= var_0_0.Battle.BattleConst.BattleScore.B then
-		arg_22_0._dataProxy:CelebrateVictory(arg_22_0._dataProxy:GetFriendlyCode())
-		arg_22_0:reportDelayTimer(function()
-			arg_22_0:DoResult()
+	if arg_23_0._dataProxy:GetStatistics()._battleScore >= var_0_0.Battle.BattleConst.BattleScore.B then
+		arg_23_0._dataProxy:CelebrateVictory(arg_23_0._dataProxy:GetFriendlyCode())
+		arg_23_0:reportDelayTimer(function()
+			arg_23_0:DoResult()
 		end, var_0_0.Battle.BattleConfig.CelebrateDuration)
 	else
-		arg_22_0:DoResult()
+		arg_23_0:DoResult()
 	end
 end
 
-function var_0_2.BattleTimeUp(arg_24_0)
-	arg_24_0:disableCommon()
-	arg_24_0:ActiveEscape()
-	arg_24_0:reportDelayTimer(function()
-		arg_24_0:DeactiveEscape()
-		arg_24_0:DoResult()
+function var_0_2.BattleTimeUp(arg_25_0)
+	arg_25_0:disableCommon()
+	arg_25_0:ActiveEscape()
+	arg_25_0:reportDelayTimer(function()
+		arg_25_0:DeactiveEscape()
+		arg_25_0:DoResult()
 	end, var_0_0.Battle.BattleConfig.EscapeDuration)
 end
 
-function var_0_2.DoResult(arg_26_0)
-	arg_26_0._sceneMediator:PauseCharacterAction(true)
-	arg_26_0._dataProxy:BotPercentage(arg_26_0._weaponCommand:GetBotActiveDuration())
-	arg_26_0._dataProxy:HPRatioStatistics()
-	arg_26_0._endFunc(arg_26_0._dataProxy:GetStatistics())
+function var_0_2.DoResult(arg_27_0)
+	arg_27_0._sceneMediator:PauseCharacterAction(true)
+	arg_27_0._dataProxy:BotPercentage(arg_27_0._weaponCommand:GetBotActiveDuration())
+	arg_27_0._dataProxy:HPRatioStatistics()
+	arg_27_0._endFunc(arg_27_0._dataProxy:GetStatistics())
 end
 
-function var_0_2.ExitBattle(arg_27_0)
+function var_0_2.ExitBattle(arg_28_0)
 	var_0_0.Battle.BattleCameraUtil.GetInstance():Clear()
 
-	for iter_27_0, iter_27_1 in pairs(arg_27_0._mediatorList) do
-		arg_27_0:RemoveMediator(iter_27_1)
+	for iter_28_0, iter_28_1 in pairs(arg_28_0._mediatorList) do
+		arg_28_0:RemoveMediator(iter_28_1)
 	end
 
-	for iter_27_2, iter_27_3 in pairs(arg_27_0._commandList) do
-		arg_27_0:RemoveCommand(iter_27_3)
+	for iter_28_2, iter_28_3 in pairs(arg_28_0._commandList) do
+		arg_28_0:RemoveCommand(iter_28_3)
 	end
 
-	for iter_27_4, iter_27_5 in pairs(arg_27_0._proxyList) do
-		arg_27_0:RemoveProxy(iter_27_5)
+	for iter_28_4, iter_28_5 in pairs(arg_28_0._proxyList) do
+		arg_28_0:RemoveProxy(iter_28_5)
 	end
 
 	var_0_0.Battle.BattleConfig.BASIC_TIME_SCALE = 1
 
-	arg_27_0:RemoveAllTimer()
+	arg_28_0:RemoveAllTimer()
 	var_0_0.Battle.BattleResourceManager.GetInstance():Clear()
 
-	arg_27_0._takeoverProcess = nil
+	arg_28_0._takeoverProcess = nil
 
-	arg_27_0:ChangeState(var_0_2.BATTLE_STATE_IDLE)
+	arg_28_0:ChangeState(var_0_2.BATTLE_STATE_IDLE)
 
-	arg_27_0._baseUI = nil
-	arg_27_0._endFunc = nil
-	arg_27_0._uiMediator = nil
-	arg_27_0._sceneMediator = nil
-	arg_27_0._battleCommand = nil
-	arg_27_0._weaponCommand = nil
+	arg_28_0._baseUI = nil
+	arg_28_0._endFunc = nil
+	arg_28_0._uiMediator = nil
+	arg_28_0._sceneMediator = nil
+	arg_28_0._battleCommand = nil
+	arg_28_0._weaponCommand = nil
 
 	removeSingletonInstance(var_0_0.Battle.BattleDataProxy)
 
-	arg_27_0._dataProxy = nil
+	arg_28_0._dataProxy = nil
 
 	var_0_0.Battle.BattleVariable.Clear()
 	var_0_0.Battle.BattleBulletFactory.DestroyFactory()
-	UpdateBeat:Remove(arg_27_0.Update, arg_27_0)
+	UpdateBeat:Remove(arg_28_0.Update, arg_28_0)
 	pg.EffectMgr.GetInstance():ClearBattleEffectMap()
 
-	arg_27_0._timeScale = nil
-	arg_27_0._timescalerCache = nil
+	arg_28_0._timeScale = nil
+	arg_28_0._timescalerCache = nil
 
 	gcAll(true)
 end
 
-function var_0_2.Stop(arg_28_0, arg_28_1)
-	arg_28_0:disableCommon()
-	arg_28_0._baseUI:exitBattle(arg_28_1)
+function var_0_2.Stop(arg_29_0, arg_29_1)
+	arg_29_0:disableCommon()
+	arg_29_0._baseUI:exitBattle(arg_29_1)
 end
 
-function var_0_2.disableCommon(arg_29_0)
-	arg_29_0._weaponCommand:ActiveBot(false)
-	arg_29_0:ScaleTimer()
+function var_0_2.disableCommon(arg_30_0)
+	arg_30_0._weaponCommand:ActiveBot(false)
+	arg_30_0:ScaleTimer()
 	var_0_0.Battle.BattleCameraUtil.GetInstance():ResetFocus()
-	arg_29_0:ChangeState(var_0_2.BATTLE_STATE_REPORT)
-	arg_29_0._dataProxy:ClearAirFighterTimer()
-	arg_29_0._dataProxy:KillAllAircraft()
-	arg_29_0._sceneMediator:AllBulletNeutralize()
+	arg_30_0:ChangeState(var_0_2.BATTLE_STATE_REPORT)
+	arg_30_0._dataProxy:ClearAirFighterTimer()
+	arg_30_0._dataProxy:KillAllAircraft()
+	arg_30_0._sceneMediator:AllBulletNeutralize()
 	var_0_0.Battle.BattleCameraUtil.GetInstance():StopShake()
 	var_0_0.Battle.BattleCameraUtil.GetInstance():Deactive()
-	arg_29_0._uiMediator:DisableComponent()
-	arg_29_0:Deactive()
+	arg_30_0._uiMediator:DisableComponent()
+	arg_30_0:Deactive()
 end
 
-function var_0_2.reportDelayTimer(arg_30_0, arg_30_1, arg_30_2)
-	local var_30_0
+function var_0_2.reportDelayTimer(arg_31_0, arg_31_1, arg_31_2)
+	local var_31_0
 
-	local function var_30_1()
-		pg.TimeMgr.GetInstance():RemoveBattleTimer(var_30_0)
+	local function var_31_1()
+		pg.TimeMgr.GetInstance():RemoveBattleTimer(var_31_0)
 
-		var_30_0 = nil
+		var_31_0 = nil
 
-		arg_30_1()
+		arg_31_1()
 	end
 
-	arg_30_0:RemoveAllTimer()
+	arg_31_0:RemoveAllTimer()
 	pg.TimeMgr.GetInstance():ResumeBattleTimer()
 
-	var_30_0 = pg.TimeMgr.GetInstance():AddBattleTimer("reportDelay", -1, arg_30_2, var_30_1)
+	var_31_0 = pg.TimeMgr.GetInstance():AddBattleTimer("reportDelay", -1, arg_31_2, var_31_1)
 end
 
-function var_0_2.SetTakeoverProcess(arg_32_0, arg_32_1)
-	assert(arg_32_0._takeoverProcess == nil, "已经有接管的战斗过程，暂时没有定义这种逻辑")
-	assert(arg_32_1.Pause ~= nil and type(arg_32_1.Pause) == "function", "SetTakeoverProcess附加过程，必须要有Pause函数")
-	assert(arg_32_1.Pause ~= nil and type(arg_32_1.Resume) == "function", "SetTakeoverProcess附加过程，必须要有Pause函数")
+function var_0_2.SetTakeoverProcess(arg_33_0, arg_33_1)
+	assert(arg_33_0._takeoverProcess == nil, "已经有接管的战斗过程，暂时没有定义这种逻辑")
+	assert(arg_33_1.Pause ~= nil and type(arg_33_1.Pause) == "function", "SetTakeoverProcess附加过程，必须要有Pause函数")
+	assert(arg_33_1.Pause ~= nil and type(arg_33_1.Resume) == "function", "SetTakeoverProcess附加过程，必须要有Pause函数")
 
-	arg_32_0._takeoverProcess = arg_32_1
+	arg_33_0._takeoverProcess = arg_33_1
 
-	arg_32_0:_pause()
+	arg_33_0:_pause()
 end
 
-function var_0_2.ClearTakeoverProcess(arg_33_0)
-	assert(arg_33_0._takeoverProcess, "没有接管的战斗过程，暂时没有定义这种逻辑")
+function var_0_2.ClearTakeoverProcess(arg_34_0)
+	assert(arg_34_0._takeoverProcess, "没有接管的战斗过程，暂时没有定义这种逻辑")
 
-	arg_33_0._takeoverProcess = nil
+	arg_34_0._takeoverProcess = nil
 
-	arg_33_0:_resume()
+	arg_34_0:_resume()
 end
 
-function var_0_2.IsPause(arg_34_0)
-	return arg_34_0._isPause
+function var_0_2.IsPause(arg_35_0)
+	return arg_35_0._isPause
 end
 
-function var_0_2.Pause(arg_35_0)
-	local var_35_0 = arg_35_0._takeoverProcess
+function var_0_2.Pause(arg_36_0)
+	local var_36_0 = arg_36_0._takeoverProcess
 
-	if var_35_0 then
-		var_35_0.Pause()
+	if var_36_0 then
+		var_36_0.Pause()
 	else
-		arg_35_0:_pause()
+		arg_36_0:_pause()
 	end
 end
 
-function var_0_2._pause(arg_36_0)
-	arg_36_0:Deactive()
-	arg_36_0._dataProxy:PausePuzzleComponent()
-	arg_36_0._sceneMediator:Pause()
+function var_0_2._pause(arg_37_0)
+	arg_37_0:Deactive()
+	arg_37_0._dataProxy:PausePuzzleComponent()
+	arg_37_0._sceneMediator:Pause()
 
-	if arg_36_0._timeScale ~= 1 then
-		arg_36_0:CacheTimescaler(arg_36_0._timeScale)
-		arg_36_0:ScaleTimer(1)
+	if arg_37_0._timeScale ~= 1 then
+		arg_37_0:CacheTimescaler(arg_37_0._timeScale)
+		arg_37_0:ScaleTimer(1)
 	end
 
 	var_0_0.Battle.BattleCameraUtil.GetInstance():PauseCameraTween()
 end
 
-function var_0_2.Resume(arg_37_0)
-	if arg_37_0._state == var_0_2.BATTLE_STATE_IDLE then
-		arg_37_0:ChangeState(var_0_2.BATTLE_STATE_OPENING)
-		UpdateBeat:Add(arg_37_0.Update, arg_37_0)
-	elseif arg_37_0._state == var_0_2.BATTLE_STATE_REPORT then
+function var_0_2.Resume(arg_38_0)
+	if arg_38_0._state == var_0_2.BATTLE_STATE_IDLE then
+		arg_38_0:ChangeState(var_0_2.BATTLE_STATE_OPENING)
+		UpdateBeat:Add(arg_38_0.Update, arg_38_0)
+	elseif arg_38_0._state == var_0_2.BATTLE_STATE_REPORT then
 		return
 	end
 
-	local var_37_0 = arg_37_0._takeoverProcess
+	local var_38_0 = arg_38_0._takeoverProcess
 
-	if var_37_0 then
-		var_37_0.Resume()
+	if var_38_0 then
+		var_38_0.Resume()
 	else
-		arg_37_0:_resume()
+		arg_38_0:_resume()
 	end
 end
 
-function var_0_2._resume(arg_38_0)
-	arg_38_0._sceneMediator:Resume()
-	arg_38_0:Active()
-	arg_38_0._dataProxy:ResumePuzzleComponent()
+function var_0_2._resume(arg_39_0)
+	arg_39_0._sceneMediator:Resume()
+	arg_39_0:Active()
+	arg_39_0._dataProxy:ResumePuzzleComponent()
 
-	if arg_38_0._timescalerCache then
-		arg_38_0:ScaleTimer(arg_38_0._timescalerCache)
-		arg_38_0:CacheTimescaler()
+	if arg_39_0._timescalerCache then
+		arg_39_0:ScaleTimer(arg_39_0._timescalerCache)
+		arg_39_0:CacheTimescaler()
 	end
 
 	var_0_0.Battle.BattleCameraUtil.GetInstance():ResumeCameraTween()
 end
 
-function var_0_2.ScaleTimer(arg_39_0, arg_39_1)
-	arg_39_1 = arg_39_1 or var_0_0.Battle.BattleConfig.BASIC_TIME_SCALE
+function var_0_2.ScaleTimer(arg_40_0, arg_40_1)
+	arg_40_1 = arg_40_1 or var_0_0.Battle.BattleConfig.BASIC_TIME_SCALE
 
-	pg.TimeMgr.GetInstance():ScaleBattleTimer(arg_39_1)
+	pg.TimeMgr.GetInstance():ScaleBattleTimer(arg_40_1)
 
-	arg_39_0._timeScale = arg_39_1
+	arg_40_0._timeScale = arg_40_1
 end
 
-function var_0_2.GetTimeScaleRate(arg_40_0)
-	return arg_40_0._timeScale or 1
+function var_0_2.GetTimeScaleRate(arg_41_0)
+	return arg_41_0._timeScale or 1
 end
 
-function var_0_2.CacheTimescaler(arg_41_0, arg_41_1)
-	arg_41_0._timescalerCache = arg_41_1
+function var_0_2.CacheTimescaler(arg_42_0, arg_42_1)
+	arg_42_0._timescalerCache = arg_42_1
 end
 
-function var_0_0.Battle.PlayBattleSFX(arg_42_0)
-	if arg_42_0 ~= "" then
-		pg.CriMgr.GetInstance():PlaySoundEffect_V3("event:/" .. arg_42_0)
+function var_0_0.Battle.PlayBattleSFX(arg_43_0)
+	if arg_43_0 ~= "" then
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3("event:/" .. arg_43_0)
 	end
 end
 
-function var_0_2.OpenConsole(arg_43_0)
-	arg_43_0._uiMediator:InitDebugConsole()
-	arg_43_0._uiMediator:ActiveDebugConsole()
+function var_0_2.OpenConsole(arg_44_0)
+	arg_44_0._uiMediator:InitDebugConsole()
+	arg_44_0._uiMediator:ActiveDebugConsole()
 end
 
-function var_0_2.ActiveReference(arg_44_0)
-	arg_44_0._controllerCommand = arg_44_0:AddCommand(var_0_0.Battle.BattleControllerCommand.New())
+function var_0_2.ActiveReference(arg_45_0)
+	arg_45_0._controllerCommand = arg_45_0:AddCommand(var_0_0.Battle.BattleControllerCommand.New())
 end

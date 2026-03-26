@@ -376,7 +376,18 @@ function temp()
 		劳 = {
 			迪 = {
 				亚 = {
-					this = true
+					this = true,
+					· = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		},
@@ -1311,6 +1322,17 @@ function temp()
 			["."] = {
 				改 = {
 					this = true
+				}
+			},
+			· = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
 				}
 			}
 		},
@@ -5592,6 +5614,26 @@ end
 temp()
 
 function temp()
+	var_0_1.貘 = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.貀 = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.豼 = {
 		this = {
 			this = true
@@ -6363,6 +6405,16 @@ temp()
 
 function temp()
 	var_0_1.䳆 = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.靇 = {
 		this = {
 			this = true
 		}

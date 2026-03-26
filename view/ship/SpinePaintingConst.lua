@@ -5,7 +5,6 @@ var_0_0.drag_type_rgb = 2
 var_0_0.drag_type_list = 3
 var_0_0.ship_drag_datas = {
 	gaoxiong_6 = {
-		click_trigger = false,
 		multiple_face = {},
 		hit_area = {
 			"drag"
@@ -14,22 +13,23 @@ var_0_0.ship_drag_datas = {
 			type = var_0_0.drag_type_normal,
 			config_client = {
 				{
-					is_default = true,
-					idle = "normal",
+					change_idle = "ex",
+					click = false,
 					action = "drag",
-					change_idle = "ex"
+					idle = "normal",
+					is_default = true
 				},
 				{
-					is_default = false,
-					idle = "ex",
+					change_idle = "normal",
+					click = false,
 					action = "drag_ex",
-					change_idle = "normal"
+					idle = "ex",
+					is_default = false
 				}
 			}
 		}
 	},
 	jianye_5 = {
-		click_trigger = false,
 		multiple_face = {},
 		hit_area = {
 			"drag"
@@ -38,22 +38,23 @@ var_0_0.ship_drag_datas = {
 			type = var_0_0.drag_type_normal,
 			config_client = {
 				{
-					is_default = true,
-					idle = "normal",
+					change_idle = "ex",
+					click = false,
 					action = "drag",
-					change_idle = "ex"
+					idle = "normal",
+					is_default = true
 				},
 				{
-					is_default = false,
-					idle = "ex",
+					change_idle = "normal",
+					click = false,
 					action = "drag_ex",
-					change_idle = "normal"
+					idle = "ex",
+					is_default = false
 				}
 			}
 		}
 	},
 	aimudeng_4 = {
-		click_trigger = false,
 		multiple_face = {
 			name = {
 				"aimudeng_4",
@@ -74,26 +75,30 @@ var_0_0.ship_drag_datas = {
 			"drag"
 		},
 		drag_data = {
-			material = "SkeletonGraphicDefaultRGBSplit",
-			type = var_0_0.drag_type_rgb,
+			type = var_0_0.drag_type_normal,
 			config_client = {
 				{
-					is_default = true,
-					idle = "normal",
+					change_idle = "ex",
+					click = false,
 					action = "drag",
-					change_idle = "ex"
+					idle = "normal",
+					is_default = true,
+					material_time = 0.5,
+					material = "SkeletonGraphicDefaultRGBSplit"
 				},
 				{
-					is_default = false,
-					idle = "ex",
+					change_idle = "normal",
+					click = false,
 					action = "drag_ex",
-					change_idle = "normal"
+					idle = "ex",
+					is_default = false,
+					material_time = 0.5,
+					material = "SkeletonGraphicDefaultRGBSplit"
 				}
 			}
 		}
 	},
 	yaerweite_2 = {
-		click_trigger = true,
 		multiple_face = {},
 		drag_data = {},
 		hit_area = {
@@ -109,7 +114,6 @@ var_0_0.ship_drag_datas = {
 		}
 	},
 	kaiersheng_3 = {
-		click_trigger = true,
 		multiple_face = {},
 		hit_area = {
 			"drag"
@@ -118,22 +122,23 @@ var_0_0.ship_drag_datas = {
 			type = var_0_0.drag_type_normal,
 			config_client = {
 				{
-					is_default = true,
-					idle = "normal",
+					change_idle = "ex",
+					click = true,
 					action = "drag",
-					change_idle = "ex"
+					idle = "normal",
+					is_default = true
 				},
 				{
-					is_default = false,
-					idle = "ex",
+					change_idle = "normal",
+					click = true,
 					action = "drag_ex",
-					change_idle = "normal"
+					idle = "ex",
+					is_default = false
 				}
 			}
 		}
 	},
 	siwanshi_4 = {
-		click_trigger = true,
 		multiple_face = {},
 		hit_area = {
 			"touch_head",
@@ -163,27 +168,30 @@ var_0_0.ship_drag_datas = {
 			config_client = {
 				{
 					change_idle = "normal",
+					click = true,
 					idle = "normal",
 					action = "touch_body",
-					is_default = true,
 					event = "TouchBody",
+					is_default = true,
 					hit = "touch_body"
 				},
 				{
 					change_idle = "normal",
+					click = true,
 					idle = "normal",
 					action = "touch_head",
-					is_default = true,
 					event = "TouchHead",
+					is_default = true,
 					hit = "touch_head"
 				},
 				{
-					change_idle = "touch_special_normal",
+					fold = true,
+					click = true,
 					action = "touch_special",
-					idle = "normal",
 					event = "TouchSpecial",
 					is_default = true,
-					fold = true,
+					idle = "normal",
+					change_idle = "touch_special_normal",
 					hit = "touch_special",
 					effect_hide = {
 						"lihui_siwanshi_4"
@@ -191,26 +199,29 @@ var_0_0.ship_drag_datas = {
 				},
 				{
 					change_idle = "",
+					click = true,
 					idle = "touch_special_normal",
 					action = "",
-					is_default = false,
 					event = "TouchSpecial",
+					is_default = false,
 					hit = "touch_special_2"
 				},
 				{
 					change_idle = "",
+					click = true,
 					idle = "touch_special_normal",
 					action = "",
-					is_default = false,
 					event = "TouchHead",
+					is_default = false,
 					hit = "touch_head_2"
 				},
 				{
 					change_idle = "normal",
+					click = true,
 					idle = "touch_special_normal",
 					action = "touch_special_2",
-					fold = true,
 					is_default = false,
+					fold = true,
 					hit = "touch_special_back",
 					effect_hide = {
 						"lihui_siwanshi_4"
@@ -220,7 +231,6 @@ var_0_0.ship_drag_datas = {
 		}
 	},
 	telinida_2 = {
-		click_trigger = false,
 		multiple_face = {},
 		hit_area = {
 			"drag"
@@ -229,22 +239,23 @@ var_0_0.ship_drag_datas = {
 			type = var_0_0.drag_type_normal,
 			config_client = {
 				{
-					is_default = true,
-					idle = "normal",
+					change_idle = "ex",
+					click = false,
 					action = "drag",
-					change_idle = "ex"
+					idle = "normal",
+					is_default = true
 				},
 				{
-					is_default = false,
-					idle = "ex",
+					change_idle = "normal",
+					click = false,
 					action = "drag_ex",
-					change_idle = "normal"
+					idle = "ex",
+					is_default = false
 				}
 			}
 		}
 	},
 	molisen_3 = {
-		click_trigger = true,
 		multiple_face = {
 			name = {
 				"molisen_3"
@@ -283,6 +294,7 @@ var_0_0.ship_drag_datas = {
 			config_client = {
 				{
 					change_idle = "ex",
+					click = true,
 					idle = "normal",
 					action = "drag",
 					is_default = true,
@@ -291,8 +303,9 @@ var_0_0.ship_drag_datas = {
 				},
 				{
 					fold = true,
-					change_idle = "normal",
+					click = true,
 					idle = "normal",
+					change_idle = "normal",
 					is_default = true,
 					hit = "random",
 					action = {
@@ -302,6 +315,7 @@ var_0_0.ship_drag_datas = {
 				},
 				{
 					change_idle = "normal",
+					click = true,
 					idle = "ex",
 					action = "drag_ex",
 					is_default = false,
@@ -312,7 +326,6 @@ var_0_0.ship_drag_datas = {
 		}
 	},
 	suweiaitongmeng_4 = {
-		click_trigger = true,
 		multiple_face = {},
 		hit_area = {
 			"touch_body",
@@ -340,27 +353,30 @@ var_0_0.ship_drag_datas = {
 			config_client = {
 				{
 					change_idle = "normal",
+					click = true,
 					idle = "normal",
 					action = "touch_body",
-					is_default = true,
 					event = "TouchBody",
+					is_default = true,
 					hit = "touch_body"
 				},
 				{
 					change_idle = "normal",
+					click = true,
 					idle = "normal",
 					action = "touch_head",
-					is_default = true,
 					event = "TouchHead",
+					is_default = true,
 					hit = "touch_head"
 				},
 				{
-					change_idle = "touch_special_normal",
+					fold = true,
+					click = true,
 					action = "touch_special",
-					idle = "normal",
 					event = "TouchSpecial",
 					is_default = true,
-					fold = true,
+					idle = "normal",
+					change_idle = "touch_special_normal",
 					hit = "touch_special",
 					effect_hide = {
 						"lihui_suweiaitongmeng_4"
@@ -368,10 +384,11 @@ var_0_0.ship_drag_datas = {
 				},
 				{
 					change_idle = "normal",
+					click = true,
 					idle = "touch_special_normal",
 					action = "touch_special_2",
-					fold = true,
 					is_default = false,
+					fold = true,
 					hit = "touch_special_2",
 					effect_hide = {
 						"lihui_suweiaitongmeng_4"
@@ -381,7 +398,6 @@ var_0_0.ship_drag_datas = {
 		}
 	},
 	I404_2 = {
-		click_trigger = true,
 		multiple_face = {},
 		hit_area = {
 			"drag"
@@ -394,6 +410,7 @@ var_0_0.ship_drag_datas = {
 			config_client = {
 				{
 					change_idle = "ex",
+					click = true,
 					idle = "normal",
 					action = "drag",
 					is_default = true,
@@ -402,6 +419,7 @@ var_0_0.ship_drag_datas = {
 				},
 				{
 					change_idle = "normal",
+					click = true,
 					idle = "ex",
 					action = "drag_ex",
 					is_default = false,
@@ -412,7 +430,6 @@ var_0_0.ship_drag_datas = {
 		}
 	},
 	laimuhao_2 = {
-		click_trigger = false,
 		multiple_face = {},
 		hit_area = {
 			"drag"
@@ -425,6 +442,7 @@ var_0_0.ship_drag_datas = {
 			config_client = {
 				{
 					change_idle = "ex",
+					click = false,
 					idle = "normal",
 					action = "drag",
 					is_default = true,
@@ -433,6 +451,7 @@ var_0_0.ship_drag_datas = {
 				},
 				{
 					change_idle = "normal",
+					click = false,
 					idle = "ex",
 					action = "drag_ex",
 					is_default = false,
@@ -443,7 +462,6 @@ var_0_0.ship_drag_datas = {
 		}
 	},
 	maoxianhao_2 = {
-		click_trigger = true,
 		multiple_face = {},
 		hit_area = {
 			"touch_special"
@@ -453,6 +471,7 @@ var_0_0.ship_drag_datas = {
 			config_client = {
 				{
 					change_idle = "normal",
+					click = true,
 					idle = "normal",
 					action = "touch_special",
 					is_default = true,
@@ -462,7 +481,6 @@ var_0_0.ship_drag_datas = {
 		}
 	},
 	bote_2 = {
-		click_trigger = true,
 		multiple_face = {},
 		hit_area = {
 			"drag"
@@ -472,6 +490,7 @@ var_0_0.ship_drag_datas = {
 			config_client = {
 				{
 					change_idle = "normal_lv2",
+					click = true,
 					idle = "normal",
 					action = "normal_lv1-2",
 					is_default = true,
@@ -480,6 +499,7 @@ var_0_0.ship_drag_datas = {
 				},
 				{
 					change_idle = "normal_lv3",
+					click = true,
 					idle = "normal_lv2",
 					action = "normal_lv2-3",
 					is_default = true,
@@ -488,6 +508,7 @@ var_0_0.ship_drag_datas = {
 				},
 				{
 					change_idle = "normal_lv5",
+					click = true,
 					idle = "normal_lv3",
 					action = "normal_lv3-5",
 					is_default = true,
@@ -496,6 +517,7 @@ var_0_0.ship_drag_datas = {
 				},
 				{
 					change_idle = "normal",
+					click = true,
 					idle = "normal_lv5",
 					action = "normal_lv5-1",
 					is_default = true,
@@ -506,7 +528,6 @@ var_0_0.ship_drag_datas = {
 		}
 	},
 	yuekechengII_4 = {
-		click_trigger = true,
 		multiple_face = {},
 		hit_area = {
 			"touch_body",
@@ -534,27 +555,30 @@ var_0_0.ship_drag_datas = {
 			config_client = {
 				{
 					change_idle = "normal",
+					click = true,
 					idle = "normal",
 					action = "touch_body",
-					is_default = true,
 					event = "TouchBody",
+					is_default = true,
 					hit = "touch_body"
 				},
 				{
 					change_idle = "normal",
+					click = true,
 					idle = "normal",
 					action = "touch_head",
-					is_default = true,
 					event = "TouchHead",
+					is_default = true,
 					hit = "touch_head"
 				},
 				{
-					change_idle = "touch_special_normal",
+					fold = true,
+					click = true,
 					action = "touch_special",
-					idle = "normal",
 					event = "TouchSpecial",
 					is_default = true,
-					fold = true,
+					idle = "normal",
+					change_idle = "touch_special_normal",
 					hit = "touch_special",
 					effect_hide = {
 						"lihui_yuekechengII_4"
@@ -562,16 +586,18 @@ var_0_0.ship_drag_datas = {
 				},
 				{
 					event = "TouchSpecial",
-					is_default = false,
+					click = true,
 					idle = "touch_special_normal",
+					is_default = false,
 					hit = "touch_special_2"
 				},
 				{
 					change_idle = "normal",
+					click = true,
 					idle = "touch_special_normal",
 					action = "touch_special_2",
-					fold = true,
 					is_default = false,
+					fold = true,
 					hit = "touch_special_back",
 					effect_hide = {
 						"lihui_yuekechengII_4"
@@ -581,7 +607,6 @@ var_0_0.ship_drag_datas = {
 		}
 	},
 	kansasi_2 = {
-		click_trigger = true,
 		multiple_face = {},
 		hit_area = {
 			"touch"
@@ -591,6 +616,7 @@ var_0_0.ship_drag_datas = {
 			config_client = {
 				{
 					change_idle = "normal",
+					click = true,
 					idle = "normal",
 					action = "touch",
 					is_default = true,
@@ -600,7 +626,6 @@ var_0_0.ship_drag_datas = {
 		}
 	},
 	jishang_3_asmr = {
-		click_trigger = true,
 		multiple_face = {},
 		hit_area = {
 			"asmr_001",
@@ -620,97 +645,107 @@ var_0_0.ship_drag_datas = {
 			config_client = {
 				{
 					change_idle = "normal",
-					action = "asmr_001",
+					click = true,
 					idle = "normal",
 					is_default = true,
 					event = "asmr_001",
+					action = "asmr_001",
 					hit = "asmr_001"
 				},
 				{
 					change_idle = "normal",
-					action = "asmr_002",
+					click = true,
 					idle = "normal",
 					is_default = true,
 					event = "asmr_002",
+					action = "asmr_002",
 					hit = "asmr_002"
 				},
 				{
 					change_idle = "normal",
-					action = "asmr_003",
+					click = true,
 					idle = "normal",
 					is_default = true,
 					event = "asmr_003",
+					action = "asmr_003",
 					hit = "asmr_003"
 				},
 				{
 					change_idle = "normal",
-					action = "asmr_004",
+					click = true,
 					idle = "normal",
 					is_default = true,
 					event = "asmr_004",
+					action = "asmr_004",
 					hit = "asmr_004"
 				},
 				{
 					change_idle = "normal",
-					action = "asmr_005",
+					click = true,
 					idle = "normal",
 					is_default = true,
 					event = "asmr_005",
+					action = "asmr_005",
 					hit = "asmr_005"
 				},
 				{
 					change_idle = "normal",
-					action = "asmr_006",
+					click = true,
 					idle = "normal",
 					is_default = true,
 					event = "asmr_006",
+					action = "asmr_006",
 					hit = "asmr_006"
 				},
 				{
 					change_idle = "normal",
-					action = "asmr_007",
+					click = true,
 					idle = "normal",
 					is_default = true,
 					event = "asmr_007",
+					action = "asmr_007",
 					hit = "asmr_007"
 				},
 				{
 					change_idle = "normal",
-					action = "asmr_007",
+					click = true,
 					idle = "normal",
 					is_default = true,
 					event = "asmr_007",
+					action = "asmr_007",
 					hit = "asmr_007_1"
 				},
 				{
 					change_idle = "normal",
-					action = "asmr_008",
+					click = true,
 					idle = "normal",
 					is_default = true,
 					event = "asmr_008",
+					action = "asmr_008",
 					hit = "asmr_008"
 				},
 				{
 					change_idle = "normal",
-					action = "asmr_009",
+					click = true,
 					idle = "normal",
 					is_default = true,
 					event = "asmr_009",
+					action = "asmr_009",
 					hit = "asmr_009"
 				},
 				{
 					change_idle = "normal",
-					action = "asmr_010",
+					click = true,
 					idle = "normal",
 					is_default = true,
 					event = "asmr_010",
+					action = "asmr_010",
 					hit = "asmr_010"
 				}
 			}
 		}
 	},
 	aotuo_3 = {
-		click_trigger = true,
 		multiple_face = {},
 		hit_area = {
 			"touch_special"
@@ -720,6 +755,7 @@ var_0_0.ship_drag_datas = {
 			config_client = {
 				{
 					change_idle = "normal",
+					click = true,
 					idle = "normal",
 					action = "touch_special",
 					is_default = true,
@@ -729,7 +765,6 @@ var_0_0.ship_drag_datas = {
 		}
 	},
 	alabama_3 = {
-		click_trigger = true,
 		multiple_face = {
 			name = {
 				"alabama_3"
@@ -752,22 +787,23 @@ var_0_0.ship_drag_datas = {
 			type = var_0_0.drag_type_normal,
 			config_client = {
 				{
-					is_default = true,
-					idle = "normal",
+					change_idle = "ex",
+					click = true,
 					action = "drag",
-					change_idle = "ex"
+					idle = "normal",
+					is_default = true
 				},
 				{
-					is_default = false,
-					idle = "ex",
+					change_idle = "normal",
+					click = true,
 					action = "drag_ex",
-					change_idle = "normal"
+					idle = "ex",
+					is_default = false
 				}
 			}
 		}
 	},
 	fulangxisike_2 = {
-		click_trigger = true,
 		multiple_face = {
 			name = {
 				"fulangxisike_2"
@@ -791,38 +827,41 @@ var_0_0.ship_drag_datas = {
 			type = var_0_0.drag_type_normal,
 			config_client = {
 				{
-					is_default = true,
-					idle = "normal",
+					change_idle = "ex",
+					click = true,
 					action = "drag",
-					change_idle = "ex"
-				},
-				{
-					is_default = false,
-					idle = "ex",
-					action = "drag_ex",
-					change_idle = "normal"
+					idle = "normal",
+					is_default = true
 				},
 				{
 					change_idle = "normal",
+					click = true,
+					action = "drag_ex",
+					idle = "ex",
+					is_default = false
+				},
+				{
+					change_idle = "normal",
+					click = true,
 					idle = "normal",
 					action = "touch_head",
-					is_default = true,
 					event = "TouchHead",
+					is_default = true,
 					hit = "touch_head"
 				},
 				{
 					change_idle = "ex",
+					click = true,
 					idle = "ex",
 					action = "touch_head",
-					is_default = false,
 					event = "TouchHead",
+					is_default = false,
 					hit = "touch_head"
 				}
 			}
 		}
 	},
 	hongseshanmai_2 = {
-		click_trigger = true,
 		multiple_face = {},
 		hit_area = {
 			"drag"
@@ -831,22 +870,23 @@ var_0_0.ship_drag_datas = {
 			type = var_0_0.drag_type_normal,
 			config_client = {
 				{
-					is_default = true,
-					idle = "normal",
+					change_idle = "ex",
+					click = true,
 					action = "drag",
-					change_idle = "ex"
+					idle = "normal",
+					is_default = true
 				},
 				{
-					is_default = false,
-					idle = "ex",
+					change_idle = "normal",
+					click = true,
 					action = "drag_ex",
-					change_idle = "normal"
+					idle = "ex",
+					is_default = false
 				}
 			}
 		}
 	},
 	haichou_2 = {
-		click_trigger = true,
 		multiple_face = {
 			name = {
 				"haichou_2"
@@ -869,22 +909,25 @@ var_0_0.ship_drag_datas = {
 			type = var_0_0.drag_type_normal,
 			config_client = {
 				{
-					is_default = true,
-					idle = "normal",
+					change_idle = "ex",
+					click = true,
 					action = "drag",
-					change_idle = "ex"
+					idle = "normal",
+					is_default = true,
+					active = true
 				},
 				{
-					is_default = false,
-					idle = "ex",
+					change_idle = "normal",
+					click = true,
 					action = "drag_ex",
-					change_idle = "normal"
+					idle = "ex",
+					is_default = false,
+					active = true
 				}
 			}
 		}
 	},
 	haichou_2_asmr = {
-		click_trigger = true,
 		change_in_hit = "asmr_001",
 		multiple_face = {
 			name = {
@@ -920,115 +963,127 @@ var_0_0.ship_drag_datas = {
 			config_client = {
 				{
 					change_idle = "ex",
-					action = "asmr_001",
+					click = true,
 					idle = "normal",
 					is_default = true,
 					event = "asmr_001",
+					action = "asmr_001",
 					active = true,
 					hit = "drag"
 				},
 				{
 					change_idle = "ex",
-					action = "asmr_001",
+					click = true,
 					idle = "normal",
 					is_default = false,
 					event = "asmr_001",
+					action = "asmr_001",
 					hit = "asmr_001"
 				},
 				{
 					change_idle = "normal",
+					click = true,
 					idle = "ex",
-					action = "drag_ex",
 					cv = "cloth",
 					is_default = false,
+					action = "drag_ex",
 					active = true,
 					hit = "drag"
 				},
 				{
 					change_idle = "ex",
-					action = "asmr_002",
+					click = true,
 					idle = "ex",
 					is_default = false,
 					event = "asmr_002",
+					action = "asmr_002",
 					hit = "asmr_002"
 				},
 				{
 					change_idle = "ex",
-					action = "asmr_003",
+					click = true,
 					idle = "ex",
 					is_default = false,
 					event = "asmr_003",
+					action = "asmr_003",
 					hit = "asmr_003"
 				},
 				{
 					change_idle = "ex",
-					action = "asmr_004",
+					click = true,
 					idle = "ex",
 					is_default = false,
 					event = "asmr_004",
+					action = "asmr_004",
 					hit = "asmr_004"
 				},
 				{
 					change_idle = "ex",
-					action = "asmr_005",
+					click = true,
 					idle = "ex",
 					is_default = false,
 					event = "asmr_005",
+					action = "asmr_005",
 					hit = "asmr_005"
 				},
 				{
 					change_idle = "ex",
-					action = "asmr_006",
+					click = true,
 					idle = "ex",
 					is_default = false,
 					event = "asmr_006",
+					action = "asmr_006",
 					hit = "asmr_006"
 				},
 				{
 					change_idle = "ex",
-					action = "asmr_007",
+					click = true,
 					idle = "ex",
 					is_default = false,
 					event = "asmr_007",
+					action = "asmr_007",
 					hit = "asmr_007"
 				},
 				{
 					change_idle = "ex",
-					action = "asmr_007",
+					click = true,
 					idle = "ex",
 					is_default = false,
 					event = "asmr_007",
+					action = "asmr_007",
 					hit = "asmr_007_1"
 				},
 				{
 					change_idle = "ex",
-					action = "asmr_008",
+					click = true,
 					idle = "ex",
 					is_default = false,
 					event = "asmr_008",
+					action = "asmr_008",
 					hit = "asmr_008"
 				},
 				{
 					change_idle = "ex",
-					action = "asmr_009",
+					click = true,
 					idle = "ex",
 					is_default = false,
 					event = "asmr_009",
+					action = "asmr_009",
 					hit = "asmr_009"
 				},
 				{
 					change_idle = "ex",
-					action = "asmr_010",
+					click = true,
 					idle = "ex",
 					is_default = false,
 					event = "asmr_010",
+					action = "asmr_010",
 					hit = "asmr_010"
 				}
 			}
 		}
 	},
 	feiteliedadi_5 = {
-		click_trigger = true,
 		multiple_face = {},
 		hit_area = {
 			"touch_body",
@@ -1041,42 +1096,45 @@ var_0_0.ship_drag_datas = {
 			config_client = {
 				{
 					change_idle = "normal",
+					click = true,
 					idle = "normal",
 					action = "touch_body",
-					is_default = true,
 					event = "TouchBody",
+					is_default = true,
 					hit = "touch_body"
 				},
 				{
 					change_idle = "normal",
+					click = true,
 					idle = "normal",
 					action = "touch_head",
-					is_default = true,
 					event = "TouchHead",
+					is_default = true,
 					hit = "touch_head"
 				},
 				{
 					change_idle = "touch_special_normal",
+					click = true,
 					idle = "normal",
 					action = "touch_special",
-					is_default = true,
 					event = "TouchSpecial",
+					is_default = true,
 					fold = true,
 					hit = "touch_special"
 				},
 				{
 					change_idle = "normal",
+					click = true,
 					idle = "touch_special_normal",
 					action = "touch_special_2",
-					fold = true,
 					is_default = false,
+					fold = true,
 					hit = "touch_special_2"
 				}
 			}
 		}
 	},
 	bojiateli_2 = {
-		click_trigger = true,
 		multiple_face = {},
 		hit_area = {
 			"drag"
@@ -1085,16 +1143,177 @@ var_0_0.ship_drag_datas = {
 			type = var_0_0.drag_type_normal,
 			config_client = {
 				{
-					is_default = true,
-					idle = "normal",
+					change_idle = "ex",
+					click = true,
 					action = "drag",
-					change_idle = "ex"
+					idle = "normal",
+					is_default = true
 				},
 				{
-					is_default = false,
-					idle = "ex",
+					change_idle = "normal",
+					click = true,
 					action = "drag_ex",
-					change_idle = "normal"
+					idle = "ex",
+					is_default = false
+				}
+			}
+		}
+	},
+	niaohai_3 = {
+		multiple_face = {},
+		hit_area = {
+			"drag"
+		},
+		drag_data = {
+			type = var_0_0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "ex",
+					click = true,
+					action = "drag",
+					idle = "normal",
+					is_default = true
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					action = "drag_ex",
+					idle = "ex",
+					is_default = false
+				}
+			}
+		}
+	},
+	geliqiya_3 = {
+		multiple_face = {},
+		hit_area = {
+			"touch"
+		},
+		drag_data = {
+			type = var_0_0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					action = "touch",
+					is_default = true,
+					hit = "touch"
+				}
+			}
+		}
+	},
+	yunlong_2 = {
+		multiple_face = {
+			name = {
+				"yunlong_2"
+			},
+			data = {
+				{
+					"normal",
+					0
+				},
+				{
+					"ex",
+					6
+				}
+			}
+		},
+		hit_area = {
+			"drag",
+			"touch_1",
+			"touch_2",
+			"detail",
+			"touch_feeling_5"
+		},
+		drag_data = {
+			type = var_0_0.drag_type_normal,
+			config_client = {
+				{
+					action = "drag",
+					click = true,
+					idle = "normal",
+					is_default = true,
+					skin = "1",
+					change_idle = "ex",
+					skin_change = "2",
+					active = true,
+					hit = "drag"
+				},
+				{
+					action = "drag_ex",
+					click = true,
+					idle = "ex",
+					is_default = false,
+					skin = "2",
+					change_idle = "normal",
+					skin_change = "1",
+					active = true,
+					hit = "drag"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					event = "TouchBody",
+					is_default = false,
+					skin = "1",
+					action = "touch_body",
+					hit = "touch_1"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					event = "TouchSpecial",
+					is_default = false,
+					skin = "1",
+					action = "touch_special",
+					hit = "1"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					action = "detail",
+					is_default = false,
+					skin = "1",
+					hit = "detail"
+				},
+				{
+					idle = "normal",
+					click = true,
+					action = "feeling5",
+					is_default = false,
+					event = "feeling5",
+					skin = "1",
+					favor = 100,
+					change_idle = "normal",
+					hit = "touch_feeling_5"
+				}
+			}
+		}
+	},
+	yunlong_3 = {
+		multiple_face = {},
+		hit_area = {
+			"touch_random_voice"
+		},
+		drag_data = {
+			type = var_0_0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					action = "touch_special",
+					is_default = false,
+					hit = "touch_random_voice",
+					event = {
+						"TouchBody",
+						"idleRandom1",
+						"TouchHead"
+					}
 				}
 			}
 		}

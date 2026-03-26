@@ -4060,6 +4060,23 @@ pg.memory_template = setmetatable({
 		5035,
 		5036,
 		5037,
+		5041,
+		5042,
+		5043,
+		5044,
+		5045,
+		5046,
+		5047,
+		5048,
+		5049,
+		5050,
+		5051,
+		5052,
+		5053,
+		5054,
+		5055,
+		5056,
+		5057,
 		10011,
 		10012,
 		10013,
@@ -4318,7 +4335,6 @@ pg.memory_template = setmetatable({
 		20199,
 		20200,
 		20201,
-		20202,
 		20203,
 		20204,
 		20205,
@@ -65212,6 +65228,261 @@ pg.base.memory_template = {
 			"AERBIEN7"
 		}
 	},
+	[5041] = {
+		type = 1,
+		subtitle = "",
+		story = "MANYOUZHEZHAOMUJIHUA1",
+		mask = "bg/bg_memory",
+		title = "序章：坠落之始",
+		condition = "进入 VR-0",
+		number = 0,
+		id = 5041,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA1"
+		}
+	},
+	[5042] = {
+		type = 1,
+		subtitle = "",
+		story = "MANYOUZHEZHAOMUJIHUA2",
+		mask = "bg/bg_memory",
+		title = "溶于重重夜色",
+		condition = "进入 VR-1",
+		number = 0,
+		id = 5042,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA2"
+		}
+	},
+	[5043] = {
+		type = 1,
+		subtitle = "",
+		story = "MANYOUZHEZHAOMUJIHUA3",
+		mask = "bg/bg_memory",
+		title = "逆流",
+		condition = "进入 VR-2",
+		number = 0,
+		id = 5043,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA3"
+		}
+	},
+	[5044] = {
+		type = 1,
+		subtitle = "",
+		story = "MANYOUZHEZHAOMUJIHUA4",
+		mask = "bg/bg_memory",
+		title = "失效的身份",
+		condition = "进入 VR-3",
+		number = 0,
+		id = 5044,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA4"
+		}
+	},
+	[5045] = {
+		type = 1,
+		subtitle = "",
+		story = "MANYOUZHEZHAOMUJIHUA5",
+		mask = "bg/bg_memory",
+		title = "伪装与意外",
+		condition = "进入 VR-4",
+		number = 0,
+		id = 5045,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA5"
+		}
+	},
+	[5046] = {
+		type = 1,
+		subtitle = "",
+		story = "MANYOUZHEZHAOMUJIHUA6",
+		mask = "bg/bg_memory",
+		title = "撕裂天空的决意",
+		condition = "进入 VR-5",
+		number = 0,
+		id = 5046,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA6"
+		}
+	},
+	[5047] = {
+		type = 1,
+		subtitle = "",
+		story = "MANYOUZHEZHAOMUJIHUA7",
+		mask = "bg/bg_memory",
+		title = "失格怪盗与红线牢笼",
+		condition = "进入 VR-6",
+		number = 0,
+		id = 5047,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA7"
+		}
+	},
+	[5048] = {
+		type = 1,
+		subtitle = "",
+		story = "MANYOUZHEZHAOMUJIHUA8",
+		mask = "bg/bg_memory",
+		title = "信任危机",
+		condition = "进入 VR-7",
+		number = 0,
+		id = 5048,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA8"
+		}
+	},
+	[5049] = {
+		type = 1,
+		subtitle = "",
+		story = "MANYOUZHEZHAOMUJIHUA9",
+		mask = "bg/bg_memory",
+		title = "失败的潜入者",
+		condition = "进入 VR-8",
+		number = 0,
+		id = 5049,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA9"
+		}
+	},
+	[5050] = {
+		type = 1,
+		subtitle = "",
+		story = "MANYOUZHEZHAOMUJIHUA10",
+		mask = "bg/bg_memory",
+		title = "抉择",
+		condition = "进入 VR-9",
+		number = 0,
+		id = 5050,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA10"
+		}
+	},
+	[5051] = {
+		type = 1,
+		subtitle = "",
+		story = "MANYOUZHEZHAOMUJIHUA11",
+		mask = "bg/bg_memory",
+		title = "结局1：序章即终章",
+		condition = "解锁「漫游者招募计划」相应结局",
+		number = 0,
+		id = 5051,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA11"
+		}
+	},
+	[5052] = {
+		type = 1,
+		subtitle = "",
+		story = "MANYOUZHEZHAOMUJIHUA12",
+		mask = "bg/bg_memory",
+		title = "结局2：零号协议",
+		condition = "解锁「漫游者招募计划」相应结局",
+		number = 0,
+		id = 5052,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA12"
+		}
+	},
+	[5053] = {
+		type = 1,
+		subtitle = "",
+		story = "MANYOUZHEZHAOMUJIHUA13",
+		mask = "bg/bg_memory",
+		title = "结局3：心无止境",
+		condition = "解锁「漫游者招募计划」相应结局",
+		number = 0,
+		id = 5053,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA13"
+		}
+	},
+	[5054] = {
+		type = 1,
+		subtitle = "",
+		story = "MANYOUZHEZHAOMUJIHUA14",
+		mask = "bg/bg_memory",
+		title = "结局4：自由广播",
+		condition = "解锁「漫游者招募计划」相应结局",
+		number = 0,
+		id = 5054,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA14"
+		}
+	},
+	[5055] = {
+		type = 1,
+		subtitle = "",
+		story = "MANYOUZHEZHAOMUJIHUA15",
+		mask = "bg/bg_memory",
+		title = "结局5：无声的背叛",
+		condition = "解锁「漫游者招募计划」相应结局",
+		number = 0,
+		id = 5055,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA15"
+		}
+	},
+	[5056] = {
+		type = 1,
+		subtitle = "",
+		story = "MANYOUZHEZHAOMUJIHUA16",
+		mask = "bg/bg_memory",
+		title = "结局6：温柔的围城",
+		condition = "解锁「漫游者招募计划」相应结局",
+		number = 0,
+		id = 5056,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA16"
+		}
+	},
+	[5057] = {
+		type = 1,
+		subtitle = "",
+		story = "MANYOUZHEZHAOMUJIHUA17",
+		mask = "bg/bg_memory",
+		title = "结局7：不完全的集结",
+		condition = "解锁「漫游者招募计划」相应结局",
+		number = 0,
+		id = 5057,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA17"
+		}
+	},
 	[10011] = {
 		type = 1,
 		subtitle = "",
@@ -69080,21 +69351,6 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"TANSUOZHEXINZHIXUYU6"
-		}
-	},
-	[20202] = {
-		type = 1,
-		subtitle = "",
-		story = "TANSUOZHEXINZHIXUYU7",
-		mask = "bg/bg_memory",
-		title = "游乐园邀约",
-		condition = "「养成计划」-探索者中，触发相应谈心",
-		number = 0,
-		id = 20202,
-		icon = "oceana_tanxin",
-		is_open = 0,
-		unlock_pre = {
-			"TANSUOZHEXINZHIXUYU7"
 		}
 	},
 	[20203] = {

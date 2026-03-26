@@ -127,8 +127,8 @@ function var_0_0.UpdateMapVO(arg_12_0, arg_12_1)
 		local var_12_3 = arg_12_0.storyNodesDict[iter_12_1]:getConfigTable()
 
 		setAnchoredPosition(var_12_2, {
-			x = arg_12_0.mapWidth * tonumber(var_12_3.pos_x),
-			y = arg_12_0.mapHeight * tonumber(var_12_3.pos_y)
+			x = 1920 * tonumber(var_12_3.pos_x),
+			y = 1080 * tonumber(var_12_3.pos_y)
 		})
 	end
 end
@@ -468,7 +468,7 @@ function var_0_0.UpdateStory(arg_30_0)
 
 	for iter_30_0, iter_30_1 in pairs(arg_30_0.storyNodesDict) do
 		local var_30_4 = arg_30_0.storyHolder:Find(tostring(iter_30_1.id))
-		local var_30_5 = iter_30_1:IsActive(arg_30_0.activity, arg_30_0.ptActivity)
+		local var_30_5 = iter_30_1:IsActive(arg_30_0.activity, arg_30_0.sceneParent.ptActivity)
 
 		setActive(var_30_4, var_30_5)
 		setText(var_30_4:Find("main/char/bg/Text"), iter_30_1:GetName())
@@ -597,6 +597,8 @@ function var_0_0.UpdateStoryTask(arg_41_0)
 	if not var_41_1 then
 		errorMsg("Missing Activity Task ID : " .. var_41_0)
 	end
+
+	print(var_41_0)
 
 	arg_41_0.storyTask = var_41_1 or Task.New({
 		id = var_41_0

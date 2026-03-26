@@ -46,6 +46,10 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 
 	if #var_1_0.cache_eval > 0 then
 		arg_1_0.states[var_0_0.SYSTEM.ASSESS] = NewEducateAssessState.New(var_1_0.cache_eval[1])
+	elseif arg_1_0.systemNo == var_0_0.SYSTEM.ASSESS and #var_1_0.cache_eval == 0 then
+		arg_1_0.states[var_0_0.SYSTEM.ASSESS] = NewEducateAssessState.New({
+			is_finished = 0
+		})
 	end
 
 	arg_1_0.states[var_0_0.SYSTEM.PHASE] = NewEducateStateBase.New()
@@ -88,6 +92,8 @@ function var_0_0.GetCurState(arg_8_0)
 end
 
 function var_0_0.CheckStystem(arg_9_0)
+	warning(arg_9_0.curNode, arg_9_0.systemNo)
+
 	if arg_9_0.curNode ~= 0 then
 		return arg_9_0.systemNo
 	end

@@ -188446,6 +188446,1078 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[302281] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "木津",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 302280,
+		english_name = "IJN Kizu",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 302281,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			447,
+			30,
+			68,
+			53,
+			0,
+			70,
+			0,
+			52,
+			29,
+			35.3,
+			41,
+			24
+		},
+		attrs_growth = {
+			11481,
+			417,
+			798,
+			1147,
+			0,
+			490,
+			0,
+			768,
+			742,
+			0,
+			0,
+			291
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			321
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.4,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Sendai-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[302282] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "木津",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 302280,
+		english_name = "IJN Kizu",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 302282,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			556,
+			37,
+			85,
+			66,
+			0,
+			70,
+			0,
+			52,
+			29,
+			35.3,
+			41,
+			30
+		},
+		attrs_growth = {
+			11481,
+			417,
+			798,
+			1147,
+			0,
+			490,
+			0,
+			768,
+			742,
+			0,
+			0,
+			291
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			322
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.4,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Sendai-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[302283] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "木津",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 302280,
+		english_name = "IJN Kizu",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 302283,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			774,
+			52,
+			119,
+			92,
+			0,
+			70,
+			0,
+			52,
+			29,
+			35.3,
+			41,
+			42
+		},
+		attrs_growth = {
+			11481,
+			417,
+			798,
+			1147,
+			0,
+			490,
+			0,
+			768,
+			742,
+			0,
+			0,
+			291
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			323
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.5,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Sendai-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[302284] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "木津",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 302280,
+		english_name = "IJN Kizu",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 302284,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1101,
+			75,
+			170,
+			131,
+			0,
+			70,
+			0,
+			52,
+			29,
+			35.3,
+			41,
+			59
+		},
+		attrs_growth = {
+			11481,
+			417,
+			798,
+			1147,
+			0,
+			490,
+			0,
+			768,
+			742,
+			0,
+			0,
+			291
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			324
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.65,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Sendai-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[302291] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "名寄",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 302290,
+		english_name = "IJN Nayoro",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 302291,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			508,
+			29,
+			69,
+			53,
+			0,
+			70,
+			0,
+			52,
+			29,
+			35.3,
+			40,
+			25
+		},
+		attrs_growth = {
+			13062,
+			403,
+			807,
+			1147,
+			0,
+			490,
+			0,
+			768,
+			742,
+			0,
+			0,
+			305
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			321
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.4,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Sendai-Class"
+		},
+		gift_dislike = {
+			180006,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[302292] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "名寄",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 302290,
+		english_name = "IJN Nayoro",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 302292,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			632,
+			36,
+			86,
+			66,
+			0,
+			70,
+			0,
+			52,
+			29,
+			35.3,
+			40,
+			31
+		},
+		attrs_growth = {
+			13062,
+			403,
+			807,
+			1147,
+			0,
+			490,
+			0,
+			768,
+			742,
+			0,
+			0,
+			305
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			322
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.4,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Sendai-Class"
+		},
+		gift_dislike = {
+			180006,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[302293] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "名寄",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 302290,
+		english_name = "IJN Nayoro",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 302293,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			880,
+			51,
+			121,
+			92,
+			0,
+			70,
+			0,
+			52,
+			29,
+			35.3,
+			40,
+			43
+		},
+		attrs_growth = {
+			13062,
+			403,
+			807,
+			1147,
+			0,
+			490,
+			0,
+			768,
+			742,
+			0,
+			0,
+			305
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			323
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.5,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Sendai-Class"
+		},
+		gift_dislike = {
+			180006,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[302294] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "名寄",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 302290,
+		english_name = "IJN Nayoro",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 302294,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1252,
+			72,
+			172,
+			131,
+			0,
+			70,
+			0,
+			52,
+			29,
+			35.3,
+			40,
+			62
+		},
+		attrs_growth = {
+			13062,
+			403,
+			807,
+			1147,
+			0,
+			490,
+			0,
+			768,
+			742,
+			0,
+			0,
+			305
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			324
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.65,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Sendai-Class"
+		},
+		gift_dislike = {
+			180006,
+			180005
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[302201] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -225106,6 +226178,530 @@ end)()
 		gift_dislike = {
 			180009,
 			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[307171] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "云龙",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 307170,
+		english_name = "IJN Unryū",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 307171,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1020,
+			0,
+			0,
+			58,
+			81,
+			44,
+			0,
+			32,
+			14,
+			34,
+			35,
+			0
+		},
+		attrs_growth = {
+			27378,
+			0,
+			0,
+			1245,
+			1002,
+			307,
+			0,
+			479,
+			333,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1,
+			1.2
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Unryū-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[307172] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "云龙",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 307170,
+		english_name = "IJN Unryū",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 307172,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1269,
+			0,
+			0,
+			72,
+			101,
+			44,
+			0,
+			32,
+			14,
+			34,
+			35,
+			0
+		},
+		attrs_growth = {
+			27378,
+			0,
+			0,
+			1245,
+			1002,
+			307,
+			0,
+			479,
+			333,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.13,
+			1.03,
+			1.23
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Unryū-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[307173] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "云龙",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 307170,
+		english_name = "IJN Unryū",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 307173,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1766,
+			0,
+			0,
+			101,
+			141,
+			44,
+			0,
+			32,
+			14,
+			34,
+			35,
+			0
+		},
+		attrs_growth = {
+			27378,
+			0,
+			0,
+			1245,
+			1002,
+			307,
+			0,
+			479,
+			333,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.18,
+			1.08,
+			1.28
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Unryū-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[307174] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "云龙",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 307170,
+		english_name = "IJN Unryū",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 307174,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2512,
+			0,
+			0,
+			144,
+			202,
+			44,
+			0,
+			32,
+			14,
+			34,
+			35,
+			0
+		},
+		attrs_growth = {
+			27378,
+			0,
+			0,
+			1245,
+			1002,
+			307,
+			0,
+			479,
+			333,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			2,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.15,
+			1.35
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Unryū-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -449485,6 +451081,542 @@ end)()
 		gift_dislike = {
 			180009,
 			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9702101] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "科隆·META",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 9702100,
+		english_name = "Köln.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9702101,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			607,
+			30,
+			53,
+			66,
+			0,
+			67,
+			0,
+			40,
+			28,
+			32,
+			62,
+			26
+		},
+		attrs_growth = {
+			10521,
+			410,
+			716,
+			846,
+			0,
+			466,
+			0,
+			589,
+			519,
+			0,
+			0,
+			370
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			231
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.6,
+			1.2,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KölnMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9702102] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "科隆·META",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 9702100,
+		english_name = "Köln.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9702102,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			755,
+			37,
+			66,
+			82,
+			0,
+			67,
+			0,
+			40,
+			28,
+			32,
+			62,
+			33
+		},
+		attrs_growth = {
+			10521,
+			410,
+			716,
+			846,
+			0,
+			466,
+			0,
+			589,
+			519,
+			0,
+			0,
+			370
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			232
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.12,
+			1.62,
+			1.22,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KölnMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9702103] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "科隆·META",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 9702100,
+		english_name = "Köln.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9702103,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1051,
+			52,
+			92,
+			115,
+			0,
+			67,
+			0,
+			40,
+			28,
+			32,
+			62,
+			46
+		},
+		attrs_growth = {
+			10521,
+			410,
+			716,
+			846,
+			0,
+			466,
+			0,
+			589,
+			519,
+			0,
+			0,
+			370
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			233
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.65,
+			1.25,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KölnMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9702104] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "科隆·META",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 9702100,
+		english_name = "Köln.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9702104,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1495,
+			74,
+			132,
+			164,
+			0,
+			67,
+			0,
+			40,
+			28,
+			32,
+			62,
+			65
+		},
+		attrs_growth = {
+			10521,
+			410,
+			716,
+			846,
+			0,
+			466,
+			0,
+			589,
+			519,
+			0,
+			0,
+			370
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			234
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.7,
+			1.3,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KölnMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()

@@ -1117,6 +1117,19 @@ function var_0_0.UpdateStory(arg_40_0)
 		local var_40_24 = var_40_20 == var_0_4
 
 		setActive(var_40_21:Find("circle/progress"), var_40_24)
+
+		local var_40_25 = var_40_18:IsRecrew()
+
+		if var_40_25 == nil then
+			setActive(var_40_21:Find("recrew"), false)
+		else
+			setActive(var_40_21:Find("recrew"), true)
+			setActive(var_40_21:Find("recrew/recrewed"), var_40_25)
+			setActive(var_40_21:Find("recrew/not_recrew"), not var_40_25)
+			setText(var_40_21:Find("recrew/recrewed/label"), i18n("story_recrewed"))
+			setText(var_40_21:Find("recrew/not_recrew/label"), i18n("story_not_recrew"))
+		end
+
 		onButton(arg_40_0, var_40_21, function()
 			if var_40_20 == var_0_2 then
 				return
@@ -1134,28 +1147,28 @@ function var_0_0.UpdateStory(arg_40_0)
 		end)
 	end
 
-	local var_40_25 = arg_40_0.storyReadCount
-	local var_40_26 = arg_40_0.storyReadMax
+	local var_40_26 = arg_40_0.storyReadCount
+	local var_40_27 = arg_40_0.storyReadMax
 
-	setText(arg_40_0.progressText, var_40_25 .. "/" .. var_40_26)
+	setText(arg_40_0.progressText, var_40_26 .. "/" .. var_40_27)
 	setActive(arg_40_0.storyAward, tobool(arg_40_0.storyTask))
 
 	if arg_40_0.storyTask then
-		local var_40_27 = arg_40_0.storyTask:getConfig("award_display")
-		local var_40_28 = Drop.New({
-			type = var_40_27[1][1],
-			id = var_40_27[1][2],
-			count = var_40_27[1][3]
+		local var_40_28 = arg_40_0.storyTask:getConfig("award_display")
+		local var_40_29 = Drop.New({
+			type = var_40_28[1][1],
+			id = var_40_28[1][2],
+			count = var_40_28[1][3]
 		})
 
-		updateDrop(arg_40_0.storyAward:GetChild(0), var_40_28)
+		updateDrop(arg_40_0.storyAward:GetChild(0), var_40_29)
 
-		local var_40_29 = arg_40_0.storyTask:getTaskStatus()
+		local var_40_30 = arg_40_0.storyTask:getTaskStatus()
 
-		setActive(arg_40_0.storyAward:Find("get"), var_40_29 == 1)
-		setActive(arg_40_0.storyAward:Find("got"), var_40_29 == 2)
+		setActive(arg_40_0.storyAward:Find("get"), var_40_30 == 1)
+		setActive(arg_40_0.storyAward:Find("got"), var_40_30 == 2)
 		onButton(arg_40_0, arg_40_0.storyAward, function()
-			arg_40_0:emit(BaseUI.ON_DROP, var_40_28)
+			arg_40_0:emit(BaseUI.ON_DROP, var_40_29)
 		end)
 	end
 end

@@ -16926,6 +16926,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_data_statistics[21059] = {
+		open_directly = 0,
+		name = "结晶：{namecode:553}",
+		display = "{namecode:553}的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+		type = 4,
+		display_effect = "",
+		id = 21059,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/21059",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_data_statistics[21101] = {
 		open_directly = 0,
 		name = "结晶化热强钢",
@@ -29885,6 +29917,132 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_data_statistics[30382] = {
+		open_directly = 1,
+		name = "外观装备箱(夜都漫游者)",
+		display = "可以获得一件随机的夜都漫游者风格外观装备",
+		type = 11,
+		display_effect = "",
+		id = 30382,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "Props/appearanceboxnihongtegong",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "30379",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				9,
+				4330,
+				1
+			},
+			{
+				9,
+				4331,
+				1
+			},
+			{
+				9,
+				4332,
+				1
+			},
+			{
+				9,
+				4333,
+				1
+			},
+			{
+				9,
+				4334,
+				1
+			},
+			{
+				9,
+				4335,
+				1
+			},
+			{
+				9,
+				4336,
+				1
+			},
+			{
+				9,
+				4337,
+				1
+			},
+			{
+				9,
+				4338,
+				1
+			},
+			{
+				9,
+				4339,
+				1
+			},
+			{
+				9,
+				4340,
+				1
+			},
+			{
+				9,
+				4341,
+				1
+			},
+			{
+				9,
+				4342,
+				1
+			},
+			{
+				9,
+				4343,
+				1
+			},
+			{
+				9,
+				4344,
+				1
+			},
+			{
+				9,
+				4345,
+				1
+			},
+			{
+				9,
+				4346,
+				1
+			},
+			{
+				9,
+				4347,
+				1
+			}
+		},
+		price = {
+			1,
+			7000
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_data_statistics[30401] = {
 		open_directly = 1,
 		name = "外观装备箱(世界巡游)",
@@ -31642,6 +31800,59 @@ end)()
 			{
 				9,
 				2116,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[30434] = {
+		open_directly = 1,
+		name = "外观装备箱(世界巡游)",
+		display = "可以随机获得一件本次世界巡游限定外观装备",
+		type = 11,
+		display_effect = "",
+		id = 30434,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "Props/appearanceboxshijiexunyou",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "111228",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				9,
+				2117,
+				1
+			},
+			{
+				9,
+				2118,
+				1
+			},
+			{
+				9,
+				2119,
+				1
+			},
+			{
+				9,
+				2120,
 				1
 			}
 		},
@@ -45542,6 +45753,220 @@ end)()
 			{
 				9,
 				4329,
+				1
+			}
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[30566] = {
+		open_directly = 0,
+		name = "定向外观装备箱(夜都漫游者)",
+		display = "使用后可从「夜都漫游者」主题外观装备中任意选择一种获得1个",
+		type = 13,
+		display_effect = "",
+		id = 30566,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop_appointed",
+		link_id = 0,
+		icon = "Props/appearanceboxnihongtegongzixuan",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				9,
+				4330,
+				1
+			},
+			{
+				9,
+				4331,
+				1
+			},
+			{
+				9,
+				4332,
+				1
+			},
+			{
+				9,
+				4333,
+				1
+			},
+			{
+				9,
+				4334,
+				1
+			},
+			{
+				9,
+				4335,
+				1
+			},
+			{
+				9,
+				4336,
+				1
+			},
+			{
+				9,
+				4337,
+				1
+			},
+			{
+				9,
+				4338,
+				1
+			},
+			{
+				9,
+				4339,
+				1
+			},
+			{
+				9,
+				4340,
+				1
+			},
+			{
+				9,
+				4341,
+				1
+			},
+			{
+				9,
+				4342,
+				1
+			},
+			{
+				9,
+				4343,
+				1
+			},
+			{
+				9,
+				4344,
+				1
+			},
+			{
+				9,
+				4345,
+				1
+			},
+			{
+				9,
+				4346,
+				1
+			},
+			{
+				9,
+				4347,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			{
+				9,
+				4330,
+				1
+			},
+			{
+				9,
+				4331,
+				1
+			},
+			{
+				9,
+				4332,
+				1
+			},
+			{
+				9,
+				4333,
+				1
+			},
+			{
+				9,
+				4334,
+				1
+			},
+			{
+				9,
+				4335,
+				1
+			},
+			{
+				9,
+				4336,
+				1
+			},
+			{
+				9,
+				4337,
+				1
+			},
+			{
+				9,
+				4338,
+				1
+			},
+			{
+				9,
+				4339,
+				1
+			},
+			{
+				9,
+				4340,
+				1
+			},
+			{
+				9,
+				4341,
+				1
+			},
+			{
+				9,
+				4342,
+				1
+			},
+			{
+				9,
+				4343,
+				1
+			},
+			{
+				9,
+				4344,
+				1
+			},
+			{
+				9,
+				4345,
+				1
+			},
+			{
+				9,
+				4346,
+				1
+			},
+			{
+				9,
+				4347,
 				1
 			}
 		},
@@ -131016,6 +131441,366 @@ end)()
 		combination_display = {},
 		usage_arg = {
 			90449
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68226] = {
+		open_directly = 1,
+		name = "换装抵扣礼包(溶于重重夜色)",
+		display = "购买后可获得<color=#92fc63FF>{namecode:209}</color>换装<color=#92fc63FF>溶于重重夜色</color>的钻石抵扣券等道具",
+		type = 17,
+		display_effect = "",
+		id = 68226,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "ChargeIcon/skin_ticket_package",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "88006",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				68229,
+				1
+			},
+			{
+				2,
+				68232,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68227] = {
+		open_directly = 1,
+		name = "换装抵扣礼包(Electric Affection)",
+		display = "购买后可获得<color=#92fc63FF>{namecode:311}</color>换装<color=#92fc63FF>Electric Affection</color>的钻石抵扣券等道具",
+		type = 17,
+		display_effect = "",
+		id = 68227,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "ChargeIcon/skin_ticket_package",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "88007",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				68230,
+				1
+			},
+			{
+				2,
+				68233,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68228] = {
+		open_directly = 1,
+		name = "换装抵扣礼包(偷心怪盗)",
+		display = "购买后可获得<color=#92fc63FF>{namecode:69}</color>换装<color=#92fc63FF>偷心怪盗</color>的钻石抵扣券等道具",
+		type = 17,
+		display_effect = "",
+		id = 68228,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "ChargeIcon/skin_ticket_package",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "88008",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				68231,
+				1
+			},
+			{
+				2,
+				68234,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68229] = {
+		open_directly = 0,
+		name = "换装抵扣券(溶于重重夜色)",
+		display = "持有此道具时，购买<color=#92fc63FF>{namecode:209}</color>换装<color=#92fc63FF>溶于重重夜色</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年4月1日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+		type = 1,
+		display_effect = "",
+		id = 68229,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_shop_discount",
+		link_id = 0,
+		icon = "Props/limit_skin_300",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			14,
+			300
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			{
+				71317
+			},
+			300
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68230] = {
+		open_directly = 0,
+		name = "换装抵扣券(Electric Affection)",
+		display = "持有此道具时，购买<color=#92fc63FF>{namecode:311}</color>换装<color=#92fc63FF>Electric Affection</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年4月1日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+		type = 1,
+		display_effect = "",
+		id = 68230,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_shop_discount",
+		link_id = 0,
+		icon = "Props/limit_skin_300",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			14,
+			300
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			{
+				71319
+			},
+			300
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68231] = {
+		open_directly = 0,
+		name = "换装抵扣券(偷心怪盗)",
+		display = "持有此道具时，购买<color=#92fc63FF>{namecode:69}</color>换装<color=#92fc63FF>偷心怪盗</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年4月1日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+		type = 1,
+		display_effect = "",
+		id = 68231,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_shop_discount",
+		link_id = 0,
+		icon = "Props/limit_skin_300",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			14,
+			300
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			{
+				71320
+			},
+			300
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68232] = {
+		open_directly = 0,
+		name = "换装体验券(溶于重重夜色)",
+		display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:209}</color>换装<color=#92fc63FF>溶于重重夜色</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年4月1日 23:59，过期后此道具将消失</color>",
+		type = 1,
+		display_effect = "",
+		id = 68232,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_skin_exp",
+		link_id = 0,
+		icon = "Props/limit_skinticket",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			1,
+			0
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			90453
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68233] = {
+		open_directly = 0,
+		name = "换装体验券(Electric Affection)",
+		display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:311}</color>换装<color=#92fc63FF>Electric Affection</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年4月1日 23:59，过期后此道具将消失</color>",
+		type = 1,
+		display_effect = "",
+		id = 68233,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_skin_exp",
+		link_id = 0,
+		icon = "Props/limit_skinticket",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			1,
+			0
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			90454
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68234] = {
+		open_directly = 0,
+		name = "换装体验券(偷心怪盗)",
+		display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:69}</color>换装<color=#92fc63FF>偷心怪盗</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年4月1日 23:59，过期后此道具将消失</color>",
+		type = 1,
+		display_effect = "",
+		id = 68234,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_skin_exp",
+		link_id = 0,
+		icon = "Props/limit_skinticket",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			1,
+			0
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			90455
 		},
 		limit = {}
 	}

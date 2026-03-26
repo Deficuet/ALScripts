@@ -19,7 +19,7 @@ end
 function var_0_0.OnInit(arg_5_0)
 	arg_5_0.animator = arg_5_0._tf:Find("icon"):GetComponent(typeof(Animator))
 
-	local var_5_0 = getProxy(InstagramProxy):ShouldShowTip() or getProxy(InstagramChatProxy):ShouldShowTip()
+	local var_5_0 = getProxy(InstagramProxy):ShouldShowTip() or getProxy(InstagramChatProxy):ShouldShowTip() or getProxy(InstagramProxy):ShouldShowTip()
 
 	arg_5_0.animator.enabled = var_5_0
 

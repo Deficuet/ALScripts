@@ -25,6 +25,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0.options = arg_1_1.options
 	arg_1_0.important = arg_1_1.important
 	arg_1_0.branchCode = arg_1_1.optionFlag
+	arg_1_0.globalBranchCode = arg_1_1.globalOptionFlag
 	arg_1_0.recallOption = arg_1_1.recallOption
 	arg_1_0.nextScriptName = arg_1_1.jumpto
 	arg_1_0.eventDelay = arg_1_1.eventDelay or 0
@@ -363,207 +364,233 @@ function var_0_0.IsSameBranch(arg_35_0, arg_35_1)
 	return not arg_35_0.branchCode or arg_35_0.branchCode == arg_35_1
 end
 
-function var_0_0.GetMode(arg_36_0)
+function var_0_0.IsGlobalFlagHit(arg_36_0)
+	local var_36_0 = var_0_0.GetGlobalFlagKey(arg_36_0.globalBranchCode.id)
+	local var_36_1 = 1
+	local var_36_2 = 0
+
+	while PlayerPrefs.HasKey(var_36_0 .. var_36_1) do
+		var_36_2 = var_36_2 + PlayerPrefs.GetInt(var_36_0 .. var_36_1)
+		var_36_1 = var_36_1 + 1
+	end
+
+	local var_36_3 = arg_36_0.globalBranchCode.section
+
+	for iter_36_0, iter_36_1 in ipairs(var_36_3) do
+		if var_36_2 >= iter_36_1[1] and var_36_2 <= iter_36_1[2] then
+			return true
+		end
+	end
+
+	return false
+end
+
+function var_0_0.GetGlobalFlagKey(arg_37_0)
+	return getProxy(PlayerProxy):getRawData().id .. "GlobalStoryFlag_" .. arg_37_0 .. "_"
+end
+
+function var_0_0.GetMode(arg_38_0)
 	assert(false, "should override this function")
 end
 
-function var_0_0.GetFlashoutData(arg_37_0)
-	if arg_37_0.flashout then
-		local var_37_0 = arg_37_0.flashout.alpha[1]
-		local var_37_1 = arg_37_0.flashout.alpha[2]
-		local var_37_2 = arg_37_0.flashout.dur
-		local var_37_3 = arg_37_0.flashout.black
+function var_0_0.GetFlashoutData(arg_39_0)
+	if arg_39_0.flashout then
+		local var_39_0 = arg_39_0.flashout.alpha[1]
+		local var_39_1 = arg_39_0.flashout.alpha[2]
+		local var_39_2 = arg_39_0.flashout.dur
+		local var_39_3 = arg_39_0.flashout.black
 
-		return var_37_0, var_37_1, var_37_2, var_37_3
+		return var_39_0, var_39_1, var_39_2, var_39_3
 	end
 end
 
-function var_0_0.GetFlashinData(arg_38_0)
-	if arg_38_0.flashin then
-		local var_38_0 = arg_38_0.flashin.alpha[1]
-		local var_38_1 = arg_38_0.flashin.alpha[2]
-		local var_38_2 = arg_38_0.flashin.dur
-		local var_38_3 = arg_38_0.flashin.black
-		local var_38_4 = arg_38_0.flashin.delay
+function var_0_0.GetFlashinData(arg_40_0)
+	if arg_40_0.flashin then
+		local var_40_0 = arg_40_0.flashin.alpha[1]
+		local var_40_1 = arg_40_0.flashin.alpha[2]
+		local var_40_2 = arg_40_0.flashin.dur
+		local var_40_3 = arg_40_0.flashin.black
+		local var_40_4 = arg_40_0.flashin.delay
 
-		return var_38_0, var_38_1, var_38_2, var_38_3, var_38_4
+		return var_40_0, var_40_1, var_40_2, var_40_3, var_40_4
 	end
 end
 
-function var_0_0.GetBgColor(arg_39_0)
-	return Color.New(arg_39_0.bgColor[1] or 0, arg_39_0.bgColor[2] or 0, arg_39_0.bgColor[3] or 0)
+function var_0_0.GetBgColor(arg_41_0)
+	return Color.New(arg_41_0.bgColor[1] or 0, arg_41_0.bgColor[2] or 0, arg_41_0.bgColor[3] or 0)
 end
 
-function var_0_0.IsBlackBg(arg_40_0)
-	return arg_40_0.blackBg
+function var_0_0.IsBlackBg(arg_42_0)
+	return arg_42_0.blackBg
 end
 
-function var_0_0.GetBgName(arg_41_0)
-	return arg_41_0.bgName
+function var_0_0.GetBgName(arg_43_0)
+	return arg_43_0.bgName
 end
 
-function var_0_0.GetBgShadow(arg_42_0)
-	return arg_42_0.bgShadow
+function var_0_0.GetBgShadow(arg_44_0)
+	return arg_44_0.bgShadow
 end
 
-function var_0_0.IsDialogueMode(arg_43_0)
-	return arg_43_0:GetMode() == Story.MODE_DIALOGUE
+function var_0_0.IsDialogueMode(arg_45_0)
+	return arg_45_0:GetMode() == Story.MODE_DIALOGUE
 end
 
-function var_0_0.GetBgmData(arg_44_0)
-	return arg_44_0.bgm, arg_44_0.bgmDelay, arg_44_0.bgmVolume
+function var_0_0.GetBgmData(arg_46_0)
+	return arg_46_0.bgm, arg_46_0.bgmDelay, arg_46_0.bgmVolume
 end
 
-function var_0_0.ShoulePlayBgm(arg_45_0)
-	return arg_45_0.bgm ~= nil
+function var_0_0.ShoulePlayBgm(arg_47_0)
+	return arg_47_0.bgm ~= nil
 end
 
-function var_0_0.ShouldStopBgm(arg_46_0)
-	return arg_46_0.stopbgm
+function var_0_0.ShouldStopBgm(arg_48_0)
+	return arg_48_0.stopbgm
 end
 
-function var_0_0.GetEffects(arg_47_0)
-	return arg_47_0.effects
+function var_0_0.GetEffects(arg_49_0)
+	return arg_49_0.effects
 end
 
-function var_0_0.ShouldBlink(arg_48_0)
-	return arg_48_0.blink ~= nil
+function var_0_0.ShouldBlink(arg_50_0)
+	return arg_50_0.blink ~= nil
 end
 
-function var_0_0.GetBlinkData(arg_49_0)
-	return arg_49_0.blink
+function var_0_0.GetBlinkData(arg_51_0)
+	return arg_51_0.blink
 end
 
-function var_0_0.ShouldBlinkWithColor(arg_50_0)
-	return arg_50_0.blinkWithColor ~= nil
+function var_0_0.ShouldBlinkWithColor(arg_52_0)
+	return arg_52_0.blinkWithColor ~= nil
 end
 
-function var_0_0.GetBlinkWithColorData(arg_51_0)
-	return arg_51_0.blinkWithColor
+function var_0_0.GetBlinkWithColorData(arg_53_0)
+	return arg_53_0.blinkWithColor
 end
 
-function var_0_0.ShouldPlaySoundEffect(arg_52_0)
-	return arg_52_0.soundeffect ~= nil
+function var_0_0.ShouldPlaySoundEffect(arg_54_0)
+	return arg_54_0.soundeffect ~= nil
 end
 
-function var_0_0.GetSoundeffect(arg_53_0)
-	return arg_53_0.soundeffect, arg_53_0.seDelay
+function var_0_0.GetSoundeffect(arg_55_0)
+	return arg_55_0.soundeffect, arg_55_0.seDelay
 end
 
-function var_0_0.ShouldPlayVoice(arg_54_0)
-	return arg_54_0.voice ~= nil
+function var_0_0.ShouldPlayVoice(arg_56_0)
+	return arg_56_0.voice ~= nil
 end
 
-function var_0_0.ShouldStopVoice(arg_55_0)
-	return arg_55_0.stopVoice
+function var_0_0.ShouldStopVoice(arg_57_0)
+	return arg_57_0.stopVoice
 end
 
-function var_0_0.GetVoice(arg_56_0)
-	return arg_56_0.voice, arg_56_0.voiceDelay
+function var_0_0.GetVoice(arg_58_0)
+	return arg_58_0.voice, arg_58_0.voiceDelay
 end
 
-function var_0_0.ExistOption(arg_57_0)
-	return arg_57_0.options ~= nil and #arg_57_0.options > 0
+function var_0_0.ExistOption(arg_59_0)
+	return arg_59_0.options ~= nil and #arg_59_0.options > 0
 end
 
-function var_0_0.GetOptionCnt(arg_58_0)
-	if arg_58_0:ExistOption() then
-		return #arg_58_0.options
+function var_0_0.GetOptionCnt(arg_60_0)
+	if arg_60_0:ExistOption() then
+		return #arg_60_0.options
 	else
 		return 0
 	end
 end
 
-function var_0_0.SetOptionSelCodes(arg_59_0, arg_59_1)
-	arg_59_0.optionSelCode = arg_59_1
+function var_0_0.SetOptionSelCodes(arg_61_0, arg_61_1)
+	arg_61_0.optionSelCode = arg_61_1
 end
 
-function var_0_0.IsBlackFrontGround(arg_60_0)
-	return arg_60_0.blackFg > 0, Mathf.Clamp01(arg_60_0.blackFg)
+function var_0_0.IsBlackFrontGround(arg_62_0)
+	return arg_62_0.blackFg > 0, Mathf.Clamp01(arg_62_0.blackFg)
 end
 
-function var_0_0.GetOptionIndexByAutoSel(arg_61_0)
-	local var_61_0 = 0
-	local var_61_1 = 0
+function var_0_0.GetOptionIndexByAutoSel(arg_63_0)
+	local var_63_0 = 0
+	local var_63_1 = 0
 
-	for iter_61_0, iter_61_1 in ipairs(arg_61_0.options) do
-		if arg_61_0.optionSelCode and iter_61_1.flag == arg_61_0.optionSelCode then
-			var_61_0 = iter_61_0
+	for iter_63_0, iter_63_1 in ipairs(arg_63_0.options) do
+		if arg_63_0.optionSelCode and iter_63_1.flag == arg_63_0.optionSelCode then
+			var_63_0 = iter_63_0
 
 			break
 		end
 
-		if iter_61_1.autochoice and iter_61_1.autochoice == 1 then
-			var_61_1 = iter_61_0
+		if iter_63_1.autochoice and iter_63_1.autochoice == 1 then
+			var_63_1 = iter_63_0
 		end
 	end
 
-	if var_61_0 > 0 then
-		return var_61_0
+	if var_63_0 > 0 then
+		return var_63_0
 	end
 
-	if var_61_1 > 0 then
-		return var_61_1
+	if var_63_1 > 0 then
+		return var_63_1
 	end
 
 	return nil
 end
 
-function var_0_0.IsImport(arg_62_0)
-	return arg_62_0.important
+function var_0_0.IsImport(arg_64_0)
+	return arg_64_0.important
 end
 
-function var_0_0.SetOptionIndex(arg_63_0, arg_63_1)
-	arg_63_0.optionIndex = arg_63_1
+function var_0_0.SetOptionIndex(arg_65_0, arg_65_1)
+	arg_65_0.optionIndex = arg_65_1
 end
 
-function var_0_0.GetOptionIndex(arg_64_0)
-	return arg_64_0.optionIndex
+function var_0_0.GetOptionIndex(arg_66_0)
+	return arg_66_0.optionIndex
 end
 
-function var_0_0.GetOptions(arg_65_0)
-	return _.map(arg_65_0.options or {}, function(arg_66_0)
-		local var_66_0 = arg_66_0.content
+function var_0_0.GetOptions(arg_67_0)
+	return _.map(arg_67_0.options or {}, function(arg_68_0)
+		local var_68_0 = arg_68_0.content
 
-		if arg_65_0:ShouldReplacePlayer() then
-			var_66_0 = arg_65_0:ReplacePlayerName(var_66_0)
+		if arg_67_0:ShouldReplacePlayer() then
+			var_68_0 = arg_67_0:ReplacePlayerName(var_68_0)
 		end
 
-		if arg_65_0:ShouldReplaceTb() then
-			var_66_0 = arg_65_0:ReplaceTbName(var_66_0)
+		if arg_67_0:ShouldReplaceTb() then
+			var_68_0 = arg_67_0:ReplaceTbName(var_68_0)
 		end
 
-		if arg_65_0:ShouldReplaceDorm() then
-			var_66_0 = arg_65_0:ReplaceDormName(var_66_0)
+		if arg_67_0:ShouldReplaceDorm() then
+			var_68_0 = arg_67_0:ReplaceDormName(var_68_0)
 		end
 
-		local var_66_1 = HXSet.hxLan(var_66_0)
+		local var_68_1 = HXSet.hxLan(var_68_0)
 
 		return {
-			var_66_1,
-			arg_66_0.flag,
-			arg_66_0.type
+			var_68_1,
+			arg_68_0.flag,
+			arg_68_0.type,
+			arg_68_0.globalFlag
 		}
 	end)
 end
 
-function var_0_0.ShouldJumpToNextScript(arg_67_0)
-	return arg_67_0.nextScriptName ~= nil
+function var_0_0.ShouldJumpToNextScript(arg_69_0)
+	return arg_69_0.nextScriptName ~= nil
 end
 
-function var_0_0.GetNextScriptName(arg_68_0)
-	return arg_68_0.nextScriptName
+function var_0_0.GetNextScriptName(arg_70_0)
+	return arg_70_0.nextScriptName
 end
 
-function var_0_0.ShouldDelayEvent(arg_69_0)
-	return arg_69_0.eventDelay and arg_69_0.eventDelay > 0
+function var_0_0.ShouldDelayEvent(arg_71_0)
+	return arg_71_0.eventDelay and arg_71_0.eventDelay > 0
 end
 
-function var_0_0.GetEventDelayTime(arg_70_0)
-	return arg_70_0.eventDelay
+function var_0_0.GetEventDelayTime(arg_72_0)
+	return arg_72_0.eventDelay
 end
 
-function var_0_0.GetUsingPaintingNames(arg_71_0)
+function var_0_0.GetUsingPaintingNames(arg_73_0)
 	return {}
 end
 

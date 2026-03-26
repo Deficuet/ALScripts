@@ -391,7 +391,9 @@ function var_0_0.GetDisplayLetterList(arg_28_0)
 	local var_28_1 = getProxy(CollectionProxy):RawgetGroups()
 
 	return underscore.map(var_28_0, function(arg_32_0)
-		return var_28_1[arg_32_0]
+		return var_28_1[arg_32_0] or ShipGroup.New({
+			id = arg_32_0
+		})
 	end)
 end
 

@@ -4107,7 +4107,7 @@ pg.activity_template_headhunting = {
 	},
 	[21011] = {
 		man_num = 2,
-		pt = 643,
+		pt = 957,
 		id = 21011,
 		level = 1,
 		target = {

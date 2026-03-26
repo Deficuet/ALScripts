@@ -3679,7 +3679,7 @@ function var_0_0.LoadTimelineScene(arg_359_0, arg_359_1, arg_359_2, arg_359_3, a
 		loadSceneFunc = function(arg_360_0, arg_360_1)
 			local var_360_0 = Dorm3dHxHelper.GetTimelineMainCharacter()
 
-			Dorm3dHxHelper.HideCharacterPart(var_360_0)
+			Dorm3dHxHelper.HideCharacterPart(var_360_0, nil, true)
 			arg_359_0:HXCharacter(var_360_0)
 		end
 	}, arg_359_4)

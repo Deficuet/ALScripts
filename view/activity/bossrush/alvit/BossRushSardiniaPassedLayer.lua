@@ -37,32 +37,75 @@ function var_0_0.didEnter(arg_2_0)
 		function(arg_7_0)
 			var_2_2(arg_2_0.contextData.curIndex, arg_2_0.contextData.maxIndex)
 			onDelayTick(arg_7_0, 0.5)
-		end,
-		function(arg_8_0)
-			local var_8_0 = arg_2_0.contextData.curIndex
-			local var_8_1 = arg_2_0.contextData.maxIndex
-
-			var_2_1(arg_2_0.rtContent:GetChild(var_8_0 - 1):Find("left"), -1)
-
-			if var_8_0 > 1 then
-				var_2_1(arg_2_0.rtContent:GetChild(var_8_0 - 2):Find("right"), -1)
-			end
-
-			LeanTween.value(0, 1, 0.8):setOnUpdate(System.Action_float(function(arg_9_0)
-				setSlider(arg_2_0.rtSlider, 0, var_8_1 - 1, var_8_0 - 1 + arg_9_0)
-			end)):setEaseOutCubic():setOnComplete(System.Action(arg_8_0))
-		end,
-		function(arg_10_0)
-			var_2_2(arg_2_0.contextData.curIndex + 1, arg_2_0.contextData.maxIndex)
-			onDelayTick(arg_10_0, 1.5)
 		end
 	}, function()
-		arg_2_0:closeView()
+		local var_8_0 = arg_2_0.contextData.curIndex
+		local var_8_1 = arg_2_0.contextData.maxIndex
+
+		var_2_1(arg_2_0.rtContent:GetChild(var_8_0 - 1):Find("left"), -1)
+
+		if var_8_0 > 1 then
+			var_2_1(arg_2_0.rtContent:GetChild(var_8_0 - 2):Find("right"), -1)
+		end
+
+		local function var_8_2()
+			seriesAsync({
+				function(arg_10_0)
+					var_2_2(arg_2_0.contextData.curIndex + 1, arg_2_0.contextData.maxIndex)
+					onDelayTick(arg_10_0, 1.5)
+				end
+			}, function()
+				arg_2_0:emit(ChallengePassedCombatLoadMediator.FINISH, arg_2_0._loadObs)
+			end)
+		end
+
+		arg_2_0:combatPreload(var_8_2)
 	end)
 end
 
-function var_0_0.willExit(arg_12_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_12_0._tf)
+function var_0_0.combatPreload(arg_12_0, arg_12_1)
+	PoolMgr.GetInstance():DestroyAllSprite()
+
+	arg_12_0._loadObs = {}
+
+	ys.Battle.BattleFXPool.GetInstance():Init()
+
+	local var_12_0 = ys.Battle.BattleResourceManager.GetInstance()
+
+	var_12_0:Init()
+
+	local var_12_1, var_12_2 = CombatLoadUI.GetTotalResourceList(arg_12_0.contextData)
+
+	for iter_12_0, iter_12_1 in ipairs(var_12_1) do
+		var_12_0:AddPreloadResource(iter_12_1)
+	end
+
+	for iter_12_2, iter_12_3 in ipairs(var_12_2) do
+		var_12_0:AddPreloadCV(iter_12_3)
+	end
+
+	local function var_12_3()
+		arg_12_1()
+	end
+
+	local var_12_4 = 0
+
+	local function var_12_5(arg_14_0)
+		local var_14_0
+		local var_14_1 = var_12_4 == 0 and 0 or arg_14_0 / var_12_4
+
+		setSlider(arg_12_0.rtSlider, 0, arg_12_0.contextData.maxIndex - 1, arg_12_0.contextData.curIndex - 1 + var_14_1)
+	end
+
+	local var_12_6 = pg.UIMgr.GetInstance():GetMainCamera()
+
+	setActive(var_12_6, true)
+
+	var_12_4 = var_12_0:StartPreload(var_12_3, var_12_5)
+end
+
+function var_0_0.willExit(arg_15_0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_15_0._tf)
 end
 
 return var_0_0

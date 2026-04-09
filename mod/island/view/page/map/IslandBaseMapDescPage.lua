@@ -38,6 +38,7 @@ end
 function var_0_0.GoMap(arg_7_0, arg_7_1)
 	local var_7_0 = pg.island_map[arg_7_1]
 
+	arg_7_0:emitCoreController(ISLAND_EVT.SWITCH_MAP)
 	arg_7_0:emit(IslandBaseMediator.SWITCH_MAP, arg_7_1, var_7_0.born_object)
 	arg_7_0:emit(IslandBaseMapPage.CLOSE)
 end

@@ -39721,3 +39721,351 @@ end)()
 	}
 end)()
 
+(function()
+	_G.pg.base.spweapon_data_statistics[15160] = {
+		tech = 0,
+		name = "纳米技术掌心炮",
+		value_2_random = 5,
+		type = 2,
+		value_1_random = 10,
+		value_1 = 13,
+		effect_id_display = 901010,
+		level = 1,
+		descrip = "由特殊兵装核心制造出来的专属特制兵装",
+		uncraftable = 0,
+		next = 15161,
+		upgrade_id = 101,
+		value_2 = 6,
+		icon = "15160",
+		effect_id = 901010,
+		attribute_2 = "reload",
+		id = 15160,
+		rarity = 4,
+		unique = 10226,
+		important = 2,
+		prev = 0,
+		attribute_1 = "cannon",
+		usability = {
+			2
+		},
+		skill_upgrade = {
+			{
+				0,
+				1013140
+			}
+		},
+		hide_buff_upgrade = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15161] = {
+		prev = 15160,
+		base = 15160,
+		next = 15162,
+		upgrade_id = 102,
+		id = 15161,
+		value_2 = 6,
+		value_1 = 14,
+		level = 2
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15162] = {
+		prev = 15161,
+		base = 15160,
+		next = 15163,
+		upgrade_id = 103,
+		id = 15162,
+		value_2 = 7,
+		value_1 = 15,
+		level = 3
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15163] = {
+		prev = 15162,
+		base = 15160,
+		next = 15164,
+		upgrade_id = 104,
+		id = 15163,
+		value_2 = 8,
+		value_1 = 16,
+		level = 4
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15164] = {
+		prev = 15163,
+		base = 15160,
+		next = 15165,
+		upgrade_id = 105,
+		id = 15164,
+		value_2 = 9,
+		value_1 = 17,
+		level = 5
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15165] = {
+		prev = 15164,
+		base = 15160,
+		next = 15166,
+		upgrade_id = 106,
+		id = 15165,
+		value_2 = 10,
+		value_1 = 18,
+		level = 6
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15166] = {
+		prev = 15165,
+		base = 15160,
+		next = 15167,
+		upgrade_id = 107,
+		id = 15166,
+		value_2 = 11,
+		value_1 = 19,
+		level = 7
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15167] = {
+		prev = 15166,
+		base = 15160,
+		next = 15168,
+		upgrade_id = 108,
+		id = 15167,
+		value_2 = 12,
+		value_1 = 20,
+		level = 8
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15168] = {
+		prev = 15167,
+		base = 15160,
+		next = 15169,
+		upgrade_id = 109,
+		id = 15168,
+		value_2 = 13,
+		value_1 = 21,
+		level = 9
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15169] = {
+		prev = 15168,
+		base = 15160,
+		next = 15170,
+		upgrade_id = 110,
+		id = 15169,
+		value_2 = 14,
+		value_1 = 23,
+		level = 10
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15170] = {
+		base = 15160,
+		prev = 15169,
+		next = 0,
+		upgrade_id = 111,
+		id = 15170,
+		value_2 = 15,
+		value_1 = 25,
+		level = 11,
+		skill_upgrade = {
+			{
+				13140,
+				1013140
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15180] = {
+		tech = 0,
+		name = "小兔叽挎包",
+		value_2_random = 10,
+		type = 1,
+		value_1_random = 10,
+		value_1 = 13,
+		effect_id_display = 902300,
+		level = 1,
+		descrip = "由特殊兵装核心制造出来的专属特制兵装",
+		uncraftable = 0,
+		next = 15181,
+		upgrade_id = 101,
+		value_2 = 13,
+		icon = "15180",
+		effect_id = 902300,
+		attribute_2 = "torpedo",
+		id = 15180,
+		rarity = 4,
+		unique = 20126,
+		important = 2,
+		prev = 0,
+		attribute_1 = "cannon",
+		usability = {
+			1
+		},
+		skill_upgrade = {
+			{
+				0,
+				1090450
+			}
+		},
+		hide_buff_upgrade = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15181] = {
+		prev = 15180,
+		base = 15180,
+		next = 15182,
+		upgrade_id = 102,
+		id = 15181,
+		value_2 = 14,
+		value_1 = 14,
+		level = 2
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15182] = {
+		prev = 15181,
+		base = 15180,
+		next = 15183,
+		upgrade_id = 103,
+		id = 15182,
+		value_2 = 15,
+		value_1 = 15,
+		level = 3
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15183] = {
+		prev = 15182,
+		base = 15180,
+		next = 15184,
+		upgrade_id = 104,
+		id = 15183,
+		value_2 = 16,
+		value_1 = 16,
+		level = 4
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15184] = {
+		prev = 15183,
+		base = 15180,
+		next = 15185,
+		upgrade_id = 105,
+		id = 15184,
+		value_2 = 17,
+		value_1 = 17,
+		level = 5
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15185] = {
+		prev = 15184,
+		base = 15180,
+		next = 15186,
+		upgrade_id = 106,
+		id = 15185,
+		value_2 = 18,
+		value_1 = 18,
+		level = 6
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15186] = {
+		prev = 15185,
+		base = 15180,
+		next = 15187,
+		upgrade_id = 107,
+		id = 15186,
+		value_2 = 19,
+		value_1 = 19,
+		level = 7
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15187] = {
+		prev = 15186,
+		base = 15180,
+		next = 15188,
+		upgrade_id = 108,
+		id = 15187,
+		value_2 = 20,
+		value_1 = 20,
+		level = 8
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15188] = {
+		prev = 15187,
+		base = 15180,
+		next = 15189,
+		upgrade_id = 109,
+		id = 15188,
+		value_2 = 21,
+		value_1 = 21,
+		level = 9
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15189] = {
+		prev = 15188,
+		base = 15180,
+		next = 15190,
+		upgrade_id = 110,
+		id = 15189,
+		value_2 = 23,
+		value_1 = 23,
+		level = 10
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[15190] = {
+		base = 15180,
+		prev = 15189,
+		next = 0,
+		upgrade_id = 111,
+		id = 15190,
+		value_2 = 25,
+		value_1 = 25,
+		level = 11,
+		skill_upgrade = {
+			{
+				2121,
+				1090450
+			}
+		}
+	}
+end)()
+

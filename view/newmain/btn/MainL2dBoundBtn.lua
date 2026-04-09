@@ -24,7 +24,7 @@ function var_0_0.IsFixed(arg_5_0)
 end
 
 function var_0_0.FlushL2d(arg_6_0)
-	local var_6_0 = getProxy(PlayerProxy):getRawData():GetFlagShip()
+	local var_6_0 = getProxy(PlayerProxy):getRawData():GetCurrentFlagShip()
 	local var_6_1 = MainPaintingView.GetAssistantStatus(var_6_0) == MainPaintingView.STATE_L2D
 	local var_6_2 = var_6_0:GetSkinConfig().id
 	local var_6_3 = var_6_0:GetSkinConfig().ship_l2d_id

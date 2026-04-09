@@ -58,6 +58,8 @@ var_0_0.ACTION_HELLO_DAILY = 55
 var_0_0.TASK_DAILY_IN_WEEK = 56
 var_0_0.START_FISHING = 57
 var_0_0.FISHING = 58
+var_0_0.GAME_MAX_SCORE = 1001
+var_0_0.GAME_CUR_SCORE = 1002
 
 function var_0_0.GetRuntimeTypes()
 	return {
@@ -83,7 +85,9 @@ function var_0_0.GetRuntimeTypes()
 		var_0_0.ACTIVITY_ORDER,
 		var_0_0.ORDER_DAILY,
 		var_0_0.ACTION_HELLO_DAILY,
-		var_0_0.TASK_DAILY_IN_WEEK
+		var_0_0.TASK_DAILY_IN_WEEK,
+		var_0_0.GAME_MAX_SCORE,
+		var_0_0.GAME_CUR_SCORE
 	}
 end
 

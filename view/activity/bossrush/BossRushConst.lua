@@ -6,7 +6,7 @@ function var_0_0.GetPassedLayer(arg_1_0)
 			return BossRushAlvitPassedLayer
 		end,
 		[ActivityConst.ZENGKEHAIJUNSHANGJIANG_BOSS_RUSH_ID] = function()
-			return BossRushVerZenkerPassedLayer
+			return BossRushSardiniaPassedLayer
 		end
 	}, function()
 		local var_4_0 = checkExist(pg.activity_template[arg_1_0], {
@@ -15,7 +15,7 @@ function var_0_0.GetPassedLayer(arg_1_0)
 			"passed"
 		})
 
-		return var_4_0 and _G[var_4_0] or BossRushPassedLayer
+		return var_4_0 and _G[var_4_0] or BossRushPassedCombatLoadLayer
 	end)
 end
 

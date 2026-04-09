@@ -55,6 +55,10 @@ function var_0_0.register(arg_1_0)
 			elseif table.contains(TotalTaskProxy.normal_task_type, var_3_2) then
 				getProxy(TaskProxy):updateActProgress(var_3_0, var_3_1)
 			end
+
+			local var_3_3 = getProxy(ActivityProxy):getActivityById(var_3_0)
+
+			arg_1_0:sendNotification(ActivityProxy.ACTIVITY_UPDATED, var_3_3:clone())
 		end
 
 		arg_1_0.facade:sendNotification(GAME.TOTAL_TASK_UPDATED)
@@ -93,6 +97,10 @@ function var_0_0.register(arg_1_0)
 			elseif table.contains(TotalTaskProxy.normal_task_type, var_5_2) then
 				getProxy(TaskProxy):removeActData(var_5_0, var_5_1)
 			end
+
+			local var_5_3 = getProxy(ActivityProxy):getActivityById(var_5_0)
+
+			arg_1_0:sendNotification(ActivityProxy.ACTIVITY_UPDATED, var_5_3:clone())
 		end
 
 		arg_1_0.facade:sendNotification(GAME.TOTAL_TASK_UPDATED)

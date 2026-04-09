@@ -289,20 +289,20 @@ function var_0_0.InitDressData(arg_12_0)
 	end
 end
 
-function var_0_0.InitDressTF(arg_13_0)
+function var_0_0.InitDressTF(arg_13_0, arg_13_1)
 	for iter_13_0, iter_13_1 in pairs(arg_13_0.dataAfterRoleInit) do
-		arg_13_0:ChangeDressByType(iter_13_0, iter_13_1)
+		arg_13_0:ChangeDressByType(iter_13_0, iter_13_1, arg_13_1)
 	end
 
 	arg_13_0.dataAfterRoleInit = {}
 end
 
-function var_0_0.OnRoleLoaded(arg_14_0, arg_14_1, arg_14_2)
+function var_0_0.OnRoleLoaded(arg_14_0, arg_14_1, arg_14_2, arg_14_3)
 	arg_14_0.modelData = arg_14_2
 	arg_14_0.roleTF = arg_14_1
 	arg_14_0.hasTF = true
 
-	arg_14_0:InitDressTF()
+	arg_14_0:InitDressTF(arg_14_3)
 end
 
 function var_0_0.RemoveDressTF(arg_15_0)
@@ -380,6 +380,14 @@ function var_0_0.LoadDressObjectItem(arg_20_0, arg_20_1, arg_20_2, arg_20_3)
 	local var_20_1 = var_20_0.model
 	local var_20_2 = arg_20_0.shipId
 	local var_20_3 = IslandAssetLoadDispatcher.Instance:Enqueue(var_20_1, "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function(arg_21_0)
+		if IsNil(arg_20_0.roleTF) then
+			return
+		end
+
+		if arg_20_0.hasTF == false then
+			return
+		end
+
 		if var_20_2 ~= arg_20_0.shipId then
 			return
 		end
@@ -494,13 +502,13 @@ function var_0_0.LoadDressObjectItem(arg_20_0, arg_20_1, arg_20_2, arg_20_3)
 
 		arg_20_0.pageDressTFDic[arg_20_2] = var_21_0
 
-		existCall(arg_20_3)
+		existCall(arg_20_3, var_21_0)
 	end), true, true)
 
 	table.insert(arg_20_0.loadingIdList or {}, var_20_3)
 end
 
-function var_0_0.ChangeDressObject(arg_26_0, arg_26_1, arg_26_2)
+function var_0_0.ChangeDressObject(arg_26_0, arg_26_1, arg_26_2, arg_26_3)
 	local var_26_0 = arg_26_2.id
 	local var_26_1 = arg_26_0.currentDressDataDic[arg_26_1] and arg_26_0.currentDressDataDic[arg_26_1].id or 0
 
@@ -528,10 +536,10 @@ function var_0_0.ChangeDressObject(arg_26_0, arg_26_1, arg_26_2)
 
 	arg_26_0.currentDressDataDic[arg_26_1] = arg_26_2
 
-	arg_26_0:LoadDressObjectItem(arg_26_1, var_26_0)
+	arg_26_0:LoadDressObjectItem(arg_26_1, var_26_0, arg_26_3)
 end
 
-function var_0_0.ChangeDressByType(arg_27_0, arg_27_1, arg_27_2)
+function var_0_0.ChangeDressByType(arg_27_0, arg_27_1, arg_27_2, arg_27_3)
 	if not arg_27_0.hasTF then
 		arg_27_0.dataAfterRoleInit[arg_27_1] = arg_27_2
 
@@ -541,7 +549,7 @@ function var_0_0.ChangeDressByType(arg_27_0, arg_27_1, arg_27_2)
 	if table.contains(var_0_0.CommanderCustom, arg_27_1) then
 		arg_27_0:ChangeCommanderPart(arg_27_1, arg_27_2)
 	else
-		arg_27_0:ChangeDressObject(arg_27_1, arg_27_2)
+		arg_27_0:ChangeDressObject(arg_27_1, arg_27_2, arg_27_3)
 	end
 end
 

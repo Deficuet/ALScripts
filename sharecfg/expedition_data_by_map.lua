@@ -332,7 +332,8 @@ pg.expedition_data_by_map = setmetatable({
 		2200120,
 		2200130,
 		2200140,
-		2200141
+		2200141,
+		2200150
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -21151,6 +21152,56 @@ pg.base.expedition_data_by_map = {
 		on_activity = 0,
 		ui_type = 1,
 		bg = "Map_1760002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2200150] = {
+		map = 2200150,
+		name = "远汇点作战|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-6",
+		enter_story = "YUANHUIDIANZUOZHAN1",
+		ani_name = "Map_1670001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1670001",
 		story_id = "",
 		chapterGroups = "",
 		destory_icon_suffix = "blue",

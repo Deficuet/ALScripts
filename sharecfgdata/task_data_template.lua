@@ -167417,7 +167417,7 @@ end)()
 		guild_coin_award = 0,
 		award = 909391,
 		type = 26,
-		desc = "阅读「漫游者招募计划」所有剧情",
+		desc = "解锁「漫游者招募计划」所有剧情结局",
 		count_inherit = 0,
 		sub_type = 1005,
 		target_id_2 = "",
@@ -167439,10 +167439,16 @@ end)()
 		scene = "",
 		tutorial_handbook_pic = "",
 		id = 21916,
-		target_num = 1,
+		target_num = 7,
 		activity_client_config = "",
 		added_tip = 0,
 		target_id = {
+			7561,
+			7562,
+			7563,
+			7564,
+			7565,
+			7566,
 			7567
 		},
 		open_need = {},
@@ -229350,7 +229356,7 @@ end)()
 		story_id = "",
 		tutorial_handbook_pic = "",
 		id = 25333,
-		target_num = 1,
+		target_num = 10,
 		activity_client_config = "",
 		added_tip = 0,
 		target_id = {
@@ -231137,6 +231143,135 @@ end)()
 			{
 				4,
 				405061,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25502] = {
+		name = "『2025人气投票』武器外观1",
+		guild_coin_award = 0,
+		award = 998572,
+		type = 14,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25502,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				9,
+				3071,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25503] = {
+		name = "『2025人气投票』武器外观2",
+		guild_coin_award = 0,
+		award = 998573,
+		type = 14,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25503,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				9,
+				3072,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25504] = {
+		name = "『2025人气投票』武器外观3",
+		guild_coin_award = 0,
+		award = 998574,
+		type = 14,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25504,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				9,
+				3075,
 				1
 			}
 		}
@@ -313963,6 +314098,221 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[56248] = {
+		name = "第二赛季酒馆-签到活动1",
+		guild_coin_award = 0,
+		award = 907317,
+		type = 6,
+		desc = "参与一次岛屿开发季-战术推演",
+		count_inherit = 0,
+		sub_type = 2026,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56248,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				46,
+				1030010,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56249] = {
+		name = "第二赛季酒馆-签到活动2",
+		guild_coin_award = 0,
+		award = 907318,
+		type = 6,
+		desc = "参与一次岛屿开发季-战术推演",
+		count_inherit = 0,
+		sub_type = 2026,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56249,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56250] = {
+		name = "第二赛季酒馆-签到活动3",
+		guild_coin_award = 0,
+		award = 907319,
+		type = 6,
+		desc = "参与一次岛屿开发季-战术推演",
+		count_inherit = 0,
+		sub_type = 2026,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56250,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				46,
+				1010011,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56251] = {
+		name = "第二赛季酒馆-签到活动4",
+		guild_coin_award = 0,
+		award = 907320,
+		type = 6,
+		desc = "参与一次岛屿开发季-战术推演",
+		count_inherit = 0,
+		sub_type = 2026,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56251,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				170002,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56252] = {
+		name = "第二赛季酒馆-签到活动5",
+		guild_coin_award = 0,
+		award = 907321,
+		type = 6,
+		desc = "参与一次岛屿开发季-战术推演",
+		count_inherit = 0,
+		sub_type = 2026,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56252,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				45,
+				30005,
+				6
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[56331] = {
 		name = "【2024年11月新服】【每日】任务1",
 		guild_coin_award = 0,
@@ -367029,6 +367379,360 @@ end)()
 				18033,
 				1
 			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500231] = {
+		name = "意外的约会申请",
+		guild_coin_award = 0,
+		award = 500231,
+		type = 5,
+		desc = "提交3个《鱼雷天妇罗》",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "dewenjun",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "50003",
+		next_task = "500232",
+		auto_commit = 0,
+		story_id = "DEWENJUN1",
+		tutorial_handbook_pic = "",
+		id = 500231,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		story_icon_shift = {
+			0,
+			100
+		},
+		scene = {
+			"BACKYARD"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500232] = {
+		name = "糖霜密语",
+		guild_coin_award = 0,
+		award = 500232,
+		type = 5,
+		desc = "强化任意角色10次",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "dewenjun",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "DEWENJUN2",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500233",
+		auto_commit = 0,
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500232,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		story_icon_shift = {
+			0,
+			100
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500233] = {
+		name = "限时魔法",
+		guild_coin_award = 0,
+		award = 500233,
+		type = 5,
+		desc = "德文郡上阵出击(关卡)胜利20次",
+		count_inherit = 0,
+		sub_type = 18,
+		target_id_2 = "",
+		story_icon = "dewenjun",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "DEWENJUN3",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500234",
+		auto_commit = 0,
+		target_id = "20313",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500233,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		story_icon_shift = {
+			0,
+			100
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500234] = {
+		name = "错乱的塔罗",
+		guild_coin_award = 0,
+		award = 500234,
+		type = 5,
+		desc = "累计消耗石油500",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "dewenjun",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "DEWENJUN4",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500235",
+		auto_commit = 0,
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500234,
+		target_num = 500,
+		activity_client_config = "",
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		story_icon_shift = {
+			0,
+			100
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500235] = {
+		name = "约会的终点",
+		guild_coin_award = 0,
+		award = 500235,
+		type = 5,
+		desc = "德文郡好感度达到100",
+		count_inherit = 0,
+		sub_type = 1012,
+		target_id_2 = "",
+		story_icon = "dewenjun",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "DEWENJUN5",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500236",
+		auto_commit = 0,
+		target_id = "20313",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500235,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16022,
+				1
+			}
+		},
+		story_icon_shift = {
+			0,
+			100
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500236] = {
+		name = "真实的德文郡",
+		guild_coin_award = 0,
+		award = 500236,
+		type = 5,
+		desc = "德文郡突破至满星",
+		count_inherit = 0,
+		sub_type = 33,
+		target_id_2 = "",
+		story_icon = "dewenjun",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "DEWENJUN6",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500237",
+		auto_commit = 0,
+		target_id = "20313",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500236,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		},
+		story_icon_shift = {
+			0,
+			100
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500237] = {
+		name = "输家的惩罚",
+		guild_coin_award = 0,
+		award = 500237,
+		type = 5,
+		desc = "德文郡等级达到100",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "dewenjun",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "DEWENJUN7",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		target_id = "20313",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500237,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				2
+			}
+		},
+		story_icon_shift = {
+			0,
+			100
 		}
 	}
 end)()

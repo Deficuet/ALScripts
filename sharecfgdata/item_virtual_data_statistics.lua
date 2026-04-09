@@ -157587,6 +157587,32 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[59180] = {
+		display = "用于头像框活动兑换，活动结束后将会消失",
+		name = "训练点数",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/xunliandianshu_s",
+		id = 59180,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[59181] = {
 		display = "用于「限时体验商店」兑换角色限时换装",
 		name = "换装体验券",
@@ -157629,32 +157655,6 @@ end)()
 		is_world = 0,
 		icon = "Props/shinano_pt",
 		id = 59182,
-		order = 0,
-		display_icon = {},
-		price = {},
-		index = {},
-		shiptrans_id = {},
-		combination_display = {}
-	}
-end)()
-
-(function()
-	_G.pg.base.item_virtual_data_statistics[59180] = {
-		display = "用于头像框活动兑换，活动结束后将会消失",
-		name = "训练点数",
-		max_num = 0,
-		type = 98,
-		time_limit = 0,
-		rarity = 2,
-		shop_id = -1,
-		replace_item = 0,
-		drop_gold_max = 0,
-		drop_oil_max = 0,
-		link_id = 0,
-		virtual_type = 0,
-		is_world = 0,
-		icon = "Props/xunliandianshu_s",
-		id = 59180,
 		order = 0,
 		display_icon = {},
 		price = {},
@@ -157873,6 +157873,32 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[59191] = {
+		display = "用于头像框活动兑换，活动结束后将会消失",
+		name = "训练点数",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/xunliandianshu_t",
+		id = 59191,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[59192] = {
 		display = "用于「负象限作战」活动兑换，活动结束后将会消失",
 		name = "铁血密钥",
@@ -157941,32 +157967,6 @@ end)()
 		is_world = 0,
 		icon = "props/meishi",
 		id = 59194,
-		order = 0,
-		display_icon = {},
-		price = {},
-		index = {},
-		shiptrans_id = {},
-		combination_display = {}
-	}
-end)()
-
-(function()
-	_G.pg.base.item_virtual_data_statistics[59191] = {
-		display = "用于头像框活动兑换，活动结束后将会消失",
-		name = "训练点数",
-		max_num = 0,
-		type = 98,
-		time_limit = 0,
-		rarity = 2,
-		shop_id = -1,
-		replace_item = 0,
-		drop_gold_max = 0,
-		drop_oil_max = 0,
-		link_id = 0,
-		virtual_type = 0,
-		is_world = 0,
-		icon = "Props/xunliandianshu_t",
-		id = 59191,
 		order = 0,
 		display_icon = {},
 		price = {},
@@ -162813,58 +162813,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.item_virtual_data_statistics[59420] = {
-		display = "用于「假日航线·再现」活动兑换，活动结束后将会消失",
-		name = "维纳斯点数",
-		max_num = 0,
-		type = 98,
-		time_limit = 0,
-		rarity = 2,
-		shop_id = -1,
-		replace_item = 0,
-		drop_gold_max = 0,
-		drop_oil_max = 0,
-		link_id = 0,
-		virtual_type = 0,
-		is_world = 0,
-		icon = "Props/DOA_pt",
-		id = 59420,
-		order = 0,
-		display_icon = {},
-		price = {},
-		index = {},
-		shiptrans_id = {},
-		combination_display = {}
-	}
-end)()
-
-(function()
-	_G.pg.base.item_virtual_data_statistics[59421] = {
-		display = "用于「限时体验商店」兑换角色限时换装",
-		name = "换装体验券",
-		max_num = 0,
-		type = 98,
-		time_limit = 0,
-		rarity = 4,
-		shop_id = 1,
-		replace_item = 0,
-		drop_gold_max = 0,
-		drop_oil_max = 0,
-		link_id = 0,
-		virtual_type = 0,
-		is_world = 0,
-		icon = "Props/skinTicket",
-		id = 59421,
-		order = 0,
-		display_icon = {},
-		price = {},
-		index = {},
-		shiptrans_id = {},
-		combination_display = {}
-	}
-end)()
-
-(function()
 	_G.pg.base.item_virtual_data_statistics[59412] = {
 		display = "用于「芝士奶酪要加糖！」复刻活动提升角色好感，活动结束后将会消失",
 		name = "芝士蛋糕",
@@ -162907,6 +162855,58 @@ end)()
 		is_world = 0,
 		icon = "Props/xunliandianshu_d",
 		id = 59413,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[59420] = {
+		display = "用于「假日航线·再现」活动兑换，活动结束后将会消失",
+		name = "维纳斯点数",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/DOA_pt",
+		id = 59420,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[59421] = {
+		display = "用于「限时体验商店」兑换角色限时换装",
+		name = "换装体验券",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = 1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/skinTicket",
+		id = 59421,
 		order = 0,
 		display_icon = {},
 		price = {},
@@ -173281,6 +173281,240 @@ end)()
 		is_world = 0,
 		icon = "Props/nvpu_ticket",
 		id = 60488,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[60600] = {
+		display = "「闪耀★布里★大作战」活动道具",
+		name = "密码「M」",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50493,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/65582",
+		id = 60600,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[60601] = {
+		display = "「闪耀★布里★大作战」活动道具",
+		name = "密码「A」",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50493,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/65582",
+		id = 60601,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[60602] = {
+		display = "「闪耀★布里★大作战」活动道具",
+		name = "密码「G」",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50493,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/65582",
+		id = 60602,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[60603] = {
+		display = "「闪耀★布里★大作战」活动道具",
+		name = "密码「I」",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50493,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/65582",
+		id = 60603,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[60604] = {
+		display = "「闪耀★布里★大作战」活动道具",
+		name = "密码「C」",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50493,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/65582",
+		id = 60604,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[60605] = {
+		display = "「闪耀★布里★大作战」活动道具",
+		name = "密码「B」",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50493,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/65582",
+		id = 60605,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[60606] = {
+		display = "「闪耀★布里★大作战」活动道具",
+		name = "密码「U」",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50493,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/65582",
+		id = 60606,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[60607] = {
+		display = "「闪耀★布里★大作战」活动道具",
+		name = "密码「L」",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50493,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/65582",
+		id = 60607,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[60608] = {
+		display = "「闪耀★布里★大作战」活动道具",
+		name = "密码「I」",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50493,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/65582",
+		id = 60608,
 		order = 0,
 		display_icon = {},
 		price = {},

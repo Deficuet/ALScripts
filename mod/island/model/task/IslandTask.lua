@@ -240,4 +240,18 @@ function var_0_0.GetSubmitPlayInfo(arg_39_0)
 	return var_39_0[1], var_39_0[2]
 end
 
+function var_0_0.BuildFakeTask(arg_40_0)
+	local var_40_0 = _.map(pg.island_task[arg_40_0].target_id, function(arg_41_0)
+		return {
+			target_id = arg_41_0,
+			target_count = pg.island_task_target[arg_41_0].target_num
+		}
+	end)
+
+	return var_0_0.New({
+		id = arg_40_0,
+		process_list = var_40_0
+	})
+end
+
 return var_0_0

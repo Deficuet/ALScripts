@@ -4,6 +4,8 @@ local var_0_2 = 240
 local var_0_3 = 86400
 
 function var_0_0.Ctor(arg_1_0, arg_1_1)
+	warning(tostring(arg_1_0) .. "weatehr init")
+
 	arg_1_0.view = arg_1_1
 	arg_1_0.TOD = GameObject.Find("/[MainBlock]/[Climat]/day/[Settings]/TOD_Timeline")
 	arg_1_0._inited = false
@@ -51,6 +53,10 @@ function var_0_0.Play(arg_3_0)
 	end
 
 	local var_3_0 = arg_3_0:GetFrame()
+
+	if IsNil(arg_3_0.director) then
+		return
+	end
 
 	arg_3_0.director.time = var_3_0 / var_0_1
 

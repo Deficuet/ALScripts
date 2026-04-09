@@ -62231,6 +62231,145 @@ pg.equip_skin_template = {
 			"wash"
 		}
 	},
+	[3071] = {
+		hit_sfx = "",
+		bullet_name = "yulei_ceshizhe",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		name = "测试加速器鱼雷",
+		themeid = 199,
+		desc = "测试者——2025年趣味投票最受欢迎的塞壬优胜纪念",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		double_char_bone = "",
+		orbit_combat = "",
+		orbit_combat_anima_change = "",
+		icon = "99190",
+		miss_sfx = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_rotate = "",
+		orbit_ui = "",
+		orbit_ui_back = 0,
+		orbit_combat_bound = "",
+		ship_skin_id = 0,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		id = 3071,
+		derivate_torpedo = "",
+		orbit_slg = "",
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[3072] = {
+		hit_sfx = "",
+		bullet_name = "yulei_jingjimeigui",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		name = "荆棘蔷薇鱼雷",
+		themeid = 199,
+		desc = "光荣·META——2025年趣味投票最受欢迎的META优胜纪念",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		double_char_bone = "",
+		orbit_combat = "",
+		orbit_combat_anima_change = "",
+		icon = "99191",
+		miss_sfx = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_rotate = "",
+		orbit_ui = "",
+		orbit_ui_back = 0,
+		orbit_combat_bound = "",
+		ship_skin_id = 0,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "yulei_jingjimeigui_hit",
+		id = 3072,
+		derivate_torpedo = "",
+		orbit_slg = "",
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[3075] = {
+		hit_sfx = "",
+		bullet_name = "",
+		name = "彩虹流星",
+		type = 1,
+		preview_hit_distance = 0,
+		themeid = 199,
+		orbit_combat = "shebei_xingxingguanghuan",
+		desc = "小安克雷奇——2025年趣味投票最受欢迎的小船优胜纪念",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "shebei_xingxingguanghuanui",
+		miss_sfx = "",
+		orbit_combat_anima_change = "",
+		icon = "99194",
+		orbit_rotate = false,
+		orbit_ui_back = 1,
+		mirror = 0,
+		rarity = 4,
+		ship_skin_id = 0,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		id = 3075,
+		derivate_torpedo = "",
+		orbit_slg = "",
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		double_char_bone = {
+			1,
+			0,
+			1
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				0.06,
+				-3.16,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-2.86,
+				-18
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -63765,6 +63904,9 @@ pg.equip_skin_template = {
 		3066,
 		3067,
 		3068,
-		3069
+		3069,
+		3071,
+		3072,
+		3075
 	}
 }

@@ -185,6 +185,7 @@ end
 function var_0_0.Show(arg_25_0)
 	var_0_0.super.Show(arg_25_0)
 	arg_25_0:Flush()
+	setActive(arg_25_0.togglePanel, true)
 end
 
 function var_0_0.Flush(arg_26_0)

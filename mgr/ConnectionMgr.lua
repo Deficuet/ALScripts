@@ -179,6 +179,7 @@ function var_0_1.Reconnect(arg_5_0, arg_5_1)
 
 				var_0_0.NewGuideMgr.GetInstance():Resume()
 				var_0_0.m02:sendNotification(GAME.ON_RECONNECTION)
+				var_0_0.m02:sendNotification(GAME.ON_APPLICATION_PAUSE, false)
 			else
 				originalPrint("reconnect failed: " .. arg_7_0.result)
 				var_0_0.m02:sendNotification(GAME.LOGOUT, {

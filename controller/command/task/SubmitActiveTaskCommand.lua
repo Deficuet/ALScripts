@@ -96,17 +96,28 @@ function var_0_0.submitActivity(arg_6_0, arg_6_1, arg_6_2, arg_6_3, arg_6_4)
 					awards = var_7_0
 				})
 			elseif table.contains(TotalTaskProxy.activity_task_type, arg_6_3) then
-				var_7_0 = PlayerConst.addTranDrop(arg_7_0.award_list, {})
-
 				for iter_7_2, iter_7_3 in ipairs(arg_6_2) do
 					arg_6_0:updateTaskActivityData(iter_7_3.id, arg_6_1.act_id)
 					arg_6_0:updateTaskBagData(iter_7_3.id, arg_6_1.act_id)
 					SubmitTaskCommand.OnSubmitSuccess(iter_7_3)
 				end
 
-				arg_6_0:sendNotification(arg_6_0:GetSubmitActivityTaskDone(), {
-					awards = var_7_0
-				}, arg_6_1.task_ids)
+				if arg_6_1.inIsland then
+					local var_7_7 = IslandDropHelper.AddItems({
+						drop_list = arg_7_0.award_list
+					})
+
+					arg_6_0:sendNotification(GAME.SUBMIT_ACTIVITY_TASK_IN_ISLAND_DONE, {
+						dropData = var_7_7,
+						actId = arg_6_1.act_id
+					})
+				else
+					var_7_0 = PlayerConst.addTranDrop(arg_7_0.award_list, {})
+
+					arg_6_0:sendNotification(arg_6_0:GetSubmitActivityTaskDone(), {
+						awards = var_7_0
+					}, arg_6_1.task_ids)
+				end
 			elseif table.contains(TotalTaskProxy.normal_task_type, arg_6_3) then
 				var_7_0 = PlayerConst.addTranDrop(arg_7_0.award_list, {})
 
@@ -145,8 +156,11 @@ function var_0_0.submitActivity(arg_6_0, arg_6_1, arg_6_2, arg_6_3, arg_6_4)
 end
 
 function var_0_0.updateTaskActivityData(arg_8_0, arg_8_1, arg_8_2)
-	if getProxy(ActivityProxy):getActivityById(arg_8_2) then
+	local var_8_0 = getProxy(ActivityProxy):getActivityById(arg_8_2)
+
+	if var_8_0 then
 		getProxy(ActivityTaskProxy):finishActTask(arg_8_2, arg_8_1)
+		arg_8_0:sendNotification(ActivityProxy.ACTIVITY_UPDATED, var_8_0)
 	end
 end
 

@@ -68,6 +68,7 @@ end
 function var_0_0.listNotificationInterests(arg_7_0)
 	return {
 		GAME.BEGIN_STAGE_DONE,
+		GAME.CONTINUE_STAGE_DONE,
 		NewBattleResultMediator.SET_SKIP_FLAG,
 		ContinuousOperationMediator.CONTINUE_OPERATION,
 		GAME.ACT_BOSS_EXCHANGE_TICKET_DONE,
@@ -81,6 +82,8 @@ function var_0_0.handleNotification(arg_8_0, arg_8_1)
 
 	if var_8_0 == GAME.BEGIN_STAGE_DONE then
 		arg_8_0:sendNotification(GAME.CHANGE_SCENE, SCENE.COMBATLOAD, var_8_1)
+	elseif var_8_0 == GAME.CONTINUE_STAGE_DONE then
+		arg_8_0:sendNotification(GAME.CHANGE_SCENE, SCENE.BOSSRUSH_PASSED_COMBATLOAD, var_8_1)
 	elseif var_8_0 == ContinuousOperationMediator.CONTINUE_OPERATION then
 		arg_8_0.contextData.continuousBattleTimes = arg_8_0.contextData.continuousBattleTimes - 1
 	elseif var_8_0 == NewBattleResultMediator.SET_SKIP_FLAG then

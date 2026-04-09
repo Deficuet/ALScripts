@@ -250,7 +250,7 @@ pg.base.ship_skin_template_1 = {
 	},
 	[100002] = {
 		ship_group = 10000,
-		name = "布里愚人节",
+		name = "变身！魔法少女★buli！",
 		hand_id = 5,
 		lover_kiss = "lip01",
 		bgm = "",
@@ -287,7 +287,7 @@ pg.base.ship_skin_template_1 = {
 		l2d_voice_calibrate = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "布里愚人节",
+		desc = "buli~buli~magic变身~！守护爱与正义的魔法少女buli来了！获得新力量的布里超厉害的buli！",
 		voice_actor = 72,
 		spine_offset = "",
 		change_skin = "",

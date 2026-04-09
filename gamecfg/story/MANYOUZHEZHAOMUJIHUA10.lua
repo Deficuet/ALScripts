@@ -446,7 +446,8 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "<color=#ff5c5c>市政管理系统：您的选择，将确定本次行动的最终结局。</color>",
+			say = "市政管理系统：您的选择，将确定本次行动的最终结局。",
+			sayColor = "#ff5c5c",
 			bgm = "story-wanderingcity-pv",
 			typewriter = {
 				speed = 0.05,

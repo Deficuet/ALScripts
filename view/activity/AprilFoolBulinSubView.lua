@@ -100,4 +100,10 @@ function var_0_0.ShowAprilFoolBulin(arg_8_0, arg_8_1, arg_8_2)
 	return var_8_7
 end
 
+function var_0_0.OnDestroy(arg_9_0)
+	existCall(arg_9_0.destroyCall)
+
+	arg_9_0.destroyCall = nil
+end
+
 return var_0_0

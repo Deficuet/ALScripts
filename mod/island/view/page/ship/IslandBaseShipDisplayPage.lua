@@ -45,21 +45,33 @@ function var_0_0.LoadCharacterScene(arg_7_0, arg_7_1)
 end
 
 function var_0_0.ModifyCameraMask(arg_9_0)
-	local var_9_0 = IslandCameraMgr.instance._mainCamera
+	local var_9_0 = IslandCameraMgr.instance
 
-	arg_9_0.defaultCullingMask = var_9_0.cullingMask
+	if IsNil(var_9_0) then
+		var_9_0 = CheatTavernCameraMgr.instance
+	end
 
-	LuaHelper.SetCamCullingMask(var_9_0, "Character3D")
+	local var_9_1 = var_9_0._mainCamera
+
+	arg_9_0.defaultCullingMask = var_9_1.cullingMask
+
+	LuaHelper.SetCamCullingMask(var_9_1, "Character3D")
 end
 
 function var_0_0.ActivityCharacterCamera(arg_10_0)
 	local var_10_0 = arg_10_0:GetActiveCamName()
-	local var_10_1 = IslandCameraMgr.instance:GetVirtualCamera(var_10_0)
+	local var_10_1 = IslandCameraMgr.instance
 
-	var_10_1.Follow = arg_10_0.roleContainer
-	var_10_1.LookAt = arg_10_0.roleContainer
+	if IsNil(var_10_1) then
+		var_10_1 = CheatTavernCameraMgr.instance
+	end
 
-	IslandCameraMgr.instance:ActiveVirtualCamera(var_10_0)
+	local var_10_2 = var_10_1:GetVirtualCamera(var_10_0)
+
+	var_10_2.Follow = arg_10_0.roleContainer
+	var_10_2.LookAt = arg_10_0.roleContainer
+
+	var_10_1:ActiveVirtualCamera(var_10_0)
 end
 
 function var_0_0.InitSceneTimeline(arg_11_0)
@@ -218,10 +230,16 @@ function var_0_0.UnLoadCharacterScene(arg_22_0, arg_22_1)
 end
 
 function var_0_0.ResetCameraMask(arg_24_0)
-	if arg_24_0.defaultCullingMask and IslandCameraMgr.instance then
-		local var_24_0 = IslandCameraMgr.instance._mainCamera
+	local var_24_0 = IslandCameraMgr.instance
 
-		LuaHelper.ResetCamCullingMask(var_24_0, arg_24_0.defaultCullingMask)
+	if IsNil(var_24_0) then
+		var_24_0 = CheatTavernCameraMgr.instance
+	end
+
+	if arg_24_0.defaultCullingMask and var_24_0 then
+		local var_24_1 = var_24_0._mainCamera
+
+		LuaHelper.ResetCamCullingMask(var_24_1, arg_24_0.defaultCullingMask)
 	end
 end
 

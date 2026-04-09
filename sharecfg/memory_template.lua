@@ -4077,6 +4077,16 @@ pg.memory_template = setmetatable({
 		5055,
 		5056,
 		5057,
+		5061,
+		5062,
+		5063,
+		5071,
+		5072,
+		5073,
+		5074,
+		5075,
+		5076,
+		5077,
 		10011,
 		10012,
 		10013,
@@ -65481,6 +65491,156 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"MANYOUZHEZHAOMUJIHUA17"
+		}
+	},
+	[5061] = {
+		type = 1,
+		subtitle = "",
+		story = "SHANYAOBULIDAZUOZHAN1",
+		mask = "bg/bg_memory",
+		title = "万能魔方",
+		condition = "开始「闪耀★布里★大作战」活动",
+		number = 0,
+		id = 5061,
+		icon = "memory_shanyaobulidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOBULIDAZUOZHAN1"
+		}
+	},
+	[5062] = {
+		type = 1,
+		subtitle = "",
+		story = "SHANYAOBULIDAZUOZHAN2",
+		mask = "bg/bg_memory",
+		title = "正义联盟",
+		condition = "收集完全部密码",
+		number = 0,
+		id = 5062,
+		icon = "memory_shanyaobulidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOBULIDAZUOZHAN2"
+		}
+	},
+	[5063] = {
+		type = 2,
+		subtitle = "",
+		story = "1360007",
+		mask = "bg/bg_memory",
+		title = "闪耀大作战",
+		condition = "进入特殊战斗",
+		number = 0,
+		id = 5063,
+		icon = "memory_shanyaobulidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"1360007"
+		}
+	},
+	[5071] = {
+		type = 1,
+		subtitle = "",
+		story = "DEWENJUN1",
+		mask = "bg/bg_memory",
+		title = "意外的约会申请",
+		condition = "解锁「真实与伪饰的她」任务1",
+		number = 0,
+		id = 5071,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN1"
+		}
+	},
+	[5072] = {
+		type = 1,
+		subtitle = "",
+		story = "DEWENJUN2",
+		mask = "bg/bg_memory",
+		title = "糖霜密语",
+		condition = "解锁「真实与伪饰的她」任务2",
+		number = 0,
+		id = 5072,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN2"
+		}
+	},
+	[5073] = {
+		type = 1,
+		subtitle = "",
+		story = "DEWENJUN3",
+		mask = "bg/bg_memory",
+		title = "限时魔法",
+		condition = "解锁「真实与伪饰的她」任务3",
+		number = 0,
+		id = 5073,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN3"
+		}
+	},
+	[5074] = {
+		type = 1,
+		subtitle = "",
+		story = "DEWENJUN4",
+		mask = "bg/bg_memory",
+		title = "错乱的塔罗",
+		condition = "解锁「真实与伪饰的她」任务4",
+		number = 0,
+		id = 5074,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN4"
+		}
+	},
+	[5075] = {
+		type = 1,
+		subtitle = "",
+		story = "DEWENJUN5",
+		mask = "bg/bg_memory",
+		title = "约会的终点",
+		condition = "解锁「真实与伪饰的她」任务5",
+		number = 0,
+		id = 5075,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN5"
+		}
+	},
+	[5076] = {
+		type = 1,
+		subtitle = "",
+		story = "DEWENJUN6",
+		mask = "bg/bg_memory",
+		title = "真实的德文郡",
+		condition = "解锁「真实与伪饰的她」任务6",
+		number = 0,
+		id = 5076,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN6"
+		}
+	},
+	[5077] = {
+		type = 1,
+		subtitle = "",
+		story = "DEWENJUN7",
+		mask = "bg/bg_memory",
+		title = "输家的惩罚",
+		condition = "解锁「真实与伪饰的她」任务7",
+		number = 0,
+		id = 5077,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN7"
 		}
 	},
 	[10011] = {

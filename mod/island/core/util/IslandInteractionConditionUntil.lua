@@ -13,6 +13,7 @@ var_0_0.SHOW_TYPE_CAN_WILD_SIGNIN = 10
 var_0_0.SHOW_TYPE_ABILITY = 11
 var_0_0.SHOW_TYPE_TASK_TARGET = 12
 var_0_0.SHOW_TYPE_SELF_ABILITY = 13
+var_0_0.SHOW_TYPE_ACTIVITY = 14
 
 function var_0_0.Check(arg_1_0, arg_1_1)
 	local var_1_0 = arg_1_1[1]
@@ -62,6 +63,9 @@ function var_0_0.Check(arg_1_0, arg_1_1)
 			local var_12_0 = arg_1_0:GetTaskAgency():GetTask(var_1_1)
 
 			return var_12_0 and var_12_0:GetTargetById(var_1_2) and not var_12_0:GetTargetById(var_1_2):IsFinish()
+		end,
+		[var_0_0.SHOW_TYPE_ACTIVITY] = function()
+			return getProxy(ActivityProxy):IsActivityNotEnd(var_1_1)
 		end
 	}, function()
 		assert(false, "非法显示条件类型:" .. var_1_0)

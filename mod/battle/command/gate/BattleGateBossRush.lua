@@ -64,10 +64,16 @@ function var_0_0.Entrance(arg_1_0, arg_1_1)
 			actId = var_1_0,
 			token = arg_2_0.key,
 			continuousBattleTimes = arg_1_0.continuousBattleTimes,
-			totalBattleTimes = arg_1_0.totalBattleTimes
+			totalBattleTimes = arg_1_0.totalBattleTimes,
+			curIndex = arg_1_0.curIndex,
+			maxIndex = arg_1_0.maxIndex
 		}
 
-		arg_1_1:sendNotification(GAME.BEGIN_STAGE_DONE, var_2_1)
+		if arg_1_0.curIndex then
+			arg_1_1:sendNotification(GAME.CONTINUE_STAGE_DONE, var_2_1)
+		else
+			arg_1_1:sendNotification(GAME.BEGIN_STAGE_DONE, var_2_1)
+		end
 	end
 
 	local function var_1_21(arg_3_0)
@@ -197,6 +203,8 @@ function var_0_0.GetPreloadList(arg_8_0)
 	for iter_8_6, iter_8_7 in ipairs(var_8_18) do
 		table.insert(var_8_16, iter_8_7)
 	end
+
+	return var_8_16, var_8_17
 end
 
 return var_0_0

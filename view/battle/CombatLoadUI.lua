@@ -51,7 +51,6 @@ function var_0_0.Preload(arg_6_0)
 	PoolMgr.GetInstance():DestroyAllSprite()
 
 	arg_6_0._loadObs = {}
-	arg_6_0._toLoad = {}
 
 	ys.Battle.BattleFXPool.GetInstance():Init()
 
@@ -304,23 +303,6 @@ function var_0_0.addCommanderBuffRes(arg_13_0)
 		for iter_13_2, iter_13_3 in ipairs(var_13_1) do
 			var_13_0:AddPreloadResource(iter_13_3)
 		end
-	end
-end
-
-function var_0_0.StartLoad(arg_14_0, arg_14_1, arg_14_2, arg_14_3)
-	arg_14_0._toLoad[arg_14_3] = 1
-
-	LoadAndInstantiateAsync(arg_14_1, arg_14_2, function(arg_15_0)
-		arg_14_0:LoadFinish(arg_15_0, arg_14_3)
-	end)
-end
-
-function var_0_0.LoadFinish(arg_16_0, arg_16_1, arg_16_2)
-	arg_16_0._loadObs.map = arg_16_1
-	arg_16_0._toLoad.map = nil
-
-	if table.getCount(arg_16_0._toLoad) <= 0 then
-		arg_16_0._go:GetComponent("Animator"):Play("start")
 	end
 end
 

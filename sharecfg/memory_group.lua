@@ -266,6 +266,7 @@ pg.memory_group = setmetatable({
 		357,
 		358,
 		359,
+		360,
 		501,
 		502,
 		503,
@@ -384,6 +385,7 @@ pg.memory_group = setmetatable({
 		618,
 		619,
 		620,
+		621,
 		1000,
 		1001,
 		1002,
@@ -6862,6 +6864,21 @@ pg.base.memory_group = {
 			5057
 		}
 	},
+	[360] = {
+		auto_unlock = "",
+		subtype = 2,
+		title = "闪耀★布里★大作战",
+		type = 2,
+		link_event = 50493,
+		icon = "title_event",
+		id = 360,
+		group_id = "",
+		memories = {
+			5061,
+			5062,
+			5063
+		}
+	},
 	[501] = {
 		auto_unlock = "",
 		subtype = 0,
@@ -9346,6 +9363,27 @@ pg.base.memory_group = {
 			5035,
 			5036,
 			5037
+		},
+		group_id = {
+			10000
+		}
+	},
+	[621] = {
+		auto_unlock = "",
+		subtype = 0,
+		title = "真实与伪饰的她",
+		type = 3,
+		link_event = 0,
+		icon = "title_chara_dewenjun",
+		id = 621,
+		memories = {
+			5071,
+			5072,
+			5073,
+			5074,
+			5075,
+			5076,
+			5077
 		},
 		group_id = {
 			10000

@@ -373,8 +373,8 @@ function var_0_0.selectActivity(arg_35_0, arg_35_1)
 
 		local var_40_0 = arg_35_0.pageDic[arg_35_0.activity.id]
 
-		var_40_0:ActionInvoke("Flush", arg_35_0.activity)
 		var_40_0:ActionInvoke("ShowOrHide", true)
+		var_40_0:ActionInvoke("Flush", arg_35_0.activity)
 		setActive(arg_35_0.permanentFinshMask, pg.activity_task_permanent[arg_35_1.id] and arg_35_1:canPermanentFinish())
 	end)
 end

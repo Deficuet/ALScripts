@@ -25,6 +25,7 @@ var_0_0.ON_EQUIPMENT = "BaseUI:ON_EQUIPMENT"
 var_0_0.ON_SPWEAPON = "BaseUI:ON_SPWEAPON"
 var_0_0.ON_SHIP_EXP = "BaseUI.ON_SHIP_EXP"
 var_0_0.ON_BACK_PRESSED = "BaseUI:ON_BACK_PRESS"
+var_0_0.ON_ADD_SUBLAYER = "BaseUI:ON_ADD_SUBLAYER"
 
 function var_0_0.Ctor(arg_1_0)
 	var_0_0.super.Ctor(arg_1_0)

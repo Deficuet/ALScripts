@@ -84,6 +84,44 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_skin_words[100002] = {
+		mission = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		win_mvp = "敌人都被爱的力量净化了buli！",
+		home = "指挥官回来了，有没有受伤？只要用充满爱的魔法扳手敲一敲，痛痛就都会飞走了buli！",
+		unlock = "buli~buli~magic变身~！守护爱与正义的魔法少女buli来了！获得新力量的布里超厉害的buli！",
+		touch2 = "魔力，要补满了buli——！",
+		skill = "",
+		vote = "",
+		drop_descrip = "buli~buli~magic变身~！守护爱与正义的魔法少女buli来了！获得新力量的布里超厉害的buli！",
+		mail = "",
+		lose = "魔力耗尽了buli……",
+		propose = "",
+		touch = "别害怕！魔法少女buli来咯！",
+		voice_key_2 = -1,
+		battle = "",
+		feeling5 = "",
+		main = "港区的和平，就由人家来守护buli！|魔杖在哪里……？人家用的是更强的魔法扳手buli！|人家魔法少女的身份，只有指挥官一个人知道哦~指挥官要帮人家保守秘密buli！",
+		gift_dislike = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		voice_key = 0,
+		gift_prefer = "",
+		hp_warning = "",
+		id = 100002,
+		profile = "",
+		login = "指挥官快看！布里的新衣服会bulibuli地发光哦！比港区的星星还要闪亮buli！",
+		detail = "签订了契约之后，布里就可以使用超厉害超炫酷的魔法了buli！好神奇！嗯嗯，人家是和指挥官签的契约buli~",
+		couple_encourage = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_skin_words[100010] = {
 		mission = "purin！——新的任务，就决定是你了！",
 		feeling3 = "既然你这么有耐心，告诉你一个小秘密吧，妹妹虽然总是自称比我聪明，但她才是最笨的那一个。哇哈哈，这就是长姐的仁慈呀喵！",
@@ -80395,7 +80433,7 @@ end)()
 		mission_complete = "",
 		headtouch = "就算是在温泉里，这撮头发好像也不会塌下来。",
 		feeling2 = "",
-		voice_key = 0,
+		voice_key = -1,
 		gift_prefer = "",
 		hp_warning = "",
 		id = 804011,

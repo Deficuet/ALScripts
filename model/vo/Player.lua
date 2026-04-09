@@ -742,102 +742,73 @@ function var_0_0.GetFlagShip(arg_81_0)
 	return var_81_2
 end
 
-local function var_0_5(arg_82_0)
-	local var_82_0 = {}
-	local var_82_1 = {}
-	local var_82_2 = getProxy(SettingsProxy):GetFlagShipDisplayMode()
-	local var_82_3 = getProxy(PlayerProxy):getRawData():ExistEducateChar()
+function var_0_0.GetCurrentFlagShip(arg_82_0)
+	local var_82_0 = getProxy(SettingsProxy)
+	local var_82_1 = var_82_0:getCurrentSecretaryIndex()
+	local var_82_2
 
-	if var_82_2 == FlAG_SHIP_DISPLAY_ONLY_EDUCATECHAR and not var_82_3 then
-		var_82_2 = FlAG_SHIP_DISPLAY_ALL
-
-		getProxy(SettingsProxy):SetFlagShipDisplayMode(var_82_2)
+	if var_82_0:IsOpenRandomFlagShip() then
+		var_82_2 = arg_82_0:GetRandomFlagShip(var_82_1)
+	else
+		var_82_2 = arg_82_0:GetNativeFlagShip(var_82_1, true)
 	end
 
-	if var_82_2 ~= FlAG_SHIP_DISPLAY_ONLY_EDUCATECHAR then
-		local var_82_4 = getProxy(BayProxy)
+	return var_82_2
+end
 
-		for iter_82_0, iter_82_1 in ipairs(arg_82_0) do
-			var_82_0[iter_82_0] = false
+local function var_0_5(arg_83_0)
+	local var_83_0 = {}
+	local var_83_1 = {}
+	local var_83_2 = getProxy(SettingsProxy):GetFlagShipDisplayMode()
+	local var_83_3 = getProxy(PlayerProxy):getRawData():ExistEducateChar()
 
-			local var_82_5 = var_82_4:GetShipPhantom(iter_82_1)
+	if var_83_2 == FlAG_SHIP_DISPLAY_ONLY_EDUCATECHAR and not var_83_3 then
+		var_83_2 = FlAG_SHIP_DISPLAY_ALL
 
-			if var_82_5 then
-				var_82_0[iter_82_0] = var_82_5
+		getProxy(SettingsProxy):SetFlagShipDisplayMode(var_83_2)
+	end
+
+	if var_83_2 ~= FlAG_SHIP_DISPLAY_ONLY_EDUCATECHAR then
+		local var_83_4 = getProxy(BayProxy)
+
+		for iter_83_0, iter_83_1 in ipairs(arg_83_0) do
+			var_83_0[iter_83_0] = false
+
+			local var_83_5 = var_83_4:GetShipPhantom(iter_83_1)
+
+			if var_83_5 then
+				var_83_0[iter_83_0] = var_83_5
 			end
 
-			table.insert(var_82_1, iter_82_0)
+			table.insert(var_83_1, iter_83_0)
 		end
 	end
 
-	if var_82_3 and var_82_2 ~= FlAG_SHIP_DISPLAY_ONLY_SHIP then
-		table.insert(var_82_1, PlayerVitaeShipsPage.EDUCATE_CHAR_SLOT_ID)
+	if var_83_3 and var_83_2 ~= FlAG_SHIP_DISPLAY_ONLY_SHIP then
+		table.insert(var_83_1, PlayerVitaeShipsPage.EDUCATE_CHAR_SLOT_ID)
 
-		local var_82_6 = getProxy(PlayerProxy):getRawData():GetEducateCharacter()
-		local var_82_7 = VirtualEducateCharShip.New(var_82_6)
+		local var_83_6 = getProxy(PlayerProxy):getRawData():GetEducateCharacter()
+		local var_83_7 = VirtualEducateCharShip.New(var_83_6)
 
-		var_82_0[PlayerVitaeShipsPage.EDUCATE_CHAR_SLOT_ID] = var_82_7
+		var_83_0[PlayerVitaeShipsPage.EDUCATE_CHAR_SLOT_ID] = var_83_7
 	end
 
-	return var_82_0, var_82_1
+	return var_83_0, var_83_1
 end
 
-function var_0_0.GetNativeFlagShip(arg_83_0, arg_83_1)
-	local var_83_0, var_83_1 = var_0_5(arg_83_0:GetShipPhantomMarks())
-	local var_83_2 = getProxy(SettingsProxy)
+function var_0_0.GetNativeFlagShip(arg_84_0, arg_84_1, arg_84_2)
+	local var_84_0, var_84_1 = var_0_5(arg_84_0:GetShipPhantomMarks())
+	local var_84_2 = getProxy(SettingsProxy)
 
-	if getProxy(PlayerProxy):getFlag("battle") then
-		local var_83_3 = math.random(#var_83_1)
+	if getProxy(PlayerProxy):getFlag("battle") and not arg_84_2 then
+		local var_84_3 = math.random(#var_84_1)
 
-		arg_83_1 = var_83_1[var_83_3]
+		arg_84_1 = var_84_1[var_84_3]
 
-		var_83_2:setCurrentSecretaryIndex(var_83_3)
+		var_84_2:setCurrentSecretaryIndex(var_84_3)
 	end
 
-	local var_83_4 = var_83_0[arg_83_1]
-
-	if not var_83_4 then
-		local var_83_5 = PlayerVitaeShipsPage.GetSlotIndexList()
-		local var_83_6 = table.indexof(var_83_5, arg_83_1)
-
-		if var_83_6 and var_83_6 > 0 then
-			for iter_83_0 = var_83_6 + 1, #var_83_5 do
-				arg_83_1 = var_83_5[iter_83_0]
-				var_83_4 = var_83_0[arg_83_1]
-
-				if var_83_4 then
-					var_83_2:setCurrentSecretaryIndex(iter_83_0)
-
-					break
-				end
-			end
-		end
-	end
-
-	if not var_83_4 then
-		arg_83_1 = 1
-
-		var_83_2:setCurrentSecretaryIndex(arg_83_1)
-
-		var_83_4 = var_83_0[arg_83_1]
-	end
-
-	return var_83_4
-end
-
-function var_0_0.GetRandomFlagShip(arg_84_0, arg_84_1)
-	local var_84_0 = getProxy(SettingsProxy)
-	local var_84_1, var_84_2 = var_0_5(var_84_0:GetRandomFlagShipList())
-
-	if getProxy(PlayerProxy):getFlag("battle") then
-		local var_84_3 = math.random(#var_84_2)
-
-		arg_84_1 = var_84_2[var_84_3]
-
-		var_84_0:setCurrentSecretaryIndex(var_84_3)
-	end
-
-	local var_84_4 = var_84_1[arg_84_1]
+	local var_84_4 = var_84_0[arg_84_1]
 
 	if not var_84_4 then
 		local var_84_5 = PlayerVitaeShipsPage.GetSlotIndexList()
@@ -846,10 +817,10 @@ function var_0_0.GetRandomFlagShip(arg_84_0, arg_84_1)
 		if var_84_6 and var_84_6 > 0 then
 			for iter_84_0 = var_84_6 + 1, #var_84_5 do
 				arg_84_1 = var_84_5[iter_84_0]
-				var_84_4 = var_84_1[arg_84_1]
+				var_84_4 = var_84_0[arg_84_1]
 
 				if var_84_4 then
-					var_84_0:setCurrentSecretaryIndex(iter_84_0)
+					var_84_2:setCurrentSecretaryIndex(iter_84_0)
 
 					break
 				end
@@ -858,122 +829,165 @@ function var_0_0.GetRandomFlagShip(arg_84_0, arg_84_1)
 	end
 
 	if not var_84_4 then
-		local var_84_7 = {}
-
-		for iter_84_1, iter_84_2 in pairs(var_84_1) do
-			if iter_84_2 then
-				table.insert(var_84_7, iter_84_1)
-			end
-		end
-
-		if #var_84_7 > 0 then
-			arg_84_1 = var_84_7[math.random(1, #var_84_7)]
-			var_84_4 = var_84_1[arg_84_1]
-
-			local var_84_8 = table.indexof(var_84_2, arg_84_1)
-
-			if var_84_8 then
-				var_84_0:setCurrentSecretaryIndex(var_84_8)
-			end
-		end
-	end
-
-	if not var_84_4 then
 		arg_84_1 = 1
 
-		var_84_0:setCurrentSecretaryIndex(arg_84_1)
+		var_84_2:setCurrentSecretaryIndex(arg_84_1)
 
-		var_84_4 = var_84_1[arg_84_1]
+		var_84_4 = var_84_0[arg_84_1]
 	end
 
 	return var_84_4
 end
 
-function var_0_0.GetNextFlagShip(arg_85_0)
+function var_0_0.GetRandomFlagShip(arg_85_0, arg_85_1)
+	local var_85_0 = getProxy(SettingsProxy)
+	local var_85_1, var_85_2 = var_0_5(var_85_0:GetRandomFlagShipList())
+
+	if getProxy(PlayerProxy):getFlag("battle") then
+		local var_85_3 = math.random(#var_85_2)
+
+		arg_85_1 = var_85_2[var_85_3]
+
+		var_85_0:setCurrentSecretaryIndex(var_85_3)
+	end
+
+	local var_85_4 = var_85_1[arg_85_1]
+
+	if not var_85_4 then
+		local var_85_5 = PlayerVitaeShipsPage.GetSlotIndexList()
+		local var_85_6 = table.indexof(var_85_5, arg_85_1)
+
+		if var_85_6 and var_85_6 > 0 then
+			for iter_85_0 = var_85_6 + 1, #var_85_5 do
+				arg_85_1 = var_85_5[iter_85_0]
+				var_85_4 = var_85_1[arg_85_1]
+
+				if var_85_4 then
+					var_85_0:setCurrentSecretaryIndex(iter_85_0)
+
+					break
+				end
+			end
+		end
+	end
+
+	if not var_85_4 then
+		local var_85_7 = {}
+
+		for iter_85_1, iter_85_2 in pairs(var_85_1) do
+			if iter_85_2 then
+				table.insert(var_85_7, iter_85_1)
+			end
+		end
+
+		if #var_85_7 > 0 then
+			arg_85_1 = var_85_7[math.random(1, #var_85_7)]
+			var_85_4 = var_85_1[arg_85_1]
+
+			local var_85_8 = table.indexof(var_85_2, arg_85_1)
+
+			if var_85_8 then
+				var_85_0:setCurrentSecretaryIndex(var_85_8)
+			end
+		end
+	end
+
+	if not var_85_4 then
+		arg_85_1 = 1
+
+		var_85_0:setCurrentSecretaryIndex(arg_85_1)
+
+		var_85_4 = var_85_1[arg_85_1]
+	end
+
+	return var_85_4
+end
+
+function var_0_0.GetNextFlagShip(arg_86_0)
 	getProxy(SettingsProxy):rotateCurrentSecretaryIndex()
 
-	return arg_85_0:GetFlagShip()
+	return arg_86_0:GetFlagShip()
 end
 
-function var_0_0.IsOpenShipEvaluationImpeach(arg_86_0)
-	return not LOCK_IMPEACH and arg_86_0.level >= pg.gameset.report_level_limit.key_value
+function var_0_0.IsOpenShipEvaluationImpeach(arg_87_0)
+	return not LOCK_IMPEACH and arg_87_0.level >= pg.gameset.report_level_limit.key_value
 end
 
-function var_0_0.ShouldCheckCustomName(arg_87_0)
-	return arg_87_0:GetCommonFlag(REVERT_CUSTOM_NAME)
+function var_0_0.ShouldCheckCustomName(arg_88_0)
+	return arg_88_0:GetCommonFlag(REVERT_CUSTOM_NAME)
 end
 
-function var_0_0.WhetherServerModifiesName(arg_88_0)
-	return arg_88_0:GetCommonFlag(ILLEGALITY_PLAYER_NAME)
+function var_0_0.WhetherServerModifiesName(arg_89_0)
+	return arg_89_0:GetCommonFlag(ILLEGALITY_PLAYER_NAME)
 end
 
-function var_0_0.GetManifesto(arg_89_0)
-	return arg_89_0.manifesto or ""
+function var_0_0.GetManifesto(arg_90_0)
+	return arg_90_0.manifesto or ""
 end
 
-function var_0_0.GetName(arg_90_0)
-	return arg_90_0.name
+function var_0_0.GetName(arg_91_0)
+	return arg_91_0.name
 end
 
-function var_0_0.GetRandomFlagShipMode(arg_91_0)
-	if arg_91_0.randomShipMode <= 0 then
-		if arg_91_0:GetCommonFlag(RANDOM_FLAG_SHIP_MODE) then
-			arg_91_0.randomShipMode = SettingsRandomFlagShipAndSkinPanel.SHIP_LOCKED
+function var_0_0.GetRandomFlagShipMode(arg_92_0)
+	if arg_92_0.randomShipMode <= 0 then
+		if arg_92_0:GetCommonFlag(RANDOM_FLAG_SHIP_MODE) then
+			arg_92_0.randomShipMode = SettingsRandomFlagShipAndSkinPanel.SHIP_LOCKED
 		else
-			arg_91_0.randomShipMode = SettingsRandomFlagShipAndSkinPanel.SHIP_FREQUENTLYUSED
+			arg_92_0.randomShipMode = SettingsRandomFlagShipAndSkinPanel.SHIP_FREQUENTLYUSED
 		end
 	end
 
-	return arg_91_0.randomShipMode
+	return arg_92_0.randomShipMode
 end
 
-function var_0_0.UpdateRandomFlagShipMode(arg_92_0, arg_92_1)
-	arg_92_0.randomShipMode = arg_92_1
+function var_0_0.UpdateRandomFlagShipMode(arg_93_0, arg_93_1)
+	arg_93_0.randomShipMode = arg_93_1
 end
 
-function var_0_0.SetProposeShipId(arg_93_0, arg_93_1)
-	arg_93_0.proposeShipId = arg_93_1
+function var_0_0.SetProposeShipId(arg_94_0, arg_94_1)
+	arg_94_0.proposeShipId = arg_94_1
 end
 
-function var_0_0.GetProposeShipId(arg_94_0)
-	return arg_94_0.proposeShipId
+function var_0_0.GetProposeShipId(arg_95_0)
+	return arg_95_0.proposeShipId
 end
 
-function var_0_0.GetCryptolaliaList(arg_95_0)
-	local var_95_0 = {}
-	local var_95_1 = {}
-	local var_95_2 = arg_95_0.unlockCryptolaliaList
+function var_0_0.GetCryptolaliaList(arg_96_0)
+	local var_96_0 = {}
+	local var_96_1 = {}
+	local var_96_2 = arg_96_0.unlockCryptolaliaList
 
-	for iter_95_0, iter_95_1 in ipairs(var_95_2) do
-		var_95_1[iter_95_1] = true
+	for iter_96_0, iter_96_1 in ipairs(var_96_2) do
+		var_96_1[iter_96_1] = true
 	end
 
-	for iter_95_2, iter_95_3 in ipairs(pg.soundstory_template.all) do
-		local var_95_3 = Cryptolalia.New({
-			id = iter_95_3
+	for iter_96_2, iter_96_3 in ipairs(pg.soundstory_template.all) do
+		local var_96_3 = Cryptolalia.New({
+			id = iter_96_3
 		})
 
-		if var_95_1[iter_95_3] then
-			var_95_3:Unlock()
+		if var_96_1[iter_96_3] then
+			var_96_3:Unlock()
 		end
 
-		table.insert(var_95_0, var_95_3)
+		table.insert(var_96_0, var_96_3)
 	end
 
-	return var_95_0
+	return var_96_0
 end
 
-function var_0_0.UnlockCryptolalia(arg_96_0, arg_96_1)
-	if not table.contains(arg_96_0.unlockCryptolaliaList) then
-		table.insert(arg_96_0.unlockCryptolaliaList, arg_96_1)
+function var_0_0.UnlockCryptolalia(arg_97_0, arg_97_1)
+	if not table.contains(arg_97_0.unlockCryptolaliaList) then
+		table.insert(arg_97_0.unlockCryptolaliaList, arg_97_1)
 	end
 end
 
-function var_0_0.ExistCryptolalia(arg_97_0, arg_97_1)
-	local var_97_0 = arg_97_0:GetCryptolaliaList()
+function var_0_0.ExistCryptolalia(arg_98_0, arg_98_1)
+	local var_98_0 = arg_98_0:GetCryptolaliaList()
 
-	for iter_97_0, iter_97_1 in ipairs(var_97_0) do
-		if (iter_97_1:InTime() or not iter_97_1:IsLock()) and iter_97_1:IsSameGroup(arg_97_1) then
+	for iter_98_0, iter_98_1 in ipairs(var_98_0) do
+		if (iter_98_1:InTime() or not iter_98_1:IsLock()) and iter_98_1:IsSameGroup(arg_98_1) then
 			return true
 		end
 	end
@@ -981,93 +995,93 @@ function var_0_0.ExistCryptolalia(arg_97_0, arg_97_1)
 	return false
 end
 
-function var_0_0.ExistEducateChar(arg_98_0)
-	return arg_98_0.educateCharacter > 0
+function var_0_0.ExistEducateChar(arg_99_0)
+	return arg_99_0.educateCharacter > 0
 end
 
-function var_0_0.GetEducateCharacter(arg_99_0)
-	return arg_99_0.educateCharacter
+function var_0_0.GetEducateCharacter(arg_100_0)
+	return arg_100_0.educateCharacter
 end
 
-function var_0_0.SetEducateCharacter(arg_100_0, arg_100_1)
-	arg_100_0.educateCharacter = arg_100_1
+function var_0_0.SetEducateCharacter(arg_101_0, arg_101_1)
+	arg_101_0.educateCharacter = arg_101_1
 end
 
-function var_0_0.CanGetResource(arg_101_0, arg_101_1)
-	local var_101_0 = id2res(arg_101_1)
-	local var_101_1
+function var_0_0.CanGetResource(arg_102_0, arg_102_1)
+	local var_102_0 = id2res(arg_102_1)
+	local var_102_1
 
-	if arg_101_1 == 1 then
-		var_101_1 = arg_101_0:getLevelMaxGold()
-	elseif arg_101_1 == 2 then
-		var_101_1 = arg_101_0:getLevelMaxOil()
+	if arg_102_1 == 1 then
+		var_102_1 = arg_102_0:getLevelMaxGold()
+	elseif arg_102_1 == 2 then
+		var_102_1 = arg_102_0:getLevelMaxOil()
 	else
 		assert(false)
 	end
 
-	if var_101_1 <= arg_101_0[var_101_0] then
+	if var_102_1 <= arg_102_0[var_102_0] then
 		return false
 	end
 
 	return true
 end
 
-function var_0_0.GetExtendStoreCost(arg_102_0)
-	local var_102_0 = pg.mail_storeroom[arg_102_0.mailStoreLevel]
-	local var_102_1 = {}
+function var_0_0.GetExtendStoreCost(arg_103_0)
+	local var_103_0 = pg.mail_storeroom[arg_103_0.mailStoreLevel]
+	local var_103_1 = {}
 
-	if var_102_0.upgrade_gem > 0 then
-		var_102_1.diamond = Drop.New({
+	if var_103_0.upgrade_gem > 0 then
+		var_103_1.diamond = Drop.New({
 			type = DROP_TYPE_RESOURCE,
 			id = PlayerConst.ResDiamond,
-			count = var_102_0.upgrade_gem
+			count = var_103_0.upgrade_gem
 		})
 	end
 
-	if var_102_0.upgrade_gold > 0 then
-		var_102_1.gold = Drop.New({
+	if var_103_0.upgrade_gold > 0 then
+		var_103_1.gold = Drop.New({
 			type = DROP_TYPE_RESOURCE,
 			id = PlayerConst.ResGold,
-			count = var_102_0.upgrade_gold
+			count = var_103_0.upgrade_gold
 		})
 	end
 
-	return var_102_1.diamond, var_102_1.gold
+	return var_103_1.diamond, var_103_1.gold
 end
 
-function var_0_0.IsStoreLevelMax(arg_103_0)
-	return not pg.mail_storeroom[arg_103_0.mailStoreLevel + 1]
+function var_0_0.IsStoreLevelMax(arg_104_0)
+	return not pg.mail_storeroom[arg_104_0.mailStoreLevel + 1]
 end
 
-function var_0_0.updateMedalList(arg_104_0, arg_104_1)
-	for iter_104_0, iter_104_1 in ipairs(arg_104_1) do
-		local var_104_0 = iter_104_1.key
-		local var_104_1 = iter_104_1.value
-		local var_104_2 = pg.activity_medal_template[var_104_0].group
+function var_0_0.updateMedalList(arg_105_0, arg_105_1)
+	for iter_105_0, iter_105_1 in ipairs(arg_105_1) do
+		local var_105_0 = iter_105_1.key
+		local var_105_1 = iter_105_1.value
+		local var_105_2 = pg.activity_medal_template[var_105_0].group
 
-		arg_104_0.activityMedalGroupList[var_104_2] = arg_104_0.activityMedalGroupList[var_104_2] or ActivityMedalGroup.New(var_104_2)
+		arg_105_0.activityMedalGroupList[var_105_2] = arg_105_0.activityMedalGroupList[var_105_2] or ActivityMedalGroup.New(var_105_2)
 
-		arg_104_0.activityMedalGroupList[var_104_2]:UpdateMedal(var_104_0, var_104_1)
+		arg_105_0.activityMedalGroupList[var_105_2]:UpdateMedal(var_105_0, var_105_1)
 	end
 end
 
-function var_0_0.getActivityMedalGroup(arg_105_0)
-	return arg_105_0.activityMedalGroupList
+function var_0_0.getActivityMedalGroup(arg_106_0)
+	return arg_106_0.activityMedalGroupList
 end
 
-function var_0_0.GetGuideIndex(arg_106_0, arg_106_1)
-	if arg_106_1 then
-		return arg_106_0.newGuideIndex
-	else
-		return arg_106_0.guideIndex
-	end
-end
-
-function var_0_0.UpdateGuideIndex(arg_107_0, arg_107_1, arg_107_2)
+function var_0_0.GetGuideIndex(arg_107_0, arg_107_1)
 	if arg_107_1 then
-		arg_107_0.newGuideIndex = arg_107_2
+		return arg_107_0.newGuideIndex
 	else
-		arg_107_0.guideIndex = arg_107_2
+		return arg_107_0.guideIndex
+	end
+end
+
+function var_0_0.UpdateGuideIndex(arg_108_0, arg_108_1, arg_108_2)
+	if arg_108_1 then
+		arg_108_0.newGuideIndex = arg_108_2
+	else
+		arg_108_0.guideIndex = arg_108_2
 	end
 end
 

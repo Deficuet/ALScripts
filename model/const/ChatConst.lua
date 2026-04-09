@@ -9,6 +9,7 @@ var_0_0.ChannelFriend = 4
 var_0_0.ChannelGuild = 5
 var_0_0.ChannelWorldBoss = 6
 var_0_0.ChannelIsland = 7
+var_0_0.ChannelPlayRoom = 8
 var_0_0.SendChannels = {
 	var_0_0.ChannelWorld,
 	var_0_0.ChannelGuild
@@ -27,23 +28,34 @@ function var_0_0.GetChannelName(arg_1_0)
 end
 
 function var_0_0.GetChannelSprite(arg_2_0)
-	if arg_2_0 == var_0_0.ChannelWorld then
-		return "world"
-	elseif arg_2_0 == var_0_0.ChannelPublic then
-		return "public"
-	elseif arg_2_0 == var_0_0.ChannelFriend then
-		return "friend"
-	elseif arg_2_0 == var_0_0.ChannelGuild then
-		return "guild"
-	elseif arg_2_0 == var_0_0.ChannelAll then
-		return "total"
-	elseif arg_2_0 == var_0_0.ChannelWorldBoss then
-		return "worldboss"
-	elseif arg_2_0 == var_0_0.ChannelIsland then
-		return "island"
-	end
-
-	assert(false)
+	return switch(arg_2_0, {
+		[var_0_0.ChannelWorld] = function()
+			return "world"
+		end,
+		[var_0_0.ChannelPublic] = function()
+			return "public"
+		end,
+		[var_0_0.ChannelFriend] = function()
+			return "friend"
+		end,
+		[var_0_0.ChannelGuild] = function()
+			return "guild"
+		end,
+		[var_0_0.ChannelAll] = function()
+			return "total"
+		end,
+		[var_0_0.ChannelWorldBoss] = function()
+			return "worldboss"
+		end,
+		[var_0_0.ChannelIsland] = function()
+			return "island"
+		end,
+		[var_0_0.ChannelPlayRoom] = function()
+			return "room"
+		end
+	}, function()
+		assert(false)
+	end)
 end
 
 var_0_0.EmojiCommon = 0
@@ -59,14 +71,14 @@ var_0_0.EmojiTypes = {
 	var_0_0.EmojiIcon
 }
 
-function var_0_0.GetEmojiSprite(arg_3_0)
-	if arg_3_0 == var_0_0.EmojiCommon then
+function var_0_0.GetEmojiSprite(arg_12_0)
+	if arg_12_0 == var_0_0.EmojiCommon then
 		return "tab_casual"
-	elseif arg_3_0 == var_0_0.EmojiDefault then
+	elseif arg_12_0 == var_0_0.EmojiDefault then
 		return "tab_default"
-	elseif arg_3_0 == var_0_0.EmojiAnimate then
+	elseif arg_12_0 == var_0_0.EmojiAnimate then
 		return "tab_motive"
-	elseif arg_3_0 == var_0_0.EmojiPixel then
+	elseif arg_12_0 == var_0_0.EmojiPixel then
 		return "tab_pixel"
 	end
 

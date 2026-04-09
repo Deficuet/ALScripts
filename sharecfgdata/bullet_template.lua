@@ -185961,6 +185961,834 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.bullet_template[167258] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "zidan_reno",
+		type = 5,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "CAHit",
+		effect_type = 1,
+		id = 167258,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 2,
+		miss_fx = "ShellMissBig",
+		pierce_count = 99,
+		ammo_type = 1,
+		alert_fx = "",
+		velocity = 15,
+		damage_type = {
+			1.2,
+			1,
+			0.8
+		},
+		DMG_font = {
+			{
+				1,
+				1.2
+			},
+			{
+				1,
+				1
+			},
+			{
+				4,
+				0.8
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			7,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {
+			ignoreB = true,
+			ignoreShield = true,
+			lastTime = 0.5,
+			shrapnel = {
+				{
+					barrage_ID = 81111,
+					bullet_ID = 167259,
+					reaim = true,
+					emitterType = "BattleBulletEmitter"
+				},
+				FXID = ""
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template[167259] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "zidan_reno",
+		type = 1,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "CAHit",
+		effect_type = 1,
+		id = 167259,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 100,
+		miss_fx = "ShellMissBig",
+		pierce_count = 0,
+		ammo_type = 1,
+		alert_fx = "",
+		velocity = 15,
+		damage_type = {
+			1.2,
+			1,
+			0.8
+		},
+		DMG_font = {
+			{
+				1,
+				1.2
+			},
+			{
+				1,
+				1
+			},
+			{
+				4,
+				0.8
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			7,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template[167260] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "bulletJP",
+		type = 1,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "pofang",
+		effect_type = 1,
+		id = 167260,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 100,
+		miss_fx = "ShellMissBig",
+		pierce_count = 0,
+		ammo_type = 1,
+		alert_fx = "",
+		velocity = 16,
+		damage_type = {
+			1.2,
+			1.2,
+			1.2
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				0.8
+			},
+			{
+				4,
+				0.7
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.5,
+			1.5,
+			1.5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template[167261] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "Torpedo01",
+		type = 9,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "pofang",
+		effect_type = 1,
+		id = 167261,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 1,
+		miss_fx = "ShellMiss",
+		pierce_count = 0,
+		ammo_type = 1,
+		alert_fx = "",
+		velocity = 12,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				2,
+				1.2
+			},
+			{
+				2,
+				1.2
+			},
+			{
+				2,
+				1.2
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = 5,
+			range = 18
+		},
+		attach_buff = {
+			{
+				friendly = true,
+				buff_id = 1090452,
+				effect_id = "smokeboom",
+				buff_level = 1
+			}
+		},
+		extra_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template[167262] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "Torpedo01",
+		type = 9,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "pofang",
+		effect_type = 1,
+		id = 167262,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 1,
+		miss_fx = "ShellMiss",
+		pierce_count = 0,
+		ammo_type = 1,
+		alert_fx = "",
+		velocity = 12,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				2,
+				1.2
+			},
+			{
+				2,
+				1.2
+			},
+			{
+				2,
+				1.2
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = 5,
+			range = 18
+		},
+		attach_buff = {
+			{
+				friendly = true,
+				buff_id = 1090452,
+				effect_id = "smokeboom",
+				buff_level = 2
+			}
+		},
+		extra_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template[167263] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "Torpedo01",
+		type = 9,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "pofang",
+		effect_type = 1,
+		id = 167263,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 1,
+		miss_fx = "ShellMiss",
+		pierce_count = 0,
+		ammo_type = 1,
+		alert_fx = "",
+		velocity = 12,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				2,
+				1.2
+			},
+			{
+				2,
+				1.2
+			},
+			{
+				2,
+				1.2
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = 5,
+			range = 18
+		},
+		attach_buff = {
+			{
+				friendly = true,
+				buff_id = 1090452,
+				effect_id = "smokeboom",
+				buff_level = 3
+			}
+		},
+		extra_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template[167264] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "Torpedo01",
+		type = 9,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "pofang",
+		effect_type = 1,
+		id = 167264,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 1,
+		miss_fx = "ShellMiss",
+		pierce_count = 0,
+		ammo_type = 1,
+		alert_fx = "",
+		velocity = 12,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				2,
+				1.2
+			},
+			{
+				2,
+				1.2
+			},
+			{
+				2,
+				1.2
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = 5,
+			range = 18
+		},
+		attach_buff = {
+			{
+				friendly = true,
+				buff_id = 1090452,
+				effect_id = "smokeboom",
+				buff_level = 4
+			}
+		},
+		extra_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template[167265] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "Torpedo01",
+		type = 9,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "pofang",
+		effect_type = 1,
+		id = 167265,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 1,
+		miss_fx = "ShellMiss",
+		pierce_count = 0,
+		ammo_type = 1,
+		alert_fx = "",
+		velocity = 12,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				2,
+				1.2
+			},
+			{
+				2,
+				1.2
+			},
+			{
+				2,
+				1.2
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = 5,
+			range = 18
+		},
+		attach_buff = {
+			{
+				friendly = true,
+				buff_id = 1090452,
+				effect_id = "smokeboom",
+				buff_level = 5
+			}
+		},
+		extra_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template[167266] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "Torpedo01",
+		type = 9,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "pofang",
+		effect_type = 1,
+		id = 167266,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 1,
+		miss_fx = "ShellMiss",
+		pierce_count = 0,
+		ammo_type = 1,
+		alert_fx = "",
+		velocity = 12,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				2,
+				1.2
+			},
+			{
+				2,
+				1.2
+			},
+			{
+				2,
+				1.2
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = 5,
+			range = 18
+		},
+		attach_buff = {
+			{
+				friendly = true,
+				buff_id = 1090452,
+				effect_id = "smokeboom",
+				buff_level = 6
+			}
+		},
+		extra_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template[167267] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "Torpedo01",
+		type = 9,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "pofang",
+		effect_type = 1,
+		id = 167267,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 1,
+		miss_fx = "ShellMiss",
+		pierce_count = 0,
+		ammo_type = 1,
+		alert_fx = "",
+		velocity = 12,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				2,
+				1.2
+			},
+			{
+				2,
+				1.2
+			},
+			{
+				2,
+				1.2
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = 5,
+			range = 18
+		},
+		attach_buff = {
+			{
+				friendly = true,
+				buff_id = 1090452,
+				effect_id = "smokeboom",
+				buff_level = 7
+			}
+		},
+		extra_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template[167268] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "Torpedo01",
+		type = 9,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "pofang",
+		effect_type = 1,
+		id = 167268,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 1,
+		miss_fx = "ShellMiss",
+		pierce_count = 0,
+		ammo_type = 1,
+		alert_fx = "",
+		velocity = 12,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				2,
+				1.2
+			},
+			{
+				2,
+				1.2
+			},
+			{
+				2,
+				1.2
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = 5,
+			range = 18
+		},
+		attach_buff = {
+			{
+				friendly = true,
+				buff_id = 1090452,
+				effect_id = "smokeboom",
+				buff_level = 8
+			}
+		},
+		extra_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template[167269] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "Torpedo01",
+		type = 9,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "pofang",
+		effect_type = 1,
+		id = 167269,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 1,
+		miss_fx = "ShellMiss",
+		pierce_count = 0,
+		ammo_type = 1,
+		alert_fx = "",
+		velocity = 12,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				2,
+				1.2
+			},
+			{
+				2,
+				1.2
+			},
+			{
+				2,
+				1.2
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = 5,
+			range = 18
+		},
+		attach_buff = {
+			{
+				friendly = true,
+				buff_id = 1090452,
+				effect_id = "smokeboom",
+				buff_level = 9
+			}
+		},
+		extra_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template[167270] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "Torpedo01",
+		type = 9,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "pofang",
+		effect_type = 1,
+		id = 167270,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 1,
+		miss_fx = "ShellMiss",
+		pierce_count = 0,
+		ammo_type = 1,
+		alert_fx = "",
+		velocity = 12,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				2,
+				1.2
+			},
+			{
+				2,
+				1.2
+			},
+			{
+				2,
+				1.2
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = 5,
+			range = 18
+		},
+		attach_buff = {
+			{
+				friendly = true,
+				buff_id = 1090452,
+				effect_id = "smokeboom",
+				buff_level = 10
+			}
+		},
+		extra_param = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.bullet_template[167391] = {
 		hit_sfx = "battle/torpedo-hit",
 		range_offset = 20,

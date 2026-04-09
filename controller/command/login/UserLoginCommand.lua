@@ -59,7 +59,8 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 						status = iter_3_1.state,
 						name = iter_3_1.name,
 						tag_state = iter_3_1.tag_state,
-						sort = iter_3_1.sort
+						sort = iter_3_1.sort,
+						ids = iter_3_1.ids
 					})
 
 					var_3_2[#var_3_2 + 1] = iter_3_1.proxy_ip .. ":" .. iter_3_1.proxy_port

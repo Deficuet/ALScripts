@@ -164,6 +164,10 @@ function var_0_0.OnUpdate(arg_9_0)
 			if arg_9_0.gotShoot then
 				setActive(arg_9_0.boomShoot, true)
 				onDelayTick(function()
+					if IsNil(arg_9_0.boomShoot) then
+						return
+					end
+
 					setActive(arg_9_0.boomShoot, false)
 					arg_9_0.animator:SetTrigger("close")
 					arg_9_0.decorationAnimator:SetTrigger("close")
@@ -172,6 +176,10 @@ function var_0_0.OnUpdate(arg_9_0)
 				setActive(arg_9_0.noGotShoot, true)
 				setActive(arg_9_0["bombId" .. tostring(arg_9_0.curBombId)], true)
 				onDelayTick(function()
+					if IsNil(arg_9_0.noGotShoot) then
+						return
+					end
+
 					setActive(arg_9_0.noGotShoot, false)
 					arg_9_0.animator:SetTrigger("close")
 					arg_9_0.decorationAnimator:SetTrigger("close")
@@ -195,6 +203,10 @@ function var_0_0.OnUpdate(arg_9_0)
 			if arg_9_0.gotShoot then
 				setActive(arg_9_0.boomShoot, true)
 				onDelayTick(function()
+					if IsNil(arg_9_0.boomShoot) then
+						return
+					end
+
 					setActive(arg_9_0.boomShoot, false)
 					arg_9_0.animator:SetTrigger("close")
 					arg_9_0.decorationAnimator:SetTrigger("close")
@@ -203,6 +215,10 @@ function var_0_0.OnUpdate(arg_9_0)
 				setActive(arg_9_0.noGotShoot, true)
 				setActive(arg_9_0["bombId" .. tostring(arg_9_0.curBombId)], true)
 				onDelayTick(function()
+					if IsNil(arg_9_0.noGotShoot) then
+						return
+					end
+
 					setActive(arg_9_0.noGotShoot, false)
 					arg_9_0.animator:SetTrigger("close")
 					arg_9_0.decorationAnimator:SetTrigger("close")

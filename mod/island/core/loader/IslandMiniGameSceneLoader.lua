@@ -40,44 +40,57 @@ function var_0_0.LoadSceneWithProgress(arg_7_0, arg_7_1, arg_7_2)
 
 	SceneOpBackgroundMgr.Inst:LoadSceneAsyncWithProgress(var_7_2, var_7_1, LoadSceneMode.Additive, function(arg_8_0)
 		if arg_8_0 == 1 then
-			-- block empty
+			onNextTick(function()
+				SceneOpBackgroundMgr.Inst:ActivatePendingScene()
+				onNextTick(function()
+					if CheatTavernCameraMgr.instance then
+						CheatTavernCameraMgr.instance._mainCamera.enabled = false
+					end
+				end)
+			end)
 		end
 
 		arg_7_2(arg_8_0)
 	end)
 end
 
-function var_0_0.LoadScene(arg_9_0, arg_9_1, arg_9_2)
-	arg_9_0:LoadSceneWithProgress(arg_9_1, function(arg_10_0)
-		if arg_10_0 == 1 then
-			existCall(arg_9_2)
+function var_0_0.LoadScene(arg_11_0, arg_11_1, arg_11_2)
+	arg_11_0:LoadSceneWithProgress(arg_11_1, function(arg_12_0)
+		if arg_12_0 == 1 then
+			existCall(arg_11_2)
 		end
 	end)
 end
 
-function var_0_0.UnLoad(arg_11_0, arg_11_1)
-	local var_11_0 = arg_11_0.scenePath
-	local var_11_1 = arg_11_0.sceneName
+function var_0_0.UnLoad(arg_13_0, arg_13_1)
+	local var_13_0 = arg_13_0.scenePath
+	local var_13_1 = arg_13_0.sceneName
 
-	if not var_11_0 or not var_11_1 then
+	if not var_13_0 or not var_13_1 then
 		return
 	end
 
-	pg.UIMgr.GetInstance():LoadingOn()
-	SceneOpMgr.Inst:UnloadSceneAsync(var_11_0, var_11_1, function()
-		pg.UIMgr.GetInstance():LoadingOff()
-	end)
+	if not arg_13_1 then
+		pg.UIMgr.GetInstance():LoadingOn()
+		SceneOpMgr.Inst:UnloadSceneAsync(var_13_0, var_13_1, function()
+			pg.UIMgr.GetInstance():LoadingOff()
+		end)
+	else
+		SceneOpMgr.Inst:UnloadSceneAsync(var_13_0, var_13_1, function()
+			return
+		end)
+	end
 
-	arg_11_0.scenePath = nil
-	arg_11_0.sceneName = nil
+	arg_13_0.scenePath = nil
+	arg_13_0.sceneName = nil
 end
 
-function var_0_0.ActivatePendingScene(arg_13_0)
-	SceneOpBackgroundMgr.Inst:ActivatePendingScene()
+function var_0_0.ActivatePendingScene(arg_16_0)
+	return
 end
 
-function var_0_0.Dispose(arg_14_0, arg_14_1)
-	arg_14_0:UnLoad(arg_14_1)
+function var_0_0.Dispose(arg_17_0, arg_17_1)
+	arg_17_0:UnLoad(arg_17_1)
 end
 
 return var_0_0

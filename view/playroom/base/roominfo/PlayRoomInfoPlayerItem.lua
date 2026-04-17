@@ -44,7 +44,7 @@ function var_0_0.didEnter(arg_6_0, arg_6_1, arg_6_2, arg_6_3, arg_6_4, arg_6_5)
 
 		local var_6_2 = getProxy(PlayRoomProxy):GetRoomData()
 
-		setActive(arg_6_0.uiSwitchCharacterBtn, not arg_6_4 and var_6_1 and arg_6_3 ~= IslandCheaterTavernConst.SceneRoomType.MatchInfoRoom and not arg_6_5)
+		setActive(arg_6_0.uiSwitchCharacterBtn, (arg_6_2 == var_6_0 or not arg_6_4) and var_6_1 and arg_6_3 ~= IslandCheaterTavernConst.SceneRoomType.MatchInfoRoom and not arg_6_5)
 	else
 		setActive(arg_6_0.uiBgTf, true)
 		setActive(arg_6_0.uiMainTf, false)

@@ -141,9 +141,9 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
-	painting = 1,
+	painting = 0,
 	id = 106150,
 	picture = "1",
-	castCV = "skill",
+	castCV = "",
 	desc = ""
 }

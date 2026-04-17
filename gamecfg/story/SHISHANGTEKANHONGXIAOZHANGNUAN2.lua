@@ -201,6 +201,7 @@ return {
 			bgName = "star_level_bg_127",
 			portrait = "zhihuiguan",
 			nameColor = "#A9F548FF",
+			hideRecordIco = true,
 			actor = 499023,
 			actorName = "{playername}",
 			live2d = true,

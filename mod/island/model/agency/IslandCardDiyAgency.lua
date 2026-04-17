@@ -25,11 +25,15 @@ function var_0_0.GetIds(arg_3_0)
 	return underscore.keys(arg_3_0.data)
 end
 
-function var_0_0.AddCardDiy(arg_4_0, arg_4_1)
-	if arg_4_0.data[arg_4_1.id] then
-		arg_4_0.data[arg_4_1.id]:AddCount(arg_4_1.num)
+function var_0_0.GetIdCount(arg_4_0, arg_4_1)
+	return arg_4_0.data[arg_4_1] and arg_4_0.data[arg_4_1].count or 0
+end
+
+function var_0_0.AddCardDiy(arg_5_0, arg_5_1)
+	if arg_5_0.data[arg_5_1.id] then
+		arg_5_0.data[arg_5_1.id]:AddCount(arg_5_1.num)
 	else
-		arg_4_0.data[arg_4_1.id] = IslandCardDiy.New(arg_4_1)
+		arg_5_0.data[arg_5_1.id] = IslandCardDiy.New(arg_5_1)
 	end
 end
 

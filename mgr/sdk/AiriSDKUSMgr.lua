@@ -26,7 +26,7 @@ function var_0_0.CheckPretest()
 end
 
 function var_0_0.CheckGoogleSimulator()
-	return NetConst.GATEWAY_PORT == 50001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"
+	return NetConst.getwayType == 2
 end
 
 function var_0_0.GoSDkLoginScene()

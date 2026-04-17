@@ -135422,6 +135422,62 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.equip_data_statistics[61181] = {
+		type = 99,
+		name = "航空攻击展示-伊莉丝I",
+		speciality = "<[NA]>",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "航母空袭展示用",
+		id = 61181,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			61181
+		},
+		skill_id = {},
+		hidden_skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[61182] = {
+		id = 61182,
+		name = "航空攻击展示-伊莉丝II",
+		base = 61181,
+		weapon_id = {
+			61182
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[61183] = {
+		id = 61183,
+		name = "航空攻击展示-伊莉丝III",
+		base = 61181,
+		weapon_id = {
+			61183
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.equip_data_statistics[61501] = {
 		type = 99,
 		name = "轰炸机外观预览飞机",
@@ -192515,6 +192571,492 @@ end)()
 		id = 151073,
 		value_1 = "472",
 		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151080] = {
+		type = 10,
+		name = "千雷装饰笔",
+		speciality = "<[NA]>",
+		tech = 0,
+		value_2 = 0,
+		ammo = 10,
+		descrip = "将心声写在声援板上，让整个海滩的背景旋律都为你而改变吧！",
+		nationality = 106,
+		rarity = 5,
+		id = 151080,
+		value_3 = 0,
+		attribute_1 = "durability",
+		icon = "151080",
+		value_1 = "250",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			{
+				61070,
+				1
+			}
+		},
+		hidden_skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151081] = {
+		id = 151081,
+		value_1 = "280",
+		base = 151080,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151082] = {
+		id = 151082,
+		value_1 = "310",
+		base = 151080,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151083] = {
+		id = 151083,
+		value_1 = "340",
+		base = 151080,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151084] = {
+		id = 151084,
+		value_1 = "370",
+		base = 151080,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151085] = {
+		id = 151085,
+		value_1 = "400",
+		base = 151080,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151086] = {
+		id = 151086,
+		value_1 = "430",
+		base = 151080,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151087] = {
+		id = 151087,
+		value_1 = "460",
+		base = 151080,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151088] = {
+		id = 151088,
+		value_1 = "490",
+		base = 151080,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151089] = {
+		id = 151089,
+		value_1 = "520",
+		base = 151080,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151090] = {
+		id = 151090,
+		value_1 = "550",
+		base = 151080,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151091] = {
+		id = 151091,
+		anti_siren = 100,
+		value_1 = "580",
+		base = 151080,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151092] = {
+		id = 151092,
+		anti_siren = 200,
+		value_1 = "610",
+		base = 151080,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151093] = {
+		id = 151093,
+		anti_siren = 300,
+		value_1 = "640",
+		base = 151080,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151100] = {
+		type = 10,
+		name = "写真看板",
+		speciality = "<[NA]>",
+		tech = 0,
+		value_2 = 15,
+		ammo = 10,
+		nationality = 106,
+		descrip = "记录下每一个关键镜头，正是增长应援心得的秘诀！",
+		rarity = 5,
+		attribute_1 = "antiaircraft",
+		value_3 = 0,
+		torpedo_ammo = 0,
+		id = 151100,
+		icon = "151100",
+		value_1 = "14",
+		attribute_2 = "hit",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			{
+				61080,
+				1
+			}
+		},
+		hidden_skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151101] = {
+		id = 151101,
+		value_2 = 16,
+		value_1 = "16",
+		base = 151100,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151102] = {
+		id = 151102,
+		value_2 = 17,
+		value_1 = "18",
+		base = 151100,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151103] = {
+		id = 151103,
+		value_2 = 18,
+		value_1 = "20",
+		base = 151100,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151104] = {
+		id = 151104,
+		value_2 = 19,
+		value_1 = "22",
+		base = 151100,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151105] = {
+		id = 151105,
+		value_2 = 20,
+		value_1 = "24",
+		base = 151100,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151106] = {
+		id = 151106,
+		value_2 = 22,
+		value_1 = "26",
+		base = 151100,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151107] = {
+		id = 151107,
+		value_2 = 24,
+		value_1 = "28",
+		base = 151100,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151108] = {
+		id = 151108,
+		value_2 = 26,
+		value_1 = "30",
+		base = 151100,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151109] = {
+		id = 151109,
+		value_2 = 28,
+		value_1 = "32",
+		base = 151100,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151110] = {
+		id = 151110,
+		value_2 = 30,
+		value_1 = "35",
+		base = 151100,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151111] = {
+		value_2 = 32,
+		anti_siren = 100,
+		base = 151100,
+		id = 151111,
+		value_1 = "38",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151112] = {
+		value_2 = 34,
+		anti_siren = 200,
+		base = 151100,
+		id = 151112,
+		value_1 = "41",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151113] = {
+		value_2 = 36,
+		anti_siren = 300,
+		base = 151100,
+		id = 151113,
+		value_1 = "44",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151120] = {
+		type = 10,
+		name = "幸运四叶草",
+		speciality = "<[NA]>",
+		tech = 0,
+		value_2 = 1,
+		ammo = 10,
+		nationality = 106,
+		descrip = "把它带在身边的话，说不定下一秒就会有好事发生哦~",
+		rarity = 5,
+		attribute_1 = "durability",
+		value_3 = 0,
+		torpedo_ammo = 0,
+		id = 151120,
+		icon = "151120",
+		value_1 = "200",
+		attribute_2 = "luck",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			{
+				61090,
+				1
+			}
+		},
+		hidden_skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151121] = {
+		id = 151121,
+		value_1 = "230",
+		base = 151120
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151122] = {
+		id = 151122,
+		value_1 = "260",
+		base = 151120
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151123] = {
+		id = 151123,
+		value_1 = "290",
+		base = 151120
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151124] = {
+		id = 151124,
+		value_1 = "320",
+		base = 151120
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151125] = {
+		id = 151125,
+		value_1 = "350",
+		base = 151120
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151126] = {
+		id = 151126,
+		value_1 = "380",
+		base = 151120
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151127] = {
+		id = 151127,
+		value_1 = "410",
+		base = 151120
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151128] = {
+		id = 151128,
+		value_1 = "440",
+		base = 151120
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151129] = {
+		id = 151129,
+		value_1 = "470",
+		base = 151120
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151130] = {
+		id = 151130,
+		value_2 = 2,
+		value_1 = "500",
+		base = 151120
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151131] = {
+		value_2 = 2,
+		anti_siren = 100,
+		base = 151120,
+		id = 151131,
+		value_1 = "530"
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151132] = {
+		value_2 = 2,
+		anti_siren = 200,
+		base = 151120,
+		id = 151132,
+		value_1 = "560"
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151133] = {
+		value_2 = 2,
+		anti_siren = 300,
+		base = 151120,
+		id = 151133,
+		value_1 = "590"
 	}
 end)()
 

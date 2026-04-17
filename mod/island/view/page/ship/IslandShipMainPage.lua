@@ -131,7 +131,7 @@ function var_0_0.OnInit(arg_14_0)
 		end
 	end, SFX_PANEL)
 	onButton(arg_14_0, arg_14_0.dockBtn, function()
-		arg_14_0:OpenPage(IslandDockPage)
+		arg_14_0:OpenPage(IslandDockPage, arg_14_0:GetNeedHideUnlockShipFlag())
 		arg_14_0:SetVisible(arg_14_0.leftPanel, false)
 	end, SFX_PANEL)
 
@@ -392,6 +392,10 @@ function var_0_0.SetObjInitRotaion(arg_45_0, arg_45_1)
 	end, 0.5, 1)
 
 	arg_45_0.timer:Start()
+end
+
+function var_0_0.GetNeedHideUnlockShipFlag(arg_47_0)
+	return false
 end
 
 return var_0_0

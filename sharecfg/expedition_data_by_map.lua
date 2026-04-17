@@ -201,6 +201,9 @@ pg.expedition_data_by_map = setmetatable({
 		2010001,
 		2010002,
 		2010003,
+		2020001,
+		2020002,
+		2020003,
 		2100000,
 		2100001,
 		2100010,
@@ -14447,6 +14450,220 @@ pg.base.expedition_data_by_map = {
 			174,
 			175,
 			176
+		}
+	},
+	[2020001] = {
+		map = 2020001,
+		name = "假日航线·闪耀海滨|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "doa-az-story-1",
+		enter_story = "",
+		ani_name = "Map_2020001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_normal",
+		default_background = "bg_map_doa",
+		cloud_suffix = "",
+		default_bgm = "doa_guanqia",
+		uifx = "",
+		on_activity = 6036,
+		ui_type = 10,
+		bg = "Map_2020001",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "162443",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2020001
+			},
+			{
+				2020002
+			},
+			{
+				2020003
+			},
+			{
+				2020004
+			}
+		},
+		story_id = {
+			390,
+			391,
+			392,
+			393,
+			394,
+			395,
+			396,
+			397,
+			398,
+			399,
+			400,
+			401,
+			402
+		}
+	},
+	[2020002] = {
+		map = 2020002,
+		name = "假日航线·闪耀海滨·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "doa-song-night06",
+		enter_story = "",
+		ani_name = "Map_2020002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_sp",
+		default_background = "bg_map_doa",
+		cloud_suffix = "",
+		default_bgm = "doa_guanqia",
+		uifx = "",
+		on_activity = 6036,
+		ui_type = 10,
+		bg = "Map_2020002",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "162443",
+		animtor = 1,
+		bind_map = 2020001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2020041
+			}
+		},
+		story_id = {
+			390,
+			391,
+			392,
+			393,
+			394,
+			395,
+			396,
+			397,
+			398,
+			399,
+			400,
+			401,
+			402
+		}
+	},
+	[2020003] = {
+		map = 2020003,
+		name = "假日航线·闪耀海滨·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "doa-song-night06",
+		enter_story = "",
+		ani_name = "Map_2020002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_ex",
+		default_background = "bg_map_doa",
+		cloud_suffix = "",
+		default_bgm = "doa_guanqia",
+		uifx = "",
+		on_activity = 6036,
+		ui_type = 10,
+		bg = "Map_2020002",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "162443",
+		animtor = 1,
+		bind_map = 2020001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2020051,
+				2020052
+			}
+		},
+		story_id = {
+			390,
+			391,
+			392,
+			393,
+			394,
+			395,
+			396,
+			397,
+			398,
+			399,
+			400,
+			401,
+			402
 		}
 	},
 	[2100000] = {

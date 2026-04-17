@@ -2750,6 +2750,193 @@ pg.activity_limit_item_guide = {
 			}
 		}
 	},
+	[180] = {
+		id = 180,
+		activity = 6032,
+		count = 1,
+		type = 21,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 15200,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"完成活动任务"
+			}
+		}
+	},
+	[181] = {
+		id = 181,
+		activity = 6032,
+		count = 1,
+		type = 21,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 15220,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						actId = 6035,
+						warp = 1
+					}
+				},
+				"补给商店兑换"
+			}
+		}
+	},
+	[182] = {
+		id = 182,
+		activity = 6032,
+		count = 1,
+		type = 21,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 15240,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						actId = 6035,
+						warp = 1
+					}
+				},
+				"补给商店兑换"
+			}
+		}
+	},
+	[183] = {
+		id = 183,
+		activity = 6032,
+		count = 1,
+		type = 21,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 15260,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						actId = 6035,
+						warp = 1
+					}
+				},
+				"补给商店兑换"
+			}
+		}
+	},
+	[184] = {
+		id = 184,
+		activity = 6032,
+		count = 1,
+		type = 21,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 15280,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene level"
+				},
+				"完成剧情模式"
+			}
+		}
+	},
+	[185] = {
+		id = 185,
+		activity = 6032,
+		count = 1,
+		type = 21,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 15300,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						actId = 6035,
+						warp = 1
+					}
+				},
+				"补给商店兑换"
+			}
+		}
+	},
+	[186] = {
+		id = 186,
+		activity = 6032,
+		count = 1,
+		type = 3,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 151080,
+		order = 0,
+		link_params = {
+			{
+				3,
+				6031,
+				"「海滨补给站」活动奖励"
+			}
+		}
+	},
+	[187] = {
+		id = 187,
+		activity = 6032,
+		count = 1,
+		type = 3,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 151100,
+		order = 0,
+		link_params = {
+			{
+				3,
+				6031,
+				"「海滨补给站」活动奖励"
+			}
+		}
+	},
+	[188] = {
+		id = 188,
+		activity = 6032,
+		count = 1,
+		type = 3,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 151120,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						actId = 6035,
+						warp = 1
+					}
+				},
+				"补给商店兑换"
+			}
+		}
+	},
 	get_id_list_by_activity = {
 		[4937] = {
 			1,
@@ -2912,6 +3099,17 @@ pg.activity_limit_item_guide = {
 			177,
 			178,
 			179
+		},
+		[6032] = {
+			180,
+			181,
+			182,
+			183,
+			184,
+			185,
+			186,
+			187,
+			188
 		}
 	},
 	all = {
@@ -3062,6 +3260,15 @@ pg.activity_limit_item_guide = {
 		176,
 		177,
 		178,
-		179
+		179,
+		180,
+		181,
+		182,
+		183,
+		184,
+		185,
+		186,
+		187,
+		188
 	}
 }

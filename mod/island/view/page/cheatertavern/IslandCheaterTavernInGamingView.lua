@@ -116,6 +116,7 @@ function var_0_0.Init(arg_2_0)
 	setText(arg_2_0.uiOutText, i18n("bar_ui_game1"))
 	setActive(arg_2_0.uiTipsTf, false)
 	setParent(arg_2_0.uiTipsTf, pg.UIMgr.GetInstance().OverlayToast)
+	arg_2_0.cheaterTavernAgency:SetUILoadOver(true)
 end
 
 function var_0_0.OnCheaterOperateDone(arg_11_0, arg_11_1)
@@ -414,361 +415,390 @@ function var_0_0.OnCheaterOperateDoneNotify(arg_33_0, arg_33_1)
 	arg_33_0:StartLastBountPerformTimer(var_33_2, var_33_4)
 end
 
-function var_0_0.Show(arg_35_0)
+function var_0_0.OnPlayerEscape(arg_35_0, arg_35_1)
+	local var_35_0 = arg_35_0.cheaterTavernAgency:GetPlayerData(arg_35_1)
+
+	if var_35_0:IsOut() then
+		return
+	end
+
+	var_35_0:SetOutState()
+
+	local var_35_1 = arg_35_0.playerUserIndexDic[arg_35_1]
+	local var_35_2 = arg_35_0.playerHudTFDic[var_35_1]
+
+	setActive(var_35_2:Find("out"), true)
+	setActive(var_35_2:Find("hp"), false)
+	arg_35_0.cardViewManager:OtherPlayerCardDestroy(arg_35_1)
+	arg_35_0.parent:emitCore(CheaterTavernEvent.PLAYER_OUT_ANIMATION, arg_35_1, var_35_0.seat, arg_35_1 == getProxy(PlayerProxy):getRawData().id)
+end
+
+function var_0_0.Show(arg_36_0)
 	return
 end
 
-function var_0_0.OnInitPlayerHudInfoItem(arg_36_0, arg_36_1, arg_36_2)
-	local var_36_0 = tf(arg_36_2)
+function var_0_0.OnInitPlayerHudInfoItem(arg_37_0, arg_37_1, arg_37_2)
+	local var_37_0 = tf(arg_37_2)
 
-	arg_36_0.playerHudTFDic[arg_36_1 + 1] = var_36_0
+	arg_37_0.playerHudTFDic[arg_37_1 + 1] = var_37_0
 
-	setActive(var_36_0:Find("out"), false)
-	setText(var_36_0:Find("out/outText"), i18n("bar_ui_game1"))
+	setActive(var_37_0:Find("out"), false)
+	setText(var_37_0:Find("out/outText"), i18n("bar_ui_game1"))
 
-	local var_36_1 = pg.gameset.bar_punishment_limit.key_value
+	local var_37_1 = pg.gameset.bar_punishment_limit.key_value
 
-	setText(var_36_0:Find("hp/hpNum"), string.format("%s/%s", var_36_1, var_36_1))
-	setActive(arg_36_0.uiOutGo, false)
-	setActive(arg_36_0.uiHpGo, true)
+	setText(var_37_0:Find("hp/hpNum"), string.format("%s/%s", var_37_1, var_37_1))
+	setActive(arg_37_0.uiOutGo, false)
+	setActive(arg_37_0.uiHpGo, true)
 end
 
-function var_0_0.OnUpdatePlayerHudInfoItem(arg_37_0, arg_37_1, arg_37_2)
-	local var_37_0 = tf(arg_37_2)
-	local var_37_1 = arg_37_1 + 1
-	local var_37_2 = arg_37_0.playerList[var_37_1]
-	local var_37_3 = var_37_2.seat
-	local var_37_4 = 10110000 + var_37_3
-	local var_37_5 = pg.island_world_objects[var_37_4]
-	local var_37_6 = var_37_5.param.position[1]
-	local var_37_7 = var_37_5.param.position[3]
-	local var_37_8 = {
+function var_0_0.OnUpdatePlayerHudInfoItem(arg_38_0, arg_38_1, arg_38_2)
+	local var_38_0 = tf(arg_38_2)
+	local var_38_1 = arg_38_1 + 1
+	local var_38_2 = arg_38_0.playerList[var_38_1]
+	local var_38_3 = var_38_2.seat
+	local var_38_4 = 10110000 + var_38_3
+	local var_38_5 = pg.island_world_objects[var_38_4]
+	local var_38_6 = var_38_5.param.position[1]
+	local var_38_7 = var_38_5.param.position[3]
+	local var_38_8 = {
 		1,
 		0,
 		-1,
 		0
 	}
-	local var_37_9 = {
+	local var_38_9 = {
 		0,
 		-1,
 		0,
 		1
 	}
-	local var_37_10 = 2
-	local var_37_11 = var_37_6 + var_37_8[var_37_3] * var_37_10
-	local var_37_12 = var_37_7 + var_37_9[var_37_3] * var_37_10
-	local var_37_13 = arg_37_0.cheaterTavernAgency:GetMainPlayer().seat
-	local var_37_14 = 0
+	local var_38_10 = 2
+	local var_38_11 = var_38_6 + var_38_8[var_38_3] * var_38_10
+	local var_38_12 = var_38_7 + var_38_9[var_38_3] * var_38_10
+	local var_38_13 = arg_38_0.cheaterTavernAgency:GetMainPlayer().seat
+	local var_38_14 = 0
 
-	if math.abs(var_37_13 - var_37_3) == 2 then
-		var_37_14 = 0.3
+	if math.abs(var_38_13 - var_38_3) == 2 then
+		var_38_14 = 0.3
 	end
 
-	local var_37_15 = Vector3(var_37_11, IslandCheaterTavernConst.hudHeight + var_37_14, var_37_12)
+	local var_38_15 = Vector3(var_38_11, IslandCheaterTavernConst.hudHeight + var_38_14, var_38_12)
 
-	var_37_0.localPosition = arg_37_0:WorldPosition2LocalPosition(arg_37_0.uiplayerInfoList, var_37_15)
+	var_38_0.localPosition = arg_38_0:WorldPosition2LocalPosition(arg_38_0.uiplayerInfoList, var_38_15)
 
-	setText(var_37_0:Find("adapt/name"), tostring(var_37_2.player_info.name))
+	setText(var_38_0:Find("adapt/name"), tostring(var_38_2.player_info.name))
 
-	local var_37_16, var_37_17 = var_37_2:GetCurrentAndAllHp()
+	local var_38_16, var_38_17 = var_38_2:GetCurrentAndAllHp()
 
-	setText(var_37_0:Find("hp/hpNum"), var_37_16 .. "/" .. var_37_17)
+	setText(var_38_0:Find("hp/hpNum"), var_38_16 .. "/" .. var_38_17)
 
-	local var_37_18 = arg_37_0.operation and arg_37_0.operation.user_id == var_37_2.user_id
+	local var_38_18 = arg_38_0.operation and arg_38_0.operation.user_id == var_38_2.user_id
 
-	setActive(var_37_0:Find("in_process"), var_37_18)
+	setActive(var_38_0:Find("in_process"), var_38_18)
 
-	local var_37_19 = var_37_2:IsOut()
+	local var_38_19 = var_38_2:IsOut()
 
-	setActive(var_37_0:Find("hp"), not var_37_19)
-	setActive(var_37_0:Find("adapt/delegate"), var_37_2:IsDelegate())
+	setActive(var_38_0:Find("hp"), not var_38_19)
+	setActive(var_38_0:Find("adapt/delegate"), var_38_2:IsDelegate())
 end
 
-function var_0_0.StartRounCountDown(arg_38_0, arg_38_1)
-	arg_38_0:StopRoundCoundDown()
+function var_0_0.StartRounCountDown(arg_39_0, arg_39_1)
+	arg_39_0:StopRoundCoundDown()
 
-	arg_38_0.randCoundDownTimer = Timer.New(function()
-		local var_39_0 = arg_38_1 - arg_38_0.timeMgr:GetServerTime()
+	arg_39_0.randCoundDownTimer = Timer.New(function()
+		local var_40_0 = arg_39_1 - arg_39_0.timeMgr:GetServerTime()
 
-		setActive(arg_38_0.uiFirstTimeImg, true)
-		setActive(arg_38_0.uiSecondTimeImg, true)
+		setActive(arg_39_0.uiFirstTimeImg, true)
+		setActive(arg_39_0.uiSecondTimeImg, true)
 
-		if var_39_0 < 0 then
-			var_39_0 = 0
+		if var_40_0 < 0 then
+			var_40_0 = 0
 
-			setImageSprite(arg_38_0.uiFirstTimeImg, arg_38_0.parent:GetNumSpriteByIndex(0), true)
-			setImageSprite(arg_38_0.uiSecondTimeImg, arg_38_0.parent:GetNumSpriteByIndex(0), true)
-			arg_38_0:StopRoundCoundDown()
-
-			return
-		end
-
-		local var_39_1 = math.floor(var_39_0 % 60)
-		local var_39_2 = math.floor(var_39_1 / 10)
-		local var_39_3 = var_39_1 % 10
-
-		if var_39_2 <= 0 then
-			setActive(arg_38_0.uiFirstTimeImg, false)
-			setImageSprite(arg_38_0.uiSecondTimeImg, arg_38_0.parent:GetNumSpriteByIndex(var_39_3), true)
+			setImageSprite(arg_39_0.uiFirstTimeImg, arg_39_0.parent:GetNumSpriteByIndex(0), true)
+			setImageSprite(arg_39_0.uiSecondTimeImg, arg_39_0.parent:GetNumSpriteByIndex(0), true)
+			arg_39_0:StopRoundCoundDown()
 
 			return
 		end
 
-		setImageSprite(arg_38_0.uiFirstTimeImg, arg_38_0.parent:GetNumSpriteByIndex(var_39_2), true)
-		setImageSprite(arg_38_0.uiSecondTimeImg, arg_38_0.parent:GetNumSpriteByIndex(var_39_3), true)
+		local var_40_1 = math.floor(var_40_0 % 60)
+		local var_40_2 = math.floor(var_40_1 / 10)
+		local var_40_3 = var_40_1 % 10
+
+		if var_40_2 <= 0 then
+			setActive(arg_39_0.uiFirstTimeImg, false)
+			setImageSprite(arg_39_0.uiSecondTimeImg, arg_39_0.parent:GetNumSpriteByIndex(var_40_3), true)
+
+			return
+		end
+
+		setImageSprite(arg_39_0.uiFirstTimeImg, arg_39_0.parent:GetNumSpriteByIndex(var_40_2), true)
+		setImageSprite(arg_39_0.uiSecondTimeImg, arg_39_0.parent:GetNumSpriteByIndex(var_40_3), true)
 	end, 1, -1)
 
-	arg_38_0.randCoundDownTimer.func()
-	arg_38_0.randCoundDownTimer:Start()
-end
+	arg_39_0.randCoundDownTimer.func()
 
-function var_0_0.StopRoundCoundDown(arg_40_0)
-	if arg_40_0.randCoundDownTimer then
-		arg_40_0.randCoundDownTimer:Stop()
+	if arg_39_0.randCoundDownTimer then
+		arg_39_0.randCoundDownTimer:Start()
 	end
 end
 
-function var_0_0.RemoveRealCardTipShowTime(arg_41_0)
-	if arg_41_0.realCardTipShowTimer then
-		arg_41_0.realCardTipShowTimer:Stop()
+function var_0_0.StopRoundCoundDown(arg_41_0)
+	if arg_41_0.randCoundDownTimer then
+		arg_41_0.randCoundDownTimer:Stop()
+
+		arg_41_0.randCoundDownTimer = nil
 	end
 end
 
-function var_0_0.OnCheaterEveryRoundStart(arg_42_0)
-	arg_42_0.tableCardNum = 0
+function var_0_0.RemoveRealCardTipShowTime(arg_42_0)
+	if arg_42_0.realCardTipShowTimer then
+		arg_42_0.realCardTipShowTimer:Stop()
 
-	local var_42_0 = arg_42_0.cheaterTavernAgency:GetMainPlayer()
-
-	arg_42_0.cardViewManager:SetMainPlayerSeat(var_42_0.seat)
-	arg_42_0:SetActiveState(false)
-	setActive(arg_42_0.uiRondRealCardTips, false)
-	setActive(arg_42_0.uiputCardDestList, false)
-	setActive(arg_42_0.uiqueryEffect, false)
-	setActive(arg_42_0.uicountDown, false)
-	setActive(arg_42_0.uiDelegate, false)
-	arg_42_0:StopLastBountPerformTimer()
+		arg_42_0.realCardTipShowTimer = nil
+	end
 end
 
-function var_0_0.OnCheaterEveryRoundStartDone(arg_43_0, arg_43_1)
-	arg_43_0:HideCurrentBoutCoundDown()
-	arg_43_0:SetActiveState(true)
-	setActive(arg_43_0.uiRondRealCardTips, true)
+function var_0_0.OnCheaterEveryRoundStart(arg_43_0)
+	arg_43_0.tableCardNum = 0
 
-	local var_43_0 = arg_43_0.cheaterTavernAgency:GetRealCard()
-	local var_43_1 = pg.bar_card[var_43_0]
+	local var_43_0 = arg_43_0.cheaterTavernAgency:GetMainPlayer()
 
-	GetImageSpriteFromAtlasAsync("Island/IslandCheaterTavernIcon/" .. var_43_1.card_res, "", arg_43_0.uirealCard)
-	GetImageSpriteFromAtlasAsync("Island/IslandCheaterTavernIcon/" .. var_43_1.card_res, "", arg_43_0.uirealCardTip)
-	arg_43_0:RemoveRealCardTipShowTime()
-
-	local var_43_2 = pg.gameset.bar_refreshcard_time.key_value
-
-	arg_43_0.realCardTipShowTimer = Timer.New(function()
-		setActive(arg_43_0.uiRondRealCardTips, false)
-		arg_43_0:UpdateOneBout(arg_43_1)
-	end, var_43_2, 1)
-
-	arg_43_0.realCardTipShowTimer:Start()
-	arg_43_0:ResetBountOp()
-	arg_43_0:InitPlayerHudInfo()
-	arg_43_0:InitMainCard()
-	arg_43_0:InitOtherPlayerCard()
-	arg_43_0:UpdateDelegateState()
+	arg_43_0.cardViewManager:SetMainPlayerSeat(var_43_0.seat)
+	arg_43_0:SetActiveState(false)
+	setActive(arg_43_0.uiRondRealCardTips, false)
+	setActive(arg_43_0.uiputCardDestList, false)
+	setActive(arg_43_0.uiqueryEffect, false)
+	setActive(arg_43_0.uicountDown, false)
+	setActive(arg_43_0.uiDelegate, false)
+	arg_43_0:StopLastBountPerformTimer()
 end
 
-function var_0_0.OnCheaterReconected(arg_45_0, arg_45_1)
-	setActive(arg_45_0.uiRondRealCardTips, false)
+function var_0_0.OnCheaterEveryRoundStartDone(arg_44_0, arg_44_1)
+	local var_44_0 = arg_44_0.cheaterTavernAgency:GetMainPlayer().seat
+	local var_44_1 = "lookSeet0" .. var_44_0
 
-	arg_45_0.tableCardNum = 0
+	CheatTavernCameraMgr.instance:ActiveVirtualCamera(var_44_1)
+	arg_44_0:HideCurrentBoutCoundDown()
+	arg_44_0:SetActiveState(true)
+	setActive(arg_44_0.uiRondRealCardTips, true)
 
-	local var_45_0 = arg_45_0.cheaterTavernAgency:GetMainPlayer()
+	local var_44_2 = arg_44_0.cheaterTavernAgency:GetRealCard()
+	local var_44_3 = pg.bar_card[var_44_2]
 
-	arg_45_0.cardViewManager:SetMainPlayerSeat(var_45_0.seat)
-	arg_45_0:SetActiveState(true)
-	arg_45_0:HideCurrentBoutCoundDown()
+	GetImageSpriteFromAtlasAsync("Island/IslandCheaterTavernIcon/" .. var_44_3.card_res, "", arg_44_0.uirealCard)
+	GetImageSpriteFromAtlasAsync("Island/IslandCheaterTavernIcon/" .. var_44_3.card_res, "", arg_44_0.uirealCardTip)
+	arg_44_0:RemoveRealCardTipShowTime()
 
-	local var_45_1 = arg_45_0.cheaterTavernAgency:GetRealCard()
-	local var_45_2 = pg.bar_card[var_45_1]
+	local var_44_4 = pg.gameset.bar_refreshcard_time.key_value
 
-	GetImageSpriteFromAtlasAsync("Island/IslandCheaterTavernIcon/" .. var_45_2.card_res, "", arg_45_0.uirealCard)
-	GetImageSpriteFromAtlasAsync("Island/IslandCheaterTavernIcon/" .. var_45_2.card_res, "", arg_45_0.uirealCardTip)
-	arg_45_0:ResetBountOp()
-	arg_45_0:InitPlayerHudInfo()
-	arg_45_0:InitMainCard()
-	arg_45_0:InitOtherPlayerCard()
-	arg_45_0:UpdateDelegateState()
-	arg_45_0:UpdateOneBout(arg_45_1)
+	arg_44_0.realCardTipShowTimer = Timer.New(function()
+		setActive(arg_44_0.uiRondRealCardTips, false)
+		arg_44_0:UpdateOneBout(arg_44_1)
+	end, var_44_4, 1)
+
+	arg_44_0.realCardTipShowTimer:Start()
+	arg_44_0:ResetBountOp()
+	arg_44_0:InitPlayerHudInfo()
+	arg_44_0:InitMainCard()
+	arg_44_0:InitOtherPlayerCard()
+	arg_44_0:UpdateDelegateState()
 end
 
-function var_0_0.InitMainCard(arg_46_0)
-	arg_46_0.cardDataList = arg_46_0.cheaterTavernAgency:GetMainPlayerCards()
+function var_0_0.OnCheaterReconected(arg_46_0, arg_46_1)
+	setActive(arg_46_0.uiRondRealCardTips, false)
 
-	arg_46_0.cardViewManager:DestroyMainCard()
-	arg_46_0.cardViewManager:InitMainCard(arg_46_0.cardDataList)
+	arg_46_0.tableCardNum = 0
+
+	local var_46_0 = arg_46_0.cheaterTavernAgency:GetMainPlayer()
+
+	arg_46_0.cardViewManager:SetMainPlayerSeat(var_46_0.seat)
+	arg_46_0:SetActiveState(true)
+	arg_46_0:HideCurrentBoutCoundDown()
+
+	local var_46_1 = arg_46_0.cheaterTavernAgency:GetRealCard()
+	local var_46_2 = pg.bar_card[var_46_1]
+
+	GetImageSpriteFromAtlasAsync("Island/IslandCheaterTavernIcon/" .. var_46_2.card_res, "", arg_46_0.uirealCard)
+	GetImageSpriteFromAtlasAsync("Island/IslandCheaterTavernIcon/" .. var_46_2.card_res, "", arg_46_0.uirealCardTip)
+	arg_46_0:ResetBountOp()
+	arg_46_0:InitPlayerHudInfo()
+	arg_46_0:InitMainCard()
+	arg_46_0:InitOtherPlayerCard()
+	arg_46_0:UpdateDelegateState()
+	arg_46_0:UpdateOneBout(arg_46_1)
 end
 
-function var_0_0.InitPlayerHudInfo(arg_47_0)
-	arg_47_0.playerList, arg_47_0.playerUserIndexDic = arg_47_0.cheaterTavernAgency:GetPlayerList()
+function var_0_0.InitMainCard(arg_47_0)
+	arg_47_0.cardDataList = arg_47_0.cheaterTavernAgency:GetMainPlayerCards()
+
+	arg_47_0.cardViewManager:DestroyMainCard()
+	arg_47_0.cardViewManager:InitMainCard(arg_47_0.cardDataList)
 end
 
-function var_0_0.InitOtherPlayerCard(arg_48_0)
-	arg_48_0.cardViewManager:InitOtherPlayerCard(arg_48_0.playerList)
+function var_0_0.InitPlayerHudInfo(arg_48_0)
+	arg_48_0.playerList, arg_48_0.playerUserIndexDic = arg_48_0.cheaterTavernAgency:GetPlayerList()
 end
 
-function var_0_0.UpdatePlayerHudInfo(arg_49_0)
-	arg_49_0.uiplayerHudInfoList:align(#arg_49_0.playerList)
+function var_0_0.InitOtherPlayerCard(arg_49_0)
+	arg_49_0.cardViewManager:InitOtherPlayerCard(arg_49_0.playerList)
 end
 
-function var_0_0.ResetBountOp(arg_50_0)
-	setActive(arg_50_0.uiopBtn, false)
-	setActive(arg_50_0.uishootOp, false)
+function var_0_0.UpdatePlayerHudInfo(arg_50_0)
+	arg_50_0.uiplayerHudInfoList:align(#arg_50_0.playerList)
 end
 
-function var_0_0.UpdateOneBout(arg_51_0, arg_51_1)
+function var_0_0.ResetBountOp(arg_51_0)
 	setActive(arg_51_0.uiopBtn, false)
 	setActive(arg_51_0.uishootOp, false)
+end
 
-	arg_51_0.operation = arg_51_1
+function var_0_0.UpdateOneBout(arg_52_0, arg_52_1)
+	setActive(arg_52_0.uiopBtn, false)
+	setActive(arg_52_0.uishootOp, false)
 
-	arg_51_0:UpdatePlayerHudInfo()
-	arg_51_0:UpdataHp()
+	arg_52_0.operation = arg_52_1
+
+	arg_52_0:UpdatePlayerHudInfo()
+	arg_52_0:UpdataHp()
 
 	if IslandCheaterTavernConst.putCardTest then
-		setActive(arg_51_0.uiopBtn, true)
-		setActive(arg_51_0.uiopBtn:Find("putCard"), true)
+		setActive(arg_52_0.uiopBtn, true)
+		setActive(arg_52_0.uiopBtn:Find("putCard"), true)
 
 		return
 	end
 
-	setActive(arg_51_0.uicountDown, true)
-	arg_51_0:StartRounCountDown(arg_51_1.auto_time)
+	setActive(arg_52_0.uicountDown, true)
+	arg_52_0:StartRounCountDown(arg_52_1.auto_time)
 
-	if not arg_51_0:IsSelf(arg_51_1.user_id) then
+	if not arg_52_0:IsSelf(arg_52_1.user_id) then
 		return
 	end
 
-	if arg_51_1.operationType >= IslandCheaterTavernConst.PlayerCurrentOperateType.ShootByOther then
-		local var_51_0 = arg_51_0.cheaterTavernAgency:GetMainPlayer()
-		local var_51_1, var_51_2 = var_51_0:GetCurrentAndAllHp()
+	if arg_52_1.operationType >= IslandCheaterTavernConst.PlayerCurrentOperateType.ShootByOther then
+		local var_52_0 = arg_52_0.cheaterTavernAgency:GetMainPlayer()
+		local var_52_1, var_52_2 = var_52_0:GetCurrentAndAllHp()
 
-		if var_51_1 == var_51_2 then
-			arg_51_0.cardViewManager:ClearTableCard()
-			setActive(arg_51_0.uishootOp, true)
-			arg_51_0.parent:emitCore(CheaterTavernEvent.FIRST_TAKE_SHOOT_TIPS, var_51_0.seat)
+		if var_52_1 == var_52_2 then
+			arg_52_0.cardViewManager:ClearTableCard()
+			setActive(arg_52_0.uishootOp, true)
+			arg_52_0.parent:emitCore(CheaterTavernEvent.FIRST_TAKE_SHOOT_TIPS, var_52_0.seat)
 		end
 
 		return
 	end
 
-	setActive(arg_51_0.uiopBtn, true)
+	setActive(arg_52_0.uiopBtn, true)
 	IslandCheaterTavernRecordTools.StartPutCardTime()
 
-	local var_51_3 = arg_51_0.cheaterTavernAgency:CheckCanOnlyQurey()
+	local var_52_3 = arg_52_0.cheaterTavernAgency:CheckCanOnlyQurey()
 
-	setActive(arg_51_0.uiopBtn:Find("putCard"), not var_51_3)
-	setActive(arg_51_0.uiopBtn:Find("query"), arg_51_0.tableCardNum > 0)
+	setActive(arg_52_0.uiopBtn:Find("putCard"), not var_52_3)
+	setActive(arg_52_0.uiopBtn:Find("query"), arg_52_0.tableCardNum > 0)
 end
 
-function var_0_0.UpdataHp(arg_52_0)
-	local var_52_0 = arg_52_0.cheaterTavernAgency:GetMainPlayer()
+function var_0_0.UpdataHp(arg_53_0)
+	local var_53_0 = arg_53_0.cheaterTavernAgency:GetMainPlayer()
 
-	if var_52_0:IsOut() then
-		setActive(arg_52_0.uiOutGo, true)
-		setActive(arg_52_0.uiHpGo, false)
+	if var_53_0:IsOut() then
+		setActive(arg_53_0.uiOutGo, true)
+		setActive(arg_53_0.uiHpGo, false)
 	else
-		setActive(arg_52_0.uiOutGo, false)
-		setActive(arg_52_0.uiHpGo, true)
+		setActive(arg_53_0.uiOutGo, false)
+		setActive(arg_53_0.uiHpGo, true)
 
-		local var_52_1, var_52_2 = var_52_0:GetCurrentAndAllHp()
+		local var_53_1, var_53_2 = var_53_0:GetCurrentAndAllHp()
 
-		setText(arg_52_0.uicurHpNum, var_52_1 .. "/" .. var_52_2)
+		setText(arg_53_0.uicurHpNum, var_53_1 .. "/" .. var_53_2)
 	end
 end
 
-function var_0_0.OnInit(arg_53_0)
+function var_0_0.OnInit(arg_54_0)
 	return
 end
 
-function var_0_0.OnHide(arg_54_0)
-	setParent(arg_54_0.uiTipsTf, arg_54_0._tf)
+function var_0_0.OnHide(arg_55_0)
+	setParent(arg_55_0.uiTipsTf, arg_55_0._tf)
 
-	if arg_54_0.cardViewManager then
-		arg_54_0.cardViewManager:Destroy()
+	if arg_55_0.cardViewManager then
+		arg_55_0.cardViewManager:Destroy()
 
-		arg_54_0.cardViewManager = nil
+		arg_55_0.cardViewManager = nil
 	end
 
-	arg_54_0:StopRoundCoundDown()
-	arg_54_0:RemoveRealCardTipShowTime()
-	arg_54_0:StopLastBountPerformTimer()
+	arg_55_0:StopRoundCoundDown()
+	arg_55_0:RemoveRealCardTipShowTime()
+	arg_55_0:StopLastBountPerformTimer()
 
-	if arg_54_0.questionTimer then
-		arg_54_0.questionTimer:Stop()
+	if arg_55_0.questionTimer then
+		arg_55_0.questionTimer:Stop()
 
-		arg_54_0.questionTimer = nil
+		arg_55_0.questionTimer = nil
 	end
 
-	if arg_54_0.tipsTimer then
-		arg_54_0.tipsTimer:Stop()
+	if arg_55_0.tipsTimer then
+		arg_55_0.tipsTimer:Stop()
 
-		arg_54_0.tipsTimer = nil
+		arg_55_0.tipsTimer = nil
 	end
 
-	arg_54_0:StopHideTipsTimer()
+	arg_55_0:StopHideTipsTimer()
 end
 
-function var_0_0.WorldPosition2LocalPosition(arg_55_0, arg_55_1, arg_55_2)
-	local var_55_0 = pg.UIMgr.GetInstance().overlayCameraComp
-	local var_55_1 = CheatTavernCameraMgr.instance._mainCamera:WorldToViewportPoint(arg_55_2)
-	local var_55_2 = var_55_0:ViewportToScreenPoint(var_55_1)
-	local var_55_3 = arg_55_1:GetComponent("RectTransform")
+function var_0_0.WorldPosition2LocalPosition(arg_56_0, arg_56_1, arg_56_2)
+	local var_56_0 = pg.UIMgr.GetInstance().overlayCameraComp
+	local var_56_1 = CheatTavernCameraMgr.instance._mainCamera:WorldToViewportPoint(arg_56_2)
+	local var_56_2 = var_56_0:ViewportToScreenPoint(var_56_1)
+	local var_56_3 = arg_56_1:GetComponent("RectTransform")
 
-	return (LuaHelper.ScreenToLocal(var_55_3, var_55_2, var_55_0))
+	return (LuaHelper.ScreenToLocal(var_56_3, var_56_2, var_56_0))
 end
 
-function var_0_0.UpdateDelegateState(arg_56_0)
-	local var_56_0 = arg_56_0.cheaterTavernAgency:GetMainPlayer()
+function var_0_0.UpdateDelegateState(arg_57_0)
+	local var_57_0 = arg_57_0.cheaterTavernAgency:GetMainPlayer()
 
-	setActive(arg_56_0.uiDelegate, var_56_0:IsDelegate())
-	arg_56_0:UpdatePlayerHudInfo()
+	setActive(arg_57_0.uiDelegate, var_57_0:IsDelegate())
+	arg_57_0:UpdatePlayerHudInfo()
 end
 
-function var_0_0.DestroyMainCard(arg_57_0)
-	if arg_57_0.cardViewManager then
-		arg_57_0.cardViewManager:DestroyMainCard()
+function var_0_0.DestroyMainCard(arg_58_0)
+	if arg_58_0.cardViewManager then
+		arg_58_0.cardViewManager:DestroyMainCard()
 	end
 end
 
-function var_0_0.ShowTips(arg_58_0, arg_58_1, arg_58_2)
-	if arg_58_2 == nil then
-		setText(arg_58_0.uiResultText, arg_58_1)
-		setActive(arg_58_0.uiResultText, true)
-		setActive(arg_58_0.uiQueryText, false)
-		setActive(arg_58_0.uiPunishmentText, false)
+function var_0_0.ShowTips(arg_59_0, arg_59_1, arg_59_2)
+	if arg_59_2 == nil then
+		setText(arg_59_0.uiResultText, arg_59_1)
+		setActive(arg_59_0.uiResultText, true)
+		setActive(arg_59_0.uiQueryText, false)
+		setActive(arg_59_0.uiPunishmentText, false)
 	else
-		setText(arg_58_0.uiQueryText, arg_58_1)
-		setText(arg_58_0.uiPunishmentText, arg_58_2)
-		setActive(arg_58_0.uiResultText, false)
-		setActive(arg_58_0.uiQueryText, true)
-		setActive(arg_58_0.uiPunishmentText, true)
+		setText(arg_59_0.uiQueryText, arg_59_1)
+		setText(arg_59_0.uiPunishmentText, arg_59_2)
+		setActive(arg_59_0.uiResultText, false)
+		setActive(arg_59_0.uiQueryText, true)
+		setActive(arg_59_0.uiPunishmentText, true)
 	end
 
-	arg_58_0:StopHideTipsTimer()
-	setActive(arg_58_0.uiTipsTf, false)
-	setActive(arg_58_0.uiTipsTf, true)
+	arg_59_0:StopHideTipsTimer()
+	setActive(arg_59_0.uiTipsTf, false)
+	setActive(arg_59_0.uiTipsTf, true)
 
-	arg_58_0.hideTipsTimer = Timer.New(function()
-		arg_58_0.uiTipsAnimator:SetTrigger("hide")
+	arg_59_0.hideTipsTimer = Timer.New(function()
+		arg_59_0.uiTipsAnimator:SetTrigger("hide")
 	end, 2, 1)
 
-	arg_58_0.hideTipsTimer:Start()
+	arg_59_0.hideTipsTimer:Start()
 end
 
-function var_0_0.StopHideTipsTimer(arg_60_0)
-	if arg_60_0.hideTipsTimer then
-		arg_60_0.hideTipsTimer:Stop()
+function var_0_0.StopHideTipsTimer(arg_61_0)
+	if arg_61_0.hideTipsTimer then
+		arg_61_0.hideTipsTimer:Stop()
 
-		arg_60_0.hideTipsTimer = nil
+		arg_61_0.hideTipsTimer = nil
 	end
 end
 

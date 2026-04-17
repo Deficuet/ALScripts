@@ -245,7 +245,7 @@ var_0_0.PageIdLink = {
 var_0_0.IslandPageIdLinks = {
 	[var_0_0.ISLAND_BAR_ACT_ID] = {
 		var_0_0.ISLAND_BAR_SIGN_ACT_ID,
-		var_0_0.ISLAND_BAR_SIGN_ACT_ID
+		var_0_0.ISLAND_BAR_TASK_ACT_ID
 	}
 }
 

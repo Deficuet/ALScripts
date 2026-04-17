@@ -2111,6 +2111,24 @@ pg.ship_data_group = setmetatable({
 		[1060009] = {
 			10069
 		},
+		[1060010] = {
+			10990
+		},
+		[1060011] = {
+			10991
+		},
+		[1060012] = {
+			10992
+		},
+		[1060013] = {
+			10993
+		},
+		[1060014] = {
+			10994
+		},
+		[1060015] = {
+			10995
+		},
 		[1070001] = {
 			10071
 		},
@@ -3269,6 +3287,12 @@ pg.ship_data_group = setmetatable({
 			10067,
 			10068,
 			10069,
+			10990,
+			10991,
+			10992,
+			10993,
+			10994,
+			10995,
 			10071,
 			10072,
 			10073,
@@ -4129,6 +4153,12 @@ pg.ship_data_group = setmetatable({
 		10067,
 		10068,
 		10069,
+		10990,
+		10991,
+		10992,
+		10993,
+		10994,
+		10995,
 		10071,
 		10072,
 		10073,
@@ -34399,6 +34429,198 @@ pg.base.ship_data_group = {
 			"D",
 			"D",
 			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：假日航线",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10990] = {
+		type = 7,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 106,
+		trans_skin = 0,
+		handbook_type = 1,
+		index_id = 10990,
+		code = 10990,
+		group_type = 1060010,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：假日航线",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10991] = {
+		type = 5,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 106,
+		trans_skin = 0,
+		handbook_type = 1,
+		index_id = 10991,
+		code = 10991,
+		group_type = 1060011,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：假日航线",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10992] = {
+		type = 3,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 106,
+		trans_skin = 0,
+		handbook_type = 1,
+		index_id = 10992,
+		code = 10992,
+		group_type = 1060012,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：假日航线",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10993] = {
+		type = 1,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 106,
+		trans_skin = 0,
+		handbook_type = 1,
+		index_id = 10993,
+		code = 10993,
+		group_type = 1060013,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：假日航线",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10994] = {
+		type = 8,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 106,
+		trans_skin = 0,
+		handbook_type = 1,
+		index_id = 10994,
+		code = 10994,
+		group_type = 1060014,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：假日航线",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10995] = {
+		type = 2,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 106,
+		trans_skin = 0,
+		handbook_type = 1,
+		index_id = 10995,
+		code = 10995,
+		group_type = 1060015,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"B"
 		},
 		trans_radar_chart = {},
 		trans_skill = {},

@@ -549,6 +549,10 @@ function var_0_0.filterOk(arg_32_0, arg_32_1)
 	end
 
 	if var_32_3[1] ~= 0 then
+		if not var_32_9 then
+			return false
+		end
+
 		local var_32_17 = false
 
 		for iter_32_2, iter_32_3 in ipairs(var_32_3) do
@@ -575,6 +579,10 @@ function var_0_0.filterOk(arg_32_0, arg_32_1)
 	end
 
 	if var_32_4[1] ~= 0 then
+		if not var_32_9 then
+			return false
+		end
+
 		local var_32_19 = false
 
 		for iter_32_6, iter_32_7 in ipairs(var_32_4) do
@@ -595,6 +603,10 @@ function var_0_0.filterOk(arg_32_0, arg_32_1)
 	end
 
 	if var_32_5[1] ~= 0 then
+		if not var_32_9 then
+			return false
+		end
+
 		local var_32_21 = false
 
 		for iter_32_8, iter_32_9 in ipairs(var_32_5) do

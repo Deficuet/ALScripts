@@ -257,15 +257,20 @@ function var_0_0.handleNotification(arg_19_0, arg_19_1)
 
 		local function var_19_2()
 			arg_19_0.exitProcessing = true
+			var_19_1.id = _IslandCore:GetController():GetIsland().id
 
-			arg_19_0.viewComponent:ExitProcess(BaseUI.ON_HOME, function()
+			arg_19_0.viewComponent:ExitProcess("", function()
 				arg_19_0.exitProcessing = false
 
-				pg.m02:sendNotification(GAME.ISLAND_ENTER, var_19_1)
+				arg_19_0:sendNotification(GAME.ISLAND_CHANGE_ENTER, var_19_1)
 			end)
 		end
 
 		if _IslandCore and _IslandCore.state == IslandCore.STATE_INIT_FINISH then
+			if isa(_IslandCore, IslandMinigameCore) then
+				arg_19_0.viewComponent:GetIsland():GetCheaterTavernAgency():SetIsConnecting(false)
+			end
+
 			var_19_2()
 		else
 			arg_19_0.coreInitCallback = var_19_2
@@ -273,14 +278,10 @@ function var_0_0.handleNotification(arg_19_0, arg_19_1)
 	elseif var_19_0 == GAME.ISLAND_SELECT_GIFT_DONE then
 		arg_19_0.viewComponent:HandleAwardDisplay(var_19_1.dropData, var_19_1.callback, IslandAwardDisplayPage.TYPE_SIGN_GIFT)
 	elseif var_19_0 == GAME.ISLAND_CORE_STATE_CHANGED then
-		if var_19_1 == IslandCore.STATE_INIT_FINISH then
-			getProxy(IslandProxy):SetReconnectProcessing(false)
+		if var_19_1 == IslandCore.STATE_INIT_FINISH and arg_19_0.coreInitCallback then
+			arg_19_0.coreInitCallback()
 
-			if arg_19_0.coreInitCallback then
-				arg_19_0.coreInitCallback()
-
-				arg_19_0.coreInitCallback = nil
-			end
+			arg_19_0.coreInitCallback = nil
 		end
 	elseif var_19_0 == GAME.ISLAND_TRADE_DONE then
 		arg_19_0.viewComponent:HandleAwardDisplay(var_19_1.dropData, var_19_1.callback)
@@ -324,85 +325,88 @@ function var_0_0.LoadMiniGameScene(arg_23_0, arg_23_1)
 end
 
 function var_0_0.ChangeMiniGameScene(arg_24_0)
-	if arg_24_0.needChangeMap then
-		arg_24_0:UnloadScene()
+	pg.SceneAnimMgr.GetInstance():CommonSceneChange("Dorm3DLoading", function(arg_25_0)
+		if arg_24_0.needChangeMap then
+			arg_24_0:UnloadScene()
 
-		_IslandCore = arg_24_0.miniGameCore
-	end
+			_IslandCore = arg_24_0.miniGameCore
+		end
 
-	_IslandCore:OnChangeMiniGameScene(arg_24_0.needChangeMap, arg_24_0.isReConnected)
+		_IslandCore:OnChangeMiniGameScene(arg_24_0.needChangeMap, arg_24_0.isReConnected)
+		arg_25_0()
+	end)
 end
 
-function var_0_0.SetUp(arg_25_0, arg_25_1)
-	local var_25_0 = arg_25_0.viewComponent:GetIsland()
-	local var_25_1 = var_25_0.mapID
-	local var_25_2 = var_25_0.spawnPointId
-
-	_IslandCore = IslandCore.New(arg_25_0.viewComponent:GetPoolMgr(), var_25_0, arg_25_1)
-
-	arg_25_0.viewComponent:OnSetUpCore(var_25_1, var_25_2)
-end
-
-function var_0_0.SwitchScene(arg_26_0, arg_26_1, arg_26_2)
+function var_0_0.SetUp(arg_26_0, arg_26_1)
 	local var_26_0 = arg_26_0.viewComponent:GetIsland()
+	local var_26_1 = var_26_0.mapID
+	local var_26_2 = var_26_0.spawnPointId
 
-	var_26_0:SetMapId(arg_26_1)
+	_IslandCore = IslandCore.New(arg_26_0.viewComponent:GetPoolMgr(), var_26_0, arg_26_1)
 
-	if arg_26_2 then
-		var_26_0:SetSpawnPointId(arg_26_2)
-	end
-
-	local var_26_1 = arg_26_0:UnloadScene()
-
-	arg_26_0:SetUp(var_26_1)
+	arg_26_0.viewComponent:OnSetUpCore(var_26_1, var_26_2)
 end
 
-function var_0_0.UnloadScene(arg_27_0, arg_27_1)
-	arg_27_0.viewComponent:OnUnloadScene()
+function var_0_0.SwitchScene(arg_27_0, arg_27_1, arg_27_2)
+	local var_27_0 = arg_27_0.viewComponent:GetIsland()
+
+	var_27_0:SetMapId(arg_27_1)
+
+	if arg_27_2 then
+		var_27_0:SetSpawnPointId(arg_27_2)
+	end
+
+	local var_27_1 = arg_27_0:UnloadScene()
+
+	arg_27_0:SetUp(var_27_1)
+end
+
+function var_0_0.UnloadScene(arg_28_0, arg_28_1)
+	arg_28_0.viewComponent:OnUnloadScene()
 
 	if _IslandCore then
 		if isa(_IslandCore, IslandMinigameCore) then
-			local var_27_0 = _IslandCore.showBalance
+			local var_28_0 = _IslandCore.showBalance
 
-			_IslandCore:Dispose(arg_27_1)
+			_IslandCore:Dispose(arg_28_1)
 
 			_IslandCore = nil
 
-			return var_27_0
+			return var_28_0
 		else
-			local var_27_1 = _IslandCore:GetView():GetSubView(IslandOpView)
-			local var_27_2 = var_27_1 and var_27_1.showBalance or 1
+			local var_28_1 = _IslandCore:GetView():GetSubView(IslandOpView)
+			local var_28_2 = var_28_1 and var_28_1.showBalance or 1
 
-			_IslandCore:Dispose(arg_27_1)
+			_IslandCore:Dispose(arg_28_1)
 
 			_IslandCore = nil
 
-			return var_27_2
+			return var_28_2
 		end
 	end
 
 	return 1
 end
 
-function var_0_0.remove(arg_28_0)
-	arg_28_0:UnloadScene(true)
-	arg_28_0:_remove()
+function var_0_0.remove(arg_29_0)
+	arg_29_0:UnloadScene(true)
+	arg_29_0:_remove()
 	IslandHelper.RunGC(true)
 end
 
-function var_0_0._register(arg_29_0)
+function var_0_0._register(arg_30_0)
 	return
 end
 
-function var_0_0._listNotificationInterests(arg_30_0)
+function var_0_0._listNotificationInterests(arg_31_0)
 	return {}
 end
 
-function var_0_0._handleNotification(arg_31_0, arg_31_1)
+function var_0_0._handleNotification(arg_32_0, arg_32_1)
 	return
 end
 
-function var_0_0._remove(arg_32_0)
+function var_0_0._remove(arg_33_0)
 	return
 end
 

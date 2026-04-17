@@ -4321,14 +4321,14 @@ function getLoginConfig()
 	local var_295_8 = noEmptyStr(pg.login[var_295_1].op_time)
 	local var_295_9 = ""
 
-	if not var_295_8 or var_295_8 ~= "stop" then
+	if not var_295_8 or var_295_8 == "stop" then
 		var_295_7 = false
 	else
-		local var_295_10, var_295_11 = parseTimeConfig(pg.login[id].date)
+		local var_295_10, var_295_11 = parseTimeConfig(pg.login[var_295_1].date)
 
 		assert(not var_295_11)
 
-		var_295_9 = table.concat(var_295_10[1][1])
+		var_295_9 = table.concat(var_295_10[2][1])
 
 		if not pg.TimeMgr.GetInstance():inTime(var_295_10, var_295_0) then
 			var_295_7 = false

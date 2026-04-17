@@ -491465,6 +491465,3654 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[10600101] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "伊莉丝",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 10600100,
+		english_name = "Elise",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10600101,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1193,
+			0,
+			0,
+			57,
+			76,
+			47,
+			0,
+			33,
+			11,
+			28,
+			94,
+			0
+		},
+		attrs_growth = {
+			33995,
+			0,
+			0,
+			1226,
+			951,
+			328,
+			0,
+			478,
+			205,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			118,
+			119
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.1,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV",
+			"Elise"
+		},
+		gift_dislike = {
+			180005,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[10600102] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "伊莉丝",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 10600100,
+		english_name = "Elise",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10600102,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1484,
+			0,
+			0,
+			71,
+			95,
+			47,
+			0,
+			33,
+			11,
+			28,
+			94,
+			0
+		},
+		attrs_growth = {
+			33995,
+			0,
+			0,
+			1226,
+			951,
+			328,
+			0,
+			478,
+			205,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			118,
+			119
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.23,
+			1.13,
+			1.13
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV",
+			"Elise"
+		},
+		gift_dislike = {
+			180005,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[10600103] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "伊莉丝",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 10600100,
+		english_name = "Elise",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10600103,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2066,
+			0,
+			0,
+			99,
+			132,
+			47,
+			0,
+			33,
+			11,
+			28,
+			94,
+			0
+		},
+		attrs_growth = {
+			33995,
+			0,
+			0,
+			1226,
+			951,
+			328,
+			0,
+			478,
+			205,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			118,
+			119
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.28,
+			1.18,
+			1.18
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV",
+			"Elise"
+		},
+		gift_dislike = {
+			180005,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[10600104] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "伊莉丝",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 10600100,
+		english_name = "Elise",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10600104,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2939,
+			0,
+			0,
+			141,
+			188,
+			47,
+			0,
+			33,
+			11,
+			28,
+			94,
+			0
+		},
+		attrs_growth = {
+			33995,
+			0,
+			0,
+			1226,
+			951,
+			328,
+			0,
+			478,
+			205,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			118,
+			119
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.25,
+			1.25
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV",
+			"Elise"
+		},
+		gift_dislike = {
+			180005,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[10600111] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "雫",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 10600110,
+		english_name = "Shizuku",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 10600111,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1315,
+			78,
+			0,
+			41,
+			0,
+			51,
+			0,
+			22,
+			4,
+			20,
+			86,
+			0
+		},
+		attrs_growth = {
+			37454,
+			967,
+			0,
+			891,
+			0,
+			353,
+			0,
+			311,
+			51,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		},
+		gift_dislike = {
+			180009,
+			180002
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[10600112] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "雫",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 10600110,
+		english_name = "Shizuku",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 10600112,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1636,
+			97,
+			0,
+			51,
+			0,
+			51,
+			0,
+			22,
+			4,
+			20,
+			86,
+			0
+		},
+		attrs_growth = {
+			37454,
+			967,
+			0,
+			891,
+			0,
+			353,
+			0,
+			311,
+			51,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		},
+		gift_dislike = {
+			180009,
+			180002
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[10600113] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "雫",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 10600110,
+		english_name = "Shizuku",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 10600113,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2277,
+			136,
+			0,
+			71,
+			0,
+			51,
+			0,
+			22,
+			4,
+			20,
+			86,
+			0
+		},
+		attrs_growth = {
+			37454,
+			967,
+			0,
+			891,
+			0,
+			353,
+			0,
+			311,
+			51,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		},
+		gift_dislike = {
+			180009,
+			180002
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[10600114] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "雫",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 10600110,
+		english_name = "Shizuku",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 10600114,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			3239,
+			193,
+			0,
+			101,
+			0,
+			51,
+			0,
+			22,
+			4,
+			20,
+			86,
+			0
+		},
+		attrs_growth = {
+			37454,
+			967,
+			0,
+			891,
+			0,
+			353,
+			0,
+			311,
+			51,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		},
+		gift_dislike = {
+			180009,
+			180002
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[10600121] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "香迪",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 10600120,
+		english_name = "Shandy",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10600121,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			797,
+			47,
+			38,
+			45,
+			0,
+			66,
+			0,
+			49,
+			18,
+			28,
+			85,
+			0
+		},
+		attrs_growth = {
+			22714,
+			643,
+			523,
+			982,
+			0,
+			462,
+			0,
+			700,
+			565,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.4,
+			1.05,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV",
+			"Shandy"
+		},
+		gift_dislike = {
+			180002,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[10600122] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "香迪",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 10600120,
+		english_name = "Shandy",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10600122,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			991,
+			59,
+			47,
+			56,
+			0,
+			66,
+			0,
+			49,
+			18,
+			28,
+			85,
+			0
+		},
+		attrs_growth = {
+			22714,
+			643,
+			523,
+			982,
+			0,
+			462,
+			0,
+			700,
+			565,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.4,
+			1.05,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV",
+			"Shandy"
+		},
+		gift_dislike = {
+			180002,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[10600123] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "香迪",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 10600120,
+		english_name = "Shandy",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10600123,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1380,
+			82,
+			66,
+			78,
+			0,
+			66,
+			0,
+			49,
+			18,
+			28,
+			85,
+			0
+		},
+		attrs_growth = {
+			22714,
+			643,
+			523,
+			982,
+			0,
+			462,
+			0,
+			700,
+			565,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.5,
+			1.05,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV",
+			"Shandy"
+		},
+		gift_dislike = {
+			180002,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[10600124] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "香迪",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 10600120,
+		english_name = "Shandy",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 10600124,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1964,
+			116,
+			94,
+			111,
+			0,
+			66,
+			0,
+			49,
+			18,
+			28,
+			85,
+			0
+		},
+		attrs_growth = {
+			22714,
+			643,
+			523,
+			982,
+			0,
+			462,
+			0,
+			700,
+			565,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.65,
+			1.05,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV",
+			"Shandy"
+		},
+		gift_dislike = {
+			180002,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[10600131] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "筑紫 ",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 10600130,
+		english_name = "Tsukushi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 10600131,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			329,
+			18,
+			101,
+			33,
+			0,
+			80,
+			0,
+			69,
+			71,
+			42.6,
+			89,
+			51
+		},
+		attrs_growth = {
+			9378,
+			247,
+			1212,
+			714,
+			0,
+			554,
+			0,
+			1062,
+			1320,
+			0,
+			0,
+			577
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.2,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		},
+		gift_dislike = {
+			180004,
+			180006
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[10600132] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "筑紫 ",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 10600130,
+		english_name = "Tsukushi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 10600132,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			409,
+			22,
+			126,
+			41,
+			0,
+			80,
+			0,
+			69,
+			71,
+			42.6,
+			89,
+			64
+		},
+		attrs_growth = {
+			9378,
+			247,
+			1212,
+			714,
+			0,
+			554,
+			0,
+			1062,
+			1320,
+			0,
+			0,
+			577
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.25,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		},
+		gift_dislike = {
+			180004,
+			180006
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[10600133] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "筑紫 ",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 10600130,
+		english_name = "Tsukushi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 10600133,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			570,
+			31,
+			176,
+			57,
+			0,
+			80,
+			0,
+			69,
+			71,
+			42.6,
+			89,
+			89
+		},
+		attrs_growth = {
+			9378,
+			247,
+			1212,
+			714,
+			0,
+			554,
+			0,
+			1062,
+			1320,
+			0,
+			0,
+			577
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.35,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		},
+		gift_dislike = {
+			180004,
+			180006
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[10600134] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "筑紫 ",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 10600130,
+		english_name = "Tsukushi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 10600134,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			811,
+			44,
+			251,
+			81,
+			0,
+			80,
+			0,
+			69,
+			71,
+			42.6,
+			89,
+			126
+		},
+		attrs_growth = {
+			9378,
+			247,
+			1212,
+			714,
+			0,
+			554,
+			0,
+			1062,
+			1320,
+			0,
+			0,
+			577
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.4,
+			1.15
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV"
+		},
+		gift_dislike = {
+			180004,
+			180006
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[10600141] = {
+		raid_distance = 30,
+		oxy_max = 268,
+		name = "派蒂",
+		type = 8,
+		oxy_cost = 10,
+		skin_id = 10600140,
+		english_name = "Patty",
+		oxy_recovery_surface = 0,
+		attack_duration = 5,
+		star = 3,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 106,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 1,
+		id = 10600141,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			276,
+			11,
+			107,
+			0,
+			0,
+			38,
+			0,
+			71,
+			11,
+			28,
+			86,
+			0
+		},
+		attrs_growth = {
+			7866,
+			154,
+			1278,
+			0,
+			0,
+			263,
+			0,
+			1042,
+			297,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.15,
+			0.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				},
+				{
+					3,
+					-1
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					-3,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					3,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					2
+				},
+				{
+					1,
+					-2
+				}
+			},
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					2,
+					0
+				}
+			}
+		},
+		tag_list = {
+			"DOAXVV"
+		},
+		gift_dislike = {
+			180008,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[10600142] = {
+		raid_distance = 30,
+		oxy_max = 268,
+		name = "派蒂",
+		type = 8,
+		oxy_cost = 10,
+		skin_id = 10600140,
+		english_name = "Patty",
+		oxy_recovery_surface = 0,
+		attack_duration = 5,
+		star = 4,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 106,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 1,
+		id = 10600142,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			343,
+			14,
+			133,
+			0,
+			0,
+			38,
+			0,
+			71,
+			11,
+			28,
+			86,
+			0
+		},
+		attrs_growth = {
+			7866,
+			154,
+			1278,
+			0,
+			0,
+			263,
+			0,
+			1042,
+			297,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.2,
+			0.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				},
+				{
+					3,
+					-1
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					-3,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					3,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					2
+				},
+				{
+					1,
+					-2
+				}
+			},
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					2,
+					0
+				}
+			}
+		},
+		tag_list = {
+			"DOAXVV"
+		},
+		gift_dislike = {
+			180008,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[10600143] = {
+		raid_distance = 30,
+		oxy_max = 268,
+		name = "派蒂",
+		type = 8,
+		oxy_cost = 10,
+		skin_id = 10600140,
+		english_name = "Patty",
+		oxy_recovery_surface = 0,
+		attack_duration = 5,
+		star = 5,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 106,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 2,
+		id = 10600143,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			478,
+			19,
+			186,
+			0,
+			0,
+			38,
+			0,
+			71,
+			11,
+			28,
+			86,
+			0
+		},
+		attrs_growth = {
+			7866,
+			154,
+			1278,
+			0,
+			0,
+			263,
+			0,
+			1042,
+			297,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.2,
+			0.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				},
+				{
+					3,
+					-1
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					-3,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					3,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					2
+				},
+				{
+					1,
+					-2
+				}
+			},
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					2,
+					0
+				}
+			}
+		},
+		tag_list = {
+			"DOAXVV"
+		},
+		gift_dislike = {
+			180008,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[10600144] = {
+		raid_distance = 30,
+		oxy_max = 268,
+		name = "派蒂",
+		type = 8,
+		oxy_cost = 10,
+		skin_id = 10600140,
+		english_name = "Patty",
+		oxy_recovery_surface = 0,
+		attack_duration = 5,
+		star = 6,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 106,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 2,
+		id = 10600144,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			680,
+			28,
+			265,
+			0,
+			0,
+			38,
+			0,
+			71,
+			11,
+			28,
+			86,
+			0
+		},
+		attrs_growth = {
+			7866,
+			154,
+			1278,
+			0,
+			0,
+			263,
+			0,
+			1042,
+			297,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.3,
+			0.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				},
+				{
+					3,
+					-1
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					-3,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					3,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					2
+				},
+				{
+					1,
+					-2
+				}
+			},
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					2,
+					0
+				}
+			}
+		},
+		tag_list = {
+			"DOAXVV"
+		},
+		gift_dislike = {
+			180008,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[10600151] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "千乃",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 10600150,
+		english_name = "Yukino",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 10600151,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			677,
+			32,
+			0,
+			72,
+			0,
+			71,
+			0,
+			55,
+			30,
+			35,
+			87,
+			36
+		},
+		attrs_growth = {
+			19274,
+			447,
+			0,
+			1494,
+			0,
+			492,
+			0,
+			788,
+			588,
+			0,
+			0,
+			423
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.7,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV",
+			"YKNE1",
+			"YKNE2",
+			"YKNE3"
+		},
+		gift_dislike = {
+			180004,
+			180002
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[10600152] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "千乃",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 10600150,
+		english_name = "Yukino",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 10600152,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			842,
+			40,
+			0,
+			90,
+			0,
+			71,
+			0,
+			55,
+			30,
+			35,
+			87,
+			45
+		},
+		attrs_growth = {
+			19274,
+			447,
+			0,
+			1494,
+			0,
+			492,
+			0,
+			788,
+			588,
+			0,
+			0,
+			423
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.7,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV",
+			"YKNE1",
+			"YKNE2",
+			"YKNE3"
+		},
+		gift_dislike = {
+			180004,
+			180002
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[10600153] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "千乃",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 10600150,
+		english_name = "Yukino",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 10600153,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1172,
+			56,
+			0,
+			125,
+			0,
+			71,
+			0,
+			55,
+			30,
+			35,
+			87,
+			62
+		},
+		attrs_growth = {
+			19274,
+			447,
+			0,
+			1494,
+			0,
+			492,
+			0,
+			788,
+			588,
+			0,
+			0,
+			423
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			0.7,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV",
+			"YKNE1",
+			"YKNE2",
+			"YKNE3"
+		},
+		gift_dislike = {
+			180004,
+			180002
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[10600154] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "千乃",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 10600150,
+		english_name = "Yukino",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 106,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 10600154,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1667,
+			80,
+			0,
+			178,
+			0,
+			71,
+			0,
+			55,
+			30,
+			35,
+			87,
+			89
+		},
+		attrs_growth = {
+			19274,
+			447,
+			0,
+			1494,
+			0,
+			492,
+			0,
+			788,
+			588,
+			0,
+			0,
+			423
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			0.7,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DOAXVV",
+			"YKNE1",
+			"YKNE2",
+			"YKNE3"
+		},
+		gift_dislike = {
+			180004,
+			180002
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[10700011] = {
 		raid_distance = 0,
 		oxy_max = 0,

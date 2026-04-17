@@ -3534,6 +3534,9 @@ function temp()
 				}
 			}
 		},
+		迪 = {
+			this = true
+		},
 		槟 = {
 			this = true
 		}
@@ -3950,6 +3953,11 @@ function temp()
 		},
 		吕 = {
 			波 = {
+				this = true
+			}
+		},
+		莉 = {
+			丝 = {
 				this = true
 			}
 		}
@@ -9050,6 +9058,46 @@ temp()
 function temp()
 	var_0_1.环 = {
 		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.雫 = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.筑 = {
+		紫 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.派 = {
+		蒂 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.千 = {
+		乃 = {
 			this = true
 		}
 	}

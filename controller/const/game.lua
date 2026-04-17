@@ -918,6 +918,7 @@ GAME = {
 	GUILD_RECOMMAND_ASSULT_SHIP = "guild recommend assault ship",
 	GUILD_GET_REQUEST_LIST_DONE = "guild get request list done",
 	NEW_EDUCATE_SET_CALL = "NEW_EDUCATE_SET_CALL",
+	ISLAND_CHANGE_ENTER = "ISLAND_CHANGE_ENTER",
 	ACTIVITY_STORYUNLOCKED_DONE = "activity story unlocked done",
 	ISLAND_UPDATE_TASK = "ISLAND_UPDATE_TASK",
 	GUILD_SEND_MSG = "guild send msg",

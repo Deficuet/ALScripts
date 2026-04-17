@@ -210,6 +210,7 @@ pg.pay_data_display = setmetatable({
 		2075,
 		2076,
 		2077,
+		2078,
 		5001,
 		5002,
 		5003,
@@ -22133,6 +22134,124 @@ pg.base.pay_data_display = {
 				2,
 				20001,
 				40
+			}
+		}
+	},
+	[2078] = {
+		limit_group = 0,
+		name = "舰艇教材礼包(2026春)",
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		type = 0,
+		second_text = "",
+		type_order = 0,
+		subject = "舰艇教材礼包",
+		first_text = "",
+		first_icon = "",
+		limit_arg = 4,
+		money = 18,
+		tip = "",
+		tag = 2,
+		tip_open = 0,
+		gem = 0,
+		id = 2078,
+		name_display = "舰艇教材礼包",
+		limit_type = 2,
+		package_sort_id = 0,
+		akashi_pick = 1,
+		package_tag = "",
+		picture = "boxSkill",
+		extra_service = 3,
+		skin_inquire_relation = 0,
+		show_group = "",
+		id_str = "com.bilibili.blhx.libao130",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "可获得大量教材奖励",
+		package_tag_open = 0,
+		airijp_id = "com.yostarjp.azurlane.package130",
+		extra_service_item = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40023,
+				1
 			}
 		}
 	},

@@ -54,7 +54,6 @@ function var_0_0.OnChangeMiniGameScene(arg_8_0, arg_8_1)
 	if arg_8_1 then
 		setActive(arg_8_0.miniGameUI, true)
 		arg_8_0.viewCoponent:OpenPage(IslandCheaterTavernMainPage, arg_8_0.miniGameUI, isReConnected)
-		arg_8_0.sceneLoader:ActivatePendingScene()
 		onNextTick(function()
 			arg_8_0.view:AfterCoreInit()
 
@@ -63,7 +62,11 @@ function var_0_0.OnChangeMiniGameScene(arg_8_0, arg_8_1)
 			end
 		end)
 	else
+		CheatTavernCameraMgr.instance._mainCamera.enabled = false
+
 		arg_8_0.viewCoponent:OpenPage(IslandCheaterTavernMainPage, arg_8_0.miniGameUI, isReConnected)
+
+		CheatTavernCameraMgr.instance._mainCamera.enabled = true
 	end
 end
 
@@ -84,8 +87,8 @@ function var_0_0.GetMiniGameUI(arg_12_0)
 	return "IslandCheaterTavernMainUI"
 end
 
-function var_0_0.Dispose(arg_13_0)
-	var_0_0.super.Dispose(arg_13_0)
+function var_0_0.Dispose(arg_13_0, arg_13_1)
+	var_0_0.super.Dispose(arg_13_0, arg_13_1)
 	GameObject.Destroy(arg_13_0.miniGameUI)
 end
 

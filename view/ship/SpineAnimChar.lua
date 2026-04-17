@@ -253,27 +253,31 @@ function var_0_0.updateCharDirect(arg_31_0)
 	end
 end
 
-function var_0_0.getDirectActonName(arg_32_0, arg_32_1)
-	if not arg_32_0.direct then
-		arg_32_0.direct = math.sign(tf(arg_32_0._model).localScale.x)
-	end
-
-	local var_32_0 = arg_32_0.direct == 1 and "_R" or "_L"
-	local var_32_1 = arg_32_1 .. var_32_0
-
-	if arg_32_0._skeletonGraphic.SkeletonData:FindAnimation(var_32_1) then
-		return var_32_1, true
-	end
-
-	return arg_32_1, false
+function var_0_0.GetActionName(arg_32_0)
+	return arg_32_0.actionName
 end
 
-function var_0_0.isComplete(arg_33_0)
-	return arg_33_0.state == var_0_0.state_complete
+function var_0_0.getDirectActonName(arg_33_0, arg_33_1)
+	if not arg_33_0.direct then
+		arg_33_0.direct = math.sign(tf(arg_33_0._model).localScale.x)
+	end
+
+	local var_33_0 = arg_33_0.direct == 1 and "_R" or "_L"
+	local var_33_1 = arg_33_1 .. var_33_0
+
+	if arg_33_0._skeletonGraphic.SkeletonData:FindAnimation(var_33_1) then
+		return var_33_1, true
+	end
+
+	return arg_33_1, false
 end
 
-function var_0_0.isDispose(arg_34_0)
-	return arg_34_0.state == var_0_0.state_dispose
+function var_0_0.isComplete(arg_34_0)
+	return arg_34_0.state == var_0_0.state_complete
+end
+
+function var_0_0.isDispose(arg_35_0)
+	return arg_35_0.state == var_0_0.state_dispose
 end
 
 return var_0_0

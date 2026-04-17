@@ -1,5 +1,10 @@
 local var_0_0 = class("LevelStageDOAFeverPanel", import("view.base.BaseSubPanel"))
 
+var_0_0.PAINTING_RANGE = {
+	1,
+	7
+}
+
 function var_0_0.getUIName(arg_1_0)
 	return "LevelStageDOAFeverPanel"
 end
@@ -84,7 +89,7 @@ function var_0_0.UpdateView(arg_3_0, arg_3_1, arg_3_2)
 
 				local var_6_0 = arg_3_0.banner:Find("Main/Painting")
 				local var_6_1 = var_6_0:GetComponent(typeof(Image))
-				local var_6_2 = math.random(1, 7)
+				local var_6_2 = math.random(arg_3_0.PAINTING_RANGE[1], arg_3_0.PAINTING_RANGE[2])
 
 				setImageSprite(var_6_0, LoadSprite("ui/LevelStageDOAFeverPanel_atlas", tostring(var_6_2)), true)
 				setActive(arg_3_0.banner, true)

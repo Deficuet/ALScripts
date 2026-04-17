@@ -18,7 +18,6 @@ function var_0_0.AfterCoreInit(arg_4_0)
 	end
 
 	arg_4_0.weatherSystem = IslandWeatherSystem.New(arg_4_0)
-	arg_4_0.root = arg_4_0:CreateRoot()
 
 	arg_4_0:InitSceneGameObject()
 
@@ -70,214 +69,214 @@ function var_0_0.RemoveListeners(arg_10_0)
 end
 
 function var_0_0.OnInitCamera(arg_11_0, arg_11_1)
-	onNextTick(function()
-		local var_12_0 = "lookSeet0" .. arg_11_1
+	local var_11_0 = "lookSeet0" .. arg_11_1
 
-		print("lookSeet0" .. Time.frameCount)
-		CheatTavernCameraMgr.instance:ActiveVirtualCamera(var_12_0)
-	end)
+	print("todo:lookSeet0" .. Time.frameCount)
+	CheatTavernCameraMgr.instance:ActiveVirtualCamera(var_11_0)
+
+	CheatTavernCameraMgr.instance._mainCamera.enabled = true
 end
 
-function var_0_0.PlayBGM(arg_13_0)
-	if not arg_13_0.isSceneLoaded then
+function var_0_0.PlayBGM(arg_12_0)
+	if not arg_12_0.isSceneLoaded then
 		return
 	end
 
-	var_0_0.super.PlayBGM(arg_13_0)
+	var_0_0.super.PlayBGM(arg_12_0)
 end
 
-function var_0_0.OnCloseCheaterMainPage(arg_14_0)
-	local var_14_0 = arg_14_0:GetSelfIsland()
+function var_0_0.OnCloseCheaterMainPage(arg_13_0)
+	local var_13_0 = arg_13_0:GetSelfIsland()
 
-	arg_14_0:NotifiyMeditor(IslandBaseMediator.SWITCH_MAP, var_14_0:GetLastExitPosition().mapId)
+	arg_13_0:NotifiyMeditor(IslandBaseMediator.SWITCH_MAP, var_13_0:GetLastExitPosition().mapId)
 end
 
-function var_0_0.OnFirstTakeShootTip(arg_15_0, arg_15_1)
-	local var_15_0 = arg_15_0:GetUnitModuleWithType(IslandConst.UNIT_LIST_CHEATER_ITEM, IslandCheaterTavernConst.deskTableId)
+function var_0_0.OnFirstTakeShootTip(arg_14_0, arg_14_1)
+	local var_14_0 = arg_14_0:GetUnitModuleWithType(IslandConst.UNIT_LIST_CHEATER_ITEM, IslandCheaterTavernConst.deskTableId)
 
-	if var_15_0 then
-		var_15_0:OnFirstTakeShootTip(arg_15_1)
+	if var_14_0 then
+		var_14_0:OnFirstTakeShootTip(arg_14_1)
 	end
 end
 
-function var_0_0.OnPlayerQuestion(arg_16_0, arg_16_1, arg_16_2, arg_16_3)
+function var_0_0.OnPlayerQuestion(arg_15_0, arg_15_1, arg_15_2, arg_15_3)
+	local var_15_0 = arg_15_0:GetUnitModuleWithType(IslandConst.UNIT_LIST_PLAYER, arg_15_1)
+
+	if var_15_0 then
+		var_15_0:OnPlayerQuestion(arg_15_2)
+	end
+
+	if arg_15_3 then
+		local var_15_1 = IslandCheaterTavernConst.deskCharIdList[arg_15_3]
+		local var_15_2 = arg_15_0:GetUnitModuleWithType(IslandConst.UNIT_LIST_CHEATER_ITEM, var_15_1)
+
+		if var_15_2 then
+			var_15_2:OnPlayerQuestion()
+		end
+	end
+end
+
+function var_0_0.OnPlayWinAnimation(arg_16_0, arg_16_1, arg_16_2, arg_16_3)
 	local var_16_0 = arg_16_0:GetUnitModuleWithType(IslandConst.UNIT_LIST_PLAYER, arg_16_1)
 
 	if var_16_0 then
-		var_16_0:OnPlayerQuestion(arg_16_2)
+		var_16_0:OnPlayWinAnimation(arg_16_2, arg_16_3)
 	end
 
-	if arg_16_3 then
+	if arg_16_2 then
 		local var_16_1 = IslandCheaterTavernConst.deskCharIdList[arg_16_3]
 		local var_16_2 = arg_16_0:GetUnitModuleWithType(IslandConst.UNIT_LIST_CHEATER_ITEM, var_16_1)
 
 		if var_16_2 then
-			var_16_2:OnPlayerQuestion()
+			var_16_2:OnPlayWinAnimation()
 		end
 	end
 end
 
-function var_0_0.OnPlayWinAnimation(arg_17_0, arg_17_1, arg_17_2, arg_17_3)
-	local var_17_0 = arg_17_0:GetUnitModuleWithType(IslandConst.UNIT_LIST_PLAYER, arg_17_1)
+function var_0_0.OnPlayerShoot(arg_17_0, arg_17_1, arg_17_2, arg_17_3, arg_17_4, arg_17_5)
+	local var_17_0 = arg_17_0:GetUnitModuleWithType(IslandConst.UNIT_LIST_CHEATER_ITEM, IslandCheaterTavernConst.deskTableId)
 
 	if var_17_0 then
-		var_17_0:OnPlayWinAnimation(arg_17_2, arg_17_3)
-	end
-
-	if arg_17_2 then
-		local var_17_1 = IslandCheaterTavernConst.deskCharIdList[arg_17_3]
-		local var_17_2 = arg_17_0:GetUnitModuleWithType(IslandConst.UNIT_LIST_CHEATER_ITEM, var_17_1)
-
-		if var_17_2 then
-			var_17_2:OnPlayWinAnimation()
-		end
+		var_17_0:OnShoot(arg_17_1, arg_17_2, arg_17_3, arg_17_4, arg_17_5)
 	end
 end
 
-function var_0_0.OnPlayerShoot(arg_18_0, arg_18_1, arg_18_2, arg_18_3, arg_18_4, arg_18_5)
-	local var_18_0 = arg_18_0:GetUnitModuleWithType(IslandConst.UNIT_LIST_CHEATER_ITEM, IslandCheaterTavernConst.deskTableId)
+function var_0_0.OnPlayerOut(arg_18_0, arg_18_1, arg_18_2, arg_18_3)
+	local var_18_0 = arg_18_0:GetUnitModuleWithType(IslandConst.UNIT_LIST_PLAYER, arg_18_1)
 
 	if var_18_0 then
-		var_18_0:OnShoot(arg_18_1, arg_18_2, arg_18_3, arg_18_4, arg_18_5)
+		var_18_0:OnPlayerOut(arg_18_1, arg_18_2)
+	end
+
+	local var_18_1 = arg_18_0:GetUnitModuleWithType(IslandConst.UNIT_LIST_CHEATER_ITEM, IslandCheaterTavernConst.deskCharIdList[arg_18_2])
+
+	if var_18_1 then
+		var_18_1:OnPlayerOut(arg_18_3)
 	end
 end
 
-function var_0_0.OnPlayerOut(arg_19_0, arg_19_1, arg_19_2, arg_19_3)
-	local var_19_0 = arg_19_0:GetUnitModuleWithType(IslandConst.UNIT_LIST_PLAYER, arg_19_1)
-
-	if var_19_0 then
-		var_19_0:OnPlayerOut(arg_19_1, arg_19_2)
-	end
-
-	local var_19_1 = arg_19_0:GetUnitModuleWithType(IslandConst.UNIT_LIST_CHEATER_ITEM, IslandCheaterTavernConst.deskCharIdList[arg_19_2])
-
-	if var_19_1 then
-		var_19_1:OnPlayerOut(arg_19_3)
-	end
+function var_0_0.OnExitRoomDone(arg_19_0)
+	arg_19_0:ClearSceneObject()
+	arg_19_0:InitSceneGameObject()
 end
 
-function var_0_0.OnExitRoomDone(arg_20_0)
-	arg_20_0:ClearSceneObject()
-	arg_20_0:InitSceneGameObject()
-end
+function var_0_0.OnInitPlayerDone(arg_20_0)
+	for iter_20_0, iter_20_1 in ipairs(IslandCheaterTavernConst.deskCharIdList) do
+		local var_20_0 = arg_20_0:GetUnitModuleWithType(IslandConst.UNIT_LIST_CHEATER_ITEM, iter_20_1)
 
-function var_0_0.OnInitPlayerDone(arg_21_0)
-	for iter_21_0, iter_21_1 in ipairs(IslandCheaterTavernConst.deskCharIdList) do
-		local var_21_0 = arg_21_0:GetUnitModuleWithType(IslandConst.UNIT_LIST_CHEATER_ITEM, iter_21_1)
-
-		if var_21_0 then
-			var_21_0:InitDisplayState()
+		if var_20_0 then
+			var_20_0:InitDisplayState()
 		end
 	end
 end
 
-function var_0_0.ClearSceneObject(arg_22_0)
-	local var_22_0 = arg_22_0:GetUnitListByKey(IslandConst.UNIT_LIST_PLAYER)
-	local var_22_1 = {}
+function var_0_0.ClearSceneObject(arg_21_0)
+	local var_21_0 = arg_21_0:GetUnitListByKey(IslandConst.UNIT_LIST_PLAYER)
+	local var_21_1 = {}
 
-	for iter_22_0, iter_22_1 in ipairs(var_22_0) do
-		table.insert(var_22_1, iter_22_1.id)
+	for iter_21_0, iter_21_1 in ipairs(var_21_0) do
+		table.insert(var_21_1, iter_21_1.id)
 	end
 
-	for iter_22_2, iter_22_3 in ipairs(var_22_1) do
-		arg_22_0:OnRemoveUnit(IslandConst.UNIT_LIST_PLAYER, iter_22_3)
+	for iter_21_2, iter_21_3 in ipairs(var_21_1) do
+		arg_21_0:OnRemoveUnit(IslandConst.UNIT_LIST_PLAYER, iter_21_3)
 	end
 
-	local var_22_2 = {}
-	local var_22_3 = arg_22_0:GetUnitListByKey(IslandConst.UNIT_LIST_CHEATER_ITEM)
+	local var_21_2 = {}
+	local var_21_3 = arg_21_0:GetUnitListByKey(IslandConst.UNIT_LIST_CHEATER_ITEM)
 
-	for iter_22_4, iter_22_5 in ipairs(var_22_3) do
-		table.insert(var_22_2, iter_22_5.id)
+	for iter_21_4, iter_21_5 in ipairs(var_21_3) do
+		table.insert(var_21_2, iter_21_5.id)
 	end
 
-	for iter_22_6, iter_22_7 in ipairs(var_22_2) do
-		arg_22_0:OnRemoveUnit(IslandConst.UNIT_LIST_CHEATER_ITEM, iter_22_7)
+	for iter_21_6, iter_21_7 in ipairs(var_21_2) do
+		arg_21_0:OnRemoveUnit(IslandConst.UNIT_LIST_CHEATER_ITEM, iter_21_7)
 	end
 end
 
-function var_0_0.InitSceneGameObject(arg_23_0)
-	local var_23_0 = {}
+function var_0_0.InitSceneGameObject(arg_22_0)
+	local var_22_0 = {}
 
-	for iter_23_0, iter_23_1 in ipairs(IslandCheaterTavernConst.deskCharIdList) do
-		local var_23_1 = pg.island_world_objects[iter_23_1]
+	for iter_22_0, iter_22_1 in ipairs(IslandCheaterTavernConst.deskCharIdList) do
+		local var_22_1 = pg.island_world_objects[iter_22_1]
 
-		if var_23_1.unitId > 0 then
-			local var_23_2 = {
+		if var_22_1.unitId > 0 then
+			local var_22_2 = {
 				typ = IslandConst.UNIT_TYPE_CHEATERTAVERN_CHAIR,
-				index = iter_23_0
+				index = iter_22_0
 			}
-			local var_23_3 = IslandDataConvertor.WorldObj2IslandUnit(var_23_1, var_23_2)
+			local var_22_3 = IslandDataConvertor.WorldObj2IslandUnit(var_22_1, var_22_2)
 
-			table.insert(var_23_0, var_23_3)
+			table.insert(var_22_0, var_22_3)
 		end
 	end
 
-	local var_23_4 = pg.island_world_objects[IslandCheaterTavernConst.deskTableId]
-	local var_23_5 = {
+	local var_22_4 = pg.island_world_objects[IslandCheaterTavernConst.deskTableId]
+	local var_22_5 = {
 		typ = IslandConst.UNIT_TYPE_CHEATERTAVERN_TABLE
 	}
-	local var_23_6 = IslandDataConvertor.WorldObj2IslandUnit(var_23_4, var_23_5)
+	local var_22_6 = IslandDataConvertor.WorldObj2IslandUnit(var_22_4, var_22_5)
 
-	table.insert(var_23_0, var_23_6)
+	table.insert(var_22_0, var_22_6)
 
-	for iter_23_2, iter_23_3 in ipairs(var_23_0) do
-		arg_23_0:OnGenUnit(iter_23_3)
+	for iter_22_2, iter_22_3 in ipairs(var_22_0) do
+		arg_22_0:OnGenUnit(iter_22_3)
 	end
 end
 
-function var_0_0.RestartGame(arg_24_0)
+function var_0_0.RestartGame(arg_23_0)
 	return
 end
 
-function var_0_0.OnEndPerformance(arg_25_0)
+function var_0_0.OnEndPerformance(arg_24_0)
 	return
 end
 
-function var_0_0.DisableOp(arg_26_0)
+function var_0_0.DisableOp(arg_25_0)
 	return
 end
 
-function var_0_0.EnableOp(arg_27_0)
+function var_0_0.EnableOp(arg_26_0)
 	return
 end
 
-function var_0_0.OnDispose(arg_28_0)
-	for iter_28_0, iter_28_1 in ipairs(arg_28_0.views) do
-		iter_28_1:Dispose()
+function var_0_0.OnDispose(arg_27_0)
+	for iter_27_0, iter_27_1 in ipairs(arg_27_0.views) do
+		iter_27_1:Dispose()
 	end
 
-	arg_28_0.weatherSystem:Dispose()
+	arg_27_0.weatherSystem:Dispose()
 end
 
-function var_0_0.OnRemoveUnit(arg_29_0, arg_29_1, arg_29_2)
-	local var_29_0 = arg_29_0:GetUnitListByKey(arg_29_1)
-	local var_29_1 = 0
+function var_0_0.OnRemoveUnit(arg_28_0, arg_28_1, arg_28_2)
+	local var_28_0 = arg_28_0:GetUnitListByKey(arg_28_1)
+	local var_28_1 = 0
 
-	for iter_29_0, iter_29_1 in ipairs(var_29_0 or {}) do
-		if iter_29_1.id == arg_29_2 then
-			var_29_1 = iter_29_0
+	for iter_28_0, iter_28_1 in ipairs(var_28_0 or {}) do
+		if iter_28_1.id == arg_28_2 then
+			var_28_1 = iter_28_0
 
 			break
 		end
 	end
 
-	if var_29_1 > 0 then
-		local var_29_2 = var_29_0[var_29_1]
+	if var_28_1 > 0 then
+		local var_28_2 = var_28_0[var_28_1]
 
-		arg_29_0:RemoveUnit(var_29_2)
-		var_29_2:Dispose()
+		arg_28_0:RemoveUnit(var_28_2)
+		var_28_2:Dispose()
 	end
 end
 
-function var_0_0.OnAllPageClose(arg_30_0)
-	arg_30_0.anyPageOpen = false
+function var_0_0.OnAllPageClose(arg_29_0)
+	arg_29_0.anyPageOpen = false
 end
 
-function var_0_0.OnAnyPageOpen(arg_31_0, arg_31_1)
-	arg_31_0.anyPageOpen = true
+function var_0_0.OnAnyPageOpen(arg_30_0, arg_30_1)
+	arg_30_0.anyPageOpen = true
 end
 
-function var_0_0.OnUnTracking(arg_32_0, arg_32_1)
+function var_0_0.OnUnTracking(arg_31_0, arg_31_1)
 	return
 end
 

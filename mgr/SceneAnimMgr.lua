@@ -192,146 +192,155 @@ function var_0_0.StartLoading(arg_19_0, arg_19_1, arg_19_2, arg_19_3)
 
 			arg_19_2:GetComponent("DftAniEvent"):SetTriggerEvent(arg_19_3)
 			quickPlayAnimator(arg_19_2, "jufeng")
+		end,
+		jiarihangxianshanyaohaibin = function()
+			arg_19_2 = arg_19_2:Find("scale")
+
+			arg_19_2:GetComponent("DftAniEvent"):SetTriggerEvent(arg_19_3)
+			quickPlayAnimator(arg_19_2, "manyou")
 		end
 	}, function()
 		return
 	end)
 end
 
-function var_0_0.LoopLoading(arg_27_0, arg_27_1, arg_27_2)
-	switch(arg_27_1, {
+function var_0_0.LoopLoading(arg_28_0, arg_28_1, arg_28_2)
+	switch(arg_28_1, {
 		Dorm3DLoading = function()
 			pg.CriMgr.GetInstance():PlaySE_V3("ui-dorm_loading_loop")
 		end,
 		IslandplaneLoading = function()
-			arg_27_2:Find("load"):GetComponent("SkeletonAnimation").state:SetAnimation(0, "normal", true)
+			arg_28_2:Find("load"):GetComponent("SkeletonAnimation").state:SetAnimation(0, "normal", true)
 		end,
 		IslandcarLoading = function()
-			arg_27_2:Find("load"):GetComponent("SkeletonAnimation").state:SetAnimation(0, "normal", true)
+			arg_28_2:Find("load"):GetComponent("SkeletonAnimation").state:SetAnimation(0, "normal", true)
 		end
 	}, function()
 		return
 	end)
 end
 
-function var_0_0.EndLoading(arg_32_0, arg_32_1, arg_32_2, arg_32_3)
-	switch(arg_32_1, {
+function var_0_0.EndLoading(arg_33_0, arg_33_1, arg_33_2, arg_33_3)
+	switch(arg_33_1, {
 		Dorm3DLoading = function()
-			local var_33_0 = arg_32_2:Find("bg"):GetComponent(typeof(Image)).material
+			local var_34_0 = arg_33_2:Find("bg"):GetComponent(typeof(Image)).material
 
-			var_33_0:SetInt("_DissolveTexFlip", 0)
-			LeanTween.value(0, 1, 0.6):setOnUpdate(System.Action_float(function(arg_34_0)
-				var_33_0:SetFloat("_Dissolve", arg_34_0)
+			var_34_0:SetInt("_DissolveTexFlip", 0)
+			LeanTween.value(0, 1, 0.6):setOnUpdate(System.Action_float(function(arg_35_0)
+				var_34_0:SetFloat("_Dissolve", arg_35_0)
 			end)):setEase(LeanTweenType.easeInOutCubic)
-			arg_32_2:GetComponent("DftAniEvent"):SetEndEvent(arg_32_3)
-			GetComponent(arg_32_2, typeof(Animator)):SetBool("Finish", true)
+			arg_33_2:GetComponent("DftAniEvent"):SetEndEvent(arg_33_3)
+			GetComponent(arg_33_2, typeof(Animator)):SetBool("Finish", true)
 		end,
 		IslandplaneLoading = function()
-			arg_32_2:GetComponent("DftAniEvent"):SetEndEvent(arg_32_3)
-			quickPlayAnimation(arg_32_2, "anim_planeLoading_out")
+			arg_33_2:GetComponent("DftAniEvent"):SetEndEvent(arg_33_3)
+			quickPlayAnimation(arg_33_2, "anim_planeLoading_out")
 		end,
 		IslandcarLoading = function()
-			arg_32_2:GetComponent("DftAniEvent"):SetEndEvent(arg_32_3)
-			quickPlayAnimation(arg_32_2, "anim_planeLoading_out")
+			arg_33_2:GetComponent("DftAniEvent"):SetEndEvent(arg_33_3)
+			quickPlayAnimation(arg_33_2, "anim_planeLoading_out")
 		end,
 		jufengyuziyouqundao = function()
-			arg_32_3()
+			arg_33_3()
 		end,
 		jufengyuziyouqundao_fullscreen = function()
-			arg_32_3()
+			arg_33_3()
+		end,
+		jiarihangxianshanyaohaibin = function()
+			arg_33_3()
 		end
 	}, function()
 		return
 	end)
 end
 
-function var_0_0.RegisterDormNextCall(arg_40_0, arg_40_1)
-	function arg_40_0.dormNextCall()
-		arg_40_0.dormNextCall = nil
+function var_0_0.RegisterDormNextCall(arg_42_0, arg_42_1)
+	function arg_42_0.dormNextCall()
+		arg_42_0.dormNextCall = nil
 
-		return arg_40_1()
+		return arg_42_1()
 	end
 end
 
-function var_0_0.Dorm3DSceneChange(arg_42_0, arg_42_1)
-	table.insert(arg_42_0.dormCallbackList, arg_42_1)
+function var_0_0.Dorm3DSceneChange(arg_44_0, arg_44_1)
+	table.insert(arg_44_0.dormCallbackList, arg_44_1)
 
-	if not arg_42_0.playing then
+	if not arg_44_0.playing then
 		pg.UIMgr.GetInstance():LoadingOn(false)
-		arg_42_0:DoDorm3DSceneChange()
+		arg_44_0:DoDorm3DSceneChange()
 	end
 
-	existCall(arg_42_0.dormNextCall)
+	existCall(arg_44_0.dormNextCall)
 end
 
-function var_0_0.DoDorm3DSceneChange(arg_43_0, arg_43_1)
-	arg_43_0.playing = true
+function var_0_0.DoDorm3DSceneChange(arg_45_0, arg_45_1)
+	arg_45_0.playing = true
 
-	setActive(arg_43_0._tf, true)
+	setActive(arg_45_0._tf, true)
 
-	local var_43_0 = "Dorm3DLoading"
-	local var_43_1 = {}
+	local var_45_0 = "Dorm3DLoading"
+	local var_45_1 = {}
 
-	if not arg_43_1 then
-		table.insert(var_43_1, function(arg_44_0)
-			PoolMgr.GetInstance():GetUI(var_43_0, true, function(arg_45_0)
-				arg_43_1 = arg_45_0.transform
+	if not arg_45_1 then
+		table.insert(var_45_1, function(arg_46_0)
+			PoolMgr.GetInstance():GetUI(var_45_0, true, function(arg_47_0)
+				arg_45_1 = arg_47_0.transform
 
-				setParent(arg_43_1, arg_43_0.container, false)
-				arg_44_0()
+				setParent(arg_45_1, arg_45_0.container, false)
+				arg_46_0()
 			end)
 		end)
 	end
 
-	seriesAsync(var_43_1, function()
-		local var_46_0 = arg_43_1:Find("bg"):GetComponent(typeof(Image)).material
-		local var_46_1 = arg_43_1:GetComponent("DftAniEvent")
+	seriesAsync(var_45_1, function()
+		local var_48_0 = arg_45_1:Find("bg"):GetComponent(typeof(Image)).material
+		local var_48_1 = arg_45_1:GetComponent("DftAniEvent")
 
-		var_46_1:SetTriggerEvent(function(arg_47_0)
-			local var_47_0
+		var_48_1:SetTriggerEvent(function(arg_49_0)
+			local var_49_0
 
-			local function var_47_1()
-				if #arg_43_0.dormCallbackList > 0 then
-					table.remove(arg_43_0.dormCallbackList, 1)(var_47_1)
+			local function var_49_1()
+				if #arg_45_0.dormCallbackList > 0 then
+					table.remove(arg_45_0.dormCallbackList, 1)(var_49_1)
 				else
-					GetComponent(arg_43_1, typeof(Animator)):SetBool("Finish", true)
-					var_46_0:SetInt("_DissolveTexFlip", 0)
-					LeanTween.value(0, 1, 0.6):setOnUpdate(System.Action_float(function(arg_49_0)
-						var_46_0:SetFloat("_Dissolve", arg_49_0)
+					GetComponent(arg_45_1, typeof(Animator)):SetBool("Finish", true)
+					var_48_0:SetInt("_DissolveTexFlip", 0)
+					LeanTween.value(0, 1, 0.6):setOnUpdate(System.Action_float(function(arg_51_0)
+						var_48_0:SetFloat("_Dissolve", arg_51_0)
 					end)):setEase(LeanTweenType.easeInOutCubic)
 				end
 			end
 
-			var_47_1()
+			var_49_1()
 			pg.CriMgr.GetInstance():PlaySE_V3("ui-dorm_loading_loop")
 		end)
-		var_46_1:SetEndEvent(function(arg_50_0)
-			if #arg_43_0.dormCallbackList > 0 then
-				quickPlayAnimator(arg_43_1, "anim_dorm3d_loading_in")
-				arg_43_0:DoDorm3DSceneChange(arg_43_1)
+		var_48_1:SetEndEvent(function(arg_52_0)
+			if #arg_45_0.dormCallbackList > 0 then
+				quickPlayAnimator(arg_45_1, "anim_dorm3d_loading_in")
+				arg_45_0:DoDorm3DSceneChange(arg_45_1)
 			else
-				PoolMgr.GetInstance():ReturnUI(var_43_0, arg_43_1.gameObject)
+				PoolMgr.GetInstance():ReturnUI(var_45_0, arg_45_1.gameObject)
 
-				arg_43_0.playing = nil
+				arg_45_0.playing = nil
 
-				setActive(arg_43_0._tf, false)
+				setActive(arg_45_0._tf, false)
 				pg.UIMgr.GetInstance():LoadingOff()
 			end
 		end)
-		GetComponent(arg_43_1, typeof(Animator)):SetBool("Finish", false)
-		var_46_0:SetInt("_DissolveTexFlip", 1)
-		LeanTween.value(1, 0, 0.6):setOnUpdate(System.Action_float(function(arg_51_0)
-			var_46_0:SetFloat("_Dissolve", arg_51_0)
+		GetComponent(arg_45_1, typeof(Animator)):SetBool("Finish", false)
+		var_48_0:SetInt("_DissolveTexFlip", 1)
+		LeanTween.value(1, 0, 0.6):setOnUpdate(System.Action_float(function(arg_53_0)
+			var_48_0:SetFloat("_Dissolve", arg_53_0)
 		end)):setEase(LeanTweenType.easeOutCubic)
 	end)
 end
 
-function var_0_0.IsPlaying(arg_52_0)
-	return arg_52_0.playing
+function var_0_0.IsPlaying(arg_54_0)
+	return arg_54_0.playing
 end
 
-function var_0_0.Dispose(arg_53_0)
-	setActive(arg_53_0._tf, false)
+function var_0_0.Dispose(arg_55_0)
+	setActive(arg_55_0._tf, false)
 
-	arg_53_0.playing = nil
+	arg_55_0.playing = nil
 end

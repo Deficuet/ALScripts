@@ -34,7 +34,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 				local var_2_3 = var_2_0:GetDelegationSlotData(var_1_3):GetSlotRoleData()
 
 				if var_2_3 then
-					var_2_3:ResetGetTimes(arg_2_0.get_times)
+					var_2_3:OnGetAwardMidway(arg_2_0.start_time, arg_2_0.rest_time_list, arg_2_0.get_times)
 				end
 			end
 

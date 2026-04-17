@@ -137,7 +137,7 @@ function var_0_0.SetSpecailBg(arg_7_0, arg_7_1)
 	pg.DynamicBgMgr.GetInstance():LoadBg(arg_7_0, arg_7_1, arg_7_0._tf.parent, arg_7_0._tf, function(arg_8_0)
 		arg_7_0:SetCommonBg(var_7_0)
 		setActive(arg_7_0._tf, true)
-		tf(arg_8_0):SetAsFirstSibling()
+		tf(arg_8_0):SetAsLastSibling()
 
 		arg_7_0.isloading = false
 		arg_8_0.transform.localPosition = Vector3(0, 0, 200)

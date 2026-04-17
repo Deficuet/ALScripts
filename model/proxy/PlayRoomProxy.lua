@@ -225,7 +225,7 @@ function var_0_6.register(arg_13_0)
 
 				arg_13_0:sendNotification(GAME.PLAY_ROOM_EXIT_MATCH_READY_ROOM)
 
-				if (var_15_3 > pg.TimeMgr.GetInstance():GetServerTime() or var_15_2) and arg_13_0.exitMatchFlag ~= true then
+				if arg_15_0.reason == 3 then
 					arg_13_0:sendNotification(GAME.PLAY_ROOM_CREATE_ROOM, {
 						type = PlayRoomConst.PLAY_ROOM_TYPE.MATCH,
 						gameType = arg_13_0.roomData.gameType

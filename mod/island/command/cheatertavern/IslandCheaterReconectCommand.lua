@@ -9,7 +9,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		type = var_1_1
 	}, 23107, function(arg_2_0)
 		if arg_2_0.result == 0 then
-			var_1_2:SetIsConnecting()
+			var_1_2:SetIsConnecting(true)
 			var_1_2:SetResetGameData(arg_2_0)
 			arg_1_0:InitPlayerDate(arg_2_0)
 

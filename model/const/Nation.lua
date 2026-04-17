@@ -98,7 +98,7 @@ function var_0_0.Nation2Side(arg_4_0)
 			[107] = "Imas",
 			[115] = "West",
 			[98] = "West",
-			[106] = "Jp",
+			[106] = "West",
 			[114] = "West",
 			[105] = "Jp"
 		}

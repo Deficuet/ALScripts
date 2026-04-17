@@ -62,7 +62,10 @@ function var_0_0.AddSubLayers(arg_7_0, arg_7_1)
 	arg_7_1.data = {
 		container = arg_7_0._tf,
 		onClose = function()
-			arg_7_0:Hide()
+			pg.SceneAnimMgr.GetInstance():CommonSceneChange("Dorm3DLoading", function(arg_9_0)
+				arg_7_0:Hide()
+				arg_9_0()
+			end)
 		end,
 		sceneRoomType = arg_7_0.sceneRoomType
 	}
@@ -73,53 +76,17 @@ function var_0_0.AddSubLayers(arg_7_0, arg_7_1)
 	})
 end
 
-function var_0_0.OnRoomAllLoadDone(arg_9_0)
+function var_0_0.OnRoomAllLoadDone(arg_10_0)
 	IslandCheaterTavernRecordTools.StartGame()
 end
 
-function var_0_0.OnRefreshModel(arg_10_0)
-	arg_10_0:LoadRoomPlayerModel()
-	arg_10_0:RefreshLight()
+function var_0_0.OnRefreshModel(arg_11_0)
+	arg_11_0:LoadRoomPlayerModel()
+	arg_11_0:RefreshLight()
 end
 
-function var_0_0.RefreshLight(arg_11_0)
-	local var_11_0 = getProxy(PlayRoomProxy)
-	local var_11_1 = arg_11_0.playRoomProxy:GetGameLoadData()
-
-	if var_11_1 == nil then
-		if arg_11_0.sceneRoomType == IslandCheaterTavernConst.SceneRoomType.CustomRoom then
-			var_11_1 = var_11_0:GetRoomData()
-		elseif arg_11_0.sceneRoomType == IslandCheaterTavernConst.SceneRoomType.MatchInfoRoom then
-			var_11_1 = var_11_0:GetMatchRoomData()
-		end
-	end
-
-	if var_11_1 == nil then
-		return
-	end
-
-	local var_11_2 = var_11_1.teamPosList
-
-	for iter_11_0 = 1, arg_11_0.playerSlotCount do
-		if var_11_2[iter_11_0] and var_11_2[iter_11_0][1] then
-			if arg_11_0.playRoomProxy:GetGameLoadData() or table.keyof(var_11_1.readyList, var_11_2[iter_11_0][1]) then
-				setActive(arg_11_0.unReadyEffectList[iter_11_0], false)
-				setActive(arg_11_0.readyEffectList[iter_11_0], true)
-			else
-				setActive(arg_11_0.unReadyEffectList[iter_11_0], true)
-				setActive(arg_11_0.readyEffectList[iter_11_0], false)
-			end
-		else
-			setActive(arg_11_0.unReadyEffectList[iter_11_0], false)
-			setActive(arg_11_0.readyEffectList[iter_11_0], false)
-		end
-	end
-end
-
-function var_0_0.LoadRoomPlayerModel(arg_12_0)
-	arg_12_0.playRoomProxy = getProxy(PlayRoomProxy)
-
-	local var_12_0 = arg_12_0.playRoomProxy
+function var_0_0.RefreshLight(arg_12_0)
+	local var_12_0 = getProxy(PlayRoomProxy)
 	local var_12_1 = arg_12_0.playRoomProxy:GetGameLoadData()
 
 	if var_12_1 == nil then
@@ -136,123 +103,156 @@ function var_0_0.LoadRoomPlayerModel(arg_12_0)
 
 	local var_12_2 = var_12_1.teamPosList
 
-	arg_12_0.playerSlotCount = PlayRoomTools.GetMaxTeamCnt(var_12_1.gameType)
-	arg_12_0.dressHelperDic = {}
-
 	for iter_12_0 = 1, arg_12_0.playerSlotCount do
-		if var_12_2[iter_12_0] then
-			local var_12_3 = var_12_2[iter_12_0][1]
-			local var_12_4 = var_12_1.playerDataList[var_12_3]
+		if var_12_2[iter_12_0] and var_12_2[iter_12_0][1] then
+			if arg_12_0.playRoomProxy:GetGameLoadData() or table.keyof(var_12_1.readyList, var_12_2[iter_12_0][1]) then
+				setActive(arg_12_0.unReadyEffectList[iter_12_0], false)
+				setActive(arg_12_0.readyEffectList[iter_12_0], true)
+			else
+				setActive(arg_12_0.unReadyEffectList[iter_12_0], true)
+				setActive(arg_12_0.readyEffectList[iter_12_0], false)
+			end
+		else
+			setActive(arg_12_0.unReadyEffectList[iter_12_0], false)
+			setActive(arg_12_0.readyEffectList[iter_12_0], false)
+		end
+	end
+end
 
-			if var_12_4 then
-				arg_12_0.playerIndexDic[iter_12_0] = var_12_3
+function var_0_0.LoadRoomPlayerModel(arg_13_0)
+	arg_13_0.playRoomProxy = getProxy(PlayRoomProxy)
 
-				local var_12_5 = PlayRoomTools.GetGameViewID(var_12_4.user_view)
+	local var_13_0 = arg_13_0.playRoomProxy
+	local var_13_1 = arg_13_0.playRoomProxy:GetGameLoadData()
 
-				if not arg_12_0.dressHelperDic[iter_12_0] then
-					arg_12_0.dressHelperDic[iter_12_0] = IslandShipDressHelperMiniGameNew.New()
+	if var_13_1 == nil then
+		if arg_13_0.sceneRoomType == IslandCheaterTavernConst.SceneRoomType.CustomRoom then
+			var_13_1 = var_13_0:GetRoomData()
+		elseif arg_13_0.sceneRoomType == IslandCheaterTavernConst.SceneRoomType.MatchInfoRoom then
+			var_13_1 = var_13_0:GetMatchRoomData()
+		end
+	end
 
-					arg_12_0.dressHelperDic[iter_12_0]:SetShipId(var_12_5.ship_id, var_12_5.dress_list or {})
+	if var_13_1 == nil then
+		return
+	end
+
+	local var_13_2 = var_13_1.teamPosList
+
+	arg_13_0.playerSlotCount = PlayRoomTools.GetMaxTeamCnt(var_13_1.gameType)
+	arg_13_0.dressHelperDic = {}
+
+	for iter_13_0 = 1, arg_13_0.playerSlotCount do
+		if var_13_2[iter_13_0] then
+			local var_13_3 = var_13_2[iter_13_0][1]
+			local var_13_4 = var_13_1.playerDataList[var_13_3]
+
+			if var_13_4 then
+				arg_13_0.playerIndexDic[iter_13_0] = var_13_3
+
+				local var_13_5 = PlayRoomTools.GetGameViewID(var_13_4.user_view)
+
+				if not arg_13_0.dressHelperDic[iter_13_0] then
+					arg_13_0.dressHelperDic[iter_13_0] = IslandShipDressHelperMiniGameNew.New()
+
+					arg_13_0.dressHelperDic[iter_13_0]:SetShipId(var_13_5.ship_id, var_13_5.dress_list or {})
 				end
 
-				local var_12_6 = CheaterTavernHelper.GetModelDataByViewData(var_12_5)
+				local var_13_6 = CheaterTavernHelper.GetModelDataByViewData(var_13_5)
 
-				arg_12_0:LoadCharacter(iter_12_0, var_12_6)
+				arg_13_0:LoadCharacter(iter_13_0, var_13_6)
 			else
-				arg_12_0:UnloadCharacter(iter_12_0)
+				arg_13_0:UnloadCharacter(iter_13_0)
 			end
 		end
 	end
 end
 
-function var_0_0.Preload(arg_13_0, arg_13_1)
-	arg_13_0:PrepareCharacterScene(arg_13_1)
+function var_0_0.Preload(arg_14_0, arg_14_1)
+	arg_14_0:PrepareCharacterScene(arg_14_1)
 end
 
-function var_0_0.PrepareCharacterScene(arg_14_0, arg_14_1)
-	arg_14_0.isLoadCharacterScene = true
+function var_0_0.PrepareCharacterScene(arg_15_0, arg_15_1)
+	arg_15_0.isLoadCharacterScene = true
 
 	seriesAsync({
-		function(arg_15_0)
-			arg_14_0:CreateCharacterContainer()
-			arg_14_0:LoadCharacterScene(arg_15_0)
-		end,
 		function(arg_16_0)
-			arg_14_0:ModifyCameraMask()
-			arg_14_0:ActivityCharacterCamera()
-			arg_14_0:InitSceneTimeline()
-			arg_16_0()
+			arg_15_0:CreateCharacterContainer()
+			arg_15_0:LoadCharacterScene(arg_16_0)
+		end,
+		function(arg_17_0)
+			arg_15_0:ModifyCameraMask()
+			arg_15_0:ActivityCharacterCamera()
+			arg_15_0:InitSceneTimeline()
+			arg_17_0()
 		end
-	}, arg_14_1)
+	}, arg_15_1)
 end
 
-function var_0_0.CreateCharacterContainer(arg_17_0)
-	arg_17_0.roleContainer = GameObject.New("roleContainer").transform
+function var_0_0.CreateCharacterContainer(arg_18_0)
+	arg_18_0.roleContainer = GameObject.New("roleContainer").transform
 
-	pg.ViewUtils.SetLayer(arg_17_0.roleContainer, Layer.Character3D)
+	pg.ViewUtils.SetLayer(arg_18_0.roleContainer, Layer.Character3D)
 end
 
-function var_0_0.ModifyCameraMask(arg_18_0)
-	local var_18_0 = IslandCameraMgr.instance
+function var_0_0.ModifyCameraMask(arg_19_0)
+	local var_19_0 = IslandCameraMgr.instance
 
-	if IsNil(var_18_0) then
-		var_18_0 = CheatTavernCameraMgr.instance
+	if IsNil(var_19_0) then
+		var_19_0 = CheatTavernCameraMgr.instance
 	end
 
-	local var_18_1 = var_18_0._mainCamera
+	local var_19_1 = var_19_0._mainCamera
 
-	arg_18_0.defaultCullingMask = var_18_1.cullingMask
+	arg_19_0.defaultCullingMask = var_19_1.cullingMask
 
-	LuaHelper.SetCamCullingMask(var_18_1, "Character3D")
+	LuaHelper.SetCamCullingMask(var_19_1, "Character3D")
 end
 
-function var_0_0.ActivityCharacterCamera(arg_19_0)
-	local var_19_0 = arg_19_0:GetActiveCamName()
-	local var_19_1 = IslandCameraMgr.instance
+function var_0_0.ActivityCharacterCamera(arg_20_0)
+	local var_20_0 = arg_20_0:GetActiveCamName()
+	local var_20_1 = IslandCameraMgr.instance
 
-	if IsNil(var_19_1) then
-		var_19_1 = CheatTavernCameraMgr.instance
+	if IsNil(var_20_1) then
+		var_20_1 = CheatTavernCameraMgr.instance
 	end
 
-	local var_19_2 = var_19_1:GetVirtualCamera(var_19_0)
+	local var_20_2 = var_20_1:GetVirtualCamera(var_20_0)
 
-	var_19_2.Follow = arg_19_0.roleContainer
-	var_19_2.LookAt = arg_19_0.roleContainer
+	var_20_2.Follow = arg_20_0.roleContainer
+	var_20_2.LookAt = arg_20_0.roleContainer
 
-	var_19_1:ActiveVirtualCamera(var_19_0)
+	var_20_1:ActiveVirtualCamera(var_20_0)
 end
 
-function var_0_0.InitSceneTimeline(arg_20_0)
-	local var_20_0 = GameObject.Find("[sequence]")
+function var_0_0.InitSceneTimeline(arg_21_0)
+	local var_21_0 = GameObject.Find("[sequence]")
 
-	if var_20_0 then
-		local var_20_1 = var_20_0:GetComponent(typeof(UnityEngine.Playables.PlayableDirector))
+	if var_21_0 then
+		local var_21_1 = var_21_0:GetComponent(typeof(UnityEngine.Playables.PlayableDirector))
 
-		TimelineSupport.DynamicBinding(var_20_1)
-		var_20_1:Play()
+		TimelineSupport.DynamicBinding(var_21_1)
+		var_21_1:Play()
 	end
 end
 
-function var_0_0.ClearCharacterScene(arg_21_0, arg_21_1)
-	arg_21_0.isExit = true
+function var_0_0.ClearCharacterScene(arg_22_0, arg_22_1)
+	arg_22_0.isExit = true
 
-	if arg_21_0.isLoadCharacterScene then
-		arg_21_0:UnLoadLightEffect()
-		pg.SceneAnimMgr.GetInstance():CommonSceneChange("Dorm3DLoading", function(arg_22_0)
-			arg_21_0:ClearCharacterContainer()
-			arg_21_0:UnLoadCharacterScene(function()
-				arg_21_0:ActivityPlayerCamera()
-				existCall(arg_21_1)
-				arg_22_0()
-			end)
+	if arg_22_0.isLoadCharacterScene then
+		arg_22_0:UnLoadLightEffect()
+		arg_22_0:ClearCharacterContainer()
+		arg_22_0:UnLoadCharacterScene(function()
+			arg_22_0:ActivityPlayerCamera()
+			existCall(arg_22_1)
 		end)
-		arg_21_0:ResetCameraMask()
-		arg_21_0:emitCore(ISLAND_EVT.REFRESH_WEATHER_SYSTEM)
+		arg_22_0:ResetCameraMask()
+		arg_22_0:emitCore(ISLAND_EVT.REFRESH_WEATHER_SYSTEM)
 	end
 
-	arg_21_0.playerIndexDic = {}
-	arg_21_0.modelDataDic = {}
-	arg_21_0.isLoadCharacterScene = false
+	arg_22_0.playerIndexDic = {}
+	arg_22_0.modelDataDic = {}
+	arg_22_0.isLoadCharacterScene = false
 end
 
 function var_0_0.OnHome(arg_24_0)

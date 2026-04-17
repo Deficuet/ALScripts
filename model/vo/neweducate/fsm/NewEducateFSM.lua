@@ -17,9 +17,6 @@ var_0_0.SYSTEM = {
 
 function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	arg_1_0.systemNo = arg_1_2.system_no
-
-	warning("init systemNo", arg_1_0.systemNo)
-
 	arg_1_0.curNode = arg_1_2.current_node or 0
 
 	local var_1_0 = arg_1_2.cache[1]

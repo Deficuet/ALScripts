@@ -99545,6 +99545,414 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.aircraft_template[183651] = {
+		attack_power = 2,
+		name = "伊莉丝弹幕轰炸机Lv1",
+		type = 3,
+		accuracy = 23,
+		model_ID = "huixing",
+		ACC_growth = 0,
+		crash_DMG = 208,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 106,
+		id = 183651,
+		icon = "huixing",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1846,
+		speed = 50,
+		max_hp = 48,
+		scale = 1,
+		weapon_ID = {
+			183661
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.64,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183652] = {
+		id = 183652,
+		name = "伊莉丝弹幕轰炸机Lv2",
+		hp_growth = 2087,
+		base = 183651,
+		max_hp = 54,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183662
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183653] = {
+		id = 183653,
+		name = "伊莉丝弹幕轰炸机Lv3",
+		hp_growth = 2327,
+		base = 183651,
+		max_hp = 61,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183663
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183654] = {
+		id = 183654,
+		name = "伊莉丝弹幕轰炸机Lv4",
+		hp_growth = 2568,
+		base = 183651,
+		max_hp = 67,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183664
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183655] = {
+		id = 183655,
+		name = "伊莉丝弹幕轰炸机Lv5",
+		hp_growth = 2809,
+		base = 183651,
+		max_hp = 73,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183665
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183656] = {
+		id = 183656,
+		name = "伊莉丝弹幕轰炸机Lv6",
+		hp_growth = 3050,
+		base = 183651,
+		max_hp = 79,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183666
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183657] = {
+		id = 183657,
+		name = "伊莉丝弹幕轰炸机Lv7",
+		hp_growth = 3290,
+		base = 183651,
+		max_hp = 86,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183667
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183658] = {
+		id = 183658,
+		name = "伊莉丝弹幕轰炸机Lv8",
+		hp_growth = 3531,
+		base = 183651,
+		max_hp = 92,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183668
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183659] = {
+		id = 183659,
+		name = "伊莉丝弹幕轰炸机Lv9",
+		hp_growth = 3772,
+		base = 183651,
+		max_hp = 98,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183669
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183660] = {
+		id = 183660,
+		name = "伊莉丝弹幕轰炸机Lv10",
+		hp_growth = 4013,
+		base = 183651,
+		max_hp = 104,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183670
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183671] = {
+		attack_power = 2,
+		name = "伊莉丝集束鱼雷机Lv1",
+		type = 3,
+		accuracy = 23,
+		model_ID = "97jiangong",
+		ACC_growth = 0,
+		crash_DMG = 208,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 107,
+		id = 183671,
+		icon = "97jiangong",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1846,
+		speed = 50,
+		max_hp = 48,
+		scale = 1,
+		weapon_ID = {
+			183681
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.64,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183672] = {
+		id = 183672,
+		name = "伊莉丝集束鱼雷机Lv2",
+		hp_growth = 2087,
+		base = 183671,
+		max_hp = 54,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183682
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183673] = {
+		id = 183673,
+		name = "伊莉丝集束鱼雷机Lv3",
+		hp_growth = 2327,
+		base = 183671,
+		max_hp = 61,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183683
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183674] = {
+		id = 183674,
+		name = "伊莉丝集束鱼雷机Lv4",
+		hp_growth = 2568,
+		base = 183671,
+		max_hp = 67,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183684
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183675] = {
+		id = 183675,
+		name = "伊莉丝集束鱼雷机Lv5",
+		hp_growth = 2809,
+		base = 183671,
+		max_hp = 73,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183685
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183676] = {
+		id = 183676,
+		name = "伊莉丝集束鱼雷机Lv6",
+		hp_growth = 3050,
+		base = 183671,
+		max_hp = 79,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183686
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183677] = {
+		id = 183677,
+		name = "伊莉丝集束鱼雷机Lv7",
+		hp_growth = 3290,
+		base = 183671,
+		max_hp = 86,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183687
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183678] = {
+		id = 183678,
+		name = "伊莉丝集束鱼雷机Lv8",
+		hp_growth = 3531,
+		base = 183671,
+		max_hp = 92,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183688
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183679] = {
+		id = 183679,
+		name = "伊莉丝集束鱼雷机Lv9",
+		hp_growth = 3772,
+		base = 183671,
+		max_hp = 98,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183689
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183680] = {
+		id = 183680,
+		name = "伊莉丝集束鱼雷机Lv10",
+		hp_growth = 4013,
+		base = 183671,
+		max_hp = 104,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183690
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.aircraft_template[200101] = {
 		attack_power = 2,
 		name = "【大舰队米德维BOSS】执棋者 轰炸机",
@@ -303206,6 +303614,879 @@ end)()
 		scale = 0.75,
 		weapon_ID = {
 			3376079
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3385009] = {
+		attack_power = 2,
+		name = "【2026DOA三期EX普通】BOSS 伊莉丝 常驻轰炸机",
+		type = 3,
+		accuracy = 23,
+		model_ID = "feiji_dujiajiu1",
+		ACC_growth = 0,
+		crash_DMG = 85,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3385009,
+		icon = "feiji_dujiajiu1",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 2660,
+		speed = 30,
+		max_hp = 110,
+		scale = 0.75,
+		weapon_ID = {
+			3385010
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3386065] = {
+		type = 1,
+		name = "【2026DOA三期活动】假日花船 航母战斗机 Lv1",
+		dodge_limit = 0,
+		accuracy = 23,
+		model_ID = "feiji_jiushengquan",
+		ACC_growth = 0,
+		crash_DMG = 36,
+		dodge = 1,
+		max_hp = 64,
+		AP_growth = 2000,
+		base = 3086065,
+		id = 3386065,
+		icon = "feiji_jiushengquan",
+		spawn_brownian = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1680,
+		speed = 33,
+		attack_power = 2,
+		scale = 0.75,
+		weapon_ID = {
+			3386075,
+			1100750
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3386066] = {
+		type = 1,
+		name = "【2026DOA三期活动】假日花船 航母战斗机 Lv2",
+		dodge_limit = 0,
+		accuracy = 23,
+		model_ID = "feiji_jiushengquan",
+		ACC_growth = 0,
+		crash_DMG = 48,
+		dodge = 1,
+		max_hp = 88,
+		AP_growth = 2000,
+		base = 3086066,
+		id = 3386066,
+		icon = "feiji_jiushengquan",
+		spawn_brownian = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1960,
+		speed = 33,
+		attack_power = 2,
+		scale = 0.75,
+		weapon_ID = {
+			3386076,
+			1100751
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3386067] = {
+		type = 1,
+		name = "【2026DOA三期活动】假日花船 航母战斗机 Lv3",
+		dodge_limit = 0,
+		accuracy = 23,
+		model_ID = "feiji_jiushengquan",
+		ACC_growth = 0,
+		crash_DMG = 62,
+		dodge = 1,
+		max_hp = 112,
+		AP_growth = 2000,
+		base = 3086067,
+		id = 3386067,
+		icon = "feiji_jiushengquan",
+		spawn_brownian = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2240,
+		speed = 33,
+		attack_power = 2,
+		scale = 0.75,
+		weapon_ID = {
+			3386077,
+			1100752
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3386068] = {
+		type = 1,
+		name = "【2026DOA三期活动】假日花船 航母战斗机 Lv4",
+		dodge_limit = 0,
+		accuracy = 23,
+		model_ID = "feiji_jiushengquan",
+		ACC_growth = 0,
+		crash_DMG = 78,
+		dodge = 1,
+		max_hp = 136,
+		AP_growth = 2000,
+		base = 3086068,
+		id = 3386068,
+		icon = "feiji_jiushengquan",
+		spawn_brownian = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2520,
+		speed = 33,
+		attack_power = 2,
+		scale = 0.75,
+		weapon_ID = {
+			3386078,
+			1100753
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3386069] = {
+		type = 1,
+		name = "【2026DOA三期活动】假日花船 航母战斗机 Lv5",
+		dodge_limit = 0,
+		accuracy = 23,
+		model_ID = "feiji_jiushengquan",
+		ACC_growth = 0,
+		crash_DMG = 98,
+		dodge = 1,
+		max_hp = 160,
+		AP_growth = 2000,
+		base = 3086069,
+		id = 3386069,
+		icon = "feiji_jiushengquan",
+		spawn_brownian = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2800,
+		speed = 33,
+		attack_power = 2,
+		scale = 0.75,
+		weapon_ID = {
+			3386079,
+			1100754
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3386070] = {
+		type = 3,
+		name = "【2026DOA三期活动】假日花船 航母轰炸机 Lv1",
+		dodge_limit = 0,
+		accuracy = 23,
+		model_ID = "feiji_dujiajiu1",
+		ACC_growth = 0,
+		crash_DMG = 65,
+		dodge = 1,
+		max_hp = 80,
+		AP_growth = 2000,
+		base = 3086070,
+		id = 3386070,
+		icon = "feiji_dujiajiu1",
+		spawn_brownian = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2280,
+		speed = 30,
+		attack_power = 2,
+		scale = 0.75,
+		weapon_ID = {
+			3386080
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3386071] = {
+		type = 3,
+		name = "【2026DOA三期活动】假日花船 航母轰炸机 Lv2",
+		dodge_limit = 0,
+		accuracy = 23,
+		model_ID = "feiji_dujiajiu1",
+		ACC_growth = 0,
+		crash_DMG = 85,
+		dodge = 1,
+		max_hp = 110,
+		AP_growth = 2000,
+		base = 3086071,
+		id = 3386071,
+		icon = "feiji_dujiajiu1",
+		spawn_brownian = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2660,
+		speed = 30,
+		attack_power = 2,
+		scale = 0.75,
+		weapon_ID = {
+			3386081
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3386072] = {
+		type = 3,
+		name = "【2026DOA三期活动】假日花船 航母轰炸机 Lv3",
+		dodge_limit = 0,
+		accuracy = 23,
+		model_ID = "feiji_dujiajiu1",
+		ACC_growth = 0,
+		crash_DMG = 110,
+		dodge = 1,
+		max_hp = 140,
+		AP_growth = 2000,
+		base = 3086072,
+		id = 3386072,
+		icon = "feiji_dujiajiu1",
+		spawn_brownian = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3040,
+		speed = 30,
+		attack_power = 2,
+		scale = 0.75,
+		weapon_ID = {
+			3386082
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3386073] = {
+		type = 3,
+		name = "【2026DOA三期活动】假日花船 航母轰炸机 Lv4",
+		dodge_limit = 0,
+		accuracy = 23,
+		model_ID = "feiji_dujiajiu1",
+		ACC_growth = 0,
+		crash_DMG = 140,
+		dodge = 1,
+		max_hp = 170,
+		AP_growth = 2000,
+		base = 3086073,
+		id = 3386073,
+		icon = "feiji_dujiajiu1",
+		spawn_brownian = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3420,
+		speed = 30,
+		attack_power = 2,
+		scale = 0.75,
+		weapon_ID = {
+			3386083
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3386074] = {
+		type = 3,
+		name = "【2026DOA三期活动】假日花船 航母轰炸机 Lv5",
+		dodge_limit = 0,
+		accuracy = 23,
+		model_ID = "feiji_dujiajiu1",
+		ACC_growth = 0,
+		crash_DMG = 175,
+		dodge = 1,
+		max_hp = 200,
+		AP_growth = 2000,
+		base = 3086074,
+		id = 3386074,
+		icon = "feiji_dujiajiu1",
+		spawn_brownian = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3800,
+		speed = 30,
+		attack_power = 2,
+		scale = 0.75,
+		weapon_ID = {
+			3386084
 		},
 		position_offset = {
 			0,

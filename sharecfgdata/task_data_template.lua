@@ -185612,6 +185612,49 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[23853] = {
+		name = "『DOA三期』npc临时加入",
+		guild_coin_award = 0,
+		award = 906341,
+		type = 6,
+		desc = "不该看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23853,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				4,
+				10600111,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[23862] = {
 		name = "『俾斯麦Z复刻』-日常建造",
 		guild_coin_award = 0,
@@ -212188,6 +212231,307 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[24743] = {
+		name = "这是为了更好地工作",
+		guild_coin_award = 0,
+		award = 909490,
+		type = 6,
+		desc = "累计PT解锁",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "6031",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "653",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24743,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30383,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24744] = {
+		name = "海滨的午憩",
+		guild_coin_award = 0,
+		award = 909491,
+		type = 6,
+		desc = "累计PT解锁",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "6031",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "653",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24744,
+		target_num = 200,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30383,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24745] = {
+		name = "沉浸式配方",
+		guild_coin_award = 0,
+		award = 909492,
+		type = 6,
+		desc = "累计PT解锁",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "6031",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "653",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24745,
+		target_num = 300,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30383,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24746] = {
+		name = "身临其境的漫画家",
+		guild_coin_award = 0,
+		award = 909493,
+		type = 6,
+		desc = "累计PT解锁",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "6031",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "653",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24746,
+		target_num = 400,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30383,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24747] = {
+		name = "为你带来幸运的兔兔",
+		guild_coin_award = 0,
+		award = 909494,
+		type = 6,
+		desc = "累计PT解锁",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "6031",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "653",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24747,
+		target_num = 500,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30383,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24748] = {
+		name = "危险野兽狩猎中!",
+		guild_coin_award = 0,
+		award = 909495,
+		type = 6,
+		desc = "累计PT解锁",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "6031",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "653",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24748,
+		target_num = 800,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30383,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24749] = {
+		name = "升空的焰火",
+		guild_coin_award = 0,
+		award = 909496,
+		type = 6,
+		desc = "累计PT解锁",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "6031",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "653",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24749,
+		target_num = 1000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30383,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[24781] = {
 		name = "『20251211』前哨战七日任务1",
 		guild_coin_award = 0,
@@ -228608,788 +228952,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.task_data_template[25318] = {
-		name = "『云龙SP』-日常建造",
-		guild_coin_award = 0,
-		award = 909432,
-		type = 36,
-		desc = "建造舰船3次。",
-		count_inherit = 0,
-		sub_type = 30,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 1,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 1,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		story_id = "",
-		priority_type = 0,
-		ryza_icon = "",
-		fix_task = 0,
-		next_task = "0",
-		auto_commit = 0,
-		story_icon_shift = "",
-		target_id = "0",
-		scene = "",
-		tutorial_handbook_pic = "",
-		id = 25318,
-		target_num = 3,
-		activity_client_config = "",
-		added_tip = 0,
-		open_need = {},
-		award_display = {
-			{
-				1,
-				643,
-				300
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[25319] = {
-		name = "『云龙SP』-日常出击",
-		guild_coin_award = 0,
-		award = 909433,
-		type = 36,
-		desc = "舰队出征，获得15次胜利。",
-		count_inherit = 0,
-		sub_type = 20,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 1,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 1,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		ryza_icon = "",
-		priority_type = 0,
-		fix_task = 0,
-		target_id = "0",
-		next_task = "0",
-		auto_commit = 0,
-		story_icon_shift = "",
-		story_id = "",
-		tutorial_handbook_pic = "",
-		id = 25319,
-		target_num = 15,
-		activity_client_config = "",
-		added_tip = 0,
-		open_need = {},
-		award_display = {
-			{
-				1,
-				643,
-				300
-			}
-		},
-		scene = {
-			"LEVEL"
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[25320] = {
-		name = "『云龙SP』-日常困难本",
-		guild_coin_award = 0,
-		award = 909434,
-		type = 36,
-		desc = "通关1次任意困难关卡 ",
-		count_inherit = 0,
-		sub_type = 182,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 1,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 1,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		story_id = "",
-		priority_type = 0,
-		ryza_icon = "",
-		fix_task = 0,
-		next_task = "0",
-		auto_commit = 0,
-		story_icon_shift = "",
-		target_id = "10101",
-		scene = "",
-		tutorial_handbook_pic = "",
-		id = 25320,
-		target_num = 1,
-		activity_client_config = "",
-		added_tip = 0,
-		open_need = {},
-		award_display = {
-			{
-				1,
-				643,
-				150
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[25321] = {
-		name = "『云龙SP』通关T1/HT1",
-		guild_coin_award = 0,
-		award = 909435,
-		type = 6,
-		desc = "通关T1或HT1",
-		count_inherit = 0,
-		sub_type = 1020,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 1,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 1,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		ryza_icon = "",
-		priority_type = 0,
-		fix_task = 0,
-		next_task = "25322",
-		auto_commit = 0,
-		story_icon_shift = "",
-		story_id = "",
-		tutorial_handbook_pic = "",
-		id = 25321,
-		target_num = 1,
-		activity_client_config = "",
-		added_tip = 0,
-		target_id = {
-			2010001,
-			2010021
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				20001,
-				1
-			},
-			{
-				1,
-				1,
-				600
-			},
-			{
-				1,
-				643,
-				400
-			}
-		},
-		scene = {
-			"ACTIVITY_MAP",
-			{
-				50481
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[25322] = {
-		name = "『云龙SP』通关T2/HT2",
-		guild_coin_award = 0,
-		award = 909436,
-		type = 6,
-		desc = "通关T2或HT2",
-		count_inherit = 0,
-		sub_type = 1020,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 0,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 1,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		ryza_icon = "",
-		priority_type = 0,
-		fix_task = 0,
-		next_task = "25323",
-		auto_commit = 0,
-		story_icon_shift = "",
-		story_id = "",
-		tutorial_handbook_pic = "",
-		id = 25322,
-		target_num = 1,
-		activity_client_config = "",
-		added_tip = 0,
-		target_id = {
-			2010002,
-			2010022
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				20001,
-				1
-			},
-			{
-				1,
-				1,
-				600
-			},
-			{
-				1,
-				643,
-				600
-			}
-		},
-		scene = {
-			"ACTIVITY_MAP",
-			{
-				50481
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[25323] = {
-		name = "『云龙SP』通关T3/HT3",
-		guild_coin_award = 0,
-		award = 909437,
-		type = 6,
-		desc = "通关T3或HT3",
-		count_inherit = 0,
-		sub_type = 1020,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 0,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 1,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		ryza_icon = "",
-		priority_type = 0,
-		fix_task = 0,
-		next_task = "25324",
-		auto_commit = 0,
-		story_icon_shift = "",
-		story_id = "",
-		tutorial_handbook_pic = "",
-		id = 25323,
-		target_num = 1,
-		activity_client_config = "",
-		added_tip = 0,
-		target_id = {
-			2010003,
-			2010023
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				20001,
-				2
-			},
-			{
-				1,
-				1,
-				1500
-			},
-			{
-				1,
-				643,
-				800
-			}
-		},
-		scene = {
-			"ACTIVITY_MAP",
-			{
-				50481
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[25324] = {
-		name = "『云龙SP』通关SP",
-		guild_coin_award = 0,
-		award = 909438,
-		type = 6,
-		desc = "通关SP",
-		count_inherit = 0,
-		sub_type = 1020,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 0,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 1,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		ryza_icon = "",
-		priority_type = 0,
-		fix_task = 0,
-		target_id = "2010041",
-		next_task = "0",
-		auto_commit = 0,
-		story_icon_shift = "",
-		story_id = "",
-		tutorial_handbook_pic = "",
-		id = 25324,
-		target_num = 1,
-		activity_client_config = "",
-		added_tip = 0,
-		open_need = {},
-		award_display = {
-			{
-				2,
-				20001,
-				2
-			},
-			{
-				1,
-				1,
-				1500
-			}
-		},
-		scene = {
-			"LEVEL",
-			{
-				mapIdx = 2010001,
-				chapterId = 2010041
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[25325] = {
-		name = "『云龙SP』T1/HT1的3星",
-		guild_coin_award = 0,
-		award = 909439,
-		type = 6,
-		desc = "完成T1或HT1的3星收集",
-		count_inherit = 0,
-		sub_type = 1021,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 1,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 1,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		ryza_icon = "",
-		priority_type = 0,
-		fix_task = 0,
-		next_task = "25326",
-		auto_commit = 0,
-		story_icon_shift = "",
-		story_id = "",
-		tutorial_handbook_pic = "",
-		id = 25325,
-		target_num = 1,
-		activity_client_config = "",
-		added_tip = 0,
-		target_id = {
-			2010001,
-			2010021
-		},
-		open_need = {},
-		award_display = {
-			{
-				1,
-				2,
-				500
-			}
-		},
-		scene = {
-			"ACTIVITY_MAP",
-			{
-				50481
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[25326] = {
-		name = "『云龙SP』T2/HT2的3星",
-		guild_coin_award = 0,
-		award = 909440,
-		type = 6,
-		desc = "完成T2或HT2的3星收集",
-		count_inherit = 0,
-		sub_type = 1021,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 0,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 1,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		ryza_icon = "",
-		priority_type = 0,
-		fix_task = 0,
-		next_task = "25327",
-		auto_commit = 0,
-		story_icon_shift = "",
-		story_id = "",
-		tutorial_handbook_pic = "",
-		id = 25326,
-		target_num = 1,
-		activity_client_config = "",
-		added_tip = 0,
-		target_id = {
-			2010002,
-			2010022
-		},
-		open_need = {},
-		award_display = {
-			{
-				4,
-				100011,
-				1
-			}
-		},
-		scene = {
-			"ACTIVITY_MAP",
-			{
-				50481
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[25327] = {
-		name = "『云龙SP』T3/HT3的3星",
-		guild_coin_award = 0,
-		award = 909441,
-		type = 6,
-		desc = "完成T3或HT3的3星收集",
-		count_inherit = 0,
-		sub_type = 1021,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 0,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 1,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		ryza_icon = "",
-		priority_type = 0,
-		fix_task = 0,
-		next_task = "0",
-		auto_commit = 0,
-		story_icon_shift = "",
-		story_id = "",
-		tutorial_handbook_pic = "",
-		id = 25327,
-		target_num = 1,
-		activity_client_config = "",
-		added_tip = 0,
-		target_id = {
-			2010003,
-			2010023
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				18013,
-				1
-			}
-		},
-		scene = {
-			"ACTIVITY_MAP",
-			{
-				50481
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[25328] = {
-		name = "『云龙SP』通关任务10次",
-		guild_coin_award = 0,
-		award = 909442,
-		type = 6,
-		desc = "通关10次『漫游者招募计划』特别作战关卡",
-		count_inherit = 0,
-		sub_type = 21,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 1,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 1,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		story_id = "",
-		priority_type = 0,
-		ryza_icon = "",
-		fix_task = 0,
-		next_task = "0",
-		auto_commit = 0,
-		story_icon_shift = "",
-		scene = "",
-		tutorial_handbook_pic = "",
-		id = 25328,
-		target_num = 10,
-		activity_client_config = "",
-		added_tip = 0,
-		target_id = {
-			2010001,
-			2010002,
-			2010003,
-			2010021,
-			2010022,
-			2010023,
-			2010041
-		},
-		open_need = {},
-		award_display = {
-			{
-				1,
-				643,
-				500
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[25329] = {
-		name = "『云龙SP』通关任务30次",
-		guild_coin_award = 0,
-		award = 909443,
-		type = 6,
-		desc = "通关30次『漫游者招募计划』特别作战关卡",
-		count_inherit = 0,
-		sub_type = 21,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 1,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 1,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		story_id = "",
-		priority_type = 0,
-		ryza_icon = "",
-		fix_task = 0,
-		next_task = "0",
-		auto_commit = 0,
-		story_icon_shift = "",
-		scene = "",
-		tutorial_handbook_pic = "",
-		id = 25329,
-		target_num = 30,
-		activity_client_config = "",
-		added_tip = 0,
-		target_id = {
-			2010001,
-			2010002,
-			2010003,
-			2010021,
-			2010022,
-			2010023,
-			2010041
-		},
-		open_need = {},
-		award_display = {
-			{
-				1,
-				643,
-				1500
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[25330] = {
-		name = "『云龙SP』通关任务60次",
-		guild_coin_award = 0,
-		award = 909444,
-		type = 6,
-		desc = "通关60次『漫游者招募计划』特别作战关卡",
-		count_inherit = 0,
-		sub_type = 21,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 1,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 1,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		story_id = "",
-		priority_type = 0,
-		ryza_icon = "",
-		fix_task = 0,
-		next_task = "0",
-		auto_commit = 0,
-		story_icon_shift = "",
-		scene = "",
-		tutorial_handbook_pic = "",
-		id = 25330,
-		target_num = 60,
-		activity_client_config = "",
-		added_tip = 0,
-		target_id = {
-			2010001,
-			2010002,
-			2010003,
-			2010021,
-			2010022,
-			2010023,
-			2010041
-		},
-		open_need = {},
-		award_display = {
-			{
-				1,
-				643,
-				3000
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[25331] = {
-		name = "『云龙SP版本』外观装备箱保底",
-		guild_coin_award = 0,
-		award = 909445,
-		type = 6,
-		desc = "通过「活动商店」兑换或「补给商店-军火」购买20个[外观装备箱(夜都漫游者)]",
-		count_inherit = 0,
-		sub_type = 52,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 1,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 1,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		ryza_icon = "",
-		priority_type = 0,
-		fix_task = 0,
-		target_id = "30382",
-		next_task = "0",
-		auto_commit = 0,
-		story_icon_shift = "",
-		story_id = "",
-		tutorial_handbook_pic = "",
-		id = 25331,
-		target_num = 20,
-		activity_client_config = "",
-		added_tip = 0,
-		open_need = {},
-		award_display = {
-			{
-				2,
-				30566,
-				1
-			}
-		},
-		scene = {
-			"SHOP",
-			{
-				warp = "shopstreet"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[25333] = {
-		name = "『云龙SP』剧情模式通关",
-		guild_coin_award = 0,
-		award = 909447,
-		type = 6,
-		desc = "完成「剧情模式」 ",
-		count_inherit = 0,
-		sub_type = 1005,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 1,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 1,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		ryza_icon = "",
-		priority_type = 0,
-		fix_task = 0,
-		next_task = "0",
-		auto_commit = 0,
-		story_icon_shift = "",
-		story_id = "",
-		tutorial_handbook_pic = "",
-		id = 25333,
-		target_num = 10,
-		activity_client_config = "",
-		added_tip = 0,
-		target_id = {
-			7551,
-			7552,
-			7553,
-			7554,
-			7555,
-			7556,
-			7557,
-			7558,
-			7559,
-			7560
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				20001,
-				5
-			}
-		},
-		scene = {
-			"LEVEL",
-			{
-				mapIdx = 2010001,
-				displayMode = 2
-			}
-		}
-	}
-end)()
-
-(function()
 	_G.pg.base.task_data_template[25281] = {
 		name = "『苏维埃同盟轻量化复刻』-日常建造",
 		guild_coin_award = 0,
@@ -231102,6 +230664,1984 @@ end)()
 		},
 		scene = {
 			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25318] = {
+		name = "『云龙SP』-日常建造",
+		guild_coin_award = 0,
+		award = 909432,
+		type = 36,
+		desc = "建造舰船3次。",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25318,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				643,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25319] = {
+		name = "『云龙SP』-日常出击",
+		guild_coin_award = 0,
+		award = 909433,
+		type = 36,
+		desc = "舰队出征，获得15次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25319,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				643,
+				300
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25320] = {
+		name = "『云龙SP』-日常困难本",
+		guild_coin_award = 0,
+		award = 909434,
+		type = 36,
+		desc = "通关1次任意困难关卡 ",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25320,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				643,
+				150
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25321] = {
+		name = "『云龙SP』通关T1/HT1",
+		guild_coin_award = 0,
+		award = 909435,
+		type = 6,
+		desc = "通关T1或HT1",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25322",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25321,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2010001,
+			2010021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				1,
+				643,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50481
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25322] = {
+		name = "『云龙SP』通关T2/HT2",
+		guild_coin_award = 0,
+		award = 909436,
+		type = 6,
+		desc = "通关T2或HT2",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25323",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25322,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2010002,
+			2010022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				1,
+				643,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50481
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25323] = {
+		name = "『云龙SP』通关T3/HT3",
+		guild_coin_award = 0,
+		award = 909437,
+		type = 6,
+		desc = "通关T3或HT3",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25324",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25323,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2010003,
+			2010023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				1,
+				643,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50481
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25324] = {
+		name = "『云龙SP』通关SP",
+		guild_coin_award = 0,
+		award = 909438,
+		type = 6,
+		desc = "通关SP",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2010041",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25324,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 2010001,
+				chapterId = 2010041
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25325] = {
+		name = "『云龙SP』T1/HT1的3星",
+		guild_coin_award = 0,
+		award = 909439,
+		type = 6,
+		desc = "完成T1或HT1的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25326",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25325,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2010001,
+			2010021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50481
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25326] = {
+		name = "『云龙SP』T2/HT2的3星",
+		guild_coin_award = 0,
+		award = 909440,
+		type = 6,
+		desc = "完成T2或HT2的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "25327",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25326,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2010002,
+			2010022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50481
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25327] = {
+		name = "『云龙SP』T3/HT3的3星",
+		guild_coin_award = 0,
+		award = 909441,
+		type = 6,
+		desc = "完成T3或HT3的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25327,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2010003,
+			2010023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50481
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25328] = {
+		name = "『云龙SP』通关任务10次",
+		guild_coin_award = 0,
+		award = 909442,
+		type = 6,
+		desc = "通关10次『漫游者招募计划』特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25328,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2010001,
+			2010002,
+			2010003,
+			2010021,
+			2010022,
+			2010023,
+			2010041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				643,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25329] = {
+		name = "『云龙SP』通关任务30次",
+		guild_coin_award = 0,
+		award = 909443,
+		type = 6,
+		desc = "通关30次『漫游者招募计划』特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25329,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2010001,
+			2010002,
+			2010003,
+			2010021,
+			2010022,
+			2010023,
+			2010041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				643,
+				1500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25330] = {
+		name = "『云龙SP』通关任务60次",
+		guild_coin_award = 0,
+		award = 909444,
+		type = 6,
+		desc = "通关60次『漫游者招募计划』特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25330,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2010001,
+			2010002,
+			2010003,
+			2010021,
+			2010022,
+			2010023,
+			2010041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				643,
+				3000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25331] = {
+		name = "『云龙SP版本』外观装备箱保底",
+		guild_coin_award = 0,
+		award = 909445,
+		type = 6,
+		desc = "通过「活动商店」兑换或「补给商店-军火」购买20个[外观装备箱(夜都漫游者)]",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "30382",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25331,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30566,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25333] = {
+		name = "『云龙SP』剧情模式通关",
+		guild_coin_award = 0,
+		award = 909447,
+		type = 6,
+		desc = "完成「剧情模式」 ",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25333,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7551,
+			7552,
+			7553,
+			7554,
+			7555,
+			7556,
+			7557,
+			7558,
+			7559,
+			7560
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				5
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 2010001,
+				displayMode = 2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25401] = {
+		name = "『DOA三期』日常建造",
+		guild_coin_award = 0,
+		award = 909461,
+		type = 36,
+		desc = "建造舰船3次。",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25401,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				653,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25402] = {
+		name = "『DOA三期』日常出击",
+		guild_coin_award = 0,
+		award = 909462,
+		type = 36,
+		desc = "舰队出征，获得15次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25402,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				653,
+				300
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25403] = {
+		name = "『DOA三期』日常困难本",
+		guild_coin_award = 0,
+		award = 909463,
+		type = 36,
+		desc = "通关1次任意困难关卡 ",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25403,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				653,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25406] = {
+		name = "『DOA三期』累计建造10次",
+		guild_coin_award = 0,
+		award = 909466,
+		type = 6,
+		desc = "建造舰船10次",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25406,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				653,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25407] = {
+		name = "『DOA三期』累计建造20次",
+		guild_coin_award = 0,
+		award = 909467,
+		type = 6,
+		desc = "建造舰船20次",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25407,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				653,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25408] = {
+		name = "『DOA三期』关卡情绪高涨状态下获得60次胜利",
+		guild_coin_award = 0,
+		award = 909468,
+		type = 6,
+		desc = "「假日航线·闪耀海滨」特别作战关卡情绪高涨状态下获得60次胜利",
+		count_inherit = 0,
+		sub_type = 13,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "8761",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25408,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				653,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				6036
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25409] = {
+		name = "『DOA三期』消耗石油5000点",
+		guild_coin_award = 0,
+		award = 909469,
+		type = 6,
+		desc = "累计消耗石油5000",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25409,
+		target_num = 5000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				21,
+				15200,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25410] = {
+		name = "『DOA三期』大佬章家具",
+		guild_coin_award = 0,
+		award = 909470,
+		type = 6,
+		desc = "通关「假日航线·闪耀海滨」SP4",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2020004",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25410,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				333,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 2020001,
+				chapterId = 2020004
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25411] = {
+		name = "『DOA三期』通关任意活动关卡10次",
+		guild_coin_award = 0,
+		award = 909471,
+		type = 6,
+		desc = "通关10次「假日航线·闪耀海滨」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25411,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2020001,
+			2020002,
+			2020003,
+			2020004,
+			2020041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				653,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				6036
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25412] = {
+		name = "『DOA三期』通关任意活动关卡30次",
+		guild_coin_award = 0,
+		award = 909472,
+		type = 6,
+		desc = "通关30次「假日航线·闪耀海滨」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25412,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2020001,
+			2020002,
+			2020003,
+			2020004,
+			2020041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				653,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				6036
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25413] = {
+		name = "『DOA三期』通关任意活动关卡60次",
+		guild_coin_award = 0,
+		award = 909473,
+		type = 6,
+		desc = "通关60次「假日航线·闪耀海滨」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25413,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2020001,
+			2020002,
+			2020003,
+			2020004,
+			2020041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				653,
+				3000
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				6036
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25414] = {
+		name = "『DOA三期』通关SP1",
+		guild_coin_award = 0,
+		award = 909474,
+		type = 6,
+		desc = "通关「假日航线·闪耀海滨」SP1",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2020001",
+		next_task = "25415",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25414,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				653,
+				200
+			},
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				8,
+				65749,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 2020001,
+				chapterId = 2020001
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25415] = {
+		name = "『DOA三期』通关SP2",
+		guild_coin_award = 0,
+		award = 909475,
+		type = 6,
+		desc = "通关「假日航线·闪耀海滨」SP2",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2020002",
+		next_task = "25416",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25415,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				653,
+				400
+			},
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				8,
+				65749,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 2020001,
+				chapterId = 2020002
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25416] = {
+		name = "『DOA三期』通关SP3",
+		guild_coin_award = 0,
+		award = 909476,
+		type = 6,
+		desc = "通关「假日航线·闪耀海滨」SP3",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2020003",
+		next_task = "25417",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25416,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				653,
+				600
+			},
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				8,
+				65749,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 2020001,
+				chapterId = 2020003
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25417] = {
+		name = "『DOA三期』通关SP4",
+		guild_coin_award = 0,
+		award = 909477,
+		type = 6,
+		desc = "通关「假日航线·闪耀海滨」SP4",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2020004",
+		next_task = "25418",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25417,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				653,
+				800
+			},
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				8,
+				65749,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 2020001,
+				chapterId = 2020004
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25418] = {
+		name = "『DOA三期』通关VSP",
+		guild_coin_award = 0,
+		award = 909478,
+		type = 6,
+		desc = "通关「假日航线·闪耀海滨」VSP",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2020041",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25418,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 2020002,
+				chapterId = 2020041
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25419] = {
+		name = "『DOA三期』通关EX",
+		guild_coin_award = 0,
+		award = 909479,
+		type = 6,
+		desc = "通关「假日航线·闪耀海滨」EX",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25419,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2020051,
+			2020052
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 2020002,
+				chapterId = 2020051
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25420] = {
+		name = "『DOA三期』SP1三星",
+		guild_coin_award = 0,
+		award = 909480,
+		type = 6,
+		desc = "完成「假日航线·闪耀海滨」SP1的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2020001",
+		next_task = "25421",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25420,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30383,
+				1
+			},
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 2020001,
+				chapterId = 2020001
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25421] = {
+		name = "『DOA三期』SP2三星",
+		guild_coin_award = 0,
+		award = 909481,
+		type = 6,
+		desc = "完成「假日航线·闪耀海滨」SP2的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2020002",
+		next_task = "25422",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25421,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30383,
+				1
+			},
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 2020001,
+				chapterId = 2020002
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25422] = {
+		name = "『DOA三期』SP3三星",
+		guild_coin_award = 0,
+		award = 909482,
+		type = 6,
+		desc = "完成「假日航线·闪耀海滨」SP3的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2020003",
+		next_task = "25423",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25422,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30383,
+				1
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 2020001,
+				chapterId = 2020003
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25423] = {
+		name = "『DOA三期』SP4三星",
+		guild_coin_award = 0,
+		award = 909483,
+		type = 6,
+		desc = "完成「假日航线·闪耀海滨」SP4的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2020004",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25423,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30383,
+				1
+			},
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 2020001,
+				chapterId = 2020004
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25424] = {
+		name = "『DOA三期』外观装备箱保底",
+		guild_coin_award = 0,
+		award = 909484,
+		type = 6,
+		desc = "通过「活动商店」兑换或「补给商店-军火」购买20个[外观装备箱(闪耀海滨)]",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "30383",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25424,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30567,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25426] = {
+		name = "『DOA三期』剧情模式通关",
+		guild_coin_award = 0,
+		award = 909565,
+		type = 6,
+		desc = "完成「假日航线·闪耀海滨」剧情模式",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25426,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7603
+		},
+		open_need = {},
+		award_display = {
+			{
+				21,
+				15280,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 2020001,
+				displayMode = 2
+			}
 		}
 	}
 end)()
@@ -334181,6 +335721,6631 @@ end)()
 			{
 				1,
 				594,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56801] = {
+		name = "【2026年4月新服】【每日】任务1",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 36,
+		desc = "舰队出征，消灭敌方旗舰3次。",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56801,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56802] = {
+		name = "【2026年4月新服】【每日】任务2",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 36,
+		desc = "建造舰船1次。",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56802,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56803] = {
+		name = "【2026年4月新服】【每日】任务3",
+		guild_coin_award = 0,
+		award = 909701,
+		type = 36,
+		desc = "舰队出征，进行1次每日挑战。",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56803,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56804] = {
+		name = "【2026年4月新服】【每日】任务4",
+		guild_coin_award = 0,
+		award = 909701,
+		type = 36,
+		desc = "舰队出征，通关主线困难海域1次。",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56804,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56805] = {
+		name = "【2026年4月新服】【每日】任务5",
+		guild_coin_award = 0,
+		award = 909701,
+		type = 36,
+		desc = "参与1次军事演习。",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56805,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56806] = {
+		name = "【2026年4月新服】【每日】任务6",
+		guild_coin_award = 0,
+		award = 909701,
+		type = 36,
+		desc = "执行军事委托1次。",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56806,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56807] = {
+		name = "【2026年4月新服】【每日】任务7",
+		guild_coin_award = 0,
+		award = 909701,
+		type = 36,
+		desc = "进行1次科研。",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56807,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56808] = {
+		name = "【2026年4月新服】通关1-4",
+		guild_coin_award = 0,
+		award = 909701,
+		type = 26,
+		desc = "通关1-4",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "104",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56808,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1,
+				chapterId = 104
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56809] = {
+		name = "【2026年4月新服】通关2-2",
+		guild_coin_award = 0,
+		award = 909701,
+		type = 26,
+		desc = "通关2-2",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "202",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56809,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 2,
+				chapterId = 202
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56810] = {
+		name = "【2026年4月新服】通关2-4",
+		guild_coin_award = 0,
+		award = 909701,
+		type = 26,
+		desc = "通关2-4",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "204",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56810,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 2,
+				chapterId = 204
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56811] = {
+		name = "【2026年4月新服】通关3-2",
+		guild_coin_award = 0,
+		award = 909701,
+		type = 26,
+		desc = "通关3-2",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "302",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56811,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 3,
+				chapterId = 302
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56812] = {
+		name = "【2026年4月新服】通关3-4",
+		guild_coin_award = 0,
+		award = 909711,
+		type = 26,
+		desc = "通关3-4",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "304",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56812,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				4,
+				207021,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 3,
+				chapterId = 304
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56813] = {
+		name = "【2026年4月新服】通关4-2",
+		guild_coin_award = 0,
+		award = 909702,
+		type = 26,
+		desc = "通关4-2",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "402",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56813,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				400
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 4,
+				chapterId = 402
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56814] = {
+		name = "【2026年4月新服】通关4-4",
+		guild_coin_award = 0,
+		award = 909702,
+		type = 26,
+		desc = "通关4-4",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "404",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56814,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				400
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 4,
+				chapterId = 404
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56815] = {
+		name = "【2026年4月新服】通关5-2",
+		guild_coin_award = 0,
+		award = 909702,
+		type = 26,
+		desc = "通关5-2",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "502",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56815,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				400
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 5,
+				chapterId = 502
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56816] = {
+		name = "【2026年4月新服】通关5-4",
+		guild_coin_award = 0,
+		award = 909702,
+		type = 26,
+		desc = "通关5-4",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "504",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56816,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				400
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 5,
+				chapterId = 504
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56817] = {
+		name = "【2026年4月新服】通关6-2",
+		guild_coin_award = 0,
+		award = 909704,
+		type = 26,
+		desc = "通关6-2",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "602",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56817,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				600
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 6,
+				chapterId = 602
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56818] = {
+		name = "【2026年4月新服】通关6-4",
+		guild_coin_award = 0,
+		award = 909712,
+		type = 26,
+		desc = "通关6-4",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "604",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56818,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				4,
+				408021,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 6,
+				chapterId = 604
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56819] = {
+		name = "【2026年4月新服】通关7-2",
+		guild_coin_award = 0,
+		award = 909704,
+		type = 26,
+		desc = "通关7-2",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "702",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56819,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				600
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 7,
+				chapterId = 702
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56820] = {
+		name = "【2026年4月新服】通关7-4",
+		guild_coin_award = 0,
+		award = 909704,
+		type = 26,
+		desc = "通关7-4",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "704",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56820,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				600
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 7,
+				chapterId = 704
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56821] = {
+		name = "【2026年4月新服】通关8-2",
+		guild_coin_award = 0,
+		award = 909705,
+		type = 26,
+		desc = "通关8-2",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "802",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56821,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				800
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 8,
+				chapterId = 802
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56822] = {
+		name = "【2026年4月新服】通关8-4",
+		guild_coin_award = 0,
+		award = 909705,
+		type = 26,
+		desc = "通关8-4",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "804",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56822,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				800
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 8,
+				chapterId = 804
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56823] = {
+		name = "【2026年4月新服】通关9-2",
+		guild_coin_award = 0,
+		award = 909707,
+		type = 26,
+		desc = "通关9-2",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "902",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56823,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				1200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 9,
+				chapterId = 902
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56824] = {
+		name = "【2026年4月新服】通关9-4",
+		guild_coin_award = 0,
+		award = 909707,
+		type = 26,
+		desc = "通关9-4",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "904",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56824,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				1200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 9,
+				chapterId = 904
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56825] = {
+		name = "【2026年4月新服】通关10-2",
+		guild_coin_award = 0,
+		award = 909708,
+		type = 26,
+		desc = "通关10-2",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1002",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56825,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				2000
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 10,
+				chapterId = 1002
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56826] = {
+		name = "【2026年4月新服】通关10-4",
+		guild_coin_award = 0,
+		award = 909713,
+		type = 26,
+		desc = "通关10-4",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1004",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56826,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				4,
+				202201,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 10,
+				chapterId = 1004
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56827] = {
+		name = "【2026年4月新服】通关11-2",
+		guild_coin_award = 0,
+		award = 909709,
+		type = 26,
+		desc = "通关11-2",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1102",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56827,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				3000
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 11,
+				chapterId = 1102
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56828] = {
+		name = "【2026年4月新服】通关11-4",
+		guild_coin_award = 0,
+		award = 909710,
+		type = 26,
+		desc = "通关11-4",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1104",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56828,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				5000
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 11,
+				chapterId = 1104
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56829] = {
+		name = "【2026年4月新服】大舰队商店兑换角色",
+		guild_coin_award = 0,
+		award = 909706,
+		type = 26,
+		desc = "在大舰队商店兑换1个海伦娜。",
+		count_inherit = 0,
+		sub_type = 151,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "102051",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56829,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				1000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56830] = {
+		name = "【2026年4月新服】军事演习1",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【1/20】参与1次军事演习。",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56830,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56830,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56831] = {
+		name = "【2026年4月新服】军事演习2",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【2/20】参与4次军事演习。",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56830,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56831,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56832] = {
+		name = "【2026年4月新服】军事演习3",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【3/20】参与10次军事演习。",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56830,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56832,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56833] = {
+		name = "【2026年4月新服】军事演习4",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【4/20】参与20次军事演习。",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56830,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56833,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56834] = {
+		name = "【2026年4月新服】军事演习5",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【5/20】参与30次军事演习。",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56830,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56834,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56835] = {
+		name = "【2026年4月新服】军事演习6",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【6/20】参与40次军事演习。",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56830,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56835,
+		target_num = 40,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56836] = {
+		name = "【2026年4月新服】军事演习7",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【7/20】参与50次军事演习。",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56830,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56836,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56837] = {
+		name = "【2026年4月新服】军事演习8",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【8/20】参与60次军事演习。",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56830,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56837,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56838] = {
+		name = "【2026年4月新服】军事演习9",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【9/20】参与70次军事演习。",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56830,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56838,
+		target_num = 70,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56839] = {
+		name = "【2026年4月新服】军事演习10",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【10/20】参与80次军事演习。",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56830,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56839,
+		target_num = 80,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56840] = {
+		name = "【2026年4月新服】军事演习11",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【11/20】参与90次军事演习。",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56830,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56840,
+		target_num = 90,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56841] = {
+		name = "【2026年4月新服】军事演习12",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【12/20】参与100次军事演习。",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56830,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56841,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56842] = {
+		name = "【2026年4月新服】军事演习13",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【13/20】参与110次军事演习。",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56830,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56842,
+		target_num = 110,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56843] = {
+		name = "【2026年4月新服】军事演习14",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【14/20】参与120次军事演习。",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56830,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56843,
+		target_num = 120,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56844] = {
+		name = "【2026年4月新服】军事演习15",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【15/20】参与130次军事演习。",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56830,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56844,
+		target_num = 130,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56845] = {
+		name = "【2026年4月新服】军事演习16",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【16/20】参与140次军事演习。",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56830,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56845,
+		target_num = 140,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56846] = {
+		name = "【2026年4月新服】军事演习17",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【17/20】参与150次军事演习。",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56830,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56846,
+		target_num = 150,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56847] = {
+		name = "【2026年4月新服】军事演习18",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【18/20】参与160次军事演习。",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56830,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56847,
+		target_num = 160,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56848] = {
+		name = "【2026年4月新服】军事演习19",
+		guild_coin_award = 0,
+		award = 909706,
+		type = 26,
+		desc = "【19/20】参与180次军事演习。",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56830,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56848,
+		target_num = 180,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				1000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56849] = {
+		name = "【2026年4月新服】军事演习20",
+		guild_coin_award = 0,
+		award = 909706,
+		type = 26,
+		desc = "【20/20】参与200次军事演习。",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56830,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56849,
+		target_num = 200,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				1000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56850] = {
+		name = "【2026年4月新服】获得胜利1",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【1/20】舰队出征，获得1次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56850,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56850,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56851] = {
+		name = "【2026年4月新服】获得胜利2",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【2/20】舰队出征，获得4次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56850,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56851,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56852] = {
+		name = "【2026年4月新服】获得胜利3",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【3/20】舰队出征，获得10次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56850,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56852,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56853] = {
+		name = "【2026年4月新服】获得胜利4",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【4/20】舰队出征，获得20次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56850,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56853,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56854] = {
+		name = "【2026年4月新服】获得胜利5",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【5/20】舰队出征，获得30次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56850,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56854,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56855] = {
+		name = "【2026年4月新服】获得胜利6",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【6/20】舰队出征，获得40次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56850,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56855,
+		target_num = 40,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56856] = {
+		name = "【2026年4月新服】获得胜利7",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【7/20】舰队出征，获得50次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56850,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56856,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56857] = {
+		name = "【2026年4月新服】获得胜利8",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【8/20】舰队出征，获得60次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56850,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56857,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56858] = {
+		name = "【2026年4月新服】获得胜利9",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【9/20】舰队出征，获得70次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56850,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56858,
+		target_num = 70,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56859] = {
+		name = "【2026年4月新服】获得胜利10",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【10/20】舰队出征，获得80次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56850,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56859,
+		target_num = 80,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56860] = {
+		name = "【2026年4月新服】获得胜利11",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【11/20】舰队出征，获得90次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56850,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56860,
+		target_num = 90,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56861] = {
+		name = "【2026年4月新服】获得胜利12",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【12/20】舰队出征，获得100次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56850,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56861,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56862] = {
+		name = "【2026年4月新服】获得胜利13",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【13/20】舰队出征，获得110次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56850,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56862,
+		target_num = 110,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56863] = {
+		name = "【2026年4月新服】获得胜利14",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【14/20】舰队出征，获得120次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56850,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56863,
+		target_num = 120,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56864] = {
+		name = "【2026年4月新服】获得胜利15",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【15/20】舰队出征，获得130次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56850,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56864,
+		target_num = 130,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56865] = {
+		name = "【2026年4月新服】获得胜利16",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【16/20】舰队出征，获得140次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56850,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56865,
+		target_num = 140,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56866] = {
+		name = "【2026年4月新服】获得胜利17",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【17/20】舰队出征，获得150次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56850,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56866,
+		target_num = 150,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56867] = {
+		name = "【2026年4月新服】获得胜利18",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【18/20】舰队出征，获得160次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56850,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56867,
+		target_num = 160,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56868] = {
+		name = "【2026年4月新服】获得胜利19",
+		guild_coin_award = 0,
+		award = 909706,
+		type = 26,
+		desc = "【19/20】舰队出征，获得180次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56850,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56868,
+		target_num = 180,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				1000
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56869] = {
+		name = "【2026年4月新服】获得胜利20",
+		guild_coin_award = 0,
+		award = 909706,
+		type = 26,
+		desc = "【20/20】舰队出征，获得200次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56850,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56869,
+		target_num = 200,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				1000
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56870] = {
+		name = "【2026年4月新服】击沉敌人1",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【1/20】击沉任意敌人10艘。",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56870,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56870,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56871] = {
+		name = "【2026年4月新服】击沉敌人2",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【2/20】击沉任意敌人40艘。",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56870,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56871,
+		target_num = 40,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56872] = {
+		name = "【2026年4月新服】击沉敌人3",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【3/20】击沉任意敌人100艘。",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56870,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56872,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56873] = {
+		name = "【2026年4月新服】击沉敌人4",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【4/20】击沉任意敌人200艘。",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56870,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56873,
+		target_num = 200,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56874] = {
+		name = "【2026年4月新服】击沉敌人5",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【5/20】击沉任意敌人400艘。",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56870,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56874,
+		target_num = 400,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56875] = {
+		name = "【2026年4月新服】击沉敌人6",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【6/20】击沉任意敌人600艘。",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56870,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56875,
+		target_num = 600,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56876] = {
+		name = "【2026年4月新服】击沉敌人7",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【7/20】击沉任意敌人800艘。",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56870,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56876,
+		target_num = 800,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56877] = {
+		name = "【2026年4月新服】击沉敌人8",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【8/20】击沉任意敌人1000艘。",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56870,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56877,
+		target_num = 1000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56878] = {
+		name = "【2026年4月新服】击沉敌人9",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【9/20】击沉任意敌人1200艘。",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56870,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56878,
+		target_num = 1200,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56879] = {
+		name = "【2026年4月新服】击沉敌人10",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【10/20】击沉任意敌人1400艘。",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56870,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56879,
+		target_num = 1400,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56880] = {
+		name = "【2026年4月新服】击沉敌人11",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【11/20】击沉任意敌人1600艘。",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56870,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56880,
+		target_num = 1600,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56881] = {
+		name = "【2026年4月新服】击沉敌人12",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【12/20】击沉任意敌人1800艘。",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56870,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56881,
+		target_num = 1800,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56882] = {
+		name = "【2026年4月新服】击沉敌人13",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【13/20】击沉任意敌人2000艘。",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56870,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56882,
+		target_num = 2000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56883] = {
+		name = "【2026年4月新服】击沉敌人14",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【14/20】击沉任意敌人2200艘。",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56870,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56883,
+		target_num = 2200,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56884] = {
+		name = "【2026年4月新服】击沉敌人15",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【15/20】击沉任意敌人2400艘。",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56870,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56884,
+		target_num = 2400,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56885] = {
+		name = "【2026年4月新服】击沉敌人16",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【16/20】击沉任意敌人2600艘。",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56870,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56885,
+		target_num = 2600,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56886] = {
+		name = "【2026年4月新服】击沉敌人17",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【17/20】击沉任意敌人2800艘。",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56870,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56886,
+		target_num = 2800,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56887] = {
+		name = "【2026年4月新服】击沉敌人18",
+		guild_coin_award = 0,
+		award = 909706,
+		type = 26,
+		desc = "【18/20】击沉任意敌人3200艘。",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56870,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56887,
+		target_num = 3200,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				1000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56888] = {
+		name = "【2026年4月新服】击沉敌人19",
+		guild_coin_award = 0,
+		award = 909706,
+		type = 26,
+		desc = "【19/20】击沉任意敌人3600艘。",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56870,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56888,
+		target_num = 3600,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				1000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56889] = {
+		name = "【2026年4月新服】击沉敌人20",
+		guild_coin_award = 0,
+		award = 909706,
+		type = 26,
+		desc = "【20/20】击沉任意敌人4000艘。",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56870,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56889,
+		target_num = 4000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				1000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56890] = {
+		name = "【2026年4月新服】技能战术训练1",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【1/20】进行战术训练1次。",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56890,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56890,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56891] = {
+		name = "【2026年4月新服】技能战术训练2",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【2/20】进行战术训练4次。",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56890,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56891,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56892] = {
+		name = "【2026年4月新服】技能战术训练3",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【3/20】进行战术训练10次。",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56890,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56892,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56893] = {
+		name = "【2026年4月新服】技能战术训练4",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【4/20】进行战术训练20次。",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56890,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56893,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56894] = {
+		name = "【2026年4月新服】技能战术训练5",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【5/20】进行战术训练30次。",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56890,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56894,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56895] = {
+		name = "【2026年4月新服】技能战术训练6",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【6/20】进行战术训练40次。",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56890,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56895,
+		target_num = 40,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56896] = {
+		name = "【2026年4月新服】技能战术训练7",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【7/20】进行战术训练50次。",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56890,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56896,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56897] = {
+		name = "【2026年4月新服】技能战术训练8",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【8/20】进行战术训练60次。",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56890,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56897,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56898] = {
+		name = "【2026年4月新服】技能战术训练9",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【9/20】进行战术训练70次。",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56890,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56898,
+		target_num = 70,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56899] = {
+		name = "【2026年4月新服】技能战术训练10",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【10/20】进行战术训练80次。",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56890,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56899,
+		target_num = 80,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56900] = {
+		name = "【2026年4月新服】技能战术训练11",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【11/20】进行战术训练90次。",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56890,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56900,
+		target_num = 90,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56901] = {
+		name = "【2026年4月新服】技能战术训练12",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【12/20】进行战术训练100次。",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56890,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56901,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56902] = {
+		name = "【2026年4月新服】技能战术训练13",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【13/20】进行战术训练110次。",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56890,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56902,
+		target_num = 110,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56903] = {
+		name = "【2026年4月新服】技能战术训练14",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【14/20】进行战术训练120次。",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56890,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56903,
+		target_num = 120,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56904] = {
+		name = "【2026年4月新服】技能战术训练15",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【15/20】进行战术训练130次。",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56890,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56904,
+		target_num = 130,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56905] = {
+		name = "【2026年4月新服】技能战术训练16",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【16/20】进行战术训练140次。",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56890,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56905,
+		target_num = 140,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56906] = {
+		name = "【2026年4月新服】技能战术训练17",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【17/20】进行战术训练150次。",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56890,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56906,
+		target_num = 150,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56907] = {
+		name = "【2026年4月新服】技能战术训练18",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【18/20】进行战术训练160次。",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56890,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56907,
+		target_num = 160,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56908] = {
+		name = "【2026年4月新服】技能战术训练19",
+		guild_coin_award = 0,
+		award = 909706,
+		type = 26,
+		desc = "【19/20】进行战术训练180次。",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56890,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56908,
+		target_num = 180,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				1000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56909] = {
+		name = "【2026年4月新服】技能战术训练20",
+		guild_coin_award = 0,
+		award = 909706,
+		type = 26,
+		desc = "【20/20】进行战术训练200次。",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56890,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56909,
+		target_num = 200,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				1000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56910] = {
+		name = "【2026年4月新服】建造舰船1",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【1/10】建造舰船1次。",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56910,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56910,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56911] = {
+		name = "【2026年4月新服】建造舰船2",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【2/10】建造舰船3次。",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56910,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56911,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56912] = {
+		name = "【2026年4月新服】建造舰船3",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【3/10】建造舰船6次。",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56910,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56912,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56913] = {
+		name = "【2026年4月新服】建造舰船4",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【4/10】建造舰船10次。",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56910,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56913,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56914] = {
+		name = "【2026年4月新服】建造舰船5",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【5/10】建造舰船15次。",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56910,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56914,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56915] = {
+		name = "【2026年4月新服】建造舰船6",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【6/10】建造舰船20次。",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56910,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56915,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56916] = {
+		name = "【2026年4月新服】建造舰船7",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【7/10】建造舰船25次。",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56910,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56916,
+		target_num = 25,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56917] = {
+		name = "【2026年4月新服】建造舰船8",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【8/10】建造舰船30次。",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56910,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56917,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56918] = {
+		name = "【2026年4月新服】建造舰船9",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【9/10】建造舰船35次。",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56910,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56918,
+		target_num = 35,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56919] = {
+		name = "【2026年4月新服】建造舰船10",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【10/10】建造舰船40次。",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56910,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56919,
+		target_num = 40,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56920] = {
+		name = "【2026年4月新服】100级舰船数量1",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【1/10】1名角色等级达到100级。",
+		count_inherit = 0,
+		sub_type = 1017,
+		target_id_2 = "100",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56920,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56920,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56921] = {
+		name = "【2026年4月新服】100级舰船数量2",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【2/10】2名角色等级达到100级。",
+		count_inherit = 0,
+		sub_type = 1017,
+		target_id_2 = "100",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56920,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56921,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56922] = {
+		name = "【2026年4月新服】100级舰船数量3",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【3/10】3名角色等级达到100级。",
+		count_inherit = 0,
+		sub_type = 1017,
+		target_id_2 = "100",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56920,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56922,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56923] = {
+		name = "【2026年4月新服】100级舰船数量4",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【4/10】6名角色等级达到100级。",
+		count_inherit = 0,
+		sub_type = 1017,
+		target_id_2 = "100",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56920,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56923,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56924] = {
+		name = "【2026年4月新服】100级舰船数量5",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【5/10】8名角色等级达到100级。",
+		count_inherit = 0,
+		sub_type = 1017,
+		target_id_2 = "100",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56920,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56924,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56925] = {
+		name = "【2026年4月新服】100级舰船数量6",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【6/10】10名角色等级达到100级。",
+		count_inherit = 0,
+		sub_type = 1017,
+		target_id_2 = "100",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56920,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56925,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56926] = {
+		name = "【2026年4月新服】100级舰船数量7",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【7/10】12名角色等级达到100级。",
+		count_inherit = 0,
+		sub_type = 1017,
+		target_id_2 = "100",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56920,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56926,
+		target_num = 12,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56927] = {
+		name = "【2026年4月新服】100级舰船数量8",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【8/10】14名角色等级达到100级。",
+		count_inherit = 0,
+		sub_type = 1017,
+		target_id_2 = "100",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56920,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56927,
+		target_num = 14,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56928] = {
+		name = "【2026年4月新服】100级舰船数量9",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【9/10】16名角色等级达到100级。",
+		count_inherit = 0,
+		sub_type = 1017,
+		target_id_2 = "100",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56920,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56928,
+		target_num = 16,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56929] = {
+		name = "【2026年4月新服】100级舰船数量10",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【10/10】18名角色等级达到100级。",
+		count_inherit = 0,
+		sub_type = 1017,
+		target_id_2 = "100",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56920,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56929,
+		target_num = 18,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		},
+		scene = {
+			"DOCKYARD",
+			{
+				mode = "overview"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56930] = {
+		name = "【2026年4月新服】训练指挥喵1",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【1/10】训练指挥喵1只。",
+		count_inherit = 0,
+		sub_type = 170,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56930,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56930,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56931] = {
+		name = "【2026年4月新服】训练指挥喵2",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【2/10】训练指挥喵2只。",
+		count_inherit = 0,
+		sub_type = 170,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56930,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56931,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56932] = {
+		name = "【2026年4月新服】训练指挥喵3",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【3/10】训练指挥喵4只。",
+		count_inherit = 0,
+		sub_type = 170,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56930,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56932,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56933] = {
+		name = "【2026年4月新服】训练指挥喵4",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【4/10】训练指挥喵6只。",
+		count_inherit = 0,
+		sub_type = 170,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56930,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56933,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56934] = {
+		name = "【2026年4月新服】训练指挥喵5",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【5/10】训练指挥喵8只。",
+		count_inherit = 0,
+		sub_type = 170,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56930,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56934,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56935] = {
+		name = "【2026年4月新服】训练指挥喵6",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【6/10】训练指挥喵10只。",
+		count_inherit = 0,
+		sub_type = 170,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56930,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56935,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56936] = {
+		name = "【2026年4月新服】训练指挥喵7",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【7/10】训练指挥喵12只。",
+		count_inherit = 0,
+		sub_type = 170,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56930,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56936,
+		target_num = 12,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56937] = {
+		name = "【2026年4月新服】训练指挥喵8",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【8/10】训练指挥喵14只。",
+		count_inherit = 0,
+		sub_type = 170,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56930,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56937,
+		target_num = 14,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56938] = {
+		name = "【2026年4月新服】训练指挥喵9",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【9/10】训练指挥喵16只。",
+		count_inherit = 0,
+		sub_type = 170,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56930,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56938,
+		target_num = 16,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56939] = {
+		name = "【2026年4月新服】训练指挥喵10",
+		guild_coin_award = 0,
+		award = 909706,
+		type = 26,
+		desc = "【10/10】训练指挥喵20只。",
+		count_inherit = 0,
+		sub_type = 170,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56930,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56939,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				1000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56940] = {
+		name = "【2026年4月新服】通关主线困难1",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【1/10】舰队出征，通关主线困难海域1次。",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56940,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56940,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56941] = {
+		name = "【2026年4月新服】通关主线困难2",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【2/10】舰队出征，通关主线困难海域3次。",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56940,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56941,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56942] = {
+		name = "【2026年4月新服】通关主线困难3",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【3/10】舰队出征，通关主线困难海域6次。",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56940,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56942,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56943] = {
+		name = "【2026年4月新服】通关主线困难4",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【4/10】舰队出征，通关主线困难海域10次。",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56940,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56943,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56944] = {
+		name = "【2026年4月新服】通关主线困难5",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【5/10】舰队出征，通关主线困难海域15次。",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56940,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56944,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56945] = {
+		name = "【2026年4月新服】通关主线困难6",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【6/10】舰队出征，通关主线困难海域20次。",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56940,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56945,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56946] = {
+		name = "【2026年4月新服】通关主线困难7",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【7/10】舰队出征，通关主线困难海域25次。",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56940,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56946,
+		target_num = 25,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56947] = {
+		name = "【2026年4月新服】通关主线困难8",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【8/10】舰队出征，通关主线困难海域30次。",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56940,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56947,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56948] = {
+		name = "【2026年4月新服】通关主线困难9",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【9/10】舰队出征，通关主线困难海域35次。",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56940,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56948,
+		target_num = 35,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56949] = {
+		name = "【2026年4月新服】通关主线困难10",
+		guild_coin_award = 0,
+		award = 909703,
+		type = 26,
+		desc = "【10/10】舰队出征，通关主线困难海域40次。",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 56940,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56949,
+		target_num = 40,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				660,
 				500
 			}
 		}

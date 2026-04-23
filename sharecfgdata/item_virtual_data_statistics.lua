@@ -157587,32 +157587,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.item_virtual_data_statistics[59180] = {
-		display = "用于头像框活动兑换，活动结束后将会消失",
-		name = "训练点数",
-		max_num = 0,
-		type = 98,
-		time_limit = 0,
-		rarity = 2,
-		shop_id = -1,
-		replace_item = 0,
-		drop_gold_max = 0,
-		drop_oil_max = 0,
-		link_id = 0,
-		virtual_type = 0,
-		is_world = 0,
-		icon = "Props/xunliandianshu_s",
-		id = 59180,
-		order = 0,
-		display_icon = {},
-		price = {},
-		index = {},
-		shiptrans_id = {},
-		combination_display = {}
-	}
-end)()
-
-(function()
 	_G.pg.base.item_virtual_data_statistics[59181] = {
 		display = "用于「限时体验商店」兑换角色限时换装",
 		name = "换装体验券",
@@ -157655,6 +157629,32 @@ end)()
 		is_world = 0,
 		icon = "Props/shinano_pt",
 		id = 59182,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[59180] = {
+		display = "用于头像框活动兑换，活动结束后将会消失",
+		name = "训练点数",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/xunliandianshu_s",
+		id = 59180,
 		order = 0,
 		display_icon = {},
 		price = {},
@@ -157873,32 +157873,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.item_virtual_data_statistics[59191] = {
-		display = "用于头像框活动兑换，活动结束后将会消失",
-		name = "训练点数",
-		max_num = 0,
-		type = 98,
-		time_limit = 0,
-		rarity = 2,
-		shop_id = -1,
-		replace_item = 0,
-		drop_gold_max = 0,
-		drop_oil_max = 0,
-		link_id = 0,
-		virtual_type = 0,
-		is_world = 0,
-		icon = "Props/xunliandianshu_t",
-		id = 59191,
-		order = 0,
-		display_icon = {},
-		price = {},
-		index = {},
-		shiptrans_id = {},
-		combination_display = {}
-	}
-end)()
-
-(function()
 	_G.pg.base.item_virtual_data_statistics[59192] = {
 		display = "用于「负象限作战」活动兑换，活动结束后将会消失",
 		name = "铁血密钥",
@@ -157967,6 +157941,32 @@ end)()
 		is_world = 0,
 		icon = "props/meishi",
 		id = 59194,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[59191] = {
+		display = "用于头像框活动兑换，活动结束后将会消失",
+		name = "训练点数",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/xunliandianshu_t",
+		id = 59191,
 		order = 0,
 		display_icon = {},
 		price = {},
@@ -162813,58 +162813,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.item_virtual_data_statistics[59412] = {
-		display = "用于「芝士奶酪要加糖！」复刻活动提升角色好感，活动结束后将会消失",
-		name = "芝士蛋糕",
-		max_num = 0,
-		type = 98,
-		time_limit = 0,
-		rarity = 2,
-		shop_id = -1,
-		replace_item = 0,
-		drop_gold_max = 0,
-		drop_oil_max = 0,
-		link_id = 0,
-		virtual_type = 0,
-		is_world = 0,
-		icon = "Props/little_eugen_pt",
-		id = 59412,
-		order = 0,
-		display_icon = {},
-		price = {},
-		index = {},
-		shiptrans_id = {},
-		combination_display = {}
-	}
-end)()
-
-(function()
-	_G.pg.base.item_virtual_data_statistics[59413] = {
-		display = "用于头像框活动兑换，活动结束后将会消失",
-		name = "训练点数",
-		max_num = 0,
-		type = 98,
-		time_limit = 0,
-		rarity = 2,
-		shop_id = -1,
-		replace_item = 0,
-		drop_gold_max = 0,
-		drop_oil_max = 0,
-		link_id = 0,
-		virtual_type = 0,
-		is_world = 0,
-		icon = "Props/xunliandianshu_d",
-		id = 59413,
-		order = 0,
-		display_icon = {},
-		price = {},
-		index = {},
-		shiptrans_id = {},
-		combination_display = {}
-	}
-end)()
-
-(function()
 	_G.pg.base.item_virtual_data_statistics[59420] = {
 		display = "用于「假日航线·再现」活动兑换，活动结束后将会消失",
 		name = "维纳斯点数",
@@ -162907,6 +162855,58 @@ end)()
 		is_world = 0,
 		icon = "Props/skinTicket",
 		id = 59421,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[59412] = {
+		display = "用于「芝士奶酪要加糖！」复刻活动提升角色好感，活动结束后将会消失",
+		name = "芝士蛋糕",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/little_eugen_pt",
+		id = 59412,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[59413] = {
+		display = "用于头像框活动兑换，活动结束后将会消失",
+		name = "训练点数",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/xunliandianshu_d",
+		id = 59413,
 		order = 0,
 		display_icon = {},
 		price = {},
@@ -183788,6 +183788,32 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[65901] = {
+		display = "用于「限时体验商店」兑换角色限时换装",
+		name = "换装体验券",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = 1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/skinTicket",
+		id = 65901,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[66001] = {
 		display = "重要的重建物资之一，木香与海风更配哦",
 		name = "木料",
@@ -184090,6 +184116,58 @@ end)()
 		is_world = 0,
 		icon = "Props/newserver_pt",
 		id = 66016,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[66018] = {
+		display = "用于「假日航线·再现」复刻活动兑换，活动结束后将会消失",
+		name = "维纳斯点数",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/DOA_pt",
+		id = 66018,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[66019] = {
+		display = "于「假日航线·再现」活动限时复刻中获取，可以免费进行一次「假日航线·再现」限定建造（活动结束后消失）",
+		name = "单次建造券",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50813,
+		virtual_type = 22,
+		is_world = 0,
+		icon = "Props/buildTicket",
+		id = 66019,
 		order = 0,
 		display_icon = {},
 		price = {},
@@ -191228,6 +191306,474 @@ end)()
 		drop_gold_max = 0,
 		is_world = 0,
 		display_icon = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[70201] = {
+		display = "玛莉萝丝喜欢的食物：公主蛋糕。可用于解锁玛莉萝丝的喜好信息。",
+		name = "喜好食物(玛莉萝丝)",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50810,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/doa_collect",
+		id = 70201,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[70202] = {
+		display = "玛莉萝丝喜欢的饮品：热带果汁。可用于解锁玛莉萝丝的喜好信息。",
+		name = "喜好饮品(玛莉萝丝)",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50810,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/doa_collect",
+		id = 70202,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[70203] = {
+		display = "穗香喜欢的食物：泡芙。可用于解锁穗香的喜好信息。",
+		name = "喜好食物(穗香)",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50810,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/doa_collect",
+		id = 70203,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[70204] = {
+		display = "穗香喜欢的饮品：柠檬汽水。可用于解锁穗香的喜好信息。",
+		name = "喜好饮品(穗香)",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50810,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/doa_collect",
+		id = 70204,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[70205] = {
+		display = "霞喜欢的食物：草莓千层派。可用于解锁霞的喜好信息。",
+		name = "喜好食物(霞)",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50810,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/doa_collect",
+		id = 70205,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[70206] = {
+		display = "霞喜欢的饮品：冰咖啡。可用于解锁霞的喜好信息。",
+		name = "喜好饮品(霞)",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50810,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/doa_collect",
+		id = 70206,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[70207] = {
+		display = "海咲喜欢的食物：芒果香草可丽饼。可用于解锁海咲的喜好信息。",
+		name = "喜好食物(海咲)",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50810,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/doa_collect",
+		id = 70207,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[70208] = {
+		display = "海咲喜欢的饮品：珍珠奶茶。可用于解锁海咲的喜好信息。",
+		name = "喜好饮品(海咲)",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50810,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/doa_collect",
+		id = 70208,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[70209] = {
+		display = "凪咲喜欢的食物：舒芙蕾松饼。可用于解锁凪咲的喜好信息。",
+		name = "喜好食物(凪咲)",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50810,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/doa_collect",
+		id = 70209,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[70210] = {
+		display = "凪咲喜欢的饮品：草莓冰沙。可用于解锁凪咲的喜好信息。",
+		name = "喜好饮品(凪咲)",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50810,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/doa_collect",
+		id = 70210,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[70211] = {
+		display = "女天狗喜欢的食物：馒头。可用于解锁女天狗的喜好信息。",
+		name = "喜好食物(女天狗)",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50810,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/doa_collect",
+		id = 70211,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[70212] = {
+		display = "女天狗喜欢的饮品：抹茶。可用于解锁女天狗的喜好信息。",
+		name = "喜好饮品(女天狗)",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50810,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/doa_collect",
+		id = 70212,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[70213] = {
+		display = "莫妮卡喜欢的食物：帕帕纳西。可用于解锁莫妮卡的喜好信息。",
+		name = "喜好食物(莫妮卡)",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50810,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/doa_collect",
+		id = 70213,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[70214] = {
+		display = "莫妮卡喜欢的饮品：雪顶拿铁。可用于解锁莫妮卡的喜好信息。",
+		name = "喜好饮品(莫妮卡)",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50810,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/doa_collect",
+		id = 70214,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[70215] = {
+		display = "环喜欢的食物：马卡龙。可用于解锁环的喜好信息。",
+		name = "喜好食物(环)",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50810,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/doa_collect",
+		id = 70215,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[70216] = {
+		display = "环喜欢的饮品：碳酸水。可用于解锁环的喜好信息。",
+		name = "喜好饮品(环)",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50810,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/doa_collect",
+		id = 70216,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[70217] = {
+		display = "露娜喜欢的食物：烤白薯。可用于解锁露娜的喜好信息。",
+		name = "喜好食物(露娜)",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50810,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/doa_collect",
+		id = 70217,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[70218] = {
+		display = "露娜喜欢的饮品：思慕雪。可用于解锁露娜的喜好信息。",
+		name = "喜好饮品(露娜)",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50810,
+		virtual_type = 1,
+		is_world = 0,
+		icon = "Props/doa_collect",
+		id = 70218,
+		order = 0,
+		display_icon = {},
+		price = {},
 		index = {},
 		shiptrans_id = {},
 		combination_display = {}

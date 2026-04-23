@@ -35,13 +35,22 @@ function var_0_0.OnFirstFlush(arg_3_0)
 	onButton(arg_3_0, arg_3_0.battleBtn, function()
 		local var_5_0
 		local var_5_1
+		local var_5_2 = arg_3_0.activity:getConfig("config_client")
 
-		if arg_3_0.activity:getConfig("config_client") ~= "" then
+		if var_5_2 ~= "" then
 			var_5_0 = arg_3_0.activity:getConfig("config_client").linkActID
 
 			if var_5_0 then
 				var_5_1 = getProxy(ActivityProxy):getActivityById(var_5_0)
 			end
+		end
+
+		local var_5_3 = var_5_2.fightLinkActID
+
+		if var_5_3 and getProxy(ActivityProxy):getActivityById(var_5_3) then
+			arg_3_0:emit(ActivityMediator.SKIP_ACTIVITY_MAP, var_5_3)
+
+			return
 		end
 
 		if not var_5_0 then

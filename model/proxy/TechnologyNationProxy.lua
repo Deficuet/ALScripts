@@ -532,15 +532,8 @@ function var_0_0.printNationPointLog(arg_32_0)
 		for iter_32_8, iter_32_9 in ipairs(iter_32_7) do
 			local var_32_2 = iter_32_9.id
 			local var_32_3 = iter_32_9:getNation()
-			local var_32_4
 
-			for iter_32_10 = 4, 1, -1 do
-				if pg.ship_data_statistics[tonumber(var_32_2 .. iter_32_10)] then
-					var_32_4 = pg.ship_data_statistics[tonumber(var_32_2 .. iter_32_10)].nationality
-				end
-			end
-
-			var_32_1 = var_32_1 .. tostring(var_32_2) .. " " .. tostring(var_32_3) .. " " .. tostring(var_32_4) .. "||"
+			var_32_1 = var_32_1 .. tostring(var_32_2) .. " " .. tostring(var_32_3) .. "||"
 		end
 
 		print(var_32_1)

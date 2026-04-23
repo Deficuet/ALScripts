@@ -53,11 +53,9 @@ function var_0_0.updateAll(arg_7_0, arg_7_1)
 			return arg_7_0.eventDic[arg_8_0].finishTime
 		end
 	}))
-
-	if not arg_7_0:CheckAddActivityEvent() then
-		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inEvent")
-		arg_7_0.facade:sendNotification(GAME.EVENT_LIST_UPDATE)
-	end
+	arg_7_0:CheckAddActivityEvent()
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inEvent")
+	arg_7_0.facade:sendNotification(GAME.EVENT_LIST_UPDATE)
 end
 
 function var_0_0.updateInfoList(arg_9_0, arg_9_1)
@@ -347,26 +345,21 @@ function var_0_0.CheckAddActivityEvent(arg_39_0)
 
 	for iter_39_0, iter_39_1 in pairs(arg_39_0.eventDic) do
 		if iter_39_1:IsActivityType() then
-			var_39_0[iter_39_1.activityId] = var_39_0[iter_39_1.activityId] or {}
-
-			table.insert(var_39_0[iter_39_1.activityId], {
+			table.insert(var_39_0, {
 				id = iter_39_1.id
 			})
 		end
 	end
 
-	local var_39_1 = {}
-
 	for iter_39_2, iter_39_3 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_COLLECTION_EVENT)) do
 		if iter_39_3 and not iter_39_3:isEnd() then
-			table.insertto(var_39_1, var_39_0[iter_39_3.id] or {})
-			table.insertto(var_39_1, iter_39_3:GetCollectionList())
+			table.insertto(var_39_0, iter_39_3:GetCollectionList())
 		end
 	end
 
-	arg_39_0:updateInfoList(var_39_1)
+	arg_39_0:updateInfoList(var_39_0)
 
-	return #var_39_1 > 0
+	return #var_39_0 > 0
 end
 
 function var_0_0.CanStartEvent(arg_40_0)

@@ -35,25 +35,36 @@ function var_0_0.Show(arg_5_0, arg_5_1, arg_5_2)
 			arg_5_0:RequestRank(arg_6_0)
 		end
 	}, function()
-		local var_7_0, var_7_1 = arg_5_0:GetDislays()
+		local var_7_0, var_7_1, var_7_2 = arg_5_0:GetDislays()
 
-		arg_5_0.rankNums = arg_5_0:GenRank(var_7_0, var_7_1)
+		arg_5_0.rankNums = var_7_2
 
-		arg_5_0:DisplayResult(var_7_1)
+		arg_5_0:DisplayResult(var_7_1, var_7_0)
 		arg_5_0:UpdateSelfRank(var_7_0)
 	end)
 end
 
-function var_0_0.GenRank(arg_8_0, arg_8_1, arg_8_2)
-	local var_8_0 = {}
+function var_0_0.GetDislays(arg_8_0)
+	local var_8_0
+	local var_8_1
 
-	table.insert(var_8_0, arg_8_1)
-
-	for iter_8_0, iter_8_1 in ipairs(arg_8_2) do
-		table.insert(var_8_0, iter_8_1)
+	if arg_8_0.mode == IslandTradePage.MODE_SELL then
+		var_8_0, var_8_1 = getProxy(IslandProxy):GetIsland():GetTradeAgency():GetSellRanks()
+	elseif arg_8_0.mode == IslandTradePage.MODE_PURCHAS then
+		var_8_0, var_8_1 = getProxy(IslandProxy):GetIsland():GetTradeAgency():GetRanks()
 	end
 
-	table.sort(var_8_0, function(arg_9_0, arg_9_1)
+	local var_8_2 = {}
+
+	table.insert(var_8_2, var_8_1)
+
+	for iter_8_0, iter_8_1 in ipairs(var_8_0) do
+		if iter_8_1:IsVaild() then
+			table.insert(var_8_2, iter_8_1)
+		end
+	end
+
+	table.sort(var_8_2, function(arg_9_0, arg_9_1)
 		if arg_8_0.mode == IslandTradePage.MODE_SELL then
 			return arg_9_0.value > arg_9_1.value
 		elseif arg_8_0.mode == IslandTradePage.MODE_PURCHAS then
@@ -61,110 +72,82 @@ function var_0_0.GenRank(arg_8_0, arg_8_1, arg_8_2)
 		end
 	end)
 
-	local var_8_1 = {}
+	local var_8_3 = {}
+	local var_8_4 = 0
+	local var_8_5 = 0
 
-	for iter_8_2, iter_8_3 in ipairs(var_8_0) do
-		var_8_1[iter_8_3.id] = iter_8_2
-	end
-
-	return var_8_1
-end
-
-function var_0_0.GetDislays(arg_10_0)
-	local var_10_0
-	local var_10_1
-
-	if arg_10_0.mode == IslandTradePage.MODE_SELL then
-		var_10_0, var_10_1 = getProxy(IslandProxy):GetIsland():GetTradeAgency():GetSellRanks()
-	elseif arg_10_0.mode == IslandTradePage.MODE_PURCHAS then
-		var_10_0, var_10_1 = getProxy(IslandProxy):GetIsland():GetTradeAgency():GetRanks()
-	end
-
-	local var_10_2 = {}
-
-	for iter_10_0, iter_10_1 in ipairs(var_10_0) do
-		table.insert(var_10_2, iter_10_1)
-	end
-
-	table.sort(var_10_2, function(arg_11_0, arg_11_1)
-		if arg_10_0.mode == IslandTradePage.MODE_SELL then
-			return arg_11_0.value > arg_11_1.value
-		elseif arg_10_0.mode == IslandTradePage.MODE_PURCHAS then
-			return arg_11_0.value < arg_11_1.value
+	for iter_8_2, iter_8_3 in ipairs(var_8_2) do
+		if iter_8_3.value ~= var_8_4 then
+			var_8_5 = var_8_5 + 1
+			var_8_3[iter_8_3.value] = var_8_5
+			var_8_4 = iter_8_3.value
 		end
-	end)
-
-	return var_10_1, var_10_2
-end
-
-function var_0_0.RequestRank(arg_12_0, arg_12_1)
-	arg_12_0:emit(IslandBaseMediator.REQ_TRADE_RANK, arg_12_1)
-end
-
-function var_0_0.DisplayResult(arg_13_0, arg_13_1)
-	arg_13_0.displays = {}
-
-	for iter_13_0, iter_13_1 in ipairs(arg_13_1) do
-		table.insert(arg_13_0.displays, iter_13_1)
 	end
 
-	table.sort(arg_13_0.displays, function(arg_14_0, arg_14_1)
-		if arg_13_0.mode == IslandTradePage.MODE_SELL then
-			return arg_14_0.value > arg_14_1.value
-		elseif arg_13_0.mode == IslandTradePage.MODE_PURCHAS then
-			return arg_14_0.value < arg_14_1.value
-		end
-	end)
-
-	local var_13_0 = #arg_13_0.displays
-
-	arg_13_0.scrollrect:SetTotalCount(var_13_0)
+	return var_8_1, var_8_2, var_8_3
 end
 
-function var_0_0.OnInitItem(arg_15_0, arg_15_1)
-	local var_15_0 = IslandTradeRankCard.New(arg_15_1)
+function var_0_0.RequestRank(arg_10_0, arg_10_1)
+	arg_10_0:emit(IslandBaseMediator.REQ_TRADE_RANK, arg_10_1)
+end
 
-	onButton(arg_15_0, var_15_0.visitBtn, function()
-		arg_15_0:emit(IslandBaseMediator.ENTER_ISLAND, var_15_0.id)
+function var_0_0.DisplayResult(arg_11_0, arg_11_1, arg_11_2)
+	arg_11_0.displays = {}
+
+	for iter_11_0, iter_11_1 in ipairs(arg_11_1) do
+		if iter_11_1.id ~= arg_11_2.id then
+			table.insert(arg_11_0.displays, iter_11_1)
+		end
+	end
+
+	arg_11_0.scrollrect:SetTotalCount(#arg_11_0.displays)
+end
+
+function var_0_0.OnInitItem(arg_12_0, arg_12_1)
+	local var_12_0 = IslandTradeRankCard.New(arg_12_1)
+
+	onButton(arg_12_0, var_12_0.visitBtn, function()
+		arg_12_0:emit(IslandBaseMediator.ENTER_ISLAND, var_12_0.id)
 	end, SFX_PANEL)
 
-	arg_15_0.cards[arg_15_1] = var_15_0
+	arg_12_0.cards[arg_12_1] = var_12_0
 end
 
-function var_0_0.OnUpdateItem(arg_17_0, arg_17_1, arg_17_2)
-	local var_17_0 = arg_17_0.cards[arg_17_2]
+function var_0_0.OnUpdateItem(arg_14_0, arg_14_1, arg_14_2)
+	local var_14_0 = arg_14_0.cards[arg_14_2]
 
-	if not var_17_0 then
-		arg_17_0:OnInitItem(arg_17_2)
+	if not var_14_0 then
+		arg_14_0:OnInitItem(arg_14_2)
 
-		var_17_0 = arg_17_0.cards[arg_17_2]
+		var_14_0 = arg_14_0.cards[arg_14_2]
 	end
 
-	local var_17_1 = arg_17_0.displays[arg_17_1 + 1]
-	local var_17_2 = arg_17_0.rankNums[var_17_1.id]
+	local var_14_1 = arg_14_0.displays[arg_14_1 + 1]
+	local var_14_2 = arg_14_0.rankNums[var_14_1.value]
 
-	var_17_0:Update(var_17_2, var_17_1, arg_17_1)
+	assert(var_14_2, var_14_1.value)
+	var_14_0:Update(var_14_2, var_14_1, arg_14_1)
 end
 
-function var_0_0.UpdateSelfRank(arg_18_0, arg_18_1)
-	local var_18_0 = arg_18_0.rankNums[arg_18_1.id]
+function var_0_0.UpdateSelfRank(arg_15_0, arg_15_1)
+	local var_15_0 = arg_15_0.rankNums[arg_15_1.value]
 
-	arg_18_0.selfRankCard:Update(var_18_0, arg_18_1, 0)
-	onButton(arg_18_0, arg_18_0.selfRankCard.inviteBtn, function()
-		arg_18_0:emit(IslandTradePage.OPEN_INVITE_PAGE)
+	arg_15_0.selfRankCard:Update(var_15_0, arg_15_1, 0)
+	onButton(arg_15_0, arg_15_0.selfRankCard.inviteBtn, function()
+		arg_15_0:emit(IslandTradePage.OPEN_INVITE_PAGE)
 	end, SFX_PANEL)
 end
 
-function var_0_0.OnDestory(arg_20_0)
-	ClearLScrollrect(arg_20_0.scrollrect)
+function var_0_0.OnDestory(arg_17_0)
+	ClearLScrollrect(arg_17_0.scrollrect)
 
-	for iter_20_0, iter_20_1 in pairs(arg_20_0.cards) do
-		iter_20_1:Dispose()
+	for iter_17_0, iter_17_1 in pairs(arg_17_0.cards) do
+		iter_17_1:Dispose()
 	end
 
-	arg_20_0.cards = nil
+	arg_17_0.cards = nil
 
-	arg_20_0.selfRankCard:Dispose()
+	arg_17_0.selfRankCard:Dispose()
 end
 
 return var_0_0

@@ -331,6 +331,7 @@ function var_0_0.SetVisible(arg_21_0, arg_21_1)
 
 	arg_21_0:playPaintingInitIdle()
 	arg_21_0:playPaintingInitSkin()
+	arg_21_0:updateLink()
 end
 
 function var_0_0.getInitFlag(arg_22_0)

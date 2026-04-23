@@ -79,7 +79,7 @@ function var_0_0.InitStudents(arg_7_0, arg_7_1, arg_7_2, arg_7_3)
 
 			var_7_2 = (var_7_2 - 2) % #var_7_1 + 1
 
-			local var_7_6 = SummerFeastNavigationAgent.New(var_7_4.gameObject)
+			local var_7_6 = SummerFeastNavigationAgent.New(var_7_4.gameObject, true)
 
 			var_7_6:attach()
 			var_7_6:setPathFinder(arg_7_0.graphPath)

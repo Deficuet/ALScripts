@@ -333336,8 +333336,8 @@ end)()
 		velocity = 3,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -333355,9 +333355,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.5,
-			0.5,
-			0.5
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -333405,8 +333405,8 @@ end)()
 		velocity = 8,
 		damage_type = {
 			1,
-			1.3,
-			1.3
+			1,
+			1
 		},
 		DMG_font = {
 			{
@@ -333463,8 +333463,8 @@ end)()
 		velocity = 4,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -333482,9 +333482,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.5,
-			0.5,
-			0.5
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -333504,7 +333504,7 @@ end)()
 	_G.pg.base.bullet_template[801004] = {
 		hit_sfx = "",
 		range_offset = 0,
-		modle_ID = "cave_bullet01",
+		modle_ID = "heifangzhou_zhongyu",
 		type = 5,
 		out_bound = 3,
 		antisub_enhancement = 0,
@@ -333521,8 +333521,8 @@ end)()
 		velocity = 3,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -333540,9 +333540,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -333573,7 +333573,7 @@ end)()
 	_G.pg.base.bullet_template[801005] = {
 		hit_sfx = "",
 		range_offset = 0,
-		modle_ID = "cave_bullet01",
+		modle_ID = "heifangzhou_zhongyu",
 		type = 5,
 		out_bound = 3,
 		antisub_enhancement = 0,
@@ -333590,8 +333590,8 @@ end)()
 		velocity = 0.1,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -333609,9 +333609,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -333675,8 +333675,8 @@ end)()
 		velocity = 7,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -333694,9 +333694,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -333705,7 +333705,9 @@ end)()
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {}
+		extra_param = {
+			ignoreShield = true
+		}
 	}
 end)()
 
@@ -333730,8 +333732,8 @@ end)()
 		velocity = 8,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -333749,9 +333751,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -333760,7 +333762,9 @@ end)()
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {}
+		extra_param = {
+			ignoreShield = true
+		}
 	}
 end)()
 
@@ -333785,8 +333789,8 @@ end)()
 		velocity = 9,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -333804,9 +333808,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -333815,7 +333819,9 @@ end)()
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {}
+		extra_param = {
+			ignoreShield = true
+		}
 	}
 end)()
 
@@ -333840,8 +333846,8 @@ end)()
 		velocity = 10,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -333859,9 +333865,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -333870,7 +333876,9 @@ end)()
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {}
+		extra_param = {
+			ignoreShield = true
+		}
 	}
 end)()
 
@@ -333895,8 +333903,8 @@ end)()
 		velocity = 0.1,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -333914,9 +333922,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -333954,7 +333962,7 @@ end)()
 	_G.pg.base.bullet_template[801011] = {
 		hit_sfx = "",
 		range_offset = 0,
-		modle_ID = "cave_bullet01",
+		modle_ID = "heifangzhou_zhongyu",
 		type = 1,
 		out_bound = 3,
 		antisub_enhancement = 0,
@@ -333971,8 +333979,8 @@ end)()
 		velocity = 3,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -333990,9 +333998,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -334001,7 +334009,9 @@ end)()
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {}
+		extra_param = {
+			ignoreShield = true
+		}
 	}
 end)()
 
@@ -334009,7 +334019,7 @@ end)()
 	_G.pg.base.bullet_template[801012] = {
 		hit_sfx = "",
 		range_offset = 0,
-		modle_ID = "cave_bullet01",
+		modle_ID = "heifangzhou_zhongyu",
 		type = 1,
 		out_bound = 3,
 		antisub_enhancement = 0,
@@ -334026,8 +334036,8 @@ end)()
 		velocity = 4.5,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -334045,9 +334055,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -334056,7 +334066,9 @@ end)()
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {}
+		extra_param = {
+			ignoreShield = true
+		}
 	}
 end)()
 
@@ -334082,7 +334094,7 @@ end)()
 		damage_type = {
 			1,
 			1.3,
-			1.3
+			1.5
 		},
 		DMG_font = {
 			{
@@ -334111,7 +334123,9 @@ end)()
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {}
+		extra_param = {
+			ignoreShield = true
+		}
 	}
 end)()
 
@@ -334137,7 +334151,7 @@ end)()
 		damage_type = {
 			1,
 			1.3,
-			1.3
+			1.5
 		},
 		DMG_font = {
 			{
@@ -334166,7 +334180,9 @@ end)()
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {}
+		extra_param = {
+			ignoreShield = true
+		}
 	}
 end)()
 
@@ -334192,7 +334208,7 @@ end)()
 		damage_type = {
 			1,
 			1.3,
-			1.3
+			1.5
 		},
 		DMG_font = {
 			{
@@ -334257,7 +334273,7 @@ end)()
 		damage_type = {
 			1,
 			1.3,
-			1.3
+			1.5
 		},
 		DMG_font = {
 			{
@@ -334322,7 +334338,7 @@ end)()
 		damage_type = {
 			1,
 			1.3,
-			1.3
+			1.5
 		},
 		DMG_font = {
 			{
@@ -334387,7 +334403,7 @@ end)()
 		damage_type = {
 			1,
 			1.3,
-			1.3
+			1.5
 		},
 		DMG_font = {
 			{
@@ -334452,7 +334468,7 @@ end)()
 		damage_type = {
 			1,
 			1.3,
-			1.3
+			1.5
 		},
 		DMG_font = {
 			{
@@ -334517,7 +334533,7 @@ end)()
 		damage_type = {
 			1,
 			1.3,
-			1.3
+			1.5
 		},
 		DMG_font = {
 			{
@@ -334581,8 +334597,8 @@ end)()
 		velocity = 5,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -334625,9 +334641,9 @@ end)()
 			}
 		},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -334636,7 +334652,9 @@ end)()
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {}
+		extra_param = {
+			ignoreShield = true
+		}
 	}
 end)()
 
@@ -334661,8 +334679,8 @@ end)()
 		velocity = 5,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -334705,9 +334723,9 @@ end)()
 			}
 		},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -334716,7 +334734,9 @@ end)()
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {}
+		extra_param = {
+			ignoreShield = true
+		}
 	}
 end)()
 
@@ -334741,8 +334761,8 @@ end)()
 		velocity = 10,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -334760,9 +334780,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -334815,8 +334835,8 @@ end)()
 		velocity = 5,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -334859,9 +334879,9 @@ end)()
 			}
 		},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -334870,7 +334890,9 @@ end)()
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {}
+		extra_param = {
+			ignoreShield = true
+		}
 	}
 end)()
 
@@ -334895,8 +334917,8 @@ end)()
 		velocity = 5,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -334939,9 +334961,9 @@ end)()
 			}
 		},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -334950,7 +334972,9 @@ end)()
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {}
+		extra_param = {
+			ignoreShield = true
+		}
 	}
 end)()
 
@@ -334975,8 +334999,8 @@ end)()
 		velocity = 10,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -334994,9 +335018,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -335049,8 +335073,8 @@ end)()
 		velocity = 1,
 		damage_type = {
 			1,
-			0.8,
-			0.6
+			1,
+			1
 		},
 		DMG_font = {
 			{
@@ -335109,8 +335133,8 @@ end)()
 		velocity = 1,
 		damage_type = {
 			1,
-			0.8,
-			0.6
+			1,
+			1
 		},
 		DMG_font = {
 			{
@@ -335152,7 +335176,7 @@ end)()
 	_G.pg.base.bullet_template[801029] = {
 		hit_sfx = "",
 		range_offset = 0,
-		modle_ID = "cave_bullet04",
+		modle_ID = "bullet_jianzhui07",
 		type = 1,
 		out_bound = 3,
 		antisub_enhancement = 0,
@@ -335169,8 +335193,8 @@ end)()
 		velocity = 2,
 		damage_type = {
 			1,
-			0.9,
-			0.8
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -335188,9 +335212,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -335199,7 +335223,9 @@ end)()
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {}
+		extra_param = {
+			ignoreShield = true
+		}
 	}
 end)()
 
@@ -335207,7 +335233,7 @@ end)()
 	_G.pg.base.bullet_template[801030] = {
 		hit_sfx = "",
 		range_offset = 0,
-		modle_ID = "cave_bullet04",
+		modle_ID = "bullet_jianzhui07",
 		type = 1,
 		out_bound = 3,
 		antisub_enhancement = 0,
@@ -335224,8 +335250,8 @@ end)()
 		velocity = 3.5,
 		damage_type = {
 			1,
-			0.9,
-			0.8
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -335243,9 +335269,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -335254,7 +335280,9 @@ end)()
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {}
+		extra_param = {
+			ignoreShield = true
+		}
 	}
 end)()
 
@@ -335262,7 +335290,7 @@ end)()
 	_G.pg.base.bullet_template[801031] = {
 		hit_sfx = "",
 		range_offset = 0,
-		modle_ID = "cave_bullet04",
+		modle_ID = "bullet_jianzhui07",
 		type = 1,
 		out_bound = 3,
 		antisub_enhancement = 0,
@@ -335279,8 +335307,8 @@ end)()
 		velocity = 5,
 		damage_type = {
 			1,
-			0.9,
-			0.8
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -335298,9 +335326,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -335309,7 +335337,9 @@ end)()
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {}
+		extra_param = {
+			ignoreShield = true
+		}
 	}
 end)()
 
@@ -335317,7 +335347,7 @@ end)()
 	_G.pg.base.bullet_template[801032] = {
 		hit_sfx = "",
 		range_offset = 0,
-		modle_ID = "cave_bullet04",
+		modle_ID = "bullet_jianzhui07",
 		type = 1,
 		out_bound = 3,
 		antisub_enhancement = 0,
@@ -335334,8 +335364,8 @@ end)()
 		velocity = 6.5,
 		damage_type = {
 			1,
-			0.9,
-			0.8
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -335353,9 +335383,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -335364,7 +335394,9 @@ end)()
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {}
+		extra_param = {
+			ignoreShield = true
+		}
 	}
 end)()
 
@@ -335389,8 +335421,8 @@ end)()
 		velocity = 0.1,
 		damage_type = {
 			1,
-			0.9,
-			0.8
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -335408,9 +335440,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			100,
@@ -335469,8 +335501,8 @@ end)()
 		velocity = 0.1,
 		damage_type = {
 			1,
-			0.9,
-			0.8
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -335488,9 +335520,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			100,
@@ -335520,7 +335552,7 @@ end)()
 	_G.pg.base.bullet_template[801035] = {
 		hit_sfx = "",
 		range_offset = 0,
-		modle_ID = "cave_bullet01",
+		modle_ID = "bullet_jianzhui01",
 		type = 1,
 		out_bound = 3,
 		antisub_enhancement = 0,
@@ -335537,8 +335569,8 @@ end)()
 		velocity = 2,
 		damage_type = {
 			1,
-			0.9,
-			0.8
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -335556,9 +335588,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -335567,7 +335599,9 @@ end)()
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {}
+		extra_param = {
+			ignoreShield = true
+		}
 	}
 end)()
 
@@ -335575,7 +335609,7 @@ end)()
 	_G.pg.base.bullet_template[801036] = {
 		hit_sfx = "",
 		range_offset = 0,
-		modle_ID = "cave_bullet01",
+		modle_ID = "bullet_jianzhui01",
 		type = 1,
 		out_bound = 3,
 		antisub_enhancement = 0,
@@ -335592,8 +335626,8 @@ end)()
 		velocity = 3.5,
 		damage_type = {
 			1,
-			0.9,
-			0.8
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -335611,9 +335645,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -335622,7 +335656,9 @@ end)()
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {}
+		extra_param = {
+			ignoreShield = true
+		}
 	}
 end)()
 
@@ -335630,7 +335666,7 @@ end)()
 	_G.pg.base.bullet_template[801037] = {
 		hit_sfx = "",
 		range_offset = 0,
-		modle_ID = "cave_bullet01",
+		modle_ID = "bullet_jianzhui01",
 		type = 1,
 		out_bound = 3,
 		antisub_enhancement = 0,
@@ -335647,8 +335683,8 @@ end)()
 		velocity = 5,
 		damage_type = {
 			1,
-			0.9,
-			0.8
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -335666,9 +335702,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -335677,7 +335713,9 @@ end)()
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {}
+		extra_param = {
+			ignoreShield = true
+		}
 	}
 end)()
 
@@ -335685,7 +335723,7 @@ end)()
 	_G.pg.base.bullet_template[801038] = {
 		hit_sfx = "",
 		range_offset = 0,
-		modle_ID = "cave_bullet01",
+		modle_ID = "bullet_jianzhui01",
 		type = 1,
 		out_bound = 3,
 		antisub_enhancement = 0,
@@ -335702,8 +335740,8 @@ end)()
 		velocity = 6.5,
 		damage_type = {
 			1,
-			0.9,
-			0.8
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -335721,9 +335759,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -335732,7 +335770,9 @@ end)()
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {}
+		extra_param = {
+			ignoreShield = true
+		}
 	}
 end)()
 
@@ -335757,8 +335797,8 @@ end)()
 		velocity = 0.1,
 		damage_type = {
 			1,
-			0.9,
-			0.8
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -335776,9 +335816,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			100,
@@ -335837,8 +335877,8 @@ end)()
 		velocity = 0.1,
 		damage_type = {
 			1,
-			0.9,
-			0.8
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -335856,9 +335896,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			100,
@@ -335905,8 +335945,8 @@ end)()
 		velocity = 4,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -335937,9 +335977,9 @@ end)()
 			}
 		},
 		cld_box = {
-			0.5,
-			0.5,
-			0.5
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -335975,8 +336015,8 @@ end)()
 		velocity = 4,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -336007,9 +336047,9 @@ end)()
 			}
 		},
 		cld_box = {
-			0.5,
-			0.5,
-			0.5
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -336028,7 +336068,7 @@ end)()
 	_G.pg.base.bullet_template[801043] = {
 		hit_sfx = "",
 		range_offset = 0,
-		modle_ID = "cave_bullet01_big",
+		modle_ID = "cave_bullet05_big",
 		type = 1,
 		out_bound = 3,
 		antisub_enhancement = 0,
@@ -336045,8 +336085,8 @@ end)()
 		velocity = 4,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -336064,9 +336104,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.5,
-			0.5,
-			0.5
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -336103,8 +336143,8 @@ end)()
 		velocity = 3,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -336122,9 +336162,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.5,
-			0.5,
-			0.5
+			2,
+			2,
+			2
 		},
 		cld_offset = {
 			0,
@@ -336160,8 +336200,8 @@ end)()
 		velocity = 5,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -336179,9 +336219,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.5,
-			0.5,
-			0.5
+			2,
+			2,
+			2
 		},
 		cld_offset = {
 			0,
@@ -336217,8 +336257,8 @@ end)()
 		velocity = 7,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -336236,9 +336276,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.5,
-			0.5,
-			0.5
+			2,
+			2,
+			2
 		},
 		cld_offset = {
 			0,
@@ -336274,8 +336314,8 @@ end)()
 		velocity = 9,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -336293,9 +336333,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.5,
-			0.5,
-			0.5
+			2,
+			2,
+			2
 		},
 		cld_offset = {
 			0,
@@ -336331,8 +336371,8 @@ end)()
 		velocity = 11,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -336350,9 +336390,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.5,
-			0.5,
-			0.5
+			2,
+			2,
+			2
 		},
 		cld_offset = {
 			0,
@@ -336388,8 +336428,8 @@ end)()
 		velocity = 13,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -336407,9 +336447,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.5,
-			0.5,
-			0.5
+			2,
+			2,
+			2
 		},
 		cld_offset = {
 			0,
@@ -336445,8 +336485,8 @@ end)()
 		velocity = 15,
 		damage_type = {
 			1,
-			1,
-			1
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -336464,9 +336504,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.5,
-			0.5,
-			0.5
+			2,
+			2,
+			2
 		},
 		cld_offset = {
 			0,
@@ -336502,8 +336542,8 @@ end)()
 		velocity = 0.1,
 		damage_type = {
 			1,
-			0.9,
-			0.8
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -336521,9 +336561,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			100,
@@ -336606,8 +336646,8 @@ end)()
 		velocity = 0.1,
 		damage_type = {
 			1,
-			0.9,
-			0.8
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -336625,9 +336665,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			100,
@@ -336717,9 +336757,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			5,
-			5,
-			5
+			6,
+			6,
+			6
 		},
 		cld_offset = {
 			0,

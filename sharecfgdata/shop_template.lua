@@ -33287,6 +33287,356 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.shop_template[60776] = {
+		first_text = "",
+		package_sort_id = 0,
+		collaboration_skin_time = "",
+		type = 2,
+		second_text = "",
+		package_tag = "",
+		first_icon = "",
+		desc = "300钻石购买换装抵扣礼包（260423DOAVXX轻量化复刻版本，玛莉萝丝）",
+		group_limit = 0,
+		type_order = 0,
+		resource_type = 14,
+		group_buy_count = 0,
+		tag = 2,
+		limit_args2 = "",
+		time_second = 0,
+		order = 0,
+		genre = "gift_package",
+		akashi_pick = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		group_type = 0,
+		id = 60776,
+		resource_num = 300,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {
+			{
+				"level",
+				80
+			},
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			68244
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.shop_template[60777] = {
+		first_text = "",
+		package_sort_id = 0,
+		collaboration_skin_time = "",
+		type = 2,
+		second_text = "",
+		package_tag = "",
+		first_icon = "",
+		desc = "300钻石购买换装抵扣礼包（260423DOAVXX轻量化复刻版本，穗香）",
+		group_limit = 0,
+		type_order = 0,
+		resource_type = 14,
+		group_buy_count = 0,
+		tag = 2,
+		limit_args2 = "",
+		time_second = 0,
+		order = 0,
+		genre = "gift_package",
+		akashi_pick = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		group_type = 0,
+		id = 60777,
+		resource_num = 300,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {
+			{
+				"level",
+				80
+			},
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			68245
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.shop_template[60778] = {
+		first_text = "",
+		package_sort_id = 0,
+		collaboration_skin_time = "",
+		type = 2,
+		second_text = "",
+		package_tag = "",
+		first_icon = "",
+		desc = "300钻石购买换装抵扣礼包（260423DOAVXX轻量化复刻版本，霞）",
+		group_limit = 0,
+		type_order = 0,
+		resource_type = 14,
+		group_buy_count = 0,
+		tag = 2,
+		limit_args2 = "",
+		time_second = 0,
+		order = 0,
+		genre = "gift_package",
+		akashi_pick = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		group_type = 0,
+		id = 60778,
+		resource_num = 300,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {
+			{
+				"level",
+				80
+			},
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			68246
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.shop_template[60779] = {
+		first_text = "",
+		package_sort_id = 0,
+		collaboration_skin_time = "",
+		type = 2,
+		second_text = "",
+		package_tag = "",
+		first_icon = "",
+		desc = "300钻石购买换装抵扣礼包（20260423DOAVXX轻量化复刻版本，露娜）",
+		group_limit = 0,
+		type_order = 0,
+		resource_type = 14,
+		group_buy_count = 0,
+		tag = 2,
+		limit_args2 = "",
+		time_second = 0,
+		order = 0,
+		genre = "gift_package",
+		akashi_pick = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		group_type = 0,
+		id = 60779,
+		resource_num = 300,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {
+			{
+				"level",
+				80
+			},
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			68253
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.shop_template[60780] = {
+		first_text = "",
+		package_sort_id = 0,
+		collaboration_skin_time = "",
+		type = 2,
+		second_text = "",
+		package_tag = "",
+		first_icon = "",
+		desc = "300钻石购买换装抵扣礼包（20260423DOAVXX轻量化复刻版本，环）",
+		group_limit = 0,
+		type_order = 0,
+		resource_type = 14,
+		group_buy_count = 0,
+		tag = 2,
+		limit_args2 = "",
+		time_second = 0,
+		order = 0,
+		genre = "gift_package",
+		akashi_pick = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		group_type = 0,
+		id = 60780,
+		resource_num = 300,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {
+			{
+				"level",
+				80
+			},
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			68254
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.shop_template[61001] = {
 		first_text = "",
 		package_sort_id = 0,
@@ -59928,7 +60278,7 @@ end)()
 		tag = 1,
 		limit_args2 = "",
 		time_second = 0,
-		order = 5,
+		order = 12,
 		genre = "skin_shop",
 		akashi_pick = 0,
 		group = 0,
@@ -59946,9 +60296,9 @@ end)()
 		time = {
 			{
 				{
-					2023,
+					2026,
 					4,
-					27
+					23
 				},
 				{
 					0,
@@ -59958,7 +60308,7 @@ end)()
 			},
 			{
 				{
-					2023,
+					2026,
 					4,
 					30
 				},
@@ -59989,7 +60339,7 @@ end)()
 		tag = 1,
 		limit_args2 = "",
 		time_second = 0,
-		order = 5,
+		order = 12,
 		genre = "skin_shop",
 		akashi_pick = 0,
 		group = 0,
@@ -60007,9 +60357,9 @@ end)()
 		time = {
 			{
 				{
-					2023,
+					2026,
 					4,
-					27
+					23
 				},
 				{
 					0,
@@ -60019,7 +60369,7 @@ end)()
 			},
 			{
 				{
-					2023,
+					2026,
 					4,
 					30
 				},
@@ -60050,7 +60400,7 @@ end)()
 		tag = 1,
 		limit_args2 = "",
 		time_second = 0,
-		order = 5,
+		order = 12,
 		genre = "skin_shop",
 		akashi_pick = 0,
 		group = 0,
@@ -60068,9 +60418,9 @@ end)()
 		time = {
 			{
 				{
-					2023,
+					2026,
 					4,
-					27
+					23
 				},
 				{
 					0,
@@ -60080,7 +60430,7 @@ end)()
 			},
 			{
 				{
-					2023,
+					2026,
 					4,
 					30
 				},
@@ -60111,7 +60461,7 @@ end)()
 		tag = 1,
 		limit_args2 = "",
 		time_second = 0,
-		order = 5,
+		order = 12,
 		genre = "skin_shop",
 		akashi_pick = 0,
 		group = 0,
@@ -60129,9 +60479,9 @@ end)()
 		time = {
 			{
 				{
-					2023,
+					2026,
 					4,
-					27
+					23
 				},
 				{
 					0,
@@ -60141,7 +60491,7 @@ end)()
 			},
 			{
 				{
-					2023,
+					2026,
 					4,
 					30
 				},
@@ -60172,7 +60522,7 @@ end)()
 		tag = 1,
 		limit_args2 = "",
 		time_second = 0,
-		order = 5,
+		order = 12,
 		genre = "skin_shop",
 		akashi_pick = 0,
 		group = 0,
@@ -60190,9 +60540,9 @@ end)()
 		time = {
 			{
 				{
-					2023,
+					2026,
 					4,
-					27
+					23
 				},
 				{
 					0,
@@ -60202,7 +60552,7 @@ end)()
 			},
 			{
 				{
-					2023,
+					2026,
 					4,
 					30
 				},
@@ -60233,7 +60583,7 @@ end)()
 		tag = 1,
 		limit_args2 = "",
 		time_second = 0,
-		order = 5,
+		order = 12,
 		genre = "skin_shop",
 		akashi_pick = 0,
 		group = 0,
@@ -60251,9 +60601,9 @@ end)()
 		time = {
 			{
 				{
-					2023,
+					2026,
 					4,
-					27
+					23
 				},
 				{
 					0,
@@ -60263,7 +60613,7 @@ end)()
 			},
 			{
 				{
-					2023,
+					2026,
 					4,
 					30
 				},
@@ -60294,7 +60644,7 @@ end)()
 		tag = 1,
 		limit_args2 = "",
 		time_second = 0,
-		order = 5,
+		order = 12,
 		genre = "skin_shop",
 		akashi_pick = 0,
 		group = 0,
@@ -60312,9 +60662,9 @@ end)()
 		time = {
 			{
 				{
-					2023,
+					2026,
 					4,
-					27
+					23
 				},
 				{
 					0,
@@ -60324,7 +60674,7 @@ end)()
 			},
 			{
 				{
-					2023,
+					2026,
 					4,
 					30
 				},
@@ -80703,10 +81053,10 @@ end)()
 		type_order = 0,
 		resource_type = 14,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 1,
 		limit_args2 = "",
 		time_second = 0,
-		order = 1,
+		order = 10,
 		genre = "skin_shop",
 		akashi_pick = 0,
 		group = 0,
@@ -80724,9 +81074,9 @@ end)()
 		time = {
 			{
 				{
-					2023,
+					2026,
 					4,
-					27
+					23
 				},
 				{
 					0,
@@ -80736,7 +81086,7 @@ end)()
 			},
 			{
 				{
-					2023,
+					2026,
 					4,
 					30
 				},
@@ -80764,10 +81114,10 @@ end)()
 		type_order = 0,
 		resource_type = 14,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 1,
 		limit_args2 = "",
 		time_second = 0,
-		order = 3,
+		order = 10,
 		genre = "skin_shop",
 		akashi_pick = 0,
 		group = 0,
@@ -80785,9 +81135,9 @@ end)()
 		time = {
 			{
 				{
-					2023,
+					2026,
 					4,
-					27
+					23
 				},
 				{
 					0,
@@ -80797,7 +81147,7 @@ end)()
 			},
 			{
 				{
-					2023,
+					2026,
 					4,
 					30
 				},
@@ -80825,10 +81175,10 @@ end)()
 		type_order = 0,
 		resource_type = 14,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 1,
 		limit_args2 = "",
 		time_second = 0,
-		order = 2,
+		order = 10,
 		genre = "skin_shop",
 		akashi_pick = 0,
 		group = 0,
@@ -80846,9 +81196,9 @@ end)()
 		time = {
 			{
 				{
-					2023,
+					2026,
 					4,
-					27
+					23
 				},
 				{
 					0,
@@ -80858,7 +81208,7 @@ end)()
 			},
 			{
 				{
-					2023,
+					2026,
 					4,
 					30
 				},
@@ -125654,6 +126004,311 @@ end)()
 					2026,
 					4,
 					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.shop_template[90465] = {
+		first_text = "",
+		package_sort_id = 0,
+		collaboration_skin_time = "",
+		type = 6,
+		second_text = "",
+		package_tag = "",
+		first_icon = "",
+		desc = "20260423限时皮肤体验：玛莉萝丝（国服）",
+		group_limit = 0,
+		type_order = 0,
+		resource_type = 681,
+		group_buy_count = 0,
+		tag = 0,
+		limit_args2 = "",
+		time_second = 172800,
+		order = 1,
+		genre = "skin_shop_timelimit",
+		akashi_pick = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		group_type = 0,
+		id = 90465,
+		resource_num = 1,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			10600012
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.shop_template[90466] = {
+		first_text = "",
+		package_sort_id = 0,
+		collaboration_skin_time = "",
+		type = 6,
+		second_text = "",
+		package_tag = "",
+		first_icon = "",
+		desc = "20260423限时皮肤体验：穗香（国服）",
+		group_limit = 0,
+		type_order = 0,
+		resource_type = 682,
+		group_buy_count = 0,
+		tag = 0,
+		limit_args2 = "",
+		time_second = 172800,
+		order = 2,
+		genre = "skin_shop_timelimit",
+		akashi_pick = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		group_type = 0,
+		id = 90466,
+		resource_num = 1,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			10600021
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.shop_template[90467] = {
+		first_text = "",
+		package_sort_id = 0,
+		collaboration_skin_time = "",
+		type = 6,
+		second_text = "",
+		package_tag = "",
+		first_icon = "",
+		desc = "20260423限时皮肤体验：霞（国服）",
+		group_limit = 0,
+		type_order = 0,
+		resource_type = 683,
+		group_buy_count = 0,
+		tag = 0,
+		limit_args2 = "",
+		time_second = 172800,
+		order = 3,
+		genre = "skin_shop_timelimit",
+		akashi_pick = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		group_type = 0,
+		id = 90467,
+		resource_num = 1,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			10600031
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.shop_template[90471] = {
+		first_text = "",
+		package_sort_id = 0,
+		collaboration_skin_time = "",
+		type = 6,
+		second_text = "",
+		package_tag = "",
+		first_icon = "",
+		desc = "20260423限时皮肤体验：露娜（国服）",
+		group_limit = 0,
+		type_order = 0,
+		resource_type = 685,
+		group_buy_count = 0,
+		tag = 0,
+		limit_args2 = "",
+		time_second = 172800,
+		order = 4,
+		genre = "skin_shop_timelimit",
+		akashi_pick = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		group_type = 0,
+		id = 90471,
+		resource_num = 1,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			10600081
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.shop_template[90472] = {
+		first_text = "",
+		package_sort_id = 0,
+		collaboration_skin_time = "",
+		type = 6,
+		second_text = "",
+		package_tag = "",
+		first_icon = "",
+		desc = "20260423限时皮肤体验：环（国服）",
+		group_limit = 0,
+		type_order = 0,
+		resource_type = 686,
+		group_buy_count = 0,
+		tag = 0,
+		limit_args2 = "",
+		time_second = 172800,
+		order = 5,
+		genre = "skin_shop_timelimit",
+		akashi_pick = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		group_type = 0,
+		id = 90472,
+		resource_num = 1,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			10600091
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					23
 				},
 				{
 					0,

@@ -1,7 +1,8 @@
 local var_0_0 = class("SummerFeastNavigationAgent", require("view.main.NavalAcademyStudent"))
 
-function var_0_0.Ctor(arg_1_0, arg_1_1)
+function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	arg_1_0.onTransEdge = nil
+	arg_1_0.needOneScale = arg_1_2
 
 	var_0_0.super.Ctor(arg_1_0, arg_1_1)
 end
@@ -12,6 +13,7 @@ end
 
 var_0_0.normalSpeed = 15
 var_0_0.normalScale = 0.5
+var_0_0.oneScale = 1
 
 function var_0_0.SetOnTransEdge(arg_3_0, arg_3_1)
 	arg_3_0.onTransEdge = arg_3_1
@@ -90,15 +92,21 @@ function var_0_0.updateLogic(arg_8_0)
 			arg_8_0.posTable[arg_8_0.currentPoint.id] = nil
 		end
 
-		arg_8_0._tf.localScale = (var_8_0.scale or var_0_0.normalScale) * Vector2.one
+		local var_8_4 = var_8_0.scale or var_0_0.normalScale
 
-		local var_8_4 = arg_8_0.pathFinder:getEdge(var_8_0, var_8_1)
+		if arg_8_0.needOneScale then
+			var_8_4 = arg_8_0.oneScale
+		end
+
+		arg_8_0._tf.localScale = var_8_4 * Vector2.one
+
+		local var_8_5 = arg_8_0.pathFinder:getEdge(var_8_0, var_8_1)
 
 		LeanTween.value(arg_8_0._go, 0, 1, var_8_3):setOnUpdate(System.Action_float(function(arg_9_0)
 			local var_9_0
 
-			if var_8_4 and var_8_4.bezier_control_point then
-				local var_9_1 = arg_8_0.pathFinder:getPoint(var_8_4.bezier_control_point)
+			if var_8_5 and var_8_5.bezier_control_point then
+				local var_9_1 = arg_8_0.pathFinder:getPoint(var_8_5.bezier_control_point)
 
 				var_9_0 = var_0_0.GetBeziersPoints(var_8_0, var_8_1, var_9_1, arg_9_0)
 			else
@@ -116,6 +124,10 @@ function var_0_0.updateLogic(arg_8_0)
 
 			if var_8_0.fixedDirection then
 				var_9_3 = math.sign(var_8_0.fixedDirection)
+			end
+
+			if arg_8_0.needOneScale then
+				var_9_2 = arg_8_0.oneScale * Vector2.one
 			end
 
 			var_9_2.x = math.abs(var_9_2.x) * var_9_3
@@ -150,11 +162,11 @@ function var_0_0.updateLogic(arg_8_0)
 			return
 		end
 
-		local var_8_5 = math.random(10, 20)
+		local var_8_6 = math.random(10, 20)
 
 		arg_8_0.idleTimer = Timer.New(function()
 			arg_8_0:updateState(var_0_0.ShipState.Walk)
-		end, var_8_5, 1)
+		end, var_8_6, 1)
 
 		arg_8_0.idleTimer:Start()
 	elseif arg_8_0.state == var_0_0.ShipState.Touch then

@@ -17,7 +17,7 @@ return {
 			playerArea = {
 				-80,
 				20,
-				45,
+				50,
 				68
 			},
 			enemyArea = {},
@@ -25,6 +25,16 @@ return {
 				-80,
 				0,
 				75
+			},
+			stageBuff = {
+				{
+					id = 201250,
+					level = 1
+				},
+				{
+					id = 295023,
+					level = 1
+				}
 			},
 			waves = {
 				{

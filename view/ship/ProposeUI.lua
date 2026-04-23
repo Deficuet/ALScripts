@@ -1163,7 +1163,7 @@ function var_0_0.loadChar(arg_105_0, arg_105_1, arg_105_2, arg_105_3)
 
 				arg_105_0.actorPainting = arg_107_0
 
-				ShipExpressionHelper.SetExpression(arg_105_0.actorPainting, arg_105_0.paintingName)
+				ShipExpressionHelper.SetExpression(arg_105_0.actorPainting, arg_105_0.paintingName, arg_105_0.shipVO.propose and "propose" or nil)
 				arg_106_0()
 			end)
 

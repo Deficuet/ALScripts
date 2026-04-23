@@ -414,9 +414,7 @@ function var_0_0.GetMotClassConfig(arg_15_0, arg_15_1)
 end
 
 function var_0_0.GetShipTypeByGroupID(arg_17_0)
-	local var_17_0 = pg.ship_data_group.get_id_list_by_group_type[arg_17_0][1]
-
-	return pg.ship_data_group[var_17_0].type
+	return ShipGroup.getDefaultShipConfig(arg_17_0).type
 end
 
 function var_0_0.isNormalActOn()

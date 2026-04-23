@@ -108,7 +108,9 @@ function var_0_0.SetAward(arg_11_0)
 
 			updateDrop(var_12_0, var_12_1)
 			onButton(arg_11_0, arg_12_2, function()
-				arg_11_0:emit(BaseUI.ON_DROP, var_12_1)
+				arg_11_0:emit(BaseUI.ON_NEW_STYLE_DROP, {
+					drop = drop
+				})
 			end, SFX_PANEL)
 		end
 	end)

@@ -61160,7 +61160,7 @@ end)()
 			{
 				"level",
 				1,
-				110
+				100
 			}
 		},
 		expedition_id_weight_list = {

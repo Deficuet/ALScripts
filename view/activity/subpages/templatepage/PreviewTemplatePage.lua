@@ -73,13 +73,19 @@ function var_0_0.initBtn(arg_4_0)
 		end,
 		fight = function(arg_13_0)
 			onButton(arg_4_0, arg_13_0, function()
-				if var_4_1.fightLinkActID and var_4_0(var_4_1.fightLinkActID) then
+				local var_14_0 = var_4_1.fightLinkActID
+
+				if var_14_0 and var_4_0(var_14_0) then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 					return
 				end
 
-				arg_4_0:emit(ActivityMediator.BATTLE_OPERA)
+				if var_14_0 then
+					arg_4_0:emit(ActivityMediator.SKIP_ACTIVITY_MAP, var_14_0)
+				else
+					arg_4_0:emit(ActivityMediator.BATTLE_OPERA)
+				end
 			end)
 		end,
 		lottery = function(arg_15_0)

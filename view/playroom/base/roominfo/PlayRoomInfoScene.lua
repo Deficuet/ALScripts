@@ -197,253 +197,253 @@ function var_0_0.RefreshPlayerList(arg_20_0)
 	end
 end
 
-function var_0_0.OnBackPressed(arg_21_0)
-	arg_21_0:OnClickCloseBtn()
-end
-
-function var_0_0.OnClickCloseBtn(arg_22_0)
-	if arg_22_0.isLoading then
+function var_0_0.OnClickCloseBtn(arg_21_0)
+	if arg_21_0.isLoading then
 		return
 	end
 
-	if arg_22_0.sceneRoomType == IslandCheaterTavernConst.SceneRoomType.MatchInfoRoom then
-		arg_22_0:emit(PlayRoomInfoMediator.ON_MATCH_CLICK_READY, {
+	if arg_21_0.sceneRoomType == IslandCheaterTavernConst.SceneRoomType.MatchInfoRoom then
+		arg_21_0:emit(PlayRoomInfoMediator.ON_MATCH_CLICK_READY, {
 			arg = 0
 		})
 	end
 
-	arg_22_0:emit(PlayRoomInfoMediator.ON_CLICK_CLOSE, {
-		sceneRoomType = arg_22_0.sceneRoomType
+	arg_21_0:emit(PlayRoomInfoMediator.ON_CLICK_CLOSE, {
+		sceneRoomType = arg_21_0.sceneRoomType
 	})
 end
 
-function var_0_0.closeView(arg_23_0)
-	arg_23_0.contextData.onClose()
+function var_0_0.closeView(arg_22_0)
+	arg_22_0.contextData.onClose()
 end
 
-function var_0_0.RefreshMatchInfoUI(arg_24_0)
-	arg_24_0:RefreshMatchInfoPlayerList()
+function var_0_0.RefreshMatchInfoUI(arg_23_0)
+	arg_23_0:RefreshMatchInfoPlayerList()
 
+	local var_23_0 = arg_23_0.playRoomProxy:GetMatchRoomData()
+
+	if not var_23_0 then
+		return
+	end
+
+	local var_23_1 = getProxy(PlayerProxy):getPlayerId()
+
+	if table.contains(var_23_0.readyList, var_23_1) then
+		arg_23_0:StopLeanTween()
+		arg_23_0:ShowTimePanel(false)
+	else
+		arg_23_0:ShowTimePanel(true)
+		arg_23_0:StartLeanTween(pg.TimeMgr.GetInstance():GetServerTime(), arg_23_0.playRoomProxy:GetMatchRoomData().endTimestamp)
+	end
+
+	setActive(arg_23_0.uiRoomSwitchBtn, false)
+end
+
+function var_0_0.RefreshMatchInfoPlayerList(arg_24_0)
 	local var_24_0 = arg_24_0.playRoomProxy:GetMatchRoomData()
 
 	if not var_24_0 then
 		return
 	end
 
-	local var_24_1 = getProxy(PlayerProxy):getPlayerId()
+	local var_24_1 = var_24_0.teamPosList
+	local var_24_2 = getProxy(PlayerProxy):getPlayerId()
 
-	if table.contains(var_24_0.readyList, var_24_1) then
-		arg_24_0:StopLeanTween()
-		arg_24_0:ShowTimePanel(false)
-	else
-		arg_24_0:ShowTimePanel(true)
-		arg_24_0:StartLeanTween(pg.TimeMgr.GetInstance():GetServerTime(), arg_24_0.playRoomProxy:GetMatchRoomData().endTimestamp)
-	end
+	for iter_24_0, iter_24_1 in ipairs(arg_24_0.playerItemList) do
+		local var_24_3 = var_24_1[iter_24_0][1]
+		local var_24_4 = table.contains(var_24_0.readyList, var_24_2)
 
-	setActive(arg_24_0.uiRoomSwitchBtn, false)
-end
-
-function var_0_0.RefreshMatchInfoPlayerList(arg_25_0)
-	local var_25_0 = arg_25_0.playRoomProxy:GetMatchRoomData()
-
-	if not var_25_0 then
-		return
-	end
-
-	local var_25_1 = var_25_0.teamPosList
-	local var_25_2 = getProxy(PlayerProxy):getPlayerId()
-
-	for iter_25_0, iter_25_1 in ipairs(arg_25_0.playerItemList) do
-		local var_25_3 = var_25_1[iter_25_0][1]
-		local var_25_4 = table.contains(var_25_0.readyList, var_25_2)
-
-		iter_25_1:didEnter(var_25_0.playerDataList[var_25_3], nil, arg_25_0.sceneRoomType, var_25_4)
+		iter_24_1:didEnter(var_24_0.playerDataList[var_24_3], nil, arg_24_0.sceneRoomType, var_24_4)
 	end
 end
 
-function var_0_0.StartLeanTween(arg_26_0, arg_26_1, arg_26_2)
-	arg_26_0:StopLeanTween()
+function var_0_0.StartLeanTween(arg_25_0, arg_25_1, arg_25_2)
+	arg_25_0:StopLeanTween()
 
-	if arg_26_2 <= arg_26_1 then
+	if arg_25_2 <= arg_25_1 then
 		return
 	end
 
-	LeanTween.value(arg_26_0._go, (arg_26_2 - arg_26_1) / pg.gameset.match_refuseCD.key_value, 0, arg_26_2 - arg_26_1):setOnUpdate(System.Action_float(function(arg_27_0)
-		arg_26_0.uiSlider.value = arg_27_0
+	LeanTween.value(arg_25_0._go, (arg_25_2 - arg_25_1) / pg.gameset.match_refuseCD.key_value, 0, arg_25_2 - arg_25_1):setOnUpdate(System.Action_float(function(arg_26_0)
+		arg_25_0.uiSlider.value = arg_26_0
 
-		local var_27_0 = pg.TimeMgr.GetInstance():GetServerTime()
-		local var_27_1 = arg_26_2 - var_27_0
+		local var_26_0 = pg.TimeMgr.GetInstance():GetServerTime()
+		local var_26_1 = arg_25_2 - var_26_0
 
-		setText(arg_26_0.uiTimeText, string.format("%02d:%02d", math.floor(var_27_1 / 60), var_27_1 % 60))
+		setText(arg_25_0.uiTimeText, string.format("%02d:%02d", math.floor(var_26_1 / 60), var_26_1 % 60))
 	end)):setOnComplete(System.Action(function()
-		arg_26_0:OnBackPressed()
-		arg_26_0:StopLeanTween()
+		arg_25_0:OnClickCloseBtn()
+		arg_25_0:StopLeanTween()
 	end))
 end
 
-function var_0_0.StopLeanTween(arg_29_0)
-	LeanTween.cancel(arg_29_0._go)
+function var_0_0.StopLeanTween(arg_28_0)
+	LeanTween.cancel(arg_28_0._go)
 end
 
-function var_0_0.StartLoadLeanTween(arg_30_0, arg_30_1)
-	arg_30_0:StopLoadLeanTween()
-	LeanTween.value(arg_30_0._go, 0, 1, arg_30_1):setOnUpdate(System.Action_float(function(arg_31_0)
-		arg_30_0.uiLoadSlider.value = arg_31_0
+function var_0_0.StartLoadLeanTween(arg_29_0, arg_29_1)
+	arg_29_0:StopLoadLeanTween()
+	LeanTween.value(arg_29_0._go, 0, 1, arg_29_1):setOnUpdate(System.Action_float(function(arg_30_0)
+		arg_29_0.uiLoadSlider.value = arg_30_0
 
-		for iter_31_0, iter_31_1 in ipairs(arg_30_0.playerItemList) do
-			iter_31_1:RefreshSelfLoad(arg_31_0 * 100)
+		for iter_30_0, iter_30_1 in ipairs(arg_29_0.playerItemList) do
+			iter_30_1:RefreshSelfLoad(arg_30_0 * 100)
 		end
 	end)):setOnComplete(System.Action(function()
-		arg_30_0:StopLoadLeanTween()
+		arg_29_0:StopLoadLeanTween()
 	end))
 end
 
-function var_0_0.StopLoadLeanTween(arg_33_0)
-	LeanTween.cancel(arg_33_0._go)
+function var_0_0.StopLoadLeanTween(arg_32_0)
+	LeanTween.cancel(arg_32_0._go)
 end
 
-function var_0_0.ShowTimePanel(arg_34_0, arg_34_1)
-	setActive(arg_34_0.uiAcceptPanel, arg_34_1)
+function var_0_0.ShowTimePanel(arg_33_0, arg_33_1)
+	setActive(arg_33_0.uiAcceptPanel, arg_33_1)
 end
 
-function var_0_0.RefreshLoadInfoUI(arg_35_0)
-	local var_35_0 = arg_35_0.playRoomProxy:GetGameLoadData()
+function var_0_0.RefreshLoadInfoUI(arg_34_0)
+	local var_34_0 = arg_34_0.playRoomProxy:GetGameLoadData()
 
-	if not var_35_0 then
+	if not var_34_0 then
 		return
 	end
 
-	local var_35_1 = var_35_0.teamPosList
-	local var_35_2 = getProxy(PlayerProxy):getPlayerId()
-	local var_35_3 = table.contains(var_35_0.readyList, var_35_2)
+	local var_34_1 = var_34_0.teamPosList
+	local var_34_2 = getProxy(PlayerProxy):getPlayerId()
+	local var_34_3 = table.contains(var_34_0.readyList, var_34_2)
 
-	for iter_35_0, iter_35_1 in ipairs(arg_35_0.playerItemList) do
-		local var_35_4 = var_35_1[iter_35_0][1]
+	for iter_34_0, iter_34_1 in ipairs(arg_34_0.playerItemList) do
+		local var_34_4 = var_34_1[iter_34_0][1]
 
-		iter_35_1:didEnter(var_35_0.playerDataList[var_35_4], nil, arg_35_0.sceneRoomType, var_35_3, var_35_0.loadList[var_35_4])
+		iter_34_1:didEnter(var_34_0.playerDataList[var_34_4], nil, arg_34_0.sceneRoomType, var_34_3, var_34_0.loadList[var_34_4])
 	end
 
-	setActive(arg_35_0.uiSenderPanel, false)
-	setActive(arg_35_0.uiBtnList, false)
-	arg_35_0:StartLoadLeanTween(2)
+	setActive(arg_34_0.uiSenderPanel, false)
+	setActive(arg_34_0.uiBtnList, false)
+	arg_34_0:StartLoadLeanTween(2)
 end
 
-function var_0_0.EnterLoadInfoUI(arg_36_0)
-	arg_36_0.uiLoadSlider.value = 0
+function var_0_0.EnterLoadInfoUI(arg_35_0)
+	arg_35_0.uiLoadSlider.value = 0
 
-	setActive(arg_36_0.uiloadPanel, true)
+	setActive(arg_35_0.uiloadPanel, true)
 
-	arg_36_0.isLoading = true
+	arg_35_0.isLoading = true
 
-	arg_36_0:RefreshLoadInfoUI()
+	arg_35_0:RefreshLoadInfoUI()
 end
 
-function var_0_0.RefreshMessage(arg_37_0)
-	arg_37_0:GetMessages()
+function var_0_0.RefreshMessage(arg_36_0)
+	arg_36_0:GetMessages()
 
-	local var_37_0 = arg_37_0.displays
+	local var_36_0 = arg_36_0.displays
 
-	setActive(arg_37_0.uiChatItemGo, #var_37_0 > 0)
+	setActive(arg_36_0.uiChatItemGo, #var_36_0 > 0)
 
-	if #var_37_0 <= 0 then
+	if #var_36_0 <= 0 then
 		return
 	end
 
-	local var_37_1 = var_37_0[#var_37_0]
+	local var_36_1 = var_36_0[#var_36_0]
 
-	arg_37_0.uiChannelImage.sprite = GetSpriteFromAtlas("channel", ChatConst.GetChannelSprite(var_37_1.type) .. "_mel")
+	arg_36_0.uiChannelImage.sprite = GetSpriteFromAtlas("channel", ChatConst.GetChannelSprite(var_36_1.type) .. "_mel")
 
-	local var_37_2 = arg_37_0.uiChatText:GetComponent("RichText")
+	local var_36_2 = arg_36_0.uiChatText:GetComponent("RichText")
 
-	if var_37_1.type == ChatConst.ChannelPublic then
-		var_37_2.supportRichText = true
+	if var_36_1.type == ChatConst.ChannelPublic then
+		var_36_2.supportRichText = true
 
-		ChatProxy.InjectPublic(var_37_2, var_37_1, true)
-	elseif var_37_1:IsWorldBossNotify() then
-		var_37_2.supportRichText = true
+		ChatProxy.InjectPublic(var_36_2, var_36_1, true)
+	elseif var_36_1:IsWorldBossNotify() then
+		var_36_2.supportRichText = true
 
-		local var_37_3 = var_37_1.args.playerName
-		local var_37_4 = var_37_1.args.bossName
-		local var_37_5 = GetPerceptualSize(var_37_3 .. var_37_4) - 18
+		local var_36_3 = var_36_1.args.playerName
+		local var_36_4 = var_36_1.args.bossName
+		local var_36_5 = GetPerceptualSize(var_36_3 .. var_36_4) - 18
 
-		if var_37_5 > 0 then
-			local var_37_6 = GetPerceptualSize(var_37_4) - var_37_5
+		if var_36_5 > 0 then
+			local var_36_6 = GetPerceptualSize(var_36_4) - var_36_5
 
-			var_37_4 = shortenString(var_37_4, var_37_6)
+			var_36_4 = shortenString(var_36_4, var_36_6)
 		end
 
-		var_37_2.text = i18n("ad_4", var_37_1.args.supportType, var_37_3, var_37_4, var_37_1.args.level)
+		var_36_2.text = i18n("ad_4", var_36_1.args.supportType, var_36_3, var_36_4, var_36_1.args.level)
 	else
-		var_37_2.supportRichText = var_37_1.emojiId ~= nil
-		var_37_2.text = arg_37_0:MatchEmoji(var_37_2, var_37_1)
+		var_36_2.supportRichText = var_36_1.emojiId ~= nil
+		var_36_2.text = arg_36_0:MatchEmoji(var_36_2, var_36_1)
 	end
 end
 
-function var_0_0.MatchEmoji(arg_38_0, arg_38_1, arg_38_2)
-	local var_38_0 = false
-	local var_38_1 = arg_38_2.player.name .. ": " .. arg_38_2.content
-	local var_38_2 = false
+function var_0_0.MatchEmoji(arg_37_0, arg_37_1, arg_37_2)
+	local var_37_0 = false
+	local var_37_1 = arg_37_2.player.name .. ": " .. arg_37_2.content
+	local var_37_2 = false
 
-	for iter_38_0 in string.gmatch(var_38_1, ChatConst.EmojiIconCodeMatch) do
-		if table.contains(pg.emoji_small_template.all, tonumber(iter_38_0)) then
-			var_38_2 = true
+	for iter_37_0 in string.gmatch(var_37_1, ChatConst.EmojiIconCodeMatch) do
+		if table.contains(pg.emoji_small_template.all, tonumber(iter_37_0)) then
+			var_37_2 = true
 
-			local var_38_3 = pg.emoji_small_template[tonumber(iter_38_0)]
-			local var_38_4 = LoadSprite("emoji/" .. var_38_3.pic .. "_small", nil)
+			local var_37_3 = pg.emoji_small_template[tonumber(iter_37_0)]
+			local var_37_4 = LoadSprite("emoji/" .. var_37_3.pic .. "_small", nil)
 
-			arg_38_1:AddSprite(iter_38_0, var_38_4)
+			arg_37_1:AddSprite(iter_37_0, var_37_4)
 		end
 	end
 
-	if not arg_38_2.emojiId then
-		var_38_1 = var_38_2 and shortenString(var_38_1, 16) or shortenString(var_38_1, 20)
+	if not arg_37_2.emojiId then
+		var_37_1 = var_37_2 and shortenString(var_37_1, 16) or shortenString(var_37_1, 20)
 	end
 
-	return (string.gsub(var_38_1, ChatConst.EmojiIconCodeMatch, function(arg_39_0)
-		if table.contains(pg.emoji_small_template.all, tonumber(arg_39_0)) then
-			return string.format("<icon name=%s w=0.7 h=0.7/>", arg_39_0)
+	return (string.gsub(var_37_1, ChatConst.EmojiIconCodeMatch, function(arg_38_0)
+		if table.contains(pg.emoji_small_template.all, tonumber(arg_38_0)) then
+			return string.format("<icon name=%s w=0.7 h=0.7/>", arg_38_0)
 		end
 	end))
 end
 
-function var_0_0.GetMessages(arg_40_0)
-	arg_40_0.displays = {}
+function var_0_0.GetMessages(arg_39_0)
+	arg_39_0.displays = {}
 
-	local var_40_0 = getProxy(ChatProxy)
+	local var_39_0 = getProxy(ChatProxy)
 
-	_.each(var_40_0:getRawData(), function(arg_41_0)
-		arg_40_0:InsertMsg(arg_40_0.displays, arg_41_0)
+	_.each(var_39_0:getRawData(), function(arg_40_0)
+		arg_39_0:InsertMsg(arg_39_0.displays, arg_40_0)
 	end)
 
-	local var_40_1 = getProxy(GuildProxy)
+	local var_39_1 = getProxy(GuildProxy)
 
-	if var_40_1:getRawData() then
-		_.each(var_40_1:getChatMsgs(), function(arg_42_0)
-			arg_40_0:InsertMsg(arg_40_0.displays, arg_42_0)
+	if var_39_1:getRawData() then
+		_.each(var_39_1:getChatMsgs(), function(arg_41_0)
+			arg_39_0:InsertMsg(arg_39_0.displays, arg_41_0)
 		end)
 	end
 
-	local var_40_2 = getProxy(FriendProxy)
+	local var_39_2 = getProxy(FriendProxy)
 
-	_.each(var_40_2:getCacheMsgList(), function(arg_43_0)
-		arg_40_0:InsertMsg(arg_40_0.displays, arg_43_0)
+	_.each(var_39_2:getCacheMsgList(), function(arg_42_0)
+		arg_39_0:InsertMsg(arg_39_0.displays, arg_42_0)
 	end)
-	_.each(getProxy(PlayRoomProxy):GetChatMsgs(), function(arg_44_0)
-		arg_40_0:InsertMsg(arg_40_0.displays, arg_44_0)
+	_.each(getProxy(PlayRoomProxy):GetChatMsgs(), function(arg_43_0)
+		arg_39_0:InsertMsg(arg_39_0.displays, arg_43_0)
 	end)
-	table.sort(arg_40_0.displays, function(arg_45_0, arg_45_1)
-		return arg_45_0.timestamp < arg_45_1.timestamp
+	table.sort(arg_39_0.displays, function(arg_44_0, arg_44_1)
+		return arg_44_0.timestamp < arg_44_1.timestamp
 	end)
 end
 
-function var_0_0.InsertMsg(arg_46_0, arg_46_1, arg_46_2)
-	if getProxy(FriendProxy):isInBlackList(arg_46_2.playerId) then
+function var_0_0.InsertMsg(arg_45_0, arg_45_1, arg_45_2)
+	if getProxy(FriendProxy):isInBlackList(arg_45_2.playerId) then
 		return
 	end
 
-	if arg_46_2.player and arg_46_2.content then
-		table.insert(arg_46_1, arg_46_2)
+	if arg_45_2.player and arg_45_2.content then
+		table.insert(arg_45_1, arg_45_2)
 	end
+end
+
+function var_0_0.onBackPressed(arg_46_0)
+	arg_46_0:OnClickCloseBtn()
 end
 
 return var_0_0

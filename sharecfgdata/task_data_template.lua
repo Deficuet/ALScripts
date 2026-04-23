@@ -232819,6 +232819,1381 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[25511] = {
+		name = "『DOA轻量化复刻』日常建造",
+		guild_coin_award = 0,
+		award = 909571,
+		type = 36,
+		desc = "建造舰船3次。",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25511,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				661,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25512] = {
+		name = "『DOA轻量化复刻』日常出击",
+		guild_coin_award = 0,
+		award = 909572,
+		type = 36,
+		desc = "舰队出征，获得15次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25512,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				661,
+				300
+			},
+			{
+				8,
+				66019,
+				1
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25513] = {
+		name = "『DOA轻量化复刻』日常困难本",
+		guild_coin_award = 0,
+		award = 909573,
+		type = 36,
+		desc = "通关1次任意困难关卡 ",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25513,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				661,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25514] = {
+		name = "『DOA轻量化复刻』完成「活动特殊委托」1次",
+		guild_coin_award = 0,
+		award = 909574,
+		type = 6,
+		desc = "完成「活动特殊委托」1次",
+		count_inherit = 0,
+		sub_type = 82,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25514,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			50001,
+			50002,
+			50003,
+			50004,
+			50005,
+			50006,
+			50007,
+			50008,
+			50009,
+			50010,
+			50011,
+			50012,
+			50013,
+			50014
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				661,
+				200
+			},
+			{
+				8,
+				70203,
+				1
+			}
+		},
+		scene = {
+			"EVENT"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25515] = {
+		name = "『DOA轻量化复刻』完成「活动特殊委托」3次",
+		guild_coin_award = 0,
+		award = 909575,
+		type = 6,
+		desc = "完成「活动特殊委托」3次",
+		count_inherit = 0,
+		sub_type = 82,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25515,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			50001,
+			50002,
+			50003,
+			50004,
+			50005,
+			50006,
+			50007,
+			50008,
+			50009,
+			50010,
+			50011,
+			50012,
+			50013,
+			50014
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				661,
+				300
+			},
+			{
+				8,
+				70218,
+				1
+			}
+		},
+		scene = {
+			"EVENT"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25516] = {
+		name = "『DOA轻量化复刻』累计建造10次",
+		guild_coin_award = 0,
+		award = 909576,
+		type = 6,
+		desc = "建造舰船10次",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25516,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				661,
+				500
+			},
+			{
+				8,
+				70202,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25517] = {
+		name = "『DOA轻量化复刻』累计建造20次",
+		guild_coin_award = 0,
+		award = 909577,
+		type = 6,
+		desc = "建造舰船20次",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25517,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				661,
+				500
+			},
+			{
+				8,
+				70216,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25518] = {
+		name = "『DOA轻量化复刻』关卡情绪高涨状态下获得60次胜利",
+		guild_coin_award = 0,
+		award = 909578,
+		type = 6,
+		desc = "关卡情绪高涨状态下获得60次胜利<color=#92fc63>（家具无法重复获得）</color>",
+		count_inherit = 0,
+		sub_type = 13,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25518,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			8761
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				70209,
+				1
+			},
+			{
+				5,
+				188,
+				1
+			},
+			{
+				21,
+				10900,
+				1
+			},
+			{
+				1,
+				661,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50804
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25519] = {
+		name = "『DOA轻量化复刻』消耗石油5000点",
+		guild_coin_award = 0,
+		award = 909579,
+		type = 6,
+		desc = "累计消耗石油5000",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25519,
+		target_num = 5000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				21,
+				10820,
+				1
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25520] = {
+		name = "『DOA轻量化复刻』通关任务10次",
+		guild_coin_award = 0,
+		award = 909580,
+		type = 6,
+		desc = "通关10次「假日航线：再现」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25520,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1450001,
+			1450002,
+			1450003,
+			1450004,
+			1450041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				661,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25521] = {
+		name = "『DOA轻量化复刻』通关任务30次",
+		guild_coin_award = 0,
+		award = 909581,
+		type = 6,
+		desc = "通关30次「假日航线：再现」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25521,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1450001,
+			1450002,
+			1450003,
+			1450004,
+			1450041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				661,
+				1500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25522] = {
+		name = "『DOA轻量化复刻』通关任务60次",
+		guild_coin_award = 0,
+		award = 909582,
+		type = 6,
+		desc = "通关60次「假日航线：再现」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25522,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1450001,
+			1450002,
+			1450003,
+			1450004,
+			1450041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				661,
+				3000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25523] = {
+		name = "『DOA轻量化复刻』通关SP1",
+		guild_coin_award = 0,
+		award = 909583,
+		type = 6,
+		desc = "通关「假日航线：再现」SP1",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1450001",
+		next_task = "25524",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25523,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				661,
+				200
+			},
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				66019,
+				1
+			},
+			{
+				8,
+				70205,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1450001,
+				chapterId = 1450001
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25524] = {
+		name = "『DOA轻量化复刻』通关SP2",
+		guild_coin_award = 0,
+		award = 909584,
+		type = 6,
+		desc = "通关「假日航线：再现」SP2",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1450002",
+		next_task = "25525",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25524,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				661,
+				400
+			},
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				66019,
+				1
+			},
+			{
+				8,
+				70207,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1450001,
+				chapterId = 1450002
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25525] = {
+		name = "『DOA轻量化复刻』通关SP3",
+		guild_coin_award = 0,
+		award = 909585,
+		type = 6,
+		desc = "通关「假日航线：再现」SP3",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1450003",
+		next_task = "25526",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25525,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				661,
+				600
+			},
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				66019,
+				1
+			},
+			{
+				8,
+				70201,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1450001,
+				chapterId = 1450003
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25526] = {
+		name = "『DOA轻量化复刻』通关SP4",
+		guild_coin_award = 0,
+		award = 909586,
+		type = 6,
+		desc = "通关「假日航线：再现」SP4",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1450004",
+		next_task = "25527",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25526,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				661,
+				800
+			},
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				2,
+				66019,
+				1
+			},
+			{
+				8,
+				70211,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1450001,
+				chapterId = 1450004
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25527] = {
+		name = "『DOA轻量化复刻』通关VSP",
+		guild_coin_award = 0,
+		award = 909587,
+		type = 6,
+		desc = "通关「假日航线：再现」VSP",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1450041",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25527,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				2,
+				66019,
+				1
+			},
+			{
+				8,
+				70213,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1450002,
+				chapterId = 1450041
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25528] = {
+		name = "『DOA轻量化复刻』通关EX1",
+		guild_coin_award = 0,
+		award = 909588,
+		type = 6,
+		desc = "通关「假日航线：再现」EX1",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 10,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1450051",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25528,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1450003,
+				chapterId = 1450052
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25529] = {
+		name = "『DOA轻量化复刻』通关EX2",
+		guild_coin_award = 0,
+		award = 909589,
+		type = 6,
+		desc = "通关「假日航线：再现」EX2",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 10,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1450052",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25529,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15012,
+				50
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1450003,
+				chapterId = 1450052
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25530] = {
+		name = "『DOA轻量化复刻』SP1三星",
+		guild_coin_award = 0,
+		award = 909590,
+		type = 6,
+		desc = "完成「假日航线：再现」SP1的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1450001",
+		next_task = "25531",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25530,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30323,
+				1
+			},
+			{
+				8,
+				70206,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1450001,
+				chapterId = 1450001
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25531] = {
+		name = "『DOA轻量化复刻』SP2三星",
+		guild_coin_award = 0,
+		award = 909591,
+		type = 6,
+		desc = "完成「假日航线：再现」SP2的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1450002",
+		next_task = "25532",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25531,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30323,
+				1
+			},
+			{
+				8,
+				70210,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1450001,
+				chapterId = 1450002
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25532] = {
+		name = "『DOA轻量化复刻』SP3三星",
+		guild_coin_award = 0,
+		award = 909592,
+		type = 6,
+		desc = "完成「假日航线：再现」SP3的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1450003",
+		next_task = "25533",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25532,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30323,
+				1
+			},
+			{
+				8,
+				70204,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1450001,
+				chapterId = 1450003
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25533] = {
+		name = "『DOA轻量化复刻』SP4三星",
+		guild_coin_award = 0,
+		award = 909593,
+		type = 6,
+		desc = "完成「假日航线：再现」SP4的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1450004",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25533,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30323,
+				1
+			},
+			{
+				8,
+				70212,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1450001,
+				chapterId = 1450004
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25534] = {
+		name = "『DOA轻量化复刻』外观装备箱保底",
+		guild_coin_award = 0,
+		award = 909594,
+		type = 6,
+		desc = "通过「活动商店」兑换或「补给商店-军火」购买20个[外观装备箱(维纳斯假期)]",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "30323",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 25534,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30521,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25537] = {
+		name = "『DOA轻量化复刻』通关任意活动关卡1次",
+		guild_coin_award = 0,
+		award = 909681,
+		type = 36,
+		desc = "通关1次「假日航线：再现」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25537,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1450001,
+			1450002,
+			1450003,
+			1450004,
+			1450041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				661,
+				300
+			},
+			{
+				8,
+				54006,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[31017] = {
 		name = "殿堂奖励第一名",
 		guild_coin_award = 0,

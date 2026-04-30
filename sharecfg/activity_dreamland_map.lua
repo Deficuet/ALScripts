@@ -1,6 +1,20 @@
 pg = pg or {}
-pg.activity_dreamland_map = {
-	{
+pg.activity_dreamland_map = rawget(pg, "activity_dreamland_map") or setmetatable({
+	__name = "activity_dreamland_map"
+}, confNEO)
+pg.activity_dreamland_map.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6
+}
+pg.base = pg.base or {}
+pg.base.activity_dreamland_map = {}
+
+;(function()
+	pg.base.activity_dreamland_map[1] = {
 		unlock_condition = 1,
 		name = "活动广场区",
 		id = 1,
@@ -24,8 +38,8 @@ pg.activity_dreamland_map = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_map[2] = {
 		unlock_condition = 3,
 		name = "心愿之泉区",
 		id = 2,
@@ -49,8 +63,8 @@ pg.activity_dreamland_map = {
 				300
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_map[3] = {
 		unlock_condition = 3,
 		name = "梦幻城堡区",
 		id = 3,
@@ -74,8 +88,8 @@ pg.activity_dreamland_map = {
 				10
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_map[4] = {
 		unlock_condition = 4,
 		name = "水上乐园区",
 		id = 4,
@@ -99,8 +113,8 @@ pg.activity_dreamland_map = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_map[5] = {
 		unlock_condition = 5,
 		name = "奇幻表演区",
 		id = 5,
@@ -124,8 +138,8 @@ pg.activity_dreamland_map = {
 				2
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_map[6] = {
 		unlock_condition = 7,
 		name = "迷雾探险区",
 		id = 6,
@@ -149,13 +163,5 @@ pg.activity_dreamland_map = {
 				1
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6
 	}
-}
+end)()

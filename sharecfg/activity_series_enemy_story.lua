@@ -1,6 +1,181 @@
 pg = pg or {}
-pg.activity_series_enemy_story = {
-	{
+pg.activity_series_enemy_story = rawget(pg, "activity_series_enemy_story") or setmetatable({
+	__name = "activity_series_enemy_story"
+}, confNEO)
+pg.activity_series_enemy_story.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	67,
+	68,
+	69,
+	70,
+	71,
+	72,
+	73,
+	74,
+	75,
+	76,
+	77,
+	78,
+	79,
+	80,
+	81,
+	82,
+	83,
+	84,
+	85,
+	86,
+	87,
+	88,
+	89,
+	90,
+	91,
+	92,
+	93,
+	94,
+	95,
+	96,
+	97,
+	98,
+	99,
+	100,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	113,
+	114,
+	115,
+	116,
+	117,
+	118,
+	119,
+	120,
+	121,
+	122,
+	123,
+	124,
+	125,
+	126,
+	127,
+	128,
+	129,
+	130,
+	131,
+	132,
+	133,
+	134,
+	135,
+	136,
+	137,
+	138,
+	139,
+	140,
+	141,
+	142,
+	143,
+	144,
+	145,
+	146,
+	147,
+	148,
+	149,
+	150,
+	151,
+	152,
+	153,
+	154,
+	155,
+	156,
+	157,
+	158,
+	159,
+	160,
+	161,
+	162,
+	163,
+	164,
+	165,
+	166,
+	167,
+	168,
+	169,
+	170,
+	171,
+	172,
+	173,
+	174,
+	175,
+	176
+}
+pg.base = pg.base or {}
+pg.base.activity_series_enemy_story = {}
+
+;(function()
+	pg.base.activity_series_enemy_story[1] = {
 		pos_x = "0.10703125",
 		name = "TS-1",
 		label_key = "",
@@ -22,8 +197,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			500
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[2] = {
 		pos_x = "0.34609375",
 		name = "TS-2",
 		label_key = "",
@@ -45,8 +220,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[3] = {
 		pos_x = "0.50546875",
 		name = "TS-3",
 		label_key = "",
@@ -70,8 +245,8 @@ pg.activity_series_enemy_story = {
 			1000,
 			2
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[4] = {
 		pos_x = "0.60546875",
 		name = "TS-4",
 		label_key = "",
@@ -93,8 +268,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[5] = {
 		pos_x = "0.6265625",
 		name = "TS-5",
 		label_key = "",
@@ -118,8 +293,8 @@ pg.activity_series_enemy_story = {
 			2000,
 			4
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[6] = {
 		pos_x = "1.10703125",
 		name = "TS-6",
 		label_key = "",
@@ -141,8 +316,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			5
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[7] = {
 		pos_x = "1.34609375",
 		name = "TS-7",
 		label_key = "",
@@ -166,8 +341,8 @@ pg.activity_series_enemy_story = {
 			3000,
 			6
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[8] = {
 		pos_x = "1.50546875",
 		name = "TS-8",
 		label_key = "",
@@ -189,8 +364,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			7
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[9] = {
 		pos_x = "1.60546875",
 		name = "TS-9",
 		label_key = "",
@@ -214,8 +389,8 @@ pg.activity_series_enemy_story = {
 			4000,
 			8
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[10] = {
 		pos_x = "1.6265625",
 		name = "TS-10",
 		label_key = "",
@@ -237,8 +412,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			9
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[11] = {
 		pos_x = "2.10703125",
 		name = "TSH-1",
 		label_key = "",
@@ -260,8 +435,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[12] = {
 		pos_x = "2.34609375",
 		name = "TSH-2",
 		label_key = "",
@@ -285,8 +460,8 @@ pg.activity_series_enemy_story = {
 			4,
 			11
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[13] = {
 		pos_x = "2.50546875",
 		name = "TSH-3",
 		label_key = "",
@@ -310,8 +485,8 @@ pg.activity_series_enemy_story = {
 			6,
 			12
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[14] = {
 		pos_x = "0.10703125",
 		name = "TSH-4",
 		label_key = "",
@@ -335,8 +510,8 @@ pg.activity_series_enemy_story = {
 			8,
 			13
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[15] = {
 		pos_x = "0.34609375",
 		name = "TSH-5",
 		label_key = "",
@@ -360,8 +535,8 @@ pg.activity_series_enemy_story = {
 			10,
 			14
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[16] = {
 		pos_x = "0.34609375",
 		name = "TSH-6",
 		label_key = "",
@@ -383,8 +558,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			15
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[17] = {
 		story = "",
 		name = "基地1",
 		pos_x = "0.34609375",
@@ -402,8 +577,8 @@ pg.activity_series_enemy_story = {
 		line = 0,
 		pass_awards = 0,
 		id = 17
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[18] = {
 		story = "",
 		name = "基地2",
 		pos_x = "0.34609375",
@@ -421,8 +596,8 @@ pg.activity_series_enemy_story = {
 		line = 1,
 		pass_awards = 0,
 		id = 18
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[19] = {
 		story = "",
 		name = "基地3",
 		pos_x = "0.34609375",
@@ -440,8 +615,8 @@ pg.activity_series_enemy_story = {
 		line = 3,
 		pass_awards = 0,
 		id = 19
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[20] = {
 		story = "",
 		name = "基地4",
 		pos_x = "0.34609375",
@@ -459,8 +634,8 @@ pg.activity_series_enemy_story = {
 		line = 5,
 		pass_awards = 0,
 		id = 20
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[21] = {
 		story = "",
 		name = "基地5",
 		pos_x = "0.34609375",
@@ -478,8 +653,8 @@ pg.activity_series_enemy_story = {
 		line = 11,
 		pass_awards = 0,
 		id = 21
-	},
-	[31] = {
+	}
+	pg.base.activity_series_enemy_story[31] = {
 		pos_x = "0.10703125",
 		name = "叛恶者之歌",
 		label_key = "",
@@ -501,8 +676,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			0
 		}
-	},
-	[32] = {
+	}
+	pg.base.activity_series_enemy_story[32] = {
 		pos_x = "0.34609375",
 		name = "组成乐队吧♪",
 		label_key = "",
@@ -524,8 +699,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			31
 		}
-	},
-	[33] = {
+	}
+	pg.base.activity_series_enemy_story[33] = {
 		pos_x = "0.50546875",
 		name = "巨大指挥官",
 		label_key = "",
@@ -547,8 +722,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			32
 		}
-	},
-	[34] = {
+	}
+	pg.base.activity_series_enemy_story[34] = {
 		pos_x = "0.60546875",
 		name = "健康活力Fight",
 		label_key = "",
@@ -570,8 +745,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			33
 		}
-	},
-	[35] = {
+	}
+	pg.base.activity_series_enemy_story[35] = {
 		pos_x = "0.6265625",
 		name = "拯救老师大作战",
 		label_key = "",
@@ -593,8 +768,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			34
 		}
-	},
-	[36] = {
+	}
+	pg.base.activity_series_enemy_story[36] = {
 		pos_x = "1.10703125",
 		name = "与童心重逢之时",
 		label_key = "",
@@ -616,8 +791,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			35
 		}
-	},
-	[37] = {
+	}
+	pg.base.activity_series_enemy_story[37] = {
 		pos_x = "1.34609375",
 		name = "失控的童心",
 		label_key = "",
@@ -639,8 +814,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			36
 		}
-	},
-	[38] = {
+	}
+	pg.base.activity_series_enemy_story[38] = {
 		pos_x = "1.50546875",
 		name = "愿童心永驻",
 		label_key = "",
@@ -662,8 +837,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			37
 		}
-	},
-	[39] = {
+	}
+	pg.base.activity_series_enemy_story[39] = {
 		pos_x = "",
 		name = "CH-1 爆炸疑云",
 		label_key = "",
@@ -685,8 +860,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			0
 		}
-	},
-	[40] = {
+	}
+	pg.base.activity_series_enemy_story[40] = {
 		pos_x = "",
 		name = "CH-2 兔警官探案中",
 		label_key = "",
@@ -708,8 +883,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			39
 		}
-	},
-	[41] = {
+	}
+	pg.base.activity_series_enemy_story[41] = {
 		pos_x = "",
 		name = "CH-3 战略性约会进行时",
 		label_key = "",
@@ -731,8 +906,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			40
 		}
-	},
-	[42] = {
+	}
+	pg.base.activity_series_enemy_story[42] = {
 		pos_x = "",
 		name = "CH-4 公路维和组，出击！",
 		label_key = "",
@@ -754,8 +929,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			41
 		}
-	},
-	[43] = {
+	}
+	pg.base.activity_series_enemy_story[43] = {
 		pos_x = "",
 		name = "CH-5 问题的关键",
 		label_key = "",
@@ -777,8 +952,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			42
 		}
-	},
-	[44] = {
+	}
+	pg.base.activity_series_enemy_story[44] = {
 		pos_x = "",
 		name = "CH-6 说来话长",
 		label_key = "",
@@ -800,8 +975,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			43
 		}
-	},
-	[45] = {
+	}
+	pg.base.activity_series_enemy_story[45] = {
 		pos_x = "",
 		name = "CH-7 谈心教室",
 		label_key = "",
@@ -823,8 +998,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			44
 		}
-	},
-	[46] = {
+	}
+	pg.base.activity_series_enemy_story[46] = {
 		pos_x = "",
 		name = "CH-8 迷彩都市之夜",
 		label_key = "",
@@ -846,8 +1021,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			45
 		}
-	},
-	[47] = {
+	}
+	pg.base.activity_series_enemy_story[47] = {
 		pos_x = "",
 		name = "CH-9 谁是卧底？",
 		label_key = "",
@@ -869,8 +1044,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			46
 		}
-	},
-	[48] = {
+	}
+	pg.base.activity_series_enemy_story[48] = {
 		pos_x = "0.174729166666667",
 		name = "EPS-1 一次调查",
 		label_key = "",
@@ -892,8 +1067,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			48
 		}
-	},
-	[49] = {
+	}
+	pg.base.activity_series_enemy_story[49] = {
 		pos_x = "0.389166666666667",
 		name = "EPS-2 一场寻宝",
 		label_key = "",
@@ -917,8 +1092,8 @@ pg.activity_series_enemy_story = {
 			48,
 			49
 		}
-	},
-	[50] = {
+	}
+	pg.base.activity_series_enemy_story[50] = {
 		pos_x = "0.705729166666667",
 		name = "EPS-3 一次冒险",
 		label_key = "",
@@ -942,8 +1117,8 @@ pg.activity_series_enemy_story = {
 			49,
 			50
 		}
-	},
-	[51] = {
+	}
+	pg.base.activity_series_enemy_story[51] = {
 		pos_x = "0.173489583333333",
 		name = "EP1-1 起始之海",
 		label_key = "",
@@ -967,8 +1142,8 @@ pg.activity_series_enemy_story = {
 			50,
 			51
 		}
-	},
-	[52] = {
+	}
+	pg.base.activity_series_enemy_story[52] = {
 		pos_x = "0.173229166666667",
 		name = "EP1-2 舒适海滩",
 		label_key = "",
@@ -992,8 +1167,8 @@ pg.activity_series_enemy_story = {
 			51,
 			52
 		}
-	},
-	[53] = {
+	}
+	pg.base.activity_series_enemy_story[53] = {
 		pos_x = "0.613",
 		name = "EP1-3 险峻石滩",
 		label_key = "",
@@ -1017,8 +1192,8 @@ pg.activity_series_enemy_story = {
 			52,
 			53
 		}
-	},
-	[54] = {
+	}
+	pg.base.activity_series_enemy_story[54] = {
 		pos_x = "0.380208333333333",
 		name = "EP1-4 合流·其一",
 		label_key = "",
@@ -1042,8 +1217,8 @@ pg.activity_series_enemy_story = {
 			53,
 			54
 		}
-	},
-	[55] = {
+	}
+	pg.base.activity_series_enemy_story[55] = {
 		pos_x = "0.600520833333333",
 		name = "EP1-5 合流·其二",
 		label_key = "",
@@ -1067,8 +1242,8 @@ pg.activity_series_enemy_story = {
 			54,
 			55
 		}
-	},
-	[56] = {
+	}
+	pg.base.activity_series_enemy_story[56] = {
 		pos_x = "0.483854166666667",
 		name = "EP1-6 天际塔：起始区段",
 		label_key = "",
@@ -1092,8 +1267,8 @@ pg.activity_series_enemy_story = {
 			55,
 			56
 		}
-	},
-	[57] = {
+	}
+	pg.base.activity_series_enemy_story[57] = {
 		pos_x = "0.4671875",
 		name = "EP1-7 向上进发",
 		label_key = "",
@@ -1126,8 +1301,8 @@ pg.activity_series_enemy_story = {
 				}
 			}
 		}
-	},
-	[58] = {
+	}
+	pg.base.activity_series_enemy_story[58] = {
 		pos_x = "0.385416666666667",
 		name = "EP2-1 丰水湖",
 		label_key = "",
@@ -1151,8 +1326,8 @@ pg.activity_series_enemy_story = {
 			57,
 			58
 		}
-	},
-	[59] = {
+	}
+	pg.base.activity_series_enemy_story[59] = {
 		pos_x = "0.313020833333333",
 		name = "EP2-2 丰饶林地",
 		label_key = "",
@@ -1176,8 +1351,8 @@ pg.activity_series_enemy_story = {
 			58,
 			59
 		}
-	},
-	[60] = {
+	}
+	pg.base.activity_series_enemy_story[60] = {
 		pos_x = "0.266666666666667",
 		name = "EP2-3 青草区",
 		label_key = "",
@@ -1201,8 +1376,8 @@ pg.activity_series_enemy_story = {
 			59,
 			60
 		}
-	},
-	[61] = {
+	}
+	pg.base.activity_series_enemy_story[61] = {
 		pos_x = "0.186458333333333",
 		name = "EP2-4 腐草区",
 		label_key = "",
@@ -1226,8 +1401,8 @@ pg.activity_series_enemy_story = {
 			60,
 			61
 		}
-	},
-	[62] = {
+	}
+	pg.base.activity_series_enemy_story[62] = {
 		pos_x = "0.128645833333333",
 		name = "EP2-5 腐水河流",
 		label_key = "",
@@ -1251,8 +1426,8 @@ pg.activity_series_enemy_story = {
 			61,
 			62
 		}
-	},
-	[63] = {
+	}
+	pg.base.activity_series_enemy_story[63] = {
 		pos_x = "0.176041666666667",
 		name = "EP2-6 废弃村落",
 		label_key = "",
@@ -1276,8 +1451,8 @@ pg.activity_series_enemy_story = {
 			62,
 			63
 		}
-	},
-	[64] = {
+	}
+	pg.base.activity_series_enemy_story[64] = {
 		pos_x = "0.252604166666667",
 		name = "EP2-7 腐水湖",
 		label_key = "",
@@ -1301,8 +1476,8 @@ pg.activity_series_enemy_story = {
 			63,
 			64
 		}
-	},
-	[65] = {
+	}
+	pg.base.activity_series_enemy_story[65] = {
 		pos_x = "0.328125",
 		name = "EP2-8 天际塔：L1区段",
 		label_key = "",
@@ -1326,8 +1501,8 @@ pg.activity_series_enemy_story = {
 			64,
 			65
 		}
-	},
-	[66] = {
+	}
+	pg.base.activity_series_enemy_story[66] = {
 		pos_x = "0.395833333333333",
 		name = "EP3-1 腐水海",
 		label_key = "",
@@ -1360,8 +1535,8 @@ pg.activity_series_enemy_story = {
 				}
 			}
 		}
-	},
-	[67] = {
+	}
+	pg.base.activity_series_enemy_story[67] = {
 		pos_x = "0.445833333333333",
 		name = "EP3-2 腐蚀林地",
 		label_key = "",
@@ -1385,8 +1560,8 @@ pg.activity_series_enemy_story = {
 			66,
 			67
 		}
-	},
-	[68] = {
+	}
+	pg.base.activity_series_enemy_story[68] = {
 		pos_x = "0.5015625",
 		name = "EP3-3 死亡荒原",
 		label_key = "",
@@ -1410,8 +1585,8 @@ pg.activity_series_enemy_story = {
 			67,
 			68
 		}
-	},
-	[69] = {
+	}
+	pg.base.activity_series_enemy_story[69] = {
 		pos_x = "0.559375",
 		name = "EP3-4 废弃哨站",
 		label_key = "",
@@ -1435,8 +1610,8 @@ pg.activity_series_enemy_story = {
 			68,
 			69
 		}
-	},
-	[70] = {
+	}
+	pg.base.activity_series_enemy_story[70] = {
 		pos_x = "0.616145833333333",
 		name = "EP3-5 大裂谷",
 		label_key = "",
@@ -1460,8 +1635,8 @@ pg.activity_series_enemy_story = {
 			69,
 			70
 		}
-	},
-	[71] = {
+	}
+	pg.base.activity_series_enemy_story[71] = {
 		pos_x = "0.819791666666667",
 		name = "EP3-6 天际塔：L2区段",
 		label_key = "",
@@ -1485,8 +1660,8 @@ pg.activity_series_enemy_story = {
 			70,
 			71
 		}
-	},
-	[72] = {
+	}
+	pg.base.activity_series_enemy_story[72] = {
 		pos_x = "0.822916666666667",
 		name = "EP4-1 鬼影群山",
 		label_key = "",
@@ -1519,8 +1694,8 @@ pg.activity_series_enemy_story = {
 				}
 			}
 		}
-	},
-	[73] = {
+	}
+	pg.base.activity_series_enemy_story[73] = {
 		pos_x = "0.6453125",
 		name = "EP4-2 废弃都市",
 		label_key = "",
@@ -1544,8 +1719,8 @@ pg.activity_series_enemy_story = {
 			72,
 			73
 		}
-	},
-	[74] = {
+	}
+	pg.base.activity_series_enemy_story[74] = {
 		pos_x = "0.610416666666667",
 		name = "EP4-3 天际塔：L3区段",
 		label_key = "",
@@ -1569,8 +1744,8 @@ pg.activity_series_enemy_story = {
 			73,
 			74
 		}
-	},
-	[75] = {
+	}
+	pg.base.activity_series_enemy_story[75] = {
 		pos_x = "0.697916666666667",
 		name = "EP5-1 天际海",
 		label_key = "",
@@ -1603,8 +1778,8 @@ pg.activity_series_enemy_story = {
 				}
 			}
 		}
-	},
-	[76] = {
+	}
+	pg.base.activity_series_enemy_story[76] = {
 		pos_x = "0.778645833333333",
 		name = "EP5-2 大护盾",
 		label_key = "",
@@ -1628,8 +1803,8 @@ pg.activity_series_enemy_story = {
 			75,
 			76
 		}
-	},
-	[77] = {
+	}
+	pg.base.activity_series_enemy_story[77] = {
 		pos_x = "0.813541666666667",
 		name = "EP5-3 核心都市区",
 		label_key = "",
@@ -1653,8 +1828,8 @@ pg.activity_series_enemy_story = {
 			76,
 			77
 		}
-	},
-	[78] = {
+	}
+	pg.base.activity_series_enemy_story[78] = {
 		pos_x = "0.811979166666667",
 		name = "EP5-4 天际塔：塔尖区段",
 		label_key = "",
@@ -1678,8 +1853,8 @@ pg.activity_series_enemy_story = {
 			77,
 			78
 		}
-	},
-	[79] = {
+	}
+	pg.base.activity_series_enemy_story[79] = {
 		pos_x = "0.848958333333333",
 		name = "EP5-5 决战",
 		label_key = "",
@@ -1703,8 +1878,8 @@ pg.activity_series_enemy_story = {
 			78,
 			79
 		}
-	},
-	[80] = {
+	}
+	pg.base.activity_series_enemy_story[80] = {
 		pos_x = "0.349479166666667",
 		name = "EPS-4 尾声",
 		label_key = "",
@@ -1728,8 +1903,8 @@ pg.activity_series_enemy_story = {
 			79,
 			80
 		}
-	},
-	[81] = {
+	}
+	pg.base.activity_series_enemy_story[81] = {
 		pos_x = "0.633854166666667",
 		name = "EPS-5 尾声的尾声",
 		label_key = "",
@@ -1753,8 +1928,8 @@ pg.activity_series_enemy_story = {
 			80,
 			81
 		}
-	},
-	[82] = {
+	}
+	pg.base.activity_series_enemy_story[82] = {
 		pos_x = "0.463541666666667",
 		name = "起始区段",
 		label_key = "",
@@ -1778,8 +1953,8 @@ pg.activity_series_enemy_story = {
 			57,
 			79
 		}
-	},
-	[83] = {
+	}
+	pg.base.activity_series_enemy_story[83] = {
 		pos_x = "0.541145833333333",
 		name = "险峻石滩",
 		label_key = "",
@@ -1803,8 +1978,8 @@ pg.activity_series_enemy_story = {
 			57,
 			79
 		}
-	},
-	[84] = {
+	}
+	pg.base.activity_series_enemy_story[84] = {
 		pos_x = "0.150520833333333",
 		name = "起始之海",
 		label_key = "",
@@ -1828,8 +2003,8 @@ pg.activity_series_enemy_story = {
 			57,
 			79
 		}
-	},
-	[85] = {
+	}
+	pg.base.activity_series_enemy_story[85] = {
 		pos_x = "0.168229166666667",
 		name = "舒适海滩",
 		label_key = "",
@@ -1853,8 +2028,8 @@ pg.activity_series_enemy_story = {
 			57,
 			79
 		}
-	},
-	[86] = {
+	}
+	pg.base.activity_series_enemy_story[86] = {
 		pos_x = "0.375520833333333",
 		name = "丰水湖",
 		label_key = "",
@@ -1878,8 +2053,8 @@ pg.activity_series_enemy_story = {
 			65,
 			79
 		}
-	},
-	[87] = {
+	}
+	pg.base.activity_series_enemy_story[87] = {
 		pos_x = "0.247395833333333",
 		name = "丰饶林地",
 		label_key = "",
@@ -1903,8 +2078,8 @@ pg.activity_series_enemy_story = {
 			65,
 			79
 		}
-	},
-	[88] = {
+	}
+	pg.base.activity_series_enemy_story[88] = {
 		pos_x = "0.289583333333333",
 		name = "L1区段",
 		label_key = "",
@@ -1928,8 +2103,8 @@ pg.activity_series_enemy_story = {
 			65,
 			79
 		}
-	},
-	[89] = {
+	}
+	pg.base.activity_series_enemy_story[89] = {
 		pos_x = "0.139583333333333",
 		name = "废弃村落",
 		label_key = "",
@@ -1953,8 +2128,8 @@ pg.activity_series_enemy_story = {
 			65,
 			79
 		}
-	},
-	[90] = {
+	}
+	pg.base.activity_series_enemy_story[90] = {
 		pos_x = "0.1953125",
 		name = "腐水湖",
 		label_key = "",
@@ -1978,8 +2153,8 @@ pg.activity_series_enemy_story = {
 			65,
 			79
 		}
-	},
-	[91] = {
+	}
+	pg.base.activity_series_enemy_story[91] = {
 		pos_x = "0.397395833333333",
 		name = "腐水海",
 		label_key = "",
@@ -2003,8 +2178,8 @@ pg.activity_series_enemy_story = {
 			71,
 			79
 		}
-	},
-	[92] = {
+	}
+	pg.base.activity_series_enemy_story[92] = {
 		pos_x = "0.430208333333333",
 		name = "腐蚀林地",
 		label_key = "",
@@ -2028,8 +2203,8 @@ pg.activity_series_enemy_story = {
 			71,
 			79
 		}
-	},
-	[93] = {
+	}
+	pg.base.activity_series_enemy_story[93] = {
 		pos_x = "0.514583333333333",
 		name = "死亡荒原",
 		label_key = "",
@@ -2053,8 +2228,8 @@ pg.activity_series_enemy_story = {
 			71,
 			79
 		}
-	},
-	[94] = {
+	}
+	pg.base.activity_series_enemy_story[94] = {
 		pos_x = "0.554166666666667",
 		name = "废弃哨站",
 		label_key = "",
@@ -2078,8 +2253,8 @@ pg.activity_series_enemy_story = {
 			71,
 			79
 		}
-	},
-	[95] = {
+	}
+	pg.base.activity_series_enemy_story[95] = {
 		pos_x = "0.6375",
 		name = "大裂谷",
 		label_key = "",
@@ -2103,8 +2278,8 @@ pg.activity_series_enemy_story = {
 			71,
 			79
 		}
-	},
-	[96] = {
+	}
+	pg.base.activity_series_enemy_story[96] = {
 		pos_x = "0.815104166666667",
 		name = "L2区段",
 		label_key = "",
@@ -2128,8 +2303,8 @@ pg.activity_series_enemy_story = {
 			71,
 			79
 		}
-	},
-	[97] = {
+	}
+	pg.base.activity_series_enemy_story[97] = {
 		pos_x = "0.8359375",
 		name = "鬼影群山",
 		label_key = "",
@@ -2153,8 +2328,8 @@ pg.activity_series_enemy_story = {
 			74,
 			79
 		}
-	},
-	[98] = {
+	}
+	pg.base.activity_series_enemy_story[98] = {
 		pos_x = "0.602604166666667",
 		name = "废弃都市",
 		label_key = "",
@@ -2178,8 +2353,8 @@ pg.activity_series_enemy_story = {
 			74,
 			79
 		}
-	},
-	[99] = {
+	}
+	pg.base.activity_series_enemy_story[99] = {
 		pos_x = "0.597395833333333",
 		name = "L3区段",
 		label_key = "",
@@ -2203,8 +2378,8 @@ pg.activity_series_enemy_story = {
 			74,
 			79
 		}
-	},
-	[100] = {
+	}
+	pg.base.activity_series_enemy_story[100] = {
 		pos_x = "0.463541666666667",
 		name = "起始区段",
 		label_key = "",
@@ -2226,8 +2401,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[101] = {
+	}
+	pg.base.activity_series_enemy_story[101] = {
 		pos_x = "0.541145833333333",
 		name = "险峻石滩",
 		label_key = "",
@@ -2249,8 +2424,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[102] = {
+	}
+	pg.base.activity_series_enemy_story[102] = {
 		pos_x = "0.150520833333333",
 		name = "起始之海",
 		label_key = "",
@@ -2272,8 +2447,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[103] = {
+	}
+	pg.base.activity_series_enemy_story[103] = {
 		pos_x = "0.168229166666667",
 		name = "舒适海滩",
 		label_key = "",
@@ -2295,8 +2470,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[104] = {
+	}
+	pg.base.activity_series_enemy_story[104] = {
 		pos_x = "0.375520833333333",
 		name = "丰水湖",
 		label_key = "",
@@ -2318,8 +2493,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[105] = {
+	}
+	pg.base.activity_series_enemy_story[105] = {
 		pos_x = "0.247395833333333",
 		name = "丰饶林地",
 		label_key = "",
@@ -2341,8 +2516,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[106] = {
+	}
+	pg.base.activity_series_enemy_story[106] = {
 		pos_x = "0.289583333333333",
 		name = "L1区段",
 		label_key = "",
@@ -2364,8 +2539,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[107] = {
+	}
+	pg.base.activity_series_enemy_story[107] = {
 		pos_x = "0.139583333333333",
 		name = "废弃村落",
 		label_key = "",
@@ -2387,8 +2562,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[108] = {
+	}
+	pg.base.activity_series_enemy_story[108] = {
 		pos_x = "0.1953125",
 		name = "腐水湖",
 		label_key = "",
@@ -2410,8 +2585,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[109] = {
+	}
+	pg.base.activity_series_enemy_story[109] = {
 		pos_x = "0.397395833333333",
 		name = "腐水海",
 		label_key = "",
@@ -2433,8 +2608,10 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[110] = {
+	}
+end)()
+;(function()
+	pg.base.activity_series_enemy_story[110] = {
 		pos_x = "0.430208333333333",
 		name = "腐蚀林地",
 		label_key = "",
@@ -2456,8 +2633,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[111] = {
+	}
+	pg.base.activity_series_enemy_story[111] = {
 		pos_x = "0.514583333333333",
 		name = "死亡荒原",
 		label_key = "",
@@ -2479,8 +2656,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[112] = {
+	}
+	pg.base.activity_series_enemy_story[112] = {
 		pos_x = "0.554166666666667",
 		name = "废弃哨站",
 		label_key = "",
@@ -2502,8 +2679,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[113] = {
+	}
+	pg.base.activity_series_enemy_story[113] = {
 		pos_x = "0.6375",
 		name = "大裂谷",
 		label_key = "",
@@ -2525,8 +2702,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[114] = {
+	}
+	pg.base.activity_series_enemy_story[114] = {
 		pos_x = "0.815104166666667",
 		name = "L2区段",
 		label_key = "",
@@ -2548,8 +2725,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[115] = {
+	}
+	pg.base.activity_series_enemy_story[115] = {
 		pos_x = "0.8359375",
 		name = "鬼影群山",
 		label_key = "",
@@ -2571,8 +2748,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[116] = {
+	}
+	pg.base.activity_series_enemy_story[116] = {
 		pos_x = "0.602604166666667",
 		name = "废弃都市",
 		label_key = "",
@@ -2594,8 +2771,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[117] = {
+	}
+	pg.base.activity_series_enemy_story[117] = {
 		pos_x = "0.597395833333333",
 		name = "L3区段",
 		label_key = "",
@@ -2617,8 +2794,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[118] = {
+	}
+	pg.base.activity_series_enemy_story[118] = {
 		pos_x = "0.673958333333333",
 		name = "天际海",
 		label_key = "",
@@ -2640,8 +2817,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[119] = {
+	}
+	pg.base.activity_series_enemy_story[119] = {
 		pos_x = "0.822916666666667",
 		name = "塔尖区段",
 		label_key = "",
@@ -2663,8 +2840,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[120] = {
+	}
+	pg.base.activity_series_enemy_story[120] = {
 		pos_x = "0.819270833333333",
 		name = "核心都市区",
 		label_key = "",
@@ -2686,8 +2863,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[121] = {
+	}
+	pg.base.activity_series_enemy_story[121] = {
 		pos_x = "0.444270833333333",
 		name = "EP1-1 初见即毕业",
 		label_key = "",
@@ -2709,8 +2886,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			121
 		}
-	},
-	[122] = {
+	}
+	pg.base.activity_series_enemy_story[122] = {
 		pos_x = "0.444270833333333",
 		name = "EP1-2 初入奇渊",
 		label_key = "",
@@ -2734,8 +2911,8 @@ pg.activity_series_enemy_story = {
 			121,
 			122
 		}
-	},
-	[123] = {
+	}
+	pg.base.activity_series_enemy_story[123] = {
 		pos_x = "0.444270833333333",
 		name = "EP1-3 再见还是毕业",
 		label_key = "",
@@ -2759,8 +2936,8 @@ pg.activity_series_enemy_story = {
 			122,
 			123
 		}
-	},
-	[124] = {
+	}
+	pg.base.activity_series_enemy_story[124] = {
 		pos_x = "0.444270833333333",
 		name = "EP1-4 再度启程",
 		label_key = "",
@@ -2784,8 +2961,8 @@ pg.activity_series_enemy_story = {
 			123,
 			124
 		}
-	},
-	[125] = {
+	}
+	pg.base.activity_series_enemy_story[125] = {
 		pos_x = "0.388020833333333",
 		name = "EP2-1 冰喉峡谷",
 		label_key = "",
@@ -2809,8 +2986,8 @@ pg.activity_series_enemy_story = {
 			124,
 			125
 		}
-	},
-	[126] = {
+	}
+	pg.base.activity_series_enemy_story[126] = {
 		pos_x = "0.358333333333333",
 		name = "EP2-2 极光之地",
 		label_key = "",
@@ -2834,8 +3011,8 @@ pg.activity_series_enemy_story = {
 			125,
 			126
 		}
-	},
-	[127] = {
+	}
+	pg.base.activity_series_enemy_story[127] = {
 		pos_x = "0.328645833333333",
 		name = "EP2-3 陷阱",
 		label_key = "",
@@ -2859,8 +3036,8 @@ pg.activity_series_enemy_story = {
 			126,
 			127
 		}
-	},
-	[128] = {
+	}
+	pg.base.activity_series_enemy_story[128] = {
 		pos_x = "0.244791666666667",
 		name = "EP2-4 重逢",
 		label_key = "",
@@ -2884,8 +3061,8 @@ pg.activity_series_enemy_story = {
 			127,
 			128
 		}
-	},
-	[129] = {
+	}
+	pg.base.activity_series_enemy_story[129] = {
 		pos_x = "0.3",
 		name = "EP2-5 过去的事",
 		label_key = "",
@@ -2909,8 +3086,8 @@ pg.activity_series_enemy_story = {
 			128,
 			129
 		}
-	},
-	[130] = {
+	}
+	pg.base.activity_series_enemy_story[130] = {
 		pos_x = "0.1796875",
 		name = "EP2-6 古老的馈赠",
 		label_key = "",
@@ -2934,8 +3111,8 @@ pg.activity_series_enemy_story = {
 			129,
 			130
 		}
-	},
-	[131] = {
+	}
+	pg.base.activity_series_enemy_story[131] = {
 		pos_x = "0.23125",
 		name = "EP2-7 寒冬要塞",
 		label_key = "",
@@ -2959,8 +3136,8 @@ pg.activity_series_enemy_story = {
 			130,
 			131
 		}
-	},
-	[132] = {
+	}
+	pg.base.activity_series_enemy_story[132] = {
 		pos_x = "0.502083333333333",
 		name = "EP3-1 秽沼瘴潭之战",
 		label_key = "",
@@ -2984,8 +3161,8 @@ pg.activity_series_enemy_story = {
 			131,
 			132
 		}
-	},
-	[133] = {
+	}
+	pg.base.activity_series_enemy_story[133] = {
 		pos_x = "0.603125",
 		name = "EP3-2 异化法师营地",
 		label_key = "",
@@ -3009,8 +3186,8 @@ pg.activity_series_enemy_story = {
 			132,
 			133
 		}
-	},
-	[134] = {
+	}
+	pg.base.activity_series_enemy_story[134] = {
 		pos_x = "0.6640625",
 		name = "EP3-3 结盟仪式",
 		label_key = "",
@@ -3034,8 +3211,8 @@ pg.activity_series_enemy_story = {
 			133,
 			134
 		}
-	},
-	[135] = {
+	}
+	pg.base.activity_series_enemy_story[135] = {
 		pos_x = "0.6359375",
 		name = "EP3-4 和谈生变",
 		label_key = "",
@@ -3059,8 +3236,8 @@ pg.activity_series_enemy_story = {
 			134,
 			135
 		}
-	},
-	[136] = {
+	}
+	pg.base.activity_series_enemy_story[136] = {
 		pos_x = "0.765625",
 		name = "EP3-5 预言之子",
 		label_key = "",
@@ -3084,8 +3261,8 @@ pg.activity_series_enemy_story = {
 			135,
 			136
 		}
-	},
-	[137] = {
+	}
+	pg.base.activity_series_enemy_story[137] = {
 		pos_x = "0.5453125",
 		name = "EP4-1 遗忘之地",
 		label_key = "",
@@ -3109,8 +3286,8 @@ pg.activity_series_enemy_story = {
 			136,
 			137
 		}
-	},
-	[138] = {
+	}
+	pg.base.activity_series_enemy_story[138] = {
 		pos_x = "0.591145833333333",
 		name = "EP4-2 不落要塞",
 		label_key = "",
@@ -3134,8 +3311,8 @@ pg.activity_series_enemy_story = {
 			137,
 			138
 		}
-	},
-	[139] = {
+	}
+	pg.base.activity_series_enemy_story[139] = {
 		pos_x = "0.5390625",
 		name = "EP4-3 幻影之境",
 		label_key = "",
@@ -3159,8 +3336,8 @@ pg.activity_series_enemy_story = {
 			138,
 			139
 		}
-	},
-	[140] = {
+	}
+	pg.base.activity_series_enemy_story[140] = {
 		pos_x = "0.698958333333333",
 		name = "EP4-4 黎明的终战",
 		label_key = "",
@@ -3184,8 +3361,8 @@ pg.activity_series_enemy_story = {
 			139,
 			140
 		}
-	},
-	[141] = {
+	}
+	pg.base.activity_series_enemy_story[141] = {
 		pos_x = "0.763541666666667",
 		name = "EP4-5 神庙漫步",
 		label_key = "",
@@ -3209,8 +3386,8 @@ pg.activity_series_enemy_story = {
 			140,
 			141
 		}
-	},
-	[142] = {
+	}
+	pg.base.activity_series_enemy_story[142] = {
 		pos_x = "0.853125",
 		name = "EP4-6 回忆觉醒",
 		label_key = "",
@@ -3234,8 +3411,8 @@ pg.activity_series_enemy_story = {
 			141,
 			142
 		}
-	},
-	[143] = {
+	}
+	pg.base.activity_series_enemy_story[143] = {
 		pos_x = "0.455208333333333",
 		name = "EP4-7 寂灭魔法塔",
 		label_key = "",
@@ -3259,8 +3436,8 @@ pg.activity_series_enemy_story = {
 			142,
 			143
 		}
-	},
-	[144] = {
+	}
+	pg.base.activity_series_enemy_story[144] = {
 		pos_x = "0.855729166666667",
 		name = "EP4-8 逝去的时代",
 		label_key = "",
@@ -3284,8 +3461,8 @@ pg.activity_series_enemy_story = {
 			143,
 			144
 		}
-	},
-	[145] = {
+	}
+	pg.base.activity_series_enemy_story[145] = {
 		pos_x = "0.85",
 		name = "EP4-9 沉睡之地",
 		label_key = "",
@@ -3309,8 +3486,8 @@ pg.activity_series_enemy_story = {
 			144,
 			145
 		}
-	},
-	[146] = {
+	}
+	pg.base.activity_series_enemy_story[146] = {
 		pos_x = "0.836458333333333",
 		name = "EP5-1 反攻的第一枪",
 		label_key = "",
@@ -3334,8 +3511,8 @@ pg.activity_series_enemy_story = {
 			145,
 			146
 		}
-	},
-	[147] = {
+	}
+	pg.base.activity_series_enemy_story[147] = {
 		pos_x = "0.446875",
 		name = "EP5-2 恩泽城之战",
 		label_key = "",
@@ -3359,8 +3536,8 @@ pg.activity_series_enemy_story = {
 			146,
 			147
 		}
-	},
-	[148] = {
+	}
+	pg.base.activity_series_enemy_story[148] = {
 		pos_x = "0.446875",
 		name = "EP5-3 终结与新生",
 		label_key = "",
@@ -3384,8 +3561,8 @@ pg.activity_series_enemy_story = {
 			147,
 			148
 		}
-	},
-	[149] = {
+	}
+	pg.base.activity_series_enemy_story[149] = {
 		pos_x = "0.446875",
 		name = "恩泽城",
 		label_key = "",
@@ -3409,8 +3586,8 @@ pg.activity_series_enemy_story = {
 			124,
 			145
 		}
-	},
-	[150] = {
+	}
+	pg.base.activity_series_enemy_story[150] = {
 		pos_x = "0.371354166666667",
 		name = "冰喉峡谷",
 		label_key = "",
@@ -3432,8 +3609,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			131
 		}
-	},
-	[151] = {
+	}
+	pg.base.activity_series_enemy_story[151] = {
 		pos_x = "0.308854166666667",
 		name = "极光之地",
 		label_key = "",
@@ -3455,8 +3632,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			131
 		}
-	},
-	[152] = {
+	}
+	pg.base.activity_series_enemy_story[152] = {
 		pos_x = "0.3015625",
 		name = "永寂冰湖",
 		label_key = "",
@@ -3478,8 +3655,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			131
 		}
-	},
-	[153] = {
+	}
+	pg.base.activity_series_enemy_story[153] = {
 		pos_x = "0.218229166666667",
 		name = "噬光苔原",
 		label_key = "",
@@ -3501,8 +3678,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			131
 		}
-	},
-	[154] = {
+	}
+	pg.base.activity_series_enemy_story[154] = {
 		pos_x = "0.175520833333333",
 		name = "古代遗迹",
 		label_key = "",
@@ -3524,8 +3701,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			131
 		}
-	},
-	[155] = {
+	}
+	pg.base.activity_series_enemy_story[155] = {
 		pos_x = "0.2390625",
 		name = "寒冬要塞",
 		label_key = "",
@@ -3547,8 +3724,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			131
 		}
-	},
-	[156] = {
+	}
+	pg.base.activity_series_enemy_story[156] = {
 		pos_x = "0.522916666666667",
 		name = "秽沼瘴潭",
 		label_key = "",
@@ -3570,8 +3747,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			136
 		}
-	},
-	[157] = {
+	}
+	pg.base.activity_series_enemy_story[157] = {
 		pos_x = "0.613541666666667",
 		name = "异化法师营地",
 		label_key = "",
@@ -3593,8 +3770,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			136
 		}
-	},
-	[158] = {
+	}
+	pg.base.activity_series_enemy_story[158] = {
 		pos_x = "0.6265625",
 		name = "低语林地",
 		label_key = "",
@@ -3616,8 +3793,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			136
 		}
-	},
-	[159] = {
+	}
+	pg.base.activity_series_enemy_story[159] = {
 		pos_x = "0.700520833333333",
 		name = "腐心树",
 		label_key = "",
@@ -3639,8 +3816,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			136
 		}
-	},
-	[160] = {
+	}
+	pg.base.activity_series_enemy_story[160] = {
 		pos_x = "0.7703125",
 		name = "暗夜魔宫",
 		label_key = "",
@@ -3662,8 +3839,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			136
 		}
-	},
-	[161] = {
+	}
+	pg.base.activity_series_enemy_story[161] = {
 		pos_x = "0.697395833333333",
 		name = "遗忘之地",
 		label_key = "",
@@ -3685,8 +3862,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			145
 		}
-	},
-	[162] = {
+	}
+	pg.base.activity_series_enemy_story[162] = {
 		pos_x = "0.586979166666667",
 		name = "破碎之地",
 		label_key = "",
@@ -3708,8 +3885,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			145
 		}
-	},
-	[163] = {
+	}
+	pg.base.activity_series_enemy_story[163] = {
 		pos_x = "0.473958333333333",
 		name = "寂灭魔法塔",
 		label_key = "",
@@ -3731,8 +3908,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			145
 		}
-	},
-	[164] = {
+	}
+	pg.base.activity_series_enemy_story[164] = {
 		pos_x = "0.853125",
 		name = "古战场遗迹",
 		label_key = "",
@@ -3754,8 +3931,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			145
 		}
-	},
-	[165] = {
+	}
+	pg.base.activity_series_enemy_story[165] = {
 		pos_x = "0.841145833333333",
 		name = "静默树庭",
 		label_key = "",
@@ -3777,8 +3954,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			145
 		}
-	},
-	[166] = {
+	}
+	pg.base.activity_series_enemy_story[166] = {
 		pos_x = "0.446875",
 		name = "恩泽城",
 		label_key = "",
@@ -3800,8 +3977,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			148
 		}
-	},
-	[167] = {
+	}
+	pg.base.activity_series_enemy_story[167] = {
 		pos_x = "0.6229167",
 		name = "VR-0",
 		label_key = "",
@@ -3828,8 +4005,8 @@ pg.activity_series_enemy_story = {
 				true
 			}
 		}
-	},
-	[168] = {
+	}
+	pg.base.activity_series_enemy_story[168] = {
 		pos_x = "0.5421875",
 		name = "VR-1",
 		label_key = "",
@@ -3856,8 +4033,8 @@ pg.activity_series_enemy_story = {
 				true
 			}
 		}
-	},
-	[169] = {
+	}
+	pg.base.activity_series_enemy_story[169] = {
 		pos_x = "0.4375",
 		name = "VR-2",
 		label_key = "",
@@ -3884,8 +4061,8 @@ pg.activity_series_enemy_story = {
 				true
 			}
 		}
-	},
-	[170] = {
+	}
+	pg.base.activity_series_enemy_story[170] = {
 		pos_x = "0.28125",
 		name = "VR-3",
 		label_key = "",
@@ -3912,8 +4089,8 @@ pg.activity_series_enemy_story = {
 				true
 			}
 		}
-	},
-	[171] = {
+	}
+	pg.base.activity_series_enemy_story[171] = {
 		pos_x = "0.214583333",
 		name = "VR-4",
 		pos_y = "0.656481481",
@@ -3943,8 +4120,8 @@ pg.activity_series_enemy_story = {
 			flagID = 1,
 			flagIndex = 1
 		}
-	},
-	[172] = {
+	}
+	pg.base.activity_series_enemy_story[172] = {
 		pos_x = "0.30625",
 		name = "VR-5",
 		pos_y = "0.887037037",
@@ -3974,8 +4151,8 @@ pg.activity_series_enemy_story = {
 			flagID = 1,
 			flagIndex = 2
 		}
-	},
-	[173] = {
+	}
+	pg.base.activity_series_enemy_story[173] = {
 		pos_x = "0.558854167",
 		name = "VR-6",
 		pos_y = "0.943518519",
@@ -4005,8 +4182,8 @@ pg.activity_series_enemy_story = {
 			flagID = 1,
 			flagIndex = 3
 		}
-	},
-	[174] = {
+	}
+	pg.base.activity_series_enemy_story[174] = {
 		pos_x = "0.861458333",
 		name = "VR-7",
 		pos_y = "0.905555556",
@@ -4036,8 +4213,8 @@ pg.activity_series_enemy_story = {
 			flagID = 1,
 			flagIndex = 4
 		}
-	},
-	[175] = {
+	}
+	pg.base.activity_series_enemy_story[175] = {
 		pos_x = "0.816145833",
 		name = "VR-8",
 		pos_y = "0.715740741",
@@ -4067,8 +4244,8 @@ pg.activity_series_enemy_story = {
 			flagID = 1,
 			flagIndex = 5
 		}
-	},
-	[176] = {
+	}
+	pg.base.activity_series_enemy_story[176] = {
 		pos_x = "0.828125",
 		name = "VR-9",
 		pos_y = "0.489814815",
@@ -4098,174 +4275,5 @@ pg.activity_series_enemy_story = {
 			flagID = 1,
 			flagIndex = 6
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63,
-		64,
-		65,
-		66,
-		67,
-		68,
-		69,
-		70,
-		71,
-		72,
-		73,
-		74,
-		75,
-		76,
-		77,
-		78,
-		79,
-		80,
-		81,
-		82,
-		83,
-		84,
-		85,
-		86,
-		87,
-		88,
-		89,
-		90,
-		91,
-		92,
-		93,
-		94,
-		95,
-		96,
-		97,
-		98,
-		99,
-		100,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		113,
-		114,
-		115,
-		116,
-		117,
-		118,
-		119,
-		120,
-		121,
-		122,
-		123,
-		124,
-		125,
-		126,
-		127,
-		128,
-		129,
-		130,
-		131,
-		132,
-		133,
-		134,
-		135,
-		136,
-		137,
-		138,
-		139,
-		140,
-		141,
-		142,
-		143,
-		144,
-		145,
-		146,
-		147,
-		148,
-		149,
-		150,
-		151,
-		152,
-		153,
-		154,
-		155,
-		156,
-		157,
-		158,
-		159,
-		160,
-		161,
-		162,
-		163,
-		164,
-		165,
-		166,
-		167,
-		168,
-		169,
-		170,
-		171,
-		172,
-		173,
-		174,
-		175,
-		176
 	}
-}
+end)()

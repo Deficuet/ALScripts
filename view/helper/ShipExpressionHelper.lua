@@ -13,7 +13,7 @@ local function var_0_5(arg_2_0, arg_2_1, arg_2_2, arg_2_3)
 	local var_2_0 = var_0_2[arg_2_0]
 
 	local function var_2_1()
-		local var_3_0 = var_2_0[arg_2_1]
+		local var_3_0 = arg_2_1 and var_2_0[arg_2_1] or nil
 		local var_3_1
 
 		if var_3_0 and var_3_0 ~= "" then
@@ -85,7 +85,7 @@ function var_0_0.GetExpression(arg_6_0, arg_6_1, arg_6_2, arg_6_3)
 		return nil
 	end
 
-	local var_6_1 = var_6_0[arg_6_1]
+	local var_6_1 = arg_6_1 and var_6_0[arg_6_1] or nil
 
 	if arg_6_2 then
 		local var_6_2 = var_0_5(arg_6_0, arg_6_1, arg_6_2, arg_6_3)

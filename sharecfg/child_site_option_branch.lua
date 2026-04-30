@@ -1,6 +1,238 @@
 pg = pg or {}
-pg.child_site_option_branch = {
-	[11031] = {
+pg.child_site_option_branch = rawget(pg, "child_site_option_branch") or setmetatable({
+	__name = "child_site_option_branch"
+}, confNEO)
+pg.child_site_option_branch.all = {
+	11031,
+	110320,
+	110330,
+	11041,
+	11042,
+	11043,
+	11044,
+	11051,
+	11052,
+	11053,
+	11061,
+	11062,
+	11063,
+	11071,
+	11072,
+	11073,
+	11120,
+	111220,
+	111230,
+	11121,
+	11122,
+	11123,
+	11124,
+	11125,
+	11126,
+	11127,
+	11128,
+	11129,
+	11130,
+	12020,
+	121320,
+	121330,
+	12021,
+	12022,
+	12023,
+	12024,
+	12025,
+	12026,
+	12111,
+	12112,
+	12113,
+	121120,
+	121130,
+	121140,
+	121150,
+	121160,
+	121170,
+	12121,
+	121220,
+	121230,
+	12041,
+	120420,
+	120430,
+	12051,
+	12052,
+	12053,
+	12061,
+	12062,
+	12063,
+	12071,
+	12072,
+	12073,
+	13041,
+	130420,
+	130430,
+	13051,
+	13052,
+	13053,
+	13071,
+	13072,
+	13073,
+	13081,
+	13082,
+	13083,
+	13061,
+	13091,
+	13101,
+	13211,
+	13111,
+	13112,
+	13113,
+	13114,
+	13115,
+	13116,
+	13117,
+	13118,
+	13119,
+	13120,
+	131121,
+	131122,
+	131123,
+	131124,
+	131125,
+	131126,
+	131127,
+	131128,
+	131129,
+	131130,
+	14030,
+	140320,
+	140330,
+	14031,
+	14032,
+	14033,
+	14034,
+	14035,
+	14036,
+	14041,
+	14042,
+	14043,
+	14051,
+	14052,
+	14053,
+	14061,
+	14062,
+	14063,
+	14111,
+	14121,
+	14131,
+	14141,
+	14151,
+	14161,
+	14171,
+	14181,
+	14191,
+	14201,
+	141121,
+	141122,
+	141123,
+	141124,
+	141125,
+	141126,
+	141127,
+	141128,
+	141129,
+	141130,
+	15011,
+	15012,
+	15013,
+	15014,
+	15015,
+	15016,
+	15017,
+	15018,
+	15021,
+	15022,
+	15023,
+	15024,
+	15025,
+	15026,
+	15027,
+	15031,
+	15032,
+	15033,
+	15034,
+	15035,
+	15036,
+	15037,
+	16011,
+	16012,
+	16013,
+	160121,
+	160122,
+	160123,
+	160131,
+	160132,
+	160133,
+	16021,
+	160220,
+	160230,
+	16031,
+	16032,
+	16033,
+	16041,
+	16042,
+	16043,
+	16051,
+	16052,
+	16053,
+	16061,
+	16062,
+	16063,
+	16064,
+	16065,
+	16066,
+	17011,
+	170121,
+	170131,
+	17021,
+	170221,
+	170231,
+	17051,
+	170520,
+	170530,
+	17061,
+	17062,
+	17063,
+	17071,
+	17072,
+	17073,
+	17081,
+	17082,
+	17083,
+	17091,
+	17101,
+	17111,
+	17121,
+	17122,
+	17123,
+	17131,
+	17132,
+	17133,
+	17141,
+	17142,
+	17143,
+	17151,
+	17152,
+	17153,
+	17161,
+	17162,
+	17163,
+	17171,
+	17172,
+	17173
+}
+pg.base = pg.base or {}
+pg.base.child_site_option_branch = {}
+
+;(function()
+	pg.base.child_site_option_branch[11031] = {
 		result = 110300,
 		date = "",
 		item = "",
@@ -14,8 +246,8 @@ pg.child_site_option_branch = {
 			1103001,
 			1103002
 		}
-	},
-	[110320] = {
+	}
+	pg.base.child_site_option_branch[110320] = {
 		result = 1103200,
 		date = "",
 		item = "",
@@ -29,8 +261,8 @@ pg.child_site_option_branch = {
 			1103001,
 			1103002
 		}
-	},
-	[110330] = {
+	}
+	pg.base.child_site_option_branch[110330] = {
 		result = 1103300,
 		date = "",
 		item = "",
@@ -44,8 +276,8 @@ pg.child_site_option_branch = {
 			1103001,
 			1103002
 		}
-	},
-	[11041] = {
+	}
+	pg.base.child_site_option_branch[11041] = {
 		result = 110401,
 		date = "",
 		item = "",
@@ -59,8 +291,8 @@ pg.child_site_option_branch = {
 			1104001,
 			1104003
 		}
-	},
-	[11042] = {
+	}
+	pg.base.child_site_option_branch[11042] = {
 		result = 110402,
 		date = "",
 		item = "",
@@ -74,8 +306,8 @@ pg.child_site_option_branch = {
 			1104001,
 			1104003
 		}
-	},
-	[11043] = {
+	}
+	pg.base.child_site_option_branch[11043] = {
 		result = 110403,
 		date = "",
 		item = "",
@@ -89,8 +321,8 @@ pg.child_site_option_branch = {
 			1104001,
 			1104003
 		}
-	},
-	[11044] = {
+	}
+	pg.base.child_site_option_branch[11044] = {
 		result = 110404,
 		date = "",
 		item = "",
@@ -104,8 +336,8 @@ pg.child_site_option_branch = {
 			1104001,
 			1104003
 		}
-	},
-	[11051] = {
+	}
+	pg.base.child_site_option_branch[11051] = {
 		result = 110501,
 		date = "",
 		item = "",
@@ -126,8 +358,8 @@ pg.child_site_option_branch = {
 			1105004,
 			1105005
 		}
-	},
-	[11052] = {
+	}
+	pg.base.child_site_option_branch[11052] = {
 		result = 110502,
 		date = "",
 		item = "",
@@ -148,8 +380,8 @@ pg.child_site_option_branch = {
 			1105004,
 			1105006
 		}
-	},
-	[11053] = {
+	}
+	pg.base.child_site_option_branch[11053] = {
 		result = 110503,
 		date = "",
 		item = "",
@@ -164,8 +396,8 @@ pg.child_site_option_branch = {
 			1105004,
 			1105007
 		}
-	},
-	[11061] = {
+	}
+	pg.base.child_site_option_branch[11061] = {
 		result = 110601,
 		date = "",
 		item = "",
@@ -186,8 +418,8 @@ pg.child_site_option_branch = {
 			1106004,
 			1106005
 		}
-	},
-	[11062] = {
+	}
+	pg.base.child_site_option_branch[11062] = {
 		result = 110602,
 		date = "",
 		item = "",
@@ -208,8 +440,8 @@ pg.child_site_option_branch = {
 			1106004,
 			1106006
 		}
-	},
-	[11063] = {
+	}
+	pg.base.child_site_option_branch[11063] = {
 		result = 110603,
 		date = "",
 		item = "",
@@ -224,8 +456,8 @@ pg.child_site_option_branch = {
 			1106004,
 			1106007
 		}
-	},
-	[11071] = {
+	}
+	pg.base.child_site_option_branch[11071] = {
 		result = 110701,
 		date = "",
 		item = "",
@@ -246,8 +478,8 @@ pg.child_site_option_branch = {
 			1107004,
 			1107005
 		}
-	},
-	[11072] = {
+	}
+	pg.base.child_site_option_branch[11072] = {
 		result = 110702,
 		date = "",
 		item = "",
@@ -268,8 +500,8 @@ pg.child_site_option_branch = {
 			1107004,
 			1107006
 		}
-	},
-	[11073] = {
+	}
+	pg.base.child_site_option_branch[11073] = {
 		result = 110703,
 		date = "",
 		item = "",
@@ -284,8 +516,8 @@ pg.child_site_option_branch = {
 			1107004,
 			1107007
 		}
-	},
-	[11120] = {
+	}
+	pg.base.child_site_option_branch[11120] = {
 		result = 111200,
 		date = "",
 		item = "",
@@ -299,8 +531,8 @@ pg.child_site_option_branch = {
 			1112001,
 			1112002
 		}
-	},
-	[111220] = {
+	}
+	pg.base.child_site_option_branch[111220] = {
 		result = 1112200,
 		date = "",
 		item = "",
@@ -314,8 +546,8 @@ pg.child_site_option_branch = {
 			1112001,
 			1112002
 		}
-	},
-	[111230] = {
+	}
+	pg.base.child_site_option_branch[111230] = {
 		result = 1112300,
 		date = "",
 		item = "",
@@ -329,8 +561,8 @@ pg.child_site_option_branch = {
 			1112001,
 			1112002
 		}
-	},
-	[11121] = {
+	}
+	pg.base.child_site_option_branch[11121] = {
 		result = 111201,
 		date = "",
 		item = "",
@@ -345,8 +577,8 @@ pg.child_site_option_branch = {
 			1112002,
 			1112003
 		}
-	},
-	[11122] = {
+	}
+	pg.base.child_site_option_branch[11122] = {
 		result = 111202,
 		date = "",
 		item = "",
@@ -367,8 +599,8 @@ pg.child_site_option_branch = {
 			1112002,
 			1112004
 		}
-	},
-	[11123] = {
+	}
+	pg.base.child_site_option_branch[11123] = {
 		result = 111203,
 		date = "",
 		item = "",
@@ -389,8 +621,8 @@ pg.child_site_option_branch = {
 			1112002,
 			1112005
 		}
-	},
-	[11124] = {
+	}
+	pg.base.child_site_option_branch[11124] = {
 		result = 111204,
 		date = "",
 		item = "",
@@ -411,8 +643,8 @@ pg.child_site_option_branch = {
 			1112002,
 			1112006
 		}
-	},
-	[11125] = {
+	}
+	pg.base.child_site_option_branch[11125] = {
 		result = 111205,
 		date = "",
 		item = "",
@@ -433,8 +665,8 @@ pg.child_site_option_branch = {
 			1112002,
 			1112007
 		}
-	},
-	[11126] = {
+	}
+	pg.base.child_site_option_branch[11126] = {
 		result = 111206,
 		date = "",
 		item = "",
@@ -455,8 +687,8 @@ pg.child_site_option_branch = {
 			1112002,
 			1112008
 		}
-	},
-	[11127] = {
+	}
+	pg.base.child_site_option_branch[11127] = {
 		result = 111207,
 		date = "",
 		item = "",
@@ -477,8 +709,8 @@ pg.child_site_option_branch = {
 			1112002,
 			1112009
 		}
-	},
-	[11128] = {
+	}
+	pg.base.child_site_option_branch[11128] = {
 		result = 111208,
 		date = "",
 		item = "",
@@ -499,8 +731,8 @@ pg.child_site_option_branch = {
 			1112002,
 			1112010
 		}
-	},
-	[11129] = {
+	}
+	pg.base.child_site_option_branch[11129] = {
 		result = 111209,
 		date = "",
 		item = "",
@@ -521,8 +753,8 @@ pg.child_site_option_branch = {
 			1112002,
 			1112011
 		}
-	},
-	[11130] = {
+	}
+	pg.base.child_site_option_branch[11130] = {
 		result = 111210,
 		date = "",
 		item = "",
@@ -543,8 +775,8 @@ pg.child_site_option_branch = {
 			1112002,
 			1112012
 		}
-	},
-	[12020] = {
+	}
+	pg.base.child_site_option_branch[12020] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -558,8 +790,8 @@ pg.child_site_option_branch = {
 			1202001,
 			1202002
 		}
-	},
-	[121320] = {
+	}
+	pg.base.child_site_option_branch[121320] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -573,8 +805,8 @@ pg.child_site_option_branch = {
 			1202001,
 			1202002
 		}
-	},
-	[121330] = {
+	}
+	pg.base.child_site_option_branch[121330] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -588,8 +820,8 @@ pg.child_site_option_branch = {
 			1202001,
 			1202002
 		}
-	},
-	[12021] = {
+	}
+	pg.base.child_site_option_branch[12021] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -604,8 +836,8 @@ pg.child_site_option_branch = {
 			1202002,
 			1202003
 		}
-	},
-	[12022] = {
+	}
+	pg.base.child_site_option_branch[12022] = {
 		result = 120202,
 		date = "",
 		item = "",
@@ -626,8 +858,8 @@ pg.child_site_option_branch = {
 			1202002,
 			1202004
 		}
-	},
-	[12023] = {
+	}
+	pg.base.child_site_option_branch[12023] = {
 		result = 120203,
 		date = "",
 		item = "",
@@ -648,8 +880,8 @@ pg.child_site_option_branch = {
 			1202002,
 			1202005
 		}
-	},
-	[12024] = {
+	}
+	pg.base.child_site_option_branch[12024] = {
 		result = 120204,
 		date = "",
 		item = "",
@@ -670,8 +902,8 @@ pg.child_site_option_branch = {
 			1202002,
 			1202006
 		}
-	},
-	[12025] = {
+	}
+	pg.base.child_site_option_branch[12025] = {
 		result = 120205,
 		date = "",
 		item = "",
@@ -692,8 +924,8 @@ pg.child_site_option_branch = {
 			1202002,
 			1202007
 		}
-	},
-	[12026] = {
+	}
+	pg.base.child_site_option_branch[12026] = {
 		result = 120206,
 		date = "",
 		item = "",
@@ -714,8 +946,8 @@ pg.child_site_option_branch = {
 			1202002,
 			1202008
 		}
-	},
-	[12111] = {
+	}
+	pg.base.child_site_option_branch[12111] = {
 		date = "",
 		ratio = 3334,
 		item = "",
@@ -729,8 +961,8 @@ pg.child_site_option_branch = {
 			1211001,
 			1211002
 		}
-	},
-	[12112] = {
+	}
+	pg.base.child_site_option_branch[12112] = {
 		date = "",
 		ratio = 3333,
 		item = "",
@@ -744,8 +976,8 @@ pg.child_site_option_branch = {
 			1211001,
 			1211003
 		}
-	},
-	[12113] = {
+	}
+	pg.base.child_site_option_branch[12113] = {
 		date = "",
 		ratio = 3333,
 		item = "",
@@ -759,8 +991,8 @@ pg.child_site_option_branch = {
 			1211001,
 			1211004
 		}
-	},
-	[121120] = {
+	}
+	pg.base.child_site_option_branch[121120] = {
 		date = "",
 		ratio = 3334,
 		item = "",
@@ -774,8 +1006,8 @@ pg.child_site_option_branch = {
 			1211001,
 			1211002
 		}
-	},
-	[121130] = {
+	}
+	pg.base.child_site_option_branch[121130] = {
 		date = "",
 		ratio = 3333,
 		item = "",
@@ -789,8 +1021,8 @@ pg.child_site_option_branch = {
 			1211001,
 			1211003
 		}
-	},
-	[121140] = {
+	}
+	pg.base.child_site_option_branch[121140] = {
 		date = "",
 		ratio = 3333,
 		item = "",
@@ -804,8 +1036,8 @@ pg.child_site_option_branch = {
 			1211001,
 			1211004
 		}
-	},
-	[121150] = {
+	}
+	pg.base.child_site_option_branch[121150] = {
 		date = "",
 		ratio = 3334,
 		item = "",
@@ -819,8 +1051,8 @@ pg.child_site_option_branch = {
 			1211001,
 			1211002
 		}
-	},
-	[121160] = {
+	}
+	pg.base.child_site_option_branch[121160] = {
 		date = "",
 		ratio = 3333,
 		item = "",
@@ -834,8 +1066,8 @@ pg.child_site_option_branch = {
 			1211001,
 			1211003
 		}
-	},
-	[121170] = {
+	}
+	pg.base.child_site_option_branch[121170] = {
 		date = "",
 		ratio = 3333,
 		item = "",
@@ -849,8 +1081,8 @@ pg.child_site_option_branch = {
 			1211001,
 			1211004
 		}
-	},
-	[12121] = {
+	}
+	pg.base.child_site_option_branch[12121] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -864,8 +1096,8 @@ pg.child_site_option_branch = {
 			1212001,
 			1212002
 		}
-	},
-	[121220] = {
+	}
+	pg.base.child_site_option_branch[121220] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -879,8 +1111,8 @@ pg.child_site_option_branch = {
 			1212001,
 			1212002
 		}
-	},
-	[121230] = {
+	}
+	pg.base.child_site_option_branch[121230] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -894,8 +1126,8 @@ pg.child_site_option_branch = {
 			1212001,
 			1212002
 		}
-	},
-	[12041] = {
+	}
+	pg.base.child_site_option_branch[12041] = {
 		result = 120400,
 		date = "",
 		item = "",
@@ -909,8 +1141,8 @@ pg.child_site_option_branch = {
 			1204001,
 			1204002
 		}
-	},
-	[120420] = {
+	}
+	pg.base.child_site_option_branch[120420] = {
 		result = 1204201,
 		date = "",
 		item = "",
@@ -924,8 +1156,8 @@ pg.child_site_option_branch = {
 			1204001,
 			1204002
 		}
-	},
-	[120430] = {
+	}
+	pg.base.child_site_option_branch[120430] = {
 		result = 1204301,
 		date = "",
 		item = "",
@@ -939,8 +1171,8 @@ pg.child_site_option_branch = {
 			1204001,
 			1204002
 		}
-	},
-	[12051] = {
+	}
+	pg.base.child_site_option_branch[12051] = {
 		result = 120501,
 		date = "",
 		item = "",
@@ -961,8 +1193,8 @@ pg.child_site_option_branch = {
 			1205004,
 			1205005
 		}
-	},
-	[12052] = {
+	}
+	pg.base.child_site_option_branch[12052] = {
 		result = 120502,
 		date = "",
 		item = "",
@@ -983,8 +1215,8 @@ pg.child_site_option_branch = {
 			1205004,
 			1205006
 		}
-	},
-	[12053] = {
+	}
+	pg.base.child_site_option_branch[12053] = {
 		result = 120503,
 		date = "",
 		item = "",
@@ -999,8 +1231,8 @@ pg.child_site_option_branch = {
 			1205004,
 			1205007
 		}
-	},
-	[12061] = {
+	}
+	pg.base.child_site_option_branch[12061] = {
 		result = 120601,
 		date = "",
 		item = "",
@@ -1021,8 +1253,8 @@ pg.child_site_option_branch = {
 			1206004,
 			1206005
 		}
-	},
-	[12062] = {
+	}
+	pg.base.child_site_option_branch[12062] = {
 		result = 120602,
 		date = "",
 		item = "",
@@ -1043,8 +1275,8 @@ pg.child_site_option_branch = {
 			1206004,
 			1206006
 		}
-	},
-	[12063] = {
+	}
+	pg.base.child_site_option_branch[12063] = {
 		result = 120603,
 		date = "",
 		item = "",
@@ -1059,8 +1291,8 @@ pg.child_site_option_branch = {
 			1206004,
 			1206007
 		}
-	},
-	[12071] = {
+	}
+	pg.base.child_site_option_branch[12071] = {
 		result = 120701,
 		date = "",
 		item = "",
@@ -1081,8 +1313,8 @@ pg.child_site_option_branch = {
 			1207004,
 			1207005
 		}
-	},
-	[12072] = {
+	}
+	pg.base.child_site_option_branch[12072] = {
 		result = 120702,
 		date = "",
 		item = "",
@@ -1103,8 +1335,8 @@ pg.child_site_option_branch = {
 			1207004,
 			1207006
 		}
-	},
-	[12073] = {
+	}
+	pg.base.child_site_option_branch[12073] = {
 		result = 120703,
 		date = "",
 		item = "",
@@ -1119,8 +1351,8 @@ pg.child_site_option_branch = {
 			1207004,
 			1207007
 		}
-	},
-	[13041] = {
+	}
+	pg.base.child_site_option_branch[13041] = {
 		result = 130400,
 		date = "",
 		item = "",
@@ -1134,8 +1366,8 @@ pg.child_site_option_branch = {
 			1304001,
 			1304002
 		}
-	},
-	[130420] = {
+	}
+	pg.base.child_site_option_branch[130420] = {
 		result = 1304200,
 		date = "",
 		item = "",
@@ -1149,8 +1381,8 @@ pg.child_site_option_branch = {
 			1304001,
 			1304002
 		}
-	},
-	[130430] = {
+	}
+	pg.base.child_site_option_branch[130430] = {
 		result = 1304300,
 		date = "",
 		item = "",
@@ -1164,8 +1396,8 @@ pg.child_site_option_branch = {
 			1304001,
 			1304002
 		}
-	},
-	[13051] = {
+	}
+	pg.base.child_site_option_branch[13051] = {
 		result = 130510,
 		date = "",
 		item = "",
@@ -1186,8 +1418,8 @@ pg.child_site_option_branch = {
 			1305004,
 			1305005
 		}
-	},
-	[13052] = {
+	}
+	pg.base.child_site_option_branch[13052] = {
 		result = 130520,
 		date = "",
 		item = "",
@@ -1208,8 +1440,8 @@ pg.child_site_option_branch = {
 			1305004,
 			1305006
 		}
-	},
-	[13053] = {
+	}
+	pg.base.child_site_option_branch[13053] = {
 		result = 130530,
 		date = "",
 		item = "",
@@ -1224,8 +1456,8 @@ pg.child_site_option_branch = {
 			1305004,
 			1305007
 		}
-	},
-	[13071] = {
+	}
+	pg.base.child_site_option_branch[13071] = {
 		result = 130710,
 		date = "",
 		item = "",
@@ -1246,8 +1478,8 @@ pg.child_site_option_branch = {
 			1305004,
 			1305005
 		}
-	},
-	[13072] = {
+	}
+	pg.base.child_site_option_branch[13072] = {
 		result = 130720,
 		date = "",
 		item = "",
@@ -1268,8 +1500,8 @@ pg.child_site_option_branch = {
 			1305004,
 			1305006
 		}
-	},
-	[13073] = {
+	}
+	pg.base.child_site_option_branch[13073] = {
 		result = 130730,
 		date = "",
 		item = "",
@@ -1284,8 +1516,8 @@ pg.child_site_option_branch = {
 			1305004,
 			1305007
 		}
-	},
-	[13081] = {
+	}
+	pg.base.child_site_option_branch[13081] = {
 		result = 130810,
 		date = "",
 		item = "",
@@ -1306,8 +1538,8 @@ pg.child_site_option_branch = {
 			1305004,
 			1305005
 		}
-	},
-	[13082] = {
+	}
+	pg.base.child_site_option_branch[13082] = {
 		result = 130820,
 		date = "",
 		item = "",
@@ -1328,8 +1560,8 @@ pg.child_site_option_branch = {
 			1305004,
 			1305006
 		}
-	},
-	[13083] = {
+	}
+	pg.base.child_site_option_branch[13083] = {
 		result = 130830,
 		date = "",
 		item = "",
@@ -1344,8 +1576,8 @@ pg.child_site_option_branch = {
 			1305004,
 			1305007
 		}
-	},
-	[13061] = {
+	}
+	pg.base.child_site_option_branch[13061] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1359,8 +1591,8 @@ pg.child_site_option_branch = {
 			1306001,
 			1306002
 		}
-	},
-	[13091] = {
+	}
+	pg.base.child_site_option_branch[13091] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1374,8 +1606,8 @@ pg.child_site_option_branch = {
 			1306001,
 			1306002
 		}
-	},
-	[13101] = {
+	}
+	pg.base.child_site_option_branch[13101] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1389,8 +1621,8 @@ pg.child_site_option_branch = {
 			1306001,
 			1306002
 		}
-	},
-	[13211] = {
+	}
+	pg.base.child_site_option_branch[13211] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1404,8 +1636,8 @@ pg.child_site_option_branch = {
 			1306001,
 			1306002
 		}
-	},
-	[13111] = {
+	}
+	pg.base.child_site_option_branch[13111] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1420,8 +1652,8 @@ pg.child_site_option_branch = {
 			1311002,
 			1311003
 		}
-	},
-	[13112] = {
+	}
+	pg.base.child_site_option_branch[13112] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1436,8 +1668,8 @@ pg.child_site_option_branch = {
 			1312002,
 			1312003
 		}
-	},
-	[13113] = {
+	}
+	pg.base.child_site_option_branch[13113] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1452,8 +1684,8 @@ pg.child_site_option_branch = {
 			1313002,
 			1313003
 		}
-	},
-	[13114] = {
+	}
+	pg.base.child_site_option_branch[13114] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1468,8 +1700,8 @@ pg.child_site_option_branch = {
 			1314002,
 			1314003
 		}
-	},
-	[13115] = {
+	}
+	pg.base.child_site_option_branch[13115] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1484,8 +1716,8 @@ pg.child_site_option_branch = {
 			1315002,
 			1315003
 		}
-	},
-	[13116] = {
+	}
+	pg.base.child_site_option_branch[13116] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1500,8 +1732,8 @@ pg.child_site_option_branch = {
 			1316002,
 			1316003
 		}
-	},
-	[13117] = {
+	}
+	pg.base.child_site_option_branch[13117] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1516,8 +1748,8 @@ pg.child_site_option_branch = {
 			1317002,
 			1317003
 		}
-	},
-	[13118] = {
+	}
+	pg.base.child_site_option_branch[13118] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1532,8 +1764,8 @@ pg.child_site_option_branch = {
 			1318002,
 			1318003
 		}
-	},
-	[13119] = {
+	}
+	pg.base.child_site_option_branch[13119] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1548,8 +1780,8 @@ pg.child_site_option_branch = {
 			1319002,
 			1319003
 		}
-	},
-	[13120] = {
+	}
+	pg.base.child_site_option_branch[13120] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1564,8 +1796,8 @@ pg.child_site_option_branch = {
 			1320002,
 			1320003
 		}
-	},
-	[131121] = {
+	}
+	pg.base.child_site_option_branch[131121] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1580,8 +1812,8 @@ pg.child_site_option_branch = {
 			1311002,
 			1311003
 		}
-	},
-	[131122] = {
+	}
+	pg.base.child_site_option_branch[131122] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1596,8 +1828,8 @@ pg.child_site_option_branch = {
 			1312002,
 			1312003
 		}
-	},
-	[131123] = {
+	}
+	pg.base.child_site_option_branch[131123] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1612,8 +1844,8 @@ pg.child_site_option_branch = {
 			1313002,
 			1313003
 		}
-	},
-	[131124] = {
+	}
+	pg.base.child_site_option_branch[131124] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1628,8 +1860,8 @@ pg.child_site_option_branch = {
 			1314002,
 			1314003
 		}
-	},
-	[131125] = {
+	}
+	pg.base.child_site_option_branch[131125] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1644,8 +1876,8 @@ pg.child_site_option_branch = {
 			1315002,
 			1315003
 		}
-	},
-	[131126] = {
+	}
+	pg.base.child_site_option_branch[131126] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1660,8 +1892,8 @@ pg.child_site_option_branch = {
 			1316002,
 			1316003
 		}
-	},
-	[131127] = {
+	}
+	pg.base.child_site_option_branch[131127] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1676,8 +1908,8 @@ pg.child_site_option_branch = {
 			1317002,
 			1317003
 		}
-	},
-	[131128] = {
+	}
+	pg.base.child_site_option_branch[131128] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1692,8 +1924,8 @@ pg.child_site_option_branch = {
 			1318002,
 			1318003
 		}
-	},
-	[131129] = {
+	}
+	pg.base.child_site_option_branch[131129] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1708,8 +1940,8 @@ pg.child_site_option_branch = {
 			1319002,
 			1319003
 		}
-	},
-	[131130] = {
+	}
+	pg.base.child_site_option_branch[131130] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1724,8 +1956,8 @@ pg.child_site_option_branch = {
 			1320002,
 			1320003
 		}
-	},
-	[14030] = {
+	}
+	pg.base.child_site_option_branch[14030] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1739,8 +1971,8 @@ pg.child_site_option_branch = {
 			1403001,
 			1403002
 		}
-	},
-	[140320] = {
+	}
+	pg.base.child_site_option_branch[140320] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1754,8 +1986,10 @@ pg.child_site_option_branch = {
 			1403001,
 			1403002
 		}
-	},
-	[140330] = {
+	}
+end)()
+;(function()
+	pg.base.child_site_option_branch[140330] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -1769,8 +2003,8 @@ pg.child_site_option_branch = {
 			1403001,
 			1403002
 		}
-	},
-	[14031] = {
+	}
+	pg.base.child_site_option_branch[14031] = {
 		date = "",
 		ratio = 1667,
 		item = "",
@@ -1785,8 +2019,8 @@ pg.child_site_option_branch = {
 			1403002,
 			1403003
 		}
-	},
-	[14032] = {
+	}
+	pg.base.child_site_option_branch[14032] = {
 		date = "",
 		ratio = 1667,
 		item = "",
@@ -1801,8 +2035,8 @@ pg.child_site_option_branch = {
 			1403002,
 			1403004
 		}
-	},
-	[14033] = {
+	}
+	pg.base.child_site_option_branch[14033] = {
 		date = "",
 		ratio = 1667,
 		item = "",
@@ -1817,8 +2051,8 @@ pg.child_site_option_branch = {
 			1403002,
 			1403005
 		}
-	},
-	[14034] = {
+	}
+	pg.base.child_site_option_branch[14034] = {
 		date = "",
 		ratio = 1667,
 		item = "",
@@ -1833,8 +2067,8 @@ pg.child_site_option_branch = {
 			1403002,
 			1403006
 		}
-	},
-	[14035] = {
+	}
+	pg.base.child_site_option_branch[14035] = {
 		date = "",
 		ratio = 1667,
 		item = "",
@@ -1849,8 +2083,8 @@ pg.child_site_option_branch = {
 			1403002,
 			1403007
 		}
-	},
-	[14036] = {
+	}
+	pg.base.child_site_option_branch[14036] = {
 		date = "",
 		ratio = 1667,
 		item = "",
@@ -1865,8 +2099,8 @@ pg.child_site_option_branch = {
 			1403002,
 			1403008
 		}
-	},
-	[14041] = {
+	}
+	pg.base.child_site_option_branch[14041] = {
 		result = 140401,
 		date = "",
 		item = "",
@@ -1887,8 +2121,8 @@ pg.child_site_option_branch = {
 			1404004,
 			1404005
 		}
-	},
-	[14042] = {
+	}
+	pg.base.child_site_option_branch[14042] = {
 		result = 140402,
 		date = "",
 		item = "",
@@ -1909,8 +2143,8 @@ pg.child_site_option_branch = {
 			1404004,
 			1404006
 		}
-	},
-	[14043] = {
+	}
+	pg.base.child_site_option_branch[14043] = {
 		result = 140403,
 		date = "",
 		item = "",
@@ -1925,8 +2159,8 @@ pg.child_site_option_branch = {
 			1404004,
 			1404007
 		}
-	},
-	[14051] = {
+	}
+	pg.base.child_site_option_branch[14051] = {
 		result = 140501,
 		date = "",
 		item = "",
@@ -1947,8 +2181,8 @@ pg.child_site_option_branch = {
 			1405004,
 			1405005
 		}
-	},
-	[14052] = {
+	}
+	pg.base.child_site_option_branch[14052] = {
 		result = 140502,
 		date = "",
 		item = "",
@@ -1969,8 +2203,8 @@ pg.child_site_option_branch = {
 			1405004,
 			1405006
 		}
-	},
-	[14053] = {
+	}
+	pg.base.child_site_option_branch[14053] = {
 		result = 140503,
 		date = "",
 		item = "",
@@ -1985,8 +2219,8 @@ pg.child_site_option_branch = {
 			1405004,
 			1405007
 		}
-	},
-	[14061] = {
+	}
+	pg.base.child_site_option_branch[14061] = {
 		result = 140601,
 		date = "",
 		item = "",
@@ -2007,8 +2241,8 @@ pg.child_site_option_branch = {
 			1406004,
 			1406005
 		}
-	},
-	[14062] = {
+	}
+	pg.base.child_site_option_branch[14062] = {
 		result = 140602,
 		date = "",
 		item = "",
@@ -2029,8 +2263,8 @@ pg.child_site_option_branch = {
 			1406004,
 			1406006
 		}
-	},
-	[14063] = {
+	}
+	pg.base.child_site_option_branch[14063] = {
 		result = 140603,
 		date = "",
 		item = "",
@@ -2045,8 +2279,8 @@ pg.child_site_option_branch = {
 			1406004,
 			1406007
 		}
-	},
-	[14111] = {
+	}
+	pg.base.child_site_option_branch[14111] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -2060,8 +2294,8 @@ pg.child_site_option_branch = {
 			1411001,
 			1411002
 		}
-	},
-	[14121] = {
+	}
+	pg.base.child_site_option_branch[14121] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -2075,8 +2309,8 @@ pg.child_site_option_branch = {
 			1412001,
 			1412002
 		}
-	},
-	[14131] = {
+	}
+	pg.base.child_site_option_branch[14131] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -2090,8 +2324,8 @@ pg.child_site_option_branch = {
 			1413001,
 			1413002
 		}
-	},
-	[14141] = {
+	}
+	pg.base.child_site_option_branch[14141] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -2105,8 +2339,8 @@ pg.child_site_option_branch = {
 			1414001,
 			1414002
 		}
-	},
-	[14151] = {
+	}
+	pg.base.child_site_option_branch[14151] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -2120,8 +2354,8 @@ pg.child_site_option_branch = {
 			1415001,
 			1415002
 		}
-	},
-	[14161] = {
+	}
+	pg.base.child_site_option_branch[14161] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -2135,8 +2369,8 @@ pg.child_site_option_branch = {
 			1416001,
 			1416002
 		}
-	},
-	[14171] = {
+	}
+	pg.base.child_site_option_branch[14171] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -2150,8 +2384,8 @@ pg.child_site_option_branch = {
 			1417001,
 			1417002
 		}
-	},
-	[14181] = {
+	}
+	pg.base.child_site_option_branch[14181] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -2165,8 +2399,8 @@ pg.child_site_option_branch = {
 			1418001,
 			1418002
 		}
-	},
-	[14191] = {
+	}
+	pg.base.child_site_option_branch[14191] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -2180,8 +2414,8 @@ pg.child_site_option_branch = {
 			1419001,
 			1419002
 		}
-	},
-	[14201] = {
+	}
+	pg.base.child_site_option_branch[14201] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -2195,8 +2429,8 @@ pg.child_site_option_branch = {
 			1420001,
 			1420002
 		}
-	},
-	[141121] = {
+	}
+	pg.base.child_site_option_branch[141121] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -2210,8 +2444,8 @@ pg.child_site_option_branch = {
 			1411001,
 			1411002
 		}
-	},
-	[141122] = {
+	}
+	pg.base.child_site_option_branch[141122] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -2225,8 +2459,8 @@ pg.child_site_option_branch = {
 			1412001,
 			1412002
 		}
-	},
-	[141123] = {
+	}
+	pg.base.child_site_option_branch[141123] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -2240,8 +2474,8 @@ pg.child_site_option_branch = {
 			1413001,
 			1413002
 		}
-	},
-	[141124] = {
+	}
+	pg.base.child_site_option_branch[141124] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -2255,8 +2489,8 @@ pg.child_site_option_branch = {
 			1414001,
 			1414002
 		}
-	},
-	[141125] = {
+	}
+	pg.base.child_site_option_branch[141125] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -2270,8 +2504,8 @@ pg.child_site_option_branch = {
 			1415001,
 			1415002
 		}
-	},
-	[141126] = {
+	}
+	pg.base.child_site_option_branch[141126] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -2285,8 +2519,8 @@ pg.child_site_option_branch = {
 			1416001,
 			1416002
 		}
-	},
-	[141127] = {
+	}
+	pg.base.child_site_option_branch[141127] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -2300,8 +2534,8 @@ pg.child_site_option_branch = {
 			1417001,
 			1417002
 		}
-	},
-	[141128] = {
+	}
+	pg.base.child_site_option_branch[141128] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -2315,8 +2549,8 @@ pg.child_site_option_branch = {
 			1418001,
 			1418002
 		}
-	},
-	[141129] = {
+	}
+	pg.base.child_site_option_branch[141129] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -2330,8 +2564,8 @@ pg.child_site_option_branch = {
 			1419001,
 			1419002
 		}
-	},
-	[141130] = {
+	}
+	pg.base.child_site_option_branch[141130] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -2345,8 +2579,8 @@ pg.child_site_option_branch = {
 			1420001,
 			1420002
 		}
-	},
-	[15011] = {
+	}
+	pg.base.child_site_option_branch[15011] = {
 		date = "",
 		ratio = 1250,
 		item = "",
@@ -2361,8 +2595,8 @@ pg.child_site_option_branch = {
 			1501002,
 			1501003
 		}
-	},
-	[15012] = {
+	}
+	pg.base.child_site_option_branch[15012] = {
 		date = "",
 		ratio = 1250,
 		item = "",
@@ -2377,8 +2611,8 @@ pg.child_site_option_branch = {
 			1501002,
 			1501004
 		}
-	},
-	[15013] = {
+	}
+	pg.base.child_site_option_branch[15013] = {
 		date = "",
 		ratio = 1250,
 		item = "",
@@ -2393,8 +2627,8 @@ pg.child_site_option_branch = {
 			1501002,
 			1501005
 		}
-	},
-	[15014] = {
+	}
+	pg.base.child_site_option_branch[15014] = {
 		date = "",
 		ratio = 1250,
 		item = "",
@@ -2409,8 +2643,8 @@ pg.child_site_option_branch = {
 			1501002,
 			1501006
 		}
-	},
-	[15015] = {
+	}
+	pg.base.child_site_option_branch[15015] = {
 		date = "",
 		ratio = 1250,
 		item = "",
@@ -2425,8 +2659,8 @@ pg.child_site_option_branch = {
 			1501002,
 			1501007
 		}
-	},
-	[15016] = {
+	}
+	pg.base.child_site_option_branch[15016] = {
 		date = "",
 		ratio = 1250,
 		item = "",
@@ -2441,8 +2675,8 @@ pg.child_site_option_branch = {
 			1501002,
 			1501008
 		}
-	},
-	[15017] = {
+	}
+	pg.base.child_site_option_branch[15017] = {
 		date = "",
 		ratio = 1250,
 		item = "",
@@ -2457,8 +2691,8 @@ pg.child_site_option_branch = {
 			1501002,
 			1501009
 		}
-	},
-	[15018] = {
+	}
+	pg.base.child_site_option_branch[15018] = {
 		date = "",
 		ratio = 1250,
 		item = "",
@@ -2473,8 +2707,8 @@ pg.child_site_option_branch = {
 			1501002,
 			1501010
 		}
-	},
-	[15021] = {
+	}
+	pg.base.child_site_option_branch[15021] = {
 		date = "",
 		ratio = 1430,
 		item = "",
@@ -2489,8 +2723,8 @@ pg.child_site_option_branch = {
 			1502002,
 			1502003
 		}
-	},
-	[15022] = {
+	}
+	pg.base.child_site_option_branch[15022] = {
 		date = "",
 		ratio = 1430,
 		item = "",
@@ -2505,8 +2739,8 @@ pg.child_site_option_branch = {
 			1502002,
 			1502004
 		}
-	},
-	[15023] = {
+	}
+	pg.base.child_site_option_branch[15023] = {
 		date = "",
 		ratio = 1430,
 		item = "",
@@ -2521,8 +2755,8 @@ pg.child_site_option_branch = {
 			1502002,
 			1502005
 		}
-	},
-	[15024] = {
+	}
+	pg.base.child_site_option_branch[15024] = {
 		date = "",
 		ratio = 1430,
 		item = "",
@@ -2537,8 +2771,8 @@ pg.child_site_option_branch = {
 			1502002,
 			1502006
 		}
-	},
-	[15025] = {
+	}
+	pg.base.child_site_option_branch[15025] = {
 		date = "",
 		ratio = 1430,
 		item = "",
@@ -2553,8 +2787,8 @@ pg.child_site_option_branch = {
 			1502002,
 			1502007
 		}
-	},
-	[15026] = {
+	}
+	pg.base.child_site_option_branch[15026] = {
 		date = "",
 		ratio = 1430,
 		item = "",
@@ -2569,8 +2803,8 @@ pg.child_site_option_branch = {
 			1502002,
 			1502008
 		}
-	},
-	[15027] = {
+	}
+	pg.base.child_site_option_branch[15027] = {
 		date = "",
 		ratio = 1430,
 		item = "",
@@ -2585,8 +2819,8 @@ pg.child_site_option_branch = {
 			1502002,
 			1502009
 		}
-	},
-	[15031] = {
+	}
+	pg.base.child_site_option_branch[15031] = {
 		date = "",
 		ratio = 1430,
 		item = "",
@@ -2601,8 +2835,8 @@ pg.child_site_option_branch = {
 			1503002,
 			1503003
 		}
-	},
-	[15032] = {
+	}
+	pg.base.child_site_option_branch[15032] = {
 		date = "",
 		ratio = 1430,
 		item = "",
@@ -2617,8 +2851,8 @@ pg.child_site_option_branch = {
 			1503002,
 			1503004
 		}
-	},
-	[15033] = {
+	}
+	pg.base.child_site_option_branch[15033] = {
 		date = "",
 		ratio = 1430,
 		item = "",
@@ -2633,8 +2867,8 @@ pg.child_site_option_branch = {
 			1503002,
 			1503005
 		}
-	},
-	[15034] = {
+	}
+	pg.base.child_site_option_branch[15034] = {
 		date = "",
 		ratio = 1430,
 		item = "",
@@ -2649,8 +2883,8 @@ pg.child_site_option_branch = {
 			1503002,
 			1503006
 		}
-	},
-	[15035] = {
+	}
+	pg.base.child_site_option_branch[15035] = {
 		date = "",
 		ratio = 1430,
 		item = "",
@@ -2665,8 +2899,8 @@ pg.child_site_option_branch = {
 			1503002,
 			1503007
 		}
-	},
-	[15036] = {
+	}
+	pg.base.child_site_option_branch[15036] = {
 		date = "",
 		ratio = 1430,
 		item = "",
@@ -2681,8 +2915,8 @@ pg.child_site_option_branch = {
 			1503002,
 			1503008
 		}
-	},
-	[15037] = {
+	}
+	pg.base.child_site_option_branch[15037] = {
 		date = "",
 		ratio = 1430,
 		item = "",
@@ -2697,8 +2931,8 @@ pg.child_site_option_branch = {
 			1503002,
 			1503009
 		}
-	},
-	[16011] = {
+	}
+	pg.base.child_site_option_branch[16011] = {
 		date = "",
 		ratio = 3333,
 		item = "",
@@ -2712,8 +2946,8 @@ pg.child_site_option_branch = {
 			1601001,
 			1601002
 		}
-	},
-	[16012] = {
+	}
+	pg.base.child_site_option_branch[16012] = {
 		date = "",
 		ratio = 3333,
 		item = "",
@@ -2727,8 +2961,8 @@ pg.child_site_option_branch = {
 			1601004,
 			1601005
 		}
-	},
-	[16013] = {
+	}
+	pg.base.child_site_option_branch[16013] = {
 		date = "",
 		ratio = 3334,
 		item = "",
@@ -2742,8 +2976,8 @@ pg.child_site_option_branch = {
 			1601007,
 			1601008
 		}
-	},
-	[160121] = {
+	}
+	pg.base.child_site_option_branch[160121] = {
 		date = "",
 		ratio = 3333,
 		item = "",
@@ -2757,8 +2991,8 @@ pg.child_site_option_branch = {
 			1601001,
 			1601002
 		}
-	},
-	[160122] = {
+	}
+	pg.base.child_site_option_branch[160122] = {
 		date = "",
 		ratio = 3333,
 		item = "",
@@ -2772,8 +3006,8 @@ pg.child_site_option_branch = {
 			1601004,
 			1601005
 		}
-	},
-	[160123] = {
+	}
+	pg.base.child_site_option_branch[160123] = {
 		date = "",
 		ratio = 3334,
 		item = "",
@@ -2787,8 +3021,8 @@ pg.child_site_option_branch = {
 			1601007,
 			1601008
 		}
-	},
-	[160131] = {
+	}
+	pg.base.child_site_option_branch[160131] = {
 		date = "",
 		ratio = 3333,
 		item = "",
@@ -2802,8 +3036,8 @@ pg.child_site_option_branch = {
 			1601001,
 			1601002
 		}
-	},
-	[160132] = {
+	}
+	pg.base.child_site_option_branch[160132] = {
 		date = "",
 		ratio = 3333,
 		item = "",
@@ -2817,8 +3051,8 @@ pg.child_site_option_branch = {
 			1601004,
 			1601005
 		}
-	},
-	[160133] = {
+	}
+	pg.base.child_site_option_branch[160133] = {
 		date = "",
 		ratio = 3334,
 		item = "",
@@ -2832,8 +3066,8 @@ pg.child_site_option_branch = {
 			1601007,
 			1601008
 		}
-	},
-	[16021] = {
+	}
+	pg.base.child_site_option_branch[16021] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -2847,8 +3081,8 @@ pg.child_site_option_branch = {
 			1602001,
 			1602002
 		}
-	},
-	[160220] = {
+	}
+	pg.base.child_site_option_branch[160220] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -2862,8 +3096,8 @@ pg.child_site_option_branch = {
 			1602001,
 			1602002
 		}
-	},
-	[160230] = {
+	}
+	pg.base.child_site_option_branch[160230] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -2877,8 +3111,8 @@ pg.child_site_option_branch = {
 			1602001,
 			1602002
 		}
-	},
-	[16031] = {
+	}
+	pg.base.child_site_option_branch[16031] = {
 		result = 160310,
 		date = "",
 		item = "",
@@ -2899,8 +3133,8 @@ pg.child_site_option_branch = {
 			1603004,
 			1603005
 		}
-	},
-	[16032] = {
+	}
+	pg.base.child_site_option_branch[16032] = {
 		result = 160320,
 		date = "",
 		item = "",
@@ -2921,8 +3155,8 @@ pg.child_site_option_branch = {
 			1603004,
 			1603006
 		}
-	},
-	[16033] = {
+	}
+	pg.base.child_site_option_branch[16033] = {
 		result = 160330,
 		date = "",
 		item = "",
@@ -2937,8 +3171,8 @@ pg.child_site_option_branch = {
 			1603004,
 			1603007
 		}
-	},
-	[16041] = {
+	}
+	pg.base.child_site_option_branch[16041] = {
 		result = 160410,
 		date = "",
 		item = "",
@@ -2959,8 +3193,8 @@ pg.child_site_option_branch = {
 			1604004,
 			1604005
 		}
-	},
-	[16042] = {
+	}
+	pg.base.child_site_option_branch[16042] = {
 		result = 160420,
 		date = "",
 		item = "",
@@ -2981,8 +3215,8 @@ pg.child_site_option_branch = {
 			1604004,
 			1604006
 		}
-	},
-	[16043] = {
+	}
+	pg.base.child_site_option_branch[16043] = {
 		result = 160430,
 		date = "",
 		item = "",
@@ -2997,8 +3231,8 @@ pg.child_site_option_branch = {
 			1604004,
 			1604007
 		}
-	},
-	[16051] = {
+	}
+	pg.base.child_site_option_branch[16051] = {
 		result = 160510,
 		date = "",
 		item = "",
@@ -3019,8 +3253,8 @@ pg.child_site_option_branch = {
 			1605004,
 			1605005
 		}
-	},
-	[16052] = {
+	}
+	pg.base.child_site_option_branch[16052] = {
 		result = 160520,
 		date = "",
 		item = "",
@@ -3041,8 +3275,8 @@ pg.child_site_option_branch = {
 			1605004,
 			1605006
 		}
-	},
-	[16053] = {
+	}
+	pg.base.child_site_option_branch[16053] = {
 		result = 160530,
 		date = "",
 		item = "",
@@ -3057,8 +3291,8 @@ pg.child_site_option_branch = {
 			1605004,
 			1605007
 		}
-	},
-	[16061] = {
+	}
+	pg.base.child_site_option_branch[16061] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -3072,8 +3306,8 @@ pg.child_site_option_branch = {
 			1606001,
 			1606003
 		}
-	},
-	[16062] = {
+	}
+	pg.base.child_site_option_branch[16062] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -3087,8 +3321,8 @@ pg.child_site_option_branch = {
 			1606001,
 			1606004
 		}
-	},
-	[16063] = {
+	}
+	pg.base.child_site_option_branch[16063] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -3102,8 +3336,8 @@ pg.child_site_option_branch = {
 			1606001,
 			1606005
 		}
-	},
-	[16064] = {
+	}
+	pg.base.child_site_option_branch[16064] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -3117,8 +3351,8 @@ pg.child_site_option_branch = {
 			1606001,
 			1606006
 		}
-	},
-	[16065] = {
+	}
+	pg.base.child_site_option_branch[16065] = {
 		date = "",
 		ratio = 1667,
 		item = "",
@@ -3132,8 +3366,8 @@ pg.child_site_option_branch = {
 			1606001,
 			1606007
 		}
-	},
-	[16066] = {
+	}
+	pg.base.child_site_option_branch[16066] = {
 		date = "",
 		ratio = 1667,
 		item = "",
@@ -3147,8 +3381,8 @@ pg.child_site_option_branch = {
 			1606001,
 			1606008
 		}
-	},
-	[17011] = {
+	}
+	pg.base.child_site_option_branch[17011] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -3162,8 +3396,8 @@ pg.child_site_option_branch = {
 			1701001,
 			1701002
 		}
-	},
-	[170121] = {
+	}
+	pg.base.child_site_option_branch[170121] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -3177,8 +3411,8 @@ pg.child_site_option_branch = {
 			1701001,
 			1701002
 		}
-	},
-	[170131] = {
+	}
+	pg.base.child_site_option_branch[170131] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -3192,8 +3426,8 @@ pg.child_site_option_branch = {
 			1701001,
 			1701002
 		}
-	},
-	[17021] = {
+	}
+	pg.base.child_site_option_branch[17021] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -3207,8 +3441,8 @@ pg.child_site_option_branch = {
 			1702001,
 			1702002
 		}
-	},
-	[170221] = {
+	}
+	pg.base.child_site_option_branch[170221] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -3222,8 +3456,8 @@ pg.child_site_option_branch = {
 			1702001,
 			1702002
 		}
-	},
-	[170231] = {
+	}
+	pg.base.child_site_option_branch[170231] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -3237,8 +3471,8 @@ pg.child_site_option_branch = {
 			1702001,
 			1702002
 		}
-	},
-	[17051] = {
+	}
+	pg.base.child_site_option_branch[17051] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -3252,8 +3486,8 @@ pg.child_site_option_branch = {
 			1703001,
 			1703002
 		}
-	},
-	[170520] = {
+	}
+	pg.base.child_site_option_branch[170520] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -3267,8 +3501,8 @@ pg.child_site_option_branch = {
 			1703001,
 			1703002
 		}
-	},
-	[170530] = {
+	}
+	pg.base.child_site_option_branch[170530] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -3282,8 +3516,8 @@ pg.child_site_option_branch = {
 			1703001,
 			1703002
 		}
-	},
-	[17061] = {
+	}
+	pg.base.child_site_option_branch[17061] = {
 		result = 170610,
 		date = "",
 		item = "",
@@ -3304,8 +3538,8 @@ pg.child_site_option_branch = {
 			1706104,
 			1706105
 		}
-	},
-	[17062] = {
+	}
+	pg.base.child_site_option_branch[17062] = {
 		result = 170620,
 		date = "",
 		item = "",
@@ -3326,8 +3560,8 @@ pg.child_site_option_branch = {
 			1706104,
 			1706106
 		}
-	},
-	[17063] = {
+	}
+	pg.base.child_site_option_branch[17063] = {
 		result = 170630,
 		date = "",
 		item = "",
@@ -3342,8 +3576,8 @@ pg.child_site_option_branch = {
 			1706104,
 			1706107
 		}
-	},
-	[17071] = {
+	}
+	pg.base.child_site_option_branch[17071] = {
 		result = 170710,
 		date = "",
 		item = "",
@@ -3364,8 +3598,8 @@ pg.child_site_option_branch = {
 			1707104,
 			1707105
 		}
-	},
-	[17072] = {
+	}
+	pg.base.child_site_option_branch[17072] = {
 		result = 170720,
 		date = "",
 		item = "",
@@ -3386,8 +3620,8 @@ pg.child_site_option_branch = {
 			1707104,
 			1707106
 		}
-	},
-	[17073] = {
+	}
+	pg.base.child_site_option_branch[17073] = {
 		result = 170730,
 		date = "",
 		item = "",
@@ -3402,8 +3636,10 @@ pg.child_site_option_branch = {
 			1707104,
 			1707107
 		}
-	},
-	[17081] = {
+	}
+end)()
+;(function()
+	pg.base.child_site_option_branch[17081] = {
 		result = 170810,
 		date = "",
 		item = "",
@@ -3424,8 +3660,8 @@ pg.child_site_option_branch = {
 			1708104,
 			1708105
 		}
-	},
-	[17082] = {
+	}
+	pg.base.child_site_option_branch[17082] = {
 		result = 170820,
 		date = "",
 		item = "",
@@ -3446,8 +3682,8 @@ pg.child_site_option_branch = {
 			1708104,
 			1708106
 		}
-	},
-	[17083] = {
+	}
+	pg.base.child_site_option_branch[17083] = {
 		result = 170830,
 		date = "",
 		item = "",
@@ -3462,8 +3698,8 @@ pg.child_site_option_branch = {
 			1708104,
 			1708107
 		}
-	},
-	[17091] = {
+	}
+	pg.base.child_site_option_branch[17091] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -3477,8 +3713,8 @@ pg.child_site_option_branch = {
 			1709001,
 			1709003
 		}
-	},
-	[17101] = {
+	}
+	pg.base.child_site_option_branch[17101] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -3492,8 +3728,8 @@ pg.child_site_option_branch = {
 			1710001,
 			1710003
 		}
-	},
-	[17111] = {
+	}
+	pg.base.child_site_option_branch[17111] = {
 		date = "",
 		ratio = 10000,
 		item = "",
@@ -3507,8 +3743,8 @@ pg.child_site_option_branch = {
 			1711001,
 			1711003
 		}
-	},
-	[17121] = {
+	}
+	pg.base.child_site_option_branch[17121] = {
 		result = 171210,
 		date = "",
 		item = "",
@@ -3529,8 +3765,8 @@ pg.child_site_option_branch = {
 			1706104,
 			1706105
 		}
-	},
-	[17122] = {
+	}
+	pg.base.child_site_option_branch[17122] = {
 		result = 171220,
 		date = "",
 		item = "",
@@ -3551,8 +3787,8 @@ pg.child_site_option_branch = {
 			1706104,
 			1706106
 		}
-	},
-	[17123] = {
+	}
+	pg.base.child_site_option_branch[17123] = {
 		result = 171230,
 		date = "",
 		item = "",
@@ -3567,8 +3803,8 @@ pg.child_site_option_branch = {
 			1706104,
 			1706107
 		}
-	},
-	[17131] = {
+	}
+	pg.base.child_site_option_branch[17131] = {
 		result = 171310,
 		date = "",
 		item = "",
@@ -3589,8 +3825,8 @@ pg.child_site_option_branch = {
 			1706104,
 			1706105
 		}
-	},
-	[17132] = {
+	}
+	pg.base.child_site_option_branch[17132] = {
 		result = 171320,
 		date = "",
 		item = "",
@@ -3611,8 +3847,8 @@ pg.child_site_option_branch = {
 			1706104,
 			1706106
 		}
-	},
-	[17133] = {
+	}
+	pg.base.child_site_option_branch[17133] = {
 		result = 171330,
 		date = "",
 		item = "",
@@ -3627,8 +3863,8 @@ pg.child_site_option_branch = {
 			1706104,
 			1706107
 		}
-	},
-	[17141] = {
+	}
+	pg.base.child_site_option_branch[17141] = {
 		result = 171410,
 		date = "",
 		item = "",
@@ -3649,8 +3885,8 @@ pg.child_site_option_branch = {
 			1707104,
 			1707105
 		}
-	},
-	[17142] = {
+	}
+	pg.base.child_site_option_branch[17142] = {
 		result = 171420,
 		date = "",
 		item = "",
@@ -3671,8 +3907,8 @@ pg.child_site_option_branch = {
 			1707104,
 			1707106
 		}
-	},
-	[17143] = {
+	}
+	pg.base.child_site_option_branch[17143] = {
 		result = 171430,
 		date = "",
 		item = "",
@@ -3687,8 +3923,8 @@ pg.child_site_option_branch = {
 			1707104,
 			1707107
 		}
-	},
-	[17151] = {
+	}
+	pg.base.child_site_option_branch[17151] = {
 		result = 171510,
 		date = "",
 		item = "",
@@ -3709,8 +3945,8 @@ pg.child_site_option_branch = {
 			1707104,
 			1707105
 		}
-	},
-	[17152] = {
+	}
+	pg.base.child_site_option_branch[17152] = {
 		result = 171520,
 		date = "",
 		item = "",
@@ -3731,8 +3967,8 @@ pg.child_site_option_branch = {
 			1707104,
 			1707106
 		}
-	},
-	[17153] = {
+	}
+	pg.base.child_site_option_branch[17153] = {
 		result = 171530,
 		date = "",
 		item = "",
@@ -3747,8 +3983,8 @@ pg.child_site_option_branch = {
 			1707104,
 			1707107
 		}
-	},
-	[17161] = {
+	}
+	pg.base.child_site_option_branch[17161] = {
 		result = 171610,
 		date = "",
 		item = "",
@@ -3769,8 +4005,8 @@ pg.child_site_option_branch = {
 			1708104,
 			1708105
 		}
-	},
-	[17162] = {
+	}
+	pg.base.child_site_option_branch[17162] = {
 		result = 171620,
 		date = "",
 		item = "",
@@ -3791,8 +4027,8 @@ pg.child_site_option_branch = {
 			1708104,
 			1708106
 		}
-	},
-	[17163] = {
+	}
+	pg.base.child_site_option_branch[17163] = {
 		result = 171630,
 		date = "",
 		item = "",
@@ -3807,8 +4043,8 @@ pg.child_site_option_branch = {
 			1708104,
 			1708107
 		}
-	},
-	[17171] = {
+	}
+	pg.base.child_site_option_branch[17171] = {
 		result = 171710,
 		date = "",
 		item = "",
@@ -3829,8 +4065,8 @@ pg.child_site_option_branch = {
 			1708104,
 			1708105
 		}
-	},
-	[17172] = {
+	}
+	pg.base.child_site_option_branch[17172] = {
 		result = 171720,
 		date = "",
 		item = "",
@@ -3851,8 +4087,8 @@ pg.child_site_option_branch = {
 			1708104,
 			1708106
 		}
-	},
-	[17173] = {
+	}
+	pg.base.child_site_option_branch[17173] = {
 		result = 171730,
 		date = "",
 		item = "",
@@ -3867,231 +4103,5 @@ pg.child_site_option_branch = {
 			1708104,
 			1708107
 		}
-	},
-	all = {
-		11031,
-		110320,
-		110330,
-		11041,
-		11042,
-		11043,
-		11044,
-		11051,
-		11052,
-		11053,
-		11061,
-		11062,
-		11063,
-		11071,
-		11072,
-		11073,
-		11120,
-		111220,
-		111230,
-		11121,
-		11122,
-		11123,
-		11124,
-		11125,
-		11126,
-		11127,
-		11128,
-		11129,
-		11130,
-		12020,
-		121320,
-		121330,
-		12021,
-		12022,
-		12023,
-		12024,
-		12025,
-		12026,
-		12111,
-		12112,
-		12113,
-		121120,
-		121130,
-		121140,
-		121150,
-		121160,
-		121170,
-		12121,
-		121220,
-		121230,
-		12041,
-		120420,
-		120430,
-		12051,
-		12052,
-		12053,
-		12061,
-		12062,
-		12063,
-		12071,
-		12072,
-		12073,
-		13041,
-		130420,
-		130430,
-		13051,
-		13052,
-		13053,
-		13071,
-		13072,
-		13073,
-		13081,
-		13082,
-		13083,
-		13061,
-		13091,
-		13101,
-		13211,
-		13111,
-		13112,
-		13113,
-		13114,
-		13115,
-		13116,
-		13117,
-		13118,
-		13119,
-		13120,
-		131121,
-		131122,
-		131123,
-		131124,
-		131125,
-		131126,
-		131127,
-		131128,
-		131129,
-		131130,
-		14030,
-		140320,
-		140330,
-		14031,
-		14032,
-		14033,
-		14034,
-		14035,
-		14036,
-		14041,
-		14042,
-		14043,
-		14051,
-		14052,
-		14053,
-		14061,
-		14062,
-		14063,
-		14111,
-		14121,
-		14131,
-		14141,
-		14151,
-		14161,
-		14171,
-		14181,
-		14191,
-		14201,
-		141121,
-		141122,
-		141123,
-		141124,
-		141125,
-		141126,
-		141127,
-		141128,
-		141129,
-		141130,
-		15011,
-		15012,
-		15013,
-		15014,
-		15015,
-		15016,
-		15017,
-		15018,
-		15021,
-		15022,
-		15023,
-		15024,
-		15025,
-		15026,
-		15027,
-		15031,
-		15032,
-		15033,
-		15034,
-		15035,
-		15036,
-		15037,
-		16011,
-		16012,
-		16013,
-		160121,
-		160122,
-		160123,
-		160131,
-		160132,
-		160133,
-		16021,
-		160220,
-		160230,
-		16031,
-		16032,
-		16033,
-		16041,
-		16042,
-		16043,
-		16051,
-		16052,
-		16053,
-		16061,
-		16062,
-		16063,
-		16064,
-		16065,
-		16066,
-		17011,
-		170121,
-		170131,
-		17021,
-		170221,
-		170231,
-		17051,
-		170520,
-		170530,
-		17061,
-		17062,
-		17063,
-		17071,
-		17072,
-		17073,
-		17081,
-		17082,
-		17083,
-		17091,
-		17101,
-		17111,
-		17121,
-		17122,
-		17123,
-		17131,
-		17132,
-		17133,
-		17141,
-		17142,
-		17143,
-		17151,
-		17152,
-		17153,
-		17161,
-		17162,
-		17163,
-		17171,
-		17172,
-		17173
 	}
-}
+end)()

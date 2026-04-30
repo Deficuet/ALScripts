@@ -1,6 +1,48 @@
 pg = pg or {}
-pg.commander_data_template = {
-	[10011] = {
+pg.commander_data_template = rawget(pg, "commander_data_template") or setmetatable({
+	__name = "commander_data_template"
+}, confNEO)
+pg.commander_data_template.all = {
+	10011,
+	10021,
+	11011,
+	11021,
+	12011,
+	12021,
+	20011,
+	20021,
+	21011,
+	21021,
+	21031,
+	21041,
+	22011,
+	22021,
+	30011,
+	30021,
+	31011,
+	31021,
+	32011,
+	32021,
+	40011,
+	40021,
+	41011,
+	41021,
+	41031,
+	42011,
+	42021,
+	960011,
+	960021,
+	960031,
+	960041,
+	960051,
+	960061,
+	960071
+}
+pg.base = pg.base or {}
+pg.base.commander_data_template = {}
+
+;(function()
+	pg.base.commander_data_template[10011] = {
 		exp = 500,
 		name = "伯克喵",
 		ability_refresh_type = 0,
@@ -18,8 +60,8 @@ pg.commander_data_template = {
 		skill_id = 10011,
 		command_value = 52,
 		ability_show = {}
-	},
-	[10021] = {
+	}
+	pg.base.commander_data_template[10021] = {
 		exp = 500,
 		name = "奥古喵",
 		ability_refresh_type = 0,
@@ -37,8 +79,8 @@ pg.commander_data_template = {
 		skill_id = 10021,
 		command_value = 64,
 		ability_show = {}
-	},
-	[11011] = {
+	}
+	pg.base.commander_data_template[11011] = {
 		exp = 300,
 		name = "汉克喵",
 		ability_refresh_type = 0,
@@ -56,8 +98,8 @@ pg.commander_data_template = {
 		skill_id = 11011,
 		command_value = 55,
 		ability_show = {}
-	},
-	[11021] = {
+	}
+	pg.base.commander_data_template[11021] = {
 		exp = 300,
 		name = "莫里喵",
 		ability_refresh_type = 0,
@@ -75,8 +117,8 @@ pg.commander_data_template = {
 		skill_id = 11021,
 		command_value = 52,
 		ability_show = {}
-	},
-	[12011] = {
+	}
+	pg.base.commander_data_template[12011] = {
 		exp = 200,
 		name = "谢尔喵",
 		ability_refresh_type = 0,
@@ -94,8 +136,8 @@ pg.commander_data_template = {
 		skill_id = 12011,
 		command_value = 40,
 		ability_show = {}
-	},
-	[12021] = {
+	}
+	pg.base.commander_data_template[12021] = {
 		exp = 200,
 		name = "查理喵",
 		ability_refresh_type = 0,
@@ -113,8 +155,8 @@ pg.commander_data_template = {
 		skill_id = 12021,
 		command_value = 51,
 		ability_show = {}
-	},
-	[20011] = {
+	}
+	pg.base.commander_data_template[20011] = {
 		exp = 500,
 		name = "约翰喵",
 		ability_refresh_type = 0,
@@ -132,8 +174,8 @@ pg.commander_data_template = {
 		skill_id = 20011,
 		command_value = 52,
 		ability_show = {}
-	},
-	[20021] = {
+	}
+	pg.base.commander_data_template[20021] = {
 		exp = 500,
 		name = "庞德喵",
 		ability_refresh_type = 0,
@@ -151,8 +193,8 @@ pg.commander_data_template = {
 		skill_id = 20021,
 		command_value = 59,
 		ability_show = {}
-	},
-	[21011] = {
+	}
+	pg.base.commander_data_template[21011] = {
 		exp = 300,
 		name = "威廉喵",
 		ability_refresh_type = 0,
@@ -170,8 +212,8 @@ pg.commander_data_template = {
 		skill_id = 21011,
 		command_value = 50,
 		ability_show = {}
-	},
-	[21021] = {
+	}
+	pg.base.commander_data_template[21021] = {
 		exp = 300,
 		name = "鲁普喵",
 		ability_refresh_type = 0,
@@ -189,8 +231,8 @@ pg.commander_data_template = {
 		skill_id = 21021,
 		command_value = 55,
 		ability_show = {}
-	},
-	[21031] = {
+	}
+	pg.base.commander_data_template[21031] = {
 		exp = 300,
 		name = "莫德喵",
 		ability_refresh_type = 0,
@@ -208,8 +250,8 @@ pg.commander_data_template = {
 		skill_id = 21031,
 		command_value = 64,
 		ability_show = {}
-	},
-	[21041] = {
+	}
+	pg.base.commander_data_template[21041] = {
 		exp = 300,
 		name = "帕特喵",
 		ability_refresh_type = 0,
@@ -227,8 +269,8 @@ pg.commander_data_template = {
 		skill_id = 21041,
 		command_value = 48,
 		ability_show = {}
-	},
-	[22011] = {
+	}
+	pg.base.commander_data_template[22011] = {
 		exp = 200,
 		name = "乔治喵",
 		ability_refresh_type = 0,
@@ -246,8 +288,8 @@ pg.commander_data_template = {
 		skill_id = 22011,
 		command_value = 29,
 		ability_show = {}
-	},
-	[22021] = {
+	}
+	pg.base.commander_data_template[22021] = {
 		exp = 200,
 		name = "贝尔喵",
 		ability_refresh_type = 0,
@@ -265,8 +307,8 @@ pg.commander_data_template = {
 		skill_id = 22021,
 		command_value = 38,
 		ability_show = {}
-	},
-	[30011] = {
+	}
+	pg.base.commander_data_template[30011] = {
 		exp = 500,
 		name = "毗沙丸",
 		ability_refresh_type = 0,
@@ -284,8 +326,8 @@ pg.commander_data_template = {
 		skill_id = 30011,
 		command_value = 49,
 		ability_show = {}
-	},
-	[30021] = {
+	}
+	pg.base.commander_data_template[30021] = {
 		exp = 500,
 		name = "小竹丸",
 		ability_refresh_type = 0,
@@ -303,8 +345,8 @@ pg.commander_data_template = {
 		skill_id = 30021,
 		command_value = 62,
 		ability_show = {}
-	},
-	[31011] = {
+	}
+	pg.base.commander_data_template[31011] = {
 		exp = 300,
 		name = "次郎丸",
 		ability_refresh_type = 0,
@@ -322,8 +364,8 @@ pg.commander_data_template = {
 		skill_id = 31011,
 		command_value = 61,
 		ability_show = {}
-	},
-	[31021] = {
+	}
+	pg.base.commander_data_template[31021] = {
 		exp = 300,
 		name = "小吉丸",
 		ability_refresh_type = 0,
@@ -341,8 +383,8 @@ pg.commander_data_template = {
 		skill_id = 31021,
 		command_value = 62,
 		ability_show = {}
-	},
-	[32011] = {
+	}
+	pg.base.commander_data_template[32011] = {
 		exp = 200,
 		name = "朝丸",
 		ability_refresh_type = 0,
@@ -360,8 +402,8 @@ pg.commander_data_template = {
 		skill_id = 32011,
 		command_value = 48,
 		ability_show = {}
-	},
-	[32021] = {
+	}
+	pg.base.commander_data_template[32021] = {
 		exp = 200,
 		name = "小胜丸",
 		ability_refresh_type = 0,
@@ -379,8 +421,8 @@ pg.commander_data_template = {
 		skill_id = 32021,
 		command_value = 47,
 		ability_show = {}
-	},
-	[40011] = {
+	}
+	pg.base.commander_data_template[40011] = {
 		exp = 500,
 		name = "克雷喵",
 		ability_refresh_type = 0,
@@ -398,8 +440,8 @@ pg.commander_data_template = {
 		skill_id = 40011,
 		command_value = 66,
 		ability_show = {}
-	},
-	[40021] = {
+	}
+	pg.base.commander_data_template[40021] = {
 		exp = 500,
 		name = "林德喵",
 		ability_refresh_type = 0,
@@ -417,8 +459,8 @@ pg.commander_data_template = {
 		skill_id = 40021,
 		command_value = 66,
 		ability_show = {}
-	},
-	[41011] = {
+	}
+	pg.base.commander_data_template[41011] = {
 		exp = 300,
 		name = "弗里喵",
 		ability_refresh_type = 0,
@@ -436,8 +478,8 @@ pg.commander_data_template = {
 		skill_id = 41011,
 		command_value = 56,
 		ability_show = {}
-	},
-	[41021] = {
+	}
+	pg.base.commander_data_template[41021] = {
 		exp = 300,
 		name = "莫赫喵",
 		ability_refresh_type = 0,
@@ -455,8 +497,8 @@ pg.commander_data_template = {
 		skill_id = 41021,
 		command_value = 59,
 		ability_show = {}
-	},
-	[41031] = {
+	}
+	pg.base.commander_data_template[41031] = {
 		exp = 300,
 		name = "赫尔喵",
 		ability_refresh_type = 0,
@@ -474,8 +516,8 @@ pg.commander_data_template = {
 		skill_id = 41031,
 		command_value = 51,
 		ability_show = {}
-	},
-	[42011] = {
+	}
+	pg.base.commander_data_template[42011] = {
 		exp = 200,
 		name = "海耶喵",
 		ability_refresh_type = 0,
@@ -493,8 +535,8 @@ pg.commander_data_template = {
 		skill_id = 42011,
 		command_value = 46,
 		ability_show = {}
-	},
-	[42021] = {
+	}
+	pg.base.commander_data_template[42021] = {
 		exp = 200,
 		name = "埃里喵",
 		ability_refresh_type = 0,
@@ -512,8 +554,8 @@ pg.commander_data_template = {
 		skill_id = 42021,
 		command_value = 41,
 		ability_show = {}
-	},
-	[960011] = {
+	}
+	pg.base.commander_data_template[960011] = {
 		exp = 500,
 		name = "德雷喵",
 		ability_refresh_type = 1,
@@ -540,8 +582,8 @@ pg.commander_data_template = {
 			132,
 			5131
 		}
-	},
-	[960021] = {
+	}
+	pg.base.commander_data_template[960021] = {
 		exp = 500,
 		name = "基德喵",
 		ability_refresh_type = 1,
@@ -568,8 +610,8 @@ pg.commander_data_template = {
 			142,
 			5131
 		}
-	},
-	[960031] = {
+	}
+	pg.base.commander_data_template[960031] = {
 		exp = 300,
 		name = "贝拉喵",
 		ability_refresh_type = 1,
@@ -596,8 +638,8 @@ pg.commander_data_template = {
 			142,
 			5121
 		}
-	},
-	[960041] = {
+	}
+	pg.base.commander_data_template[960041] = {
 		exp = 500,
 		name = "埃弗喵",
 		ability_refresh_type = 1,
@@ -624,8 +666,8 @@ pg.commander_data_template = {
 			152,
 			5131
 		}
-	},
-	[960051] = {
+	}
+	pg.base.commander_data_template[960051] = {
 		exp = 300,
 		name = "罗伯喵",
 		ability_refresh_type = 1,
@@ -652,8 +694,8 @@ pg.commander_data_template = {
 			142,
 			5131
 		}
-	},
-	[960061] = {
+	}
+	pg.base.commander_data_template[960061] = {
 		exp = 500,
 		name = "蒂奇喵",
 		ability_refresh_type = 1,
@@ -680,8 +722,8 @@ pg.commander_data_template = {
 			322,
 			5131
 		}
-	},
-	[960071] = {
+	}
+	pg.base.commander_data_template[960071] = {
 		exp = 300,
 		name = "邦尼喵",
 		ability_refresh_type = 1,
@@ -708,41 +750,5 @@ pg.commander_data_template = {
 			142,
 			5121
 		}
-	},
-	all = {
-		10011,
-		10021,
-		11011,
-		11021,
-		12011,
-		12021,
-		20011,
-		20021,
-		21011,
-		21021,
-		21031,
-		21041,
-		22011,
-		22021,
-		30011,
-		30021,
-		31011,
-		31021,
-		32011,
-		32021,
-		40011,
-		40021,
-		41011,
-		41021,
-		41031,
-		42011,
-		42021,
-		960011,
-		960021,
-		960031,
-		960041,
-		960051,
-		960061,
-		960071
 	}
-}
+end)()

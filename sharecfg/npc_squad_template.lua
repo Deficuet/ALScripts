@@ -1,6 +1,21 @@
 pg = pg or {}
-pg.npc_squad_template = {
-	{
+pg.npc_squad_template = rawget(pg, "npc_squad_template") or setmetatable({
+	__name = "npc_squad_template"
+}, confNEO)
+pg.npc_squad_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7
+}
+pg.base = pg.base or {}
+pg.base.npc_squad_template = {}
+
+;(function()
+	pg.base.npc_squad_template[1] = {
 		id = 1,
 		task_id = 10048,
 		type = 2,
@@ -11,8 +26,8 @@ pg.npc_squad_template = {
 			}
 		},
 		main_list = {}
-	},
-	{
+	}
+	pg.base.npc_squad_template[2] = {
 		id = 2,
 		task_id = 10049,
 		type = 2,
@@ -23,8 +38,8 @@ pg.npc_squad_template = {
 			}
 		},
 		main_list = {}
-	},
-	{
+	}
+	pg.base.npc_squad_template[3] = {
 		id = 3,
 		task_id = 10050,
 		type = 2,
@@ -35,8 +50,8 @@ pg.npc_squad_template = {
 			}
 		},
 		main_list = {}
-	},
-	{
+	}
+	pg.base.npc_squad_template[4] = {
 		id = 4,
 		task_id = 0,
 		type = 1,
@@ -56,8 +71,8 @@ pg.npc_squad_template = {
 				104
 			}
 		}
-	},
-	{
+	}
+	pg.base.npc_squad_template[5] = {
 		id = 5,
 		task_id = 0,
 		type = 1,
@@ -77,8 +92,8 @@ pg.npc_squad_template = {
 				104
 			}
 		}
-	},
-	{
+	}
+	pg.base.npc_squad_template[6] = {
 		id = 6,
 		task_id = 0,
 		type = 1,
@@ -102,8 +117,8 @@ pg.npc_squad_template = {
 				104
 			}
 		}
-	},
-	{
+	}
+	pg.base.npc_squad_template[7] = {
 		id = 7,
 		task_id = 0,
 		type = 1,
@@ -127,14 +142,5 @@ pg.npc_squad_template = {
 				104
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7
 	}
-}
+end)()

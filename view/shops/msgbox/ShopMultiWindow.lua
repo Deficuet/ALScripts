@@ -57,32 +57,33 @@ function var_0_0.InitWindow(arg_7_0, arg_7_1, arg_7_2)
 
 		if var_7_1 and var_7_2 then
 			local var_7_4 = getProxy(ActivityProxy):getActivityById(Item.getConfigData(var_7_0.id).link_id)
+			local var_7_5 = var_7_4:IsMaintenanceFinish() and "eventshop_time_hint" or "eventshop_time_hint2"
 
-			setText(arg_7_0.timeLimitTF:Find("Text"), i18n("eventshop_time_hint", pg.TimeMgr.GetInstance():STimeDescC(var_7_4.stopTime, "%m.%d")))
+			setText(arg_7_0.timeLimitTF:Find("Text"), i18n(var_7_5, pg.TimeMgr.GetInstance():STimeDescS(var_7_4.stopTime, "%m.%d")))
 		end
 	end
 
-	local var_7_5 = Drop.New({
+	local var_7_6 = Drop.New({
 		type = arg_7_1:getConfig("resource_category"),
 		id = arg_7_1:getConfig("resource_type")
 	}):getOwnedCount()
-	local var_7_6 = math.max(math.floor(var_7_5 / arg_7_1:getConfig("resource_num")), 1)
+	local var_7_7 = math.max(math.floor(var_7_6 / arg_7_1:getConfig("resource_num")), 1)
 
 	if arg_7_1:getConfig("num_limit") ~= 0 or isa(arg_7_1, QuotaCommodity) then
-		local var_7_7 = arg_7_1:GetPurchasableCnt()
+		local var_7_8 = arg_7_1:GetPurchasableCnt()
 
-		var_7_6 = math.min(var_7_6, math.max(0, var_7_7))
+		var_7_7 = math.min(var_7_7, math.max(0, var_7_8))
 	end
 
-	local function var_7_8(arg_8_0)
+	local function var_7_9(arg_8_0)
 		arg_8_0 = math.max(arg_8_0, 1)
-		arg_8_0 = math.min(arg_8_0, var_7_6)
+		arg_8_0 = math.min(arg_8_0, var_7_7)
 		arg_7_0.countTF.text = arg_8_0
 		arg_7_0.curCount = arg_8_0
 		arg_7_0.itemCountTF.text = arg_8_0 * arg_7_1:getConfig("num")
 	end
 
-	var_7_8(1)
+	var_7_9(1)
 	updateDrop(arg_7_0.topItem:Find("left/IconTpl"), var_7_0)
 	UpdateOwnDisplay(arg_7_0.ownerTF, var_7_0)
 	RegisterDetailButton(arg_7_0, arg_7_0.detailTF, var_7_0)
@@ -99,13 +100,13 @@ function var_0_0.InitWindow(arg_7_0, arg_7_1, arg_7_2)
 		arg_7_0:Close()
 	end, SFX_PANEL)
 	onButton(arg_7_0, arg_7_0.leftBtn, function()
-		var_7_8(arg_7_0.curCount - 1)
+		var_7_9(arg_7_0.curCount - 1)
 	end)
 	onButton(arg_7_0, arg_7_0.rightBtn, function()
-		var_7_8(arg_7_0.curCount + 1)
+		var_7_9(arg_7_0.curCount + 1)
 	end)
 	onButton(arg_7_0, arg_7_0.maxBtn, function()
-		var_7_8(var_7_6)
+		var_7_9(var_7_7)
 	end)
 end
 

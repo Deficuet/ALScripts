@@ -1,6 +1,50 @@
 pg = pg or {}
-pg.activity_event_avatarframe = {
-	{
+pg.activity_event_avatarframe = rawget(pg, "activity_event_avatarframe") or setmetatable({
+	__name = "activity_event_avatarframe"
+}, confNEO)
+pg.activity_event_avatarframe.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36
+}
+pg.base = pg.base or {}
+pg.base.activity_event_avatarframe = {}
+
+;(function()
+	pg.base.activity_event_avatarframe[1] = {
 		id = 1,
 		pt_id = 59326,
 		icon_frame = 311,
@@ -115,8 +159,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[2] = {
 		id = 2,
 		pt_id = 59330,
 		icon_frame = 321,
@@ -225,8 +269,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[3] = {
 		id = 3,
 		pt_id = 59344,
 		icon_frame = 322,
@@ -329,8 +373,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[4] = {
 		id = 4,
 		pt_id = 59356,
 		icon_frame = 312,
@@ -439,8 +483,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[5] = {
 		id = 5,
 		pt_id = 59366,
 		icon_frame = 323,
@@ -543,8 +587,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[6] = {
 		id = 6,
 		pt_id = 59376,
 		icon_frame = 313,
@@ -653,8 +697,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[7] = {
 		id = 7,
 		pt_id = 59394,
 		icon_frame = 324,
@@ -757,8 +801,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[8] = {
 		id = 8,
 		pt_id = 59397,
 		icon_frame = 314,
@@ -873,8 +917,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[9] = {
 		id = 9,
 		pt_id = 59413,
 		icon_frame = 325,
@@ -977,8 +1021,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[10] = {
 		id = 10,
 		pt_id = 59462,
 		icon_frame = 315,
@@ -1087,8 +1131,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[11] = {
 		id = 11,
 		pt_id = 59471,
 		icon_frame = 326,
@@ -1197,8 +1241,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[12] = {
 		id = 12,
 		pt_id = 59484,
 		icon_frame = 327,
@@ -1301,8 +1345,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[13] = {
 		id = 13,
 		pt_id = 59499,
 		icon_frame = 316,
@@ -1411,8 +1455,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[14] = {
 		id = 14,
 		pt_id = 59514,
 		icon_frame = 328,
@@ -1515,8 +1559,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[15] = {
 		id = 15,
 		pt_id = 59520,
 		icon_frame = 317,
@@ -1619,8 +1663,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[16] = {
 		id = 16,
 		pt_id = 59530,
 		icon_frame = 329,
@@ -1723,8 +1767,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[17] = {
 		id = 17,
 		pt_id = 59544,
 		icon_frame = 318,
@@ -1827,8 +1871,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[18] = {
 		id = 18,
 		pt_id = 59577,
 		icon_frame = 330,
@@ -1942,8 +1986,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[19] = {
 		id = 19,
 		pt_id = 59588,
 		icon_frame = 319,
@@ -2052,8 +2096,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[20] = {
 		id = 20,
 		pt_id = 59595,
 		icon_frame = 320,
@@ -2156,8 +2200,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[21] = {
 		id = 21,
 		pt_id = 65004,
 		icon_frame = 331,
@@ -2282,8 +2326,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[22] = {
 		id = 22,
 		pt_id = 65016,
 		icon_frame = 332,
@@ -2397,8 +2441,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[23] = {
 		id = 23,
 		pt_id = 65032,
 		icon_frame = 321,
@@ -2507,8 +2551,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[24] = {
 		id = 24,
 		pt_id = 65042,
 		icon_frame = 322,
@@ -2611,8 +2655,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[25] = {
 		id = 25,
 		pt_id = 65061,
 		icon_frame = 333,
@@ -2737,8 +2781,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[26] = {
 		id = 26,
 		pt_id = 65069,
 		icon_frame = 323,
@@ -2841,8 +2885,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[27] = {
 		id = 27,
 		pt_id = 65079,
 		icon_frame = 334,
@@ -2956,8 +3000,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[28] = {
 		id = 28,
 		pt_id = 65085,
 		icon_frame = 324,
@@ -3060,8 +3104,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[29] = {
 		id = 29,
 		pt_id = 65095,
 		icon_frame = 335,
@@ -3164,8 +3208,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[30] = {
 		id = 30,
 		pt_id = 65623,
 		icon_frame = 325,
@@ -3268,8 +3312,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[31] = {
 		id = 31,
 		pt_id = 65680,
 		icon_frame = 336,
@@ -3383,8 +3427,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[32] = {
 		id = 32,
 		pt_id = 65712,
 		icon_frame = 326,
@@ -3493,8 +3537,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[33] = {
 		id = 33,
 		pt_id = 65734,
 		icon_frame = 327,
@@ -3597,8 +3641,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[34] = {
 		id = 34,
 		pt_id = 65761,
 		icon_frame = 337,
@@ -3712,8 +3756,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[35] = {
 		id = 35,
 		pt_id = 65799,
 		icon_frame = 328,
@@ -3816,8 +3860,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[36] = {
 		id = 36,
 		pt_id = 65873,
 		icon_frame = 329,
@@ -3920,43 +3964,5 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36
 	}
-}
+end)()

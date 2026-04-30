@@ -1,6 +1,59 @@
 pg = pg or {}
-pg.re_map_template = {
-	{
+pg.re_map_template = rawget(pg, "re_map_template") or setmetatable({
+	__name = "re_map_template"
+}, confNEO)
+pg.re_map_template.all = {
+	1,
+	2,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46
+}
+pg.base = pg.base or {}
+pg.base.re_map_template = {}
+
+;(function()
+	pg.base.re_map_template[1] = {
 		memory_group = 108,
 		name = "红染常驻复刻",
 		activity_type = 1,
@@ -69,8 +122,8 @@ pg.re_map_template = {
 				"D3"
 			}
 		}
-	},
-	{
+	}
+	pg.base.re_map_template[2] = {
 		memory_group = 101,
 		name = "Z舰队常驻复刻",
 		activity_type = 2,
@@ -112,8 +165,8 @@ pg.re_map_template = {
 				"SP3"
 			}
 		}
-	},
-	[4] = {
+	}
+	pg.base.re_map_template[4] = {
 		memory_group = 123,
 		name = "凛冬常驻复刻",
 		activity_type = 1,
@@ -182,8 +235,8 @@ pg.re_map_template = {
 				"D3"
 			}
 		}
-	},
-	[5] = {
+	}
+	pg.base.re_map_template[5] = {
 		memory_group = 117,
 		name = "围剿斯佩伯爵』常驻复刻",
 		activity_type = 2,
@@ -218,8 +271,8 @@ pg.re_map_template = {
 				"SP2"
 			}
 		}
-	},
-	[6] = {
+	}
+	pg.base.re_map_template[6] = {
 		memory_group = 102,
 		name = "异色格常驻复刻",
 		activity_type = 1,
@@ -296,8 +349,8 @@ pg.re_map_template = {
 				"D1"
 			}
 		}
-	},
-	[7] = {
+	}
+	pg.base.re_map_template[7] = {
 		memory_group = 115,
 		name = "坠落之翼常驻复刻",
 		activity_type = 1,
@@ -366,8 +419,8 @@ pg.re_map_template = {
 				"D3"
 			}
 		}
-	},
-	[8] = {
+	}
+	pg.base.re_map_template[8] = {
 		memory_group = 133,
 		name = "鸢尾之华常驻复刻",
 		activity_type = 1,
@@ -436,8 +489,8 @@ pg.re_map_template = {
 				"D3"
 			}
 		}
-	},
-	[9] = {
+	}
+	pg.base.re_map_template[9] = {
 		memory_group = 131,
 		name = "墨染的钢铁之花常驻复刻",
 		activity_type = 1,
@@ -506,8 +559,8 @@ pg.re_map_template = {
 				"D2"
 			}
 		}
-	},
-	[10] = {
+	}
+	pg.base.re_map_template[10] = {
 		memory_group = 109,
 		name = "光荣的一战常驻复刻",
 		activity_type = 2,
@@ -549,8 +602,8 @@ pg.re_map_template = {
 				"SP2"
 			}
 		}
-	},
-	[11] = {
+	}
+	pg.base.re_map_template[11] = {
 		memory_group = 148,
 		name = "苍红的回响常驻复刻",
 		activity_type = 1,
@@ -619,8 +672,8 @@ pg.re_map_template = {
 				"D3"
 			}
 		}
-	},
-	[12] = {
+	}
+	pg.base.re_map_template[12] = {
 		memory_group = 132,
 		name = "月光下的序曲常驻复刻",
 		activity_type = 2,
@@ -648,8 +701,8 @@ pg.re_map_template = {
 				"SP3"
 			}
 		}
-	},
-	[13] = {
+	}
+	pg.base.re_map_template[13] = {
 		memory_group = 158,
 		name = "俾斯麦常驻复刻",
 		activity_type = 1,
@@ -718,8 +771,8 @@ pg.re_map_template = {
 				"B2、B3、D2、D3"
 			}
 		}
-	},
-	[14] = {
+	}
+	pg.base.re_map_template[14] = {
 		memory_group = 172,
 		name = "偶像一期常驻复刻",
 		activity_type = 2,
@@ -766,8 +819,8 @@ pg.re_map_template = {
 				"SP5"
 			}
 		}
-	},
-	[15] = {
+	}
+	pg.base.re_map_template[15] = {
 		memory_group = 167,
 		name = "神圣的悲喜剧常驻复刻",
 		activity_type = 1,
@@ -844,8 +897,8 @@ pg.re_map_template = {
 				"D3"
 			}
 		}
-	},
-	[16] = {
+	}
+	pg.base.re_map_template[16] = {
 		memory_group = 145,
 		name = "斯图尔特的硝烟常驻复刻",
 		activity_type = 2,
@@ -873,8 +926,8 @@ pg.re_map_template = {
 				"SP3"
 			}
 		}
-	},
-	[17] = {
+	}
+	pg.base.re_map_template[17] = {
 		memory_group = 163,
 		name = "箱庭疗法常驻复刻",
 		activity_type = 1,
@@ -959,8 +1012,8 @@ pg.re_map_template = {
 				"D3"
 			}
 		}
-	},
-	[18] = {
+	}
+	pg.base.re_map_template[18] = {
 		memory_group = 177,
 		name = "浮樱影华常驻复刻",
 		activity_type = 1,
@@ -1029,8 +1082,8 @@ pg.re_map_template = {
 				"D2"
 			}
 		}
-	},
-	[19] = {
+	}
+	pg.base.re_map_template[19] = {
 		memory_group = 170,
 		name = "最珍贵的宝物常驻复刻",
 		activity_type = 2,
@@ -1058,8 +1111,8 @@ pg.re_map_template = {
 				"SP3"
 			}
 		}
-	},
-	[20] = {
+	}
+	pg.base.re_map_template[20] = {
 		memory_group = 191,
 		name = "偶像二期常驻复刻",
 		activity_type = 2,
@@ -1106,8 +1159,8 @@ pg.re_map_template = {
 				"SP5"
 			}
 		}
-	},
-	[21] = {
+	}
+	pg.base.re_map_template[21] = {
 		memory_group = 183,
 		name = "微层混合常驻复刻",
 		activity_type = 1,
@@ -1176,8 +1229,8 @@ pg.re_map_template = {
 				"C2"
 			}
 		}
-	},
-	[22] = {
+	}
+	pg.base.re_map_template[22] = {
 		memory_group = 151,
 		name = "峡湾间的星辰常驻复刻",
 		activity_type = 2,
@@ -1207,8 +1260,8 @@ pg.re_map_template = {
 				"SP3"
 			}
 		}
-	},
-	[23] = {
+	}
+	pg.base.re_map_template[23] = {
 		memory_group = 186,
 		name = "穹顶下的圣咏曲常驻复刻",
 		activity_type = 1,
@@ -1277,8 +1330,8 @@ pg.re_map_template = {
 				"D2"
 			}
 		}
-	},
-	[24] = {
+	}
+	pg.base.re_map_template[24] = {
 		memory_group = 185,
 		name = "夜幕下的归途常驻复刻",
 		activity_type = 2,
@@ -1306,8 +1359,8 @@ pg.re_map_template = {
 				"SP3"
 			}
 		}
-	},
-	[25] = {
+	}
+	pg.base.re_map_template[25] = {
 		memory_group = 181,
 		name = "北境序曲常驻复刻",
 		activity_type = 1,
@@ -1376,8 +1429,8 @@ pg.re_map_template = {
 				"D2"
 			}
 		}
-	},
-	[26] = {
+	}
+	pg.base.re_map_template[26] = {
 		memory_group = 188,
 		name = "永夜幻光常驻复刻",
 		activity_type = 1,
@@ -1446,8 +1499,8 @@ pg.re_map_template = {
 				"D1"
 			}
 		}
-	},
-	[27] = {
+	}
+	pg.base.re_map_template[27] = {
 		memory_group = 187,
 		name = "峡湾间的反击常驻复刻",
 		activity_type = 2,
@@ -1475,8 +1528,8 @@ pg.re_map_template = {
 				"SP3"
 			}
 		}
-	},
-	[28] = {
+	}
+	pg.base.re_map_template[28] = {
 		memory_group = 194,
 		name = "负象限作战常驻复刻",
 		activity_type = 1,
@@ -1545,8 +1598,8 @@ pg.re_map_template = {
 				"D1"
 			}
 		}
-	},
-	[29] = {
+	}
+	pg.base.re_map_template[29] = {
 		memory_group = 189,
 		name = "蝶海梦花常驻复刻",
 		activity_type = 1,
@@ -1623,8 +1676,8 @@ pg.re_map_template = {
 				"HT4"
 			}
 		}
-	},
-	[30] = {
+	}
+	pg.base.re_map_template[30] = {
 		memory_group = 198,
 		name = "镜位螺旋常驻复刻",
 		activity_type = 1,
@@ -1693,8 +1746,8 @@ pg.re_map_template = {
 				"D1"
 			}
 		}
-	},
-	[31] = {
+	}
+	pg.base.re_map_template[31] = {
 		memory_group = 195,
 		name = "破晓冰华常驻复刻",
 		activity_type = 1,
@@ -1763,8 +1816,8 @@ pg.re_map_template = {
 				"D1"
 			}
 		}
-	},
-	[32] = {
+	}
+	pg.base.re_map_template[32] = {
 		memory_group = 190,
 		name = "划破海空之翼常驻复刻",
 		activity_type = 2,
@@ -1792,8 +1845,8 @@ pg.re_map_template = {
 				"SP3"
 			}
 		}
-	},
-	[33] = {
+	}
+	pg.base.re_map_template[33] = {
 		memory_group = 203,
 		name = "杰诺瓦的焰火常驻复刻",
 		activity_type = 2,
@@ -1821,8 +1874,8 @@ pg.re_map_template = {
 				"SP3"
 			}
 		}
-	},
-	[34] = {
+	}
+	pg.base.re_map_template[34] = {
 		memory_group = 202,
 		name = "碧海光粼常驻复刻",
 		activity_type = 1,
@@ -1891,8 +1944,8 @@ pg.re_map_template = {
 				"D1"
 			}
 		}
-	},
-	[35] = {
+	}
+	pg.base.re_map_template[35] = {
 		memory_group = 196,
 		name = "复兴的赞美诗常驻复刻",
 		activity_type = 1,
@@ -1961,8 +2014,8 @@ pg.re_map_template = {
 				"D1"
 			}
 		}
-	},
-	[36] = {
+	}
+	pg.base.re_map_template[36] = {
 		memory_group = 207,
 		name = "逆转彩虹之塔常驻复刻",
 		activity_type = 1,
@@ -2035,8 +2088,8 @@ pg.re_map_template = {
 				"D1"
 			}
 		}
-	},
-	[37] = {
+	}
+	pg.base.re_map_template[37] = {
 		memory_group = 211,
 		name = "深度回音常驻复刻",
 		activity_type = 1,
@@ -2105,8 +2158,8 @@ pg.re_map_template = {
 				"D1"
 			}
 		}
-	},
-	[38] = {
+	}
+	pg.base.re_map_template[38] = {
 		memory_group = 212,
 		name = "虚像构筑之塔常驻复刻",
 		activity_type = 2,
@@ -2152,8 +2205,8 @@ pg.re_map_template = {
 				"SP4"
 			}
 		}
-	},
-	[39] = {
+	}
+	pg.base.re_map_template[39] = {
 		memory_group = 218,
 		name = "泠誓光庭常驻复刻",
 		activity_type = 1,
@@ -2222,8 +2275,8 @@ pg.re_map_template = {
 				"D1"
 			}
 		}
-	},
-	[40] = {
+	}
+	pg.base.re_map_template[40] = {
 		memory_group = 223,
 		name = "雄鹰的叙事歌常驻复刻",
 		activity_type = 1,
@@ -2292,8 +2345,8 @@ pg.re_map_template = {
 				"D1"
 			}
 		}
-	},
-	[41] = {
+	}
+	pg.base.re_map_template[41] = {
 		memory_group = 215,
 		name = "虹彩的终幕曲常驻复刻",
 		activity_type = 1,
@@ -2362,8 +2415,8 @@ pg.re_map_template = {
 				"D2"
 			}
 		}
-	},
-	[42] = {
+	}
+	pg.base.re_map_template[42] = {
 		memory_group = 263,
 		name = "飓风与青春之泉常驻复刻",
 		activity_type = 2,
@@ -2413,8 +2466,8 @@ pg.re_map_template = {
 				"T6"
 			}
 		}
-	},
-	[43] = {
+	}
+	pg.base.re_map_template[43] = {
 		memory_group = 226,
 		name = "紫绛槿岚常驻复刻",
 		activity_type = 1,
@@ -2483,8 +2536,8 @@ pg.re_map_template = {
 				"D2"
 			}
 		}
-	},
-	[44] = {
+	}
+	pg.base.re_map_template[44] = {
 		memory_group = 235,
 		name = "定向折叠常驻复刻",
 		activity_type = 1,
@@ -2553,8 +2606,8 @@ pg.re_map_template = {
 				"D2"
 			}
 		}
-	},
-	[45] = {
+	}
+	pg.base.re_map_template[45] = {
 		memory_group = 240,
 		name = "湮烬尘墟常驻复刻",
 		activity_type = 1,
@@ -2623,8 +2676,8 @@ pg.re_map_template = {
 				"C2"
 			}
 		}
-	},
-	[46] = {
+	}
+	pg.base.re_map_template[46] = {
 		memory_group = 224,
 		name = "远汇点作战常驻复刻",
 		activity_type = 2,
@@ -2670,52 +2723,5 @@ pg.re_map_template = {
 				"SP4"
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46
 	}
-}
+end)()

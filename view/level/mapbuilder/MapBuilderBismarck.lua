@@ -204,48 +204,64 @@ function var_0_0.UpdateMapItem(arg_13_0, arg_13_1, arg_13_2)
 
 	local var_13_25 = arg_13_2:GetDailyBonusQuota()
 	local var_13_26 = findTF(var_13_1, "mark")
+	local var_13_27 = var_13_26:Find("bonus")
+	local var_13_28 = var_13_27:Find("icon")
+	local var_13_29 = findTF(var_13_27, "icon/Image")
 
-	setActive(var_13_26:Find("bonus"), var_13_25)
+	setActive(var_13_27, var_13_25)
 	setActive(var_13_26, var_13_25)
 
-	if var_13_25 then
-		local var_13_27 = var_13_26:GetComponent(typeof(CanvasGroup))
-		local var_13_28 = arg_13_0.contextData.map:getConfig("type") == Map.ACTIVITY_HARD and "bonus_us_hard" or "bonus_us"
+	if var_13_28 then
+		setActive(var_13_28, var_13_25 and arg_13_0.bonusPtIconPath)
+	end
 
-		arg_13_0.sceneParent.loader:GetSprite("ui/levelmainscene_atlas", var_13_28, var_13_26:Find("bonus"))
+	if var_13_25 then
+		local var_13_30 = var_13_26:GetComponent(typeof(CanvasGroup))
+		local var_13_31 = arg_13_2:GetDailyBonusIconName()
+
+		arg_13_0.sceneParent.loader:GetSprite("ui/levelmainscene_atlas", var_13_31, var_13_27)
+
+		if var_13_28 and arg_13_0.bonusPtIconPath then
+			if var_13_29 then
+				GetImageSpriteFromAtlasAsync(arg_13_0.bonusPtIconPath, "", var_13_29, true)
+			else
+				GetImageSpriteFromAtlasAsync(arg_13_0.bonusPtIconPath, "", var_13_28, true)
+			end
+		end
+
 		LeanTween.cancel(go(var_13_26), true)
 
-		local var_13_29 = var_13_26.anchoredPosition.y
+		local var_13_32 = var_13_26.anchoredPosition.y
 
-		var_13_27.alpha = 0
+		var_13_30.alpha = 0
 
 		LeanTween.value(go(var_13_26), 0, 1, 0.2):setOnUpdate(System.Action_float(function(arg_14_0)
-			var_13_27.alpha = arg_14_0
+			var_13_30.alpha = arg_14_0
 
 			local var_14_0 = var_13_26.anchoredPosition
 
-			var_14_0.y = var_13_29 * arg_14_0
+			var_14_0.y = var_13_32 * arg_14_0
 			var_13_26.anchoredPosition = var_14_0
 		end)):setOnComplete(System.Action(function()
-			var_13_27.alpha = 1
+			var_13_30.alpha = 1
 
 			local var_15_0 = var_13_26.anchoredPosition
 
-			var_15_0.y = var_13_29
+			var_15_0.y = var_13_32
 			var_13_26.anchoredPosition = var_15_0
 		end)):setEase(LeanTweenType.easeOutSine):setDelay(0.7)
 	end
 
-	local var_13_30 = arg_13_2.id
+	local var_13_33 = arg_13_2.id
 
 	onButton(arg_13_0, var_13_1, function()
-		if arg_13_0.chaptersInBackAnimating[var_13_30] then
+		if arg_13_0.chaptersInBackAnimating[var_13_33] then
 			return
 		end
 
 		local var_16_0 = arg_13_1.localPosition
 
-		arg_13_0:TryOpenChapterInfo(var_13_30, Vector3(var_16_0.x - 10, var_16_0.y + 150))
+		arg_13_0:TryOpenChapterInfo(var_13_33, Vector3(var_16_0.x - 10, var_16_0.y + 150))
 	end, SFX_UI_WEIGHANCHOR_SELECT)
 end
 

@@ -19,18 +19,19 @@ var_0_0.nameCodeMap_EN = {
 }
 
 function var_0_0.init()
-	for iter_1_0, iter_1_1 in pairs(pg.name_code) do
-		local var_1_0
+	for iter_1_0, iter_1_1 in ipairs(pg.name_code.all) do
+		local var_1_0 = pg.name_code[iter_1_1]
+		local var_1_1
 
-		if iter_1_1.type == 1 then
-			var_1_0 = var_0_0.nameCodeMap
-		elseif iter_1_1.type == 2 then
-			var_1_0 = var_0_0.nameEquipCodeMap
+		if var_1_0.type == 1 then
+			var_1_1 = var_0_0.nameCodeMap
+		elseif var_1_0.type == 2 then
+			var_1_1 = var_0_0.nameEquipCodeMap
 		else
 			assert(false)
 		end
 
-		var_1_0[iter_1_1.name] = iter_1_1.code
+		var_1_1[var_1_0.name] = var_1_0.code
 	end
 
 	if pg.gameset.code_switch.key_value == 1 and PlayerPrefs.HasKey(var_0_0.codeModeKey) then
@@ -38,39 +39,39 @@ function var_0_0.init()
 	end
 
 	if PLATFORM_CODE == PLATFORM_CH then
-		local var_1_1
+		local var_1_2
 
 		if IsUnityEditor then
-			var_1_1 = PathMgr.getAssetBundle("../localization.txt")
+			var_1_2 = PathMgr.getAssetBundle("../localization.txt")
 		else
-			var_1_1 = Application.persistentDataPath .. "/localization.txt"
+			var_1_2 = Application.persistentDataPath .. "/localization.txt"
 		end
 
-		if PathMgr.FileExists(var_1_1) then
-			local var_1_2 = PathMgr.ReadAllLines(var_1_1)
+		if PathMgr.FileExists(var_1_2) then
+			local var_1_3 = PathMgr.ReadAllLines(var_1_2)
 
-			if string.gsub(var_1_2[0], "%w+%s*=%s*", "") == "true" then
+			if string.gsub(var_1_3[0], "%w+%s*=%s*", "") == "true" then
 				var_0_0.codeMode = true
 			end
 
-			local var_1_3 = "Localization_skin = false"
+			local var_1_4 = "Localization_skin = false"
 
-			if var_1_2.Length <= 1 then
-				local var_1_4 = {
-					var_1_2[0],
-					var_1_3
+			if var_1_3.Length <= 1 then
+				local var_1_5 = {
+					var_1_3[0],
+					var_1_4
 				}
 
-				System.IO.File.WriteAllLines(var_1_1, var_1_4)
+				System.IO.File.WriteAllLines(var_1_2, var_1_5)
 			else
-				var_1_3 = var_1_2[1]
+				var_1_4 = var_1_3[1]
 			end
 
-			if string.gsub(var_1_3, "[_%w]+%s*=%s*", "") == "true" then
+			if string.gsub(var_1_4, "[_%w]+%s*=%s*", "") == "true" then
 				var_0_0.antiSkinMode = true
 			end
 		else
-			System.IO.File.WriteAllText(var_1_1, "Localization = false\nLocalization_skin = false")
+			System.IO.File.WriteAllText(var_1_2, "Localization = false\nLocalization_skin = false")
 		end
 	end
 

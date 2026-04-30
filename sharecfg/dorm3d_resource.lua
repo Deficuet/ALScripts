@@ -1,54 +1,57 @@
 pg = pg or {}
-pg.dorm3d_resource = setmetatable({
-	__name = "dorm3d_resource",
-	get_id_list_by_ship_group = {
-		[20220] = {
-			202201,
-			202202,
-			202203
-		},
-		[30221] = {
-			302211,
-			302212
-		},
-		[19903] = {
-			199031,
-			199032,
-			199033
-		},
-		[10517] = {
-			105171,
-			105173
-		},
-		[30707] = {
-			307071,
-			307073
-		},
-		[49905] = {
-			499051,
-			499053
-		}
+pg.dorm3d_resource = rawget(pg, "dorm3d_resource") or setmetatable({
+	__name = "dorm3d_resource"
+}, confNEO)
+pg.dorm3d_resource.__namecode__ = true
+pg.dorm3d_resource.all = {
+	202201,
+	202202,
+	202203,
+	302211,
+	302212,
+	199031,
+	199032,
+	199033,
+	105171,
+	105173,
+	307071,
+	307073,
+	499051,
+	499053
+}
+pg.dorm3d_resource.get_id_list_by_ship_group = {
+	[10517] = {
+		105171,
+		105173
 	},
-	all = {
-		202201,
-		202202,
-		202203,
-		302211,
-		302212,
+	[19903] = {
 		199031,
 		199032,
-		199033,
-		105171,
-		105173,
+		199033
+	},
+	[20220] = {
+		202201,
+		202202,
+		202203
+	},
+	[30221] = {
+		302211,
+		302212
+	},
+	[30707] = {
 		307071,
-		307073,
+		307073
+	},
+	[49905] = {
 		499051,
 		499053
 	}
-}, confHX)
+}
 pg.base = pg.base or {}
-pg.base.dorm3d_resource = {
-	[202201] = {
+pg.base.dorm3d_resource = {}
+
+;(function()
+	pg.base.dorm3d_resource[202201] = {
 		ship_group = 20220,
 		name = "天狼星",
 		type = 1,
@@ -70,8 +73,8 @@ pg.base.dorm3d_resource = {
 		hidden_part_apply_in_timeline = 0,
 		tags = {},
 		hidden_part = {}
-	},
-	[202202] = {
+	}
+	pg.base.dorm3d_resource[202202] = {
 		ship_group = 20220,
 		name = "天狼星泳装",
 		type = 2,
@@ -100,8 +103,8 @@ pg.base.dorm3d_resource = {
 			20220
 		},
 		hidden_part = {}
-	},
-	[202203] = {
+	}
+	pg.base.dorm3d_resource[202203] = {
 		ship_group = 20220,
 		name = "天狼星兔女郎",
 		type = 2,
@@ -130,8 +133,8 @@ pg.base.dorm3d_resource = {
 			20220
 		},
 		hidden_part = {}
-	},
-	[302211] = {
+	}
+	pg.base.dorm3d_resource[302211] = {
 		ship_group = 30221,
 		name = "{namecode:50}常服",
 		type = 1,
@@ -153,8 +156,8 @@ pg.base.dorm3d_resource = {
 		hidden_part_apply_in_timeline = 0,
 		tags = {},
 		hidden_part = {}
-	},
-	[302212] = {
+	}
+	pg.base.dorm3d_resource[302212] = {
 		ship_group = 30221,
 		name = "{namecode:50}泳装",
 		type = 2,
@@ -183,8 +186,8 @@ pg.base.dorm3d_resource = {
 			30221
 		},
 		hidden_part = {}
-	},
-	[199031] = {
+	}
+	pg.base.dorm3d_resource[199031] = {
 		ship_group = 19903,
 		name = "安克雷奇常服",
 		type = 1,
@@ -206,8 +209,8 @@ pg.base.dorm3d_resource = {
 		hidden_part_apply_in_timeline = 0,
 		tags = {},
 		hidden_part = {}
-	},
-	[199032] = {
+	}
+	pg.base.dorm3d_resource[199032] = {
 		ship_group = 19903,
 		name = "安克雷奇泳装",
 		type = 2,
@@ -236,8 +239,8 @@ pg.base.dorm3d_resource = {
 			19903
 		},
 		hidden_part = {}
-	},
-	[199033] = {
+	}
+	pg.base.dorm3d_resource[199033] = {
 		ship_group = 19903,
 		name = "安克雷奇丝袜常服",
 		type = 1,
@@ -259,8 +262,8 @@ pg.base.dorm3d_resource = {
 		hidden_part_apply_in_timeline = 0,
 		tags = {},
 		hidden_part = {}
-	},
-	[105171] = {
+	}
+	pg.base.dorm3d_resource[105171] = {
 		ship_group = 10517,
 		name = "{namecode:199}常服",
 		type = 1,
@@ -288,8 +291,8 @@ pg.base.dorm3d_resource = {
 				"all/hoodie_geo"
 			}
 		}
-	},
-	[105173] = {
+	}
+	pg.base.dorm3d_resource[105173] = {
 		ship_group = 10517,
 		name = "{namecode:199}兔女郎",
 		type = 2,
@@ -318,8 +321,8 @@ pg.base.dorm3d_resource = {
 			10517
 		},
 		hidden_part = {}
-	},
-	[307071] = {
+	}
+	pg.base.dorm3d_resource[307071] = {
 		ship_group = 30707,
 		name = "{namecode:97}常服",
 		type = 1,
@@ -353,8 +356,8 @@ pg.base.dorm3d_resource = {
 			"all/stocking_geo_l",
 			"all/stocking_geo_r"
 		}
-	},
-	[307073] = {
+	}
+	pg.base.dorm3d_resource[307073] = {
 		ship_group = 30707,
 		name = "{namecode:97}兔女郎",
 		type = 2,
@@ -383,8 +386,8 @@ pg.base.dorm3d_resource = {
 			30707
 		},
 		hidden_part = {}
-	},
-	[499051] = {
+	}
+	pg.base.dorm3d_resource[499051] = {
 		ship_group = 49905,
 		name = "{namecode:480}常服",
 		type = 1,
@@ -406,8 +409,8 @@ pg.base.dorm3d_resource = {
 		hidden_part_apply_in_timeline = 0,
 		tags = {},
 		hidden_part = {}
-	},
-	[499053] = {
+	}
+	pg.base.dorm3d_resource[499053] = {
 		ship_group = 49905,
 		name = "{namecode:480}兔女郎",
 		type = 2,
@@ -437,4 +440,4 @@ pg.base.dorm3d_resource = {
 		},
 		hidden_part = {}
 	}
-}
+end)()

@@ -1,6 +1,18 @@
 pg = pg or {}
-pg.guild_operation_template = {
-	{
+pg.guild_operation_template = rawget(pg, "guild_operation_template") or setmetatable({
+	__name = "guild_operation_template"
+}, confNEO)
+pg.guild_operation_template.all = {
+	1,
+	2,
+	3,
+	4
+}
+pg.base = pg.base or {}
+pg.base.guild_operation_template = {}
+
+;(function()
+	pg.base.guild_operation_template[1] = {
 		consume = 1000,
 		name = "米德维岛哨卫作战",
 		unlock_guild_level = 1,
@@ -30,8 +42,8 @@ pg.guild_operation_template = {
 				54017
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_operation_template[2] = {
 		consume = 2000,
 		name = "北方商路护航作战",
 		unlock_guild_level = 3,
@@ -60,8 +72,8 @@ pg.guild_operation_template = {
 				54017
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_operation_template[3] = {
 		consume = 3000,
 		name = "半岛攻略战",
 		unlock_guild_level = 5,
@@ -92,8 +104,8 @@ pg.guild_operation_template = {
 				54017
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_operation_template[4] = {
 		consume = 5000,
 		name = "达古康纳尔岛海空战",
 		unlock_guild_level = 7,
@@ -124,11 +136,5 @@ pg.guild_operation_template = {
 				54017
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4
 	}
-}
+end)()

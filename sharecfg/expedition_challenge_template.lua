@@ -1,6 +1,31 @@
 pg = pg or {}
-pg.expedition_challenge_template = {
-	[10001] = {
+pg.expedition_challenge_template = rawget(pg, "expedition_challenge_template") or setmetatable({
+	__name = "expedition_challenge_template"
+}, confNEO)
+pg.expedition_challenge_template.all = {
+	10001,
+	10002,
+	10003,
+	10004,
+	10005,
+	10006,
+	10007,
+	10008,
+	10009,
+	10010,
+	10011,
+	10012,
+	10013,
+	10014,
+	10015,
+	10016,
+	10017
+}
+pg.base = pg.base or {}
+pg.base.expedition_challenge_template = {}
+
+;(function()
+	pg.base.expedition_challenge_template[10001] = {
 		chapter_description = "指挥官，你对自己的作战技巧很有自信吗？那就快来挑战一番吧！",
 		type_name_p = "",
 		id = 10001,
@@ -17,8 +42,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10002] = {
+	}
+	pg.base.expedition_challenge_template[10002] = {
 		chapter_description = "指挥官，你对自己的作战技巧很有自信吗？那就快来挑战一番吧！",
 		type_name_p = "",
 		id = 10002,
@@ -35,8 +60,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10003] = {
+	}
+	pg.base.expedition_challenge_template[10003] = {
 		chapter_description = "指挥官，你对自己的作战技巧很有自信吗？那就快来挑战一番吧！",
 		type_name_p = "",
 		id = 10003,
@@ -53,8 +78,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10004] = {
+	}
+	pg.base.expedition_challenge_template[10004] = {
 		chapter_description = "指挥官，你对自己的作战技巧很有自信吗？那就快来挑战一番吧！",
 		type_name_p = "",
 		id = 10004,
@@ -71,8 +96,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10005] = {
+	}
+	pg.base.expedition_challenge_template[10005] = {
 		chapter_description = "指挥官，你对自己的作战技巧很有自信吗？那就快来挑战一番吧！",
 		type_name_p = "",
 		id = 10005,
@@ -89,8 +114,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10006] = {
+	}
+	pg.base.expedition_challenge_template[10006] = {
 		chapter_description = "指挥官，你对自己的作战技巧很有自信吗？那就快来挑战一番吧！",
 		type_name_p = "",
 		id = 10006,
@@ -107,8 +132,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10007] = {
+	}
+	pg.base.expedition_challenge_template[10007] = {
 		chapter_description = "指挥官，你对自己的作战技巧很有自信吗？那就快来挑战一番吧！",
 		type_name_p = "",
 		id = 10007,
@@ -125,8 +150,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10008] = {
+	}
+	pg.base.expedition_challenge_template[10008] = {
 		chapter_description = "指挥官，你对自己的作战技巧很有自信吗？那就快来挑战一番吧！",
 		type_name_p = "",
 		id = 10008,
@@ -143,8 +168,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10009] = {
+	}
+	pg.base.expedition_challenge_template[10009] = {
 		chapter_description = "指挥官，你对自己的作战技巧很有自信吗？那就快来挑战一番吧！",
 		type_name_p = "",
 		id = 10009,
@@ -161,8 +186,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10010] = {
+	}
+	pg.base.expedition_challenge_template[10010] = {
 		chapter_description = "指挥官，你对自己的作战技巧很有自信吗？那就快来挑战一番吧！",
 		type_name_p = "",
 		id = 10010,
@@ -179,8 +204,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10011] = {
+	}
+	pg.base.expedition_challenge_template[10011] = {
 		chapter_description = "指挥官，你对自己的作战技巧很有自信吗？那就快来挑战一番吧！",
 		type_name_p = "",
 		id = 10011,
@@ -197,8 +222,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10012] = {
+	}
+	pg.base.expedition_challenge_template[10012] = {
 		chapter_description = "指挥官，你对自己的作战技巧很有自信吗？那就快来挑战一番吧！",
 		type_name_p = "",
 		id = 10012,
@@ -215,8 +240,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10013] = {
+	}
+	pg.base.expedition_challenge_template[10013] = {
 		chapter_description = "指挥官，你对自己的作战技巧很有自信吗？那就快来挑战一番吧！",
 		type_name_p = "",
 		id = 10013,
@@ -233,8 +258,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10014] = {
+	}
+	pg.base.expedition_challenge_template[10014] = {
 		chapter_description = "指挥官，你对自己的作战技巧很有自信吗？那就快来挑战一番吧！",
 		type_name_p = "",
 		id = 10014,
@@ -251,8 +276,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10015] = {
+	}
+	pg.base.expedition_challenge_template[10015] = {
 		chapter_description = "指挥官，你对自己的作战技巧很有自信吗？那就快来挑战一番吧！",
 		type_name_p = "",
 		id = 10015,
@@ -269,8 +294,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10016] = {
+	}
+	pg.base.expedition_challenge_template[10016] = {
 		chapter_description = "指挥官，你对自己的作战技巧很有自信吗？那就快来挑战一番吧！",
 		type_name_p = "",
 		id = 10016,
@@ -287,8 +312,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10017] = {
+	}
+	pg.base.expedition_challenge_template[10017] = {
 		chapter_description = "指挥官，你对自己的作战技巧很有自信吗？那就快来挑战一番吧！",
 		type_name_p = "",
 		id = 10017,
@@ -305,24 +330,5 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	all = {
-		10001,
-		10002,
-		10003,
-		10004,
-		10005,
-		10006,
-		10007,
-		10008,
-		10009,
-		10010,
-		10011,
-		10012,
-		10013,
-		10014,
-		10015,
-		10016,
-		10017
 	}
-}
+end)()

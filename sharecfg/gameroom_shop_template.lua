@@ -1,6 +1,44 @@
 pg = pg or {}
-pg.gameroom_shop_template = {
-	{
+pg.gameroom_shop_template = rawget(pg, "gameroom_shop_template") or setmetatable({
+	__name = "gameroom_shop_template"
+}, confNEO)
+pg.gameroom_shop_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30
+}
+pg.base = pg.base or {}
+pg.base.gameroom_shop_template = {}
+
+;(function()
+	pg.base.gameroom_shop_template[1] = {
 		price = 7500,
 		goods_purchase_limit = 1,
 		month_re = 0,
@@ -42,8 +80,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[2] = {
 		price = 7500,
 		goods_purchase_limit = 1,
 		month_re = 0,
@@ -85,8 +123,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[3] = {
 		price = 1200,
 		goods_purchase_limit = 10,
 		month_re = 0,
@@ -128,8 +166,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[4] = {
 		price = 1200,
 		goods_purchase_limit = 10,
 		month_re = 0,
@@ -171,8 +209,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[5] = {
 		price = 1200,
 		goods_purchase_limit = 10,
 		month_re = 0,
@@ -214,8 +252,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[6] = {
 		price = 1200,
 		goods_purchase_limit = 10,
 		month_re = 0,
@@ -257,8 +295,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[7] = {
 		price = 1200,
 		goods_purchase_limit = 10,
 		month_re = 0,
@@ -300,8 +338,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[8] = {
 		price = 1200,
 		goods_purchase_limit = 10,
 		month_re = 0,
@@ -343,8 +381,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[9] = {
 		price = 1200,
 		goods_purchase_limit = 10,
 		month_re = 0,
@@ -386,8 +424,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[10] = {
 		price = 1200,
 		goods_purchase_limit = 10,
 		month_re = 0,
@@ -429,8 +467,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[11] = {
 		price = 1200,
 		goods_purchase_limit = 10,
 		month_re = 0,
@@ -472,8 +510,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[12] = {
 		price = 1200,
 		goods_purchase_limit = 10,
 		month_re = 0,
@@ -515,8 +553,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[13] = {
 		price = 7500,
 		goods_purchase_limit = 1,
 		month_re = 0,
@@ -558,8 +596,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[14] = {
 		price = 7500,
 		goods_purchase_limit = 1,
 		month_re = 0,
@@ -601,8 +639,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[15] = {
 		price = 1200,
 		goods_purchase_limit = 10,
 		month_re = 0,
@@ -644,8 +682,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[16] = {
 		price = 1200,
 		goods_purchase_limit = 10,
 		month_re = 0,
@@ -687,8 +725,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[17] = {
 		price = 1200,
 		goods_purchase_limit = 10,
 		month_re = 0,
@@ -730,8 +768,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[18] = {
 		price = 1200,
 		goods_purchase_limit = 10,
 		month_re = 0,
@@ -773,8 +811,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[19] = {
 		price = 1200,
 		goods_purchase_limit = 10,
 		month_re = 0,
@@ -816,8 +854,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[20] = {
 		price = 1200,
 		goods_purchase_limit = 10,
 		month_re = 0,
@@ -859,8 +897,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[21] = {
 		price = 1200,
 		goods_purchase_limit = 10,
 		month_re = 0,
@@ -902,8 +940,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[22] = {
 		price = 1200,
 		goods_purchase_limit = 10,
 		month_re = 0,
@@ -945,8 +983,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[23] = {
 		price = 1200,
 		goods_purchase_limit = 10,
 		month_re = 0,
@@ -988,8 +1026,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[24] = {
 		price = 1200,
 		goods_purchase_limit = 10,
 		month_re = 0,
@@ -1031,8 +1069,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[25] = {
 		price = 7500,
 		goods_purchase_limit = 1,
 		month_re = 0,
@@ -1074,8 +1112,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[26] = {
 		price = 1200,
 		goods_purchase_limit = 10,
 		month_re = 0,
@@ -1117,8 +1155,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[27] = {
 		price = 1200,
 		goods_purchase_limit = 10,
 		month_re = 0,
@@ -1160,8 +1198,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[28] = {
 		price = 1200,
 		goods_purchase_limit = 10,
 		month_re = 0,
@@ -1203,8 +1241,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[29] = {
 		price = 1200,
 		goods_purchase_limit = 10,
 		month_re = 0,
@@ -1246,8 +1284,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[30] = {
 		price = 1200,
 		goods_purchase_limit = 10,
 		month_re = 0,
@@ -1289,37 +1327,5 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30
 	}
-}
+end)()

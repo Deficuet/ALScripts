@@ -972,35 +972,60 @@ function var_0_0.GetDailyBonusQuota(arg_89_0)
 	return arg_89_0:GetRestDailyBonus() > 0
 end
 
+function var_0_0.GetDailyBonusRate(arg_90_0)
+	local var_90_0 = 0
+	local var_90_1 = arg_90_0:getConfig("boss_expedition_id")
+
+	for iter_90_0, iter_90_1 in ipairs(var_90_1) do
+		local var_90_2 = pg.expedition_activity_template[iter_90_1]
+
+		var_90_0 = math.max(var_90_0, var_90_2 and var_90_2.bonus_rate or 0)
+	end
+
+	local var_90_3 = pg.chapter_defense[arg_90_0.id]
+
+	if var_90_3 then
+		var_90_0 = math.max(var_90_0, var_90_3.bonus_rate or 0)
+	end
+
+	return var_90_0 > 0 and var_90_0 or nil
+end
+
+function var_0_0.GetDailyBonusIconName(arg_91_0)
+	local var_91_0 = arg_91_0:GetDailyBonusRate()
+
+	return var_91_0 and "bonusX" .. tostring(var_91_0) or "bonusX5"
+end
+
 var_0_0.OPERATION_BUFF_TYPE_COST = "more_oil"
 var_0_0.OPERATION_BUFF_TYPE_REWARD = "extra_drop"
 var_0_0.OPERATION_BUFF_TYPE_EXP = "chapter_up"
 var_0_0.OPERATION_BUFF_TYPE_DESC = "desc"
 
-function var_0_0.GetSPOperationItemCacheKey(arg_90_0)
-	return "specialOPItem_" .. arg_90_0
+function var_0_0.GetSPOperationItemCacheKey(arg_92_0)
+	return "specialOPItem_" .. arg_92_0
 end
 
-function var_0_0.GetSpItems(arg_91_0)
-	local var_91_0 = {}
-	local var_91_1 = getProxy(BagProxy):getItemsByType(Item.SPECIAL_OPERATION_TICKET)
-	local var_91_2 = noEmptyStr(arg_91_0:getConfig("special_operation_list"))
+function var_0_0.GetSpItems(arg_93_0)
+	local var_93_0 = {}
+	local var_93_1 = getProxy(BagProxy):getItemsByType(Item.SPECIAL_OPERATION_TICKET)
+	local var_93_2 = noEmptyStr(arg_93_0:getConfig("special_operation_list"))
 
-	if not var_91_2 or not next(var_91_2) then
-		return var_91_0
+	if not var_93_2 or not next(var_93_2) then
+		return var_93_0
 	end
 
-	for iter_91_0, iter_91_1 in ipairs(var_91_2) do
-		local var_91_3 = pg.benefit_buff_template[iter_91_1]
+	for iter_93_0, iter_93_1 in ipairs(var_93_2) do
+		local var_93_3 = pg.benefit_buff_template[iter_93_1]
 
-		if var_91_3 and var_91_3.benefit_type == Chapter.OPERATION_BUFF_TYPE_DESC then
-			local var_91_4 = ActivityBuff.GetBenefitCondition(var_91_3.benefit_condition)
+		if var_93_3 and var_93_3.benefit_type == Chapter.OPERATION_BUFF_TYPE_DESC then
+			local var_93_4 = ActivityBuff.GetBenefitCondition(var_93_3.benefit_condition)
 
-			for iter_91_2, iter_91_3 in ipairs(var_91_1) do
-				assert(var_91_4[1] == "item")
+			for iter_93_2, iter_93_3 in ipairs(var_93_1) do
+				assert(var_93_4[1] == "item")
 
-				if var_91_4[2] == iter_91_3.configId then
-					table.insert(var_91_0, iter_91_3)
+				if var_93_4[2] == iter_93_3.configId then
+					table.insert(var_93_0, iter_93_3)
 
 					break
 				end
@@ -1008,105 +1033,105 @@ function var_0_0.GetSpItems(arg_91_0)
 		end
 	end
 
-	return var_91_0
+	return var_93_0
 end
 
-function var_0_0.GetSPBuffByItem(arg_92_0)
-	for iter_92_0, iter_92_1 in ipairs(pg.benefit_buff_template.get_id_list_by_benefit_type[Chapter.OPERATION_BUFF_TYPE_DESC]) do
-		local var_92_0 = pg.benefit_buff_template[iter_92_1]
-		local var_92_1 = ActivityBuff.GetBenefitCondition(var_92_0.benefit_condition)
+function var_0_0.GetSPBuffByItem(arg_94_0)
+	for iter_94_0, iter_94_1 in ipairs(pg.benefit_buff_template.get_id_list_by_benefit_type[Chapter.OPERATION_BUFF_TYPE_DESC]) do
+		local var_94_0 = pg.benefit_buff_template[iter_94_1]
+		local var_94_1 = ActivityBuff.GetBenefitCondition(var_94_0.benefit_condition)
 
-		assert(var_92_1[1] == "item")
+		assert(var_94_1[1] == "item")
 
-		if var_92_1[2] == arg_92_0 then
-			return var_92_0.id
+		if var_94_1[2] == arg_94_0 then
+			return var_94_0.id
 		end
 	end
 end
 
-function var_0_0.GetActiveSPItemID(arg_93_0)
-	local var_93_0 = Chapter.GetSPOperationItemCacheKey(arg_93_0.id)
-	local var_93_1 = PlayerPrefs.GetInt(var_93_0, 0)
+function var_0_0.GetActiveSPItemID(arg_95_0)
+	local var_95_0 = Chapter.GetSPOperationItemCacheKey(arg_95_0.id)
+	local var_95_1 = PlayerPrefs.GetInt(var_95_0, 0)
 
-	if var_93_1 == 0 then
+	if var_95_1 == 0 then
 		return 0
 	end
 
-	if arg_93_0:GetRestDailyBonus() > 0 then
+	if arg_95_0:GetRestDailyBonus() > 0 then
 		return 0
 	end
 
-	local var_93_2 = arg_93_0:GetSpItems()
+	local var_95_2 = arg_95_0:GetSpItems()
 
-	if _.detect(var_93_2, function(arg_94_0)
-		return arg_94_0:GetConfigID() == var_93_1
+	if _.detect(var_95_2, function(arg_96_0)
+		return arg_96_0:GetConfigID() == var_95_1
 	end) then
-		return var_93_1
+		return var_95_1
 	end
 
 	return 0
 end
 
-function var_0_0.GetLimitOilCost(arg_95_0, arg_95_1, arg_95_2)
-	if not arg_95_0:isLoop() then
+function var_0_0.GetLimitOilCost(arg_97_0, arg_97_1, arg_97_2)
+	if not arg_97_0:isLoop() then
 		return 9999
 	end
 
-	local var_95_0
-	local var_95_1
+	local var_97_0
+	local var_97_1
 
-	if arg_95_1 then
-		var_95_1 = 3
+	if arg_97_1 then
+		var_97_1 = 3
 	else
-		local var_95_2 = pg.expedition_data_template[arg_95_2]
+		local var_97_2 = pg.expedition_data_template[arg_97_2]
 
-		var_95_1 = (var_95_2.type == ChapterConst.ExpeditionTypeBoss or var_95_2.type == ChapterConst.ExpeditionTypeMulBoss) and 2 or 1
+		var_97_1 = (var_97_2.type == ChapterConst.ExpeditionTypeBoss or var_97_2.type == ChapterConst.ExpeditionTypeMulBoss) and 2 or 1
 	end
 
-	return arg_95_0:getConfig("use_oil_limit")[var_95_1] or 9999
+	return arg_97_0:getConfig("use_oil_limit")[var_97_1] or 9999
 end
 
-function var_0_0.IsRemaster(arg_96_0)
-	local var_96_0 = getProxy(ChapterProxy):getMapById(arg_96_0:getConfig("map"))
+function var_0_0.IsRemaster(arg_98_0)
+	local var_98_0 = getProxy(ChapterProxy):getMapById(arg_98_0:getConfig("map"))
 
-	return var_96_0 and var_96_0:isRemaster()
+	return var_98_0 and var_98_0:isRemaster()
 end
 
-function var_0_0.GetBindActID(arg_97_0)
-	return arg_97_0:getConfig("act_id")
+function var_0_0.GetBindActID(arg_99_0)
+	return arg_99_0:getConfig("act_id")
 end
 
-function var_0_0.GetMaxBattleCount(arg_98_0)
-	local var_98_0 = 0
-	local var_98_1 = getProxy(ChapterProxy):getMapById(arg_98_0:getConfig("map"))
+function var_0_0.GetMaxBattleCount(arg_100_0)
+	local var_100_0 = 0
+	local var_100_1 = getProxy(ChapterProxy):getMapById(arg_100_0:getConfig("map"))
 
-	if var_98_1:getMapType() == Map.ELITE then
-		var_98_0 = pg.gameset.hard_level_multiple_sorties_times.key_value
-		var_98_0 = math.clamp(var_98_0, 0, getProxy(DailyLevelProxy):GetRestEliteCount())
-	elseif var_98_1:isRemaster() then
-		var_98_0 = pg.gameset.archives_level_multiple_sorties_times.key_value
-		var_98_0 = math.clamp(var_98_0, 0, getProxy(ChapterProxy).remasterTickets)
-	elseif var_98_1:isActivity() then
-		var_98_0 = pg.gameset.activity_level_multiple_sorties_times.key_value
+	if var_100_1:getMapType() == Map.ELITE then
+		var_100_0 = pg.gameset.hard_level_multiple_sorties_times.key_value
+		var_100_0 = math.clamp(var_100_0, 0, getProxy(DailyLevelProxy):GetRestEliteCount())
+	elseif var_100_1:isRemaster() then
+		var_100_0 = pg.gameset.archives_level_multiple_sorties_times.key_value
+		var_100_0 = math.clamp(var_100_0, 0, getProxy(ChapterProxy).remasterTickets)
+	elseif var_100_1:isActivity() then
+		var_100_0 = pg.gameset.activity_level_multiple_sorties_times.key_value
 	else
-		var_98_0 = pg.gameset.main_level_multiple_sorties_times.key_value
+		var_100_0 = pg.gameset.main_level_multiple_sorties_times.key_value
 	end
 
-	if arg_98_0:isTriesLimit() then
-		local var_98_2 = arg_98_0:getConfig("count") - arg_98_0:getTodayDefeatCount()
+	if arg_100_0:isTriesLimit() then
+		local var_100_2 = arg_100_0:getConfig("count") - arg_100_0:getTodayDefeatCount()
 
-		var_98_0 = math.clamp(var_98_0, 0, var_98_2)
+		var_100_0 = math.clamp(var_100_0, 0, var_100_2)
 	end
 
-	return var_98_0
+	return var_100_0
 end
 
-function var_0_0.IsSupportSubmarineStage(arg_99_0)
-	return arg_99_0:GetSupportFleetMaxCount() > 0 and tobool(arg_99_0:getConfigMiscArg("submarine_support"))
+function var_0_0.IsSupportSubmarineStage(arg_101_0)
+	return arg_101_0:GetSupportFleetMaxCount() > 0 and tobool(arg_101_0:getConfigMiscArg("submarine_support"))
 end
 
-function var_0_0.IsFogStage(arg_100_0)
-	return tobool(arg_100_0:getConfigMiscArg("fog"))
+function var_0_0.IsFogStage(arg_102_0)
+	return tobool(arg_102_0:getConfigMiscArg("fog"))
 end
 
 return var_0_0

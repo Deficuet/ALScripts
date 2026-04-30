@@ -1,6 +1,142 @@
 pg = pg or {}
-pg.backyard_theme_template = {
-	{
+pg.backyard_theme_template = rawget(pg, "backyard_theme_template") or setmetatable({
+	__name = "backyard_theme_template"
+}, confNEO)
+pg.backyard_theme_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	13,
+	14,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	65,
+	66,
+	69,
+	70,
+	71,
+	72,
+	73,
+	74,
+	75,
+	76,
+	77,
+	78,
+	79,
+	80,
+	81,
+	82,
+	83,
+	84,
+	85,
+	86,
+	87,
+	88,
+	89,
+	90,
+	91,
+	92,
+	93,
+	94,
+	95,
+	96,
+	97,
+	98,
+	99,
+	100,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	113,
+	114,
+	115,
+	116,
+	117,
+	118,
+	119,
+	120,
+	121,
+	122,
+	123,
+	124,
+	125,
+	126,
+	127,
+	129,
+	130,
+	131,
+	132,
+	133,
+	134,
+	135,
+	136,
+	137
+}
+pg.base = pg.base or {}
+pg.base.backyard_theme_template = {}
+
+;(function()
+	pg.base.backyard_theme_template[1] = {
 		Cfg_1 = 5,
 		name = "穷神院落",
 		hot = 0,
@@ -32,8 +168,8 @@ pg.backyard_theme_template = {
 			1308,
 			1309
 		}
-	},
-	{
+	}
+	pg.base.backyard_theme_template[2] = {
 		Cfg_1 = 5,
 		name = "和风秋日",
 		hot = 0,
@@ -72,8 +208,8 @@ pg.backyard_theme_template = {
 			2304,
 			2305
 		}
-	},
-	{
+	}
+	pg.base.backyard_theme_template[3] = {
 		Cfg_1 = 5,
 		name = "白鹰蓝调",
 		hot = 0,
@@ -112,8 +248,8 @@ pg.backyard_theme_template = {
 			3305,
 			3306
 		}
-	},
-	{
+	}
+	pg.base.backyard_theme_template[4] = {
 		Cfg_1 = 5,
 		name = "皇家茶室",
 		hot = 0,
@@ -154,8 +290,8 @@ pg.backyard_theme_template = {
 			4306,
 			4307
 		}
-	},
-	{
+	}
+	pg.base.backyard_theme_template[5] = {
 		Cfg_1 = 5,
 		name = "铁血指挥部",
 		hot = 0,
@@ -196,8 +332,8 @@ pg.backyard_theme_template = {
 			5306,
 			5307
 		}
-	},
-	{
+	}
+	pg.base.backyard_theme_template[6] = {
 		Cfg_1 = 5,
 		name = "bilibili",
 		hot = 0,
@@ -251,8 +387,8 @@ pg.backyard_theme_template = {
 			6302,
 			6303
 		}
-	},
-	{
+	}
+	pg.base.backyard_theme_template[7] = {
 		Cfg_1 = 5,
 		name = "夏日清凉",
 		hot = 0,
@@ -312,8 +448,8 @@ pg.backyard_theme_template = {
 			7303,
 			7304
 		}
-	},
-	{
+	}
+	pg.base.backyard_theme_template[8] = {
 		Cfg_1 = 5,
 		name = "铁血酒庄",
 		hot = 0,
@@ -359,8 +495,8 @@ pg.backyard_theme_template = {
 			8306,
 			8307
 		}
-	},
-	{
+	}
+	pg.base.backyard_theme_template[9] = {
 		Cfg_1 = 5,
 		name = "绘画教室",
 		hot = 0,
@@ -414,8 +550,8 @@ pg.backyard_theme_template = {
 			9304,
 			9306
 		}
-	},
-	{
+	}
+	pg.base.backyard_theme_template[10] = {
 		Cfg_1 = 5,
 		name = "东煌古风",
 		hot = 0,
@@ -473,8 +609,8 @@ pg.backyard_theme_template = {
 			10302,
 			10303
 		}
-	},
-	{
+	}
+	pg.base.backyard_theme_template[11] = {
 		Cfg_1 = 5,
 		name = "午后茶会",
 		hot = 0,
@@ -529,8 +665,8 @@ pg.backyard_theme_template = {
 			11306,
 			11307
 		}
-	},
-	[13] = {
+	}
+	pg.base.backyard_theme_template[13] = {
 		Cfg_1 = 5,
 		name = "万圣节",
 		hot = 0,
@@ -585,8 +721,8 @@ pg.backyard_theme_template = {
 			13305,
 			13306
 		}
-	},
-	[14] = {
+	}
+	pg.base.backyard_theme_template[14] = {
 		Cfg_1 = 5,
 		name = "邂逅繁星",
 		hot = 0,
@@ -629,8 +765,8 @@ pg.backyard_theme_template = {
 			14303,
 			14304
 		}
-	},
-	[16] = {
+	}
+	pg.base.backyard_theme_template[16] = {
 		Cfg_1 = 5,
 		name = "圣诞节",
 		hot = 0,
@@ -700,8 +836,8 @@ pg.backyard_theme_template = {
 				}
 			}
 		}
-	},
-	[17] = {
+	}
+	pg.base.backyard_theme_template[17] = {
 		Cfg_1 = 5,
 		name = "新年主题",
 		hot = 0,
@@ -768,8 +904,8 @@ pg.backyard_theme_template = {
 				}
 			}
 		}
-	},
-	[18] = {
+	}
+	pg.base.backyard_theme_template[18] = {
 		Cfg_1 = 5,
 		name = "游戏业界",
 		hot = 1,
@@ -810,8 +946,8 @@ pg.backyard_theme_template = {
 			18305,
 			18306
 		}
-	},
-	[19] = {
+	}
+	pg.base.backyard_theme_template[19] = {
 		Cfg_1 = 5,
 		name = "恭贺新春",
 		hot = 0,
@@ -883,8 +1019,8 @@ pg.backyard_theme_template = {
 				}
 			}
 		}
-	},
-	[20] = {
+	}
+	pg.base.backyard_theme_template[20] = {
 		Cfg_1 = 5,
 		name = "啾啾之森",
 		hot = 0,
@@ -917,8 +1053,8 @@ pg.backyard_theme_template = {
 			20113,
 			20114
 		}
-	},
-	[21] = {
+	}
+	pg.base.backyard_theme_template[21] = {
 		Cfg_1 = 5,
 		name = "MARIAGE D'AMOUR",
 		hot = 0,
@@ -960,8 +1096,8 @@ pg.backyard_theme_template = {
 			21301,
 			21302
 		}
-	},
-	[22] = {
+	}
+	pg.base.backyard_theme_template[22] = {
 		Cfg_1 = 5,
 		name = "皇家都会",
 		hot = 0,
@@ -1002,8 +1138,8 @@ pg.backyard_theme_template = {
 			22304,
 			22305
 		}
-	},
-	[23] = {
+	}
+	pg.base.backyard_theme_template[23] = {
 		Cfg_1 = 5,
 		name = "啾啾呦呦 ",
 		hot = 0,
@@ -1042,8 +1178,8 @@ pg.backyard_theme_template = {
 			23306,
 			23307
 		}
-	},
-	[24] = {
+	}
+	pg.base.backyard_theme_template[24] = {
 		Cfg_1 = 5,
 		name = "喵喵咖啡",
 		hot = 0,
@@ -1090,8 +1226,8 @@ pg.backyard_theme_template = {
 			24305,
 			24306
 		}
-	},
-	[25] = {
+	}
+	pg.base.backyard_theme_template[25] = {
 		Cfg_1 = 5,
 		name = "乡村印象",
 		hot = 0,
@@ -1143,8 +1279,8 @@ pg.backyard_theme_template = {
 			25304,
 			25305
 		}
-	},
-	[27] = {
+	}
+	pg.base.backyard_theme_template[27] = {
 		Cfg_1 = 5,
 		name = "水上乐园",
 		hot = 0,
@@ -1190,8 +1326,8 @@ pg.backyard_theme_template = {
 			27202,
 			27301
 		}
-	},
-	[28] = {
+	}
+	pg.base.backyard_theme_template[28] = {
 		Cfg_1 = 5,
 		name = "森林田园",
 		hot = 0,
@@ -1255,8 +1391,8 @@ pg.backyard_theme_template = {
 			28306,
 			28307
 		}
-	},
-	[29] = {
+	}
+	pg.base.backyard_theme_template[29] = {
 		Cfg_1 = 5,
 		name = "幽暗深海",
 		hot = 0,
@@ -1300,8 +1436,8 @@ pg.backyard_theme_template = {
 			29301,
 			29302
 		}
-	},
-	[30] = {
+	}
+	pg.base.backyard_theme_template[30] = {
 		Cfg_1 = 5,
 		name = "彩虹天堂",
 		hot = 0,
@@ -1346,8 +1482,8 @@ pg.backyard_theme_template = {
 			30302,
 			30303
 		}
-	},
-	[31] = {
+	}
+	pg.base.backyard_theme_template[31] = {
 		Cfg_1 = 5,
 		name = "atre秋叶原",
 		hot = 1,
@@ -1368,8 +1504,8 @@ pg.backyard_theme_template = {
 			31103,
 			31104
 		}
-	},
-	[32] = {
+	}
+	pg.base.backyard_theme_template[32] = {
 		Cfg_1 = 5,
 		name = "lawson系列",
 		hot = 1,
@@ -1390,8 +1526,8 @@ pg.backyard_theme_template = {
 			32105,
 			32106
 		}
-	},
-	[33] = {
+	}
+	pg.base.backyard_theme_template[33] = {
 		Cfg_1 = 5,
 		name = "妖怪屋之夜",
 		hot = 0,
@@ -1438,8 +1574,8 @@ pg.backyard_theme_template = {
 			33305,
 			33306
 		}
-	},
-	[35] = {
+	}
+	pg.base.backyard_theme_template[35] = {
 		Cfg_1 = 5,
 		name = "万圣鬼夜",
 		hot = 0,
@@ -1493,8 +1629,8 @@ pg.backyard_theme_template = {
 			35302,
 			35303
 		}
-	},
-	[36] = {
+	}
+	pg.base.backyard_theme_template[36] = {
 		Cfg_1 = 5,
 		name = "传颂之物",
 		hot = 1,
@@ -1533,8 +1669,8 @@ pg.backyard_theme_template = {
 			36304,
 			36305
 		}
-	},
-	[37] = {
+	}
+	pg.base.backyard_theme_template[37] = {
 		Cfg_1 = 5,
 		name = "圣诞街景",
 		hot = 0,
@@ -1573,8 +1709,8 @@ pg.backyard_theme_template = {
 			37119,
 			37120
 		}
-	},
-	[38] = {
+	}
+	pg.base.backyard_theme_template[38] = {
 		Cfg_1 = 5,
 		name = "猪突猛进！",
 		hot = 0,
@@ -1632,8 +1768,8 @@ pg.backyard_theme_template = {
 			38304,
 			38305
 		}
-	},
-	[39] = {
+	}
+	pg.base.backyard_theme_template[39] = {
 		Cfg_1 = 5,
 		name = "粉粉猪年",
 		hot = 0,
@@ -1687,8 +1823,8 @@ pg.backyard_theme_template = {
 			39306,
 			39307
 		}
-	},
-	[40] = {
+	}
+	pg.base.backyard_theme_template[40] = {
 		Cfg_1 = 5,
 		name = "雪山假日",
 		hot = 0,
@@ -1730,8 +1866,8 @@ pg.backyard_theme_template = {
 			40123,
 			40124
 		}
-	},
-	[41] = {
+	}
+	pg.base.backyard_theme_template[41] = {
 		Cfg_1 = 5,
 		name = "啾啾乐园",
 		hot = 0,
@@ -1766,8 +1902,8 @@ pg.backyard_theme_template = {
 			41115,
 			41116
 		}
-	},
-	[42] = {
+	}
+	pg.base.backyard_theme_template[42] = {
 		Cfg_1 = 5,
 		name = "传统风格",
 		hot = 0,
@@ -1809,8 +1945,8 @@ pg.backyard_theme_template = {
 			42303,
 			42304
 		}
-	},
-	[43] = {
+	}
+	pg.base.backyard_theme_template[43] = {
 		Cfg_1 = 5,
 		name = "虚拟空间",
 		hot = 1,
@@ -1853,8 +1989,8 @@ pg.backyard_theme_template = {
 			43304,
 			43307
 		}
-	},
-	[44] = {
+	}
+	pg.base.backyard_theme_template[44] = {
 		Cfg_1 = 5,
 		name = "下雨天",
 		hot = 0,
@@ -1897,8 +2033,8 @@ pg.backyard_theme_template = {
 			44301,
 			44302
 		}
-	},
-	[45] = {
+	}
+	pg.base.backyard_theme_template[45] = {
 		Cfg_1 = 5,
 		name = "铁血乐章",
 		hot = 0,
@@ -1962,8 +2098,8 @@ pg.backyard_theme_template = {
 			45309,
 			45310
 		}
-	},
-	[46] = {
+	}
+	pg.base.backyard_theme_template[46] = {
 		Cfg_1 = 5,
 		name = "Cyberpunk",
 		hot = 0,
@@ -2015,8 +2151,8 @@ pg.backyard_theme_template = {
 			46304,
 			46305
 		}
-	},
-	[48] = {
+	}
+	pg.base.backyard_theme_template[48] = {
 		Cfg_1 = 5,
 		name = "撒丁风情",
 		hot = 0,
@@ -2062,8 +2198,8 @@ pg.backyard_theme_template = {
 			48302,
 			48303
 		}
-	},
-	[49] = {
+	}
+	pg.base.backyard_theme_template[49] = {
 		Cfg_1 = 5,
 		name = "港区指挥室",
 		hot = 1,
@@ -2109,8 +2245,8 @@ pg.backyard_theme_template = {
 			49304,
 			49305
 		}
-	},
-	[50] = {
+	}
+	pg.base.backyard_theme_template[50] = {
 		Cfg_1 = 5,
 		name = "公路之旅",
 		hot = 0,
@@ -2152,8 +2288,8 @@ pg.backyard_theme_template = {
 			50122,
 			50123
 		}
-	},
-	[51] = {
+	}
+	pg.base.backyard_theme_template[51] = {
 		Cfg_1 = 5,
 		name = "热闹夜市",
 		hot = 1,
@@ -2189,8 +2325,8 @@ pg.backyard_theme_template = {
 			51117,
 			51118
 		}
-	},
-	[52] = {
+	}
+	pg.base.backyard_theme_template[52] = {
 		Cfg_1 = 5,
 		name = "惊叫小镇",
 		hot = 0,
@@ -2227,8 +2363,8 @@ pg.backyard_theme_template = {
 			52117,
 			52118
 		}
-	},
-	[53] = {
+	}
+	pg.base.backyard_theme_template[53] = {
 		Cfg_1 = 5,
 		name = "激奏Live！",
 		hot = 0,
@@ -2265,8 +2401,8 @@ pg.backyard_theme_template = {
 			53303,
 			53304
 		}
-	},
-	[54] = {
+	}
+	pg.base.backyard_theme_template[54] = {
 		Cfg_1 = 5,
 		name = "pocky联动",
 		hot = 1,
@@ -2288,8 +2424,8 @@ pg.backyard_theme_template = {
 			54104,
 			54105
 		}
-	},
-	[55] = {
+	}
+	pg.base.backyard_theme_template[55] = {
 		Cfg_1 = 5,
 		name = "hololive",
 		hot = 1,
@@ -2345,8 +2481,8 @@ pg.backyard_theme_template = {
 			55306,
 			55307
 		}
-	},
-	[56] = {
+	}
+	pg.base.backyard_theme_template[56] = {
 		Cfg_1 = 5,
 		name = "童话小镇",
 		hot = 0,
@@ -2378,8 +2514,8 @@ pg.backyard_theme_template = {
 			56112,
 			56113
 		}
-	},
-	[57] = {
+	}
+	pg.base.backyard_theme_template[57] = {
 		Cfg_1 = 5,
 		name = "初诣之夜",
 		hot = 0,
@@ -2415,8 +2551,8 @@ pg.backyard_theme_template = {
 			57116,
 			57117
 		}
-	},
-	[58] = {
+	}
+	pg.base.backyard_theme_template[58] = {
 		Cfg_1 = 5,
 		name = "节庆团圆！",
 		hot = 0,
@@ -2452,8 +2588,8 @@ pg.backyard_theme_template = {
 			58303,
 			58304
 		}
-	},
-	[59] = {
+	}
+	pg.base.backyard_theme_template[59] = {
 		Cfg_1 = 5,
 		name = "梦幻时刻",
 		hot = 0,
@@ -2487,8 +2623,8 @@ pg.backyard_theme_template = {
 			59302,
 			59303
 		}
-	},
-	[60] = {
+	}
+	pg.base.backyard_theme_template[60] = {
 		Cfg_1 = 5,
 		name = "啾狱风云",
 		hot = 0,
@@ -2534,8 +2670,8 @@ pg.backyard_theme_template = {
 			60304,
 			60305
 		}
-	},
-	[61] = {
+	}
+	pg.base.backyard_theme_template[61] = {
 		Cfg_1 = 5,
 		name = "啾啾运动会",
 		hot = 0,
@@ -2581,8 +2717,8 @@ pg.backyard_theme_template = {
 			61302,
 			61303
 		}
-	},
-	[62] = {
+	}
+	pg.base.backyard_theme_template[62] = {
 		Cfg_1 = 5,
 		name = "鸢尾印象",
 		hot = 0,
@@ -2617,8 +2753,8 @@ pg.backyard_theme_template = {
 			62115,
 			62116
 		}
-	},
-	[63] = {
+	}
+	pg.base.backyard_theme_template[63] = {
 		Cfg_1 = 5,
 		name = "啾啾欢乐餐厅",
 		hot = 1,
@@ -2656,8 +2792,8 @@ pg.backyard_theme_template = {
 			63304,
 			63305
 		}
-	},
-	[65] = {
+	}
+	pg.base.backyard_theme_template[65] = {
 		Cfg_1 = 5,
 		name = "和风庭院",
 		hot = 0,
@@ -2696,8 +2832,8 @@ pg.backyard_theme_template = {
 			65119,
 			65301
 		}
-	},
-	[66] = {
+	}
+	pg.base.backyard_theme_template[66] = {
 		Cfg_1 = 5,
 		name = "疾速狂热",
 		hot = 0,
@@ -2737,8 +2873,8 @@ pg.backyard_theme_template = {
 			66120,
 			66121
 		}
-	},
-	[69] = {
+	}
+	pg.base.backyard_theme_template[69] = {
 		Cfg_1 = 5,
 		name = "啾啾诊疗所",
 		hot = 0,
@@ -2783,8 +2919,8 @@ pg.backyard_theme_template = {
 			69308,
 			69309
 		}
-	},
-	[70] = {
+	}
+	pg.base.backyard_theme_template[70] = {
 		Cfg_1 = 5,
 		name = "激唱Live！",
 		hot = 0,
@@ -2819,8 +2955,8 @@ pg.backyard_theme_template = {
 			70115,
 			70116
 		}
-	},
-	[71] = {
+	}
+	pg.base.backyard_theme_template[71] = {
 		Cfg_1 = 5,
 		name = "万圣惊魂",
 		hot = 0,
@@ -2855,8 +2991,8 @@ pg.backyard_theme_template = {
 			71115,
 			71301
 		}
-	},
-	[72] = {
+	}
+	pg.base.backyard_theme_template[72] = {
 		Cfg_1 = 5,
 		name = "女神假期",
 		hot = 1,
@@ -2898,8 +3034,8 @@ pg.backyard_theme_template = {
 			72122,
 			72123
 		}
-	},
-	[73] = {
+	}
+	pg.base.backyard_theme_template[73] = {
 		Cfg_1 = 5,
 		name = "温暖圣夜",
 		hot = 0,
@@ -2944,8 +3080,8 @@ pg.backyard_theme_template = {
 			73304,
 			73305
 		}
-	},
-	[74] = {
+	}
+	pg.base.backyard_theme_template[74] = {
 		Cfg_1 = 5,
 		name = "新年雪街",
 		hot = 0,
@@ -2982,8 +3118,8 @@ pg.backyard_theme_template = {
 			74117,
 			74118
 		}
-	},
-	[75] = {
+	}
+	pg.base.backyard_theme_template[75] = {
 		Cfg_1 = 5,
 		name = "敬贺新禧",
 		hot = 0,
@@ -3019,8 +3155,8 @@ pg.backyard_theme_template = {
 			75116,
 			75301
 		}
-	},
-	[76] = {
+	}
+	pg.base.backyard_theme_template[76] = {
 		Cfg_1 = 5,
 		name = "熊猫之家",
 		hot = 1,
@@ -3067,8 +3203,8 @@ pg.backyard_theme_template = {
 			76304,
 			76305
 		}
-	},
-	[77] = {
+	}
+	pg.base.backyard_theme_template[77] = {
 		Cfg_1 = 5,
 		name = "北地雪镇",
 		hot = 0,
@@ -3103,8 +3239,8 @@ pg.backyard_theme_template = {
 			77115,
 			77116
 		}
-	},
-	[78] = {
+	}
+	pg.base.backyard_theme_template[78] = {
 		Cfg_1 = 5,
 		name = "啾啾圣堂",
 		hot = 0,
@@ -3138,8 +3274,8 @@ pg.backyard_theme_template = {
 			78114,
 			78115
 		}
-	},
-	[79] = {
+	}
+	pg.base.backyard_theme_template[79] = {
 		Cfg_1 = 5,
 		name = "765事务所",
 		hot = 1,
@@ -3187,8 +3323,8 @@ pg.backyard_theme_template = {
 			79307,
 			79308
 		}
-	},
-	[80] = {
+	}
+	pg.base.backyard_theme_template[80] = {
 		Cfg_1 = 5,
 		name = "啾啾游戏吧",
 		hot = 0,
@@ -3221,8 +3357,8 @@ pg.backyard_theme_template = {
 			80305,
 			80306
 		}
-	},
-	[81] = {
+	}
+	pg.base.backyard_theme_template[81] = {
 		Cfg_1 = 5,
 		name = "啾啾学园",
 		hot = 0,
@@ -3263,8 +3399,8 @@ pg.backyard_theme_template = {
 			81305,
 			81306
 		}
-	},
-	[82] = {
+	}
+	pg.base.backyard_theme_template[82] = {
 		Cfg_1 = 5,
 		name = "西部风情",
 		hot = 0,
@@ -3302,8 +3438,8 @@ pg.backyard_theme_template = {
 			82122,
 			82123
 		}
-	},
-	[83] = {
+	}
+	pg.base.backyard_theme_template[83] = {
 		Cfg_1 = 5,
 		name = "祭典之夜",
 		hot = 0,
@@ -3335,8 +3471,8 @@ pg.backyard_theme_template = {
 			83116,
 			83117
 		}
-	},
-	[84] = {
+	}
+	pg.base.backyard_theme_template[84] = {
 		Cfg_1 = 5,
 		name = "特摄都市",
 		hot = 1,
@@ -3391,8 +3527,8 @@ pg.backyard_theme_template = {
 			84177,
 			84178
 		}
-	},
-	[85] = {
+	}
+	pg.base.backyard_theme_template[85] = {
 		Cfg_1 = 5,
 		name = "Café in 港区",
 		hot = 0,
@@ -3440,8 +3576,8 @@ pg.backyard_theme_template = {
 			85308,
 			85309
 		}
-	},
-	[86] = {
+	}
+	pg.base.backyard_theme_template[86] = {
 		Cfg_1 = 5,
 		name = "东煌园林",
 		hot = 0,
@@ -3479,8 +3615,8 @@ pg.backyard_theme_template = {
 			86119,
 			86301
 		}
-	},
-	[87] = {
+	}
+	pg.base.backyard_theme_template[87] = {
 		Cfg_1 = 5,
 		name = "校园之风",
 		hot = 1,
@@ -3515,8 +3651,8 @@ pg.backyard_theme_template = {
 			87130,
 			87131
 		}
-	},
-	[88] = {
+	}
+	pg.base.backyard_theme_template[88] = {
 		Cfg_1 = 5,
 		name = "吸血鬼古堡",
 		hot = 1,
@@ -3556,8 +3692,8 @@ pg.backyard_theme_template = {
 			88304,
 			88305
 		}
-	},
-	[89] = {
+	}
+	pg.base.backyard_theme_template[89] = {
 		Cfg_1 = 5,
 		name = "东煌时尚",
 		hot = 1,
@@ -3602,8 +3738,8 @@ pg.backyard_theme_template = {
 			89307,
 			89309
 		}
-	},
-	[90] = {
+	}
+	pg.base.backyard_theme_template[90] = {
 		Cfg_1 = 5,
 		name = "童话之森",
 		hot = 1,
@@ -3641,8 +3777,8 @@ pg.backyard_theme_template = {
 			90125,
 			90127
 		}
-	},
-	[91] = {
+	}
+	pg.base.backyard_theme_template[91] = {
 		Cfg_1 = 5,
 		name = "啾啾舞蹈室",
 		hot = 1,
@@ -3691,8 +3827,8 @@ pg.backyard_theme_template = {
 			91304,
 			91305
 		}
-	},
-	[92] = {
+	}
+	pg.base.backyard_theme_template[92] = {
 		Cfg_1 = 5,
 		name = "啾啾速食餐厅",
 		hot = 1,
@@ -3724,8 +3860,8 @@ pg.backyard_theme_template = {
 			92307,
 			92308
 		}
-	},
-	[93] = {
+	}
+	pg.base.backyard_theme_template[93] = {
 		Cfg_1 = 5,
 		name = "清凉盛夏",
 		hot = 1,
@@ -3763,8 +3899,8 @@ pg.backyard_theme_template = {
 			93119,
 			93120
 		}
-	},
-	[94] = {
+	}
+	pg.base.backyard_theme_template[94] = {
 		Cfg_1 = 5,
 		name = "啾啾学园庆典",
 		hot = 1,
@@ -3804,8 +3940,8 @@ pg.backyard_theme_template = {
 			94305,
 			94306
 		}
-	},
-	[95] = {
+	}
+	pg.base.backyard_theme_template[95] = {
 		Cfg_1 = 5,
 		name = "炼金工房",
 		hot = 1,
@@ -3853,8 +3989,8 @@ pg.backyard_theme_template = {
 			95304,
 			95305
 		}
-	},
-	[96] = {
+	}
+	pg.base.backyard_theme_template[96] = {
 		Cfg_1 = 5,
 		name = "南方假日",
 		hot = 1,
@@ -3893,8 +4029,8 @@ pg.backyard_theme_template = {
 			96306,
 			96307
 		}
-	},
-	[97] = {
+	}
+	pg.base.backyard_theme_template[97] = {
 		Cfg_1 = 5,
 		name = "美食乐园",
 		hot = 0,
@@ -3935,8 +4071,8 @@ pg.backyard_theme_template = {
 			97130,
 			97301
 		}
-	},
-	[98] = {
+	}
+	pg.base.backyard_theme_template[98] = {
 		Cfg_1 = 5,
 		name = "皇家教室",
 		hot = 1,
@@ -3994,8 +4130,8 @@ pg.backyard_theme_template = {
 			98313,
 			98314
 		}
-	},
-	[99] = {
+	}
+	pg.base.backyard_theme_template[99] = {
 		Cfg_1 = 5,
 		name = "温泉时光",
 		hot = 1,
@@ -4040,8 +4176,8 @@ pg.backyard_theme_template = {
 			99303,
 			99304
 		}
-	},
-	[100] = {
+	}
+	pg.base.backyard_theme_template[100] = {
 		Cfg_1 = 5,
 		name = "海岛冒险",
 		hot = 1,
@@ -4087,8 +4223,8 @@ pg.backyard_theme_template = {
 			300201,
 			300202
 		}
-	},
-	[101] = {
+	}
+	pg.base.backyard_theme_template[101] = {
 		Cfg_1 = 5,
 		name = "漫花庄园",
 		hot = 1,
@@ -4128,8 +4264,8 @@ pg.backyard_theme_template = {
 			301120,
 			301123
 		}
-	},
-	[102] = {
+	}
+	pg.base.backyard_theme_template[102] = {
 		Cfg_1 = 5,
 		name = "典雅宫廷",
 		hot = 1,
@@ -4176,8 +4312,8 @@ pg.backyard_theme_template = {
 			302303,
 			302304
 		}
-	},
-	[103] = {
+	}
+	pg.base.backyard_theme_template[103] = {
 		Cfg_1 = 5,
 		name = "常世温泉街",
 		hot = 1,
@@ -4211,8 +4347,8 @@ pg.backyard_theme_template = {
 			303117,
 			303119
 		}
-	},
-	[104] = {
+	}
+	pg.base.backyard_theme_template[104] = {
 		Cfg_1 = 5,
 		name = "航海之家",
 		hot = 1,
@@ -4268,8 +4404,8 @@ pg.backyard_theme_template = {
 			304119,
 			304108
 		}
-	},
-	[105] = {
+	}
+	pg.base.backyard_theme_template[105] = {
 		Cfg_1 = 5,
 		name = "忍者之家",
 		hot = 1,
@@ -4307,8 +4443,8 @@ pg.backyard_theme_template = {
 			305305,
 			305306
 		}
-	},
-	[106] = {
+	}
+	pg.base.backyard_theme_template[106] = {
 		Cfg_1 = 5,
 		name = "港区喧嚣夜",
 		hot = 1,
@@ -4339,8 +4475,8 @@ pg.backyard_theme_template = {
 			306112,
 			306114
 		}
-	},
-	[107] = {
+	}
+	pg.base.backyard_theme_template[107] = {
 		Cfg_1 = 5,
 		name = "龙年新春",
 		hot = 1,
@@ -4371,8 +4507,8 @@ pg.backyard_theme_template = {
 			307113,
 			307114
 		}
-	},
-	[108] = {
+	}
+	pg.base.backyard_theme_template[108] = {
 		Cfg_1 = 5,
 		name = "怪盗谜题",
 		hot = 1,
@@ -4413,8 +4549,10 @@ pg.backyard_theme_template = {
 			308303,
 			308304
 		}
-	},
-	[109] = {
+	}
+end)()
+;(function()
+	pg.base.backyard_theme_template[109] = {
 		Cfg_1 = 5,
 		name = "森林小屋",
 		hot = 1,
@@ -4448,8 +4586,8 @@ pg.backyard_theme_template = {
 			309301,
 			309302
 		}
-	},
-	[110] = {
+	}
+	pg.base.backyard_theme_template[110] = {
 		Cfg_1 = 5,
 		name = "星光化妆间",
 		hot = 1,
@@ -4493,8 +4631,8 @@ pg.backyard_theme_template = {
 			310309,
 			310310
 		}
-	},
-	[111] = {
+	}
+	pg.base.backyard_theme_template[111] = {
 		Cfg_1 = 5,
 		name = "假日邮轮",
 		hot = 1,
@@ -4528,8 +4666,8 @@ pg.backyard_theme_template = {
 			311114,
 			311115
 		}
-	},
-	[112] = {
+	}
+	pg.base.backyard_theme_template[112] = {
 		Cfg_1 = 5,
 		name = "燃燃咖啡厅 ",
 		hot = 1,
@@ -4563,8 +4701,8 @@ pg.backyard_theme_template = {
 			312301,
 			312302
 		}
-	},
-	[113] = {
+	}
+	pg.base.backyard_theme_template[113] = {
 		Cfg_1 = 5,
 		name = "西部旅店 ",
 		hot = 1,
@@ -4598,8 +4736,8 @@ pg.backyard_theme_template = {
 			313302,
 			313303
 		}
-	},
-	[114] = {
+	}
+	pg.base.backyard_theme_template[114] = {
 		Cfg_1 = 5,
 		name = "梦幻乐园 ",
 		hot = 1,
@@ -4628,8 +4766,8 @@ pg.backyard_theme_template = {
 			314110,
 			314111
 		}
-	},
-	[115] = {
+	}
+	pg.base.backyard_theme_template[115] = {
 		Cfg_1 = 5,
 		name = "幽暗之港 ",
 		hot = 1,
@@ -4660,8 +4798,8 @@ pg.backyard_theme_template = {
 			315111,
 			315112
 		}
-	},
-	[116] = {
+	}
+	pg.base.backyard_theme_template[116] = {
 		Cfg_1 = 5,
 		name = "王女风格 ",
 		hot = 1,
@@ -4697,8 +4835,8 @@ pg.backyard_theme_template = {
 			316304,
 			316305
 		}
-	},
-	[117] = {
+	}
+	pg.base.backyard_theme_template[117] = {
 		Cfg_1 = 5,
 		name = "荒野庇护所",
 		hot = 1,
@@ -4729,8 +4867,8 @@ pg.backyard_theme_template = {
 			317302,
 			317303
 		}
-	},
-	[118] = {
+	}
+	pg.base.backyard_theme_template[118] = {
 		Cfg_1 = 5,
 		name = "踏雪寻梅 ",
 		hot = 1,
@@ -4766,8 +4904,8 @@ pg.backyard_theme_template = {
 			318303,
 			318304
 		}
-	},
-	[119] = {
+	}
+	pg.base.backyard_theme_template[119] = {
 		Cfg_1 = 5,
 		name = "法老秘境 ",
 		hot = 1,
@@ -4806,8 +4944,8 @@ pg.backyard_theme_template = {
 			319303,
 			319304
 		}
-	},
-	[120] = {
+	}
+	pg.base.backyard_theme_template[120] = {
 		Cfg_1 = 5,
 		name = "深空医疗站 ",
 		hot = 1,
@@ -4846,8 +4984,8 @@ pg.backyard_theme_template = {
 			320305,
 			320306
 		}
-	},
-	[121] = {
+	}
+	pg.base.backyard_theme_template[121] = {
 		Cfg_1 = 5,
 		name = "郁金田园 ",
 		hot = 1,
@@ -4883,8 +5021,8 @@ pg.backyard_theme_template = {
 			321117,
 			321118
 		}
-	},
-	[122] = {
+	}
+	pg.base.backyard_theme_template[122] = {
 		Cfg_1 = 5,
 		name = "海滨假日",
 		hot = 1,
@@ -4918,8 +5056,8 @@ pg.backyard_theme_template = {
 			322114,
 			322115
 		}
-	},
-	[123] = {
+	}
+	pg.base.backyard_theme_template[123] = {
 		Cfg_1 = 5,
 		name = "铁道之旅",
 		hot = 1,
@@ -4955,8 +5093,8 @@ pg.backyard_theme_template = {
 			324116,
 			324117
 		}
-	},
-	[124] = {
+	}
+	pg.base.backyard_theme_template[124] = {
 		Cfg_1 = 5,
 		name = "工房休息区",
 		hot = 1,
@@ -5003,8 +5141,8 @@ pg.backyard_theme_template = {
 			325302,
 			325303
 		}
-	},
-	[125] = {
+	}
+	pg.base.backyard_theme_template[125] = {
 		Cfg_1 = 5,
 		name = "炼金工作区",
 		hot = 1,
@@ -5034,8 +5172,8 @@ pg.backyard_theme_template = {
 			326110,
 			326111
 		}
-	},
-	[126] = {
+	}
+	pg.base.backyard_theme_template[126] = {
 		Cfg_1 = 5,
 		name = "工房庭院",
 		hot = 1,
@@ -5073,8 +5211,8 @@ pg.backyard_theme_template = {
 			327301,
 			327302
 		}
-	},
-	[127] = {
+	}
+	pg.base.backyard_theme_template[127] = {
 		Cfg_1 = 5,
 		name = "林间温泉",
 		hot = 1,
@@ -5110,8 +5248,8 @@ pg.backyard_theme_template = {
 			328116,
 			328117
 		}
-	},
-	[129] = {
+	}
+	pg.base.backyard_theme_template[129] = {
 		Cfg_1 = 5,
 		name = "忍者之城",
 		hot = 1,
@@ -5149,8 +5287,8 @@ pg.backyard_theme_template = {
 			329118,
 			329119
 		}
-	},
-	[130] = {
+	}
+	pg.base.backyard_theme_template[130] = {
 		Cfg_1 = 5,
 		name = "迷宫都市",
 		hot = 1,
@@ -5170,8 +5308,8 @@ pg.backyard_theme_template = {
 			330002,
 			330101
 		}
-	},
-	[131] = {
+	}
+	pg.base.backyard_theme_template[131] = {
 		Cfg_1 = 5,
 		name = "空中战舰 ",
 		hot = 1,
@@ -5215,8 +5353,8 @@ pg.backyard_theme_template = {
 			331307,
 			331308
 		}
-	},
-	[132] = {
+	}
+	pg.base.backyard_theme_template[132] = {
 		Cfg_1 = 5,
 		name = "幽光神殿",
 		hot = 1,
@@ -5248,8 +5386,8 @@ pg.backyard_theme_template = {
 			332112,
 			332301
 		}
-	},
-	[133] = {
+	}
+	pg.base.backyard_theme_template[133] = {
 		Cfg_1 = 5,
 		name = "粉喵女仆屋",
 		hot = 1,
@@ -5287,8 +5425,8 @@ pg.backyard_theme_template = {
 			333118,
 			333301
 		}
-	},
-	[134] = {
+	}
+	pg.base.backyard_theme_template[134] = {
 		Cfg_1 = 5,
 		name = "时尚摄影棚",
 		hot = 1,
@@ -5330,8 +5468,8 @@ pg.backyard_theme_template = {
 			334301,
 			334302
 		}
-	},
-	[135] = {
+	}
+	pg.base.backyard_theme_template[135] = {
 		Cfg_1 = 5,
 		name = "新春拍卖会",
 		hot = 1,
@@ -5370,8 +5508,8 @@ pg.backyard_theme_template = {
 			335301,
 			335302
 		}
-	},
-	[136] = {
+	}
+	pg.base.backyard_theme_template[136] = {
 		Cfg_1 = 5,
 		name = "数据指挥中心",
 		hot = 1,
@@ -5406,8 +5544,8 @@ pg.backyard_theme_template = {
 			336301,
 			336302
 		}
-	},
-	[137] = {
+	}
+	pg.base.backyard_theme_template[137] = {
 		Cfg_1 = 5,
 		name = "闪耀海滨",
 		hot = 1,
@@ -5441,135 +5579,5 @@ pg.backyard_theme_template = {
 			337115,
 			337116
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		13,
-		14,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63,
-		65,
-		66,
-		69,
-		70,
-		71,
-		72,
-		73,
-		74,
-		75,
-		76,
-		77,
-		78,
-		79,
-		80,
-		81,
-		82,
-		83,
-		84,
-		85,
-		86,
-		87,
-		88,
-		89,
-		90,
-		91,
-		92,
-		93,
-		94,
-		95,
-		96,
-		97,
-		98,
-		99,
-		100,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		113,
-		114,
-		115,
-		116,
-		117,
-		118,
-		119,
-		120,
-		121,
-		122,
-		123,
-		124,
-		125,
-		126,
-		127,
-		129,
-		130,
-		131,
-		132,
-		133,
-		134,
-		135,
-		136,
-		137
 	}
-}
+end)()

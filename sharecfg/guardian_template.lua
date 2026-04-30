@@ -1,6 +1,29 @@
 pg = pg or {}
-pg.guardian_template = {
-	{
+pg.guardian_template = rawget(pg, "guardian_template") or setmetatable({
+	__name = "guardian_template"
+}, confNEO)
+pg.guardian_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15
+}
+pg.base = pg.base or {}
+pg.base.guardian_template = {}
+
+;(function()
+	pg.base.guardian_template[1] = {
 		guardian_gain_pool = 17,
 		guardian_painting = "lisailiu",
 		type = 1,
@@ -20,8 +43,8 @@ pg.guardian_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.guardian_template[2] = {
 		guardian_gain_pool = 17,
 		guardian_painting = "chicheng",
 		type = 1,
@@ -41,8 +64,8 @@ pg.guardian_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.guardian_template[3] = {
 		guardian_gain_pool = 17,
 		guardian_painting = "kelaimengsuo",
 		type = 1,
@@ -62,8 +85,8 @@ pg.guardian_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.guardian_template[4] = {
 		guardian_gain_pool = 17,
 		guardian_painting = "bisimaiZ",
 		type = 1,
@@ -83,8 +106,8 @@ pg.guardian_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.guardian_template[5] = {
 		guardian_gain_pool = 18,
 		guardian_painting = "mingshi",
 		type = 1,
@@ -104,8 +127,8 @@ pg.guardian_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.guardian_template[6] = {
 		guardian_gain_pool = 18,
 		guardian_painting = "yilishabai",
 		type = 1,
@@ -125,8 +148,8 @@ pg.guardian_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.guardian_template[7] = {
 		guardian_gain_pool = 18,
 		guardian_painting = "yixian",
 		type = 1,
@@ -146,8 +169,8 @@ pg.guardian_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.guardian_template[8] = {
 		guardian_gain_pool = 18,
 		guardian_painting = "salatuojia",
 		type = 1,
@@ -167,8 +190,8 @@ pg.guardian_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.guardian_template[9] = {
 		guardian_gain_pool = 19,
 		guardian_painting = "weineituo",
 		type = 1,
@@ -188,8 +211,8 @@ pg.guardian_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.guardian_template[10] = {
 		guardian_gain_pool = 19,
 		guardian_painting = "huangjiacaifu",
 		type = 1,
@@ -209,8 +232,8 @@ pg.guardian_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.guardian_template[11] = {
 		guardian_gain_pool = 19,
 		guardian_painting = "tbniang",
 		type = 1,
@@ -230,8 +253,8 @@ pg.guardian_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.guardian_template[12] = {
 		guardian_gain_pool = 19,
 		guardian_painting = "suweiaitongmengnew",
 		type = 1,
@@ -251,8 +274,8 @@ pg.guardian_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.guardian_template[13] = {
 		guardian_gain_pool = 17,
 		guardian_painting = "qiye_dark",
 		type = 2,
@@ -274,8 +297,8 @@ pg.guardian_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.guardian_template[14] = {
 		guardian_gain_pool = 18,
 		guardian_painting = "hailunna_alter",
 		type = 2,
@@ -297,8 +320,8 @@ pg.guardian_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.guardian_template[15] = {
 		guardian_gain_pool = 19,
 		guardian_painting = "unknown2",
 		type = 2,
@@ -320,22 +343,5 @@ pg.guardian_template = {
 				1
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15
 	}
-}
+end)()

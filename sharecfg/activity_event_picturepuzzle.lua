@@ -1,6 +1,44 @@
 pg = pg or {}
-pg.activity_event_picturepuzzle = {
-	[549] = {
+pg.activity_event_picturepuzzle = rawget(pg, "activity_event_picturepuzzle") or setmetatable({
+	__name = "activity_event_picturepuzzle"
+}, confNEO)
+pg.activity_event_picturepuzzle.all = {
+	549,
+	758,
+	783,
+	935,
+	959,
+	4058,
+	4178,
+	4669,
+	4733,
+	4779,
+	4889,
+	4935,
+	5093,
+	5267,
+	5309,
+	5689,
+	5788,
+	5879,
+	40476,
+	334,
+	40228,
+	40276,
+	40284,
+	40305,
+	40393,
+	40714,
+	41270,
+	50422,
+	50493,
+	50810
+}
+pg.base = pg.base or {}
+pg.base.activity_event_picturepuzzle = {}
+
+;(function()
+	pg.base.activity_event_picturepuzzle[549] = {
 		id = 549,
 		chapter = 1360001,
 		cd = 1200,
@@ -53,8 +91,8 @@ pg.activity_event_picturepuzzle = {
 			"NavalAcademyScene",
 			"NewShopsScene"
 		}
-	},
-	[758] = {
+	}
+	pg.base.activity_event_picturepuzzle[758] = {
 		id = 758,
 		chapter = 0,
 		cd = 0,
@@ -77,8 +115,8 @@ pg.activity_event_picturepuzzle = {
 		story = {},
 		awards = {},
 		auto_finish_args = {}
-	},
-	[783] = {
+	}
+	pg.base.activity_event_picturepuzzle[783] = {
 		id = 783,
 		chapter = 0,
 		cd = 0,
@@ -103,8 +141,8 @@ pg.activity_event_picturepuzzle = {
 		story = {},
 		awards = {},
 		auto_finish_args = {}
-	},
-	[935] = {
+	}
+	pg.base.activity_event_picturepuzzle[935] = {
 		id = 935,
 		chapter = 1360001,
 		cd = 1200,
@@ -160,8 +198,8 @@ pg.activity_event_picturepuzzle = {
 			"NavalAcademyScene",
 			"NewShopsScene"
 		}
-	},
-	[959] = {
+	}
+	pg.base.activity_event_picturepuzzle[959] = {
 		id = 959,
 		chapter = 0,
 		cd = 0,
@@ -181,8 +219,8 @@ pg.activity_event_picturepuzzle = {
 		story = {},
 		awards = {},
 		auto_finish_args = {}
-	},
-	[4058] = {
+	}
+	pg.base.activity_event_picturepuzzle[4058] = {
 		id = 4058,
 		chapter = 0,
 		cd = 0,
@@ -207,8 +245,8 @@ pg.activity_event_picturepuzzle = {
 		story = {},
 		awards = {},
 		auto_finish_args = {}
-	},
-	[4178] = {
+	}
+	pg.base.activity_event_picturepuzzle[4178] = {
 		id = 4178,
 		chapter = 0,
 		cd = 0,
@@ -231,8 +269,8 @@ pg.activity_event_picturepuzzle = {
 		story = {},
 		awards = {},
 		auto_finish_args = {}
-	},
-	[4669] = {
+	}
+	pg.base.activity_event_picturepuzzle[4669] = {
 		id = 4669,
 		chapter = 0,
 		cd = 0,
@@ -250,8 +288,8 @@ pg.activity_event_picturepuzzle = {
 		story = {},
 		awards = {},
 		auto_finish_args = {}
-	},
-	[4733] = {
+	}
+	pg.base.activity_event_picturepuzzle[4733] = {
 		id = 4733,
 		chapter = 1360004,
 		cd = 600,
@@ -311,8 +349,8 @@ pg.activity_event_picturepuzzle = {
 			"NewShopsScene",
 			"BuildShipScene"
 		}
-	},
-	[4779] = {
+	}
+	pg.base.activity_event_picturepuzzle[4779] = {
 		id = 4779,
 		chapter = 0,
 		cd = 0,
@@ -341,8 +379,8 @@ pg.activity_event_picturepuzzle = {
 		story = {},
 		awards = {},
 		auto_finish_args = {}
-	},
-	[4889] = {
+	}
+	pg.base.activity_event_picturepuzzle[4889] = {
 		id = 4889,
 		chapter = 0,
 		cd = 0,
@@ -365,8 +403,8 @@ pg.activity_event_picturepuzzle = {
 		story = {},
 		awards = {},
 		auto_finish_args = {}
-	},
-	[4935] = {
+	}
+	pg.base.activity_event_picturepuzzle[4935] = {
 		id = 4935,
 		chapter = 0,
 		cd = 0,
@@ -389,8 +427,8 @@ pg.activity_event_picturepuzzle = {
 		story = {},
 		awards = {},
 		auto_finish_args = {}
-	},
-	[5093] = {
+	}
+	pg.base.activity_event_picturepuzzle[5093] = {
 		id = 5093,
 		chapter = 0,
 		cd = 0,
@@ -408,8 +446,8 @@ pg.activity_event_picturepuzzle = {
 		story = {},
 		awards = {},
 		auto_finish_args = {}
-	},
-	[5267] = {
+	}
+	pg.base.activity_event_picturepuzzle[5267] = {
 		id = 5267,
 		chapter = 1360005,
 		cd = 600,
@@ -476,8 +514,8 @@ pg.activity_event_picturepuzzle = {
 			"BuildShipScene",
 			"CollectionScene"
 		}
-	},
-	[5309] = {
+	}
+	pg.base.activity_event_picturepuzzle[5309] = {
 		id = 5309,
 		chapter = 0,
 		cd = 0,
@@ -500,8 +538,8 @@ pg.activity_event_picturepuzzle = {
 		story = {},
 		awards = {},
 		auto_finish_args = {}
-	},
-	[5689] = {
+	}
+	pg.base.activity_event_picturepuzzle[5689] = {
 		id = 5689,
 		chapter = 0,
 		cd = 0,
@@ -518,8 +556,8 @@ pg.activity_event_picturepuzzle = {
 		story = {},
 		awards = {},
 		auto_finish_args = {}
-	},
-	[5788] = {
+	}
+	pg.base.activity_event_picturepuzzle[5788] = {
 		id = 5788,
 		chapter = 0,
 		cd = 0,
@@ -542,8 +580,8 @@ pg.activity_event_picturepuzzle = {
 		story = {},
 		awards = {},
 		auto_finish_args = {}
-	},
-	[5879] = {
+	}
+	pg.base.activity_event_picturepuzzle[5879] = {
 		id = 5879,
 		chapter = 1360006,
 		cd = 600,
@@ -608,8 +646,8 @@ pg.activity_event_picturepuzzle = {
 			"CollectionScene",
 			"BuildShipScene"
 		}
-	},
-	[40476] = {
+	}
+	pg.base.activity_event_picturepuzzle[40476] = {
 		id = 40476,
 		chapter = 0,
 		cd = 0,
@@ -632,8 +670,8 @@ pg.activity_event_picturepuzzle = {
 		story = {},
 		awards = {},
 		auto_finish_args = {}
-	},
-	[334] = {
+	}
+	pg.base.activity_event_picturepuzzle[334] = {
 		id = 334,
 		chapter = 0,
 		cd = 0,
@@ -653,8 +691,8 @@ pg.activity_event_picturepuzzle = {
 		story = {},
 		awards = {},
 		auto_finish_args = {}
-	},
-	[40228] = {
+	}
+	pg.base.activity_event_picturepuzzle[40228] = {
 		id = 40228,
 		chapter = 0,
 		cd = 0,
@@ -679,8 +717,8 @@ pg.activity_event_picturepuzzle = {
 		story = {},
 		awards = {},
 		auto_finish_args = {}
-	},
-	[40276] = {
+	}
+	pg.base.activity_event_picturepuzzle[40276] = {
 		id = 40276,
 		chapter = 0,
 		cd = 0,
@@ -706,8 +744,8 @@ pg.activity_event_picturepuzzle = {
 		story = {},
 		awards = {},
 		auto_finish_args = {}
-	},
-	[40284] = {
+	}
+	pg.base.activity_event_picturepuzzle[40284] = {
 		id = 40284,
 		chapter = 1360001,
 		cd = 1200,
@@ -757,8 +795,8 @@ pg.activity_event_picturepuzzle = {
 			1,
 			100001
 		}
-	},
-	[40305] = {
+	}
+	pg.base.activity_event_picturepuzzle[40305] = {
 		id = 40305,
 		chapter = 0,
 		cd = 0,
@@ -778,8 +816,8 @@ pg.activity_event_picturepuzzle = {
 		story = {},
 		awards = {},
 		auto_finish_args = {}
-	},
-	[40393] = {
+	}
+	pg.base.activity_event_picturepuzzle[40393] = {
 		id = 40393,
 		chapter = 0,
 		cd = 0,
@@ -804,8 +842,8 @@ pg.activity_event_picturepuzzle = {
 		story = {},
 		awards = {},
 		auto_finish_args = {}
-	},
-	[40714] = {
+	}
+	pg.base.activity_event_picturepuzzle[40714] = {
 		id = 40714,
 		chapter = 0,
 		cd = 0,
@@ -828,8 +866,8 @@ pg.activity_event_picturepuzzle = {
 		story = {},
 		awards = {},
 		auto_finish_args = {}
-	},
-	[41270] = {
+	}
+	pg.base.activity_event_picturepuzzle[41270] = {
 		id = 41270,
 		chapter = 0,
 		cd = 0,
@@ -852,8 +890,8 @@ pg.activity_event_picturepuzzle = {
 		story = {},
 		awards = {},
 		auto_finish_args = {}
-	},
-	[50422] = {
+	}
+	pg.base.activity_event_picturepuzzle[50422] = {
 		id = 50422,
 		chapter = 0,
 		cd = 0,
@@ -876,8 +914,8 @@ pg.activity_event_picturepuzzle = {
 		story = {},
 		awards = {},
 		auto_finish_args = {}
-	},
-	[50493] = {
+	}
+	pg.base.activity_event_picturepuzzle[50493] = {
 		id = 50493,
 		chapter = 1360007,
 		cd = 600,
@@ -942,8 +980,8 @@ pg.activity_event_picturepuzzle = {
 			"CollectionScene",
 			"BuildShipScene"
 		}
-	},
-	[50810] = {
+	}
+	pg.base.activity_event_picturepuzzle[50810] = {
 		id = 50810,
 		chapter = 0,
 		cd = 0,
@@ -972,37 +1010,5 @@ pg.activity_event_picturepuzzle = {
 		story = {},
 		awards = {},
 		auto_finish_args = {}
-	},
-	all = {
-		549,
-		758,
-		783,
-		935,
-		959,
-		4058,
-		4178,
-		4669,
-		4733,
-		4779,
-		4889,
-		4935,
-		5093,
-		5267,
-		5309,
-		5689,
-		5788,
-		5879,
-		40476,
-		334,
-		40228,
-		40276,
-		40284,
-		40305,
-		40393,
-		40714,
-		41270,
-		50422,
-		50493,
-		50810
 	}
-}
+end)()

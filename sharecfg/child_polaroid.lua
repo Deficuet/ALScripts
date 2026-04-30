@@ -1,6 +1,490 @@
 pg = pg or {}
-pg.child_polaroid = {
-	{
+pg.child_polaroid = rawget(pg, "child_polaroid") or setmetatable({
+	__name = "child_polaroid"
+}, confNEO)
+pg.child_polaroid.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	67,
+	68,
+	69,
+	70,
+	71,
+	72,
+	73,
+	74,
+	75,
+	76,
+	77,
+	78,
+	79,
+	80,
+	81,
+	82,
+	83,
+	84,
+	85,
+	86,
+	87,
+	88,
+	89,
+	90,
+	91,
+	92,
+	93,
+	94,
+	95,
+	96,
+	97,
+	98,
+	99,
+	100,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	113,
+	114,
+	115,
+	116,
+	117,
+	118,
+	119,
+	120,
+	121,
+	122,
+	123,
+	124,
+	125,
+	126,
+	127,
+	128,
+	129,
+	130,
+	131,
+	132,
+	133,
+	134,
+	135,
+	136,
+	137,
+	138,
+	139,
+	140,
+	141,
+	142,
+	143,
+	144,
+	145,
+	146,
+	147,
+	148,
+	149,
+	150,
+	151,
+	152,
+	153,
+	154,
+	155,
+	156,
+	157,
+	158,
+	159,
+	160,
+	161,
+	162,
+	163,
+	164,
+	165,
+	166,
+	167
+}
+pg.child_polaroid.get_id_list_by_group = {
+	[101] = {
+		1,
+		2
+	},
+	[102] = {
+		3,
+		4
+	},
+	[103] = {
+		5,
+		6,
+		7
+	},
+	[104] = {
+		8,
+		9,
+		10
+	},
+	[105] = {
+		11,
+		12,
+		13
+	},
+	[106] = {
+		14
+	},
+	[107] = {
+		15
+	},
+	[108] = {
+		16,
+		17,
+		18
+	},
+	[109] = {
+		19,
+		20
+	},
+	[110] = {
+		21,
+		22
+	},
+	[111] = {
+		23,
+		24,
+		25
+	},
+	[112] = {
+		26,
+		27
+	},
+	[113] = {
+		28,
+		29,
+		30
+	},
+	[114] = {
+		31,
+		32,
+		33
+	},
+	[115] = {
+		34,
+		35,
+		36
+	},
+	[116] = {
+		37,
+		38
+	},
+	[117] = {
+		39,
+		40,
+		41,
+		42,
+		43
+	},
+	[118] = {
+		44
+	},
+	[119] = {
+		45
+	},
+	[120] = {
+		46
+	},
+	[121] = {
+		47,
+		48,
+		49
+	},
+	[122] = {
+		50
+	},
+	[123] = {
+		51,
+		52,
+		53
+	},
+	[124] = {
+		54,
+		55,
+		56
+	},
+	[125] = {
+		57,
+		58,
+		59
+	},
+	[126] = {
+		60,
+		61,
+		62
+	},
+	[127] = {
+		63,
+		64
+	},
+	[128] = {
+		65,
+		66,
+		67,
+		68,
+		69
+	},
+	[129] = {
+		70,
+		71,
+		72,
+		73,
+		74,
+		75
+	},
+	[130] = {
+		76,
+		77,
+		78,
+		79,
+		80
+	},
+	[131] = {
+		81,
+		82,
+		83,
+		84,
+		85
+	},
+	[132] = {
+		86,
+		87
+	},
+	[133] = {
+		88,
+		89,
+		90
+	},
+	[134] = {
+		91,
+		92,
+		93
+	},
+	[135] = {
+		94,
+		95,
+		96
+	},
+	[136] = {
+		97
+	},
+	[137] = {
+		98,
+		99,
+		100
+	},
+	[138] = {
+		101,
+		102,
+		103
+	},
+	[139] = {
+		104
+	},
+	[140] = {
+		105
+	},
+	[141] = {
+		106
+	},
+	[142] = {
+		107
+	},
+	[143] = {
+		108,
+		109,
+		110
+	},
+	[144] = {
+		111,
+		112,
+		113,
+		114,
+		115
+	},
+	[145] = {
+		116,
+		117
+	},
+	[146] = {
+		118,
+		119
+	},
+	[147] = {
+		120,
+		121,
+		122
+	},
+	[148] = {
+		123
+	},
+	[149] = {
+		124,
+		125
+	},
+	[150] = {
+		126,
+		127,
+		128
+	},
+	[151] = {
+		129
+	},
+	[152] = {
+		130
+	},
+	[153] = {
+		131
+	},
+	[154] = {
+		132
+	},
+	[155] = {
+		133
+	},
+	[156] = {
+		134
+	},
+	[157] = {
+		135
+	},
+	[158] = {
+		136
+	},
+	[159] = {
+		137,
+		138,
+		139
+	},
+	[160] = {
+		140,
+		141,
+		142,
+		143
+	},
+	[161] = {
+		144,
+		145,
+		146
+	},
+	[162] = {
+		147,
+		148,
+		149
+	},
+	[163] = {
+		150,
+		151,
+		152
+	},
+	[164] = {
+		153,
+		154,
+		155
+	},
+	[165] = {
+		156
+	},
+	[166] = {
+		157,
+		158,
+		159
+	},
+	[167] = {
+		160
+	},
+	[168] = {
+		161
+	},
+	[169] = {
+		162,
+		163,
+		164
+	},
+	[170] = {
+		165,
+		166,
+		167
+	}
+}
+pg.base = pg.base or {}
+pg.base.child_polaroid = {}
+
+;(function()
+	pg.base.child_polaroid[1] = {
 		id = 1,
 		title = "舌尖幸福",
 		pic = "tb_1_2_1",
@@ -11,8 +495,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[2] = {
 		id = 2,
 		title = "舌尖幸福",
 		pic = "tb_1_2_2",
@@ -23,8 +507,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[3] = {
 		id = 3,
 		title = "便利店的美味",
 		pic = "tb_2_2_1",
@@ -35,8 +519,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[4] = {
 		id = 4,
 		title = "便利店的美味",
 		pic = "tb_2_2_2",
@@ -47,8 +531,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[5] = {
 		id = 5,
 		pic = "tb_3_31_1",
 		group = 103,
@@ -61,8 +545,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[6] = {
 		id = 6,
 		pic = "tb_3_32_1",
 		group = 103,
@@ -75,8 +559,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[7] = {
 		id = 7,
 		pic = "tb_3_33_1",
 		group = 103,
@@ -89,8 +573,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[8] = {
 		id = 8,
 		pic = "tb_4_31_1",
 		group = 104,
@@ -103,8 +587,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[9] = {
 		id = 9,
 		pic = "tb_4_32_1",
 		group = 104,
@@ -117,8 +601,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[10] = {
 		id = 10,
 		pic = "tb_4_33_1",
 		group = 104,
@@ -131,8 +615,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[11] = {
 		id = 11,
 		pic = "tb_5_31_1",
 		group = 105,
@@ -145,8 +629,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[12] = {
 		id = 12,
 		pic = "tb_5_32_1",
 		group = 105,
@@ -159,8 +643,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[13] = {
 		id = 13,
 		pic = "tb_5_33_1",
 		group = 105,
@@ -173,8 +657,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[14] = {
 		id = 14,
 		title = "大快朵颐",
 		pic = "tb_6_2_1",
@@ -185,8 +669,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[15] = {
 		id = 15,
 		title = "诱人香气",
 		pic = "tb_7_1_1",
@@ -197,8 +681,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[16] = {
 		id = 16,
 		pic = "tb_8_31_1",
 		group = 108,
@@ -211,8 +695,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[17] = {
 		id = 17,
 		pic = "tb_8_32_1",
 		group = 108,
@@ -225,8 +709,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[18] = {
 		id = 18,
 		pic = "tb_8_33_1",
 		group = 108,
@@ -239,8 +723,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[19] = {
 		id = 19,
 		title = "新鲜空气",
 		pic = "tb_9_1_1",
@@ -251,8 +735,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[20] = {
 		id = 20,
 		title = "新鲜空气",
 		pic = "tb_9_1_2",
@@ -263,8 +747,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[21] = {
 		id = 21,
 		title = "选择困难",
 		pic = "tb_10_2_1",
@@ -275,8 +759,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[22] = {
 		id = 22,
 		title = "选择困难",
 		pic = "tb_10_2_2",
@@ -287,8 +771,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[23] = {
 		id = 23,
 		pic = "tb_11_31_2",
 		group = 111,
@@ -301,8 +785,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[24] = {
 		id = 24,
 		pic = "tb_11_32_2",
 		group = 111,
@@ -315,8 +799,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[25] = {
 		id = 25,
 		pic = "tb_11_33_2",
 		group = 111,
@@ -329,8 +813,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[26] = {
 		id = 26,
 		title = "促销活动",
 		pic = "tb_12_2_2",
@@ -341,8 +825,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[27] = {
 		id = 27,
 		title = "促销活动 ",
 		pic = "tb_12_2_3",
@@ -353,8 +837,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[28] = {
 		id = 28,
 		pic = "tb_13_31_1",
 		group = 113,
@@ -367,8 +851,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[29] = {
 		id = 29,
 		pic = "tb_13_32_1",
 		group = 113,
@@ -381,8 +865,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[30] = {
 		id = 30,
 		pic = "tb_13_33_1",
 		group = 113,
@@ -395,8 +879,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[31] = {
 		id = 31,
 		pic = "tb_14_31_1",
 		group = 114,
@@ -409,8 +893,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[32] = {
 		id = 32,
 		pic = "tb_14_32_1",
 		group = 114,
@@ -423,8 +907,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[33] = {
 		id = 33,
 		pic = "tb_14_33_1",
 		group = 114,
@@ -437,8 +921,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[34] = {
 		id = 34,
 		pic = "tb_15_31_1",
 		group = 115,
@@ -451,8 +935,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[35] = {
 		id = 35,
 		pic = "tb_15_32_1",
 		group = 115,
@@ -465,8 +949,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[36] = {
 		id = 36,
 		pic = "tb_15_33_1",
 		group = 115,
@@ -479,8 +963,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[37] = {
 		id = 37,
 		title = "黑暗料理",
 		pic = "tb_16_2_2",
@@ -491,8 +975,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[38] = {
 		id = 38,
 		title = "黑暗料理",
 		pic = "tb_16_2_3",
@@ -503,8 +987,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[39] = {
 		id = 39,
 		title = "美味的汉堡",
 		pic = "tb_17_1_1",
@@ -515,8 +999,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[40] = {
 		id = 40,
 		title = "美味的汉堡",
 		pic = "tb_17_2_1",
@@ -527,8 +1011,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[41] = {
 		id = 41,
 		pic = "tb_17_31_1",
 		group = 117,
@@ -541,8 +1025,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[42] = {
 		id = 42,
 		pic = "tb_17_32_1",
 		group = 117,
@@ -555,8 +1039,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[43] = {
 		id = 43,
 		pic = "tb_17_33_1",
 		group = 117,
@@ -569,8 +1053,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[44] = {
 		id = 44,
 		title = "拉面的做法",
 		pic = "tb_18_1_1",
@@ -581,8 +1065,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[45] = {
 		id = 45,
 		title = "下厨体验",
 		pic = "tb_19_2_1",
@@ -593,8 +1077,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[46] = {
 		id = 46,
 		title = "什么是“适量”？",
 		pic = "tb_20_2_1",
@@ -605,8 +1089,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[47] = {
 		id = 47,
 		pic = "tb_21_31_1",
 		group = 121,
@@ -619,8 +1103,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[48] = {
 		id = 48,
 		pic = "tb_21_32_1",
 		group = 121,
@@ -633,8 +1117,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[49] = {
 		id = 49,
 		pic = "tb_21_33_1",
 		group = 121,
@@ -647,8 +1131,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[50] = {
 		id = 50,
 		title = "美味的拉面",
 		pic = "tb_22_1_1",
@@ -659,8 +1143,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[51] = {
 		id = 51,
 		pic = "tb_23_31_1",
 		group = 123,
@@ -673,8 +1157,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[52] = {
 		id = 52,
 		pic = "tb_23_32_1",
 		group = 123,
@@ -687,8 +1171,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[53] = {
 		id = 53,
 		pic = "tb_23_33_1",
 		group = 123,
@@ -701,8 +1185,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[54] = {
 		id = 54,
 		pic = "tb_24_31_1",
 		group = 124,
@@ -715,8 +1199,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[55] = {
 		id = 55,
 		pic = "tb_24_32_1",
 		group = 124,
@@ -729,8 +1213,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[56] = {
 		id = 56,
 		pic = "tb_24_33_1",
 		group = 124,
@@ -743,8 +1227,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[57] = {
 		id = 57,
 		title = "两手空空",
 		pic = "tb_25_2_1",
@@ -755,8 +1239,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[58] = {
 		id = 58,
 		title = "两手空空",
 		pic = "tb_25_2_2",
@@ -767,8 +1251,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[59] = {
 		id = 59,
 		title = "两手空空",
 		pic = "tb_25_2_3",
@@ -779,8 +1263,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[60] = {
 		id = 60,
 		pic = "tb_26_31_1",
 		group = 126,
@@ -793,8 +1277,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[61] = {
 		id = 61,
 		pic = "tb_26_32_1",
 		group = 126,
@@ -807,8 +1291,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[62] = {
 		id = 62,
 		pic = "tb_26_33_1",
 		group = 126,
@@ -821,8 +1305,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[63] = {
 		id = 63,
 		title = "露营写生",
 		pic = "tb_27_2_1",
@@ -833,8 +1317,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[64] = {
 		id = 64,
 		title = "露营写生",
 		pic = "tb_27_2_2",
@@ -845,8 +1329,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[65] = {
 		id = 65,
 		title = "和小动物玩",
 		pic = "tb_28_1_1",
@@ -857,8 +1341,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[66] = {
 		id = 66,
 		title = "和小动物玩",
 		pic = "tb_28_2_1",
@@ -869,8 +1353,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[67] = {
 		id = 67,
 		pic = "tb_28_31_1",
 		group = 128,
@@ -883,8 +1367,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[68] = {
 		id = 68,
 		pic = "tb_28_32_1",
 		group = 128,
@@ -897,8 +1381,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[69] = {
 		id = 69,
 		pic = "tb_28_33_1",
 		group = 128,
@@ -911,8 +1395,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[70] = {
 		id = 70,
 		pic = "tb_29_31_1",
 		group = 129,
@@ -925,8 +1409,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[71] = {
 		id = 71,
 		pic = "tb_29_31_2",
 		group = 129,
@@ -939,8 +1423,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[72] = {
 		id = 72,
 		pic = "tb_29_32_1",
 		group = 129,
@@ -953,8 +1437,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[73] = {
 		id = 73,
 		pic = "tb_29_32_2",
 		group = 129,
@@ -967,8 +1451,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[74] = {
 		id = 74,
 		pic = "tb_29_33_1",
 		group = 129,
@@ -981,8 +1465,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[75] = {
 		id = 75,
 		pic = "tb_29_33_2",
 		group = 129,
@@ -995,8 +1479,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[76] = {
 		id = 76,
 		title = "努力劳作中",
 		pic = "tb_30_1_1",
@@ -1007,8 +1491,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[77] = {
 		id = 77,
 		title = "努力劳作中",
 		pic = "tb_30_2_1",
@@ -1019,8 +1503,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[78] = {
 		id = 78,
 		pic = "tb_30_31_1",
 		group = 130,
@@ -1033,8 +1517,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[79] = {
 		id = 79,
 		pic = "tb_30_32_1",
 		group = 130,
@@ -1047,8 +1531,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[80] = {
 		id = 80,
 		pic = "tb_30_33_1",
 		group = 130,
@@ -1061,8 +1545,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[81] = {
 		id = 81,
 		title = "烤棉花糖记",
 		pic = "tb_31_1_1",
@@ -1073,8 +1557,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[82] = {
 		id = 82,
 		title = "烤棉花糖记",
 		pic = "tb_31_2_1",
@@ -1085,8 +1569,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[83] = {
 		id = 83,
 		pic = "tb_31_31_1",
 		group = 131,
@@ -1099,8 +1583,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[84] = {
 		id = 84,
 		pic = "tb_31_32_1",
 		group = 131,
@@ -1113,8 +1597,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[85] = {
 		id = 85,
 		pic = "tb_31_33_1",
 		group = 131,
@@ -1127,8 +1611,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[86] = {
 		id = 86,
 		title = "被牛追了！",
 		pic = "tb_32_2_1",
@@ -1139,8 +1623,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[87] = {
 		id = 87,
 		title = "被牛追了！",
 		pic = "tb_32_2_2",
@@ -1151,8 +1635,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[88] = {
 		id = 88,
 		pic = "tb_33_31_1",
 		group = 133,
@@ -1165,8 +1649,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[89] = {
 		id = 89,
 		pic = "tb_33_32_1",
 		group = 133,
@@ -1179,8 +1663,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[90] = {
 		id = 90,
 		pic = "tb_33_33_1",
 		group = 133,
@@ -1193,8 +1677,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[91] = {
 		id = 91,
 		pic = "tb_34_31_1",
 		group = 134,
@@ -1207,8 +1691,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[92] = {
 		id = 92,
 		pic = "tb_34_32_1",
 		group = 134,
@@ -1221,8 +1705,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[93] = {
 		id = 93,
 		pic = "tb_34_33_1",
 		group = 134,
@@ -1235,8 +1719,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[94] = {
 		id = 94,
 		pic = "tb_35_31_1",
 		group = 135,
@@ -1249,8 +1733,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[95] = {
 		id = 95,
 		pic = "tb_35_32_1",
 		group = 135,
@@ -1263,8 +1747,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[96] = {
 		id = 96,
 		pic = "tb_35_33_1",
 		group = 135,
@@ -1277,8 +1761,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[97] = {
 		id = 97,
 		title = "海边小吃",
 		pic = "tb_36_2_1",
@@ -1289,8 +1773,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[98] = {
 		id = 98,
 		pic = "tb_37_31_1",
 		group = 137,
@@ -1303,8 +1787,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[99] = {
 		id = 99,
 		pic = "tb_37_32_1",
 		group = 137,
@@ -1317,8 +1801,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[100] = {
 		id = 100,
 		pic = "tb_37_33_1",
 		group = 137,
@@ -1331,8 +1815,10 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+end)()
+;(function()
+	pg.base.child_polaroid[101] = {
 		id = 101,
 		pic = "tb_38_31_1",
 		group = 138,
@@ -1345,8 +1831,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[102] = {
 		id = 102,
 		pic = "tb_38_32_1",
 		group = 138,
@@ -1359,8 +1845,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[103] = {
 		id = 103,
 		pic = "tb_38_33_1",
 		group = 138,
@@ -1373,8 +1859,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[104] = {
 		id = 104,
 		title = "手忙脚乱",
 		pic = "tb_39_2_2",
@@ -1385,8 +1871,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[105] = {
 		id = 105,
 		title = "认真读书中",
 		pic = "tb_40_1_1",
@@ -1397,8 +1883,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[106] = {
 		id = 106,
 		title = "校园生活",
 		pic = "tb_41_1_2",
@@ -1409,8 +1895,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[107] = {
 		id = 107,
 		title = "听课中…",
 		pic = "tb_42_1_2",
@@ -1421,8 +1907,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[108] = {
 		id = 108,
 		pic = "tb_43_31_1",
 		group = 143,
@@ -1435,8 +1921,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[109] = {
 		id = 109,
 		pic = "tb_43_32_1",
 		group = 143,
@@ -1449,8 +1935,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[110] = {
 		id = 110,
 		pic = "tb_43_33_1",
 		group = 143,
@@ -1463,8 +1949,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[111] = {
 		id = 111,
 		title = "生病了……",
 		pic = "tb_44_1_1",
@@ -1475,8 +1961,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[112] = {
 		id = 112,
 		title = "生病了……",
 		pic = "tb_44_2_1",
@@ -1487,8 +1973,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[113] = {
 		id = 113,
 		pic = "tb_44_31_1",
 		group = 144,
@@ -1501,8 +1987,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[114] = {
 		id = 114,
 		pic = "tb_44_32_1",
 		group = 144,
@@ -1515,8 +2001,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[115] = {
 		id = 115,
 		pic = "tb_44_33_1",
 		group = 144,
@@ -1529,8 +2015,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[116] = {
 		id = 116,
 		title = "下次注意",
 		pic = "tb_45_2_2",
@@ -1541,8 +2027,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[117] = {
 		id = 117,
 		title = "下次注意",
 		pic = "tb_45_2_3",
@@ -1553,8 +2039,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[118] = {
 		id = 118,
 		title = "考前复习",
 		pic = "tb_46_2_1",
@@ -1565,8 +2051,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[119] = {
 		id = 119,
 		title = "考前复习",
 		pic = "tb_46_2_2",
@@ -1577,8 +2063,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[120] = {
 		id = 120,
 		pic = "tb_47_31_2",
 		group = 147,
@@ -1591,8 +2077,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[121] = {
 		id = 121,
 		pic = "tb_47_32_2",
 		group = 147,
@@ -1605,8 +2091,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[122] = {
 		id = 122,
 		pic = "tb_47_33_2",
 		group = 147,
@@ -1619,8 +2105,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[123] = {
 		id = 123,
 		title = "自信之作",
 		pic = "tb_48_2_2",
@@ -1631,8 +2117,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[124] = {
 		id = 124,
 		title = "课外阅读",
 		pic = "tb_49_2_1",
@@ -1643,8 +2129,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[125] = {
 		id = 125,
 		title = "课外阅读",
 		pic = "tb_49_2_2",
@@ -1655,8 +2141,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[126] = {
 		id = 126,
 		pic = "tb_50_31_2",
 		group = 150,
@@ -1669,8 +2155,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[127] = {
 		id = 127,
 		pic = "tb_50_32_2",
 		group = 150,
@@ -1683,8 +2169,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[128] = {
 		id = 128,
 		pic = "tb_50_33_2",
 		group = 150,
@@ -1697,8 +2183,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[129] = {
 		id = 129,
 		title = "精彩瞬间",
 		pic = "tb_51_2_3",
@@ -1709,8 +2195,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[130] = {
 		id = 130,
 		title = "啦啦操！",
 		pic = "tb_52_2_3",
@@ -1721,8 +2207,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[131] = {
 		id = 131,
 		title = "投篮成功",
 		pic = "tb_53_2_3",
@@ -1733,8 +2219,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[132] = {
 		id = 132,
 		title = "还能更快",
 		pic = "tb_54_1_3",
@@ -1745,8 +2231,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[133] = {
 		id = 133,
 		title = "新纪录！",
 		pic = "tb_55_1_3",
@@ -1757,8 +2243,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[134] = {
 		id = 134,
 		title = "射击体验！",
 		pic = "tb_56_2_3",
@@ -1769,8 +2255,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[135] = {
 		id = 135,
 		title = "夺冠身姿",
 		pic = "tb_57_2_3",
@@ -1781,8 +2267,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[136] = {
 		id = 136,
 		title = "到终点了！",
 		pic = "tb_58_2_3",
@@ -1793,8 +2279,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[137] = {
 		id = 137,
 		pic = "tb_59_31_2",
 		group = 159,
@@ -1807,8 +2293,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[138] = {
 		id = 138,
 		pic = "tb_59_32_2",
 		group = 159,
@@ -1821,8 +2307,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[139] = {
 		id = 139,
 		pic = "tb_59_33_2",
 		group = 159,
@@ -1835,8 +2321,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[140] = {
 		id = 140,
 		title = "开嗓练习",
 		pic = "tb_60_2_2",
@@ -1847,8 +2333,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[141] = {
 		id = 141,
 		pic = "tb_60_31_2",
 		group = 160,
@@ -1861,8 +2347,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[142] = {
 		id = 142,
 		pic = "tb_60_32_2",
 		group = 160,
@@ -1875,8 +2361,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[143] = {
 		id = 143,
 		pic = "tb_60_33_2",
 		group = 160,
@@ -1889,8 +2375,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[144] = {
 		id = 144,
 		pic = "tb_61_31_2",
 		group = 161,
@@ -1903,8 +2389,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[145] = {
 		id = 145,
 		pic = "tb_61_32_2",
 		group = 161,
@@ -1917,8 +2403,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[146] = {
 		id = 146,
 		pic = "tb_61_33_2",
 		group = 161,
@@ -1931,8 +2417,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[147] = {
 		id = 147,
 		pic = "tb_62_31_2",
 		group = 162,
@@ -1945,8 +2431,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[148] = {
 		id = 148,
 		pic = "tb_62_32_2",
 		group = 162,
@@ -1959,8 +2445,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[149] = {
 		id = 149,
 		pic = "tb_62_33_2",
 		group = 162,
@@ -1973,8 +2459,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[150] = {
 		id = 150,
 		pic = "tb_63_31_1",
 		group = 163,
@@ -1987,8 +2473,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[151] = {
 		id = 151,
 		pic = "tb_63_32_1",
 		group = 163,
@@ -2001,8 +2487,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[152] = {
 		id = 152,
 		pic = "tb_63_33_1",
 		group = 163,
@@ -2015,8 +2501,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[153] = {
 		id = 153,
 		pic = "tb_64_31_2",
 		group = 164,
@@ -2029,8 +2515,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[154] = {
 		id = 154,
 		pic = "tb_64_32_2",
 		group = 164,
@@ -2043,8 +2529,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[155] = {
 		id = 155,
 		pic = "tb_64_33_2",
 		group = 164,
@@ -2057,8 +2543,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[156] = {
 		id = 156,
 		title = "去赏樱了！",
 		pic = "tb_65_1_1",
@@ -2069,8 +2555,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[157] = {
 		id = 157,
 		pic = "tb_66_31_1",
 		group = 166,
@@ -2083,8 +2569,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[158] = {
 		id = 158,
 		pic = "tb_66_32_1",
 		group = 166,
@@ -2097,8 +2583,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[159] = {
 		id = 159,
 		pic = "tb_66_33_1",
 		group = 166,
@@ -2111,8 +2597,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[160] = {
 		id = 160,
 		title = "对绘画的兴趣",
 		pic = "tb_67_1_1",
@@ -2123,8 +2609,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[161] = {
 		id = 161,
 		title = "新玩具",
 		pic = "tb_68_1_1",
@@ -2135,8 +2621,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[162] = {
 		id = 162,
 		pic = "tb_69_31_2",
 		group = 169,
@@ -2149,8 +2635,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[163] = {
 		id = 163,
 		pic = "tb_69_32_2",
 		group = 169,
@@ -2163,8 +2649,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[164] = {
 		id = 164,
 		pic = "tb_69_33_2",
 		group = 169,
@@ -2177,8 +2663,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[165] = {
 		id = 165,
 		pic = "tb_70_31_2",
 		group = 170,
@@ -2191,8 +2677,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[166] = {
 		id = 166,
 		pic = "tb_70_32_2",
 		group = 170,
@@ -2205,8 +2691,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[167] = {
 		id = 167,
 		pic = "tb_70_33_2",
 		group = 170,
@@ -2219,483 +2705,5 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	get_id_list_by_group = {
-		[101] = {
-			1,
-			2
-		},
-		[102] = {
-			3,
-			4
-		},
-		[103] = {
-			5,
-			6,
-			7
-		},
-		[104] = {
-			8,
-			9,
-			10
-		},
-		[105] = {
-			11,
-			12,
-			13
-		},
-		[106] = {
-			14
-		},
-		[107] = {
-			15
-		},
-		[108] = {
-			16,
-			17,
-			18
-		},
-		[109] = {
-			19,
-			20
-		},
-		[110] = {
-			21,
-			22
-		},
-		[111] = {
-			23,
-			24,
-			25
-		},
-		[112] = {
-			26,
-			27
-		},
-		[113] = {
-			28,
-			29,
-			30
-		},
-		[114] = {
-			31,
-			32,
-			33
-		},
-		[115] = {
-			34,
-			35,
-			36
-		},
-		[116] = {
-			37,
-			38
-		},
-		[117] = {
-			39,
-			40,
-			41,
-			42,
-			43
-		},
-		[118] = {
-			44
-		},
-		[119] = {
-			45
-		},
-		[120] = {
-			46
-		},
-		[121] = {
-			47,
-			48,
-			49
-		},
-		[122] = {
-			50
-		},
-		[123] = {
-			51,
-			52,
-			53
-		},
-		[124] = {
-			54,
-			55,
-			56
-		},
-		[125] = {
-			57,
-			58,
-			59
-		},
-		[126] = {
-			60,
-			61,
-			62
-		},
-		[127] = {
-			63,
-			64
-		},
-		[128] = {
-			65,
-			66,
-			67,
-			68,
-			69
-		},
-		[129] = {
-			70,
-			71,
-			72,
-			73,
-			74,
-			75
-		},
-		[130] = {
-			76,
-			77,
-			78,
-			79,
-			80
-		},
-		[131] = {
-			81,
-			82,
-			83,
-			84,
-			85
-		},
-		[132] = {
-			86,
-			87
-		},
-		[133] = {
-			88,
-			89,
-			90
-		},
-		[134] = {
-			91,
-			92,
-			93
-		},
-		[135] = {
-			94,
-			95,
-			96
-		},
-		[136] = {
-			97
-		},
-		[137] = {
-			98,
-			99,
-			100
-		},
-		[138] = {
-			101,
-			102,
-			103
-		},
-		[139] = {
-			104
-		},
-		[140] = {
-			105
-		},
-		[141] = {
-			106
-		},
-		[142] = {
-			107
-		},
-		[143] = {
-			108,
-			109,
-			110
-		},
-		[144] = {
-			111,
-			112,
-			113,
-			114,
-			115
-		},
-		[145] = {
-			116,
-			117
-		},
-		[146] = {
-			118,
-			119
-		},
-		[147] = {
-			120,
-			121,
-			122
-		},
-		[148] = {
-			123
-		},
-		[149] = {
-			124,
-			125
-		},
-		[150] = {
-			126,
-			127,
-			128
-		},
-		[151] = {
-			129
-		},
-		[152] = {
-			130
-		},
-		[153] = {
-			131
-		},
-		[154] = {
-			132
-		},
-		[155] = {
-			133
-		},
-		[156] = {
-			134
-		},
-		[157] = {
-			135
-		},
-		[158] = {
-			136
-		},
-		[159] = {
-			137,
-			138,
-			139
-		},
-		[160] = {
-			140,
-			141,
-			142,
-			143
-		},
-		[161] = {
-			144,
-			145,
-			146
-		},
-		[162] = {
-			147,
-			148,
-			149
-		},
-		[163] = {
-			150,
-			151,
-			152
-		},
-		[164] = {
-			153,
-			154,
-			155
-		},
-		[165] = {
-			156
-		},
-		[166] = {
-			157,
-			158,
-			159
-		},
-		[167] = {
-			160
-		},
-		[168] = {
-			161
-		},
-		[169] = {
-			162,
-			163,
-			164
-		},
-		[170] = {
-			165,
-			166,
-			167
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63,
-		64,
-		65,
-		66,
-		67,
-		68,
-		69,
-		70,
-		71,
-		72,
-		73,
-		74,
-		75,
-		76,
-		77,
-		78,
-		79,
-		80,
-		81,
-		82,
-		83,
-		84,
-		85,
-		86,
-		87,
-		88,
-		89,
-		90,
-		91,
-		92,
-		93,
-		94,
-		95,
-		96,
-		97,
-		98,
-		99,
-		100,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		113,
-		114,
-		115,
-		116,
-		117,
-		118,
-		119,
-		120,
-		121,
-		122,
-		123,
-		124,
-		125,
-		126,
-		127,
-		128,
-		129,
-		130,
-		131,
-		132,
-		133,
-		134,
-		135,
-		136,
-		137,
-		138,
-		139,
-		140,
-		141,
-		142,
-		143,
-		144,
-		145,
-		146,
-		147,
-		148,
-		149,
-		150,
-		151,
-		152,
-		153,
-		154,
-		155,
-		156,
-		157,
-		158,
-		159,
-		160,
-		161,
-		162,
-		163,
-		164,
-		165,
-		166,
-		167
 	}
-}
+end)()

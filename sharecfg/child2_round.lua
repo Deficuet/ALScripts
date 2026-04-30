@@ -1,6 +1,180 @@
 pg = pg or {}
-pg.child2_round = {
+pg.child2_round = rawget(pg, "child2_round") or setmetatable({
+	__name = "child2_round"
+}, confNEO)
+pg.child2_round.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	113,
+	114,
+	115,
+	116,
+	117,
+	118,
+	119,
+	120,
+	151,
+	152,
+	153,
+	154,
+	155,
+	156,
+	157,
+	158,
+	159,
+	160,
+	201,
+	202,
+	203,
+	204,
+	205,
+	206,
+	207,
+	208,
+	209,
+	210,
+	211,
+	212,
+	213,
+	214,
+	215,
+	216,
+	217,
+	218,
+	219,
+	220,
+	251,
+	252,
+	253,
+	254,
+	255,
+	256,
+	257,
+	258,
+	259,
+	260
+}
+pg.child2_round.get_id_list_by_character = {
 	{
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		14,
+		15,
+		16,
+		17,
+		18,
+		19,
+		20
+	},
+	{
+		101,
+		102,
+		103,
+		104,
+		105,
+		106,
+		107,
+		108,
+		109,
+		110,
+		111,
+		112,
+		113,
+		114,
+		115,
+		116,
+		117,
+		118,
+		119,
+		120,
+		151,
+		152,
+		153,
+		154,
+		155,
+		156,
+		157,
+		158,
+		159,
+		160,
+		201,
+		202,
+		203,
+		204,
+		205,
+		206,
+		207,
+		208,
+		209,
+		210,
+		211,
+		212,
+		213,
+		214,
+		215,
+		216,
+		217,
+		218,
+		219,
+		220,
+		251,
+		252,
+		253,
+		254,
+		255,
+		256,
+		257,
+		258,
+		259,
+		260
+	}
+}
+pg.base = pg.base or {}
+pg.base.child2_round = {}
+
+;(function()
+	pg.base.child2_round[1] = {
 		stage = 1,
 		endless_factor = "",
 		id = 1,
@@ -282,8 +456,8 @@ pg.child2_round = {
 				403
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_round[2] = {
 		stage = 1,
 		benefit_select = "",
 		endless_factor = "",
@@ -372,8 +546,8 @@ pg.child2_round = {
 			6
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[3] = {
 		stage = 1,
 		benefit_select = "",
 		endless_factor = "",
@@ -462,8 +636,8 @@ pg.child2_round = {
 			6
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[4] = {
 		stage = 1,
 		benefit_select = "",
 		endless_factor = "",
@@ -552,8 +726,8 @@ pg.child2_round = {
 				412
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_round[5] = {
 		stage = 1,
 		benefit_select = "",
 		endless_factor = "",
@@ -642,8 +816,8 @@ pg.child2_round = {
 			6
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[6] = {
 		stage = 2,
 		endless_factor = "",
 		id = 6,
@@ -941,8 +1115,8 @@ pg.child2_round = {
 			12
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[7] = {
 		stage = 2,
 		benefit_select = "",
 		endless_factor = "",
@@ -1031,8 +1205,8 @@ pg.child2_round = {
 			12
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[8] = {
 		stage = 2,
 		benefit_select = "",
 		endless_factor = "",
@@ -1121,8 +1295,8 @@ pg.child2_round = {
 			12
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[9] = {
 		stage = 2,
 		benefit_select = "",
 		endless_factor = "",
@@ -1220,8 +1394,8 @@ pg.child2_round = {
 				406
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_round[10] = {
 		stage = 2,
 		benefit_select = "",
 		endless_factor = "",
@@ -1310,8 +1484,8 @@ pg.child2_round = {
 			12
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[11] = {
 		stage = 3,
 		endless_factor = "",
 		id = 11,
@@ -1609,8 +1783,8 @@ pg.child2_round = {
 			12
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[12] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "",
@@ -1690,8 +1864,8 @@ pg.child2_round = {
 			12
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[13] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "",
@@ -1780,8 +1954,8 @@ pg.child2_round = {
 			12
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[14] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "",
@@ -1870,8 +2044,8 @@ pg.child2_round = {
 				409
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_round[15] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "",
@@ -1960,8 +2134,8 @@ pg.child2_round = {
 			12
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[16] = {
 		stage = 3,
 		endless_factor = "",
 		id = 16,
@@ -2226,8 +2400,8 @@ pg.child2_round = {
 			12
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[17] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "",
@@ -2316,8 +2490,8 @@ pg.child2_round = {
 			12
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[18] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "",
@@ -2397,8 +2571,8 @@ pg.child2_round = {
 			12
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[19] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "",
@@ -2487,8 +2661,8 @@ pg.child2_round = {
 				400
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_round[20] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "",
@@ -2577,8 +2751,8 @@ pg.child2_round = {
 			12
 		},
 		main_event_chat_node_id = {}
-	},
-	[101] = {
+	}
+	pg.base.child2_round[101] = {
 		stage = 1,
 		benefit_select = "",
 		endless_factor = "",
@@ -2669,8 +2843,8 @@ pg.child2_round = {
 		tarot_select = {
 			1000
 		}
-	},
-	[102] = {
+	}
+	pg.base.child2_round[102] = {
 		stage = 1,
 		benefit_select = "",
 		endless_factor = "",
@@ -2759,8 +2933,8 @@ pg.child2_round = {
 			106
 		},
 		main_event_chat_node_id = {}
-	},
-	[103] = {
+	}
+	pg.base.child2_round[103] = {
 		stage = 1,
 		benefit_select = "",
 		endless_factor = "",
@@ -2858,8 +3032,8 @@ pg.child2_round = {
 				3300801
 			}
 		}
-	},
-	[104] = {
+	}
+	pg.base.child2_round[104] = {
 		stage = 1,
 		benefit_select = "",
 		endless_factor = "",
@@ -2939,8 +3113,8 @@ pg.child2_round = {
 			106
 		},
 		main_event_chat_node_id = {}
-	},
-	[105] = {
+	}
+	pg.base.child2_round[105] = {
 		stage = 1,
 		benefit_select = "",
 		endless_factor = "",
@@ -3029,8 +3203,8 @@ pg.child2_round = {
 			106
 		},
 		main_event_chat_node_id = {}
-	},
-	[106] = {
+	}
+	pg.base.child2_round[106] = {
 		stage = 2,
 		endless_factor = "",
 		id = 106,
@@ -3237,8 +3411,8 @@ pg.child2_round = {
 				3300601
 			}
 		}
-	},
-	[107] = {
+	}
+	pg.base.child2_round[107] = {
 		stage = 2,
 		benefit_select = "",
 		endless_factor = "",
@@ -3327,8 +3501,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[108] = {
+	}
+	pg.base.child2_round[108] = {
 		stage = 2,
 		benefit_select = "",
 		endless_factor = "",
@@ -3417,8 +3591,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[109] = {
+	}
+	pg.base.child2_round[109] = {
 		stage = 2,
 		benefit_select = "",
 		endless_factor = "",
@@ -3507,8 +3681,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[110] = {
+	}
+	pg.base.child2_round[110] = {
 		stage = 2,
 		benefit_select = "",
 		endless_factor = "",
@@ -3597,8 +3771,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[111] = {
+	}
+	pg.base.child2_round[111] = {
 		stage = 3,
 		endless_factor = "",
 		id = 111,
@@ -3805,8 +3979,8 @@ pg.child2_round = {
 				3300901
 			}
 		}
-	},
-	[112] = {
+	}
+	pg.base.child2_round[112] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "",
@@ -3886,8 +4060,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[113] = {
+	}
+	pg.base.child2_round[113] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "",
@@ -3976,8 +4150,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[114] = {
+	}
+	pg.base.child2_round[114] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "",
@@ -4057,8 +4231,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[115] = {
+	}
+	pg.base.child2_round[115] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "",
@@ -4147,8 +4321,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[116] = {
+	}
+	pg.base.child2_round[116] = {
 		stage = 3,
 		endless_factor = "",
 		id = 116,
@@ -4346,8 +4520,8 @@ pg.child2_round = {
 				3301001
 			}
 		}
-	},
-	[117] = {
+	}
+	pg.base.child2_round[117] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "",
@@ -4436,8 +4610,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[118] = {
+	}
+	pg.base.child2_round[118] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "",
@@ -4517,8 +4691,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[119] = {
+	}
+	pg.base.child2_round[119] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "",
@@ -4598,8 +4772,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[120] = {
+	}
+	pg.base.child2_round[120] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "",
@@ -4688,8 +4862,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[151] = {
+	}
+	pg.base.child2_round[151] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "1",
@@ -4769,8 +4943,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[152] = {
+	}
+	pg.base.child2_round[152] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "1",
@@ -4850,8 +5024,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[153] = {
+	}
+	pg.base.child2_round[153] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "1",
@@ -4931,8 +5105,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[154] = {
+	}
+	pg.base.child2_round[154] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "1",
@@ -5012,8 +5186,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[155] = {
+	}
+	pg.base.child2_round[155] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "1",
@@ -5093,8 +5267,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[156] = {
+	}
+	pg.base.child2_round[156] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "1",
@@ -5174,8 +5348,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[157] = {
+	}
+	pg.base.child2_round[157] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "1",
@@ -5255,8 +5429,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[158] = {
+	}
+	pg.base.child2_round[158] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "1",
@@ -5336,8 +5510,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[159] = {
+	}
+	pg.base.child2_round[159] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "1",
@@ -5417,8 +5591,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[160] = {
+	}
+	pg.base.child2_round[160] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "1",
@@ -5498,8 +5672,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[201] = {
+	}
+	pg.base.child2_round[201] = {
 		stage = 1,
 		benefit_select = "",
 		endless_factor = "",
@@ -5590,8 +5764,8 @@ pg.child2_round = {
 		tarot_select = {
 			1001
 		}
-	},
-	[202] = {
+	}
+	pg.base.child2_round[202] = {
 		stage = 1,
 		benefit_select = "",
 		endless_factor = "",
@@ -5680,8 +5854,8 @@ pg.child2_round = {
 			106
 		},
 		main_event_chat_node_id = {}
-	},
-	[203] = {
+	}
+	pg.base.child2_round[203] = {
 		stage = 1,
 		benefit_select = "",
 		endless_factor = "",
@@ -5779,8 +5953,8 @@ pg.child2_round = {
 				3300801
 			}
 		}
-	},
-	[204] = {
+	}
+	pg.base.child2_round[204] = {
 		stage = 1,
 		benefit_select = "",
 		endless_factor = "",
@@ -5860,8 +6034,8 @@ pg.child2_round = {
 			106
 		},
 		main_event_chat_node_id = {}
-	},
-	[205] = {
+	}
+	pg.base.child2_round[205] = {
 		stage = 1,
 		benefit_select = "",
 		endless_factor = "",
@@ -5950,8 +6124,8 @@ pg.child2_round = {
 			106
 		},
 		main_event_chat_node_id = {}
-	},
-	[206] = {
+	}
+	pg.base.child2_round[206] = {
 		stage = 2,
 		endless_factor = "",
 		id = 206,
@@ -6194,8 +6368,8 @@ pg.child2_round = {
 				3300601
 			}
 		}
-	},
-	[207] = {
+	}
+	pg.base.child2_round[207] = {
 		stage = 2,
 		benefit_select = "",
 		endless_factor = "",
@@ -6284,8 +6458,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[208] = {
+	}
+	pg.base.child2_round[208] = {
 		stage = 2,
 		benefit_select = "",
 		endless_factor = "",
@@ -6374,8 +6548,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[209] = {
+	}
+	pg.base.child2_round[209] = {
 		stage = 2,
 		benefit_select = "",
 		endless_factor = "",
@@ -6464,8 +6638,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[210] = {
+	}
+	pg.base.child2_round[210] = {
 		stage = 2,
 		benefit_select = "",
 		endless_factor = "",
@@ -6554,8 +6728,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[211] = {
+	}
+	pg.base.child2_round[211] = {
 		stage = 3,
 		endless_factor = "",
 		id = 211,
@@ -6798,8 +6972,8 @@ pg.child2_round = {
 				3300901
 			}
 		}
-	},
-	[212] = {
+	}
+	pg.base.child2_round[212] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "",
@@ -6879,8 +7053,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[213] = {
+	}
+	pg.base.child2_round[213] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "",
@@ -6969,8 +7143,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[214] = {
+	}
+	pg.base.child2_round[214] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "",
@@ -7050,8 +7224,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[215] = {
+	}
+	pg.base.child2_round[215] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "",
@@ -7140,8 +7314,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[216] = {
+	}
+	pg.base.child2_round[216] = {
 		stage = 3,
 		endless_factor = "",
 		id = 216,
@@ -7375,8 +7549,8 @@ pg.child2_round = {
 				3301001
 			}
 		}
-	},
-	[217] = {
+	}
+	pg.base.child2_round[217] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "",
@@ -7465,8 +7639,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[218] = {
+	}
+	pg.base.child2_round[218] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "",
@@ -7546,8 +7720,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[219] = {
+	}
+	pg.base.child2_round[219] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "",
@@ -7627,8 +7801,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[220] = {
+	}
+	pg.base.child2_round[220] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "",
@@ -7717,8 +7891,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[251] = {
+	}
+	pg.base.child2_round[251] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "1",
@@ -7798,8 +7972,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[252] = {
+	}
+	pg.base.child2_round[252] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "1",
@@ -7879,8 +8053,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[253] = {
+	}
+	pg.base.child2_round[253] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "1",
@@ -7960,8 +8134,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[254] = {
+	}
+	pg.base.child2_round[254] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "1",
@@ -8041,8 +8215,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[255] = {
+	}
+	pg.base.child2_round[255] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "1",
@@ -8122,8 +8296,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[256] = {
+	}
+	pg.base.child2_round[256] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "1",
@@ -8203,8 +8377,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[257] = {
+	}
+	pg.base.child2_round[257] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "1",
@@ -8284,8 +8458,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[258] = {
+	}
+	pg.base.child2_round[258] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "1",
@@ -8365,8 +8539,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[259] = {
+	}
+	pg.base.child2_round[259] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "1",
@@ -8446,8 +8620,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[260] = {
+	}
+	pg.base.child2_round[260] = {
 		stage = 3,
 		benefit_select = "",
 		endless_factor = "1",
@@ -8527,173 +8701,5 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	get_id_list_by_character = {
-		{
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20
-		},
-		{
-			101,
-			102,
-			103,
-			104,
-			105,
-			106,
-			107,
-			108,
-			109,
-			110,
-			111,
-			112,
-			113,
-			114,
-			115,
-			116,
-			117,
-			118,
-			119,
-			120,
-			151,
-			152,
-			153,
-			154,
-			155,
-			156,
-			157,
-			158,
-			159,
-			160,
-			201,
-			202,
-			203,
-			204,
-			205,
-			206,
-			207,
-			208,
-			209,
-			210,
-			211,
-			212,
-			213,
-			214,
-			215,
-			216,
-			217,
-			218,
-			219,
-			220,
-			251,
-			252,
-			253,
-			254,
-			255,
-			256,
-			257,
-			258,
-			259,
-			260
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		113,
-		114,
-		115,
-		116,
-		117,
-		118,
-		119,
-		120,
-		151,
-		152,
-		153,
-		154,
-		155,
-		156,
-		157,
-		158,
-		159,
-		160,
-		201,
-		202,
-		203,
-		204,
-		205,
-		206,
-		207,
-		208,
-		209,
-		210,
-		211,
-		212,
-		213,
-		214,
-		215,
-		216,
-		217,
-		218,
-		219,
-		220,
-		251,
-		252,
-		253,
-		254,
-		255,
-		256,
-		257,
-		258,
-		259,
-		260
 	}
-}
+end)()

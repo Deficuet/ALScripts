@@ -1,6 +1,96 @@
 pg = pg or {}
-pg.activity_dreamland_explore = {
+pg.activity_dreamland_explore = rawget(pg, "activity_dreamland_explore") or setmetatable({
+	__name = "activity_dreamland_explore"
+}, confNEO)
+pg.activity_dreamland_explore.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	27,
+	28,
+	29
+}
+pg.activity_dreamland_explore.get_id_list_by_group = {
 	{
+		1,
+		2,
+		3
+	},
+	{
+		4
+	},
+	{
+		5,
+		6,
+		7
+	},
+	{
+		8,
+		9,
+		10,
+		11,
+		12,
+		13
+	},
+	{
+		14,
+		15,
+		16
+	},
+	{
+		17
+	},
+	{
+		18,
+		19,
+		20
+	},
+	{
+		21,
+		22
+	},
+	{
+		23,
+		24,
+		25
+	},
+	{
+		27
+	},
+	{
+		28
+	},
+	{
+		29
+	}
+}
+pg.base = pg.base or {}
+pg.base.activity_dreamland_explore = {}
+
+;(function()
+	pg.base.activity_dreamland_explore[1] = {
 		dispaly_desc = "整点来到城堡时，发现布谷鸟钟异常安静。\n询问谢菲尔德后得知，每当有人靠近想查看时间，布谷鸟就会突然不出来报时。\n但谢菲尔德表示，只要对空放一枪，布谷鸟钟就会恢复正常运转。\n这是什么原理呢，真是太神奇了。",
 		id = 1,
 		tip_special_effect = "",
@@ -25,8 +115,8 @@ pg.activity_dreamland_explore = {
 				"这是什么原理呢，真是太神奇了。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[2] = {
 		dispaly_desc = "整点来到城堡时，发现布谷鸟钟异常安静。\n询问谢菲尔德后得知，每当有人靠近想查看时间，布谷鸟就会突然不出来报时。\n但谢菲尔德表示，只要对空放一枪，布谷鸟钟就会恢复正常运转。\n这是什么原理呢，真是太神奇了。",
 		id = 2,
 		tip_special_effect = "",
@@ -51,8 +141,8 @@ pg.activity_dreamland_explore = {
 				"这是什么原理呢，真是太神奇了。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[3] = {
 		dispaly_desc = "整点来到城堡时，发现布谷鸟钟异常安静。\n询问谢菲尔德后得知，每当有人靠近想查看时间，布谷鸟就会突然不出来报时。\n但谢菲尔德表示，只要对空放一枪，布谷鸟钟就会恢复正常运转。\n这是什么原理呢，真是太神奇了。",
 		id = 3,
 		tip_special_effect = "",
@@ -77,8 +167,8 @@ pg.activity_dreamland_explore = {
 				"这是什么原理呢，真是太神奇了。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[4] = {
 		dispaly_desc = "晚上的烟花表演中，出现了一些不在计划中的奇怪图案。\n在烟花表演结束后，对比了烟花制作配方和发射程序，未发现异常。\n对此，{namecode:161}表示梦境就是存在各种不可思议的不合理之处，不必放在心上。",
 		id = 4,
 		tip_special_effect = "",
@@ -102,8 +192,8 @@ pg.activity_dreamland_explore = {
 				"对此，{namecode:161}表示梦境就是存在各种不可思议的不合理之处，不必放在心上。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[5] = {
 		dispaly_desc = "在心愿喷泉边，遇到了正在许愿的{namecode:179}。\n她表示每次投币许愿后，硬币都会突然消失，连水花都没有。\n池水也呈现出奇特的五彩斑斓的色彩。\n“这一定是{namecode:179}小姐的愿望要实现的征兆！”路过的利物浦兴奋地说道。",
 		id = 5,
 		tip_special_effect = "",
@@ -128,8 +218,8 @@ pg.activity_dreamland_explore = {
 				"“这一定是{namecode:179}小姐的愿望要实现的征兆！”路过的利物浦兴奋地说道。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[6] = {
 		dispaly_desc = "在心愿喷泉边，遇到了正在许愿的{namecode:179}。\n她表示每次投币许愿后，硬币都会突然消失，连水花都没有。\n池水也呈现出奇特的五彩斑斓的色彩。\n“这一定是{namecode:179}小姐的愿望要实现的征兆！”路过的利物浦兴奋地说道。",
 		id = 6,
 		tip_special_effect = "",
@@ -154,8 +244,8 @@ pg.activity_dreamland_explore = {
 				"“这一定是{namecode:179}小姐的愿望要实现的征兆！”路过的利物浦兴奋地说道。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[7] = {
 		dispaly_desc = "在心愿喷泉边，遇到了正在许愿的{namecode:179}。\n她表示每次投币许愿后，硬币都会突然消失，连水花都没有。\n池水也呈现出奇特的五彩斑斓的色彩。\n“这一定是{namecode:179}小姐的愿望要实现的征兆！”路过的利物浦兴奋地说道。",
 		id = 7,
 		tip_special_effect = "",
@@ -180,8 +270,8 @@ pg.activity_dreamland_explore = {
 				"“这一定是{namecode:179}小姐的愿望要实现的征兆！”路过的利物浦兴奋地说道。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[8] = {
 		dispaly_desc = "在遮阳伞附近，遇到了一脸惊讶的里诺。\n她表示，有一把遮阳伞会在无人触碰的情况下自行收起又展开。\n“等等，莫非这就是里诺觉醒的超能力？！”\n之后的里诺决定自称为“阳伞侠”。\n嗯……反正是在梦里，就由她去吧。",
 		id = 8,
 		tip_special_effect = "",
@@ -209,8 +299,8 @@ pg.activity_dreamland_explore = {
 				"嗯……反正是在梦里，就由她去吧。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[9] = {
 		dispaly_desc = "在遮阳伞附近，遇到了一脸惊讶的里诺。\n她表示，有一把遮阳伞会在无人触碰的情况下自行收起又展开。\n“等等，莫非这就是里诺觉醒的超能力？！”\n之后的里诺决定自称为“阳伞侠”。\n嗯……反正是在梦里，就由她去吧。",
 		id = 9,
 		tip_special_effect = "",
@@ -238,8 +328,8 @@ pg.activity_dreamland_explore = {
 				"嗯……反正是在梦里，就由她去吧。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[10] = {
 		dispaly_desc = "在遮阳伞附近，遇到了一脸惊讶的里诺。\n她表示，有一把遮阳伞会在无人触碰的情况下自行收起又展开。\n“等等，莫非这就是里诺觉醒的超能力？！”\n之后的里诺决定自称为“阳伞侠”。\n嗯……反正是在梦里，就由她去吧。",
 		id = 10,
 		tip_special_effect = "",
@@ -267,8 +357,8 @@ pg.activity_dreamland_explore = {
 				"嗯……反正是在梦里，就由她去吧。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[11] = {
 		dispaly_desc = "在遮阳伞附近，遇到了一脸惊讶的里诺。\n她表示，有一把遮阳伞会在无人触碰的情况下自行收起又展开。\n“等等，莫非这就是里诺觉醒的超能力？！”\n之后的里诺决定自称为“阳伞侠”。\n嗯……反正是在梦里，就由她去吧。",
 		id = 11,
 		tip_special_effect = "",
@@ -296,8 +386,8 @@ pg.activity_dreamland_explore = {
 				"嗯……反正是在梦里，就由她去吧。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[12] = {
 		dispaly_desc = "在遮阳伞附近，遇到了一脸惊讶的里诺。\n她表示，有一把遮阳伞会在无人触碰的情况下自行收起又展开。\n“等等，莫非这就是里诺觉醒的超能力？！”\n之后的里诺决定自称为“阳伞侠”。\n嗯……反正是在梦里，就由她去吧。",
 		id = 12,
 		tip_special_effect = "",
@@ -325,8 +415,8 @@ pg.activity_dreamland_explore = {
 				"嗯……反正是在梦里，就由她去吧。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[13] = {
 		dispaly_desc = "在遮阳伞附近，遇到了一脸惊讶的里诺。\n她表示，有一把遮阳伞会在无人触碰的情况下自行收起又展开。\n“等等，莫非这就是里诺觉醒的超能力？！”\n之后的里诺决定自称为“阳伞侠”。\n嗯……反正是在梦里，就由她去吧。",
 		id = 13,
 		tip_special_effect = "",
@@ -354,8 +444,8 @@ pg.activity_dreamland_explore = {
 				"嗯……反正是在梦里，就由她去吧。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[14] = {
 		dispaly_desc = "来到摩天轮附近时遇到了苦恼的{namecode:88}。\n她表示只要气球飞上去，摩天轮就会停止转动。\n联系了{namecode:37}后，发现是摩天轮的安全保障措施将气球误判为了舰载机。\n发现并不是气球的问题后，{namecode:88}发出了快乐的啾啾声。\n之后和{namecode:37}都收到了{namecode:88}送的幸运气球作为答谢。",
 		id = 14,
 		tip_special_effect = "",
@@ -383,8 +473,8 @@ pg.activity_dreamland_explore = {
 				"之后和{namecode:37}都收到了{namecode:88}送的幸运气球作为答谢。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[15] = {
 		dispaly_desc = "来到摩天轮附近时遇到了苦恼的{namecode:88}。\n她表示只要气球飞上去，摩天轮就会停止转动。\n联系了{namecode:37}后，发现是摩天轮的安全保障措施将气球误判为了舰载机。\n发现并不是气球的问题后，{namecode:88}发出了快乐的啾啾声。\n之后和{namecode:37}都收到了{namecode:88}送的幸运气球作为答谢。",
 		id = 15,
 		tip_special_effect = "",
@@ -412,8 +502,8 @@ pg.activity_dreamland_explore = {
 				"之后和{namecode:37}都收到了{namecode:88}送的幸运气球作为答谢。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[16] = {
 		dispaly_desc = "来到摩天轮附近时遇到了苦恼的{namecode:88}。\n她表示只要气球飞上去，摩天轮就会停止转动。\n联系了{namecode:37}后，发现是摩天轮的安全保障措施将气球误判为了舰载机。\n发现并不是气球的问题后，{namecode:88}发出了快乐的啾啾声。\n之后和{namecode:37}都收到了{namecode:88}送的幸运气球作为答谢。",
 		id = 16,
 		tip_special_effect = "",
@@ -441,8 +531,8 @@ pg.activity_dreamland_explore = {
 				"之后和{namecode:37}都收到了{namecode:88}送的幸运气球作为答谢。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[17] = {
 		dispaly_desc = "傍晚，在小吃摊附近与皇家方舟一行人相遇了。\n{namecode:33}表示自己的棉花糖被人抢走了，然而皇家方舟表示并没有发现有其他人靠近的迹象。\n“幽灵！一定是幽灵抢走了{namecode:33}的棉花糖！”布里斯托尔一下子兴奋了起来。\n然而在此处寻找了许久，完全没有发现幽灵的影踪。",
 		id = 17,
 		tip_special_effect = "",
@@ -467,8 +557,8 @@ pg.activity_dreamland_explore = {
 				"然而在此处寻找了许久，完全没有发现幽灵的影踪。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[18] = {
 		dispaly_desc = "在滑梯出口处，遇到了一脸困惑的{namecode:97}。\n她表示每次滑下来时，滑梯都会突然变得特别湿滑，速度陡然增快。\n然而检查后发现是{namecode:97}为了防晒，涂了太多防晒油而导致的摩擦力降低。\n不过，她到底涂了多少……？",
 		id = 18,
 		tip_special_effect = "",
@@ -493,8 +583,8 @@ pg.activity_dreamland_explore = {
 				"不过，她到底涂了多少……？"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[19] = {
 		dispaly_desc = "在滑梯出口处，遇到了一脸困惑的{namecode:97}。\n她表示每次滑下来时，滑梯都会突然变得特别湿滑，速度陡然增快。\n然而检查后发现是{namecode:97}为了防晒，涂了太多防晒油而导致的摩擦力降低。\n不过，她到底涂了多少……？",
 		id = 19,
 		tip_special_effect = "",
@@ -519,8 +609,8 @@ pg.activity_dreamland_explore = {
 				"不过，她到底涂了多少……？"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[20] = {
 		dispaly_desc = "在滑梯出口处，遇到了一脸困惑的{namecode:97}。\n她表示每次滑下来时，滑梯都会突然变得特别湿滑，速度陡然增快。\n然而检查后发现是{namecode:97}为了防晒，涂了太多防晒油而导致的摩擦力降低。\n不过，她到底涂了多少……？",
 		id = 20,
 		tip_special_effect = "",
@@ -545,8 +635,8 @@ pg.activity_dreamland_explore = {
 				"不过，她到底涂了多少……？"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[21] = {
 		dispaly_desc = "下午，水上乐园上空出现了一道彩虹。\n阿尔弗雷多指出这不是第一次出现彩虹，但第一次出现的彩虹的颜色排列与平常相反。\n她看到后就一直尝试在此处拍摄，可是之后的彩虹总是呈现正常颜色。\n阿尔弗雷多有些沮丧，但仍坚持自己之前所见不虚。",
 		id = 21,
 		tip_special_effect = "",
@@ -572,8 +662,8 @@ pg.activity_dreamland_explore = {
 				"阿尔弗雷多有些沮丧，但仍坚持自己之前所见不虚。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[22] = {
 		dispaly_desc = "下午，水上乐园上空出现了一道彩虹。\n阿尔弗雷多指出这不是第一次出现彩虹，但第一次出现的彩虹的颜色排列与平常相反。\n她看到后就一直尝试在此处拍摄，可是之后的彩虹总是呈现正常颜色。\n阿尔弗雷多有些沮丧，但仍坚持自己之前所见不虚。",
 		id = 22,
 		tip_special_effect = "",
@@ -598,8 +688,8 @@ pg.activity_dreamland_explore = {
 				"阿尔弗雷多有些沮丧，但仍坚持自己之前所见不虚。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[23] = {
 		dispaly_desc = "路过马戏帐篷时，遇到了正在观察帐篷的{namecode:189}。\n她声称帐篷上的小丑啾会改变表情。\n然而她每次尝试引起别人注意去观察小丑啾的表情时，小丑啾都会立刻恢复面无表情的模样。\n{namecode:189}是不是看太多恐怖片了？",
 		id = 23,
 		tip_special_effect = "",
@@ -624,8 +714,8 @@ pg.activity_dreamland_explore = {
 				"{namecode:189}是不是看太多恐怖片了？"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[24] = {
 		dispaly_desc = "路过马戏帐篷时，遇到了正在观察帐篷的{namecode:189}。\n她声称帐篷上的小丑啾会改变表情。\n然而她每次尝试引起别人注意去观察小丑啾的表情时，小丑啾都会立刻恢复面无表情的模样。\n{namecode:189}是不是看太多恐怖片了？",
 		id = 24,
 		tip_special_effect = "",
@@ -650,8 +740,8 @@ pg.activity_dreamland_explore = {
 				"{namecode:189}是不是看太多恐怖片了？"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[25] = {
 		dispaly_desc = "路过马戏帐篷时，遇到了正在观察帐篷的{namecode:189}。\n她声称帐篷上的小丑啾会改变表情。\n然而她每次尝试引起别人注意去观察小丑啾的表情时，小丑啾都会立刻恢复面无表情的模样。\n{namecode:189}是不是看太多恐怖片了？",
 		id = 25,
 		tip_special_effect = "",
@@ -676,8 +766,8 @@ pg.activity_dreamland_explore = {
 				"{namecode:189}是不是看太多恐怖片了？"
 			}
 		}
-	},
-	[27] = {
+	}
+	pg.base.activity_dreamland_explore[27] = {
 		dispaly_desc = "在表演区遇到了看上去有些纠结的{namecode:37}。\n据她所说，这里的灯牌在没有通电的情况下正常亮起，且在自行变换图案。\n她想知道是什么原理导致的，于是就拆了一个。\n然而既没有弄清原理，也没办法将拆下来的灯泡装回去。\n总之，这种时候还是建议她先联系{namecode:161}吧。",
 		id = 27,
 		tip_special_effect = "",
@@ -705,8 +795,8 @@ pg.activity_dreamland_explore = {
 				"总之，这种时候还是建议她先联系{namecode:161}吧。"
 			}
 		}
-	},
-	[28] = {
+	}
+	pg.base.activity_dreamland_explore[28] = {
 		dispaly_desc = "来到迷雾探险区时，发现{namecode:180}正在这里发呆。\n“噗噗说，后山里有小伙伴……就在那里。”\n然而顺着{namecode:180}指出的方向努力看去，结果却什么也看不到。",
 		id = 28,
 		tip_special_effect = "",
@@ -728,8 +818,8 @@ pg.activity_dreamland_explore = {
 				"然而顺着{namecode:180}指出的方向努力看去，结果却什么也看不到。"
 			}
 		}
-	},
-	[29] = {
+	}
+	pg.base.activity_dreamland_explore[29] = {
 		dispaly_desc = "傍晚来到鬼屋时，抚顺在门口站了许久都没有彻底推门进入。\n她表示每次把手放上去时，门把手就有一种异常的感觉，无法触碰。\n“这一定是针对我冒险王抚顺的诅咒！”她大叫道。\n然而在{namecode:161}的提醒后发现，只是抚顺一路都在摩挲衣服产生的格外强烈的静电。",
 		id = 29,
 		tip_special_effect = "",
@@ -754,89 +844,5 @@ pg.activity_dreamland_explore = {
 				"然而在{namecode:161}的提醒后发现，只是抚顺一路都在摩挲衣服产生的格外强烈的静电。"
 			}
 		}
-	},
-	get_id_list_by_group = {
-		{
-			1,
-			2,
-			3
-		},
-		{
-			4
-		},
-		{
-			5,
-			6,
-			7
-		},
-		{
-			8,
-			9,
-			10,
-			11,
-			12,
-			13
-		},
-		{
-			14,
-			15,
-			16
-		},
-		{
-			17
-		},
-		{
-			18,
-			19,
-			20
-		},
-		{
-			21,
-			22
-		},
-		{
-			23,
-			24,
-			25
-		},
-		{
-			27
-		},
-		{
-			28
-		},
-		{
-			29
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		27,
-		28,
-		29
 	}
-}
+end)()

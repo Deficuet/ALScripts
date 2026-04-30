@@ -1,235 +1,238 @@
 pg = pg or {}
-pg.pay_data_display = setmetatable({
-	__name = "pay_data_display",
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		55,
-		56,
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63,
-		64,
-		65,
-		66,
-		67,
-		68,
-		69,
-		70,
-		71,
-		72,
-		73,
-		74,
-		75,
-		76,
-		77,
-		78,
-		79,
-		80,
-		81,
-		82,
-		83,
-		84,
-		85,
-		86,
-		87,
-		88,
-		89,
-		90,
-		91,
-		92,
-		93,
-		94,
-		95,
-		96,
-		97,
-		98,
-		99,
-		9001,
-		9002,
-		9003,
-		9004,
-		9005,
-		9006,
-		9007,
-		9008,
-		9009,
-		9010,
-		9011,
-		9012,
-		9013,
-		9014,
-		9015,
-		1000,
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		1010,
-		1011,
-		1012,
-		1013,
-		1014,
-		1015,
-		1016,
-		1017,
-		1018,
-		1019,
-		1020,
-		1021,
-		1022,
-		1023,
-		1024,
-		1025,
-		1026,
-		1027,
-		1302,
-		2001,
-		2002,
-		2003,
-		2004,
-		2005,
-		2006,
-		2007,
-		2008,
-		2009,
-		2010,
-		2011,
-		2012,
-		2013,
-		2014,
-		2015,
-		2016,
-		2017,
-		2018,
-		2019,
-		2020,
-		2021,
-		2022,
-		2023,
-		2024,
-		2025,
-		2026,
-		2027,
-		2028,
-		2029,
-		2030,
-		2031,
-		2032,
-		2033,
-		2034,
-		2035,
-		2036,
-		2037,
-		2038,
-		2039,
-		2040,
-		2041,
-		2042,
-		2043,
-		2044,
-		2045,
-		2046,
-		2047,
-		2048,
-		2049,
-		2050,
-		2051,
-		2052,
-		2053,
-		2054,
-		2055,
-		2056,
-		2057,
-		2058,
-		2059,
-		2063,
-		2064,
-		2068,
-		2069,
-		2070,
-		2071,
-		2074,
-		2075,
-		2076,
-		2077,
-		2078,
-		5001,
-		5002,
-		5003,
-		5004,
-		5005,
-		5006,
-		5007,
-		5011,
-		5012,
-		5013,
-		5014,
-		5015,
-		5016,
-		5017
-	}
-}, confHX)
+pg.pay_data_display = rawget(pg, "pay_data_display") or setmetatable({
+	__name = "pay_data_display"
+}, confNEO)
+pg.pay_data_display.__namecode__ = true
+pg.pay_data_display.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	67,
+	68,
+	69,
+	70,
+	71,
+	72,
+	73,
+	74,
+	75,
+	76,
+	77,
+	78,
+	79,
+	80,
+	81,
+	82,
+	83,
+	84,
+	85,
+	86,
+	87,
+	88,
+	89,
+	90,
+	91,
+	92,
+	93,
+	94,
+	95,
+	96,
+	97,
+	98,
+	99,
+	9001,
+	9002,
+	9003,
+	9004,
+	9005,
+	9006,
+	9007,
+	9008,
+	9009,
+	9010,
+	9011,
+	9012,
+	9013,
+	9014,
+	9015,
+	1000,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012,
+	1013,
+	1014,
+	1015,
+	1016,
+	1017,
+	1018,
+	1019,
+	1020,
+	1021,
+	1022,
+	1023,
+	1024,
+	1025,
+	1026,
+	1027,
+	1302,
+	2001,
+	2002,
+	2003,
+	2004,
+	2005,
+	2006,
+	2007,
+	2008,
+	2009,
+	2010,
+	2011,
+	2012,
+	2013,
+	2014,
+	2015,
+	2016,
+	2017,
+	2018,
+	2019,
+	2020,
+	2021,
+	2022,
+	2023,
+	2024,
+	2025,
+	2026,
+	2027,
+	2028,
+	2029,
+	2030,
+	2031,
+	2032,
+	2033,
+	2034,
+	2035,
+	2036,
+	2037,
+	2038,
+	2039,
+	2040,
+	2041,
+	2042,
+	2043,
+	2044,
+	2045,
+	2046,
+	2047,
+	2048,
+	2049,
+	2050,
+	2051,
+	2052,
+	2053,
+	2054,
+	2055,
+	2056,
+	2057,
+	2058,
+	2059,
+	2063,
+	2064,
+	2068,
+	2069,
+	2070,
+	2071,
+	2074,
+	2075,
+	2076,
+	2077,
+	2078,
+	5001,
+	5002,
+	5003,
+	5004,
+	5005,
+	5006,
+	5007,
+	5011,
+	5012,
+	5013,
+	5014,
+	5015,
+	5016,
+	5017
+}
 pg.base = pg.base or {}
-pg.base.pay_data_display = {
-	{
+pg.base.pay_data_display = {}
+
+;(function()
+	pg.base.pay_data_display[1] = {
 		limit_group = 0,
 		name = "贸易许可证（30日）",
 		descrip_extra = "",
@@ -322,8 +325,8 @@ pg.base.pay_data_display = {
 				500
 			}
 		}
-	},
-	{
+	}
+	pg.base.pay_data_display[2] = {
 		limit_group = 0,
 		name = "新手启航补给",
 		descrip_extra = "",
@@ -400,8 +403,8 @@ pg.base.pay_data_display = {
 				2
 			}
 		}
-	},
-	{
+	}
+	pg.base.pay_data_display[3] = {
 		limit_group = 0,
 		name = "几个钻石",
 		descrip_extra = "",
@@ -440,8 +443,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	{
+	}
+	pg.base.pay_data_display[4] = {
 		limit_group = 0,
 		name = "一小堆钻石",
 		descrip_extra = "",
@@ -480,8 +483,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	{
+	}
+	pg.base.pay_data_display[5] = {
 		limit_group = 0,
 		name = "一大袋钻石",
 		descrip_extra = "",
@@ -520,8 +523,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	{
+	}
+	pg.base.pay_data_display[6] = {
 		limit_group = 0,
 		name = "一小箱钻石",
 		descrip_extra = "",
@@ -560,8 +563,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	{
+	}
+	pg.base.pay_data_display[7] = {
 		limit_group = 0,
 		name = "一大箱钻石",
 		descrip_extra = "",
@@ -600,8 +603,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	{
+	}
+	pg.base.pay_data_display[8] = {
 		limit_group = 0,
 		name = "一整船钻石",
 		descrip_extra = "",
@@ -640,8 +643,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	{
+	}
+	pg.base.pay_data_display[9] = {
 		limit_group = 0,
 		name = "新年福袋",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。已获得的衣装将自动置换成等价的钻石。",
@@ -758,8 +761,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[11] = {
+	}
+	pg.base.pay_data_display[11] = {
 		limit_group = 0,
 		name = "国庆福袋",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则会转化为对应原价9折的钻石。",
@@ -876,8 +879,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[12] = {
+	}
+	pg.base.pay_data_display[12] = {
 		limit_group = 0,
 		name = "2019新年福袋",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -994,8 +997,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[13] = {
+	}
+	pg.base.pay_data_display[13] = {
 		limit_group = 0,
 		name = "2019春节福袋",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -1112,8 +1115,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[14] = {
+	}
+	pg.base.pay_data_display[14] = {
 		limit_group = 0,
 		name = "二周年礼盒",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -1230,8 +1233,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[15] = {
+	}
+	pg.base.pay_data_display[15] = {
 		limit_group = 0,
 		name = "2019国庆礼盒",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -1348,8 +1351,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[16] = {
+	}
+	pg.base.pay_data_display[16] = {
 		limit_group = 0,
 		name = "新年福袋2020",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -1471,8 +1474,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[17] = {
+	}
+	pg.base.pay_data_display[17] = {
 		limit_group = 0,
 		name = "新年福袋复刻(2019)",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -1589,8 +1592,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[18] = {
+	}
+	pg.base.pay_data_display[18] = {
 		limit_group = 0,
 		name = "春节福袋2020",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -1712,8 +1715,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[19] = {
+	}
+	pg.base.pay_data_display[19] = {
 		limit_group = 0,
 		name = "春节福袋复刻(2019)",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -1830,8 +1833,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[20] = {
+	}
+	pg.base.pay_data_display[20] = {
 		limit_group = 0,
 		name = "新晋指挥官支援包·I",
 		descrip_extra = "*支援包将发送到邮箱，请注意查收。",
@@ -1939,8 +1942,8 @@ pg.base.pay_data_display = {
 				180
 			}
 		}
-	},
-	[21] = {
+	}
+	pg.base.pay_data_display[21] = {
 		limit_group = 0,
 		name = "新晋指挥官支援包·II",
 		descrip_extra = "*支援包将发送到邮箱，请注意查收。",
@@ -2073,8 +2076,8 @@ pg.base.pay_data_display = {
 				780
 			}
 		}
-	},
-	[22] = {
+	}
+	pg.base.pay_data_display[22] = {
 		limit_group = 0,
 		name = "新晋指挥官支援包·III",
 		descrip_extra = "*支援包将发送到邮箱，请注意查收。",
@@ -2212,8 +2215,8 @@ pg.base.pay_data_display = {
 				1680
 			}
 		}
-	},
-	[23] = {
+	}
+	pg.base.pay_data_display[23] = {
 		limit_group = 0,
 		name = "三周年礼盒",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -2335,8 +2338,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[24] = {
+	}
+	pg.base.pay_data_display[24] = {
 		limit_group = 0,
 		name = "2020国庆礼盒",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -2458,8 +2461,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[25] = {
+	}
+	pg.base.pay_data_display[25] = {
 		limit_group = 0,
 		name = "新年福袋2021",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -2581,8 +2584,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[26] = {
+	}
+	pg.base.pay_data_display[26] = {
 		limit_group = 0,
 		name = "新年福袋复刻(2020)",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -2704,8 +2707,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[27] = {
+	}
+	pg.base.pay_data_display[27] = {
 		limit_group = 0,
 		name = "春节福袋2021",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -2827,8 +2830,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[28] = {
+	}
+	pg.base.pay_data_display[28] = {
 		limit_group = 0,
 		name = "春节福袋复刻(2020)",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -2950,8 +2953,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[29] = {
+	}
+	pg.base.pay_data_display[29] = {
 		limit_group = 0,
 		name = "四周年礼盒",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -3073,8 +3076,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[30] = {
+	}
+	pg.base.pay_data_display[30] = {
 		limit_group = 0,
 		name = "三周年礼盒复刻",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -3196,8 +3199,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[31] = {
+	}
+	pg.base.pay_data_display[31] = {
 		limit_group = 0,
 		name = "大型作战攻略支援包",
 		descrip_extra = "*支援包将发送到邮箱，请注意查收。",
@@ -3325,8 +3328,8 @@ pg.base.pay_data_display = {
 				1980
 			}
 		}
-	},
-	[32] = {
+	}
+	pg.base.pay_data_display[32] = {
 		limit_group = 0,
 		name = "2021国庆礼盒",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -3448,8 +3451,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[33] = {
+	}
+	pg.base.pay_data_display[33] = {
 		limit_group = 0,
 		name = "国庆礼盒复刻（2020）",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -3571,8 +3574,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[34] = {
+	}
+	pg.base.pay_data_display[34] = {
 		limit_group = 0,
 		name = "新年福袋2022",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -3694,8 +3697,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[35] = {
+	}
+	pg.base.pay_data_display[35] = {
 		limit_group = 0,
 		name = "新年福袋复刻(2021)",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -3817,8 +3820,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[36] = {
+	}
+	pg.base.pay_data_display[36] = {
 		limit_group = 0,
 		name = "春节福袋2022",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -3940,8 +3943,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[37] = {
+	}
+	pg.base.pay_data_display[37] = {
 		limit_group = 0,
 		name = "春节福袋复刻(2021)",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -4063,8 +4066,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[38] = {
+	}
+	pg.base.pay_data_display[38] = {
 		limit_group = 0,
 		name = "五周年礼盒",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -4186,8 +4189,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[39] = {
+	}
+	pg.base.pay_data_display[39] = {
 		limit_group = 0,
 		name = "四周年礼盒复刻",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -4309,8 +4312,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[40] = {
+	}
+	pg.base.pay_data_display[40] = {
 		limit_group = 0,
 		name = "金秋庆典礼盒",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -4432,8 +4435,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[41] = {
+	}
+	pg.base.pay_data_display[41] = {
 		limit_group = 0,
 		name = "金秋庆典礼盒（2021）",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -4555,8 +4558,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[44] = {
+	}
+	pg.base.pay_data_display[44] = {
 		limit_group = 0,
 		name = "回归礼包",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -4718,8 +4721,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[45] = {
+	}
+	pg.base.pay_data_display[45] = {
 		limit_group = 0,
 		name = "2023泳装礼盒·I",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -4841,8 +4844,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[46] = {
+	}
+	pg.base.pay_data_display[46] = {
 		limit_group = 0,
 		name = "2023泳装礼盒·II",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -4964,8 +4967,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[47] = {
+	}
+	pg.base.pay_data_display[47] = {
 		limit_group = 0,
 		name = "新年福袋复刻(2022)",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -5087,8 +5090,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[48] = {
+	}
+	pg.base.pay_data_display[48] = {
 		limit_group = 0,
 		name = "2023年春节福袋·I",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -5210,8 +5213,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[49] = {
+	}
+	pg.base.pay_data_display[49] = {
 		limit_group = 0,
 		name = "2023年春节福袋·II",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -5333,8 +5336,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[50] = {
+	}
+	pg.base.pay_data_display[50] = {
 		limit_group = 0,
 		name = "春节福袋复刻(2022)",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -5456,8 +5459,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[51] = {
+	}
+	pg.base.pay_data_display[51] = {
 		limit_group = 0,
 		name = "六周年泳装礼盒",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -5590,8 +5593,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[52] = {
+	}
+	pg.base.pay_data_display[52] = {
 		limit_group = 0,
 		name = "六周年礼盒",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -5724,8 +5727,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[53] = {
+	}
+	pg.base.pay_data_display[53] = {
 		limit_group = 0,
 		name = "五周年礼盒复刻",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -5858,8 +5861,8 @@ pg.base.pay_data_display = {
 				2022
 			}
 		}
-	},
-	[55] = {
+	}
+	pg.base.pay_data_display[55] = {
 		limit_group = 0,
 		name = "金秋庆典礼盒(2023)",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -5992,8 +5995,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[56] = {
+	}
+	pg.base.pay_data_display[56] = {
 		limit_group = 0,
 		name = "金秋庆典礼盒复刻(2022)",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -6126,8 +6129,8 @@ pg.base.pay_data_display = {
 				2022
 			}
 		}
-	},
-	[57] = {
+	}
+	pg.base.pay_data_display[57] = {
 		limit_group = 0,
 		name = "金秋礼盒2023",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -6260,8 +6263,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[58] = {
+	}
+	pg.base.pay_data_display[58] = {
 		limit_group = 0,
 		name = "茗的促销大礼包",
 		descrip_extra = "礼盒将发送到邮箱，请注意查收。\n*自选促销礼物盒需要在仓库中使用",
@@ -6368,8 +6371,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[59] = {
+	}
+	pg.base.pay_data_display[59] = {
 		limit_group = 0,
 		name = "茗的豪华促销大礼包",
 		descrip_extra = "礼盒将发送到邮箱，请注意查收。\n*豪华自选促销礼物盒中的促销换装兑换券（限时）具有时限，请即时使用。",
@@ -6471,8 +6474,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[60] = {
+	}
+	pg.base.pay_data_display[60] = {
 		limit_group = 0,
 		name = "促销心动福袋",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -6580,8 +6583,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[61] = {
+	}
+	pg.base.pay_data_display[61] = {
 		limit_group = 0,
 		name = "绚烂缤纷夜福袋·I",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -6714,8 +6717,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[62] = {
+	}
+	pg.base.pay_data_display[62] = {
 		limit_group = 0,
 		name = "2023泳装礼盒·I复刻",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -6848,8 +6851,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[63] = {
+	}
+	pg.base.pay_data_display[63] = {
 		limit_group = 0,
 		name = "绚烂缤纷夜福袋·Ⅱ",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -6982,8 +6985,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[64] = {
+	}
+	pg.base.pay_data_display[64] = {
 		limit_group = 0,
 		name = "2023泳装礼盒·Ⅱ复刻",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -7116,8 +7119,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[65] = {
+	}
+	pg.base.pay_data_display[65] = {
 		limit_group = 0,
 		name = "2024年春节福袋·I",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -7250,8 +7253,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[66] = {
+	}
+	pg.base.pay_data_display[66] = {
 		limit_group = 0,
 		name = "2023年春节福袋·I复刻",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -7384,8 +7387,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[67] = {
+	}
+	pg.base.pay_data_display[67] = {
 		limit_group = 0,
 		name = "2024年春节福袋·II",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -7518,8 +7521,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[68] = {
+	}
+	pg.base.pay_data_display[68] = {
 		limit_group = 0,
 		name = "2023年春节福袋·II复刻",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -7652,8 +7655,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[69] = {
+	}
+	pg.base.pay_data_display[69] = {
 		limit_group = 0,
 		name = "七周年泳装礼盒",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -7786,8 +7789,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[70] = {
+	}
+	pg.base.pay_data_display[70] = {
 		limit_group = 0,
 		name = "六周年泳装礼盒复刻",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -7920,8 +7923,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[71] = {
+	}
+	pg.base.pay_data_display[71] = {
 		limit_group = 0,
 		name = "七周年礼盒",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -8054,8 +8057,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[72] = {
+	}
+	pg.base.pay_data_display[72] = {
 		limit_group = 0,
 		name = "六周年礼盒复刻",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -8188,8 +8191,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[73] = {
+	}
+	pg.base.pay_data_display[73] = {
 		limit_group = 0,
 		name = "梦幻乐园换装礼盒I",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -8322,8 +8325,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[74] = {
+	}
+	pg.base.pay_data_display[74] = {
 		limit_group = 0,
 		name = "金秋礼盒2023复刻",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -8456,8 +8459,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[75] = {
+	}
+	pg.base.pay_data_display[75] = {
 		limit_group = 0,
 		name = "梦幻乐园换装礼盒II",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -8590,8 +8593,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[76] = {
+	}
+	pg.base.pay_data_display[76] = {
 		limit_group = 0,
 		name = "金秋庆典礼盒(2023)复刻",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -8724,8 +8727,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[77] = {
+	}
+	pg.base.pay_data_display[77] = {
 		limit_group = 0,
 		name = "冬日自选礼包1",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -8832,8 +8835,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[78] = {
+	}
+	pg.base.pay_data_display[78] = {
 		limit_group = 0,
 		name = "冬日自选礼包2",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -8945,8 +8948,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[79] = {
+	}
+	pg.base.pay_data_display[79] = {
 		limit_group = 0,
 		name = "冬日自选礼包3",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -9073,8 +9076,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[80] = {
+	}
+	pg.base.pay_data_display[80] = {
 		limit_group = 0,
 		name = "豪华冬至促销礼盒(2024)",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -9182,8 +9185,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[81] = {
+	}
+	pg.base.pay_data_display[81] = {
 		limit_group = 0,
 		name = "冬至促销礼盒(2024)",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*拥有列表中的所有换装则转换为获得1080钻石。",
@@ -9271,8 +9274,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[82] = {
+	}
+	pg.base.pay_data_display[82] = {
 		limit_group = 0,
 		name = "港区游戏之夜礼盒·I",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -9405,8 +9408,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[83] = {
+	}
+	pg.base.pay_data_display[83] = {
 		limit_group = 0,
 		name = "绚烂缤纷夜福袋·I复刻",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -9539,8 +9542,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[84] = {
+	}
+	pg.base.pay_data_display[84] = {
 		limit_group = 0,
 		name = "港区游戏之夜礼盒·II",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -9673,8 +9676,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[85] = {
+	}
+	pg.base.pay_data_display[85] = {
 		limit_group = 0,
 		name = "绚烂缤纷夜福袋·II复刻",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -9807,8 +9810,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[86] = {
+	}
+	pg.base.pay_data_display[86] = {
 		limit_group = 0,
 		name = "2025年春节福袋一",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -9941,8 +9944,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[87] = {
+	}
+	pg.base.pay_data_display[87] = {
 		limit_group = 0,
 		name = "2025年春节福袋·II",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -10075,8 +10078,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[88] = {
+	}
+	pg.base.pay_data_display[88] = {
 		limit_group = 0,
 		name = "2024年春节福袋·I复刻",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -10209,8 +10212,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[89] = {
+	}
+	pg.base.pay_data_display[89] = {
 		limit_group = 0,
 		name = "2024年春节福袋·II复刻",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -10343,8 +10346,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[90] = {
+	}
+	pg.base.pay_data_display[90] = {
 		limit_group = 0,
 		name = "换装礼盒(校园生活)",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*拥有列表中的所有换装则转换为获得680钻石。",
@@ -10457,8 +10460,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[91] = {
+	}
+	pg.base.pay_data_display[91] = {
 		limit_group = 0,
 		name = "八周年泳装礼盒·I",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -10591,8 +10594,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[92] = {
+	}
+	pg.base.pay_data_display[92] = {
 		limit_group = 0,
 		name = "七周年泳装礼盒复刻",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -10725,8 +10728,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[93] = {
+	}
+	pg.base.pay_data_display[93] = {
 		limit_group = 0,
 		name = "八周年泳装礼盒·II",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -10859,8 +10862,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[94] = {
+	}
+	pg.base.pay_data_display[94] = {
 		limit_group = 0,
 		name = "七周年礼盒复刻",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -10993,8 +10996,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[95] = {
+	}
+	pg.base.pay_data_display[95] = {
 		limit_group = 0,
 		name = "换装礼盒(嘉年华)",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*拥有列表中的所有换装则转换为获得680钻石。",
@@ -11107,8 +11110,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[96] = {
+	}
+	pg.base.pay_data_display[96] = {
 		limit_group = 0,
 		name = "忍者之城换装礼盒I",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -11241,8 +11244,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[97] = {
+	}
+	pg.base.pay_data_display[97] = {
 		limit_group = 0,
 		name = "梦幻乐园换装礼盒I复刻",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -11375,8 +11378,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[98] = {
+	}
+	pg.base.pay_data_display[98] = {
 		limit_group = 0,
 		name = "忍者之城换装礼盒II",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -11509,8 +11512,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[99] = {
+	}
+	pg.base.pay_data_display[99] = {
 		limit_group = 0,
 		name = "梦幻乐园换装礼盒II复刻",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -11643,8 +11646,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[9001] = {
+	}
+	pg.base.pay_data_display[9001] = {
 		limit_group = 0,
 		name = "换装礼盒(疾速狂热)",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*拥有列表中的所有换装则转换为获得680钻石。",
@@ -11757,8 +11760,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[9002] = {
+	}
+	pg.base.pay_data_display[9002] = {
 		limit_group = 0,
 		name = "冬日自选礼包1(2025)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -11865,8 +11868,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[9003] = {
+	}
+	pg.base.pay_data_display[9003] = {
 		limit_group = 0,
 		name = "冬日自选礼包2(2025)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -11978,8 +11981,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[9004] = {
+	}
+	pg.base.pay_data_display[9004] = {
 		limit_group = 0,
 		name = "冬日自选礼包3(2025)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -12106,8 +12109,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[9005] = {
+	}
+	pg.base.pay_data_display[9005] = {
 		limit_group = 0,
 		name = "豪华冬日促销礼盒(2025)",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -12240,8 +12243,10 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[9006] = {
+	}
+end)()
+;(function()
+	pg.base.pay_data_display[9006] = {
 		limit_group = 0,
 		name = "冬日促销礼盒(2025)",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*拥有列表中的所有换装则转换为获得1080钻石。",
@@ -12354,8 +12359,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[9007] = {
+	}
+	pg.base.pay_data_display[9007] = {
 		limit_group = 0,
 		name = "庆典狂欢夜礼盒·I",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -12488,8 +12493,8 @@ pg.base.pay_data_display = {
 				2026
 			}
 		}
-	},
-	[9008] = {
+	}
+	pg.base.pay_data_display[9008] = {
 		limit_group = 0,
 		name = "港区游戏之夜礼盒·I复刻",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -12622,8 +12627,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[9009] = {
+	}
+	pg.base.pay_data_display[9009] = {
 		limit_group = 0,
 		name = "庆典狂欢夜礼盒·II",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -12756,8 +12761,8 @@ pg.base.pay_data_display = {
 				2026
 			}
 		}
-	},
-	[9010] = {
+	}
+	pg.base.pay_data_display[9010] = {
 		limit_group = 0,
 		name = "港区游戏之夜礼盒·II复刻",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -12890,8 +12895,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[9011] = {
+	}
+	pg.base.pay_data_display[9011] = {
 		limit_group = 0,
 		name = "2026年春节福袋·I",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -13024,8 +13029,8 @@ pg.base.pay_data_display = {
 				2026
 			}
 		}
-	},
-	[9012] = {
+	}
+	pg.base.pay_data_display[9012] = {
 		limit_group = 0,
 		name = "2025年春节福袋·I复刻",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -13158,8 +13163,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[9013] = {
+	}
+	pg.base.pay_data_display[9013] = {
 		limit_group = 0,
 		name = "2026年春节福袋·II",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -13292,8 +13297,8 @@ pg.base.pay_data_display = {
 				2026
 			}
 		}
-	},
-	[9014] = {
+	}
+	pg.base.pay_data_display[9014] = {
 		limit_group = 0,
 		name = "2025年春节福袋·II复刻",
 		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
@@ -13426,8 +13431,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[9015] = {
+	}
+	pg.base.pay_data_display[9015] = {
 		limit_group = 0,
 		name = "换装礼盒(宴会礼服)",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*拥有列表中的所有换装则转换为获得680钻石。",
@@ -13540,8 +13545,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[1000] = {
+	}
+	pg.base.pay_data_display[1000] = {
 		limit_group = 0,
 		name = "特许巡游凭证",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -13625,8 +13630,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1001] = {
+	}
+	pg.base.pay_data_display[1001] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2021.12.1-1.31)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -13710,8 +13715,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1002] = {
+	}
+	pg.base.pay_data_display[1002] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2022.2)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -13795,8 +13800,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1003] = {
+	}
+	pg.base.pay_data_display[1003] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2022.4)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -13880,8 +13885,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1004] = {
+	}
+	pg.base.pay_data_display[1004] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2022.6)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -13965,8 +13970,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1005] = {
+	}
+	pg.base.pay_data_display[1005] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2022.8)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -14050,8 +14055,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1006] = {
+	}
+	pg.base.pay_data_display[1006] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2022.10)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -14135,8 +14140,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1007] = {
+	}
+	pg.base.pay_data_display[1007] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2022.12)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -14220,8 +14225,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1008] = {
+	}
+	pg.base.pay_data_display[1008] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2023.2)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -14305,8 +14310,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1009] = {
+	}
+	pg.base.pay_data_display[1009] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2023.4)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -14390,8 +14395,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1010] = {
+	}
+	pg.base.pay_data_display[1010] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2023.6)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -14475,8 +14480,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1011] = {
+	}
+	pg.base.pay_data_display[1011] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2023.8)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -14560,8 +14565,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1012] = {
+	}
+	pg.base.pay_data_display[1012] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2023.10)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -14645,8 +14650,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1013] = {
+	}
+	pg.base.pay_data_display[1013] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2023.12)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -14730,8 +14735,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1014] = {
+	}
+	pg.base.pay_data_display[1014] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2024.2)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -14815,8 +14820,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1015] = {
+	}
+	pg.base.pay_data_display[1015] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2024.4)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -14900,8 +14905,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1016] = {
+	}
+	pg.base.pay_data_display[1016] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2024.6)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -14985,8 +14990,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1017] = {
+	}
+	pg.base.pay_data_display[1017] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2024.8)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -15070,8 +15075,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1018] = {
+	}
+	pg.base.pay_data_display[1018] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2024.10)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -15155,8 +15160,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1019] = {
+	}
+	pg.base.pay_data_display[1019] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2024.12)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -15240,8 +15245,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1020] = {
+	}
+	pg.base.pay_data_display[1020] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2025.2)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -15325,8 +15330,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1021] = {
+	}
+	pg.base.pay_data_display[1021] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2025.4)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -15410,8 +15415,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1022] = {
+	}
+	pg.base.pay_data_display[1022] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2025.6)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -15495,8 +15500,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1023] = {
+	}
+	pg.base.pay_data_display[1023] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2025.8)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -15580,8 +15585,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1024] = {
+	}
+	pg.base.pay_data_display[1024] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2025.10)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -15665,8 +15670,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1025] = {
+	}
+	pg.base.pay_data_display[1025] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2025.12)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -15750,8 +15755,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1026] = {
+	}
+	pg.base.pay_data_display[1026] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2026.2)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -15835,8 +15840,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1027] = {
+	}
+	pg.base.pay_data_display[1027] = {
 		limit_group = 0,
 		name = "特许巡游凭证(2026.4)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -15920,8 +15925,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1302] = {
+	}
+	pg.base.pay_data_display[1302] = {
 		limit_group = 0,
 		name = "冬日特许巡游凭证(2025.12)",
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
@@ -16005,8 +16010,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2001] = {
+	}
+	pg.base.pay_data_display[2001] = {
 		limit_group = 1,
 		name = "最高方案研发礼包(一期)",
 		descrip_extra = "此处不会被看到",
@@ -16073,8 +16078,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2002] = {
+	}
+	pg.base.pay_data_display[2002] = {
 		limit_group = 1,
 		name = "最高方案研发礼包(一期)高级版",
 		descrip_extra = "*最高方案快速研发券·一期奖励可能发生变化，点击道具查看详情",
@@ -16146,8 +16151,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2003] = {
+	}
+	pg.base.pay_data_display[2003] = {
 		limit_group = 1,
 		name = "最高方案研发礼包(一期)标准版",
 		descrip_extra = "*最高方案快速研发券·一期奖励可能发生变化，点击道具查看详情",
@@ -16209,8 +16214,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2004] = {
+	}
+	pg.base.pay_data_display[2004] = {
 		limit_group = 1,
 		name = "最高方案研发礼包(一期)升级版",
 		descrip_extra = "升级为高级版后可获得定向蓝图·一期x343",
@@ -16272,8 +16277,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2005] = {
+	}
+	pg.base.pay_data_display[2005] = {
 		limit_group = 2,
 		name = "最高方案研发礼包(二期)",
 		descrip_extra = "此处不会被看到",
@@ -16340,8 +16345,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2006] = {
+	}
+	pg.base.pay_data_display[2006] = {
 		limit_group = 2,
 		name = "最高方案研发礼包(二期)高级版",
 		descrip_extra = "*最高方案快速研发券·二期奖励可能发生变化，点击道具查看详情",
@@ -16413,8 +16418,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2007] = {
+	}
+	pg.base.pay_data_display[2007] = {
 		limit_group = 2,
 		name = "最高方案研发礼包(二期)标准版",
 		descrip_extra = "*最高方案快速研发券·二期奖励可能发生变化，点击道具查看详情",
@@ -16476,8 +16481,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2008] = {
+	}
+	pg.base.pay_data_display[2008] = {
 		limit_group = 2,
 		name = "最高方案研发礼包(二期)升级版",
 		descrip_extra = "升级为高级版后可获得定向蓝图·二期x343",
@@ -16539,8 +16544,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2009] = {
+	}
+	pg.base.pay_data_display[2009] = {
 		limit_group = 0,
 		name = "即刻出战礼包",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -16633,8 +16638,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2010] = {
+	}
+	pg.base.pay_data_display[2010] = {
 		limit_group = 0,
 		name = "舰艇教材礼包",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -16751,8 +16756,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2011] = {
+	}
+	pg.base.pay_data_display[2011] = {
 		limit_group = 0,
 		name = "舰艇教材礼包(2022秋)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -16869,8 +16874,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2012] = {
+	}
+	pg.base.pay_data_display[2012] = {
 		limit_group = 0,
 		name = "冬至礼包1",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -16987,8 +16992,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2013] = {
+	}
+	pg.base.pay_data_display[2013] = {
 		limit_group = 0,
 		name = "冬至礼包2",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -17105,8 +17110,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2014] = {
+	}
+	pg.base.pay_data_display[2014] = {
 		limit_group = 0,
 		name = "舰艇教材礼包(2023春)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -17223,8 +17228,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2015] = {
+	}
+	pg.base.pay_data_display[2015] = {
 		limit_group = 3,
 		name = "最高方案研发礼包(三期)",
 		descrip_extra = "此处不会被看到",
@@ -17291,8 +17296,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2016] = {
+	}
+	pg.base.pay_data_display[2016] = {
 		limit_group = 3,
 		name = "最高方案研发礼包(三期)高级版",
 		descrip_extra = "*最高方案快速研发券·三期奖励可能发生变化，点击道具查看详情",
@@ -17364,8 +17369,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2017] = {
+	}
+	pg.base.pay_data_display[2017] = {
 		limit_group = 3,
 		name = "最高方案研发礼包(三期)标准版",
 		descrip_extra = "*最高方案快速研发券·三期奖励可能发生变化，点击道具查看详情",
@@ -17427,8 +17432,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2018] = {
+	}
+	pg.base.pay_data_display[2018] = {
 		limit_group = 3,
 		name = "最高方案研发礼包(三期)升级版",
 		descrip_extra = "升级为高级版后可获得定向蓝图·三期x343",
@@ -17490,8 +17495,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2019] = {
+	}
+	pg.base.pay_data_display[2019] = {
 		limit_group = 0,
 		name = "舰艇教材礼包(2023秋)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -17608,8 +17613,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2020] = {
+	}
+	pg.base.pay_data_display[2020] = {
 		limit_group = 0,
 		name = "冬至礼包(2023冬)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -17726,8 +17731,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2021] = {
+	}
+	pg.base.pay_data_display[2021] = {
 		limit_group = 0,
 		name = "海上传奇支援组合包",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -17834,8 +17839,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2022] = {
+	}
+	pg.base.pay_data_display[2022] = {
 		limit_group = 0,
 		name = "魔方支援礼包1",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -17917,8 +17922,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2023] = {
+	}
+	pg.base.pay_data_display[2023] = {
 		limit_group = 0,
 		name = "魔方支援礼包2",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -18000,8 +18005,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2024] = {
+	}
+	pg.base.pay_data_display[2024] = {
 		limit_group = 0,
 		name = "魔方支援礼包3",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -18083,8 +18088,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2025] = {
+	}
+	pg.base.pay_data_display[2025] = {
 		limit_group = 0,
 		name = "日常补给礼包",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -18151,8 +18156,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2026] = {
+	}
+	pg.base.pay_data_display[2026] = {
 		limit_group = 0,
 		name = "舰艇教材礼包(2024春)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -18269,8 +18274,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2027] = {
+	}
+	pg.base.pay_data_display[2027] = {
 		limit_group = 4,
 		name = "最高方案研发礼包(四期)",
 		descrip_extra = "此处不会被看到",
@@ -18337,8 +18342,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2028] = {
+	}
+	pg.base.pay_data_display[2028] = {
 		limit_group = 4,
 		name = "最高方案研发礼包(四期)高级版",
 		descrip_extra = "*最高方案快速研发券·四期奖励可能发生变化，点击道具查看详情",
@@ -18410,8 +18415,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2029] = {
+	}
+	pg.base.pay_data_display[2029] = {
 		limit_group = 4,
 		name = "最高方案研发礼包(四期)标准版",
 		descrip_extra = "*最高方案快速研发券·四期奖励可能发生变化，点击道具查看详情",
@@ -18473,8 +18478,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2030] = {
+	}
+	pg.base.pay_data_display[2030] = {
 		limit_group = 4,
 		name = "最高方案研发礼包(四期)升级版",
 		descrip_extra = "升级为高级版后可获得定向蓝图·四期x343",
@@ -18536,8 +18541,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2031] = {
+	}
+	pg.base.pay_data_display[2031] = {
 		limit_group = 0,
 		name = "海上传奇支援组合包(240718)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -18644,8 +18649,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2032] = {
+	}
+	pg.base.pay_data_display[2032] = {
 		limit_group = 101,
 		name = "梦幻霓虹主题礼包",
 		descrip_extra = "此处不会被看到",
@@ -18721,8 +18726,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2033] = {
+	}
+	pg.base.pay_data_display[2033] = {
 		limit_group = 101,
 		name = "梦幻霓虹主题礼包（基础版）",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -18804,8 +18809,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2034] = {
+	}
+	pg.base.pay_data_display[2034] = {
 		limit_group = 101,
 		name = "梦幻霓虹主题礼包（豪华版）",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -18897,8 +18902,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2035] = {
+	}
+	pg.base.pay_data_display[2035] = {
 		limit_group = 0,
 		name = "海上传奇支援组合包(241017)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -19005,8 +19010,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2036] = {
+	}
+	pg.base.pay_data_display[2036] = {
 		limit_group = 0,
 		name = "舰艇教材礼包(2024冬)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -19123,8 +19128,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2037] = {
+	}
+	pg.base.pay_data_display[2037] = {
 		limit_group = 102,
 		name = "圣诞雪境主题礼包",
 		descrip_extra = "此处不会被看到",
@@ -19200,8 +19205,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2038] = {
+	}
+	pg.base.pay_data_display[2038] = {
 		limit_group = 102,
 		name = "圣诞雪境主题礼包（基础版）",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -19283,8 +19288,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2039] = {
+	}
+	pg.base.pay_data_display[2039] = {
 		limit_group = 102,
 		name = "圣诞雪境主题礼包（豪华版）",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -19376,8 +19381,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2040] = {
+	}
+	pg.base.pay_data_display[2040] = {
 		limit_group = 0,
 		name = "冬至礼包(2024冬)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -19494,8 +19499,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2041] = {
+	}
+	pg.base.pay_data_display[2041] = {
 		limit_group = 0,
 		name = "海上传奇支援组合包(250109)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -19602,8 +19607,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2042] = {
+	}
+	pg.base.pay_data_display[2042] = {
 		limit_group = 103,
 		name = "圣砂之约主题礼包",
 		descrip_extra = "此处不会被看到",
@@ -19679,8 +19684,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2043] = {
+	}
+	pg.base.pay_data_display[2043] = {
 		limit_group = 103,
 		name = "圣砂之约主题礼包(基础版)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -19762,8 +19767,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2044] = {
+	}
+	pg.base.pay_data_display[2044] = {
 		limit_group = 103,
 		name = "圣砂之约主题礼包(豪华版)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -19855,8 +19860,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2045] = {
+	}
+	pg.base.pay_data_display[2045] = {
 		limit_group = 104,
 		name = "基因之源主题礼包",
 		descrip_extra = "此处不会被看到",
@@ -19932,8 +19937,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2046] = {
+	}
+	pg.base.pay_data_display[2046] = {
 		limit_group = 104,
 		name = "基因之源主题礼包(基础版)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -20015,8 +20020,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2047] = {
+	}
+	pg.base.pay_data_display[2047] = {
 		limit_group = 104,
 		name = "基因之源主题礼包(豪华版)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -20108,8 +20113,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2048] = {
+	}
+	pg.base.pay_data_display[2048] = {
 		limit_group = 0,
 		name = "海上传奇支援组合包(250417)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -20216,8 +20221,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2049] = {
+	}
+	pg.base.pay_data_display[2049] = {
 		limit_group = 0,
 		name = "舰艇教材礼包(2025春)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -20334,8 +20339,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2050] = {
+	}
+	pg.base.pay_data_display[2050] = {
 		limit_group = 105,
 		name = "海滨假日主题礼包",
 		descrip_extra = "此处不会被看到",
@@ -20411,8 +20416,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2051] = {
+	}
+	pg.base.pay_data_display[2051] = {
 		limit_group = 105,
 		name = "海滨假日主题礼包(基础版)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -20504,8 +20509,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2052] = {
+	}
+	pg.base.pay_data_display[2052] = {
 		limit_group = 105,
 		name = "海滨假日主题礼包(豪华版)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -20597,8 +20602,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2053] = {
+	}
+	pg.base.pay_data_display[2053] = {
 		limit_group = 5,
 		name = "最高方案研发礼包(五期)",
 		descrip_extra = "此处不会被看到",
@@ -20665,8 +20670,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2054] = {
+	}
+	pg.base.pay_data_display[2054] = {
 		limit_group = 5,
 		name = "最高方案研发礼包(五期)高级版",
 		descrip_extra = "*最高方案快速研发券·五期奖励可能发生变化，点击道具查看详情",
@@ -20738,8 +20743,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2055] = {
+	}
+	pg.base.pay_data_display[2055] = {
 		limit_group = 5,
 		name = "最高方案研发礼包(五期)标准版",
 		descrip_extra = "*最高方案快速研发券·五期奖励可能发生变化，点击道具查看详情",
@@ -20801,8 +20806,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2056] = {
+	}
+	pg.base.pay_data_display[2056] = {
 		limit_group = 5,
 		name = "最高方案研发礼包(五期)升级版",
 		descrip_extra = "升级为高级版后可获得定向蓝图·五期x343",
@@ -20864,8 +20869,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2057] = {
+	}
+	pg.base.pay_data_display[2057] = {
 		limit_group = 106,
 		name = "忍者之城主题礼包",
 		descrip_extra = "此处不会被看到",
@@ -20941,8 +20946,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2058] = {
+	}
+	pg.base.pay_data_display[2058] = {
 		limit_group = 106,
 		name = "忍者之城主题礼包(基础版)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -21034,8 +21039,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2059] = {
+	}
+	pg.base.pay_data_display[2059] = {
 		limit_group = 106,
 		name = "忍者之城主题礼包(豪华版)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -21127,8 +21132,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2063] = {
+	}
+	pg.base.pay_data_display[2063] = {
 		limit_group = 0,
 		name = "海上传奇支援组合包(251106)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -21235,8 +21240,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2064] = {
+	}
+	pg.base.pay_data_display[2064] = {
 		limit_group = 0,
 		name = "舰艇教材礼包(2025秋)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -21353,8 +21358,10 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2068] = {
+	}
+end)()
+;(function()
+	pg.base.pay_data_display[2068] = {
 		limit_group = 107,
 		name = "甜点女仆屋主题礼包",
 		descrip_extra = "此处不会被看到",
@@ -21430,8 +21437,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2069] = {
+	}
+	pg.base.pay_data_display[2069] = {
 		limit_group = 107,
 		name = "甜点女仆屋主题礼包(基础版)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -21523,8 +21530,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2070] = {
+	}
+	pg.base.pay_data_display[2070] = {
 		limit_group = 107,
 		name = "甜点女仆屋主题礼包(豪华版)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -21616,8 +21623,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2071] = {
+	}
+	pg.base.pay_data_display[2071] = {
 		limit_group = 0,
 		name = "冬至礼包(2025冬)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -21734,8 +21741,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2074] = {
+	}
+	pg.base.pay_data_display[2074] = {
 		limit_group = 108,
 		name = "春满客栈主题礼包",
 		descrip_extra = "此处不会被看到",
@@ -21811,8 +21818,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2075] = {
+	}
+	pg.base.pay_data_display[2075] = {
 		limit_group = 108,
 		name = "春满客栈主题礼包(基础版)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -21904,8 +21911,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2076] = {
+	}
+	pg.base.pay_data_display[2076] = {
 		limit_group = 108,
 		name = "春满客栈主题礼包(豪华版)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -21997,8 +22004,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2077] = {
+	}
+	pg.base.pay_data_display[2077] = {
 		limit_group = 0,
 		name = "战略统合补给包",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -22136,8 +22143,8 @@ pg.base.pay_data_display = {
 				40
 			}
 		}
-	},
-	[2078] = {
+	}
+	pg.base.pay_data_display[2078] = {
 		limit_group = 0,
 		name = "舰艇教材礼包(2026春)",
 		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
@@ -22254,8 +22261,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5001] = {
+	}
+	pg.base.pay_data_display[5001] = {
 		limit_group = 0,
 		name = "促销礼包I",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
@@ -22322,8 +22329,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5002] = {
+	}
+	pg.base.pay_data_display[5002] = {
 		limit_group = 0,
 		name = "促销礼包II",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
@@ -22380,8 +22387,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5003] = {
+	}
+	pg.base.pay_data_display[5003] = {
 		limit_group = 0,
 		name = "促销礼包III",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
@@ -22448,8 +22455,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5004] = {
+	}
+	pg.base.pay_data_display[5004] = {
 		limit_group = 0,
 		name = "促销礼包IV",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
@@ -22516,8 +22523,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5005] = {
+	}
+	pg.base.pay_data_display[5005] = {
 		limit_group = 0,
 		name = "促销礼包V",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
@@ -22574,8 +22581,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5006] = {
+	}
+	pg.base.pay_data_display[5006] = {
 		limit_group = 0,
 		name = "促销礼包VI",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
@@ -22642,8 +22649,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5007] = {
+	}
+	pg.base.pay_data_display[5007] = {
 		limit_group = 0,
 		name = "促销礼包VII",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
@@ -22710,8 +22717,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5011] = {
+	}
+	pg.base.pay_data_display[5011] = {
 		limit_group = 0,
 		name = "促销礼包I(2024)",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
@@ -22778,8 +22785,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5012] = {
+	}
+	pg.base.pay_data_display[5012] = {
 		limit_group = 0,
 		name = "促销礼包II(2024)",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
@@ -22836,8 +22843,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5013] = {
+	}
+	pg.base.pay_data_display[5013] = {
 		limit_group = 0,
 		name = "促销礼包III(2024)",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
@@ -22904,8 +22911,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5014] = {
+	}
+	pg.base.pay_data_display[5014] = {
 		limit_group = 0,
 		name = "促销礼包IV(2024)",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
@@ -22972,8 +22979,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5015] = {
+	}
+	pg.base.pay_data_display[5015] = {
 		limit_group = 0,
 		name = "促销礼包V(2024)",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
@@ -23030,8 +23037,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5016] = {
+	}
+	pg.base.pay_data_display[5016] = {
 		limit_group = 0,
 		name = "促销礼包VI(2024)",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
@@ -23098,8 +23105,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5017] = {
+	}
+	pg.base.pay_data_display[5017] = {
 		limit_group = 0,
 		name = "促销礼包VII(2024)",
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
@@ -23167,4 +23174,4 @@ pg.base.pay_data_display = {
 			}
 		}
 	}
-}
+end)()

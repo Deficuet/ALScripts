@@ -5,9 +5,9 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0.nextFlashTime = arg_1_1.next_flash_time
 	arg_1_0.goods = {}
 
-	for iter_1_0, iter_1_1 in ipairs(pg.gameroom_shop_template) do
-		local var_1_0 = Goods.Create(iter_1_1, Goods.TYPE_MINI_GAME)
-		local var_1_1 = arg_1_0:getGoodData(iter_1_1.id) or 0
+	for iter_1_0, iter_1_1 in ipairs(pg.gameroom_shop_template.all) do
+		local var_1_0 = Goods.Create(pg.gameroom_shop_template[iter_1_1], Goods.TYPE_MINI_GAME)
+		local var_1_1 = arg_1_0:getGoodData(iter_1_1) or 0
 
 		var_1_0:UpdateCnt(var_1_1)
 

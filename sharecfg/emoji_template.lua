@@ -1,6 +1,195 @@
 pg = pg or {}
-pg.emoji_template = {
-	{
+pg.emoji_template = rawget(pg, "emoji_template") or setmetatable({
+	__name = "emoji_template"
+}, confNEO)
+pg.emoji_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	65,
+	66,
+	67,
+	68,
+	100,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	113,
+	114,
+	201,
+	202,
+	203,
+	204,
+	205,
+	206,
+	207,
+	208,
+	209,
+	210,
+	211,
+	212,
+	213,
+	214,
+	215,
+	216,
+	217,
+	218,
+	219,
+	220,
+	221,
+	222,
+	223,
+	224,
+	225,
+	226,
+	227,
+	228,
+	229,
+	230,
+	231,
+	232,
+	233,
+	234,
+	235,
+	236,
+	237,
+	238,
+	239,
+	240,
+	241,
+	242,
+	243,
+	244,
+	245,
+	246,
+	247,
+	248,
+	301,
+	302,
+	303,
+	304,
+	305,
+	306,
+	307,
+	308,
+	309,
+	310,
+	311,
+	312,
+	313,
+	314,
+	315,
+	316,
+	317,
+	318,
+	319,
+	320,
+	321,
+	322,
+	323,
+	324,
+	351,
+	352,
+	353,
+	354,
+	355,
+	356,
+	357,
+	358,
+	359,
+	360,
+	361,
+	362,
+	363,
+	365,
+	366,
+	367,
+	368,
+	369,
+	370,
+	371,
+	372,
+	373,
+	374,
+	375,
+	1041,
+	1042,
+	1043,
+	1044
+}
+pg.base = pg.base or {}
+pg.base.emoji_template = {}
+
+;(function()
+	pg.base.emoji_template[1] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -12,8 +201,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[2] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -25,8 +214,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[3] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -38,8 +227,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[4] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -51,8 +240,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[5] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -64,8 +253,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[6] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -77,8 +266,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[7] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -90,8 +279,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[8] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -103,8 +292,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[9] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -116,8 +305,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[10] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -129,8 +318,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[11] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -142,8 +331,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[12] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -155,8 +344,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[13] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -168,8 +357,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[14] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -181,8 +370,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[15] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -194,8 +383,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[16] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -207,8 +396,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[17] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -220,8 +409,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[18] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -233,8 +422,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[19] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -246,8 +435,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[20] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -259,8 +448,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[21] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -272,8 +461,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[22] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -285,8 +474,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[23] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -298,8 +487,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[24] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -311,8 +500,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[25] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -324,8 +513,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[26] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -337,8 +526,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[27] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -350,8 +539,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[28] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -363,8 +552,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[29] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -376,8 +565,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[30] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -389,8 +578,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[31] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -402,8 +591,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[32] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -415,8 +604,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[33] = {
 		achieve = 1,
 		item_desc = "聊天表情：惊了，可以在表情选项的「默认」选项卡中找到并发出此表情。",
 		item_name = "聊天表情：惊了 ",
@@ -428,8 +617,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[34] = {
 		achieve = 1,
 		item_desc = "聊天表情：快住手，可以在表情选项的「默认」选项卡中找到并发出此表情。",
 		item_name = "聊天表情：快住手 ",
@@ -441,8 +630,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[35] = {
 		achieve = 1,
 		item_desc = "聊天表情：抓到你了，可以在表情选项的「默认」选项卡中找到并发出此表情。",
 		item_name = "聊天表情：抓到你了~ ",
@@ -454,8 +643,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[36] = {
 		achieve = 1,
 		item_desc = "聊天表情：好热啊… 可以在表情选项的「默认」选项卡中找到并发出此表情。",
 		item_name = "聊天表情：好热啊… ",
@@ -467,8 +656,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[37] = {
 		achieve = 1,
 		item_desc = "聊天表情：还不睡，可以在表情选项的「默认」选项卡中找到并发出此表情。",
 		item_name = "聊天表情：还不睡",
@@ -480,8 +669,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[38] = {
 		achieve = 1,
 		item_desc = "聊天表情：眠眠，可以在表情选项的「默认」选项卡中找到并发出此表情。",
 		item_name = "聊天表情：眠眠",
@@ -493,8 +682,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[39] = {
 		achieve = 1,
 		item_desc = "聊天表情：准备万全，可以在表情选项的「默认」选项卡中找到并发出此表情。",
 		item_name = "聊天表情：准备万全",
@@ -506,8 +695,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[40] = {
 		achieve = 1,
 		item_desc = "聊天表情：再等等，可以在表情选项的「默认」选项卡中找到并发出此表情。",
 		item_name = "聊天表情：再等等",
@@ -519,8 +708,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[41] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -532,8 +721,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[42] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -545,8 +734,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[43] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -558,8 +747,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[44] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -571,8 +760,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[45] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -584,8 +773,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[46] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -597,8 +786,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[47] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -610,8 +799,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[48] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -623,8 +812,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[49] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -636,8 +825,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[50] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -649,8 +838,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[51] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -662,8 +851,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[52] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -675,8 +864,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[54] = {
+	}
+	pg.base.emoji_template[54] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -688,8 +877,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[55] = {
+	}
+	pg.base.emoji_template[55] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -701,8 +890,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[56] = {
+	}
+	pg.base.emoji_template[56] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -714,8 +903,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[57] = {
+	}
+	pg.base.emoji_template[57] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -727,8 +916,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[58] = {
+	}
+	pg.base.emoji_template[58] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -740,8 +929,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[59] = {
+	}
+	pg.base.emoji_template[59] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -753,8 +942,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[60] = {
+	}
+	pg.base.emoji_template[60] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -766,8 +955,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[61] = {
+	}
+	pg.base.emoji_template[61] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -779,8 +968,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[62] = {
+	}
+	pg.base.emoji_template[62] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -792,8 +981,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[63] = {
+	}
+	pg.base.emoji_template[63] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -805,8 +994,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[65] = {
+	}
+	pg.base.emoji_template[65] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -818,8 +1007,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[66] = {
+	}
+	pg.base.emoji_template[66] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -831,8 +1020,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[67] = {
+	}
+	pg.base.emoji_template[67] = {
 		achieve = 1,
 		item_desc = "聊天表情：怒了！可以在表情选项的「动态」选项卡中找到并发出此表情。",
 		item_name = "聊天表情：怒了！",
@@ -844,8 +1033,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[68] = {
+	}
+	pg.base.emoji_template[68] = {
 		achieve = 1,
 		item_desc = "聊天表情：看这里！可以在表情选项的「动态」选项卡中找到并发出此表情。",
 		item_name = "聊天表情：看这里！",
@@ -857,8 +1046,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[100] = {
+	}
+	pg.base.emoji_template[100] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -870,8 +1059,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[101] = {
+	}
+	pg.base.emoji_template[101] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -883,8 +1072,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[102] = {
+	}
+	pg.base.emoji_template[102] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -896,8 +1085,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[103] = {
+	}
+	pg.base.emoji_template[103] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -909,8 +1098,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[104] = {
+	}
+	pg.base.emoji_template[104] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -922,8 +1111,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[105] = {
+	}
+	pg.base.emoji_template[105] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -935,8 +1124,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[106] = {
+	}
+	pg.base.emoji_template[106] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -948,8 +1137,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[107] = {
+	}
+	pg.base.emoji_template[107] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -961,8 +1150,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[108] = {
+	}
+	pg.base.emoji_template[108] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -974,8 +1163,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[109] = {
+	}
+	pg.base.emoji_template[109] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -987,8 +1176,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[110] = {
+	}
+	pg.base.emoji_template[110] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1000,8 +1189,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[111] = {
+	}
+	pg.base.emoji_template[111] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1013,8 +1202,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[112] = {
+	}
+	pg.base.emoji_template[112] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1026,8 +1215,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[113] = {
+	}
+	pg.base.emoji_template[113] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1039,8 +1228,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[114] = {
+	}
+	pg.base.emoji_template[114] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1052,8 +1241,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[201] = {
+	}
+	pg.base.emoji_template[201] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1065,8 +1254,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[202] = {
+	}
+	pg.base.emoji_template[202] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1078,8 +1267,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[203] = {
+	}
+	pg.base.emoji_template[203] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1091,8 +1280,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[204] = {
+	}
+	pg.base.emoji_template[204] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1104,8 +1293,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[205] = {
+	}
+	pg.base.emoji_template[205] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1117,8 +1306,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[206] = {
+	}
+	pg.base.emoji_template[206] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1130,8 +1319,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[207] = {
+	}
+	pg.base.emoji_template[207] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1143,8 +1332,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[208] = {
+	}
+	pg.base.emoji_template[208] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1156,8 +1345,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[209] = {
+	}
+	pg.base.emoji_template[209] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1169,8 +1358,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[210] = {
+	}
+	pg.base.emoji_template[210] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1182,8 +1371,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[211] = {
+	}
+	pg.base.emoji_template[211] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1195,8 +1384,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[212] = {
+	}
+	pg.base.emoji_template[212] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1208,8 +1397,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[213] = {
+	}
+	pg.base.emoji_template[213] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1221,8 +1410,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[214] = {
+	}
+	pg.base.emoji_template[214] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1234,8 +1423,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[215] = {
+	}
+	pg.base.emoji_template[215] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1247,8 +1436,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[216] = {
+	}
+	pg.base.emoji_template[216] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1260,8 +1449,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[217] = {
+	}
+	pg.base.emoji_template[217] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1273,8 +1462,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[218] = {
+	}
+	pg.base.emoji_template[218] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1286,8 +1475,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[219] = {
+	}
+	pg.base.emoji_template[219] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1299,8 +1488,10 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[220] = {
+	}
+end)()
+;(function()
+	pg.base.emoji_template[220] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1312,8 +1503,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[221] = {
+	}
+	pg.base.emoji_template[221] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1325,8 +1516,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[222] = {
+	}
+	pg.base.emoji_template[222] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1338,8 +1529,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[223] = {
+	}
+	pg.base.emoji_template[223] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1351,8 +1542,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[224] = {
+	}
+	pg.base.emoji_template[224] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1364,8 +1555,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[225] = {
+	}
+	pg.base.emoji_template[225] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1377,8 +1568,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[226] = {
+	}
+	pg.base.emoji_template[226] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1390,8 +1581,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[227] = {
+	}
+	pg.base.emoji_template[227] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1403,8 +1594,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[228] = {
+	}
+	pg.base.emoji_template[228] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1416,8 +1607,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[229] = {
+	}
+	pg.base.emoji_template[229] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1429,8 +1620,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[230] = {
+	}
+	pg.base.emoji_template[230] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1442,8 +1633,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[231] = {
+	}
+	pg.base.emoji_template[231] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1455,8 +1646,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[232] = {
+	}
+	pg.base.emoji_template[232] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1468,8 +1659,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[233] = {
+	}
+	pg.base.emoji_template[233] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1481,8 +1672,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[234] = {
+	}
+	pg.base.emoji_template[234] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1494,8 +1685,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[235] = {
+	}
+	pg.base.emoji_template[235] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1507,8 +1698,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[236] = {
+	}
+	pg.base.emoji_template[236] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1520,8 +1711,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[237] = {
+	}
+	pg.base.emoji_template[237] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1533,8 +1724,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[238] = {
+	}
+	pg.base.emoji_template[238] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1546,8 +1737,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[239] = {
+	}
+	pg.base.emoji_template[239] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1559,8 +1750,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[240] = {
+	}
+	pg.base.emoji_template[240] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1572,8 +1763,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[241] = {
+	}
+	pg.base.emoji_template[241] = {
 		achieve = 1,
 		item_desc = "聊天表情：开饭啦，可以在表情选项的「默认」选项卡中找到并发出此表情。",
 		item_name = "聊天表情：开饭啦",
@@ -1585,8 +1776,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[242] = {
+	}
+	pg.base.emoji_template[242] = {
 		achieve = 1,
 		item_desc = "聊天表情：闪亮登场，可以在表情选项的「默认」选项卡中找到并发出此表情。",
 		item_name = "聊天表情：闪亮登场",
@@ -1598,8 +1789,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[243] = {
+	}
+	pg.base.emoji_template[243] = {
 		achieve = 1,
 		item_desc = "聊天表情：吃什么呢，可以在表情选项的「默认」选项卡中找到并发出此表情。",
 		item_name = "聊天表情：吃什么呢？ ",
@@ -1611,8 +1802,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[244] = {
+	}
+	pg.base.emoji_template[244] = {
 		achieve = 1,
 		item_desc = "聊天表情：让我看看，可以在表情选项的「默认」选项卡中找到并发出此表情。",
 		item_name = "聊天表情：让我看看",
@@ -1624,8 +1815,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[245] = {
+	}
+	pg.base.emoji_template[245] = {
 		achieve = 1,
 		item_desc = "聊天表情：按摩按摩，可以在表情选项的「默认」选项卡中找到并发出此表情。",
 		item_name = "聊天表情：按摩按摩 ",
@@ -1637,8 +1828,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[246] = {
+	}
+	pg.base.emoji_template[246] = {
 		achieve = 1,
 		item_desc = "聊天表情：乖巧，可以在表情选项的「默认」选项卡中找到并发出此表情。",
 		item_name = "聊天表情：乖巧",
@@ -1650,8 +1841,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[247] = {
+	}
+	pg.base.emoji_template[247] = {
 		achieve = 1,
 		item_desc = "聊天表情：别看，可以在表情选项的「默认」选项卡中找到并发出此表情。",
 		item_name = "聊天表情：别看",
@@ -1663,8 +1854,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[248] = {
+	}
+	pg.base.emoji_template[248] = {
 		achieve = 1,
 		item_desc = "聊天表情：大大，可以在表情选项的「默认」选项卡中找到并发出此表情。",
 		item_name = "聊天表情：大大",
@@ -1676,8 +1867,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[301] = {
+	}
+	pg.base.emoji_template[301] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1689,8 +1880,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[302] = {
+	}
+	pg.base.emoji_template[302] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1702,8 +1893,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[303] = {
+	}
+	pg.base.emoji_template[303] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1715,8 +1906,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[304] = {
+	}
+	pg.base.emoji_template[304] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1728,8 +1919,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[305] = {
+	}
+	pg.base.emoji_template[305] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1741,8 +1932,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[306] = {
+	}
+	pg.base.emoji_template[306] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1754,8 +1945,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[307] = {
+	}
+	pg.base.emoji_template[307] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1767,8 +1958,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[308] = {
+	}
+	pg.base.emoji_template[308] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1780,8 +1971,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[309] = {
+	}
+	pg.base.emoji_template[309] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1793,8 +1984,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[310] = {
+	}
+	pg.base.emoji_template[310] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1806,8 +1997,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[311] = {
+	}
+	pg.base.emoji_template[311] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1819,8 +2010,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[312] = {
+	}
+	pg.base.emoji_template[312] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1832,8 +2023,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[313] = {
+	}
+	pg.base.emoji_template[313] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1845,8 +2036,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[314] = {
+	}
+	pg.base.emoji_template[314] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1858,8 +2049,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[315] = {
+	}
+	pg.base.emoji_template[315] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1871,8 +2062,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[316] = {
+	}
+	pg.base.emoji_template[316] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1884,8 +2075,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[317] = {
+	}
+	pg.base.emoji_template[317] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1897,8 +2088,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[318] = {
+	}
+	pg.base.emoji_template[318] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1910,8 +2101,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[319] = {
+	}
+	pg.base.emoji_template[319] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1923,8 +2114,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[320] = {
+	}
+	pg.base.emoji_template[320] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1936,8 +2127,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[321] = {
+	}
+	pg.base.emoji_template[321] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1949,8 +2140,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[322] = {
+	}
+	pg.base.emoji_template[322] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1962,8 +2153,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[323] = {
+	}
+	pg.base.emoji_template[323] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1975,8 +2166,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[324] = {
+	}
+	pg.base.emoji_template[324] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -1988,8 +2179,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[351] = {
+	}
+	pg.base.emoji_template[351] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -2001,8 +2192,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[352] = {
+	}
+	pg.base.emoji_template[352] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -2014,8 +2205,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[353] = {
+	}
+	pg.base.emoji_template[353] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -2027,8 +2218,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[354] = {
+	}
+	pg.base.emoji_template[354] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -2040,8 +2231,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[355] = {
+	}
+	pg.base.emoji_template[355] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -2053,8 +2244,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[356] = {
+	}
+	pg.base.emoji_template[356] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -2066,8 +2257,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[357] = {
+	}
+	pg.base.emoji_template[357] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -2079,8 +2270,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[358] = {
+	}
+	pg.base.emoji_template[358] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -2092,8 +2283,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[359] = {
+	}
+	pg.base.emoji_template[359] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -2105,8 +2296,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[360] = {
+	}
+	pg.base.emoji_template[360] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -2118,8 +2309,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[361] = {
+	}
+	pg.base.emoji_template[361] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -2131,8 +2322,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[362] = {
+	}
+	pg.base.emoji_template[362] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -2144,8 +2335,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[363] = {
+	}
+	pg.base.emoji_template[363] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -2157,8 +2348,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[365] = {
+	}
+	pg.base.emoji_template[365] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -2170,8 +2361,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[366] = {
+	}
+	pg.base.emoji_template[366] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -2183,8 +2374,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[367] = {
+	}
+	pg.base.emoji_template[367] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -2196,8 +2387,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[368] = {
+	}
+	pg.base.emoji_template[368] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -2209,8 +2400,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[369] = {
+	}
+	pg.base.emoji_template[369] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -2222,8 +2413,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[370] = {
+	}
+	pg.base.emoji_template[370] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -2235,8 +2426,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[371] = {
+	}
+	pg.base.emoji_template[371] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -2248,8 +2439,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[372] = {
+	}
+	pg.base.emoji_template[372] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -2261,8 +2452,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[373] = {
+	}
+	pg.base.emoji_template[373] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -2274,8 +2465,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[374] = {
+	}
+	pg.base.emoji_template[374] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -2287,8 +2478,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[375] = {
+	}
+	pg.base.emoji_template[375] = {
 		achieve = 0,
 		item_desc = "",
 		item_name = "",
@@ -2300,8 +2491,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[1041] = {
+	}
+	pg.base.emoji_template[1041] = {
 		achieve = 1,
 		item_desc = "聊天表情：惊，可以在表情选项的「默认」选项卡中找到并发出此表情。",
 		item_name = "聊天表情：惊",
@@ -2313,8 +2504,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[1042] = {
+	}
+	pg.base.emoji_template[1042] = {
 		achieve = 1,
 		item_desc = "聊天表情：开工！可以在表情选项的「默认」选项卡中找到并发出此表情。",
 		item_name = "聊天表情：开工！",
@@ -2326,8 +2517,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[1043] = {
+	}
+	pg.base.emoji_template[1043] = {
 		achieve = 1,
 		item_desc = "聊天表情：使命必达！可以在表情选项的「默认」选项卡中找到并发出此表情。",
 		item_name = "聊天表情：使命必达！",
@@ -2339,8 +2530,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[1044] = {
+	}
+	pg.base.emoji_template[1044] = {
 		achieve = 1,
 		item_desc = "聊天表情：已下线……可以在表情选项的「默认」选项卡中找到并发出此表情。",
 		item_name = "聊天表情：已下线……",
@@ -2352,188 +2543,5 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		54,
-		55,
-		56,
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63,
-		65,
-		66,
-		67,
-		68,
-		100,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		113,
-		114,
-		201,
-		202,
-		203,
-		204,
-		205,
-		206,
-		207,
-		208,
-		209,
-		210,
-		211,
-		212,
-		213,
-		214,
-		215,
-		216,
-		217,
-		218,
-		219,
-		220,
-		221,
-		222,
-		223,
-		224,
-		225,
-		226,
-		227,
-		228,
-		229,
-		230,
-		231,
-		232,
-		233,
-		234,
-		235,
-		236,
-		237,
-		238,
-		239,
-		240,
-		241,
-		242,
-		243,
-		244,
-		245,
-		246,
-		247,
-		248,
-		301,
-		302,
-		303,
-		304,
-		305,
-		306,
-		307,
-		308,
-		309,
-		310,
-		311,
-		312,
-		313,
-		314,
-		315,
-		316,
-		317,
-		318,
-		319,
-		320,
-		321,
-		322,
-		323,
-		324,
-		351,
-		352,
-		353,
-		354,
-		355,
-		356,
-		357,
-		358,
-		359,
-		360,
-		361,
-		362,
-		363,
-		365,
-		366,
-		367,
-		368,
-		369,
-		370,
-		371,
-		372,
-		373,
-		374,
-		375,
-		1041,
-		1042,
-		1043,
-		1044
 	}
-}
+end)()

@@ -133,483 +133,548 @@ function var_0_0.UpdateMapVO(arg_12_0, arg_12_1)
 	end
 end
 
-function var_0_0.SetDisplayMode(arg_17_0, arg_17_1)
-	if arg_17_1 == arg_17_0.contextData.displayMode then
+function var_0_0.UpdateBonusPtIconPath(arg_17_0)
+	arg_17_0.bonusPtIconPath = nil
+
+	local var_17_0 = arg_17_0.data or arg_17_0.contextData.map
+
+	if not var_17_0 then
 		return
 	end
 
-	arg_17_0.contextData.displayMode = arg_17_1
+	local var_17_1 = var_17_0:getConfig("on_activity")
 
-	arg_17_0:UpdateView()
+	if not var_17_1 or var_17_1 == 0 then
+		return
+	end
+
+	local var_17_2 = getProxy(ActivityProxy)
+	local var_17_3 = var_17_2:getActivityById(var_17_1)
+
+	if not var_17_3 or var_17_3:isEnd() then
+		return
+	end
+
+	local var_17_4 = var_17_3:GetConfigClientSetting("PTID")
+
+	if not var_17_4 then
+		return
+	end
+
+	local var_17_5 = underscore.detect(var_17_2:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK), function(arg_18_0)
+		return arg_18_0 and not arg_18_0:isEnd() and arg_18_0:getConfig("config_id") == var_17_4
+	end)
+
+	if not var_17_5 then
+		return
+	end
+
+	local var_17_6 = tonumber(var_17_5:getConfig("config_id"))
+
+	if not var_17_6 then
+		return
+	end
+
+	arg_17_0.bonusPtIconPath = Drop.New({
+		type = DROP_TYPE_RESOURCE,
+		id = var_17_6
+	}):getIcon()
 end
 
-function var_0_0.UpdateView(arg_18_0)
-	local var_18_0 = string.split(arg_18_0.contextData.map:getConfig("name"), "||")
-
-	if arg_18_0.contextData.displayMode == var_0_0.DISPLAY.STORY then
-		var_18_0 = string.split(var_18_0[1], "·")
-
-		setText(arg_18_0.sceneParent.chapterName, var_18_0[1] .. i18n("levelscene_title_story"))
-	else
-		setText(arg_18_0.sceneParent.chapterName, var_18_0[1])
+function var_0_0.SetDisplayMode(arg_19_0, arg_19_1)
+	if arg_19_1 == arg_19_0.contextData.displayMode then
+		return
 	end
 
-	local var_18_1 = arg_18_0.contextData.map:getMapTitleNumber()
+	arg_19_0.contextData.displayMode = arg_19_1
 
-	arg_18_0.sceneParent.loader:GetSpriteQuiet("chapterno", "chapter" .. var_18_1, arg_18_0.sceneParent.chapterNoTitle, true)
-
-	arg_18_0.contextData.displayMode = arg_18_0.contextData.displayMode or var_0_0.DISPLAY.BATTLE
-
-	var_0_0.super.UpdateView(arg_18_0)
-
-	local var_18_2 = arg_18_0.contextData.displayMode == var_0_0.DISPLAY.BATTLE
-
-	setActive(arg_18_0._tf:Find("Battle"), var_18_2)
-	setActive(arg_18_0._tf:Find("Story"), not var_18_2)
-
-	local var_18_3 = getProxy(ChapterProxy):IsActivitySPChapterActive(arg_18_0.contextData.map:getConfig("on_activity")) and SettingsProxy.IsShowActivityMapSPTip()
-
-	setActive(arg_18_0.battleLayer:Find("Story/BattleTip"), false)
-	setActive(arg_18_0.storyLayer:Find("Battle/BattleTip"), var_18_3)
-	arg_18_0:UpdateStoryTask()
-
-	if var_18_2 then
-		arg_18_0:UpdateBattle()
-		arg_18_0.sceneParent:SwitchMapBG(arg_18_0.contextData.map)
-		arg_18_0.sceneParent:PlayBGM()
-	else
-		arg_18_0:UpdateStory()
-		arg_18_0:SwitchStoryMapAndBGM()
-	end
-
-	arg_18_0:TrySubmitTask()
+	arg_19_0:UpdateView()
 end
 
-function var_0_0.UpdateBattle(arg_19_0)
-	local var_19_0 = getProxy(ChapterProxy)
-	local var_19_1 = arg_19_0.displayChapterIDs
-	local var_19_2 = {}
+function var_0_0.UpdateView(arg_20_0)
+	local var_20_0 = string.split(arg_20_0.contextData.map:getConfig("name"), "||")
 
-	for iter_19_0, iter_19_1 in ipairs(var_19_1) do
-		local var_19_3 = var_19_0:getChapterById(iter_19_1)
+	if arg_20_0.contextData.displayMode == var_0_0.DISPLAY.STORY then
+		var_20_0 = string.split(var_20_0[1], "·")
 
-		table.insert(var_19_2, var_19_3)
+		setText(arg_20_0.sceneParent.chapterName, var_20_0[1] .. i18n("levelscene_title_story"))
+	else
+		setText(arg_20_0.sceneParent.chapterName, var_20_0[1])
 	end
 
-	table.clear(arg_19_0.chapterTFsById)
-	UIItemList.StaticAlign(arg_19_0.itemHolder, arg_19_0.chapterTpl, #var_19_2, function(arg_20_0, arg_20_1, arg_20_2)
-		if arg_20_0 ~= UIItemList.EventUpdate then
+	local var_20_1 = arg_20_0.contextData.map:getMapTitleNumber()
+
+	arg_20_0.sceneParent.loader:GetSpriteQuiet("chapterno", "chapter" .. var_20_1, arg_20_0.sceneParent.chapterNoTitle, true)
+
+	arg_20_0.contextData.displayMode = arg_20_0.contextData.displayMode or var_0_0.DISPLAY.BATTLE
+
+	var_0_0.super.UpdateView(arg_20_0)
+
+	local var_20_2 = arg_20_0.contextData.displayMode == var_0_0.DISPLAY.BATTLE
+
+	setActive(arg_20_0._tf:Find("Battle"), var_20_2)
+	setActive(arg_20_0._tf:Find("Story"), not var_20_2)
+
+	local var_20_3 = getProxy(ChapterProxy):IsActivitySPChapterActive(arg_20_0.contextData.map:getConfig("on_activity")) and SettingsProxy.IsShowActivityMapSPTip()
+
+	setActive(arg_20_0.battleLayer:Find("Story/BattleTip"), false)
+	setActive(arg_20_0.storyLayer:Find("Battle/BattleTip"), var_20_3)
+	arg_20_0:UpdateStoryTask()
+
+	if var_20_2 then
+		arg_20_0:UpdateBonusPtIconPath()
+		arg_20_0:UpdateBattle()
+		arg_20_0.sceneParent:SwitchMapBG(arg_20_0.contextData.map)
+		arg_20_0.sceneParent:PlayBGM()
+	else
+		arg_20_0:UpdateStory()
+		arg_20_0:SwitchStoryMapAndBGM()
+	end
+
+	arg_20_0:TrySubmitTask()
+end
+
+function var_0_0.UpdateBattle(arg_21_0)
+	local var_21_0 = getProxy(ChapterProxy)
+	local var_21_1 = arg_21_0.displayChapterIDs
+	local var_21_2 = {}
+
+	for iter_21_0, iter_21_1 in ipairs(var_21_1) do
+		local var_21_3 = var_21_0:getChapterById(iter_21_1)
+
+		table.insert(var_21_2, var_21_3)
+	end
+
+	table.clear(arg_21_0.chapterTFsById)
+	UIItemList.StaticAlign(arg_21_0.itemHolder, arg_21_0.chapterTpl, #var_21_2, function(arg_22_0, arg_22_1, arg_22_2)
+		if arg_22_0 ~= UIItemList.EventUpdate then
 			return
 		end
 
-		local var_20_0 = var_19_2[arg_20_1 + 1]
+		local var_22_0 = var_21_2[arg_22_1 + 1]
 
-		arg_19_0:UpdateMapItem(arg_20_2, var_20_0)
+		arg_21_0:UpdateMapItem(arg_22_2, var_22_0)
 
-		arg_20_2.name = "Chapter_" .. var_20_0.id
-		arg_19_0.chapterTFsById[var_20_0.id] = arg_20_2
+		arg_22_2.name = "Chapter_" .. var_22_0.id
+		arg_21_0.chapterTFsById[var_22_0.id] = arg_22_2
 	end)
 end
 
-function var_0_0.HideFloat(arg_21_0)
-	var_0_0.super.HideFloat(arg_21_0)
-	setActive(arg_21_0.itemHolder, false)
+function var_0_0.HideFloat(arg_23_0)
+	var_0_0.super.HideFloat(arg_23_0)
+	setActive(arg_23_0.itemHolder, false)
 end
 
-function var_0_0.ShowFloat(arg_22_0)
-	var_0_0.super.ShowFloat(arg_22_0)
-	setActive(arg_22_0.itemHolder, true)
+function var_0_0.ShowFloat(arg_24_0)
+	var_0_0.super.ShowFloat(arg_24_0)
+	setActive(arg_24_0.itemHolder, true)
 end
 
-function var_0_0.UpdateMapItem(arg_23_0, arg_23_1, arg_23_2)
-	local var_23_0 = arg_23_2:getConfigTable()
+function var_0_0.UpdateMapItem(arg_25_0, arg_25_1, arg_25_2)
+	local var_25_0 = arg_25_2:getConfigTable()
 
-	setAnchoredPosition(arg_23_1, {
-		x = arg_23_0.mapWidth * var_23_0.pos_x,
-		y = arg_23_0.mapHeight * var_23_0.pos_y
+	setAnchoredPosition(arg_25_1, {
+		x = arg_25_0.mapWidth * var_25_0.pos_x,
+		y = arg_25_0.mapHeight * var_25_0.pos_y
 	})
 
-	local var_23_1 = findTF(arg_23_1, "main")
+	local var_25_1 = findTF(arg_25_1, "main")
 
-	setActive(var_23_1, true)
+	setActive(var_25_1, true)
 
-	local var_23_2 = findTF(var_23_1, "circle/fordark")
-	local var_23_3 = findTF(var_23_1, "info/bk/fordark")
+	local var_25_2 = findTF(var_25_1, "circle/fordark")
+	local var_25_3 = findTF(var_25_1, "info/bk/fordark")
 
-	setActive(var_23_2, var_23_0.icon_outline == 1)
-	setActive(var_23_3, var_23_0.icon_outline == 1)
+	setActive(var_25_2, var_25_0.icon_outline == 1)
+	setActive(var_25_3, var_25_0.icon_outline == 1)
 
-	local var_23_4 = arg_23_0.chapterGroupDict[arg_23_2.id]
+	local var_25_4 = arg_25_0.chapterGroupDict[arg_25_2.id]
 
-	assert(var_23_4)
+	assert(var_25_4)
 
-	local var_23_5 = {
+	local var_25_5 = {
 		"Lock",
 		"Normal",
 		"Hard"
 	}
-	local var_23_6 = 1
+	local var_25_6 = 1
 
-	if arg_23_2:isUnlock() then
-		var_23_6 = 2
+	if arg_25_2:isUnlock() then
+		var_25_6 = 2
 
-		if #var_23_4.list > 1 then
-			var_23_6 = table.indexof(var_23_4.list, arg_23_2.id) + 1
-		elseif arg_23_2:IsSpChapter() or arg_23_2:IsEXChapter() then
-			var_23_6 = 3
-		elseif arg_23_0.contextData.map:isHardMap() then
-			var_23_6 = 3
+		if #var_25_4.list > 1 then
+			var_25_6 = table.indexof(var_25_4.list, arg_25_2.id) + 1
+		elseif arg_25_2:IsSpChapter() or arg_25_2:IsEXChapter() then
+			var_25_6 = 3
+		elseif arg_25_0.contextData.map:isHardMap() then
+			var_25_6 = 3
 		end
 	end
 
-	local var_23_7 = findTF(var_23_1, "circle/bk")
+	local var_25_7 = findTF(var_25_1, "circle/bk")
 
-	for iter_23_0, iter_23_1 in ipairs(var_23_5) do
-		setActive(var_23_7:Find(iter_23_1), iter_23_0 == var_23_6)
+	for iter_25_0, iter_25_1 in ipairs(var_25_5) do
+		setActive(var_25_7:Find(iter_25_1), iter_25_0 == var_25_6)
 	end
 
-	local var_23_8 = findTF(var_23_1, "circle/clear_flag")
-	local var_23_9 = findTF(var_23_1, "circle/lock")
-	local var_23_10 = findTF(var_23_1, "circle/progress")
-	local var_23_11 = findTF(var_23_1, "circle/progress_text")
-	local var_23_12 = findTF(var_23_1, "circle/stars")
-	local var_23_13 = string.split(var_23_0.name, "|")
+	local var_25_8 = findTF(var_25_1, "circle/clear_flag")
+	local var_25_9 = findTF(var_25_1, "circle/lock")
+	local var_25_10 = findTF(var_25_1, "circle/progress")
+	local var_25_11 = findTF(var_25_1, "circle/progress_text")
+	local var_25_12 = findTF(var_25_1, "circle/stars")
+	local var_25_13 = string.split(var_25_0.name, "|")
 
-	setText(findTF(var_23_1, "info/bk/title_form/title_index"), var_23_0.chapter_name .. "  ")
-	setText(findTF(var_23_1, "info/bk/title_form/title"), var_23_13[1])
-	setText(findTF(var_23_1, "info/bk/title_form/title_en"), var_23_13[2] or "")
-	setFillAmount(var_23_10, arg_23_2.progress / 100)
-	setText(var_23_11, string.format("%d%%", arg_23_2.progress))
-	setActive(var_23_12, arg_23_2:existAchieve())
+	setText(findTF(var_25_1, "info/bk/title_form/title_index"), var_25_0.chapter_name .. "  ")
+	setText(findTF(var_25_1, "info/bk/title_form/title"), var_25_13[1])
+	setText(findTF(var_25_1, "info/bk/title_form/title_en"), var_25_13[2] or "")
+	setFillAmount(var_25_10, arg_25_2.progress / 100)
+	setText(var_25_11, string.format("%d%%", arg_25_2.progress))
+	setActive(var_25_12, arg_25_2:existAchieve())
 
-	if arg_23_2:existAchieve() then
-		for iter_23_2, iter_23_3 in ipairs(arg_23_2.achieves) do
-			local var_23_14 = ChapterConst.IsAchieved(iter_23_3)
-			local var_23_15 = var_23_12:GetChild(iter_23_2 - 1):Find("light")
+	if arg_25_2:existAchieve() then
+		for iter_25_2, iter_25_3 in ipairs(arg_25_2.achieves) do
+			local var_25_14 = ChapterConst.IsAchieved(iter_25_3)
+			local var_25_15 = var_25_12:GetChild(iter_25_2 - 1):Find("light")
 
-			setActive(var_23_15, var_23_14)
+			setActive(var_25_15, var_25_14)
 
-			for iter_23_4, iter_23_5 in ipairs(var_23_5) do
-				if iter_23_5 ~= "Lock" then
-					setActive(var_23_15:Find(iter_23_5), iter_23_4 == var_23_6)
+			for iter_25_4, iter_25_5 in ipairs(var_25_5) do
+				if iter_25_5 ~= "Lock" then
+					setActive(var_25_15:Find(iter_25_5), iter_25_4 == var_25_6)
 				end
 			end
 		end
 	end
 
-	local var_23_16 = findTF(var_23_1, "info/bk/BG")
+	local var_25_16 = findTF(var_25_1, "info/bk/BG")
 
-	for iter_23_6, iter_23_7 in ipairs(var_23_5) do
-		setActive(var_23_16:Find(iter_23_7), iter_23_6 == var_23_6)
+	for iter_25_6, iter_25_7 in ipairs(var_25_5) do
+		setActive(var_25_16:Find(iter_25_7), iter_25_6 == var_25_6)
 	end
 
-	setActive(findTF(var_23_1, "HardEffect"), var_23_6 == 3)
+	setActive(findTF(var_25_1, "HardEffect"), var_25_6 == 3)
 
-	local var_23_17 = not arg_23_2.active and arg_23_2:isClear()
-	local var_23_18 = not arg_23_2.active and not arg_23_2:isUnlock()
+	local var_25_17 = not arg_25_2.active and arg_25_2:isClear()
+	local var_25_18 = not arg_25_2.active and not arg_25_2:isUnlock()
 
-	setActive(var_23_8, var_23_17)
-	setActive(var_23_9, var_23_18)
-	setActive(var_23_11, not var_23_17 and not var_23_18)
-	arg_23_0:DeleteTween("fighting" .. arg_23_2.id)
+	setActive(var_25_8, var_25_17)
+	setActive(var_25_9, var_25_18)
+	setActive(var_25_11, not var_25_17 and not var_25_18)
+	arg_25_0:DeleteTween("fighting" .. arg_25_2.id)
 
-	local var_23_19 = findTF(var_23_1, "circle/fighting")
+	local var_25_19 = findTF(var_25_1, "circle/fighting")
 
-	setText(findTF(var_23_19, "Text"), i18n("tag_level_fighting"))
+	setText(findTF(var_25_19, "Text"), i18n("tag_level_fighting"))
 
-	local var_23_20 = findTF(var_23_1, "circle/oni")
+	local var_25_20 = findTF(var_25_1, "circle/oni")
 
-	setText(findTF(var_23_20, "Text"), i18n("tag_level_oni"))
+	setText(findTF(var_25_20, "Text"), i18n("tag_level_oni"))
 
-	local var_23_21 = findTF(var_23_1, "circle/narrative")
+	local var_25_21 = findTF(var_25_1, "circle/narrative")
 
-	setText(findTF(var_23_21, "Text"), i18n("tag_level_narrative"))
-	setActive(var_23_19, false)
-	setActive(var_23_20, false)
-	setActive(var_23_21, false)
+	setText(findTF(var_25_21, "Text"), i18n("tag_level_narrative"))
+	setActive(var_25_19, false)
+	setActive(var_25_20, false)
+	setActive(var_25_21, false)
 
-	local var_23_22
-	local var_23_23
+	local var_25_22
+	local var_25_23
 
-	if arg_23_2:getConfig("chapter_tag") == 1 then
-		var_23_22 = var_23_21
+	if arg_25_2:getConfig("chapter_tag") == 1 then
+		var_25_22 = var_25_21
 	end
 
-	if arg_23_2.active then
-		var_23_22 = arg_23_2:existOni() and var_23_20 or var_23_19
+	if arg_25_2.active then
+		var_25_22 = arg_25_2:existOni() and var_25_20 or var_25_19
 	end
 
-	if var_23_22 then
-		setActive(var_23_22, true)
+	if var_25_22 then
+		setActive(var_25_22, true)
 
-		local var_23_24 = GetOrAddComponent(var_23_22, "CanvasGroup")
+		local var_25_24 = GetOrAddComponent(var_25_22, "CanvasGroup")
 
-		var_23_24.alpha = 1
+		var_25_24.alpha = 1
 
-		arg_23_0:RecordTween("fighting" .. arg_23_2.id, LeanTween.alphaCanvas(var_23_24, 0, 0.5):setFrom(1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong().uniqueId)
+		arg_25_0:RecordTween("fighting" .. arg_25_2.id, LeanTween.alphaCanvas(var_25_24, 0, 0.5):setFrom(1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong().uniqueId)
 	end
 
-	local var_23_25 = findTF(var_23_1, "triesLimit")
-	local var_23_26 = arg_23_2:isTriesLimit()
+	local var_25_25 = findTF(var_25_1, "triesLimit")
+	local var_25_26 = arg_25_2:isTriesLimit()
 
-	setActive(var_23_25, var_23_26)
+	setActive(var_25_25, var_25_26)
 
-	if var_23_26 then
-		local var_23_27 = arg_23_2:getConfig("count")
-		local var_23_28 = var_23_27 - arg_23_2:getTodayDefeatCount() .. "/" .. var_23_27
+	if var_25_26 then
+		local var_25_27 = arg_25_2:getConfig("count")
+		local var_25_28 = var_25_27 - arg_25_2:getTodayDefeatCount() .. "/" .. var_25_27
 
-		setText(var_23_25:Find("label"), i18n("levelScene_chapter_count_tip"))
-		setText(var_23_25:Find("Text"), setColorStr(var_23_28, var_23_27 <= arg_23_2:getTodayDefeatCount() and COLOR_RED or COLOR_GREEN))
+		setText(var_25_25:Find("label"), i18n("levelScene_chapter_count_tip"))
+		setText(var_25_25:Find("Text"), setColorStr(var_25_28, var_25_27 <= arg_25_2:getTodayDefeatCount() and COLOR_RED or COLOR_GREEN))
 
-		local var_23_29 = pg.expedition_data_by_map[arg_23_2:getConfig("map")].on_activity
-		local var_23_30 = getProxy(ChapterProxy):IsActivitySPChapterActive(var_23_29) and SettingsProxy.IsShowActivityMapSPTip()
+		local var_25_29 = pg.expedition_data_by_map[arg_25_2:getConfig("map")].on_activity
+		local var_25_30 = getProxy(ChapterProxy):IsActivitySPChapterActive(var_25_29) and SettingsProxy.IsShowActivityMapSPTip()
 
-		setActive(var_23_25:Find("TipRect"), var_23_30)
+		setActive(var_25_25:Find("TipRect"), var_25_30)
 	end
 
-	local var_23_31 = arg_23_2:GetDailyBonusQuota()
-	local var_23_32 = findTF(var_23_1, "mark")
+	local var_25_31 = arg_25_2:GetDailyBonusQuota()
+	local var_25_32 = findTF(var_25_1, "mark")
+	local var_25_33 = var_25_32:Find("bonus")
+	local var_25_34 = var_25_33:Find("icon")
+	local var_25_35 = findTF(var_25_33, "icon/Image")
 
-	setActive(var_23_32:Find("bonus"), var_23_31)
-	setActive(var_23_32, var_23_31)
+	setActive(var_25_33, var_25_31)
+	setActive(var_25_32, var_25_31)
 
-	if var_23_31 then
-		local var_23_33 = var_23_32:GetComponent(typeof(CanvasGroup))
-		local var_23_34 = var_23_6 == 3 and "bonus_us_hard" or "bonus_us"
+	if var_25_34 then
+		setActive(var_25_34, var_25_31 and arg_25_0.bonusPtIconPath)
+	end
 
-		arg_23_0.sceneParent.loader:GetSprite("ui/levelmainscene_atlas", var_23_34, var_23_32:Find("bonus"))
-		LeanTween.cancel(go(var_23_32), true)
+	if var_25_31 then
+		local var_25_36 = var_25_32:GetComponent(typeof(CanvasGroup))
+		local var_25_37 = arg_25_2:GetDailyBonusIconName()
 
-		local var_23_35 = var_23_32.anchoredPosition.y
+		arg_25_0.sceneParent.loader:GetSprite("ui/levelmainscene_atlas", var_25_37, var_25_33)
 
-		var_23_33.alpha = 0
+		if var_25_34 and arg_25_0.bonusPtIconPath then
+			if var_25_35 then
+				GetImageSpriteFromAtlasAsync(arg_25_0.bonusPtIconPath, "", var_25_35, true)
+			else
+				GetImageSpriteFromAtlasAsync(arg_25_0.bonusPtIconPath, "", var_25_34, true)
+			end
+		end
 
-		LeanTween.value(go(var_23_32), 0, 1, 0.2):setOnUpdate(System.Action_float(function(arg_24_0)
-			var_23_33.alpha = arg_24_0
+		LeanTween.cancel(go(var_25_32), true)
 
-			local var_24_0 = var_23_32.anchoredPosition
+		local var_25_38 = var_25_32.anchoredPosition.y
 
-			var_24_0.y = var_23_35 * arg_24_0
-			var_23_32.anchoredPosition = var_24_0
+		var_25_36.alpha = 0
+
+		LeanTween.value(go(var_25_32), 0, 1, 0.2):setOnUpdate(System.Action_float(function(arg_26_0)
+			var_25_36.alpha = arg_26_0
+
+			local var_26_0 = var_25_32.anchoredPosition
+
+			var_26_0.y = var_25_38 * arg_26_0
+			var_25_32.anchoredPosition = var_26_0
 		end)):setOnComplete(System.Action(function()
-			var_23_33.alpha = 1
+			var_25_36.alpha = 1
 
-			local var_25_0 = var_23_32.anchoredPosition
+			local var_27_0 = var_25_32.anchoredPosition
 
-			var_25_0.y = var_23_35
-			var_23_32.anchoredPosition = var_25_0
+			var_27_0.y = var_25_38
+			var_25_32.anchoredPosition = var_27_0
 		end)):setEase(LeanTweenType.easeOutSine):setDelay(0.7)
 	end
 
-	local var_23_36 = arg_23_2.id
+	local var_25_39 = arg_25_2.id
 
-	onButton(arg_23_0, var_23_1, function()
-		arg_23_0:TryOpenChapterInfo(var_23_36, nil, var_23_4.list)
+	onButton(arg_25_0, var_25_1, function()
+		arg_25_0:TryOpenChapterInfo(var_25_39, nil, var_25_4.list)
 	end, SFX_UI_WEIGHANCHOR_SELECT)
-	arg_23_0:PlayerLevelTplAnimation(arg_23_1, {
-		status = var_23_5[var_23_6],
-		chapterVO = arg_23_2
+	arg_25_0:PlayerLevelTplAnimation(arg_25_1, {
+		status = var_25_5[var_25_6],
+		chapterVO = arg_25_2
 	})
 end
 
-function var_0_0.PlayerLevelTplAnimation(arg_27_0, arg_27_1, arg_27_2)
+function var_0_0.PlayerLevelTplAnimation(arg_29_0, arg_29_1, arg_29_2)
 	return
 end
 
-function var_0_0.SwitchChapter(arg_28_0, arg_28_1)
-	local var_28_0 = arg_28_0.chapterGroupDict[arg_28_1]
+function var_0_0.SwitchChapter(arg_30_0, arg_30_1)
+	local var_30_0 = arg_30_0.chapterGroupDict[arg_30_1]
 
-	if not var_28_0 then
+	if not var_30_0 then
 		return
 	end
 
-	local var_28_1 = var_28_0.list[var_28_0.index]
+	local var_30_1 = var_30_0.list[var_30_0.index]
 
-	if var_28_1 == arg_28_1 then
+	if var_30_1 == arg_30_1 then
 		return
 	end
 
-	local var_28_2 = table.indexof(var_28_0.list, arg_28_1)
+	local var_30_2 = table.indexof(var_30_0.list, arg_30_1)
 
-	var_28_0.index = var_28_2
+	var_30_0.index = var_30_2
 
-	local var_28_3 = var_28_0.list[1]
-	local var_28_4 = getProxy(PlayerProxy):getRawData().id
+	local var_30_3 = var_30_0.list[1]
+	local var_30_4 = getProxy(PlayerProxy):getRawData().id
 
-	PlayerPrefs.SetInt("spchapter_selected_" .. var_28_4 .. "_" .. var_28_3, var_28_2)
+	PlayerPrefs.SetInt("spchapter_selected_" .. var_30_4 .. "_" .. var_30_3, var_30_2)
 
-	local var_28_5 = arg_28_0.chapterTFsById[var_28_1]
+	local var_30_5 = arg_30_0.chapterTFsById[var_30_1]
 
-	arg_28_0.chapterTFsById[var_28_1] = nil
-	arg_28_0.chapterTFsById[arg_28_1] = var_28_5
+	arg_30_0.chapterTFsById[var_30_1] = nil
+	arg_30_0.chapterTFsById[arg_30_1] = var_30_5
 
-	arg_28_0:UpdateChapterTF(arg_28_1)
+	arg_30_0:UpdateChapterTF(arg_30_1)
 end
 
-function var_0_0.UpdateChapterTF(arg_29_0, arg_29_1)
-	if not arg_29_0.chapterGroupDict[arg_29_1] then
+function var_0_0.UpdateChapterTF(arg_31_0, arg_31_1)
+	if not arg_31_0.chapterGroupDict[arg_31_1] then
 		return
 	end
 
-	local var_29_0 = arg_29_0.chapterTFsById[arg_29_1]
+	local var_31_0 = arg_31_0.chapterTFsById[arg_31_1]
 
-	if var_29_0 then
-		local var_29_1 = getProxy(ChapterProxy):getChapterById(arg_29_1)
+	if var_31_0 then
+		local var_31_1 = getProxy(ChapterProxy):getChapterById(arg_31_1)
 
-		arg_29_0:UpdateMapItem(var_29_0, var_29_1)
+		arg_31_0:UpdateMapItem(var_31_0, var_31_1)
 	end
 end
 
-function var_0_0.UpdateStory(arg_30_0)
-	local var_30_0 = {}
-	local var_30_1 = pg.NewStoryMgr.GetInstance()
-	local var_30_2 = 0
-	local var_30_3 = 0
+function var_0_0.UpdateStory(arg_32_0)
+	local var_32_0 = {}
+	local var_32_1 = pg.NewStoryMgr.GetInstance()
+	local var_32_2 = 0
+	local var_32_3 = 0
 
-	for iter_30_0, iter_30_1 in pairs(arg_30_0.storyNodesDict) do
-		local var_30_4 = arg_30_0.storyHolder:Find(tostring(iter_30_1.id))
-		local var_30_5 = iter_30_1:IsActive(arg_30_0.activity, arg_30_0.sceneParent.ptActivity)
+	for iter_32_0, iter_32_1 in pairs(arg_32_0.storyNodesDict) do
+		local var_32_4 = arg_32_0.storyHolder:Find(tostring(iter_32_1.id))
+		local var_32_5 = iter_32_1:IsActive(arg_32_0.activity, arg_32_0.sceneParent.ptActivity)
 
-		setActive(var_30_4, var_30_5)
-		setText(var_30_4:Find("main/char/bg/Text"), iter_30_1:GetName())
+		setActive(var_32_4, var_32_5)
+		setText(var_32_4:Find("main/char/bg/Text"), iter_32_1:GetName())
 
-		local var_30_6 = iter_30_1:IsReaded()
+		local var_32_6 = iter_32_1:IsReaded()
 
-		setActive(var_30_4:Find("main/char"), not var_30_6)
-		setActive(var_30_4:Find("main/talk"), var_30_6)
-		onButton(arg_30_0, var_30_4, function()
-			if var_30_6 then
+		setActive(var_32_4:Find("main/char"), not var_32_6)
+		setActive(var_32_4:Find("main/talk"), var_32_6)
+		onButton(arg_32_0, var_32_4, function()
+			if var_32_6 then
 				return
 			end
 
-			local var_31_0 = iter_30_1:GetStory()
+			local var_33_0 = iter_32_1:GetStory()
 
-			arg_30_0:PlayStory(var_31_0, function()
-				arg_30_0:UpdateView()
+			arg_32_0:PlayStory(var_33_0, function()
+				arg_32_0:UpdateView()
 			end)
 		end)
 
-		var_30_2 = var_30_2 + (var_30_6 and 1 or 0)
-		var_30_3 = var_30_3 + 1
+		var_32_2 = var_32_2 + (var_32_6 and 1 or 0)
+		var_32_3 = var_32_3 + 1
 	end
 
-	setText(arg_30_0.progressText, var_30_2 .. "/" .. var_30_3)
-	setActive(arg_30_0.storyAward, tobool(arg_30_0.storyTask))
+	setText(arg_32_0.progressText, var_32_2 .. "/" .. var_32_3)
+	setActive(arg_32_0.storyAward, tobool(arg_32_0.storyTask))
 
-	if arg_30_0.storyTask then
-		local var_30_7 = arg_30_0.storyTask:getConfig("award_display")
-		local var_30_8 = Drop.Create(var_30_7[1])
+	if arg_32_0.storyTask then
+		local var_32_7 = arg_32_0.storyTask:getConfig("award_display")
+		local var_32_8 = Drop.Create(var_32_7[1])
 
-		updateDrop(arg_30_0.storyAward:GetChild(0), var_30_8)
+		updateDrop(arg_32_0.storyAward:GetChild(0), var_32_8)
 
-		local var_30_9 = arg_30_0.storyTask:getTaskStatus()
+		local var_32_9 = arg_32_0.storyTask:getTaskStatus()
 
-		setActive(arg_30_0.storyAward:Find("get"), var_30_9 == 1)
-		setActive(arg_30_0.storyAward:Find("got"), var_30_9 == 2)
-		onButton(arg_30_0, arg_30_0.storyAward, function()
-			arg_30_0:emit(BaseUI.ON_DROP, var_30_8)
+		setActive(arg_32_0.storyAward:Find("get"), var_32_9 == 1)
+		setActive(arg_32_0.storyAward:Find("got"), var_32_9 == 2)
+		onButton(arg_32_0, arg_32_0.storyAward, function()
+			arg_32_0:emit(BaseUI.ON_DROP, var_32_8)
 		end)
 	end
 end
 
-function var_0_0.SwitchStoryMapAndBGM(arg_34_0)
-	local var_34_0 = arg_34_0.data:getConfig("default_background")
-	local var_34_1 = arg_34_0.data:getConfig("default_bgm")
-	local var_34_2
-	local var_34_3 = underscore.keys(arg_34_0.storyNodesDict)
+function var_0_0.SwitchStoryMapAndBGM(arg_36_0)
+	local var_36_0 = arg_36_0.data:getConfig("default_background")
+	local var_36_1 = arg_36_0.data:getConfig("default_bgm")
+	local var_36_2
+	local var_36_3 = underscore.keys(arg_36_0.storyNodesDict)
 
-	table.sort(var_34_3)
+	table.sort(var_36_3)
 
-	for iter_34_0 = 1, #var_34_3 do
-		local var_34_4 = arg_34_0.storyNodesDict[var_34_3[iter_34_0]]
+	for iter_36_0 = 1, #var_36_3 do
+		local var_36_4 = arg_36_0.storyNodesDict[var_36_3[iter_36_0]]
 
-		if var_34_4:IsReaded() then
-			var_34_0 = defaultValue(var_34_4:GetCleanBG(), var_34_0)
-			var_34_1 = defaultValue(var_34_4:GetCleanBGM(), var_34_1)
-			var_34_2 = defaultValue(var_34_4:GetCleanAnimator(), var_34_2)
+		if var_36_4:IsReaded() then
+			var_36_0 = defaultValue(var_36_4:GetCleanBG(), var_36_0)
+			var_36_1 = defaultValue(var_36_4:GetCleanBGM(), var_36_1)
+			var_36_2 = defaultValue(var_36_4:GetCleanAnimator(), var_36_2)
 		else
 			break
 		end
 	end
 
-	arg_34_0.sceneParent:SwitchBG({
+	arg_36_0.sceneParent:SwitchBG({
 		{
 			bgPrefix = "bg",
-			BG = var_34_0,
-			Animator = var_34_2
+			BG = var_36_0,
+			Animator = var_36_2
 		}
 	})
-	pg.BgmMgr.GetInstance():Push(arg_34_0.__cname, var_34_1)
+	pg.BgmMgr.GetInstance():Push(arg_36_0.__cname, var_36_1)
 end
 
-function var_0_0.TrySubmitTask(arg_35_0)
-	if underscore.all(underscore.values(arg_35_0.storyNodesDict), function(arg_36_0)
-		return arg_36_0:IsReaded()
-	end) and arg_35_0.storyTask and arg_35_0.storyTask:getTaskStatus() == 1 then
-		arg_35_0:emit(LevelMediator2.ON_SUBMIT_TASK, arg_35_0.storyTask.id)
+function var_0_0.TrySubmitTask(arg_37_0)
+	if underscore.all(underscore.values(arg_37_0.storyNodesDict), function(arg_38_0)
+		return arg_38_0:IsReaded()
+	end) and arg_37_0.storyTask and arg_37_0.storyTask:getTaskStatus() == 1 then
+		arg_37_0:emit(LevelMediator2.ON_SUBMIT_TASK, arg_37_0.storyTask.id)
 
 		return
 	end
 end
 
-function var_0_0.TryOpenChapter(arg_37_0, arg_37_1)
-	local var_37_0 = arg_37_0.chapterTFsById[arg_37_1]
+function var_0_0.TryOpenChapter(arg_39_0, arg_39_1)
+	local var_39_0 = arg_39_0.chapterTFsById[arg_39_1]
 
-	if var_37_0 then
-		local var_37_1 = var_37_0:Find("main")
+	if var_39_0 then
+		local var_39_1 = var_39_0:Find("main")
 
-		triggerButton(var_37_1)
+		triggerButton(var_39_1)
 	end
 end
 
-function var_0_0.PlayStory(arg_38_0, arg_38_1, arg_38_2, arg_38_3)
-	if not arg_38_1 then
-		return existCall(arg_38_2)
+function var_0_0.PlayStory(arg_40_0, arg_40_1, arg_40_2, arg_40_3)
+	if not arg_40_1 then
+		return existCall(arg_40_2)
 	end
 
-	local var_38_0 = pg.NewStoryMgr.GetInstance()
-	local var_38_1 = var_38_0:IsPlayed(arg_38_1)
+	local var_40_0 = pg.NewStoryMgr.GetInstance()
+	local var_40_1 = var_40_0:IsPlayed(arg_40_1)
 
 	seriesAsync({
-		function(arg_39_0)
-			if var_38_1 and not arg_38_3 then
-				return arg_39_0()
+		function(arg_41_0)
+			if var_40_1 and not arg_40_3 then
+				return arg_41_0()
 			end
 
-			local var_39_0 = tonumber(arg_38_1)
+			local var_41_0 = tonumber(arg_40_1)
 
-			if var_39_0 and var_39_0 > 0 then
-				arg_38_0:emit(LevelMediator2.ON_PERFORM_COMBAT, var_39_0, nil, var_38_1)
+			if var_41_0 and var_41_0 > 0 then
+				arg_40_0:emit(LevelMediator2.ON_PERFORM_COMBAT, var_41_0, nil, var_40_1)
 			else
-				var_38_0:Play(arg_38_1, arg_39_0, arg_38_3)
+				var_40_0:Play(arg_40_1, arg_41_0, arg_40_3)
 			end
 		end,
-		function(arg_40_0, ...)
-			existCall(arg_38_2, ...)
+		function(arg_42_0, ...)
+			existCall(arg_40_2, ...)
 		end
 	})
 end
 
-function var_0_0.UpdateStoryTask(arg_41_0)
-	local var_41_0 = arg_41_0.activity:getConfig("config_client").task_id
-	local var_41_1 = getProxy(TaskProxy):getTaskVO(var_41_0)
+function var_0_0.UpdateStoryTask(arg_43_0)
+	local var_43_0 = arg_43_0.activity:getConfig("config_client").task_id
+	local var_43_1 = getProxy(TaskProxy):getTaskVO(var_43_0)
 
-	if not var_41_1 then
-		errorMsg("Missing Activity Task ID : " .. var_41_0)
+	if not var_43_1 then
+		errorMsg("Missing Activity Task ID : " .. var_43_0)
 	end
 
-	print(var_41_0)
+	print(var_43_0)
 
-	arg_41_0.storyTask = var_41_1 or Task.New({
-		id = var_41_0
+	arg_43_0.storyTask = var_43_1 or Task.New({
+		id = var_43_0
 	})
 end
 
-function var_0_0.OnSubmitTaskDone(arg_42_0)
-	arg_42_0:UpdateView()
+function var_0_0.OnSubmitTaskDone(arg_44_0)
+	arg_44_0:UpdateView()
 end
 
-function var_0_0.OnDestroy(arg_43_0)
+function var_0_0.OnDestroy(arg_45_0)
 	return
 end
 

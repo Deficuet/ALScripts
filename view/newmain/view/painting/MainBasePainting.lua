@@ -45,7 +45,11 @@ function var_0_0.Load(arg_7_0, arg_7_1)
 	arg_7_0.state = var_0_2
 	arg_7_0.ship = arg_7_1
 	arg_7_0.paintingName = arg_7_1:getPainting()
+	arg_7_0._loginAction = getProxy(PlayerProxy):getFlag("login")
+	arg_7_0._battleAction = getProxy(PlayerProxy):getFlag("battle")
 
+	getProxy(PlayerProxy):setFlag("login", false)
+	getProxy(PlayerProxy):setFlag("battle", false)
 	arg_7_0:OnLoad(function()
 		arg_7_0.state = var_0_3
 
@@ -187,11 +191,13 @@ function var_0_0.OnFirstTimeTriggerEvent(arg_20_0)
 		arg_20_0:PrepareTriggerAction(arg_21_0)
 	end
 
-	if getProxy(PlayerProxy):getFlag("login") then
-		getProxy(PlayerProxy):setFlag("login", nil)
+	if arg_20_0._loginAction then
+		arg_20_0._loginAction = false
+
 		var_20_0("event_login")
-	elseif getProxy(PlayerProxy):getFlag("battle") then
-		getProxy(PlayerProxy):setFlag("battle", nil)
+	elseif arg_20_0._battleAction then
+		arg_20_0._battleAction = false
+
 		var_20_0("home")
 	else
 		arg_20_0:TriggerNextEventAuto()

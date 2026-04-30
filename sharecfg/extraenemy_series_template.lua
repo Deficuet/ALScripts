@@ -1,6 +1,20 @@
 pg = pg or {}
-pg.extraenemy_series_template = {
-	{
+pg.extraenemy_series_template = rawget(pg, "extraenemy_series_template") or setmetatable({
+	__name = "extraenemy_series_template"
+}, confNEO)
+pg.extraenemy_series_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6
+}
+pg.base = pg.base or {}
+pg.base.extraenemy_series_template = {}
+
+;(function()
+	pg.base.extraenemy_series_template[1] = {
 		damage_resource = 586,
 		pos_x = 0,
 		chapter_name = "AREA-1",
@@ -73,8 +87,8 @@ pg.extraenemy_series_template = {
 			0.5,
 			201602
 		}
-	},
-	{
+	}
+	pg.base.extraenemy_series_template[2] = {
 		damage_resource = 586,
 		pos_x = 0,
 		chapter_name = "AREA-2",
@@ -153,8 +167,8 @@ pg.extraenemy_series_template = {
 			0.25,
 			201605
 		}
-	},
-	{
+	}
+	pg.base.extraenemy_series_template[3] = {
 		damage_resource = 586,
 		pos_x = 0,
 		chapter_name = "AREA-3",
@@ -233,8 +247,8 @@ pg.extraenemy_series_template = {
 			0.25,
 			201610
 		}
-	},
-	{
+	}
+	pg.base.extraenemy_series_template[4] = {
 		damage_resource = 586,
 		pos_x = 0,
 		chapter_name = "AREA-4",
@@ -313,8 +327,8 @@ pg.extraenemy_series_template = {
 			0.25,
 			201614
 		}
-	},
-	{
+	}
+	pg.base.extraenemy_series_template[5] = {
 		damage_resource = 586,
 		pos_x = 0,
 		chapter_name = "AREA-5",
@@ -393,8 +407,8 @@ pg.extraenemy_series_template = {
 			0.25,
 			201618
 		}
-	},
-	{
+	}
+	pg.base.extraenemy_series_template[6] = {
 		damage_resource = 586,
 		pos_x = 0,
 		chapter_name = "AREA-6",
@@ -517,13 +531,5 @@ pg.extraenemy_series_template = {
 			0.7,
 			201621
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6
 	}
-}
+end)()

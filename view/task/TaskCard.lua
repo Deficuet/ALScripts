@@ -287,6 +287,7 @@ function var_0_0.updateAwards(arg_17_0, arg_17_1)
 			}
 
 			updateDrop(var_17_2, var_17_5)
+			setActive(findTF(var_17_2, "got"), Task.OwnSpAward(var_17_4))
 			onButton(arg_17_0, var_17_2, function()
 				arg_17_0.viewComponent:emit(TaskMediator.ON_DROP, var_17_5)
 			end, SFX_PANEL)

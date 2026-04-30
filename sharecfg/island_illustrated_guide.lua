@@ -1,232 +1,235 @@
 pg = pg or {}
-pg.island_illustrated_guide = setmetatable({
-	__name = "island_illustrated_guide",
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		1016,
-		1017,
-		1018,
-		1019,
-		1020,
-		1021,
-		1022,
-		1023,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		2031,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63,
-		64,
-		65,
-		66,
-		67,
-		68,
-		69,
-		70,
-		71,
-		72,
-		73,
-		74,
-		75,
-		76,
-		77,
-		78,
-		86,
-		87,
-		88,
-		89,
-		90,
-		91,
-		92,
-		93,
-		94,
-		95,
-		96,
-		97,
-		98,
-		99,
-		100,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		113,
-		114,
-		115,
-		116,
-		117,
-		118,
-		120,
-		121,
-		122,
-		123,
-		124,
-		125,
-		126,
-		127,
-		128,
-		129,
-		130,
-		131,
-		132,
-		134,
-		135,
-		136,
-		137,
-		138,
-		139,
-		140,
-		141,
-		142,
-		143,
-		144,
-		145,
-		146,
-		147,
-		148,
-		149,
-		150,
-		151,
-		152,
-		153,
-		154,
-		155,
-		156,
-		157,
-		158,
-		159,
-		160,
-		161,
-		162,
-		163,
-		164,
-		165,
-		166,
-		167,
-		168,
-		169,
-		170,
-		171,
-		172,
-		4173,
-		4174,
-		4175,
-		4176,
-		4177,
-		4178,
-		4179,
-		4180,
-		173,
-		174,
-		175,
-		176,
-		177,
-		178,
-		179,
-		180,
-		181,
-		182,
-		183,
-		184,
-		185,
-		186,
-		187,
-		188,
-		189,
-		190,
-		191,
-		192,
-		193,
-		194,
-		195,
-		196,
-		197,
-		198,
-		199,
-		200,
-		3001,
-		3002,
-		3003,
-		3004,
-		3005,
-		3006,
-		3007,
-		3008,
-		3009,
-		3010,
-		3011,
-		3012,
-		3013,
-		3014,
-		3015,
-		3016
-	}
-}, confHX)
+pg.island_illustrated_guide = rawget(pg, "island_illustrated_guide") or setmetatable({
+	__name = "island_illustrated_guide"
+}, confNEO)
+pg.island_illustrated_guide.__namecode__ = true
+pg.island_illustrated_guide.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	1016,
+	1017,
+	1018,
+	1019,
+	1020,
+	1021,
+	1022,
+	1023,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	2031,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	67,
+	68,
+	69,
+	70,
+	71,
+	72,
+	73,
+	74,
+	75,
+	76,
+	77,
+	78,
+	86,
+	87,
+	88,
+	89,
+	90,
+	91,
+	92,
+	93,
+	94,
+	95,
+	96,
+	97,
+	98,
+	99,
+	100,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	113,
+	114,
+	115,
+	116,
+	117,
+	118,
+	120,
+	121,
+	122,
+	123,
+	124,
+	125,
+	126,
+	127,
+	128,
+	129,
+	130,
+	131,
+	132,
+	134,
+	135,
+	136,
+	137,
+	138,
+	139,
+	140,
+	141,
+	142,
+	143,
+	144,
+	145,
+	146,
+	147,
+	148,
+	149,
+	150,
+	151,
+	152,
+	153,
+	154,
+	155,
+	156,
+	157,
+	158,
+	159,
+	160,
+	161,
+	162,
+	163,
+	164,
+	165,
+	166,
+	167,
+	168,
+	169,
+	170,
+	171,
+	172,
+	4173,
+	4174,
+	4175,
+	4176,
+	4177,
+	4178,
+	4179,
+	4180,
+	173,
+	174,
+	175,
+	176,
+	177,
+	178,
+	179,
+	180,
+	181,
+	182,
+	183,
+	184,
+	185,
+	186,
+	187,
+	188,
+	189,
+	190,
+	191,
+	192,
+	193,
+	194,
+	195,
+	196,
+	197,
+	198,
+	199,
+	200,
+	3001,
+	3002,
+	3003,
+	3004,
+	3005,
+	3006,
+	3007,
+	3008,
+	3009,
+	3010,
+	3011,
+	3012,
+	3013,
+	3014,
+	3015,
+	3016
+}
 pg.base = pg.base or {}
-pg.base.island_illustrated_guide = {
-	{
+pg.base.island_illustrated_guide = {}
+
+;(function()
+	pg.base.island_illustrated_guide[1] = {
 		unlock_id = 10517,
 		collect_add = 20,
 		type = 1,
@@ -257,8 +260,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[2] = {
 		unlock_id = 10703,
 		collect_add = 20,
 		type = 1,
@@ -289,8 +292,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[3] = {
 		unlock_id = 20403,
 		collect_add = 20,
 		type = 1,
@@ -321,8 +324,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[4] = {
 		unlock_id = 20603,
 		collect_add = 20,
 		type = 1,
@@ -353,8 +356,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[5] = {
 		unlock_id = 29903,
 		collect_add = 20,
 		type = 1,
@@ -385,8 +388,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[6] = {
 		unlock_id = 30129,
 		collect_add = 20,
 		type = 1,
@@ -417,8 +420,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[7] = {
 		unlock_id = 30407,
 		collect_add = 20,
 		type = 1,
@@ -449,8 +452,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[8] = {
 		unlock_id = 30707,
 		collect_add = 20,
 		type = 1,
@@ -481,8 +484,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[9] = {
 		unlock_id = 31201,
 		collect_add = 20,
 		type = 1,
@@ -513,8 +516,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[10] = {
 		unlock_id = 40303,
 		collect_add = 20,
 		type = 1,
@@ -545,8 +548,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[11] = {
 		unlock_id = 50204,
 		collect_add = 20,
 		type = 1,
@@ -577,8 +580,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[12] = {
 		unlock_id = 50205,
 		collect_add = 20,
 		type = 1,
@@ -609,8 +612,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[13] = {
 		unlock_id = 60802,
 		collect_add = 20,
 		type = 1,
@@ -641,8 +644,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[14] = {
 		unlock_id = 70104,
 		collect_add = 20,
 		type = 1,
@@ -673,8 +676,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[15] = {
 		unlock_id = 90111,
 		collect_add = 20,
 		type = 1,
@@ -705,8 +708,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[1016] = {
+	}
+	pg.base.island_illustrated_guide[1016] = {
 		unlock_id = 10110,
 		collect_add = 20,
 		type = 1,
@@ -737,8 +740,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[1017] = {
+	}
+	pg.base.island_illustrated_guide[1017] = {
 		unlock_id = 50601,
 		collect_add = 20,
 		type = 1,
@@ -769,8 +772,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[1018] = {
+	}
+	pg.base.island_illustrated_guide[1018] = {
 		unlock_id = 30312,
 		collect_add = 20,
 		type = 1,
@@ -801,8 +804,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[1019] = {
+	}
+	pg.base.island_illustrated_guide[1019] = {
 		unlock_id = 10205,
 		collect_add = 20,
 		type = 1,
@@ -833,8 +836,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[1020] = {
+	}
+	pg.base.island_illustrated_guide[1020] = {
 		unlock_id = 49902,
 		collect_add = 20,
 		type = 1,
@@ -865,8 +868,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[1021] = {
+	}
+	pg.base.island_illustrated_guide[1021] = {
 		unlock_id = 990001,
 		collect_add = 20,
 		type = 1,
@@ -897,8 +900,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[1022] = {
+	}
+	pg.base.island_illustrated_guide[1022] = {
 		unlock_id = 990002,
 		collect_add = 20,
 		type = 1,
@@ -929,8 +932,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[1023] = {
+	}
+	pg.base.island_illustrated_guide[1023] = {
 		unlock_id = 990003,
 		collect_add = 20,
 		type = 1,
@@ -961,8 +964,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[16] = {
 		unlock_id = 100100,
 		collect_add = 20,
 		type = 2,
@@ -971,8 +974,8 @@ pg.base.island_illustrated_guide = {
 		collect_upgrade = {},
 		collect_star = {},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[17] = {
 		unlock_id = 100200,
 		collect_add = 20,
 		type = 2,
@@ -981,8 +984,8 @@ pg.base.island_illustrated_guide = {
 		collect_upgrade = {},
 		collect_star = {},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[18] = {
 		unlock_id = 100300,
 		collect_add = 20,
 		type = 2,
@@ -991,8 +994,8 @@ pg.base.island_illustrated_guide = {
 		collect_upgrade = {},
 		collect_star = {},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[19] = {
 		unlock_id = 100400,
 		collect_add = 20,
 		type = 2,
@@ -1001,8 +1004,8 @@ pg.base.island_illustrated_guide = {
 		collect_upgrade = {},
 		collect_star = {},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[20] = {
 		unlock_id = 100500,
 		collect_add = 20,
 		type = 2,
@@ -1011,8 +1014,8 @@ pg.base.island_illustrated_guide = {
 		collect_upgrade = {},
 		collect_star = {},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[21] = {
 		unlock_id = 100600,
 		collect_add = 20,
 		type = 2,
@@ -1021,8 +1024,8 @@ pg.base.island_illustrated_guide = {
 		collect_upgrade = {},
 		collect_star = {},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[22] = {
 		unlock_id = 100700,
 		collect_add = 20,
 		type = 2,
@@ -1031,8 +1034,8 @@ pg.base.island_illustrated_guide = {
 		collect_upgrade = {},
 		collect_star = {},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[23] = {
 		unlock_id = 100800,
 		collect_add = 20,
 		type = 2,
@@ -1041,8 +1044,8 @@ pg.base.island_illustrated_guide = {
 		collect_upgrade = {},
 		collect_star = {},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[24] = {
 		unlock_id = 100900,
 		collect_add = 20,
 		type = 2,
@@ -1051,8 +1054,8 @@ pg.base.island_illustrated_guide = {
 		collect_upgrade = {},
 		collect_star = {},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[25] = {
 		unlock_id = 101000,
 		collect_add = 20,
 		type = 2,
@@ -1061,8 +1064,8 @@ pg.base.island_illustrated_guide = {
 		collect_upgrade = {},
 		collect_star = {},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[26] = {
 		unlock_id = 101100,
 		collect_add = 20,
 		type = 2,
@@ -1071,8 +1074,8 @@ pg.base.island_illustrated_guide = {
 		collect_upgrade = {},
 		collect_star = {},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[27] = {
 		unlock_id = 101200,
 		collect_add = 20,
 		type = 2,
@@ -1081,8 +1084,8 @@ pg.base.island_illustrated_guide = {
 		collect_upgrade = {},
 		collect_star = {},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[28] = {
 		unlock_id = 101300,
 		collect_add = 20,
 		type = 2,
@@ -1091,8 +1094,8 @@ pg.base.island_illustrated_guide = {
 		collect_upgrade = {},
 		collect_star = {},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[29] = {
 		unlock_id = 101400,
 		collect_add = 20,
 		type = 2,
@@ -1101,8 +1104,8 @@ pg.base.island_illustrated_guide = {
 		collect_upgrade = {},
 		collect_star = {},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[30] = {
 		unlock_id = 101600,
 		collect_add = 20,
 		type = 2,
@@ -1111,8 +1114,8 @@ pg.base.island_illustrated_guide = {
 		collect_upgrade = {},
 		collect_star = {},
 		award_unlock = {}
-	},
-	[2031] = {
+	}
+	pg.base.island_illustrated_guide[2031] = {
 		unlock_id = 101800,
 		collect_add = 20,
 		type = 2,
@@ -1121,8 +1124,8 @@ pg.base.island_illustrated_guide = {
 		collect_upgrade = {},
 		collect_star = {},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[31] = {
 		unlock_id = 1000,
 		collect_add = 20,
 		type = 3,
@@ -1140,8 +1143,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[32] = {
 		unlock_id = 1001,
 		collect_add = 20,
 		type = 3,
@@ -1159,8 +1162,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[33] = {
 		unlock_id = 1002,
 		collect_add = 20,
 		type = 3,
@@ -1178,8 +1181,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[34] = {
 		unlock_id = 1003,
 		collect_add = 20,
 		type = 3,
@@ -1197,8 +1200,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[35] = {
 		unlock_id = 1004,
 		collect_add = 20,
 		type = 3,
@@ -1216,8 +1219,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[36] = {
 		unlock_id = 1005,
 		collect_add = 20,
 		type = 3,
@@ -1235,8 +1238,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[37] = {
 		unlock_id = 1006,
 		collect_add = 20,
 		type = 3,
@@ -1254,8 +1257,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[38] = {
 		unlock_id = 1007,
 		collect_add = 20,
 		type = 3,
@@ -1273,8 +1276,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[39] = {
 		unlock_id = 1008,
 		collect_add = 20,
 		type = 3,
@@ -1292,8 +1295,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[40] = {
 		unlock_id = 1009,
 		collect_add = 20,
 		type = 3,
@@ -1311,8 +1314,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[41] = {
 		unlock_id = 1010,
 		collect_add = 20,
 		type = 3,
@@ -1330,8 +1333,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[42] = {
 		unlock_id = 1011,
 		collect_add = 20,
 		type = 3,
@@ -1349,8 +1352,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[43] = {
 		unlock_id = 1012,
 		collect_add = 20,
 		type = 3,
@@ -1368,8 +1371,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[44] = {
 		unlock_id = 1014,
 		collect_add = 20,
 		type = 3,
@@ -1387,8 +1390,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[45] = {
 		unlock_id = 1015,
 		collect_add = 20,
 		type = 3,
@@ -1406,8 +1409,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[46] = {
 		unlock_id = 1016,
 		collect_add = 20,
 		type = 3,
@@ -1425,8 +1428,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[47] = {
 		unlock_id = 1017,
 		collect_add = 20,
 		type = 3,
@@ -1444,8 +1447,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[48] = {
 		unlock_id = 1018,
 		collect_add = 20,
 		type = 3,
@@ -1463,8 +1466,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[49] = {
 		unlock_id = 1019,
 		collect_add = 20,
 		type = 3,
@@ -1482,8 +1485,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[50] = {
 		unlock_id = 1020,
 		collect_add = 20,
 		type = 3,
@@ -1501,8 +1504,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[51] = {
 		unlock_id = 1021,
 		collect_add = 20,
 		type = 3,
@@ -1520,8 +1523,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	{
+	}
+	pg.base.island_illustrated_guide[52] = {
 		unlock_id = 1022,
 		collect_add = 20,
 		type = 3,
@@ -1539,8 +1542,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[57] = {
+	}
+	pg.base.island_illustrated_guide[57] = {
 		unlock_id = 2000,
 		collect_add = 20,
 		type = 3,
@@ -1558,8 +1561,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[58] = {
+	}
+	pg.base.island_illustrated_guide[58] = {
 		unlock_id = 2001,
 		collect_add = 20,
 		type = 3,
@@ -1577,8 +1580,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[59] = {
+	}
+	pg.base.island_illustrated_guide[59] = {
 		unlock_id = 2002,
 		collect_add = 20,
 		type = 3,
@@ -1596,8 +1599,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[60] = {
+	}
+	pg.base.island_illustrated_guide[60] = {
 		unlock_id = 2003,
 		collect_add = 20,
 		type = 3,
@@ -1615,8 +1618,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[61] = {
+	}
+	pg.base.island_illustrated_guide[61] = {
 		unlock_id = 2004,
 		collect_add = 20,
 		type = 3,
@@ -1634,8 +1637,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[62] = {
+	}
+	pg.base.island_illustrated_guide[62] = {
 		unlock_id = 2005,
 		collect_add = 20,
 		type = 3,
@@ -1653,8 +1656,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[63] = {
+	}
+	pg.base.island_illustrated_guide[63] = {
 		unlock_id = 2006,
 		collect_add = 20,
 		type = 3,
@@ -1672,8 +1675,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[64] = {
+	}
+	pg.base.island_illustrated_guide[64] = {
 		unlock_id = 2007,
 		collect_add = 20,
 		type = 3,
@@ -1691,8 +1694,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[65] = {
+	}
+	pg.base.island_illustrated_guide[65] = {
 		unlock_id = 2008,
 		collect_add = 20,
 		type = 3,
@@ -1710,8 +1713,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[66] = {
+	}
+	pg.base.island_illustrated_guide[66] = {
 		unlock_id = 2009,
 		collect_add = 20,
 		type = 3,
@@ -1729,8 +1732,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[67] = {
+	}
+	pg.base.island_illustrated_guide[67] = {
 		unlock_id = 2010,
 		collect_add = 20,
 		type = 3,
@@ -1748,8 +1751,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[68] = {
+	}
+	pg.base.island_illustrated_guide[68] = {
 		unlock_id = 2011,
 		collect_add = 20,
 		type = 3,
@@ -1767,8 +1770,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[69] = {
+	}
+	pg.base.island_illustrated_guide[69] = {
 		unlock_id = 2012,
 		collect_add = 20,
 		type = 3,
@@ -1786,8 +1789,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[70] = {
+	}
+	pg.base.island_illustrated_guide[70] = {
 		unlock_id = 2014,
 		collect_add = 20,
 		type = 3,
@@ -1805,8 +1808,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[71] = {
+	}
+	pg.base.island_illustrated_guide[71] = {
 		unlock_id = 2015,
 		collect_add = 20,
 		type = 3,
@@ -1824,8 +1827,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[72] = {
+	}
+	pg.base.island_illustrated_guide[72] = {
 		unlock_id = 2016,
 		collect_add = 20,
 		type = 3,
@@ -1843,8 +1846,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[73] = {
+	}
+	pg.base.island_illustrated_guide[73] = {
 		unlock_id = 2017,
 		collect_add = 20,
 		type = 3,
@@ -1862,8 +1865,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[74] = {
+	}
+	pg.base.island_illustrated_guide[74] = {
 		unlock_id = 2018,
 		collect_add = 20,
 		type = 3,
@@ -1881,8 +1884,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[75] = {
+	}
+	pg.base.island_illustrated_guide[75] = {
 		unlock_id = 2019,
 		collect_add = 20,
 		type = 3,
@@ -1900,8 +1903,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[76] = {
+	}
+	pg.base.island_illustrated_guide[76] = {
 		unlock_id = 2020,
 		collect_add = 20,
 		type = 3,
@@ -1919,8 +1922,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[77] = {
+	}
+	pg.base.island_illustrated_guide[77] = {
 		unlock_id = 2021,
 		collect_add = 20,
 		type = 3,
@@ -1938,8 +1941,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[78] = {
+	}
+	pg.base.island_illustrated_guide[78] = {
 		unlock_id = 2022,
 		collect_add = 20,
 		type = 3,
@@ -1957,8 +1960,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[86] = {
+	}
+	pg.base.island_illustrated_guide[86] = {
 		unlock_id = 2600,
 		collect_add = 20,
 		type = 3,
@@ -1976,8 +1979,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[87] = {
+	}
+	pg.base.island_illustrated_guide[87] = {
 		unlock_id = 2601,
 		collect_add = 20,
 		type = 3,
@@ -1995,8 +1998,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[88] = {
+	}
+	pg.base.island_illustrated_guide[88] = {
 		unlock_id = 2602,
 		collect_add = 20,
 		type = 3,
@@ -2014,8 +2017,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[89] = {
+	}
+	pg.base.island_illustrated_guide[89] = {
 		unlock_id = 2603,
 		collect_add = 20,
 		type = 3,
@@ -2033,8 +2036,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[90] = {
+	}
+	pg.base.island_illustrated_guide[90] = {
 		unlock_id = 2604,
 		collect_add = 20,
 		type = 3,
@@ -2052,8 +2055,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[91] = {
+	}
+	pg.base.island_illustrated_guide[91] = {
 		unlock_id = 2605,
 		collect_add = 20,
 		type = 3,
@@ -2071,8 +2074,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[92] = {
+	}
+	pg.base.island_illustrated_guide[92] = {
 		unlock_id = 2606,
 		collect_add = 20,
 		type = 3,
@@ -2090,8 +2093,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[93] = {
+	}
+	pg.base.island_illustrated_guide[93] = {
 		unlock_id = 2700,
 		collect_add = 20,
 		type = 3,
@@ -2109,8 +2112,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[94] = {
+	}
+	pg.base.island_illustrated_guide[94] = {
 		unlock_id = 2701,
 		collect_add = 20,
 		type = 3,
@@ -2128,8 +2131,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[95] = {
+	}
+	pg.base.island_illustrated_guide[95] = {
 		unlock_id = 2702,
 		collect_add = 20,
 		type = 3,
@@ -2147,8 +2150,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[96] = {
+	}
+	pg.base.island_illustrated_guide[96] = {
 		unlock_id = 2703,
 		collect_add = 20,
 		type = 3,
@@ -2166,8 +2169,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[97] = {
+	}
+	pg.base.island_illustrated_guide[97] = {
 		unlock_id = 2704,
 		collect_add = 20,
 		type = 3,
@@ -2185,8 +2188,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[98] = {
+	}
+	pg.base.island_illustrated_guide[98] = {
 		unlock_id = 2705,
 		collect_add = 20,
 		type = 3,
@@ -2204,8 +2207,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[99] = {
+	}
+	pg.base.island_illustrated_guide[99] = {
 		unlock_id = 2800,
 		collect_add = 20,
 		type = 3,
@@ -2223,8 +2226,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[100] = {
+	}
+	pg.base.island_illustrated_guide[100] = {
 		unlock_id = 2801,
 		collect_add = 20,
 		type = 3,
@@ -2242,8 +2245,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[101] = {
+	}
+	pg.base.island_illustrated_guide[101] = {
 		unlock_id = 2802,
 		collect_add = 20,
 		type = 3,
@@ -2261,8 +2264,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[102] = {
+	}
+	pg.base.island_illustrated_guide[102] = {
 		unlock_id = 2803,
 		collect_add = 20,
 		type = 3,
@@ -2280,8 +2283,10 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[103] = {
+	}
+end)()
+;(function()
+	pg.base.island_illustrated_guide[103] = {
 		unlock_id = 3000,
 		collect_add = 20,
 		type = 3,
@@ -2299,8 +2304,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[104] = {
+	}
+	pg.base.island_illustrated_guide[104] = {
 		unlock_id = 3001,
 		collect_add = 20,
 		type = 3,
@@ -2318,8 +2323,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[105] = {
+	}
+	pg.base.island_illustrated_guide[105] = {
 		unlock_id = 3002,
 		collect_add = 20,
 		type = 3,
@@ -2337,8 +2342,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[106] = {
+	}
+	pg.base.island_illustrated_guide[106] = {
 		unlock_id = 3003,
 		collect_add = 20,
 		type = 3,
@@ -2356,8 +2361,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[107] = {
+	}
+	pg.base.island_illustrated_guide[107] = {
 		unlock_id = 3004,
 		collect_add = 20,
 		type = 3,
@@ -2375,8 +2380,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[108] = {
+	}
+	pg.base.island_illustrated_guide[108] = {
 		unlock_id = 3005,
 		collect_add = 20,
 		type = 3,
@@ -2394,8 +2399,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[109] = {
+	}
+	pg.base.island_illustrated_guide[109] = {
 		unlock_id = 3006,
 		collect_add = 20,
 		type = 3,
@@ -2413,8 +2418,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[110] = {
+	}
+	pg.base.island_illustrated_guide[110] = {
 		unlock_id = 3007,
 		collect_add = 20,
 		type = 3,
@@ -2432,8 +2437,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[111] = {
+	}
+	pg.base.island_illustrated_guide[111] = {
 		unlock_id = 3008,
 		collect_add = 20,
 		type = 3,
@@ -2451,8 +2456,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[112] = {
+	}
+	pg.base.island_illustrated_guide[112] = {
 		unlock_id = 3009,
 		collect_add = 20,
 		type = 3,
@@ -2470,8 +2475,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[113] = {
+	}
+	pg.base.island_illustrated_guide[113] = {
 		unlock_id = 3010,
 		collect_add = 20,
 		type = 3,
@@ -2489,8 +2494,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[114] = {
+	}
+	pg.base.island_illustrated_guide[114] = {
 		unlock_id = 3011,
 		collect_add = 20,
 		type = 3,
@@ -2508,8 +2513,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[115] = {
+	}
+	pg.base.island_illustrated_guide[115] = {
 		unlock_id = 3012,
 		collect_add = 20,
 		type = 3,
@@ -2527,8 +2532,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[116] = {
+	}
+	pg.base.island_illustrated_guide[116] = {
 		unlock_id = 3013,
 		collect_add = 20,
 		type = 3,
@@ -2546,8 +2551,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[117] = {
+	}
+	pg.base.island_illustrated_guide[117] = {
 		unlock_id = 3014,
 		collect_add = 20,
 		type = 3,
@@ -2565,8 +2570,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[118] = {
+	}
+	pg.base.island_illustrated_guide[118] = {
 		unlock_id = 3015,
 		collect_add = 20,
 		type = 3,
@@ -2584,8 +2589,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[120] = {
+	}
+	pg.base.island_illustrated_guide[120] = {
 		unlock_id = 3017,
 		collect_add = 20,
 		type = 3,
@@ -2603,8 +2608,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[121] = {
+	}
+	pg.base.island_illustrated_guide[121] = {
 		unlock_id = 3018,
 		collect_add = 20,
 		type = 3,
@@ -2622,8 +2627,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[122] = {
+	}
+	pg.base.island_illustrated_guide[122] = {
 		unlock_id = 3019,
 		collect_add = 20,
 		type = 3,
@@ -2641,8 +2646,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[123] = {
+	}
+	pg.base.island_illustrated_guide[123] = {
 		unlock_id = 3020,
 		collect_add = 20,
 		type = 3,
@@ -2660,8 +2665,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[124] = {
+	}
+	pg.base.island_illustrated_guide[124] = {
 		unlock_id = 3021,
 		collect_add = 20,
 		type = 3,
@@ -2679,8 +2684,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[125] = {
+	}
+	pg.base.island_illustrated_guide[125] = {
 		unlock_id = 3022,
 		collect_add = 20,
 		type = 3,
@@ -2698,8 +2703,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[126] = {
+	}
+	pg.base.island_illustrated_guide[126] = {
 		unlock_id = 3023,
 		collect_add = 20,
 		type = 3,
@@ -2717,8 +2722,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[127] = {
+	}
+	pg.base.island_illustrated_guide[127] = {
 		unlock_id = 3024,
 		collect_add = 20,
 		type = 3,
@@ -2736,8 +2741,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[128] = {
+	}
+	pg.base.island_illustrated_guide[128] = {
 		unlock_id = 3025,
 		collect_add = 20,
 		type = 3,
@@ -2755,8 +2760,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[129] = {
+	}
+	pg.base.island_illustrated_guide[129] = {
 		unlock_id = 3026,
 		collect_add = 20,
 		type = 3,
@@ -2774,8 +2779,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[130] = {
+	}
+	pg.base.island_illustrated_guide[130] = {
 		unlock_id = 3028,
 		collect_add = 20,
 		type = 3,
@@ -2793,8 +2798,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[131] = {
+	}
+	pg.base.island_illustrated_guide[131] = {
 		unlock_id = 3029,
 		collect_add = 20,
 		type = 3,
@@ -2812,8 +2817,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[132] = {
+	}
+	pg.base.island_illustrated_guide[132] = {
 		unlock_id = 3030,
 		collect_add = 20,
 		type = 3,
@@ -2831,8 +2836,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[134] = {
+	}
+	pg.base.island_illustrated_guide[134] = {
 		unlock_id = 3032,
 		collect_add = 20,
 		type = 3,
@@ -2850,8 +2855,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[135] = {
+	}
+	pg.base.island_illustrated_guide[135] = {
 		unlock_id = 3033,
 		collect_add = 20,
 		type = 3,
@@ -2869,8 +2874,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[136] = {
+	}
+	pg.base.island_illustrated_guide[136] = {
 		unlock_id = 3034,
 		collect_add = 20,
 		type = 3,
@@ -2888,8 +2893,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[137] = {
+	}
+	pg.base.island_illustrated_guide[137] = {
 		unlock_id = 3035,
 		collect_add = 20,
 		type = 3,
@@ -2907,8 +2912,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[138] = {
+	}
+	pg.base.island_illustrated_guide[138] = {
 		unlock_id = 3036,
 		collect_add = 20,
 		type = 3,
@@ -2926,8 +2931,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[139] = {
+	}
+	pg.base.island_illustrated_guide[139] = {
 		unlock_id = 3037,
 		collect_add = 20,
 		type = 3,
@@ -2945,8 +2950,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[140] = {
+	}
+	pg.base.island_illustrated_guide[140] = {
 		unlock_id = 3038,
 		collect_add = 20,
 		type = 3,
@@ -2964,8 +2969,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[141] = {
+	}
+	pg.base.island_illustrated_guide[141] = {
 		unlock_id = 3039,
 		collect_add = 20,
 		type = 3,
@@ -2983,8 +2988,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[142] = {
+	}
+	pg.base.island_illustrated_guide[142] = {
 		unlock_id = 3040,
 		collect_add = 20,
 		type = 3,
@@ -3002,8 +3007,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[143] = {
+	}
+	pg.base.island_illustrated_guide[143] = {
 		unlock_id = 3041,
 		collect_add = 20,
 		type = 3,
@@ -3021,8 +3026,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[144] = {
+	}
+	pg.base.island_illustrated_guide[144] = {
 		unlock_id = 3042,
 		collect_add = 20,
 		type = 3,
@@ -3040,8 +3045,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[145] = {
+	}
+	pg.base.island_illustrated_guide[145] = {
 		unlock_id = 3043,
 		collect_add = 20,
 		type = 3,
@@ -3059,8 +3064,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[146] = {
+	}
+	pg.base.island_illustrated_guide[146] = {
 		unlock_id = 3044,
 		collect_add = 20,
 		type = 3,
@@ -3078,8 +3083,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[147] = {
+	}
+	pg.base.island_illustrated_guide[147] = {
 		unlock_id = 3045,
 		collect_add = 20,
 		type = 3,
@@ -3097,8 +3102,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[148] = {
+	}
+	pg.base.island_illustrated_guide[148] = {
 		unlock_id = 3046,
 		collect_add = 20,
 		type = 3,
@@ -3116,8 +3121,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[149] = {
+	}
+	pg.base.island_illustrated_guide[149] = {
 		unlock_id = 3047,
 		collect_add = 20,
 		type = 3,
@@ -3135,8 +3140,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[150] = {
+	}
+	pg.base.island_illustrated_guide[150] = {
 		unlock_id = 3048,
 		collect_add = 20,
 		type = 3,
@@ -3154,8 +3159,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[151] = {
+	}
+	pg.base.island_illustrated_guide[151] = {
 		unlock_id = 3049,
 		collect_add = 20,
 		type = 3,
@@ -3173,8 +3178,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[152] = {
+	}
+	pg.base.island_illustrated_guide[152] = {
 		unlock_id = 3050,
 		collect_add = 20,
 		type = 3,
@@ -3192,8 +3197,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[153] = {
+	}
+	pg.base.island_illustrated_guide[153] = {
 		unlock_id = 3051,
 		collect_add = 20,
 		type = 3,
@@ -3211,8 +3216,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[154] = {
+	}
+	pg.base.island_illustrated_guide[154] = {
 		unlock_id = 3052,
 		collect_add = 20,
 		type = 3,
@@ -3230,8 +3235,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[155] = {
+	}
+	pg.base.island_illustrated_guide[155] = {
 		unlock_id = 3053,
 		collect_add = 20,
 		type = 3,
@@ -3249,8 +3254,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[156] = {
+	}
+	pg.base.island_illustrated_guide[156] = {
 		unlock_id = 3054,
 		collect_add = 20,
 		type = 3,
@@ -3268,8 +3273,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[157] = {
+	}
+	pg.base.island_illustrated_guide[157] = {
 		unlock_id = 3055,
 		collect_add = 20,
 		type = 3,
@@ -3287,8 +3292,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[158] = {
+	}
+	pg.base.island_illustrated_guide[158] = {
 		unlock_id = 3056,
 		collect_add = 20,
 		type = 3,
@@ -3306,8 +3311,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[159] = {
+	}
+	pg.base.island_illustrated_guide[159] = {
 		unlock_id = 3059,
 		collect_add = 20,
 		type = 3,
@@ -3325,8 +3330,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[160] = {
+	}
+	pg.base.island_illustrated_guide[160] = {
 		unlock_id = 3101,
 		collect_add = 20,
 		type = 3,
@@ -3344,8 +3349,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[161] = {
+	}
+	pg.base.island_illustrated_guide[161] = {
 		unlock_id = 3102,
 		collect_add = 20,
 		type = 3,
@@ -3363,8 +3368,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[162] = {
+	}
+	pg.base.island_illustrated_guide[162] = {
 		unlock_id = 3103,
 		collect_add = 20,
 		type = 3,
@@ -3382,8 +3387,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[163] = {
+	}
+	pg.base.island_illustrated_guide[163] = {
 		unlock_id = 3104,
 		collect_add = 20,
 		type = 3,
@@ -3401,8 +3406,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[164] = {
+	}
+	pg.base.island_illustrated_guide[164] = {
 		unlock_id = 3105,
 		collect_add = 20,
 		type = 3,
@@ -3420,8 +3425,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[165] = {
+	}
+	pg.base.island_illustrated_guide[165] = {
 		unlock_id = 3106,
 		collect_add = 20,
 		type = 3,
@@ -3439,8 +3444,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[166] = {
+	}
+	pg.base.island_illustrated_guide[166] = {
 		unlock_id = 3107,
 		collect_add = 20,
 		type = 3,
@@ -3458,8 +3463,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[167] = {
+	}
+	pg.base.island_illustrated_guide[167] = {
 		unlock_id = 3108,
 		collect_add = 20,
 		type = 3,
@@ -3477,8 +3482,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[168] = {
+	}
+	pg.base.island_illustrated_guide[168] = {
 		unlock_id = 3109,
 		collect_add = 20,
 		type = 3,
@@ -3496,8 +3501,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[169] = {
+	}
+	pg.base.island_illustrated_guide[169] = {
 		unlock_id = 3110,
 		collect_add = 20,
 		type = 3,
@@ -3515,8 +3520,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[170] = {
+	}
+	pg.base.island_illustrated_guide[170] = {
 		unlock_id = 3111,
 		collect_add = 20,
 		type = 3,
@@ -3534,8 +3539,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[171] = {
+	}
+	pg.base.island_illustrated_guide[171] = {
 		unlock_id = 3112,
 		collect_add = 20,
 		type = 3,
@@ -3553,8 +3558,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[172] = {
+	}
+	pg.base.island_illustrated_guide[172] = {
 		unlock_id = 3113,
 		collect_add = 20,
 		type = 3,
@@ -3572,8 +3577,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[4173] = {
+	}
+	pg.base.island_illustrated_guide[4173] = {
 		unlock_id = 3114,
 		collect_add = 20,
 		type = 3,
@@ -3591,8 +3596,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[4174] = {
+	}
+	pg.base.island_illustrated_guide[4174] = {
 		unlock_id = 3115,
 		collect_add = 20,
 		type = 3,
@@ -3610,8 +3615,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[4175] = {
+	}
+	pg.base.island_illustrated_guide[4175] = {
 		unlock_id = 3116,
 		collect_add = 20,
 		type = 3,
@@ -3629,8 +3634,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[4176] = {
+	}
+	pg.base.island_illustrated_guide[4176] = {
 		unlock_id = 3117,
 		collect_add = 20,
 		type = 3,
@@ -3648,8 +3653,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[4177] = {
+	}
+	pg.base.island_illustrated_guide[4177] = {
 		unlock_id = 3118,
 		collect_add = 20,
 		type = 3,
@@ -3667,8 +3672,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[4178] = {
+	}
+	pg.base.island_illustrated_guide[4178] = {
 		unlock_id = 3119,
 		collect_add = 20,
 		type = 3,
@@ -3686,8 +3691,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[4179] = {
+	}
+	pg.base.island_illustrated_guide[4179] = {
 		unlock_id = 3120,
 		collect_add = 20,
 		type = 3,
@@ -3705,8 +3710,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[4180] = {
+	}
+	pg.base.island_illustrated_guide[4180] = {
 		unlock_id = 9900,
 		collect_add = 20,
 		type = 3,
@@ -3724,8 +3729,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[173] = {
+	}
+	pg.base.island_illustrated_guide[173] = {
 		unlock_id = 4001,
 		collect_add = 20,
 		type = 3,
@@ -3743,8 +3748,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[174] = {
+	}
+	pg.base.island_illustrated_guide[174] = {
 		unlock_id = 4002,
 		collect_add = 20,
 		type = 3,
@@ -3762,8 +3767,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[175] = {
+	}
+	pg.base.island_illustrated_guide[175] = {
 		unlock_id = 4003,
 		collect_add = 20,
 		type = 3,
@@ -3781,8 +3786,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[176] = {
+	}
+	pg.base.island_illustrated_guide[176] = {
 		unlock_id = 4004,
 		collect_add = 20,
 		type = 3,
@@ -3800,8 +3805,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[177] = {
+	}
+	pg.base.island_illustrated_guide[177] = {
 		unlock_id = 4005,
 		collect_add = 20,
 		type = 3,
@@ -3819,8 +3824,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[178] = {
+	}
+	pg.base.island_illustrated_guide[178] = {
 		unlock_id = 4006,
 		collect_add = 20,
 		type = 3,
@@ -3838,8 +3843,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[179] = {
+	}
+	pg.base.island_illustrated_guide[179] = {
 		unlock_id = 4007,
 		collect_add = 20,
 		type = 3,
@@ -3857,8 +3862,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[180] = {
+	}
+	pg.base.island_illustrated_guide[180] = {
 		unlock_id = 4008,
 		collect_add = 20,
 		type = 3,
@@ -3876,8 +3881,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[181] = {
+	}
+	pg.base.island_illustrated_guide[181] = {
 		unlock_id = 4009,
 		collect_add = 20,
 		type = 3,
@@ -3895,8 +3900,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[182] = {
+	}
+	pg.base.island_illustrated_guide[182] = {
 		unlock_id = 4010,
 		collect_add = 20,
 		type = 3,
@@ -3914,8 +3919,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[183] = {
+	}
+	pg.base.island_illustrated_guide[183] = {
 		unlock_id = 4011,
 		collect_add = 20,
 		type = 3,
@@ -3933,8 +3938,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[184] = {
+	}
+	pg.base.island_illustrated_guide[184] = {
 		unlock_id = 4012,
 		collect_add = 20,
 		type = 3,
@@ -3952,8 +3957,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[185] = {
+	}
+	pg.base.island_illustrated_guide[185] = {
 		unlock_id = 4013,
 		collect_add = 20,
 		type = 3,
@@ -3971,8 +3976,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[186] = {
+	}
+	pg.base.island_illustrated_guide[186] = {
 		unlock_id = 4014,
 		collect_add = 20,
 		type = 3,
@@ -3990,8 +3995,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[187] = {
+	}
+	pg.base.island_illustrated_guide[187] = {
 		unlock_id = 4015,
 		collect_add = 20,
 		type = 3,
@@ -4009,8 +4014,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[188] = {
+	}
+	pg.base.island_illustrated_guide[188] = {
 		unlock_id = 4016,
 		collect_add = 20,
 		type = 3,
@@ -4028,8 +4033,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[189] = {
+	}
+	pg.base.island_illustrated_guide[189] = {
 		unlock_id = 4017,
 		collect_add = 20,
 		type = 3,
@@ -4047,8 +4052,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[190] = {
+	}
+	pg.base.island_illustrated_guide[190] = {
 		unlock_id = 4018,
 		collect_add = 20,
 		type = 3,
@@ -4066,8 +4071,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[191] = {
+	}
+	pg.base.island_illustrated_guide[191] = {
 		unlock_id = 4019,
 		collect_add = 20,
 		type = 3,
@@ -4085,8 +4090,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[192] = {
+	}
+	pg.base.island_illustrated_guide[192] = {
 		unlock_id = 4020,
 		collect_add = 20,
 		type = 3,
@@ -4104,8 +4109,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[193] = {
+	}
+	pg.base.island_illustrated_guide[193] = {
 		unlock_id = 4021,
 		collect_add = 20,
 		type = 3,
@@ -4123,8 +4128,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[194] = {
+	}
+	pg.base.island_illustrated_guide[194] = {
 		unlock_id = 4022,
 		collect_add = 20,
 		type = 3,
@@ -4142,8 +4147,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[195] = {
+	}
+	pg.base.island_illustrated_guide[195] = {
 		unlock_id = 4023,
 		collect_add = 20,
 		type = 3,
@@ -4161,8 +4166,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[196] = {
+	}
+	pg.base.island_illustrated_guide[196] = {
 		unlock_id = 4024,
 		collect_add = 20,
 		type = 3,
@@ -4180,8 +4185,10 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[197] = {
+	}
+end)()
+;(function()
+	pg.base.island_illustrated_guide[197] = {
 		unlock_id = 4025,
 		collect_add = 20,
 		type = 3,
@@ -4199,8 +4206,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[198] = {
+	}
+	pg.base.island_illustrated_guide[198] = {
 		unlock_id = 4026,
 		collect_add = 20,
 		type = 3,
@@ -4218,8 +4225,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[199] = {
+	}
+	pg.base.island_illustrated_guide[199] = {
 		unlock_id = 4027,
 		collect_add = 20,
 		type = 3,
@@ -4237,8 +4244,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[200] = {
+	}
+	pg.base.island_illustrated_guide[200] = {
 		unlock_id = 4028,
 		collect_add = 20,
 		type = 3,
@@ -4256,8 +4263,8 @@ pg.base.island_illustrated_guide = {
 			}
 		},
 		award_unlock = {}
-	},
-	[3001] = {
+	}
+	pg.base.island_illustrated_guide[3001] = {
 		unlock_id = 5001,
 		collect_add = 10,
 		type = 4,
@@ -4281,8 +4288,8 @@ pg.base.island_illustrated_guide = {
 				1
 			}
 		}
-	},
-	[3002] = {
+	}
+	pg.base.island_illustrated_guide[3002] = {
 		unlock_id = 5002,
 		collect_add = 10,
 		type = 4,
@@ -4306,8 +4313,8 @@ pg.base.island_illustrated_guide = {
 				1
 			}
 		}
-	},
-	[3003] = {
+	}
+	pg.base.island_illustrated_guide[3003] = {
 		unlock_id = 5003,
 		collect_add = 10,
 		type = 4,
@@ -4331,8 +4338,8 @@ pg.base.island_illustrated_guide = {
 				1
 			}
 		}
-	},
-	[3004] = {
+	}
+	pg.base.island_illustrated_guide[3004] = {
 		unlock_id = 5004,
 		collect_add = 10,
 		type = 4,
@@ -4356,8 +4363,8 @@ pg.base.island_illustrated_guide = {
 				1
 			}
 		}
-	},
-	[3005] = {
+	}
+	pg.base.island_illustrated_guide[3005] = {
 		unlock_id = 5005,
 		collect_add = 10,
 		type = 4,
@@ -4381,8 +4388,8 @@ pg.base.island_illustrated_guide = {
 				1
 			}
 		}
-	},
-	[3006] = {
+	}
+	pg.base.island_illustrated_guide[3006] = {
 		unlock_id = 5006,
 		collect_add = 10,
 		type = 4,
@@ -4406,8 +4413,8 @@ pg.base.island_illustrated_guide = {
 				1
 			}
 		}
-	},
-	[3007] = {
+	}
+	pg.base.island_illustrated_guide[3007] = {
 		unlock_id = 5007,
 		collect_add = 10,
 		type = 4,
@@ -4431,8 +4438,8 @@ pg.base.island_illustrated_guide = {
 				1
 			}
 		}
-	},
-	[3008] = {
+	}
+	pg.base.island_illustrated_guide[3008] = {
 		unlock_id = 5008,
 		collect_add = 10,
 		type = 4,
@@ -4456,8 +4463,8 @@ pg.base.island_illustrated_guide = {
 				1
 			}
 		}
-	},
-	[3009] = {
+	}
+	pg.base.island_illustrated_guide[3009] = {
 		unlock_id = 5101,
 		collect_add = 10,
 		type = 4,
@@ -4481,8 +4488,8 @@ pg.base.island_illustrated_guide = {
 				1
 			}
 		}
-	},
-	[3010] = {
+	}
+	pg.base.island_illustrated_guide[3010] = {
 		unlock_id = 5102,
 		collect_add = 10,
 		type = 4,
@@ -4506,8 +4513,8 @@ pg.base.island_illustrated_guide = {
 				1
 			}
 		}
-	},
-	[3011] = {
+	}
+	pg.base.island_illustrated_guide[3011] = {
 		unlock_id = 5103,
 		collect_add = 10,
 		type = 4,
@@ -4531,8 +4538,8 @@ pg.base.island_illustrated_guide = {
 				1
 			}
 		}
-	},
-	[3012] = {
+	}
+	pg.base.island_illustrated_guide[3012] = {
 		unlock_id = 5104,
 		collect_add = 10,
 		type = 4,
@@ -4556,8 +4563,8 @@ pg.base.island_illustrated_guide = {
 				1
 			}
 		}
-	},
-	[3013] = {
+	}
+	pg.base.island_illustrated_guide[3013] = {
 		unlock_id = 5105,
 		collect_add = 10,
 		type = 4,
@@ -4581,8 +4588,8 @@ pg.base.island_illustrated_guide = {
 				1
 			}
 		}
-	},
-	[3014] = {
+	}
+	pg.base.island_illustrated_guide[3014] = {
 		unlock_id = 5106,
 		collect_add = 10,
 		type = 4,
@@ -4606,8 +4613,8 @@ pg.base.island_illustrated_guide = {
 				1
 			}
 		}
-	},
-	[3015] = {
+	}
+	pg.base.island_illustrated_guide[3015] = {
 		unlock_id = 5107,
 		collect_add = 10,
 		type = 4,
@@ -4631,8 +4638,8 @@ pg.base.island_illustrated_guide = {
 				1
 			}
 		}
-	},
-	[3016] = {
+	}
+	pg.base.island_illustrated_guide[3016] = {
 		unlock_id = 5108,
 		collect_add = 10,
 		type = 4,
@@ -4657,4 +4664,4 @@ pg.base.island_illustrated_guide = {
 			}
 		}
 	}
-}
+end)()

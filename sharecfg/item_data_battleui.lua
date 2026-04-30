@@ -1,6 +1,35 @@
 pg = pg or {}
-pg.item_data_battleui = {
-	[0] = {
+pg.item_data_battleui = rawget(pg, "item_data_battleui") or setmetatable({
+	__name = "item_data_battleui"
+}, confNEO)
+pg.item_data_battleui.all = {
+	0,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	111,
+	112,
+	113,
+	114,
+	201,
+	202,
+	203,
+	204,
+	205,
+	206,
+	207
+}
+pg.base = pg.base or {}
+pg.base.item_data_battleui = {}
+
+;(function()
+	pg.base.item_data_battleui[0] = {
 		key = "Standard",
 		name = "经典主题",
 		desc = "经典的指挥界面，承载着无数场激烈战斗的回忆，拥有无与伦比的实用性。",
@@ -12,8 +41,8 @@ pg.item_data_battleui = {
 		icon = "0",
 		scene = {},
 		rare_display = {}
-	},
-	[101] = {
+	}
+	pg.base.item_data_battleui[101] = {
 		key = "SkinNormal_20240701",
 		name = "新版主题",
 		desc = "采用大胆的色彩与现代化的图形元素，旨在为指挥官提供更具活力的视觉体验。",
@@ -25,8 +54,8 @@ pg.item_data_battleui = {
 		icon = "101",
 		scene = {},
 		rare_display = {}
-	},
-	[102] = {
+	}
+	pg.base.item_data_battleui[102] = {
 		key = "SkinNormal_20240912",
 		name = "赛博纪元",
 		desc = "采用赛博朋克风格的设计，充满了动态效果与光影变化，为热爱科幻风格的指挥官提供沉浸式的体验。",
@@ -40,8 +69,8 @@ pg.item_data_battleui = {
 		rare_display = {
 			1
 		}
-	},
-	[103] = {
+	}
+	pg.base.item_data_battleui[103] = {
 		key = "SkinNormal_20240913",
 		name = "梦幻霓虹",
 		desc = "色彩丰富而不失和谐，仿佛整个指挥界面都在随着音乐而律动，适合喜欢轻松氛围的指挥官。",
@@ -57,8 +86,8 @@ pg.item_data_battleui = {
 			2,
 			3
 		}
-	},
-	[104] = {
+	}
+	pg.base.item_data_battleui[104] = {
 		key = "SkinNormal_20241107",
 		name = "幻光律动 ",
 		desc = "霓虹色彩与律动光束交相辉映，元素交织出流畅的节奏，为指挥作战带来独特的视觉体验。 ",
@@ -72,8 +101,8 @@ pg.item_data_battleui = {
 		rare_display = {
 			1
 		}
-	},
-	[105] = {
+	}
+	pg.base.item_data_battleui[105] = {
 		key = "SkinNormal_20250123",
 		name = "光耀之庭",
 		desc = "金光闪烁的设计为指挥官带来庄重而神圣的视觉享受，让每一次战斗都如同史诗般壮丽。",
@@ -87,8 +116,8 @@ pg.item_data_battleui = {
 		rare_display = {
 			1
 		}
-	},
-	[106] = {
+	}
+	pg.base.item_data_battleui[106] = {
 		key = "SkinNormal_20250327",
 		name = "恶魔契约 ",
 		desc = "恶魔的气息从指挥界面中溢出，流经血液覆盖的边框与不祥的法阵交织，营造出黑暗又危险的氛围。 ",
@@ -102,8 +131,8 @@ pg.item_data_battleui = {
 		rare_display = {
 			1
 		}
-	},
-	[107] = {
+	}
+	pg.base.item_data_battleui[107] = {
 		key = "SkinNormal_20250529",
 		name = "璀璨星辰 ",
 		desc = "耀眼的星光汇聚于界面中心，神秘的法阵映射着星系轮廓，每处细节都诉说着对天外的探索与征途。 ",
@@ -117,8 +146,8 @@ pg.item_data_battleui = {
 		rare_display = {
 			1
 		}
-	},
-	[108] = {
+	}
+	pg.base.item_data_battleui[108] = {
 		key = "SkinNormal_20250724",
 		name = "自然律动",
 		desc = "飞鸟翱翔于树海界面之上，辅以律动水流等要素，营造出生机勃勃万物竞发的氛围。",
@@ -132,8 +161,8 @@ pg.item_data_battleui = {
 		rare_display = {
 			1
 		}
-	},
-	[109] = {
+	}
+	pg.base.item_data_battleui[109] = {
 		key = "SkinNormal_20250925",
 		name = "墨影竹形",
 		desc = "以水墨勾勒而出的界面，墨迹于黑白间晕染，衬得竹影婆娑，共同营造出清冷雅致的氛围。",
@@ -147,8 +176,8 @@ pg.item_data_battleui = {
 		rare_display = {
 			1
 		}
-	},
-	[111] = {
+	}
+	pg.base.item_data_battleui[111] = {
 		key = "SkinNormal_20251120",
 		name = "月下皮影",
 		desc = "简单皮影勾勒无穷遐想，简约故事蕴含美好期望。暖色基调与宁静风韵共同营造出淡泊氛围。",
@@ -162,8 +191,8 @@ pg.item_data_battleui = {
 		rare_display = {
 			1
 		}
-	},
-	[112] = {
+	}
+	pg.base.item_data_battleui[112] = {
 		key = "SkinNormal_20251211",
 		name = "冬日促销",
 		desc = "该界面专为喜欢购物的指挥官准备，在畅享购物欢乐的同时，用铺天盖地的礼物淹没对手吧。",
@@ -177,8 +206,8 @@ pg.item_data_battleui = {
 		rare_display = {
 			1
 		}
-	},
-	[113] = {
+	}
+	pg.base.item_data_battleui[113] = {
 		key = "SkinNormal_20260129",
 		name = "古代王朝",
 		desc = "古老的石柱在界面中矗立，斑驳的纹路诉说着失落的秩序，让战斗也染上穿越时空的肃穆与苍凉。",
@@ -192,8 +221,8 @@ pg.item_data_battleui = {
 		rare_display = {
 			1
 		}
-	},
-	[114] = {
+	}
+	pg.base.item_data_battleui[114] = {
 		key = "SkinNormal_20260326",
 		name = "精灵古藤",
 		desc = "翠绿藤蔓在界面边生长，精灵微光于叶片间明灭，让每一次交锋都染上古老森林的神秘与生机。",
@@ -207,8 +236,8 @@ pg.item_data_battleui = {
 		rare_display = {
 			1
 		}
-	},
-	[201] = {
+	}
+	pg.base.item_data_battleui[201] = {
 		key = "SkinNormal_20241209",
 		name = "圣诞雪境",
 		desc = "这款界面为喜爱冬季气氛的指挥官打造，让指挥官在驾驭战场的同时，感受浪漫的冬日氛围。",
@@ -224,8 +253,8 @@ pg.item_data_battleui = {
 			2,
 			3
 		}
-	},
-	[202] = {
+	}
+	pg.base.item_data_battleui[202] = {
 		key = "SkinNormal_20250227",
 		name = "圣砂之约",
 		desc = "古老符文与黄金纹饰交织，每处细节都诉说着尼罗河文明的不朽传说。",
@@ -241,8 +270,8 @@ pg.item_data_battleui = {
 			2,
 			3
 		}
-	},
-	[203] = {
+	}
+	pg.base.item_data_battleui[203] = {
 		key = "SkinElite_20250327",
 		name = "基因之源 ",
 		desc = "充满未来感的指挥界面，洁净的白色面板与血色的纹路交织，营造出精密且危险的氛围。 ",
@@ -258,8 +287,8 @@ pg.item_data_battleui = {
 			2,
 			3
 		}
-	},
-	[204] = {
+	}
+	pg.base.item_data_battleui[204] = {
 		key = "SkinElite_20250520",
 		name = "海滨假日",
 		desc = "贝壳图案点缀在海浪界面之间，辅以沙滩木牌等要素，营造出轻松悠闲的海滨度假氛围。",
@@ -275,8 +304,8 @@ pg.item_data_battleui = {
 			2,
 			3
 		}
-	},
-	[205] = {
+	}
+	pg.base.item_data_battleui[205] = {
 		key = "SkinElite_20250912",
 		name = "忍者之城",
 		desc = "该界面专为喜欢忍者风格的指挥官准备，使用手里剑与飞镖在忍者之城大显身手吧。",
@@ -292,8 +321,8 @@ pg.item_data_battleui = {
 			2,
 			3
 		}
-	},
-	[206] = {
+	}
+	pg.base.item_data_battleui[206] = {
 		key = "SkinElite_20251218",
 		name = "甜点女仆屋",
 		desc = "享用着甜甜女仆准备的甜甜点心，轻松惬意地面对挑战吧！",
@@ -309,8 +338,8 @@ pg.item_data_battleui = {
 			2,
 			3
 		}
-	},
-	[207] = {
+	}
+	pg.base.item_data_battleui[207] = {
 		key = "SkinElite_20260226",
 		name = "春满客栈",
 		desc = "将客栈的喧闹与暖意融入界面，在烟花灯笼与爆竹声中，进行一场别开生面的新春对决吧。",
@@ -326,28 +355,5 @@ pg.item_data_battleui = {
 			2,
 			3
 		}
-	},
-	all = {
-		0,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		111,
-		112,
-		113,
-		114,
-		201,
-		202,
-		203,
-		204,
-		205,
-		206,
-		207
 	}
-}
+end)()

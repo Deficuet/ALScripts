@@ -1,6 +1,38 @@
 pg = pg or {}
-pg.dorm3d_rooms = {
-	{
+pg.dorm3d_rooms = rawget(pg, "dorm3d_rooms") or setmetatable({
+	__name = "dorm3d_rooms"
+}, confNEO)
+pg.dorm3d_rooms.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	11,
+	12,
+	14,
+	16
+}
+pg.dorm3d_rooms.get_id_list_by_in_map = {
+	floor_1 = {
+		1,
+		2,
+		3,
+		4,
+		5
+	},
+	floor_2 = {
+		11,
+		12,
+		14,
+		16
+	}
+}
+pg.base = pg.base or {}
+pg.base.dorm3d_rooms = {}
+
+;(function()
+	pg.base.dorm3d_rooms[1] = {
 		invite_icon = "",
 		invite_banner = "",
 		tag = "",
@@ -80,8 +112,8 @@ pg.dorm3d_rooms = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_rooms[2] = {
 		invite_icon = "",
 		invite_banner = "",
 		tag = "",
@@ -161,8 +193,8 @@ pg.dorm3d_rooms = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_rooms[3] = {
 		invite_icon = "",
 		invite_banner = "",
 		tag = "",
@@ -233,8 +265,8 @@ pg.dorm3d_rooms = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_rooms[4] = {
 		type = 1,
 		room_des = "沙滩、泳装、排球……尽情在海风中玩耍吧~",
 		tag = "beach",
@@ -402,8 +434,8 @@ pg.dorm3d_rooms = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_rooms[5] = {
 		type = 1,
 		recall_list = "",
 		default_zone = "",
@@ -444,8 +476,8 @@ pg.dorm3d_rooms = {
 				1
 			}
 		}
-	},
-	[11] = {
+	}
+	pg.base.dorm3d_rooms[11] = {
 		invite_icon = "",
 		invite_banner = "",
 		tag = "",
@@ -514,8 +546,8 @@ pg.dorm3d_rooms = {
 				}
 			}
 		}
-	},
-	[12] = {
+	}
+	pg.base.dorm3d_rooms[12] = {
 		invite_icon = "",
 		invite_banner = "",
 		tag = "",
@@ -560,7 +592,8 @@ pg.dorm3d_rooms = {
 			121,
 			122,
 			123,
-			124
+			124,
+			125
 		},
 		ar_anim = {
 			{
@@ -588,8 +621,8 @@ pg.dorm3d_rooms = {
 				}
 			}
 		}
-	},
-	[14] = {
+	}
+	pg.base.dorm3d_rooms[14] = {
 		invite_icon = "",
 		invite_banner = "",
 		tag = "",
@@ -658,8 +691,8 @@ pg.dorm3d_rooms = {
 				}
 			}
 		}
-	},
-	[16] = {
+	}
+	pg.base.dorm3d_rooms[16] = {
 		type = 1,
 		room_des = "优雅与精致，奢华与愉悦。在金色的流光中，经历这一场梦幻奇遇。",
 		tag = "cafe",
@@ -865,31 +898,5 @@ pg.dorm3d_rooms = {
 				}
 			}
 		}
-	},
-	get_id_list_by_in_map = {
-		floor_1 = {
-			1,
-			2,
-			3,
-			4,
-			5
-		},
-		floor_2 = {
-			11,
-			12,
-			14,
-			16
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		11,
-		12,
-		14,
-		16
 	}
-}
+end)()

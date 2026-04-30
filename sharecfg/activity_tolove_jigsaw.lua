@@ -1,6 +1,21 @@
 pg = pg or {}
-pg.activity_tolove_jigsaw = {
-	{
+pg.activity_tolove_jigsaw = rawget(pg, "activity_tolove_jigsaw") or setmetatable({
+	__name = "activity_tolove_jigsaw"
+}, confNEO)
+pg.activity_tolove_jigsaw.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7
+}
+pg.base = pg.base or {}
+pg.base.activity_tolove_jigsaw = {}
+
+;(function()
+	pg.base.activity_tolove_jigsaw[1] = {
 		portrait_down = "lala_tolove",
 		after_story = "WEIXIANFAMINGPOJINZHONGWEITUO2",
 		item_icon = "liaolijun",
@@ -32,8 +47,8 @@ pg.activity_tolove_jigsaw = {
 			"· 拼接收集到的元器件",
 			"· 绘制电路（一笔画联通所有元器件）"
 		}
-	},
-	{
+	}
+	pg.base.activity_tolove_jigsaw[2] = {
 		portrait_down = "lala_tolove",
 		after_story = "WEIXIANFAMINGPOJINZHONGWEITUO3",
 		item_icon = "wengwengjun",
@@ -65,8 +80,8 @@ pg.activity_tolove_jigsaw = {
 			"· 拼接收集到的元器件",
 			"· 绘制电路（一笔画联通所有元器件）"
 		}
-	},
-	{
+	}
+	pg.base.activity_tolove_jigsaw[3] = {
 		portrait_down = "lala_tolove",
 		after_story = "WEIXIANFAMINGPOJINZHONGWEITUO4",
 		item_icon = "yinshenpenwu",
@@ -98,8 +113,8 @@ pg.activity_tolove_jigsaw = {
 			"· 拼接收集到的元器件",
 			"· 绘制电路（一笔画联通所有元器件）"
 		}
-	},
-	{
+	}
+	pg.base.activity_tolove_jigsaw[4] = {
 		portrait_down = "lala_tolove",
 		after_story = "WEIXIANFAMINGPOJINZHONGWEITUO5",
 		item_icon = "yinshenerhuan",
@@ -131,8 +146,8 @@ pg.activity_tolove_jigsaw = {
 			"· 拼接收集到的元器件",
 			"· 绘制电路（一笔画联通所有元器件）"
 		}
-	},
-	{
+	}
+	pg.base.activity_tolove_jigsaw[5] = {
 		portrait_down = "lala_tolove",
 		after_story = "WEIXIANFAMINGPOJINZHONGWEITUO6",
 		item_icon = "jiguangqiang",
@@ -164,8 +179,8 @@ pg.activity_tolove_jigsaw = {
 			"· 拼接收集到的元器件",
 			"· 绘制电路（一笔画联通所有元器件）"
 		}
-	},
-	{
+	}
+	pg.base.activity_tolove_jigsaw[6] = {
 		portrait_down = "lala_tolove",
 		after_story = "WEIXIANFAMINGPOJINZHONGWEITUO7",
 		item_icon = "fenweijun",
@@ -197,8 +212,8 @@ pg.activity_tolove_jigsaw = {
 			"· 拼接收集到的元器件",
 			"· 绘制电路（一笔画联通所有元器件）"
 		}
-	},
-	{
+	}
+	pg.base.activity_tolove_jigsaw[7] = {
 		portrait_down = "lala_tolove",
 		after_story = "WEIXIANFAMINGPOJINZHONGWEITUO8",
 		item_icon = "hualitoushi",
@@ -230,14 +245,5 @@ pg.activity_tolove_jigsaw = {
 			"· 拼接收集到的元器件",
 			"· 绘制电路（一笔画联通所有元器件）"
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7
 	}
-}
+end)()

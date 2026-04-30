@@ -141,7 +141,9 @@ end
 function var_0_0.UpdateVirtualBuff(arg_13_0, arg_13_1, arg_13_2)
 	LoadImageSpriteAtlasAsync("ui/mainui_atlas", arg_13_2.Image, arg_13_1)
 	onButton(arg_13_0, arg_13_1, function()
-		arg_13_0:emit(NewMainMediator.GO_SINGLE_ACTIVITY, ActivityConst.DOA_PT_ID)
+		arg_13_0.buffDesMsgbox = arg_13_0.buffDesMsgbox or MainBuffDesMsgbox.New(pg.UIMgr.GetInstance().UIMain)
+
+		arg_13_0.buffDesMsgbox:ExecuteAction("Show", ActivityConst.DOA_PT_ID)
 	end, SFX_PANEL)
 	setActive(arg_13_1, true)
 end
@@ -178,16 +180,30 @@ function var_0_0.GetDirection(arg_20_0)
 	return Vector2(0, 1)
 end
 
-function var_0_0.Dispose(arg_21_0)
-	var_0_0.super.Dispose(arg_21_0)
+function var_0_0.Disable(arg_21_0)
+	if arg_21_0.buffDesMsgbox then
+		arg_21_0.buffDesMsgbox:Destroy()
 
-	if arg_21_0.skinFreeUsageTag then
-		Destroy(arg_21_0.skinFreeUsageTag.gameObject)
+		arg_21_0.buffDesMsgbox = nil
+	end
+end
 
-		arg_21_0.skinFreeUsageTag = nil
+function var_0_0.Dispose(arg_22_0)
+	var_0_0.super.Dispose(arg_22_0)
+
+	if arg_22_0.skinFreeUsageTag then
+		Destroy(arg_22_0.skinFreeUsageTag.gameObject)
+
+		arg_22_0.skinFreeUsageTag = nil
 	end
 
-	arg_21_0:ClearTimers()
+	arg_22_0:ClearTimers()
+
+	if arg_22_0.buffDesMsgbox then
+		arg_22_0.buffDesMsgbox:Destroy()
+
+		arg_22_0.buffDesMsgbox = nil
+	end
 end
 
 return var_0_0

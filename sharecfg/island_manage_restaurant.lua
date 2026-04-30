@@ -1,6 +1,19 @@
 pg = pg or {}
-pg.island_manage_restaurant = {
-	[601] = {
+pg.island_manage_restaurant = rawget(pg, "island_manage_restaurant") or setmetatable({
+	__name = "island_manage_restaurant"
+}, confNEO)
+pg.island_manage_restaurant.all = {
+	601,
+	602,
+	603,
+	604,
+	901
+}
+pg.base = pg.base or {}
+pg.base.island_manage_restaurant = {}
+
+;(function()
+	pg.base.island_manage_restaurant[601] = {
 		opening_time = 28800,
 		name_en = "Golden Koi Restaurant",
 		aera_group = 1,
@@ -75,8 +88,8 @@ pg.island_manage_restaurant = {
 				10060028
 			}
 		}
-	},
-	[602] = {
+	}
+	pg.base.island_manage_restaurant[602] = {
 		opening_time = 28800,
 		name_en = "Polar Bear Teahouse",
 		aera_group = 1,
@@ -147,8 +160,8 @@ pg.island_manage_restaurant = {
 				10060026
 			}
 		}
-	},
-	[603] = {
+	}
+	pg.base.island_manage_restaurant[603] = {
 		opening_time = 28800,
 		name_en = "Manjuu Eatery",
 		aera_group = 1,
@@ -215,8 +228,8 @@ pg.island_manage_restaurant = {
 				10060063
 			}
 		}
-	},
-	[604] = {
+	}
+	pg.base.island_manage_restaurant[604] = {
 		opening_time = 28800,
 		name_en = "Fin-'n'-Feather Grill",
 		aera_group = 1,
@@ -279,8 +292,8 @@ pg.island_manage_restaurant = {
 				10060065
 			}
 		}
-	},
-	[901] = {
+	}
+	pg.base.island_manage_restaurant[901] = {
 		opening_time = 28800,
 		name_en = "Café Manjuu",
 		aera_group = 2,
@@ -343,12 +356,5 @@ pg.island_manage_restaurant = {
 				10090016
 			}
 		}
-	},
-	all = {
-		601,
-		602,
-		603,
-		604,
-		901
 	}
-}
+end)()

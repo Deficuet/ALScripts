@@ -222,6 +222,7 @@ function var_0_0.register(arg_1_0)
 		arg_1_0.player = var_1_4:getData()
 
 		var_1_4:setFlag("battle", true)
+		var_1_4:setFlag("random_skin", true)
 	end
 end
 

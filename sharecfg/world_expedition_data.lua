@@ -1,6 +1,553 @@
 pg = pg or {}
-pg.world_expedition_data = {
-	[210000] = {
+pg.world_expedition_data = rawget(pg, "world_expedition_data") or setmetatable({
+	__name = "world_expedition_data"
+}, confNEO)
+pg.world_expedition_data.all = {
+	210000,
+	210011,
+	210012,
+	210013,
+	210014,
+	211011,
+	211012,
+	211013,
+	211014,
+	211015,
+	211032,
+	211211,
+	211212,
+	211213,
+	211214,
+	211215,
+	211216,
+	211217,
+	211411,
+	211412,
+	211413,
+	211611,
+	213011,
+	213012,
+	213013,
+	213014,
+	213015,
+	213016,
+	213017,
+	213211,
+	213212,
+	213213,
+	213411,
+	213412,
+	213413,
+	213414,
+	214011,
+	214211,
+	214212,
+	214213,
+	215011,
+	215012,
+	215013,
+	215014,
+	215015,
+	215016,
+	215017,
+	216011,
+	220011,
+	220012,
+	220013,
+	221011,
+	221012,
+	221013,
+	221014,
+	221015,
+	221211,
+	221212,
+	221213,
+	221214,
+	221215,
+	221216,
+	221411,
+	221412,
+	223011,
+	223012,
+	223013,
+	223014,
+	223015,
+	223016,
+	223211,
+	223212,
+	223411,
+	223412,
+	223413,
+	223414,
+	224011,
+	224211,
+	224212,
+	224213,
+	225011,
+	225012,
+	225013,
+	225014,
+	225015,
+	225016,
+	225017,
+	226011,
+	230011,
+	230012,
+	230013,
+	230014,
+	231011,
+	231012,
+	231013,
+	231014,
+	231211,
+	231212,
+	231213,
+	231214,
+	231215,
+	231216,
+	231411,
+	231412,
+	231413,
+	233011,
+	233012,
+	233013,
+	233014,
+	233015,
+	233016,
+	233211,
+	233212,
+	233213,
+	233411,
+	233412,
+	233413,
+	233414,
+	234011,
+	234211,
+	234212,
+	234213,
+	235011,
+	235012,
+	235013,
+	235014,
+	235015,
+	235016,
+	235017,
+	236011,
+	240011,
+	240012,
+	240013,
+	240014,
+	240015,
+	240512,
+	240513,
+	240514,
+	241011,
+	241012,
+	241013,
+	241014,
+	241015,
+	241211,
+	241212,
+	241213,
+	241214,
+	241215,
+	241216,
+	241217,
+	241411,
+	241412,
+	243011,
+	243012,
+	243013,
+	243014,
+	243015,
+	243016,
+	243017,
+	243211,
+	243212,
+	243411,
+	243412,
+	243413,
+	243414,
+	244011,
+	244211,
+	244212,
+	244213,
+	245011,
+	245012,
+	245013,
+	245014,
+	245015,
+	245016,
+	246011,
+	250011,
+	250012,
+	250511,
+	250512,
+	251011,
+	251211,
+	251411,
+	252011,
+	252211,
+	252411,
+	253011,
+	253211,
+	254011,
+	256011,
+	260011,
+	260012,
+	260511,
+	260512,
+	261011,
+	261211,
+	261411,
+	262011,
+	262211,
+	262411,
+	263011,
+	263211,
+	264011,
+	266011,
+	270011,
+	270012,
+	270511,
+	270512,
+	271011,
+	271211,
+	271411,
+	272011,
+	272211,
+	272411,
+	273011,
+	273211,
+	274011,
+	276011,
+	280011,
+	280012,
+	280511,
+	280512,
+	281011,
+	281211,
+	281411,
+	282011,
+	282211,
+	282411,
+	283011,
+	283211,
+	284011,
+	286011,
+	290011,
+	290012,
+	290013,
+	290021,
+	290031,
+	290041,
+	291011,
+	291021,
+	291031,
+	291041,
+	291091,
+	291092,
+	291093,
+	291100,
+	291101,
+	291102,
+	291103,
+	291150,
+	291151,
+	291152,
+	291153,
+	291160,
+	291161,
+	291211,
+	291221,
+	291231,
+	291241,
+	291291,
+	291292,
+	291293,
+	291300,
+	291301,
+	291302,
+	291303,
+	291350,
+	291351,
+	291352,
+	291353,
+	291360,
+	291361,
+	291411,
+	291421,
+	291431,
+	291441,
+	291491,
+	291492,
+	291493,
+	291500,
+	291501,
+	291502,
+	291503,
+	291550,
+	291551,
+	291552,
+	291553,
+	291560,
+	291561,
+	291600,
+	291601,
+	292000,
+	292001,
+	292002,
+	292003,
+	292010,
+	292011,
+	292012,
+	292013,
+	292020,
+	292021,
+	292022,
+	292023,
+	292050,
+	292051,
+	292052,
+	292053,
+	292060,
+	292061,
+	292062,
+	292063,
+	292070,
+	292071,
+	292072,
+	292073,
+	292100,
+	292101,
+	292102,
+	292103,
+	292104,
+	292200,
+	292201,
+	292210,
+	292211,
+	292220,
+	292221,
+	293011,
+	293021,
+	293031,
+	293041,
+	293091,
+	293092,
+	293093,
+	293100,
+	293101,
+	293102,
+	293103,
+	293104,
+	293150,
+	293151,
+	293152,
+	293153,
+	293154,
+	293160,
+	293161,
+	293211,
+	293221,
+	293231,
+	293241,
+	293291,
+	293292,
+	293293,
+	293300,
+	293301,
+	293302,
+	293303,
+	293304,
+	293350,
+	293351,
+	293352,
+	293353,
+	293354,
+	293360,
+	293361,
+	293411,
+	293421,
+	293431,
+	293441,
+	293491,
+	293492,
+	293493,
+	293500,
+	293501,
+	293502,
+	293503,
+	293504,
+	293550,
+	293551,
+	293552,
+	293553,
+	293554,
+	293560,
+	293561,
+	294001,
+	294002,
+	294003,
+	294004,
+	294005,
+	294006,
+	294007,
+	294008,
+	294009,
+	294010,
+	294011,
+	294012,
+	294013,
+	294014,
+	294015,
+	294016,
+	294017,
+	294018,
+	294019,
+	294020,
+	294021,
+	294022,
+	294023,
+	294024,
+	294025,
+	294026,
+	294027,
+	294028,
+	294029,
+	294030,
+	294040,
+	294050,
+	294051,
+	294052,
+	294053,
+	294054,
+	294055,
+	294056,
+	294057,
+	294058,
+	294059,
+	294060,
+	294061,
+	294062,
+	294063,
+	294064,
+	294065,
+	294111,
+	294112,
+	294113,
+	294114,
+	294115,
+	294200,
+	294201,
+	294202,
+	294203,
+	294204,
+	294210,
+	294211,
+	294212,
+	294213,
+	294214,
+	294215,
+	294216,
+	294217,
+	294218,
+	294219,
+	294220,
+	294221,
+	294222,
+	294223,
+	294224,
+	295011,
+	295012,
+	295013,
+	295014,
+	295015,
+	295021,
+	295022,
+	295023,
+	295024,
+	295025,
+	295026,
+	295027,
+	295028,
+	295029,
+	295030,
+	295100,
+	295101,
+	295102,
+	295103,
+	295104,
+	295110,
+	295111,
+	295112,
+	295113,
+	295114,
+	295120,
+	295121,
+	295122,
+	295123,
+	295124,
+	295130,
+	295131,
+	295132,
+	295133,
+	295134,
+	295140,
+	295141,
+	295142,
+	295143,
+	295144,
+	295200,
+	295201,
+	295202,
+	295203,
+	295204,
+	297011,
+	311041,
+	312020,
+	312021,
+	312070,
+	312150,
+	312240,
+	312350,
+	312610,
+	312640,
+	312670,
+	314001,
+	314002,
+	314201,
+	315000,
+	315001,
+	315002,
+	315010,
+	315011,
+	315012,
+	315015,
+	315016,
+	315017,
+	315020,
+	315021,
+	315022,
+	315025,
+	315026,
+	315027,
+	315028,
+	315030,
+	315031,
+	315032,
+	315033,
+	315034,
+	315035,
+	320000,
+	320001,
+	320002
+}
+pg.base = pg.base or {}
+pg.base.world_expedition_data = {}
+
+;(function()
+	pg.base.world_expedition_data[210000] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -332,8 +879,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[210011] = {
+	}
+	pg.base.world_expedition_data[210011] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -665,8 +1212,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[210012] = {
+	}
+	pg.base.world_expedition_data[210012] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -998,8 +1545,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[210013] = {
+	}
+	pg.base.world_expedition_data[210013] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -1331,8 +1878,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[210014] = {
+	}
+	pg.base.world_expedition_data[210014] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -1664,8 +2211,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211011] = {
+	}
+	pg.base.world_expedition_data[211011] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -1997,8 +2544,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211012] = {
+	}
+	pg.base.world_expedition_data[211012] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -2330,8 +2877,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211013] = {
+	}
+	pg.base.world_expedition_data[211013] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -2663,8 +3210,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211014] = {
+	}
+	pg.base.world_expedition_data[211014] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -2996,8 +3543,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211015] = {
+	}
+	pg.base.world_expedition_data[211015] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -3329,8 +3876,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211032] = {
+	}
+	pg.base.world_expedition_data[211032] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -3662,8 +4209,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211211] = {
+	}
+	pg.base.world_expedition_data[211211] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -3995,8 +4542,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211212] = {
+	}
+	pg.base.world_expedition_data[211212] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -4328,8 +4875,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211213] = {
+	}
+	pg.base.world_expedition_data[211213] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -4661,8 +5208,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211214] = {
+	}
+	pg.base.world_expedition_data[211214] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -4994,8 +5541,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211215] = {
+	}
+	pg.base.world_expedition_data[211215] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -5327,8 +5874,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211216] = {
+	}
+	pg.base.world_expedition_data[211216] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -5660,8 +6207,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211217] = {
+	}
+	pg.base.world_expedition_data[211217] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -5993,8 +6540,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211411] = {
+	}
+	pg.base.world_expedition_data[211411] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -6326,8 +6873,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211412] = {
+	}
+	pg.base.world_expedition_data[211412] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -6659,8 +7206,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211413] = {
+	}
+	pg.base.world_expedition_data[211413] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -6992,8 +7539,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211611] = {
+	}
+	pg.base.world_expedition_data[211611] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -7325,8 +7872,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213011] = {
+	}
+	pg.base.world_expedition_data[213011] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -7658,8 +8205,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213012] = {
+	}
+	pg.base.world_expedition_data[213012] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -7991,8 +8538,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213013] = {
+	}
+	pg.base.world_expedition_data[213013] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -8324,8 +8871,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213014] = {
+	}
+	pg.base.world_expedition_data[213014] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -8657,8 +9204,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213015] = {
+	}
+	pg.base.world_expedition_data[213015] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -8990,8 +9537,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213016] = {
+	}
+	pg.base.world_expedition_data[213016] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -9323,8 +9870,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213017] = {
+	}
+	pg.base.world_expedition_data[213017] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -9656,8 +10203,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213211] = {
+	}
+	pg.base.world_expedition_data[213211] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -9989,8 +10536,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213212] = {
+	}
+	pg.base.world_expedition_data[213212] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -10322,8 +10869,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213213] = {
+	}
+	pg.base.world_expedition_data[213213] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -10655,8 +11202,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213411] = {
+	}
+	pg.base.world_expedition_data[213411] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -10988,8 +11535,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213412] = {
+	}
+	pg.base.world_expedition_data[213412] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -11321,8 +11868,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213413] = {
+	}
+	pg.base.world_expedition_data[213413] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -11654,8 +12201,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213414] = {
+	}
+	pg.base.world_expedition_data[213414] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -11987,8 +12534,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[214011] = {
+	}
+	pg.base.world_expedition_data[214011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -12320,8 +12867,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[214211] = {
+	}
+	pg.base.world_expedition_data[214211] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -12402,8 +12949,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[214212] = {
+	}
+	pg.base.world_expedition_data[214212] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -12484,8 +13031,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[214213] = {
+	}
+	pg.base.world_expedition_data[214213] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -12566,8 +13113,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[215011] = {
+	}
+	pg.base.world_expedition_data[215011] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -12955,8 +13502,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[215012] = {
+	}
+	pg.base.world_expedition_data[215012] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -13344,8 +13891,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[215013] = {
+	}
+	pg.base.world_expedition_data[215013] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -13733,8 +14280,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[215014] = {
+	}
+	pg.base.world_expedition_data[215014] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -14122,8 +14669,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[215015] = {
+	}
+	pg.base.world_expedition_data[215015] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -14511,8 +15058,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[215016] = {
+	}
+	pg.base.world_expedition_data[215016] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -14900,8 +15447,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[215017] = {
+	}
+	pg.base.world_expedition_data[215017] = {
 		bgm = "hunhe-battle",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -15289,8 +15836,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[216011] = {
+	}
+	pg.base.world_expedition_data[216011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -15622,8 +16169,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[220011] = {
+	}
+	pg.base.world_expedition_data[220011] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -15955,8 +16502,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[220012] = {
+	}
+	pg.base.world_expedition_data[220012] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -16288,8 +16835,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[220013] = {
+	}
+	pg.base.world_expedition_data[220013] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -16621,8 +17168,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[221011] = {
+	}
+	pg.base.world_expedition_data[221011] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -16954,8 +17501,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[221012] = {
+	}
+	pg.base.world_expedition_data[221012] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -17287,8 +17834,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[221013] = {
+	}
+	pg.base.world_expedition_data[221013] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -17620,8 +18167,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[221014] = {
+	}
+	pg.base.world_expedition_data[221014] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -17953,8 +18500,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[221015] = {
+	}
+	pg.base.world_expedition_data[221015] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -18286,8 +18833,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[221211] = {
+	}
+	pg.base.world_expedition_data[221211] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -18619,8 +19166,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[221212] = {
+	}
+	pg.base.world_expedition_data[221212] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -18952,8 +19499,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[221213] = {
+	}
+	pg.base.world_expedition_data[221213] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -19285,8 +19832,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[221214] = {
+	}
+	pg.base.world_expedition_data[221214] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -19618,8 +20165,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[221215] = {
+	}
+	pg.base.world_expedition_data[221215] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -19951,8 +20498,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[221216] = {
+	}
+	pg.base.world_expedition_data[221216] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -20284,8 +20831,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[221411] = {
+	}
+	pg.base.world_expedition_data[221411] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -20617,8 +21164,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[221412] = {
+	}
+	pg.base.world_expedition_data[221412] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -20950,8 +21497,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[223011] = {
+	}
+	pg.base.world_expedition_data[223011] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -21283,8 +21830,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[223012] = {
+	}
+	pg.base.world_expedition_data[223012] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -21616,8 +22163,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[223013] = {
+	}
+	pg.base.world_expedition_data[223013] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -21949,8 +22496,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[223014] = {
+	}
+	pg.base.world_expedition_data[223014] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -22282,8 +22829,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[223015] = {
+	}
+	pg.base.world_expedition_data[223015] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -22615,8 +23162,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[223016] = {
+	}
+	pg.base.world_expedition_data[223016] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -22948,8 +23495,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[223211] = {
+	}
+	pg.base.world_expedition_data[223211] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -23281,8 +23828,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[223212] = {
+	}
+	pg.base.world_expedition_data[223212] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -23614,8 +24161,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[223411] = {
+	}
+	pg.base.world_expedition_data[223411] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -23947,8 +24494,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[223412] = {
+	}
+	pg.base.world_expedition_data[223412] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -24280,8 +24827,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[223413] = {
+	}
+	pg.base.world_expedition_data[223413] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -24613,8 +25160,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[223414] = {
+	}
+	pg.base.world_expedition_data[223414] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -24946,8 +25493,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[224011] = {
+	}
+	pg.base.world_expedition_data[224011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -25279,8 +25826,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[224211] = {
+	}
+	pg.base.world_expedition_data[224211] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -25612,8 +26159,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[224212] = {
+	}
+	pg.base.world_expedition_data[224212] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -25945,8 +26492,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[224213] = {
+	}
+	pg.base.world_expedition_data[224213] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -26278,8 +26825,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[225011] = {
+	}
+	pg.base.world_expedition_data[225011] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -26667,8 +27214,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[225012] = {
+	}
+	pg.base.world_expedition_data[225012] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -27056,8 +27603,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[225013] = {
+	}
+	pg.base.world_expedition_data[225013] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -27445,8 +27992,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[225014] = {
+	}
+	pg.base.world_expedition_data[225014] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -27834,8 +28381,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[225015] = {
+	}
+	pg.base.world_expedition_data[225015] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -28223,8 +28770,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[225016] = {
+	}
+	pg.base.world_expedition_data[225016] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -28612,8 +29159,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[225017] = {
+	}
+	pg.base.world_expedition_data[225017] = {
 		bgm = "battle-maid",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -29001,8 +29548,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[226011] = {
+	}
+	pg.base.world_expedition_data[226011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -29334,8 +29881,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[230011] = {
+	}
+	pg.base.world_expedition_data[230011] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -29667,8 +30214,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[230012] = {
+	}
+	pg.base.world_expedition_data[230012] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -30000,8 +30547,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[230013] = {
+	}
+	pg.base.world_expedition_data[230013] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -30333,8 +30880,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[230014] = {
+	}
+	pg.base.world_expedition_data[230014] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -30666,8 +31213,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[231011] = {
+	}
+	pg.base.world_expedition_data[231011] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -30999,8 +31546,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[231012] = {
+	}
+	pg.base.world_expedition_data[231012] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -31332,8 +31879,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[231013] = {
+	}
+	pg.base.world_expedition_data[231013] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -31665,8 +32212,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[231014] = {
+	}
+	pg.base.world_expedition_data[231014] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -31998,8 +32545,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[231211] = {
+	}
+	pg.base.world_expedition_data[231211] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -32331,8 +32878,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[231212] = {
+	}
+	pg.base.world_expedition_data[231212] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -32664,8 +33211,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[231213] = {
+	}
+	pg.base.world_expedition_data[231213] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -32997,8 +33544,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[231214] = {
+	}
+	pg.base.world_expedition_data[231214] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -33330,8 +33877,10 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[231215] = {
+	}
+end)()
+;(function()
+	pg.base.world_expedition_data[231215] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -33663,8 +34212,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[231216] = {
+	}
+	pg.base.world_expedition_data[231216] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -33996,8 +34545,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[231411] = {
+	}
+	pg.base.world_expedition_data[231411] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -34329,8 +34878,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[231412] = {
+	}
+	pg.base.world_expedition_data[231412] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -34662,8 +35211,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[231413] = {
+	}
+	pg.base.world_expedition_data[231413] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -34995,8 +35544,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[233011] = {
+	}
+	pg.base.world_expedition_data[233011] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -35328,8 +35877,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[233012] = {
+	}
+	pg.base.world_expedition_data[233012] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -35661,8 +36210,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[233013] = {
+	}
+	pg.base.world_expedition_data[233013] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -35994,8 +36543,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[233014] = {
+	}
+	pg.base.world_expedition_data[233014] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -36327,8 +36876,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[233015] = {
+	}
+	pg.base.world_expedition_data[233015] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -36660,8 +37209,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[233016] = {
+	}
+	pg.base.world_expedition_data[233016] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -36993,8 +37542,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[233211] = {
+	}
+	pg.base.world_expedition_data[233211] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -37326,8 +37875,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[233212] = {
+	}
+	pg.base.world_expedition_data[233212] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -37659,8 +38208,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[233213] = {
+	}
+	pg.base.world_expedition_data[233213] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -37992,8 +38541,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[233411] = {
+	}
+	pg.base.world_expedition_data[233411] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -38325,8 +38874,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[233412] = {
+	}
+	pg.base.world_expedition_data[233412] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -38658,8 +39207,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[233413] = {
+	}
+	pg.base.world_expedition_data[233413] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -38991,8 +39540,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[233414] = {
+	}
+	pg.base.world_expedition_data[233414] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -39324,8 +39873,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[234011] = {
+	}
+	pg.base.world_expedition_data[234011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -39657,8 +40206,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[234211] = {
+	}
+	pg.base.world_expedition_data[234211] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -39990,8 +40539,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[234212] = {
+	}
+	pg.base.world_expedition_data[234212] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -40323,8 +40872,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[234213] = {
+	}
+	pg.base.world_expedition_data[234213] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -40656,8 +41205,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[235011] = {
+	}
+	pg.base.world_expedition_data[235011] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -41045,8 +41594,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[235012] = {
+	}
+	pg.base.world_expedition_data[235012] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -41434,8 +41983,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[235013] = {
+	}
+	pg.base.world_expedition_data[235013] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -41823,8 +42372,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[235014] = {
+	}
+	pg.base.world_expedition_data[235014] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -42212,8 +42761,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[235015] = {
+	}
+	pg.base.world_expedition_data[235015] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -42601,8 +43150,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[235016] = {
+	}
+	pg.base.world_expedition_data[235016] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -42990,8 +43539,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[235017] = {
+	}
+	pg.base.world_expedition_data[235017] = {
 		bgm = "story-4",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -43379,8 +43928,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[236011] = {
+	}
+	pg.base.world_expedition_data[236011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -43712,8 +44261,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[240011] = {
+	}
+	pg.base.world_expedition_data[240011] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -44045,8 +44594,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[240012] = {
+	}
+	pg.base.world_expedition_data[240012] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -44378,8 +44927,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[240013] = {
+	}
+	pg.base.world_expedition_data[240013] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -44711,8 +45260,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[240014] = {
+	}
+	pg.base.world_expedition_data[240014] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -45044,8 +45593,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[240015] = {
+	}
+	pg.base.world_expedition_data[240015] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -45377,8 +45926,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[240512] = {
+	}
+	pg.base.world_expedition_data[240512] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -45710,8 +46259,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[240513] = {
+	}
+	pg.base.world_expedition_data[240513] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -46043,8 +46592,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[240514] = {
+	}
+	pg.base.world_expedition_data[240514] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -46376,8 +46925,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241011] = {
+	}
+	pg.base.world_expedition_data[241011] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -46709,8 +47258,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241012] = {
+	}
+	pg.base.world_expedition_data[241012] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -47042,8 +47591,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241013] = {
+	}
+	pg.base.world_expedition_data[241013] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -47375,8 +47924,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241014] = {
+	}
+	pg.base.world_expedition_data[241014] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -47708,8 +48257,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241015] = {
+	}
+	pg.base.world_expedition_data[241015] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -48041,8 +48590,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241211] = {
+	}
+	pg.base.world_expedition_data[241211] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -48374,8 +48923,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241212] = {
+	}
+	pg.base.world_expedition_data[241212] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -48707,8 +49256,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241213] = {
+	}
+	pg.base.world_expedition_data[241213] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -49040,8 +49589,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241214] = {
+	}
+	pg.base.world_expedition_data[241214] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -49373,8 +49922,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241215] = {
+	}
+	pg.base.world_expedition_data[241215] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -49706,8 +50255,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241216] = {
+	}
+	pg.base.world_expedition_data[241216] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -50039,8 +50588,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241217] = {
+	}
+	pg.base.world_expedition_data[241217] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -50372,8 +50921,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241411] = {
+	}
+	pg.base.world_expedition_data[241411] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -50705,8 +51254,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241412] = {
+	}
+	pg.base.world_expedition_data[241412] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -51038,8 +51587,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[243011] = {
+	}
+	pg.base.world_expedition_data[243011] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -51371,8 +51920,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[243012] = {
+	}
+	pg.base.world_expedition_data[243012] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -51704,8 +52253,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[243013] = {
+	}
+	pg.base.world_expedition_data[243013] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -52037,8 +52586,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[243014] = {
+	}
+	pg.base.world_expedition_data[243014] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -52370,8 +52919,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[243015] = {
+	}
+	pg.base.world_expedition_data[243015] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -52703,8 +53252,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[243016] = {
+	}
+	pg.base.world_expedition_data[243016] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -53036,8 +53585,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[243017] = {
+	}
+	pg.base.world_expedition_data[243017] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -53369,8 +53918,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[243211] = {
+	}
+	pg.base.world_expedition_data[243211] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -53702,8 +54251,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[243212] = {
+	}
+	pg.base.world_expedition_data[243212] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -54035,8 +54584,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[243411] = {
+	}
+	pg.base.world_expedition_data[243411] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -54368,8 +54917,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[243412] = {
+	}
+	pg.base.world_expedition_data[243412] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -54701,8 +55250,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[243413] = {
+	}
+	pg.base.world_expedition_data[243413] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -55034,8 +55583,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[243414] = {
+	}
+	pg.base.world_expedition_data[243414] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -55367,8 +55916,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[244011] = {
+	}
+	pg.base.world_expedition_data[244011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -55700,8 +56249,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[244211] = {
+	}
+	pg.base.world_expedition_data[244211] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -56033,8 +56582,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[244212] = {
+	}
+	pg.base.world_expedition_data[244212] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -56366,8 +56915,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[244213] = {
+	}
+	pg.base.world_expedition_data[244213] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -56699,8 +57248,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[245011] = {
+	}
+	pg.base.world_expedition_data[245011] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -57088,8 +57637,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[245012] = {
+	}
+	pg.base.world_expedition_data[245012] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -57477,8 +58026,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[245013] = {
+	}
+	pg.base.world_expedition_data[245013] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -57866,8 +58415,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[245014] = {
+	}
+	pg.base.world_expedition_data[245014] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -58255,8 +58804,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[245015] = {
+	}
+	pg.base.world_expedition_data[245015] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -58644,8 +59193,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[245016] = {
+	}
+	pg.base.world_expedition_data[245016] = {
 		bgm = "xinnong-2",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -59033,8 +59582,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[246011] = {
+	}
+	pg.base.world_expedition_data[246011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -59366,8 +59915,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[250011] = {
+	}
+	pg.base.world_expedition_data[250011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -59699,8 +60248,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[250012] = {
+	}
+	pg.base.world_expedition_data[250012] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -60032,8 +60581,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[250511] = {
+	}
+	pg.base.world_expedition_data[250511] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -60365,8 +60914,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[250512] = {
+	}
+	pg.base.world_expedition_data[250512] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -60698,8 +61247,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[251011] = {
+	}
+	pg.base.world_expedition_data[251011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -61031,8 +61580,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[251211] = {
+	}
+	pg.base.world_expedition_data[251211] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -61364,8 +61913,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[251411] = {
+	}
+	pg.base.world_expedition_data[251411] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -61697,8 +62246,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[252011] = {
+	}
+	pg.base.world_expedition_data[252011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -62030,8 +62579,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[252211] = {
+	}
+	pg.base.world_expedition_data[252211] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -62363,8 +62912,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[252411] = {
+	}
+	pg.base.world_expedition_data[252411] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -62696,8 +63245,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[253011] = {
+	}
+	pg.base.world_expedition_data[253011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -63029,8 +63578,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[253211] = {
+	}
+	pg.base.world_expedition_data[253211] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -63362,8 +63911,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[254011] = {
+	}
+	pg.base.world_expedition_data[254011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -63695,8 +64244,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[256011] = {
+	}
+	pg.base.world_expedition_data[256011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -64028,8 +64577,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[260011] = {
+	}
+	pg.base.world_expedition_data[260011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -64361,8 +64910,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[260012] = {
+	}
+	pg.base.world_expedition_data[260012] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -64694,8 +65243,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[260511] = {
+	}
+	pg.base.world_expedition_data[260511] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -65027,8 +65576,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[260512] = {
+	}
+	pg.base.world_expedition_data[260512] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -65360,8 +65909,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[261011] = {
+	}
+	pg.base.world_expedition_data[261011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -65693,8 +66242,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[261211] = {
+	}
+	pg.base.world_expedition_data[261211] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -66026,8 +66575,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[261411] = {
+	}
+	pg.base.world_expedition_data[261411] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -66359,8 +66908,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[262011] = {
+	}
+	pg.base.world_expedition_data[262011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -66692,8 +67241,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[262211] = {
+	}
+	pg.base.world_expedition_data[262211] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -67025,8 +67574,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[262411] = {
+	}
+	pg.base.world_expedition_data[262411] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -67358,8 +67907,10 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[263011] = {
+	}
+end)()
+;(function()
+	pg.base.world_expedition_data[263011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -67691,8 +68242,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[263211] = {
+	}
+	pg.base.world_expedition_data[263211] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -68024,8 +68575,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[264011] = {
+	}
+	pg.base.world_expedition_data[264011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -68357,8 +68908,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[266011] = {
+	}
+	pg.base.world_expedition_data[266011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -68690,8 +69241,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[270011] = {
+	}
+	pg.base.world_expedition_data[270011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -69023,8 +69574,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[270012] = {
+	}
+	pg.base.world_expedition_data[270012] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -69356,8 +69907,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[270511] = {
+	}
+	pg.base.world_expedition_data[270511] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -69689,8 +70240,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[270512] = {
+	}
+	pg.base.world_expedition_data[270512] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -70022,8 +70573,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[271011] = {
+	}
+	pg.base.world_expedition_data[271011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -70355,8 +70906,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[271211] = {
+	}
+	pg.base.world_expedition_data[271211] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -70688,8 +71239,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[271411] = {
+	}
+	pg.base.world_expedition_data[271411] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -71021,8 +71572,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[272011] = {
+	}
+	pg.base.world_expedition_data[272011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -71354,8 +71905,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[272211] = {
+	}
+	pg.base.world_expedition_data[272211] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -71687,8 +72238,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[272411] = {
+	}
+	pg.base.world_expedition_data[272411] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -72020,8 +72571,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[273011] = {
+	}
+	pg.base.world_expedition_data[273011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -72353,8 +72904,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[273211] = {
+	}
+	pg.base.world_expedition_data[273211] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -72686,8 +73237,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[274011] = {
+	}
+	pg.base.world_expedition_data[274011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -73019,8 +73570,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[276011] = {
+	}
+	pg.base.world_expedition_data[276011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -73352,8 +73903,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[280011] = {
+	}
+	pg.base.world_expedition_data[280011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -73685,8 +74236,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[280012] = {
+	}
+	pg.base.world_expedition_data[280012] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -74018,8 +74569,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[280511] = {
+	}
+	pg.base.world_expedition_data[280511] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -74351,8 +74902,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[280512] = {
+	}
+	pg.base.world_expedition_data[280512] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -74684,8 +75235,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[281011] = {
+	}
+	pg.base.world_expedition_data[281011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -75017,8 +75568,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[281211] = {
+	}
+	pg.base.world_expedition_data[281211] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -75350,8 +75901,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[281411] = {
+	}
+	pg.base.world_expedition_data[281411] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -75683,8 +76234,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[282011] = {
+	}
+	pg.base.world_expedition_data[282011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -76016,8 +76567,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[282211] = {
+	}
+	pg.base.world_expedition_data[282211] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -76349,8 +76900,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[282411] = {
+	}
+	pg.base.world_expedition_data[282411] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -76682,8 +77233,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[283011] = {
+	}
+	pg.base.world_expedition_data[283011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -77015,8 +77566,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[283211] = {
+	}
+	pg.base.world_expedition_data[283211] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -77348,8 +77899,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[284011] = {
+	}
+	pg.base.world_expedition_data[284011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -77681,8 +78232,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[286011] = {
+	}
+	pg.base.world_expedition_data[286011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -78014,8 +78565,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[290011] = {
+	}
+	pg.base.world_expedition_data[290011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -78173,8 +78724,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[290012] = {
+	}
+	pg.base.world_expedition_data[290012] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -78332,8 +78883,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[290013] = {
+	}
+	pg.base.world_expedition_data[290013] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -78491,8 +79042,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[290021] = {
+	}
+	pg.base.world_expedition_data[290021] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -78650,8 +79201,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[290031] = {
+	}
+	pg.base.world_expedition_data[290031] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -78809,8 +79360,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[290041] = {
+	}
+	pg.base.world_expedition_data[290041] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -78968,8 +79519,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291011] = {
+	}
+	pg.base.world_expedition_data[291011] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -79127,8 +79678,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291021] = {
+	}
+	pg.base.world_expedition_data[291021] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -79286,8 +79837,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291031] = {
+	}
+	pg.base.world_expedition_data[291031] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -79445,8 +79996,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291041] = {
+	}
+	pg.base.world_expedition_data[291041] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -79604,8 +80155,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291091] = {
+	}
+	pg.base.world_expedition_data[291091] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -79763,8 +80314,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291092] = {
+	}
+	pg.base.world_expedition_data[291092] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -79922,8 +80473,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291093] = {
+	}
+	pg.base.world_expedition_data[291093] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -80081,8 +80632,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291100] = {
+	}
+	pg.base.world_expedition_data[291100] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -80163,8 +80714,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291101] = {
+	}
+	pg.base.world_expedition_data[291101] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -80245,8 +80796,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291102] = {
+	}
+	pg.base.world_expedition_data[291102] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -80327,8 +80878,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291103] = {
+	}
+	pg.base.world_expedition_data[291103] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -80409,8 +80960,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291150] = {
+	}
+	pg.base.world_expedition_data[291150] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -80632,8 +81183,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291151] = {
+	}
+	pg.base.world_expedition_data[291151] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -80855,8 +81406,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291152] = {
+	}
+	pg.base.world_expedition_data[291152] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -81078,8 +81629,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291153] = {
+	}
+	pg.base.world_expedition_data[291153] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -81301,8 +81852,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291160] = {
+	}
+	pg.base.world_expedition_data[291160] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -81524,8 +82075,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291161] = {
+	}
+	pg.base.world_expedition_data[291161] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = -500,
 		morale_limit = 3,
@@ -81747,8 +82298,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291211] = {
+	}
+	pg.base.world_expedition_data[291211] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -81906,8 +82457,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291221] = {
+	}
+	pg.base.world_expedition_data[291221] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -82065,8 +82616,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291231] = {
+	}
+	pg.base.world_expedition_data[291231] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -82224,8 +82775,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291241] = {
+	}
+	pg.base.world_expedition_data[291241] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -82383,8 +82934,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291291] = {
+	}
+	pg.base.world_expedition_data[291291] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -82542,8 +83093,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291292] = {
+	}
+	pg.base.world_expedition_data[291292] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -82701,8 +83252,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291293] = {
+	}
+	pg.base.world_expedition_data[291293] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -82860,8 +83411,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291300] = {
+	}
+	pg.base.world_expedition_data[291300] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -82942,8 +83493,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291301] = {
+	}
+	pg.base.world_expedition_data[291301] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -83024,8 +83575,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291302] = {
+	}
+	pg.base.world_expedition_data[291302] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -83106,8 +83657,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291303] = {
+	}
+	pg.base.world_expedition_data[291303] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -83188,8 +83739,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291350] = {
+	}
+	pg.base.world_expedition_data[291350] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -83411,8 +83962,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291351] = {
+	}
+	pg.base.world_expedition_data[291351] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -83634,8 +84185,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291352] = {
+	}
+	pg.base.world_expedition_data[291352] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -83857,8 +84408,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291353] = {
+	}
+	pg.base.world_expedition_data[291353] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -84080,8 +84631,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291360] = {
+	}
+	pg.base.world_expedition_data[291360] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -84303,8 +84854,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291361] = {
+	}
+	pg.base.world_expedition_data[291361] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -84526,8 +85077,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291411] = {
+	}
+	pg.base.world_expedition_data[291411] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -84685,8 +85236,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291421] = {
+	}
+	pg.base.world_expedition_data[291421] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -84844,8 +85395,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291431] = {
+	}
+	pg.base.world_expedition_data[291431] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -85003,8 +85554,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291441] = {
+	}
+	pg.base.world_expedition_data[291441] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -85162,8 +85713,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291491] = {
+	}
+	pg.base.world_expedition_data[291491] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -85321,8 +85872,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291492] = {
+	}
+	pg.base.world_expedition_data[291492] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -85480,8 +86031,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291493] = {
+	}
+	pg.base.world_expedition_data[291493] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -85639,8 +86190,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291500] = {
+	}
+	pg.base.world_expedition_data[291500] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -85721,8 +86272,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291501] = {
+	}
+	pg.base.world_expedition_data[291501] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -85803,8 +86354,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291502] = {
+	}
+	pg.base.world_expedition_data[291502] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -85885,8 +86436,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291503] = {
+	}
+	pg.base.world_expedition_data[291503] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -85967,8 +86518,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291550] = {
+	}
+	pg.base.world_expedition_data[291550] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -86190,8 +86741,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291551] = {
+	}
+	pg.base.world_expedition_data[291551] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -86413,8 +86964,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291552] = {
+	}
+	pg.base.world_expedition_data[291552] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -86636,8 +87187,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291553] = {
+	}
+	pg.base.world_expedition_data[291553] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -86859,8 +87410,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291560] = {
+	}
+	pg.base.world_expedition_data[291560] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -87082,8 +87633,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291561] = {
+	}
+	pg.base.world_expedition_data[291561] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -87305,8 +87856,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291600] = {
+	}
+	pg.base.world_expedition_data[291600] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -87464,8 +88015,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291601] = {
+	}
+	pg.base.world_expedition_data[291601] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -87623,8 +88174,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292000] = {
+	}
+	pg.base.world_expedition_data[292000] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -87705,8 +88256,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292001] = {
+	}
+	pg.base.world_expedition_data[292001] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -87787,8 +88338,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292002] = {
+	}
+	pg.base.world_expedition_data[292002] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -87869,8 +88420,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292003] = {
+	}
+	pg.base.world_expedition_data[292003] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -87951,8 +88502,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292010] = {
+	}
+	pg.base.world_expedition_data[292010] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -88033,8 +88584,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292011] = {
+	}
+	pg.base.world_expedition_data[292011] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -88115,8 +88666,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292012] = {
+	}
+	pg.base.world_expedition_data[292012] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -88197,8 +88748,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292013] = {
+	}
+	pg.base.world_expedition_data[292013] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -88279,8 +88830,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292020] = {
+	}
+	pg.base.world_expedition_data[292020] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -88361,8 +88912,10 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292021] = {
+	}
+end)()
+;(function()
+	pg.base.world_expedition_data[292021] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -88443,8 +88996,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292022] = {
+	}
+	pg.base.world_expedition_data[292022] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -88525,8 +89078,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292023] = {
+	}
+	pg.base.world_expedition_data[292023] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -88607,8 +89160,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292050] = {
+	}
+	pg.base.world_expedition_data[292050] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -88689,8 +89242,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292051] = {
+	}
+	pg.base.world_expedition_data[292051] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -88771,8 +89324,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292052] = {
+	}
+	pg.base.world_expedition_data[292052] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -88853,8 +89406,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292053] = {
+	}
+	pg.base.world_expedition_data[292053] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -88935,8 +89488,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292060] = {
+	}
+	pg.base.world_expedition_data[292060] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -89017,8 +89570,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292061] = {
+	}
+	pg.base.world_expedition_data[292061] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -89099,8 +89652,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292062] = {
+	}
+	pg.base.world_expedition_data[292062] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -89181,8 +89734,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292063] = {
+	}
+	pg.base.world_expedition_data[292063] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -89263,8 +89816,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292070] = {
+	}
+	pg.base.world_expedition_data[292070] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -89345,8 +89898,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292071] = {
+	}
+	pg.base.world_expedition_data[292071] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -89427,8 +89980,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292072] = {
+	}
+	pg.base.world_expedition_data[292072] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -89509,8 +90062,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292073] = {
+	}
+	pg.base.world_expedition_data[292073] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -89591,8 +90144,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292100] = {
+	}
+	pg.base.world_expedition_data[292100] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -89673,8 +90226,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292101] = {
+	}
+	pg.base.world_expedition_data[292101] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -89755,8 +90308,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292102] = {
+	}
+	pg.base.world_expedition_data[292102] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -89837,8 +90390,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292103] = {
+	}
+	pg.base.world_expedition_data[292103] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -89919,8 +90472,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292104] = {
+	}
+	pg.base.world_expedition_data[292104] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -90001,8 +90554,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292200] = {
+	}
+	pg.base.world_expedition_data[292200] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -90083,8 +90636,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292201] = {
+	}
+	pg.base.world_expedition_data[292201] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -90165,8 +90718,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292210] = {
+	}
+	pg.base.world_expedition_data[292210] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -90247,8 +90800,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292211] = {
+	}
+	pg.base.world_expedition_data[292211] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -90329,8 +90882,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292220] = {
+	}
+	pg.base.world_expedition_data[292220] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -90411,8 +90964,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292221] = {
+	}
+	pg.base.world_expedition_data[292221] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -90493,8 +91046,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293011] = {
+	}
+	pg.base.world_expedition_data[293011] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -90652,8 +91205,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293021] = {
+	}
+	pg.base.world_expedition_data[293021] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -90811,8 +91364,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293031] = {
+	}
+	pg.base.world_expedition_data[293031] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -90970,8 +91523,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293041] = {
+	}
+	pg.base.world_expedition_data[293041] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -91129,8 +91682,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293091] = {
+	}
+	pg.base.world_expedition_data[293091] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -91288,8 +91841,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293092] = {
+	}
+	pg.base.world_expedition_data[293092] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -91447,8 +92000,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293093] = {
+	}
+	pg.base.world_expedition_data[293093] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -91606,8 +92159,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293100] = {
+	}
+	pg.base.world_expedition_data[293100] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -91688,8 +92241,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293101] = {
+	}
+	pg.base.world_expedition_data[293101] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -91770,8 +92323,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293102] = {
+	}
+	pg.base.world_expedition_data[293102] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -91852,8 +92405,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293103] = {
+	}
+	pg.base.world_expedition_data[293103] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -91934,8 +92487,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293104] = {
+	}
+	pg.base.world_expedition_data[293104] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -92016,8 +92569,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293150] = {
+	}
+	pg.base.world_expedition_data[293150] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -92239,8 +92792,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293151] = {
+	}
+	pg.base.world_expedition_data[293151] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -92462,8 +93015,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293152] = {
+	}
+	pg.base.world_expedition_data[293152] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -92685,8 +93238,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293153] = {
+	}
+	pg.base.world_expedition_data[293153] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -92908,8 +93461,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293154] = {
+	}
+	pg.base.world_expedition_data[293154] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -93131,8 +93684,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293160] = {
+	}
+	pg.base.world_expedition_data[293160] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -93354,8 +93907,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293161] = {
+	}
+	pg.base.world_expedition_data[293161] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -93577,8 +94130,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293211] = {
+	}
+	pg.base.world_expedition_data[293211] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -93736,8 +94289,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293221] = {
+	}
+	pg.base.world_expedition_data[293221] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -93895,8 +94448,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293231] = {
+	}
+	pg.base.world_expedition_data[293231] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -94054,8 +94607,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293241] = {
+	}
+	pg.base.world_expedition_data[293241] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -94213,8 +94766,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293291] = {
+	}
+	pg.base.world_expedition_data[293291] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -94372,8 +94925,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293292] = {
+	}
+	pg.base.world_expedition_data[293292] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -94531,8 +95084,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293293] = {
+	}
+	pg.base.world_expedition_data[293293] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -94690,8 +95243,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293300] = {
+	}
+	pg.base.world_expedition_data[293300] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -94772,8 +95325,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293301] = {
+	}
+	pg.base.world_expedition_data[293301] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -94854,8 +95407,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293302] = {
+	}
+	pg.base.world_expedition_data[293302] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -94936,8 +95489,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293303] = {
+	}
+	pg.base.world_expedition_data[293303] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -95018,8 +95571,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293304] = {
+	}
+	pg.base.world_expedition_data[293304] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -95100,8 +95653,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293350] = {
+	}
+	pg.base.world_expedition_data[293350] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -95323,8 +95876,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293351] = {
+	}
+	pg.base.world_expedition_data[293351] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -95546,8 +96099,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293352] = {
+	}
+	pg.base.world_expedition_data[293352] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -95769,8 +96322,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293353] = {
+	}
+	pg.base.world_expedition_data[293353] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -95992,8 +96545,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293354] = {
+	}
+	pg.base.world_expedition_data[293354] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -96215,8 +96768,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293360] = {
+	}
+	pg.base.world_expedition_data[293360] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -96438,8 +96991,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293361] = {
+	}
+	pg.base.world_expedition_data[293361] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -96661,8 +97214,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293411] = {
+	}
+	pg.base.world_expedition_data[293411] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -96820,8 +97373,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293421] = {
+	}
+	pg.base.world_expedition_data[293421] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -96979,8 +97532,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293431] = {
+	}
+	pg.base.world_expedition_data[293431] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -97138,8 +97691,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293441] = {
+	}
+	pg.base.world_expedition_data[293441] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -97297,8 +97850,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293491] = {
+	}
+	pg.base.world_expedition_data[293491] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -97456,8 +98009,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293492] = {
+	}
+	pg.base.world_expedition_data[293492] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -97615,8 +98168,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293493] = {
+	}
+	pg.base.world_expedition_data[293493] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -97774,8 +98327,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293500] = {
+	}
+	pg.base.world_expedition_data[293500] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -97856,8 +98409,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293501] = {
+	}
+	pg.base.world_expedition_data[293501] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -97938,8 +98491,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293502] = {
+	}
+	pg.base.world_expedition_data[293502] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -98020,8 +98573,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293503] = {
+	}
+	pg.base.world_expedition_data[293503] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -98102,8 +98655,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293504] = {
+	}
+	pg.base.world_expedition_data[293504] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -98184,8 +98737,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293550] = {
+	}
+	pg.base.world_expedition_data[293550] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -98407,8 +98960,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293551] = {
+	}
+	pg.base.world_expedition_data[293551] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -98630,8 +99183,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293552] = {
+	}
+	pg.base.world_expedition_data[293552] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -98853,8 +99406,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293553] = {
+	}
+	pg.base.world_expedition_data[293553] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -99076,8 +99629,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293554] = {
+	}
+	pg.base.world_expedition_data[293554] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -99299,8 +99852,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293560] = {
+	}
+	pg.base.world_expedition_data[293560] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -99522,8 +100075,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293561] = {
+	}
+	pg.base.world_expedition_data[293561] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -99745,8 +100298,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294001] = {
+	}
+	pg.base.world_expedition_data[294001] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -100054,8 +100607,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294002] = {
+	}
+	pg.base.world_expedition_data[294002] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -100363,8 +100916,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294003] = {
+	}
+	pg.base.world_expedition_data[294003] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -100672,8 +101225,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294004] = {
+	}
+	pg.base.world_expedition_data[294004] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -100981,8 +101534,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294005] = {
+	}
+	pg.base.world_expedition_data[294005] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -101290,8 +101843,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294006] = {
+	}
+	pg.base.world_expedition_data[294006] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1250,
 		morale_limit = 3,
@@ -101599,8 +102152,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294007] = {
+	}
+	pg.base.world_expedition_data[294007] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1250,
 		morale_limit = 3,
@@ -101908,8 +102461,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294008] = {
+	}
+	pg.base.world_expedition_data[294008] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1250,
 		morale_limit = 3,
@@ -102217,8 +102770,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294009] = {
+	}
+	pg.base.world_expedition_data[294009] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1250,
 		morale_limit = 3,
@@ -102526,8 +103079,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294010] = {
+	}
+	pg.base.world_expedition_data[294010] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1250,
 		morale_limit = 3,
@@ -102835,8 +103388,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294011] = {
+	}
+	pg.base.world_expedition_data[294011] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -102917,8 +103470,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294012] = {
+	}
+	pg.base.world_expedition_data[294012] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -102999,8 +103552,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294013] = {
+	}
+	pg.base.world_expedition_data[294013] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -103081,8 +103634,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294014] = {
+	}
+	pg.base.world_expedition_data[294014] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -103163,8 +103716,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294015] = {
+	}
+	pg.base.world_expedition_data[294015] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -103245,8 +103798,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294016] = {
+	}
+	pg.base.world_expedition_data[294016] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1250,
 		morale_limit = 3,
@@ -103327,8 +103880,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294017] = {
+	}
+	pg.base.world_expedition_data[294017] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1250,
 		morale_limit = 3,
@@ -103409,8 +103962,10 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294018] = {
+	}
+end)()
+;(function()
+	pg.base.world_expedition_data[294018] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1250,
 		morale_limit = 3,
@@ -103491,8 +104046,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294019] = {
+	}
+	pg.base.world_expedition_data[294019] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1250,
 		morale_limit = 3,
@@ -103573,8 +104128,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294020] = {
+	}
+	pg.base.world_expedition_data[294020] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1250,
 		morale_limit = 3,
@@ -103655,8 +104210,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294021] = {
+	}
+	pg.base.world_expedition_data[294021] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -103737,8 +104292,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294022] = {
+	}
+	pg.base.world_expedition_data[294022] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -103819,8 +104374,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294023] = {
+	}
+	pg.base.world_expedition_data[294023] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -103901,8 +104456,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294024] = {
+	}
+	pg.base.world_expedition_data[294024] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -103983,8 +104538,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294025] = {
+	}
+	pg.base.world_expedition_data[294025] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -104065,8 +104620,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294026] = {
+	}
+	pg.base.world_expedition_data[294026] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -104147,8 +104702,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294027] = {
+	}
+	pg.base.world_expedition_data[294027] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -104229,8 +104784,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294028] = {
+	}
+	pg.base.world_expedition_data[294028] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -104311,8 +104866,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294029] = {
+	}
+	pg.base.world_expedition_data[294029] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -104393,8 +104948,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294030] = {
+	}
+	pg.base.world_expedition_data[294030] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -104475,8 +105030,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294040] = {
+	}
+	pg.base.world_expedition_data[294040] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -104557,8 +105112,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294050] = {
+	}
+	pg.base.world_expedition_data[294050] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -104866,8 +105421,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294051] = {
+	}
+	pg.base.world_expedition_data[294051] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -105175,8 +105730,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294052] = {
+	}
+	pg.base.world_expedition_data[294052] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -105484,8 +106039,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294053] = {
+	}
+	pg.base.world_expedition_data[294053] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -105793,8 +106348,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294054] = {
+	}
+	pg.base.world_expedition_data[294054] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -105875,8 +106430,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294055] = {
+	}
+	pg.base.world_expedition_data[294055] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -105957,8 +106512,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294056] = {
+	}
+	pg.base.world_expedition_data[294056] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -106039,8 +106594,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294057] = {
+	}
+	pg.base.world_expedition_data[294057] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -106121,8 +106676,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294058] = {
+	}
+	pg.base.world_expedition_data[294058] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -106203,8 +106758,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294059] = {
+	}
+	pg.base.world_expedition_data[294059] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -106285,8 +106840,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294060] = {
+	}
+	pg.base.world_expedition_data[294060] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -106367,8 +106922,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294061] = {
+	}
+	pg.base.world_expedition_data[294061] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -106449,8 +107004,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294062] = {
+	}
+	pg.base.world_expedition_data[294062] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -106688,8 +107243,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294063] = {
+	}
+	pg.base.world_expedition_data[294063] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -106927,8 +107482,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294064] = {
+	}
+	pg.base.world_expedition_data[294064] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -107166,8 +107721,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294065] = {
+	}
+	pg.base.world_expedition_data[294065] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -107405,8 +107960,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294111] = {
+	}
+	pg.base.world_expedition_data[294111] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -107628,8 +108183,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294112] = {
+	}
+	pg.base.world_expedition_data[294112] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 500,
 		morale_limit = 3,
@@ -107851,8 +108406,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294113] = {
+	}
+	pg.base.world_expedition_data[294113] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -108074,8 +108629,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294114] = {
+	}
+	pg.base.world_expedition_data[294114] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 3,
@@ -108297,8 +108852,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294115] = {
+	}
+	pg.base.world_expedition_data[294115] = {
 		bgm = "story-6",
 		expedition_sairenvalueC = 1500,
 		morale_limit = 3,
@@ -108520,8 +109075,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294200] = {
+	}
+	pg.base.world_expedition_data[294200] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 3,
@@ -108829,8 +109384,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294201] = {
+	}
+	pg.base.world_expedition_data[294201] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 3,
@@ -109138,8 +109693,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294202] = {
+	}
+	pg.base.world_expedition_data[294202] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 3,
@@ -109447,8 +110002,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294203] = {
+	}
+	pg.base.world_expedition_data[294203] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 3,
@@ -109756,8 +110311,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294204] = {
+	}
+	pg.base.world_expedition_data[294204] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 3,
@@ -110065,8 +110620,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294210] = {
+	}
+	pg.base.world_expedition_data[294210] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 3,
@@ -110147,8 +110702,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294211] = {
+	}
+	pg.base.world_expedition_data[294211] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 3,
@@ -110229,8 +110784,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294212] = {
+	}
+	pg.base.world_expedition_data[294212] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 3,
@@ -110311,8 +110866,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294213] = {
+	}
+	pg.base.world_expedition_data[294213] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 3,
@@ -110393,8 +110948,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294214] = {
+	}
+	pg.base.world_expedition_data[294214] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 3,
@@ -110475,8 +111030,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294215] = {
+	}
+	pg.base.world_expedition_data[294215] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 3,
@@ -110557,8 +111112,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294216] = {
+	}
+	pg.base.world_expedition_data[294216] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 3,
@@ -110639,8 +111194,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294217] = {
+	}
+	pg.base.world_expedition_data[294217] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 3,
@@ -110721,8 +111276,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294218] = {
+	}
+	pg.base.world_expedition_data[294218] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 3,
@@ -110803,8 +111358,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294219] = {
+	}
+	pg.base.world_expedition_data[294219] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 3,
@@ -110885,8 +111440,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294220] = {
+	}
+	pg.base.world_expedition_data[294220] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 3,
@@ -111124,8 +111679,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294221] = {
+	}
+	pg.base.world_expedition_data[294221] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 3,
@@ -111363,8 +111918,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294222] = {
+	}
+	pg.base.world_expedition_data[294222] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 3,
@@ -111602,8 +112157,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294223] = {
+	}
+	pg.base.world_expedition_data[294223] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 3,
@@ -111841,8 +112396,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294224] = {
+	}
+	pg.base.world_expedition_data[294224] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 3,
@@ -112080,8 +112635,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295011] = {
+	}
+	pg.base.world_expedition_data[295011] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 2000,
 		morale_limit = 3,
@@ -112319,8 +112874,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295012] = {
+	}
+	pg.base.world_expedition_data[295012] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 2000,
 		morale_limit = 3,
@@ -112558,8 +113113,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295013] = {
+	}
+	pg.base.world_expedition_data[295013] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 2000,
 		morale_limit = 3,
@@ -112797,8 +113352,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295014] = {
+	}
+	pg.base.world_expedition_data[295014] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 2000,
 		morale_limit = 3,
@@ -113036,8 +113591,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295015] = {
+	}
+	pg.base.world_expedition_data[295015] = {
 		bgm = "battle-boss-4",
 		expedition_sairenvalueC = 2000,
 		morale_limit = 3,
@@ -113275,8 +113830,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295021] = {
+	}
+	pg.base.world_expedition_data[295021] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 2500,
 		morale_limit = 0,
@@ -113444,8 +113999,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295022] = {
+	}
+	pg.base.world_expedition_data[295022] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 2500,
 		morale_limit = 0,
@@ -113613,8 +114168,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295023] = {
+	}
+	pg.base.world_expedition_data[295023] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 2500,
 		morale_limit = 0,
@@ -113782,8 +114337,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295024] = {
+	}
+	pg.base.world_expedition_data[295024] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 2500,
 		morale_limit = 0,
@@ -113951,8 +114506,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295025] = {
+	}
+	pg.base.world_expedition_data[295025] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 2500,
 		morale_limit = 0,
@@ -114072,8 +114627,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295026] = {
+	}
+	pg.base.world_expedition_data[295026] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 0,
@@ -114241,8 +114796,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295027] = {
+	}
+	pg.base.world_expedition_data[295027] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 0,
@@ -114410,8 +114965,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295028] = {
+	}
+	pg.base.world_expedition_data[295028] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 0,
@@ -114579,8 +115134,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295029] = {
+	}
+	pg.base.world_expedition_data[295029] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 0,
@@ -114748,8 +115303,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295030] = {
+	}
+	pg.base.world_expedition_data[295030] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 1000,
 		morale_limit = 0,
@@ -114893,8 +115448,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295100] = {
+	}
+	pg.base.world_expedition_data[295100] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -115286,8 +115841,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295101] = {
+	}
+	pg.base.world_expedition_data[295101] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -115679,8 +116234,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295102] = {
+	}
+	pg.base.world_expedition_data[295102] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -116080,8 +116635,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295103] = {
+	}
+	pg.base.world_expedition_data[295103] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -116481,8 +117036,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295104] = {
+	}
+	pg.base.world_expedition_data[295104] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -116882,8 +117437,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295110] = {
+	}
+	pg.base.world_expedition_data[295110] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -117275,8 +117830,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295111] = {
+	}
+	pg.base.world_expedition_data[295111] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -117668,8 +118223,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295112] = {
+	}
+	pg.base.world_expedition_data[295112] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -118069,8 +118624,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295113] = {
+	}
+	pg.base.world_expedition_data[295113] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -118470,8 +119025,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295114] = {
+	}
+	pg.base.world_expedition_data[295114] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -118871,8 +119426,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295120] = {
+	}
+	pg.base.world_expedition_data[295120] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -119264,8 +119819,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295121] = {
+	}
+	pg.base.world_expedition_data[295121] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -119657,8 +120212,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295122] = {
+	}
+	pg.base.world_expedition_data[295122] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -120058,8 +120613,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295123] = {
+	}
+	pg.base.world_expedition_data[295123] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -120459,8 +121014,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295124] = {
+	}
+	pg.base.world_expedition_data[295124] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -120860,8 +121415,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295130] = {
+	}
+	pg.base.world_expedition_data[295130] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -121253,8 +121808,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295131] = {
+	}
+	pg.base.world_expedition_data[295131] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -121646,8 +122201,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295132] = {
+	}
+	pg.base.world_expedition_data[295132] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -122047,8 +122602,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295133] = {
+	}
+	pg.base.world_expedition_data[295133] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -122448,8 +123003,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295134] = {
+	}
+	pg.base.world_expedition_data[295134] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -122849,8 +123404,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295140] = {
+	}
+	pg.base.world_expedition_data[295140] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -123242,8 +123797,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295141] = {
+	}
+	pg.base.world_expedition_data[295141] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -123635,8 +124190,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295142] = {
+	}
+	pg.base.world_expedition_data[295142] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -124036,8 +124591,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295143] = {
+	}
+	pg.base.world_expedition_data[295143] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -124437,8 +124992,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295144] = {
+	}
+	pg.base.world_expedition_data[295144] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -124838,8 +125393,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295200] = {
+	}
+	pg.base.world_expedition_data[295200] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -124926,8 +125481,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295201] = {
+	}
+	pg.base.world_expedition_data[295201] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -125014,8 +125569,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295202] = {
+	}
+	pg.base.world_expedition_data[295202] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -125102,8 +125657,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295203] = {
+	}
+	pg.base.world_expedition_data[295203] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -125190,8 +125745,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295204] = {
+	}
+	pg.base.world_expedition_data[295204] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 5000,
 		morale_limit = 0,
@@ -125278,8 +125833,10 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[297011] = {
+	}
+end)()
+;(function()
+	pg.base.world_expedition_data[297011] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -125611,8 +126168,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[311041] = {
+	}
+	pg.base.world_expedition_data[311041] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -125944,8 +126501,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[312020] = {
+	}
+	pg.base.world_expedition_data[312020] = {
 		bgm = "level02",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -126026,8 +126583,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[312021] = {
+	}
+	pg.base.world_expedition_data[312021] = {
 		bgm = "level02",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -126134,8 +126691,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[312070] = {
+	}
+	pg.base.world_expedition_data[312070] = {
 		bgm = "bsm-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -126467,8 +127024,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[312150] = {
+	}
+	pg.base.world_expedition_data[312150] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -126821,8 +127378,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[312240] = {
+	}
+	pg.base.world_expedition_data[312240] = {
 		bgm = "battle-executor-type1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -127175,8 +127732,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[312350] = {
+	}
+	pg.base.world_expedition_data[312350] = {
 		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -127257,8 +127814,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[312610] = {
+	}
+	pg.base.world_expedition_data[312610] = {
 		bgm = "Battle-ashes-theme",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -127339,8 +127896,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[312640] = {
+	}
+	pg.base.world_expedition_data[312640] = {
 		bgm = "Battle-ashes-theme",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -127421,8 +127978,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[312670] = {
+	}
+	pg.base.world_expedition_data[312670] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -127503,8 +128060,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[314001] = {
+	}
+	pg.base.world_expedition_data[314001] = {
 		bgm = "battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -127585,8 +128142,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[314002] = {
+	}
+	pg.base.world_expedition_data[314002] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -127918,8 +128475,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[314201] = {
+	}
+	pg.base.world_expedition_data[314201] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -128251,8 +128808,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[315000] = {
+	}
+	pg.base.world_expedition_data[315000] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 8000,
 		morale_limit = 3,
@@ -128333,8 +128890,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[315001] = {
+	}
+	pg.base.world_expedition_data[315001] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 8000,
 		morale_limit = 3,
@@ -128415,8 +128972,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[315002] = {
+	}
+	pg.base.world_expedition_data[315002] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 8000,
 		morale_limit = 3,
@@ -128497,8 +129054,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[315010] = {
+	}
+	pg.base.world_expedition_data[315010] = {
 		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
@@ -128844,8 +129401,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4000
 		}
-	},
-	[315011] = {
+	}
+	pg.base.world_expedition_data[315011] = {
 		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
@@ -129189,8 +129746,8 @@ pg.world_expedition_data = {
 			}
 		},
 		special_buff_display = {}
-	},
-	[315012] = {
+	}
+	pg.base.world_expedition_data[315012] = {
 		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
@@ -129536,8 +130093,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4020
 		}
-	},
-	[315015] = {
+	}
+	pg.base.world_expedition_data[315015] = {
 		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
@@ -129883,8 +130440,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4000
 		}
-	},
-	[315016] = {
+	}
+	pg.base.world_expedition_data[315016] = {
 		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
@@ -130228,8 +130785,8 @@ pg.world_expedition_data = {
 			}
 		},
 		special_buff_display = {}
-	},
-	[315017] = {
+	}
+	pg.base.world_expedition_data[315017] = {
 		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
@@ -130575,8 +131132,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4020
 		}
-	},
-	[315020] = {
+	}
+	pg.base.world_expedition_data[315020] = {
 		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
@@ -130872,8 +131429,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4000
 		}
-	},
-	[315021] = {
+	}
+	pg.base.world_expedition_data[315021] = {
 		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
@@ -131169,8 +131726,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4010
 		}
-	},
-	[315022] = {
+	}
+	pg.base.world_expedition_data[315022] = {
 		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
@@ -131466,8 +132023,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4020
 		}
-	},
-	[315025] = {
+	}
+	pg.base.world_expedition_data[315025] = {
 		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
@@ -131763,8 +132320,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4000
 		}
-	},
-	[315026] = {
+	}
+	pg.base.world_expedition_data[315026] = {
 		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
@@ -132060,8 +132617,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4010
 		}
-	},
-	[315027] = {
+	}
+	pg.base.world_expedition_data[315027] = {
 		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
@@ -132357,8 +132914,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4020
 		}
-	},
-	[315028] = {
+	}
+	pg.base.world_expedition_data[315028] = {
 		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
@@ -132654,8 +133211,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4020
 		}
-	},
-	[315030] = {
+	}
+	pg.base.world_expedition_data[315030] = {
 		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
@@ -132738,8 +133295,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4000
 		}
-	},
-	[315031] = {
+	}
+	pg.base.world_expedition_data[315031] = {
 		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
@@ -132822,8 +133379,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4010
 		}
-	},
-	[315032] = {
+	}
+	pg.base.world_expedition_data[315032] = {
 		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
@@ -132906,8 +133463,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4020
 		}
-	},
-	[315033] = {
+	}
+	pg.base.world_expedition_data[315033] = {
 		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
@@ -132990,8 +133547,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4000
 		}
-	},
-	[315034] = {
+	}
+	pg.base.world_expedition_data[315034] = {
 		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
@@ -133074,8 +133631,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4010
 		}
-	},
-	[315035] = {
+	}
+	pg.base.world_expedition_data[315035] = {
 		bgm = "battle-arbitrator-type1",
 		expedition_sairenvalueC = 3000,
 		morale_limit = 0,
@@ -133158,8 +133715,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4020
 		}
-	},
-	[320000] = {
+	}
+	pg.base.world_expedition_data[320000] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -133491,8 +134048,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[320001] = {
+	}
+	pg.base.world_expedition_data[320001] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -133824,8 +134381,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[320002] = {
+	}
+	pg.base.world_expedition_data[320002] = {
 		bgm = "Battle-1",
 		expedition_sairenvalueC = 0,
 		morale_limit = 3,
@@ -134157,546 +134714,5 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	all = {
-		210000,
-		210011,
-		210012,
-		210013,
-		210014,
-		211011,
-		211012,
-		211013,
-		211014,
-		211015,
-		211032,
-		211211,
-		211212,
-		211213,
-		211214,
-		211215,
-		211216,
-		211217,
-		211411,
-		211412,
-		211413,
-		211611,
-		213011,
-		213012,
-		213013,
-		213014,
-		213015,
-		213016,
-		213017,
-		213211,
-		213212,
-		213213,
-		213411,
-		213412,
-		213413,
-		213414,
-		214011,
-		214211,
-		214212,
-		214213,
-		215011,
-		215012,
-		215013,
-		215014,
-		215015,
-		215016,
-		215017,
-		216011,
-		220011,
-		220012,
-		220013,
-		221011,
-		221012,
-		221013,
-		221014,
-		221015,
-		221211,
-		221212,
-		221213,
-		221214,
-		221215,
-		221216,
-		221411,
-		221412,
-		223011,
-		223012,
-		223013,
-		223014,
-		223015,
-		223016,
-		223211,
-		223212,
-		223411,
-		223412,
-		223413,
-		223414,
-		224011,
-		224211,
-		224212,
-		224213,
-		225011,
-		225012,
-		225013,
-		225014,
-		225015,
-		225016,
-		225017,
-		226011,
-		230011,
-		230012,
-		230013,
-		230014,
-		231011,
-		231012,
-		231013,
-		231014,
-		231211,
-		231212,
-		231213,
-		231214,
-		231215,
-		231216,
-		231411,
-		231412,
-		231413,
-		233011,
-		233012,
-		233013,
-		233014,
-		233015,
-		233016,
-		233211,
-		233212,
-		233213,
-		233411,
-		233412,
-		233413,
-		233414,
-		234011,
-		234211,
-		234212,
-		234213,
-		235011,
-		235012,
-		235013,
-		235014,
-		235015,
-		235016,
-		235017,
-		236011,
-		240011,
-		240012,
-		240013,
-		240014,
-		240015,
-		240512,
-		240513,
-		240514,
-		241011,
-		241012,
-		241013,
-		241014,
-		241015,
-		241211,
-		241212,
-		241213,
-		241214,
-		241215,
-		241216,
-		241217,
-		241411,
-		241412,
-		243011,
-		243012,
-		243013,
-		243014,
-		243015,
-		243016,
-		243017,
-		243211,
-		243212,
-		243411,
-		243412,
-		243413,
-		243414,
-		244011,
-		244211,
-		244212,
-		244213,
-		245011,
-		245012,
-		245013,
-		245014,
-		245015,
-		245016,
-		246011,
-		250011,
-		250012,
-		250511,
-		250512,
-		251011,
-		251211,
-		251411,
-		252011,
-		252211,
-		252411,
-		253011,
-		253211,
-		254011,
-		256011,
-		260011,
-		260012,
-		260511,
-		260512,
-		261011,
-		261211,
-		261411,
-		262011,
-		262211,
-		262411,
-		263011,
-		263211,
-		264011,
-		266011,
-		270011,
-		270012,
-		270511,
-		270512,
-		271011,
-		271211,
-		271411,
-		272011,
-		272211,
-		272411,
-		273011,
-		273211,
-		274011,
-		276011,
-		280011,
-		280012,
-		280511,
-		280512,
-		281011,
-		281211,
-		281411,
-		282011,
-		282211,
-		282411,
-		283011,
-		283211,
-		284011,
-		286011,
-		290011,
-		290012,
-		290013,
-		290021,
-		290031,
-		290041,
-		291011,
-		291021,
-		291031,
-		291041,
-		291091,
-		291092,
-		291093,
-		291100,
-		291101,
-		291102,
-		291103,
-		291150,
-		291151,
-		291152,
-		291153,
-		291160,
-		291161,
-		291211,
-		291221,
-		291231,
-		291241,
-		291291,
-		291292,
-		291293,
-		291300,
-		291301,
-		291302,
-		291303,
-		291350,
-		291351,
-		291352,
-		291353,
-		291360,
-		291361,
-		291411,
-		291421,
-		291431,
-		291441,
-		291491,
-		291492,
-		291493,
-		291500,
-		291501,
-		291502,
-		291503,
-		291550,
-		291551,
-		291552,
-		291553,
-		291560,
-		291561,
-		291600,
-		291601,
-		292000,
-		292001,
-		292002,
-		292003,
-		292010,
-		292011,
-		292012,
-		292013,
-		292020,
-		292021,
-		292022,
-		292023,
-		292050,
-		292051,
-		292052,
-		292053,
-		292060,
-		292061,
-		292062,
-		292063,
-		292070,
-		292071,
-		292072,
-		292073,
-		292100,
-		292101,
-		292102,
-		292103,
-		292104,
-		292200,
-		292201,
-		292210,
-		292211,
-		292220,
-		292221,
-		293011,
-		293021,
-		293031,
-		293041,
-		293091,
-		293092,
-		293093,
-		293100,
-		293101,
-		293102,
-		293103,
-		293104,
-		293150,
-		293151,
-		293152,
-		293153,
-		293154,
-		293160,
-		293161,
-		293211,
-		293221,
-		293231,
-		293241,
-		293291,
-		293292,
-		293293,
-		293300,
-		293301,
-		293302,
-		293303,
-		293304,
-		293350,
-		293351,
-		293352,
-		293353,
-		293354,
-		293360,
-		293361,
-		293411,
-		293421,
-		293431,
-		293441,
-		293491,
-		293492,
-		293493,
-		293500,
-		293501,
-		293502,
-		293503,
-		293504,
-		293550,
-		293551,
-		293552,
-		293553,
-		293554,
-		293560,
-		293561,
-		294001,
-		294002,
-		294003,
-		294004,
-		294005,
-		294006,
-		294007,
-		294008,
-		294009,
-		294010,
-		294011,
-		294012,
-		294013,
-		294014,
-		294015,
-		294016,
-		294017,
-		294018,
-		294019,
-		294020,
-		294021,
-		294022,
-		294023,
-		294024,
-		294025,
-		294026,
-		294027,
-		294028,
-		294029,
-		294030,
-		294040,
-		294050,
-		294051,
-		294052,
-		294053,
-		294054,
-		294055,
-		294056,
-		294057,
-		294058,
-		294059,
-		294060,
-		294061,
-		294062,
-		294063,
-		294064,
-		294065,
-		294111,
-		294112,
-		294113,
-		294114,
-		294115,
-		294200,
-		294201,
-		294202,
-		294203,
-		294204,
-		294210,
-		294211,
-		294212,
-		294213,
-		294214,
-		294215,
-		294216,
-		294217,
-		294218,
-		294219,
-		294220,
-		294221,
-		294222,
-		294223,
-		294224,
-		295011,
-		295012,
-		295013,
-		295014,
-		295015,
-		295021,
-		295022,
-		295023,
-		295024,
-		295025,
-		295026,
-		295027,
-		295028,
-		295029,
-		295030,
-		295100,
-		295101,
-		295102,
-		295103,
-		295104,
-		295110,
-		295111,
-		295112,
-		295113,
-		295114,
-		295120,
-		295121,
-		295122,
-		295123,
-		295124,
-		295130,
-		295131,
-		295132,
-		295133,
-		295134,
-		295140,
-		295141,
-		295142,
-		295143,
-		295144,
-		295200,
-		295201,
-		295202,
-		295203,
-		295204,
-		297011,
-		311041,
-		312020,
-		312021,
-		312070,
-		312150,
-		312240,
-		312350,
-		312610,
-		312640,
-		312670,
-		314001,
-		314002,
-		314201,
-		315000,
-		315001,
-		315002,
-		315010,
-		315011,
-		315012,
-		315015,
-		315016,
-		315017,
-		315020,
-		315021,
-		315022,
-		315025,
-		315026,
-		315027,
-		315028,
-		315030,
-		315031,
-		315032,
-		315033,
-		315034,
-		315035,
-		320000,
-		320001,
-		320002
 	}
-}
+end)()

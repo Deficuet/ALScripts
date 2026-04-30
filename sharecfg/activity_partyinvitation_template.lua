@@ -1,6 +1,21 @@
 pg = pg or {}
-pg.activity_partyinvitation_template = {
-	{
+pg.activity_partyinvitation_template = rawget(pg, "activity_partyinvitation_template") or setmetatable({
+	__name = "activity_partyinvitation_template"
+}, confNEO)
+pg.activity_partyinvitation_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7
+}
+pg.base = pg.base or {}
+pg.base.activity_partyinvitation_template = {}
+
+;(function()
+	pg.base.activity_partyinvitation_template[1] = {
 		groupid = 10706,
 		ungift = "指挥官，今天的宴会真是热闹。\n好像很久没有和指挥官这样独处了呢。\n要送我礼物吗，会是什么呢，我很期待。",
 		skinId = 107065,
@@ -36,8 +51,8 @@ pg.activity_partyinvitation_template = {
 			"跳舞？当然没问题！那就好好指挥——不，指导我吧！",
 			"舞步，也是必须要掌握的技能呢！"
 		}
-	},
-	{
+	}
+	pg.base.activity_partyinvitation_template[2] = {
 		groupid = 10709,
 		ungift = "指挥官，你怎么这么神神秘秘的，你的礼服怎么鼓起来了？\n里面该不会是……我一直想要的那个……\n开玩笑的啦，哪有这么巧的事~",
 		skinId = 107092,
@@ -73,8 +88,8 @@ pg.activity_partyinvitation_template = {
 			"跳舞？看来指挥官对自己的舞技很有自信嘛~",
 			"一哒哒~二哒哒~我的舞步应该还没有生疏。"
 		}
-	},
-	{
+	}
+	pg.base.activity_partyinvitation_template[3] = {
 		groupid = 30510,
 		ungift = "怎么了？指挥官？\n把我单独叫出来，是有什么事要找我吗？\n呵呵~在我面前你无需多虑~",
 		skinId = 305101,
@@ -110,8 +125,8 @@ pg.activity_partyinvitation_template = {
 			"邀请我跳舞的话，最好是慢板舞呢，呵呵~",
 			"跳舞时的肌肤之亲也是不可避免的吧~"
 		}
-	},
-	{
+	}
+	pg.base.activity_partyinvitation_template[4] = {
 		groupid = 90501,
 		ungift = "希望我们今天有招待好你。\n……嗯？送我的礼物？\n专门为我挑选的？是、是吗？",
 		skinId = 905011,
@@ -147,8 +162,8 @@ pg.activity_partyinvitation_template = {
 			"跳舞？既然是指挥官你的邀请，我当然会接受。",
 			"先说好，我并不太擅长跳舞，说不定会踩到你哦……"
 		}
-	},
-	{
+	}
+	pg.base.activity_partyinvitation_template[5] = {
 		groupid = 70201,
 		ungift = "今天真是愉快的一天啊~\n指挥官，您在翻找什么？\n送给我的礼物？是什么呢？我很期待！",
 		skinId = 702010,
@@ -184,8 +199,8 @@ pg.activity_partyinvitation_template = {
 			"我很乐意接受您的邀请。那我们就开始吧。",
 			"跳舞时两个人的距离……再靠近一些也没关系。"
 		}
-	},
-	{
+	}
+	pg.base.activity_partyinvitation_template[6] = {
 		groupid = 20501,
 		ungift = "神神秘秘的，看来你是准备了什么礼物吧。\n当然很容易就看穿啦，每天想送本王礼物的人都排到十里开外了呢。\n不过，因为仆从的礼物，我会……多少更期待一些。",
 		skinId = 205011,
@@ -221,8 +236,8 @@ pg.activity_partyinvitation_template = {
 			"正好，就让本王看看你的舞技进步如何了。",
 			"仆从，你要努力跟上本王的舞步啊。"
 		}
-	},
-	{
+	}
+	pg.base.activity_partyinvitation_template[7] = {
 		groupid = 40501,
 		ungift = "谢谢你的陪伴，让我能够享受今天的宴会。\n你还准备了礼物？这真是……\n给今天这个完美的一天画上句号了啊，呵呵。",
 		skinId = 405011,
@@ -258,14 +273,5 @@ pg.activity_partyinvitation_template = {
 			"邀请我共舞？呵呵~我接下来的时间，就交给你了。",
 			"跳舞时，你看到了不一样的我吗？呵呵~"
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7
 	}
-}
+end)()

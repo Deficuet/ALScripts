@@ -1,6 +1,73 @@
 pg = pg or {}
-pg.ship_strengthen_meta = {
-	[970701] = {
+pg.ship_strengthen_meta = rawget(pg, "ship_strengthen_meta") or setmetatable({
+	__name = "ship_strengthen_meta"
+}, confNEO)
+pg.ship_strengthen_meta.all = {
+	970701,
+	970702,
+	970201,
+	970501,
+	970703,
+	970601,
+	970401,
+	970602,
+	970402,
+	970502,
+	970202,
+	970403,
+	970301,
+	970404,
+	970101,
+	970102,
+	970503,
+	970203,
+	970504,
+	970204,
+	970801,
+	971201,
+	970302,
+	970103,
+	970205,
+	970603,
+	971301,
+	970206,
+	970104,
+	970207,
+	970505,
+	970105,
+	970704,
+	970303,
+	970304,
+	970106,
+	970506,
+	970405,
+	970604,
+	970507,
+	970705,
+	970305,
+	970306,
+	970508,
+	970706,
+	970509,
+	970107,
+	970108,
+	970707,
+	970406,
+	970109,
+	970110,
+	970208,
+	970708,
+	970209,
+	970111,
+	970211,
+	970510,
+	970210
+}
+pg.base = pg.base or {}
+pg.base.ship_strengthen_meta = {}
+
+;(function()
+	pg.base.ship_strengthen_meta[970701] = {
 		synchronize = 5000,
 		activity_id = 802,
 		itemid = 21901,
@@ -451,8 +518,8 @@ pg.ship_strengthen_meta = {
 			-250,
 			0
 		}
-	},
-	[970702] = {
+	}
+	pg.base.ship_strengthen_meta[970702] = {
 		synchronize = 5000,
 		activity_id = 920,
 		itemid = 21902,
@@ -903,8 +970,8 @@ pg.ship_strengthen_meta = {
 			-300,
 			-58
 		}
-	},
-	[970201] = {
+	}
+	pg.base.ship_strengthen_meta[970201] = {
 		synchronize = 5000,
 		activity_id = 4008,
 		itemid = 21903,
@@ -1355,8 +1422,8 @@ pg.ship_strengthen_meta = {
 			-300,
 			-58
 		}
-	},
-	[970501] = {
+	}
+	pg.base.ship_strengthen_meta[970501] = {
 		synchronize = 0,
 		activity_id = 7001,
 		itemid = 0,
@@ -1462,8 +1529,8 @@ pg.ship_strengthen_meta = {
 			-379.9,
 			-4.4
 		}
-	},
-	[970703] = {
+	}
+	pg.base.ship_strengthen_meta[970703] = {
 		synchronize = 5000,
 		activity_id = 4100,
 		itemid = 21904,
@@ -1970,8 +2037,8 @@ pg.ship_strengthen_meta = {
 			-441.2,
 			-58
 		}
-	},
-	[970601] = {
+	}
+	pg.base.ship_strengthen_meta[970601] = {
 		synchronize = 0,
 		activity_id = 7002,
 		itemid = 0,
@@ -2077,8 +2144,8 @@ pg.ship_strengthen_meta = {
 			-392.33,
 			-50
 		}
-	},
-	[970401] = {
+	}
+	pg.base.ship_strengthen_meta[970401] = {
 		synchronize = 5000,
 		activity_id = 4180,
 		itemid = 21905,
@@ -2596,8 +2663,8 @@ pg.ship_strengthen_meta = {
 			-257.4,
 			-50
 		}
-	},
-	[970602] = {
+	}
+	pg.base.ship_strengthen_meta[970602] = {
 		synchronize = 0,
 		activity_id = 7003,
 		itemid = 0,
@@ -2703,8 +2770,8 @@ pg.ship_strengthen_meta = {
 			-272.5,
 			-109
 		}
-	},
-	[970402] = {
+	}
+	pg.base.ship_strengthen_meta[970402] = {
 		synchronize = 5000,
 		activity_id = 4282,
 		itemid = 21906,
@@ -3222,8 +3289,8 @@ pg.ship_strengthen_meta = {
 			-353,
 			33
 		}
-	},
-	[970502] = {
+	}
+	pg.base.ship_strengthen_meta[970502] = {
 		synchronize = 0,
 		activity_id = 7004,
 		itemid = 0,
@@ -3329,8 +3396,8 @@ pg.ship_strengthen_meta = {
 			-389.5,
 			-200
 		}
-	},
-	[970202] = {
+	}
+	pg.base.ship_strengthen_meta[970202] = {
 		synchronize = 0,
 		activity_id = 7005,
 		itemid = 0,
@@ -3437,8 +3504,8 @@ pg.ship_strengthen_meta = {
 			-280,
 			-90
 		}
-	},
-	[970403] = {
+	}
+	pg.base.ship_strengthen_meta[970403] = {
 		synchronize = 5000,
 		activity_id = 0,
 		itemid = 21907,
@@ -3945,8 +4012,8 @@ pg.ship_strengthen_meta = {
 			-408,
 			-130
 		}
-	},
-	[970301] = {
+	}
+	pg.base.ship_strengthen_meta[970301] = {
 		synchronize = 0,
 		activity_id = 7006,
 		itemid = 0,
@@ -4053,8 +4120,8 @@ pg.ship_strengthen_meta = {
 			-360,
 			50
 		}
-	},
-	[970404] = {
+	}
+	pg.base.ship_strengthen_meta[970404] = {
 		synchronize = 5000,
 		activity_id = 0,
 		itemid = 21908,
@@ -4561,8 +4628,8 @@ pg.ship_strengthen_meta = {
 			-437,
 			-77
 		}
-	},
-	[970101] = {
+	}
+	pg.base.ship_strengthen_meta[970101] = {
 		synchronize = 0,
 		activity_id = 7007,
 		itemid = 0,
@@ -4667,8 +4734,8 @@ pg.ship_strengthen_meta = {
 			-400,
 			-21
 		}
-	},
-	[970102] = {
+	}
+	pg.base.ship_strengthen_meta[970102] = {
 		synchronize = 0,
 		activity_id = 7008,
 		itemid = 0,
@@ -4773,8 +4840,8 @@ pg.ship_strengthen_meta = {
 			-400,
 			-21
 		}
-	},
-	[970503] = {
+	}
+	pg.base.ship_strengthen_meta[970503] = {
 		synchronize = 5000,
 		activity_id = 0,
 		itemid = 21909,
@@ -5281,8 +5348,8 @@ pg.ship_strengthen_meta = {
 			-361,
 			16
 		}
-	},
-	[970203] = {
+	}
+	pg.base.ship_strengthen_meta[970203] = {
 		synchronize = 0,
 		activity_id = 7009,
 		itemid = 0,
@@ -5388,8 +5455,8 @@ pg.ship_strengthen_meta = {
 			-337,
 			91
 		}
-	},
-	[970504] = {
+	}
+	pg.base.ship_strengthen_meta[970504] = {
 		synchronize = 5000,
 		activity_id = 0,
 		itemid = 21910,
@@ -5896,8 +5963,8 @@ pg.ship_strengthen_meta = {
 			-390.5,
 			16
 		}
-	},
-	[970204] = {
+	}
+	pg.base.ship_strengthen_meta[970204] = {
 		synchronize = 0,
 		activity_id = 7010,
 		itemid = 0,
@@ -6003,8 +6070,8 @@ pg.ship_strengthen_meta = {
 			-400,
 			-21
 		}
-	},
-	[970801] = {
+	}
+	pg.base.ship_strengthen_meta[970801] = {
 		synchronize = 0,
 		activity_id = 4856,
 		itemid = 0,
@@ -6111,8 +6178,8 @@ pg.ship_strengthen_meta = {
 			-300,
 			-58
 		}
-	},
-	[971201] = {
+	}
+	pg.base.ship_strengthen_meta[971201] = {
 		synchronize = 0,
 		activity_id = 7011,
 		itemid = 0,
@@ -6217,8 +6284,8 @@ pg.ship_strengthen_meta = {
 			-400,
 			-21
 		}
-	},
-	[970302] = {
+	}
+	pg.base.ship_strengthen_meta[970302] = {
 		synchronize = 5000,
 		activity_id = 0,
 		itemid = 21911,
@@ -6726,8 +6793,8 @@ pg.ship_strengthen_meta = {
 			-390.5,
 			16
 		}
-	},
-	[970103] = {
+	}
+	pg.base.ship_strengthen_meta[970103] = {
 		synchronize = 0,
 		activity_id = 7012,
 		itemid = 0,
@@ -6832,8 +6899,8 @@ pg.ship_strengthen_meta = {
 			-400,
 			-21
 		}
-	},
-	[970205] = {
+	}
+	pg.base.ship_strengthen_meta[970205] = {
 		synchronize = 5000,
 		activity_id = 0,
 		itemid = 21912,
@@ -7341,8 +7408,8 @@ pg.ship_strengthen_meta = {
 			-419,
 			8
 		}
-	},
-	[970603] = {
+	}
+	pg.base.ship_strengthen_meta[970603] = {
 		synchronize = 0,
 		activity_id = 7013,
 		itemid = 0,
@@ -7447,8 +7514,8 @@ pg.ship_strengthen_meta = {
 			-272.5,
 			-109
 		}
-	},
-	[971301] = {
+	}
+	pg.base.ship_strengthen_meta[971301] = {
 		synchronize = 0,
 		activity_id = 7014,
 		itemid = 0,
@@ -7553,8 +7620,8 @@ pg.ship_strengthen_meta = {
 			-272.5,
 			-109
 		}
-	},
-	[970206] = {
+	}
+	pg.base.ship_strengthen_meta[970206] = {
 		synchronize = 5000,
 		activity_id = 0,
 		itemid = 21913,
@@ -8062,8 +8129,8 @@ pg.ship_strengthen_meta = {
 			-372,
 			-47
 		}
-	},
-	[970104] = {
+	}
+	pg.base.ship_strengthen_meta[970104] = {
 		synchronize = 0,
 		activity_id = 7015,
 		itemid = 0,
@@ -8168,8 +8235,8 @@ pg.ship_strengthen_meta = {
 			-400,
 			-21
 		}
-	},
-	[970207] = {
+	}
+	pg.base.ship_strengthen_meta[970207] = {
 		synchronize = 0,
 		activity_id = 5223,
 		itemid = 0,
@@ -8276,8 +8343,8 @@ pg.ship_strengthen_meta = {
 			-300,
 			-58
 		}
-	},
-	[970505] = {
+	}
+	pg.base.ship_strengthen_meta[970505] = {
 		synchronize = 5000,
 		activity_id = 0,
 		itemid = 21914,
@@ -8784,8 +8851,8 @@ pg.ship_strengthen_meta = {
 			-238,
 			-10
 		}
-	},
-	[970105] = {
+	}
+	pg.base.ship_strengthen_meta[970105] = {
 		synchronize = 0,
 		activity_id = 7016,
 		itemid = 0,
@@ -8890,8 +8957,8 @@ pg.ship_strengthen_meta = {
 			-473.2,
 			-111
 		}
-	},
-	[970704] = {
+	}
+	pg.base.ship_strengthen_meta[970704] = {
 		synchronize = 0,
 		activity_id = 5352,
 		itemid = 0,
@@ -8998,8 +9065,8 @@ pg.ship_strengthen_meta = {
 			-473.2,
 			-13
 		}
-	},
-	[970303] = {
+	}
+	pg.base.ship_strengthen_meta[970303] = {
 		synchronize = 0,
 		activity_id = 7017,
 		itemid = 0,
@@ -9105,8 +9172,8 @@ pg.ship_strengthen_meta = {
 			-473.2,
 			-91.6
 		}
-	},
-	[970304] = {
+	}
+	pg.base.ship_strengthen_meta[970304] = {
 		synchronize = 5000,
 		activity_id = 0,
 		itemid = 21915,
@@ -9613,8 +9680,8 @@ pg.ship_strengthen_meta = {
 			-390.5,
 			39
 		}
-	},
-	[970106] = {
+	}
+	pg.base.ship_strengthen_meta[970106] = {
 		synchronize = 0,
 		activity_id = 7018,
 		itemid = 0,
@@ -9719,8 +9786,8 @@ pg.ship_strengthen_meta = {
 			-473.2,
 			60
 		}
-	},
-	[970506] = {
+	}
+	pg.base.ship_strengthen_meta[970506] = {
 		synchronize = 5000,
 		activity_id = 0,
 		itemid = 21916,
@@ -10227,8 +10294,8 @@ pg.ship_strengthen_meta = {
 			-380,
 			-10
 		}
-	},
-	[970405] = {
+	}
+	pg.base.ship_strengthen_meta[970405] = {
 		synchronize = 0,
 		activity_id = 5573,
 		itemid = 0,
@@ -10334,8 +10401,8 @@ pg.ship_strengthen_meta = {
 			-380,
 			-10
 		}
-	},
-	[970604] = {
+	}
+	pg.base.ship_strengthen_meta[970604] = {
 		synchronize = 0,
 		activity_id = 7019,
 		itemid = 0,
@@ -10440,8 +10507,8 @@ pg.ship_strengthen_meta = {
 			-311,
 			-100
 		}
-	},
-	[970507] = {
+	}
+	pg.base.ship_strengthen_meta[970507] = {
 		synchronize = 0,
 		activity_id = 7020,
 		itemid = 0,
@@ -10546,8 +10613,8 @@ pg.ship_strengthen_meta = {
 			-380,
 			-10
 		}
-	},
-	[970705] = {
+	}
+	pg.base.ship_strengthen_meta[970705] = {
 		synchronize = 5000,
 		activity_id = 0,
 		itemid = 21917,
@@ -11054,8 +11121,8 @@ pg.ship_strengthen_meta = {
 			-470,
 			-68
 		}
-	},
-	[970305] = {
+	}
+	pg.base.ship_strengthen_meta[970305] = {
 		synchronize = 0,
 		activity_id = 5724,
 		itemid = 0,
@@ -11162,8 +11229,8 @@ pg.ship_strengthen_meta = {
 			-390.5,
 			16
 		}
-	},
-	[970306] = {
+	}
+	pg.base.ship_strengthen_meta[970306] = {
 		synchronize = 0,
 		activity_id = 7021,
 		itemid = 0,
@@ -11269,8 +11336,8 @@ pg.ship_strengthen_meta = {
 			-473.2,
 			-16
 		}
-	},
-	[970508] = {
+	}
+	pg.base.ship_strengthen_meta[970508] = {
 		synchronize = 0,
 		activity_id = 5846,
 		itemid = 0,
@@ -11376,8 +11443,8 @@ pg.ship_strengthen_meta = {
 			-390.5,
 			16
 		}
-	},
-	[970706] = {
+	}
+	pg.base.ship_strengthen_meta[970706] = {
 		synchronize = 5000,
 		activity_id = 0,
 		itemid = 21918,
@@ -11884,8 +11951,8 @@ pg.ship_strengthen_meta = {
 			-250,
 			-40
 		}
-	},
-	[970509] = {
+	}
+	pg.base.ship_strengthen_meta[970509] = {
 		synchronize = 0,
 		activity_id = 7022,
 		itemid = 0,
@@ -11990,8 +12057,8 @@ pg.ship_strengthen_meta = {
 			-380,
 			-10
 		}
-	},
-	[970107] = {
+	}
+	pg.base.ship_strengthen_meta[970107] = {
 		synchronize = 0,
 		activity_id = 7023,
 		itemid = 0,
@@ -12096,8 +12163,8 @@ pg.ship_strengthen_meta = {
 			-380,
 			-10
 		}
-	},
-	[970108] = {
+	}
+	pg.base.ship_strengthen_meta[970108] = {
 		synchronize = 5000,
 		activity_id = 0,
 		itemid = 21919,
@@ -12604,8 +12671,8 @@ pg.ship_strengthen_meta = {
 			-550,
 			0
 		}
-	},
-	[970707] = {
+	}
+	pg.base.ship_strengthen_meta[970707] = {
 		synchronize = 0,
 		activity_id = 0,
 		itemid = 0,
@@ -12711,8 +12778,8 @@ pg.ship_strengthen_meta = {
 			-457.5,
 			-40
 		}
-	},
-	[970406] = {
+	}
+	pg.base.ship_strengthen_meta[970406] = {
 		synchronize = 0,
 		activity_id = 7024,
 		itemid = 0,
@@ -12817,8 +12884,8 @@ pg.ship_strengthen_meta = {
 			-380,
 			-10
 		}
-	},
-	[970109] = {
+	}
+	pg.base.ship_strengthen_meta[970109] = {
 		synchronize = 5000,
 		activity_id = 0,
 		itemid = 21920,
@@ -13325,8 +13392,8 @@ pg.ship_strengthen_meta = {
 			-480,
 			70
 		}
-	},
-	[970110] = {
+	}
+	pg.base.ship_strengthen_meta[970110] = {
 		synchronize = 0,
 		activity_id = 7025,
 		itemid = 0,
@@ -13431,8 +13498,8 @@ pg.ship_strengthen_meta = {
 			-473.2,
 			60
 		}
-	},
-	[970208] = {
+	}
+	pg.base.ship_strengthen_meta[970208] = {
 		synchronize = 0,
 		activity_id = 7026,
 		itemid = 0,
@@ -13537,8 +13604,8 @@ pg.ship_strengthen_meta = {
 			-280,
 			-90
 		}
-	},
-	[970708] = {
+	}
+	pg.base.ship_strengthen_meta[970708] = {
 		synchronize = 5000,
 		activity_id = 0,
 		itemid = 21921,
@@ -14045,8 +14112,8 @@ pg.ship_strengthen_meta = {
 			-360,
 			-60
 		}
-	},
-	[970209] = {
+	}
+	pg.base.ship_strengthen_meta[970209] = {
 		synchronize = 0,
 		activity_id = 0,
 		itemid = 0,
@@ -14152,8 +14219,8 @@ pg.ship_strengthen_meta = {
 			-280,
 			-90
 		}
-	},
-	[970111] = {
+	}
+	pg.base.ship_strengthen_meta[970111] = {
 		synchronize = 0,
 		activity_id = 7027,
 		itemid = 0,
@@ -14258,8 +14325,8 @@ pg.ship_strengthen_meta = {
 			-473.2,
 			60
 		}
-	},
-	[970211] = {
+	}
+	pg.base.ship_strengthen_meta[970211] = {
 		synchronize = 5000,
 		activity_id = 0,
 		itemid = 21922,
@@ -14767,8 +14834,8 @@ pg.ship_strengthen_meta = {
 			-420,
 			-20
 		}
-	},
-	[970510] = {
+	}
+	pg.base.ship_strengthen_meta[970510] = {
 		synchronize = 0,
 		activity_id = 50409,
 		itemid = 0,
@@ -14874,8 +14941,8 @@ pg.ship_strengthen_meta = {
 			-390.5,
 			16
 		}
-	},
-	[970210] = {
+	}
+	pg.base.ship_strengthen_meta[970210] = {
 		synchronize = 0,
 		activity_id = 7028,
 		itemid = 0,
@@ -14981,66 +15048,5 @@ pg.ship_strengthen_meta = {
 			-473.2,
 			-74.4
 		}
-	},
-	all = {
-		970701,
-		970702,
-		970201,
-		970501,
-		970703,
-		970601,
-		970401,
-		970602,
-		970402,
-		970502,
-		970202,
-		970403,
-		970301,
-		970404,
-		970101,
-		970102,
-		970503,
-		970203,
-		970504,
-		970204,
-		970801,
-		971201,
-		970302,
-		970103,
-		970205,
-		970603,
-		971301,
-		970206,
-		970104,
-		970207,
-		970505,
-		970105,
-		970704,
-		970303,
-		970304,
-		970106,
-		970506,
-		970405,
-		970604,
-		970507,
-		970705,
-		970305,
-		970306,
-		970508,
-		970706,
-		970509,
-		970107,
-		970108,
-		970707,
-		970406,
-		970109,
-		970110,
-		970208,
-		970708,
-		970209,
-		970111,
-		970211,
-		970510,
-		970210
 	}
-}
+end)()

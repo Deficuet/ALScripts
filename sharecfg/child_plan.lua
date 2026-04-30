@@ -1,6 +1,103 @@
 pg = pg or {}
-pg.child_plan = {
-	[1101] = {
+pg.child_plan = rawget(pg, "child_plan") or setmetatable({
+	__name = "child_plan"
+}, confNEO)
+pg.child_plan.all = {
+	1101,
+	1102,
+	1103,
+	1104,
+	1105,
+	1106,
+	1107,
+	1108,
+	1109,
+	1110,
+	1111,
+	1112,
+	1113,
+	1114,
+	1115,
+	1116,
+	1117,
+	1118,
+	1119,
+	1120,
+	1121,
+	1122,
+	1123,
+	1124,
+	1125,
+	1126,
+	1127,
+	1128,
+	1129,
+	1130,
+	1201,
+	1202,
+	1203,
+	1204,
+	1205,
+	1206,
+	1207,
+	1208,
+	1209,
+	1210,
+	1211,
+	1212,
+	1213,
+	1214,
+	1215,
+	1216,
+	1217,
+	1218,
+	1219,
+	1220,
+	1221,
+	1222,
+	1223,
+	1224,
+	1225,
+	1226,
+	1227,
+	1301,
+	1302,
+	1303,
+	1304,
+	1305,
+	1306,
+	1307,
+	1308,
+	1310,
+	1311,
+	1312,
+	1313,
+	1314,
+	1315,
+	1316,
+	1317,
+	1318,
+	1319,
+	1320,
+	1321,
+	1322,
+	1323,
+	1324,
+	1325,
+	1326,
+	1327,
+	1328,
+	1329,
+	1330,
+	1331,
+	1404,
+	1402
+}
+pg.base = pg.base or {}
+pg.base.child_plan = {}
+
+;(function()
+	pg.base.child_plan[1101] = {
 		cost_resource2 = 0,
 		name = "吃饭",
 		icon = "jiatingjiaoyu",
@@ -58,8 +155,8 @@ pg.child_plan = {
 			110101,
 			110102
 		}
-	},
-	[1102] = {
+	}
+	pg.base.child_plan[1102] = {
 		cost_resource2 = 0,
 		name = "洗漱",
 		icon = "jiatingjiaoyu",
@@ -112,8 +209,8 @@ pg.child_plan = {
 			110201,
 			110202
 		}
-	},
-	[1103] = {
+	}
+	pg.base.child_plan[1103] = {
 		cost_resource2 = 0,
 		name = "读故事",
 		icon = "jiatingjiaoyu",
@@ -166,8 +263,8 @@ pg.child_plan = {
 			110301,
 			110302
 		}
-	},
-	[1104] = {
+	}
+	pg.base.child_plan[1104] = {
 		cost_resource2 = 0,
 		name = "搭积木",
 		icon = "jiatingjiaoyu",
@@ -220,8 +317,8 @@ pg.child_plan = {
 			110401,
 			110402
 		}
-	},
-	[1105] = {
+	}
+	pg.base.child_plan[1105] = {
 		cost_resource2 = 0,
 		name = "锻炼",
 		icon = "jiatingjiaoyu",
@@ -274,8 +371,8 @@ pg.child_plan = {
 			110501,
 			110502
 		}
-	},
-	[1106] = {
+	}
+	pg.base.child_plan[1106] = {
 		cost_resource2 = 0,
 		name = "洗澡",
 		icon = "jiatingjiaoyu",
@@ -333,8 +430,8 @@ pg.child_plan = {
 			110601,
 			110602
 		}
-	},
-	[1107] = {
+	}
+	pg.base.child_plan[1107] = {
 		cost_resource2 = 1,
 		name = "初级研修",
 		icon = "kecheng",
@@ -422,8 +519,8 @@ pg.child_plan = {
 			110701,
 			110702
 		}
-	},
-	[1108] = {
+	}
+	pg.base.child_plan[1108] = {
 		cost_resource2 = 1,
 		name = "中级研修",
 		icon = "kecheng",
@@ -520,8 +617,8 @@ pg.child_plan = {
 			110801,
 			110802
 		}
-	},
-	[1109] = {
+	}
+	pg.base.child_plan[1109] = {
 		cost_resource2 = 2,
 		name = "高级研修",
 		icon = "kecheng",
@@ -618,8 +715,8 @@ pg.child_plan = {
 			110901,
 			110902
 		}
-	},
-	[1110] = {
+	}
+	pg.base.child_plan[1110] = {
 		cost_resource2 = 0,
 		name = "初级体能",
 		icon = "kecheng",
@@ -707,8 +804,8 @@ pg.child_plan = {
 			111001,
 			111002
 		}
-	},
-	[1111] = {
+	}
+	pg.base.child_plan[1111] = {
 		cost_resource2 = 0,
 		name = "中级体能",
 		icon = "kecheng",
@@ -805,8 +902,8 @@ pg.child_plan = {
 			111101,
 			111102
 		}
-	},
-	[1112] = {
+	}
+	pg.base.child_plan[1112] = {
 		cost_resource2 = 2,
 		name = "高级体能",
 		icon = "kecheng",
@@ -903,8 +1000,8 @@ pg.child_plan = {
 			111201,
 			111202
 		}
-	},
-	[1113] = {
+	}
+	pg.base.child_plan[1113] = {
 		cost_resource2 = 0,
 		name = "初级手工",
 		icon = "kecheng",
@@ -992,8 +1089,8 @@ pg.child_plan = {
 			111301,
 			111302
 		}
-	},
-	[1114] = {
+	}
+	pg.base.child_plan[1114] = {
 		cost_resource2 = 0,
 		name = "中级手工",
 		icon = "kecheng",
@@ -1090,8 +1187,8 @@ pg.child_plan = {
 			111401,
 			111402
 		}
-	},
-	[1115] = {
+	}
+	pg.base.child_plan[1115] = {
 		cost_resource2 = 2,
 		name = "高级手工",
 		icon = "kecheng",
@@ -1188,8 +1285,8 @@ pg.child_plan = {
 			111501,
 			111502
 		}
-	},
-	[1116] = {
+	}
+	pg.base.child_plan[1116] = {
 		cost_resource2 = 0,
 		name = "初级声乐",
 		icon = "kecheng",
@@ -1277,8 +1374,8 @@ pg.child_plan = {
 			111601,
 			111602
 		}
-	},
-	[1117] = {
+	}
+	pg.base.child_plan[1117] = {
 		cost_resource2 = 1,
 		name = "中级声乐",
 		icon = "kecheng",
@@ -1375,8 +1472,8 @@ pg.child_plan = {
 			111701,
 			111702
 		}
-	},
-	[1118] = {
+	}
+	pg.base.child_plan[1118] = {
 		cost_resource2 = 2,
 		name = "高级声乐",
 		icon = "kecheng",
@@ -1473,8 +1570,8 @@ pg.child_plan = {
 			111801,
 			111802
 		}
-	},
-	[1119] = {
+	}
+	pg.base.child_plan[1119] = {
 		cost_resource2 = 0,
 		name = "初级美术",
 		icon = "kecheng",
@@ -1578,8 +1675,8 @@ pg.child_plan = {
 			111901,
 			111902
 		}
-	},
-	[1120] = {
+	}
+	pg.base.child_plan[1120] = {
 		cost_resource2 = 1,
 		name = "中级美术",
 		icon = "kecheng",
@@ -1686,8 +1783,8 @@ pg.child_plan = {
 			112001,
 			112002
 		}
-	},
-	[1121] = {
+	}
+	pg.base.child_plan[1121] = {
 		cost_resource2 = 3,
 		name = "高级美术",
 		icon = "kecheng",
@@ -1794,8 +1891,8 @@ pg.child_plan = {
 			112101,
 			112102
 		}
-	},
-	[1122] = {
+	}
+	pg.base.child_plan[1122] = {
 		cost_resource2 = 0,
 		name = "初级形体",
 		icon = "kecheng",
@@ -1899,8 +1996,8 @@ pg.child_plan = {
 			112201,
 			112202
 		}
-	},
-	[1123] = {
+	}
+	pg.base.child_plan[1123] = {
 		cost_resource2 = 1,
 		name = "中级形体",
 		icon = "kecheng",
@@ -2007,8 +2104,8 @@ pg.child_plan = {
 			112301,
 			112302
 		}
-	},
-	[1124] = {
+	}
+	pg.base.child_plan[1124] = {
 		cost_resource2 = 3,
 		name = "高级形体",
 		icon = "kecheng",
@@ -2115,8 +2212,8 @@ pg.child_plan = {
 			112401,
 			112402
 		}
-	},
-	[1125] = {
+	}
+	pg.base.child_plan[1125] = {
 		cost_resource2 = 0,
 		name = "初级表演",
 		icon = "kecheng",
@@ -2220,8 +2317,8 @@ pg.child_plan = {
 			112501,
 			112502
 		}
-	},
-	[1126] = {
+	}
+	pg.base.child_plan[1126] = {
 		cost_resource2 = 2,
 		name = "中级表演",
 		icon = "kecheng",
@@ -2328,8 +2425,8 @@ pg.child_plan = {
 			112601,
 			112602
 		}
-	},
-	[1127] = {
+	}
+	pg.base.child_plan[1127] = {
 		cost_resource2 = 3,
 		name = "高级表演",
 		icon = "kecheng",
@@ -2436,8 +2533,8 @@ pg.child_plan = {
 			112701,
 			112702
 		}
-	},
-	[1128] = {
+	}
+	pg.base.child_plan[1128] = {
 		cost_resource2 = 1,
 		name = "初级书法",
 		icon = "kecheng",
@@ -2541,8 +2638,8 @@ pg.child_plan = {
 			112801,
 			112802
 		}
-	},
-	[1129] = {
+	}
+	pg.base.child_plan[1129] = {
 		cost_resource2 = 1,
 		name = "中级书法",
 		icon = "kecheng",
@@ -2649,8 +2746,8 @@ pg.child_plan = {
 			112901,
 			112902
 		}
-	},
-	[1130] = {
+	}
+	pg.base.child_plan[1130] = {
 		cost_resource2 = 1,
 		name = "高级书法",
 		icon = "kecheng",
@@ -2757,8 +2854,8 @@ pg.child_plan = {
 			113001,
 			113002
 		}
-	},
-	[1201] = {
+	}
+	pg.base.child_plan[1201] = {
 		cost_resource2 = 5,
 		name = "初级烹饪",
 		icon = "xingquban",
@@ -2856,8 +2953,8 @@ pg.child_plan = {
 			120101,
 			120102
 		}
-	},
-	[1202] = {
+	}
+	pg.base.child_plan[1202] = {
 		cost_resource2 = 6,
 		name = "中级烹饪",
 		icon = "xingquban",
@@ -2958,8 +3055,8 @@ pg.child_plan = {
 			120201,
 			120202
 		}
-	},
-	[1203] = {
+	}
+	pg.base.child_plan[1203] = {
 		cost_resource2 = 6,
 		name = "高级烹饪",
 		icon = "xingquban",
@@ -3060,8 +3157,8 @@ pg.child_plan = {
 			120301,
 			120302
 		}
-	},
-	[1204] = {
+	}
+	pg.base.child_plan[1204] = {
 		cost_resource2 = 5,
 		name = "初级园艺",
 		icon = "xingquban",
@@ -3159,8 +3256,8 @@ pg.child_plan = {
 			120401,
 			120402
 		}
-	},
-	[1205] = {
+	}
+	pg.base.child_plan[1205] = {
 		cost_resource2 = 6,
 		name = "中级园艺",
 		icon = "xingquban",
@@ -3261,8 +3358,8 @@ pg.child_plan = {
 			120501,
 			120502
 		}
-	},
-	[1206] = {
+	}
+	pg.base.child_plan[1206] = {
 		cost_resource2 = 7,
 		name = "高级园艺",
 		icon = "xingquban",
@@ -3363,8 +3460,8 @@ pg.child_plan = {
 			120601,
 			120602
 		}
-	},
-	[1207] = {
+	}
+	pg.base.child_plan[1207] = {
 		cost_resource2 = 6,
 		name = "初级运动",
 		icon = "xingquban",
@@ -3457,8 +3554,8 @@ pg.child_plan = {
 			120701,
 			120702
 		}
-	},
-	[1208] = {
+	}
+	pg.base.child_plan[1208] = {
 		cost_resource2 = 7,
 		name = "中级运动",
 		icon = "xingquban",
@@ -3554,8 +3651,8 @@ pg.child_plan = {
 			120801,
 			120802
 		}
-	},
-	[1209] = {
+	}
+	pg.base.child_plan[1209] = {
 		cost_resource2 = 8,
 		name = "高级运动",
 		icon = "xingquban",
@@ -3651,8 +3748,8 @@ pg.child_plan = {
 			120901,
 			120902
 		}
-	},
-	[1210] = {
+	}
+	pg.base.child_plan[1210] = {
 		cost_resource2 = 4,
 		name = "初级写生",
 		icon = "xingquban",
@@ -3750,8 +3847,8 @@ pg.child_plan = {
 			121001,
 			121002
 		}
-	},
-	[1211] = {
+	}
+	pg.base.child_plan[1211] = {
 		cost_resource2 = 5,
 		name = "中级写生",
 		icon = "xingquban",
@@ -3852,8 +3949,8 @@ pg.child_plan = {
 			121101,
 			121102
 		}
-	},
-	[1212] = {
+	}
+	pg.base.child_plan[1212] = {
 		cost_resource2 = 5,
 		name = "高级写生",
 		icon = "xingquban",
@@ -3954,8 +4051,8 @@ pg.child_plan = {
 			121201,
 			121202
 		}
-	},
-	[1213] = {
+	}
+	pg.base.child_plan[1213] = {
 		cost_resource2 = 5,
 		name = "初级茶道",
 		icon = "xingquban",
@@ -4063,8 +4160,8 @@ pg.child_plan = {
 			121301,
 			121302
 		}
-	},
-	[1214] = {
+	}
+	pg.base.child_plan[1214] = {
 		cost_resource2 = 6,
 		name = "中级茶道",
 		icon = "xingquban",
@@ -4175,8 +4272,8 @@ pg.child_plan = {
 			121401,
 			121402
 		}
-	},
-	[1215] = {
+	}
+	pg.base.child_plan[1215] = {
 		cost_resource2 = 6,
 		name = "高级茶道",
 		icon = "xingquban",
@@ -4287,8 +4384,8 @@ pg.child_plan = {
 			121501,
 			121502
 		}
-	},
-	[1216] = {
+	}
+	pg.base.child_plan[1216] = {
 		cost_resource2 = 5,
 		name = "初级戏剧",
 		icon = "xingquban",
@@ -4386,8 +4483,8 @@ pg.child_plan = {
 			121601,
 			121602
 		}
-	},
-	[1217] = {
+	}
+	pg.base.child_plan[1217] = {
 		cost_resource2 = 6,
 		name = "中级戏剧",
 		icon = "xingquban",
@@ -4488,8 +4585,8 @@ pg.child_plan = {
 			121701,
 			121702
 		}
-	},
-	[1218] = {
+	}
+	pg.base.child_plan[1218] = {
 		cost_resource2 = 7,
 		name = "高级戏剧",
 		icon = "xingquban",
@@ -4590,8 +4687,8 @@ pg.child_plan = {
 			121801,
 			121802
 		}
-	},
-	[1219] = {
+	}
+	pg.base.child_plan[1219] = {
 		cost_resource2 = 5,
 		name = "初级演奏",
 		icon = "xingquban",
@@ -4689,8 +4786,8 @@ pg.child_plan = {
 			121901,
 			121902
 		}
-	},
-	[1220] = {
+	}
+	pg.base.child_plan[1220] = {
 		cost_resource2 = 6,
 		name = "中级演奏",
 		icon = "xingquban",
@@ -4791,8 +4888,8 @@ pg.child_plan = {
 			122001,
 			122002
 		}
-	},
-	[1221] = {
+	}
+	pg.base.child_plan[1221] = {
 		cost_resource2 = 6,
 		name = "高级演奏",
 		icon = "xingquban",
@@ -4893,8 +4990,8 @@ pg.child_plan = {
 			122101,
 			122102
 		}
-	},
-	[1222] = {
+	}
+	pg.base.child_plan[1222] = {
 		cost_resource2 = 5,
 		name = "初级拓展",
 		icon = "xingquban",
@@ -5002,8 +5099,8 @@ pg.child_plan = {
 			122201,
 			122202
 		}
-	},
-	[1223] = {
+	}
+	pg.base.child_plan[1223] = {
 		cost_resource2 = 6,
 		name = "中级拓展",
 		icon = "xingquban",
@@ -5114,8 +5211,8 @@ pg.child_plan = {
 			122301,
 			122302
 		}
-	},
-	[1224] = {
+	}
+	pg.base.child_plan[1224] = {
 		cost_resource2 = 7,
 		name = "高级拓展",
 		icon = "xingquban",
@@ -5226,8 +5323,8 @@ pg.child_plan = {
 			122401,
 			122402
 		}
-	},
-	[1225] = {
+	}
+	pg.base.child_plan[1225] = {
 		cost_resource2 = 4,
 		name = "初级音乐剧",
 		icon = "xingquban",
@@ -5335,8 +5432,8 @@ pg.child_plan = {
 			122501,
 			122502
 		}
-	},
-	[1226] = {
+	}
+	pg.base.child_plan[1226] = {
 		cost_resource2 = 5,
 		name = "中级音乐剧",
 		icon = "xingquban",
@@ -5447,8 +5544,8 @@ pg.child_plan = {
 			122601,
 			122602
 		}
-	},
-	[1227] = {
+	}
+	pg.base.child_plan[1227] = {
 		cost_resource2 = 6,
 		name = "高级音乐剧",
 		icon = "xingquban",
@@ -5559,8 +5656,8 @@ pg.child_plan = {
 			122701,
 			122702
 		}
-	},
-	[1301] = {
+	}
+	pg.base.child_plan[1301] = {
 		cost_resource2 = 4,
 		name = "初级绘画",
 		icon = "shehuihuodong",
@@ -5658,8 +5755,8 @@ pg.child_plan = {
 			130101,
 			130102
 		}
-	},
-	[1302] = {
+	}
+	pg.base.child_plan[1302] = {
 		cost_resource2 = 3,
 		name = "初级书店店员",
 		icon = "shehuihuodong",
@@ -5752,8 +5849,8 @@ pg.child_plan = {
 			130201,
 			130202
 		}
-	},
-	[1303] = {
+	}
+	pg.base.child_plan[1303] = {
 		cost_resource2 = 4,
 		name = "初级庄园助手",
 		icon = "shehuihuodong",
@@ -5851,8 +5948,8 @@ pg.child_plan = {
 			130301,
 			130302
 		}
-	},
-	[1304] = {
+	}
+	pg.base.child_plan[1304] = {
 		cost_resource2 = 4,
 		name = "初级运动指导",
 		icon = "shehuihuodong",
@@ -5945,8 +6042,8 @@ pg.child_plan = {
 			130401,
 			130402
 		}
-	},
-	[1305] = {
+	}
+	pg.base.child_plan[1305] = {
 		cost_resource2 = 3,
 		name = "初级舞台表演",
 		icon = "shehuihuodong",
@@ -6044,8 +6141,8 @@ pg.child_plan = {
 			130501,
 			130502
 		}
-	},
-	[1306] = {
+	}
+	pg.base.child_plan[1306] = {
 		cost_resource2 = 3,
 		name = "初级歌手活动",
 		icon = "shehuihuodong",
@@ -6138,8 +6235,8 @@ pg.child_plan = {
 			130601,
 			130602
 		}
-	},
-	[1307] = {
+	}
+	pg.base.child_plan[1307] = {
 		cost_resource2 = 4,
 		name = "初级英雄表演",
 		icon = "shehuihuodong",
@@ -6237,8 +6334,8 @@ pg.child_plan = {
 			130701,
 			130702
 		}
-	},
-	[1308] = {
+	}
+	pg.base.child_plan[1308] = {
 		cost_resource2 = 5,
 		name = "初级促销专员",
 		icon = "shehuihuodong",
@@ -6336,8 +6433,8 @@ pg.child_plan = {
 			130801,
 			130802
 		}
-	},
-	[1310] = {
+	}
+	pg.base.child_plan[1310] = {
 		cost_resource2 = 3,
 		name = "初级便利店店员",
 		icon = "shehuihuodong",
@@ -6424,8 +6521,8 @@ pg.child_plan = {
 			131001,
 			131002
 		}
-	},
-	[1311] = {
+	}
+	pg.base.child_plan[1311] = {
 		cost_resource2 = 3,
 		name = "初级咖啡店店员",
 		icon = "shehuihuodong",
@@ -6523,8 +6620,8 @@ pg.child_plan = {
 			131101,
 			131102
 		}
-	},
-	[1312] = {
+	}
+	pg.base.child_plan[1312] = {
 		cost_resource2 = 4,
 		name = "中级绘画",
 		icon = "shehuihuodong",
@@ -6625,8 +6722,8 @@ pg.child_plan = {
 			130101,
 			130102
 		}
-	},
-	[1313] = {
+	}
+	pg.base.child_plan[1313] = {
 		cost_resource2 = 3,
 		name = "中级书店店员",
 		icon = "shehuihuodong",
@@ -6722,8 +6819,8 @@ pg.child_plan = {
 			130201,
 			130202
 		}
-	},
-	[1314] = {
+	}
+	pg.base.child_plan[1314] = {
 		cost_resource2 = 5,
 		name = "中级庄园助手",
 		icon = "shehuihuodong",
@@ -6824,8 +6921,8 @@ pg.child_plan = {
 			130301,
 			130302
 		}
-	},
-	[1315] = {
+	}
+	pg.base.child_plan[1315] = {
 		cost_resource2 = 5,
 		name = "中级运动指导",
 		icon = "shehuihuodong",
@@ -6921,8 +7018,8 @@ pg.child_plan = {
 			130401,
 			130402
 		}
-	},
-	[1316] = {
+	}
+	pg.base.child_plan[1316] = {
 		cost_resource2 = 4,
 		name = "中级舞台表演",
 		icon = "shehuihuodong",
@@ -7023,8 +7120,8 @@ pg.child_plan = {
 			130501,
 			130502
 		}
-	},
-	[1317] = {
+	}
+	pg.base.child_plan[1317] = {
 		cost_resource2 = 4,
 		name = "中级歌手活动",
 		icon = "shehuihuodong",
@@ -7120,8 +7217,8 @@ pg.child_plan = {
 			130601,
 			130602
 		}
-	},
-	[1318] = {
+	}
+	pg.base.child_plan[1318] = {
 		cost_resource2 = 5,
 		name = "中级英雄表演",
 		icon = "shehuihuodong",
@@ -7222,8 +7319,8 @@ pg.child_plan = {
 			130701,
 			130702
 		}
-	},
-	[1319] = {
+	}
+	pg.base.child_plan[1319] = {
 		cost_resource2 = 6,
 		name = "中级促销专员",
 		icon = "shehuihuodong",
@@ -7324,8 +7421,8 @@ pg.child_plan = {
 			130801,
 			130802
 		}
-	},
-	[1320] = {
+	}
+	pg.base.child_plan[1320] = {
 		cost_resource2 = 4,
 		name = "中级便利店店员",
 		icon = "shehuihuodong",
@@ -7415,8 +7512,8 @@ pg.child_plan = {
 			131001,
 			131002
 		}
-	},
-	[1321] = {
+	}
+	pg.base.child_plan[1321] = {
 		cost_resource2 = 4,
 		name = "中级咖啡店店员",
 		icon = "shehuihuodong",
@@ -7517,8 +7614,8 @@ pg.child_plan = {
 			131101,
 			131102
 		}
-	},
-	[1322] = {
+	}
+	pg.base.child_plan[1322] = {
 		cost_resource2 = 5,
 		name = "高级绘画",
 		icon = "shehuihuodong",
@@ -7619,8 +7716,8 @@ pg.child_plan = {
 			130101,
 			130102
 		}
-	},
-	[1323] = {
+	}
+	pg.base.child_plan[1323] = {
 		cost_resource2 = 3,
 		name = "高级书店店员",
 		icon = "shehuihuodong",
@@ -7716,8 +7813,8 @@ pg.child_plan = {
 			130201,
 			130202
 		}
-	},
-	[1324] = {
+	}
+	pg.base.child_plan[1324] = {
 		cost_resource2 = 5,
 		name = "高级庄园助手",
 		icon = "shehuihuodong",
@@ -7818,8 +7915,8 @@ pg.child_plan = {
 			130301,
 			130302
 		}
-	},
-	[1325] = {
+	}
+	pg.base.child_plan[1325] = {
 		cost_resource2 = 6,
 		name = "高级运动指导",
 		icon = "shehuihuodong",
@@ -7915,8 +8012,8 @@ pg.child_plan = {
 			130401,
 			130402
 		}
-	},
-	[1326] = {
+	}
+	pg.base.child_plan[1326] = {
 		cost_resource2 = 5,
 		name = "高级舞台表演",
 		icon = "shehuihuodong",
@@ -8017,8 +8114,8 @@ pg.child_plan = {
 			130501,
 			130502
 		}
-	},
-	[1327] = {
+	}
+	pg.base.child_plan[1327] = {
 		cost_resource2 = 4,
 		name = "高级歌手活动",
 		icon = "shehuihuodong",
@@ -8114,8 +8211,8 @@ pg.child_plan = {
 			130601,
 			130602
 		}
-	},
-	[1328] = {
+	}
+	pg.base.child_plan[1328] = {
 		cost_resource2 = 6,
 		name = "高级英雄表演",
 		icon = "shehuihuodong",
@@ -8216,8 +8313,8 @@ pg.child_plan = {
 			130701,
 			130702
 		}
-	},
-	[1329] = {
+	}
+	pg.base.child_plan[1329] = {
 		cost_resource2 = 7,
 		name = "高级促销专员",
 		icon = "shehuihuodong",
@@ -8318,8 +8415,8 @@ pg.child_plan = {
 			130801,
 			130802
 		}
-	},
-	[1330] = {
+	}
+	pg.base.child_plan[1330] = {
 		cost_resource2 = 5,
 		name = "高级便利店店员",
 		icon = "shehuihuodong",
@@ -8409,8 +8506,8 @@ pg.child_plan = {
 			131001,
 			131002
 		}
-	},
-	[1331] = {
+	}
+	pg.base.child_plan[1331] = {
 		cost_resource2 = 4,
 		name = "高级咖啡店店员",
 		icon = "shehuihuodong",
@@ -8511,8 +8608,8 @@ pg.child_plan = {
 			131101,
 			131102
 		}
-	},
-	[1404] = {
+	}
+	pg.base.child_plan[1404] = {
 		cost_resource2 = 2,
 		name = "做家务",
 		icon = "shehuihuodong",
@@ -8616,8 +8713,8 @@ pg.child_plan = {
 			130901,
 			130902
 		}
-	},
-	[1402] = {
+	}
+	pg.base.child_plan[1402] = {
 		cost_resource2 = 0,
 		name = "宅家睡觉",
 		icon = "ziyouxingcheng",
@@ -8721,96 +8818,5 @@ pg.child_plan = {
 			140101,
 			140102
 		}
-	},
-	all = {
-		1101,
-		1102,
-		1103,
-		1104,
-		1105,
-		1106,
-		1107,
-		1108,
-		1109,
-		1110,
-		1111,
-		1112,
-		1113,
-		1114,
-		1115,
-		1116,
-		1117,
-		1118,
-		1119,
-		1120,
-		1121,
-		1122,
-		1123,
-		1124,
-		1125,
-		1126,
-		1127,
-		1128,
-		1129,
-		1130,
-		1201,
-		1202,
-		1203,
-		1204,
-		1205,
-		1206,
-		1207,
-		1208,
-		1209,
-		1210,
-		1211,
-		1212,
-		1213,
-		1214,
-		1215,
-		1216,
-		1217,
-		1218,
-		1219,
-		1220,
-		1221,
-		1222,
-		1223,
-		1224,
-		1225,
-		1226,
-		1227,
-		1301,
-		1302,
-		1303,
-		1304,
-		1305,
-		1306,
-		1307,
-		1308,
-		1310,
-		1311,
-		1312,
-		1313,
-		1314,
-		1315,
-		1316,
-		1317,
-		1318,
-		1319,
-		1320,
-		1321,
-		1322,
-		1323,
-		1324,
-		1325,
-		1326,
-		1327,
-		1328,
-		1329,
-		1330,
-		1331,
-		1404,
-		1402
 	}
-}
+end)()

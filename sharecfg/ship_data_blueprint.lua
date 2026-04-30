@@ -1,6 +1,56 @@
 pg = pg or {}
-pg.ship_data_blueprint = {
-	[29901] = {
+pg.ship_data_blueprint = rawget(pg, "ship_data_blueprint") or setmetatable({
+	__name = "ship_data_blueprint"
+}, confNEO)
+pg.ship_data_blueprint.all = {
+	29901,
+	29902,
+	39901,
+	39902,
+	49901,
+	89901,
+	19901,
+	19902,
+	39903,
+	39904,
+	49902,
+	99901,
+	29903,
+	29904,
+	49903,
+	49904,
+	89902,
+	19903,
+	39905,
+	49905,
+	49906,
+	69901,
+	29905,
+	49907,
+	59901,
+	79901,
+	89903,
+	19904,
+	39906,
+	49908,
+	49909,
+	99902,
+	19905,
+	39907,
+	69902,
+	79902,
+	89904,
+	19906,
+	49910,
+	69903,
+	79903,
+	119901
+}
+pg.base = pg.base or {}
+pg.base.ship_data_blueprint = {}
+
+;(function()
+	pg.base.ship_data_blueprint[29901] = {
 		blueprint_version = 1,
 		name = "海王星",
 		simulate_dungeon = 0,
@@ -103,8 +153,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40124
 		}
-	},
-	[29902] = {
+	}
+	pg.base.ship_data_blueprint[29902] = {
 		blueprint_version = 1,
 		name = "君主",
 		simulate_dungeon = 0,
@@ -207,8 +257,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40124
 		}
-	},
-	[39901] = {
+	}
+	pg.base.ship_data_blueprint[39901] = {
 		blueprint_version = 1,
 		name = "伊吹",
 		simulate_dungeon = 0,
@@ -311,8 +361,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40124
 		}
-	},
-	[39902] = {
+	}
+	pg.base.ship_data_blueprint[39902] = {
 		blueprint_version = 1,
 		name = "出云",
 		simulate_dungeon = 0,
@@ -415,8 +465,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40124
 		}
-	},
-	[49901] = {
+	}
+	pg.base.ship_data_blueprint[49901] = {
 		blueprint_version = 1,
 		name = "罗恩",
 		simulate_dungeon = 0,
@@ -519,8 +569,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40124
 		}
-	},
-	[89901] = {
+	}
+	pg.base.ship_data_blueprint[89901] = {
 		blueprint_version = 1,
 		name = "路易九世",
 		simulate_dungeon = 0,
@@ -623,8 +673,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40124
 		}
-	},
-	[19901] = {
+	}
+	pg.base.ship_data_blueprint[19901] = {
 		blueprint_version = 2,
 		name = "西雅图",
 		simulate_dungeon = 9907,
@@ -727,8 +777,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40125
 		}
-	},
-	[19902] = {
+	}
+	pg.base.ship_data_blueprint[19902] = {
 		blueprint_version = 2,
 		name = "佐治亚",
 		simulate_dungeon = 9908,
@@ -831,8 +881,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40125
 		}
-	},
-	[39903] = {
+	}
+	pg.base.ship_data_blueprint[39903] = {
 		blueprint_version = 2,
 		name = "北风",
 		simulate_dungeon = 9909,
@@ -935,8 +985,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40125
 		}
-	},
-	[39904] = {
+	}
+	pg.base.ship_data_blueprint[39904] = {
 		blueprint_version = 2,
 		name = "吾妻",
 		simulate_dungeon = 9910,
@@ -1041,8 +1091,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[49902] = {
+	}
+	pg.base.ship_data_blueprint[49902] = {
 		blueprint_version = 2,
 		name = "腓特烈大帝",
 		simulate_dungeon = 9911,
@@ -1147,8 +1197,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[99901] = {
+	}
+	pg.base.ship_data_blueprint[99901] = {
 		blueprint_version = 2,
 		name = "加斯科涅",
 		simulate_dungeon = 9912,
@@ -1252,8 +1302,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40125
 		}
-	},
-	[29903] = {
+	}
+	pg.base.ship_data_blueprint[29903] = {
 		blueprint_version = 3,
 		name = "柴郡",
 		simulate_dungeon = 9913,
@@ -1356,8 +1406,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40130
 		}
-	},
-	[29904] = {
+	}
+	pg.base.ship_data_blueprint[29904] = {
 		blueprint_version = 3,
 		name = "德雷克",
 		simulate_dungeon = 9914,
@@ -1462,8 +1512,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[49903] = {
+	}
+	pg.base.ship_data_blueprint[49903] = {
 		blueprint_version = 3,
 		name = "美因茨",
 		simulate_dungeon = 9915,
@@ -1566,8 +1616,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40130
 		}
-	},
-	[49904] = {
+	}
+	pg.base.ship_data_blueprint[49904] = {
 		blueprint_version = 3,
 		name = "奥丁",
 		simulate_dungeon = 9916,
@@ -1670,8 +1720,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40130
 		}
-	},
-	[89902] = {
+	}
+	pg.base.ship_data_blueprint[89902] = {
 		blueprint_version = 3,
 		name = "香槟",
 		simulate_dungeon = 9917,
@@ -1775,8 +1825,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40130
 		}
-	},
-	[19903] = {
+	}
+	pg.base.ship_data_blueprint[19903] = {
 		blueprint_version = 4,
 		name = "安克雷奇",
 		simulate_dungeon = 9918,
@@ -1879,8 +1929,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40139
 		}
-	},
-	[39905] = {
+	}
+	pg.base.ship_data_blueprint[39905] = {
 		blueprint_version = 4,
 		name = "白龙",
 		simulate_dungeon = 9919,
@@ -1985,8 +2035,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[49905] = {
+	}
+	pg.base.ship_data_blueprint[49905] = {
 		blueprint_version = 4,
 		name = "埃吉尔",
 		simulate_dungeon = 9920,
@@ -2076,8 +2126,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[49906] = {
+	}
+	pg.base.ship_data_blueprint[49906] = {
 		blueprint_version = 4,
 		name = "奥古斯特·冯·帕塞瓦尔",
 		simulate_dungeon = 9921,
@@ -2180,8 +2230,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40139
 		}
-	},
-	[69901] = {
+	}
+	pg.base.ship_data_blueprint[69901] = {
 		blueprint_version = 4,
 		name = "马可波罗",
 		simulate_dungeon = 9922,
@@ -2285,8 +2335,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40139
 		}
-	},
-	[29905] = {
+	}
+	pg.base.ship_data_blueprint[29905] = {
 		blueprint_version = 5,
 		name = "普利茅斯",
 		simulate_dungeon = 9923,
@@ -2376,8 +2426,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[49907] = {
+	}
+	pg.base.ship_data_blueprint[49907] = {
 		blueprint_version = 5,
 		name = "鲁普雷希特亲王",
 		simulate_dungeon = 9924,
@@ -2480,8 +2530,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40140
 		}
-	},
-	[59901] = {
+	}
+	pg.base.ship_data_blueprint[59901] = {
 		blueprint_version = 5,
 		name = "哈尔滨",
 		simulate_dungeon = 9925,
@@ -2584,8 +2634,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40140
 		}
-	},
-	[79901] = {
+	}
+	pg.base.ship_data_blueprint[79901] = {
 		blueprint_version = 5,
 		name = "契卡洛夫",
 		simulate_dungeon = 9926,
@@ -2689,8 +2739,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40140
 		}
-	},
-	[89903] = {
+	}
+	pg.base.ship_data_blueprint[89903] = {
 		blueprint_version = 5,
 		name = "布雷斯特",
 		simulate_dungeon = 9927,
@@ -2780,8 +2830,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[19904] = {
+	}
+	pg.base.ship_data_blueprint[19904] = {
 		blueprint_version = 6,
 		name = "奇尔沙治",
 		simulate_dungeon = 9928,
@@ -2871,8 +2921,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[39906] = {
+	}
+	pg.base.ship_data_blueprint[39906] = {
 		blueprint_version = 6,
 		name = "四万十",
 		simulate_dungeon = 9929,
@@ -2973,8 +3023,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[49908] = {
+	}
+	pg.base.ship_data_blueprint[49908] = {
 		blueprint_version = 6,
 		name = "菲利克斯·舒尔茨",
 		simulate_dungeon = 9930,
@@ -3075,8 +3125,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[49909] = {
+	}
+	pg.base.ship_data_blueprint[49909] = {
 		blueprint_version = 6,
 		name = "兴登堡",
 		simulate_dungeon = 9931,
@@ -3166,8 +3216,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[99902] = {
+	}
+	pg.base.ship_data_blueprint[99902] = {
 		blueprint_version = 6,
 		name = "弗兰德尔",
 		simulate_dungeon = 9932,
@@ -3269,8 +3319,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[19905] = {
+	}
+	pg.base.ship_data_blueprint[19905] = {
 		blueprint_version = 7,
 		name = "哈尔福德",
 		simulate_dungeon = 9933,
@@ -3371,8 +3421,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[39907] = {
+	}
+	pg.base.ship_data_blueprint[39907] = {
 		blueprint_version = 7,
 		name = "大山",
 		simulate_dungeon = 9934,
@@ -3473,8 +3523,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[69902] = {
+	}
+	pg.base.ship_data_blueprint[69902] = {
 		blueprint_version = 7,
 		name = "那不勒斯",
 		simulate_dungeon = 9935,
@@ -3565,8 +3615,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[79902] = {
+	}
+	pg.base.ship_data_blueprint[79902] = {
 		blueprint_version = 7,
 		name = "纳希莫夫",
 		simulate_dungeon = 9936,
@@ -3657,8 +3707,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[89904] = {
+	}
+	pg.base.ship_data_blueprint[89904] = {
 		blueprint_version = 7,
 		name = "贝亚德",
 		simulate_dungeon = 9937,
@@ -3759,8 +3809,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[19906] = {
+	}
+	pg.base.ship_data_blueprint[19906] = {
 		blueprint_version = 8,
 		name = "堪萨斯",
 		simulate_dungeon = 9938,
@@ -3852,8 +3902,8 @@ pg.ship_data_blueprint = {
 		normal_display = {
 			"主炮底座+1"
 		}
-	},
-	[49910] = {
+	}
+	pg.base.ship_data_blueprint[49910] = {
 		blueprint_version = 8,
 		name = "梅克伦堡",
 		simulate_dungeon = 9939,
@@ -3943,8 +3993,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[69903] = {
+	}
+	pg.base.ship_data_blueprint[69903] = {
 		blueprint_version = 8,
 		name = "维托里奥·库尼贝尔蒂",
 		simulate_dungeon = 9940,
@@ -4034,8 +4084,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[79903] = {
+	}
+	pg.base.ship_data_blueprint[79903] = {
 		blueprint_version = 8,
 		name = "迪米特里·顿斯科伊",
 		simulate_dungeon = 9941,
@@ -4125,8 +4175,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[119901] = {
+	}
+	pg.base.ship_data_blueprint[119901] = {
 		blueprint_version = 8,
 		name = "金狮",
 		simulate_dungeon = 9942,
@@ -4219,49 +4269,5 @@ pg.ship_data_blueprint = {
 		normal_display = {
 			"空袭航空属性Lv.1"
 		}
-	},
-	all = {
-		29901,
-		29902,
-		39901,
-		39902,
-		49901,
-		89901,
-		19901,
-		19902,
-		39903,
-		39904,
-		49902,
-		99901,
-		29903,
-		29904,
-		49903,
-		49904,
-		89902,
-		19903,
-		39905,
-		49905,
-		49906,
-		69901,
-		29905,
-		49907,
-		59901,
-		79901,
-		89903,
-		19904,
-		39906,
-		49908,
-		49909,
-		99902,
-		19905,
-		39907,
-		69902,
-		79902,
-		89904,
-		19906,
-		49910,
-		69903,
-		79903,
-		119901
 	}
-}
+end)()

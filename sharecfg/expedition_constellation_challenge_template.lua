@@ -1,6 +1,50 @@
 pg = pg or {}
-pg.expedition_constellation_challenge_template = {
-	[10001] = {
+pg.expedition_constellation_challenge_template = rawget(pg, "expedition_constellation_challenge_template") or setmetatable({
+	__name = "expedition_constellation_challenge_template"
+}, confNEO)
+pg.expedition_constellation_challenge_template.all = {
+	10001,
+	10002,
+	10003,
+	10004,
+	10005,
+	10006,
+	10007,
+	10008,
+	10009,
+	10010,
+	10011,
+	10012,
+	10013,
+	10014,
+	10015,
+	10016,
+	10017,
+	10018,
+	10019,
+	10020,
+	10021,
+	10022,
+	10023,
+	10024,
+	10025,
+	10026,
+	10027,
+	10028,
+	10029,
+	10030,
+	10031,
+	10032,
+	10033,
+	10034,
+	10035,
+	10036
+}
+pg.base = pg.base or {}
+pg.base.expedition_constellation_challenge_template = {}
+
+;(function()
+	pg.base.expedition_constellation_challenge_template[10001] = {
 		painting = "huashengdun",
 		button_style = 7,
 		information_icon = "huashengdun_constellation",
@@ -28,8 +72,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10002] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10002] = {
 		painting = "huashengdun",
 		button_style = 7,
 		information_icon = "huashengdun_constellation",
@@ -57,8 +101,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10003] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10003] = {
 		painting = "huashengdun",
 		button_style = 7,
 		information_icon = "huashengdun_constellation",
@@ -86,8 +130,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10004] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10004] = {
 		painting = "sipeibojue",
 		button_style = 7,
 		information_icon = "sipeibojue_constellation",
@@ -115,8 +159,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10005] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10005] = {
 		painting = "sipeibojue",
 		button_style = 7,
 		information_icon = "sipeibojue_constellation",
@@ -144,8 +188,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10006] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10006] = {
 		painting = "sipeibojue",
 		button_style = 7,
 		information_icon = "sipeibojue_constellation",
@@ -173,8 +217,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10007] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10007] = {
 		painting = "shengdiyage",
 		button_style = 7,
 		information_icon = "shengdiyage_constellation",
@@ -202,8 +246,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10008] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10008] = {
 		painting = "shengdiyage",
 		button_style = 7,
 		information_icon = "shengdiyage_constellation",
@@ -231,8 +275,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10009] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10009] = {
 		painting = "shengdiyage",
 		button_style = 7,
 		information_icon = "shengdiyage_constellation",
@@ -260,8 +304,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10010] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10010] = {
 		painting = "hailunna",
 		button_style = 7,
 		information_icon = "hailunna_constellation",
@@ -289,8 +333,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10011] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10011] = {
 		painting = "hailunna",
 		button_style = 7,
 		information_icon = "hailunna_constellation",
@@ -318,8 +362,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10012] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10012] = {
 		painting = "hailunna",
 		button_style = 7,
 		information_icon = "hailunna_constellation",
@@ -347,8 +391,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10013] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10013] = {
 		painting = "qiye",
 		button_style = 7,
 		information_icon = "qiye_constellation",
@@ -376,8 +420,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10014] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10014] = {
 		painting = "qiye",
 		button_style = 7,
 		information_icon = "qiye_constellation",
@@ -405,8 +449,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10015] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10015] = {
 		painting = "qiye",
 		button_style = 7,
 		information_icon = "qiye_constellation",
@@ -434,8 +478,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10016] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10016] = {
 		painting = "aierbin",
 		button_style = 7,
 		information_icon = "aierbin_constellation",
@@ -463,8 +507,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10017] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10017] = {
 		painting = "aierbin",
 		button_style = 7,
 		information_icon = "aierbin_constellation",
@@ -492,8 +536,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10018] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10018] = {
 		painting = "aierbin",
 		button_style = 7,
 		information_icon = "aierbin_constellation",
@@ -521,8 +565,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10019] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10019] = {
 		painting = "yanzhan",
 		button_style = 7,
 		information_icon = "yanzhan_constellation",
@@ -550,8 +594,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10020] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10020] = {
 		painting = "yanzhan",
 		button_style = 7,
 		information_icon = "yanzhan_constellation",
@@ -579,8 +623,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10021] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10021] = {
 		painting = "yanzhan",
 		button_style = 7,
 		information_icon = "yanzhan_constellation",
@@ -608,8 +652,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10022] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10022] = {
 		painting = "gecheng",
 		button_style = 7,
 		information_icon = "gecheng_constellation",
@@ -637,8 +681,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10023] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10023] = {
 		painting = "gecheng",
 		button_style = 7,
 		information_icon = "gecheng_constellation",
@@ -666,8 +710,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10024] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10024] = {
 		painting = "gecheng",
 		button_style = 7,
 		information_icon = "gecheng_constellation",
@@ -695,8 +739,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10025] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10025] = {
 		painting = "niukasier",
 		button_style = 7,
 		information_icon = "niukasier_constellation",
@@ -724,8 +768,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10026] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10026] = {
 		painting = "niukasier",
 		button_style = 7,
 		information_icon = "niukasier_constellation",
@@ -753,8 +797,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10027] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10027] = {
 		painting = "niukasier",
 		button_style = 7,
 		information_icon = "niukasier_constellation",
@@ -782,8 +826,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10028] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10028] = {
 		painting = "yuekegongjue",
 		button_style = 7,
 		information_icon = "yuekegongjue_constellation",
@@ -811,8 +855,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10029] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10029] = {
 		painting = "yuekegongjue",
 		button_style = 7,
 		information_icon = "yuekegongjue_constellation",
@@ -840,8 +884,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10030] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10030] = {
 		painting = "yuekegongjue",
 		button_style = 7,
 		information_icon = "yuekegongjue_constellation",
@@ -869,8 +913,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10031] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10031] = {
 		painting = "xuefeng",
 		button_style = 7,
 		information_icon = "xuefeng_constellation",
@@ -898,8 +942,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10032] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10032] = {
 		painting = "xuefeng",
 		button_style = 7,
 		information_icon = "xuefeng_constellation",
@@ -927,8 +971,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10033] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10033] = {
 		painting = "xuefeng",
 		button_style = 7,
 		information_icon = "xuefeng_constellation",
@@ -956,8 +1000,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10034] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10034] = {
 		painting = "gaoxiong",
 		button_style = 7,
 		information_icon = "gaoxiong_constellation",
@@ -985,8 +1029,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10035] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10035] = {
 		painting = "gaoxiong",
 		button_style = 7,
 		information_icon = "gaoxiong_constellation",
@@ -1014,8 +1058,8 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	[10036] = {
+	}
+	pg.base.expedition_constellation_challenge_template[10036] = {
 		painting = "gaoxiong",
 		button_style = 7,
 		information_icon = "gaoxiong_constellation",
@@ -1043,43 +1087,5 @@ pg.expedition_constellation_challenge_template = {
 				1
 			}
 		}
-	},
-	all = {
-		10001,
-		10002,
-		10003,
-		10004,
-		10005,
-		10006,
-		10007,
-		10008,
-		10009,
-		10010,
-		10011,
-		10012,
-		10013,
-		10014,
-		10015,
-		10016,
-		10017,
-		10018,
-		10019,
-		10020,
-		10021,
-		10022,
-		10023,
-		10024,
-		10025,
-		10026,
-		10027,
-		10028,
-		10029,
-		10030,
-		10031,
-		10032,
-		10033,
-		10034,
-		10035,
-		10036
 	}
-}
+end)()

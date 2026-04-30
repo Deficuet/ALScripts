@@ -1,6 +1,58 @@
 pg = pg or {}
-pg.spweapon_upgrade = {
-	{
+pg.spweapon_upgrade = rawget(pg, "spweapon_upgrade") or setmetatable({
+	__name = "spweapon_upgrade"
+}, confNEO)
+pg.spweapon_upgrade.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	10001,
+	10002,
+	10003,
+	10004,
+	10005,
+	10006,
+	10007,
+	10008,
+	10009,
+	10010,
+	10011
+}
+pg.base = pg.base or {}
+pg.base.spweapon_upgrade = {}
+
+;(function()
+	pg.base.spweapon_upgrade[1] = {
 		upgrade_use_pt = 20,
 		create_use_gold = 700,
 		create_use_pt = 250,
@@ -20,8 +72,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.spweapon_upgrade[2] = {
 		upgrade_use_pt = 30,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -36,8 +88,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.spweapon_upgrade[3] = {
 		upgrade_use_pt = 40,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -52,8 +104,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.spweapon_upgrade[4] = {
 		upgrade_use_pt = 50,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -68,8 +120,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.spweapon_upgrade[5] = {
 		upgrade_use_pt = 60,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -84,8 +136,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.spweapon_upgrade[6] = {
 		upgrade_use_pt = 80,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -100,8 +152,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.spweapon_upgrade[7] = {
 		upgrade_use_pt = 110,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -116,8 +168,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.spweapon_upgrade[8] = {
 		upgrade_use_pt = 150,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -132,8 +184,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.spweapon_upgrade[9] = {
 		upgrade_use_pt = 200,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -148,8 +200,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.spweapon_upgrade[10] = {
 		upgrade_use_pt = 260,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -164,8 +216,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.spweapon_upgrade[11] = {
 		upgrade_use_pt = 750,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -185,8 +237,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[21] = {
+	}
+	pg.base.spweapon_upgrade[21] = {
 		upgrade_use_pt = 60,
 		create_use_gold = 2800,
 		create_use_pt = 2000,
@@ -206,8 +258,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[22] = {
+	}
+	pg.base.spweapon_upgrade[22] = {
 		upgrade_use_pt = 90,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -222,8 +274,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[23] = {
+	}
+	pg.base.spweapon_upgrade[23] = {
 		upgrade_use_pt = 120,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -238,8 +290,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[24] = {
+	}
+	pg.base.spweapon_upgrade[24] = {
 		upgrade_use_pt = 150,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -254,8 +306,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[25] = {
+	}
+	pg.base.spweapon_upgrade[25] = {
 		upgrade_use_pt = 180,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -270,8 +322,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[26] = {
+	}
+	pg.base.spweapon_upgrade[26] = {
 		upgrade_use_pt = 240,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -286,8 +338,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[27] = {
+	}
+	pg.base.spweapon_upgrade[27] = {
 		upgrade_use_pt = 330,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -302,8 +354,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[28] = {
+	}
+	pg.base.spweapon_upgrade[28] = {
 		upgrade_use_pt = 450,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -318,8 +370,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[29] = {
+	}
+	pg.base.spweapon_upgrade[29] = {
 		upgrade_use_pt = 600,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -334,8 +386,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[30] = {
+	}
+	pg.base.spweapon_upgrade[30] = {
 		upgrade_use_pt = 780,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -350,8 +402,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[31] = {
+	}
+	pg.base.spweapon_upgrade[31] = {
 		upgrade_use_pt = 0,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -366,8 +418,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[101] = {
+	}
+	pg.base.spweapon_upgrade[101] = {
 		upgrade_use_pt = 240,
 		create_use_gold = 10000,
 		create_use_pt = 3000,
@@ -387,8 +439,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[102] = {
+	}
+	pg.base.spweapon_upgrade[102] = {
 		upgrade_use_pt = 360,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -403,8 +455,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[103] = {
+	}
+	pg.base.spweapon_upgrade[103] = {
 		upgrade_use_pt = 480,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -419,8 +471,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[104] = {
+	}
+	pg.base.spweapon_upgrade[104] = {
 		upgrade_use_pt = 600,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -435,8 +487,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[105] = {
+	}
+	pg.base.spweapon_upgrade[105] = {
 		upgrade_use_pt = 720,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -451,8 +503,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[106] = {
+	}
+	pg.base.spweapon_upgrade[106] = {
 		upgrade_use_pt = 960,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -467,8 +519,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[107] = {
+	}
+	pg.base.spweapon_upgrade[107] = {
 		upgrade_use_pt = 1320,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -483,8 +535,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[108] = {
+	}
+	pg.base.spweapon_upgrade[108] = {
 		upgrade_use_pt = 1800,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -499,8 +551,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[109] = {
+	}
+	pg.base.spweapon_upgrade[109] = {
 		upgrade_use_pt = 2400,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -515,8 +567,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[110] = {
+	}
+	pg.base.spweapon_upgrade[110] = {
 		upgrade_use_pt = 3120,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -531,8 +583,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[111] = {
+	}
+	pg.base.spweapon_upgrade[111] = {
 		upgrade_use_pt = 0,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -547,8 +599,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[10001] = {
+	}
+	pg.base.spweapon_upgrade[10001] = {
 		upgrade_use_pt = 120,
 		create_use_gold = 10000,
 		create_use_pt = 3000,
@@ -568,8 +620,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[10002] = {
+	}
+	pg.base.spweapon_upgrade[10002] = {
 		upgrade_use_pt = 180,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -584,8 +636,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[10003] = {
+	}
+	pg.base.spweapon_upgrade[10003] = {
 		upgrade_use_pt = 240,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -600,8 +652,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[10004] = {
+	}
+	pg.base.spweapon_upgrade[10004] = {
 		upgrade_use_pt = 300,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -616,8 +668,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[10005] = {
+	}
+	pg.base.spweapon_upgrade[10005] = {
 		upgrade_use_pt = 360,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -632,8 +684,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[10006] = {
+	}
+	pg.base.spweapon_upgrade[10006] = {
 		upgrade_use_pt = 480,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -648,8 +700,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[10007] = {
+	}
+	pg.base.spweapon_upgrade[10007] = {
 		upgrade_use_pt = 660,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -664,8 +716,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[10008] = {
+	}
+	pg.base.spweapon_upgrade[10008] = {
 		upgrade_use_pt = 900,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -680,8 +732,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[10009] = {
+	}
+	pg.base.spweapon_upgrade[10009] = {
 		upgrade_use_pt = 1200,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -696,8 +748,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[10010] = {
+	}
+	pg.base.spweapon_upgrade[10010] = {
 		upgrade_use_pt = 1560,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -712,8 +764,8 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	[10011] = {
+	}
+	pg.base.spweapon_upgrade[10011] = {
 		upgrade_use_pt = 0,
 		create_use_gold = 0,
 		create_use_pt = 0,
@@ -728,51 +780,5 @@ pg.spweapon_upgrade = {
 				1
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		10001,
-		10002,
-		10003,
-		10004,
-		10005,
-		10006,
-		10007,
-		10008,
-		10009,
-		10010,
-		10011
 	}
-}
+end)()

@@ -1,6 +1,40 @@
 pg = pg or {}
-pg.game_room_template = {
-	{
+pg.game_room_template = rawget(pg, "game_room_template") or setmetatable({
+	__name = "game_room_template"
+}, confNEO)
+pg.game_room_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26
+}
+pg.base = pg.base or {}
+pg.base.game_room_template = {}
+
+;(function()
+	pg.base.game_room_template[1] = {
 		coin_max = 5,
 		game_id = 1002,
 		add_type = 12,
@@ -52,8 +86,8 @@ pg.game_room_template = {
 			0,
 			20
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[2] = {
 		coin_max = 5,
 		game_id = 1003,
 		add_type = 12,
@@ -135,8 +169,8 @@ pg.game_room_template = {
 			157,
 			-153
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[3] = {
 		coin_max = 5,
 		game_id = 1004,
 		add_type = 12,
@@ -188,8 +222,8 @@ pg.game_room_template = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[4] = {
 		coin_max = 5,
 		game_id = 1005,
 		add_type = 12,
@@ -241,8 +275,8 @@ pg.game_room_template = {
 			320,
 			-310
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[5] = {
 		coin_max = 5,
 		game_id = 1006,
 		add_type = 12,
@@ -318,8 +352,8 @@ pg.game_room_template = {
 			-411,
 			-441
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[6] = {
 		coin_max = 5,
 		game_id = 1007,
 		add_type = 12,
@@ -371,8 +405,8 @@ pg.game_room_template = {
 			0,
 			-450
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[7] = {
 		coin_max = 5,
 		game_id = 1008,
 		add_type = 12,
@@ -424,8 +458,8 @@ pg.game_room_template = {
 			0,
 			-110
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[8] = {
 		coin_max = 5,
 		game_id = 1009,
 		add_type = 12,
@@ -477,8 +511,8 @@ pg.game_room_template = {
 			0,
 			-200
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[9] = {
 		coin_max = 5,
 		game_id = 1010,
 		add_type = 12,
@@ -530,8 +564,8 @@ pg.game_room_template = {
 			150,
 			-180
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[10] = {
 		coin_max = 5,
 		game_id = 1011,
 		add_type = 12,
@@ -583,8 +617,8 @@ pg.game_room_template = {
 			0,
 			-300
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[11] = {
 		coin_max = 5,
 		game_id = 1012,
 		add_type = 12,
@@ -636,8 +670,8 @@ pg.game_room_template = {
 			0,
 			-280
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[12] = {
 		coin_max = 5,
 		game_id = 1013,
 		add_type = 12,
@@ -707,8 +741,8 @@ pg.game_room_template = {
 			0,
 			-120
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[13] = {
 		coin_max = 5,
 		game_id = 1014,
 		add_type = 12,
@@ -760,8 +794,8 @@ pg.game_room_template = {
 			0,
 			-120
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[14] = {
 		game_id = 1015,
 		type = 11,
 		add_base = 200,
@@ -809,8 +843,8 @@ pg.game_room_template = {
 			0,
 			-120
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[15] = {
 		coin_max = 5,
 		game_id = 1016,
 		add_type = 12,
@@ -862,8 +896,8 @@ pg.game_room_template = {
 			0,
 			-120
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[16] = {
 		game_id = 1017,
 		type = 11,
 		add_base = 200,
@@ -911,8 +945,8 @@ pg.game_room_template = {
 			0,
 			-200
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[17] = {
 		game_id = 1018,
 		type = 11,
 		add_base = 200,
@@ -960,8 +994,8 @@ pg.game_room_template = {
 			0,
 			-200
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[18] = {
 		coin_max = 5,
 		game_id = 1019,
 		add_type = 12,
@@ -1013,8 +1047,8 @@ pg.game_room_template = {
 			0,
 			-150
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[19] = {
 		coin_max = 5,
 		game_id = 1020,
 		add_type = 12,
@@ -1066,8 +1100,8 @@ pg.game_room_template = {
 			0,
 			-200
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[20] = {
 		coin_max = 5,
 		game_id = 1021,
 		add_type = 12,
@@ -1119,8 +1153,8 @@ pg.game_room_template = {
 			0,
 			-200
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[21] = {
 		coin_max = 5,
 		game_id = 1022,
 		add_type = 12,
@@ -1172,8 +1206,8 @@ pg.game_room_template = {
 			0,
 			-200
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[22] = {
 		coin_max = 5,
 		game_id = 1023,
 		add_type = 12,
@@ -1225,8 +1259,8 @@ pg.game_room_template = {
 			0,
 			-200
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[23] = {
 		coin_max = 5,
 		game_id = 1024,
 		add_type = 12,
@@ -1278,8 +1312,8 @@ pg.game_room_template = {
 			-773,
 			-432
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[24] = {
 		coin_max = 5,
 		game_id = 1025,
 		add_type = 12,
@@ -1331,8 +1365,8 @@ pg.game_room_template = {
 			0,
 			-200
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[25] = {
 		coin_max = 5,
 		game_id = 1026,
 		add_type = 12,
@@ -1384,8 +1418,8 @@ pg.game_room_template = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[26] = {
 		coin_max = 5,
 		game_id = 1027,
 		add_type = 12,
@@ -1437,33 +1471,5 @@ pg.game_room_template = {
 			0,
 			-200
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26
 	}
-}
+end)()

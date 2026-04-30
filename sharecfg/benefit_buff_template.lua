@@ -1,330 +1,262 @@
 pg = pg or {}
-pg.benefit_buff_template = setmetatable({
-	__name = "benefit_buff_template",
-	get_id_list_by_benefit_type = {
-		dorm_exp = {
-			1,
-			2,
-			3,
-			22,
-			23,
-			24,
-			44,
-			45,
-			46,
-			61,
-			62,
-			66,
-			67,
-			76,
-			77,
-			84,
-			85,
-			91,
-			92,
-			102,
-			122,
-			123,
-			124,
-			125,
-			300096,
-			300097,
-			300098,
-			300099,
-			300100,
-			300110,
-			300111,
-			300112
-		},
-		rookie_battle_exp = {
-			4,
-			101
-		},
-		more_oil = {
-			5
-		},
-		user_battle_exp = {
-			6
-		},
-		ship_battle_exp = {
-			7,
-			13,
-			14,
-			15,
-			32,
-			33,
-			34,
-			41,
-			42,
-			43,
-			60,
-			65,
-			69,
-			70,
-			75,
-			80,
-			83,
-			88,
-			90,
-			95,
-			110,
-			111,
-			112,
-			113,
-			300061,
-			300062,
-			300063,
-			300081,
-			300082,
-			300083,
-			300084,
-			300085,
-			300101,
-			300102,
-			300103
-		},
-		extra_drop = {
-			8
-		},
-		extra_activity_drop = {
-			9
-		},
-		skill_learncost_up = {
-			10,
-			19,
-			20,
-			21,
-			38,
-			39,
-			40,
-			118,
-			119,
-			120,
-			121,
-			143,
-			300091,
-			300092,
-			300093,
-			300094,
-			300095,
-			300107,
-			300108,
-			300109
-		},
-		battle_buff = {
-			11,
-			16,
-			17,
-			18,
-			26,
-			27,
-			28,
-			29,
-			30,
-			31,
-			35,
-			36,
-			37,
-			49,
-			50,
-			51,
-			52,
-			53,
-			54,
-			55,
-			56,
-			57,
-			58,
-			59,
-			63,
-			64,
-			68,
-			71,
-			72,
-			74,
-			78,
-			79,
-			82,
-			86,
-			87,
-			89,
-			93,
-			94,
-			114,
-			115,
-			116,
-			117,
-			144,
-			300001,
-			300002,
-			300003,
-			300011,
-			300012,
-			300013,
-			300021,
-			300022,
-			300023,
-			300031,
-			300032,
-			300033,
-			300041,
-			300042,
-			300043,
-			300051,
-			300052,
-			300053,
-			300086,
-			300087,
-			300088,
-			300089,
-			300090,
-			300104,
-			300105,
-			300106,
-			300201,
-			300202,
-			300203,
-			300205,
-			300206,
-			300207,
-			300209,
-			300210,
-			300211,
-			300213,
-			300214,
-			300215,
-			300217,
-			300218,
-			300219,
-			300301,
-			300302,
-			300303,
-			300304,
-			300305,
-			300306,
-			300307,
-			300308,
-			300309,
-			300310,
-			300311,
-			300312,
-			300313,
-			300314,
-			300315,
-			300316,
-			300317,
-			300318,
-			300319,
-			300320,
-			300321,
-			300322,
-			300323,
-			300324,
-			300325,
-			300326,
-			300327
-		},
-		intimacy_up_extra = {
-			12,
-			145
-		},
-		urpt_drop_up = {
-			25
-		},
-		desc = {
-			47,
-			300221,
-			300300
-		},
-		chapter_up = {
-			48
-		},
-		dorm_energy = {
-			73
-		},
-		skill_learn_time = {
-			103
-		},
-		character_strengthen_exp = {
-			104
-		},
-		build_buff = {
-			126,
-			127,
-			128,
-			129,
-			130,
-			131,
-			132,
-			133,
-			134,
-			135,
-			136,
-			137,
-			138,
-			139,
-			140,
-			141
-		},
-		ship_battle_intimacy = {
-			142,
-			300071,
-			300204,
-			300208,
-			300212,
-			300216,
-			300220
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
+pg.benefit_buff_template = rawget(pg, "benefit_buff_template") or setmetatable({
+	__name = "benefit_buff_template"
+}, confNEO)
+pg.benefit_buff_template.__namecode__ = true
+pg.benefit_buff_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	67,
+	68,
+	69,
+	70,
+	71,
+	72,
+	73,
+	74,
+	75,
+	76,
+	77,
+	78,
+	79,
+	80,
+	82,
+	83,
+	84,
+	85,
+	86,
+	87,
+	88,
+	89,
+	90,
+	91,
+	92,
+	93,
+	94,
+	95,
+	101,
+	102,
+	103,
+	104,
+	110,
+	111,
+	112,
+	113,
+	114,
+	115,
+	116,
+	117,
+	118,
+	119,
+	120,
+	121,
+	122,
+	123,
+	124,
+	125,
+	126,
+	127,
+	128,
+	129,
+	130,
+	131,
+	132,
+	133,
+	134,
+	135,
+	136,
+	137,
+	138,
+	139,
+	140,
+	141,
+	142,
+	143,
+	144,
+	145,
+	300001,
+	300002,
+	300003,
+	300011,
+	300012,
+	300013,
+	300021,
+	300022,
+	300023,
+	300031,
+	300032,
+	300033,
+	300041,
+	300042,
+	300043,
+	300051,
+	300052,
+	300053,
+	300061,
+	300062,
+	300063,
+	300071,
+	300081,
+	300082,
+	300083,
+	300084,
+	300085,
+	300086,
+	300087,
+	300088,
+	300089,
+	300090,
+	300091,
+	300092,
+	300093,
+	300094,
+	300095,
+	300096,
+	300097,
+	300098,
+	300099,
+	300100,
+	300101,
+	300102,
+	300103,
+	300104,
+	300105,
+	300106,
+	300107,
+	300108,
+	300109,
+	300110,
+	300111,
+	300112,
+	300201,
+	300202,
+	300203,
+	300204,
+	300205,
+	300206,
+	300207,
+	300208,
+	300209,
+	300210,
+	300211,
+	300212,
+	300213,
+	300214,
+	300215,
+	300216,
+	300217,
+	300218,
+	300219,
+	300220,
+	300221,
+	300300,
+	300301,
+	300302,
+	300303,
+	300304,
+	300305,
+	300306,
+	300307,
+	300308,
+	300309,
+	300310,
+	300311,
+	300312,
+	300313,
+	300314,
+	300315,
+	300316,
+	300317,
+	300318,
+	300319,
+	300320,
+	300321,
+	300322,
+	300323,
+	300324,
+	300325,
+	300326,
+	300327
+}
+pg.benefit_buff_template.get_id_list_by_benefit_type = {
+	battle_buff = {
 		11,
-		12,
-		13,
-		14,
-		15,
 		16,
 		17,
 		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
 		26,
 		27,
 		28,
 		29,
 		30,
 		31,
-		32,
-		33,
-		34,
 		35,
 		36,
 		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
 		49,
 		50,
 		51,
@@ -336,81 +268,25 @@ pg.benefit_buff_template = setmetatable({
 		57,
 		58,
 		59,
-		60,
-		61,
-		62,
 		63,
 		64,
-		65,
-		66,
-		67,
 		68,
-		69,
-		70,
 		71,
 		72,
-		73,
 		74,
-		75,
-		76,
-		77,
 		78,
 		79,
-		80,
 		82,
-		83,
-		84,
-		85,
 		86,
 		87,
-		88,
 		89,
-		90,
-		91,
-		92,
 		93,
 		94,
-		95,
-		101,
-		102,
-		103,
-		104,
-		110,
-		111,
-		112,
-		113,
 		114,
 		115,
 		116,
 		117,
-		118,
-		119,
-		120,
-		121,
-		122,
-		123,
-		124,
-		125,
-		126,
-		127,
-		128,
-		129,
-		130,
-		131,
-		132,
-		133,
-		134,
-		135,
-		136,
-		137,
-		138,
-		139,
-		140,
-		141,
-		142,
-		143,
 		144,
-		145,
 		300001,
 		300002,
 		300003,
@@ -429,64 +305,29 @@ pg.benefit_buff_template = setmetatable({
 		300051,
 		300052,
 		300053,
-		300061,
-		300062,
-		300063,
-		300071,
-		300081,
-		300082,
-		300083,
-		300084,
-		300085,
 		300086,
 		300087,
 		300088,
 		300089,
 		300090,
-		300091,
-		300092,
-		300093,
-		300094,
-		300095,
-		300096,
-		300097,
-		300098,
-		300099,
-		300100,
-		300101,
-		300102,
-		300103,
 		300104,
 		300105,
 		300106,
-		300107,
-		300108,
-		300109,
-		300110,
-		300111,
-		300112,
 		300201,
 		300202,
 		300203,
-		300204,
 		300205,
 		300206,
 		300207,
-		300208,
 		300209,
 		300210,
 		300211,
-		300212,
 		300213,
 		300214,
 		300215,
-		300216,
 		300217,
 		300218,
 		300219,
-		300220,
-		300221,
-		300300,
 		300301,
 		300302,
 		300303,
@@ -514,11 +355,173 @@ pg.benefit_buff_template = setmetatable({
 		300325,
 		300326,
 		300327
+	},
+	build_buff = {
+		126,
+		127,
+		128,
+		129,
+		130,
+		131,
+		132,
+		133,
+		134,
+		135,
+		136,
+		137,
+		138,
+		139,
+		140,
+		141
+	},
+	chapter_up = {
+		48
+	},
+	character_strengthen_exp = {
+		104
+	},
+	desc = {
+		47,
+		300221,
+		300300
+	},
+	dorm_energy = {
+		73
+	},
+	dorm_exp = {
+		1,
+		2,
+		3,
+		22,
+		23,
+		24,
+		44,
+		45,
+		46,
+		61,
+		62,
+		66,
+		67,
+		76,
+		77,
+		84,
+		85,
+		91,
+		92,
+		102,
+		122,
+		123,
+		124,
+		125,
+		300096,
+		300097,
+		300098,
+		300099,
+		300100,
+		300110,
+		300111,
+		300112
+	},
+	extra_activity_drop = {
+		9
+	},
+	extra_drop = {
+		8
+	},
+	intimacy_up_extra = {
+		12,
+		145
+	},
+	more_oil = {
+		5
+	},
+	rookie_battle_exp = {
+		4,
+		101
+	},
+	ship_battle_exp = {
+		7,
+		13,
+		14,
+		15,
+		32,
+		33,
+		34,
+		41,
+		42,
+		43,
+		60,
+		65,
+		69,
+		70,
+		75,
+		80,
+		83,
+		88,
+		90,
+		95,
+		110,
+		111,
+		112,
+		113,
+		300061,
+		300062,
+		300063,
+		300081,
+		300082,
+		300083,
+		300084,
+		300085,
+		300101,
+		300102,
+		300103
+	},
+	ship_battle_intimacy = {
+		142,
+		300071,
+		300204,
+		300208,
+		300212,
+		300216,
+		300220
+	},
+	skill_learn_time = {
+		103
+	},
+	skill_learncost_up = {
+		10,
+		19,
+		20,
+		21,
+		38,
+		39,
+		40,
+		118,
+		119,
+		120,
+		121,
+		143,
+		300091,
+		300092,
+		300093,
+		300094,
+		300095,
+		300107,
+		300108,
+		300109
+	},
+	urpt_drop_up = {
+		25
+	},
+	user_battle_exp = {
+		6
 	}
-}, confHX)
+}
 pg.base = pg.base or {}
-pg.base.benefit_buff_template = {
-	{
+pg.base.benefit_buff_template = {}
+
+;(function()
+	pg.base.benefit_buff_template[1] = {
 		type_priority = 0,
 		name = "",
 		hide = 0,
@@ -530,8 +533,8 @@ pg.base.benefit_buff_template = {
 		id = 1,
 		icon = "Props/haijungali",
 		benefit_type = "dorm_exp"
-	},
-	{
+	}
+	pg.base.benefit_buff_template[2] = {
 		type_priority = 0,
 		name = "",
 		hide = 0,
@@ -543,8 +546,8 @@ pg.base.benefit_buff_template = {
 		id = 2,
 		icon = "Props/huangjialiaoli",
 		benefit_type = "dorm_exp"
-	},
-	{
+	}
+	pg.base.benefit_buff_template[3] = {
 		type_priority = 0,
 		name = "",
 		hide = 0,
@@ -556,8 +559,8 @@ pg.base.benefit_buff_template = {
 		id = 3,
 		icon = "Props/manhanquanxi",
 		benefit_type = "dorm_exp"
-	},
-	{
+	}
+	pg.base.benefit_buff_template[4] = {
 		type_priority = 0,
 		name = "经验加成",
 		hide = 0,
@@ -573,8 +576,8 @@ pg.base.benefit_buff_template = {
 			"<",
 			80
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[5] = {
 		type_priority = 0,
 		name = "石油消耗增加",
 		hide = 0,
@@ -586,8 +589,8 @@ pg.base.benefit_buff_template = {
 		id = 5,
 		icon = "Props/xinshou",
 		benefit_type = "more_oil"
-	},
-	{
+	}
+	pg.base.benefit_buff_template[6] = {
 		type_priority = 0,
 		name = "指挥官经验加成",
 		hide = 0,
@@ -599,8 +602,8 @@ pg.base.benefit_buff_template = {
 		id = 6,
 		icon = "Props/xinshou",
 		benefit_type = "user_battle_exp"
-	},
-	{
+	}
+	pg.base.benefit_buff_template[7] = {
 		type_priority = 0,
 		name = "舰娘经验加成",
 		hide = 0,
@@ -612,8 +615,8 @@ pg.base.benefit_buff_template = {
 		id = 7,
 		icon = "Props/xinshou",
 		benefit_type = "ship_battle_exp"
-	},
-	{
+	}
+	pg.base.benefit_buff_template[8] = {
 		type_priority = 0,
 		name = "掉落加成",
 		hide = 0,
@@ -625,8 +628,8 @@ pg.base.benefit_buff_template = {
 		id = 8,
 		icon = "Props/xinshou",
 		benefit_type = "extra_drop"
-	},
-	{
+	}
+	pg.base.benefit_buff_template[9] = {
 		type_priority = 0,
 		name = "活动掉落加成",
 		hide = 0,
@@ -638,8 +641,8 @@ pg.base.benefit_buff_template = {
 		id = 9,
 		icon = "Props/xinshou",
 		benefit_type = "extra_activity_drop"
-	},
-	{
+	}
+	pg.base.benefit_buff_template[10] = {
 		type_priority = 0,
 		name = "学业",
 		hide = 0,
@@ -651,8 +654,8 @@ pg.base.benefit_buff_template = {
 		id = 10,
 		icon = "Props/buff_qiaozhong_10",
 		benefit_type = "skill_learncost_up"
-	},
-	{
+	}
+	pg.base.benefit_buff_template[11] = {
 		type_priority = 0,
 		name = "事业",
 		hide = 0,
@@ -664,8 +667,8 @@ pg.base.benefit_buff_template = {
 		id = 11,
 		icon = "Props/buff_qiaozhong_11",
 		benefit_type = "battle_buff"
-	},
-	{
+	}
+	pg.base.benefit_buff_template[12] = {
 		type_priority = 0,
 		name = "姻缘",
 		hide = 0,
@@ -677,8 +680,8 @@ pg.base.benefit_buff_template = {
 		id = 12,
 		icon = "Props/buff_qiaozhong_12",
 		benefit_type = "intimacy_up_extra"
-	},
-	{
+	}
+	pg.base.benefit_buff_template[13] = {
 		type_priority = 0,
 		name = "舰娘经验加成1",
 		hide = 0,
@@ -697,8 +700,8 @@ pg.base.benefit_buff_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[14] = {
 		type_priority = 0,
 		name = "舰娘经验加成2",
 		hide = 0,
@@ -717,8 +720,8 @@ pg.base.benefit_buff_template = {
 				2
 			}
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[15] = {
 		type_priority = 0,
 		name = "舰娘经验加成3",
 		hide = 0,
@@ -737,8 +740,8 @@ pg.base.benefit_buff_template = {
 				3
 			}
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[16] = {
 		type_priority = 0,
 		name = "战斗伤害加成1",
 		hide = 0,
@@ -757,8 +760,8 @@ pg.base.benefit_buff_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[17] = {
 		type_priority = 0,
 		name = "战斗伤害加成2",
 		hide = 0,
@@ -777,8 +780,8 @@ pg.base.benefit_buff_template = {
 				2
 			}
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[18] = {
 		type_priority = 0,
 		name = "战斗伤害加成3",
 		hide = 0,
@@ -797,8 +800,8 @@ pg.base.benefit_buff_template = {
 				3
 			}
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[19] = {
 		type_priority = 0,
 		name = "战术学院学习时间缩短1",
 		hide = 0,
@@ -817,8 +820,8 @@ pg.base.benefit_buff_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[20] = {
 		type_priority = 0,
 		name = "战术学院学习时间缩短2",
 		hide = 0,
@@ -837,8 +840,8 @@ pg.base.benefit_buff_template = {
 				2
 			}
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[21] = {
 		type_priority = 0,
 		name = "战术学院学习时间缩短3",
 		hide = 0,
@@ -857,8 +860,8 @@ pg.base.benefit_buff_template = {
 				3
 			}
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[22] = {
 		type_priority = 0,
 		name = "后宅经验加成1",
 		hide = 0,
@@ -877,8 +880,8 @@ pg.base.benefit_buff_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[23] = {
 		type_priority = 0,
 		name = "后宅经验加成2",
 		hide = 0,
@@ -897,8 +900,8 @@ pg.base.benefit_buff_template = {
 				2
 			}
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[24] = {
 		type_priority = 0,
 		name = "后宅经验加成3",
 		hide = 0,
@@ -917,8 +920,8 @@ pg.base.benefit_buff_template = {
 				3
 			}
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[25] = {
 		type_priority = 0,
 		name = "活动关卡特装原型掉落加成",
 		hide = 0,
@@ -930,8 +933,8 @@ pg.base.benefit_buff_template = {
 		id = 25,
 		icon = "Props/buff_urptup",
 		benefit_type = "urpt_drop_up"
-	},
-	{
+	}
+	pg.base.benefit_buff_template[26] = {
 		type_priority = 0,
 		name = "演唱力 ",
 		hide = 0,
@@ -947,8 +950,8 @@ pg.base.benefit_buff_template = {
 			5308,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[27] = {
 		type_priority = 0,
 		name = "演唱力 ",
 		hide = 0,
@@ -964,8 +967,8 @@ pg.base.benefit_buff_template = {
 			5308,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[28] = {
 		type_priority = 0,
 		name = "演唱力 ",
 		hide = 0,
@@ -981,8 +984,8 @@ pg.base.benefit_buff_template = {
 			5308,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[29] = {
 		type_priority = 0,
 		name = "舞蹈力 ",
 		hide = 0,
@@ -998,8 +1001,8 @@ pg.base.benefit_buff_template = {
 			5308,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[30] = {
 		type_priority = 0,
 		name = "舞蹈力 ",
 		hide = 0,
@@ -1015,8 +1018,8 @@ pg.base.benefit_buff_template = {
 			5308,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[31] = {
 		type_priority = 0,
 		name = "舞蹈力 ",
 		hide = 0,
@@ -1032,8 +1035,8 @@ pg.base.benefit_buff_template = {
 			5308,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[32] = {
 		type_priority = 0,
 		name = "表演力 ",
 		hide = 0,
@@ -1049,8 +1052,8 @@ pg.base.benefit_buff_template = {
 			5308,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[33] = {
 		type_priority = 0,
 		name = "表演力 ",
 		hide = 0,
@@ -1066,8 +1069,8 @@ pg.base.benefit_buff_template = {
 			5308,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[34] = {
 		type_priority = 0,
 		name = "表演力 ",
 		hide = 0,
@@ -1083,8 +1086,8 @@ pg.base.benefit_buff_template = {
 			5308,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[35] = {
 		type_priority = 0,
 		name = "<color=#ff5c5c>力量</color>LV.1：",
 		hide = 0,
@@ -1100,8 +1103,8 @@ pg.base.benefit_buff_template = {
 			4775,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[36] = {
 		type_priority = 0,
 		name = "<color=#ff5c5c>力量</color>LV.2：",
 		hide = 0,
@@ -1117,8 +1120,8 @@ pg.base.benefit_buff_template = {
 			4775,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[37] = {
 		type_priority = 0,
 		name = "<color=#ff5c5c>力量</color>MAX：",
 		hide = 0,
@@ -1134,8 +1137,8 @@ pg.base.benefit_buff_template = {
 			4775,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[38] = {
 		type_priority = 0,
 		name = "<color=#00BFFF>技巧</color>LV.1：",
 		hide = 0,
@@ -1151,8 +1154,8 @@ pg.base.benefit_buff_template = {
 			4775,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[39] = {
 		type_priority = 0,
 		name = "<color=#00BFFF>技巧</color>LV.2：",
 		hide = 0,
@@ -1168,8 +1171,8 @@ pg.base.benefit_buff_template = {
 			4775,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[40] = {
 		type_priority = 0,
 		name = "<color=#00BFFF>技巧</color>MAX：",
 		hide = 0,
@@ -1185,8 +1188,8 @@ pg.base.benefit_buff_template = {
 			4775,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[41] = {
 		type_priority = 0,
 		name = "<color=#ffde38>体力</color>LV.1：",
 		hide = 0,
@@ -1202,8 +1205,8 @@ pg.base.benefit_buff_template = {
 			4775,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[42] = {
 		type_priority = 0,
 		name = "<color=#ffde38>体力</color>LV.2：",
 		hide = 0,
@@ -1219,8 +1222,8 @@ pg.base.benefit_buff_template = {
 			4775,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[43] = {
 		type_priority = 0,
 		name = "<color=#ffde38>体力</color>MAX：",
 		hide = 0,
@@ -1236,8 +1239,8 @@ pg.base.benefit_buff_template = {
 			4775,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[44] = {
 		type_priority = 0,
 		name = "<color=#FF69B4>魅力</color>LV.1：",
 		hide = 0,
@@ -1253,8 +1256,8 @@ pg.base.benefit_buff_template = {
 			4775,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[45] = {
 		type_priority = 0,
 		name = "<color=#FF69B4>魅力</color>LV.2：",
 		hide = 0,
@@ -1270,8 +1273,8 @@ pg.base.benefit_buff_template = {
 			4775,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[46] = {
 		type_priority = 0,
 		name = "<color=#FF69B4>魅力</color>MAX：",
 		hide = 0,
@@ -1287,8 +1290,8 @@ pg.base.benefit_buff_template = {
 			4775,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[47] = {
 		type_priority = 0,
 		name = "特殊作战加成描述",
 		hide = 0,
@@ -1300,8 +1303,8 @@ pg.base.benefit_buff_template = {
 		id = 47,
 		icon = "Props/xinshou",
 		benefit_type = "desc"
-	},
-	{
+	}
+	pg.base.benefit_buff_template[48] = {
 		type_priority = 0,
 		name = "特殊作战加成",
 		hide = 0,
@@ -1313,8 +1316,8 @@ pg.base.benefit_buff_template = {
 		id = 48,
 		icon = "Props/xinshou",
 		benefit_type = "chapter_up"
-	},
-	{
+	}
+	pg.base.benefit_buff_template[49] = {
 		type_priority = 0,
 		name = "皇家午茶Lv.1",
 		hide = 0,
@@ -1330,8 +1333,8 @@ pg.base.benefit_buff_template = {
 			4202,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[50] = {
 		type_priority = 0,
 		name = "皇家午茶Lv.2",
 		hide = 0,
@@ -1347,8 +1350,8 @@ pg.base.benefit_buff_template = {
 			4202,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[51] = {
 		type_priority = 0,
 		name = "皇家午茶Lv.3",
 		hide = 0,
@@ -1364,8 +1367,8 @@ pg.base.benefit_buff_template = {
 			4202,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[52] = {
 		type_priority = 0,
 		name = "皇家午茶Lv.4",
 		hide = 0,
@@ -1381,8 +1384,8 @@ pg.base.benefit_buff_template = {
 			4202,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[53] = {
 		type_priority = 0,
 		name = "皇家午茶Lv.5",
 		hide = 0,
@@ -1398,8 +1401,8 @@ pg.base.benefit_buff_template = {
 			4202,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[54] = {
 		type_priority = 0,
 		name = "莱茵咖啡馆Lv.1",
 		hide = 0,
@@ -1415,8 +1418,8 @@ pg.base.benefit_buff_template = {
 			4202,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[55] = {
 		type_priority = 0,
 		name = "莱茵咖啡馆Lv.2",
 		hide = 0,
@@ -1432,8 +1435,8 @@ pg.base.benefit_buff_template = {
 			4202,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[56] = {
 		type_priority = 0,
 		name = "莱茵咖啡馆Lv.3",
 		hide = 0,
@@ -1449,8 +1452,8 @@ pg.base.benefit_buff_template = {
 			4202,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[57] = {
 		type_priority = 0,
 		name = "莱茵咖啡馆Lv.4",
 		hide = 0,
@@ -1466,8 +1469,8 @@ pg.base.benefit_buff_template = {
 			4202,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[58] = {
 		type_priority = 0,
 		name = "莱茵咖啡馆Lv.5",
 		hide = 0,
@@ -1483,8 +1486,8 @@ pg.base.benefit_buff_template = {
 			4202,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[59] = {
 		type_priority = 0,
 		name = "鹬的祈愿",
 		hide = 0,
@@ -1500,8 +1503,8 @@ pg.base.benefit_buff_template = {
 			4203,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[60] = {
 		type_priority = 0,
 		name = "鹤的祈愿",
 		hide = 0,
@@ -1517,8 +1520,8 @@ pg.base.benefit_buff_template = {
 			4203,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[61] = {
 		type_priority = 0,
 		name = "恶毒的祈愿",
 		hide = 0,
@@ -1534,8 +1537,8 @@ pg.base.benefit_buff_template = {
 			4203,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[62] = {
 		type_priority = 0,
 		name = "胜利的祈愿",
 		hide = 0,
@@ -1551,8 +1554,8 @@ pg.base.benefit_buff_template = {
 			4203,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[63] = {
 		type_priority = 0,
 		name = "{namecode:436}的祈愿",
 		hide = 0,
@@ -1568,8 +1571,8 @@ pg.base.benefit_buff_template = {
 			4203,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[64] = {
 		type_priority = 0,
 		name = "光辉的祈愿",
 		hide = 0,
@@ -1585,8 +1588,8 @@ pg.base.benefit_buff_template = {
 			4203,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[65] = {
 		type_priority = 0,
 		name = "埃塞克斯的祈愿",
 		hide = 0,
@@ -1602,8 +1605,8 @@ pg.base.benefit_buff_template = {
 			4203,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[66] = {
 		type_priority = 0,
 		name = "贝尔法斯特的祈愿",
 		hide = 0,
@@ -1619,8 +1622,8 @@ pg.base.benefit_buff_template = {
 			4603,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[67] = {
 		type_priority = 0,
 		name = "凯旋的祈愿",
 		hide = 0,
@@ -1636,8 +1639,8 @@ pg.base.benefit_buff_template = {
 			4603,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[68] = {
 		type_priority = 0,
 		name = "鹬的祈愿",
 		hide = 0,
@@ -1653,8 +1656,8 @@ pg.base.benefit_buff_template = {
 			4603,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[69] = {
 		type_priority = 0,
 		name = "南达科他的祈愿",
 		hide = 0,
@@ -1670,8 +1673,8 @@ pg.base.benefit_buff_template = {
 			4603,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[70] = {
 		type_priority = 0,
 		name = "{namecode:437}的祈愿",
 		hide = 0,
@@ -1687,8 +1690,8 @@ pg.base.benefit_buff_template = {
 			4603,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[71] = {
 		type_priority = 0,
 		name = "光辉的祈愿",
 		hide = 0,
@@ -1704,8 +1707,8 @@ pg.base.benefit_buff_template = {
 			4603,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[72] = {
 		type_priority = 0,
 		name = "{namecode:526}的祈愿",
 		hide = 0,
@@ -1721,8 +1724,8 @@ pg.base.benefit_buff_template = {
 			4603,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[73] = {
 		type_priority = 0,
 		name = "夏日运动饮料",
 		hide = 0,
@@ -1734,8 +1737,8 @@ pg.base.benefit_buff_template = {
 		id = 73,
 		icon = "Props/60413",
 		benefit_type = "dorm_energy"
-	},
-	{
+	}
+	pg.base.benefit_buff_template[74] = {
 		type_priority = 0,
 		name = "{namecode:418}的祈愿",
 		hide = 0,
@@ -1751,8 +1754,8 @@ pg.base.benefit_buff_template = {
 			5142,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[75] = {
 		type_priority = 0,
 		name = "{namecode:203}的祈愿",
 		hide = 0,
@@ -1768,8 +1771,8 @@ pg.base.benefit_buff_template = {
 			5142,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[76] = {
 		type_priority = 0,
 		name = "可畏的祈愿",
 		hide = 0,
@@ -1785,8 +1788,8 @@ pg.base.benefit_buff_template = {
 			5142,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[77] = {
 		type_priority = 0,
 		name = "黎塞留的祈愿",
 		hide = 0,
@@ -1802,8 +1805,8 @@ pg.base.benefit_buff_template = {
 			5142,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[78] = {
 		type_priority = 0,
 		name = "塔什干的祈愿",
 		hide = 0,
@@ -1819,8 +1822,8 @@ pg.base.benefit_buff_template = {
 			5142,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[79] = {
 		type_priority = 0,
 		name = "香格里拉的祈愿",
 		hide = 0,
@@ -1836,8 +1839,8 @@ pg.base.benefit_buff_template = {
 			5142,
 			0
 		}
-	},
-	{
+	}
+	pg.base.benefit_buff_template[80] = {
 		type_priority = 0,
 		name = "{namecode:526}的祈愿",
 		hide = 0,
@@ -1853,8 +1856,8 @@ pg.base.benefit_buff_template = {
 			5142,
 			0
 		}
-	},
-	[82] = {
+	}
+	pg.base.benefit_buff_template[82] = {
 		type_priority = 0,
 		name = "{namecode:437}的祈愿",
 		hide = 0,
@@ -1870,8 +1873,8 @@ pg.base.benefit_buff_template = {
 			5720,
 			0
 		}
-	},
-	[83] = {
+	}
+	pg.base.benefit_buff_template[83] = {
 		type_priority = 0,
 		name = "贝尔法斯特的祈愿",
 		hide = 0,
@@ -1887,8 +1890,8 @@ pg.base.benefit_buff_template = {
 			5720,
 			0
 		}
-	},
-	[84] = {
+	}
+	pg.base.benefit_buff_template[84] = {
 		type_priority = 0,
 		name = "南达科他的祈愿",
 		hide = 0,
@@ -1904,8 +1907,8 @@ pg.base.benefit_buff_template = {
 			5720,
 			0
 		}
-	},
-	[85] = {
+	}
+	pg.base.benefit_buff_template[85] = {
 		type_priority = 0,
 		name = "可畏的祈愿",
 		hide = 0,
@@ -1921,8 +1924,8 @@ pg.base.benefit_buff_template = {
 			5720,
 			0
 		}
-	},
-	[86] = {
+	}
+	pg.base.benefit_buff_template[86] = {
 		type_priority = 0,
 		name = "{namecode:50}的祈愿",
 		hide = 0,
@@ -1938,8 +1941,8 @@ pg.base.benefit_buff_template = {
 			5720,
 			0
 		}
-	},
-	[87] = {
+	}
+	pg.base.benefit_buff_template[87] = {
 		type_priority = 0,
 		name = "{namecode:435}的祈愿",
 		hide = 0,
@@ -1955,8 +1958,8 @@ pg.base.benefit_buff_template = {
 			5720,
 			0
 		}
-	},
-	[88] = {
+	}
+	pg.base.benefit_buff_template[88] = {
 		type_priority = 0,
 		name = "黎塞留的祈愿",
 		hide = 0,
@@ -1972,8 +1975,8 @@ pg.base.benefit_buff_template = {
 			5720,
 			0
 		}
-	},
-	[89] = {
+	}
+	pg.base.benefit_buff_template[89] = {
 		type_priority = 0,
 		name = "{namecode:435}的心愿",
 		hide = 0,
@@ -1989,8 +1992,8 @@ pg.base.benefit_buff_template = {
 			50298,
 			0
 		}
-	},
-	[90] = {
+	}
+	pg.base.benefit_buff_template[90] = {
 		type_priority = 0,
 		name = "南达科他的祈愿",
 		hide = 0,
@@ -2006,8 +2009,8 @@ pg.base.benefit_buff_template = {
 			50298,
 			0
 		}
-	},
-	[91] = {
+	}
+	pg.base.benefit_buff_template[91] = {
 		type_priority = 0,
 		name = "古比雪夫的心愿",
 		hide = 0,
@@ -2023,8 +2026,8 @@ pg.base.benefit_buff_template = {
 			50298,
 			0
 		}
-	},
-	[92] = {
+	}
+	pg.base.benefit_buff_template[92] = {
 		type_priority = 0,
 		name = "帝国的心愿",
 		hide = 0,
@@ -2040,8 +2043,8 @@ pg.base.benefit_buff_template = {
 			50298,
 			0
 		}
-	},
-	[93] = {
+	}
+	pg.base.benefit_buff_template[93] = {
 		type_priority = 0,
 		name = "贝尔法斯特的心愿",
 		hide = 0,
@@ -2057,8 +2060,8 @@ pg.base.benefit_buff_template = {
 			50298,
 			0
 		}
-	},
-	[94] = {
+	}
+	pg.base.benefit_buff_template[94] = {
 		type_priority = 0,
 		name = "黎塞留的心愿",
 		hide = 0,
@@ -2074,8 +2077,8 @@ pg.base.benefit_buff_template = {
 			50298,
 			0
 		}
-	},
-	[95] = {
+	}
+	pg.base.benefit_buff_template[95] = {
 		type_priority = 0,
 		name = "{namecode:437}的心愿",
 		hide = 0,
@@ -2091,8 +2094,8 @@ pg.base.benefit_buff_template = {
 			50298,
 			0
 		}
-	},
-	[101] = {
+	}
+	pg.base.benefit_buff_template[101] = {
 		type_priority = 1,
 		name = "经验加成",
 		hide = 0,
@@ -2108,8 +2111,8 @@ pg.base.benefit_buff_template = {
 			"<",
 			100
 		}
-	},
-	[102] = {
+	}
+	pg.base.benefit_buff_template[102] = {
 		type_priority = 0,
 		name = "『新服活动』后宅经验buff",
 		hide = 0,
@@ -2121,8 +2124,8 @@ pg.base.benefit_buff_template = {
 		id = 102,
 		icon = "Props/newserver_backyard",
 		benefit_type = "dorm_exp"
-	},
-	[103] = {
+	}
+	pg.base.benefit_buff_template[103] = {
 		type_priority = 0,
 		name = "『新服活动』战术学院buff",
 		hide = 0,
@@ -2134,8 +2137,8 @@ pg.base.benefit_buff_template = {
 		id = 103,
 		icon = "Props/newserver_skill",
 		benefit_type = "skill_learn_time"
-	},
-	[104] = {
+	}
+	pg.base.benefit_buff_template[104] = {
 		type_priority = 0,
 		name = "『新服活动』角色强化经验buff",
 		hide = 0,
@@ -2147,8 +2150,8 @@ pg.base.benefit_buff_template = {
 		id = 104,
 		icon = "Props/newserver_upgrade",
 		benefit_type = "character_strengthen_exp"
-	},
-	[110] = {
+	}
+	pg.base.benefit_buff_template[110] = {
 		type_priority = 0,
 		name = "舰娘经验加成1",
 		hide = 1,
@@ -2167,8 +2170,8 @@ pg.base.benefit_buff_template = {
 				1
 			}
 		}
-	},
-	[111] = {
+	}
+	pg.base.benefit_buff_template[111] = {
 		type_priority = 0,
 		name = "舰娘经验加成2",
 		hide = 1,
@@ -2187,8 +2190,10 @@ pg.base.benefit_buff_template = {
 				2
 			}
 		}
-	},
-	[112] = {
+	}
+end)()
+;(function()
+	pg.base.benefit_buff_template[112] = {
 		type_priority = 0,
 		name = "舰娘经验加成3",
 		hide = 1,
@@ -2207,8 +2212,8 @@ pg.base.benefit_buff_template = {
 				3
 			}
 		}
-	},
-	[113] = {
+	}
+	pg.base.benefit_buff_template[113] = {
 		type_priority = 0,
 		name = "舰娘经验加成4",
 		hide = 1,
@@ -2227,8 +2232,8 @@ pg.base.benefit_buff_template = {
 				4
 			}
 		}
-	},
-	[114] = {
+	}
+	pg.base.benefit_buff_template[114] = {
 		type_priority = 0,
 		name = "战斗伤害加成1",
 		hide = 1,
@@ -2247,8 +2252,8 @@ pg.base.benefit_buff_template = {
 				1
 			}
 		}
-	},
-	[115] = {
+	}
+	pg.base.benefit_buff_template[115] = {
 		type_priority = 0,
 		name = "战斗伤害加成2",
 		hide = 1,
@@ -2267,8 +2272,8 @@ pg.base.benefit_buff_template = {
 				2
 			}
 		}
-	},
-	[116] = {
+	}
+	pg.base.benefit_buff_template[116] = {
 		type_priority = 0,
 		name = "战斗伤害加成3",
 		hide = 1,
@@ -2287,8 +2292,8 @@ pg.base.benefit_buff_template = {
 				3
 			}
 		}
-	},
-	[117] = {
+	}
+	pg.base.benefit_buff_template[117] = {
 		type_priority = 0,
 		name = "战斗伤害加成4",
 		hide = 1,
@@ -2307,8 +2312,8 @@ pg.base.benefit_buff_template = {
 				4
 			}
 		}
-	},
-	[118] = {
+	}
+	pg.base.benefit_buff_template[118] = {
 		type_priority = 0,
 		name = "战术学院学习时间缩短1",
 		hide = 1,
@@ -2327,8 +2332,8 @@ pg.base.benefit_buff_template = {
 				1
 			}
 		}
-	},
-	[119] = {
+	}
+	pg.base.benefit_buff_template[119] = {
 		type_priority = 0,
 		name = "战术学院学习时间缩短2",
 		hide = 1,
@@ -2347,8 +2352,8 @@ pg.base.benefit_buff_template = {
 				2
 			}
 		}
-	},
-	[120] = {
+	}
+	pg.base.benefit_buff_template[120] = {
 		type_priority = 0,
 		name = "战术学院学习时间缩短3",
 		hide = 1,
@@ -2367,8 +2372,8 @@ pg.base.benefit_buff_template = {
 				3
 			}
 		}
-	},
-	[121] = {
+	}
+	pg.base.benefit_buff_template[121] = {
 		type_priority = 0,
 		name = "战术学院学习时间缩短4",
 		hide = 1,
@@ -2387,8 +2392,8 @@ pg.base.benefit_buff_template = {
 				4
 			}
 		}
-	},
-	[122] = {
+	}
+	pg.base.benefit_buff_template[122] = {
 		type_priority = 0,
 		name = "后宅经验加成1",
 		hide = 1,
@@ -2407,8 +2412,8 @@ pg.base.benefit_buff_template = {
 				1
 			}
 		}
-	},
-	[123] = {
+	}
+	pg.base.benefit_buff_template[123] = {
 		type_priority = 0,
 		name = "后宅经验加成2",
 		hide = 1,
@@ -2427,8 +2432,8 @@ pg.base.benefit_buff_template = {
 				2
 			}
 		}
-	},
-	[124] = {
+	}
+	pg.base.benefit_buff_template[124] = {
 		type_priority = 0,
 		name = "后宅经验加成3",
 		hide = 1,
@@ -2447,8 +2452,8 @@ pg.base.benefit_buff_template = {
 				3
 			}
 		}
-	},
-	[125] = {
+	}
+	pg.base.benefit_buff_template[125] = {
 		type_priority = 0,
 		name = "后宅经验加成4",
 		hide = 1,
@@ -2467,8 +2472,8 @@ pg.base.benefit_buff_template = {
 				4
 			}
 		}
-	},
-	[126] = {
+	}
+	pg.base.benefit_buff_template[126] = {
 		type_priority = 0,
 		name = "海岛内建筑lv.1",
 		hide = 1,
@@ -2487,8 +2492,8 @@ pg.base.benefit_buff_template = {
 				1
 			}
 		}
-	},
-	[127] = {
+	}
+	pg.base.benefit_buff_template[127] = {
 		type_priority = 0,
 		name = "海岛内建筑lv.2",
 		hide = 1,
@@ -2507,8 +2512,8 @@ pg.base.benefit_buff_template = {
 				2
 			}
 		}
-	},
-	[128] = {
+	}
+	pg.base.benefit_buff_template[128] = {
 		type_priority = 0,
 		name = "海岛内建筑lv.3",
 		hide = 1,
@@ -2527,8 +2532,8 @@ pg.base.benefit_buff_template = {
 				3
 			}
 		}
-	},
-	[129] = {
+	}
+	pg.base.benefit_buff_template[129] = {
 		type_priority = 0,
 		name = "海岛内建筑lv.4",
 		hide = 1,
@@ -2547,8 +2552,8 @@ pg.base.benefit_buff_template = {
 				4
 			}
 		}
-	},
-	[130] = {
+	}
+	pg.base.benefit_buff_template[130] = {
 		type_priority = 0,
 		name = "海岛内建筑lv.1",
 		hide = 1,
@@ -2567,8 +2572,8 @@ pg.base.benefit_buff_template = {
 				1
 			}
 		}
-	},
-	[131] = {
+	}
+	pg.base.benefit_buff_template[131] = {
 		type_priority = 0,
 		name = "海岛内建筑lv.2",
 		hide = 1,
@@ -2587,8 +2592,8 @@ pg.base.benefit_buff_template = {
 				2
 			}
 		}
-	},
-	[132] = {
+	}
+	pg.base.benefit_buff_template[132] = {
 		type_priority = 0,
 		name = "海岛内建筑lv.3",
 		hide = 1,
@@ -2607,8 +2612,8 @@ pg.base.benefit_buff_template = {
 				3
 			}
 		}
-	},
-	[133] = {
+	}
+	pg.base.benefit_buff_template[133] = {
 		type_priority = 0,
 		name = "海岛内建筑lv.4",
 		hide = 1,
@@ -2627,8 +2632,8 @@ pg.base.benefit_buff_template = {
 				4
 			}
 		}
-	},
-	[134] = {
+	}
+	pg.base.benefit_buff_template[134] = {
 		type_priority = 0,
 		name = "海岛内建筑lv.1",
 		hide = 1,
@@ -2647,8 +2652,8 @@ pg.base.benefit_buff_template = {
 				1
 			}
 		}
-	},
-	[135] = {
+	}
+	pg.base.benefit_buff_template[135] = {
 		type_priority = 0,
 		name = "海岛内建筑lv.2",
 		hide = 1,
@@ -2667,8 +2672,8 @@ pg.base.benefit_buff_template = {
 				2
 			}
 		}
-	},
-	[136] = {
+	}
+	pg.base.benefit_buff_template[136] = {
 		type_priority = 0,
 		name = "海岛内建筑lv.3",
 		hide = 1,
@@ -2687,8 +2692,8 @@ pg.base.benefit_buff_template = {
 				3
 			}
 		}
-	},
-	[137] = {
+	}
+	pg.base.benefit_buff_template[137] = {
 		type_priority = 0,
 		name = "海岛内建筑lv.4",
 		hide = 1,
@@ -2707,8 +2712,8 @@ pg.base.benefit_buff_template = {
 				4
 			}
 		}
-	},
-	[138] = {
+	}
+	pg.base.benefit_buff_template[138] = {
 		type_priority = 0,
 		name = "海岛内建筑lv.1",
 		hide = 1,
@@ -2727,8 +2732,8 @@ pg.base.benefit_buff_template = {
 				1
 			}
 		}
-	},
-	[139] = {
+	}
+	pg.base.benefit_buff_template[139] = {
 		type_priority = 0,
 		name = "海岛内建筑lv.2",
 		hide = 1,
@@ -2747,8 +2752,8 @@ pg.base.benefit_buff_template = {
 				2
 			}
 		}
-	},
-	[140] = {
+	}
+	pg.base.benefit_buff_template[140] = {
 		type_priority = 0,
 		name = "海岛内建筑lv.3",
 		hide = 1,
@@ -2767,8 +2772,8 @@ pg.base.benefit_buff_template = {
 				3
 			}
 		}
-	},
-	[141] = {
+	}
+	pg.base.benefit_buff_template[141] = {
 		type_priority = 0,
 		name = "海岛内建筑lv.4",
 		hide = 1,
@@ -2787,8 +2792,8 @@ pg.base.benefit_buff_template = {
 				4
 			}
 		}
-	},
-	[142] = {
+	}
+	pg.base.benefit_buff_template[142] = {
 		type_priority = 0,
 		name = "宴会邀约",
 		hide = 1,
@@ -2800,8 +2805,8 @@ pg.base.benefit_buff_template = {
 		id = 142,
 		icon = "Props/yanhuiyaoyue",
 		benefit_type = "ship_battle_intimacy"
-	},
-	[143] = {
+	}
+	pg.base.benefit_buff_template[143] = {
 		type_priority = 0,
 		name = "学业",
 		hide = 0,
@@ -2813,8 +2818,8 @@ pg.base.benefit_buff_template = {
 		id = 143,
 		icon = "Props/buff_xinyuan_1",
 		benefit_type = "skill_learncost_up"
-	},
-	[144] = {
+	}
+	pg.base.benefit_buff_template[144] = {
 		type_priority = 0,
 		name = "事业",
 		hide = 0,
@@ -2826,8 +2831,8 @@ pg.base.benefit_buff_template = {
 		id = 144,
 		icon = "Props/buff_xinyuan_2",
 		benefit_type = "battle_buff"
-	},
-	[145] = {
+	}
+	pg.base.benefit_buff_template[145] = {
 		type_priority = 0,
 		name = "缘分",
 		hide = 0,
@@ -2839,8 +2844,8 @@ pg.base.benefit_buff_template = {
 		id = 145,
 		icon = "Props/buff_xinyuan_3",
 		benefit_type = "intimacy_up_extra"
-	},
-	[300001] = {
+	}
+	pg.base.benefit_buff_template[300001] = {
 		type_priority = 0,
 		name = "输出提升LV1",
 		hide = 1,
@@ -2863,8 +2868,8 @@ pg.base.benefit_buff_template = {
 				1690051
 			}
 		}
-	},
-	[300002] = {
+	}
+	pg.base.benefit_buff_template[300002] = {
 		type_priority = 0,
 		name = "输出提升LV2",
 		hide = 1,
@@ -2887,8 +2892,8 @@ pg.base.benefit_buff_template = {
 				1690051
 			}
 		}
-	},
-	[300003] = {
+	}
+	pg.base.benefit_buff_template[300003] = {
 		type_priority = 0,
 		name = "输出提升LVMAX",
 		hide = 1,
@@ -2911,8 +2916,8 @@ pg.base.benefit_buff_template = {
 				1690051
 			}
 		}
-	},
-	[300011] = {
+	}
+	pg.base.benefit_buff_template[300011] = {
 		type_priority = 0,
 		name = "防御提升LV1",
 		hide = 1,
@@ -2935,8 +2940,8 @@ pg.base.benefit_buff_template = {
 				1690051
 			}
 		}
-	},
-	[300012] = {
+	}
+	pg.base.benefit_buff_template[300012] = {
 		type_priority = 0,
 		name = "防御提升LV2",
 		hide = 1,
@@ -2959,8 +2964,8 @@ pg.base.benefit_buff_template = {
 				1690051
 			}
 		}
-	},
-	[300013] = {
+	}
+	pg.base.benefit_buff_template[300013] = {
 		type_priority = 0,
 		name = "防御提升LVMAX",
 		hide = 1,
@@ -2983,8 +2988,8 @@ pg.base.benefit_buff_template = {
 				1690051
 			}
 		}
-	},
-	[300021] = {
+	}
+	pg.base.benefit_buff_template[300021] = {
 		type_priority = 0,
 		name = "缓慢修复LV1",
 		hide = 1,
@@ -3007,8 +3012,8 @@ pg.base.benefit_buff_template = {
 				1690051
 			}
 		}
-	},
-	[300022] = {
+	}
+	pg.base.benefit_buff_template[300022] = {
 		type_priority = 0,
 		name = "缓慢修复LV2",
 		hide = 1,
@@ -3031,8 +3036,8 @@ pg.base.benefit_buff_template = {
 				1690051
 			}
 		}
-	},
-	[300023] = {
+	}
+	pg.base.benefit_buff_template[300023] = {
 		type_priority = 0,
 		name = "缓慢修复LVMAX",
 		hide = 1,
@@ -3055,8 +3060,8 @@ pg.base.benefit_buff_template = {
 				1690051
 			}
 		}
-	},
-	[300031] = {
+	}
+	pg.base.benefit_buff_template[300031] = {
 		type_priority = 0,
 		name = "损伤管控LV1",
 		hide = 1,
@@ -3079,8 +3084,8 @@ pg.base.benefit_buff_template = {
 				1690051
 			}
 		}
-	},
-	[300032] = {
+	}
+	pg.base.benefit_buff_template[300032] = {
 		type_priority = 0,
 		name = "损伤管控LV2",
 		hide = 1,
@@ -3103,8 +3108,8 @@ pg.base.benefit_buff_template = {
 				1690051
 			}
 		}
-	},
-	[300033] = {
+	}
+	pg.base.benefit_buff_template[300033] = {
 		type_priority = 0,
 		name = "损伤管控LVMAX",
 		hide = 1,
@@ -3127,8 +3132,8 @@ pg.base.benefit_buff_template = {
 				1690051
 			}
 		}
-	},
-	[300041] = {
+	}
+	pg.base.benefit_buff_template[300041] = {
 		type_priority = 0,
 		name = "点燃支援LV1",
 		hide = 1,
@@ -3151,8 +3156,8 @@ pg.base.benefit_buff_template = {
 				1690051
 			}
 		}
-	},
-	[300042] = {
+	}
+	pg.base.benefit_buff_template[300042] = {
 		type_priority = 0,
 		name = "点燃支援LV2",
 		hide = 1,
@@ -3175,8 +3180,8 @@ pg.base.benefit_buff_template = {
 				1690051
 			}
 		}
-	},
-	[300043] = {
+	}
+	pg.base.benefit_buff_template[300043] = {
 		type_priority = 0,
 		name = "点燃支援LVMAX",
 		hide = 1,
@@ -3199,8 +3204,8 @@ pg.base.benefit_buff_template = {
 				1690051
 			}
 		}
-	},
-	[300051] = {
+	}
+	pg.base.benefit_buff_template[300051] = {
 		type_priority = 0,
 		name = "易伤支援LV1",
 		hide = 1,
@@ -3223,8 +3228,8 @@ pg.base.benefit_buff_template = {
 				1690051
 			}
 		}
-	},
-	[300052] = {
+	}
+	pg.base.benefit_buff_template[300052] = {
 		type_priority = 0,
 		name = "易伤支援LV2",
 		hide = 1,
@@ -3247,8 +3252,8 @@ pg.base.benefit_buff_template = {
 				1690051
 			}
 		}
-	},
-	[300053] = {
+	}
+	pg.base.benefit_buff_template[300053] = {
 		type_priority = 0,
 		name = "易伤支援LVMAX",
 		hide = 1,
@@ -3271,8 +3276,8 @@ pg.base.benefit_buff_template = {
 				1690051
 			}
 		}
-	},
-	[300061] = {
+	}
+	pg.base.benefit_buff_template[300061] = {
 		type_priority = 0,
 		name = "经验提升LV1",
 		hide = 1,
@@ -3295,8 +3300,8 @@ pg.base.benefit_buff_template = {
 				1690051
 			}
 		}
-	},
-	[300062] = {
+	}
+	pg.base.benefit_buff_template[300062] = {
 		type_priority = 0,
 		name = "经验提升LV2",
 		hide = 1,
@@ -3319,8 +3324,8 @@ pg.base.benefit_buff_template = {
 				1690051
 			}
 		}
-	},
-	[300063] = {
+	}
+	pg.base.benefit_buff_template[300063] = {
 		type_priority = 0,
 		name = "经验提升LVMAX",
 		hide = 1,
@@ -3343,8 +3348,8 @@ pg.base.benefit_buff_template = {
 				1690051
 			}
 		}
-	},
-	[300071] = {
+	}
+	pg.base.benefit_buff_template[300071] = {
 		type_priority = 0,
 		name = "好感提升LVMAX",
 		hide = 1,
@@ -3367,8 +3372,8 @@ pg.base.benefit_buff_template = {
 				1690051
 			}
 		}
-	},
-	[300081] = {
+	}
+	pg.base.benefit_buff_template[300081] = {
 		type_priority = 0,
 		name = "舰娘经验加成1",
 		hide = 1,
@@ -3385,8 +3390,8 @@ pg.base.benefit_buff_template = {
 			0,
 			1000
 		}
-	},
-	[300082] = {
+	}
+	pg.base.benefit_buff_template[300082] = {
 		type_priority = 0,
 		name = "舰娘经验加成2",
 		hide = 1,
@@ -3403,8 +3408,8 @@ pg.base.benefit_buff_template = {
 			1000,
 			2000
 		}
-	},
-	[300083] = {
+	}
+	pg.base.benefit_buff_template[300083] = {
 		type_priority = 0,
 		name = "舰娘经验加成3",
 		hide = 1,
@@ -3421,8 +3426,8 @@ pg.base.benefit_buff_template = {
 			2000,
 			3500
 		}
-	},
-	[300084] = {
+	}
+	pg.base.benefit_buff_template[300084] = {
 		type_priority = 0,
 		name = "舰娘经验加成4",
 		hide = 1,
@@ -3439,8 +3444,8 @@ pg.base.benefit_buff_template = {
 			3500,
 			5000
 		}
-	},
-	[300085] = {
+	}
+	pg.base.benefit_buff_template[300085] = {
 		type_priority = 0,
 		name = "舰娘经验加成5",
 		hide = 1,
@@ -3457,8 +3462,8 @@ pg.base.benefit_buff_template = {
 			5000,
 			1000000000000
 		}
-	},
-	[300086] = {
+	}
+	pg.base.benefit_buff_template[300086] = {
 		type_priority = 0,
 		name = "战斗伤害加成1",
 		hide = 1,
@@ -3475,8 +3480,8 @@ pg.base.benefit_buff_template = {
 			0,
 			1000
 		}
-	},
-	[300087] = {
+	}
+	pg.base.benefit_buff_template[300087] = {
 		type_priority = 0,
 		name = "战斗伤害加成2",
 		hide = 1,
@@ -3493,8 +3498,8 @@ pg.base.benefit_buff_template = {
 			1000,
 			2000
 		}
-	},
-	[300088] = {
+	}
+	pg.base.benefit_buff_template[300088] = {
 		type_priority = 0,
 		name = "战斗伤害加成3",
 		hide = 1,
@@ -3511,8 +3516,8 @@ pg.base.benefit_buff_template = {
 			2000,
 			3500
 		}
-	},
-	[300089] = {
+	}
+	pg.base.benefit_buff_template[300089] = {
 		type_priority = 0,
 		name = "战斗伤害加成4",
 		hide = 1,
@@ -3529,8 +3534,8 @@ pg.base.benefit_buff_template = {
 			3500,
 			5000
 		}
-	},
-	[300090] = {
+	}
+	pg.base.benefit_buff_template[300090] = {
 		type_priority = 0,
 		name = "战斗伤害加成5",
 		hide = 1,
@@ -3547,8 +3552,8 @@ pg.base.benefit_buff_template = {
 			5000,
 			1000000000000
 		}
-	},
-	[300091] = {
+	}
+	pg.base.benefit_buff_template[300091] = {
 		type_priority = 0,
 		name = "战术学院学习时间缩短1",
 		hide = 1,
@@ -3565,8 +3570,8 @@ pg.base.benefit_buff_template = {
 			0,
 			1000
 		}
-	},
-	[300092] = {
+	}
+	pg.base.benefit_buff_template[300092] = {
 		type_priority = 0,
 		name = "战术学院学习时间缩短2",
 		hide = 1,
@@ -3583,8 +3588,8 @@ pg.base.benefit_buff_template = {
 			1000,
 			2000
 		}
-	},
-	[300093] = {
+	}
+	pg.base.benefit_buff_template[300093] = {
 		type_priority = 0,
 		name = "战术学院学习时间缩短3",
 		hide = 1,
@@ -3601,8 +3606,8 @@ pg.base.benefit_buff_template = {
 			2000,
 			3500
 		}
-	},
-	[300094] = {
+	}
+	pg.base.benefit_buff_template[300094] = {
 		type_priority = 0,
 		name = "战术学院学习时间缩短4",
 		hide = 1,
@@ -3619,8 +3624,8 @@ pg.base.benefit_buff_template = {
 			3500,
 			5000
 		}
-	},
-	[300095] = {
+	}
+	pg.base.benefit_buff_template[300095] = {
 		type_priority = 0,
 		name = "战术学院学习时间缩短5",
 		hide = 1,
@@ -3637,8 +3642,8 @@ pg.base.benefit_buff_template = {
 			5000,
 			1000000000000
 		}
-	},
-	[300096] = {
+	}
+	pg.base.benefit_buff_template[300096] = {
 		type_priority = 0,
 		name = "后宅经验加成1",
 		hide = 1,
@@ -3655,8 +3660,8 @@ pg.base.benefit_buff_template = {
 			0,
 			1000
 		}
-	},
-	[300097] = {
+	}
+	pg.base.benefit_buff_template[300097] = {
 		type_priority = 0,
 		name = "后宅经验加成2",
 		hide = 1,
@@ -3673,8 +3678,8 @@ pg.base.benefit_buff_template = {
 			1000,
 			2000
 		}
-	},
-	[300098] = {
+	}
+	pg.base.benefit_buff_template[300098] = {
 		type_priority = 0,
 		name = "后宅经验加成3",
 		hide = 1,
@@ -3691,8 +3696,8 @@ pg.base.benefit_buff_template = {
 			2000,
 			3500
 		}
-	},
-	[300099] = {
+	}
+	pg.base.benefit_buff_template[300099] = {
 		type_priority = 0,
 		name = "后宅经验加成4",
 		hide = 1,
@@ -3709,8 +3714,8 @@ pg.base.benefit_buff_template = {
 			3500,
 			5000
 		}
-	},
-	[300100] = {
+	}
+	pg.base.benefit_buff_template[300100] = {
 		type_priority = 0,
 		name = "后宅经验加成5",
 		hide = 1,
@@ -3727,8 +3732,8 @@ pg.base.benefit_buff_template = {
 			5000,
 			1000000000000
 		}
-	},
-	[300101] = {
+	}
+	pg.base.benefit_buff_template[300101] = {
 		type_priority = 0,
 		name = "舰娘经验加成1",
 		hide = 1,
@@ -3745,8 +3750,8 @@ pg.base.benefit_buff_template = {
 			15,
 			30
 		}
-	},
-	[300102] = {
+	}
+	pg.base.benefit_buff_template[300102] = {
 		type_priority = 0,
 		name = "舰娘经验加成2",
 		hide = 1,
@@ -3763,8 +3768,8 @@ pg.base.benefit_buff_template = {
 			30,
 			45
 		}
-	},
-	[300103] = {
+	}
+	pg.base.benefit_buff_template[300103] = {
 		type_priority = 0,
 		name = "舰娘经验加成3",
 		hide = 1,
@@ -3781,8 +3786,8 @@ pg.base.benefit_buff_template = {
 			45,
 			1000
 		}
-	},
-	[300104] = {
+	}
+	pg.base.benefit_buff_template[300104] = {
 		type_priority = 0,
 		name = "战斗伤害加成1",
 		hide = 1,
@@ -3799,8 +3804,8 @@ pg.base.benefit_buff_template = {
 			15,
 			30
 		}
-	},
-	[300105] = {
+	}
+	pg.base.benefit_buff_template[300105] = {
 		type_priority = 0,
 		name = "战斗伤害加成2",
 		hide = 1,
@@ -3817,8 +3822,8 @@ pg.base.benefit_buff_template = {
 			30,
 			45
 		}
-	},
-	[300106] = {
+	}
+	pg.base.benefit_buff_template[300106] = {
 		type_priority = 0,
 		name = "战斗伤害加成3",
 		hide = 1,
@@ -3835,8 +3840,8 @@ pg.base.benefit_buff_template = {
 			45,
 			1000
 		}
-	},
-	[300107] = {
+	}
+	pg.base.benefit_buff_template[300107] = {
 		type_priority = 0,
 		name = "战术学院学习时间缩短1",
 		hide = 1,
@@ -3853,8 +3858,8 @@ pg.base.benefit_buff_template = {
 			15,
 			30
 		}
-	},
-	[300108] = {
+	}
+	pg.base.benefit_buff_template[300108] = {
 		type_priority = 0,
 		name = "战术学院学习时间缩短2",
 		hide = 1,
@@ -3871,8 +3876,8 @@ pg.base.benefit_buff_template = {
 			30,
 			45
 		}
-	},
-	[300109] = {
+	}
+	pg.base.benefit_buff_template[300109] = {
 		type_priority = 0,
 		name = "战术学院学习时间缩短3",
 		hide = 1,
@@ -3889,8 +3894,8 @@ pg.base.benefit_buff_template = {
 			45,
 			1000
 		}
-	},
-	[300110] = {
+	}
+	pg.base.benefit_buff_template[300110] = {
 		type_priority = 0,
 		name = "后宅经验加成1",
 		hide = 1,
@@ -3907,8 +3912,8 @@ pg.base.benefit_buff_template = {
 			15,
 			30
 		}
-	},
-	[300111] = {
+	}
+	pg.base.benefit_buff_template[300111] = {
 		type_priority = 0,
 		name = "后宅经验加成2",
 		hide = 1,
@@ -3925,8 +3930,8 @@ pg.base.benefit_buff_template = {
 			30,
 			45
 		}
-	},
-	[300112] = {
+	}
+	pg.base.benefit_buff_template[300112] = {
 		type_priority = 0,
 		name = "后宅经验加成3",
 		hide = 1,
@@ -3943,8 +3948,8 @@ pg.base.benefit_buff_template = {
 			45,
 			1000
 		}
-	},
-	[300201] = {
+	}
+	pg.base.benefit_buff_template[300201] = {
 		type_priority = 0,
 		name = "核心等级LV1",
 		hide = 1,
@@ -3961,8 +3966,8 @@ pg.base.benefit_buff_template = {
 				1940021
 			}
 		}
-	},
-	[300202] = {
+	}
+	pg.base.benefit_buff_template[300202] = {
 		type_priority = 0,
 		name = "核心等级LV2",
 		hide = 1,
@@ -3979,8 +3984,8 @@ pg.base.benefit_buff_template = {
 				1940021
 			}
 		}
-	},
-	[300203] = {
+	}
+	pg.base.benefit_buff_template[300203] = {
 		type_priority = 0,
 		name = "核心等级LV3",
 		hide = 1,
@@ -3997,8 +4002,8 @@ pg.base.benefit_buff_template = {
 				1940021
 			}
 		}
-	},
-	[300204] = {
+	}
+	pg.base.benefit_buff_template[300204] = {
 		type_priority = 0,
 		name = "核心等级LV4",
 		hide = 1,
@@ -4015,8 +4020,8 @@ pg.base.benefit_buff_template = {
 				1940021
 			}
 		}
-	},
-	[300205] = {
+	}
+	pg.base.benefit_buff_template[300205] = {
 		type_priority = 0,
 		name = "核心等级LV1",
 		hide = 1,
@@ -4033,8 +4038,8 @@ pg.base.benefit_buff_template = {
 				1940022
 			}
 		}
-	},
-	[300206] = {
+	}
+	pg.base.benefit_buff_template[300206] = {
 		type_priority = 0,
 		name = "核心等级LV2",
 		hide = 1,
@@ -4051,8 +4056,8 @@ pg.base.benefit_buff_template = {
 				1940022
 			}
 		}
-	},
-	[300207] = {
+	}
+	pg.base.benefit_buff_template[300207] = {
 		type_priority = 0,
 		name = "核心等级LV3",
 		hide = 1,
@@ -4069,8 +4074,8 @@ pg.base.benefit_buff_template = {
 				1940022
 			}
 		}
-	},
-	[300208] = {
+	}
+	pg.base.benefit_buff_template[300208] = {
 		type_priority = 0,
 		name = "核心等级LV4",
 		hide = 1,
@@ -4087,8 +4092,8 @@ pg.base.benefit_buff_template = {
 				1940022
 			}
 		}
-	},
-	[300209] = {
+	}
+	pg.base.benefit_buff_template[300209] = {
 		type_priority = 0,
 		name = "核心等级LV1",
 		hide = 1,
@@ -4105,8 +4110,8 @@ pg.base.benefit_buff_template = {
 				1940023
 			}
 		}
-	},
-	[300210] = {
+	}
+	pg.base.benefit_buff_template[300210] = {
 		type_priority = 0,
 		name = "核心等级LV2",
 		hide = 1,
@@ -4123,8 +4128,8 @@ pg.base.benefit_buff_template = {
 				1940023
 			}
 		}
-	},
-	[300211] = {
+	}
+	pg.base.benefit_buff_template[300211] = {
 		type_priority = 0,
 		name = "核心等级LV3",
 		hide = 1,
@@ -4141,8 +4146,8 @@ pg.base.benefit_buff_template = {
 				1940023
 			}
 		}
-	},
-	[300212] = {
+	}
+	pg.base.benefit_buff_template[300212] = {
 		type_priority = 0,
 		name = "核心等级LV4",
 		hide = 1,
@@ -4159,8 +4164,10 @@ pg.base.benefit_buff_template = {
 				1940023
 			}
 		}
-	},
-	[300213] = {
+	}
+end)()
+;(function()
+	pg.base.benefit_buff_template[300213] = {
 		type_priority = 0,
 		name = "核心等级LV1",
 		hide = 1,
@@ -4177,8 +4184,8 @@ pg.base.benefit_buff_template = {
 				1940024
 			}
 		}
-	},
-	[300214] = {
+	}
+	pg.base.benefit_buff_template[300214] = {
 		type_priority = 0,
 		name = "核心等级LV2",
 		hide = 1,
@@ -4195,8 +4202,8 @@ pg.base.benefit_buff_template = {
 				1940024
 			}
 		}
-	},
-	[300215] = {
+	}
+	pg.base.benefit_buff_template[300215] = {
 		type_priority = 0,
 		name = "核心等级LV3",
 		hide = 1,
@@ -4213,8 +4220,8 @@ pg.base.benefit_buff_template = {
 				1940024
 			}
 		}
-	},
-	[300216] = {
+	}
+	pg.base.benefit_buff_template[300216] = {
 		type_priority = 0,
 		name = "核心等级LV4",
 		hide = 1,
@@ -4231,8 +4238,8 @@ pg.base.benefit_buff_template = {
 				1940024
 			}
 		}
-	},
-	[300217] = {
+	}
+	pg.base.benefit_buff_template[300217] = {
 		type_priority = 0,
 		name = "核心等级LV1",
 		hide = 1,
@@ -4249,8 +4256,8 @@ pg.base.benefit_buff_template = {
 				1940025
 			}
 		}
-	},
-	[300218] = {
+	}
+	pg.base.benefit_buff_template[300218] = {
 		type_priority = 0,
 		name = "核心等级LV2",
 		hide = 1,
@@ -4267,8 +4274,8 @@ pg.base.benefit_buff_template = {
 				1940025
 			}
 		}
-	},
-	[300219] = {
+	}
+	pg.base.benefit_buff_template[300219] = {
 		type_priority = 0,
 		name = "核心等级LV3",
 		hide = 1,
@@ -4285,8 +4292,8 @@ pg.base.benefit_buff_template = {
 				1940025
 			}
 		}
-	},
-	[300220] = {
+	}
+	pg.base.benefit_buff_template[300220] = {
 		type_priority = 0,
 		name = "核心等级LV4",
 		hide = 1,
@@ -4303,8 +4310,8 @@ pg.base.benefit_buff_template = {
 				1940025
 			}
 		}
-	},
-	[300221] = {
+	}
+	pg.base.benefit_buff_template[300221] = {
 		type_priority = 0,
 		name = "「炼金术士与遗迹群岛」特别加成",
 		hide = 0,
@@ -4316,8 +4323,8 @@ pg.base.benefit_buff_template = {
 		id = 300221,
 		icon = "Props/buff_yumia_ryzare",
 		benefit_type = "desc"
-	},
-	[300300] = {
+	}
+	pg.base.benefit_buff_template[300300] = {
 		type_priority = 0,
 		name = "无效效果",
 		hide = 1,
@@ -4329,8 +4336,8 @@ pg.base.benefit_buff_template = {
 		id = 300300,
 		icon = "Props/xinshou",
 		benefit_type = "desc"
-	},
-	[300301] = {
+	}
+	pg.base.benefit_buff_template[300301] = {
 		type_priority = 0,
 		name = "白鹰科技模块LV1",
 		hide = 1,
@@ -4386,8 +4393,8 @@ pg.base.benefit_buff_template = {
 				1982014
 			}
 		}
-	},
-	[300302] = {
+	}
+	pg.base.benefit_buff_template[300302] = {
 		type_priority = 0,
 		name = "白鹰科技模块LV2",
 		hide = 1,
@@ -4443,8 +4450,8 @@ pg.base.benefit_buff_template = {
 				1982014
 			}
 		}
-	},
-	[300303] = {
+	}
+	pg.base.benefit_buff_template[300303] = {
 		type_priority = 0,
 		name = "白鹰科技模块LVMAX",
 		hide = 1,
@@ -4500,8 +4507,8 @@ pg.base.benefit_buff_template = {
 				1982014
 			}
 		}
-	},
-	[300304] = {
+	}
+	pg.base.benefit_buff_template[300304] = {
 		type_priority = 0,
 		name = "皇家科技模块LV1",
 		hide = 1,
@@ -4557,8 +4564,8 @@ pg.base.benefit_buff_template = {
 				1982014
 			}
 		}
-	},
-	[300305] = {
+	}
+	pg.base.benefit_buff_template[300305] = {
 		type_priority = 0,
 		name = "皇家科技模块LV2",
 		hide = 1,
@@ -4614,8 +4621,8 @@ pg.base.benefit_buff_template = {
 				1982014
 			}
 		}
-	},
-	[300306] = {
+	}
+	pg.base.benefit_buff_template[300306] = {
 		type_priority = 0,
 		name = "皇家科技模块LVMAX",
 		hide = 1,
@@ -4671,8 +4678,8 @@ pg.base.benefit_buff_template = {
 				1982014
 			}
 		}
-	},
-	[300307] = {
+	}
+	pg.base.benefit_buff_template[300307] = {
 		type_priority = 0,
 		name = "鸢尾科技模块LV1",
 		hide = 1,
@@ -4728,8 +4735,8 @@ pg.base.benefit_buff_template = {
 				1982014
 			}
 		}
-	},
-	[300308] = {
+	}
+	pg.base.benefit_buff_template[300308] = {
 		type_priority = 0,
 		name = "鸢尾科技模块LV2",
 		hide = 1,
@@ -4785,8 +4792,8 @@ pg.base.benefit_buff_template = {
 				1982014
 			}
 		}
-	},
-	[300309] = {
+	}
+	pg.base.benefit_buff_template[300309] = {
 		type_priority = 0,
 		name = "鸢尾科技模块LVMAX",
 		hide = 1,
@@ -4842,8 +4849,8 @@ pg.base.benefit_buff_template = {
 				1982014
 			}
 		}
-	},
-	[300310] = {
+	}
+	pg.base.benefit_buff_template[300310] = {
 		type_priority = 0,
 		name = "铁血科技模块LV1",
 		hide = 1,
@@ -4899,8 +4906,8 @@ pg.base.benefit_buff_template = {
 				1982014
 			}
 		}
-	},
-	[300311] = {
+	}
+	pg.base.benefit_buff_template[300311] = {
 		type_priority = 0,
 		name = "铁血科技模块LV2",
 		hide = 1,
@@ -4956,8 +4963,8 @@ pg.base.benefit_buff_template = {
 				1982014
 			}
 		}
-	},
-	[300312] = {
+	}
+	pg.base.benefit_buff_template[300312] = {
 		type_priority = 0,
 		name = "铁血科技模块LVMAX",
 		hide = 1,
@@ -5013,8 +5020,8 @@ pg.base.benefit_buff_template = {
 				1982014
 			}
 		}
-	},
-	[300313] = {
+	}
+	pg.base.benefit_buff_template[300313] = {
 		type_priority = 0,
 		name = "东煌科技模块LV1",
 		hide = 1,
@@ -5070,8 +5077,8 @@ pg.base.benefit_buff_template = {
 				1982014
 			}
 		}
-	},
-	[300314] = {
+	}
+	pg.base.benefit_buff_template[300314] = {
 		type_priority = 0,
 		name = "东煌科技模块LV2",
 		hide = 1,
@@ -5127,8 +5134,8 @@ pg.base.benefit_buff_template = {
 				1982014
 			}
 		}
-	},
-	[300315] = {
+	}
+	pg.base.benefit_buff_template[300315] = {
 		type_priority = 0,
 		name = "东煌科技模块LVMAX",
 		hide = 1,
@@ -5184,8 +5191,8 @@ pg.base.benefit_buff_template = {
 				1982014
 			}
 		}
-	},
-	[300316] = {
+	}
+	pg.base.benefit_buff_template[300316] = {
 		type_priority = 0,
 		name = "撒丁科技模块LV1",
 		hide = 1,
@@ -5241,8 +5248,8 @@ pg.base.benefit_buff_template = {
 				1982014
 			}
 		}
-	},
-	[300317] = {
+	}
+	pg.base.benefit_buff_template[300317] = {
 		type_priority = 0,
 		name = "撒丁科技模块LV2",
 		hide = 1,
@@ -5298,8 +5305,8 @@ pg.base.benefit_buff_template = {
 				1982014
 			}
 		}
-	},
-	[300318] = {
+	}
+	pg.base.benefit_buff_template[300318] = {
 		type_priority = 0,
 		name = "撒丁科技模块LVMAX",
 		hide = 1,
@@ -5355,8 +5362,8 @@ pg.base.benefit_buff_template = {
 				1982014
 			}
 		}
-	},
-	[300319] = {
+	}
+	pg.base.benefit_buff_template[300319] = {
 		type_priority = 0,
 		name = "郁金科技模块LV1",
 		hide = 1,
@@ -5412,8 +5419,8 @@ pg.base.benefit_buff_template = {
 				1982014
 			}
 		}
-	},
-	[300320] = {
+	}
+	pg.base.benefit_buff_template[300320] = {
 		type_priority = 0,
 		name = "郁金科技模块LV2",
 		hide = 1,
@@ -5469,8 +5476,8 @@ pg.base.benefit_buff_template = {
 				1982014
 			}
 		}
-	},
-	[300321] = {
+	}
+	pg.base.benefit_buff_template[300321] = {
 		type_priority = 0,
 		name = "郁金科技模块LVMAX",
 		hide = 1,
@@ -5526,8 +5533,8 @@ pg.base.benefit_buff_template = {
 				1982014
 			}
 		}
-	},
-	[300322] = {
+	}
+	pg.base.benefit_buff_template[300322] = {
 		type_priority = 0,
 		name = "北联科技模块LV1",
 		hide = 1,
@@ -5583,8 +5590,8 @@ pg.base.benefit_buff_template = {
 				1982014
 			}
 		}
-	},
-	[300323] = {
+	}
+	pg.base.benefit_buff_template[300323] = {
 		type_priority = 0,
 		name = "北联科技模块LV2",
 		hide = 1,
@@ -5640,8 +5647,8 @@ pg.base.benefit_buff_template = {
 				1982014
 			}
 		}
-	},
-	[300324] = {
+	}
+	pg.base.benefit_buff_template[300324] = {
 		type_priority = 0,
 		name = "北联科技模块LVMAX",
 		hide = 1,
@@ -5697,8 +5704,8 @@ pg.base.benefit_buff_template = {
 				1982014
 			}
 		}
-	},
-	[300325] = {
+	}
+	pg.base.benefit_buff_template[300325] = {
 		type_priority = 0,
 		name = "重樱科技模块LV1",
 		hide = 1,
@@ -5754,8 +5761,8 @@ pg.base.benefit_buff_template = {
 				1982014
 			}
 		}
-	},
-	[300326] = {
+	}
+	pg.base.benefit_buff_template[300326] = {
 		type_priority = 0,
 		name = "重樱科技模块LV2",
 		hide = 1,
@@ -5811,8 +5818,8 @@ pg.base.benefit_buff_template = {
 				1982014
 			}
 		}
-	},
-	[300327] = {
+	}
+	pg.base.benefit_buff_template[300327] = {
 		type_priority = 0,
 		name = "重樱科技模块LVMAX",
 		hide = 1,
@@ -5869,4 +5876,4 @@ pg.base.benefit_buff_template = {
 			}
 		}
 	}
-}
+end)()

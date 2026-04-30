@@ -435,10 +435,12 @@ end
 function var_0_0.GetCVList()
 	local var_28_0 = {}
 
-	for iter_28_0, iter_28_1 in pairs(pg.character_voice) do
-		if not pg.AssistantInfo.isDisableSpecialClick(iter_28_1.key) and iter_28_1.unlock_condition[1] >= 0 then
+	for iter_28_0, iter_28_1 in ipairs(pg.character_voice.all) do
+		local var_28_1 = pg.character_voice[iter_28_1]
+
+		if not pg.AssistantInfo.isDisableSpecialClick(var_28_1.key) and var_28_1.unlock_condition[1] >= 0 then
 			var_28_0[#var_28_0 + 1] = setmetatable({}, {
-				__index = iter_28_1
+				__index = var_28_1
 			})
 		end
 	end

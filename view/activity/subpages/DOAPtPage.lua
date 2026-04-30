@@ -5,12 +5,12 @@ function var_0_0.OnInit(arg_1_0)
 
 	arg_1_0.buffModule = arg_1_0.bg:Find("buff_module")
 	arg_1_0.buffPanel = arg_1_0.buffModule:Find("skill")
-	arg_1_0.buffLvs = {}
-
-	eachChild(arg_1_0.buffPanel, function(arg_2_0)
-		table.insert(arg_1_0.buffLvs, arg_2_0)
-	end)
-
+	arg_1_0.buffLvs = {
+		arg_1_0.buffPanel:Find("pow_lv"),
+		arg_1_0.buffPanel:Find("tec_lv"),
+		arg_1_0.buffPanel:Find("stm_lv"),
+		arg_1_0.buffPanel:Find("apl_lv")
+	}
 	arg_1_0.getGreyBtn = arg_1_0.bg:Find("get_grey_btn")
 	arg_1_0.helpBtn = arg_1_0.bg:Find("help_btn")
 	arg_1_0.levelPanel = arg_1_0.buffModule:Find("level")
@@ -57,448 +57,448 @@ function var_0_0.OnInit(arg_1_0)
 	setText(arg_1_0.singleBuffBox:Find("window/sure_btn/pic"), i18n("text_confirm"))
 end
 
-function var_0_0.OnFirstFlush(arg_3_0)
-	var_0_0.super.OnFirstFlush(arg_3_0)
-	setActive(arg_3_0.bg, true)
-	removeOnButton(arg_3_0.getBtn)
-	onButton(arg_3_0, arg_3_0.getBtn, function()
-		local var_4_0 = {}
-		local var_4_1 = arg_3_0.ptData:GetAward()
-		local var_4_2 = getProxy(PlayerProxy):getData()
+function var_0_0.OnFirstFlush(arg_2_0)
+	var_0_0.super.OnFirstFlush(arg_2_0)
+	setActive(arg_2_0.bg, true)
+	removeOnButton(arg_2_0.getBtn)
+	onButton(arg_2_0, arg_2_0.getBtn, function()
+		local var_3_0 = {}
+		local var_3_1 = arg_2_0.ptData:GetAward()
+		local var_3_2 = getProxy(PlayerProxy):getData()
 
-		if var_4_1.type == DROP_TYPE_RESOURCE and var_4_1.id == PlayerConst.ResGold and var_4_2:GoldMax(var_4_1.count) then
-			table.insert(var_4_0, function(arg_5_0)
+		if var_3_1.type == DROP_TYPE_RESOURCE and var_3_1.id == PlayerConst.ResGold and var_3_2:GoldMax(var_3_1.count) then
+			table.insert(var_3_0, function(arg_4_0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("gold_max_tip_title") .. i18n("award_max_warning"),
-					onYes = arg_5_0
+					onYes = arg_4_0
 				})
 			end)
 		end
 
-		seriesAsync(var_4_0, function()
-			arg_3_0.isShowEffect = true
+		seriesAsync(var_3_0, function()
+			arg_2_0.isShowEffect = true
 
-			local var_6_0 = arg_3_0.ptData:CanTrain() and arg_3_0.ptData:isInBuffTime()
+			local var_5_0 = arg_2_0.ptData:CanTrain() and arg_2_0.ptData:isInBuffTime()
 
-			local function var_6_1()
-				if var_6_0 then
-					arg_3_0:showUpEffect()
+			local function var_5_1()
+				if var_5_0 then
+					arg_2_0:showUpEffect()
 				else
-					arg_3_0:updateLevelPanel()
+					arg_2_0:updateLevelPanel()
 				end
 			end
 
-			local var_6_2, var_6_3 = arg_3_0.ptData:GetResProgress()
+			local var_5_2, var_5_3 = arg_2_0.ptData:GetResProgress()
 
-			arg_3_0:emit(ActivityMediator.EVENT_PT_OPERATION, {
+			arg_2_0:emit(ActivityMediator.EVENT_PT_OPERATION, {
 				cmd = 1,
-				activity_id = arg_3_0.ptData:GetId(),
-				arg1 = var_6_3,
-				callback = var_6_1
+				activity_id = arg_2_0.ptData:GetId(),
+				arg1 = var_5_3,
+				callback = var_5_1
 			})
 		end)
 	end, SFX_PANEL)
-	removeOnButton(arg_3_0.battleBtn)
-	onButton(arg_3_0, arg_3_0.battleBtn, function()
-		local var_8_0
-		local var_8_1
-		local var_8_2 = arg_3_0.activity:getConfig("config_client")
+	removeOnButton(arg_2_0.battleBtn)
+	onButton(arg_2_0, arg_2_0.battleBtn, function()
+		local var_7_0
+		local var_7_1
+		local var_7_2 = arg_2_0.activity:getConfig("config_client")
 
-		if var_8_2 ~= "" then
-			var_8_0 = arg_3_0.activity:getConfig("config_client").linkActID
+		if var_7_2 ~= "" then
+			var_7_0 = arg_2_0.activity:getConfig("config_client").linkActID
 
-			if var_8_0 then
-				var_8_1 = getProxy(ActivityProxy):getActivityById(var_8_0)
+			if var_7_0 then
+				var_7_1 = getProxy(ActivityProxy):getActivityById(var_7_0)
 			end
 		end
 
-		local var_8_3 = var_8_2.fightLinkActID
+		local var_7_3 = var_7_2.fightLinkActID
 
-		if var_8_3 then
-			arg_3_0:emit(ActivityMediator.SKIP_ACTIVITY_MAP, var_8_3)
+		if var_7_3 then
+			arg_2_0:emit(ActivityMediator.SKIP_ACTIVITY_MAP, var_7_3)
 
 			return
 		end
 
-		if not var_8_0 then
-			arg_3_0:emit(ActivityMediator.BATTLE_OPERA)
-		elseif var_8_1 and not var_8_1:isEnd() then
-			arg_3_0:emit(ActivityMediator.BATTLE_OPERA)
+		if not var_7_0 then
+			arg_2_0:emit(ActivityMediator.BATTLE_OPERA)
+		elseif var_7_1 and not var_7_1:isEnd() then
+			arg_2_0:emit(ActivityMediator.BATTLE_OPERA)
 		else
-			arg_3_0:showTip(i18n("common_activity_end"))
+			arg_2_0:showTip(i18n("common_activity_end"))
 		end
 	end, SFX_PANEL)
-	onButton(arg_3_0, arg_3_0.helpBtn, function()
+	onButton(arg_2_0, arg_2_0.helpBtn, function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = i18n("doa_pt_help")
 		})
 	end, SFX_PANEL)
-	onButton(arg_3_0, arg_3_0.buffModule, function()
-		arg_3_0:showBuffBox()
+	onButton(arg_2_0, arg_2_0.buffModule, function()
+		arg_2_0:showBuffBox()
 	end, SFX_PANEL)
 
-	if arg_3_0.contextData.singleActivity then
-		setActive(arg_3_0.bg, false)
-		arg_3_0:showSingleBuffBox()
+	if arg_2_0.contextData.singleActivity then
+		setActive(arg_2_0.bg, false)
+		arg_2_0:showSingleBuffBox()
 	end
 
-	arg_3_0.starEffect:GetComponent("DftAniEvent"):SetEndEvent(function()
-		arg_3_0:updateLevelPanel()
-		arg_3_0:managedTween(LeanTween.delayedCall, function()
-			arg_3_0:showTrianPanel()
-			setActive(arg_3_0.starEffect, false)
-			setActive(arg_3_0.mask, false)
-			pg.UIMgr.GetInstance():UnOverlayPanel(arg_3_0.mask, arg_3_0.bg)
+	arg_2_0.starEffect:GetComponent("DftAniEvent"):SetEndEvent(function()
+		arg_2_0:updateLevelPanel()
+		arg_2_0:managedTween(LeanTween.delayedCall, function()
+			arg_2_0:showTrianPanel()
+			setActive(arg_2_0.starEffect, false)
+			setActive(arg_2_0.mask, false)
+			pg.UIMgr.GetInstance():UnOverlayPanel(arg_2_0.mask, arg_2_0.bg)
 		end, 0.2, nil)
 	end)
-	arg_3_0.shieldEffect:GetComponent("DftAniEvent"):SetEndEvent(function()
-		arg_3_0:updateLevelPanel()
-		arg_3_0:managedTween(LeanTween.delayedCall, function()
-			arg_3_0:showTrianPanel()
-			setActive(arg_3_0.starEffect, false)
-			setActive(arg_3_0.mask, false)
-			pg.UIMgr.GetInstance():UnOverlayPanel(arg_3_0.mask, arg_3_0.bg)
+	arg_2_0.shieldEffect:GetComponent("DftAniEvent"):SetEndEvent(function()
+		arg_2_0:updateLevelPanel()
+		arg_2_0:managedTween(LeanTween.delayedCall, function()
+			arg_2_0:showTrianPanel()
+			setActive(arg_2_0.starEffect, false)
+			setActive(arg_2_0.mask, false)
+			pg.UIMgr.GetInstance():UnOverlayPanel(arg_2_0.mask, arg_2_0.bg)
 		end, 0.2, nil)
 	end)
 
-	arg_3_0.isShowEffect = false
+	arg_2_0.isShowEffect = false
 end
 
-function var_0_0.showUpEffect(arg_15_0, arg_15_1)
-	setSlider(arg_15_0.curPanel, 0, 1, 1)
+function var_0_0.showUpEffect(arg_14_0, arg_14_1)
+	setSlider(arg_14_0.curPanel, 0, 1, 1)
 
-	local var_15_0 = arg_15_0.ptData:GetBuffLevelProgress()
+	local var_14_0 = arg_14_0.ptData:GetBuffLevelProgress()
 
-	if var_15_0 == 8 or var_15_0 == 9 then
-		setActive(arg_15_0.starEffect, true)
-		arg_15_0.starEffect:GetComponent("Animator"):Play("saoguang_anim", -1, 0)
+	if var_14_0 == 8 or var_14_0 == 9 then
+		setActive(arg_14_0.starEffect, true)
+		arg_14_0.starEffect:GetComponent("Animator"):Play("saoguang_anim", -1, 0)
 	else
-		setActive(arg_15_0.shieldEffect, true)
-		arg_15_0.shieldEffect:GetComponent("Animator"):Play("saoguang_anim", -1, 0)
+		setActive(arg_14_0.shieldEffect, true)
+		arg_14_0.shieldEffect:GetComponent("Animator"):Play("saoguang_anim", -1, 0)
 	end
 
-	setActive(arg_15_0.mask, true)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_15_0.mask)
+	setActive(arg_14_0.mask, true)
+	pg.UIMgr.GetInstance():OverlayPanel(arg_14_0.mask)
 end
 
-function var_0_0.updateLevelPanel(arg_16_0)
-	local var_16_0, var_16_1 = arg_16_0.ptData:GetBuffLevelProgress()
+function var_0_0.updateLevelPanel(arg_15_0)
+	local var_15_0, var_15_1 = arg_15_0.ptData:GetBuffLevelProgress()
 
-	setActive(arg_16_0.f2aPanel, false)
-	setActive(arg_16_0.sPanel, false)
-	setActive(arg_16_0.sssPanel, false)
+	setActive(arg_15_0.f2aPanel, false)
+	setActive(arg_15_0.sPanel, false)
+	setActive(arg_15_0.sssPanel, false)
 
-	arg_16_0.curPanel = nil
+	arg_15_0.curPanel = nil
 
-	if var_16_0 == 9 then
-		arg_16_0.curPanel = arg_16_0.sssPanel
-	elseif var_16_0 > 6 then
-		arg_16_0.curPanel = arg_16_0.sPanel
+	if var_15_0 == 9 then
+		arg_15_0.curPanel = arg_15_0.sssPanel
+	elseif var_15_0 > 6 then
+		arg_15_0.curPanel = arg_15_0.sPanel
 	else
-		arg_16_0.curPanel = arg_16_0.f2aPanel
+		arg_15_0.curPanel = arg_15_0.f2aPanel
 	end
 
-	setActive(arg_16_0.curPanel, true)
-	setImageSprite(arg_16_0.curPanel:Find("bar"), arg_16_0.lvBarImages:Find(var_16_0):GetComponent(typeof(Image)).sprite)
-	setImageSprite(arg_16_0.curPanel:Find("lv_tag"), arg_16_0.lvTagImages:Find(var_16_0):GetComponent(typeof(Image)).sprite, true)
-	setSlider(arg_16_0.curPanel, 0, 1, var_16_1)
+	setActive(arg_15_0.curPanel, true)
+	setImageSprite(arg_15_0.curPanel:Find("bar"), arg_15_0.lvBarImages:Find(var_15_0):GetComponent(typeof(Image)).sprite)
+	setImageSprite(arg_15_0.curPanel:Find("lv_tag"), arg_15_0.lvTagImages:Find(var_15_0):GetComponent(typeof(Image)).sprite, true)
+	setSlider(arg_15_0.curPanel, 0, 1, var_15_1)
 
-	return arg_16_0.curPanel
+	return arg_15_0.curPanel
 end
 
-function var_0_0.OnUpdateFlush(arg_17_0)
-	setActive(arg_17_0.starEffect, false)
-	setActive(arg_17_0.shieldEffect, false)
+function var_0_0.OnUpdateFlush(arg_16_0)
+	setActive(arg_16_0.starEffect, false)
+	setActive(arg_16_0.shieldEffect, false)
 
-	local var_17_0 = arg_17_0.ptData:CanTrain()
+	local var_16_0 = arg_16_0.ptData:CanTrain()
 
-	if var_17_0 and var_17_0 <= arg_17_0.ptData.level and arg_17_0.ptData:isInBuffTime() and not arg_17_0.contextData.singleActivity and not arg_17_0.isShowEffect then
-		arg_17_0:showTrianPanel()
+	if var_16_0 and var_16_0 <= arg_16_0.ptData.level and arg_16_0.ptData:isInBuffTime() and not arg_16_0.contextData.singleActivity and not arg_16_0.isShowEffect then
+		arg_16_0:showTrianPanel()
 	end
 
-	local var_17_1, var_17_2, var_17_3 = arg_17_0.ptData:GetLevelProgress()
-	local var_17_4, var_17_5, var_17_6 = arg_17_0.ptData:GetResProgress()
+	local var_16_1, var_16_2, var_16_3 = arg_16_0.ptData:GetLevelProgress()
+	local var_16_4, var_16_5, var_16_6 = arg_16_0.ptData:GetResProgress()
 
-	setText(arg_17_0.step, var_17_1 .. "/" .. var_17_2)
-	setText(arg_17_0.progress, (var_17_6 >= 1 and setColorStr(var_17_4, COLOR_GREEN) or var_17_4) .. "/" .. var_17_5)
-	setSlider(arg_17_0.slider, 0, 1, var_17_6)
+	setText(arg_16_0.step, var_16_1 .. "/" .. var_16_2)
+	setText(arg_16_0.progress, (var_16_6 >= 1 and setColorStr(var_16_4, COLOR_GREEN) or var_16_4) .. "/" .. var_16_5)
+	setSlider(arg_16_0.slider, 0, 1, var_16_6)
 
-	if not arg_17_0.isShowEffect then
-		arg_17_0:updateLevelPanel()
+	if not arg_16_0.isShowEffect then
+		arg_16_0:updateLevelPanel()
 	end
 
-	local var_17_7 = arg_17_0.ptData:CanGetAward()
-	local var_17_8 = arg_17_0.ptData:CanGetNextAward()
-	local var_17_9 = arg_17_0.ptData:CanGetMorePt()
-	local var_17_10 = arg_17_0.ptData:CanTrain()
+	local var_16_7 = arg_16_0.ptData:CanGetAward()
+	local var_16_8 = arg_16_0.ptData:CanGetNextAward()
+	local var_16_9 = arg_16_0.ptData:CanGetMorePt()
+	local var_16_10 = arg_16_0.ptData:CanTrain()
 
-	setActive(arg_17_0.battleBtn, var_17_9 and not var_17_7 and var_17_8)
-	setActive(arg_17_0.getBtn, var_17_7)
-	setActive(arg_17_0.getGreyBtn, not var_17_7)
-	setActive(arg_17_0.gotBtn, not var_17_8 and not var_17_10)
-	setActive(arg_17_0.buffModule, arg_17_0.ptData:isInBuffTime())
+	setActive(arg_16_0.battleBtn, var_16_9 and not var_16_7 and var_16_8)
+	setActive(arg_16_0.getBtn, var_16_7)
+	setActive(arg_16_0.getGreyBtn, not var_16_7)
+	setActive(arg_16_0.gotBtn, not var_16_8 and not var_16_10)
+	setActive(arg_16_0.buffModule, arg_16_0.ptData:isInBuffTime())
 
-	local var_17_11 = arg_17_0.ptData:GetAward()
+	local var_16_11 = arg_16_0.ptData:GetAward()
 
-	updateDrop(arg_17_0.awardTF, var_17_11)
-	onButton(arg_17_0, arg_17_0.awardTF, function()
-		arg_17_0:emit(BaseUI.ON_DROP, var_17_11)
+	updateDrop(arg_16_0.awardTF, var_16_11)
+	onButton(arg_16_0, arg_16_0.awardTF, function()
+		arg_16_0:emit(BaseUI.ON_DROP, var_16_11)
 	end, SFX_PANEL)
 
-	for iter_17_0, iter_17_1 in ipairs(arg_17_0.ptData:GetCurBuffInfos()) do
-		setText(arg_17_0.buffLvs[iter_17_1.group], iter_17_1.next and "LV." .. iter_17_1.lv or "MAX")
+	for iter_16_0, iter_16_1 in ipairs(arg_16_0.ptData:GetCurBuffInfos()) do
+		setText(arg_16_0.buffLvs[iter_16_1.group], iter_16_1.next and "LV." .. iter_16_1.lv or "MAX")
 	end
 end
 
-function var_0_0.showTrianPanel(arg_19_0)
-	setActive(arg_19_0.trainWindow, true)
+function var_0_0.showTrianPanel(arg_18_0)
+	setActive(arg_18_0.trainWindow, true)
 
-	local var_19_0 = arg_19_0.ptData:GetCurBuffInfos()
+	local var_18_0 = arg_18_0.ptData:GetCurBuffInfos()
 
-	arg_19_0.selectIndex = nil
-	arg_19_0.selectBuffId = nil
-	arg_19_0.selectBuffLv = nil
-	arg_19_0.selectNewBuffId = nil
+	arg_18_0.selectIndex = nil
+	arg_18_0.selectBuffId = nil
+	arg_18_0.selectBuffLv = nil
+	arg_18_0.selectNewBuffId = nil
 
-	for iter_19_0, iter_19_1 in ipairs(arg_19_0.trainSkillBtns) do
-		onButton(arg_19_0, iter_19_1, function()
-			for iter_20_0, iter_20_1 in ipairs(var_19_0) do
-				if iter_19_0 == iter_20_1.group then
-					if iter_20_1.next then
-						arg_19_0.selectIndex = iter_19_0
-						arg_19_0.selectBuffId = iter_20_1.id
-						arg_19_0.selectNewBuffId = iter_20_1.next
-						arg_19_0.selectBuffLv = iter_20_1.lv
+	for iter_18_0, iter_18_1 in ipairs(arg_18_0.trainSkillBtns) do
+		onButton(arg_18_0, iter_18_1, function()
+			for iter_19_0, iter_19_1 in ipairs(var_18_0) do
+				if iter_18_0 == iter_19_1.group then
+					if iter_19_1.next then
+						arg_18_0.selectIndex = iter_18_0
+						arg_18_0.selectBuffId = iter_19_1.id
+						arg_18_0.selectNewBuffId = iter_19_1.next
+						arg_18_0.selectBuffLv = iter_19_1.lv
 					else
-						arg_19_0.selectIndex = nil
-						arg_19_0.selectBuffId = nil
-						arg_19_0.selectNewBuffId = nil
-						arg_19_0.selectBuffLv = nil
+						arg_18_0.selectIndex = nil
+						arg_18_0.selectBuffId = nil
+						arg_18_0.selectNewBuffId = nil
+						arg_18_0.selectBuffLv = nil
 					end
 				end
 			end
 
-			arg_19_0:flushTrainPanel()
+			arg_18_0:flushTrainPanel()
 		end, SFX_PANEL)
 	end
 
-	onButton(arg_19_0, arg_19_0.trainBtn, function()
-		arg_19_0:showMsgBox()
+	onButton(arg_18_0, arg_18_0.trainBtn, function()
+		arg_18_0:showMsgBox()
 	end, SFX_PANEL)
 	;(function()
-		for iter_22_0, iter_22_1 in ipairs(var_19_0) do
-			if iter_22_1.next then
-				arg_19_0.selectIndex = iter_22_1.group
-				arg_19_0.selectBuffId = iter_22_1.id
-				arg_19_0.selectNewBuffId = iter_22_1.next
-				arg_19_0.selectBuffLv = iter_22_1.lv
+		for iter_21_0, iter_21_1 in ipairs(var_18_0) do
+			if iter_21_1.next then
+				arg_18_0.selectIndex = iter_21_1.group
+				arg_18_0.selectBuffId = iter_21_1.id
+				arg_18_0.selectNewBuffId = iter_21_1.next
+				arg_18_0.selectBuffLv = iter_21_1.lv
 
 				return
 			end
 		end
 	end)()
-	arg_19_0:flushTrainPanel()
+	arg_18_0:flushTrainPanel()
 end
 
-function var_0_0.hideTrianPanel(arg_23_0)
-	setActive(arg_23_0.trainWindow, false)
+function var_0_0.hideTrianPanel(arg_22_0)
+	setActive(arg_22_0.trainWindow, false)
 end
 
-function var_0_0.flushTrainPanel(arg_24_0)
-	local var_24_0 = arg_24_0.ptData:GetCurBuffInfos()
+function var_0_0.flushTrainPanel(arg_23_0)
+	local var_23_0 = arg_23_0.ptData:GetCurBuffInfos()
 
-	if var_24_0 then
-		for iter_24_0, iter_24_1 in ipairs(var_24_0) do
-			setText(arg_24_0.trainSkillBtns[iter_24_1.group]:Find("lv_bg/lv"), iter_24_1.next and "LV." .. iter_24_1.lv or "MAX")
+	if var_23_0 then
+		for iter_23_0, iter_23_1 in ipairs(var_23_0) do
+			setText(arg_23_0.trainSkillBtns[iter_23_1.group]:Find("lv_bg/lv"), iter_23_1.next and "LV." .. iter_23_1.lv or "MAX")
 		end
 	end
 
-	for iter_24_2, iter_24_3 in ipairs(arg_24_0.trainSkillBtns) do
-		if iter_24_2 == arg_24_0.selectIndex then
-			setActive(iter_24_3:Find("selected"), true)
+	for iter_23_2, iter_23_3 in ipairs(arg_23_0.trainSkillBtns) do
+		if iter_23_2 == arg_23_0.selectIndex then
+			setActive(iter_23_3:Find("selected"), true)
 		else
-			setActive(iter_24_3:Find("selected"), false)
+			setActive(iter_23_3:Find("selected"), false)
 		end
 	end
 
-	if arg_24_0.selectIndex then
-		setActive(arg_24_0.curInfoPanel, true)
-		setActive(arg_24_0.trainBtn, true)
-		setText(arg_24_0.curInfo, pg.benefit_buff_template[arg_24_0.selectBuffId].desc)
-		setText(arg_24_0.nextInfo, pg.benefit_buff_template[arg_24_0.selectNewBuffId].desc)
+	if arg_23_0.selectIndex then
+		setActive(arg_23_0.curInfoPanel, true)
+		setActive(arg_23_0.trainBtn, true)
+		setText(arg_23_0.curInfo, pg.benefit_buff_template[arg_23_0.selectBuffId].desc)
+		setText(arg_23_0.nextInfo, pg.benefit_buff_template[arg_23_0.selectNewBuffId].desc)
 	else
-		setActive(arg_24_0.curInfoPanel, false)
-		setActive(arg_24_0.trainBtn, false)
+		setActive(arg_23_0.curInfoPanel, false)
+		setActive(arg_23_0.trainBtn, false)
 	end
 end
 
-function var_0_0.getBuffNameIndex(arg_25_0, arg_25_1)
-	if arg_25_1 == 35 or arg_25_1 == 36 or arg_25_1 == 37 then
+function var_0_0.getBuffNameIndex(arg_24_0, arg_24_1)
+	if arg_24_1 == 35 or arg_24_1 == 36 or arg_24_1 == 37 then
 		return 1
-	elseif arg_25_1 == 38 or arg_25_1 == 39 or arg_25_1 == 40 then
+	elseif arg_24_1 == 38 or arg_24_1 == 39 or arg_24_1 == 40 then
 		return 2
-	elseif arg_25_1 == 41 or arg_25_1 == 42 or arg_25_1 == 43 then
+	elseif arg_24_1 == 41 or arg_24_1 == 42 or arg_24_1 == 43 then
 		return 3
-	elseif arg_25_1 == 44 or arg_25_1 == 45 or arg_25_1 == 46 then
+	elseif arg_24_1 == 44 or arg_24_1 == 45 or arg_24_1 == 46 then
 		return 4
 	end
 
 	return 1
 end
 
-function var_0_0.getTip(arg_26_0, arg_26_1)
-	if arg_26_1 == 35 or arg_26_1 == 36 or arg_26_1 == 37 then
+function var_0_0.getTip(arg_25_0, arg_25_1)
+	if arg_25_1 == 35 or arg_25_1 == 36 or arg_25_1 == 37 then
 		return i18n("doa_liliang")
-	elseif arg_26_1 == 38 or arg_26_1 == 39 or arg_26_1 == 40 then
+	elseif arg_25_1 == 38 or arg_25_1 == 39 or arg_25_1 == 40 then
 		return i18n("doa_jiqiao")
-	elseif arg_26_1 == 41 or arg_26_1 == 42 or arg_26_1 == 43 then
+	elseif arg_25_1 == 41 or arg_25_1 == 42 or arg_25_1 == 43 then
 		return i18n("doa_tili")
-	elseif arg_26_1 == 44 or arg_26_1 == 45 or arg_26_1 == 46 then
+	elseif arg_25_1 == 44 or arg_25_1 == 45 or arg_25_1 == 46 then
 		return i18n("doa_meili")
 	end
 
 	return ""
 end
 
-function var_0_0.showMsgBox(arg_27_0)
-	if arg_27_0.selectBuffId then
-		setActive(arg_27_0.msgBox, true)
-		setText(arg_27_0.msgContent, i18n("doa_pt_up", arg_27_0:getTip(pg.benefit_buff_template[arg_27_0.selectBuffId].id)))
-		onButton(arg_27_0, arg_27_0.msgBoxMask, function()
-			arg_27_0:hideMsgBox()
+function var_0_0.showMsgBox(arg_26_0)
+	if arg_26_0.selectBuffId then
+		setActive(arg_26_0.msgBox, true)
+		setText(arg_26_0.msgContent, i18n("doa_pt_up", arg_26_0:getTip(pg.benefit_buff_template[arg_26_0.selectBuffId].id)))
+		onButton(arg_26_0, arg_26_0.msgBoxMask, function()
+			arg_26_0:hideMsgBox()
 		end, SFX_PANEL)
-		onButton(arg_27_0, arg_27_0.cancelBtn, function()
-			arg_27_0:hideMsgBox()
+		onButton(arg_26_0, arg_26_0.cancelBtn, function()
+			arg_26_0:hideMsgBox()
 		end, SFX_PANEL)
-		onButton(arg_27_0, arg_27_0.confirmBtn, function()
-			arg_27_0:hideMsgBox()
-			arg_27_0:emit(ActivityMediator.EVENT_PT_OPERATION, {
+		onButton(arg_26_0, arg_26_0.confirmBtn, function()
+			arg_26_0:hideMsgBox()
+			arg_26_0:emit(ActivityMediator.EVENT_PT_OPERATION, {
 				cmd = 3,
-				activity_id = arg_27_0.ptData:GetId(),
-				arg1 = arg_27_0.ptData:CanTrain(),
-				arg2 = arg_27_0.selectNewBuffId,
-				oldBuffId = arg_27_0.selectBuffId
+				activity_id = arg_26_0.ptData:GetId(),
+				arg1 = arg_26_0.ptData:CanTrain(),
+				arg2 = arg_26_0.selectNewBuffId,
+				oldBuffId = arg_26_0.selectBuffId
 			})
-			arg_27_0:hideTrianPanel()
-			arg_27_0:showTip(i18n("doa_pt_complete"))
+			arg_26_0:hideTrianPanel()
+			arg_26_0:showTip(i18n("doa_pt_complete"))
 		end, SFX_PANEL)
 	end
 end
 
-function var_0_0.hideMsgBox(arg_31_0)
-	setActive(arg_31_0.msgBox, false)
+function var_0_0.hideMsgBox(arg_30_0)
+	setActive(arg_30_0.msgBox, false)
 end
 
-function var_0_0.showTip(arg_32_0, arg_32_1)
-	local var_32_0 = cloneTplTo(arg_32_0.tipPanel, arg_32_0._tf)
+function var_0_0.showTip(arg_31_0, arg_31_1)
+	local var_31_0 = cloneTplTo(arg_31_0.tipPanel, arg_31_0._tf)
 
-	setActive(var_32_0, true)
-	setText(var_32_0:Find("Text"), arg_32_1)
+	setActive(var_31_0, true)
+	setText(var_31_0:Find("Text"), arg_31_1)
 
-	var_32_0.transform.localScale = Vector3(0, 0.1, 1)
+	var_31_0.transform.localScale = Vector3(0, 0.1, 1)
 
-	LeanTween.scale(var_32_0, Vector3(1.8, 0.1, 1), 0.1):setUseEstimatedTime(true)
-	LeanTween.scale(var_32_0, Vector3(1.1, 1.1, 1), 0.1):setDelay(0.1):setUseEstimatedTime(true)
+	LeanTween.scale(var_31_0, Vector3(1.8, 0.1, 1), 0.1):setUseEstimatedTime(true)
+	LeanTween.scale(var_31_0, Vector3(1.1, 1.1, 1), 0.1):setDelay(0.1):setUseEstimatedTime(true)
 
-	local var_32_1 = GetOrAddComponent(var_32_0, "CanvasGroup")
+	local var_31_1 = GetOrAddComponent(var_31_0, "CanvasGroup")
 
 	Timer.New(function()
-		if IsNil(var_32_0) then
+		if IsNil(var_31_0) then
 			return
 		end
 
-		LeanTween.scale(var_32_0, Vector3(0.1, 1.5, 1), 0.1):setUseEstimatedTime(true):setOnComplete(System.Action(function()
-			LeanTween.scale(var_32_0, Vector3.zero, 0.1):setUseEstimatedTime(true):setOnComplete(System.Action(function()
-				Destroy(var_32_0)
+		LeanTween.scale(var_31_0, Vector3(0.1, 1.5, 1), 0.1):setUseEstimatedTime(true):setOnComplete(System.Action(function()
+			LeanTween.scale(var_31_0, Vector3.zero, 0.1):setUseEstimatedTime(true):setOnComplete(System.Action(function()
+				Destroy(var_31_0)
 			end))
 		end))
 	end, 3):Start()
 end
 
-function var_0_0.showBuffBox(arg_36_0)
-	setActive(arg_36_0.buffBox, true)
-	removeAllChildren(arg_36_0.buffIconParent)
+function var_0_0.showBuffBox(arg_35_0)
+	setActive(arg_35_0.buffBox, true)
+	removeAllChildren(arg_35_0.buffIconParent)
 
-	local var_36_0 = cloneTplTo(arg_36_0:updateLevelPanel(), arg_36_0.buffIconParent)
+	local var_35_0 = cloneTplTo(arg_35_0:updateLevelPanel(), arg_35_0.buffIconParent)
 
-	setLocalPosition(var_36_0, Vector3(0, 0, 0))
-	setLocalScale(var_36_0, Vector3(1.3, 1.3, 1))
+	setLocalPosition(var_35_0, Vector3(0, 0, 0))
+	setLocalScale(var_35_0, Vector3(1.3, 1.3, 1))
 
-	local var_36_1 = arg_36_0.ptData:GetCurBuffInfos()
+	local var_35_1 = arg_35_0.ptData:GetCurBuffInfos()
 
-	if var_36_1 then
-		for iter_36_0, iter_36_1 in ipairs(var_36_1) do
-			local var_36_2
+	if var_35_1 then
+		for iter_35_0, iter_35_1 in ipairs(var_35_1) do
+			local var_35_2
 
-			if iter_36_0 <= arg_36_0.buffDescContent.childCount then
-				var_36_2 = arg_36_0.buffDescContent:GetChild(iter_36_0 - 1)
+			if iter_35_0 <= arg_35_0.buffDescContent.childCount then
+				var_35_2 = arg_35_0.buffDescContent:GetChild(iter_35_0 - 1)
 			else
-				var_36_2 = cloneTplTo(arg_36_0.buffDescTpl, arg_36_0.buffDescContent)
+				var_35_2 = cloneTplTo(arg_35_0.buffDescTpl, arg_35_0.buffDescContent)
 			end
 
-			setText(var_36_2, pg.benefit_buff_template[iter_36_1.id].name .. pg.benefit_buff_template[iter_36_1.id].desc)
+			setText(var_35_2, pg.benefit_buff_template[iter_35_1.id].name .. pg.benefit_buff_template[iter_35_1.id].desc)
 		end
 	end
 
-	onButton(arg_36_0, arg_36_0.buffMask, function()
-		setActive(arg_36_0.buffBox, false)
+	onButton(arg_35_0, arg_35_0.buffMask, function()
+		setActive(arg_35_0.buffBox, false)
 	end, SFX_PANEL)
 end
 
-function var_0_0.showSingleBuffBox(arg_38_0)
-	setActive(arg_38_0.singleBuffBox, true)
-	pg.UIMgr.GetInstance():BlurPanel(arg_38_0.singleBuffBox)
-	removeAllChildren(arg_38_0.singleIconParent)
+function var_0_0.showSingleBuffBox(arg_37_0)
+	setActive(arg_37_0.singleBuffBox, true)
+	pg.UIMgr.GetInstance():BlurPanel(arg_37_0.singleBuffBox)
+	removeAllChildren(arg_37_0.singleIconParent)
 
-	local var_38_0 = cloneTplTo(arg_38_0:updateLevelPanel(), arg_38_0.singleIconParent)
+	local var_37_0 = cloneTplTo(arg_37_0:updateLevelPanel(), arg_37_0.singleIconParent)
 
-	setLocalPosition(var_38_0, Vector3(0, 0, 0))
-	setLocalScale(var_38_0, Vector3(1.3, 1.3, 1))
+	setLocalPosition(var_37_0, Vector3(0, 0, 0))
+	setLocalScale(var_37_0, Vector3(1.3, 1.3, 1))
 
-	local var_38_1 = arg_38_0.ptData:GetCurBuffInfos()
+	local var_37_1 = arg_37_0.ptData:GetCurBuffInfos()
 
-	if var_38_1 then
-		for iter_38_0, iter_38_1 in ipairs(var_38_1) do
-			local var_38_2
+	if var_37_1 then
+		for iter_37_0, iter_37_1 in ipairs(var_37_1) do
+			local var_37_2
 
-			if iter_38_0 <= arg_38_0.singleDescContent.childCount then
-				var_38_2 = arg_38_0.singleDescContent:GetChild(iter_38_0 - 1)
+			if iter_37_0 <= arg_37_0.singleDescContent.childCount then
+				var_37_2 = arg_37_0.singleDescContent:GetChild(iter_37_0 - 1)
 			else
-				var_38_2 = cloneTplTo(arg_38_0.singleDescTpl, arg_38_0.singleDescContent)
+				var_37_2 = cloneTplTo(arg_37_0.singleDescTpl, arg_37_0.singleDescContent)
 			end
 
-			setText(var_38_2, pg.benefit_buff_template[iter_38_1.id].name .. pg.benefit_buff_template[iter_38_1.id].desc)
+			setText(var_37_2, pg.benefit_buff_template[iter_37_1.id].name .. pg.benefit_buff_template[iter_37_1.id].desc)
 		end
 	end
 
-	local function var_38_3()
-		setActive(arg_38_0.singleBuffBox, false)
-		arg_38_0:emit(ActivitySingleScene.EXIT)
-		arg_38_0:emit(ActivitySingleScene.ON_CLOSE)
-		pg.UIMgr.GetInstance():UnOverlayPanel(arg_38_0.singleBuffBox, arg_38_0._tf)
+	local function var_37_3()
+		setActive(arg_37_0.singleBuffBox, false)
+		arg_37_0:emit(ActivitySingleScene.EXIT)
+		arg_37_0:emit(ActivitySingleScene.ON_CLOSE)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_37_0.singleBuffBox, arg_37_0._tf)
 	end
 
-	onButton(arg_38_0, arg_38_0.singleBuffMask, function()
-		var_38_3()
+	onButton(arg_37_0, arg_37_0.singleBuffMask, function()
+		var_37_3()
 	end, SFX_PANEL)
-	onButton(arg_38_0, arg_38_0.singleCloseBtn, function()
-		var_38_3()
+	onButton(arg_37_0, arg_37_0.singleCloseBtn, function()
+		var_37_3()
 	end, SFX_PANEL)
-	onButton(arg_38_0, arg_38_0.singleSureBtn, function()
-		var_38_3()
+	onButton(arg_37_0, arg_37_0.singleSureBtn, function()
+		var_37_3()
 	end, SFX_PANEL)
 end
 
-function var_0_0.onBackPressed(arg_43_0)
+function var_0_0.onBackPressed(arg_42_0)
+	if arg_42_0.contextData.singleActivity then
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_42_0.singleBuffBox, arg_42_0._tf)
+	end
+end
+
+function var_0_0.willExit(arg_43_0)
 	if arg_43_0.contextData.singleActivity then
 		pg.UIMgr.GetInstance():UnOverlayPanel(arg_43_0.singleBuffBox, arg_43_0._tf)
-	end
-end
-
-function var_0_0.willExit(arg_44_0)
-	if arg_44_0.contextData.singleActivity then
-		pg.UIMgr.GetInstance():UnOverlayPanel(arg_44_0.singleBuffBox, arg_44_0._tf)
 	end
 end
 

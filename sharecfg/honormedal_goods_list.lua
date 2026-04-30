@@ -1,6 +1,67 @@
 pg = pg or {}
-pg.honormedal_goods_list = {
-	{
+pg.honormedal_goods_list = rawget(pg, "honormedal_goods_list") or setmetatable({
+	__name = "honormedal_goods_list"
+}, confNEO)
+pg.honormedal_goods_list.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55
+}
+pg.base = pg.base or {}
+pg.base.honormedal_goods_list = {}
+
+;(function()
+	pg.base.honormedal_goods_list[1] = {
 		price = 2,
 		goods_purchase_limit = 30,
 		goods_icon = "Props/54011",
@@ -20,8 +81,8 @@ pg.honormedal_goods_list = {
 			17031,
 			17041
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[2] = {
 		price = 30,
 		goods_purchase_limit = 5,
 		goods_icon = "Props/17002",
@@ -37,8 +98,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			17002
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[3] = {
 		price = 30,
 		goods_purchase_limit = 5,
 		goods_icon = "Props/17012",
@@ -54,8 +115,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			17012
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[4] = {
 		price = 30,
 		goods_purchase_limit = 5,
 		goods_icon = "Props/17022",
@@ -71,8 +132,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			17022
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[5] = {
 		price = 30,
 		goods_purchase_limit = 5,
 		goods_icon = "Props/17032",
@@ -88,8 +149,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			17032
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[6] = {
 		price = 30,
 		goods_purchase_limit = 5,
 		goods_icon = "Props/17042",
@@ -105,8 +166,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			17042
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[7] = {
 		price = 30,
 		goods_purchase_limit = 5,
 		goods_icon = "Props/54012",
@@ -126,8 +187,8 @@ pg.honormedal_goods_list = {
 			17032,
 			17042
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[8] = {
 		price = 30,
 		goods_purchase_limit = 4,
 		goods_icon = "Props/17003",
@@ -143,8 +204,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			17003
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[9] = {
 		price = 30,
 		goods_purchase_limit = 4,
 		goods_icon = "Props/17013",
@@ -160,8 +221,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			17013
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[10] = {
 		price = 30,
 		goods_purchase_limit = 4,
 		goods_icon = "Props/17023",
@@ -177,8 +238,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			17023
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[11] = {
 		price = 30,
 		goods_purchase_limit = 4,
 		goods_icon = "Props/17033",
@@ -194,8 +255,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			17033
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[12] = {
 		price = 30,
 		goods_purchase_limit = 4,
 		goods_icon = "Props/17043",
@@ -211,8 +272,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			17043
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[13] = {
 		price = 30,
 		goods_purchase_limit = 5,
 		goods_icon = "Props/54013",
@@ -232,8 +293,8 @@ pg.honormedal_goods_list = {
 			17033,
 			17043
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[14] = {
 		price = 30,
 		goods_purchase_limit = 24,
 		goods_icon = "Props/54031",
@@ -252,8 +313,8 @@ pg.honormedal_goods_list = {
 			18021,
 			18031
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[15] = {
 		price = 60,
 		goods_purchase_limit = 12,
 		goods_icon = "Props/54032",
@@ -272,8 +333,8 @@ pg.honormedal_goods_list = {
 			18022,
 			18032
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[16] = {
 		price = 100,
 		goods_purchase_limit = 4,
 		goods_icon = "Props/54033",
@@ -292,8 +353,8 @@ pg.honormedal_goods_list = {
 			18023,
 			18033
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[17] = {
 		price = 6,
 		goods_purchase_limit = 6,
 		goods_icon = "Props/16002",
@@ -309,8 +370,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			16002
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[18] = {
 		price = 6,
 		goods_purchase_limit = 6,
 		goods_icon = "Props/16012",
@@ -326,8 +387,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			16012
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[19] = {
 		price = 6,
 		goods_purchase_limit = 6,
 		goods_icon = "Props/16022",
@@ -343,8 +404,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			16022
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[20] = {
 		price = 6,
 		goods_purchase_limit = 2,
 		goods_icon = "Props/16003",
@@ -360,8 +421,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			16003
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[21] = {
 		price = 6,
 		goods_purchase_limit = 2,
 		goods_icon = "Props/16013",
@@ -377,8 +438,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			16013
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[22] = {
 		price = 6,
 		goods_purchase_limit = 2,
 		goods_icon = "Props/16023",
@@ -394,8 +455,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			16023
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[23] = {
 		price = 20,
 		goods_purchase_limit = 15,
 		goods_icon = "Props/42030",
@@ -411,8 +472,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			42030
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[24] = {
 		price = 20,
 		goods_purchase_limit = 5,
 		goods_icon = "Props/42036",
@@ -428,8 +489,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			42036
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[25] = {
 		price = 6,
 		goods_purchase_limit = 24,
 		goods_icon = "Props/huangjialiaoli",
@@ -445,8 +506,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			50005
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[26] = {
 		price = 10,
 		goods_purchase_limit = 12,
 		goods_icon = "Props/manhanquanxi",
@@ -462,8 +523,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			50006
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[27] = {
 		price = 80,
 		goods_purchase_limit = 2,
 		goods_icon = "squareIcon/kin",
@@ -479,8 +540,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			100011
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[28] = {
 		price = 30,
 		goods_purchase_limit = 10,
 		goods_icon = "squareIcon/gin",
@@ -496,8 +557,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			100001
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[29] = {
 		price = 80,
 		goods_purchase_limit = 1,
 		goods_icon = "Props/54000",
@@ -519,8 +580,8 @@ pg.honormedal_goods_list = {
 			301861,
 			701051
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[30] = {
 		price = 80,
 		goods_purchase_limit = 1,
 		goods_icon = "Props/54000",
@@ -538,8 +599,8 @@ pg.honormedal_goods_list = {
 			202041,
 			202281
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[31] = {
 		price = 80,
 		goods_purchase_limit = 1,
 		goods_icon = "Props/54000",
@@ -561,8 +622,8 @@ pg.honormedal_goods_list = {
 			603021,
 			603031
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[32] = {
 		price = 80,
 		goods_purchase_limit = 1,
 		goods_icon = "Props/54000",
@@ -593,8 +654,8 @@ pg.honormedal_goods_list = {
 			305141,
 			905031
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[33] = {
 		price = 80,
 		goods_purchase_limit = 1,
 		goods_icon = "Props/54000",
@@ -616,8 +677,8 @@ pg.honormedal_goods_list = {
 			307101,
 			307111
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[34] = {
 		price = 80,
 		goods_purchase_limit = 1,
 		goods_icon = "Props/54000",
@@ -639,8 +700,8 @@ pg.honormedal_goods_list = {
 			301861,
 			701051
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[35] = {
 		price = 80,
 		goods_purchase_limit = 1,
 		goods_icon = "Props/54000",
@@ -658,8 +719,8 @@ pg.honormedal_goods_list = {
 			202041,
 			202281
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[36] = {
 		price = 80,
 		goods_purchase_limit = 1,
 		goods_icon = "Props/54000",
@@ -681,8 +742,8 @@ pg.honormedal_goods_list = {
 			603021,
 			603031
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[37] = {
 		price = 80,
 		goods_purchase_limit = 1,
 		goods_icon = "Props/54000",
@@ -713,8 +774,8 @@ pg.honormedal_goods_list = {
 			305141,
 			905031
 		}
-	},
-	{
+	}
+	pg.base.honormedal_goods_list[38] = {
 		price = 80,
 		goods_purchase_limit = 1,
 		goods_icon = "Props/54000",
@@ -736,8 +797,8 @@ pg.honormedal_goods_list = {
 			307101,
 			307111
 		}
-	},
-	[41] = {
+	}
+	pg.base.honormedal_goods_list[41] = {
 		price = 15,
 		goods_purchase_limit = 20,
 		goods_icon = "Props/30205",
@@ -753,8 +814,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			30205
 		}
-	},
-	[42] = {
+	}
+	pg.base.honormedal_goods_list[42] = {
 		price = 20,
 		goods_purchase_limit = 15,
 		goods_icon = "Props/42040",
@@ -770,8 +831,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			42040
 		}
-	},
-	[43] = {
+	}
+	pg.base.honormedal_goods_list[43] = {
 		price = 20,
 		goods_purchase_limit = 5,
 		goods_icon = "Props/42046",
@@ -787,8 +848,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			42046
 		}
-	},
-	[44] = {
+	}
+	pg.base.honormedal_goods_list[44] = {
 		price = 80,
 		goods_purchase_limit = 1,
 		goods_icon = "Props/54000",
@@ -804,8 +865,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			408091
 		}
-	},
-	[45] = {
+	}
+	pg.base.honormedal_goods_list[45] = {
 		price = 80,
 		goods_purchase_limit = 1,
 		goods_icon = "Props/54000",
@@ -821,8 +882,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			408091
 		}
-	},
-	[46] = {
+	}
+	pg.base.honormedal_goods_list[46] = {
 		price = 20,
 		goods_purchase_limit = 15,
 		goods_icon = "Props/42050",
@@ -838,8 +899,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			42050
 		}
-	},
-	[47] = {
+	}
+	pg.base.honormedal_goods_list[47] = {
 		price = 20,
 		goods_purchase_limit = 5,
 		goods_icon = "Props/42056",
@@ -855,8 +916,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			42056
 		}
-	},
-	[48] = {
+	}
+	pg.base.honormedal_goods_list[48] = {
 		price = 6,
 		goods_purchase_limit = 10,
 		goods_icon = "Props/specialarmor_prt",
@@ -872,8 +933,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			59010
 		}
-	},
-	[49] = {
+	}
+	pg.base.honormedal_goods_list[49] = {
 		price = 20,
 		goods_purchase_limit = 15,
 		goods_icon = "Props/42060",
@@ -889,8 +950,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			42060
 		}
-	},
-	[50] = {
+	}
+	pg.base.honormedal_goods_list[50] = {
 		price = 20,
 		goods_purchase_limit = 5,
 		goods_icon = "Props/42066",
@@ -906,8 +967,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			42066
 		}
-	},
-	[51] = {
+	}
+	pg.base.honormedal_goods_list[51] = {
 		price = 15,
 		goods_purchase_limit = 20,
 		goods_icon = "Props/30207",
@@ -923,8 +984,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			30207
 		}
-	},
-	[52] = {
+	}
+	pg.base.honormedal_goods_list[52] = {
 		price = 10,
 		goods_purchase_limit = 20,
 		goods_icon = "Props/specialarmor_prt",
@@ -940,8 +1001,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			59010
 		}
-	},
-	[53] = {
+	}
+	pg.base.honormedal_goods_list[53] = {
 		price = 15,
 		goods_purchase_limit = 20,
 		goods_icon = "Props/30208",
@@ -957,8 +1018,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			30208
 		}
-	},
-	[54] = {
+	}
+	pg.base.honormedal_goods_list[54] = {
 		price = 20,
 		goods_purchase_limit = 15,
 		goods_icon = "Props/42070",
@@ -974,8 +1035,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			42070
 		}
-	},
-	[55] = {
+	}
+	pg.base.honormedal_goods_list[55] = {
 		price = 20,
 		goods_purchase_limit = 5,
 		goods_icon = "Props/42076",
@@ -991,60 +1052,5 @@ pg.honormedal_goods_list = {
 		goods = {
 			42076
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55
 	}
-}
+end)()

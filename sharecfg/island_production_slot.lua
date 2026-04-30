@@ -1,6 +1,296 @@
 pg = pg or {}
-pg.island_production_slot = {
-	[1001] = {
+pg.island_production_slot = rawget(pg, "island_production_slot") or setmetatable({
+	__name = "island_production_slot"
+}, confNEO)
+pg.island_production_slot.all = {
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012,
+	1013,
+	1014,
+	1015,
+	1016,
+	1017,
+	1018,
+	1019,
+	1020,
+	1021,
+	1022,
+	1023,
+	1024,
+	1025,
+	1026,
+	1027,
+	1028,
+	1029,
+	1030,
+	1031,
+	1032,
+	1033,
+	1034,
+	1035,
+	1036,
+	1101,
+	1102,
+	1103,
+	1104,
+	1105,
+	1106,
+	1107,
+	1108,
+	1109,
+	1110,
+	1111,
+	1112,
+	1113,
+	1114,
+	1115,
+	1116,
+	1201,
+	1202,
+	1203,
+	1204,
+	1205,
+	1206,
+	2001,
+	2002,
+	2003,
+	2004,
+	2005,
+	2006,
+	2007,
+	2008,
+	2009,
+	2010,
+	2011,
+	2012,
+	2013,
+	2014,
+	2015,
+	2016,
+	2017,
+	2018,
+	2019,
+	2020,
+	9001,
+	9002,
+	9003,
+	9004,
+	9011,
+	9012,
+	9013,
+	9014,
+	9021,
+	9022,
+	9023,
+	9024,
+	9031,
+	9032,
+	9033,
+	9034,
+	9041,
+	9042,
+	9061,
+	9062,
+	9071,
+	9072,
+	9081,
+	9082,
+	9091,
+	9092,
+	9101,
+	9102,
+	9103,
+	9104,
+	9111,
+	9112,
+	9201,
+	9202,
+	9203,
+	9204,
+	9205,
+	9206,
+	9207,
+	9208,
+	9211,
+	9212,
+	9213,
+	70201,
+	70202
+}
+pg.island_production_slot.get_id_list_by_place = {
+	[101] = {
+		1001,
+		1002,
+		1003,
+		1004,
+		1005,
+		1006,
+		1007,
+		1008,
+		1009,
+		1010,
+		1011,
+		1012,
+		1013,
+		1014,
+		1015,
+		1016,
+		1017,
+		1018,
+		1019,
+		1020,
+		1021,
+		1022,
+		1023,
+		1024,
+		1025,
+		1026,
+		1027,
+		1028,
+		1029,
+		1030,
+		1031,
+		1032,
+		1033,
+		1034,
+		1035,
+		1036,
+		9001,
+		9002,
+		9003,
+		9004
+	},
+	[102] = {
+		9031,
+		9032,
+		9033,
+		9034
+	},
+	[201] = {
+		9211,
+		9212,
+		9213
+	},
+	[401] = {
+		2001,
+		2002,
+		2003,
+		2004,
+		2005,
+		2006,
+		2007,
+		2008,
+		2009,
+		2010,
+		9011,
+		9012,
+		9013,
+		9014
+	},
+	[402] = {
+		2011,
+		2012,
+		2013,
+		2014,
+		2015,
+		2016,
+		2017,
+		2018,
+		2019,
+		2020,
+		9021,
+		9022,
+		9023,
+		9024
+	},
+	[501] = {
+		1101,
+		1102,
+		1103,
+		1104,
+		1105,
+		1106,
+		1107,
+		1108,
+		1109,
+		1110,
+		1111,
+		1112,
+		1113,
+		1114,
+		1115,
+		1116,
+		9101,
+		9102,
+		9103,
+		9104
+	},
+	[502] = {
+		1201,
+		1202,
+		1203,
+		1204,
+		1205,
+		1206,
+		9111,
+		9112
+	},
+	[601] = {
+		9061,
+		9062
+	},
+	[602] = {
+		9071,
+		9072
+	},
+	[603] = {
+		9081,
+		9082
+	},
+	[604] = {
+		9091,
+		9092
+	},
+	[702] = {
+		70201,
+		70202
+	},
+	[703] = {
+		9201,
+		9202
+	},
+	[704] = {
+		9203,
+		9204
+	},
+	[705] = {
+		9205,
+		9206
+	},
+	[706] = {
+		9207,
+		9208
+	},
+	[901] = {
+		9041,
+		9042
+	}
+}
+pg.base = pg.base or {}
+pg.base.island_production_slot = {}
+
+;(function()
+	pg.base.island_production_slot[1001] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -21,8 +311,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1002] = {
+	}
+	pg.base.island_production_slot[1002] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -43,8 +333,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1003] = {
+	}
+	pg.base.island_production_slot[1003] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -65,8 +355,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1004] = {
+	}
+	pg.base.island_production_slot[1004] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -87,8 +377,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1005] = {
+	}
+	pg.base.island_production_slot[1005] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -109,8 +399,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1006] = {
+	}
+	pg.base.island_production_slot[1006] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -131,8 +421,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1007] = {
+	}
+	pg.base.island_production_slot[1007] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -153,8 +443,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1008] = {
+	}
+	pg.base.island_production_slot[1008] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -175,8 +465,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1009] = {
+	}
+	pg.base.island_production_slot[1009] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -197,8 +487,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1010] = {
+	}
+	pg.base.island_production_slot[1010] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -219,8 +509,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1011] = {
+	}
+	pg.base.island_production_slot[1011] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -241,8 +531,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1012] = {
+	}
+	pg.base.island_production_slot[1012] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -263,8 +553,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1013] = {
+	}
+	pg.base.island_production_slot[1013] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -285,8 +575,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1014] = {
+	}
+	pg.base.island_production_slot[1014] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -307,8 +597,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1015] = {
+	}
+	pg.base.island_production_slot[1015] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -329,8 +619,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1016] = {
+	}
+	pg.base.island_production_slot[1016] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -351,8 +641,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1017] = {
+	}
+	pg.base.island_production_slot[1017] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -373,8 +663,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1018] = {
+	}
+	pg.base.island_production_slot[1018] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -395,8 +685,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1019] = {
+	}
+	pg.base.island_production_slot[1019] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -417,8 +707,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1020] = {
+	}
+	pg.base.island_production_slot[1020] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -439,8 +729,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1021] = {
+	}
+	pg.base.island_production_slot[1021] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -461,8 +751,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1022] = {
+	}
+	pg.base.island_production_slot[1022] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -483,8 +773,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1023] = {
+	}
+	pg.base.island_production_slot[1023] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -505,8 +795,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1024] = {
+	}
+	pg.base.island_production_slot[1024] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -527,8 +817,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1025] = {
+	}
+	pg.base.island_production_slot[1025] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -549,8 +839,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1026] = {
+	}
+	pg.base.island_production_slot[1026] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -571,8 +861,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1027] = {
+	}
+	pg.base.island_production_slot[1027] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -593,8 +883,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1028] = {
+	}
+	pg.base.island_production_slot[1028] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -615,8 +905,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1029] = {
+	}
+	pg.base.island_production_slot[1029] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -637,8 +927,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1030] = {
+	}
+	pg.base.island_production_slot[1030] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -659,8 +949,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1031] = {
+	}
+	pg.base.island_production_slot[1031] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -681,8 +971,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1032] = {
+	}
+	pg.base.island_production_slot[1032] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -703,8 +993,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1033] = {
+	}
+	pg.base.island_production_slot[1033] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -725,8 +1015,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1034] = {
+	}
+	pg.base.island_production_slot[1034] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -747,8 +1037,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1035] = {
+	}
+	pg.base.island_production_slot[1035] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -769,8 +1059,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1036] = {
+	}
+	pg.base.island_production_slot[1036] = {
 		animal = "",
 		place = 101,
 		attribute = 0,
@@ -791,8 +1081,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[1101] = {
+	}
+	pg.base.island_production_slot[1101] = {
 		animal = "",
 		place = 501,
 		attribute = 0,
@@ -812,8 +1102,8 @@ pg.island_production_slot = {
 			501007
 		},
 		activity_formula = {}
-	},
-	[1102] = {
+	}
+	pg.base.island_production_slot[1102] = {
 		animal = "",
 		place = 501,
 		attribute = 0,
@@ -833,8 +1123,8 @@ pg.island_production_slot = {
 			501007
 		},
 		activity_formula = {}
-	},
-	[1103] = {
+	}
+	pg.base.island_production_slot[1103] = {
 		animal = "",
 		place = 501,
 		attribute = 0,
@@ -854,8 +1144,8 @@ pg.island_production_slot = {
 			501007
 		},
 		activity_formula = {}
-	},
-	[1104] = {
+	}
+	pg.base.island_production_slot[1104] = {
 		animal = "",
 		place = 501,
 		attribute = 0,
@@ -875,8 +1165,8 @@ pg.island_production_slot = {
 			501007
 		},
 		activity_formula = {}
-	},
-	[1105] = {
+	}
+	pg.base.island_production_slot[1105] = {
 		animal = "",
 		place = 501,
 		attribute = 0,
@@ -896,8 +1186,8 @@ pg.island_production_slot = {
 			501007
 		},
 		activity_formula = {}
-	},
-	[1106] = {
+	}
+	pg.base.island_production_slot[1106] = {
 		animal = "",
 		place = 501,
 		attribute = 0,
@@ -917,8 +1207,8 @@ pg.island_production_slot = {
 			501007
 		},
 		activity_formula = {}
-	},
-	[1107] = {
+	}
+	pg.base.island_production_slot[1107] = {
 		animal = "",
 		place = 501,
 		attribute = 0,
@@ -938,8 +1228,8 @@ pg.island_production_slot = {
 			501007
 		},
 		activity_formula = {}
-	},
-	[1108] = {
+	}
+	pg.base.island_production_slot[1108] = {
 		animal = "",
 		place = 501,
 		attribute = 0,
@@ -959,8 +1249,8 @@ pg.island_production_slot = {
 			501007
 		},
 		activity_formula = {}
-	},
-	[1109] = {
+	}
+	pg.base.island_production_slot[1109] = {
 		animal = "",
 		place = 501,
 		attribute = 0,
@@ -980,8 +1270,8 @@ pg.island_production_slot = {
 			501007
 		},
 		activity_formula = {}
-	},
-	[1110] = {
+	}
+	pg.base.island_production_slot[1110] = {
 		animal = "",
 		place = 501,
 		attribute = 0,
@@ -1001,8 +1291,8 @@ pg.island_production_slot = {
 			501007
 		},
 		activity_formula = {}
-	},
-	[1111] = {
+	}
+	pg.base.island_production_slot[1111] = {
 		animal = "",
 		place = 501,
 		attribute = 0,
@@ -1022,8 +1312,8 @@ pg.island_production_slot = {
 			501007
 		},
 		activity_formula = {}
-	},
-	[1112] = {
+	}
+	pg.base.island_production_slot[1112] = {
 		animal = "",
 		place = 501,
 		attribute = 0,
@@ -1043,8 +1333,8 @@ pg.island_production_slot = {
 			501007
 		},
 		activity_formula = {}
-	},
-	[1113] = {
+	}
+	pg.base.island_production_slot[1113] = {
 		animal = "",
 		place = 501,
 		attribute = 0,
@@ -1064,8 +1354,8 @@ pg.island_production_slot = {
 			501007
 		},
 		activity_formula = {}
-	},
-	[1114] = {
+	}
+	pg.base.island_production_slot[1114] = {
 		animal = "",
 		place = 501,
 		attribute = 0,
@@ -1085,8 +1375,8 @@ pg.island_production_slot = {
 			501007
 		},
 		activity_formula = {}
-	},
-	[1115] = {
+	}
+	pg.base.island_production_slot[1115] = {
 		animal = "",
 		place = 501,
 		attribute = 0,
@@ -1106,8 +1396,8 @@ pg.island_production_slot = {
 			501007
 		},
 		activity_formula = {}
-	},
-	[1116] = {
+	}
+	pg.base.island_production_slot[1116] = {
 		animal = "",
 		place = 501,
 		attribute = 0,
@@ -1127,8 +1417,8 @@ pg.island_production_slot = {
 			501007
 		},
 		activity_formula = {}
-	},
-	[1201] = {
+	}
+	pg.base.island_production_slot[1201] = {
 		animal = "",
 		place = 502,
 		attribute = 0,
@@ -1156,8 +1446,8 @@ pg.island_production_slot = {
 				}
 			}
 		}
-	},
-	[1202] = {
+	}
+	pg.base.island_production_slot[1202] = {
 		animal = "",
 		place = 502,
 		attribute = 0,
@@ -1185,8 +1475,8 @@ pg.island_production_slot = {
 				}
 			}
 		}
-	},
-	[1203] = {
+	}
+	pg.base.island_production_slot[1203] = {
 		animal = "",
 		place = 502,
 		attribute = 0,
@@ -1214,8 +1504,8 @@ pg.island_production_slot = {
 				}
 			}
 		}
-	},
-	[1204] = {
+	}
+	pg.base.island_production_slot[1204] = {
 		animal = "",
 		place = 502,
 		attribute = 0,
@@ -1243,8 +1533,8 @@ pg.island_production_slot = {
 				}
 			}
 		}
-	},
-	[1205] = {
+	}
+	pg.base.island_production_slot[1205] = {
 		animal = "",
 		place = 502,
 		attribute = 0,
@@ -1272,8 +1562,8 @@ pg.island_production_slot = {
 				}
 			}
 		}
-	},
-	[1206] = {
+	}
+	pg.base.island_production_slot[1206] = {
 		animal = "",
 		place = 502,
 		attribute = 0,
@@ -1301,8 +1591,8 @@ pg.island_production_slot = {
 				}
 			}
 		}
-	},
-	[2001] = {
+	}
+	pg.base.island_production_slot[2001] = {
 		exclusion_slot = "",
 		place = 401,
 		animal = "",
@@ -1314,8 +1604,8 @@ pg.island_production_slot = {
 			401001
 		},
 		activity_formula = {}
-	},
-	[2002] = {
+	}
+	pg.base.island_production_slot[2002] = {
 		exclusion_slot = "",
 		place = 401,
 		animal = "",
@@ -1327,8 +1617,8 @@ pg.island_production_slot = {
 			401001
 		},
 		activity_formula = {}
-	},
-	[2003] = {
+	}
+	pg.base.island_production_slot[2003] = {
 		exclusion_slot = "",
 		place = 401,
 		animal = "",
@@ -1340,8 +1630,8 @@ pg.island_production_slot = {
 			401001
 		},
 		activity_formula = {}
-	},
-	[2004] = {
+	}
+	pg.base.island_production_slot[2004] = {
 		exclusion_slot = "",
 		place = 401,
 		animal = "",
@@ -1353,8 +1643,8 @@ pg.island_production_slot = {
 			401001
 		},
 		activity_formula = {}
-	},
-	[2005] = {
+	}
+	pg.base.island_production_slot[2005] = {
 		exclusion_slot = "",
 		place = 401,
 		animal = "",
@@ -1366,8 +1656,8 @@ pg.island_production_slot = {
 			401001
 		},
 		activity_formula = {}
-	},
-	[2006] = {
+	}
+	pg.base.island_production_slot[2006] = {
 		exclusion_slot = "",
 		place = 401,
 		animal = "",
@@ -1379,8 +1669,8 @@ pg.island_production_slot = {
 			401001
 		},
 		activity_formula = {}
-	},
-	[2007] = {
+	}
+	pg.base.island_production_slot[2007] = {
 		exclusion_slot = "",
 		place = 401,
 		animal = "",
@@ -1392,8 +1682,8 @@ pg.island_production_slot = {
 			401001
 		},
 		activity_formula = {}
-	},
-	[2008] = {
+	}
+	pg.base.island_production_slot[2008] = {
 		exclusion_slot = "",
 		place = 401,
 		animal = "",
@@ -1405,8 +1695,8 @@ pg.island_production_slot = {
 			401001
 		},
 		activity_formula = {}
-	},
-	[2009] = {
+	}
+	pg.base.island_production_slot[2009] = {
 		exclusion_slot = "",
 		place = 401,
 		animal = "",
@@ -1418,8 +1708,8 @@ pg.island_production_slot = {
 			401001
 		},
 		activity_formula = {}
-	},
-	[2010] = {
+	}
+	pg.base.island_production_slot[2010] = {
 		exclusion_slot = "",
 		place = 401,
 		animal = "",
@@ -1431,8 +1721,8 @@ pg.island_production_slot = {
 			401001
 		},
 		activity_formula = {}
-	},
-	[2011] = {
+	}
+	pg.base.island_production_slot[2011] = {
 		exclusion_slot = "",
 		place = 402,
 		animal = "",
@@ -1444,8 +1734,8 @@ pg.island_production_slot = {
 			402001
 		},
 		activity_formula = {}
-	},
-	[2012] = {
+	}
+	pg.base.island_production_slot[2012] = {
 		exclusion_slot = "",
 		place = 402,
 		animal = "",
@@ -1457,8 +1747,8 @@ pg.island_production_slot = {
 			402001
 		},
 		activity_formula = {}
-	},
-	[2013] = {
+	}
+	pg.base.island_production_slot[2013] = {
 		exclusion_slot = "",
 		place = 402,
 		animal = "",
@@ -1470,8 +1760,8 @@ pg.island_production_slot = {
 			402001
 		},
 		activity_formula = {}
-	},
-	[2014] = {
+	}
+	pg.base.island_production_slot[2014] = {
 		exclusion_slot = "",
 		place = 402,
 		animal = "",
@@ -1483,8 +1773,8 @@ pg.island_production_slot = {
 			402001
 		},
 		activity_formula = {}
-	},
-	[2015] = {
+	}
+	pg.base.island_production_slot[2015] = {
 		exclusion_slot = "",
 		place = 402,
 		animal = "",
@@ -1496,8 +1786,8 @@ pg.island_production_slot = {
 			402001
 		},
 		activity_formula = {}
-	},
-	[2016] = {
+	}
+	pg.base.island_production_slot[2016] = {
 		exclusion_slot = "",
 		place = 402,
 		animal = "",
@@ -1509,8 +1799,8 @@ pg.island_production_slot = {
 			402001
 		},
 		activity_formula = {}
-	},
-	[2017] = {
+	}
+	pg.base.island_production_slot[2017] = {
 		exclusion_slot = "",
 		place = 402,
 		animal = "",
@@ -1522,8 +1812,8 @@ pg.island_production_slot = {
 			402001
 		},
 		activity_formula = {}
-	},
-	[2018] = {
+	}
+	pg.base.island_production_slot[2018] = {
 		exclusion_slot = "",
 		place = 402,
 		animal = "",
@@ -1535,8 +1825,8 @@ pg.island_production_slot = {
 			402001
 		},
 		activity_formula = {}
-	},
-	[2019] = {
+	}
+	pg.base.island_production_slot[2019] = {
 		exclusion_slot = "",
 		place = 402,
 		animal = "",
@@ -1548,8 +1838,8 @@ pg.island_production_slot = {
 			402001
 		},
 		activity_formula = {}
-	},
-	[2020] = {
+	}
+	pg.base.island_production_slot[2020] = {
 		exclusion_slot = "",
 		place = 402,
 		animal = "",
@@ -1561,8 +1851,8 @@ pg.island_production_slot = {
 			402001
 		},
 		activity_formula = {}
-	},
-	[9001] = {
+	}
+	pg.base.island_production_slot[9001] = {
 		animal = "",
 		place = 101,
 		attribute = 1,
@@ -1591,8 +1881,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[9002] = {
+	}
+	pg.base.island_production_slot[9002] = {
 		animal = "",
 		place = 101,
 		attribute = 1,
@@ -1621,8 +1911,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[9003] = {
+	}
+	pg.base.island_production_slot[9003] = {
 		animal = "",
 		place = 101,
 		attribute = 1,
@@ -1651,8 +1941,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[9004] = {
+	}
+	pg.base.island_production_slot[9004] = {
 		animal = "",
 		place = 101,
 		attribute = 1,
@@ -1681,8 +1971,8 @@ pg.island_production_slot = {
 			101008
 		},
 		activity_formula = {}
-	},
-	[9011] = {
+	}
+	pg.base.island_production_slot[9011] = {
 		exclusion_slot = "",
 		place = 401,
 		animal = "",
@@ -1699,8 +1989,8 @@ pg.island_production_slot = {
 			401007
 		},
 		activity_formula = {}
-	},
-	[9012] = {
+	}
+	pg.base.island_production_slot[9012] = {
 		exclusion_slot = "",
 		place = 401,
 		animal = "",
@@ -1717,8 +2007,8 @@ pg.island_production_slot = {
 			401007
 		},
 		activity_formula = {}
-	},
-	[9013] = {
+	}
+	pg.base.island_production_slot[9013] = {
 		exclusion_slot = "",
 		place = 401,
 		animal = "",
@@ -1735,8 +2025,8 @@ pg.island_production_slot = {
 			401007
 		},
 		activity_formula = {}
-	},
-	[9014] = {
+	}
+	pg.base.island_production_slot[9014] = {
 		exclusion_slot = "",
 		place = 401,
 		animal = "",
@@ -1753,8 +2043,8 @@ pg.island_production_slot = {
 			401007
 		},
 		activity_formula = {}
-	},
-	[9021] = {
+	}
+	pg.base.island_production_slot[9021] = {
 		exclusion_slot = "",
 		place = 402,
 		animal = "",
@@ -1769,8 +2059,8 @@ pg.island_production_slot = {
 			402004
 		},
 		activity_formula = {}
-	},
-	[9022] = {
+	}
+	pg.base.island_production_slot[9022] = {
 		exclusion_slot = "",
 		place = 402,
 		animal = "",
@@ -1785,8 +2075,8 @@ pg.island_production_slot = {
 			402004
 		},
 		activity_formula = {}
-	},
-	[9023] = {
+	}
+	pg.base.island_production_slot[9023] = {
 		exclusion_slot = "",
 		place = 402,
 		animal = "",
@@ -1801,8 +2091,8 @@ pg.island_production_slot = {
 			402004
 		},
 		activity_formula = {}
-	},
-	[9024] = {
+	}
+	pg.base.island_production_slot[9024] = {
 		exclusion_slot = "",
 		place = 402,
 		animal = "",
@@ -1817,8 +2107,8 @@ pg.island_production_slot = {
 			402004
 		},
 		activity_formula = {}
-	},
-	[9031] = {
+	}
+	pg.base.island_production_slot[9031] = {
 		exclusion_slot = "",
 		place = 102,
 		attribute = 3,
@@ -1843,8 +2133,8 @@ pg.island_production_slot = {
 			21,
 			22
 		}
-	},
-	[9032] = {
+	}
+	pg.base.island_production_slot[9032] = {
 		exclusion_slot = "",
 		place = 102,
 		attribute = 3,
@@ -1865,8 +2155,8 @@ pg.island_production_slot = {
 			7,
 			8
 		}
-	},
-	[9033] = {
+	}
+	pg.base.island_production_slot[9033] = {
 		exclusion_slot = "",
 		place = 102,
 		attribute = 3,
@@ -1887,8 +2177,8 @@ pg.island_production_slot = {
 			37,
 			38
 		}
-	},
-	[9034] = {
+	}
+	pg.base.island_production_slot[9034] = {
 		exclusion_slot = "",
 		place = 102,
 		attribute = 3,
@@ -1909,8 +2199,8 @@ pg.island_production_slot = {
 			47,
 			48
 		}
-	},
-	[9041] = {
+	}
+	pg.base.island_production_slot[9041] = {
 		exclusion_slot = "",
 		place = 901,
 		animal = "",
@@ -1930,8 +2220,8 @@ pg.island_production_slot = {
 			901103
 		},
 		activity_formula = {}
-	},
-	[9042] = {
+	}
+	pg.base.island_production_slot[9042] = {
 		exclusion_slot = "",
 		place = 901,
 		animal = "",
@@ -1951,8 +2241,8 @@ pg.island_production_slot = {
 			901103
 		},
 		activity_formula = {}
-	},
-	[9061] = {
+	}
+	pg.base.island_production_slot[9061] = {
 		exclusion_slot = "",
 		place = 601,
 		animal = "",
@@ -1981,8 +2271,8 @@ pg.island_production_slot = {
 				}
 			}
 		}
-	},
-	[9062] = {
+	}
+	pg.base.island_production_slot[9062] = {
 		exclusion_slot = "",
 		place = 601,
 		animal = "",
@@ -2011,8 +2301,8 @@ pg.island_production_slot = {
 				}
 			}
 		}
-	},
-	[9071] = {
+	}
+	pg.base.island_production_slot[9071] = {
 		exclusion_slot = "",
 		place = 602,
 		animal = "",
@@ -2040,8 +2330,8 @@ pg.island_production_slot = {
 				}
 			}
 		}
-	},
-	[9072] = {
+	}
+	pg.base.island_production_slot[9072] = {
 		exclusion_slot = "",
 		place = 602,
 		animal = "",
@@ -2069,8 +2359,10 @@ pg.island_production_slot = {
 				}
 			}
 		}
-	},
-	[9081] = {
+	}
+end)()
+;(function()
+	pg.base.island_production_slot[9081] = {
 		exclusion_slot = "",
 		place = 603,
 		animal = "",
@@ -2091,8 +2383,8 @@ pg.island_production_slot = {
 			603103
 		},
 		activity_formula = {}
-	},
-	[9082] = {
+	}
+	pg.base.island_production_slot[9082] = {
 		exclusion_slot = "",
 		place = 603,
 		animal = "",
@@ -2113,8 +2405,8 @@ pg.island_production_slot = {
 			603103
 		},
 		activity_formula = {}
-	},
-	[9091] = {
+	}
+	pg.base.island_production_slot[9091] = {
 		exclusion_slot = "",
 		place = 604,
 		animal = "",
@@ -2134,8 +2426,8 @@ pg.island_production_slot = {
 			604102
 		},
 		activity_formula = {}
-	},
-	[9092] = {
+	}
+	pg.base.island_production_slot[9092] = {
 		exclusion_slot = "",
 		place = 604,
 		animal = "",
@@ -2155,8 +2447,8 @@ pg.island_production_slot = {
 			604102
 		},
 		activity_formula = {}
-	},
-	[9101] = {
+	}
+	pg.base.island_production_slot[9101] = {
 		animal = "",
 		place = 501,
 		attribute = 1,
@@ -2179,8 +2471,8 @@ pg.island_production_slot = {
 			501007
 		},
 		activity_formula = {}
-	},
-	[9102] = {
+	}
+	pg.base.island_production_slot[9102] = {
 		animal = "",
 		place = 501,
 		attribute = 1,
@@ -2203,8 +2495,8 @@ pg.island_production_slot = {
 			501007
 		},
 		activity_formula = {}
-	},
-	[9103] = {
+	}
+	pg.base.island_production_slot[9103] = {
 		animal = "",
 		place = 501,
 		attribute = 1,
@@ -2227,8 +2519,8 @@ pg.island_production_slot = {
 			501007
 		},
 		activity_formula = {}
-	},
-	[9104] = {
+	}
+	pg.base.island_production_slot[9104] = {
 		animal = "",
 		place = 501,
 		attribute = 1,
@@ -2251,8 +2543,8 @@ pg.island_production_slot = {
 			501007
 		},
 		activity_formula = {}
-	},
-	[9111] = {
+	}
+	pg.base.island_production_slot[9111] = {
 		animal = "",
 		place = 502,
 		attribute = 1,
@@ -2282,8 +2574,8 @@ pg.island_production_slot = {
 				}
 			}
 		}
-	},
-	[9112] = {
+	}
+	pg.base.island_production_slot[9112] = {
 		animal = "",
 		place = 502,
 		attribute = 1,
@@ -2313,8 +2605,8 @@ pg.island_production_slot = {
 				}
 			}
 		}
-	},
-	[9201] = {
+	}
+	pg.base.island_production_slot[9201] = {
 		exclusion_slot = "",
 		place = 703,
 		animal = "",
@@ -2331,8 +2623,8 @@ pg.island_production_slot = {
 			701023
 		},
 		activity_formula = {}
-	},
-	[9202] = {
+	}
+	pg.base.island_production_slot[9202] = {
 		exclusion_slot = "",
 		place = 703,
 		animal = "",
@@ -2349,8 +2641,8 @@ pg.island_production_slot = {
 			701023
 		},
 		activity_formula = {}
-	},
-	[9203] = {
+	}
+	pg.base.island_production_slot[9203] = {
 		exclusion_slot = "",
 		place = 704,
 		animal = "",
@@ -2367,8 +2659,8 @@ pg.island_production_slot = {
 			701013
 		},
 		activity_formula = {}
-	},
-	[9204] = {
+	}
+	pg.base.island_production_slot[9204] = {
 		exclusion_slot = "",
 		place = 704,
 		animal = "",
@@ -2385,8 +2677,8 @@ pg.island_production_slot = {
 			701013
 		},
 		activity_formula = {}
-	},
-	[9205] = {
+	}
+	pg.base.island_production_slot[9205] = {
 		exclusion_slot = "",
 		place = 705,
 		animal = "",
@@ -2401,8 +2693,8 @@ pg.island_production_slot = {
 			701022
 		},
 		activity_formula = {}
-	},
-	[9206] = {
+	}
+	pg.base.island_production_slot[9206] = {
 		exclusion_slot = "",
 		place = 705,
 		animal = "",
@@ -2417,8 +2709,8 @@ pg.island_production_slot = {
 			701022
 		},
 		activity_formula = {}
-	},
-	[9207] = {
+	}
+	pg.base.island_production_slot[9207] = {
 		exclusion_slot = "",
 		place = 706,
 		animal = "",
@@ -2444,8 +2736,8 @@ pg.island_production_slot = {
 				}
 			}
 		}
-	},
-	[9208] = {
+	}
+	pg.base.island_production_slot[9208] = {
 		exclusion_slot = "",
 		place = 706,
 		animal = "",
@@ -2471,8 +2763,8 @@ pg.island_production_slot = {
 				}
 			}
 		}
-	},
-	[9211] = {
+	}
+	pg.base.island_production_slot[9211] = {
 		exclusion_slot = "",
 		place = 201,
 		animal = "",
@@ -2499,8 +2791,8 @@ pg.island_production_slot = {
 			201108
 		},
 		activity_formula = {}
-	},
-	[9212] = {
+	}
+	pg.base.island_production_slot[9212] = {
 		exclusion_slot = "",
 		place = 201,
 		animal = "",
@@ -2527,8 +2819,8 @@ pg.island_production_slot = {
 			201108
 		},
 		activity_formula = {}
-	},
-	[9213] = {
+	}
+	pg.base.island_production_slot[9213] = {
 		exclusion_slot = "",
 		place = 201,
 		animal = "",
@@ -2555,8 +2847,8 @@ pg.island_production_slot = {
 			201108
 		},
 		activity_formula = {}
-	},
-	[70201] = {
+	}
+	pg.base.island_production_slot[70201] = {
 		exclusion_slot = "",
 		place = 702,
 		animal = "",
@@ -2771,8 +3063,8 @@ pg.island_production_slot = {
 			7660206
 		},
 		activity_formula = {}
-	},
-	[70202] = {
+	}
+	pg.base.island_production_slot[70202] = {
 		exclusion_slot = "",
 		place = 702,
 		animal = "",
@@ -2987,289 +3279,5 @@ pg.island_production_slot = {
 			7660206
 		},
 		activity_formula = {}
-	},
-	get_id_list_by_place = {
-		[101] = {
-			1001,
-			1002,
-			1003,
-			1004,
-			1005,
-			1006,
-			1007,
-			1008,
-			1009,
-			1010,
-			1011,
-			1012,
-			1013,
-			1014,
-			1015,
-			1016,
-			1017,
-			1018,
-			1019,
-			1020,
-			1021,
-			1022,
-			1023,
-			1024,
-			1025,
-			1026,
-			1027,
-			1028,
-			1029,
-			1030,
-			1031,
-			1032,
-			1033,
-			1034,
-			1035,
-			1036,
-			9001,
-			9002,
-			9003,
-			9004
-		},
-		[501] = {
-			1101,
-			1102,
-			1103,
-			1104,
-			1105,
-			1106,
-			1107,
-			1108,
-			1109,
-			1110,
-			1111,
-			1112,
-			1113,
-			1114,
-			1115,
-			1116,
-			9101,
-			9102,
-			9103,
-			9104
-		},
-		[502] = {
-			1201,
-			1202,
-			1203,
-			1204,
-			1205,
-			1206,
-			9111,
-			9112
-		},
-		[401] = {
-			2001,
-			2002,
-			2003,
-			2004,
-			2005,
-			2006,
-			2007,
-			2008,
-			2009,
-			2010,
-			9011,
-			9012,
-			9013,
-			9014
-		},
-		[402] = {
-			2011,
-			2012,
-			2013,
-			2014,
-			2015,
-			2016,
-			2017,
-			2018,
-			2019,
-			2020,
-			9021,
-			9022,
-			9023,
-			9024
-		},
-		[102] = {
-			9031,
-			9032,
-			9033,
-			9034
-		},
-		[901] = {
-			9041,
-			9042
-		},
-		[601] = {
-			9061,
-			9062
-		},
-		[602] = {
-			9071,
-			9072
-		},
-		[603] = {
-			9081,
-			9082
-		},
-		[604] = {
-			9091,
-			9092
-		},
-		[703] = {
-			9201,
-			9202
-		},
-		[704] = {
-			9203,
-			9204
-		},
-		[705] = {
-			9205,
-			9206
-		},
-		[706] = {
-			9207,
-			9208
-		},
-		[201] = {
-			9211,
-			9212,
-			9213
-		},
-		[702] = {
-			70201,
-			70202
-		}
-	},
-	all = {
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		1010,
-		1011,
-		1012,
-		1013,
-		1014,
-		1015,
-		1016,
-		1017,
-		1018,
-		1019,
-		1020,
-		1021,
-		1022,
-		1023,
-		1024,
-		1025,
-		1026,
-		1027,
-		1028,
-		1029,
-		1030,
-		1031,
-		1032,
-		1033,
-		1034,
-		1035,
-		1036,
-		1101,
-		1102,
-		1103,
-		1104,
-		1105,
-		1106,
-		1107,
-		1108,
-		1109,
-		1110,
-		1111,
-		1112,
-		1113,
-		1114,
-		1115,
-		1116,
-		1201,
-		1202,
-		1203,
-		1204,
-		1205,
-		1206,
-		2001,
-		2002,
-		2003,
-		2004,
-		2005,
-		2006,
-		2007,
-		2008,
-		2009,
-		2010,
-		2011,
-		2012,
-		2013,
-		2014,
-		2015,
-		2016,
-		2017,
-		2018,
-		2019,
-		2020,
-		9001,
-		9002,
-		9003,
-		9004,
-		9011,
-		9012,
-		9013,
-		9014,
-		9021,
-		9022,
-		9023,
-		9024,
-		9031,
-		9032,
-		9033,
-		9034,
-		9041,
-		9042,
-		9061,
-		9062,
-		9071,
-		9072,
-		9081,
-		9082,
-		9091,
-		9092,
-		9101,
-		9102,
-		9103,
-		9104,
-		9111,
-		9112,
-		9201,
-		9202,
-		9203,
-		9204,
-		9205,
-		9206,
-		9207,
-		9208,
-		9211,
-		9212,
-		9213,
-		70201,
-		70202
 	}
-}
+end)()

@@ -1028,7 +1028,7 @@ function var_0_5.GetPlayerShipResource(arg_73_0, arg_73_1)
 			end
 		end
 
-		local var_73_18 = var_0_1.GetBuffBulletRes(var_73_3, iter_73_1.skills, arg_73_1, iter_73_1.skinId)
+		local var_73_18 = var_0_1.GetBuffBulletRes(var_73_3, iter_73_1.skills, arg_73_1, iter_73_1.skinId, var_73_16)
 
 		for iter_73_26, iter_73_27 in pairs(var_73_18) do
 			table.insert(var_73_0, iter_73_27)

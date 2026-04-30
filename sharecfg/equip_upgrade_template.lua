@@ -1,6 +1,64 @@
 pg = pg or {}
-pg.equip_upgrade_template = {
-	[101] = {
+pg.equip_upgrade_template = rawget(pg, "equip_upgrade_template") or setmetatable({
+	__name = "equip_upgrade_template"
+}, confNEO)
+pg.equip_upgrade_template.all = {
+	101,
+	102,
+	103,
+	104,
+	105,
+	113,
+	106,
+	107,
+	108,
+	201,
+	202,
+	203,
+	204,
+	205,
+	213,
+	206,
+	207,
+	208,
+	301,
+	302,
+	303,
+	304,
+	305,
+	313,
+	306,
+	307,
+	308,
+	401,
+	402,
+	403,
+	404,
+	405,
+	413,
+	406,
+	407,
+	408,
+	601,
+	604,
+	606,
+	701,
+	702,
+	704,
+	708,
+	1001,
+	1002,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008
+}
+pg.base = pg.base or {}
+pg.base.equip_upgrade_template = {}
+
+;(function()
+	pg.base.equip_upgrade_template[101] = {
 		id = 101,
 		category1 = 1,
 		category2 = 1,
@@ -106,8 +164,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[102] = {
+	}
+	pg.base.equip_upgrade_template[102] = {
 		id = 102,
 		category1 = 1,
 		category2 = 2,
@@ -197,8 +255,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[103] = {
+	}
+	pg.base.equip_upgrade_template[103] = {
 		id = 103,
 		category1 = 1,
 		category2 = 3,
@@ -296,8 +354,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[104] = {
+	}
+	pg.base.equip_upgrade_template[104] = {
 		id = 104,
 		category1 = 1,
 		category2 = 4,
@@ -525,8 +583,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[105] = {
+	}
+	pg.base.equip_upgrade_template[105] = {
 		id = 105,
 		category1 = 1,
 		category2 = 5,
@@ -672,8 +730,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[113] = {
+	}
+	pg.base.equip_upgrade_template[113] = {
 		id = 113,
 		category1 = 1,
 		category2 = 13,
@@ -773,8 +831,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[106] = {
+	}
+	pg.base.equip_upgrade_template[106] = {
 		id = 106,
 		category1 = 1,
 		category2 = 6,
@@ -1054,8 +1112,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[107] = {
+	}
+	pg.base.equip_upgrade_template[107] = {
 		id = 107,
 		category1 = 1,
 		category2 = 7,
@@ -1241,8 +1299,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[108] = {
+	}
+	pg.base.equip_upgrade_template[108] = {
 		id = 108,
 		category1 = 1,
 		category2 = 8,
@@ -1422,8 +1480,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[201] = {
+	}
+	pg.base.equip_upgrade_template[201] = {
 		id = 201,
 		category1 = 2,
 		category2 = 1,
@@ -1621,8 +1679,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[202] = {
+	}
+	pg.base.equip_upgrade_template[202] = {
 		id = 202,
 		category1 = 2,
 		category2 = 2,
@@ -1736,8 +1794,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[203] = {
+	}
+	pg.base.equip_upgrade_template[203] = {
 		id = 203,
 		category1 = 2,
 		category2 = 3,
@@ -1859,8 +1917,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[204] = {
+	}
+	pg.base.equip_upgrade_template[204] = {
 		id = 204,
 		category1 = 2,
 		category2 = 4,
@@ -1982,8 +2040,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[205] = {
+	}
+	pg.base.equip_upgrade_template[205] = {
 		id = 205,
 		category1 = 2,
 		category2 = 5,
@@ -2113,8 +2171,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[213] = {
+	}
+	pg.base.equip_upgrade_template[213] = {
 		id = 213,
 		category1 = 2,
 		category2 = 13,
@@ -2180,8 +2238,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[206] = {
+	}
+	pg.base.equip_upgrade_template[206] = {
 		id = 206,
 		category1 = 2,
 		category2 = 6,
@@ -2475,8 +2533,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[207] = {
+	}
+	pg.base.equip_upgrade_template[207] = {
 		id = 207,
 		category1 = 2,
 		category2 = 7,
@@ -2622,8 +2680,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[208] = {
+	}
+	pg.base.equip_upgrade_template[208] = {
 		id = 208,
 		category1 = 2,
 		category2 = 8,
@@ -2845,8 +2903,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[301] = {
+	}
+	pg.base.equip_upgrade_template[301] = {
 		id = 301,
 		category1 = 3,
 		category2 = 1,
@@ -3032,8 +3090,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[302] = {
+	}
+	pg.base.equip_upgrade_template[302] = {
 		id = 302,
 		category1 = 3,
 		category2 = 2,
@@ -3147,8 +3205,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[303] = {
+	}
+	pg.base.equip_upgrade_template[303] = {
 		id = 303,
 		category1 = 3,
 		category2 = 3,
@@ -3206,8 +3264,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[304] = {
+	}
+	pg.base.equip_upgrade_template[304] = {
 		id = 304,
 		category1 = 3,
 		category2 = 4,
@@ -3345,8 +3403,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[305] = {
+	}
+	pg.base.equip_upgrade_template[305] = {
 		id = 305,
 		category1 = 3,
 		category2 = 5,
@@ -3452,8 +3510,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[313] = {
+	}
+	pg.base.equip_upgrade_template[313] = {
 		id = 313,
 		category1 = 3,
 		category2 = 13,
@@ -3559,8 +3617,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[306] = {
+	}
+	pg.base.equip_upgrade_template[306] = {
 		id = 306,
 		category1 = 3,
 		category2 = 6,
@@ -3790,8 +3848,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[307] = {
+	}
+	pg.base.equip_upgrade_template[307] = {
 		id = 307,
 		category1 = 3,
 		category2 = 7,
@@ -3961,8 +4019,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[308] = {
+	}
+	pg.base.equip_upgrade_template[308] = {
 		id = 308,
 		category1 = 3,
 		category2 = 8,
@@ -4212,8 +4270,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[401] = {
+	}
+	pg.base.equip_upgrade_template[401] = {
 		id = 401,
 		category1 = 4,
 		category2 = 1,
@@ -4287,8 +4345,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[402] = {
+	}
+	pg.base.equip_upgrade_template[402] = {
 		id = 402,
 		category1 = 4,
 		category2 = 2,
@@ -4410,8 +4468,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[403] = {
+	}
+	pg.base.equip_upgrade_template[403] = {
 		id = 403,
 		category1 = 4,
 		category2 = 3,
@@ -4453,8 +4511,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[404] = {
+	}
+	pg.base.equip_upgrade_template[404] = {
 		id = 404,
 		category1 = 4,
 		category2 = 4,
@@ -4570,8 +4628,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[405] = {
+	}
+	pg.base.equip_upgrade_template[405] = {
 		id = 405,
 		category1 = 4,
 		category2 = 5,
@@ -4701,8 +4759,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[413] = {
+	}
+	pg.base.equip_upgrade_template[413] = {
 		id = 413,
 		category1 = 4,
 		category2 = 13,
@@ -4760,8 +4818,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[406] = {
+	}
+	pg.base.equip_upgrade_template[406] = {
 		id = 406,
 		category1 = 4,
 		category2 = 6,
@@ -4939,8 +4997,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[407] = {
+	}
+	pg.base.equip_upgrade_template[407] = {
 		id = 407,
 		category1 = 4,
 		category2 = 7,
@@ -5086,8 +5144,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[408] = {
+	}
+	pg.base.equip_upgrade_template[408] = {
 		id = 408,
 		category1 = 4,
 		category2 = 8,
@@ -5185,8 +5243,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[601] = {
+	}
+	pg.base.equip_upgrade_template[601] = {
 		id = 601,
 		category1 = 6,
 		category2 = 1,
@@ -5260,8 +5318,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[604] = {
+	}
+	pg.base.equip_upgrade_template[604] = {
 		id = 604,
 		category1 = 6,
 		category2 = 4,
@@ -5359,8 +5417,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[606] = {
+	}
+	pg.base.equip_upgrade_template[606] = {
 		id = 606,
 		category1 = 6,
 		category2 = 6,
@@ -5494,8 +5552,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[701] = {
+	}
+	pg.base.equip_upgrade_template[701] = {
 		id = 701,
 		category1 = 7,
 		category2 = 1,
@@ -5569,8 +5627,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[702] = {
+	}
+	pg.base.equip_upgrade_template[702] = {
 		id = 702,
 		category1 = 7,
 		category2 = 2,
@@ -5708,8 +5766,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[704] = {
+	}
+	pg.base.equip_upgrade_template[704] = {
 		id = 704,
 		category1 = 7,
 		category2 = 4,
@@ -5775,8 +5833,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[708] = {
+	}
+	pg.base.equip_upgrade_template[708] = {
 		id = 708,
 		category1 = 7,
 		category2 = 8,
@@ -5874,8 +5932,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[1001] = {
+	}
+	pg.base.equip_upgrade_template[1001] = {
 		id = 1001,
 		category1 = 10,
 		category2 = 1,
@@ -5955,8 +6013,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[1002] = {
+	}
+	pg.base.equip_upgrade_template[1002] = {
 		id = 1002,
 		category1 = 10,
 		category2 = 31,
@@ -6094,8 +6152,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[1004] = {
+	}
+	pg.base.equip_upgrade_template[1004] = {
 		id = 1004,
 		category1 = 10,
 		category2 = 4,
@@ -6189,8 +6247,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[1005] = {
+	}
+	pg.base.equip_upgrade_template[1005] = {
 		id = 1005,
 		category1 = 10,
 		category2 = 5,
@@ -6280,8 +6338,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[1006] = {
+	}
+	pg.base.equip_upgrade_template[1006] = {
 		id = 1006,
 		category1 = 10,
 		category2 = 6,
@@ -6355,8 +6413,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[1007] = {
+	}
+	pg.base.equip_upgrade_template[1007] = {
 		id = 1007,
 		category1 = 10,
 		category2 = 7,
@@ -6414,8 +6472,8 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	[1008] = {
+	}
+	pg.base.equip_upgrade_template[1008] = {
 		id = 1008,
 		category1 = 10,
 		category2 = 8,
@@ -6545,57 +6603,5 @@ pg.equip_upgrade_template = {
 				}
 			}
 		}
-	},
-	all = {
-		101,
-		102,
-		103,
-		104,
-		105,
-		113,
-		106,
-		107,
-		108,
-		201,
-		202,
-		203,
-		204,
-		205,
-		213,
-		206,
-		207,
-		208,
-		301,
-		302,
-		303,
-		304,
-		305,
-		313,
-		306,
-		307,
-		308,
-		401,
-		402,
-		403,
-		404,
-		405,
-		413,
-		406,
-		407,
-		408,
-		601,
-		604,
-		606,
-		701,
-		702,
-		704,
-		708,
-		1001,
-		1002,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008
 	}
-}
+end)()

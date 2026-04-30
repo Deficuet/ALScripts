@@ -48,6 +48,7 @@ end
 
 function var_0_0.Refresh(arg_9_0, arg_9_1)
 	var_0_0.super.Refresh(arg_9_0, arg_9_1)
+	originalPrint(" >>>>>>>>>> run in play open anim")
 	arg_9_0.animationPlayer:Play("anim_newmain_open")
 end
 

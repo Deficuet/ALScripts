@@ -1,6 +1,18 @@
 pg = pg or {}
-pg.island_manage_rank = {
-	{
+pg.island_manage_rank = rawget(pg, "island_manage_rank") or setmetatable({
+	__name = "island_manage_rank"
+}, confNEO)
+pg.island_manage_rank.all = {
+	1,
+	2,
+	3,
+	4
+}
+pg.base = pg.base or {}
+pg.base.island_manage_rank = {}
+
+;(function()
+	pg.base.island_manage_rank[1] = {
 		name = "铜牌店铺",
 		id = 1,
 		icon = "rank_tong",
@@ -58,8 +70,8 @@ pg.island_manage_rank = {
 			-1,
 			0
 		}
-	},
-	{
+	}
+	pg.base.island_manage_rank[2] = {
 		name = "银牌店铺",
 		id = 2,
 		icon = "rank_yin",
@@ -118,8 +130,8 @@ pg.island_manage_rank = {
 			0,
 			1
 		}
-	},
-	{
+	}
+	pg.base.island_manage_rank[3] = {
 		name = "金牌店铺",
 		id = 3,
 		icon = "rank_jin",
@@ -179,8 +191,8 @@ pg.island_manage_rank = {
 			1,
 			2
 		}
-	},
-	{
+	}
+	pg.base.island_manage_rank[4] = {
 		name = "钻石店铺",
 		id = 4,
 		icon = "rank_zuanshi",
@@ -240,11 +252,5 @@ pg.island_manage_rank = {
 			1,
 			2
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4
 	}
-}
+end)()

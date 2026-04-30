@@ -1,6 +1,196 @@
 pg = pg or {}
-pg.child2_site_character = {
+pg.child2_site_character = rawget(pg, "child2_site_character") or setmetatable({
+	__name = "child2_site_character"
+}, confNEO)
+pg.child2_site_character.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	201,
+	202,
+	203,
+	204,
+	205,
+	206,
+	207,
+	208,
+	209,
+	210,
+	211,
+	212,
+	213,
+	214,
+	215,
+	216,
+	217,
+	218,
+	219,
+	220,
+	221,
+	222,
+	223,
+	224,
+	301,
+	302,
+	303,
+	304,
+	305,
+	306,
+	307,
+	308,
+	309,
+	310,
+	311,
+	312,
+	313,
+	314,
+	315,
+	316,
+	317,
+	318,
+	319,
+	320,
+	321,
+	322,
+	323,
+	324
+}
+pg.child2_site_character.get_id_list_by_group = {
 	{
+		1,
+		2,
+		3,
+		4
+	},
+	{
+		5,
+		6,
+		7,
+		8
+	},
+	{
+		9,
+		10,
+		11,
+		12
+	},
+	{
+		13,
+		14,
+		15,
+		16
+	},
+	{
+		17,
+		18,
+		19,
+		20
+	},
+	{
+		21,
+		22,
+		23,
+		24
+	},
+	{
+		201,
+		202,
+		203,
+		204
+	},
+	{
+		205,
+		206,
+		207,
+		208
+	},
+	{
+		209,
+		210,
+		211,
+		212
+	},
+	{
+		213,
+		214,
+		215,
+		216
+	},
+	{
+		217,
+		218,
+		219,
+		220
+	},
+	{
+		221,
+		222,
+		223,
+		224
+	},
+	{
+		301,
+		302,
+		303,
+		304
+	},
+	{
+		305,
+		306,
+		307,
+		308
+	},
+	{
+		309,
+		310,
+		311,
+		312
+	},
+	{
+		313,
+		314,
+		315,
+		316
+	},
+	{
+		317,
+		318,
+		319,
+		320
+	},
+	{
+		321,
+		322,
+		323,
+		324
+	}
+}
+pg.base = pg.base or {}
+pg.base.child2_site_character = {}
+
+;(function()
+	pg.base.child2_site_character[1] = {
 		group = 1,
 		level = 0,
 		type = 1,
@@ -24,8 +214,8 @@ pg.child2_site_character = {
 			3,
 			1
 		}
-	},
-	{
+	}
+	pg.base.child2_site_character[2] = {
 		group = 1,
 		level = 1,
 		type = 1,
@@ -49,8 +239,8 @@ pg.child2_site_character = {
 			3,
 			1
 		}
-	},
-	{
+	}
+	pg.base.child2_site_character[3] = {
 		group = 1,
 		level = 2,
 		type = 1,
@@ -74,8 +264,8 @@ pg.child2_site_character = {
 			3,
 			1
 		}
-	},
-	{
+	}
+	pg.base.child2_site_character[4] = {
 		group = 1,
 		level = 3,
 		type = 1,
@@ -84,8 +274,8 @@ pg.child2_site_character = {
 		node_id = 0,
 		drop_display = {},
 		cost = {}
-	},
-	{
+	}
+	pg.base.child2_site_character[5] = {
 		group = 2,
 		level = 0,
 		type = 1,
@@ -109,8 +299,8 @@ pg.child2_site_character = {
 			3,
 			1
 		}
-	},
-	{
+	}
+	pg.base.child2_site_character[6] = {
 		group = 2,
 		level = 1,
 		type = 1,
@@ -134,8 +324,8 @@ pg.child2_site_character = {
 			3,
 			1
 		}
-	},
-	{
+	}
+	pg.base.child2_site_character[7] = {
 		group = 2,
 		level = 2,
 		type = 1,
@@ -159,8 +349,8 @@ pg.child2_site_character = {
 			3,
 			1
 		}
-	},
-	{
+	}
+	pg.base.child2_site_character[8] = {
 		group = 2,
 		level = 3,
 		type = 1,
@@ -169,8 +359,8 @@ pg.child2_site_character = {
 		node_id = 0,
 		drop_display = {},
 		cost = {}
-	},
-	{
+	}
+	pg.base.child2_site_character[9] = {
 		group = 3,
 		level = 0,
 		type = 1,
@@ -194,8 +384,8 @@ pg.child2_site_character = {
 			3,
 			1
 		}
-	},
-	{
+	}
+	pg.base.child2_site_character[10] = {
 		group = 3,
 		level = 1,
 		type = 1,
@@ -219,8 +409,8 @@ pg.child2_site_character = {
 			3,
 			1
 		}
-	},
-	{
+	}
+	pg.base.child2_site_character[11] = {
 		group = 3,
 		level = 2,
 		type = 1,
@@ -244,8 +434,8 @@ pg.child2_site_character = {
 			3,
 			1
 		}
-	},
-	{
+	}
+	pg.base.child2_site_character[12] = {
 		group = 3,
 		level = 3,
 		type = 1,
@@ -254,8 +444,8 @@ pg.child2_site_character = {
 		node_id = 0,
 		drop_display = {},
 		cost = {}
-	},
-	{
+	}
+	pg.base.child2_site_character[13] = {
 		group = 4,
 		level = 0,
 		type = 2,
@@ -279,8 +469,8 @@ pg.child2_site_character = {
 			3,
 			1
 		}
-	},
-	{
+	}
+	pg.base.child2_site_character[14] = {
 		group = 4,
 		level = 1,
 		type = 2,
@@ -304,8 +494,8 @@ pg.child2_site_character = {
 			3,
 			1
 		}
-	},
-	{
+	}
+	pg.base.child2_site_character[15] = {
 		group = 4,
 		level = 2,
 		type = 2,
@@ -329,8 +519,8 @@ pg.child2_site_character = {
 			3,
 			1
 		}
-	},
-	{
+	}
+	pg.base.child2_site_character[16] = {
 		group = 4,
 		level = 3,
 		type = 2,
@@ -339,8 +529,8 @@ pg.child2_site_character = {
 		node_id = 0,
 		drop_display = {},
 		cost = {}
-	},
-	{
+	}
+	pg.base.child2_site_character[17] = {
 		group = 5,
 		level = 0,
 		type = 2,
@@ -364,8 +554,8 @@ pg.child2_site_character = {
 			3,
 			1
 		}
-	},
-	{
+	}
+	pg.base.child2_site_character[18] = {
 		group = 5,
 		level = 1,
 		type = 2,
@@ -389,8 +579,8 @@ pg.child2_site_character = {
 			3,
 			1
 		}
-	},
-	{
+	}
+	pg.base.child2_site_character[19] = {
 		group = 5,
 		level = 2,
 		type = 2,
@@ -414,8 +604,8 @@ pg.child2_site_character = {
 			3,
 			1
 		}
-	},
-	{
+	}
+	pg.base.child2_site_character[20] = {
 		group = 5,
 		level = 3,
 		type = 2,
@@ -424,8 +614,8 @@ pg.child2_site_character = {
 		node_id = 0,
 		drop_display = {},
 		cost = {}
-	},
-	{
+	}
+	pg.base.child2_site_character[21] = {
 		group = 6,
 		level = 0,
 		type = 2,
@@ -449,8 +639,8 @@ pg.child2_site_character = {
 			3,
 			1
 		}
-	},
-	{
+	}
+	pg.base.child2_site_character[22] = {
 		group = 6,
 		level = 1,
 		type = 2,
@@ -474,8 +664,8 @@ pg.child2_site_character = {
 			3,
 			1
 		}
-	},
-	{
+	}
+	pg.base.child2_site_character[23] = {
 		group = 6,
 		level = 2,
 		type = 2,
@@ -499,8 +689,8 @@ pg.child2_site_character = {
 			3,
 			1
 		}
-	},
-	{
+	}
+	pg.base.child2_site_character[24] = {
 		group = 6,
 		level = 3,
 		type = 2,
@@ -509,8 +699,8 @@ pg.child2_site_character = {
 		node_id = 0,
 		drop_display = {},
 		cost = {}
-	},
-	[201] = {
+	}
+	pg.base.child2_site_character[201] = {
 		group = 7,
 		level = 0,
 		type = 1,
@@ -534,8 +724,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[202] = {
+	}
+	pg.base.child2_site_character[202] = {
 		group = 7,
 		level = 1,
 		type = 1,
@@ -559,8 +749,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[203] = {
+	}
+	pg.base.child2_site_character[203] = {
 		group = 7,
 		level = 2,
 		type = 1,
@@ -584,8 +774,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[204] = {
+	}
+	pg.base.child2_site_character[204] = {
 		group = 7,
 		level = 3,
 		type = 1,
@@ -594,8 +784,8 @@ pg.child2_site_character = {
 		node_id = 0,
 		drop_display = {},
 		cost = {}
-	},
-	[205] = {
+	}
+	pg.base.child2_site_character[205] = {
 		group = 8,
 		level = 0,
 		type = 1,
@@ -619,8 +809,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[206] = {
+	}
+	pg.base.child2_site_character[206] = {
 		group = 8,
 		level = 1,
 		type = 1,
@@ -644,8 +834,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[207] = {
+	}
+	pg.base.child2_site_character[207] = {
 		group = 8,
 		level = 2,
 		type = 1,
@@ -669,8 +859,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[208] = {
+	}
+	pg.base.child2_site_character[208] = {
 		group = 8,
 		level = 3,
 		type = 1,
@@ -679,8 +869,8 @@ pg.child2_site_character = {
 		node_id = 0,
 		drop_display = {},
 		cost = {}
-	},
-	[209] = {
+	}
+	pg.base.child2_site_character[209] = {
 		group = 9,
 		level = 0,
 		type = 1,
@@ -704,8 +894,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[210] = {
+	}
+	pg.base.child2_site_character[210] = {
 		group = 9,
 		level = 1,
 		type = 1,
@@ -729,8 +919,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[211] = {
+	}
+	pg.base.child2_site_character[211] = {
 		group = 9,
 		level = 2,
 		type = 1,
@@ -754,8 +944,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[212] = {
+	}
+	pg.base.child2_site_character[212] = {
 		group = 9,
 		level = 3,
 		type = 1,
@@ -764,8 +954,8 @@ pg.child2_site_character = {
 		node_id = 0,
 		drop_display = {},
 		cost = {}
-	},
-	[213] = {
+	}
+	pg.base.child2_site_character[213] = {
 		group = 10,
 		level = 0,
 		type = 2,
@@ -789,8 +979,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[214] = {
+	}
+	pg.base.child2_site_character[214] = {
 		group = 10,
 		level = 1,
 		type = 2,
@@ -814,8 +1004,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[215] = {
+	}
+	pg.base.child2_site_character[215] = {
 		group = 10,
 		level = 2,
 		type = 2,
@@ -839,8 +1029,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[216] = {
+	}
+	pg.base.child2_site_character[216] = {
 		group = 10,
 		level = 3,
 		type = 2,
@@ -849,8 +1039,8 @@ pg.child2_site_character = {
 		node_id = 0,
 		drop_display = {},
 		cost = {}
-	},
-	[217] = {
+	}
+	pg.base.child2_site_character[217] = {
 		group = 11,
 		level = 0,
 		type = 2,
@@ -874,8 +1064,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[218] = {
+	}
+	pg.base.child2_site_character[218] = {
 		group = 11,
 		level = 1,
 		type = 2,
@@ -899,8 +1089,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[219] = {
+	}
+	pg.base.child2_site_character[219] = {
 		group = 11,
 		level = 2,
 		type = 2,
@@ -924,8 +1114,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[220] = {
+	}
+	pg.base.child2_site_character[220] = {
 		group = 11,
 		level = 3,
 		type = 2,
@@ -934,8 +1124,8 @@ pg.child2_site_character = {
 		node_id = 0,
 		drop_display = {},
 		cost = {}
-	},
-	[221] = {
+	}
+	pg.base.child2_site_character[221] = {
 		group = 12,
 		level = 0,
 		type = 2,
@@ -959,8 +1149,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[222] = {
+	}
+	pg.base.child2_site_character[222] = {
 		group = 12,
 		level = 1,
 		type = 2,
@@ -984,8 +1174,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[223] = {
+	}
+	pg.base.child2_site_character[223] = {
 		group = 12,
 		level = 2,
 		type = 2,
@@ -1009,8 +1199,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[224] = {
+	}
+	pg.base.child2_site_character[224] = {
 		group = 12,
 		level = 3,
 		type = 2,
@@ -1019,8 +1209,8 @@ pg.child2_site_character = {
 		node_id = 0,
 		drop_display = {},
 		cost = {}
-	},
-	[301] = {
+	}
+	pg.base.child2_site_character[301] = {
 		group = 13,
 		level = 0,
 		type = 1,
@@ -1044,8 +1234,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[302] = {
+	}
+	pg.base.child2_site_character[302] = {
 		group = 13,
 		level = 1,
 		type = 1,
@@ -1069,8 +1259,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[303] = {
+	}
+	pg.base.child2_site_character[303] = {
 		group = 13,
 		level = 2,
 		type = 1,
@@ -1094,8 +1284,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[304] = {
+	}
+	pg.base.child2_site_character[304] = {
 		group = 13,
 		level = 3,
 		type = 1,
@@ -1104,8 +1294,8 @@ pg.child2_site_character = {
 		node_id = 0,
 		drop_display = {},
 		cost = {}
-	},
-	[305] = {
+	}
+	pg.base.child2_site_character[305] = {
 		group = 14,
 		level = 0,
 		type = 1,
@@ -1129,8 +1319,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[306] = {
+	}
+	pg.base.child2_site_character[306] = {
 		group = 14,
 		level = 1,
 		type = 1,
@@ -1154,8 +1344,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[307] = {
+	}
+	pg.base.child2_site_character[307] = {
 		group = 14,
 		level = 2,
 		type = 1,
@@ -1179,8 +1369,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[308] = {
+	}
+	pg.base.child2_site_character[308] = {
 		group = 14,
 		level = 3,
 		type = 1,
@@ -1189,8 +1379,8 @@ pg.child2_site_character = {
 		node_id = 0,
 		drop_display = {},
 		cost = {}
-	},
-	[309] = {
+	}
+	pg.base.child2_site_character[309] = {
 		group = 15,
 		level = 0,
 		type = 1,
@@ -1214,8 +1404,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[310] = {
+	}
+	pg.base.child2_site_character[310] = {
 		group = 15,
 		level = 1,
 		type = 1,
@@ -1239,8 +1429,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[311] = {
+	}
+	pg.base.child2_site_character[311] = {
 		group = 15,
 		level = 2,
 		type = 1,
@@ -1264,8 +1454,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[312] = {
+	}
+	pg.base.child2_site_character[312] = {
 		group = 15,
 		level = 3,
 		type = 1,
@@ -1274,8 +1464,8 @@ pg.child2_site_character = {
 		node_id = 0,
 		drop_display = {},
 		cost = {}
-	},
-	[313] = {
+	}
+	pg.base.child2_site_character[313] = {
 		group = 16,
 		level = 0,
 		type = 2,
@@ -1299,8 +1489,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[314] = {
+	}
+	pg.base.child2_site_character[314] = {
 		group = 16,
 		level = 1,
 		type = 2,
@@ -1324,8 +1514,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[315] = {
+	}
+	pg.base.child2_site_character[315] = {
 		group = 16,
 		level = 2,
 		type = 2,
@@ -1349,8 +1539,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[316] = {
+	}
+	pg.base.child2_site_character[316] = {
 		group = 16,
 		level = 3,
 		type = 2,
@@ -1359,8 +1549,8 @@ pg.child2_site_character = {
 		node_id = 0,
 		drop_display = {},
 		cost = {}
-	},
-	[317] = {
+	}
+	pg.base.child2_site_character[317] = {
 		group = 17,
 		level = 0,
 		type = 2,
@@ -1384,8 +1574,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[318] = {
+	}
+	pg.base.child2_site_character[318] = {
 		group = 17,
 		level = 1,
 		type = 2,
@@ -1409,8 +1599,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[319] = {
+	}
+	pg.base.child2_site_character[319] = {
 		group = 17,
 		level = 2,
 		type = 2,
@@ -1434,8 +1624,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[320] = {
+	}
+	pg.base.child2_site_character[320] = {
 		group = 17,
 		level = 3,
 		type = 2,
@@ -1444,8 +1634,8 @@ pg.child2_site_character = {
 		node_id = 0,
 		drop_display = {},
 		cost = {}
-	},
-	[321] = {
+	}
+	pg.base.child2_site_character[321] = {
 		group = 18,
 		level = 0,
 		type = 2,
@@ -1469,8 +1659,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[322] = {
+	}
+	pg.base.child2_site_character[322] = {
 		group = 18,
 		level = 1,
 		type = 2,
@@ -1494,8 +1684,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[323] = {
+	}
+	pg.base.child2_site_character[323] = {
 		group = 18,
 		level = 2,
 		type = 2,
@@ -1519,8 +1709,8 @@ pg.child2_site_character = {
 			303,
 			1
 		}
-	},
-	[324] = {
+	}
+	pg.base.child2_site_character[324] = {
 		group = 18,
 		level = 3,
 		type = 2,
@@ -1529,189 +1719,5 @@ pg.child2_site_character = {
 		node_id = 0,
 		drop_display = {},
 		cost = {}
-	},
-	get_id_list_by_group = {
-		{
-			1,
-			2,
-			3,
-			4
-		},
-		{
-			5,
-			6,
-			7,
-			8
-		},
-		{
-			9,
-			10,
-			11,
-			12
-		},
-		{
-			13,
-			14,
-			15,
-			16
-		},
-		{
-			17,
-			18,
-			19,
-			20
-		},
-		{
-			21,
-			22,
-			23,
-			24
-		},
-		{
-			201,
-			202,
-			203,
-			204
-		},
-		{
-			205,
-			206,
-			207,
-			208
-		},
-		{
-			209,
-			210,
-			211,
-			212
-		},
-		{
-			213,
-			214,
-			215,
-			216
-		},
-		{
-			217,
-			218,
-			219,
-			220
-		},
-		{
-			221,
-			222,
-			223,
-			224
-		},
-		{
-			301,
-			302,
-			303,
-			304
-		},
-		{
-			305,
-			306,
-			307,
-			308
-		},
-		{
-			309,
-			310,
-			311,
-			312
-		},
-		{
-			313,
-			314,
-			315,
-			316
-		},
-		{
-			317,
-			318,
-			319,
-			320
-		},
-		{
-			321,
-			322,
-			323,
-			324
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		201,
-		202,
-		203,
-		204,
-		205,
-		206,
-		207,
-		208,
-		209,
-		210,
-		211,
-		212,
-		213,
-		214,
-		215,
-		216,
-		217,
-		218,
-		219,
-		220,
-		221,
-		222,
-		223,
-		224,
-		301,
-		302,
-		303,
-		304,
-		305,
-		306,
-		307,
-		308,
-		309,
-		310,
-		311,
-		312,
-		313,
-		314,
-		315,
-		316,
-		317,
-		318,
-		319,
-		320,
-		321,
-		322,
-		323,
-		324
 	}
-}
+end)()

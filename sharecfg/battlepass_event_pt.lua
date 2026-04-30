@@ -1,6 +1,42 @@
 pg = pg or {}
-pg.battlepass_event_pt = {
-	[7001] = {
+pg.battlepass_event_pt = rawget(pg, "battlepass_event_pt") or setmetatable({
+	__name = "battlepass_event_pt"
+}, confNEO)
+pg.battlepass_event_pt.all = {
+	7001,
+	7002,
+	7003,
+	7004,
+	7005,
+	7006,
+	7007,
+	7008,
+	7009,
+	7010,
+	7011,
+	7012,
+	7013,
+	7014,
+	7015,
+	7016,
+	7017,
+	7018,
+	7019,
+	7020,
+	7021,
+	7022,
+	7023,
+	7024,
+	7025,
+	7026,
+	7027,
+	7028
+}
+pg.base = pg.base or {}
+pg.base.battlepass_event_pt = {}
+
+;(function()
+	pg.base.battlepass_event_pt[7001] = {
 		spine_name = "chess_hude",
 		id = 7001,
 		equip_skin = "",
@@ -328,8 +364,8 @@ pg.battlepass_event_pt = {
 			90,
 			100
 		}
-	},
-	[7002] = {
+	}
+	pg.base.battlepass_event_pt[7002] = {
 		spine_name = "chess_keluoladuo",
 		id = 7002,
 		equip_skin = "",
@@ -657,8 +693,8 @@ pg.battlepass_event_pt = {
 			90,
 			100
 		}
-	},
-	[7003] = {
+	}
+	pg.base.battlepass_event_pt[7003] = {
 		spine_name = "chess_gelunbiya",
 		id = 7003,
 		equip_skin = "",
@@ -986,8 +1022,8 @@ pg.battlepass_event_pt = {
 			90,
 			100
 		}
-	},
-	[7004] = {
+	}
+	pg.base.battlepass_event_pt[7004] = {
 		spine_name = "chess_qiye",
 		id = 7004,
 		equip_skin = "",
@@ -1315,8 +1351,8 @@ pg.battlepass_event_pt = {
 			90,
 			100
 		}
-	},
-	[7005] = {
+	}
+	pg.base.battlepass_event_pt[7005] = {
 		spine_name = "chess_xiao",
 		id = 7005,
 		equip_skin = "",
@@ -1644,8 +1680,8 @@ pg.battlepass_event_pt = {
 			90,
 			100
 		}
-	},
-	[7006] = {
+	}
+	pg.base.battlepass_event_pt[7006] = {
 		spine_name = "chess_beifeng",
 		bg_tips = "",
 		id = 7006,
@@ -1994,8 +2030,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7007] = {
+	}
+	pg.base.battlepass_event_pt[7007] = {
 		spine_name = "chess_shuixingjinian",
 		bg_tips = "",
 		id = 7007,
@@ -2344,8 +2380,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7008] = {
+	}
+	pg.base.battlepass_event_pt[7008] = {
 		spine_name = "chess_kelifulan",
 		bg_tips = "",
 		id = 7008,
@@ -2694,8 +2730,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7009] = {
+	}
+	pg.base.battlepass_event_pt[7009] = {
 		spine_name = "chess_ximu",
 		bg_tips = "",
 		id = 7009,
@@ -3044,8 +3080,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7010] = {
+	}
+	pg.base.battlepass_event_pt[7010] = {
 		spine_name = "chess_wokelan",
 		bg_tips = "",
 		id = 7010,
@@ -3394,8 +3430,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7011] = {
+	}
+	pg.base.battlepass_event_pt[7011] = {
 		spine_name = "chess_jiahe",
 		bg_tips = "",
 		id = 7011,
@@ -3744,8 +3780,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7012] = {
+	}
+	pg.base.battlepass_event_pt[7012] = {
 		spine_name = "chess_fuxu",
 		bg_tips = "",
 		id = 7012,
@@ -4094,8 +4130,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7013] = {
+	}
+	pg.base.battlepass_event_pt[7013] = {
 		spine_name = "chess_u410",
 		bg_tips = "",
 		id = 7013,
@@ -4444,8 +4480,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7014] = {
+	}
+	pg.base.battlepass_event_pt[7014] = {
 		spine_name = "chess_chuchun",
 		bg_tips = "",
 		id = 7014,
@@ -4794,8 +4830,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7015] = {
+	}
+	pg.base.battlepass_event_pt[7015] = {
 		spine_name = "chess_shenxue",
 		bg_tips = "",
 		id = 7015,
@@ -5144,8 +5180,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7016] = {
+	}
+	pg.base.battlepass_event_pt[7016] = {
 		spine_name = "chess_dian",
 		bg_tips = "",
 		id = 7016,
@@ -5494,8 +5530,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7017] = {
+	}
+	pg.base.battlepass_event_pt[7017] = {
 		spine_name = "chess_adiliao",
 		bg_tips = "",
 		id = 7017,
@@ -5844,8 +5880,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7018] = {
+	}
+	pg.base.battlepass_event_pt[7018] = {
 		spine_name = "chess_luoma",
 		bg_tips = "",
 		id = 7018,
@@ -6194,8 +6230,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7019] = {
+	}
+	pg.base.battlepass_event_pt[7019] = {
 		spine_name = "chess_luoma",
 		bg_tips = "",
 		id = 7019,
@@ -6544,8 +6580,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7020] = {
+	}
+	pg.base.battlepass_event_pt[7020] = {
 		spine_name = "chess_luoma",
 		bg_tips = "",
 		id = 7020,
@@ -6894,8 +6930,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7021] = {
+	}
+	pg.base.battlepass_event_pt[7021] = {
 		spine_name = "chess_luoma",
 		bg_tips = "",
 		id = 7021,
@@ -7244,8 +7280,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7022] = {
+	}
+	pg.base.battlepass_event_pt[7022] = {
 		spine_name = "chess_luoma",
 		bg_tips = "",
 		id = 7022,
@@ -7594,8 +7630,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7023] = {
+	}
+	pg.base.battlepass_event_pt[7023] = {
 		spine_name = "chess_luoma",
 		bg_tips = "",
 		id = 7023,
@@ -7944,8 +7980,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7024] = {
+	}
+	pg.base.battlepass_event_pt[7024] = {
 		spine_name = "chess_luoma",
 		bg_tips = "",
 		id = 7024,
@@ -8294,8 +8330,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7025] = {
+	}
+	pg.base.battlepass_event_pt[7025] = {
 		spine_name = "chess_luoma",
 		bg_tips = "",
 		id = 7025,
@@ -8644,8 +8680,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7026] = {
+	}
+	pg.base.battlepass_event_pt[7026] = {
 		spine_name = "chess_luoma",
 		bg_tips = "bg_worldcruise_9_tip",
 		id = 7026,
@@ -8994,8 +9030,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7027] = {
+	}
+	pg.base.battlepass_event_pt[7027] = {
 		spine_name = "chess_luoma",
 		bg_tips = "bg_worldcruise_10_tip",
 		id = 7027,
@@ -9344,8 +9380,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7028] = {
+	}
+	pg.base.battlepass_event_pt[7028] = {
 		spine_name = "chess_luoma",
 		bg_tips = "bg_worldcruise_11_tip",
 		id = 7028,
@@ -9694,35 +9730,5 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	all = {
-		7001,
-		7002,
-		7003,
-		7004,
-		7005,
-		7006,
-		7007,
-		7008,
-		7009,
-		7010,
-		7011,
-		7012,
-		7013,
-		7014,
-		7015,
-		7016,
-		7017,
-		7018,
-		7019,
-		7020,
-		7021,
-		7022,
-		7023,
-		7024,
-		7025,
-		7026,
-		7027,
-		7028
 	}
-}
+end)()

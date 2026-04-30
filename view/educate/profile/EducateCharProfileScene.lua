@@ -108,7 +108,7 @@ end
 function var_0_0.GetWordList(arg_14_0, arg_14_1)
 	local var_14_0 = {}
 
-	for iter_14_0, iter_14_1 in pairs(pg.character_voice_special.all) do
+	for iter_14_0, iter_14_1 in ipairs(pg.character_voice_special.all) do
 		local var_14_1 = iter_14_1
 
 		if string.find(iter_14_1, ShipWordHelper.WORD_TYPE_MAIN) then

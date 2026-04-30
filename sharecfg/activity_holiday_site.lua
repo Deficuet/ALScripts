@@ -1,6 +1,71 @@
 pg = pg or {}
-pg.activity_holiday_site = {
-	{
+pg.activity_holiday_site = rawget(pg, "activity_holiday_site") or setmetatable({
+	__name = "activity_holiday_site"
+}, confNEO)
+pg.activity_holiday_site.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61
+}
+pg.base = pg.base or {}
+pg.base.activity_holiday_site = {}
+
+;(function()
+	pg.base.activity_holiday_site[1] = {
 		task_id = 0,
 		name = "货物码头区",
 		type = 4,
@@ -18,8 +83,8 @@ pg.activity_holiday_site = {
 				"HolidayIcon/1"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[2] = {
 		task_id = 23702,
 		name = "别墅生活区",
 		type = 4,
@@ -37,8 +102,8 @@ pg.activity_holiday_site = {
 				"HolidayIcon/2"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[3] = {
 		task_id = 23768,
 		name = "室内娱乐区",
 		type = 4,
@@ -56,8 +121,8 @@ pg.activity_holiday_site = {
 				"HolidayIcon/3"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[4] = {
 		task_id = 23769,
 		name = "室外娱乐区",
 		type = 4,
@@ -75,8 +140,8 @@ pg.activity_holiday_site = {
 				"HolidayIcon/4"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[5] = {
 		task_id = 23770,
 		name = "海滩区",
 		type = 4,
@@ -94,8 +159,8 @@ pg.activity_holiday_site = {
 				"HolidayIcon/5"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[6] = {
 		task_id = 23771,
 		name = "灯塔区",
 		type = 4,
@@ -113,8 +178,8 @@ pg.activity_holiday_site = {
 				"HolidayIcon/6"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[7] = {
 		jumpto = "HolidayVillaWharfUI",
 		name = "货物码头区",
 		task_id = 23701,
@@ -125,8 +190,8 @@ pg.activity_holiday_site = {
 			9999,
 			9999
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[8] = {
 		jumpto = "",
 		name = "合成大舰船",
 		task_id = 23706,
@@ -137,8 +202,8 @@ pg.activity_holiday_site = {
 			9999,
 			9999
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[9] = {
 		jumpto = "",
 		name = "啾啾打捞团",
 		task_id = 23712,
@@ -149,8 +214,8 @@ pg.activity_holiday_site = {
 			9999,
 			9999
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[10] = {
 		jumpto = "",
 		name = "啾啾温泉",
 		task_id = 23709,
@@ -161,8 +226,8 @@ pg.activity_holiday_site = {
 			9999,
 			9999
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[11] = {
 		jumpto = "HAIDAOBIESHUDUJIAJIHUA2",
 		name = "",
 		task_id = 23721,
@@ -173,8 +238,8 @@ pg.activity_holiday_site = {
 			994.7,
 			-317
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[12] = {
 		jumpto = "HAIDAOBIESHUDUJIAJIHUA3",
 		name = "",
 		task_id = 23722,
@@ -185,8 +250,8 @@ pg.activity_holiday_site = {
 			-241.7,
 			344.7
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[13] = {
 		jumpto = "HAIDAOBIESHUDUJIAJIHUA4",
 		name = "",
 		task_id = 23723,
@@ -197,8 +262,8 @@ pg.activity_holiday_site = {
 			-110.6,
 			-214.9
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[14] = {
 		jumpto = "HAIDAOBIESHUDUJIAJIHUA5",
 		name = "",
 		task_id = 23724,
@@ -209,8 +274,8 @@ pg.activity_holiday_site = {
 			200.21,
 			263.2
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[15] = {
 		jumpto = "HAIDAOBIESHUDUJIAJIHUA6",
 		name = "",
 		task_id = 23726,
@@ -221,8 +286,8 @@ pg.activity_holiday_site = {
 			-861.04,
 			526.7
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[16] = {
 		jumpto = "HAIDAOBIESHUDUJIAJIHUA7",
 		name = "",
 		task_id = 23725,
@@ -233,8 +298,8 @@ pg.activity_holiday_site = {
 			972.9,
 			713
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[17] = {
 		jumpto = "HAIDAOBIESHUDUJIAJIHUA8",
 		name = "",
 		task_id = 23772,
@@ -245,8 +310,8 @@ pg.activity_holiday_site = {
 			-110.6,
 			-214.9
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[18] = {
 		jumpto = "HAIDAOBIESHUDUJIAJIHUA9",
 		name = "",
 		task_id = 23704,
@@ -257,8 +322,8 @@ pg.activity_holiday_site = {
 			-224.4,
 			231.1
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[19] = {
 		jumpto = "HAIDAOBIESHUDUJIAJIHUA10",
 		name = "",
 		task_id = 23704,
@@ -269,8 +334,8 @@ pg.activity_holiday_site = {
 			-287.2,
 			353.9
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[20] = {
 		jumpto = "HAIDAOBIESHUDUJIAJIHUA11",
 		name = "",
 		task_id = 23707,
@@ -281,8 +346,8 @@ pg.activity_holiday_site = {
 			2.2,
 			-9.9
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[21] = {
 		jumpto = "HAIDAOBIESHUDUJIAJIHUA12",
 		name = "",
 		task_id = 23707,
@@ -293,8 +358,8 @@ pg.activity_holiday_site = {
 			-558,
 			-164.1
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[22] = {
 		jumpto = "HAIDAOBIESHUDUJIAJIHUA13",
 		name = "",
 		task_id = 23710,
@@ -305,8 +370,8 @@ pg.activity_holiday_site = {
 			-62.45,
 			-472.2
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[23] = {
 		jumpto = "HAIDAOBIESHUDUJIAJIHUA14",
 		name = "",
 		task_id = 23710,
@@ -317,8 +382,8 @@ pg.activity_holiday_site = {
 			650,
 			0.7
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[24] = {
 		jumpto = "HAIDAOBIESHUDUJIAJIHUA15",
 		name = "",
 		task_id = 23710,
@@ -329,8 +394,8 @@ pg.activity_holiday_site = {
 			402,
 			-245.7
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[25] = {
 		jumpto = "HAIDAOBIESHUDUJIAJIHUA16",
 		name = "",
 		task_id = 23713,
@@ -341,8 +406,8 @@ pg.activity_holiday_site = {
 			-993.5,
 			668.1
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[26] = {
 		jumpto = "HAIDAOBIESHUDUJIAJIHUA17",
 		name = "",
 		task_id = 23713,
@@ -353,8 +418,8 @@ pg.activity_holiday_site = {
 			-676.4,
 			532.7
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[27] = {
 		jumpto = "HAIDAOBIESHUDUJIAJIHUA18",
 		name = "",
 		task_id = 23716,
@@ -365,8 +430,8 @@ pg.activity_holiday_site = {
 			972.9,
 			713
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[28] = {
 		jumpto = "HAIDAOBIESHUDUJIAJIHUA19",
 		name = "",
 		task_id = 23704,
@@ -377,8 +442,8 @@ pg.activity_holiday_site = {
 			-387.1,
 			177.8
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[29] = {
 		jumpto = "HAIDAOBIESHUDUJIAJIHUA20",
 		name = "",
 		task_id = 23707,
@@ -389,8 +454,8 @@ pg.activity_holiday_site = {
 			-391.2,
 			-538.1
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[30] = {
 		jumpto = "HAIDAOBIESHUDUJIAJIHUA21",
 		name = "",
 		task_id = 23707,
@@ -401,8 +466,8 @@ pg.activity_holiday_site = {
 			-70.1,
 			139.7
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[31] = {
 		jumpto = "HAIDAOBIESHUDUJIAJIHUA22",
 		name = "",
 		task_id = 23707,
@@ -413,8 +478,8 @@ pg.activity_holiday_site = {
 			123.4,
 			44.9
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[32] = {
 		jumpto = "HAIDAOBIESHUDUJIAJIHUA23",
 		name = "",
 		task_id = 23710,
@@ -425,8 +490,8 @@ pg.activity_holiday_site = {
 			85.7,
 			451.9
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[33] = {
 		jumpto = "HAIDAOBIESHUDUJIAJIHUA24",
 		name = "",
 		task_id = 23713,
@@ -437,8 +502,8 @@ pg.activity_holiday_site = {
 			-928.5,
 			526.7
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[34] = {
 		jumpto = "HAIDAOBIESHUDUJIAJIHUA25",
 		name = "",
 		task_id = 23713,
@@ -449,8 +514,8 @@ pg.activity_holiday_site = {
 			-719.6,
 			303
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[35] = {
 		jumpto = "HAIDAOBIESHUDUJIAJIHUA26",
 		name = "",
 		task_id = 23713,
@@ -461,8 +526,8 @@ pg.activity_holiday_site = {
 			-579.8,
 			682.1
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_site[36] = {
 		jumpto = "HAIDAOBIESHUDUJIAJIHUA27",
 		name = "",
 		task_id = 23716,
@@ -473,8 +538,8 @@ pg.activity_holiday_site = {
 			810,
 			470.6
 		}
-	},
-	[41] = {
+	}
+	pg.base.activity_holiday_site[41] = {
 		task_id = 23705,
 		name = "",
 		type = 3,
@@ -495,8 +560,8 @@ pg.activity_holiday_site = {
 				"HolidayIcon/41"
 			}
 		}
-	},
-	[42] = {
+	}
+	pg.base.activity_holiday_site[42] = {
 		task_id = 23705,
 		name = "",
 		type = 3,
@@ -517,8 +582,8 @@ pg.activity_holiday_site = {
 				"HolidayIcon/2"
 			}
 		}
-	},
-	[43] = {
+	}
+	pg.base.activity_holiday_site[43] = {
 		task_id = 23705,
 		name = "",
 		type = 3,
@@ -539,8 +604,8 @@ pg.activity_holiday_site = {
 				"HolidayIcon/2"
 			}
 		}
-	},
-	[44] = {
+	}
+	pg.base.activity_holiday_site[44] = {
 		task_id = 23708,
 		name = "",
 		type = 3,
@@ -561,8 +626,8 @@ pg.activity_holiday_site = {
 				"HolidayIcon/3"
 			}
 		}
-	},
-	[45] = {
+	}
+	pg.base.activity_holiday_site[45] = {
 		task_id = 23708,
 		name = "",
 		type = 3,
@@ -583,8 +648,8 @@ pg.activity_holiday_site = {
 				"HolidayIcon/3"
 			}
 		}
-	},
-	[46] = {
+	}
+	pg.base.activity_holiday_site[46] = {
 		task_id = 23708,
 		name = "",
 		type = 3,
@@ -605,8 +670,8 @@ pg.activity_holiday_site = {
 				"HolidayIcon/3"
 			}
 		}
-	},
-	[47] = {
+	}
+	pg.base.activity_holiday_site[47] = {
 		task_id = 23708,
 		name = "",
 		type = 3,
@@ -627,8 +692,8 @@ pg.activity_holiday_site = {
 				"HolidayIcon/3"
 			}
 		}
-	},
-	[48] = {
+	}
+	pg.base.activity_holiday_site[48] = {
 		task_id = 23708,
 		name = "",
 		type = 3,
@@ -649,8 +714,8 @@ pg.activity_holiday_site = {
 				"HolidayIcon/3"
 			}
 		}
-	},
-	[49] = {
+	}
+	pg.base.activity_holiday_site[49] = {
 		task_id = 23708,
 		name = "",
 		type = 3,
@@ -671,8 +736,8 @@ pg.activity_holiday_site = {
 				"HolidayIcon/49"
 			}
 		}
-	},
-	[50] = {
+	}
+	pg.base.activity_holiday_site[50] = {
 		task_id = 23708,
 		name = "",
 		type = 3,
@@ -693,8 +758,8 @@ pg.activity_holiday_site = {
 				"HolidayIcon/50"
 			}
 		}
-	},
-	[51] = {
+	}
+	pg.base.activity_holiday_site[51] = {
 		task_id = 23711,
 		name = "",
 		type = 3,
@@ -715,8 +780,8 @@ pg.activity_holiday_site = {
 				"HolidayIcon/51"
 			}
 		}
-	},
-	[52] = {
+	}
+	pg.base.activity_holiday_site[52] = {
 		task_id = 23711,
 		name = "",
 		type = 3,
@@ -737,8 +802,8 @@ pg.activity_holiday_site = {
 				"HolidayIcon/52"
 			}
 		}
-	},
-	[53] = {
+	}
+	pg.base.activity_holiday_site[53] = {
 		task_id = 23711,
 		name = "",
 		type = 3,
@@ -759,8 +824,8 @@ pg.activity_holiday_site = {
 				"HolidayIcon/53"
 			}
 		}
-	},
-	[54] = {
+	}
+	pg.base.activity_holiday_site[54] = {
 		task_id = 23711,
 		name = "",
 		type = 3,
@@ -781,8 +846,8 @@ pg.activity_holiday_site = {
 				"HolidayIcon/54"
 			}
 		}
-	},
-	[55] = {
+	}
+	pg.base.activity_holiday_site[55] = {
 		task_id = 23711,
 		name = "",
 		type = 3,
@@ -803,8 +868,8 @@ pg.activity_holiday_site = {
 				"HolidayIcon/55"
 			}
 		}
-	},
-	[56] = {
+	}
+	pg.base.activity_holiday_site[56] = {
 		task_id = 23714,
 		name = "",
 		type = 3,
@@ -825,8 +890,8 @@ pg.activity_holiday_site = {
 				"HolidayIcon/56"
 			}
 		}
-	},
-	[57] = {
+	}
+	pg.base.activity_holiday_site[57] = {
 		task_id = 23714,
 		name = "",
 		type = 3,
@@ -847,8 +912,8 @@ pg.activity_holiday_site = {
 				"HolidayIcon/57"
 			}
 		}
-	},
-	[58] = {
+	}
+	pg.base.activity_holiday_site[58] = {
 		task_id = 23714,
 		name = "",
 		type = 3,
@@ -869,8 +934,8 @@ pg.activity_holiday_site = {
 				"HolidayIcon/58"
 			}
 		}
-	},
-	[59] = {
+	}
+	pg.base.activity_holiday_site[59] = {
 		task_id = 23714,
 		name = "",
 		type = 3,
@@ -891,8 +956,8 @@ pg.activity_holiday_site = {
 				"HolidayIcon/59"
 			}
 		}
-	},
-	[60] = {
+	}
+	pg.base.activity_holiday_site[60] = {
 		task_id = 23717,
 		name = "",
 		type = 3,
@@ -913,8 +978,8 @@ pg.activity_holiday_site = {
 				"HolidayIcon/6"
 			}
 		}
-	},
-	[61] = {
+	}
+	pg.base.activity_holiday_site[61] = {
 		task_id = 23717,
 		name = "",
 		type = 3,
@@ -935,64 +1000,5 @@ pg.activity_holiday_site = {
 				"HolidayIcon/61"
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		58,
-		59,
-		60,
-		61
 	}
-}
+end)()

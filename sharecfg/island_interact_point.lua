@@ -1,6 +1,33 @@
 pg = pg or {}
-pg.island_interact_point = {
-	{
+pg.island_interact_point = rawget(pg, "island_interact_point") or setmetatable({
+	__name = "island_interact_point"
+}, confNEO)
+pg.island_interact_point.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19
+}
+pg.base = pg.base or {}
+pg.base.island_interact_point = {}
+
+;(function()
+	pg.base.island_interact_point[1] = {
 		id = 1,
 		slot_cnt = 1,
 		attach = "pre_item_05_50128(Clone)/hudong_pre/50128A/pre_item_05_50128A",
@@ -16,8 +43,8 @@ pg.island_interact_point = {
 			0,
 			6.56
 		}
-	},
-	{
+	}
+	pg.base.island_interact_point[2] = {
 		id = 2,
 		slot_cnt = 3,
 		attach = "pre_item_05_50128(Clone)/hudong_pre/pre_item_05_50128B",
@@ -33,8 +60,8 @@ pg.island_interact_point = {
 			0,
 			-0.37
 		}
-	},
-	{
+	}
+	pg.base.island_interact_point[3] = {
 		id = 3,
 		slot_cnt = 2,
 		attach = "pre_item_05_50128(Clone)/hudong_pre/pre_item_05_50128C",
@@ -50,8 +77,8 @@ pg.island_interact_point = {
 			0,
 			4.06
 		}
-	},
-	{
+	}
+	pg.base.island_interact_point[4] = {
 		id = 4,
 		slot_cnt = 2,
 		attach = "pre_item_05_50104(Clone)",
@@ -67,8 +94,8 @@ pg.island_interact_point = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.island_interact_point[5] = {
 		id = 5,
 		slot_cnt = 1,
 		attach = "pre_item_05_50105(Clone)",
@@ -84,8 +111,8 @@ pg.island_interact_point = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.island_interact_point[6] = {
 		id = 6,
 		slot_cnt = 1,
 		attach = "pre_item_05_50103(Clone)",
@@ -101,8 +128,8 @@ pg.island_interact_point = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.island_interact_point[7] = {
 		id = 7,
 		slot_cnt = 1,
 		attach = "pre_item_05_50107(Clone)",
@@ -118,8 +145,8 @@ pg.island_interact_point = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.island_interact_point[8] = {
 		id = 8,
 		slot_cnt = 2,
 		attach = "pre_item_05_50119(Clone)",
@@ -135,8 +162,8 @@ pg.island_interact_point = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.island_interact_point[9] = {
 		id = 9,
 		slot_cnt = 2,
 		attach = "pre_item_05_50201(Clone)/hudong_pre/pre_item_05_50201a",
@@ -152,8 +179,8 @@ pg.island_interact_point = {
 			0,
 			5.01
 		}
-	},
-	{
+	}
+	pg.base.island_interact_point[10] = {
 		id = 10,
 		slot_cnt = 1,
 		attach = "pre_item_05_50201(Clone)/hudong_pre/pre_item_05_50201b",
@@ -169,8 +196,8 @@ pg.island_interact_point = {
 			0,
 			1.27
 		}
-	},
-	{
+	}
+	pg.base.island_interact_point[11] = {
 		id = 11,
 		slot_cnt = 1,
 		attach = "pre_item_05_50202(Clone)",
@@ -186,8 +213,8 @@ pg.island_interact_point = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.island_interact_point[12] = {
 		id = 12,
 		slot_cnt = 1,
 		attach = "pre_item_05_50205(Clone)",
@@ -203,8 +230,8 @@ pg.island_interact_point = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.island_interact_point[13] = {
 		id = 13,
 		slot_cnt = 1,
 		attach = "pre_item_05_50212(Clone)",
@@ -220,8 +247,8 @@ pg.island_interact_point = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.island_interact_point[14] = {
 		id = 14,
 		slot_cnt = 1,
 		attach = "pre_item_05_50251(Clone)",
@@ -237,8 +264,8 @@ pg.island_interact_point = {
 			0,
 			-0.088
 		}
-	},
-	{
+	}
+	pg.base.island_interact_point[15] = {
 		id = 15,
 		slot_cnt = 1,
 		attach = "pre_item_05_50251(Clone)",
@@ -254,8 +281,8 @@ pg.island_interact_point = {
 			0,
 			0.839
 		}
-	},
-	{
+	}
+	pg.base.island_interact_point[16] = {
 		id = 16,
 		slot_cnt = 4,
 		attach = "pre_item_05_50277(Clone)",
@@ -271,8 +298,8 @@ pg.island_interact_point = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.island_interact_point[17] = {
 		id = 17,
 		slot_cnt = 1,
 		attach = "pre_item_05_50253(Clone)",
@@ -288,8 +315,8 @@ pg.island_interact_point = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.island_interact_point[18] = {
 		id = 18,
 		slot_cnt = 1,
 		attach = "pre_item_05_50254(Clone)",
@@ -305,8 +332,8 @@ pg.island_interact_point = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.island_interact_point[19] = {
 		id = 19,
 		slot_cnt = 1,
 		attach = "pre_item_05_50257(Clone)",
@@ -335,26 +362,5 @@ pg.island_interact_point = {
 			0,
 			0
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19
 	}
-}
+end)()

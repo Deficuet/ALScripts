@@ -1,28 +1,31 @@
 pg = pg or {}
-pg.activity_clue_ending = setmetatable({
-	__name = "activity_clue_ending",
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16
-	}
-}, confHX)
+pg.activity_clue_ending = rawget(pg, "activity_clue_ending") or setmetatable({
+	__name = "activity_clue_ending"
+}, confNEO)
+pg.activity_clue_ending.__namecode__ = true
+pg.activity_clue_ending.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16
+}
 pg.base = pg.base or {}
-pg.base.activity_clue_ending = {
-	{
+pg.base.activity_clue_ending = {}
+
+;(function()
+	pg.base.activity_clue_ending[1] = {
 		unlock_pre = 0,
 		id = 1,
 		task_id = "21625",
@@ -80,8 +83,8 @@ pg.base.activity_clue_ending = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[2] = {
 		unlock_pre = 1,
 		id = 2,
 		task_id = "21626",
@@ -121,8 +124,8 @@ pg.base.activity_clue_ending = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[3] = {
 		unlock_pre = 2,
 		id = 3,
 		task_id = "21627",
@@ -171,8 +174,8 @@ pg.base.activity_clue_ending = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[4] = {
 		unlock_pre = 3,
 		id = 4,
 		task_id = "21628",
@@ -212,8 +215,8 @@ pg.base.activity_clue_ending = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[5] = {
 		unlock_pre = 0,
 		id = 5,
 		task_id = "21629",
@@ -280,8 +283,8 @@ pg.base.activity_clue_ending = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[6] = {
 		unlock_pre = 5,
 		id = 6,
 		task_id = "21630",
@@ -330,8 +333,8 @@ pg.base.activity_clue_ending = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[7] = {
 		unlock_pre = 6,
 		id = 7,
 		task_id = "21631",
@@ -461,8 +464,8 @@ pg.base.activity_clue_ending = {
 				0.7
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[8] = {
 		unlock_pre = 7,
 		id = 8,
 		task_id = "21632",
@@ -502,8 +505,8 @@ pg.base.activity_clue_ending = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[9] = {
 		unlock_pre = 0,
 		id = 9,
 		task_id = "21633",
@@ -570,8 +573,8 @@ pg.base.activity_clue_ending = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[10] = {
 		unlock_pre = 9,
 		id = 10,
 		task_id = "21634",
@@ -620,8 +623,8 @@ pg.base.activity_clue_ending = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[11] = {
 		unlock_pre = 10,
 		id = 11,
 		task_id = "21635",
@@ -706,8 +709,8 @@ pg.base.activity_clue_ending = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[12] = {
 		unlock_pre = 11,
 		id = 12,
 		task_id = "21636",
@@ -747,8 +750,8 @@ pg.base.activity_clue_ending = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[13] = {
 		unlock_pre = 0,
 		id = 13,
 		task_id = "21637",
@@ -842,8 +845,8 @@ pg.base.activity_clue_ending = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[14] = {
 		unlock_pre = 13,
 		id = 14,
 		task_id = "21638",
@@ -946,8 +949,8 @@ pg.base.activity_clue_ending = {
 				0.8
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[15] = {
 		unlock_pre = 14,
 		id = 15,
 		task_id = "21639",
@@ -1032,8 +1035,8 @@ pg.base.activity_clue_ending = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[16] = {
 		unlock_pre = 15,
 		id = 16,
 		task_id = "21640",
@@ -1074,4 +1077,4 @@ pg.base.activity_clue_ending = {
 			}
 		}
 	}
-}
+end)()

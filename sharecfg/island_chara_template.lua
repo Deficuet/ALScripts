@@ -1,36 +1,39 @@
 pg = pg or {}
-pg.island_chara_template = setmetatable({
-	__name = "island_chara_template",
-	all = {
-		1,
-		10517,
-		10703,
-		20403,
-		20603,
-		29903,
-		30129,
-		30407,
-		30707,
-		31201,
-		50204,
-		50205,
-		60802,
-		70104,
-		90111,
-		10110,
-		50601,
-		30312,
-		10205,
-		49902,
-		40303,
-		990001,
-		990002,
-		990003
-	}
-}, confHX)
+pg.island_chara_template = rawget(pg, "island_chara_template") or setmetatable({
+	__name = "island_chara_template"
+}, confNEO)
+pg.island_chara_template.__namecode__ = true
+pg.island_chara_template.all = {
+	1,
+	10517,
+	10703,
+	20403,
+	20603,
+	29903,
+	30129,
+	30407,
+	30707,
+	31201,
+	50204,
+	50205,
+	60802,
+	70104,
+	90111,
+	10110,
+	50601,
+	30312,
+	10205,
+	49902,
+	40303,
+	990001,
+	990002,
+	990003
+}
 pg.base = pg.base or {}
-pg.base.island_chara_template = {
-	{
+pg.base.island_chara_template = {}
+
+;(function()
+	pg.base.island_chara_template[1] = {
 		skill_unlock = 0,
 		name = "工作啾",
 		unit_id = 300200,
@@ -243,8 +246,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[10517] = {
+	}
+	pg.base.island_chara_template[10517] = {
 		skill_unlock = 2,
 		name = "{namecode:199}",
 		unit_id = 1051700,
@@ -457,8 +460,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[10703] = {
+	}
+	pg.base.island_chara_template[10703] = {
 		skill_unlock = 2,
 		name = "萨拉托加",
 		unit_id = 1070300,
@@ -671,8 +674,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[20403] = {
+	}
+	pg.base.island_chara_template[20403] = {
 		skill_unlock = 2,
 		name = "胡德",
 		unit_id = 2040300,
@@ -885,8 +888,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[20603] = {
+	}
+	pg.base.island_chara_template[20603] = {
 		skill_unlock = 2,
 		name = "独角兽",
 		unit_id = 2060300,
@@ -1099,8 +1102,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[29903] = {
+	}
+	pg.base.island_chara_template[29903] = {
 		skill_unlock = 2,
 		name = "柴郡",
 		unit_id = 2990300,
@@ -1313,8 +1316,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[30129] = {
+	}
+	pg.base.island_chara_template[30129] = {
 		skill_unlock = 2,
 		name = "{namecode:18}",
 		unit_id = 3012900,
@@ -1527,8 +1530,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[30407] = {
+	}
+	pg.base.island_chara_template[30407] = {
 		skill_unlock = 2,
 		name = "{namecode:193}",
 		unit_id = 3040700,
@@ -1741,8 +1744,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[30707] = {
+	}
+	pg.base.island_chara_template[30707] = {
 		skill_unlock = 2,
 		name = "{namecode:97}",
 		unit_id = 3070700,
@@ -1955,8 +1958,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[31201] = {
+	}
+	pg.base.island_chara_template[31201] = {
 		skill_unlock = 2,
 		name = "{namecode:98}",
 		unit_id = 3120100,
@@ -2174,8 +2177,8 @@ pg.base.island_chara_template = {
 			10001141,
 			10001150
 		}
-	},
-	[50204] = {
+	}
+	pg.base.island_chara_template[50204] = {
 		skill_unlock = 2,
 		name = "应瑞",
 		unit_id = 5020400,
@@ -2388,8 +2391,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[50205] = {
+	}
+	pg.base.island_chara_template[50205] = {
 		skill_unlock = 2,
 		name = "肇和",
 		unit_id = 5020500,
@@ -2602,8 +2605,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[60802] = {
+	}
+	pg.base.island_chara_template[60802] = {
 		skill_unlock = 2,
 		name = "莱昂纳多·达·芬奇",
 		unit_id = 6080200,
@@ -2816,8 +2819,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[70104] = {
+	}
+	pg.base.island_chara_template[70104] = {
 		skill_unlock = 2,
 		name = "塔什干",
 		unit_id = 7010400,
@@ -3030,8 +3033,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[90111] = {
+	}
+	pg.base.island_chara_template[90111] = {
 		skill_unlock = 2,
 		name = "恶毒",
 		unit_id = 9011100,
@@ -3244,8 +3247,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[10110] = {
+	}
+	pg.base.island_chara_template[10110] = {
 		skill_unlock = 2,
 		name = "威廉·D·波特",
 		unit_id = 1011000,
@@ -3458,8 +3461,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[50601] = {
+	}
+	pg.base.island_chara_template[50601] = {
 		skill_unlock = 2,
 		name = "镇海",
 		unit_id = 5060100,
@@ -3672,8 +3675,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[30312] = {
+	}
+	pg.base.island_chara_template[30312] = {
 		skill_unlock = 2,
 		name = "{namecode:67}",
 		unit_id = 3031200,
@@ -3886,8 +3889,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[10205] = {
+	}
+	pg.base.island_chara_template[10205] = {
 		skill_unlock = 2,
 		name = "海伦娜",
 		unit_id = 1020500,
@@ -4100,8 +4103,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[49902] = {
+	}
+	pg.base.island_chara_template[49902] = {
 		skill_unlock = 2,
 		name = "{namecode:440}",
 		unit_id = 4990200,
@@ -4314,8 +4317,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[40303] = {
+	}
+	pg.base.island_chara_template[40303] = {
 		skill_unlock = 2,
 		name = "{namecode:427}",
 		unit_id = 4030300,
@@ -4528,8 +4531,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[990001] = {
+	}
+	pg.base.island_chara_template[990001] = {
 		skill_unlock = 2,
 		name = "领洋者-娜比娅",
 		unit_id = 99000100,
@@ -4742,8 +4745,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[990002] = {
+	}
+	pg.base.island_chara_template[990002] = {
 		skill_unlock = 2,
 		name = "领航员-TB",
 		unit_id = 99000200,
@@ -4956,8 +4959,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[990003] = {
+	}
+	pg.base.island_chara_template[990003] = {
 		skill_unlock = 2,
 		name = "探索者-艾普洛",
 		unit_id = 99000300,
@@ -5171,4 +5174,4 @@ pg.base.island_chara_template = {
 		},
 		in_task = {}
 	}
-}
+end)()

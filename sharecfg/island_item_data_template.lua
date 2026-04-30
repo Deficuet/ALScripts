@@ -1,581 +1,303 @@
 pg = pg or {}
-pg.island_item_data_template = setmetatable({
-	__name = "island_item_data_template",
-	get_id_list_by_usage = {
-		usage_undefined = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			1000,
-			1001,
-			1002,
-			1003,
-			1004,
-			1005,
-			1006,
-			1007,
-			1008,
-			1009,
-			1010,
-			1011,
-			1012,
-			1014,
-			1015,
-			1016,
-			1017,
-			1018,
-			1019,
-			1020,
-			1021,
-			1022,
-			1101,
-			1102,
-			1103,
-			1104,
-			1105,
-			1106,
-			1107,
-			1108,
-			1201,
-			1202,
-			1203,
-			1204,
-			1205,
-			1206,
-			1207,
-			1208,
-			2000,
-			2001,
-			2002,
-			2003,
-			2004,
-			2005,
-			2006,
-			2007,
-			2008,
-			2009,
-			2010,
-			2011,
-			2012,
-			2014,
-			2015,
-			2016,
-			2017,
-			2018,
-			2019,
-			2020,
-			2021,
-			2022,
-			2521,
-			2522,
-			2600,
-			2601,
-			2602,
-			2603,
-			2604,
-			2605,
-			2606,
-			2700,
-			2701,
-			2702,
-			2703,
-			2704,
-			2705,
-			2800,
-			2801,
-			2802,
-			2803,
-			3000,
-			3001,
-			3002,
-			3003,
-			3004,
-			3005,
-			3006,
-			3007,
-			3008,
-			3009,
-			3010,
-			3011,
-			3012,
-			3013,
-			3014,
-			3015,
-			3017,
-			3018,
-			3019,
-			3020,
-			3021,
-			3022,
-			3023,
-			3024,
-			3025,
-			3026,
-			3028,
-			3029,
-			3030,
-			3032,
-			3033,
-			3034,
-			3035,
-			3036,
-			3037,
-			3038,
-			3039,
-			3040,
-			3041,
-			3042,
-			3043,
-			3044,
-			3045,
-			3046,
-			3047,
-			3048,
-			3049,
-			3050,
-			3051,
-			3052,
-			3053,
-			3054,
-			3055,
-			3056,
-			3059,
-			3101,
-			3102,
-			3103,
-			3104,
-			3105,
-			3106,
-			3107,
-			3108,
-			3109,
-			3110,
-			3111,
-			3112,
-			3113,
-			3114,
-			3115,
-			3116,
-			3117,
-			3118,
-			3119,
-			3120,
-			4001,
-			4002,
-			4003,
-			4004,
-			4005,
-			4006,
-			4007,
-			4008,
-			4009,
-			4010,
-			4011,
-			4012,
-			4013,
-			4014,
-			4015,
-			4016,
-			4017,
-			4018,
-			4019,
-			4020,
-			4021,
-			4022,
-			4023,
-			4024,
-			4025,
-			4026,
-			4027,
-			4028,
-			5001,
-			5002,
-			5003,
-			5004,
-			5005,
-			5006,
-			5007,
-			5008,
-			5101,
-			5102,
-			5103,
-			5104,
-			5105,
-			5106,
-			5107,
-			5108,
-			9900,
-			100001,
-			100002,
-			100003,
-			100011,
-			100012,
-			100013,
-			100021,
-			100022,
-			100023,
-			100031,
-			100032,
-			100033,
-			100041,
-			100042,
-			100043,
-			100051,
-			100052,
-			100053,
-			100061,
-			100062,
-			100063,
-			100101,
-			100102,
-			100103,
-			100201,
-			200001,
-			200002,
-			200003,
-			200004,
-			200005,
-			200006,
-			200007,
-			200008,
-			200009,
-			200010,
-			200011,
-			200012,
-			200013,
-			200014,
-			200015,
-			200016,
-			200017,
-			200018,
-			200019,
-			200020,
-			200021,
-			200022,
-			200023,
-			300001,
-			300002,
-			300003,
-			300004,
-			300005,
-			300006
-		},
-		usage_fish = {
-			1500,
-			1501,
-			1502,
-			1503
-		},
-		usage_island_gift = {
-			110001,
-			110002,
-			110003,
-			110004,
-			110005,
-			110006
-		}
+pg.island_item_data_template = rawget(pg, "island_item_data_template") or setmetatable({
+	__name = "island_item_data_template"
+}, confNEO)
+pg.island_item_data_template.__namecode__ = true
+pg.island_item_data_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	1000,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012,
+	1014,
+	1015,
+	1016,
+	1017,
+	1018,
+	1019,
+	1020,
+	1021,
+	1022,
+	1101,
+	1102,
+	1103,
+	1104,
+	1105,
+	1106,
+	1107,
+	1108,
+	1201,
+	1202,
+	1203,
+	1204,
+	1205,
+	1206,
+	1207,
+	1208,
+	1500,
+	1501,
+	1502,
+	1503,
+	2000,
+	2001,
+	2002,
+	2003,
+	2004,
+	2005,
+	2006,
+	2007,
+	2008,
+	2009,
+	2010,
+	2011,
+	2012,
+	2014,
+	2015,
+	2016,
+	2017,
+	2018,
+	2019,
+	2020,
+	2021,
+	2022,
+	2521,
+	2522,
+	2600,
+	2601,
+	2602,
+	2603,
+	2604,
+	2605,
+	2606,
+	2700,
+	2701,
+	2702,
+	2703,
+	2704,
+	2705,
+	2800,
+	2801,
+	2802,
+	2803,
+	3000,
+	3001,
+	3002,
+	3003,
+	3004,
+	3005,
+	3006,
+	3007,
+	3008,
+	3009,
+	3010,
+	3011,
+	3012,
+	3013,
+	3014,
+	3015,
+	3017,
+	3018,
+	3019,
+	3020,
+	3021,
+	3022,
+	3023,
+	3024,
+	3025,
+	3026,
+	3028,
+	3029,
+	3030,
+	3032,
+	3033,
+	3034,
+	3035,
+	3036,
+	3037,
+	3038,
+	3039,
+	3040,
+	3041,
+	3042,
+	3043,
+	3044,
+	3045,
+	3046,
+	3047,
+	3048,
+	3049,
+	3050,
+	3051,
+	3052,
+	3053,
+	3054,
+	3055,
+	3056,
+	3059,
+	3101,
+	3102,
+	3103,
+	3104,
+	3105,
+	3106,
+	3107,
+	3108,
+	3109,
+	3110,
+	3111,
+	3112,
+	3113,
+	3114,
+	3115,
+	3116,
+	3117,
+	3118,
+	3119,
+	3120,
+	4001,
+	4002,
+	4003,
+	4004,
+	4005,
+	4006,
+	4007,
+	4008,
+	4009,
+	4010,
+	4011,
+	4012,
+	4013,
+	4014,
+	4015,
+	4016,
+	4017,
+	4018,
+	4019,
+	4020,
+	4021,
+	4022,
+	4023,
+	4024,
+	4025,
+	4026,
+	4027,
+	4028,
+	5001,
+	5002,
+	5003,
+	5004,
+	5005,
+	5006,
+	5007,
+	5008,
+	5101,
+	5102,
+	5103,
+	5104,
+	5105,
+	5106,
+	5107,
+	5108,
+	9900,
+	100001,
+	100002,
+	100003,
+	100011,
+	100012,
+	100013,
+	100021,
+	100022,
+	100023,
+	100031,
+	100032,
+	100033,
+	100041,
+	100042,
+	100043,
+	100051,
+	100052,
+	100053,
+	100061,
+	100062,
+	100063,
+	100101,
+	100102,
+	100103,
+	100201,
+	110001,
+	110002,
+	110003,
+	110004,
+	110005,
+	110006,
+	200001,
+	200002,
+	200003,
+	200004,
+	200005,
+	200006,
+	200007,
+	200008,
+	200009,
+	200010,
+	200011,
+	200012,
+	200013,
+	200014,
+	200015,
+	200016,
+	200017,
+	200018,
+	200019,
+	200020,
+	200021,
+	200022,
+	200023,
+	300001,
+	300002,
+	300003,
+	300004,
+	300005,
+	300006
+}
+pg.island_item_data_template.get_id_list_by_usage = {
+	usage_fish = {
+		1500,
+		1501,
+		1502,
+		1503
 	},
-	get_id_list_by_type = {
-		[3] = {
-			1,
-			5,
-			6,
-			7,
-			8,
-			9,
-			11,
-			12,
-			13,
-			1500,
-			1501,
-			1502,
-			1503
-		},
-		[4] = {
-			2
-		},
-		[2] = {
-			3,
-			4,
-			100011,
-			100012,
-			100013,
-			100021,
-			100022,
-			100023,
-			100031,
-			100032,
-			100033,
-			100041,
-			100042,
-			100043,
-			100051,
-			100052,
-			100053,
-			100061,
-			100062,
-			100063,
-			100101,
-			100102,
-			100103,
-			100201,
-			110001,
-			110002,
-			110003,
-			110004,
-			110005,
-			110006,
-			200001,
-			200002,
-			200003,
-			200004,
-			200005,
-			200006,
-			200007,
-			200008,
-			200009,
-			200010,
-			200011,
-			200012,
-			200013,
-			200014,
-			200015,
-			200016,
-			200017,
-			200018,
-			200019,
-			200020,
-			200021,
-			200022,
-			200023,
-			300001,
-			300002,
-			300003,
-			300004,
-			300005,
-			300006
-		},
-		{
-			10,
-			14,
-			1000,
-			1001,
-			1002,
-			1003,
-			1004,
-			1005,
-			1006,
-			1007,
-			1008,
-			1009,
-			1010,
-			1011,
-			1012,
-			1014,
-			1015,
-			1016,
-			1017,
-			1018,
-			1019,
-			1020,
-			1021,
-			1022,
-			1101,
-			1102,
-			1103,
-			1104,
-			1105,
-			1106,
-			1107,
-			1108,
-			1201,
-			1202,
-			1203,
-			1204,
-			1205,
-			1206,
-			1207,
-			1208,
-			2000,
-			2001,
-			2002,
-			2003,
-			2004,
-			2005,
-			2006,
-			2007,
-			2008,
-			2009,
-			2010,
-			2011,
-			2012,
-			2014,
-			2015,
-			2016,
-			2017,
-			2018,
-			2019,
-			2020,
-			2021,
-			2022,
-			2521,
-			2522,
-			2600,
-			2601,
-			2602,
-			2603,
-			2604,
-			2605,
-			2606,
-			2700,
-			2701,
-			2702,
-			2703,
-			2704,
-			2705,
-			2800,
-			2801,
-			2802,
-			2803,
-			3000,
-			3001,
-			3002,
-			3003,
-			3004,
-			3005,
-			3006,
-			3007,
-			3008,
-			3009,
-			3010,
-			3011,
-			3012,
-			3013,
-			3014,
-			3015,
-			3017,
-			3018,
-			3019,
-			3020,
-			3021,
-			3022,
-			3023,
-			3024,
-			3025,
-			3026,
-			3028,
-			3029,
-			3030,
-			3032,
-			3033,
-			3034,
-			3035,
-			3036,
-			3037,
-			3038,
-			3039,
-			3040,
-			3041,
-			3042,
-			3043,
-			3044,
-			3045,
-			3046,
-			3047,
-			3048,
-			3049,
-			3050,
-			3051,
-			3052,
-			3053,
-			3054,
-			3055,
-			3056,
-			3059,
-			3101,
-			3102,
-			3103,
-			3104,
-			3105,
-			3106,
-			3107,
-			3108,
-			3109,
-			3110,
-			3111,
-			3112,
-			3113,
-			3114,
-			3115,
-			3116,
-			3117,
-			3118,
-			3119,
-			3120,
-			4001,
-			4002,
-			4003,
-			4004,
-			4005,
-			4006,
-			4007,
-			4008,
-			4009,
-			4010,
-			4011,
-			4012,
-			4013,
-			4014,
-			4015,
-			4016,
-			4017,
-			4018,
-			4019,
-			4020,
-			4021,
-			4022,
-			4023,
-			4024,
-			4025,
-			4026,
-			4027,
-			4028,
-			5001,
-			5002,
-			5003,
-			5004,
-			5005,
-			5006,
-			5007,
-			5008,
-			5101,
-			5102,
-			5103,
-			5104,
-			5105,
-			5106,
-			5107,
-			5108,
-			9900
-		},
-		[5] = {
-			100001,
-			100002,
-			100003
-		}
+	usage_island_gift = {
+		110001,
+		110002,
+		110003,
+		110004,
+		110005,
+		110006
 	},
-	all = {
+	usage_undefined = {
 		1,
 		2,
 		3,
@@ -628,10 +350,6 @@ pg.island_item_data_template = setmetatable({
 		1206,
 		1207,
 		1208,
-		1500,
-		1501,
-		1502,
-		1503,
 		2000,
 		2001,
 		2002,
@@ -818,6 +536,266 @@ pg.island_item_data_template = setmetatable({
 		100102,
 		100103,
 		100201,
+		200001,
+		200002,
+		200003,
+		200004,
+		200005,
+		200006,
+		200007,
+		200008,
+		200009,
+		200010,
+		200011,
+		200012,
+		200013,
+		200014,
+		200015,
+		200016,
+		200017,
+		200018,
+		200019,
+		200020,
+		200021,
+		200022,
+		200023,
+		300001,
+		300002,
+		300003,
+		300004,
+		300005,
+		300006
+	}
+}
+pg.island_item_data_template.get_id_list_by_type = {
+	{
+		10,
+		14,
+		1000,
+		1001,
+		1002,
+		1003,
+		1004,
+		1005,
+		1006,
+		1007,
+		1008,
+		1009,
+		1010,
+		1011,
+		1012,
+		1014,
+		1015,
+		1016,
+		1017,
+		1018,
+		1019,
+		1020,
+		1021,
+		1022,
+		1101,
+		1102,
+		1103,
+		1104,
+		1105,
+		1106,
+		1107,
+		1108,
+		1201,
+		1202,
+		1203,
+		1204,
+		1205,
+		1206,
+		1207,
+		1208,
+		2000,
+		2001,
+		2002,
+		2003,
+		2004,
+		2005,
+		2006,
+		2007,
+		2008,
+		2009,
+		2010,
+		2011,
+		2012,
+		2014,
+		2015,
+		2016,
+		2017,
+		2018,
+		2019,
+		2020,
+		2021,
+		2022,
+		2521,
+		2522,
+		2600,
+		2601,
+		2602,
+		2603,
+		2604,
+		2605,
+		2606,
+		2700,
+		2701,
+		2702,
+		2703,
+		2704,
+		2705,
+		2800,
+		2801,
+		2802,
+		2803,
+		3000,
+		3001,
+		3002,
+		3003,
+		3004,
+		3005,
+		3006,
+		3007,
+		3008,
+		3009,
+		3010,
+		3011,
+		3012,
+		3013,
+		3014,
+		3015,
+		3017,
+		3018,
+		3019,
+		3020,
+		3021,
+		3022,
+		3023,
+		3024,
+		3025,
+		3026,
+		3028,
+		3029,
+		3030,
+		3032,
+		3033,
+		3034,
+		3035,
+		3036,
+		3037,
+		3038,
+		3039,
+		3040,
+		3041,
+		3042,
+		3043,
+		3044,
+		3045,
+		3046,
+		3047,
+		3048,
+		3049,
+		3050,
+		3051,
+		3052,
+		3053,
+		3054,
+		3055,
+		3056,
+		3059,
+		3101,
+		3102,
+		3103,
+		3104,
+		3105,
+		3106,
+		3107,
+		3108,
+		3109,
+		3110,
+		3111,
+		3112,
+		3113,
+		3114,
+		3115,
+		3116,
+		3117,
+		3118,
+		3119,
+		3120,
+		4001,
+		4002,
+		4003,
+		4004,
+		4005,
+		4006,
+		4007,
+		4008,
+		4009,
+		4010,
+		4011,
+		4012,
+		4013,
+		4014,
+		4015,
+		4016,
+		4017,
+		4018,
+		4019,
+		4020,
+		4021,
+		4022,
+		4023,
+		4024,
+		4025,
+		4026,
+		4027,
+		4028,
+		5001,
+		5002,
+		5003,
+		5004,
+		5005,
+		5006,
+		5007,
+		5008,
+		5101,
+		5102,
+		5103,
+		5104,
+		5105,
+		5106,
+		5107,
+		5108,
+		9900
+	},
+	{
+		3,
+		4,
+		100011,
+		100012,
+		100013,
+		100021,
+		100022,
+		100023,
+		100031,
+		100032,
+		100033,
+		100041,
+		100042,
+		100043,
+		100051,
+		100052,
+		100053,
+		100061,
+		100062,
+		100063,
+		100101,
+		100102,
+		100103,
+		100201,
 		110001,
 		110002,
 		110003,
@@ -853,11 +831,36 @@ pg.island_item_data_template = setmetatable({
 		300004,
 		300005,
 		300006
-	}
-}, confHX)
-pg.base = pg.base or {}
-pg.base.island_item_data_template = {
+	},
 	{
+		1,
+		5,
+		6,
+		7,
+		8,
+		9,
+		11,
+		12,
+		13,
+		1500,
+		1501,
+		1502,
+		1503
+	},
+	{
+		2
+	},
+	{
+		100001,
+		100002,
+		100003
+	}
+}
+pg.base = pg.base or {}
+pg.base.island_item_data_template = {}
+
+;(function()
+	pg.base.island_item_data_template[1] = {
 		pt_num = 0,
 		name = "开发资金",
 		group_max = 0,
@@ -891,8 +894,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_item_data_template[2] = {
 		pt_num = 0,
 		name = "开发经验",
 		group_max = 0,
@@ -926,8 +929,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_item_data_template[3] = {
 		pt_num = 0,
 		name = "装扮染色盘",
 		group_max = 0,
@@ -961,8 +964,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_item_data_template[4] = {
 		pt_num = 0,
 		name = "搭建凭证",
 		group_max = 0,
@@ -987,8 +990,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[5] = {
 		pt_num = 0,
 		name = "地图残片-1",
 		group_max = 0,
@@ -1013,8 +1016,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[6] = {
 		pt_num = 0,
 		name = "地图残片-2",
 		group_max = 0,
@@ -1039,8 +1042,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[7] = {
 		pt_num = 0,
 		name = "地图残片-3",
 		group_max = 0,
@@ -1065,8 +1068,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[8] = {
 		pt_num = 0,
 		name = "地图残片-4",
 		group_max = 0,
@@ -1091,8 +1094,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[9] = {
 		pt_num = 0,
 		name = "地图残片-5",
 		group_max = 0,
@@ -1117,8 +1120,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[10] = {
 		pt_num = 1,
 		name = "岛屿PT兑换券",
 		group_max = 0,
@@ -1143,8 +1146,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[11] = {
 		pt_num = 0,
 		name = "领洋者-娜比娅（特殊）",
 		group_max = 0,
@@ -1167,8 +1170,8 @@ pg.base.island_item_data_template = {
 		filter = {},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[12] = {
 		pt_num = 0,
 		name = "领航员-TB（特殊）",
 		group_max = 0,
@@ -1191,8 +1194,8 @@ pg.base.island_item_data_template = {
 		filter = {},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[13] = {
 		pt_num = 0,
 		name = "探索者-艾普洛（特殊）",
 		group_max = 0,
@@ -1215,8 +1218,8 @@ pg.base.island_item_data_template = {
 		filter = {},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[14] = {
 		pt_num = 0,
 		name = "岛屿开发PT",
 		group_max = 0,
@@ -1241,8 +1244,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[1000] = {
+	}
+	pg.base.island_item_data_template[1000] = {
 		pt_num = 1,
 		name = "小麦种子",
 		group_max = 0,
@@ -1285,8 +1288,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1001] = {
+	}
+	pg.base.island_item_data_template[1001] = {
 		pt_num = 1,
 		name = "玉米种子",
 		group_max = 0,
@@ -1329,8 +1332,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1002] = {
+	}
+	pg.base.island_item_data_template[1002] = {
 		pt_num = 1,
 		name = "旱稻种子",
 		group_max = 0,
@@ -1373,8 +1376,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1003] = {
+	}
+	pg.base.island_item_data_template[1003] = {
 		pt_num = 1,
 		name = "白菜种子",
 		group_max = 0,
@@ -1417,8 +1420,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1004] = {
+	}
+	pg.base.island_item_data_template[1004] = {
 		pt_num = 1,
 		name = "胡萝卜种子",
 		group_max = 0,
@@ -1461,8 +1464,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1005] = {
+	}
+	pg.base.island_item_data_template[1005] = {
 		pt_num = 1,
 		name = "土豆种子",
 		group_max = 0,
@@ -1505,8 +1508,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1006] = {
+	}
+	pg.base.island_item_data_template[1006] = {
 		pt_num = 1,
 		name = "大豆种子",
 		group_max = 0,
@@ -1549,8 +1552,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1007] = {
+	}
+	pg.base.island_item_data_template[1007] = {
 		pt_num = 1,
 		name = "洋葱种子",
 		group_max = 0,
@@ -1593,8 +1596,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1008] = {
+	}
+	pg.base.island_item_data_template[1008] = {
 		pt_num = 1,
 		name = "牧草种子",
 		group_max = 0,
@@ -1637,8 +1640,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1009] = {
+	}
+	pg.base.island_item_data_template[1009] = {
 		pt_num = 1,
 		name = "咖啡树种",
 		group_max = 0,
@@ -1681,8 +1684,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1010] = {
+	}
+	pg.base.island_item_data_template[1010] = {
 		pt_num = 1,
 		name = "亚麻种子",
 		group_max = 0,
@@ -1725,8 +1728,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1011] = {
+	}
+	pg.base.island_item_data_template[1011] = {
 		pt_num = 1,
 		name = "草莓种子",
 		group_max = 0,
@@ -1769,8 +1772,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1012] = {
+	}
+	pg.base.island_item_data_template[1012] = {
 		pt_num = 1,
 		name = "棉花种子",
 		group_max = 0,
@@ -1813,8 +1816,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1014] = {
+	}
+	pg.base.island_item_data_template[1014] = {
 		pt_num = 1,
 		name = "茶树种子",
 		group_max = 0,
@@ -1857,8 +1860,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1015] = {
+	}
+	pg.base.island_item_data_template[1015] = {
 		pt_num = 1,
 		name = "薰衣草种子",
 		group_max = 0,
@@ -1901,8 +1904,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1016] = {
+	}
+	pg.base.island_item_data_template[1016] = {
 		pt_num = 1,
 		name = "苹果树种",
 		group_max = 0,
@@ -1945,8 +1948,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1017] = {
+	}
+	pg.base.island_item_data_template[1017] = {
 		pt_num = 1,
 		name = "柑橘树种",
 		group_max = 0,
@@ -1989,8 +1992,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1018] = {
+	}
+	pg.base.island_item_data_template[1018] = {
 		pt_num = 1,
 		name = "香蕉树种",
 		group_max = 0,
@@ -2033,8 +2036,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1019] = {
+	}
+	pg.base.island_item_data_template[1019] = {
 		pt_num = 1,
 		name = "芒果树种",
 		group_max = 0,
@@ -2077,8 +2080,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1020] = {
+	}
+	pg.base.island_item_data_template[1020] = {
 		pt_num = 1,
 		name = "柠檬树种",
 		group_max = 0,
@@ -2121,8 +2124,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1021] = {
+	}
+	pg.base.island_item_data_template[1021] = {
 		pt_num = 1,
 		name = "牛油果树种",
 		group_max = 0,
@@ -2165,8 +2168,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1022] = {
+	}
+	pg.base.island_item_data_template[1022] = {
 		pt_num = 1,
 		name = "橡胶树种",
 		group_max = 0,
@@ -2209,8 +2212,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1101] = {
+	}
+	pg.base.island_item_data_template[1101] = {
 		pt_num = 1,
 		name = "贝苗",
 		group_max = 0,
@@ -2253,8 +2256,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1102] = {
+	}
+	pg.base.island_item_data_template[1102] = {
 		pt_num = 1,
 		name = "鲶鱼苗",
 		group_max = 0,
@@ -2297,8 +2300,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1103] = {
+	}
+	pg.base.island_item_data_template[1103] = {
 		pt_num = 1,
 		name = "鲤鱼苗",
 		group_max = 0,
@@ -2341,8 +2344,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1104] = {
+	}
+	pg.base.island_item_data_template[1104] = {
 		pt_num = 1,
 		name = "鲫鱼苗",
 		group_max = 0,
@@ -2385,8 +2388,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1105] = {
+	}
+	pg.base.island_item_data_template[1105] = {
 		pt_num = 1,
 		name = "小河虾苗",
 		group_max = 0,
@@ -2429,8 +2432,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1106] = {
+	}
+	pg.base.island_item_data_template[1106] = {
 		pt_num = 1,
 		name = "小龙虾苗",
 		group_max = 0,
@@ -2473,8 +2476,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1107] = {
+	}
+	pg.base.island_item_data_template[1107] = {
 		pt_num = 1,
 		name = "鲈鱼苗",
 		group_max = 0,
@@ -2517,8 +2520,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1108] = {
+	}
+	pg.base.island_item_data_template[1108] = {
 		pt_num = 1,
 		name = "蟹苗",
 		group_max = 0,
@@ -2561,8 +2564,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1201] = {
+	}
+	pg.base.island_item_data_template[1201] = {
 		pt_num = 1,
 		name = "鱿鱼苗",
 		group_max = 0,
@@ -2605,8 +2608,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1202] = {
+	}
+	pg.base.island_item_data_template[1202] = {
 		pt_num = 1,
 		name = "马鲛鱼苗",
 		group_max = 0,
@@ -2649,8 +2652,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1203] = {
+	}
+	pg.base.island_item_data_template[1203] = {
 		pt_num = 1,
 		name = "金枪鱼苗",
 		group_max = 0,
@@ -2693,8 +2696,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1204] = {
+	}
+	pg.base.island_item_data_template[1204] = {
 		pt_num = 1,
 		name = "三文鱼苗",
 		group_max = 0,
@@ -2737,8 +2740,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1205] = {
+	}
+	pg.base.island_item_data_template[1205] = {
 		pt_num = 1,
 		name = "红鲷鱼苗",
 		group_max = 0,
@@ -2781,8 +2784,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1206] = {
+	}
+	pg.base.island_item_data_template[1206] = {
 		pt_num = 1,
 		name = "黑鲷鱼苗",
 		group_max = 0,
@@ -2825,8 +2828,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1207] = {
+	}
+	pg.base.island_item_data_template[1207] = {
 		pt_num = 1,
 		name = "黄鳍金枪鱼苗",
 		group_max = 0,
@@ -2869,8 +2872,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1208] = {
+	}
+	pg.base.island_item_data_template[1208] = {
 		pt_num = 1,
 		name = "海参苗",
 		group_max = 0,
@@ -2913,8 +2916,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1500] = {
+	}
+	pg.base.island_item_data_template[1500] = {
 		pt_num = 0,
 		name = "蚯蚓",
 		group_max = 0,
@@ -2944,8 +2947,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[1501] = {
+	}
+	pg.base.island_item_data_template[1501] = {
 		pt_num = 0,
 		name = "玉米粒",
 		group_max = 0,
@@ -2970,8 +2973,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[1502] = {
+	}
+	pg.base.island_item_data_template[1502] = {
 		pt_num = 0,
 		name = "虾仁",
 		group_max = 0,
@@ -3001,8 +3004,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[1503] = {
+	}
+	pg.base.island_item_data_template[1503] = {
 		pt_num = 0,
 		name = "章鱼须",
 		group_max = 0,
@@ -3032,8 +3035,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2000] = {
+	}
+	pg.base.island_item_data_template[2000] = {
 		pt_num = 1,
 		name = "小麦",
 		group_max = 0,
@@ -3064,8 +3067,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2001] = {
+	}
+	pg.base.island_item_data_template[2001] = {
 		pt_num = 1,
 		name = "玉米",
 		group_max = 0,
@@ -3096,8 +3099,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2002] = {
+	}
+	pg.base.island_item_data_template[2002] = {
 		pt_num = 1,
 		name = "大米",
 		group_max = 0,
@@ -3128,8 +3131,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2003] = {
+	}
+	pg.base.island_item_data_template[2003] = {
 		pt_num = 1,
 		name = "白菜",
 		group_max = 0,
@@ -3160,8 +3163,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2004] = {
+	}
+	pg.base.island_item_data_template[2004] = {
 		pt_num = 1,
 		name = "胡萝卜",
 		group_max = 0,
@@ -3192,8 +3195,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2005] = {
+	}
+	pg.base.island_item_data_template[2005] = {
 		pt_num = 1,
 		name = "土豆",
 		group_max = 0,
@@ -3224,8 +3227,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2006] = {
+	}
+	pg.base.island_item_data_template[2006] = {
 		pt_num = 1,
 		name = "大豆",
 		group_max = 0,
@@ -3256,8 +3259,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2007] = {
+	}
+	pg.base.island_item_data_template[2007] = {
 		pt_num = 24,
 		name = "洋葱",
 		group_max = 0,
@@ -3288,8 +3291,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2008] = {
+	}
+	pg.base.island_item_data_template[2008] = {
 		pt_num = 1,
 		name = "牧草",
 		group_max = 0,
@@ -3320,8 +3323,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2009] = {
+	}
+	pg.base.island_item_data_template[2009] = {
 		pt_num = 6,
 		name = "咖啡豆",
 		group_max = 0,
@@ -3352,8 +3355,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2010] = {
+	}
+	pg.base.island_item_data_template[2010] = {
 		pt_num = 6,
 		name = "亚麻",
 		group_max = 0,
@@ -3384,8 +3387,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2011] = {
+	}
+	pg.base.island_item_data_template[2011] = {
 		pt_num = 5,
 		name = "草莓",
 		group_max = 0,
@@ -3416,8 +3419,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2012] = {
+	}
+	pg.base.island_item_data_template[2012] = {
 		pt_num = 6,
 		name = "棉花",
 		group_max = 0,
@@ -3448,8 +3451,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2014] = {
+	}
+	pg.base.island_item_data_template[2014] = {
 		pt_num = 14,
 		name = "茶叶",
 		group_max = 0,
@@ -3480,8 +3483,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2015] = {
+	}
+	pg.base.island_item_data_template[2015] = {
 		pt_num = 35,
 		name = "薰衣草",
 		group_max = 0,
@@ -3512,8 +3515,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2016] = {
+	}
+	pg.base.island_item_data_template[2016] = {
 		pt_num = 1,
 		name = "苹果",
 		group_max = 0,
@@ -3544,8 +3547,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2017] = {
+	}
+	pg.base.island_item_data_template[2017] = {
 		pt_num = 1,
 		name = "柑橘",
 		group_max = 0,
@@ -3576,8 +3579,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2018] = {
+	}
+	pg.base.island_item_data_template[2018] = {
 		pt_num = 1,
 		name = "香蕉",
 		group_max = 0,
@@ -3608,8 +3611,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2019] = {
+	}
+	pg.base.island_item_data_template[2019] = {
 		pt_num = 18,
 		name = "芒果",
 		group_max = 0,
@@ -3640,8 +3643,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2020] = {
+	}
+	pg.base.island_item_data_template[2020] = {
 		pt_num = 3,
 		name = "柠檬",
 		group_max = 0,
@@ -3672,8 +3675,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2021] = {
+	}
+	pg.base.island_item_data_template[2021] = {
 		pt_num = 45,
 		name = "牛油果",
 		group_max = 0,
@@ -3704,8 +3707,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2022] = {
+	}
+	pg.base.island_item_data_template[2022] = {
 		pt_num = 30,
 		name = "橡胶",
 		group_max = 0,
@@ -3736,8 +3739,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2521] = {
+	}
+	pg.base.island_item_data_template[2521] = {
 		pt_num = 18,
 		name = "淡水鱼肉",
 		group_max = 0,
@@ -3768,8 +3771,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2522] = {
+	}
+	pg.base.island_item_data_template[2522] = {
 		pt_num = 48,
 		name = "海水鱼肉",
 		group_max = 0,
@@ -3800,8 +3803,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2600] = {
+	}
+	pg.base.island_item_data_template[2600] = {
 		pt_num = 2,
 		name = "鲜肉",
 		group_max = 0,
@@ -3832,8 +3835,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2601] = {
+	}
+	pg.base.island_item_data_template[2601] = {
 		pt_num = 1,
 		name = "鸡蛋",
 		group_max = 0,
@@ -3864,8 +3867,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2602] = {
+	}
+	pg.base.island_item_data_template[2602] = {
 		pt_num = 1,
 		name = "禽肉",
 		group_max = 0,
@@ -3896,8 +3899,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2603] = {
+	}
+	pg.base.island_item_data_template[2603] = {
 		pt_num = 1,
 		name = "牛奶",
 		group_max = 0,
@@ -3928,8 +3931,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2604] = {
+	}
+	pg.base.island_item_data_template[2604] = {
 		pt_num = 10,
 		name = "皮料",
 		group_max = 0,
@@ -3960,8 +3963,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2605] = {
+	}
+	pg.base.island_item_data_template[2605] = {
 		pt_num = 72,
 		name = "羊毛",
 		group_max = 0,
@@ -3992,8 +3995,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2606] = {
+	}
+	pg.base.island_item_data_template[2606] = {
 		pt_num = 2,
 		name = "新鲜蜂蜜",
 		group_max = 0,
@@ -4024,8 +4027,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2700] = {
+	}
+	pg.base.island_item_data_template[2700] = {
 		pt_num = 1,
 		name = "煤炭",
 		group_max = 0,
@@ -4056,8 +4059,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2701] = {
+	}
+	pg.base.island_item_data_template[2701] = {
 		pt_num = 1,
 		name = "铜矿",
 		group_max = 0,
@@ -4088,8 +4091,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2702] = {
+	}
+	pg.base.island_item_data_template[2702] = {
 		pt_num = 30,
 		name = "铝矿",
 		group_max = 0,
@@ -4120,8 +4123,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2703] = {
+	}
+	pg.base.island_item_data_template[2703] = {
 		pt_num = 18,
 		name = "铁矿",
 		group_max = 0,
@@ -4152,8 +4155,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2704] = {
+	}
+	pg.base.island_item_data_template[2704] = {
 		pt_num = 80,
 		name = "硫矿",
 		group_max = 0,
@@ -4184,8 +4187,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2705] = {
+	}
+	pg.base.island_item_data_template[2705] = {
 		pt_num = 240,
 		name = "银矿",
 		group_max = 0,
@@ -4216,8 +4219,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2800] = {
+	}
+	pg.base.island_item_data_template[2800] = {
 		pt_num = 1,
 		name = "自然之木",
 		group_max = 0,
@@ -4248,8 +4251,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2801] = {
+	}
+	pg.base.island_item_data_template[2801] = {
 		pt_num = 1,
 		name = "实用之木",
 		group_max = 0,
@@ -4280,8 +4283,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2802] = {
+	}
+	pg.base.island_item_data_template[2802] = {
 		pt_num = 36,
 		name = "精选之木",
 		group_max = 0,
@@ -4312,8 +4315,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2803] = {
+	}
+	pg.base.island_item_data_template[2803] = {
 		pt_num = 180,
 		name = "典雅之木",
 		group_max = 0,
@@ -4344,8 +4347,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3000] = {
+	}
+	pg.base.island_item_data_template[3000] = {
 		pt_num = 3,
 		name = "咯咯鸡饲料",
 		group_max = 0,
@@ -4388,8 +4391,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[3001] = {
+	}
+	pg.base.island_item_data_template[3001] = {
 		pt_num = 3,
 		name = "哼哼猪饲料",
 		group_max = 0,
@@ -4432,8 +4435,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[3002] = {
+	}
+	pg.base.island_item_data_template[3002] = {
 		pt_num = 4,
 		name = "哞哞牛饲料",
 		group_max = 0,
@@ -4476,8 +4479,10 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[3003] = {
+	}
+end)()
+;(function()
+	pg.base.island_item_data_template[3003] = {
 		pt_num = 4,
 		name = "咩咩羊饲料",
 		group_max = 0,
@@ -4520,8 +4525,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[3004] = {
+	}
+	pg.base.island_item_data_template[3004] = {
 		pt_num = 6,
 		name = "面粉",
 		group_max = 0,
@@ -4552,8 +4557,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3005] = {
+	}
+	pg.base.island_item_data_template[3005] = {
 		pt_num = 15,
 		name = "冰咖啡",
 		group_max = 0,
@@ -4587,8 +4592,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3006] = {
+	}
+	pg.base.island_item_data_template[3006] = {
 		pt_num = 55,
 		name = "芝士",
 		group_max = 0,
@@ -4622,8 +4627,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3007] = {
+	}
+	pg.base.island_item_data_template[3007] = {
 		pt_num = 25,
 		name = "拿铁",
 		group_max = 0,
@@ -4657,8 +4662,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3008] = {
+	}
+	pg.base.island_item_data_template[3008] = {
 		pt_num = 25,
 		name = "柑橘咖啡",
 		group_max = 0,
@@ -4692,8 +4697,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3009] = {
+	}
+	pg.base.island_item_data_template[3009] = {
 		pt_num = 35,
 		name = "苹果派",
 		group_max = 0,
@@ -4727,8 +4732,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3010] = {
+	}
+	pg.base.island_item_data_template[3010] = {
 		pt_num = 60,
 		name = "草莓奶绿",
 		group_max = 0,
@@ -4762,8 +4767,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3011] = {
+	}
+	pg.base.island_item_data_template[3011] = {
 		pt_num = 35,
 		name = "豆腐",
 		group_max = 0,
@@ -4797,8 +4802,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3012] = {
+	}
+	pg.base.island_item_data_template[3012] = {
 		pt_num = 155,
 		name = "肉末烧豆腐",
 		group_max = 0,
@@ -4832,8 +4837,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3013] = {
+	}
+	pg.base.island_item_data_template[3013] = {
 		pt_num = 35,
 		name = "蛋包饭",
 		group_max = 0,
@@ -4867,8 +4872,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3014] = {
+	}
+	pg.base.island_item_data_template[3014] = {
 		pt_num = 65,
 		name = "白菜豆腐汤",
 		group_max = 0,
@@ -4902,8 +4907,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3015] = {
+	}
+	pg.base.island_item_data_template[3015] = {
 		pt_num = 10,
 		name = "蔬菜沙拉",
 		group_max = 0,
@@ -4937,8 +4942,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3017] = {
+	}
+	pg.base.island_item_data_template[3017] = {
 		pt_num = 10,
 		name = "苹果汁",
 		group_max = 0,
@@ -4972,8 +4977,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3018] = {
+	}
+	pg.base.island_item_data_template[3018] = {
 		pt_num = 25,
 		name = "香蕉芒果汁",
 		group_max = 0,
@@ -5007,8 +5012,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3019] = {
+	}
+	pg.base.island_item_data_template[3019] = {
 		pt_num = 15,
 		name = "蜂蜜柠檬水",
 		group_max = 0,
@@ -5042,8 +5047,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3020] = {
+	}
+	pg.base.island_item_data_template[3020] = {
 		pt_num = 50,
 		name = "草莓蜜沁",
 		group_max = 0,
@@ -5077,8 +5082,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3021] = {
+	}
+	pg.base.island_item_data_template[3021] = {
 		pt_num = 240,
 		name = "薰衣草茶",
 		group_max = 0,
@@ -5112,8 +5117,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3022] = {
+	}
+	pg.base.island_item_data_template[3022] = {
 		pt_num = 95,
 		name = "草莓蜂蜜冰沙",
 		group_max = 0,
@@ -5147,8 +5152,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3023] = {
+	}
+	pg.base.island_item_data_template[3023] = {
 		pt_num = 7,
 		name = "玉米杯",
 		group_max = 0,
@@ -5182,8 +5187,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3024] = {
+	}
+	pg.base.island_item_data_template[3024] = {
 		pt_num = 35,
 		name = "香橙派",
 		group_max = 0,
@@ -5217,8 +5222,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3025] = {
+	}
+	pg.base.island_item_data_template[3025] = {
 		pt_num = 60,
 		name = "芒果糯米饭",
 		group_max = 0,
@@ -5252,8 +5257,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3026] = {
+	}
+	pg.base.island_item_data_template[3026] = {
 		pt_num = 30,
 		name = "香蕉可丽饼",
 		group_max = 0,
@@ -5287,8 +5292,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3028] = {
+	}
+	pg.base.island_item_data_template[3028] = {
 		pt_num = 200,
 		name = "草莓夏洛特",
 		group_max = 0,
@@ -5322,8 +5327,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3029] = {
+	}
+	pg.base.island_item_data_template[3029] = {
 		pt_num = 40,
 		name = "炭烤肉串",
 		group_max = 0,
@@ -5357,8 +5362,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3030] = {
+	}
+	pg.base.island_item_data_template[3030] = {
 		pt_num = 36,
 		name = "禽肉土豆拼盘",
 		group_max = 0,
@@ -5392,8 +5397,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3032] = {
+	}
+	pg.base.island_item_data_template[3032] = {
 		pt_num = 70,
 		name = "爆炒禽肉",
 		group_max = 0,
@@ -5427,8 +5432,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3033] = {
+	}
+	pg.base.island_item_data_template[3033] = {
 		pt_num = 16,
 		name = "胡萝卜厚蛋烧",
 		group_max = 0,
@@ -5462,8 +5467,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3034] = {
+	}
+	pg.base.island_item_data_template[3034] = {
 		pt_num = 100,
 		name = "汉堡肉饭",
 		group_max = 0,
@@ -5497,8 +5502,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3035] = {
+	}
+	pg.base.island_item_data_template[3035] = {
 		pt_num = 34,
 		name = "布料",
 		group_max = 0,
@@ -5529,8 +5534,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3036] = {
+	}
+	pg.base.island_item_data_template[3036] = {
 		pt_num = 60,
 		name = "皮革",
 		group_max = 0,
@@ -5561,8 +5566,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3037] = {
+	}
+	pg.base.island_item_data_template[3037] = {
 		pt_num = 72,
 		name = "绳索",
 		group_max = 0,
@@ -5593,8 +5598,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3038] = {
+	}
+	pg.base.island_item_data_template[3038] = {
 		pt_num = 105,
 		name = "手套",
 		group_max = 0,
@@ -5625,8 +5630,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3039] = {
+	}
+	pg.base.island_item_data_template[3039] = {
 		pt_num = 130,
 		name = "香囊",
 		group_max = 0,
@@ -5657,8 +5662,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3040] = {
+	}
+	pg.base.island_item_data_template[3040] = {
 		pt_num = 350,
 		name = "鞋靴",
 		group_max = 0,
@@ -5689,8 +5694,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3041] = {
+	}
+	pg.base.island_item_data_template[3041] = {
 		pt_num = 350,
 		name = "绷带",
 		group_max = 0,
@@ -5721,8 +5726,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3042] = {
+	}
+	pg.base.island_item_data_template[3042] = {
 		pt_num = 30,
 		name = "炭笔",
 		group_max = 0,
@@ -5753,8 +5758,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3043] = {
+	}
+	pg.base.island_item_data_template[3043] = {
 		pt_num = 92,
 		name = "电缆",
 		group_max = 0,
@@ -5785,8 +5790,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3044] = {
+	}
+	pg.base.island_item_data_template[3044] = {
 		pt_num = 66,
 		name = "铁钉",
 		group_max = 0,
@@ -5817,8 +5822,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3045] = {
+	}
+	pg.base.island_item_data_template[3045] = {
 		pt_num = 84,
 		name = "硫酸",
 		group_max = 0,
@@ -5849,8 +5854,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3046] = {
+	}
+	pg.base.island_item_data_template[3046] = {
 		pt_num = 150,
 		name = "火药",
 		group_max = 0,
@@ -5881,8 +5886,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3047] = {
+	}
+	pg.base.island_item_data_template[3047] = {
 		pt_num = 380,
 		name = "刀叉餐具",
 		group_max = 0,
@@ -5913,8 +5918,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3048] = {
+	}
+	pg.base.island_item_data_template[3048] = {
 		pt_num = 6,
 		name = "纸张",
 		group_max = 0,
@@ -5945,8 +5950,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3049] = {
+	}
+	pg.base.island_item_data_template[3049] = {
 		pt_num = 120,
 		name = "记事本",
 		group_max = 0,
@@ -5977,8 +5982,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3050] = {
+	}
+	pg.base.island_item_data_template[3050] = {
 		pt_num = 80,
 		name = "桌椅",
 		group_max = 0,
@@ -6009,8 +6014,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3051] = {
+	}
+	pg.base.island_item_data_template[3051] = {
 		pt_num = 190,
 		name = "精选木桶",
 		group_max = 0,
@@ -6041,8 +6046,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3052] = {
+	}
+	pg.base.island_item_data_template[3052] = {
 		pt_num = 430,
 		name = "文件柜",
 		group_max = 0,
@@ -6073,8 +6078,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3053] = {
+	}
+	pg.base.island_item_data_template[3053] = {
 		pt_num = 55,
 		name = "墨盒",
 		group_max = 0,
@@ -6105,8 +6110,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3054] = {
+	}
+	pg.base.island_item_data_template[3054] = {
 		pt_num = 310,
 		name = "钟表",
 		group_max = 0,
@@ -6137,8 +6142,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3055] = {
+	}
+	pg.base.island_item_data_template[3055] = {
 		pt_num = 210,
 		name = "蓄电池",
 		group_max = 0,
@@ -6169,8 +6174,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3056] = {
+	}
+	pg.base.island_item_data_template[3056] = {
 		pt_num = 360,
 		name = "净水滤芯",
 		group_max = 0,
@@ -6201,8 +6206,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3059] = {
+	}
+	pg.base.island_item_data_template[3059] = {
 		pt_num = 2,
 		name = "欧姆蛋",
 		group_max = 0,
@@ -6236,8 +6241,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3101] = {
+	}
+	pg.base.island_item_data_template[3101] = {
 		pt_num = 230,
 		name = "经典豆腐套餐",
 		group_max = 0,
@@ -6271,8 +6276,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3102] = {
+	}
+	pg.base.island_item_data_template[3102] = {
 		pt_num = 100,
 		name = "绵玉定食",
 		group_max = 0,
@@ -6306,8 +6311,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3103] = {
+	}
+	pg.base.island_item_data_template[3103] = {
 		pt_num = 250,
 		name = "花香果韵",
 		group_max = 0,
@@ -6341,8 +6346,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3104] = {
+	}
+	pg.base.island_item_data_template[3104] = {
 		pt_num = 120,
 		name = "缤纷果乐园",
 		group_max = 0,
@@ -6376,8 +6381,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3105] = {
+	}
+	pg.base.island_item_data_template[3105] = {
 		pt_num = 70,
 		name = "阳光蜜水",
 		group_max = 0,
@@ -6411,8 +6416,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3106] = {
+	}
+	pg.base.island_item_data_template[3106] = {
 		pt_num = 70,
 		name = "香甜组合",
 		group_max = 0,
@@ -6446,8 +6451,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3107] = {
+	}
+	pg.base.island_item_data_template[3107] = {
 		pt_num = 70,
 		name = "果园二重奏",
 		group_max = 0,
@@ -6481,8 +6486,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3108] = {
+	}
+	pg.base.island_item_data_template[3108] = {
 		pt_num = 260,
 		name = "莓果香橙甜点组",
 		group_max = 0,
@@ -6516,8 +6521,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3109] = {
+	}
+	pg.base.island_item_data_template[3109] = {
 		pt_num = 90,
 		name = "烤肉狂欢",
 		group_max = 0,
@@ -6551,8 +6556,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3110] = {
+	}
+	pg.base.island_item_data_template[3110] = {
 		pt_num = 210,
 		name = "能量双拼套餐",
 		group_max = 0,
@@ -6586,8 +6591,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3111] = {
+	}
+	pg.base.island_item_data_template[3111] = {
 		pt_num = 36,
 		name = "晨光活力组合",
 		group_max = 0,
@@ -6621,8 +6626,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3112] = {
+	}
+	pg.base.island_item_data_template[3112] = {
 		pt_num = 80,
 		name = "醒神套餐",
 		group_max = 0,
@@ -6656,8 +6661,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3113] = {
+	}
+	pg.base.island_item_data_template[3113] = {
 		pt_num = 90,
 		name = "果香双杯乐",
 		group_max = 0,
@@ -6691,8 +6696,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3114] = {
+	}
+	pg.base.island_item_data_template[3114] = {
 		pt_num = 30,
 		name = "炸鱼薯条",
 		group_max = 0,
@@ -6726,8 +6731,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3115] = {
+	}
+	pg.base.island_item_data_template[3115] = {
 		pt_num = 60,
 		name = "柠檬虾",
 		group_max = 0,
@@ -6761,8 +6766,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3116] = {
+	}
+	pg.base.island_item_data_template[3116] = {
 		pt_num = 57,
 		name = "洋葱蒸鱼",
 		group_max = 0,
@@ -6796,8 +6801,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3117] = {
+	}
+	pg.base.island_item_data_template[3117] = {
 		pt_num = 82,
 		name = "装饰画",
 		group_max = 0,
@@ -6828,8 +6833,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3118] = {
+	}
+	pg.base.island_item_data_template[3118] = {
 		pt_num = 187,
 		name = "海鲜饭",
 		group_max = 0,
@@ -6863,8 +6868,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3119] = {
+	}
+	pg.base.island_item_data_template[3119] = {
 		pt_num = 152,
 		name = "爆炒小龙虾",
 		group_max = 0,
@@ -6898,8 +6903,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3120] = {
+	}
+	pg.base.island_item_data_template[3120] = {
 		pt_num = 381,
 		name = "佛跳墙",
 		group_max = 0,
@@ -6933,8 +6938,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4001] = {
+	}
+	pg.base.island_item_data_template[4001] = {
 		pt_num = 40,
 		name = "秋菊",
 		group_max = 0,
@@ -6964,8 +6969,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4002] = {
+	}
+	pg.base.island_item_data_template[4002] = {
 		pt_num = 2,
 		name = "芦苇花",
 		group_max = 0,
@@ -6995,8 +7000,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4003] = {
+	}
+	pg.base.island_item_data_template[4003] = {
 		pt_num = 1,
 		name = "花生",
 		group_max = 0,
@@ -7026,8 +7031,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4004] = {
+	}
+	pg.base.island_item_data_template[4004] = {
 		pt_num = 95,
 		name = "松茸",
 		group_max = 0,
@@ -7057,8 +7062,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4005] = {
+	}
+	pg.base.island_item_data_template[4005] = {
 		pt_num = 5,
 		name = "秋月梨",
 		group_max = 0,
@@ -7089,8 +7094,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4006] = {
+	}
+	pg.base.island_item_data_template[4006] = {
 		pt_num = 1,
 		name = "秋月梨树种",
 		group_max = 0,
@@ -7132,8 +7137,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[4007] = {
+	}
+	pg.base.island_item_data_template[4007] = {
 		pt_num = 24,
 		name = "柿子",
 		group_max = 0,
@@ -7164,8 +7169,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4008] = {
+	}
+	pg.base.island_item_data_template[4008] = {
 		pt_num = 1,
 		name = "柿子树种",
 		group_max = 0,
@@ -7207,8 +7212,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[4009] = {
+	}
+	pg.base.island_item_data_template[4009] = {
 		pt_num = 25,
 		name = "柿子饼",
 		group_max = 0,
@@ -7242,8 +7247,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4010] = {
+	}
+	pg.base.island_item_data_template[4010] = {
 		pt_num = 135,
 		name = "松茸鸡汤",
 		group_max = 0,
@@ -7277,8 +7282,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4011] = {
+	}
+	pg.base.island_item_data_template[4011] = {
 		pt_num = 70,
 		name = "秋季花束",
 		group_max = 0,
@@ -7312,8 +7317,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4012] = {
+	}
+	pg.base.island_item_data_template[4012] = {
 		pt_num = 100,
 		name = "花生油",
 		group_max = 0,
@@ -7347,8 +7352,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4013] = {
+	}
+	pg.base.island_item_data_template[4013] = {
 		pt_num = 20,
 		name = "胡萝卜秋梨汁",
 		group_max = 0,
@@ -7382,8 +7387,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4014] = {
+	}
+	pg.base.island_item_data_template[4014] = {
 		pt_num = 100,
 		name = "菊花茶",
 		group_max = 0,
@@ -7417,8 +7422,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4015] = {
+	}
+	pg.base.island_item_data_template[4015] = {
 		pt_num = 75,
 		name = "春笋",
 		group_max = 0,
@@ -7448,8 +7453,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4016] = {
+	}
+	pg.base.island_item_data_template[4016] = {
 		pt_num = 2,
 		name = "荠菜",
 		group_max = 0,
@@ -7479,8 +7484,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4017] = {
+	}
+	pg.base.island_item_data_template[4017] = {
 		pt_num = 18,
 		name = "迎春花",
 		group_max = 0,
@@ -7510,8 +7515,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4018] = {
+	}
+	pg.base.island_item_data_template[4018] = {
 		pt_num = 54,
 		name = "风信子",
 		group_max = 0,
@@ -7541,8 +7546,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4019] = {
+	}
+	pg.base.island_item_data_template[4019] = {
 		pt_num = 5,
 		name = "芦笋",
 		group_max = 0,
@@ -7573,8 +7578,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4020] = {
+	}
+	pg.base.island_item_data_template[4020] = {
 		pt_num = 1,
 		name = "芦笋种子",
 		group_max = 0,
@@ -7616,8 +7621,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[4021] = {
+	}
+	pg.base.island_item_data_template[4021] = {
 		pt_num = 11,
 		name = "凤梨",
 		group_max = 0,
@@ -7648,8 +7653,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4022] = {
+	}
+	pg.base.island_item_data_template[4022] = {
 		pt_num = 1,
 		name = "凤梨种子",
 		group_max = 0,
@@ -7691,8 +7696,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[4023] = {
+	}
+	pg.base.island_item_data_template[4023] = {
 		pt_num = 18,
 		name = "鲜榨菠萝汁",
 		group_max = 0,
@@ -7726,8 +7731,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4024] = {
+	}
+	pg.base.island_item_data_template[4024] = {
 		pt_num = 112,
 		name = "迎春花茶",
 		group_max = 0,
@@ -7761,8 +7766,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4025] = {
+	}
+	pg.base.island_item_data_template[4025] = {
 		pt_num = 72,
 		name = "凉拌双笋",
 		group_max = 0,
@@ -7796,8 +7801,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4026] = {
+	}
+	pg.base.island_item_data_template[4026] = {
 		pt_num = 180,
 		name = "芦笋炒虾仁",
 		group_max = 0,
@@ -7831,8 +7836,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4027] = {
+	}
+	pg.base.island_item_data_template[4027] = {
 		pt_num = 72,
 		name = "袋装荠菜干",
 		group_max = 0,
@@ -7863,8 +7868,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4028] = {
+	}
+	pg.base.island_item_data_template[4028] = {
 		pt_num = 108,
 		name = "春季花束",
 		group_max = 0,
@@ -7895,8 +7900,10 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5001] = {
+	}
+end)()
+;(function()
+	pg.base.island_item_data_template[5001] = {
 		pt_num = 1,
 		name = "贝类",
 		group_max = 0,
@@ -7927,8 +7934,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5002] = {
+	}
+	pg.base.island_item_data_template[5002] = {
 		pt_num = 2,
 		name = "鲶鱼",
 		group_max = 0,
@@ -7959,8 +7966,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5003] = {
+	}
+	pg.base.island_item_data_template[5003] = {
 		pt_num = 16,
 		name = "鲤鱼",
 		group_max = 0,
@@ -7991,8 +7998,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5004] = {
+	}
+	pg.base.island_item_data_template[5004] = {
 		pt_num = 11,
 		name = "鲫鱼",
 		group_max = 0,
@@ -8023,8 +8030,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5005] = {
+	}
+	pg.base.island_item_data_template[5005] = {
 		pt_num = 12,
 		name = "小河虾",
 		group_max = 0,
@@ -8055,8 +8062,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5006] = {
+	}
+	pg.base.island_item_data_template[5006] = {
 		pt_num = 13,
 		name = "小龙虾",
 		group_max = 0,
@@ -8087,8 +8094,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5007] = {
+	}
+	pg.base.island_item_data_template[5007] = {
 		pt_num = 16,
 		name = "鲈鱼",
 		group_max = 0,
@@ -8119,8 +8126,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5008] = {
+	}
+	pg.base.island_item_data_template[5008] = {
 		pt_num = 58,
 		name = "螃蟹",
 		group_max = 0,
@@ -8151,8 +8158,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5101] = {
+	}
+	pg.base.island_item_data_template[5101] = {
 		pt_num = 1,
 		name = "鱿鱼",
 		group_max = 0,
@@ -8183,8 +8190,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5102] = {
+	}
+	pg.base.island_item_data_template[5102] = {
 		pt_num = 27,
 		name = "马鲛鱼",
 		group_max = 0,
@@ -8215,8 +8222,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5103] = {
+	}
+	pg.base.island_item_data_template[5103] = {
 		pt_num = 104,
 		name = "金枪鱼",
 		group_max = 0,
@@ -8247,8 +8254,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5104] = {
+	}
+	pg.base.island_item_data_template[5104] = {
 		pt_num = 45,
 		name = "三文鱼",
 		group_max = 0,
@@ -8279,8 +8286,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5105] = {
+	}
+	pg.base.island_item_data_template[5105] = {
 		pt_num = 1,
 		name = "红鲷鱼",
 		group_max = 0,
@@ -8311,8 +8318,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5106] = {
+	}
+	pg.base.island_item_data_template[5106] = {
 		pt_num = 24,
 		name = "黑鲷鱼",
 		group_max = 0,
@@ -8343,8 +8350,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5107] = {
+	}
+	pg.base.island_item_data_template[5107] = {
 		pt_num = 198,
 		name = "黄鳍金枪鱼",
 		group_max = 0,
@@ -8375,8 +8382,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5108] = {
+	}
+	pg.base.island_item_data_template[5108] = {
 		pt_num = 162,
 		name = "海参",
 		group_max = 0,
@@ -8407,8 +8414,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[9900] = {
+	}
+	pg.base.island_item_data_template[9900] = {
 		pt_num = 0,
 		name = "珍珠",
 		group_max = 0,
@@ -8438,8 +8445,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100001] = {
+	}
+	pg.base.island_item_data_template[100001] = {
 		pt_num = 0,
 		name = "生活经验指南T1",
 		group_max = 0,
@@ -8477,8 +8484,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100002] = {
+	}
+	pg.base.island_item_data_template[100002] = {
 		pt_num = 0,
 		name = "生活经验指南T2",
 		group_max = 0,
@@ -8516,8 +8523,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100003] = {
+	}
+	pg.base.island_item_data_template[100003] = {
 		pt_num = 0,
 		name = "生活经验指南T3",
 		group_max = 0,
@@ -8555,8 +8562,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100011] = {
+	}
+	pg.base.island_item_data_template[100011] = {
 		pt_num = 0,
 		name = "经营指南T1",
 		group_max = 0,
@@ -8594,8 +8601,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100012] = {
+	}
+	pg.base.island_item_data_template[100012] = {
 		pt_num = 0,
 		name = "经营指南T2",
 		group_max = 0,
@@ -8625,8 +8632,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100013] = {
+	}
+	pg.base.island_item_data_template[100013] = {
 		pt_num = 0,
 		name = "经营指南T3",
 		group_max = 0,
@@ -8651,8 +8658,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100021] = {
+	}
+	pg.base.island_item_data_template[100021] = {
 		pt_num = 0,
 		name = "种植指南T1",
 		group_max = 0,
@@ -8690,8 +8697,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100022] = {
+	}
+	pg.base.island_item_data_template[100022] = {
 		pt_num = 0,
 		name = "种植指南T2",
 		group_max = 0,
@@ -8721,8 +8728,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100023] = {
+	}
+	pg.base.island_item_data_template[100023] = {
 		pt_num = 0,
 		name = "种植指南T3",
 		group_max = 0,
@@ -8747,8 +8754,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100031] = {
+	}
+	pg.base.island_item_data_template[100031] = {
 		pt_num = 0,
 		name = "制造指南T1",
 		group_max = 0,
@@ -8786,8 +8793,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100032] = {
+	}
+	pg.base.island_item_data_template[100032] = {
 		pt_num = 0,
 		name = "制造指南T2",
 		group_max = 0,
@@ -8817,8 +8824,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100033] = {
+	}
+	pg.base.island_item_data_template[100033] = {
 		pt_num = 0,
 		name = "制造指南T3",
 		group_max = 0,
@@ -8843,8 +8850,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100041] = {
+	}
+	pg.base.island_item_data_template[100041] = {
 		pt_num = 0,
 		name = "采集指南T1",
 		group_max = 0,
@@ -8882,8 +8889,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100042] = {
+	}
+	pg.base.island_item_data_template[100042] = {
 		pt_num = 0,
 		name = "采集指南T2",
 		group_max = 0,
@@ -8913,8 +8920,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100043] = {
+	}
+	pg.base.island_item_data_template[100043] = {
 		pt_num = 0,
 		name = "采集指南T3",
 		group_max = 0,
@@ -8939,8 +8946,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100051] = {
+	}
+	pg.base.island_item_data_template[100051] = {
 		pt_num = 0,
 		name = "养护指南T1",
 		group_max = 0,
@@ -8978,8 +8985,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100052] = {
+	}
+	pg.base.island_item_data_template[100052] = {
 		pt_num = 0,
 		name = "养护指南T2",
 		group_max = 0,
@@ -9009,8 +9016,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100053] = {
+	}
+	pg.base.island_item_data_template[100053] = {
 		pt_num = 0,
 		name = "养护指南T3",
 		group_max = 0,
@@ -9035,8 +9042,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100061] = {
+	}
+	pg.base.island_item_data_template[100061] = {
 		pt_num = 0,
 		name = "烹调指南T1",
 		group_max = 0,
@@ -9074,8 +9081,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100062] = {
+	}
+	pg.base.island_item_data_template[100062] = {
 		pt_num = 0,
 		name = "烹调指南T2",
 		group_max = 0,
@@ -9105,8 +9112,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100063] = {
+	}
+	pg.base.island_item_data_template[100063] = {
 		pt_num = 0,
 		name = "烹调指南T3",
 		group_max = 0,
@@ -9131,8 +9138,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100101] = {
+	}
+	pg.base.island_item_data_template[100101] = {
 		pt_num = 0,
 		name = "生产技能指南T1",
 		group_max = 0,
@@ -9170,8 +9177,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100102] = {
+	}
+	pg.base.island_item_data_template[100102] = {
 		pt_num = 0,
 		name = "生产技能指南T2",
 		group_max = 0,
@@ -9209,8 +9216,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100103] = {
+	}
+	pg.base.island_item_data_template[100103] = {
 		pt_num = 0,
 		name = "生产技能指南T3",
 		group_max = 0,
@@ -9248,8 +9255,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100201] = {
+	}
+	pg.base.island_item_data_template[100201] = {
 		pt_num = 0,
 		name = "岛屿开发结晶",
 		group_max = 0,
@@ -9279,8 +9286,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110001] = {
+	}
+	pg.base.island_item_data_template[110001] = {
 		pt_num = 0,
 		name = "海盐特饮",
 		group_max = 0,
@@ -9323,8 +9330,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110002] = {
+	}
+	pg.base.island_item_data_template[110002] = {
 		pt_num = 0,
 		name = "新叶特饮",
 		group_max = 0,
@@ -9365,8 +9372,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110003] = {
+	}
+	pg.base.island_item_data_template[110003] = {
 		pt_num = 0,
 		name = "草莓特饮",
 		group_max = 0,
@@ -9407,8 +9414,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110004] = {
+	}
+	pg.base.island_item_data_template[110004] = {
 		pt_num = 0,
 		name = "金桔特饮",
 		group_max = 0,
@@ -9449,8 +9456,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110005] = {
+	}
+	pg.base.island_item_data_template[110005] = {
 		pt_num = 0,
 		name = "蓝莓特饮",
 		group_max = 0,
@@ -9491,8 +9498,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110006] = {
+	}
+	pg.base.island_item_data_template[110006] = {
 		pt_num = 0,
 		name = "葡萄特饮",
 		group_max = 0,
@@ -9533,8 +9540,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200001] = {
+	}
+	pg.base.island_item_data_template[200001] = {
 		pt_num = 0,
 		name = "柴郡岛屿权限认证函",
 		group_max = 0,
@@ -9564,8 +9571,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200002] = {
+	}
+	pg.base.island_item_data_template[200002] = {
 		pt_num = 0,
 		name = "萨拉托加岛屿权限认证函",
 		group_max = 0,
@@ -9590,8 +9597,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[200003] = {
+	}
+	pg.base.island_item_data_template[200003] = {
 		pt_num = 0,
 		name = "{namecode:98:明石}岛屿权限认证函",
 		group_max = 0,
@@ -9621,8 +9628,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200004] = {
+	}
+	pg.base.island_item_data_template[200004] = {
 		pt_num = 0,
 		name = "{namecode:97:大凤}岛屿权限认证函",
 		group_max = 0,
@@ -9647,8 +9654,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[200005] = {
+	}
+	pg.base.island_item_data_template[200005] = {
 		pt_num = 0,
 		name = "{namecode:199:新泽西}岛屿权限认证函",
 		group_max = 0,
@@ -9678,8 +9685,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200006] = {
+	}
+	pg.base.island_item_data_template[200006] = {
 		pt_num = 0,
 		name = "{namecode:18:岛风}岛屿权限认证函",
 		group_max = 0,
@@ -9709,8 +9716,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200007] = {
+	}
+	pg.base.island_item_data_template[200007] = {
 		pt_num = 0,
 		name = "应瑞岛屿权限认证函",
 		group_max = 0,
@@ -9740,8 +9747,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200008] = {
+	}
+	pg.base.island_item_data_template[200008] = {
 		pt_num = 0,
 		name = "恶毒岛屿权限认证函",
 		group_max = 0,
@@ -9771,8 +9778,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200009] = {
+	}
+	pg.base.island_item_data_template[200009] = {
 		pt_num = 0,
 		name = "独角兽岛屿权限认证函",
 		group_max = 0,
@@ -9802,8 +9809,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200010] = {
+	}
+	pg.base.island_item_data_template[200010] = {
 		pt_num = 0,
 		name = "塔什干岛屿权限认证函",
 		group_max = 0,
@@ -9833,8 +9840,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200011] = {
+	}
+	pg.base.island_item_data_template[200011] = {
 		pt_num = 0,
 		name = "胡德岛屿权限认证函",
 		group_max = 0,
@@ -9864,8 +9871,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200012] = {
+	}
+	pg.base.island_item_data_template[200012] = {
 		pt_num = 0,
 		name = "{namecode:193:小天城}岛屿权限认证函",
 		group_max = 0,
@@ -9895,8 +9902,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200013] = {
+	}
+	pg.base.island_item_data_template[200013] = {
 		pt_num = 0,
 		name = "{namecode:427:欧根亲王}岛屿权限认证函",
 		group_max = 0,
@@ -9926,8 +9933,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200014] = {
+	}
+	pg.base.island_item_data_template[200014] = {
 		pt_num = 0,
 		name = "肇和岛屿权限认证函",
 		group_max = 0,
@@ -9957,8 +9964,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200015] = {
+	}
+	pg.base.island_item_data_template[200015] = {
 		pt_num = 0,
 		name = "莱昂纳多·达·芬奇岛屿权限认证函",
 		group_max = 0,
@@ -9988,8 +9995,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200016] = {
+	}
+	pg.base.island_item_data_template[200016] = {
 		pt_num = 0,
 		name = "威廉·D·波特岛屿权限认证函",
 		group_max = 0,
@@ -10019,8 +10026,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200017] = {
+	}
+	pg.base.island_item_data_template[200017] = {
 		pt_num = 0,
 		name = "镇海岛屿权限认证函",
 		group_max = 0,
@@ -10050,8 +10057,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200018] = {
+	}
+	pg.base.island_item_data_template[200018] = {
 		pt_num = 0,
 		name = "{namecode:67}岛屿权限认证函",
 		group_max = 0,
@@ -10081,8 +10088,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200019] = {
+	}
+	pg.base.island_item_data_template[200019] = {
 		pt_num = 0,
 		name = "海伦娜岛屿权限认证函",
 		group_max = 0,
@@ -10112,8 +10119,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200020] = {
+	}
+	pg.base.island_item_data_template[200020] = {
 		pt_num = 0,
 		name = "{namecode:440}岛屿权限认证函",
 		group_max = 0,
@@ -10143,8 +10150,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200021] = {
+	}
+	pg.base.island_item_data_template[200021] = {
 		pt_num = 0,
 		name = "领洋者-娜比娅岛屿权限认证函",
 		group_max = 0,
@@ -10174,8 +10181,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200022] = {
+	}
+	pg.base.island_item_data_template[200022] = {
 		pt_num = 0,
 		name = "领航员-TB岛屿权限认证函",
 		group_max = 0,
@@ -10205,8 +10212,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200023] = {
+	}
+	pg.base.island_item_data_template[200023] = {
 		pt_num = 0,
 		name = "探索者-艾普洛岛屿权限认证函",
 		group_max = 0,
@@ -10236,8 +10243,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300001] = {
+	}
+	pg.base.island_item_data_template[300001] = {
 		pt_num = 0,
 		name = "丰壤农田委派效率提高 4%",
 		group_max = 0,
@@ -10265,8 +10272,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300002] = {
+	}
+	pg.base.island_item_data_template[300002] = {
 		pt_num = 0,
 		name = "坠香果园委派效率提高 4%",
 		group_max = 0,
@@ -10294,8 +10301,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300003] = {
+	}
+	pg.base.island_item_data_template[300003] = {
 		pt_num = 0,
 		name = "青芽苗圃委派效率提高 4%",
 		group_max = 0,
@@ -10323,8 +10330,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300004] = {
+	}
+	pg.base.island_item_data_template[300004] = {
 		pt_num = 0,
 		name = "丰壤农田委派效率提高 8%",
 		group_max = 0,
@@ -10352,8 +10359,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300005] = {
+	}
+	pg.base.island_item_data_template[300005] = {
 		pt_num = 0,
 		name = "坠香果园委派效率提高 8%",
 		group_max = 0,
@@ -10381,8 +10388,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300006] = {
+	}
+	pg.base.island_item_data_template[300006] = {
 		pt_num = 0,
 		name = "青芽苗圃委派效率提高 8%",
 		group_max = 0,
@@ -10411,4 +10418,4 @@ pg.base.island_item_data_template = {
 			}
 		}
 	}
-}
+end)()

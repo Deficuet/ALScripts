@@ -1,6 +1,355 @@
 pg = pg or {}
-pg.island_formula = {
-	[101001] = {
+pg.island_formula = rawget(pg, "island_formula") or setmetatable({
+	__name = "island_formula"
+}, confNEO)
+pg.island_formula.all = {
+	101001,
+	101002,
+	101003,
+	101004,
+	101005,
+	101006,
+	101007,
+	101008,
+	101013,
+	101015,
+	101016,
+	101018,
+	201001,
+	201002,
+	201003,
+	201004,
+	201005,
+	201006,
+	201007,
+	201008,
+	201101,
+	201102,
+	201103,
+	201104,
+	201105,
+	201106,
+	201107,
+	201108,
+	401001,
+	401002,
+	401004,
+	401005,
+	401006,
+	401007,
+	402001,
+	402002,
+	402003,
+	402004,
+	501001,
+	501002,
+	501003,
+	501004,
+	501005,
+	501006,
+	501007,
+	502001,
+	502002,
+	502003,
+	502004,
+	502005,
+	502006,
+	502007,
+	601001,
+	601002,
+	601003,
+	601004,
+	601005,
+	601006,
+	601007,
+	601008,
+	601101,
+	601102,
+	602001,
+	602002,
+	602003,
+	602004,
+	602005,
+	602006,
+	602101,
+	602102,
+	602103,
+	603001,
+	603002,
+	603003,
+	603004,
+	603005,
+	603006,
+	603007,
+	603101,
+	603102,
+	603103,
+	604001,
+	604002,
+	604004,
+	604005,
+	604006,
+	604007,
+	604008,
+	604101,
+	604102,
+	701001,
+	701002,
+	701003,
+	701004,
+	701005,
+	701006,
+	701007,
+	701008,
+	701009,
+	701010,
+	701011,
+	701012,
+	701013,
+	701014,
+	701015,
+	701016,
+	701017,
+	701018,
+	701019,
+	701020,
+	701021,
+	701022,
+	701023,
+	901001,
+	901002,
+	901003,
+	901004,
+	901005,
+	901006,
+	901101,
+	901102,
+	901103,
+	7100001,
+	7100002,
+	7100003,
+	7100004,
+	7110001,
+	7110002,
+	7110101,
+	7110102,
+	7110103,
+	7110301,
+	7110302,
+	7110303,
+	7110304,
+	7110305,
+	7110306,
+	7110307,
+	7110308,
+	7110309,
+	7110310,
+	7120001,
+	7120002,
+	7120003,
+	7120004,
+	7120005,
+	7120006,
+	7120007,
+	7100301,
+	7100302,
+	7100303,
+	7100304,
+	7100305,
+	7100306,
+	7100307,
+	7100308,
+	7130301,
+	7130302,
+	7140101,
+	7210101,
+	7210102,
+	7210103,
+	7210104,
+	7210401,
+	7210201,
+	7210202,
+	7210203,
+	7210501,
+	7210502,
+	7210601,
+	7220101,
+	7220102,
+	7220103,
+	7220104,
+	7220201,
+	7220202,
+	7220203,
+	7220204,
+	7220401,
+	7220501,
+	7220502,
+	7220601,
+	7310001,
+	7310002,
+	7310101,
+	7310102,
+	7310103,
+	7310104,
+	7310301,
+	7310302,
+	7310303,
+	7310304,
+	7310305,
+	7310306,
+	7310307,
+	7310308,
+	7310309,
+	7320101,
+	7320102,
+	7320301,
+	7320302,
+	7320303,
+	7320304,
+	7330101,
+	7330102,
+	7330103,
+	7330104,
+	7330301,
+	7330302,
+	7330303,
+	7310201,
+	7310202,
+	7320201,
+	7320202,
+	7320203,
+	7320204,
+	7320205,
+	7320206,
+	7330201,
+	7400001,
+	7410301,
+	7410302,
+	7410303,
+	7410304,
+	7410305,
+	7420301,
+	7420302,
+	7420303,
+	7420304,
+	7430301,
+	7430302,
+	7430303,
+	7430304,
+	7440301,
+	7440302,
+	7440303,
+	7440304,
+	7450301,
+	7450302,
+	7460001,
+	7460002,
+	7460101,
+	7460301,
+	7460102,
+	7460302,
+	7460201,
+	7460202,
+	7460203,
+	7460204,
+	7460205,
+	7460206,
+	7500211,
+	7500212,
+	7500213,
+	7500214,
+	7500215,
+	7500231,
+	7500232,
+	7500233,
+	7500234,
+	7500235,
+	7500236,
+	7500001,
+	7510101,
+	7510201,
+	7510202,
+	7510203,
+	7510204,
+	7520001,
+	7520101,
+	7520201,
+	7520202,
+	7520203,
+	7520204,
+	7520205,
+	7530001,
+	7530101,
+	7530201,
+	7530202,
+	7530203,
+	7530204,
+	7530205,
+	7530206,
+	7540001,
+	7540101,
+	7540201,
+	7540202,
+	7540204,
+	7540205,
+	7550201,
+	7550202,
+	7550203,
+	7550204,
+	7610101,
+	7610102,
+	7610401,
+	7610402,
+	7610403,
+	7620101,
+	7630101,
+	7630201,
+	7630202,
+	7630203,
+	7630204,
+	7630205,
+	7640001,
+	7640101,
+	7640201,
+	7640202,
+	7640203,
+	7640204,
+	7640205,
+	7650001,
+	7650101,
+	7650201,
+	7650202,
+	7650203,
+	7660001,
+	7660101,
+	7660201,
+	7660202,
+	7660203,
+	7660204,
+	7660205,
+	7660206,
+	9900001,
+	9900002,
+	9900003,
+	9900004,
+	9900005,
+	9900006,
+	9900007,
+	9900008,
+	9900009,
+	9900010,
+	9900011,
+	9900012,
+	9900013,
+	9900014,
+	9900015,
+	9900016
+}
+pg.base = pg.base or {}
+pg.base.island_formula = {}
+
+;(function()
+	pg.base.island_formula[101001] = {
 		hitpoint = 0,
 		name = "小麦",
 		attribute = 1,
@@ -67,8 +416,8 @@ pg.island_formula = {
 			0,
 			0.21
 		}
-	},
-	[101002] = {
+	}
+	pg.base.island_formula[101002] = {
 		hitpoint = 0,
 		name = "玉米",
 		attribute = 1,
@@ -131,8 +480,8 @@ pg.island_formula = {
 				20105
 			}
 		}
-	},
-	[101003] = {
+	}
+	pg.base.island_formula[101003] = {
 		hitpoint = 0,
 		name = "牧草",
 		attribute = 1,
@@ -195,8 +544,8 @@ pg.island_formula = {
 				20117
 			}
 		}
-	},
-	[101004] = {
+	}
+	pg.base.island_formula[101004] = {
 		hitpoint = 0,
 		name = "咖啡豆",
 		attribute = 1,
@@ -259,8 +608,8 @@ pg.island_formula = {
 				20121
 			}
 		}
-	},
-	[101005] = {
+	}
+	pg.base.island_formula[101005] = {
 		hitpoint = 0,
 		name = "大米",
 		attribute = 1,
@@ -323,8 +672,8 @@ pg.island_formula = {
 				20107
 			}
 		}
-	},
-	[101006] = {
+	}
+	pg.base.island_formula[101006] = {
 		hitpoint = 0,
 		name = "白菜",
 		attribute = 1,
@@ -387,8 +736,8 @@ pg.island_formula = {
 				20109
 			}
 		}
-	},
-	[101007] = {
+	}
+	pg.base.island_formula[101007] = {
 		hitpoint = 0,
 		name = "土豆",
 		attribute = 1,
@@ -451,8 +800,8 @@ pg.island_formula = {
 				20119
 			}
 		}
-	},
-	[101008] = {
+	}
+	pg.base.island_formula[101008] = {
 		hitpoint = 0,
 		name = "大豆",
 		attribute = 1,
@@ -515,8 +864,8 @@ pg.island_formula = {
 				20113
 			}
 		}
-	},
-	[101013] = {
+	}
+	pg.base.island_formula[101013] = {
 		hitpoint = 0,
 		name = "鸡蛋",
 		production_limit = 8,
@@ -563,8 +912,8 @@ pg.island_formula = {
 				2602
 			}
 		}
-	},
-	[101015] = {
+	}
+	pg.base.island_formula[101015] = {
 		hitpoint = 0,
 		name = "鲜肉",
 		production_limit = 5,
@@ -600,8 +949,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[101016] = {
+	}
+	pg.base.island_formula[101016] = {
 		hitpoint = 0,
 		name = "牛奶",
 		production_limit = 5,
@@ -648,8 +997,8 @@ pg.island_formula = {
 				2604
 			}
 		}
-	},
-	[101018] = {
+	}
+	pg.base.island_formula[101018] = {
 		hitpoint = 0,
 		name = "羊毛",
 		production_limit = 5,
@@ -685,8 +1034,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[201001] = {
+	}
+	pg.base.island_formula[201001] = {
 		hitpoint = 0,
 		name = "贝类",
 		attribute = 3,
@@ -731,8 +1080,8 @@ pg.island_formula = {
 				0.2
 			}
 		}
-	},
-	[201002] = {
+	}
+	pg.base.island_formula[201002] = {
 		hitpoint = 0,
 		name = "鲶鱼",
 		attribute = 3,
@@ -777,8 +1126,8 @@ pg.island_formula = {
 				0.4
 			}
 		}
-	},
-	[201003] = {
+	}
+	pg.base.island_formula[201003] = {
 		hitpoint = 0,
 		name = "鲤鱼",
 		attribute = 3,
@@ -823,8 +1172,8 @@ pg.island_formula = {
 				0.5
 			}
 		}
-	},
-	[201004] = {
+	}
+	pg.base.island_formula[201004] = {
 		hitpoint = 0,
 		name = "鲫鱼",
 		attribute = 3,
@@ -869,8 +1218,8 @@ pg.island_formula = {
 				0.4
 			}
 		}
-	},
-	[201005] = {
+	}
+	pg.base.island_formula[201005] = {
 		hitpoint = 0,
 		name = "小河虾",
 		attribute = 3,
@@ -915,8 +1264,8 @@ pg.island_formula = {
 				0.3
 			}
 		}
-	},
-	[201006] = {
+	}
+	pg.base.island_formula[201006] = {
 		hitpoint = 0,
 		name = "小龙虾",
 		attribute = 3,
@@ -961,8 +1310,8 @@ pg.island_formula = {
 				0.35
 			}
 		}
-	},
-	[201007] = {
+	}
+	pg.base.island_formula[201007] = {
 		hitpoint = 0,
 		name = "鲈鱼",
 		attribute = 3,
@@ -1007,8 +1356,8 @@ pg.island_formula = {
 				0.6
 			}
 		}
-	},
-	[201008] = {
+	}
+	pg.base.island_formula[201008] = {
 		hitpoint = 0,
 		name = "螃蟹",
 		attribute = 3,
@@ -1053,8 +1402,8 @@ pg.island_formula = {
 				0.2
 			}
 		}
-	},
-	[201101] = {
+	}
+	pg.base.island_formula[201101] = {
 		hitpoint = 0,
 		name = "鱿鱼",
 		attribute = 3,
@@ -1099,8 +1448,8 @@ pg.island_formula = {
 				0.7
 			}
 		}
-	},
-	[201102] = {
+	}
+	pg.base.island_formula[201102] = {
 		hitpoint = 0,
 		name = "马鲛鱼",
 		attribute = 3,
@@ -1145,8 +1494,8 @@ pg.island_formula = {
 				1
 			}
 		}
-	},
-	[201103] = {
+	}
+	pg.base.island_formula[201103] = {
 		hitpoint = 0,
 		name = "金枪鱼",
 		attribute = 3,
@@ -1191,8 +1540,8 @@ pg.island_formula = {
 				1.2
 			}
 		}
-	},
-	[201104] = {
+	}
+	pg.base.island_formula[201104] = {
 		hitpoint = 0,
 		name = "三文鱼",
 		attribute = 3,
@@ -1237,8 +1586,8 @@ pg.island_formula = {
 				0.8
 			}
 		}
-	},
-	[201105] = {
+	}
+	pg.base.island_formula[201105] = {
 		hitpoint = 0,
 		name = "红鲷鱼",
 		attribute = 3,
@@ -1283,8 +1632,8 @@ pg.island_formula = {
 				0.5
 			}
 		}
-	},
-	[201106] = {
+	}
+	pg.base.island_formula[201106] = {
 		hitpoint = 0,
 		name = "黑鲷鱼",
 		attribute = 3,
@@ -1329,8 +1678,8 @@ pg.island_formula = {
 				0.5
 			}
 		}
-	},
-	[201107] = {
+	}
+	pg.base.island_formula[201107] = {
 		hitpoint = 0,
 		name = "黄鳍金枪鱼",
 		attribute = 3,
@@ -1375,8 +1724,8 @@ pg.island_formula = {
 				1.2
 			}
 		}
-	},
-	[201108] = {
+	}
+	pg.base.island_formula[201108] = {
 		hitpoint = 0,
 		name = "海参",
 		attribute = 3,
@@ -1421,8 +1770,8 @@ pg.island_formula = {
 				0.05
 			}
 		}
-	},
-	[401001] = {
+	}
+	pg.base.island_formula[401001] = {
 		unlock_type = 0,
 		name = "煤炭",
 		pt_award = 0,
@@ -1483,8 +1832,8 @@ pg.island_formula = {
 				-23.416
 			}
 		}
-	},
-	[401002] = {
+	}
+	pg.base.island_formula[401002] = {
 		hitpoint = 80,
 		name = "铜矿",
 		attribute = 2,
@@ -1523,8 +1872,8 @@ pg.island_formula = {
 			60007,
 			1
 		}
-	},
-	[401004] = {
+	}
+	pg.base.island_formula[401004] = {
 		hitpoint = 80,
 		name = "铝矿",
 		attribute = 2,
@@ -1563,8 +1912,8 @@ pg.island_formula = {
 			60007,
 			1
 		}
-	},
-	[401005] = {
+	}
+	pg.base.island_formula[401005] = {
 		hitpoint = 80,
 		name = "铁矿",
 		attribute = 2,
@@ -1603,8 +1952,8 @@ pg.island_formula = {
 			60007,
 			1
 		}
-	},
-	[401006] = {
+	}
+	pg.base.island_formula[401006] = {
 		hitpoint = 0,
 		name = "硫矿",
 		attribute = 2,
@@ -1643,8 +1992,8 @@ pg.island_formula = {
 			60007,
 			1
 		}
-	},
-	[401007] = {
+	}
+	pg.base.island_formula[401007] = {
 		hitpoint = 0,
 		name = "银矿",
 		attribute = 2,
@@ -1683,8 +2032,8 @@ pg.island_formula = {
 			60007,
 			1
 		}
-	},
-	[402001] = {
+	}
+	pg.base.island_formula[402001] = {
 		unlock_type = 0,
 		name = "自然之木",
 		pt_award = 0,
@@ -1745,8 +2094,8 @@ pg.island_formula = {
 				0
 			}
 		}
-	},
-	[402002] = {
+	}
+	pg.base.island_formula[402002] = {
 		hitpoint = 0,
 		name = "实用之木",
 		attribute = 2,
@@ -1785,8 +2134,8 @@ pg.island_formula = {
 			60008,
 			2
 		}
-	},
-	[402003] = {
+	}
+	pg.base.island_formula[402003] = {
 		hitpoint = 0,
 		name = "精选之木",
 		attribute = 2,
@@ -1825,8 +2174,8 @@ pg.island_formula = {
 			60008,
 			2
 		}
-	},
-	[402004] = {
+	}
+	pg.base.island_formula[402004] = {
 		hitpoint = 0,
 		name = "典雅之木",
 		attribute = 2,
@@ -1865,8 +2214,8 @@ pg.island_formula = {
 			60008,
 			2
 		}
-	},
-	[501001] = {
+	}
+	pg.base.island_formula[501001] = {
 		hitpoint = 0,
 		name = "苹果",
 		attribute = 1,
@@ -1929,8 +2278,8 @@ pg.island_formula = {
 				20132
 			}
 		}
-	},
-	[501002] = {
+	}
+	pg.base.island_formula[501002] = {
 		hitpoint = 0,
 		name = "柑橘",
 		attribute = 1,
@@ -1993,8 +2342,8 @@ pg.island_formula = {
 				20135
 			}
 		}
-	},
-	[501003] = {
+	}
+	pg.base.island_formula[501003] = {
 		hitpoint = 0,
 		name = "香蕉",
 		attribute = 1,
@@ -2057,8 +2406,8 @@ pg.island_formula = {
 				20138
 			}
 		}
-	},
-	[501004] = {
+	}
+	pg.base.island_formula[501004] = {
 		hitpoint = 0,
 		name = "芒果",
 		attribute = 1,
@@ -2121,8 +2470,8 @@ pg.island_formula = {
 				20141
 			}
 		}
-	},
-	[501005] = {
+	}
+	pg.base.island_formula[501005] = {
 		hitpoint = 0,
 		name = "柠檬",
 		attribute = 1,
@@ -2185,8 +2534,8 @@ pg.island_formula = {
 				20144
 			}
 		}
-	},
-	[501006] = {
+	}
+	pg.base.island_formula[501006] = {
 		hitpoint = 0,
 		name = "牛油果",
 		attribute = 1,
@@ -2249,8 +2598,8 @@ pg.island_formula = {
 				20147
 			}
 		}
-	},
-	[501007] = {
+	}
+	pg.base.island_formula[501007] = {
 		hitpoint = 0,
 		name = "橡胶",
 		attribute = 1,
@@ -2313,8 +2662,8 @@ pg.island_formula = {
 				20150
 			}
 		}
-	},
-	[502001] = {
+	}
+	pg.base.island_formula[502001] = {
 		hitpoint = 0,
 		name = "亚麻",
 		attribute = 1,
@@ -2377,8 +2726,8 @@ pg.island_formula = {
 				20121
 			}
 		}
-	},
-	[502002] = {
+	}
+	pg.base.island_formula[502002] = {
 		hitpoint = 0,
 		name = "草莓",
 		attribute = 1,
@@ -2441,8 +2790,8 @@ pg.island_formula = {
 				20123
 			}
 		}
-	},
-	[502003] = {
+	}
+	pg.base.island_formula[502003] = {
 		hitpoint = 0,
 		name = "棉花",
 		attribute = 1,
@@ -2505,8 +2854,8 @@ pg.island_formula = {
 				20125
 			}
 		}
-	},
-	[502004] = {
+	}
+	pg.base.island_formula[502004] = {
 		hitpoint = 0,
 		name = "茶叶",
 		attribute = 1,
@@ -2569,8 +2918,8 @@ pg.island_formula = {
 				20127
 			}
 		}
-	},
-	[502005] = {
+	}
+	pg.base.island_formula[502005] = {
 		hitpoint = 0,
 		name = "薰衣草",
 		attribute = 1,
@@ -2633,8 +2982,8 @@ pg.island_formula = {
 				20129
 			}
 		}
-	},
-	[502006] = {
+	}
+	pg.base.island_formula[502006] = {
 		hitpoint = 0,
 		name = "胡萝卜",
 		attribute = 1,
@@ -2697,8 +3046,8 @@ pg.island_formula = {
 				20111
 			}
 		}
-	},
-	[502007] = {
+	}
+	pg.base.island_formula[502007] = {
 		hitpoint = 0,
 		name = "洋葱",
 		attribute = 1,
@@ -2761,8 +3110,8 @@ pg.island_formula = {
 				20115
 			}
 		}
-	},
-	[601001] = {
+	}
+	pg.base.island_formula[601001] = {
 		hitpoint = 0,
 		name = "豆腐",
 		production_limit = 12,
@@ -2798,8 +3147,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[601002] = {
+	}
+	pg.base.island_formula[601002] = {
 		hitpoint = 0,
 		name = "肉末烧豆腐",
 		production_limit = 12,
@@ -2839,8 +3188,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[601003] = {
+	}
+	pg.base.island_formula[601003] = {
 		hitpoint = 0,
 		name = "蛋包饭",
 		production_limit = 12,
@@ -2880,8 +3229,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[601004] = {
+	}
+	pg.base.island_formula[601004] = {
 		hitpoint = 0,
 		name = "白菜豆腐汤",
 		production_limit = 12,
@@ -2921,8 +3270,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[601005] = {
+	}
+	pg.base.island_formula[601005] = {
 		hitpoint = 0,
 		name = "蔬菜沙拉",
 		production_limit = 12,
@@ -2966,8 +3315,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[601006] = {
+	}
+	pg.base.island_formula[601006] = {
 		hitpoint = 0,
 		name = "炸鱼薯条",
 		production_limit = 12,
@@ -3007,8 +3356,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[601007] = {
+	}
+	pg.base.island_formula[601007] = {
 		hitpoint = 0,
 		name = "洋葱蒸鱼",
 		production_limit = 12,
@@ -3048,8 +3397,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[601008] = {
+	}
+	pg.base.island_formula[601008] = {
 		hitpoint = 0,
 		name = "佛跳墙",
 		production_limit = 8,
@@ -3093,8 +3442,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[601101] = {
+	}
+	pg.base.island_formula[601101] = {
 		hitpoint = 0,
 		name = "经典豆腐套餐",
 		production_limit = 12,
@@ -3134,8 +3483,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[601102] = {
+	}
+	pg.base.island_formula[601102] = {
 		hitpoint = 0,
 		name = "绵玉定食",
 		production_limit = 12,
@@ -3175,8 +3524,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[602001] = {
+	}
+	pg.base.island_formula[602001] = {
 		hitpoint = 0,
 		name = "苹果汁",
 		production_limit = 12,
@@ -3212,8 +3561,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[602002] = {
+	}
+	pg.base.island_formula[602002] = {
 		hitpoint = 0,
 		name = "香蕉芒果汁",
 		production_limit = 12,
@@ -3253,8 +3602,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[602003] = {
+	}
+	pg.base.island_formula[602003] = {
 		hitpoint = 0,
 		name = "蜂蜜柠檬水",
 		production_limit = 12,
@@ -3294,8 +3643,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[602004] = {
+	}
+	pg.base.island_formula[602004] = {
 		hitpoint = 0,
 		name = "草莓蜜沁",
 		production_limit = 12,
@@ -3335,8 +3684,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[602005] = {
+	}
+	pg.base.island_formula[602005] = {
 		hitpoint = 0,
 		name = "薰衣草茶",
 		production_limit = 12,
@@ -3376,8 +3725,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[602006] = {
+	}
+	pg.base.island_formula[602006] = {
 		hitpoint = 0,
 		name = "草莓蜂蜜冰沙",
 		production_limit = 12,
@@ -3417,8 +3766,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[602101] = {
+	}
+	pg.base.island_formula[602101] = {
 		hitpoint = 0,
 		name = "花香果韵",
 		production_limit = 12,
@@ -3458,8 +3807,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[602102] = {
+	}
+	pg.base.island_formula[602102] = {
 		hitpoint = 0,
 		name = "缤纷果乐园",
 		production_limit = 12,
@@ -3499,8 +3848,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[602103] = {
+	}
+	pg.base.island_formula[602103] = {
 		hitpoint = 0,
 		name = "阳光蜜水",
 		production_limit = 12,
@@ -3540,8 +3889,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[603001] = {
+	}
+	pg.base.island_formula[603001] = {
 		hitpoint = 0,
 		name = "玉米杯",
 		production_limit = 12,
@@ -3581,8 +3930,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[603002] = {
+	}
+	pg.base.island_formula[603002] = {
 		hitpoint = 0,
 		name = "苹果派",
 		production_limit = 12,
@@ -3622,8 +3971,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[603003] = {
+	}
+	pg.base.island_formula[603003] = {
 		hitpoint = 0,
 		name = "香橙派",
 		production_limit = 12,
@@ -3663,8 +4012,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[603004] = {
+	}
+	pg.base.island_formula[603004] = {
 		hitpoint = 0,
 		name = "芒果糯米饭",
 		production_limit = 12,
@@ -3704,8 +4053,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[603005] = {
+	}
+	pg.base.island_formula[603005] = {
 		hitpoint = 0,
 		name = "香蕉可丽饼",
 		production_limit = 12,
@@ -3745,8 +4094,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[603006] = {
+	}
+	pg.base.island_formula[603006] = {
 		hitpoint = 0,
 		name = "草莓夏洛特",
 		production_limit = 12,
@@ -3790,8 +4139,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[603007] = {
+	}
+	pg.base.island_formula[603007] = {
 		hitpoint = 0,
 		name = "海鲜饭",
 		production_limit = 12,
@@ -3835,8 +4184,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[603101] = {
+	}
+	pg.base.island_formula[603101] = {
 		hitpoint = 0,
 		name = "香甜组合",
 		production_limit = 12,
@@ -3876,8 +4225,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[603102] = {
+	}
+	pg.base.island_formula[603102] = {
 		hitpoint = 0,
 		name = "果园二重奏",
 		production_limit = 12,
@@ -3917,8 +4266,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[603103] = {
+	}
+	pg.base.island_formula[603103] = {
 		hitpoint = 0,
 		name = "莓果香橙甜点组",
 		production_limit = 12,
@@ -3958,8 +4307,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[604001] = {
+	}
+	pg.base.island_formula[604001] = {
 		hitpoint = 0,
 		name = "炭烤肉串",
 		production_limit = 12,
@@ -3995,8 +4344,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[604002] = {
+	}
+	pg.base.island_formula[604002] = {
 		hitpoint = 0,
 		name = "禽肉土豆拼盘",
 		production_limit = 12,
@@ -4036,8 +4385,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[604004] = {
+	}
+	pg.base.island_formula[604004] = {
 		hitpoint = 0,
 		name = "爆炒禽肉",
 		production_limit = 12,
@@ -4077,8 +4426,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[604005] = {
+	}
+	pg.base.island_formula[604005] = {
 		hitpoint = 0,
 		name = "胡萝卜厚蛋烧",
 		production_limit = 12,
@@ -4118,8 +4467,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[604006] = {
+	}
+	pg.base.island_formula[604006] = {
 		hitpoint = 0,
 		name = "汉堡肉饭",
 		production_limit = 12,
@@ -4163,8 +4512,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[604007] = {
+	}
+	pg.base.island_formula[604007] = {
 		hitpoint = 0,
 		name = "柠檬虾",
 		production_limit = 12,
@@ -4204,8 +4553,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[604008] = {
+	}
+	pg.base.island_formula[604008] = {
 		hitpoint = 0,
 		name = "爆炒小龙虾",
 		production_limit = 12,
@@ -4241,8 +4590,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[604101] = {
+	}
+	pg.base.island_formula[604101] = {
 		hitpoint = 0,
 		name = "烤肉狂欢",
 		production_limit = 12,
@@ -4282,8 +4631,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[604102] = {
+	}
+	pg.base.island_formula[604102] = {
 		hitpoint = 0,
 		name = "能量双拼套餐",
 		production_limit = 12,
@@ -4323,8 +4672,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701001] = {
+	}
+	pg.base.island_formula[701001] = {
 		hitpoint = 0,
 		name = "布料",
 		production_limit = 12,
@@ -4360,8 +4709,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701002] = {
+	}
+	pg.base.island_formula[701002] = {
 		hitpoint = 0,
 		name = "皮革",
 		production_limit = 5,
@@ -4397,8 +4746,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701003] = {
+	}
+	pg.base.island_formula[701003] = {
 		hitpoint = 0,
 		name = "绳索",
 		production_limit = 5,
@@ -4438,8 +4787,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701004] = {
+	}
+	pg.base.island_formula[701004] = {
 		hitpoint = 0,
 		name = "手套",
 		production_limit = 5,
@@ -4479,8 +4828,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701005] = {
+	}
+	pg.base.island_formula[701005] = {
 		hitpoint = 0,
 		name = "香囊",
 		production_limit = 5,
@@ -4520,8 +4869,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701006] = {
+	}
+	pg.base.island_formula[701006] = {
 		hitpoint = 0,
 		name = "鞋靴",
 		production_limit = 5,
@@ -4565,8 +4914,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701007] = {
+	}
+	pg.base.island_formula[701007] = {
 		hitpoint = 0,
 		name = "绷带",
 		production_limit = 6,
@@ -4610,8 +4959,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701008] = {
+	}
+	pg.base.island_formula[701008] = {
 		hitpoint = 0,
 		name = "炭笔",
 		production_limit = 8,
@@ -4651,8 +5000,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701009] = {
+	}
+	pg.base.island_formula[701009] = {
 		hitpoint = 0,
 		name = "电缆",
 		production_limit = 5,
@@ -4692,8 +5041,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701010] = {
+	}
+	pg.base.island_formula[701010] = {
 		hitpoint = 0,
 		name = "铁钉",
 		production_limit = 5,
@@ -4729,8 +5078,10 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701011] = {
+	}
+end)()
+;(function()
+	pg.base.island_formula[701011] = {
 		hitpoint = 0,
 		name = "硫酸",
 		production_limit = 5,
@@ -4766,8 +5117,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701012] = {
+	}
+	pg.base.island_formula[701012] = {
 		hitpoint = 0,
 		name = "火药",
 		production_limit = 5,
@@ -4807,8 +5158,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701013] = {
+	}
+	pg.base.island_formula[701013] = {
 		hitpoint = 0,
 		name = "刀叉餐具",
 		production_limit = 5,
@@ -4844,8 +5195,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701014] = {
+	}
+	pg.base.island_formula[701014] = {
 		hitpoint = 0,
 		name = "纸张",
 		production_limit = 8,
@@ -4881,8 +5232,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701015] = {
+	}
+	pg.base.island_formula[701015] = {
 		hitpoint = 0,
 		name = "记事本",
 		production_limit = 5,
@@ -4922,8 +5273,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701016] = {
+	}
+	pg.base.island_formula[701016] = {
 		hitpoint = 0,
 		name = "桌椅",
 		production_limit = 5,
@@ -4963,8 +5314,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701017] = {
+	}
+	pg.base.island_formula[701017] = {
 		hitpoint = 0,
 		name = "精选木桶",
 		production_limit = 5,
@@ -5004,8 +5355,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701018] = {
+	}
+	pg.base.island_formula[701018] = {
 		hitpoint = 0,
 		name = "文件柜",
 		production_limit = 5,
@@ -5045,8 +5396,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701019] = {
+	}
+	pg.base.island_formula[701019] = {
 		hitpoint = 0,
 		name = "墨盒",
 		production_limit = 5,
@@ -5086,8 +5437,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701020] = {
+	}
+	pg.base.island_formula[701020] = {
 		hitpoint = 0,
 		name = "钟表",
 		production_limit = 5,
@@ -5131,8 +5482,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701021] = {
+	}
+	pg.base.island_formula[701021] = {
 		hitpoint = 0,
 		name = "蓄电池",
 		production_limit = 5,
@@ -5176,8 +5527,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701022] = {
+	}
+	pg.base.island_formula[701022] = {
 		hitpoint = 0,
 		name = "净水滤芯",
 		production_limit = 5,
@@ -5221,8 +5572,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701023] = {
+	}
+	pg.base.island_formula[701023] = {
 		hitpoint = 0,
 		name = "装饰画",
 		production_limit = 8,
@@ -5262,8 +5613,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[901001] = {
+	}
+	pg.base.island_formula[901001] = {
 		hitpoint = 0,
 		name = "欧姆蛋",
 		production_limit = 12,
@@ -5299,8 +5650,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[901002] = {
+	}
+	pg.base.island_formula[901002] = {
 		hitpoint = 0,
 		name = "冰咖啡",
 		production_limit = 12,
@@ -5336,8 +5687,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[901003] = {
+	}
+	pg.base.island_formula[901003] = {
 		hitpoint = 0,
 		name = "芝士",
 		production_limit = 12,
@@ -5373,8 +5724,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[901004] = {
+	}
+	pg.base.island_formula[901004] = {
 		hitpoint = 0,
 		name = "拿铁",
 		production_limit = 12,
@@ -5414,8 +5765,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[901005] = {
+	}
+	pg.base.island_formula[901005] = {
 		hitpoint = 0,
 		name = "柑橘咖啡",
 		production_limit = 12,
@@ -5455,8 +5806,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[901006] = {
+	}
+	pg.base.island_formula[901006] = {
 		hitpoint = 0,
 		name = "草莓奶绿",
 		production_limit = 12,
@@ -5500,8 +5851,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[901101] = {
+	}
+	pg.base.island_formula[901101] = {
 		hitpoint = 0,
 		name = "晨光活力组合",
 		production_limit = 12,
@@ -5541,8 +5892,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[901102] = {
+	}
+	pg.base.island_formula[901102] = {
 		hitpoint = 0,
 		name = "醒神套餐",
 		production_limit = 12,
@@ -5582,8 +5933,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[901103] = {
+	}
+	pg.base.island_formula[901103] = {
 		hitpoint = 0,
 		name = "果香双杯乐",
 		production_limit = 12,
@@ -5623,8 +5974,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7100001] = {
+	}
+	pg.base.island_formula[7100001] = {
 		hitpoint = 0,
 		name = "岛屿权限认证函",
 		production_limit = 1,
@@ -5660,8 +6011,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7100002] = {
+	}
+	pg.base.island_formula[7100002] = {
 		hitpoint = 0,
 		name = "开启岛屿地图",
 		production_limit = 1,
@@ -5697,8 +6048,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7100003] = {
+	}
+	pg.base.island_formula[7100003] = {
 		hitpoint = 0,
 		name = "解锁经营事件",
 		production_limit = 1,
@@ -5734,8 +6085,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7100004] = {
+	}
+	pg.base.island_formula[7100004] = {
 		hitpoint = 0,
 		name = "集成管理界面",
 		production_limit = 1,
@@ -5771,8 +6122,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110001] = {
+	}
+	pg.base.island_formula[7110001] = {
 		hitpoint = 0,
 		name = "开启加急订单",
 		production_limit = 1,
@@ -5808,8 +6159,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110002] = {
+	}
+	pg.base.island_formula[7110002] = {
 		hitpoint = 0,
 		name = "解锁订单好评反馈",
 		production_limit = 1,
@@ -5845,8 +6196,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110101] = {
+	}
+	pg.base.island_formula[7110101] = {
 		hitpoint = 0,
 		name = "订单接取数量增加I",
 		production_limit = 1,
@@ -5882,8 +6233,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110102] = {
+	}
+	pg.base.island_formula[7110102] = {
 		hitpoint = 0,
 		name = "订单接取数量增加II",
 		production_limit = 1,
@@ -5919,8 +6270,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110103] = {
+	}
+	pg.base.island_formula[7110103] = {
 		hitpoint = 0,
 		name = "订单接取数量增加III",
 		production_limit = 1,
@@ -5956,8 +6307,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110301] = {
+	}
+	pg.base.island_formula[7110301] = {
 		hitpoint = 0,
 		name = "岛屿订单上限提升I",
 		production_limit = 1,
@@ -5993,8 +6344,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110302] = {
+	}
+	pg.base.island_formula[7110302] = {
 		hitpoint = 0,
 		name = "岛屿订单上限提升II",
 		production_limit = 1,
@@ -6030,8 +6381,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110303] = {
+	}
+	pg.base.island_formula[7110303] = {
 		hitpoint = 0,
 		name = "岛屿订单上限提升III",
 		production_limit = 1,
@@ -6067,8 +6418,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110304] = {
+	}
+	pg.base.island_formula[7110304] = {
 		hitpoint = 0,
 		name = "岛屿订单上限提升IV",
 		production_limit = 1,
@@ -6104,8 +6455,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110305] = {
+	}
+	pg.base.island_formula[7110305] = {
 		hitpoint = 0,
 		name = "岛屿订单上限提升V",
 		production_limit = 1,
@@ -6141,8 +6492,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110306] = {
+	}
+	pg.base.island_formula[7110306] = {
 		hitpoint = 0,
 		name = "岛屿订单上限提升VI",
 		production_limit = 1,
@@ -6178,8 +6529,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110307] = {
+	}
+	pg.base.island_formula[7110307] = {
 		hitpoint = 0,
 		name = "岛屿订单上限提升VII",
 		production_limit = 1,
@@ -6215,8 +6566,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110308] = {
+	}
+	pg.base.island_formula[7110308] = {
 		hitpoint = 0,
 		name = "岛屿订单上限提升VIII",
 		production_limit = 1,
@@ -6252,8 +6603,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110309] = {
+	}
+	pg.base.island_formula[7110309] = {
 		hitpoint = 0,
 		name = "岛屿订单上限提升IX",
 		production_limit = 1,
@@ -6289,8 +6640,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110310] = {
+	}
+	pg.base.island_formula[7110310] = {
 		hitpoint = 0,
 		name = "岛屿订单上限提升X",
 		production_limit = 1,
@@ -6326,8 +6677,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7120001] = {
+	}
+	pg.base.island_formula[7120001] = {
 		hitpoint = 0,
 		name = "认证函生产",
 		production_limit = 1,
@@ -6363,8 +6714,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7120002] = {
+	}
+	pg.base.island_formula[7120002] = {
 		hitpoint = 0,
 		name = "认证函生产",
 		production_limit = 1,
@@ -6390,8 +6741,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7120003] = {
+	}
+	pg.base.island_formula[7120003] = {
 		hitpoint = 0,
 		name = "认证函生产",
 		production_limit = 1,
@@ -6427,8 +6778,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7120004] = {
+	}
+	pg.base.island_formula[7120004] = {
 		hitpoint = 0,
 		name = "认证函生产",
 		production_limit = 1,
@@ -6464,8 +6815,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7120005] = {
+	}
+	pg.base.island_formula[7120005] = {
 		hitpoint = 0,
 		name = "认证函生产",
 		production_limit = 1,
@@ -6501,8 +6852,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7120006] = {
+	}
+	pg.base.island_formula[7120006] = {
 		hitpoint = 0,
 		name = "认证函生产",
 		production_limit = 1,
@@ -6538,8 +6889,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7120007] = {
+	}
+	pg.base.island_formula[7120007] = {
 		hitpoint = 0,
 		name = "认证函生产",
 		production_limit = 1,
@@ -6575,8 +6926,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7100301] = {
+	}
+	pg.base.island_formula[7100301] = {
 		hitpoint = 0,
 		name = "仓库扩建I",
 		production_limit = 1,
@@ -6612,8 +6963,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7100302] = {
+	}
+	pg.base.island_formula[7100302] = {
 		hitpoint = 0,
 		name = "仓库扩建II",
 		production_limit = 1,
@@ -6649,8 +7000,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7100303] = {
+	}
+	pg.base.island_formula[7100303] = {
 		hitpoint = 0,
 		name = "仓库扩建III",
 		production_limit = 1,
@@ -6686,8 +7037,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7100304] = {
+	}
+	pg.base.island_formula[7100304] = {
 		hitpoint = 0,
 		name = "仓库扩建IV",
 		production_limit = 1,
@@ -6723,8 +7074,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7100305] = {
+	}
+	pg.base.island_formula[7100305] = {
 		hitpoint = 0,
 		name = "仓库扩建V",
 		production_limit = 1,
@@ -6760,8 +7111,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7100306] = {
+	}
+	pg.base.island_formula[7100306] = {
 		hitpoint = 0,
 		name = "仓库扩建VI",
 		production_limit = 1,
@@ -6797,8 +7148,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7100307] = {
+	}
+	pg.base.island_formula[7100307] = {
 		hitpoint = 0,
 		name = "仓库扩建VII",
 		production_limit = 1,
@@ -6834,8 +7185,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7100308] = {
+	}
+	pg.base.island_formula[7100308] = {
 		hitpoint = 0,
 		name = "仓库扩建VIII",
 		production_limit = 1,
@@ -6871,8 +7222,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7130301] = {
+	}
+	pg.base.island_formula[7130301] = {
 		hitpoint = 0,
 		name = "日常补给数量增加I",
 		production_limit = 1,
@@ -6908,8 +7259,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7130302] = {
+	}
+	pg.base.island_formula[7130302] = {
 		hitpoint = 0,
 		name = "日常补给数量增加II",
 		production_limit = 1,
@@ -6945,8 +7296,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7140101] = {
+	}
+	pg.base.island_formula[7140101] = {
 		hitpoint = 0,
 		name = "基地科研岗位增加",
 		production_limit = 1,
@@ -6982,8 +7333,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7210101] = {
+	}
+	pg.base.island_formula[7210101] = {
 		hitpoint = 0,
 		name = "解锁林场伐木岗位",
 		production_limit = 1,
@@ -7019,8 +7370,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7210102] = {
+	}
+	pg.base.island_formula[7210102] = {
 		hitpoint = 0,
 		name = "林场伐木岗位增加I",
 		production_limit = 1,
@@ -7064,8 +7415,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7210103] = {
+	}
+	pg.base.island_formula[7210103] = {
 		hitpoint = 0,
 		name = "林场伐木岗位增加II",
 		production_limit = 1,
@@ -7109,8 +7460,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7210104] = {
+	}
+	pg.base.island_formula[7210104] = {
 		hitpoint = 0,
 		name = "林场伐木岗位增加III",
 		production_limit = 1,
@@ -7154,8 +7505,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7210401] = {
+	}
+	pg.base.island_formula[7210401] = {
 		hitpoint = 0,
 		name = "手动伐木恢复加快",
 		production_limit = 1,
@@ -7191,8 +7542,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7210201] = {
+	}
+	pg.base.island_formula[7210201] = {
 		hitpoint = 0,
 		name = "实用之木生产技术",
 		production_limit = 1,
@@ -7236,8 +7587,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7210202] = {
+	}
+	pg.base.island_formula[7210202] = {
 		hitpoint = 0,
 		name = "精选之木生产技术",
 		production_limit = 1,
@@ -7281,8 +7632,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7210203] = {
+	}
+	pg.base.island_formula[7210203] = {
 		hitpoint = 0,
 		name = "典雅之木生产技术",
 		production_limit = 1,
@@ -7326,8 +7677,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7210501] = {
+	}
+	pg.base.island_formula[7210501] = {
 		hitpoint = 0,
 		name = "手动伐木效率提升I",
 		production_limit = 1,
@@ -7371,8 +7722,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7210502] = {
+	}
+	pg.base.island_formula[7210502] = {
 		hitpoint = 0,
 		name = "手动伐木效率提升II",
 		production_limit = 1,
@@ -7416,8 +7767,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7210601] = {
+	}
+	pg.base.island_formula[7210601] = {
 		hitpoint = 0,
 		name = "伐木岗位效率提升",
 		production_limit = 1,
@@ -7461,8 +7812,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7220101] = {
+	}
+	pg.base.island_formula[7220101] = {
 		hitpoint = 0,
 		name = "解锁矿山采矿岗位",
 		production_limit = 1,
@@ -7498,8 +7849,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7220102] = {
+	}
+	pg.base.island_formula[7220102] = {
 		hitpoint = 0,
 		name = "矿山采矿岗位增加I",
 		production_limit = 1,
@@ -7543,8 +7894,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7220103] = {
+	}
+	pg.base.island_formula[7220103] = {
 		hitpoint = 0,
 		name = "矿山采矿岗位增加II",
 		production_limit = 1,
@@ -7588,8 +7939,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7220104] = {
+	}
+	pg.base.island_formula[7220104] = {
 		hitpoint = 0,
 		name = "矿山采矿岗位增加III",
 		production_limit = 1,
@@ -7633,8 +7984,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7220201] = {
+	}
+	pg.base.island_formula[7220201] = {
 		hitpoint = 0,
 		name = "铝矿勘探技术",
 		production_limit = 1,
@@ -7670,8 +8021,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7220202] = {
+	}
+	pg.base.island_formula[7220202] = {
 		hitpoint = 0,
 		name = "铁矿勘探技术",
 		production_limit = 1,
@@ -7715,8 +8066,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7220203] = {
+	}
+	pg.base.island_formula[7220203] = {
 		hitpoint = 0,
 		name = "硫矿勘探技术",
 		production_limit = 1,
@@ -7760,8 +8111,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7220204] = {
+	}
+	pg.base.island_formula[7220204] = {
 		hitpoint = 0,
 		name = "银矿勘探技术",
 		production_limit = 1,
@@ -7805,8 +8156,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7220401] = {
+	}
+	pg.base.island_formula[7220401] = {
 		hitpoint = 0,
 		name = "手动采矿恢复加快",
 		production_limit = 1,
@@ -7842,8 +8193,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7220501] = {
+	}
+	pg.base.island_formula[7220501] = {
 		hitpoint = 0,
 		name = "手动采矿效率提升I",
 		production_limit = 1,
@@ -7879,8 +8230,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7220502] = {
+	}
+	pg.base.island_formula[7220502] = {
 		hitpoint = 0,
 		name = "手动采矿效率提升II",
 		production_limit = 1,
@@ -7924,8 +8275,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7220601] = {
+	}
+	pg.base.island_formula[7220601] = {
 		hitpoint = 0,
 		name = "采矿岗位效率提升",
 		production_limit = 1,
@@ -7969,8 +8320,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310001] = {
+	}
+	pg.base.island_formula[7310001] = {
 		hitpoint = 0,
 		name = "手动播种范围增加",
 		production_limit = 1,
@@ -8014,8 +8365,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310002] = {
+	}
+	pg.base.island_formula[7310002] = {
 		hitpoint = 0,
 		name = "手动播种范围增加",
 		production_limit = 1,
@@ -8041,8 +8392,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310101] = {
+	}
+	pg.base.island_formula[7310101] = {
 		hitpoint = 0,
 		name = "解锁农场管理岗位",
 		production_limit = 1,
@@ -8078,8 +8429,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310102] = {
+	}
+	pg.base.island_formula[7310102] = {
 		hitpoint = 0,
 		name = "农场管理岗位增加I",
 		production_limit = 1,
@@ -8123,8 +8474,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310103] = {
+	}
+	pg.base.island_formula[7310103] = {
 		hitpoint = 0,
 		name = "农场管理岗位增加II",
 		production_limit = 1,
@@ -8168,8 +8519,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310104] = {
+	}
+	pg.base.island_formula[7310104] = {
 		hitpoint = 0,
 		name = "农场管理岗位增加III",
 		production_limit = 1,
@@ -8213,8 +8564,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310301] = {
+	}
+	pg.base.island_formula[7310301] = {
 		hitpoint = 0,
 		name = "扩建晨露农场I",
 		production_limit = 1,
@@ -8250,8 +8601,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310302] = {
+	}
+	pg.base.island_formula[7310302] = {
 		hitpoint = 0,
 		name = "扩建晨露农场II",
 		production_limit = 1,
@@ -8287,8 +8638,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310303] = {
+	}
+	pg.base.island_formula[7310303] = {
 		hitpoint = 0,
 		name = "扩建晨露农场III",
 		production_limit = 1,
@@ -8332,8 +8683,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310304] = {
+	}
+	pg.base.island_formula[7310304] = {
 		hitpoint = 0,
 		name = "扩建晨露农场IV",
 		production_limit = 1,
@@ -8377,8 +8728,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310305] = {
+	}
+	pg.base.island_formula[7310305] = {
 		hitpoint = 0,
 		name = "扩建晨露农场V",
 		production_limit = 1,
@@ -8422,8 +8773,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310306] = {
+	}
+	pg.base.island_formula[7310306] = {
 		hitpoint = 0,
 		name = "扩建晨露农场VI",
 		production_limit = 1,
@@ -8467,8 +8818,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310307] = {
+	}
+	pg.base.island_formula[7310307] = {
 		hitpoint = 0,
 		name = "扩建晨露农场VII",
 		production_limit = 1,
@@ -8512,8 +8863,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310308] = {
+	}
+	pg.base.island_formula[7310308] = {
 		hitpoint = 0,
 		name = "扩建晨露农场VIII",
 		production_limit = 1,
@@ -8557,8 +8908,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310309] = {
+	}
+	pg.base.island_formula[7310309] = {
 		hitpoint = 0,
 		name = "扩建晨露农场IX",
 		production_limit = 1,
@@ -8602,8 +8953,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7320101] = {
+	}
+	pg.base.island_formula[7320101] = {
 		hitpoint = 0,
 		name = "解锁苗圃管理岗位",
 		production_limit = 1,
@@ -8647,8 +8998,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7320102] = {
+	}
+	pg.base.island_formula[7320102] = {
 		hitpoint = 0,
 		name = "苗圃管理岗位增加",
 		production_limit = 1,
@@ -8692,8 +9043,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7320301] = {
+	}
+	pg.base.island_formula[7320301] = {
 		hitpoint = 0,
 		name = "扩建青芽苗圃I",
 		production_limit = 1,
@@ -8729,8 +9080,10 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7320302] = {
+	}
+end)()
+;(function()
+	pg.base.island_formula[7320302] = {
 		hitpoint = 0,
 		name = "扩建青芽苗圃II",
 		production_limit = 1,
@@ -8774,8 +9127,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7320303] = {
+	}
+	pg.base.island_formula[7320303] = {
 		hitpoint = 0,
 		name = "扩建青芽苗圃III",
 		production_limit = 1,
@@ -8819,8 +9172,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7320304] = {
+	}
+	pg.base.island_formula[7320304] = {
 		hitpoint = 0,
 		name = "扩建青芽苗圃IV",
 		production_limit = 1,
@@ -8864,8 +9217,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7330101] = {
+	}
+	pg.base.island_formula[7330101] = {
 		hitpoint = 0,
 		name = "解锁果园管理岗位",
 		production_limit = 1,
@@ -8909,8 +9262,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7330102] = {
+	}
+	pg.base.island_formula[7330102] = {
 		hitpoint = 0,
 		name = "果园管理岗位增加I",
 		production_limit = 1,
@@ -8954,8 +9307,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7330103] = {
+	}
+	pg.base.island_formula[7330103] = {
 		hitpoint = 0,
 		name = "果园管理岗位增加II",
 		production_limit = 1,
@@ -8999,8 +9352,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7330104] = {
+	}
+	pg.base.island_formula[7330104] = {
 		hitpoint = 0,
 		name = "果园管理岗位增加III",
 		production_limit = 1,
@@ -9044,8 +9397,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7330301] = {
+	}
+	pg.base.island_formula[7330301] = {
 		hitpoint = 0,
 		name = "扩建坠香果园I",
 		production_limit = 1,
@@ -9081,8 +9434,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7330302] = {
+	}
+	pg.base.island_formula[7330302] = {
 		hitpoint = 0,
 		name = "扩建坠香果园II",
 		production_limit = 1,
@@ -9126,8 +9479,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7330303] = {
+	}
+	pg.base.island_formula[7330303] = {
 		hitpoint = 0,
 		name = "扩建坠香果园III",
 		production_limit = 1,
@@ -9171,8 +9524,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310201] = {
+	}
+	pg.base.island_formula[7310201] = {
 		hitpoint = 0,
 		name = "牧草种植技术",
 		production_limit = 1,
@@ -9208,8 +9561,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310202] = {
+	}
+	pg.base.island_formula[7310202] = {
 		hitpoint = 0,
 		name = "旱稻种植技术",
 		production_limit = 1,
@@ -9245,8 +9598,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7320201] = {
+	}
+	pg.base.island_formula[7320201] = {
 		hitpoint = 0,
 		name = "草莓种植技术",
 		production_limit = 1,
@@ -9290,8 +9643,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7320202] = {
+	}
+	pg.base.island_formula[7320202] = {
 		hitpoint = 0,
 		name = "棉花种植技术",
 		production_limit = 1,
@@ -9335,8 +9688,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7320203] = {
+	}
+	pg.base.island_formula[7320203] = {
 		hitpoint = 0,
 		name = "茶树种植技术",
 		production_limit = 1,
@@ -9380,8 +9733,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7320204] = {
+	}
+	pg.base.island_formula[7320204] = {
 		hitpoint = 0,
 		name = "胡萝卜种植技术",
 		production_limit = 1,
@@ -9425,8 +9778,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7320205] = {
+	}
+	pg.base.island_formula[7320205] = {
 		hitpoint = 0,
 		name = "薰衣草种植技术",
 		production_limit = 1,
@@ -9470,8 +9823,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7320206] = {
+	}
+	pg.base.island_formula[7320206] = {
 		hitpoint = 0,
 		name = "洋葱种植技术",
 		production_limit = 1,
@@ -9515,8 +9868,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7330201] = {
+	}
+	pg.base.island_formula[7330201] = {
 		hitpoint = 0,
 		name = "橡胶树种植技术",
 		production_limit = 1,
@@ -9560,8 +9913,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7400001] = {
+	}
+	pg.base.island_formula[7400001] = {
 		hitpoint = 0,
 		name = "牧场额外产出",
 		production_limit = 1,
@@ -9597,8 +9950,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7410301] = {
+	}
+	pg.base.island_formula[7410301] = {
 		hitpoint = 0,
 		name = "更多的鸡！I",
 		production_limit = 1,
@@ -9634,8 +9987,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7410302] = {
+	}
+	pg.base.island_formula[7410302] = {
 		hitpoint = 0,
 		name = "更多的鸡！II",
 		production_limit = 1,
@@ -9671,8 +10024,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7410303] = {
+	}
+	pg.base.island_formula[7410303] = {
 		hitpoint = 0,
 		name = "更多的鸡！III",
 		production_limit = 1,
@@ -9716,8 +10069,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7410304] = {
+	}
+	pg.base.island_formula[7410304] = {
 		hitpoint = 0,
 		name = "更多的鸡！IV",
 		production_limit = 1,
@@ -9761,8 +10114,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7410305] = {
+	}
+	pg.base.island_formula[7410305] = {
 		hitpoint = 0,
 		name = "更多的鸡！V",
 		production_limit = 1,
@@ -9806,8 +10159,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7420301] = {
+	}
+	pg.base.island_formula[7420301] = {
 		hitpoint = 0,
 		name = "哼哼猪养殖",
 		production_limit = 1,
@@ -9843,8 +10196,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7420302] = {
+	}
+	pg.base.island_formula[7420302] = {
 		hitpoint = 0,
 		name = "更多的猪！I",
 		production_limit = 1,
@@ -9880,8 +10233,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7420303] = {
+	}
+	pg.base.island_formula[7420303] = {
 		hitpoint = 0,
 		name = "更多的猪！II",
 		production_limit = 1,
@@ -9925,8 +10278,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7420304] = {
+	}
+	pg.base.island_formula[7420304] = {
 		hitpoint = 0,
 		name = "更多的猪！III",
 		production_limit = 1,
@@ -9970,8 +10323,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7430301] = {
+	}
+	pg.base.island_formula[7430301] = {
 		hitpoint = 0,
 		name = "哞哞牛养殖",
 		production_limit = 1,
@@ -10007,8 +10360,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7430302] = {
+	}
+	pg.base.island_formula[7430302] = {
 		hitpoint = 0,
 		name = "更多的牛！I",
 		production_limit = 1,
@@ -10052,8 +10405,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7430303] = {
+	}
+	pg.base.island_formula[7430303] = {
 		hitpoint = 0,
 		name = "更多的牛！II",
 		production_limit = 1,
@@ -10097,8 +10450,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7430304] = {
+	}
+	pg.base.island_formula[7430304] = {
 		hitpoint = 0,
 		name = "更多的牛！III",
 		production_limit = 1,
@@ -10142,8 +10495,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7440301] = {
+	}
+	pg.base.island_formula[7440301] = {
 		hitpoint = 0,
 		name = "咩咩羊养殖",
 		production_limit = 1,
@@ -10187,8 +10540,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7440302] = {
+	}
+	pg.base.island_formula[7440302] = {
 		hitpoint = 0,
 		name = "更多的羊！I",
 		production_limit = 1,
@@ -10232,8 +10585,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7440303] = {
+	}
+	pg.base.island_formula[7440303] = {
 		hitpoint = 0,
 		name = "更多的羊！II",
 		production_limit = 1,
@@ -10277,8 +10630,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7440304] = {
+	}
+	pg.base.island_formula[7440304] = {
 		hitpoint = 0,
 		name = "更多的羊！III",
 		production_limit = 1,
@@ -10322,8 +10675,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7450301] = {
+	}
+	pg.base.island_formula[7450301] = {
 		hitpoint = 0,
 		name = "蜂蜜采集点增加I",
 		production_limit = 1,
@@ -10367,8 +10720,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7450302] = {
+	}
+	pg.base.island_formula[7450302] = {
 		hitpoint = 0,
 		name = "蜂蜜采集点增加II",
 		production_limit = 1,
@@ -10412,8 +10765,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7460001] = {
+	}
+	pg.base.island_formula[7460001] = {
 		hitpoint = 0,
 		name = "升级吊杆+",
 		production_limit = 1,
@@ -10457,8 +10810,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7460002] = {
+	}
+	pg.base.island_formula[7460002] = {
 		hitpoint = 0,
 		name = "升级吊杆+",
 		production_limit = 1,
@@ -10502,8 +10855,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7460101] = {
+	}
+	pg.base.island_formula[7460101] = {
 		hitpoint = 0,
 		name = "鱼池解锁",
 		production_limit = 1,
@@ -10547,8 +10900,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7460301] = {
+	}
+	pg.base.island_formula[7460301] = {
 		hitpoint = 0,
 		name = "养鱼加速",
 		production_limit = 1,
@@ -10592,8 +10945,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7460102] = {
+	}
+	pg.base.island_formula[7460102] = {
 		hitpoint = 0,
 		name = "鱼池解锁",
 		production_limit = 1,
@@ -10637,8 +10990,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7460302] = {
+	}
+	pg.base.island_formula[7460302] = {
 		hitpoint = 0,
 		name = "养鱼加速",
 		production_limit = 1,
@@ -10682,8 +11035,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7460201] = {
+	}
+	pg.base.island_formula[7460201] = {
 		hitpoint = 0,
 		name = "炸鱼薯条",
 		production_limit = 1,
@@ -10727,8 +11080,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7460202] = {
+	}
+	pg.base.island_formula[7460202] = {
 		hitpoint = 0,
 		name = "洋葱鱼肉",
 		production_limit = 1,
@@ -10772,8 +11125,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7460203] = {
+	}
+	pg.base.island_formula[7460203] = {
 		hitpoint = 0,
 		name = "海鲜饭",
 		production_limit = 1,
@@ -10817,8 +11170,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7460204] = {
+	}
+	pg.base.island_formula[7460204] = {
 		hitpoint = 0,
 		name = "佛跳墙",
 		production_limit = 1,
@@ -10862,8 +11215,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7460205] = {
+	}
+	pg.base.island_formula[7460205] = {
 		hitpoint = 0,
 		name = "爆炒小龙虾",
 		production_limit = 1,
@@ -10907,8 +11260,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7460206] = {
+	}
+	pg.base.island_formula[7460206] = {
 		hitpoint = 0,
 		name = "柠檬虾",
 		production_limit = 1,
@@ -10952,8 +11305,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7500211] = {
+	}
+	pg.base.island_formula[7500211] = {
 		hitpoint = 0,
 		name = "咖啡树种植技术",
 		production_limit = 1,
@@ -10989,8 +11342,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7500212] = {
+	}
+	pg.base.island_formula[7500212] = {
 		hitpoint = 0,
 		name = "玉米种植技术",
 		production_limit = 1,
@@ -11026,8 +11379,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7500213] = {
+	}
+	pg.base.island_formula[7500213] = {
 		hitpoint = 0,
 		name = "大豆种植技术",
 		production_limit = 1,
@@ -11063,8 +11416,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7500214] = {
+	}
+	pg.base.island_formula[7500214] = {
 		hitpoint = 0,
 		name = "土豆种植技术",
 		production_limit = 1,
@@ -11108,8 +11461,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7500215] = {
+	}
+	pg.base.island_formula[7500215] = {
 		hitpoint = 0,
 		name = "白菜种植技术",
 		production_limit = 1,
@@ -11145,8 +11498,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7500231] = {
+	}
+	pg.base.island_formula[7500231] = {
 		hitpoint = 0,
 		name = "苹果树种植技术",
 		production_limit = 1,
@@ -11182,8 +11535,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7500232] = {
+	}
+	pg.base.island_formula[7500232] = {
 		hitpoint = 0,
 		name = "柑橘树种植技术",
 		production_limit = 1,
@@ -11227,8 +11580,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7500233] = {
+	}
+	pg.base.island_formula[7500233] = {
 		hitpoint = 0,
 		name = "香蕉树种植技术",
 		production_limit = 1,
@@ -11272,8 +11625,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7500234] = {
+	}
+	pg.base.island_formula[7500234] = {
 		hitpoint = 0,
 		name = "芒果树种植技术",
 		production_limit = 1,
@@ -11317,8 +11670,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7500235] = {
+	}
+	pg.base.island_formula[7500235] = {
 		hitpoint = 0,
 		name = "柠檬树种植技术",
 		production_limit = 1,
@@ -11362,8 +11715,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7500236] = {
+	}
+	pg.base.island_formula[7500236] = {
 		hitpoint = 0,
 		name = "牛油果树种植技术",
 		production_limit = 1,
@@ -11407,8 +11760,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7500001] = {
+	}
+	pg.base.island_formula[7500001] = {
 		hitpoint = 0,
 		name = "解锁美食搭配",
 		production_limit = 1,
@@ -11452,8 +11805,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7510101] = {
+	}
+	pg.base.island_formula[7510101] = {
 		hitpoint = 0,
 		name = "有鱼餐馆岗位增加",
 		production_limit = 1,
@@ -11497,8 +11850,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7510201] = {
+	}
+	pg.base.island_formula[7510201] = {
 		hitpoint = 0,
 		name = "肉沫烧豆腐食谱",
 		production_limit = 1,
@@ -11542,8 +11895,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7510202] = {
+	}
+	pg.base.island_formula[7510202] = {
 		hitpoint = 0,
 		name = "蛋包饭食谱",
 		production_limit = 1,
@@ -11587,8 +11940,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7510203] = {
+	}
+	pg.base.island_formula[7510203] = {
 		hitpoint = 0,
 		name = "白菜豆腐汤食谱",
 		production_limit = 1,
@@ -11632,8 +11985,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7510204] = {
+	}
+	pg.base.island_formula[7510204] = {
 		hitpoint = 0,
 		name = "蔬菜沙拉食谱",
 		production_limit = 1,
@@ -11677,8 +12030,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7520001] = {
+	}
+	pg.base.island_formula[7520001] = {
 		hitpoint = 0,
 		name = "建设白熊饮品",
 		production_limit = 1,
@@ -11714,8 +12067,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7520101] = {
+	}
+	pg.base.island_formula[7520101] = {
 		hitpoint = 0,
 		name = "白熊饮品岗位增加",
 		production_limit = 1,
@@ -11759,8 +12112,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7520201] = {
+	}
+	pg.base.island_formula[7520201] = {
 		hitpoint = 0,
 		name = "香蕉芒果汁食谱",
 		production_limit = 1,
@@ -11804,8 +12157,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7520202] = {
+	}
+	pg.base.island_formula[7520202] = {
 		hitpoint = 0,
 		name = "蜂蜜柠檬水食谱",
 		production_limit = 1,
@@ -11849,8 +12202,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7520203] = {
+	}
+	pg.base.island_formula[7520203] = {
 		hitpoint = 0,
 		name = "草莓蜂蜜冰沙食谱",
 		production_limit = 1,
@@ -11894,8 +12247,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7520204] = {
+	}
+	pg.base.island_formula[7520204] = {
 		hitpoint = 0,
 		name = "薰衣草茶食谱",
 		production_limit = 1,
@@ -11939,8 +12292,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7520205] = {
+	}
+	pg.base.island_formula[7520205] = {
 		hitpoint = 0,
 		name = "草莓蜜沁食谱",
 		production_limit = 1,
@@ -11984,8 +12337,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7530001] = {
+	}
+	pg.base.island_formula[7530001] = {
 		hitpoint = 0,
 		name = "建设啾啾简餐",
 		production_limit = 1,
@@ -12029,8 +12382,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7530101] = {
+	}
+	pg.base.island_formula[7530101] = {
 		hitpoint = 0,
 		name = "啾啾简餐岗位增加",
 		production_limit = 1,
@@ -12074,8 +12427,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7530201] = {
+	}
+	pg.base.island_formula[7530201] = {
 		hitpoint = 0,
 		name = "玉米杯食谱",
 		production_limit = 1,
@@ -12119,8 +12472,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7530202] = {
+	}
+	pg.base.island_formula[7530202] = {
 		hitpoint = 0,
 		name = "芒果糯米饭食谱",
 		production_limit = 1,
@@ -12164,8 +12517,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7530203] = {
+	}
+	pg.base.island_formula[7530203] = {
 		hitpoint = 0,
 		name = "香蕉可丽饼食谱",
 		production_limit = 1,
@@ -12209,8 +12562,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7530204] = {
+	}
+	pg.base.island_formula[7530204] = {
 		hitpoint = 0,
 		name = "草莓夏洛特食谱",
 		production_limit = 1,
@@ -12254,8 +12607,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7530205] = {
+	}
+	pg.base.island_formula[7530205] = {
 		hitpoint = 0,
 		name = "苹果派食谱",
 		production_limit = 1,
@@ -12299,8 +12652,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7530206] = {
+	}
+	pg.base.island_formula[7530206] = {
 		hitpoint = 0,
 		name = "香橙派食谱",
 		production_limit = 1,
@@ -12344,8 +12697,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7540001] = {
+	}
+	pg.base.island_formula[7540001] = {
 		hitpoint = 0,
 		name = "建设乌鱼烤肉",
 		production_limit = 1,
@@ -12389,8 +12742,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7540101] = {
+	}
+	pg.base.island_formula[7540101] = {
 		hitpoint = 0,
 		name = "乌鱼烤肉岗位增加",
 		production_limit = 1,
@@ -12434,8 +12787,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7540201] = {
+	}
+	pg.base.island_formula[7540201] = {
 		hitpoint = 0,
 		name = "禽肉土豆拼盘食谱",
 		production_limit = 1,
@@ -12479,8 +12832,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7540202] = {
+	}
+	pg.base.island_formula[7540202] = {
 		hitpoint = 0,
 		name = "爆炒禽肉食谱",
 		production_limit = 1,
@@ -12524,8 +12877,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7540204] = {
+	}
+	pg.base.island_formula[7540204] = {
 		hitpoint = 0,
 		name = "胡萝卜厚蛋烧食谱",
 		production_limit = 1,
@@ -12569,8 +12922,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7540205] = {
+	}
+	pg.base.island_formula[7540205] = {
 		hitpoint = 0,
 		name = "汉堡肉饭食谱",
 		production_limit = 1,
@@ -12614,8 +12967,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7550201] = {
+	}
+	pg.base.island_formula[7550201] = {
 		hitpoint = 0,
 		name = "起司食谱",
 		production_limit = 1,
@@ -12651,8 +13004,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7550202] = {
+	}
+	pg.base.island_formula[7550202] = {
 		hitpoint = 0,
 		name = "拿铁食谱",
 		production_limit = 1,
@@ -12696,8 +13049,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7550203] = {
+	}
+	pg.base.island_formula[7550203] = {
 		hitpoint = 0,
 		name = "柑橘咖啡食谱",
 		production_limit = 1,
@@ -12741,8 +13094,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7550204] = {
+	}
+	pg.base.island_formula[7550204] = {
 		hitpoint = 0,
 		name = "草莓奶绿食谱",
 		production_limit = 1,
@@ -12786,8 +13139,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7610101] = {
+	}
+	pg.base.island_formula[7610101] = {
 		hitpoint = 0,
 		name = "货运委托上限提升I",
 		production_limit = 1,
@@ -12823,8 +13176,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7610102] = {
+	}
+	pg.base.island_formula[7610102] = {
 		hitpoint = 0,
 		name = "货运委托上限提升II",
 		production_limit = 1,
@@ -12868,8 +13221,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7610401] = {
+	}
+	pg.base.island_formula[7610401] = {
 		hitpoint = 0,
 		name = "货运效率提升I",
 		production_limit = 1,
@@ -12905,8 +13258,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7610402] = {
+	}
+	pg.base.island_formula[7610402] = {
 		hitpoint = 0,
 		name = "货运效率提升II",
 		production_limit = 1,
@@ -12950,8 +13303,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7610403] = {
+	}
+	pg.base.island_formula[7610403] = {
 		hitpoint = 0,
 		name = "货运效率提升III",
 		production_limit = 1,
@@ -12995,8 +13348,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7620101] = {
+	}
+	pg.base.island_formula[7620101] = {
 		hitpoint = 0,
 		name = "啾咖啡岗位增加",
 		production_limit = 1,
@@ -13040,8 +13393,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7630101] = {
+	}
+	pg.base.island_formula[7630101] = {
 		hitpoint = 0,
 		name = "木料加工岗位增加",
 		production_limit = 1,
@@ -13085,8 +13438,10 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7630201] = {
+	}
+end)()
+;(function()
+	pg.base.island_formula[7630201] = {
 		hitpoint = 0,
 		name = "记事本生产工艺",
 		production_limit = 1,
@@ -13130,8 +13485,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7630202] = {
+	}
+	pg.base.island_formula[7630202] = {
 		hitpoint = 0,
 		name = "桌椅生产工艺",
 		production_limit = 1,
@@ -13175,8 +13530,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7630203] = {
+	}
+	pg.base.island_formula[7630203] = {
 		hitpoint = 0,
 		name = "精选木桶生产工艺",
 		production_limit = 1,
@@ -13220,8 +13575,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7630204] = {
+	}
+	pg.base.island_formula[7630204] = {
 		hitpoint = 0,
 		name = "文件柜生产工艺",
 		production_limit = 1,
@@ -13265,8 +13620,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7630205] = {
+	}
+	pg.base.island_formula[7630205] = {
 		hitpoint = 0,
 		name = "装饰画生产工艺",
 		production_limit = 1,
@@ -13310,8 +13665,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7640001] = {
+	}
+	pg.base.island_formula[7640001] = {
 		hitpoint = 0,
 		name = "解锁工业生产设备",
 		production_limit = 1,
@@ -13355,8 +13710,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7640101] = {
+	}
+	pg.base.island_formula[7640101] = {
 		hitpoint = 0,
 		name = "工业生产岗位增加",
 		production_limit = 1,
@@ -13400,8 +13755,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7640201] = {
+	}
+	pg.base.island_formula[7640201] = {
 		hitpoint = 0,
 		name = "铁钉生产工艺",
 		production_limit = 1,
@@ -13445,8 +13800,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7640202] = {
+	}
+	pg.base.island_formula[7640202] = {
 		hitpoint = 0,
 		name = "电缆生产工艺",
 		production_limit = 1,
@@ -13490,8 +13845,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7640203] = {
+	}
+	pg.base.island_formula[7640203] = {
 		hitpoint = 0,
 		name = "硫酸生产工艺",
 		production_limit = 1,
@@ -13535,8 +13890,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7640204] = {
+	}
+	pg.base.island_formula[7640204] = {
 		hitpoint = 0,
 		name = "火药生产工艺",
 		production_limit = 1,
@@ -13580,8 +13935,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7640205] = {
+	}
+	pg.base.island_formula[7640205] = {
 		hitpoint = 0,
 		name = "餐具生产工艺",
 		production_limit = 1,
@@ -13625,8 +13980,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7650001] = {
+	}
+	pg.base.island_formula[7650001] = {
 		hitpoint = 0,
 		name = "解锁电子加工设备",
 		production_limit = 1,
@@ -13670,8 +14025,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7650101] = {
+	}
+	pg.base.island_formula[7650101] = {
 		hitpoint = 0,
 		name = "电子加工岗位增加",
 		production_limit = 1,
@@ -13715,8 +14070,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7650201] = {
+	}
+	pg.base.island_formula[7650201] = {
 		hitpoint = 0,
 		name = "钟表生产工艺",
 		production_limit = 1,
@@ -13760,8 +14115,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7650202] = {
+	}
+	pg.base.island_formula[7650202] = {
 		hitpoint = 0,
 		name = "蓄电池生产工艺",
 		production_limit = 1,
@@ -13805,8 +14160,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7650203] = {
+	}
+	pg.base.island_formula[7650203] = {
 		hitpoint = 0,
 		name = "净水滤芯生产工艺",
 		production_limit = 1,
@@ -13850,8 +14205,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7660001] = {
+	}
+	pg.base.island_formula[7660001] = {
 		hitpoint = 0,
 		name = "解锁手工制作设备",
 		production_limit = 1,
@@ -13895,8 +14250,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7660101] = {
+	}
+	pg.base.island_formula[7660101] = {
 		hitpoint = 0,
 		name = "手工制作岗位增加",
 		production_limit = 1,
@@ -13940,8 +14295,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7660201] = {
+	}
+	pg.base.island_formula[7660201] = {
 		hitpoint = 0,
 		name = "皮革生产工艺",
 		production_limit = 1,
@@ -13985,8 +14340,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7660202] = {
+	}
+	pg.base.island_formula[7660202] = {
 		hitpoint = 0,
 		name = "绳索生产工艺",
 		production_limit = 1,
@@ -14030,8 +14385,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7660203] = {
+	}
+	pg.base.island_formula[7660203] = {
 		hitpoint = 0,
 		name = "手套生产工艺",
 		production_limit = 1,
@@ -14075,8 +14430,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7660204] = {
+	}
+	pg.base.island_formula[7660204] = {
 		hitpoint = 0,
 		name = "香囊生产工艺",
 		production_limit = 1,
@@ -14120,8 +14475,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7660205] = {
+	}
+	pg.base.island_formula[7660205] = {
 		hitpoint = 0,
 		name = "鞋靴生产工艺",
 		production_limit = 1,
@@ -14165,8 +14520,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7660206] = {
+	}
+	pg.base.island_formula[7660206] = {
 		hitpoint = 0,
 		name = "绷带生产工艺",
 		production_limit = 1,
@@ -14210,8 +14565,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[9900001] = {
+	}
+	pg.base.island_formula[9900001] = {
 		hitpoint = 0,
 		name = "秋月梨",
 		attribute = 1,
@@ -14277,8 +14632,8 @@ pg.island_formula = {
 				20144
 			}
 		}
-	},
-	[9900002] = {
+	}
+	pg.base.island_formula[9900002] = {
 		hitpoint = 0,
 		name = "柿子",
 		attribute = 1,
@@ -14344,8 +14699,8 @@ pg.island_formula = {
 				20147
 			}
 		}
-	},
-	[9900003] = {
+	}
+	pg.base.island_formula[9900003] = {
 		hitpoint = 0,
 		name = "柿子饼",
 		production_limit = 5,
@@ -14384,8 +14739,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[9900004] = {
+	}
+	pg.base.island_formula[9900004] = {
 		hitpoint = 0,
 		name = "松茸鸡汤",
 		production_limit = 5,
@@ -14428,8 +14783,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[9900005] = {
+	}
+	pg.base.island_formula[9900005] = {
 		hitpoint = 0,
 		name = "秋季花束",
 		production_limit = 5,
@@ -14472,8 +14827,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[9900006] = {
+	}
+	pg.base.island_formula[9900006] = {
 		hitpoint = 0,
 		name = "花生油",
 		production_limit = 5,
@@ -14512,8 +14867,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[9900007] = {
+	}
+	pg.base.island_formula[9900007] = {
 		hitpoint = 0,
 		name = "胡萝卜秋梨汁",
 		production_limit = 5,
@@ -14556,8 +14911,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[9900008] = {
+	}
+	pg.base.island_formula[9900008] = {
 		hitpoint = 0,
 		name = "菊花茶",
 		production_limit = 5,
@@ -14596,8 +14951,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[9900009] = {
+	}
+	pg.base.island_formula[9900009] = {
 		hitpoint = 0,
 		name = "芦笋",
 		attribute = 1,
@@ -14663,8 +15018,8 @@ pg.island_formula = {
 				20162
 			}
 		}
-	},
-	[9900010] = {
+	}
+	pg.base.island_formula[9900010] = {
 		hitpoint = 0,
 		name = "凤梨",
 		attribute = 1,
@@ -14730,8 +15085,8 @@ pg.island_formula = {
 				20164
 			}
 		}
-	},
-	[9900011] = {
+	}
+	pg.base.island_formula[9900011] = {
 		hitpoint = 0,
 		name = "鲜榨菠萝汁",
 		production_limit = 5,
@@ -14770,8 +15125,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[9900012] = {
+	}
+	pg.base.island_formula[9900012] = {
 		hitpoint = 0,
 		name = "迎春花茶",
 		production_limit = 5,
@@ -14814,8 +15169,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[9900013] = {
+	}
+	pg.base.island_formula[9900013] = {
 		hitpoint = 0,
 		name = "凉拌双笋",
 		production_limit = 5,
@@ -14858,8 +15213,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[9900014] = {
+	}
+	pg.base.island_formula[9900014] = {
 		hitpoint = 0,
 		name = "芦笋炒虾仁",
 		production_limit = 5,
@@ -14902,8 +15257,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[9900015] = {
+	}
+	pg.base.island_formula[9900015] = {
 		hitpoint = 0,
 		name = "袋装荠菜干",
 		production_limit = 5,
@@ -14942,8 +15297,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[9900016] = {
+	}
+	pg.base.island_formula[9900016] = {
 		hitpoint = 0,
 		name = "春季花束",
 		production_limit = 5,
@@ -14986,348 +15341,5 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	all = {
-		101001,
-		101002,
-		101003,
-		101004,
-		101005,
-		101006,
-		101007,
-		101008,
-		101013,
-		101015,
-		101016,
-		101018,
-		201001,
-		201002,
-		201003,
-		201004,
-		201005,
-		201006,
-		201007,
-		201008,
-		201101,
-		201102,
-		201103,
-		201104,
-		201105,
-		201106,
-		201107,
-		201108,
-		401001,
-		401002,
-		401004,
-		401005,
-		401006,
-		401007,
-		402001,
-		402002,
-		402003,
-		402004,
-		501001,
-		501002,
-		501003,
-		501004,
-		501005,
-		501006,
-		501007,
-		502001,
-		502002,
-		502003,
-		502004,
-		502005,
-		502006,
-		502007,
-		601001,
-		601002,
-		601003,
-		601004,
-		601005,
-		601006,
-		601007,
-		601008,
-		601101,
-		601102,
-		602001,
-		602002,
-		602003,
-		602004,
-		602005,
-		602006,
-		602101,
-		602102,
-		602103,
-		603001,
-		603002,
-		603003,
-		603004,
-		603005,
-		603006,
-		603007,
-		603101,
-		603102,
-		603103,
-		604001,
-		604002,
-		604004,
-		604005,
-		604006,
-		604007,
-		604008,
-		604101,
-		604102,
-		701001,
-		701002,
-		701003,
-		701004,
-		701005,
-		701006,
-		701007,
-		701008,
-		701009,
-		701010,
-		701011,
-		701012,
-		701013,
-		701014,
-		701015,
-		701016,
-		701017,
-		701018,
-		701019,
-		701020,
-		701021,
-		701022,
-		701023,
-		901001,
-		901002,
-		901003,
-		901004,
-		901005,
-		901006,
-		901101,
-		901102,
-		901103,
-		7100001,
-		7100002,
-		7100003,
-		7100004,
-		7110001,
-		7110002,
-		7110101,
-		7110102,
-		7110103,
-		7110301,
-		7110302,
-		7110303,
-		7110304,
-		7110305,
-		7110306,
-		7110307,
-		7110308,
-		7110309,
-		7110310,
-		7120001,
-		7120002,
-		7120003,
-		7120004,
-		7120005,
-		7120006,
-		7120007,
-		7100301,
-		7100302,
-		7100303,
-		7100304,
-		7100305,
-		7100306,
-		7100307,
-		7100308,
-		7130301,
-		7130302,
-		7140101,
-		7210101,
-		7210102,
-		7210103,
-		7210104,
-		7210401,
-		7210201,
-		7210202,
-		7210203,
-		7210501,
-		7210502,
-		7210601,
-		7220101,
-		7220102,
-		7220103,
-		7220104,
-		7220201,
-		7220202,
-		7220203,
-		7220204,
-		7220401,
-		7220501,
-		7220502,
-		7220601,
-		7310001,
-		7310002,
-		7310101,
-		7310102,
-		7310103,
-		7310104,
-		7310301,
-		7310302,
-		7310303,
-		7310304,
-		7310305,
-		7310306,
-		7310307,
-		7310308,
-		7310309,
-		7320101,
-		7320102,
-		7320301,
-		7320302,
-		7320303,
-		7320304,
-		7330101,
-		7330102,
-		7330103,
-		7330104,
-		7330301,
-		7330302,
-		7330303,
-		7310201,
-		7310202,
-		7320201,
-		7320202,
-		7320203,
-		7320204,
-		7320205,
-		7320206,
-		7330201,
-		7400001,
-		7410301,
-		7410302,
-		7410303,
-		7410304,
-		7410305,
-		7420301,
-		7420302,
-		7420303,
-		7420304,
-		7430301,
-		7430302,
-		7430303,
-		7430304,
-		7440301,
-		7440302,
-		7440303,
-		7440304,
-		7450301,
-		7450302,
-		7460001,
-		7460002,
-		7460101,
-		7460301,
-		7460102,
-		7460302,
-		7460201,
-		7460202,
-		7460203,
-		7460204,
-		7460205,
-		7460206,
-		7500211,
-		7500212,
-		7500213,
-		7500214,
-		7500215,
-		7500231,
-		7500232,
-		7500233,
-		7500234,
-		7500235,
-		7500236,
-		7500001,
-		7510101,
-		7510201,
-		7510202,
-		7510203,
-		7510204,
-		7520001,
-		7520101,
-		7520201,
-		7520202,
-		7520203,
-		7520204,
-		7520205,
-		7530001,
-		7530101,
-		7530201,
-		7530202,
-		7530203,
-		7530204,
-		7530205,
-		7530206,
-		7540001,
-		7540101,
-		7540201,
-		7540202,
-		7540204,
-		7540205,
-		7550201,
-		7550202,
-		7550203,
-		7550204,
-		7610101,
-		7610102,
-		7610401,
-		7610402,
-		7610403,
-		7620101,
-		7630101,
-		7630201,
-		7630202,
-		7630203,
-		7630204,
-		7630205,
-		7640001,
-		7640101,
-		7640201,
-		7640202,
-		7640203,
-		7640204,
-		7640205,
-		7650001,
-		7650101,
-		7650201,
-		7650202,
-		7650203,
-		7660001,
-		7660101,
-		7660201,
-		7660202,
-		7660203,
-		7660204,
-		7660205,
-		7660206,
-		9900001,
-		9900002,
-		9900003,
-		9900004,
-		9900005,
-		9900006,
-		9900007,
-		9900008,
-		9900009,
-		9900010,
-		9900011,
-		9900012,
-		9900013,
-		9900014,
-		9900015,
-		9900016
 	}
-}
+end)()

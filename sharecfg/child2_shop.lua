@@ -1,6 +1,233 @@
 pg = pg or {}
-pg.child2_shop = {
-	{
+pg.child2_shop = rawget(pg, "child2_shop") or setmetatable({
+	__name = "child2_shop"
+}, confNEO)
+pg.child2_shop.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	3001,
+	3002,
+	3003,
+	3004,
+	3005,
+	3006,
+	3007,
+	3008,
+	3009,
+	3010,
+	3011,
+	3012,
+	3013,
+	3014,
+	3015,
+	3016,
+	3017,
+	3018,
+	3019,
+	3020,
+	3101,
+	3102,
+	3103,
+	3104,
+	3105,
+	3106,
+	3107,
+	3108,
+	3109,
+	3110,
+	3111,
+	3112,
+	3116,
+	3120,
+	3124,
+	3128,
+	3132,
+	3136,
+	3140,
+	3144,
+	3148,
+	3152,
+	3156,
+	3160,
+	3164,
+	3168,
+	3172,
+	3176,
+	3180,
+	3184,
+	3188,
+	3192,
+	3196,
+	3200,
+	3204,
+	3208,
+	3212,
+	3216,
+	3220,
+	3224,
+	3228,
+	3232,
+	3236,
+	3240,
+	3244,
+	3248,
+	3252,
+	3256,
+	3260,
+	3264,
+	3268,
+	3272,
+	3276,
+	3280,
+	3284,
+	3288,
+	3292,
+	3296,
+	3300,
+	3304,
+	3308,
+	3312,
+	3316,
+	3320,
+	9001,
+	9002,
+	9003,
+	9004,
+	9005,
+	9006,
+	9007,
+	9008,
+	9009,
+	9010,
+	9011,
+	9012,
+	9013,
+	9014,
+	9015,
+	9016,
+	9017,
+	9018,
+	9019,
+	9020,
+	9021,
+	9022,
+	9023,
+	9024,
+	9025,
+	9026,
+	9027,
+	9028,
+	9029,
+	9030,
+	9031,
+	9032,
+	9033,
+	9034,
+	9035,
+	9036,
+	9037,
+	9038,
+	9039,
+	9040,
+	9041,
+	9042,
+	9043,
+	9044,
+	9045,
+	9046,
+	9047,
+	9048,
+	9049,
+	9050,
+	9051,
+	9052,
+	9053,
+	9054,
+	9055,
+	9056,
+	9057,
+	9058,
+	9059,
+	9060,
+	9061,
+	9062,
+	9063,
+	9064,
+	9065,
+	9066,
+	9067,
+	9068,
+	9069,
+	9070,
+	9071,
+	9072
+}
+pg.base = pg.base or {}
+pg.base.child2_shop = {}
+
+;(function()
+	pg.base.child2_shop[1] = {
 		goods_type = 1,
 		name = "体能+10",
 		resource_num = 15,
@@ -13,8 +240,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 1,
 		icon = "attr_tineng2"
-	},
-	{
+	}
+	pg.base.child2_shop[2] = {
 		goods_type = 1,
 		name = "知识+10",
 		resource_num = 15,
@@ -27,8 +254,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 2,
 		icon = "attr_zhishi2"
-	},
-	{
+	}
+	pg.base.child2_shop[3] = {
 		goods_type = 1,
 		name = "实践+10",
 		resource_num = 15,
@@ -41,8 +268,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3,
 		icon = "attr_shijian2"
-	},
-	{
+	}
+	pg.base.child2_shop[4] = {
 		goods_type = 1,
 		name = "感知+10",
 		resource_num = 15,
@@ -55,8 +282,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 4,
 		icon = "attr_ganzhi2"
-	},
-	{
+	}
+	pg.base.child2_shop[5] = {
 		goods_type = 1,
 		name = "心情+2",
 		resource_num = 8,
@@ -69,8 +296,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 5,
 		icon = "res_xinqing2"
-	},
-	{
+	}
+	pg.base.child2_shop[6] = {
 		goods_type = 1,
 		name = "体能+20",
 		resource_num = 30,
@@ -83,8 +310,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 6,
 		icon = "attr_tineng2"
-	},
-	{
+	}
+	pg.base.child2_shop[7] = {
 		goods_type = 1,
 		name = "知识+20",
 		resource_num = 30,
@@ -97,8 +324,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 7,
 		icon = "attr_zhishi2"
-	},
-	{
+	}
+	pg.base.child2_shop[8] = {
 		goods_type = 1,
 		name = "实践+20",
 		resource_num = 30,
@@ -111,8 +338,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 8,
 		icon = "attr_shijian2"
-	},
-	{
+	}
+	pg.base.child2_shop[9] = {
 		goods_type = 1,
 		name = "感知+20",
 		resource_num = 30,
@@ -125,8 +352,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9,
 		icon = "attr_ganzhi2"
-	},
-	{
+	}
+	pg.base.child2_shop[10] = {
 		goods_type = 1,
 		name = "心情+4",
 		resource_num = 12,
@@ -139,8 +366,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 10,
 		icon = "res_xinqing2"
-	},
-	{
+	}
+	pg.base.child2_shop[11] = {
 		goods_type = 1,
 		name = "体能+40",
 		resource_num = 50,
@@ -153,8 +380,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 11,
 		icon = "attr_tineng2"
-	},
-	{
+	}
+	pg.base.child2_shop[12] = {
 		goods_type = 1,
 		name = "知识+40",
 		resource_num = 50,
@@ -167,8 +394,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 12,
 		icon = "attr_zhishi2"
-	},
-	{
+	}
+	pg.base.child2_shop[13] = {
 		goods_type = 1,
 		name = "实践+40",
 		resource_num = 50,
@@ -181,8 +408,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 13,
 		icon = "attr_shijian2"
-	},
-	{
+	}
+	pg.base.child2_shop[14] = {
 		goods_type = 1,
 		name = "感知+40",
 		resource_num = 50,
@@ -195,8 +422,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 14,
 		icon = "attr_ganzhi2"
-	},
-	{
+	}
+	pg.base.child2_shop[15] = {
 		goods_type = 1,
 		name = "心情+6",
 		resource_num = 15,
@@ -209,8 +436,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 15,
 		icon = "res_xinqing2"
-	},
-	{
+	}
+	pg.base.child2_shop[16] = {
 		goods_type = 1,
 		name = "体能增益",
 		resource_num = 75,
@@ -223,8 +450,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 16,
 		icon = "benefit_2_tineng_1"
-	},
-	{
+	}
+	pg.base.child2_shop[17] = {
 		goods_type = 1,
 		name = "知识增益",
 		resource_num = 75,
@@ -237,8 +464,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 17,
 		icon = "benefit_2_zhishi_1"
-	},
-	{
+	}
+	pg.base.child2_shop[18] = {
 		goods_type = 1,
 		name = "实践增益",
 		resource_num = 75,
@@ -251,8 +478,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 18,
 		icon = "benefit_2_shijian_1"
-	},
-	{
+	}
+	pg.base.child2_shop[19] = {
 		goods_type = 1,
 		name = "感知增益",
 		resource_num = 75,
@@ -265,8 +492,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 19,
 		icon = "benefit_2_ganzhi_1"
-	},
-	{
+	}
+	pg.base.child2_shop[20] = {
 		goods_type = 1,
 		name = "幸运奖券",
 		resource_num = 50,
@@ -279,8 +506,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 20,
 		icon = "buff_2005"
-	},
-	{
+	}
+	pg.base.child2_shop[21] = {
 		goods_type = 1,
 		name = "体能随机增益",
 		resource_num = 50,
@@ -293,8 +520,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 21,
 		icon = "benefit_2_tineng_1"
-	},
-	{
+	}
+	pg.base.child2_shop[22] = {
 		goods_type = 1,
 		name = "知识随机增益",
 		resource_num = 50,
@@ -307,8 +534,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 22,
 		icon = "benefit_2_zhishi_1"
-	},
-	{
+	}
+	pg.base.child2_shop[23] = {
 		goods_type = 1,
 		name = "实践随机增益",
 		resource_num = 50,
@@ -321,8 +548,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 23,
 		icon = "benefit_2_shijian_1"
-	},
-	{
+	}
+	pg.base.child2_shop[24] = {
 		goods_type = 1,
 		name = "感知随机增益",
 		resource_num = 50,
@@ -335,8 +562,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 24,
 		icon = "benefit_2_ganzhi_1"
-	},
-	{
+	}
+	pg.base.child2_shop[25] = {
 		goods_type = 1,
 		name = "体能随机增益+",
 		resource_num = 180,
@@ -349,8 +576,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 25,
 		icon = "benefit_2_tineng_2"
-	},
-	{
+	}
+	pg.base.child2_shop[26] = {
 		goods_type = 1,
 		name = "知识随机增益+",
 		resource_num = 180,
@@ -363,8 +590,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 26,
 		icon = "benefit_2_zhishi_2"
-	},
-	{
+	}
+	pg.base.child2_shop[27] = {
 		goods_type = 1,
 		name = "实践随机增益+",
 		resource_num = 180,
@@ -377,8 +604,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 27,
 		icon = "benefit_2_shijian_2"
-	},
-	{
+	}
+	pg.base.child2_shop[28] = {
 		goods_type = 1,
 		name = "感知随机增益+",
 		resource_num = 180,
@@ -391,8 +618,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 28,
 		icon = "benefit_2_ganzhi_2"
-	},
-	{
+	}
+	pg.base.child2_shop[29] = {
 		goods_type = 1,
 		name = "体能随机·预增益",
 		resource_num = 200,
@@ -405,8 +632,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 29,
 		icon = "benefit_2_tineng_3"
-	},
-	{
+	}
+	pg.base.child2_shop[30] = {
 		goods_type = 1,
 		name = "知识随机·预增益",
 		resource_num = 200,
@@ -419,8 +646,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 30,
 		icon = "benefit_2_zhishi_3"
-	},
-	{
+	}
+	pg.base.child2_shop[31] = {
 		goods_type = 1,
 		name = "实践随机·预增益",
 		resource_num = 200,
@@ -433,8 +660,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 31,
 		icon = "benefit_2_shijian_3"
-	},
-	{
+	}
+	pg.base.child2_shop[32] = {
 		goods_type = 1,
 		name = "感知随机·预增益",
 		resource_num = 200,
@@ -447,8 +674,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 32,
 		icon = "benefit_2_ganzhi_3"
-	},
-	{
+	}
+	pg.base.child2_shop[33] = {
 		goods_type = 1,
 		name = "心情随机回复",
 		resource_num = 25,
@@ -461,8 +688,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 33,
 		icon = "benefit_2_xinqing_1"
-	},
-	{
+	}
+	pg.base.child2_shop[34] = {
 		goods_type = 1,
 		name = "心情随机回复+",
 		resource_num = 36,
@@ -475,8 +702,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 34,
 		icon = "benefit_2_xinqing_2"
-	},
-	{
+	}
+	pg.base.child2_shop[35] = {
 		goods_type = 1,
 		name = "心情随机回复++",
 		resource_num = 50,
@@ -489,8 +716,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 35,
 		icon = "benefit_2_xinqing_3"
-	},
-	{
+	}
+	pg.base.child2_shop[36] = {
 		goods_type = 1,
 		name = "心情随机回复(永久)",
 		resource_num = 120,
@@ -503,8 +730,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 36,
 		icon = "benefit_2_xinqing_3"
-	},
-	{
+	}
+	pg.base.child2_shop[37] = {
 		goods_type = 3,
 		name = "行动力回复",
 		resource_num = 150,
@@ -517,8 +744,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 37,
 		icon = "res_xingdongli2"
-	},
-	{
+	}
+	pg.base.child2_shop[38] = {
 		goods_type = 3,
 		name = "行动力回复+",
 		resource_num = 300,
@@ -531,8 +758,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 38,
 		icon = "res_xingdongli2"
-	},
-	{
+	}
+	pg.base.child2_shop[39] = {
 		goods_type = 1,
 		name = "体能转化·知识",
 		resource_num = 150,
@@ -545,8 +772,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 39,
 		icon = "benefit_2_tinengzhishiz"
-	},
-	{
+	}
+	pg.base.child2_shop[40] = {
 		goods_type = 1,
 		name = "知识转化·体能",
 		resource_num = 150,
@@ -559,8 +786,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 40,
 		icon = "benefit_2_zhishitinengz"
-	},
-	{
+	}
+	pg.base.child2_shop[41] = {
 		goods_type = 1,
 		name = "实践转化·感知",
 		resource_num = 150,
@@ -573,8 +800,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 41,
 		icon = "benefit_2_shijianganzhiz"
-	},
-	{
+	}
+	pg.base.child2_shop[42] = {
 		goods_type = 1,
 		name = "感知转化·实践",
 		resource_num = 150,
@@ -587,8 +814,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 42,
 		icon = "benefit_2_ganzhishijianz"
-	},
-	{
+	}
+	pg.base.child2_shop[43] = {
 		goods_type = 1,
 		name = "实践增益(切换)",
 		resource_num = 120,
@@ -601,8 +828,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 43,
 		icon = "benefit_2_shijianq_1"
-	},
-	{
+	}
+	pg.base.child2_shop[44] = {
 		goods_type = 1,
 		name = "实践增益(切换)+",
 		resource_num = 240,
@@ -615,8 +842,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 44,
 		icon = "benefit_2_shijianq_1"
-	},
-	{
+	}
+	pg.base.child2_shop[45] = {
 		goods_type = 1,
 		name = "实践增益(切换)++",
 		resource_num = 400,
@@ -629,8 +856,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 45,
 		icon = "benefit_2_shijianq_1"
-	},
-	{
+	}
+	pg.base.child2_shop[46] = {
 		goods_type = 1,
 		name = "体能增益(切换)",
 		resource_num = 120,
@@ -643,8 +870,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 46,
 		icon = "benefit_2_tinengq_1"
-	},
-	{
+	}
+	pg.base.child2_shop[47] = {
 		goods_type = 1,
 		name = "体能增益(切换)+",
 		resource_num = 240,
@@ -657,8 +884,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 47,
 		icon = "benefit_2_tinengq_1"
-	},
-	{
+	}
+	pg.base.child2_shop[48] = {
 		goods_type = 1,
 		name = "体能增益(切换)++",
 		resource_num = 400,
@@ -671,8 +898,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 48,
 		icon = "benefit_2_tinengq_1"
-	},
-	{
+	}
+	pg.base.child2_shop[49] = {
 		goods_type = 1,
 		name = "感知增益(切换)",
 		resource_num = 120,
@@ -685,8 +912,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 49,
 		icon = "benefit_2_ganzhiq_1"
-	},
-	{
+	}
+	pg.base.child2_shop[50] = {
 		goods_type = 1,
 		name = "感知增益(切换)+",
 		resource_num = 240,
@@ -699,8 +926,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 50,
 		icon = "benefit_2_ganzhiq_1"
-	},
-	{
+	}
+	pg.base.child2_shop[51] = {
 		goods_type = 1,
 		name = "感知增益(切换)++",
 		resource_num = 400,
@@ -713,8 +940,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 51,
 		icon = "benefit_2_ganzhiq_1"
-	},
-	{
+	}
+	pg.base.child2_shop[52] = {
 		goods_type = 1,
 		name = "知识增益(切换)",
 		resource_num = 120,
@@ -727,8 +954,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 52,
 		icon = "benefit_2_zhishiq_1"
-	},
-	{
+	}
+	pg.base.child2_shop[53] = {
 		goods_type = 1,
 		name = "知识增益(切换)+",
 		resource_num = 240,
@@ -741,8 +968,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 53,
 		icon = "benefit_2_zhishiq_1"
-	},
-	{
+	}
+	pg.base.child2_shop[54] = {
 		goods_type = 1,
 		name = "知识增益(切换)++",
 		resource_num = 400,
@@ -755,8 +982,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 54,
 		icon = "benefit_2_zhishiq_1"
-	},
-	{
+	}
+	pg.base.child2_shop[55] = {
 		goods_type = 1,
 		name = "特殊行程格·一",
 		resource_num = 50,
@@ -769,8 +996,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 55,
 		icon = "benefit_2_xingcheng1_1"
-	},
-	{
+	}
+	pg.base.child2_shop[56] = {
 		goods_type = 1,
 		name = "特殊行程格·一+",
 		resource_num = 180,
@@ -783,8 +1010,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 56,
 		icon = "benefit_2_xingcheng1_2"
-	},
-	{
+	}
+	pg.base.child2_shop[57] = {
 		goods_type = 1,
 		name = "特殊行程格·一++",
 		resource_num = 200,
@@ -797,8 +1024,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 57,
 		icon = "benefit_2_xingcheng1_3"
-	},
-	{
+	}
+	pg.base.child2_shop[58] = {
 		goods_type = 1,
 		name = "奇数行程格增益",
 		resource_num = 50,
@@ -811,8 +1038,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 58,
 		icon = "benefit_2_xingchengji_1"
-	},
-	{
+	}
+	pg.base.child2_shop[59] = {
 		goods_type = 1,
 		name = "奇数行程格增益+",
 		resource_num = 180,
@@ -825,8 +1052,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 59,
 		icon = "benefit_2_xingchengji_2"
-	},
-	{
+	}
+	pg.base.child2_shop[60] = {
 		goods_type = 1,
 		name = "奇数行程格增益++",
 		resource_num = 200,
@@ -839,8 +1066,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 60,
 		icon = "benefit_2_xingchengji_3"
-	},
-	{
+	}
+	pg.base.child2_shop[61] = {
 		goods_type = 1,
 		name = "偶数行程格增益",
 		resource_num = 50,
@@ -853,8 +1080,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 61,
 		icon = "benefit_2_xingchengou_1"
-	},
-	{
+	}
+	pg.base.child2_shop[62] = {
 		goods_type = 1,
 		name = "偶数行程格增益+",
 		resource_num = 180,
@@ -867,8 +1094,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 62,
 		icon = "benefit_2_xingchengou_2"
-	},
-	{
+	}
+	pg.base.child2_shop[63] = {
 		goods_type = 1,
 		name = "偶数行程格增益++",
 		resource_num = 200,
@@ -881,8 +1108,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 63,
 		icon = "benefit_2_xingchengou_3"
-	},
-	[3001] = {
+	}
+	pg.base.child2_shop[3001] = {
 		goods_type = 2,
 		name = "体能+10",
 		resource_num = 15,
@@ -895,8 +1122,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3001,
 		icon = "attr_tineng2"
-	},
-	[3002] = {
+	}
+	pg.base.child2_shop[3002] = {
 		goods_type = 2,
 		name = "知识+10",
 		resource_num = 15,
@@ -909,8 +1136,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3002,
 		icon = "attr_zhishi2"
-	},
-	[3003] = {
+	}
+	pg.base.child2_shop[3003] = {
 		goods_type = 2,
 		name = "实践+10",
 		resource_num = 15,
@@ -923,8 +1150,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3003,
 		icon = "attr_shijian2"
-	},
-	[3004] = {
+	}
+	pg.base.child2_shop[3004] = {
 		goods_type = 2,
 		name = "感知+10",
 		resource_num = 15,
@@ -937,8 +1164,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3004,
 		icon = "attr_ganzhi2"
-	},
-	[3005] = {
+	}
+	pg.base.child2_shop[3005] = {
 		goods_type = 2,
 		name = "体能+20",
 		resource_num = 30,
@@ -951,8 +1178,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3005,
 		icon = "attr_tineng2"
-	},
-	[3006] = {
+	}
+	pg.base.child2_shop[3006] = {
 		goods_type = 2,
 		name = "知识+20",
 		resource_num = 30,
@@ -965,8 +1192,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3006,
 		icon = "attr_zhishi2"
-	},
-	[3007] = {
+	}
+	pg.base.child2_shop[3007] = {
 		goods_type = 2,
 		name = "实践+20",
 		resource_num = 30,
@@ -979,8 +1206,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3007,
 		icon = "attr_shijian2"
-	},
-	[3008] = {
+	}
+	pg.base.child2_shop[3008] = {
 		goods_type = 2,
 		name = "感知+20",
 		resource_num = 30,
@@ -993,8 +1220,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3008,
 		icon = "attr_ganzhi2"
-	},
-	[3009] = {
+	}
+	pg.base.child2_shop[3009] = {
 		goods_type = 2,
 		name = "体能+40",
 		resource_num = 60,
@@ -1007,8 +1234,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3009,
 		icon = "attr_tineng2"
-	},
-	[3010] = {
+	}
+	pg.base.child2_shop[3010] = {
 		goods_type = 2,
 		name = "知识+40",
 		resource_num = 60,
@@ -1021,8 +1248,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3010,
 		icon = "attr_zhishi2"
-	},
-	[3011] = {
+	}
+	pg.base.child2_shop[3011] = {
 		goods_type = 2,
 		name = "实践+40",
 		resource_num = 60,
@@ -1035,8 +1262,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3011,
 		icon = "attr_shijian2"
-	},
-	[3012] = {
+	}
+	pg.base.child2_shop[3012] = {
 		goods_type = 2,
 		name = "感知+40",
 		resource_num = 60,
@@ -1049,8 +1276,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3012,
 		icon = "attr_ganzhi2"
-	},
-	[3013] = {
+	}
+	pg.base.child2_shop[3013] = {
 		goods_type = 2,
 		name = "体能+60",
 		resource_num = 90,
@@ -1063,8 +1290,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3013,
 		icon = "attr_tineng2"
-	},
-	[3014] = {
+	}
+	pg.base.child2_shop[3014] = {
 		goods_type = 2,
 		name = "知识+60",
 		resource_num = 90,
@@ -1077,8 +1304,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3014,
 		icon = "attr_zhishi2"
-	},
-	[3015] = {
+	}
+	pg.base.child2_shop[3015] = {
 		goods_type = 2,
 		name = "实践+60",
 		resource_num = 90,
@@ -1091,8 +1318,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3015,
 		icon = "attr_shijian2"
-	},
-	[3016] = {
+	}
+	pg.base.child2_shop[3016] = {
 		goods_type = 2,
 		name = "感知+60",
 		resource_num = 90,
@@ -1105,8 +1332,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3016,
 		icon = "attr_ganzhi2"
-	},
-	[3017] = {
+	}
+	pg.base.child2_shop[3017] = {
 		goods_type = 2,
 		name = "体能+80",
 		resource_num = 120,
@@ -1119,8 +1346,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3017,
 		icon = "attr_tineng2"
-	},
-	[3018] = {
+	}
+	pg.base.child2_shop[3018] = {
 		goods_type = 2,
 		name = "知识+80",
 		resource_num = 120,
@@ -1133,8 +1360,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3018,
 		icon = "attr_zhishi2"
-	},
-	[3019] = {
+	}
+	pg.base.child2_shop[3019] = {
 		goods_type = 2,
 		name = "实践+80",
 		resource_num = 120,
@@ -1147,8 +1374,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3019,
 		icon = "attr_shijian2"
-	},
-	[3020] = {
+	}
+	pg.base.child2_shop[3020] = {
 		goods_type = 2,
 		name = "感知+80",
 		resource_num = 120,
@@ -1161,8 +1388,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3020,
 		icon = "attr_ganzhi2"
-	},
-	[3101] = {
+	}
+	pg.base.child2_shop[3101] = {
 		goods_type = 3,
 		name = "心情+2",
 		resource_num = 8,
@@ -1175,8 +1402,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3101,
 		icon = "res_xinqing2"
-	},
-	[3102] = {
+	}
+	pg.base.child2_shop[3102] = {
 		goods_type = 3,
 		name = "心情+4",
 		resource_num = 12,
@@ -1189,8 +1416,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3102,
 		icon = "res_xinqing2"
-	},
-	[3103] = {
+	}
+	pg.base.child2_shop[3103] = {
 		goods_type = 3,
 		name = "心情+6",
 		resource_num = 15,
@@ -1203,8 +1430,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3103,
 		icon = "res_xinqing2"
-	},
-	[3104] = {
+	}
+	pg.base.child2_shop[3104] = {
 		goods_type = 3,
 		name = "心情+8",
 		resource_num = 20,
@@ -1217,8 +1444,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3104,
 		icon = "res_xinqing2"
-	},
-	[3105] = {
+	}
+	pg.base.child2_shop[3105] = {
 		goods_type = 3,
 		name = "心情+10",
 		resource_num = 25,
@@ -1231,8 +1458,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3105,
 		icon = "res_xinqing2"
-	},
-	[3106] = {
+	}
+	pg.base.child2_shop[3106] = {
 		goods_type = 3,
 		name = "行动力+1",
 		resource_num = 150,
@@ -1245,8 +1472,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3106,
 		icon = "res_xingdongli2"
-	},
-	[3107] = {
+	}
+	pg.base.child2_shop[3107] = {
 		goods_type = 3,
 		name = "占星馆刷新次数+1",
 		resource_num = 150,
@@ -1259,8 +1486,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3107,
 		icon = "res_refresh1"
-	},
-	[3108] = {
+	}
+	pg.base.child2_shop[3108] = {
 		goods_type = 3,
 		name = "塔罗牌重抽次数+1",
 		resource_num = 100,
@@ -1273,8 +1500,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3108,
 		icon = "res_refresh2"
-	},
-	[3109] = {
+	}
+	pg.base.child2_shop[3109] = {
 		goods_type = 5,
 		name = "释义升级",
 		resource_num = 100,
@@ -1287,8 +1514,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3109,
 		icon = "buff_2005"
-	},
-	[3110] = {
+	}
+	pg.base.child2_shop[3110] = {
 		goods_type = 5,
 		name = "释义升级",
 		resource_num = 100,
@@ -1301,8 +1528,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3110,
 		icon = "buff_2005"
-	},
-	[3111] = {
+	}
+	pg.base.child2_shop[3111] = {
 		goods_type = 5,
 		name = "释义升级",
 		resource_num = 100,
@@ -1315,8 +1542,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 3111,
 		icon = "buff_2005"
-	},
-	[3112] = {
+	}
+	pg.base.child2_shop[3112] = {
 		goods_type = 4,
 		name = "节制释义",
 		resource_num = 300,
@@ -1331,8 +1558,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830008
 		}
-	},
-	[3116] = {
+	}
+	pg.base.child2_shop[3116] = {
 		goods_type = 4,
 		name = "太阳释义",
 		resource_num = 300,
@@ -1347,8 +1574,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830009
 		}
-	},
-	[3120] = {
+	}
+	pg.base.child2_shop[3120] = {
 		goods_type = 4,
 		name = "星星释义",
 		resource_num = 300,
@@ -1363,8 +1590,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830010
 		}
-	},
-	[3124] = {
+	}
+	pg.base.child2_shop[3124] = {
 		goods_type = 4,
 		name = "高塔释义",
 		resource_num = 300,
@@ -1379,8 +1606,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830011
 		}
-	},
-	[3128] = {
+	}
+	pg.base.child2_shop[3128] = {
 		goods_type = 4,
 		name = "恶魔释义",
 		resource_num = 300,
@@ -1395,8 +1622,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830012
 		}
-	},
-	[3132] = {
+	}
+	pg.base.child2_shop[3132] = {
 		goods_type = 4,
 		name = "女皇释义",
 		resource_num = 300,
@@ -1411,8 +1638,10 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830013
 		}
-	},
-	[3136] = {
+	}
+end)()
+;(function()
+	pg.base.child2_shop[3136] = {
 		goods_type = 4,
 		name = "倒吊者释义",
 		resource_num = 300,
@@ -1427,8 +1656,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830014
 		}
-	},
-	[3140] = {
+	}
+	pg.base.child2_shop[3140] = {
 		goods_type = 4,
 		name = "世界释义",
 		resource_num = 300,
@@ -1443,8 +1672,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830015
 		}
-	},
-	[3144] = {
+	}
+	pg.base.child2_shop[3144] = {
 		goods_type = 4,
 		name = "月亮释义",
 		resource_num = 300,
@@ -1459,8 +1688,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830016
 		}
-	},
-	[3148] = {
+	}
+	pg.base.child2_shop[3148] = {
 		goods_type = 4,
 		name = "战车释义",
 		resource_num = 300,
@@ -1475,8 +1704,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830017
 		}
-	},
-	[3152] = {
+	}
+	pg.base.child2_shop[3152] = {
 		goods_type = 4,
 		name = "审判释义",
 		resource_num = 300,
@@ -1491,8 +1720,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830018
 		}
-	},
-	[3156] = {
+	}
+	pg.base.child2_shop[3156] = {
 		goods_type = 4,
 		name = "正义释义",
 		resource_num = 300,
@@ -1507,8 +1736,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830019
 		}
-	},
-	[3160] = {
+	}
+	pg.base.child2_shop[3160] = {
 		goods_type = 4,
 		name = "女祭司释义",
 		resource_num = 300,
@@ -1523,8 +1752,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830020
 		}
-	},
-	[3164] = {
+	}
+	pg.base.child2_shop[3164] = {
 		goods_type = 4,
 		name = "命运之轮释义",
 		resource_num = 300,
@@ -1539,8 +1768,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830021
 		}
-	},
-	[3168] = {
+	}
+	pg.base.child2_shop[3168] = {
 		goods_type = 4,
 		name = "力量释义",
 		resource_num = 300,
@@ -1555,8 +1784,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830022
 		}
-	},
-	[3172] = {
+	}
+	pg.base.child2_shop[3172] = {
 		goods_type = 4,
 		name = "魔术师释义",
 		resource_num = 300,
@@ -1571,8 +1800,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830023
 		}
-	},
-	[3176] = {
+	}
+	pg.base.child2_shop[3176] = {
 		goods_type = 4,
 		name = "教皇释义",
 		resource_num = 300,
@@ -1587,8 +1816,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830024
 		}
-	},
-	[3180] = {
+	}
+	pg.base.child2_shop[3180] = {
 		goods_type = 4,
 		name = "愚者释义",
 		resource_num = 300,
@@ -1603,8 +1832,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830025
 		}
-	},
-	[3184] = {
+	}
+	pg.base.child2_shop[3184] = {
 		goods_type = 4,
 		name = "死神释义",
 		resource_num = 300,
@@ -1619,8 +1848,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830026
 		}
-	},
-	[3188] = {
+	}
+	pg.base.child2_shop[3188] = {
 		goods_type = 4,
 		name = "皇帝释义",
 		resource_num = 300,
@@ -1635,8 +1864,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830027
 		}
-	},
-	[3192] = {
+	}
+	pg.base.child2_shop[3192] = {
 		goods_type = 4,
 		name = "隐者释义",
 		resource_num = 300,
@@ -1651,8 +1880,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830028
 		}
-	},
-	[3196] = {
+	}
+	pg.base.child2_shop[3196] = {
 		goods_type = 4,
 		name = "恋人释义",
 		resource_num = 300,
@@ -1667,8 +1896,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830029
 		}
-	},
-	[3200] = {
+	}
+	pg.base.child2_shop[3200] = {
 		goods_type = 4,
 		name = "宝剑释义",
 		resource_num = 300,
@@ -1683,8 +1912,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830030
 		}
-	},
-	[3204] = {
+	}
+	pg.base.child2_shop[3204] = {
 		goods_type = 4,
 		name = "权杖释义",
 		resource_num = 300,
@@ -1699,8 +1928,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830031
 		}
-	},
-	[3208] = {
+	}
+	pg.base.child2_shop[3208] = {
 		goods_type = 4,
 		name = "圣杯释义",
 		resource_num = 300,
@@ -1715,8 +1944,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830032
 		}
-	},
-	[3212] = {
+	}
+	pg.base.child2_shop[3212] = {
 		goods_type = 4,
 		name = "星币释义",
 		resource_num = 300,
@@ -1731,8 +1960,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830033
 		}
-	},
-	[3216] = {
+	}
+	pg.base.child2_shop[3216] = {
 		goods_type = 4,
 		name = "随机节制释义",
 		resource_num = 150,
@@ -1747,8 +1976,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830034
 		}
-	},
-	[3220] = {
+	}
+	pg.base.child2_shop[3220] = {
 		goods_type = 4,
 		name = "随机太阳释义",
 		resource_num = 150,
@@ -1763,8 +1992,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830035
 		}
-	},
-	[3224] = {
+	}
+	pg.base.child2_shop[3224] = {
 		goods_type = 4,
 		name = "随机星星释义",
 		resource_num = 150,
@@ -1779,8 +2008,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830036
 		}
-	},
-	[3228] = {
+	}
+	pg.base.child2_shop[3228] = {
 		goods_type = 4,
 		name = "随机高塔释义",
 		resource_num = 150,
@@ -1795,8 +2024,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830037
 		}
-	},
-	[3232] = {
+	}
+	pg.base.child2_shop[3232] = {
 		goods_type = 4,
 		name = "随机恶魔释义",
 		resource_num = 150,
@@ -1811,8 +2040,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830038
 		}
-	},
-	[3236] = {
+	}
+	pg.base.child2_shop[3236] = {
 		goods_type = 4,
 		name = "随机女皇释义",
 		resource_num = 150,
@@ -1827,8 +2056,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830039
 		}
-	},
-	[3240] = {
+	}
+	pg.base.child2_shop[3240] = {
 		goods_type = 4,
 		name = "随机倒吊者释义",
 		resource_num = 150,
@@ -1843,8 +2072,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830040
 		}
-	},
-	[3244] = {
+	}
+	pg.base.child2_shop[3244] = {
 		goods_type = 4,
 		name = "随机世界释义",
 		resource_num = 150,
@@ -1859,8 +2088,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830041
 		}
-	},
-	[3248] = {
+	}
+	pg.base.child2_shop[3248] = {
 		goods_type = 4,
 		name = "随机月亮释义",
 		resource_num = 150,
@@ -1875,8 +2104,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830042
 		}
-	},
-	[3252] = {
+	}
+	pg.base.child2_shop[3252] = {
 		goods_type = 4,
 		name = "随机战车释义",
 		resource_num = 150,
@@ -1891,8 +2120,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830043
 		}
-	},
-	[3256] = {
+	}
+	pg.base.child2_shop[3256] = {
 		goods_type = 4,
 		name = "随机审判释义",
 		resource_num = 150,
@@ -1907,8 +2136,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830044
 		}
-	},
-	[3260] = {
+	}
+	pg.base.child2_shop[3260] = {
 		goods_type = 4,
 		name = "随机正义释义",
 		resource_num = 150,
@@ -1923,8 +2152,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830045
 		}
-	},
-	[3264] = {
+	}
+	pg.base.child2_shop[3264] = {
 		goods_type = 4,
 		name = "随机女祭司释义",
 		resource_num = 150,
@@ -1939,8 +2168,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830046
 		}
-	},
-	[3268] = {
+	}
+	pg.base.child2_shop[3268] = {
 		goods_type = 4,
 		name = "随机命运之轮释义",
 		resource_num = 150,
@@ -1955,8 +2184,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830047
 		}
-	},
-	[3272] = {
+	}
+	pg.base.child2_shop[3272] = {
 		goods_type = 4,
 		name = "随机力量释义",
 		resource_num = 150,
@@ -1971,8 +2200,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830048
 		}
-	},
-	[3276] = {
+	}
+	pg.base.child2_shop[3276] = {
 		goods_type = 4,
 		name = "随机魔术师释义",
 		resource_num = 150,
@@ -1987,8 +2216,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830049
 		}
-	},
-	[3280] = {
+	}
+	pg.base.child2_shop[3280] = {
 		goods_type = 4,
 		name = "随机教皇释义",
 		resource_num = 150,
@@ -2003,8 +2232,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830050
 		}
-	},
-	[3284] = {
+	}
+	pg.base.child2_shop[3284] = {
 		goods_type = 4,
 		name = "随机愚者释义",
 		resource_num = 150,
@@ -2019,8 +2248,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830051
 		}
-	},
-	[3288] = {
+	}
+	pg.base.child2_shop[3288] = {
 		goods_type = 4,
 		name = "随机死神释义",
 		resource_num = 150,
@@ -2035,8 +2264,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830052
 		}
-	},
-	[3292] = {
+	}
+	pg.base.child2_shop[3292] = {
 		goods_type = 4,
 		name = "随机皇帝释义",
 		resource_num = 150,
@@ -2051,8 +2280,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830053
 		}
-	},
-	[3296] = {
+	}
+	pg.base.child2_shop[3296] = {
 		goods_type = 4,
 		name = "随机隐者释义",
 		resource_num = 150,
@@ -2067,8 +2296,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830054
 		}
-	},
-	[3300] = {
+	}
+	pg.base.child2_shop[3300] = {
 		goods_type = 4,
 		name = "随机恋人释义",
 		resource_num = 150,
@@ -2083,8 +2312,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830055
 		}
-	},
-	[3304] = {
+	}
+	pg.base.child2_shop[3304] = {
 		goods_type = 4,
 		name = "随机宝剑释义",
 		resource_num = 150,
@@ -2099,8 +2328,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830056
 		}
-	},
-	[3308] = {
+	}
+	pg.base.child2_shop[3308] = {
 		goods_type = 4,
 		name = "随机权杖释义",
 		resource_num = 150,
@@ -2115,8 +2344,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830057
 		}
-	},
-	[3312] = {
+	}
+	pg.base.child2_shop[3312] = {
 		goods_type = 4,
 		name = "随机圣杯释义",
 		resource_num = 150,
@@ -2131,8 +2360,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830058
 		}
-	},
-	[3316] = {
+	}
+	pg.base.child2_shop[3316] = {
 		goods_type = 4,
 		name = "随机星币释义",
 		resource_num = 150,
@@ -2147,8 +2376,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830059
 		}
-	},
-	[3320] = {
+	}
+	pg.base.child2_shop[3320] = {
 		goods_type = 4,
 		name = "随机塔罗牌",
 		resource_num = 400,
@@ -2163,8 +2392,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			1000
 		}
-	},
-	[9001] = {
+	}
+	pg.base.child2_shop[9001] = {
 		goods_type = 2,
 		name = "300体能",
 		resource_num = 1,
@@ -2177,8 +2406,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9001,
 		icon = "benefit_2_xingchengou_3"
-	},
-	[9002] = {
+	}
+	pg.base.child2_shop[9002] = {
 		goods_type = 2,
 		name = "300知识",
 		resource_num = 1,
@@ -2191,8 +2420,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9002,
 		icon = "benefit_2_xingchengou_3"
-	},
-	[9003] = {
+	}
+	pg.base.child2_shop[9003] = {
 		goods_type = 2,
 		name = "300实践",
 		resource_num = 1,
@@ -2205,8 +2434,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9003,
 		icon = "benefit_2_xingchengou_3"
-	},
-	[9004] = {
+	}
+	pg.base.child2_shop[9004] = {
 		goods_type = 2,
 		name = "300感知",
 		resource_num = 1,
@@ -2219,8 +2448,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9004,
 		icon = "benefit_2_xingchengou_3"
-	},
-	[9005] = {
+	}
+	pg.base.child2_shop[9005] = {
 		goods_type = 3,
 		name = "300金钱",
 		resource_num = 1,
@@ -2233,8 +2462,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9005,
 		icon = "benefit_2_xingchengou_3"
-	},
-	[9006] = {
+	}
+	pg.base.child2_shop[9006] = {
 		goods_type = 3,
 		name = "100心情",
 		resource_num = 1,
@@ -2247,8 +2476,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9006,
 		icon = "benefit_2_xingchengou_3"
-	},
-	[9007] = {
+	}
+	pg.base.child2_shop[9007] = {
 		goods_type = 3,
 		name = "3行动力",
 		resource_num = 1,
@@ -2261,8 +2490,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9007,
 		icon = "benefit_2_xingchengou_3"
-	},
-	[9008] = {
+	}
+	pg.base.child2_shop[9008] = {
 		goods_type = 3,
 		name = "10好感度",
 		resource_num = 1,
@@ -2275,8 +2504,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9008,
 		icon = "benefit_2_xingchengou_3"
-	},
-	[9009] = {
+	}
+	pg.base.child2_shop[9009] = {
 		goods_type = 3,
 		name = "5商店刷新次数",
 		resource_num = 1,
@@ -2289,8 +2518,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9009,
 		icon = "benefit_2_xingchengou_3"
-	},
-	[9010] = {
+	}
+	pg.base.child2_shop[9010] = {
 		goods_type = 3,
 		name = "5塔罗牌和词条的刷新次数",
 		resource_num = 1,
@@ -2303,8 +2532,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9010,
 		icon = "benefit_2_xingchengou_3"
-	},
-	[9011] = {
+	}
+	pg.base.child2_shop[9011] = {
 		goods_type = 5,
 		name = "升级次数",
 		resource_num = 1,
@@ -2317,8 +2546,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9011,
 		icon = "benefit_2_xingchengou_3"
-	},
-	[9012] = {
+	}
+	pg.base.child2_shop[9012] = {
 		goods_type = 2,
 		name = "外向性格",
 		resource_num = 1,
@@ -2331,8 +2560,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9012,
 		icon = "benefit_2_xingchengou_3"
-	},
-	[9013] = {
+	}
+	pg.base.child2_shop[9013] = {
 		goods_type = 2,
 		name = "内向性格",
 		resource_num = 1,
@@ -2345,8 +2574,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9013,
 		icon = "benefit_2_xingchengou_3"
-	},
-	[9014] = {
+	}
+	pg.base.child2_shop[9014] = {
 		goods_type = 4,
 		name = "随机塔罗牌",
 		resource_num = 1,
@@ -2361,8 +2590,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3200103
 		}
-	},
-	[9015] = {
+	}
+	pg.base.child2_shop[9015] = {
 		goods_type = 4,
 		name = "随机塔罗牌",
 		resource_num = 100,
@@ -2377,8 +2606,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3200103
 		}
-	},
-	[9016] = {
+	}
+	pg.base.child2_shop[9016] = {
 		goods_type = 4,
 		name = "随机塔罗牌",
 		resource_num = 200,
@@ -2393,8 +2622,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3200103
 		}
-	},
-	[9017] = {
+	}
+	pg.base.child2_shop[9017] = {
 		goods_type = 4,
 		name = "随机塔罗牌",
 		resource_num = 300,
@@ -2409,8 +2638,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3200103
 		}
-	},
-	[9018] = {
+	}
+	pg.base.child2_shop[9018] = {
 		goods_type = 4,
 		name = "随机塔罗牌",
 		resource_num = 1,
@@ -2425,8 +2654,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3200103
 		}
-	},
-	[9019] = {
+	}
+	pg.base.child2_shop[9019] = {
 		goods_type = 4,
 		name = "随机塔罗牌",
 		resource_num = 1,
@@ -2441,8 +2670,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3200103
 		}
-	},
-	[9020] = {
+	}
+	pg.base.child2_shop[9020] = {
 		goods_type = 3,
 		name = "1个刷新次数（塔罗牌）",
 		resource_num = 1,
@@ -2455,8 +2684,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9020,
 		icon = "benefit_2_xingchengou_3"
-	},
-	[9021] = {
+	}
+	pg.base.child2_shop[9021] = {
 		goods_type = 3,
 		name = "2个刷新次数（塔罗牌）",
 		resource_num = 1,
@@ -2469,8 +2698,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9021,
 		icon = "benefit_2_xingchengou_3"
-	},
-	[9022] = {
+	}
+	pg.base.child2_shop[9022] = {
 		goods_type = 3,
 		name = "1个刷新次数（商店）",
 		resource_num = 1,
@@ -2483,8 +2712,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9022,
 		icon = "benefit_2_xingchengou_3"
-	},
-	[9023] = {
+	}
+	pg.base.child2_shop[9023] = {
 		goods_type = 3,
 		name = "2个刷新次数（商店）",
 		resource_num = 1,
@@ -2497,8 +2726,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9023,
 		icon = "benefit_2_xingchengou_3"
-	},
-	[9024] = {
+	}
+	pg.base.child2_shop[9024] = {
 		goods_type = 4,
 		name = "节制释义",
 		resource_num = 1,
@@ -2513,8 +2742,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830008
 		}
-	},
-	[9025] = {
+	}
+	pg.base.child2_shop[9025] = {
 		goods_type = 4,
 		name = "太阳释义",
 		resource_num = 1,
@@ -2529,8 +2758,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830009
 		}
-	},
-	[9026] = {
+	}
+	pg.base.child2_shop[9026] = {
 		goods_type = 4,
 		name = "星星释义",
 		resource_num = 1,
@@ -2545,8 +2774,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830010
 		}
-	},
-	[9027] = {
+	}
+	pg.base.child2_shop[9027] = {
 		goods_type = 4,
 		name = "高塔释义",
 		resource_num = 1,
@@ -2561,8 +2790,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830011
 		}
-	},
-	[9028] = {
+	}
+	pg.base.child2_shop[9028] = {
 		goods_type = 4,
 		name = "恶魔释义",
 		resource_num = 1,
@@ -2577,8 +2806,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830012
 		}
-	},
-	[9029] = {
+	}
+	pg.base.child2_shop[9029] = {
 		goods_type = 4,
 		name = "女皇释义",
 		resource_num = 1,
@@ -2593,8 +2822,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830013
 		}
-	},
-	[9030] = {
+	}
+	pg.base.child2_shop[9030] = {
 		goods_type = 4,
 		name = "倒吊者释义",
 		resource_num = 1,
@@ -2609,8 +2838,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830014
 		}
-	},
-	[9031] = {
+	}
+	pg.base.child2_shop[9031] = {
 		goods_type = 4,
 		name = "世界释义",
 		resource_num = 1,
@@ -2625,8 +2854,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830015
 		}
-	},
-	[9032] = {
+	}
+	pg.base.child2_shop[9032] = {
 		goods_type = 4,
 		name = "月亮释义",
 		resource_num = 1,
@@ -2641,8 +2870,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830016
 		}
-	},
-	[9033] = {
+	}
+	pg.base.child2_shop[9033] = {
 		goods_type = 4,
 		name = "战车释义",
 		resource_num = 1,
@@ -2657,8 +2886,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830017
 		}
-	},
-	[9034] = {
+	}
+	pg.base.child2_shop[9034] = {
 		goods_type = 4,
 		name = "审判释义",
 		resource_num = 1,
@@ -2673,8 +2902,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830018
 		}
-	},
-	[9035] = {
+	}
+	pg.base.child2_shop[9035] = {
 		goods_type = 4,
 		name = "正义释义",
 		resource_num = 1,
@@ -2689,8 +2918,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830019
 		}
-	},
-	[9036] = {
+	}
+	pg.base.child2_shop[9036] = {
 		goods_type = 4,
 		name = "女祭司释义",
 		resource_num = 1,
@@ -2705,8 +2934,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830020
 		}
-	},
-	[9037] = {
+	}
+	pg.base.child2_shop[9037] = {
 		goods_type = 4,
 		name = "命运之轮释义",
 		resource_num = 1,
@@ -2721,8 +2950,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830021
 		}
-	},
-	[9038] = {
+	}
+	pg.base.child2_shop[9038] = {
 		goods_type = 4,
 		name = "力量释义",
 		resource_num = 1,
@@ -2737,8 +2966,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830022
 		}
-	},
-	[9039] = {
+	}
+	pg.base.child2_shop[9039] = {
 		goods_type = 4,
 		name = "魔术师释义",
 		resource_num = 1,
@@ -2753,8 +2982,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830023
 		}
-	},
-	[9040] = {
+	}
+	pg.base.child2_shop[9040] = {
 		goods_type = 4,
 		name = "教皇释义",
 		resource_num = 1,
@@ -2769,8 +2998,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830024
 		}
-	},
-	[9041] = {
+	}
+	pg.base.child2_shop[9041] = {
 		goods_type = 4,
 		name = "愚者释义",
 		resource_num = 1,
@@ -2785,8 +3014,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830025
 		}
-	},
-	[9042] = {
+	}
+	pg.base.child2_shop[9042] = {
 		goods_type = 4,
 		name = "死神释义",
 		resource_num = 1,
@@ -2801,8 +3030,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830026
 		}
-	},
-	[9043] = {
+	}
+	pg.base.child2_shop[9043] = {
 		goods_type = 4,
 		name = "皇帝释义",
 		resource_num = 1,
@@ -2817,8 +3046,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830027
 		}
-	},
-	[9044] = {
+	}
+	pg.base.child2_shop[9044] = {
 		goods_type = 4,
 		name = "隐者释义",
 		resource_num = 1,
@@ -2833,8 +3062,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830028
 		}
-	},
-	[9045] = {
+	}
+	pg.base.child2_shop[9045] = {
 		goods_type = 4,
 		name = "恋人释义",
 		resource_num = 1,
@@ -2849,8 +3078,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830029
 		}
-	},
-	[9046] = {
+	}
+	pg.base.child2_shop[9046] = {
 		goods_type = 4,
 		name = "宝剑释义",
 		resource_num = 1,
@@ -2865,8 +3094,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830030
 		}
-	},
-	[9047] = {
+	}
+	pg.base.child2_shop[9047] = {
 		goods_type = 4,
 		name = "权杖释义",
 		resource_num = 1,
@@ -2881,8 +3110,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830031
 		}
-	},
-	[9048] = {
+	}
+	pg.base.child2_shop[9048] = {
 		goods_type = 4,
 		name = "圣杯释义",
 		resource_num = 1,
@@ -2897,8 +3126,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830032
 		}
-	},
-	[9049] = {
+	}
+	pg.base.child2_shop[9049] = {
 		goods_type = 4,
 		name = "星币释义",
 		resource_num = 1,
@@ -2913,8 +3142,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3830033
 		}
-	},
-	[9050] = {
+	}
+	pg.base.child2_shop[9050] = {
 		goods_type = 4,
 		name = "随机塔罗牌",
 		resource_num = 1,
@@ -2929,8 +3158,8 @@ pg.child2_shop = {
 		goods_id_list = {
 			3200103
 		}
-	},
-	[9051] = {
+	}
+	pg.base.child2_shop[9051] = {
 		goods_type = 1,
 		name = "塔罗牌 · 愚者",
 		resource_num = 1,
@@ -2943,8 +3172,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9051,
 		icon = "buff_2008"
-	},
-	[9052] = {
+	}
+	pg.base.child2_shop[9052] = {
 		goods_type = 1,
 		name = "塔罗牌 · 魔术师",
 		resource_num = 1,
@@ -2957,8 +3186,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9052,
 		icon = "buff_2008"
-	},
-	[9053] = {
+	}
+	pg.base.child2_shop[9053] = {
 		goods_type = 1,
 		name = "塔罗牌 · 女祭司",
 		resource_num = 1,
@@ -2971,8 +3200,10 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9053,
 		icon = "buff_2008"
-	},
-	[9054] = {
+	}
+end)()
+;(function()
+	pg.base.child2_shop[9054] = {
 		goods_type = 1,
 		name = "塔罗牌 · 女皇",
 		resource_num = 1,
@@ -2985,8 +3216,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9054,
 		icon = "buff_2008"
-	},
-	[9055] = {
+	}
+	pg.base.child2_shop[9055] = {
 		goods_type = 1,
 		name = "塔罗牌 · 皇帝",
 		resource_num = 1,
@@ -2999,8 +3230,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9055,
 		icon = "buff_2008"
-	},
-	[9056] = {
+	}
+	pg.base.child2_shop[9056] = {
 		goods_type = 1,
 		name = "塔罗牌 · 教皇",
 		resource_num = 1,
@@ -3013,8 +3244,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9056,
 		icon = "buff_2008"
-	},
-	[9057] = {
+	}
+	pg.base.child2_shop[9057] = {
 		goods_type = 1,
 		name = "塔罗牌 · 恋人",
 		resource_num = 1,
@@ -3027,8 +3258,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9057,
 		icon = "buff_2008"
-	},
-	[9058] = {
+	}
+	pg.base.child2_shop[9058] = {
 		goods_type = 1,
 		name = "塔罗牌 · 战车",
 		resource_num = 1,
@@ -3041,8 +3272,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9058,
 		icon = "buff_2008"
-	},
-	[9059] = {
+	}
+	pg.base.child2_shop[9059] = {
 		goods_type = 1,
 		name = "塔罗牌 · 力量",
 		resource_num = 1,
@@ -3055,8 +3286,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9059,
 		icon = "buff_2008"
-	},
-	[9060] = {
+	}
+	pg.base.child2_shop[9060] = {
 		goods_type = 1,
 		name = "塔罗牌 · 隐者",
 		resource_num = 1,
@@ -3069,8 +3300,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9060,
 		icon = "buff_2008"
-	},
-	[9061] = {
+	}
+	pg.base.child2_shop[9061] = {
 		goods_type = 1,
 		name = "塔罗牌 · 命运之轮",
 		resource_num = 1,
@@ -3083,8 +3314,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9061,
 		icon = "buff_2008"
-	},
-	[9062] = {
+	}
+	pg.base.child2_shop[9062] = {
 		goods_type = 1,
 		name = "塔罗牌 · 正义",
 		resource_num = 1,
@@ -3097,8 +3328,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9062,
 		icon = "buff_2008"
-	},
-	[9063] = {
+	}
+	pg.base.child2_shop[9063] = {
 		goods_type = 1,
 		name = "塔罗牌 · 倒吊者",
 		resource_num = 1,
@@ -3111,8 +3342,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9063,
 		icon = "buff_2008"
-	},
-	[9064] = {
+	}
+	pg.base.child2_shop[9064] = {
 		goods_type = 1,
 		name = "塔罗牌 · 死神",
 		resource_num = 1,
@@ -3125,8 +3356,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9064,
 		icon = "buff_2008"
-	},
-	[9065] = {
+	}
+	pg.base.child2_shop[9065] = {
 		goods_type = 1,
 		name = "塔罗牌 · 节制",
 		resource_num = 1,
@@ -3139,8 +3370,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9065,
 		icon = "buff_2008"
-	},
-	[9066] = {
+	}
+	pg.base.child2_shop[9066] = {
 		goods_type = 1,
 		name = "塔罗牌 · 恶魔",
 		resource_num = 1,
@@ -3153,8 +3384,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9066,
 		icon = "buff_2008"
-	},
-	[9067] = {
+	}
+	pg.base.child2_shop[9067] = {
 		goods_type = 1,
 		name = "塔罗牌 · 高塔",
 		resource_num = 1,
@@ -3167,8 +3398,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9067,
 		icon = "buff_2008"
-	},
-	[9068] = {
+	}
+	pg.base.child2_shop[9068] = {
 		goods_type = 1,
 		name = "塔罗牌 · 星星",
 		resource_num = 1,
@@ -3181,8 +3412,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9068,
 		icon = "buff_2008"
-	},
-	[9069] = {
+	}
+	pg.base.child2_shop[9069] = {
 		goods_type = 1,
 		name = "塔罗牌 · 月亮",
 		resource_num = 1,
@@ -3195,8 +3426,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9069,
 		icon = "buff_2008"
-	},
-	[9070] = {
+	}
+	pg.base.child2_shop[9070] = {
 		goods_type = 1,
 		name = "塔罗牌 · 太阳",
 		resource_num = 1,
@@ -3209,8 +3440,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9070,
 		icon = "buff_2008"
-	},
-	[9071] = {
+	}
+	pg.base.child2_shop[9071] = {
 		goods_type = 1,
 		name = "塔罗牌 · 审判",
 		resource_num = 1,
@@ -3223,8 +3454,8 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9071,
 		icon = "buff_2008"
-	},
-	[9072] = {
+	}
+	pg.base.child2_shop[9072] = {
 		goods_type = 1,
 		name = "塔罗牌 · 世界",
 		resource_num = 1,
@@ -3237,226 +3468,5 @@ pg.child2_shop = {
 		resource_type = 1,
 		id = 9072,
 		icon = "buff_2008"
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63,
-		3001,
-		3002,
-		3003,
-		3004,
-		3005,
-		3006,
-		3007,
-		3008,
-		3009,
-		3010,
-		3011,
-		3012,
-		3013,
-		3014,
-		3015,
-		3016,
-		3017,
-		3018,
-		3019,
-		3020,
-		3101,
-		3102,
-		3103,
-		3104,
-		3105,
-		3106,
-		3107,
-		3108,
-		3109,
-		3110,
-		3111,
-		3112,
-		3116,
-		3120,
-		3124,
-		3128,
-		3132,
-		3136,
-		3140,
-		3144,
-		3148,
-		3152,
-		3156,
-		3160,
-		3164,
-		3168,
-		3172,
-		3176,
-		3180,
-		3184,
-		3188,
-		3192,
-		3196,
-		3200,
-		3204,
-		3208,
-		3212,
-		3216,
-		3220,
-		3224,
-		3228,
-		3232,
-		3236,
-		3240,
-		3244,
-		3248,
-		3252,
-		3256,
-		3260,
-		3264,
-		3268,
-		3272,
-		3276,
-		3280,
-		3284,
-		3288,
-		3292,
-		3296,
-		3300,
-		3304,
-		3308,
-		3312,
-		3316,
-		3320,
-		9001,
-		9002,
-		9003,
-		9004,
-		9005,
-		9006,
-		9007,
-		9008,
-		9009,
-		9010,
-		9011,
-		9012,
-		9013,
-		9014,
-		9015,
-		9016,
-		9017,
-		9018,
-		9019,
-		9020,
-		9021,
-		9022,
-		9023,
-		9024,
-		9025,
-		9026,
-		9027,
-		9028,
-		9029,
-		9030,
-		9031,
-		9032,
-		9033,
-		9034,
-		9035,
-		9036,
-		9037,
-		9038,
-		9039,
-		9040,
-		9041,
-		9042,
-		9043,
-		9044,
-		9045,
-		9046,
-		9047,
-		9048,
-		9049,
-		9050,
-		9051,
-		9052,
-		9053,
-		9054,
-		9055,
-		9056,
-		9057,
-		9058,
-		9059,
-		9060,
-		9061,
-		9062,
-		9063,
-		9064,
-		9065,
-		9066,
-		9067,
-		9068,
-		9069,
-		9070,
-		9071,
-		9072
 	}
-}
+end)()

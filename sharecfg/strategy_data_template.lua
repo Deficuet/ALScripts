@@ -1,404 +1,407 @@
 pg = pg or {}
-pg.strategy_data_template = setmetatable({
-	__name = "strategy_data_template",
-	all = {
-		1,
-		2,
-		3,
-		4,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		16,
-		17,
-		18,
-		47,
-		90,
-		91,
-		92,
-		93,
-		94,
-		95,
-		96,
-		97,
-		1000,
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		1010,
-		1011,
-		1012,
-		1013,
-		1014,
-		1015,
-		1016,
-		8650,
-		8732,
-		8744,
-		8745,
-		8746,
-		8750,
-		8801,
-		8802,
-		8803,
-		8806,
-		8809,
-		8812,
-		8815,
-		8832,
-		8841,
-		8842,
-		8843,
-		8846,
-		8849,
-		8852,
-		8855,
-		8858,
-		8863,
-		8864,
-		8865,
-		8867,
-		8869,
-		8874,
-		8877,
-		8880,
-		8882,
-		8884,
-		8909,
-		8910,
-		8911,
-		8912,
-		8913,
-		8914,
-		8915,
-		8916,
-		8917,
-		8918,
-		8919,
-		8920,
-		8941,
-		8942,
-		8943,
-		8944,
-		8945,
-		8946,
-		8953,
-		8955,
-		8957,
-		8959,
-		8974,
-		8975,
-		8976,
-		9211,
-		9212,
-		9213,
-		9216,
-		9219,
-		9222,
-		9225,
-		9231,
-		9232,
-		9233,
-		9236,
-		9239,
-		9242,
-		9245,
-		9251,
-		9252,
-		9253,
-		9256,
-		9259,
-		9262,
-		9265,
-		9271,
-		9272,
-		9273,
-		9276,
-		9279,
-		9282,
-		9285,
-		9391,
-		9392,
-		9393,
-		9394,
-		9395,
-		9401,
-		9403,
-		9406,
-		9409,
-		9412,
-		9415,
-		9421,
-		9423,
-		9426,
-		9429,
-		9432,
-		9435,
-		9441,
-		9443,
-		9446,
-		9449,
-		9452,
-		9455,
-		9461,
-		9463,
-		9466,
-		9469,
-		9472,
-		9475,
-		9481,
-		9483,
-		9486,
-		9489,
-		9492,
-		9495,
-		9500,
-		9502,
-		9505,
-		9508,
-		10001,
-		10002,
-		10011,
-		10012,
-		10013,
-		10014,
-		10015,
-		10021,
-		10031,
-		10032,
-		10033,
-		200000,
-		200003,
-		200006,
-		200009,
-		200011,
-		200012,
-		200013,
-		200015,
-		200016,
-		200019,
-		200023,
-		200024,
-		200025,
-		200052,
-		200054,
-		200057,
-		200060,
-		200063,
-		200067,
-		200070,
-		200074,
-		200078,
-		200079,
-		200080,
-		200081,
-		200082,
-		200083,
-		200084,
-		200085,
-		200086,
-		200087,
-		200088,
-		200239,
-		200240,
-		200241,
-		200242,
-		200327,
-		200330,
-		200333,
-		200336,
-		200338,
-		200392,
-		200394,
-		200396,
-		200401,
-		200406,
-		200411,
-		200416,
-		200432,
-		200433,
-		200434,
-		200511,
-		200535,
-		200536,
-		200538,
-		200541,
-		200544,
-		200545,
-		200546,
-		200583,
-		200585,
-		200589,
-		200592,
-		200595,
-		200618,
-		200620,
-		200622,
-		200624,
-		200627,
-		200630,
-		200633,
-		200645,
-		200646,
-		200647,
-		200648,
-		200649,
-		200655,
-		200658,
-		200661,
-		200664,
-		200667,
-		200670,
-		200673,
-		200676,
-		200679,
-		200732,
-		200735,
-		200770,
-		200774,
-		200777,
-		200780,
-		200783,
-		200902,
-		200903,
-		200905,
-		200907,
-		200908,
-		200925,
-		200926,
-		200928,
-		200930,
-		200931,
-		200932,
-		200979,
-		200980,
-		200983,
-		200984,
-		200987,
-		200990,
-		200999,
-		201021,
-		201022,
-		201024,
-		201027,
-		201029,
-		201090,
-		201094,
-		201097,
-		201100,
-		201149,
-		201152,
-		201155,
-		201157,
-		201158,
-		201193,
-		201194,
-		201197,
-		201198,
-		201199,
-		201250,
-		201270,
-		201276,
-		201281,
-		201287,
-		201301,
-		201302,
-		201303,
-		201304,
-		201305,
-		201306,
-		201307,
-		201308,
-		201309,
-		201310,
-		201311,
-		201312,
-		201313,
-		201314,
-		201315,
-		201316,
-		201317,
-		201318,
-		201319,
-		201320,
-		201321,
-		201327,
-		201361,
-		201365,
-		201377,
-		201378,
-		201382,
-		201386,
-		201410,
-		201411,
-		201461,
-		201462,
-		201463,
-		201464,
-		201515,
-		201516,
-		201517,
-		201519,
-		201525,
-		201530,
-		201531,
-		201532,
-		201547,
-		201550,
-		201551,
-		201552,
-		201650,
-		201651,
-		201654,
-		201655,
-		201701,
-		201705,
-		201706,
-		201707,
-		201741,
-		201742,
-		201743,
-		205001,
-		205002,
-		205003,
-		205004,
-		205005,
-		205006,
-		205007,
-		300001,
-		300002,
-		300003,
-		300004,
-		300005,
-		300006,
-		300007,
-		300008,
-		300009,
-		300010,
-		300011,
-		300012,
-		300013,
-		300014,
-		300015,
-		300016,
-		300017,
-		300018,
-		300019,
-		300020
-	}
-}, confHX)
+pg.strategy_data_template = rawget(pg, "strategy_data_template") or setmetatable({
+	__name = "strategy_data_template"
+}, confNEO)
+pg.strategy_data_template.__namecode__ = true
+pg.strategy_data_template.all = {
+	1,
+	2,
+	3,
+	4,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	16,
+	17,
+	18,
+	47,
+	90,
+	91,
+	92,
+	93,
+	94,
+	95,
+	96,
+	97,
+	1000,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012,
+	1013,
+	1014,
+	1015,
+	1016,
+	8650,
+	8732,
+	8744,
+	8745,
+	8746,
+	8750,
+	8801,
+	8802,
+	8803,
+	8806,
+	8809,
+	8812,
+	8815,
+	8832,
+	8841,
+	8842,
+	8843,
+	8846,
+	8849,
+	8852,
+	8855,
+	8858,
+	8863,
+	8864,
+	8865,
+	8867,
+	8869,
+	8874,
+	8877,
+	8880,
+	8882,
+	8884,
+	8909,
+	8910,
+	8911,
+	8912,
+	8913,
+	8914,
+	8915,
+	8916,
+	8917,
+	8918,
+	8919,
+	8920,
+	8941,
+	8942,
+	8943,
+	8944,
+	8945,
+	8946,
+	8953,
+	8955,
+	8957,
+	8959,
+	8974,
+	8975,
+	8976,
+	9211,
+	9212,
+	9213,
+	9216,
+	9219,
+	9222,
+	9225,
+	9231,
+	9232,
+	9233,
+	9236,
+	9239,
+	9242,
+	9245,
+	9251,
+	9252,
+	9253,
+	9256,
+	9259,
+	9262,
+	9265,
+	9271,
+	9272,
+	9273,
+	9276,
+	9279,
+	9282,
+	9285,
+	9391,
+	9392,
+	9393,
+	9394,
+	9395,
+	9401,
+	9403,
+	9406,
+	9409,
+	9412,
+	9415,
+	9421,
+	9423,
+	9426,
+	9429,
+	9432,
+	9435,
+	9441,
+	9443,
+	9446,
+	9449,
+	9452,
+	9455,
+	9461,
+	9463,
+	9466,
+	9469,
+	9472,
+	9475,
+	9481,
+	9483,
+	9486,
+	9489,
+	9492,
+	9495,
+	9500,
+	9502,
+	9505,
+	9508,
+	10001,
+	10002,
+	10011,
+	10012,
+	10013,
+	10014,
+	10015,
+	10021,
+	10031,
+	10032,
+	10033,
+	200000,
+	200003,
+	200006,
+	200009,
+	200011,
+	200012,
+	200013,
+	200015,
+	200016,
+	200019,
+	200023,
+	200024,
+	200025,
+	200052,
+	200054,
+	200057,
+	200060,
+	200063,
+	200067,
+	200070,
+	200074,
+	200078,
+	200079,
+	200080,
+	200081,
+	200082,
+	200083,
+	200084,
+	200085,
+	200086,
+	200087,
+	200088,
+	200239,
+	200240,
+	200241,
+	200242,
+	200327,
+	200330,
+	200333,
+	200336,
+	200338,
+	200392,
+	200394,
+	200396,
+	200401,
+	200406,
+	200411,
+	200416,
+	200432,
+	200433,
+	200434,
+	200511,
+	200535,
+	200536,
+	200538,
+	200541,
+	200544,
+	200545,
+	200546,
+	200583,
+	200585,
+	200589,
+	200592,
+	200595,
+	200618,
+	200620,
+	200622,
+	200624,
+	200627,
+	200630,
+	200633,
+	200645,
+	200646,
+	200647,
+	200648,
+	200649,
+	200655,
+	200658,
+	200661,
+	200664,
+	200667,
+	200670,
+	200673,
+	200676,
+	200679,
+	200732,
+	200735,
+	200770,
+	200774,
+	200777,
+	200780,
+	200783,
+	200902,
+	200903,
+	200905,
+	200907,
+	200908,
+	200925,
+	200926,
+	200928,
+	200930,
+	200931,
+	200932,
+	200979,
+	200980,
+	200983,
+	200984,
+	200987,
+	200990,
+	200999,
+	201021,
+	201022,
+	201024,
+	201027,
+	201029,
+	201090,
+	201094,
+	201097,
+	201100,
+	201149,
+	201152,
+	201155,
+	201157,
+	201158,
+	201193,
+	201194,
+	201197,
+	201198,
+	201199,
+	201250,
+	201270,
+	201276,
+	201281,
+	201287,
+	201301,
+	201302,
+	201303,
+	201304,
+	201305,
+	201306,
+	201307,
+	201308,
+	201309,
+	201310,
+	201311,
+	201312,
+	201313,
+	201314,
+	201315,
+	201316,
+	201317,
+	201318,
+	201319,
+	201320,
+	201321,
+	201327,
+	201361,
+	201365,
+	201377,
+	201378,
+	201382,
+	201386,
+	201410,
+	201411,
+	201461,
+	201462,
+	201463,
+	201464,
+	201515,
+	201516,
+	201517,
+	201519,
+	201525,
+	201530,
+	201531,
+	201532,
+	201547,
+	201550,
+	201551,
+	201552,
+	201650,
+	201651,
+	201654,
+	201655,
+	201701,
+	201705,
+	201706,
+	201707,
+	201741,
+	201742,
+	201743,
+	205001,
+	205002,
+	205003,
+	205004,
+	205005,
+	205006,
+	205007,
+	300001,
+	300002,
+	300003,
+	300004,
+	300005,
+	300006,
+	300007,
+	300008,
+	300009,
+	300010,
+	300011,
+	300012,
+	300013,
+	300014,
+	300015,
+	300016,
+	300017,
+	300018,
+	300019,
+	300020
+}
 pg.base = pg.base or {}
-pg.base.strategy_data_template = {
-	{
+pg.base.strategy_data_template = {}
+
+;(function()
+	pg.base.strategy_data_template[1] = {
 		buff_id = 100,
 		name = "单纵阵突入",
 		iconSize = "",
@@ -408,8 +411,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "下一场战斗，舰队全员炮击、雷击提高15%，机动降低10%",
 		arg = {}
-	},
-	{
+	}
+	pg.base.strategy_data_template[2] = {
 		buff_id = 110,
 		name = "复纵阵前进",
 		iconSize = "",
@@ -419,8 +422,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "下一场战斗，舰队全员机动提高30%，炮击、雷击降低5%",
 		arg = {}
-	},
-	{
+	}
+	pg.base.strategy_data_template[3] = {
 		buff_id = 120,
 		name = "轮型阵护卫",
 		iconSize = "",
@@ -430,8 +433,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "下一场战斗，舰队全员防空提高20%",
 		arg = {}
-	},
-	{
+	}
+	pg.base.strategy_data_template[4] = {
 		buff_id = 0,
 		name = "紧急维修",
 		iconSize = "",
@@ -444,8 +447,8 @@ pg.base.strategy_data_template = {
 			healthy,
 			10
 		}
-	},
-	[9] = {
+	}
+	pg.base.strategy_data_template[9] = {
 		buff_id = 0,
 		name = "交换",
 		iconSize = "",
@@ -457,8 +460,8 @@ pg.base.strategy_data_template = {
 		arg = {
 			exchange
 		}
-	},
-	[10] = {
+	}
+	pg.base.strategy_data_template[10] = {
 		buff_id = 0,
 		name = "范围外支援",
 		iconSize = "",
@@ -470,8 +473,8 @@ pg.base.strategy_data_template = {
 		arg = {
 			map_call
 		}
-	},
-	[11] = {
+	}
+	pg.base.strategy_data_template[11] = {
 		buff_id = 0,
 		name = "作战区域变更",
 		iconSize = "",
@@ -484,8 +487,8 @@ pg.base.strategy_data_template = {
 			sub_move,
 			1.1
 		}
-	},
-	[12] = {
+	}
+	pg.base.strategy_data_template[12] = {
 		buff_id = 0,
 		name = "声呐探测",
 		iconSize = "",
@@ -497,8 +500,8 @@ pg.base.strategy_data_template = {
 		arg = {
 			area_scout
 		}
-	},
-	[13] = {
+	}
+	pg.base.strategy_data_template[13] = {
 		buff_id = 9670,
 		name = "照明弹",
 		iconSize = "",
@@ -508,8 +511,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "获得照明弹补给，此舰队在后续的$1场战斗中将会获得额外照明弹支援。",
 		arg = {}
-	},
-	[14] = {
+	}
+	pg.base.strategy_data_template[14] = {
 		buff_id = 9600,
 		name = "灯塔",
 		iconSize = "",
@@ -519,8 +522,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "拥有灯塔控制权，舰队在战斗中将会获得来自灯塔的照明支援。",
 		arg = {}
-	},
-	[16] = {
+	}
+	pg.base.strategy_data_template[16] = {
 		buff_id = 0,
 		name = "夜战",
 		iconSize = "",
@@ -530,8 +533,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "苏丽高海峡被黑夜和雷雨笼罩，己方先锋舰队与敌方舰队均获得「夜战隐蔽」状态。被攻击时，舰队会依据当前隐蔽强度获得额外的规避能力。",
 		arg = {}
-	},
-	[17] = {
+	}
+	pg.base.strategy_data_template[17] = {
 		buff_id = 0,
 		name = "海雾",
 		iconSize = "",
@@ -541,8 +544,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "处于海雾区域中，战斗时己方和敌方的隐蔽强度降低速率减慢。",
 		arg = {}
-	},
-	[18] = {
+	}
+	pg.base.strategy_data_template[18] = {
 		buff_id = 0,
 		name = "导弹",
 		iconSize = "",
@@ -554,8 +557,8 @@ pg.base.strategy_data_template = {
 		arg = {
 			missile
 		}
-	},
-	[47] = {
+	}
+	pg.base.strategy_data_template[47] = {
 		buff_id = 0,
 		name = "高效作战",
 		iconSize = "",
@@ -565,8 +568,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "当前关卡中的战斗石油消耗增加100%;\n同时战斗结算时指挥官、指挥喵、角色经验获取提高100%，额外获得一次掉落;\n心情值消耗，好感度获取均提高100%。",
 		arg = {}
-	},
-	[90] = {
+	}
+	pg.base.strategy_data_template[90] = {
 		buff_id = 90,
 		name = "危机出现!",
 		iconSize = "",
@@ -576,8 +579,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "下一场战斗中会出现绊爱的干扰：潜艇召唤/舰载机攻击/鱼雷发射/主炮跨射功能将陷入瘫痪（包括自律模式），连续点击出现的绊爱即可消除影响",
 		arg = {}
-	},
-	[91] = {
+	}
+	pg.base.strategy_data_template[91] = {
 		buff_id = 91,
 		name = "危机回避~",
 		iconSize = "",
@@ -587,8 +590,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "危机规避~战斗中不会出现干扰了",
 		arg = {}
-	},
-	[92] = {
+	}
+	pg.base.strategy_data_template[92] = {
 		buff_id = 0,
 		name = "夜幕降临 ",
 		iconSize = "",
@@ -598,8 +601,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "黑夜来临，现在前往危险区域会遭遇怪物伏击，请小心 ",
 		arg = {}
-	},
-	[93] = {
+	}
+	pg.base.strategy_data_template[93] = {
 		buff_id = 0,
 		name = "旭日初升 ",
 		iconSize = "",
@@ -609,8 +612,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "太阳升起，现在危险区域的怪物伏击效果消失了 ",
 		arg = {}
-	},
-	[94] = {
+	}
+	pg.base.strategy_data_template[94] = {
 		buff_id = 9727,
 		name = "空中支援（敌方） ",
 		iconSize = "",
@@ -620,8 +623,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "场上存在敌方航空支援舰队，舰队在战斗中将会遭到来自敌方的空中打击。",
 		arg = {}
-	},
-	[95] = {
+	}
+	pg.base.strategy_data_template[95] = {
 		buff_id = 0,
 		name = "空中支援（己方） ",
 		iconSize = "",
@@ -631,8 +634,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "场上存在我方航空支援舰队，舰队在战斗中将会获得来自我方的空中支援。",
 		arg = {}
-	},
-	[96] = {
+	}
+	pg.base.strategy_data_template[96] = {
 		buff_id = 262,
 		name = "战术分析",
 		iconSize = "",
@@ -642,8 +645,8 @@ pg.base.strategy_data_template = {
 		buff_type = 1,
 		desc = "（实际生效挂载buff用）敌方旗舰掌握了我方舰队的情报，受「战术分析」影响的舰队在下一场与敌方旗舰的战斗中，造成的伤害降低30%，受到的伤害增加30%。",
 		arg = {}
-	},
-	[97] = {
+	}
+	pg.base.strategy_data_template[97] = {
 		buff_id = 0,
 		name = "战术分析",
 		iconSize = "",
@@ -653,8 +656,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "敌方旗舰掌握了我方舰队的情报，受「战术分析」影响的舰队在下一场与敌方旗舰的战斗中，造成的伤害降低30%，受到的伤害增加30%。",
 		arg = {}
-	},
-	[1000] = {
+	}
+	pg.base.strategy_data_template[1000] = {
 		buff_id = 0,
 		name = "空袭打击 ",
 		iconSize = "",
@@ -666,8 +669,8 @@ pg.base.strategy_data_template = {
 		arg = {
 			support_missile
 		}
-	},
-	[1001] = {
+	}
+	pg.base.strategy_data_template[1001] = {
 		buff_id = 0,
 		name = "战术驱离 ",
 		iconSize = "",
@@ -679,8 +682,8 @@ pg.base.strategy_data_template = {
 		arg = {
 			expel
 		}
-	},
-	[1002] = {
+	}
+	pg.base.strategy_data_template[1002] = {
 		buff_id = 9729,
 		name = "占据先机",
 		iconSize = "",
@@ -690,8 +693,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方舰队【夜战隐蔽强度】大幅提高，敌方舰队【夜战隐蔽强度】大幅降低",
 		arg = {}
-	},
-	[1003] = {
+	}
+	pg.base.strategy_data_template[1003] = {
 		buff_id = 9733,
 		name = "狭路相逢I",
 		iconSize = "",
@@ -701,8 +704,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方舰队【夜战隐蔽强度】提高，敌方舰队【夜战隐蔽强度】降低",
 		arg = {}
-	},
-	[1004] = {
+	}
+	pg.base.strategy_data_template[1004] = {
 		buff_id = 9737,
 		name = "狭路相逢II",
 		iconSize = "",
@@ -712,8 +715,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方舰队【夜战隐蔽强度】小幅提高，敌方舰队【夜战隐蔽强度】小幅降低",
 		arg = {}
-	},
-	[1005] = {
+	}
+	pg.base.strategy_data_template[1005] = {
 		buff_id = 9741,
 		name = "狭路相逢III",
 		iconSize = "",
@@ -723,8 +726,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方舰队【夜战隐蔽强度】略微提高，敌方舰队【夜战隐蔽强度】略微降低",
 		arg = {}
-	},
-	[1006] = {
+	}
+	pg.base.strategy_data_template[1006] = {
 		buff_id = 9745,
 		name = "迷雾强化I",
 		iconSize = "",
@@ -734,8 +737,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "敌方舰队机动属性提高15%",
 		arg = {}
-	},
-	[1007] = {
+	}
+	pg.base.strategy_data_template[1007] = {
 		buff_id = 9748,
 		name = "迷雾强化II",
 		iconSize = "",
@@ -745,8 +748,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "敌方舰队机动属性提高10%",
 		arg = {}
-	},
-	[1008] = {
+	}
+	pg.base.strategy_data_template[1008] = {
 		buff_id = 9751,
 		name = "迷雾强化III",
 		iconSize = "",
@@ -756,8 +759,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "敌方舰队机动属性提高5%",
 		arg = {}
-	},
-	[1009] = {
+	}
+	pg.base.strategy_data_template[1009] = {
 		buff_id = 9754,
 		name = "空中支援I（敌方） ",
 		iconSize = "",
@@ -767,8 +770,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "场上存在敌方路基空军基地，舰队在战斗中将会遭到来自敌方的空中支援。",
 		arg = {}
-	},
-	[1010] = {
+	}
+	pg.base.strategy_data_template[1010] = {
 		buff_id = 9755,
 		name = "空中支援II（敌方） ",
 		iconSize = "",
@@ -778,8 +781,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "场上存在敌方路基空军基地，来自敌方的空中支援略微降低。",
 		arg = {}
-	},
-	[1011] = {
+	}
+	pg.base.strategy_data_template[1011] = {
 		buff_id = 9756,
 		name = "空中支援III（敌方） ",
 		iconSize = "",
@@ -789,8 +792,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "击破全部敌方路基空军基地，来自敌方的空中支援显著降低。",
 		arg = {}
-	},
-	[1012] = {
+	}
+	pg.base.strategy_data_template[1012] = {
 		buff_id = 9757,
 		name = "空中支援I（敌方） ",
 		iconSize = "",
@@ -800,8 +803,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "场上存在敌方路基空军基地，舰队在战斗中将会遭到来自敌方的空中支援。",
 		arg = {}
-	},
-	[1013] = {
+	}
+	pg.base.strategy_data_template[1013] = {
 		buff_id = 9758,
 		name = "空中支援II（敌方） ",
 		iconSize = "",
@@ -811,8 +814,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "场上存在敌方路基空军基地，来自敌方的空中支援略微降低。",
 		arg = {}
-	},
-	[1014] = {
+	}
+	pg.base.strategy_data_template[1014] = {
 		buff_id = 9759,
 		name = "空中支援III（敌方） ",
 		iconSize = "",
@@ -822,8 +825,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "场上存在敌方路基空军基地，来自敌方的空中支援降低。",
 		arg = {}
-	},
-	[1015] = {
+	}
+	pg.base.strategy_data_template[1015] = {
 		buff_id = 9760,
 		name = "空中支援IIII（敌方） ",
 		iconSize = "",
@@ -833,8 +836,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "击破全部敌方路基空军基地，来自敌方的空中支援显著降低。",
 		arg = {}
-	},
-	[1016] = {
+	}
+	pg.base.strategy_data_template[1016] = {
 		buff_id = 9761,
 		name = "制空权较低",
 		iconSize = "",
@@ -844,8 +847,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[8650] = {
+	}
+	pg.base.strategy_data_template[8650] = {
 		buff_id = 8650,
 		name = "聚光灯",
 		iconSize = "",
@@ -855,8 +858,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "聚光灯效果",
 		arg = {}
-	},
-	[8732] = {
+	}
+	pg.base.strategy_data_template[8732] = {
 		buff_id = 8732,
 		name = "蝴蝶之梦",
 		iconSize = "",
@@ -866,8 +869,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中会得到来自{namecode:182}的三轮弹幕支援，同时依次暂时提高我方交战舰队5%炮击/雷击/航空属性",
 		arg = {}
-	},
-	[8744] = {
+	}
+	pg.base.strategy_data_template[8744] = {
 		buff_id = 8744,
 		name = "蝴蝶之梦",
 		iconSize = "",
@@ -877,8 +880,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中会得到来自{namecode:182}的三轮弹幕支援，同时依次暂时提高我方交战舰队5%炮击/雷击/航空属性",
 		arg = {}
-	},
-	[8745] = {
+	}
+	pg.base.strategy_data_template[8745] = {
 		buff_id = 8745,
 		name = "蝴蝶之梦",
 		iconSize = "",
@@ -888,8 +891,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中会得到来自{namecode:182}的三轮弹幕支援，同时依次暂时提高我方交战舰队5%炮击/雷击/航空属性",
 		arg = {}
-	},
-	[8746] = {
+	}
+	pg.base.strategy_data_template[8746] = {
 		buff_id = 8746,
 		name = "蝴蝶之梦",
 		iconSize = "",
@@ -899,8 +902,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中会得到来自{namecode:182}的三轮弹幕支援，同时依次暂时提高我方交战舰队5%炮击/雷击/航空属性",
 		arg = {}
-	},
-	[8750] = {
+	}
+	pg.base.strategy_data_template[8750] = {
 		buff_id = 8750,
 		name = "聚光灯",
 		iconSize = "",
@@ -910,8 +913,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "聚光灯效果",
 		arg = {}
-	},
-	[8801] = {
+	}
+	pg.base.strategy_data_template[8801] = {
 		buff_id = 8801,
 		name = "失去浮岛控制权 ",
 		iconSize = "",
@@ -921,8 +924,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "失去浮岛控制权，海域内的战斗中将受到额外航空编队攻击 ",
 		arg = {}
-	},
-	[8802] = {
+	}
+	pg.base.strategy_data_template[8802] = {
 		buff_id = 8802,
 		name = "拥有浮岛控制权 ",
 		iconSize = "",
@@ -932,8 +935,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "拥有浮岛控制权，海域内的战斗中将得到航空编队支援 ",
 		arg = {}
-	},
-	[8803] = {
+	}
+	pg.base.strategy_data_template[8803] = {
 		buff_id = 8803,
 		name = "我方浮岛机场支援",
 		iconSize = "",
@@ -943,8 +946,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方浮岛机场支援",
 		arg = {}
-	},
-	[8806] = {
+	}
+	pg.base.strategy_data_template[8806] = {
 		buff_id = 8806,
 		name = "我方浮岛机场支援",
 		iconSize = "",
@@ -954,8 +957,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方浮岛机场支援",
 		arg = {}
-	},
-	[8809] = {
+	}
+	pg.base.strategy_data_template[8809] = {
 		buff_id = 8809,
 		name = "我方浮岛机场支援",
 		iconSize = "",
@@ -965,8 +968,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方浮岛机场支援",
 		arg = {}
-	},
-	[8812] = {
+	}
+	pg.base.strategy_data_template[8812] = {
 		buff_id = 8812,
 		name = "我方浮岛机场支援",
 		iconSize = "",
@@ -976,8 +979,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方浮岛机场支援",
 		arg = {}
-	},
-	[8815] = {
+	}
+	pg.base.strategy_data_template[8815] = {
 		buff_id = 8815,
 		name = "我方浮岛机场支援",
 		iconSize = "",
@@ -987,8 +990,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方浮岛机场支援",
 		arg = {}
-	},
-	[8832] = {
+	}
+	pg.base.strategy_data_template[8832] = {
 		buff_id = 8832,
 		name = "火力支援",
 		iconSize = "",
@@ -998,8 +1001,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中会获得一次额外火力支援，火力支援会对敌方造成伤害，并为敌人施加一个持续伤害的特殊状态。 随着本期信标·META开放的日期增加，火力支援提供的伤害也会增加。",
 		arg = {}
-	},
-	[8841] = {
+	}
+	pg.base.strategy_data_template[8841] = {
 		buff_id = 8841,
 		name = "璀璨",
 		iconSize = "",
@@ -1009,8 +1012,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "己方舰队将在战斗中获得来自璀璨都市的弹幕支援",
 		arg = {}
-	},
-	[8842] = {
+	}
+	pg.base.strategy_data_template[8842] = {
 		buff_id = 8842,
 		name = "余辉",
 		iconSize = "",
@@ -1020,8 +1023,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "来自璀璨都市的弹幕支援已经停止，敌方舰队得到了火力加强 ",
 		arg = {}
-	},
-	[8843] = {
+	}
+	pg.base.strategy_data_template[8843] = {
 		buff_id = 8843,
 		name = "璀璨支援弹幕LV1",
 		iconSize = "",
@@ -1031,8 +1034,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[8846] = {
+	}
+	pg.base.strategy_data_template[8846] = {
 		buff_id = 8846,
 		name = "璀璨支援弹幕LV2",
 		iconSize = "",
@@ -1042,8 +1045,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[8849] = {
+	}
+	pg.base.strategy_data_template[8849] = {
 		buff_id = 8849,
 		name = "璀璨支援弹幕LV3",
 		iconSize = "",
@@ -1053,8 +1056,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[8852] = {
+	}
+	pg.base.strategy_data_template[8852] = {
 		buff_id = 8852,
 		name = "璀璨支援弹幕LV4",
 		iconSize = "",
@@ -1064,8 +1067,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[8855] = {
+	}
+	pg.base.strategy_data_template[8855] = {
 		buff_id = 8855,
 		name = "璀璨支援弹幕LV5",
 		iconSize = "",
@@ -1075,8 +1078,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[8858] = {
+	}
+	pg.base.strategy_data_template[8858] = {
 		buff_id = 8858,
 		name = "璀璨余辉",
 		iconSize = "",
@@ -1086,8 +1089,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "己方舰队将在战斗中获得来自璀璨都市的弹幕支援，同时敌方舰队得到了火力加强 ",
 		arg = {}
-	},
-	[8863] = {
+	}
+	pg.base.strategy_data_template[8863] = {
 		buff_id = 0,
 		name = "迷宫",
 		iconSize = "",
@@ -1097,8 +1100,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "塞壬制造的特殊迷宫覆盖了整片海面。\n舰队每进行3次行动，海域中迷宫的结构就会发生一次改变",
 		arg = {}
-	},
-	[8864] = {
+	}
+	pg.base.strategy_data_template[8864] = {
 		buff_id = 8864,
 		name = "海妖之歌",
 		iconSize = "",
@@ -1108,8 +1111,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "塞壬使用了某种用于模拟“海妖之歌”的强烈干扰装置。\n在战斗中，我方舰队将周期性受到带有干扰效果的敌方弹幕攻击",
 		arg = {}
-	},
-	[8865] = {
+	}
+	pg.base.strategy_data_template[8865] = {
 		buff_id = 8865,
 		name = "空军支援 ",
 		iconSize = "",
@@ -1119,8 +1122,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "获得了撒丁帝国空军支援。\n战斗时将会有额外的航空编队加入战斗",
 		arg = {}
-	},
-	[8867] = {
+	}
+	pg.base.strategy_data_template[8867] = {
 		buff_id = 8867,
 		name = "空军支援 ",
 		iconSize = "",
@@ -1130,8 +1133,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "获得了撒丁帝国空军支援。\n战斗时将会有额外的航空编队加入战斗",
 		arg = {}
-	},
-	[8869] = {
+	}
+	pg.base.strategy_data_template[8869] = {
 		buff_id = 8869,
 		name = "空军支援 ",
 		iconSize = "",
@@ -1141,8 +1144,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "获得了撒丁帝国空军支援。\n战斗时将会有额外的航空编队加入战斗",
 		arg = {}
-	},
-	[8874] = {
+	}
+	pg.base.strategy_data_template[8874] = {
 		buff_id = 8874,
 		name = "记录修正-AF ",
 		iconSize = "",
@@ -1152,8 +1155,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "舰队中重樱角色在战斗中造成的伤害提升5%，受到的伤害提升5%\n舰队中白鹰角色在战斗中造成的伤害降低5%，受到的伤害降低5%",
 		arg = {}
-	},
-	[8877] = {
+	}
+	pg.base.strategy_data_template[8877] = {
 		buff_id = 8877,
 		name = "海雾弥漫",
 		iconSize = "",
@@ -1163,8 +1166,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "无数危险正隐藏在海雾之中，小心应对。舰队全员命中降低5%，同时无法在交战前区分敌方舰队类型",
 		arg = {}
-	},
-	[8880] = {
+	}
+	pg.base.strategy_data_template[8880] = {
 		buff_id = 8880,
 		name = "镜面侵入",
 		iconSize = "",
@@ -1174,8 +1177,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "在神秘友军的帮助下，我方在镜面海域中也获得了些许优势。舰队在战斗中将会获得额外弹幕火力支援",
 		arg = {}
-	},
-	[8882] = {
+	}
+	pg.base.strategy_data_template[8882] = {
 		buff_id = 8882,
 		name = "镜面侵入",
 		iconSize = "",
@@ -1185,8 +1188,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "在神秘友军的帮助下，我方在镜面海域中也获得了些许优势。舰队在战斗中将会获得额外弹幕火力支援",
 		arg = {}
-	},
-	[8884] = {
+	}
+	pg.base.strategy_data_template[8884] = {
 		buff_id = 8884,
 		name = "镜面侵入",
 		iconSize = "",
@@ -1196,8 +1199,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "在神秘友军的帮助下，我方在镜面海域中也获得了些许优势。舰队在战斗中将会获得额外弹幕火力支援",
 		arg = {}
-	},
-	[8909] = {
+	}
+	pg.base.strategy_data_template[8909] = {
 		buff_id = 0,
 		name = "猎杀战术 ",
 		iconSize = "",
@@ -1207,8 +1210,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "海域中的所有塞壬舰队都将进行追击。",
 		arg = {}
-	},
-	[8910] = {
+	}
+	pg.base.strategy_data_template[8910] = {
 		buff_id = 0,
 		name = "导弹打击区",
 		iconSize = "",
@@ -1218,8 +1221,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "当前海域位于导弹打击区中，导弹将会对锁定区域内的所有舰队造成伤害，请注意规避。\n距离下一次导弹打击前的行动次数：3",
 		arg = {}
-	},
-	[8911] = {
+	}
+	pg.base.strategy_data_template[8911] = {
 		buff_id = 0,
 		name = "导弹打击区",
 		iconSize = "",
@@ -1229,8 +1232,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "当前海域位于导弹打击区中，导弹将会对锁定区域内的所有舰队造成伤害，请注意规避。\n距离下一次导弹打击前的行动次数：2",
 		arg = {}
-	},
-	[8912] = {
+	}
+	pg.base.strategy_data_template[8912] = {
 		buff_id = 0,
 		name = "导弹打击区",
 		iconSize = "",
@@ -1240,8 +1243,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "当前海域位于导弹打击区中，导弹将会对锁定区域内的所有舰队造成伤害，请注意规避。\n距离下一次导弹打击前的行动次数：1",
 		arg = {}
-	},
-	[8913] = {
+	}
+	pg.base.strategy_data_template[8913] = {
 		buff_id = 0,
 		name = "徐进战术",
 		iconSize = "",
@@ -1251,8 +1254,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "塞壬在海域中制造了随着回合数不断扩大的危险区域。行动结束后，位于危险区域中的舰队会受到一次伤害。",
 		arg = {}
-	},
-	[8914] = {
+	}
+	pg.base.strategy_data_template[8914] = {
 		buff_id = 0,
 		name = "导弹打击区",
 		iconSize = "",
@@ -1262,8 +1265,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "当前海域位于导弹打击区中，导弹将会对锁定区域内的敌方舰队造成伤害。\n距离下一次导弹打击前的行动次数：3",
 		arg = {}
-	},
-	[8915] = {
+	}
+	pg.base.strategy_data_template[8915] = {
 		buff_id = 0,
 		name = "导弹打击区",
 		iconSize = "",
@@ -1273,8 +1276,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "当前海域位于导弹打击区中，导弹将会对锁定区域内的敌方舰队造成伤害。\n距离下一次导弹打击前的行动次数：2",
 		arg = {}
-	},
-	[8916] = {
+	}
+	pg.base.strategy_data_template[8916] = {
 		buff_id = 0,
 		name = "导弹打击区",
 		iconSize = "",
@@ -1284,8 +1287,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "当前海域位于导弹打击区中，导弹将会对锁定区域内的敌方舰队造成伤害。\n距离下一次导弹打击前的行动次数：1",
 		arg = {}
-	},
-	[8917] = {
+	}
+	pg.base.strategy_data_template[8917] = {
 		buff_id = 0,
 		name = "坚冰",
 		iconSize = "",
@@ -1295,8 +1298,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "海域中存在坚固的冰墙，需要击败特定地形中的守卫舰队才能将其消除。",
 		arg = {}
-	},
-	[8918] = {
+	}
+	pg.base.strategy_data_template[8918] = {
 		buff_id = 8918,
 		name = "精神同步I",
 		iconSize = "",
@@ -1306,8 +1309,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "——「███解除：22.8％」——\n视野中开始出现来源不明的幻象。\n战斗中会出现进行无差别攻击的弹幕，注意规避。",
 		arg = {}
-	},
-	[8919] = {
+	}
+	pg.base.strategy_data_template[8919] = {
 		buff_id = 8918,
 		name = "精神同步II",
 		iconSize = "",
@@ -1317,8 +1320,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "——「███解除：37.1％」——\n幻象与现实之间的界限开始模糊。\n战斗中会出现进行无差别攻击的弹幕，注意规避。",
 		arg = {}
-	},
-	[8920] = {
+	}
+	pg.base.strategy_data_template[8920] = {
 		buff_id = 8918,
 		name = "精神同步III",
 		iconSize = "",
@@ -1328,8 +1331,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "——「███解除：89.9％」——\n现实即为幻象，幻象即为现实。\n战斗中会出现进行无差别攻击的弹幕，注意规避。",
 		arg = {}
-	},
-	[8941] = {
+	}
+	pg.base.strategy_data_template[8941] = {
 		buff_id = 0,
 		name = "幻光系统干扰",
 		iconSize = "",
@@ -1339,8 +1342,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "海域中充满了幻光系统的干扰，侦察到的敌方舰队并不一定是真实存在的。请注意判断，小心前进。",
 		arg = {}
-	},
-	[8942] = {
+	}
+	pg.base.strategy_data_template[8942] = {
 		buff_id = 8942,
 		name = "奇异点波动",
 		iconSize = "",
@@ -1350,8 +1353,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "受到该处奇异点的特殊环境影响：战斗中己方舰队炮击伤害增加20%，航空伤害减少20%，战舰主炮散布范围提高5点。",
 		arg = {}
-	},
-	[8943] = {
+	}
+	pg.base.strategy_data_template[8943] = {
 		buff_id = 0,
 		name = "核心数据塔修正",
 		iconSize = "",
@@ -1361,8 +1364,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "塞壬的核心数据塔正在对区域中的所有参战舰队施加干扰，请尽快完成作战。",
 		arg = {}
-	},
-	[8944] = {
+	}
+	pg.base.strategy_data_template[8944] = {
 		buff_id = 8944,
 		name = "数据修正-燃烧",
 		iconSize = "",
@@ -1372,8 +1375,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，参战舰队将会受到持续不断的燃烧伤害。",
 		arg = {}
-	},
-	[8945] = {
+	}
+	pg.base.strategy_data_template[8945] = {
 		buff_id = 8945,
 		name = "数据修正-迟滞",
 		iconSize = "",
@@ -1383,8 +1386,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，参战舰队的航速将会大幅下降。",
 		arg = {}
-	},
-	[8946] = {
+	}
+	pg.base.strategy_data_template[8946] = {
 		buff_id = 8946,
 		name = "数据修正-扰乱",
 		iconSize = "",
@@ -1394,8 +1397,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，参战舰队将会受到周期性的电磁干扰。",
 		arg = {}
-	},
-	[8953] = {
+	}
+	pg.base.strategy_data_template[8953] = {
 		buff_id = 8953,
 		name = "铁血战役支援",
 		iconSize = "",
@@ -1405,8 +1408,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "得到铁血的战役协助，幻光系统干扰消失，并且在战斗中获得了额外的弹幕支援。",
 		arg = {}
-	},
-	[8955] = {
+	}
+	pg.base.strategy_data_template[8955] = {
 		buff_id = 8955,
 		name = "铁血战役支援",
 		iconSize = "",
@@ -1416,8 +1419,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "得到铁血的战役协助，幻光系统干扰消失，并且在战斗中获得了额外的弹幕支援。",
 		arg = {}
-	},
-	[8957] = {
+	}
+	pg.base.strategy_data_template[8957] = {
 		buff_id = 8957,
 		name = "铁血战役支援",
 		iconSize = "",
@@ -1427,8 +1430,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "得到铁血的战役协助，幻光系统干扰消失，并且在战斗中获得了额外的弹幕支援。",
 		arg = {}
-	},
-	[8959] = {
+	}
+	pg.base.strategy_data_template[8959] = {
 		buff_id = 8959,
 		name = "铁血战役支援",
 		iconSize = "",
@@ -1438,8 +1441,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "得到铁血的战役协助，幻光系统干扰消失，并且在战斗中获得了额外的弹幕支援。",
 		arg = {}
-	},
-	[8974] = {
+	}
+	pg.base.strategy_data_template[8974] = {
 		buff_id = 8942,
 		name = "奇异点波动TYPEA",
 		iconSize = "",
@@ -1449,8 +1452,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "受到该处奇异点的特殊环境影响：战斗中己方舰队炮击伤害增加20%，航空伤害减少20%，战舰主炮散布范围提高5点。",
 		arg = {}
-	},
-	[8975] = {
+	}
+	pg.base.strategy_data_template[8975] = {
 		buff_id = 8975,
 		name = "奇异点波动TYPEB",
 		iconSize = "",
@@ -1460,8 +1463,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "受到该处奇异点的特殊环境影响：\n战斗中己方舰队航空伤害增加20%，炮击伤害减少20%。",
 		arg = {}
-	},
-	[8976] = {
+	}
+	pg.base.strategy_data_template[8976] = {
 		buff_id = 8918,
 		name = "精神同步I",
 		iconSize = "",
@@ -1471,8 +1474,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "——「███解除：10.5％」——\n视野中开始出现来源不明的幻象。\n战斗中会出现进行无差别攻击的弹幕，注意规避。",
 		arg = {}
-	},
-	[9211] = {
+	}
+	pg.base.strategy_data_template[9211] = {
 		buff_id = 9211,
 		name = "龙宫机关-怒涛 ",
 		iconSize = "",
@@ -1482,8 +1485,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "敌方控制着龙宫机关-怒涛，己方舰队在战斗中将受到来自机关的额外弹幕攻击。",
 		arg = {}
-	},
-	[9212] = {
+	}
+	pg.base.strategy_data_template[9212] = {
 		buff_id = 9212,
 		name = "龙宫秘宝-怒涛 ",
 		iconSize = "",
@@ -1493,8 +1496,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "已取得龙宫秘宝-怒涛，己方舰队在战斗中将受到来自机关的额外弹幕支援。 ",
 		arg = {}
-	},
-	[9213] = {
+	}
+	pg.base.strategy_data_template[9213] = {
 		buff_id = 9213,
 		name = "水属性弹幕支援Lv1",
 		iconSize = "",
@@ -1504,8 +1507,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方弹幕支援",
 		arg = {}
-	},
-	[9216] = {
+	}
+	pg.base.strategy_data_template[9216] = {
 		buff_id = 9216,
 		name = "水属性弹幕支援Lv2",
 		iconSize = "",
@@ -1515,8 +1518,10 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方弹幕支援",
 		arg = {}
-	},
-	[9219] = {
+	}
+end)()
+;(function()
+	pg.base.strategy_data_template[9219] = {
 		buff_id = 9219,
 		name = "水属性弹幕支援Lv3",
 		iconSize = "",
@@ -1526,8 +1531,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方弹幕支援",
 		arg = {}
-	},
-	[9222] = {
+	}
+	pg.base.strategy_data_template[9222] = {
 		buff_id = 9222,
 		name = "水属性弹幕支援Lv4",
 		iconSize = "",
@@ -1537,8 +1542,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方弹幕支援",
 		arg = {}
-	},
-	[9225] = {
+	}
+	pg.base.strategy_data_template[9225] = {
 		buff_id = 9225,
 		name = "水属性弹幕支援Lv5",
 		iconSize = "",
@@ -1548,8 +1553,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方弹幕支援",
 		arg = {}
-	},
-	[9231] = {
+	}
+	pg.base.strategy_data_template[9231] = {
 		buff_id = 9231,
 		name = "龙宫机关-烈焰 ",
 		iconSize = "",
@@ -1559,8 +1564,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "敌方控制着龙宫机关-烈焰，己方舰队在战斗中将受到来自机关的额外弹幕攻击。 ",
 		arg = {}
-	},
-	[9232] = {
+	}
+	pg.base.strategy_data_template[9232] = {
 		buff_id = 9232,
 		name = "龙宫秘宝-烈焰 ",
 		iconSize = "",
@@ -1570,8 +1575,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "已取得龙宫秘宝-烈焰，己方舰队在战斗中将受到来自机关的额外弹幕支援。 ",
 		arg = {}
-	},
-	[9233] = {
+	}
+	pg.base.strategy_data_template[9233] = {
 		buff_id = 9233,
 		name = "火属性弹幕支援Lv1",
 		iconSize = "",
@@ -1581,8 +1586,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方弹幕支援",
 		arg = {}
-	},
-	[9236] = {
+	}
+	pg.base.strategy_data_template[9236] = {
 		buff_id = 9236,
 		name = "火属性弹幕支援Lv2",
 		iconSize = "",
@@ -1592,8 +1597,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方弹幕支援",
 		arg = {}
-	},
-	[9239] = {
+	}
+	pg.base.strategy_data_template[9239] = {
 		buff_id = 9239,
 		name = "火属性弹幕支援Lv3",
 		iconSize = "",
@@ -1603,8 +1608,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方弹幕支援",
 		arg = {}
-	},
-	[9242] = {
+	}
+	pg.base.strategy_data_template[9242] = {
 		buff_id = 9242,
 		name = "火属性弹幕支援Lv4",
 		iconSize = "",
@@ -1614,8 +1619,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方弹幕支援",
 		arg = {}
-	},
-	[9245] = {
+	}
+	pg.base.strategy_data_template[9245] = {
 		buff_id = 9245,
 		name = "火属性弹幕支援Lv5",
 		iconSize = "",
@@ -1625,8 +1630,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方弹幕支援",
 		arg = {}
-	},
-	[9251] = {
+	}
+	pg.base.strategy_data_template[9251] = {
 		buff_id = 9251,
 		name = "龙宫机关-坚石 ",
 		iconSize = "",
@@ -1636,8 +1641,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "敌方控制着龙宫机关-坚石，己方舰队在战斗中将受到来自机关的额外弹幕攻击，敌方舰队将获得减伤护盾。 ",
 		arg = {}
-	},
-	[9252] = {
+	}
+	pg.base.strategy_data_template[9252] = {
 		buff_id = 9252,
 		name = "龙宫秘宝-坚石 ",
 		iconSize = "",
@@ -1647,8 +1652,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "已取得龙宫秘宝-坚石，己方舰队在战斗中将获得护盾，并受到来自机关的额外弹幕支援。 ",
 		arg = {}
-	},
-	[9253] = {
+	}
+	pg.base.strategy_data_template[9253] = {
 		buff_id = 9253,
 		name = "土属性弹幕支援Lv1",
 		iconSize = "",
@@ -1658,8 +1663,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方弹幕支援",
 		arg = {}
-	},
-	[9256] = {
+	}
+	pg.base.strategy_data_template[9256] = {
 		buff_id = 9256,
 		name = "土属性弹幕支援Lv2",
 		iconSize = "",
@@ -1669,8 +1674,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方弹幕支援",
 		arg = {}
-	},
-	[9259] = {
+	}
+	pg.base.strategy_data_template[9259] = {
 		buff_id = 9259,
 		name = "土属性弹幕支援Lv3",
 		iconSize = "",
@@ -1680,8 +1685,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方弹幕支援",
 		arg = {}
-	},
-	[9262] = {
+	}
+	pg.base.strategy_data_template[9262] = {
 		buff_id = 9262,
 		name = "土属性弹幕支援Lv4",
 		iconSize = "",
@@ -1691,8 +1696,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方弹幕支援",
 		arg = {}
-	},
-	[9265] = {
+	}
+	pg.base.strategy_data_template[9265] = {
 		buff_id = 9265,
 		name = "土属性弹幕支援Lv5",
 		iconSize = "",
@@ -1702,8 +1707,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方弹幕支援",
 		arg = {}
-	},
-	[9271] = {
+	}
+	pg.base.strategy_data_template[9271] = {
 		buff_id = 9271,
 		name = "龙宫机关-生机 ",
 		iconSize = "",
@@ -1713,8 +1718,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "敌方控制着龙宫机关-生机，己方舰队在战斗中将受到来自机关的额外弹幕攻击，敌方舰队将获得额外耐久恢复。 ",
 		arg = {}
-	},
-	[9272] = {
+	}
+	pg.base.strategy_data_template[9272] = {
 		buff_id = 9272,
 		name = "龙宫秘宝-生机 ",
 		iconSize = "",
@@ -1724,8 +1729,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "已取得龙宫秘宝-生机，己方舰队在战斗中将获得额外耐久恢复，并受到来自机关的额外弹幕支援。 ",
 		arg = {}
-	},
-	[9273] = {
+	}
+	pg.base.strategy_data_template[9273] = {
 		buff_id = 9273,
 		name = "生命属性弹幕支援Lv1",
 		iconSize = "",
@@ -1735,8 +1740,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方弹幕支援",
 		arg = {}
-	},
-	[9276] = {
+	}
+	pg.base.strategy_data_template[9276] = {
 		buff_id = 9276,
 		name = "生命属性弹幕支援Lv2",
 		iconSize = "",
@@ -1746,8 +1751,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方弹幕支援",
 		arg = {}
-	},
-	[9279] = {
+	}
+	pg.base.strategy_data_template[9279] = {
 		buff_id = 9279,
 		name = "生命属性弹幕支援Lv3",
 		iconSize = "",
@@ -1757,8 +1762,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方弹幕支援",
 		arg = {}
-	},
-	[9282] = {
+	}
+	pg.base.strategy_data_template[9282] = {
 		buff_id = 9282,
 		name = "生命属性弹幕支援Lv4",
 		iconSize = "",
@@ -1768,8 +1773,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方弹幕支援",
 		arg = {}
-	},
-	[9285] = {
+	}
+	pg.base.strategy_data_template[9285] = {
 		buff_id = 9285,
 		name = "生命属性弹幕支援Lv5",
 		iconSize = "",
@@ -1779,8 +1784,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "我方弹幕支援",
 		arg = {}
-	},
-	[9391] = {
+	}
+	pg.base.strategy_data_template[9391] = {
 		buff_id = 0,
 		name = "权限夺取 ",
 		buff_type = 0,
@@ -1793,8 +1798,8 @@ pg.base.strategy_data_template = {
 			64,
 			84
 		}
-	},
-	[9392] = {
+	}
+	pg.base.strategy_data_template[9392] = {
 		buff_id = 0,
 		name = "权限夺取 ",
 		buff_type = 0,
@@ -1807,8 +1812,8 @@ pg.base.strategy_data_template = {
 			64,
 			84
 		}
-	},
-	[9393] = {
+	}
+	pg.base.strategy_data_template[9393] = {
 		buff_id = 0,
 		name = "权限夺取 ",
 		buff_type = 0,
@@ -1821,8 +1826,8 @@ pg.base.strategy_data_template = {
 			64,
 			84
 		}
-	},
-	[9394] = {
+	}
+	pg.base.strategy_data_template[9394] = {
 		buff_id = 0,
 		name = "权限夺取 ",
 		buff_type = 0,
@@ -1835,8 +1840,8 @@ pg.base.strategy_data_template = {
 			64,
 			84
 		}
-	},
-	[9395] = {
+	}
+	pg.base.strategy_data_template[9395] = {
 		buff_id = 0,
 		name = "权限夺取 ",
 		buff_type = 0,
@@ -1849,8 +1854,8 @@ pg.base.strategy_data_template = {
 			64,
 			84
 		}
-	},
-	[9401] = {
+	}
+	pg.base.strategy_data_template[9401] = {
 		buff_id = 0,
 		name = "机甲支援 ",
 		iconSize = "",
@@ -1860,8 +1865,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "机甲支援槽已充满，后续战斗中舰队将会获得来自机甲的弹幕支援。 ",
 		arg = {}
-	},
-	[9403] = {
+	}
+	pg.base.strategy_data_template[9403] = {
 		buff_id = 9403,
 		name = "宝多六花支援弹幕LV1",
 		iconSize = "",
@@ -1871,8 +1876,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[9406] = {
+	}
+	pg.base.strategy_data_template[9406] = {
 		buff_id = 9406,
 		name = "宝多六花支援弹幕LV2",
 		iconSize = "",
@@ -1882,8 +1887,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[9409] = {
+	}
+	pg.base.strategy_data_template[9409] = {
 		buff_id = 9409,
 		name = "宝多六花支援弹幕LV3",
 		iconSize = "",
@@ -1893,8 +1898,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[9412] = {
+	}
+	pg.base.strategy_data_template[9412] = {
 		buff_id = 9412,
 		name = "宝多六花支援弹幕LV4",
 		iconSize = "",
@@ -1904,8 +1909,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[9415] = {
+	}
+	pg.base.strategy_data_template[9415] = {
 		buff_id = 9415,
 		name = "宝多六花支援弹幕LV5",
 		iconSize = "",
@@ -1915,8 +1920,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[9421] = {
+	}
+	pg.base.strategy_data_template[9421] = {
 		buff_id = 0,
 		name = "机甲支援 ",
 		iconSize = "",
@@ -1926,8 +1931,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "机甲支援槽已充满，后续战斗中舰队将会获得来自机甲的弹幕支援。 ",
 		arg = {}
-	},
-	[9423] = {
+	}
+	pg.base.strategy_data_template[9423] = {
 		buff_id = 9423,
 		name = "梦芽支援弹幕LV1",
 		iconSize = "",
@@ -1937,8 +1942,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[9426] = {
+	}
+	pg.base.strategy_data_template[9426] = {
 		buff_id = 9426,
 		name = "梦芽支援弹幕LV2",
 		iconSize = "",
@@ -1948,8 +1953,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[9429] = {
+	}
+	pg.base.strategy_data_template[9429] = {
 		buff_id = 9429,
 		name = "梦芽支援弹幕LV3",
 		iconSize = "",
@@ -1959,8 +1964,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[9432] = {
+	}
+	pg.base.strategy_data_template[9432] = {
 		buff_id = 9432,
 		name = "梦芽支援弹幕LV4",
 		iconSize = "",
@@ -1970,8 +1975,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[9435] = {
+	}
+	pg.base.strategy_data_template[9435] = {
 		buff_id = 9435,
 		name = "梦芽支援弹幕LV5",
 		iconSize = "",
@@ -1981,8 +1986,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[9441] = {
+	}
+	pg.base.strategy_data_template[9441] = {
 		buff_id = 0,
 		name = "机甲支援 ",
 		iconSize = "",
@@ -1992,8 +1997,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "机甲支援槽已充满，后续战斗中舰队将会获得来自机甲的弹幕支援。 ",
 		arg = {}
-	},
-	[9443] = {
+	}
+	pg.base.strategy_data_template[9443] = {
 		buff_id = 9443,
 		name = "千濑支援弹幕LV1",
 		iconSize = "",
@@ -2003,8 +2008,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[9446] = {
+	}
+	pg.base.strategy_data_template[9446] = {
 		buff_id = 9446,
 		name = "千濑支援弹幕LV2",
 		iconSize = "",
@@ -2014,8 +2019,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[9449] = {
+	}
+	pg.base.strategy_data_template[9449] = {
 		buff_id = 9449,
 		name = "千濑支援弹幕LV3",
 		iconSize = "",
@@ -2025,8 +2030,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[9452] = {
+	}
+	pg.base.strategy_data_template[9452] = {
 		buff_id = 9452,
 		name = "千濑支援弹幕LV4",
 		iconSize = "",
@@ -2036,8 +2041,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[9455] = {
+	}
+	pg.base.strategy_data_template[9455] = {
 		buff_id = 9455,
 		name = "千濑支援弹幕LV5",
 		iconSize = "",
@@ -2047,8 +2052,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[9461] = {
+	}
+	pg.base.strategy_data_template[9461] = {
 		buff_id = 0,
 		name = "怪兽支援 ",
 		iconSize = "",
@@ -2058,8 +2063,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "怪兽支援槽已充满，后续战斗中舰队将会获得来自怪兽的弹幕支援。 ",
 		arg = {}
-	},
-	[9463] = {
+	}
+	pg.base.strategy_data_template[9463] = {
 		buff_id = 9463,
 		name = "新条茜支援弹幕LV1",
 		iconSize = "",
@@ -2069,8 +2074,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[9466] = {
+	}
+	pg.base.strategy_data_template[9466] = {
 		buff_id = 9466,
 		name = "新条茜支援弹幕LV2",
 		iconSize = "",
@@ -2080,8 +2085,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[9469] = {
+	}
+	pg.base.strategy_data_template[9469] = {
 		buff_id = 9469,
 		name = "新条茜支援弹幕LV3",
 		iconSize = "",
@@ -2091,8 +2096,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[9472] = {
+	}
+	pg.base.strategy_data_template[9472] = {
 		buff_id = 9472,
 		name = "新条茜支援弹幕LV4",
 		iconSize = "",
@@ -2102,8 +2107,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[9475] = {
+	}
+	pg.base.strategy_data_template[9475] = {
 		buff_id = 9475,
 		name = "新条茜支援弹幕LV5",
 		iconSize = "",
@@ -2113,8 +2118,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[9481] = {
+	}
+	pg.base.strategy_data_template[9481] = {
 		buff_id = 0,
 		name = "怪兽支援 ",
 		iconSize = "",
@@ -2124,8 +2129,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "怪兽支援槽已充满，后续战斗中舰队将会获得来自怪兽的弹幕支援。 ",
 		arg = {}
-	},
-	[9483] = {
+	}
+	pg.base.strategy_data_template[9483] = {
 		buff_id = 9483,
 		name = "貉支援弹幕LV1",
 		iconSize = "",
@@ -2135,8 +2140,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[9486] = {
+	}
+	pg.base.strategy_data_template[9486] = {
 		buff_id = 9486,
 		name = "貉支援弹幕LV2",
 		iconSize = "",
@@ -2146,8 +2151,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[9489] = {
+	}
+	pg.base.strategy_data_template[9489] = {
 		buff_id = 9489,
 		name = "貉支援弹幕LV3",
 		iconSize = "",
@@ -2157,8 +2162,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[9492] = {
+	}
+	pg.base.strategy_data_template[9492] = {
 		buff_id = 9492,
 		name = "貉支援弹幕LV4",
 		iconSize = "",
@@ -2168,8 +2173,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[9495] = {
+	}
+	pg.base.strategy_data_template[9495] = {
 		buff_id = 9495,
 		name = "貉支援弹幕LV5",
 		iconSize = "",
@@ -2179,8 +2184,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[9500] = {
+	}
+	pg.base.strategy_data_template[9500] = {
 		buff_id = 9500,
 		name = "魔方活性化",
 		iconSize = "",
@@ -2190,8 +2195,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "受到魔方活性化效果影响，舰队全员造成的伤害提高20%，受到的伤害提高20%",
 		arg = {}
-	},
-	[9502] = {
+	}
+	pg.base.strategy_data_template[9502] = {
 		buff_id = 9502,
 		name = "海雾弥漫",
 		iconSize = "",
@@ -2201,8 +2206,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "无数危险正隐藏在海雾之中，小心应对，舰队全员的命中属性降低5%",
 		arg = {}
-	},
-	[9505] = {
+	}
+	pg.base.strategy_data_template[9505] = {
 		buff_id = 9505,
 		name = "铁血空中支援",
 		iconSize = "",
@@ -2212,8 +2217,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "关卡中会遭遇敌方空中编队，同时所有敌方航空伤害增加10% ",
 		arg = {}
-	},
-	[9508] = {
+	}
+	pg.base.strategy_data_template[9508] = {
 		buff_id = 9508,
 		name = "极夜",
 		iconSize = "",
@@ -2223,8 +2228,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "巴伦支海正处于漫长的极夜中，无法区分敌方舰队的编队类型 ",
 		arg = {}
-	},
-	[10001] = {
+	}
+	pg.base.strategy_data_template[10001] = {
 		buff_id = 200,
 		name = "弹药充足",
 		iconSize = "",
@@ -2234,8 +2239,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "弹药充足，状态良好，舰队伤害提高10%",
 		arg = {}
-	},
-	[10002] = {
+	}
+	pg.base.strategy_data_template[10002] = {
 		buff_id = 210,
 		name = "弹药匮乏",
 		iconSize = "",
@@ -2245,8 +2250,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "弹尽粮绝，需要补给，舰队伤害降低50%",
 		arg = {}
-	},
-	[10011] = {
+	}
+	pg.base.strategy_data_template[10011] = {
 		buff_id = 220,
 		name = "制空权确保",
 		iconSize = "",
@@ -2258,8 +2263,8 @@ pg.base.strategy_data_template = {
 		arg = {
 			800
 		}
-	},
-	[10012] = {
+	}
+	pg.base.strategy_data_template[10012] = {
 		buff_id = 230,
 		name = "制空权优势",
 		iconSize = "",
@@ -2271,8 +2276,8 @@ pg.base.strategy_data_template = {
 		arg = {
 			500
 		}
-	},
-	[10013] = {
+	}
+	pg.base.strategy_data_template[10013] = {
 		buff_id = 240,
 		name = "势均力敌",
 		iconSize = "",
@@ -2284,8 +2289,8 @@ pg.base.strategy_data_template = {
 		arg = {
 			0
 		}
-	},
-	[10014] = {
+	}
+	pg.base.strategy_data_template[10014] = {
 		buff_id = 250,
 		name = "制空权劣势",
 		iconSize = "",
@@ -2297,8 +2302,8 @@ pg.base.strategy_data_template = {
 		arg = {
 			0
 		}
-	},
-	[10015] = {
+	}
+	pg.base.strategy_data_template[10015] = {
 		buff_id = 260,
 		name = "制空权丧失",
 		iconSize = "",
@@ -2310,8 +2315,8 @@ pg.base.strategy_data_template = {
 		arg = {
 			0
 		}
-	},
-	[10021] = {
+	}
+	pg.base.strategy_data_template[10021] = {
 		buff_id = 8761,
 		name = "情绪高涨",
 		iconSize = "",
@@ -2321,8 +2326,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "舰队全员处于情绪高涨状态下，战斗开始时回复2%自身耐久",
 		arg = {}
-	},
-	[10031] = {
+	}
+	pg.base.strategy_data_template[10031] = {
 		buff_id = 8765,
 		name = "特殊演出 ",
 		iconSize = "",
@@ -2332,8 +2337,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗开始时回复舰队全员2%耐久",
 		arg = {}
-	},
-	[10032] = {
+	}
+	pg.base.strategy_data_template[10032] = {
 		buff_id = 8767,
 		name = "特殊演出 ",
 		iconSize = "",
@@ -2343,8 +2348,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "舰队全员在战斗中造成的伤害提高5%",
 		arg = {}
-	},
-	[10033] = {
+	}
+	pg.base.strategy_data_template[10033] = {
 		buff_id = 8769,
 		name = "特殊演出 ",
 		iconSize = "",
@@ -2354,8 +2359,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "舰队全员在战斗中受到的伤害降低5%",
 		arg = {}
-	},
-	[200000] = {
+	}
+	pg.base.strategy_data_template[200000] = {
 		buff_id = 200000,
 		name = "飞空战舰支援",
 		iconSize = "",
@@ -2365,8 +2370,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，将会得到来自飞空战舰的炮击弹幕支援。",
 		arg = {}
-	},
-	[200003] = {
+	}
+	pg.base.strategy_data_template[200003] = {
 		buff_id = 200003,
 		name = "飞空战舰支援",
 		iconSize = "",
@@ -2376,8 +2381,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，将会得到来自飞空战舰的炮击弹幕支援。",
 		arg = {}
-	},
-	[200006] = {
+	}
+	pg.base.strategy_data_template[200006] = {
 		buff_id = 200006,
 		name = "飞空战舰支援",
 		iconSize = "",
@@ -2387,8 +2392,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，将会得到来自飞空战舰的炮击弹幕支援。",
 		arg = {}
-	},
-	[200009] = {
+	}
+	pg.base.strategy_data_template[200009] = {
 		buff_id = 200009,
 		name = "选择性镜面海域",
 		iconSize = "",
@@ -2398,8 +2403,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "撒丁帝国阵营角色在战斗中造成的伤害提高20%，受到的伤害降低20%。",
 		arg = {}
-	},
-	[200011] = {
+	}
+	pg.base.strategy_data_template[200011] = {
 		buff_id = 200011,
 		name = "罗穆路斯之视",
 		iconSize = "",
@@ -2409,8 +2414,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "沐浴在风暴雷雨之中——战斗中己方角色炮击与航空增加10%。",
 		arg = {}
-	},
-	[200012] = {
+	}
+	pg.base.strategy_data_template[200012] = {
 		buff_id = 200012,
 		name = "凯撒之视",
 		iconSize = "",
@@ -2420,8 +2425,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "沐浴在军团号响之中——战斗中己方角色装填增加15%。",
 		arg = {}
-	},
-	[200013] = {
+	}
+	pg.base.strategy_data_template[200013] = {
 		buff_id = 200013,
 		name = "奥古斯都之视",
 		iconSize = "",
@@ -2431,8 +2436,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "沐浴在艳阳烈日之中——每场战斗开始时己方全体角色回复自身3%耐久。",
 		arg = {}
-	},
-	[200015] = {
+	}
+	pg.base.strategy_data_template[200015] = {
 		buff_id = 200015,
 		name = "图拉真之视",
 		iconSize = "",
@@ -2442,8 +2447,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "沐浴在广袤无垠之中——战斗中己方角色机动增加10%。",
 		arg = {}
-	},
-	[200016] = {
+	}
+	pg.base.strategy_data_template[200016] = {
 		buff_id = 200016,
 		name = "戴克里先之视",
 		iconSize = "",
@@ -2453,8 +2458,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "沐浴在辗转沉浮之中——战斗中所有敌方单位会获得耐久持续损失效果。",
 		arg = {}
-	},
-	[200019] = {
+	}
+	pg.base.strategy_data_template[200019] = {
 		buff_id = 200019,
 		name = "尤利安之视",
 		iconSize = "",
@@ -2464,8 +2469,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "沐浴在斜阳残光之中——战斗开始时，立即完成己方旗舰的主炮及空中支援加载",
 		arg = {}
-	},
-	[200023] = {
+	}
+	pg.base.strategy_data_template[200023] = {
 		buff_id = 0,
 		name = "空袭",
 		iconSize = "",
@@ -2475,8 +2480,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "实验场规则：在海域中行动时有概率遭遇敌方空袭，提高舰队侦查值将会减少被空袭的概率。",
 		arg = {}
-	},
-	[200024] = {
+	}
+	pg.base.strategy_data_template[200024] = {
 		buff_id = 0,
 		name = "伏击",
 		iconSize = "",
@@ -2486,8 +2491,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "实验场规则：在海域中行动时有概率遭遇敌方伏击舰队，提高舰队侦查值将会减少被伏击的概率。",
 		arg = {}
-	},
-	[200025] = {
+	}
+	pg.base.strategy_data_template[200025] = {
 		buff_id = 0,
 		name = "精英追击",
 		iconSize = "",
@@ -2497,8 +2502,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "实验场规则：在海域中行动时将会遭受到敌方精英舰队的追击。",
 		arg = {}
-	},
-	[200052] = {
+	}
+	pg.base.strategy_data_template[200052] = {
 		buff_id = 200052,
 		name = "结界棋盘",
 		iconSize = "",
@@ -2508,8 +2513,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "参与本次棋局的所有角色全属性提升3%，关卡开始时将会触发一个「事件」。",
 		arg = {}
-	},
-	[200054] = {
+	}
+	pg.base.strategy_data_template[200054] = {
 		buff_id = 200054,
 		name = "海雾弥散",
 		iconSize = "",
@@ -2519,8 +2524,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，敌我双方航空母舰以外的单位命中值下降5%。",
 		arg = {}
-	},
-	[200057] = {
+	}
+	pg.base.strategy_data_template[200057] = {
 		buff_id = 200057,
 		name = "变革之路",
 		iconSize = "",
@@ -2530,8 +2535,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，敌我双方的所有单位移动速度提高5%。",
 		arg = {}
-	},
-	[200060] = {
+	}
+	pg.base.strategy_data_template[200060] = {
 		buff_id = 200060,
 		name = "技术革新",
 		iconSize = "",
@@ -2541,8 +2546,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，敌我双方的所有单位受到的伤害增加5%。",
 		arg = {}
-	},
-	[200063] = {
+	}
+	pg.base.strategy_data_template[200063] = {
 		buff_id = 200063,
 		name = "天晴浪高",
 		iconSize = "",
@@ -2552,8 +2557,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，敌我双方所有战列舰与战列巡洋舰炮击与机动提升5%，驱逐舰炮击与机动减少5%。",
 		arg = {}
-	},
-	[200067] = {
+	}
+	pg.base.strategy_data_template[200067] = {
 		buff_id = 200067,
 		name = "日蚀",
 		iconSize = "",
@@ -2563,8 +2568,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，敌我双方所有战列、战列巡洋舰主炮散布范围提高2点，炮击提高5%。",
 		arg = {}
-	},
-	[200070] = {
+	}
+	pg.base.strategy_data_template[200070] = {
 		buff_id = 200070,
 		name = "静海惊雷",
 		iconSize = "",
@@ -2574,8 +2579,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中将会随机出现雷击弹幕，对范围内的敌我双方单位造成当前耐久百分比的伤害。",
 		arg = {}
-	},
-	[200074] = {
+	}
+	pg.base.strategy_data_template[200074] = {
 		buff_id = 200074,
 		name = "神木之风",
 		iconSize = "",
@@ -2585,8 +2590,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中敌我双方单位每隔一段时间，都会获得一次少量耐久回复。",
 		arg = {}
-	},
-	[200078] = {
+	}
+	pg.base.strategy_data_template[200078] = {
 		buff_id = 200078,
 		name = "天宇启户祭",
 		iconSize = "",
@@ -2596,8 +2601,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中敌我双方单位造成的伤害降低3%，且每隔一段时间，自身都会获得一层抵挡子弹的护盾或是一次少量耐久回复。",
 		arg = {}
-	},
-	[200079] = {
+	}
+	pg.base.strategy_data_template[200079] = {
 		buff_id = 0,
 		name = "起始之地",
 		iconSize = "",
@@ -2607,8 +2612,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "当前采集地产出风属性素材：无名草、翼叶草\n拥有工具-寂静镰刀后额外产出风属性素材：血红通草",
 		arg = {}
-	},
-	[200080] = {
+	}
+	pg.base.strategy_data_template[200080] = {
 		buff_id = 0,
 		name = "异界之森",
 		iconSize = "",
@@ -2618,8 +2623,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "当前采集地产出雷属性素材：闪电矿、引导之星碎片\n拥有工具-黄金之斧后额外产出雷属性素材：圣石",
 		arg = {}
-	},
-	[200081] = {
+	}
+	pg.base.strategy_data_template[200081] = {
 		buff_id = 0,
 		name = "争斗之城",
 		iconSize = "",
@@ -2629,8 +2634,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "当前采集地产出火属性素材：小晶石、可燃之砂\n拥有工具-蓝炎烧杖后额外产出火属性素材：岩浆粉",
 		arg = {}
-	},
-	[200082] = {
+	}
+	pg.base.strategy_data_template[200082] = {
 		buff_id = 0,
 		name = "失落之都",
 		iconSize = "",
@@ -2640,8 +2645,10 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "当前采集地产出冰属性素材：普鲁姆鲁螺、沙丁鱼\n拥有工具-神竿慈悲后额外产出冰属性素材：湖底之主",
 		arg = {}
-	},
-	[200083] = {
+	}
+end)()
+;(function()
+	pg.base.strategy_data_template[200083] = {
 		buff_id = 0,
 		name = "核心之所",
 		iconSize = "",
@@ -2651,8 +2658,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "当前采集地产出混合属性素材：未知结晶矿、未知装甲板\n拥有工具-激光切割器后额外产出混合属性素材：未知能源核心",
 		arg = {}
-	},
-	[200084] = {
+	}
+	pg.base.strategy_data_template[200084] = {
 		buff_id = 0,
 		name = "已拥有-寂静镰刀",
 		iconSize = "",
@@ -2662,8 +2669,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "这把镰刀被改良得更方便采集，可以像风一样安静轻巧地割下花草。",
 		arg = {}
-	},
-	[200085] = {
+	}
+	pg.base.strategy_data_template[200085] = {
 		buff_id = 0,
 		name = "已拥有-黄金之斧",
 		iconSize = "",
@@ -2673,8 +2680,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "因为经过改良，仔细调整了锋利度和重量，采集木材和木柴会比一般斧头更轻松。",
 		arg = {}
-	},
-	[200086] = {
+	}
+	pg.base.strategy_data_template[200086] = {
 		buff_id = 0,
 		name = "已拥有-蓝炎烧杖",
 		iconSize = "",
@@ -2684,8 +2691,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "炎烧杖的强化版。前端的宝玉更换为蓝色，因此能更有效率地破坏岩石和水晶。",
 		arg = {}
-	},
-	[200087] = {
+	}
+	pg.base.strategy_data_template[200087] = {
 		buff_id = 0,
 		name = "已拥有-神杆慈悲",
 		iconSize = "",
@@ -2695,8 +2702,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "钓鱼竿的强化版。经过强化后，会让鱼失去戒心主动靠近。",
 		arg = {}
-	},
-	[200088] = {
+	}
+	pg.base.strategy_data_template[200088] = {
 		buff_id = 0,
 		name = "已拥有-激光切割器",
 		iconSize = "",
@@ -2706,8 +2713,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "拥有强大的握力和推力的塞壬机械臂，还能发射灼热的开采激光——用来进行炼金术素材的采集似乎是个不错的选择？",
 		arg = {}
-	},
-	[200239] = {
+	}
+	pg.base.strategy_data_template[200239] = {
 		buff_id = 200239,
 		name = "分体式增援模块",
 		iconSize = "",
@@ -2717,8 +2724,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "受到迪贝路·XV的增援模块强化，战斗中己方全体炮击/雷击/航空增加10%",
 		arg = {}
-	},
-	[200240] = {
+	}
+	pg.base.strategy_data_template[200240] = {
 		buff_id = 200240,
 		name = "第五类威胁-预兆",
 		iconSize = "",
@@ -2728,8 +2735,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "——「████████」——\n似乎在战场上有什么事正变得不对劲？\n战斗中会出现进行无差别攻击的弹幕，注意规避。",
 		arg = {}
-	},
-	[200241] = {
+	}
+	pg.base.strategy_data_template[200241] = {
 		buff_id = 200240,
 		name = "第五类威胁-迫近",
 		iconSize = "",
@@ -2739,8 +2746,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "——「████████」——\n视野中开始出现来源不明的幻象。\n战斗中会出现进行无差别攻击的弹幕，注意规避。",
 		arg = {}
-	},
-	[200242] = {
+	}
+	pg.base.strategy_data_template[200242] = {
 		buff_id = 200242,
 		name = "空间净化系统",
 		iconSize = "",
@@ -2750,8 +2757,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "——「空间净化系统正在启动中」——\n每隔一段时间，场上敌我双方所有单位均会根据百分比损失一定耐久值。",
 		arg = {}
-	},
-	[200327] = {
+	}
+	pg.base.strategy_data_template[200327] = {
 		buff_id = 200327,
 		name = "圣堂统御装置-失控",
 		iconSize = "",
@@ -2761,8 +2768,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "圣堂统御装置已经失控。\n每隔一段时间，战斗中将出现特殊弹幕，对场上的所有单位造成一次基于最大耐久值的百分比伤害。",
 		arg = {}
-	},
-	[200330] = {
+	}
+	pg.base.strategy_data_template[200330] = {
 		buff_id = 200330,
 		name = "圣堂统御装置-恢复",
 		iconSize = "",
@@ -2772,8 +2779,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "圣堂统御装置正在恢复中。\n每隔一段时间，战斗中将出现特殊弹幕，对场上的敌方单位造成一次基于最大耐久值的百分比伤害。",
 		arg = {}
-	},
-	[200333] = {
+	}
+	pg.base.strategy_data_template[200333] = {
 		buff_id = 200333,
 		name = "圣堂统御装置-稳定",
 		iconSize = "",
@@ -2783,8 +2790,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "圣堂统御装置正在稳定工作。\n每隔一段时间，战斗中将出现特殊弹幕，对场上的敌方单位造成一次基于最大耐久值的百分比伤害，并为己方单位进行一次耐久回复。",
 		arg = {}
-	},
-	[200336] = {
+	}
+	pg.base.strategy_data_template[200336] = {
 		buff_id = 200336,
 		name = "信仰加护-Iris",
 		iconSize = "",
@@ -2794,8 +2801,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "对于神的祈祷得到了回应——\n战斗中，我方鸢尾阵营成员的炮击、雷击、航空、防空、装填、命中、机动提升3%。",
 		arg = {}
-	},
-	[200338] = {
+	}
+	pg.base.strategy_data_template[200338] = {
 		buff_id = 200338,
 		name = "信仰加护-Royal",
 		iconSize = "",
@@ -2805,8 +2812,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "对于神？的祈祷得到了回应——\n战斗中，我方皇家阵营成员的炮击、雷击、航空、防空、装填、命中、机动提升3%。",
 		arg = {}
-	},
-	[200392] = {
+	}
+	pg.base.strategy_data_template[200392] = {
 		buff_id = 0,
 		name = "猎杀战术",
 		iconSize = "",
@@ -2816,8 +2823,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "海域中的所有敌方舰队都将进行追击。",
 		arg = {}
-	},
-	[200394] = {
+	}
+	pg.base.strategy_data_template[200394] = {
 		buff_id = 200394,
 		name = "空间侵蚀",
 		iconSize = "",
@@ -2827,8 +2834,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "当前侵蚀等级：0\n海域中的我方舰队正持续受到侵蚀影响，每场战斗后空间侵蚀等级上升1级，最高为5级。\n侵蚀等级上升会同时提升我方角色在战斗中造成的伤害与受到的伤害，等级达到5时，会使得我方角色额外获得航速与命中下降效果。\nMETA角色只会根据侵蚀等级提升自身造成的伤害，不受负面效果影响。",
 		arg = {}
-	},
-	[200396] = {
+	}
+	pg.base.strategy_data_template[200396] = {
 		buff_id = 200396,
 		name = "空间侵蚀",
 		iconSize = "",
@@ -2838,8 +2845,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "当前侵蚀等级：1\n海域中的我方舰队正持续受到侵蚀影响，每场战斗后空间侵蚀等级上升1级，最高为5级。\n侵蚀等级上升会同时提升我方角色在战斗中造成的伤害与受到的伤害，等级达到5时，会使得我方角色额外获得航速与命中下降效果。\nMETA角色只会根据侵蚀等级提升自身造成的伤害，不受负面效果影响。",
 		arg = {}
-	},
-	[200401] = {
+	}
+	pg.base.strategy_data_template[200401] = {
 		buff_id = 200401,
 		name = "空间侵蚀",
 		iconSize = "",
@@ -2849,8 +2856,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "当前侵蚀等级：2\n海域中的我方舰队正持续受到侵蚀影响，每场战斗后空间侵蚀等级上升1级，最高为5级。\n侵蚀等级上升会同时提升我方角色在战斗中造成的伤害与受到的伤害，等级达到5时，会使得我方角色额外获得航速与命中下降效果。\nMETA角色只会根据侵蚀等级提升自身造成的伤害，不受负面效果影响。",
 		arg = {}
-	},
-	[200406] = {
+	}
+	pg.base.strategy_data_template[200406] = {
 		buff_id = 200406,
 		name = "空间侵蚀",
 		iconSize = "",
@@ -2860,8 +2867,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "当前侵蚀等级：3\n海域中的我方舰队正持续受到侵蚀影响，每场战斗后空间侵蚀等级上升1级，最高为5级。\n侵蚀等级上升会同时提升我方角色在战斗中造成的伤害与受到的伤害，等级达到5时，会使得我方角色额外获得航速与命中下降效果。\nMETA角色只会根据侵蚀等级提升自身造成的伤害，不受负面效果影响。",
 		arg = {}
-	},
-	[200411] = {
+	}
+	pg.base.strategy_data_template[200411] = {
 		buff_id = 200411,
 		name = "空间侵蚀",
 		iconSize = "",
@@ -2871,8 +2878,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "当前侵蚀等级：4\n海域中的我方舰队正持续受到侵蚀影响，每场战斗后空间侵蚀等级上升1级，最高为5级。\n侵蚀等级上升会同时提升我方角色在战斗中造成的伤害与受到的伤害，等级达到5时，会使得我方角色额外获得航速与命中下降效果。\nMETA角色只会根据侵蚀等级提升自身造成的伤害，不受负面效果影响。",
 		arg = {}
-	},
-	[200416] = {
+	}
+	pg.base.strategy_data_template[200416] = {
 		buff_id = 200416,
 		name = "空间侵蚀",
 		iconSize = "",
@@ -2882,8 +2889,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "当前侵蚀等级：5\n海域中的我方舰队正持续受到侵蚀影响，每场战斗后空间侵蚀等级上升1级，最高为5级。\n侵蚀等级上升会同时提升我方角色在战斗中造成的伤害与受到的伤害，等级达到5时，会使得我方角色额外获得航速与命中下降效果。\nMETA角色只会根据侵蚀等级提升自身造成的伤害，不受负面效果影响。",
 		arg = {}
-	},
-	[200432] = {
+	}
+	pg.base.strategy_data_template[200432] = {
 		buff_id = 200432,
 		name = "构造之理-援护",
 		iconSize = "",
@@ -2893,8 +2900,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "当前地图最高侵蚀等级为：1\n得到了女灶神·META的援护，海域侵蚀等级上限降低，同时战斗中我方角色在战斗中会定期恢复耐久值，并在获得恢复后的一段时间内提升全属性。",
 		arg = {}
-	},
-	[200433] = {
+	}
+	pg.base.strategy_data_template[200433] = {
 		buff_id = 200432,
 		name = "构造之理-援护",
 		iconSize = "",
@@ -2904,8 +2911,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "当前地图最高侵蚀等级为：2\n得到了女灶神·META的援护，海域侵蚀等级上限降低，同时战斗中我方角色在战斗中会定期恢复耐久值，并在获得恢复后的一段时间内提升全属性。",
 		arg = {}
-	},
-	[200434] = {
+	}
+	pg.base.strategy_data_template[200434] = {
 		buff_id = 200432,
 		name = "构造之理-援护",
 		iconSize = "",
@@ -2915,8 +2922,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "当前地图最高侵蚀等级为：3\n得到了女灶神·META的援护，海域侵蚀等级上限降低，同时战斗中我方角色在战斗中会定期恢复耐久值，并在获得恢复后的一段时间内提升全属性。",
 		arg = {}
-	},
-	[200511] = {
+	}
+	pg.base.strategy_data_template[200511] = {
 		buff_id = 200511,
 		name = "古立特联动复刻弹幕支援",
 		iconSize = "",
@@ -2926,8 +2933,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "不显示图标及说明",
 		arg = {}
-	},
-	[200535] = {
+	}
+	pg.base.strategy_data_template[200535] = {
 		buff_id = 200535,
 		name = "联合舰队",
 		iconSize = "",
@@ -2937,8 +2944,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，己方舰队成员所属阵营大于1时，每多1个不同阵营便提升舰队成员1%全属性。",
 		arg = {}
-	},
-	[200536] = {
+	}
+	pg.base.strategy_data_template[200536] = {
 		buff_id = 0,
 		name = "侵蚀性络合物",
 		iconSize = "",
@@ -2948,8 +2955,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "异常物质覆盖了天空与大地，也覆盖了敌人的身躯。\n部分敌人被击破时，会释放出侵蚀性络合物，恢复周围敌人的耐久值并对我方单位造成伤害。",
 		arg = {}
-	},
-	[200538] = {
+	}
+	pg.base.strategy_data_template[200538] = {
 		buff_id = 200538,
 		name = "审判庭支援",
 		iconSize = "",
@@ -2959,8 +2966,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "审判庭正在全力支援作战行动。\n战斗中，我方舰队将会得到审判型量产型和审判型机甲提供的弹幕支援。",
 		arg = {}
-	},
-	[200541] = {
+	}
+	pg.base.strategy_data_template[200541] = {
 		buff_id = 200541,
 		name = "审判庭支援",
 		iconSize = "",
@@ -2970,8 +2977,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "审判庭正在全力支援作战行动。\n战斗中，我方舰队将会得到审判型量产型和审判型机甲提供的弹幕支援。",
 		arg = {}
-	},
-	[200544] = {
+	}
+	pg.base.strategy_data_template[200544] = {
 		buff_id = 200544,
 		name = "陆上神国I",
 		iconSize = "",
@@ -2981,8 +2988,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "——「祂的国度正在降临」——\n国度之中，我方舰队全属性下降。\n战斗中会出现破坏性弹幕，注意规避。",
 		arg = {}
-	},
-	[200545] = {
+	}
+	pg.base.strategy_data_template[200545] = {
 		buff_id = 200545,
 		name = "陆上神国II",
 		iconSize = "",
@@ -2992,8 +2999,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "——「祂的▅▇正在▇▅临」——\n国度之中，我方舰队全属性进一步下降。\n战斗中会出现增强的破坏性弹幕，注意规避",
 		arg = {}
-	},
-	[200546] = {
+	}
+	pg.base.strategy_data_template[200546] = {
 		buff_id = 200546,
 		name = "陆上神国III",
 		iconSize = "",
@@ -3003,8 +3010,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "——「祂▇▆▇▊▇▇▆▅▇▆」——\n国度之中我方舰队全属性更进一步下降。\n战斗中会出现进一步增强的破坏性弹幕，注意规避。",
 		arg = {}
-	},
-	[200583] = {
+	}
+	pg.base.strategy_data_template[200583] = {
 		buff_id = 200583,
 		name = "无形侵蚀",
 		iconSize = "",
@@ -3014,8 +3021,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "无形的侵蚀将召唤出最深刻的恐惧敌人，无处可逃。\n每隔一段时间，战斗中将出现全屏弹幕对我方造成伤害",
 		arg = {}
-	},
-	[200585] = {
+	}
+	pg.base.strategy_data_template[200585] = {
 		buff_id = 200585,
 		name = "根源加护",
 		iconSize = "",
@@ -3025,8 +3032,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "来自根源的加护开始驱散无形之息。\n战斗中我方全体角色将定期获得可以抵消基于自身耐久百分比伤害的护盾。",
 		arg = {}
-	},
-	[200589] = {
+	}
+	pg.base.strategy_data_template[200589] = {
 		buff_id = 200589,
 		name = "信仰之河",
 		iconSize = "",
@@ -3036,8 +3043,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "愿这信仰之河，助你度过难关——\n每隔一段时间，战斗中将出现特殊弹幕支援我方。",
 		arg = {}
-	},
-	[200592] = {
+	}
+	pg.base.strategy_data_template[200592] = {
 		buff_id = 200592,
 		name = "信仰之河",
 		iconSize = "",
@@ -3047,8 +3054,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "愿这信仰之河，助你度过难关——\n每隔一段时间，战斗中将出现特殊弹幕支援我方。",
 		arg = {}
-	},
-	[200595] = {
+	}
+	pg.base.strategy_data_template[200595] = {
 		buff_id = 200595,
 		name = "信仰之河",
 		iconSize = "",
@@ -3058,8 +3065,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "愿这信仰之河，助你度过难关——\n每隔一段时间，战斗中将出现特殊弹幕支援我方。",
 		arg = {}
-	},
-	[200618] = {
+	}
+	pg.base.strategy_data_template[200618] = {
 		buff_id = 200618,
 		name = "传奇旗舰",
 		iconSize = "",
@@ -3069,8 +3076,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "“伟大的皇家财富”号正在作战。\n战斗中己方舰队将会得到“伟大的皇家财富”号的支援。",
 		arg = {}
-	},
-	[200620] = {
+	}
+	pg.base.strategy_data_template[200620] = {
 		buff_id = 200620,
 		name = "传奇旗舰",
 		iconSize = "",
@@ -3080,8 +3087,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "“伟大的皇家财富”号正在作战。\n战斗中己方舰队将会得到“伟大的皇家财富”号的支援。",
 		arg = {}
-	},
-	[200622] = {
+	}
+	pg.base.strategy_data_template[200622] = {
 		buff_id = 200622,
 		name = "传奇旗舰",
 		iconSize = "",
@@ -3091,8 +3098,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "“伟大的皇家财富”号正在作战。\n战斗中己方舰队将会得到“伟大的皇家财富”号的支援。",
 		arg = {}
-	},
-	[200624] = {
+	}
+	pg.base.strategy_data_template[200624] = {
 		buff_id = 200624,
 		name = "异常环境：风暴",
 		iconSize = "",
@@ -3102,8 +3109,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "在嘶吼的风暴中作战……\n所有飓风阵营角色受到的伤害降低3%。",
 		arg = {}
-	},
-	[200627] = {
+	}
+	pg.base.strategy_data_template[200627] = {
 		buff_id = 200627,
 		name = "异常环境：风眼",
 		iconSize = "",
@@ -3113,8 +3120,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "在平静的台风眼中作战……\n所有飓风阵营角色造成的伤害提高3%。",
 		arg = {}
-	},
-	[200630] = {
+	}
+	pg.base.strategy_data_template[200630] = {
 		buff_id = 200630,
 		name = "流星轰炸",
 		iconSize = "",
@@ -3124,8 +3131,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中将会得到来自「特米娜露」的流星弹幕支援。",
 		arg = {}
-	},
-	[200633] = {
+	}
+	pg.base.strategy_data_template[200633] = {
 		buff_id = 200633,
 		name = "流星轰炸",
 		iconSize = "",
@@ -3135,8 +3142,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中将会得到来自「特米娜露」的流星弹幕支援。",
 		arg = {}
-	},
-	[200645] = {
+	}
+	pg.base.strategy_data_template[200645] = {
 		buff_id = 200645,
 		name = "地脉机关-阴",
 		iconSize = "",
@@ -3146,8 +3153,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "此机关由敌方控制，己方舰队在战斗中将受到来自机关的额外弹幕攻击。",
 		arg = {}
-	},
-	[200646] = {
+	}
+	pg.base.strategy_data_template[200646] = {
 		buff_id = 200646,
 		name = "地脉机关-阳",
 		iconSize = "",
@@ -3157,8 +3164,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "此机关由敌方控制，己方舰队在战斗中将受到来自机关的额外弹幕攻击。",
 		arg = {}
-	},
-	[200647] = {
+	}
+	pg.base.strategy_data_template[200647] = {
 		buff_id = 200647,
 		name = "地脉机关-闪",
 		iconSize = "",
@@ -3168,8 +3175,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "此机关由敌方控制，己方舰队在战斗中将受到来自机关的额外弹幕攻击，敌方舰队将获得减伤护盾。",
 		arg = {}
-	},
-	[200648] = {
+	}
+	pg.base.strategy_data_template[200648] = {
 		buff_id = 200648,
 		name = "地脉机关-缭",
 		iconSize = "",
@@ -3179,8 +3186,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "此机关由敌方控制，己方舰队在战斗中将受到来自机关的额外弹幕攻击，敌方舰队将获得额外耐久恢复。",
 		arg = {}
-	},
-	[200649] = {
+	}
+	pg.base.strategy_data_template[200649] = {
 		buff_id = 200649,
 		name = "地脉机关-绚",
 		iconSize = "",
@@ -3190,8 +3197,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "此机关由敌方控制，己方舰队在战斗中将受到来自机关的额外弹幕攻击，弹幕附带中毒效果，使目标持续损失耐久。",
 		arg = {}
-	},
-	[200655] = {
+	}
+	pg.base.strategy_data_template[200655] = {
 		buff_id = 200655,
 		name = "地脉机关-阴",
 		iconSize = "",
@@ -3201,8 +3208,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "此机关由己方控制，己方舰队在战斗中将受到来自机关的额外弹幕支援。",
 		arg = {}
-	},
-	[200658] = {
+	}
+	pg.base.strategy_data_template[200658] = {
 		buff_id = 200658,
 		name = "地脉机关-阳",
 		iconSize = "",
@@ -3212,8 +3219,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "此机关由己方控制，己方舰队在战斗中将受到来自机关的额外弹幕支援。",
 		arg = {}
-	},
-	[200661] = {
+	}
+	pg.base.strategy_data_template[200661] = {
 		buff_id = 200661,
 		name = "地脉机关-闪",
 		iconSize = "",
@@ -3223,8 +3230,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "此机关由己方控制，己方舰队在战斗中将获得护盾，并受到来自机关的额外弹幕支援。",
 		arg = {}
-	},
-	[200664] = {
+	}
+	pg.base.strategy_data_template[200664] = {
 		buff_id = 200664,
 		name = "地脉机关-缭",
 		iconSize = "",
@@ -3234,8 +3241,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "此机关由己方控制，己方舰队在战斗中将获得额外耐久恢复，并受到来自机关的额外弹幕支援。",
 		arg = {}
-	},
-	[200667] = {
+	}
+	pg.base.strategy_data_template[200667] = {
 		buff_id = 200667,
 		name = "地脉机关-阴",
 		iconSize = "",
@@ -3245,8 +3252,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "此机关由己方控制，己方舰队在战斗中将受到来自机关的额外弹幕支援。",
 		arg = {}
-	},
-	[200670] = {
+	}
+	pg.base.strategy_data_template[200670] = {
 		buff_id = 200670,
 		name = "地脉机关-阳",
 		iconSize = "",
@@ -3256,8 +3263,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "此机关由己方控制，己方舰队在战斗中将受到来自机关的额外弹幕支援。",
 		arg = {}
-	},
-	[200673] = {
+	}
+	pg.base.strategy_data_template[200673] = {
 		buff_id = 200673,
 		name = "地脉机关-闪",
 		iconSize = "",
@@ -3267,8 +3274,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "此机关由己方控制，己方舰队在战斗中将获得护盾，并受到来自机关的额外弹幕支援。",
 		arg = {}
-	},
-	[200676] = {
+	}
+	pg.base.strategy_data_template[200676] = {
 		buff_id = 200676,
 		name = "地脉机关-缭",
 		iconSize = "",
@@ -3278,8 +3285,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "此机关由己方控制，己方舰队在战斗中将获得额外耐久恢复，并受到来自机关的额外弹幕支援。",
 		arg = {}
-	},
-	[200679] = {
+	}
+	pg.base.strategy_data_template[200679] = {
 		buff_id = 200679,
 		name = "地脉机关-绚",
 		iconSize = "",
@@ -3289,8 +3296,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "此机关由己方控制，己方舰队在战斗中将受到来自机关的额外弹幕支援，弹幕附带中毒效果，使目标持续损失耐久。",
 		arg = {}
-	},
-	[200732] = {
+	}
+	pg.base.strategy_data_template[200732] = {
 		buff_id = 200732,
 		name = "理事会舰队压制",
 		iconSize = "",
@@ -3300,8 +3307,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "受到来自不明对手的电子战干扰，战斗中我方角色命中、机动下降5%，并额外受到5%的伤害。",
 		arg = {}
-	},
-	[200735] = {
+	}
+	pg.base.strategy_data_template[200735] = {
 		buff_id = 200735,
 		name = "理事会舰队支援",
 		iconSize = "",
@@ -3311,8 +3318,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "获得来自理事会舰队的电子战支援，战斗中敌方单位命中、机动下降5%，并额外受到5%的伤害。",
 		arg = {}
-	},
-	[200770] = {
+	}
+	pg.base.strategy_data_template[200770] = {
 		buff_id = 200770,
 		name = "冰原极寒",
 		iconSize = "",
@@ -3322,8 +3329,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "受安塔提卡冰原严寒影响，战斗中己方角色航速降低3点，机动减少10%，且场上会随机出现无差别打击的冰雪风暴。",
 		arg = {}
-	},
-	[200774] = {
+	}
+	pg.base.strategy_data_template[200774] = {
 		buff_id = 200774,
 		name = "指挥网络HM",
 		iconSize = "",
@@ -3333,8 +3340,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "得益于海伦娜·META构建的指挥网络，战斗中能够精准部署各舰队，协同作战。\n特定场次战斗中会得到联合舰队的弹幕支援。",
 		arg = {}
-	},
-	[200777] = {
+	}
+	pg.base.strategy_data_template[200777] = {
 		buff_id = 200777,
 		name = "指挥网络HM",
 		iconSize = "",
@@ -3344,8 +3351,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "得益于海伦娜·META构建的指挥网络，战斗中能够精准部署各舰队，协同作战。\n特定场次战斗中会得到联合舰队的弹幕支援。",
 		arg = {}
-	},
-	[200780] = {
+	}
+	pg.base.strategy_data_template[200780] = {
 		buff_id = 200780,
 		name = "实验型轰炸机支援",
 		iconSize = "",
@@ -3355,8 +3362,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "得到了萨拉托加的秘密航空兵器支援，战斗中将会出现特殊航空弹幕轰炸敌军。",
 		arg = {}
-	},
-	[200783] = {
+	}
+	pg.base.strategy_data_template[200783] = {
 		buff_id = 200783,
 		name = "实验型轰炸机支援",
 		iconSize = "",
@@ -3366,8 +3373,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "得到了萨拉托加的秘密航空兵器支援，战斗中将会出现特殊航空弹幕轰炸敌军。",
 		arg = {}
-	},
-	[200902] = {
+	}
+	pg.base.strategy_data_template[200902] = {
 		buff_id = 200902,
 		name = "深红（Alizarin）之声",
 		iconSize = "",
@@ -3377,8 +3384,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "组合深红（Alizarin）已登台！在歌声的鼓舞下，每场战斗开始时，己方全体炮击、雷击、航空、装填值提升5%，持续15秒。",
 		arg = {}
-	},
-	[200903] = {
+	}
+	pg.base.strategy_data_template[200903] = {
 		buff_id = 200903,
 		name = "花青素（Cyanidin）之声",
 		iconSize = "",
@@ -3388,8 +3395,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "组合花青素（Cyanidin）已登台！受到歌声鼓舞，每场战斗开始时己方全体获得自身2%耐久值的护盾并减少5%所受伤害，持续15秒。",
 		arg = {}
-	},
-	[200905] = {
+	}
+	pg.base.strategy_data_template[200905] = {
 		buff_id = 200905,
 		name = "聚光灯-深红",
 		iconSize = "",
@@ -3399,8 +3406,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "聚光灯效果",
 		arg = {}
-	},
-	[200907] = {
+	}
+	pg.base.strategy_data_template[200907] = {
 		buff_id = 200907,
 		name = "聚光灯-花青素",
 		iconSize = "",
@@ -3410,8 +3417,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "聚光灯效果",
 		arg = {}
-	},
-	[200908] = {
+	}
+	pg.base.strategy_data_template[200908] = {
 		buff_id = 0,
 		name = "挑战模式",
 		iconSize = "",
@@ -3421,8 +3428,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗开始时若我方先锋舰队有且仅有一名角色，将会进入挑战模式，挑战高难度的同时将有机会获得更高的通关分数。\n\n本次挑战模式特性：\n敌方伤害大幅度提高，环绕护盾格挡次数变为无限；同时随着时间流逝，敌方所受的伤害将会逐步提高。\n\n以下装备或技能效果无法在本次挑战中生效：\n【快速起飞】、【背水之战】",
 		arg = {}
-	},
-	[200925] = {
+	}
+	pg.base.strategy_data_template[200925] = {
 		buff_id = 200925,
 		name = "死神之桥",
 		iconSize = "",
@@ -3432,8 +3439,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "死神之桥已激活。\n战斗中，将会突然受到死神之影的袭击。",
 		arg = {}
-	},
-	[200926] = {
+	}
+	pg.base.strategy_data_template[200926] = {
 		buff_id = 0,
 		name = "ÄâĚŹÎď",
 		iconSize = "",
@@ -3443,8 +3450,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "/*ÄâĚŹÎď*/被击破时，会释放出/*ÄâĚŹÎď*/，为周围的/*ÄâĚŹÎď*/提供更多/*ÄâĚŹÎď*/.\n\n——你注意到/*ÄâĚŹÎď*/的存在了，/*ÄâĚŹÎď*/是什么？",
 		arg = {}
-	},
-	[200928] = {
+	}
+	pg.base.strategy_data_template[200928] = {
 		buff_id = 200928,
 		name = "辉光之城-锚定",
 		iconSize = "",
@@ -3454,8 +3461,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "辉光之城正在锚定「死亡」。\n战斗中任意单位击破敌方单位时，都能够提升自身1%全属性，最多叠加5层。",
 		arg = {}
-	},
-	[200930] = {
+	}
+	pg.base.strategy_data_template[200930] = {
 		buff_id = 200930,
 		name = "辉光之城-绽放",
 		iconSize = "",
@@ -3465,8 +3472,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "辉光之城正在「死亡」中绽放。\n战斗中任意单位击破敌方单位时，都能够提升自身1%全属性，最多叠加5层。当一方累计取得10次击杀时，将会获得一轮特殊弹幕支援。",
 		arg = {}
-	},
-	[200931] = {
+	}
+	pg.base.strategy_data_template[200931] = {
 		buff_id = 0,
 		name = "挑战模式",
 		iconSize = "",
@@ -3476,8 +3483,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗开始时若我方任意角色装备有【奇怪装置「D」】，将会进入挑战模式，挑战高难度同时将有机会获得更高的通关分数。\n\n本次挑战模式特性：\n敌方伤害大幅度提高，同时随着时间流逝敌方所受的伤害也会逐步提高。\n\n以下装备或技能效果无法在本次挑战中生效：\n【快速起飞】、【背水之战】",
 		arg = {}
-	},
-	[200932] = {
+	}
+	pg.base.strategy_data_template[200932] = {
 		buff_id = 0,
 		name = "挑战模式",
 		iconSize = "",
@@ -3487,8 +3494,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗开始时若我方任意角色装备有【小海狸中队队徽】，将会进入挑战模式，挑战高难度同时有机会获得更高的通关分数。\n\n本次挑战模式特性：\n敌方伤害大幅度提高，同时所有子弹均获得无限穿透与无视护盾阻挡的能力。\n我方【白鹰精英损管】效果不再限制角色阵营，且回避效果结束后不会阵亡，但持续时间缩短至3秒。\n\n以下装备或技能效果无法在本次挑战中生效：\n【快速起飞】、【背水之战】",
 		arg = {}
-	},
-	[200979] = {
+	}
+	pg.base.strategy_data_template[200979] = {
 		buff_id = 200979,
 		name = "苍红幻境",
 		iconSize = "",
@@ -3498,8 +3505,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "——苍红色的幻境正笼罩着你。\n战斗开始后的前15秒内，我方角色受到的治疗效果降低10%，敌方单位造成的伤害提高5%。",
 		arg = {}
-	},
-	[200980] = {
+	}
+	pg.base.strategy_data_template[200980] = {
 		buff_id = 200980,
 		name = "大风暴",
 		iconSize = "",
@@ -3509,8 +3516,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "——大风暴正在海域中肆虐。\n战斗中，敌我双方的命中率降低5%，航速降低3点。",
 		arg = {}
-	},
-	[200983] = {
+	}
+	pg.base.strategy_data_template[200983] = {
 		buff_id = 0,
 		name = "苍红之息",
 		iconSize = "",
@@ -3520,8 +3527,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "——苍红色的身影正在凝视着你。\n战斗中，将周期性出现特殊弹幕对我方舰队发动攻击。",
 		arg = {}
-	},
-	[200984] = {
+	}
+	pg.base.strategy_data_template[200984] = {
 		buff_id = 200984,
 		name = "冻雨打击支援",
 		iconSize = "",
@@ -3531,8 +3538,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "——「冻雨」型火力投射舰正在支援战斗。\n战斗中，将周期性出现特殊弹幕打击并冰冻范围内的敌人。",
 		arg = {}
-	},
-	[200987] = {
+	}
+	pg.base.strategy_data_template[200987] = {
 		buff_id = 200987,
 		name = "冻雨打击支援",
 		iconSize = "",
@@ -3542,8 +3549,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "——「冻雨」型火力投射舰正在支援战斗。\n战斗中，将周期性出现特殊弹幕打击并冰冻范围内的敌人。",
 		arg = {}
-	},
-	[200990] = {
+	}
+	pg.base.strategy_data_template[200990] = {
 		buff_id = 200990,
 		name = "冻雨打击支援",
 		iconSize = "",
@@ -3553,8 +3560,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "——「冻雨」型火力投射舰正在支援战斗。\n战斗中，将周期性出现特殊弹幕打击并冰冻范围内的敌人。",
 		arg = {}
-	},
-	[200999] = {
+	}
+	pg.base.strategy_data_template[200999] = {
 		buff_id = 0,
 		name = "挑战模式",
 		iconSize = "",
@@ -3564,8 +3571,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗开始时若我方任意角色装备有【速运高速无人机】，将会进入挑战模式，挑战高难度同时有机会获得更高的通关分数。\n\n本次挑战模式特性：\n敌方伤害大幅度提高，同时所有子弹均获得无限穿透与无视护盾阻挡的能力。\n战斗中将会出现支援舰船协助我方作战，该舰船火力强大，但面对敌方常规弹幕以外的攻击时会显得十分脆弱。\n\n以下装备或技能效果无法在本次挑战中生效：\n无",
 		arg = {}
-	},
-	[201021] = {
+	}
+	pg.base.strategy_data_template[201021] = {
 		buff_id = 201021,
 		name = "朱红秘境",
 		iconSize = "",
@@ -3575,8 +3582,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "——「姐姐，我们很快就能团聚了。」\n海域中，所有战斗开始后的前15秒内，我方角色装填降低5%，敌方单位装填提升10%。",
 		arg = {}
-	},
-	[201022] = {
+	}
+	pg.base.strategy_data_template[201022] = {
 		buff_id = 0,
 		name = "朱红秘境",
 		iconSize = "",
@@ -3586,8 +3593,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "——「姐姐，我们很快就能团聚了。」\n海域中，所有战斗开始后的前15秒内，我方角色装填降低5%，敌方单位装填提升10%。",
 		arg = {}
-	},
-	[201024] = {
+	}
+	pg.base.strategy_data_template[201024] = {
 		buff_id = 201024,
 		name = "静海惊雷",
 		iconSize = "",
@@ -3597,8 +3604,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "——「宁如镜湖，缥若云岚，天剑出鞘，万钧雷霆。」\n战斗中我方周期性得到特殊弹幕支援，弹幕会对敌人额外造成其最大耐久百分比的伤害。",
 		arg = {}
-	},
-	[201027] = {
+	}
+	pg.base.strategy_data_template[201027] = {
 		buff_id = 201027,
 		name = "变革之路",
 		iconSize = "",
@@ -3608,8 +3615,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "——「变革之路即将到来，全员各就各位，全力一战！」\n战斗中我方周期性得到特殊弹幕支援，同时战斗开始时提升我方5%的命中与机动。",
 		arg = {}
-	},
-	[201029] = {
+	}
+	pg.base.strategy_data_template[201029] = {
 		buff_id = 201029,
 		name = "苍蓝之约",
 		iconSize = "",
@@ -3619,8 +3626,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "——「就算陪你到地狱的入口，我也一定会保护你的。」\n战斗中我方周期性得到特殊弹幕支援，并使[朱红秘境]效果无效化。",
 		arg = {}
-	},
-	[201090] = {
+	}
+	pg.base.strategy_data_template[201090] = {
 		buff_id = 201090,
 		name = "世界切片-苍红",
 		iconSize = "",
@@ -3630,8 +3637,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中我方主力舰队受到的点燃伤害降低20%，机动提高5%。\n队伍中重樱阵营的角色至少4个时，战斗开始15秒后触发一次特殊弹幕支援。",
 		arg = {}
-	},
-	[201094] = {
+	}
+	pg.base.strategy_data_template[201094] = {
 		buff_id = 201094,
 		name = "奈落之渊",
 		iconSize = "",
@@ -3641,8 +3648,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中我方META角色造成的伤害提高10%，受到的治疗效果提高10%；非META角色受到的伤害提高5%，受到的治疗效果降低8%。",
 		arg = {}
-	},
-	[201097] = {
+	}
+	pg.base.strategy_data_template[201097] = {
 		buff_id = 201097,
 		name = "苍红之炎",
 		iconSize = "",
@@ -3652,8 +3659,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中我方周期性得到特殊弹幕支援，弹幕会对敌人会附加特殊燃烧效果，造成其最大耐久百分比的伤害。",
 		arg = {}
-	},
-	[201100] = {
+	}
+	pg.base.strategy_data_template[201100] = {
 		buff_id = 0,
 		name = "挑战说明",
 		iconSize = "",
@@ -3663,8 +3670,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "困难模式特性：\n敌方伤害大幅度提高，同时所有子弹均获得无限穿透与无视护盾阻挡的能力。\n敌方「苍红之影」与「苍蓝之影」大幅度提高对穿甲弹/半穿甲弹/鱼雷的伤害减免，但会受到更多的点燃伤害。\n最终阶段海域中将会出现我方支援阵法，全部激活后我方将发动一次终结技攻击支援。\n\n以下装备或技能效果无法在本次挑战中生效：\n【背水之战】、【彩虹计划】",
 		arg = {}
-	},
-	[201149] = {
+	}
+	pg.base.strategy_data_template[201149] = {
 		buff_id = 201149,
 		name = "海上风暴 ",
 		iconSize = "",
@@ -3674,8 +3681,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "受海上风暴影响，我方全体单位航速降低3点，机动减少5%；飓风阵营单位不受影响，同时造成的伤害提高10%。",
 		arg = {}
-	},
-	[201152] = {
+	}
+	pg.base.strategy_data_template[201152] = {
 		buff_id = 201152,
 		name = "寂静之海",
 		iconSize = "",
@@ -3685,8 +3692,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "受寂静之海影响，我方全体单位受到的治疗效果减少10%；飓风阵营单位不受影响，同时受到的伤害降低10%。",
 		arg = {}
-	},
-	[201155] = {
+	}
+	pg.base.strategy_data_template[201155] = {
 		buff_id = 201155,
 		name = "女神的怜悯",
 		iconSize = "",
@@ -3696,8 +3703,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗开始25秒后，我方舰队将会受到一次支援弹幕，并在接下来15秒内获得缓慢回复效果。",
 		arg = {}
-	},
-	[201157] = {
+	}
+	pg.base.strategy_data_template[201157] = {
 		buff_id = 201157,
 		name = "幻想之力",
 		iconSize = "",
@@ -3707,8 +3714,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "得到了幻想号的支援。战斗中，幻想号的触手会每隔一段时间其会选定一个敌人发起攻击，并对被命中敌人施加破甲效果。",
 		arg = {}
-	},
-	[201158] = {
+	}
+	pg.base.strategy_data_template[201158] = {
 		buff_id = 0,
 		name = "挑战说明",
 		iconSize = "",
@@ -3718,8 +3725,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "困难模式特性：\n敌方伤害大幅度提高，同时所有子弹均获得无限穿透与无视护盾阻挡的能力，不过随着时间流逝，敌方所受的伤害也会逐步提高。\n一些带有解谜性质的攻击将会是致命的，还请思考应对。\n\n以下装备或技能效果无法在本次挑战中生效：\n【背水之战】、【彩虹计划】",
 		arg = {}
-	},
-	[201193] = {
+	}
+	pg.base.strategy_data_template[201193] = {
 		buff_id = 201193,
 		name = "星空之下",
 		iconSize = "",
@@ -3729,8 +3736,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "星空之下，一切尽收眼底。\n我方舰队在海域内战斗时，会不间断地受到来自高空的垂直打击。",
 		arg = {}
-	},
-	[201194] = {
+	}
+	pg.base.strategy_data_template[201194] = {
 		buff_id = 201194,
 		name = "ID-50-飞剑龙",
 		iconSize = "",
@@ -3740,8 +3747,10 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，将会得到来自抵抗军基地的“飞剑龙”式双翼无人机群支援。",
 		arg = {}
-	},
-	[201197] = {
+	}
+end)()
+;(function()
+	pg.base.strategy_data_template[201197] = {
 		buff_id = 201197,
 		name = "永恒之星",
 		iconSize = "",
@@ -3751,8 +3760,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中会周期性得到来自永恒之星的支援攻击，弹幕在命中敌人时造成伤害并附加破甲效果。",
 		arg = {}
-	},
-	[201198] = {
+	}
+	pg.base.strategy_data_template[201198] = {
 		buff_id = 0,
 		name = "天外兽潮",
 		iconSize = "",
@@ -3762,8 +3771,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "天外兽潮爆发，无数天外之兽的出现改变了天空与大海的环境。\n该类型敌人免疫点燃伤害，并会在非周回模式下持续追击我方舰队。",
 		arg = {}
-	},
-	[201199] = {
+	}
+	pg.base.strategy_data_template[201199] = {
 		buff_id = 0,
 		name = "挑战说明",
 		iconSize = "",
@@ -3773,8 +3782,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "困难模式特性：\n敌方伤害大幅度提高，同时所有子弹均获得无限穿透与无视护盾阻挡的能力，并免疫点燃伤害。\n战斗中面对某些无法规避的攻击时，会得到来自{namecode:543}的援助。\n\n以下技能效果无法在本次挑战中生效：\n【背水之战】、【彩虹计划】",
 		arg = {}
-	},
-	[201250] = {
+	}
+	pg.base.strategy_data_template[201250] = {
 		buff_id = 201250,
 		name = "挑战说明",
 		iconSize = "",
@@ -3784,8 +3793,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "困难模式特性：\n敌方伤害<color=#ffc038>极大幅度提高</color>，且耐久小于40%时将改变攻击方式并获得3秒高额减伤；小于10%时则会进入狂暴状态。\n我方先锋舰队的角色<color=#92fc63>受击判定大幅度缩小，且同一时间只有处于领舰位置的角色拥有受击判定</color>，其余角色为无敌状态。\n角色获得受击判定时会附带短暂无敌效果。\n\n以下装备或技能效果无法在本挑战中生效：\n【背水之战】、【彩虹计划】",
 		arg = {}
-	},
-	[201270] = {
+	}
+	pg.base.strategy_data_template[201270] = {
 		buff_id = 201270,
 		name = "神光之网",
 		iconSize = "",
@@ -3795,8 +3804,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "海域内的每场战斗中，将会出现一次同时影响敌我双方的神光冲击。\n撒丁阵营单位：百分比恢复少量耐久值。\n其余单位：在较长时间内降低机动与航速。",
 		arg = {}
-	},
-	[201276] = {
+	}
+	pg.base.strategy_data_template[201276] = {
 		buff_id = 201276,
 		name = "永夜领域",
 		iconSize = "",
@@ -3806,8 +3815,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "海域内已布设永夜战旗，敌我双方将会同时受到影响。\nMETA单位：提高造成的伤害比例。\n其余单位：降低少量命中，受到的点燃伤害增加。",
 		arg = {}
-	},
-	[201281] = {
+	}
+	pg.base.strategy_data_template[201281] = {
 		buff_id = 201281,
 		name = "战车改造域",
 		iconSize = "",
@@ -3817,8 +3826,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "海域已被审判机「战车」占据，敌我双方将会同时受到影响。\n塞壬单位：获得「过热射击」效果，即自身装填随时间流逝逐步提高。\n其余单位：受到的伤害小幅度提高。",
 		arg = {}
-	},
-	[201287] = {
+	}
+	pg.base.strategy_data_template[201287] = {
 		buff_id = 201287,
 		name = "飞空战舰支援",
 		iconSize = "",
@@ -3828,8 +3837,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，将会得到来自飞空战舰的航空弹幕支援。",
 		arg = {}
-	},
-	[201301] = {
+	}
+	pg.base.strategy_data_template[201301] = {
 		buff_id = 201315,
 		name = "定期巡查",
 		iconSize = "",
@@ -3839,8 +3848,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中将会出现一批额外敌人",
 		arg = {}
-	},
-	[201302] = {
+	}
+	pg.base.strategy_data_template[201302] = {
 		buff_id = 201316,
 		name = "幽灵鬼影",
 		iconSize = "",
@@ -3850,8 +3859,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中将会出现潜艇敌人",
 		arg = {}
-	},
-	[201303] = {
+	}
+	pg.base.strategy_data_template[201303] = {
 		buff_id = 201317,
 		name = "奇怪响声",
 		iconSize = "",
@@ -3861,8 +3870,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中每隔一段时间，我方单位将会暂时减少航速与命中",
 		arg = {}
-	},
-	[201304] = {
+	}
+	pg.base.strategy_data_template[201304] = {
 		buff_id = 201322,
 		name = "访客限制令",
 		iconSize = "",
@@ -3872,8 +3881,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗开始前30秒，我方角色造成的伤害将会小幅度降低",
 		arg = {}
-	},
-	[201305] = {
+	}
+	pg.base.strategy_data_template[201305] = {
 		buff_id = 201323,
 		name = "特别问诊",
 		iconSize = "",
@@ -3883,8 +3892,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中每过3秒，使我方当前耐久最多的角色根据上限百分比损失少量耐久",
 		arg = {}
-	},
-	[201306] = {
+	}
+	pg.base.strategy_data_template[201306] = {
 		buff_id = 201326,
 		name = "妖艳的樱花树",
 		iconSize = "",
@@ -3894,8 +3903,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中将会出现特殊敌方支援弹幕",
 		arg = {}
-	},
-	[201307] = {
+	}
+	pg.base.strategy_data_template[201307] = {
 		buff_id = 201327,
 		name = "安保系统警戒",
 		iconSize = "",
@@ -3905,8 +3914,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中将会出现特殊敌方支援弹幕",
 		arg = {}
-	},
-	[201308] = {
+	}
+	pg.base.strategy_data_template[201308] = {
 		buff_id = 201328,
 		name = "无限循环回廊",
 		iconSize = "",
@@ -3916,8 +3925,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "所有非旗舰敌方单位定期根据上限百分比回复少量耐久，且[探索计数]+1",
 		arg = {}
-	},
-	[201309] = {
+	}
+	pg.base.strategy_data_template[201309] = {
 		buff_id = 201332,
 		name = "探索地下区域",
 		iconSize = "",
@@ -3927,8 +3936,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "于行动中探索了额外区域，[探索计数]+1",
 		arg = {}
-	},
-	[201310] = {
+	}
+	pg.base.strategy_data_template[201310] = {
 		buff_id = 201401,
 		name = "探索护士站",
 		iconSize = "",
@@ -3938,8 +3947,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "于行动中探索了额外区域，[探索计数]+1",
 		arg = {}
-	},
-	[201311] = {
+	}
+	pg.base.strategy_data_template[201311] = {
 		buff_id = 201402,
 		name = "探索病房",
 		iconSize = "",
@@ -3949,8 +3958,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "于行动中探索了额外区域，[探索计数]+1",
 		arg = {}
-	},
-	[201312] = {
+	}
+	pg.base.strategy_data_template[201312] = {
 		buff_id = 201403,
 		name = "探索树林",
 		iconSize = "",
@@ -3960,8 +3969,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "于行动中探索了额外区域，[探索计数]+1",
 		arg = {}
-	},
-	[201313] = {
+	}
+	pg.base.strategy_data_template[201313] = {
 		buff_id = 201404,
 		name = "探索庭院",
 		iconSize = "",
@@ -3971,8 +3980,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "于行动中探索了额外区域，[探索计数]+1",
 		arg = {}
-	},
-	[201314] = {
+	}
+	pg.base.strategy_data_template[201314] = {
 		buff_id = 201332,
 		name = "探索研究所地下",
 		iconSize = "",
@@ -3982,8 +3991,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "于行动中探索了额外区域，[探索计数]+1",
 		arg = {}
-	},
-	[201315] = {
+	}
+	pg.base.strategy_data_template[201315] = {
 		buff_id = 201405,
 		name = "探索病院正门",
 		iconSize = "",
@@ -3993,8 +4002,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "于行动中探索了额外区域，[探索计数]+1",
 		arg = {}
-	},
-	[201316] = {
+	}
+	pg.base.strategy_data_template[201316] = {
 		buff_id = 201406,
 		name = "探索停车场",
 		iconSize = "",
@@ -4004,8 +4013,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "于行动中探索了额外区域，[探索计数]+1",
 		arg = {}
-	},
-	[201317] = {
+	}
+	pg.base.strategy_data_template[201317] = {
 		buff_id = 201407,
 		name = "探索停车场地下",
 		iconSize = "",
@@ -4015,8 +4024,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "于行动中探索了额外区域，[探索计数]+1",
 		arg = {}
-	},
-	[201318] = {
+	}
+	pg.base.strategy_data_template[201318] = {
 		buff_id = 201408,
 		name = "探索门卫亭",
 		iconSize = "",
@@ -4026,8 +4035,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "于行动中探索了额外区域，[探索计数]+1",
 		arg = {}
-	},
-	[201319] = {
+	}
+	pg.base.strategy_data_template[201319] = {
 		buff_id = 201409,
 		name = "探索医生办公室",
 		iconSize = "",
@@ -4037,8 +4046,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "于行动中探索了额外区域，[探索计数]+1",
 		arg = {}
-	},
-	[201320] = {
+	}
+	pg.base.strategy_data_template[201320] = {
 		buff_id = 201405,
 		name = "探索医院后门",
 		iconSize = "",
@@ -4048,8 +4057,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "于行动中探索了额外区域，[探索计数]+1",
 		arg = {}
-	},
-	[201321] = {
+	}
+	pg.base.strategy_data_template[201321] = {
 		buff_id = 0,
 		name = "区域探索",
 		iconSize = "",
@@ -4059,8 +4068,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "根据当前累计的[探索计数]决定负面效果：\n≥1-我方角色全属性减少15%，敌方旗舰造成的伤害提升20%\n≥2-所有敌方旗舰获得抗体效果：敌方旗舰登场后我方每次主动触发跨射/空袭/鱼雷及导弹时，都会使该敌方旗舰对应伤害类型的减伤效果提升10%/10%/5%，每种减伤效果最多叠加7层\n≥3-我方角色全属性进一步减少15%，且每隔5秒使我方耐久百分比最高的角色受到雷击，根据上限损失5%的耐久。\n4-我方全部角色受到的恢复效果会被反转为伤害，且关卡内永久出现缓慢移动的紫色旋涡追踪我方先锋舰队，位于旋涡内的我方角色会增加50%受到的伤害。",
 		arg = {}
-	},
-	[201327] = {
+	}
+	pg.base.strategy_data_template[201327] = {
 		buff_id = 0,
 		name = "挑战说明",
 		iconSize = "",
@@ -4070,8 +4079,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "困难模式特性：\n敌方伤害<color=#ffc038>极大幅度提高</color>，部分大体积子弹无法被空袭/护盾消除。\n我方先锋舰队的角色<color=#92fc63>受击判定大幅度缩小，且同一时间只有处于领舰位置的角色拥有受击判定</color>，其余角色为无敌状态。\n角色获得受击判定时会附带短暂无敌效果。\n\n以下装备或技能效果无法在本挑战中生效：\n【背水之战】、【彩虹计划】、【绝体绝命】",
 		arg = {}
-	},
-	[201361] = {
+	}
+	pg.base.strategy_data_template[201361] = {
 		buff_id = 201361,
 		name = "扬起郁金之旗",
 		iconSize = "",
@@ -4081,8 +4090,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中每隔一段时间，我方角色都会获得旋转护盾，阻挡一定数量的子弹。\n郁金王国阵营角色在获得护盾时会额外恢复少量耐久。",
 		arg = {}
-	},
-	[201365] = {
+	}
+	pg.base.strategy_data_template[201365] = {
 		buff_id = 201365,
 		name = "堤坝防御带",
 		iconSize = "",
@@ -4092,8 +4101,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中会得到来自位于堤坝附近岸防火炮的支援。",
 		arg = {}
-	},
-	[201377] = {
+	}
+	pg.base.strategy_data_template[201377] = {
 		buff_id = 0,
 		name = "ľÚśţŔŕÄâĚŹ",
 		iconSize = "",
@@ -4103,8 +4112,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "/*ľÚśţŔŕÄâĚŹ*/被击破时，会释放出/*ľÚśţŔŕÄâĚŹ*/，为周围的/*ľÚśţŔŕÄâĚŹ*/提供更多/*ľÚśţŔŕÄâĚŹ*/.\n\n——你注意到/*ľÚśţŔŕÄâĚŹ*/的存在了，/*ľÚśţŔŕÄâĚŹ*/是什么？",
 		arg = {}
-	},
-	[201378] = {
+	}
+	pg.base.strategy_data_template[201378] = {
 		buff_id = 201378,
 		name = "辉翼狮支援",
 		iconSize = "",
@@ -4114,8 +4123,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中将得到来自辉翼狮的支援。",
 		arg = {}
-	},
-	[201382] = {
+	}
+	pg.base.strategy_data_template[201382] = {
 		buff_id = 201382,
 		name = "列车支援",
 		iconSize = "",
@@ -4125,8 +4134,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中将得到来自女王之光号列车的支援弹幕。",
 		arg = {}
-	},
-	[201386] = {
+	}
+	pg.base.strategy_data_template[201386] = {
 		buff_id = 201386,
 		name = "塞壬支援",
 		iconSize = "",
@@ -4136,8 +4145,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中将得到构建者部署的标准量产型II型混合舰队支援。",
 		arg = {}
-	},
-	[201410] = {
+	}
+	pg.base.strategy_data_template[201410] = {
 		buff_id = 201410,
 		name = "蔷薇塔支援",
 		iconSize = "",
@@ -4147,8 +4156,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "蔷薇塔展开护盾屏障，己方舰队在战斗中将获得少量伤害减免。",
 		arg = {}
-	},
-	[201411] = {
+	}
+	pg.base.strategy_data_template[201411] = {
 		buff_id = 201411,
 		name = "蔷薇塔压制",
 		iconSize = "",
@@ -4158,8 +4167,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "蔷薇塔展开压制屏障，己方舰队在战斗中造成的伤害将会降低。",
 		arg = {}
-	},
-	[201461] = {
+	}
+	pg.base.strategy_data_template[201461] = {
 		buff_id = 0,
 		name = "挑战说明",
 		iconSize = "",
@@ -4169,8 +4178,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "注意：本次关卡中<color=#ffc038>存在道中部分</color>，道中进度根据时间轴推进，提早击破战列或航母敌人可以<color=#92fc63>加速推进进度</color>，同时在关卡中我方主力舰队免疫触底伤害。",
 		arg = {}
-	},
-	[201462] = {
+	}
+	pg.base.strategy_data_template[201462] = {
 		buff_id = 0,
 		name = "挑战说明",
 		iconSize = "",
@@ -4180,8 +4189,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "注意：本次关卡中<color=#ffc038>存在道中部分</color>，道中进度根据时间轴推进，提早击破战列或航母敌人可以<color=#92fc63>加速推进进度</color>，同时在关卡中我方主力舰队免疫触底伤害。\n\n困难模式特性：\n敌方伤害<color=#ffc038>极大幅度提高</color>，子弹无视护盾。\n我方先锋舰队的角色<color=#92fc63>受击判定大幅度缩小，且同一时间只有处于领舰位置的角色拥有受击判定</color>，其余角色为无敌状态。\n角色获得受击判定时附带短暂无敌效果。\n\n以下技能效果无法在本挑战中生效：\n【背水之战】、【彩虹计划】、【绝体绝命】",
 		arg = {}
-	},
-	[201463] = {
+	}
+	pg.base.strategy_data_template[201463] = {
 		buff_id = 0,
 		name = "挑战说明",
 		iconSize = "",
@@ -4191,8 +4200,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "本次关卡中，BOSS拥有<color=#92fc63>黑白两种形态</color>，拥有各自独立的耐久与状态，白色形态为正常耐久，黑色形态<color=#92fc63>固定只会受到1点伤害</color>。\nBOSS同一时间只能展现出一种形态，称之为【苏醒】，另一种则是【沉睡】。\n苏醒形态在执行完所有攻击动作后，若另一黑白形态存活，自身将会陷入沉睡并使另一形态苏醒。\n苏醒形态若被击破，沉睡形态将<color=#92fc63>强制苏醒并进入狂暴状态</color>，造成的伤害与受到的伤害同时增加100%（黑色形态会固定受到2点伤害）。",
 		arg = {}
-	},
-	[201464] = {
+	}
+	pg.base.strategy_data_template[201464] = {
 		buff_id = 0,
 		name = "挑战说明",
 		iconSize = "",
@@ -4202,8 +4211,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "本次关卡中，BOSS拥有<color=#92fc63>黑白两种形态</color>，拥有各自独立的耐久与状态，白色形态为正常耐久，黑色形态<color=#92fc63>固定只会受到1点伤害</color>。\nBOSS同一时间只能展现出一种形态，称之为【苏醒】，另一种则是【沉睡】。\n苏醒形态在执行完所有攻击动作后，若另一黑白形态存活，自身将会陷入沉睡并使另一形态苏醒。\n苏醒形态若被击破，沉睡形态将<color=#92fc63>强制苏醒并进入狂暴状态</color>，造成的伤害与受到的伤害同时增加100%（黑色形态会固定受到2点伤害）。\n\n困难模式特性：\n敌方伤害<color=#ffc038>极大幅度提高</color>，部分大体积子弹无法被空袭/护盾消除。\n我方先锋舰队的角色<color=#92fc63>受击判定大幅度缩小，且同一时间只有处于领舰位置的角色拥有受击判定</color>，其余角色为无敌状态。\n角色获得受击判定时会附带短暂无敌效果。\n\n以下装备或技能效果无法在本挑战中生效：\n【背水之战】、【彩虹计划】、【绝体绝命】",
 		arg = {}
-	},
-	[201515] = {
+	}
+	pg.base.strategy_data_template[201515] = {
 		buff_id = 201515,
 		name = "精神同步I",
 		iconSize = "",
@@ -4213,8 +4222,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "——「███解除：22.8％」——\n视野中开始出现来源不明的幻象。\n战斗中会出现进行无差别攻击的弹幕，注意规避。",
 		arg = {}
-	},
-	[201516] = {
+	}
+	pg.base.strategy_data_template[201516] = {
 		buff_id = 201515,
 		name = "精神同步II",
 		iconSize = "",
@@ -4224,8 +4233,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "——「███解除：37.1％」——\n幻象与现实之间的界限开始模糊。\n战斗中会出现进行无差别攻击的弹幕，注意规避。",
 		arg = {}
-	},
-	[201517] = {
+	}
+	pg.base.strategy_data_template[201517] = {
 		buff_id = 201515,
 		name = "精神同步III",
 		iconSize = "",
@@ -4235,8 +4244,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "——「███解除：89.9％」——\n现实即为幻象，幻象即为现实。\n战斗中会出现进行无差别攻击的弹幕，注意规避。",
 		arg = {}
-	},
-	[201519] = {
+	}
+	pg.base.strategy_data_template[201519] = {
 		buff_id = 201519,
 		name = "天原加护-蝶",
 		iconSize = "",
@@ -4246,8 +4255,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "天原加护结界：蝶\n战斗中，我方角色发动跨射、空袭、鱼雷攻击时会额外附带少量蝴蝶弹幕。",
 		arg = {}
-	},
-	[201525] = {
+	}
+	pg.base.strategy_data_template[201525] = {
 		buff_id = 201525,
 		name = "天原加护-羽",
 		iconSize = "",
@@ -4257,8 +4266,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "天原加护结界：羽\n战斗中每隔20秒会出现协助我方舰队战斗的白凤凰。",
 		arg = {}
-	},
-	[201530] = {
+	}
+	pg.base.strategy_data_template[201530] = {
 		buff_id = 201530,
 		name = "天原加护-鳞",
 		iconSize = "",
@@ -4268,8 +4277,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "天原加护结界：鳞\n战斗开始后会出现一只协助我方舰队战斗的鳞龙，持续一段时间后消失。",
 		arg = {}
-	},
-	[201531] = {
+	}
+	pg.base.strategy_data_template[201531] = {
 		buff_id = 0,
 		name = "挑战说明",
 		iconSize = "",
@@ -4279,8 +4288,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "BOSS在战斗中会伴随出现一些特殊的红色光球，光球不造成伤害，但会持续释放出带有熏香气味的烟雾，我方角色若处于烟雾内会持续受到影响，<color=#92fc63>移速逐渐降低且受到的伤害逐渐增加，直至累计受到烟雾效果超过1秒后陷入眩晕状态，受到200%伤害并无法移动及开火</color>，直到烟雾消散。\n我方角色脱离烟雾范围后会以一半的速率减少受到的烟雾效果。",
 		arg = {}
-	},
-	[201532] = {
+	}
+	pg.base.strategy_data_template[201532] = {
 		buff_id = 0,
 		name = "挑战说明",
 		iconSize = "",
@@ -4290,8 +4299,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "BOSS在战斗中会伴随出现一些特殊的红色光球，光球不造成伤害，但会持续释放出带有熏香气味的烟雾，我方当前拥有受击判定的角色若处于烟雾内会持续受到影响，<color=#92fc63>移速逐渐降低且受到的伤害逐渐增加，直至累计受到烟雾效果超过1秒后陷入眩晕状态，受到200%伤害并无法移动及开火</color>，直到烟雾消散。\n我方角色脱离烟雾范围后会以一半的速率减少受到的烟雾效果。\n\n困难模式特性：\n敌方伤害<color=#ffc038>极大幅度提高</color>，部分大体积子弹无法被空袭/护盾消除。\n我方先锋舰队的角色<color=#92fc63>受击判定大幅度缩小，且同一时间只有处于领舰位置的角色拥有受击判定</color>，其余角色为无敌状态。\n角色获得受击判定时会附带短暂无敌效果。\n\n以下装备或技能效果无法在本挑战中生效：\n【背水之战】、【彩虹计划】、【绝体绝命】",
 		arg = {}
-	},
-	[201547] = {
+	}
+	pg.base.strategy_data_template[201547] = {
 		buff_id = 201547,
 		name = "群岛遗迹支援",
 		iconSize = "",
@@ -4301,8 +4310,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中每隔20秒，我方舰队会得到来自群岛遗迹的支援炮击。",
 		arg = {}
-	},
-	[201550] = {
+	}
+	pg.base.strategy_data_template[201550] = {
 		buff_id = 201550,
 		name = "群岛遗迹支援",
 		iconSize = "",
@@ -4312,8 +4321,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中每隔20秒，我方舰队会得到来自群岛遗迹的支援炮击。",
 		arg = {}
-	},
-	[201551] = {
+	}
+	pg.base.strategy_data_template[201551] = {
 		buff_id = 0,
 		name = "挑战说明",
 		iconSize = "",
@@ -4323,8 +4332,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "“真正的决斗就是要公平才对！”\n莱姆号会尝试纠正一切战斗中“不公平”的要素：\n1.战斗中双方角色<color=#92fc63>无法恢复耐久</color>。\n2.当我方任意角色获得【完全回避】或【无敌】效果时，莱姆号也会同时获得护盾，其<color=#92fc63>受到的伤害降低为1点</color>。\n3.若我方发动空袭造成全屏消弹，则1.5秒后莱姆号也将<color=#92fc63>全屏消弹并释放反击弹幕</color>，该效果自我方空袭开始会进入5秒冷却状态。",
 		arg = {}
-	},
-	[201552] = {
+	}
+	pg.base.strategy_data_template[201552] = {
 		buff_id = 0,
 		name = "挑战说明",
 		iconSize = "",
@@ -4334,8 +4343,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "“真正的决斗就是要公平才对！”\n莱姆号会尝试纠正一切战斗中“不公平”的要素：\n1.战斗中双方角色<color=#92fc63>无法恢复耐久</color>。\n2.当我方任意角色获得【完全回避】或【无敌】效果时，莱姆号也会同时获得护盾，其<color=#92fc63>受到的伤害降低为1点</color>。\n3.若我方发动空袭造成全屏消弹，则1.5秒后莱姆号也将<color=#92fc63>全屏消弹并释放反击弹幕</color>，该效果自我方空袭开始会进入5秒冷却状态。\n\n困难模式特性：\n敌方伤害<color=#ffc038>极大幅度提高</color>，部分大体积子弹无法被空袭/护盾消除。\n我方先锋舰队的角色<color=#92fc63>受击判定大幅度缩小，且同一时间只有处于领舰位置的角色拥有受击判定</color>，其余角色为无敌状态。\n角色获得受击判定时会附带短暂无敌效果。\n\n以下装备或技能效果无法在本挑战中生效：\n【背水之战】",
 		arg = {}
-	},
-	[201650] = {
+	}
+	pg.base.strategy_data_template[201650] = {
 		buff_id = 0,
 		name = "星空帷幕",
 		iconSize = "",
@@ -4345,8 +4354,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "星空帷幕下，部分/*ÄâĚŹÎď*/将变为/*ľÚśţŔŕÄâĚŹ*/，阻止更多/*ÄâĚŹÎď*/增援，并降低海域内出现大型敌方舰队的概率。",
 		arg = {}
-	},
-	[201651] = {
+	}
+	pg.base.strategy_data_template[201651] = {
 		buff_id = 201651,
 		name = "实验安全管控",
 		iconSize = "",
@@ -4356,8 +4365,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "海域中的战斗将会得到来自仲裁机关的代行者支援。",
 		arg = {}
-	},
-	[201654] = {
+	}
+	pg.base.strategy_data_template[201654] = {
 		buff_id = 0,
 		name = "挑战说明",
 		iconSize = "",
@@ -4367,8 +4376,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "BOSS会根据当前血量百分比拟态成三种不同单位（<color=#92fc63>以70%与40%为临界点</color>），拟态状态下<color=#92fc63>受到的伤害减少50%</color>。\n拟态状态下为固定血量，被<color=#92fc63>击破后变回原形，并在8秒后重新拟态</color>。\n非拟态状态下护甲类型为轻甲，拟态状态下固定为重甲。",
 		arg = {}
-	},
-	[201655] = {
+	}
+	pg.base.strategy_data_template[201655] = {
 		buff_id = 0,
 		name = "挑战说明",
 		iconSize = "",
@@ -4378,8 +4387,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "BOSS会根据当前血量百分比拟态成三种不同单位（<color=#92fc63>以70%与40%为临界点</color>），拟态状态下<color=#92fc63>受到的伤害减少50%</color>。\n拟态状态下为固定血量，被<color=#92fc63>击破后变回原形，并在8秒后重新拟态</color>。\n非拟态状态下护甲类型为轻甲，拟态状态下固定为重甲。\n\n困难模式特性：\n敌方伤害<color=#ffc038>极大幅度提高</color>，部分大体积子弹无法被空袭/护盾消除。\n我方先锋舰队的角色<color=#92fc63>受击判定大幅度缩小，且同一时间只有处于领舰位置的角色拥有受击判定</color>，其余角色为无敌状态。\n角色获得受击判定时会附带短暂无敌效果。\n\n以下装备或技能效果无法在本挑战中生效：\n【背水之战】、【彩虹计划】、【绝体绝命】",
 		arg = {}
-	},
-	[201701] = {
+	}
+	pg.base.strategy_data_template[201701] = {
 		buff_id = 201701,
 		name = "日进斗金",
 		iconSize = "",
@@ -4389,8 +4398,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗内出现包含金元宝造型的支援攻击。",
 		arg = {}
-	},
-	[201705] = {
+	}
+	pg.base.strategy_data_template[201705] = {
 		buff_id = 201705,
 		name = "发光的菜肴",
 		iconSize = "",
@@ -4400,8 +4409,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗开始时随机触发以下三种菜肴效果中的一个。\n1.在战斗开始时恢复我方全体1%耐久。\n2.在战斗开始后的30秒内我方航速提升10%，造成的伤害提升3%。\n3.我方先锋舰队成员会变得闪闪发光（？）",
 		arg = {}
-	},
-	[201706] = {
+	}
+	pg.base.strategy_data_template[201706] = {
 		buff_id = 0,
 		name = "挑战说明",
 		iconSize = "",
@@ -4411,8 +4420,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "BOSS在战斗中会释放出大量黑白棋子，棋子无法被消除。\n白色棋子对轻甲造成较高伤害，黑色棋子对中甲及重甲造成较高伤害。 ",
 		arg = {}
-	},
-	[201707] = {
+	}
+	pg.base.strategy_data_template[201707] = {
 		buff_id = 0,
 		name = "挑战说明",
 		iconSize = "",
@@ -4422,8 +4431,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "BOSS在战斗中会释放出大量黑白棋子。\n当玩家单位触碰到棋子时，若其自身<color=#92fc63>不存在标记</color>或<color=#92fc63>标记颜色与棋子不同</color>，则会将自身标记更改为棋子对应的颜色；若自身<color=#92fc63>标记颜色与棋子相同</color>，则会在瞬间受到<color=#ffc038>极高的固定伤害</color>，该固定伤害在0.5秒内不会重复触发。\n棋子无法被消除，但我方发动空袭时会清除当前我方单位身上的棋子标记。\n\n困难模式特性：\n敌方伤害<color=#ffc038>极大幅度提高</color>，部分大体积子弹无法被空袭/护盾消除。\n我方先锋舰队的角色<color=#92fc63>受击判定大幅度缩小，且同一时间只有处于领舰位置的角色拥有受击判定</color>，其余角色为无敌状态。\n角色获得受击判定时会附带短暂无敌效果。\n\n以下装备或技能效果无法在本挑战中生效：\n【背水之战】、【彩虹计划】、【绝体绝命】",
 		arg = {}
-	},
-	[201741] = {
+	}
+	pg.base.strategy_data_template[201741] = {
 		buff_id = 0,
 		name = "挑战说明",
 		iconSize = "",
@@ -4433,8 +4442,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "BOSS会减少自身受到超过20距离攻击来源的伤害，<color=#92fc63>每多1距离便减少1%，最多减少50%</color>；同时提高对更远距离目标造成的伤害，超过20距离以外<color=#92fc63>每多1距离提高2%，最多提高100%</color>。\n由于在战斗中只专注于远方的攻击弹道，BOSS会<color=#92fc63>额外受到100%/50%来自于我方先锋舰队的炮击/雷击伤害</color>。\n虽然我方舰载机能够在近距离投弹，但BOSS携带有强力防空武器会快速将其击落。\n<color=#ddf700>提示：70大约是BOSS初始位置到我方先锋舰队可移动范围最左侧的距离</color>",
 		arg = {}
-	},
-	[201742] = {
+	}
+	pg.base.strategy_data_template[201742] = {
 		buff_id = 0,
 		name = "挑战说明",
 		iconSize = "",
@@ -4444,8 +4453,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "BOSS会减少自身受到超过20距离攻击来源的伤害，<color=#92fc63>每多1距离便减少1%，最多减少50%</color>；同时提高对更远距离目标造成的伤害，超过20距离以外<color=#92fc63>每多1距离提高2%，最多提高100%</color>。\n由于在战斗中只专注于远方的攻击弹道，BOSS会<color=#92fc63>额外受到100%/50%来自于我方先锋舰队的炮击/雷击伤害</color>。\n虽然我方舰载机能够在近距离投弹，但BOSS携带有强力防空武器会快速将其击落。\n<color=#ddf700>提示：70大约是BOSS初始位置到我方先锋舰队可移动范围最左侧的距离</color>\n\n困难模式特性：\n敌方伤害<color=#ffc038>极大幅度提高</color>，部分大体积子弹无法被空袭/护盾消除。\n我方先锋舰队的角色<color=#92fc63>受击判定大幅度缩小，且同一时间只有处于领舰位置的角色拥有受击判定</color>，其余角色为无敌状态。\n角色获得受击判定时会附带短暂无敌效果。\n\n以下装备或技能中的<color=#92fc63>减伤/回避及其派生效果</color>无法在本挑战中生效：\n【背水之战】、【彩虹计划】、【绝体绝命】、【不屈意志】",
 		arg = {}
-	},
-	[201743] = {
+	}
+	pg.base.strategy_data_template[201743] = {
 		buff_id = 0,
 		name = "挑战说明",
 		iconSize = "",
@@ -4455,8 +4464,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "本关卡两名BOSS中任意一名被击败，都会使另一名进入[情绪高涨]状态，<color=#ffc038>改变攻击方式并特大幅度提高自身伤害</color>。\n\n关卡特性：\n敌方伤害<color=#ffc038>中幅度提升</color>，部分大体积子弹无法被空袭/护盾消除。\n我方先锋舰队的角色<color=#92fc63>受击判定大幅度缩小，且同一时间只有处于领舰位置的角色拥有受击判定</color>，其余角色为无敌状态。\n角色获得受击判定时会附带短暂无敌效果。\n\n以下装备或技能中的<color=#92fc63>减伤/回避及其派生效果</color>无法在本挑战中生效：\n【背水之战】、【彩虹计划】、【绝体绝命】、【不屈意志】",
 		arg = {}
-	},
-	[205001] = {
+	}
+	pg.base.strategy_data_template[205001] = {
 		buff_id = 205001,
 		name = "活动关卡标志A",
 		iconSize = "",
@@ -4466,8 +4475,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "仅用作标记",
 		arg = {}
-	},
-	[205002] = {
+	}
+	pg.base.strategy_data_template[205002] = {
 		buff_id = 205002,
 		name = "活动关卡标志B",
 		iconSize = "",
@@ -4477,8 +4486,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "仅用作标记",
 		arg = {}
-	},
-	[205003] = {
+	}
+	pg.base.strategy_data_template[205003] = {
 		buff_id = 205003,
 		name = "活动关卡标志C",
 		iconSize = "",
@@ -4488,8 +4497,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "仅用作标记",
 		arg = {}
-	},
-	[205004] = {
+	}
+	pg.base.strategy_data_template[205004] = {
 		buff_id = 205004,
 		name = "活动关卡标志D",
 		iconSize = "",
@@ -4499,8 +4508,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "仅用作标记",
 		arg = {}
-	},
-	[205005] = {
+	}
+	pg.base.strategy_data_template[205005] = {
 		buff_id = 205005,
 		name = "活动关卡标志SP",
 		iconSize = "",
@@ -4510,8 +4519,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "仅用作标记",
 		arg = {}
-	},
-	[205006] = {
+	}
+	pg.base.strategy_data_template[205006] = {
 		buff_id = 205006,
 		name = "活动关卡标志B3",
 		iconSize = "",
@@ -4521,8 +4530,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "仅用作标记",
 		arg = {}
-	},
-	[205007] = {
+	}
+	pg.base.strategy_data_template[205007] = {
 		buff_id = 205007,
 		name = "活动关卡标志D3",
 		iconSize = "",
@@ -4532,8 +4541,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "仅用作标记",
 		arg = {}
-	},
-	[300001] = {
+	}
+	pg.base.strategy_data_template[300001] = {
 		buff_id = 0,
 		name = "核心等级LV1",
 		iconSize = "",
@@ -4543,8 +4552,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，己方角色的炮击、航空、雷击属性值提高3%",
 		arg = {}
-	},
-	[300002] = {
+	}
+	pg.base.strategy_data_template[300002] = {
 		buff_id = 0,
 		name = "核心等级LV2",
 		iconSize = "",
@@ -4554,8 +4563,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，每15秒会百分比回复己方当前耐久值最低的角色1%耐久",
 		arg = {}
-	},
-	[300003] = {
+	}
+	pg.base.strategy_data_template[300003] = {
 		buff_id = 0,
 		name = "核心等级LV3",
 		iconSize = "",
@@ -4565,8 +4574,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗开始后第15秒及之后每过20秒释放支援弹幕，造成持续8秒的3%易伤效果",
 		arg = {}
-	},
-	[300004] = {
+	}
+	pg.base.strategy_data_template[300004] = {
 		buff_id = 0,
 		name = "核心等级LV4",
 		iconSize = "",
@@ -4576,8 +4585,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，己方角色好感度获取提高",
 		arg = {}
-	},
-	[300005] = {
+	}
+	pg.base.strategy_data_template[300005] = {
 		buff_id = 0,
 		name = "核心等级LV1",
 		iconSize = "",
@@ -4587,8 +4596,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，己方角色的炮击、航空、雷击属性值提高3%",
 		arg = {}
-	},
-	[300006] = {
+	}
+	pg.base.strategy_data_template[300006] = {
 		buff_id = 0,
 		name = "核心等级LV2",
 		iconSize = "",
@@ -4598,8 +4607,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，每15秒会百分比回复己方当前耐久值最低的角色1%耐久",
 		arg = {}
-	},
-	[300007] = {
+	}
+	pg.base.strategy_data_template[300007] = {
 		buff_id = 0,
 		name = "核心等级LV3",
 		iconSize = "",
@@ -4609,8 +4618,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗开始后第15秒及之后每过20秒释放支援弹幕，造成持续8秒的3%易伤效果",
 		arg = {}
-	},
-	[300008] = {
+	}
+	pg.base.strategy_data_template[300008] = {
 		buff_id = 0,
 		name = "核心等级LV4",
 		iconSize = "",
@@ -4620,8 +4629,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，己方角色好感度获取提高",
 		arg = {}
-	},
-	[300009] = {
+	}
+	pg.base.strategy_data_template[300009] = {
 		buff_id = 0,
 		name = "核心等级LV1",
 		iconSize = "",
@@ -4631,8 +4640,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，己方角色的炮击、航空、雷击属性值提高3%",
 		arg = {}
-	},
-	[300010] = {
+	}
+	pg.base.strategy_data_template[300010] = {
 		buff_id = 0,
 		name = "核心等级LV2",
 		iconSize = "",
@@ -4642,8 +4651,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，每15秒会百分比回复己方当前耐久值最低的角色1%耐久",
 		arg = {}
-	},
-	[300011] = {
+	}
+	pg.base.strategy_data_template[300011] = {
 		buff_id = 0,
 		name = "核心等级LV3",
 		iconSize = "",
@@ -4653,8 +4662,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗开始后第15秒及之后每过20秒释放支援弹幕，造成持续8秒的3%易伤效果",
 		arg = {}
-	},
-	[300012] = {
+	}
+	pg.base.strategy_data_template[300012] = {
 		buff_id = 0,
 		name = "核心等级LV4",
 		iconSize = "",
@@ -4664,8 +4673,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，己方角色好感度获取提高",
 		arg = {}
-	},
-	[300013] = {
+	}
+	pg.base.strategy_data_template[300013] = {
 		buff_id = 0,
 		name = "核心等级LV1",
 		iconSize = "",
@@ -4675,8 +4684,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，己方角色的炮击、航空、雷击属性值提高3%",
 		arg = {}
-	},
-	[300014] = {
+	}
+	pg.base.strategy_data_template[300014] = {
 		buff_id = 0,
 		name = "核心等级LV2",
 		iconSize = "",
@@ -4686,8 +4695,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，每15秒会百分比回复己方当前耐久值最低的角色1%耐久",
 		arg = {}
-	},
-	[300015] = {
+	}
+	pg.base.strategy_data_template[300015] = {
 		buff_id = 0,
 		name = "核心等级LV3",
 		iconSize = "",
@@ -4697,8 +4706,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗开始后第15秒及之后每过20秒释放支援弹幕，造成持续8秒的3%易伤效果",
 		arg = {}
-	},
-	[300016] = {
+	}
+	pg.base.strategy_data_template[300016] = {
 		buff_id = 0,
 		name = "核心等级LV4",
 		iconSize = "",
@@ -4708,8 +4717,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，己方角色好感度获取提高",
 		arg = {}
-	},
-	[300017] = {
+	}
+	pg.base.strategy_data_template[300017] = {
 		buff_id = 0,
 		name = "核心等级LV1",
 		iconSize = "",
@@ -4719,8 +4728,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，己方角色的炮击、航空、雷击属性值提高3%",
 		arg = {}
-	},
-	[300018] = {
+	}
+	pg.base.strategy_data_template[300018] = {
 		buff_id = 0,
 		name = "核心等级LV2",
 		iconSize = "",
@@ -4730,8 +4739,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗中，每15秒会百分比回复己方当前耐久值最低的角色1%耐久",
 		arg = {}
-	},
-	[300019] = {
+	}
+	pg.base.strategy_data_template[300019] = {
 		buff_id = 0,
 		name = "核心等级LV3",
 		iconSize = "",
@@ -4741,8 +4750,8 @@ pg.base.strategy_data_template = {
 		buff_type = 0,
 		desc = "战斗开始后第15秒及之后每过20秒释放支援弹幕，造成持续8秒的3%易伤效果",
 		arg = {}
-	},
-	[300020] = {
+	}
+	pg.base.strategy_data_template[300020] = {
 		buff_id = 0,
 		name = "核心等级LV4",
 		iconSize = "",
@@ -4753,4 +4762,4 @@ pg.base.strategy_data_template = {
 		desc = "战斗中，己方角色好感度获取提高",
 		arg = {}
 	}
-}
+end)()

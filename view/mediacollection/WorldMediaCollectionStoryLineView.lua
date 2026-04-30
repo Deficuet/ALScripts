@@ -462,9 +462,11 @@ function var_0_0.gotoStory(arg_28_0)
 		elseif var_28_1[1] == 2 then
 			var_28_4 = var_28_1[2][1]
 
-			for iter_28_0, iter_28_1 in pairs(pg.memory_group) do
-				if table.contains(iter_28_1.memories, var_28_4) then
-					var_28_3 = iter_28_0
+			for iter_28_0, iter_28_1 in ipairs(pg.memory_group.all) do
+				local var_28_5 = pg.memory_group[iter_28_1]
+
+				if table.contains(var_28_5.memories, var_28_4) then
+					var_28_3 = iter_28_1
 
 					break
 				end
@@ -473,24 +475,26 @@ function var_0_0.gotoStory(arg_28_0)
 
 		arg_28_0.storyJumpCallback(pg.memory_group[var_28_3], var_28_4)
 	elseif var_28_2 ~= "" then
-		local var_28_5
 		local var_28_6
+		local var_28_7
 
 		if var_28_2[1] == 1 then
-			var_28_5 = var_28_2[2]
+			var_28_6 = var_28_2[2]
 		elseif var_28_2[1] == 2 then
-			var_28_6 = var_28_2[2][1]
+			var_28_7 = var_28_2[2][1]
 
-			for iter_28_2, iter_28_3 in pairs(pg.world_collection_record_group) do
-				if table.contains(iter_28_3.child, var_28_6) then
-					var_28_5 = iter_28_2
+			for iter_28_2, iter_28_3 in ipairs(pg.world_collection_record_group.all) do
+				local var_28_8 = pg.world_collection_record_group[iter_28_3]
+
+				if table.contains(var_28_8.child, var_28_7) then
+					var_28_6 = iter_28_3
 
 					break
 				end
 			end
 		end
 
-		arg_28_0.recordJumpCallback(var_28_5, var_28_6, arg_28_0.selectedID)
+		arg_28_0.recordJumpCallback(var_28_6, var_28_7, arg_28_0.selectedID)
 	end
 end
 

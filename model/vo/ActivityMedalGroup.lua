@@ -101,12 +101,16 @@ end
 
 function var_0_0.GetAll(arg_11_0)
 	return underscore.all(arg_11_0:GetMedalIds(), function(arg_12_0)
-		return arg_11_0.medalList[arg_12_0] and arg_11_0.medalList[arg_12_0].timeStamp and arg_11_0.medalList[arg_12_0].timeStamp ~= 0
+		return arg_11_0:OwnMedel(arg_12_0)
 	end)
 end
 
-function var_0_0.GetGroupIDByMedalID(arg_13_0)
-	return pg.activity_medal_group[arg_13_0].group
+function var_0_0.OwnMedel(arg_13_0, arg_13_1)
+	return arg_13_0.medalList[arg_13_1] and arg_13_0.medalList[arg_13_1].timeStamp and arg_13_0.medalList[arg_13_1].timeStamp ~= 0
+end
+
+function var_0_0.GetGroupIDByMedalID(arg_14_0)
+	return pg.activity_medal_group[arg_14_0].group
 end
 
 return var_0_0

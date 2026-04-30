@@ -1,211 +1,214 @@
 pg = pg or {}
-pg.guild_base_event = setmetatable({
-	__name = "guild_base_event",
-	all = {
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		1010,
-		1011,
-		1012,
-		1013,
-		1014,
-		1015,
-		1101,
-		1102,
-		1103,
-		1104,
-		1105,
-		1106,
-		1107,
-		1108,
-		1109,
-		1110,
-		1111,
-		1112,
-		1113,
-		1114,
-		1201,
-		1202,
-		1203,
-		1204,
-		1205,
-		1206,
-		1207,
-		1208,
-		1209,
-		2001,
-		2002,
-		2003,
-		2004,
-		2005,
-		2006,
-		2007,
-		2008,
-		2009,
-		2010,
-		2011,
-		2012,
-		2013,
-		2014,
-		2015,
-		2016,
-		2017,
-		2018,
-		2019,
-		2020,
-		2021,
-		2101,
-		2102,
-		2103,
-		2104,
-		2105,
-		2106,
-		2107,
-		2108,
-		2109,
-		2110,
-		2111,
-		2112,
-		2113,
-		2114,
-		2115,
-		2116,
-		2201,
-		2202,
-		2203,
-		2204,
-		2205,
-		2206,
-		2207,
-		3001,
-		3002,
-		3003,
-		3004,
-		3005,
-		3006,
-		3007,
-		3008,
-		3009,
-		3010,
-		3011,
-		3012,
-		3013,
-		3014,
-		3015,
-		3016,
-		3017,
-		3018,
-		3019,
-		3020,
-		3021,
-		3022,
-		3023,
-		3024,
-		3101,
-		3102,
-		3103,
-		3104,
-		3105,
-		3106,
-		3107,
-		3108,
-		3109,
-		3110,
-		3111,
-		3112,
-		3113,
-		3114,
-		3115,
-		3201,
-		3202,
-		3203,
-		3204,
-		3205,
-		3206,
-		3207,
-		3208,
-		3209,
-		3210,
-		3211,
-		3212,
-		3213,
-		3214,
-		3215,
-		3216,
-		4001,
-		4002,
-		4003,
-		4004,
-		4005,
-		4006,
-		4007,
-		4008,
-		4009,
-		4010,
-		4011,
-		4012,
-		4013,
-		4014,
-		4015,
-		4018,
-		4019,
-		4020,
-		4021,
-		4022,
-		4023,
-		4024,
-		4025,
-		4026,
-		4027,
-		4028,
-		4101,
-		4102,
-		4103,
-		4104,
-		4105,
-		4106,
-		4107,
-		4108,
-		4109,
-		4110,
-		4111,
-		4112,
-		4113,
-		4114,
-		4115,
-		4116,
-		4117,
-		4118,
-		4120,
-		4121,
-		4122,
-		4123,
-		4201,
-		4202,
-		4203,
-		4204,
-		4205,
-		4206,
-		4207,
-		4208,
-		4209,
-		4210,
-		4211,
-		4212,
-		4213,
-		4214
-	}
-}, confHX)
+pg.guild_base_event = rawget(pg, "guild_base_event") or setmetatable({
+	__name = "guild_base_event"
+}, confNEO)
+pg.guild_base_event.__namecode__ = true
+pg.guild_base_event.all = {
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012,
+	1013,
+	1014,
+	1015,
+	1101,
+	1102,
+	1103,
+	1104,
+	1105,
+	1106,
+	1107,
+	1108,
+	1109,
+	1110,
+	1111,
+	1112,
+	1113,
+	1114,
+	1201,
+	1202,
+	1203,
+	1204,
+	1205,
+	1206,
+	1207,
+	1208,
+	1209,
+	2001,
+	2002,
+	2003,
+	2004,
+	2005,
+	2006,
+	2007,
+	2008,
+	2009,
+	2010,
+	2011,
+	2012,
+	2013,
+	2014,
+	2015,
+	2016,
+	2017,
+	2018,
+	2019,
+	2020,
+	2021,
+	2101,
+	2102,
+	2103,
+	2104,
+	2105,
+	2106,
+	2107,
+	2108,
+	2109,
+	2110,
+	2111,
+	2112,
+	2113,
+	2114,
+	2115,
+	2116,
+	2201,
+	2202,
+	2203,
+	2204,
+	2205,
+	2206,
+	2207,
+	3001,
+	3002,
+	3003,
+	3004,
+	3005,
+	3006,
+	3007,
+	3008,
+	3009,
+	3010,
+	3011,
+	3012,
+	3013,
+	3014,
+	3015,
+	3016,
+	3017,
+	3018,
+	3019,
+	3020,
+	3021,
+	3022,
+	3023,
+	3024,
+	3101,
+	3102,
+	3103,
+	3104,
+	3105,
+	3106,
+	3107,
+	3108,
+	3109,
+	3110,
+	3111,
+	3112,
+	3113,
+	3114,
+	3115,
+	3201,
+	3202,
+	3203,
+	3204,
+	3205,
+	3206,
+	3207,
+	3208,
+	3209,
+	3210,
+	3211,
+	3212,
+	3213,
+	3214,
+	3215,
+	3216,
+	4001,
+	4002,
+	4003,
+	4004,
+	4005,
+	4006,
+	4007,
+	4008,
+	4009,
+	4010,
+	4011,
+	4012,
+	4013,
+	4014,
+	4015,
+	4018,
+	4019,
+	4020,
+	4021,
+	4022,
+	4023,
+	4024,
+	4025,
+	4026,
+	4027,
+	4028,
+	4101,
+	4102,
+	4103,
+	4104,
+	4105,
+	4106,
+	4107,
+	4108,
+	4109,
+	4110,
+	4111,
+	4112,
+	4113,
+	4114,
+	4115,
+	4116,
+	4117,
+	4118,
+	4120,
+	4121,
+	4122,
+	4123,
+	4201,
+	4202,
+	4203,
+	4204,
+	4205,
+	4206,
+	4207,
+	4208,
+	4209,
+	4210,
+	4211,
+	4212,
+	4213,
+	4214
+}
 pg.base = pg.base or {}
-pg.base.guild_base_event = {
-	[1001] = {
+pg.base.guild_base_event = {}
+
+;(function()
+	pg.base.guild_base_event[1001] = {
 		workload = 907200,
 		name = "北方海域清扫作战",
 		base_point = 10,
@@ -271,8 +274,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[1002] = {
+	}
+	pg.base.guild_base_event[1002] = {
 		workload = 907200,
 		name = "南方海域清扫作战",
 		base_point = 10,
@@ -338,8 +341,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[1003] = {
+	}
+	pg.base.guild_base_event[1003] = {
 		workload = 1209600,
 		name = "波尔港航路清扫",
 		base_point = 10,
@@ -406,8 +409,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[1004] = {
+	}
+	pg.base.guild_base_event[1004] = {
 		workload = 1209600,
 		name = "航迹岛航路清扫",
 		base_point = 10,
@@ -474,8 +477,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[1005] = {
+	}
+	pg.base.guild_base_event[1005] = {
 		workload = 907200,
 		name = "波尔港物资接收护卫",
 		base_point = 10,
@@ -537,8 +540,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[1006] = {
+	}
+	pg.base.guild_base_event[1006] = {
 		workload = 907200,
 		name = "航迹岛物资运输护卫",
 		base_point = 10,
@@ -600,8 +603,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[1007] = {
+	}
+	pg.base.guild_base_event[1007] = {
 		workload = 907200,
 		name = "波尔港飞机接收护卫",
 		base_point = 10,
@@ -667,8 +670,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[1008] = {
+	}
+	pg.base.guild_base_event[1008] = {
 		workload = 907200,
 		name = "航迹岛飞机运输护卫",
 		base_point = 10,
@@ -734,8 +737,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[1009] = {
+	}
+	pg.base.guild_base_event[1009] = {
 		workload = 604800,
 		name = "米德维近海巡逻",
 		base_point = 10,
@@ -796,8 +799,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[1010] = {
+	}
+	pg.base.guild_base_event[1010] = {
 		workload = 604800,
 		name = "波尔港近海巡逻",
 		base_point = 10,
@@ -858,8 +861,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[1011] = {
+	}
+	pg.base.guild_base_event[1011] = {
 		workload = 604800,
 		name = "查尔斯环礁海域巡逻",
 		base_point = 10,
@@ -920,8 +923,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[1012] = {
+	}
+	pg.base.guild_base_event[1012] = {
 		workload = 604800,
 		name = "航迹岛海域巡逻",
 		base_point = 10,
@@ -982,8 +985,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[1013] = {
+	}
+	pg.base.guild_base_event[1013] = {
 		workload = 1058400,
 		name = "玛丽安娜群岛侦察",
 		base_point = 10,
@@ -1050,8 +1053,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[1014] = {
+	}
+	pg.base.guild_base_event[1014] = {
 		workload = 756000,
 		name = "米德维岛南部海域侦察",
 		base_point = 10,
@@ -1117,8 +1120,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[1015] = {
+	}
+	pg.base.guild_base_event[1015] = {
 		workload = 1058400,
 		name = "莫沙尔群岛侦察",
 		base_point = 10,
@@ -1185,8 +1188,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[1101] = {
+	}
+	pg.base.guild_base_event[1101] = {
 		workload = 1512000,
 		name = "新楠塔基特岛航路清扫",
 		base_point = 10,
@@ -1261,8 +1264,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[1102] = {
+	}
+	pg.base.guild_base_event[1102] = {
 		workload = 1512000,
 		name = "查尔斯环礁航路清扫",
 		base_point = 10,
@@ -1337,8 +1340,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[1103] = {
+	}
+	pg.base.guild_base_event[1103] = {
 		workload = 1058400,
 		name = "古阿姆岛护航任务",
 		base_point = 10,
@@ -1412,8 +1415,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[1104] = {
+	}
+	pg.base.guild_base_event[1104] = {
 		workload = 1058400,
 		name = "新楠塔基特岛护航任务",
 		base_point = 10,
@@ -1487,8 +1490,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[1105] = {
+	}
+	pg.base.guild_base_event[1105] = {
 		workload = 756000,
 		name = "查尔斯环礁护航任务",
 		base_point = 10,
@@ -1561,8 +1564,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[1106] = {
+	}
+	pg.base.guild_base_event[1106] = {
 		workload = 756000,
 		name = "西部海岸护航任务",
 		base_point = 10,
@@ -1635,8 +1638,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[1107] = {
+	}
+	pg.base.guild_base_event[1107] = {
 		workload = 907200,
 		name = "利亚辛海域警戒",
 		base_point = 10,
@@ -1709,8 +1712,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[1108] = {
+	}
+	pg.base.guild_base_event[1108] = {
 		workload = 1058400,
 		name = "莱珊海域警戒",
 		base_point = 10,
@@ -1784,8 +1787,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[1109] = {
+	}
+	pg.base.guild_base_event[1109] = {
 		workload = 1209600,
 		name = "爱丽丝环礁海域警戒",
 		base_point = 10,
@@ -1859,8 +1862,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[1110] = {
+	}
+	pg.base.guild_base_event[1110] = {
 		workload = 1058400,
 		name = "玛库纳马纳海域警戒",
 		base_point = 10,
@@ -1934,8 +1937,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[1111] = {
+	}
+	pg.base.guild_base_event[1111] = {
 		workload = 907200,
 		name = "尼阿霍海域警戒",
 		base_point = 10,
@@ -2008,8 +2011,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[1112] = {
+	}
+	pg.base.guild_base_event[1112] = {
 		workload = 756000,
 		name = "北方海域侦察",
 		base_point = 10,
@@ -2078,8 +2081,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[1113] = {
+	}
+	pg.base.guild_base_event[1113] = {
 		workload = 907200,
 		name = "查尔斯环礁南部海域侦察",
 		base_point = 10,
@@ -2148,8 +2151,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[1114] = {
+	}
+	pg.base.guild_base_event[1114] = {
 		workload = 1058400,
 		name = "新楠塔基特岛海域侦察",
 		base_point = 10,
@@ -2223,8 +2226,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[1201] = {
+	}
+	pg.base.guild_base_event[1201] = {
 		workload = 453600,
 		name = "米德维近海夜间警戒",
 		base_point = 10,
@@ -2285,8 +2288,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[1202] = {
+	}
+	pg.base.guild_base_event[1202] = {
 		workload = 453600,
 		name = "波尔港近海夜间警戒",
 		base_point = 10,
@@ -2347,8 +2350,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[1203] = {
+	}
+	pg.base.guild_base_event[1203] = {
 		workload = 453600,
 		name = "环礁海域夜间警戒",
 		base_point = 10,
@@ -2409,8 +2412,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[1204] = {
+	}
+	pg.base.guild_base_event[1204] = {
 		workload = 453600,
 		name = "航迹岛海域夜间警戒",
 		base_point = 10,
@@ -2471,8 +2474,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[1205] = {
+	}
+	pg.base.guild_base_event[1205] = {
 		workload = 604800,
 		name = "米德维岛后勤整备",
 		base_point = 10,
@@ -2533,8 +2536,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[1206] = {
+	}
+	pg.base.guild_base_event[1206] = {
 		workload = 907200,
 		name = "波尔港后勤整备",
 		base_point = 10,
@@ -2596,8 +2599,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[1207] = {
+	}
+	pg.base.guild_base_event[1207] = {
 		workload = 1209600,
 		name = "波尔港舰装维修",
 		base_point = 10,
@@ -2660,8 +2663,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[1208] = {
+	}
+	pg.base.guild_base_event[1208] = {
 		workload = 604800,
 		name = "米德维岛物资整备",
 		base_point = 10,
@@ -2722,8 +2725,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[1209] = {
+	}
+	pg.base.guild_base_event[1209] = {
 		workload = 907200,
 		name = "波尔港物资整备",
 		base_point = 10,
@@ -2785,8 +2788,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[2001] = {
+	}
+	pg.base.guild_base_event[2001] = {
 		workload = 1209600,
 		name = "NA海域西南护航战",
 		base_point = 10,
@@ -2853,8 +2856,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[2002] = {
+	}
+	pg.base.guild_base_event[2002] = {
 		workload = 1209600,
 		name = "NA海域东南护航战",
 		base_point = 10,
@@ -2921,8 +2924,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[2003] = {
+	}
+	pg.base.guild_base_event[2003] = {
 		workload = 1209600,
 		name = "NA海域西北护航战",
 		base_point = 10,
@@ -2989,8 +2992,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[2004] = {
+	}
+	pg.base.guild_base_event[2004] = {
 		workload = 1209600,
 		name = "NA海域东北护航战",
 		base_point = 10,
@@ -3057,8 +3060,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[2005] = {
+	}
+	pg.base.guild_base_event[2005] = {
 		workload = 1209600,
 		name = "NA海域西部护航战",
 		base_point = 10,
@@ -3125,8 +3128,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[2006] = {
+	}
+	pg.base.guild_base_event[2006] = {
 		workload = 1209600,
 		name = "NA海域东部护航战",
 		base_point = 10,
@@ -3193,8 +3196,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[2007] = {
+	}
+	pg.base.guild_base_event[2007] = {
 		workload = 1209600,
 		name = "NA海域北部护航战",
 		base_point = 10,
@@ -3261,8 +3264,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[2008] = {
+	}
+	pg.base.guild_base_event[2008] = {
 		workload = 1209600,
 		name = "极地航线西段护卫",
 		base_point = 10,
@@ -3329,8 +3332,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[2009] = {
+	}
+	pg.base.guild_base_event[2009] = {
 		workload = 756000,
 		name = "LD至SP西段护卫",
 		base_point = 10,
@@ -3392,8 +3395,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[2010] = {
+	}
+	pg.base.guild_base_event[2010] = {
 		workload = 756000,
 		name = "NY至LD西段护卫",
 		base_point = 10,
@@ -3455,8 +3458,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[2011] = {
+	}
+	pg.base.guild_base_event[2011] = {
 		workload = 1209600,
 		name = "极地航线东段护卫",
 		base_point = 10,
@@ -3523,8 +3526,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[2012] = {
+	}
+	pg.base.guild_base_event[2012] = {
 		workload = 756000,
 		name = "LD至SP东段护卫",
 		base_point = 10,
@@ -3586,8 +3589,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[2013] = {
+	}
+	pg.base.guild_base_event[2013] = {
 		workload = 756000,
 		name = "NY至LD东段护卫",
 		base_point = 10,
@@ -3649,8 +3652,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[2014] = {
+	}
+	pg.base.guild_base_event[2014] = {
 		workload = 604800,
 		name = "NY近海巡逻",
 		base_point = 10,
@@ -3711,8 +3714,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[2015] = {
+	}
+	pg.base.guild_base_event[2015] = {
 		workload = 604800,
 		name = "王家海峡巡逻",
 		base_point = 10,
@@ -3773,8 +3776,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[2016] = {
+	}
+	pg.base.guild_base_event[2016] = {
 		workload = 604800,
 		name = "摩斯科尔曼近海巡逻",
 		base_point = 10,
@@ -3835,8 +3838,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[2017] = {
+	}
+	pg.base.guild_base_event[2017] = {
 		workload = 907200,
 		name = "萨默斯群岛侦察",
 		base_point = 10,
@@ -3902,8 +3905,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[2018] = {
+	}
+	pg.base.guild_base_event[2018] = {
 		workload = 907200,
 		name = "简·梅恩岛侦察",
 		base_point = 10,
@@ -3969,8 +3972,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[2019] = {
+	}
+	pg.base.guild_base_event[2019] = {
 		workload = 907200,
 		name = "拉布多拉海侦察",
 		base_point = 10,
@@ -4032,8 +4035,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[2020] = {
+	}
+	pg.base.guild_base_event[2020] = {
 		workload = 907200,
 		name = "巴伦支海侦察",
 		base_point = 10,
@@ -4095,8 +4098,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[2021] = {
+	}
+	pg.base.guild_base_event[2021] = {
 		workload = 907200,
 		name = "诺斯克哈维特海侦察",
 		base_point = 10,
@@ -4158,8 +4161,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[2101] = {
+	}
+	pg.base.guild_base_event[2101] = {
 		workload = 1512000,
 		name = "拉布多拉护航战",
 		base_point = 10,
@@ -4234,8 +4237,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[2102] = {
+	}
+	pg.base.guild_base_event[2102] = {
 		workload = 1512000,
 		name = "诺斯克哈维特护航战",
 		base_point = 10,
@@ -4310,8 +4313,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[2103] = {
+	}
+	pg.base.guild_base_event[2103] = {
 		workload = 1512000,
 		name = "巴伦支海护航战",
 		base_point = 10,
@@ -4390,8 +4393,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[2104] = {
+	}
+	pg.base.guild_base_event[2104] = {
 		workload = 1512000,
 		name = "圣洛伦茨湾护航战",
 		base_point = 10,
@@ -4466,8 +4469,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[2105] = {
+	}
+	pg.base.guild_base_event[2105] = {
 		workload = 1209600,
 		name = "极地航线中段护卫",
 		base_point = 10,
@@ -4541,8 +4544,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[2106] = {
+	}
+	pg.base.guild_base_event[2106] = {
 		workload = 756000,
 		name = "LD至SP中段护卫",
 		base_point = 10,
@@ -4611,8 +4614,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[2107] = {
+	}
+	pg.base.guild_base_event[2107] = {
 		workload = 756000,
 		name = "NY至LD中段护卫",
 		base_point = 10,
@@ -4681,8 +4684,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[2108] = {
+	}
+	pg.base.guild_base_event[2108] = {
 		workload = 1058400,
 		name = "林鸽群岛警戒",
 		base_point = 10,
@@ -4756,8 +4759,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[2109] = {
+	}
+	pg.base.guild_base_event[2109] = {
 		workload = 1058400,
 		name = "凯尔特海警戒",
 		base_point = 10,
@@ -4831,8 +4834,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[2110] = {
+	}
+	pg.base.guild_base_event[2110] = {
 		workload = 1058400,
 		name = "北方海域警戒",
 		base_point = 10,
@@ -4906,8 +4909,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[2111] = {
+	}
+	pg.base.guild_base_event[2111] = {
 		workload = 1058400,
 		name = "白海警戒",
 		base_point = 10,
@@ -4981,8 +4984,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[2112] = {
+	}
+	pg.base.guild_base_event[2112] = {
 		workload = 1058400,
 		name = "冲沙湾警戒",
 		base_point = 10,
@@ -5060,8 +5063,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[2113] = {
+	}
+	pg.base.guild_base_event[2113] = {
 		workload = 1058400,
 		name = "绍伯拉海警戒",
 		base_point = 10,
@@ -5139,8 +5142,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[2114] = {
+	}
+	pg.base.guild_base_event[2114] = {
 		workload = 1360800,
 		name = "绿地海深处侦察",
 		base_point = 10,
@@ -5215,8 +5218,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[2115] = {
+	}
+	pg.base.guild_base_event[2115] = {
 		workload = 1360800,
 		name = "NA海域深处侦察",
 		base_point = 10,
@@ -5291,8 +5294,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[2116] = {
+	}
+	pg.base.guild_base_event[2116] = {
 		workload = 1360800,
 		name = "巴弗因湾侦察",
 		base_point = 10,
@@ -5371,8 +5374,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[2201] = {
+	}
+	pg.base.guild_base_event[2201] = {
 		workload = 453600,
 		name = "NY近海夜间警戒",
 		base_point = 10,
@@ -5433,8 +5436,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[2202] = {
+	}
+	pg.base.guild_base_event[2202] = {
 		workload = 453600,
 		name = "王家海峡夜间警戒",
 		base_point = 10,
@@ -5495,8 +5498,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[2203] = {
+	}
+	pg.base.guild_base_event[2203] = {
 		workload = 453600,
 		name = "摩斯科尔曼夜间警戒",
 		base_point = 10,
@@ -5557,8 +5560,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[2204] = {
+	}
+	pg.base.guild_base_event[2204] = {
 		workload = 907200,
 		name = "贝尔岛侦察",
 		base_point = 10,
@@ -5624,8 +5627,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[2205] = {
+	}
+	pg.base.guild_base_event[2205] = {
 		workload = 907200,
 		name = "霍本岛侦察",
 		base_point = 10,
@@ -5691,8 +5694,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[2206] = {
+	}
+	pg.base.guild_base_event[2206] = {
 		workload = 907200,
 		name = "圣洛伦茨湾侦察",
 		base_point = 10,
@@ -5754,8 +5757,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[2207] = {
+	}
+	pg.base.guild_base_event[2207] = {
 		workload = 907200,
 		name = "卡坦布里安海侦察",
 		base_point = 10,
@@ -5817,8 +5820,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[3001] = {
+	}
+	pg.base.guild_base_event[3001] = {
 		workload = 907200,
 		name = "西部峡湾海战",
 		base_point = 10,
@@ -5888,8 +5891,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[3002] = {
+	}
+	pg.base.guild_base_event[3002] = {
 		workload = 907200,
 		name = "哈特里岛海域遭遇战",
 		base_point = 10,
@@ -5959,8 +5962,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[3003] = {
+	}
+	pg.base.guild_base_event[3003] = {
 		workload = 907200,
 		name = "伯克纳峡湾海战",
 		base_point = 10,
@@ -6030,8 +6033,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[3004] = {
+	}
+	pg.base.guild_base_event[3004] = {
 		workload = 907200,
 		name = "北海海战",
 		base_point = 10,
@@ -6101,8 +6104,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[3005] = {
+	}
+	pg.base.guild_base_event[3005] = {
 		workload = 907200,
 		name = "尼尔瓦克运输线破袭",
 		base_point = 10,
@@ -6168,8 +6171,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[3006] = {
+	}
+	pg.base.guild_base_event[3006] = {
 		workload = 907200,
 		name = "南索斯运输线破袭",
 		base_point = 10,
@@ -6235,8 +6238,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[3007] = {
+	}
+	pg.base.guild_base_event[3007] = {
 		workload = 907200,
 		name = "夸特运输线破袭",
 		base_point = 10,
@@ -6302,8 +6305,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[3008] = {
+	}
+	pg.base.guild_base_event[3008] = {
 		workload = 907200,
 		name = "斯特凡格运输线破袭",
 		base_point = 10,
@@ -6369,8 +6372,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[3009] = {
+	}
+	pg.base.guild_base_event[3009] = {
 		workload = 907200,
 		name = "尼尔瓦克港制海权夺取",
 		base_point = 10,
@@ -6440,8 +6443,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3010] = {
+	}
+	pg.base.guild_base_event[3010] = {
 		workload = 907200,
 		name = "南索斯港制海权夺取",
 		base_point = 10,
@@ -6511,8 +6514,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3011] = {
+	}
+	pg.base.guild_base_event[3011] = {
 		workload = 907200,
 		name = "夸特港制海权夺取",
 		base_point = 10,
@@ -6582,8 +6585,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3012] = {
+	}
+	pg.base.guild_base_event[3012] = {
 		workload = 907200,
 		name = "斯特凡格港制海权夺取",
 		base_point = 10,
@@ -6653,8 +6656,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3013] = {
+	}
+	pg.base.guild_base_event[3013] = {
 		workload = 907200,
 		name = "尼尔瓦克港制空权夺取",
 		base_point = 10,
@@ -6716,8 +6719,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3014] = {
+	}
+	pg.base.guild_base_event[3014] = {
 		workload = 907200,
 		name = "南索斯港制空权夺取",
 		base_point = 10,
@@ -6779,8 +6782,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3015] = {
+	}
+	pg.base.guild_base_event[3015] = {
 		workload = 907200,
 		name = "夸特港制空权夺取",
 		base_point = 10,
@@ -6842,8 +6845,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3016] = {
+	}
+	pg.base.guild_base_event[3016] = {
 		workload = 907200,
 		name = "斯特凡格港制空权夺取",
 		base_point = 10,
@@ -6905,8 +6908,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3017] = {
+	}
+	pg.base.guild_base_event[3017] = {
 		workload = 1058400,
 		name = "奥福托峡湾侦察",
 		base_point = 10,
@@ -6977,8 +6980,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[3018] = {
+	}
+	pg.base.guild_base_event[3018] = {
 		workload = 1058400,
 		name = "诺斯海峡侦察",
 		base_point = 10,
@@ -7049,8 +7052,10 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[3019] = {
+	}
+end)()
+;(function()
+	pg.base.guild_base_event[3019] = {
 		workload = 1058400,
 		name = "伯克纳峡湾侦察",
 		base_point = 10,
@@ -7121,8 +7126,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[3020] = {
+	}
+	pg.base.guild_base_event[3020] = {
 		workload = 1058400,
 		name = "马特拉斯峡湾侦察",
 		base_point = 10,
@@ -7193,8 +7198,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[3021] = {
+	}
+	pg.base.guild_base_event[3021] = {
 		workload = 907200,
 		name = "布列斯特舰装维修",
 		base_point = 10,
@@ -7256,8 +7261,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3022] = {
+	}
+	pg.base.guild_base_event[3022] = {
 		workload = 907200,
 		name = "威尔海姆港舰装维修",
 		base_point = 10,
@@ -7319,8 +7324,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3023] = {
+	}
+	pg.base.guild_base_event[3023] = {
 		workload = 756000,
 		name = "布列斯特物资整备",
 		base_point = 10,
@@ -7382,8 +7387,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3024] = {
+	}
+	pg.base.guild_base_event[3024] = {
 		workload = 756000,
 		name = "威尔海姆港物资整备",
 		base_point = 10,
@@ -7445,8 +7450,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3101] = {
+	}
+	pg.base.guild_base_event[3101] = {
 		workload = 1209600,
 		name = "萨特罗岛海域遭遇战",
 		base_point = 10,
@@ -7524,8 +7529,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[3102] = {
+	}
+	pg.base.guild_base_event[3102] = {
 		workload = 1209600,
 		name = "诺斯海峡海战",
 		base_point = 10,
@@ -7603,8 +7608,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[3103] = {
+	}
+	pg.base.guild_base_event[3103] = {
 		workload = 1209600,
 		name = "尼德罗斯运输线破袭",
 		base_point = 10,
@@ -7678,8 +7683,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[3104] = {
+	}
+	pg.base.guild_base_event[3104] = {
 		workload = 1209600,
 		name = "布丽根运输线破袭",
 		base_point = 10,
@@ -7753,8 +7758,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[3105] = {
+	}
+	pg.base.guild_base_event[3105] = {
 		workload = 1209600,
 		name = "阿克斯胡斯运输线破袭",
 		base_point = 10,
@@ -7828,8 +7833,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[3106] = {
+	}
+	pg.base.guild_base_event[3106] = {
 		workload = 1209600,
 		name = "尼德罗斯港制海权夺取",
 		base_point = 10,
@@ -7907,8 +7912,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3107] = {
+	}
+	pg.base.guild_base_event[3107] = {
 		workload = 1209600,
 		name = "布丽根港制海权夺取",
 		base_point = 10,
@@ -7986,8 +7991,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3108] = {
+	}
+	pg.base.guild_base_event[3108] = {
 		workload = 1209600,
 		name = "阿克斯胡斯港制海权夺取",
 		base_point = 10,
@@ -8065,8 +8070,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3109] = {
+	}
+	pg.base.guild_base_event[3109] = {
 		workload = 1209600,
 		name = "尼德罗斯港制空权夺取",
 		base_point = 10,
@@ -8136,8 +8141,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3110] = {
+	}
+	pg.base.guild_base_event[3110] = {
 		workload = 1209600,
 		name = "布丽根港制空权夺取",
 		base_point = 10,
@@ -8207,8 +8212,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3111] = {
+	}
+	pg.base.guild_base_event[3111] = {
 		workload = 1209600,
 		name = "阿克斯胡斯港制空权夺取",
 		base_point = 10,
@@ -8278,8 +8283,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3112] = {
+	}
+	pg.base.guild_base_event[3112] = {
 		workload = 1360800,
 		name = "尼德罗斯峡湾侦察",
 		base_point = 10,
@@ -8358,8 +8363,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[3113] = {
+	}
+	pg.base.guild_base_event[3113] = {
 		workload = 1360800,
 		name = "森弗峡湾侦察",
 		base_point = 10,
@@ -8438,8 +8443,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[3114] = {
+	}
+	pg.base.guild_base_event[3114] = {
 		workload = 1360800,
 		name = "巴约纳峡湾侦察",
 		base_point = 10,
@@ -8518,8 +8523,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[3115] = {
+	}
+	pg.base.guild_base_event[3115] = {
 		workload = 1360800,
 		name = "阿克斯胡斯峡湾侦察",
 		base_point = 10,
@@ -8598,8 +8603,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[3201] = {
+	}
+	pg.base.guild_base_event[3201] = {
 		workload = 756000,
 		name = "布列斯特运输护航",
 		base_point = 10,
@@ -8665,8 +8670,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3202] = {
+	}
+	pg.base.guild_base_event[3202] = {
 		workload = 756000,
 		name = "威尔海姆港运输护航",
 		base_point = 10,
@@ -8732,8 +8737,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3203] = {
+	}
+	pg.base.guild_base_event[3203] = {
 		workload = 1058400,
 		name = "利维浦运输护航",
 		base_point = 10,
@@ -8800,8 +8805,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3204] = {
+	}
+	pg.base.guild_base_event[3204] = {
 		workload = 1058400,
 		name = "霍尔斯坦港运输护航",
 		base_point = 10,
@@ -8868,8 +8873,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3205] = {
+	}
+	pg.base.guild_base_event[3205] = {
 		workload = 604800,
 		name = "尼尔瓦克运输拦截",
 		base_point = 10,
@@ -8934,8 +8939,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[3206] = {
+	}
+	pg.base.guild_base_event[3206] = {
 		workload = 604800,
 		name = "南索斯运输拦截",
 		base_point = 10,
@@ -9000,8 +9005,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[3207] = {
+	}
+	pg.base.guild_base_event[3207] = {
 		workload = 907200,
 		name = "斯特凡格运输拦截",
 		base_point = 10,
@@ -9067,8 +9072,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[3208] = {
+	}
+	pg.base.guild_base_event[3208] = {
 		workload = 907200,
 		name = "夸特运输拦截",
 		base_point = 10,
@@ -9134,8 +9139,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[3209] = {
+	}
+	pg.base.guild_base_event[3209] = {
 		workload = 831600,
 		name = "尼尔瓦克港控制权确保",
 		base_point = 10,
@@ -9201,8 +9206,8 @@ pg.base.guild_base_event = {
 			"任务完成，发现了线索，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3210] = {
+	}
+	pg.base.guild_base_event[3210] = {
 		workload = 831600,
 		name = "南索斯港控制权确保",
 		base_point = 10,
@@ -9268,8 +9273,8 @@ pg.base.guild_base_event = {
 			"任务完成，发现了线索，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3211] = {
+	}
+	pg.base.guild_base_event[3211] = {
 		workload = 831600,
 		name = "斯特凡格港控制权确保",
 		base_point = 10,
@@ -9331,8 +9336,8 @@ pg.base.guild_base_event = {
 			"任务完成，发现了线索，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3212] = {
+	}
+	pg.base.guild_base_event[3212] = {
 		workload = 831600,
 		name = "夸特港控制权确保",
 		base_point = 10,
@@ -9394,8 +9399,8 @@ pg.base.guild_base_event = {
 			"任务完成，发现了线索，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3213] = {
+	}
+	pg.base.guild_base_event[3213] = {
 		workload = 1209600,
 		name = "利维浦舰装维修",
 		base_point = 10,
@@ -9458,8 +9463,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3214] = {
+	}
+	pg.base.guild_base_event[3214] = {
 		workload = 1209600,
 		name = "霍尔斯坦港舰装维修",
 		base_point = 10,
@@ -9522,8 +9527,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3215] = {
+	}
+	pg.base.guild_base_event[3215] = {
 		workload = 1058400,
 		name = "利维浦物资整备",
 		base_point = 10,
@@ -9586,8 +9591,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[3216] = {
+	}
+	pg.base.guild_base_event[3216] = {
 		workload = 1058400,
 		name = "霍尔斯坦港物资整备",
 		base_point = 10,
@@ -9650,8 +9655,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4001] = {
+	}
+	pg.base.guild_base_event[4001] = {
 		workload = 756000,
 		name = "北方海域塞壬清理",
 		base_point = 10,
@@ -9721,8 +9726,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[4002] = {
+	}
+	pg.base.guild_base_event[4002] = {
 		workload = 756000,
 		name = "克罗尔海塞壬清理",
 		base_point = 10,
@@ -9792,8 +9797,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[4003] = {
+	}
+	pg.base.guild_base_event[4003] = {
 		workload = 907200,
 		name = "木偶环礁塞壬歼灭",
 		base_point = 10,
@@ -9863,8 +9868,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[4004] = {
+	}
+	pg.base.guild_base_event[4004] = {
 		workload = 907200,
 		name = "因迪萨布海峡控制权确保",
 		base_point = 10,
@@ -9930,8 +9935,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4005] = {
+	}
+	pg.base.guild_base_event[4005] = {
 		workload = 907200,
 		name = "拉维湾控制权确保",
 		base_point = 10,
@@ -9997,8 +10002,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4006] = {
+	}
+	pg.base.guild_base_event[4006] = {
 		workload = 1058400,
 		name = "布伦查海峡阻击战",
 		base_point = 10,
@@ -10069,8 +10074,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[4007] = {
+	}
+	pg.base.guild_base_event[4007] = {
 		workload = 1058400,
 		name = "黑色海峡遭遇战",
 		base_point = 10,
@@ -10141,8 +10146,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[4008] = {
+	}
+	pg.base.guild_base_event[4008] = {
 		workload = 1058400,
 		name = "马恩宁海峡遭遇战",
 		base_point = 10,
@@ -10213,8 +10218,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[4009] = {
+	}
+	pg.base.guild_base_event[4009] = {
 		workload = 907200,
 		name = "北方海域制空权夺取",
 		base_point = 10,
@@ -10284,8 +10289,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4010] = {
+	}
+	pg.base.guild_base_event[4010] = {
 		workload = 907200,
 		name = "南方海域制空权夺取",
 		base_point = 10,
@@ -10355,8 +10360,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4011] = {
+	}
+	pg.base.guild_base_event[4011] = {
 		workload = 907200,
 		name = "达古康纳尔制空权夺取",
 		base_point = 10,
@@ -10426,8 +10431,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4012] = {
+	}
+	pg.base.guild_base_event[4012] = {
 		workload = 831600,
 		name = "北方海域对空护航",
 		base_point = 10,
@@ -10497,8 +10502,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4013] = {
+	}
+	pg.base.guild_base_event[4013] = {
 		workload = 831600,
 		name = "南方海域对空护航",
 		base_point = 10,
@@ -10568,8 +10573,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4014] = {
+	}
+	pg.base.guild_base_event[4014] = {
 		workload = 831600,
 		name = "达古康纳尔对空护航",
 		base_point = 10,
@@ -10639,8 +10644,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4015] = {
+	}
+	pg.base.guild_base_event[4015] = {
 		workload = 756000,
 		name = "塔里古岛航空支援",
 		base_point = 10,
@@ -10710,8 +10715,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4018] = {
+	}
+	pg.base.guild_base_event[4018] = {
 		workload = 756000,
 		name = "塔里古岛战役支援",
 		base_point = 10,
@@ -10777,8 +10782,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4019] = {
+	}
+	pg.base.guild_base_event[4019] = {
 		workload = 756000,
 		name = "塔里古岛制海权夺取",
 		base_point = 10,
@@ -10848,8 +10853,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4020] = {
+	}
+	pg.base.guild_base_event[4020] = {
 		workload = 756000,
 		name = "塔里古岛制空权夺取",
 		base_point = 10,
@@ -10915,8 +10920,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4021] = {
+	}
+	pg.base.guild_base_event[4021] = {
 		workload = 907200,
 		name = "恩德群岛警戒",
 		base_point = 10,
@@ -10986,8 +10991,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4022] = {
+	}
+	pg.base.guild_base_event[4022] = {
 		workload = 907200,
 		name = "圣佩欧卡机场警戒",
 		base_point = 10,
@@ -11053,8 +11058,8 @@ pg.base.guild_base_event = {
 			"任务完成，发现了线索，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4023] = {
+	}
+	pg.base.guild_base_event[4023] = {
 		workload = 756000,
 		name = "瓦里港警戒",
 		base_point = 10,
@@ -11120,8 +11125,8 @@ pg.base.guild_base_event = {
 			"任务完成，发现了线索，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4024] = {
+	}
+	pg.base.guild_base_event[4024] = {
 		workload = 756000,
 		name = "诺埃姆港警戒",
 		base_point = 10,
@@ -11187,8 +11192,8 @@ pg.base.guild_base_event = {
 			"任务完成，发现了线索，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4025] = {
+	}
+	pg.base.guild_base_event[4025] = {
 		workload = 756000,
 		name = "辛普森港警戒",
 		base_point = 10,
@@ -11254,8 +11259,8 @@ pg.base.guild_base_event = {
 			"任务完成，发现了线索，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4026] = {
+	}
+	pg.base.guild_base_event[4026] = {
 		workload = 756000,
 		name = "乌古拉特警戒",
 		base_point = 10,
@@ -11321,8 +11326,8 @@ pg.base.guild_base_event = {
 			"任务完成，发现了线索，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4027] = {
+	}
+	pg.base.guild_base_event[4027] = {
 		workload = 1058400,
 		name = "罗默斯岛水道警戒",
 		base_point = 10,
@@ -11393,8 +11398,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[4028] = {
+	}
+	pg.base.guild_base_event[4028] = {
 		workload = 1058400,
 		name = "巴弗尔水道警戒",
 		base_point = 10,
@@ -11465,8 +11470,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[4101] = {
+	}
+	pg.base.guild_base_event[4101] = {
 		workload = 1058400,
 		name = "佐治亚海峡塞壬清理",
 		base_point = 10,
@@ -11544,8 +11549,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[4102] = {
+	}
+	pg.base.guild_base_event[4102] = {
 		workload = 1209600,
 		name = "恩加瓦南部暗礁塞壬清理",
 		base_point = 10,
@@ -11623,8 +11628,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[4103] = {
+	}
+	pg.base.guild_base_event[4103] = {
 		workload = 1209600,
 		name = "喀特蕾特群岛塞壬歼灭",
 		base_point = 10,
@@ -11702,8 +11707,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[4104] = {
+	}
+	pg.base.guild_base_event[4104] = {
 		workload = 1512000,
 		name = "索瓦岛海战",
 		base_point = 10,
@@ -11782,8 +11787,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[4105] = {
+	}
+	pg.base.guild_base_event[4105] = {
 		workload = 1360800,
 		name = "特努拉河口决战",
 		base_point = 10,
@@ -11862,8 +11867,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[4106] = {
+	}
+	pg.base.guild_base_event[4106] = {
 		workload = 1360800,
 		name = "埃隆勃特姆炮击战",
 		base_point = 10,
@@ -11938,8 +11943,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[4107] = {
+	}
+	pg.base.guild_base_event[4107] = {
 		workload = 1360800,
 		name = "萨塔弗隆加遭遇战",
 		base_point = 10,
@@ -12018,8 +12023,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[4108] = {
+	}
+	pg.base.guild_base_event[4108] = {
 		workload = 1058400,
 		name = "埃隆勃特姆夜战",
 		base_point = 10,
@@ -12093,8 +12098,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[4109] = {
+	}
+	pg.base.guild_base_event[4109] = {
 		workload = 1058400,
 		name = "拉克湾夜战",
 		base_point = 10,
@@ -12168,8 +12173,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[4110] = {
+	}
+	pg.base.guild_base_event[4110] = {
 		workload = 1058400,
 		name = "萨塔弗隆加夜战",
 		base_point = 10,
@@ -12247,8 +12252,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[4111] = {
+	}
+	pg.base.guild_base_event[4111] = {
 		workload = 1209600,
 		name = "特努拉河口制空权夺取",
 		base_point = 10,
@@ -12322,8 +12327,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4112] = {
+	}
+	pg.base.guild_base_event[4112] = {
 		workload = 1209600,
 		name = "星雨岛制空权夺取",
 		base_point = 10,
@@ -12401,8 +12406,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4113] = {
+	}
+	pg.base.guild_base_event[4113] = {
 		workload = 1209600,
 		name = "因迪萨布海峡制空权夺取",
 		base_point = 10,
@@ -12476,8 +12481,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4114] = {
+	}
+	pg.base.guild_base_event[4114] = {
 		workload = 1209600,
 		name = "恩德群岛制空权夺取",
 		base_point = 10,
@@ -12551,8 +12556,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4115] = {
+	}
+	pg.base.guild_base_event[4115] = {
 		workload = 1058400,
 		name = "恩加瓦岛对空护航",
 		base_point = 10,
@@ -12630,8 +12635,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4116] = {
+	}
+	pg.base.guild_base_event[4116] = {
 		workload = 1058400,
 		name = "加隆角航空支援",
 		base_point = 10,
@@ -12709,8 +12714,8 @@ pg.base.guild_base_event = {
 			"任务完成，发现了线索，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4117] = {
+	}
+	pg.base.guild_base_event[4117] = {
 		workload = 1058400,
 		name = "古斯塔奥湾海战",
 		base_point = 10,
@@ -12788,8 +12793,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[4118] = {
+	}
+	pg.base.guild_base_event[4118] = {
 		workload = 1058400,
 		name = "加拉班科海战",
 		base_point = 10,
@@ -12863,8 +12868,8 @@ pg.base.guild_base_event = {
 			"作战成功，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[4120] = {
+	}
+	pg.base.guild_base_event[4120] = {
 		workload = 907200,
 		name = "加隆角战役支援",
 		base_point = 10,
@@ -12941,8 +12946,8 @@ pg.base.guild_base_event = {
 			"任务完成，发现了线索，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4121] = {
+	}
+	pg.base.guild_base_event[4121] = {
 		workload = 907200,
 		name = "加隆角制海权夺取",
 		base_point = 10,
@@ -13019,8 +13024,8 @@ pg.base.guild_base_event = {
 			"任务完成，发现了线索，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4122] = {
+	}
+	pg.base.guild_base_event[4122] = {
 		workload = 907200,
 		name = "加隆角制空权夺取",
 		base_point = 10,
@@ -13089,8 +13094,8 @@ pg.base.guild_base_event = {
 			"任务完成，发现了线索，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4123] = {
+	}
+	pg.base.guild_base_event[4123] = {
 		workload = 1512000,
 		name = "佐治亚海峡警戒",
 		base_point = 10,
@@ -13169,8 +13174,8 @@ pg.base.guild_base_event = {
 			"调查成功，发现了线索，获得如下奖励",
 			"调查失败，获得如下奖励"
 		}
-	},
-	[4201] = {
+	}
+	pg.base.guild_base_event[4201] = {
 		workload = 1058400,
 		name = "威尔森海峡控制权确保",
 		base_point = 10,
@@ -13241,8 +13246,8 @@ pg.base.guild_base_event = {
 			"作战成功，发现了线索，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[4202] = {
+	}
+	pg.base.guild_base_event[4202] = {
 		workload = 907200,
 		name = "哈留那湾伏击战",
 		base_point = 10,
@@ -13312,8 +13317,8 @@ pg.base.guild_base_event = {
 			"作战成功，发现了线索，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[4203] = {
+	}
+	pg.base.guild_base_event[4203] = {
 		workload = 907200,
 		name = "露缇湾伏击战",
 		base_point = 10,
@@ -13379,8 +13384,8 @@ pg.base.guild_base_event = {
 			"作战成功，发现了线索，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[4204] = {
+	}
+	pg.base.guild_base_event[4204] = {
 		workload = 680400,
 		name = "马罗乌湾塞壬歼灭",
 		base_point = 10,
@@ -13445,8 +13450,8 @@ pg.base.guild_base_event = {
 			"作战成功，发现了线索，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[4205] = {
+	}
+	pg.base.guild_base_event[4205] = {
 		workload = 680400,
 		name = "怀拉哈湾塞壬歼灭",
 		base_point = 10,
@@ -13515,8 +13520,8 @@ pg.base.guild_base_event = {
 			"作战成功，发现了线索，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[4206] = {
+	}
+	pg.base.guild_base_event[4206] = {
 		workload = 680400,
 		name = "苏皮内湾塞壬歼灭",
 		base_point = 10,
@@ -13585,8 +13590,8 @@ pg.base.guild_base_event = {
 			"作战成功，发现了线索，获得如下奖励",
 			"作战基本成功，获得如下奖励"
 		}
-	},
-	[4207] = {
+	}
+	pg.base.guild_base_event[4207] = {
 		workload = 604800,
 		name = "近海制空权夺取",
 		base_point = 10,
@@ -13651,8 +13656,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4208] = {
+	}
+	pg.base.guild_base_event[4208] = {
 		workload = 604800,
 		name = "近海制空权夺取",
 		base_point = 10,
@@ -13717,8 +13722,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4209] = {
+	}
+	pg.base.guild_base_event[4209] = {
 		workload = 604800,
 		name = "近海对空护航",
 		base_point = 10,
@@ -13783,8 +13788,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4210] = {
+	}
+	pg.base.guild_base_event[4210] = {
 		workload = 604800,
 		name = "近海对空护航",
 		base_point = 10,
@@ -13849,8 +13854,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4211] = {
+	}
+	pg.base.guild_base_event[4211] = {
 		workload = 756000,
 		name = "圣佩欧卡机场补给运输",
 		base_point = 10,
@@ -13912,8 +13917,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4212] = {
+	}
+	pg.base.guild_base_event[4212] = {
 		workload = 756000,
 		name = "辛普森港补给运输",
 		base_point = 10,
@@ -13975,8 +13980,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4213] = {
+	}
+	pg.base.guild_base_event[4213] = {
 		workload = 1209600,
 		name = "诺埃姆港后勤整备",
 		base_point = 10,
@@ -14039,8 +14044,8 @@ pg.base.guild_base_event = {
 			"任务完成，获得如下奖励",
 			"任务基本完成，获得如下奖励"
 		}
-	},
-	[4214] = {
+	}
+	pg.base.guild_base_event[4214] = {
 		workload = 1209600,
 		name = "辛普森港后勤整备",
 		base_point = 10,
@@ -14104,4 +14109,4 @@ pg.base.guild_base_event = {
 			"任务基本完成，获得如下奖励"
 		}
 	}
-}
+end)()

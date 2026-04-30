@@ -157,9 +157,11 @@ function var_0_0.SetBossRushNode(arg_13_0, arg_13_1, arg_13_2)
 end
 
 function var_0_0.GetActivitySingleEventOption(arg_14_0, arg_14_1)
-	for iter_14_0, iter_14_1 in pairs(pg.activity_single_event) do
-		if iter_14_1.story == arg_14_1:getConfig("story") then
-			return iter_14_1.options
+	for iter_14_0, iter_14_1 in ipairs(pg.activity_single_event.all) do
+		local var_14_0 = pg.activity_single_event[iter_14_1]
+
+		if var_14_0.story == arg_14_1:getConfig("story") then
+			return var_14_0.options
 		end
 	end
 end

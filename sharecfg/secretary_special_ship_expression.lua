@@ -1,6 +1,55 @@
 pg = pg or {}
-pg.secretary_special_ship_expression = {
-	[1000] = {
+pg.secretary_special_ship_expression = rawget(pg, "secretary_special_ship_expression") or setmetatable({
+	__name = "secretary_special_ship_expression"
+}, confNEO)
+pg.secretary_special_ship_expression.all = {
+	1000,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1100,
+	1101,
+	1200,
+	1201,
+	1300,
+	1301,
+	1310,
+	2000,
+	2001,
+	2002,
+	2003,
+	2100,
+	2101,
+	2102,
+	2200,
+	2201,
+	2202,
+	2300,
+	3000,
+	3001,
+	3002,
+	3003,
+	3100,
+	3101,
+	3102,
+	3200,
+	3201,
+	3202,
+	3300
+}
+pg.base = pg.base or {}
+pg.base.secretary_special_ship_expression = {}
+
+;(function()
+	pg.base.secretary_special_ship_expression[1000] = {
 		chime_11 = "",
 		mail = "2",
 		shengdan = "",
@@ -42,8 +91,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = ""
-	},
-	[1001] = {
+	}
+	pg.base.secretary_special_ship_expression[1001] = {
 		chime_11 = "",
 		mail = "",
 		shengdan = "9",
@@ -85,8 +134,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = ""
-	},
-	[1002] = {
+	}
+	pg.base.secretary_special_ship_expression[1002] = {
 		chime_11 = "",
 		mail = "",
 		shengdan = "9",
@@ -128,8 +177,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = ""
-	},
-	[1003] = {
+	}
+	pg.base.secretary_special_ship_expression[1003] = {
 		chime_11 = "",
 		mail = "",
 		shengdan = "9",
@@ -171,8 +220,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = ""
-	},
-	[1004] = {
+	}
+	pg.base.secretary_special_ship_expression[1004] = {
 		chime_11 = "",
 		mail = "",
 		shengdan = "9",
@@ -214,8 +263,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = ""
-	},
-	[1005] = {
+	}
+	pg.base.secretary_special_ship_expression[1005] = {
 		chime_11 = "",
 		mail = "",
 		shengdan = "9",
@@ -257,8 +306,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = ""
-	},
-	[1006] = {
+	}
+	pg.base.secretary_special_ship_expression[1006] = {
 		chime_11 = "",
 		mail = "",
 		shengdan = "9",
@@ -300,8 +349,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = ""
-	},
-	[1007] = {
+	}
+	pg.base.secretary_special_ship_expression[1007] = {
 		chime_11 = "",
 		mail = "",
 		shengdan = "",
@@ -343,8 +392,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = ""
-	},
-	[1008] = {
+	}
+	pg.base.secretary_special_ship_expression[1008] = {
 		chime_11 = "",
 		mail = "",
 		shengdan = "",
@@ -386,8 +435,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = ""
-	},
-	[1009] = {
+	}
+	pg.base.secretary_special_ship_expression[1009] = {
 		chime_11 = "",
 		mail = "",
 		shengdan = "",
@@ -429,8 +478,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = ""
-	},
-	[1010] = {
+	}
+	pg.base.secretary_special_ship_expression[1010] = {
 		chime_11 = "",
 		mail = "",
 		shengdan = "",
@@ -472,8 +521,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = ""
-	},
-	[1011] = {
+	}
+	pg.base.secretary_special_ship_expression[1011] = {
 		chime_11 = "",
 		mail = "",
 		shengdan = "",
@@ -515,8 +564,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = ""
-	},
-	[1100] = {
+	}
+	pg.base.secretary_special_ship_expression[1100] = {
 		chime_11 = "",
 		mail = "",
 		shengdan = "9",
@@ -558,8 +607,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = "11"
-	},
-	[1101] = {
+	}
+	pg.base.secretary_special_ship_expression[1101] = {
 		chime_11 = "",
 		mail = "",
 		shengdan = "9",
@@ -601,8 +650,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = "11"
-	},
-	[1200] = {
+	}
+	pg.base.secretary_special_ship_expression[1200] = {
 		chime_11 = "",
 		mail = "8",
 		shengdan = "10",
@@ -644,8 +693,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = "8"
-	},
-	[1201] = {
+	}
+	pg.base.secretary_special_ship_expression[1201] = {
 		chime_11 = "",
 		mail = "8",
 		shengdan = "10",
@@ -687,8 +736,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = "8"
-	},
-	[1300] = {
+	}
+	pg.base.secretary_special_ship_expression[1300] = {
 		chime_11 = "",
 		mail = "",
 		shengdan = "9",
@@ -730,8 +779,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = "9"
-	},
-	[1301] = {
+	}
+	pg.base.secretary_special_ship_expression[1301] = {
 		chime_11 = "",
 		mail = "",
 		shengdan = "9",
@@ -773,8 +822,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = "9"
-	},
-	[1310] = {
+	}
+	pg.base.secretary_special_ship_expression[1310] = {
 		chime_11 = "",
 		mail = "6",
 		shengdan = "3",
@@ -816,8 +865,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = "6"
-	},
-	[2000] = {
+	}
+	pg.base.secretary_special_ship_expression[2000] = {
 		chime_11 = "7",
 		mail = "7",
 		shengdan = "2",
@@ -859,8 +908,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "6",
 		chime_20 = "7",
 		login = "7"
-	},
-	[2001] = {
+	}
+	pg.base.secretary_special_ship_expression[2001] = {
 		chime_11 = "7",
 		mail = "7",
 		shengdan = "2",
@@ -902,8 +951,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "7",
 		chime_20 = "7",
 		login = "7"
-	},
-	[2002] = {
+	}
+	pg.base.secretary_special_ship_expression[2002] = {
 		chime_11 = "7",
 		mail = "7",
 		shengdan = "2",
@@ -945,8 +994,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "7",
 		chime_20 = "7",
 		login = "7"
-	},
-	[2003] = {
+	}
+	pg.base.secretary_special_ship_expression[2003] = {
 		chime_11 = "7",
 		mail = "7",
 		shengdan = "2",
@@ -988,8 +1037,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "7",
 		chime_20 = "7",
 		login = "7"
-	},
-	[2100] = {
+	}
+	pg.base.secretary_special_ship_expression[2100] = {
 		chime_11 = "",
 		mail = "",
 		shengdan = "8",
@@ -1031,8 +1080,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = "6"
-	},
-	[2101] = {
+	}
+	pg.base.secretary_special_ship_expression[2101] = {
 		chime_11 = "",
 		mail = "",
 		shengdan = "8",
@@ -1074,8 +1123,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = "6"
-	},
-	[2102] = {
+	}
+	pg.base.secretary_special_ship_expression[2102] = {
 		chime_11 = "",
 		mail = "",
 		shengdan = "8",
@@ -1117,8 +1166,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = "6"
-	},
-	[2200] = {
+	}
+	pg.base.secretary_special_ship_expression[2200] = {
 		chime_11 = "",
 		mail = "7",
 		shengdan = "8",
@@ -1160,8 +1209,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = "7"
-	},
-	[2201] = {
+	}
+	pg.base.secretary_special_ship_expression[2201] = {
 		chime_11 = "",
 		mail = "7",
 		shengdan = "8",
@@ -1203,8 +1252,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = "7"
-	},
-	[2202] = {
+	}
+	pg.base.secretary_special_ship_expression[2202] = {
 		chime_11 = "",
 		mail = "7",
 		shengdan = "8",
@@ -1246,8 +1295,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = "7"
-	},
-	[2300] = {
+	}
+	pg.base.secretary_special_ship_expression[2300] = {
 		chime_11 = "",
 		mail = "2",
 		shengdan = "1",
@@ -1289,8 +1338,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = "1"
-	},
-	[3000] = {
+	}
+	pg.base.secretary_special_ship_expression[3000] = {
 		chime_11 = "2",
 		mail = "2",
 		shengdan = "17",
@@ -1332,8 +1381,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "5",
 		chime_20 = "11",
 		login = "1"
-	},
-	[3001] = {
+	}
+	pg.base.secretary_special_ship_expression[3001] = {
 		chime_11 = "2",
 		mail = "2",
 		shengdan = "12",
@@ -1375,8 +1424,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "5",
 		chime_20 = "11",
 		login = "1"
-	},
-	[3002] = {
+	}
+	pg.base.secretary_special_ship_expression[3002] = {
 		chime_11 = "2",
 		mail = "2",
 		shengdan = "12",
@@ -1418,8 +1467,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "5",
 		chime_20 = "11",
 		login = "1"
-	},
-	[3003] = {
+	}
+	pg.base.secretary_special_ship_expression[3003] = {
 		chime_11 = "2",
 		mail = "7",
 		shengdan = "2",
@@ -1461,8 +1510,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "7",
 		chime_20 = "1",
 		login = "1"
-	},
-	[3100] = {
+	}
+	pg.base.secretary_special_ship_expression[3100] = {
 		chime_11 = "",
 		mail = "6",
 		shengdan = "5",
@@ -1504,8 +1553,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = "5"
-	},
-	[3101] = {
+	}
+	pg.base.secretary_special_ship_expression[3101] = {
 		chime_11 = "",
 		mail = "6",
 		shengdan = "5",
@@ -1547,8 +1596,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = "5"
-	},
-	[3102] = {
+	}
+	pg.base.secretary_special_ship_expression[3102] = {
 		chime_11 = "",
 		mail = "6",
 		shengdan = "5",
@@ -1590,8 +1639,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = "5"
-	},
-	[3200] = {
+	}
+	pg.base.secretary_special_ship_expression[3200] = {
 		chime_11 = "",
 		mail = "10",
 		shengdan = "6",
@@ -1633,8 +1682,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = "2"
-	},
-	[3201] = {
+	}
+	pg.base.secretary_special_ship_expression[3201] = {
 		chime_11 = "",
 		mail = "10",
 		shengdan = "6",
@@ -1676,8 +1725,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = "2"
-	},
-	[3202] = {
+	}
+	pg.base.secretary_special_ship_expression[3202] = {
 		chime_11 = "",
 		mail = "10",
 		shengdan = "6",
@@ -1719,8 +1768,8 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = "2"
-	},
-	[3300] = {
+	}
+	pg.base.secretary_special_ship_expression[3300] = {
 		chime_11 = "",
 		mail = "8",
 		shengdan = "1",
@@ -1762,48 +1811,5 @@ pg.secretary_special_ship_expression = {
 		chime_0 = "",
 		chime_20 = "",
 		login = "6"
-	},
-	all = {
-		1000,
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		1010,
-		1011,
-		1100,
-		1101,
-		1200,
-		1201,
-		1300,
-		1301,
-		1310,
-		2000,
-		2001,
-		2002,
-		2003,
-		2100,
-		2101,
-		2102,
-		2200,
-		2201,
-		2202,
-		2300,
-		3000,
-		3001,
-		3002,
-		3003,
-		3100,
-		3101,
-		3102,
-		3200,
-		3201,
-		3202,
-		3300
 	}
-}
+end)()

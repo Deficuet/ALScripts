@@ -68,13 +68,15 @@ function var_0_0.ConcludeEXP(arg_5_0, arg_5_1, arg_5_2)
 	local var_5_2
 
 	if var_5_0 == SYSTEM_BOSS_RUSH_COLLABRATE then
-		for iter_5_0, iter_5_1 in pairs(pg.extraenemy_series_template) do
-			if table.contains(iter_5_1.activity_series_enemy_id, var_5_1) then
+		for iter_5_0, iter_5_1 in ipairs(pg.extraenemy_series_template) do
+			local var_5_3 = pg.extraenemy_series_template[iter_5_1]
+
+			if table.contains(var_5_3.activity_series_enemy_id, var_5_1) then
 				var_5_2 = CollabrateBossRushSeriesData.New({
-					id = iter_5_0,
+					id = iter_5_1,
 					actId = arg_5_1.id
 				})
-				var_5_1 = iter_5_0
+				var_5_1 = iter_5_1
 
 				break
 			end
@@ -85,41 +87,41 @@ function var_0_0.ConcludeEXP(arg_5_0, arg_5_1, arg_5_2)
 		})
 	end
 
-	local var_5_3 = {
+	local var_5_4 = {
 		seriesId = var_5_1
 	}
-	local var_5_4 = true
-	local var_5_5 = arg_5_2 and arg_5_2[#arg_5_0.re40004]
+	local var_5_5 = true
+	local var_5_6 = arg_5_2 and arg_5_2[#arg_5_0.re40004]
 
-	if var_5_5 then
-		var_5_4 = var_5_5.statistics._battleScore > ys.Battle.BattleConst.BattleScore.C
+	if var_5_6 then
+		var_5_5 = var_5_6.statistics._battleScore > ys.Battle.BattleConst.BattleScore.C
 	end
 
-	var_5_3.win = var_5_4
+	var_5_4.win = var_5_5
 
 	for iter_5_2, iter_5_3 in ipairs(arg_5_0.re40004) do
-		var_5_3[iter_5_2] = {}
+		var_5_4[iter_5_2] = {}
 
-		local var_5_6, var_5_7 = var_0_0.addShipsExp(iter_5_3.ship_exp_list, var_5_0 == SYSTEM_BOSS_RUSH or var_5_0 == SYSTEM_BOSS_RUSH_COLLABRATE)
+		local var_5_7, var_5_8 = var_0_0.addShipsExp(iter_5_3.ship_exp_list, var_5_0 == SYSTEM_BOSS_RUSH or var_5_0 == SYSTEM_BOSS_RUSH_COLLABRATE)
 
-		var_5_3[iter_5_2].oldShips = var_5_6
-		var_5_3[iter_5_2].newShips = var_5_7
+		var_5_4[iter_5_2].oldShips = var_5_7
+		var_5_4[iter_5_2].newShips = var_5_8
 
-		local var_5_8, var_5_9 = var_0_0.GenerateCommanderExp(iter_5_3.commander_exp)
+		local var_5_9, var_5_10 = var_0_0.GenerateCommanderExp(iter_5_3.commander_exp)
 
-		var_5_3[iter_5_2].oldCmds = var_5_8
-		var_5_3[iter_5_2].newCmds = var_5_9
-		var_5_3[iter_5_2].mvp = iter_5_3.mvp
+		var_5_4[iter_5_2].oldCmds = var_5_9
+		var_5_4[iter_5_2].newCmds = var_5_10
+		var_5_4[iter_5_2].mvp = iter_5_3.mvp
 
-		local var_5_10, var_5_11 = var_0_0.GeneralLoot(iter_5_3)
+		local var_5_11, var_5_12 = var_0_0.GeneralLoot(iter_5_3)
 
-		var_5_3[iter_5_2].drops = var_5_10
-		var_5_3[iter_5_2].extraDrops = var_5_11
+		var_5_4[iter_5_2].drops = var_5_11
+		var_5_4[iter_5_2].extraDrops = var_5_12
 
-		local var_5_12 = 0
+		local var_5_13 = 0
 
 		if pg.battle_cost_template[var_5_0].oil_cost > 0 then
-			local var_5_13 = {
+			local var_5_14 = {
 				{
 					0,
 					0
@@ -130,35 +132,35 @@ function var_0_0.ConcludeEXP(arg_5_0, arg_5_1, arg_5_2)
 				}
 			}
 
-			table.Foreach(var_5_6, function(arg_6_0, arg_6_1)
+			table.Foreach(var_5_7, function(arg_6_0, arg_6_1)
 				local var_6_0 = arg_6_1:getStartBattleExpend()
 				local var_6_1 = arg_6_1:getEndBattleExpend()
 				local var_6_2 = arg_6_1:getTeamType() == TeamType.Submarine and 2 or 1
 
-				var_5_13[var_6_2][1] = var_5_13[var_6_2][1] + var_6_0
-				var_5_13[var_6_2][2] = var_5_13[var_6_2][2] + var_6_1
+				var_5_14[var_6_2][1] = var_5_14[var_6_2][1] + var_6_0
+				var_5_14[var_6_2][2] = var_5_14[var_6_2][2] + var_6_1
 			end)
 
-			local var_5_14 = var_5_2:GetOilLimit()
-			local var_5_15 = var_5_13[1][2]
+			local var_5_15 = var_5_2:GetOilLimit()
+			local var_5_16 = var_5_14[1][2]
 
-			if var_5_14[1] > 0 then
-				var_5_15 = math.clamp(var_5_14[1] - var_5_13[1][1], 0, var_5_13[1][2])
+			if var_5_15[1] > 0 then
+				var_5_16 = math.clamp(var_5_15[1] - var_5_14[1][1], 0, var_5_14[1][2])
 			end
 
-			local var_5_16 = var_5_13[2][2]
+			local var_5_17 = var_5_14[2][2]
 
-			if var_5_14[1] > 0 then
-				var_5_16 = math.clamp(var_5_14[2] - var_5_13[2][1], 0, var_5_13[2][2])
+			if var_5_15[1] > 0 then
+				var_5_17 = math.clamp(var_5_15[2] - var_5_14[2][1], 0, var_5_14[2][2])
 			end
 
-			var_5_12 = var_5_15 + var_5_16
+			var_5_13 = var_5_16 + var_5_17
 		end
 
-		var_5_3[iter_5_2].playerExp = var_0_0.GeneralPlayerCosume(var_5_0, var_5_4, var_5_12, iter_5_3.player_exp)
+		var_5_4[iter_5_2].playerExp = var_0_0.GeneralPlayerCosume(var_5_0, var_5_5, var_5_13, iter_5_3.player_exp)
 	end
 
-	return var_5_3
+	return var_5_4
 end
 
 function var_0_0.addShipsExp(arg_7_0, arg_7_1)

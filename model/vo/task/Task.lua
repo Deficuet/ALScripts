@@ -505,4 +505,53 @@ function var_0_0.getGiveDrops(arg_57_0)
 	return var_57_0
 end
 
+function var_0_0.OwnSpAward(arg_58_0)
+	local function var_58_0(arg_59_0)
+		return getProxy(DormProxy):getData():GetOwnFurnitureCount(arg_59_0) > 0
+	end
+
+	local function var_58_1(arg_60_0)
+		local var_60_0 = getProxy(CollectionProxy):GetTrophyById(arg_60_0)
+
+		return var_60_0 and (var_60_0:canClaimed() or var_60_0:isClaimed())
+	end
+
+	local function var_58_2(arg_61_0)
+		local var_61_0 = getProxy(PlayerProxy):getRawData():getActivityMedalGroup()
+
+		for iter_61_0, iter_61_1 in pairs(var_61_0) do
+			if iter_61_1:OwnMedel(arg_61_0) then
+				return true
+			end
+		end
+
+		return false
+	end
+
+	local var_58_3 = {
+		type = arg_58_0[1],
+		id = arg_58_0[2],
+		count = arg_58_0[3]
+	}
+
+	if var_58_3.type == DROP_TYPE_FURNITURE then
+		return var_58_0(var_58_3.id)
+	elseif var_58_3.type == DROP_TYPE_VITEM then
+		local var_58_4 = pg.item_virtual_data_statistics[var_58_3.id].album_config
+
+		if type(var_58_4) == "table" then
+			local var_58_5 = var_58_4[1]
+			local var_58_6 = var_58_4[2]
+
+			if var_58_5 == 1 then
+				return var_58_1(var_58_6)
+			elseif var_58_5 == 2 then
+				return var_58_2(var_58_6)
+			end
+		end
+	end
+
+	return false
+end
+
 return var_0_0

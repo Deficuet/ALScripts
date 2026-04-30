@@ -2240,18 +2240,20 @@ end
 function var_0_1.GetCVListForProfile(arg_7_0, arg_7_1)
 	local var_7_0 = {}
 
-	for iter_7_0, iter_7_1 in pairs(var_0_0.character_voice) do
-		if not var_0_0.AssistantInfo.isDisableSpecialClick(iter_7_0) and iter_7_1.unlock_condition[1] >= 0 and iter_7_1.l2d_action ~= "" then
-			if iter_7_1.l2d_action == "get" then
+	for iter_7_0, iter_7_1 in ipairs(var_0_0.character_voice.all) do
+		local var_7_1 = var_0_0.character_voice[iter_7_1]
+
+		if not var_0_0.AssistantInfo.isDisableSpecialClick(iter_7_1) and var_7_1.unlock_condition[1] >= 0 and var_7_1.l2d_action ~= "" then
+			if var_7_1.l2d_action == "get" then
 				if PaintingShowScene.GetSkinShowAble(arg_7_1) then
-					table.insert(var_7_0, iter_7_1)
+					table.insert(var_7_0, var_7_1)
 				end
-			elseif iter_7_1.sp_trans_l2d == 1 then
+			elseif var_7_1.sp_trans_l2d == 1 then
 				if arg_7_0 then
-					table.insert(var_7_0, iter_7_1)
+					table.insert(var_7_0, var_7_1)
 				end
-			elseif iter_7_1.sp_trans_l2d == 0 or not iter_7_1.sp_trans_l2d then
-				table.insert(var_7_0, iter_7_1)
+			elseif var_7_1.sp_trans_l2d == 0 or not var_7_1.sp_trans_l2d then
+				table.insert(var_7_0, var_7_1)
 			end
 		end
 	end

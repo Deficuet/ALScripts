@@ -1,6 +1,54 @@
 pg = pg or {}
-pg.dorm3d_accompany = {
-	{
+pg.dorm3d_accompany = rawget(pg, "dorm3d_accompany") or setmetatable({
+	__name = "dorm3d_accompany"
+}, confNEO)
+pg.dorm3d_accompany.all = {
+	1,
+	2,
+	3,
+	21,
+	22,
+	31,
+	32,
+	111,
+	112,
+	121,
+	122,
+	141,
+	142
+}
+pg.dorm3d_accompany.get_id_list_by_ship_id = {
+	[10517] = {
+		111,
+		112
+	},
+	[19903] = {
+		31,
+		32
+	},
+	[20220] = {
+		1,
+		2,
+		3
+	},
+	[30221] = {
+		21,
+		22
+	},
+	[30707] = {
+		121,
+		122
+	},
+	[49905] = {
+		141,
+		142
+	}
+}
+pg.base = pg.base or {}
+pg.base.dorm3d_accompany = {}
+
+;(function()
+	pg.base.dorm3d_accompany[1] = {
 		ship_id = 20220,
 		name = "日常相伴",
 		resource_room = 1,
@@ -19,8 +67,8 @@ pg.dorm3d_accompany = {
 		},
 		jump_trigger = {},
 		unlock = {}
-	},
-	{
+	}
+	pg.base.dorm3d_accompany[2] = {
 		ship_id = 20220,
 		name = "休闲相伴",
 		resource_room = 4,
@@ -43,8 +91,8 @@ pg.dorm3d_accompany = {
 			4,
 			20220
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_accompany[3] = {
 		ship_id = 20220,
 		name = "休闲相伴",
 		resource_room = 16,
@@ -67,8 +115,8 @@ pg.dorm3d_accompany = {
 			16,
 			20220
 		}
-	},
-	[21] = {
+	}
+	pg.base.dorm3d_accompany[21] = {
 		ship_id = 30221,
 		name = "日常相伴",
 		resource_room = 2,
@@ -87,8 +135,8 @@ pg.dorm3d_accompany = {
 		},
 		jump_trigger = {},
 		unlock = {}
-	},
-	[22] = {
+	}
+	pg.base.dorm3d_accompany[22] = {
 		ship_id = 30221,
 		name = "休闲相伴",
 		resource_room = 4,
@@ -111,8 +159,8 @@ pg.dorm3d_accompany = {
 			4,
 			30221
 		}
-	},
-	[31] = {
+	}
+	pg.base.dorm3d_accompany[31] = {
 		ship_id = 19903,
 		name = "日常相伴",
 		resource_room = 3,
@@ -131,8 +179,8 @@ pg.dorm3d_accompany = {
 		},
 		jump_trigger = {},
 		unlock = {}
-	},
-	[32] = {
+	}
+	pg.base.dorm3d_accompany[32] = {
 		ship_id = 19903,
 		name = "休闲相伴",
 		resource_room = 4,
@@ -155,8 +203,8 @@ pg.dorm3d_accompany = {
 			4,
 			19903
 		}
-	},
-	[111] = {
+	}
+	pg.base.dorm3d_accompany[111] = {
 		ship_id = 10517,
 		name = "日常相伴",
 		resource_room = 11,
@@ -175,8 +223,8 @@ pg.dorm3d_accompany = {
 		},
 		jump_trigger = {},
 		unlock = {}
-	},
-	[112] = {
+	}
+	pg.base.dorm3d_accompany[112] = {
 		ship_id = 10517,
 		name = "休闲相伴",
 		resource_room = 16,
@@ -199,8 +247,8 @@ pg.dorm3d_accompany = {
 			16,
 			10517
 		}
-	},
-	[121] = {
+	}
+	pg.base.dorm3d_accompany[121] = {
 		ship_id = 30707,
 		name = "日常相伴",
 		resource_room = 12,
@@ -219,8 +267,8 @@ pg.dorm3d_accompany = {
 		},
 		jump_trigger = {},
 		unlock = {}
-	},
-	[122] = {
+	}
+	pg.base.dorm3d_accompany[122] = {
 		ship_id = 30707,
 		name = "休闲相伴",
 		resource_room = 16,
@@ -243,8 +291,8 @@ pg.dorm3d_accompany = {
 			16,
 			30707
 		}
-	},
-	[141] = {
+	}
+	pg.base.dorm3d_accompany[141] = {
 		ship_id = 49905,
 		name = "日常相伴",
 		resource_room = 14,
@@ -263,8 +311,8 @@ pg.dorm3d_accompany = {
 		},
 		jump_trigger = {},
 		unlock = {}
-	},
-	[142] = {
+	}
+	pg.base.dorm3d_accompany[142] = {
 		ship_id = 49905,
 		name = "休闲相伴",
 		resource_room = 16,
@@ -287,47 +335,5 @@ pg.dorm3d_accompany = {
 			16,
 			49905
 		}
-	},
-	get_id_list_by_ship_id = {
-		[20220] = {
-			1,
-			2,
-			3
-		},
-		[30221] = {
-			21,
-			22
-		},
-		[19903] = {
-			31,
-			32
-		},
-		[10517] = {
-			111,
-			112
-		},
-		[30707] = {
-			121,
-			122
-		},
-		[49905] = {
-			141,
-			142
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		21,
-		22,
-		31,
-		32,
-		111,
-		112,
-		121,
-		122,
-		141,
-		142
 	}
-}
+end)()

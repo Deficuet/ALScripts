@@ -1,6 +1,139 @@
 pg = pg or {}
-pg.ship_level = {
-	{
+pg.ship_level = rawget(pg, "ship_level") or setmetatable({
+	__name = "ship_level"
+}, confNEO)
+pg.ship_level.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	67,
+	68,
+	69,
+	70,
+	71,
+	72,
+	73,
+	74,
+	75,
+	76,
+	77,
+	78,
+	79,
+	80,
+	81,
+	82,
+	83,
+	84,
+	85,
+	86,
+	87,
+	88,
+	89,
+	90,
+	91,
+	92,
+	93,
+	94,
+	95,
+	96,
+	97,
+	98,
+	99,
+	100,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	113,
+	114,
+	115,
+	116,
+	117,
+	118,
+	119,
+	120,
+	121,
+	122,
+	123,
+	124,
+	125
+}
+pg.base = pg.base or {}
+pg.base.ship_level = {}
+
+;(function()
+	pg.base.ship_level[1] = {
 		exp_ur = 120,
 		level_limit = 0,
 		arena_durability_ratio = 0.912,
@@ -14,8 +147,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[2] = {
 		exp_ur = 240,
 		level_limit = 0,
 		arena_durability_ratio = 0.924,
@@ -29,8 +162,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[3] = {
 		exp_ur = 360,
 		level_limit = 0,
 		arena_durability_ratio = 0.936,
@@ -44,8 +177,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[4] = {
 		exp_ur = 480,
 		level_limit = 0,
 		arena_durability_ratio = 0.948,
@@ -59,8 +192,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[5] = {
 		exp_ur = 600,
 		level_limit = 0,
 		arena_durability_ratio = 0.96,
@@ -74,8 +207,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[6] = {
 		exp_ur = 720,
 		level_limit = 0,
 		arena_durability_ratio = 0.972,
@@ -89,8 +222,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[7] = {
 		exp_ur = 840,
 		level_limit = 0,
 		arena_durability_ratio = 0.984,
@@ -104,8 +237,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[8] = {
 		exp_ur = 960,
 		level_limit = 0,
 		arena_durability_ratio = 0.996,
@@ -119,8 +252,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[9] = {
 		exp_ur = 1080,
 		level_limit = 0,
 		arena_durability_ratio = 1.008,
@@ -134,8 +267,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[10] = {
 		exp_ur = 1200,
 		level_limit = 0,
 		arena_durability_ratio = 1.02,
@@ -149,8 +282,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[11] = {
 		exp_ur = 1320,
 		level_limit = 0,
 		arena_durability_ratio = 1.032,
@@ -164,8 +297,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[12] = {
 		exp_ur = 1440,
 		level_limit = 0,
 		arena_durability_ratio = 1.044,
@@ -179,8 +312,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[13] = {
 		exp_ur = 1560,
 		level_limit = 0,
 		arena_durability_ratio = 1.056,
@@ -194,8 +327,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[14] = {
 		exp_ur = 1680,
 		level_limit = 0,
 		arena_durability_ratio = 1.068,
@@ -209,8 +342,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[15] = {
 		exp_ur = 1800,
 		level_limit = 0,
 		arena_durability_ratio = 1.08,
@@ -224,8 +357,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[16] = {
 		exp_ur = 1920,
 		level_limit = 0,
 		arena_durability_ratio = 1.092,
@@ -239,8 +372,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[17] = {
 		exp_ur = 2040,
 		level_limit = 0,
 		arena_durability_ratio = 1.104,
@@ -254,8 +387,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[18] = {
 		exp_ur = 2160,
 		level_limit = 0,
 		arena_durability_ratio = 1.116,
@@ -269,8 +402,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[19] = {
 		exp_ur = 2280,
 		level_limit = 0,
 		arena_durability_ratio = 1.128,
@@ -284,8 +417,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[20] = {
 		exp_ur = 2400,
 		level_limit = 0,
 		arena_durability_ratio = 1.14,
@@ -299,8 +432,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[21] = {
 		exp_ur = 2520,
 		level_limit = 0,
 		arena_durability_ratio = 1.152,
@@ -314,8 +447,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[22] = {
 		exp_ur = 2640,
 		level_limit = 0,
 		arena_durability_ratio = 1.164,
@@ -329,8 +462,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[23] = {
 		exp_ur = 2760,
 		level_limit = 0,
 		arena_durability_ratio = 1.176,
@@ -344,8 +477,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[24] = {
 		exp_ur = 2880,
 		level_limit = 0,
 		arena_durability_ratio = 1.188,
@@ -359,8 +492,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[25] = {
 		exp_ur = 3000,
 		level_limit = 0,
 		arena_durability_ratio = 1.2,
@@ -374,8 +507,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[26] = {
 		exp_ur = 3120,
 		level_limit = 0,
 		arena_durability_ratio = 1.212,
@@ -389,8 +522,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[27] = {
 		exp_ur = 3240,
 		level_limit = 0,
 		arena_durability_ratio = 1.224,
@@ -404,8 +537,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[28] = {
 		exp_ur = 3360,
 		level_limit = 0,
 		arena_durability_ratio = 1.236,
@@ -419,8 +552,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[29] = {
 		exp_ur = 3480,
 		level_limit = 0,
 		arena_durability_ratio = 1.248,
@@ -434,8 +567,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[30] = {
 		exp_ur = 3600,
 		level_limit = 0,
 		arena_durability_ratio = 1.26,
@@ -449,8 +582,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[31] = {
 		exp_ur = 3720,
 		level_limit = 0,
 		arena_durability_ratio = 1.272,
@@ -464,8 +597,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[32] = {
 		exp_ur = 3840,
 		level_limit = 0,
 		arena_durability_ratio = 1.284,
@@ -479,8 +612,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[33] = {
 		exp_ur = 3960,
 		level_limit = 0,
 		arena_durability_ratio = 1.296,
@@ -494,8 +627,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[34] = {
 		exp_ur = 4080,
 		level_limit = 0,
 		arena_durability_ratio = 1.308,
@@ -509,8 +642,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[35] = {
 		exp_ur = 4200,
 		level_limit = 0,
 		arena_durability_ratio = 1.32,
@@ -524,8 +657,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[36] = {
 		exp_ur = 4320,
 		level_limit = 0,
 		arena_durability_ratio = 1.332,
@@ -539,8 +672,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[37] = {
 		exp_ur = 4440,
 		level_limit = 0,
 		arena_durability_ratio = 1.344,
@@ -554,8 +687,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[38] = {
 		exp_ur = 4560,
 		level_limit = 0,
 		arena_durability_ratio = 1.356,
@@ -569,8 +702,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[39] = {
 		exp_ur = 4680,
 		level_limit = 0,
 		arena_durability_ratio = 1.368,
@@ -584,8 +717,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[40] = {
 		exp_ur = 4800,
 		level_limit = 0,
 		arena_durability_ratio = 1.38,
@@ -599,8 +732,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[41] = {
 		exp_ur = 5040,
 		level_limit = 0,
 		arena_durability_ratio = 1.392,
@@ -614,8 +747,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[42] = {
 		exp_ur = 5280,
 		level_limit = 0,
 		arena_durability_ratio = 1.404,
@@ -629,8 +762,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[43] = {
 		exp_ur = 5520,
 		level_limit = 0,
 		arena_durability_ratio = 1.416,
@@ -644,8 +777,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[44] = {
 		exp_ur = 5760,
 		level_limit = 0,
 		arena_durability_ratio = 1.428,
@@ -659,8 +792,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[45] = {
 		exp_ur = 6000,
 		level_limit = 0,
 		arena_durability_ratio = 1.44,
@@ -674,8 +807,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[46] = {
 		exp_ur = 6240,
 		level_limit = 0,
 		arena_durability_ratio = 1.452,
@@ -689,8 +822,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[47] = {
 		exp_ur = 6480,
 		level_limit = 0,
 		arena_durability_ratio = 1.464,
@@ -704,8 +837,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[48] = {
 		exp_ur = 6720,
 		level_limit = 0,
 		arena_durability_ratio = 1.476,
@@ -719,8 +852,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[49] = {
 		exp_ur = 6960,
 		level_limit = 0,
 		arena_durability_ratio = 1.488,
@@ -734,8 +867,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[50] = {
 		exp_ur = 7200,
 		level_limit = 0,
 		arena_durability_ratio = 1.5,
@@ -749,8 +882,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[51] = {
 		exp_ur = 7440,
 		level_limit = 0,
 		arena_durability_ratio = 1.512,
@@ -764,8 +897,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[52] = {
 		exp_ur = 7680,
 		level_limit = 0,
 		arena_durability_ratio = 1.524,
@@ -779,8 +912,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[53] = {
 		exp_ur = 7920,
 		level_limit = 0,
 		arena_durability_ratio = 1.536,
@@ -794,8 +927,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[54] = {
 		exp_ur = 8160,
 		level_limit = 0,
 		arena_durability_ratio = 1.548,
@@ -809,8 +942,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[55] = {
 		exp_ur = 8400,
 		level_limit = 0,
 		arena_durability_ratio = 1.56,
@@ -824,8 +957,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[56] = {
 		exp_ur = 8640,
 		level_limit = 0,
 		arena_durability_ratio = 1.572,
@@ -839,8 +972,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[57] = {
 		exp_ur = 8880,
 		level_limit = 0,
 		arena_durability_ratio = 1.584,
@@ -854,8 +987,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[58] = {
 		exp_ur = 9120,
 		level_limit = 0,
 		arena_durability_ratio = 1.596,
@@ -869,8 +1002,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[59] = {
 		exp_ur = 9360,
 		level_limit = 0,
 		arena_durability_ratio = 1.608,
@@ -884,8 +1017,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[60] = {
 		exp_ur = 9600,
 		level_limit = 0,
 		arena_durability_ratio = 1.62,
@@ -899,8 +1032,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[61] = {
 		exp_ur = 9960,
 		level_limit = 0,
 		arena_durability_ratio = 1.632,
@@ -914,8 +1047,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[62] = {
 		exp_ur = 10320,
 		level_limit = 0,
 		arena_durability_ratio = 1.644,
@@ -929,8 +1062,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[63] = {
 		exp_ur = 10680,
 		level_limit = 0,
 		arena_durability_ratio = 1.656,
@@ -944,8 +1077,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[64] = {
 		exp_ur = 11040,
 		level_limit = 0,
 		arena_durability_ratio = 1.668,
@@ -959,8 +1092,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[65] = {
 		exp_ur = 11400,
 		level_limit = 0,
 		arena_durability_ratio = 1.68,
@@ -974,8 +1107,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[66] = {
 		exp_ur = 11760,
 		level_limit = 0,
 		arena_durability_ratio = 1.692,
@@ -989,8 +1122,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[67] = {
 		exp_ur = 12120,
 		level_limit = 0,
 		arena_durability_ratio = 1.704,
@@ -1004,8 +1137,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[68] = {
 		exp_ur = 12480,
 		level_limit = 0,
 		arena_durability_ratio = 1.716,
@@ -1019,8 +1152,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[69] = {
 		exp_ur = 12840,
 		level_limit = 0,
 		arena_durability_ratio = 1.728,
@@ -1034,8 +1167,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[70] = {
 		exp_ur = 13200,
 		level_limit = 0,
 		arena_durability_ratio = 1.74,
@@ -1049,8 +1182,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[71] = {
 		exp_ur = 13680,
 		level_limit = 0,
 		arena_durability_ratio = 1.752,
@@ -1064,8 +1197,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[72] = {
 		exp_ur = 14160,
 		level_limit = 0,
 		arena_durability_ratio = 1.764,
@@ -1079,8 +1212,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[73] = {
 		exp_ur = 14640,
 		level_limit = 0,
 		arena_durability_ratio = 1.776,
@@ -1094,8 +1227,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[74] = {
 		exp_ur = 15120,
 		level_limit = 0,
 		arena_durability_ratio = 1.788,
@@ -1109,8 +1242,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[75] = {
 		exp_ur = 15600,
 		level_limit = 0,
 		arena_durability_ratio = 1.8,
@@ -1124,8 +1257,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[76] = {
 		exp_ur = 16080,
 		level_limit = 0,
 		arena_durability_ratio = 1.812,
@@ -1139,8 +1272,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[77] = {
 		exp_ur = 16560,
 		level_limit = 0,
 		arena_durability_ratio = 1.824,
@@ -1154,8 +1287,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[78] = {
 		exp_ur = 17040,
 		level_limit = 0,
 		arena_durability_ratio = 1.836,
@@ -1169,8 +1302,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[79] = {
 		exp_ur = 17520,
 		level_limit = 0,
 		arena_durability_ratio = 1.848,
@@ -1184,8 +1317,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[80] = {
 		exp_ur = 18000,
 		level_limit = 0,
 		arena_durability_ratio = 1.86,
@@ -1199,8 +1332,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[81] = {
 		exp_ur = 18600,
 		level_limit = 0,
 		arena_durability_ratio = 1.872,
@@ -1214,8 +1347,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[82] = {
 		exp_ur = 19200,
 		level_limit = 0,
 		arena_durability_ratio = 1.884,
@@ -1229,8 +1362,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[83] = {
 		exp_ur = 19800,
 		level_limit = 0,
 		arena_durability_ratio = 1.896,
@@ -1244,8 +1377,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[84] = {
 		exp_ur = 20400,
 		level_limit = 0,
 		arena_durability_ratio = 1.908,
@@ -1259,8 +1392,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[85] = {
 		exp_ur = 21000,
 		level_limit = 0,
 		arena_durability_ratio = 1.92,
@@ -1274,8 +1407,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[86] = {
 		exp_ur = 21600,
 		level_limit = 0,
 		arena_durability_ratio = 1.932,
@@ -1289,8 +1422,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[87] = {
 		exp_ur = 22200,
 		level_limit = 0,
 		arena_durability_ratio = 1.944,
@@ -1304,8 +1437,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[88] = {
 		exp_ur = 22800,
 		level_limit = 0,
 		arena_durability_ratio = 1.956,
@@ -1319,8 +1452,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[89] = {
 		exp_ur = 23400,
 		level_limit = 0,
 		arena_durability_ratio = 1.968,
@@ -1334,8 +1467,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[90] = {
 		exp_ur = 26000,
 		level_limit = 0,
 		arena_durability_ratio = 1.98,
@@ -1349,8 +1482,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[91] = {
 		exp_ur = 27300,
 		level_limit = 0,
 		arena_durability_ratio = 1.992,
@@ -1364,8 +1497,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[92] = {
 		exp_ur = 28600,
 		level_limit = 0,
 		arena_durability_ratio = 2.004,
@@ -1379,8 +1512,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[93] = {
 		exp_ur = 31200,
 		level_limit = 0,
 		arena_durability_ratio = 2.016,
@@ -1394,8 +1527,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[94] = {
 		exp_ur = 33800,
 		level_limit = 0,
 		arena_durability_ratio = 2.028,
@@ -1409,8 +1542,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[95] = {
 		exp_ur = 39000,
 		level_limit = 0,
 		arena_durability_ratio = 2.04,
@@ -1424,8 +1557,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[96] = {
 		exp_ur = 45500,
 		level_limit = 0,
 		arena_durability_ratio = 2.052,
@@ -1439,8 +1572,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[97] = {
 		exp_ur = 52000,
 		level_limit = 0,
 		arena_durability_ratio = 2.064,
@@ -1454,8 +1587,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[98] = {
 		exp_ur = 78000,
 		level_limit = 0,
 		arena_durability_ratio = 2.076,
@@ -1469,8 +1602,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[99] = {
 		exp_ur = 171600,
 		level_limit = 0,
 		arena_durability_ratio = 2.088,
@@ -1484,8 +1617,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[100] = {
 		exp_ur = 60000,
 		level_limit = 1,
 		arena_durability_ratio = 2.1,
@@ -1554,8 +1687,10 @@ pg.ship_level = {
 				300
 			}
 		}
-	},
-	{
+	}
+end)()
+;(function()
+	pg.base.ship_level[101] = {
 		exp_ur = 63600,
 		level_limit = 0,
 		arena_durability_ratio = 2.112,
@@ -1569,8 +1704,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[102] = {
 		exp_ur = 67200,
 		level_limit = 0,
 		arena_durability_ratio = 2.124,
@@ -1584,8 +1719,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[103] = {
 		exp_ur = 70800,
 		level_limit = 0,
 		arena_durability_ratio = 2.136,
@@ -1599,8 +1734,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[104] = {
 		exp_ur = 74400,
 		level_limit = 0,
 		arena_durability_ratio = 2.148,
@@ -1614,8 +1749,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[105] = {
 		exp_ur = 78000,
 		level_limit = 1,
 		arena_durability_ratio = 2.16,
@@ -1684,8 +1819,8 @@ pg.ship_level = {
 				600
 			}
 		}
-	},
-	{
+	}
+	pg.base.ship_level[106] = {
 		exp_ur = 85200,
 		level_limit = 0,
 		arena_durability_ratio = 2.172,
@@ -1699,8 +1834,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[107] = {
 		exp_ur = 92400,
 		level_limit = 0,
 		arena_durability_ratio = 2.184,
@@ -1714,8 +1849,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[108] = {
 		exp_ur = 99600,
 		level_limit = 0,
 		arena_durability_ratio = 2.196,
@@ -1729,8 +1864,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[109] = {
 		exp_ur = 106800,
 		level_limit = 0,
 		arena_durability_ratio = 2.208,
@@ -1744,8 +1879,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[110] = {
 		exp_ur = 114000,
 		level_limit = 1,
 		arena_durability_ratio = 2.22,
@@ -1814,8 +1949,8 @@ pg.ship_level = {
 				900
 			}
 		}
-	},
-	{
+	}
+	pg.base.ship_level[111] = {
 		exp_ur = 126000,
 		level_limit = 0,
 		arena_durability_ratio = 2.232,
@@ -1829,8 +1964,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[112] = {
 		exp_ur = 138000,
 		level_limit = 0,
 		arena_durability_ratio = 2.244,
@@ -1844,8 +1979,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[113] = {
 		exp_ur = 150000,
 		level_limit = 0,
 		arena_durability_ratio = 2.256,
@@ -1859,8 +1994,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[114] = {
 		exp_ur = 162000,
 		level_limit = 0,
 		arena_durability_ratio = 2.268,
@@ -1874,8 +2009,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[115] = {
 		exp_ur = 174000,
 		level_limit = 1,
 		arena_durability_ratio = 2.28,
@@ -1944,8 +2079,8 @@ pg.ship_level = {
 				1500
 			}
 		}
-	},
-	{
+	}
+	pg.base.ship_level[116] = {
 		exp_ur = 192000,
 		level_limit = 0,
 		arena_durability_ratio = 2.292,
@@ -1959,8 +2094,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[117] = {
 		exp_ur = 210000,
 		level_limit = 0,
 		arena_durability_ratio = 2.304,
@@ -1974,8 +2109,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[118] = {
 		exp_ur = 228000,
 		level_limit = 0,
 		arena_durability_ratio = 2.316,
@@ -1989,8 +2124,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[119] = {
 		exp_ur = 246000,
 		level_limit = 0,
 		arena_durability_ratio = 2.328,
@@ -2004,8 +2139,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[120] = {
 		exp_ur = 264000,
 		level_limit = 1,
 		arena_durability_ratio = 2.34,
@@ -2099,8 +2234,8 @@ pg.ship_level = {
 				225
 			}
 		}
-	},
-	{
+	}
+	pg.base.ship_level[121] = {
 		exp_ur = 289200,
 		level_limit = 0,
 		arena_durability_ratio = 2.352,
@@ -2114,8 +2249,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[122] = {
 		exp_ur = 314400,
 		level_limit = 0,
 		arena_durability_ratio = 2.364,
@@ -2129,8 +2264,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[123] = {
 		exp_ur = 339600,
 		level_limit = 0,
 		arena_durability_ratio = 2.376,
@@ -2144,8 +2279,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[124] = {
 		exp_ur = 364800,
 		level_limit = 0,
 		arena_durability_ratio = 2.388,
@@ -2159,8 +2294,8 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	{
+	}
+	pg.base.ship_level[125] = {
 		exp_ur = 0,
 		level_limit = 1,
 		arena_durability_ratio = 2.4,
@@ -2174,132 +2309,5 @@ pg.ship_level = {
 		need_item_rarity4 = {},
 		need_item_rarity5 = {},
 		need_item_rarity6 = {}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63,
-		64,
-		65,
-		66,
-		67,
-		68,
-		69,
-		70,
-		71,
-		72,
-		73,
-		74,
-		75,
-		76,
-		77,
-		78,
-		79,
-		80,
-		81,
-		82,
-		83,
-		84,
-		85,
-		86,
-		87,
-		88,
-		89,
-		90,
-		91,
-		92,
-		93,
-		94,
-		95,
-		96,
-		97,
-		98,
-		99,
-		100,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		113,
-		114,
-		115,
-		116,
-		117,
-		118,
-		119,
-		120,
-		121,
-		122,
-		123,
-		124,
-		125
 	}
-}
+end)()

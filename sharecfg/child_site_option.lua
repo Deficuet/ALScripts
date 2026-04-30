@@ -1,6 +1,155 @@
 pg = pg or {}
-pg.child_site_option = {
-	[1102] = {
+pg.child_site_option = rawget(pg, "child_site_option") or setmetatable({
+	__name = "child_site_option"
+}, confNEO)
+pg.child_site_option.all = {
+	1102,
+	1103,
+	11032,
+	11033,
+	1104,
+	1105,
+	1106,
+	1107,
+	1108,
+	1109,
+	1110,
+	1111,
+	11112,
+	11113,
+	1112,
+	11122,
+	11123,
+	1201,
+	1202,
+	1203,
+	1204,
+	12042,
+	12043,
+	1205,
+	1206,
+	1207,
+	1211,
+	12112,
+	12113,
+	1212,
+	12122,
+	12123,
+	1213,
+	12132,
+	12133,
+	1302,
+	13022,
+	13023,
+	1303,
+	1304,
+	13042,
+	13043,
+	1305,
+	1306,
+	1307,
+	1308,
+	1309,
+	1310,
+	1321,
+	1311,
+	1312,
+	1313,
+	1314,
+	1315,
+	1316,
+	1317,
+	1318,
+	1319,
+	1320,
+	13112,
+	13122,
+	13132,
+	13142,
+	13152,
+	13162,
+	13172,
+	13182,
+	13192,
+	13202,
+	1401,
+	1402,
+	1403,
+	14032,
+	14033,
+	1404,
+	1405,
+	1406,
+	1411,
+	1412,
+	1413,
+	1414,
+	1415,
+	1416,
+	1417,
+	1418,
+	1419,
+	1420,
+	14112,
+	14122,
+	14132,
+	14142,
+	14152,
+	14162,
+	14172,
+	14182,
+	14192,
+	14202,
+	1501,
+	1502,
+	1503,
+	1504,
+	1601,
+	16012,
+	16013,
+	1602,
+	16022,
+	16023,
+	1603,
+	1604,
+	1605,
+	1606,
+	1607,
+	1608,
+	1609,
+	1701,
+	17012,
+	17013,
+	1702,
+	17022,
+	17023,
+	1705,
+	17052,
+	17053,
+	1706,
+	1707,
+	1708,
+	1709,
+	1710,
+	1711,
+	1712,
+	1713,
+	1714,
+	1715,
+	1716,
+	1717,
+	1718,
+	1719,
+	1720,
+	1721,
+	1722,
+	1723
+}
+pg.base = pg.base or {}
+pg.base.child_site_option = {}
+
+;(function()
+	pg.base.child_site_option[1102] = {
 		replace = 0,
 		name = "好味餐厅",
 		id = 1102,
@@ -19,8 +168,8 @@ pg.child_site_option = {
 		time_limit = {},
 		count_limit = {},
 		polarid_list = {}
-	},
-	[1103] = {
+	}
+	pg.base.child_site_option[1103] = {
 		replace = 0,
 		name = "随便逛逛",
 		id = 1103,
@@ -72,8 +221,8 @@ pg.child_site_option = {
 			121,
 			122
 		}
-	},
-	[11032] = {
+	}
+	pg.base.child_site_option[11032] = {
 		replace = 0,
 		name = "随便逛逛",
 		id = 11032,
@@ -125,8 +274,8 @@ pg.child_site_option = {
 			121,
 			122
 		}
-	},
-	[11033] = {
+	}
+	pg.base.child_site_option[11033] = {
 		replace = 0,
 		name = "随便逛逛",
 		id = 11033,
@@ -178,8 +327,8 @@ pg.child_site_option = {
 			121,
 			122
 		}
-	},
-	[1104] = {
+	}
+	pg.base.child_site_option[1104] = {
 		replace = 0,
 		name = "试吃活动",
 		id = 1104,
@@ -222,8 +371,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1105] = {
+	}
+	pg.base.child_site_option[1105] = {
 		replace = 0,
 		name = "厨神大赛",
 		id = 1105,
@@ -268,8 +417,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1106] = {
+	}
+	pg.base.child_site_option[1106] = {
 		replace = 0,
 		name = "厨神大赛",
 		id = 1106,
@@ -314,8 +463,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1107] = {
+	}
+	pg.base.child_site_option[1107] = {
 		replace = 0,
 		name = "厨神大赛",
 		id = 1107,
@@ -360,8 +509,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1108] = {
+	}
+	pg.base.child_site_option[1108] = {
 		replace = 0,
 		name = "试吃活动",
 		id = 1108,
@@ -404,8 +553,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1109] = {
+	}
+	pg.base.child_site_option[1109] = {
 		replace = 0,
 		name = "试吃活动",
 		id = 1109,
@@ -448,8 +597,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1110] = {
+	}
+	pg.base.child_site_option[1110] = {
 		replace = 0,
 		name = "试吃活动",
 		id = 1110,
@@ -492,8 +641,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1111] = {
+	}
+	pg.base.child_site_option[1111] = {
 		replace = 0,
 		name = "用餐",
 		id = 1111,
@@ -521,8 +670,8 @@ pg.child_site_option = {
 		},
 		count_limit = {},
 		polarid_list = {}
-	},
-	[11112] = {
+	}
+	pg.base.child_site_option[11112] = {
 		replace = 0,
 		name = "用餐",
 		id = 11112,
@@ -550,8 +699,8 @@ pg.child_site_option = {
 		},
 		count_limit = {},
 		polarid_list = {}
-	},
-	[11113] = {
+	}
+	pg.base.child_site_option[11113] = {
 		replace = 0,
 		name = "用餐",
 		id = 11113,
@@ -579,8 +728,8 @@ pg.child_site_option = {
 		},
 		count_limit = {},
 		polarid_list = {}
-	},
-	[1112] = {
+	}
+	pg.base.child_site_option[1112] = {
 		replace = 0,
 		name = "打工",
 		id = 1112,
@@ -628,8 +777,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[11122] = {
+	}
+	pg.base.child_site_option[11122] = {
 		replace = 0,
 		name = "打工",
 		id = 11122,
@@ -677,8 +826,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[11123] = {
+	}
+	pg.base.child_site_option[11123] = {
 		replace = 0,
 		name = "打工",
 		id = 11123,
@@ -726,8 +875,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1201] = {
+	}
+	pg.base.child_site_option[1201] = {
 		replace = 0,
 		name = "五金商店",
 		id = 1201,
@@ -746,8 +895,8 @@ pg.child_site_option = {
 		time_limit = {},
 		count_limit = {},
 		polarid_list = {}
-	},
-	[1202] = {
+	}
+	pg.base.child_site_option[1202] = {
 		replace = 0,
 		name = "用不到",
 		id = 1202,
@@ -780,8 +929,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1203] = {
+	}
+	pg.base.child_site_option[1203] = {
 		replace = 0,
 		name = "静谧之峰",
 		id = 1203,
@@ -800,8 +949,8 @@ pg.child_site_option = {
 		time_limit = {},
 		count_limit = {},
 		polarid_list = {}
-	},
-	[1204] = {
+	}
+	pg.base.child_site_option[1204] = {
 		replace = 0,
 		name = "随便逛逛",
 		id = 1204,
@@ -852,8 +1001,8 @@ pg.child_site_option = {
 			132,
 			164
 		}
-	},
-	[12042] = {
+	}
+	pg.base.child_site_option[12042] = {
 		replace = 0,
 		name = "随便逛逛",
 		id = 12042,
@@ -904,8 +1053,8 @@ pg.child_site_option = {
 			132,
 			164
 		}
-	},
-	[12043] = {
+	}
+	pg.base.child_site_option[12043] = {
 		replace = 0,
 		name = "随便逛逛",
 		id = 12043,
@@ -956,8 +1105,8 @@ pg.child_site_option = {
 			132,
 			164
 		}
-	},
-	[1205] = {
+	}
+	pg.base.child_site_option[1205] = {
 		replace = 0,
 		name = "第一届钓鱼达人赛",
 		id = 1205,
@@ -1002,8 +1151,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1206] = {
+	}
+	pg.base.child_site_option[1206] = {
 		replace = 0,
 		name = "第二届钓鱼达人赛",
 		id = 1206,
@@ -1048,8 +1197,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1207] = {
+	}
+	pg.base.child_site_option[1207] = {
 		replace = 0,
 		name = "第三届钓鱼达人赛",
 		id = 1207,
@@ -1094,8 +1243,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1211] = {
+	}
+	pg.base.child_site_option[1211] = {
 		replace = 0,
 		name = "去写生",
 		id = 1211,
@@ -1145,8 +1294,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[12112] = {
+	}
+	pg.base.child_site_option[12112] = {
 		replace = 0,
 		name = "去写生",
 		id = 12112,
@@ -1196,8 +1345,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[12113] = {
+	}
+	pg.base.child_site_option[12113] = {
 		replace = 0,
 		name = "去写生",
 		id = 12113,
@@ -1247,8 +1396,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1212] = {
+	}
+	pg.base.child_site_option[1212] = {
 		replace = 0,
 		name = "去露营",
 		id = 1212,
@@ -1291,8 +1440,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[12122] = {
+	}
+	pg.base.child_site_option[12122] = {
 		replace = 0,
 		name = "去露营",
 		id = 12122,
@@ -1335,8 +1484,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[12123] = {
+	}
+	pg.base.child_site_option[12123] = {
 		replace = 0,
 		name = "去露营",
 		id = 12123,
@@ -1379,8 +1528,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1213] = {
+	}
+	pg.base.child_site_option[1213] = {
 		replace = 0,
 		name = "去钓鱼",
 		id = 1213,
@@ -1428,8 +1577,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[12132] = {
+	}
+	pg.base.child_site_option[12132] = {
 		replace = 0,
 		name = "去钓鱼",
 		id = 12132,
@@ -1477,8 +1626,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[12133] = {
+	}
+	pg.base.child_site_option[12133] = {
 		replace = 0,
 		name = "去钓鱼",
 		id = 12133,
@@ -1526,8 +1675,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1302] = {
+	}
+	pg.base.child_site_option[1302] = {
 		replace = 0,
 		name = "潮流市集",
 		id = 1302,
@@ -1555,8 +1704,8 @@ pg.child_site_option = {
 		},
 		count_limit = {},
 		polarid_list = {}
-	},
-	[13022] = {
+	}
+	pg.base.child_site_option[13022] = {
 		replace = 0,
 		name = "潮流市集",
 		id = 13022,
@@ -1584,8 +1733,8 @@ pg.child_site_option = {
 		},
 		count_limit = {},
 		polarid_list = {}
-	},
-	[13023] = {
+	}
+	pg.base.child_site_option[13023] = {
 		replace = 0,
 		name = "潮流市集",
 		id = 13023,
@@ -1613,8 +1762,8 @@ pg.child_site_option = {
 		},
 		count_limit = {},
 		polarid_list = {}
-	},
-	[1303] = {
+	}
+	pg.base.child_site_option[1303] = {
 		replace = 0,
 		name = "影像工作室",
 		id = 1303,
@@ -1633,8 +1782,8 @@ pg.child_site_option = {
 		time_limit = {},
 		count_limit = {},
 		polarid_list = {}
-	},
-	[1304] = {
+	}
+	pg.base.child_site_option[1304] = {
 		replace = 0,
 		name = "随便逛逛",
 		id = 1304,
@@ -1685,8 +1834,8 @@ pg.child_site_option = {
 			161,
 			166
 		}
-	},
-	[13042] = {
+	}
+	pg.base.child_site_option[13042] = {
 		replace = 0,
 		name = "随便逛逛",
 		id = 13042,
@@ -1737,8 +1886,8 @@ pg.child_site_option = {
 			161,
 			166
 		}
-	},
-	[13043] = {
+	}
+	pg.base.child_site_option[13043] = {
 		replace = 0,
 		name = "随便逛逛",
 		id = 13043,
@@ -1789,8 +1938,8 @@ pg.child_site_option = {
 			161,
 			166
 		}
-	},
-	[1305] = {
+	}
+	pg.base.child_site_option[1305] = {
 		replace = 0,
 		name = "第一届摄影大赛",
 		id = 1305,
@@ -1835,8 +1984,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1306] = {
+	}
+	pg.base.child_site_option[1306] = {
 		replace = 0,
 		name = "商业街乐队表演",
 		id = 1306,
@@ -1884,8 +2033,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1307] = {
+	}
+	pg.base.child_site_option[1307] = {
 		replace = 0,
 		name = "第二届摄影大赛",
 		id = 1307,
@@ -1930,8 +2079,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1308] = {
+	}
+	pg.base.child_site_option[1308] = {
 		replace = 0,
 		name = "第三届摄影大赛",
 		id = 1308,
@@ -1976,8 +2125,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1309] = {
+	}
+	pg.base.child_site_option[1309] = {
 		replace = 0,
 		name = "商业街乐队表演",
 		id = 1309,
@@ -2025,8 +2174,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1310] = {
+	}
+	pg.base.child_site_option[1310] = {
 		replace = 0,
 		name = "商业街乐队表演",
 		id = 1310,
@@ -2074,8 +2223,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1321] = {
+	}
+	pg.base.child_site_option[1321] = {
 		replace = 0,
 		name = "商业街乐队表演",
 		id = 1321,
@@ -2123,8 +2272,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1311] = {
+	}
+	pg.base.child_site_option[1311] = {
 		replace = 0,
 		name = "日常生活的照片",
 		id = 1311,
@@ -2177,8 +2326,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1312] = {
+	}
+	pg.base.child_site_option[1312] = {
 		replace = 0,
 		name = "记录运动的照片",
 		id = 1312,
@@ -2231,8 +2380,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1313] = {
+	}
+	pg.base.child_site_option[1313] = {
 		replace = 0,
 		name = "更突显自己的照片",
 		id = 1313,
@@ -2285,8 +2434,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1314] = {
+	}
+	pg.base.child_site_option[1314] = {
 		replace = 0,
 		name = "记录青春的照片",
 		id = 1314,
@@ -2334,8 +2483,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1315] = {
+	}
+	pg.base.child_site_option[1315] = {
 		replace = 0,
 		name = "甜品店主题写真",
 		id = 1315,
@@ -2383,8 +2532,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1316] = {
+	}
+	pg.base.child_site_option[1316] = {
 		replace = 0,
 		name = "樱花主题写真",
 		id = 1316,
@@ -2432,8 +2581,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1317] = {
+	}
+	pg.base.child_site_option[1317] = {
 		replace = 0,
 		name = "古堡主题写真",
 		id = 1317,
@@ -2481,8 +2630,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1318] = {
+	}
+	pg.base.child_site_option[1318] = {
 		replace = 0,
 		name = "度假主题写真",
 		id = 1318,
@@ -2530,8 +2679,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1319] = {
+	}
+	pg.base.child_site_option[1319] = {
 		replace = 0,
 		name = "学校主题写真",
 		id = 1319,
@@ -2579,8 +2728,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1320] = {
+	}
+	pg.base.child_site_option[1320] = {
 		replace = 0,
 		name = "东方主题写真",
 		id = 1320,
@@ -2628,8 +2777,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[13112] = {
+	}
+	pg.base.child_site_option[13112] = {
 		replace = 0,
 		name = "日常生活的照片",
 		id = 13112,
@@ -2682,8 +2831,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[13122] = {
+	}
+	pg.base.child_site_option[13122] = {
 		replace = 0,
 		name = "记录运动的照片",
 		id = 13122,
@@ -2736,8 +2885,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[13132] = {
+	}
+	pg.base.child_site_option[13132] = {
 		replace = 0,
 		name = "更突显自己的照片",
 		id = 13132,
@@ -2790,8 +2939,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[13142] = {
+	}
+	pg.base.child_site_option[13142] = {
 		replace = 0,
 		name = "记录青春的照片",
 		id = 13142,
@@ -2839,8 +2988,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[13152] = {
+	}
+	pg.base.child_site_option[13152] = {
 		replace = 0,
 		name = "甜品店主题写真",
 		id = 13152,
@@ -2888,8 +3037,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[13162] = {
+	}
+	pg.base.child_site_option[13162] = {
 		replace = 0,
 		name = "樱花主题写真",
 		id = 13162,
@@ -2937,8 +3086,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[13172] = {
+	}
+	pg.base.child_site_option[13172] = {
 		replace = 0,
 		name = "古堡主题写真",
 		id = 13172,
@@ -2986,8 +3135,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[13182] = {
+	}
+	pg.base.child_site_option[13182] = {
 		replace = 0,
 		name = "度假主题写真",
 		id = 13182,
@@ -3035,8 +3184,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[13192] = {
+	}
+	pg.base.child_site_option[13192] = {
 		replace = 0,
 		name = "学校主题写真",
 		id = 13192,
@@ -3084,8 +3233,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[13202] = {
+	}
+	pg.base.child_site_option[13202] = {
 		replace = 0,
 		name = "东方主题写真",
 		id = 13202,
@@ -3133,8 +3282,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1401] = {
+	}
+	pg.base.child_site_option[1401] = {
 		replace = 0,
 		name = "漫海商坊",
 		id = 1401,
@@ -3162,8 +3311,8 @@ pg.child_site_option = {
 		},
 		count_limit = {},
 		polarid_list = {}
-	},
-	[1402] = {
+	}
+	pg.base.child_site_option[1402] = {
 		replace = 0,
 		name = "星光舞台",
 		id = 1402,
@@ -3182,8 +3331,8 @@ pg.child_site_option = {
 		time_limit = {},
 		count_limit = {},
 		polarid_list = {}
-	},
-	[1403] = {
+	}
+	pg.base.child_site_option[1403] = {
 		replace = 0,
 		name = "随便逛逛",
 		id = 1403,
@@ -3233,8 +3382,8 @@ pg.child_site_option = {
 			159,
 			163
 		}
-	},
-	[14032] = {
+	}
+	pg.base.child_site_option[14032] = {
 		replace = 0,
 		name = "随便逛逛",
 		id = 14032,
@@ -3284,8 +3433,8 @@ pg.child_site_option = {
 			159,
 			163
 		}
-	},
-	[14033] = {
+	}
+	pg.base.child_site_option[14033] = {
 		replace = 0,
 		name = "随便逛逛",
 		id = 14033,
@@ -3335,8 +3484,8 @@ pg.child_site_option = {
 			159,
 			163
 		}
-	},
-	[1404] = {
+	}
+	pg.base.child_site_option[1404] = {
 		replace = 0,
 		name = "第一届明日之星",
 		id = 1404,
@@ -3381,8 +3530,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1405] = {
+	}
+	pg.base.child_site_option[1405] = {
 		replace = 0,
 		name = "第二届明日之星",
 		id = 1405,
@@ -3427,8 +3576,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1406] = {
+	}
+	pg.base.child_site_option[1406] = {
 		replace = 0,
 		name = "第三届明日之星",
 		id = 1406,
@@ -3473,8 +3622,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1411] = {
+	}
+	pg.base.child_site_option[1411] = {
 		replace = 0,
 		name = "《爱情与责任》",
 		id = 1411,
@@ -3532,8 +3681,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1412] = {
+	}
+	pg.base.child_site_option[1412] = {
 		replace = 0,
 		name = "《一千个答案》",
 		id = 1412,
@@ -3591,8 +3740,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1413] = {
+	}
+	pg.base.child_site_option[1413] = {
 		replace = 0,
 		name = "《偷一块面包》",
 		id = 1413,
@@ -3650,8 +3799,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1414] = {
+	}
+	pg.base.child_site_option[1414] = {
 		replace = 0,
 		name = "《度假村、迷案与妖怪剧团！》",
 		id = 1414,
@@ -3704,8 +3853,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1415] = {
+	}
+	pg.base.child_site_option[1415] = {
 		replace = 0,
 		name = "《落樱时节》",
 		id = 1415,
@@ -3758,8 +3907,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1416] = {
+	}
+	pg.base.child_site_option[1416] = {
 		replace = 0,
 		name = "《雨夜惊魂》",
 		id = 1416,
@@ -3812,8 +3961,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1417] = {
+	}
+	pg.base.child_site_option[1417] = {
 		replace = 0,
 		name = "《下课后的奇妙历险》",
 		id = 1417,
@@ -3866,8 +4015,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1418] = {
+	}
+	pg.base.child_site_option[1418] = {
 		replace = 0,
 		name = "《海盗的秘密工坊》",
 		id = 1418,
@@ -3920,8 +4069,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1419] = {
+	}
+	pg.base.child_site_option[1419] = {
 		replace = 0,
 		name = "《夏日的小小作战》",
 		id = 1419,
@@ -3974,8 +4123,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1420] = {
+	}
+	pg.base.child_site_option[1420] = {
 		replace = 0,
 		name = "《飨宴的秘密》",
 		id = 1420,
@@ -4028,8 +4177,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[14112] = {
+	}
+	pg.base.child_site_option[14112] = {
 		replace = 0,
 		name = "《爱情与责任》",
 		id = 14112,
@@ -4082,8 +4231,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[14122] = {
+	}
+	pg.base.child_site_option[14122] = {
 		replace = 0,
 		name = "《一千个答案》",
 		id = 14122,
@@ -4136,8 +4285,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[14132] = {
+	}
+	pg.base.child_site_option[14132] = {
 		replace = 0,
 		name = "《偷一块面包》",
 		id = 14132,
@@ -4190,8 +4339,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[14142] = {
+	}
+	pg.base.child_site_option[14142] = {
 		replace = 0,
 		name = "《度假村、迷案与妖怪剧团！》",
 		id = 14142,
@@ -4244,8 +4393,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[14152] = {
+	}
+	pg.base.child_site_option[14152] = {
 		replace = 0,
 		name = "《落樱时节》",
 		id = 14152,
@@ -4298,8 +4447,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[14162] = {
+	}
+	pg.base.child_site_option[14162] = {
 		replace = 0,
 		name = "《雨夜惊魂》",
 		id = 14162,
@@ -4352,8 +4501,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[14172] = {
+	}
+	pg.base.child_site_option[14172] = {
 		replace = 0,
 		name = "《下课后的奇妙历险》",
 		id = 14172,
@@ -4406,8 +4555,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[14182] = {
+	}
+	pg.base.child_site_option[14182] = {
 		replace = 0,
 		name = "《海盗的秘密工坊》",
 		id = 14182,
@@ -4460,8 +4609,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[14192] = {
+	}
+	pg.base.child_site_option[14192] = {
 		replace = 0,
 		name = "《夏日的小小作战》",
 		id = 14192,
@@ -4514,8 +4663,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[14202] = {
+	}
+	pg.base.child_site_option[14202] = {
 		replace = 0,
 		name = "《飨宴的秘密》",
 		id = 14202,
@@ -4568,8 +4717,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1501] = {
+	}
+	pg.base.child_site_option[1501] = {
 		replace = 0,
 		name = "水族馆",
 		id = 1501,
@@ -4633,8 +4782,8 @@ pg.child_site_option = {
 			170,
 			109
 		}
-	},
-	[1502] = {
+	}
+	pg.base.child_site_option[1502] = {
 		replace = 0,
 		name = "游乐园",
 		id = 1502,
@@ -4697,8 +4846,8 @@ pg.child_site_option = {
 			170,
 			109
 		}
-	},
-	[1503] = {
+	}
+	pg.base.child_site_option[1503] = {
 		replace = 0,
 		name = "童心乐园",
 		id = 1503,
@@ -4761,8 +4910,10 @@ pg.child_site_option = {
 			170,
 			109
 		}
-	},
-	[1504] = {
+	}
+end)()
+;(function()
+	pg.base.child_site_option[1504] = {
 		replace = 0,
 		name = "童心乐园",
 		id = 1504,
@@ -4816,8 +4967,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1601] = {
+	}
+	pg.base.child_site_option[1601] = {
 		replace = 0,
 		name = "体育锻炼",
 		id = 1601,
@@ -4862,8 +5013,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[16012] = {
+	}
+	pg.base.child_site_option[16012] = {
 		replace = 0,
 		name = "体育锻炼",
 		id = 16012,
@@ -4908,8 +5059,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[16013] = {
+	}
+	pg.base.child_site_option[16013] = {
 		replace = 0,
 		name = "体育锻炼",
 		id = 16013,
@@ -4954,8 +5105,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1602] = {
+	}
+	pg.base.child_site_option[1602] = {
 		replace = 0,
 		name = "随便逛逛",
 		id = 1602,
@@ -5006,8 +5157,8 @@ pg.child_site_option = {
 			157,
 			158
 		}
-	},
-	[16022] = {
+	}
+	pg.base.child_site_option[16022] = {
 		replace = 0,
 		name = "随便逛逛",
 		id = 16022,
@@ -5058,8 +5209,8 @@ pg.child_site_option = {
 			157,
 			158
 		}
-	},
-	[16023] = {
+	}
+	pg.base.child_site_option[16023] = {
 		replace = 0,
 		name = "随便逛逛",
 		id = 16023,
@@ -5110,8 +5261,8 @@ pg.child_site_option = {
 			157,
 			158
 		}
-	},
-	[1603] = {
+	}
+	pg.base.child_site_option[1603] = {
 		replace = 0,
 		name = "第一届运动大赛",
 		id = 1603,
@@ -5156,8 +5307,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1604] = {
+	}
+	pg.base.child_site_option[1604] = {
 		replace = 0,
 		name = "第二届运动大赛",
 		id = 1604,
@@ -5202,8 +5353,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1605] = {
+	}
+	pg.base.child_site_option[1605] = {
 		replace = 0,
 		name = "第三届运动大赛",
 		id = 1605,
@@ -5248,8 +5399,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1606] = {
+	}
+	pg.base.child_site_option[1606] = {
 		replace = 0,
 		name = "观看足球比赛",
 		id = 1606,
@@ -5297,8 +5448,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1607] = {
+	}
+	pg.base.child_site_option[1607] = {
 		replace = 0,
 		name = "观看足球比赛",
 		id = 1607,
@@ -5346,8 +5497,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1608] = {
+	}
+	pg.base.child_site_option[1608] = {
 		replace = 0,
 		name = "观看足球比赛",
 		id = 1608,
@@ -5395,8 +5546,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1609] = {
+	}
+	pg.base.child_site_option[1609] = {
 		replace = 0,
 		name = "观看足球比赛",
 		id = 1609,
@@ -5444,8 +5595,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1701] = {
+	}
+	pg.base.child_site_option[1701] = {
 		replace = 0,
 		name = "校图书馆",
 		id = 1701,
@@ -5488,8 +5639,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[17012] = {
+	}
+	pg.base.child_site_option[17012] = {
 		replace = 0,
 		name = "校图书馆",
 		id = 17012,
@@ -5532,8 +5683,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[17013] = {
+	}
+	pg.base.child_site_option[17013] = {
 		replace = 0,
 		name = "校图书馆",
 		id = 17013,
@@ -5576,8 +5727,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1702] = {
+	}
+	pg.base.child_site_option[1702] = {
 		replace = 0,
 		name = "音乐教室",
 		id = 1702,
@@ -5625,8 +5776,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[17022] = {
+	}
+	pg.base.child_site_option[17022] = {
 		replace = 0,
 		name = "音乐教室",
 		id = 17022,
@@ -5674,8 +5825,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[17023] = {
+	}
+	pg.base.child_site_option[17023] = {
 		replace = 0,
 		name = "音乐教室",
 		id = 17023,
@@ -5723,8 +5874,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1705] = {
+	}
+	pg.base.child_site_option[1705] = {
 		replace = 0,
 		name = "随便逛逛",
 		id = 1705,
@@ -5777,8 +5928,8 @@ pg.child_site_option = {
 			160,
 			162
 		}
-	},
-	[17052] = {
+	}
+	pg.base.child_site_option[17052] = {
 		replace = 0,
 		name = "随便逛逛",
 		id = 17052,
@@ -5833,8 +5984,8 @@ pg.child_site_option = {
 			160,
 			162
 		}
-	},
-	[17053] = {
+	}
+	pg.base.child_site_option[17053] = {
 		replace = 0,
 		name = "随便逛逛",
 		id = 17053,
@@ -5887,8 +6038,8 @@ pg.child_site_option = {
 			160,
 			162
 		}
-	},
-	[1706] = {
+	}
+	pg.base.child_site_option[1706] = {
 		replace = 0,
 		name = "第一届文学大奖赛",
 		id = 1706,
@@ -5933,8 +6084,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1707] = {
+	}
+	pg.base.child_site_option[1707] = {
 		replace = 0,
 		name = "第一届绘画大奖赛",
 		id = 1707,
@@ -5979,8 +6130,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1708] = {
+	}
+	pg.base.child_site_option[1708] = {
 		replace = 0,
 		name = "第一届歌者之声大奖赛",
 		id = 1708,
@@ -6025,8 +6176,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1709] = {
+	}
+	pg.base.child_site_option[1709] = {
 		replace = 0,
 		name = "图书馆写作限时指导",
 		id = 1709,
@@ -6074,8 +6225,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1710] = {
+	}
+	pg.base.child_site_option[1710] = {
 		replace = 0,
 		name = "绘画教室限时指导",
 		id = 1710,
@@ -6123,8 +6274,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1711] = {
+	}
+	pg.base.child_site_option[1711] = {
 		replace = 0,
 		name = "声乐教室限时指导",
 		id = 1711,
@@ -6172,8 +6323,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1712] = {
+	}
+	pg.base.child_site_option[1712] = {
 		replace = 0,
 		name = "第二届文学大奖赛",
 		id = 1712,
@@ -6218,8 +6369,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1713] = {
+	}
+	pg.base.child_site_option[1713] = {
 		replace = 0,
 		name = "第三届文学大奖赛",
 		id = 1713,
@@ -6264,8 +6415,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1714] = {
+	}
+	pg.base.child_site_option[1714] = {
 		replace = 0,
 		name = "第二届绘画大奖赛",
 		id = 1714,
@@ -6310,8 +6461,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1715] = {
+	}
+	pg.base.child_site_option[1715] = {
 		replace = 0,
 		name = "第三届绘画大奖赛",
 		id = 1715,
@@ -6356,8 +6507,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1716] = {
+	}
+	pg.base.child_site_option[1716] = {
 		replace = 0,
 		name = "第二届歌者之声大奖赛",
 		id = 1716,
@@ -6402,8 +6553,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1717] = {
+	}
+	pg.base.child_site_option[1717] = {
 		replace = 0,
 		name = "第三届歌者之声大奖赛",
 		id = 1717,
@@ -6448,8 +6599,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1718] = {
+	}
+	pg.base.child_site_option[1718] = {
 		replace = 0,
 		name = "图书馆写作限时指导",
 		id = 1718,
@@ -6497,8 +6648,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1719] = {
+	}
+	pg.base.child_site_option[1719] = {
 		replace = 0,
 		name = "绘画教室限时指导",
 		id = 1719,
@@ -6546,8 +6697,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1720] = {
+	}
+	pg.base.child_site_option[1720] = {
 		replace = 0,
 		name = "声乐教室限时指导",
 		id = 1720,
@@ -6595,8 +6746,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1721] = {
+	}
+	pg.base.child_site_option[1721] = {
 		replace = 0,
 		name = "图书馆写作限时指导",
 		id = 1721,
@@ -6644,8 +6795,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1722] = {
+	}
+	pg.base.child_site_option[1722] = {
 		replace = 0,
 		name = "绘画教室限时指导",
 		id = 1722,
@@ -6693,8 +6844,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1723] = {
+	}
+	pg.base.child_site_option[1723] = {
 		replace = 0,
 		name = "声乐教室限时指导",
 		id = 1723,
@@ -6742,148 +6893,5 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	all = {
-		1102,
-		1103,
-		11032,
-		11033,
-		1104,
-		1105,
-		1106,
-		1107,
-		1108,
-		1109,
-		1110,
-		1111,
-		11112,
-		11113,
-		1112,
-		11122,
-		11123,
-		1201,
-		1202,
-		1203,
-		1204,
-		12042,
-		12043,
-		1205,
-		1206,
-		1207,
-		1211,
-		12112,
-		12113,
-		1212,
-		12122,
-		12123,
-		1213,
-		12132,
-		12133,
-		1302,
-		13022,
-		13023,
-		1303,
-		1304,
-		13042,
-		13043,
-		1305,
-		1306,
-		1307,
-		1308,
-		1309,
-		1310,
-		1321,
-		1311,
-		1312,
-		1313,
-		1314,
-		1315,
-		1316,
-		1317,
-		1318,
-		1319,
-		1320,
-		13112,
-		13122,
-		13132,
-		13142,
-		13152,
-		13162,
-		13172,
-		13182,
-		13192,
-		13202,
-		1401,
-		1402,
-		1403,
-		14032,
-		14033,
-		1404,
-		1405,
-		1406,
-		1411,
-		1412,
-		1413,
-		1414,
-		1415,
-		1416,
-		1417,
-		1418,
-		1419,
-		1420,
-		14112,
-		14122,
-		14132,
-		14142,
-		14152,
-		14162,
-		14172,
-		14182,
-		14192,
-		14202,
-		1501,
-		1502,
-		1503,
-		1504,
-		1601,
-		16012,
-		16013,
-		1602,
-		16022,
-		16023,
-		1603,
-		1604,
-		1605,
-		1606,
-		1607,
-		1608,
-		1609,
-		1701,
-		17012,
-		17013,
-		1702,
-		17022,
-		17023,
-		1705,
-		17052,
-		17053,
-		1706,
-		1707,
-		1708,
-		1709,
-		1710,
-		1711,
-		1712,
-		1713,
-		1714,
-		1715,
-		1716,
-		1717,
-		1718,
-		1719,
-		1720,
-		1721,
-		1722,
-		1723
 	}
-}
+end)()

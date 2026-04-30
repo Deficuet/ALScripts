@@ -1,6 +1,25 @@
 pg = pg or {}
-pg.child_site = {
-	[110] = {
+pg.child_site = rawget(pg, "child_site") or setmetatable({
+	__name = "child_site"
+}, confNEO)
+pg.child_site.all = {
+	110,
+	111,
+	120,
+	121,
+	130,
+	131,
+	140,
+	141,
+	150,
+	160,
+	170
+}
+pg.base = pg.base or {}
+pg.base.child_site = {}
+
+;(function()
+	pg.base.child_site[110] = {
 		icon = "child_icon_food",
 		name = "美食坊",
 		type = 1,
@@ -37,8 +56,8 @@ pg.child_site = {
 			7
 		},
 		option_random = {}
-	},
-	[111] = {
+	}
+	pg.base.child_site[111] = {
 		icon = "",
 		name = "好味餐厅",
 		type = 2,
@@ -70,8 +89,8 @@ pg.child_site = {
 			7
 		},
 		option_random = {}
-	},
-	[120] = {
+	}
+	pg.base.child_site[120] = {
 		icon = "child_icon_manor",
 		name = "度假庄园",
 		type = 1,
@@ -105,8 +124,8 @@ pg.child_site = {
 			7
 		},
 		option_random = {}
-	},
-	[121] = {
+	}
+	pg.base.child_site[121] = {
 		icon = "",
 		name = "静谧之峰",
 		type = 2,
@@ -141,8 +160,8 @@ pg.child_site = {
 			7
 		},
 		option_random = {}
-	},
-	[130] = {
+	}
+	pg.base.child_site[130] = {
 		icon = "child_icon_shopping",
 		name = "商业街",
 		type = 1,
@@ -182,8 +201,8 @@ pg.child_site = {
 			7
 		},
 		option_random = {}
-	},
-	[131] = {
+	}
+	pg.base.child_site[131] = {
 		icon = "",
 		name = "影像工作室",
 		type = 2,
@@ -290,8 +309,8 @@ pg.child_site = {
 				}
 			}
 		}
-	},
-	[140] = {
+	}
+	pg.base.child_site[140] = {
 		icon = "child_icon_park",
 		name = "海滨公园",
 		type = 1,
@@ -325,8 +344,8 @@ pg.child_site = {
 			7
 		},
 		option_random = {}
-	},
-	[141] = {
+	}
+	pg.base.child_site[141] = {
 		icon = "",
 		name = "星光舞台",
 		type = 2,
@@ -433,8 +452,8 @@ pg.child_site = {
 				}
 			}
 		}
-	},
-	[150] = {
+	}
+	pg.base.child_site[150] = {
 		icon = "child_icon_amusement",
 		name = "游乐场",
 		type = 1,
@@ -464,8 +483,8 @@ pg.child_site = {
 			7
 		},
 		option_random = {}
-	},
-	[160] = {
+	}
+	pg.base.child_site[160] = {
 		icon = "child_icon_gym",
 		name = "体育馆",
 		type = 1,
@@ -504,8 +523,8 @@ pg.child_site = {
 			7
 		},
 		option_random = {}
-	},
-	[170] = {
+	}
+	pg.base.child_site[170] = {
 		icon = "child_icon_school",
 		name = "学院",
 		type = 1,
@@ -558,18 +577,5 @@ pg.child_site = {
 			7
 		},
 		option_random = {}
-	},
-	all = {
-		110,
-		111,
-		120,
-		121,
-		130,
-		131,
-		140,
-		141,
-		150,
-		160,
-		170
 	}
-}
+end)()

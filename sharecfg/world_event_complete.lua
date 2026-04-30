@@ -1,6 +1,24 @@
 pg = pg or {}
-pg.world_event_complete = {
-	{
+pg.world_event_complete = rawget(pg, "world_event_complete") or setmetatable({
+	__name = "world_event_complete"
+}, confNEO)
+pg.world_event_complete.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10
+}
+pg.base = pg.base or {}
+pg.base.world_event_complete = {}
+
+;(function()
+	pg.base.world_event_complete[1] = {
 		event_id = 200,
 		id = 1,
 		map_icon = "buff_a2",
@@ -18,8 +36,8 @@ pg.world_event_complete = {
 			401,
 			5
 		}
-	},
-	{
+	}
+	pg.base.world_event_complete[2] = {
 		event_id = 200,
 		id = 2,
 		map_icon = "buff_h2",
@@ -37,8 +55,8 @@ pg.world_event_complete = {
 			402,
 			5
 		}
-	},
-	{
+	}
+	pg.base.world_event_complete[3] = {
 		event_id = 200,
 		id = 3,
 		map_icon = "buff_d2",
@@ -56,8 +74,8 @@ pg.world_event_complete = {
 			403,
 			5
 		}
-	},
-	{
+	}
+	pg.base.world_event_complete[4] = {
 		event_id = 200,
 		id = 4,
 		map_icon = "buff_a",
@@ -75,8 +93,8 @@ pg.world_event_complete = {
 			401,
 			10
 		}
-	},
-	{
+	}
+	pg.base.world_event_complete[5] = {
 		event_id = 200,
 		id = 5,
 		map_icon = "buff_h",
@@ -94,8 +112,8 @@ pg.world_event_complete = {
 			402,
 			10
 		}
-	},
-	{
+	}
+	pg.base.world_event_complete[6] = {
 		event_id = 200,
 		id = 6,
 		map_icon = "buff_d",
@@ -113,8 +131,8 @@ pg.world_event_complete = {
 			403,
 			10
 		}
-	},
-	{
+	}
+	pg.base.world_event_complete[7] = {
 		event_id = 200,
 		id = 7,
 		map_icon = "currency",
@@ -135,8 +153,8 @@ pg.world_event_complete = {
 			}
 		},
 		event_reward_slgbuff = {}
-	},
-	{
+	}
+	pg.base.world_event_complete[8] = {
 		event_id = 200,
 		id = 8,
 		map_icon = "currency",
@@ -157,8 +175,8 @@ pg.world_event_complete = {
 			}
 		},
 		event_reward_slgbuff = {}
-	},
-	{
+	}
+	pg.base.world_event_complete[9] = {
 		event_id = 200,
 		id = 9,
 		map_icon = "currency",
@@ -179,8 +197,8 @@ pg.world_event_complete = {
 			}
 		},
 		event_reward_slgbuff = {}
-	},
-	{
+	}
+	pg.base.world_event_complete[10] = {
 		event_id = 200,
 		id = 10,
 		map_icon = "currency",
@@ -201,17 +219,5 @@ pg.world_event_complete = {
 			}
 		},
 		event_reward_slgbuff = {}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10
 	}
-}
+end)()

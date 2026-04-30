@@ -9,7 +9,7 @@ end
 function var_0_0.ReCalcValue(arg_2_0)
 	arg_2_0.value = arg_2_0.config[arg_2_0.level][arg_2_0.attrName] * arg_2_0.multiple
 	arg_2_0.nextValue = arg_2_0.config[arg_2_0.nextLevel][arg_2_0.attrName] * arg_2_0.multiple
-	arg_2_0.maxValue = arg_2_0.config[#arg_2_0.config][arg_2_0.attrName] * arg_2_0.multiple
+	arg_2_0.maxValue = arg_2_0.config[#arg_2_0.config.all][arg_2_0.attrName] * arg_2_0.multiple
 	arg_2_0.addition = arg_2_0.nextValue - arg_2_0.value
 end
 

@@ -263,81 +263,85 @@ function var_0_0.getTrophys(arg_27_0)
 	return var_27_0
 end
 
-function var_0_0.hiddenTrophyAutoClaim(arg_28_0)
-	for iter_28_0, iter_28_1 in pairs(arg_28_0.trophy) do
-		if iter_28_1:getHideType() ~= Trophy.ALWAYS_SHOW and iter_28_1:getHideType() ~= Trophy.COMING_SOON and iter_28_1:canClaimed() and not iter_28_1:isClaimed() then
-			arg_28_0:sendNotification(GAME.TROPHY_CLAIM, {
-				trophyID = iter_28_0
+function var_0_0.GetTrophyById(arg_28_0, arg_28_1)
+	return arg_28_0.trophy[arg_28_1]
+end
+
+function var_0_0.hiddenTrophyAutoClaim(arg_29_0)
+	for iter_29_0, iter_29_1 in pairs(arg_29_0.trophy) do
+		if iter_29_1:getHideType() ~= Trophy.ALWAYS_SHOW and iter_29_1:getHideType() ~= Trophy.COMING_SOON and iter_29_1:canClaimed() and not iter_29_1:isClaimed() then
+			arg_29_0:sendNotification(GAME.TROPHY_CLAIM, {
+				trophyID = iter_29_0
 			})
 		end
 	end
 end
 
-function var_0_0.unclaimTrophyCount(arg_29_0)
-	local var_29_0 = 0
+function var_0_0.unclaimTrophyCount(arg_30_0)
+	local var_30_0 = 0
 
-	for iter_29_0, iter_29_1 in pairs(arg_29_0.trophy) do
-		if iter_29_1:getHideType() == Trophy.ALWAYS_SHOW and iter_29_1:canClaimed() and not iter_29_1:isClaimed() then
-			var_29_0 = var_29_0 + 1
+	for iter_30_0, iter_30_1 in pairs(arg_30_0.trophy) do
+		if iter_30_1:getHideType() == Trophy.ALWAYS_SHOW and iter_30_1:canClaimed() and not iter_30_1:isClaimed() then
+			var_30_0 = var_30_0 + 1
 		end
 	end
 
-	return var_29_0
+	return var_30_0
 end
 
-function var_0_0.updateTrophy(arg_30_0)
-	arg_30_0:sendNotification(var_0_0.TROPHY_UPDATE, Clone(arg_30_0.trophy))
+function var_0_0.updateTrophy(arg_31_0)
+	arg_31_0:sendNotification(var_0_0.TROPHY_UPDATE, Clone(arg_31_0.trophy))
 end
 
-function var_0_0.dispatchClaimRemind(arg_31_0, arg_31_1)
+function var_0_0.dispatchClaimRemind(arg_32_0, arg_32_1)
 	pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_TROPHY, {
-		id = arg_31_1
+		id = arg_32_1
 	})
 end
 
-function var_0_0.bindComplexTrophy(arg_32_0)
-	for iter_32_0, iter_32_1 in pairs(arg_32_0.trophyGroup) do
-		local var_32_0 = iter_32_1:getTrophyList()
+function var_0_0.bindComplexTrophy(arg_33_0)
+	for iter_33_0, iter_33_1 in pairs(arg_33_0.trophyGroup) do
+		local var_33_0 = iter_33_1:getTrophyList()
 
-		for iter_32_2, iter_32_3 in pairs(var_32_0) do
-			if iter_32_3:isComplexTrophy() then
-				for iter_32_4, iter_32_5 in ipairs(iter_32_3:getTargetID()) do
-					local var_32_1 = arg_32_0.trophy[iter_32_5] or Trophy.generateDummyTrophy(iter_32_5)
+		for iter_33_2, iter_33_3 in pairs(var_33_0) do
+			if iter_33_3:isComplexTrophy() then
+				for iter_33_4, iter_33_5 in ipairs(iter_33_3:getTargetID()) do
+					local var_33_1 = arg_33_0.trophy[iter_33_5] or Trophy.generateDummyTrophy(iter_33_5)
 
-					iter_32_3:bindTrophys(var_32_1)
+					iter_33_3:bindTrophys(var_33_1)
 				end
 			end
 		end
 	end
 end
 
-function var_0_0.bindTrophyGroup(arg_33_0)
-	local var_33_0 = pg.medal_template
+function var_0_0.bindTrophyGroup(arg_34_0)
+	local var_34_0 = pg.medal_template
 
-	for iter_33_0, iter_33_1 in ipairs(var_33_0.all) do
-		if var_33_0[iter_33_1].hide == Trophy.ALWAYS_SHOW then
-			local var_33_1 = math.floor(iter_33_1 / 10)
+	for iter_34_0, iter_34_1 in ipairs(var_34_0.all) do
+		if var_34_0[iter_34_1].hide == Trophy.ALWAYS_SHOW then
+			local var_34_1 = math.floor(iter_34_1 / 10)
 
-			if not arg_33_0.trophyGroup[var_33_1] then
-				arg_33_0.trophyGroup[var_33_1] = TrophyGroup.New(var_33_1)
+			if not arg_34_0.trophyGroup[var_34_1] then
+				arg_34_0.trophyGroup[var_34_1] = TrophyGroup.New(var_34_1)
 			end
 
-			local var_33_2 = arg_33_0.trophyGroup[var_33_1]
+			local var_34_2 = arg_34_0.trophyGroup[var_34_1]
 
-			if arg_33_0.trophy[iter_33_1] then
-				var_33_2:addTrophy(arg_33_0.trophy[iter_33_1])
+			if arg_34_0.trophy[iter_34_1] then
+				var_34_2:addTrophy(arg_34_0.trophy[iter_34_1])
 			else
-				var_33_2:addDummyTrophy(iter_33_1)
+				var_34_2:addDummyTrophy(iter_34_1)
 			end
 		end
 	end
 
-	for iter_33_2, iter_33_3 in pairs(arg_33_0.trophyGroup) do
-		iter_33_3:sortGroup()
+	for iter_34_2, iter_34_3 in pairs(arg_34_0.trophyGroup) do
+		iter_34_3:sortGroup()
 	end
 
-	table.sort(arg_33_0.trophyGroup, function(arg_34_0, arg_34_1)
-		return arg_34_0:getGroupID() < arg_34_1:getGroupID()
+	table.sort(arg_34_0.trophyGroup, function(arg_35_0, arg_35_1)
+		return arg_35_0:getGroupID() < arg_35_1:getGroupID()
 	end)
 end
 

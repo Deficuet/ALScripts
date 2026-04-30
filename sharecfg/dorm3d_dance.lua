@@ -1,6 +1,18 @@
 pg = pg or {}
-pg.dorm3d_dance = {
-	[10517] = {
+pg.dorm3d_dance = rawget(pg, "dorm3d_dance") or setmetatable({
+	__name = "dorm3d_dance"
+}, confNEO)
+pg.dorm3d_dance.all = {
+	10517,
+	30707,
+	49905,
+	20220
+}
+pg.base = pg.base or {}
+pg.base.dorm3d_dance = {}
+
+;(function()
+	pg.base.dorm3d_dance[10517] = {
 		default_camera = "dance_camera1",
 		director_name = "[sequence]",
 		timeline_scene = "Dance_10517",
@@ -34,8 +46,8 @@ pg.dorm3d_dance = {
 			"镜头2",
 			"镜头3"
 		}
-	},
-	[30707] = {
+	}
+	pg.base.dorm3d_dance[30707] = {
 		default_camera = "dance_camera1",
 		director_name = "[sequence]",
 		timeline_scene = "Dance_30707",
@@ -69,8 +81,8 @@ pg.dorm3d_dance = {
 			"镜头2",
 			"镜头3"
 		}
-	},
-	[49905] = {
+	}
+	pg.base.dorm3d_dance[49905] = {
 		default_camera = "dance_camera1",
 		director_name = "[sequence]",
 		timeline_scene = "Dance_49905",
@@ -104,8 +116,8 @@ pg.dorm3d_dance = {
 			"镜头2",
 			"镜头3"
 		}
-	},
-	[20220] = {
+	}
+	pg.base.dorm3d_dance[20220] = {
 		default_camera = "dance_camera1",
 		director_name = "[sequence]",
 		timeline_scene = "Dance_20220",
@@ -139,11 +151,5 @@ pg.dorm3d_dance = {
 			"镜头2",
 			"镜头3"
 		}
-	},
-	all = {
-		10517,
-		30707,
-		49905,
-		20220
 	}
-}
+end)()

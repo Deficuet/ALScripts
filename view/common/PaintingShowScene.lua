@@ -237,13 +237,13 @@ function var_0_0.loadShowPaint(arg_14_0, arg_14_1, arg_14_2, arg_14_3)
 			arg_14_3()
 		end)
 	elseif var_14_1 == MainPaintingView.STATE_L2D then
-		local var_14_6 = Live2D.GenerateData({
+		local var_14_6 = Live2DPainting.GenerateData({
 			ship = var_14_0,
 			position = Vector3(0, 0, -1),
 			parent = arg_14_0.l2dContainner
 		})
 
-		arg_14_0.live2dChar = Live2D.New(var_14_6, function(arg_18_0)
+		arg_14_0.live2dChar = Live2DPainting.New(var_14_6, function(arg_18_0)
 			arg_14_0:updateL2dSortMode(arg_18_0)
 			arg_18_0:IgonreReactPos(true)
 
@@ -267,11 +267,7 @@ function var_0_0.loadShowPaint(arg_14_0, arg_14_1, arg_14_2, arg_14_3)
 end
 
 function var_0_0.updateL2dSortMode(arg_20_0, arg_20_1)
-	local var_20_0 = arg_20_1._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController")
-	local var_20_1 = typeof("Live2D.Cubism.Rendering.CubismRenderController")
-	local var_20_2 = ReflectionHelp.RefGetField(typeof("Live2D.Cubism.Rendering.CubismSortingMode"), "BackToFrontOrder", nil)
-
-	ReflectionHelp.RefSetProperty(var_20_1, "SortingMode", var_20_0, var_20_2)
+	arg_20_1._go:GetComponent(typeof(CubismRenderController)).SortingMode = CubismSortingMode.BackToFrontOrder
 end
 
 function var_0_0.StaticGetPaintingName(arg_21_0)

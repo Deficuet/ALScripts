@@ -121,7 +121,8 @@ pg.task_data_trigger.all = {
 	118,
 	119,
 	120,
-	121
+	121,
+	122
 }
 pg.base = pg.base or {}
 pg.base.task_data_trigger = {}
@@ -1080,5 +1081,13 @@ end)()
 		type = 2,
 		id = 121,
 		task_id = 500231
+	}
+	pg.base.task_data_trigger[122] = {
+		group_id = 49910,
+		activity_id = 0,
+		count = 1,
+		type = 2,
+		id = 122,
+		task_id = 500241
 	}
 end)()

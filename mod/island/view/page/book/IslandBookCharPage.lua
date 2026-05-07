@@ -29,7 +29,8 @@ function var_0_0.FlushRightPanel(arg_5_0)
 	local var_5_1 = arg_5_0.showIllustration:GetLinkConfigID()
 	local var_5_2 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(var_5_1)
 
-	setText(arg_5_0.rightNameTF:Find("level"), var_5_0 and " - Lv." .. var_5_2:GetLevel() or "")
+	setText(arg_5_0.rightTF:Find("level"), var_5_0 and "Lv." .. var_5_2:GetLevel() or "")
+	setScrollTextWithSize(arg_5_0.rightNameTF, arg_5_0.rightTF:Find("scroll_name/Text"), arg_5_0.showIllustration:GetName(), 11)
 
 	local var_5_3 = var_5_2 and var_5_2:GetBreakLevel() or 0
 

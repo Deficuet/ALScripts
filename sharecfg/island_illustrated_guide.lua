@@ -27,6 +27,12 @@ pg.island_illustrated_guide.all = {
 	1021,
 	1022,
 	1023,
+	1024,
+	1025,
+	1026,
+	1027,
+	1028,
+	1029,
 	16,
 	17,
 	18,
@@ -208,6 +214,20 @@ pg.island_illustrated_guide.all = {
 	198,
 	199,
 	200,
+	201,
+	202,
+	203,
+	204,
+	205,
+	206,
+	207,
+	208,
+	209,
+	210,
+	211,
+	212,
+	213,
+	214,
 	3001,
 	3002,
 	3003,
@@ -939,6 +959,198 @@ pg.base.island_illustrated_guide = {}
 		type = 1,
 		id = 1023,
 		order = 23,
+		collect_upgrade = {
+			{
+				50,
+				50
+			}
+		},
+		collect_star = {
+			{
+				2,
+				30
+			},
+			{
+				3,
+				30
+			},
+			{
+				4,
+				30
+			},
+			{
+				5,
+				40
+			}
+		},
+		award_unlock = {}
+	}
+	pg.base.island_illustrated_guide[1024] = {
+		unlock_id = 20121,
+		collect_add = 20,
+		type = 1,
+		id = 1024,
+		order = 24,
+		collect_upgrade = {
+			{
+				50,
+				50
+			}
+		},
+		collect_star = {
+			{
+				2,
+				30
+			},
+			{
+				3,
+				30
+			},
+			{
+				4,
+				30
+			},
+			{
+				5,
+				40
+			}
+		},
+		award_unlock = {}
+	}
+	pg.base.island_illustrated_guide[1025] = {
+		unlock_id = 10117,
+		collect_add = 20,
+		type = 1,
+		id = 1025,
+		order = 25,
+		collect_upgrade = {
+			{
+				50,
+				50
+			}
+		},
+		collect_star = {
+			{
+				2,
+				30
+			},
+			{
+				3,
+				30
+			},
+			{
+				4,
+				30
+			},
+			{
+				5,
+				40
+			}
+		},
+		award_unlock = {}
+	}
+	pg.base.island_illustrated_guide[1026] = {
+		unlock_id = 50201,
+		collect_add = 20,
+		type = 1,
+		id = 1026,
+		order = 26,
+		collect_upgrade = {
+			{
+				50,
+				50
+			}
+		},
+		collect_star = {
+			{
+				2,
+				30
+			},
+			{
+				3,
+				30
+			},
+			{
+				4,
+				30
+			},
+			{
+				5,
+				40
+			}
+		},
+		award_unlock = {}
+	}
+	pg.base.island_illustrated_guide[1027] = {
+		unlock_id = 50107,
+		collect_add = 20,
+		type = 1,
+		id = 1027,
+		order = 27,
+		collect_upgrade = {
+			{
+				50,
+				50
+			}
+		},
+		collect_star = {
+			{
+				2,
+				30
+			},
+			{
+				3,
+				30
+			},
+			{
+				4,
+				30
+			},
+			{
+				5,
+				40
+			}
+		},
+		award_unlock = {}
+	}
+	pg.base.island_illustrated_guide[1028] = {
+		unlock_id = 49906,
+		collect_add = 20,
+		type = 1,
+		id = 1028,
+		order = 28,
+		collect_upgrade = {
+			{
+				50,
+				50
+			}
+		},
+		collect_star = {
+			{
+				2,
+				30
+			},
+			{
+				3,
+				30
+			},
+			{
+				4,
+				30
+			},
+			{
+				5,
+				40
+			}
+		},
+		award_unlock = {}
+	}
+	pg.base.island_illustrated_guide[1029] = {
+		unlock_id = 30311,
+		collect_add = 20,
+		type = 1,
+		id = 1029,
+		order = 29,
 		collect_upgrade = {
 			{
 				50,
@@ -2170,6 +2382,8 @@ pg.base.island_illustrated_guide = {}
 		},
 		award_unlock = {}
 	}
+end)()
+;(function()
 	pg.base.island_illustrated_guide[97] = {
 		unlock_id = 2704,
 		collect_add = 20,
@@ -2284,8 +2498,6 @@ pg.base.island_illustrated_guide = {}
 		},
 		award_unlock = {}
 	}
-end)()
-;(function()
 	pg.base.island_illustrated_guide[103] = {
 		unlock_id = 3000,
 		collect_add = 20,
@@ -4072,6 +4284,8 @@ end)()
 		},
 		award_unlock = {}
 	}
+end)()
+;(function()
 	pg.base.island_illustrated_guide[191] = {
 		unlock_id = 4019,
 		collect_add = 20,
@@ -4186,8 +4400,6 @@ end)()
 		},
 		award_unlock = {}
 	}
-end)()
-;(function()
 	pg.base.island_illustrated_guide[197] = {
 		unlock_id = 4025,
 		collect_add = 20,
@@ -4251,6 +4463,272 @@ end)()
 		type = 3,
 		id = 200,
 		order = 178,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	}
+	pg.base.island_illustrated_guide[201] = {
+		unlock_id = 4029,
+		collect_add = 20,
+		type = 3,
+		id = 201,
+		order = 179,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	}
+	pg.base.island_illustrated_guide[202] = {
+		unlock_id = 4030,
+		collect_add = 20,
+		type = 3,
+		id = 202,
+		order = 180,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	}
+	pg.base.island_illustrated_guide[203] = {
+		unlock_id = 4031,
+		collect_add = 20,
+		type = 3,
+		id = 203,
+		order = 181,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	}
+	pg.base.island_illustrated_guide[204] = {
+		unlock_id = 4032,
+		collect_add = 20,
+		type = 3,
+		id = 204,
+		order = 182,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	}
+	pg.base.island_illustrated_guide[205] = {
+		unlock_id = 4033,
+		collect_add = 20,
+		type = 3,
+		id = 205,
+		order = 183,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	}
+	pg.base.island_illustrated_guide[206] = {
+		unlock_id = 4034,
+		collect_add = 20,
+		type = 3,
+		id = 206,
+		order = 184,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	}
+	pg.base.island_illustrated_guide[207] = {
+		unlock_id = 4035,
+		collect_add = 20,
+		type = 3,
+		id = 207,
+		order = 185,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	}
+	pg.base.island_illustrated_guide[208] = {
+		unlock_id = 4036,
+		collect_add = 20,
+		type = 3,
+		id = 208,
+		order = 186,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	}
+	pg.base.island_illustrated_guide[209] = {
+		unlock_id = 4037,
+		collect_add = 20,
+		type = 3,
+		id = 209,
+		order = 187,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	}
+	pg.base.island_illustrated_guide[210] = {
+		unlock_id = 4038,
+		collect_add = 20,
+		type = 3,
+		id = 210,
+		order = 188,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	}
+	pg.base.island_illustrated_guide[211] = {
+		unlock_id = 4039,
+		collect_add = 20,
+		type = 3,
+		id = 211,
+		order = 189,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	}
+	pg.base.island_illustrated_guide[212] = {
+		unlock_id = 4040,
+		collect_add = 20,
+		type = 3,
+		id = 212,
+		order = 190,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	}
+	pg.base.island_illustrated_guide[213] = {
+		unlock_id = 4041,
+		collect_add = 20,
+		type = 3,
+		id = 213,
+		order = 191,
+		collect_upgrade = {},
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
+	}
+	pg.base.island_illustrated_guide[214] = {
+		unlock_id = 4042,
+		collect_add = 20,
+		type = 3,
+		id = 214,
+		order = 192,
 		collect_upgrade = {},
 		collect_star = {
 			{

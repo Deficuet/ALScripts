@@ -206,7 +206,7 @@ function var_0_0.AdjustMapEffect(arg_17_0, arg_17_1)
 	local var_17_2 = arg_17_1:GetComponentsInChildren(typeof("UnityEngine.ParticleSystemRenderer")):ToTable()
 
 	for iter_17_2, iter_17_3 in ipairs(var_17_2) do
-		local var_17_3 = ReflectionHelp.RefGetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", iter_17_3)
+		local var_17_3 = iter_17_3.sortingOrder
 
 		if var_17_0 < var_17_3 then
 			var_17_0 = var_17_3

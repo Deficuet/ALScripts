@@ -289,4 +289,19 @@ function var_0_0.getFinishTasks(arg_21_0)
 	return var_21_1
 end
 
+function var_0_0.GetActivityTasks(arg_24_0, arg_24_1)
+	local var_24_0 = arg_24_0:getTaskById(arg_24_1)
+	local var_24_1 = arg_24_0:getFinishTaskById(arg_24_1)
+	local var_24_2 = {}
+
+	_.each(var_24_0, function(arg_25_0)
+		var_24_2[arg_25_0.id] = arg_25_0
+	end)
+	_.each(var_24_1, function(arg_26_0)
+		var_24_2[arg_26_0.id] = arg_26_0
+	end)
+
+	return var_24_2
+end
+
 return var_0_0

@@ -4109,6 +4109,13 @@ pg.memory_template.all = {
 	5105,
 	5106,
 	5107,
+	5111,
+	5112,
+	5113,
+	5114,
+	5115,
+	5116,
+	5117,
 	10011,
 	10012,
 	10013,
@@ -66048,6 +66055,111 @@ end)()
 			"SHANYAOHAIBINRICHANG7"
 		}
 	}
+	pg.base.memory_template[5111] = {
+		type = 1,
+		subtitle = "",
+		story = "MEIKELUNBAO1",
+		mask = "bg/bg_memory",
+		title = "魔女的契约宣告",
+		condition = "解锁「红月下的永夜契约」任务1",
+		number = 0,
+		id = 5111,
+		icon = "memory_meikelunbao",
+		is_open = 0,
+		unlock_pre = {
+			"MEIKELUNBAO1"
+		}
+	}
+	pg.base.memory_template[5112] = {
+		type = 1,
+		subtitle = "",
+		story = "MEIKELUNBAO2",
+		mask = "bg/bg_memory",
+		title = "暗夜森林的低语",
+		condition = "解锁「红月下的永夜契约」任务2",
+		number = 0,
+		id = 5112,
+		icon = "memory_meikelunbao",
+		is_open = 0,
+		unlock_pre = {
+			"MEIKELUNBAO2"
+		}
+	}
+	pg.base.memory_template[5113] = {
+		type = 1,
+		subtitle = "",
+		story = "MEIKELUNBAO3",
+		mask = "bg/bg_memory",
+		title = "星轨交织之厅",
+		condition = "解锁「红月下的永夜契约」任务3",
+		number = 0,
+		id = 5113,
+		icon = "memory_meikelunbao",
+		is_open = 0,
+		unlock_pre = {
+			"MEIKELUNBAO3"
+		}
+	}
+	pg.base.memory_template[5114] = {
+		type = 1,
+		subtitle = "",
+		story = "MEIKELUNBAO4",
+		mask = "bg/bg_memory",
+		title = "共饮灵魂魔药",
+		condition = "解锁「红月下的永夜契约」任务4",
+		number = 0,
+		id = 5114,
+		icon = "memory_meikelunbao",
+		is_open = 0,
+		unlock_pre = {
+			"MEIKELUNBAO4"
+		}
+	}
+	pg.base.memory_template[5115] = {
+		type = 1,
+		subtitle = "",
+		story = "MEIKELUNBAO5",
+		mask = "bg/bg_memory",
+		title = "锢筑爱之枷锁",
+		condition = "解锁「红月下的永夜契约」任务5",
+		number = 0,
+		id = 5115,
+		icon = "memory_meikelunbao",
+		is_open = 0,
+		unlock_pre = {
+			"MEIKELUNBAO5"
+		}
+	}
+	pg.base.memory_template[5116] = {
+		type = 1,
+		subtitle = "",
+		story = "MEIKELUNBAO6",
+		mask = "bg/bg_memory",
+		title = "翱翔于红月之下",
+		condition = "解锁「红月下的永夜契约」任务6",
+		number = 0,
+		id = 5116,
+		icon = "memory_meikelunbao",
+		is_open = 0,
+		unlock_pre = {
+			"MEIKELUNBAO6"
+		}
+	}
+	pg.base.memory_template[5117] = {
+		type = 1,
+		subtitle = "",
+		story = "MEIKELUNBAO7",
+		mask = "bg/bg_memory",
+		title = "永夜同行者号",
+		condition = "解锁「红月下的永夜契约」任务7",
+		number = 0,
+		id = 5117,
+		icon = "memory_meikelunbao",
+		is_open = 0,
+		unlock_pre = {
+			"MEIKELUNBAO7"
+		}
+	}
 	pg.base.memory_template[10011] = {
 		type = 1,
 		subtitle = "",
@@ -67368,6 +67480,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA31"
 		}
 	}
+end)()
+;(function()
 	pg.base.memory_template[20031] = {
 		type = 1,
 		subtitle = "",
@@ -67473,8 +67587,6 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA38"
 		}
 	}
-end)()
-;(function()
 	pg.base.memory_template[20038] = {
 		type = 1,
 		subtitle = "",
@@ -68870,6 +68982,8 @@ end)()
 			"LINGYANGZHEXINZHIXUYU3"
 		}
 	}
+end)()
+;(function()
 	pg.base.memory_template[20131] = {
 		type = 1,
 		subtitle = "",
@@ -68975,8 +69089,6 @@ end)()
 			"LINGYANGZHELAIFANGJISHI1"
 		}
 	}
-end)()
-;(function()
 	pg.base.memory_template[20139] = {
 		type = 1,
 		subtitle = "",

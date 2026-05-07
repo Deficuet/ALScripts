@@ -26,15 +26,6 @@ function var_0_0.UpdateAdapt(arg_5_0)
 	local var_5_4 = math.clamp(var_5_3, var_5_0, var_5_1)
 
 	arg_5_0._tf:GetComponent(typeof(AspectRatioFitter)).aspectRatio = var_5_4
-
-	setSizeDelta(arg_5_0._tf:Find("adapt"), {
-		x = 0,
-		y = 0
-	})
-
-	local var_5_5 = NotchAdapt.CheckNotchRatio == math.clamp(NotchAdapt.CheckNotchRatio, var_5_0, var_5_1)
-
-	SetComponentEnabled(arg_5_0._tf:Find("adapt"), "NotchAdapt", var_5_5)
 end
 
 function var_0_0.willExit(arg_6_0)

@@ -23,10 +23,11 @@ local var_0_3 = false
 function var_0_1.Init(arg_1_0)
 	var_0_2 = {}
 
-	for iter_1_0, iter_1_1 in ipairs(var_0_0.push_data_template) do
-		local var_1_0 = PlayerPrefs.GetInt("push_setting_" .. iter_1_1.id)
+	for iter_1_0, iter_1_1 in ipairs(var_0_0.push_data_template.all) do
+		local var_1_0 = var_0_0.push_data_template[iter_1_1]
+		local var_1_1 = PlayerPrefs.GetInt("push_setting_" .. var_1_0.id)
 
-		var_0_2[iter_1_1.id] = var_1_0 == 0
+		var_0_2[var_1_0.id] = var_1_1 == 0
 	end
 
 	var_0_3 = PlayerPrefs.GetInt("setting_ship_name") == 1
@@ -35,10 +36,12 @@ end
 function var_0_1.Reset(arg_2_0)
 	var_0_2 = {}
 
-	for iter_2_0, iter_2_1 in ipairs(var_0_0.push_data_template) do
-		PlayerPrefs.SetInt("push_setting_" .. iter_2_1.id, 0)
+	for iter_2_0, iter_2_1 in ipairs(var_0_0.push_data_template.all) do
+		local var_2_0 = var_0_0.push_data_template[iter_2_1]
 
-		var_0_2[iter_2_1.id] = true
+		PlayerPrefs.SetInt("push_setting_" .. var_2_0.id, 0)
+
+		var_0_2[var_2_0.id] = true
 	end
 
 	PlayerPrefs.SetInt("setting_ship_name", 0)

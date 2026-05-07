@@ -94,7 +94,55 @@ pg.island_draw_reward.all = {
 	2044,
 	2045,
 	2046,
-	2047
+	2047,
+	3001,
+	3002,
+	3003,
+	3004,
+	3005,
+	3006,
+	3007,
+	3008,
+	3009,
+	3010,
+	3011,
+	3012,
+	3013,
+	3014,
+	3015,
+	3016,
+	3017,
+	3018,
+	3019,
+	3020,
+	3021,
+	3022,
+	3023,
+	3024,
+	3025,
+	3026,
+	3027,
+	3028,
+	3029,
+	3030,
+	3031,
+	3032,
+	3033,
+	3034,
+	3035,
+	3036,
+	3037,
+	3038,
+	3039,
+	3040,
+	3041,
+	3042,
+	3043,
+	3044,
+	3045,
+	3046,
+	3047,
+	3048
 }
 pg.base = pg.base or {}
 pg.base.island_draw_reward = {}
@@ -835,5 +883,391 @@ pg.base.island_draw_reward = {}
 		drop_num = 1,
 		drop_id = 3031201,
 		show = "draw2_T_3"
+	}
+	pg.base.island_draw_reward[3001] = {
+		id = 3001,
+		rarity = 4,
+		drop_type = 44,
+		drop_num = 1,
+		drop_id = 50201,
+		show = "draw3_S_1"
+	}
+	pg.base.island_draw_reward[3002] = {
+		id = 3002,
+		rarity = 4,
+		drop_type = 44,
+		drop_num = 1,
+		drop_id = 50107,
+		show = "draw3_S_2"
+	}
+	pg.base.island_draw_reward[3003] = {
+		id = 3003,
+		rarity = 4,
+		drop_type = 44,
+		drop_num = 1,
+		drop_id = 49906,
+		show = "draw3_S_3"
+	}
+	pg.base.island_draw_reward[3004] = {
+		id = 3004,
+		rarity = 3,
+		drop_type = 46,
+		drop_num = 1,
+		drop_id = 1020012,
+		show = ""
+	}
+	pg.base.island_draw_reward[3005] = {
+		id = 3005,
+		rarity = 3,
+		drop_type = 46,
+		drop_num = 1,
+		drop_id = 1030012,
+		show = ""
+	}
+	pg.base.island_draw_reward[3006] = {
+		id = 3006,
+		rarity = 3,
+		drop_type = 46,
+		drop_num = 1,
+		drop_id = 1010013,
+		show = ""
+	}
+	pg.base.island_draw_reward[3007] = {
+		id = 3007,
+		rarity = 3,
+		drop_type = 46,
+		drop_num = 1,
+		drop_id = 1020013,
+		show = ""
+	}
+	pg.base.island_draw_reward[3008] = {
+		id = 3008,
+		rarity = 3,
+		drop_type = 46,
+		drop_num = 1,
+		drop_id = 1030013,
+		show = ""
+	}
+end)()
+;(function()
+	pg.base.island_draw_reward[3009] = {
+		id = 3009,
+		rarity = 3,
+		drop_type = 46,
+		drop_num = 1,
+		drop_id = 1010014,
+		show = ""
+	}
+	pg.base.island_draw_reward[3010] = {
+		id = 3010,
+		rarity = 3,
+		drop_type = 46,
+		drop_num = 1,
+		drop_id = 1020011,
+		show = ""
+	}
+	pg.base.island_draw_reward[3011] = {
+		id = 3011,
+		rarity = 3,
+		drop_type = 46,
+		drop_num = 1,
+		drop_id = 1030011,
+		show = ""
+	}
+	pg.base.island_draw_reward[3012] = {
+		id = 3012,
+		rarity = 3,
+		drop_type = 46,
+		drop_num = 1,
+		drop_id = 1010012,
+		show = ""
+	}
+	pg.base.island_draw_reward[3013] = {
+		id = 3013,
+		rarity = 3,
+		drop_type = 46,
+		drop_num = 1,
+		drop_id = 1060012,
+		show = "draw3_A_1"
+	}
+	pg.base.island_draw_reward[3014] = {
+		id = 3014,
+		rarity = 3,
+		drop_type = 46,
+		drop_num = 1,
+		drop_id = 1060011,
+		show = "draw3_A_2"
+	}
+	pg.base.island_draw_reward[3015] = {
+		id = 3015,
+		rarity = 3,
+		drop_type = 46,
+		drop_num = 1,
+		drop_id = 1060010,
+		show = "draw3_A_3"
+	}
+	pg.base.island_draw_reward[3016] = {
+		id = 3016,
+		rarity = 2,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40101,
+		show = "draw3_B_1"
+	}
+	pg.base.island_draw_reward[3017] = {
+		id = 3017,
+		rarity = 2,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40201,
+		show = ""
+	}
+	pg.base.island_draw_reward[3018] = {
+		id = 3018,
+		rarity = 2,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40401,
+		show = ""
+	}
+	pg.base.island_draw_reward[3019] = {
+		id = 3019,
+		rarity = 2,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40402,
+		show = ""
+	}
+	pg.base.island_draw_reward[3020] = {
+		id = 3020,
+		rarity = 2,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40403,
+		show = ""
+	}
+	pg.base.island_draw_reward[3021] = {
+		id = 3021,
+		rarity = 2,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40404,
+		show = ""
+	}
+	pg.base.island_draw_reward[3022] = {
+		id = 3022,
+		rarity = 2,
+		drop_type = 51,
+		drop_num = 1,
+		drop_id = 1023,
+		show = ""
+	}
+	pg.base.island_draw_reward[3023] = {
+		id = 3023,
+		rarity = 2,
+		drop_type = 51,
+		drop_num = 1,
+		drop_id = 2005,
+		show = ""
+	}
+	pg.base.island_draw_reward[3024] = {
+		id = 3024,
+		rarity = 2,
+		drop_type = 51,
+		drop_num = 1,
+		drop_id = 1024,
+		show = ""
+	}
+	pg.base.island_draw_reward[3025] = {
+		id = 3025,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40304,
+		show = "draw3_C_1"
+	}
+	pg.base.island_draw_reward[3026] = {
+		id = 3026,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40301,
+		show = ""
+	}
+	pg.base.island_draw_reward[3027] = {
+		id = 3027,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40405,
+		show = ""
+	}
+	pg.base.island_draw_reward[3028] = {
+		id = 3028,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40416,
+		show = ""
+	}
+	pg.base.island_draw_reward[3029] = {
+		id = 3029,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40412,
+		show = ""
+	}
+	pg.base.island_draw_reward[3030] = {
+		id = 3030,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40302,
+		show = ""
+	}
+	pg.base.island_draw_reward[3031] = {
+		id = 3031,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40413,
+		show = ""
+	}
+	pg.base.island_draw_reward[3032] = {
+		id = 3032,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40415,
+		show = ""
+	}
+	pg.base.island_draw_reward[3033] = {
+		id = 3033,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40303,
+		show = ""
+	}
+	pg.base.island_draw_reward[3034] = {
+		id = 3034,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40414,
+		show = ""
+	}
+	pg.base.island_draw_reward[3035] = {
+		id = 3035,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40417,
+		show = ""
+	}
+	pg.base.island_draw_reward[3036] = {
+		id = 3036,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40418,
+		show = ""
+	}
+	pg.base.island_draw_reward[3037] = {
+		id = 3037,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40419,
+		show = ""
+	}
+	pg.base.island_draw_reward[3038] = {
+		id = 3038,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40420,
+		show = ""
+	}
+	pg.base.island_draw_reward[3039] = {
+		id = 3039,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40410,
+		show = ""
+	}
+	pg.base.island_draw_reward[3040] = {
+		id = 3040,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40406,
+		show = ""
+	}
+	pg.base.island_draw_reward[3041] = {
+		id = 3041,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40411,
+		show = ""
+	}
+	pg.base.island_draw_reward[3042] = {
+		id = 3042,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40408,
+		show = ""
+	}
+	pg.base.island_draw_reward[3043] = {
+		id = 3043,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40409,
+		show = ""
+	}
+	pg.base.island_draw_reward[3044] = {
+		id = 3044,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40407,
+		show = ""
+	}
+	pg.base.island_draw_reward[3045] = {
+		id = 3045,
+		rarity = 1,
+		drop_type = 45,
+		drop_num = 1,
+		drop_id = 40803,
+		show = ""
+	}
+	pg.base.island_draw_reward[3046] = {
+		id = 3046,
+		rarity = 1,
+		drop_type = 47,
+		drop_num = 1,
+		drop_id = 5020101,
+		show = "draw3_T_1"
+	}
+	pg.base.island_draw_reward[3047] = {
+		id = 3047,
+		rarity = 1,
+		drop_type = 47,
+		drop_num = 1,
+		drop_id = 5010701,
+		show = "draw3_T_2"
+	}
+	pg.base.island_draw_reward[3048] = {
+		id = 3048,
+		rarity = 1,
+		drop_type = 47,
+		drop_num = 1,
+		drop_id = 4990601,
+		show = "draw3_T_3"
 	}
 end)()

@@ -927,7 +927,7 @@ function var_0_0.OpEvent(arg_93_0, arg_93_1, arg_93_2)
 			end
 		end)
 	elseif var_93_4 == WorldMapAttachment.EffectEventConsumeItem then
-		if var_93_0.isAutoFight then
+		if var_93_0.isAutoFight or var_93_5[4] then
 			-- block empty
 		else
 			table.insert(var_93_6, function(arg_98_0)
@@ -1109,293 +1109,320 @@ function var_0_0.OpTriggerEvent(arg_121_0, arg_121_1, arg_121_2)
 	local var_121_3 = var_121_2.effect_type
 	local var_121_4 = var_121_2.effect_paramater
 
-	if var_121_3 == WorldMapAttachment.EffectEventStory then
-		local var_121_5 = getProxy(WorldProxy)
-		local var_121_6 = var_121_4[1]
+	switch(var_121_3, {
+		[WorldMapAttachment.EffectEventStory] = function()
+			local var_122_0 = getProxy(WorldProxy)
+			local var_122_1 = var_121_4[1]
 
-		if WorldConst.CheckWorldStorySkip(var_121_6) then
-			table.insert(var_121_1, function(arg_122_0)
-				var_0_1:ReContinueMoveQueue()
-				arg_122_0()
-			end)
-		else
-			table.insert(var_121_1, function(arg_123_0)
-				arg_121_0:OpStory(var_121_6, true, false, var_121_0.isAutoFight and {} or false, arg_123_0)
-			end)
-		end
+			if WorldConst.CheckWorldStorySkip(var_122_1) then
+				table.insert(var_121_1, function(arg_123_0)
+					var_0_1:ReContinueMoveQueue()
+					arg_123_0()
+				end)
+			else
+				table.insert(var_121_1, function(arg_124_0)
+					arg_121_0:OpStory(var_122_1, true, false, var_121_0.isAutoFight and {} or false, arg_124_0)
+				end)
+			end
 
-		table.insert(var_121_1, function(arg_124_0)
-			arg_121_1:Apply()
-			arg_124_0()
-		end)
-	elseif var_121_3 == WorldMapAttachment.EffectEventTeleport or var_121_3 == WorldMapAttachment.EffectEventTeleportBack then
-		local var_121_7 = arg_121_1.attachment
-
-		assert(var_121_7 and var_121_7.type == WorldMapAttachment.TypeEvent)
-
-		local var_121_8 = var_121_0:GetMap(arg_121_1.destMapId)
-		local var_121_9 = arg_121_1.effect.effect_paramater[1]
-
-		if var_121_9[#var_121_9] == 1 then
 			table.insert(var_121_1, function(arg_125_0)
-				var_0_1:ShowTransportMarkOverview({
-					ids = {
-						arg_121_1.entranceId
-					}
-				}, arg_125_0)
-			end)
-		end
-
-		if var_0_1:GetInMap() and var_121_7.config.icon == "chuansong01" then
-			table.insert(var_121_1, function(arg_126_0)
-				arg_121_0:OpAttachmentAnim(var_0_1:NewMapOp({
-					anim = "chuansong_open",
-					attachment = var_121_7
-				}), arg_126_0)
-			end)
-		end
-
-		table.insert(var_121_1, function(arg_127_0)
-			arg_121_0:OpSwitchMap(arg_121_1, arg_127_0)
-		end)
-	elseif var_121_3 == WorldMapAttachment.EffectEventShowMapMark then
-		if var_121_0.isAutoFight then
-			-- block empty
-		else
-			table.insert(var_121_1, function(arg_128_0)
-				arg_121_0:OpShowMarkOverview({
-					ids = var_121_4
-				}, arg_128_0)
-			end)
-		end
-
-		table.insert(var_121_1, function(arg_129_0)
-			arg_121_1:Apply()
-			arg_129_0()
-		end)
-	elseif var_121_3 == WorldMapAttachment.EffectEventCameraMove then
-		table.insert(var_121_1, function(arg_130_0)
-			arg_121_0:OpMoveCamera(var_121_4[1], var_121_4[2], function()
 				arg_121_1:Apply()
-				arg_130_0()
+				arg_125_0()
 			end)
-		end)
-	elseif var_121_3 == WorldMapAttachment.EffectEventShakePlane then
-		table.insert(var_121_1, function(arg_132_0)
-			arg_121_0:OpShakePlane(var_121_4[1], var_121_4[2], var_121_4[3], var_121_4[4], function()
+		end,
+		[WorldMapAttachment.EffectEventTeleport] = function()
+			local var_126_0 = arg_121_1.attachment
+
+			assert(var_126_0 and var_126_0.type == WorldMapAttachment.TypeEvent)
+
+			local var_126_1 = var_121_0:GetMap(arg_121_1.destMapId)
+			local var_126_2 = arg_121_1.effect.effect_paramater[1]
+
+			if var_126_2[#var_126_2] == 1 then
+				table.insert(var_121_1, function(arg_127_0)
+					var_0_1:ShowTransportMarkOverview({
+						ids = {
+							arg_121_1.entranceId
+						}
+					}, arg_127_0)
+				end)
+			end
+
+			if var_0_1:GetInMap() and var_126_0.config.icon == "chuansong01" then
+				table.insert(var_121_1, function(arg_128_0)
+					arg_121_0:OpAttachmentAnim(var_0_1:NewMapOp({
+						anim = "chuansong_open",
+						attachment = var_126_0
+					}), arg_128_0)
+				end)
+			end
+
+			table.insert(var_121_1, function(arg_129_0)
+				arg_121_0:OpSwitchMap(arg_121_1, arg_129_0)
+			end)
+		end,
+		[WorldMapAttachment.EffectEventTeleportBack] = WorldMapAttachment.EffectEventTeleport,
+		[WorldMapAttachment.EffectEventShowMapMark] = function()
+			if var_121_0.isAutoFight then
+				-- block empty
+			else
+				table.insert(var_121_1, function(arg_131_0)
+					arg_121_0:OpShowMarkOverview({
+						ids = var_121_4
+					}, arg_131_0)
+				end)
+			end
+
+			table.insert(var_121_1, function(arg_132_0)
 				arg_121_1:Apply()
 				arg_132_0()
 			end)
-		end)
-	elseif var_121_3 == WorldMapAttachment.EffectEventBlink1 or var_121_3 == WorldMapAttachment.EffectEventBlink2 then
-		table.insert(var_121_1, function(arg_134_0)
-			var_121_0:TriggerAutoFight(false)
-			arg_121_0:OpActions(arg_121_1.childOps, function()
-				arg_121_1:Apply()
-				arg_134_0()
+		end,
+		[WorldMapAttachment.EffectEventCameraMove] = function()
+			table.insert(var_121_1, function(arg_134_0)
+				arg_121_0:OpMoveCamera(var_121_4[1], var_121_4[2], function()
+					arg_121_1:Apply()
+					arg_134_0()
+				end)
 			end)
-		end)
-	elseif var_121_3 == WorldMapAttachment.EffectEventFlash then
-		table.insert(var_121_1, function(arg_136_0)
-			local var_136_0 = Color.New(var_121_4[4][1] / 255, var_121_4[4][2] / 255, var_121_4[4][3] / 255, var_121_4[4][4] / 255)
-
-			arg_121_0:OpFlash(var_121_4[1], var_121_4[2], var_121_4[3], var_136_0, function()
-				arg_121_1:Apply()
-				arg_136_0()
+		end,
+		[WorldMapAttachment.EffectEventShakePlane] = function()
+			table.insert(var_121_1, function(arg_137_0)
+				arg_121_0:OpShakePlane(var_121_4[1], var_121_4[2], var_121_4[3], var_121_4[4], function()
+					arg_121_1:Apply()
+					arg_137_0()
+				end)
 			end)
-		end)
-	elseif var_121_3 == WorldMapAttachment.EffectEventShipBuff then
-		table.insert(var_121_1, function(arg_138_0)
-			arg_121_1:Apply()
-			arg_138_0()
-		end)
-	elseif var_121_3 == WorldMapAttachment.EffectEventHelp then
-		if var_121_0.isAutoFight then
-			-- block empty
-		else
-			table.insert(var_121_1, function(arg_139_0)
-				local var_139_0 = WorldConst.BuildHelpTips(var_121_0:GetProgress())
-
-				var_139_0.defaultpage = var_121_4[1]
-
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					type = MSGBOX_TYPE_HELP,
-					helps = var_139_0,
-					onClose = arg_139_0
-				})
+		end,
+		[WorldMapAttachment.EffectEventBlink1] = function()
+			table.insert(var_121_1, function(arg_140_0)
+				var_121_0:TriggerAutoFight(false)
+				arg_121_0:OpActions(arg_121_1.childOps, function()
+					arg_121_1:Apply()
+					arg_140_0()
+				end)
 			end)
-		end
+		end,
+		[WorldMapAttachment.EffectEventBlink2] = WorldMapAttachment.EffectEventBlink1,
+		[WorldMapAttachment.EffectEventFlash] = function()
+			table.insert(var_121_1, function(arg_143_0)
+				local var_143_0 = Color.New(var_121_4[4][1] / 255, var_121_4[4][2] / 255, var_121_4[4][3] / 255, var_121_4[4][4] / 255)
 
-		table.insert(var_121_1, function(arg_140_0)
-			arg_121_1:Apply()
-			arg_140_0()
-		end)
-	elseif var_121_3 == WorldMapAttachment.EffectEventProgress then
-		table.insert(var_121_1, function(arg_141_0)
-			arg_121_0:OpActions(arg_121_1.childOps, function()
-				arg_121_1:Apply()
-				arg_141_0()
+				arg_121_0:OpFlash(var_121_4[1], var_121_4[2], var_121_4[3], var_143_0, function()
+					arg_121_1:Apply()
+					arg_143_0()
+				end)
 			end)
-		end)
-	elseif var_121_3 == WorldMapAttachment.EffectEventReturn2World then
-		table.insert(var_121_1, function(arg_143_0)
-			var_121_0:TriggerAutoFight(false)
-			arg_121_0:OpSetInMap(false, function()
-				arg_121_1:Apply()
-				arg_143_0()
-			end)
-		end)
-	elseif var_121_3 == WorldMapAttachment.EffectEventShowPort then
-		table.insert(var_121_1, function(arg_145_0)
-			arg_121_1:Apply()
-			var_121_0:TriggerAutoFight(false)
-			var_0_1:OpenPortLayer({
-				page = var_121_4[1]
-			})
-			arg_145_0()
-		end)
-	elseif var_121_3 == WorldMapAttachment.EffectEventGlobalBuff then
-		local var_121_10 = {
-			id = var_121_4[1],
-			floor = var_121_4[2],
-			before = var_121_0:GetGlobalBuff(var_121_4[1]):GetFloor()
-		}
-
-		if var_121_0.isAutoFight then
-			var_121_0:AddAutoInfo("buffs", var_121_10)
-		else
+		end,
+		[WorldMapAttachment.EffectEventShipBuff] = function()
 			table.insert(var_121_1, function(arg_146_0)
-				var_0_1:ShowSubView("GlobalBuff", {
-					var_121_10,
-					arg_146_0
+				arg_121_1:Apply()
+				arg_146_0()
+			end)
+		end,
+		[WorldMapAttachment.EffectEventHelp] = function()
+			if var_121_0.isAutoFight then
+				-- block empty
+			else
+				table.insert(var_121_1, function(arg_148_0)
+					local var_148_0 = WorldConst.BuildHelpTips(var_121_0:GetProgress())
+
+					var_148_0.defaultpage = var_121_4[1]
+
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						type = MSGBOX_TYPE_HELP,
+						helps = var_148_0,
+						onClose = arg_148_0
+					})
+				end)
+			end
+
+			table.insert(var_121_1, function(arg_149_0)
+				arg_121_1:Apply()
+				arg_149_0()
+			end)
+		end,
+		[WorldMapAttachment.EffectEventProgress] = function()
+			table.insert(var_121_1, function(arg_151_0)
+				arg_121_0:OpActions(arg_121_1.childOps, function()
+					arg_121_1:Apply()
+					arg_151_0()
+				end)
+			end)
+		end,
+		[WorldMapAttachment.EffectEventReturn2World] = function()
+			table.insert(var_121_1, function(arg_154_0)
+				var_121_0:TriggerAutoFight(false)
+				arg_121_0:OpSetInMap(false, function()
+					arg_121_1:Apply()
+					arg_154_0()
+				end)
+			end)
+		end,
+		[WorldMapAttachment.EffectEventShowPort] = function()
+			table.insert(var_121_1, function(arg_157_0)
+				arg_121_1:Apply()
+				var_121_0:TriggerAutoFight(false)
+				var_0_1:OpenPortLayer({
+					page = var_121_4[1]
 				})
+				arg_157_0()
+			end)
+		end,
+		[WorldMapAttachment.EffectEventGlobalBuff] = function()
+			local var_158_0 = {
+				id = var_121_4[1],
+				floor = var_121_4[2],
+				before = var_121_0:GetGlobalBuff(var_121_4[1]):GetFloor()
+			}
+
+			if var_121_0.isAutoFight then
+				var_121_0:AddAutoInfo("buffs", var_158_0)
+			else
+				table.insert(var_121_1, function(arg_159_0)
+					var_0_1:ShowSubView("GlobalBuff", {
+						var_158_0,
+						arg_159_0
+					})
+				end)
+			end
+
+			table.insert(var_121_1, function(arg_160_0)
+				arg_121_1:Apply()
+				arg_160_0()
+			end)
+		end,
+		[WorldMapAttachment.EffectEventSound] = function()
+			table.insert(var_121_1, function(arg_162_0)
+				arg_121_0:OpPlaySound(var_121_4[1], function()
+					arg_121_1:Apply()
+					arg_162_0()
+				end)
+			end)
+		end,
+		[WorldMapAttachment.EffectEventHelpLayer] = function()
+			table.insert(var_121_1, function(arg_165_0)
+				var_121_0:TriggerAutoFight(false)
+				arg_121_1:Apply()
+				arg_121_0:OpOpenLayer(Context.New({
+					mediator = WorldHelpMediator,
+					viewComponent = WorldHelpLayer,
+					data = {
+						titleId = var_121_4[1],
+						pageId = var_121_4[2]
+					},
+					onRemoved = arg_165_0
+				}))
+			end)
+		end,
+		[WorldMapAttachment.EffectEventFleetShipHP] = function()
+			table.insert(var_121_1, function(arg_167_0)
+				arg_121_1:Apply()
+
+				if var_121_4[1] > 0 then
+					arg_121_0:OpShowAllFleetHealth(arg_167_0)
+				else
+					arg_167_0()
+				end
+			end)
+		end,
+		[WorldMapAttachment.EffectEventCatSalvage] = function()
+			table.insert(var_121_1, function(arg_169_0)
+				arg_121_1:Apply()
+				pg.TipsMgr.GetInstance():ShowTips(i18n("world_catsearch_success"))
+				arg_169_0()
+			end)
+		end,
+		[WorldMapAttachment.EffectEventTeleportEvent] = function()
+			table.insert(var_121_1, function(arg_171_0)
+				arg_121_1:Apply()
+
+				local var_171_0 = var_0_1.wsMap:GetFleet()
+
+				var_0_1.wsDragProxy:Focus(var_171_0.transform.position, nil, LeanTweenType.easeInOutSine, arg_171_0)
+			end)
+		end,
+		[WorldMapAttachment.EffectSideText] = function()
+			table.insert(var_121_1, function(arg_173_0)
+				arg_121_1:Apply()
+				var_0_1.wsMapTop:OnUpdateFlashTips(nil, nil, var_121_4[1])
+				arg_173_0()
 			end)
 		end
-
-		table.insert(var_121_1, function(arg_147_0)
+	}, function()
+		table.insert(var_121_1, function(arg_175_0)
 			arg_121_1:Apply()
-			arg_147_0()
+			arg_175_0()
 		end)
-	elseif var_121_3 == WorldMapAttachment.EffectEventSound then
-		table.insert(var_121_1, function(arg_148_0)
-			arg_121_0:OpPlaySound(var_121_4[1], function()
-				arg_121_1:Apply()
-				arg_148_0()
-			end)
-		end)
-	elseif var_121_3 == WorldMapAttachment.EffectEventHelpLayer then
-		table.insert(var_121_1, function(arg_150_0)
-			var_121_0:TriggerAutoFight(false)
-			arg_121_1:Apply()
-			arg_121_0:OpOpenLayer(Context.New({
-				mediator = WorldHelpMediator,
-				viewComponent = WorldHelpLayer,
-				data = {
-					titleId = var_121_4[1],
-					pageId = var_121_4[2]
-				},
-				onRemoved = arg_150_0
-			}))
-		end)
-	elseif var_121_3 == WorldMapAttachment.EffectEventFleetShipHP then
-		table.insert(var_121_1, function(arg_151_0)
-			arg_121_1:Apply()
-
-			if var_121_4[1] > 0 then
-				arg_121_0:OpShowAllFleetHealth(arg_151_0)
-			else
-				arg_151_0()
-			end
-		end)
-	elseif var_121_3 == WorldMapAttachment.EffectEventCatSalvage then
-		table.insert(var_121_1, function(arg_152_0)
-			arg_121_1:Apply()
-			pg.TipsMgr.GetInstance():ShowTips(i18n("world_catsearch_success"))
-			arg_152_0()
-		end)
-	elseif var_121_3 == WorldMapAttachment.EffectEventTeleportEvent then
-		table.insert(var_121_1, function(arg_153_0)
-			arg_121_1:Apply()
-
-			local var_153_0 = var_0_1.wsMap:GetFleet()
-
-			var_0_1.wsDragProxy:Focus(var_153_0.transform.position, nil, LeanTweenType.easeInOutSine, arg_153_0)
-		end)
-	else
-		table.insert(var_121_1, function(arg_154_0)
-			arg_121_1:Apply()
-			arg_154_0()
-		end)
-	end
-
+	end)
 	seriesAsync(var_121_1, arg_121_2)
 end
 
-function var_0_0.OpReqRetreat(arg_155_0, arg_155_1)
-	local var_155_0 = nowWorld():GetActiveMap():GetCell(arg_155_1.row, arg_155_1.column)
+function var_0_0.OpReqRetreat(arg_176_0, arg_176_1)
+	local var_176_0 = nowWorld():GetActiveMap():GetCell(arg_176_1.row, arg_176_1.column)
 
-	assert(var_155_0:ExistEnemy())
+	assert(var_176_0:ExistEnemy())
 
-	local var_155_1 = var_155_0:GetAliveAttachment()
+	local var_176_1 = var_176_0:GetAliveAttachment()
 
 	var_0_1:emit(WorldMediator.OnMapOp, var_0_1:NewMapOp({
 		op = WorldConst.OpReqRetreat,
-		id = arg_155_1.id,
-		attachment = var_155_1
+		id = arg_176_1.id,
+		attachment = var_176_1
 	}))
 end
 
-function var_0_0.OpReqRetreatDone(arg_156_0, arg_156_1)
-	local var_156_0 = {}
+function var_0_0.OpReqRetreatDone(arg_177_0, arg_177_1)
+	local var_177_0 = {}
 
-	table.insert(var_156_0, function(arg_157_0)
-		arg_156_0:OpActions(arg_156_1.childOps, arg_157_0)
+	table.insert(var_177_0, function(arg_178_0)
+		arg_177_0:OpActions(arg_177_1.childOps, arg_178_0)
 	end)
-	seriesAsync(var_156_0, function()
-		arg_156_1:Apply()
-		arg_156_0:OpInteractive()
+	seriesAsync(var_177_0, function()
+		arg_177_1:Apply()
+		arg_177_0:OpInteractive()
 	end)
 end
 
-function var_0_0.OpTransport(arg_159_0, arg_159_1, arg_159_2)
-	arg_159_0:OpDone()
+function var_0_0.OpTransport(arg_180_0, arg_180_1, arg_180_2)
+	arg_180_0:OpDone()
 
-	local var_159_0 = nowWorld()
-	local var_159_1 = var_159_0:GetActiveMap()
+	local var_180_0 = nowWorld()
+	local var_180_1 = var_180_0:GetActiveMap()
 
-	if not var_159_0:IsSystemOpen(WorldConst.SystemOutMap) then
+	if not var_180_0:IsSystemOpen(WorldConst.SystemOutMap) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("word_systemClose"))
-	elseif not arg_159_2:IsMapOpen() then
+	elseif not arg_180_2:IsMapOpen() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("world_map_not_open"))
 	else
-		arg_159_0:OpReqTransport(var_159_1:GetFleet(), arg_159_1, arg_159_2)
+		arg_180_0:OpReqTransport(var_180_1:GetFleet(), arg_180_1, arg_180_2)
 	end
 end
 
-function var_0_0.OpReqTransport(arg_160_0, arg_160_1, arg_160_2, arg_160_3)
+function var_0_0.OpReqTransport(arg_181_0, arg_181_1, arg_181_2, arg_181_3)
 	var_0_1:emit(WorldMediator.OnMapOp, var_0_1:NewMapOp({
 		op = WorldConst.OpReqTransport,
-		id = arg_160_1.id,
-		arg1 = arg_160_3.id,
-		arg2 = arg_160_2.id,
+		id = arg_181_1.id,
+		arg1 = arg_181_3.id,
+		arg2 = arg_181_2.id,
 		locations = {
-			arg_160_3:CalcTransportPos(nowWorld():GetActiveEntrance(), arg_160_2)
+			arg_181_3:CalcTransportPos(nowWorld():GetActiveEntrance(), arg_181_2)
 		}
 	}))
 end
 
-function var_0_0.OpReqTransportDone(arg_161_0, arg_161_1)
-	local var_161_0 = {}
+function var_0_0.OpReqTransportDone(arg_182_0, arg_182_1)
+	local var_182_0 = {}
 
-	seriesAsync(var_161_0, function()
-		arg_161_0:OpSwitchMap(arg_161_1)
+	seriesAsync(var_182_0, function()
+		arg_182_0:OpSwitchMap(arg_182_1)
 	end)
 end
 
-function var_0_0.OpReqSub(arg_163_0, arg_163_1)
+function var_0_0.OpReqSub(arg_184_0, arg_184_1)
 	assert(nowWorld():CanCallSubmarineSupport())
 
-	var_0_1.subCallback = arg_163_1
+	var_0_1.subCallback = arg_184_1
 
 	var_0_1:emit(WorldMediator.OnMapOp, var_0_1:NewMapOp({
 		op = WorldConst.OpReqSub,
@@ -1403,708 +1430,708 @@ function var_0_0.OpReqSub(arg_163_0, arg_163_1)
 	}))
 end
 
-function var_0_0.OpReqSubDone(arg_164_0, arg_164_1)
-	local var_164_0 = nowWorld()
-	local var_164_1 = var_164_0:CalcOrderCost(WorldConst.OpReqSub)
+function var_0_0.OpReqSubDone(arg_185_0, arg_185_1)
+	local var_185_0 = nowWorld()
+	local var_185_1 = var_185_0:CalcOrderCost(WorldConst.OpReqSub)
 
-	var_164_0.staminaMgr:ConsumeStamina(var_164_1)
-	var_164_0:SetReqCDTime(WorldConst.OpReqSub, pg.TimeMgr.GetInstance():GetServerTime())
+	var_185_0.staminaMgr:ConsumeStamina(var_185_1)
+	var_185_0:SetReqCDTime(WorldConst.OpReqSub, pg.TimeMgr.GetInstance():GetServerTime())
 
-	local var_164_2 = var_164_0:GetSubmarineFleet():GetFlagShipVO()
+	local var_185_2 = var_185_0:GetSubmarineFleet():GetFlagShipVO()
 
-	var_0_1:DoStrikeAnim(var_164_2:GetMapStrikeAnim(), var_164_2, function()
-		arg_164_1:Apply()
+	var_0_1:DoStrikeAnim(var_185_2:GetMapStrikeAnim(), var_185_2, function()
+		arg_185_1:Apply()
 
 		if var_0_1.subCallback then
-			local var_165_0 = var_0_1.subCallback
+			local var_186_0 = var_0_1.subCallback
 
 			var_0_1.subCallback = nil
 
-			var_165_0()
+			var_186_0()
 		end
 	end)
 end
 
-function var_0_0.OpReqJumpOut(arg_166_0, arg_166_1, arg_166_2)
-	local var_166_0 = {}
+function var_0_0.OpReqJumpOut(arg_187_0, arg_187_1, arg_187_2)
+	local var_187_0 = {}
 
-	if not arg_166_2 then
-		table.insert(var_166_0, function(arg_167_0)
+	if not arg_187_2 then
+		table.insert(var_187_0, function(arg_188_0)
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = pg.world_chapter_template_reset[arg_166_1].tip,
-				onYes = arg_167_0,
+				content = pg.world_chapter_template_reset[arg_187_1].tip,
+				onYes = arg_188_0,
 				onNo = function()
-					arg_166_0:OpDone()
+					arg_187_0:OpDone()
 				end
 			})
 		end)
 	end
 
-	seriesAsync(var_166_0, function()
+	seriesAsync(var_187_0, function()
 		var_0_1:emit(WorldMediator.OnMapOp, var_0_1:NewMapOp({
 			op = WorldConst.OpReqJumpOut,
-			skipDisplay = arg_166_2
+			skipDisplay = arg_187_2
 		}))
 	end)
 end
 
-function var_0_0.OpReqJumpOutDone(arg_170_0, arg_170_1)
-	local var_170_0 = {}
+function var_0_0.OpReqJumpOutDone(arg_191_0, arg_191_1)
+	local var_191_0 = {}
 
-	if not arg_170_1.skipDisplay then
-		table.insert(var_170_0, function(arg_171_0)
+	if not arg_191_1.skipDisplay then
+		table.insert(var_191_0, function(arg_192_0)
 			var_0_1:ShowTransportMarkOverview({
 				ids = {
-					arg_170_1.entranceId
+					arg_191_1.entranceId
 				}
-			}, arg_171_0)
+			}, arg_192_0)
 		end)
 	end
 
-	seriesAsync(var_170_0, function()
-		arg_170_0:OpSwitchMap(arg_170_1)
+	seriesAsync(var_191_0, function()
+		arg_191_0:OpSwitchMap(arg_191_1)
 	end)
 end
 
-function var_0_0.OpReqSwitchFleet(arg_173_0, arg_173_1)
+function var_0_0.OpReqSwitchFleet(arg_194_0, arg_194_1)
 	var_0_1:emit(WorldMediator.OnMapOp, var_0_1:NewMapOp({
 		op = WorldConst.OpReqSwitchFleet,
-		id = arg_173_1.id
+		id = arg_194_1.id
 	}))
 end
 
-function var_0_0.OpReqSwitchFleetDone(arg_174_0, arg_174_1)
-	local var_174_0 = nowWorld()
-	local var_174_1 = table.indexof(var_174_0.fleets, var_174_0:GetFleet(arg_174_1.id))
+function var_0_0.OpReqSwitchFleetDone(arg_195_0, arg_195_1)
+	local var_195_0 = nowWorld()
+	local var_195_1 = table.indexof(var_195_0.fleets, var_195_0:GetFleet(arg_195_1.id))
 
-	var_174_0:GetActiveMap():UpdateFleetIndex(var_174_1)
+	var_195_0:GetActiveMap():UpdateFleetIndex(var_195_1)
 	var_0_1.wsMap:UpdateRangeVisible(false)
-	arg_174_0:OpInteractive()
+	arg_195_0:OpInteractive()
 end
 
-function var_0_0.OpStory(arg_175_0, arg_175_1, arg_175_2, arg_175_3, arg_175_4, arg_175_5)
-	local function var_175_0(arg_176_0, arg_176_1)
-		arg_175_0:OpDone()
-		existCall(arg_175_5, arg_176_1)
+function var_0_0.OpStory(arg_196_0, arg_196_1, arg_196_2, arg_196_3, arg_196_4, arg_196_5)
+	local function var_196_0(arg_197_0, arg_197_1)
+		arg_196_0:OpDone()
+		existCall(arg_196_5, arg_197_1)
 	end
 
-	pg.NewStoryMgr.GetInstance():PlayForWorld(arg_175_1, arg_175_4, var_175_0, arg_175_2, false, tobool(arg_175_4), arg_175_3)
+	pg.NewStoryMgr.GetInstance():PlayForWorld(arg_196_1, arg_196_4, var_196_0, arg_196_2, false, tobool(arg_196_4), arg_196_3)
 end
 
-function var_0_0.OpTriggerSign(arg_177_0, arg_177_1, arg_177_2, arg_177_3)
-	assert(arg_177_2:IsSign())
-	arg_177_0:OpDone()
+function var_0_0.OpTriggerSign(arg_198_0, arg_198_1, arg_198_2, arg_198_3)
+	assert(arg_198_2:IsSign())
+	arg_198_0:OpDone()
 
-	if arg_177_2:IsAvatar() then
-		local var_177_0 = var_0_1.wsMap:GetAttachment(arg_177_2.row, arg_177_2.column, arg_177_2.type)
-		local var_177_1 = var_0_1.wsMap:GetFleet()
+	if arg_198_2:IsAvatar() then
+		local var_198_0 = var_0_1.wsMap:GetAttachment(arg_198_2.row, arg_198_2.column, arg_198_2.type)
+		local var_198_1 = var_0_1.wsMap:GetFleet()
 
-		if arg_177_2.column ~= var_177_1.fleet.column then
-			local var_177_2 = var_177_0:GetModelAngles()
+		if arg_198_2.column ~= var_198_1.fleet.column then
+			local var_198_2 = var_198_0:GetModelAngles()
 
-			var_177_2.y = arg_177_2.column < var_177_1.fleet.column and 0 or 180
+			var_198_2.y = arg_198_2.column < var_198_1.fleet.column and 0 or 180
 
-			var_177_0:UpdateModelAngles(var_177_2)
+			var_198_0:UpdateModelAngles(var_198_2)
 
-			local var_177_3 = var_177_1:GetModelAngles()
+			local var_198_3 = var_198_1:GetModelAngles()
 
-			var_177_3.y = 180 - var_177_2.y
+			var_198_3.y = 180 - var_198_2.y
 
-			var_177_1:UpdateModelAngles(var_177_3)
+			var_198_1:UpdateModelAngles(var_198_3)
 		end
 	end
 
-	local var_177_4 = {}
-	local var_177_5 = arg_177_2:GetEventEffects()
+	local var_198_4 = {}
+	local var_198_5 = arg_198_2:GetEventEffects()
 
-	_.each(var_177_5, function(arg_178_0)
-		local var_178_0 = arg_178_0.effect_type
-		local var_178_1 = arg_178_0.effect_paramater
+	_.each(var_198_5, function(arg_199_0)
+		local var_199_0 = arg_199_0.effect_type
+		local var_199_1 = arg_199_0.effect_paramater
 
-		if var_178_0 == WorldMapAttachment.EffectEventStoryOptionClient then
-			local var_178_2 = var_178_1[1]
-			local var_178_3 = arg_178_0.autoflag[1]
+		if var_199_0 == WorldMapAttachment.EffectEventStoryOptionClient then
+			local var_199_2 = var_199_1[1]
+			local var_199_3 = arg_199_0.autoflag[1]
 
-			if var_178_3 and WorldConst.CheckWorldStorySkip(var_178_2) then
-				table.insert(var_177_4, function(arg_179_0)
-					arg_179_0(var_178_3)
+			if var_199_3 and WorldConst.CheckWorldStorySkip(var_199_2) then
+				table.insert(var_198_4, function(arg_200_0)
+					arg_200_0(var_199_3)
 				end)
 			else
-				table.insert(var_177_4, function(arg_180_0)
-					arg_177_0:OpStory(var_178_2, true, true, nowWorld().isAutoFight and var_178_3 and {
-						var_178_3
-					} or false, arg_180_0)
+				table.insert(var_198_4, function(arg_201_0)
+					arg_198_0:OpStory(var_199_2, true, true, nowWorld().isAutoFight and var_199_3 and {
+						var_199_3
+					} or false, arg_201_0)
 				end)
 			end
 
-			table.insert(var_177_4, function(arg_181_0, arg_181_1)
-				assert(arg_181_1, "without option in story:" .. var_178_1[1])
+			table.insert(var_198_4, function(arg_202_0, arg_202_1)
+				assert(arg_202_1, "without option in story:" .. var_199_1[1])
 
-				local var_181_0 = _.detect(var_178_1[2], function(arg_182_0)
-					return arg_182_0[1] == arg_181_1
+				local var_202_0 = _.detect(var_199_1[2], function(arg_203_0)
+					return arg_203_0[1] == arg_202_1
 				end)
 
-				if var_181_0 and var_181_0[2] > 0 then
-					arg_177_0:OpTriggerEvent(var_0_1:NewMapOp({
-						attachment = arg_177_2,
-						effect = pg.world_effect_data[var_181_0[2]]
-					}), arg_181_0)
+				if var_202_0 and var_202_0[2] > 0 then
+					arg_198_0:OpTriggerEvent(var_0_1:NewMapOp({
+						attachment = arg_198_2,
+						effect = pg.world_effect_data[var_202_0[2]]
+					}), arg_202_0)
 				else
-					arg_181_0()
+					arg_202_0()
 				end
 			end)
 		else
-			table.insert(var_177_4, function(arg_183_0)
-				arg_177_0:OpTriggerEvent(var_0_1:NewMapOp({
-					attachment = arg_177_2,
-					effect = arg_178_0
-				}), arg_183_0)
+			table.insert(var_198_4, function(arg_204_0)
+				arg_198_0:OpTriggerEvent(var_0_1:NewMapOp({
+					attachment = arg_198_2,
+					effect = arg_199_0
+				}), arg_204_0)
 			end)
 		end
 	end)
-	seriesAsync(var_177_4, arg_177_3)
+	seriesAsync(var_198_4, arg_198_3)
 end
 
-function var_0_0.OpShowMarkOverview(arg_184_0, arg_184_1, arg_184_2)
+function var_0_0.OpShowMarkOverview(arg_205_0, arg_205_1, arg_205_2)
 	var_0_1:emit(WorldMediator.OnOpenLayer, Context.New({
 		mediator = WorldOverviewMediator,
 		viewComponent = WorldOverviewLayer,
 		data = {
-			info = arg_184_1
+			info = arg_205_1
 		},
 		onRemoved = function()
-			arg_184_0:OpDone()
+			arg_205_0:OpDone()
 
-			return existCall(arg_184_2)
+			return existCall(arg_205_2)
 		end
 	}))
 end
 
-function var_0_0.OpFocusTargetEntrance(arg_186_0, arg_186_1)
-	arg_186_0:OpDone()
+function var_0_0.OpFocusTargetEntrance(arg_207_0, arg_207_1)
+	arg_207_0:OpDone()
 
-	local var_186_0 = {}
+	local var_207_0 = {}
 
 	if var_0_1:GetInMap() then
-		table.insert(var_186_0, function(arg_187_0)
-			var_0_1:QueryTransport(arg_187_0)
+		table.insert(var_207_0, function(arg_208_0)
+			var_0_1:QueryTransport(arg_208_0)
 		end)
 	end
 
-	seriesAsync(var_186_0, function()
-		var_0_1:EnterTransportWorld(arg_186_1)
+	seriesAsync(var_207_0, function()
+		var_0_1:EnterTransportWorld(arg_207_1)
 	end)
 end
 
-function var_0_0.OpShowOrderPanel(arg_189_0)
-	arg_189_0:OpDone()
+function var_0_0.OpShowOrderPanel(arg_210_0)
+	arg_210_0:OpDone()
 
-	local var_189_0 = nowWorld()
+	local var_210_0 = nowWorld()
 
 	var_0_1:ShowSubView("OrderPanel", {
-		var_189_0:GetActiveEntrance(),
-		var_189_0:GetActiveMap(),
+		var_210_0:GetActiveEntrance(),
+		var_210_0:GetActiveMap(),
 		var_0_1.wsMapRight.wsCompass:GetAnchorEulerAngles()
 	})
 end
 
-function var_0_0.OpShowScannerPanel(arg_190_0, arg_190_1, arg_190_2)
-	arg_190_0:OpDone()
+function var_0_0.OpShowScannerPanel(arg_211_0, arg_211_1, arg_211_2)
+	arg_211_0:OpDone()
 
-	local var_190_0 = nowWorld()
+	local var_211_0 = nowWorld()
 
 	var_0_1:ShowSubView("ScannerPanel", {
-		var_190_0:GetActiveMap(),
+		var_211_0:GetActiveMap(),
 		var_0_1.wsDragProxy
 	}, {
-		arg_190_1,
-		arg_190_2
+		arg_211_1,
+		arg_211_2
 	})
 end
 
-function var_0_0.OpMoveCamera(arg_191_0, arg_191_1, arg_191_2, arg_191_3)
-	arg_191_3 = var_0_1:DoTopBlock(arg_191_3)
+function var_0_0.OpMoveCamera(arg_212_0, arg_212_1, arg_212_2, arg_212_3)
+	arg_212_3 = var_0_1:DoTopBlock(arg_212_3)
 
-	local var_191_0 = {}
+	local var_212_0 = {}
 
-	if arg_191_1 > 0 then
-		local var_191_1 = var_0_1.wsMap.map:FindAttachments(WorldMapAttachment.TypeEvent, arg_191_1)
+	if arg_212_1 > 0 then
+		local var_212_1 = var_0_1.wsMap.map:FindAttachments(WorldMapAttachment.TypeEvent, arg_212_1)
 
-		for iter_191_0, iter_191_1 in ipairs(var_191_1) do
-			table.insert(var_191_0, {
+		for iter_212_0, iter_212_1 in ipairs(var_212_1) do
+			table.insert(var_212_0, {
 				focusPos = function()
-					return var_0_1.wsMap:GetAttachment(iter_191_1.row, iter_191_1.column, iter_191_1.type).transform.position
+					return var_0_1.wsMap:GetAttachment(iter_212_1.row, iter_212_1.column, iter_212_1.type).transform.position
 				end,
-				row = iter_191_1.row,
-				column = iter_191_1.column
+				row = iter_212_1.row,
+				column = iter_212_1.column
 			})
 		end
 	else
-		local var_191_2 = var_0_1.wsMap:GetFleet()
+		local var_212_2 = var_0_1.wsMap:GetFleet()
 
-		table.insert(var_191_0, {
+		table.insert(var_212_0, {
 			focusPos = function()
-				return var_191_2.transform.position
+				return var_212_2.transform.position
 			end,
-			row = var_191_2.fleet.row,
-			column = var_191_2.fleet.column
+			row = var_212_2.fleet.row,
+			column = var_212_2.fleet.column
 		})
 	end
 
-	local var_191_3 = {}
+	local var_212_3 = {}
 
-	for iter_191_2, iter_191_3 in ipairs(var_191_0) do
-		table.insert(var_191_3, function(arg_194_0)
-			var_0_1.wsMapRight:UpdateCompossView(iter_191_3.row, iter_191_3.column)
-			arg_194_0()
+	for iter_212_2, iter_212_3 in ipairs(var_212_0) do
+		table.insert(var_212_3, function(arg_215_0)
+			var_0_1.wsMapRight:UpdateCompossView(iter_212_3.row, iter_212_3.column)
+			arg_215_0()
 		end)
-		table.insert(var_191_3, function(arg_195_0)
-			var_0_1.wsDragProxy:Focus(iter_191_3.focusPos(), nil, LeanTweenType.easeInOutSine, arg_195_0)
+		table.insert(var_212_3, function(arg_216_0)
+			var_0_1.wsDragProxy:Focus(iter_212_3.focusPos(), nil, LeanTweenType.easeInOutSine, arg_216_0)
 		end)
-		table.insert(var_191_3, function(arg_196_0)
-			var_0_1.wsTimer:AddInMapTimer(arg_196_0, arg_191_2, 1):Start()
+		table.insert(var_212_3, function(arg_217_0)
+			var_0_1.wsTimer:AddInMapTimer(arg_217_0, arg_212_2, 1):Start()
 		end)
 	end
 
-	seriesAsync(var_191_3, function()
-		arg_191_0:OpDone()
+	seriesAsync(var_212_3, function()
+		arg_212_0:OpDone()
 
-		return existCall(arg_191_3)
+		return existCall(arg_212_3)
 	end)
 end
 
-function var_0_0.OpMoveCameraTarget(arg_198_0, arg_198_1, arg_198_2, arg_198_3)
-	arg_198_3 = var_0_1:DoTopBlock(arg_198_3)
+function var_0_0.OpMoveCameraTarget(arg_219_0, arg_219_1, arg_219_2, arg_219_3)
+	arg_219_3 = var_0_1:DoTopBlock(arg_219_3)
 
-	if not arg_198_1 then
-		local var_198_0 = var_0_1.wsMap:GetFleet()
+	if not arg_219_1 then
+		local var_219_0 = var_0_1.wsMap:GetFleet()
 
-		arg_198_1 = {
-			row = var_198_0.fleet.row,
-			column = var_198_0.fleet.column
+		arg_219_1 = {
+			row = var_219_0.fleet.row,
+			column = var_219_0.fleet.column
 		}
 	end
 
-	local var_198_1 = {}
+	local var_219_1 = {}
 
-	table.insert(var_198_1, function(arg_199_0)
-		var_0_1.wsMapRight:UpdateCompossView(arg_198_1.row, arg_198_1.column)
-		arg_199_0()
+	table.insert(var_219_1, function(arg_220_0)
+		var_0_1.wsMapRight:UpdateCompossView(arg_219_1.row, arg_219_1.column)
+		arg_220_0()
 	end)
-	table.insert(var_198_1, function(arg_200_0)
-		var_0_1.wsDragProxy:Focus(var_0_1.wsMap:GetCell(arg_198_1.row, arg_198_1.column).transform.position, nil, LeanTweenType.easeInOutSine, arg_200_0)
+	table.insert(var_219_1, function(arg_221_0)
+		var_0_1.wsDragProxy:Focus(var_0_1.wsMap:GetCell(arg_219_1.row, arg_219_1.column).transform.position, nil, LeanTweenType.easeInOutSine, arg_221_0)
 	end)
-	table.insert(var_198_1, function(arg_201_0)
-		var_0_1.wsTimer:AddInMapTimer(arg_201_0, arg_198_2, 1):Start()
+	table.insert(var_219_1, function(arg_222_0)
+		var_0_1.wsTimer:AddInMapTimer(arg_222_0, arg_219_2, 1):Start()
 	end)
-	seriesAsync(var_198_1, function()
-		arg_198_0:OpDone()
+	seriesAsync(var_219_1, function()
+		arg_219_0:OpDone()
 
-		return existCall(arg_198_3)
+		return existCall(arg_219_3)
 	end)
 end
 
-function var_0_0.OpShakePlane(arg_203_0, arg_203_1, arg_203_2, arg_203_3, arg_203_4, arg_203_5)
-	var_0_1.wsDragProxy:ShakePlane(arg_203_1, arg_203_2, arg_203_3, arg_203_4, function()
-		arg_203_0:OpDone()
+function var_0_0.OpShakePlane(arg_224_0, arg_224_1, arg_224_2, arg_224_3, arg_224_4, arg_224_5)
+	var_0_1.wsDragProxy:ShakePlane(arg_224_1, arg_224_2, arg_224_3, arg_224_4, function()
+		arg_224_0:OpDone()
 
-		if arg_203_5 then
-			arg_203_5()
+		if arg_224_5 then
+			arg_224_5()
 		end
 	end)
 end
 
-function var_0_0.OpAttachmentAnim(arg_205_0, arg_205_1, arg_205_2)
-	local var_205_0 = arg_205_1.attachment
-	local var_205_1 = var_0_1.wsMap:GetAttachment(var_205_0.row, var_205_0.column, var_205_0.type)
+function var_0_0.OpAttachmentAnim(arg_226_0, arg_226_1, arg_226_2)
+	local var_226_0 = arg_226_1.attachment
+	local var_226_1 = var_0_1.wsMap:GetAttachment(var_226_0.row, var_226_0.column, var_226_0.type)
 
 	seriesAsync({
-		function(arg_206_0)
-			var_205_1:PlayModelAction(arg_205_1.anim, arg_205_1.duration, arg_206_0)
+		function(arg_227_0)
+			var_226_1:PlayModelAction(arg_226_1.anim, arg_226_1.duration, arg_227_0)
 		end
 	}, function()
-		var_205_1:FlushModelAction()
-		arg_205_0:OpDone()
-		arg_205_2()
+		var_226_1:FlushModelAction()
+		arg_226_0:OpDone()
+		arg_226_2()
 	end)
 end
 
-function var_0_0.OpFleetAnim(arg_208_0, arg_208_1, arg_208_2)
-	local var_208_0 = var_0_1.wsMap.map:GetFleet(arg_208_1.id)
-	local var_208_1 = var_0_1.wsMap:GetFleet(var_208_0)
+function var_0_0.OpFleetAnim(arg_229_0, arg_229_1, arg_229_2)
+	local var_229_0 = var_0_1.wsMap.map:GetFleet(arg_229_1.id)
+	local var_229_1 = var_0_1.wsMap:GetFleet(var_229_0)
 
 	seriesAsync({
-		function(arg_209_0)
-			var_208_1:PlayModelAction(arg_208_1.anim, arg_208_1.duration, arg_209_0)
+		function(arg_230_0)
+			var_229_1:PlayModelAction(arg_229_1.anim, arg_229_1.duration, arg_230_0)
 		end
 	}, function()
-		var_208_1:FlushModelAction()
-		arg_208_0:OpDone()
-		arg_208_2()
+		var_229_1:FlushModelAction()
+		arg_229_0:OpDone()
+		arg_229_2()
 	end)
 end
 
-function var_0_0.OpFlash(arg_211_0, arg_211_1, arg_211_2, arg_211_3, arg_211_4, arg_211_5)
-	local var_211_0 = var_0_1.rtTop:Find("flash")
+function var_0_0.OpFlash(arg_232_0, arg_232_1, arg_232_2, arg_232_3, arg_232_4, arg_232_5)
+	local var_232_0 = var_0_1.rtTop:Find("flash")
 
-	setActive(var_211_0, true)
-	setImageColor(var_211_0, arg_211_4)
-	setImageAlpha(var_211_0, 0)
-	var_0_1.wsTimer:AddInMapTween(LeanTween.alpha(var_211_0, arg_211_4.a, arg_211_1).uniqueId)
-	var_0_1.wsTimer:AddInMapTween(LeanTween.alpha(var_211_0, 0, arg_211_3):setDelay(arg_211_1 + arg_211_2):setOnComplete(System.Action(function()
-		setActive(var_211_0, false)
-		arg_211_0:OpDone()
-		arg_211_5()
+	setActive(var_232_0, true)
+	setImageColor(var_232_0, arg_232_4)
+	setImageAlpha(var_232_0, 0)
+	var_0_1.wsTimer:AddInMapTween(LeanTween.alpha(var_232_0, arg_232_4.a, arg_232_1).uniqueId)
+	var_0_1.wsTimer:AddInMapTween(LeanTween.alpha(var_232_0, 0, arg_232_3):setDelay(arg_232_1 + arg_232_2):setOnComplete(System.Action(function()
+		setActive(var_232_0, false)
+		arg_232_0:OpDone()
+		arg_232_5()
 	end)).uniqueId)
 end
 
-function var_0_0.OpReqBox(arg_213_0, arg_213_1, arg_213_2)
-	assert(arg_213_2 and arg_213_2.type == WorldMapAttachment.TypeBox)
+function var_0_0.OpReqBox(arg_234_0, arg_234_1, arg_234_2)
+	assert(arg_234_2 and arg_234_2.type == WorldMapAttachment.TypeBox)
 	var_0_1:emit(WorldMediator.OnMapOp, var_0_1:NewMapOp({
 		op = WorldConst.OpReqBox,
-		id = arg_213_1.id,
-		attachment = arg_213_2
+		id = arg_234_1.id,
+		attachment = arg_234_2
 	}))
 end
 
-function var_0_0.OpReqBoxDone(arg_214_0, arg_214_1)
-	arg_214_1:Apply()
-	arg_214_0:OpInteractive()
+function var_0_0.OpReqBoxDone(arg_235_0, arg_235_1)
+	arg_235_1:Apply()
+	arg_235_0:OpInteractive()
 end
 
-function var_0_0.OpSetInMap(arg_215_0, arg_215_1, arg_215_2)
-	arg_215_0:OpDone()
-	var_0_1:SetInMap(arg_215_1, arg_215_2)
+function var_0_0.OpSetInMap(arg_236_0, arg_236_1, arg_236_2)
+	arg_236_0:OpDone()
+	var_0_1:SetInMap(arg_236_1, arg_236_2)
 end
 
-function var_0_0.OpSwitchInMap(arg_216_0, arg_216_1)
-	local var_216_0 = {}
+function var_0_0.OpSwitchInMap(arg_237_0, arg_237_1)
+	local var_237_0 = {}
 
-	table.insert(var_216_0, function(arg_217_0)
+	table.insert(var_237_0, function(arg_238_0)
 		var_0_1:DisplayMap()
 		var_0_1:DisplayMapUI()
 		var_0_1:UpdateMapUI()
 
-		return arg_217_0()
+		return arg_238_0()
 	end)
-	table.insert(var_216_0, function(arg_218_0)
-		var_0_1:EaseInMapUI(arg_218_0)
+	table.insert(var_237_0, function(arg_239_0)
+		var_0_1:EaseInMapUI(arg_239_0)
 	end)
-	table.insert(var_216_0, function(arg_219_0)
-		arg_216_0:OpDone()
+	table.insert(var_237_0, function(arg_240_0)
+		arg_237_0:OpDone()
 
-		return arg_219_0()
+		return arg_240_0()
 	end)
-	seriesAsync(var_216_0, arg_216_1)
+	seriesAsync(var_237_0, arg_237_1)
 end
 
-function var_0_0.OpSwitchOutMap(arg_220_0, arg_220_1)
-	local var_220_0 = {}
+function var_0_0.OpSwitchOutMap(arg_241_0, arg_241_1)
+	local var_241_0 = {}
 
-	table.insert(var_220_0, function(arg_221_0)
-		var_0_1:EaseOutMapUI(arg_221_0)
+	table.insert(var_241_0, function(arg_242_0)
+		var_0_1:EaseOutMapUI(arg_242_0)
 	end)
-	table.insert(var_220_0, function(arg_222_0)
+	table.insert(var_241_0, function(arg_243_0)
 		var_0_1:HideMap()
 		var_0_1:HideMapUI()
 
-		return arg_222_0()
+		return arg_243_0()
 	end)
-	table.insert(var_220_0, function(arg_223_0)
-		arg_220_0:OpDone()
+	table.insert(var_241_0, function(arg_244_0)
+		arg_241_0:OpDone()
 
-		return arg_223_0()
+		return arg_244_0()
 	end)
-	seriesAsync(var_220_0, arg_220_1)
+	seriesAsync(var_241_0, arg_241_1)
 end
 
-function var_0_0.OpSwitchInWorld(arg_224_0, arg_224_1)
-	local var_224_0 = {}
+function var_0_0.OpSwitchInWorld(arg_245_0, arg_245_1)
+	local var_245_0 = {}
 
-	table.insert(var_224_0, function(arg_225_0)
+	table.insert(var_245_0, function(arg_246_0)
 		var_0_1:DisplayAtlas()
 		var_0_1:DisplayAtlasUI()
 
-		return arg_225_0()
+		return arg_246_0()
 	end)
-	table.insert(var_224_0, function(arg_226_0)
-		var_0_1:EaseInAtlasUI(arg_226_0)
+	table.insert(var_245_0, function(arg_247_0)
+		var_0_1:EaseInAtlasUI(arg_247_0)
 	end)
-	table.insert(var_224_0, function(arg_227_0)
-		arg_224_0:OpDone()
+	table.insert(var_245_0, function(arg_248_0)
+		arg_245_0:OpDone()
 
-		return arg_227_0()
+		return arg_248_0()
 	end)
-	seriesAsync(var_224_0, arg_224_1)
+	seriesAsync(var_245_0, arg_245_1)
 end
 
-function var_0_0.OpSwitchOutWorld(arg_228_0, arg_228_1)
-	local var_228_0 = {}
+function var_0_0.OpSwitchOutWorld(arg_249_0, arg_249_1)
+	local var_249_0 = {}
 
-	table.insert(var_228_0, function(arg_229_0)
-		var_0_1:EaseOutAtlasUI(arg_229_0)
+	table.insert(var_249_0, function(arg_250_0)
+		var_0_1:EaseOutAtlasUI(arg_250_0)
 	end)
-	table.insert(var_228_0, function(arg_230_0)
+	table.insert(var_249_0, function(arg_251_0)
 		var_0_1:HideAtlas()
 		var_0_1:HideAtlasUI()
 
-		return arg_230_0()
+		return arg_251_0()
 	end)
-	table.insert(var_228_0, function(arg_231_0)
-		arg_228_0:OpDone()
+	table.insert(var_249_0, function(arg_252_0)
+		arg_249_0:OpDone()
 
-		return arg_231_0()
+		return arg_252_0()
 	end)
-	seriesAsync(var_228_0, arg_228_1)
+	seriesAsync(var_249_0, arg_249_1)
 end
 
-function var_0_0.OpRedeploy(arg_232_0)
-	arg_232_0:OpDone()
+function var_0_0.OpRedeploy(arg_253_0)
+	arg_253_0:OpDone()
 
-	local var_232_0 = nowWorld()
-	local var_232_1 = var_232_0:GetActiveMap()
+	local var_253_0 = nowWorld()
+	local var_253_1 = var_253_0:GetActiveMap()
 
-	if underscore.any(var_232_1:GetNormalFleets(), function(arg_233_0)
-		return #arg_233_0:GetCarries() > 0
+	if underscore.any(var_253_1:GetNormalFleets(), function(arg_254_0)
+		return #arg_254_0:GetCarries() > 0
 	end) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("world_instruction_redeploy_3"))
 
 		return
 	end
 
-	if var_232_1:CheckFleetSalvage(true) then
+	if var_253_1:CheckFleetSalvage(true) then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("world_catsearch_fleetcheck"),
 			onYes = function()
-				var_232_1.salvageAutoResult = true
+				var_253_1.salvageAutoResult = true
 
-				arg_232_0:OpInteractive()
+				arg_253_0:OpInteractive()
 			end
 		})
 	else
-		local var_232_2, var_232_3 = var_232_0:BuildFormationIds()
+		local var_253_2, var_253_3 = var_253_0:BuildFormationIds()
 
-		arg_232_0:OpOpenScene(SCENE.WORLD_FLEET_SELECT, {
-			type = var_232_2,
-			fleets = var_232_3
+		arg_253_0:OpOpenScene(SCENE.WORLD_FLEET_SELECT, {
+			type = var_253_2,
+			fleets = var_253_3
 		})
 	end
 end
 
-function var_0_0.OpKillWorld(arg_235_0)
+function var_0_0.OpKillWorld(arg_256_0)
 	getProxy(ContextProxy):getContextByMediator(WorldMediator).onRemoved = function()
 		pg.m02:sendNotification(GAME.WORLD_KILL)
 	end
 
 	var_0_1:ExitWorld(function()
-		arg_235_0:OpDone()
+		arg_256_0:OpDone()
 	end, true)
 end
 
-function var_0_0.OpReqMaintenance(arg_238_0, arg_238_1)
+function var_0_0.OpReqMaintenance(arg_259_0, arg_259_1)
 	var_0_1:emit(WorldMediator.OnMapOp, var_0_1:NewMapOp({
 		op = WorldConst.OpReqMaintenance,
-		id = arg_238_1
+		id = arg_259_1
 	}))
 end
 
-function var_0_0.OpReqMaintenanceDone(arg_239_0, arg_239_1)
-	arg_239_1:Apply()
+function var_0_0.OpReqMaintenanceDone(arg_260_0, arg_260_1)
+	arg_260_1:Apply()
 
-	local var_239_0 = nowWorld()
-	local var_239_1 = var_239_0:GetFleets()
+	local var_260_0 = nowWorld()
+	local var_260_1 = var_260_0:GetFleets()
 
-	_.each(var_239_1, function(arg_240_0)
-		arg_240_0:ClearDamageLevel()
+	_.each(var_260_1, function(arg_261_0)
+		arg_261_0:ClearDamageLevel()
 
-		for iter_240_0, iter_240_1 in ipairs(arg_240_0:GetShips(true)) do
-			iter_240_1:Repair()
+		for iter_261_0, iter_261_1 in ipairs(arg_261_0:GetShips(true)) do
+			iter_261_1:Repair()
 		end
 	end)
 
-	local var_239_2 = var_239_0:CalcOrderCost(WorldConst.OpReqMaintenance)
+	local var_260_2 = var_260_0:CalcOrderCost(WorldConst.OpReqMaintenance)
 
-	var_239_0.staminaMgr:ConsumeStamina(var_239_2)
-	var_239_0:SetReqCDTime(WorldConst.OpReqMaintenance, pg.TimeMgr.GetInstance():GetServerTime())
+	var_260_0.staminaMgr:ConsumeStamina(var_260_2)
+	var_260_0:SetReqCDTime(WorldConst.OpReqMaintenance, pg.TimeMgr.GetInstance():GetServerTime())
 	var_0_1.wsMap:UpdateRangeVisible(false)
-	arg_239_0:OpShowAllFleetHealth(function()
-		arg_239_0:OpInteractive()
+	arg_260_0:OpShowAllFleetHealth(function()
+		arg_260_0:OpInteractive()
 	end)
 end
 
-function var_0_0.OpReqVision(arg_242_0)
+function var_0_0.OpReqVision(arg_263_0)
 	var_0_1:emit(WorldMediator.OnMapOp, var_0_1:NewMapOp({
 		op = WorldConst.OpReqVision
 	}))
 end
 
-function var_0_0.OpReqVisionDone(arg_243_0, arg_243_1)
-	arg_243_1:Apply()
+function var_0_0.OpReqVisionDone(arg_264_0, arg_264_1)
+	arg_264_1:Apply()
 
-	local var_243_0 = nowWorld()
-	local var_243_1 = var_243_0:CalcOrderCost(WorldConst.OpReqVision)
+	local var_264_0 = nowWorld()
+	local var_264_1 = var_264_0:CalcOrderCost(WorldConst.OpReqVision)
 
-	var_243_0.staminaMgr:ConsumeStamina(var_243_1)
-	var_243_0:SetReqCDTime(WorldConst.OpReqVision, pg.TimeMgr.GetInstance():GetServerTime())
-	var_243_0:GetActiveMap():UpdateVisionFlag(true)
+	var_264_0.staminaMgr:ConsumeStamina(var_264_1)
+	var_264_0:SetReqCDTime(WorldConst.OpReqVision, pg.TimeMgr.GetInstance():GetServerTime())
+	var_264_0:GetActiveMap():UpdateVisionFlag(true)
 	var_0_1.wsMap:UpdateRangeVisible(false)
-	arg_243_0:OpInteractive()
+	arg_264_0:OpInteractive()
 end
 
-function var_0_0.OpReqPressingMap(arg_244_0)
-	local var_244_0 = nowWorld():GetActiveMap()
-	local var_244_1 = var_244_0:GetFleet().id
+function var_0_0.OpReqPressingMap(arg_265_0)
+	local var_265_0 = nowWorld():GetActiveMap()
+	local var_265_1 = var_265_0:GetFleet().id
 
 	var_0_1:emit(WorldMediator.OnMapOp, var_0_1:NewMapOp({
 		op = WorldConst.OpReqPressingMap,
-		id = var_244_1,
-		arg1 = var_244_0.id
+		id = var_265_1,
+		arg1 = var_265_0.id
 	}))
 end
 
-function var_0_0.OpReqPressingMapDone(arg_245_0, arg_245_1, arg_245_2)
-	local var_245_0 = arg_245_2
-	local var_245_1 = arg_245_1.arg1
-	local var_245_2 = nowWorld()
+function var_0_0.OpReqPressingMapDone(arg_266_0, arg_266_1, arg_266_2)
+	local var_266_0 = arg_266_2
+	local var_266_1 = arg_266_1.arg1
+	local var_266_2 = nowWorld()
 
-	if var_245_2:GetMap(var_245_1):CheckMapPressingDisplay() then
-		table.insert(var_245_0, 1, function(arg_246_0)
-			var_0_1:BuildCutInAnim("WorldPressingWindow", arg_246_0)
+	if var_266_2:GetMap(var_266_1):CheckMapPressingDisplay() then
+		table.insert(var_266_0, 1, function(arg_267_0)
+			var_0_1:BuildCutInAnim("WorldPressingWindow", arg_267_0)
 		end)
 	end
 
-	local var_245_3 = var_245_2:GetPressingAward(var_245_1)
+	local var_266_3 = var_266_2:GetPressingAward(var_266_1)
 
-	if var_245_3 and var_245_3.flag then
-		local var_245_4 = pg.world_event_complete[var_245_3.id].event_reward_slgbuff
+	if var_266_3 and var_266_3.flag then
+		local var_266_4 = pg.world_event_complete[var_266_3.id].event_reward_slgbuff
 
-		if #var_245_4 > 1 then
-			local var_245_5 = {
-				id = var_245_4[1],
-				floor = var_245_4[2],
-				before = var_245_2:GetGlobalBuff(var_245_4[1]):GetFloor()
+		if #var_266_4 > 1 then
+			local var_266_5 = {
+				id = var_266_4[1],
+				floor = var_266_4[2],
+				before = var_266_2:GetGlobalBuff(var_266_4[1]):GetFloor()
 			}
 
-			if var_245_2.isAutoFight then
-				var_245_2:AddAutoInfo("buffs", var_245_5)
+			if var_266_2.isAutoFight then
+				var_266_2:AddAutoInfo("buffs", var_266_5)
 			else
-				table.insert(var_245_0, function(arg_247_0)
+				table.insert(var_266_0, function(arg_268_0)
 					var_0_1:ShowSubView("GlobalBuff", {
-						var_245_5,
-						arg_247_0
+						var_266_5,
+						arg_268_0
 					})
 				end)
 			end
 
-			table.insert(var_245_0, function(arg_248_0)
-				var_245_2:AddGlobalBuff(var_245_4[1], var_245_4[2])
-				arg_248_0()
+			table.insert(var_266_0, function(arg_269_0)
+				var_266_2:AddGlobalBuff(var_266_4[1], var_266_4[2])
+				arg_269_0()
 			end)
 		end
 	end
 
-	seriesAsync(var_245_0, function()
-		arg_245_1:Apply()
+	seriesAsync(var_266_0, function()
+		arg_266_1:Apply()
 		var_0_1.wsMap:UpdateRangeVisible(false)
-		arg_245_0:OpInteractive()
+		arg_266_0:OpInteractive()
 	end)
 end
 
-function var_0_0.OpReqEnterPort(arg_250_0)
-	local var_250_0 = nowWorld()
-	local var_250_1 = var_250_0:GetActiveMap():GetPort()
+function var_0_0.OpReqEnterPort(arg_271_0)
+	local var_271_0 = nowWorld()
+	local var_271_1 = var_271_0:GetActiveMap():GetPort()
 
-	if var_250_1:IsOpen(var_250_0:GetRealm(), var_250_0:GetProgress()) then
+	if var_271_1:IsOpen(var_271_0:GetRealm(), var_271_0:GetProgress()) then
 		var_0_1:emit(WorldMediator.OnMapOp, var_0_1:NewMapOp({
 			op = WorldConst.OpReqEnterPort
 		}))
 	else
-		pg.TipsMgr.GetInstance():ShowTips("port is not open: " .. var_250_1.id)
+		pg.TipsMgr.GetInstance():ShowTips("port is not open: " .. var_271_1.id)
 	end
 end
 
-function var_0_0.OpReqEnterPortDone(arg_251_0, arg_251_1)
-	arg_251_1:Apply()
+function var_0_0.OpReqEnterPortDone(arg_272_0, arg_272_1)
+	arg_272_1:Apply()
 	var_0_1:OpenPortLayer()
 end
 
-function var_0_0.OpReqCatSalvage(arg_252_0, arg_252_1)
-	arg_252_1 = arg_252_1 or nowWorld():GetActiveMap():CheckFleetSalvage()
+function var_0_0.OpReqCatSalvage(arg_273_0, arg_273_1)
+	arg_273_1 = arg_273_1 or nowWorld():GetActiveMap():CheckFleetSalvage()
 
 	var_0_1:emit(WorldMediator.OnMapOp, var_0_1:NewMapOp({
 		op = WorldConst.OpReqCatSalvage,
-		id = arg_252_1
+		id = arg_273_1
 	}))
 end
 
-function var_0_0.OpReqCatSalvageDone(arg_253_0, arg_253_1, arg_253_2)
-	local var_253_0 = arg_253_2
-	local var_253_1 = nowWorld()
+function var_0_0.OpReqCatSalvageDone(arg_274_0, arg_274_1, arg_274_2)
+	local var_274_0 = arg_274_2
+	local var_274_1 = nowWorld()
 
-	if var_253_1.isAutoFight then
+	if var_274_1.isAutoFight then
 		-- block empty
 	else
-		table.insert(var_253_0, 1, function(arg_254_0)
-			local var_254_0 = var_253_1:GetFleet(arg_253_1.id):GetRarityState() > 0 and 2 or 1
+		table.insert(var_274_0, 1, function(arg_275_0)
+			local var_275_0 = var_274_1:GetFleet(arg_274_1.id):GetRarityState() > 0 and 2 or 1
 
-			pg.NewStoryMgr.GetInstance():Play(pg.gameset.world_catsearch_completed.description[var_254_0], arg_254_0, true)
+			pg.NewStoryMgr.GetInstance():Play(pg.gameset.world_catsearch_completed.description[var_275_0], arg_275_0, true)
 		end)
 	end
 
-	seriesAsync(var_253_0, function()
-		arg_253_1:Apply()
-		arg_253_0:OpInteractive()
+	seriesAsync(var_274_0, function()
+		arg_274_1:Apply()
+		arg_274_0:OpInteractive()
 	end)
 end
 
-function var_0_0.OpReqSkipBattle(arg_256_0, arg_256_1)
+function var_0_0.OpReqSkipBattle(arg_277_0, arg_277_1)
 	var_0_1:emit(WorldMediator.OnMapOp, var_0_1:NewMapOp({
 		op = WorldConst.OpReqSkipBattle,
-		id = arg_256_1
+		id = arg_277_1
 	}))
 end
 
-function var_0_0.OpReqSkipBattleDone(arg_257_0, arg_257_1)
-	arg_257_1:Apply()
-	arg_257_0:OpInteractive()
+function var_0_0.OpReqSkipBattleDone(arg_278_0, arg_278_1)
+	arg_278_1:Apply()
+	arg_278_0:OpInteractive()
 end
 
-function var_0_0.OpPlaySound(arg_258_0, arg_258_1, arg_258_2)
-	var_0_1:PlaySound(arg_258_1, arg_258_2)
+function var_0_0.OpPlaySound(arg_279_0, arg_279_1, arg_279_2)
+	var_0_1:PlaySound(arg_279_1, arg_279_2)
 end
 
-function var_0_0.OpGuide(arg_259_0, arg_259_1, arg_259_2, arg_259_3)
-	arg_259_0:OpDone()
+function var_0_0.OpGuide(arg_280_0, arg_280_1, arg_280_2, arg_280_3)
+	arg_280_0:OpDone()
 
-	local var_259_0 = WorldGuider.GetInstance()
+	local var_280_0 = WorldGuider.GetInstance()
 
-	arg_259_1 = var_259_0:SpecialCheck(arg_259_1)
-	arg_259_2 = arg_259_2 == 1 and true or false
+	arg_280_1 = var_280_0:SpecialCheck(arg_280_1)
+	arg_280_2 = arg_280_2 == 1 and true or false
 
-	if var_259_0:PlayGuide(arg_259_1, arg_259_2, arg_259_3) then
+	if var_280_0:PlayGuide(arg_280_1, arg_280_2, arg_280_3) then
 		nowWorld():TriggerAutoFight(false)
 	end
 end
 
-function var_0_0.OpTaskGoto(arg_260_0, arg_260_1)
-	arg_260_0:OpDone()
+function var_0_0.OpTaskGoto(arg_281_0, arg_281_1)
+	arg_281_0:OpDone()
 
-	local var_260_0 = nowWorld()
-	local var_260_1 = var_260_0:GetTaskProxy():getTaskById(arg_260_1)
+	local var_281_0 = nowWorld()
+	local var_281_1 = var_281_0:GetTaskProxy():getTaskById(arg_281_1)
 
-	if var_260_1:GetFollowingAreaId() then
-		arg_260_0:OpShowMarkOverview({
+	if var_281_1:GetFollowingAreaId() then
+		arg_281_0:OpShowMarkOverview({
 			mode = "Task",
-			taskId = arg_260_1
+			taskId = arg_281_1
 		})
-	elseif var_260_0:GetActiveEntrance().id ~= var_260_1:GetFollowingEntrance() then
-		local var_260_2 = var_260_1:GetFollowingEntrance()
-		local var_260_3 = var_260_0:GetAtlas():GetTaskDic(var_260_1.id)
+	elseif var_281_0:GetActiveEntrance().id ~= var_281_1:GetFollowingEntrance() then
+		local var_281_2 = var_281_1:GetFollowingEntrance()
+		local var_281_3 = var_281_0:GetAtlas():GetTaskDic(var_281_1.id)
 
 		var_0_1:QueryTransport(function()
 			var_0_1:EnterTransportWorld({
-				entrance = var_260_0:GetEntrance(var_260_2),
-				mapTypes = var_260_3[var_260_2] and {
+				entrance = var_281_0:GetEntrance(var_281_2),
+				mapTypes = var_281_3[var_281_2] and {
 					"task_chapter"
 				} or {
 					"complete_chapter",
@@ -2113,131 +2140,131 @@ function var_0_0.OpTaskGoto(arg_260_0, arg_260_1)
 			})
 		end)
 	else
-		local var_260_4 = var_260_1.config.task_goto
-		local var_260_5 = var_260_1.config.following_random
-		local var_260_6 = var_260_0:GetActiveMap()
+		local var_281_4 = var_281_1.config.task_goto
+		local var_281_5 = var_281_1.config.following_random
+		local var_281_6 = var_281_0:GetActiveMap()
 
-		if #var_260_5 > 0 and not _.any(var_260_5, function(arg_262_0)
-			return arg_262_0 == var_260_6.id
+		if #var_281_5 > 0 and not _.any(var_281_5, function(arg_283_0)
+			return arg_283_0 == var_281_6.id
 		end) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("world_task_goto0"))
 
 			return
 		end
 
-		if not var_260_4[1] then
+		if not var_281_4[1] then
 			return
-		elseif var_260_4[1] == 1 then
-			local var_260_7 = {}
+		elseif var_281_4[1] == 1 then
+			local var_281_7 = {}
 
-			for iter_260_0, iter_260_1 in ipairs(var_260_4[2]) do
-				assert(pg.world_effect_data[iter_260_1], "without effect: " .. iter_260_1)
-				table.insert(var_260_7, function(arg_263_0)
-					local var_263_0 = var_0_1:NewMapOp({
+			for iter_281_0, iter_281_1 in ipairs(var_281_4[2]) do
+				assert(pg.world_effect_data[iter_281_1], "without effect: " .. iter_281_1)
+				table.insert(var_281_7, function(arg_284_0)
+					local var_284_0 = var_0_1:NewMapOp({
 						op = WorldConst.OpActionTaskGoto,
-						effect = pg.world_effect_data[iter_260_1]
+						effect = pg.world_effect_data[iter_281_1]
 					})
 
-					arg_260_0:OpTriggerEvent(var_263_0, arg_263_0)
+					arg_281_0:OpTriggerEvent(var_284_0, arg_284_0)
 				end)
 			end
 
-			seriesAsync(var_260_7, function()
-				arg_260_0:OpInteractive()
+			seriesAsync(var_281_7, function()
+				arg_281_0:OpInteractive()
 			end)
-		elseif var_260_4[1] == 2 then
-			local var_260_8 = checkExist(var_260_0:GetActiveMap(), {
+		elseif var_281_4[1] == 2 then
+			local var_281_8 = checkExist(var_281_0:GetActiveMap(), {
 				"GetPort"
 			})
-			local var_260_9 = var_260_0:GetRealm()
+			local var_281_9 = var_281_0:GetRealm()
 
-			if var_260_9 == checkExist(var_260_8, {
+			if var_281_9 == checkExist(var_281_8, {
 				"GetRealm"
-			}) and checkExist(var_260_8, {
+			}) and checkExist(var_281_8, {
 				"IsOpen",
 				{
-					var_260_9,
-					var_260_0:GetProgress()
+					var_281_9,
+					var_281_0:GetProgress()
 				}
 			}) then
-				arg_260_0:OpRedeploy()
+				arg_281_0:OpRedeploy()
 			else
 				pg.TipsMgr.GetInstance():ShowTips(i18n("world_instruction_redeploy_1"))
 
 				return
 			end
-		elseif var_260_4[1] == 3 then
+		elseif var_281_4[1] == 3 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("world_task_goto3"))
 
 			return
 		else
-			assert(false, "goto info error:" .. var_260_4[1])
+			assert(false, "goto info error:" .. var_281_4[1])
 
 			return
 		end
 	end
 end
 
-function var_0_0.OpShowAllFleetHealth(arg_265_0, arg_265_1)
-	arg_265_0:OpDone()
+function var_0_0.OpShowAllFleetHealth(arg_286_0, arg_286_1)
+	arg_286_0:OpDone()
 
 	if var_0_1:GetInMap() then
-		for iter_265_0, iter_265_1 in ipairs(var_0_1.wsMap.wsMapFleets) do
-			iter_265_1:DisplayHealth()
+		for iter_286_0, iter_286_1 in ipairs(var_0_1.wsMap.wsMapFleets) do
+			iter_286_1:DisplayHealth()
 		end
 	end
 
-	return existCall(arg_265_1)
+	return existCall(arg_286_1)
 end
 
-function var_0_0.OpAutoSubmitTask(arg_266_0, arg_266_1)
-	var_0_1:emit(WorldMediator.OnAutoSubmitTask, arg_266_1)
+function var_0_0.OpAutoSubmitTask(arg_287_0, arg_287_1)
+	var_0_1:emit(WorldMediator.OnAutoSubmitTask, arg_287_1)
 end
 
-function var_0_0.OpAutoSubmitTaskDone(arg_267_0, arg_267_1)
-	arg_267_0:OpInteractive()
+function var_0_0.OpAutoSubmitTaskDone(arg_288_0, arg_288_1)
+	arg_288_0:OpInteractive()
 end
 
-function var_0_0.OpTrapGravityAnim(arg_268_0, arg_268_1, arg_268_2)
+function var_0_0.OpTrapGravityAnim(arg_289_0, arg_289_1, arg_289_2)
 	var_0_1:ClearMoveQueue()
-	var_0_1.wsMap:GetAttachment(arg_268_1.row, arg_268_1.column, arg_268_1.type):TrapAnimDisplay(function()
-		arg_268_0:OpDone()
-		existCall(arg_268_2)
+	var_0_1.wsMap:GetAttachment(arg_289_1.row, arg_289_1.column, arg_289_1.type):TrapAnimDisplay(function()
+		arg_289_0:OpDone()
+		existCall(arg_289_2)
 	end)
 end
 
-function var_0_0.OpAutoFightSeach(arg_270_0)
-	arg_270_0:OpDone()
+function var_0_0.OpAutoFightSeach(arg_291_0)
+	arg_291_0:OpDone()
 
-	local var_270_0 = nowWorld()
-	local var_270_1 = var_270_0:GetActiveMap()
-	local var_270_2 = var_270_1:GetFleet()
-	local var_270_3 = var_270_1:GetLongMoveRange(var_270_2)
-	local var_270_4
-	local var_270_5 = 0
+	local var_291_0 = nowWorld()
+	local var_291_1 = var_291_0:GetActiveMap()
+	local var_291_2 = var_291_1:GetFleet()
+	local var_291_3 = var_291_1:GetLongMoveRange(var_291_2)
+	local var_291_4
+	local var_291_5 = 0
 
-	for iter_270_0, iter_270_1 in ipairs(var_270_3) do
-		local var_270_6 = var_270_1:GetCell(iter_270_1.row, iter_270_1.column):GetEventAttachment()
-		local var_270_7 = var_270_6 and var_270_6:GetEventAutoPri()
+	for iter_291_0, iter_291_1 in ipairs(var_291_3) do
+		local var_291_6 = var_291_1:GetCell(iter_291_1.row, iter_291_1.column):GetEventAttachment()
+		local var_291_7 = var_291_6 and var_291_6:GetEventAutoPri()
 
-		if var_270_7 and var_270_5 < var_270_7 and var_270_1:CheckEventAutoTrigger(var_270_6) then
-			var_270_4 = iter_270_1
-			var_270_5 = var_270_7
+		if var_291_7 and var_291_5 < var_291_7 and var_291_1:CheckEventAutoTrigger(var_291_6) then
+			var_291_4 = iter_291_1
+			var_291_5 = var_291_7
 		end
 	end
 
-	if var_270_4 then
-		arg_270_0:OpLongMoveFleet(var_270_2, var_270_4.row, var_270_4.column)
-	elseif var_270_2:IsCatSalvage() then
-		local var_270_8 = var_270_3[1]
+	if var_291_4 then
+		arg_291_0:OpLongMoveFleet(var_291_2, var_291_4.row, var_291_4.column)
+	elseif var_291_2:IsCatSalvage() then
+		local var_291_8 = var_291_3[1]
 
-		arg_270_0:OpLongMoveFleet(var_270_2, var_270_8.row, var_270_8.column)
+		arg_291_0:OpLongMoveFleet(var_291_2, var_291_8.row, var_291_8.column)
 	else
-		local var_270_9 = {}
-		local var_270_10 = false
+		local var_291_9 = {}
+		local var_291_10 = false
 
-		if var_270_0.isAutoSwitch then
-			local var_270_11 = {
+		if var_291_0.isAutoSwitch then
+			local var_291_11 = {
 				event_1 = {
 					"auto_switch_wait",
 					"world_planning_stop_event"
@@ -2251,100 +2278,100 @@ function var_0_0.OpAutoFightSeach(arg_270_0)
 					"world_planning_stop_event3"
 				}
 			}
-			local var_270_12 = var_270_1:FindAttachments(WorldMapAttachment.TypeEvent)
+			local var_291_12 = var_291_1:FindAttachments(WorldMapAttachment.TypeEvent)
 
-			local function var_270_13(arg_271_0)
-				if arg_271_0[1] and PlayerPrefs.GetInt(arg_271_0[1], 0) == 0 then
+			local function var_291_13(arg_292_0)
+				if arg_292_0[1] and PlayerPrefs.GetInt(arg_292_0[1], 0) == 0 then
 					return false
 				else
-					local var_271_0 = {}
+					local var_292_0 = {}
 
-					for iter_271_0, iter_271_1 in ipairs(pg.gameset[arg_271_0[2]].description) do
-						var_271_0[iter_271_1] = true
+					for iter_292_0, iter_292_1 in ipairs(pg.gameset[arg_292_0[2]].description) do
+						var_292_0[iter_292_1] = true
 					end
 
-					return underscore.any(var_270_12, function(arg_272_0)
-						return arg_272_0:IsAlive() and var_271_0[arg_272_0.id]
+					return underscore.any(var_291_12, function(arg_293_0)
+						return arg_293_0:IsAlive() and var_292_0[arg_293_0.id]
 					end)
 				end
 			end
 
 			switch(PlayerPrefs.GetInt("auto_switch_mode", 0), {
 				[WorldSwitchPlanningLayer.MODE_DIFFICULT] = function()
-					var_270_10 = var_270_1.isPressing and not underscore.any({
+					var_291_10 = var_291_1.isPressing and not underscore.any({
 						"event_1",
 						"event_2"
-					}, function(arg_274_0)
-						return var_270_13(var_270_11[arg_274_0])
+					}, function(arg_295_0)
+						return var_291_13(var_291_11[arg_295_0])
 					end)
 				end,
 				[WorldSwitchPlanningLayer.MODE_SAFE] = function()
-					local var_275_0 = PlayerPrefs.GetString("auto_switch_difficult_safe", "only") == "only" and World.ReplacementMapType(var_270_0:GetActiveEntrance(), var_270_1) == "base_chapter"
+					local var_296_0 = PlayerPrefs.GetString("auto_switch_difficult_safe", "only") == "only" and World.ReplacementMapType(var_291_0:GetActiveEntrance(), var_291_1) == "base_chapter"
 
-					var_270_10 = var_270_1.isPressing and (var_275_0 or not underscore.any({
+					var_291_10 = var_291_1.isPressing and (var_296_0 or not underscore.any({
 						"event_1",
 						"event_2"
-					}, function(arg_276_0)
-						return var_270_13(var_270_11[arg_276_0])
+					}, function(arg_297_0)
+						return var_291_13(var_291_11[arg_297_0])
 					end))
 				end,
 				[WorldSwitchPlanningLayer.MODE_TREASURE] = function()
-					var_270_10 = World.ReplacementMapType(var_270_0:GetActiveEntrance(), var_270_1) ~= "teasure_chapter" or not underscore.any({
+					var_291_10 = World.ReplacementMapType(var_291_0:GetActiveEntrance(), var_291_1) ~= "teasure_chapter" or not underscore.any({
 						"event_1",
 						"event_3"
-					}, function(arg_278_0)
-						return var_270_13(var_270_11[arg_278_0])
+					}, function(arg_299_0)
+						return var_291_13(var_291_11[arg_299_0])
 					end)
 				end
 			})
 		end
 
-		if var_270_10 then
-			table.insert(var_270_9, function(arg_279_0)
-				arg_270_0:OpAutoSwitchMap(arg_279_0)
+		if var_291_10 then
+			table.insert(var_291_9, function(arg_300_0)
+				arg_291_0:OpAutoSwitchMap(arg_300_0)
 			end)
 		end
 
-		seriesAsync(var_270_9, function()
+		seriesAsync(var_291_9, function()
 			pg.TipsMgr.GetInstance():ShowTips(i18n("autofight_tip_bigworld_suspend"))
-			var_270_0:TriggerAutoFight(false)
-			arg_270_0:OpInteractive()
+			var_291_0:TriggerAutoFight(false)
+			arg_291_0:OpInteractive()
 		end)
 	end
 end
 
-function var_0_0.OpAutoSwitchMap(arg_281_0, arg_281_1)
-	arg_281_0:OpDone()
+function var_0_0.OpAutoSwitchMap(arg_302_0, arg_302_1)
+	arg_302_0:OpDone()
 
-	local var_281_0 = nowWorld()
-	local var_281_1 = var_281_0:GetAtlas()
-	local var_281_2 = var_281_0:GetActiveEntrance()
-	local var_281_3 = var_281_0:GetActiveMap()
-	local var_281_4 = false
-	local var_281_5
-	local var_281_6
+	local var_302_0 = nowWorld()
+	local var_302_1 = var_302_0:GetAtlas()
+	local var_302_2 = var_302_0:GetActiveEntrance()
+	local var_302_3 = var_302_0:GetActiveMap()
+	local var_302_4 = false
+	local var_302_5
+	local var_302_6
 
 	switch(PlayerPrefs.GetInt("auto_switch_mode", 0), {
 		[WorldSwitchPlanningLayer.MODE_DIFFICULT] = function()
-			local var_282_0 = underscore.values(var_281_1.entranceDic)
+			local var_303_0 = underscore.values(var_302_1.entranceDic)
 
-			table.sort(var_282_0, CompareFuncs({
-				function(arg_283_0)
-					return arg_283_0:GetBaseMap():GetDanger()
+			table.sort(var_303_0, CompareFuncs({
+				function(arg_304_0)
+					return arg_304_0:GetBaseMap():GetDanger()
 				end,
-				function(arg_284_0)
-					return arg_284_0.id
+				function(arg_305_0)
+					return arg_305_0.id
 				end
 			}))
 
-			local var_282_1 = PlayerPrefs.GetString("auto_switch_difficult_base", "all")
+			local var_303_1 = PlayerPrefs.GetString("auto_switch_difficult_base", "all")
 
-			for iter_282_0, iter_282_1 in ipairs(var_282_0) do
-				if var_281_1.transportDic[iter_282_1.id] then
-					local var_282_2 = iter_282_1:GetBaseMap()
+			for iter_303_0, iter_303_1 in ipairs(var_303_0) do
+				if var_302_1.transportDic[iter_303_1.id] then
+					local var_303_2 = iter_303_1:GetBaseMap()
 
-					if var_282_2:GetPressingLevel() > 0 and not var_282_2.isPressing and var_282_2:IsMapOpen() and WorldSwitchPlanningLayer.checkDifficultValid(var_282_1, var_282_2:GetDanger()) and not var_281_5 then
-						var_281_5, var_281_6 = var_282_2, iter_282_1
+					if var_303_2:GetPressingLevel() > 0 and not var_303_2.isPressing and var_303_2:IsMapOpen() and WorldSwitchPlanningLayer.checkDifficultValid(var_303_1, var_303_2:GetDanger()) and not var_302_5 then
+						var_302_5, var_302_6 = var_303_2, iter_303_1
 
 						break
 					end
@@ -2352,42 +2379,42 @@ function var_0_0.OpAutoSwitchMap(arg_281_0, arg_281_1)
 			end
 		end,
 		[WorldSwitchPlanningLayer.MODE_SAFE] = function()
-			local var_285_0 = PlayerPrefs.GetString("auto_switch_difficult_safe", "only")
+			local var_306_0 = PlayerPrefs.GetString("auto_switch_difficult_safe", "only")
 
-			switch(var_285_0, {
+			switch(var_306_0, {
 				all = function()
-					local var_286_0 = var_281_0:GetActiveEntrance()
-					local var_286_1 = {}
+					local var_307_0 = var_302_0:GetActiveEntrance()
+					local var_307_1 = {}
 
-					for iter_286_0, iter_286_1 in pairs(var_281_1.entranceDic) do
-						if iter_286_1 ~= var_286_0 and var_281_1.transportDic[iter_286_1.id] and iter_286_1:GetBaseMap().isPressing and #iter_286_1.config.complete_chapter > 0 then
-							local var_286_2 = var_281_0:GetMap(iter_286_1.config.complete_chapter[1])
+					for iter_307_0, iter_307_1 in pairs(var_302_1.entranceDic) do
+						if iter_307_1 ~= var_307_0 and var_302_1.transportDic[iter_307_1.id] and iter_307_1:GetBaseMap().isPressing and #iter_307_1.config.complete_chapter > 0 then
+							local var_307_2 = var_302_0:GetMap(iter_307_1.config.complete_chapter[1])
 
-							if var_286_2:IsMapOpen() then
-								table.insert(var_286_1, {
-									iter_286_1,
-									var_286_2
+							if var_307_2:IsMapOpen() then
+								table.insert(var_307_1, {
+									iter_307_1,
+									var_307_2
 								})
 							end
 						end
 					end
 
-					if #var_286_1 > 0 then
-						var_281_6, var_281_5 = unpack(var_286_1[math.floor(math.random() * #var_286_1) + 1])
+					if #var_307_1 > 0 then
+						var_302_6, var_302_5 = unpack(var_307_1[math.floor(math.random() * #var_307_1) + 1])
 					end
 				end,
 				only = function()
-					var_281_6 = var_281_2
+					var_302_6 = var_302_2
 
-					local var_287_0 = var_281_6:GetBaseMapId()
-					local var_287_1 = var_281_6.config.complete_chapter[1]
+					local var_308_0 = var_302_6:GetBaseMapId()
+					local var_308_1 = var_302_6.config.complete_chapter[1]
 
-					assert(var_287_0 and var_287_1)
+					assert(var_308_0 and var_308_1)
 
-					if var_281_3.id == var_287_0 then
-						var_281_5 = var_281_0:GetMap(var_287_1)
-					elseif var_281_3.id == var_287_1 then
-						var_281_5 = var_281_0:GetMap(var_287_0)
+					if var_302_3.id == var_308_0 then
+						var_302_5 = var_302_0:GetMap(var_308_1)
+					elseif var_302_3.id == var_308_1 then
+						var_302_5 = var_302_0:GetMap(var_308_0)
 					else
 						assert(false)
 					end
@@ -2395,52 +2422,52 @@ function var_0_0.OpAutoSwitchMap(arg_281_0, arg_281_1)
 			})
 		end,
 		[WorldSwitchPlanningLayer.MODE_TREASURE] = function()
-			if World.ReplacementMapType(var_281_2, var_281_3) == "teasure_chapter" then
-				var_281_4 = true
+			if World.ReplacementMapType(var_302_2, var_302_3) == "teasure_chapter" then
+				var_302_4 = true
 
 				return
 			end
 
-			local var_288_0 = underscore.map(var_281_0:GetInventoryProxy():GetItemsByType(WorldItem.UsageWorldMap), function(arg_289_0)
-				return arg_289_0.id
+			local var_309_0 = underscore.map(var_302_0:GetInventoryProxy():GetItemsByType(WorldItem.UsageWorldMap), function(arg_310_0)
+				return arg_310_0.id
 			end)
-			local var_288_1 = underscore.filter(var_288_0, function(arg_290_0)
-				return pg.world_item_data_template[arg_290_0].usage_arg[1] ~= 1
+			local var_309_1 = underscore.filter(var_309_0, function(arg_311_0)
+				return pg.world_item_data_template[arg_311_0].usage_arg[1] ~= 1
 			end)
-			local var_288_2 = underscore.map(var_288_1, function(arg_291_0)
-				local var_291_0 = var_281_0:FindTreasureEntrance(arg_291_0)
-				local var_291_1
+			local var_309_2 = underscore.map(var_309_1, function(arg_312_0)
+				local var_312_0 = var_302_0:FindTreasureEntrance(arg_312_0)
+				local var_312_1
 
-				for iter_291_0, iter_291_1 in ipairs(var_291_0.config.teasure_chapter) do
-					if arg_291_0 == iter_291_1[1] then
-						var_291_1 = iter_291_1[2]
+				for iter_312_0, iter_312_1 in ipairs(var_312_0.config.teasure_chapter) do
+					if arg_312_0 == iter_312_1[1] then
+						var_312_1 = iter_312_1[2]
 
 						break
 					end
 				end
 
 				return {
-					var_281_0:GetMap(var_291_1),
-					var_291_0
+					var_302_0:GetMap(var_312_1),
+					var_312_0
 				}
 			end)
 
-			table.sort(var_288_2, CompareFuncs({
-				function(arg_292_0)
-					return arg_292_0[1]:GetDanger()
+			table.sort(var_309_2, CompareFuncs({
+				function(arg_313_0)
+					return arg_313_0[1]:GetDanger()
 				end,
-				function(arg_293_0)
-					return arg_293_0[1].id
+				function(arg_314_0)
+					return arg_314_0[1].id
 				end
 			}))
 
-			local var_288_3 = PlayerPrefs.GetString("auto_switch_difficult_treasure", "all")
+			local var_309_3 = PlayerPrefs.GetString("auto_switch_difficult_treasure", "all")
 
-			for iter_288_0, iter_288_1 in ipairs(var_288_2) do
-				local var_288_4, var_288_5 = unpack(iter_288_1)
+			for iter_309_0, iter_309_1 in ipairs(var_309_2) do
+				local var_309_4, var_309_5 = unpack(iter_309_1)
 
-				if var_281_1.transportDic[var_288_5.id] and var_288_4:IsMapOpen() and WorldSwitchPlanningLayer.checkDifficultValid(var_288_3, var_288_4:GetDanger()) and not var_281_5 then
-					var_281_5, var_281_6 = var_288_4, var_288_5
+				if var_302_1.transportDic[var_309_5.id] and var_309_4:IsMapOpen() and WorldSwitchPlanningLayer.checkDifficultValid(var_309_3, var_309_4:GetDanger()) and not var_302_5 then
+					var_302_5, var_302_6 = var_309_4, var_309_5
 
 					break
 				end
@@ -2448,26 +2475,26 @@ function var_0_0.OpAutoSwitchMap(arg_281_0, arg_281_1)
 		end
 	})
 
-	if var_281_4 then
-		arg_281_0:OpReqJumpOut(var_281_3.gid, true)
-	elseif not var_281_5 then
-		var_281_0:TriggerAutoSwitch(false)
+	if var_302_4 then
+		arg_302_0:OpReqJumpOut(var_302_3.gid, true)
+	elseif not var_302_5 then
+		var_302_0:TriggerAutoSwitch(false)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("world_automode_start_tip1"))
 
-		return existCall(arg_281_1)
-	elseif not var_281_5.isCost and var_281_0.staminaMgr:GetTotalStamina() < var_281_5.config.enter_cost then
-		var_281_0:TriggerAutoSwitch(false)
+		return existCall(arg_302_1)
+	elseif not var_302_5.isCost and var_302_0.staminaMgr:GetTotalStamina() < var_302_5.config.enter_cost then
+		var_302_0:TriggerAutoSwitch(false)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("world_automode_start_tip2"))
 
-		return existCall(arg_281_1)
+		return existCall(arg_302_1)
 	else
 		nowWorld():TriggerAutoSwitch(true)
 
-		if var_281_5.active then
+		if var_302_5.active then
 			nowWorld():TriggerAutoFight(true)
-			arg_281_0:OpSetInMap(true)
+			arg_302_0:OpSetInMap(true)
 		else
-			arg_281_0:OpTransport(var_281_6, var_281_5)
+			arg_302_0:OpTransport(var_302_6, var_302_5)
 		end
 	end
 end

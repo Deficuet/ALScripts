@@ -201,6 +201,8 @@ function var_0_1.CheckFModeEvent(arg_22_0, arg_22_1, arg_22_2, arg_22_3)
 
 		arg_22_3(var_22_1)
 	end
+
+	return var_22_0
 end
 
 function var_0_1.CheckHasCue(arg_27_0, arg_27_1, arg_27_2)

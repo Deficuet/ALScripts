@@ -37,7 +37,11 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 				pg.TipsMgr.GetInstance():ShowTips(i18n("island_cancel_follow_success"))
 			end
 
-			arg_1_0:sendNotification(GAME.ISLAND_FOLLOWER_OP_DONE)
+			arg_1_0:sendNotification(GAME.ISLAND_FOLLOWER_OP_DONE, var_1_1)
+
+			if var_1_0.callback then
+				var_1_0.callback()
+			end
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[arg_2_0.result] .. arg_2_0.result)
 		end

@@ -78,163 +78,170 @@ function var_0_0.OnInit(arg_6_0)
 			type = IslandMsgBox.TYPE_COMMON_AUTO_CONFIRM
 		})
 	end)
-	arg_6_0.uiShipList:make(function(arg_9_0, arg_9_1, arg_9_2)
-		if arg_9_0 == UIItemList.EventInit then
-			arg_6_0:InitShipItem(arg_9_1, arg_9_2)
-		elseif arg_9_0 == UIItemList.EventUpdate then
-			arg_6_0:UpdateShipItem(arg_9_1, arg_9_2)
+	onButton(arg_6_0, arg_6_0.uiBackBtn, function()
+		arg_6_0.curType = IslandAutoCollectHelper.SelectType.None
+
+		arg_6_0:Flush()
+	end)
+	arg_6_0.uiShipList:make(function(arg_10_0, arg_10_1, arg_10_2)
+		if arg_10_0 == UIItemList.EventInit then
+			arg_6_0:InitShipItem(arg_10_1, arg_10_2)
+		elseif arg_10_0 == UIItemList.EventUpdate then
+			arg_6_0:UpdateShipItem(arg_10_1, arg_10_2)
 		end
 	end)
-	arg_6_0.uiTipList:make(function(arg_10_0, arg_10_1, arg_10_2)
-		if arg_10_0 == UIItemList.EventInit then
-			arg_6_0:InitItem(arg_10_1, arg_10_2)
-		elseif arg_10_0 == UIItemList.EventUpdate then
-			arg_6_0:UpdateItem(arg_10_1, arg_10_2)
+	arg_6_0.uiTipList:make(function(arg_11_0, arg_11_1, arg_11_2)
+		if arg_11_0 == UIItemList.EventInit then
+			arg_6_0:InitItem(arg_11_1, arg_11_2)
+		elseif arg_11_0 == UIItemList.EventUpdate then
+			arg_6_0:UpdateItem(arg_11_1, arg_11_2)
 		end
 	end)
 	setText(arg_6_0.uiSelectConfirmText, i18n("island_chara_gather_range"))
 	setText(arg_6_0.uiConfirmText, i18n("island_chara_gather_start"))
+	setText(arg_6_0.uiBackText, i18n("word_back"))
 end
 
-function var_0_0.InitShipItem(arg_11_0, arg_11_1, arg_11_2)
-	local var_11_0 = arg_11_1 + 1
+function var_0_0.InitShipItem(arg_12_0, arg_12_1, arg_12_2)
+	local var_12_0 = arg_12_1 + 1
 
-	onButton(arg_11_0, arg_11_2:Find("unlock/btn"), function()
-		arg_11_0:emit(IslandMediator.OPEN_PAGE, "IslandShipSelectPage", {
+	onButton(arg_12_0, arg_12_2:Find("unlock/btn"), function()
+		arg_12_0:emit(IslandMediator.OPEN_PAGE, "IslandShipSelectPage", {
 			{
 				attrType = IslandShipAttr.COLLECT_KEY,
-				confirmFunc = function(arg_13_0)
-					arg_11_0:AfterShipSelect(var_11_0, arg_13_0[1])
+				confirmFunc = function(arg_14_0)
+					arg_12_0:AfterShipSelect(var_12_0, arg_14_0[1])
 				end,
-				autoCollectionSelectShip = arg_11_0.selectShips
+				autoCollectionSelectShip = arg_12_0.selectShips
 			}
 		})
 	end)
-	onButton(arg_11_0, arg_11_2:Find("unlock/ship/delete"), function()
-		arg_11_0.selectShips[var_11_0] = nil
+	onButton(arg_12_0, arg_12_2:Find("unlock/ship/delete"), function()
+		arg_12_0.selectShips[var_12_0] = nil
 
-		arg_11_0:Flush()
+		arg_12_0:Flush()
 	end)
 end
 
-function var_0_0.UpdateShipItem(arg_15_0, arg_15_1, arg_15_2)
-	local var_15_0 = arg_15_0.curType == IslandAutoCollectHelper.SelectType.None
+function var_0_0.UpdateShipItem(arg_16_0, arg_16_1, arg_16_2)
+	local var_16_0 = arg_16_0.curType == IslandAutoCollectHelper.SelectType.None
 
-	setActive(arg_15_2:Find("lock"), var_15_0)
-	setActive(arg_15_2:Find("unlock"), not var_15_0)
+	setActive(arg_16_2:Find("lock"), var_16_0)
+	setActive(arg_16_2:Find("unlock"), not var_16_0)
 
-	if var_15_0 then
+	if var_16_0 then
 		return
 	end
 
-	local var_15_1 = arg_15_1 + 1
-	local var_15_2 = arg_15_0.selectShips[var_15_1]
-	local var_15_3 = var_15_2 ~= nil and true or false
+	local var_16_1 = arg_16_1 + 1
+	local var_16_2 = arg_16_0.selectShips[var_16_1]
+	local var_16_3 = var_16_2 ~= nil and true or false
 
-	setActive(arg_15_2:Find("unlock/ship"), var_15_3)
-	setActive(arg_15_2:Find("unlock/add"), not var_15_3)
-	setActive(arg_15_2:Find("unlock/add"), not var_15_3)
+	setActive(arg_16_2:Find("unlock/ship"), var_16_3)
+	setActive(arg_16_2:Find("unlock/add"), not var_16_3)
+	setActive(arg_16_2:Find("unlock/add"), not var_16_3)
 
-	if not var_15_2 then
+	if not var_16_2 then
 		return
 	end
 
-	local var_15_4 = IslandShip.StaticGetPrefab(var_15_2)
+	local var_16_4 = IslandShip.StaticGetPrefab(var_16_2)
 
-	LoadImageSpriteAsync("squareicon/" .. var_15_4, arg_15_2:Find("unlock/ship/mask/icon"))
+	LoadImageSpriteAsync("squareicon/" .. var_16_4, arg_16_2:Find("unlock/ship/mask/icon"))
 
-	local var_15_5 = arg_15_0.expAddlist[var_15_1]
+	local var_16_5 = arg_16_0.expAddlist[var_16_1]
 
-	if not var_15_5 then
-		setActive(arg_15_2:Find("unlock/ship/exp"), false)
+	if not var_16_5 then
+		setActive(arg_16_2:Find("unlock/ship/exp"), false)
 
 		return
 	end
 
-	setActive(arg_15_2:Find("unlock/ship/exp"), true)
-	setText(arg_15_2:Find("unlock/ship/exp/addExp"), string.format("EXP+%d", var_15_5))
+	setActive(arg_16_2:Find("unlock/ship/exp"), true)
+	setText(arg_16_2:Find("unlock/ship/exp/addExp"), string.format("EXP+%d", var_16_5))
 end
 
-function var_0_0.AfterShipSelect(arg_16_0, arg_16_1, arg_16_2)
-	arg_16_0.selectShips[arg_16_1] = arg_16_2
+function var_0_0.AfterShipSelect(arg_17_0, arg_17_1, arg_17_2)
+	arg_17_0.selectShips[arg_17_1] = arg_17_2
 
-	arg_16_0:Flush()
+	arg_17_0:Flush()
 end
 
-function var_0_0.InitItem(arg_17_0, arg_17_1, arg_17_2)
-	local var_17_0 = arg_17_1 + 1
-	local var_17_1 = IslandAutoCollectHelper.CostTipList[var_17_0]
-
-	setText(arg_17_2:Find("name"), var_17_1)
-end
-
-function var_0_0.UpdateItem(arg_18_0, arg_18_1, arg_18_2)
+function var_0_0.InitItem(arg_18_0, arg_18_1, arg_18_2)
 	local var_18_0 = arg_18_1 + 1
-	local var_18_1 = arg_18_0.costTipList[var_18_0]
+	local var_18_1 = IslandAutoCollectHelper.CostTipList[var_18_0]
 
-	setText(arg_18_2:Find("num"), var_18_1)
+	setText(arg_18_2:Find("name"), var_18_1)
 end
 
-function var_0_0.Flush(arg_19_0)
-	setActive(arg_19_0.uiSelectConfirm, arg_19_0.curType == IslandAutoCollectHelper.SelectType.None)
-	setActive(arg_19_0.uiConfirmBtn, arg_19_0.curType ~= IslandAutoCollectHelper.SelectType.None)
-	arg_19_0:RefreshData()
+function var_0_0.UpdateItem(arg_19_0, arg_19_1, arg_19_2)
+	local var_19_0 = arg_19_1 + 1
+	local var_19_1 = arg_19_0.costTipList[var_19_0]
 
-	if arg_19_0.curType ~= IslandAutoCollectHelper.SelectType.None then
-		setActive(arg_19_0.uiConfirmBtn.transform:Find("blue"), arg_19_0.cheackEnough)
-		setActive(arg_19_0.uiConfirmBtn.transform:Find("gray"), not arg_19_0.cheackEnough)
+	setText(arg_19_2:Find("num"), var_19_1)
+end
 
-		if arg_19_0.cheackEnough then
-			onButton(arg_19_0, arg_19_0.uiConfirmBtn, function()
-				local var_20_0 = {}
+function var_0_0.Flush(arg_20_0)
+	setActive(arg_20_0.uiSelectConfirm, arg_20_0.curType == IslandAutoCollectHelper.SelectType.None)
+	setActive(arg_20_0.uiConfirmBtn, arg_20_0.curType ~= IslandAutoCollectHelper.SelectType.None)
+	setActive(arg_20_0.uiBackBtn, arg_20_0.curType ~= IslandAutoCollectHelper.SelectType.None)
+	arg_20_0:RefreshData()
 
-				for iter_20_0, iter_20_1 in pairs(arg_19_0.selectShips) do
-					table.insert(var_20_0, iter_20_1)
+	if arg_20_0.curType ~= IslandAutoCollectHelper.SelectType.None then
+		setActive(arg_20_0.uiConfirmBtn.transform:Find("blue"), arg_20_0.cheackEnough)
+		setActive(arg_20_0.uiConfirmBtn.transform:Find("gray"), not arg_20_0.cheackEnough)
+
+		if arg_20_0.cheackEnough then
+			onButton(arg_20_0, arg_20_0.uiConfirmBtn, function()
+				local var_21_0 = {}
+
+				for iter_21_0, iter_21_1 in pairs(arg_20_0.selectShips) do
+					table.insert(var_21_0, iter_21_1)
 				end
 
 				pg.m02:sendNotification(GAME.ISLAND_TAKE_AUTO_COLLECTION, {
-					type = arg_19_0.curType,
-					ship_list = var_20_0,
-					gatherData = arg_19_0.gatherDataList
+					type = arg_20_0.curType,
+					ship_list = var_21_0,
+					gatherData = arg_20_0.gatherDataList
 				})
 			end)
 		else
-			removeOnButton(arg_19_0.uiConfirmBtn)
+			removeOnButton(arg_20_0.uiConfirmBtn)
 		end
 	end
 
-	arg_19_0.uiShipList:align(var_0_1)
-	arg_19_0.uiTipList:align(#IslandAutoCollectHelper.CostTipList)
+	arg_20_0.uiShipList:align(var_0_1)
+	arg_20_0.uiTipList:align(#IslandAutoCollectHelper.CostTipList)
 end
 
-function var_0_0.GetCostData(arg_21_0)
-	local var_21_0 = 0
-	local var_21_1 = 0
-	local var_21_2 = 0
+function var_0_0.GetCostData(arg_22_0)
+	local var_22_0 = 0
+	local var_22_1 = 0
+	local var_22_2 = 0
 
-	arg_21_0.autoCostList = {}
+	arg_22_0.autoCostList = {}
 
-	if arg_21_0.curType == IslandAutoCollectHelper.SelectType.HandCollection or arg_21_0.curType == IslandAutoCollectHelper.SelectType.Both then
-		local var_21_3 = {
+	if arg_22_0.curType == IslandAutoCollectHelper.SelectType.HandCollection or arg_22_0.curType == IslandAutoCollectHelper.SelectType.Both then
+		local var_22_3 = {
 			IslandProductConst.MinePlaceId,
 			IslandProductConst.FellingPlaceId
 		}
-		local var_21_4 = getProxy(IslandProxy):GetIsland():GetBuildingAgency()
+		local var_22_4 = getProxy(IslandProxy):GetIsland():GetBuildingAgency()
 
-		for iter_21_0, iter_21_1 in ipairs(var_21_3) do
-			local var_21_5 = var_21_4:GetBuilding(iter_21_1)
-			local var_21_6 = var_21_5 and var_21_5:GetBuildingCollectData() or nil
-			local var_21_7 = arg_21_0.buildCostDic[iter_21_1]
+		for iter_22_0, iter_22_1 in ipairs(var_22_3) do
+			local var_22_5 = var_22_4:GetBuilding(iter_22_1)
+			local var_22_6 = var_22_5 and var_22_5:GetBuildingCollectData() or nil
+			local var_22_7 = arg_22_0.buildCostDic[iter_22_1]
 
-			if var_21_6 then
-				local var_21_8 = var_21_6:GetCollectSlotDatasDic()
+			if var_22_6 then
+				local var_22_8 = var_22_6:GetCollectSlotDatasDic()
 
-				for iter_21_2, iter_21_3 in pairs(var_21_8) do
-					if iter_21_3:GetCanCollectTimeStamps() == 0 and arg_21_0:CheckIsDefauotSlot(iter_21_1, iter_21_3.id) then
-						table.insert(arg_21_0.autoCostList, {
-							energyCost = var_21_7.energyCost,
-							coinCost = var_21_7.coinCost,
-							expAdd = var_21_7.expCost
+				for iter_22_2, iter_22_3 in pairs(var_22_8) do
+					if iter_22_3:GetCanCollectTimeStamps() == 0 and arg_22_0:CheckIsDefauotSlot(iter_22_1, iter_22_3.id) then
+						table.insert(arg_22_0.autoCostList, {
+							energyCost = var_22_7.energyCost,
+							coinCost = var_22_7.coinCost,
+							expAdd = var_22_7.expCost
 						})
 					end
 				end
@@ -242,168 +249,168 @@ function var_0_0.GetCostData(arg_21_0)
 		end
 	end
 
-	if arg_21_0.curType == IslandAutoCollectHelper.SelectType.Gather or arg_21_0.curType == IslandAutoCollectHelper.SelectType.Both then
-		local var_21_9 = pg.TimeMgr.GetInstance():GetServerTime()
+	if arg_22_0.curType == IslandAutoCollectHelper.SelectType.Gather or arg_22_0.curType == IslandAutoCollectHelper.SelectType.Both then
+		local var_22_9 = pg.TimeMgr.GetInstance():GetServerTime()
 
-		for iter_21_4, iter_21_5 in ipairs(arg_21_0.gatherDataList) do
-			if iter_21_5.state == 0 or iter_21_5.state == 1 and var_21_9 > iter_21_5.refresh_time then
-				local var_21_10 = pg.island_wild_gather[iter_21_5.id]
+		for iter_22_4, iter_22_5 in ipairs(arg_22_0.gatherDataList) do
+			if iter_22_5.state == 0 or iter_22_5.state == 1 and var_22_9 > iter_22_5.refresh_time then
+				local var_22_10 = pg.island_wild_gather[iter_22_5.id]
 
-				table.insert(arg_21_0.autoCostList, {
-					energyCost = var_21_10.auto_parameters[2],
-					coinCost = var_21_10.auto_parameters[1],
-					expAdd = var_21_10.auto_parameters[3]
+				table.insert(arg_22_0.autoCostList, {
+					energyCost = var_22_10.auto_parameters[2],
+					coinCost = var_22_10.auto_parameters[1],
+					expAdd = var_22_10.auto_parameters[3]
 				})
 			end
 		end
 	end
 
-	for iter_21_6, iter_21_7 in ipairs(arg_21_0.autoCostList) do
-		var_21_0 = var_21_0 + iter_21_7.energyCost
-		var_21_1 = var_21_1 + iter_21_7.coinCost
-		var_21_2 = var_21_2 + iter_21_7.expAdd
+	for iter_22_6, iter_22_7 in ipairs(arg_22_0.autoCostList) do
+		var_22_0 = var_22_0 + iter_22_7.energyCost
+		var_22_1 = var_22_1 + iter_22_7.coinCost
+		var_22_2 = var_22_2 + iter_22_7.expAdd
 	end
 
-	return var_21_0, var_21_1, var_21_2
+	return var_22_0, var_22_1, var_22_2
 end
 
-function var_0_0.GetGatherReducePercent(arg_22_0)
-	local var_22_0 = 0
-
-	for iter_22_0, iter_22_1 in pairs(arg_22_0.selectShips) do
-		var_22_0 = var_22_0 + IslandAutoCollectHelper.GetAttributeReducePercent(iter_22_1)
-	end
-
-	return var_22_0
-end
-
-function var_0_0.GetShipCount(arg_23_0)
+function var_0_0.GetGatherReducePercent(arg_23_0)
 	local var_23_0 = 0
 
 	for iter_23_0, iter_23_1 in pairs(arg_23_0.selectShips) do
-		var_23_0 = var_23_0 + 1
+		var_23_0 = var_23_0 + IslandAutoCollectHelper.GetAttributeReducePercent(iter_23_1)
 	end
 
 	return var_23_0
 end
 
-function var_0_0.RefreshData(arg_24_0)
-	arg_24_0.costTipList = {}
-	arg_24_0.expAddlist = {}
-	arg_24_0.cheackEnough = false
+function var_0_0.GetShipCount(arg_24_0)
+	local var_24_0 = 0
 
-	local var_24_0, var_24_1, var_24_2 = arg_24_0:GetCostData()
-	local var_24_3
-	local var_24_4
+	for iter_24_0, iter_24_1 in pairs(arg_24_0.selectShips) do
+		var_24_0 = var_24_0 + 1
+	end
 
-	if arg_24_0.curType == IslandAutoCollectHelper.SelectType.None then
-		var_24_3 = "/"
-		var_24_4 = "/"
-	elseif arg_24_0:GetShipCount() == 0 then
-		var_24_3 = var_24_0
-		var_24_4 = var_24_1
+	return var_24_0
+end
+
+function var_0_0.RefreshData(arg_25_0)
+	arg_25_0.costTipList = {}
+	arg_25_0.expAddlist = {}
+	arg_25_0.cheackEnough = false
+
+	local var_25_0, var_25_1, var_25_2 = arg_25_0:GetCostData()
+	local var_25_3
+	local var_25_4
+
+	if arg_25_0.curType == IslandAutoCollectHelper.SelectType.None then
+		var_25_3 = "/"
+		var_25_4 = "/"
+	elseif arg_25_0:GetShipCount() == 0 then
+		var_25_3 = var_25_0
+		var_25_4 = var_25_1
 	else
-		local var_24_5 = arg_24_0:GetGatherReducePercent()
-		local var_24_6 = math.floor(var_24_0 * (1 - var_24_5 * 0.01))
-		local var_24_7 = var_24_6
-		local var_24_8 = 0
+		local var_25_5 = arg_25_0:GetGatherReducePercent()
+		local var_25_6 = math.floor(var_25_0 * (1 - var_25_5 * 0.01))
+		local var_25_7 = var_25_6
+		local var_25_8 = 0
 
-		for iter_24_0 = 1, 3 do
-			local var_24_9 = arg_24_0.selectShips[iter_24_0]
+		for iter_25_0 = 1, 3 do
+			local var_25_9 = arg_25_0.selectShips[iter_25_0]
 
-			if var_24_9 then
-				local var_24_10 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(var_24_9):GetCurrentEnergy()
-				local var_24_11 = 0
+			if var_25_9 then
+				local var_25_10 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(var_25_9):GetCurrentEnergy()
+				local var_25_11 = 0
 
-				if var_24_10 <= var_24_7 then
-					var_24_11 = var_24_10
+				if var_25_10 <= var_25_7 then
+					var_25_11 = var_25_10
 				else
-					var_24_11 = var_24_7
+					var_25_11 = var_25_7
 				end
 
-				var_24_7 = var_24_7 - var_24_11
-				var_24_8 = var_24_8 + var_24_10
+				var_25_7 = var_25_7 - var_25_11
+				var_25_8 = var_25_8 + var_25_10
 
-				local var_24_12 = var_24_11 / var_24_6 * var_24_2
+				local var_25_12 = var_25_11 / var_25_6 * var_25_2
 
-				arg_24_0.expAddlist[iter_24_0] = math.floor(var_24_12)
+				arg_25_0.expAddlist[iter_25_0] = math.floor(var_25_12)
 			end
 		end
 
-		local var_24_13 = var_24_6 <= var_24_8
-		local var_24_14 = var_24_13 and var_0_3 or var_0_2
+		local var_25_13 = var_25_6 <= var_25_8
+		local var_25_14 = var_25_13 and var_0_3 or var_0_2
 
-		var_24_3 = string.format("<color=%s>%d</color>/%d(-%d%%)", var_24_14, var_24_8, var_24_6, var_24_5)
+		var_25_3 = string.format("<color=%s>%d</color>/%d(-%d%%)", var_25_14, var_25_8, var_25_6, var_25_5)
 
-		local var_24_15 = getProxy(IslandProxy):GetIsland():GetInventoryAgency():GetItemById(1)
-		local var_24_16 = var_24_15 and var_24_15:GetCount() or 0
-		local var_24_17 = var_24_1 <= var_24_16
-		local var_24_18 = var_24_17 and var_0_3 or var_0_2
+		local var_25_15 = getProxy(IslandProxy):GetIsland():GetInventoryAgency():GetItemById(1)
+		local var_25_16 = var_25_15 and var_25_15:GetCount() or 0
+		local var_25_17 = var_25_1 <= var_25_16
+		local var_25_18 = var_25_17 and var_0_3 or var_0_2
 
-		var_24_4 = string.format("<color=%s>%d</color>/%d", var_24_18, var_24_1, var_24_16)
-		arg_24_0.cheackEnough = var_24_13 and var_24_17
+		var_25_4 = string.format("<color=%s>%d</color>/%d", var_25_18, var_25_1, var_25_16)
+		arg_25_0.cheackEnough = var_25_13 and var_25_17
 	end
 
-	table.insert(arg_24_0.costTipList, var_24_3)
-	table.insert(arg_24_0.costTipList, var_24_4)
+	table.insert(arg_25_0.costTipList, var_25_3)
+	table.insert(arg_25_0.costTipList, var_25_4)
 end
 
-function var_0_0.OnGetCollctionDone(arg_25_0, arg_25_1)
-	local var_25_0 = arg_25_1.selectType
+function var_0_0.OnGetCollctionDone(arg_26_0, arg_26_1)
+	local var_26_0 = arg_26_1.selectType
 
-	if var_25_0 == IslandAutoCollectHelper.SelectType.Gather or var_25_0 == IslandAutoCollectHelper.SelectType.Both then
-		arg_25_0.gatherDataList = {}
+	if var_26_0 == IslandAutoCollectHelper.SelectType.Gather or var_26_0 == IslandAutoCollectHelper.SelectType.Both then
+		arg_26_0.gatherDataList = {}
 	end
 
-	arg_25_0.curType = IslandAutoCollectHelper.SelectType.None
-
-	arg_25_0:Flush()
-end
-
-function var_0_0.AfterSelectType(arg_26_0, arg_26_1)
-	arg_26_0.curType = arg_26_1
+	arg_26_0.curType = IslandAutoCollectHelper.SelectType.None
 
 	arg_26_0:Flush()
 end
 
-function var_0_0.OnDestroy(arg_27_0)
+function var_0_0.AfterSelectType(arg_27_0, arg_27_1)
+	arg_27_0.curType = arg_27_1
+
+	arg_27_0:Flush()
+end
+
+function var_0_0.OnDestroy(arg_28_0)
 	return
 end
 
-function var_0_0.ConfigDataHandle(arg_28_0)
-	local var_28_0 = pg.island_set.mining_auto_parameters.key_value_varchar
+function var_0_0.ConfigDataHandle(arg_29_0)
+	local var_29_0 = pg.island_set.mining_auto_parameters.key_value_varchar
 
-	arg_28_0.buildCostDic = {}
+	arg_29_0.buildCostDic = {}
 
-	for iter_28_0, iter_28_1 in ipairs(var_28_0) do
-		local var_28_1 = iter_28_1[1]
+	for iter_29_0, iter_29_1 in ipairs(var_29_0) do
+		local var_29_1 = iter_29_1[1]
 
-		arg_28_0.buildCostDic[var_28_1] = {}
-		arg_28_0.buildCostDic[var_28_1].coinCost = iter_28_1[2]
-		arg_28_0.buildCostDic[var_28_1].energyCost = iter_28_1[3]
-		arg_28_0.buildCostDic[var_28_1].expCost = iter_28_1[4]
+		arg_29_0.buildCostDic[var_29_1] = {}
+		arg_29_0.buildCostDic[var_29_1].coinCost = iter_29_1[2]
+		arg_29_0.buildCostDic[var_29_1].energyCost = iter_29_1[3]
+		arg_29_0.buildCostDic[var_29_1].expCost = iter_29_1[4]
 	end
 
-	arg_28_0.buildDefaultList = {}
+	arg_29_0.buildDefaultList = {}
 
-	local var_28_2 = pg.island_set.mining_default_slot.key_value_varchar
+	local var_29_2 = pg.island_set.mining_default_slot.key_value_varchar
 
-	for iter_28_2, iter_28_3 in ipairs(var_28_2) do
-		local var_28_3 = iter_28_3[1]
+	for iter_29_2, iter_29_3 in ipairs(var_29_2) do
+		local var_29_3 = iter_29_3[1]
 
-		arg_28_0.buildDefaultList[var_28_3] = {}
+		arg_29_0.buildDefaultList[var_29_3] = {}
 
-		for iter_28_4, iter_28_5 in ipairs(iter_28_3[2]) do
-			table.insert(arg_28_0.buildDefaultList[var_28_3], iter_28_5)
+		for iter_29_4, iter_29_5 in ipairs(iter_29_3[2]) do
+			table.insert(arg_29_0.buildDefaultList[var_29_3], iter_29_5)
 		end
 	end
 end
 
-function var_0_0.CheckIsDefauotSlot(arg_29_0, arg_29_1, arg_29_2)
-	local var_29_0 = arg_29_0.buildDefaultList[arg_29_1] or {}
+function var_0_0.CheckIsDefauotSlot(arg_30_0, arg_30_1, arg_30_2)
+	local var_30_0 = arg_30_0.buildDefaultList[arg_30_1] or {}
 
-	for iter_29_0, iter_29_1 in ipairs(var_29_0) do
-		if iter_29_1 == arg_29_2 then
+	for iter_30_0, iter_30_1 in ipairs(var_30_0) do
+		if iter_30_1 == arg_30_2 then
 			return true
 		end
 	end
@@ -411,21 +418,21 @@ function var_0_0.CheckIsDefauotSlot(arg_29_0, arg_29_1, arg_29_2)
 	return false
 end
 
-function var_0_0.Show(arg_30_0, arg_30_1)
-	var_0_0.super.Show(arg_30_0)
-	arg_30_0:ConfigDataHandle()
+function var_0_0.Show(arg_31_0, arg_31_1)
+	var_0_0.super.Show(arg_31_0)
+	arg_31_0:ConfigDataHandle()
 
-	arg_30_0.gatherDataList = {}
+	arg_31_0.gatherDataList = {}
 
-	for iter_30_0, iter_30_1 in ipairs(arg_30_1.gather_list) do
-		table.insert(arg_30_0.gatherDataList, IslandWildGatherData.New(iter_30_1))
+	for iter_31_0, iter_31_1 in ipairs(arg_31_1.gather_list) do
+		table.insert(arg_31_0.gatherDataList, IslandWildGatherData.New(iter_31_1))
 	end
 
-	arg_30_0.curType = IslandAutoCollectHelper.SelectType.None
-	arg_30_0.selectShips = {}
-	arg_30_0.uiItemTipList = {}
+	arg_31_0.curType = IslandAutoCollectHelper.SelectType.None
+	arg_31_0.selectShips = {}
+	arg_31_0.uiItemTipList = {}
 
-	arg_30_0:Flush()
+	arg_31_0:Flush()
 end
 
 return var_0_0

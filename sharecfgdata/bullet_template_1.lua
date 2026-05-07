@@ -57253,6 +57253,61 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.bullet_template_1[19003] = {
+		hit_sfx = "battle/hit",
+		range_offset = 10,
+		modle_ID = "huangjia_changjiang01",
+		type = 1,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "ShellHit",
+		effect_type = 1,
+		id = 19003,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 150,
+		miss_fx = "ShellMissBig",
+		pierce_count = 99,
+		ammo_type = 3,
+		alert_fx = "",
+		velocity = 20,
+		damage_type = {
+			1.2,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				3,
+				1.2
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			10,
+			2,
+			3
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.bullet_template_1[852664] = {
 		hit_sfx = "",
 		range_offset = 0,

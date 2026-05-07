@@ -204,6 +204,20 @@ pg.island_item_data_template.all = {
 	4026,
 	4027,
 	4028,
+	4029,
+	4030,
+	4031,
+	4032,
+	4033,
+	4034,
+	4035,
+	4036,
+	4037,
+	4038,
+	4039,
+	4040,
+	4041,
+	4042,
 	5001,
 	5002,
 	5003,
@@ -275,6 +289,12 @@ pg.island_item_data_template.all = {
 	200021,
 	200022,
 	200023,
+	200024,
+	200025,
+	200026,
+	200027,
+	200028,
+	200029,
 	300001,
 	300002,
 	300003,
@@ -494,6 +514,20 @@ pg.island_item_data_template.get_id_list_by_usage = {
 		4026,
 		4027,
 		4028,
+		4029,
+		4030,
+		4031,
+		4032,
+		4033,
+		4034,
+		4035,
+		4036,
+		4037,
+		4038,
+		4039,
+		4040,
+		4041,
+		4042,
 		5001,
 		5002,
 		5003,
@@ -559,6 +593,12 @@ pg.island_item_data_template.get_id_list_by_usage = {
 		200021,
 		200022,
 		200023,
+		200024,
+		200025,
+		200026,
+		200027,
+		200028,
+		200029,
 		300001,
 		300002,
 		300003,
@@ -753,6 +793,20 @@ pg.island_item_data_template.get_id_list_by_type = {
 		4026,
 		4027,
 		4028,
+		4029,
+		4030,
+		4031,
+		4032,
+		4033,
+		4034,
+		4035,
+		4036,
+		4037,
+		4038,
+		4039,
+		4040,
+		4041,
+		4042,
 		5001,
 		5002,
 		5003,
@@ -825,6 +879,12 @@ pg.island_item_data_template.get_id_list_by_type = {
 		200021,
 		200022,
 		200023,
+		200024,
+		200025,
+		200026,
+		200027,
+		200028,
+		200029,
 		300001,
 		300002,
 		300003,
@@ -7903,6 +7963,484 @@ end)()
 	}
 end)()
 ;(function()
+	pg.base.island_item_data_template[4029] = {
+		pt_num = 32,
+		name = "茉莉花",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "夏日傍晚绽放的洁白小花，清香悠远，可泡茶或提取香精。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 315,
+		icon = "IslandProps/item_4029",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4029,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"夏季特产经营 地图采集",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4030] = {
+		pt_num = 27,
+		name = "向日葵",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "始终追随阳光的金色花朵，成熟后的花盘结满饱满的葵花籽。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 270,
+		icon = "IslandProps/item_4030",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4030,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"夏季特产经营 地图采集",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4031] = {
+		pt_num = 54,
+		name = "西瓜",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "绿皮红瓤的夏日解暑佳果，汁水丰盈，清甜爽口。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 540,
+		icon = "IslandProps/item_4031",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4031,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"夏季特产经营 地图采集",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4032] = {
+		pt_num = 2,
+		name = "红米苋",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "叶片呈紫红色的营养蔬菜，具有多种药用价值。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 225,
+		icon = "IslandProps/item_4032",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4032,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"夏季特产经营 地图采集",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4033] = {
+		pt_num = 3,
+		name = "番茄",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "红润饱满的成熟番茄，酸甜多汁，既可生食也适合烹煮。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 30,
+		icon = "IslandProps/item_4033",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4033,
+		have_max = 0,
+		filter = {
+			10111,
+			10132
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"夏季特产经营 青芽苗圃",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4034] = {
+		pt_num = 1,
+		name = "番茄种子",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "将它们埋进土里，悉心浇灌，便能收获红润饱满的番茄。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 1,
+		icon = "IslandProps/item_4034",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4034,
+		have_max = 0,
+		filter = {
+			10114
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"夏季特产经营 商店购买",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
+				}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4035] = {
+		pt_num = 1,
+		name = "黄瓜",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "翠绿脆嫩的夏季时蔬，清爽解腻，生吃凉拌皆是美味。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 20,
+		icon = "IslandProps/item_4035",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4035,
+		have_max = 0,
+		filter = {
+			10111,
+			10132
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"夏季特产经营 青芽苗圃",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4036] = {
+		pt_num = 1,
+		name = "黄瓜种子",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "播下这些扁平的种子，待藤蔓攀爬，便能采摘到新鲜的黄瓜。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 1,
+		icon = "IslandProps/item_4036",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4036,
+		have_max = 0,
+		filter = {
+			10114
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"夏季特产经营 商店购买",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
+				}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4037] = {
+		pt_num = 1,
+		name = "黄瓜汁",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 250,
+		desc = "新鲜黄瓜现榨而成的青翠汁液，清爽解渴，是夏日消暑良品。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 100,
+		icon = "IslandProps/item_4037",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4037,
+		have_max = 0,
+		filter = {
+			10113,
+			10128
+		},
+		sub_attribute = {
+			1,
+			35
+		},
+		jump_page = {
+			{
+				"夏季特产经营 白熊饮品",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4038] = {
+		pt_num = 60,
+		name = "西瓜汁",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 250,
+		desc = "将西瓜果肉榨取的鲜红汁水，清凉甘甜沁人心脾。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 600,
+		icon = "IslandProps/item_4038",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4038,
+		have_max = 0,
+		filter = {
+			10113,
+			10128
+		},
+		sub_attribute = {
+			2,
+			35
+		},
+		jump_page = {
+			{
+				"夏季特产经营 白熊饮品",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4039] = {
+		pt_num = 8,
+		name = "苋菜饭团",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 250,
+		desc = "苋菜的红晕均匀染在每粒米上，朴素的外表下藏着令人安心的家常味道。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 800,
+		icon = "IslandProps/item_4039",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4039,
+		have_max = 0,
+		filter = {
+			10113,
+			10127
+		},
+		sub_attribute = {
+			6,
+			35
+		},
+		jump_page = {
+			{
+				"夏季特产经营 有鱼餐馆",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4040] = {
+		pt_num = 20,
+		name = "番茄炒蛋",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 250,
+		desc = "由鸡蛋与番茄制作而成，酸甜咸香，是最受欢迎的家常菜之一。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 200,
+		icon = "IslandProps/item_4040",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4040,
+		have_max = 0,
+		filter = {
+			10113,
+			10127
+		},
+		sub_attribute = {
+			3,
+			35
+		},
+		jump_page = {
+			{
+				"夏季特产经营 有鱼餐馆",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4041] = {
+		pt_num = 165,
+		name = "茉莉精油",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "以新鲜茉莉花蒸馏提取的芳香精油，可用于香薰、按摩或制作护肤品。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 1100,
+		icon = "IslandProps/item_4041",
+		price = 1,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4041,
+		have_max = 0,
+		filter = {
+			10113,
+			10131
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"夏季特产经营 手工制作设备",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4042] = {
+		pt_num = 90,
+		name = "夏季花束",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "用金黄向日葵与素白茉莉扎成的花束，既有夏日的热烈张扬，又有夜晚的幽静清雅。",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 900,
+		icon = "IslandProps/item_4042",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 4042,
+		have_max = 0,
+		filter = {
+			10113,
+			10131
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"夏季特产经营 手工制作设备",
+				{}
+			}
+		}
+	}
 	pg.base.island_item_data_template[5001] = {
 		pt_num = 1,
 		name = "贝类",
@@ -10240,6 +10778,192 @@ end)()
 		jump_page = {
 			{
 				"活动获取",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200024] = {
+		pt_num = 0,
+		name = "标枪岛屿权限认证函",
+		group_max = 0,
+		type = 2,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "标枪的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		usage = "usage_undefined",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_200024",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 200024,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"开发季III-开发商店",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200025] = {
+		pt_num = 0,
+		name = "拉菲岛屿权限认证函",
+		group_max = 0,
+		type = 2,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "拉菲的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		usage = "usage_undefined",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_200025",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 200025,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"商店",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200026] = {
+		pt_num = 0,
+		name = "逸仙岛屿权限认证函",
+		group_max = 0,
+		type = 2,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "逸仙的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		usage = "usage_undefined",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_200026",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 200026,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200027] = {
+		pt_num = 0,
+		name = "飞云岛屿权限认证函",
+		group_max = 0,
+		type = 2,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "飞云的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		usage = "usage_undefined",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_200027",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 200027,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200028] = {
+		pt_num = 0,
+		name = "{namecode:481}岛屿权限认证函",
+		group_max = 0,
+		type = 2,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "{namecode:481}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		usage = "usage_undefined",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_200028",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 200028,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200029] = {
+		pt_num = 0,
+		name = "{namecode:66}岛屿权限认证函",
+		group_max = 0,
+		type = 2,
+		tech_id = 0,
+		convert = 0,
+		manage_influence = 0,
+		desc = "{namecode:66}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		usage = "usage_undefined",
+		resource_type = 0,
+		order_price = 0,
+		icon = "IslandProps/item_200029",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 200029,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"科技",
 				{}
 			}
 		}

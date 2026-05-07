@@ -69,6 +69,9 @@ pg.island_unit_character.all = {
 	1011000,
 	1011001,
 	1011002,
+	1011700,
+	1011701,
+	1011702,
 	1020500,
 	1020501,
 	1020502,
@@ -78,6 +81,9 @@ pg.island_unit_character.all = {
 	1070300,
 	1070301,
 	1070302,
+	2012100,
+	2012101,
+	2012102,
 	2060300,
 	2060301,
 	2060302,
@@ -88,6 +94,9 @@ pg.island_unit_character.all = {
 	3012900,
 	3012901,
 	3012902,
+	3031100,
+	3031101,
+	3031102,
 	3031200,
 	3031201,
 	3031202,
@@ -105,6 +114,15 @@ pg.island_unit_character.all = {
 	4990200,
 	4990201,
 	4990202,
+	4990600,
+	4990601,
+	4990602,
+	5010700,
+	5010701,
+	5010702,
+	5020100,
+	5020101,
+	5020102,
 	5020400,
 	5020500,
 	5060100,
@@ -1268,6 +1286,57 @@ pg.base.island_unit_character = {}
 		CollisionParam = "",
 		personality = 1
 	}
+	pg.base.island_unit_character[1011700] = {
+		describe_illustrated_guid = "呼……这里的空气很清新，草地也软软的……指挥官，拉菲想在这里睡个午觉……要来一起躺一会儿吗……",
+		english_name = "USS Laffey",
+		name = "拉菲 ",
+		IslandShipIcon = "lafei",
+		group = 10117,
+		animator = "island/animator/ani_role_all_01_02",
+		model = "island/character/10117/10117_00/prefab/pre_char_10117_00",
+		is_active = 0,
+		navAgentParam = "",
+		id = 1011700,
+		rendering = "1011700",
+		personal_ani = "",
+		shipId = 0,
+		CollisionParam = "",
+		personality = 2
+	}
+	pg.base.island_unit_character[1011701] = {
+		describe_illustrated_guid = "",
+		english_name = "USS Laffey",
+		name = "拉菲 ",
+		IslandShipIcon = "lafei",
+		group = 10117,
+		animator = "island/animator/ani_role_all_01_02",
+		model = "island/character/10117/10117_01/prefab/pre_char_10117_01",
+		is_active = 0,
+		navAgentParam = "",
+		id = 1011701,
+		rendering = "1011701",
+		personal_ani = "personal_10117_1",
+		shipId = 0,
+		CollisionParam = "",
+		personality = 2
+	}
+	pg.base.island_unit_character[1011702] = {
+		describe_illustrated_guid = "",
+		english_name = "USS Laffey",
+		name = "拉菲 ",
+		IslandShipIcon = "lafei",
+		group = 10117,
+		animator = "island/animator/ani_role_all_01_02",
+		model = "island/character/10117/10117_02/prefab/pre_char_10117_02",
+		is_active = 0,
+		navAgentParam = "",
+		id = 1011702,
+		rendering = "1011702",
+		personal_ani = "personal_10117_1",
+		shipId = 0,
+		CollisionParam = "",
+		personality = 2
+	}
 	pg.base.island_unit_character[1020500] = {
 		describe_illustrated_guid = "这里的海风很温和，阳光也正好……那个，指挥官，如果工作累了，我泡了新的花茶，要一起尝尝看吗？",
 		english_name = "USS Helena",
@@ -1417,6 +1486,57 @@ pg.base.island_unit_character = {}
 		id = 1070302,
 		rendering = "1070302",
 		personal_ani = "personal_10703_1",
+		shipId = 0,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[2012100] = {
+		describe_illustrated_guid = "呜哇~这里的风景好好啊~阳光暖暖的，天气也很好，有种想办野餐的冲动……指挥官也来参加吧！",
+		english_name = "HMS Javelin",
+		name = "标枪",
+		IslandShipIcon = "biaoqiang",
+		group = 20121,
+		animator = "island/animator/ani_role_all_01_01",
+		model = "island/character/20121/20121_00/prefab/pre_char_20121_00",
+		is_active = 0,
+		navAgentParam = "",
+		id = 2012100,
+		rendering = "2012100",
+		personal_ani = "",
+		shipId = 0,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[2012101] = {
+		describe_illustrated_guid = "",
+		english_name = "HMS Javelin",
+		name = "标枪",
+		IslandShipIcon = "biaoqiang",
+		group = 20121,
+		animator = "island/animator/ani_role_all_01_01",
+		model = "island/character/20121/20121_01/prefab/pre_char_20121_01",
+		is_active = 0,
+		navAgentParam = "",
+		id = 2012101,
+		rendering = "2012101",
+		personal_ani = "personal_20121_1",
+		shipId = 0,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[2012102] = {
+		describe_illustrated_guid = "",
+		english_name = "HMS Javelin",
+		name = "标枪",
+		IslandShipIcon = "biaoqiang",
+		group = 20121,
+		animator = "island/animator/ani_role_all_01_01",
+		model = "island/character/20121/20121_02/prefab/pre_char_20121_02",
+		is_active = 0,
+		navAgentParam = "",
+		id = 2012102,
+		rendering = "2012102",
+		personal_ani = "personal_20121_1",
 		shipId = 0,
 		CollisionParam = "",
 		personality = 1
@@ -1591,6 +1711,57 @@ pg.base.island_unit_character = {}
 		CollisionParam = "",
 		personality = 1
 	}
+	pg.base.island_unit_character[3031100] = {
+		describe_illustrated_guid = "这座岛的地形我已大致熟悉，若需要巡逻或训练，随时可以叫我。……放松的话，坐在海边看日出也不错。",
+		english_name = "IJN Takao",
+		name = "{namecode:66}",
+		IslandShipIcon = "gaoxiong",
+		group = 30311,
+		animator = "island/animator/ani_role_all_01_01",
+		model = "island/character/30311/30311_00/prefab/pre_char_30311_00",
+		is_active = 0,
+		navAgentParam = "",
+		id = 3031100,
+		rendering = "3031100",
+		personal_ani = "",
+		shipId = 0,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[3031101] = {
+		describe_illustrated_guid = "",
+		english_name = "IJN Takao",
+		name = "{namecode:66}",
+		IslandShipIcon = "gaoxiong",
+		group = 30311,
+		animator = "island/animator/ani_role_all_01_01",
+		model = "island/character/30311/30311_01/prefab/pre_char_30311_01",
+		is_active = 0,
+		navAgentParam = "",
+		id = 3031101,
+		rendering = "3031101",
+		personal_ani = "personal_30311_1",
+		shipId = 0,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[3031102] = {
+		describe_illustrated_guid = "",
+		english_name = "IJN Takao",
+		name = "{namecode:66}",
+		IslandShipIcon = "gaoxiong",
+		group = 30311,
+		animator = "island/animator/ani_role_all_01_01",
+		model = "island/character/30311/30311_02/prefab/pre_char_30311_02",
+		is_active = 0,
+		navAgentParam = "",
+		id = 3031102,
+		rendering = "3031102",
+		personal_ani = "personal_30311_1",
+		shipId = 0,
+		CollisionParam = "",
+		personality = 1
+	}
 	pg.base.island_unit_character[3031200] = {
 		describe_illustrated_guid = "工作？任务？那些都暂时忘掉吧~来，指挥官，枕在姐姐腿上，好好享受只属于你的安心午睡时间……",
 		english_name = "IJN Atago",
@@ -1710,6 +1881,8 @@ pg.base.island_unit_character = {}
 		CollisionParam = "",
 		personality = 1
 	}
+end)()
+;(function()
 	pg.base.island_unit_character[3120100] = {
 		describe_illustrated_guid = "喵哈哈~万能的明石可以用最新技术给指挥升级工具喵！只要一点点的研发费用和材料~很实惠吧喵~",
 		english_name = "IJN Akashi",
@@ -1863,8 +2036,6 @@ pg.base.island_unit_character = {}
 		CollisionParam = "",
 		personality = 1
 	}
-end)()
-;(function()
 	pg.base.island_unit_character[4990202] = {
 		describe_illustrated_guid = "",
 		english_name = "KMS Friedrich der Grosse",
@@ -1881,6 +2052,159 @@ end)()
 		shipId = 0,
 		CollisionParam = "",
 		personality = 1
+	}
+	pg.base.island_unit_character[4990600] = {
+		describe_illustrated_guid = "安静得让人有些不习惯呢……指挥官，你就这么顺从地享受悠闲时光吗？偶尔换换口味，说不定会更有趣哦。",
+		english_name = "KMS August von Parseval",
+		name = "{namecode:481}",
+		IslandShipIcon = "aogusite",
+		group = 49906,
+		animator = "island/animator/ani_role_all_01_02",
+		model = "island/character/49906/49906_00/prefab/pre_char_49906_00",
+		is_active = 0,
+		navAgentParam = "",
+		id = 4990600,
+		rendering = "4990600",
+		personal_ani = "",
+		shipId = 0,
+		CollisionParam = "",
+		personality = 2
+	}
+	pg.base.island_unit_character[4990601] = {
+		describe_illustrated_guid = "",
+		english_name = "",
+		name = "{namecode:481}",
+		IslandShipIcon = "aogusite",
+		group = 49906,
+		animator = "island/animator/ani_role_all_01_02",
+		model = "island/character/49906/49906_01/prefab/pre_char_49906_01",
+		is_active = 0,
+		navAgentParam = "",
+		id = 4990601,
+		rendering = "4990601",
+		personal_ani = "personal_49906_1",
+		shipId = 0,
+		CollisionParam = "",
+		personality = 2
+	}
+	pg.base.island_unit_character[4990602] = {
+		describe_illustrated_guid = "",
+		english_name = "",
+		name = "{namecode:481}",
+		IslandShipIcon = "aogusite",
+		group = 49906,
+		animator = "island/animator/ani_role_all_01_02",
+		model = "island/character/49906/49906_02/prefab/pre_char_49906_02",
+		is_active = 0,
+		navAgentParam = "",
+		id = 4990602,
+		rendering = "4990602",
+		personal_ani = "personal_49906_1",
+		shipId = 0,
+		CollisionParam = "",
+		personality = 2
+	}
+	pg.base.island_unit_character[5010700] = {
+		describe_illustrated_guid = "哇~这里有好大的森林！还有小河，石山，以及好多没见过的小花！指挥官指挥官，能让飞云大人在这里探险吗？！",
+		english_name = "Fei Yuen",
+		name = "飞云",
+		IslandShipIcon = "feiyun",
+		group = 50107,
+		animator = "island/animator/ani_role_all_01_01",
+		model = "island/character/50107/50107_00/prefab/pre_char_50107_00",
+		is_active = 0,
+		navAgentParam = "",
+		id = 5010700,
+		rendering = "5010700",
+		personal_ani = "",
+		shipId = 0,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[5010701] = {
+		describe_illustrated_guid = "",
+		english_name = "",
+		name = "飞云",
+		IslandShipIcon = "feiyun",
+		group = 50107,
+		animator = "island/animator/ani_role_all_01_01",
+		model = "island/character/50107/50107_01/prefab/pre_char_50107_01",
+		is_active = 0,
+		navAgentParam = "",
+		id = 5010701,
+		rendering = "5010701",
+		personal_ani = "personal_50107_1",
+		shipId = 0,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[5010702] = {
+		describe_illustrated_guid = "",
+		english_name = "",
+		name = "飞云",
+		IslandShipIcon = "feiyun",
+		group = 50107,
+		animator = "island/animator/ani_role_all_01_01",
+		model = "island/character/50107/50107_02/prefab/pre_char_50107_02",
+		is_active = 0,
+		navAgentParam = "",
+		id = 5010702,
+		rendering = "5010702",
+		personal_ani = "personal_50107_1",
+		shipId = 0,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[5020100] = {
+		describe_illustrated_guid = "这里的清晨格外宁静，茶香和露水混在一起，很是让人心神安宁呢……指挥官，我刚沏好了你喜欢的茶，来尝尝吧。",
+		english_name = "Yat Sen",
+		name = "逸仙 ",
+		IslandShipIcon = "yixian",
+		group = 50201,
+		animator = "island/animator/ani_role_all_01_02",
+		model = "island/character/50201/50201_00/prefab/pre_char_50201_00",
+		is_active = 0,
+		navAgentParam = "",
+		id = 5020100,
+		rendering = "5020100",
+		personal_ani = "",
+		shipId = 0,
+		CollisionParam = "",
+		personality = 2
+	}
+	pg.base.island_unit_character[5020101] = {
+		describe_illustrated_guid = "",
+		english_name = "",
+		name = "逸仙 ",
+		IslandShipIcon = "yixian",
+		group = 50201,
+		animator = "island/animator/ani_role_all_01_02",
+		model = "island/character/50201/50201_01/prefab/pre_char_50201_01",
+		is_active = 0,
+		navAgentParam = "",
+		id = 5020101,
+		rendering = "5020101",
+		personal_ani = "personal_50201_1",
+		shipId = 0,
+		CollisionParam = "",
+		personality = 2
+	}
+	pg.base.island_unit_character[5020102] = {
+		describe_illustrated_guid = "",
+		english_name = "",
+		name = "逸仙 ",
+		IslandShipIcon = "yixian",
+		group = 50201,
+		animator = "island/animator/ani_role_all_01_02",
+		model = "island/character/50201/50201_02/prefab/pre_char_50201_02",
+		is_active = 0,
+		navAgentParam = "",
+		id = 5020102,
+		rendering = "5020102",
+		personal_ani = "personal_50201_1",
+		shipId = 0,
+		CollisionParam = "",
+		personality = 2
 	}
 	pg.base.island_unit_character[5020400] = {
 		describe_illustrated_guid = "茶已沏好，墨亦研匀……指挥官，要暂时放下工作，来陪我共赏这幅未完成的画吗？",

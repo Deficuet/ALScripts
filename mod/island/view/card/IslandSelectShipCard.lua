@@ -16,6 +16,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 
 	arg_1_0.workingMaskTF = arg_1_0.tf:Find("mask/working")
 	arg_1_0.workingTextCom = arg_1_0.workingMaskTF:Find("Text"):GetComponent("Text")
+	arg_1_0.followMaskTF = arg_1_0.tf:Find("mask/follow")
 	arg_1_0.iconsTF = arg_1_0.tf:Find("icons")
 	arg_1_0.skillTF = arg_1_0.iconsTF:Find("skill/tpl")
 	arg_1_0.gradeTF = arg_1_0.iconsTF:Find("grade")
@@ -73,7 +74,7 @@ function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2, arg_2_3, arg_2_4, arg_2_5)
 
 	setSlider(arg_2_0.energySliderTF, 0, 1, var_2_6 / var_2_7)
 	setText(arg_2_0.energyTF, var_2_6 .. "/" .. var_2_7)
-	setActive(arg_2_0.workingMaskTF, not arg_2_0.ship:IsDelegable())
+	arg_2_0:UpdateFollowMask()
 
 	if arg_2_5 then
 		local var_2_8 = false
@@ -95,13 +96,20 @@ function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2, arg_2_3, arg_2_4, arg_2_5)
 	setActive(arg_2_0.skillUnuse, not var_2_9)
 end
 
-function var_0_0.UpdateSelected(arg_3_0, arg_3_1)
-	arg_3_0.selectedIds = arg_3_1
+function var_0_0.UpdateFollowMask(arg_3_0)
+	local var_3_0 = getProxy(IslandProxy):GetIsland():GetFollowerAgency():Following(arg_3_0.ship.id)
 
-	setActive(arg_3_0.selectedTF, table.contains(arg_3_0.selectedIds, arg_3_0.id))
+	setActive(arg_3_0.followMaskTF, var_3_0)
+	setActive(arg_3_0.workingMaskTF, not var_3_0 and not arg_3_0.ship:IsDelegable())
 end
 
-function var_0_0.Dispose(arg_4_0)
+function var_0_0.UpdateSelected(arg_4_0, arg_4_1)
+	arg_4_0.selectedIds = arg_4_1
+
+	setActive(arg_4_0.selectedTF, table.contains(arg_4_0.selectedIds, arg_4_0.id))
+end
+
+function var_0_0.Dispose(arg_5_0)
 	return
 end
 

@@ -383,8 +383,9 @@ function var_0_0.OnAgoraVirtualStartInteraction(arg_35_0, arg_35_1, arg_35_2, ar
 
 	local var_35_5 = arg_35_1:GetTimeline()[arg_35_3]
 	local var_35_6 = arg_35_1:GetBlackboardParam()[arg_35_3]
+	local var_35_7 = arg_35_1:GetPlayerParentPath(arg_35_2.id)
 
-	var_35_2:StartInteract(var_35_3, arg_35_2.id, arg_35_3, var_35_5, var_35_6, arg_35_1:AnySlotUsing(), var_35_4)
+	var_35_2:StartInteract(var_35_3, arg_35_2.id, arg_35_3, var_35_5, var_35_6, arg_35_1:AnySlotUsing(), var_35_4, var_35_7)
 end
 
 function var_0_0.OnAgoraVirtualEndInteraction(arg_36_0, arg_36_1, arg_36_2)

@@ -40,6 +40,7 @@ pg.island_technology_template.all = {
 	110310,
 	120006,
 	120007,
+	120008,
 	210101,
 	220101,
 	220501,
@@ -242,7 +243,8 @@ pg.island_technology_template.get_id_list_by_tech_belong = {
 		120005,
 		110310,
 		120006,
-		120007
+		120007,
+		120008
 	},
 	{
 		210101,
@@ -1594,6 +1596,40 @@ pg.base.island_technology_template = {}
 		axis = {
 			28,
 			2
+		}
+	}
+	pg.base.island_technology_template[120008] = {
+		tech_desc = "生产{namecode:66}的岛屿权限认证函，邀请更多同伴吧！",
+		tech_chara = 1,
+		tech_level = "1",
+		complete_character_id = "",
+		tech_icon = "tech_120001",
+		auto_finish = 1,
+		tech_name = "认证函生产",
+		complete_tips = "可前往<color=#1E8FFE>岛屿基地</color>中<color=#1E8FFE>岛屿权限认证装置</color>处激活权限",
+		formula_id = 7120008,
+		complete_title = "可前往<color=#1E8FFE>岛屿基地</color>中<color=#1E8FFE>岛屿权限认证装置</color>处激活权限",
+		tech_belong = 1,
+		id = 120008,
+		island_level = 50,
+		complete_map_id = 1007,
+		sys_unlock = {
+			{
+				3,
+				110310
+			},
+			{
+				3,
+				120007
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		axis = {
+			28,
+			3
 		}
 	}
 	pg.base.island_technology_template[210101] = {
@@ -3572,6 +3608,8 @@ pg.base.island_technology_template = {}
 			6
 		}
 	}
+end)()
+;(function()
 	pg.base.island_technology_template[440302] = {
 		tech_desc = "增加悠然牧场里咩咩羊的数量，羊你又双叒叕加。",
 		tech_chara = 1,
@@ -3604,8 +3642,6 @@ pg.base.island_technology_template = {}
 			6
 		}
 	}
-end)()
-;(function()
 	pg.base.island_technology_template[420303] = {
 		tech_desc = "增加悠然牧场里哼哼猪的数量，猪你又双叒叕加。",
 		tech_chara = 1,
@@ -6859,6 +6895,8 @@ end)()
 			9
 		}
 	}
+end)()
+;(function()
 	pg.base.island_technology_template[650203] = {
 		tech_desc = "能够制作出净化水质的过滤装置核心。",
 		tech_chara = 1,

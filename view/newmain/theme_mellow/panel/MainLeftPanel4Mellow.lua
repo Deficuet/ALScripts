@@ -16,4 +16,8 @@ function var_0_0.GetDirection(arg_2_0)
 	return Vector2(-1, 0)
 end
 
+function var_0_0.CalcLayout(arg_3_0)
+	return
+end
+
 return var_0_0

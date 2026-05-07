@@ -83726,7 +83726,7 @@ end)()
 		tag = 1,
 		limit_args2 = "",
 		time_second = 0,
-		order = 5,
+		order = 10,
 		genre = "skin_shop",
 		akashi_pick = 0,
 		group = 0,
@@ -83744,9 +83744,9 @@ end)()
 		time = {
 			{
 				{
-					2025,
-					11,
-					6
+					2026,
+					5,
+					7
 				},
 				{
 					0,
@@ -83756,9 +83756,9 @@ end)()
 			},
 			{
 				{
-					2025,
-					11,
-					12
+					2026,
+					5,
+					13
 				},
 				{
 					23,
@@ -134316,6 +134316,42 @@ end)()
 		limit_args = {},
 		effect_args = {
 			170003
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.shop_template[500002] = {
+		first_text = "",
+		package_sort_id = 0,
+		collaboration_skin_time = "",
+		type = 8,
+		second_text = "",
+		package_tag = "",
+		first_icon = "",
+		desc = "一番赏抽卡券钻石购买",
+		group_limit = 0,
+		type_order = 0,
+		resource_type = 14,
+		group_buy_count = 0,
+		tag = 0,
+		limit_args2 = "",
+		time_second = 0,
+		order = 1,
+		genre = "",
+		akashi_pick = 0,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		group_type = 0,
+		id = 500002,
+		resource_num = 30,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			170005
 		}
 	}
 end)()

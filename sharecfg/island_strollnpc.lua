@@ -8,8 +8,10 @@ pg.island_strollnpc.all = {
 	1009,
 	1010,
 	1012,
+	10117,
 	10517,
 	10703,
+	20121,
 	20403,
 	20603,
 	29903,
@@ -23,10 +25,14 @@ pg.island_strollnpc.all = {
 	60802,
 	70104,
 	90111,
+	30311,
 	30312,
 	49902,
+	49906,
 	10205,
 	10110,
+	50107,
+	50201,
 	50601,
 	300900,
 	300901,
@@ -87,6 +93,19 @@ pg.base.island_strollnpc = {}
 		action_feedback = 0,
 		unlock = 0
 	}
+	pg.base.island_strollnpc[10117] = {
+		id = 10117,
+		behaviourTree = "",
+		unit_id = 1011700,
+		action_feedback = 1,
+		unlock = -1,
+		mapId = {
+			{
+				1002,
+				17
+			}
+		}
+	}
 	pg.base.island_strollnpc[10517] = {
 		id = 10517,
 		behaviourTree = "",
@@ -110,6 +129,19 @@ pg.base.island_strollnpc = {}
 			{
 				1004,
 				1
+			}
+		}
+	}
+	pg.base.island_strollnpc[20121] = {
+		id = 20121,
+		behaviourTree = "",
+		unit_id = 2012100,
+		action_feedback = 1,
+		unlock = -1,
+		mapId = {
+			{
+				1002,
+				18
 			}
 		}
 	}
@@ -282,6 +314,19 @@ pg.base.island_strollnpc = {}
 			}
 		}
 	}
+	pg.base.island_strollnpc[30311] = {
+		id = 30311,
+		behaviourTree = "",
+		unit_id = 3031100,
+		action_feedback = 1,
+		unlock = -1,
+		mapId = {
+			{
+				1004,
+				4
+			}
+		}
+	}
 	pg.base.island_strollnpc[30312] = {
 		id = 30312,
 		behaviourTree = "",
@@ -308,6 +353,19 @@ pg.base.island_strollnpc = {}
 			}
 		}
 	}
+	pg.base.island_strollnpc[49906] = {
+		id = 49906,
+		behaviourTree = "",
+		unit_id = 4990600,
+		action_feedback = 1,
+		unlock = -1,
+		mapId = {
+			{
+				1004,
+				5
+			}
+		}
+	}
 	pg.base.island_strollnpc[10205] = {
 		id = 10205,
 		behaviourTree = "",
@@ -331,6 +389,32 @@ pg.base.island_strollnpc = {}
 			{
 				1001,
 				3
+			}
+		}
+	}
+	pg.base.island_strollnpc[50107] = {
+		id = 50107,
+		behaviourTree = "",
+		unit_id = 5010700,
+		action_feedback = 1,
+		unlock = -1,
+		mapId = {
+			{
+				1001,
+				5
+			}
+		}
+	}
+	pg.base.island_strollnpc[50201] = {
+		id = 50201,
+		behaviourTree = "",
+		unit_id = 5020100,
+		action_feedback = 1,
+		unlock = -1,
+		mapId = {
+			{
+				1005,
+				4
 			}
 		}
 	}

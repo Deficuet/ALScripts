@@ -264,70 +264,47 @@ end
 
 function var_0_0.FindEmptyArea4Item(arg_34_0, arg_34_1, arg_34_2)
 	local var_34_0 = arg_34_0:GetRangeCoord()
+	local var_34_1 = AgoraCalc.GetSizeCoord(arg_34_2:GetSizeWithRotation())
+	local var_34_2 = var_34_0.x - var_34_1.x
+	local var_34_3 = var_34_0.z - var_34_1.z
+	local var_34_4 = var_34_0.w - var_34_1.w
+	local var_34_5 = var_34_0.y - var_34_1.y
 
-	arg_34_1 = arg_34_0:_ClampRange(var_34_0, arg_34_1)
+	if var_34_3 < var_34_2 or var_34_5 < var_34_4 then
+		return nil
+	end
 
-	local var_34_1 = {}
-	local var_34_2 = {}
+	local var_34_6 = Mathf.Clamp(arg_34_1.x, var_34_2, var_34_3)
+	local var_34_7 = Mathf.Clamp(arg_34_1.y, var_34_4, var_34_5)
+	local var_34_8 = arg_34_0:GetMap(arg_34_2)
+	local var_34_9 = math.max(math.abs(var_34_6 - var_34_2) + math.abs(var_34_7 - var_34_4), math.abs(var_34_6 - var_34_2) + math.abs(var_34_7 - var_34_5), math.abs(var_34_6 - var_34_3) + math.abs(var_34_7 - var_34_4), math.abs(var_34_6 - var_34_3) + math.abs(var_34_7 - var_34_5))
 
-	local function var_34_3(arg_35_0)
-		if not var_34_2[arg_35_0.x] then
+	local function var_34_10(arg_35_0, arg_35_1)
+		if arg_35_0 < var_34_2 or arg_35_0 > var_34_3 or arg_35_1 < var_34_4 or arg_35_1 > var_34_5 then
 			return false
 		end
 
-		if not var_34_2[arg_35_0.x][arg_35_0.y] then
-			return false
-		end
-
-		return var_34_2[arg_35_0.x][arg_35_0.y] == true
+		return _.all(arg_34_2:GenAreaByPosition(Vector2(arg_35_0, arg_35_1)), function(arg_36_0)
+			return arg_34_0:_InRange(var_34_0, arg_36_0.x, arg_36_0.y) and var_34_8:GetMapState(arg_36_0.x, arg_36_0.y) == true
+		end)
 	end
 
-	local function var_34_4(arg_36_0)
-		if not var_34_2[arg_36_0.x] then
-			var_34_2[arg_36_0.x] = {}
-		end
+	for iter_34_0 = 0, var_34_9 do
+		for iter_34_1 = -iter_34_0, iter_34_0 do
+			local var_34_11 = iter_34_0 - math.abs(iter_34_1)
+			local var_34_12 = var_34_6 + iter_34_1
 
-		var_34_2[arg_36_0.x][arg_36_0.y] = true
+			if var_34_10(var_34_12, var_34_7 + var_34_11) then
+				return Vector2(var_34_12, var_34_7 + var_34_11)
+			end
+
+			if var_34_11 ~= 0 and var_34_10(var_34_12, var_34_7 - var_34_11) then
+				return Vector2(var_34_12, var_34_7 - var_34_11)
+			end
+		end
 	end
 
-	table.insert(var_34_1, arg_34_1)
-
-	while #var_34_1 > 0 do
-		local var_34_5
-		local var_34_6 = table.remove(var_34_1, 1)
-
-		if arg_34_0:IsEmptyPoint(arg_34_2, var_34_6) or not arg_34_0:_InRange(var_34_0, var_34_6.x, var_34_6.y) then
-			if arg_34_0:IsEmptyAreaInPoint(arg_34_2, var_34_6) then
-				return var_34_6
-			end
-
-			var_34_5 = {
-				Vector2(var_34_6.x, var_34_6.y + 1),
-				Vector2(var_34_6.x + 1, var_34_6.y),
-				Vector2(var_34_6.x, var_34_6.y - 1),
-				Vector2(var_34_6.x - 1, var_34_6.y)
-			}
-		else
-			local var_34_7 = arg_34_0:GetItemInPosition(arg_34_2:GetMapType(), var_34_6)
-			local var_34_8 = var_34_7:GetArea()
-
-			for iter_34_0, iter_34_1 in ipairs(var_34_8) do
-				var_34_4(iter_34_1)
-			end
-
-			var_34_5 = var_34_7:GetNeighborPoints()
-		end
-
-		for iter_34_2, iter_34_3 in ipairs(var_34_5) do
-			if not var_34_3(iter_34_3) and arg_34_0:_InRange(var_34_0, iter_34_3.x, iter_34_3.y) then
-				table.insert(var_34_1, iter_34_3)
-			else
-				var_34_4(iter_34_3)
-			end
-		end
-
-		var_34_4(var_34_6)
-	end
+	return nil
 end
 
 function var_0_0.SerializePlacementData(arg_37_0)

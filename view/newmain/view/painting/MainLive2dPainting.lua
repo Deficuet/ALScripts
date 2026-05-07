@@ -32,7 +32,7 @@ function var_0_0.OnLoad(arg_4_0, arg_4_1)
 		arg_4_0.live2dChar = nil
 	end
 
-	local var_4_0 = Live2D.GenerateData({
+	local var_4_0 = Live2DPainting.GenerateData({
 		loadPrefs = true,
 		ship = arg_4_0.ship,
 		position = Vector3(0, 0, 100),
@@ -44,7 +44,7 @@ function var_0_0.OnLoad(arg_4_0, arg_4_1)
 	arg_4_0:SetContainerVisible(true)
 
 	arg_4_0.cg.blocksRaycasts = true
-	arg_4_0.live2dChar = Live2D.New(var_4_0, function(arg_5_0)
+	arg_4_0.live2dChar = Live2DPainting.New(var_4_0, function(arg_5_0)
 		arg_4_0:AdJustOrderInLayer(arg_5_0)
 
 		if Live2dConst.l2d_bound_open then
@@ -104,10 +104,7 @@ function var_0_0.ResetOrderInLayer(arg_9_0)
 		return
 	end
 
-	local var_9_0 = arg_9_0.live2dChar._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController")
-	local var_9_1 = typeof("Live2D.Cubism.Rendering.CubismRenderController")
-
-	ReflectionHelp.RefSetProperty(var_9_1, "SortingOrder", var_9_0, 0)
+	arg_9_0.live2dChar._go:GetComponent(typeof(CubismRenderController)).SortingOrder = 0
 end
 
 function var_0_0.CreateL2dDragBound(arg_10_0, arg_10_1)
@@ -225,7 +222,7 @@ end
 function var_0_0.OnClick(arg_19_0)
 	local var_19_0
 
-	if arg_19_0.live2dChar and arg_19_0.live2dChar.state == Live2D.STATE_INITED and not arg_19_0.live2dChar.ignoreReact then
+	if arg_19_0.live2dChar and arg_19_0.live2dChar.state == Live2DPainting.STATE_INITED and not arg_19_0.live2dChar.ignoreReact then
 		if not Input.mousePosition then
 			return
 		end

@@ -529,7 +529,7 @@ function var_0_0.LoadL2dPainting(arg_37_0)
 		})
 	end
 
-	local var_37_5 = Live2D.GenerateData({
+	local var_37_5 = Live2DPainting.GenerateData({
 		ship = var_37_2,
 		position = Vector3(0, 0, -1),
 		parent = arg_37_0.live2dContainer,
@@ -538,7 +538,7 @@ function var_0_0.LoadL2dPainting(arg_37_0)
 
 	pg.UIMgr.GetInstance():LoadingOn()
 
-	arg_37_0.live2dChar = Live2D.New(var_37_5, function(arg_38_0)
+	arg_37_0.live2dChar = Live2DPainting.New(var_37_5, function(arg_38_0)
 		arg_38_0:IgonreReactPos(true)
 
 		if arg_37_0.paintingState and arg_37_0.paintingState.id ~= arg_37_0.skinId then

@@ -76,7 +76,7 @@ function var_0_0.GetXiaQiDrags(arg_3_0, arg_3_1)
 	for iter_3_0 = 1, #arg_3_0.drags do
 		local var_3_1 = arg_3_0.drags[iter_3_0]
 
-		if var_3_1 and var_3_1.actionTrigger and var_3_1.actionTrigger.type == Live2D.DRAG_GAME_XIAQI then
+		if var_3_1 and var_3_1.actionTrigger and var_3_1.actionTrigger.type == Live2DPainting.DRAG_GAME_XIAQI then
 			if arg_3_1 then
 				if table.contains(arg_3_1, var_3_1:getParameterTarget()) then
 					table.insert(var_3_0, var_3_1)

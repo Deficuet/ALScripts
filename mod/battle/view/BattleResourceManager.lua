@@ -1516,243 +1516,262 @@ function var_0_5.GetStageResource(arg_84_0)
 	return var_84_1, var_84_2
 end
 
-function var_0_5.GetEnvironmentRes(arg_86_0, arg_86_1)
-	table.insert(arg_86_0, arg_86_1.prefab and var_0_5.GetFXPath(arg_86_1.prefab))
+function var_0_5.GetStageBGM(arg_86_0)
+	local var_86_0 = var_0_0.Battle.BattleDataFunction.GetDungeonTmpDataByID(arg_86_0)
+	local var_86_1 = {}
 
-	local var_86_0 = arg_86_1.behaviours
-	local var_86_1 = var_0_0.Battle.BattleDataFunction.GetEnvironmentBehaviour(var_86_0).behaviour_list
+	for iter_86_0, iter_86_1 in ipairs(var_86_0.stages) do
+		for iter_86_2, iter_86_3 in ipairs(iter_86_1.waves) do
+			if iter_86_3.triggerType == var_0_0.Battle.BattleConst.WaveTriggerType.BGM then
+				local var_86_2 = iter_86_3.triggerParams.bgm
 
-	for iter_86_0, iter_86_1 in ipairs(var_86_1) do
-		local var_86_2 = iter_86_1.type
-
-		if var_86_2 == var_0_0.Battle.BattleConst.EnviroumentBehaviour.BUFF then
-			local var_86_3 = var_0_0.Battle.BattleDataFunction.GetResFromBuff(iter_86_1.buff_id, 1, {})
-
-			for iter_86_2, iter_86_3 in ipairs(var_86_3) do
-				arg_86_0[#arg_86_0 + 1] = iter_86_3
+				if var_86_2 then
+					table.insert(var_86_1, "cue/bgm-" .. var_86_2 .. ".b")
+				end
 			end
-		elseif var_86_2 == var_0_0.Battle.BattleConst.EnviroumentBehaviour.SPAWN then
-			local var_86_4 = iter_86_1.content and iter_86_1.content.alert and iter_86_1.content.alert.alert_fx
+		end
+	end
 
-			table.insert(arg_86_0, var_86_4 and var_0_5.GetFXPath(var_86_4))
+	return var_86_1
+end
 
-			local var_86_5 = iter_86_1.content and iter_86_1.content.child_prefab
+function var_0_5.GetEnvironmentRes(arg_87_0, arg_87_1)
+	table.insert(arg_87_0, arg_87_1.prefab and var_0_5.GetFXPath(arg_87_1.prefab))
 
-			if var_86_5 then
-				var_0_5.GetEnvironmentRes(arg_86_0, var_86_5)
+	local var_87_0 = arg_87_1.behaviours
+	local var_87_1 = var_0_0.Battle.BattleDataFunction.GetEnvironmentBehaviour(var_87_0).behaviour_list
+
+	for iter_87_0, iter_87_1 in ipairs(var_87_1) do
+		local var_87_2 = iter_87_1.type
+
+		if var_87_2 == var_0_0.Battle.BattleConst.EnviroumentBehaviour.BUFF then
+			local var_87_3 = var_0_0.Battle.BattleDataFunction.GetResFromBuff(iter_87_1.buff_id, 1, {})
+
+			for iter_87_2, iter_87_3 in ipairs(var_87_3) do
+				arg_87_0[#arg_87_0 + 1] = iter_87_3
 			end
-		elseif var_86_2 == var_0_0.Battle.BattleConst.EnviroumentBehaviour.PLAY_FX then
-			arg_86_0[#arg_86_0 + 1] = var_0_5.GetFXPath(iter_86_1.FX_ID)
+		elseif var_87_2 == var_0_0.Battle.BattleConst.EnviroumentBehaviour.SPAWN then
+			local var_87_4 = iter_87_1.content and iter_87_1.content.alert and iter_87_1.content.alert.alert_fx
+
+			table.insert(arg_87_0, var_87_4 and var_0_5.GetFXPath(var_87_4))
+
+			local var_87_5 = iter_87_1.content and iter_87_1.content.child_prefab
+
+			if var_87_5 then
+				var_0_5.GetEnvironmentRes(arg_87_0, var_87_5)
+			end
+		elseif var_87_2 == var_0_0.Battle.BattleConst.EnviroumentBehaviour.PLAY_FX then
+			arg_87_0[#arg_87_0 + 1] = var_0_5.GetFXPath(iter_87_1.FX_ID)
 		end
 	end
 end
 
-function var_0_5.GetMonsterRes(arg_87_0)
-	local var_87_0 = {}
-	local var_87_1 = var_0_5.GetEnemyResource(arg_87_0)
+function var_0_5.GetMonsterRes(arg_88_0)
+	local var_88_0 = {}
+	local var_88_1 = var_0_5.GetEnemyResource(arg_88_0)
 
-	for iter_87_0, iter_87_1 in ipairs(var_87_1) do
-		var_87_0[#var_87_0 + 1] = iter_87_1
+	for iter_88_0, iter_88_1 in ipairs(var_88_1) do
+		var_88_0[#var_88_0 + 1] = iter_88_1
 	end
 
-	local var_87_2 = var_0_0.Battle.BattleDataFunction.GetMonsterTmpDataFromID(arg_87_0.monsterTemplateID)
-	local var_87_3 = Clone(var_87_2.equipment_list)
-	local var_87_4 = var_87_2.buff_list
-	local var_87_5 = Clone(arg_87_0.buffList) or {}
+	local var_88_2 = var_0_0.Battle.BattleDataFunction.GetMonsterTmpDataFromID(arg_88_0.monsterTemplateID)
+	local var_88_3 = Clone(var_88_2.equipment_list)
+	local var_88_4 = var_88_2.buff_list
+	local var_88_5 = Clone(arg_88_0.buffList) or {}
 
-	if arg_87_0.phase then
-		for iter_87_2, iter_87_3 in ipairs(arg_87_0.phase) do
-			if iter_87_3.addWeapon then
-				for iter_87_4, iter_87_5 in ipairs(iter_87_3.addWeapon) do
-					var_87_3[#var_87_3 + 1] = iter_87_5
+	if arg_88_0.phase then
+		for iter_88_2, iter_88_3 in ipairs(arg_88_0.phase) do
+			if iter_88_3.addWeapon then
+				for iter_88_4, iter_88_5 in ipairs(iter_88_3.addWeapon) do
+					var_88_3[#var_88_3 + 1] = iter_88_5
 				end
 			end
 
-			if iter_87_3.addRandomWeapon then
-				for iter_87_6, iter_87_7 in ipairs(iter_87_3.addRandomWeapon) do
-					for iter_87_8, iter_87_9 in ipairs(iter_87_7) do
-						var_87_3[#var_87_3 + 1] = iter_87_9
+			if iter_88_3.addRandomWeapon then
+				for iter_88_6, iter_88_7 in ipairs(iter_88_3.addRandomWeapon) do
+					for iter_88_8, iter_88_9 in ipairs(iter_88_7) do
+						var_88_3[#var_88_3 + 1] = iter_88_9
 					end
 				end
 			end
 
-			if iter_87_3.addBuff then
-				for iter_87_10, iter_87_11 in ipairs(iter_87_3.addBuff) do
-					var_87_5[#var_87_5 + 1] = iter_87_11
+			if iter_88_3.addBuff then
+				for iter_88_10, iter_88_11 in ipairs(iter_88_3.addBuff) do
+					var_88_5[#var_88_5 + 1] = iter_88_11
 				end
 			end
 		end
 	end
 
-	for iter_87_12, iter_87_13 in ipairs(var_87_4) do
-		local var_87_6 = var_0_0.Battle.BattleDataFunction.GetResFromBuff(iter_87_13.ID, iter_87_13.LV, {})
+	for iter_88_12, iter_88_13 in ipairs(var_88_4) do
+		local var_88_6 = var_0_0.Battle.BattleDataFunction.GetResFromBuff(iter_88_13.ID, iter_88_13.LV, {})
 
-		for iter_87_14, iter_87_15 in ipairs(var_87_6) do
-			var_87_0[#var_87_0 + 1] = iter_87_15
+		for iter_88_14, iter_88_15 in ipairs(var_88_6) do
+			var_88_0[#var_88_0 + 1] = iter_88_15
 		end
 	end
 
-	for iter_87_16, iter_87_17 in ipairs(var_87_5) do
-		local var_87_7 = var_0_0.Battle.BattleDataFunction.GetResFromBuff(iter_87_17, 1, {})
+	for iter_88_16, iter_88_17 in ipairs(var_88_5) do
+		local var_88_7 = var_0_0.Battle.BattleDataFunction.GetResFromBuff(iter_88_17, 1, {})
 
-		for iter_87_18, iter_87_19 in ipairs(var_87_7) do
-			var_87_0[#var_87_0 + 1] = iter_87_19
+		for iter_88_18, iter_88_19 in ipairs(var_88_7) do
+			var_88_0[#var_88_0 + 1] = iter_88_19
 		end
 
-		local var_87_8 = var_0_0.Battle.BattleDataFunction.GetBuffTemplate(iter_87_17, 1)
+		local var_88_8 = var_0_0.Battle.BattleDataFunction.GetBuffTemplate(iter_88_17, 1)
 
-		for iter_87_20, iter_87_21 in pairs(var_87_8.effect_list) do
-			local var_87_9 = iter_87_21.arg_list.skill_id
+		for iter_88_20, iter_88_21 in pairs(var_88_8.effect_list) do
+			local var_88_9 = iter_88_21.arg_list.skill_id
 
-			if var_87_9 and var_0_0.Battle.BattleDataFunction.NeedSkillPainting(var_87_9) then
-				var_87_0[#var_87_0 + 1] = var_0_5.GetPaintingPath(var_0_1.GetMonsterTmpDataFromID(arg_87_0.monsterTemplateID).icon)
+			if var_88_9 and var_0_0.Battle.BattleDataFunction.NeedSkillPainting(var_88_9) then
+				var_88_0[#var_88_0 + 1] = var_0_5.GetPaintingPath(var_0_1.GetMonsterTmpDataFromID(arg_88_0.monsterTemplateID).icon)
 
 				break
 			end
 		end
 	end
 
-	for iter_87_22, iter_87_23 in ipairs(var_87_3) do
-		local var_87_10 = var_0_5.GetWeaponResource(iter_87_23)
+	for iter_88_22, iter_88_23 in ipairs(var_88_3) do
+		local var_88_10 = var_0_5.GetWeaponResource(iter_88_23)
 
-		for iter_87_24, iter_87_25 in ipairs(var_87_10) do
-			var_87_0[#var_87_0 + 1] = iter_87_25
+		for iter_88_24, iter_88_25 in ipairs(var_88_10) do
+			var_88_0[#var_88_0 + 1] = iter_88_25
 		end
-	end
-
-	return var_87_0
-end
-
-function var_0_5.GetEquipSkinPreviewRes(arg_88_0)
-	local var_88_0 = {}
-	local var_88_1 = var_0_1.GetEquipSkinDataFromID(arg_88_0)
-
-	for iter_88_0, iter_88_1 in ipairs(var_88_1.weapon_ids) do
-		local var_88_2 = var_0_5.GetWeaponResource(iter_88_1)
-
-		for iter_88_2, iter_88_3 in ipairs(var_88_2) do
-			var_88_0[#var_88_0 + 1] = iter_88_3
-		end
-	end
-
-	local function var_88_3(arg_89_0)
-		if arg_89_0 ~= "" then
-			var_88_0[#var_88_0 + 1] = var_0_5.GetBulletPath(arg_89_0)
-		end
-	end
-
-	local var_88_4, var_88_5, var_88_6, var_88_7, var_88_8, var_88_9 = var_0_1.GetEquipSkin(arg_88_0)
-
-	if _.any(EquipType.AirProtoEquipTypes, function(arg_90_0)
-		return table.contains(var_88_1.equip_type, arg_90_0)
-	end) then
-		var_88_0[#var_88_0 + 1] = var_0_5.GetCharacterGoPath(var_88_4)
-	else
-		var_88_0[#var_88_0 + 1] = var_0_5.GetBulletPath(var_88_4)
-	end
-
-	var_88_3(var_88_5)
-	var_88_3(var_88_6)
-	var_88_3(var_88_7)
-
-	if var_88_8 and var_88_8 ~= "" then
-		var_88_0[#var_88_0 + 1] = var_0_5.GetFXPath(var_88_8)
-	end
-
-	if var_88_9 and var_88_9 ~= "" then
-		var_88_0[#var_88_0 + 1] = var_0_5.GetFXPath(var_88_9)
 	end
 
 	return var_88_0
 end
 
-function var_0_5.GetEquipSkinBulletRes(arg_91_0)
-	local var_91_0 = {}
-	local var_91_1, var_91_2, var_91_3, var_91_4 = var_0_1.GetEquipSkin(arg_91_0)
+function var_0_5.GetEquipSkinPreviewRes(arg_89_0)
+	local var_89_0 = {}
+	local var_89_1 = var_0_1.GetEquipSkinDataFromID(arg_89_0)
 
-	local function var_91_5(arg_92_0)
-		if arg_92_0 ~= "" then
-			var_91_0[#var_91_0 + 1] = var_0_5.GetBulletPath(arg_92_0)
+	for iter_89_0, iter_89_1 in ipairs(var_89_1.weapon_ids) do
+		local var_89_2 = var_0_5.GetWeaponResource(iter_89_1)
+
+		for iter_89_2, iter_89_3 in ipairs(var_89_2) do
+			var_89_0[#var_89_0 + 1] = iter_89_3
 		end
 	end
 
-	local var_91_6 = var_0_1.GetEquipSkinDataFromID(arg_91_0)
-	local var_91_7 = false
-
-	for iter_91_0, iter_91_1 in ipairs(var_91_6.equip_type) do
-		if table.contains(EquipType.AircraftSkinType, iter_91_1) then
-			var_91_7 = true
+	local function var_89_3(arg_90_0)
+		if arg_90_0 ~= "" then
+			var_89_0[#var_89_0 + 1] = var_0_5.GetBulletPath(arg_90_0)
 		end
 	end
 
-	if var_91_7 then
-		if var_91_1 ~= "" then
-			var_91_0[#var_91_0 + 1] = var_0_5.GetCharacterGoPath(var_91_1)
-		end
+	local var_89_4, var_89_5, var_89_6, var_89_7, var_89_8, var_89_9 = var_0_1.GetEquipSkin(arg_89_0)
+
+	if _.any(EquipType.AirProtoEquipTypes, function(arg_91_0)
+		return table.contains(var_89_1.equip_type, arg_91_0)
+	end) then
+		var_89_0[#var_89_0 + 1] = var_0_5.GetCharacterGoPath(var_89_4)
 	else
-		var_91_5(var_91_1)
-
-		if var_0_1.GetEquipSkinDataFromID(arg_91_0).mirror == 1 then
-			var_91_0[#var_91_0 + 1] = var_0_5.GetBulletPath(var_91_1 .. var_0_0.Battle.BattleBulletUnit.MIRROR_RES)
-		end
+		var_89_0[#var_89_0 + 1] = var_0_5.GetBulletPath(var_89_4)
 	end
 
-	var_91_5(var_91_2)
-	var_91_5(var_91_3)
-	var_91_5(var_91_4)
+	var_89_3(var_89_5)
+	var_89_3(var_89_6)
+	var_89_3(var_89_7)
 
-	return var_91_0
+	if var_89_8 and var_89_8 ~= "" then
+		var_89_0[#var_89_0 + 1] = var_0_5.GetFXPath(var_89_8)
+	end
+
+	if var_89_9 and var_89_9 ~= "" then
+		var_89_0[#var_89_0 + 1] = var_0_5.GetFXPath(var_89_9)
+	end
+
+	return var_89_0
 end
 
-function var_0_5.GetAidUnitsRes(arg_93_0)
-	local var_93_0 = {}
+function var_0_5.GetEquipSkinBulletRes(arg_92_0)
+	local var_92_0 = {}
+	local var_92_1, var_92_2, var_92_3, var_92_4 = var_0_1.GetEquipSkin(arg_92_0)
 
-	for iter_93_0, iter_93_1 in ipairs(arg_93_0) do
-		local var_93_1 = var_0_5.GetShipResource(iter_93_1.tmpID, nil, true)
+	local function var_92_5(arg_93_0)
+		if arg_93_0 ~= "" then
+			var_92_0[#var_92_0 + 1] = var_0_5.GetBulletPath(arg_93_0)
+		end
+	end
 
-		for iter_93_2, iter_93_3 in ipairs(iter_93_1.equipment) do
-			if iter_93_3 ~= 0 then
-				if iter_93_2 <= Ship.WEAPON_COUNT then
-					local var_93_2 = var_0_1.GetWeaponDataFromID(iter_93_3).weapon_id
+	local var_92_6 = var_0_1.GetEquipSkinDataFromID(arg_92_0)
+	local var_92_7 = false
 
-					for iter_93_4, iter_93_5 in ipairs(var_93_2) do
-						local var_93_3 = var_0_5.GetWeaponResource(iter_93_5)
+	for iter_92_0, iter_92_1 in ipairs(var_92_6.equip_type) do
+		if table.contains(EquipType.AircraftSkinType, iter_92_1) then
+			var_92_7 = true
+		end
+	end
 
-						for iter_93_6, iter_93_7 in ipairs(var_93_3) do
-							table.insert(var_93_1, iter_93_7)
+	if var_92_7 then
+		if var_92_1 ~= "" then
+			var_92_0[#var_92_0 + 1] = var_0_5.GetCharacterGoPath(var_92_1)
+		end
+	else
+		var_92_5(var_92_1)
+
+		if var_0_1.GetEquipSkinDataFromID(arg_92_0).mirror == 1 then
+			var_92_0[#var_92_0 + 1] = var_0_5.GetBulletPath(var_92_1 .. var_0_0.Battle.BattleBulletUnit.MIRROR_RES)
+		end
+	end
+
+	var_92_5(var_92_2)
+	var_92_5(var_92_3)
+	var_92_5(var_92_4)
+
+	return var_92_0
+end
+
+function var_0_5.GetAidUnitsRes(arg_94_0)
+	local var_94_0 = {}
+
+	for iter_94_0, iter_94_1 in ipairs(arg_94_0) do
+		local var_94_1 = var_0_5.GetShipResource(iter_94_1.tmpID, nil, true)
+
+		for iter_94_2, iter_94_3 in ipairs(iter_94_1.equipment) do
+			if iter_94_3 ~= 0 then
+				if iter_94_2 <= Ship.WEAPON_COUNT then
+					local var_94_2 = var_0_1.GetWeaponDataFromID(iter_94_3).weapon_id
+
+					for iter_94_4, iter_94_5 in ipairs(var_94_2) do
+						local var_94_3 = var_0_5.GetWeaponResource(iter_94_5)
+
+						for iter_94_6, iter_94_7 in ipairs(var_94_3) do
+							table.insert(var_94_1, iter_94_7)
 						end
 					end
 				else
-					local var_93_4 = var_0_5.GetEquipResource(iter_93_3)
+					local var_94_4 = var_0_5.GetEquipResource(iter_94_3)
 
-					for iter_93_8, iter_93_9 in ipairs(var_93_4) do
-						table.insert(var_93_1, iter_93_9)
+					for iter_94_8, iter_94_9 in ipairs(var_94_4) do
+						table.insert(var_94_1, iter_94_9)
 					end
 				end
 			end
 		end
 
-		for iter_93_10, iter_93_11 in ipairs(var_93_1) do
-			table.insert(var_93_0, iter_93_11)
-		end
-	end
-
-	return var_93_0
-end
-
-function var_0_5.GetSpWeaponResource(arg_94_0, arg_94_1)
-	local var_94_0 = {}
-	local var_94_1 = var_0_0.Battle.BattleDataFunction.GetSpWeaponDataFromID(arg_94_0).effect_id
-
-	if var_94_1 ~= 0 then
-		var_94_1 = arg_94_1 and var_0_0.Battle.BattleDataFunction.SkillTranform(arg_94_1, var_94_1) or var_94_1
-
-		local var_94_2 = var_0_0.Battle.BattleDataFunction.GetResFromBuff(var_94_1, 1, {})
-
-		for iter_94_0, iter_94_1 in ipairs(var_94_2) do
-			var_94_0[#var_94_0 + 1] = iter_94_1
+		for iter_94_10, iter_94_11 in ipairs(var_94_1) do
+			table.insert(var_94_0, iter_94_11)
 		end
 	end
 
 	return var_94_0
+end
+
+function var_0_5.GetSpWeaponResource(arg_95_0, arg_95_1)
+	local var_95_0 = {}
+	local var_95_1 = var_0_0.Battle.BattleDataFunction.GetSpWeaponDataFromID(arg_95_0).effect_id
+
+	if var_95_1 ~= 0 then
+		var_95_1 = arg_95_1 and var_0_0.Battle.BattleDataFunction.SkillTranform(arg_95_1, var_95_1) or var_95_1
+
+		local var_95_2 = var_0_0.Battle.BattleDataFunction.GetResFromBuff(var_95_1, 1, {})
+
+		for iter_95_0, iter_95_1 in ipairs(var_95_2) do
+			var_95_0[#var_95_0 + 1] = iter_95_1
+		end
+	end
+
+	return var_95_0
 end

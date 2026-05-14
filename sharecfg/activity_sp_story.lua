@@ -374,7 +374,14 @@ pg.activity_sp_story.all = {
 	399,
 	400,
 	401,
-	402
+	402,
+	411,
+	412,
+	413,
+	414,
+	415,
+	416,
+	417
 }
 pg.base = pg.base or {}
 pg.base.activity_sp_story = {}
@@ -8036,6 +8043,223 @@ end)()
 				4,
 				401
 			}
+		}
+	}
+	pg.base.activity_sp_story[411] = {
+		story_type = 1,
+		pre_event = "",
+		label_key = "",
+		name = "EP-1 第一次长假",
+		change_prefab = "",
+		change_background = "star_level_bg_706",
+		story = "HUIDIANYUZHAO1",
+		change_bgm = "story-darkplan",
+		id = 411,
+		lock = {
+			{
+				6,
+				27011
+			},
+			{
+				6,
+				27012
+			}
+		},
+		unlock_conditions = {
+			"完成DAY1任务",
+			"完成DAY1任务"
+		}
+	}
+	pg.base.activity_sp_story[412] = {
+		story_type = 1,
+		name = "EP-2 咫尺间的忽略",
+		label_key = "",
+		change_bgm = "storys-commander-up",
+		change_prefab = "",
+		change_background = "star_level_bg_306",
+		id = 412,
+		story = "HUIDIANYUZHAO2",
+		pre_event = {
+			411
+		},
+		lock = {
+			{
+				4,
+				411
+			},
+			{
+				6,
+				27013
+			},
+			{
+				6,
+				27014
+			}
+		},
+		unlock_conditions = {
+			"完成EP-1",
+			"完成DAY2任务",
+			"完成DAY2任务"
+		}
+	}
+	pg.base.activity_sp_story[413] = {
+		story_type = 1,
+		name = "EP-3 藏于雾中",
+		label_key = "",
+		change_bgm = "theme-underheaven",
+		change_prefab = "",
+		change_background = "star_level_bg_493",
+		id = 413,
+		story = "HUIDIANYUZHAO3",
+		pre_event = {
+			412
+		},
+		lock = {
+			{
+				4,
+				412
+			},
+			{
+				6,
+				27015
+			},
+			{
+				6,
+				27016
+			}
+		},
+		unlock_conditions = {
+			"完成EP-2",
+			"完成DAY3任务",
+			"完成DAY3任务"
+		}
+	}
+	pg.base.activity_sp_story[414] = {
+		story_type = 1,
+		name = "EP-4 预兆",
+		label_key = "",
+		change_bgm = "battle-eagleunion",
+		change_prefab = "",
+		change_background = "star_level_bg_306",
+		id = 414,
+		story = "HUIDIANYUZHAO4",
+		pre_event = {
+			413
+		},
+		lock = {
+			{
+				4,
+				413
+			},
+			{
+				6,
+				27017
+			},
+			{
+				6,
+				27018
+			}
+		},
+		unlock_conditions = {
+			"完成EP-3",
+			"完成DAY4任务",
+			"完成DAY4任务"
+		}
+	}
+	pg.base.activity_sp_story[415] = {
+		story_type = 1,
+		name = "EP-5 分析",
+		label_key = "",
+		change_bgm = "story-richang-light",
+		change_prefab = "",
+		change_background = "star_level_bg_307",
+		id = 415,
+		story = "HUIDIANYUZHAO5",
+		pre_event = {
+			414
+		},
+		lock = {
+			{
+				4,
+				414
+			},
+			{
+				6,
+				27019
+			},
+			{
+				6,
+				27020
+			}
+		},
+		unlock_conditions = {
+			"完成EP-4",
+			"完成DAY5任务",
+			"完成DAY5任务"
+		}
+	}
+	pg.base.activity_sp_story[416] = {
+		story_type = 1,
+		name = "EP-6 准备",
+		label_key = "",
+		change_bgm = "story-shenguang-holy",
+		change_prefab = "",
+		change_background = "star_level_bg_507",
+		id = 416,
+		story = "HUIDIANYUZHAO6",
+		pre_event = {
+			415
+		},
+		lock = {
+			{
+				4,
+				415
+			},
+			{
+				6,
+				27021
+			},
+			{
+				6,
+				27022
+			}
+		},
+		unlock_conditions = {
+			"完成EP-5",
+			"完成DAY6任务",
+			"完成DAY6任务"
+		}
+	}
+	pg.base.activity_sp_story[417] = {
+		story_type = 1,
+		name = "EP-7 和声",
+		label_key = "",
+		change_bgm = "battle-pacific",
+		change_prefab = "",
+		change_background = "star_level_bg_450",
+		id = 417,
+		story = "HUIDIANYUZHAO7",
+		pre_event = {
+			416
+		},
+		lock = {
+			{
+				4,
+				416
+			},
+			{
+				6,
+				27023
+			},
+			{
+				6,
+				27024
+			}
+		},
+		unlock_conditions = {
+			"完成EP-6",
+			"完成DAY7任务",
+			"完成DAY7任务"
 		}
 	}
 end)()

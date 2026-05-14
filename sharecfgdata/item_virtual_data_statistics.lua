@@ -187361,6 +187361,33 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[66031] = {
+		display = "用于头像框活动兑换，活动结束后将会消失",
+		name = "训练点数",
+		album_config = "",
+		type = 98,
+		drop_oil_max = 0,
+		virtual_type = 0,
+		shop_id = -1,
+		replace_item = 0,
+		id = 66031,
+		link_id = 0,
+		icon = "Props/xunliandianshu_260514",
+		order = 0,
+		rarity = 2,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[68081] = {
 		display = "用于「「深渊之国」的缔造者」活动提升角色好感，活动结束后将会消失",
 		name = "友好度-{namecode:544}",

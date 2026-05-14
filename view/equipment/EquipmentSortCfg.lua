@@ -165,12 +165,14 @@ local var_0_0 = {
 		{
 			types = {
 				Nation.FF,
+				Nation.MNF,
 				Nation.FR
 			}
 		},
 		{
 			types = {
 				Nation.FF,
+				Nation.MNF,
 				Nation.FR
 			}
 		},

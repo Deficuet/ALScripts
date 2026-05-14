@@ -6,6 +6,12 @@ var_0_0.LINE_COLOR = {
 	"dbe7ea",
 	"db6587"
 }
+var_0_0.TITLE_COLOR = nil
+var_0_0.TITLE_ALPHA = {
+	0.5,
+	1,
+	1
+}
 
 function var_0_0.getUIName(arg_1_0)
 	return "AEBCSScenarioPage"
@@ -183,72 +189,90 @@ function var_0_0.UpdateStoryNodeStatus(arg_14_0)
 	local var_14_0 = 0
 	local var_14_1 = 0
 	local var_14_2 = pg.NewStoryMgr.GetInstance()
-	local var_14_3 = {}
+	local var_14_3 = getProxy(TaskProxy)
+	local var_14_4 = {}
 
 	table.Foreach(arg_14_0.spStoryIDs, function(arg_15_0, arg_15_1)
-		var_14_3[arg_15_1] = {}
+		var_14_4[arg_15_1] = {}
 	end)
 
-	local var_14_4 = arg_14_0.spStoryNodes
+	local var_14_5 = arg_14_0.spStoryNodes
 
-	for iter_14_0 = 1, #var_14_4 do
-		local var_14_5 = var_14_4[iter_14_0]
-		local var_14_6 = var_14_5:GetConfigID()
-		local var_14_7 = var_14_5:GetPreEvent()
-		local var_14_8 = true
-		local var_14_9 = var_0_2
-		local var_14_10 = var_14_5:GetStoryName()
-		local var_14_11 = false
+	for iter_14_0 = 1, #var_14_5 do
+		local var_14_6 = var_14_5[iter_14_0]
+		local var_14_7 = var_14_6:GetConfigID()
+		local var_14_8 = var_14_6:GetPreEvent()
+		local var_14_9 = true
+		local var_14_10 = var_0_2
+		local var_14_11 = var_14_6:GetStoryName()
+		local var_14_12 = false
 
-		if var_14_10 and var_14_10 ~= "" then
-			var_14_11 = var_14_2:IsPlayed(var_14_10)
-			var_14_0 = var_14_0 + (var_14_11 and 1 or 0)
+		if var_14_11 and var_14_11 ~= "" then
+			var_14_12 = var_14_2:IsPlayed(var_14_11)
+			var_14_0 = var_14_0 + (var_14_12 and 1 or 0)
 			var_14_1 = var_14_1 + 1
 		end
 
-		if not var_14_11 then
-			_.each(var_14_5:GetUnlockConditions(), function(arg_16_0)
+		if not var_14_12 then
+			local var_14_13 = {}
+
+			_.each(var_14_6:GetUnlockConditions(), function(arg_16_0)
+				local var_16_0 = true
+
 				if arg_16_0[1] == ActivitySpStoryNode.CONDITION.TIME then
-					local var_16_0 = pg.TimeMgr.GetInstance():parseTimeFromConfig(arg_16_0[2])
-					local var_16_1 = pg.TimeMgr.GetInstance():GetServerTime()
-
-					var_14_8 = var_14_8 and var_16_0 <= var_16_1
+					var_16_0 = pg.TimeMgr.GetInstance():parseTimeFromConfig(arg_16_0[2]) <= pg.TimeMgr.GetInstance():GetServerTime()
 				elseif arg_16_0[1] == ActivitySpStoryNode.CONDITION.PASSCHAPTER then
-					local var_16_2 = arg_16_0[2]
+					local var_16_1 = arg_16_0[2]
 
-					var_14_8 = var_14_8 and _.all(var_16_2, function(arg_17_0)
+					var_16_0 = _.all(var_16_1, function(arg_17_0)
 						return getProxy(ChapterProxy):getChapterById(arg_17_0, true):isClear()
 					end)
 				elseif arg_16_0[1] == ActivitySpStoryNode.CONDITION.PT then
-					local var_16_3 = arg_16_0[2][1]
-					local var_16_4 = arg_16_0[2][2]
-					local var_16_5 = arg_16_0[2][3]
-					local var_16_6 = 0
+					local var_16_2 = arg_16_0[2][1]
+					local var_16_3 = arg_16_0[2][2]
+					local var_16_4 = arg_16_0[2][3]
+					local var_16_5 = 0
 
-					if var_16_3 == DROP_TYPE_RESOURCE then
-						var_16_6 = getProxy(PlayerProxy):getRawData():getResource(arg_16_0[2][2])
-					elseif var_16_3 == DROP_TYPE_ITEM then
-						var_16_6 = getProxy(BagProxy):getItemCountById(var_16_4)
+					if var_16_2 == DROP_TYPE_RESOURCE then
+						var_16_5 = getProxy(PlayerProxy):getRawData():getResource(arg_16_0[2][2])
+					elseif var_16_2 == DROP_TYPE_ITEM then
+						var_16_5 = getProxy(BagProxy):getItemCountById(var_16_3)
 					end
 
-					var_14_8 = var_14_8 and var_16_5 <= var_16_6
-					var_14_3[var_14_6].reuqire = var_16_5
+					var_16_0 = var_16_4 <= var_16_5
+					var_14_4[var_14_7].reuqire = var_16_4
 				elseif arg_16_0[1] == ActivitySpStoryNode.CONDITION.PRE_PASSED then
-					var_14_8 = var_14_3[var_14_5:GetPreEvent()].status == var_0_4
+					var_16_0 = var_14_4[var_14_6:GetPreEvent()].status == var_0_4
+				elseif arg_16_0[1] == ActivitySpStoryNode.CONDITION.TASK_FINISHED then
+					local var_16_6 = var_14_3:getFinishTaskById(arg_16_0[2]) ~= nil
+
+					var_16_0 = var_16_6
+					var_14_4[var_14_7].hasTaskCondition = true
+					var_14_4[var_14_7].taskConditionFinished = var_16_6
+
+					if not var_16_6 and arg_16_0[3] and arg_16_0[3] ~= "" then
+						var_14_4[var_14_7].taskConditionTextKey = arg_16_0[3]
+					end
 				end
+
+				table.insert(var_14_13, var_16_0)
+
+				var_14_9 = var_14_9 and var_16_0
 			end)
+
+			var_14_4[var_14_7].conditionFinishedList = var_14_13
 		end
 
-		if var_14_11 then
-			var_14_9 = var_0_4
-		elseif var_14_8 then
-			var_14_9 = var_0_3
+		if var_14_12 then
+			var_14_10 = var_0_4
+		elseif var_14_9 then
+			var_14_10 = var_0_3
 		end
 
-		var_14_3[var_14_6].status = var_14_9
+		var_14_4[var_14_7].status = var_14_10
 	end
 
-	arg_14_0.storyNodeStatus = var_14_3
+	arg_14_0.storyNodeStatus = var_14_4
 	arg_14_0.storyReadCount, arg_14_0.storyReadMax = var_14_0, var_14_1
 end
 
@@ -734,16 +758,45 @@ function var_0_0.UpdateStory(arg_19_0, arg_19_1)
 			local var_19_24 = arg_19_0.storyNodeStatus[var_19_23].status
 			local var_19_25 = arg_19_0.storyNodeTFsById[var_19_23].nodeTF
 			local var_19_26 = var_19_25:Find("info/bk/title_form/title")
+			local var_19_27 = arg_19_0.TITLE_COLOR
+			local var_19_28 = arg_19_0.TITLE_ALPHA or {
+				0.5,
+				1,
+				1
+			}
 
-			if var_19_24 == var_0_2 then
-				setScrollText(var_19_26, HXSet.hxLan(var_19_22:GetUnlockDesc()))
-				setTextAlpha(var_19_26, 0.5)
-			else
-				setScrollText(var_19_26, HXSet.hxLan(var_19_22:GetDisplayName()))
-				setTextAlpha(var_19_26, 1)
+			if var_19_27 and var_19_27[var_19_24] then
+				setTextColor(var_19_26, Color.NewHex(var_19_27[var_19_24]))
 			end
 
-			local var_19_27 = var_19_22:GetType()
+			if var_19_24 == var_0_2 then
+				local var_19_29 = var_19_22:GetUnlockDesc()
+				local var_19_30 = ""
+
+				if type(var_19_29) == "table" then
+					local var_19_31 = arg_19_0.storyNodeStatus[var_19_23].conditionFinishedList or {}
+
+					var_19_30 = var_19_29[1] or ""
+
+					for iter_19_3, iter_19_4 in ipairs(var_19_29) do
+						if not var_19_31[iter_19_3] then
+							var_19_30 = iter_19_4 or ""
+
+							break
+						end
+					end
+				else
+					var_19_30 = var_19_29 or ""
+				end
+
+				setScrollText(var_19_26, HXSet.hxLan(var_19_30))
+				setTextAlpha(var_19_26, var_19_28[var_19_24] or 0.5)
+			else
+				setScrollText(var_19_26, HXSet.hxLan(var_19_22:GetDisplayName()))
+				setTextAlpha(var_19_26, var_19_28[var_19_24] or 1)
+			end
+
+			local var_19_32 = var_19_22:GetType()
 
 			setActive(var_19_25:Find("circle/lock"), var_19_24 == var_0_2)
 
@@ -751,13 +804,13 @@ function var_0_0.UpdateStory(arg_19_0, arg_19_1)
 				setActive(var_19_25:Find("circle/Story"), false)
 				setActive(var_19_25:Find("circle/Battle"), false)
 				setText(var_19_25:Find(""))
-			elseif var_19_27 == ActivitySpStoryNode.NODE_TYPE.STORY then
-				setActive(var_19_25:Find("circle/Story"), var_19_27 == ActivitySpStoryNode.NODE_TYPE.STORY)
-				setActive(var_19_25:Find("circle/Battle"), var_19_27 == ActivitySpStoryNode.NODE_TYPE.BATTLE)
+			elseif var_19_32 == ActivitySpStoryNode.NODE_TYPE.STORY then
+				setActive(var_19_25:Find("circle/Story"), var_19_32 == ActivitySpStoryNode.NODE_TYPE.STORY)
+				setActive(var_19_25:Find("circle/Battle"), var_19_32 == ActivitySpStoryNode.NODE_TYPE.BATTLE)
 				setActive(var_19_25:Find("circle/Story/Done"), var_19_24 == var_0_4)
-			elseif var_19_27 == ActivitySpStoryNode.NODE_TYPE.BATTLE then
-				setActive(var_19_25:Find("circle/Story"), var_19_27 == ActivitySpStoryNode.NODE_TYPE.STORY)
-				setActive(var_19_25:Find("circle/Battle"), var_19_27 == ActivitySpStoryNode.NODE_TYPE.BATTLE)
+			elseif var_19_32 == ActivitySpStoryNode.NODE_TYPE.BATTLE then
+				setActive(var_19_25:Find("circle/Story"), var_19_32 == ActivitySpStoryNode.NODE_TYPE.STORY)
+				setActive(var_19_25:Find("circle/Battle"), var_19_32 == ActivitySpStoryNode.NODE_TYPE.BATTLE)
 				setActive(var_19_25:Find("circle/Battle/Done"), var_19_24 == var_0_4)
 			end
 
@@ -766,6 +819,28 @@ function var_0_0.UpdateStory(arg_19_0, arg_19_1)
 			setActive(var_19_25:Find("circle/bk/Readed"), var_19_24 == var_0_4)
 			setActive(var_19_25:Find("info/bk/BG/Inactive"), var_19_24 == var_0_2)
 			setActive(var_19_25:Find("info/bk/BG/Active"), var_19_24 ~= var_0_2)
+
+			local var_19_33 = var_19_25:Find("condition")
+
+			if var_19_33 then
+				local var_19_34 = arg_19_0.storyNodeStatus[var_19_23]
+				local var_19_35 = var_19_34.hasTaskCondition and not var_19_34.taskConditionFinished
+
+				setActive(var_19_33, var_19_35)
+
+				if var_19_35 then
+					local var_19_36 = var_19_34.taskConditionTextKey
+					local var_19_37 = var_19_36 and i18n(var_19_36) or ""
+					local var_19_38 = var_19_33:Find("Text") or var_19_33:Find("text")
+
+					if var_19_38 then
+						setText(var_19_38, var_19_37)
+					else
+						setText(var_19_33, var_19_37)
+					end
+				end
+			end
+
 			onButton(arg_19_0, var_19_25, function()
 				if var_19_24 == var_0_2 then
 					return
@@ -781,28 +856,28 @@ function var_0_0.UpdateStory(arg_19_0, arg_19_1)
 		end
 	end
 
-	local var_19_28 = arg_19_0.storyReadCount
-	local var_19_29 = arg_19_0.storyReadMax
+	local var_19_39 = arg_19_0.storyReadCount
+	local var_19_40 = arg_19_0.storyReadMax
 
-	setText(arg_19_0.progressText, var_19_28 .. "/" .. var_19_29)
+	setText(arg_19_0.progressText, var_19_39 .. "/" .. var_19_40)
 	setActive(arg_19_0.storyAward, tobool(arg_19_0.storyTask))
 
 	if arg_19_0.storyTask then
-		local var_19_30 = arg_19_0.storyTask:getConfig("award_display")
-		local var_19_31 = Drop.New({
-			type = var_19_30[1][1],
-			id = var_19_30[1][2],
-			count = var_19_30[1][3]
+		local var_19_41 = arg_19_0.storyTask:getConfig("award_display")
+		local var_19_42 = Drop.New({
+			type = var_19_41[1][1],
+			id = var_19_41[1][2],
+			count = var_19_41[1][3]
 		})
 
-		updateDrop(arg_19_0.storyAward:Find("IconTpl"), var_19_31)
+		updateDrop(arg_19_0.storyAward:Find("IconTpl"), var_19_42)
 
-		local var_19_32 = arg_19_0.storyTask:getTaskStatus()
+		local var_19_43 = arg_19_0.storyTask:getTaskStatus()
 
-		setActive(arg_19_0.storyAward:Find("get"), var_19_32 == 1)
-		setActive(arg_19_0.storyAward:Find("got"), var_19_32 == 2)
+		setActive(arg_19_0.storyAward:Find("get"), var_19_43 == 1)
+		setActive(arg_19_0.storyAward:Find("got"), var_19_43 == 2)
 		onButton(arg_19_0, arg_19_0.storyAward, function()
-			arg_19_0.coreStoryPage:emit(BaseUI.ON_DROP, var_19_31)
+			arg_19_0.coreStoryPage:emit(BaseUI.ON_DROP, var_19_42)
 		end)
 	end
 end
@@ -842,13 +917,33 @@ function var_0_0.Move2UnlockStory(arg_41_0)
 		end
 	end
 
-	local var_41_5 = arg_41_0.storyNodeTFsById[var_41_1].nodeTF
-	local var_41_6 = arg_41_0.storyNodeTpl.rect.width
-	local var_41_7 = var_41_5.anchoredPosition.x + var_41_6 * 0.5 - arg_41_0.storyContainer.parent.rect.width * 0.5
-	local var_41_8 = math.clamp(var_41_7, 0, math.max(0, arg_41_0.storyContainer.rect.width - arg_41_0.storyContainer.parent.rect.width))
+	if not var_41_1 then
+		for iter_41_1 = 1, #var_41_0 do
+			local var_41_5 = var_41_0[iter_41_1]:GetConfigID()
+
+			if arg_41_0.storyNodeTFsById[var_41_5] then
+				var_41_1 = var_41_5
+
+				break
+			end
+		end
+	end
+
+	if not var_41_1 then
+		setAnchoredPosition(arg_41_0.storyContainer, {
+			x = 0
+		})
+
+		return
+	end
+
+	local var_41_6 = arg_41_0.storyNodeTFsById[var_41_1].nodeTF
+	local var_41_7 = arg_41_0.storyNodeTpl.rect.width
+	local var_41_8 = var_41_6.anchoredPosition.x + var_41_7 * 0.5 - arg_41_0.storyContainer.parent.rect.width * 0.5
+	local var_41_9 = math.clamp(var_41_8, 0, math.max(0, arg_41_0.storyContainer.rect.width - arg_41_0.storyContainer.parent.rect.width))
 
 	setAnchoredPosition(arg_41_0.storyContainer, {
-		x = -var_41_8
+		x = -var_41_9
 	})
 end
 

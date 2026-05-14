@@ -353266,7 +353266,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 151169,
-				group_level = 1
+				buff_level = 1
 			}
 		},
 		extra_param = {}
@@ -355713,7 +355713,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 151169,
-				group_level = 3
+				buff_level = 3
 			}
 		},
 		extra_param = {}
@@ -356218,7 +356218,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 151169,
-				group_level = 2
+				buff_level = 2
 			}
 		},
 		extra_param = {}
@@ -357615,7 +357615,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 151169,
-				group_level = 1
+				buff_level = 1
 			}
 		},
 		extra_param = {
@@ -358228,7 +358228,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 151169,
-				group_level = 7
+				buff_level = 7
 			}
 		},
 		extra_param = {}
@@ -358861,7 +358861,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 151169,
-				group_level = 6
+				buff_level = 6
 			}
 		},
 		extra_param = {}
@@ -359629,7 +359629,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 151169,
-				group_level = 5
+				buff_level = 5
 			}
 		},
 		extra_param = {}
@@ -360296,7 +360296,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 151169,
-				group_level = 4
+				buff_level = 4
 			}
 		},
 		extra_param = {}
@@ -360956,7 +360956,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 151169,
-				group_level = 2
+				buff_level = 2
 			}
 		},
 		extra_param = {
@@ -361473,7 +361473,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 151169,
-				group_level = 10
+				buff_level = 10
 			}
 		},
 		extra_param = {}
@@ -362016,7 +362016,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 151169,
-				group_level = 9
+				buff_level = 9
 			}
 		},
 		extra_param = {}
@@ -362698,7 +362698,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 151169,
-				group_level = 8
+				buff_level = 8
 			}
 		},
 		extra_param = {}
@@ -363416,7 +363416,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 151169,
-				group_level = 6
+				buff_level = 6
 			}
 		},
 		extra_param = {
@@ -364744,7 +364744,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 151169,
-				group_level = 4
+				buff_level = 4
 			}
 		},
 		extra_param = {
@@ -365300,7 +365300,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 151169,
-				group_level = 3
+				buff_level = 3
 			}
 		},
 		extra_param = {
@@ -365842,7 +365842,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 151169,
-				group_level = 10
+				buff_level = 10
 			}
 		},
 		extra_param = {
@@ -366365,7 +366365,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 151169,
-				group_level = 9
+				buff_level = 9
 			}
 		},
 		extra_param = {
@@ -367028,7 +367028,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 151169,
-				group_level = 8
+				buff_level = 8
 			}
 		},
 		extra_param = {
@@ -367907,7 +367907,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 151169,
-				group_level = 7
+				buff_level = 7
 			}
 		},
 		extra_param = {
@@ -406138,7 +406138,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 1011479,
-				group_level = 3
+				buff_level = 3
 			}
 		},
 		extra_param = {
@@ -406762,7 +406762,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 1011479,
-				group_level = 2
+				buff_level = 2
 			}
 		},
 		extra_param = {
@@ -407277,7 +407277,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 1011479,
-				group_level = 1
+				buff_level = 1
 			}
 		},
 		extra_param = {
@@ -407723,7 +407723,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 1012644,
-				group_level = 1
+				buff_level = 1
 			}
 		},
 		extra_param = {}
@@ -408237,7 +408237,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 1011479,
-				group_level = 7
+				buff_level = 7
 			}
 		},
 		extra_param = {
@@ -408756,7 +408756,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 1011479,
-				group_level = 6
+				buff_level = 6
 			}
 		},
 		extra_param = {
@@ -409382,7 +409382,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 1011479,
-				group_level = 5
+				buff_level = 5
 			}
 		},
 		extra_param = {
@@ -409943,7 +409943,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 1011479,
-				group_level = 4
+				buff_level = 4
 			}
 		},
 		extra_param = {
@@ -410977,7 +410977,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 1011479,
-				group_level = 10
+				buff_level = 10
 			}
 		},
 		extra_param = {
@@ -411241,7 +411241,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 1011479,
-				group_level = 9
+				buff_level = 9
 			}
 		},
 		extra_param = {
@@ -411378,7 +411378,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 1011479,
-				group_level = 8
+				buff_level = 8
 			}
 		},
 		extra_param = {
@@ -1276957,7 +1276957,7 @@ end)()
 			{
 				rant = 10000,
 				buff_id = 151169,
-				group_level = 5
+				buff_level = 5
 			}
 		},
 		extra_param = {

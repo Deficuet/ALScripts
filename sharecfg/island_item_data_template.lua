@@ -3821,8 +3821,8 @@ pg.base.island_item_data_template = {}
 		id = 2521,
 		have_max = 0,
 		filter = {
-			10111,
-			10125
+			10112,
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -3853,8 +3853,8 @@ pg.base.island_item_data_template = {}
 		id = 2522,
 		have_max = 0,
 		filter = {
-			10111,
-			10125
+			10112,
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8410,7 +8410,7 @@ end)()
 		}
 	}
 	pg.base.island_item_data_template[4042] = {
-		pt_num = 90,
+		pt_num = 130,
 		name = "夏季花束",
 		group_max = 0,
 		type = 1,
@@ -8463,7 +8463,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8495,7 +8495,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8527,7 +8527,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8559,7 +8559,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8591,7 +8591,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8623,7 +8623,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8655,7 +8655,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8687,7 +8687,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8719,7 +8719,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8751,7 +8751,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8783,7 +8783,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8815,7 +8815,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8847,7 +8847,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8879,7 +8879,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8911,7 +8911,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8943,7 +8943,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {

@@ -3,6 +3,7 @@ local var_0_0 = class("WorldMediaCollectionStoryLineView")
 var_0_0.START_GAP = 800
 var_0_0.END_GAP = 1000
 var_0_0.HRZ_GAP = 467
+var_0_0.CHAPTER_PROGRESS_MIN_WIDTH = 120
 var_0_0.NATION_LIST = {
 	{
 		key = -1,
@@ -210,54 +211,98 @@ function var_0_0.updateChapterProgress(arg_15_0)
 
 	local var_15_0 = {}
 	local var_15_1 = 0
-	local var_15_2 = {}
 
 	for iter_15_0, iter_15_1 in pairs(arg_15_0.nodeDataDict) do
 		var_15_1 = var_15_1 + 1
 
-		local var_15_3 = iter_15_1.VO:GetChapter()
+		local var_15_2 = iter_15_1.VO:GetChapter()
 
-		var_15_0[var_15_3] = var_15_0[var_15_3] and var_15_0[var_15_3] + 1 or 1
+		var_15_0[var_15_2] = var_15_0[var_15_2] and var_15_0[var_15_2] + 1 or 1
 	end
 
+	local var_15_3 = {}
+
 	for iter_15_2, iter_15_3 in pairs(var_15_0) do
-		local var_15_4 = iter_15_3 / var_15_1 * arg_15_0.chapterProgressTotalWidth
-		local var_15_5 = {
-			w = var_15_4
+		table.insert(var_15_3, iter_15_2)
+	end
+
+	table.sort(var_15_3)
+
+	local var_15_4 = #var_15_3
+
+	if var_15_4 == 0 then
+		return
+	end
+
+	local var_15_5 = math.min(var_0_0.CHAPTER_PROGRESS_MIN_WIDTH, arg_15_0.chapterProgressTotalWidth / var_15_4)
+	local var_15_6 = {}
+	local var_15_7 = {}
+	local var_15_8 = arg_15_0.chapterProgressTotalWidth
+	local var_15_9 = var_15_1
+	local var_15_10 = true
+
+	while var_15_10 and var_15_9 > 0 do
+		var_15_10 = false
+
+		for iter_15_4, iter_15_5 in ipairs(var_15_3) do
+			if not var_15_7[iter_15_5] then
+				local var_15_11 = var_15_0[iter_15_5]
+
+				if var_15_5 > var_15_8 * (var_15_11 / var_15_9) then
+					var_15_6[iter_15_5] = var_15_5
+					var_15_7[iter_15_5] = true
+					var_15_8 = var_15_8 - var_15_5
+					var_15_9 = var_15_9 - var_15_11
+					var_15_10 = true
+				end
+			end
+		end
+	end
+
+	for iter_15_6, iter_15_7 in ipairs(var_15_3) do
+		if not var_15_7[iter_15_7] then
+			var_15_6[iter_15_7] = var_15_9 > 0 and var_15_8 * (var_15_0[iter_15_7] / var_15_9) or 0
+		end
+	end
+
+	local var_15_12 = 0
+
+	for iter_15_8, iter_15_9 in ipairs(var_15_3) do
+		local var_15_13 = {
+			w = var_15_6[iter_15_9],
+			x = var_15_12
 		}
 
-		if iter_15_2 == 0 then
-			var_15_5.x = 0
-		else
-			local var_15_6 = cloneTplTo(arg_15_0.chapterProgressSplit, arg_15_0.chapterProgressContainer)
+		if iter_15_8 > 1 then
+			local var_15_14 = cloneTplTo(arg_15_0.chapterProgressSplit, arg_15_0.chapterProgressContainer)
 
-			setActive(var_15_6, true)
+			setActive(var_15_14, true)
 
-			var_15_5.x = arg_15_0.progressDict[iter_15_2 - 1].x + arg_15_0.progressDict[iter_15_2 - 1].w
-			var_15_6.anchoredPosition = Vector2(var_15_5.x, 2.86)
+			var_15_14.anchoredPosition = Vector2(var_15_13.x, 2.86)
 		end
 
-		var_15_5.leftBound = var_15_5.x
-		var_15_5.rightBound = var_15_5.x + var_15_5.w
+		var_15_13.leftBound = var_15_13.x
+		var_15_13.rightBound = var_15_13.x + var_15_13.w
 
-		local var_15_7 = cloneTplTo(arg_15_0.chapterProgressLabel, arg_15_0.chapterProgressContainer)
+		local var_15_15 = cloneTplTo(arg_15_0.chapterProgressLabel, arg_15_0.chapterProgressContainer)
 
-		var_15_7.anchoredPosition = Vector2(var_15_5.x, 12)
-		rtf(var_15_7).sizeDelta = Vector2(var_15_5.w, 32)
+		var_15_15.anchoredPosition = Vector2(var_15_13.x, 12)
+		rtf(var_15_15).sizeDelta = Vector2(var_15_13.w, 32)
 
-		setText(var_15_7, i18n("storyline_chapter" .. iter_15_2))
-		setActive(var_15_7, true)
+		setText(var_15_15, i18n("storyline_chapter" .. iter_15_9))
+		setActive(var_15_15, true)
 
-		local var_15_8 = var_15_7:Find("chapterWarpBtn")
+		local var_15_16 = var_15_15:Find("chapterWarpBtn")
 
-		onButton(arg_15_0, var_15_8, function()
-			local var_16_0 = arg_15_0.chapterHead[iter_15_2]:GetConfigID()
+		onButton(arg_15_0, var_15_16, function()
+			local var_16_0 = arg_15_0.chapterHead[iter_15_9]:GetConfigID()
 			local var_16_1 = (arg_15_0.nodeDataDict[var_16_0].nodeTF.anchoredPosition.x - var_0_0.START_GAP) / arg_15_0.contentWidth
 
 			scrollTo(arg_15_0.scroll, var_16_1)
 		end)
 
-		arg_15_0.progressDict[iter_15_2] = var_15_5
+		arg_15_0.progressDict[iter_15_9] = var_15_13
+		var_15_12 = var_15_12 + var_15_13.w
 	end
 end
 

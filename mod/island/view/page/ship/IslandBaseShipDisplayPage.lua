@@ -4,6 +4,7 @@ function var_0_0.Ctor(arg_1_0, ...)
 	var_0_0.super.Ctor(arg_1_0, ...)
 
 	arg_1_0.displayUnit = IslandDisplayShipUnit.New()
+	arg_1_0.gcCounter = 0
 end
 
 function var_0_0.Preload(arg_2_0, arg_2_1)
@@ -205,6 +206,14 @@ function var_0_0.UnloadCharacter(arg_20_0, arg_20_1)
 
 		arg_20_0.role = nil
 	end
+
+	if arg_20_0.gcCounter >= 3 then
+		arg_20_0.gcCounter = 0
+
+		IslandHelper.RunGC(true)
+	else
+		arg_20_0.gcCounter = arg_20_0.gcCounter + 1
+	end
 end
 
 function var_0_0.ClearCharacterContainer(arg_21_0)
@@ -298,6 +307,11 @@ end
 
 function var_0_0.OnCharLoaded(arg_34_0)
 	return
+end
+
+function var_0_0.Hide(arg_35_0, arg_35_1, arg_35_2)
+	var_0_0.super.Hide(arg_35_0, arg_35_1, arg_35_2)
+	IslandHelper.RunGC(true)
 end
 
 return var_0_0

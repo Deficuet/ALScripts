@@ -89,7 +89,7 @@ function var_0_0.InitWindow(arg_7_0, arg_7_1, arg_7_2)
 	RegisterDetailButton(arg_7_0, arg_7_0.detailTF, var_7_0)
 
 	arg_7_0.nameTF.text = var_7_0:getConfig("name")
-	arg_7_0.descTF.text = var_7_0.desc or var_7_0:getConfig("desc")
+	arg_7_0.descTF.text = HXSet.hxLan(var_7_0.desc or var_7_0:getConfig("desc"))
 
 	updateDrop(arg_7_0.bottomItem, var_7_0)
 	onButton(arg_7_0, arg_7_0.confirmBtn, function()

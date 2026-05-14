@@ -16,6 +16,7 @@ pg.island_storage_filter_template.all = {
 	10124,
 	10125,
 	10132,
+	10133,
 	10126,
 	10127,
 	10128,
@@ -69,6 +70,7 @@ pg.island_storage_filter_template.get_id_list_by_belong_filter_id = {
 		10124,
 		10125,
 		10132,
+		10133,
 		10126,
 		10127,
 		10128,
@@ -205,6 +207,15 @@ pg.base.island_storage_filter_template = {}
 		filter_level = 3,
 		name = "青芽苗圃",
 		id = 10132,
+		args = "",
+		res = "",
+		sort_id = 0
+	}
+	pg.base.island_storage_filter_template[10133] = {
+		belong_filter_id = 1012,
+		filter_level = 3,
+		name = "啾啾渔场",
+		id = 10133,
 		args = "",
 		res = "",
 		sort_id = 0

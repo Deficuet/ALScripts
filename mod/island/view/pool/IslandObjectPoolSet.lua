@@ -6,6 +6,8 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2, arg_1_3)
 	arg_1_0.capacity = arg_1_2
 	arg_1_0.poolCapacity = arg_1_3
 	arg_1_0.loadingCallbacks = {}
+	arg_1_0.dequeueingCounts = {}
+	arg_1_0.poolUseIndex = 0
 end
 
 function var_0_0.SetInstanceDestroyPreProcessor(arg_2_0, arg_2_1)
@@ -28,112 +30,206 @@ function var_0_0.GetPool(arg_4_0, arg_4_1, arg_4_2)
 		arg_4_0.pools[arg_4_1] = var_4_0
 	end
 
+	arg_4_0:MarkPoolUsed(var_4_0)
+
 	return var_4_0
 end
 
 function var_0_0.RawGetPool(arg_5_0, arg_5_1)
+	if not arg_5_0.pools then
+		return nil
+	end
+
 	return arg_5_0.pools[arg_5_1]
 end
 
-function var_0_0.GetObject(arg_6_0, arg_6_1, arg_6_2, arg_6_3)
-	local var_6_0 = arg_6_0:GetPool(arg_6_1, arg_6_2)
-
-	if not arg_6_0.loadingCallbacks[var_6_0.key] then
-		arg_6_0.loadingCallbacks[var_6_0.key] = {}
-	end
-
-	table.insert(arg_6_0.loadingCallbacks[var_6_0.key], arg_6_3)
-
-	if var_6_0:IsLoading() then
+function var_0_0.MarkPoolUsed(arg_6_0, arg_6_1)
+	if not arg_6_1 then
 		return
 	end
 
-	local var_6_1 = {}
+	arg_6_0.poolUseIndex = arg_6_0.poolUseIndex + 1
+	arg_6_1.lastUseIndex = arg_6_0.poolUseIndex
+end
 
-	if not var_6_0:Isloaded() then
-		table.insert(var_6_1, function(arg_7_0)
-			var_6_0:Load(arg_7_0)
+function var_0_0.IsPoolBusy(arg_7_0, arg_7_1)
+	if arg_7_1:IsLoading() then
+		return true
+	end
+
+	if arg_7_0.loadingCallbacks[arg_7_1.key] and #arg_7_0.loadingCallbacks[arg_7_1.key] > 0 then
+		return true
+	end
+
+	return arg_7_0.dequeueingCounts[arg_7_1.key] and arg_7_0.dequeueingCounts[arg_7_1.key] > 0
+end
+
+function var_0_0.BeginDequeue(arg_8_0, arg_8_1, arg_8_2)
+	if arg_8_2 <= 0 then
+		return
+	end
+
+	arg_8_0.dequeueingCounts[arg_8_1.key] = (arg_8_0.dequeueingCounts[arg_8_1.key] or 0) + arg_8_2
+end
+
+function var_0_0.EndDequeue(arg_9_0, arg_9_1)
+	local var_9_0 = arg_9_1.key
+
+	if not arg_9_0.dequeueingCounts[var_9_0] then
+		return
+	end
+
+	arg_9_0.dequeueingCounts[var_9_0] = arg_9_0.dequeueingCounts[var_9_0] - 1
+
+	if arg_9_0.dequeueingCounts[var_9_0] <= 0 then
+		arg_9_0.dequeueingCounts[var_9_0] = nil
+	end
+end
+
+function var_0_0.GetObject(arg_10_0, arg_10_1, arg_10_2, arg_10_3)
+	local var_10_0 = arg_10_0:GetPool(arg_10_1, arg_10_2)
+
+	if not arg_10_0.loadingCallbacks[var_10_0.key] then
+		arg_10_0.loadingCallbacks[var_10_0.key] = {}
+	end
+
+	table.insert(arg_10_0.loadingCallbacks[var_10_0.key], arg_10_3)
+
+	if var_10_0:IsLoading() then
+		return
+	end
+
+	local var_10_1 = {}
+
+	if not var_10_0:Isloaded() then
+		table.insert(var_10_1, function(arg_11_0)
+			var_10_0:Load(arg_11_0)
 		end)
 	end
 
-	seriesAsync(var_6_1, function()
-		arg_6_0:CheckOverFlow(var_6_0)
+	seriesAsync(var_10_1, function()
+		arg_10_0:CheckOverFlow(var_10_0)
 
-		local var_8_0 = {}
-		local var_8_1 = Clone(arg_6_0.loadingCallbacks[var_6_0.key])
+		local var_12_0 = {}
+		local var_12_1 = Clone(arg_10_0.loadingCallbacks[var_10_0.key])
 
-		arg_6_0.loadingCallbacks[var_6_0.key] = {}
+		arg_10_0.loadingCallbacks[var_10_0.key] = {}
 
-		for iter_8_0, iter_8_1 in ipairs(var_8_1) do
-			table.insert(var_8_0, function(arg_9_0)
-				var_6_0:DequeueAsyn(function(arg_10_0)
-					iter_8_1(arg_10_0)
-					arg_9_0()
+		arg_10_0:BeginDequeue(var_10_0, #var_12_1)
+
+		for iter_12_0, iter_12_1 in ipairs(var_12_1) do
+			table.insert(var_12_0, function(arg_13_0)
+				var_10_0:DequeueAsyn(function(arg_14_0)
+					iter_12_1(arg_14_0)
+					arg_10_0:EndDequeue(var_10_0)
+					arg_13_0()
 				end)
 			end)
 		end
 
-		parallelAsync(var_8_0)
+		parallelAsync(var_12_0, function()
+			arg_10_0:CheckOverFlow(var_10_0)
+		end)
 	end)
 end
 
-function var_0_0.ReturnObject(arg_11_0, arg_11_1, arg_11_2)
-	local var_11_0 = arg_11_0:RawGetPool(arg_11_1)
+function var_0_0.ReturnObject(arg_16_0, arg_16_1, arg_16_2)
+	local var_16_0 = arg_16_0:RawGetPool(arg_16_1)
 
-	if not var_11_0 then
-		existCall(arg_11_0.instanceDestroyPreProcessor, arg_11_2)
-		Object.Destroy(arg_11_2)
+	if not var_16_0 then
+		existCall(arg_16_0.instanceDestroyPreProcessor, arg_16_2)
+		Object.Destroy(arg_16_2)
 
 		return
 	end
 
-	var_11_0:Enqueue(arg_11_2)
+	var_16_0:Enqueue(arg_16_2)
+	arg_16_0:CheckOverFlow()
 end
 
-function var_0_0.CheckOverFlow(arg_12_0, arg_12_1)
-	local var_12_0 = table.getCount(arg_12_0.pools)
+function var_0_0.CheckOverFlow(arg_17_0, arg_17_1)
+	if not arg_17_0.pools or not arg_17_0.capacity then
+		return
+	end
 
-	if var_12_0 > arg_12_0.capacity then
-		arg_12_0:DeleteOverflowPools(var_12_0 - arg_12_0.capacity, arg_12_1)
+	local var_17_0 = table.getCount(arg_17_0.pools)
+
+	if var_17_0 > arg_17_0.capacity then
+		arg_17_0:DeleteOverflowPools(var_17_0 - arg_17_0.capacity, arg_17_1)
 	end
 end
 
-function var_0_0.DeleteOverflowPools(arg_13_0, arg_13_1, arg_13_2)
-	local var_13_0 = {}
+function var_0_0.DeleteOverflowPools(arg_18_0, arg_18_1, arg_18_2)
+	if arg_18_1 <= 0 then
+		return
+	end
 
-	for iter_13_0, iter_13_1 in pairs(arg_13_0.pools) do
-		if iter_13_1 ~= arg_13_2 and arg_13_1 > #var_13_0 and iter_13_1:CanDelete() and (not arg_13_0.loadingCallbacks[iter_13_1.key] or #arg_13_0.loadingCallbacks[iter_13_1.key] == 0) then
-			table.insert(var_13_0, iter_13_0)
+	local var_18_0 = {}
+
+	for iter_18_0, iter_18_1 in pairs(arg_18_0.pools) do
+		if iter_18_1 ~= arg_18_2 and iter_18_1:CanDelete() and not arg_18_0:IsPoolBusy(iter_18_1) then
+			table.insert(var_18_0, {
+				key = iter_18_0,
+				pool = iter_18_1,
+				index = iter_18_1.lastUseIndex or 0
+			})
 		end
 	end
 
-	if #var_13_0 <= 0 then
+	if #var_18_0 <= 0 then
 		return
 	end
 
-	for iter_13_2, iter_13_3 in pairs(var_13_0) do
-		arg_13_0.pools[iter_13_3]:Dispose()
+	table.sort(var_18_0, function(arg_19_0, arg_19_1)
+		if arg_19_0.index == arg_19_1.index then
+			return tostring(arg_19_0.key) < tostring(arg_19_1.key)
+		end
 
-		arg_13_0.pools[iter_13_3] = nil
+		return arg_19_0.index < arg_19_1.index
+	end)
+
+	local var_18_1 = math.min(arg_18_1, #var_18_0)
+
+	for iter_18_2 = 1, var_18_1 do
+		local var_18_2 = var_18_0[iter_18_2].key
+		local var_18_3 = arg_18_0.pools[var_18_2]
+
+		if var_18_3 and var_18_3 == var_18_0[iter_18_2].pool and var_18_3 ~= arg_18_2 and var_18_3:CanDelete() and not arg_18_0:IsPoolBusy(var_18_3) then
+			var_18_3:Dispose()
+
+			arg_18_0.pools[var_18_2] = nil
+			arg_18_0.loadingCallbacks[var_18_2] = nil
+			arg_18_0.dequeueingCounts[var_18_2] = nil
+		end
 	end
 end
 
-function var_0_0.Clear(arg_14_0)
-	for iter_14_0, iter_14_1 in pairs(arg_14_0.pools) do
-		iter_14_1:Clear()
+function var_0_0.Clear(arg_20_0)
+	if not arg_20_0.pools then
+		return
 	end
 
-	arg_14_0.pools = {}
-	arg_14_0.loadingCallbacks = {}
+	for iter_20_0, iter_20_1 in pairs(arg_20_0.pools) do
+		iter_20_1:Clear()
+	end
+
+	arg_20_0.pools = {}
+	arg_20_0.loadingCallbacks = {}
+	arg_20_0.dequeueingCounts = {}
 end
 
-function var_0_0.Dispose(arg_15_0)
-	for iter_15_0, iter_15_1 in pairs(arg_15_0.pools) do
-		iter_15_1:Dispose()
+function var_0_0.Dispose(arg_21_0)
+	if not arg_21_0.pools then
+		return
 	end
 
-	arg_15_0.pools = nil
-	arg_15_0.loadingCallbacks = {}
+	for iter_21_0, iter_21_1 in pairs(arg_21_0.pools) do
+		iter_21_1:Dispose()
+	end
+
+	arg_21_0.pools = nil
+	arg_21_0.loadingCallbacks = {}
+	arg_21_0.dequeueingCounts = {}
 end
 
 return var_0_0

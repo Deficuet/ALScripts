@@ -58492,6 +58492,44 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_skin_words[401522] = {
+		mission = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		win_mvp = "",
+		home = "指挥官你回来啦！现在太阳好大，不然跟我一起去潜水吧！看~我还带了潜水装备哦！",
+		unlock = "唔哇——！！指挥官小心！还好没有撞上，你的反应真快，既然正好撞见了，那就一起去海边玩吧！",
+		touch2 = "呀啊！指、指挥官？！……这个可不包括在游玩清单里啦///",
+		skill = "",
+		vote = "",
+		drop_descrip = "唔哇——！！指挥官小心！还好没有撞上，你的反应真快，既然正好撞见了，那就一起去海边玩吧！",
+		mail = "",
+		lose = "",
+		propose = "",
+		touch = "指挥官想选哪样装备？快选好出发！",
+		voice_key_2 = -1,
+		battle = "",
+		feeling5 = "指挥官放心吧！就算你空着手来，我也会永远备好你所需的一切！以后所有的冒险，我们都像这样一起冲刺吧！",
+		main = "轮滑、冲浪、潜水，指挥官想玩哪个呢？不如全都一起上吧！Go!Go!Go!|指挥官，要和我试试双人冲浪吗？抓紧我的腰，身体放松，我们要准备起飞啦！|只要速度够快，就能把烦恼都甩到大海里去……指挥官你快一点！啊？你在说什么？我速度太快了~听~不~清！",
+		gift_dislike = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "呜哇！帽子、帽子要被风吹走——！嘿嘿，谢谢指挥官~",
+		feeling2 = "",
+		voice_key = 0,
+		gift_prefer = "",
+		hp_warning = "",
+		id = 401522,
+		profile = "",
+		login = "呼——来啦来啦！指挥官准备好和我一起去玩的装备了吗？算了算了~我已经带了好多啦！快和我走吧！",
+		detail = "我又有新装备了哦，看这个超——帅的冲浪板！指挥官想见识一下我超快的冲浪速度吗？",
+		couple_encourage = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_skin_words[401462] = {
 		mission = "",
 		feeling3 = "",

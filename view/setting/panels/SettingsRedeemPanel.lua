@@ -21,40 +21,37 @@ function var_0_0.OnInit(arg_4_0)
 	onButton(arg_4_0, arg_4_0.achieveBtn, function()
 		local var_5_0 = arg_4_0.codeInput:GetComponent(typeof(InputField)).text
 		local var_5_1
-		local var_5_2 = pg.gift_key_sp[var_5_0]
 
-		if var_5_2 and var_5_2.key == var_5_0 then
-			var_5_1 = var_5_2.group
-		elseif #var_5_0 > 10 then
+		if #var_5_0 > 10 then
 			var_5_1 = string.sub(var_5_0, 1, #var_5_0 - 10)
 		end
 
-		local var_5_3
+		local var_5_2
 
 		if var_5_1 and var_5_1 ~= "" then
-			local var_5_4 = pg.gift_group[var_5_1]
+			local var_5_3 = pg.gift_group[var_5_1]
 
-			if var_5_4 then
-				local var_5_5 = false
+			if var_5_3 then
+				local var_5_4 = false
 
-				if type(var_5_4.active_time) == "string" or type(var_5_4.active_time[1][1]) == "table" then
-					var_5_5 = pg.TimeMgr.GetInstance():inTime(var_5_4.active_time)
+				if type(var_5_3.active_time) == "string" or type(var_5_3.active_time[1][1]) == "table" then
+					var_5_4 = pg.TimeMgr.GetInstance():inTime(var_5_3.active_time)
 				else
-					var_5_5 = pg.TimeMgr.GetInstance():passTime(var_5_4.active_time)
+					var_5_4 = pg.TimeMgr.GetInstance():passTime(var_5_3.active_time)
 				end
 
-				if not var_5_5 then
-					local var_5_6
+				if not var_5_4 then
+					local var_5_5
 
-					if type(var_5_4.active_time) ~= "string" then
-						if type(var_5_4.active_time[1][1]) ~= "table" then
-							var_5_6 = pg.TimeMgr.GetInstance():passTime(var_5_4.active_time)
+					if type(var_5_3.active_time) ~= "string" then
+						if type(var_5_3.active_time[1][1]) ~= "table" then
+							var_5_5 = pg.TimeMgr.GetInstance():passTime(var_5_3.active_time)
 						else
-							var_5_6 = pg.TimeMgr.GetInstance():passTime(var_5_4.active_time[2])
+							var_5_5 = pg.TimeMgr.GetInstance():passTime(var_5_3.active_time[2])
 						end
 					end
 
-					if var_5_6 then
+					if var_5_5 then
 						pg.TipsMgr.GetInstance():ShowTips(i18n("exchange_code_after_time"))
 					else
 						pg.TipsMgr.GetInstance():ShowTips(i18n("exchange_code_before_time"))
@@ -63,46 +60,46 @@ function var_0_0.OnInit(arg_4_0)
 					return
 				end
 
-				local var_5_7 = i18n("exchange_code_tip")
+				local var_5_6 = i18n("exchange_code_tip")
+				local var_5_7 = ""
 				local var_5_8 = ""
-				local var_5_9 = ""
-				local var_5_10 = var_5_4.drop_list
-				local var_5_11 = {}
+				local var_5_9 = var_5_3.drop_list
+				local var_5_10 = {}
 
-				for iter_5_0, iter_5_1 in ipairs(var_5_10) do
-					local var_5_12 = Drop.New({
+				for iter_5_0, iter_5_1 in ipairs(var_5_9) do
+					local var_5_11 = Drop.New({
 						type = iter_5_1[1],
 						id = iter_5_1[2],
 						count = iter_5_1[3]
 					})
 
 					if iter_5_1[1] == DROP_TYPE_SKIN then
-						table.insert(var_5_11, iter_5_1[2])
+						table.insert(var_5_10, iter_5_1[2])
 
-						var_5_8 = i18n("exchange_code_skin_tip") .. var_5_8 .. "[" .. var_5_12:getName() .. "]*" .. var_5_12:getCount()
+						var_5_7 = i18n("exchange_code_skin_tip") .. var_5_7 .. "[" .. var_5_11:getName() .. "]*" .. var_5_11:getCount()
 					else
-						var_5_8 = var_5_8 .. var_5_12:getName() .. "*" .. var_5_12:getCount()
+						var_5_7 = var_5_7 .. var_5_11:getName() .. "*" .. var_5_11:getCount()
 					end
 
-					if iter_5_0 ~= #var_5_10 then
-						var_5_8 = var_5_8 .. ","
+					if iter_5_0 ~= #var_5_9 then
+						var_5_7 = var_5_7 .. ","
 					end
 				end
 
-				local var_5_13 = var_5_8 .. "\n"
+				local var_5_12 = var_5_7 .. "\n"
 
-				if var_5_11 and #var_5_11 > 0 then
-					for iter_5_2, iter_5_3 in ipairs(var_5_11) do
-						local var_5_14 = getProxy(ShipSkinProxy):hasSkin(iter_5_3)
+				if var_5_10 and #var_5_10 > 0 then
+					for iter_5_2, iter_5_3 in ipairs(var_5_10) do
+						local var_5_13 = getProxy(ShipSkinProxy):hasSkin(iter_5_3)
 
-						if pg.ship_skin_template[iter_5_3] and var_5_14 and var_5_9 and var_5_9 == "" then
-							var_5_9 = i18n("exchange_code_skin")
+						if pg.ship_skin_template[iter_5_3] and var_5_13 and var_5_8 and var_5_8 == "" then
+							var_5_8 = i18n("exchange_code_skin")
 						end
 					end
 				end
 
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = var_5_7 .. var_5_13 .. var_5_9,
+					content = var_5_6 .. var_5_12 .. var_5_8,
 					onYes = function()
 						pg.m02:sendNotification(GAME.EXCHANGECODE_USE, {
 							key = var_5_0

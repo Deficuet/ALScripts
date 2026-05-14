@@ -386,6 +386,7 @@ pg.skill_data_template.all = {
 	61070,
 	61080,
 	61090,
+	61100,
 	7000,
 	9010,
 	9020,
@@ -13717,6 +13718,20 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[61100] = {
+		desc_get = "",
+		name = "「审判号」启动钥匙",
+		id = 61100,
+		type = 0,
+		max_level = 0,
+		desc = "战斗开始后，20秒内所有舰队成员航速提高2，受到的伤害减少2%",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
 	pg.base.skill_data_template[7000] = {
 		desc_get = "",
 		name = "莱茵演习",
@@ -14509,6 +14524,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[9709] = {
 		desc_get = "",
 		name = "雷达缩圈效果",
@@ -14523,8 +14540,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[9711] = {
 		desc_get = "",
 		name = "布里之誓·purin",
@@ -21775,6 +21790,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[10970] = {
 		desc_get = "",
 		name = "好斗的玛丽",
@@ -21881,8 +21898,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[10980] = {
 		desc_get = "",
 		name = "对空掩护",
@@ -30203,6 +30218,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[11960] = {
 		desc_get = "",
 		name = "峡湾之星",
@@ -30264,8 +30281,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[11970] = {
 		desc_get = "",
 		name = "战意提升",
@@ -39676,6 +39691,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[13030] = {
 		desc_get = "",
 		name = "北联的狂放",
@@ -39737,8 +39754,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[13040] = {
 		desc_get = "",
 		name = "Mercury Memorial",
@@ -49396,6 +49411,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[14030] = {
 		desc_get = "",
 		name = "回转的Ontology",
@@ -49457,8 +49474,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[14040] = {
 		desc_get = "",
 		name = "闪耀的Protorogia",
@@ -60732,6 +60747,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[15030] = {
 		desc_get = "",
 		name = "攻守有度",
@@ -60838,8 +60855,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[15040] = {
 		desc_get = "",
 		name = "这...这只是意外！",
@@ -72606,6 +72621,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[16040] = {
 		desc_get = "",
 		name = "舞樱刃豪",
@@ -72802,8 +72819,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[16050] = {
 		desc_get = "",
 		name = "公方之护",
@@ -84126,6 +84141,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[17050] = {
 		desc_get = "",
 		name = "荡涤诸恶跨队BUFFID占用",
@@ -84140,8 +84157,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[17060] = {
 		desc_get = "",
 		name = "结缘同行",
@@ -95137,6 +95152,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[150120] = {
 		desc_get = "",
 		name = "试演的交响曲",
@@ -95234,8 +95251,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[150130] = {
 		desc_get = "",
 		name = "稚声的合奏歌",
@@ -106740,6 +106755,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[151100] = {
 		desc_get = "",
 		name = "天才直感",
@@ -106837,8 +106854,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[151110] = {
 		desc_get = "",
 		name = "疯狂科学家模式,on！",
@@ -118571,6 +118586,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[152070] = {
 		desc_get = "",
 		name = "我能解决！",
@@ -118632,8 +118649,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[152100] = {
 		desc_get = "",
 		name = "原子机心",
@@ -128535,6 +128550,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[19480] = {
 		desc_get = "",
 		name = "特殊技术-铁血翅翼",
@@ -128686,8 +128703,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[19490] = {
 		desc_get = "",
 		name = "跃动与回复之勇",
@@ -135453,6 +135468,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[20311] = {
 		desc_get = "",
 		name = "全弹发射I",
@@ -135467,8 +135484,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[20312] = {
 		desc_get = "",
 		name = "全弹发射II",
@@ -136855,6 +136870,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[22272] = {
 		desc_get = "",
 		name = "全弹发射II",
@@ -136869,8 +136886,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[22311] = {
 		desc_get = "",
 		name = "全弹发射I",
@@ -138257,6 +138272,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[28212] = {
 		desc_get = "",
 		name = "全弹发射II",
@@ -138271,8 +138288,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[28221] = {
 		desc_get = "",
 		name = "全弹发射I",
@@ -139663,6 +139678,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[29401] = {
 		desc_get = "",
 		name = "专属弹幕-确捷I",
@@ -139677,8 +139694,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[29402] = {
 		desc_get = "",
 		name = "专属弹幕-确捷II",
@@ -141069,6 +141084,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[29921] = {
 		desc_get = "",
 		name = "专属弹幕-朱塞佩·加里波第 I",
@@ -141083,8 +141100,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[29922] = {
 		desc_get = "",
 		name = "专属弹幕-朱塞佩·加里波第 II",
@@ -142471,6 +142486,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[30441] = {
 		desc_get = "",
 		name = "专属弹幕-七省I",
@@ -142485,8 +142502,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[30442] = {
 		desc_get = "",
 		name = "专属弹幕-七省II",
@@ -148871,6 +148886,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[106190] = {
 		desc_get = "",
 		name = "忙碌后的饥饿感 +",
@@ -148932,8 +148949,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[106200] = {
 		desc_get = "",
 		name = "幸福的用餐时间",
@@ -157241,6 +157256,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[109010] = {
 		desc_get = "",
 		name = "闪光爆裂",
@@ -157302,8 +157319,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[109020] = {
 		desc_get = "",
 		name = "炼金术之师",
@@ -166244,6 +166259,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[112210] = {
 		desc_get = "",
 		name = "黄泉之螳螂",
@@ -166258,8 +166275,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[112220] = {
 		desc_get = "",
 		name = "快速射击",
@@ -172927,6 +172942,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[800331] = {
 		desc_get = "",
 		name = "破敌之炬·{namecode:86}I",
@@ -172943,8 +172960,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[800332] = {
 		desc_get = "",
 		name = "破敌之炬·{namecode:86}II",
@@ -177847,6 +177862,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[800881] = {
 		desc_get = "",
 		name = "逐光之焰·阿尔及利亚I",
@@ -177863,8 +177880,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[800882] = {
 		desc_get = "",
 		name = "逐光之焰·阿尔及利亚II",
@@ -183301,6 +183316,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[801425] = {
 		desc_get = "",
 		name = "逐光之焰·{namecode:71}I",
@@ -183317,8 +183334,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[801427] = {
 		desc_get = "",
 		name = "逐光之焰·{namecode:71}II",
@@ -188523,6 +188538,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[801980] = {
 		desc_get = "",
 		name = "对往昔的追忆",
@@ -188629,8 +188646,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[801990] = {
 		desc_get = "",
 		name = "观测存亡之人",
@@ -193877,6 +193892,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[1010250] = {
 		desc_get = "",
 		name = "标枪突袭 +",
@@ -194019,8 +194036,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[1010380] = {
 		desc_get = "",
 		name = "Z系先驱 +",
@@ -207711,6 +207726,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[1090090] = {
 		desc_get = "",
 		name = "变迁的记忆·加富尔伯爵",
@@ -207907,8 +207924,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[1090100] = {
 		desc_get = "",
 		name = "穿甲弹精通·爱丁堡",

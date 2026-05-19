@@ -1,108 +1,4 @@
 (function()
-	_G.pg.base.weapon_property_2[183756] = {
-		id = 183756,
-		damage = 45,
-		base = 183751
-	}
-end)()
-
-(function()
-	_G.pg.base.weapon_property_2[183758] = {
-		id = 183758,
-		damage = 52,
-		base = 183751
-	}
-end)()
-
-(function()
-	_G.pg.base.weapon_property_2[183760] = {
-		id = 183760,
-		damage = 60,
-		base = 183751
-	}
-end)()
-
-(function()
-	_G.pg.base.weapon_property_2[183795] = {
-		id = 183795,
-		damage = 70,
-		base = 183771
-	}
-end)()
-
-(function()
-	_G.pg.base.weapon_property_2[183797] = {
-		id = 183797,
-		damage = 82,
-		base = 183771
-	}
-end)()
-
-(function()
-	_G.pg.base.weapon_property_2[183799] = {
-		id = 183799,
-		damage = 94,
-		base = 183771
-	}
-end)()
-
-(function()
-	_G.pg.base.weapon_property_2[183792] = {
-		id = 183792,
-		damage = 52,
-		base = 183771
-	}
-end)()
-
-(function()
-	_G.pg.base.weapon_property_2[183793] = {
-		id = 183793,
-		damage = 58,
-		base = 183771
-	}
-end)()
-
-(function()
-	_G.pg.base.weapon_property_2[183772] = {
-		id = 183772,
-		damage = 52,
-		base = 183771
-	}
-end)()
-
-(function()
-	_G.pg.base.weapon_property_2[183774] = {
-		id = 183774,
-		damage = 64,
-		base = 183771
-	}
-end)()
-
-(function()
-	_G.pg.base.weapon_property_2[183776] = {
-		id = 183776,
-		damage = 76,
-		base = 183771
-	}
-end)()
-
-(function()
-	_G.pg.base.weapon_property_2[183778] = {
-		id = 183778,
-		damage = 88,
-		base = 183771
-	}
-end)()
-
-(function()
-	_G.pg.base.weapon_property_2[183780] = {
-		id = 183780,
-		damage = 100,
-		base = 183771
-	}
-end)()
-
-(function()
 	_G.pg.base.weapon_property_2[183751] = {
 		aim_type = 1,
 		action_index = "",
@@ -149,9 +45,25 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.weapon_property_2[183752] = {
+		id = 183752,
+		damage = 31,
+		base = 183751
+	}
+end)()
+
+(function()
 	_G.pg.base.weapon_property_2[183753] = {
 		id = 183753,
 		damage = 34,
+		base = 183751
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property_2[183754] = {
+		id = 183754,
+		damage = 38,
 		base = 183751
 	}
 end)()
@@ -165,6 +77,14 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.weapon_property_2[183756] = {
+		id = 183756,
+		damage = 45,
+		base = 183751
+	}
+end)()
+
+(function()
 	_G.pg.base.weapon_property_2[183757] = {
 		id = 183757,
 		damage = 49,
@@ -173,9 +93,25 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.weapon_property_2[183758] = {
+		id = 183758,
+		damage = 52,
+		base = 183751
+	}
+end)()
+
+(function()
 	_G.pg.base.weapon_property_2[183759] = {
 		id = 183759,
 		damage = 56,
+		base = 183751
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property_2[183760] = {
+		id = 183760,
+		damage = 60,
 		base = 183751
 	}
 end)()
@@ -227,38 +163,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.weapon_property_2[183794] = {
-		id = 183794,
-		damage = 64,
-		base = 183771
-	}
-end)()
-
-(function()
-	_G.pg.base.weapon_property_2[183796] = {
-		id = 183796,
-		damage = 76,
-		base = 183771
-	}
-end)()
-
-(function()
-	_G.pg.base.weapon_property_2[183798] = {
-		id = 183798,
-		damage = 88,
-		base = 183771
-	}
-end)()
-
-(function()
-	_G.pg.base.weapon_property_2[183800] = {
-		id = 183800,
-		damage = 100,
-		base = 183771
-	}
-end)()
-
-(function()
 	_G.pg.base.weapon_property_2[183771] = {
 		aim_type = 1,
 		action_index = "attack",
@@ -305,9 +209,25 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.weapon_property_2[183772] = {
+		id = 183772,
+		damage = 52,
+		base = 183771
+	}
+end)()
+
+(function()
 	_G.pg.base.weapon_property_2[183773] = {
 		id = 183773,
 		damage = 58,
+		base = 183771
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property_2[183774] = {
+		id = 183774,
+		damage = 64,
 		base = 183771
 	}
 end)()
@@ -321,6 +241,14 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.weapon_property_2[183776] = {
+		id = 183776,
+		damage = 76,
+		base = 183771
+	}
+end)()
+
+(function()
 	_G.pg.base.weapon_property_2[183777] = {
 		id = 183777,
 		damage = 82,
@@ -329,9 +257,25 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.weapon_property_2[183778] = {
+		id = 183778,
+		damage = 88,
+		base = 183771
+	}
+end)()
+
+(function()
 	_G.pg.base.weapon_property_2[183779] = {
 		id = 183779,
 		damage = 94,
+		base = 183771
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property_2[183780] = {
+		id = 183780,
+		damage = 100,
 		base = 183771
 	}
 end)()
@@ -429,18 +373,74 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.weapon_property_2[183752] = {
-		id = 183752,
-		damage = 31,
-		base = 183751
+	_G.pg.base.weapon_property_2[183792] = {
+		id = 183792,
+		damage = 52,
+		base = 183771
 	}
 end)()
 
 (function()
-	_G.pg.base.weapon_property_2[183754] = {
-		id = 183754,
-		damage = 38,
-		base = 183751
+	_G.pg.base.weapon_property_2[183793] = {
+		id = 183793,
+		damage = 58,
+		base = 183771
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property_2[183794] = {
+		id = 183794,
+		damage = 64,
+		base = 183771
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property_2[183795] = {
+		id = 183795,
+		damage = 70,
+		base = 183771
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property_2[183796] = {
+		id = 183796,
+		damage = 76,
+		base = 183771
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property_2[183797] = {
+		id = 183797,
+		damage = 82,
+		base = 183771
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property_2[183798] = {
+		id = 183798,
+		damage = 88,
+		base = 183771
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property_2[183799] = {
+		id = 183799,
+		damage = 94,
+		base = 183771
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property_2[183800] = {
+		id = 183800,
+		damage = 100,
+		base = 183771
 	}
 end)()
 

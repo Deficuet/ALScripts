@@ -183,7 +183,7 @@ function var_0_0.OwnMedal(arg_19_0)
 	end
 
 	if var_19_1 <= 0 then
-		return true
+		return false
 	end
 
 	local var_19_2 = pg.task_data_template[var_19_1].award_display

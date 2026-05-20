@@ -983,9 +983,9 @@ var_0_0.ship_drag_datas = {
 					change_idle = "normal",
 					click = true,
 					idle = "ex",
-					cv = "cloth",
-					is_default = false,
 					action = "drag_ex",
+					is_default = false,
+					action_cv = "cloth",
 					active = true,
 					hit = "drag"
 				},
@@ -1532,6 +1532,123 @@ var_0_0.ship_drag_datas = {
 					action = "touch",
 					is_default = true,
 					hit = "touch"
+				}
+			}
+		}
+	},
+	mojiaduoer_5 = {
+		multiple_face = {},
+		hit_area = {
+			"touch_body",
+			"touch_head",
+			"touch_special",
+			"touch_special_2",
+			"touch_special_normal"
+		},
+		drag_data = {
+			type = var_0_0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "touch_special_normal",
+					click = true,
+					idle = "normal",
+					event = "TouchSpecial",
+					is_default = true,
+					action = "touch_special",
+					hit = "touch_special"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "touch_special_normal",
+					action = "touch_special_2",
+					is_default = false,
+					hit = "touch_special_2"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					action = "touch_body",
+					event = "TouchBody",
+					hit = "touch_body"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					event = "TouchHead",
+					is_default = false,
+					action = "touch_head",
+					hit = "touch_head"
+				}
+			}
+		}
+	},
+	z15_2 = {
+		multiple_face = {
+			name = {
+				"z15_2"
+			},
+			data = {
+				{
+					"normal",
+					0
+				},
+				{
+					"ex",
+					6
+				}
+			}
+		},
+		hit_area = {
+			"drag"
+		},
+		drag_data = {
+			type = var_0_0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "ex",
+					click = true,
+					idle = "normal",
+					action = "drag",
+					active = true,
+					hit = "drag"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "ex",
+					action = "drag_ex",
+					active = true,
+					hit = "drag"
+				}
+			}
+		}
+	},
+	molici_2 = {
+		multiple_face = {},
+		hit_area = {
+			"drag"
+		},
+		drag_data = {
+			type = var_0_0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "ex",
+					click = true,
+					idle = "normal",
+					action = "drag",
+					active = true,
+					hit = "drag"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "ex",
+					action = "drag_ex",
+					active = true,
+					hit = "drag"
 				}
 			}
 		}

@@ -47,7 +47,7 @@ function var_0_1.OnCountChange(arg_3_0)
 end
 
 function var_0_1.SetToCombatUIPreview(arg_4_0, arg_4_1)
-	if arg_4_1 then
+	if arg_4_1 ~= CombatUIPreviewer.WeaponButtonPreviewMode.UNFILLED then
 		SetActive(arg_4_0._filled, true)
 		SetActive(arg_4_0._unfill, false)
 

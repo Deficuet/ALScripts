@@ -225,23 +225,6 @@ function var_0_0.isShow()
 end
 
 function var_0_0.isTip()
-	local var_24_0 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_NEWSERVER_TASK)
-
-	if var_24_0 and not var_24_0:isEnd() then
-		local var_24_1 = getProxy(TaskProxy)
-		local var_24_2 = var_24_0:getConfig("config_data")
-
-		for iter_24_0, iter_24_1 in ipairs(var_24_2) do
-			for iter_24_2, iter_24_3 in ipairs(iter_24_1) do
-				assert(var_24_1:getTaskVO(iter_24_3), "without this task:" .. iter_24_3)
-
-				if var_24_1:getTaskVO(iter_24_3):getTaskStatus() == 1 then
-					return true
-				end
-			end
-		end
-	end
-
 	return false
 end
 

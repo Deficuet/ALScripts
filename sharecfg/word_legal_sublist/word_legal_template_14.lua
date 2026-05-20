@@ -7,224 +7,6 @@ var_0_0.word_legal_template_14 = {}
 local var_0_1 = var_0_0.word_legal_template_14
 
 function temp()
-	var_0_1.托 = {
-		里 = {
-			拆 = {
-				利 = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.塔 = {
-		什 = {
-			干 = {
-				this = true,
-				["("] = {
-					μ = {
-						兵 = {
-							装 = {
-								[")"] = {
-									this = true
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		林 = {
-			this = true
-		},
-		尔 = {
-			图 = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.神 = {
-		速 = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.洪 = {
-		亮 = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.灵 = {
-		敏 = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.基 = {
-		辅 = {
-			this = true
-		},
-		洛 = {
-			夫 = {
-				this = true,
-				· = {
-					M = {
-						E = {
-							T = {
-								A = {
-									this = true,
-									（ = {
-										后 = {
-											排 = {
-												） = {
-													this = true
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.凶 = {
-		猛 = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.顽 = {
-		皮 = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.水 = {
-		星 = {
-			纪 = {
-				念 = {
-					this = true,
-					["."] = {
-						改 = {
-							this = true
-						}
-					},
-					· = {
-						M = {
-							E = {
-								T = {
-									A = {
-										this = true
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		濑 = {
-			伊 = {
-				织 = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.恰 = {
-		巴 = {
-			耶 = {
-				夫 = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.古 = {
-		比 = {
-			雪 = {
-				夫 = {
-					this = true
-				}
-			}
-		},
-		手 = {
-			川 = {
-				唯 = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.摩 = {
-		尔 = {
-			曼 = {
-				斯 = {
-					克 = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
 	var_0_1.红 = {
 		色 = {
 			山 = {
@@ -511,6 +293,214 @@ temp()
 function temp()
 	var_0_1.果 = {
 		敢 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.敦 = {
+		刻 = {
+			尔 = {
+				克 = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.让 = {
+		· = {
+			巴 = {
+				尔 = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.简 = {
+		· = {
+			布 = {
+				罗 = {
+					伊 = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.霞 = {
+		飞 = {
+			this = true
+		},
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.峦 = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.虒 = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.滨 = {
+		江 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.玛 = {
+		丽 = {
+			· = {
+				西 = {
+					莱 = {
+						斯 = {
+							特 = {
+								号 = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		莉 = {
+			萝 = {
+				丝 = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.冈 = {
+		依 = {
+			沙 = {
+				瓦 = {
+					号 = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.君 = {
+		主 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.菈 = {
+		菈 = {
+			· = {
+				撒 = {
+					塔 = {
+						琳 = {
+							· = {
+								戴 = {
+									比 = {
+										路 = {
+											克 = {
+												this = true
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.梦 = {
+		梦 = {
+			· = {
+				贝 = {
+					莉 = {
+						雅 = {
+							· = {
+								戴 = {
+									比 = {
+										路 = {
+											克 = {
+												this = true
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.七 = {
+		省 = {
 			this = true
 		}
 	}

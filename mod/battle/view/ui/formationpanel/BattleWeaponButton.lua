@@ -55,6 +55,8 @@ function var_0_1.SwitchIcon(arg_5_0, arg_5_1, arg_5_2)
 
 	setImageSprite(arg_5_0._unfill, LoadSprite("ui/CombatUI" .. var_5_1 .. "_atlas", "weapon_unfill_" .. var_5_0))
 	setImageSprite(arg_5_0._filled, LoadSprite("ui/CombatUI" .. var_5_1 .. "_atlas", "filled_combined_" .. var_5_0))
+
+	return var_5_1, var_5_0
 end
 
 function var_0_1.SwitchIconEffect(arg_6_0, arg_6_1, arg_6_2)
@@ -324,7 +326,7 @@ function var_0_1.Update(arg_29_0)
 end
 
 function var_0_1.SetToCombatUIPreview(arg_30_0, arg_30_1)
-	if arg_30_1 then
+	if arg_30_1 ~= CombatUIPreviewer.WeaponButtonPreviewMode.UNFILLED then
 		SetActive(arg_30_0._filled, true)
 		SetActive(arg_30_0._unfill, false)
 

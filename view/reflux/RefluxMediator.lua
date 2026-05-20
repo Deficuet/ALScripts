@@ -49,6 +49,7 @@ function var_0_0.listNotificationInterests(arg_7_0)
 		GAME.REFLUX_GET_PT_AWARD_DONE,
 		TaskProxy.TASK_UPDATED,
 		TaskProxy.TASK_REMOVED,
+		TaskProxy.TASK_DELETE,
 		GAME.SHOPPING_DONE,
 		GAME.CHARGE_CONFIRM_FAILED,
 		GAME.CHARGED_LIST_UPDATED,
@@ -80,7 +81,7 @@ function var_0_0.handleNotification(arg_8_0, arg_8_1)
 		end
 
 		arg_8_0.viewComponent:updateRedPotList()
-	elseif var_8_0 == TaskProxy.TASK_UPDATED or var_8_0 == TaskProxy.TASK_REMOVED then
+	elseif var_8_0 == TaskProxy.TASK_UPDATED or var_8_0 == TaskProxy.TASK_REMOVED or var_8_0 == TaskProxy.TASK_DELETE then
 		if arg_8_0:isCanUpdateView(arg_8_0.viewComponent.taskView) then
 			arg_8_0.viewComponent.taskView:updateUI()
 		end

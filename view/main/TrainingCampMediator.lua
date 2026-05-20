@@ -41,14 +41,11 @@ function var_0_0.register(arg_1_0)
 	end)
 end
 
-var_0_0.TASK_ADDED = "task added"
-var_0_0.TASK_UPDATED = "task updated"
-var_0_0.TASK_REMOVED = "task removed"
-
 function var_0_0.listNotificationInterests(arg_7_0)
 	return {
 		TaskProxy.TASK_UPDATED,
 		TaskProxy.TASK_REMOVED,
+		TaskProxy.TASK_DELETE,
 		GAME.SUBMIT_TASK_DONE,
 		ActivityProxy.ACTIVITY_OPERATION_DONE
 	}
@@ -58,7 +55,7 @@ function var_0_0.handleNotification(arg_8_0, arg_8_1)
 	local var_8_0 = arg_8_1:getName()
 	local var_8_1 = arg_8_1:getBody()
 
-	if var_8_0 == TaskProxy.TASK_UPDATED or var_8_0 == TaskProxy.TASK_REMOVED then
+	if var_8_0 == TaskProxy.TASK_UPDATED or var_8_0 == TaskProxy.TASK_REMOVED or var_8_0 == TaskProxy.TASK_DELETE then
 		arg_8_0.viewComponent:switchPageByMediator()
 		arg_8_0.viewComponent:updateSwitchBtnsTag()
 	elseif var_8_0 == GAME.SUBMIT_TASK_DONE then

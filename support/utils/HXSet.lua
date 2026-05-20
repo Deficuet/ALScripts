@@ -142,6 +142,7 @@ function var_0_0.update()
 	local var_5_2 = var_0_0.codeMode and {} or var_0_0.nameCodeMap_EN
 	local var_5_3 = pg.ship_data_statistics
 
+	pg._ship_data_statistics = var_5_3
 	pg.ship_data_statistics = setmetatable({}, {
 		__index = function(arg_6_0, arg_6_1)
 			local var_6_0 = var_5_3[arg_6_1]
@@ -236,6 +237,7 @@ function var_0_0.update()
 
 	local var_5_6 = pg.equip_data_statistics
 
+	pg._equip_data_statistics = var_5_6
 	pg.equip_data_statistics = setmetatable({}, {
 		__index = function(arg_9_0, arg_9_1)
 			local var_9_0 = var_5_6[arg_9_1]

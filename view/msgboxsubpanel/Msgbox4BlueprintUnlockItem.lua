@@ -17,7 +17,7 @@ function var_0_0.OnRefresh(arg_2_0, arg_2_1)
 	setText(arg_2_0._tf:Find("content_unlock/title/bg/Text"), i18n("tech_select_tip1"))
 	setText(arg_2_0._tf:Find("content_unlock/title/Text"), i18n("tech_select_tip2"))
 
-	local var_2_2 = arg_2_0._tf:Find("content_unlock/list")
+	local var_2_2 = arg_2_0._tf:Find("content_unlock/mask/list")
 	local var_2_3 = UIItemList.New(var_2_2, var_2_2:GetChild(0))
 
 	var_2_3:make(function(arg_3_0, arg_3_1, arg_3_2)

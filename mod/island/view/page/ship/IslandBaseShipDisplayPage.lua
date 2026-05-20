@@ -309,9 +309,4 @@ function var_0_0.OnCharLoaded(arg_34_0)
 	return
 end
 
-function var_0_0.Hide(arg_35_0, arg_35_1, arg_35_2)
-	var_0_0.super.Hide(arg_35_0, arg_35_1, arg_35_2)
-	IslandHelper.RunGC(true)
-end
-
 return var_0_0

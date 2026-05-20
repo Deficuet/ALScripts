@@ -7,61 +7,6 @@ var_0_0.word_legal_template_4 = {}
 local var_0_1 = var_0_0.word_legal_template_4
 
 function temp()
-	var_0_1.长 = {
-		岛 = {
-			this = true
-		},
-		春 = {
-			this = true,
-			["."] = {
-				改 = {
-					this = true
-				}
-			}
-		},
-		风 = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.兰 = {
-		利 = {
-			this = true,
-			I = {
-				I = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.列 = {
-		克 = {
-			星 = {
-				敦 = {
-					this = true,
-					I = {
-						I = {
-							this = true
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
 	var_0_1.萨 = {
 		拉 = {
 			托 = {
@@ -525,6 +470,74 @@ temp()
 function temp()
 	var_0_1.枥 = {
 		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.狐 = {
+		提 = {
+			this = true
+		},
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.命 = {
+		运 = {
+			女 = {
+				神 = {
+					this = true,
+					· = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.萤 = {
+		火 = {
+			虫 = {
+				this = true,
+				["."] = {
+					改 = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.勇 = {
+		气 = {
+			this = true
+		},
+		敢 = {
 			this = true
 		}
 	}

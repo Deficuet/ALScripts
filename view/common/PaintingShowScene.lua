@@ -91,6 +91,7 @@ function var_0_0.didEnter(arg_2_0)
 
 	arg_2_0.closeCallBack = arg_2_0.contextData.callback
 	arg_2_0.skinId = arg_2_0.contextData.skinId
+	arg_2_0.isShop = arg_2_0.contextData.is_shop
 
 	pg.UIMgr.GetInstance():BlurPanel(arg_2_0.ad)
 
@@ -218,6 +219,8 @@ function var_0_0.loadShowPaint(arg_14_0, arg_14_1, arg_14_2, arg_14_3)
 				end, true)
 			end
 
+			arg_15_0:SetShopHx(arg_14_0.isShop)
+
 			arg_14_0.loading = false
 
 			arg_14_3()
@@ -231,16 +234,27 @@ function var_0_0.loadShowPaint(arg_14_0, arg_14_1, arg_14_2, arg_14_3)
 
 		local var_14_5 = var_14_0:getPainting()
 
-		LoadPaintingPrefabAsync(arg_14_0.paintingContainer, var_14_5, var_14_5, "mainNormal", function()
+		LoadPaintingPrefabAsync(arg_14_0.paintingContainer, var_14_5, var_14_5, "mainNormal", function(arg_17_0)
 			arg_14_0.loading = false
+
+			local var_17_0 = findTF(arg_17_0, "shop_hx")
+
+			if not IsNil(var_17_0) and arg_14_0.isShop then
+				setActive(var_17_0, HXSet.isHx())
+			end
 
 			arg_14_3()
 		end)
 	elseif var_14_1 == MainPaintingView.STATE_L2D then
+		if not isActive(arg_14_0.paintTf) then
+			SetActive(arg_14_0.paintTf, true)
+		end
+
 		local var_14_6 = Live2DPainting.GenerateData({
 			ship = var_14_0,
 			position = Vector3(0, 0, -1),
-			parent = arg_14_0.l2dContainner
+			parent = arg_14_0.l2dContainner,
+			shopPreView = arg_14_0.isShop
 		})
 
 		arg_14_0.live2dChar = Live2DPainting.New(var_14_6, function(arg_18_0)

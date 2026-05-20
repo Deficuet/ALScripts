@@ -7,74 +7,6 @@ var_0_0.word_legal_template_5 = {}
 local var_0_1 = var_0_0.word_legal_template_5
 
 function temp()
-	var_0_1.狐 = {
-		提 = {
-			this = true
-		},
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.命 = {
-		运 = {
-			女 = {
-				神 = {
-					this = true,
-					· = {
-						M = {
-							E = {
-								T = {
-									A = {
-										this = true
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.萤 = {
-		火 = {
-			虫 = {
-				this = true,
-				["."] = {
-					改 = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.勇 = {
-		气 = {
-			this = true
-		},
-		敢 = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
 	var_0_1.猎 = {
 		人 = {
 			this = true,
@@ -542,6 +474,74 @@ function temp()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.司 = {
+		战 = {
+			女 = {
+				神 = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.进 = {
+		取 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.伦 = {
+		敦 = {
+			this = true,
+			["."] = {
+				改 = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.什 = {
+		罗 = {
+			普 = {
+				郡 = {
+					this = true,
+					["."] = {
+						改 = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.肯 = {
+		特 = {
+			this = true
 		}
 	}
 end

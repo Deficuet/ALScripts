@@ -24,6 +24,11 @@ var_0_0.SortPropertyIndexs = {
 	var_0_0.SortProperty_Durability,
 	var_0_0.SortProperty_Antisub
 }
+var_0_0.RoleProgressBar = {
+	var_0_0.SortUnlockable,
+	var_0_0.SortGotLock,
+	var_0_0.SortNotGet
+}
 var_0_0.SortPropertyAll = IndexConst.BitAll(var_0_0.SortPropertyIndexs)
 
 table.insert(var_0_0.SortPropertyIndexs, 1, var_0_0.SortPropertyAll)
@@ -35,6 +40,12 @@ var_0_0.SortIndexs = {
 	var_0_0.SortAchivedTime,
 	var_0_0.SortIntimacy,
 	var_0_0.SortEnergy
+}
+var_0_0.SortDefault = bit.lshift(1, 0)
+var_0_0.SortProgressBar = bit.lshift(1, 1)
+var_0_0.SortRoleStory = {
+	var_0_0.SortDefault,
+	var_0_0.SortProgressBar
 }
 
 function var_0_0.getSortFuncAndName(arg_1_0, arg_1_1)
@@ -51,6 +62,20 @@ function var_0_0.getSortFuncAndName(arg_1_0, arg_1_1)
 	end
 end
 
+function var_0_0.getSortName(arg_4_0)
+	for iter_4_0 = 1, #ShipIndexConst.SortRoleStory do
+		local var_4_0 = bit.lshift(1, iter_4_0 - 1)
+
+		if bit.band(var_4_0, arg_4_0) > 0 then
+			return iter_4_0
+		end
+	end
+end
+
+var_0_0.SortRoleStoryName = {
+	"memory_filter_option_1",
+	"memory_filter_option_2"
+}
 var_0_0.SortNames = {
 	"word_rarity",
 	"word_lv",
@@ -73,75 +98,75 @@ var_0_0.SortPropertyNames = {
 
 function var_0_0.sortByCombatPower()
 	return {
-		function(arg_5_0)
-			return -arg_5_0:getShipCombatPower()
-		end,
 		function(arg_6_0)
-			return arg_6_0.configId
+			return -arg_6_0:getShipCombatPower()
+		end,
+		function(arg_7_0)
+			return arg_7_0.configId
 		end
 	}
 end
 
-function var_0_0.sortByField(arg_7_0)
+function var_0_0.sortByField(arg_8_0)
 	return {
-		function(arg_8_0)
-			return -arg_8_0[arg_7_0]
-		end,
 		function(arg_9_0)
-			return -arg_9_0:getRarity()
+			return -arg_9_0[arg_8_0]
 		end,
 		function(arg_10_0)
-			return arg_10_0.configId
+			return -arg_10_0:getRarity()
+		end,
+		function(arg_11_0)
+			return arg_11_0.configId
 		end
 	}
 end
 
-function var_0_0.sortByProperty(arg_11_0)
+function var_0_0.sortByProperty(arg_12_0)
 	return {
-		function(arg_12_0)
-			return -arg_12_0:getShipProperties()[arg_11_0]
-		end,
 		function(arg_13_0)
-			return arg_13_0.configId
+			return -arg_13_0:getShipProperties()[arg_12_0]
+		end,
+		function(arg_14_0)
+			return arg_14_0.configId
 		end
 	}
 end
 
-function var_0_0.sortByCfg(arg_14_0)
+function var_0_0.sortByCfg(arg_15_0)
 	return {
-		function(arg_15_0)
-			return -(arg_14_0 == "rarity" and arg_15_0:getRarity() or arg_15_0:getConfig(arg_14_0))
-		end,
 		function(arg_16_0)
-			return arg_16_0.configId
+			return -(arg_15_0 == "rarity" and arg_16_0:getRarity() or arg_16_0:getConfig(arg_15_0))
+		end,
+		function(arg_17_0)
+			return arg_17_0.configId
 		end
 	}
 end
 
 function var_0_0.sortByIntimacy()
 	return {
-		function(arg_18_0)
-			return -arg_18_0.intimacy
-		end,
 		function(arg_19_0)
-			return arg_19_0.propose and 0 or 1
+			return -arg_19_0.intimacy
 		end,
 		function(arg_20_0)
-			return arg_20_0.configId
+			return arg_20_0.propose and 0 or 1
 		end,
 		function(arg_21_0)
-			return -arg_21_0.level
+			return arg_21_0.configId
+		end,
+		function(arg_22_0)
+			return -arg_22_0.level
 		end
 	}
 end
 
 function var_0_0.sortByEnergy()
 	return {
-		function(arg_23_0)
-			return -arg_23_0:getEnergy()
-		end,
 		function(arg_24_0)
-			return arg_24_0.configId
+			return -arg_24_0:getEnergy()
+		end,
+		function(arg_25_0)
+			return arg_25_0.configId
 		end
 	}
 end
@@ -186,29 +211,88 @@ var_0_0.TypeNames = {
 	"index_other"
 }
 
-function var_0_0.filterByType(arg_25_0, arg_25_1)
-	if not arg_25_1 or arg_25_1 == var_0_0.TypeAll then
+function var_0_0.filterByType(arg_26_0, arg_26_1)
+	if not arg_26_1 or arg_26_1 == var_0_0.TypeAll then
 		return true
 	end
 
-	for iter_25_0 = 2, #ShipIndexCfg.type do
-		local var_25_0 = bit.lshift(1, iter_25_0 - 2)
+	for iter_26_0 = 2, #ShipIndexCfg.type do
+		local var_26_0 = bit.lshift(1, iter_26_0 - 2)
 
-		if bit.band(var_25_0, arg_25_1) > 0 then
-			local var_25_1 = ShipIndexCfg.type[iter_25_0].types
+		if bit.band(var_26_0, arg_26_1) > 0 then
+			local var_26_1 = ShipIndexCfg.type[iter_26_0].types
 
-			if iter_25_0 < 4 then
-				local var_25_2 = ShipIndexCfg.type[iter_25_0].shipTypes
+			if iter_26_0 < 4 then
+				local var_26_2 = ShipIndexCfg.type[iter_26_0].shipTypes
 
-				if table.contains(var_25_1, arg_25_0:getShipType()) then
+				if table.contains(var_26_1, arg_26_0:getShipType()) then
 					return true
 				end
 
-				if table.contains(var_25_1, arg_25_0:getTeamType()) then
+				if table.contains(var_26_1, arg_26_0:getTeamType()) then
 					return true
 				end
-			elseif table.contains(var_25_1, arg_25_0:getShipType()) then
+			elseif table.contains(var_26_1, arg_26_0:getShipType()) then
 				return true
+			end
+		end
+	end
+
+	return false
+end
+
+var_0_0.SortUnlockable = bit.lshift(1, 0)
+var_0_0.SortGotLock = bit.lshift(1, 1)
+var_0_0.SortNotGet = bit.lshift(1, 2)
+var_0_0.RoleProgress = {
+	var_0_0.SortUnlockable,
+	var_0_0.SortGotLock,
+	var_0_0.SortNotGet
+}
+var_0_0.All = IndexConst.BitAll(var_0_0.RoleProgress)
+
+table.insert(var_0_0.RoleProgress, 1, var_0_0.All)
+
+var_0_0.RoleProgressName = {
+	"memory_filter_option_3",
+	"memory_filter_option_4",
+	"memory_filter_option_5",
+	"memory_filter_option_6"
+}
+
+function var_0_0.filterRoleProgressBar(arg_27_0, arg_27_1)
+	if not arg_27_1 or arg_27_1 == var_0_0.ProgressAll then
+		return true
+	end
+
+	local var_27_0 = getProxy(CollectionProxy):getShipGroup(arg_27_0.ship_group)
+
+	for iter_27_0 = 2, #RoleIndexCfg.progress do
+		local var_27_1 = bit.lshift(1, iter_27_0 - 2)
+
+		if bit.band(var_27_1, arg_27_1) > 0 then
+			local var_27_2 = RoleIndexCfg.progress[iter_27_0].types
+
+			if #var_27_2 == 0 then
+				return true
+			end
+
+			for iter_27_1, iter_27_2 in ipairs(var_27_2) do
+				if iter_27_2 == 1 then
+					local var_27_3 = pg.memory_template[arg_27_0.memories[1]].story
+
+					if var_27_0 and not pg.NewStoryMgr.GetInstance():IsPlayed(var_27_3) and arg_27_0.id ~= 501 then
+						return true
+					end
+				elseif iter_27_2 == 2 then
+					local var_27_4 = pg.memory_template[arg_27_0.memories[1]].story
+
+					if pg.NewStoryMgr.GetInstance():IsPlayed(var_27_4) then
+						return true
+					end
+				elseif iter_27_2 == 3 and not var_27_0 then
+					return true
+				end
 			end
 		end
 	end
@@ -269,31 +353,65 @@ if LOCK_NATION_HNLMS then
 	table.removebyvalue(var_0_0.CampNames, "word_shipNation_yujinwangguo")
 end
 
-function var_0_0.filterByCamp(arg_26_0, arg_26_1)
-	if not arg_26_1 or arg_26_1 == var_0_0.CampAll then
+function var_0_0.filterByCamp(arg_28_0, arg_28_1)
+	if not arg_28_1 or arg_28_1 == var_0_0.CampAll then
 		return true
 	end
 
-	local var_26_0 = underscore.to_array(ShipIndexCfg.camp)
+	local var_28_0 = underscore.to_array(ShipIndexCfg.camp)
 
 	if LOCK_NATION_HNLMS then
-		var_26_0 = underscore.filter(var_26_0, function(arg_27_0)
-			return #arg_27_0.types ~= 1 or arg_27_0.types[1] ~= Nation.NL
+		var_28_0 = underscore.filter(var_28_0, function(arg_29_0)
+			return #arg_29_0.types ~= 1 or arg_29_0.types[1] ~= Nation.NL
 		end)
 	end
 
-	for iter_26_0 = 2, #var_26_0 do
-		local var_26_1 = bit.lshift(1, iter_26_0 - 2)
+	for iter_28_0 = 2, #var_28_0 do
+		local var_28_1 = bit.lshift(1, iter_28_0 - 2)
 
-		if bit.band(var_26_1, arg_26_1) > 0 then
-			local var_26_2 = var_26_0[iter_26_0].types
+		if bit.band(var_28_1, arg_28_1) > 0 then
+			local var_28_2 = var_28_0[iter_28_0].types
 
-			for iter_26_1, iter_26_2 in ipairs(var_26_2) do
-				if iter_26_2 == Nation.LINK then
-					if arg_26_0:getNation() >= Nation.LINK then
+			for iter_28_1, iter_28_2 in ipairs(var_28_2) do
+				if iter_28_2 == Nation.LINK then
+					if arg_28_0:getNation() >= Nation.LINK then
 						return true
 					end
-				elseif iter_26_2 == arg_26_0:getNation() then
+				elseif iter_28_2 == arg_28_0:getNation() then
+					return true
+				end
+			end
+		end
+	end
+
+	return false
+end
+
+function var_0_0.RolefilterByCamp(arg_30_0, arg_30_1)
+	if not arg_30_1 or arg_30_1 == var_0_0.CampAll then
+		return true
+	end
+
+	local var_30_0 = underscore.to_array(ShipIndexCfg.camp)
+
+	if LOCK_NATION_HNLMS then
+		var_30_0 = underscore.filter(var_30_0, function(arg_31_0)
+			return #arg_31_0.types ~= 1 or arg_31_0.types[1] ~= Nation.NL
+		end)
+	end
+
+	for iter_30_0 = 2, #var_30_0 do
+		local var_30_1 = bit.lshift(1, iter_30_0 - 2)
+
+		if bit.band(var_30_1, arg_30_1) > 0 then
+			local var_30_2 = var_30_0[iter_30_0].types
+
+			for iter_30_1, iter_30_2 in ipairs(var_30_2) do
+				if iter_30_2 == Nation.LINK then
+					if arg_30_0.nationality >= Nation.LINK then
+						return true
+					end
+				elseif iter_30_2 == arg_30_0.nationality then
 					return true
 				end
 			end
@@ -328,18 +446,18 @@ var_0_0.RarityNames = {
 	"index_rare6"
 }
 
-function var_0_0.filterByRarity(arg_28_0, arg_28_1)
-	if not arg_28_1 or arg_28_1 == var_0_0.RarityAll then
+function var_0_0.filterByRarity(arg_32_0, arg_32_1)
+	if not arg_32_1 or arg_32_1 == var_0_0.RarityAll then
 		return true
 	end
 
-	for iter_28_0 = 2, #ShipIndexCfg.rarity do
-		local var_28_0 = bit.lshift(1, iter_28_0 - 2)
+	for iter_32_0 = 2, #ShipIndexCfg.rarity do
+		local var_32_0 = bit.lshift(1, iter_32_0 - 2)
 
-		if bit.band(var_28_0, arg_28_1) > 0 then
-			local var_28_1 = ShipIndexCfg.rarity[iter_28_0].types
+		if bit.band(var_32_0, arg_32_1) > 0 then
+			local var_32_1 = ShipIndexCfg.rarity[iter_32_0].types
 
-			if table.contains(var_28_1, arg_28_0:getRarity()) then
+			if table.contains(var_32_1, arg_32_0:getRarity()) then
 				return true
 			end
 		end
@@ -438,35 +556,35 @@ end
 table.insert(var_0_0.ExtraNames, "index_dressed")
 table.insert(var_0_0.ExtraNames, "index_marry")
 
-function var_0_0.filterByExtra(arg_29_0, arg_29_1)
-	if not arg_29_1 or arg_29_1 == var_0_0.ExtraAll then
+function var_0_0.filterByExtra(arg_33_0, arg_33_1)
+	if not arg_33_1 or arg_33_1 == var_0_0.ExtraAll then
 		return true
 	end
 
-	if arg_29_1 == var_0_0.ExtraSkin then
-		return arg_29_0:hasAvailiableSkin()
-	elseif arg_29_1 == var_0_0.ExtraRemould then
-		return arg_29_0:isRemouldable() and not arg_29_0:isAllRemouldFinish()
-	elseif arg_29_1 == var_0_0.Extrastrengthen then
-		return not arg_29_0:isMetaShip() and not arg_29_0:isIntensifyMax()
-	elseif arg_29_1 == var_0_0.ExtraUpgrade then
-		return arg_29_0:canUpgrade()
-	elseif arg_29_1 == var_0_0.ExtraNotMaxLv then
-		return arg_29_0:notMaxLevelForFilter()
-	elseif arg_29_1 == var_0_0.ExtraAwakening then
-		return arg_29_0:isAwakening()
-	elseif arg_29_1 == var_0_0.ExtraAwakening2 then
-		return arg_29_0:isAwakening2()
-	elseif arg_29_1 == var_0_0.ExtraSpecial then
-		return arg_29_0:isSpecialFilter()
-	elseif arg_29_1 == var_0_0.ExtraProposeSkin then
-		return arg_29_0:hasProposeSkin()
-	elseif arg_29_1 == var_0_0.ExtraUniqueSpWeapon then
-		return arg_29_0:HasUniqueSpWeapon()
-	elseif arg_29_1 == var_0_0.DRESSED then
-		return not arg_29_0:IsDefaultSkin() and arg_29_0:getRemouldSkinId() ~= arg_29_0:getSkinId()
-	elseif arg_29_1 == var_0_0.ExtraMarry then
-		return arg_29_0.propose
+	if arg_33_1 == var_0_0.ExtraSkin then
+		return arg_33_0:hasAvailiableSkin()
+	elseif arg_33_1 == var_0_0.ExtraRemould then
+		return arg_33_0:isRemouldable() and not arg_33_0:isAllRemouldFinish()
+	elseif arg_33_1 == var_0_0.Extrastrengthen then
+		return not arg_33_0:isMetaShip() and not arg_33_0:isIntensifyMax()
+	elseif arg_33_1 == var_0_0.ExtraUpgrade then
+		return arg_33_0:canUpgrade()
+	elseif arg_33_1 == var_0_0.ExtraNotMaxLv then
+		return arg_33_0:notMaxLevelForFilter()
+	elseif arg_33_1 == var_0_0.ExtraAwakening then
+		return arg_33_0:isAwakening()
+	elseif arg_33_1 == var_0_0.ExtraAwakening2 then
+		return arg_33_0:isAwakening2()
+	elseif arg_33_1 == var_0_0.ExtraSpecial then
+		return arg_33_0:isSpecialFilter()
+	elseif arg_33_1 == var_0_0.ExtraProposeSkin then
+		return arg_33_0:hasProposeSkin()
+	elseif arg_33_1 == var_0_0.ExtraUniqueSpWeapon then
+		return arg_33_0:HasUniqueSpWeapon()
+	elseif arg_33_1 == var_0_0.DRESSED then
+		return not arg_33_0:IsDefaultSkin() and arg_33_0:getRemouldSkinId() ~= arg_33_0:getSkinId()
+	elseif arg_33_1 == var_0_0.ExtraMarry then
+		return arg_33_0.propose
 	end
 
 	return false
@@ -488,21 +606,21 @@ var_0_0.CollExtraNames = {
 	"index_not_obtained"
 }
 
-function var_0_0.filterByCollExtra(arg_30_0, arg_30_1)
-	if not arg_30_1 or arg_30_1 == var_0_0.CollExtraAll then
+function var_0_0.filterByCollExtra(arg_34_0, arg_34_1)
+	if not arg_34_1 or arg_34_1 == var_0_0.CollExtraAll then
 		return true
 	end
 
-	if arg_30_1 == var_0_0.CollExtraSpecial then
-		return arg_30_0:isSpecialFilter()
+	if arg_34_1 == var_0_0.CollExtraSpecial then
+		return arg_34_0:isSpecialFilter()
 	end
 
-	if arg_30_1 == var_0_0.CollExtraNotObtained then
-		local var_30_0 = arg_30_0:getGroupId()
-		local var_30_1 = arg_30_0:isRemoulded()
-		local var_30_2 = getProxy(CollectionProxy):getShipGroup(var_30_0)
+	if arg_34_1 == var_0_0.CollExtraNotObtained then
+		local var_34_0 = arg_34_0:getGroupId()
+		local var_34_1 = arg_34_0:isRemoulded()
+		local var_34_2 = getProxy(CollectionProxy):getShipGroup(var_34_0)
 
-		if ShipGroup.getState(var_30_0, var_30_2, var_30_1) ~= ShipGroup.STATE_UNLOCK then
+		if ShipGroup.getState(var_34_0, var_34_2, var_34_1) ~= ShipGroup.STATE_UNLOCK then
 			return true
 		end
 	end

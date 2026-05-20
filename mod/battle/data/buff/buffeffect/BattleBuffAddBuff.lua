@@ -13,11 +13,10 @@ function var_0_3.Ctor(arg_1_0, arg_1_1)
 end
 
 function var_0_3.SetArgs(arg_2_0, arg_2_1, arg_2_2)
-	arg_2_0._level = arg_2_2:GetLv()
-
 	local var_2_0 = arg_2_0._tempData.arg_list
 
 	arg_2_0._buff_id = var_2_0.buff_id
+	arg_2_0._level = var_2_0.buff_level or arg_2_2:GetLv()
 	arg_2_0._target = var_2_0.target or "TargetSelf"
 	arg_2_0._time = var_2_0.time or 0
 	arg_2_0._rant = var_2_0.rant or 10000

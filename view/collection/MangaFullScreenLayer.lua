@@ -15,6 +15,7 @@ function var_0_0.didEnter(arg_3_0)
 	arg_3_0:readManga()
 	arg_3_0:updatePicImg()
 	arg_3_0:updateLikeBtn()
+	arg_3_0:updateLoadingBtn()
 end
 
 function var_0_0.willExit(arg_4_0)
@@ -43,6 +44,8 @@ function var_0_0.findUI(arg_6_0)
 	arg_6_0.tipText = arg_6_0._tf:Find("Tip")
 	arg_6_0.likeOnBtn = arg_6_0._tf:Find("Manga/LikeOn")
 	arg_6_0.likeOffBtn = arg_6_0._tf:Find("Manga/LikeOff")
+	arg_6_0.addLoadingBtn = arg_6_0._tf:Find("Manga/LoadingBtn/Off")
+	arg_6_0.removeLoadingBtn = arg_6_0._tf:Find("Manga/LoadingBtn/On")
 
 	setText(arg_6_0.tipText, i18n("world_collection_back"))
 end
@@ -66,6 +69,7 @@ function var_0_0.addListener(arg_8_0)
 			arg_8_0:readManga()
 			arg_8_0:updatePicImg()
 			arg_8_0:updateLikeBtn()
+			arg_8_0:updateLoadingBtn()
 		end
 	end, SFX_PANEL)
 	onButton(arg_8_0, arg_8_0.rightBtn, function()
@@ -75,6 +79,7 @@ function var_0_0.addListener(arg_8_0)
 			arg_8_0:readManga()
 			arg_8_0:updatePicImg()
 			arg_8_0:updateLikeBtn()
+			arg_8_0:updateLoadingBtn()
 		end
 	end, SFX_PANEL)
 	onButton(arg_8_0, arg_8_0.likeOnBtn, function()
@@ -103,54 +108,106 @@ function var_0_0.addListener(arg_8_0)
 	end, function()
 		triggerButton(arg_8_0.rightBtn)
 	end)
+	onButton(arg_8_0, arg_8_0.addLoadingBtn, function()
+		arg_8_0:addLoadingPic(arg_8_0.mangaIDLIst[arg_8_0.curMangaIndex])
+	end, SFX_PANEL)
+	onButton(arg_8_0, arg_8_0.removeLoadingBtn, function()
+		arg_8_0:removeLoadingPic(arg_8_0.mangaIDLIst[arg_8_0.curMangaIndex])
+	end, SFX_PANEL)
 end
 
-function var_0_0.updatePicImg(arg_18_0)
-	local var_18_0 = arg_18_0.mangaIDLIst[arg_18_0.curMangaIndex]
-	local var_18_1 = pg.cartoon[var_18_0].resource
-	local var_18_2 = MangaConst.MANGA_PATH_PREFIX .. var_18_1
+function var_0_0.updatePicImg(arg_20_0)
+	local var_20_0 = arg_20_0.mangaIDLIst[arg_20_0.curMangaIndex]
+	local var_20_1 = pg.cartoon[var_20_0].resource
+	local var_20_2 = MangaConst.MANGA_PATH_PREFIX .. var_20_1
 
-	arg_18_0.resLoader:LoadSprite(var_18_2, var_18_1, arg_18_0.picImg, false)
+	arg_20_0.resLoader:LoadSprite(var_20_2, var_20_1, arg_20_0.picImg, false)
 
-	local var_18_3
+	local var_20_3
 
-	if arg_18_0.contextData.isShowingNotRead then
-		var_18_3 = "#" .. pg.cartoon[var_18_0].cartoon_id
+	if arg_20_0.contextData.isShowingNotRead then
+		var_20_3 = "#" .. pg.cartoon[var_20_0].cartoon_id
 	else
-		var_18_3 = "#" .. pg.cartoon[var_18_0].cartoon_id .. "/" .. #arg_18_0.mangaIDLIst
+		var_20_3 = "#" .. pg.cartoon[var_20_0].cartoon_id .. "/" .. #arg_20_0.mangaIDLIst
 	end
 
-	setText(arg_18_0.indexText, var_18_3)
+	setText(arg_20_0.indexText, var_20_3)
 
-	arg_18_0.isShowing = true
+	arg_20_0.isShowing = true
 
-	arg_18_0:managedTween(LeanTween.value, nil, go(arg_18_0.picImg), 0, 1, 0.3):setOnUpdate(System.Action_float(function(arg_19_0)
-		setImageAlpha(arg_18_0.picImg, arg_19_0)
+	arg_20_0:managedTween(LeanTween.value, nil, go(arg_20_0.picImg), 0, 1, 0.3):setOnUpdate(System.Action_float(function(arg_21_0)
+		setImageAlpha(arg_20_0.picImg, arg_21_0)
 	end)):setOnComplete(System.Action(function()
-		arg_18_0.isShowing = false
+		arg_20_0.isShowing = false
 
-		setImageAlpha(arg_18_0.picImg, 1)
+		setImageAlpha(arg_20_0.picImg, 1)
 	end))
-	setActive(arg_18_0.preBtn, arg_18_0.curMangaIndex > 1)
-	setActive(arg_18_0.rightBtn, arg_18_0.curMangaIndex < #arg_18_0.mangaIDLIst)
+	setActive(arg_20_0.preBtn, arg_20_0.curMangaIndex > 1)
+	setActive(arg_20_0.rightBtn, arg_20_0.curMangaIndex < #arg_20_0.mangaIDLIst)
 end
 
-function var_0_0.updateLikeBtn(arg_21_0)
-	local var_21_0 = arg_21_0.mangaIDLIst[arg_21_0.curMangaIndex]
-	local var_21_1 = MangaConst.isMangaLikeByID(var_21_0)
+function var_0_0.updateLikeBtn(arg_23_0)
+	local var_23_0 = arg_23_0.mangaIDLIst[arg_23_0.curMangaIndex]
+	local var_23_1 = MangaConst.isMangaLikeByID(var_23_0)
 
-	setActive(arg_21_0.likeOnBtn, var_21_1)
-	setActive(arg_21_0.likeOffBtn, not var_21_1)
+	setActive(arg_23_0.likeOnBtn, var_23_1)
+	setActive(arg_23_0.likeOffBtn, not var_23_1)
 end
 
-function var_0_0.readManga(arg_22_0)
-	local var_22_0 = arg_22_0.mangaIDLIst[arg_22_0.curMangaIndex]
+function var_0_0.updateLoadingBtn(arg_24_0)
+	local var_24_0 = arg_24_0.mangaIDLIst[arg_24_0.curMangaIndex]
+	local var_24_1 = arg_24_0:isPicUsed(var_24_0)
 
-	if not MangaConst.isMangaEverReadByID(var_22_0) then
+	setActive(arg_24_0.addLoadingBtn, not var_24_1)
+	setActive(arg_24_0.removeLoadingBtn, var_24_1)
+end
+
+function var_0_0.readManga(arg_25_0)
+	local var_25_0 = arg_25_0.mangaIDLIst[arg_25_0.curMangaIndex]
+
+	if not MangaConst.isMangaEverReadByID(var_25_0) then
 		pg.m02:sendNotification(GAME.APPRECIATE_MANGA_READ, {
-			mangaID = var_22_0
+			mangaID = var_25_0
 		})
 	end
+end
+
+function var_0_0.isPicUsed(arg_26_0, arg_26_1)
+	return table.contains(getProxy(LoadingPicProxy):getMangaPicIDList(true), arg_26_1)
+end
+
+function var_0_0.removeLoadingPic(arg_27_0, arg_27_1)
+	local var_27_0 = {}
+	local var_27_1 = getProxy(LoadingPicProxy):getMangaPicIDList()
+
+	for iter_27_0, iter_27_1 in ipairs(var_27_1) do
+		if iter_27_1 == arg_27_1 then
+			table.remove(var_27_1, iter_27_0)
+
+			break
+		end
+	end
+
+	var_27_0.mangaPicIDList = var_27_1
+
+	pg.m02:sendNotification(GAME.UPDATE_LOADING_PIC, var_27_0)
+end
+
+function var_0_0.addLoadingPic(arg_28_0, arg_28_1)
+	if arg_28_0:isPicUsed(arg_28_1) then
+		warning("already used.", arg_28_1)
+
+		return
+	end
+
+	local var_28_0 = {}
+	local var_28_1 = getProxy(LoadingPicProxy):getMangaPicIDList()
+
+	table.insert(var_28_1, arg_28_1)
+
+	var_28_0.mangaPicIDList = var_28_1
+
+	pg.m02:sendNotification(GAME.UPDATE_LOADING_PIC, var_28_0)
 end
 
 return var_0_0

@@ -94,7 +94,7 @@ function var_0_0.PlayMemory(arg_9_0, arg_9_1)
 		end
 
 		setActive(arg_9_0.memoryMask, true)
-		pg.NewStoryMgr.GetInstance():Play(arg_9_1.story, function()
+		pg.NewStoryMgr.GetInstance():ReViewPlay(arg_9_1.story, function()
 			setActive(arg_9_0.memoryMask, false)
 		end, true)
 	elseif arg_9_1.type == 2 then

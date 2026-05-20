@@ -6,7 +6,9 @@ return {
 			SCENE.SUMMARY
 		},
 		isShow = function()
-			return
+			local var_1_0 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SUMMARY)
+
+			return var_1_0 and not var_1_0:isEnd()
 		end
 	},
 	{

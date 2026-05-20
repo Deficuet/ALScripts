@@ -239427,6 +239427,1054 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[401141] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Z14",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 401140,
+		english_name = "KMS Friedrich Ihn",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 401141,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			328,
+			16,
+			84,
+			34,
+			0,
+			77,
+			0,
+			68,
+			59,
+			43.2,
+			36,
+			50
+		},
+		attrs_growth = {
+			9205,
+			219,
+			1031,
+			741,
+			0,
+			534,
+			0,
+			1050,
+			1090,
+			0,
+			0,
+			568
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.2,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class"
+		},
+		gift_dislike = {
+			180004,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[401142] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Z14",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 401140,
+		english_name = "KMS Friedrich Ihn",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 401142,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			408,
+			20,
+			105,
+			42,
+			0,
+			77,
+			0,
+			68,
+			59,
+			43.2,
+			36,
+			62
+		},
+		attrs_growth = {
+			9205,
+			219,
+			1031,
+			741,
+			0,
+			534,
+			0,
+			1050,
+			1090,
+			0,
+			0,
+			568
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.25,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class"
+		},
+		gift_dislike = {
+			180004,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[401143] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Z14",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 401140,
+		english_name = "KMS Friedrich Ihn",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 401143,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			568,
+			28,
+			147,
+			59,
+			0,
+			77,
+			0,
+			68,
+			59,
+			43.2,
+			36,
+			87
+		},
+		attrs_growth = {
+			9205,
+			219,
+			1031,
+			741,
+			0,
+			534,
+			0,
+			1050,
+			1090,
+			0,
+			0,
+			568
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class"
+		},
+		gift_dislike = {
+			180004,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[401144] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Z14",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 401140,
+		english_name = "KMS Friedrich Ihn",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 401144,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			808,
+			39,
+			209,
+			84,
+			0,
+			77,
+			0,
+			68,
+			59,
+			43.2,
+			36,
+			124
+		},
+		attrs_growth = {
+			9205,
+			219,
+			1031,
+			741,
+			0,
+			534,
+			0,
+			1050,
+			1090,
+			0,
+			0,
+			568
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.4,
+			0.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class"
+		},
+		gift_dislike = {
+			180004,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[401151] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Z15",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 401150,
+		english_name = "KMS Erich Steinbrinck",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 401151,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			335,
+			15,
+			87,
+			33,
+			0,
+			78,
+			0,
+			69,
+			59,
+			43.2,
+			60,
+			50
+		},
+		attrs_growth = {
+			9416,
+			210,
+			1050,
+			730,
+			0,
+			541,
+			0,
+			1062,
+			1090,
+			0,
+			0,
+			568
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.2,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180002
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[401152] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Z15",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 401150,
+		english_name = "KMS Erich Steinbrinck",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 401152,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			417,
+			19,
+			108,
+			41,
+			0,
+			78,
+			0,
+			69,
+			59,
+			43.2,
+			60,
+			62
+		},
+		attrs_growth = {
+			9416,
+			210,
+			1050,
+			730,
+			0,
+			541,
+			0,
+			1062,
+			1090,
+			0,
+			0,
+			568
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.25,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180002
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[401153] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Z15",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 401150,
+		english_name = "KMS Erich Steinbrinck",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 401153,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			580,
+			26,
+			151,
+			58,
+			0,
+			78,
+			0,
+			69,
+			59,
+			43.2,
+			60,
+			87
+		},
+		attrs_growth = {
+			9416,
+			210,
+			1050,
+			730,
+			0,
+			541,
+			0,
+			1062,
+			1090,
+			0,
+			0,
+			568
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180002
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[401154] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Z15",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 401150,
+		english_name = "KMS Erich Steinbrinck",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 401154,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			826,
+			38,
+			216,
+			82,
+			0,
+			78,
+			0,
+			69,
+			59,
+			43.2,
+			60,
+			124
+		},
+		attrs_growth = {
+			9416,
+			210,
+			1050,
+			730,
+			0,
+			541,
+			0,
+			1062,
+			1090,
+			0,
+			0,
+			568
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.4,
+			0.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180002
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[401161] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -261909,6 +262957,673 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[403171] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "莫里茨亲王",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 403170,
+		english_name = "KMS Prinz Moritz",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 403171,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1024,
+			58,
+			50,
+			47,
+			0,
+			67,
+			0,
+			46,
+			11,
+			26.4,
+			52,
+			0
+		},
+		attrs_growth = {
+			26035,
+			769,
+			680,
+			1027,
+			0,
+			467,
+			0,
+			683,
+			432,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			331
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.35,
+			1,
+			0.4
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"P4"
+		},
+		gift_dislike = {
+			180007,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[403172] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "莫里茨亲王",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 403170,
+		english_name = "KMS Prinz Moritz",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 403172,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1274,
+			72,
+			62,
+			59,
+			0,
+			67,
+			0,
+			46,
+			11,
+			26.4,
+			52,
+			0
+		},
+		attrs_growth = {
+			26035,
+			769,
+			680,
+			1027,
+			0,
+			467,
+			0,
+			683,
+			432,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			180025
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.35,
+			1,
+			0.4
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"P4"
+		},
+		gift_dislike = {
+			180007,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[403173] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "莫里茨亲王",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 403170,
+		english_name = "KMS Prinz Moritz",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 403173,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1774,
+			101,
+			87,
+			82,
+			0,
+			67,
+			0,
+			46,
+			11,
+			26.4,
+			52,
+			0
+		},
+		attrs_growth = {
+			26035,
+			769,
+			680,
+			1027,
+			0,
+			467,
+			0,
+			683,
+			432,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			180025
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.35,
+			1,
+			0.4
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"P4"
+		},
+		gift_dislike = {
+			180007,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[403174] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "莫里茨亲王",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 403170,
+		english_name = "KMS Prinz Moritz",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 403174,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2523,
+			144,
+			124,
+			116,
+			0,
+			67,
+			0,
+			46,
+			11,
+			26.4,
+			52,
+			0
+		},
+		attrs_growth = {
+			26035,
+			769,
+			680,
+			1027,
+			0,
+			467,
+			0,
+			683,
+			432,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			180025
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1.35,
+			1,
+			0.4
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"P4"
+		},
+		gift_dislike = {
+			180007,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[403994] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "希佩尔海军上将.改",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 403010,
+		english_name = "KMS Admiral Hipper",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 403994,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2153,
+			115,
+			87,
+			87,
+			0,
+			65,
+			0,
+			44,
+			9,
+			25.6,
+			66,
+			0
+		},
+		attrs_growth = {
+			21310,
+			640,
+			487,
+			772,
+			0,
+			450,
+			0,
+			648,
+			415,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			334
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.6,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Admiral Hipper-Class",
+			"Admiral Hipper",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180009,
+			180006
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[404011] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -268732,6 +270447,534 @@ end)()
 		gift_dislike = {
 			180004,
 			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[405071] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "葛兹·冯·伯利欣根",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 405070,
+		english_name = "KMS Götz von Berlichingen",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 405071,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1573,
+			91,
+			0,
+			47,
+			0,
+			65,
+			0,
+			23,
+			8,
+			30,
+			50,
+			0
+		},
+		attrs_growth = {
+			44802,
+			1087,
+			0,
+			1024,
+			0,
+			454,
+			0,
+			354,
+			251,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			2.1,
+			0.9
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"H39",
+			"Berlichingen"
+		},
+		gift_dislike = {
+			180009,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[405072] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "葛兹·冯·伯利欣根",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 405070,
+		english_name = "KMS Götz von Berlichingen",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 405072,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1957,
+			113,
+			0,
+			59,
+			0,
+			65,
+			0,
+			23,
+			8,
+			30,
+			50,
+			0
+		},
+		attrs_growth = {
+			44802,
+			1087,
+			0,
+			1024,
+			0,
+			454,
+			0,
+			354,
+			251,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			2.1,
+			0.9
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"H39",
+			"Berlichingen"
+		},
+		gift_dislike = {
+			180009,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[405073] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "葛兹·冯·伯利欣根",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 405070,
+		english_name = "KMS Götz von Berlichingen",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 405073,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2724,
+			158,
+			0,
+			82,
+			0,
+			65,
+			0,
+			23,
+			8,
+			30,
+			50,
+			0
+		},
+		attrs_growth = {
+			44802,
+			1087,
+			0,
+			1024,
+			0,
+			454,
+			0,
+			354,
+			251,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			2.1,
+			0.9
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"H39",
+			"Berlichingen"
+		},
+		gift_dislike = {
+			180009,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[405074] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "葛兹·冯·伯利欣根",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 405070,
+		english_name = "KMS Götz von Berlichingen",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 405074,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			3874,
+			226,
+			0,
+			116,
+			0,
+			65,
+			0,
+			23,
+			8,
+			30,
+			50,
+			0
+		},
+		attrs_growth = {
+			44802,
+			1087,
+			0,
+			1024,
+			0,
+			454,
+			0,
+			354,
+			251,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.6,
+			2.1,
+			0.9
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"H39",
+			"Berlichingen"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -286784,6 +289027,1018 @@ end)()
 		gift_dislike = {
 			180007,
 			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[408151] = {
+		raid_distance = 30,
+		oxy_max = 308,
+		name = "U-2501",
+		type = 8,
+		oxy_cost = 10,
+		skin_id = 408150,
+		english_name = "KMS U-2501",
+		oxy_recovery_surface = 0,
+		attack_duration = 1,
+		star = 3,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 1,
+		id = 408151,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			318,
+			0,
+			110,
+			0,
+			0,
+			43,
+			0,
+			71,
+			7,
+			18,
+			60,
+			0
+		},
+		attrs_growth = {
+			9057,
+			0,
+			1322,
+			0,
+			0,
+			300,
+			0,
+			1047,
+			239,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.2,
+			0.85
+		},
+		strategy_list = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					1,
+					0
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					3,
+					-2
+				},
+				{
+					3,
+					0
+				},
+				{
+					3,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					3
+				},
+				{
+					-1,
+					-3
+				}
+			}
+		},
+		tag_list = {
+			"U-boat",
+			"U-2501"
+		},
+		gift_dislike = {
+			180002,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[408152] = {
+		raid_distance = 30,
+		oxy_max = 308,
+		name = "U-2501",
+		type = 8,
+		oxy_cost = 10,
+		skin_id = 408150,
+		english_name = "KMS U-2501",
+		oxy_recovery_surface = 0,
+		attack_duration = 1,
+		star = 4,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 1,
+		id = 408152,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			396,
+			0,
+			137,
+			0,
+			0,
+			43,
+			0,
+			71,
+			7,
+			18,
+			60,
+			0
+		},
+		attrs_growth = {
+			9057,
+			0,
+			1322,
+			0,
+			0,
+			300,
+			0,
+			1047,
+			239,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.25,
+			0.85
+		},
+		strategy_list = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					1,
+					0
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					3,
+					-2
+				},
+				{
+					3,
+					0
+				},
+				{
+					3,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					3
+				},
+				{
+					-1,
+					-3
+				}
+			}
+		},
+		tag_list = {
+			"U-boat",
+			"U-2501"
+		},
+		gift_dislike = {
+			180002,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[408153] = {
+		raid_distance = 30,
+		oxy_max = 308,
+		name = "U-2501",
+		type = 8,
+		oxy_cost = 10,
+		skin_id = 408150,
+		english_name = "KMS U-2501",
+		oxy_recovery_surface = 0,
+		attack_duration = 1,
+		star = 5,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 2,
+		id = 408153,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			551,
+			0,
+			192,
+			0,
+			0,
+			43,
+			0,
+			71,
+			7,
+			18,
+			60,
+			0
+		},
+		attrs_growth = {
+			9057,
+			0,
+			1322,
+			0,
+			0,
+			300,
+			0,
+			1047,
+			239,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.25,
+			0.85
+		},
+		strategy_list = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					1,
+					0
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					3,
+					-2
+				},
+				{
+					3,
+					0
+				},
+				{
+					3,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					3
+				},
+				{
+					-1,
+					-3
+				}
+			}
+		},
+		tag_list = {
+			"U-boat",
+			"U-2501"
+		},
+		gift_dislike = {
+			180002,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[408154] = {
+		raid_distance = 30,
+		oxy_max = 308,
+		name = "U-2501",
+		type = 8,
+		oxy_cost = 10,
+		skin_id = 408150,
+		english_name = "KMS U-2501",
+		oxy_recovery_surface = 0,
+		attack_duration = 1,
+		star = 6,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 2,
+		id = 408154,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			783,
+			0,
+			274,
+			0,
+			0,
+			43,
+			0,
+			71,
+			7,
+			18,
+			60,
+			0
+		},
+		attrs_growth = {
+			9057,
+			0,
+			1322,
+			0,
+			0,
+			300,
+			0,
+			1047,
+			239,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.35,
+			0.85
+		},
+		strategy_list = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					1,
+					0
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					3,
+					-2
+				},
+				{
+					3,
+					0
+				},
+				{
+					3,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					3
+				},
+				{
+					-1,
+					-3
+				}
+			}
+		},
+		tag_list = {
+			"U-boat",
+			"U-2501"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -421772,6 +425027,138 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[900539] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "克莱蒙梭（前排）",
+		type = 18,
+		oxy_cost = 0,
+		skin_id = 905020,
+		english_name = "MNF Clemenceau",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 18,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 900539,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			3333,
+			214,
+			0,
+			141,
+			0,
+			62,
+			0,
+			24,
+			9,
+			32,
+			10,
+			0
+		},
+		attrs_growth = {
+			36606,
+			1048,
+			0,
+			1226,
+			0,
+			431,
+			0,
+			350,
+			263,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			33133,
+			22293,
+			90633
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			1,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.6,
+			2,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Richelieu-Class",
+			"PRE"
+		},
+		gift_dislike = {
+			180009,
+			180005
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[900801] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -454942,7 +458329,8 @@ end)()
 		},
 		tag_list = {
 			"Admiral Hipper.META",
-			"Admiral Hipper"
+			"Admiral Hipper",
+			"Hipper Sister"
 		},
 		gift_dislike = {
 			180002,
@@ -455076,7 +458464,8 @@ end)()
 		},
 		tag_list = {
 			"Admiral Hipper.META",
-			"Admiral Hipper"
+			"Admiral Hipper",
+			"Hipper Sister"
 		},
 		gift_dislike = {
 			180002,
@@ -455210,7 +458599,8 @@ end)()
 		},
 		tag_list = {
 			"Admiral Hipper.META",
-			"Admiral Hipper"
+			"Admiral Hipper",
+			"Hipper Sister"
 		},
 		gift_dislike = {
 			180002,
@@ -455344,7 +458734,8 @@ end)()
 		},
 		tag_list = {
 			"Admiral Hipper.META",
-			"Admiral Hipper"
+			"Admiral Hipper",
+			"Hipper Sister"
 		},
 		gift_dislike = {
 			180002,
@@ -466372,6 +469763,522 @@ end)()
 		gift_dislike = {
 			180009,
 			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9706051] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "易北·META",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 9706050,
+		english_name = "Elbe.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9706051,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			854,
+			0,
+			0,
+			52,
+			64,
+			71,
+			0,
+			21,
+			13,
+			21,
+			30,
+			18
+		},
+		attrs_growth = {
+			16275,
+			0,
+			0,
+			694,
+			836,
+			491,
+			0,
+			315,
+			287,
+			0,
+			0,
+			255
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			121,
+			123,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			1.25,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"ElbeMETA"
+		},
+		gift_dislike = {
+			180005,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9706052] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "易北·META",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 9706050,
+		english_name = "Elbe.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9706052,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1062,
+			0,
+			0,
+			65,
+			80,
+			71,
+			0,
+			21,
+			13,
+			21,
+			30,
+			22
+		},
+		attrs_growth = {
+			16275,
+			0,
+			0,
+			694,
+			836,
+			491,
+			0,
+			315,
+			287,
+			0,
+			0,
+			255
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			121,
+			123,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1.25,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"ElbeMETA"
+		},
+		gift_dislike = {
+			180005,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9706053] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "易北·META",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 9706050,
+		english_name = "Elbe.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9706053,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1479,
+			0,
+			0,
+			90,
+			112,
+			71,
+			0,
+			21,
+			13,
+			21,
+			30,
+			31
+		},
+		attrs_growth = {
+			16275,
+			0,
+			0,
+			694,
+			836,
+			491,
+			0,
+			315,
+			287,
+			0,
+			0,
+			255
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			121,
+			123,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.65,
+			1.25,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"ElbeMETA"
+		},
+		gift_dislike = {
+			180005,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9706054] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "易北·META",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 9706050,
+		english_name = "Elbe.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9706054,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2104,
+			0,
+			0,
+			129,
+			159,
+			71,
+			0,
+			21,
+			13,
+			21,
+			30,
+			44
+		},
+		attrs_growth = {
+			16275,
+			0,
+			0,
+			694,
+			836,
+			491,
+			0,
+			315,
+			287,
+			0,
+			0,
+			255
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			121,
+			123,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.65,
+			1.35,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"ElbeMETA"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()

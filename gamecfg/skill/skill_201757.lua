@@ -1,0 +1,73 @@
+return {
+	effect_list = {},
+	{
+		effect_list = {}
+	},
+	{
+		effect_list = {
+			{
+				target_choise = "TargetNil",
+				type = "BattleSkillSummon",
+				arg_list = {
+					delay = 1,
+					spawnData = {
+						monsterTemplateID = 16856013,
+						buffList = {},
+						corrdinate = {
+							-60,
+							0,
+							50
+						}
+					}
+				}
+			}
+		}
+	},
+	{
+		effect_list = {}
+	},
+	{
+		effect_list = {
+			{
+				target_choise = "TargetNil",
+				type = "BattleSkillSummon",
+				arg_list = {
+					delay = 1,
+					spawnData = {
+						monsterTemplateID = 16856033,
+						buffList = {},
+						corrdinate = {
+							-60,
+							0,
+							50
+						}
+					}
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				target_choise = "TargetNil",
+				type = "BattleSkillSummon",
+				arg_list = {
+					delay = 1,
+					spawnData = {
+						monsterTemplateID = 16856043,
+						buffList = {},
+						corrdinate = {
+							-60,
+							0,
+							50
+						}
+					}
+				}
+			}
+		}
+	},
+	id = 201757,
+	name = "2026伯利欣根活动 黑日凌空 召唤支援单位",
+	cd = 0,
+	painting = "kelaimengsuo"
+}

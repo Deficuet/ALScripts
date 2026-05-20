@@ -158,372 +158,407 @@ function var_0_0.updateTecItemList(arg_14_0)
 		end
 	end)
 	var_14_0:align(#pg.fleet_tech_group.all)
+	arg_14_0:updateAllTecItemRp()
 end
 
-function var_0_0.updateTecItem(arg_16_0, arg_16_1)
-	local var_16_0 = arg_16_0.panelList[arg_16_1]
-	local var_16_1 = var_16_0:Find("AwardPanel")
+function var_0_0.updateAllTecItemRp(arg_16_0)
+	local var_16_0 = not getProxy(TechnologyNationProxy):getAnyTecCampStudying()
 
-	arg_16_0:updateTecLevelAward(var_16_1, arg_16_1)
+	for iter_16_0, iter_16_1 in pairs(arg_16_0.panelList) do
+		local var_16_1 = iter_16_1:Find("BaseInfo"):Find("UpLevelBG"):Find("UpLevelBtn"):Find("RedPoint")
+		local var_16_2 = pg.fleet_tech_group[iter_16_0].nation[1]
+		local var_16_3
+		local var_16_4
+		local var_16_5 = not arg_16_0.tecList[iter_16_0] and 0 or table.indexof(pg.fleet_tech_group[iter_16_0].techs, arg_16_0.tecList[iter_16_0].completeID, 1) or 0
+		local var_16_6 = arg_16_0.nationToPoint[var_16_2]
+		local var_16_7
 
-	local var_16_2 = var_16_0:Find("BaseInfo")
-	local var_16_3 = var_16_2:Find("BG/Title/Text")
-	local var_16_4 = var_16_2:Find("BG/UpLevelColor")
-	local var_16_5 = var_16_2:Find("NationBG")
-	local var_16_6 = var_16_2:Find("Code")
-	local var_16_7 = var_16_6:Find("NationTextImg")
-	local var_16_8 = var_16_2:Find("UpLevelBG")
-	local var_16_9 = var_16_8:Find("UpLevelBtn")
-	local var_16_10 = var_16_8:Find("FinishBtn")
-	local var_16_11 = var_16_2:Find("Uping")
-	local var_16_12 = var_16_11:Find("Text")
-	local var_16_13 = var_16_2:Find("EnglishTextImg")
-	local var_16_14 = var_16_2:Find("ProgressBarBG/Progress")
-	local var_16_15 = var_16_2:Find("CampLogo")
-	local var_16_16 = var_16_2:Find("LevelText/Text")
-	local var_16_17 = var_16_2:Find("PointTextBar")
-	local var_16_18 = pg.fleet_tech_group[arg_16_1].name
-	local var_16_19 = pg.fleet_tech_group[arg_16_1].nation[1]
+		if var_16_5 == 0 then
+			local var_16_8 = pg.fleet_tech_group[iter_16_0].techs[1]
 
-	setImageSprite(var_16_5, GetSpriteFromAtlas("TecNation", "camptec_nation_bar_" .. var_16_19))
-	setImageSprite(var_16_7, GetSpriteFromAtlas("TecNation", "camptec_nation_text_" .. var_16_19), true)
-	setImageSprite(var_16_13, GetSpriteFromAtlas("TecNation", "camp_tec_english_" .. var_16_19), true)
-	setImageSprite(var_16_15, GetSpriteFromAtlas("TecNation", "camptec_logo_" .. var_16_19))
-	setText(var_16_3, var_16_18)
+			var_16_7 = pg.fleet_tech_template[var_16_8].pt
+		elseif var_16_5 == #pg.fleet_tech_group[iter_16_0].techs then
+			local var_16_9 = pg.fleet_tech_group[iter_16_0].techs[var_16_5]
 
-	local var_16_20
-	local var_16_21
-	local var_16_22 = not arg_16_0.tecList[arg_16_1] and 0 or table.indexof(pg.fleet_tech_group[arg_16_1].techs, arg_16_0.tecList[arg_16_1].completeID, 1) or 0
-	local var_16_23 = arg_16_0.nationToPoint[var_16_19]
-	local var_16_24
-
-	if var_16_22 == 0 then
-		var_16_21 = pg.fleet_tech_group[arg_16_1].techs[1]
-		var_16_24 = pg.fleet_tech_template[var_16_21].pt
-	elseif var_16_22 == #pg.fleet_tech_group[arg_16_1].techs then
-		var_16_21 = pg.fleet_tech_group[arg_16_1].techs[var_16_22]
-		var_16_24 = pg.fleet_tech_template[var_16_21].pt
-	else
-		var_16_21 = pg.fleet_tech_group[arg_16_1].techs[var_16_22 + 1]
-		var_16_24 = pg.fleet_tech_template[var_16_21].pt
-	end
-
-	BaseUI:setImageAmount(var_16_14, 0.1 + 0.8 * var_16_23 / var_16_24)
-	setText(var_16_16, var_16_22)
-	setText(var_16_17, var_16_23 .. "/" .. var_16_24)
-
-	local function var_16_25(arg_17_0, arg_17_1, arg_17_2)
-		setActive(var_16_6, arg_17_0)
-		setActive(var_16_8, arg_17_1)
-		setActive(var_16_4, arg_17_1)
-		setActive(var_16_9, arg_17_1)
-		setActive(var_16_11, arg_17_2)
-	end
-
-	if not arg_16_0.tecList[arg_16_1] then
-		if var_16_24 <= var_16_23 then
-			var_16_25(false, true, false)
+			var_16_7 = pg.fleet_tech_template[var_16_9].pt
 		else
-			var_16_25(true, false, false)
-		end
-	elseif var_16_22 == #pg.fleet_tech_group[arg_16_1].techs then
-		var_16_25(true, false, false)
-	elseif arg_16_0.tecList[arg_16_1].studyID ~= 0 then
-		var_16_25(false, false, true)
+			local var_16_10 = pg.fleet_tech_group[iter_16_0].techs[var_16_5 + 1]
 
-		if arg_16_0.timerList[arg_16_1] then
-			arg_16_0.timerList[arg_16_1]:Stop()
+			var_16_7 = pg.fleet_tech_template[var_16_10].pt
 		end
 
-		local var_16_26 = arg_16_0.nationProxy:getLeftTime()
+		local var_16_11 = var_16_7 <= var_16_6
+		local var_16_12 = var_16_5 == #pg.fleet_tech_group[iter_16_0].techs
+		local var_16_13 = var_16_11 and not var_16_12
 
-		setText(var_16_12, pg.TimeMgr.GetInstance():DescCDTime(var_16_26))
+		setActive(var_16_1, var_16_13 and var_16_0)
+	end
+end
 
-		arg_16_0.timerList[arg_16_1] = Timer.New(function()
-			var_16_26 = var_16_26 - 1
+function var_0_0.updateTecItem(arg_17_0, arg_17_1)
+	local var_17_0 = arg_17_0.panelList[arg_17_1]
+	local var_17_1 = var_17_0:Find("AwardPanel")
 
-			setText(var_16_12, pg.TimeMgr.GetInstance():DescCDTime(var_16_26))
+	arg_17_0:updateTecLevelAward(var_17_1, arg_17_1)
 
-			if var_16_26 == 0 then
-				arg_16_0.timerList[arg_16_1]:Stop()
+	local var_17_2 = var_17_0:Find("BaseInfo")
+	local var_17_3 = var_17_2:Find("BG/Title/Text")
+	local var_17_4 = var_17_2:Find("BG/UpLevelColor")
+	local var_17_5 = var_17_2:Find("NationBG")
+	local var_17_6 = var_17_2:Find("Code")
+	local var_17_7 = var_17_6:Find("NationTextImg")
+	local var_17_8 = var_17_2:Find("UpLevelBG")
+	local var_17_9 = var_17_8:Find("UpLevelBtn")
+	local var_17_10 = var_17_8:Find("FinishBtn")
+	local var_17_11 = var_17_2:Find("Uping")
+	local var_17_12 = var_17_11:Find("Text")
+	local var_17_13 = var_17_2:Find("EnglishTextImg")
+	local var_17_14 = var_17_2:Find("ProgressBarBG/Progress")
+	local var_17_15 = var_17_2:Find("CampLogo")
+	local var_17_16 = var_17_2:Find("LevelText/Text")
+	local var_17_17 = var_17_2:Find("PointTextBar")
+	local var_17_18 = pg.fleet_tech_group[arg_17_1].name
+	local var_17_19 = pg.fleet_tech_group[arg_17_1].nation[1]
+
+	setImageSprite(var_17_5, GetSpriteFromAtlas("TecNation", "camptec_nation_bar_" .. var_17_19))
+	setImageSprite(var_17_7, GetSpriteFromAtlas("TecNation", "camptec_nation_text_" .. var_17_19), true)
+	setImageSprite(var_17_13, GetSpriteFromAtlas("TecNation", "camp_tec_english_" .. var_17_19), true)
+	setImageSprite(var_17_15, GetSpriteFromAtlas("TecNation", "camptec_logo_" .. var_17_19))
+	setText(var_17_3, var_17_18)
+
+	local var_17_20
+	local var_17_21
+	local var_17_22 = not arg_17_0.tecList[arg_17_1] and 0 or table.indexof(pg.fleet_tech_group[arg_17_1].techs, arg_17_0.tecList[arg_17_1].completeID, 1) or 0
+	local var_17_23 = arg_17_0.nationToPoint[var_17_19]
+	local var_17_24
+
+	if var_17_22 == 0 then
+		var_17_21 = pg.fleet_tech_group[arg_17_1].techs[1]
+		var_17_24 = pg.fleet_tech_template[var_17_21].pt
+	elseif var_17_22 == #pg.fleet_tech_group[arg_17_1].techs then
+		var_17_21 = pg.fleet_tech_group[arg_17_1].techs[var_17_22]
+		var_17_24 = pg.fleet_tech_template[var_17_21].pt
+	else
+		var_17_21 = pg.fleet_tech_group[arg_17_1].techs[var_17_22 + 1]
+		var_17_24 = pg.fleet_tech_template[var_17_21].pt
+	end
+
+	BaseUI:setImageAmount(var_17_14, 0.1 + 0.8 * var_17_23 / var_17_24)
+	setText(var_17_16, var_17_22)
+	setText(var_17_17, var_17_23 .. "/" .. var_17_24)
+
+	local function var_17_25(arg_18_0, arg_18_1, arg_18_2)
+		setActive(var_17_6, arg_18_0)
+		setActive(var_17_8, arg_18_1)
+		setActive(var_17_4, arg_18_1)
+		setActive(var_17_9, arg_18_1)
+		setActive(var_17_11, arg_18_2)
+	end
+
+	if not arg_17_0.tecList[arg_17_1] then
+		if var_17_24 <= var_17_23 then
+			var_17_25(false, true, false)
+		else
+			var_17_25(true, false, false)
+		end
+	elseif var_17_22 == #pg.fleet_tech_group[arg_17_1].techs then
+		var_17_25(true, false, false)
+	elseif arg_17_0.tecList[arg_17_1].studyID ~= 0 then
+		var_17_25(false, false, true)
+
+		if arg_17_0.timerList[arg_17_1] then
+			arg_17_0.timerList[arg_17_1]:Stop()
+		end
+
+		local var_17_26 = arg_17_0.nationProxy:getLeftTime()
+
+		setText(var_17_12, pg.TimeMgr.GetInstance():DescCDTime(var_17_26))
+
+		arg_17_0.timerList[arg_17_1] = Timer.New(function()
+			var_17_26 = var_17_26 - 1
+
+			setText(var_17_12, pg.TimeMgr.GetInstance():DescCDTime(var_17_26))
+
+			if var_17_26 == 0 then
+				arg_17_0.timerList[arg_17_1]:Stop()
 			end
 		end, 1, -1)
 
-		arg_16_0.timerList[arg_16_1]:Start()
-	elseif var_16_24 <= var_16_23 then
-		var_16_25(false, true, false)
+		arg_17_0.timerList[arg_17_1]:Start()
+	elseif var_17_24 <= var_17_23 then
+		var_17_25(false, true, false)
 	else
-		var_16_25(true, false, false)
+		var_17_25(true, false, false)
 	end
 
-	onButton(arg_16_0, var_16_9, function()
-		arg_16_0:emit(TechnologyConst.CLICK_UP_TEC_BTN, arg_16_1, var_16_21)
+	onButton(arg_17_0, var_17_9, function()
+		arg_17_0:emit(TechnologyConst.CLICK_UP_TEC_BTN, arg_17_1, var_17_21)
 	end, SFX_PANEL)
 
-	local var_16_27 = var_16_0:Find("Mask/DetailPanel")
-	local var_16_28 = GetComponent(var_16_0, "LayoutElement")
-	local var_16_29 = var_16_27:Find("Toggle")
+	local var_17_27 = var_17_0:Find("Mask/DetailPanel")
+	local var_17_28 = GetComponent(var_17_0, "LayoutElement")
+	local var_17_29 = var_17_27:Find("Toggle")
 
-	arg_16_0:updateDetailPanel(var_16_27, var_16_22, arg_16_1, var_16_19, false)
-	onToggle(arg_16_0, var_16_2:Find("BG"), function(arg_20_0)
-		if arg_20_0 then
-			triggerToggle(var_16_29, false)
-			LeanTween.value(go(var_16_0), arg_16_0.tecItemTplOriginWidth, arg_16_0.tecItemTplOriginWidth + var_16_27.rect.width, 0.25):setOnUpdate(System.Action_float(function(arg_21_0)
-				var_16_28.preferredWidth = arg_21_0
+	arg_17_0:updateDetailPanel(var_17_27, var_17_22, arg_17_1, var_17_19, false)
+	onToggle(arg_17_0, var_17_2:Find("BG"), function(arg_21_0)
+		if arg_21_0 then
+			triggerToggle(var_17_29, false)
+			LeanTween.value(go(var_17_0), arg_17_0.tecItemTplOriginWidth, arg_17_0.tecItemTplOriginWidth + var_17_27.rect.width, 0.25):setOnUpdate(System.Action_float(function(arg_22_0)
+				var_17_28.preferredWidth = arg_22_0
 
-				if arg_16_1 == #pg.fleet_tech_group.all then
-					arg_16_0.scrollRectCom.horizontalNormalizedPosition = 1
+				if arg_17_1 == #pg.fleet_tech_group.all then
+					arg_17_0.scrollRectCom.horizontalNormalizedPosition = 1
 				end
 			end)):setOnComplete(System.Action(function()
-				if arg_16_1 == #pg.fleet_tech_group.all then
-					arg_16_0.scrollRectCom.horizontalNormalizedPosition = 1
+				if arg_17_1 == #pg.fleet_tech_group.all then
+					arg_17_0.scrollRectCom.horizontalNormalizedPosition = 1
 				end
 			end))
 		else
-			LeanTween.cancel(go(var_16_0))
+			LeanTween.cancel(go(var_17_0))
 
-			local var_20_0 = var_16_28.preferredWidth
+			local var_21_0 = var_17_28.preferredWidth
 
-			LeanTween.value(go(var_16_0), var_20_0, arg_16_0.tecItemTplOriginWidth, 0.25):setOnUpdate(System.Action_float(function(arg_23_0)
-				var_16_28.preferredWidth = arg_23_0
+			LeanTween.value(go(var_17_0), var_21_0, arg_17_0.tecItemTplOriginWidth, 0.25):setOnUpdate(System.Action_float(function(arg_24_0)
+				var_17_28.preferredWidth = arg_24_0
 			end))
 		end
 	end)
 end
 
-function var_0_0.updateDetailPanel(arg_24_0, arg_24_1, arg_24_2, arg_24_3, arg_24_4, arg_24_5)
-	local var_24_0 = arg_24_1:Find("TypeItemContainer")
-	local var_24_1 = arg_24_1:Find("BG/Logo")
+function var_0_0.updateDetailPanel(arg_25_0, arg_25_1, arg_25_2, arg_25_3, arg_25_4, arg_25_5)
+	local var_25_0 = arg_25_1:Find("TypeItemContainer")
+	local var_25_1 = arg_25_1:Find("BG/Logo")
 
-	setImageSprite(var_24_1, GetSpriteFromAtlas("TecNation", "camptec_logo_" .. arg_24_4))
+	setImageSprite(var_25_1, GetSpriteFromAtlas("TecNation", "camptec_logo_" .. arg_25_4))
 
-	local var_24_2 = arg_24_1:Find("Toggle")
+	local var_25_2 = arg_25_1:Find("Toggle")
 
-	if arg_24_2 == #pg.fleet_tech_group[arg_24_3].techs and arg_24_5 == false then
-		setActive(var_24_2, false)
+	if arg_25_2 == #pg.fleet_tech_group[arg_25_3].techs and arg_25_5 == false then
+		setActive(var_25_2, false)
 	end
 
-	local function var_24_3(arg_25_0, arg_25_1, arg_25_2)
-		local var_25_0 = UIItemList.New(var_24_0, arg_24_0.typeItemTpl)
-		local var_25_1
+	local function var_25_3(arg_26_0, arg_26_1, arg_26_2)
+		local var_26_0 = UIItemList.New(var_25_0, arg_25_0.typeItemTpl)
+		local var_26_1
 
-		if arg_25_0 == 0 then
-			var_25_0:align(0)
+		if arg_26_0 == 0 then
+			var_26_0:align(0)
 
 			return
 		else
-			var_25_1 = pg.fleet_tech_group[arg_25_1].techs[arg_25_0]
+			var_26_1 = pg.fleet_tech_group[arg_26_1].techs[arg_26_0]
 		end
 
-		local var_25_2
-		local var_25_3
-		local var_25_4
-		local var_25_5 = Color.New(1, 0.9333333333333333, 0.19215686274509805)
+		local var_26_2
+		local var_26_3
+		local var_26_4
+		local var_26_5 = Color.New(1, 0.9333333333333333, 0.19215686274509805)
 
-		if arg_25_2 then
-			var_25_2, var_25_3, var_25_4 = arg_24_0:calculateCurBuff(arg_25_0 - 1, arg_25_1)
+		if arg_26_2 then
+			var_26_2, var_26_3, var_26_4 = arg_25_0:calculateCurBuff(arg_26_0 - 1, arg_26_1)
 		end
 
-		local var_25_6 = pg.fleet_tech_template[var_25_1].add
-		local var_25_7 = {}
-		local var_25_8 = {}
+		local var_26_6 = pg.fleet_tech_template[var_26_1].add
+		local var_26_7 = {}
+		local var_26_8 = {}
 
-		for iter_25_0, iter_25_1 in ipairs(var_25_6) do
-			local var_25_9 = iter_25_1[2]
-			local var_25_10 = iter_25_1[3]
-			local var_25_11 = ShipType.FilterOverQuZhuType(iter_25_1[1])
+		for iter_26_0, iter_26_1 in ipairs(var_26_6) do
+			local var_26_9 = iter_26_1[2]
+			local var_26_10 = iter_26_1[3]
+			local var_26_11 = ShipType.FilterOverQuZhuType(iter_26_1[1])
 
-			for iter_25_2, iter_25_3 in ipairs(var_25_11) do
-				local var_25_12
+			for iter_26_2, iter_26_3 in ipairs(var_26_11) do
+				local var_26_12
 
-				if arg_25_2 then
-					if not table.indexof(var_25_2, iter_25_3, 1) then
-						var_25_12 = {
-							attr = var_25_9,
-							value = var_25_10,
-							attrColor = var_25_5,
-							valueColor = var_25_5
+				if arg_26_2 then
+					if not table.indexof(var_26_2, iter_26_3, 1) then
+						var_26_12 = {
+							attr = var_26_9,
+							value = var_26_10,
+							attrColor = var_26_5,
+							valueColor = var_26_5
 						}
-					elseif not table.indexof(var_25_3[iter_25_3], var_25_9, 1) then
-						var_25_12 = {
-							attr = var_25_9,
-							value = var_25_10,
-							attrColor = var_25_5,
-							valueColor = var_25_5
+					elseif not table.indexof(var_26_3[iter_26_3], var_26_9, 1) then
+						var_26_12 = {
+							attr = var_26_9,
+							value = var_26_10,
+							attrColor = var_26_5,
+							valueColor = var_26_5
 						}
-					elseif var_25_10 ~= var_25_4[iter_25_3][var_25_9] then
-						var_25_12 = {
-							attr = var_25_9,
-							value = var_25_10,
-							valueColor = var_25_5
+					elseif var_26_10 ~= var_26_4[iter_26_3][var_26_9] then
+						var_26_12 = {
+							attr = var_26_9,
+							value = var_26_10,
+							valueColor = var_26_5
 						}
 					else
-						var_25_12 = {
-							attr = var_25_9,
-							value = var_25_10
+						var_26_12 = {
+							attr = var_26_9,
+							value = var_26_10
 						}
 					end
 				else
-					var_25_12 = {
-						attr = var_25_9,
-						value = var_25_10
+					var_26_12 = {
+						attr = var_26_9,
+						value = var_26_10
 					}
 				end
 
-				if var_25_7[iter_25_3] then
-					table.insert(var_25_7[iter_25_3], var_25_12)
+				if var_26_7[iter_26_3] then
+					table.insert(var_26_7[iter_26_3], var_26_12)
 				else
-					var_25_7[iter_25_3] = {
-						var_25_12
+					var_26_7[iter_26_3] = {
+						var_26_12
 					}
-					var_25_8[#var_25_8 + 1] = iter_25_3
+					var_26_8[#var_26_8 + 1] = iter_26_3
 				end
 			end
 		end
 
-		var_25_0:make(function(arg_26_0, arg_26_1, arg_26_2)
-			if arg_26_0 == UIItemList.EventUpdate then
-				local var_26_0 = arg_26_2:Find("TypeIcon")
-				local var_26_1 = arg_26_2:Find("BuffItemContainer")
-				local var_26_2 = var_25_8[arg_26_1 + 1]
+		var_26_0:make(function(arg_27_0, arg_27_1, arg_27_2)
+			if arg_27_0 == UIItemList.EventUpdate then
+				local var_27_0 = arg_27_2:Find("TypeIcon")
+				local var_27_1 = arg_27_2:Find("BuffItemContainer")
+				local var_27_2 = var_26_8[arg_27_1 + 1]
 
-				setImageSprite(var_26_0, GetSpriteFromAtlas("ShipType", "buffitem_tec_" .. var_26_2))
-				arg_24_0:upBuffList(arg_26_2, var_25_7[var_26_2])
+				setImageSprite(var_27_0, GetSpriteFromAtlas("ShipType", "buffitem_tec_" .. var_27_2))
+				arg_25_0:upBuffList(arg_27_2, var_26_7[var_27_2])
 			end
 		end)
-		var_25_0:align(#var_25_8)
+		var_26_0:align(#var_26_8)
 	end
 
-	onToggle(arg_24_0, var_24_2, function(arg_27_0)
-		if arg_27_0 == true then
-			var_24_3(arg_24_2 + 1, arg_24_3, true)
+	onToggle(arg_25_0, var_25_2, function(arg_28_0)
+		if arg_28_0 == true then
+			var_25_3(arg_25_2 + 1, arg_25_3, true)
 		else
-			var_24_3(arg_24_2, arg_24_3)
+			var_25_3(arg_25_2, arg_25_3)
 		end
 	end, SFX_PANEL)
 
-	if arg_24_5 == false then
-		triggerToggle(var_24_2, false)
+	if arg_25_5 == false then
+		triggerToggle(var_25_2, false)
 	end
 end
 
-function var_0_0.upBuffList(arg_28_0, arg_28_1, arg_28_2)
-	local var_28_0 = arg_28_1:Find("BuffItemContainer")
-	local var_28_1 = UIItemList.New(var_28_0, arg_28_0.buffItemTpl)
+function var_0_0.upBuffList(arg_29_0, arg_29_1, arg_29_2)
+	local var_29_0 = arg_29_1:Find("BuffItemContainer")
+	local var_29_1 = UIItemList.New(var_29_0, arg_29_0.buffItemTpl)
 
-	var_28_1:make(function(arg_29_0, arg_29_1, arg_29_2)
-		if arg_29_0 == UIItemList.EventUpdate then
-			local var_29_0 = arg_29_2:Find("AttrText")
-			local var_29_1 = arg_29_2:Find("ValueText")
-			local var_29_2 = arg_28_2[arg_29_1 + 1].attr
-			local var_29_3 = arg_28_2[arg_29_1 + 1].value
-			local var_29_4 = arg_28_2[arg_29_1 + 1].attrColor
-			local var_29_5 = arg_28_2[arg_29_1 + 1].valueColor
+	var_29_1:make(function(arg_30_0, arg_30_1, arg_30_2)
+		if arg_30_0 == UIItemList.EventUpdate then
+			local var_30_0 = arg_30_2:Find("AttrText")
+			local var_30_1 = arg_30_2:Find("ValueText")
+			local var_30_2 = arg_29_2[arg_30_1 + 1].attr
+			local var_30_3 = arg_29_2[arg_30_1 + 1].value
+			local var_30_4 = arg_29_2[arg_30_1 + 1].attrColor
+			local var_30_5 = arg_29_2[arg_30_1 + 1].valueColor
 
-			setText(var_29_0, AttributeType.Type2Name(pg.attribute_info_by_type[var_29_2].name))
-			setText(var_29_1, "+" .. var_29_3)
+			setText(var_30_0, AttributeType.Type2Name(pg.attribute_info_by_type[var_30_2].name))
+			setText(var_30_1, "+" .. var_30_3)
 
-			if var_29_4 then
-				setTextColor(var_29_0, var_29_4)
+			if var_30_4 then
+				setTextColor(var_30_0, var_30_4)
 			else
-				setTextColor(var_29_0, Color.white)
+				setTextColor(var_30_0, Color.white)
 			end
 
-			if var_29_5 then
-				setTextColor(var_29_1, var_29_5)
+			if var_30_5 then
+				setTextColor(var_30_1, var_30_5)
 			else
-				setTextColor(var_29_1, Color.green)
+				setTextColor(var_30_1, Color.green)
 			end
 		end
 	end)
-	var_28_1:align(#arg_28_2)
+	var_29_1:align(#arg_29_2)
 end
 
-function var_0_0.updateTecLevelAward(arg_30_0, arg_30_1, arg_30_2)
+function var_0_0.updateTecLevelAward(arg_31_0, arg_31_1, arg_31_2)
 	if LOCK_TEC_NATION_AWARD then
-		setActive(arg_30_1, false)
+		setActive(arg_31_1, false)
 
 		return
 	end
 
-	local var_30_0 = arg_30_0._tf:Find("AwardItem")
-	local var_30_1 = arg_30_1:Find("ItemContainer")
-	local var_30_2 = UIItemList.New(var_30_1, arg_30_0.awardTpl)
-	local var_30_3 = arg_30_1:Find("Level")
-	local var_30_4 = arg_30_1:Find("Level/Num")
-	local var_30_5 = arg_30_1:Find("GetBtn")
-	local var_30_6 = arg_30_1:Find("DisGetBtn")
-	local var_30_7 = arg_30_1:Find("FinishBtn")
-	local var_30_8 = arg_30_0.nationProxy:GetTecItemByGroupID(arg_30_2)
-	local var_30_9 = pg.fleet_tech_group[arg_30_2]
-	local var_30_10 = var_30_8 and var_30_8.rewardedID or 0
-	local var_30_11 = var_30_8 and var_30_8.completeID or 0
-	local var_30_12 = table.indexof(var_30_9.techs, var_30_10, 1) or 0
-	local var_30_13 = table.indexof(var_30_9.techs, var_30_11, 1) or 0
-	local var_30_14 = var_30_12 + 1
-	local var_30_15
+	local var_31_0 = arg_31_0._tf:Find("AwardItem")
+	local var_31_1 = arg_31_1:Find("ItemContainer")
+	local var_31_2 = UIItemList.New(var_31_1, arg_31_0.awardTpl)
+	local var_31_3 = arg_31_1:Find("Level")
+	local var_31_4 = arg_31_1:Find("Level/Num")
+	local var_31_5 = arg_31_1:Find("GetBtn")
+	local var_31_6 = arg_31_1:Find("DisGetBtn")
+	local var_31_7 = arg_31_1:Find("FinishBtn")
+	local var_31_8 = arg_31_0.nationProxy:GetTecItemByGroupID(arg_31_2)
+	local var_31_9 = pg.fleet_tech_group[arg_31_2]
+	local var_31_10 = var_31_8 and var_31_8.rewardedID or 0
+	local var_31_11 = var_31_8 and var_31_8.completeID or 0
+	local var_31_12 = table.indexof(var_31_9.techs, var_31_10, 1) or 0
+	local var_31_13 = table.indexof(var_31_9.techs, var_31_11, 1) or 0
+	local var_31_14 = var_31_12 + 1
+	local var_31_15
 
-	if var_30_12 < var_30_13 then
-		var_30_15 = var_30_9.techs[var_30_14]
-	elseif var_30_12 == var_30_13 and var_30_12 < #var_30_9.techs then
-		var_30_15 = var_30_9.techs[var_30_14]
+	if var_31_12 < var_31_13 then
+		var_31_15 = var_31_9.techs[var_31_14]
+	elseif var_31_12 == var_31_13 and var_31_12 < #var_31_9.techs then
+		var_31_15 = var_31_9.techs[var_31_14]
 	end
 
-	if var_30_15 then
-		setActive(var_30_3, true)
-		setActive(var_30_1, true)
-		setActive(var_30_5, var_30_12 < var_30_13)
-		setActive(var_30_6, var_30_12 == var_30_13)
-		setActive(var_30_7, false)
-		setText(var_30_4, var_30_14)
+	if var_31_15 then
+		setActive(var_31_3, true)
+		setActive(var_31_1, true)
+		setActive(var_31_5, var_31_12 < var_31_13)
+		setActive(var_31_6, var_31_12 == var_31_13)
+		setActive(var_31_7, false)
+		setText(var_31_4, var_31_14)
 
-		local var_30_16 = pg.fleet_tech_template[var_30_15].level_award_display
+		local var_31_16 = pg.fleet_tech_template[var_31_15].level_award_display
 
-		var_30_2:make(function(arg_31_0, arg_31_1, arg_31_2)
-			if arg_31_0 == UIItemList.EventUpdate then
-				arg_31_1 = arg_31_1 + 1
+		var_31_2:make(function(arg_32_0, arg_32_1, arg_32_2)
+			if arg_32_0 == UIItemList.EventUpdate then
+				arg_32_1 = arg_32_1 + 1
 
-				local var_31_0 = var_30_16[arg_31_1]
-				local var_31_1 = {
-					type = var_31_0[1],
-					id = var_31_0[2],
-					count = var_31_0[3]
+				local var_32_0 = var_31_16[arg_32_1]
+				local var_32_1 = {
+					type = var_32_0[1],
+					id = var_32_0[2],
+					count = var_32_0[3]
 				}
 
-				updateDrop(arg_31_2, var_31_1)
+				updateDrop(arg_32_2, var_32_1)
 			end
 		end)
-		var_30_2:align(#var_30_16)
+		var_31_2:align(#var_31_16)
 
-		if var_30_12 < var_30_13 then
-			onButton(arg_30_0, var_30_5, function()
+		if var_31_12 < var_31_13 then
+			onButton(arg_31_0, var_31_5, function()
 				pg.m02:sendNotification(GAME.GET_CAMP_TEC_AWARD, {
-					groupID = arg_30_2,
-					tecID = var_30_15
+					groupID = arg_31_2,
+					tecID = var_31_15
 				})
 			end, SFX_PANEL)
 		end
 	else
-		setActive(var_30_3, false)
-		setActive(var_30_1, false)
-		setActive(var_30_5, false)
-		setActive(var_30_6, false)
-		setActive(var_30_7, true)
+		setActive(var_31_3, false)
+		setActive(var_31_1, false)
+		setActive(var_31_5, false)
+		setActive(var_31_6, false)
+		setActive(var_31_7, true)
 	end
 end
 
-function var_0_0.updateOneStepBtn(arg_33_0)
+function var_0_0.updateOneStepBtn(arg_34_0)
 	if LOCK_TEC_NATION_AWARD then
-		setActive(arg_33_0.oneStepBtn, false)
+		setActive(arg_34_0.oneStepBtn, false)
 
 		return
 	end
 
-	setActive(arg_33_0.oneStepBtn, arg_33_0.nationProxy:isAnyTecCampCanGetAward())
+	setActive(arg_34_0.oneStepBtn, arg_34_0.nationProxy:isAnyTecCampCanGetAward())
 end
 
-function var_0_0.updateTecListData(arg_34_0)
-	arg_34_0.tecList = getProxy(TechnologyNationProxy):GetTecList()
+function var_0_0.updateTecListData(arg_35_0)
+	arg_35_0.tecList = getProxy(TechnologyNationProxy):GetTecList()
 end
 
 return var_0_0

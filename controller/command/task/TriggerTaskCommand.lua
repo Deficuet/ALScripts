@@ -11,7 +11,9 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			getProxy(TaskProxy):addTask(Task.New({
 				id = var_1_0
 			}))
-			arg_1_0:sendNotification(GAME.TRIGGER_TASK_DONE)
+			arg_1_0:sendNotification(GAME.TRIGGER_TASK_DONE, {
+				taskId = var_1_0
+			})
 
 			if var_1_1 then
 				var_1_1(true)

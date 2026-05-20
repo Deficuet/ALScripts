@@ -5538,6 +5538,47 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.equip_data_statistics[493] = {
+		tech = 1,
+		name = "P2突破后自带150mm副炮",
+		speciality = "<[LOCK]>",
+		type = 2,
+		rarity = 1,
+		ammo = 1,
+		damage = "21 x 4",
+		nationality = 4,
+		descrip = "默认装备",
+		id = 493,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			180025
+		},
+		skill_id = {},
+		hidden_skill_id = {},
+		part_main = {
+			3
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CL",
+			"MG",
+			"AP"
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.equip_data_statistics[500] = {
 		type = 10,
 		name = "小海狸中队队徽",
@@ -193214,6 +193255,175 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.equip_data_statistics[151160] = {
+		type = 10,
+		name = "艇壳改良设计案",
+		speciality = "<[NA]>",
+		tech = 3,
+		rarity = 5,
+		descrip = "通过对艇壳形状的改良，减小了潜艇水下航行的阻力，提高了战斗中的航速与航程",
+		attribute_1 = "torpedo",
+		value_2 = 48,
+		icon = "800",
+		value_1 = "18",
+		attribute_2 = "durability",
+		attribute_3 = "raid_distance",
+		nationality = 4,
+		ammo = 10,
+		value_3 = -8,
+		id = 151160,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			{
+				6560,
+				1
+			}
+		},
+		hidden_skill_id = {},
+		part_main = {
+			8,
+			17
+		},
+		part_sub = {
+			8,
+			17
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"DEV"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151161] = {
+		id = 151161,
+		value_2 = 54,
+		value_1 = "20",
+		base = 151160
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151162] = {
+		id = 151162,
+		value_2 = 60,
+		value_1 = "23",
+		base = 151160
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151163] = {
+		id = 151163,
+		value_2 = 66,
+		value_1 = "25",
+		base = 151160
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151164] = {
+		id = 151164,
+		value_2 = 72,
+		value_1 = "27",
+		base = 151160
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151165] = {
+		id = 151165,
+		value_2 = 78,
+		value_1 = "30",
+		base = 151160
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151166] = {
+		id = 151166,
+		value_2 = 84,
+		value_1 = "32",
+		base = 151160
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151167] = {
+		id = 151167,
+		value_2 = 90,
+		value_1 = "35",
+		base = 151160
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151168] = {
+		id = 151168,
+		value_2 = 96,
+		value_1 = "37",
+		base = 151160
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151169] = {
+		id = 151169,
+		value_2 = 108,
+		value_1 = "40",
+		base = 151160
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151170] = {
+		id = 151170,
+		value_2 = 120,
+		value_1 = "42",
+		base = 151160
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151171] = {
+		value_2 = 125,
+		anti_siren = 100,
+		base = 151160,
+		id = 151171,
+		value_1 = "44"
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151172] = {
+		value_2 = 132,
+		anti_siren = 200,
+		base = 151160,
+		id = 151172,
+		value_1 = "46"
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151173] = {
+		value_2 = 142,
+		anti_siren = 300,
+		base = 151160,
+		id = 151173,
+		value_1 = "50"
+	}
+end)()
+
+(function()
 	_G.pg.base.equip_data_statistics[170001] = {
 		type = 1,
 		name = "专属弹幕-古比雪夫I",
@@ -195150,6 +195360,47 @@ end)()
 			"DD",
 			"MG",
 			"AP"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[180025] = {
+		tech = 1,
+		name = "莫里茨突破后自带150mm副炮",
+		speciality = "<[LOCK]>",
+		type = 2,
+		rarity = 1,
+		ammo = 1,
+		damage = "21 x 4",
+		nationality = 4,
+		descrip = "默认装备",
+		id = 180025,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			180025
+		},
+		skill_id = {},
+		hidden_skill_id = {},
+		part_main = {
+			3
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CL",
+			"MG",
+			"HE"
 		}
 	}
 end)()

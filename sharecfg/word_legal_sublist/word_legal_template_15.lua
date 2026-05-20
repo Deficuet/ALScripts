@@ -7,214 +7,6 @@ var_0_0.word_legal_template_15 = {}
 local var_0_1 = var_0_0.word_legal_template_15
 
 function temp()
-	var_0_1.敦 = {
-		刻 = {
-			尔 = {
-				克 = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.让 = {
-		· = {
-			巴 = {
-				尔 = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.简 = {
-		· = {
-			布 = {
-				罗 = {
-					伊 = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.霞 = {
-		飞 = {
-			this = true
-		},
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.峦 = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.虒 = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.滨 = {
-		江 = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.玛 = {
-		丽 = {
-			· = {
-				西 = {
-					莱 = {
-						斯 = {
-							特 = {
-								号 = {
-									this = true
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		莉 = {
-			萝 = {
-				丝 = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.冈 = {
-		依 = {
-			沙 = {
-				瓦 = {
-					号 = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.君 = {
-		主 = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.菈 = {
-		菈 = {
-			· = {
-				撒 = {
-					塔 = {
-						琳 = {
-							· = {
-								戴 = {
-									比 = {
-										路 = {
-											克 = {
-												this = true
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.梦 = {
-		梦 = {
-			· = {
-				贝 = {
-					莉 = {
-						雅 = {
-							· = {
-								戴 = {
-									比 = {
-										路 = {
-											克 = {
-												this = true
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.七 = {
-		省 = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
 	var_0_1.奇 = {
 		尔 = {
 			沙 = {
@@ -455,6 +247,239 @@ function temp()
 					this = true
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.群 = {
+		白 = {
+			之 = {
+				心 = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.翡 = {
+		绿 = {
+			之 = {
+				心 = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1["2"] = {
+		["2"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1["3"] = {
+		["3"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.久 = {
+		远 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.猫 = {
+		音 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.绊 = {
+		爱 = {
+			this = true,
+			· = {
+				E = {
+					l = {
+						e = {
+							g = {
+								a = {
+									n = {
+										t = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
+				},
+				A = {
+					n = {
+						n = {
+							i = {
+								v = {
+									e = {
+										r = {
+											s = {
+												a = {
+													r = {
+														y = {
+															this = true
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				},
+				S = {
+					u = {
+						p = {
+							e = {
+								r = {
+									G = {
+										a = {
+											m = {
+												e = {
+													r = {
+														this = true
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.白 = {
+		上 = {
+			吹 = {
+				雪 = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.时 = {
+		乃 = {
+			空 = {
+				this = true
+			}
+		},
+		崎 = {
+			狂 = {
+				三 = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.湊 = {
+		阿 = {
+			库 = {
+				娅 = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.紫 = {
+		咲 = {
+			诗 = {
+				音 = {
+					this = true
+				}
+			}
+		},
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.穗 = {
+		香 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.凪 = {
+		咲 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.环 = {
+		this = {
+			this = true
 		}
 	}
 end

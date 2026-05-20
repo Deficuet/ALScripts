@@ -635,6 +635,12 @@ pg.activity_ins_template.all = {
 	640,
 	641,
 	642,
+	644,
+	645,
+	646,
+	647,
+	648,
+	649,
 	643,
 	20001,
 	20002,
@@ -26839,6 +26845,168 @@ end)()
 			7056,
 			7059
 		}
+	}
+	pg.base.activity_ins_template[644] = {
+		ship_group = 40815,
+		name = "U-2501>w<",
+		oalist_pic_persist = "",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		sculpture = "u2501",
+		is_active = 1,
+		message_persist = "",
+		id = 644,
+		group_id = 644,
+		time = {
+			{
+				2026,
+				5,
+				20
+			},
+			{
+				13,
+				12,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[645] = {
+		ship_group = 20121,
+		name = "Javelin☆",
+		oalist_pic_persist = "",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		sculpture = "biaoqiang",
+		is_active = 1,
+		message_persist = "",
+		id = 645,
+		group_id = 645,
+		time = {
+			{
+				2026,
+				5,
+				20
+			},
+			{
+				14,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[646] = {
+		ship_group = 40507,
+		name = "Götz von Berlichingen",
+		oalist_pic_persist = "",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		sculpture = "gezi",
+		is_active = 1,
+		message_persist = "",
+		id = 646,
+		group_id = 646,
+		time = {
+			{
+				2026,
+				5,
+				21
+			},
+			{
+				23,
+				58,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[647] = {
+		ship_group = 40317,
+		name = "Prinz Moritz",
+		oalist_pic_persist = "",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		sculpture = "molici",
+		is_active = 1,
+		message_persist = "",
+		id = 647,
+		group_id = 647,
+		time = {
+			{
+				2026,
+				5,
+				22
+			},
+			{
+				10,
+				25,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[648] = {
+		ship_group = 40114,
+		name = "Zerstörer14",
+		oalist_pic_persist = "",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		sculpture = "Z14",
+		is_active = 1,
+		message_persist = "",
+		id = 648,
+		group_id = 648,
+		time = {
+			{
+				2026,
+				5,
+				23
+			},
+			{
+				16,
+				7,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[649] = {
+		ship_group = 40115,
+		name = "Fahrzeugkiller15",
+		oalist_pic_persist = "",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		sculpture = "Z15",
+		is_active = 1,
+		message_persist = "",
+		id = 649,
+		group_id = 649,
+		time = {
+			{
+				2026,
+				5,
+				24
+			},
+			{
+				12,
+				31,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
 	}
 	pg.base.activity_ins_template[643] = {
 		ship_group = 40152,

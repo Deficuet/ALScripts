@@ -369,6 +369,13 @@ pg.strategy_data_template.all = {
 	201741,
 	201742,
 	201743,
+	201750,
+	201754,
+	201755,
+	201759,
+	201763,
+	201764,
+	201765,
 	205001,
 	205002,
 	205003,
@@ -4463,6 +4470,83 @@ end)()
 		icon = "200908",
 		buff_type = 0,
 		desc = "本关卡两名BOSS中任意一名被击败，都会使另一名进入[情绪高涨]状态，<color=#ffc038>改变攻击方式并特大幅度提高自身伤害</color>。\n\n关卡特性：\n敌方伤害<color=#ffc038>中幅度提升</color>，部分大体积子弹无法被空袭/护盾消除。\n我方先锋舰队的角色<color=#92fc63>受击判定大幅度缩小，且同一时间只有处于领舰位置的角色拥有受击判定</color>，其余角色为无敌状态。\n角色获得受击判定时会附带短暂无敌效果。\n\n以下装备或技能中的<color=#92fc63>减伤/回避及其派生效果</color>无法在本挑战中生效：\n【背水之战】、【彩虹计划】、【绝体绝命】、【不屈意志】",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201750] = {
+		buff_id = 0,
+		name = "黑境侵蚀",
+		iconSize = "",
+		type = 10,
+		id = 201750,
+		icon = "201750",
+		buff_type = 0,
+		desc = "恶念实体被击破时，会释放出恶念实体，为周围的恶念实体提供更多恶念实体。\n——黑境侵蚀下，恶念横生中。",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201754] = {
+		buff_id = 201754,
+		name = "审判号支援",
+		iconSize = "",
+		type = 10,
+		id = 201754,
+		icon = "201754",
+		buff_type = 0,
+		desc = "获得来自「审判」号的侦查支援，战斗中我方角色命中与造成的暴击伤害提升5%。",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201755] = {
+		buff_id = 201755,
+		name = "黑日凌空",
+		iconSize = "",
+		type = 10,
+		id = 201755,
+		icon = "201755",
+		buff_type = 0,
+		desc = "在海域内战斗时得到审判型机甲武装支援。",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201759] = {
+		buff_id = 201759,
+		name = "神光之网",
+		iconSize = "",
+		type = 10,
+		id = 201759,
+		icon = "201270",
+		buff_type = 0,
+		desc = "在海域内战斗时得到神光之网提供的支援，神光之网会降低被命中敌人的机动与航速。",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201763] = {
+		buff_id = 201763,
+		name = "轨道打击",
+		iconSize = "",
+		type = 10,
+		id = 201763,
+		icon = "201763",
+		buff_type = 0,
+		desc = "在海域内战斗时得到轨道炮打击支援。",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201764] = {
+		buff_id = 0,
+		name = "挑战说明",
+		iconSize = "",
+		type = 10,
+		id = 201764,
+		icon = "200908",
+		buff_type = 0,
+		desc = "BOSS首次<color=#92fc63>耐久低于20%时进入狂暴状态</color>，获得持续3秒的高额减伤并一次性恢复30%耐久，后续攻击方式改变，攻击强度大幅度提升，但<color=#92fc63>每秒会自动损失0.5%耐久</color>。",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201765] = {
+		buff_id = 0,
+		name = "挑战说明",
+		iconSize = "",
+		type = 10,
+		id = 201765,
+		icon = "200908",
+		buff_type = 0,
+		desc = "战斗中我方角色每次受到的治疗效果都会被BOSS窃取，使BOSS<color=#92fc63>恢复其自身1%耐久</color>，且我方空袭无法消除其黑色的弹幕。\nBOSS首次<color=#92fc63>耐久低于20%时进入狂暴状态</color>，获得持续3秒的高额减伤并一次性恢复30%耐久，后续攻击方式改变，攻击强度大幅度提升，但<color=#92fc63>每秒会自动损失0.5%耐久</color>。\n\n困难模式特性：\n敌方伤害<color=#ffc038>极大幅度提高</color>，部分大体积子弹无法被空袭/护盾消除。\n我方先锋舰队的角色<color=#92fc63>受击判定大幅度缩小，且同一时间只有处于领舰位置的角色拥有受击判定</color>，其余角色为无敌状态。\n角色获得受击判定时会附带短暂无敌效果。\n\n以下装备或技能中的<color=#92fc63>减伤/回避及其派生效果</color>无法在本挑战中生效：\n【背水之战】、【彩虹计划】、【绝体绝命】、【不屈意志】",
 		arg = {}
 	}
 	pg.base.strategy_data_template[205001] = {

@@ -8626,6 +8626,65 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.expedition_data_template[9808] = {
+		sink_limit = 1,
+		name = "角色体验关卡",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 9808,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 100,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 9808,
+		scale = 125,
+		map_id = {
+			{
+				50183,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.expedition_data_template[9907] = {
 		sink_limit = 1,
 		name = "战术模拟",
@@ -1096138,6 +1096197,12426 @@ end)()
 		objective_3 = {
 			5,
 			150
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030001] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2030001,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 21,
+		exp = 105,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030001,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200774
+			},
+			{
+				2,
+				17021
+			},
+			{
+				2,
+				17031
+			},
+			{
+				2,
+				17001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030002] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2030002,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 22,
+		exp = 121,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030002,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200774
+			},
+			{
+				2,
+				17021
+			},
+			{
+				2,
+				17031
+			},
+			{
+				2,
+				17001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030003] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2030003,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 23,
+		exp = 138,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030003,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200774
+			},
+			{
+				2,
+				17021
+			},
+			{
+				2,
+				17031
+			},
+			{
+				2,
+				17001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030004] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2030004,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 21,
+		exp = 105,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030004,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200774
+			},
+			{
+				2,
+				17011
+			},
+			{
+				2,
+				17031
+			},
+			{
+				2,
+				17001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030005] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2030005,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 22,
+		exp = 121,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030005,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200774
+			},
+			{
+				2,
+				17011
+			},
+			{
+				2,
+				17031
+			},
+			{
+				2,
+				17001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030006] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2030006,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 23,
+		exp = 138,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030006,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200774
+			},
+			{
+				2,
+				17011
+			},
+			{
+				2,
+				17031
+			},
+			{
+				2,
+				17001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030007] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2030007,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 21,
+		exp = 105,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030007,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200774
+			},
+			{
+				2,
+				17041
+			},
+			{
+				2,
+				17031
+			},
+			{
+				2,
+				17001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030008] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2030008,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 22,
+		exp = 121,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030008,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200774
+			},
+			{
+				2,
+				17041
+			},
+			{
+				2,
+				17031
+			},
+			{
+				2,
+				17001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030009] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2030009,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 23,
+		exp = 138,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030009,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200774
+			},
+			{
+				2,
+				17041
+			},
+			{
+				2,
+				17031
+			},
+			{
+				2,
+				17001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030013] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2030013,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 25,
+		exp = 181,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030013,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200761
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030101] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2030001,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 26,
+		exp = 130,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030101,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200775
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030102] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2030002,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 27,
+		exp = 148,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030102,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200775
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030103] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2030003,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 28,
+		exp = 168,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030103,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200775
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030104] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2030004,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 26,
+		exp = 130,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030104,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200775
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030105] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2030005,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 27,
+		exp = 148,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030105,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200775
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030106] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2030006,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 28,
+		exp = 168,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030106,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200775
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030107] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2030007,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 26,
+		exp = 130,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030107,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200775
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030108] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2030008,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 27,
+		exp = 148,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030108,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200775
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030109] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2030009,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 28,
+		exp = 168,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030109,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200775
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030113] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2030113,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 30,
+		exp = 217,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030113,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200762
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030201] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2030001,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 31,
+		exp = 155,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030201,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200776
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030202] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2030002,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 32,
+		exp = 176,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030202,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200776
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030203] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2030003,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 33,
+		exp = 198,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030203,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200776
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030204] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2030004,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 31,
+		exp = 155,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030204,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200776
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030205] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2030005,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 32,
+		exp = 176,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030205,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200776
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030206] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2030006,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 33,
+		exp = 198,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030206,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200776
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030207] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2030007,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 31,
+		exp = 155,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030207,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200776
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030208] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2030008,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 32,
+		exp = 176,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030208,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200776
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030209] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2030009,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 33,
+		exp = 198,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030209,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200776
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030213] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2030213,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 35,
+		exp = 254,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030213,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200763
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030301] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2030301,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 24,
+		exp = 162,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030301,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200761
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030302] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2030302,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 29,
+		exp = 196,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030302,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200762
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2030303] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2030303,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 34,
+		exp = 229,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2030303,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200763
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031001] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2031001,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 41,
+		exp = 205,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031001,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200777
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031002] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2031002,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 42,
+		exp = 231,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031002,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200777
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031003] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2031003,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 43,
+		exp = 258,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031003,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200777
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031004] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2031004,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 41,
+		exp = 205,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031004,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200777
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031005] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2031005,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 42,
+		exp = 231,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031005,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200777
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031006] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2031006,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 43,
+		exp = 258,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031006,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200777
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031007] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2031007,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 41,
+		exp = 205,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031007,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200777
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031008] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2031008,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 42,
+		exp = 231,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031008,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200777
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031009] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2031009,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 43,
+		exp = 258,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031009,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200777
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031013] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2031013,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 45,
+		exp = 326,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031013,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200764
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031101] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2031001,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 51,
+		exp = 255,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031101,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200778
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031102] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2031002,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 52,
+		exp = 286,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031102,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200778
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031103] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2031003,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 53,
+		exp = 318,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031103,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200778
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031104] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2031004,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 51,
+		exp = 255,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031104,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200778
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031105] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2031005,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 52,
+		exp = 286,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031105,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200778
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031106] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2031006,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 53,
+		exp = 318,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031106,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200778
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031107] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2031007,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 51,
+		exp = 255,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031107,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200778
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031108] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2031008,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 52,
+		exp = 286,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031108,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200778
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031109] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2031009,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 53,
+		exp = 318,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031109,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200778
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031113] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2031113,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 55,
+		exp = 399,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031113,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200765
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031201] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2031001,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 56,
+		exp = 280,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031201,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200779
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031202] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2031002,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 57,
+		exp = 313,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031202,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200779
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031203] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2031003,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 58,
+		exp = 348,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031203,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200779
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031204] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2031004,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 56,
+		exp = 280,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031204,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200779
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031205] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2031005,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 57,
+		exp = 313,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031205,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200779
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031206] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2031006,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 58,
+		exp = 348,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031206,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200779
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031207] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2031007,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 56,
+		exp = 280,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031207,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200779
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031208] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2031008,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 57,
+		exp = 313,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031208,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200779
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031209] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2031009,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 58,
+		exp = 348,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031209,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200779
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031213] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2031213,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "unknownV_mal_boss01",
+		difficulty = 2,
+		level = 60,
+		exp = 435,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031213,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56000
+			},
+			{
+				2,
+				200766
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031301] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2031301,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 44,
+		exp = 297,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031301,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200764
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031302] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2031302,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 44,
+		exp = 297,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031302,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200764
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031303] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2031303,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 54,
+		exp = 364,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031303,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200765
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031304] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2031304,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 54,
+		exp = 364,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031304,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200765
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031305] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2031305,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 59,
+		exp = 398,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031305,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200766
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2031306] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2031306,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 59,
+		exp = 398,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2031306,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200766
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032001] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2032001,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 71,
+		exp = 355,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032001,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200780
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032002] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2032002,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 72,
+		exp = 396,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032002,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200780
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032003] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2032003,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 73,
+		exp = 438,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032003,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200780
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032004] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2032004,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 71,
+		exp = 355,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032004,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200780
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032005] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2032005,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 72,
+		exp = 396,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032005,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200780
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032006] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2032006,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 73,
+		exp = 438,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032006,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200780
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032007] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2032007,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 71,
+		exp = 355,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032007,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200780
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032008] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2032008,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 72,
+		exp = 396,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032008,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200780
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032009] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2032009,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 73,
+		exp = 438,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032009,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200780
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032013] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2032013,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 75,
+		exp = 544,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032013,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200767
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032101] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2032001,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 76,
+		exp = 380,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032101,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200781
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032102] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2032002,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 77,
+		exp = 423,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032102,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200781
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032103] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2032003,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 78,
+		exp = 468,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032103,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200781
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032104] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2032004,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 76,
+		exp = 380,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032104,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200781
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032105] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2032005,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 77,
+		exp = 423,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032105,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200781
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032106] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2032006,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 78,
+		exp = 468,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032106,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200781
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032107] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2032007,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 76,
+		exp = 380,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032107,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200781
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032108] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2032008,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 77,
+		exp = 423,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032108,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200781
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032109] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2032009,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 78,
+		exp = 468,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032109,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200781
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032113] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2032113,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 80,
+		exp = 580,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032113,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200768
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032201] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2032001,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 81,
+		exp = 405,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032201,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200782
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032202] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2032002,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 82,
+		exp = 451,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032202,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200782
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032203] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2032003,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 83,
+		exp = 498,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032203,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200782
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032204] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2032004,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 81,
+		exp = 405,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032204,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200782
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032205] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2032005,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 82,
+		exp = 451,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032205,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200782
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032206] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2032006,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 83,
+		exp = 498,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032206,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200782
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032207] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2032007,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 81,
+		exp = 405,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032207,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200782
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032208] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2032008,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 82,
+		exp = 451,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032208,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200782
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032209] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2032009,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 83,
+		exp = 498,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032209,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200782
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032213] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2032213,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 85,
+		exp = 616,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032213,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200769
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032301] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2032301,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 74,
+		exp = 499,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032301,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200767
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032302] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2032302,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 79,
+		exp = 533,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032302,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200768
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2032303] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2032303,
+		add_icon = "",
+		bgm = "theme-hrr",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 84,
+		exp = 567,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2032303,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200769
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033001] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2033001,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 91,
+		exp = 455,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033001,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200783
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033002] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2033002,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 92,
+		exp = 506,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033002,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200783
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033003] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2033003,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 93,
+		exp = 558,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033003,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200783
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033004] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2033004,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 91,
+		exp = 455,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033004,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200783
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033005] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2033005,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 92,
+		exp = 506,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033005,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200783
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033006] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2033006,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 93,
+		exp = 558,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033006,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200783
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033007] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2033007,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 91,
+		exp = 455,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033007,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200783
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033008] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2033008,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 92,
+		exp = 506,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033008,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200783
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033009] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2033009,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 93,
+		exp = 558,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033009,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200783
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033013] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2033013,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 95,
+		exp = 689,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033013,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200770
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033101] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2033001,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 96,
+		exp = 480,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033101,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200784
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033102] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2033002,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 97,
+		exp = 533,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033102,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200784
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033103] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2033003,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 98,
+		exp = 588,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033103,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200784
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033104] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2033004,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 96,
+		exp = 480,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033104,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200784
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033105] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2033005,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 97,
+		exp = 533,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033105,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200784
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033106] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2033006,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 98,
+		exp = 588,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033106,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200784
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033107] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2033007,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 96,
+		exp = 480,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033107,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200784
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033108] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2033008,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 97,
+		exp = 533,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033108,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200784
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033109] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2033009,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 98,
+		exp = 588,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033109,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200784
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033113] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2033113,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 100,
+		exp = 725,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033113,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200771
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033201] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2033001,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 101,
+		exp = 505,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033201,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200785
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033202] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2033002,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 102,
+		exp = 561,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033202,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200785
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033203] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2033003,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 3,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 103,
+		exp = 618,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033203,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200785
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033204] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2033004,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 101,
+		exp = 505,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033204,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200785
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033205] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2033005,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 102,
+		exp = 561,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033205,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200785
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033206] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2033006,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 3,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 103,
+		exp = 618,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033206,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200785
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033207] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2033007,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 101,
+		exp = 505,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033207,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200785
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033208] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2033008,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 102,
+		exp = 561,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033208,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200785
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033209] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2033009,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 3,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 103,
+		exp = 618,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033209,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200785
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033213] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2033213,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 3,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "unknownV_mal_boss01",
+		difficulty = 2,
+		level = 105,
+		exp = 761,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033213,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56000
+			},
+			{
+				2,
+				200772
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033301] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2033301,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 94,
+		exp = 634,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033301,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200770
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033302] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2033302,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 94,
+		exp = 634,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033302,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200770
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033303] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2033303,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 99,
+		exp = 668,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033303,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200771
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033304] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2033304,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 99,
+		exp = 668,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033304,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200771
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033305] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2033305,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 3,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 104,
+		exp = 702,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033305,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200772
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2033306] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2033306,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 3,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 104,
+		exp = 702,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2033306,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200772
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2034001] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2034001,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 110,
+		exp = 550,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2034001,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200786
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2034002] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2034002,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 110,
+		exp = 605,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2034002,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200786
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2034003] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2034003,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_qz",
+		difficulty = 2,
+		level = 110,
+		exp = 660,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2034003,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200786
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2034004] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2034004,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 110,
+		exp = 550,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2034004,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200786
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2034005] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2034005,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 110,
+		exp = 605,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2034005,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200786
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2034006] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2034006,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 110,
+		exp = 660,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2034006,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200786
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2034007] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2034007,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 110,
+		exp = 550,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2034007,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200786
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2034008] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2034008,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 110,
+		exp = 605,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2034008,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200786
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2034009] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2034009,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 110,
+		exp = 660,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2034009,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200786
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2034013] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2034013,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "unknownV_mal_boss01",
+		difficulty = 2,
+		level = 110,
+		exp = 797,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2034013,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56000
+			},
+			{
+				2,
+				200773
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2034301] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2034301,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_zl",
+		difficulty = 2,
+		level = 110,
+		exp = 742,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2034301,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200773
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2034302] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2034302,
+		add_icon = "",
+		bgm = "battle-shenguang-holy",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_mal_hm",
+		difficulty = 2,
+		level = 110,
+		exp = 742,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2034302,
+		scale = 100,
+		map_id = {
+			{
+				50223,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200773
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2035001] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2035001,
+		add_icon = "",
+		bgm = "battle-thehierophantV",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "unknownV_mal_boss01",
+		difficulty = 2,
+		level = 125,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 150,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2035001,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			150
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2035002] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2035002,
+		add_icon = "",
+		bgm = "battle-thehierophantV",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "unknownV_mal_boss01",
+		difficulty = 2,
+		level = 125,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 150,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2035002,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			150
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2036001] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2036001,
+		add_icon = "",
+		bgm = "battle-shenguang-freely",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 120,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 300,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2036001,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2036002] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2036002,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 120,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 300,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2036002,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2036003] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2036003,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 120,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 300,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2036003,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2036004] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2036004,
+		add_icon = "",
+		bgm = "theme-vichy-slaughter",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 120,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 300,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2036004,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2036005] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2036005,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 120,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 300,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2036005,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2036006] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2036006,
+		add_icon = "",
+		bgm = "battle-hrr",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 120,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 300,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2036006,
+		scale = 100,
+		map_id = {
+			{
+				50224,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
 		},
 		bufficon = {},
 		expose_line = {},

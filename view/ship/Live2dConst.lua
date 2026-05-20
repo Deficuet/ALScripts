@@ -3,6 +3,7 @@ local var_0_0 = class("Live2dConst")
 var_0_0.l2d_bound_open = false
 var_0_0.l2d_arm_32 = false
 var_0_0.UnLoadL2dPating = nil
+var_0_0.PAINTING_BGM_VOLUME = "painting_bgm_volume"
 
 function var_0_0.SaveL2dIdle(arg_1_0, arg_1_1, arg_1_2)
 	local var_1_0 = var_0_0.GetL2dIdleSaveName(arg_1_0, arg_1_1)
@@ -202,6 +203,33 @@ function var_0_0.GetLive2dDirty(arg_19_0, arg_19_1, arg_19_2)
 	end
 
 	return false
+end
+
+function var_0_0.SaveL2dBgmVolume(arg_20_0, arg_20_1)
+	if arg_20_0 and arg_20_1 then
+		arg_20_1 = arg_20_1 > 1 and 1 or arg_20_1 < 0 and 0 or arg_20_1
+
+		local var_20_0 = ShipSkin.IsChangeSkin(arg_20_0) and ShipSkin.GetChangeSkinNextId(arg_20_0) or nil
+
+		if var_20_0 then
+			PlayerPrefs.SetFloat(Live2dConst.PAINTING_BGM_VOLUME .. "_" .. var_20_0, arg_20_1)
+		end
+
+		PlayerPrefs.SetFloat(Live2dConst.PAINTING_BGM_VOLUME .. "_" .. arg_20_0, arg_20_1)
+	end
+end
+
+function var_0_0.GetPaintingBgmVolume(arg_21_0)
+	local var_21_0 = 1
+	local var_21_1 = PlayerPrefs.GetFloat(Live2dConst.PAINTING_BGM_VOLUME .. "_" .. arg_21_0)
+
+	if var_21_1 ~= nil then
+		var_21_0 = var_21_1
+	end
+
+	var_21_0 = var_21_0 > 1 and 1 or var_21_0 < 0 and 0 or var_21_0
+
+	return var_21_0
 end
 
 return var_0_0

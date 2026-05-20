@@ -191,6 +191,7 @@ function var_0_0.handleNotification(arg_20_0, arg_20_1)
 						mediator = PaintingShowMediator,
 						viewComponent = PaintingShowScene,
 						data = {
+							is_shop = true,
 							skinId = var_20_4,
 							callback = var_20_5
 						}

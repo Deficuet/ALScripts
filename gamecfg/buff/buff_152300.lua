@@ -1,0 +1,69 @@
+return {
+	effect_list = {
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onStartGame"
+			},
+			arg_list = {
+				skill_id = 152300,
+				minWeaponNumber = 1,
+				check_weapon = true,
+				type = {
+					3
+				}
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onStartGame"
+			},
+			arg_list = {
+				skill_id = 152302,
+				minWeaponNumber = 1,
+				check_weapon = true,
+				index = {
+					1
+				},
+				type = {
+					11
+				}
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onStartGame",
+				"onHPRatioUpdate"
+			},
+			arg_list = {
+				hpUpperBound = 0.3,
+				hpLowerBound = 0,
+				skill_id = 152304,
+				hpSigned = 0
+			}
+		}
+	},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	desc_get = "",
+	name = "",
+	init_effect = "",
+	time = 0,
+	color = "red",
+	picture = "",
+	desc = "",
+	stack = 1,
+	id = 152300,
+	icon = 152300,
+	last_effect = ""
+}

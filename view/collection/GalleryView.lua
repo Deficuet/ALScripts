@@ -100,6 +100,7 @@ function var_0_0.findUI(arg_6_0)
 	arg_6_0.progressText = arg_6_0.topPanel:Find("TextProgress")
 	arg_6_0.scrollPanel = arg_6_0._tf:Find("Scroll")
 	arg_6_0.lScrollPageSC = GetComponent(arg_6_0.scrollPanel, "LScrollPage")
+	arg_6_0.scrollListContainer = arg_6_0.scrollPanel:Find("Content")
 	arg_6_0.picPanel = arg_6_0._tf:Find("PicPanel")
 	arg_6_0.picPanelBG = arg_6_0.picPanel:Find("PanelBG")
 	arg_6_0.picTopContainer = arg_6_0.picPanel:Find("Container")
@@ -113,6 +114,8 @@ function var_0_0.findUI(arg_6_0)
 
 	setActive(arg_6_0.picLikeToggle, true)
 
+	arg_6_0.picAddLoadingBtn = arg_6_0.picContainer:Find("LoadingBtn/Off")
+	arg_6_0.picRemoveLoadingBtn = arg_6_0.picContainer:Find("LoadingBtn/On")
 	arg_6_0.emptyPanel = arg_6_0._tf:Find("EmptyPanel")
 	arg_6_0.updatePanel = arg_6_0._tf:Find("UpdatePanel")
 end
@@ -483,384 +486,415 @@ function var_0_0.initPicPanel(arg_29_0)
 			end
 		end
 	end, SFX_PANEL)
+	onButton(arg_29_0, arg_29_0.picAddLoadingBtn, function()
+		local var_37_0 = arg_29_0:getPicConfigForShowByIndex(arg_29_0.curMiddleDataIndex).id
+
+		arg_29_0:addLoadingPic(var_37_0)
+	end, SFX_PANEL)
+	onButton(arg_29_0, arg_29_0.picRemoveLoadingBtn, function()
+		local var_38_0 = arg_29_0:getPicConfigForShowByIndex(arg_29_0.curMiddleDataIndex).id
+
+		arg_29_0:removeLoadingPic(var_38_0)
+	end, SFX_PANEL)
 end
 
-function var_0_0.updatePicImg(arg_37_0, arg_37_1)
-	local var_37_0 = arg_37_1 or arg_37_0.curMiddleDataIndex
-	local var_37_1 = arg_37_0:getPicConfigForShowByIndex(var_37_0)
-	local var_37_2 = var_37_1.id
-	local var_37_3 = var_37_1.name
-	local var_37_4 = var_37_1.illustration
-	local var_37_5 = GalleryConst.PIC_PATH_PREFIX .. var_37_4
+function var_0_0.updateLoadingBtn(arg_39_0, arg_39_1)
+	local var_39_0 = arg_39_0:isPicUsed(arg_39_1)
 
-	setImageSprite(arg_37_0.picImg, LoadSprite(var_37_5, var_37_4))
-	setText(arg_37_0.picName, var_37_3)
-
-	local var_37_6 = arg_37_0.appreciateProxy:isLikedByPicID(var_37_2)
-
-	arg_37_0.picLikeToggleTag = true
-
-	triggerToggle(arg_37_0.picLikeToggle, var_37_6)
+	setActive(arg_39_0.picAddLoadingBtn, not var_39_0)
+	setActive(arg_39_0.picRemoveLoadingBtn, var_39_0)
 end
 
-function var_0_0.switchPicImg(arg_38_0, arg_38_1)
-	local var_38_0 = arg_38_1 or arg_38_0.curMiddleDataIndex
-	local var_38_1 = arg_38_0:getPicConfigForShowByIndex(var_38_0)
-	local var_38_2 = var_38_1.id
-	local var_38_3 = var_38_1.name
-	local var_38_4 = var_38_1.illustration
-	local var_38_5 = GalleryConst.PIC_PATH_PREFIX .. var_38_4
+function var_0_0.updatePicImg(arg_40_0, arg_40_1)
+	local var_40_0 = arg_40_1 or arg_40_0.curMiddleDataIndex
+	local var_40_1 = arg_40_0:getPicConfigForShowByIndex(var_40_0)
+	local var_40_2 = var_40_1.id
+	local var_40_3 = var_40_1.name
+	local var_40_4 = var_40_1.illustration
+	local var_40_5 = GalleryConst.PIC_PATH_PREFIX .. var_40_4
 
-	setImageSprite(arg_38_0.picBGImg, LoadSprite(var_38_5, var_38_4))
+	setImageSprite(arg_40_0.picImg, LoadSprite(var_40_5, var_40_4))
+	setText(arg_40_0.picName, var_40_3)
 
-	local var_38_6 = arg_38_0.appreciateProxy:isLikedByPicID(var_38_2)
+	local var_40_6 = arg_40_0.appreciateProxy:isLikedByPicID(var_40_2)
 
-	arg_38_0.picLikeToggleTag = true
+	arg_40_0.picLikeToggleTag = true
 
-	triggerToggle(arg_38_0.picLikeToggle, var_38_6)
-	LeanTween.value(go(arg_38_0.picImg), 1, 0, 0.5):setOnUpdate(System.Action_float(function(arg_39_0)
-		setImageAlpha(arg_38_0.picImg, arg_39_0)
+	triggerToggle(arg_40_0.picLikeToggle, var_40_6)
+	arg_40_0:updateLoadingBtn(var_40_2)
+end
+
+function var_0_0.switchPicImg(arg_41_0, arg_41_1)
+	local var_41_0 = arg_41_1 or arg_41_0.curMiddleDataIndex
+	local var_41_1 = arg_41_0:getPicConfigForShowByIndex(var_41_0)
+	local var_41_2 = var_41_1.id
+	local var_41_3 = var_41_1.name
+	local var_41_4 = var_41_1.illustration
+	local var_41_5 = GalleryConst.PIC_PATH_PREFIX .. var_41_4
+
+	setImageSprite(arg_41_0.picBGImg, LoadSprite(var_41_5, var_41_4))
+
+	local var_41_6 = arg_41_0.appreciateProxy:isLikedByPicID(var_41_2)
+
+	arg_41_0.picLikeToggleTag = true
+
+	triggerToggle(arg_41_0.picLikeToggle, var_41_6)
+	LeanTween.value(go(arg_41_0.picImg), 1, 0, 0.5):setOnUpdate(System.Action_float(function(arg_42_0)
+		setImageAlpha(arg_41_0.picImg, arg_42_0)
 	end)):setOnComplete(System.Action(function()
-		setImageFromImage(arg_38_0.picImg, arg_38_0.picBGImg)
-		setImageAlpha(arg_38_0.picImg, 1)
+		setImageFromImage(arg_41_0.picImg, arg_41_0.picBGImg)
+		setImageAlpha(arg_41_0.picImg, 1)
 	end))
 end
 
-function var_0_0.openPicPanel(arg_41_0)
-	arg_41_0:BlurPanel(arg_41_0.picPanel)
+function var_0_0.openPicPanel(arg_44_0)
+	arg_44_0:BlurPanel(arg_44_0.picPanel)
 
-	arg_41_0.picPanel.offsetMax = arg_41_0._tf.parent.offsetMax
-	arg_41_0.picPanel.offsetMin = arg_41_0._tf.parent.offsetMin
+	arg_44_0.picPanel.offsetMax = arg_44_0._tf.parent.offsetMax
+	arg_44_0.picPanel.offsetMin = arg_44_0._tf.parent.offsetMin
 
-	setActive(arg_41_0.picPanel, true)
-	LeanTween.value(go(arg_41_0.picTopContainer), 0, 1, 0.3):setOnUpdate(System.Action_float(function(arg_42_0)
-		setLocalScale(arg_41_0.picTopContainer, {
-			x = arg_42_0,
-			y = arg_42_0
+	setActive(arg_44_0.picPanel, true)
+	LeanTween.value(go(arg_44_0.picTopContainer), 0, 1, 0.3):setOnUpdate(System.Action_float(function(arg_45_0)
+		setLocalScale(arg_44_0.picTopContainer, {
+			x = arg_45_0,
+			y = arg_45_0
 		})
 	end)):setOnComplete(System.Action(function()
-		setLocalScale(arg_41_0.picTopContainer, {
+		setLocalScale(arg_44_0.picTopContainer, {
 			x = 1,
 			y = 1
 		})
 	end))
 end
 
-function var_0_0.closePicPanel(arg_44_0, arg_44_1)
-	if arg_44_1 == true then
-		arg_44_0:UnOverlayPanel(arg_44_0.picPanel, arg_44_0._tf)
-		setActive(arg_44_0.picPanel, false)
+function var_0_0.closePicPanel(arg_47_0, arg_47_1)
+	if arg_47_1 == true then
+		arg_47_0:UnOverlayPanel(arg_47_0.picPanel, arg_47_0._tf)
+		setActive(arg_47_0.picPanel, false)
 
 		return
 	end
 
-	if isActive(arg_44_0.picPanel) then
-		LeanTween.value(go(arg_44_0.picTopContainer), 1, 0, 0.3):setOnUpdate(System.Action_float(function(arg_45_0)
-			setLocalScale(arg_44_0.picTopContainer, {
-				x = arg_45_0,
-				y = arg_45_0
+	if isActive(arg_47_0.picPanel) then
+		LeanTween.value(go(arg_47_0.picTopContainer), 1, 0, 0.3):setOnUpdate(System.Action_float(function(arg_48_0)
+			setLocalScale(arg_47_0.picTopContainer, {
+				x = arg_48_0,
+				y = arg_48_0
 			})
 		end)):setOnComplete(System.Action(function()
-			setLocalScale(arg_44_0.picTopContainer, {
+			setLocalScale(arg_47_0.picTopContainer, {
 				x = 0,
 				y = 0
 			})
-			arg_44_0:UnOverlayPanel(arg_44_0.picPanel, arg_44_0._tf)
-			setActive(arg_44_0.picPanel, false)
+			arg_47_0:UnOverlayPanel(arg_47_0.picPanel, arg_47_0._tf)
+			setActive(arg_47_0.picPanel, false)
 		end))
 	end
 end
 
-function var_0_0.setMovingTag(arg_47_0, arg_47_1)
-	arg_47_0.isMoving = arg_47_1
+function var_0_0.setMovingTag(arg_50_0, arg_50_1)
+	arg_50_0.isMoving = arg_50_1
 end
 
-function var_0_0.saveRunData(arg_48_0)
-	arg_48_0.appreciateProxy:updateGalleryRunData(arg_48_0.curPicSelectDateValue, arg_48_0.curPicSortValue, arg_48_0.curMiddleDataIndex, arg_48_0.curPicLikeValue, arg_48_0.curFilteLoadingBGValue)
+function var_0_0.saveRunData(arg_51_0)
+	arg_51_0.appreciateProxy:updateGalleryRunData(arg_51_0.curPicSelectDateValue, arg_51_0.curPicSortValue, arg_51_0.curMiddleDataIndex, arg_51_0.curPicLikeValue, arg_51_0.curFilteLoadingBGValue)
 end
 
-function var_0_0.recoveryFromRunData(arg_49_0)
-	local var_49_0 = arg_49_0.appreciateProxy:getGalleryRunData()
+function var_0_0.recoveryFromRunData(arg_52_0)
+	local var_52_0 = arg_52_0.appreciateProxy:getGalleryRunData()
 
-	arg_49_0.curPicSelectDateValue = var_49_0.dateValue
-	arg_49_0.curPicSortValue = var_49_0.sortValue
-	arg_49_0.curMiddleDataIndex = var_49_0.middleIndex
-	arg_49_0.curPicLikeValue = var_49_0.likeValue
-	arg_49_0.curFilteLoadingBGValue = var_49_0.bgFilteValue
+	arg_52_0.curPicSelectDateValue = var_52_0.dateValue
+	arg_52_0.curPicSortValue = var_52_0.sortValue
+	arg_52_0.curMiddleDataIndex = var_52_0.middleIndex
+	arg_52_0.curPicLikeValue = var_52_0.likeValue
+	arg_52_0.curFilteLoadingBGValue = var_52_0.bgFilteValue
 
-	setText(arg_49_0.progressText, arg_49_0.curMiddleDataIndex .. "/" .. #arg_49_0.picForShowConfigList)
+	setText(arg_52_0.progressText, arg_52_0.curMiddleDataIndex .. "/" .. #arg_52_0.picForShowConfigList)
 
-	local var_49_1 = table.indexof(GalleryConst.DateIndex, arg_49_0.curPicSelectDateValue, 1)
-	local var_49_2 = GalleryConst.DateIndexName[var_49_1]
+	local var_52_1 = table.indexof(GalleryConst.DateIndex, arg_52_0.curPicSelectDateValue, 1)
+	local var_52_2 = GalleryConst.DateIndexName[var_52_1]
 
-	setText(arg_49_0.timeTextSelected, var_49_2)
+	setText(arg_52_0.timeTextSelected, var_52_2)
 
-	local var_49_3 = arg_49_0.curMiddleDataIndex - 1
+	local var_52_3 = arg_52_0.curMiddleDataIndex - 1
 
-	triggerToggle(arg_49_0.likeFilterToggle, arg_49_0.curPicLikeValue == GalleryConst.Filte_Like_Value)
-	triggerToggle(arg_49_0.orderToggle, arg_49_0.curPicSortValue == GalleryConst.Sort_Order_Down)
-	arg_49_0.lScrollPageSC:MoveToItemID(var_49_3)
+	triggerToggle(arg_52_0.likeFilterToggle, arg_52_0.curPicLikeValue == GalleryConst.Filte_Like_Value)
+	triggerToggle(arg_52_0.orderToggle, arg_52_0.curPicSortValue == GalleryConst.Sort_Order_Down)
+	arg_52_0.lScrollPageSC:MoveToItemID(var_52_3)
 end
 
-function var_0_0.tryShowTipMsgBox(arg_50_0)
-	if arg_50_0.appreciateProxy:isGalleryHaveNewRes() then
-		local function var_50_0()
+function var_0_0.tryShowTipMsgBox(arg_53_0)
+	if arg_53_0.appreciateProxy:isGalleryHaveNewRes() then
+		local function var_53_0()
 			PlayerPrefs.SetInt("galleryVersion", GalleryConst.Version)
-			arg_50_0:emit(CollectionScene.UPDATE_RED_POINT)
+			arg_53_0:emit(CollectionScene.UPDATE_RED_POINT)
 		end
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			hideClose = true,
 			hideNo = true,
 			content = i18n("res_pic_new_tip", GalleryConst.NewCount),
-			onYes = var_50_0,
-			onCancel = var_50_0,
-			onClose = var_50_0
+			onYes = var_53_0,
+			onCancel = var_53_0,
+			onClose = var_53_0
 		})
 	end
 end
 
-function var_0_0.cardUpdate(arg_52_0, arg_52_1, arg_52_2)
-	local var_52_0 = arg_52_2:Find("CardImg")
-	local var_52_1 = arg_52_2:Find("CardNum/Text")
-	local var_52_2 = arg_52_2:Find("SelectBtn")
-	local var_52_3 = arg_52_2:Find("BlackMask")
-	local var_52_4 = var_52_3:Find("Update")
-	local var_52_5 = var_52_3:Find("DownloadBtn")
-	local var_52_6 = var_52_3:Find("LockImg")
-	local var_52_7 = var_52_3:Find("TextUnlockTip")
-	local var_52_8 = var_52_3:Find("UnLockBtn")
+function var_0_0.cardUpdate(arg_55_0, arg_55_1, arg_55_2)
+	local var_55_0 = arg_55_2:Find("CardImg")
+	local var_55_1 = arg_55_2:Find("CardNum/Text")
+	local var_55_2 = arg_55_2:Find("SelectBtn")
 
-	setActive(var_52_4, false)
+	setActive(var_55_2, false)
 
-	local var_52_9 = arg_52_1 + 1
-	local var_52_10 = arg_52_0:getPicConfigForShowByIndex(var_52_9)
-	local var_52_11 = var_52_10.illustration .. "_t"
-	local var_52_12 = GalleryConst.CARD_PATH_PREFIX .. var_52_11
+	local var_55_3 = arg_55_2:Find("UsedTag")
+	local var_55_4 = arg_55_2:Find("BlackMask")
+	local var_55_5 = var_55_4:Find("Update")
+	local var_55_6 = var_55_4:Find("DownloadBtn")
+	local var_55_7 = var_55_4:Find("LockImg")
+	local var_55_8 = var_55_4:Find("TextUnlockTip")
+	local var_55_9 = var_55_4:Find("UnLockBtn")
 
-	arg_52_0.resLoader:LoadSprite(var_52_12, var_52_11, var_52_0, false)
-	setText(var_52_1, "#" .. var_52_9)
+	setActive(var_55_5, false)
 
-	local var_52_13 = var_52_10.id
-	local var_52_14
-	local var_52_15
-	local var_52_16 = arg_52_0:isPicExist(var_52_13)
-	local var_52_17 = arg_52_0:getPicStateByID(var_52_13)
+	local var_55_10 = arg_55_1 + 1
+	local var_55_11 = arg_55_0:getPicConfigForShowByIndex(var_55_10)
+	local var_55_12 = var_55_11.illustration .. "_t"
+	local var_55_13 = GalleryConst.CARD_PATH_PREFIX .. var_55_12
 
-	if var_52_17 == GalleryConst.CardStates.DirectShow then
+	arg_55_0.resLoader:LoadSprite(var_55_13, var_55_12, var_55_0, false)
+	setText(var_55_1, "#" .. var_55_10)
+
+	local var_55_14 = var_55_11.id
+	local var_55_15
+	local var_55_16
+	local var_55_17 = arg_55_0:isPicExist(var_55_14)
+	local var_55_18 = arg_55_0:getPicStateByID(var_55_14)
+
+	if var_55_18 == GalleryConst.CardStates.DirectShow then
 		print("is impossible to go to this, something wrong")
 
-		if var_52_16 then
-			setActive(var_52_2, true)
-			setActive(var_52_3, false)
+		if var_55_17 then
+			setActive(var_55_4, false)
 		else
-			setActive(var_52_2, false)
-			setActive(var_52_3, true)
-			setActive(var_52_5, true)
-			setActive(var_52_6, false)
-			setActive(var_52_7, false)
-			setActive(var_52_8, false)
+			setActive(var_55_4, true)
+			setActive(var_55_6, true)
+			setActive(var_55_7, false)
+			setActive(var_55_8, false)
+			setActive(var_55_9, false)
 		end
-	elseif var_52_17 == GalleryConst.CardStates.Unlocked then
-		if var_52_16 then
-			local var_52_18 = GalleryConst.GetBGFuncTag()
+	elseif var_55_18 == GalleryConst.CardStates.Unlocked then
+		if var_55_17 then
+			local var_55_19 = getProxy(LoadingPicProxy):getDiyModeOpenFlag()
+			local var_55_20 = table.contains(getProxy(LoadingPicProxy):getGalleryPicIDList(), var_55_14)
 
-			setActive(var_52_2, var_52_18)
-			setActive(var_52_3, false)
+			setActive(var_55_3, var_55_19 and var_55_20)
+			setActive(var_55_4, false)
 		end
-	elseif var_52_17 == GalleryConst.CardStates.Unlockable then
-		setActive(var_52_2, false)
-		setActive(var_52_3, true)
-		setActive(var_52_5, false)
-		setActive(var_52_6, true)
-		setActive(var_52_7, false)
-		setActive(var_52_8, true)
-		onButton(arg_52_0, var_52_8, function()
-			if not arg_52_0.appreciateUnlockMsgBox then
-				arg_52_0.appreciateUnlockMsgBox = AppreciateUnlockMsgBox.New(arg_52_0._tf, arg_52_0.event, arg_52_0.contextData)
+	elseif var_55_18 == GalleryConst.CardStates.Unlockable then
+		setActive(var_55_2, false)
+		setActive(var_55_4, true)
+		setActive(var_55_6, false)
+		setActive(var_55_7, true)
+		setActive(var_55_8, false)
+		setActive(var_55_9, true)
+		onButton(arg_55_0, var_55_9, function()
+			if not arg_55_0.appreciateUnlockMsgBox then
+				arg_55_0.appreciateUnlockMsgBox = AppreciateUnlockMsgBox.New(arg_55_0._tf, arg_55_0.event, arg_55_0.contextData)
 			end
 
-			arg_52_0.appreciateUnlockMsgBox:Reset()
-			arg_52_0.appreciateUnlockMsgBox:Load()
-			arg_52_0.appreciateUnlockMsgBox:ActionInvoke("showCustomMsgBox", {
+			arg_55_0.appreciateUnlockMsgBox:Reset()
+			arg_55_0.appreciateUnlockMsgBox:Load()
+			arg_55_0.appreciateUnlockMsgBox:ActionInvoke("showCustomMsgBox", {
 				content = i18n("res_unlock_tip"),
-				items = arg_52_0.appreciateProxy:getPicUnlockMaterialByID(var_52_13),
+				items = arg_55_0.appreciateProxy:getPicUnlockMaterialByID(var_55_14),
 				onYes = function()
 					pg.m02:sendNotification(GAME.APPRECIATE_GALLERY_UNLOCK, {
-						picID = var_52_13,
+						picID = var_55_14,
 						unlockCBFunc = function()
-							arg_52_0:cardUpdate(arg_52_1, arg_52_2)
-							arg_52_0.appreciateUnlockMsgBox:hideCustomMsgBox()
+							arg_55_0:cardUpdate(arg_55_1, arg_55_2)
+							arg_55_0.appreciateUnlockMsgBox:hideCustomMsgBox()
 						end
 					})
 				end
 			})
 		end, SFX_PANEL)
-	elseif var_52_17 == GalleryConst.CardStates.DisUnlockable then
-		setActive(var_52_2, false)
-		setActive(var_52_3, true)
-		setActive(var_52_5, false)
-		setActive(var_52_6, true)
-		setActive(var_52_7, true)
-		setActive(var_52_8, false)
-		setText(var_52_7, var_52_10.illustrate)
+	elseif var_55_18 == GalleryConst.CardStates.DisUnlockable then
+		setActive(var_55_2, false)
+		setActive(var_55_4, true)
+		setActive(var_55_6, false)
+		setActive(var_55_7, true)
+		setActive(var_55_8, true)
+		setActive(var_55_9, false)
+		setText(var_55_8, var_55_11.illustrate)
 	end
 end
 
-function var_0_0.initEmptyCard(arg_56_0, arg_56_1)
-	local var_56_0 = arg_56_1:Find("CardImg")
-	local var_56_1 = arg_56_1:Find("CardNum")
-	local var_56_2 = arg_56_1:Find("SelectBtn")
+function var_0_0.updateCurCardLoadingBtn(arg_59_0, arg_59_1)
+	local var_59_0 = arg_59_1 and tostring(arg_59_1 - 1) or tostring(arg_59_0.curMiddleDataIndex - 1)
+	local var_59_1 = arg_59_0.scrollListContainer:Find(var_59_0):Find("UsedTag")
+	local var_59_2 = arg_59_0:getPicConfigForShowByIndex(arg_59_1 or arg_59_0.curMiddleDataIndex).id
 
-	setActive(var_56_0, true)
-	setActive(var_56_1, false)
-	setActive(var_56_2, false)
+	setActive(var_59_1, arg_59_0:isPicUsed(var_59_2))
+end
 
-	local var_56_3
-	local var_56_4
+function var_0_0.initEmptyCard(arg_60_0, arg_60_1)
+	local var_60_0 = arg_60_1:Find("CardImg")
+	local var_60_1 = arg_60_1:Find("CardNum")
+	local var_60_2 = arg_60_1:Find("SelectBtn")
+	local var_60_3 = arg_60_1:Find("UsedTag")
 
-	for iter_56_0, iter_56_1 in ipairs(pg.gallery_config.all) do
-		local var_56_5 = pg.gallery_config[iter_56_1].illustration .. "_t"
-		local var_56_6 = GalleryConst.CARD_PATH_PREFIX .. var_56_5
+	setActive(var_60_0, true)
+	setActive(var_60_1, false)
+	setActive(var_60_2, false)
+	setActive(var_60_3, false)
 
-		if checkABExist(var_56_6) then
-			var_56_3 = var_56_6
-			var_56_4 = var_56_5
+	local var_60_4
+	local var_60_5
+
+	for iter_60_0, iter_60_1 in ipairs(pg.gallery_config.all) do
+		local var_60_6 = pg.gallery_config[iter_60_1].illustration .. "_t"
+		local var_60_7 = GalleryConst.CARD_PATH_PREFIX .. var_60_6
+
+		if checkABExist(var_60_7) then
+			var_60_4 = var_60_7
+			var_60_5 = var_60_6
 
 			break
 		end
 	end
 
-	arg_56_0.resLoader:LoadSprite(var_56_3, var_56_4, var_56_0, false)
+	arg_60_0.resLoader:LoadSprite(var_60_4, var_60_5, var_60_0, false)
 
-	local var_56_7 = arg_56_1:Find("BlackMask")
-	local var_56_8 = var_56_7:Find("LockImg")
-	local var_56_9 = var_56_7:Find("TextUnlockTip")
-	local var_56_10 = var_56_7:Find("UnLockBtn")
+	local var_60_8 = arg_60_1:Find("BlackMask")
+	local var_60_9 = var_60_8:Find("LockImg")
+	local var_60_10 = var_60_8:Find("TextUnlockTip")
+	local var_60_11 = var_60_8:Find("UnLockBtn")
 
-	setActive(var_56_7, true)
-	setActive(var_56_8, false)
-	setActive(var_56_9, false)
-	setActive(var_56_10, false)
+	setActive(var_60_8, true)
+	setActive(var_60_9, false)
+	setActive(var_60_10, false)
+	setActive(var_60_11, false)
 
-	local var_56_11 = var_56_7:Find("Update")
-	local var_56_12 = var_56_11:Find("Btn")
-	local var_56_13 = var_56_11:Find("Progress")
-	local var_56_14 = var_56_13:Find("Slider")
+	local var_60_12 = var_60_8:Find("Update")
+	local var_60_13 = var_60_12:Find("Btn")
+	local var_60_14 = var_60_12:Find("Progress")
+	local var_60_15 = var_60_14:Find("Slider")
 
-	setActive(var_56_11, true)
-	setActive(var_56_12, true)
-	setActive(var_56_13, false)
-	onButton(arg_56_0, var_56_12, function()
-		warning("click download btn,state:", tostring(arg_56_0.manager.state))
+	setActive(var_60_12, true)
+	setActive(var_60_13, true)
+	setActive(var_60_14, false)
+	onButton(arg_60_0, var_60_13, function()
+		warning("click download btn,state:", tostring(arg_60_0.manager.state))
 
-		local var_57_0 = arg_56_0.manager.state
+		local var_61_0 = arg_60_0.manager.state
 
-		if var_57_0 == DownloadState.None or var_57_0 == DownloadState.CheckFailure then
-			arg_56_0.manager:CheckD()
-		elseif var_57_0 == DownloadState.CheckToUpdate or var_57_0 == DownloadState.UpdateFailure then
-			local var_57_1 = GroupHelper.GetGroupSize(var_0_0.GalleryPicGroupName)
-			local var_57_2 = HashUtil.BytesToString(var_57_1)
+		if var_61_0 == DownloadState.None or var_61_0 == DownloadState.CheckFailure then
+			arg_60_0.manager:CheckD()
+		elseif var_61_0 == DownloadState.CheckToUpdate or var_61_0 == DownloadState.UpdateFailure then
+			local var_61_1 = GroupHelper.GetGroupSize(var_0_0.GalleryPicGroupName)
+			local var_61_2 = HashUtil.BytesToString(var_61_1)
 
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_NORMAL,
-				content = string.format(i18n("group_download_tip", var_57_2)),
+				content = string.format(i18n("group_download_tip", var_61_2)),
 				onYes = function()
-					arg_56_0.manager:UpdateD()
+					arg_60_0.manager:UpdateD()
 				end
 			})
 		end
 	end, SFX_PANEL)
-	arg_56_0:startUpdateEmptyCard(arg_56_1)
+	arg_60_0:startUpdateEmptyCard(arg_60_1)
 end
 
-function var_0_0.updateEmptyCard(arg_59_0, arg_59_1)
-	local var_59_0 = arg_59_1:Find("BlackMask"):Find("Update")
-	local var_59_1 = var_59_0:Find("Btn")
-	local var_59_2 = var_59_1:Find("Text")
-	local var_59_3 = var_59_0:Find("Progress")
-	local var_59_4 = var_59_3:Find("Slider")
-	local var_59_5 = arg_59_0.manager.state
+function var_0_0.updateEmptyCard(arg_63_0, arg_63_1)
+	local var_63_0 = arg_63_1:Find("BlackMask"):Find("Update")
+	local var_63_1 = var_63_0:Find("Btn")
+	local var_63_2 = var_63_1:Find("Text")
+	local var_63_3 = var_63_0:Find("Progress")
+	local var_63_4 = var_63_3:Find("Slider")
+	local var_63_5 = arg_63_0.manager.state
 
-	if var_59_5 == DownloadState.None then
-		setText(var_59_2, "None")
-		setActive(var_59_1, true)
-		setActive(var_59_3, false)
-	elseif var_59_5 == DownloadState.Checking then
-		setText(var_59_2, i18n("word_manga_checking"))
-		setActive(var_59_1, true)
-		setActive(var_59_3, false)
-	elseif var_59_5 == DownloadState.CheckToUpdate then
-		setText(var_59_2, i18n("word_manga_checktoupdate"))
-		setActive(var_59_1, true)
-		setActive(var_59_3, false)
-	elseif var_59_5 == DownloadState.CheckOver then
-		setText(var_59_2, "Latest Ver")
-		setActive(var_59_1, true)
-		setActive(var_59_3, false)
-	elseif var_59_5 == DownloadState.CheckFailure then
-		setText(var_59_2, i18n("word_manga_checkfailure"))
-		setActive(var_59_1, true)
-		setActive(var_59_3, false)
-	elseif var_59_5 == DownloadState.Updating then
-		setText(var_59_2, i18n("word_manga_updating", arg_59_0.manager.downloadCount, arg_59_0.manager.downloadTotal))
-		setActive(var_59_1, false)
-		setActive(var_59_3, true)
-		setSlider(var_59_4, 0, arg_59_0.manager.downloadTotal, arg_59_0.manager.downloadCount)
-	elseif var_59_5 == DownloadState.UpdateSuccess then
-		setText(var_59_2, i18n("word_manga_updatesuccess"))
-		setActive(var_59_1, true)
-		setActive(var_59_3, false)
-		arg_59_0:filtePic()
-		arg_59_0:updateCardListPanel()
-	elseif var_59_5 == DownloadState.UpdateFailure then
-		setText(var_59_2, i18n("word_manga_updatefailure"))
-		setActive(var_59_1, true)
-		setActive(var_59_3, false)
+	if var_63_5 == DownloadState.None then
+		setText(var_63_2, "None")
+		setActive(var_63_1, true)
+		setActive(var_63_3, false)
+	elseif var_63_5 == DownloadState.Checking then
+		setText(var_63_2, i18n("word_manga_checking"))
+		setActive(var_63_1, true)
+		setActive(var_63_3, false)
+	elseif var_63_5 == DownloadState.CheckToUpdate then
+		setText(var_63_2, i18n("word_manga_checktoupdate"))
+		setActive(var_63_1, true)
+		setActive(var_63_3, false)
+	elseif var_63_5 == DownloadState.CheckOver then
+		setText(var_63_2, "Latest Ver")
+		setActive(var_63_1, true)
+		setActive(var_63_3, false)
+	elseif var_63_5 == DownloadState.CheckFailure then
+		setText(var_63_2, i18n("word_manga_checkfailure"))
+		setActive(var_63_1, true)
+		setActive(var_63_3, false)
+	elseif var_63_5 == DownloadState.Updating then
+		setText(var_63_2, i18n("word_manga_updating", arg_63_0.manager.downloadCount, arg_63_0.manager.downloadTotal))
+		setActive(var_63_1, false)
+		setActive(var_63_3, true)
+		setSlider(var_63_4, 0, arg_63_0.manager.downloadTotal, arg_63_0.manager.downloadCount)
+	elseif var_63_5 == DownloadState.UpdateSuccess then
+		setText(var_63_2, i18n("word_manga_updatesuccess"))
+		setActive(var_63_1, true)
+		setActive(var_63_3, false)
+		arg_63_0:filtePic()
+		arg_63_0:updateCardListPanel()
+	elseif var_63_5 == DownloadState.UpdateFailure then
+		setText(var_63_2, i18n("word_manga_updatefailure"))
+		setActive(var_63_1, true)
+		setActive(var_63_3, false)
 	end
 end
 
-function var_0_0.startUpdateEmptyCard(arg_60_0, arg_60_1)
-	if arg_60_0.downloadCheckTimer then
-		arg_60_0.downloadCheckTimer:Stop()
+function var_0_0.startUpdateEmptyCard(arg_64_0, arg_64_1)
+	if arg_64_0.downloadCheckTimer then
+		arg_64_0.downloadCheckTimer:Stop()
 	end
 
-	arg_60_0.downloadCheckTimer = Timer.New(function()
-		arg_60_0:updateEmptyCard(arg_60_1)
+	arg_64_0.downloadCheckTimer = Timer.New(function()
+		arg_64_0:updateEmptyCard(arg_64_1)
 	end, 0.5, -1)
 
-	arg_60_0.downloadCheckTimer:Start()
-	arg_60_0:updateEmptyCard(arg_60_1)
+	arg_64_0.downloadCheckTimer:Start()
+	arg_64_0:updateEmptyCard(arg_64_1)
 end
 
-function var_0_0.stopUpdateEmptyCard(arg_62_0, arg_62_1)
-	if arg_62_0.downloadCheckTimer then
-		arg_62_0.downloadCheckTimer:Stop()
+function var_0_0.stopUpdateEmptyCard(arg_66_0, arg_66_1)
+	if arg_66_0.downloadCheckTimer then
+		arg_66_0.downloadCheckTimer:Stop()
 	end
 end
 
-function var_0_0.getPicConfigForShowByIndex(arg_63_0, arg_63_1)
-	local var_63_0 = arg_63_0.picForShowConfigList[arg_63_1]
+function var_0_0.getPicConfigForShowByIndex(arg_67_0, arg_67_1)
+	local var_67_0 = arg_67_0.picForShowConfigList[arg_67_1]
 
-	if var_63_0 then
-		return var_63_0
-	elseif var_63_0 == false then
+	if var_67_0 then
+		return var_67_0
+	elseif var_67_0 == false then
 		return false
 	else
-		assert(false, "不存在的Index:" .. tostring(arg_63_1))
+		assert(false, "不存在的Index:" .. tostring(arg_67_1))
 	end
 end
 
-function var_0_0.sortPicConfigListForShow(arg_64_0)
-	local function var_64_0(arg_65_0, arg_65_1)
-		if arg_64_0.curPicSortValue == GalleryConst.Sort_Order_Up then
-			if arg_65_0.id < arg_65_1.id then
+function var_0_0.sortPicConfigListForShow(arg_68_0)
+	local function var_68_0(arg_69_0, arg_69_1)
+		if arg_68_0.curPicSortValue == GalleryConst.Sort_Order_Up then
+			if arg_69_0.id < arg_69_1.id then
 				return true
 			else
 				return false
 			end
-		elseif arg_64_0.curPicSortValue == GalleryConst.Sort_Order_Down then
-			if arg_65_0.id < arg_65_1.id then
+		elseif arg_68_0.curPicSortValue == GalleryConst.Sort_Order_Down then
+			if arg_69_0.id < arg_69_1.id then
 				return false
 			else
 				return true
@@ -868,145 +902,145 @@ function var_0_0.sortPicConfigListForShow(arg_64_0)
 		end
 	end
 
-	table.sort(arg_64_0.picForShowConfigList, var_64_0)
+	table.sort(arg_68_0.picForShowConfigList, var_68_0)
 end
 
-function var_0_0.isPicExist(arg_66_0, arg_66_1)
-	local var_66_0 = pg.gallery_config[arg_66_1].illustration
-	local var_66_1 = GalleryConst.PIC_PATH_PREFIX .. var_66_0
-	local var_66_2 = arg_66_0.manager:CheckF(var_66_1)
-	local var_66_3 = var_66_2 == DownloadState.None or var_66_2 == DownloadState.UpdateSuccess
-	local var_66_4 = var_66_1 .. "_t"
-	local var_66_5 = arg_66_0.manager:CheckF(var_66_4)
-	local var_66_6 = var_66_5 == DownloadState.None or var_66_5 == DownloadState.UpdateSuccess
+function var_0_0.isPicExist(arg_70_0, arg_70_1)
+	local var_70_0 = pg.gallery_config[arg_70_1].illustration
+	local var_70_1 = GalleryConst.PIC_PATH_PREFIX .. var_70_0
+	local var_70_2 = arg_70_0.manager:CheckF(var_70_1)
+	local var_70_3 = var_70_2 == DownloadState.None or var_70_2 == DownloadState.UpdateSuccess
+	local var_70_4 = var_70_1 .. "_t"
+	local var_70_5 = arg_70_0.manager:CheckF(var_70_4)
+	local var_70_6 = var_70_5 == DownloadState.None or var_70_5 == DownloadState.UpdateSuccess
 
-	return var_66_3 and var_66_6
+	return var_70_3 and var_70_6
 end
 
-function var_0_0.getPicStateByID(arg_67_0, arg_67_1)
-	if not arg_67_0.appreciateProxy:isPicNeedUnlockByID(arg_67_1) then
+function var_0_0.getPicStateByID(arg_71_0, arg_71_1)
+	if not arg_71_0.appreciateProxy:isPicNeedUnlockByID(arg_71_1) then
 		return GalleryConst.CardStates.Unlocked
-	elseif arg_67_0.appreciateProxy:isPicUnlockedByID(arg_67_1) then
+	elseif arg_71_0.appreciateProxy:isPicUnlockedByID(arg_71_1) then
 		return GalleryConst.CardStates.Unlocked
-	elseif arg_67_0.appreciateProxy:isPicUnlockableByID(arg_67_1) then
+	elseif arg_71_0.appreciateProxy:isPicUnlockableByID(arg_71_1) then
 		return GalleryConst.CardStates.Unlockable
 	else
 		return GalleryConst.CardStates.DisUnlockable
 	end
 end
 
-function var_0_0.filtePicForShow(arg_68_0)
-	local var_68_0 = {}
+function var_0_0.filtePicForShow(arg_72_0)
+	local var_72_0 = {}
 
-	for iter_68_0, iter_68_1 in ipairs(pg.gallery_config.all) do
-		if arg_68_0:isPicExist(iter_68_1) then
-			local var_68_1 = arg_68_0.appreciateProxy:getSinglePicConfigByID(iter_68_1)
+	for iter_72_0, iter_72_1 in ipairs(pg.gallery_config.all) do
+		if arg_72_0:isPicExist(iter_72_1) then
+			local var_72_1 = arg_72_0.appreciateProxy:getSinglePicConfigByID(iter_72_1)
 
-			if arg_68_0.appreciateProxy:isPicNeedUnlockByID(iter_68_1) then
-				if not arg_68_0.appreciateProxy:isPicUnlockedByID(iter_68_1) then
-					local var_68_2, var_68_3 = arg_68_0.appreciateProxy:isPicUnlockableByID(iter_68_1)
+			if arg_72_0.appreciateProxy:isPicNeedUnlockByID(iter_72_1) then
+				if not arg_72_0.appreciateProxy:isPicUnlockedByID(iter_72_1) then
+					local var_72_2, var_72_3 = arg_72_0.appreciateProxy:isPicUnlockableByID(iter_72_1)
 
-					if var_68_2 then
-						var_68_0[#var_68_0 + 1] = var_68_1
-					elseif var_68_3 then
-						var_68_0[#var_68_0 + 1] = var_68_1
+					if var_72_2 then
+						var_72_0[#var_72_0 + 1] = var_72_1
+					elseif var_72_3 then
+						var_72_0[#var_72_0 + 1] = var_72_1
 					end
 				else
-					var_68_0[#var_68_0 + 1] = var_68_1
+					var_72_0[#var_72_0 + 1] = var_72_1
 				end
 			else
-				var_68_0[#var_68_0 + 1] = var_68_1
+				var_72_0[#var_72_0 + 1] = var_72_1
 			end
 		end
 	end
 
-	return var_68_0
+	return var_72_0
 end
 
-function var_0_0.filtePicForShowByDate(arg_69_0)
-	local var_69_0 = arg_69_0.curPicSelectDateValue
+function var_0_0.filtePicForShowByDate(arg_73_0)
+	local var_73_0 = arg_73_0.curPicSelectDateValue
 
-	if var_69_0 == GalleryConst.Data_All_Value then
-		return arg_69_0:filtePicForShow()
+	if var_73_0 == GalleryConst.Data_All_Value then
+		return arg_73_0:filtePicForShow()
 	end
 
-	local var_69_1 = {}
+	local var_73_1 = {}
 
-	for iter_69_0, iter_69_1 in ipairs(pg.gallery_config.all) do
-		if arg_69_0:isPicExist(iter_69_1) then
-			local var_69_2 = arg_69_0.appreciateProxy:getSinglePicConfigByID(iter_69_1)
+	for iter_73_0, iter_73_1 in ipairs(pg.gallery_config.all) do
+		if arg_73_0:isPicExist(iter_73_1) then
+			local var_73_2 = arg_73_0.appreciateProxy:getSinglePicConfigByID(iter_73_1)
 
-			if arg_69_0.appreciateProxy:isPicNeedUnlockByID(iter_69_1) then
-				if not arg_69_0.appreciateProxy:isPicUnlockedByID(iter_69_1) then
-					local var_69_3, var_69_4 = arg_69_0.appreciateProxy:isPicUnlockableByID(iter_69_1)
+			if arg_73_0.appreciateProxy:isPicNeedUnlockByID(iter_73_1) then
+				if not arg_73_0.appreciateProxy:isPicUnlockedByID(iter_73_1) then
+					local var_73_3, var_73_4 = arg_73_0.appreciateProxy:isPicUnlockableByID(iter_73_1)
 
-					if var_69_3 then
-						if var_69_0 == var_69_2.year then
-							var_69_1[#var_69_1 + 1] = var_69_2
+					if var_73_3 then
+						if var_73_0 == var_73_2.year then
+							var_73_1[#var_73_1 + 1] = var_73_2
 						end
-					elseif var_69_4 and var_69_0 == var_69_2.year then
-						var_69_1[#var_69_1 + 1] = var_69_2
+					elseif var_73_4 and var_73_0 == var_73_2.year then
+						var_73_1[#var_73_1 + 1] = var_73_2
 					end
-				elseif var_69_0 == var_69_2.year then
-					var_69_1[#var_69_1 + 1] = var_69_2
+				elseif var_73_0 == var_73_2.year then
+					var_73_1[#var_73_1 + 1] = var_73_2
 				end
-			elseif var_69_0 == var_69_2.year then
-				var_69_1[#var_69_1 + 1] = var_69_2
+			elseif var_73_0 == var_73_2.year then
+				var_73_1[#var_73_1 + 1] = var_73_2
 			end
 		end
 	end
 
-	return var_69_1
+	return var_73_1
 end
 
-function var_0_0.filtePicForShowByLike(arg_70_0)
-	if arg_70_0.curPicLikeValue == GalleryConst.Filte_Normal_Value then
-		return arg_70_0.picForShowConfigList
+function var_0_0.filtePicForShowByLike(arg_74_0)
+	if arg_74_0.curPicLikeValue == GalleryConst.Filte_Normal_Value then
+		return arg_74_0.picForShowConfigList
 	end
 
-	local var_70_0 = {}
+	local var_74_0 = {}
 
-	for iter_70_0, iter_70_1 in ipairs(arg_70_0.picForShowConfigList) do
-		local var_70_1 = iter_70_1.id
+	for iter_74_0, iter_74_1 in ipairs(arg_74_0.picForShowConfigList) do
+		local var_74_1 = iter_74_1.id
 
-		if arg_70_0.appreciateProxy:isLikedByPicID(var_70_1) then
-			var_70_0[#var_70_0 + 1] = iter_70_1
+		if arg_74_0.appreciateProxy:isLikedByPicID(var_74_1) then
+			var_74_0[#var_74_0 + 1] = iter_74_1
 		end
 	end
 
-	return var_70_0
+	return var_74_0
 end
 
-function var_0_0.filtePicForShowByLoadingBG(arg_71_0)
-	if arg_71_0.curFilteLoadingBGValue == GalleryConst.Loading_BG_NO_Filte then
-		return arg_71_0.picForShowConfigList
+function var_0_0.filtePicForShowByLoadingBG(arg_75_0)
+	if arg_75_0.curFilteLoadingBGValue == GalleryConst.Loading_BG_NO_Filte then
+		return arg_75_0.picForShowConfigList
 	end
 
-	local var_71_0 = {}
+	local var_75_0 = {}
 
-	for iter_71_0, iter_71_1 in ipairs(arg_71_0.picForShowConfigList) do
-		local var_71_1 = iter_71_1.id
+	for iter_75_0, iter_75_1 in ipairs(arg_75_0.picForShowConfigList) do
+		local var_75_1 = iter_75_1.id
 
-		if GalleryConst.IsInBGIDList(var_71_1) then
-			var_71_0[#var_71_0 + 1] = iter_71_1
+		if GalleryConst.IsInBGIDList(var_75_1) then
+			var_75_0[#var_75_0 + 1] = iter_75_1
 		end
 	end
 
-	return var_71_0
+	return var_75_0
 end
 
-function var_0_0.filtePic(arg_72_0)
-	arg_72_0.picForShowConfigList = arg_72_0:filtePicForShow()
-	arg_72_0.picForShowConfigList = arg_72_0:filtePicForShowByLike(arg_72_0.curPicLikeValue)
+function var_0_0.filtePic(arg_76_0)
+	arg_76_0.picForShowConfigList = arg_76_0:filtePicForShow()
+	arg_76_0.picForShowConfigList = arg_76_0:filtePicForShowByLike(arg_76_0.curPicLikeValue)
 
-	arg_72_0:sortPicConfigListForShow()
+	arg_76_0:sortPicConfigListForShow()
 
-	if arg_72_0:isNeedShowDownBtn() then
-		table.insert(arg_72_0.picForShowConfigList, 1, false)
+	if arg_76_0:isNeedShowDownBtn() then
+		table.insert(arg_76_0.picForShowConfigList, 1, false)
 	end
 end
 
-function var_0_0.isNeedShowDownBtn(arg_73_0)
+function var_0_0.isNeedShowDownBtn(arg_77_0)
 	if Application.isEditor then
 		return false
 	end
@@ -1020,6 +1054,54 @@ function var_0_0.isNeedShowDownBtn(arg_73_0)
 	end
 
 	return true
+end
+
+function var_0_0.isPicUsed(arg_78_0, arg_78_1)
+	return table.contains(getProxy(LoadingPicProxy):getGalleryPicIDList(true), arg_78_1)
+end
+
+function var_0_0.removeLoadingPic(arg_79_0, arg_79_1)
+	local var_79_0 = {}
+	local var_79_1 = getProxy(LoadingPicProxy):getGalleryPicIDList()
+
+	for iter_79_0, iter_79_1 in ipairs(var_79_1) do
+		if iter_79_1 == arg_79_1 then
+			table.remove(var_79_1, iter_79_0)
+
+			break
+		end
+	end
+
+	var_79_0.galleryPicIDList = var_79_1
+
+	function var_79_0.callback()
+		arg_79_0:updateLoadingBtn(arg_79_1)
+		arg_79_0:updateCurCardLoadingBtn()
+	end
+
+	pg.m02:sendNotification(GAME.UPDATE_LOADING_PIC, var_79_0)
+end
+
+function var_0_0.addLoadingPic(arg_81_0, arg_81_1)
+	if arg_81_0:isPicUsed(arg_81_1) then
+		warning("already used.", arg_81_1)
+
+		return
+	end
+
+	local var_81_0 = {}
+	local var_81_1 = getProxy(LoadingPicProxy):getGalleryPicIDList()
+
+	table.insert(var_81_1, arg_81_1)
+
+	var_81_0.galleryPicIDList = var_81_1
+
+	function var_81_0.callback()
+		arg_81_0:updateLoadingBtn(arg_81_1)
+		arg_81_0:updateCurCardLoadingBtn()
+	end
+
+	pg.m02:sendNotification(GAME.UPDATE_LOADING_PIC, var_81_0)
 end
 
 return var_0_0

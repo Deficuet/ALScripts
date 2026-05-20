@@ -25,13 +25,15 @@ function var_0_0.init(arg_4_0)
 		arg_4_0.blurPanel:Find("adapt/left_length/frame/tagRoot/iconframe"),
 		arg_4_0.blurPanel:Find("adapt/left_length/frame/tagRoot/chatframe"),
 		arg_4_0.blurPanel:Find("adapt/left_length/frame/tagRoot/achievement"),
-		arg_4_0.blurPanel:Find("adapt/left_length/frame/tagRoot/combatUI")
+		arg_4_0.blurPanel:Find("adapt/left_length/frame/tagRoot/combatUI"),
+		arg_4_0.blurPanel:Find("adapt/left_length/frame/tagRoot/loadingpic")
 	}
 	arg_4_0.panels = {
 		AttireIconFramePanel.New(arg_4_0._tf, arg_4_0.event, arg_4_0.contextData),
 		AttireChatFramePanel.New(arg_4_0._tf, arg_4_0.event, arg_4_0.contextData),
 		AttireAchievementPanel.New(arg_4_0._tf, arg_4_0.event, arg_4_0.contextData),
-		AttireCombatUIPanel.New(arg_4_0._tf, arg_4_0.event, arg_4_0.contextData)
+		AttireCombatUIPanel.New(arg_4_0._tf, arg_4_0.event, arg_4_0.contextData),
+		AttireLoadingPicPanel.New(arg_4_0._tf, arg_4_0.event, arg_4_0.contextData)
 	}
 end
 

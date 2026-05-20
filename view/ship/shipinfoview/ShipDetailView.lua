@@ -98,14 +98,17 @@ function var_0_0.InitDetail(arg_3_0)
 		arg_3_0.recordPanel:Find("frame/container/record_2/equip_btn"),
 		arg_3_0.recordPanel:Find("frame/container/record_3/equip_btn")
 	}
-	arg_3_0.nameSearchInput = arg_3_0.quickPanel:Find("serachPanel/search")
-	arg_3_0.nameSearchText = arg_3_0.nameSearchInput:Find("holder")
+	arg_3_0.searchBar = RecordableSearchBar.New(RecordableSearchBar.CreateData({
+		uiName = "RecordableSearchBarUI4ShipDetailView",
+		holder = i18n("search_equipment"),
+		onInputChanged = function()
+			arg_3_0:updateQuickPanel(true)
+		end,
+		key = arg_3_0.__cname,
+		parent = arg_3_0.quickPanel,
+		anchoredPosition = Vector3(-623, -34, 0)
+	}))
 
-	setText(arg_3_0.nameSearchText, i18n("search_equipment"))
-	setInputText(arg_3_0.nameSearchInput, "")
-	onInputChanged(arg_3_0, arg_3_0.nameSearchInput, function()
-		arg_3_0:updateQuickPanel(true)
-	end)
 	setActive(arg_3_0.detailPanel, true)
 	setActive(arg_3_0.attrs, true)
 	setActive(arg_3_0.recordPanel, false)
@@ -466,7 +469,7 @@ function var_0_0.OnSelected(arg_39_0, arg_39_1)
 end
 
 function var_0_0.UpdateUI(arg_40_0)
-	setInputText(arg_40_0.nameSearchInput, "")
+	arg_40_0.searchBar:ClearInputText()
 
 	local var_40_0 = arg_40_0:GetShipVO()
 
@@ -703,7 +706,7 @@ function var_0_0.getEquipments(arg_57_0)
 	local var_57_3 = pg.ship_data_template[var_57_1.configId]["equip_" .. arg_57_0.selectedEquip.index]
 	local var_57_4 = var_57_1:getShipType()
 	local var_57_5 = var_57_2:getEquipmentsByFillter(var_57_4, var_57_3)
-	local var_57_6 = getInputText(arg_57_0.nameSearchInput)
+	local var_57_6 = arg_57_0.searchBar:GetInputText()
 
 	if arg_57_0.equipingFlag then
 		for iter_57_0, iter_57_1 in ipairs(var_57_0:getEquipsInShips(function(arg_58_0, arg_58_1)
@@ -959,7 +962,6 @@ function var_0_0.clearListener(arg_78_0)
 end
 
 function var_0_0.OnDestroy(arg_79_0)
-	triggerToggle(arg_79_0.quickPanel:Find("serachPanel/Image"), true)
 	setParent(arg_79_0.randomFlagToggle, arg_79_0._tf)
 	arg_79_0:clearListener()
 	removeAllChildren(arg_79_0.equipmentsGrid)
@@ -986,6 +988,12 @@ function var_0_0.OnDestroy(arg_79_0)
 	arg_79_0.shipDetailLogicPanel:detach()
 
 	arg_79_0.shareData = nil
+
+	if arg_79_0.searchBar then
+		arg_79_0.searchBar:Dispose()
+
+		arg_79_0.searchBar = nil
+	end
 end
 
 return var_0_0

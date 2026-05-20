@@ -394,7 +394,16 @@ function temp()
 		莱 = {
 			蒙 = {
 				梭 = {
-					this = true
+					this = true,
+					（ = {
+						前 = {
+							排 = {
+								） = {
+									this = true
+								}
+							}
+						}
+					}
 				}
 			}
 		}
@@ -421,6 +430,20 @@ function temp()
 			this = true,
 			森 = {
 				this = true
+			},
+			茨 = {
+				亲 = {
+					王 = {
+						this = true
+					}
+				}
+			}
+		},
+		琳 = {
+			亲 = {
+				王 = {
+					this = true
+				}
 			}
 		},
 		加 = {
@@ -448,6 +471,9 @@ function temp()
 			}
 		},
 		蕾 = {
+			娜 = {
+				this = true
+			},
 			德 = {
 				贡 = {
 					this = true
@@ -990,7 +1016,18 @@ function temp()
 			斯 = {
 				贝 = {
 					特 = {
-						this = true
+						this = true,
+						· = {
+							M = {
+								E = {
+									T = {
+										A = {
+											this = true
+										}
+									}
+								}
+							}
+						}
 					}
 				}
 			}
@@ -1016,6 +1053,11 @@ function temp()
 		},
 		丝 = {
 			特 = {
+				this = true
+			}
+		},
+		丽 = {
+			莎 = {
 				this = true
 			}
 		},
@@ -1277,6 +1319,16 @@ function temp()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.霍 = {
+		比 = {
+			this = true
 		}
 	}
 end

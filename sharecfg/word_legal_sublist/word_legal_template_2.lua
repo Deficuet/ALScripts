@@ -7,16 +7,6 @@ var_0_0.word_legal_template_2 = {}
 local var_0_1 = var_0_0.word_legal_template_2
 
 function temp()
-	var_0_1.霍 = {
-		比 = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
 	var_0_1.科 = {
 		尔 = {
 			克 = {
@@ -1137,6 +1127,42 @@ function temp()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.休 = {
+		斯 = {
+			敦 = {
+				this = true,
+				I = {
+					I = {
+						this = true
+					}
+				}
+			}
+		},
+		贝 = {
+			塔 = {
+				伯 = {
+					爵 = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.法 = {
+		戈 = {
+			this = true
 		}
 	}
 end

@@ -99953,6 +99953,405 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.aircraft_template[183821] = {
+		attack_power = 2,
+		name = "易北META技能轰炸机Lv1",
+		type = 3,
+		accuracy = 23,
+		model_ID = "JU87C",
+		ACC_growth = 0,
+		crash_DMG = 156,
+		dodge = 0.315,
+		funnel_behavior = "",
+		nationality = 4,
+		id = 183821,
+		icon = "JU87C",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 11,
+		hp_growth = 1549,
+		speed = 50,
+		max_hp = 51,
+		scale = 1,
+		weapon_ID = {
+			183831
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.28,
+					1.62,
+					0
+				},
+				{
+					-1.12,
+					-1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183822] = {
+		id = 183822,
+		name = "易北META技能轰炸机Lv2",
+		hp_growth = 1781,
+		base = 183821,
+		max_hp = 57,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183832
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183823] = {
+		id = 183823,
+		name = "易北META技能轰炸机Lv3",
+		hp_growth = 2013,
+		base = 183821,
+		max_hp = 64,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183833
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183824] = {
+		id = 183824,
+		name = "易北META技能轰炸机Lv4",
+		hp_growth = 2246,
+		base = 183821,
+		max_hp = 70,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183834
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183825] = {
+		id = 183825,
+		name = "易北META技能轰炸机Lv5",
+		hp_growth = 2478,
+		base = 183821,
+		max_hp = 77,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183835
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183826] = {
+		id = 183826,
+		name = "易北META技能轰炸机Lv6",
+		hp_growth = 2710,
+		base = 183821,
+		max_hp = 84,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183836
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183827] = {
+		id = 183827,
+		name = "易北META技能轰炸机Lv7",
+		hp_growth = 2943,
+		base = 183821,
+		max_hp = 90,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183837
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183828] = {
+		id = 183828,
+		name = "易北META技能轰炸机Lv8",
+		hp_growth = 3175,
+		base = 183821,
+		max_hp = 97,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183838
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183829] = {
+		id = 183829,
+		name = "易北META技能轰炸机Lv9",
+		hp_growth = 3407,
+		base = 183821,
+		max_hp = 103,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183839
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183830] = {
+		id = 183830,
+		name = "易北META技能轰炸机Lv10",
+		hp_growth = 3640,
+		base = 183821,
+		max_hp = 110,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183840
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183841] = {
+		attack_power = 2,
+		name = "易北META技能战斗机Lv10",
+		type = 1,
+		accuracy = 23,
+		model_ID = "BF109G",
+		ACC_growth = 0,
+		crash_DMG = 65,
+		dodge = 0.315,
+		funnel_behavior = "",
+		nationality = 4,
+		id = 183841,
+		icon = "BF109G",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 10,
+		hp_growth = 1613,
+		speed = 50,
+		max_hp = 42,
+		scale = 1,
+		weapon_ID = {
+			183851
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.51,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183842] = {
+		max_hp = 48,
+		hp_growth = 1855,
+		base = 183841,
+		id = 183842,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183852
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183843] = {
+		max_hp = 55,
+		hp_growth = 2097,
+		base = 183841,
+		id = 183843,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183853
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183844] = {
+		max_hp = 61,
+		hp_growth = 2339,
+		base = 183841,
+		id = 183844,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183854
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183845] = {
+		max_hp = 67,
+		hp_growth = 2580,
+		base = 183841,
+		id = 183845,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183855
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183846] = {
+		max_hp = 73,
+		hp_growth = 2822,
+		base = 183841,
+		id = 183846,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183856
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183847] = {
+		max_hp = 80,
+		hp_growth = 3064,
+		base = 183841,
+		id = 183847,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183857
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183848] = {
+		max_hp = 86,
+		hp_growth = 3306,
+		base = 183841,
+		id = 183848,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183858
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183849] = {
+		max_hp = 92,
+		hp_growth = 3548,
+		base = 183841,
+		id = 183849,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183859
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[183850] = {
+		max_hp = 99,
+		hp_growth = 3790,
+		base = 183841,
+		id = 183850,
+		spawn_brownian = 1,
+		weapon_ID = {
+			183860
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.aircraft_template[200101] = {
 		attack_power = 2,
 		name = "【大舰队米德维BOSS】执棋者 轰炸机",
@@ -304487,6 +304886,559 @@ end)()
 		scale = 0.75,
 		weapon_ID = {
 			3386084
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3391101] = {
+		attack_power = 2,
+		name = "【2026伯利欣根活动B2】BOSS 恶念残影航母 舰载机",
+		type = 1,
+		accuracy = 23,
+		model_ID = "unknownV_mal_feiji",
+		ACC_growth = 0,
+		crash_DMG = 48,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3391101,
+		icon = "unknownV_mal_feiji",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1960,
+		speed = 33,
+		max_hp = 88,
+		scale = 0.75,
+		weapon_ID = {
+			3391102,
+			3391103
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3393101] = {
+		attack_power = 2,
+		name = "【2026伯利欣根活动D2】BOSS 恶念残影航母 舰载机",
+		type = 1,
+		accuracy = 23,
+		model_ID = "unknownV_mal_feiji",
+		ACC_growth = 0,
+		crash_DMG = 98,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3393101,
+		icon = "unknownV_mal_feiji",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 2800,
+		speed = 33,
+		max_hp = 160,
+		scale = 0.75,
+		weapon_ID = {
+			3393102,
+			3393103
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3396075] = {
+		attack_power = 2,
+		name = "【2026伯利欣根活动】恶念残影航母 舰载机 Lv1",
+		type = 1,
+		accuracy = 23,
+		model_ID = "unknownV_mal_feiji",
+		ACC_growth = 0,
+		crash_DMG = 10,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3396075,
+		icon = "unknownV_mal_feiji",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1680,
+		speed = 40,
+		max_hp = 60,
+		scale = 0.75,
+		weapon_ID = {
+			3396080,
+			3396085
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3396076] = {
+		attack_power = 2,
+		name = "【2026伯利欣根活动】恶念残影航母 舰载机 Lv2",
+		type = 1,
+		accuracy = 23,
+		model_ID = "unknownV_mal_feiji",
+		ACC_growth = 0,
+		crash_DMG = 10,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3396076,
+		icon = "unknownV_mal_feiji",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1960,
+		speed = 40,
+		max_hp = 90,
+		scale = 0.75,
+		weapon_ID = {
+			3396081,
+			3396086
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3396077] = {
+		attack_power = 2,
+		name = "【2026伯利欣根活动】恶念残影航母 舰载机 Lv3",
+		type = 1,
+		accuracy = 23,
+		model_ID = "unknownV_mal_feiji",
+		ACC_growth = 0,
+		crash_DMG = 10,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3396077,
+		icon = "unknownV_mal_feiji",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 2240,
+		speed = 40,
+		max_hp = 120,
+		scale = 0.75,
+		weapon_ID = {
+			3396082,
+			3396087
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3396078] = {
+		attack_power = 2,
+		name = "【2026伯利欣根活动】恶念残影航母 舰载机 Lv4",
+		type = 1,
+		accuracy = 23,
+		model_ID = "unknownV_mal_feiji",
+		ACC_growth = 0,
+		crash_DMG = 10,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3396078,
+		icon = "unknownV_mal_feiji",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 2520,
+		speed = 40,
+		max_hp = 150,
+		scale = 0.75,
+		weapon_ID = {
+			3396083,
+			3396088
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3396079] = {
+		attack_power = 2,
+		name = "【2026伯利欣根活动】恶念残影航母 舰载机 Lv5",
+		type = 1,
+		accuracy = 23,
+		model_ID = "unknownV_mal_feiji",
+		ACC_growth = 0,
+		crash_DMG = 10,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3396079,
+		icon = "unknownV_mal_feiji",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 2800,
+		speed = 40,
+		max_hp = 180,
+		scale = 0.75,
+		weapon_ID = {
+			3396084,
+			3396089
 		},
 		position_offset = {
 			0,

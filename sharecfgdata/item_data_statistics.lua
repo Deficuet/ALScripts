@@ -138634,6 +138634,44 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_data_statistics[81440] = {
+		open_directly = 1,
+		name = "仅予一人的华宴",
+		display = "指挥官，邀请函上说“诚邀胡德女士共赴一场特别的宴会”……那么所谓特别之处，难道是仅有你我二人的景致和这指尖的惊喜吗？",
+		type = 17,
+		display_effect = "",
+		id = 81440,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "SquareIcon/hude_6",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "908111",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				7,
+				204035,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_data_statistics[99991] = {
 		open_directly = 1,
 		name = "作战档案补偿",

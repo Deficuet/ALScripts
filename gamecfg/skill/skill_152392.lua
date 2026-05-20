@@ -11,7 +11,7 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
+				type = "BattleSkillFireSupport",
 				casterAniEffect = "",
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
@@ -35,7 +35,7 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
+				type = "BattleSkillFireSupport",
 				casterAniEffect = "",
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
@@ -59,7 +59,7 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
+				type = "BattleSkillFireSupport",
 				casterAniEffect = "",
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
@@ -83,7 +83,7 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
+				type = "BattleSkillFireSupport",
 				casterAniEffect = "",
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
@@ -107,7 +107,7 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
+				type = "BattleSkillFireSupport",
 				casterAniEffect = "",
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
@@ -131,7 +131,7 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
+				type = "BattleSkillFireSupport",
 				casterAniEffect = "",
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
@@ -155,7 +155,7 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
+				type = "BattleSkillFireSupport",
 				casterAniEffect = "",
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
@@ -179,7 +179,7 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
+				type = "BattleSkillFireSupport",
 				casterAniEffect = "",
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
@@ -203,7 +203,7 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
+				type = "BattleSkillFireSupport",
 				casterAniEffect = "",
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
@@ -227,7 +227,7 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
+				type = "BattleSkillFireSupport",
 				casterAniEffect = "",
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",

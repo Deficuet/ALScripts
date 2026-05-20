@@ -118,8 +118,14 @@ end
 
 function var_0_0.checkDownloadMissingPic(arg_6_0)
 	local var_6_0 = AppreciatePicConst.getDefaultGalleryPicIDList()
-	local var_6_1 = getProxy(LoadingPicProxy):getGalleryPicIDList()
-	local var_6_2 = getProxy(LoadingPicProxy):getMangaPicIDList()
+	local var_6_1 = {}
+	local var_6_2 = {}
+
+	if getProxy(LoadingPicProxy) then
+		var_6_1 = getProxy(LoadingPicProxy):getGalleryPicIDList()
+		var_6_2 = getProxy(LoadingPicProxy):getMangaPicIDList()
+	end
+
 	local var_6_3 = {}
 
 	for iter_6_0, iter_6_1 in ipairs(var_6_0) do

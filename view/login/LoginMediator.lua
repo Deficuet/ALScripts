@@ -290,8 +290,10 @@ function var_0_0.handleNotification(arg_19_0, arg_19_1)
 	elseif var_19_0 == GAME.LOAD_PLAYER_DATA_DONE then
 		arg_19_0:checkPaintingRes()
 	elseif var_19_0 == GAME.BEGIN_STAGE_DONE then
-		arg_19_0.viewComponent:unloadExtraVoice()
-		arg_19_0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, var_19_1)
+		arg_19_0:checkLoadingPicRes(function()
+			arg_19_0.viewComponent:unloadExtraVoice()
+			arg_19_0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, var_19_1)
+		end)
 	elseif var_19_0 == GAME.PLATFORM_LOGIN_DONE then
 		arg_19_0:sendNotification(GAME.USER_LOGIN, var_19_1.user)
 	elseif var_19_0 == GAME.SERVER_LOGIN_WAIT then
@@ -315,31 +317,41 @@ function var_0_0.handleNotification(arg_19_0, arg_19_1)
 	end
 end
 
-function var_0_0.checkPaintingRes(arg_23_0)
-	local function var_23_0()
-		arg_23_0.viewComponent:onLoadDataDone()
+function var_0_0.checkPaintingRes(arg_24_0)
+	local function var_24_0()
+		arg_24_0.viewComponent:onLoadDataDone()
 	end
 
-	local function var_23_1()
-		arg_23_0.viewComponent.isNeedResCheck = true
+	local function var_24_1()
+		arg_24_0.viewComponent.isNeedResCheck = true
 	end
 
-	local function var_23_2()
-		AppreciatePicConst.checkDownloadMissingPic(var_23_0)
+	local function var_24_2()
+		AppreciatePicConst.checkDownloadMissingPic(var_24_0)
 	end
 
 	pg.FileDownloadMgr.GetInstance():SetRemind(false)
 
-	local var_23_3 = PaintingGroupConst.GetPaintingNameListInLogin()
-	local var_23_4 = {
+	local var_24_3 = PaintingGroupConst.GetPaintingNameListInLogin()
+	local var_24_4 = {
 		isShowBox = true,
-		paintingNameList = var_23_3,
-		finishFunc = var_23_2,
-		onNo = var_23_1,
-		onClose = var_23_1
+		paintingNameList = var_24_3,
+		finishFunc = var_24_2,
+		onNo = var_24_1,
+		onClose = var_24_1
 	}
 
-	PaintingGroupConst.PaintingDownload(var_23_4)
+	PaintingGroupConst.PaintingDownload(var_24_4)
+end
+
+function var_0_0.checkLoadingPicRes(arg_28_0, arg_28_1)
+	local function var_28_0()
+		if arg_28_1 then
+			arg_28_1()
+		end
+	end
+
+	AppreciatePicConst.checkDownloadMissingPic(var_28_0)
 end
 
 return var_0_0

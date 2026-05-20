@@ -122,7 +122,7 @@ function var_0_0.initRankUI(arg_9_0)
 	onButton(arg_9_0._event, arg_9_0._rankBtnClose, function()
 		arg_9_0:PopRankUI(false)
 	end, SFX_CANCEL)
-	setText(arg_9_0._rankDesc, i18n("word_billboard"))
+	setText(arg_9_0._rankDesc, i18n("pipe_minigame_rank"))
 	setText(findTF(arg_9_0.rankUI, "ad/bg/bg_high/text"), i18n("series_enemy_reward_tip4"))
 end
 

@@ -1586,21 +1586,7 @@ var_0_0.ship_drag_datas = {
 		}
 	},
 	z15_2 = {
-		multiple_face = {
-			name = {
-				"z15_2"
-			},
-			data = {
-				{
-					"normal",
-					0
-				},
-				{
-					"ex",
-					6
-				}
-			}
-		},
+		multiple_face = {},
 		hit_area = {
 			"drag"
 		},
@@ -1627,7 +1613,21 @@ var_0_0.ship_drag_datas = {
 		}
 	},
 	molici_2 = {
-		multiple_face = {},
+		multiple_face = {
+			name = {
+				"molici_2"
+			},
+			data = {
+				{
+					"normal",
+					0
+				},
+				{
+					"ex",
+					9
+				}
+			}
+		},
 		hit_area = {
 			"drag"
 		},

@@ -26,9 +26,21 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				quota = 4,
+				quota = 1,
 				target = "TargetSelf",
 				time = 0.2,
+				skill_id = 152333
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onUpdate"
+			},
+			arg_list = {
+				quota = 1,
+				target = "TargetSelf",
+				time = 0.4,
 				skill_id = 152333
 			}
 		},

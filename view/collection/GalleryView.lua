@@ -515,13 +515,13 @@ function var_0_0.updatePicImg(arg_40_0, arg_40_1)
 
 	setImageSprite(arg_40_0.picImg, LoadSprite(var_40_5, var_40_4))
 	setText(arg_40_0.picName, var_40_3)
+	arg_40_0:updateLoadingBtn(var_40_2)
 
 	local var_40_6 = arg_40_0.appreciateProxy:isLikedByPicID(var_40_2)
 
 	arg_40_0.picLikeToggleTag = true
 
 	triggerToggle(arg_40_0.picLikeToggle, var_40_6)
-	arg_40_0:updateLoadingBtn(var_40_2)
 end
 
 function var_0_0.switchPicImg(arg_41_0, arg_41_1)
@@ -539,6 +539,7 @@ function var_0_0.switchPicImg(arg_41_0, arg_41_1)
 	arg_41_0.picLikeToggleTag = true
 
 	triggerToggle(arg_41_0.picLikeToggle, var_41_6)
+	arg_41_0:updateLoadingBtn(var_41_2)
 	LeanTween.value(go(arg_41_0.picImg), 1, 0, 0.5):setOnUpdate(System.Action_float(function(arg_42_0)
 		setImageAlpha(arg_41_0.picImg, arg_42_0)
 	end)):setOnComplete(System.Action(function()

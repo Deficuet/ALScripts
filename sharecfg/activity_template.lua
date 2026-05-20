@@ -44435,7 +44435,7 @@ end)()
 		type = 140,
 		login_pop = 0,
 		config_id = 50604,
-		is_show = 1,
+		is_show = 0,
 		id = 50602,
 		page_core = "",
 		config_data = {

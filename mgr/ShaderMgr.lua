@@ -30,20 +30,16 @@ function var_0_0.ShaderMgr.Init(arg_1_0, arg_1_1)
 		if not EDITOR_TOOL then
 			seriesAsync({
 				function(arg_7_0)
-					originalPrint("步骤1，卸载未使用的AssetBundle")
 					ResourceMgr.Inst:unloadUnusedAssetBundles()
 					onDelayTick(arg_7_0, 0.0001)
 				end,
 				function(arg_8_0)
-					originalPrint("步骤2，加载custom_builtin AssetBundle")
 					ResourceMgr.Inst:loadAssetBundleAsync("custom_builtin", function(arg_9_0)
 						arg_9_0:Unload(false)
 						onDelayTick(arg_8_0, 0.0001)
 					end)
 				end,
 				function(arg_10_0)
-					originalPrint("步骤3，加载custom_builtin Shader")
-
 					var_0_1.cacheCustomBuiltin = UnityEngine.AssetBundle.LoadFromFile(PathMgr.getAssetBundle("custom_builtin"))
 
 					arg_10_0()
@@ -63,7 +59,6 @@ function var_0_0.ShaderMgr.Init(arg_1_0, arg_1_1)
 
 	var_1_4(function()
 		parallelAsync(var_1_5, function()
-			originalPrint("所有shader加载完成")
 			arg_1_1()
 		end)
 	end)

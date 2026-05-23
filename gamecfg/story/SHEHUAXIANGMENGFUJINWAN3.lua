@@ -218,8 +218,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_660",
-			actor = 900543,
 			dir = 1,
+			withoutActorName = true,
+			hideRecordIco = true,
+			actor = 900543,
 			nameColor = "#A9F548FF",
 			say = "一边说着，雅努斯更深地把头埋在枕头里，抓着枕头的手抓得更紧了。",
 			typewriter = {

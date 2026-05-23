@@ -84,6 +84,7 @@ function var_0_0.didEnter(arg_12_0)
 	arg_12_0:UpdateView()
 	arg_12_0:UpdateBg()
 	arg_12_0:CheckGuide()
+	arg_12_0:CheckOrderStory()
 end
 
 function var_0_0.CheckGuide(arg_13_0)
@@ -106,188 +107,215 @@ function var_0_0.CheckGuide(arg_13_0)
 	end
 end
 
-function var_0_0.UpdateData(arg_14_0)
-	arg_14_0.activity = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MALL)
+function var_0_0.CheckOrderStory(arg_14_0)
+	local var_14_0 = arg_14_0.activity:GetOrderData():GetFinishedList()
+	local var_14_1 = {}
 
-	assert(arg_14_0.activity and not arg_14_0.activity:isEnd(), "not exist mall act, type: " .. ActivityConst.ACTIVITY_TYPE_MALL)
+	for iter_14_0, iter_14_1 in ipairs(var_14_0) do
+		local var_14_2 = pg.activity_mall_custom_order[iter_14_1].story_unlock
 
-	arg_14_0.triggeredIds = arg_14_0.activity:GetTriggeredPointIds()
-
-	local var_14_0 = arg_14_0.activity:GetLevelData():GetUnlockStoryIdsByType()
-
-	arg_14_0.showPointIds = {}
-
-	for iter_14_0, iter_14_1 in pairs(var_14_0) do
-		local var_14_1 = iter_14_0 ~= MallActivity.POINT_TYPE.SITE
-		local var_14_2 = underscore.detect(iter_14_1, function(arg_15_0)
-			local var_15_0 = pg.activity_mall_story[arg_15_0]
-
-			return not table.contains(arg_14_0.triggeredIds, arg_15_0) or var_14_1 and var_15_0.lua ~= "" and not pg.NewStoryMgr.GetInstance():IsPlayed(var_15_0.lua)
-		end)
-
-		if var_14_2 then
-			table.insert(arg_14_0.showPointIds, var_14_2)
+		if var_14_2 ~= "" and not pg.NewStoryMgr.GetInstance():IsPlayed(var_14_2) then
+			table.insert(var_14_1, var_14_2)
 		end
 	end
 
-	arg_14_0.bgConfig = arg_14_0.activity:getConfig("config_client").bg_switch
-end
+	if #var_14_1 > 0 then
+		local var_14_3 = {}
 
-function var_0_0.UpdateView(arg_16_0)
-	arg_16_0.pointUIList:align(#arg_16_0.showPointIds)
-	arg_16_0:UpdateOrderBtn()
-	arg_16_0:UpdateTips()
-end
+		for iter_14_2, iter_14_3 in ipairs(var_14_1) do
+			table.insert(var_14_3, function(arg_15_0)
+				pg.NewStoryMgr.GetInstance():Play(iter_14_3, arg_15_0)
+			end)
+		end
 
-function var_0_0.UpdateBg(arg_17_0)
-	local var_17_0 = arg_17_0:GetCurBg()
-
-	if var_17_0 then
-		setImageSprite(arg_17_0.uiBgTF, LoadSprite("bg/" .. var_17_0), false)
+		seriesAsync(var_14_3, function()
+			return
+		end)
 	end
 end
 
-function var_0_0.GetCurBg(arg_18_0)
-	for iter_18_0 = #arg_18_0.bgConfig, 1, -1 do
-		local var_18_0 = arg_18_0.bgConfig[iter_18_0]
+function var_0_0.UpdateData(arg_17_0)
+	arg_17_0.activity = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MALL)
 
-		if pg.NewStoryMgr.GetInstance():IsPlayed(var_18_0[1]) then
-			return var_18_0[2]
+	assert(arg_17_0.activity and not arg_17_0.activity:isEnd(), "not exist mall act, type: " .. ActivityConst.ACTIVITY_TYPE_MALL)
+
+	arg_17_0.triggeredIds = arg_17_0.activity:GetTriggeredPointIds()
+
+	local var_17_0 = arg_17_0.activity:GetLevelData():GetUnlockStoryIdsByType()
+
+	arg_17_0.showPointIds = {}
+
+	for iter_17_0, iter_17_1 in pairs(var_17_0) do
+		local var_17_1 = iter_17_0 ~= MallActivity.POINT_TYPE.SITE
+		local var_17_2 = underscore.detect(iter_17_1, function(arg_18_0)
+			local var_18_0 = pg.activity_mall_story[arg_18_0]
+
+			return not table.contains(arg_17_0.triggeredIds, arg_18_0) or var_17_1 and var_18_0.lua ~= "" and not pg.NewStoryMgr.GetInstance():IsPlayed(var_18_0.lua)
+		end)
+
+		if var_17_2 then
+			table.insert(arg_17_0.showPointIds, var_17_2)
+		end
+	end
+
+	arg_17_0.bgConfig = arg_17_0.activity:getConfig("config_client").bg_switch
+end
+
+function var_0_0.UpdateView(arg_19_0)
+	arg_19_0.pointUIList:align(#arg_19_0.showPointIds)
+	arg_19_0:UpdateOrderBtn()
+	arg_19_0:UpdateTips()
+end
+
+function var_0_0.UpdateBg(arg_20_0)
+	local var_20_0 = arg_20_0:GetCurBg()
+
+	if var_20_0 then
+		setImageSprite(arg_20_0.uiBgTF, LoadSprite("bg/" .. var_20_0), false)
+	end
+end
+
+function var_0_0.GetCurBg(arg_21_0)
+	for iter_21_0 = #arg_21_0.bgConfig, 1, -1 do
+		local var_21_0 = arg_21_0.bgConfig[iter_21_0]
+
+		if pg.NewStoryMgr.GetInstance():IsPlayed(var_21_0[1]) then
+			return var_21_0[2]
 		end
 	end
 
 	return nil
 end
 
-function var_0_0.UpdateOrderBtn(arg_19_0)
-	setActive(arg_19_0.uiOrderTimeTF, false)
+function var_0_0.UpdateOrderBtn(arg_22_0)
+	setActive(arg_22_0.uiOrderTimeTF, false)
 
-	arg_19_0.orderData = arg_19_0.activity:GetOrderData()
+	arg_22_0.orderData = arg_22_0.activity:GetOrderData()
 
-	if arg_19_0.orderData.id ~= 0 then
-		if pg.TimeMgr.GetInstance():GetServerTime() < arg_19_0.orderData:GetEndTime() then
-			setActive(arg_19_0.uiOrderTimeTF, true)
-			arg_19_0:StartTimer()
+	if arg_22_0.orderData.id ~= 0 then
+		if pg.TimeMgr.GetInstance():GetServerTime() < arg_22_0.orderData:GetEndTime() then
+			setActive(arg_22_0.uiOrderTimeTF, true)
+			arg_22_0:StartTimer()
 		end
 	else
-		arg_19_0:StopTimer()
+		arg_22_0:StopTimer()
 	end
 end
 
-function var_0_0.UpdateTips(arg_20_0)
-	setActive(arg_20_0.uiMallTip, var_0_0.IsMallTip())
-	arg_20_0:UpdateOrderTip()
+function var_0_0.UpdateTips(arg_23_0)
+	setActive(arg_23_0.uiMallTip, var_0_0.IsMallTip())
+	arg_23_0:UpdateOrderTip()
 end
 
-function var_0_0.UpdateOrderTip(arg_21_0)
-	setActive(arg_21_0.uiOrderTip, MallScene.IsOrderTip())
+function var_0_0.UpdateOrderTip(arg_24_0)
+	setActive(arg_24_0.uiOrderTip, MallScene.IsOrderTip())
 end
 
-function var_0_0.UpdatePointTpl(arg_22_0, arg_22_1, arg_22_2)
-	local var_22_0 = arg_22_0.showPointIds[arg_22_1 + 1]
+function var_0_0.UpdatePointTpl(arg_25_0, arg_25_1, arg_25_2)
+	local var_25_0 = arg_25_0.showPointIds[arg_25_1 + 1]
 
-	arg_22_2.name = var_22_0
+	arg_25_2.name = var_25_0
 
-	local var_22_1 = pg.activity_mall_story[var_22_0]
+	local var_25_1 = pg.activity_mall_story[var_25_0]
 
-	setAnchoredPosition(arg_22_2, {
-		x = var_22_1.posion[1],
-		y = var_22_1.posion[2]
+	setAnchoredPosition(arg_25_2, {
+		x = var_25_1.posion[1],
+		y = var_25_1.posion[2]
 	})
 
-	local var_22_2 = var_22_1.type
-	local var_22_3 = var_0_0.TYPE2INFOS[var_22_2]
+	local var_25_2 = var_25_1.type
+	local var_25_3 = var_0_0.TYPE2INFOS[var_25_2]
 
-	GetImageSpriteFromAtlasAsync("ui/mallmapui_atlas", var_22_3[1], arg_22_2:Find("name"), true)
-	setText(arg_22_2:Find("name/Text"), var_22_3[2])
+	GetImageSpriteFromAtlasAsync("ui/mallmapui_atlas", var_25_3[1], arg_25_2:Find("name"), true)
+	setText(arg_25_2:Find("name/Text"), var_25_3[2])
 
-	local var_22_4 = var_22_2 == MallActivity.POINT_TYPE.INTERACT_STORY
+	local var_25_4 = var_25_2 == MallActivity.POINT_TYPE.INTERACT_STORY
 
-	setActive(arg_22_2:Find("ship"), var_22_4)
-	setActive(arg_22_2:Find("icon"), not var_22_4)
+	setActive(arg_25_2:Find("ship"), var_25_4)
+	setActive(arg_25_2:Find("icon"), not var_25_4)
 
-	if var_22_4 then
-		GetImageSpriteFromAtlasAsync(var_22_1.icon, "", arg_22_2:Find("ship"))
+	if var_25_4 then
+		GetImageSpriteFromAtlasAsync(var_25_1.icon, "", arg_25_2:Find("ship"))
 	else
-		GetImageSpriteFromAtlasAsync("ui/mallmapui_atlas", var_22_3[3], arg_22_2:Find("icon"), true)
+		GetImageSpriteFromAtlasAsync("ui/mallmapui_atlas", var_25_3[3], arg_25_2:Find("icon"), true)
 	end
 
-	onButton(arg_22_0, arg_22_2, function()
-		if not table.contains(arg_22_0.triggeredIds, var_22_0) then
-			arg_22_0:emit(MallMapMediator.TRIGGER_POINT, arg_22_0.activity.id, var_22_0)
+	onButton(arg_25_0, arg_25_2, function()
+		if not table.contains(arg_25_0.triggeredIds, var_25_0) then
+			arg_25_0:emit(MallMapMediator.TRIGGER_POINT, arg_25_0.activity.id, var_25_0)
 		end
 
-		if var_22_2 == MallActivity.POINT_TYPE.SITE then
-			arg_22_0.siteBox:ExecuteAction("Show", var_22_0)
+		if var_25_2 == MallActivity.POINT_TYPE.SITE then
+			arg_25_0.siteBox:ExecuteAction("Show", var_25_0)
 		else
-			pg.NewStoryMgr.GetInstance():Play(var_22_1.lua, function()
-				arg_22_0:didEnter()
+			pg.NewStoryMgr.GetInstance():Play(var_25_1.lua, function()
+				arg_25_0:didEnter()
 			end)
 		end
 	end, SFX_PANEL)
 end
 
-function var_0_0.StartTimer(arg_25_0)
-	arg_25_0:StopTimer()
+function var_0_0.StartTimer(arg_28_0)
+	arg_28_0:StopTimer()
 
-	arg_25_0.orderEndTime = arg_25_0.orderData:GetEndTime()
-	arg_25_0.timer = Timer.New(function()
-		local var_26_0 = arg_25_0.orderEndTime - pg.TimeMgr.GetInstance():GetServerTime()
+	arg_28_0.orderEndTime = arg_28_0.orderData:GetEndTime()
+	arg_28_0.timer = Timer.New(function()
+		local var_29_0 = arg_28_0.orderEndTime - pg.TimeMgr.GetInstance():GetServerTime()
 
-		setText(arg_25_0.uiOrderTimeTF:Find("Text"), pg.TimeMgr.GetInstance():DescCDTime(var_26_0))
+		setText(arg_28_0.uiOrderTimeTF:Find("Text"), pg.TimeMgr.GetInstance():DescCDTime(var_29_0))
 
-		if var_26_0 <= 0 then
-			arg_25_0:UpdateOrderBtn()
-			setActive(arg_25_0.uiOrderTip, true)
+		if var_29_0 <= 0 then
+			arg_28_0:UpdateOrderBtn()
+			setActive(arg_28_0.uiOrderTip, true)
 		end
 	end, 1, -1)
 
-	arg_25_0.timer:Start()
-	arg_25_0.timer.func()
+	arg_28_0.timer:Start()
+	arg_28_0.timer.func()
 end
 
-function var_0_0.StopTimer(arg_27_0)
-	if arg_27_0.timer then
-		arg_27_0.timer:Stop()
+function var_0_0.StopTimer(arg_30_0)
+	if arg_30_0.timer then
+		arg_30_0.timer:Stop()
 
-		arg_27_0.timer = nil
+		arg_30_0.timer = nil
 	end
 end
 
-function var_0_0.ShowSummaryBox(arg_28_0)
-	arg_28_0.summaryBox:ExecuteAction("Show")
+function var_0_0.ShowSummaryBox(arg_31_0)
+	arg_31_0.summaryBox:ExecuteAction("Show")
 end
 
-function var_0_0.onBackPressed(arg_29_0)
-	if arg_29_0.siteBox and arg_29_0.siteBox:isShowing() then
-		arg_29_0.siteBox:ExecuteAction("Hide")
+function var_0_0.onBackPressed(arg_32_0)
+	if arg_32_0.siteBox and arg_32_0.siteBox:isShowing() then
+		arg_32_0.siteBox:ExecuteAction("Hide")
 
 		return
 	end
 
-	if arg_29_0.summaryBox and arg_29_0.summaryBox:isShowing() then
-		arg_29_0.summaryBox:ExecuteAction("Hide")
+	if arg_32_0.summaryBox and arg_32_0.summaryBox:isShowing() then
+		arg_32_0.summaryBox:ExecuteAction("Hide")
 
 		return
 	end
 
-	var_0_0.super.onBackPressed(arg_29_0)
+	var_0_0.super.onBackPressed(arg_32_0)
 end
 
-function var_0_0.willExit(arg_30_0)
-	if arg_30_0.siteBox then
-		arg_30_0.siteBox:Destroy()
+function var_0_0.willExit(arg_33_0)
+	if arg_33_0.siteBox then
+		arg_33_0.siteBox:Destroy()
 
-		arg_30_0.siteBox = nil
+		arg_33_0.siteBox = nil
 	end
 
-	if arg_30_0.summaryBox then
-		arg_30_0.summaryBox:Destroy()
+	if arg_33_0.summaryBox then
+		arg_33_0.summaryBox:Destroy()
 
-		arg_30_0.summaryBox = nil
+		arg_33_0.summaryBox = nil
 	end
 
-	arg_30_0:StopTimer()
+	arg_33_0:StopTimer()
 end
 
 function var_0_0.IsMallTip()
@@ -295,9 +323,9 @@ function var_0_0.IsMallTip()
 end
 
 function var_0_0.IsEntranceTip()
-	local var_32_0 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MALL)
+	local var_35_0 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MALL)
 
-	if not var_32_0 or var_32_0:isEnd() then
+	if not var_35_0 or var_35_0:isEnd() then
 		return false
 	end
 

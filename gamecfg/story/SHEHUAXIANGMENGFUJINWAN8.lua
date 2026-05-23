@@ -54,11 +54,13 @@ return {
 		},
 		{
 			actor = 405071,
-			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_146",
 			live2d = true,
-			side = 2,
+			withoutActorName = true,
+			nameColor = "#A9F548FF",
 			say = "受{namecode:557:葛兹·冯·伯利欣根}邀请，我前往体验她说的体感VR。",
+			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

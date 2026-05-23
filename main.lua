@@ -421,22 +421,4 @@ seriesAsync({
 		originalPrint("主频:" .. SystemInfo.processorFrequency)
 		originalPrint("+++++++++++")
 	end)
-	pg.UIMgr.GetInstance():AddDebugButton("delete test", function()
-		print("步骤4，删除custom_builtin AssetBundle")
-
-		local var_49_0 = {
-			"custom_builtin"
-		}
-		local var_49_1 = #var_49_0
-
-		if var_49_1 > 0 then
-			local var_49_2 = System.Array.CreateInstance(typeof(System.String), var_49_1)
-
-			for iter_49_0 = 0, var_49_1 - 1 do
-				var_49_2[iter_49_0] = var_49_0[iter_49_0 + 1]
-			end
-
-			HotfixHelper.DeleteFileByShortPathArr("DEFAULT_RES", var_49_2)
-		end
-	end)
 end)

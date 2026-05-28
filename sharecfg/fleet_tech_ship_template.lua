@@ -697,6 +697,7 @@ pg.fleet_tech_ship_template.all = {
 	970209,
 	970210,
 	970211,
+	970212,
 	970301,
 	970302,
 	970303,
@@ -15138,6 +15139,24 @@ end)()
 			2
 		}
 	}
+	pg.base.fleet_tech_ship_template[970212] = {
+		max_star = 5,
+		id = 970212,
+		pt_get = 10,
+		pt_upgrage = 21,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 970212,
+		pt_level = 16,
+		add_get_value = 1,
+		add_level_attr = 1,
+		add_get_shiptype = {
+			2
+		},
+		add_level_shiptype = {
+			2
+		}
+	}
 	pg.base.fleet_tech_ship_template[970301] = {
 		max_star = 5,
 		id = 970301,
@@ -15248,6 +15267,8 @@ end)()
 			18
 		}
 	}
+end)()
+;(function()
 	pg.base.fleet_tech_ship_template[970306] = {
 		max_star = 5,
 		id = 970306,
@@ -15270,8 +15291,6 @@ end)()
 			18
 		}
 	}
-end)()
-;(function()
 	pg.base.fleet_tech_ship_template[970401] = {
 		max_star = 6,
 		id = 970401,

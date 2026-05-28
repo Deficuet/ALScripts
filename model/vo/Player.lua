@@ -830,12 +830,13 @@ function var_0_0.GetRandomFlagShip(arg_84_0, arg_84_1)
 	local var_84_0 = getProxy(SettingsProxy)
 	local var_84_1, var_84_2 = var_0_5(var_84_0:GetRandomFlagShipList())
 
-	if getProxy(PlayerProxy):getFlag("battle") then
+	if getProxy(PlayerProxy):getFlag("random_skin") then
 		local var_84_3 = math.random(#var_84_2)
 
 		arg_84_1 = var_84_2[var_84_3]
 
 		var_84_0:setCurrentSecretaryIndex(var_84_3)
+		getProxy(PlayerProxy):setFlag("random_skin", false)
 	end
 
 	local var_84_4 = var_84_1[arg_84_1]

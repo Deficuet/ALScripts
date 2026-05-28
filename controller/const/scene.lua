@@ -1739,33 +1739,43 @@ local var_0_1 = {
 		}
 
 		PaintingGroupConst.PaintingDownload(var_269_3)
+	end,
+	MallMapMediator = function(arg_270_0, arg_270_1)
+		local var_270_0 = PaintingGroupConst.GetPaintingNameListForMallAct()
+		local var_270_1 = {
+			isShowBox = true,
+			paintingNameList = var_270_0,
+			finishFunc = arg_270_1
+		}
+
+		PaintingGroupConst.PaintingDownload(var_270_1)
 	end
 }
 
-function SCENE.CheckPreloadData(arg_270_0, arg_270_1)
-	local var_270_0 = {}
+function SCENE.CheckPreloadData(arg_271_0, arg_271_1)
+	local var_271_0 = {}
 
-	table.insert(var_270_0, function(arg_271_0)
-		switch(arg_270_0.context.mediator.__cname, var_0_1, function(arg_272_0, arg_272_1)
-			arg_272_1()
-		end, arg_270_0, arg_271_0)
+	table.insert(var_271_0, function(arg_272_0)
+		switch(arg_271_0.context.mediator.__cname, var_0_1, function(arg_273_0, arg_273_1)
+			arg_273_1()
+		end, arg_271_0, arg_272_0)
 	end)
 
-	local var_270_1 = arg_270_0.context.viewComponent:loadingQueue()
+	local var_271_1 = arg_271_0.context.viewComponent:loadingQueue()
 
-	if var_270_1 then
-		table.insert(var_270_0, function(arg_273_0)
-			local var_273_0 = arg_270_0.context.data
+	if var_271_1 then
+		table.insert(var_271_0, function(arg_274_0)
+			local var_274_0 = arg_271_0.context.data
 
-			arg_270_0.context.irregularSequence = true
+			arg_271_0.context.irregularSequence = true
 
-			var_270_1(function(arg_274_0)
-				var_273_0.resumeCallback = arg_274_0
+			var_271_1(function(arg_275_0)
+				var_274_0.resumeCallback = arg_275_0
 
-				arg_273_0()
+				arg_274_0()
 			end)
 		end)
 	end
 
-	seriesAsync(var_270_0, arg_270_1)
+	seriesAsync(var_271_0, arg_271_1)
 end

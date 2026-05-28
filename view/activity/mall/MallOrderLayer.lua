@@ -244,6 +244,8 @@ function var_0_0.UpdateStaffAttrsCond(arg_31_0, arg_31_1)
 
 	local var_31_1 = true
 
+	arg_31_0.needShowAttrIds = {}
+
 	for iter_31_0, iter_31_1 in ipairs(arg_31_0.targetAttrs) do
 		local var_31_2 = iter_31_1 <= arg_31_0.curAttrs[iter_31_0]
 
@@ -254,6 +256,8 @@ function var_0_0.UpdateStaffAttrsCond(arg_31_0, arg_31_1)
 		setActive(var_31_0:Find("list/" .. iter_31_0), iter_31_1 > 0)
 
 		if iter_31_1 > 0 then
+			table.insert(arg_31_0.needShowAttrIds, iter_31_0)
+
 			local var_31_3 = setColorStr(arg_31_0.curAttrs[iter_31_0], var_31_2 and "#4c9922" or "#df6126") .. "/" .. iter_31_1
 
 			setText(var_31_0:Find("list/" .. iter_31_0 .. "/Text"), var_31_3)
@@ -449,7 +453,7 @@ function var_0_0.OnUpdateStaffItem(arg_46_0, arg_46_1, arg_46_2)
 
 	local var_46_1 = arg_46_0.staffList[arg_46_1 + 1]
 
-	var_46_0:Update(var_46_1, arg_46_0.selectedIds)
+	var_46_0:Update(var_46_1, arg_46_0.selectedIds, false, arg_46_0.needShowAttrIds)
 end
 
 function var_0_0.UpdateOrderSlotTpl(arg_47_0, arg_47_1, arg_47_2)

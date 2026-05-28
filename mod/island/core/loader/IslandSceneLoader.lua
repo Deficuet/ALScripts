@@ -10,22 +10,22 @@ function var_0_0.Load(arg_1_0, arg_1_1, arg_1_2, arg_1_3, arg_1_4)
 			arg_1_0:LoadProgressUI(arg_1_2, arg_2_0)
 		end,
 		function(arg_3_0)
-			arg_1_0:LoadScene(arg_1_1, arg_3_0)
+			onNextTick(arg_3_0)
 		end,
 		function(arg_4_0)
+			IslandHelper.RunGC(true)
 			onNextTick(arg_4_0)
 		end,
 		function(arg_5_0)
-			arg_1_0:LoadNavigationMesh(arg_1_2, arg_5_0)
+			arg_1_0:LoadScene(arg_1_1, arg_5_0)
 		end,
 		function(arg_6_0)
 			onNextTick(arg_6_0)
 		end,
 		function(arg_7_0)
-			onNextTick(arg_7_0)
+			arg_1_0:LoadNavigationMesh(arg_1_2, arg_7_0)
 		end,
 		function(arg_8_0)
-			IslandHelper.RunGC(true)
 			onNextTick(arg_8_0)
 		end,
 		function(arg_9_0)

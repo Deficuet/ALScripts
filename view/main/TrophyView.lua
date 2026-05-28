@@ -13,6 +13,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0._trophyCountBG = findTF(arg_1_0._tf, "frame/trophyCount")
 	arg_1_0._trophyCount = findTF(arg_1_0._tf, "frame/trophyCount/Text"):GetComponent(typeof(Text))
 	arg_1_0._progressBar = findTF(arg_1_0._tf, "frame/trophy_progress/Fill"):GetComponent(typeof(Slider))
+	arg_1_0._reminder = findTF(arg_1_0._tf, "frame/reminder")
 end
 
 function var_0_0.UpdateTrophyGroup(arg_2_0, arg_2_1)
@@ -71,20 +72,24 @@ end
 function var_0_0.updateProgressView(arg_7_0, arg_7_1)
 	arg_7_0._progressTrophy = arg_7_1
 	arg_7_0._progressBar.value = arg_7_1:getProgressRate()
+
+	setActive(arg_7_0._reminder, arg_7_0._progressTrophy:canClaimed() and not arg_7_0._progressTrophy:isClaimed())
 end
 
 function var_0_0.GetTrophyClaimTipsID(arg_8_0)
-	return "reminder_" .. math.floor(arg_8_0._trophy:getConfig("icon") / 10)
+	local var_8_0 = tonumber(arg_8_0._trophy:getConfig("icon"))
+
+	if var_8_0 < 9000 then
+		var_8_0 = var_8_0 - var_8_0 % 10
+	end
+
+	return "xunzhang" .. var_8_0
 end
 
-function var_0_0.SetTrophyReminder(arg_9_0, arg_9_1)
-	arg_9_0._reminder = tf(arg_9_1)
-
-	arg_9_0._reminder:SetParent(findTF(arg_9_0._tf, "frame"), false)
-
-	arg_9_0._reminder.localPosition = arg_9_0._trophyIcon.localPosition
-
-	setActive(arg_9_0._reminder, arg_9_0._progressTrophy:canClaimed() and not arg_9_0._progressTrophy:isClaimed())
+function var_0_0.SetTrophyReminderMaterial(arg_9_0, arg_9_1)
+	if arg_9_0._reminder then
+		arg_9_0._reminder:Find("Image01"):GetComponent(typeof(Image)).material = arg_9_1
+	end
 end
 
 function var_0_0.PlayClaimAnima(arg_10_0, arg_10_1, arg_10_2, arg_10_3)

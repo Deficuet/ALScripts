@@ -243,6 +243,7 @@ function var_0_0.init(arg_2_0)
 
 	arg_2_0.destroyConfirmWindow = ShipDestoryConfirmWindow.New(arg_2_0._tf, arg_2_0.event)
 	arg_2_0.searchBar = RecordableSearchBar.New(RecordableSearchBar.CreateData({
+		refresh_pos_when_expand = true,
 		holder = i18n("dockyard_search_holder"),
 		onActive = function(arg_26_0)
 			setActive(arg_2_0.preferenceAndAttrContainer, not arg_26_0)
@@ -251,8 +252,9 @@ function var_0_0.init(arg_2_0)
 			arg_2_0:filter()
 		end,
 		key = arg_2_0.__cname,
-		parent = arg_2_0.blurPanel:Find("adapt"),
-		anchoredPosition = Vector3(getAnchoredPosition(arg_2_0.switchPanel).x, arg_2_0.topPanel.sizeDelta.y * -0.5, 0)
+		parent = arg_2_0.switchPanel,
+		expand_parent = arg_2_0.blurPanel:Find("adapt"),
+		anchoredPosition = Vector3(-33, -33, 0)
 	}))
 end
 

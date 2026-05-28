@@ -17,6 +17,7 @@ pg.item_data_battleui.all = {
 	112,
 	113,
 	114,
+	115,
 	201,
 	202,
 	203,
@@ -233,6 +234,21 @@ pg.base.item_data_battleui = {}
 		unlock = "世界巡游二十八期获取",
 		id = 114,
 		icon = "114",
+		scene = {},
+		rare_display = {
+			1
+		}
+	}
+	pg.base.item_data_battleui[115] = {
+		key = "SkinNormal_20260528",
+		name = "苍核回响",
+		desc = "锈蚀的机械心脏再次搏动，苍核的余音回荡在界面之间，让每一次出击都携带着古老文明的回响。",
+		display_icon = "ui_115",
+		is_unlock = 1,
+		rare = 3,
+		unlock = "世界巡游二十九期获取",
+		id = 115,
+		icon = "115",
 		scene = {},
 		rare_display = {
 			1

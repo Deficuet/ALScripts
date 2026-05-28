@@ -229,6 +229,7 @@ pg.activity_event_pt.all = {
 	50419,
 	50429,
 	50502,
+	51013,
 	50604,
 	50833,
 	50806,
@@ -41717,6 +41718,79 @@ end)()
 			7
 		}
 	}
+	pg.base.activity_event_pt[51013] = {
+		convert_resource_type = 0,
+		unlock_story = "",
+		target_buff = "",
+		type = 1,
+		buff_group = "",
+		drop_display = "",
+		end_time = "",
+		pic_list = "",
+		buff_time = "",
+		id_2 = 51013,
+		link_id = 0,
+		pt_list = "",
+		convert_pay = "",
+		pt = 712,
+		id = 51013,
+		target = {
+			1000,
+			2000,
+			3500,
+			5000,
+			6500,
+			8000,
+			10000
+		},
+		drop_client = {
+			{
+				1,
+				1,
+				500
+			},
+			{
+				2,
+				16501,
+				20
+			},
+			{
+				2,
+				16501,
+				30
+			},
+			{
+				2,
+				16013,
+				1
+			},
+			{
+				2,
+				16023,
+				1
+			},
+			{
+				2,
+				16003,
+				1
+			},
+			{
+				4,
+				303211,
+				1
+			}
+		},
+		allplayer = {},
+		day_unlock = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		}
+	}
 	pg.base.activity_event_pt[50604] = {
 		convert_resource_type = 0,
 		unlock_story = "",
@@ -59428,6 +59502,8 @@ end)()
 			0
 		}
 	}
+end)()
+;(function()
 	pg.base.activity_event_pt[40387] = {
 		convert_resource_type = 0,
 		unlock_story = "",
@@ -59754,8 +59830,6 @@ end)()
 			0
 		}
 	}
-end)()
-;(function()
 	pg.base.activity_event_pt[40415] = {
 		convert_resource_type = 0,
 		unlock_story = "",

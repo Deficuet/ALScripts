@@ -201411,6 +201411,546 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[303211] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "小云仙",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 303210,
+		english_name = "IJN Unzen",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 303211,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			742,
+			51,
+			51,
+			39,
+			0,
+			64,
+			0,
+			49,
+			13,
+			24.8,
+			70,
+			0
+		},
+		attrs_growth = {
+			21141,
+			690,
+			692,
+			848,
+			0,
+			445,
+			0,
+			727,
+			322,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			321
+		},
+		default_equip_list = {
+			102,
+			107,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.1,
+			1.15,
+			0.4
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Unzen-Class",
+			"yunxianzhiyuan",
+			"special"
+		},
+		gift_dislike = {
+			180009,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[303212] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "小云仙",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 303210,
+		english_name = "IJN Unzen",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 303212,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			923,
+			64,
+			64,
+			49,
+			0,
+			64,
+			0,
+			49,
+			13,
+			24.8,
+			70,
+			0
+		},
+		attrs_growth = {
+			21141,
+			690,
+			692,
+			848,
+			0,
+			445,
+			0,
+			727,
+			322,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			322
+		},
+		default_equip_list = {
+			102,
+			107,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.15,
+			1.15,
+			0.4
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Unzen-Class",
+			"yunxianzhiyuan",
+			"special"
+		},
+		gift_dislike = {
+			180009,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[303213] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "小云仙",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 303210,
+		english_name = "IJN Unzen",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 303213,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1285,
+			89,
+			89,
+			68,
+			0,
+			64,
+			0,
+			49,
+			13,
+			24.8,
+			70,
+			0
+		},
+		attrs_growth = {
+			21141,
+			690,
+			692,
+			848,
+			0,
+			445,
+			0,
+			727,
+			322,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			323
+		},
+		default_equip_list = {
+			102,
+			107,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.25,
+			1.15,
+			0.4
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Unzen-Class",
+			"yunxianzhiyuan",
+			"special"
+		},
+		gift_dislike = {
+			180009,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[303214] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "小云仙",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 303210,
+		english_name = "IJN Unzen",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 303214,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1828,
+			126,
+			127,
+			96,
+			0,
+			64,
+			0,
+			49,
+			13,
+			24.8,
+			70,
+			0
+		},
+		attrs_growth = {
+			21141,
+			690,
+			692,
+			848,
+			0,
+			445,
+			0,
+			727,
+			322,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			324
+		},
+		default_equip_list = {
+			102,
+			107,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			2,
+			1
+		},
+		preload_count = {
+			0,
+			2,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.3,
+			1.2,
+			0.4
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Unzen-Class",
+			"yunxianzhiyuan",
+			"special"
+		},
+		gift_dislike = {
+			180009,
+			180007
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[304011] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -456080,6 +456620,542 @@ end)()
 		gift_dislike = {
 			180005,
 			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9702121] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "柯尼斯堡·META",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 9702120,
+		english_name = "Königsberg.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9702121,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			607,
+			32,
+			53,
+			69,
+			0,
+			67,
+			0,
+			43,
+			34,
+			32,
+			42,
+			34
+		},
+		attrs_growth = {
+			10521,
+			444,
+			713,
+			875,
+			0,
+			466,
+			0,
+			581,
+			540,
+			0,
+			0,
+			475
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			231
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.6,
+			1.2,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KonigsbergMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9702122] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "柯尼斯堡·META",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 9702120,
+		english_name = "Königsberg.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9702122,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			755,
+			40,
+			66,
+			86,
+			0,
+			67,
+			0,
+			43,
+			34,
+			32,
+			42,
+			43
+		},
+		attrs_growth = {
+			10521,
+			444,
+			713,
+			875,
+			0,
+			466,
+			0,
+			581,
+			540,
+			0,
+			0,
+			475
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			232
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.12,
+			1.62,
+			1.22,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KonigsbergMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9702123] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "柯尼斯堡·META",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 9702120,
+		english_name = "Königsberg.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9702123,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1051,
+			56,
+			92,
+			120,
+			0,
+			67,
+			0,
+			43,
+			34,
+			32,
+			42,
+			60
+		},
+		attrs_growth = {
+			10521,
+			444,
+			713,
+			875,
+			0,
+			466,
+			0,
+			581,
+			540,
+			0,
+			0,
+			475
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			233
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.65,
+			1.25,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KonigsbergMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9702124] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "柯尼斯堡·META",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 9702120,
+		english_name = "Königsberg.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9702124,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1495,
+			80,
+			131,
+			171,
+			0,
+			67,
+			0,
+			43,
+			34,
+			32,
+			42,
+			85
+		},
+		attrs_growth = {
+			10521,
+			444,
+			713,
+			875,
+			0,
+			466,
+			0,
+			581,
+			540,
+			0,
+			0,
+			475
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			234
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.7,
+			1.3,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"KonigsbergMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()

@@ -24,11 +24,13 @@ function var_0_0.GetMatchSpEquipmentListKeyByShip(arg_4_0)
 	local var_4_0 = {}
 
 	for iter_4_0, iter_4_1 in pairs(pg.spweapon_data_statistics.get_id_list_by_unique) do
-		for iter_4_2, iter_4_3 in ipairs(pg.ship_data_template.get_id_list_by_group_type[iter_4_0]) do
-			if string.find(string.lower(pg.ship_data_statistics[iter_4_3].name), arg_4_0) then
-				var_4_0 = table.insertto(var_4_0, iter_4_1)
+		if iter_4_0 ~= 0 then
+			for iter_4_2, iter_4_3 in ipairs(pg.ship_data_template.get_id_list_by_group_type[iter_4_0]) do
+				if string.find(string.lower(pg.ship_data_statistics[iter_4_3].name), arg_4_0) then
+					var_4_0 = table.insertto(var_4_0, iter_4_1)
 
-				break
+					break
+				end
 			end
 		end
 	end

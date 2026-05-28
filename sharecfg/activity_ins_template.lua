@@ -635,6 +635,11 @@ pg.activity_ins_template.all = {
 	640,
 	641,
 	642,
+	650,
+	651,
+	652,
+	653,
+	654,
 	644,
 	645,
 	646,
@@ -646,6 +651,7 @@ pg.activity_ins_template.all = {
 	20002,
 	20003,
 	20004,
+	20006,
 	20005
 }
 pg.base = pg.base or {}
@@ -26846,6 +26852,141 @@ end)()
 			7059
 		}
 	}
+	pg.base.activity_ins_template[650] = {
+		ship_group = 90107,
+		name = "Mogador",
+		oalist_pic_persist = "",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		sculpture = "mojiaduoer_4",
+		is_active = 1,
+		message_persist = "",
+		id = 650,
+		group_id = 650,
+		time = {
+			{
+				2026,
+				5,
+				28
+			},
+			{
+				13,
+				21,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[651] = {
+		ship_group = 20135,
+		name = "Janus",
+		oalist_pic_persist = "",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		sculpture = "yanusi_7",
+		is_active = 1,
+		message_persist = "",
+		id = 651,
+		group_id = 651,
+		time = {
+			{
+				2026,
+				5,
+				29
+			},
+			{
+				10,
+				27,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[652] = {
+		ship_group = 40207,
+		name = "Emden ",
+		oalist_pic_persist = "",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		sculpture = "aimudeng_5",
+		is_active = 1,
+		message_persist = "",
+		id = 652,
+		group_id = 652,
+		time = {
+			{
+				2026,
+				5,
+				30
+			},
+			{
+				16,
+				28,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[653] = {
+		ship_group = 30405,
+		name = "Amagi",
+		oalist_pic_persist = "",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		sculpture = "tiancheng_cv_3",
+		is_active = 1,
+		message_persist = "",
+		id = 653,
+		group_id = 653,
+		time = {
+			{
+				2026,
+				5,
+				31
+			},
+			{
+				12,
+				16,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[654] = {
+		ship_group = 49906,
+		name = "August.V.Parseval",
+		oalist_pic_persist = "",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		sculpture = "aogusite_4",
+		is_active = 1,
+		message_persist = "",
+		id = 654,
+		group_id = 654,
+		time = {
+			{
+				2026,
+				6,
+				1
+			},
+			{
+				19,
+				8,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
 	pg.base.activity_ins_template[644] = {
 		ship_group = 40815,
 		name = "U-2501>w<",
@@ -27136,6 +27277,33 @@ end)()
 			},
 			{
 				11,
+				0,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[20006] = {
+		ship_group = 0,
+		name = "",
+		oalist_pic_persist = "",
+		type = 2,
+		picture_persist = "",
+		title = "【港区故事】解锁全新探索地点！抚顺的奇妙大冒险（2）",
+		sculpture = "",
+		is_active = 1,
+		message_persist = "",
+		id = 20006,
+		group_id = 20006,
+		time = {
+			{
+				2026,
+				5,
+				28
+			},
+			{
+				14,
 				0,
 				17
 			}

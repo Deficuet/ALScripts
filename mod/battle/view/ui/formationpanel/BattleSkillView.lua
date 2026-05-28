@@ -249,32 +249,46 @@ function var_0_2.generateCommonButton(arg_22_0, arg_22_1)
 end
 
 function var_0_2.generateSubmarineFuncButton(arg_23_0, arg_23_1)
-	local var_23_0 = var_0_0.Battle.BattleSubmarineFuncButton.New()
+	local var_23_0 = var_0_0.Battle.BattleState.GetCombatSkinKey()
+	local var_23_1
+
+	if var_0_0.Battle["BattleSubmarineFuncButton" .. var_23_0] then
+		var_23_1 = var_0_0.Battle["BattleSubmarineFuncButton" .. var_23_0].New()
+	else
+		var_23_1 = var_0_0.Battle.BattleSubmarineFuncButton.New()
+	end
 
 	arg_23_0._progressSkin = arg_23_0._progressSkin or arg_23_0._ui._tf:Find("Weapon_button_progress")
 
-	local var_23_1 = cloneTplTo(arg_23_0._progressSkin, arg_23_0._buttonContainer)
+	local var_23_2 = cloneTplTo(arg_23_0._progressSkin, arg_23_0._buttonContainer)
 
-	var_23_0:ConfigSkin(var_23_1)
-	var_23_0:SwitchIcon(arg_23_1)
-	var_23_0:SetTextActive(false)
-	table.insert(arg_23_0._skillBtnList, var_23_0)
+	var_23_1:ConfigSkin(var_23_2)
+	var_23_1:SwitchIcon(arg_23_1)
+	var_23_1:SetTextActive(false)
+	table.insert(arg_23_0._skillBtnList, var_23_1)
 
-	return var_23_0
+	return var_23_1
 end
 
 function var_0_2.generateSubmarineButton(arg_24_0, arg_24_1)
-	local var_24_0 = var_0_0.Battle.BattleSubmarineButton.New()
+	local var_24_0 = var_0_0.Battle.BattleState.GetCombatSkinKey()
+	local var_24_1
+
+	if var_0_0.Battle["BattleSubmarineButton" .. var_24_0] then
+		var_24_1 = var_0_0.Battle["BattleSubmarineButton" .. var_24_0].New()
+	else
+		var_24_1 = var_0_0.Battle.BattleSubmarineButton.New()
+	end
 
 	arg_24_0._disposableSkin = arg_24_0._disposableSkin or arg_24_0._ui._tf:Find("Weapon_button")
 
-	local var_24_1 = cloneTplTo(arg_24_0._disposableSkin, arg_24_0._buttonContainer)
+	local var_24_2 = cloneTplTo(arg_24_0._disposableSkin, arg_24_0._buttonContainer)
 
-	var_24_0:ConfigSkin(var_24_1)
-	var_24_0:SwitchIcon(arg_24_1)
-	table.insert(arg_24_0._skillBtnList, var_24_0)
+	var_24_1:ConfigSkin(var_24_2)
+	var_24_1:SwitchIcon(arg_24_1)
+	table.insert(arg_24_0._skillBtnList, var_24_1)
 
-	return var_24_0
+	return var_24_1
 end
 
 function var_0_2.CustomButton(arg_25_0, arg_25_1)

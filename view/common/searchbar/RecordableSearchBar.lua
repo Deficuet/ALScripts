@@ -15,6 +15,8 @@ function var_0_0.CreateData(arg_1_0)
 	var_1_0.onActive = arg_1_0.onActive
 	var_1_0.onInputChanged = arg_1_0.onInputChanged
 	var_1_0.enabledFlag = arg_1_0.enabledFlag
+	var_1_0.expandParent = arg_1_0.expand_parent
+	var_1_0.refreshPosWhenExpand = arg_1_0.refresh_pos_when_expand
 	var_1_0.key = arg_1_0.key .. "_SearchBar_"
 	var_1_0.parent = arg_1_0.parent
 
@@ -117,6 +119,8 @@ function var_0_0.InitToggle(arg_9_0)
 		if not arg_10_0 then
 			arg_9_0:OnUnSelectedInputField()
 		end
+
+		arg_9_0:Reparent(arg_10_0)
 	end, SFX_PANEL)
 	triggerToggle(arg_9_0.toggle, false)
 
@@ -148,202 +152,221 @@ function var_0_0.InitToggle(arg_9_0)
 	arg_9_0:UpdateHolder(var_9_0.holder)
 end
 
-function var_0_0.UpdatePosition(arg_15_0)
+function var_0_0.Reparent(arg_15_0, arg_15_1)
 	local var_15_0 = arg_15_0.data
 
-	if not var_15_0.position then
-		return
+	if var_15_0.expandParent then
+		local var_15_1 = arg_15_1 and var_15_0.expandParent or var_15_0.parent
+
+		arg_15_0._go.transform:SetParent(var_15_1, false)
+
+		if var_15_0.refreshPosWhenExpand then
+			if arg_15_1 then
+				arg_15_0.mainBtnTr.position = var_15_0.parent.position
+			else
+				arg_15_0:UpdateAnchoredPosition()
+			end
+		end
 	end
-
-	local var_15_1 = arg_15_0._go.transform:InverseTransformPoint(var_15_0.position)
-
-	arg_15_0.mainBtnTr.localPosition = Vector3(var_15_1.x, var_15_1.y, 0)
 end
 
-function var_0_0.UpdateAnchoredPosition(arg_16_0)
+function var_0_0.UpdatePosition(arg_16_0)
 	local var_16_0 = arg_16_0.data
 
-	if not var_16_0.anchoredPosition then
+	if not var_16_0.position then
 		return
 	end
 
-	arg_16_0.mainBtnTr.anchoredPosition = var_16_0.anchoredPosition
+	local var_16_1 = arg_16_0._go.transform:InverseTransformPoint(var_16_0.position)
+
+	arg_16_0.mainBtnTr.localPosition = Vector3(var_16_1.x, var_16_1.y, 0)
 end
 
-function var_0_0.SyncPosition(arg_17_0)
-	arg_17_0:RemoveSyncPosition()
+function var_0_0.UpdateAnchoredPosition(arg_17_0)
+	local var_17_0 = arg_17_0.data
 
-	arg_17_0.timer = Timer.New(function()
-		arg_17_0:UpdatePosition()
+	if not var_17_0.anchoredPosition then
+		return
+	end
+
+	arg_17_0.mainBtnTr.anchoredPosition = var_17_0.anchoredPosition
+end
+
+function var_0_0.SyncPosition(arg_18_0)
+	arg_18_0:RemoveSyncPosition()
+
+	arg_18_0.timer = Timer.New(function()
+		arg_18_0:UpdatePosition()
 	end, 0.1, -1)
 
-	arg_17_0.timer:Start()
+	arg_18_0.timer:Start()
 end
 
-function var_0_0.RemoveSyncPosition(arg_19_0)
-	if arg_19_0.timer then
-		arg_19_0.timer:Stop()
+function var_0_0.RemoveSyncPosition(arg_20_0)
+	if arg_20_0.timer then
+		arg_20_0.timer:Stop()
 
-		arg_19_0.timer = nil
+		arg_20_0.timer = nil
 	end
 end
 
-function var_0_0.RecordSearch(arg_20_0, arg_20_1)
-	if not arg_20_1 or arg_20_1 == "" then
+function var_0_0.RecordSearch(arg_21_0, arg_21_1)
+	if not arg_21_1 or arg_21_1 == "" then
 		return
 	end
 
-	local var_20_0 = arg_20_0.data.key
-	local var_20_1 = arg_20_0:GetHistorySearch()
+	local var_21_0 = arg_21_0.data.key
+	local var_21_1 = arg_21_0:GetHistorySearch()
 
-	if table.contains(var_20_1, arg_20_1) then
+	if table.contains(var_21_1, arg_21_1) then
 		return
 	end
 
-	table.insert(var_20_1, 1, arg_20_1)
+	table.insert(var_21_1, 1, arg_21_1)
 
-	local var_20_2 = {}
-	local var_20_3 = math.min(#var_20_1, 3)
+	local var_21_2 = {}
+	local var_21_3 = math.min(#var_21_1, 3)
 
-	for iter_20_0 = 1, var_20_3 do
-		table.insert(var_20_2, var_20_1[iter_20_0])
+	for iter_21_0 = 1, var_21_3 do
+		table.insert(var_21_2, var_21_1[iter_21_0])
 	end
 
-	local var_20_4 = table.concat(var_20_2, "#")
+	local var_21_4 = table.concat(var_21_2, "#")
 
-	PlayerPrefs.SetString(var_20_0, var_20_4)
+	PlayerPrefs.SetString(var_21_0, var_21_4)
 	PlayerPrefs.Save()
 end
 
-function var_0_0.GetHistorySearch(arg_21_0)
-	local var_21_0 = arg_21_0.data.key
-	local var_21_1 = PlayerPrefs.GetString(var_21_0, "")
+function var_0_0.GetHistorySearch(arg_22_0)
+	local var_22_0 = arg_22_0.data.key
+	local var_22_1 = PlayerPrefs.GetString(var_22_0, "")
 
-	if not var_21_1 or var_21_1 == "" then
+	if not var_22_1 or var_22_1 == "" then
 		return {}
 	end
 
-	local var_21_2 = {}
-	local var_21_3 = string.split(var_21_1, "#")
+	local var_22_2 = {}
+	local var_22_3 = string.split(var_22_1, "#")
 
-	for iter_21_0, iter_21_1 in ipairs(var_21_3) do
-		if iter_21_1 ~= "" then
-			table.insert(var_21_2, iter_21_1)
+	for iter_22_0, iter_22_1 in ipairs(var_22_3) do
+		if iter_22_1 ~= "" then
+			table.insert(var_22_2, iter_22_1)
 		end
 	end
 
-	return var_21_2
+	return var_22_2
 end
 
-function var_0_0.OnSelectedInputField(arg_22_0)
-	local var_22_0 = arg_22_0:GetHistorySearch()
+function var_0_0.OnSelectedInputField(arg_23_0)
+	local var_23_0 = arg_23_0:GetHistorySearch()
 
-	if arg_22_0.isSelected or #var_22_0 <= 0 then
+	if arg_23_0.isSelected or #var_23_0 <= 0 then
 		return
 	end
 
-	arg_22_0.isSelected = true
-	arg_22_0.noDrawGraphicCom.raycastTarget = true
+	arg_23_0.isSelected = true
+	arg_23_0.noDrawGraphicCom.raycastTarget = true
 
-	arg_22_0:InitHistorySearch(var_22_0)
+	arg_23_0:InitHistorySearch(var_23_0)
 end
 
-function var_0_0.OnUnSelectedInputField(arg_23_0)
-	if not arg_23_0.isSelected then
+function var_0_0.OnUnSelectedInputField(arg_24_0)
+	if not arg_24_0.isSelected then
 		return
 	end
 
-	arg_23_0.isSelected = false
-	arg_23_0.noDrawGraphicCom.raycastTarget = false
+	arg_24_0.isSelected = false
+	arg_24_0.noDrawGraphicCom.raycastTarget = false
 
-	arg_23_0:CloseHistorySearch()
+	arg_24_0:CloseHistorySearch()
 end
 
-function var_0_0.InitHistorySearch(arg_24_0, arg_24_1)
-	local var_24_0 = arg_24_0.data
+function var_0_0.InitHistorySearch(arg_25_0, arg_25_1)
+	local var_25_0 = arg_25_0.data
 
-	setActive(arg_24_0.historyTr, true)
+	setActive(arg_25_0.historyTr, true)
 
-	local var_24_1 = arg_24_0:GetHistorySearch()
+	local var_25_1 = arg_25_0:GetHistorySearch()
 
-	arg_24_0.uiHistoryList:make(function(arg_25_0, arg_25_1, arg_25_2)
-		local var_25_0 = arg_25_1 + 1
+	arg_25_0.uiHistoryList:make(function(arg_26_0, arg_26_1, arg_26_2)
+		local var_26_0 = arg_26_1 + 1
 
-		if arg_25_0 == UIItemList.EventUpdate then
-			setText(arg_25_2, var_24_1[var_25_0])
-			onButton(arg_24_0, arg_25_2, function()
-				setInputText(arg_24_0.searchTr, var_24_1[var_25_0])
+		if arg_26_0 == UIItemList.EventUpdate then
+			setText(arg_26_2, var_25_1[var_26_0])
+			onButton(arg_25_0, arg_26_2, function()
+				setInputText(arg_25_0.searchTr, var_25_1[var_26_0])
 
-				if var_24_0.onSearch then
-					var_24_0.onSearch(var_24_1[var_25_0])
+				if var_25_0.onSearch then
+					var_25_0.onSearch(var_25_1[var_26_0])
 				end
 
-				arg_24_0:OnUnSelectedInputField()
+				arg_25_0:OnUnSelectedInputField()
 			end, SFX_PANEL)
-			setActive(arg_25_2:Find("Image"), var_25_0 ~= #var_24_1)
+			setActive(arg_26_2:Find("Image"), var_26_0 ~= #var_25_1)
 		end
 	end)
-	arg_24_0.uiHistoryList:align(#var_24_1)
+	arg_25_0.uiHistoryList:align(#var_25_1)
 end
 
-function var_0_0.CloseHistorySearch(arg_27_0)
-	setActive(arg_27_0.historyTr, false)
+function var_0_0.CloseHistorySearch(arg_28_0)
+	setActive(arg_28_0.historyTr, false)
 end
 
-function var_0_0.GetInputText(arg_28_0)
-	if not arg_28_0:IsLoaded() then
+function var_0_0.GetInputText(arg_29_0)
+	if not arg_29_0:IsLoaded() then
 		return ""
 	end
 
-	return getInputText(arg_28_0.searchTr)
+	return getInputText(arg_29_0.searchTr)
 end
 
-function var_0_0.UpdateHolder(arg_29_0, arg_29_1)
-	if not arg_29_0:IsLoaded() then
-		return
-	end
-
-	setText(arg_29_0.holder, arg_29_1)
-end
-
-function var_0_0.ClearInputText(arg_30_0)
+function var_0_0.UpdateHolder(arg_30_0, arg_30_1)
 	if not arg_30_0:IsLoaded() then
 		return
 	end
 
-	setInputText(arg_30_0.searchTr, "")
+	setText(arg_30_0.holder, arg_30_1)
 end
 
-function var_0_0.Unload(arg_31_0, arg_31_1)
-	Object.Destroy(arg_31_1)
-end
-
-function var_0_0.EnableOrDisable(arg_32_0, arg_32_1)
-	if arg_32_0:IsLoaded() then
-		setActive(arg_32_0._go, arg_32_1)
-	else
-		arg_32_0.enabledFlag = arg_32_1
+function var_0_0.ClearInputText(arg_31_0)
+	if not arg_31_0:IsLoaded() then
+		return
 	end
+
+	setInputText(arg_31_0.searchTr, "")
 end
 
-function var_0_0.Dispose(arg_33_0)
+function var_0_0.Unload(arg_32_0, arg_32_1)
+	Object.Destroy(arg_32_1)
+end
+
+function var_0_0.EnableOrDisable(arg_33_0, arg_33_1)
 	if arg_33_0:IsLoaded() then
-		arg_33_0:Unload(arg_33_0._go)
+		setActive(arg_33_0._go, arg_33_1)
+	else
+		arg_33_0.enabledFlag = arg_33_1
+	end
+end
 
-		arg_33_0._go = nil
+function var_0_0.Dispose(arg_34_0)
+	pg.DelegateInfo.Dispose(arg_34_0)
+
+	if arg_34_0:IsLoaded() then
+		arg_34_0:Unload(arg_34_0._go)
+		arg_34_0:OnUnSelectedInputField()
+
+		if arg_34_0.etl then
+			ClearEventTrigger(arg_34_0.etl)
+		end
+
+		setInputText(arg_34_0.searchTr, "")
+		arg_34_0:RemoveSyncPosition()
 	end
 
-	arg_33_0:OnUnSelectedInputField()
-
-	arg_33_0.state = var_0_4
-
-	pg.DelegateInfo.Dispose(arg_33_0)
-	ClearEventTrigger(arg_33_0.etl)
-	setInputText(arg_33_0.searchTr, "")
-	arg_33_0:RemoveSyncPosition()
-
-	arg_33_0.data = nil
-	arg_33_0.enabledFlag = nil
+	arg_34_0.state = var_0_4
+	arg_34_0.data = nil
+	arg_34_0.enabledFlag = nil
+	arg_34_0._go = nil
 end
 
 return var_0_0

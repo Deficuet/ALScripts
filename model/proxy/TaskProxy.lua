@@ -387,6 +387,12 @@ function var_0_0.deleteTask(arg_36_0, arg_36_1)
 end
 
 function var_0_0.deleteTaskById(arg_37_0, arg_37_1)
+	if arg_37_0.submittingTask[arg_37_1] then
+		print("正在提交的任务不予删除，id:" .. arg_37_1)
+
+		return
+	end
+
 	local var_37_0 = arg_37_0.data[arg_37_1] or arg_37_0.finishData[arg_37_1]
 
 	arg_37_0.data[arg_37_1] = nil

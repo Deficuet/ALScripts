@@ -278,7 +278,7 @@ function var_0_0.OnAddFollower(arg_21_0, arg_21_1)
 	local var_21_0 = #arg_21_0.sceneData.followUnits > 0
 	local var_21_1 = arg_21_0:GetIsland():GetCharacterAgency():GetShipById(arg_21_1)
 	local var_21_2 = var_21_1:GetModelUnit()
-	local var_21_3 = arg_21_0:GetView():GetPlayerPosition()
+	local var_21_3 = arg_21_0:GetView():GetPlayerLastGroundedPosition()
 	local var_21_4 = IslandFollowerUnitVO.New(var_21_1.id, arg_21_1, var_21_2, var_21_3, Vector3(0, 0, 0), not var_21_0)
 
 	table.insert(arg_21_0.sceneData.followUnits, var_21_4)

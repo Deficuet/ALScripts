@@ -584,7 +584,18 @@ function temp()
 		尼 = {
 			斯 = {
 				堡 = {
-					this = true
+					this = true,
+					· = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		}

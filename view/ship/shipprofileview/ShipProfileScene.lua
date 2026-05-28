@@ -270,18 +270,19 @@ function var_0_0.InitCommon(arg_24_0)
 	arg_24_0.labelName.text = arg_24_0.shipGroup:getName(arg_24_0.showTrans)
 
 	local var_24_0 = arg_24_0.shipGroup.shipConfig
+	local var_24_1 = pg.ship_data_template[var_24_0.id].star_max
 
 	arg_24_0.labelEnName.text = var_24_0.english_name
 
-	for iter_24_0 = 1, var_24_0.star do
+	for iter_24_0 = 1, var_24_1 do
 		cloneTplTo(arg_24_0.star, arg_24_0.stars)
 	end
 
 	arg_24_0:FlushHearts()
 
-	local var_24_1 = arg_24_0.shipGroup:GetSkin(arg_24_0.showTrans).id
+	local var_24_2 = arg_24_0.shipGroup:GetSkin(arg_24_0.showTrans).id
 
-	arg_24_0:SetPainting(var_24_1, arg_24_0.showTrans)
+	arg_24_0:SetPainting(var_24_2, arg_24_0.showTrans)
 end
 
 function var_0_0.SetPainting(arg_25_0, arg_25_1, arg_25_2)

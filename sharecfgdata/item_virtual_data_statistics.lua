@@ -178328,6 +178328,33 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[65117] = {
+		display = "参与「世界巡游」获得的点数，累计一定程度可以领取奖励，活动结束后将会消失 ",
+		name = "巡游点数",
+		album_config = "",
+		type = 0,
+		drop_oil_max = 0,
+		virtual_type = 21,
+		shop_id = -1,
+		replace_item = 0,
+		id = 65117,
+		link_id = 7029,
+		icon = "props/battlepass_pt",
+		order = 0,
+		rarity = 2,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[65500] = {
 		display = "铁血抵抗军颁发的纪念勋章，纪念那场对抗星之兽的伟大胜利。\n——我们今日不会毁灭，这个世界亦然，致明日。",
 		name = "抵抗之星纪念勋章",
@@ -187628,6 +187655,33 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[65990] = {
+		display = "用于「限时体验商店」兑换角色限时换装，2019年7月11日后将无法使用",
+		name = "换装体验券",
+		album_config = "",
+		type = 98,
+		drop_oil_max = 0,
+		virtual_type = 0,
+		shop_id = 1,
+		replace_item = 0,
+		id = 65990,
+		link_id = 0,
+		icon = "Props/skinTicket",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[65918] = {
 		display = "用于「圣印前的同盟」活动的常规兑换，活动结束后将会消失",
 		name = "神圣联合帝国金币",
@@ -189961,6 +190015,87 @@ end)()
 		icon = "Props/buildTicket",
 		order = 0,
 		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[66020] = {
+		display = "用于「限时体验商店」兑换角色限时换装",
+		name = "换装体验券",
+		album_config = "",
+		type = 98,
+		drop_oil_max = 0,
+		virtual_type = 0,
+		shop_id = 1,
+		replace_item = 0,
+		id = 66020,
+		link_id = 0,
+		icon = "Props/skinTicket",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[66037] = {
+		display = "用于「独立小仙寻宝中」活动提升角色好感，活动结束后将会消失",
+		name = "友好度-{namecode:563}",
+		album_config = "",
+		type = 98,
+		drop_oil_max = 0,
+		virtual_type = 0,
+		shop_id = -1,
+		replace_item = 0,
+		id = 66037,
+		link_id = 0,
+		icon = "Props/xiaoyunxian_pt",
+		order = 0,
+		rarity = 2,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[66038] = {
+		display = "看不到看不到",
+		name = "小云仙转换虚拟道具（不显示）",
+		album_config = "",
+		type = 0,
+		drop_oil_max = 0,
+		virtual_type = 17,
+		shop_id = -1,
+		replace_item = 0,
+		id = 66038,
+		link_id = 51012,
+		icon = "Props/xiaoyunxian_pt",
+		order = 0,
+		rarity = 2,
 		max_num = 0,
 		time_limit = 0,
 		drop_gold_max = 0,
@@ -199368,6 +199503,58 @@ end)()
 			{
 				401141,
 				1740
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[86228] = {
+		display = "不会被看到",
+		name = "随机换装",
+		album_config = "",
+		type = 98,
+		drop_oil_max = 0,
+		virtual_type = 0,
+		shop_id = -1,
+		replace_item = 0,
+		id = 86228,
+		link_id = 0,
+		icon = "Props/clothIcon",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {
+			{
+				499063,
+				1300
+			},
+			{
+				201355,
+				1300
+			},
+			{
+				899013,
+				1300
+			},
+			{
+				402074,
+				1600
+			},
+			{
+				502013,
+				2000
+			},
+			{
+				107225,
+				2500
 			}
 		}
 	}
@@ -260536,7 +260723,7 @@ end)()
 			},
 			{
 				4,
-				101071,
+				103021,
 				1
 			},
 			{
@@ -260674,7 +260861,7 @@ end)()
 			},
 			{
 				4,
-				101071,
+				103021,
 				1
 			},
 			{
@@ -260812,7 +260999,7 @@ end)()
 			},
 			{
 				4,
-				101071,
+				103021,
 				1
 			},
 			{
@@ -261369,7 +261556,7 @@ end)()
 			},
 			{
 				4,
-				101071,
+				103021,
 				1
 			},
 			{
@@ -261507,7 +261694,7 @@ end)()
 			},
 			{
 				4,
-				101071,
+				103021,
 				1
 			},
 			{
@@ -261645,7 +261832,7 @@ end)()
 			},
 			{
 				4,
-				101071,
+				103021,
 				1
 			},
 			{

@@ -1,4 +1,6 @@
 local var_0_0 = class("AnniversaryNineCoreActivityUI", import("view.activity.CorePage.CoreAdaptActivityMainScene"))
+local var_0_1 = "#a6beb7"
+local var_0_2 = "#584E45"
 
 function var_0_0.getUIName(arg_1_0)
 	return "AnniversaryNineCoreActivityUI"
@@ -47,6 +49,12 @@ function var_0_0.init(arg_2_0, ...)
 							end
 
 							var_2_0 = var_3_0.id
+
+							if arg_2_0:GetActivityClassName(var_3_0) == "AnniversaryNineHwahJahSkinPage" then
+								arg_2_0:SetColorTab(var_0_1)
+							else
+								arg_2_0:SetColorTab(var_0_2)
+							end
 						end
 					end, SFX_PANEL)
 				end
@@ -55,8 +63,28 @@ function var_0_0.init(arg_2_0, ...)
 	end)
 end
 
-function var_0_0.GetButtonNameText(arg_6_0, arg_6_1)
-	return i18n(string.format(arg_6_1:getConfig("title_res_tag")))
+function var_0_0.SetColorTab(arg_6_0, arg_6_1)
+	for iter_6_0 = 1, 7 do
+		setTextColor(arg_6_0.tabs:Find(iter_6_0 .. "/off/name"), Color.NewHex(arg_6_1))
+	end
+end
+
+function var_0_0.GetActivityClassName(arg_7_0, arg_7_1)
+	if not arg_7_1 then
+		return nil
+	end
+
+	local var_7_0 = arg_7_1:getConfig("page_info")
+
+	if type(var_7_0) == "table" then
+		return var_7_0.class_name
+	end
+
+	return nil
+end
+
+function var_0_0.GetButtonNameText(arg_8_0, arg_8_1)
+	return i18n(string.format(arg_8_1:getConfig("title_res_tag")))
 end
 
 return var_0_0

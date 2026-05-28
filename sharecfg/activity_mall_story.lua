@@ -248,7 +248,7 @@ pg.base.activity_mall_story = {}
 		type = 2,
 		id = 201,
 		icon = "icon_1",
-		desc = "阁下，该醒咯~",
+		desc = "购物中心达到1级解锁",
 		posion = {
 			327,
 			198,
@@ -261,7 +261,7 @@ pg.base.activity_mall_story = {}
 		type = 2,
 		id = 202,
 		icon = "icon_1",
-		desc = "昙花一现的宝石",
+		desc = "购物中心达到2级解锁",
 		posion = {
 			-341,
 			-20,
@@ -274,7 +274,7 @@ pg.base.activity_mall_story = {}
 		type = 2,
 		id = 203,
 		icon = "icon_1",
-		desc = "海鸥的踪迹",
+		desc = "购物中心达到3级解锁",
 		posion = {
 			1019,
 			168,
@@ -287,7 +287,7 @@ pg.base.activity_mall_story = {}
 		type = 2,
 		id = 204,
 		icon = "icon_1",
-		desc = "屋顶上的“海盗”",
+		desc = "购物中心达到4级解锁",
 		posion = {
 			172,
 			-331,
@@ -300,7 +300,7 @@ pg.base.activity_mall_story = {}
 		type = 2,
 		id = 205,
 		icon = "icon_1",
-		desc = "神·灯·小·姐",
+		desc = "购物中心达到5级解锁",
 		posion = {
 			-478,
 			408,
@@ -313,7 +313,7 @@ pg.base.activity_mall_story = {}
 		type = 2,
 		id = 206,
 		icon = "icon_1",
-		desc = "“魔法”花园的晚宴",
+		desc = "购物中心达到6级解锁",
 		posion = {
 			140,
 			531,
@@ -326,7 +326,7 @@ pg.base.activity_mall_story = {}
 		type = 2,
 		id = 207,
 		icon = "icon_1",
-		desc = "奇迹之光",
+		desc = "购物中心达到7级解锁",
 		posion = {
 			-164,
 			401,
@@ -339,7 +339,7 @@ pg.base.activity_mall_story = {}
 		type = 2,
 		id = 208,
 		icon = "icon_1",
-		desc = "为你献上的礼物",
+		desc = "购物中心达到8级解锁",
 		posion = {
 			653,
 			-269,

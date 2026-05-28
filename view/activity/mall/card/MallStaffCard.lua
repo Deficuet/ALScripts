@@ -16,9 +16,14 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 		arg_1_0._tf:Find("attrs/2/Text"),
 		arg_1_0._tf:Find("attrs/3/Text")
 	}
+	arg_1_0.attrBgTFs = {
+		arg_1_0._tf:Find("attrs/1"),
+		arg_1_0._tf:Find("attrs/2"),
+		arg_1_0._tf:Find("attrs/3")
+	}
 end
 
-function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2, arg_2_3)
+function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2, arg_2_3, arg_2_4)
 	arg_2_0.staff = arg_2_1
 	arg_2_0.id = arg_2_0.staff.id
 	arg_2_0.tid = arg_2_0.staff.tid
@@ -31,25 +36,35 @@ function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2, arg_2_3)
 
 	arg_2_0.attrList = arg_2_0.staff:GetAttrList()
 
+	local var_2_1
+
+	var_2_1 = arg_2_4 or {}
+
 	for iter_2_0, iter_2_1 in ipairs(arg_2_0.attrList) do
 		setText(arg_2_0.attrTextTFs[iter_2_0], iter_2_1)
+
+		if table.contains(arg_2_4, iter_2_0) then
+			GetImageSpriteFromAtlasAsync("ui/mallstafftpl_atlas", "attr_bg2", arg_2_0.attrBgTFs[iter_2_0], true)
+		else
+			GetImageSpriteFromAtlasAsync("ui/mallstafftpl_atlas", "attr_bg1", arg_2_0.attrBgTFs[iter_2_0], true)
+		end
 	end
 
-	local var_2_1 = table.indexof(arg_2_2, arg_2_0.id)
+	local var_2_2 = table.indexof(arg_2_2, arg_2_0.id)
 
-	setActive(arg_2_0.selTF, var_2_1)
+	setActive(arg_2_0.selTF, var_2_2)
 
-	if var_2_1 then
-		setText(arg_2_0.selTF:Find("Text"), var_2_1)
+	if var_2_2 then
+		setText(arg_2_0.selTF:Find("Text"), var_2_2)
 	end
 
-	local var_2_2, var_2_3 = arg_2_0.staff:GetStatusInfos()
+	local var_2_3, var_2_4 = arg_2_0.staff:GetStatusInfos()
 
-	setActive(arg_2_0.orderTF, var_2_2 == MallStaff.STATUS.ORDER)
-	setActive(arg_2_0.floorTF, var_2_2 == MallStaff.STATUS.FLOOR and (arg_2_3 and not var_2_1 or not arg_2_3))
+	setActive(arg_2_0.orderTF, var_2_3 == MallStaff.STATUS.ORDER)
+	setActive(arg_2_0.floorTF, var_2_3 == MallStaff.STATUS.FLOOR and (arg_2_3 and not var_2_2 or not arg_2_3))
 
-	if var_2_2 == MallStaff.STATUS.FLOOR then
-		setText(arg_2_0.floorTF:Find("Text"), i18n("mall_staff_in_floor", var_2_3.floorId))
+	if var_2_3 == MallStaff.STATUS.FLOOR then
+		setText(arg_2_0.floorTF:Find("Text"), i18n("mall_staff_in_floor", var_2_4.floorId))
 	end
 end
 

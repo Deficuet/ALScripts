@@ -116,6 +116,8 @@ pg.pay_data_display.all = {
 	9015,
 	9016,
 	9017,
+	9018,
+	9019,
 	1000,
 	1001,
 	1002,
@@ -144,6 +146,7 @@ pg.pay_data_display.all = {
 	1025,
 	1026,
 	1027,
+	1028,
 	1302,
 	2001,
 	2002,
@@ -13819,6 +13822,274 @@ end)()
 			}
 		}
 	}
+	pg.base.pay_data_display[9018] = {
+		limit_group = 0,
+		name = "九周年泳装礼盒·II",
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		second_text = "大量奖励",
+		type_order = 2,
+		subject = "九周年泳装礼盒·II",
+		first_text = "随机换装和大量钻石",
+		limit_arg = 1,
+		tip = "",
+		money = 198,
+		tip_open = 0,
+		tag = 2,
+		id = 9018,
+		gem = 0,
+		name_display = "九周年泳装礼盒·II",
+		package_sort_id = 0,
+		limit_type = 2,
+		akashi_pick = 1,
+		extra_service = 3,
+		package_tag = "",
+		picture = "fudai36",
+		show_group = "",
+		skin_inquire_relation = 86228,
+		package_tag_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi217",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "可获得一件角色换装，2026钻，和大量其他奖励",
+		airijp_id = "com.yostarjp.azurlane.diamond205",
+		extra_service_item = {
+			{
+				2,
+				86228,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					5,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81236,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86228,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			}
+		}
+	}
+	pg.base.pay_data_display[9019] = {
+		limit_group = 0,
+		name = "八周年泳装礼盒·II复刻",
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		second_text = "大量奖励",
+		type_order = 2,
+		subject = "八周年泳装礼盒·II复刻",
+		first_text = "随机换装和大量钻石",
+		limit_arg = 1,
+		tip = "",
+		money = 198,
+		tip_open = 0,
+		tag = 2,
+		id = 9019,
+		gem = 0,
+		name_display = "八周年泳装礼盒·II复刻",
+		package_sort_id = 0,
+		limit_type = 2,
+		akashi_pick = 1,
+		extra_service = 3,
+		package_tag = "",
+		picture = "fudai25",
+		show_group = "",
+		skin_inquire_relation = 86214,
+		package_tag_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi218",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
+		airijp_id = "com.yostarjp.azurlane.diamond206",
+		extra_service_item = {
+			{
+				2,
+				86214,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					5,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81214,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86214,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	}
 	pg.base.pay_data_display[1000] = {
 		limit_group = 0,
 		name = "特许巡游凭证",
@@ -16193,6 +16464,91 @@ end)()
 		},
 		sub_display = {
 			7028,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	}
+	pg.base.pay_data_display[1028] = {
+		limit_group = 0,
+		name = "特许巡游凭证(2026.6)",
+		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		type = 0,
+		second_text = "",
+		type_order = 6,
+		subject = "特许巡游凭证",
+		first_text = "",
+		first_icon = "",
+		limit_arg = 1,
+		money = 68,
+		tip = "",
+		tag = 2,
+		tip_open = 0,
+		gem = 0,
+		id = 1028,
+		name_display = "特许巡游凭证",
+		limit_type = 2,
+		package_sort_id = 0,
+		akashi_pick = 1,
+		package_tag = "",
+		picture = "battlepass_1",
+		extra_service = 4,
+		skin_inquire_relation = 0,
+		show_group = "",
+		id_str = "com.bilibili.blhx.battlepass30",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·梧限定换装和其他奖励",
+		package_tag_open = 0,
+		airijp_id = "com.yostarjp.azurlane.seasonpass29",
+		extra_service_item = {
+			{
+				1,
+				4029,
+				1500
+			},
+			{
+				8,
+				65117,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7029,
 			1500
 		},
 		ignorePlatform = {},
@@ -21143,6 +21499,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.pay_data_display[2057] = {
 		limit_group = 106,
 		name = "忍者之城主题礼包",
@@ -21406,8 +21764,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.pay_data_display[2063] = {
 		limit_group = 0,
 		name = "海上传奇支援组合包(251106)",

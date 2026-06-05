@@ -6,8 +6,8 @@ return {
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 802075,
-	icon = 802070,
+	id = 802275,
+	icon = 802270,
 	last_effect = "",
 	effect_list = {
 		{

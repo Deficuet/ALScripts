@@ -54,6 +54,7 @@ function var_0_0.OnLoaded(arg_2_0)
 
 			arg_2_0:OpenPage(IslandShipSelectPage, {
 				needWorkSpeed = true,
+				showType = IslandSelectShipCard.SHOW_TYPE.PlACE,
 				attrType = var_5_0,
 				confirmFunc = function(arg_6_0)
 					arg_2_0.detailPanel:ExecuteAction("OnShipSelected", arg_6_0[1])

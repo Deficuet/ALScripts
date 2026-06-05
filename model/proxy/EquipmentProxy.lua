@@ -50,6 +50,8 @@ function var_0_0.register(arg_1_0)
 	arg_1_0.weakTable = setmetatable({}, {
 		__mode = "v"
 	})
+	arg_1_0.equipmentDesignObtainWays = {}
+	arg_1_0.equipmentDesignObtainWayIndexed = false
 end
 
 function var_0_0.getEquipmentSkins(arg_5_0)
@@ -513,6 +515,150 @@ function var_0_0.OnShipEquipsRemove(arg_40_0, arg_40_1, arg_40_2, arg_40_3)
 	arg_40_1.shipPos = arg_40_3
 
 	arg_40_0.weakTable.equipsDict:RemoveEquipment(arg_40_1)
+end
+
+function var_0_0.BuildEquipmentDesignObtainWayIndex(arg_41_0)
+	if arg_41_0.equipmentDesignObtainWayIndexed then
+		return
+	end
+
+	local function var_41_0(arg_42_0)
+		return arg_42_0 == DROP_TYPE_ITEM or arg_42_0 == DROP_TYPE_VITEM
+	end
+
+	local var_41_1 = {}
+
+	local function var_41_2(arg_43_0)
+		if var_41_1[arg_43_0] then
+			return var_41_1[arg_43_0]
+		end
+
+		local var_43_0 = {}
+		local var_43_1 = Item.getConfigData(arg_43_0)
+
+		if var_43_1 then
+			if var_43_1.type == Item.DESIGN_TYPE then
+				table.insert(var_43_0, arg_43_0)
+			end
+
+			for iter_43_0, iter_43_1 in ipairs(var_43_1.display_icon or {}) do
+				local var_43_2 = iter_43_1[1]
+				local var_43_3 = iter_43_1[2]
+
+				if var_41_0(var_43_2) then
+					local var_43_4 = Item.getConfigData(var_43_3)
+
+					if var_43_4 and var_43_4.type == Item.DESIGN_TYPE then
+						table.insert(var_43_0, var_43_3)
+					end
+				end
+			end
+		end
+
+		var_41_1[arg_43_0] = var_43_0
+
+		return var_43_0
+	end
+
+	local function var_41_3(arg_44_0)
+		arg_41_0.equipmentDesignObtainWays[arg_44_0] = arg_41_0.equipmentDesignObtainWays[arg_44_0] or {
+			{},
+			false,
+			false
+		}
+
+		return arg_41_0.equipmentDesignObtainWays[arg_44_0]
+	end
+
+	local function var_41_4(arg_45_0)
+		return arg_45_0.act_id == 0 or arg_45_0.act_id == 100001
+	end
+
+	for iter_41_0, iter_41_1 in ipairs(pg.chapter_template.all) do
+		local var_41_5 = pg.chapter_template[iter_41_1]
+
+		if var_41_4(var_41_5) then
+			local var_41_6 = var_41_5.awards or {}
+			local var_41_7 = {}
+
+			for iter_41_2, iter_41_3 in ipairs(var_41_6) do
+				local var_41_8 = iter_41_3[1]
+				local var_41_9 = iter_41_3[2]
+
+				if var_41_0(var_41_8) then
+					for iter_41_4, iter_41_5 in ipairs(var_41_2(var_41_9)) do
+						if not var_41_7[iter_41_5] then
+							table.insert(var_41_3(iter_41_5)[1], iter_41_1)
+
+							var_41_7[iter_41_5] = true
+						end
+					end
+				end
+			end
+		end
+	end
+
+	for iter_41_6, iter_41_7 in ipairs(pg.technology_data_template.all) do
+		local var_41_10 = pg.technology_data_template[iter_41_7].drop_client or {}
+
+		for iter_41_8, iter_41_9 in ipairs(var_41_10) do
+			local var_41_11 = iter_41_9[1]
+			local var_41_12 = iter_41_9[2]
+
+			if var_41_0(var_41_11) then
+				for iter_41_10, iter_41_11 in ipairs(var_41_2(var_41_12)) do
+					var_41_3(iter_41_11)[2] = true
+				end
+			end
+		end
+	end
+
+	local var_41_13 = getProxy(ShopsProxy):getFragmentShop()
+
+	if var_41_13 then
+		local var_41_14 = var_41_13:GetCommodities(designId)
+
+		for iter_41_12, iter_41_13 in ipairs(var_41_14) do
+			for iter_41_14, iter_41_15 in ipairs(iter_41_13:GetDropList()) do
+				local var_41_15 = iter_41_15.type
+				local var_41_16 = iter_41_15.id
+
+				if var_41_15 == DROP_TYPE_ITEM then
+					local var_41_17 = Item.getConfigData(var_41_16)
+
+					if var_41_17 and var_41_17.type == Item.DESIGN_TYPE then
+						var_41_3(var_41_17.id)[3] = true
+					end
+				end
+			end
+		end
+	end
+
+	arg_41_0.equipmentDesignObtainWayIndexed = true
+end
+
+function var_0_0.ShouldShowEquipmentDesignObtainWay(arg_46_0, arg_46_1)
+	arg_46_0:BuildEquipmentDesignObtainWayIndex()
+
+	local var_46_0 = arg_46_0.equipmentDesignObtainWays[arg_46_1]
+
+	if not var_46_0 then
+		return false
+	end
+
+	return #var_46_0[1] > 0 or var_46_0[2] or var_46_0[3]
+end
+
+function var_0_0.GetObtainWay4EquipmentDesign(arg_47_0, arg_47_1)
+	arg_47_0:BuildEquipmentDesignObtainWayIndex()
+
+	arg_47_0.equipmentDesignObtainWays[arg_47_1] = arg_47_0.equipmentDesignObtainWays[arg_47_1] or {
+		{},
+		false,
+		false
+	}
+
+	return arg_47_0.equipmentDesignObtainWays[arg_47_1]
 end
 
 return var_0_0

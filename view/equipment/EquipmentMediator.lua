@@ -16,6 +16,7 @@ var_0_0.ITEM_GO_SCENE = "item go scene"
 var_0_0.ITEM_ADD_LAYER = "EquipmentMediator.ITEM_ADD_LAYER"
 var_0_0.OPEN_EQUIPSKIN_INDEX_LAYER = "EquipmentMediator:OPEN_EQUIPSKIN_INDEX_LAYER"
 var_0_0.OPEN_EQUIPMENT_INDEX = "OPEN_EQUIPMENT_INDEX"
+var_0_0.DESIGN_FILTER_CHANGED = "EquipmentMediator:DESIGN_FILTER_CHANGED"
 
 function var_0_0.register(arg_1_0)
 	if not arg_1_0.contextData.warp then
@@ -24,25 +25,28 @@ function var_0_0.register(arg_1_0)
 		arg_1_0.contextData.warp = var_1_0
 	end
 
-	arg_1_0:bind(var_0_0.ITEM_GO_SCENE, function(arg_2_0, arg_2_1, arg_2_2)
-		arg_1_0:sendNotification(GAME.GO_SCENE, arg_2_1, arg_2_2)
+	arg_1_0:bind(var_0_0.DESIGN_FILTER_CHANGED, function(arg_2_0, arg_2_1)
+		arg_1_0:sendNotification(GAME.TOGGLE_ALL_DESIGN_EQUIPMENT, arg_2_1)
 	end)
-	arg_1_0:bind(var_0_0.ITEM_ADD_LAYER, function(arg_3_0, arg_3_1)
-		arg_1_0:addSubLayers(arg_3_1)
+	arg_1_0:bind(var_0_0.ITEM_GO_SCENE, function(arg_3_0, arg_3_1, arg_3_2)
+		arg_1_0:sendNotification(GAME.GO_SCENE, arg_3_1, arg_3_2)
 	end)
-	arg_1_0:bind(var_0_0.ON_USE_ITEM, function(arg_4_0, arg_4_1, arg_4_2, arg_4_3)
+	arg_1_0:bind(var_0_0.ITEM_ADD_LAYER, function(arg_4_0, arg_4_1)
+		arg_1_0:addSubLayers(arg_4_1)
+	end)
+	arg_1_0:bind(var_0_0.ON_USE_ITEM, function(arg_5_0, arg_5_1, arg_5_2, arg_5_3)
 		arg_1_0:sendNotification(GAME.USE_ITEM, {
-			id = arg_4_1,
-			count = arg_4_2,
-			arg = arg_4_3
+			id = arg_5_1,
+			count = arg_5_2,
+			arg = arg_5_3
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_DESTROY, function(arg_5_0, arg_5_1)
+	arg_1_0:bind(var_0_0.ON_DESTROY, function(arg_6_0, arg_6_1)
 		arg_1_0:sendNotification(GAME.DESTROY_EQUIPMENTS, {
-			equipments = arg_5_1
+			equipments = arg_6_1
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_UNEQUIP_EQUIPMENT, function(arg_6_0)
+	arg_1_0:bind(var_0_0.ON_UNEQUIP_EQUIPMENT, function(arg_7_0)
 		arg_1_0.canUpdate = false
 
 		arg_1_0:sendNotification(GAME.UNEQUIP_FROM_SHIP, {
@@ -50,7 +54,7 @@ function var_0_0.register(arg_1_0)
 			pos = arg_1_0.contextData.pos
 		})
 	end)
-	arg_1_0:bind(var_0_0.OPEN_DESIGN, function(arg_7_0)
+	arg_1_0:bind(var_0_0.OPEN_DESIGN, function(arg_8_0)
 		if getProxy(ContextProxy):getContextByMediator(EquipmentMediator):getContextByMediator(EquipmentDesignMediator) then
 			return
 		end
@@ -59,20 +63,21 @@ function var_0_0.register(arg_1_0)
 			viewComponent = EquipmentDesignLayer,
 			mediator = EquipmentDesignMediator,
 			data = {
-				groupName = arg_1_0.viewComponent:getGroupName()
+				groupName = arg_1_0.viewComponent:getGroupName(),
+				isShowAllDesign = arg_1_0.viewComponent.isShowAllDesign
 			}
 		}))
 	end)
-	arg_1_0:bind(var_0_0.CLOSE_DESIGN_LAYER, function(arg_8_0)
-		local var_8_0 = getProxy(ContextProxy):getContextByMediator(EquipmentMediator):getContextByMediator(EquipmentDesignMediator)
+	arg_1_0:bind(var_0_0.CLOSE_DESIGN_LAYER, function(arg_9_0)
+		local var_9_0 = getProxy(ContextProxy):getContextByMediator(EquipmentMediator):getContextByMediator(EquipmentDesignMediator)
 
-		if var_8_0 then
+		if var_9_0 then
 			arg_1_0:sendNotification(GAME.REMOVE_LAYERS, {
-				context = var_8_0
+				context = var_9_0
 			})
 		end
 	end)
-	arg_1_0:bind(var_0_0.OPEN_SPWEAPON_DESIGN, function(arg_9_0)
+	arg_1_0:bind(var_0_0.OPEN_SPWEAPON_DESIGN, function(arg_10_0)
 		if getProxy(ContextProxy):getContextByMediator(EquipmentMediator):getContextByMediator(SpWeaponDesignMediator) then
 			return
 		end
@@ -85,29 +90,29 @@ function var_0_0.register(arg_1_0)
 			}
 		}))
 	end)
-	arg_1_0:bind(var_0_0.CLOSE_SPWEAPON_DESIGN_LAYER, function(arg_10_0)
-		local var_10_0 = getProxy(ContextProxy):getContextByMediator(EquipmentMediator):getContextByMediator(SpWeaponDesignMediator)
+	arg_1_0:bind(var_0_0.CLOSE_SPWEAPON_DESIGN_LAYER, function(arg_11_0)
+		local var_11_0 = getProxy(ContextProxy):getContextByMediator(EquipmentMediator):getContextByMediator(SpWeaponDesignMediator)
 
-		if var_10_0 then
+		if var_11_0 then
 			arg_1_0:sendNotification(GAME.REMOVE_LAYERS, {
-				context = var_10_0
+				context = var_11_0
 			})
 		end
 	end)
-	arg_1_0:bind(var_0_0.ON_EQUIPMENT_SKIN_INFO, function(arg_11_0, arg_11_1, arg_11_2, arg_11_3)
+	arg_1_0:bind(var_0_0.ON_EQUIPMENT_SKIN_INFO, function(arg_12_0, arg_12_1, arg_12_2, arg_12_3)
 		arg_1_0:addSubLayers(Context.New({
 			mediator = EquipmentSkinMediator,
 			viewComponent = EquipmentSkinLayer,
 			data = {
-				skinId = arg_11_1,
+				skinId = arg_12_1,
 				shipId = arg_1_0.contextData.shipId,
 				mode = arg_1_0.contextData.shipId and EquipmentSkinLayer.REPLACE or EquipmentSkinLayer.DISPLAY,
-				oldShipInfo = arg_11_3,
-				pos = arg_11_2
+				oldShipInfo = arg_12_3,
+				pos = arg_12_2
 			}
 		}))
 	end)
-	arg_1_0:bind(var_0_0.ON_UNEQUIP_EQUIPMENT_SKIN, function(arg_12_0)
+	arg_1_0:bind(var_0_0.ON_UNEQUIP_EQUIPMENT_SKIN, function(arg_13_0)
 		arg_1_0.canUpdate = false
 
 		arg_1_0:sendNotification(GAME.EQUIP_EQUIPMENTSKIN_TO_SHIP, {
@@ -116,18 +121,18 @@ function var_0_0.register(arg_1_0)
 			pos = arg_1_0.contextData.pos
 		})
 	end)
-	arg_1_0:bind(var_0_0.OPEN_EQUIPSKIN_INDEX_LAYER, function(arg_13_0, arg_13_1)
+	arg_1_0:bind(var_0_0.OPEN_EQUIPSKIN_INDEX_LAYER, function(arg_14_0, arg_14_1)
 		arg_1_0:addSubLayers(Context.New({
 			mediator = IndexMediator,
 			viewComponent = IndexLayer,
-			data = arg_13_1
+			data = arg_14_1
 		}))
 	end)
-	arg_1_0:bind(var_0_0.OPEN_EQUIPMENT_INDEX, function(arg_14_0, arg_14_1)
+	arg_1_0:bind(var_0_0.OPEN_EQUIPMENT_INDEX, function(arg_15_0, arg_15_1)
 		arg_1_0:addSubLayers(Context.New({
 			viewComponent = CustomIndexLayer,
 			mediator = CustomIndexMediator,
-			data = arg_14_1
+			data = arg_15_1
 		}))
 	end)
 
@@ -195,21 +200,21 @@ function var_0_0.register(arg_1_0)
 	arg_1_0.viewComponent:setPlayer(var_1_7)
 end
 
-function var_0_0.UpdateSpWeapons(arg_15_0)
-	local var_15_0 = getProxy(BayProxy):RawGetShipById(arg_15_0.contextData.shipId)
-	local var_15_1 = getProxy(BayProxy):GetSpWeaponsInShips(var_15_0)
-	local var_15_2 = _.values(getProxy(EquipmentProxy):GetSpWeapons())
+function var_0_0.UpdateSpWeapons(arg_16_0)
+	local var_16_0 = getProxy(BayProxy):RawGetShipById(arg_16_0.contextData.shipId)
+	local var_16_1 = getProxy(BayProxy):GetSpWeaponsInShips(var_16_0)
+	local var_16_2 = _.values(getProxy(EquipmentProxy):GetSpWeapons())
 
-	for iter_15_0, iter_15_1 in ipairs(var_15_2) do
-		if not var_15_0 or not var_15_0:IsSpWeaponForbidden(iter_15_1) then
-			table.insert(var_15_1, iter_15_1)
+	for iter_16_0, iter_16_1 in ipairs(var_16_2) do
+		if not var_16_0 or not var_16_0:IsSpWeaponForbidden(iter_16_1) then
+			table.insert(var_16_1, iter_16_1)
 		end
 	end
 
-	arg_15_0.viewComponent:SetSpWeapons(var_15_1)
+	arg_16_0.viewComponent:SetSpWeapons(var_16_1)
 end
 
-function var_0_0.listNotificationInterests(arg_16_0)
+function var_0_0.listNotificationInterests(arg_17_0)
 	return {
 		EquipmentProxy.EQUIPMENT_UPDATED,
 		BayProxy.SHIP_EQUIPMENT_ADDED,
@@ -236,119 +241,119 @@ function var_0_0.listNotificationInterests(arg_16_0)
 	}
 end
 
-function var_0_0.handleNotification(arg_17_0, arg_17_1)
-	local var_17_0 = arg_17_1:getName()
-	local var_17_1 = arg_17_1:getBody()
+function var_0_0.handleNotification(arg_18_0, arg_18_1)
+	local var_18_0 = arg_18_1:getName()
+	local var_18_1 = arg_18_1:getBody()
 
-	if var_17_0 == EquipmentProxy.EQUIPMENT_UPDATED then
-		arg_17_0.viewComponent:setCapacity(arg_17_0.equipmentProxy:getCapacity())
-		arg_17_0.viewComponent:setEquipment(var_17_1)
+	if var_18_0 == EquipmentProxy.EQUIPMENT_UPDATED then
+		arg_18_0.viewComponent:setCapacity(arg_18_0.equipmentProxy:getCapacity())
+		arg_18_0.viewComponent:setEquipment(var_18_1)
 
-		if arg_17_0.canUpdate then
-			arg_17_0.viewComponent:setEquipmentUpdate()
+		if arg_18_0.canUpdate then
+			arg_18_0.viewComponent:setEquipmentUpdate()
 		end
-	elseif var_17_0 == BayProxy.SHIP_EQUIPMENT_ADDED then
-		arg_17_0.viewComponent:addShipEquipment(var_17_1)
+	elseif var_18_0 == BayProxy.SHIP_EQUIPMENT_ADDED then
+		arg_18_0.viewComponent:addShipEquipment(var_18_1)
 
-		if arg_17_0.canUpdate then
-			arg_17_0.viewComponent:setEquipmentUpdate()
+		if arg_18_0.canUpdate then
+			arg_18_0.viewComponent:setEquipmentUpdate()
 		end
-	elseif var_17_0 == BayProxy.SHIP_EQUIPMENT_REMOVED then
-		arg_17_0.viewComponent:removeShipEquipment(var_17_1)
+	elseif var_18_0 == BayProxy.SHIP_EQUIPMENT_REMOVED then
+		arg_18_0.viewComponent:removeShipEquipment(var_18_1)
 
-		if arg_17_0.canUpdate then
-			arg_17_0.viewComponent:setEquipmentUpdate()
+		if arg_18_0.canUpdate then
+			arg_18_0.viewComponent:setEquipmentUpdate()
 		end
-	elseif var_17_0 == EquipmentProxy.EQUIPMENT_SKIN_UPDATED then
-		arg_17_0.viewComponent:setCapacity(arg_17_0.equipmentProxy:getCapacity())
-		arg_17_0.viewComponent:setEquipmentSkin(var_17_1)
+	elseif var_18_0 == EquipmentProxy.EQUIPMENT_SKIN_UPDATED then
+		arg_18_0.viewComponent:setCapacity(arg_18_0.equipmentProxy:getCapacity())
+		arg_18_0.viewComponent:setEquipmentSkin(var_18_1)
 
-		if arg_17_0.canUpdate then
-			arg_17_0.viewComponent:setEquipmentSkinUpdate()
+		if arg_18_0.canUpdate then
+			arg_18_0.viewComponent:setEquipmentSkinUpdate()
 		end
-	elseif var_17_0 == BayProxy.SHIP_UPDATED then
-		if var_17_1.id == arg_17_0.contextData.shipId then
-			arg_17_0.viewComponent:setShip(var_17_1)
+	elseif var_18_0 == BayProxy.SHIP_UPDATED then
+		if var_18_1.id == arg_18_0.contextData.shipId then
+			arg_18_0.viewComponent:setShip(var_18_1)
 		end
-	elseif var_17_0 == PlayerProxy.UPDATED then
-		arg_17_0.viewComponent:setPlayer(var_17_1)
-	elseif var_17_0 == GAME.USE_ITEM_DONE then
-		if #var_17_1.drops > 0 then
-			arg_17_0.viewComponent:emit(BaseUI.ON_WORLD_ACHIEVE, {
+	elseif var_18_0 == PlayerProxy.UPDATED then
+		arg_18_0.viewComponent:setPlayer(var_18_1)
+	elseif var_18_0 == GAME.USE_ITEM_DONE then
+		if #var_18_1.drops > 0 then
+			arg_18_0.viewComponent:emit(BaseUI.ON_WORLD_ACHIEVE, {
 				animation = true,
-				items = var_17_1.drops,
+				items = var_18_1.drops,
 				removeFunc = function()
-					if var_17_1.isEquipBox then
-						local var_18_0 = underscore.map(var_17_1.drops, function(arg_19_0)
+					if var_18_1.isEquipBox then
+						local var_19_0 = underscore.map(var_18_1.drops, function(arg_20_0)
 							return Equipment.New({
-								id = arg_19_0.id,
-								count = arg_19_0.count
+								id = arg_20_0.id,
+								count = arg_20_0.count
 							})
 						end)
 
-						arg_17_0:addSubLayers(Context.New({
+						arg_18_0:addSubLayers(Context.New({
 							viewComponent = ResolveEquipmentLayer,
 							mediator = ResolveEquipmentMediator,
 							data = {
-								Equipments = var_18_0
+								Equipments = var_19_0
 							}
 						}))
 					end
 				end
 			})
 		end
-	elseif var_17_0 == GAME.FRAG_SELL_DONE then
-		arg_17_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_17_1.awards)
-	elseif var_17_0 == GAME.DESTROY_EQUIPMENTS_DONE then
-		arg_17_0.canUpdate = true
+	elseif var_18_0 == GAME.FRAG_SELL_DONE then
+		arg_18_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_18_1.awards)
+	elseif var_18_0 == GAME.DESTROY_EQUIPMENTS_DONE then
+		arg_18_0.canUpdate = true
 
-		arg_17_0.viewComponent:setEquipmentUpdate()
+		arg_18_0.viewComponent:setEquipmentUpdate()
 
-		if #var_17_1 > 0 then
-			arg_17_0.viewComponent:emit(BaseUI.ON_AWARD, {
-				items = var_17_1
+		if #var_18_1 > 0 then
+			arg_18_0.viewComponent:emit(BaseUI.ON_AWARD, {
+				items = var_18_1
 			})
 		end
-	elseif var_17_0 == BagProxy.ITEM_UPDATED then
-		if arg_17_0.canUpdate then
-			local var_17_2 = getProxy(BagProxy):getItemsByExclude()
+	elseif var_18_0 == BagProxy.ITEM_UPDATED then
+		if arg_18_0.canUpdate then
+			local var_18_2 = getProxy(BagProxy):getItemsByExclude()
 
-			arg_17_0.viewComponent:setItems(var_17_2)
+			arg_18_0.viewComponent:setItems(var_18_2)
 		end
-	elseif var_17_0 == var_0_0.BATCHDESTROY_MODE then
-		arg_17_0.viewComponent:SwitchToDestroy()
-	elseif var_17_0 == var_0_0.SWITCH_TO_SPWEAPON_PAGE then
-		arg_17_0.viewComponent:SwitchToSpWeaponStoreHouse()
-	elseif var_17_0 == GAME.REVERT_EQUIPMENT_DONE then
-		if #var_17_1.awards > 0 then
-			arg_17_0.viewComponent:emit(BaseUI.ON_AWARD, {
-				items = var_17_1.awards
+	elseif var_18_0 == var_0_0.BATCHDESTROY_MODE then
+		arg_18_0.viewComponent:SwitchToDestroy()
+	elseif var_18_0 == var_0_0.SWITCH_TO_SPWEAPON_PAGE then
+		arg_18_0.viewComponent:SwitchToSpWeaponStoreHouse()
+	elseif var_18_0 == GAME.REVERT_EQUIPMENT_DONE then
+		if #var_18_1.awards > 0 then
+			arg_18_0.viewComponent:emit(BaseUI.ON_AWARD, {
+				items = var_18_1.awards
 			})
 		end
-	elseif var_17_0 == GAME.EQUIP_TO_SHIP_DONE or var_17_0 == GAME.UNEQUIP_FROM_SHIP_DONE then
-		arg_17_0.viewComponent:emit(BaseUI.ON_BACK)
-	elseif var_17_0 == GAME.EQUIP_EQUIPMENTSKIN_TO_SHIP_DONE or var_17_0 == GAME.EQUIP_EQUIPMENTSKIN_FROM_SHIP_DONE then
-		arg_17_0.viewComponent:emit(BaseUI.ON_BACK)
-	elseif var_17_0 == var_0_0.NO_UPDATE then
-		arg_17_0.canUpdate = false
-	elseif var_17_0 == GAME.TRANSFORM_EQUIPMENT_AWARD_FINISHED then
-		arg_17_0:getViewComponent():Scroll2Equip(var_17_1.newEquip)
-	elseif var_17_0 == EquipmentProxy.SPWEAPONS_UPDATED then
-		arg_17_0:UpdateSpWeapons()
-		arg_17_0.viewComponent:SetSpWeaponUpdate()
-	elseif var_17_0 == GAME.LOVE_ITEM_MAIL_REPAIR_DONE then
-		if #var_17_1.awards > 0 then
-			arg_17_0.viewComponent:emit(BaseUI.ON_AWARD, {
-				items = var_17_1.awards
+	elseif var_18_0 == GAME.EQUIP_TO_SHIP_DONE or var_18_0 == GAME.UNEQUIP_FROM_SHIP_DONE then
+		arg_18_0.viewComponent:emit(BaseUI.ON_BACK)
+	elseif var_18_0 == GAME.EQUIP_EQUIPMENTSKIN_TO_SHIP_DONE or var_18_0 == GAME.EQUIP_EQUIPMENTSKIN_FROM_SHIP_DONE then
+		arg_18_0.viewComponent:emit(BaseUI.ON_BACK)
+	elseif var_18_0 == var_0_0.NO_UPDATE then
+		arg_18_0.canUpdate = false
+	elseif var_18_0 == GAME.TRANSFORM_EQUIPMENT_AWARD_FINISHED then
+		arg_18_0:getViewComponent():Scroll2Equip(var_18_1.newEquip)
+	elseif var_18_0 == EquipmentProxy.SPWEAPONS_UPDATED then
+		arg_18_0:UpdateSpWeapons()
+		arg_18_0.viewComponent:SetSpWeaponUpdate()
+	elseif var_18_0 == GAME.LOVE_ITEM_MAIL_REPAIR_DONE then
+		if #var_18_1.awards > 0 then
+			arg_18_0.viewComponent:emit(BaseUI.ON_AWARD, {
+				items = var_18_1.awards
 			})
 		end
-	elseif var_17_0 == GAME.SELL_ITEM_DONE then
-		arg_17_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_17_1.awards)
+	elseif var_18_0 == GAME.SELL_ITEM_DONE then
+		arg_18_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_18_1.awards)
 	end
 end
 
-function var_0_0.remove(arg_20_0)
-	getProxy(SettingsProxy):setEquipSceneIndex(arg_20_0.contextData.warp)
+function var_0_0.remove(arg_21_0)
+	getProxy(SettingsProxy):setEquipSceneIndex(arg_21_0.contextData.warp)
 end
 
 return var_0_0

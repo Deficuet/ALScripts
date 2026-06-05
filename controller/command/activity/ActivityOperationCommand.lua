@@ -157,8 +157,19 @@ function var_0_0.updateActivityData(arg_7_0, arg_7_1, arg_7_2, arg_7_3, arg_7_4)
 				var_13_2 = var_13_1.day
 			end
 
-			getProxy(ActivityProxy):updateActivity(arg_7_3)
 			table.insert(arg_7_3.data1_list, var_13_2)
+
+			local var_13_3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOGIN_RECORD)
+
+			if var_13_3 and not var_13_3:isEnd() then
+				var_13_3.data1 = var_13_3.data1 + 1
+				var_13_3.data2 = var_13_3.data2 + 1
+				var_13_3.data3 = math.max(var_13_3.data3, var_13_3.data2)
+
+				getProxy(ActivityProxy):updateActivity(var_13_3)
+			end
+
+			getProxy(ActivityProxy):updateActivity(arg_7_3)
 		end,
 		[ActivityConst.ACTIVITY_TYPE_CHARGEAWARD] = function()
 			arg_7_3.data2 = 1

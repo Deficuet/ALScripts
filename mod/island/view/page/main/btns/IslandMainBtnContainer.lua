@@ -50,55 +50,59 @@ function var_0_0.InitBtns(arg_2_0)
 	arg_2_0:Flush()
 end
 
-function var_0_0.OnUnlockSystem(arg_5_0, arg_5_1)
-	if table.contains(arg_5_0.unlockIds, arg_5_1) then
-		for iter_5_0, iter_5_1 in pairs(arg_5_0.btns) do
-			iter_5_1:UnlockCheck()
+function var_0_0.OnTaskUpdate(arg_5_0)
+	arg_5_0.btns.season:TipCheck()
+end
+
+function var_0_0.OnUnlockSystem(arg_6_0, arg_6_1)
+	if table.contains(arg_6_0.unlockIds, arg_6_1) then
+		for iter_6_0, iter_6_1 in pairs(arg_6_0.btns) do
+			iter_6_1:UnlockCheck()
 		end
 	end
 end
 
-function var_0_0.OnTrackTaskChange(arg_6_0)
-	local var_6_0 = arg_6_0.btns.map
-
-	if var_6_0 and var_6_0:IsUnlock() then
-		var_6_0:TipCheck()
-	end
-end
-
-function var_0_0.OnFinishDelegation(arg_7_0)
-	local var_7_0 = arg_7_0.btns.technology
+function var_0_0.OnTrackTaskChange(arg_7_0)
+	local var_7_0 = arg_7_0.btns.map
 
 	if var_7_0 and var_7_0:IsUnlock() then
 		var_7_0:TipCheck()
-		var_7_0:StatusCheck()
 	end
 end
 
-function var_0_0.OnUnlockTechnology(arg_8_0)
+function var_0_0.OnFinishDelegation(arg_8_0)
 	local var_8_0 = arg_8_0.btns.technology
 
 	if var_8_0 and var_8_0:IsUnlock() then
+		var_8_0:TipCheck()
 		var_8_0:StatusCheck()
 	end
 end
 
-function var_0_0.Flush(arg_9_0)
-	for iter_9_0, iter_9_1 in pairs(arg_9_0.btns) do
-		iter_9_1:Flush()
+function var_0_0.OnUnlockTechnology(arg_9_0)
+	local var_9_0 = arg_9_0.btns.technology
+
+	if var_9_0 and var_9_0:IsUnlock() then
+		var_9_0:StatusCheck()
 	end
 end
 
-function var_0_0.ActiveOrDisactive(arg_10_0, arg_10_1)
-	setActive(arg_10_0._tf, arg_10_1)
+function var_0_0.Flush(arg_10_0)
+	for iter_10_0, iter_10_1 in pairs(arg_10_0.btns) do
+		iter_10_1:Flush()
+	end
 end
 
-function var_0_0.Dispose(arg_11_0)
-	for iter_11_0, iter_11_1 in pairs(arg_11_0.btns) do
-		iter_11_1:Dispose()
+function var_0_0.ActiveOrDisactive(arg_11_0, arg_11_1)
+	setActive(arg_11_0._tf, arg_11_1)
+end
+
+function var_0_0.Dispose(arg_12_0)
+	for iter_12_0, iter_12_1 in pairs(arg_12_0.btns) do
+		iter_12_1:Dispose()
 	end
 
-	arg_11_0.btns = nil
+	arg_12_0.btns = nil
 end
 
 return var_0_0

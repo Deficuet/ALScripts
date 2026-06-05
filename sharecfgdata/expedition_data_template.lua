@@ -1193861,6 +1193861,816 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.expedition_data_template[296331] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "theme-undead",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "bulisituoer_alter",
+		difficulty = 4,
+		level = 70,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296331,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296331,
+		scale = 100,
+		map_id = {
+			{
+				50198,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296332] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "theme-undead",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "bulisituoer_alter",
+		difficulty = 4,
+		level = 74,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296332,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296332,
+		scale = 100,
+		map_id = {
+			{
+				50198,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296333] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "theme-undead",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "bulisituoer_alter",
+		difficulty = 4,
+		level = 78,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296333,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296333,
+		scale = 100,
+		map_id = {
+			{
+				50198,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296334] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "theme-undead",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "bulisituoer_alter",
+		difficulty = 4,
+		level = 82,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296334,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296334,
+		scale = 100,
+		map_id = {
+			{
+				50198,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296335] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "theme-undead",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "bulisituoer_alter",
+		difficulty = 4,
+		level = 86,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296335,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296335,
+		scale = 100,
+		map_id = {
+			{
+				50198,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296336] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "theme-undead",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "bulisituoer_alter",
+		difficulty = 4,
+		level = 90,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296336,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296336,
+		scale = 100,
+		map_id = {
+			{
+				50198,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296337] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "theme-undead",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "bulisituoer_alter",
+		difficulty = 4,
+		level = 94,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296337,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296337,
+		scale = 100,
+		map_id = {
+			{
+				50198,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296338] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "theme-undead",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "bulisituoer_alter",
+		difficulty = 4,
+		level = 98,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296338,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296338,
+		scale = 100,
+		map_id = {
+			{
+				50198,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296339] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "theme-undead",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "bulisituoer_alter",
+		difficulty = 4,
+		level = 102,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296339,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296339,
+		scale = 100,
+		map_id = {
+			{
+				50198,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296340] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "theme-undead",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "bulisituoer_alter",
+		difficulty = 4,
+		level = 106,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296340,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296340,
+		scale = 100,
+		map_id = {
+			{
+				50198,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296341] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "theme-undead",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "bulisituoer_alter",
+		difficulty = 4,
+		level = 110,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296341,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296341,
+		scale = 100,
+		map_id = {
+			{
+				50198,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296342] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "theme-undead",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "bulisituoer_alter",
+		difficulty = 4,
+		level = 114,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296342,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296342,
+		scale = 100,
+		map_id = {
+			{
+				50198,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296343] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "theme-undead",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "bulisituoer_alter",
+		difficulty = 4,
+		level = 118,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296343,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296343,
+		scale = 100,
+		map_id = {
+			{
+				50198,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296344] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "theme-undead",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "bulisituoer_alter",
+		difficulty = 4,
+		level = 122,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296344,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296344,
+		scale = 100,
+		map_id = {
+			{
+				50198,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[296345] = {
+		objective_3 = "",
+		name = "信标·META",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		ai = 0,
+		add_icon = "",
+		bgm = "theme-undead",
+		exp_commander = 0,
+		sink_limit = 1,
+		exp_commander_ratio = 0,
+		expose_speed = 5,
+		SLG_destroy_FX = "",
+		icon = "bulisituoer_alter",
+		difficulty = 4,
+		level = 126,
+		exp = 0,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 2,
+		time_limit = 120,
+		dungeon_id = 296345,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 296345,
+		scale = 100,
+		map_id = {
+			{
+				50198,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			0,
+			999
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.expedition_data_template[297101] = {
 		objective_3 = "",
 		name = "敌方旗舰",

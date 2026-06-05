@@ -100,40 +100,45 @@ function var_0_0.SetUp(arg_7_0, arg_7_1)
 			end
 		end
 	elseif arg_7_1[1]:GetItems()[1][1] == DROP_TYPE_ISLAND_DRESS then
+		local var_7_10 = arg_7_1[1]:GetDisplayItems()
+
 		for iter_7_3 = 1, 3 do
-			local var_7_10 = arg_7_0.commodityList:Find("commodity" .. iter_7_3)
+			local var_7_11 = arg_7_0.commodityList:Find("commodity" .. iter_7_3)
 
-			setActive(var_7_10:Find("normal"), iter_7_3 <= #arg_7_1[1]:GetItems())
-			setActive(var_7_10:Find("nothing"), iter_7_3 > #arg_7_1[1]:GetItems())
+			setActive(var_7_11:Find("normal"), iter_7_3 <= #var_7_10)
+			setActive(var_7_11:Find("nothing"), iter_7_3 > #var_7_10)
 
-			if iter_7_3 <= #arg_7_1[1]:GetItems() then
-				local var_7_11 = arg_7_1[1]:GetItems()[iter_7_3][2]
-				local var_7_12 = pg.island_dress_template[var_7_11]
+			if iter_7_3 <= #var_7_10 then
+				local var_7_12 = var_7_10[iter_7_3][2]
+				local var_7_13 = pg.island_dress_template[var_7_12]
 
-				GetImageSpriteFromAtlasAsync("island/IslandGoodsIcon/" .. var_7_12.icon, "", var_7_10:Find("normal/IslandItemTpl/icon_bg/icon"))
-				setText(var_7_10:Find("normal/name"), var_7_12.name)
-				setActive(var_7_10:Find("normal/count"), false)
+				GetImageSpriteFromAtlasAsync(Drop.New({
+					type = DROP_TYPE_ISLAND_DRESS,
+					id = var_7_12
+				}):getIcon(), "", var_7_11:Find("normal/IslandItemTpl/icon_bg/icon"))
+				setText(var_7_11:Find("normal/name"), var_7_13.name)
+				setActive(var_7_11:Find("normal/count"), false)
 
-				local var_7_13 = 0
+				local var_7_14 = 0
 
-				if var_7_12.belongto == 1 then
-					var_7_13 = getProxy(IslandProxy):GetIsland():GetDressUpAgency():CheckOwnDress(var_7_11) and 1 or 0
-				elseif var_7_12.belongto == 2 then
-					var_7_13 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetOwnDressCountByDressId(var_7_11)
+				if var_7_13.belongto == 1 then
+					var_7_14 = getProxy(IslandProxy):GetIsland():GetDressUpAgency():CheckOwnDress(var_7_12) and 1 or 0
+				elseif var_7_13.belongto == 2 then
+					var_7_14 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetOwnDressCountByDressId(var_7_12)
 				end
 
-				setText(var_7_10:Find("normal/consumeNum"), var_7_13)
-				setActive(var_7_10:Find("normal/cost"), false)
-				setActive(var_7_10:Find("normal/consumeIcon"), false)
-				setActive(var_7_10:Find("normal/have"), true)
+				setText(var_7_11:Find("normal/consumeNum"), var_7_14)
+				setActive(var_7_11:Find("normal/cost"), false)
+				setActive(var_7_11:Find("normal/consumeIcon"), false)
+				setActive(var_7_11:Find("normal/have"), true)
 			end
 		end
 
-		local var_7_14 = arg_7_1[1]:GetResourceConsume()
+		local var_7_15 = arg_7_1[1]:GetResourceConsume()
 
-		var_7_0 = var_7_14[1]
-		var_7_1 = var_7_14[2]
-		var_7_2 = var_7_14[3]
+		var_7_0 = var_7_15[1]
+		var_7_1 = var_7_15[2]
+		var_7_2 = var_7_15[3]
 	end
 
 	GetImageSpriteFromAtlasAsync(Drop.New({

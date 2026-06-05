@@ -26,6 +26,12 @@ var_0_0.ComponentType = {
 	Hair = 3,
 	Headware = 4
 }
+var_0_0.DressType2ComponentType = {
+	[var_0_0.DressType.Body] = var_0_0.ComponentType.Body,
+	[var_0_0.DressType.Face] = var_0_0.ComponentType.Face,
+	[var_0_0.DressType.Hair] = var_0_0.ComponentType.Hair,
+	[var_0_0.DressType.Hat] = var_0_0.ComponentType.Headware
+}
 
 function var_0_0.Ctor(arg_1_0, arg_1_1)
 	if arg_1_1 then
@@ -303,434 +309,853 @@ function var_0_0.OnRoleLoaded(arg_14_0, arg_14_1, arg_14_2, arg_14_3)
 	arg_14_0.modelData = arg_14_2
 	arg_14_0.roleTF = arg_14_1
 	arg_14_0.hasTF = true
+	arg_14_0.commanderPartTokens = {}
 
 	arg_14_0:InitDressTF(arg_14_3)
 end
 
-function var_0_0.RemoveDressTF(arg_15_0)
-	for iter_15_0, iter_15_1 in pairs(arg_15_0.pageDressTFDic or {}) do
-		Object.Destroy(iter_15_1.gameObject)
+function var_0_0.IsRoleValid(arg_15_0, arg_15_1)
+	if not arg_15_0.hasTF then
+		return false
 	end
 
-	arg_15_0.pageDressTFDic = {}
+	if not arg_15_0.roleTF or IsNil(arg_15_0.roleTF) or arg_15_0.roleTF.childCount <= 0 then
+		return false
+	end
+
+	if arg_15_1 and IsNil(arg_15_1) then
+		return false
+	end
+
+	return true
 end
 
-function var_0_0.ChangeCommanderPartColor(arg_16_0, arg_16_1, arg_16_2)
-	if arg_16_2 == 0 then
-		GraphicsInterface.Instance:ResetCharacterComponentMaterialData(arg_16_0.roleTF:GetChild(0).gameObject, var_0_0.ComponentType.Hair)
+function var_0_0.ResetFootprint(arg_16_0)
+	if not arg_16_0.roleTF or IsNil(arg_16_0.roleTF) then
+		return
+	end
+
+	local var_16_0 = arg_16_0.roleTF:GetComponent(typeof(CharacterFootprintMgr))
+
+	if var_16_0 then
+		var_16_0:ResetFootprint()
+	end
+end
+
+function var_0_0.RemoveDressTF(arg_17_0)
+	for iter_17_0, iter_17_1 in pairs(arg_17_0.pageDressTFDic or {}) do
+		Object.Destroy(iter_17_1.gameObject)
+	end
+
+	arg_17_0.pageDressTFDic = {}
+
+	arg_17_0:ResetFootprint()
+end
+
+function var_0_0.ChangeCommanderPartColor(arg_18_0, arg_18_1, arg_18_2)
+	local var_18_0 = var_0_0.DressType2ComponentType[arg_18_1]
+
+	if not var_18_0 then
+		return
+	end
+
+	if not arg_18_0:IsRoleValid() then
+		return
+	end
+
+	if arg_18_2 == 0 then
+		GraphicsInterface.Instance:ResetCharacterComponentMaterialData(arg_18_0.roleTF:GetChild(0).gameObject, var_18_0)
 	else
-		local var_16_0 = pg.island_dress_colordiff_template[arg_16_2].model
+		local var_18_1 = pg.island_dress_colordiff_template[arg_18_2].model
 
-		GraphicsInterface.Instance:SetCharacterComponentMaterialData(arg_16_0.roleTF:GetChild(0).gameObject, var_16_0)
+		GraphicsInterface.Instance:SetCharacterComponentMaterialData(arg_18_0.roleTF:GetChild(0).gameObject, var_18_1)
 	end
 end
 
-function var_0_0.ChangeCommanderPart(arg_17_0, arg_17_1, arg_17_2)
-	local var_17_0 = arg_17_2.id
-	local var_17_1 = arg_17_2.colorId
+function var_0_0.SetCommanderHairBlendShape(arg_19_0, arg_19_1)
+	if not arg_19_1 or arg_19_1 == 0 then
+		GraphicsInterface.Instance:SetCharacterBlendShape(arg_19_0, var_0_0.ComponentType.Hair, 0, 0)
+		GraphicsInterface.Instance:SetCharacterBlendShape(arg_19_0, var_0_0.ComponentType.Hair, 1, 0)
 
-	arg_17_0.commanderDressDic[arg_17_1] = arg_17_2.id
-
-	local function var_17_2()
-		local var_18_0 = arg_17_0.commanderDressDic[var_0_0.DressType.Hat] or 0
-
-		if var_18_0 == 0 then
-			GraphicsInterface.Instance:SetCharacterBlendShape(arg_17_0.roleTF:GetChild(0).gameObject, var_0_0.ComponentType.Hair, 0, 0)
-			GraphicsInterface.Instance:SetCharacterBlendShape(arg_17_0.roleTF:GetChild(0).gameObject, var_0_0.ComponentType.Hair, 1, 0)
-		else
-			local var_18_1 = pg.island_dress_template[var_18_0].sub_type - 1
-
-			GraphicsInterface.Instance:SetCharacterBlendShape(arg_17_0.roleTF:GetChild(0).gameObject, var_0_0.ComponentType.Hair, var_18_1, 100)
-			GraphicsInterface.Instance:SetCharacterBlendShape(arg_17_0.roleTF:GetChild(0).gameObject, var_0_0.ComponentType.Hair, 1 - var_18_1, 0)
-		end
+		return
 	end
 
-	local function var_17_3()
-		if arg_17_1 == var_0_0.DressType.Hat then
-			arg_17_0:ChangeCommanderPartShow(arg_17_1, true)
-			var_17_2()
-		elseif arg_17_1 == var_0_0.DressType.Hair then
-			var_17_2()
-		elseif arg_17_1 == var_0_0.DressType.Face then
-			local var_19_0 = pg.island_dress_template[var_17_0]
-			local var_19_1 = var_19_0.face_clip == "" and "idle" or var_19_0.face_clip
+	local var_19_0 = pg.island_dress_template[arg_19_1]
 
-			arg_17_0.roleTF:GetChild(0).gameObject:GetComponent(typeof(Animator)):Play(var_19_1, 4)
-		end
+	if not var_19_0 then
+		return
 	end
 
-	if var_17_0 ~= 0 then
-		local var_17_4 = pg.island_dress_template[var_17_0].model
+	local var_19_1 = var_19_0.sub_type - 1
 
-		if var_17_1 == 0 or var_17_1 == nil then
-			GraphicsInterface.Instance:LoadCharacterComponent(arg_17_0.roleTF:GetChild(0).gameObject, var_17_4, var_17_3)
-		else
-			local var_17_5 = pg.island_dress_colordiff_template[var_17_1].model
+	GraphicsInterface.Instance:SetCharacterBlendShape(arg_19_0, var_0_0.ComponentType.Hair, var_19_1, 100)
+	GraphicsInterface.Instance:SetCharacterBlendShape(arg_19_0, var_0_0.ComponentType.Hair, 1 - var_19_1, 0)
+end
 
-			GraphicsInterface.Instance:LoadCharacterComponentAndMaterial(arg_17_0.roleTF:GetChild(0).gameObject, var_17_4, var_17_5, var_17_3)
-		end
+function var_0_0.SetCommanderHairAndFaceShow(arg_20_0, arg_20_1)
+	GraphicsInterface.Instance:SetCharacterComponentShow(arg_20_0, var_0_0.ComponentType.Hair, arg_20_1)
+	GraphicsInterface.Instance:SetCharacterComponentShow(arg_20_0, var_0_0.ComponentType.Face, arg_20_1)
+end
+
+function var_0_0.RefreshCommanderHatState(arg_21_0, arg_21_1)
+	var_0_0.SetCommanderHairBlendShape(arg_21_0, arg_21_1)
+
+	local var_21_0 = true
+
+	if arg_21_1 and arg_21_1 ~= 0 then
+		local var_21_1 = pg.island_dress_template[arg_21_1]
+
+		var_21_0 = not var_21_1 or var_21_1.head_hide ~= 1
 	end
 
-	if arg_17_1 == var_0_0.DressType.Hat and var_17_0 == 0 then
-		arg_17_0:ChangeCommanderPartShow(arg_17_1, false)
-		var_17_2()
+	var_0_0.SetCommanderHairAndFaceShow(arg_21_0, var_21_0)
+end
+
+function var_0_0.LoadCommanderComponent(arg_22_0, arg_22_1, arg_22_2, arg_22_3)
+	local var_22_0 = pg.island_dress_template[arg_22_1]
+
+	if not var_22_0 then
+		existCall(arg_22_3)
+
+		return
+	end
+
+	local var_22_1 = var_22_0.model
+
+	if arg_22_2 == 0 or arg_22_2 == nil then
+		GraphicsInterface.Instance:LoadCharacterComponent(arg_22_0, var_22_1, arg_22_3)
+	else
+		local var_22_2 = pg.island_dress_colordiff_template[arg_22_2].model
+
+		GraphicsInterface.Instance:LoadCharacterComponentAndMaterial(arg_22_0, var_22_1, var_22_2, arg_22_3)
 	end
 end
 
-function var_0_0.LoadDressObjectItem(arg_20_0, arg_20_1, arg_20_2, arg_20_3)
-	local var_20_0 = pg.island_dress_template[arg_20_2]
-	local var_20_1 = var_20_0.model
-	local var_20_2 = arg_20_0.shipId
-	local var_20_3 = IslandAssetLoadDispatcher.Instance:Enqueue(var_20_1, "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function(arg_21_0)
-		if IsNil(arg_20_0.roleTF) then
+function var_0_0.LoadCommanderBaseAnimator(arg_23_0)
+	if var_0_0.CommanderBaseRuntimeController then
+		existCall(arg_23_0, var_0_0.CommanderBaseRuntimeController)
+
+		return
+	end
+
+	local var_23_0 = pg.island_unit_character[0]
+	local var_23_1 = var_23_0 and var_23_0.animator or ""
+
+	if var_23_1 == "" then
+		existCall(arg_23_0)
+
+		return
+	end
+
+	IslandAssetLoadDispatcher.Instance:Enqueue(var_23_1, "", typeof(RuntimeAnimatorController), UnityEngine.Events.UnityAction_UnityEngine_Object(function(arg_24_0)
+		var_0_0.CommanderBaseRuntimeController = arg_24_0
+
+		existCall(arg_23_0, arg_24_0)
+	end), true, true)
+end
+
+function var_0_0.BuildCommanderCustomParts(arg_25_0, arg_25_1, arg_25_2, arg_25_3)
+	local var_25_0
+	local var_25_1 = 0
+
+	local function var_25_2()
+		var_25_1 = var_25_1 + 1
+
+		if var_25_1 == #var_0_0.CommanderCustom then
+			local var_26_0 = arg_25_1(var_0_0.DressType.Hat) or 0
+			local var_26_1 = arg_25_1(var_0_0.DressType.Body) or 0
+
+			var_0_0.RefreshCommanderHatState(arg_25_0, var_26_0)
+			existCall(arg_25_3, var_25_0, var_26_1)
+		end
+	end
+
+	for iter_25_0, iter_25_1 in ipairs(var_0_0.CommanderCustom) do
+		local var_25_3 = arg_25_1(iter_25_1) or 0
+
+		if var_25_3 == 0 then
+			if iter_25_1 == var_0_0.DressType.Hat then
+				GraphicsInterface.Instance:SetCharacterComponentShow(arg_25_0, var_0_0.ComponentType.Headware, false, var_25_2)
+			else
+				var_25_2()
+			end
+		else
+			local var_25_4 = pg.island_dress_template[var_25_3]
+
+			if var_25_4 and var_25_4.face_clip ~= "" then
+				var_25_0 = var_25_4.face_clip
+			end
+
+			local var_25_5 = arg_25_2 and arg_25_2(var_25_3) or 0
+
+			var_0_0.LoadCommanderComponent(arg_25_0, var_25_3, var_25_5, var_25_2)
+		end
+	end
+end
+
+function var_0_0.ChangeCommanderPart(arg_27_0, arg_27_1, arg_27_2, arg_27_3)
+	if not arg_27_0:IsRoleValid() then
+		existCall(arg_27_3)
+
+		return
+	end
+
+	local var_27_0 = arg_27_2.id
+	local var_27_1 = arg_27_2.colorId
+	local var_27_2 = arg_27_0.roleTF:GetChild(0).gameObject
+
+	arg_27_0.commanderPartTokens = arg_27_0.commanderPartTokens or {}
+	arg_27_0.commanderPartTokens[arg_27_1] = (arg_27_0.commanderPartTokens[arg_27_1] or 0) + 1
+
+	local var_27_3 = arg_27_0.commanderPartTokens[arg_27_1]
+
+	arg_27_0.commanderDressDic[arg_27_1] = var_27_0
+
+	local function var_27_4()
+		if var_27_3 ~= (arg_27_0.commanderPartTokens and arg_27_0.commanderPartTokens[arg_27_1] or 0) or not arg_27_0:IsRoleValid(var_27_2) then
+			existCall(arg_27_3)
+
 			return
 		end
 
-		if arg_20_0.hasTF == false then
+		if arg_27_1 == var_0_0.DressType.Hat then
+			arg_27_0:ChangeCommanderPartShow(arg_27_1, true)
+			var_0_0.RefreshCommanderHatState(var_27_2, var_27_0)
+		elseif arg_27_1 == var_0_0.DressType.Hair then
+			var_0_0.RefreshCommanderHatState(var_27_2, arg_27_0.commanderDressDic[var_0_0.DressType.Hat] or 0)
+		elseif arg_27_1 == var_0_0.DressType.Face then
+			local var_28_0 = pg.island_dress_template[var_27_0]
+			local var_28_1 = var_28_0.face_clip == "" and "idle" or var_28_0.face_clip
+			local var_28_2 = var_27_2:GetComponent(typeof(Animator))
+
+			if var_28_2 and not IsNil(var_28_2) then
+				var_28_2:Play(var_28_1, 4)
+			end
+		elseif arg_27_1 == var_0_0.DressType.Body then
+			arg_27_0:ApplyAnimatorOverride(var_27_0, arg_27_3)
+		end
+	end
+
+	if var_27_0 ~= 0 then
+		var_0_0.LoadCommanderComponent(var_27_2, var_27_0, var_27_1, var_27_4)
+	end
+
+	if arg_27_1 == var_0_0.DressType.Hat then
+		if var_27_0 == 0 then
+			arg_27_0:ChangeCommanderPartShow(arg_27_1, false)
+			var_0_0.RefreshCommanderHatState(var_27_2, 0)
+			existCall(arg_27_3)
+		end
+	elseif arg_27_1 == var_0_0.DressType.Body and var_27_0 == 0 then
+		arg_27_0:ApplyAnimatorOverride(0, arg_27_3)
+	end
+end
+
+function var_0_0.LoadDressObjectItem(arg_29_0, arg_29_1, arg_29_2, arg_29_3)
+	local var_29_0 = pg.island_dress_template[arg_29_2]
+	local var_29_1 = var_29_0.model
+	local var_29_2 = arg_29_0.shipId
+	local var_29_3 = IslandAssetLoadDispatcher.Instance:Enqueue(var_29_1, "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function(arg_30_0)
+		if IsNil(arg_29_0.roleTF) then
 			return
 		end
 
-		if var_20_2 ~= arg_20_0.shipId then
+		if arg_29_0.hasTF == false then
 			return
 		end
 
-		if arg_20_0.currentDressDataDic[arg_20_1].id ~= arg_20_2 then
+		local var_30_0 = arg_29_0.currentDressDataDic[arg_29_1]
+
+		if not var_30_0 then
 			return
 		end
 
-		local var_21_0 = Object.Instantiate(arg_21_0)
-		local var_21_1 = arg_20_0.isScene and Layer.Default or Layer.Character3D
+		if var_29_2 ~= arg_29_0.shipId then
+			return
+		end
 
-		pg.ViewUtils.SetLayer(var_21_0.transform, var_21_1)
-		switch(arg_20_1, {
+		if var_30_0.id ~= arg_29_2 then
+			return
+		end
+
+		if arg_29_1 == var_0_0.DressType.Footprint then
+			local var_30_1 = GetOrAddComponent(arg_29_0.roleTF, typeof(CharacterFootprintMgr))
+			local var_30_2 = Vector3(0, 0, 0)
+
+			if var_29_0.offset ~= "" then
+				var_30_2 = Vector3(var_29_0.offset[1], var_29_0.offset[2], var_29_0.offset[3])
+			end
+
+			var_30_1:SetFootprintPrefab(var_29_0.footprint_type, arg_30_0, var_30_2)
+			existCall(arg_29_3)
+
+			return
+		end
+
+		local var_30_3 = Object.Instantiate(arg_30_0)
+		local var_30_4 = arg_29_0.isScene and Layer.Default or Layer.Character3D
+
+		pg.ViewUtils.SetLayer(var_30_3.transform, var_30_4)
+		switch(arg_29_1, {
 			[var_0_0.DressType.BackDecorate] = function()
-				local var_22_0 = arg_20_0.roleTF.transform
+				local var_31_0 = arg_29_0.roleTF.transform
 
-				if var_20_0.attachmentPoint ~= "" then
-					local var_22_1 = var_20_0.attachmentPoint
+				if var_29_0.attachmentPoint ~= "" then
+					local var_31_1 = var_29_0.attachmentPoint
 
-					local function var_22_2(arg_23_0)
-						for iter_23_0 = 0, arg_23_0.childCount - 1 do
-							local var_23_0 = arg_23_0:GetChild(iter_23_0)
+					local function var_31_2(arg_32_0)
+						for iter_32_0 = 0, arg_32_0.childCount - 1 do
+							local var_32_0 = arg_32_0:GetChild(iter_32_0)
 
-							if var_23_0.name == var_22_1 then
-								return var_23_0
+							if var_32_0.name == var_31_1 then
+								return var_32_0
 							end
 
-							local var_23_1 = var_22_2(var_23_0, var_22_1)
+							local var_32_1 = var_31_2(var_32_0, var_31_1)
 
-							if var_23_1 then
-								return var_23_1
+							if var_32_1 then
+								return var_32_1
 							end
 						end
 
 						return nil
 					end
 
-					var_22_0 = var_22_2(var_22_0)
+					var_31_0 = var_31_2(var_31_0)
 				end
 
-				if var_20_0.offset ~= "" then
-					local var_22_3 = Vector3(var_20_0.offset[1], var_20_0.offset[2], var_20_0.offset[3])
+				if var_29_0.offset ~= "" then
+					local var_31_3 = Vector3(var_29_0.offset[1], var_29_0.offset[2], var_29_0.offset[3])
 
-					var_21_0.transform.localPosition = var_22_3
+					var_30_3.transform.localPosition = var_31_3
 				end
 
-				if var_20_0.rotation ~= "" then
-					local var_22_4 = Quaternion.Euler(var_20_0.rotation[1], var_20_0.rotation[2], var_20_0.rotation[3])
+				if var_29_0.rotation ~= "" then
+					local var_31_4 = Quaternion.Euler(var_29_0.rotation[1], var_29_0.rotation[2], var_29_0.rotation[3])
 
-					var_21_0.transform.rotation = var_22_4
+					var_30_3.transform.rotation = var_31_4
 				end
 
-				if var_20_0.scale ~= "" then
-					local var_22_5 = Vector3(var_20_0.scale[1], var_20_0.scale[1], var_20_0.scale[1])
+				if var_29_0.scale ~= "" then
+					local var_31_5 = Vector3(var_29_0.scale[1], var_29_0.scale[1], var_29_0.scale[1])
 
-					var_21_0.transform.localScale = var_22_5
+					var_30_3.transform.localScale = var_31_5
 				end
 
-				setParent(var_21_0, var_22_0)
+				setParent(var_30_3, var_31_0)
 			end,
 			[var_0_0.DressType.Flotage] = function()
-				local var_24_0
+				local var_33_0
 
-				if var_20_0.offset ~= "" then
-					var_24_0 = Vector3(var_20_0.offset[1], var_20_0.offset[2], var_20_0.offset[3])
+				if var_29_0.offset ~= "" then
+					var_33_0 = Vector3(var_29_0.offset[1], var_29_0.offset[2], var_29_0.offset[3])
 
-					local var_24_1 = var_21_0.name
-					local var_24_2 = GameObject.New(var_24_1)
+					local var_33_1 = var_30_3.name
+					local var_33_2 = GameObject.New(var_33_1)
 
-					setParent(var_21_0.transform, var_24_2.transform, false)
+					setParent(var_30_3.transform, var_33_2.transform, false)
 
-					var_21_0 = var_24_2
-					var_21_0.transform.position = arg_20_0.roleTF:GetChild(0).transform:TransformPoint(var_24_0)
+					var_30_3 = var_33_2
+					var_30_3.transform.position = arg_29_0.roleTF:GetChild(0).transform:TransformPoint(var_33_0)
 				end
 
-				if var_20_0.scale ~= "" then
-					local var_24_3 = Vector3(var_20_0.scale[1], var_20_0.scale[1], var_20_0.scale[1])
+				if var_29_0.scale ~= "" then
+					local var_33_3 = Vector3(var_29_0.scale[1], var_29_0.scale[1], var_29_0.scale[1])
 
-					var_21_0.transform.localScale = var_24_3
+					var_30_3.transform.localScale = var_33_3
 				end
 
-				local var_24_4 = Vector3(0, 0, 0)
+				local var_33_4 = Vector3(0, 0, 0)
 
-				if var_20_0.rotation ~= "" then
-					var_24_4 = Vector3(var_20_0.rotation[1], var_20_0.rotation[2], var_20_0.rotation[3])
+				if var_29_0.rotation ~= "" then
+					var_33_4 = Vector3(var_29_0.rotation[1], var_29_0.rotation[2], var_29_0.rotation[3])
 				end
 
-				var_21_0.transform.rotation = var_24_4
+				var_30_3.transform.rotation = var_33_4
 
-				local var_24_5 = GetOrAddComponent(var_21_0, typeof(DressFlow))
-				local var_24_6 = pg.island_set.island_dress_follow_param.key_value_varchar
+				local var_33_5 = GetOrAddComponent(var_30_3, typeof(DressFlow))
+				local var_33_6 = pg.island_set.island_dress_follow_param.key_value_varchar
 
-				var_24_5.target = arg_20_0.roleTF
-				var_24_5.offset = var_24_0
-				var_24_5.delayTime = var_24_6[1]
-				var_24_5.lerpSpeed = var_24_6[2]
-				var_24_5.recordInterval = var_24_6[3]
-				var_24_5.rotationOffest = var_24_4
-			end,
-			[var_0_0.DressType.Footprint] = function()
-				local var_25_0 = Vector3(0, 0, 0)
-
-				if var_20_0.offset ~= "" then
-					var_25_0 = Vector3(var_20_0.offset[1], var_20_0.offset[2], var_20_0.offset[3])
-				end
-
-				setParent(var_21_0, arg_20_0.roleTF)
-
-				var_21_0.transform.localPosition = var_25_0
+				var_33_5.target = arg_29_0.roleTF
+				var_33_5.offset = var_33_0
+				var_33_5.delayTime = var_33_6[1]
+				var_33_5.lerpSpeed = var_33_6[2]
+				var_33_5.recordInterval = var_33_6[3]
+				var_33_5.rotationOffest = var_33_4
 			end
 		})
 
-		arg_20_0.pageDressTFDic[arg_20_2] = var_21_0
+		arg_29_0.pageDressTFDic[arg_29_2] = var_30_3
 
-		existCall(arg_20_3, var_21_0)
+		existCall(arg_29_3, var_30_3)
 	end), true, true)
 
-	table.insert(arg_20_0.loadingIdList or {}, var_20_3)
+	table.insert(arg_29_0.loadingIdList or {}, var_29_3)
 end
 
-function var_0_0.ChangeDressObject(arg_26_0, arg_26_1, arg_26_2, arg_26_3)
-	local var_26_0 = arg_26_2.id
-	local var_26_1 = arg_26_0.currentDressDataDic[arg_26_1] and arg_26_0.currentDressDataDic[arg_26_1].id or 0
+function var_0_0.ChangeDressObject(arg_34_0, arg_34_1, arg_34_2, arg_34_3)
+	local var_34_0 = arg_34_2.id
+	local var_34_1 = arg_34_0.currentDressDataDic[arg_34_1] and arg_34_0.currentDressDataDic[arg_34_1].id or 0
 
-	if var_26_1 then
-		if var_26_1 == var_26_0 then
+	if var_34_1 then
+		if var_34_1 == var_34_0 then
 			return
 		end
 
-		if var_26_1 ~= 0 then
-			local var_26_2 = arg_26_0.pageDressTFDic[var_26_1]
+		if var_34_1 ~= 0 then
+			if arg_34_1 == var_0_0.DressType.Footprint then
+				arg_34_0:ResetFootprint()
+			else
+				local var_34_2 = arg_34_0.pageDressTFDic[var_34_1]
 
-			if var_26_2 then
-				Object.Destroy(var_26_2)
+				if var_34_2 then
+					Object.Destroy(var_34_2)
 
-				arg_26_0.pageDressTFDic[var_26_1] = nil
+					arg_34_0.pageDressTFDic[var_34_1] = nil
+				end
 			end
 
-			arg_26_0.currentDressDataDic[arg_26_1] = nil
+			arg_34_0.currentDressDataDic[arg_34_1] = nil
 		end
 	end
 
-	if var_26_0 == 0 then
+	if var_34_0 == 0 then
 		return
 	end
 
-	arg_26_0.currentDressDataDic[arg_26_1] = arg_26_2
+	arg_34_0.currentDressDataDic[arg_34_1] = arg_34_2
 
-	arg_26_0:LoadDressObjectItem(arg_26_1, var_26_0, arg_26_3)
+	arg_34_0:LoadDressObjectItem(arg_34_1, var_34_0, arg_34_3)
 end
 
-function var_0_0.ChangeDressByType(arg_27_0, arg_27_1, arg_27_2, arg_27_3)
-	if not arg_27_0.hasTF then
-		arg_27_0.dataAfterRoleInit[arg_27_1] = arg_27_2
+function var_0_0.ChangeDressByType(arg_35_0, arg_35_1, arg_35_2, arg_35_3)
+	if not arg_35_0.hasTF then
+		arg_35_0.dataAfterRoleInit[arg_35_1] = arg_35_2
 
 		return
 	end
 
-	if table.contains(var_0_0.CommanderCustom, arg_27_1) then
-		arg_27_0:ChangeCommanderPart(arg_27_1, arg_27_2)
+	if table.contains(var_0_0.CommanderCustom, arg_35_1) then
+		arg_35_0:ChangeCommanderPart(arg_35_1, arg_35_2, arg_35_3)
 	else
-		arg_27_0:ChangeDressObject(arg_27_1, arg_27_2, arg_27_3)
+		arg_35_0:ChangeDressObject(arg_35_1, arg_35_2, arg_35_3)
 	end
 end
 
-function var_0_0.ChangeCommanderPartShow(arg_28_0, arg_28_1, arg_28_2)
-	if not arg_28_0.hasTF then
+function var_0_0.ChangeCommanderPartShow(arg_36_0, arg_36_1, arg_36_2)
+	if not arg_36_0.hasTF then
 		return
 	end
 
-	GraphicsInterface.Instance:SetCharacterComponentShow(arg_28_0.roleTF:GetChild(0).gameObject, var_0_0.ComponentType.Headware, arg_28_2)
+	if not arg_36_0:IsRoleValid() then
+		return
+	end
+
+	GraphicsInterface.Instance:SetCharacterComponentShow(arg_36_0.roleTF:GetChild(0).gameObject, var_0_0.ComponentType.Headware, arg_36_2)
 end
 
-function var_0_0.ChangeModelTransfromByUnitId(arg_29_0, arg_29_1, arg_29_2, arg_29_3)
-	arg_29_0.gcCnt = arg_29_0.gcCnt + 1
+function var_0_0.ChangeModelTransfromByUnitId(arg_37_0, arg_37_1, arg_37_2, arg_37_3)
+	arg_37_0.gcCnt = arg_37_0.gcCnt + 1
 
-	local var_29_0 = pg.island_unit_character[arg_29_1]
+	local var_37_0 = pg.island_unit_character[arg_37_1]
 
-	arg_29_0.hasTF = false
+	arg_37_0.hasTF = false
+	arg_37_0.commanderPartTokens = {}
+	arg_37_0.animatorOverrideToken = (arg_37_0.animatorOverrideToken or 0) + 1
 
-	arg_29_0:RemoveDressTF()
+	arg_37_0:StopMorphSwitch()
+	arg_37_0:RemoveDressTF()
 
-	arg_29_0.dataAfterRoleInit = arg_29_0.currentDressDataDic
-	arg_29_0.currentDressDataDic = {}
+	arg_37_0.dataAfterRoleInit = arg_37_0.currentDressDataDic
+	arg_37_0.currentDressDataDic = {}
 
-	local var_29_1 = arg_29_0.roleTF:GetChild(0).gameObject
+	local var_37_1 = arg_37_0.roleTF:GetChild(0).gameObject
 
 	pg.UIMgr.GetInstance():LoadingOn()
-	_IslandCore:GetPoolMgr():ReturnCharacterModel(arg_29_0.modelData.model, arg_29_0.modelData.animator, var_29_1, true)
+	_IslandCore:GetPoolMgr():ReturnCharacterModel(arg_37_0.modelData.model, arg_37_0.modelData.animator, var_37_1, true)
 
-	arg_29_0.modelData = {
-		model = var_29_0.model,
-		animator = var_29_0.animator,
-		personal_ani = var_29_0.personal_ani
+	arg_37_0.modelData = {
+		model = var_37_0.model,
+		animator = var_37_0.animator,
+		personal_ani = var_37_0.personal_ani
 	}
 
-	_IslandCore:GetPoolMgr():GetCharacterModel(arg_29_0.modelData.model, arg_29_0.modelData.animator, function(arg_30_0)
+	_IslandCore:GetPoolMgr():GetCharacterModel(arg_37_0.modelData.model, arg_37_0.modelData.animator, function(arg_38_0)
 		pg.UIMgr.GetInstance():LoadingOff()
 
-		arg_29_0.hasTF = true
+		arg_37_0.hasTF = true
 
-		local var_30_0 = arg_29_0.isScene and Layer.Default or Layer.Character3D
+		local var_38_0 = arg_37_0.isScene and Layer.Default or Layer.Character3D
 
-		pg.ViewUtils.SetLayer(arg_30_0.transform, var_30_0)
-		setParent(arg_30_0.transform, arg_29_0.roleTF, false)
-		arg_29_0:InitDressTF()
+		pg.ViewUtils.SetLayer(arg_38_0.transform, var_38_0)
+		setParent(arg_38_0.transform, arg_37_0.roleTF, false)
+		arg_37_0:InitDressTF()
 
-		if arg_29_3 then
-			local var_30_1 = arg_29_0.modelData.personal_ani
+		if arg_37_3 then
+			local var_38_1 = arg_37_0.modelData.personal_ani
 
-			if var_30_1 and var_30_1 ~= "" then
-				local var_30_2 = GetOrAddComponent(arg_29_0.roleTF.transform:GetChild(0), typeof(Animator))
+			if var_38_1 and var_38_1 ~= "" then
+				local var_38_2 = GetOrAddComponent(arg_37_0.roleTF.transform:GetChild(0), typeof(Animator))
 
-				for iter_30_0 = 1, var_30_2.layerCount do
-					var_30_2:CrossFadeInFixedTime(var_30_1, 0, iter_30_0 - 1)
+				for iter_38_0 = 1, var_38_2.layerCount do
+					var_38_2:CrossFadeInFixedTime(var_38_1, 0, iter_38_0 - 1)
 				end
 			end
 		end
 
-		existCall(arg_29_2, arg_29_0.roleTF)
+		existCall(arg_37_2, arg_37_0.roleTF)
 	end, true)
 
-	if arg_29_0.gcCnt >= 5 then
-		arg_29_0.gcCnt = 0
+	if arg_37_0.gcCnt >= 5 then
+		arg_37_0.gcCnt = 0
 
 		IslandHelper.RunGC(true)
 	end
 end
 
-function var_0_0.ChangeModelTransfromByUnitIdAndChangeDress(arg_31_0, arg_31_1, arg_31_2, arg_31_3, arg_31_4, arg_31_5)
-	local var_31_0 = pg.island_unit_character[arg_31_1]
+function var_0_0.ChangeModelTransfromByUnitIdAndChangeDress(arg_39_0, arg_39_1, arg_39_2, arg_39_3, arg_39_4, arg_39_5)
+	local var_39_0 = pg.island_unit_character[arg_39_1]
 
-	arg_31_0.hasTF = false
+	arg_39_0.hasTF = false
+	arg_39_0.commanderPartTokens = {}
+	arg_39_0.animatorOverrideToken = (arg_39_0.animatorOverrideToken or 0) + 1
 
-	arg_31_0:RemoveDressTF()
+	arg_39_0:StopMorphSwitch()
+	arg_39_0:RemoveDressTF()
 
-	arg_31_0.dataAfterRoleInit = arg_31_0.currentDressDataDic
+	arg_39_0.dataAfterRoleInit = arg_39_0.currentDressDataDic
 
-	for iter_31_0, iter_31_1 in ipairs(arg_31_2 or {}) do
-		local var_31_1 = pg.island_dress_template[iter_31_1].type
+	for iter_39_0, iter_39_1 in ipairs(arg_39_2 or {}) do
+		local var_39_1 = pg.island_dress_template[iter_39_1].type
 
-		if arg_31_0.dataAfterRoleInit[var_31_1].id == iter_31_1 then
-			arg_31_0.dataAfterRoleInit[var_31_1] = nil
+		if arg_39_0.dataAfterRoleInit[var_39_1].id == iter_39_1 then
+			arg_39_0.dataAfterRoleInit[var_39_1] = nil
 		end
 	end
 
-	for iter_31_2, iter_31_3 in ipairs(arg_31_3 or {}) do
-		local var_31_2 = pg.island_dress_template[iter_31_3].type
+	for iter_39_2, iter_39_3 in ipairs(arg_39_3 or {}) do
+		local var_39_2 = pg.island_dress_template[iter_39_3].type
 
-		arg_31_0.dataAfterRoleInit[var_31_2] = {
+		arg_39_0.dataAfterRoleInit[var_39_2] = {
 			colorId = 0,
-			id = iter_31_3
+			id = iter_39_3
 		}
 	end
 
-	arg_31_0.currentDressDataDic = {}
+	arg_39_0.currentDressDataDic = {}
 
-	local var_31_3 = arg_31_0.roleTF:GetChild(0).gameObject
+	local var_39_3 = arg_39_0.roleTF:GetChild(0).gameObject
 
-	_IslandCore:GetPoolMgr():ReturnCharacterModel(arg_31_0.modelData.model, arg_31_0.modelData.animator, var_31_3, true)
+	_IslandCore:GetPoolMgr():ReturnCharacterModel(arg_39_0.modelData.model, arg_39_0.modelData.animator, var_39_3, true)
 
-	arg_31_0.modelData = {
-		model = var_31_0.model,
-		animator = var_31_0.animator,
-		personal_ani = var_31_0.personal_ani
+	arg_39_0.modelData = {
+		model = var_39_0.model,
+		animator = var_39_0.animator,
+		personal_ani = var_39_0.personal_ani
 	}
 
-	_IslandCore:GetPoolMgr():GetCharacterModel(arg_31_0.modelData.model, arg_31_0.modelData.animator, function(arg_32_0)
-		arg_31_0.hasTF = true
+	_IslandCore:GetPoolMgr():GetCharacterModel(arg_39_0.modelData.model, arg_39_0.modelData.animator, function(arg_40_0)
+		arg_39_0.hasTF = true
 
-		local var_32_0 = arg_31_0.isScene and Layer.Default or Layer.Character3D
+		local var_40_0 = arg_39_0.isScene and Layer.Default or Layer.Character3D
 
-		pg.ViewUtils.SetLayer(arg_32_0.transform, var_32_0)
-		setParent(arg_32_0.transform, arg_31_0.roleTF, false)
-		arg_31_0:InitDressTF()
+		pg.ViewUtils.SetLayer(arg_40_0.transform, var_40_0)
+		setParent(arg_40_0.transform, arg_39_0.roleTF, false)
+		arg_39_0:InitDressTF()
 
-		if arg_31_5 then
-			local var_32_1 = arg_31_0.modelData.personal_ani
+		if arg_39_5 then
+			local var_40_1 = arg_39_0.modelData.personal_ani
 
-			if var_32_1 and var_32_1 ~= "" then
-				local var_32_2 = GetOrAddComponent(arg_31_0.roleTF.transform:GetChild(0), typeof(Animator))
+			if var_40_1 and var_40_1 ~= "" then
+				local var_40_2 = GetOrAddComponent(arg_39_0.roleTF.transform:GetChild(0), typeof(Animator))
 
-				for iter_32_0 = 1, var_32_2.layerCount do
-					var_32_2:CrossFadeInFixedTime(var_32_1, 0, iter_32_0 - 1)
+				for iter_40_0 = 1, var_40_2.layerCount do
+					var_40_2:CrossFadeInFixedTime(var_40_1, 0, iter_40_0 - 1)
 				end
 			end
 		end
 
-		existCall(arg_31_4, arg_31_0.roleTF)
+		existCall(arg_39_4, arg_39_0.roleTF)
 	end, true)
 end
 
-function var_0_0.Destroy(arg_33_0)
-	arg_33_0.curIsland = nil
+function var_0_0.ApplyAnimatorOverride(arg_41_0, arg_41_1, arg_41_2)
+	if not arg_41_0.hasTF then
+		existCall(arg_41_2)
 
-	arg_33_0:RemoveDressTF()
-
-	for iter_33_0, iter_33_1 in ipairs(arg_33_0.loadingIdList or {}) do
-		IslandAssetLoadDispatcher.Instance:Cancel(iter_33_1)
+		return
 	end
 
-	arg_33_0.loadingIdList = nil
+	if IsNil(arg_41_0.roleTF) then
+		existCall(arg_41_2)
+
+		return
+	end
+
+	if not arg_41_0.roleTF:GetChild(0).gameObject:GetComponent(typeof(Animator)) then
+		existCall(arg_41_2)
+
+		return
+	end
+
+	arg_41_0.animatorOverrideToken = (arg_41_0.animatorOverrideToken or 0) + 1
+
+	local var_41_0 = arg_41_0.animatorOverrideToken
+	local var_41_1 = arg_41_1 ~= 0 and pg.island_dress_template[arg_41_1] or nil
+	local var_41_2 = var_41_1 and var_41_1.special_animator or ""
+
+	if var_41_2 == "" then
+		var_0_0.LoadCommanderBaseAnimator(function(arg_42_0)
+			if IsNil(arg_41_0.roleTF) then
+				existCall(arg_41_2)
+
+				return
+			end
+
+			if not arg_41_0.hasTF then
+				existCall(arg_41_2)
+
+				return
+			end
+
+			if var_41_0 ~= arg_41_0.animatorOverrideToken then
+				existCall(arg_41_2)
+
+				return
+			end
+
+			local var_42_0 = arg_41_0.roleTF:GetChild(0).gameObject:GetComponent(typeof(Animator))
+
+			if var_42_0 and not IsNil(var_42_0) and arg_42_0 then
+				var_42_0.runtimeAnimatorController = arg_42_0
+
+				var_42_0:Rebind()
+				var_42_0:Update(0)
+				var_42_0:Play("idle", 4)
+			end
+
+			existCall(arg_41_2)
+		end)
+
+		return
+	end
+
+	IslandAssetLoadDispatcher.Instance:Enqueue(var_41_2, "", typeof(UnityEngine.RuntimeAnimatorController), UnityEngine.Events.UnityAction_UnityEngine_Object(function(arg_43_0)
+		if IsNil(arg_41_0.roleTF) then
+			existCall(arg_41_2)
+
+			return
+		end
+
+		if not arg_41_0.hasTF then
+			existCall(arg_41_2)
+
+			return
+		end
+
+		if var_41_0 ~= arg_41_0.animatorOverrideToken then
+			existCall(arg_41_2)
+
+			return
+		end
+
+		local var_43_0 = arg_41_0.roleTF:GetChild(0).gameObject:GetComponent(typeof(Animator))
+
+		if var_43_0 and not IsNil(var_43_0) then
+			var_43_0.runtimeAnimatorController = arg_43_0
+		end
+
+		existCall(arg_41_2)
+	end), true, true)
 end
 
-function var_0_0.ResetDressUp(arg_34_0)
-	local var_34_0 = getProxy(IslandProxy):GetIsland()
+function var_0_0.Destroy(arg_44_0)
+	arg_44_0.curIsland = nil
+	arg_44_0.hasTF = false
+	arg_44_0.commanderPartTokens = {}
+	arg_44_0.animatorOverrideToken = (arg_44_0.animatorOverrideToken or 0) + 1
 
-	if arg_34_0.shipId == 0 then
-		local var_34_1 = {
+	arg_44_0:StopMorphSwitch()
+	arg_44_0:RemoveDressTF()
+
+	for iter_44_0, iter_44_1 in ipairs(arg_44_0.loadingIdList or {}) do
+		IslandAssetLoadDispatcher.Instance:Cancel(iter_44_1)
+	end
+
+	arg_44_0.loadingIdList = nil
+	arg_44_0.roleTF = nil
+end
+
+function var_0_0.InvalidateRole(arg_45_0)
+	arg_45_0.hasTF = false
+	arg_45_0.commanderPartTokens = {}
+	arg_45_0.animatorOverrideToken = (arg_45_0.animatorOverrideToken or 0) + 1
+
+	arg_45_0:StopMorphSwitch()
+
+	arg_45_0.roleTF = nil
+end
+
+function var_0_0.ResetDressUp(arg_46_0)
+	local var_46_0 = getProxy(IslandProxy):GetIsland()
+
+	if arg_46_0.shipId == 0 then
+		local var_46_1 = {
 			var_0_0.DressType.BackDecorate,
 			var_0_0.DressType.Flotage,
 			var_0_0.DressType.Footprint
 		}
-		local var_34_2 = var_34_0:GetDressUpAgency()
+		local var_46_2 = var_46_0:GetDressUpAgency()
 
-		for iter_34_0, iter_34_1 in ipairs(var_34_1) do
-			local var_34_3 = var_34_2:GetDressByType(iter_34_1) or 0
-			local var_34_4 = 0
+		for iter_46_0, iter_46_1 in ipairs(var_46_1) do
+			local var_46_3 = var_46_2:GetDressByType(iter_46_1) or 0
+			local var_46_4 = 0
 
-			arg_34_0:ChangeDressByType(iter_34_1, {
-				id = var_34_3,
-				colorId = var_34_4
+			arg_46_0:ChangeDressByType(iter_46_1, {
+				id = var_46_3,
+				colorId = var_46_4
 			})
 		end
 	else
-		local var_34_5 = var_34_0:GetCharacterAgency()
-		local var_34_6 = {
+		local var_46_5 = var_46_0:GetCharacterAgency()
+		local var_46_6 = {
 			var_0_0.DressType.BackDecorate,
 			var_0_0.DressType.Flotage,
 			var_0_0.DressType.Footprint
 		}
 
-		for iter_34_2, iter_34_3 in ipairs(var_34_6) do
-			local var_34_7 = var_34_5:GetCurDressIdByShipId(arg_34_0.shipId, iter_34_3) or {}
+		for iter_46_2, iter_46_3 in ipairs(var_46_6) do
+			local var_46_7 = var_46_5:GetCurDressIdByShipId(arg_46_0.shipId, iter_46_3) or {}
 
-			arg_34_0:ChangeDressByType(iter_34_3, {
+			arg_46_0:ChangeDressByType(iter_46_3, {
 				colorId = 0,
-				id = var_34_7.dress_id or 0
+				id = var_46_7.dress_id or 0
 			})
 		end
 	end
+end
+
+function var_0_0.DoMorphSwitch(arg_47_0, arg_47_1, arg_47_2, arg_47_3)
+	local var_47_0 = arg_47_0.roleTF
+	local var_47_1 = var_47_0 and var_47_0.childCount > 0 and var_47_0:GetChild(0)
+	local var_47_2 = var_47_1 and var_47_1.gameObject:GetComponent(typeof(Animator))
+
+	if not var_47_2 then
+		existCall(arg_47_3)
+
+		return
+	end
+
+	arg_47_0:StopMorphSwitch()
+
+	local var_47_3 = pg.island_dress_template[arg_47_1].cut_out_state
+
+	arg_47_0.morphTimer = var_0_0.PlayMorphAndWait(var_47_2, var_47_3, arg_47_1, function()
+		arg_47_0.morphTimer = nil
+
+		existCall(arg_47_3, arg_47_2)
+	end)
+end
+
+function var_0_0.StopMorphSwitch(arg_49_0)
+	if arg_49_0.morphTimer then
+		arg_49_0.morphTimer:Stop()
+
+		arg_49_0.morphTimer = nil
+	end
+end
+
+function var_0_0.PlayMorphAndWait(arg_50_0, arg_50_1, arg_50_2, arg_50_3)
+	for iter_50_0 = 1, arg_50_0.layerCount do
+		arg_50_0:CrossFadeInFixedTime(arg_50_1, 0, iter_50_0 - 1)
+	end
+
+	local var_50_0 = pg.island_dress_template[arg_50_2]
+	local var_50_1 = (var_50_0 and var_50_0.morph_wait_frames or 30) / 30 + 0.2
+	local var_50_2 = false
+	local var_50_3 = false
+	local var_50_4 = false
+	local var_50_5
+	local var_50_6
+
+	local function var_50_7()
+		if var_50_3 then
+			return
+		end
+
+		if var_50_2 then
+			return
+		end
+
+		var_50_2 = true
+
+		if var_50_5 then
+			var_50_5:Stop()
+
+			var_50_5 = nil
+		end
+
+		if var_50_6 then
+			var_50_6:Stop()
+
+			var_50_6 = nil
+		end
+
+		existCall(arg_50_3)
+	end
+
+	local function var_50_8()
+		if var_50_2 then
+			return
+		end
+
+		var_50_3 = true
+		var_50_2 = true
+
+		if var_50_5 then
+			var_50_5:Stop()
+
+			var_50_5 = nil
+		end
+
+		if var_50_6 then
+			var_50_6:Stop()
+
+			var_50_6 = nil
+		end
+	end
+
+	var_50_5 = FrameTimer.New(function()
+		if IsNil(arg_50_0) then
+			var_50_7()
+
+			return
+		end
+
+		if arg_50_0:IsInTransition(0) then
+			return
+		end
+
+		local var_53_0 = arg_50_0:GetCurrentAnimatorStateInfo(0)
+
+		if var_53_0:IsName(arg_50_1) then
+			var_50_4 = true
+		end
+
+		if var_50_4 and var_53_0.normalizedTime >= 1 then
+			var_50_7()
+		end
+	end, 1, -1)
+
+	var_50_5:Start()
+
+	var_50_6 = Timer.New(var_50_7, var_50_1, 1)
+
+	var_50_6:Start()
+
+	return {
+		Stop = var_50_8
+	}
 end
 
 return var_0_0

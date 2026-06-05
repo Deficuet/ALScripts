@@ -17022,6 +17022,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_data_statistics[21062] = {
+		open_directly = 0,
+		name = "结晶：布里斯托尔·META",
+		display = "布里斯托尔·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+		type = 4,
+		display_effect = "",
+		id = 21062,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/21062",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_data_statistics[21101] = {
 		open_directly = 0,
 		name = "结晶化热强钢",
@@ -17856,8 +17888,8 @@ end)()
 (function()
 	_G.pg.base.item_data_statistics[21923] = {
 		open_directly = 0,
-		name = "同步值：{namecode:468}",
-		display = "于「信标·META」战斗中收集的数据，可以提升{namecode:468}同步率。",
+		name = "同步值：布里斯托尔·META",
+		display = "于「信标·META」战斗中收集的数据，可以提升布里斯托尔·META同步率。",
 		type = 4,
 		display_effect = "",
 		id = 21923,

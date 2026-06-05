@@ -1,5 +1,9 @@
 local var_0_0 = class("IslandSelectShipCard")
 
+var_0_0.SHOW_TYPE = {
+	PLACE = 1,
+	RESTAURANT = 2
+}
 var_0_0.SKILL_COLOR = {
 	Color.NewHex("3DFF00"),
 	Color.NewHex("808080")
@@ -38,20 +42,21 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0.skillUnuse = arg_1_0.iconsTF:Find("skill/skill_dark")
 end
 
-function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2, arg_2_3, arg_2_4, arg_2_5)
-	arg_2_0.ship = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_2_1)
-	arg_2_0.id = arg_2_1
-	arg_2_0.attrType = arg_2_2
-	arg_2_0.buildingId = arg_2_3
+function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2, arg_2_3, arg_2_4, arg_2_5, arg_2_6)
+	arg_2_0.type = arg_2_1
+	arg_2_0.ship = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_2_2)
+	arg_2_0.id = arg_2_2
+	arg_2_0.attrType = arg_2_3
+	arg_2_0.buildingId = arg_2_4
 
-	arg_2_0:UpdateSelected(arg_2_4)
+	arg_2_0:UpdateSelected(arg_2_5)
 
 	local var_2_0 = IslandShip.StaticGetPrefab(arg_2_0.id)
 
 	GetImageSpriteFromAtlasAsync("ShipYardIcon/" .. var_2_0, "", arg_2_0.iconTF)
 
 	local var_2_1 = arg_2_0.ship:GetAttr(IslandShipAttr.ATTRS[arg_2_0.attrType])
-	local var_2_2 = IslandProductTimeHelper.GetAttributeAddPercentByAttribute(arg_2_1, arg_2_0.attrType)
+	local var_2_2 = IslandProductTimeHelper.GetAttributeAddPercentByAttribute(arg_2_2, arg_2_0.attrType)
 
 	var_2_1 = var_2_2 ~= 0 and math.floor(var_2_1 * (1 + 0.01 * var_2_2)) or var_2_1
 
@@ -76,10 +81,10 @@ function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2, arg_2_3, arg_2_4, arg_2_5)
 	setText(arg_2_0.energyTF, var_2_6 .. "/" .. var_2_7)
 	arg_2_0:UpdateFollowMask()
 
-	if arg_2_5 then
+	if arg_2_6 then
 		local var_2_8 = false
 
-		for iter_2_2, iter_2_3 in pairs(arg_2_5) do
+		for iter_2_2, iter_2_3 in pairs(arg_2_6) do
 			if arg_2_0.id == iter_2_3 then
 				var_2_8 = true
 			end
@@ -90,10 +95,7 @@ function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2, arg_2_3, arg_2_4, arg_2_5)
 		end
 	end
 
-	local var_2_9 = arg_2_0.ship:GetSkill():IsEffectiveInPlace(arg_2_0.buildingId)
-
-	setActive(arg_2_0.skillInuse, var_2_9)
-	setActive(arg_2_0.skillUnuse, not var_2_9)
+	arg_2_0:UpdateSkillEffective(arg_2_0.type, arg_2_0.buildingId)
 end
 
 function var_0_0.UpdateFollowMask(arg_3_0)
@@ -109,7 +111,38 @@ function var_0_0.UpdateSelected(arg_4_0, arg_4_1)
 	setActive(arg_4_0.selectedTF, table.contains(arg_4_0.selectedIds, arg_4_0.id))
 end
 
-function var_0_0.Dispose(arg_5_0)
+function var_0_0.UpdateSkillEffective(arg_5_0, arg_5_1, arg_5_2)
+	local var_5_0 = var_0_0.GetSkillEffective(arg_5_0.ship, arg_5_1, arg_5_2)
+
+	setActive(arg_5_0.skillInuse, var_5_0)
+	setActive(arg_5_0.skillUnuse, not var_5_0)
+end
+
+function var_0_0.GetSkillEffective(arg_6_0, arg_6_1, arg_6_2)
+	if not arg_6_1 or not arg_6_2 then
+		return false
+	end
+
+	local var_6_0 = arg_6_0:GetSkill()
+
+	if var_6_0:IsAllEffectiveType() then
+		return true
+	end
+
+	if arg_6_1 == var_0_0.SHOW_TYPE.PLACE and var_6_0:IsPlaceDefaultEffectiveType() then
+		return true
+	end
+
+	if arg_6_1 == var_0_0.SHOW_TYPE.PLACE then
+		return var_6_0:IsEffectiveInPlace(arg_6_2)
+	elseif arg_6_1 == var_0_0.SHOW_TYPE.RESTAURANT then
+		return var_6_0:IsEffectiveInRest(arg_6_2)
+	end
+
+	return false
+end
+
+function var_0_0.Dispose(arg_7_0)
 	return
 end
 

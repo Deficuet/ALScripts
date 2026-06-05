@@ -1298,7 +1298,12 @@ function var_0_0.LoadMeshPainting(arg_73_0, arg_73_1, arg_73_2)
 
 		local var_74_0 = arg_74_0.transform:Find("shop_hx")
 
-		arg_73_0:CheckShowShopHx(var_74_0, arg_73_1)
+		arg_73_0:CheckShowShopHx(var_74_0)
+
+		local var_74_1 = pg.SdkMgr.GetInstance():GetChannelUIDIncludeHarmony()
+		local var_74_2 = arg_74_0.transform:Find("shop_hx_ch" .. var_74_1)
+
+		arg_73_0:CheckShowShopHx(var_74_2)
 	end)
 end
 
@@ -1404,7 +1409,7 @@ function var_0_0.LoadSpinePainting(arg_79_0, arg_79_1)
 
 		local var_80_0 = arg_80_0._tf:Find("shop_hx")
 
-		arg_79_0:CheckShowShopHx(var_80_0, arg_79_1)
+		arg_79_0:CheckShowShopHx(var_80_0)
 		pg.UIMgr.GetInstance():LoadingOff()
 	end)
 end
@@ -1420,7 +1425,13 @@ function var_0_0.ClearSpinePainting(arg_81_0)
 	end
 end
 
-function var_0_0.CheckShowShopHx(arg_82_0, arg_82_1, arg_82_2)
+function var_0_0.CheckShowShopHx(arg_82_0, arg_82_1)
+	if IsNil(arg_82_1) then
+		return
+	end
+
+	setActive(arg_82_1, false)
+
 	if PLATFORM_CODE ~= PLATFORM_CH then
 		return
 	end
@@ -1429,9 +1440,7 @@ function var_0_0.CheckShowShopHx(arg_82_0, arg_82_1, arg_82_2)
 		return
 	end
 
-	if not IsNil(arg_82_1) then
-		setActive(arg_82_1, true)
-	end
+	setActive(arg_82_1, true)
 end
 
 function var_0_0.RevertShopHx(arg_83_0, arg_83_1)

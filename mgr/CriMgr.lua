@@ -253,8 +253,9 @@ function var_0_1.CheckFModeEvent(arg_27_0, arg_27_1, arg_27_2, arg_27_3)
 	string.gsub(arg_27_1, "event:/cv/(.+)/(.+)", function(arg_28_0, arg_28_1)
 		local var_28_0 = string.gsub(arg_28_1, "_%w+", "")
 		local var_28_1 = tobool(ShipWordHelper.CVBattleKey[var_28_0])
+		local var_28_2 = tobool(ShipWordHelper.CVGiftKey[arg_28_1])
 
-		var_27_0 = "cv-" .. arg_28_0 .. (var_28_1 and "-battle" or "")
+		var_27_0 = "cv-" .. arg_28_0 .. (var_28_1 and "-battle" or "") .. (var_28_2 and "-gift" or "")
 		var_27_1 = arg_28_1
 	end)
 	string.gsub(arg_27_1, "event:/tb/(.+)/(.+)", function(arg_29_0, arg_29_1)

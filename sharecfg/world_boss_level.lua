@@ -332,7 +332,22 @@ pg.world_boss_level.all = {
 	327,
 	328,
 	329,
-	330
+	330,
+	331,
+	332,
+	333,
+	334,
+	335,
+	336,
+	337,
+	338,
+	339,
+	340,
+	341,
+	342,
+	343,
+	344,
+	345
 }
 pg.base = pg.base or {}
 pg.base.world_boss_level = {}
@@ -6940,6 +6955,306 @@ end)()
 			{
 				1,
 				3023,
+				100
+			}
+		}
+	}
+	pg.base.world_boss_level[331] = {
+		id = 331,
+		enemy_id = 295331,
+		hp = 54000,
+		expedition_id = 296331,
+		drop_show_self = {
+			{
+				1,
+				3024,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3024,
+				100
+			}
+		}
+	}
+	pg.base.world_boss_level[332] = {
+		id = 332,
+		enemy_id = 295332,
+		hp = 58000,
+		expedition_id = 296332,
+		drop_show_self = {
+			{
+				1,
+				3024,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3024,
+				100
+			}
+		}
+	}
+	pg.base.world_boss_level[333] = {
+		id = 333,
+		enemy_id = 295333,
+		hp = 62000,
+		expedition_id = 296333,
+		drop_show_self = {
+			{
+				1,
+				3024,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3024,
+				100
+			}
+		}
+	}
+	pg.base.world_boss_level[334] = {
+		id = 334,
+		enemy_id = 295334,
+		hp = 75000,
+		expedition_id = 296334,
+		drop_show_self = {
+			{
+				1,
+				3024,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3024,
+				100
+			}
+		}
+	}
+	pg.base.world_boss_level[335] = {
+		id = 335,
+		enemy_id = 295335,
+		hp = 118000,
+		expedition_id = 296335,
+		drop_show_self = {
+			{
+				1,
+				3024,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3024,
+				100
+			}
+		}
+	}
+	pg.base.world_boss_level[336] = {
+		id = 336,
+		enemy_id = 295336,
+		hp = 162000,
+		expedition_id = 296336,
+		drop_show_self = {
+			{
+				1,
+				3024,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3024,
+				100
+			}
+		}
+	}
+	pg.base.world_boss_level[337] = {
+		id = 337,
+		enemy_id = 295337,
+		hp = 248000,
+		expedition_id = 296337,
+		drop_show_self = {
+			{
+				1,
+				3024,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3024,
+				100
+			}
+		}
+	}
+	pg.base.world_boss_level[338] = {
+		id = 338,
+		enemy_id = 295338,
+		hp = 335000,
+		expedition_id = 296338,
+		drop_show_self = {
+			{
+				1,
+				3024,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3024,
+				100
+			}
+		}
+	}
+	pg.base.world_boss_level[339] = {
+		id = 339,
+		enemy_id = 295339,
+		hp = 421000,
+		expedition_id = 296339,
+		drop_show_self = {
+			{
+				1,
+				3024,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3024,
+				100
+			}
+		}
+	}
+	pg.base.world_boss_level[340] = {
+		id = 340,
+		enemy_id = 295340,
+		hp = 518000,
+		expedition_id = 296340,
+		drop_show_self = {
+			{
+				1,
+				3024,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3024,
+				100
+			}
+		}
+	}
+	pg.base.world_boss_level[341] = {
+		id = 341,
+		enemy_id = 295341,
+		hp = 648000,
+		expedition_id = 296341,
+		drop_show_self = {
+			{
+				1,
+				3024,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3024,
+				100
+			}
+		}
+	}
+	pg.base.world_boss_level[342] = {
+		id = 342,
+		enemy_id = 295342,
+		hp = 843000,
+		expedition_id = 296342,
+		drop_show_self = {
+			{
+				1,
+				3024,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3024,
+				100
+			}
+		}
+	}
+	pg.base.world_boss_level[343] = {
+		id = 343,
+		enemy_id = 295343,
+		hp = 1081000,
+		expedition_id = 296343,
+		drop_show_self = {
+			{
+				1,
+				3024,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3024,
+				100
+			}
+		}
+	}
+	pg.base.world_boss_level[344] = {
+		id = 344,
+		enemy_id = 295344,
+		hp = 1340000,
+		expedition_id = 296344,
+		drop_show_self = {
+			{
+				1,
+				3024,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3024,
+				100
+			}
+		}
+	}
+	pg.base.world_boss_level[345] = {
+		id = 345,
+		enemy_id = 295345,
+		hp = 1600000,
+		expedition_id = 296345,
+		drop_show_self = {
+			{
+				1,
+				3024,
+				100
+			}
+		},
+		drop_show_other = {
+			{
+				1,
+				3024,
 				100
 			}
 		}

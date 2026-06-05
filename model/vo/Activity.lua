@@ -279,45 +279,55 @@ function var_0_0.readyToAchieve(arg_25_0)
 			return false
 		end,
 		[ActivityConst.ACTIVITY_TYPE_TASKS] = function(arg_29_0)
-			local var_29_0 = getProxy(TaskProxy)
-			local var_29_1 = _.flatten(arg_29_0:getConfig("config_data"))
+			local var_29_0 = arg_29_0:getConfig("config_client").subType
 
-			if _.any(var_29_1, function(arg_30_0)
-				local var_30_0 = var_29_0:getTaskById(arg_30_0)
+			if var_29_0 then
+				return arg_29_0:activityTasksSubTypeFunc(var_29_0)
+			end
+
+			local var_29_1 = getProxy(TaskProxy)
+			local var_29_2 = _.flatten(arg_29_0:getConfig("config_data"))
+
+			if IslandTaskActhelper.IsIslandTaskAct(arg_29_0) then
+				return IslandTaskActhelper.ShouldTipIslandTask(arg_29_0)
+			end
+
+			if _.any(var_29_2, function(arg_30_0)
+				local var_30_0 = var_29_1:getTaskById(arg_30_0)
 
 				return var_30_0 and var_30_0:isFinish() and not var_30_0:isReceive()
 			end) then
 				return true
 			end
 
-			local var_29_2 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_WORLDINPICTURE)
+			local var_29_3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_WORLDINPICTURE)
 
-			if var_29_2 and not var_29_2:isEnd() and var_29_2:getConfig("config_client").linkActID == arg_29_0.id and var_29_2:readyToAchieve() then
+			if var_29_3 and not var_29_3:isEnd() and var_29_3:getConfig("config_client").linkActID == arg_29_0.id and var_29_3:readyToAchieve() then
 				return true
 			end
 
 			if arg_29_0:getConfig("config_client") and arg_29_0:getConfig("config_client").decodeGameId then
-				local var_29_3 = arg_29_0:getConfig("config_client").decodeGameId
-				local var_29_4 = getProxy(MiniGameProxy):GetHubByGameId(var_29_3)
+				local var_29_4 = arg_29_0:getConfig("config_client").decodeGameId
+				local var_29_5 = getProxy(MiniGameProxy):GetHubByGameId(var_29_4)
 
-				if var_29_4 then
-					local var_29_5 = arg_29_0:getConfig("config_data")
-					local var_29_6 = var_29_5[#var_29_5]
-					local var_29_7 = _.all(var_29_6, function(arg_31_0)
+				if var_29_5 then
+					local var_29_6 = arg_29_0:getConfig("config_data")
+					local var_29_7 = var_29_6[#var_29_6]
+					local var_29_8 = _.all(var_29_7, function(arg_31_0)
 						return getProxy(TaskProxy):getFinishTaskById(arg_31_0) ~= nil
 					end)
 
-					if var_29_4.ultimate <= 0 and var_29_7 then
+					if var_29_5.ultimate <= 0 and var_29_8 then
 						return true
 					end
 				end
 			end
 
 			if arg_29_0:getConfig("config_client") and arg_29_0:getConfig("config_client").linkTaskPoolAct then
-				local var_29_8 = arg_29_0:getConfig("config_client").linkTaskPoolAct
-				local var_29_9 = getProxy(ActivityProxy):getActivityById(var_29_8)
+				local var_29_9 = arg_29_0:getConfig("config_client").linkTaskPoolAct
+				local var_29_10 = getProxy(ActivityProxy):getActivityById(var_29_9)
 
-				if var_29_9 and var_29_9:readyToAchieve() then
+				if var_29_10 and var_29_10:readyToAchieve() then
 					return true
 				end
 			end
@@ -994,57 +1004,60 @@ function var_0_0.IsShowTipById(arg_88_0)
 			end
 
 			return false
-		end,
-		[ActivityConst.OUT_POST_OMEN_TASKS] = function(arg_100_0)
-			local var_100_0 = 1
-			local var_100_1 = getProxy(TaskProxy)
-			local var_100_2 = arg_100_0:getConfig("config_client").unlock_task
-			local var_100_3 = arg_100_0:getNDay()
-			local var_100_4 = #var_100_2
-			local var_100_5 = math.min(var_100_3, var_100_4)
-			local var_100_6 = true
-
-			for iter_100_0 = 1, var_100_5 do
-				if not var_100_6 then
-					break
-				end
-
-				var_100_0 = iter_100_0
-
-				if iter_100_0 < var_100_5 then
-					for iter_100_1, iter_100_2 in ipairs(var_100_2[iter_100_0]) do
-						local var_100_7 = var_100_1:getTaskById(iter_100_2) or var_100_1:getFinishTaskById(iter_100_2)
-
-						if not var_100_7 or var_100_7:getTaskStatus() ~= 2 then
-							var_100_6 = false
-
-							break
-						end
-					end
-				end
-			end
-
-			local var_100_8 = math.min(var_100_0, var_100_4)
-
-			for iter_100_3, iter_100_4 in ipairs(var_100_2[var_100_8]) do
-				local var_100_9 = var_100_1:getTaskById(iter_100_4) or var_100_1:getFinishTaskById(iter_100_4)
-
-				if not var_100_9 then
-					return false
-				end
-
-				if var_100_9:getTaskStatus() == 1 then
-					return true
-				end
-			end
-
-			return false
 		end
 	}
 
 	local var_88_0 = var_0_0.ShowTipTableById[arg_88_0.id]
 
 	return tobool(var_88_0), var_88_0 and var_88_0(arg_88_0)
+end
+
+function var_0_0.activityTasksSubTypeFunc(arg_100_0, arg_100_1)
+	if arg_100_1 == 1 then
+		local var_100_0 = 1
+		local var_100_1 = getProxy(TaskProxy)
+		local var_100_2 = arg_100_0:getConfig("config_client").unlock_task
+		local var_100_3 = arg_100_0:getNDay()
+		local var_100_4 = #var_100_2
+		local var_100_5 = math.min(var_100_3, var_100_4)
+		local var_100_6 = true
+
+		for iter_100_0 = 1, var_100_5 do
+			if not var_100_6 then
+				break
+			end
+
+			var_100_0 = iter_100_0
+
+			if iter_100_0 < var_100_5 then
+				for iter_100_1, iter_100_2 in ipairs(var_100_2[iter_100_0]) do
+					local var_100_7 = var_100_1:getTaskById(iter_100_2) or var_100_1:getFinishTaskById(iter_100_2)
+
+					if not var_100_7 or var_100_7:getTaskStatus() ~= 2 then
+						var_100_6 = false
+
+						break
+					end
+				end
+			end
+		end
+
+		local var_100_8 = math.min(var_100_0, var_100_4)
+
+		for iter_100_3, iter_100_4 in ipairs(var_100_2[var_100_8]) do
+			local var_100_9 = var_100_1:getTaskById(iter_100_4) or var_100_1:getFinishTaskById(iter_100_4)
+
+			if not var_100_9 then
+				return false
+			end
+
+			if var_100_9:getTaskStatus() == 1 then
+				return true
+			end
+		end
+	end
+
+	return false
 end
 
 function var_0_0.isShow(arg_101_0)

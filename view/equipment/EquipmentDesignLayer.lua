@@ -41,6 +41,10 @@ function var_0_0.init(arg_5_0)
 
 	setText(arg_5_0.listEmptyTxt, i18n("list_empty_tip_equipmentdesignui"))
 	arg_5_0:OverlayPanel(arg_5_0.indexPanel)
+
+	arg_5_0.obtainWayPage = EquipmentDesignObtainWayPage.New(arg_5_0._tf, arg_5_0.event)
+
+	arg_5_0.obtainWayPage:RegisterView(arg_5_0)
 end
 
 function var_0_0.SetParentTF(arg_6_0, arg_6_1)
@@ -403,122 +407,111 @@ function var_0_0.initDesign(arg_30_0, arg_30_1)
 
 	onButton(arg_30_0, tf(var_30_0.go):Find("info/make_btn"), function()
 		arg_30_0:showDesignDesc(var_30_0.designId)
-	end)
+	end, SFX_PANEL)
+	onButton(arg_30_0, tf(var_30_0.go):Find("look"), function()
+		arg_30_0.obtainWayPage:ExecuteAction("Show", var_30_0.designId)
+	end, SFX_PANEL)
 
 	arg_30_0.desgins[arg_30_1] = var_30_0
 end
 
-function var_0_0.updateDesign(arg_32_0, arg_32_1, arg_32_2)
-	local var_32_0 = arg_32_0.desgins[arg_32_2]
+function var_0_0.updateDesign(arg_33_0, arg_33_1, arg_33_2)
+	local var_33_0 = arg_33_0.desgins[arg_33_2]
 
-	if not var_32_0 then
-		arg_32_0:initDesign(arg_32_2)
+	if not var_33_0 then
+		arg_33_0:initDesign(arg_33_2)
 
-		var_32_0 = arg_32_0.desgins[arg_32_2]
+		var_33_0 = arg_33_0.desgins[arg_33_2]
 	end
 
-	local var_32_1 = arg_32_0.desginIds[arg_32_1 + 1]
+	local var_33_1 = arg_33_0.desginIds[arg_33_1 + 1]
 
-	var_32_0:update(var_32_1, arg_32_0.itemVOs)
+	var_33_0:update(var_33_1, arg_33_0.itemVOs)
 end
 
-function var_0_0.returnDesign(arg_33_0, arg_33_1, arg_33_2)
-	if arg_33_0.exited then
+function var_0_0.returnDesign(arg_34_0, arg_34_1, arg_34_2)
+	if arg_34_0.exited then
 		return
 	end
 
-	local var_33_0 = arg_33_0.desgins[arg_33_2]
+	local var_34_0 = arg_34_0.desgins[arg_34_2]
 
-	if var_33_0 then
-		var_33_0:clear()
+	if var_34_0 then
+		var_34_0:clear()
 	end
 end
 
-function var_0_0.getDesignVO(arg_34_0, arg_34_1)
-	local var_34_0 = {}
-	local var_34_1 = pg.compose_data_template
+function var_0_0.getDesignVO(arg_35_0, arg_35_1)
+	local var_35_0 = {}
+	local var_35_1 = pg.compose_data_template
 
-	var_34_0.equipmentCfg = Equipment.getConfigData(var_34_1[arg_34_1].equip_id)
-	var_34_0.designCfg = var_34_1[arg_34_1]
-	var_34_0.id = arg_34_1
+	var_35_0.equipmentCfg = Equipment.getConfigData(var_35_1[arg_35_1].equip_id)
+	var_35_0.designCfg = var_35_1[arg_35_1]
+	var_35_0.id = arg_35_1
 
-	local var_34_2 = arg_34_0:getItemById(var_34_1[arg_34_1].material_id).count
+	local var_35_2 = arg_35_0:getItemById(var_35_1[arg_35_1].material_id).count
 
-	var_34_0.itemCount = var_34_2
-	var_34_0.canMakeCount = math.floor(var_34_2 / var_34_1[arg_34_1].material_num)
-	var_34_0.canMake = math.min(var_34_0.canMakeCount, 1)
+	var_35_0.itemCount = var_35_2
+	var_35_0.canMakeCount = math.floor(var_35_2 / var_35_1[arg_35_1].material_num)
+	var_35_0.canMake = math.min(var_35_0.canMakeCount, 1)
 
-	local var_34_3 = var_34_1[arg_34_1].equip_id
-	local var_34_4 = Equipment.getConfigData(var_34_3)
+	local var_35_3 = var_35_1[arg_35_1].equip_id
+	local var_35_4 = Equipment.getConfigData(var_35_3)
 
-	assert(var_34_4, "equip config not exist: " .. var_34_3)
+	assert(var_35_4, "equip config not exist: " .. var_35_3)
 
-	var_34_0.config = var_34_4
+	var_35_0.config = var_35_4
 
-	function var_34_0.getNation(arg_35_0)
-		return var_34_4.nationality
+	function var_35_0.getNation(arg_36_0)
+		return var_35_4.nationality
 	end
 
-	function var_34_0.getConfig(arg_36_0, arg_36_1)
-		return var_34_4[arg_36_1]
+	function var_35_0.getConfig(arg_37_0, arg_37_1)
+		return var_35_4[arg_37_1]
 	end
 
-	return var_34_0
+	return var_35_0
 end
 
-function var_0_0.filter(arg_37_0, arg_37_1, arg_37_2)
-	local var_37_0 = arg_37_0:isDefaultStatus() and "shaixuan_off" or "shaixuan_on"
+function var_0_0.filter(arg_38_0, arg_38_1, arg_38_2)
+	local var_38_0 = arg_38_0:isDefaultStatus() and "shaixuan_off" or "shaixuan_on"
 
-	GetSpriteFromAtlasAsync("ui/share/index_atlas", var_37_0, function(arg_38_0)
-		setImageSprite(arg_37_0.indexBtn, arg_38_0, true)
+	GetSpriteFromAtlasAsync("ui/share/index_atlas", var_38_0, function(arg_39_0)
+		setImageSprite(arg_38_0.indexBtn, arg_39_0, true)
 	end)
 
-	local var_37_1 = pg.compose_data_template
-	local var_37_2 = {}
-	local var_37_3 = arg_37_0.asc
+	local var_38_1 = pg.compose_data_template
+	local var_38_2 = {}
+	local var_38_3 = arg_38_0.asc
+	local var_38_4 = getProxy(EquipmentProxy)
 
-	for iter_37_0, iter_37_1 in ipairs(var_37_1.all) do
-		local var_37_4 = pg.compose_data_template[iter_37_1]
+	for iter_38_0, iter_38_1 in ipairs(var_38_1.all) do
+		local var_38_5 = pg.compose_data_template[iter_38_1]
 
-		if arg_37_0:getItemById(var_37_4.material_id).count > 0 then
-			table.insert(var_37_2, iter_37_1)
+		if arg_38_0:getItemById(var_38_5.material_id).count > 0 or arg_38_0.contextData.isShowAllDesign and var_38_4:ShouldShowEquipmentDesignObtainWay(iter_38_1) then
+			table.insert(var_38_2, iter_38_1)
 		end
 	end
 
-	local var_37_5 = {}
-	local var_37_6 = table.mergeArray({}, {
-		arg_37_0.contextData.indexDatas.equipPropertyIndex,
-		arg_37_0.contextData.indexDatas.equipPropertyIndex2
+	local var_38_6 = {}
+	local var_38_7 = table.mergeArray({}, {
+		arg_38_0.contextData.indexDatas.equipPropertyIndex,
+		arg_38_0.contextData.indexDatas.equipPropertyIndex2
 	}, true)
 
-	for iter_37_2, iter_37_3 in pairs(var_37_2) do
-		local var_37_7 = arg_37_0:getDesignVO(iter_37_3)
+	for iter_38_2, iter_38_3 in pairs(var_38_2) do
+		local var_38_8 = arg_38_0:getDesignVO(iter_38_3)
 
-		if IndexConst.filterEquipByType(var_37_7, arg_37_0.contextData.indexDatas.typeIndex) and IndexConst.filterEquipByProperty(var_37_7, var_37_6) and IndexConst.filterEquipAmmo1(var_37_7, arg_37_0.contextData.indexDatas.equipAmmoIndex1) and IndexConst.filterEquipAmmo2(var_37_7, arg_37_0.contextData.indexDatas.equipAmmoIndex2) and IndexConst.filterEquipByCamp(var_37_7, arg_37_0.contextData.indexDatas.equipCampIndex) and IndexConst.filterEquipByRarity(var_37_7, arg_37_0.contextData.indexDatas.rarityIndex) then
-			table.insert(var_37_5, iter_37_3)
+		if IndexConst.filterEquipByType(var_38_8, arg_38_0.contextData.indexDatas.typeIndex) and IndexConst.filterEquipByProperty(var_38_8, var_38_7) and IndexConst.filterEquipAmmo1(var_38_8, arg_38_0.contextData.indexDatas.equipAmmoIndex1) and IndexConst.filterEquipAmmo2(var_38_8, arg_38_0.contextData.indexDatas.equipAmmoIndex2) and IndexConst.filterEquipByCamp(var_38_8, arg_38_0.contextData.indexDatas.equipCampIndex) and IndexConst.filterEquipByRarity(var_38_8, arg_38_0.contextData.indexDatas.rarityIndex) then
+			table.insert(var_38_6, iter_38_3)
 		end
 	end
 
-	if arg_37_1 == 1 then
-		if var_37_3 then
-			table.sort(var_37_5, function(arg_39_0, arg_39_1)
-				local var_39_0 = arg_37_0:getDesignVO(arg_39_0)
-				local var_39_1 = arg_37_0:getDesignVO(arg_39_1)
-
-				if var_39_0.canMake == var_39_1.canMake then
-					if var_39_0.equipmentCfg.rarity == var_39_1.equipmentCfg.rarity then
-						return var_39_0.equipmentCfg.id < var_39_1.equipmentCfg.id
-					else
-						return var_39_0.equipmentCfg.rarity > var_39_1.equipmentCfg.rarity
-					end
-				else
-					return var_39_0.canMake < var_39_1.canMake
-				end
-			end)
-		else
-			table.sort(var_37_5, function(arg_40_0, arg_40_1)
-				local var_40_0 = arg_37_0:getDesignVO(arg_40_0)
-				local var_40_1 = arg_37_0:getDesignVO(arg_40_1)
+	if arg_38_1 == 1 then
+		if var_38_3 then
+			table.sort(var_38_6, function(arg_40_0, arg_40_1)
+				local var_40_0 = arg_38_0:getDesignVO(arg_40_0)
+				local var_40_1 = arg_38_0:getDesignVO(arg_40_1)
 
 				if var_40_0.canMake == var_40_1.canMake then
 					if var_40_0.equipmentCfg.rarity == var_40_1.equipmentCfg.rarity then
@@ -527,214 +520,235 @@ function var_0_0.filter(arg_37_0, arg_37_1, arg_37_2)
 						return var_40_0.equipmentCfg.rarity > var_40_1.equipmentCfg.rarity
 					end
 				else
-					return var_40_0.canMake > var_40_1.canMake
+					return var_40_0.canMake < var_40_1.canMake
+				end
+			end)
+		else
+			table.sort(var_38_6, function(arg_41_0, arg_41_1)
+				local var_41_0 = arg_38_0:getDesignVO(arg_41_0)
+				local var_41_1 = arg_38_0:getDesignVO(arg_41_1)
+
+				if var_41_0.canMake == var_41_1.canMake then
+					if var_41_0.equipmentCfg.rarity == var_41_1.equipmentCfg.rarity then
+						return var_41_0.equipmentCfg.id < var_41_1.equipmentCfg.id
+					else
+						return var_41_0.equipmentCfg.rarity > var_41_1.equipmentCfg.rarity
+					end
+				else
+					return var_41_0.canMake > var_41_1.canMake
 				end
 			end)
 		end
-	elseif arg_37_1 == 2 then
-		if arg_37_0.asc then
-			table.sort(var_37_5, function(arg_41_0, arg_41_1)
-				local var_41_0 = arg_37_0:getDesignVO(arg_41_0)
-				local var_41_1 = arg_37_0:getDesignVO(arg_41_1)
-
-				if var_41_0.equipmentCfg.rarity == var_41_1.equipmentCfg.rarity then
-					return var_41_0.equipmentCfg.id < var_41_0.equipmentCfg.id
-				end
-
-				return var_41_0.equipmentCfg.rarity < var_41_1.equipmentCfg.rarity
-			end)
-		else
-			table.sort(var_37_5, function(arg_42_0, arg_42_1)
-				local var_42_0 = arg_37_0:getDesignVO(arg_42_0)
-				local var_42_1 = arg_37_0:getDesignVO(arg_42_1)
+	elseif arg_38_1 == 2 then
+		if arg_38_0.asc then
+			table.sort(var_38_6, function(arg_42_0, arg_42_1)
+				local var_42_0 = arg_38_0:getDesignVO(arg_42_0)
+				local var_42_1 = arg_38_0:getDesignVO(arg_42_1)
 
 				if var_42_0.equipmentCfg.rarity == var_42_1.equipmentCfg.rarity then
 					return var_42_0.equipmentCfg.id < var_42_0.equipmentCfg.id
 				end
 
-				return var_42_0.equipmentCfg.rarity > var_42_1.equipmentCfg.rarity
-			end)
-		end
-	elseif arg_37_1 == 3 then
-		if arg_37_0.asc then
-			table.sort(var_37_5, function(arg_43_0, arg_43_1)
-				local var_43_0 = arg_37_0:getDesignVO(arg_43_0)
-				local var_43_1 = arg_37_0:getDesignVO(arg_43_1)
-
-				if var_43_0.itemCount == var_43_1.itemCount then
-					return var_43_0.equipmentCfg.id < var_43_1.equipmentCfg.id
-				end
-
-				return var_43_0.itemCount < var_43_1.itemCount
+				return var_42_0.equipmentCfg.rarity < var_42_1.equipmentCfg.rarity
 			end)
 		else
-			table.sort(var_37_5, function(arg_44_0, arg_44_1)
-				local var_44_0 = arg_37_0:getDesignVO(arg_44_0)
-				local var_44_1 = arg_37_0:getDesignVO(arg_44_1)
+			table.sort(var_38_6, function(arg_43_0, arg_43_1)
+				local var_43_0 = arg_38_0:getDesignVO(arg_43_0)
+				local var_43_1 = arg_38_0:getDesignVO(arg_43_1)
+
+				if var_43_0.equipmentCfg.rarity == var_43_1.equipmentCfg.rarity then
+					return var_43_0.equipmentCfg.id < var_43_0.equipmentCfg.id
+				end
+
+				return var_43_0.equipmentCfg.rarity > var_43_1.equipmentCfg.rarity
+			end)
+		end
+	elseif arg_38_1 == 3 then
+		if arg_38_0.asc then
+			table.sort(var_38_6, function(arg_44_0, arg_44_1)
+				local var_44_0 = arg_38_0:getDesignVO(arg_44_0)
+				local var_44_1 = arg_38_0:getDesignVO(arg_44_1)
 
 				if var_44_0.itemCount == var_44_1.itemCount then
 					return var_44_0.equipmentCfg.id < var_44_1.equipmentCfg.id
 				end
 
-				return var_44_0.itemCount > var_44_1.itemCount
+				return var_44_0.itemCount < var_44_1.itemCount
+			end)
+		else
+			table.sort(var_38_6, function(arg_45_0, arg_45_1)
+				local var_45_0 = arg_38_0:getDesignVO(arg_45_0)
+				local var_45_1 = arg_38_0:getDesignVO(arg_45_1)
+
+				if var_45_0.itemCount == var_45_1.itemCount then
+					return var_45_0.equipmentCfg.id < var_45_1.equipmentCfg.id
+				end
+
+				return var_45_0.itemCount > var_45_1.itemCount
 			end)
 		end
 	end
 
-	arg_37_0.desginIds = var_37_5
+	arg_38_0.desginIds = var_38_6
 
-	arg_37_0.scollRect:SetTotalCount(#var_37_5, arg_37_2 and -1 or 0)
-	setActive(arg_37_0.listEmptyTF, #var_37_5 <= 0)
+	arg_38_0.scollRect:SetTotalCount(#var_38_6, arg_38_2 and -1 or 0)
+	setActive(arg_38_0.listEmptyTF, #var_38_6 <= 0)
 	Canvas.ForceUpdateCanvases()
 
-	local var_37_8 = GetSpriteFromAtlas("ui/equipmentdesignui_atlas", var_0_1[arg_37_1])
+	local var_38_9 = GetSpriteFromAtlas("ui/equipmentdesignui_atlas", var_0_1[arg_38_1])
 
-	setImageSprite(arg_37_0.sortBtn:Find("Image"), var_37_8)
-	setActive(arg_37_0.sortImgAsc, arg_37_0.asc)
-	setActive(arg_37_0.sortImgDec, not arg_37_0.asc)
+	setImageSprite(arg_38_0.sortBtn:Find("Image"), var_38_9)
+	setActive(arg_38_0.sortImgAsc, arg_38_0.asc)
+	setActive(arg_38_0.sortImgDec, not arg_38_0.asc)
 end
 
-function var_0_0.getItemById(arg_45_0, arg_45_1)
-	return arg_45_0.itemVOs[arg_45_1] or Item.New({
+function var_0_0.getItemById(arg_46_0, arg_46_1)
+	return arg_46_0.itemVOs[arg_46_1] or Item.New({
 		count = 0,
-		id = arg_45_1
+		id = arg_46_1
 	})
 end
 
-function var_0_0.showDesignDesc(arg_46_0, arg_46_1)
-	arg_46_0.isShowDesc = true
+function var_0_0.showDesignDesc(arg_47_0, arg_47_1)
+	arg_47_0.isShowDesc = true
 
-	if IsNil(arg_46_0.msgBoxTF) then
+	if IsNil(arg_47_0.msgBoxTF) then
 		return
 	end
 
-	pg.UIMgr.GetInstance():BlurPanel(arg_46_0.msgBoxTF)
-	setActive(arg_46_0.msgBoxTF, true)
+	pg.UIMgr.GetInstance():BlurPanel(arg_47_0.msgBoxTF)
+	setActive(arg_47_0.msgBoxTF, true)
 
-	local var_46_0 = arg_46_0.msgBoxTF
-	local var_46_1 = pg.compose_data_template[arg_46_1]
-	local var_46_2 = var_46_1.equip_id
-	local var_46_3 = Equipment.New({
-		id = var_46_2
+	local var_47_0 = arg_47_0.msgBoxTF
+	local var_47_1 = pg.compose_data_template[arg_47_1]
+	local var_47_2 = var_47_1.equip_id
+	local var_47_3 = Equipment.New({
+		id = var_47_2
 	})
 
-	updateEquipInfo(var_46_0:Find("bg/attrs/content"), var_46_3:GetPropertiesInfo(), var_46_3:GetSkill())
+	updateEquipInfo(var_47_0:Find("bg/attrs/content"), var_47_3:GetPropertiesInfo(), var_47_3:GetSkill())
 
-	local var_46_4 = var_46_0:Find("bg/frame/icon")
+	local var_47_4 = var_47_0:Find("bg/frame/icon")
 
-	GetImageSpriteFromAtlasAsync("equips/" .. var_46_3:getConfig("icon"), "", var_46_4)
-	changeToScrollText(var_46_0:Find("bg/name"), var_46_3:getConfig("name"))
-	UIItemList.New(var_46_0:Find("bg/frame/stars"), var_46_0:Find("bg/frame/stars/sarttpl")):align(var_46_3:getConfig("rarity"))
-	setImageSprite(findTF(var_46_0, "bg/frame/type"), GetSpriteFromAtlas("equiptype", EquipType.type2Tag(var_46_3:getConfig("type"))))
-	setText(var_46_0:Find("bg/frame/speciality/Text"), var_46_3:getConfig("speciality") ~= "无" and var_46_3:getConfig("speciality") or i18n1("—"))
+	GetImageSpriteFromAtlasAsync("equips/" .. var_47_3:getConfig("icon"), "", var_47_4)
+	changeToScrollText(var_47_0:Find("bg/name"), var_47_3:getConfig("name"))
+	UIItemList.New(var_47_0:Find("bg/frame/stars"), var_47_0:Find("bg/frame/stars/sarttpl")):align(var_47_3:getConfig("rarity"))
+	setImageSprite(findTF(var_47_0, "bg/frame/type"), GetSpriteFromAtlas("equiptype", EquipType.type2Tag(var_47_3:getConfig("type"))))
+	setText(var_47_0:Find("bg/frame/speciality/Text"), var_47_3:getConfig("speciality") ~= "无" and var_47_3:getConfig("speciality") or i18n1("—"))
 
-	local var_46_5 = LoadSprite("bg/equipment_bg_" .. var_46_3:getConfig("rarity"))
+	local var_47_5 = LoadSprite("bg/equipment_bg_" .. var_47_3:getConfig("rarity"))
 
-	var_46_0:Find("bg/frame"):GetComponent(typeof(Image)).sprite = var_46_5
+	var_47_0:Find("bg/frame"):GetComponent(typeof(Image)).sprite = var_47_5
 
-	local var_46_6 = findTF(var_46_0, "bg/frame/numbers")
-	local var_46_7 = var_46_3:getConfig("tech") or 1
+	local var_47_6 = findTF(var_47_0, "bg/frame/numbers")
+	local var_47_7 = var_47_3:getConfig("tech") or 1
 
-	for iter_46_0 = 0, var_46_6.childCount - 1 do
-		local var_46_8 = var_46_6:GetChild(iter_46_0)
+	for iter_47_0 = 0, var_47_6.childCount - 1 do
+		local var_47_8 = var_47_6:GetChild(iter_47_0)
 
-		setActive(var_46_8, iter_46_0 == var_46_7)
+		setActive(var_47_8, iter_47_0 == var_47_7)
 	end
 
-	local var_46_9 = arg_46_0:getItemById(var_46_1.material_id)
-	local var_46_10 = math.floor(var_46_9.count / var_46_1.material_num)
-	local var_46_11 = 1
-	local var_46_12 = var_46_0:Find("bg/calc/values/Text")
-	local var_46_13 = var_46_1.gold_num
-	local var_46_14 = var_46_0:Find("bg/calc/gold/Text")
+	local var_47_9 = arg_47_0:getItemById(var_47_1.material_id)
+	local var_47_10 = math.floor(var_47_9.count / var_47_1.material_num)
+	local var_47_11 = 1
+	local var_47_12 = var_47_0:Find("bg/calc/values/Text")
+	local var_47_13 = var_47_1.gold_num
+	local var_47_14 = var_47_0:Find("bg/calc/gold/Text")
 
-	local function var_46_15(arg_47_0)
-		setText(var_46_12, arg_47_0)
-		setText(var_46_14, arg_47_0 * var_46_13)
+	local function var_47_15(arg_48_0)
+		setText(var_47_12, arg_48_0)
+		setText(var_47_14, arg_48_0 * var_47_13)
 	end
 
-	var_46_15(var_46_11)
-	pressPersistTrigger(findTF(var_46_0, "bg/calc/minus"), 0.5, function(arg_48_0)
-		if var_46_11 <= 1 then
-			arg_48_0()
-
-			return
-		end
-
-		var_46_11 = var_46_11 - 1
-
-		var_46_15(var_46_11)
-	end, nil, true, true, 0.1, SFX_PANEL)
-	pressPersistTrigger(findTF(var_46_0, "bg/calc/add"), 0.5, function(arg_49_0)
-		if var_46_11 == var_46_10 then
+	var_47_15(var_47_11)
+	pressPersistTrigger(findTF(var_47_0, "bg/calc/minus"), 0.5, function(arg_49_0)
+		if var_47_11 <= 1 then
 			arg_49_0()
 
 			return
 		end
 
-		var_46_11 = var_46_11 + 1
+		var_47_11 = var_47_11 - 1
 
-		var_46_15(var_46_11)
+		var_47_15(var_47_11)
 	end, nil, true, true, 0.1, SFX_PANEL)
-	onButton(arg_46_0, findTF(var_46_0, "bg/calc/max"), function()
-		if var_46_11 == var_46_10 then
+	pressPersistTrigger(findTF(var_47_0, "bg/calc/add"), 0.5, function(arg_50_0)
+		if var_47_11 == var_47_10 then
+			arg_50_0()
+
 			return
 		end
 
-		local var_50_0 = arg_46_0.player:getMaxEquipmentBag() - arg_46_0.capacity
+		var_47_11 = var_47_11 + 1
 
-		var_46_11 = math.max(math.min(var_46_10, var_50_0), 1)
+		var_47_15(var_47_11)
+	end, nil, true, true, 0.1, SFX_PANEL)
+	onButton(arg_47_0, findTF(var_47_0, "bg/calc/max"), function()
+		if var_47_11 == var_47_10 then
+			return
+		end
 
-		var_46_15(var_46_11)
+		local var_51_0 = arg_47_0.player:getMaxEquipmentBag() - arg_47_0.capacity
+
+		var_47_11 = math.max(math.min(var_47_10, var_51_0), 1)
+
+		var_47_15(var_47_11)
 	end, SFX_PANEL)
-	onButton(arg_46_0, findTF(var_46_0, "bg/cancel_btn"), function()
-		arg_46_0:hideMsgBox()
+	onButton(arg_47_0, findTF(var_47_0, "bg/cancel_btn"), function()
+		arg_47_0:hideMsgBox()
 	end, SFX_CANCEL)
-	onButton(arg_46_0, findTF(var_46_0, "bg/confirm_btn"), function()
-		arg_46_0:emit(EquipmentDesignMediator.MAKE_EQUIPMENT, arg_46_1, var_46_11)
-		arg_46_0:hideMsgBox()
+	onButton(arg_47_0, findTF(var_47_0, "bg/confirm_btn"), function()
+		arg_47_0:emit(EquipmentDesignMediator.MAKE_EQUIPMENT, arg_47_1, var_47_11)
+		arg_47_0:hideMsgBox()
 	end, SFX_CONFIRM)
-	onButton(arg_46_0, var_46_0, function()
-		arg_46_0:hideMsgBox()
+	onButton(arg_47_0, var_47_0, function()
+		arg_47_0:hideMsgBox()
 	end, SFX_CANCEL)
 end
 
-function var_0_0.hideMsgBox(arg_54_0)
-	if not IsNil(arg_54_0.msgBoxTF) then
-		arg_54_0.isShowDesc = nil
+function var_0_0.hideMsgBox(arg_55_0)
+	if not IsNil(arg_55_0.msgBoxTF) then
+		arg_55_0.isShowDesc = nil
 
-		pg.UIMgr.GetInstance():UnOverlayPanel(arg_54_0.msgBoxTF, arg_54_0._tf)
-		setActive(arg_54_0.msgBoxTF, false)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_55_0.msgBoxTF, arg_55_0._tf)
+		setActive(arg_55_0.msgBoxTF, false)
 	end
 end
 
-function var_0_0.onBackPressed(arg_55_0)
-	if isActive(arg_55_0.indexPanel) then
-		triggerButton(arg_55_0.indexPanel)
+function var_0_0.onBackPressed(arg_56_0)
+	if isActive(arg_56_0.indexPanel) then
+		triggerButton(arg_56_0.indexPanel)
 
 		return
 	end
 
-	if arg_55_0.isShowDesc then
-		arg_55_0:hideMsgBox()
+	if arg_56_0.isShowDesc then
+		arg_56_0:hideMsgBox()
 	else
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
-		arg_55_0:emit(var_0_0.ON_BACK)
+		arg_56_0:emit(var_0_0.ON_BACK)
 	end
 end
 
-function var_0_0.willExit(arg_56_0)
-	arg_56_0:UnOverlayPanel(arg_56_0.indexPanel, arg_56_0._tf)
+function var_0_0.willExit(arg_57_0)
+	arg_57_0:UnOverlayPanel(arg_57_0.indexPanel, arg_57_0._tf)
 
-	if arg_56_0.leftEventTrigger then
-		ClearEventTrigger(arg_56_0.leftEventTrigger)
+	if arg_57_0.leftEventTrigger then
+		ClearEventTrigger(arg_57_0.leftEventTrigger)
 	end
 
-	if arg_56_0.rightEventTrigger then
-		ClearEventTrigger(arg_56_0.rightEventTrigger)
+	if arg_57_0.rightEventTrigger then
+		ClearEventTrigger(arg_57_0.rightEventTrigger)
 	end
 
-	setParent(arg_56_0.sortBtn.parent, arg_56_0._tf)
+	setParent(arg_57_0.sortBtn.parent, arg_57_0._tf)
+
+	if arg_57_0.obtainWayPage then
+		arg_57_0.obtainWayPage:Destroy()
+	end
+
+	arg_57_0.obtainWayPage = nil
 end
 
 return var_0_0

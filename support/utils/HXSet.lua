@@ -313,6 +313,17 @@ function var_0_0.isHxPropose()
 	return not var_0_0.codeMode and PLATFORM_CODE == PLATFORM_CH and LOCK_PROPOSE_SHIP
 end
 
+function var_0_0.HxPath(arg_16_0)
+	if PLATFORM_CODE == PLATFORM_CH and HXSet.isHx() then
+		local var_16_0 = pg.SdkMgr.GetInstance():GetChannelUIDIncludeHarmony()
+		local var_16_1 = arg_16_0 .. "_hx_ch" .. var_16_0
+
+		return checkABExist(var_16_1) and var_16_1 or arg_16_0
+	else
+		return arg_16_0
+	end
+end
+
 var_0_0.hxPathList = {
 	"live2d",
 	"painting",
@@ -330,18 +341,8 @@ var_0_0.folderBundle = {
 	"paintingface"
 }
 
-function var_0_0.needShift(arg_16_0)
-	for iter_16_0, iter_16_1 in ipairs(var_0_0.hxPathList) do
-		if string.find(arg_16_0, iter_16_1) then
-			return true
-		end
-	end
-
-	return false
-end
-
-function var_0_0.isFolderBundle(arg_17_0)
-	for iter_17_0, iter_17_1 in ipairs(var_0_0.folderBundle) do
+function var_0_0.needShift(arg_17_0)
+	for iter_17_0, iter_17_1 in ipairs(var_0_0.hxPathList) do
 		if string.find(arg_17_0, iter_17_1) then
 			return true
 		end
@@ -350,60 +351,70 @@ function var_0_0.isFolderBundle(arg_17_0)
 	return false
 end
 
-function var_0_0.autoHxShift(arg_18_0, arg_18_1)
-	if var_0_0.isHx() then
-		if string.find(arg_18_0, "live2d") then
-			if checkABExist(arg_18_0 .. arg_18_1 .. "_hx") then
-				return arg_18_0, arg_18_1 .. "_hx"
-			elseif pg.l2dhx[arg_18_1] then
-				return arg_18_0, arg_18_1 .. "_hx"
-			end
-		end
-
-		if var_0_0.needShift(arg_18_0) then
-			local var_18_0 = arg_18_0 .. arg_18_1
-
-			if checkABExist(var_18_0 .. "_hx") then
-				return arg_18_0, arg_18_1 .. "_hx"
-			end
+function var_0_0.isFolderBundle(arg_18_0)
+	for iter_18_0, iter_18_1 in ipairs(var_0_0.folderBundle) do
+		if string.find(arg_18_0, iter_18_1) then
+			return true
 		end
 	end
 
-	return arg_18_0, arg_18_1
+	return false
 end
 
-function var_0_0.autoHxShiftPath(arg_19_0, arg_19_1, arg_19_2)
+function var_0_0.autoHxShift(arg_19_0, arg_19_1)
 	if var_0_0.isHx() then
 		if string.find(arg_19_0, "live2d") then
-			if arg_19_2 then
-				local var_19_0 = string.gsub(arg_19_0, "live2d/", "")
-
-				if pg.l2dhx[var_19_0] then
-					return arg_19_0 .. "_hx"
-				end
-			elseif checkABExist(arg_19_0 .. "_hx") then
-				return arg_19_0 .. "_hx"
-			else
-				local var_19_1 = string.gsub(arg_19_0, "live2d/", "")
-
-				if pg.l2dhx[var_19_1] then
-					return arg_19_0 .. "_hx"
-				end
+			if checkABExist(arg_19_0 .. arg_19_1 .. "_hx") then
+				return arg_19_0, arg_19_1 .. "_hx"
+			elseif pg.l2dhx[arg_19_1] then
+				return arg_19_0, arg_19_1 .. "_hx"
 			end
 		end
 
-		if var_0_0.needShift(arg_19_0) and checkABExist(arg_19_0 .. "_hx") then
-			if var_0_0.isFolderBundle(arg_19_0) then
-				return arg_19_0 .. "_hx", arg_19_1
-			elseif arg_19_1 and #arg_19_1 > 0 then
-				return arg_19_0 .. "_hx", arg_19_1 .. "_hx"
-			else
-				return arg_19_0 .. "_hx", arg_19_1
+		if var_0_0.needShift(arg_19_0) then
+			local var_19_0 = arg_19_0 .. arg_19_1
+
+			if checkABExist(var_19_0 .. "_hx") then
+				return arg_19_0, arg_19_1 .. "_hx"
 			end
 		end
 	end
 
 	return arg_19_0, arg_19_1
+end
+
+function var_0_0.autoHxShiftPath(arg_20_0, arg_20_1, arg_20_2)
+	if var_0_0.isHx() then
+		if string.find(arg_20_0, "live2d") then
+			if arg_20_2 then
+				local var_20_0 = string.gsub(arg_20_0, "live2d/", "")
+
+				if pg.l2dhx[var_20_0] then
+					return arg_20_0 .. "_hx"
+				end
+			elseif checkABExist(arg_20_0 .. "_hx") then
+				return arg_20_0 .. "_hx"
+			else
+				local var_20_1 = string.gsub(arg_20_0, "live2d/", "")
+
+				if pg.l2dhx[var_20_1] then
+					return arg_20_0 .. "_hx"
+				end
+			end
+		end
+
+		if var_0_0.needShift(arg_20_0) and checkABExist(arg_20_0 .. "_hx") then
+			if var_0_0.isFolderBundle(arg_20_0) then
+				return arg_20_0 .. "_hx", arg_20_1
+			elseif arg_20_1 and #arg_20_1 > 0 then
+				return arg_20_0 .. "_hx", arg_20_1 .. "_hx"
+			else
+				return arg_20_0 .. "_hx", arg_20_1
+			end
+		end
+	end
+
+	return arg_20_0, arg_20_1
 end
 
 var_0_0.init()

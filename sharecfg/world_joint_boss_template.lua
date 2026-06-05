@@ -24,7 +24,8 @@ pg.world_joint_boss_template.all = {
 	19,
 	20,
 	21,
-	22
+	22,
+	23
 }
 pg.base = pg.base or {}
 pg.base.world_joint_boss_template = {}
@@ -573,7 +574,7 @@ pg.base.world_joint_boss_template = {}
 		}
 	}
 	pg.base.world_joint_boss_template[17] = {
-		state = "stop",
+		state = "always",
 		name = "鹩·META",
 		painting = "dafeng",
 		boss_level_id = 241,
@@ -743,12 +744,13 @@ pg.base.world_joint_boss_template = {}
 		}
 	}
 	pg.base.world_joint_boss_template[22] = {
-		item_id = 100000,
+		state = "stop",
 		name = "瑞吉娜·META",
 		painting = "leigensibao",
 		boss_level_id = 316,
 		id = 22,
 		meta_id = 970211,
+		item_id = 100000,
 		description = {
 			{
 				"强者狩猎",
@@ -759,32 +761,6 @@ pg.base.world_joint_boss_template = {}
 				"阶段式胜利",
 				1,
 				"我方单位每次<color=#92fc63>被击败或消失</color>离开战斗海域，都会使瑞吉娜·META的士气增加，提升其15%炮击与雷击。"
-			}
-		},
-		state = {
-			{
-				{
-					2026,
-					3,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					6,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		p_offset = {
@@ -798,6 +774,69 @@ pg.base.world_joint_boss_template = {}
 			470,
 			0.65,
 			0.65
+		}
+	}
+	pg.base.world_joint_boss_template[23] = {
+		item_id = 100000,
+		name = "布里斯托尔·META",
+		painting = "bulisituoer",
+		boss_level_id = 331,
+		id = 23,
+		meta_id = 970112,
+		description = {
+			{
+				"情报调查（传奇）",
+				3,
+				"战斗内布里斯托尔·META会使用提灯调查特定区域，处于区域中的我方单位<color=#92fc63>回避率大幅度降低</color>。"
+			},
+			{
+				"维度追猎",
+				2,
+				"DATA-857初始处于跟随状态，该状态下会使布里斯托尔·META造成的伤害提升20%，受到的伤害减少20%。\n跟随状态下，当<color=#92fc63>我方任意角色进入【完全回避】或【无敌】</color>时，DATA-857会暂时离开布里斯托尔·META，并持续对一个处于该类状态的我方角色（优先选择先锋领舰与主力旗舰）造成<color=#92fc63>基于耐久百分比的高额伤害</color>，直到其退出该类状态。"
+			},
+			{
+				"灯下之影",
+				1,
+				"战斗一段时间后，布里斯托尔·META的提灯下会出现一些神秘的生物——但对敌我双方似乎没有太大影响？\n受神秘生物的影响，敌我双方单位<color=#92fc63>命中小幅度下降</color>。"
+			}
+		},
+		state = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			-392,
+			457,
+			0.7,
+			0.7
+		},
+		p_offset_other = {
+			-261,
+			495,
+			0.7,
+			0.7
 		}
 	}
 end)()

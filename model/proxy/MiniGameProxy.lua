@@ -104,6 +104,10 @@ function var_0_0.UpdataHighScore(arg_11_0, arg_11_1, arg_11_2)
 		var_11_1 = var_11_0.highScores[arg_11_1][1]
 	end
 
+	if var_11_1 > arg_11_2[1] then
+		arg_11_2[1] = var_11_1
+	end
+
 	if var_11_1 <= arg_11_2[1] then
 		var_11_0.highScores[arg_11_1] = arg_11_2
 

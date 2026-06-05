@@ -422,6 +422,7 @@ function var_0_0.OpenShipSelectPage(arg_25_0)
 	arg_25_0:emit(IslandMediator.OPEN_PAGE, "IslandShipSelectPage", {
 		{
 			needWorkSpeed = true,
+			showType = IslandSelectShipCard.SHOW_TYPE.PLACE,
 			attrType = var_25_0,
 			confirmFunc = function(arg_26_0)
 				arg_25_0:AfterShipSelect(arg_26_0[1])

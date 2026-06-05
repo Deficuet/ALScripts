@@ -450733,6 +450733,530 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[9701121] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "布里斯托尔·META",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 9701120,
+		english_name = "Bristol.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9701121,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			417,
+			35,
+			78,
+			45,
+			0,
+			95,
+			0,
+			69,
+			56,
+			41,
+			78,
+			55
+		},
+		attrs_growth = {
+			8452,
+			439,
+			970,
+			612,
+			0,
+			661,
+			0,
+			933,
+			897,
+			0,
+			0,
+			719
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.25,
+			1.5
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"BristolMETA"
+		},
+		gift_dislike = {
+			180008,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9701122] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "布里斯托尔·META",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 9701120,
+		english_name = "Bristol.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9701122,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			519,
+			44,
+			97,
+			56,
+			0,
+			95,
+			0,
+			69,
+			56,
+			41,
+			78,
+			69
+		},
+		attrs_growth = {
+			8452,
+			439,
+			970,
+			612,
+			0,
+			661,
+			0,
+			933,
+			897,
+			0,
+			0,
+			719
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.27,
+			1.27,
+			1.52
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"BristolMETA"
+		},
+		gift_dislike = {
+			180008,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9701123] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "布里斯托尔·META",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 9701120,
+		english_name = "Bristol.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9701123,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			722,
+			61,
+			136,
+			78,
+			0,
+			95,
+			0,
+			69,
+			56,
+			41,
+			78,
+			96
+		},
+		attrs_growth = {
+			8452,
+			439,
+			970,
+			612,
+			0,
+			661,
+			0,
+			933,
+			897,
+			0,
+			0,
+			719
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.3,
+			1.55
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"BristolMETA"
+		},
+		gift_dislike = {
+			180008,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9701124] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "布里斯托尔·META",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 9701120,
+		english_name = "Bristol.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9701124,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1027,
+			87,
+			194,
+			111,
+			0,
+			95,
+			0,
+			69,
+			56,
+			41,
+			78,
+			136
+		},
+		attrs_growth = {
+			8452,
+			439,
+			970,
+			612,
+			0,
+			661,
+			0,
+			933,
+			897,
+			0,
+			0,
+			719
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.35,
+			1.6
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"BristolMETA"
+		},
+		gift_dislike = {
+			180008,
+			180007
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[9702011] = {
 		raid_distance = 0,
 		oxy_max = 0,

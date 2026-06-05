@@ -102,6 +102,8 @@ var_0_0.CHEATER_TAVERN_CANCEL_DELEGATE = "IslandMediator:CHEATER_TAVERN_CANCEL_D
 var_0_0.CHEATER_TAVERN_START_SOLO_GAME = "IslandMediator:CHEATER_TAVERN_START_SOLO_GAME"
 var_0_0.CHEATER_TAVERN_END_SOLO_GAME = "IslandMediator:CHEATER_TAVERN_END_SOLO_GAME"
 var_0_0.SHOW_MSG_BOX = "IslandMediator:SHOW_MSG_BOX"
+var_0_0.OPEN_MACHA_MODEL_PREVIEW = "IslandMediator:OPEN_MACHA_MODEL_PREVIEW"
+var_0_0.SKIP_MAP = "IslandMediator:SKIP_MAP"
 
 function var_0_0._register(arg_1_0)
 	arg_1_0:bind(var_0_0.RESET_SHIP_ORDER, function(arg_2_0)
@@ -779,7 +781,9 @@ function var_0_0._listNotificationInterests(arg_104_0)
 		GAME.PLAY_ROOM_MATCH_REDAY_ROOM_REFRESH,
 		GAME.ISLAND_CHEATER_DELEGATE_NOTIFY,
 		CheaterTavernEvent.CLOSE_SHIP_SELECT_PAGE,
-		IslandProxy.PRESS_BACK
+		IslandProxy.PRESS_BACK,
+		var_0_0.OPEN_MACHA_MODEL_PREVIEW,
+		var_0_0.SKIP_MAP
 	}
 end
 
@@ -789,6 +793,10 @@ function var_0_0._handleNotification(arg_105_0, arg_105_1)
 
 	if var_105_0 == GAME.ISLAND_PROSPERITY_AWARD_DONE or var_105_0 == GAME.ISLAND_CONVERT_SEASON_PT_DONE or var_105_0 == GAME.ISLAND_GET_SEASON_PT_AWARD_DONE or var_105_0 == GAME.ISLAND_GET_ACHV_AWARD_DONE or var_105_0 == GAME.ISLAND_FINISH_TECH_DONE or var_105_0 == GAME.ISLAND_FINISH_TECH_IMMD_DONE or var_105_0 == GAME.ISLAND_SUBMIT_TASK_ONE_STEP_DONE or var_105_0 == GAME.SUBMIT_ACTIVITY_TASK_IN_ISLAND_DONE or var_105_0 == GAME.ISLAND_GET_POINT_AWARD_DONE or var_105_0 == GAME.ISLAND_UNLOCK_ILLUSTRATION_DONE or var_105_0 == GAME.ISLAND_EXCHANGE_ITEM_DONE or var_105_0 == GAME.ISLAND_SHIP_ORDER_OP_DONE or var_105_0 == GAME.ISLAND_GET_DELEGATION_AWARD_DONE or var_105_0 == GAME.ISLAND_GET_NPC_ACTION_AWARD_DONE then
 		arg_105_0.viewComponent:HandleAwardDisplay(var_105_1.dropData, var_105_1.callback)
+	elseif var_105_0 == var_0_0.OPEN_MACHA_MODEL_PREVIEW then
+		arg_105_0.viewComponent:OpenPage(IslandMechaModelPreviewPage)
+	elseif var_105_0 == var_0_0.SKIP_MAP then
+		arg_105_0.viewComponent:emit(IslandBaseMediator.SWITCH_MAP, var_105_1.mapId)
 	elseif var_105_0 == GAME.ISLAND_INVITE_SHIP_DONE then
 		arg_105_0:HandleShipDisplay(var_105_1.ship)
 	elseif var_105_0 == GAME.ISLAND_TAKE_AUTO_COLLECTION_DONE then

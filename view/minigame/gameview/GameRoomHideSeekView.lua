@@ -1473,7 +1473,7 @@ function var_0_0.initUI(arg_57_0)
 	onButton(arg_57_0, findTF(arg_57_0.menuUI, "btnRule"), function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.five_duomaomao.tip
+			helps = arg_57_0:getGameRoomData().game_help
 		})
 	end, SFX_CANCEL)
 	onButton(arg_57_0, findTF(arg_57_0.menuUI, "btnStart"), function()

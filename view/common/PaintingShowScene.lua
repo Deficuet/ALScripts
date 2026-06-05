@@ -47,7 +47,6 @@ function var_0_0.didEnter(arg_2_0)
 	arg_2_0.paintTf = findTF(arg_2_0.ad, "paint")
 	arg_2_0.spineContainer = findTF(arg_2_0.ad, "paint/spinePainting")
 	arg_2_0.l2dContainner = findTF(arg_2_0.ad, "paint/live2d")
-	arg_2_0.paintingContainer = findTF(arg_2_0.ad, "paint")
 	arg_2_0.paintingFitter = findTF(arg_2_0.ad, "paint/fitter")
 	arg_2_0.effectContainer = findTF(arg_2_0.ad, "paint/effect")
 	arg_2_0.flushAnimator = GetComponent(findTF(arg_2_0.ad, "flush"), typeof(Animator))
@@ -56,6 +55,10 @@ function var_0_0.didEnter(arg_2_0)
 	arg_2_0.btnDebug = findTF(arg_2_0.ad, "btnDebug")
 	arg_2_0.effectTf = findTF(arg_2_0.ad, "effect")
 
+	print("init tf pos = " .. arg_2_0._tf.anchoredPosition.x .. "," .. arg_2_0._tf.anchoredPosition.y)
+	print("init ad pos = " .. arg_2_0.ad.anchoredPosition.x .. "," .. arg_2_0.ad.anchoredPosition.y)
+	print("init painting pos = " .. arg_2_0.paintTf.anchoredPosition.x .. "," .. arg_2_0.paintTf.anchoredPosition.y)
+	print("init l2dContainner pos = " .. arg_2_0.l2dContainner.anchoredPosition.x .. "," .. arg_2_0.l2dContainner.anchoredPosition.y)
 	onButton(arg_2_0, arg_2_0.btnClose, function()
 		if not arg_2_0.loading then
 			arg_2_0:closeView()
@@ -70,6 +73,13 @@ function var_0_0.didEnter(arg_2_0)
 			if not isActive(arg_2_0.paintTf) then
 				SetActive(arg_2_0.paintTf, true)
 			end
+
+			print("set tf pos = " .. arg_2_0._tf.anchoredPosition.x .. "," .. arg_2_0._tf.anchoredPosition.y)
+			print("set ad pos = " .. arg_2_0.ad.anchoredPosition.x .. "," .. arg_2_0.ad.anchoredPosition.y)
+			print("set painting pos = " .. arg_2_0.paintTf.anchoredPosition.x .. "," .. arg_2_0.paintTf.anchoredPosition.y)
+			print("set l2dContainner pos = " .. arg_2_0.l2dContainner.anchoredPosition.x .. "," .. arg_2_0.l2dContainner.anchoredPosition.y)
+			print("set painting pos = " .. arg_2_0.triggerData.pos.x .. "," .. arg_2_0.triggerData.pos.y)
+			print("set painting scale = " .. arg_2_0.triggerData.scale)
 
 			arg_2_0.paintTf.anchoredPosition = arg_2_0.triggerData.pos
 			arg_2_0.paintTf.localScale = Vector3(arg_2_0.triggerData.scale, arg_2_0.triggerData.scale, arg_2_0.triggerData.scale)
@@ -172,7 +182,7 @@ function var_0_0.movePaint(arg_12_0, arg_12_1)
 	local var_12_1 = arg_12_0.triggerData.move_time
 
 	if var_12_0 and var_12_1 then
-		LeanTween.moveLocal(go(arg_12_0.paintingContainer), var_12_0, var_12_1):setOnComplete(System.Action(function()
+		LeanTween.moveLocal(go(arg_12_0.paintTf), var_12_0, var_12_1):setOnComplete(System.Action(function()
 			if arg_12_1 then
 				arg_12_1()
 			end
@@ -234,7 +244,7 @@ function var_0_0.loadShowPaint(arg_14_0, arg_14_1, arg_14_2, arg_14_3)
 
 		local var_14_5 = var_14_0:getPainting()
 
-		LoadPaintingPrefabAsync(arg_14_0.paintingContainer, var_14_5, var_14_5, "mainNormal", function(arg_17_0)
+		LoadPaintingPrefabAsync(arg_14_0.paintTf, var_14_5, var_14_5, "mainNormal", function(arg_17_0)
 			arg_14_0.loading = false
 
 			local var_17_0 = findTF(arg_17_0, "shop_hx")
@@ -249,6 +259,9 @@ function var_0_0.loadShowPaint(arg_14_0, arg_14_1, arg_14_2, arg_14_3)
 		if not isActive(arg_14_0.paintTf) then
 			SetActive(arg_14_0.paintTf, true)
 		end
+
+		print("set l2d painting pos = " .. arg_14_0.paintTf.anchoredPosition.x .. "," .. arg_14_0.paintTf.anchoredPosition.y)
+		print("set l2d l2dContainner pos = " .. arg_14_0.l2dContainner.anchoredPosition.x .. "," .. arg_14_0.l2dContainner.anchoredPosition.y)
 
 		local var_14_6 = Live2DPainting.GenerateData({
 			ship = var_14_0,
@@ -274,7 +287,7 @@ function var_0_0.loadShowPaint(arg_14_0, arg_14_1, arg_14_2, arg_14_3)
 
 		local var_14_7 = var_14_0:getPainting()
 
-		LoadPaintingPrefabAsync(arg_14_0.paintingContainer, var_14_7, var_14_7, "mainNormal", function()
+		LoadPaintingPrefabAsync(arg_14_0.paintTf, var_14_7, var_14_7, "mainNormal", function()
 			arg_14_0.loading = false
 		end)
 	end
@@ -331,8 +344,8 @@ function var_0_0.willExit(arg_25_0)
 	arg_25_0.flushEevent:SetTriggerEvent(nil)
 	arg_25_0.flushEevent:SetEndEvent(nil)
 
-	if LeanTween.isTweening(go(arg_25_0.paintingContainer)) then
-		LeanTween.cancel(go(arg_25_0.paintingContainer))
+	if LeanTween.isTweening(go(arg_25_0.paintTf)) then
+		LeanTween.cancel(go(arg_25_0.paintTf))
 	end
 
 	if arg_25_0.live2dChar then

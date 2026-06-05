@@ -266,7 +266,7 @@ function var_0_0.GetEnergyMaxTime(arg_24_0)
 	local var_24_1 = arg_24_0.maxEnerey - arg_24_0:GetCurrentEnergyDecimal()
 	local var_24_2 = arg_24_0:GetVaildStatusByType(IslandBuffType.SHIP_POWER_RECOVER)
 	local var_24_3 = arg_24_0:GetSkillAddRecoverSpeed()
-	local var_24_4 = var_24_3 > 0 and arg_24_0.recoverSpeed / (1 + var_24_3 * 0.01) or arg_24_0.recoverSpeed
+	local var_24_4 = arg_24_0.recoverSpeed / (1 + var_24_3 * 0.01)
 
 	if #var_24_2 == 0 then
 		return var_24_0 + math.floor(var_24_1 * var_24_4)

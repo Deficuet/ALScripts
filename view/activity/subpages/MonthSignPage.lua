@@ -16,6 +16,8 @@ function var_0_0.OnInit(arg_1_0)
 
 		arg_1_0.monthSignReSignUI:ActionInvoke("setAwardShow", arg_2_1, arg_2_2)
 	end)
+	setText(arg_1_0._tf:Find("login/Text"), i18n("yearly_sign_in"))
+	setText(arg_1_0._tf:Find("login/count/Text"), i18n("word_date"))
 end
 
 function var_0_0.OnDataSetting(arg_3_0)
@@ -37,8 +39,6 @@ function var_0_0.OnDataSetting(arg_3_0)
 end
 
 function var_0_0.OnFirstFlush(arg_4_0)
-	local var_4_0 = pg.TimeMgr.GetInstance():GetServerTime()
-
 	arg_4_0.list = UIItemList.New(arg_4_0.items, arg_4_0.item)
 
 	arg_4_0.list:make(function(arg_5_0, arg_5_1, arg_5_2)
@@ -75,6 +75,7 @@ function var_0_0.OnFirstFlush(arg_4_0)
 			end
 		end
 	end)
+	arg_4_0:UpdateLoginInfo()
 end
 
 function var_0_0.OnUpdateFlush(arg_8_0)
@@ -139,6 +140,20 @@ end
 function var_0_0.isDirtyRes(arg_12_0)
 	if arg_12_0.specialTag and arg_12_0:getUIName() ~= arg_12_0.activity:getConfig("page_info").ui_name2 then
 		return true
+	end
+end
+
+function var_0_0.UpdateLoginInfo(arg_13_0)
+	local var_13_0 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOGIN_RECORD)
+	local var_13_1 = arg_13_0._tf:Find("login")
+
+	setActive(var_13_1, var_13_0 and not var_13_0:isEnd())
+
+	if var_13_0 and not var_13_0:isEnd() then
+		local var_13_2, var_13_3, var_13_4 = unpack(var_13_0:getConfig("time"))
+
+		setText(var_13_1:Find("month"), string.format("%02d/%02d/%02d-%02d/%02d/%02d", var_13_3[1][1] % 100, var_13_3[1][2], var_13_3[1][3], var_13_4[1][1] % 100, var_13_4[1][2], var_13_4[1][3]))
+		setText(var_13_1:Find("count/day"), var_13_0:getData1())
 	end
 end
 

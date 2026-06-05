@@ -288,12 +288,14 @@ end
 function var_0_0.OnShow(arg_29_0, arg_29_1)
 	arg_29_0:BlurPanel()
 
+	arg_29_0.showType = arg_29_1.showType or IslandSelectShipCard.SHOW_TYPE.PLACE
 	arg_29_0.selectNum = arg_29_1.selectNum or 1
 	arg_29_0.selectedIds = arg_29_1.selectedIds or {}
 	arg_29_0.attrType = arg_29_1.attrType
 	arg_29_0.confirmFunc = arg_29_1.confirmFunc
 	arg_29_0.cancelFunc = arg_29_1.cancelFunc
 	arg_29_0.placeId = arg_29_1.placeId
+	arg_29_0.restId = arg_29_1.restId
 	arg_29_0.showBenefits = arg_29_1.showBenefits
 	arg_29_0.needWorkSpeed = arg_29_1.needWorkSpeed or false
 	arg_29_0.autoCollectionSelectShip = arg_29_1.autoCollectionSelectShip
@@ -397,7 +399,12 @@ function var_0_0.OnUpdateShip(arg_32_0, arg_32_1, arg_32_2)
 
 		arg_32_0:FlushInfo()
 	end, SFX_PANEL)
-	var_32_0:Update(var_32_1, arg_32_0.attrType, arg_32_0.placeId, arg_32_0.selectedIds, arg_32_0.autoCollectionSelectShip)
+
+	if arg_32_0.showType == IslandSelectShipCard.SHOW_TYPE.PLACE then
+		var_32_0:Update(arg_32_0.showType, var_32_1, arg_32_0.attrType, arg_32_0.placeId, arg_32_0.selectedIds, arg_32_0.autoCollectionSelectShip)
+	elseif arg_32_0.showType == IslandSelectShipCard.SHOW_TYPE.RESTAURANT then
+		var_32_0:Update(arg_32_0.showType, var_32_1, arg_32_0.attrType, arg_32_0.restId, arg_32_0.selectedIds, arg_32_0.autoCollectionSelectShip)
+	end
 end
 
 function var_0_0.FlushShips(arg_35_0, arg_35_1)
@@ -502,10 +509,11 @@ function var_0_0.FlushInfo(arg_39_0)
 	setActive(arg_39_0.skillEmp, not var_39_6)
 	setText(arg_39_0.skillEmpDes, i18n("island_need_star", var_39_0:GetSkillUnlockLevel()))
 
-	local var_39_7 = var_39_5:IsEffectiveInPlace(arg_39_0.placeId)
+	local var_39_7 = arg_39_0.showType == IslandSelectShipCard.SHOW_TYPE.PLACE and arg_39_0.placeId or arg_39_0.restId
+	local var_39_8 = var_39_6 and IslandSelectShipCard.GetSkillEffective(var_39_0, arg_39_0.showType, var_39_7)
 
-	setActive(arg_39_0.skillInuse, var_39_7)
-	setActive(arg_39_0.skillUnuse, not var_39_7)
+	setActive(arg_39_0.skillInuse, var_39_8)
+	setActive(arg_39_0.skillUnuse, not var_39_8)
 
 	arg_39_0.skillName.text = string.format("%s - %s", var_39_5:GetName(), "[Lv." .. var_39_5:GetLevel() .. "]")
 	arg_39_0.skillDes.text = var_39_5:GetEffectDesc()

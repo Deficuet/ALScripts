@@ -215,11 +215,12 @@ function var_0_9.UpdateHP(arg_22_0, arg_22_1, arg_22_2)
 	local var_22_9 = arg_22_2.incorrupt
 	local var_22_10 = arg_22_2.isReflect
 	local var_22_11 = arg_22_2.spectreBullet
-	local var_22_12
+	local var_22_12 = arg_22_2.ignoreInvincible
 	local var_22_13
+	local var_22_14
 
 	if not var_22_3 then
-		var_22_13 = {
+		var_22_14 = {
 			damage = -arg_22_1,
 			isShare = var_22_4,
 			miss = var_22_1,
@@ -231,64 +232,64 @@ function var_0_9.UpdateHP(arg_22_0, arg_22_1, arg_22_2)
 		}
 
 		if not var_22_4 then
-			arg_22_0:TriggerBuff(var_0_3.BuffEffectType.ON_BEFORE_TAKE_DAMAGE, var_22_13)
+			arg_22_0:TriggerBuff(var_0_3.BuffEffectType.ON_BEFORE_TAKE_DAMAGE, var_22_14)
 
-			if var_22_13.capFlag then
-				arg_22_0:TriggerBuff(var_0_3.BuffEffectType.ON_DAMAGE_FIX, var_22_13)
+			if var_22_14.capFlag then
+				arg_22_0:TriggerBuff(var_0_3.BuffEffectType.ON_DAMAGE_FIX, var_22_14)
 			end
 		end
 
-		var_22_12 = -var_22_13.damage
+		var_22_13 = -var_22_14.damage
 
-		arg_22_0:TriggerBuff(var_0_3.BuffEffectType.ON_TAKE_DAMAGE, var_22_13)
+		arg_22_0:TriggerBuff(var_0_3.BuffEffectType.ON_TAKE_DAMAGE, var_22_14)
 
-		if arg_22_0._currentHP <= var_22_13.damage then
+		if arg_22_0._currentHP <= var_22_14.damage then
 			arg_22_0:TriggerBuff(var_0_3.BuffEffectType.ON_BEFORE_FATAL_DAMAGE, {})
 		end
 
-		arg_22_1 = -var_22_13.damage
+		arg_22_1 = -var_22_14.damage
 
-		if var_22_12 ~= arg_22_1 then
-			({}).absorb = var_22_12 - arg_22_1
+		if var_22_13 ~= arg_22_1 then
+			({}).absorb = var_22_13 - arg_22_1
 
-			arg_22_0:TriggerBuff(var_0_3.BuffEffectType.ON_SHIELD_ABSORB, var_22_13)
+			arg_22_0:TriggerBuff(var_0_3.BuffEffectType.ON_SHIELD_ABSORB, var_22_14)
 		end
 
-		if var_0_6.IsInvincible(arg_22_0) then
+		if var_0_6.IsInvincible(arg_22_0) and not var_22_12 then
 			return 0
 		end
 	else
-		var_22_12 = arg_22_1
+		var_22_13 = arg_22_1
 
-		local var_22_14 = {
+		local var_22_15 = {
 			damage = arg_22_1,
 			isHeal = var_22_3,
 			incorrupt = var_22_9
 		}
 
-		arg_22_0:TriggerBuff(var_0_3.BuffEffectType.ON_TAKE_HEALING, var_22_14)
+		arg_22_0:TriggerBuff(var_0_3.BuffEffectType.ON_TAKE_HEALING, var_22_15)
 
-		var_22_3 = var_22_14.isHeal
-		arg_22_1 = var_22_14.damage
+		var_22_3 = var_22_15.isHeal
+		arg_22_1 = var_22_15.damage
 
-		local var_22_15 = math.max(0, arg_22_0._currentHP + arg_22_1 - arg_22_0:GetMaxHP())
+		local var_22_16 = math.max(0, arg_22_0._currentHP + arg_22_1 - arg_22_0:GetMaxHP())
 
-		if var_22_15 > 0 then
+		if var_22_16 > 0 then
 			arg_22_0:TriggerBuff(var_0_3.BuffEffectType.ON_OVER_HEALING, {
-				overHealing = var_22_15
+				overHealing = var_22_16
 			})
 		end
 	end
 
-	local var_22_16 = math.min(arg_22_0:GetMaxHP(), math.max(0, arg_22_0._currentHP + arg_22_1))
-	local var_22_17 = var_22_16 - arg_22_0._currentHP
+	local var_22_17 = math.min(arg_22_0:GetMaxHP(), math.max(0, arg_22_0._currentHP + arg_22_1))
+	local var_22_18 = var_22_17 - arg_22_0._currentHP
 
-	arg_22_0:SetCurrentHP(var_22_16)
+	arg_22_0:SetCurrentHP(var_22_17)
 
-	local var_22_18 = {
-		preShieldHP = var_22_12,
+	local var_22_19 = {
+		preShieldHP = var_22_13,
 		dHP = arg_22_1,
-		validDHP = var_22_17,
+		validDHP = var_22_18,
 		isMiss = var_22_1,
 		isCri = var_22_2,
 		isHeal = var_22_3,
@@ -296,24 +297,24 @@ function var_0_9.UpdateHP(arg_22_0, arg_22_1, arg_22_2)
 	}
 
 	if not var_22_3 then
-		var_22_13.validDHP = var_22_17
+		var_22_14.validDHP = var_22_18
 
-		arg_22_0:TriggerBuff(var_0_3.BuffEffectType.ON_DAMAGE_CONCLUDE, var_22_13)
+		arg_22_0:TriggerBuff(var_0_3.BuffEffectType.ON_DAMAGE_CONCLUDE, var_22_14)
 	end
 
 	if var_22_8 and not var_22_8:EqualZero() then
-		local var_22_19 = arg_22_0:GetPosition()
-		local var_22_20 = arg_22_0:GetBoxSize().x
-		local var_22_21 = var_22_19.x - var_22_20
-		local var_22_22 = var_22_19.x + var_22_20
-		local var_22_23 = var_22_8:Clone()
+		local var_22_20 = arg_22_0:GetPosition()
+		local var_22_21 = arg_22_0:GetBoxSize().x
+		local var_22_22 = var_22_20.x - var_22_21
+		local var_22_23 = var_22_20.x + var_22_21
+		local var_22_24 = var_22_8:Clone()
 
-		var_22_23.x = Mathf.Clamp(var_22_23.x, var_22_21, var_22_22)
-		var_22_18.posOffset = var_22_19 - var_22_23
+		var_22_24.x = Mathf.Clamp(var_22_24.x, var_22_22, var_22_23)
+		var_22_19.posOffset = var_22_20 - var_22_24
 	end
 
 	if not var_22_11 then
-		arg_22_0:UpdateHPAction(var_22_18)
+		arg_22_0:UpdateHPAction(var_22_19)
 	end
 
 	if not arg_22_0:IsAlive() and var_22_0 then
@@ -326,7 +327,7 @@ function var_0_9.UpdateHP(arg_22_0, arg_22_1, arg_22_2)
 		arg_22_0:TriggerBuff(var_0_3.BuffEffectType.ON_HP_RATIO_UPDATE, {
 			dHP = arg_22_1,
 			unit = arg_22_0,
-			validDHP = var_22_17
+			validDHP = var_22_18
 		})
 	end
 

@@ -50,7 +50,9 @@ function var_0_0.init(arg_2_0, ...)
 
 							var_2_0 = var_3_0.id
 
-							if arg_2_0:GetActivityClassName(var_3_0) == "AnniversaryNineHwahJahSkinPage" then
+							local var_5_0 = arg_2_0:GetActivityClassName(var_3_0)
+
+							if var_5_0 == "AnniversaryNineHwahJahSkinPage" or var_5_0 == "AnniversaryNineEvertsenSkinPage" then
 								arg_2_0:SetColorTab(var_0_1)
 							else
 								arg_2_0:SetColorTab(var_0_2)

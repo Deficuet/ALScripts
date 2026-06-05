@@ -345,7 +345,7 @@ return {
 		end
 	},
 	{
-		banner = "970112",
+		banner = "meta_entrance_970112",
 		event = ActivityMediator.EVENT_GO_SCENE,
 		data = {
 			SCENE.METACHARACTER,

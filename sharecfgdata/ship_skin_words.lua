@@ -28660,7 +28660,7 @@ end)()
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		voice_key = 0,
+		voice_key = -1,
 		gift_prefer = "",
 		hp_warning = "",
 		id = 204035,

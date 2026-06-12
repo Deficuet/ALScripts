@@ -51,8 +51,8 @@ function var_0_0.InitPainting(arg_8_0, arg_8_1, arg_8_2)
 	if arg_8_0.dormVO.food == 0 then
 		setText(arg_8_0.emptyTF, i18n("backyard_backyardGranaryLayer_noFood"))
 	else
-		local var_8_0 = pg.TimeMgr.GetInstance():GetServerTime() - arg_8_0.dormVO.load_time
-		local var_8_1 = i18n("backyard_addExp_Info", pg.TimeMgr.GetInstance():DescCDTime(var_8_0), arg_8_0.dormVO.load_food, arg_8_2)
+		local var_8_0 = pg.TimeMgr.GetInstance():GetServerTime() - (arg_8_0.contextData.time or 0)
+		local var_8_1 = i18n("backyard_addExp_Info", pg.TimeMgr.GetInstance():DescCDTime(var_8_0), arg_8_0.contextData.food or 0, arg_8_2)
 		local var_8_2 = string.split(var_8_1, "||")
 
 		assert(#var_8_2 > 0, "gametip ==> backyard_addExp_Info 必须用||分开")
@@ -94,7 +94,7 @@ function var_0_0.UpdateShips(arg_9_0)
 
 	arg_9_0.uilist:align(#var_9_0)
 
-	local var_9_3 = arg_9_0.dormVO.load_exp
+	local var_9_3 = arg_9_0.contextData.exp or 0
 	local var_9_4 = {}
 
 	for iter_9_2, iter_9_3 in pairs(arg_9_0.cards) do

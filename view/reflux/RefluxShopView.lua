@@ -76,12 +76,10 @@ function var_0_0.initUI(arg_6_0)
 	arg_6_0.packTimerList = {}
 	arg_6_0.packNextTimerList = {}
 
-	local var_6_1 = GetComponent(arg_6_0._tf, "ItemList").prefabItem[0]
-	local var_6_2 = tf(Instantiate(var_6_1))
+	local var_6_1 = arg_6_0.itemTpl:Find("CommonItemTemplate")
 
-	setActive(var_6_2:Find("icon_bg/count"), true)
-	setParent(var_6_2, arg_6_0.itemTpl)
-	setLocalScale(var_6_2, {
+	setActive(var_6_1:Find("icon_bg/count"), true)
+	setLocalScale(var_6_1, {
 		x = 0.45,
 		y = 0.45
 	})
@@ -145,28 +143,14 @@ function var_0_0.updateItem(arg_11_0, arg_11_1, arg_11_2)
 	local var_11_5 = arg_11_2.count or arg_11_2[3]
 
 	setText(var_11_2, var_11_5)
-
-	if var_11_3 ~= DROP_TYPE_SHIP then
-		setImageSprite(var_11_1, LoadSprite(Drop.New({
-			type = var_11_3,
-			id = var_11_4
-		}):getIcon()))
-	else
-		local var_11_6 = Ship.New({
-			configId = var_11_4
-		}):getPainting()
-
-		setImageSprite(var_11_1, LoadSprite("QIcon/" .. var_11_6))
-	end
-
 	setActive(var_11_0, false)
 	setActive(var_11_1, false)
 	setActive(var_11_2, false)
 
-	local var_11_7 = findTF(arg_11_1, "CommonItemTemplate(Clone)")
+	local var_11_6 = findTF(arg_11_1, "CommonItemTemplate")
 
-	setActive(var_11_7, true)
-	updateDrop(var_11_7, {
+	setActive(var_11_6, true)
+	updateDrop(var_11_6, {
 		type = var_11_3,
 		id = var_11_4,
 		count = var_11_5

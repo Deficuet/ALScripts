@@ -17,16 +17,20 @@ function var_0_0.OnClick(arg_4_0)
 end
 
 function var_0_0.OnRegister(arg_5_0)
-	arg_5_0.redDot = EffectRedDotNode.New(arg_5_0._tf, {
-		pg.RedDotMgr.TYPES.ACT_RETURN
-	})
+	arg_5_0.redDotUI = arg_5_0._tf:Find("tip")
 
-	pg.redDotHelper:AddNode(arg_5_0.redDot)
+	pg.EasyRedDotMgr.GetInstance():RegisterRedDot(arg_5_0.redDotUI, {
+		"ACT_RETURN"
+	}, function(arg_6_0)
+		setActive(arg_6_0, RefluxTaskView.isAnyTaskCanGetAward() or RefluxPTView.isAnyPTCanGetAward() or RefluxShopView.isShowRedPot())
+	end)
 end
 
-function var_0_0.OnClear(arg_6_0)
-	if arg_6_0.redDot then
-		pg.redDotHelper:RemoveNode(arg_6_0.redDot)
+function var_0_0.OnClear(arg_7_0)
+	if arg_7_0.redDotUI then
+		pg.EasyRedDotMgr.GetInstance():UnRegisterRedDot(arg_7_0.redDotUI)
+
+		arg_7_0.redDotUI = nil
 	end
 end
 

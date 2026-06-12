@@ -256,7 +256,11 @@ var_0_0.NOT_REAR_CHAPTERS = {
 	2100328,
 	2100338,
 	2100327,
-	2100337
+	2100337,
+	2100588,
+	2100598,
+	2100587,
+	2100597
 }
 
 function var_0_0.GetRearChaptersOfRemaster(arg_29_0)

@@ -4193,6 +4193,13 @@ pg.memory_template.all = {
 	5204,
 	5211,
 	5221,
+	5231,
+	5232,
+	5233,
+	5234,
+	5235,
+	5236,
+	5237,
 	10011,
 	10012,
 	10013,
@@ -79959,6 +79966,132 @@ end)()
 			"HONGSHULINDESHOUHUJINGLING1"
 		}
 	}
+	pg.base.memory_template[5231] = {
+		ship_group = 0,
+		subtitle = "",
+		story = "LAFEIER1",
+		type = 1,
+		mask = "bg/bg_memory",
+		title = "画不出的神韵",
+		condition = "解锁「心之所绘」任务1",
+		number = 0,
+		task = 500251,
+		year = 0,
+		id = 5231,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"LAFEIER1"
+		}
+	}
+	pg.base.memory_template[5232] = {
+		ship_group = 0,
+		subtitle = "",
+		story = "LAFEIER2",
+		type = 1,
+		mask = "bg/bg_memory",
+		title = "最不可或缺之物",
+		condition = "解锁「心之所绘」任务2",
+		number = 0,
+		task = 500252,
+		year = 0,
+		id = 5232,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"LAFEIER2"
+		}
+	}
+	pg.base.memory_template[5233] = {
+		ship_group = 0,
+		subtitle = "",
+		story = "LAFEIER3",
+		type = 1,
+		mask = "bg/bg_memory",
+		title = "莫非是间接接吻？",
+		condition = "解锁「心之所绘」任务3",
+		number = 0,
+		task = 500253,
+		year = 0,
+		id = 5233,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"LAFEIER3"
+		}
+	}
+	pg.base.memory_template[5234] = {
+		ship_group = 0,
+		subtitle = "",
+		story = "LAFEIER4",
+		type = 1,
+		mask = "bg/bg_memory",
+		title = "不同寻常的风景",
+		condition = "解锁「心之所绘」任务4",
+		number = 0,
+		task = 500254,
+		year = 0,
+		id = 5234,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"LAFEIER4"
+		}
+	}
+	pg.base.memory_template[5235] = {
+		ship_group = 0,
+		subtitle = "",
+		story = "LAFEIER5",
+		type = 1,
+		mask = "bg/bg_memory",
+		title = "寻找“咚”的旅程",
+		condition = "解锁「心之所绘」任务5",
+		number = 0,
+		task = 500255,
+		year = 0,
+		id = 5235,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"LAFEIER5"
+		}
+	}
+	pg.base.memory_template[5236] = {
+		ship_group = 0,
+		subtitle = "",
+		story = "LAFEIER6",
+		type = 1,
+		mask = "bg/bg_memory",
+		title = "寻找自然的姿态",
+		condition = "解锁「心之所绘」任务6",
+		number = 0,
+		task = 500256,
+		year = 0,
+		id = 5236,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"LAFEIER6"
+		}
+	}
+	pg.base.memory_template[5237] = {
+		ship_group = 0,
+		subtitle = "",
+		story = "LAFEIER7",
+		type = 1,
+		mask = "bg/bg_memory",
+		title = "只要尽情地抒发",
+		condition = "解锁「心之所绘」任务7",
+		number = 0,
+		task = 500257,
+		year = 0,
+		id = 5237,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"LAFEIER7"
+		}
+	}
 	pg.base.memory_template[10011] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80031,6 +80164,8 @@ end)()
 			"CHANGDAO4"
 		}
 	}
+end)()
+;(function()
 	pg.base.memory_template[10015] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80157,8 +80292,6 @@ end)()
 			"TEACHER3"
 		}
 	}
-end)()
-;(function()
 	pg.base.memory_template[10032] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81833,6 +81966,8 @@ end)()
 			"LINGHANGYUANHAOGANDU3"
 		}
 	}
+end)()
+;(function()
 	pg.base.memory_template[20047] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81959,8 +82094,6 @@ end)()
 			"LINGHANGYUANTANXIN2"
 		}
 	}
-end)()
-;(function()
 	pg.base.memory_template[20054] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83635,6 +83768,8 @@ end)()
 			"LINGYANGZHELAIFANGJISHI10"
 		}
 	}
+end)()
+;(function()
 	pg.base.memory_template[20148] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83761,8 +83896,6 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA5"
 		}
 	}
-end)()
-;(function()
 	pg.base.memory_template[20155] = {
 		ship_group = 0,
 		subtitle = "",

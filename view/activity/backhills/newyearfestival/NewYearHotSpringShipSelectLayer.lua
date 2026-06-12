@@ -93,11 +93,12 @@ function var_0_0.AddCard(arg_9_0, arg_9_1, arg_9_2, arg_9_3)
 
 		local var_9_4 = arg_9_3:getRecoverEnergyPoint() + arg_9_0.activity:GetEnergyRecoverAddition()
 		local var_9_5 = 0
+		local var_9_6, var_9_7 = getProxy(DormProxy):getRawData():InBackYard(arg_9_3.id)
 
-		if arg_9_3.state == Ship.STATE_REST or arg_9_3.state == Ship.STATE_TRAIN then
-			if arg_9_3.state == Ship.STATE_TRAIN then
+		if var_9_6 then
+			if var_9_7 == DormShip.FLOOR_1 then
 				var_9_4 = var_9_4 + Ship.BACKYARD_1F_ENERGY_ADDITION
-			elseif arg_9_3.state == Ship.STATE_REST then
+			elseif var_9_7 == DormShip.FLOOR_2 then
 				var_9_4 = var_9_4 + Ship.BACKYARD_2F_ENERGY_ADDITION
 			end
 
@@ -129,19 +130,19 @@ function var_0_0.AddCard(arg_9_0, arg_9_1, arg_9_2, arg_9_3)
 	else
 		var_9_0 = cloneTplTo(arg_9_0.extendShipTpl, arg_9_0.cardContainer)
 
-		local var_9_6 = var_9_0:Find("content")
+		local var_9_8 = var_9_0:Find("content")
 
-		setActive(var_9_6:Find("label/add"), arg_9_2 == 0)
-		setActive(var_9_6:Find("label/unlock"), arg_9_2 == 1)
-		setActive(var_9_6:Find("label/lock"), arg_9_2 == 2)
-		setActive(var_9_6:Find("mask"), arg_9_2 == 2)
+		setActive(var_9_8:Find("label/add"), arg_9_2 == 0)
+		setActive(var_9_8:Find("label/unlock"), arg_9_2 == 1)
+		setActive(var_9_8:Find("label/lock"), arg_9_2 == 2)
+		setActive(var_9_8:Find("mask"), arg_9_2 == 2)
 
 		if arg_9_2 == 0 then
-			onButton(arg_9_0, var_9_6, function()
+			onButton(arg_9_0, var_9_8, function()
 				arg_9_0:emit(NewYearHotSpringShipSelectMediator.OPEN_CHUANWU, arg_9_1)
 			end, SFX_PANEL)
 		elseif arg_9_2 == 1 then
-			onButton(arg_9_0, var_9_6, function()
+			onButton(arg_9_0, var_9_8, function()
 				arg_9_0:emit(NewYearHotSpringShipSelectMediator.EXTEND, arg_9_1)
 			end, SFX_PANEL)
 		elseif arg_9_2 == 2 then

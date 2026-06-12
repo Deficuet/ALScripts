@@ -53,7 +53,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 				var_2_0:AddRefreshTimer()
 				arg_1_0:sendNotification(GAME.FEAST_OP_DONE, {
 					cmd = FeastDorm.OP_RANDOM_SHIPS,
-					ships = var_2_1:GetPutShipList(),
+					ships = var_2_1:GetBayShipOnFloor(),
 					awards = {}
 				})
 			else

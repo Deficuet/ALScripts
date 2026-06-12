@@ -132,34 +132,37 @@ function var_0_0.recoverAllShipEnergy(arg_7_0)
 		end
 	end)
 
-	for iter_7_0, iter_7_1 in pairs(arg_7_0.data) do
-		local var_7_4 = iter_7_1:getRecoverEnergyPoint()
-		local var_7_5 = 0
-		local var_7_6 = var_7_0
+	local var_7_4 = getProxy(DormProxy):getRawData()
 
-		if iter_7_1.state == Ship.STATE_REST or iter_7_1.state == Ship.STATE_TRAIN then
-			if iter_7_1.state == Ship.STATE_TRAIN then
-				var_7_5 = var_7_5 + Ship.BACKYARD_1F_ENERGY_ADDITION
-			elseif iter_7_1.state == Ship.STATE_REST then
-				var_7_5 = var_7_5 + Ship.BACKYARD_2F_ENERGY_ADDITION
+	for iter_7_0, iter_7_1 in pairs(arg_7_0.data) do
+		local var_7_5 = iter_7_1:getRecoverEnergyPoint()
+		local var_7_6 = 0
+		local var_7_7 = var_7_0
+		local var_7_8, var_7_9 = var_7_4:InBackYard(iter_7_1.id)
+
+		if var_7_8 then
+			if var_7_9 == DormShip.FLOOR_1 then
+				var_7_6 = var_7_6 + Ship.BACKYARD_1F_ENERGY_ADDITION
+			elseif var_7_9 == DormShip.FLOOR_2 then
+				var_7_6 = var_7_6 + Ship.BACKYARD_2F_ENERGY_ADDITION
 			end
 
 			for iter_7_2, iter_7_3 in ipairs(BuffHelper.GetBackYardEnergyBuffs()) do
-				var_7_5 = var_7_5 + tonumber(iter_7_3:getConfig("benefit_effect"))
+				var_7_6 = var_7_6 + tonumber(iter_7_3:getConfig("benefit_effect"))
 			end
 
-			var_7_6 = var_7_1
+			var_7_7 = var_7_1
 		end
 
 		if var_7_2[iter_7_1.id] then
-			var_7_5 = var_7_5 + var_7_2[iter_7_1.id]
-			var_7_6 = var_7_1
+			var_7_6 = var_7_6 + var_7_2[iter_7_1.id]
+			var_7_7 = var_7_1
 		end
 
-		local var_7_7 = math.max(math.min(var_7_4, var_7_6 - iter_7_1:getEnergy()), 0)
-		local var_7_8 = math.min(iter_7_1:getEnergy() + var_7_7 + var_7_5, var_7_1)
+		local var_7_10 = math.max(math.min(var_7_5, var_7_7 - iter_7_1:getEnergy()), 0)
+		local var_7_11 = math.min(iter_7_1:getEnergy() + var_7_10 + var_7_6, var_7_1)
 
-		iter_7_1:setEnergy(var_7_8)
+		iter_7_1:setEnergy(var_7_11)
 		arg_7_0:updateShip(iter_7_1)
 	end
 end
@@ -923,6 +926,12 @@ function var_0_0.getDelegationRecommendShips(arg_70_0, arg_70_1)
 	local var_70_5 = arg_70_0:getShipsByTypes(var_70_1)
 
 	table.sort(var_70_5, function(arg_71_0, arg_71_1)
+		local var_71_0 = arg_71_0.maxLevel == arg_71_0.level
+
+		if var_71_0 ~= (arg_71_1.maxLevel == arg_71_1.level) then
+			return var_71_0
+		end
+
 		return arg_71_0.level > arg_71_1.level
 	end)
 

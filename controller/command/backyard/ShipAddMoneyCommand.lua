@@ -7,29 +7,19 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		id = var_1_0
 	}, 19014, function(arg_2_0)
 		if arg_2_0.result == 0 then
-			local var_2_0 = getProxy(BayProxy)
-			local var_2_1 = var_2_0:getShipById(var_1_0)
-			local var_2_2 = var_2_1.state_info_4
+			local var_2_0 = getProxy(BayProxy):getShipById(var_1_0)
+			local var_2_1 = getProxy(DormProxy)
+			local var_2_2 = var_2_1:getRawData()
+			local var_2_3, var_2_4 = var_2_2:HarvestInimacyAndMoney(var_1_0)
 
-			var_2_1.state_info_4 = 0
+			var_2_1:updateDrom(var_2_2, BackYardConst.DORM_UPDATE_TYPE_SHIP)
 
-			var_2_0:updateShip(var_2_1)
-
-			local var_2_3 = getProxy(PlayerProxy)
-			local var_2_4 = var_2_3:getData()
-
-			var_2_4:addResources({
-				dormMoney = var_2_2
-			})
-			var_2_3:updatePlayer(var_2_4)
-
-			if var_2_2 == 0 then
+			if var_2_3 == 0 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_getResource_emptry"))
 			else
-				pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_shipAddMoney_ok", var_2_1:getName(), var_2_2))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_shipAddMoney_ok", var_2_0:getName(), var_2_3))
 			end
 
-			getProxy(DormProxy):UpdateInimacyAndMoney()
 			arg_1_0:sendNotification(GAME.BACKYARD_ADD_MONEY_DONE, {
 				id = var_1_0
 			})

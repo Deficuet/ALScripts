@@ -2,14 +2,8 @@ local var_0_0 = class("ShipAddIntimacyAndMoneyCommand", pm.SimpleCommand)
 
 function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_0 = arg_1_1:getBody()
-	local var_1_1 = getProxy(DormProxy):getBackYardShips()
-	local var_1_2 = {}
-
-	for iter_1_0, iter_1_1 in pairs(var_1_1) do
-		if iter_1_1.state_info_3 > 0 or iter_1_1.state_info_4 > 0 then
-			table.insert(var_1_2, iter_1_0)
-		end
-	end
+	local var_1_1 = getProxy(DormProxy)
+	local var_1_2 = var_1_1:getRawData():GetHasMoneyOrIntimacyShips()
 
 	if #var_1_2 <= 0 then
 		return
@@ -20,28 +14,31 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	}, 19012, function(arg_2_0)
 		if arg_2_0.result == 0 then
 			local var_2_0 = getProxy(BayProxy)
-			local var_2_1 = {}
+			local var_2_1 = getProxy(DormProxy):getRawData()
 			local var_2_2 = {}
-			local var_2_3 = 0
+			local var_2_3 = {}
+			local var_2_4 = 0
 
 			for iter_2_0, iter_2_1 in ipairs(var_1_2) do
-				local var_2_4 = var_2_0:RawGetShipById(iter_2_1)
+				local var_2_5 = iter_2_1.id
+				local var_2_6 = var_2_0:RawGetShipById(var_2_5)
 
-				if var_2_4.state_info_3 > 0 then
-					table.insert(var_2_1, var_2_4)
+				if iter_2_1:HasIntimacy() then
+					table.insert(var_2_2, var_2_6)
 				end
 
-				if var_2_4.state_info_4 > 0 then
-					var_2_3 = var_2_3 + var_2_4.state_info_4
+				if iter_2_1:HasMoney() then
+					var_2_4 = var_2_4 + iter_2_1:GetMoney()
 
-					table.insert(var_2_2, var_2_4)
+					table.insert(var_2_3, var_2_6)
 				end
 
-				getProxy(DormProxy):clearInimacyAndMoney(iter_2_1)
+				var_2_1:HarvestInimacyAndMoney(var_2_5)
 			end
 
-			arg_1_0:ShowIntimacyTip(var_2_1)
-			arg_1_0:ShowMoneyTip(var_2_2, var_2_3)
+			var_1_1:updateDrom(var_2_1, BackYardConst.DORM_UPDATE_TYPE_SHIP)
+			arg_1_0:ShowIntimacyTip(var_2_2)
+			arg_1_0:ShowMoneyTip(var_2_3, var_2_4)
 			arg_1_0:sendNotification(GAME.BACKYARD_ONE_KEY_DONE, {
 				shipIds = var_1_2
 			})

@@ -25,16 +25,22 @@ function var_0_0.OnInit(arg_5_0)
 end
 
 function var_0_0.OnRegister(arg_6_0)
-	arg_6_0.redDot = RedDotNode.New(arg_6_0._tf:Find("tip"), {
-		pg.RedDotMgr.TYPES.ISLAND
-	})
+	arg_6_0.redDotUI = arg_6_0._tf:Find("tip")
 
-	pg.redDotHelper:AddNode(arg_6_0.redDot)
+	pg.EasyRedDotMgr.GetInstance():RegisterRedDot(arg_6_0.redDotUI, {
+		"ISLAND"
+	}, function(arg_7_0)
+		local var_7_0 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ISLAND)
+
+		setActive(arg_7_0, Activity.IsActivityReady(var_7_0))
+	end)
 end
 
-function var_0_0.OnClear(arg_7_0)
-	if arg_7_0.redDot then
-		pg.redDotHelper:RemoveNode(arg_7_0.redDot)
+function var_0_0.OnClear(arg_8_0)
+	if arg_8_0.redDotUI then
+		pg.EasyRedDotMgr.GetInstance():UnRegisterRedDot(arg_8_0.redDotUI)
+
+		arg_8_0.redDotUI = nil
 	end
 end
 

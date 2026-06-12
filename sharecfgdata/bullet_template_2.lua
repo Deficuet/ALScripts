@@ -1206,6 +1206,598 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.bullet_template_2[168295] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "deleike_qiang",
+		type = 5,
+		out_bound = 4,
+		antisub_enhancement = 0,
+		hit_fx = "jianqi_shouji_fire",
+		effect_type = 1,
+		id = 168295,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 55,
+		miss_fx = "ShellMiss",
+		pierce_count = 99,
+		ammo_type = 3,
+		alert_fx = "",
+		velocity = 22,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				2,
+				1.1
+			},
+			{
+				2,
+				1.1
+			},
+			{
+				2,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {
+			ignoreB = true,
+			ignoreShield = true,
+			lastTime = 0,
+			directHit = true,
+			shrapnel = {
+				{
+					barrage_ID = 81111,
+					bullet_ID = 168296,
+					emitterType = "BattleBulletEmitter",
+					reaim = {
+						"TargetHarmRandom"
+					}
+				},
+				FXID = ""
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[168296] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "deleike_qiang",
+		type = 5,
+		out_bound = 4,
+		antisub_enhancement = 0,
+		hit_fx = "jianqi_shouji_fire",
+		effect_type = 1,
+		id = 168296,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 60,
+		miss_fx = "ShellMiss",
+		pierce_count = 99,
+		ammo_type = 3,
+		alert_fx = "",
+		velocity = 22,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				2,
+				1.1
+			},
+			{
+				2,
+				1.1
+			},
+			{
+				2,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {
+			ignoreB = true,
+			ignoreShield = true,
+			lastTime = 0.1,
+			shrapnel = {
+				{
+					barrage_ID = 81111,
+					bullet_ID = 168297,
+					emitterType = "BattleBulletEmitter",
+					reaim = {
+						"TargetHarmRandom"
+					}
+				},
+				FXID = ""
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[168297] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "deleike_qiang",
+		type = 5,
+		out_bound = 4,
+		antisub_enhancement = 0,
+		hit_fx = "jianqi_shouji_fire",
+		effect_type = 1,
+		id = 168297,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 60,
+		miss_fx = "ShellMiss",
+		pierce_count = 99,
+		ammo_type = 3,
+		alert_fx = "",
+		velocity = 22,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				2,
+				1.1
+			},
+			{
+				2,
+				1.1
+			},
+			{
+				2,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {
+			ignoreB = true,
+			ignoreShield = true,
+			lastTime = 0.1,
+			shrapnel = {
+				{
+					barrage_ID = 81111,
+					bullet_ID = 168298,
+					emitterType = "BattleBulletEmitter",
+					reaim = {
+						"TargetHarmRandom"
+					}
+				},
+				FXID = ""
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[168298] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "deleike_qiang",
+		type = 5,
+		out_bound = 4,
+		antisub_enhancement = 0,
+		hit_fx = "jianqi_shouji_fire",
+		effect_type = 1,
+		id = 168298,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 60,
+		miss_fx = "ShellMiss",
+		pierce_count = 99,
+		ammo_type = 3,
+		alert_fx = "",
+		velocity = 22,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				2,
+				1.1
+			},
+			{
+				2,
+				1.1
+			},
+			{
+				2,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {
+			ignoreB = true,
+			ignoreShield = true,
+			lastTime = 0.1,
+			shrapnel = {
+				{
+					barrage_ID = 81111,
+					bullet_ID = 168299,
+					emitterType = "BattleBulletEmitter",
+					reaim = {
+						"TargetHarmRandom"
+					}
+				},
+				FXID = ""
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[168299] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "deleike_qiang",
+		type = 5,
+		out_bound = 4,
+		antisub_enhancement = 0,
+		hit_fx = "jianqi_shouji_fire",
+		effect_type = 1,
+		id = 168299,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 60,
+		miss_fx = "ShellMiss",
+		pierce_count = 99,
+		ammo_type = 3,
+		alert_fx = "",
+		velocity = 22,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				2,
+				1.1
+			},
+			{
+				2,
+				1.1
+			},
+			{
+				2,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {
+			ignoreB = true,
+			ignoreShield = true,
+			lastTime = 0.1,
+			shrapnel = {
+				{
+					barrage_ID = 81111,
+					bullet_ID = 168300,
+					emitterType = "BattleBulletEmitter",
+					reaim = {
+						"TargetHarmRandom"
+					}
+				},
+				FXID = ""
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[168300] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "deleike_qiang",
+		type = 1,
+		out_bound = 4,
+		antisub_enhancement = 0,
+		hit_fx = "jianqi_shouji_fire",
+		effect_type = 1,
+		id = 168300,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 60,
+		miss_fx = "ShellMiss",
+		pierce_count = 99,
+		ammo_type = 3,
+		alert_fx = "",
+		velocity = 22,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				2,
+				1.1
+			},
+			{
+				2,
+				1.1
+			},
+			{
+				2,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {
+			ignoreB = true,
+			ignoreShield = true
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[168301] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "kuasheHE",
+		type = 1,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "Clhit",
+		effect_type = 1,
+		id = 168301,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 100,
+		miss_fx = "ShellMiss",
+		pierce_count = 0,
+		ammo_type = 1,
+		alert_fx = "",
+		velocity = 15,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {
+			ignoreB = true,
+			ignoreShield = true
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[168302] = {
+		hit_sfx = "battle/torpedo-hit",
+		range_offset = 0,
+		modle_ID = "Torpedo01",
+		type = 3,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "TorpedoHit3",
+		effect_type = 1,
+		id = 168302,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 200,
+		miss_fx = "ShellMiss",
+		pierce_count = 0,
+		ammo_type = 4,
+		alert_fx = "TorAlert",
+		velocity = 4,
+		damage_type = {
+			0.8,
+			1,
+			1.3
+		},
+		DMG_font = {
+			{
+				3,
+				0.8
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.3
+			}
+		},
+		acceleration = {
+			tracker = {
+				angular = 1.4,
+				range = 12
+			}
+		},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 3
+		},
+		attach_buff = {},
+		extra_param = {
+			diveFilter = {
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[168303] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "deleike_huoyandao",
+		type = 1,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "Clhit",
+		effect_type = 1,
+		id = 168303,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 100,
+		miss_fx = "ShellMiss",
+		pierce_count = 99,
+		ammo_type = 1,
+		alert_fx = "",
+		velocity = 15,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			8,
+			1,
+			16
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {
+			ignoreB = true,
+			ignoreShield = true
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.bullet_template_2[171000] = {
 		hit_sfx = "battle/lightning-hit",
 		range_offset = 20,
@@ -3711,6 +4303,70 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[183952] = {
+		hit_sfx = "battle/hit",
+		range_offset = 20,
+		modle_ID = "kuashetuowei",
+		type = 1,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "ShellHit",
+		effect_type = 1,
+		id = 183952,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 80,
+		miss_fx = "ShellMissBig",
+		pierce_count = 1,
+		ammo_type = 3,
+		alert_fx = "AlertArea",
+		velocity = 12,
+		damage_type = {
+			1.35,
+			0.95,
+			0.7
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {
+			{
+				u = 0.01,
+				v = 0,
+				flip = false,
+				t = 0
+			}
+		},
+		cld_box = {
+			5,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {
+			ignoreShield = true
+		}
 	}
 end)()
 

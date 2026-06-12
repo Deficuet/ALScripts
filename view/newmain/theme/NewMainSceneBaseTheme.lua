@@ -18,8 +18,7 @@ function var_0_0.OnLoaded(arg_1_0)
 	arg_1_0.wordView = arg_1_0:GetWordView()
 	arg_1_0.changeView = arg_1_0:GetChangeSkinView()
 	arg_1_0.asmrChatView = arg_1_0:GetAsmrChatView()
-
-	pg.redDotHelper:Init(arg_1_0:GetRedDots())
+	arg_1_0.redDotUIList = arg_1_0:RegisterRedDots()
 end
 
 function var_0_0.Show(arg_2_0, arg_2_1)
@@ -205,7 +204,13 @@ function var_0_0.OnDestroy(arg_13_0)
 		arg_13_0.asmrChatView = nil
 	end
 
-	pg.redDotHelper:Clear()
+	local var_13_0 = pg.EasyRedDotMgr.GetInstance()
+
+	for iter_13_2, iter_13_3 in ipairs(arg_13_0.redDotUIList or {}) do
+		var_13_0:UnRegisterRedDot(iter_13_3)
+	end
+
+	arg_13_0.redDotUIList = nil
 end
 
 function var_0_0.GetPbList(arg_14_0)
@@ -286,7 +291,7 @@ function var_0_0.GetAsmrChatView(arg_30_0)
 	assert(false)
 end
 
-function var_0_0.GetRedDots(arg_31_0)
+function var_0_0.RegisterRedDots(arg_31_0)
 	return {}
 end
 

@@ -9,21 +9,29 @@ function var_0_0.canPurchase(arg_2_0)
 end
 
 function var_0_0.GetPurchasableCnt(arg_3_0)
-	return arg_3_0:GetLimitGoodCount() - arg_3_0.buyCount
+	return math.max(arg_3_0:GetLimitGoodCount() - arg_3_0:GetOwnedGoodCount(), 0)
 end
 
-function var_0_0.GetLimitGoodCount(arg_4_0)
-	local var_4_0 = arg_4_0:getConfig("limit_args")
+function var_0_0.GetOwnedGoodCount(arg_4_0)
+	return Drop.New({
+		id = arg_4_0:getConfig("commodity_id"),
+		type = arg_4_0:getConfig("commodity_type"),
+		count = arg_4_0:getConfig("num")
+	}):getOwnedCount()
+end
 
-	if type(var_4_0) == "table" then
-		for iter_4_0, iter_4_1 in ipairs(var_4_0) do
-			if iter_4_1[1] == "quota" then
-				return iter_4_1[2]
+function var_0_0.GetLimitGoodCount(arg_5_0)
+	local var_5_0 = arg_5_0:getConfig("limit_args")
+
+	if type(var_5_0) == "table" then
+		for iter_5_0, iter_5_1 in ipairs(var_5_0) do
+			if iter_5_1[1] == "quota" then
+				return iter_5_1[2]
 			end
 		end
 	end
 
-	assert(false, "good not limit_args 'quota' with id: " .. arg_4_0.id)
+	assert(false, "good not limit_args 'quota' with id: " .. arg_5_0.id)
 end
 
 return var_0_0

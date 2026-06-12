@@ -5,11 +5,21 @@ function var_0_0.GetContainer(arg_1_0)
 end
 
 function var_0_0.OnRegister(arg_2_0)
-	arg_2_0.redDot = RedDotNode.New(arg_2_0._tf:Find("tip"), {
-		pg.RedDotMgr.TYPES.ACT_RETURN
-	})
+	arg_2_0.redDotUI = arg_2_0._tf:Find("tip")
 
-	pg.redDotHelper:AddNode(arg_2_0.redDot)
+	pg.EasyRedDotMgr.GetInstance():RegisterRedDot(arg_2_0.redDotUI, {
+		"ACT_RETURN"
+	}, function(arg_3_0)
+		setActive(arg_3_0, RefluxTaskView.isAnyTaskCanGetAward() or RefluxPTView.isAnyPTCanGetAward() or RefluxShopView.isShowRedPot())
+	end)
+end
+
+function var_0_0.OnClear(arg_4_0)
+	if arg_4_0.redDotUI then
+		pg.EasyRedDotMgr.GetInstance():UnRegisterRedDot(arg_4_0.redDotUI)
+
+		arg_4_0.redDotUI = nil
+	end
 end
 
 return var_0_0

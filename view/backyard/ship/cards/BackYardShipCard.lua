@@ -63,7 +63,7 @@ function var_0_0.OnFlush(arg_4_0)
 		var_4_8 = var_4_8 + tonumber(iter_4_1:getConfig("benefit_effect"))
 	end
 
-	if arg_4_0.type == Ship.STATE_TRAIN then
+	if arg_4_0.type == DormShip.FLOOR_1 then
 		local var_4_9 = var_4_0:getRecoverEnergyPoint() + Ship.BACKYARD_1F_ENERGY_ADDITION + (var_4_4[var_4_0.id] or 0)
 
 		var_4_1:updateProps({
@@ -88,7 +88,7 @@ function var_0_0.OnFlush(arg_4_0)
 				10 * var_4_9 .. (var_4_8 > 0 and setColorStr("+" .. 10 * var_4_8, COLOR_GREEN) or "") .. "/h"
 			}
 		})
-	elseif arg_4_0.type == Ship.STATE_REST then
+	elseif arg_4_0.type == DormShip.FLOOR_2 then
 		local var_4_10 = var_4_0:getRecoverEnergyPoint() + Ship.BACKYARD_2F_ENERGY_ADDITION + (var_4_4[var_4_0.id] or 0)
 
 		var_4_1:updateProps1({
@@ -107,8 +107,8 @@ function var_0_0.OnFlush(arg_4_0)
 		})
 	end
 
-	setActive(var_4_1.propsTr, arg_4_0.type == Ship.STATE_TRAIN)
-	setActive(var_4_1.propsTr1, arg_4_0.type == Ship.STATE_REST)
+	setActive(var_4_1.propsTr, arg_4_0.type == DormShip.FLOOR_1)
+	setActive(var_4_1.propsTr1, arg_4_0.type == DormShip.FLOOR_2)
 end
 
 function var_0_0.CalcShipAddExpSpeed(arg_9_0)
@@ -121,7 +121,7 @@ end
 
 function var_0_0.GetBaseExp(arg_10_0, arg_10_1)
 	local var_10_0 = getProxy(PlayerProxy):getRawData()
-	local var_10_1 = arg_10_1:GetStateShipCnt(Ship.STATE_TRAIN)
+	local var_10_1 = arg_10_1:GetFloorShipCnt(DormShip.FLOOR_1)
 
 	if var_10_1 <= 0 then
 		return 0

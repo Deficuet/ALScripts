@@ -477,7 +477,7 @@ function var_0_0.handleNotification(arg_34_0, arg_34_1)
 	elseif var_34_0 == GAME.QUOTA_SHOPPING_DONE then
 		local var_34_21 = getProxy(ShopsProxy):getQuotaShop()
 
-		arg_34_0.viewComponent:OnUpdateCommodity(NewShopsScene.TYPE_QUOTA_SHOP, var_34_21, var_34_1.id)
+		arg_34_0.viewComponent:OnUpdateCommodity(NewShopsScene.TYPE_QUOTA, var_34_21, var_34_1.id)
 		arg_34_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_34_1.awards)
 	elseif var_34_0 == GAME.MINI_GAME_SHOP_BUY_DONE then
 		local var_34_22 = var_34_1.list

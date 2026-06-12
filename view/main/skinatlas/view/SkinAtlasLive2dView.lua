@@ -64,7 +64,7 @@ function var_0_0.OnClick(arg_7_0)
 
 			var_7_0 = var_7_2[math.ceil(math.random(#var_7_2))]
 		else
-			local var_7_3 = arg_7_0:GetIdleEvents()
+			local var_7_3 = arg_7_0:GetTouchEvent()
 
 			var_7_0 = var_7_3[math.floor(math.Random(0, #var_7_3)) + 1]
 		end
@@ -79,42 +79,38 @@ function var_0_0.GetTouchEvent(arg_8_0, arg_8_1)
 	return (var_0_1.filterAssistantEvents(var_0_1.getAssistantTouchEvents(arg_8_1), arg_8_0.ship:getSkinId(), 0))
 end
 
-function var_0_0.GetIdleEvents(arg_9_0)
-	return (var_0_1.filterAssistantEvents(var_0_1.IdleEvents, arg_9_0.ship:getSkinId(), 0))
+function var_0_0.GetEventConfig(arg_9_0, arg_9_1)
+	return pg.AssistantInfo.GetAssistantEvents(arg_9_1)
 end
 
-function var_0_0.GetEventConfig(arg_10_0, arg_10_1)
-	return var_0_1.assistantEvents[arg_10_1]
-end
-
-function var_0_0.TriggerEvent(arg_11_0, arg_11_1)
-	if not arg_11_1 then
+function var_0_0.TriggerEvent(arg_10_0, arg_10_1)
+	if not arg_10_1 then
 		return
 	end
 
-	local var_11_0 = arg_11_0:GetEventConfig(arg_11_1)
+	local var_10_0 = arg_10_0:GetEventConfig(arg_10_1)
 
-	local function var_11_1()
+	local function var_10_1()
 		return
 	end
 
-	local var_11_2, var_11_3, var_11_4, var_11_5, var_11_6, var_11_7 = ShipWordHelper.GetCvDataForShip(arg_11_0.ship, var_11_0.dialog)
+	local var_10_2, var_10_3, var_10_4, var_10_5, var_10_6, var_10_7 = ShipWordHelper.GetCvDataForShip(arg_10_0.ship, var_10_0.dialog)
 
-	if not var_11_7 then
-		arg_11_0.live2dChar:TriggerAction(var_11_0.action)
-		var_11_1()
+	if not var_10_7 then
+		arg_10_0.live2dChar:TriggerAction(var_10_0.action)
+		var_10_1()
 	else
-		arg_11_0.live2dChar:TriggerAction(var_11_0.action, nil, nil, var_11_1)
+		arg_10_0.live2dChar:TriggerAction(var_10_0.action, nil, nil, var_10_1)
 	end
 end
 
-function var_0_0.Dispose(arg_13_0)
-	pg.DelegateInfo.Dispose(arg_13_0)
-	arg_13_0.live2dChar:Dispose()
+function var_0_0.Dispose(arg_12_0)
+	pg.DelegateInfo.Dispose(arg_12_0)
+	arg_12_0.live2dChar:Dispose()
 
-	arg_13_0.live2dChar = nil
+	arg_12_0.live2dChar = nil
 
-	setActive(arg_13_0.live2dContainer, false)
+	setActive(arg_12_0.live2dContainer, false)
 end
 
 return var_0_0

@@ -217,7 +217,7 @@ function var_0_0.onListenerTrigger(arg_3_0, arg_3_1, arg_3_2)
 			arg_3_0.nextTriggerTime = arg_3_0.limitTime
 		end
 	elseif arg_3_1 == Live2DPainting.ON_ACTION_PLAY then
-		arg_3_0.nextTriggerTime = arg_3_0.limitTime <= 1 and arg_3_0.limitTime or 1
+		arg_3_0.nextTriggerTime = arg_3_0.limitTime <= 0.2 and arg_3_0.limitTime or 0.2
 	end
 end
 
@@ -1087,7 +1087,7 @@ function var_0_0.updateTrigger(arg_52_0)
 			arg_52_0:onEventCallback(Live2DPainting.EVENT_GET_PARAMETER, {
 				name = var_52_4
 			}, function(arg_55_0)
-				print("获取到数值 " .. var_52_4 .. " = " .. arg_55_0)
+				print("获取到数值 " .. var_52_4 .. " = " .. arg_55_0, "匹配范围 = " .. var_52_5[1] .. " - " .. var_52_5[2])
 
 				if arg_55_0 >= var_52_5[1] and arg_55_0 < var_52_5[2] then
 					print("数值范围内，开始触发动作  = " .. tostring(arg_52_0.id))

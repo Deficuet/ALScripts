@@ -62,7 +62,10 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 					var_1_3:ResetSystemTheme(var_3_1.themeId)
 				end
 
-				var_1_3:AddFurnitrues(var_1_1)
+				local var_3_2 = var_1_3:getRawData()
+
+				var_3_2:AddFurnitrues(var_1_1)
+				var_1_3:updateDrom(var_3_2, BackYardConst.DORM_UPDATE_TYPE_FURNITURE)
 
 				for iter_3_0, iter_3_1 in ipairs(var_1_1) do
 					-- block empty

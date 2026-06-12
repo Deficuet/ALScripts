@@ -652,7 +652,8 @@ pg.activity_ins_template.all = {
 	20003,
 	20004,
 	20006,
-	20005
+	20005,
+	20007
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_template = {}
@@ -27333,6 +27334,33 @@ end)()
 				11,
 				0,
 				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[20007] = {
+		ship_group = 0,
+		name = "",
+		oalist_pic_persist = "",
+		type = 2,
+		picture_persist = "",
+		title = "【港区故事】探秘火山！抚顺的奇妙大冒险（3） ",
+		sculpture = "",
+		is_active = 1,
+		message_persist = "",
+		id = 20007,
+		group_id = 20007,
+		time = {
+			{
+				2026,
+				6,
+				12
+			},
+			{
+				15,
+				17,
+				0
 			}
 		},
 		time_persist = {},

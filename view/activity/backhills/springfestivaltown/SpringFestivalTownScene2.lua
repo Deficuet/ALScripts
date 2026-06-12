@@ -41,19 +41,6 @@ function var_0_0.init(arg_2_0)
 	local var_2_5 = var_2_4 and var_2_4.sortingOrder or 0
 
 	arg_2_0._bg:GetComponent(typeof(UnityEngine.Canvas)).sortingOrder = var_2_5 - 2
-
-	local var_2_6 = GetComponent(arg_2_0._bg, "ItemList")
-
-	for iter_2_2 = 1, 1 do
-		local var_2_7 = var_2_6.prefabItem[iter_2_2 - 1]
-
-		if not IsNil(var_2_7) then
-			local var_2_8 = tf(Instantiate(var_2_7))
-
-			setParent(var_2_8, arg_2_0._bg)
-			pg.ViewUtils.SetSortingOrder(var_2_8, var_2_5 - 1)
-		end
-	end
 end
 
 function var_0_0.didEnter(arg_3_0)

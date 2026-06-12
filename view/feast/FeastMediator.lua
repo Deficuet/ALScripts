@@ -151,7 +151,7 @@ function var_0_0.handleNotification(arg_13_0, arg_13_1)
 
 			for iter_13_0, iter_13_1 in ipairs(var_13_1.ships or {}) do
 				table.insert(var_13_10, function(arg_14_0)
-					_courtyard:GetController():AddShip(iter_13_1)
+					_courtyard:GetController():AddShip(iter_13_1, 0, 0)
 					onNextTick(arg_14_0)
 				end)
 			end

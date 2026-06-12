@@ -29,7 +29,6 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			local var_2_0 = PlayerConst.addTranDrop(arg_2_0.drop_list)
 			local var_2_1 = var_1_4:getQuotaShop()
 
-			var_2_1:getGoodsById(var_1_1):addBuyCount(var_1_2)
 			var_1_4:updateQuotaShop(var_2_1)
 			reducePlayerOwn({
 				type = var_1_5.resource_category,

@@ -125,7 +125,7 @@ function var_0_0.register(arg_1_0)
 			configId = arg_19_1.configId,
 			date = arg_19_1.date
 		})
-		getProxy(DormProxy):_ClearNewFlag(arg_19_1.configId)
+		getProxy(DormProxy):getRawData():ClearNewFlagById(arg_19_1.configId)
 
 		local var_19_1 = arg_1_0.dorm:GetFurniture(arg_19_1.configId)
 

@@ -57,16 +57,7 @@ function var_0_0.InitUI(arg_6_0)
 	arg_6_0.specialText = arg_6_0.specialWindow:Find("title")
 	arg_6_0.buyNormalBtn = arg_6_0.normalWindow:Find("buyNormalButton")
 	arg_6_0.buySpecialBtn = arg_6_0.specialWindow:Find("buySpecialButton")
-
-	local var_6_0 = GetComponent(arg_6_0._tf, "ItemList").prefabItem[0]
-	local var_6_1 = Instantiate(var_6_0)
-
 	arg_6_0.itemTpl = arg_6_0._tf:Find("itemTpl")
-
-	local var_6_2 = arg_6_0.itemTpl:Find("Container")
-
-	setParent(var_6_1, var_6_2, false)
-
 	arg_6_0.normalList = UIItemList.New(arg_6_0.normalWindow:Find("list"), arg_6_0.itemTpl)
 	arg_6_0.specialList = UIItemList.New(arg_6_0.specialWindow:Find("list"), arg_6_0.itemTpl)
 

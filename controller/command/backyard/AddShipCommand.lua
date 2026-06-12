@@ -7,39 +7,15 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_3 = var_1_0.callBack
 	local var_1_4 = getProxy(DormProxy)
 	local var_1_5 = getProxy(BayProxy):getShipById(var_1_1)
-	local var_1_6 = var_1_4:getData()
-
-	if table.contains(var_1_6.shipIds, var_1_1) then
-		if var_1_3 then
-			var_1_3()
-		end
-
-		return
-	end
+	local var_1_6 = var_1_4:getRawData()
 
 	pg.ConnectionMgr.GetInstance():Send(19002, {
 		ship_id = var_1_1,
 		type = var_1_2
 	}, 19003, function(arg_2_0)
 		if arg_2_0.result == 0 then
-			local var_2_0 = getProxy(BayProxy)
-
-			if var_1_2 == 1 then
-				var_1_5.state_info_1 = pg.TimeMgr.GetInstance():GetServerTime()
-				var_1_5.state_info_2 = var_1_5:getTotalExp()
-
-				var_1_5:updateState(Ship.STATE_TRAIN)
-
-				if var_1_6.next_timestamp == 0 then
-					var_1_6:restNextTime()
-					var_1_4:updateDrom(var_1_6, BackYardConst.DORM_UPDATE_TYPE_SHIP)
-				end
-			elseif var_1_2 == 2 then
-				var_1_5:updateState(Ship.STATE_REST)
-			end
-
-			var_2_0:updateShip(var_1_5)
-			var_1_4:addShip(var_1_5.id)
+			var_1_6:AddShip(var_1_5.id, var_1_2)
+			var_1_4:updateDrom(var_1_6, BackYardConst.DORM_UPDATE_TYPE_SHIP)
 			arg_1_0:sendNotification(GAME.ADD_SHIP_DONE, {
 				id = var_1_1,
 				type = var_1_2

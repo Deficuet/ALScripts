@@ -47,7 +47,7 @@ function var_0_0.register(arg_1_0)
 			mediator = NewBackYardShipInfoMediator,
 			viewComponent = NewBackYardShipInfoLayer,
 			data = {
-				type = Ship.STATE_TRAIN,
+				type = DormShip.FLOOR_1,
 				MaxRsetPos = var_7_0
 			}
 		}))
@@ -59,7 +59,7 @@ function var_0_0.register(arg_1_0)
 			mediator = NewBackYardShipInfoMediator,
 			viewComponent = NewBackYardShipInfoLayer,
 			data = {
-				type = Ship.STATE_REST,
+				type = DormShip.FLOOR_2,
 				MaxRsetPos = var_8_0
 			}
 		}))
@@ -153,9 +153,7 @@ function var_0_0.handleNotification(arg_17_0, arg_17_1)
 			return
 		end
 
-		if not CourtYardMediator.firstTimeAddExp and not pg.NewGuideMgr.GetInstance():IsBusy() then
-			CourtYardMediator.firstTimeAddExp = true
-
+		if var_17_1.isTipSettle and not pg.NewGuideMgr.GetInstance():IsBusy() then
 			arg_17_0:SettleExp(var_17_1)
 		elseif not arg_17_0.isTipFood then
 			arg_17_0.viewComponent:ShowAddFoodTip()
@@ -163,7 +161,7 @@ function var_0_0.handleNotification(arg_17_0, arg_17_1)
 
 		arg_17_0.isTipFood = true
 	elseif var_17_0 == GAME.LOAD_LAYERS then
-		CourtYardMediator.firstTimeAddExp = true
+		-- block empty
 	elseif var_17_0 == GAME.REMOVE_LAYERS then
 		arg_17_0.viewComponent:OnRemoveLayer(var_17_1)
 	elseif var_17_0 == CourtYardEvent._NO_POS_TO_ADD_SHIP then
@@ -215,18 +213,15 @@ function var_0_0.handleCourtyardNotification(arg_18_0, arg_18_1, arg_18_2, arg_1
 	elseif arg_18_1 == GAME.ADD_SHIP_DONE then
 		local var_18_2 = getProxy(BayProxy):getShipById(arg_18_2.id)
 
-		if ({
-			Ship.STATE_TRAIN,
-			Ship.STATE_REST
-		})[getProxy(DormProxy).floor] == var_18_2.state then
-			_courtyard:GetController():AddShip(var_18_2)
+		if getProxy(DormProxy).floor == arg_18_2.type then
+			_courtyard:GetController():AddShip(var_18_2, 0, 0)
 		end
 	elseif arg_18_1 == GAME.BACKYARD_ADD_INTIMACY_DONE then
 		_courtyard:GetController():ClearShipIntimacy(arg_18_2.id)
 	elseif arg_18_1 == GAME.BACKYARD_ONE_KEY_DONE then
 		for iter_18_0, iter_18_1 in ipairs(arg_18_2.shipIds) do
-			_courtyard:GetController():ClearShipCoin(iter_18_1)
-			_courtyard:GetController():ClearShipIntimacy(iter_18_1)
+			_courtyard:GetController():ClearShipCoin(iter_18_1.id)
+			_courtyard:GetController():ClearShipIntimacy(iter_18_1.id)
 		end
 	elseif arg_18_1 == GAME.EXTEND_BACKYARD_AREA_DONE then
 		_courtyard:GetController():LevelUp()
@@ -284,26 +279,20 @@ function var_0_0.SettleExp(arg_19_0, arg_19_1)
 
 	local var_19_0 = getProxy(DormProxy):getRawData()
 	local var_19_1 = getProxy(BayProxy)
-	local var_19_2 = 0
+	local var_19_2 = var_19_0:GetFloorShipCnt(DormShip.FLOOR_1)
+	local var_19_3 = arg_19_1.exp * var_19_2
 
-	for iter_19_0, iter_19_1 in ipairs(var_19_0.shipIds) do
-		local var_19_3 = var_19_1:RawGetShipById(iter_19_1)
-
-		if var_19_3 and var_19_3.state == Ship.STATE_TRAIN then
-			var_19_2 = var_19_2 + 1
-		end
-	end
-
-	local var_19_4 = var_19_0.load_exp * var_19_2
-
-	if var_19_2 ~= 0 and (var_19_4 ~= 0 or var_19_0.food ~= 0) then
+	if var_19_2 ~= 0 and (var_19_3 ~= 0 or var_19_0.food ~= 0) then
 		onNextTick(function()
 			arg_19_0:addSubLayers(Context.New({
 				mediator = BackYardSettlementMediator,
 				viewComponent = BackYardSettlementLayer,
 				data = {
 					oldShips = arg_19_1.oldShips,
-					newShips = arg_19_1.newShips
+					newShips = arg_19_1.newShips,
+					exp = arg_19_1.exp,
+					food = arg_19_1.food,
+					time = arg_19_1.time
 				}
 			}))
 		end)
@@ -380,7 +369,8 @@ function var_0_0.GenCourtYardData(arg_24_0, arg_24_1)
 			id = arg_24_1,
 			level = var_24_1.level,
 			furnitures = var_24_1:GetPutFurnitureList(arg_24_1),
-			ships = var_24_1:GetPutShipList(arg_24_1)
+			ships = var_24_1:GetBayShipOnFloor(arg_24_1),
+			popList = var_24_1:GetShipsMoneyAndIntimacy()
 		}
 	}
 

@@ -194,7 +194,7 @@ function var_0_0.CollectIdleEvents(arg_23_0, arg_23_1)
 		end
 
 		if #var_23_0 == 0 then
-			var_23_0 = arg_23_0:FilterExistEvents(var_0_1.IdleEvents)
+			var_23_0 = arg_23_0:FilterExistEvents(var_0_1.GetShipMainEvents(arg_23_0.ship:getSkinId(), arg_23_0.ship:getCVIntimacy()))
 
 			if getProxy(TaskProxy):getNotFinishCount() and getProxy(TaskProxy):getNotFinishCount() > 0 and arg_23_1 ~= "mission" then
 				table.insert(var_23_0, "mission")
@@ -209,7 +209,7 @@ function var_0_0.FilterExistEvents(arg_24_0, arg_24_1)
 	local var_24_0 = {}
 
 	for iter_24_0, iter_24_1 in pairs(arg_24_1) do
-		local var_24_1 = var_0_1.assistantEvents[iter_24_1]
+		local var_24_1 = pg.AssistantInfo.GetAssistantEvents(iter_24_1)
 
 		if var_24_1 and var_24_1.dialog and EducateCharWordHelper.ExistWord(arg_24_0.ship.educateCharId, var_24_1.dialog) then
 			table.insert(var_24_0, iter_24_1)
@@ -220,7 +220,7 @@ function var_0_0.FilterExistEvents(arg_24_0, arg_24_1)
 end
 
 function var_0_0.CollectTouchEvents(arg_25_0)
-	return (arg_25_0:FilterExistEvents(var_0_1.PaintingTouchEvents))
+	return (arg_25_0:FilterExistEvents(var_0_1.GetShipTouchEvents(arg_25_0.ship:getSkinId(), arg_25_0.ship:getCVIntimacy())))
 end
 
 function var_0_0.EnableOrDisableMove(arg_26_0, arg_26_1)

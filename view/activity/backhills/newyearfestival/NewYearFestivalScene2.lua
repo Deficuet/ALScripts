@@ -43,18 +43,9 @@ function var_0_0.init(arg_2_0)
 
 	arg_2_0._map:GetComponent(typeof(UnityEngine.Canvas)).sortingOrder = var_2_5 - 2
 
-	local var_2_6 = GetComponent(arg_2_0._map, "ItemList")
+	local var_2_6 = arg_2_0._map:Find("xuehezhan_snow01")
 
-	for iter_2_2 = 1, 1 do
-		local var_2_7 = var_2_6.prefabItem[iter_2_2 - 1]
-
-		if not IsNil(var_2_7) then
-			local var_2_8 = tf(Instantiate(var_2_7))
-
-			setParent(var_2_8, arg_2_0._map)
-			pg.ViewUtils.SetSortingOrder(var_2_8, var_2_5 - 1)
-		end
-	end
+	pg.ViewUtils.SetSortingOrder(var_2_6, var_2_5 - 1)
 end
 
 function var_0_0.didEnter(arg_3_0)

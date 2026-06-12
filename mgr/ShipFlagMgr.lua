@@ -150,7 +150,7 @@ local var_0_2 = {
 		end)
 	end,
 	inBackyard = function()
-		return getProxy(DormProxy):getRawData().shipIds
+		return getProxy(DormProxy):getRawData():GetShipIds()
 	end,
 	inAdmiral = function()
 		return getProxy(PlayerProxy):getRawData().characters

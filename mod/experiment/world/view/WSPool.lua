@@ -28,6 +28,12 @@ function var_0_0.Dispose(arg_2_0)
 		end)
 	end
 
+	for iter_2_2, iter_2_3 in pairs(arg_2_0.tplDic) do
+		arg_2_0.tplDic[iter_2_2] = nil
+	end
+
+	arg_2_0.tplDic = nil
+
 	arg_2_0:Clear()
 end
 

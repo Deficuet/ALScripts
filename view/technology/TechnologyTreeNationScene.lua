@@ -114,7 +114,7 @@ function var_0_0.findUI(arg_9_0)
 	arg_9_0.oneStepBtn = arg_9_0._tf:Find("OneStepBtn")
 
 	if not LOCK_TEC_NATION_AWARD then
-		arg_9_0.awardTpl = Instantiate(GetComponent(arg_9_0._tf, "ItemList").prefabItem[0])
+		arg_9_0.awardTpl = arg_9_0._tf:Find("IconTpl").gameObject
 
 		setActive(arg_9_0.awardTpl, false)
 

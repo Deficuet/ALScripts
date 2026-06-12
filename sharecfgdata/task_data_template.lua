@@ -168388,15 +168388,14 @@ end)()
 		ryza_type = 0,
 		quick_finish = 0,
 		level = 1,
-		story_id = "",
-		priority_type = 0,
 		ryza_icon = "",
+		priority_type = 0,
 		fix_task = 0,
+		target_id = "50616",
 		next_task = "0",
 		auto_commit = 1,
 		story_icon_shift = "",
-		target_id = "50616",
-		scene = "",
+		story_id = "",
 		tutorial_handbook_pic = "",
 		id = 21934,
 		target_num = 7,
@@ -168408,6 +168407,12 @@ end)()
 				8,
 				65929,
 				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50327
 			}
 		}
 	}
@@ -168431,15 +168436,14 @@ end)()
 		ryza_type = 0,
 		quick_finish = 0,
 		level = 1,
-		story_id = "",
-		priority_type = 0,
 		ryza_icon = "",
+		priority_type = 0,
 		fix_task = 0,
+		target_id = "50616",
 		next_task = "0",
 		auto_commit = 0,
 		story_icon_shift = "",
-		target_id = "50616",
-		scene = "",
+		story_id = "",
 		tutorial_handbook_pic = "",
 		id = 21935,
 		target_num = 6,
@@ -168451,6 +168455,12 @@ end)()
 				8,
 				65930,
 				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50327
 			}
 		}
 	}
@@ -168474,15 +168484,14 @@ end)()
 		ryza_type = 0,
 		quick_finish = 0,
 		level = 1,
-		story_id = "",
-		priority_type = 0,
 		ryza_icon = "",
+		priority_type = 0,
 		fix_task = 0,
+		target_id = "0",
 		next_task = "0",
 		auto_commit = 0,
 		story_icon_shift = "",
-		target_id = "0",
-		scene = "",
+		story_id = "",
 		tutorial_handbook_pic = "",
 		id = 21936,
 		target_num = 1,
@@ -168494,6 +168503,12 @@ end)()
 				8,
 				65931,
 				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50327
 			}
 		}
 	}
@@ -168517,15 +168532,14 @@ end)()
 		ryza_type = 0,
 		quick_finish = 0,
 		level = 1,
-		story_id = "",
-		priority_type = 0,
 		ryza_icon = "",
+		priority_type = 0,
 		fix_task = 0,
+		target_id = "0",
 		next_task = "0",
 		auto_commit = 0,
 		story_icon_shift = "",
-		target_id = "0",
-		scene = "",
+		story_id = "",
 		tutorial_handbook_pic = "",
 		id = 21937,
 		target_num = 1000,
@@ -168537,6 +168551,12 @@ end)()
 				8,
 				65932,
 				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50327
 			}
 		}
 	}
@@ -168560,15 +168580,14 @@ end)()
 		ryza_type = 0,
 		quick_finish = 0,
 		level = 1,
-		story_id = "",
-		priority_type = 0,
 		ryza_icon = "",
+		priority_type = 0,
 		fix_task = 0,
+		target_id = "0",
 		next_task = "0",
 		auto_commit = 0,
 		story_icon_shift = "",
-		target_id = "0",
-		scene = "",
+		story_id = "",
 		tutorial_handbook_pic = "",
 		id = 21938,
 		target_num = 10,
@@ -168580,6 +168599,12 @@ end)()
 				8,
 				65933,
 				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50327
 			}
 		}
 	}
@@ -168627,7 +168652,10 @@ end)()
 			}
 		},
 		scene = {
-			"MALL"
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
 		}
 	}
 end)()
@@ -168672,9 +168700,9 @@ end)()
 			}
 		},
 		scene = {
-			"ACTIVITY",
+			"ACTIVITY_MAP",
 			{
-				id = 50617
+				50327
 			}
 		}
 	}
@@ -168722,7 +168750,10 @@ end)()
 			}
 		},
 		scene = {
-			"MALL"
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
 		}
 	}
 end)()
@@ -168767,7 +168798,10 @@ end)()
 			}
 		},
 		scene = {
-			"LEVEL"
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
 		}
 	}
 end)()
@@ -168814,7 +168848,10 @@ end)()
 			}
 		},
 		scene = {
-			"MALL"
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
 		}
 	}
 end)()
@@ -168861,7 +168898,10 @@ end)()
 			}
 		},
 		scene = {
-			"MALL"
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
 		}
 	}
 end)()
@@ -168908,7 +168948,10 @@ end)()
 			}
 		},
 		scene = {
-			"MALL"
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
 		}
 	}
 end)()
@@ -168955,7 +168998,10 @@ end)()
 			}
 		},
 		scene = {
-			"MALL"
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
 		}
 	}
 end)()
@@ -169002,7 +169048,10 @@ end)()
 			}
 		},
 		scene = {
-			"MALL"
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
 		}
 	}
 end)()
@@ -169049,7 +169098,10 @@ end)()
 			}
 		},
 		scene = {
-			"MALL"
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
 		}
 	}
 end)()
@@ -169096,7 +169148,10 @@ end)()
 			}
 		},
 		scene = {
-			"MALL"
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
 		}
 	}
 end)()
@@ -169143,7 +169198,10 @@ end)()
 			}
 		},
 		scene = {
-			"MALL"
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
 		}
 	}
 end)()
@@ -169190,7 +169248,10 @@ end)()
 			}
 		},
 		scene = {
-			"MALL"
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
 		}
 	}
 end)()
@@ -169237,7 +169298,10 @@ end)()
 			}
 		},
 		scene = {
-			"MALL"
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
 		}
 	}
 end)()
@@ -169291,7 +169355,10 @@ end)()
 			}
 		},
 		scene = {
-			"MALL"
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
 		}
 	}
 end)()
@@ -169343,7 +169410,10 @@ end)()
 			}
 		},
 		scene = {
-			"MALL"
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
 		}
 	}
 end)()
@@ -169395,7 +169465,10 @@ end)()
 			}
 		},
 		scene = {
-			"MALL"
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
 		}
 	}
 end)()
@@ -169447,7 +169520,10 @@ end)()
 			}
 		},
 		scene = {
-			"MALL"
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
 		}
 	}
 end)()
@@ -169499,7 +169575,10 @@ end)()
 			}
 		},
 		scene = {
-			"MALL"
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
 		}
 	}
 end)()
@@ -169551,7 +169630,10 @@ end)()
 			}
 		},
 		scene = {
-			"MALL"
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
 		}
 	}
 end)()
@@ -169603,7 +169685,10 @@ end)()
 			}
 		},
 		scene = {
-			"MALL"
+			"ACTIVITY_MAP",
+			{
+				50327
+			}
 		}
 	}
 end)()
@@ -390704,6 +390789,360 @@ end)()
 			{
 				2,
 				16004,
+				1
+			}
+		},
+		story_icon_shift = {
+			0,
+			100
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500251] = {
+		name = "画不出的神韵",
+		guild_coin_award = 0,
+		award = 500251,
+		type = 5,
+		desc = "提交3个《鱼雷天妇罗》",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "lafeier",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "50003",
+		next_task = "500252",
+		auto_commit = 0,
+		story_id = "LAFEIER1",
+		tutorial_handbook_pic = "",
+		id = 500251,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		story_icon_shift = {
+			0,
+			100
+		},
+		scene = {
+			"BACKYARD"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500252] = {
+		name = "最不可或缺之物",
+		guild_coin_award = 0,
+		award = 500252,
+		type = 5,
+		desc = "强化任意角色10次",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "lafeier",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "LAFEIER2",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500253",
+		auto_commit = 0,
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500252,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		story_icon_shift = {
+			0,
+			100
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500253] = {
+		name = "莫非是间接接吻？",
+		guild_coin_award = 0,
+		award = 500253,
+		type = 5,
+		desc = "拉斐尔上阵出击(关卡)胜利20次",
+		count_inherit = 0,
+		sub_type = 18,
+		target_id_2 = "",
+		story_icon = "lafeier",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "LAFEIER3",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500254",
+		auto_commit = 0,
+		target_id = "60508",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500253,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		story_icon_shift = {
+			0,
+			100
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500254] = {
+		name = "不同寻常的风景",
+		guild_coin_award = 0,
+		award = 500254,
+		type = 5,
+		desc = "累计消耗石油500",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "lafeier",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "LAFEIER4",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500255",
+		auto_commit = 0,
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500254,
+		target_num = 500,
+		activity_client_config = "",
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		story_icon_shift = {
+			0,
+			100
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500255] = {
+		name = "寻找“咚”的旅程",
+		guild_coin_award = 0,
+		award = 500255,
+		type = 5,
+		desc = "拉斐尔好感度达到100",
+		count_inherit = 0,
+		sub_type = 1012,
+		target_id_2 = "",
+		story_icon = "lafeier",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "LAFEIER5",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500256",
+		auto_commit = 0,
+		target_id = "60508",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500255,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		story_icon_shift = {
+			0,
+			100
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500256] = {
+		name = "寻找自然的姿态",
+		guild_coin_award = 0,
+		award = 500256,
+		type = 5,
+		desc = "拉斐尔突破至满星",
+		count_inherit = 0,
+		sub_type = 33,
+		target_id_2 = "",
+		story_icon = "lafeier",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "LAFEIER6",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500257",
+		auto_commit = 0,
+		target_id = "60508",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500256,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18023,
+				2
+			}
+		},
+		story_icon_shift = {
+			0,
+			100
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500257] = {
+		name = "只要尽情地抒发",
+		guild_coin_award = 0,
+		award = 500257,
+		type = 5,
+		desc = "拉斐尔等级达到100",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "lafeier",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "LAFEIER7",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		target_id = "60508",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500257,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				16024,
 				1
 			}
 		},

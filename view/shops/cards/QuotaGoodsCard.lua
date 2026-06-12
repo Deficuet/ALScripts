@@ -40,7 +40,7 @@ function var_0_0.update(arg_1_0, arg_1_1, arg_1_2, arg_1_3, arg_1_4)
 	GetImageSpriteFromAtlasAsync(var_1_5, "", arg_1_0.resIconTF)
 
 	local var_1_6 = arg_1_1:GetLimitGoodCount()
-	local var_1_7 = arg_1_1:GetPurchasableCnt()
+	local var_1_7 = math.min(arg_1_1:GetOwnedGoodCount(), var_1_6)
 
 	setText(arg_1_0.limitCountLabelTF, i18n("quota_shop_owned") .. var_1_6 - var_1_7 .. "/" .. var_1_6)
 	setActive(arg_1_0.limitCountLabelTF, true)

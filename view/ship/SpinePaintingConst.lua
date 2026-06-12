@@ -1310,7 +1310,7 @@ var_0_0.ship_drag_datas = {
 					hit = "touch_random_voice",
 					event = {
 						"TouchBody",
-						"idleRandom1",
+						"main_1",
 						"TouchHead"
 					}
 				}

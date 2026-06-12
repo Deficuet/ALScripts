@@ -215,7 +215,7 @@ function var_0_0.TryToTriggerEvent(arg_23_0, arg_23_1)
 end
 
 function var_0_0._TriggerEvent(arg_24_0, arg_24_1)
-	local var_24_0 = var_0_5.assistantEvents[arg_24_1]
+	local var_24_0 = pg.AssistantInfo.GetAssistantEvents(arg_24_1)
 
 	if var_24_0.dialog ~= "" then
 		arg_24_0:DisplayWord(var_24_0.dialog)
@@ -252,7 +252,7 @@ function var_0_0.TriggerNextEventAuto(arg_27_0)
 
 	arg_27_0.timer = Timer.New(function()
 		arg_27_0:OnTimerTriggerEvent()
-	end, 30, 1, true)
+	end, 5, 1, true)
 
 	arg_27_0.timer:Start()
 end
@@ -433,9 +433,7 @@ function var_0_0.CollectIdleEvents(arg_52_0, arg_52_1)
 		end
 
 		if #var_52_0 == 0 then
-			local var_52_1 = arg_52_0.ship:getCVIntimacy()
-
-			var_52_0 = var_0_5.filterAssistantEvents(Clone(var_0_5.IdleEvents), arg_52_0.ship:getSkinId(), var_52_1)
+			var_52_0 = var_0_5.GetShipMainEvents(arg_52_0.ship:getSkinId(), arg_52_0.ship:getCVIntimacy())
 
 			if getProxy(TaskProxy):getNotFinishCount() and getProxy(TaskProxy):getNotFinishCount() > 0 and arg_52_1 ~= "mission" then
 				table.insert(var_52_0, "mission")
@@ -449,19 +447,23 @@ end
 function var_0_0.CollectTouchEvents(arg_53_0)
 	local var_53_0 = arg_53_0.ship:getCVIntimacy()
 
-	return (var_0_5.filterAssistantEvents(var_0_5.PaintingTouchEvents, arg_53_0.ship:getSkinId(), var_53_0))
+	return (var_0_5.filterAssistantEvents(var_0_5.GetShipTouchEvents(arg_53_0.ship:getSkinId(), var_53_0), arg_53_0.ship:getSkinId(), var_53_0))
 end
 
 function var_0_0.GetTouchEvent(arg_54_0, arg_54_1)
+	local var_54_0 = arg_54_0.ship:getCVIntimacy()
+
 	return (var_0_5.filterAssistantEvents(var_0_5.getAssistantTouchEvents(arg_54_1, arg_54_0.ship:getSkinId()), arg_54_0.ship:getSkinId(), 0))
 end
 
 function var_0_0.GetIdleEvents(arg_55_0)
-	return (var_0_5.filterAssistantEvents(var_0_5.IdleEvents, arg_55_0.ship:getSkinId(), 0))
+	local var_55_0 = arg_55_0.ship:getCVIntimacy()
+
+	return (var_0_5.filterAssistantEvents(var_0_5.GetShipMainEvents(arg_55_0.ship:getSkinId(), 0), arg_55_0.ship:getSkinId(), 0))
 end
 
 function var_0_0.GetEventConfig(arg_56_0, arg_56_1)
-	return var_0_5.assistantEvents[arg_56_1]
+	return pg.AssistantInfo.GetAssistantEvents(arg_56_1)
 end
 
 function var_0_0.GetSpecialTouchEvent(arg_57_0, arg_57_1)

@@ -98,13 +98,15 @@ function var_0_0.ShipStatusToTag(arg_2_0, arg_2_1)
 			i18n("word_status_inEvent")
 		}
 	elseif var_0_0.checkShipFlag(arg_2_0, arg_2_1, "inBackyard") then
-		if arg_2_0.state == Ship.STATE_REST then
+		local var_2_2, var_2_3 = getProxy(DormProxy):getRawData():InBackYard(arg_2_0.id)
+
+		if var_2_2 and var_2_3 == DormShip.FLOOR_2 then
 			return {
 				"shipstatus",
 				"purple",
 				i18n("word_status_rest")
 			}
-		elseif arg_2_0.state == Ship.STATE_TRAIN then
+		elseif var_2_2 and var_2_3 == DormShip.FLOOR_1 then
 			return {
 				"shipstatus",
 				"purple",

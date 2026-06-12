@@ -157,6 +157,7 @@ function var_0_0.didEnter(arg_8_0)
 	end, SFX_PANEL)
 	onButton(arg_8_0, arg_8_0.rotateBtn, function()
 		setActive(arg_8_0._tf, false)
+		setActive(arg_8_0.blurPanel, false)
 		arg_8_0:emit(ShipProfileMediator.CLICK_ROTATE_BTN, arg_8_0.shipGroup, arg_8_0.showTrans, arg_8_0.skin)
 	end, SFX_PANEL)
 	arg_8_0.live2DBtn:AddListener(function(arg_17_0)
@@ -764,12 +765,8 @@ function var_0_0.UpdatePaintingFace(arg_63_0, arg_63_1)
 	if arg_63_0.spinePainting then
 		local var_63_3
 
-		for iter_63_0, iter_63_1 in pairs(pg.AssistantInfo.assistantEvents) do
-			if iter_63_1.dialog == var_63_2 then
-				var_63_3 = iter_63_1.action
-
-				break
-			end
+		if pg.AssistantInfo.GetAssistantEventsByDialog(var_63_2) then
+			var_63_3 = pg.AssistantInfo.GetAssistantEventsByDialog(var_63_2).action
 		end
 
 		local var_63_4 = ShipExpressionHelper.GetExpression(arg_63_0.paintingName, var_63_2, var_63_0.maxfavor, arg_63_1.skin.id)

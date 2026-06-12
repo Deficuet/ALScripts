@@ -11,8 +11,7 @@ function var_0_0.Ctor(arg_1_0)
 		local var_1_1 = arg_1_0:getOwnedGoodCount(iter_1_1)
 
 		arg_1_0.goods[iter_1_1] = Goods.Create({
-			shop_id = iter_1_1,
-			buy_count = var_1_1
+			shop_id = iter_1_1
 		}, Goods.TYPE_QUOTA)
 	end
 end

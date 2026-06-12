@@ -21,6 +21,7 @@ function var_0_0.OnLoaded(arg_3_0)
 	arg_3_0.idTxt = arg_3_0._tf:Find("info/uid"):GetComponent(typeof(Text))
 	arg_3_0.levelTxt = arg_3_0._tf:Find("info/level"):GetComponent(typeof(Text))
 	arg_3_0.expTxt = arg_3_0._tf:Find("info/exp"):GetComponent(typeof(Text))
+	arg_3_0.copyBtn = arg_3_0._tf:Find("info/copy")
 	arg_3_0.statisticTpl = arg_3_0._tf:Find("statistics/tpl")
 	arg_3_0.shareBtn = arg_3_0._tf:Find("btn_share")
 	arg_3_0.attireBtn = arg_3_0._tf:Find("btn_attire")
@@ -64,6 +65,10 @@ function var_0_0.OnInit(arg_6_0)
 
 		arg_6_0.contextData.renamePage:ExecuteAction("Show", arg_6_0.player)
 	end, SFX_PANEL)
+	onButton(arg_6_0, arg_6_0.copyBtn, function()
+		UniPasteBoard.SetClipBoardString(arg_6_0.player.id)
+		pg.TipsMgr.GetInstance():ShowTips(i18n("friend_id_copy_ok"))
+	end, SFX_PANEL)
 	onButton(arg_6_0, arg_6_0.writeBtn, function()
 		activateInputField(arg_6_0.inputField)
 	end, SFX_PANEL)
@@ -73,213 +78,213 @@ function var_0_0.OnInit(arg_6_0)
 	onButton(arg_6_0, arg_6_0.attireBtn, function()
 		arg_6_0:emit(PlayerVitaeMediator.ON_ATTIRE)
 	end, SFX_PANEL)
-	setActive(arg_6_0.attireBtnTip, underscore.any(getProxy(AttireProxy):needTip(), function(arg_11_0)
-		return arg_11_0 == true
+	setActive(arg_6_0.attireBtnTip, underscore.any(getProxy(AttireProxy):needTip(), function(arg_12_0)
+		return arg_12_0 == true
 	end))
-	onInputEndEdit(arg_6_0, arg_6_0.inputField, function(arg_12_0)
-		if wordVer(arg_12_0) > 0 then
+	onInputEndEdit(arg_6_0, arg_6_0.inputField, function(arg_13_0)
+		if wordVer(arg_13_0) > 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("playerinfo_mask_word"))
 			activateInputField(arg_6_0.inputField)
 
 			return
 		end
 
-		if not arg_12_0 or arg_6_0.manifesto == arg_12_0 then
+		if not arg_13_0 or arg_6_0.manifesto == arg_13_0 then
 			return
 		end
 
-		arg_6_0.manifesto = arg_12_0
+		arg_6_0.manifesto = arg_13_0
 
-		arg_6_0:emit(PlayerVitaeMediator.CHANGE_MANIFESTO, arg_12_0)
+		arg_6_0:emit(PlayerVitaeMediator.CHANGE_MANIFESTO, arg_13_0)
 	end)
 	arg_6_0._tf:SetAsFirstSibling()
 end
 
-function var_0_0.Show(arg_13_0, arg_13_1, arg_13_2)
-	var_0_0.super.Show(arg_13_0)
+function var_0_0.Show(arg_14_0, arg_14_1, arg_14_2)
+	var_0_0.super.Show(arg_14_0)
 
-	arg_13_0.player = arg_13_1
+	arg_14_0.player = arg_14_1
 
-	arg_13_0:UpdateMedals()
-	arg_13_0:UpdatePower()
-	arg_13_0:UpdateInfo()
-	arg_13_0:UpdateStatistics()
+	arg_14_0:UpdateMedals()
+	arg_14_0:UpdatePower()
+	arg_14_0:UpdateInfo()
+	arg_14_0:UpdateStatistics()
 
-	if arg_13_2 then
-		arg_13_0:DoEnterAnimation()
+	if arg_14_2 then
+		arg_14_0:DoEnterAnimation()
 	end
 end
 
-function var_0_0.DoEnterAnimation(arg_14_0)
-	for iter_14_0, iter_14_1 in ipairs(arg_14_0.animPanels) do
-		local var_14_0 = iter_14_1.localPosition.x
-		local var_14_1 = iter_14_0 * 0.05
-		local var_14_2 = 0.2 + (iter_14_0 - 1) * 0.05
+function var_0_0.DoEnterAnimation(arg_15_0)
+	for iter_15_0, iter_15_1 in ipairs(arg_15_0.animPanels) do
+		local var_15_0 = iter_15_1.localPosition.x
+		local var_15_1 = iter_15_0 * 0.05
+		local var_15_2 = 0.2 + (iter_15_0 - 1) * 0.05
 
-		iter_14_1.localPosition = Vector3(var_14_0 + 800, iter_14_1.localPosition.y, 0)
+		iter_15_1.localPosition = Vector3(var_15_0 + 800, iter_15_1.localPosition.y, 0)
 
-		LeanTween.moveLocalX(iter_14_1.gameObject, var_14_0, var_14_2):setDelay(var_14_1):setEase(LeanTweenType.easeInOutSine)
+		LeanTween.moveLocalX(iter_15_1.gameObject, var_15_0, var_15_2):setDelay(var_15_1):setEase(LeanTweenType.easeInOutSine)
 	end
 end
 
-function var_0_0.UpdateMedals(arg_15_0)
-	local var_15_0 = arg_15_0.player.displayTrophyList
-	local var_15_1 = math.min(5, #var_15_0)
-	local var_15_2 = 353
-	local var_15_3 = 30
+function var_0_0.UpdateMedals(arg_16_0)
+	local var_16_0 = arg_16_0.player.displayTrophyList
+	local var_16_1 = math.min(5, #var_16_0)
+	local var_16_2 = 353
+	local var_16_3 = 30
 
-	UIItemList.StaticAlign(arg_15_0.medalTpl.parent, arg_15_0.medalTpl, var_15_1, function(arg_16_0, arg_16_1, arg_16_2)
-		arg_16_1 = arg_16_1 + 1
+	UIItemList.StaticAlign(arg_16_0.medalTpl.parent, arg_16_0.medalTpl, var_16_1, function(arg_17_0, arg_17_1, arg_17_2)
+		arg_17_1 = arg_17_1 + 1
 
-		if arg_16_0 == UIItemList.EventUpdate then
-			local var_16_0 = var_15_0[arg_16_1]
-			local var_16_1 = var_16_0 > 1000000000 and LoveLetterTrophy.New({
-				id = var_16_0
+		if arg_17_0 == UIItemList.EventUpdate then
+			local var_17_0 = var_16_0[arg_17_1]
+			local var_17_1 = var_17_0 > 1000000000 and LoveLetterTrophy.New({
+				id = var_17_0
 			}) or Trophy.New({
-				id = var_16_0
+				id = var_17_0
 			})
-			local var_16_2 = arg_16_2:Find("icon")
-			local var_16_3 = arg_16_2:Find("now")
-			local var_16_4 = var_16_1:isLoverLetter()
+			local var_17_2 = arg_17_2:Find("icon")
+			local var_17_3 = arg_17_2:Find("now")
+			local var_17_4 = var_17_1:isLoverLetter()
 
-			setActive(var_16_2, not var_16_4)
-			setActive(var_16_3, var_16_4)
+			setActive(var_17_2, not var_17_4)
+			setActive(var_17_3, var_17_4)
 
-			if var_16_4 then
-				setLoveLetterMedal(var_16_3:Find("medal"), var_16_1, {
+			if var_17_4 then
+				setLoveLetterMedal(var_17_3:Find("medal"), var_17_1, {
 					hideMark = true
 				})
 			else
-				LoadImageSpriteAsync("medal/s_" .. var_16_1:getConfig("icon"), var_16_2, true)
+				LoadImageSpriteAsync("medal/s_" .. var_17_1:getConfig("icon"), var_17_2, true)
 			end
 
-			local var_16_5 = var_15_2 - (arg_16_1 - 1) * (var_15_3 + arg_16_2.sizeDelta.x)
+			local var_17_5 = var_16_2 - (arg_17_1 - 1) * (var_16_3 + arg_17_2.sizeDelta.x)
 
-			arg_16_2.anchoredPosition = Vector2(var_16_5, arg_16_2.anchoredPosition.y)
+			arg_17_2.anchoredPosition = Vector2(var_17_5, arg_17_2.anchoredPosition.y)
 		end
 	end)
 end
 
-function var_0_0.UpdatePower(arg_17_0)
-	local var_17_0 = getProxy(MilitaryExerciseProxy):RawGetSeasonInfo()
-	local var_17_1 = SeasonInfo.getEmblem(var_17_0.score, var_17_0.rank)
+function var_0_0.UpdatePower(arg_18_0)
+	local var_18_0 = getProxy(MilitaryExerciseProxy):RawGetSeasonInfo()
+	local var_18_1 = SeasonInfo.getEmblem(var_18_0.score, var_18_0.rank)
 
-	LoadSpriteAsync("emblem/" .. var_17_1, function(arg_18_0)
-		arg_17_0.emblemIcon.sprite = arg_18_0
+	LoadSpriteAsync("emblem/" .. var_18_1, function(arg_19_0)
+		arg_18_0.emblemIcon.sprite = arg_19_0
 
-		arg_17_0.emblemIcon:SetNativeSize()
+		arg_18_0.emblemIcon:SetNativeSize()
 	end)
-	LoadSpriteAsync("emblem/n_" .. var_17_1, function(arg_19_0)
-		if arg_17_0.exited then
+	LoadSpriteAsync("emblem/n_" .. var_18_1, function(arg_20_0)
+		if arg_18_0.exited then
 			return
 		end
 
-		arg_17_0.emblemTxt.sprite = arg_19_0
+		arg_18_0.emblemTxt.sprite = arg_20_0
 
-		arg_17_0.emblemTxt:SetNativeSize()
+		arg_18_0.emblemTxt:SetNativeSize()
 	end)
 
-	local var_17_2 = math.max(arg_17_0.player.maxRank, 1)
-	local var_17_3 = pg.arena_data_rank[math.min(var_17_2, 14)]
+	local var_18_2 = math.max(arg_18_0.player.maxRank, 1)
+	local var_18_3 = pg.arena_data_rank[math.min(var_18_2, 14)]
 
-	arg_17_0.highestEmblem.text = i18n("friend_resume_title_metal") .. var_17_3.name
+	arg_18_0.highestEmblem.text = i18n("friend_resume_title_metal") .. var_18_3.name
 
-	getProxy(BayProxy):GetBayPowerRootedAsyn(function(arg_20_0)
-		if arg_17_0.exited then
+	getProxy(BayProxy):GetBayPowerRootedAsyn(function(arg_21_0)
+		if arg_18_0.exited then
 			return
 		end
 
-		arg_17_0.powerTxt.text = math.floor(arg_20_0)
+		arg_18_0.powerTxt.text = math.floor(arg_21_0)
 	end)
 
-	arg_17_0.collectionTxt.text = getProxy(CollectionProxy):getCollectionRate() * 100 .. "%"
+	arg_18_0.collectionTxt.text = getProxy(CollectionProxy):getCollectionRate() * 100 .. "%"
 end
 
-function var_0_0.UpdateInfo(arg_21_0)
-	arg_21_0.nameTxt.text = arg_21_0.player.name
-	arg_21_0.idTxt.text = arg_21_0.player.id
-	arg_21_0.levelTxt.text = "LV." .. arg_21_0.player.level
+function var_0_0.UpdateInfo(arg_22_0)
+	arg_22_0.nameTxt.text = arg_22_0.player.name
+	arg_22_0.idTxt.text = arg_22_0.player.id
+	arg_22_0.levelTxt.text = "LV." .. arg_22_0.player.level
 
-	local var_21_0 = getConfigFromLevel1(pg.user_level, arg_21_0.player.level).exp
+	local var_22_0 = getConfigFromLevel1(pg.user_level, arg_22_0.player.level).exp
 
-	arg_21_0.expTxt.text = arg_21_0.player.exp .. "/" .. var_21_0
+	arg_22_0.expTxt.text = arg_22_0.player.exp .. "/" .. var_22_0
 
-	local var_21_1 = arg_21_0.player:GetManifesto()
+	local var_22_1 = arg_22_0.player:GetManifesto()
 
-	setInputText(arg_21_0.inputField, var_21_1)
+	setInputText(arg_22_0.inputField, var_22_1)
 end
 
-function var_0_0.UpdateStatistics(arg_22_0)
-	local var_22_0 = arg_22_0:GetDisplayStatisticsData()
-	local var_22_1 = 2
-	local var_22_2 = Vector2(355, 25)
-	local var_22_3 = arg_22_0.statisticTpl.anchoredPosition
-	local var_22_4 = arg_22_0.statisticTpl.sizeDelta.x
+function var_0_0.UpdateStatistics(arg_23_0)
+	local var_23_0 = arg_23_0:GetDisplayStatisticsData()
+	local var_23_1 = 2
+	local var_23_2 = Vector2(355, 25)
+	local var_23_3 = arg_23_0.statisticTpl.anchoredPosition
+	local var_23_4 = arg_23_0.statisticTpl.sizeDelta.x
 
-	for iter_22_0 = 1, #var_22_0, var_22_1 do
-		local var_22_5 = var_22_3.y - (iter_22_0 - 1) * var_22_2.y
+	for iter_23_0 = 1, #var_23_0, var_23_1 do
+		local var_23_5 = var_23_3.y - (iter_23_0 - 1) * var_23_2.y
 
-		for iter_22_1 = 1, var_22_1 do
-			local var_22_6 = iter_22_1 == 1 and iter_22_0 == 1 and arg_22_0.statisticTpl or cloneTplTo(arg_22_0.statisticTpl, arg_22_0.statisticTpl.parent)
-			local var_22_7 = var_22_0[iter_22_0 + (iter_22_1 - 1)]
+		for iter_23_1 = 1, var_23_1 do
+			local var_23_6 = iter_23_1 == 1 and iter_23_0 == 1 and arg_23_0.statisticTpl or cloneTplTo(arg_23_0.statisticTpl, arg_23_0.statisticTpl.parent)
+			local var_23_7 = var_23_0[iter_23_0 + (iter_23_1 - 1)]
 
-			setText(var_22_6, i18n(var_22_7[1]))
-			setText(var_22_6:Find("value"), var_22_7[2])
+			setText(var_23_6, i18n(var_23_7[1]))
+			setText(var_23_6:Find("value"), var_23_7[2])
 
-			local var_22_8 = var_22_3.x + (iter_22_1 - 1) * var_22_2.x
+			local var_23_8 = var_23_3.x + (iter_23_1 - 1) * var_23_2.x
 
-			var_22_6.anchoredPosition = Vector2(var_22_8, var_22_5)
+			var_23_6.anchoredPosition = Vector2(var_23_8, var_23_5)
 		end
 	end
 end
 
-function var_0_0.GetDisplayStatisticsData(arg_23_0)
-	local var_23_0 = arg_23_0.player
-	local var_23_1 = string.format("%0.1f", var_23_0.winCount / math.max(var_23_0.attackCount, 1) * 100) .. "%"
-	local var_23_2 = string.format("%0.1f", var_23_0.pvp_win_count / math.max(var_23_0.pvp_attack_count, 1) * 100) .. "%"
+function var_0_0.GetDisplayStatisticsData(arg_24_0)
+	local var_24_0 = arg_24_0.player
+	local var_24_1 = string.format("%0.1f", var_24_0.winCount / math.max(var_24_0.attackCount, 1) * 100) .. "%"
+	local var_24_2 = string.format("%0.1f", var_24_0.pvp_win_count / math.max(var_24_0.pvp_attack_count, 1) * 100) .. "%"
 
 	return {
 		{
 			"friend_resume_ship_count",
-			var_23_0.shipCount
+			var_24_0.shipCount
 		},
 		{
 			"friend_event_count",
-			var_23_0.collect_attack_count
+			var_24_0.collect_attack_count
 		},
 		{
 			"friend_resume_attack_count",
-			var_23_0.attackCount
+			var_24_0.attackCount
 		},
 		{
 			"friend_resume_manoeuvre_count",
-			var_23_0.pvp_attack_count
+			var_24_0.pvp_attack_count
 		},
 		{
 			"friend_resume_attack_win_rate",
-			var_23_1
+			var_24_1
 		},
 		{
 			"friend_resume_manoeuvre_win_rate",
-			var_23_2
+			var_24_2
 		}
 	}
 end
 
-function var_0_0.OnDestroy(arg_24_0)
-	for iter_24_0, iter_24_1 in ipairs(arg_24_0.animPanels) do
-		if LeanTween.isTweening(iter_24_1.gameObject) then
-			LeanTween.cancel(iter_24_1.gameObject)
+function var_0_0.OnDestroy(arg_25_0)
+	for iter_25_0, iter_25_1 in ipairs(arg_25_0.animPanels) do
+		if LeanTween.isTweening(iter_25_1.gameObject) then
+			LeanTween.cancel(iter_25_1.gameObject)
 		end
 	end
 
-	eachChild(arg_24_0.medalTpl.parent, function(arg_25_0, arg_25_1)
-		if arg_25_0:Find("now/medal").childCount > 0 then
-			returnLoveLetterMedal(arg_25_0:Find("now/medal"):GetChild(0))
+	eachChild(arg_25_0.medalTpl.parent, function(arg_26_0, arg_26_1)
+		if arg_26_0:Find("now/medal").childCount > 0 then
+			returnLoveLetterMedal(arg_26_0:Find("now/medal"):GetChild(0))
 		end
 	end)
 
-	arg_24_0.exited = true
+	arg_25_0.exited = true
 end
 
 return var_0_0

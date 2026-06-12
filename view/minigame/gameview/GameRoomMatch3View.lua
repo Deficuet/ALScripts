@@ -529,7 +529,7 @@ function var_0_0.startGame(arg_37_0)
 			arg_37_0.gamePage:GetComponent("CanvasGroup").alpha = arg_40_0
 		end))
 		UpdateBeat:RemoveListener(arg_37_0.handle)
-	end, arg_37_0.infinite and var_0_15 or var_0_16)
+	end, var_0_15)
 
 	arg_37_0.handle = UpdateBeat:CreateListener(function()
 		setText(arg_37_0.countdownText, math.floor(var_37_0.time))

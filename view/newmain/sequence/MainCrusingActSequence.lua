@@ -58,6 +58,8 @@ function var_0_0.Execute(arg_1_0, arg_1_1)
 						arg_4_0()
 					end
 				})
+			else
+				arg_4_0()
 			end
 		end)
 	end

@@ -119,7 +119,13 @@ function var_0_1.GetShipMainEvents(arg_2_0, arg_2_1)
 	end
 
 	local var_2_0 = {}
-	local var_2_1 = ShipWordHelper.GetMainSceneWordCnt(arg_2_0, arg_2_1)
+	local var_2_1
+
+	if var_0_0.ship_skin_template[arg_2_0].skin_type == ShipSkin.SKIN_TYPE_TB then
+		var_2_1 = EducateCharWordHelper.GetMainSceneWordCnt(NewEducateHelper.GetSecIdBySkinId(arg_2_0))
+	else
+		var_2_1 = ShipWordHelper.GetMainSceneWordCnt(arg_2_0, arg_2_1)
+	end
 
 	for iter_2_0 = 1, var_2_1 do
 		local var_2_2 = iter_2_0

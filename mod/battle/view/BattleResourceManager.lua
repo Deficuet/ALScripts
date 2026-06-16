@@ -162,7 +162,13 @@ function var_0_5.ClearPaintingRes(arg_21_0, arg_21_1)
 end
 
 function var_0_5.DestroyOb(arg_22_0, arg_22_1)
+	if arg_22_1 == nil or IsNil(arg_22_1) then
+		return
+	end
+
 	local var_22_0 = arg_22_0._ob2Pool[arg_22_1]
+
+	arg_22_0._ob2Pool[arg_22_1] = nil
 
 	if var_22_0 then
 		var_22_0:Recycle(arg_22_1)

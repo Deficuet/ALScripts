@@ -5751,7 +5751,7 @@ end)()
 		aim_type = 0,
 		action_index = "",
 		axis_angle = 0,
-		type = 1,
+		type = 2,
 		range = 100,
 		fire_fx = "",
 		recover_time = 0,

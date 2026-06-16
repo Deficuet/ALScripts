@@ -72922,12 +72922,12 @@ end)()
 		primal_repeat = 6,
 		offset_z = 18,
 		first_delay = 0.4,
+		random_angle = false,
 		senior_repeat = 0,
-		senior_delay = 0,
 		id = 81989,
-		trans_ID = -1,
+		senior_delay = 0,
 		angle = 60,
-		random_angle = ture
+		trans_ID = -1
 	}
 end)()
 
@@ -72943,12 +72943,12 @@ end)()
 		primal_repeat = 6,
 		offset_z = 18,
 		first_delay = 0.8,
+		random_angle = false,
 		senior_repeat = 0,
-		senior_delay = 0,
 		id = 81990,
-		trans_ID = -1,
+		senior_delay = 0,
 		angle = 60,
-		random_angle = ture
+		trans_ID = -1
 	}
 end)()
 
@@ -72964,12 +72964,12 @@ end)()
 		primal_repeat = 6,
 		offset_z = 18,
 		first_delay = 1.2,
+		random_angle = false,
 		senior_repeat = 0,
-		senior_delay = 0,
 		id = 81991,
-		trans_ID = -1,
+		senior_delay = 0,
 		angle = 60,
-		random_angle = ture
+		trans_ID = -1
 	}
 end)()
 
@@ -72985,12 +72985,12 @@ end)()
 		primal_repeat = 6,
 		offset_z = 18,
 		first_delay = 1.6,
+		random_angle = false,
 		senior_repeat = 0,
-		senior_delay = 0,
 		id = 81992,
-		trans_ID = -1,
+		senior_delay = 0,
 		angle = 60,
-		random_angle = ture
+		trans_ID = -1
 	}
 end)()
 
@@ -73132,12 +73132,12 @@ end)()
 		primal_repeat = 6,
 		offset_z = 18,
 		first_delay = 1.1,
+		random_angle = false,
 		senior_repeat = 0,
-		senior_delay = 0,
 		id = 81999,
-		trans_ID = -1,
+		senior_delay = 0,
 		angle = 60,
-		random_angle = ture
+		trans_ID = -1
 	}
 end)()
 
@@ -73153,12 +73153,12 @@ end)()
 		primal_repeat = 6,
 		offset_z = 18,
 		first_delay = 1.5,
+		random_angle = false,
 		senior_repeat = 0,
-		senior_delay = 0,
 		id = 82000,
-		trans_ID = -1,
+		senior_delay = 0,
 		angle = 60,
-		random_angle = ture
+		trans_ID = -1
 	}
 end)()
 
@@ -73174,12 +73174,12 @@ end)()
 		primal_repeat = 6,
 		offset_z = 18,
 		first_delay = 1.9,
+		random_angle = false,
 		senior_repeat = 0,
-		senior_delay = 0,
 		id = 82001,
-		trans_ID = -1,
+		senior_delay = 0,
 		angle = 60,
-		random_angle = ture
+		trans_ID = -1
 	}
 end)()
 
@@ -73195,12 +73195,12 @@ end)()
 		primal_repeat = 6,
 		offset_z = 18,
 		first_delay = 2.3,
+		random_angle = false,
 		senior_repeat = 0,
-		senior_delay = 0,
 		id = 82002,
-		trans_ID = -1,
+		senior_delay = 0,
 		angle = 60,
-		random_angle = ture
+		trans_ID = -1
 	}
 end)()
 

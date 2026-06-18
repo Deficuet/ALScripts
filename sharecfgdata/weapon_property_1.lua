@@ -1239217,7 +1239217,7 @@ end)()
 	_G.pg.base.weapon_property_1[3155001] = {
 		reload_max = 6000,
 		suppress = 1,
-		damage = 60,
+		damage = 100,
 		base = 1009,
 		id = 3155001,
 		queue = 1,
@@ -1239240,7 +1239240,7 @@ end)()
 	_G.pg.base.weapon_property_1[3155002] = {
 		reload_max = 6000,
 		suppress = 1,
-		damage = 30,
+		damage = 40,
 		base = 1009,
 		id = 3155002,
 		queue = 2,
@@ -1239261,18 +1239261,18 @@ end)()
 	_G.pg.base.weapon_property_1[3155003] = {
 		reload_max = 6000,
 		suppress = 0,
-		damage = 125,
+		damage = 150,
 		base = 1009,
 		id = 3155003,
 		queue = 1,
 		action_index = "",
 		aim_type = 0,
 		bullet_ID = {
-			3155008,
-			3155009,
-			3155010,
-			3155011,
-			3155012
+			3155030,
+			3155031,
+			3155032,
+			3155033,
+			3155034
 		},
 		barrage_ID = {
 			3155009,
@@ -1239288,14 +1239288,14 @@ end)()
 	_G.pg.base.weapon_property_1[3155004] = {
 		reload_max = 6000,
 		suppress = 1,
-		damage = 25,
+		damage = 40,
 		base = 1009,
 		id = 3155004,
 		queue = 2,
 		action_index = "",
 		aim_type = 1,
 		bullet_ID = {
-			3155016
+			3155029
 		},
 		barrage_ID = {
 			3155013
@@ -1239307,7 +1239307,7 @@ end)()
 	_G.pg.base.weapon_property_1[3155005] = {
 		type = 19,
 		range = 120,
-		damage = 150,
+		damage = 250,
 		base = 1009,
 		suppress = 1,
 		min_range = 0,
@@ -1239370,7 +1239370,7 @@ end)()
 	_G.pg.base.weapon_property_1[3155006] = {
 		type = 19,
 		range = 150,
-		damage = 30,
+		damage = 80,
 		base = 1009,
 		suppress = 1,
 		min_range = 92,
@@ -1239420,7 +1239420,7 @@ end)()
 	_G.pg.base.weapon_property_1[3155007] = {
 		reload_max = 6000,
 		suppress = 1,
-		damage = 100,
+		damage = 120,
 		base = 1009,
 		id = 3155007,
 		queue = 1,
@@ -1239439,7 +1239439,7 @@ end)()
 	_G.pg.base.weapon_property_1[3155008] = {
 		reload_max = 6000,
 		suppress = 0,
-		damage = 20,
+		damage = 30,
 		base = 1009,
 		id = 3155008,
 		queue = 2,
@@ -1239460,7 +1239460,7 @@ end)()
 	_G.pg.base.weapon_property_1[3155009] = {
 		reload_max = 6000,
 		suppress = 0,
-		damage = 20,
+		damage = 30,
 		base = 1009,
 		id = 3155009,
 		queue = 3,
@@ -1239493,7 +1239493,7 @@ end)()
 	_G.pg.base.weapon_property_1[3155011] = {
 		suppress = 1,
 		range = 120,
-		damage = 50,
+		damage = 100,
 		base = 1009,
 		attack_attribute = 4,
 		action_index = "",
@@ -1239513,7 +1239513,7 @@ end)()
 	_G.pg.base.weapon_property_1[3155101] = {
 		reload_max = 6000,
 		suppress = 1,
-		damage = 14,
+		damage = 20,
 		base = 1009,
 		id = 3155101,
 		queue = 1,
@@ -1239536,7 +1239536,7 @@ end)()
 	_G.pg.base.weapon_property_1[3155102] = {
 		reload_max = 6000,
 		suppress = 1,
-		damage = 14,
+		damage = 12,
 		base = 1009,
 		id = 3155102,
 		queue = 2,
@@ -1239557,18 +1239557,18 @@ end)()
 	_G.pg.base.weapon_property_1[3155103] = {
 		reload_max = 6000,
 		suppress = 0,
-		damage = 14,
+		damage = 20,
 		base = 1009,
 		id = 3155103,
 		queue = 1,
 		action_index = "",
 		aim_type = 0,
 		bullet_ID = {
-			3155008,
-			3155009,
-			3155010,
-			3155011,
-			3155012
+			3155030,
+			3155031,
+			3155032,
+			3155033,
+			3155034
 		},
 		barrage_ID = {
 			3155009,
@@ -1239584,14 +1239584,14 @@ end)()
 	_G.pg.base.weapon_property_1[3155104] = {
 		reload_max = 6000,
 		suppress = 1,
-		damage = 14,
+		damage = 12,
 		base = 1009,
 		id = 3155104,
 		queue = 2,
 		action_index = "",
 		aim_type = 1,
 		bullet_ID = {
-			3155016
+			3155029
 		},
 		barrage_ID = {
 			3155013
@@ -1239603,7 +1239603,7 @@ end)()
 	_G.pg.base.weapon_property_1[3155105] = {
 		type = 19,
 		range = 120,
-		damage = 26,
+		damage = 80,
 		base = 1009,
 		suppress = 1,
 		min_range = 0,
@@ -1239666,7 +1239666,7 @@ end)()
 	_G.pg.base.weapon_property_1[3155106] = {
 		type = 19,
 		range = 150,
-		damage = 34,
+		damage = 40,
 		base = 1009,
 		suppress = 1,
 		min_range = 92,
@@ -1239716,7 +1239716,7 @@ end)()
 	_G.pg.base.weapon_property_1[3155107] = {
 		reload_max = 6000,
 		suppress = 1,
-		damage = 14,
+		damage = 15,
 		base = 1009,
 		id = 3155107,
 		queue = 1,
@@ -1239735,7 +1239735,7 @@ end)()
 	_G.pg.base.weapon_property_1[3155108] = {
 		reload_max = 6000,
 		suppress = 0,
-		damage = 14,
+		damage = 12,
 		base = 1009,
 		id = 3155108,
 		queue = 2,
@@ -1239756,7 +1239756,7 @@ end)()
 	_G.pg.base.weapon_property_1[3155109] = {
 		reload_max = 6000,
 		suppress = 1,
-		damage = 14,
+		damage = 12,
 		base = 1009,
 		id = 3155109,
 		queue = 3,
@@ -1239789,7 +1239789,7 @@ end)()
 	_G.pg.base.weapon_property_1[3155111] = {
 		suppress = 1,
 		range = 120,
-		damage = 16,
+		damage = 20,
 		base = 1009,
 		attack_attribute = 4,
 		action_index = "",
@@ -1239809,7 +1239809,7 @@ end)()
 	_G.pg.base.weapon_property_1[3155112] = {
 		reload_max = 6000,
 		suppress = 0,
-		damage = 14,
+		damage = 12,
 		base = 1009,
 		id = 3155112,
 		queue = 3,
@@ -1239830,7 +1239830,7 @@ end)()
 	_G.pg.base.weapon_property_1[3155113] = {
 		type = 19,
 		range = 120,
-		damage = 12,
+		damage = 60,
 		base = 1009,
 		action_index = "",
 		suppress = 1,

@@ -134635,6 +134635,726 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_data_statistics[68297] = {
+		open_directly = 1,
+		name = "换装抵扣礼包(邮轮上的诱人午后)",
+		display = "购买后可获得<color=#92fc63FF>圣路易斯</color>换装<color=#92fc63FF>邮轮上的诱人午后</color>的钻石抵扣券等道具",
+		type = 17,
+		display_effect = "",
+		id = 68297,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "ChargeIcon/skin_ticket_package",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "88036",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				68300,
+				1
+			},
+			{
+				2,
+				68303,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68298] = {
+		open_directly = 1,
+		name = "换装抵扣礼包(盛夏的圣迹)",
+		display = "购买后可获得<color=#92fc63FF>阿尔萨斯</color>换装<color=#92fc63FF>盛夏的圣迹</color>的钻石抵扣券等道具",
+		type = 17,
+		display_effect = "",
+		id = 68298,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "ChargeIcon/skin_ticket_package",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "88037",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				68301,
+				1
+			},
+			{
+				2,
+				68304,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68299] = {
+		open_directly = 1,
+		name = "换装抵扣礼包(静谧一隅的燥热)",
+		display = "购买后可获得<color=#92fc63FF>莫加多尔</color>换装<color=#92fc63FF>静谧一隅的燥热</color>的钻石抵扣券等道具",
+		type = 17,
+		display_effect = "",
+		id = 68299,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "ChargeIcon/skin_ticket_package",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "88038",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				68302,
+				1
+			},
+			{
+				2,
+				68305,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68300] = {
+		open_directly = 0,
+		name = "换装抵扣券(邮轮上的诱人午后)",
+		display = "持有此道具时，购买<color=#92fc63FF>圣路易斯</color>换装<color=#92fc63FF>邮轮上的诱人午后</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年6月18日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+		type = 1,
+		display_effect = "",
+		id = 68300,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_shop_discount",
+		link_id = 0,
+		icon = "Props/limit_skin_300",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			14,
+			300
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			{
+				71010
+			},
+			300
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68301] = {
+		open_directly = 0,
+		name = "换装抵扣券(盛夏的圣迹)",
+		display = "持有此道具时，购买<color=#92fc63FF>阿尔萨斯</color>换装<color=#92fc63FF>盛夏的圣迹</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年6月18日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+		type = 1,
+		display_effect = "",
+		id = 68301,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_shop_discount",
+		link_id = 0,
+		icon = "Props/limit_skin_300",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			14,
+			300
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			{
+				71005
+			},
+			300
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68302] = {
+		open_directly = 0,
+		name = "换装抵扣券(静谧一隅的燥热)",
+		display = "持有此道具时，购买<color=#92fc63FF>莫加多尔</color>换装<color=#92fc63FF>静谧一隅的燥热</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年6月18日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+		type = 1,
+		display_effect = "",
+		id = 68302,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_shop_discount",
+		link_id = 0,
+		icon = "Props/limit_skin_300",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			14,
+			300
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			{
+				71006
+			},
+			300
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68303] = {
+		open_directly = 0,
+		name = "换装体验券(邮轮上的诱人午后)",
+		display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>圣路易斯</color>换装<color=#92fc63FF>邮轮上的诱人午后</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年6月18日 23:59，过期后此道具将消失</color>",
+		type = 1,
+		display_effect = "",
+		id = 68303,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_skin_exp",
+		link_id = 0,
+		icon = "Props/limit_skinticket",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			1,
+			0
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			90497
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68304] = {
+		open_directly = 0,
+		name = "换装体验券(盛夏的圣迹)",
+		display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>阿尔萨斯</color>换装<color=#92fc63FF>盛夏的圣迹</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年6月18日 23:59，过期后此道具将消失</color>",
+		type = 1,
+		display_effect = "",
+		id = 68304,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_skin_exp",
+		link_id = 0,
+		icon = "Props/limit_skinticket",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			1,
+			0
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			90498
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68305] = {
+		open_directly = 0,
+		name = "换装体验券(静谧一隅的燥热)",
+		display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>莫加多尔</color>换装<color=#92fc63FF>静谧一隅的燥热</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年6月18日 23:59，过期后此道具将消失</color>",
+		type = 1,
+		display_effect = "",
+		id = 68305,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_skin_exp",
+		link_id = 0,
+		icon = "Props/limit_skinticket",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			1,
+			0
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			90499
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68315] = {
+		open_directly = 1,
+		name = "换装抵扣礼包(邮轮上的诱人午后)",
+		display = "购买后可获得<color=#92fc63FF>圣路易斯</color>换装<color=#92fc63FF>邮轮上的诱人午后</color>的钻石抵扣券等道具",
+		type = 17,
+		display_effect = "",
+		id = 68315,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "ChargeIcon/skin_ticket_package",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "88120",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				68318,
+				1
+			},
+			{
+				2,
+				68321,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68316] = {
+		open_directly = 1,
+		name = "换装抵扣礼包(盛夏的圣迹)",
+		display = "购买后可获得<color=#92fc63FF>阿尔萨斯</color>换装<color=#92fc63FF>盛夏的圣迹</color>的钻石抵扣券等道具",
+		type = 17,
+		display_effect = "",
+		id = 68316,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "ChargeIcon/skin_ticket_package",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "88121",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				68319,
+				1
+			},
+			{
+				2,
+				68322,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68317] = {
+		open_directly = 1,
+		name = "换装抵扣礼包(静谧一隅的燥热)",
+		display = "购买后可获得<color=#92fc63FF>莫加多尔</color>换装<color=#92fc63FF>静谧一隅的燥热</color>的钻石抵扣券等道具",
+		type = 17,
+		display_effect = "",
+		id = 68317,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "ChargeIcon/skin_ticket_package",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "88122",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				68320,
+				1
+			},
+			{
+				2,
+				68323,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68318] = {
+		open_directly = 0,
+		name = "换装抵扣券(邮轮上的诱人午后)",
+		display = "持有此道具时，购买<color=#92fc63FF>圣路易斯</color>换装<color=#92fc63FF>邮轮上的诱人午后</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年6月24日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+		type = 1,
+		display_effect = "",
+		id = 68318,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_shop_discount",
+		link_id = 0,
+		icon = "Props/limit_skin_300",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			14,
+			300
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			{
+				71364
+			},
+			300
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68319] = {
+		open_directly = 0,
+		name = "换装抵扣券(盛夏的圣迹)",
+		display = "持有此道具时，购买<color=#92fc63FF>阿尔萨斯</color>换装<color=#92fc63FF>盛夏的圣迹</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年6月24日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+		type = 1,
+		display_effect = "",
+		id = 68319,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_shop_discount",
+		link_id = 0,
+		icon = "Props/limit_skin_300",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			14,
+			300
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			{
+				71359
+			},
+			300
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68320] = {
+		open_directly = 0,
+		name = "换装抵扣券(静谧一隅的燥热)",
+		display = "持有此道具时，购买<color=#92fc63FF>莫加多尔</color>换装<color=#92fc63FF>静谧一隅的燥热</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年6月24日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+		type = 1,
+		display_effect = "",
+		id = 68320,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_shop_discount",
+		link_id = 0,
+		icon = "Props/limit_skin_300",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			14,
+			300
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			{
+				71360
+			},
+			300
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68321] = {
+		open_directly = 0,
+		name = "换装体验券(邮轮上的诱人午后)",
+		display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>圣路易斯</color>换装<color=#92fc63FF>邮轮上的诱人午后</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年6月24日 23:59，过期后此道具将消失</color>",
+		type = 1,
+		display_effect = "",
+		id = 68321,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_skin_exp",
+		link_id = 0,
+		icon = "Props/limit_skinticket",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			1,
+			0
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			90509
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68322] = {
+		open_directly = 0,
+		name = "换装体验券(盛夏的圣迹)",
+		display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>阿尔萨斯</color>换装<color=#92fc63FF>盛夏的圣迹</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年6月24日 23:59，过期后此道具将消失</color>",
+		type = 1,
+		display_effect = "",
+		id = 68322,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_skin_exp",
+		link_id = 0,
+		icon = "Props/limit_skinticket",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			1,
+			0
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			90510
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68323] = {
+		open_directly = 0,
+		name = "换装体验券(静谧一隅的燥热)",
+		display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>莫加多尔</color>换装<color=#92fc63FF>静谧一隅的燥热</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年6月24日 23:59，过期后此道具将消失</color>",
+		type = 1,
+		display_effect = "",
+		id = 68323,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_skin_exp",
+		link_id = 0,
+		icon = "Props/limit_skinticket",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			1,
+			0
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			90511
+		},
+		limit = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_data_statistics[68261] = {
 		open_directly = 1,
 		name = "换装抵扣礼包(晨光里的事故)",

@@ -187682,6 +187682,33 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[65991] = {
+		display = "用于「限时体验商店」兑换角色限时换装",
+		name = "换装体验券",
+		album_config = "",
+		type = 98,
+		drop_oil_max = 0,
+		virtual_type = 0,
+		shop_id = 1,
+		replace_item = 0,
+		id = 65991,
+		link_id = 0,
+		icon = "Props/skinTicket",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[65918] = {
 		display = "用于「圣印前的同盟」活动的常规兑换，活动结束后将会消失",
 		name = "神圣联合帝国金币",
@@ -190256,6 +190283,114 @@ end)()
 		id = 66036,
 		link_id = 0,
 		icon = "Props/union_pt",
+		order = 0,
+		rarity = 2,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[66041] = {
+		display = "用于「绽放于辉光之城」复刻活动的常规兑换，活动结束后将会消失",
+		name = "辉光碎晶",
+		album_config = "",
+		type = 98,
+		drop_oil_max = 0,
+		virtual_type = 0,
+		shop_id = -1,
+		replace_item = 0,
+		id = 66041,
+		link_id = 0,
+		icon = "Props/huiguang_pt1",
+		order = 0,
+		rarity = 2,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[66042] = {
+		display = "用于「绽放于辉光之城」复刻活动的特殊兑换，活动结束后将会消失",
+		name = "审判庭事件报告书",
+		album_config = "",
+		type = 98,
+		drop_oil_max = 0,
+		virtual_type = 0,
+		shop_id = -1,
+		replace_item = 0,
+		id = 66042,
+		link_id = 0,
+		icon = "Props/huiguang_pt2",
+		order = 0,
+		rarity = 3,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[66043] = {
+		display = "于「绽放于辉光之城」活动限时复刻中获取，可以免费进行一次「绽放于辉光之城」限定建造（活动结束后消失）",
+		name = "单次建造券",
+		album_config = "",
+		type = 0,
+		drop_oil_max = 0,
+		virtual_type = 22,
+		shop_id = -1,
+		replace_item = 0,
+		id = 66043,
+		link_id = 51044,
+		icon = "Props/buildTicket",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[66044] = {
+		display = "用于头像框活动兑换，活动结束后将会消失",
+		name = "训练点数",
+		album_config = "",
+		type = 98,
+		drop_oil_max = 0,
+		virtual_type = 0,
+		shop_id = -1,
+		replace_item = 0,
+		id = 66044,
+		link_id = 0,
+		icon = "Props/xunliandianshu_m1",
 		order = 0,
 		rarity = 2,
 		max_num = 0,

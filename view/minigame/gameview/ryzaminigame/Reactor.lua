@@ -20,7 +20,7 @@ function var_0_0.Init(arg_5_0, arg_5_1)
 	arg_5_0.name = arg_5_1.name
 
 	if arg_5_0:GetBaseOrder() ~= "floor" then
-		setCanvasOverrideSorting(arg_5_0._tf, true)
+		SetCanvasOverrideSorting(arg_5_0._tf, true)
 	end
 
 	var_0_0.UpdatePos(arg_5_0, NewPos(unpack(arg_5_1.pos)))

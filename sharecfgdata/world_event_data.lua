@@ -6571,6 +6571,7 @@ end)()
 		scale = 0,
 		event_op = {},
 		effect = {
+			1473,
 			1439
 		},
 		grid = {

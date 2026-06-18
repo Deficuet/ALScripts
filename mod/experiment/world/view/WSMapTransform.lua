@@ -15,7 +15,7 @@ function var_0_0.SetModelOrder(arg_2_0, arg_2_1, arg_2_2)
 	assert(arg_2_0.transform)
 
 	if not GetComponent(arg_2_0.transform, typeof(Canvas)) then
-		setCanvasOverrideSorting(arg_2_0.transform, true)
+		SetCanvasOverrideSorting(arg_2_0.transform, true)
 	end
 
 	local var_2_0 = 0

@@ -41,7 +41,7 @@ function var_0_0.updateRedPoint(arg_4_0, arg_4_1)
 end
 
 function var_0_0.willExit(arg_5_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_5_0.blurPanel, arg_5_0._tf)
+	arg_5_0:UnOverlayPanel(arg_5_0.blurPanel, arg_5_0._tf)
 
 	arg_5_0.rightLSC.onReturnItem = nil
 
@@ -125,11 +125,11 @@ function var_0_0.addBtnListener(arg_9_0)
 	onToggle(arg_9_0, arg_9_0.switchBtn, function(arg_12_0)
 		if arg_12_0 then
 			setActive(arg_9_0.pointTF, false)
-			pg.UIMgr.GetInstance():OverlayPanel(arg_9_0.blurPanel)
+			arg_9_0:OverlayPanel(arg_9_0.blurPanel)
 			arg_9_0:emit(TechnologyConst.OPEN_TECHNOLOGY_NATION_LAYER)
 		else
 			setActive(arg_9_0.pointTF, true)
-			pg.UIMgr.GetInstance():UnOverlayPanel(arg_9_0.blurPanel, arg_9_0._tf)
+			arg_9_0:UnOverlayPanel(arg_9_0.blurPanel, arg_9_0._tf)
 			arg_9_0:emit(TechnologyConst.CLOSE_TECHNOLOGY_NATION_LAYER)
 		end
 	end, SFX_PANEL)

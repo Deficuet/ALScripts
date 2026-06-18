@@ -290184,15 +290184,15 @@ end)()
 		delay = 0,
 		offset_x = 0,
 		delta_offset_z = 0,
-		delta_angle = 20,
-		primal_repeat = 8,
+		delta_angle = 0,
+		primal_repeat = 0,
 		offset_z = 0,
 		first_delay = 3,
 		random_angle = false,
 		senior_repeat = 99,
 		id = 3155009,
 		senior_delay = 6,
-		angle = -80,
+		angle = 0,
 		trans_ID = -1
 	}
 end)()
@@ -290205,15 +290205,15 @@ end)()
 		delay = 0,
 		offset_x = 0,
 		delta_offset_z = 0,
-		delta_angle = 20,
-		primal_repeat = 7,
+		delta_angle = 0,
+		primal_repeat = 0,
 		offset_z = 0,
 		first_delay = 3,
 		random_angle = false,
 		senior_repeat = 99,
 		id = 3155010,
 		senior_delay = 6,
-		angle = -70,
+		angle = 0,
 		trans_ID = -1
 	}
 end)()
@@ -290697,6 +290697,48 @@ end)()
 		id = 3155033,
 		senior_delay = 0,
 		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template_1[3155034] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 20,
+		primal_repeat = 8,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3155034,
+		senior_delay = 0,
+		angle = -80,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template_1[3155035] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 20,
+		primal_repeat = 7,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3155035,
+		senior_delay = 0,
+		angle = -70,
 		trans_ID = -1
 	}
 end)()

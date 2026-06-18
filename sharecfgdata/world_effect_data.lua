@@ -5482,14 +5482,101 @@ end)()
 		autocomplete = 0,
 		effect_type = 10,
 		effective_num = 0,
-		autoflag = "",
+		id = 1472,
 		log_text = "",
 		autoactivate = 0,
-		id = 1472,
 		sound_effects = "",
 		effect_paramater = {
 			1411
-		}
+		},
+		autoflag = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.world_effect_data[1473] = {
+		autocomplete = 0,
+		effect_type = 54,
+		effective_num = 0,
+		id = 1473,
+		log_text = "",
+		autoactivate = 0,
+		sound_effects = "",
+		effect_paramater = {
+			{
+				1405,
+				1014001
+			},
+			{
+				1405,
+				1014002
+			},
+			{
+				2105,
+				1021001
+			},
+			{
+				2105,
+				1021002
+			},
+			{
+				3305,
+				1033001
+			},
+			{
+				3305,
+				1033002
+			},
+			{
+				7204,
+				1072001
+			},
+			{
+				7204,
+				1072002
+			},
+			{
+				7305,
+				1073001
+			},
+			{
+				7305,
+				1073002
+			},
+			{
+				8205,
+				1082001
+			},
+			{
+				8205,
+				1082002
+			},
+			{
+				9205,
+				1092001
+			},
+			{
+				9205,
+				1092002
+			},
+			{
+				10204,
+				1102001
+			},
+			{
+				10204,
+				1102002
+			},
+			{
+				11105,
+				1111001
+			},
+			{
+				11105,
+				1111002
+			}
+		},
+		autoflag = {}
 	}
 end)()
 

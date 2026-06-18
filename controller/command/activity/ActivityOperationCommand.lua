@@ -960,6 +960,7 @@ function var_0_0.performance(arg_51_0, arg_51_1, arg_51_2, arg_51_3, arg_51_4)
 
 		getProxy(ActivityProxy):updateActivity(arg_51_3)
 		arg_51_0:sendNotification(ActivityProxy.ACTIVITY_OPERATION_DONE, arg_51_1.activity_id)
+		existCall(arg_51_1.callback)
 	end)
 
 	var_51_2()

@@ -24411,7 +24411,7 @@ end)()
 	pg.base.furniture_data_template[283] = {
 		spine_extra = "",
 		describe = "由审判庭制作的圣米歇尔山圣堂微缩模型，细致还原了山上的一草一木。",
-		gain_by = "",
+		gain_by = "幻梦间奏曲；核心限定商店",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,

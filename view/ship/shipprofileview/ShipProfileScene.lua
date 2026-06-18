@@ -347,13 +347,7 @@ function var_0_0.LoadSkinBg(arg_29_0, arg_29_1)
 				arg_32_0.transform.localScale = Vector3(1, 1, 1)
 
 				arg_32_0.transform:SetSiblingIndex(1)
-
-				local var_32_0 = arg_32_0:GetComponent("Canvas")
-
-				if var_32_0 then
-					var_32_0.sortingOrder = LayerWeightConst.PAINTING_RARITY_DESIGN_LAYER
-				end
-
+				SetTFLayerOrder(arg_32_0.transform, LayerWeightConst.PAINTING_RARITY_DESIGN_LAYER)
 				setActive(arg_32_0, true)
 			end)
 		end

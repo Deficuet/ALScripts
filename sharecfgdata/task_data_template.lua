@@ -247362,6 +247362,2675 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[27181] = {
+		name = "『阿尔萨斯轻量化复刻』前哨战五日任务1",
+		guild_coin_award = 0,
+		award = 902200,
+		type = 26,
+		desc = "舰队出征，以S评价通关10次",
+		count_inherit = 0,
+		sub_type = 24,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27181,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27182] = {
+		name = "『阿尔萨斯轻量化复刻』前哨战五日任务2",
+		guild_coin_award = 0,
+		award = 902201,
+		type = 26,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27182,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27183] = {
+		name = "『阿尔萨斯轻量化复刻』前哨战五日任务3",
+		guild_coin_award = 0,
+		award = 902202,
+		type = 26,
+		desc = "进行2次演习",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27183,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27184] = {
+		name = "『阿尔萨斯轻量化复刻』前哨战五日任务4",
+		guild_coin_award = 0,
+		award = 902204,
+		type = 26,
+		desc = "舰船退役2次",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27184,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27185] = {
+		name = "『阿尔萨斯轻量化复刻』前哨战五日任务5",
+		guild_coin_award = 0,
+		award = 902206,
+		type = 26,
+		desc = "舰船强化5次",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27185,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54033,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27186] = {
+		name = "『阿尔萨斯轻量化复刻』前哨战五日任务6",
+		guild_coin_award = 0,
+		award = 902207,
+		type = 26,
+		desc = "进行战术训练2次",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27186,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27187] = {
+		name = "『阿尔萨斯轻量化复刻』前哨战五日任务7",
+		guild_coin_award = 0,
+		award = 902208,
+		type = 26,
+		desc = "击沉任意敌人20艘",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27187,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27188] = {
+		name = "『阿尔萨斯轻量化复刻』前哨战五日任务8",
+		guild_coin_award = 0,
+		award = 902209,
+		type = 26,
+		desc = "后宅补充食物5次",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27188,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27189] = {
+		name = "『阿尔萨斯轻量化复刻』前哨战五日任务9",
+		guild_coin_award = 0,
+		award = 902210,
+		type = 26,
+		desc = "建造舰船2次",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27189,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27190] = {
+		name = "『阿尔萨斯轻量化复刻』前哨战五日任务10",
+		guild_coin_award = 0,
+		award = 902213,
+		type = 26,
+		desc = "击败旗舰3次 ",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27190,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				3,
+				150320,
+				1
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27201] = {
+		name = "『阿尔萨斯轻量化复刻』-日常建造",
+		guild_coin_award = 0,
+		award = 910181,
+		type = 36,
+		desc = "建造舰船3次。",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27201,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				717,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27202] = {
+		name = "『阿尔萨斯轻量化复刻』-日常出击",
+		guild_coin_award = 0,
+		award = 910182,
+		type = 36,
+		desc = "舰队出征，获得15次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27202,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				717,
+				300
+			},
+			{
+				2,
+				66043,
+				1
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27203] = {
+		name = "『阿尔萨斯轻量化复刻』-日常困难本",
+		guild_coin_award = 0,
+		award = 910183,
+		type = 36,
+		desc = "通关1次任意困难关卡 ",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27203,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				717,
+				150
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27204] = {
+		name = "『阿尔萨斯轻量化复刻』-日常活动关卡",
+		guild_coin_award = 0,
+		award = 910184,
+		type = 36,
+		desc = "通关1次任意活动关卡 ",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27204,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1810001,
+			1810002,
+			1810003,
+			1810004,
+			1810005,
+			1810006,
+			1810021,
+			1810022,
+			1810023,
+			1810024,
+			1810025,
+			1810026,
+			1810041,
+			1810051
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				717,
+				300
+			},
+			{
+				2,
+				54006,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51034
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27205] = {
+		name = "『阿尔萨斯轻量化复刻』通关A1/C1",
+		guild_coin_award = 0,
+		award = 910185,
+		type = 6,
+		desc = "击败A1或C1旗舰1次",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27205,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1810001,
+			1810021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				66043,
+				1
+			},
+			{
+				1,
+				717,
+				200
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51033
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27206] = {
+		name = "『阿尔萨斯轻量化复刻』通关A2/C2",
+		guild_coin_award = 0,
+		award = 910186,
+		type = 6,
+		desc = "击败A2或C2旗舰1次",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27206,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1810002,
+			1810022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				66043,
+				1
+			},
+			{
+				1,
+				717,
+				400
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51033
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27207] = {
+		name = "『阿尔萨斯轻量化复刻』通关A3/C3",
+		guild_coin_award = 0,
+		award = 910187,
+		type = 6,
+		desc = "击败A3或C3旗舰1次",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27207,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1810003,
+			1810023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				2,
+				66043,
+				2
+			},
+			{
+				1,
+				717,
+				600
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51033
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27208] = {
+		name = "『阿尔萨斯轻量化复刻』通关B1/D1",
+		guild_coin_award = 0,
+		award = 910188,
+		type = 6,
+		desc = "击败B1或D1旗舰1次",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27208,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1810004,
+			1810024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				66043,
+				1
+			},
+			{
+				1,
+				717,
+				400
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51034
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27209] = {
+		name = "『阿尔萨斯轻量化复刻』通关B2/D2",
+		guild_coin_award = 0,
+		award = 910189,
+		type = 6,
+		desc = "击败B2或D2旗舰1次",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27209,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1810005,
+			1810025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				66043,
+				1
+			},
+			{
+				1,
+				717,
+				600
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51034
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27210] = {
+		name = "『阿尔萨斯轻量化复刻』通关B3/D3",
+		guild_coin_award = 0,
+		award = 910190,
+		type = 6,
+		desc = "击败B3或D3旗舰1次",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27210,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1810006,
+			1810026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				2,
+				66043,
+				2
+			},
+			{
+				1,
+				717,
+				800
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51034
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27211] = {
+		name = "『阿尔萨斯轻量化复刻』通关SP",
+		guild_coin_award = 0,
+		award = 910191,
+		type = 6,
+		desc = "通关SP",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1810041",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27211,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				2,
+				66043,
+				3
+			},
+			{
+				1,
+				718,
+				50
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1810025,
+				chapterId = 1810041
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27212] = {
+		name = "『阿尔萨斯轻量化复刻』通关D3",
+		guild_coin_award = 0,
+		award = 910192,
+		type = 6,
+		desc = "通关D3<color=#92fc63>（勋章无法重复获得）</color>",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1810026",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27212,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				276,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1810012,
+				chapterId = 1810026
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27213] = {
+		name = "『阿尔萨斯轻量化复刻』通关EX",
+		guild_coin_award = 0,
+		award = 910193,
+		type = 6,
+		desc = "通关EX关卡",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1810051",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27213,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1810026,
+				chapterId = 1810051
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27214] = {
+		name = "『阿尔萨斯轻量化复刻』A1/C1的3星",
+		guild_coin_award = 0,
+		award = 910194,
+		type = 6,
+		desc = "完成A1或C1的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "27215",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27214,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1810001,
+			1810021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51033
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27215] = {
+		name = "『阿尔萨斯轻量化复刻』A2/C2的3星",
+		guild_coin_award = 0,
+		award = 910195,
+		type = 6,
+		desc = "完成A2或C2的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "27216",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27215,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1810002,
+			1810022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51033
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27216] = {
+		name = "『阿尔萨斯轻量化复刻』A3/C3的3星",
+		guild_coin_award = 0,
+		award = 910196,
+		type = 6,
+		desc = "完成A3或C3的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "27217",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27216,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1810003,
+			1810023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51033
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27217] = {
+		name = "『阿尔萨斯轻量化复刻』B1/D1的3星",
+		guild_coin_award = 0,
+		award = 910197,
+		type = 6,
+		desc = "完成B1或D1的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "27218",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27217,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1810004,
+			1810024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51034
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27218] = {
+		name = "『阿尔萨斯轻量化复刻』B2/D2的3星",
+		guild_coin_award = 0,
+		award = 910198,
+		type = 6,
+		desc = "完成B2或D2的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "27219",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27218,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1810005,
+			1810025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51034
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27219] = {
+		name = "『阿尔萨斯轻量化复刻』B3/D3的3星",
+		guild_coin_award = 0,
+		award = 910199,
+		type = 6,
+		desc = "完成B3或D3的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27219,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1810006,
+			1810026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51034
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27220] = {
+		name = "『阿尔萨斯轻量化复刻』外观装备箱保底",
+		guild_coin_award = 0,
+		award = 910200,
+		type = 6,
+		desc = "通过「活动商店」兑换或「补给商店-军火」购买20个 [外观装备箱(邮轮假日)]",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "30356",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27220,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30540,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27281] = {
+		name = "『阿尔萨斯轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 910237,
+		type = 6,
+		desc = "通关3次任意活动关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27281,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1810001,
+			1810002,
+			1810003,
+			1810004,
+			1810005,
+			1810006,
+			1810021,
+			1810022,
+			1810023,
+			1810024,
+			1810025,
+			1810026,
+			1810041,
+			1810051
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				718,
+				10
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51033
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27282] = {
+		name = "『阿尔萨斯轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 910237,
+		type = 6,
+		desc = "强化装备2次 ",
+		count_inherit = 0,
+		sub_type = 40,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27282,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				718,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27283] = {
+		name = "『阿尔萨斯轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 910237,
+		type = 6,
+		desc = "完成军事委托2次",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27283,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				718,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27284] = {
+		name = "『阿尔萨斯轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 910237,
+		type = 6,
+		desc = "进行2次演习",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27284,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				718,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27285] = {
+		name = "『阿尔萨斯轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 910237,
+		type = 6,
+		desc = "舰船退役2次",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27285,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				718,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27286] = {
+		name = "『阿尔萨斯轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 910237,
+		type = 6,
+		desc = "建造舰船1次",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27286,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				718,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27287] = {
+		name = "『阿尔萨斯轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 910237,
+		type = 6,
+		desc = "进行2次战术训练",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27287,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				718,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27288] = {
+		name = "『阿尔萨斯轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 910237,
+		type = 6,
+		desc = "击沉任意敌人20艘",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27288,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				718,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27289] = {
+		name = "『阿尔萨斯轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 910237,
+		type = 6,
+		desc = "后宅补充食物5次",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27289,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				718,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27290] = {
+		name = "『阿尔萨斯轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 910237,
+		type = 6,
+		desc = "累计消耗300石油",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27290,
+		target_num = 300,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				718,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27291] = {
+		name = "『阿尔萨斯轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 910237,
+		type = 6,
+		desc = "舰船强化5次",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27291,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				718,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27292] = {
+		name = "『阿尔萨斯轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 910237,
+		type = 6,
+		desc = "打开任意科技箱1个",
+		count_inherit = 0,
+		sub_type = 50,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27292,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				718,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27293] = {
+		name = "『阿尔萨斯轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 910237,
+		type = 6,
+		desc = "进行1次科研",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27293,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				718,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27294] = {
+		name = "『阿尔萨斯轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 910237,
+		type = 6,
+		desc = "与后宅的舰船互动1次",
+		count_inherit = 0,
+		sub_type = 2010,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27294,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				718,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27295] = {
+		name = "『阿尔萨斯轻量化复刻』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 910237,
+		type = 6,
+		desc = "与秘书舰互动1次",
+		count_inherit = 0,
+		sub_type = 2011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27295,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				718,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27296] = {
+		name = "『阿尔萨斯轻量化复刻』进阶PT挑战任务-阿尔萨斯",
+		guild_coin_award = 0,
+		award = 910238,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "使用阿尔萨斯击败B3或D3敌方旗舰且存活",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 1,
+		ryza_type = 0,
+		ryza_icon = "",
+		quick_finish = 0,
+		level = 1,
+		fix_task = 0,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27296,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1811213,
+			1813213
+		},
+		target_id_2 = {
+			805031,
+			805032,
+			805033,
+			805034
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				718,
+				10
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51033
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27297] = {
+		name = "『阿尔萨斯轻量化复刻』进阶PT挑战任务-布伦努斯",
+		guild_coin_award = 0,
+		award = 910238,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "使用布伦努斯击败B3或D3敌方旗舰且存活",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 1,
+		ryza_type = 0,
+		ryza_icon = "",
+		quick_finish = 0,
+		level = 1,
+		fix_task = 0,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27297,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1811213,
+			1813213
+		},
+		target_id_2 = {
+			803021,
+			803022,
+			803023,
+			803024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				718,
+				10
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51033
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27298] = {
+		name = "『阿尔萨斯轻量化复刻』进阶PT挑战任务-贝亚恩·META",
+		guild_coin_award = 0,
+		award = 910238,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "使用贝亚恩·META击败B3或D3敌方旗舰且存活",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 1,
+		ryza_type = 0,
+		ryza_icon = "",
+		quick_finish = 0,
+		level = 1,
+		fix_task = 0,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27298,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1811213,
+			1813213
+		},
+		target_id_2 = {
+			9707041,
+			9707042,
+			9707043,
+			9707044
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				718,
+				10
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51033
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27299] = {
+		name = "『阿尔萨斯轻量化复刻』进阶PT挑战任务-花剑",
+		guild_coin_award = 0,
+		award = 910238,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "使用花剑击败B3或D3敌方旗舰且存活",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 1,
+		ryza_type = 0,
+		ryza_icon = "",
+		quick_finish = 0,
+		level = 1,
+		fix_task = 0,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27299,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1811213,
+			1813213
+		},
+		target_id_2 = {
+			901051,
+			901052,
+			901053,
+			901054
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				718,
+				10
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51033
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27300] = {
+		name = "『阿尔萨斯轻量化复刻』进阶PT挑战任务-重剑",
+		guild_coin_award = 0,
+		award = 910238,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "使用重剑击败B3或D3敌方旗舰且存活",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 1,
+		ryza_type = 0,
+		ryza_icon = "",
+		quick_finish = 0,
+		level = 1,
+		fix_task = 0,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27300,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1811213,
+			1813213
+		},
+		target_id_2 = {
+			901061,
+			901062,
+			901063,
+			901064
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				718,
+				10
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51033
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27302] = {
+		name = "『阿尔萨斯轻量化复刻』活动通关任务3次",
+		guild_coin_award = 0,
+		award = 910239,
+		type = 6,
+		desc = "通关3次任意活动关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27302,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1810001,
+			1810002,
+			1810003,
+			1810004,
+			1810005,
+			1810006,
+			1810021,
+			1810022,
+			1810023,
+			1810024,
+			1810025,
+			1810026,
+			1810041,
+			1810051
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				718,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27303] = {
+		name = "『阿尔萨斯轻量化复刻』活动通关任务6次",
+		guild_coin_award = 0,
+		award = 910240,
+		type = 6,
+		desc = "通关6次任意活动关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27303,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1810001,
+			1810002,
+			1810003,
+			1810004,
+			1810005,
+			1810006,
+			1810021,
+			1810022,
+			1810023,
+			1810024,
+			1810025,
+			1810026,
+			1810041,
+			1810051
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				718,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27304] = {
+		name = "『阿尔萨斯轻量化复刻』活动通关任务10次",
+		guild_coin_award = 0,
+		award = 910241,
+		type = 6,
+		desc = "通关10次任意活动关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27304,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1810001,
+			1810002,
+			1810003,
+			1810004,
+			1810005,
+			1810006,
+			1810021,
+			1810022,
+			1810023,
+			1810024,
+			1810025,
+			1810026,
+			1810041,
+			1810051
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				718,
+				45
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[31017] = {
 		name = "殿堂奖励第一名",
 		guild_coin_award = 0,

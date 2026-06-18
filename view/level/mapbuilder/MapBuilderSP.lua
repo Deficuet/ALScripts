@@ -112,6 +112,11 @@ function var_0_0.UpdateButtons(arg_9_0)
 
 	local var_9_0, var_9_1 = arg_9_0.contextData.map:isActivity()
 	local var_9_2 = arg_9_0.contextData.map:isRemaster()
+
+	if var_9_2 then
+		arg_9_0.sceneParent:updateRemasterInfo()
+	end
+
 	local var_9_3 = arg_9_0.contextData.displayMode == var_0_0.DISPLAY.BATTLE
 
 	setActive(arg_9_0.sceneParent.actExchangeShopBtn, not ActivityConst.HIDE_PT_PANELS and var_9_3 and not var_9_2 and var_9_1 and arg_9_0.sceneParent:IsActShopActive())
@@ -304,43 +309,56 @@ function var_0_0.SetDisplayMode(arg_25_0, arg_25_1)
 end
 
 function var_0_0.UpdateView(arg_26_0)
-	local var_26_0 = string.split(arg_26_0.contextData.map:getConfig("name"), "||")
+	local var_26_0 = arg_26_0.contextData.map
+	local var_26_1 = string.split(var_26_0:getConfig("name"), "||")
 
 	if arg_26_0.contextData.displayMode == var_0_0.DISPLAY.STORY then
-		var_26_0 = string.split(var_26_0[1], "·")
+		var_26_1 = string.split(var_26_1[1], "·")
 
-		setText(arg_26_0.sceneParent.chapterName, var_26_0[1] .. i18n("levelscene_title_story"))
+		setText(arg_26_0.sceneParent.chapterName, var_26_1[1] .. i18n("levelscene_title_story"))
 	else
-		setText(arg_26_0.sceneParent.chapterName, var_26_0[1])
+		setText(arg_26_0.sceneParent.chapterName, var_26_1[1])
 	end
 
-	local var_26_1 = arg_26_0.contextData.map:getMapTitleNumber()
+	local var_26_2 = var_26_0:getMapTitleNumber()
 
-	arg_26_0.sceneParent.loader:GetSpriteQuiet("chapterno", "chapter" .. var_26_1, arg_26_0.sceneParent.chapterNoTitle, true)
+	arg_26_0.sceneParent.loader:GetSpriteQuiet("chapterno", "chapter" .. var_26_2, arg_26_0.sceneParent.chapterNoTitle, true)
 
 	arg_26_0.contextData.displayMode = arg_26_0.contextData.displayMode or var_0_0.DISPLAY.BATTLE
 
 	var_0_0.super.UpdateView(arg_26_0)
 
-	local var_26_2 = arg_26_0.contextData.displayMode == var_0_0.DISPLAY.BATTLE
+	local var_26_3 = arg_26_0.contextData.displayMode == var_0_0.DISPLAY.BATTLE
 
-	setActive(arg_26_0._tf:Find("Battle"), var_26_2)
-	setActive(arg_26_0._tf:Find("Story"), not var_26_2)
+	setActive(arg_26_0._tf:Find("Battle"), var_26_3)
+	setActive(arg_26_0._tf:Find("Story"), not var_26_3)
 
-	local var_26_3 = getProxy(ChapterProxy):IsActivitySPChapterActive(arg_26_0.contextData.map:getConfig("on_activity")) and SettingsProxy.IsShowActivityMapSPTip()
+	local var_26_4 = getProxy(ChapterProxy):IsActivitySPChapterActive(var_26_0:getConfig("on_activity")) and SettingsProxy.IsShowActivityMapSPTip()
 
 	setActive(arg_26_0.battleLayer:Find("Mask/Story/BattleTip"), false)
-	setActive(arg_26_0.storyLayer:Find("Battle/BattleTip"), var_26_3)
+	setActive(arg_26_0.storyLayer:Find("Battle/BattleTip"), var_26_4)
 
-	local var_26_4 = arg_26_0.battleLayer:Find("Mask"):GetComponent(typeof(RectMask2D))
+	local var_26_5 = arg_26_0.battleLayer:Find("Mask"):GetComponent(typeof(RectMask2D))
 
 	if type(arg_26_0.spStoryIDs) ~= "table" or #arg_26_0.spStoryIDs == 0 then
-		var_26_4.enabled = true
+		local var_26_6 = var_26_0:isRemaster()
+
+		if var_26_6 then
+			setActive(arg_26_0.battleLayer:Find("Mask"), false)
+
+			local var_26_7, var_26_8 = var_26_0:isActivity()
+			local var_26_9 = var_26_0:isSkirmish()
+			local var_26_10 = var_26_0:isEscort()
+
+			setActive(arg_26_0.sceneParent.remasterBtn, OPEN_REMASTER and (var_26_6 or not var_26_7 and not var_26_10 and not var_26_9))
+		else
+			var_26_5.enabled = true
+		end
 	end
 
 	arg_26_0:UpdateStoryTask()
 
-	if var_26_2 then
+	if var_26_3 then
 		arg_26_0:UpdateBonusPtIconPath()
 		arg_26_0:UpdateBattle()
 		arg_26_0.sceneParent:SwitchMapBG(arg_26_0.contextData.map)
@@ -1386,7 +1404,7 @@ function var_0_0.PlayStory(arg_66_0, arg_66_1, arg_66_2, arg_66_3)
 end
 
 function var_0_0.UpdateStoryTask(arg_69_0)
-	local var_69_0 = arg_69_0.activity:getConfig("config_client").task_id
+	local var_69_0 = arg_69_0.activity and arg_69_0.activity:getConfig("config_client").task_id
 
 	if not var_69_0 then
 		return

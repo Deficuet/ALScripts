@@ -429,12 +429,13 @@ function var_0_0.register(arg_1_0)
 			callback = arg_55_1.callback
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_ACT_SHOPPING, function(arg_56_0, arg_56_1, arg_56_2, arg_56_3, arg_56_4)
+	arg_1_0:bind(var_0_0.ON_ACT_SHOPPING, function(arg_56_0, arg_56_1, arg_56_2, arg_56_3, arg_56_4, arg_56_5)
 		arg_1_0:sendNotification(GAME.ACTIVITY_OPERATION, {
 			activity_id = arg_56_1,
 			cmd = arg_56_2,
 			arg1 = arg_56_3,
-			arg2 = arg_56_4
+			arg2 = arg_56_4,
+			callback = arg_56_5
 		})
 	end)
 	arg_1_0:bind(var_0_0.ON_ACTIVITY_TASK_SUBMIT, function(arg_57_0, arg_57_1)
@@ -654,6 +655,7 @@ function var_0_0.initNotificationHandleDic(arg_61_0)
 		[GAME.SHOPPING_DONE] = function(arg_89_0, arg_89_1)
 			local var_89_0 = arg_89_1:getBody()
 
+			warning("yzh")
 			arg_89_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_89_0.awards, function()
 				arg_89_0.viewComponent:updateTaskLayers()
 			end)

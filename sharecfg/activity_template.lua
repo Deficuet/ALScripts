@@ -45843,7 +45843,7 @@ end)()
 			PTID = 726,
 			task_id = 27265,
 			entrance_bg = "activitybanner/temp10",
-			shopItemID = 71371
+			shopItemID = 71378
 		}
 	}
 	pg.base.activity_template[50652] = {

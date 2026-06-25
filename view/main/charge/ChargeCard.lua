@@ -104,34 +104,35 @@ function var_0_0.updateCharge(arg_4_0, arg_4_1, arg_4_2, arg_4_3)
 	setActive(arg_4_0.numLeftText, false)
 
 	local var_4_1, var_4_2 = arg_4_1:inTime()
+	local var_4_3 = arg_4_1:getConfig("id") == ActivityConst.FREE_PACKAGE_SHOW_TIME_ID
 
-	if var_4_1 and not arg_4_1:isFree() and var_4_2 and var_4_2 > 0 then
+	if var_4_1 and (not arg_4_1:isFree() or var_4_3) and var_4_2 and var_4_2 > 0 then
 		setActive(arg_4_0.numLeftText, true)
 
-		local var_4_3, var_4_4, var_4_5 = pg.TimeMgr.GetInstance():parseTimeFrom(var_4_2)
+		local var_4_4, var_4_5, var_4_6 = pg.TimeMgr.GetInstance():parseTimeFrom(var_4_2)
 
-		if var_4_3 > 0 then
-			setText(arg_4_0.numLeftText, i18n("shop_goods_left_day", var_4_3))
-		elseif var_4_4 > 0 then
-			setText(arg_4_0.numLeftText, i18n("shop_goods_left_hour", var_4_4))
-		elseif var_4_5 then
-			setText(arg_4_0.numLeftText, i18n("shop_goods_left_minute", var_4_5 > 0 and var_4_5 or 1))
+		if var_4_4 > 0 then
+			setText(arg_4_0.numLeftText, i18n("shop_goods_left_day", var_4_4))
+		elseif var_4_5 > 0 then
+			setText(arg_4_0.numLeftText, i18n("shop_goods_left_hour", var_4_5))
+		elseif var_4_6 then
+			setText(arg_4_0.numLeftText, i18n("shop_goods_left_minute", var_4_6 > 0 and var_4_6 or 1))
 		end
 
-		local var_4_6 = 60
-		local var_4_7 = 3600
-		local var_4_8 = 86400
-		local var_4_9
+		local var_4_7 = 60
+		local var_4_8 = 3600
+		local var_4_9 = 86400
+		local var_4_10
 
-		if var_4_8 <= var_4_2 then
-			var_4_9 = var_4_2 % var_4_8
+		if var_4_9 <= var_4_2 then
+			var_4_10 = var_4_2 % var_4_9
+		elseif var_4_8 <= var_4_2 then
+			var_4_10 = var_4_2 % var_4_8
 		elseif var_4_7 <= var_4_2 then
-			var_4_9 = var_4_2 % var_4_7
-		elseif var_4_6 <= var_4_2 then
-			var_4_9 = var_4_2 % var_4_6
+			var_4_10 = var_4_2 % var_4_7
 		end
 
-		if var_4_9 and var_4_9 > 0 then
+		if var_4_10 and var_4_10 > 0 then
 			if arg_4_0.countDownTimer then
 				arg_4_0.countDownTimer:Stop()
 
@@ -140,7 +141,7 @@ function var_0_0.updateCharge(arg_4_0, arg_4_1, arg_4_2, arg_4_3)
 
 			arg_4_0.countDownTimer = Timer.New(function()
 				arg_4_0:updateGemItem(arg_4_1, arg_4_2)
-			end, var_4_9, 1)
+			end, var_4_10, 1)
 
 			arg_4_0.countDownTimer:Start()
 		end
@@ -152,14 +153,14 @@ function var_0_0.updateCharge(arg_4_0, arg_4_1, arg_4_2, arg_4_3)
 		arg_4_0:updateImport(arg_4_0:GetPayDisplayItemData(arg_4_1))
 	end
 
-	local var_4_10 = arg_4_1:getConfig("limit_type")
-	local var_4_11 = arg_4_1.buyCount
-	local var_4_12 = arg_4_1:getLimitCount()
+	local var_4_11 = arg_4_1:getConfig("limit_type")
+	local var_4_12 = arg_4_1.buyCount
+	local var_4_13 = arg_4_1:getLimitCount()
 
-	if var_4_10 == 2 then
-		setText(arg_4_0.limitText, i18n("charge_limit_all", var_4_12 - var_4_11, var_4_12))
-	elseif var_4_10 == 4 then
-		setText(arg_4_0.limitText, i18n("charge_limit_daily", var_4_12 - var_4_11, var_4_12))
+	if var_4_11 == 2 then
+		setText(arg_4_0.limitText, i18n("charge_limit_all", var_4_13 - var_4_12, var_4_13))
+	elseif var_4_11 == 4 then
+		setText(arg_4_0.limitText, i18n("charge_limit_daily", var_4_13 - var_4_12, var_4_13))
 	else
 		setText(arg_4_0.limitText, "")
 	end
@@ -245,34 +246,35 @@ function var_0_0.updateGemItem(arg_9_0, arg_9_1, arg_9_2)
 	setActive(arg_9_0.numLeftText, false)
 
 	local var_9_5, var_9_6 = arg_9_1:inTime()
+	local var_9_7 = arg_9_1:getConfig("id") == ActivityConst.FREE_PACKAGE_SHOW_TIME_ID
 
-	if var_9_5 and not arg_9_1:isFree() and var_9_6 and var_9_6 > 0 then
+	if var_9_5 and (not arg_9_1:isFree() or var_9_7) and var_9_6 and var_9_6 > 0 then
 		setActive(arg_9_0.numLeftText, true)
 
-		local var_9_7, var_9_8, var_9_9 = pg.TimeMgr.GetInstance():parseTimeFrom(var_9_6)
+		local var_9_8, var_9_9, var_9_10 = pg.TimeMgr.GetInstance():parseTimeFrom(var_9_6)
 
-		if var_9_7 > 0 then
-			setText(arg_9_0.numLeftText, i18n("shop_goods_left_day", var_9_7))
-		elseif var_9_8 > 0 then
-			setText(arg_9_0.numLeftText, i18n("shop_goods_left_hour", var_9_8))
-		elseif var_9_9 then
-			setText(arg_9_0.numLeftText, i18n("shop_goods_left_minute", var_9_9 > 0 and var_9_9 or 1))
+		if var_9_8 > 0 then
+			setText(arg_9_0.numLeftText, i18n("shop_goods_left_day", var_9_8))
+		elseif var_9_9 > 0 then
+			setText(arg_9_0.numLeftText, i18n("shop_goods_left_hour", var_9_9))
+		elseif var_9_10 then
+			setText(arg_9_0.numLeftText, i18n("shop_goods_left_minute", var_9_10 > 0 and var_9_10 or 1))
 		end
 
-		local var_9_10 = 60
-		local var_9_11 = 3600
-		local var_9_12 = 86400
-		local var_9_13
+		local var_9_11 = 60
+		local var_9_12 = 3600
+		local var_9_13 = 86400
+		local var_9_14
 
-		if var_9_12 <= var_9_6 then
-			var_9_13 = var_9_6 % var_9_12
+		if var_9_13 <= var_9_6 then
+			var_9_14 = var_9_6 % var_9_13
+		elseif var_9_12 <= var_9_6 then
+			var_9_14 = var_9_6 % var_9_12
 		elseif var_9_11 <= var_9_6 then
-			var_9_13 = var_9_6 % var_9_11
-		elseif var_9_10 <= var_9_6 then
-			var_9_13 = var_9_6 % var_9_10
+			var_9_14 = var_9_6 % var_9_11
 		end
 
-		if var_9_13 and var_9_13 > 0 then
+		if var_9_14 and var_9_14 > 0 then
 			if arg_9_0.countDownTimer then
 				arg_9_0.countDownTimer:Stop()
 
@@ -281,7 +283,7 @@ function var_0_0.updateGemItem(arg_9_0, arg_9_1, arg_9_2)
 
 			arg_9_0.countDownTimer = Timer.New(function()
 				arg_9_0:updateGemItem(arg_9_1, arg_9_2)
-			end, var_9_13, 1)
+			end, var_9_14, 1)
 
 			arg_9_0.countDownTimer:Start()
 		end
@@ -289,25 +291,25 @@ function var_0_0.updateGemItem(arg_9_0, arg_9_1, arg_9_2)
 
 	setActive(arg_9_0.name, true)
 
-	local var_9_14 = arg_9_1:getConfig("effect_args")
+	local var_9_15 = arg_9_1:getConfig("effect_args")
 
-	if #var_9_14 > 0 then
-		local var_9_15 = Item.getConfigData(var_9_14[1])
+	if #var_9_15 > 0 then
+		local var_9_16 = Item.getConfigData(var_9_15[1])
 
-		if var_9_15 then
-			setScrollText(arg_9_0.name, var_9_15.name)
+		if var_9_16 then
+			setScrollText(arg_9_0.name, var_9_16.name)
 			arg_9_0:updateImport(arg_9_0:GetShopDisplayItemData(arg_9_1))
 
-			local var_9_16 = arg_9_0:CheckSkinDiscounItem(var_9_15.display_icon)
+			local var_9_17 = arg_9_0:CheckSkinDiscounItem(var_9_16.display_icon)
 
-			if var_9_16 then
-				arg_9_0:UpdateShipIcon(var_9_16)
+			if var_9_17 then
+				arg_9_0:UpdateShipIcon(var_9_17)
 			end
 		end
 
 		arg_9_0.iconTF.sprite = GetSpriteFromAtlas("chargeicon/1", "")
 
-		LoadSpriteAsync(var_9_15.icon, function(arg_11_0)
+		LoadSpriteAsync(var_9_16.icon, function(arg_11_0)
 			if arg_11_0 and not IsNil(arg_9_0.iconTF) then
 				arg_9_0.iconTF.sprite = arg_11_0
 			end

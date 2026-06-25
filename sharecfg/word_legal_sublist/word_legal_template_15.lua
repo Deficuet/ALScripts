@@ -7,6 +7,16 @@ var_0_0.word_legal_template_15 = {}
 local var_0_1 = var_0_0.word_legal_template_15
 
 function temp()
+	var_0_1.七 = {
+		省 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.奇 = {
 		尔 = {
 			沙 = {
@@ -469,16 +479,6 @@ temp()
 function temp()
 	var_0_1.凪 = {
 		咲 = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.环 = {
-		this = {
 			this = true
 		}
 	}

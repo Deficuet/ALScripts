@@ -481,259 +481,275 @@ end
 
 function var_0_0.initNotificationHandleDic(arg_61_0)
 	arg_61_0.handleDic = {
-		[ActivityProxy.ACTIVITY_ADDED] = function(arg_62_0, arg_62_1)
+		[GAME.SURVEY_DONE] = function(arg_62_0, arg_62_1)
 			local var_62_0 = arg_62_1:getBody()
 
-			if var_62_0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_LOTTERY then
+			arg_62_0.viewComponent:removeActivity(var_62_0.id)
+		end,
+		[ActivityProxy.ACTIVITY_ADDED] = function(arg_63_0, arg_63_1)
+			local var_63_0 = arg_63_1:getBody()
+
+			if var_63_0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_LOTTERY then
 				return
 			end
 
-			arg_62_0.viewComponent:updateActivity(var_62_0)
+			arg_63_0.viewComponent:updateActivity(var_63_0)
 
-			if ActivityConst.AOERLIANG_TASK_ID == var_62_0.id then
-				arg_62_0.viewComponent:update_task_list_auto_aoerliang(var_62_0)
+			if ActivityConst.AOERLIANG_TASK_ID == var_63_0.id then
+				arg_63_0.viewComponent:update_task_list_auto_aoerliang(var_63_0)
 			end
 		end,
 		[ActivityProxy.ACTIVITY_UPDATED] = function(...)
 			arg_61_0.handleDic[ActivityProxy.ACTIVITY_ADDED](...)
 		end,
-		[ActivityProxy.ACTIVITY_DELETED] = function(arg_64_0, arg_64_1)
-			local var_64_0 = arg_64_1:getBody()
-
-			arg_64_0.viewComponent:removeActivity(var_64_0)
-		end,
-		[ActivityProxy.ACTIVITY_OPERATION_DONE] = function(arg_65_0, arg_65_1)
+		[ActivityProxy.ACTIVITY_DELETED] = function(arg_65_0, arg_65_1)
 			local var_65_0 = arg_65_1:getBody()
 
-			if getProxy(ActivityProxy):getActivityById(var_65_0):getConfig("type") == ActivityConst.ACTIVITY_TYPE_HOTSPRING_2 then
-				arg_65_0.viewComponent:updateActivity()
-			end
-
-			if ActivityConst.AOERLIANG_TASK_ID == var_65_0 then
-				return
-			end
-
-			local var_65_1 = getProxy(ActivityProxy):getActivityById(var_65_0)
-
-			arg_65_0:showNextActivity(var_65_1:getConfig("page_core"))
+			arg_65_0.viewComponent:removeActivity(var_65_0)
 		end,
-		[ActivityProxy.ACTIVITY_SHOW_AWARDS] = function(arg_66_0, arg_66_1)
+		[ActivityProxy.ACTIVITY_OPERATION_DONE] = function(arg_66_0, arg_66_1)
 			local var_66_0 = arg_66_1:getBody()
-			local var_66_1 = var_66_0.awards
+			local var_66_1 = getProxy(ActivityProxy):getActivityById(var_66_0)
 
-			if arg_66_0.nextDisplayAwards and #arg_66_0.nextDisplayAwards > 0 then
-				for iter_66_0 = 1, #arg_66_0.nextDisplayAwards do
-					table.insert(var_66_1, arg_66_0.nextDisplayAwards[iter_66_0])
+			if var_66_1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_HOTSPRING_2 then
+				arg_66_0.viewComponent:updateActivity()
+			end
+
+			if MonthSignPage.ShouldPlaySpEffect(var_66_1) then
+				local var_66_2 = arg_66_0.viewComponent.pageDic[var_66_1.id]
+
+				if var_66_2 then
+					var_66_2:ActionInvoke("TryShowSpEffect", function()
+						arg_66_0:showNextActivity(var_66_1:getConfig("page_core"))
+					end)
+
+					return
 				end
 			end
 
-			arg_66_0.nextDisplayAwards = {}
+			if ActivityConst.AOERLIANG_TASK_ID == var_66_0 then
+				return
+			end
 
-			arg_66_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_66_1, var_66_0.callback)
+			arg_66_0:showNextActivity(var_66_1:getConfig("page_core"))
 		end,
-		[ActivityProxy.ACTIVITY_SHOW_BB_RESULT] = function(arg_67_0, arg_67_1)
-			local var_67_0 = arg_67_1:getBody()
-
-			arg_67_0.viewComponent:emit(ActivityMediator.ON_BOBING_RESULT, var_67_0)
-		end,
-		[ActivityProxy.ACTIVITY_SHOW_LOTTERY_AWARD_RESULT] = function(arg_68_0, arg_68_1)
+		[ActivityProxy.ACTIVITY_SHOW_AWARDS] = function(arg_68_0, arg_68_1)
 			local var_68_0 = arg_68_1:getBody()
-			local var_68_1 = var_68_0.activityID
+			local var_68_1 = var_68_0.awards
 
-			arg_68_0.viewComponent.pageDic[var_68_1]:showLotteryAwardResult(var_68_0.awards, var_68_0.number, var_68_0.callback)
+			if arg_68_0.nextDisplayAwards and #arg_68_0.nextDisplayAwards > 0 then
+				for iter_68_0 = 1, #arg_68_0.nextDisplayAwards do
+					table.insert(var_68_1, arg_68_0.nextDisplayAwards[iter_68_0])
+				end
+			end
+
+			arg_68_0.nextDisplayAwards = {}
+
+			arg_68_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_68_1, var_68_0.callback)
 		end,
-		[ActivityProxy.ACTIVITY_SHOW_SHAKE_BEADS_RESULT] = function(arg_69_0, arg_69_1)
+		[ActivityProxy.ACTIVITY_SHOW_BB_RESULT] = function(arg_69_0, arg_69_1)
 			local var_69_0 = arg_69_1:getBody()
 
-			arg_69_0.viewComponent:emit(ActivityMediator.ON_SHAKE_BEADS_RESULT, var_69_0)
+			arg_69_0.viewComponent:emit(ActivityMediator.ON_BOBING_RESULT, var_69_0)
 		end,
-		[GAME.SUBMIT_TASK_DONE] = function(arg_70_0, arg_70_1)
+		[ActivityProxy.ACTIVITY_SHOW_LOTTERY_AWARD_RESULT] = function(arg_70_0, arg_70_1)
 			local var_70_0 = arg_70_1:getBody()
+			local var_70_1 = var_70_0.activityID
 
-			arg_70_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_70_0, function()
-				arg_70_0.viewComponent:updateTaskLayers()
-			end)
+			arg_70_0.viewComponent.pageDic[var_70_1]:showLotteryAwardResult(var_70_0.awards, var_70_0.number, var_70_0.callback)
 		end,
-		[GAME.SUBMIT_ACTIVITY_TASK_DONE] = function(arg_72_0, arg_72_1)
+		[ActivityProxy.ACTIVITY_SHOW_SHAKE_BEADS_RESULT] = function(arg_71_0, arg_71_1)
+			local var_71_0 = arg_71_1:getBody()
+
+			arg_71_0.viewComponent:emit(ActivityMediator.ON_SHAKE_BEADS_RESULT, var_71_0)
+		end,
+		[GAME.SUBMIT_TASK_DONE] = function(arg_72_0, arg_72_1)
 			local var_72_0 = arg_72_1:getBody()
 
-			arg_72_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_72_0.awards, function()
-				arg_72_0.viewComponent:checkAutoHideActivity()
+			arg_72_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_72_0, function()
 				arg_72_0.viewComponent:updateTaskLayers()
-				existCall(var_72_0.callback)
 			end)
 		end,
-		[GAME.ACT_NEW_PT_DONE] = function(arg_74_0, arg_74_1)
+		[GAME.SUBMIT_ACTIVITY_TASK_DONE] = function(arg_74_0, arg_74_1)
 			local var_74_0 = arg_74_1:getBody()
 
 			arg_74_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_74_0.awards, function()
+				arg_74_0.viewComponent:checkAutoHideActivity()
 				arg_74_0.viewComponent:updateTaskLayers()
 				existCall(var_74_0.callback)
 			end)
 		end,
-		[GAME.BEGIN_STAGE_DONE] = function(arg_76_0, arg_76_1)
+		[GAME.ACT_NEW_PT_DONE] = function(arg_76_0, arg_76_1)
 			local var_76_0 = arg_76_1:getBody()
 
-			arg_76_0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, var_76_0)
+			arg_76_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_76_0.awards, function()
+				arg_76_0.viewComponent:updateTaskLayers()
+				existCall(var_76_0.callback)
+			end)
 		end,
-		[GAME.RETURN_AWARD_OP_DONE] = function(arg_77_0, arg_77_1)
-			local var_77_0 = arg_77_1:getBody()
+		[GAME.BEGIN_STAGE_DONE] = function(arg_78_0, arg_78_1)
+			local var_78_0 = arg_78_1:getBody()
 
-			arg_77_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_77_0.awards)
+			arg_78_0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, var_78_0)
 		end,
-		[VoteProxy.VOTE_ORDER_BOOK_DELETE] = function(arg_78_0, arg_78_1)
+		[GAME.RETURN_AWARD_OP_DONE] = function(arg_79_0, arg_79_1)
+			local var_79_0 = arg_79_1:getBody()
+
+			arg_79_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_79_0.awards)
+		end,
+		[VoteProxy.VOTE_ORDER_BOOK_DELETE] = function(arg_80_0, arg_80_1)
 			return
 		end,
 		[VoteProxy.VOTE_ORDER_BOOK_UPDATE] = function(...)
 			arg_61_0.handleDic[VoteProxy.VOTE_ORDER_BOOK_DELETE](...)
 		end,
-		[GAME.REMOVE_LAYERS] = function(arg_80_0, arg_80_1)
-			if arg_80_1:getBody().context.mediator == VoteFameHallMediator then
-				arg_80_0.viewComponent:updateEntrances()
+		[GAME.REMOVE_LAYERS] = function(arg_82_0, arg_82_1)
+			if arg_82_1:getBody().context.mediator == VoteFameHallMediator then
+				arg_82_0.viewComponent:updateEntrances()
 			end
 		end,
-		[GAME.MONOPOLY_AWARD_DONE] = function(arg_81_0, arg_81_1)
-			local var_81_0 = arg_81_1:getBody()
-			local var_81_1 = arg_81_0.viewComponent.pageDic[arg_81_0.viewComponent.activity.id]
+		[GAME.MONOPOLY_AWARD_DONE] = function(arg_83_0, arg_83_1)
+			local var_83_0 = arg_83_1:getBody()
+			local var_83_1 = arg_83_0.viewComponent.pageDic[arg_83_0.viewComponent.activity.id]
 
-			if var_81_1 and var_81_1.activity:getConfig("type") == ActivityConst.ACTIVITY_TYPE_MONOPOLY and var_81_1.onAward then
-				var_81_1:onAward(var_81_0.awards, var_81_0.callback)
-			elseif var_81_0.autoFlag then
-				arg_81_0.viewComponent:emit(BaseUI.ON_ACHIEVE_AUTO, var_81_0.awards, 1, var_81_0.callback)
+			if var_83_1 and var_83_1.activity:getConfig("type") == ActivityConst.ACTIVITY_TYPE_MONOPOLY and var_83_1.onAward then
+				var_83_1:onAward(var_83_0.awards, var_83_0.callback)
+			elseif var_83_0.autoFlag then
+				arg_83_0.viewComponent:emit(BaseUI.ON_ACHIEVE_AUTO, var_83_0.awards, 1, var_83_0.callback)
 			else
-				arg_81_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_81_0.awards, var_81_0.callback)
+				arg_83_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_83_0.awards, var_83_0.callback)
 			end
 		end,
-		[GAME.SEND_MINI_GAME_OP_DONE] = function(arg_82_0, arg_82_1)
-			local var_82_0 = arg_82_1:getBody()
-			local var_82_1 = {
-				function(arg_83_0)
-					local var_83_0 = var_82_0.awards
+		[GAME.SEND_MINI_GAME_OP_DONE] = function(arg_84_0, arg_84_1)
+			local var_84_0 = arg_84_1:getBody()
+			local var_84_1 = {
+				function(arg_85_0)
+					local var_85_0 = var_84_0.awards
 
-					if #var_83_0 > 0 then
-						if arg_82_0.viewComponent then
-							arg_82_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_83_0, arg_83_0)
+					if #var_85_0 > 0 then
+						if arg_84_0.viewComponent then
+							arg_84_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_85_0, arg_85_0)
 						else
-							arg_82_0:emit(BaseUI.ON_ACHIEVE, var_83_0, arg_83_0)
+							arg_84_0:emit(BaseUI.ON_ACHIEVE, var_85_0, arg_85_0)
 						end
 					else
-						arg_83_0()
+						arg_85_0()
 					end
 				end
 			}
 
-			seriesAsync(var_82_1, function()
-				arg_82_0.viewComponent:updateTaskLayers()
+			seriesAsync(var_84_1, function()
+				arg_84_0.viewComponent:updateTaskLayers()
 			end)
 		end,
-		[GAME.ACTIVITY_PERMANENT_START_DONE] = function(arg_85_0, arg_85_1)
-			local var_85_0 = arg_85_1:getBody()
-
-			arg_85_0.viewComponent:verifyTabs(var_85_0.id)
-		end,
-		[GAME.ACTIVITY_PERMANENT_FINISH_DONE] = function(arg_86_0, arg_86_1)
-			local var_86_0 = arg_86_1:getBody()
-
-			arg_86_0.viewComponent:emit(ActivityMediator.ACTIVITY_PERMANENT, var_86_0.activity_id)
-		end,
-		[GAME.MEMORYBOOK_UNLOCK_AWARD_DONE] = function(arg_87_0, arg_87_1)
+		[GAME.ACTIVITY_PERMANENT_START_DONE] = function(arg_87_0, arg_87_1)
 			local var_87_0 = arg_87_1:getBody()
 
-			arg_87_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_87_0.awards)
+			arg_87_0.viewComponent:verifyTabs(var_87_0.id)
 		end,
-		[GAME.CHARGE_SUCCESS] = function(arg_88_0, arg_88_1)
+		[GAME.ACTIVITY_PERMANENT_FINISH_DONE] = function(arg_88_0, arg_88_1)
 			local var_88_0 = arg_88_1:getBody()
 
-			arg_88_0.viewComponent:updateTaskLayers()
-
-			local var_88_1 = Goods.Create({
-				shop_id = var_88_0.shopId
-			}, Goods.TYPE_CHARGE)
-
-			arg_88_0.viewComponent:OnChargeSuccess(var_88_1)
+			arg_88_0.viewComponent:emit(ActivityMediator.ACTIVITY_PERMANENT, var_88_0.activity_id)
 		end,
-		[GAME.SHOPPING_DONE] = function(arg_89_0, arg_89_1)
+		[GAME.MEMORYBOOK_UNLOCK_AWARD_DONE] = function(arg_89_0, arg_89_1)
 			local var_89_0 = arg_89_1:getBody()
 
-			warning("yzh")
-			arg_89_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_89_0.awards, function()
-				arg_89_0.viewComponent:updateTaskLayers()
-			end)
+			arg_89_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_89_0.awards)
 		end,
-		[GAME.ACT_MANUAL_SIGN_DONE] = function(arg_91_0, arg_91_1)
+		[GAME.CHARGE_SUCCESS] = function(arg_90_0, arg_90_1)
+			local var_90_0 = arg_90_1:getBody()
+
+			arg_90_0.viewComponent:updateTaskLayers()
+
+			local var_90_1 = Goods.Create({
+				shop_id = var_90_0.shopId
+			}, Goods.TYPE_CHARGE)
+
+			arg_90_0.viewComponent:OnChargeSuccess(var_90_1)
+		end,
+		[GAME.SHOPPING_DONE] = function(arg_91_0, arg_91_1)
 			local var_91_0 = arg_91_1:getBody()
 
-			arg_91_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_91_0.awards)
+			warning("yzh")
+			arg_91_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_91_0.awards, function()
+				arg_91_0.viewComponent:updateTaskLayers()
+			end)
 		end,
-		[ActivityProxy.ACTIVITY_SHOP_SHOW_AWARDS] = function(arg_92_0, arg_92_1)
-			local var_92_0 = arg_92_1:getBody()
+		[GAME.ACT_MANUAL_SIGN_DONE] = function(arg_93_0, arg_93_1)
+			local var_93_0 = arg_93_1:getBody()
 
-			arg_92_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_92_0.awards, function()
-				local var_93_0 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_UR_EXCHANGE)
+			arg_93_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_93_0.awards)
+		end,
+		[ActivityProxy.ACTIVITY_SHOP_SHOW_AWARDS] = function(arg_94_0, arg_94_1)
+			local var_94_0 = arg_94_1:getBody()
 
-				if var_93_0 and not var_93_0:isShow() and var_93_0:isCorePage(arg_92_0.contextData.coreName) then
-					arg_92_0.viewComponent:removeActivity(var_93_0.id)
+			arg_94_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_94_0.awards, function()
+				local var_95_0 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_UR_EXCHANGE)
+
+				if var_95_0 and not var_95_0:isShow() and var_95_0:isCorePage(arg_94_0.contextData.coreName) then
+					arg_94_0.viewComponent:removeActivity(var_95_0.id)
 				end
 
-				arg_92_0.viewComponent:updateTaskLayers()
-				existCall(var_92_0.callback)
+				arg_94_0.viewComponent:updateTaskLayers()
+				existCall(var_94_0.callback)
 			end)
 		end
 	}
 end
 
-function var_0_0.showNextActivity(arg_94_0, arg_94_1)
-	local var_94_0 = getProxy(ActivityProxy)
+function var_0_0.showNextActivity(arg_96_0, arg_96_1)
+	local var_96_0 = getProxy(ActivityProxy)
 
-	if not var_94_0 then
+	if not var_96_0 then
 		return
 	end
 
-	local var_94_1 = var_94_0:findNextAutoActivity(arg_94_1)
+	local var_96_1 = var_96_0:findNextAutoActivity(arg_96_1)
 
-	if var_94_1 then
-		if var_94_1.id == ActivityConst.BLACK_FRIDAY_SIGNIN_ACT_ID then
-			arg_94_0.contextData.showByNextAct = true
+	if var_96_1 then
+		if var_96_1.id == ActivityConst.BLACK_FRIDAY_SIGNIN_ACT_ID then
+			arg_96_0.contextData.showByNextAct = true
 
-			arg_94_0.viewComponent:verifyTabs(ActivityConst.BLACK_FRIDAY_ACT_ID)
+			arg_96_0.viewComponent:verifyTabs(ActivityConst.BLACK_FRIDAY_ACT_ID)
 		else
-			arg_94_0.viewComponent:verifyTabs(var_94_1.id)
+			arg_96_0.viewComponent:verifyTabs(var_96_1.id)
 		end
 
-		local var_94_2 = var_94_1:getConfig("type")
+		local var_96_2 = var_96_1:getConfig("type")
 
-		if var_94_2 == ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN then
-			arg_94_0:sendNotification(GAME.ACTIVITY_OPERATION, {
+		if var_96_2 == ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN then
+			arg_96_0:sendNotification(GAME.ACTIVITY_OPERATION, {
 				cmd = 1,
-				activity_id = var_94_1.id
+				activity_id = var_96_1.id
 			})
-		elseif var_94_2 == ActivityConst.ACTIVITY_TYPE_MONTHSIGN then
-			local var_94_3 = var_94_1:getSpecialData("reMonthSignDay") ~= nil and 3 or 1
+		elseif var_96_2 == ActivityConst.ACTIVITY_TYPE_MONTHSIGN then
+			local var_96_3 = var_96_1:getSpecialData("reMonthSignDay") ~= nil and 3 or 1
 
-			arg_94_0:sendNotification(GAME.ACTIVITY_OPERATION, {
-				activity_id = var_94_1.id,
-				cmd = var_94_3,
-				arg1 = var_94_1:getSpecialData("reMonthSignDay")
+			arg_96_0:sendNotification(GAME.ACTIVITY_OPERATION, {
+				activity_id = var_96_1.id,
+				cmd = var_96_3,
+				arg1 = var_96_1:getSpecialData("reMonthSignDay")
 			})
-		elseif var_94_2 == ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN then
-			arg_94_0:sendNotification(GAME.ACTIVITY_OPERATION, {
-				activity_id = var_94_1.id,
-				cmd = var_94_1.data1 < 7 and 1 or 2
+		elseif var_96_2 == ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN then
+			arg_96_0:sendNotification(GAME.ACTIVITY_OPERATION, {
+				activity_id = var_96_1.id,
+				cmd = var_96_1.data1 < 7 and 1 or 2
 			})
-		elseif var_94_1.id == ActivityConst.SHADOW_PLAY_ID then
-			var_94_1.clientData1 = 1
+		elseif var_96_1.id == ActivityConst.SHADOW_PLAY_ID then
+			var_96_1.clientData1 = 1
 
-			arg_94_0:showNextActivity(arg_94_1)
+			arg_96_0:showNextActivity(arg_96_1)
 		end
-	elseif not arg_94_0.viewComponent.activity then
-		local var_94_4 = arg_94_0:getDisplayActivity()
-		local var_94_5 = arg_94_0.contextData.id or arg_94_0.contextData.type and checkExist(_.detect(var_94_4, function(arg_95_0)
-			return arg_95_0:getConfig("type") == arg_94_0.contextData.type
+	elseif not arg_96_0.viewComponent.activity then
+		local var_96_4 = arg_96_0:getDisplayActivity()
+		local var_96_5 = arg_96_0.contextData.id or arg_96_0.contextData.type and checkExist(_.detect(var_96_4, function(arg_97_0)
+			return arg_97_0:getConfig("type") == arg_96_0.contextData.type
 		end), {
 			"id"
 		}) or 0
 
-		arg_94_0.viewComponent:verifyTabs(var_94_5)
+		arg_96_0.viewComponent:verifyTabs(var_96_5)
 	end
 end
 

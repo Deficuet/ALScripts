@@ -7,6 +7,16 @@ var_0_0.word_legal_template_16 = {}
 local var_0_1 = var_0_0.word_legal_template_16
 
 function temp()
+	var_0_1.环 = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.雫 = {
 		this = {
 			this = true

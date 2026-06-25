@@ -169694,6 +169694,520 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[21975] = {
+		name = "『瑟堡SP』纪念任务1（只送勋章）",
+		guild_coin_award = 0,
+		award = 910266,
+		type = 26,
+		desc = "收集全套「美梦巡演奇妙夜」纪念贴纸",
+		count_inherit = 0,
+		sub_type = 131,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "50659",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21975,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65992,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21976] = {
+		name = "『瑟堡SP』纪念贴纸获取1",
+		guild_coin_award = 0,
+		award = 910267,
+		type = 26,
+		desc = "收集7个「美梦巡演奇妙夜」纪念贴纸",
+		count_inherit = 0,
+		sub_type = 131,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "50659",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21976,
+		target_num = 7,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65993,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21977] = {
+		name = "『瑟堡SP』纪念贴纸获取2",
+		guild_coin_award = 0,
+		award = 910268,
+		type = 26,
+		desc = "解锁「美梦巡演奇妙夜」所有剧情",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21977,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7769
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65994,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21978] = {
+		name = "『瑟堡SP』纪念贴纸获取3",
+		guild_coin_award = 0,
+		award = 910269,
+		type = 26,
+		desc = "通关T3",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2040003",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21978,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65995,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21979] = {
+		name = "『瑟堡SP』纪念贴纸获取4",
+		guild_coin_award = 0,
+		award = 910270,
+		type = 26,
+		desc = "在活动关卡中累计击沉敌人300次",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21979,
+		target_num = 300,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16860001,
+			16860002,
+			16860003,
+			16860004,
+			16860005,
+			16860006,
+			16860101,
+			16860102,
+			16860103,
+			16860104,
+			16860105,
+			16860201,
+			16860301,
+			16861001,
+			16861002,
+			16861003,
+			16861004,
+			16861005,
+			16861006,
+			16861101,
+			16861102,
+			16861103,
+			16861104,
+			16861105,
+			16861201,
+			16861202,
+			16861301,
+			16861302,
+			16862001,
+			16862002,
+			16862003,
+			16862004,
+			16862005,
+			16862006,
+			16862101,
+			16862102,
+			16862103,
+			16862104,
+			16862105,
+			16862201,
+			16862202,
+			16862301,
+			16863001,
+			16863002,
+			16863003,
+			16863004,
+			16863005,
+			16863006,
+			16863101,
+			16863102,
+			16863103,
+			16863104,
+			16863105,
+			16863201,
+			16863202,
+			16863203,
+			16863204,
+			16863301,
+			16863302,
+			16864001,
+			16864002,
+			16864003,
+			16864004,
+			16864005,
+			16864006,
+			16864101,
+			16864102,
+			16864103,
+			16864104,
+			16864105,
+			16864201,
+			16864202,
+			16864301
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65996,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21980] = {
+		name = "『瑟堡SP』纪念贴纸获取5",
+		guild_coin_award = 0,
+		award = 910271,
+		type = 26,
+		desc = "通关50次「美梦巡演奇妙夜」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21980,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2040001,
+			2040002,
+			2040003,
+			2040021,
+			2040022,
+			2040023,
+			2040041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65997,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21981] = {
+		name = "『瑟堡SP』纪念贴纸获取6",
+		guild_coin_award = 0,
+		award = 910272,
+		type = 26,
+		desc = "通关HT3",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2040023",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21981,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65998,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21982] = {
+		name = "『瑟堡SP』纪念贴纸获取7",
+		guild_coin_award = 0,
+		award = 910273,
+		type = 26,
+		desc = "通关SP",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2040041",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21982,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65999,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21983] = {
+		name = "『瑟堡SP』纪念贴纸获取8",
+		guild_coin_award = 0,
+		award = 910274,
+		type = 26,
+		desc = "累计获取10000张「惊喜入场券」",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "50654",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "726",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21983,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66045,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21984] = {
+		name = "『瑟堡SP』大佬章获取任务",
+		guild_coin_award = 0,
+		award = 910275,
+		type = 26,
+		desc = "通关HT3",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2040023",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21984,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				339,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[21944] = {
 		name = "『荷兰SP』纪念贴纸获取1",
 		guild_coin_award = 0,
@@ -190291,6 +190805,307 @@ end)()
 		},
 		scene = {
 			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23920] = {
+		name = "『3D宿舍』第三期-签到活动1",
+		guild_coin_award = 0,
+		award = 909016,
+		type = 6,
+		desc = "进入宿舍基建",
+		count_inherit = 0,
+		sub_type = 502,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23920,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15024,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23921] = {
+		name = "『3D宿舍』第三期-签到活动2",
+		guild_coin_award = 0,
+		award = 909017,
+		type = 6,
+		desc = "进入宿舍基建",
+		count_inherit = 0,
+		sub_type = 502,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23921,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				150
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23922] = {
+		name = "『3D宿舍』第三期-签到活动3",
+		guild_coin_award = 0,
+		award = 909018,
+		type = 6,
+		desc = "进入宿舍基建",
+		count_inherit = 0,
+		sub_type = 502,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23922,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				27,
+				1021001,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23923] = {
+		name = "『3D宿舍』第三期-签到活动4",
+		guild_coin_award = 0,
+		award = 909019,
+		type = 6,
+		desc = "进入宿舍基建",
+		count_inherit = 0,
+		sub_type = 502,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23923,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23924] = {
+		name = "『3D宿舍』第三期-签到活动5",
+		guild_coin_award = 0,
+		award = 909020,
+		type = 6,
+		desc = "进入宿舍基建",
+		count_inherit = 0,
+		sub_type = 502,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23924,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				27,
+				1021001,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23925] = {
+		name = "『3D宿舍』第三期-签到活动6",
+		guild_coin_award = 0,
+		award = 909021,
+		type = 6,
+		desc = "进入宿舍基建",
+		count_inherit = 0,
+		sub_type = 502,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23925,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30025,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23926] = {
+		name = "『3D宿舍』第三期-签到活动7",
+		guild_coin_award = 0,
+		award = 909022,
+		type = 6,
+		desc = "进入宿舍基建",
+		count_inherit = 0,
+		sub_type = 502,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23926,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				27,
+				1021002,
+				1
+			}
 		}
 	}
 end)()
@@ -247362,6 +248177,787 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[27251] = {
+		name = "『瑟堡SP活动』-日常建造",
+		guild_coin_award = 0,
+		award = 910251,
+		type = 36,
+		desc = "建造舰船3次。",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27251,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				726,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27252] = {
+		name = "『瑟堡SP活动』-日常出击",
+		guild_coin_award = 0,
+		award = 910252,
+		type = 36,
+		desc = "舰队出征，获得15次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27252,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				726,
+				300
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27253] = {
+		name = "『瑟堡SP活动』-日常困难本",
+		guild_coin_award = 0,
+		award = 910253,
+		type = 36,
+		desc = "通关1次任意困难关卡 ",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27253,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				726,
+				150
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27254] = {
+		name = "『瑟堡SP活动』通关T1/HT1",
+		guild_coin_award = 0,
+		award = 910254,
+		type = 6,
+		desc = "通关T1或HT1",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "27255",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27254,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2040001,
+			2040021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				1,
+				726,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50651
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27255] = {
+		name = "『瑟堡SP活动』通关T2/HT2",
+		guild_coin_award = 0,
+		award = 910255,
+		type = 6,
+		desc = "通关T2或HT2",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "27256",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27255,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2040002,
+			2040022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				1,
+				726,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50651
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27256] = {
+		name = "『瑟堡SP活动』通关T3/HT3",
+		guild_coin_award = 0,
+		award = 910256,
+		type = 6,
+		desc = "通关T3或HT3",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "27257",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27256,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2040003,
+			2040023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				1,
+				726,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50651
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27257] = {
+		name = "『瑟堡SP活动』通关SP",
+		guild_coin_award = 0,
+		award = 910257,
+		type = 6,
+		desc = "通关SP",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2040041",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27257,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 2040001,
+				chapterId = 2040041
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27258] = {
+		name = "『瑟堡SP活动』T1/HT1的3星",
+		guild_coin_award = 0,
+		award = 910258,
+		type = 6,
+		desc = "完成T1或HT1的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "27259",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27258,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2040001,
+			2040021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50651
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27259] = {
+		name = "『瑟堡SP活动』T2/HT2的3星",
+		guild_coin_award = 0,
+		award = 910259,
+		type = 6,
+		desc = "完成T2或HT2的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "27260",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27259,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2040002,
+			2040022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50651
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27260] = {
+		name = "『瑟堡SP活动』T3/HT3的3星",
+		guild_coin_award = 0,
+		award = 910260,
+		type = 6,
+		desc = "完成T3或HT3的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27260,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2040003,
+			2040023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50651
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27261] = {
+		name = "『瑟堡SP活动』通关任务10次",
+		guild_coin_award = 0,
+		award = 910261,
+		type = 6,
+		desc = "通关10次『美梦巡演奇妙夜』特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27261,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2040001,
+			2040002,
+			2040003,
+			2040021,
+			2040022,
+			2040023,
+			2040041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				726,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27262] = {
+		name = "『瑟堡SP活动』通关任务30次",
+		guild_coin_award = 0,
+		award = 910262,
+		type = 6,
+		desc = "通关30次『美梦巡演奇妙夜』特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27262,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2040001,
+			2040002,
+			2040003,
+			2040021,
+			2040022,
+			2040023,
+			2040041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				726,
+				1500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27263] = {
+		name = "『瑟堡SP活动』通关任务60次",
+		guild_coin_award = 0,
+		award = 910263,
+		type = 6,
+		desc = "通关60次『美梦巡演奇妙夜』特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27263,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2040001,
+			2040002,
+			2040003,
+			2040021,
+			2040022,
+			2040023,
+			2040041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				726,
+				3000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27264] = {
+		name = "『瑟堡SP活动』外观装备箱保底",
+		guild_coin_award = 0,
+		award = 910264,
+		type = 6,
+		desc = "通过「活动商店」兑换或「补给商店-军火」购买20个[外观装备箱(童话乐园)]",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "30385",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27264,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30569,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27265] = {
+		name = "『瑟堡SP活动』剧情模式通关",
+		guild_coin_award = 0,
+		award = 910265,
+		type = 6,
+		desc = "完成「剧情模式」 ",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27265,
+		target_num = 9,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7761,
+			7762,
+			7763,
+			7764,
+			7765,
+			7766,
+			7767,
+			7768,
+			7769
+		},
+		open_need = {},
+		award_display = {
+			{
+				3,
+				151180,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 2040001,
+				displayMode = 2
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[27181] = {
 		name = "『阿尔萨斯轻量化复刻』前哨战五日任务1",
 		guild_coin_award = 0,
@@ -250025,6 +251621,307 @@ end)()
 				1,
 				718,
 				45
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27400] = {
+		name = "『20260625』宿舍活跃任务1",
+		guild_coin_award = 0,
+		award = 1700500,
+		type = 26,
+		desc = "舰队出征，获得15次胜利",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27400,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				27,
+				7990261,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27401] = {
+		name = "『20260625』宿舍活跃任务2",
+		guild_coin_award = 0,
+		award = 1700501,
+		type = 26,
+		desc = "通关3次任意困难关卡 ",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27401,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				27,
+				7990261,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27402] = {
+		name = "『20260625』宿舍活跃任务3",
+		guild_coin_award = 0,
+		award = 1700502,
+		type = 26,
+		desc = "完成3次每日挑战",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27402,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				27,
+				7990261,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27403] = {
+		name = "『20260625』宿舍活跃任务4",
+		guild_coin_award = 0,
+		award = 1700503,
+		type = 26,
+		desc = "击沉任意敌人20艘",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27403,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				27,
+				7990261,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27404] = {
+		name = "『20260625』宿舍活跃任务5",
+		guild_coin_award = 0,
+		award = 1700504,
+		type = 26,
+		desc = "进行2次战术训练",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27404,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				27,
+				7990261,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27405] = {
+		name = "『20260625』宿舍活跃任务6",
+		guild_coin_award = 0,
+		award = 1700505,
+		type = 26,
+		desc = "完成军事委托2次",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27405,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				27,
+				7990261,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27406] = {
+		name = "『20260625』宿舍活跃任务7",
+		guild_coin_award = 0,
+		award = 1700506,
+		type = 26,
+		desc = "舰队出征，消灭敌方旗舰3次",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27406,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				27,
+				7990261,
+				2
 			}
 		}
 	}

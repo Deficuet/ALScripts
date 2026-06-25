@@ -130,7 +130,8 @@ pg.medal_template.all = {
 	200141,
 	200151,
 	200161,
-	200171
+	200171,
+	200181
 }
 pg.base = pg.base or {}
 pg.base.medal_template = {}
@@ -2937,5 +2938,26 @@ end)()
 		id = 200171,
 		target_num = 7,
 		target_id = "50616"
+	}
+	pg.base.medal_template[200181] = {
+		explain1 = "「美梦巡演奇妙夜」",
+		name = "美梦巡演纪念勋章",
+		explain2 = "活动纪念",
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "大幕拉开，灯光亮起，折纸为翼，魔术作笔。欢迎来到这场永不落幕的奇妙巡游~\n——愿你的每一个梦，都如马戏团的夜晚般绚烂！",
+		next = 0,
+		icon = "9181",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9181",
+		condition = "收集8个「美梦巡演奇妙夜」纪念贴纸。",
+		rank = 1,
+		id = 200181,
+		target_num = 8,
+		target_id = "50659"
 	}
 end)()

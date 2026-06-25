@@ -1,12 +1,22 @@
 local var_0_0 = class("MonthSignPage", import("...base.BaseActivityPage"))
 
 var_0_0.SHOW_RE_MONTH_SIGN = "show re month sign award"
+var_0_0.MILESTONE_SPECIAL_DATA = "month_sign_milestone_day"
 var_0_0.MONTH_SIGN_SHOW = {}
+var_0_0.MONTH_SIGN_SP_DAYS = {
+	30,
+	60,
+	120,
+	240,
+	300
+}
 
 function var_0_0.OnInit(arg_1_0)
 	arg_1_0.bg = arg_1_0._tf:Find("bg")
 	arg_1_0.items = arg_1_0._tf:Find("items")
 	arg_1_0.item = arg_1_0.items:Find("item")
+	arg_1_0.spDay = arg_1_0._tf:Find("sp_day")
+	arg_1_0.spDayEffects = {}
 	arg_1_0.monthSignReSignUI = MonthSignReSignUI.New(arg_1_0._tf, arg_1_0.event, nil)
 
 	arg_1_0:bind(var_0_0.SHOW_RE_MONTH_SIGN, function(arg_2_0, arg_2_1, arg_2_2)
@@ -16,6 +26,16 @@ function var_0_0.OnInit(arg_1_0)
 
 		arg_1_0.monthSignReSignUI:ActionInvoke("setAwardShow", arg_2_1, arg_2_2)
 	end)
+
+	for iter_1_0, iter_1_1 in ipairs(MonthSignPage.MONTH_SIGN_SP_DAYS) do
+		local var_1_0 = arg_1_0.spDay:Find(iter_1_1 .. "days")
+
+		arg_1_0.spDayEffects[iter_1_1] = var_1_0
+
+		setActive(var_1_0, false)
+	end
+
+	setActive(arg_1_0.spDay, false)
 	setText(arg_1_0._tf:Find("login/Text"), i18n("yearly_sign_in"))
 	setText(arg_1_0._tf:Find("login/count/Text"), i18n("word_date"))
 end
@@ -83,6 +103,7 @@ function var_0_0.OnUpdateFlush(arg_8_0)
 		return
 	end
 
+	arg_8_0:UpdateLoginInfo()
 	arg_8_0.list:align(arg_8_0.monthDays)
 
 	if arg_8_0.specialTag then
@@ -124,6 +145,12 @@ function var_0_0.showReMonthSign(arg_9_0)
 end
 
 function var_0_0.OnDestroy(arg_10_0)
+	if arg_10_0.spEffectLT then
+		LeanTween.cancel(arg_10_0.spEffectLT)
+
+		arg_10_0.spEffectLT = nil
+	end
+
 	removeAllChildren(arg_10_0.items)
 
 	arg_10_0.monthSignPageTool = nil
@@ -155,6 +182,63 @@ function var_0_0.UpdateLoginInfo(arg_13_0)
 		setText(var_13_1:Find("month"), string.format("%02d/%02d/%02d-%02d/%02d/%02d", var_13_3[1][1] % 100, var_13_3[1][2], var_13_3[1][3], var_13_4[1][1] % 100, var_13_4[1][2], var_13_4[1][3]))
 		setText(var_13_1:Find("count/day"), var_13_0:getData1())
 	end
+end
+
+function var_0_0.TryShowSpEffect(arg_14_0, arg_14_1)
+	local var_14_0 = arg_14_0.activity:getSpecialData(var_0_0.MILESTONE_SPECIAL_DATA)
+	local var_14_1 = arg_14_0.spDayEffects[var_14_0]
+	local var_14_2 = var_14_1:Find("heidi"):GetComponent(typeof("UnityEngine.ParticleSystem"))
+	local var_14_3 = arg_14_0:GetEffectLeftTime(var_14_2)
+
+	arg_14_0.activity:setSpecialData(var_0_0.MILESTONE_SPECIAL_DATA, nil)
+	setActive(arg_14_0.spDay, true)
+
+	if arg_14_0.spEffectLT then
+		LeanTween.cancel(arg_14_0.spEffectLT)
+
+		arg_14_0.spEffectLT = nil
+	end
+
+	setActive(var_14_1, true)
+
+	arg_14_0.spEffectLT = LeanTween.value(go(var_14_1), 0, 1, var_14_3):setOnComplete(System.Action(function()
+		arg_14_0.spEffectLT = nil
+
+		arg_14_0:HideSPEffect(arg_14_1)
+	end)).uniqueId
+end
+
+function var_0_0.GetEffectLeftTime(arg_16_0, arg_16_1)
+	local var_16_0 = arg_16_1.main
+	local var_16_1 = var_16_0.duration
+	local var_16_2 = var_16_0.startLifetime.constantMax
+
+	return var_16_0.startDelay.constantMax + var_16_1 + var_16_2
+end
+
+function var_0_0.HideSPEffect(arg_17_0, arg_17_1)
+	for iter_17_0, iter_17_1 in pairs(arg_17_0.spDayEffects) do
+		if iter_17_1 then
+			setActive(iter_17_1, false)
+		end
+	end
+
+	setActive(arg_17_0.spDay, false)
+	existCall(arg_17_1)
+end
+
+function var_0_0.ShouldPlaySpEffect(arg_18_0)
+	if not arg_18_0 then
+		return false
+	end
+
+	if arg_18_0:getConfig("type") ~= ActivityConst.ACTIVITY_TYPE_MONTHSIGN then
+		return false
+	end
+
+	local var_18_0 = arg_18_0:getSpecialData(var_0_0.MILESTONE_SPECIAL_DATA)
+
+	return var_18_0 and table.contains(var_0_0.MONTH_SIGN_SP_DAYS, var_18_0)
 end
 
 return var_0_0

@@ -25,6 +25,10 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.scaleSetBtnX = arg_2_0.scaleSetBtn.localPosition.x
 	arg_2_0.btnSelectX = arg_2_0.moveBtn.localPosition.x
 	arg_2_0.showing = false
+	arg_2_0.pageCG = GetOrAddComponent(arg_2_0._tf, typeof(CanvasGroup))
+	arg_2_0.pageCG.ignoreParentGroups = true
+	arg_2_0.pageCG.interactable = true
+	arg_2_0.pageCG.blocksRaycasts = true
 end
 
 function var_0_0.OnInit(arg_3_0)

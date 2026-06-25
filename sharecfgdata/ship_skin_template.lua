@@ -21879,7 +21879,11 @@ end)()
 			10213447,
 			10213448,
 			10213449,
-			10213450
+			10213450,
+			10213451,
+			10213452,
+			10213453,
+			10213454
 		}
 	}
 end)()
@@ -190810,6 +190814,179 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_skin_template[403103] = {
+		ship_group = 40310,
+		name = "黑与白的魔术师",
+		hand_id = 1,
+		lover_kiss = "lip03",
+		bgm = "",
+		illustrator2 = -1,
+		id = 403103,
+		gyro = 0,
+		group_index = 3,
+		purchase_offset = "",
+		painting = "adaerbote_4",
+		lover_hand = "hand_1_02",
+		l2d_drag_rate = "",
+		prefab = "adaerbote_4",
+		shop_type_id = 26,
+		part_scale = "",
+		shop_id = 71377,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		shop_dynamic_hx = 0,
+		illustrator = -1,
+		bg = "665",
+		double_char = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skeleton_default_skin = "",
+		skin_type = 4,
+		voice_lang = "",
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_voice_calibrate = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "唔？指挥官竟然能闯进魔术师的练习场地，还真是了不起……正好，就让你来做我新魔术的第一位观众吧。",
+		voice_actor = 297,
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			-122,
+			-527.6,
+			0,
+			0.42
+		},
+		spine_offset_profile = {
+			-60.1,
+			-517.3,
+			0,
+			0.41
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.77,
+					1.04,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.99,
+					0.79,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.021,
+					0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.6,
+					2.44,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.74,
+							2.48,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			147.3,
+			-548.5,
+			0,
+			0.41
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1464,
+					107,
+					2,
+					0,
+					124,
+					2
+				},
+				{
+					-312,
+					455,
+					2,
+					141,
+					0,
+					2
+				},
+				{
+					-593,
+					-365,
+					2,
+					0,
+					-141,
+					2
+				}
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_skin_template[403110] = {
 		ship_group = 40311,
 		name = "{namecode:457}",
@@ -229490,6 +229667,179 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_skin_template[605082] = {
+		ship_group = 60508,
+		name = "共绘的魔术杰作",
+		hand_id = 1,
+		lover_kiss = "lip03",
+		bgm = "",
+		illustrator2 = -1,
+		id = 605082,
+		gyro = 0,
+		group_index = 2,
+		purchase_offset = "",
+		painting = "lafeier_3",
+		lover_hand = "hand_1_02",
+		l2d_drag_rate = "",
+		prefab = "lafeier_3",
+		shop_type_id = 26,
+		part_scale = "",
+		shop_id = 71374,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		shop_dynamic_hx = 0,
+		illustrator = -1,
+		bg = "665",
+		double_char = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skeleton_default_skin = "",
+		skin_type = 4,
+		voice_lang = "",
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_voice_calibrate = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "欢迎光临马戏团的艺术巡回展~！怎么样指挥官，看到我送您的这份礼物，有没有感觉心跳加速？为了完成这件杰作，我可是献出了自己的“全部”哦~",
+		voice_actor = 441,
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			-194.3,
+			-816.5,
+			0,
+			0.61
+		},
+		spine_offset_profile = {
+			-139.3,
+			-803.2,
+			0,
+			0.6
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.63,
+					0.91,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.61,
+					1.44,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.689,
+					2.277,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.65,
+							2.338,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			146,
+			-1322.7,
+			0,
+			0.84
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-2363,
+					765.98,
+					2,
+					153,
+					0,
+					2
+				},
+				{
+					201,
+					533,
+					1.5,
+					0,
+					-185,
+					2
+				},
+				{
+					-519,
+					-124,
+					1.5,
+					-133,
+					0,
+					2
+				}
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_skin_template[605090] = {
 		ship_group = 60509,
 		name = "弗朗西斯科·卡拉乔洛",
@@ -230995,6 +231345,149 @@ end)()
 							0
 						}
 					}
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_skin_template[608022] = {
+		ship_group = 60802,
+		name = "摇摆兔女郎",
+		hand_id = 13,
+		lover_kiss = "lip02",
+		bgm = "",
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 608022,
+		group_index = 2,
+		purchase_offset = "",
+		painting = "dafenqi_3",
+		lover_hand = "hand_2_02",
+		gyro = 0,
+		l2d_drag_rate = "",
+		shop_type_id = 26,
+		prefab = "dafenqi_3",
+		part_scale = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		shop_id = 71375,
+		shop_dynamic_hx = 0,
+		bg = "665",
+		illustrator = -1,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 4,
+		double_char = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		l2d_voice_calibrate = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "呀，指挥官！刚才荡至最高处的瞬间，我脑子里突然闪过一个新灵感！魔术表演——可以开始了！",
+		voice_actor = 332,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.61,
+					0.71,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.05,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.63,
+							2.42,
+							0
+						}
+					}
+				}
+			}
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1695,
+					-83,
+					1.8,
+					0,
+					174,
+					2
+				},
+				{
+					-1331,
+					704,
+					1.8,
+					116,
+					0,
+					2
+				},
+				{
+					-329,
+					-166,
+					1.8,
+					0,
+					-141,
+					2
 				}
 			}
 		}
@@ -246900,6 +247393,306 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_skin_template[801060] = {
+		ship_group = 80106,
+		name = "无惧",
+		hand_id = 13,
+		lover_kiss = "lip02",
+		bgm = "",
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 801060,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "wuju",
+		lover_hand = "hand_2_02",
+		gyro = 0,
+		l2d_drag_rate = "",
+		shop_type_id = 0,
+		prefab = "wuju",
+		part_scale = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		shop_id = 0,
+		shop_dynamic_hx = 0,
+		bg = "",
+		illustrator = -1,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = -1,
+		double_char = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		l2d_para_range = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		l2d_voice_calibrate = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "大胆级驱逐舰一一无惧",
+		voice_actor = 158,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.95,
+					0.587,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.95,
+					0.54,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.151,
+					0.051,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.89,
+					0.537,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_skin_template[801061] = {
+		ship_group = 80106,
+		name = "炙焰冲刺！",
+		hand_id = 13,
+		lover_kiss = "lip02",
+		bgm = "",
+		illustrator2 = -1,
+		id = 801061,
+		gyro = 0,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "wuju_2",
+		lover_hand = "hand_2_02",
+		l2d_drag_rate = "",
+		prefab = "wuju_2",
+		shop_type_id = 26,
+		part_scale = "",
+		shop_id = 71373,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		shop_dynamic_hx = 0,
+		illustrator = -1,
+		bg = "159",
+		double_char = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skeleton_default_skin = "",
+		skin_type = 4,
+		voice_lang = "",
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_voice_calibrate = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "呼呼——！最后的高潮来啦！看我摘下火圈上的烤肉，为今晚的盛宴画上完美的句号哇！指挥官，见证此刻吧——",
+		voice_actor = 158,
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			6,
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			-143,
+			-1028,
+			0,
+			0.7
+		},
+		spine_offset_profile = {
+			-46.2,
+			-936.1,
+			0,
+			0.65
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.015,
+					1.282,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.362,
+					1.486,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.14,
+					0.035,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.761,
+					2.291,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.778,
+							2.389,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			90.8,
+			-1014.1,
+			0,
+			0.73
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					1176,
+					-201,
+					2.5,
+					0,
+					165,
+					2
+				},
+				{
+					-629,
+					827,
+					2,
+					-119,
+					0,
+					2
+				},
+				{
+					-519,
+					-378,
+					2,
+					0,
+					-177,
+					2
+				}
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_skin_template[801070] = {
 		ship_group = 80107,
 		name = "可怖",
@@ -252835,6 +253628,306 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_skin_template[806020] = {
+		ship_group = 80602,
+		name = "阿罗芒什",
+		hand_id = 13,
+		lover_kiss = "lip03",
+		bgm = "",
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 806020,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "aluomangshi",
+		lover_hand = "hand_1_02",
+		gyro = 0,
+		l2d_drag_rate = "",
+		shop_type_id = 0,
+		prefab = "aluomangshi",
+		part_scale = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		shop_id = 0,
+		shop_dynamic_hx = 0,
+		bg = "",
+		illustrator = -1,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = -1,
+		double_char = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		l2d_para_range = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		l2d_voice_calibrate = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "巨像级轻型航空母舰一一阿罗芒什",
+		voice_actor = 511,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.284,
+					0.933,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.054,
+					0.718,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.833,
+					2.282,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.625,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_skin_template[806021] = {
+		ship_group = 80602,
+		name = "足尖弓矢",
+		hand_id = 13,
+		lover_kiss = "lip03",
+		bgm = "",
+		illustrator2 = -1,
+		id = 806021,
+		gyro = 0,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "aluomangshi_2",
+		lover_hand = "hand_1_02",
+		l2d_drag_rate = "",
+		prefab = "aluomangshi_2",
+		shop_type_id = 26,
+		part_scale = "",
+		shop_id = 71372,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		shop_dynamic_hx = 0,
+		illustrator = -1,
+		bg = "159",
+		double_char = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skeleton_default_skin = "",
+		skin_type = 4,
+		voice_lang = "",
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_voice_calibrate = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "保持重心……平衡……拉弓……欸？指挥官你来得正巧，我的新表演还缺个帮手呢~ ",
+		voice_actor = 511,
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			7,
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			-72.2,
+			-609.6,
+			0,
+			0.43
+		},
+		spine_offset_profile = {
+			-14.4,
+			-610.7,
+			0,
+			0.42
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.252,
+					0.901,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.796,
+					0.774,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.808,
+					2.274,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.714,
+							2.418,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			147,
+			-729,
+			0,
+			0.388
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					391,
+					-834,
+					2.5,
+					0,
+					-86,
+					2
+				},
+				{
+					-854,
+					-599,
+					2.5,
+					-132,
+					0,
+					2
+				},
+				{
+					-764,
+					398,
+					2.5,
+					0,
+					135,
+					2
+				}
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_skin_template[807010] = {
 		ship_group = 80701,
 		name = "贝亚恩",
@@ -253876,6 +254969,399 @@ end)()
 		},
 		l2d_voice_calibrate = {
 			login = 4
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_skin_template[818010] = {
+		ship_group = 81801,
+		name = "瑟堡",
+		hand_id = 1,
+		lover_kiss = "lip03",
+		bgm = "",
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 818010,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "sebao",
+		lover_hand = "hand_1_02",
+		gyro = 0,
+		l2d_drag_rate = "",
+		shop_type_id = 0,
+		prefab = "sebao",
+		part_scale = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		shop_dynamic_hx = 0,
+		illustrator = -1,
+		bg = "",
+		double_char = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = -1,
+		skeleton_default_skin = "",
+		bg_sp = "",
+		voice_actor_2 = -1,
+		voice_lang = "",
+		l2d_para_range = "",
+		l2d_voice_calibrate = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "海军条约型23333长吨大型防护巡洋舰一一瑟堡",
+		voice_actor = 509,
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.108,
+					0.963,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.07,
+					0.09,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.929,
+					2.274,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.758,
+							2.381,
+							-0.16
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			-92,
+			-772,
+			0,
+			0.95
+		},
+		special_effects = {
+			"lihui_kalangshitade",
+			{
+				1597,
+				229,
+				0
+			},
+			{
+				1.35
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_skin_template[818011] = {
+		ship_group = 81801,
+		name = "布偶熊里面的是……？",
+		hand_id = 1,
+		lover_kiss = "lip03",
+		bgm = "",
+		illustrator2 = -1,
+		id = 818011,
+		gyro = 0,
+		group_index = 1,
+		l2d_drag_rate = "",
+		painting = "sebao_2",
+		lover_hand = "hand_1_02",
+		prefab = "sebao_2",
+		part_scale = "",
+		shop_type_id = 26,
+		shop_id = 71378,
+		shop_dynamic_hx = 0,
+		lip_smoothing = 0,
+		illustrator = -1,
+		double_char = 0,
+		skeleton_default_skin = "",
+		bg = "159",
+		voice_lang = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 4,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "哈……哈……布偶装里面，真的很热呢……这样惊人的出场方式，一定完全超出了指挥官你的意料吧，呵呵呵呵~",
+		voice_actor = 509,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			9,
+			4
+		},
+		live2d_offset = {
+			0,
+			-120,
+			0,
+			70
+		},
+		shop_offset = {
+			0,
+			110,
+			0,
+			70
+		},
+		purchase_offset = {
+			0,
+			110,
+			0,
+			70
+		},
+		live2d_offset_profile = {
+			0,
+			100,
+			0,
+			70
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.14,
+					0.963,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.07,
+					0.09,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.01,
+					2.419,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.815,
+							2.518,
+							-0.16
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		ship_l2d_id = {
+			81801101,
+			81801102,
+			81801103,
+			81801104,
+			81801105,
+			81801106,
+			81801107,
+			81801108,
+			81801109,
+			81801110,
+			81801111,
+			81801112,
+			81801113,
+			81801114,
+			81801115,
+			81801116,
+			81801117,
+			81801118,
+			81801119,
+			81801120,
+			81801121,
+			81801122,
+			81801123,
+			81801124,
+			81801125,
+			81801126,
+			81801127,
+			81801128,
+			81801129,
+			81801130,
+			81801131,
+			81801132,
+			81801133,
+			81801134,
+			81801135,
+			81801136,
+			81801137,
+			81801138,
+			81801139,
+			81801140,
+			81801141,
+			81801142,
+			81801143,
+			81801144,
+			81801145,
+			81801146,
+			81801147,
+			81801148,
+			81801149,
+			81801150,
+			81801151,
+			81801152,
+			81801153,
+			81801154,
+			81801155,
+			81801156,
+			81801157,
+			81801158,
+			81801159,
+			81801160,
+			81801161,
+			81801162,
+			81801163,
+			81801164,
+			81801165,
+			81801166,
+			81801167
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					1346,
+					398,
+					2.5,
+					0,
+					-115,
+					2
+				},
+				{
+					70,
+					-744,
+					2.5,
+					-155,
+					0,
+					2
+				},
+				{
+					38,
+					126,
+					2.5,
+					0,
+					152,
+					2
+				},
+				{
+					59,
+					1023.7,
+					2.5,
+					115,
+					0,
+					2
+				}
+			}
 		}
 	}
 end)()
@@ -358291,7 +359777,7 @@ end)()
 			show = 1,
 			data = {
 				{
-					1480,
+					1470,
 					356,
 					2,
 					0,
@@ -358299,10 +359785,10 @@ end)()
 					2
 				},
 				{
-					239,
-					1023.8,
+					240,
+					1023,
 					3,
-					-123,
+					-124,
 					0,
 					2
 				},
@@ -358569,6 +360055,179 @@ end)()
 							0
 						}
 					}
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_skin_template[699012] = {
+		ship_group = 69901,
+		name = "好戏开幕！惊奇Show",
+		hand_id = 1,
+		lover_kiss = "lip03",
+		bgm = "",
+		illustrator2 = -1,
+		id = 699012,
+		gyro = 0,
+		group_index = 2,
+		purchase_offset = "",
+		painting = "makeboluo_3",
+		lover_hand = "hand_1_02",
+		l2d_drag_rate = "",
+		prefab = "makeboluo_3",
+		shop_type_id = 26,
+		part_scale = "",
+		shop_id = 71376,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		shop_dynamic_hx = 0,
+		illustrator = -1,
+		bg = "665",
+		double_char = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skeleton_default_skin = "",
+		skin_type = 4,
+		voice_lang = "",
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_voice_calibrate = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "欢迎来到我的惊奇show~！现在是演出结算时间，好好睁大眼睛吧指挥官，可别轻易迷失在这欢乐的海洋之中了，呵呵呵~",
+		voice_actor = 280,
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			-22,
+			-601,
+			0,
+			0.7
+		},
+		spine_offset_profile = {
+			44,
+			-576,
+			0,
+			0.69
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.51,
+					1.24,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.23,
+					0.77,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.61,
+					2.65,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.65,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			-37.8,
+			-703.6,
+			0,
+			0.87
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1471,
+					-895,
+					2,
+					0,
+					157,
+					2
+				},
+				{
+					-1256,
+					156,
+					2,
+					157,
+					0,
+					2
+				},
+				{
+					-14,
+					-382,
+					2,
+					0,
+					-182,
+					2
 				}
 			}
 		}

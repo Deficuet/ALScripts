@@ -17,7 +17,11 @@ pg.dorm3d_resource.all = {
 	307071,
 	307073,
 	499051,
-	499053
+	499053,
+	799021,
+	799022,
+	799023,
+	799024
 }
 pg.dorm3d_resource.get_id_list_by_ship_group = {
 	[10517] = {
@@ -45,6 +49,12 @@ pg.dorm3d_resource.get_id_list_by_ship_group = {
 	[49905] = {
 		499051,
 		499053
+	},
+	[79902] = {
+		799021,
+		799022,
+		799023,
+		799024
 	}
 }
 pg.base = pg.base or {}
@@ -66,6 +76,7 @@ pg.base.dorm3d_resource = {}
 		switch_anim = "",
 		head_Icon = "dorm3Dchar/tianlangxing",
 		hx_component = "",
+		is_show_change_skin = 1,
 		picture = "regular",
 		wear_anim = "",
 		model_id = "tianlangxing_noshoes",
@@ -88,6 +99,7 @@ pg.base.dorm3d_resource = {}
 		switch_anim = "ganjin",
 		head_Icon = "dorm3Dchar/tianlangxing",
 		hx_component = "",
+		is_show_change_skin = 1,
 		picture = "regular",
 		wear_anim = "diantou",
 		model_id = "tianlangxing_swim",
@@ -118,6 +130,7 @@ pg.base.dorm3d_resource = {}
 		switch_anim = "",
 		head_Icon = "dorm3Dchar/tianlangxing",
 		hx_component = "",
+		is_show_change_skin = 1,
 		picture = "regular",
 		wear_anim = "",
 		model_id = "tianlangxing_bunny",
@@ -149,6 +162,7 @@ pg.base.dorm3d_resource = {}
 		switch_anim = "",
 		head_Icon = "dorm3Dchar/nengdai",
 		hx_component = "",
+		is_show_change_skin = 1,
 		picture = "regular",
 		wear_anim = "",
 		model_id = "nengdai_noshoes",
@@ -171,6 +185,7 @@ pg.base.dorm3d_resource = {}
 		switch_anim = "shuohua_chuaishou",
 		head_Icon = "dorm3Dchar/nengdai",
 		hx_component = "",
+		is_show_change_skin = 1,
 		picture = "regular",
 		wear_anim = "shuohua_sikao",
 		model_id = "nengdai_swim",
@@ -202,6 +217,7 @@ pg.base.dorm3d_resource = {}
 		switch_anim = "",
 		head_Icon = "dorm3Dchar/ankeleiqi",
 		hx_component = "",
+		is_show_change_skin = 1,
 		picture = "regular",
 		wear_anim = "",
 		model_id = "ankeleiqi_noshoes",
@@ -224,6 +240,7 @@ pg.base.dorm3d_resource = {}
 		switch_anim = "",
 		head_Icon = "dorm3Dchar/ankeleiqi",
 		hx_component = "",
+		is_show_change_skin = 1,
 		picture = "regular",
 		wear_anim = "",
 		model_id = "ankeleiqi_swim",
@@ -255,6 +272,7 @@ pg.base.dorm3d_resource = {}
 		switch_anim = "",
 		head_Icon = "dorm3Dchar/ankeleiqi",
 		hx_component = "",
+		is_show_change_skin = 0,
 		picture = "regular",
 		wear_anim = "",
 		model_id = "ankeleiqi_stock",
@@ -278,6 +296,7 @@ pg.base.dorm3d_resource = {}
 		switch_anim = "",
 		head_Icon = "dorm3Dchar/xinzexi",
 		hx_component = "",
+		is_show_change_skin = 1,
 		picture = "regular",
 		wear_anim = "",
 		model_id = "xinzexi_noshoes",
@@ -306,6 +325,7 @@ pg.base.dorm3d_resource = {}
 		switch_anim = "",
 		head_Icon = "dorm3Dchar/xinzexi",
 		hx_component = "",
+		is_show_change_skin = 1,
 		picture = "regular",
 		wear_anim = "",
 		model_id = "xinzexi_bunny",
@@ -335,6 +355,7 @@ pg.base.dorm3d_resource = {}
 		switch_anim = "",
 		head_Icon = "dorm3Dchar/dafeng",
 		hx_component = "",
+		is_show_change_skin = 1,
 		picture = "regular",
 		wear_anim = "",
 		model_id = "dafeng_noshoes",
@@ -371,6 +392,7 @@ pg.base.dorm3d_resource = {}
 		switch_anim = "",
 		head_Icon = "dorm3Dchar/dafeng",
 		hx_component = "",
+		is_show_change_skin = 1,
 		picture = "regular",
 		wear_anim = "",
 		model_id = "dafeng_bunny",
@@ -402,6 +424,7 @@ pg.base.dorm3d_resource = {}
 		switch_anim = "",
 		head_Icon = "dorm3Dchar/aijier",
 		hx_component = "",
+		is_show_change_skin = 1,
 		picture = "regular",
 		wear_anim = "",
 		model_id = "aijier_noshoes",
@@ -424,6 +447,7 @@ pg.base.dorm3d_resource = {}
 		switch_anim = "",
 		head_Icon = "dorm3Dchar/aijier",
 		hx_component = "",
+		is_show_change_skin = 1,
 		picture = "regular",
 		wear_anim = "",
 		model_id = "aijier_bunny",
@@ -437,6 +461,117 @@ pg.base.dorm3d_resource = {}
 			5,
 			16,
 			49905
+		},
+		hidden_part = {}
+	}
+	pg.base.dorm3d_resource[799021] = {
+		ship_group = 79902,
+		name = "纳希莫夫常服",
+		type = 1,
+		remarks = "",
+		stocking_pos = "",
+		stocking_geo_path = "",
+		shop_id = 0,
+		unlock = "",
+		unlock_text = "",
+		origin_model = "pre_char_naximofu_mod",
+		animator = "",
+		switch_anim = "",
+		head_Icon = "dorm3Dchar/naximofu",
+		hx_component = "",
+		is_show_change_skin = 1,
+		picture = "regular",
+		wear_anim = "",
+		model_id = "naximofu_noshoes",
+		id = 799021,
+		hidden_part_apply_in_timeline = 0,
+		tags = {},
+		hidden_part = {}
+	}
+	pg.base.dorm3d_resource[799022] = {
+		ship_group = 79902,
+		name = "纳希莫夫公共房间",
+		type = 2,
+		remarks = "",
+		stocking_pos = "",
+		stocking_geo_path = "",
+		shop_id = 270121,
+		origin_model = "pre_char_naximofu_racing_mod",
+		unlock_text = "在维修区工作站中购买角色皮肤",
+		animator = "",
+		switch_anim = "",
+		head_Icon = "dorm3Dchar/naximofu",
+		hx_component = "",
+		is_show_change_skin = 0,
+		picture = "regular",
+		wear_anim = "",
+		model_id = "naximofu_racing",
+		id = 799022,
+		hidden_part_apply_in_timeline = 0,
+		tags = {
+			"carwash",
+			"touch"
+		},
+		unlock = {
+			5,
+			26,
+			79902
+		},
+		hidden_part = {}
+	}
+	pg.base.dorm3d_resource[799023] = {
+		ship_group = 79902,
+		name = "纳希莫夫宿舍赛车服",
+		type = 2,
+		remarks = "",
+		stocking_pos = "",
+		stocking_geo_path = "",
+		shop_id = 270121,
+		origin_model = "pre_char_naximofu_racing_lz_mod",
+		unlock_text = "在维修区工作站中购买角色皮肤",
+		animator = "",
+		switch_anim = "",
+		head_Icon = "dorm3Dchar/naximofu",
+		hx_component = "",
+		is_show_change_skin = 1,
+		picture = "regular",
+		wear_anim = "",
+		model_id = "naximofu_racing_noshoes",
+		id = 799023,
+		hidden_part_apply_in_timeline = 0,
+		tags = {},
+		unlock = {
+			5,
+			26,
+			79902
+		},
+		hidden_part = {}
+	}
+	pg.base.dorm3d_resource[799024] = {
+		ship_group = 79902,
+		name = "纳希莫夫洗车",
+		type = 2,
+		remarks = "",
+		stocking_pos = "",
+		stocking_geo_path = "",
+		shop_id = 0,
+		origin_model = "pre_char_naximofu_racing_mod",
+		unlock_text = "在维修区工作站中购买角色皮肤",
+		animator = "",
+		switch_anim = "",
+		head_Icon = "dorm3Dchar/naximofu",
+		hx_component = "",
+		is_show_change_skin = 0,
+		picture = "regular",
+		wear_anim = "",
+		model_id = "naximofu_racing_carwash",
+		id = 799024,
+		hidden_part_apply_in_timeline = 0,
+		tags = {},
+		unlock = {
+			5,
+			26,
+			79902
 		},
 		hidden_part = {}
 	}

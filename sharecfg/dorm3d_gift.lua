@@ -17,7 +17,9 @@ pg.dorm3d_gift.all = {
 	1051702,
 	3070701,
 	3070702,
-	4990501
+	4990501,
+	7990201,
+	7990261
 }
 pg.dorm3d_gift.get_id_list_by_ship_group_id = {
 	[0] = {
@@ -48,6 +50,10 @@ pg.dorm3d_gift.get_id_list_by_ship_group_id = {
 	},
 	[49905] = {
 		4990501
+	},
+	[79902] = {
+		7990201,
+		7990261
 	}
 }
 pg.base = pg.base or {}
@@ -57,12 +63,14 @@ pg.base.dorm3d_gift = {}
 	pg.base.dorm3d_gift[1021001] = {
 		name = "绒兔布偶",
 		display = "粉色的兔子布偶，采用柔软织物填充。抱在怀中十分舒适。",
-		rarity = 2,
+		time = "always",
 		unlock_dialogue_id = 0,
+		rarity = 2,
+		id = 1021001,
 		shop_id = "",
 		ship_group_id = 0,
 		favor_trigger_id = 1009,
-		id = 1021001,
+		hide_if_not_owned = 0,
 		icon = "dorm3dicon/3Ddrom_everyone_CommonGift3",
 		reply_dialogue_id = {
 			{
@@ -88,6 +96,10 @@ pg.base.dorm3d_gift = {}
 			{
 				49905,
 				140301
+			},
+			{
+				79902,
+				210301
 			}
 		},
 		unlock_tips = {},
@@ -127,18 +139,26 @@ pg.base.dorm3d_gift = {}
 				{
 					"banner_aijier"
 				}
+			},
+			{
+				79902,
+				{
+					"banner_naximofu"
+				}
 			}
 		}
 	}
 	pg.base.dorm3d_gift[1021002] = {
-		ship_group_id = 0,
-		display = "花束散发着迷人的香气。玫瑰与其它红色为主的花卉彰显着它所代表的热烈与浪漫。",
-		rarity = 3,
-		unlock_dialogue_id = 0,
-		id = 1021002,
-		icon = "dorm3dicon/3Ddrom_everyone_CommonGift2",
 		name = "浪漫满分",
+		display = "花束散发着迷人的香气。玫瑰与其它红色为主的花卉彰显着它所代表的热烈与浪漫。",
+		time = "always",
+		unlock_dialogue_id = 0,
+		rarity = 3,
+		id = 1021002,
+		ship_group_id = 0,
 		favor_trigger_id = 1010,
+		hide_if_not_owned = 0,
+		icon = "dorm3dicon/3Ddrom_everyone_CommonGift2",
 		reply_dialogue_id = {
 			{
 				20220,
@@ -163,6 +183,10 @@ pg.base.dorm3d_gift = {}
 			{
 				49905,
 				140302
+			},
+			{
+				79902,
+				210302
 			}
 		},
 		shop_id = {
@@ -209,18 +233,26 @@ pg.base.dorm3d_gift = {}
 				{
 					"banner_aijier"
 				}
+			},
+			{
+				79902,
+				{
+					"banner_naximofu"
+				}
 			}
 		}
 	}
 	pg.base.dorm3d_gift[1021003] = {
-		ship_group_id = 0,
-		display = "礼盒采用精致的包装，内含各种美味的蛋糕。无论是自己享用还是作为礼物，都是非常不错的选择。",
-		rarity = 4,
-		unlock_dialogue_id = 0,
-		id = 1021003,
-		icon = "dorm3dicon/3Ddrom_everyone_CommonGift1",
 		name = "蛋糕礼盒",
+		display = "礼盒采用精致的包装，内含各种美味的蛋糕。无论是自己享用还是作为礼物，都是非常不错的选择。",
+		time = "always",
+		unlock_dialogue_id = 0,
+		rarity = 4,
+		id = 1021003,
+		ship_group_id = 0,
 		favor_trigger_id = 1019,
+		hide_if_not_owned = 0,
+		icon = "dorm3dicon/3Ddrom_everyone_CommonGift1",
 		reply_dialogue_id = {
 			{
 				20220,
@@ -245,6 +277,10 @@ pg.base.dorm3d_gift = {}
 			{
 				49905,
 				140303
+			},
+			{
+				79902,
+				210303
 			}
 		},
 		shop_id = {
@@ -288,18 +324,26 @@ pg.base.dorm3d_gift = {}
 				{
 					"banner_aijier"
 				}
+			},
+			{
+				79902,
+				{
+					"banner_naximofu"
+				}
 			}
 		}
 	}
 	pg.base.dorm3d_gift[2022001] = {
-		ship_group_id = 20220,
-		display = "整理家居及办公室的必备良品。结实耐用的箱体可保护内部的工具免受损伤。",
-		rarity = 4,
-		unlock_dialogue_id = 10060,
-		id = 2022001,
-		icon = "dorm3dicon/3Ddrom_tianlangxing_FancyGift2",
 		name = "清扫工具箱",
+		display = "整理家居及办公室的必备良品。结实耐用的箱体可保护内部的工具免受损伤。",
+		time = "always",
+		unlock_dialogue_id = 10060,
+		rarity = 4,
+		id = 2022001,
+		ship_group_id = 20220,
 		favor_trigger_id = 1004,
+		hide_if_not_owned = 0,
+		icon = "dorm3dicon/3Ddrom_tianlangxing_FancyGift2",
 		reply_dialogue_id = {
 			{
 				20220,
@@ -322,14 +366,16 @@ pg.base.dorm3d_gift = {}
 		}
 	}
 	pg.base.dorm3d_gift[2022002] = {
-		ship_group_id = 20220,
-		display = "经典优雅的皇家茶具套组，清新的蓝白色调令人心旷神怡。\n让每一次品茶都成为一场雅致的享受。",
-		rarity = 4,
-		unlock_dialogue_id = 10070,
-		id = 2022002,
-		icon = "dorm3dicon/3Ddrom_tianlangxing_FancyGift1",
 		name = "茶享套装",
+		display = "经典优雅的皇家茶具套组，清新的蓝白色调令人心旷神怡。\n让每一次品茶都成为一场雅致的享受。",
+		time = "always",
+		unlock_dialogue_id = 10070,
+		rarity = 4,
+		id = 2022002,
+		ship_group_id = 20220,
 		favor_trigger_id = 1004,
+		hide_if_not_owned = 0,
+		icon = "dorm3dicon/3Ddrom_tianlangxing_FancyGift1",
 		reply_dialogue_id = {
 			{
 				20220,
@@ -352,14 +398,16 @@ pg.base.dorm3d_gift = {}
 		}
 	}
 	pg.base.dorm3d_gift[2022003] = {
-		ship_group_id = 20220,
-		display = "作者通过深刻的洞察和生动的案例，详细阐述了成为一名完美女仆所需要具备的修养、技能和心态。\n教导读者如何在日常生活中充分发挥女仆的服侍精神。",
-		rarity = 4,
-		unlock_dialogue_id = 10080,
-		id = 2022003,
-		icon = "dorm3dicon/3Ddrom_tianlangxing_FancyGift4",
 		name = "《完美女仆守则》 ",
+		display = "作者通过深刻的洞察和生动的案例，详细阐述了成为一名完美女仆所需要具备的修养、技能和心态。\n教导读者如何在日常生活中充分发挥女仆的服侍精神。",
+		time = "always",
+		unlock_dialogue_id = 10080,
+		rarity = 4,
+		id = 2022003,
+		ship_group_id = 20220,
 		favor_trigger_id = 1004,
+		hide_if_not_owned = 0,
+		icon = "dorm3dicon/3Ddrom_tianlangxing_FancyGift4",
 		reply_dialogue_id = {
 			{
 				20220,
@@ -382,14 +430,16 @@ pg.base.dorm3d_gift = {}
 		}
 	}
 	pg.base.dorm3d_gift[3022101] = {
-		ship_group_id = 30221,
-		display = "纯色设计的制服鞋，鞋型舒适轻盈。\n舒适贴合足底弧度，陪你走过每段时光。",
-		rarity = 4,
-		unlock_dialogue_id = 29991,
-		id = 3022101,
-		icon = "dorm3dicon/3Ddrom_nengdai_FancyGift1",
 		name = "素色物语 ",
+		display = "纯色设计的制服鞋，鞋型舒适轻盈。\n舒适贴合足底弧度，陪你走过每段时光。",
+		time = "always",
+		unlock_dialogue_id = 29991,
+		rarity = 4,
+		id = 3022101,
+		ship_group_id = 30221,
 		favor_trigger_id = 1004,
+		hide_if_not_owned = 0,
+		icon = "dorm3dicon/3Ddrom_nengdai_FancyGift1",
 		reply_dialogue_id = {
 			{
 				30221,
@@ -412,14 +462,16 @@ pg.base.dorm3d_gift = {}
 		}
 	}
 	pg.base.dorm3d_gift[3022102] = {
-		ship_group_id = 30221,
-		display = "修复心灵共振回忆， 探索能量注入动力。",
-		rarity = 4,
-		unlock_dialogue_id = 20530,
-		id = 3022102,
-		icon = "dorm3dicon/3Ddrom_nengdai_FancyGift2",
 		name = "能量修复仪",
+		display = "修复心灵共振回忆， 探索能量注入动力。",
+		time = "always",
+		unlock_dialogue_id = 20530,
+		rarity = 4,
+		id = 3022102,
+		ship_group_id = 30221,
 		favor_trigger_id = 1004,
+		hide_if_not_owned = 0,
+		icon = "dorm3dicon/3Ddrom_nengdai_FancyGift2",
 		reply_dialogue_id = {
 			{
 				30221,
@@ -442,14 +494,16 @@ pg.base.dorm3d_gift = {}
 		}
 	}
 	pg.base.dorm3d_gift[1990301] = {
-		ship_group_id = 19903,
-		display = "绽放着绚丽色彩的可爱画板，仿佛将整个世界浓缩其中，用它绘制的每一笔都交织着纯洁与童真。",
-		rarity = 4,
-		unlock_dialogue_id = 30510,
-		id = 1990301,
-		icon = "dorm3dicon/3Ddrom_ankeleiqi_FancyGift1",
 		name = "彩虹心语",
+		display = "绽放着绚丽色彩的可爱画板，仿佛将整个世界浓缩其中，用它绘制的每一笔都交织着纯洁与童真。",
+		time = "always",
+		unlock_dialogue_id = 30510,
+		rarity = 4,
+		id = 1990301,
+		ship_group_id = 19903,
 		favor_trigger_id = 1004,
+		hide_if_not_owned = 0,
+		icon = "dorm3dicon/3Ddrom_ankeleiqi_FancyGift1",
 		reply_dialogue_id = {
 			{
 				19903,
@@ -472,14 +526,16 @@ pg.base.dorm3d_gift = {}
 		}
 	}
 	pg.base.dorm3d_gift[1990302] = {
-		ship_group_id = 19903,
-		display = "波浪般的丝带缠绕上原木画框，色彩与灵感即将在此交汇，让属于她的创作将在此间快乐绽放。 ",
-		rarity = 4,
-		unlock_dialogue_id = 30550,
-		id = 1990302,
-		icon = "dorm3dicon/3Ddrom_ankeleiqi_FancyGift2",
 		name = "精致画框",
+		display = "波浪般的丝带缠绕上原木画框，色彩与灵感即将在此交汇，让属于她的创作将在此间快乐绽放。 ",
+		time = "always",
+		unlock_dialogue_id = 30550,
+		rarity = 4,
+		id = 1990302,
+		ship_group_id = 19903,
 		favor_trigger_id = 1004,
+		hide_if_not_owned = 0,
+		icon = "dorm3dicon/3Ddrom_ankeleiqi_FancyGift2",
 		reply_dialogue_id = {
 			{
 				19903,
@@ -502,14 +558,16 @@ pg.base.dorm3d_gift = {}
 		}
 	}
 	pg.base.dorm3d_gift[1051701] = {
-		ship_group_id = 10517,
-		display = "透明的玻璃罐里，装满了晶莹剔透的彩色糖果。打开罐子，甜蜜的香气扑鼻而来，那是幸福的味道~",
-		rarity = 4,
-		unlock_dialogue_id = 110541,
-		id = 1051701,
-		icon = "dorm3dicon/3Ddrom_xinzexi_CommonFurniture4",
 		name = "水晶糖",
+		display = "透明的玻璃罐里，装满了晶莹剔透的彩色糖果。打开罐子，甜蜜的香气扑鼻而来，那是幸福的味道~",
+		time = "always",
+		unlock_dialogue_id = 110541,
+		rarity = 4,
+		id = 1051701,
+		ship_group_id = 10517,
 		favor_trigger_id = 1004,
+		hide_if_not_owned = 0,
+		icon = "dorm3dicon/3Ddrom_xinzexi_CommonFurniture4",
 		reply_dialogue_id = {
 			{
 				10517,
@@ -532,14 +590,16 @@ pg.base.dorm3d_gift = {}
 		}
 	}
 	pg.base.dorm3d_gift[1051702] = {
-		ship_group_id = 10517,
+		name = "炫彩游戏手柄",
 		display = "灵敏的触觉反馈，鲜亮的炫动光芒！\n无论是日常休闲还是激烈对战，都能畅快到底~",
-		rarity = 4,
+		time = "always",
 		unlock_dialogue_id = 110551,
+		rarity = 4,
 		id = 1051702,
-		icon = "dorm3dicon/3Ddrom_xinzexi_PremiumGift2",
-		name = "炫彩游戏手柄 ",
+		ship_group_id = 10517,
 		favor_trigger_id = 1004,
+		hide_if_not_owned = 0,
+		icon = "dorm3dicon/3Ddrom_xinzexi_PremiumGift2",
 		reply_dialogue_id = {
 			{
 				10517,
@@ -562,14 +622,16 @@ pg.base.dorm3d_gift = {}
 		}
 	}
 	pg.base.dorm3d_gift[3070701] = {
-		ship_group_id = 30707,
+		name = "相连的爱意",
 		display = "与心形挂饰相扣的锁链，是简约却蕴含深意的设计。轻轻触摸，那冰凉的金属触感传递来的，是紧扣相连的爱~",
-		rarity = 4,
+		time = "always",
 		unlock_dialogue_id = 120541,
+		rarity = 4,
 		id = 3070701,
-		icon = "dorm3dicon/3Ddrom_dafeng_FancyGift1",
-		name = "相连的爱意 ",
+		ship_group_id = 30707,
 		favor_trigger_id = 1004,
+		hide_if_not_owned = 0,
+		icon = "dorm3dicon/3Ddrom_dafeng_FancyGift1",
 		reply_dialogue_id = {
 			{
 				30707,
@@ -592,14 +654,16 @@ pg.base.dorm3d_gift = {}
 		}
 	}
 	pg.base.dorm3d_gift[3070702] = {
-		ship_group_id = 30707,
-		display = "绯红裙摆如晚霞铺展，黑色蝴蝶已系成心结。期待你指尖抚过，感受那颤动的温热下，藏不住的爱与心意~",
-		rarity = 4,
-		unlock_dialogue_id = 120551,
-		id = 3070702,
-		icon = "dorm3dicon/3Ddrom_dafeng_FancyGift2",
 		name = "绯红邀约",
+		display = "绯红裙摆如晚霞铺展，黑色蝴蝶已系成心结。期待你指尖抚过，感受那颤动的温热下，藏不住的爱与心意~",
+		time = "always",
+		unlock_dialogue_id = 120551,
+		rarity = 4,
+		id = 3070702,
+		ship_group_id = 30707,
 		favor_trigger_id = 1004,
+		hide_if_not_owned = 0,
+		icon = "dorm3dicon/3Ddrom_dafeng_FancyGift2",
 		reply_dialogue_id = {
 			{
 				30707,
@@ -622,14 +686,16 @@ pg.base.dorm3d_gift = {}
 		}
 	}
 	pg.base.dorm3d_gift[4990501] = {
-		ship_group_id = 49905,
+		name = "郁金香杯",
 		display = "优雅如晨光中的花苞，郁金香杯的弧度温柔地环绕双手。\n杯身的曲线承载着两个人共享的每一滴记忆，让其都凝结在这份细腻与温柔里。",
-		rarity = 4,
+		time = "always",
 		unlock_dialogue_id = 140541,
+		rarity = 4,
 		id = 4990501,
-		icon = "dorm3dicon/3Ddrom_aijier_FancyGift1",
-		name = "郁金香杯 ",
+		ship_group_id = 49905,
 		favor_trigger_id = 1004,
+		hide_if_not_owned = 0,
+		icon = "dorm3dicon/3Ddrom_aijier_FancyGift1",
 		reply_dialogue_id = {
 			{
 				49905,
@@ -647,6 +713,91 @@ pg.base.dorm3d_gift = {}
 				49905,
 				{
 					"banner_gift4990501"
+				}
+			}
+		}
+	}
+	pg.base.dorm3d_gift[7990201] = {
+		name = "本能训练器",
+		display = "名为本能训练器的玩具，用一尾布鱼勾住所有的视线。\n每当它如活物般在空中划出弧线，都是在诱惑着被训练者显露出最纯粹的本能。",
+		time = "always",
+		unlock_dialogue_id = 210541,
+		rarity = 4,
+		id = 7990201,
+		ship_group_id = 79902,
+		favor_trigger_id = 1004,
+		hide_if_not_owned = 0,
+		icon = "dorm3dicon/3Ddrom_naximofu_FancyGift1",
+		reply_dialogue_id = {
+			{
+				79902,
+				210304
+			}
+		},
+		shop_id = {
+			260701
+		},
+		unlock_tips = {
+			4
+		},
+		unlock_banners = {
+			{
+				79902,
+				{
+					"banner_gift7990201"
+				}
+			}
+		}
+	}
+	pg.base.dorm3d_gift[7990261] = {
+		name = "极地渔获抱枕",
+		display = "极地渔获造型的抱枕，手感柔软，抱在怀里十分暖和。\n不管是用来消磨闲暇时光，还是在休息时充当依靠，都很实用。",
+		rarity = 4,
+		unlock_dialogue_id = 0,
+		id = 7990261,
+		ship_group_id = 79902,
+		favor_trigger_id = 1099,
+		hide_if_not_owned = 1,
+		icon = "dorm3dicon/3Ddrom_naximofu_FancyGift9",
+		reply_dialogue_id = {
+			{
+				79902,
+				210302
+			}
+		},
+		shop_id = {},
+		unlock_tips = {},
+		unlock_banners = {
+			{
+				79902,
+				{
+					"banner_naximofu"
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					16
+				},
+				{
+					23,
+					59,
+					59
 				}
 			}
 		}

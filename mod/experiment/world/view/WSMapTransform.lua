@@ -31,35 +31,41 @@ function var_0_0.SetModelOrder(arg_2_0, arg_2_1, arg_2_2)
 	if var_2_1 ~= 0 then
 		WorldConst.ArrayEffectOrder(arg_2_0.transform, var_2_1)
 	end
+
+	arg_2_0:ModelOrderChanged()
 end
 
-function var_0_0.ClearModelOrder(arg_3_0)
-	assert(arg_3_0.transform)
-	arg_3_0:UnloadModel()
+function var_0_0.ModelOrderChanged(arg_3_0)
+	return
+end
 
-	if arg_3_0.modelOrder then
-		WorldConst.ArrayEffectOrder(arg_3_0.transform, -arg_3_0.modelOrder)
+function var_0_0.ClearModelOrder(arg_4_0)
+	assert(arg_4_0.transform)
+	arg_4_0:UnloadModel()
 
-		arg_3_0.modelOrder = nil
+	if arg_4_0.modelOrder then
+		WorldConst.ArrayEffectOrder(arg_4_0.transform, -arg_4_0.modelOrder)
+
+		arg_4_0.modelOrder = nil
 	end
 end
 
-function var_0_0.LoadModel(arg_4_0, arg_4_1, arg_4_2, arg_4_3, arg_4_4, arg_4_5)
-	var_0_0.super.LoadModel(arg_4_0, arg_4_1, arg_4_2, arg_4_3, arg_4_4, function()
-		if arg_4_0.modelOrder then
-			WorldConst.ArrayEffectOrder(arg_4_0.model, arg_4_0.modelOrder)
+function var_0_0.LoadModel(arg_5_0, arg_5_1, arg_5_2, arg_5_3, arg_5_4, arg_5_5)
+	var_0_0.super.LoadModel(arg_5_0, arg_5_1, arg_5_2, arg_5_3, arg_5_4, function()
+		if arg_5_0.modelOrder then
+			WorldConst.ArrayEffectOrder(arg_5_0.model, arg_5_0.modelOrder)
 		end
 
-		return existCall(arg_4_5)
+		return existCall(arg_5_5)
 	end)
 end
 
-function var_0_0.UnloadModel(arg_6_0)
-	if arg_6_0.modelOrder and arg_6_0.model then
-		WorldConst.ArrayEffectOrder(arg_6_0.model, -arg_6_0.modelOrder)
+function var_0_0.UnloadModel(arg_7_0)
+	if arg_7_0.modelOrder and arg_7_0.model then
+		WorldConst.ArrayEffectOrder(arg_7_0.model, -arg_7_0.modelOrder)
 	end
 
-	var_0_0.super.UnloadModel(arg_6_0)
+	var_0_0.super.UnloadModel(arg_7_0)
 end
 
 return var_0_0

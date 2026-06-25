@@ -13,6 +13,8 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.contentTxt = findTF(arg_2_0._tf, "desc/container/frame/content"):GetComponent(typeof(Text))
 	arg_2_0.comtableTxt = findTF(arg_2_0._tf, "desc/container/frame/comfortable_container/Text"):GetComponent(typeof(Text))
 	arg_2_0.approachTxt = findTF(arg_2_0._tf, "desc/container/frame/approach_container/Text"):GetComponent(typeof(Text))
+	arg_2_0.approachLongTxt = findTF(arg_2_0._tf, "desc/container/frame/approach_container/TextLong"):GetComponent(typeof(Text))
+	arg_2_0.approachLabel = findTF(arg_2_0._tf, "desc/container/frame/approach_container/label")
 	arg_2_0.dateTxt = findTF(arg_2_0._tf, "desc/container/frame/date_container/Text"):GetComponent(typeof(Text))
 	arg_2_0.voiceBtn = findTF(arg_2_0._tf, "desc/container/frame/music_btn/voice")
 	arg_2_0.bgVoiceBtn = findTF(arg_2_0._tf, "desc/container/frame/music_btn/bg_voice")
@@ -20,7 +22,7 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.musicalInstrumentsBtn = findTF(arg_2_0._tf, "desc/container/frame/music_btn/play")
 
 	setText(findTF(arg_2_0._tf, "desc/container/frame/comfortable_container/label"), i18n("word_comfort_level"))
-	setText(findTF(arg_2_0._tf, "desc/container/frame/approach_container/label"), i18n("word_get_way"))
+	setText(arg_2_0.approachLabel, i18n("word_get_way"))
 	setText(findTF(arg_2_0._tf, "desc/container/frame/date_container/label"), i18n("word_get_date"))
 	setText(findTF(arg_2_0._tf, "desc/ok_btn/text"), i18n("word_ok"))
 end
@@ -73,7 +75,9 @@ function var_0_0.Show(arg_9_0, arg_9_1)
 	arg_9_0.dateTxt.text = var_9_2 and var_9_2:getDate() or arg_9_1:GetAddDate()
 	arg_9_0.comtableTxt.text = "+" .. arg_9_1:GetComfortable()
 	arg_9_0.contentTxt.text = arg_9_1:GetDescription()
-	arg_9_0.approachTxt.text = arg_9_1:GetAddMode()
+
+	arg_9_0:ShowTxt()
+
 	arg_9_0.typeTxt.text = arg_9_1:GetGametipType()
 
 	pg.UIMgr.GetInstance():BlurPanel(arg_9_0._tf)
@@ -84,15 +88,32 @@ function var_0_0.Show(arg_9_0, arg_9_1)
 	setActive(arg_9_0.dateTxt.gameObject.transform.parent, not var_9_3)
 end
 
-function var_0_0.Close(arg_11_0)
-	setActive(arg_11_0._tf, false)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_11_0._tf, arg_11_0._parentTf)
+function var_0_0.ShowTxt(arg_11_0)
+	local var_11_0 = arg_11_0.furniture:GetAddMode()
+	local var_11_1 = i18n("word_get_way") .. var_11_0
+
+	arg_11_0.approachTxt.text = var_11_0
+	arg_11_0.approachLongTxt.text = var_11_1
+
+	Canvas.ForceUpdateCanvases()
+
+	local var_11_2 = arg_11_0.approachTxt:GetComponent(typeof(RectTransform))
+	local var_11_3 = arg_11_0.approachTxt.preferredWidth > var_11_2.rect.width
+
+	setActive(arg_11_0.approachTxt.gameObject, not var_11_3)
+	setActive(arg_11_0.approachLongTxt.gameObject, var_11_3)
+	setActive(arg_11_0.approachLabel, not var_11_3)
 end
 
-function var_0_0.OnDestroy(arg_12_0)
-	arg_12_0.exited = true
+function var_0_0.Close(arg_12_0)
+	setActive(arg_12_0._tf, false)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_12_0._tf, arg_12_0._parentTf)
+end
 
-	arg_12_0:Close()
+function var_0_0.OnDestroy(arg_13_0)
+	arg_13_0.exited = true
+
+	arg_13_0:Close()
 end
 
 return var_0_0

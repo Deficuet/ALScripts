@@ -54,7 +54,6 @@ function var_0_0.Show(arg_4_0, arg_4_1)
 	end
 
 	arg_4_0._tf:SetAsLastSibling()
-	pg.UIMgr.GetInstance():BlurPanel(arg_4_0._tf)
 end
 
 function var_0_0.Hide(arg_8_0)
@@ -62,7 +61,6 @@ function var_0_0.Hide(arg_8_0)
 	setText(arg_8_0.text, "")
 	setText(arg_8_0.text1, "")
 	setText(arg_8_0.text2, "")
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_8_0._tf, arg_8_0._parentTf)
 end
 
 function var_0_0.OnDestroy(arg_9_0)

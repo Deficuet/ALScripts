@@ -183,6 +183,10 @@ function var_0_0.filter(arg_9_0, arg_9_1)
 		cloneTplTo(arg_9_0.emojiDot, arg_9_0.emojiDots)
 	end
 
+	if var_9_6 > 1 then
+		arg_9_0.emojiSnap:GoToScreen(0)
+	end
+
 	for iter_9_8 = 0, arg_9_0.emojiContent.childCount - 1 do
 		local var_9_9 = arg_9_0.emojiContent:GetChild(iter_9_8)
 
@@ -243,7 +247,9 @@ function var_0_0.filter(arg_9_0, arg_9_1)
 end
 
 function var_0_0.emojiIconFliter(arg_18_0)
-	local var_18_0 = pg.emoji_small_template
+	local var_18_0 = _.map(pg.emoji_small_template.all, function(arg_19_0)
+		return pg.emoji_small_template[arg_19_0]
+	end)
 	local var_18_1 = {}
 	local var_18_2 = getProxy(ChatProxy):getUsedEmojiIcon()
 
@@ -251,142 +257,143 @@ function var_0_0.emojiIconFliter(arg_18_0)
 		table.insert(var_18_1, var_18_0[iter_18_1])
 	end
 
-	local var_18_3 = math.ceil((#var_18_0 + #var_18_1) / var_0_0.True_Emoji_Num_Of_Page)
+	local var_18_3 = math.min(9, #var_18_0)
+	local var_18_4 = 1 + math.ceil((#var_18_0 - var_18_3) / var_0_0.True_Emoji_Num_Of_Page)
 
-	for iter_18_2 = arg_18_0.emojiIconContent.childCount + 1, var_18_3 do
+	for iter_18_2 = arg_18_0.emojiIconContent.childCount + 1, var_18_4 do
 		cloneTplTo(arg_18_0.emojiDot, arg_18_0.emojiIconDots)
 	end
 
-	for iter_18_3 = arg_18_0.emojiIconContent.childCount + 1, var_18_3 do
-		local var_18_4 = Instantiate(arg_18_0.emojiIconItem)
-		local var_18_5 = tf(var_18_4)
-		local var_18_6 = var_18_5:Find("TitleCommom")
-		local var_18_7 = var_18_5:Find("TitleAll")
-		local var_18_8 = var_18_5:Find("CommomIconContainer")
-		local var_18_9 = var_18_5:Find("AllIconContainer")
-		local var_18_10 = GetComponent(var_18_9, "GridLayoutGroup")
+	for iter_18_3 = arg_18_0.emojiIconContent.childCount + 1, var_18_4 do
+		local var_18_5 = Instantiate(arg_18_0.emojiIconItem)
+		local var_18_6 = tf(var_18_5)
+		local var_18_7 = var_18_6:Find("TitleCommom")
+		local var_18_8 = var_18_6:Find("TitleAll")
+		local var_18_9 = var_18_6:Find("CommomIconContainer")
+		local var_18_10 = var_18_6:Find("AllIconContainer")
+		local var_18_11 = GetComponent(var_18_10, "GridLayoutGroup")
 
 		if iter_18_3 == 1 then
-			local var_18_11 = var_18_8:Find("Icon")
-			local var_18_12 = UIItemList.New(var_18_8, var_18_11)
+			local var_18_12 = var_18_9:Find("Icon")
+			local var_18_13 = UIItemList.New(var_18_9, var_18_12)
 
-			var_18_12:make(function(arg_19_0, arg_19_1, arg_19_2)
-				local var_19_0 = var_18_1[arg_19_1 + 1]
+			var_18_13:make(function(arg_20_0, arg_20_1, arg_20_2)
+				local var_20_0 = var_18_1[arg_20_1 + 1]
 
-				if arg_19_0 == UIItemList.EventUpdate then
-					PoolMgr.GetInstance():GetPrefab("emoji/" .. var_19_0.pic, var_19_0.pic, true, function(arg_20_0)
-						if not IsNil(arg_19_2) then
-							arg_20_0.name = var_19_0.pic
+				if arg_20_0 == UIItemList.EventUpdate then
+					PoolMgr.GetInstance():GetPrefab("emoji/" .. var_20_0.pic, var_20_0.pic, true, function(arg_21_0)
+						if not IsNil(arg_20_2) then
+							arg_21_0.name = var_20_0.pic
 
-							setParent(arg_20_0, arg_19_2, false)
-							onButton(arg_18_0, arg_20_0, function()
+							setParent(arg_21_0, arg_20_2, false)
+							onButton(arg_18_0, arg_21_0, function()
 								if arg_18_0.contextData.emojiIconCallback then
-									getProxy(ChatProxy):addUsedEmojiIcon(var_19_0.id)
-									arg_18_0.contextData.emojiIconCallback(var_19_0.id)
+									getProxy(ChatProxy):addUsedEmojiIcon(var_20_0.id)
+									arg_18_0.contextData.emojiIconCallback(var_20_0.id)
 								end
 							end, SFX_PANEL)
 						end
 					end)
 				end
 			end)
-			var_18_12:align(#var_18_1)
+			var_18_13:align(#var_18_1)
 
-			var_18_10.padding.left = 20
+			var_18_11.padding.left = 20
 
-			local var_18_13 = var_18_9:Find("Icon")
-			local var_18_14 = UIItemList.New(var_18_9, var_18_13)
+			local var_18_14 = var_18_10:Find("Icon")
+			local var_18_15 = UIItemList.New(var_18_10, var_18_14)
 
-			var_18_14:make(function(arg_22_0, arg_22_1, arg_22_2)
-				local var_22_0 = var_18_0[arg_22_1 + 1]
+			var_18_15:make(function(arg_23_0, arg_23_1, arg_23_2)
+				local var_23_0 = var_18_0[arg_23_1 + 1]
 
-				if arg_22_0 == UIItemList.EventUpdate then
-					PoolMgr.GetInstance():GetPrefab("emoji/" .. var_22_0.pic, var_22_0.pic, true, function(arg_23_0)
-						if not IsNil(arg_22_2) then
-							arg_23_0.name = var_22_0.pic
+				if arg_23_0 == UIItemList.EventUpdate then
+					PoolMgr.GetInstance():GetPrefab("emoji/" .. var_23_0.pic, var_23_0.pic, true, function(arg_24_0)
+						if not IsNil(arg_23_2) then
+							arg_24_0.name = var_23_0.pic
 
-							setParent(arg_23_0, arg_22_2, false)
-							onButton(arg_18_0, arg_23_0, function()
+							setParent(arg_24_0, arg_23_2, false)
+							onButton(arg_18_0, arg_24_0, function()
 								if arg_18_0.contextData.emojiIconCallback then
-									getProxy(ChatProxy):addUsedEmojiIcon(var_22_0.id)
-									arg_18_0.contextData.emojiIconCallback(var_22_0.id)
+									getProxy(ChatProxy):addUsedEmojiIcon(var_23_0.id)
+									arg_18_0.contextData.emojiIconCallback(var_23_0.id)
 								end
 							end, SFX_PANEL)
 						end
 					end)
 				end
 			end)
-			var_18_14:align(var_0_0.True_Emoji_Num_Of_Page - var_0_0.Frequently_Used_Emoji_Num)
+			var_18_15:align(var_18_3)
 		else
-			local var_18_15 = var_0_0.True_Emoji_Num_Of_Page - var_0_0.Frequently_Used_Emoji_Num
-			local var_18_16 = _.slice(var_18_0, (iter_18_3 - 2) * var_0_0.True_Emoji_Num_Of_Page + 9 + 1, var_0_0.True_Emoji_Num_Of_Page)
+			local var_18_16 = var_0_0.True_Emoji_Num_Of_Page - var_0_0.Frequently_Used_Emoji_Num
+			local var_18_17 = _.slice(var_18_0, (iter_18_3 - 2) * var_0_0.True_Emoji_Num_Of_Page + var_18_3 + 1, var_0_0.True_Emoji_Num_Of_Page)
 
-			var_18_10.padding.left = 60
+			var_18_11.padding.left = 60
 
-			local var_18_17 = var_18_9:Find("Icon")
-			local var_18_18 = UIItemList.New(var_18_9, var_18_17)
+			local var_18_18 = var_18_10:Find("Icon")
+			local var_18_19 = UIItemList.New(var_18_10, var_18_18)
 
-			var_18_18:make(function(arg_25_0, arg_25_1, arg_25_2)
-				local var_25_0 = var_18_16[arg_25_1 + 1]
+			var_18_19:make(function(arg_26_0, arg_26_1, arg_26_2)
+				local var_26_0 = var_18_17[arg_26_1 + 1]
 
-				if arg_25_0 == UIItemList.EventUpdate then
-					PoolMgr.GetInstance():GetPrefab("emoji/" .. var_25_0.pic, var_25_0.pic, true, function(arg_26_0)
-						if not IsNil(arg_25_2) then
-							arg_26_0.name = var_25_0.pic
+				if arg_26_0 == UIItemList.EventUpdate then
+					PoolMgr.GetInstance():GetPrefab("emoji/" .. var_26_0.pic, var_26_0.pic, true, function(arg_27_0)
+						if not IsNil(arg_26_2) then
+							arg_27_0.name = var_26_0.pic
 
-							setParent(arg_26_0, arg_25_2, false)
-							onButton(arg_18_0, arg_26_0, function()
+							setParent(arg_27_0, arg_26_2, false)
+							onButton(arg_18_0, arg_27_0, function()
 								if arg_18_0.contextData.emojiIconCallback then
-									getProxy(ChatProxy):addUsedEmojiIcon(var_25_0.id)
-									arg_18_0.contextData.emojiIconCallback(var_25_0.id)
+									getProxy(ChatProxy):addUsedEmojiIcon(var_26_0.id)
+									arg_18_0.contextData.emojiIconCallback(var_26_0.id)
 								end
 							end, SFX_PANEL)
 						end
 					end)
 				end
 			end)
-			var_18_18:align(#var_18_16)
+			var_18_19:align(#var_18_17)
 		end
 
-		setActive(var_18_6, iter_18_3 == 1)
 		setActive(var_18_7, iter_18_3 == 1)
 		setActive(var_18_8, iter_18_3 == 1)
-		setActive(var_18_4, true)
-		arg_18_0.emojiIconSnap:AddChild(var_18_4)
+		setActive(var_18_9, iter_18_3 == 1)
+		setActive(var_18_5, true)
+		arg_18_0.emojiIconSnap:AddChild(var_18_5)
 	end
 end
 
-function var_0_0.onBackPressed(arg_28_0)
+function var_0_0.onBackPressed(arg_29_0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
-	triggerButton(arg_28_0._tf)
+	triggerButton(arg_29_0._tf)
 end
 
-function var_0_0.clearItem(arg_29_0, arg_29_1)
-	eachChild(arg_29_1, function(arg_30_0)
-		if arg_30_0.childCount > 0 then
-			local var_30_0 = arg_30_0:Find("newtag")
+function var_0_0.clearItem(arg_30_0, arg_30_1)
+	eachChild(arg_30_1, function(arg_31_0)
+		if arg_31_0.childCount > 0 then
+			local var_31_0 = arg_31_0:Find("newtag")
 
-			if var_30_0 then
-				Destroy(var_30_0)
+			if var_31_0 then
+				Destroy(var_31_0)
 			end
 
-			local var_30_1 = arg_30_0:GetChild(0).gameObject
+			local var_31_1 = arg_31_0:GetChild(0).gameObject
 
-			PoolMgr.GetInstance():ReturnPrefab("emoji/" .. var_30_1.name, var_30_1.name, var_30_1)
+			PoolMgr.GetInstance():ReturnPrefab("emoji/" .. var_31_1.name, var_31_1.name, var_31_1)
 		end
 	end)
 end
 
-function var_0_0.willExit(arg_31_0)
-	eachChild(arg_31_0.emojiContent, function(arg_32_0)
-		arg_31_0:clearItem(arg_32_0)
+function var_0_0.willExit(arg_32_0)
+	eachChild(arg_32_0.emojiContent, function(arg_33_0)
+		arg_32_0:clearItem(arg_33_0)
 	end)
-	_.each(arg_31_0.tplCaches, function(arg_33_0)
-		arg_31_0:clearItem(arg_33_0)
+	_.each(arg_32_0.tplCaches, function(arg_34_0)
+		arg_32_0:clearItem(arg_34_0)
 	end)
 
-	arg_31_0.tplCaches = {}
+	arg_32_0.tplCaches = {}
 
-	arg_31_0:UnOverlayPanel(arg_31_0._tf)
+	arg_32_0:UnOverlayPanel(arg_32_0._tf)
 end
 
 return var_0_0

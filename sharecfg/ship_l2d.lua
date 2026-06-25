@@ -493,6 +493,10 @@ pg.ship_l2d.all = {
 	10213448,
 	10213449,
 	10213450,
+	10213451,
+	10213452,
+	10213453,
+	10213454,
 	90107101,
 	90107102,
 	90107103,
@@ -2833,7 +2837,74 @@ pg.ship_l2d.all = {
 	30715241,
 	30715242,
 	30715243,
-	30715244
+	30715244,
+	81801101,
+	81801102,
+	81801103,
+	81801104,
+	81801105,
+	81801106,
+	81801107,
+	81801108,
+	81801109,
+	81801110,
+	81801111,
+	81801112,
+	81801113,
+	81801114,
+	81801115,
+	81801116,
+	81801117,
+	81801118,
+	81801119,
+	81801120,
+	81801121,
+	81801122,
+	81801123,
+	81801124,
+	81801125,
+	81801126,
+	81801127,
+	81801128,
+	81801129,
+	81801130,
+	81801131,
+	81801132,
+	81801133,
+	81801134,
+	81801135,
+	81801136,
+	81801137,
+	81801138,
+	81801139,
+	81801140,
+	81801141,
+	81801142,
+	81801143,
+	81801144,
+	81801145,
+	81801146,
+	81801147,
+	81801148,
+	81801149,
+	81801150,
+	81801151,
+	81801152,
+	81801153,
+	81801154,
+	81801155,
+	81801156,
+	81801157,
+	81801158,
+	81801159,
+	81801160,
+	81801161,
+	81801162,
+	81801163,
+	81801164,
+	81801165,
+	81801166,
+	81801167
 }
 pg.base = pg.base or {}
 pg.base.ship_l2d = {}
@@ -28211,6 +28282,258 @@ end)()
 			type = 2
 		}
 	}
+	pg.base.ship_l2d[10213451] = {
+		ship_skin_id = 102134,
+		id = 10213451,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			parameter = "touch_drag25",
+			type = 12,
+			num = {
+				0.01,
+				1
+			}
+		},
+		action_trigger_active = {
+			enable = {},
+			ignore = {
+				"main_1",
+				"main_2",
+				"main_3",
+				"main_4",
+				"main_5",
+				"mission",
+				"mission_complete",
+				"complete",
+				"login",
+				"home",
+				"mail",
+				"touch_body",
+				"touch_head"
+			}
+		}
+	}
+	pg.base.ship_l2d[10213452] = {
+		ship_skin_id = 102134,
+		id = 10213452,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			parameter = "touch_drag27",
+			type = 12,
+			num = {
+				0.01,
+				1
+			}
+		},
+		action_trigger_active = {
+			enable = {},
+			ignore = {
+				"main_1",
+				"main_2",
+				"main_3",
+				"main_4",
+				"main_5",
+				"mission",
+				"mission_complete",
+				"complete",
+				"login",
+				"home",
+				"mail",
+				"touch_body",
+				"touch_head"
+			}
+		}
+	}
+	pg.base.ship_l2d[10213453] = {
+		ship_skin_id = 102134,
+		id = 10213453,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			parameter = "touch_drag22",
+			type = 12,
+			num = {
+				0.01,
+				1
+			}
+		},
+		action_trigger_active = {
+			enable = {},
+			ignore = {
+				"main_1",
+				"main_2",
+				"main_3",
+				"main_4",
+				"main_5",
+				"mission",
+				"mission_complete",
+				"complete",
+				"login",
+				"home",
+				"mail",
+				"touch_body",
+				"touch_head"
+			}
+		}
+	}
+	pg.base.ship_l2d[10213454] = {
+		ship_skin_id = 102134,
+		id = 10213454,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			parameter = "touch_drag29",
+			type = 12,
+			num = {
+				0.01,
+				1
+			}
+		},
+		action_trigger_active = {
+			enable = {},
+			ignore = {
+				"main_1",
+				"main_2",
+				"main_3",
+				"main_4",
+				"main_5",
+				"mission",
+				"mission_complete",
+				"complete",
+				"login",
+				"home",
+				"mail",
+				"touch_body",
+				"touch_head"
+			}
+		}
+	}
 	pg.base.ship_l2d[90107101] = {
 		ship_skin_id = 901071,
 		id = 90107101,
@@ -28629,6 +28952,8 @@ end)()
 			ignore = {}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_l2d[90107107] = {
 		ship_skin_id = 901071,
 		id = 90107107,
@@ -28862,8 +29187,6 @@ end)()
 			type = 2
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_l2d[40310201] = {
 		ship_skin_id = 403102,
 		id = 40310201,
@@ -34061,6 +34384,8 @@ end)()
 			ignore = {}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_l2d[90701334] = {
 		ship_skin_id = 907013,
 		id = 90701334,
@@ -34253,8 +34578,6 @@ end)()
 			ignore = {}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_l2d[80702204] = {
 		ship_skin_id = 807022,
 		id = 80702204,
@@ -40335,6 +40658,8 @@ end)()
 			ignore = {}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_l2d[30715105] = {
 		ship_skin_id = 307151,
 		id = 30715105,
@@ -40525,8 +40850,6 @@ end)()
 			ignore = {}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_l2d[30715109] = {
 		ship_skin_id = 307151,
 		id = 30715109,
@@ -46259,6 +46582,8 @@ end)()
 			type = 2
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_l2d[40704103] = {
 		ship_skin_id = 407041,
 		id = 40704103,
@@ -46540,8 +46865,6 @@ end)()
 			ignore = {}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_l2d[40704107] = {
 		ship_skin_id = 407041,
 		id = 40704107,
@@ -52958,6 +53281,8 @@ end)()
 			ignore = {}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_l2d[30708411] = {
 		ship_skin_id = 307084,
 		id = 30708411,
@@ -53316,8 +53641,6 @@ end)()
 			ignore = {}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_l2d[30708415] = {
 		ship_skin_id = 307084,
 		id = 30708415,
@@ -60005,6 +60328,8 @@ end)()
 			ignore = {}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_l2d[49903302] = {
 		ship_skin_id = 499033,
 		id = 49903302,
@@ -60305,8 +60630,6 @@ end)()
 			ignore = {}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_l2d[49903306] = {
 		ship_skin_id = 499033,
 		id = 49903306,
@@ -66428,6 +66751,8 @@ end)()
 			20
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_l2d[20515101] = {
 		ship_skin_id = 101170,
 		offset_y = 0,
@@ -66794,8 +67119,6 @@ end)()
 			ignore = {}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_l2d[20515105] = {
 		ship_skin_id = 101170,
 		id = 20515105,
@@ -73691,6 +74014,8 @@ end)()
 			ignore = {}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_l2d[20705508] = {
 		ship_skin_id = 207055,
 		id = 20705508,
@@ -73875,8 +74200,6 @@ end)()
 			ignore = {}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_l2d[20705512] = {
 		ship_skin_id = 207055,
 		id = 20705512,
@@ -80047,6 +80370,8 @@ end)()
 			ignore = {}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_l2d[40113115] = {
 		ship_skin_id = 401131,
 		id = 40113115,
@@ -80396,8 +80721,6 @@ end)()
 			ignore = {}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_l2d[40113119] = {
 		ship_skin_id = 401131,
 		id = 40113119,
@@ -87046,6 +87369,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_l2d[80601124] = {
 		ship_skin_id = 806011,
 		parameter = "dxyfjk2",
@@ -87210,8 +87535,6 @@ end)()
 			type = 2
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_l2d[80601128] = {
 		ship_skin_id = 806011,
 		parameter = "TTA",
@@ -93577,6 +93900,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_l2d[30716137] = {
 		ship_skin_id = 307161,
 		id = 30716137,
@@ -93793,8 +94118,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_l2d[30716141] = {
 		ship_skin_id = 307161,
 		id = 30716141,
@@ -99004,6 +99327,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_l2d[30516139] = {
 		ship_skin_id = 305161,
 		id = 30516139,
@@ -99223,8 +99548,6 @@ end)()
 			1
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_l2d[30516143] = {
 		ship_skin_id = 305161,
 		parameter = "Stock2",
@@ -104509,6 +104832,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_l2d[80503219] = {
 		ship_skin_id = 805032,
 		id = 80503219,
@@ -104753,8 +105078,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_l2d[80503223] = {
 		ship_skin_id = 805032,
 		id = 80503223,
@@ -109951,6 +110274,8 @@ end)()
 			type = 2
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_l2d[960014123] = {
 		ship_skin_id = 9600141,
 		id = 960014123,
@@ -110191,8 +110516,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_l2d[960014127] = {
 		ship_skin_id = 9600141,
 		id = 960014127,
@@ -115654,6 +115977,8 @@ end)()
 			type = 2
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_l2d[10716105] = {
 		ship_skin_id = 107161,
 		id = 10716105,
@@ -115855,8 +116180,6 @@ end)()
 			1
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_l2d[10716109] = {
 		ship_skin_id = 107161,
 		id = 10716109,
@@ -121118,6 +121441,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_l2d[119901134] = {
 		ship_skin_id = 1199011,
 		id = 119901134,
@@ -121326,8 +121651,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_l2d[119901138] = {
 		ship_skin_id = 1199011,
 		id = 119901138,
@@ -126445,6 +126768,8 @@ end)()
 			type = 2
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_l2d[49910146] = {
 		ship_skin_id = 499101,
 		id = 49910146,
@@ -126675,8 +127000,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_l2d[30311703] = {
 		id = 30311703,
 		offset_y = -250,
@@ -131943,6 +132266,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_l2d[50302117] = {
 		ship_skin_id = 503021,
 		id = 50302117,
@@ -132147,8 +132472,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_l2d[50302121] = {
 		ship_skin_id = 503021,
 		id = 50302121,
@@ -137381,6 +137704,8 @@ end)()
 			ignore = {}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_l2d[49902349] = {
 		ship_skin_id = 499023,
 		id = 49902349,
@@ -137621,8 +137946,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_l2d[49902353] = {
 		ship_skin_id = 499023,
 		id = 49902353,
@@ -142513,6 +142836,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_l2d[20707222] = {
 		ship_skin_id = 207072,
 		id = 20707222,
@@ -142732,8 +143057,6 @@ end)()
 			1
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_l2d[20707226] = {
 		ship_skin_id = 207072,
 		id = 20707226,
@@ -147809,6 +148132,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_l2d[20602330] = {
 		ship_skin_id = 206023,
 		id = 20602330,
@@ -148035,8 +148360,6 @@ end)()
 			ignore = {}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_l2d[20602334] = {
 		ship_skin_id = 206023,
 		parameter = "touch_drag7",
@@ -153230,6 +153553,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_l2d[20135538] = {
 		ship_skin_id = 201355,
 		id = 20135538,
@@ -153440,8 +153765,6 @@ end)()
 			ignore = {}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_l2d[20135542] = {
 		ship_skin_id = 201355,
 		id = 20135542,
@@ -158529,6 +158852,8 @@ end)()
 			type = 2
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_l2d[40815133] = {
 		ship_skin_id = 408151,
 		id = 40815133,
@@ -158714,8 +159039,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_l2d[90107301] = {
 		ship_skin_id = 901073,
 		offset_y = 0,
@@ -163632,6 +163955,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_l2d[30715210] = {
 		ship_skin_id = 307152,
 		id = 30715210,
@@ -163868,8 +164193,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_l2d[30715214] = {
 		ship_skin_id = 307152,
 		id = 30715214,
@@ -165342,6 +165665,3461 @@ end)()
 		range = {
 			-10,
 			10
+		}
+	}
+	pg.base.ship_l2d[81801101] = {
+		ship_skin_id = 818011,
+		id = 81801101,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag1",
+		limit_time = 0.1,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = -1,
+		ignore_react = 0,
+		parameter = "jiasuan3",
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			circle = true,
+			target = 1,
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801102] = {
+		ship_skin_id = 818011,
+		id = 81801102,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag2",
+		limit_time = 1,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = -1,
+		ignore_react = 0,
+		parameter = "Param211",
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			circle = true,
+			target = 1,
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801103] = {
+		ship_skin_id = 818011,
+		id = 81801103,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 1,
+		draw_able_name = "TouchDrag3",
+		limit_time = 0,
+		mode = 2,
+		offset_y = 25,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		action_trigger = "",
+		revert = -1,
+		ignore_react = 1,
+		parameter = "",
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 50,
+		shop_action = 0,
+		revert_idle_index = "1",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 0,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			-10,
+			10
+		},
+		relation_parameter = {
+			list = {
+				{
+					name = "Param215",
+					type = 101
+				},
+				{
+					name = "Param216",
+					type = 102
+				}
+			}
+		}
+	}
+	pg.base.ship_l2d[81801104] = {
+		id = 81801104,
+		offset_y = 0,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 1,
+		draw_able_name = "",
+		limit_time = 1,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 0,
+		revert = -1,
+		parameter = "qsdcs",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "1",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		ship_skin_id = 818011,
+		revert_smooth = 100,
+		range = {
+			0,
+			4
+		},
+		listener_data = {
+			type = 2,
+			change = {
+				{
+					1,
+					{
+						"TouchDrag8"
+					},
+					1
+				}
+			}
+		},
+		action_trigger = {
+			type = 7
+		}
+	}
+	pg.base.ship_l2d[81801105] = {
+		ship_skin_id = 818011,
+		id = 81801105,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag9",
+		limit_time = 1,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = 100,
+		ignore_react = 0,
+		parameter = "Param312",
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			circle = true,
+			target = 1,
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801106] = {
+		ship_skin_id = 818011,
+		id = 81801106,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag10",
+		limit_time = 1,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = 100,
+		ignore_react = 0,
+		parameter = "Param323",
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			circle = true,
+			target = 1,
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801107] = {
+		ship_skin_id = 818011,
+		id = 81801107,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag11",
+		limit_time = 1,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = 100,
+		ignore_react = 0,
+		parameter = "Param326",
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			circle = true,
+			target = 1,
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801108] = {
+		ship_skin_id = 818011,
+		id = 81801108,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag12",
+		limit_time = 1,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = 100,
+		ignore_react = 0,
+		parameter = "Param313",
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			circle = true,
+			target = 1,
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801109] = {
+		ship_skin_id = 818011,
+		id = 81801109,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag13",
+		limit_time = 1,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = 100,
+		ignore_react = 0,
+		parameter = "Param324",
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			circle = true,
+			target = 1,
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801110] = {
+		ship_skin_id = 818011,
+		id = 81801110,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag14",
+		limit_time = 1,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = 100,
+		ignore_react = 0,
+		parameter = "Param327",
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			circle = true,
+			target = 1,
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801111] = {
+		ship_skin_id = 818011,
+		id = 81801111,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag15",
+		limit_time = 1,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = 100,
+		ignore_react = 0,
+		parameter = "Param314",
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			circle = true,
+			target = 1,
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801112] = {
+		ship_skin_id = 818011,
+		id = 81801112,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag16",
+		limit_time = 1,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = 100,
+		ignore_react = 0,
+		parameter = "Param325",
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			circle = true,
+			target = 1,
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801113] = {
+		ship_skin_id = 818011,
+		id = 81801113,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag17",
+		limit_time = 1,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = 100,
+		ignore_react = 0,
+		parameter = "Param328",
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			circle = true,
+			target = 1,
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801114] = {
+		ship_skin_id = 818011,
+		id = 81801114,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchIdle1",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "empty",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_idle1",
+			type = 2
+		},
+		action_trigger_active = {
+			idle = 1,
+			enable = {},
+			ignore = {
+				"main_1",
+				"main_2",
+				"main_3",
+				"main_4",
+				"mission",
+				"mission_complete",
+				"complete",
+				"login",
+				"home",
+				"mail",
+				"touch_body",
+				"touch_head"
+			}
+		}
+	}
+	pg.base.ship_l2d[81801115] = {
+		ship_skin_id = 818011,
+		id = 81801115,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchIdle2",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "empty",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_idle2",
+			type = 2
+		},
+		action_trigger_active = {
+			idle = 2,
+			enable = {},
+			ignore = {
+				"main_1",
+				"main_2",
+				"main_3",
+				"main_4",
+				"mission",
+				"mission_complete",
+				"complete",
+				"login",
+				"home",
+				"mail",
+				"touch_body",
+				"touch_head"
+			}
+		}
+	}
+	pg.base.ship_l2d[81801116] = {
+		ship_skin_id = 818011,
+		id = 81801116,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag4",
+		limit_time = 1,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = -1,
+		ignore_react = 1,
+		parameter = "empty",
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_drag1",
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801117] = {
+		ship_skin_id = 818011,
+		id = 81801117,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag5",
+		limit_time = 1,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = -1,
+		ignore_react = 1,
+		parameter = "empty",
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_drag2",
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801118] = {
+		ship_skin_id = 818011,
+		id = 81801118,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag6",
+		limit_time = 1,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = -1,
+		ignore_react = 1,
+		parameter = "empty",
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_drag3",
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801119] = {
+		id = 81801119,
+		offset_y = 0,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "",
+		limit_time = 1,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "Param231",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 600,
+		react_condition = "",
+		range_abs = 1,
+		ship_skin_id = 818011,
+		revert_smooth = 600,
+		range = {
+			0,
+			1
+		},
+		listener_data = {
+			type = 1,
+			change = {
+				{
+					2,
+					{
+						"touch_drag1"
+					},
+					1
+				},
+				{
+					2,
+					{
+						"touch_idle26"
+					},
+					0
+				}
+			}
+		},
+		action_trigger = {
+			type = 7
+		}
+	}
+	pg.base.ship_l2d[81801120] = {
+		id = 81801120,
+		offset_y = 0,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "",
+		limit_time = 1,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "Param232",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 1200,
+		react_condition = "",
+		range_abs = 1,
+		ship_skin_id = 818011,
+		revert_smooth = 1200,
+		range = {
+			0,
+			1
+		},
+		listener_data = {
+			type = 1,
+			change = {
+				{
+					2,
+					{
+						"touch_drag2"
+					},
+					1
+				},
+				{
+					2,
+					{
+						"touch_idle26"
+					},
+					0
+				}
+			}
+		},
+		action_trigger = {
+			type = 7
+		}
+	}
+	pg.base.ship_l2d[81801121] = {
+		id = 81801121,
+		offset_y = 0,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "",
+		limit_time = 1,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "Param230",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 800,
+		react_condition = "",
+		range_abs = 1,
+		ship_skin_id = 818011,
+		revert_smooth = 800,
+		range = {
+			0,
+			1
+		},
+		listener_data = {
+			type = 1,
+			change = {
+				{
+					2,
+					{
+						"touch_drag3"
+					},
+					1
+				},
+				{
+					2,
+					{
+						"touch_idle26"
+					},
+					0
+				}
+			}
+		},
+		action_trigger = {
+			type = 7
+		}
+	}
+	pg.base.ship_l2d[81801122] = {
+		id = 81801122,
+		offset_y = 0,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "",
+		limit_time = 1,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "Param311",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 400,
+		react_condition = "",
+		range_abs = 1,
+		ship_skin_id = 818011,
+		revert_smooth = 400,
+		range = {
+			0,
+			3
+		},
+		listener_data = {
+			type = 1,
+			change = {
+				{
+					1,
+					{
+						"touch_drag1",
+						"touch_drag2",
+						"touch_drag3"
+					},
+					1
+				},
+				{
+					2,
+					{
+						"touch_idle6"
+					},
+					0
+				}
+			}
+		},
+		action_trigger = {
+			type = 7
+		}
+	}
+	pg.base.ship_l2d[81801123] = {
+		id = 81801123,
+		offset_y = 0,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "",
+		limit_time = 1,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "Param113",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 600,
+		react_condition = "",
+		range_abs = 1,
+		ship_skin_id = 818011,
+		revert_smooth = 600,
+		range = {
+			0,
+			10
+		},
+		listener_data = {
+			type = 1,
+			change = {
+				{
+					2,
+					{
+						"touch_drag1"
+					},
+					10
+				},
+				{
+					2,
+					{
+						"touch_idle26"
+					},
+					0
+				}
+			}
+		},
+		action_trigger = {
+			type = 7
+		}
+	}
+	pg.base.ship_l2d[81801124] = {
+		id = 81801124,
+		offset_y = 0,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "",
+		limit_time = 1,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "Param111",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 800,
+		react_condition = "",
+		range_abs = 1,
+		ship_skin_id = 818011,
+		revert_smooth = 800,
+		range = {
+			0,
+			10
+		},
+		listener_data = {
+			type = 1,
+			change = {
+				{
+					2,
+					{
+						"touch_drag2"
+					},
+					10
+				},
+				{
+					2,
+					{
+						"touch_idle26"
+					},
+					0
+				}
+			}
+		},
+		action_trigger = {
+			type = 7
+		}
+	}
+	pg.base.ship_l2d[81801125] = {
+		id = 81801125,
+		offset_y = 0,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "",
+		limit_time = 1,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "Param110",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 700,
+		react_condition = "",
+		range_abs = 1,
+		ship_skin_id = 818011,
+		revert_smooth = 700,
+		range = {
+			0,
+			10
+		},
+		listener_data = {
+			type = 1,
+			change = {
+				{
+					2,
+					{
+						"touch_drag3"
+					},
+					10
+				},
+				{
+					2,
+					{
+						"touch_idle26"
+					},
+					0
+				}
+			}
+		},
+		action_trigger = {
+			type = 7
+		}
+	}
+	pg.base.ship_l2d[81801126] = {
+		id = 81801126,
+		offset_y = 0,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "",
+		limit_time = 1,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "Param112",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 700,
+		react_condition = "",
+		range_abs = 1,
+		ship_skin_id = 818011,
+		revert_smooth = 700,
+		range = {
+			0,
+			10
+		},
+		listener_data = {
+			type = 1,
+			change = {
+				{
+					2,
+					{
+						"touch_drag3"
+					},
+					10
+				},
+				{
+					2,
+					{
+						"touch_idle26"
+					},
+					0
+				}
+			}
+		},
+		action_trigger = {
+			type = 7
+		}
+	}
+	pg.base.ship_l2d[81801127] = {
+		ship_skin_id = 818011,
+		id = 81801127,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchIdle3",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "empty",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_idle3",
+			type = 2
+		},
+		action_trigger_active = {
+			idle = 0,
+			enable = {},
+			ignore = {}
+		}
+	}
+	pg.base.ship_l2d[81801128] = {
+		ship_skin_id = 818011,
+		id = 81801128,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchIdle4",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "empty",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_idle4",
+			type = 2
+		},
+		action_trigger_active = {
+			idle = 3,
+			enable = {},
+			ignore = {
+				"main_1",
+				"main_2",
+				"main_3",
+				"main_4",
+				"mission",
+				"mission_complete",
+				"complete",
+				"login",
+				"home",
+				"mail",
+				"touch_body",
+				"touch_head"
+			}
+		}
+	}
+	pg.base.ship_l2d[81801129] = {
+		ship_skin_id = 818011,
+		id = 81801129,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchIdle5",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "empty",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_idle10",
+			type = 2
+		},
+		action_trigger_active = {
+			idle = 11,
+			enable = {},
+			ignore = {
+				"main_1",
+				"main_2",
+				"main_3",
+				"main_4",
+				"mission",
+				"mission_complete",
+				"complete",
+				"login",
+				"home",
+				"mail",
+				"touch_body",
+				"touch_head"
+			}
+		}
+	}
+	pg.base.ship_l2d[81801130] = {
+		ship_skin_id = 818011,
+		id = 81801130,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchIdle6",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "empty",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_idle12",
+			type = 2
+		},
+		action_trigger_active = {
+			idle = 3,
+			enable = {},
+			ignore = {
+				"main_1",
+				"main_2",
+				"main_3",
+				"main_4",
+				"mission",
+				"mission_complete",
+				"complete",
+				"login",
+				"home",
+				"mail",
+				"touch_body",
+				"touch_head"
+			}
+		}
+	}
+	pg.base.ship_l2d[81801131] = {
+		ship_skin_id = 818011,
+		id = 81801131,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchIdle7",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "empty",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_idle19",
+			type = 2
+		},
+		action_trigger_active = {
+			idle = 1,
+			enable = {},
+			ignore = {
+				"main_1",
+				"main_2",
+				"main_3",
+				"main_4",
+				"mission",
+				"mission_complete",
+				"complete",
+				"login",
+				"home",
+				"mail",
+				"touch_body",
+				"touch_head"
+			}
+		}
+	}
+	pg.base.ship_l2d[81801132] = {
+		ship_skin_id = 818011,
+		id = 81801132,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag7",
+		limit_time = 1,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = -1,
+		ignore_react = 1,
+		parameter = "empty",
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_drag4",
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801133] = {
+		ship_skin_id = 818011,
+		id = 81801133,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchIdle8",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "empty",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_idle5",
+			type = 2
+		},
+		action_trigger_active = {
+			idle = 4,
+			enable = {},
+			ignore = {
+				"main_1",
+				"main_2",
+				"main_3",
+				"main_4",
+				"mission",
+				"mission_complete",
+				"complete",
+				"login",
+				"home",
+				"mail",
+				"touch_body",
+				"touch_head"
+			}
+		}
+	}
+	pg.base.ship_l2d[81801134] = {
+		ship_skin_id = 818011,
+		id = 81801134,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchIdle9",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "empty",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_idle8",
+			type = 2
+		},
+		action_trigger_active = {
+			idle = 6,
+			enable = {},
+			ignore = {
+				"main_1",
+				"main_2",
+				"main_3",
+				"main_4",
+				"mission",
+				"mission_complete",
+				"complete",
+				"login",
+				"home",
+				"mail",
+				"touch_body",
+				"touch_head"
+			}
+		}
+	}
+	pg.base.ship_l2d[81801135] = {
+		ship_skin_id = 818011,
+		id = 81801135,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchIdle10",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "empty",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_idle7",
+			type = 2
+		},
+		action_trigger_active = {
+			idle = 5,
+			enable = {},
+			ignore = {
+				"main_1",
+				"main_2",
+				"main_3",
+				"main_4",
+				"mission",
+				"mission_complete",
+				"complete",
+				"login",
+				"home",
+				"mail",
+				"touch_body",
+				"touch_head"
+			}
+		}
+	}
+	pg.base.ship_l2d[81801136] = {
+		ship_skin_id = 818011,
+		id = 81801136,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchIdle11",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "empty",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_idle25",
+			type = 2
+		},
+		action_trigger_active = {
+			idle = 4,
+			enable = {},
+			ignore = {
+				"main_1",
+				"main_2",
+				"main_3",
+				"main_4",
+				"mission",
+				"mission_complete",
+				"complete",
+				"login",
+				"home",
+				"mail",
+				"touch_body",
+				"touch_head"
+			}
+		}
+	}
+	pg.base.ship_l2d[81801137] = {
+		ship_skin_id = 818011,
+		id = 81801137,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchIdle12",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "empty",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_idle20",
+			type = 2
+		},
+		action_trigger_active = {
+			idle = 8,
+			enable = {},
+			ignore = {
+				"main_1",
+				"main_2",
+				"main_3",
+				"main_4",
+				"mission",
+				"mission_complete",
+				"complete",
+				"login",
+				"home",
+				"mail",
+				"touch_body",
+				"touch_head"
+			}
+		}
+	}
+	pg.base.ship_l2d[81801138] = {
+		ship_skin_id = 818011,
+		id = 81801138,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchIdle13",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "empty",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_idle22",
+			type = 2
+		},
+		action_trigger_active = {
+			idle = 9,
+			enable = {},
+			ignore = {
+				"main_1",
+				"main_2",
+				"main_3",
+				"main_4",
+				"mission",
+				"mission_complete",
+				"complete",
+				"login",
+				"home",
+				"mail",
+				"touch_body",
+				"touch_head"
+			}
+		}
+	}
+	pg.base.ship_l2d[81801139] = {
+		id = 81801139,
+		offset_y = 0,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "",
+		limit_time = 1,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "Param321",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 400,
+		react_condition = "",
+		range_abs = 1,
+		ship_skin_id = 818011,
+		revert_smooth = 400,
+		range = {
+			0,
+			70
+		},
+		listener_data = {
+			type = 2,
+			change = {
+				{
+					1,
+					{
+						"TouchDrag9",
+						"TouchDrag10",
+						"TouchDrag11"
+					},
+					5
+				},
+				{
+					1,
+					{
+						"TouchDrag12",
+						"TouchDrag13",
+						"TouchDrag14"
+					},
+					7
+				},
+				{
+					1,
+					{
+						"TouchDrag15",
+						"TouchDrag16",
+						"TouchDrag17"
+					},
+					10
+				},
+				{
+					2,
+					{
+						"TouchDrag32"
+					},
+					0
+				}
+			}
+		},
+		action_trigger = {
+			type = 7
+		}
+	}
+	pg.base.ship_l2d[81801140] = {
+		ship_skin_id = 818011,
+		id = 81801140,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag18",
+		limit_time = 0.2,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = -1,
+		ignore_react = 1,
+		parameter = "empty",
+		ignore_action = 0,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_drag7",
+			down = 1,
+			focus = 1,
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801141] = {
+		ship_skin_id = 818011,
+		id = 81801141,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag19",
+		limit_time = 0.2,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = -1,
+		ignore_react = 1,
+		parameter = "empty",
+		ignore_action = 0,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_drag5",
+			down = 1,
+			focus = 1,
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801142] = {
+		ship_skin_id = 818011,
+		id = 81801142,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag20",
+		limit_time = 0.2,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = -1,
+		ignore_react = 1,
+		parameter = "empty",
+		ignore_action = 0,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_drag6",
+			down = 1,
+			focus = 1,
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801143] = {
+		ship_skin_id = 818011,
+		id = 81801143,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag21",
+		limit_time = 0.2,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = -1,
+		ignore_react = 1,
+		parameter = "empty",
+		ignore_action = 0,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_drag10",
+			down = 1,
+			focus = 1,
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801144] = {
+		ship_skin_id = 818011,
+		id = 81801144,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag22",
+		limit_time = 0.2,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = -1,
+		ignore_react = 1,
+		parameter = "empty",
+		ignore_action = 0,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_drag11",
+			down = 1,
+			focus = 1,
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801145] = {
+		ship_skin_id = 818011,
+		id = 81801145,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag23",
+		limit_time = 0.2,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = -1,
+		ignore_react = 1,
+		parameter = "empty",
+		ignore_action = 0,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_drag12",
+			down = 1,
+			focus = 1,
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801146] = {
+		ship_skin_id = 818011,
+		id = 81801146,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag24",
+		limit_time = 0.2,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = -1,
+		ignore_react = 1,
+		parameter = "empty",
+		ignore_action = 0,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_drag13",
+			down = 1,
+			focus = 1,
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801147] = {
+		ship_skin_id = 818011,
+		id = 81801147,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag25",
+		limit_time = 0.2,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = -1,
+		ignore_react = 1,
+		parameter = "empty",
+		ignore_action = 0,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_drag14",
+			down = 1,
+			focus = 1,
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801148] = {
+		ship_skin_id = 818011,
+		id = 81801148,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag26",
+		limit_time = 0.2,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = -1,
+		ignore_react = 1,
+		parameter = "empty",
+		ignore_action = 0,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_drag15",
+			down = 1,
+			focus = 1,
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801149] = {
+		ship_skin_id = 818011,
+		id = 81801149,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag27",
+		limit_time = 1,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = -1,
+		ignore_react = 1,
+		parameter = "empty",
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_drag8",
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801150] = {
+		ship_skin_id = 818011,
+		id = 81801150,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag28",
+		limit_time = 1,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = -1,
+		ignore_react = 1,
+		parameter = "empty",
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_drag9",
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801151] = {
+		ship_skin_id = 818011,
+		id = 81801151,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchIdle14",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "empty",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_idle18",
+			type = 2
+		},
+		action_trigger_active = {
+			idle = 13,
+			enable = {},
+			ignore = {
+				"main_1",
+				"main_2",
+				"main_3",
+				"main_4",
+				"mission",
+				"mission_complete",
+				"complete",
+				"login",
+				"home",
+				"mail",
+				"touch_body",
+				"touch_head"
+			}
+		}
+	}
+	pg.base.ship_l2d[81801152] = {
+		id = 81801152,
+		offset_y = 0,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "",
+		limit_time = 1,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "Param329",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 400,
+		react_condition = "",
+		range_abs = 1,
+		ship_skin_id = 818011,
+		revert_smooth = 400,
+		range = {
+			0,
+			3
+		},
+		listener_data = {
+			type = 2,
+			change = {
+				{
+					1,
+					{
+						"TouchDrag28"
+					},
+					1
+				},
+				{
+					2,
+					{
+						"TouchDrag31"
+					},
+					0
+				}
+			}
+		},
+		action_trigger = {
+			type = 7
+		}
+	}
+	pg.base.ship_l2d[81801153] = {
+		ship_skin_id = 818011,
+		id = 81801153,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchIdle15",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "empty",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_idle24",
+			type = 2
+		},
+		action_trigger_active = {
+			idle = 0,
+			enable = {},
+			ignore = {}
+		}
+	}
+	pg.base.ship_l2d[81801154] = {
+		ship_skin_id = 818011,
+		id = 81801154,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchIdle16",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "empty",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_idle26",
+			type = 2
+		},
+		action_trigger_active = {
+			idle = 0,
+			enable = {},
+			ignore = {}
+		}
+	}
+	pg.base.ship_l2d[81801155] = {
+		ship_skin_id = 818011,
+		id = 81801155,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag29",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "empty",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_idle6",
+			type = 2
+		},
+		action_trigger_active = {
+			idle = 0,
+			enable = {},
+			ignore = {}
+		}
+	}
+	pg.base.ship_l2d[81801156] = {
+		ship_skin_id = 818011,
+		id = 81801156,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag30",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "empty",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_idle9",
+			type = 2
+		},
+		action_trigger_active = {
+			idle = 7,
+			enable = {},
+			ignore = {
+				"main_1",
+				"main_2",
+				"main_3",
+				"main_4",
+				"mission",
+				"mission_complete",
+				"complete",
+				"login",
+				"home",
+				"mail",
+				"touch_body",
+				"touch_head"
+			}
+		}
+	}
+	pg.base.ship_l2d[81801157] = {
+		ship_skin_id = 818011,
+		id = 81801157,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag32",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "empty",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_idle16",
+			type = 2
+		},
+		action_trigger_active = {
+			idle = 10,
+			enable = {},
+			ignore = {
+				"main_1",
+				"main_2",
+				"main_3",
+				"main_4",
+				"mission",
+				"mission_complete",
+				"complete",
+				"login",
+				"home",
+				"mail",
+				"touch_body",
+				"touch_head"
+			}
+		}
+	}
+	pg.base.ship_l2d[81801158] = {
+		ship_skin_id = 818011,
+		id = 81801158,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchIdle13",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			trigger_name = "idle",
+			action = "touch_idle21",
+			type = 10,
+			trigger_index = 9,
+			trigger_rate = 0.95
+		},
+		action_trigger_active = {
+			idle = 0,
+			enable = {},
+			ignore = {}
+		}
+	}
+	pg.base.ship_l2d[81801159] = {
+		ship_skin_id = 818011,
+		id = 81801159,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag8",
+		limit_time = 0.1,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = -1,
+		ignore_react = 1,
+		parameter = "empty",
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			circle = true,
+			target = 1,
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801160] = {
+		ship_skin_id = 818011,
+		id = 81801160,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag31",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "empty",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_idle23",
+			type = 2
+		},
+		action_trigger_active = {
+			idle = 14,
+			enable = {},
+			ignore = {
+				"main_1",
+				"main_2",
+				"main_3",
+				"main_4",
+				"mission",
+				"mission_complete",
+				"complete",
+				"login",
+				"home",
+				"mail",
+				"touch_body",
+				"touch_head"
+			}
+		}
+	}
+	pg.base.ship_l2d[81801161] = {
+		ship_skin_id = 818011,
+		id = 81801161,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag34",
+		limit_time = 1,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = -1,
+		ignore_react = 1,
+		parameter = "empty",
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			circle = true,
+			target = 1,
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801162] = {
+		ship_skin_id = 818011,
+		id = 81801162,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag35",
+		limit_time = 1,
+		mode = 1,
+		offset_y = 0,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		relation_parameter = "",
+		revert = -1,
+		ignore_react = 1,
+		parameter = "empty",
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		save_parameter = 0,
+		gyro_z = 0,
+		start_value = 0,
+		smooth = 100,
+		offset_circle = "",
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			circle = true,
+			target = 1,
+			type = 2
+		}
+	}
+	pg.base.ship_l2d[81801163] = {
+		id = 81801163,
+		offset_y = 0,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "",
+		limit_time = 1,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "Param322",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 400,
+		react_condition = "",
+		range_abs = 1,
+		ship_skin_id = 818011,
+		revert_smooth = 400,
+		range = {
+			0,
+			70
+		},
+		listener_data = {
+			type = 2,
+			change = {
+				{
+					1,
+					{
+						"TouchDrag18",
+						"TouchDrag21",
+						"TouchDrag24"
+					},
+					10
+				},
+				{
+					1,
+					{
+						"TouchDrag19",
+						"TouchDrag22",
+						"TouchDrag25"
+					},
+					15
+				},
+				{
+					1,
+					{
+						"TouchDrag20",
+						"TouchDrag23",
+						"TouchDrag26"
+					},
+					20
+				},
+				{
+					2,
+					{
+						"TouchDrag33"
+					},
+					0
+				}
+			}
+		},
+		action_trigger = {
+			type = 7
+		}
+	}
+	pg.base.ship_l2d[81801164] = {
+		ship_skin_id = 818011,
+		id = 81801164,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag33",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "empty",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			action = "touch_idle14",
+			type = 2
+		},
+		action_trigger_active = {
+			idle = 12,
+			enable = {},
+			ignore = {
+				"main_1",
+				"main_2",
+				"main_3",
+				"main_4",
+				"mission",
+				"mission_complete",
+				"complete",
+				"login",
+				"home",
+				"mail",
+				"touch_body",
+				"touch_head"
+			}
+		}
+	}
+	pg.base.ship_l2d[81801165] = {
+		ship_skin_id = 818011,
+		id = 81801165,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			parameter = "Param231",
+			type = 12,
+			num = {
+				0.01,
+				1
+			}
+		},
+		action_trigger_active = {
+			enable = {},
+			ignore = {
+				"main_2",
+				"main_3",
+				"main_4",
+				"mission",
+				"mission_complete",
+				"complete",
+				"mail",
+				"touch_head"
+			}
+		}
+	}
+end)()
+;(function()
+	pg.base.ship_l2d[81801166] = {
+		ship_skin_id = 818011,
+		id = 81801166,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			parameter = "Param230",
+			type = 12,
+			num = {
+				0.01,
+				1
+			}
+		},
+		action_trigger_active = {
+			enable = {},
+			ignore = {
+				"main_2",
+				"main_3",
+				"main_4",
+				"mission",
+				"mission_complete",
+				"complete",
+				"mail",
+				"touch_head"
+			}
+		}
+	}
+	pg.base.ship_l2d[81801167] = {
+		ship_skin_id = 818011,
+		id = 81801167,
+		gyro_y = 0,
+		limit_time = 1,
+		drag_direct = 0,
+		parts_data = "",
+		revert_action_index = 0,
+		draw_able_name = "",
+		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		ignore_react = 1,
+		revert = -1,
+		parameter = "",
+		save_parameter = 0,
+		ignore_action = 1,
+		react_pos_x = 0,
+		offset_x = 0,
+		shop_action = 0,
+		revert_idle_index = "",
+		start_value = 0,
+		gyro_z = 0,
+		offset_circle = "",
+		smooth = 100,
+		react_condition = "",
+		range_abs = 1,
+		listener_data = "",
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			parameter = "Param232",
+			type = 12,
+			num = {
+				0.01,
+				1
+			}
+		},
+		action_trigger_active = {
+			enable = {},
+			ignore = {
+				"main_2",
+				"main_3",
+				"main_4",
+				"mission",
+				"mission_complete",
+				"complete",
+				"mail",
+				"touch_head"
+			}
 		}
 	}
 end)()

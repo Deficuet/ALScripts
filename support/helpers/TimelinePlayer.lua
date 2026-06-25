@@ -1,6 +1,6 @@
 local var_0_0 = class("TimelinePlayer")
 
-function var_0_0.Ctor(arg_1_0, arg_1_1)
+function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	arg_1_0.comDirector = arg_1_1:GetComponent(typeof(UnityEngine.Playables.PlayableDirector))
 
 	if GetComponent(arg_1_1, typeof(TimelineSpeed)) then
@@ -16,7 +16,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	end)
 	arg_1_0.comDirector:Stop()
 
-	arg_1_0.comDirector.extrapolationMode = ReflectionHelp.RefGetField(typeof("UnityEngine.Playables.DirectorWrapMode"), "Hold", nil)
+	arg_1_0.comDirector.extrapolationMode = arg_1_2 or ReflectionHelp.RefGetField(typeof("UnityEngine.Playables.DirectorWrapMode"), "Hold", nil)
 
 	TimelineSupport.InitTimeline(arg_1_0.comDirector)
 end

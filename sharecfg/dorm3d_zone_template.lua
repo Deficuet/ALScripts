@@ -30,7 +30,13 @@ pg.dorm3d_zone_template.all = {
 	16001,
 	16002,
 	16003,
-	16004
+	16004,
+	21001,
+	21002,
+	21003,
+	26001,
+	26002,
+	26003
 }
 pg.dorm3d_zone_template.get_id_list_by_room_id = {
 	{
@@ -76,6 +82,16 @@ pg.dorm3d_zone_template.get_id_list_by_room_id = {
 		16002,
 		16003,
 		16004
+	},
+	[21] = {
+		21001,
+		21002,
+		21003
+	},
+	[26] = {
+		26001,
+		26002,
+		26003
 	}
 }
 pg.base = pg.base or {}
@@ -451,5 +467,65 @@ pg.base.dorm3d_zone_template = {}
 				10100401
 			}
 		}
+	}
+	pg.base.dorm3d_zone_template[21001] = {
+		is_global = 0,
+		name = "卧室",
+		type_prioritys = "",
+		room_id = 21,
+		id = 21001,
+		touch_id = "",
+		watch_camera = "Bed",
+		special_action = ""
+	}
+	pg.base.dorm3d_zone_template[21002] = {
+		is_global = 0,
+		name = "工房",
+		type_prioritys = "",
+		room_id = 21,
+		id = 21002,
+		touch_id = "",
+		watch_camera = "Table",
+		special_action = ""
+	}
+	pg.base.dorm3d_zone_template[21003] = {
+		is_global = 0,
+		name = "客厅",
+		type_prioritys = "",
+		room_id = 21,
+		id = 21003,
+		touch_id = "",
+		watch_camera = "Chair",
+		special_action = ""
+	}
+	pg.base.dorm3d_zone_template[26001] = {
+		is_global = 0,
+		name = "停车间",
+		type_prioritys = "",
+		room_id = 26,
+		id = 26001,
+		touch_id = "",
+		watch_camera = "Parking",
+		special_action = ""
+	}
+	pg.base.dorm3d_zone_template[26002] = {
+		is_global = 0,
+		name = "休息区",
+		type_prioritys = "",
+		room_id = 26,
+		id = 26002,
+		touch_id = "",
+		watch_camera = "Relax",
+		special_action = ""
+	}
+	pg.base.dorm3d_zone_template[26003] = {
+		is_global = 0,
+		name = "训练区",
+		type_prioritys = "",
+		room_id = 26,
+		id = 26003,
+		touch_id = "",
+		watch_camera = "Train",
+		special_action = ""
 	}
 end)()

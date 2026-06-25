@@ -127,6 +127,8 @@ function var_0_0.UpdateButtons(arg_9_0)
 	arg_9_0.sceneParent:updatePtActivity(underscore.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK), function(arg_10_0)
 		return arg_10_0:getConfig("config_id") == var_9_5
 	end))
+	setActive(arg_9_0.sceneParent.rightChapter:Find("event_btns/tickets"), var_9_2)
+	arg_9_0.sceneParent:updateRemasterTicket()
 	setActive(arg_9_0.sceneParent.ptTotal, not ActivityConst.HIDE_PT_PANELS and not var_9_2 and var_9_1 and arg_9_0.sceneParent.ptActivity and not arg_9_0.sceneParent.ptActivity:isEnd() and var_9_3)
 end
 

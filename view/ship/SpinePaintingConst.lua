@@ -1763,6 +1763,75 @@ var_0_0.ship_drag_datas = {
 				}
 			}
 		}
+	},
+	aluomangshi_2 = {
+		multiple_face = {},
+		hit_area = {
+			"random",
+			"skin_1",
+			"skin_2"
+		},
+		drag_data = {
+			type = var_0_0.drag_type_normal,
+			config_client = {
+				{
+					active = true,
+					click = true,
+					idle = "normal",
+					hit = "random",
+					action = {
+						"drag1",
+						"drag2",
+						"drag3"
+					},
+					change_idle = {
+						"ex1",
+						"ex2",
+						"ex3"
+					}
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					active = true,
+					hit = "random",
+					idle = {
+						"ex1",
+						"ex2",
+						"ex3"
+					},
+					action = {
+						"drag_ex1",
+						"drag_ex2",
+						"drag_ex3"
+					}
+				},
+				{
+					skin_change = "2",
+					click = true,
+					skin = "1",
+					hit = "skin_1",
+					idle = {
+						"normal",
+						"ex1",
+						"ex2",
+						"ex3"
+					}
+				},
+				{
+					skin_change = "1",
+					click = true,
+					skin = "2",
+					hit = "skin_2",
+					idle = {
+						"normal",
+						"ex1",
+						"ex2",
+						"ex3"
+					}
+				}
+			}
+		}
 	}
 }
 var_0_0.ship_effect_action_able = {

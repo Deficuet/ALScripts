@@ -136027,6 +136027,62 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.equip_data_statistics[61191] = {
+		type = 99,
+		name = "航空攻击展示-阿罗芒什I",
+		speciality = "<[NA]>",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "航母空袭展示用",
+		id = 61191,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			61191
+		},
+		skill_id = {},
+		hidden_skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[61192] = {
+		id = 61192,
+		name = "航空攻击展示-阿罗芒什II",
+		base = 61191,
+		weapon_id = {
+			61192
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[61193] = {
+		id = 61193,
+		name = "航空攻击展示-阿罗芒什III",
+		base = 61191,
+		weapon_id = {
+			61193
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.equip_data_statistics[61501] = {
 		type = 99,
 		name = "轰炸机外观预览飞机",
@@ -195650,6 +195706,147 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.equip_data_statistics[151180] = {
+		type = 10,
+		name = "搞笑担当",
+		speciality = "<[NA]>",
+		tech = 0,
+		value_2 = 0,
+		ammo = 10,
+		descrip = "帽子一戴，欢乐上头！",
+		nationality = 10,
+		rarity = 4,
+		id = 151180,
+		value_3 = 0,
+		attribute_1 = "durability",
+		icon = "151180",
+		value_1 = "200",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			{
+				61110,
+				1
+			}
+		},
+		hidden_skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DEV"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151181] = {
+		id = 151181,
+		value_1 = "230",
+		base = 151180,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151182] = {
+		id = 151182,
+		value_1 = "260",
+		base = 151180,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151183] = {
+		id = 151183,
+		value_1 = "290",
+		base = 151180,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151184] = {
+		id = 151184,
+		value_1 = "320",
+		base = 151180,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151185] = {
+		id = 151185,
+		value_1 = "350",
+		base = 151180,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151186] = {
+		id = 151186,
+		value_1 = "380",
+		base = 151180,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151187] = {
+		id = 151187,
+		value_1 = "410",
+		base = 151180,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151188] = {
+		id = 151188,
+		value_1 = "440",
+		base = 151180,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151189] = {
+		id = 151189,
+		value_1 = "470",
+		base = 151180,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151190] = {
+		id = 151190,
+		value_1 = "500",
+		base = 151180,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151191] = {
+		id = 151191,
+		anti_siren = 100,
+		value_1 = "530",
+		base = 151180,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.equip_data_statistics[170001] = {
 		type = 1,
 		name = "专属弹幕-古比雪夫I",
@@ -197514,6 +197711,63 @@ end)()
 		base = 170881,
 		weapon_id = {
 			170882
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[171041] = {
+		type = 1,
+		name = "专属弹幕-瑟堡I",
+		speciality = "<[NA]>",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能弹幕",
+		id = 171041,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			171041
+		},
+		skill_id = {},
+		hidden_skill_id = {},
+		part_main = {
+			1,
+			19,
+			20,
+			21
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[171042] = {
+		id = 171042,
+		name = "专属弹幕-瑟堡II",
+		base = 171041,
+		weapon_id = {
+			171042
 		},
 		hidden_skill_id = {}
 	}

@@ -1108635,6 +1108635,6458 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.expedition_data_template[2040001] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 2,
+		dungeon_id = 2040001,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_qz",
+		difficulty = 2,
+		level = 26,
+		exp = 130,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040001,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200807
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040002] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 2,
+		dungeon_id = 2040002,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_qz",
+		difficulty = 2,
+		level = 27,
+		exp = 148,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040002,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200807
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040003] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 2,
+		dungeon_id = 2040003,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_qz",
+		difficulty = 2,
+		level = 28,
+		exp = 168,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040003,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200807
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040004] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 2,
+		dungeon_id = 2040004,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_zl",
+		difficulty = 2,
+		level = 26,
+		exp = 130,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040004,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200807
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040005] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 2,
+		dungeon_id = 2040005,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_zl",
+		difficulty = 2,
+		level = 27,
+		exp = 148,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040005,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200807
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040006] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 2,
+		dungeon_id = 2040006,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_zl",
+		difficulty = 2,
+		level = 28,
+		exp = 168,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040006,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200807
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040007] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 2,
+		dungeon_id = 2040007,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_hm",
+		difficulty = 2,
+		level = 26,
+		exp = 130,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040007,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200807
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040008] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 2,
+		dungeon_id = 2040008,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_hm",
+		difficulty = 2,
+		level = 27,
+		exp = 148,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040008,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200807
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040009] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 2,
+		dungeon_id = 2040009,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_hm",
+		difficulty = 2,
+		level = 28,
+		exp = 168,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040009,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200807
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040013] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2040013,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "adaerbote_4",
+		difficulty = 2,
+		level = 30,
+		exp = 217,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040013,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200800
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040301] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2040301,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "youeryuan_boss04",
+		difficulty = 2,
+		level = 29,
+		exp = 196,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040301,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200800
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040101] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 2,
+		dungeon_id = 2040101,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_qz",
+		difficulty = 2,
+		level = 41,
+		exp = 205,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040101,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200808
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040102] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 2,
+		dungeon_id = 2040102,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_qz",
+		difficulty = 2,
+		level = 42,
+		exp = 231,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040102,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200808
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040103] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 2,
+		dungeon_id = 2040103,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_qz",
+		difficulty = 2,
+		level = 43,
+		exp = 258,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040103,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200808
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040104] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 2,
+		dungeon_id = 2040104,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_zl",
+		difficulty = 2,
+		level = 41,
+		exp = 205,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040104,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200808
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040105] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 2,
+		dungeon_id = 2040105,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_zl",
+		difficulty = 2,
+		level = 42,
+		exp = 231,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040105,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200808
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040106] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 2,
+		dungeon_id = 2040106,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_zl",
+		difficulty = 2,
+		level = 43,
+		exp = 258,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040106,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200808
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040107] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 2,
+		dungeon_id = 2040107,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_hm",
+		difficulty = 2,
+		level = 41,
+		exp = 205,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040107,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200808
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040108] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 2,
+		dungeon_id = 2040108,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_hm",
+		difficulty = 2,
+		level = 42,
+		exp = 231,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040108,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200808
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040109] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 2,
+		dungeon_id = 2040109,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_hm",
+		difficulty = 2,
+		level = 43,
+		exp = 258,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040109,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200808
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040113] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2040113,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "makeboluo_3",
+		difficulty = 2,
+		level = 45,
+		exp = 326,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040113,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200801
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040302] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2040302,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "youeryuan_boss04",
+		difficulty = 2,
+		level = 44,
+		exp = 297,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040302,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200801
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040201] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 2,
+		dungeon_id = 2040101,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_qz",
+		difficulty = 2,
+		level = 56,
+		exp = 280,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040201,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200809
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040202] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 2,
+		dungeon_id = 2040102,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_qz",
+		difficulty = 2,
+		level = 57,
+		exp = 313,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040202,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200809
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040203] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 2,
+		dungeon_id = 2040103,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_qz",
+		difficulty = 2,
+		level = 58,
+		exp = 348,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040203,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200809
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040204] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 2,
+		dungeon_id = 2040104,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_zl",
+		difficulty = 2,
+		level = 56,
+		exp = 280,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040204,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200809
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040205] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 2,
+		dungeon_id = 2040105,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_zl",
+		difficulty = 2,
+		level = 57,
+		exp = 313,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040205,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200809
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040206] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 2,
+		dungeon_id = 2040106,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_zl",
+		difficulty = 2,
+		level = 58,
+		exp = 348,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040206,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200809
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040207] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 2,
+		dungeon_id = 2040107,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_hm",
+		difficulty = 2,
+		level = 56,
+		exp = 280,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040207,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200809
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040208] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 2,
+		dungeon_id = 2040108,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_hm",
+		difficulty = 2,
+		level = 57,
+		exp = 313,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040208,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200809
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040209] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 2,
+		dungeon_id = 2040109,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_hm",
+		difficulty = 2,
+		level = 58,
+		exp = 348,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040209,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200809
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040213] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2040213,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "dafenqi_3",
+		difficulty = 2,
+		level = 60,
+		exp = 435,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040213,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200802
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2040303] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2040303,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "youeryuan_boss04",
+		difficulty = 2,
+		level = 59,
+		exp = 398,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2040303,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200802
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041001] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 2,
+		dungeon_id = 2041001,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_qz",
+		difficulty = 2,
+		level = 76,
+		exp = 380,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041001,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200810
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041002] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 2,
+		dungeon_id = 2041002,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_qz",
+		difficulty = 2,
+		level = 77,
+		exp = 423,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041002,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200810
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041003] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 2,
+		dungeon_id = 2041003,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_qz",
+		difficulty = 2,
+		level = 78,
+		exp = 468,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041003,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200810
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041004] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 2,
+		dungeon_id = 2041004,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_zl",
+		difficulty = 2,
+		level = 76,
+		exp = 380,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041004,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200810
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041005] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 2,
+		dungeon_id = 2041005,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_zl",
+		difficulty = 2,
+		level = 77,
+		exp = 423,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041005,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200810
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041006] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 2,
+		dungeon_id = 2041006,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_zl",
+		difficulty = 2,
+		level = 78,
+		exp = 468,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041006,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200810
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041007] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 2,
+		dungeon_id = 2041007,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_hm",
+		difficulty = 2,
+		level = 76,
+		exp = 380,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041007,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200810
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041008] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 2,
+		dungeon_id = 2041008,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_hm",
+		difficulty = 2,
+		level = 77,
+		exp = 423,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041008,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200810
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041009] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 2,
+		dungeon_id = 2041009,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_hm",
+		difficulty = 2,
+		level = 78,
+		exp = 468,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041009,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200810
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041013] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2041013,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "adaerbote_4",
+		difficulty = 2,
+		level = 80,
+		exp = 580,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041013,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200803
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041301] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2041301,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "youeryuan_boss05",
+		difficulty = 2,
+		level = 79,
+		exp = 533,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041301,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200803
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041302] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2041302,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "youeryuan_boss03",
+		difficulty = 2,
+		level = 79,
+		exp = 533,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041302,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200803
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041101] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 2,
+		dungeon_id = 2041101,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_qz",
+		difficulty = 2,
+		level = 91,
+		exp = 455,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041101,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200811
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041102] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 2,
+		dungeon_id = 2041102,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_qz",
+		difficulty = 2,
+		level = 92,
+		exp = 506,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041102,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200811
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041103] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 2,
+		dungeon_id = 2041103,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_qz",
+		difficulty = 2,
+		level = 93,
+		exp = 558,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041103,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200811
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041104] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 2,
+		dungeon_id = 2041104,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_zl",
+		difficulty = 2,
+		level = 91,
+		exp = 455,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041104,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200811
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041105] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 2,
+		dungeon_id = 2041105,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_zl",
+		difficulty = 2,
+		level = 92,
+		exp = 506,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041105,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200811
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041106] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 2,
+		dungeon_id = 2041106,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_zl",
+		difficulty = 2,
+		level = 93,
+		exp = 558,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041106,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200811
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041107] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 2,
+		dungeon_id = 2041107,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_hm",
+		difficulty = 2,
+		level = 91,
+		exp = 455,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041107,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200811
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041108] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 2,
+		dungeon_id = 2041108,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_hm",
+		difficulty = 2,
+		level = 92,
+		exp = 506,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041108,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200811
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041109] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 2,
+		dungeon_id = 2041109,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_hm",
+		difficulty = 2,
+		level = 93,
+		exp = 558,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041109,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200811
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041113] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2041113,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "makeboluo_3",
+		difficulty = 2,
+		level = 95,
+		exp = 689,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041113,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200804
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041303] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2041303,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "youeryuan_boss05",
+		difficulty = 2,
+		level = 94,
+		exp = 634,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041303,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200804
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041304] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2041304,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "youeryuan_boss03",
+		difficulty = 2,
+		level = 94,
+		exp = 634,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041304,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200804
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041201] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 2,
+		dungeon_id = 2041101,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_qz",
+		difficulty = 2,
+		level = 101,
+		exp = 505,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041201,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200812
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041202] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 2,
+		dungeon_id = 2041102,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_qz",
+		difficulty = 2,
+		level = 102,
+		exp = 561,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041202,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200812
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041203] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 2,
+		dungeon_id = 2041103,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 3,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_qz",
+		difficulty = 2,
+		level = 103,
+		exp = 618,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041203,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200812
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041204] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 2,
+		dungeon_id = 2041104,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_zl",
+		difficulty = 2,
+		level = 101,
+		exp = 505,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041204,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200812
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041205] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 2,
+		dungeon_id = 2041105,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_zl",
+		difficulty = 2,
+		level = 102,
+		exp = 561,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041205,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200812
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041206] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 2,
+		dungeon_id = 2041106,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 3,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_zl",
+		difficulty = 2,
+		level = 103,
+		exp = 618,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041206,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200812
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041207] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 2,
+		dungeon_id = 2041107,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_hm",
+		difficulty = 2,
+		level = 101,
+		exp = 505,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041207,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200812
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041208] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 2,
+		dungeon_id = 2041108,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_hm",
+		difficulty = 2,
+		level = 102,
+		exp = 561,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041208,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200812
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041209] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 2,
+		dungeon_id = 2041109,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 3,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_hm",
+		difficulty = 2,
+		level = 103,
+		exp = 618,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041209,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200812
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041213] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2041213,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 3,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "dafenqi_3",
+		difficulty = 2,
+		level = 105,
+		exp = 761,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041213,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56000
+			},
+			{
+				2,
+				200805
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041305] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2041305,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 3,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "youeryuan_boss05",
+		difficulty = 2,
+		level = 104,
+		exp = 702,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041305,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200805
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2041306] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2041306,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 3,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "youeryuan_boss03",
+		difficulty = 2,
+		level = 104,
+		exp = 702,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2041306,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200805
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2044001] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2044001,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 3,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_qz",
+		difficulty = 2,
+		level = 106,
+		exp = 530,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2044001,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200813
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2044002] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2044002,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_qz",
+		difficulty = 2,
+		level = 107,
+		exp = 588,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2044002,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200813
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2044003] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2044003,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_qz",
+		difficulty = 2,
+		level = 108,
+		exp = 648,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2044003,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200813
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2044004] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2044004,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 3,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_zl",
+		difficulty = 2,
+		level = 106,
+		exp = 530,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2044004,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200813
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2044005] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2044005,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_zl",
+		difficulty = 2,
+		level = 107,
+		exp = 588,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2044005,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200813
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2044006] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2044006,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_zl",
+		difficulty = 2,
+		level = 108,
+		exp = 648,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2044006,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200813
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2044007] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2044007,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 3,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_hm",
+		difficulty = 2,
+		level = 106,
+		exp = 530,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2044007,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200813
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2044008] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2044008,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_hm",
+		difficulty = 2,
+		level = 107,
+		exp = 588,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2044008,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200813
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2044009] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2044009,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "youeryuan_hm",
+		difficulty = 2,
+		level = 108,
+		exp = 648,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2044009,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200813
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2044013] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2044013,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "sebao_2",
+		difficulty = 2,
+		level = 110,
+		exp = 797,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2044013,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56000
+			},
+			{
+				2,
+				200806
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2044301] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2044301,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "youeryuan_boss05",
+		difficulty = 2,
+		level = 109,
+		exp = 736,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2044301,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200806
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2044302] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2044302,
+		add_icon = "",
+		bgm = "theme-magicalnight-mystic",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "youeryuan_boss03",
+		difficulty = 2,
+		level = 109,
+		exp = 736,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2044302,
+		scale = 100,
+		map_id = {
+			{
+				50225,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200806
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.expedition_data_template[5000001] = {
 		sink_limit = 1,
 		name = "小型侦查舰队",

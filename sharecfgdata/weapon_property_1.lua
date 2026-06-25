@@ -1334347,30 +1334347,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.weapon_property_1[3512040] = {
-		base = 1001,
-		range = 120,
-		damage = 100,
-		type = 3,
-		min_range = 0,
-		reload_max = 6000,
-		suppress = 1,
-		spawn_bound = "torpedo",
-		axis_angle = 0,
-		id = 3512040,
-		effect_move = 0,
-		angle = 180,
-		aim_type = 1,
-		bullet_ID = {
-			3512040
-		},
-		barrage_ID = {
-			3512040
-		}
-	}
-end)()
-
-(function()
 	_G.pg.base.weapon_property_1[9999900] = {
 		recover_time = 0,
 		axis_angle = 0,

@@ -226,6 +226,12 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 				local var_10_2 = tonumber(var_10_0)
 
 				if var_10_2 and var_10_2 > 0 then
+					local var_10_3 = getProxy(ContextProxy):getContextByMediator(LevelMediator2)
+
+					if var_10_3 then
+						var_10_3.data.pendingEnterChapterId = var_1_1
+					end
+
 					arg_1_0:sendNotification(GAME.BEGIN_STAGE, {
 						system = SYSTEM_PERFORM,
 						stageId = var_10_2,

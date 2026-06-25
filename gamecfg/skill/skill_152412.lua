@@ -275,6 +275,5 @@ return {
 	painting = "gezi",
 	id = 152412,
 	picture = "0",
-	castCV = "skill",
 	desc = "支援炮击"
 }

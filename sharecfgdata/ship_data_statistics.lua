@@ -346304,6 +346304,530 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[801061] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "无惧",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801060,
+		english_name = "FFNF L'Intrépide",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801061,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			271,
+			19,
+			79,
+			33,
+			0,
+			72,
+			0,
+			71,
+			74,
+			42,
+			47,
+			47
+		},
+		attrs_growth = {
+			7721,
+			263,
+			986,
+			727,
+			0,
+			503,
+			0,
+			1093,
+			1440,
+			0,
+			0,
+			544
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.2,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Hardi-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[801062] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "无惧",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801060,
+		english_name = "FFNF L'Intrépide",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801062,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			337,
+			24,
+			99,
+			41,
+			0,
+			72,
+			0,
+			71,
+			74,
+			42,
+			47,
+			59
+		},
+		attrs_growth = {
+			7721,
+			263,
+			986,
+			727,
+			0,
+			503,
+			0,
+			1093,
+			1440,
+			0,
+			0,
+			544
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.2,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Hardi-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[801063] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "无惧",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801060,
+		english_name = "FFNF L'Intrépide",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801063,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			469,
+			33,
+			138,
+			57,
+			0,
+			72,
+			0,
+			71,
+			74,
+			42,
+			47,
+			82
+		},
+		attrs_growth = {
+			7721,
+			263,
+			986,
+			727,
+			0,
+			503,
+			0,
+			1093,
+			1440,
+			0,
+			0,
+			544
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.3,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Hardi-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[801064] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "无惧",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801060,
+		english_name = "FFNF L'Intrépide",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801064,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			668,
+			47,
+			197,
+			82,
+			0,
+			72,
+			0,
+			71,
+			74,
+			42,
+			47,
+			117
+		},
+		attrs_growth = {
+			7721,
+			263,
+			986,
+			727,
+			0,
+			503,
+			0,
+			1093,
+			1440,
+			0,
+			0,
+			544
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.35,
+			0.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Hardi-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[801071] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -354222,6 +354746,526 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[806021] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "阿罗芒什",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 806020,
+		english_name = "FFNF Arromanches",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 806021,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			755,
+			0,
+			0,
+			48,
+			70,
+			65,
+			0,
+			28,
+			17,
+			25,
+			70,
+			29
+		},
+		attrs_growth = {
+			20571,
+			0,
+			0,
+			1040,
+			897,
+			454,
+			0,
+			452,
+			402,
+			0,
+			0,
+			351
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			113,
+			115,
+			114
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.15,
+			1.4
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Colossus-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[806022] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "阿罗芒什",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 806020,
+		english_name = "FFNF Arromanches",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 806022,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			939,
+			0,
+			0,
+			60,
+			87,
+			65,
+			0,
+			28,
+			17,
+			25,
+			70,
+			36
+		},
+		attrs_growth = {
+			20571,
+			0,
+			0,
+			1040,
+			897,
+			454,
+			0,
+			452,
+			402,
+			0,
+			0,
+			351
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			113,
+			115,
+			114
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.02,
+			1.17,
+			1.42
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Colossus-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[806023] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "阿罗芒什",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 806020,
+		english_name = "FFNF Arromanches",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 806023,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1307,
+			0,
+			0,
+			83,
+			122,
+			65,
+			0,
+			28,
+			17,
+			25,
+			70,
+			50
+		},
+		attrs_growth = {
+			20571,
+			0,
+			0,
+			1040,
+			897,
+			454,
+			0,
+			452,
+			402,
+			0,
+			0,
+			351
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			113,
+			115,
+			114
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.2,
+			1.45
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Colossus-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[806024] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "阿罗芒什",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 806020,
+		english_name = "FFNF Arromanches",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 806024,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1859,
+			0,
+			0,
+			118,
+			174,
+			65,
+			0,
+			28,
+			17,
+			25,
+			70,
+			72
+		},
+		attrs_growth = {
+			20571,
+			0,
+			0,
+			1040,
+			897,
+			454,
+			0,
+			452,
+			402,
+			0,
+			0,
+			351
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			113,
+			115,
+			114
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.25,
+			1.5
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Colossus-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[807011] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -356265,6 +357309,530 @@ end)()
 		gift_dislike = {
 			180002,
 			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[818011] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "瑟堡",
+		type = 18,
+		oxy_cost = 0,
+		skin_id = 818010,
+		english_name = "FFNF Cherbourg",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 818011,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1108,
+			52,
+			0,
+			43,
+			0,
+			62,
+			0,
+			45,
+			8,
+			23.2,
+			50,
+			0
+		},
+		attrs_growth = {
+			29732,
+			706,
+			0,
+			933,
+			0,
+			429,
+			0,
+			648,
+			244,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.9,
+			0.35,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Cherbourg"
+		},
+		gift_dislike = {
+			180005,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[818012] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "瑟堡",
+		type = 18,
+		oxy_cost = 0,
+		skin_id = 818010,
+		english_name = "FFNF Cherbourg",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 818012,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1378,
+			65,
+			0,
+			54,
+			0,
+			62,
+			0,
+			45,
+			8,
+			23.2,
+			50,
+			0
+		},
+		attrs_growth = {
+			29732,
+			706,
+			0,
+			933,
+			0,
+			429,
+			0,
+			648,
+			244,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			0.35,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Cherbourg"
+		},
+		gift_dislike = {
+			180005,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[818013] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "瑟堡",
+		type = 18,
+		oxy_cost = 0,
+		skin_id = 818010,
+		english_name = "FFNF Cherbourg",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 818013,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1918,
+			91,
+			0,
+			75,
+			0,
+			62,
+			0,
+			45,
+			8,
+			23.2,
+			50,
+			0
+		},
+		attrs_growth = {
+			29732,
+			706,
+			0,
+			933,
+			0,
+			429,
+			0,
+			648,
+			244,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			0.45,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Cherbourg"
+		},
+		gift_dislike = {
+			180005,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[818014] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "瑟堡",
+		type = 18,
+		oxy_cost = 0,
+		skin_id = 818010,
+		english_name = "FFNF Cherbourg",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 818014,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2729,
+			130,
+			0,
+			106,
+			0,
+			62,
+			0,
+			45,
+			8,
+			23.2,
+			50,
+			0
+		},
+		attrs_growth = {
+			29732,
+			706,
+			0,
+			933,
+			0,
+			429,
+			0,
+			648,
+			244,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.45,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Cherbourg"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()

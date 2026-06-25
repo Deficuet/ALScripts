@@ -58,70 +58,75 @@ function var_0_0.ResetCanvasOrder(arg_10_0)
 	local var_10_0 = arg_10_0.line.row * ChapterConst.PriorityPerRow + arg_10_0:GetOrder()
 
 	pg.ViewUtils.SetSortingOrder(arg_10_0.tf, var_10_0)
+	arg_10_0:OnCanvasUpDate()
 end
 
-function var_0_0.GetCurrentOrder(arg_11_0)
-	return arg_11_0.line.row * ChapterConst.PriorityPerRow + arg_11_0:GetOrder()
+function var_0_0.OnCanvasUpDate(arg_11_0)
+	return
 end
 
-function var_0_0.AddCanvasOrder(arg_12_0, arg_12_1, arg_12_2)
-	arg_12_1 = tf(arg_12_1)
-
-	local var_12_0 = arg_12_1:GetComponents(typeof(Renderer)):ToTable()
-
-	for iter_12_0, iter_12_1 in ipairs(var_12_0) do
-		iter_12_1.sortingOrder = (arg_12_0.orderTable[iter_12_1] or 0) + arg_12_2
-	end
-
-	local var_12_1 = arg_12_1:GetComponent(typeof(Canvas))
-
-	if var_12_1 then
-		var_12_1.sortingOrder = (arg_12_0.orderTable[var_12_1] or 0) + arg_12_2
-	end
-
-	for iter_12_2 = 0, arg_12_1.childCount - 1 do
-		arg_12_0:AddCanvasOrder(arg_12_1:GetChild(iter_12_2), arg_12_2)
-	end
+function var_0_0.GetCurrentOrder(arg_12_0)
+	return arg_12_0.line.row * ChapterConst.PriorityPerRow + arg_12_0:GetOrder()
 end
 
-function var_0_0.RecordCanvasOrder(arg_13_0, arg_13_1)
+function var_0_0.AddCanvasOrder(arg_13_0, arg_13_1, arg_13_2)
 	arg_13_1 = tf(arg_13_1)
 
 	local var_13_0 = arg_13_1:GetComponents(typeof(Renderer)):ToTable()
 
 	for iter_13_0, iter_13_1 in ipairs(var_13_0) do
-		arg_13_0.orderTable[iter_13_1] = iter_13_1.sortingOrder
+		iter_13_1.sortingOrder = (arg_13_0.orderTable[iter_13_1] or 0) + arg_13_2
 	end
 
 	local var_13_1 = arg_13_1:GetComponent(typeof(Canvas))
 
 	if var_13_1 then
-		arg_13_0.orderTable[var_13_1] = var_13_1.sortingOrder
+		var_13_1.sortingOrder = (arg_13_0.orderTable[var_13_1] or 0) + arg_13_2
 	end
 
 	for iter_13_2 = 0, arg_13_1.childCount - 1 do
-		arg_13_0:RecordCanvasOrder(arg_13_1:GetChild(iter_13_2))
+		arg_13_0:AddCanvasOrder(arg_13_1:GetChild(iter_13_2), arg_13_2)
 	end
 end
 
-function var_0_0.RefreshLinePosition(arg_14_0, arg_14_1, arg_14_2)
-	if arg_14_2 then
-		arg_14_0:SetLine(arg_14_2)
-		arg_14_0:ResetCanvasOrder()
+function var_0_0.RecordCanvasOrder(arg_14_0, arg_14_1)
+	arg_14_1 = tf(arg_14_1)
+
+	local var_14_0 = arg_14_1:GetComponents(typeof(Renderer)):ToTable()
+
+	for iter_14_0, iter_14_1 in ipairs(var_14_0) do
+		arg_14_0.orderTable[iter_14_1] = iter_14_1.sortingOrder
 	end
 
-	arg_14_0.tf.anchoredPosition = arg_14_1.theme:GetLinePosition(arg_14_0.line.row, arg_14_0.line.column)
+	local var_14_1 = arg_14_1:GetComponent(typeof(Canvas))
+
+	if var_14_1 then
+		arg_14_0.orderTable[var_14_1] = var_14_1.sortingOrder
+	end
+
+	for iter_14_2 = 0, arg_14_1.childCount - 1 do
+		arg_14_0:RecordCanvasOrder(arg_14_1:GetChild(iter_14_2))
+	end
 end
 
-function var_0_0.Clear(arg_15_0)
-	for iter_15_0, iter_15_1 in pairs(arg_15_0.orderTable) do
-		if not IsNil(iter_15_0) then
-			iter_15_0.sortingOrder = iter_15_1
+function var_0_0.RefreshLinePosition(arg_15_0, arg_15_1, arg_15_2)
+	if arg_15_2 then
+		arg_15_0:SetLine(arg_15_2)
+		arg_15_0:ResetCanvasOrder()
+	end
+
+	arg_15_0.tf.anchoredPosition = arg_15_1.theme:GetLinePosition(arg_15_0.line.row, arg_15_0.line.column)
+end
+
+function var_0_0.Clear(arg_16_0)
+	for iter_16_0, iter_16_1 in pairs(arg_16_0.orderTable) do
+		if not IsNil(iter_16_0) then
+			iter_16_0.sortingOrder = iter_16_1
 		end
 	end
 
-	table.clear(arg_15_0.orderTable)
-	arg_15_0:ClearLoader()
+	table.clear(arg_16_0.orderTable)
+	arg_16_0:ClearLoader()
 end
 
 return var_0_0

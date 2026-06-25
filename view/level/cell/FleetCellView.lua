@@ -131,9 +131,13 @@ function var_0_2.unloadSpine(arg_14_0)
 	var_0_2.super.UnloadSpine(arg_14_0)
 end
 
-function var_0_2.Clear(arg_15_0)
-	var_0_1.ClearSpine(arg_15_0)
-	var_0_2.super.Clear(arg_15_0)
+function var_0_2.OnCanvasUpDate(arg_15_0)
+	var_0_1.UpdateSortingOrder(arg_15_0)
+end
+
+function var_0_2.Clear(arg_16_0)
+	var_0_1.ClearSpine(arg_16_0)
+	var_0_2.super.Clear(arg_16_0)
 end
 
 return var_0_2

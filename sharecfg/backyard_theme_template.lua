@@ -131,7 +131,8 @@ pg.backyard_theme_template.all = {
 	135,
 	136,
 	137,
-	138
+	138,
+	139
 }
 pg.base = pg.base or {}
 pg.base.backyard_theme_template = {}
@@ -5614,6 +5615,40 @@ end)()
 			338113,
 			338114,
 			338115
+		}
+	}
+	pg.base.backyard_theme_template[139] = {
+		Cfg_1 = 5,
+		name = "惊喜马戏团",
+		hot = 1,
+		is_view = 1,
+		id = 139,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "步入惊喜马戏团，在欢笑中邂逅一段美好时光吧~ ",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "mxtthemeicon",
+		deblocking = 1,
+		order = 139,
+		ids = {
+			339001,
+			339002,
+			339101,
+			339102,
+			339103,
+			339104,
+			339105,
+			339106,
+			339107,
+			339108,
+			339109,
+			339110,
+			339111,
+			339112,
+			339113,
+			339114
 		}
 	}
 end)()

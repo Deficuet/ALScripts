@@ -21,7 +21,8 @@ pg.dorm3d_favor_trigger.all = {
 	1016,
 	1017,
 	1018,
-	1019
+	1019,
+	1099
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_favor_trigger = {}
@@ -196,6 +197,15 @@ pg.base.dorm3d_favor_trigger = {}
 		type = 3,
 		id = 1019,
 		num = 300,
+		is_daily_max = 0
+	}
+	pg.base.dorm3d_favor_trigger[1099] = {
+		param = 0,
+		effect = "uifx_dorm3d_yinfu01",
+		is_repeat = 1,
+		type = 3,
+		id = 1099,
+		num = 200,
 		is_daily_max = 0
 	}
 end)()

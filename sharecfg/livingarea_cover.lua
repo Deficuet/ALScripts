@@ -22,7 +22,10 @@ pg.livingarea_cover.all = {
 	101203,
 	101401,
 	101402,
-	101403
+	101403,
+	102101,
+	102102,
+	102103
 }
 pg.base = pg.base or {}
 pg.base.livingarea_cover = {}
@@ -253,6 +256,42 @@ pg.base.livingarea_cover = {}
 		desc = "获得后可以在生活区封面功能中解锁枕畔邀约封面",
 		unlock_text = "{namecode:480}宿舍契合度10级解锁",
 		daytime_res = "101403_bg_day",
+		icon = "Props/drom3d_camera1003",
+		get_tips = "获得了新的契合度封面"
+	}
+	pg.base.livingarea_cover[102101] = {
+		rarity = 3,
+		name = "暖意依偎",
+		nighttime_res = "102101_bg_night",
+		id = 102101,
+		icon_res = "102101_icon",
+		desc = "获得后可以在生活区封面功能中解锁暖意依偎封面",
+		unlock_text = "纳希莫夫海军上将宿舍契合度2级解锁",
+		daytime_res = "102101_bg_day",
+		icon = "Props/drom3d_camera1003",
+		get_tips = "获得了新的契合度封面"
+	}
+	pg.base.livingarea_cover[102102] = {
+		rarity = 3,
+		name = "共眠时刻",
+		nighttime_res = "102102_bg_night",
+		id = 102102,
+		icon_res = "102102_icon",
+		desc = "获得后可以在生活区封面功能中解锁共眠时刻封面",
+		unlock_text = "纳希莫夫海军上将宿舍契合度7级解锁",
+		daytime_res = "102102_bg_day",
+		icon = "Props/drom3d_camera1003",
+		get_tips = "获得了新的契合度封面"
+	}
+	pg.base.livingarea_cover[102103] = {
+		rarity = 3,
+		name = "屏息待你",
+		nighttime_res = "102103_bg_night",
+		id = 102103,
+		icon_res = "102103_icon",
+		desc = "获得后可以在生活区封面功能中解锁屏息待你封面",
+		unlock_text = "纳希莫夫海军上将宿舍契合度10级解锁",
+		daytime_res = "102103_bg_day",
 		icon = "Props/drom3d_camera1003",
 		get_tips = "获得了新的契合度封面"
 	}

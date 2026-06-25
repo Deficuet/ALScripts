@@ -800,7 +800,7 @@ function var_0_0.SetCharaCard(arg_31_0)
 			setActive(arg_32_2:Find("tedian"), var_32_3)
 			GetImageSpriteFromAtlasAsync(var_32_4, "", arg_32_2:Find("mask/Dorm3dIconTpl/icon"))
 			setActive(arg_32_2:Find("favor"), var_32_0.type == 2)
-			setText(arg_32_2:Find("name"), var_32_0.name)
+			setScrollText(arg_32_2:Find("name/text"), var_32_0.name)
 
 			local var_32_18 = UIItemList.New(arg_32_2:Find("bubbles/content"), arg_32_2:Find("bubbles/content/tpl"))
 

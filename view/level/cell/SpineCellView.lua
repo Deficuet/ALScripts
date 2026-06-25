@@ -67,14 +67,20 @@ function var_0_0.UnloadSpine(arg_9_0)
 	end
 end
 
-function var_0_0.SetSpineVisible(arg_10_0, arg_10_1)
-	if arg_10_0.spineRole then
-		arg_10_0.spineRole:SetVisible(arg_10_1)
+function var_0_0.UpdateSortingOrder(arg_10_0)
+	local var_10_0 = GetComponent(arg_10_0.tf, typeof(Canvas)).sortingOrder
+
+	arg_10_0.spineRole:SetSortLayer(var_10_0 - 2)
+end
+
+function var_0_0.SetSpineVisible(arg_11_0, arg_11_1)
+	if arg_11_0.spineRole then
+		arg_11_0.spineRole:SetVisible(arg_11_1)
 	end
 end
 
-function var_0_0.ClearSpine(arg_11_0)
-	arg_11_0.UnloadSpine(arg_11_0)
+function var_0_0.ClearSpine(arg_12_0)
+	arg_12_0.UnloadSpine(arg_12_0)
 end
 
 return var_0_0

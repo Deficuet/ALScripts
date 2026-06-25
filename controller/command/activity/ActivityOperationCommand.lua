@@ -148,25 +148,31 @@ function var_0_0.updateActivityData(arg_7_0, arg_7_1, arg_7_2, arg_7_3, arg_7_4)
 		[ActivityConst.ACTIVITY_TYPE_MONTHSIGN] = function()
 			local var_13_0 = pg.TimeMgr.GetInstance():GetServerTime()
 			local var_13_1 = pg.TimeMgr.GetInstance():STimeDescS(var_13_0, "*t")
-			local var_13_2
 
 			if arg_7_3:getSpecialData("reMonthSignDay") ~= nil then
-				var_13_2 = arg_7_3:getSpecialData("reMonthSignDay")
+				day = arg_7_3:getSpecialData("reMonthSignDay")
 				arg_7_3.data3 = arg_7_3.data3 and arg_7_3.data3 + 1 or 1
 			else
-				var_13_2 = var_13_1.day
+				day = var_13_1.day
 			end
 
-			table.insert(arg_7_3.data1_list, var_13_2)
+			arg_7_3:setSpecialData(MonthSignPage.MILESTONE_SPECIAL_DATA, nil)
+			table.insert(arg_7_3.data1_list, day)
 
-			local var_13_3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOGIN_RECORD)
+			local var_13_2 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOGIN_RECORD)
 
-			if var_13_3 and not var_13_3:isEnd() then
-				var_13_3.data1 = var_13_3.data1 + 1
-				var_13_3.data2 = var_13_3.data2 + 1
-				var_13_3.data3 = math.max(var_13_3.data3, var_13_3.data2)
+			if var_13_2 and not var_13_2:isEnd() then
+				var_13_2.data1 = var_13_2.data1 + 1
+				var_13_2.data2 = var_13_2.data2 + 1
+				var_13_2.data3 = math.max(var_13_2.data3, var_13_2.data2)
 
-				getProxy(ActivityProxy):updateActivity(var_13_3)
+				for iter_13_0, iter_13_1 in ipairs(MonthSignPage.MONTH_SIGN_SP_DAYS) do
+					if iter_13_1 == var_13_2.data1 then
+						arg_7_3:setSpecialData(MonthSignPage.MILESTONE_SPECIAL_DATA, iter_13_1)
+					end
+				end
+
+				getProxy(ActivityProxy):updateActivity(var_13_2)
 			end
 
 			getProxy(ActivityProxy):updateActivity(arg_7_3)

@@ -434167,9 +434167,9 @@ end)()
 		},
 		fix_equip_list = {},
 		default_equip_list = {
-			44210,
-			42250,
-			46410
+			24430,
+			21610,
+			26370
 		},
 		depth_charge_list = {},
 		base_list = {
@@ -434317,7 +434317,7 @@ end)()
 		},
 		preload_count = {
 			0,
-			0,
+			2,
 			0
 		},
 		equipment_proficiency = {
@@ -434330,7 +434330,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Plan-Class"
+			"Plan-Class",
+			"Takahashi"
 		},
 		gift_dislike = {
 			180002,

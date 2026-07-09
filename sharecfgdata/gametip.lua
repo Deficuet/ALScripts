@@ -16006,7 +16006,7 @@ end)()
 
 (function()
 	_G.pg.base.gametip.blueprint_simulation_confirm_29906 = {
-		tip = "<size=28>\n是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，\n<color=#ff5c5c>实际性能以获得舰船为准</color>）\n使用装备：<color=#92fc63>\n试作型双联装406mmSKC主炮\n双联装TbtsKC36式150mm主炮\n试作型四联装30mm机炮\n</color></size>"
+		tip = "<size=28>\n是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，\n<color=#ff5c5c>实际性能以获得舰船为准</color>）\n使用装备：<color=#92fc63>\n试作型三联装419mm主炮MK.I\n双联装114mm高平两用炮MarkIV\n20mm厄利孔高射炮MkII\n</color></size>"
 	}
 end)()
 

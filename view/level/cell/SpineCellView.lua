@@ -69,8 +69,6 @@ end
 
 function var_0_0.UpdateSortingOrder(arg_10_0)
 	local var_10_0 = GetComponent(arg_10_0.tf, typeof(Canvas)).sortingOrder
-
-	arg_10_0.spineRole:SetSortLayer(var_10_0 - 2)
 end
 
 function var_0_0.SetSpineVisible(arg_11_0, arg_11_1)

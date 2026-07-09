@@ -22,125 +22,146 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	end
 end
 
-function var_0_0.UpdateActivies(arg_2_0, arg_2_1, arg_2_2)
-	arg_2_0.activityProxy = arg_2_0.activityProxy or getProxy(ActivityProxy)
-
-	local var_2_0 = {}
-
-	for iter_2_0, iter_2_1 in ipairs(arg_2_0.activityProxy:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK)) do
-		local var_2_1 = iter_2_1:getConfig("config_id")
-
-		assert(var_2_1)
-
-		var_2_0[var_2_1] = var_2_0[var_2_1] or arg_2_2:getResource(var_2_1) - arg_2_1:getResource(var_2_1)
-
-		var_0_0.UpdateActivity(iter_2_1, var_2_0[var_2_1])
+local function var_0_1(arg_2_0, arg_2_1, arg_2_2)
+	if arg_2_2 == PlayerConst.ResDiamond then
+		return arg_2_1:getChargeGem() - arg_2_0:getChargeGem()
+	elseif arg_2_2 == PlayerConst.ResFreeDiamond then
+		return arg_2_1:getFreeGem() - arg_2_0:getFreeGem()
 	end
 
-	for iter_2_2, iter_2_3 in ipairs(arg_2_0.activityProxy:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_BOSS_RANK)) do
-		local var_2_2 = iter_2_3:getConfig("config_id")
+	return arg_2_1:getResource(arg_2_2) - arg_2_0:getResource(arg_2_2)
+end
 
-		assert(var_2_2)
+function var_0_0.UpdateActivies(arg_3_0, arg_3_1, arg_3_2)
+	arg_3_0.activityProxy = arg_3_0.activityProxy or getProxy(ActivityProxy)
 
-		var_2_0[var_2_2] = var_2_0[var_2_2] or arg_2_2:getResource(var_2_2) - arg_2_1:getResource(var_2_2)
+	local var_3_0 = {}
 
-		var_0_0.UpdateActivity(iter_2_3, var_2_0[var_2_2])
+	for iter_3_0, iter_3_1 in ipairs(arg_3_0.activityProxy:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK)) do
+		local var_3_1 = iter_3_1:getConfig("config_id")
+
+		assert(var_3_1)
+
+		var_3_0[var_3_1] = var_3_0[var_3_1] or arg_3_2:getResource(var_3_1) - arg_3_1:getResource(var_3_1)
+
+		var_0_0.UpdateActivity(iter_3_1, var_3_0[var_3_1])
 	end
 
-	for iter_2_4, iter_2_5 in ipairs(arg_2_0.activityProxy:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_RETURN_AWARD)) do
-		local var_2_3 = pg.activity_template_headhunting[iter_2_5.id]
+	for iter_3_2, iter_3_3 in ipairs(arg_3_0.activityProxy:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_BOSS_RANK)) do
+		local var_3_2 = iter_3_3:getConfig("config_id")
 
-		assert(var_2_3)
+		assert(var_3_2)
 
-		local var_2_4 = var_2_3.pt
+		var_3_0[var_3_2] = var_3_0[var_3_2] or arg_3_2:getResource(var_3_2) - arg_3_1:getResource(var_3_2)
 
-		var_2_0[var_2_4] = var_2_0[var_2_4] or arg_2_2:getResource(var_2_4) - arg_2_1:getResource(var_2_4)
-
-		var_0_0.UpdateActivity(iter_2_5, var_2_0[var_2_4])
+		var_0_0.UpdateActivity(iter_3_3, var_3_0[var_3_2])
 	end
 
-	for iter_2_6, iter_2_7 in ipairs(arg_2_0.activityProxy:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PIZZA_PT)) do
-		local var_2_5 = iter_2_7:getDataConfig("pt")
+	for iter_3_4, iter_3_5 in ipairs(arg_3_0.activityProxy:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_RETURN_AWARD)) do
+		local var_3_3 = pg.activity_template_headhunting[iter_3_5.id]
 
-		assert(var_2_5)
+		assert(var_3_3)
 
-		var_2_0[var_2_5] = var_2_0[var_2_5] or arg_2_2:getResource(var_2_5) - arg_2_1:getResource(var_2_5)
+		local var_3_4 = var_3_3.pt
 
-		var_0_0.UpdateActivity(iter_2_7, var_2_0[var_2_5])
+		var_3_0[var_3_4] = var_3_0[var_3_4] or arg_3_2:getResource(var_3_4) - arg_3_1:getResource(var_3_4)
+
+		var_0_0.UpdateActivity(iter_3_5, var_3_0[var_3_4])
 	end
 
-	for iter_2_8, iter_2_9 in ipairs(arg_2_0.activityProxy:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF)) do
-		local var_2_6 = iter_2_9:getDataConfig("pt")
+	for iter_3_6, iter_3_7 in ipairs(arg_3_0.activityProxy:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PIZZA_PT)) do
+		local var_3_5 = iter_3_7:getDataConfig("pt")
 
-		if var_2_6 > 0 then
-			assert(var_2_6)
+		assert(var_3_5)
 
-			var_2_0[var_2_6] = var_2_0[var_2_6] or arg_2_2:getResource(var_2_6) - arg_2_1:getResource(var_2_6)
+		var_3_0[var_3_5] = var_3_0[var_3_5] or arg_3_2:getResource(var_3_5) - arg_3_1:getResource(var_3_5)
 
-			var_0_0.UpdateActivity(iter_2_9, var_2_0[var_2_6])
+		var_0_0.UpdateActivity(iter_3_7, var_3_0[var_3_5])
+	end
+
+	for iter_3_8, iter_3_9 in ipairs(arg_3_0.activityProxy:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF)) do
+		local var_3_6 = iter_3_9:getDataConfig("pt")
+
+		if var_3_6 > 0 then
+			assert(var_3_6)
+
+			local var_3_7 = var_3_6 == PlayerConst.ResDiamond and {
+				PlayerConst.ResFreeDiamond,
+				PlayerConst.ResDiamond
+			} or {
+				var_3_6
+			}
+			local var_3_8 = 0
+
+			for iter_3_10, iter_3_11 in ipairs(var_3_7) do
+				var_3_0[iter_3_11] = var_3_0[iter_3_11] or var_0_1(arg_3_1, arg_3_2, iter_3_11)
+				var_3_8 = var_3_8 + var_3_0[iter_3_11]
+			end
+
+			var_0_0.UpdateActivity(iter_3_9, var_3_8)
 		end
 	end
 end
 
-function var_0_0.UpdateActivity(arg_3_0, arg_3_1)
-	local var_3_0 = getProxy(ActivityProxy)
-	local var_3_1 = arg_3_0:getConfig("type")
+function var_0_0.UpdateActivity(arg_4_0, arg_4_1)
+	local var_4_0 = getProxy(ActivityProxy)
+	local var_4_1 = arg_4_0:getConfig("type")
 
-	arg_3_0 = var_3_0:getActivityById(arg_3_0.id)
+	arg_4_0 = var_4_0:getActivityById(arg_4_0.id)
 
-	if var_3_1 == ActivityConst.ACTIVITY_TYPE_PT_RANK then
-		if not arg_3_0:isEnd() and arg_3_1 > 0 then
-			arg_3_0.data1 = arg_3_0.data1 + arg_3_1
+	if var_4_1 == ActivityConst.ACTIVITY_TYPE_PT_RANK then
+		if not arg_4_0:isEnd() and arg_4_1 > 0 then
+			arg_4_0.data1 = arg_4_0.data1 + arg_4_1
 
-			var_3_0:updateActivity(arg_3_0)
+			var_4_0:updateActivity(arg_4_0)
 		end
-	elseif var_3_1 == ActivityConst.ACTIVITY_TYPE_BOSS_RANK then
-		if arg_3_1 ~= 0 then
-			arg_3_0.data1 = arg_3_0.data1 + arg_3_1
+	elseif var_4_1 == ActivityConst.ACTIVITY_TYPE_BOSS_RANK then
+		if arg_4_1 ~= 0 then
+			arg_4_0.data1 = arg_4_0.data1 + arg_4_1
 
-			var_3_0:updateActivity(arg_3_0)
+			var_4_0:updateActivity(arg_4_0)
 		end
-	elseif var_3_1 == ActivityConst.ACTIVITY_TYPE_RETURN_AWARD then
-		local var_3_2 = pg.activity_template_headhunting[arg_3_0.id]
+	elseif var_4_1 == ActivityConst.ACTIVITY_TYPE_RETURN_AWARD then
+		local var_4_2 = pg.activity_template_headhunting[arg_4_0.id]
 
-		assert(var_3_2)
+		assert(var_4_2)
 
-		if arg_3_1 ~= 0 then
-			arg_3_0.data3 = arg_3_0.data3 + arg_3_1
+		if arg_4_1 ~= 0 then
+			arg_4_0.data3 = arg_4_0.data3 + arg_4_1
 
-			var_3_0:updateActivity(arg_3_0)
+			var_4_0:updateActivity(arg_4_0)
 		end
-	elseif var_3_1 == ActivityConst.ACTIVITY_TYPE_PIZZA_PT then
-		local var_3_3 = arg_3_0:getDataConfig("pt")
+	elseif var_4_1 == ActivityConst.ACTIVITY_TYPE_PIZZA_PT then
+		local var_4_3 = arg_4_0:getDataConfig("pt")
 
-		if arg_3_0:getDataConfig("type") == 1 then
-			arg_3_1 = math.max(arg_3_1, 0)
-		elseif arg_3_0:getDataConfig("type") == 2 then
-			arg_3_1 = math.min(arg_3_1, 0)
+		if arg_4_0:getDataConfig("type") == 1 then
+			arg_4_1 = math.max(arg_4_1, 0)
+		elseif arg_4_0:getDataConfig("type") == 2 then
+			arg_4_1 = math.min(arg_4_1, 0)
 		else
-			arg_3_1 = 0
+			arg_4_1 = 0
 		end
 
-		if not arg_3_0:isEnd() and arg_3_1 ~= 0 then
-			arg_3_0.data1 = arg_3_0.data1 + math.abs(arg_3_1)
+		if not arg_4_0:isEnd() and arg_4_1 ~= 0 then
+			arg_4_0.data1 = arg_4_0.data1 + math.abs(arg_4_1)
 
-			var_3_0:updateActivity(arg_3_0)
+			var_4_0:updateActivity(arg_4_0)
 		end
-	elseif var_3_1 == ActivityConst.ACTIVITY_TYPE_PT_BUFF and arg_3_0:getDataConfig("pt") > 0 then
-		local var_3_4 = arg_3_0:getDataConfig("type") == 2
+	elseif var_4_1 == ActivityConst.ACTIVITY_TYPE_PT_BUFF and arg_4_0:getDataConfig("pt") > 0 then
+		local var_4_4 = arg_4_0:getDataConfig("type") == 2
 
-		if arg_3_0:getDataConfig("type") == 1 then
-			arg_3_1 = math.max(arg_3_1, 0)
-		elseif var_3_4 then
-			arg_3_1 = math.min(arg_3_1, 0)
+		if arg_4_0:getDataConfig("type") == 1 then
+			arg_4_1 = math.max(arg_4_1, 0)
+		elseif var_4_4 then
+			arg_4_1 = math.min(arg_4_1, 0)
 		else
-			arg_3_1 = 0
+			arg_4_1 = 0
 		end
 
-		if not arg_3_0:isEnd() and (arg_3_1 > 0 or var_3_4) then
-			arg_3_0.data1 = arg_3_0.data1 + math.abs(arg_3_1)
+		if not arg_4_0:isEnd() and (arg_4_1 > 0 or var_4_4) then
+			arg_4_0.data1 = arg_4_0.data1 + math.abs(arg_4_1)
 
-			var_3_0:updateActivity(arg_3_0)
+			var_4_0:updateActivity(arg_4_0)
 		end
 	end
 end

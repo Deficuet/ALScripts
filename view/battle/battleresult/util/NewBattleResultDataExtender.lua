@@ -25,6 +25,10 @@ function var_0_0.GetAutoSkipFlag(arg_4_0, arg_4_1)
 		return getProxy(ChapterProxy):GetChapterAutoFlag(var_4_0.id) == 1
 	elseif arg_4_1 == SYSTEM_WORLD then
 		return nowWorld().isAutoFight
+	elseif arg_4_1 == SYSTEM_TEST then
+		local var_4_1 = InDebugBattleLoop
+
+		return tobool(var_4_1)
 	end
 
 	return arg_4_0.autoSkipFlag or false

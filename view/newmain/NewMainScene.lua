@@ -2,24 +2,24 @@ local var_0_0 = class("NewMainScene", import("..base.BaseUI"))
 
 var_0_0.THEME_CLASSIC = 1
 var_0_0.THEME_MELLOW = 2
-var_0_0.OPEN_LIVEAREA = "NewMainScene:OPEN_LIVEAREA"
-var_0_0.UPDATE_COVER = "NewMainScene:UPDATE_COVER"
-var_0_0.FOLD = "NewMainScene:FOLD"
-var_0_0.HIDE = "NewMainScene:HIDE"
-var_0_0.CHAT_STATE_CHANGE = "NewMainScene:CHAT_STATE_CHANGE"
-var_0_0.ON_CHANGE_SKIN = "NewMainScene:ON_CHANGE_SKIN"
-var_0_0.ON_BUFF_DESC = "NewMainScene:ON_BUFF_DESC"
-var_0_0.ON_SKIN_FREEUSAGE_DESC = "NewMainScene:ON_SKIN_FREEUSAGE_DESC"
-var_0_0.ENABLE_PAITING_MOVE = "NewMainScene:ENABLE_PAITING_MOVE"
-var_0_0.ENABLE_PAITING_SCALE = "NewMainScene:ENABLE_PAITING_SCALE"
-var_0_0.SAVE_PART_SCALE = "NewMainScene:SAVE_PART_SCALE"
-var_0_0.RESET_PAITING_SCALE = "NewMainScene:RESET_PAITING_SCALE"
-var_0_0.SET_SCALE_PART_CONTENT = "NewMainScene:SET_SCALE_PART_CONTENT"
-var_0_0.ON_ENTER_DONE = "NewMainScene:ON_ENTER_DONE"
-var_0_0.ENTER_SILENT_VIEW = "NewMainScene:ENTER_SILENT_VIEW"
-var_0_0.EXIT_SILENT_VIEW = "NewMainScene:EXIT_SILENT_VIEW"
-var_0_0.L2D_BOUND_CHANGE = "NewMainScene:L2D_BOUND_CHANGE"
-var_0_0.RESET_L2D = "NewMainScene:RESET_L2D"
+var_0_0.OPEN_LIVEAREA = "NewMainScene.OPEN_LIVEAREA"
+var_0_0.UPDATE_COVER = "NewMainScene.UPDATE_COVER"
+var_0_0.FOLD = "NewMainScene.FOLD"
+var_0_0.HIDE = "NewMainScene.HIDE"
+var_0_0.CHAT_STATE_CHANGE = "NewMainScene.CHAT_STATE_CHANGE"
+var_0_0.ON_CHANGE_SKIN = "NewMainScene.ON_CHANGE_SKIN"
+var_0_0.ON_BUFF_DESC = "NewMainScene.ON_BUFF_DESC"
+var_0_0.ON_SKIN_FREEUSAGE_DESC = "NewMainScene.ON_SKIN_FREEUSAGE_DESC"
+var_0_0.ENABLE_PAITING_MOVE = "NewMainScene.ENABLE_PAITING_MOVE"
+var_0_0.ENABLE_PAITING_SCALE = "NewMainScene.ENABLE_PAITING_SCALE"
+var_0_0.SAVE_PART_SCALE = "NewMainScene.SAVE_PART_SCALE"
+var_0_0.RESET_PAITING_SCALE = "NewMainScene.RESET_PAITING_SCALE"
+var_0_0.SET_SCALE_PART_CONTENT = "NewMainScene.SET_SCALE_PART_CONTENT"
+var_0_0.ON_ENTER_DONE = "NewMainScene.ON_ENTER_DONE"
+var_0_0.ENTER_SILENT_VIEW = "NewMainScene.ENTER_SILENT_VIEW"
+var_0_0.EXIT_SILENT_VIEW = "NewMainScene.EXIT_SILENT_VIEW"
+var_0_0.L2D_BOUND_CHANGE = "NewMainScene.L2D_BOUND_CHANGE"
+var_0_0.RESET_L2D = "NewMainScene.RESET_L2D"
 
 function var_0_0.getUIName(arg_1_0)
 	return "NewMainUI"
@@ -372,42 +372,49 @@ function var_0_0.SetUp(arg_41_0, arg_41_1, arg_41_2)
 
 	seriesAsync({
 		function(arg_42_0)
-			arg_41_0.awakeSequenceView:Execute(arg_42_0)
+			if arg_41_0:CheckDebugBattleLoop() then
+				return
+			else
+				arg_42_0()
+			end
 		end,
 		function(arg_43_0)
+			arg_41_0.awakeSequenceView:Execute(arg_43_0)
+		end,
+		function(arg_44_0)
 			var_41_0 = arg_41_0:GetFlagShip()
 
 			arg_41_0.bgView:Init(var_41_0)
-			onNextTick(arg_43_0)
-		end,
-		function(arg_44_0)
-			arg_41_0.theme = arg_41_0.themes[arg_41_0:GetThemeStyle()]
-
-			arg_41_0.theme:ExecuteAction("Show", arg_44_0)
+			onNextTick(arg_44_0)
 		end,
 		function(arg_45_0)
-			onNextTick(arg_45_0)
+			arg_41_0.theme = arg_41_0.themes[arg_41_0:GetThemeStyle()]
+
+			arg_41_0.theme:ExecuteAction("Show", arg_45_0)
 		end,
 		function(arg_46_0)
+			onNextTick(arg_46_0)
+		end,
+		function(arg_47_0)
 			arg_41_0.isInit = true
 
-			arg_41_0.theme:PlayEnterAnimation(var_41_0, arg_46_0)
+			arg_41_0.theme:PlayEnterAnimation(var_41_0, arg_47_0)
 
-			local var_46_0 = arg_41_0.theme:GetPaintingOffset(var_41_0)
+			local var_47_0 = arg_41_0.theme:GetPaintingOffset(var_41_0)
 
-			arg_41_0.paintingView:Init(var_41_0, var_46_0, arg_41_1)
+			arg_41_0.paintingView:Init(var_41_0, var_47_0, arg_41_1)
 
 			arg_41_0.resAnimFlag = true
 		end,
-		function(arg_47_0)
+		function(arg_48_0)
 			arg_41_0:PlayBgm(var_41_0)
 			arg_41_0.effectView:Init(var_41_0)
 			arg_41_0.theme:init(var_41_0)
-			onNextTick(arg_47_0)
+			onNextTick(arg_48_0)
 		end,
-		function(arg_48_0)
+		function(arg_49_0)
 			arg_41_0:ShowOrHideResUI(arg_41_0.theme:ApplyDefaultResUI())
-			arg_41_0.sequenceView:Execute(arg_48_0)
+			arg_41_0.sequenceView:Execute(arg_49_0)
 		end
 	}, function()
 		arg_41_0:SetUpSilentChecker()
@@ -421,254 +428,292 @@ function var_0_0.SetUp(arg_41_0, arg_41_1, arg_41_2)
 	end)
 end
 
-function var_0_0.SetUpSilentChecker(arg_50_0)
-	local var_50_0 = getProxy(SettingsProxy):GetMainSceneScreenSleepTime()
+function var_0_0.SetUpSilentChecker(arg_51_0)
+	local var_51_0 = getProxy(SettingsProxy):GetMainSceneScreenSleepTime()
 
-	arg_50_0.defaultSleepTimeout = Screen.sleepTimeout
-	Screen.sleepTimeout = var_50_0
+	arg_51_0.defaultSleepTimeout = Screen.sleepTimeout
+	Screen.sleepTimeout = var_51_0
 
 	if SettingsMainScenePanel.IsEnableStandbyMode() then
-		arg_50_0.silentChecker:SetUp()
+		arg_51_0.silentChecker:SetUp()
 	end
 end
 
-function var_0_0.RevertSleepTimeout(arg_51_0)
-	if arg_51_0.defaultSleepTimeout and Screen.sleepTimeout ~= arg_51_0.defaultSleepTimeout then
-		Screen.sleepTimeout = arg_51_0.defaultSleepTimeout
+function var_0_0.RevertSleepTimeout(arg_52_0)
+	if arg_52_0.defaultSleepTimeout and Screen.sleepTimeout ~= arg_52_0.defaultSleepTimeout then
+		Screen.sleepTimeout = arg_52_0.defaultSleepTimeout
 	end
 
-	arg_51_0.defaultSleepTimeout = nil
+	arg_52_0.defaultSleepTimeout = nil
 end
 
-function var_0_0.FoldPanels(arg_52_0, arg_52_1)
-	if not arg_52_0.theme then
-		return
-	end
-
-	arg_52_0.foldFlag = arg_52_1
-
-	arg_52_0.theme:OnFoldPanels(arg_52_1)
-	arg_52_0.paintingView:Fold(arg_52_1, 0.5)
-	pg.playerResUI:Fold(arg_52_1, 0.5)
-	arg_52_0:SetEffectPanelVisible(not arg_52_1)
-end
-
-function var_0_0.HidePanel(arg_53_0, arg_53_1)
+function var_0_0.FoldPanels(arg_53_0, arg_53_1)
 	if not arg_53_0.theme then
-		return
-	end
-
-	if arg_53_0.foldFlag == arg_53_1 then
 		return
 	end
 
 	arg_53_0.foldFlag = arg_53_1
 
 	arg_53_0.theme:OnFoldPanels(arg_53_1)
+	arg_53_0.paintingView:Fold(arg_53_1, 0.5)
+	pg.playerResUI:Fold(arg_53_1, 0.5)
+	arg_53_0:SetEffectPanelVisible(not arg_53_1)
+end
 
-	if arg_53_0._asmrTurnning then
-		if arg_53_0.foldFlag == true then
-			pg.playerResUI:Fold(arg_53_1, 0.5)
-		end
-	else
-		pg.playerResUI:Fold(arg_53_1, 0.5)
+function var_0_0.HidePanel(arg_54_0, arg_54_1)
+	if not arg_54_0.theme then
+		return
 	end
 
-	if not arg_53_1 and arg_53_0._asmrTurnning then
-		arg_53_0:SetEffectPanelVisible(false)
+	if arg_54_0.foldFlag == arg_54_1 then
+		return
+	end
+
+	arg_54_0.foldFlag = arg_54_1
+
+	arg_54_0.theme:OnFoldPanels(arg_54_1)
+
+	if arg_54_0._asmrTurnning then
+		if arg_54_0.foldFlag == true then
+			pg.playerResUI:Fold(arg_54_1, 0.5)
+		end
 	else
-		arg_53_0:SetEffectPanelVisible(not arg_53_1)
+		pg.playerResUI:Fold(arg_54_1, 0.5)
+	end
+
+	if not arg_54_1 and arg_54_0._asmrTurnning then
+		arg_54_0:SetEffectPanelVisible(false)
+	else
+		arg_54_0:SetEffectPanelVisible(not arg_54_1)
 	end
 end
 
-function var_0_0.AsmrTurning(arg_54_0, arg_54_1)
-	arg_54_0._asmrTurnning = arg_54_1
+function var_0_0.AsmrTurning(arg_55_0, arg_55_1)
+	arg_55_0._asmrTurnning = arg_55_1
 
-	arg_54_0.paintingView:OnAsmrTurnning(arg_54_1)
-	arg_54_0.theme:OnAsmrTurnning(arg_54_1)
-	arg_54_0.silentChecker:SetSilentRun(not arg_54_1)
+	arg_55_0.paintingView:OnAsmrTurnning(arg_55_1)
+	arg_55_0.theme:OnAsmrTurnning(arg_55_1)
+	arg_55_0.silentChecker:SetSilentRun(not arg_55_1)
 
-	if not arg_54_0._asmrTurnning then
-		arg_54_0:SetUpSilentChecker()
+	if not arg_55_0._asmrTurnning then
+		arg_55_0:SetUpSilentChecker()
 		pg.BgmMgr.GetInstance():ContinuePlay()
 	else
 		pg.BgmMgr.GetInstance():StopPlay()
 	end
 end
 
-function var_0_0.SwitchToNextShip(arg_55_0)
-	if arg_55_0.paintingView:IsLoading() or arg_55_0.bgView:IsLoading() or not arg_55_0.theme then
-		return
-	end
-
-	local var_55_0 = getProxy(PlayerProxy):getRawData():GetNextFlagShip()
-
-	if arg_55_0.bgView.ship:getSkinId() ~= var_55_0:getSkinId() or arg_55_0.bgView.ship.id ~= var_55_0.id then
-		arg_55_0.bgView:Refresh(var_55_0)
-		arg_55_0:PlayBgm(var_55_0)
-		arg_55_0.paintingView:Refresh(var_55_0, arg_55_0.theme:GetPaintingOffset(var_55_0))
-		arg_55_0.effectView:Refresh(var_55_0)
-		arg_55_0.theme:OnSwitchToNextShip(var_55_0)
-	end
-end
-
-function var_0_0.UpdateFlagShip(arg_56_0, arg_56_1, arg_56_2)
+function var_0_0.SwitchToNextShip(arg_56_0)
 	if arg_56_0.paintingView:IsLoading() or arg_56_0.bgView:IsLoading() or not arg_56_0.theme then
 		return
 	end
 
-	local var_56_0 = arg_56_2.callback
+	local var_56_0 = getProxy(PlayerProxy):getRawData():GetNextFlagShip()
 
-	arg_56_0.bgView:Refresh(arg_56_1)
-	arg_56_0:PlayBgm(arg_56_1)
-	arg_56_0.paintingView:SetOnceLoadedCall(var_56_0)
-	arg_56_0.paintingView:Refresh(arg_56_1, arg_56_0.theme:GetPaintingOffset(arg_56_1))
-	arg_56_0.effectView:Refresh(arg_56_1)
-	arg_56_0.theme:OnSwitchToNextShip(arg_56_1)
-end
-
-function var_0_0.PlayChangeSkinActionOut(arg_57_0, arg_57_1)
-	arg_57_0.paintingView:PlayChangeSkinActionOut(arg_57_1)
-end
-
-function var_0_0.PlayChangeSkinActionIn(arg_58_0, arg_58_1)
-	arg_58_0.paintingView:PlayChangeSkinActionIn(arg_58_1)
-end
-
-function var_0_0.CheckAndReplayBgm(arg_59_0)
-	local var_59_0 = arg_59_0:GetFlagShip()
-
-	arg_59_0.theme:Refresh(var_59_0)
-	arg_59_0:PlayBgm(var_59_0)
-end
-
-function var_0_0.SetEffectPanelVisible(arg_60_0, arg_60_1)
-	if arg_60_0.theme then
-		arg_60_0.theme:SetEffectPanelVisible(arg_60_1)
+	if arg_56_0.bgView.ship:getSkinId() ~= var_56_0:getSkinId() or arg_56_0.bgView.ship.id ~= var_56_0.id then
+		arg_56_0.bgView:Refresh(var_56_0)
+		arg_56_0:PlayBgm(var_56_0)
+		arg_56_0.paintingView:Refresh(var_56_0, arg_56_0.theme:GetPaintingOffset(var_56_0))
+		arg_56_0.effectView:Refresh(var_56_0)
+		arg_56_0.theme:OnSwitchToNextShip(var_56_0)
 	end
 end
 
-function var_0_0.OnVisible(arg_61_0)
-	arg_61_0:RevertAsmrShip()
+function var_0_0.UpdateFlagShip(arg_57_0, arg_57_1, arg_57_2)
+	if arg_57_0.paintingView:IsLoading() or arg_57_0.bgView:IsLoading() or not arg_57_0.theme then
+		return
+	end
 
-	local var_61_0 = arg_61_0.themes[arg_61_0:GetThemeStyle()]
+	local var_57_0 = arg_57_2.callback
 
-	if not (not arg_61_0.theme or var_61_0 ~= arg_61_0.theme) then
-		arg_61_0:Refresh()
+	arg_57_0.bgView:Refresh(arg_57_1)
+	arg_57_0:PlayBgm(arg_57_1)
+	arg_57_0.paintingView:SetOnceLoadedCall(var_57_0)
+	arg_57_0.paintingView:Refresh(arg_57_1, arg_57_0.theme:GetPaintingOffset(arg_57_1))
+	arg_57_0.effectView:Refresh(arg_57_1)
+	arg_57_0.theme:OnSwitchToNextShip(arg_57_1)
+end
+
+function var_0_0.CheckDebugBattleLoop(arg_58_0)
+	if not InDebugBattleLoop then
+		return false
+	end
+
+	local var_58_0 = InDebugBattleLoop
+
+	if #var_58_0.tempList == 0 then
+		if #var_58_0.loopStages > 0 then
+			local var_58_1 = table.remove(var_58_0.loopStages, 1)
+
+			for iter_58_0 = 1, var_58_0.loopCount do
+				table.insert(var_58_0.tempList, var_58_1)
+			end
+		else
+			InDebugBattleLoop = nil
+
+			pg.TipsMgr.GetInstance():ShowTips("finish")
+
+			return false
+		end
+	end
+
+	local var_58_2 = table.remove(var_58_0.tempList, 1)
+
+	print(string.format("【正在执行关卡%s的第%d次战斗循环】", var_58_2, var_58_0.loopCount - #var_58_0.tempList))
+	arg_58_0:emit(NewMainMediator.DEBUG_BATTLE_LOOP, var_58_2)
+
+	return true
+end
+
+function var_0_0.PlayChangeSkinActionOut(arg_59_0, arg_59_1)
+	arg_59_0.paintingView:PlayChangeSkinActionOut(arg_59_1)
+end
+
+function var_0_0.PlayChangeSkinActionIn(arg_60_0, arg_60_1)
+	arg_60_0.paintingView:PlayChangeSkinActionIn(arg_60_1)
+end
+
+function var_0_0.CheckAndReplayBgm(arg_61_0)
+	local var_61_0 = arg_61_0:GetFlagShip()
+
+	arg_61_0.theme:Refresh(var_61_0)
+	arg_61_0:PlayBgm(var_61_0)
+end
+
+function var_0_0.SetEffectPanelVisible(arg_62_0, arg_62_1)
+	if arg_62_0.theme then
+		arg_62_0.theme:SetEffectPanelVisible(arg_62_1)
+	end
+end
+
+function var_0_0.OnVisible(arg_63_0)
+	arg_63_0:RevertAsmrShip()
+
+	local var_63_0 = arg_63_0.themes[arg_63_0:GetThemeStyle()]
+
+	if not (not arg_63_0.theme or var_63_0 ~= arg_63_0.theme) then
+		arg_63_0:Refresh()
 	else
-		arg_61_0:UnloadTheme()
-		arg_61_0:SetUp(true)
+		arg_63_0:UnloadTheme()
+		arg_63_0:SetUp(true)
 	end
 end
 
-function var_0_0.Refresh(arg_62_0)
-	arg_62_0.mainCG.blocksRaycasts = false
+function var_0_0.Refresh(arg_64_0)
+	arg_64_0.mainCG.blocksRaycasts = false
 
 	seriesAsync({
-		function(arg_63_0)
-			arg_62_0.awakeSequenceView:Execute(arg_63_0)
-		end,
-		function(arg_64_0)
-			arg_62_0.isInit = true
-
-			arg_62_0:ShowOrHideResUI(arg_62_0.theme:ApplyDefaultResUI())
-
-			local var_64_0 = arg_62_0:GetFlagShip()
-
-			arg_62_0.bgView:Refresh(var_64_0)
-			arg_62_0.paintingView:Refresh(var_64_0, arg_62_0.theme:GetPaintingOffset(var_64_0))
-			arg_62_0.effectView:Refresh(var_64_0)
-			arg_62_0.theme:Refresh(var_64_0)
-			arg_62_0:PlayBgm(var_64_0)
-			arg_64_0()
-		end,
 		function(arg_65_0)
-			arg_62_0.sequenceView:Execute(arg_65_0)
+			if arg_64_0:CheckDebugBattleLoop() then
+				return
+			else
+				arg_65_0()
+			end
+		end,
+		function(arg_66_0)
+			arg_64_0.awakeSequenceView:Execute(arg_66_0)
+		end,
+		function(arg_67_0)
+			arg_64_0.isInit = true
+
+			arg_64_0:ShowOrHideResUI(arg_64_0.theme:ApplyDefaultResUI())
+
+			local var_67_0 = arg_64_0:GetFlagShip()
+
+			arg_64_0.bgView:Refresh(var_67_0)
+			arg_64_0.paintingView:Refresh(var_67_0, arg_64_0.theme:GetPaintingOffset(var_67_0))
+			arg_64_0.effectView:Refresh(var_67_0)
+			arg_64_0.theme:Refresh(var_67_0)
+			arg_64_0:PlayBgm(var_67_0)
+			arg_67_0()
+		end,
+		function(arg_68_0)
+			arg_64_0.sequenceView:Execute(arg_68_0)
 		end
 	}, function()
-		arg_62_0:SetUpSilentChecker()
-		arg_62_0:emit(NewMainScene.ON_ENTER_DONE)
+		arg_64_0:SetUpSilentChecker()
+		arg_64_0:emit(NewMainScene.ON_ENTER_DONE)
 
-		arg_62_0.mainCG.blocksRaycasts = true
+		arg_64_0.mainCG.blocksRaycasts = true
 	end)
 end
 
-function var_0_0.OnDisVisible(arg_67_0)
-	arg_67_0:FoldPanels(false)
-	arg_67_0.paintingView:Disable()
-	arg_67_0.bgView:Disable()
-	arg_67_0.sequenceView:Disable()
-	arg_67_0.awakeSequenceView:Disable()
+function var_0_0.OnDisVisible(arg_70_0)
+	arg_70_0:FoldPanels(false)
+	arg_70_0.paintingView:Disable()
+	arg_70_0.bgView:Disable()
+	arg_70_0.sequenceView:Disable()
+	arg_70_0.awakeSequenceView:Disable()
 
-	if arg_67_0.theme then
-		arg_67_0.theme:Disable()
+	if arg_70_0.theme then
+		arg_70_0.theme:Disable()
 	end
 
-	arg_67_0.buffDescPage:Disable()
-	arg_67_0.silentChecker:Disable()
+	arg_70_0.buffDescPage:Disable()
+	arg_70_0.silentChecker:Disable()
 
-	if arg_67_0.silentView and arg_67_0.silentView:isShowing() then
-		arg_67_0:ExitSilentView()
-	end
-
-	arg_67_0.calibrationPage:Destroy()
-	arg_67_0.calibrationPage:Reset()
-	arg_67_0.skinExperienceDisplayPage:Destroy()
-	arg_67_0.skinExperienceDisplayPage:Reset()
-	arg_67_0.liveAreaPage:Destroy()
-	arg_67_0.liveAreaPage:Reset()
-
-	arg_67_0.isInit = false
-
-	arg_67_0:RevertSleepTimeout()
-	arg_67_0:RevertAsmrShip()
-end
-
-function var_0_0.UnloadTheme(arg_68_0)
-	if arg_68_0.theme then
-		arg_68_0.theme:Destroy()
-		arg_68_0.theme:Reset()
-
-		arg_68_0.theme = nil
-	end
-end
-
-function var_0_0.ExitCalibrationView(arg_69_0)
-	if arg_69_0.calibrationPage and arg_69_0.calibrationPage:GetLoaded() and arg_69_0.calibrationPage:isShowing() then
-		triggerButton(arg_69_0.calibrationPage.backBtn)
-	end
-end
-
-function var_0_0.ExitSilentView(arg_70_0)
 	if arg_70_0.silentView and arg_70_0.silentView:isShowing() then
-		arg_70_0:FoldPanels(false)
-		arg_70_0.silentView:Destroy()
-		arg_70_0.silentView:Reset()
+		arg_70_0:ExitSilentView()
+	end
+
+	arg_70_0.calibrationPage:Destroy()
+	arg_70_0.calibrationPage:Reset()
+	arg_70_0.skinExperienceDisplayPage:Destroy()
+	arg_70_0.skinExperienceDisplayPage:Reset()
+	arg_70_0.liveAreaPage:Destroy()
+	arg_70_0.liveAreaPage:Reset()
+
+	arg_70_0.isInit = false
+
+	arg_70_0:RevertSleepTimeout()
+	arg_70_0:RevertAsmrShip()
+end
+
+function var_0_0.UnloadTheme(arg_71_0)
+	if arg_71_0.theme then
+		arg_71_0.theme:Destroy()
+		arg_71_0.theme:Reset()
+
+		arg_71_0.theme = nil
 	end
 end
 
-function var_0_0.GameLogout(arg_71_0)
-	arg_71_0:ExitCalibrationView()
-	arg_71_0:ExitSilentView()
+function var_0_0.ExitCalibrationView(arg_72_0)
+	if arg_72_0.calibrationPage and arg_72_0.calibrationPage:GetLoaded() and arg_72_0.calibrationPage:isShowing() then
+		triggerButton(arg_72_0.calibrationPage.backBtn)
+	end
 end
 
-function var_0_0.onBackPressed(arg_72_0)
+function var_0_0.ExitSilentView(arg_73_0)
+	if arg_73_0.silentView and arg_73_0.silentView:isShowing() then
+		arg_73_0:FoldPanels(false)
+		arg_73_0.silentView:Destroy()
+		arg_73_0.silentView:Reset()
+	end
+end
+
+function var_0_0.GameLogout(arg_74_0)
+	arg_74_0:ExitCalibrationView()
+	arg_74_0:ExitSilentView()
+end
+
+function var_0_0.onBackPressed(arg_75_0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
-	if arg_72_0.silentView and arg_72_0.silentView:isShowing() then
-		arg_72_0:ExitSilentView()
+	if arg_75_0.silentView and arg_75_0.silentView:isShowing() then
+		arg_75_0:ExitSilentView()
 
 		return
 	end
 
-	if arg_72_0.liveAreaPage and arg_72_0.liveAreaPage:GetLoaded() and arg_72_0.liveAreaPage:isShowing() then
-		arg_72_0.liveAreaPage:Hide()
+	if arg_75_0.liveAreaPage and arg_75_0.liveAreaPage:GetLoaded() and arg_75_0.liveAreaPage:isShowing() then
+		arg_75_0.liveAreaPage:Hide()
 
 		return
 	end
 
-	if arg_72_0.calibrationPage and arg_72_0.calibrationPage:GetLoaded() and arg_72_0.calibrationPage:isShowing() then
-		triggerButton(arg_72_0.calibrationPage._parentTf)
+	if arg_75_0.calibrationPage and arg_75_0.calibrationPage:GetLoaded() and arg_75_0.calibrationPage:isShowing() then
+		triggerButton(arg_75_0.calibrationPage._parentTf)
 
 		return
 	end
@@ -677,62 +722,62 @@ function var_0_0.onBackPressed(arg_72_0)
 	pg.PushNotificationMgr.GetInstance():PushAll()
 end
 
-function var_0_0.willExit(arg_73_0)
-	arg_73_0.bgView:Dispose()
+function var_0_0.willExit(arg_76_0)
+	arg_76_0.bgView:Dispose()
 
-	arg_73_0.bgView = nil
+	arg_76_0.bgView = nil
 
-	arg_73_0:UnloadTheme()
+	arg_76_0:UnloadTheme()
 
-	if arg_73_0.calibrationPage then
-		arg_73_0.calibrationPage:Destroy()
+	if arg_76_0.calibrationPage then
+		arg_76_0.calibrationPage:Destroy()
 
-		arg_73_0.calibrationPage = nil
+		arg_76_0.calibrationPage = nil
 	end
 
-	if arg_73_0.silentView then
-		arg_73_0.silentView:Destroy()
+	if arg_76_0.silentView then
+		arg_76_0.silentView:Destroy()
 
-		arg_73_0.silentView = nil
+		arg_76_0.silentView = nil
 	end
 
-	arg_73_0.paintingView:Dispose()
+	arg_76_0.paintingView:Dispose()
 
-	arg_73_0.paintingView = nil
+	arg_76_0.paintingView = nil
 
-	arg_73_0.liveAreaPage:Destroy()
+	arg_76_0.liveAreaPage:Destroy()
 
-	arg_73_0.liveAreaPage = nil
+	arg_76_0.liveAreaPage = nil
 
-	arg_73_0.sequenceView:Dispose()
+	arg_76_0.sequenceView:Dispose()
 
-	arg_73_0.sequenceView = nil
+	arg_76_0.sequenceView = nil
 
-	arg_73_0.awakeSequenceView:Dispose()
+	arg_76_0.awakeSequenceView:Dispose()
 
-	arg_73_0.awakeSequenceView = nil
+	arg_76_0.awakeSequenceView = nil
 
-	arg_73_0.effectView:Dispose()
+	arg_76_0.effectView:Dispose()
 
-	arg_73_0.effectView = nil
+	arg_76_0.effectView = nil
 
-	pg.m02:removeMediator(arg_73_0.subMediator.__cname)
+	pg.m02:removeMediator(arg_76_0.subMediator.__cname)
 
-	arg_73_0.subMediator = nil
+	arg_76_0.subMediator = nil
 
-	arg_73_0.buffDescPage:Destroy()
+	arg_76_0.buffDescPage:Destroy()
 
-	arg_73_0.buffDescPage = nil
+	arg_76_0.buffDescPage = nil
 
-	arg_73_0.silentChecker:Dispose()
+	arg_76_0.silentChecker:Dispose()
 
-	arg_73_0.silentChecker = nil
+	arg_76_0.silentChecker = nil
 
-	arg_73_0.skinExperienceDisplayPage:Destroy()
+	arg_76_0.skinExperienceDisplayPage:Destroy()
 
-	arg_73_0.skinExperienceDisplayPage = nil
+	arg_76_0.skinExperienceDisplayPage = nil
 
-	arg_73_0:RevertSleepTimeout()
+	arg_76_0:RevertSleepTimeout()
 end
 
 return var_0_0

@@ -142,27 +142,26 @@ function var_0_0.OnShootLogic(arg_16_0, arg_16_1)
 		end) then
 			arg_16_0:GenerateDecalAtScreenCenter(arg_16_0.selectedCarDecalType, var_16_2)
 		end
-	end
 
-	for iter_16_2, iter_16_3 in ipairs(var_16_6) do
-		local var_16_12 = CarWashConst.GetStainsConfig(iter_16_3.decalType)
+		for iter_16_2, iter_16_3 in ipairs(var_16_6) do
+			local var_16_12 = CarWashConst.GetStainsConfig(iter_16_3.decalType)
 
-		if var_16_12 then
-			local var_16_13 = 0
-			local var_16_14 = arg_16_0.currentGunType == var_16_12.targetGunType
-			local var_16_15 = var_16_12.coverDecal and _.any(var_16_6, function(arg_19_0)
-				return arg_19_0.decalType == var_16_12.coverDecal
-			end)
-			local var_16_16 = var_16_13 + (var_16_14 and var_16_12.fadePerSec or 0) + (var_16_14 and var_16_15 and var_16_12.coverBuff or 0)
+			if var_16_12 then
+				local var_16_13 = 0
+				local var_16_14 = arg_16_0.currentGunType == var_16_12.targetGunType
+				local var_16_15 = var_16_12.coverDecal and _.any(var_16_6, function(arg_19_0)
+					return arg_19_0.decalType == var_16_12.coverDecal
+				end)
+				local var_16_16 = var_16_13 + (var_16_14 and var_16_12.fadePerSec or 0) + (var_16_14 and var_16_15 and var_16_12.coverBuff or 0)
 
-			if var_16_16 > 0 then
-				iter_16_3:SetAlpha(iter_16_3.Alpha - var_16_16 * var_0_0.ON_SHOOT_INTERVAL)
-				warning(string.format("Decal %s alpha: %f", iter_16_3.name, iter_16_3.Alpha))
-			end
+				if var_16_16 > 0 then
+					iter_16_3:SetAlpha(iter_16_3.Alpha - var_16_16 * var_0_0.ON_SHOOT_INTERVAL)
+				end
 
-			if iter_16_3.Alpha <= 0 then
-				StaticDecalSpawner.Despawn(iter_16_3)
-				arg_16_0:Emit(CarWashGameFlowSystem.DECREASE_STAINS_COUNT, 1)
+				if iter_16_3.Alpha <= 0 then
+					StaticDecalSpawner.Despawn(iter_16_3)
+					arg_16_0:Emit(CarWashGameFlowSystem.DECREASE_STAINS_COUNT, 1)
+				end
 			end
 		end
 	end
@@ -179,8 +178,6 @@ function var_0_0.GetCapsuleColliderRadius(arg_21_0, arg_21_1)
 	if var_21_0 then
 		var_21_1 = var_21_0.radius * 2 - 0.01
 	end
-
-	warning("CapsuleCollider not found on characterTf: " .. arg_21_1.name .. "use default radius")
 
 	return math.min(var_21_1, CarWashConst.DEFAULT_LADY_DECAL_SIZE)
 end

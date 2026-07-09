@@ -38,10 +38,11 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
+				quota = 1,
+				hpSigned = 0,
 				hpUpperBound = 0.3,
-				hpLowerBound = 0,
 				skill_id = 152304,
-				hpSigned = 0
+				hpLowerBound = 0
 			}
 		}
 	},

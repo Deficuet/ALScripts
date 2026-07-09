@@ -311,6 +311,7 @@ local var_0_1 = {
 	"CampFF",
 	"CampMNF",
 	"CampNL",
+	"CampLDP",
 	"CampMETA",
 	"CampMot",
 	"CampOther"
@@ -344,6 +345,7 @@ var_0_0.CampNames = {
 	"word_shipNation_ziyou",
 	"word_shipNation_weixi",
 	"word_shipNation_yujinwangguo",
+	"word_shipNation_jinghuanlianmeng",
 	"word_shipNation_meta_index",
 	"word_shipNation_mot",
 	"word_shipNation_other"

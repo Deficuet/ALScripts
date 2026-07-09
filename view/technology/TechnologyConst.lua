@@ -27,7 +27,8 @@ var_0_0.NationOrder = {
 	Nation.FF,
 	Nation.MNF,
 	Nation.ITA,
-	Nation.NL
+	Nation.NL,
+	Nation.LDP
 }
 var_0_0.NationResName = {
 	"nation_all_",
@@ -40,7 +41,8 @@ var_0_0.NationResName = {
 	"nation_ziyou_",
 	"nation_weixi_",
 	"nation_sading_",
-	"nation_yujinwangguo_"
+	"nation_yujinwangguo_",
+	"nation_jinghuanlianmeng_"
 }
 
 if LOCK_NATION_HNLMS then

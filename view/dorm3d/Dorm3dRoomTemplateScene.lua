@@ -727,7 +727,7 @@ function var_0_0.LoadSingleCharacter(arg_54_0, arg_54_1, arg_54_2)
 					configId = iter_54_3
 				})
 
-				if var_54_7:IsShow() then
+				if var_54_7:IsShow() or iter_54_3 == 199033 then
 					local var_54_8 = var_54_7:GetModelName()
 					local var_54_9 = string.format("dorm3d/character/%s/prefabs/%s", var_54_3, var_54_8)
 
@@ -1841,17 +1841,19 @@ function var_0_0.HideCharacterBylayer(arg_180_0, arg_180_1)
 		local var_180_2 = var_180_1:GetChild(iter_180_0)
 
 		if var_180_2.name ~= var_180_0 then
-			pg.ViewUtils.SetLayer(var_180_2, Layer.Environment3D)
+			pg.ViewUtils.SetLayer(var_180_2, Layer.UIHidden)
 		end
 	end
 
 	if arg_180_1.tfPendintItem then
-		pg.ViewUtils.SetLayer(arg_180_1.tfPendintItem, Layer.Environment3D)
+		pg.ViewUtils.SetLayer(arg_180_1.tfPendintItem, Layer.UIHidden)
 	end
 
 	if arg_180_1.ladyWatchFloat then
-		pg.ViewUtils.SetLayer(arg_180_1.ladyWatchFloat, Layer.Environment3D)
+		pg.ViewUtils.SetLayer(arg_180_1.ladyWatchFloat, Layer.UIHidden)
 	end
+
+	Dorm3dHxHelper.SetModelHolyLightActive(arg_180_1.lady, arg_180_0.holyLightRoot, false)
 end
 
 function var_0_0.RevertCharacterBylayer(arg_181_0, arg_181_1)
@@ -1873,6 +1875,8 @@ function var_0_0.RevertCharacterBylayer(arg_181_0, arg_181_1)
 	if arg_181_1.ladyWatchFloat then
 		pg.ViewUtils.SetLayer(arg_181_1.ladyWatchFloat, Layer.Default)
 	end
+
+	Dorm3dHxHelper.SetModelHolyLightActive(arg_181_1.lady, arg_181_0.holyLightRoot, true)
 end
 
 function var_0_0.EnterFurnitureWatchMode(arg_182_0)

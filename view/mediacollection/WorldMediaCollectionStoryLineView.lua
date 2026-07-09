@@ -46,6 +46,10 @@ var_0_0.NATION_LIST = {
 		name = "word_shipNation_yujinwangguo"
 	},
 	{
+		key = 12,
+		name = "word_shipNation_jinghuanlianmeng"
+	},
+	{
 		key = 97,
 		name = "word_shipNation_meta_index"
 	}

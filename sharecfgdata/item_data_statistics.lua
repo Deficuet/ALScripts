@@ -10655,6 +10655,198 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_data_statistics[13056] = {
+		open_directly = 0,
+		name = "试作型三联装419mm主炮MK.IT0设计图",
+		display = "试作型三联装419mm主炮MK.IT0设计图",
+		type = 9,
+		display_effect = "",
+		id = 13056,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Equips/24420",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[13057] = {
+		open_directly = 0,
+		name = "试作型双联装127mm高平两用炮Mk16T0设计图",
+		display = "试作型双联装127mm高平两用炮Mk16T0设计图",
+		type = 9,
+		display_effect = "",
+		id = 13057,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Equips/11280",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[13058] = {
+		open_directly = 0,
+		name = "试作型四联装610mm鱼雷（巡洋用）T0设计图",
+		display = "试作型四联装610mm鱼雷（巡洋用）T0设计图",
+		type = 9,
+		display_effect = "",
+		id = 13058,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Equips/35280",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[13059] = {
+		open_directly = 0,
+		name = "试作型双联装127mm主炮Mle1948T0设计图",
+		display = "试作型双联装127mm主炮Mle1948T0设计图",
+		type = 9,
+		display_effect = "",
+		id = 13059,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Equips/51400",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[13060] = {
+		open_directly = 0,
+		name = "试作型三联装550mm鱼雷改（弹药调整）T0设计图",
+		display = "试作型三联装550mm鱼雷改（弹药调整）T0设计图",
+		type = 9,
+		display_effect = "",
+		id = 13060,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Equips/5680",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[13061] = {
+		open_directly = 0,
+		name = "试作舰载型Ta 152C-1/R14T0设计图",
+		display = "试作舰载型Ta 152C-1/R14T0设计图",
+		type = 9,
+		display_effect = "",
+		id = 13061,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Equips/49080",
+		order = 0,
+		rarity = 5,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_data_statistics[14001] = {
 		open_directly = 0,
 		name = "原型科研图纸·S-I",
@@ -11329,6 +11521,90 @@ end)()
 			{
 				2,
 				13054,
+				1
+			}
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[14009] = {
+		open_directly = 0,
+		name = "原型科研图纸·S-IX",
+		display = "使用后可从超稀有科研装备(IX期)的设计图中任意选择一张\n兑换列表如下：\n「试作型三联装419mm主炮MK.IT0设计图」\n「试作型双联装127mm高平两用炮Mk16T0设计图」\n「试作型四联装610mm鱼雷（巡洋用）T0设计图」\n「试作型双联装127mm主炮Mle1948T0设计图」\n「试作型三联装550mm鱼雷改（弹药调整）T0设计图」\n",
+		type = 13,
+		display_effect = "",
+		id = 14009,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop_appointed",
+		link_id = 0,
+		icon = "Props/14009",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				13056,
+				1
+			},
+			{
+				2,
+				13057,
+				1
+			},
+			{
+				2,
+				13058,
+				1
+			},
+			{
+				2,
+				13059,
+				1
+			},
+			{
+				2,
+				13060,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			{
+				2,
+				13056,
+				1
+			},
+			{
+				2,
+				13057,
+				1
+			},
+			{
+				2,
+				13058,
+				1
+			},
+			{
+				2,
+				13059,
+				1
+			},
+			{
+				2,
+				13060,
 				1
 			}
 		},
@@ -15047,6 +15323,76 @@ end)()
 		usage = "usage_undefined",
 		link_id = 0,
 		icon = "Props/20107",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			9,
+			2
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[20108] = {
+		open_directly = 0,
+		name = "科研测试数据・八期",
+		display = "研发部门总结的测试数据，<color=#92fc63>在开发船坞内使用</color>可增加10000点科研八期角色技术测试经验进度<color=#ff5c5c>（在仓库中解析会获得设计原型，无法获得经验）</color>",
+		type = 18,
+		display_effect = "",
+		id = 20108,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/20108",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			9,
+			2
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[20109] = {
+		open_directly = 0,
+		name = "科研测试数据・九期",
+		display = "研发部门总结的测试数据，<color=#92fc63>在开发船坞内使用</color>可增加10000点科研九期角色技术测试经验进度<color=#ff5c5c>（在仓库中解析会获得设计原型，无法获得经验）</color>",
+		type = 18,
+		display_effect = "",
+		id = 20109,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/20109",
 		order = 0,
 		rarity = 4,
 		max_num = 0,
@@ -52430,6 +52776,125 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_data_statistics[40086] = {
+		open_directly = 1,
+		name = "最高方案研发礼包(六期)·高级版",
+		display = "购买礼包可获得大量材料奖励",
+		type = 17,
+		display_effect = "OpenBox",
+		id = 40086,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "ChargeIcon/tech6_promotion",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "4086",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				40145,
+				1
+			},
+			{
+				2,
+				42050,
+				343
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[40087] = {
+		open_directly = 1,
+		name = "最高方案研发礼包(六期)·标准版",
+		display = "购买礼包可获得大量材料奖励",
+		type = 17,
+		display_effect = "OpenBox",
+		id = 40087,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "ChargeIcon/tech6_normal",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "4087",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				40145,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[40088] = {
+		open_directly = 1,
+		name = "最高方案研发礼包(六期)·升级版",
+		display = "购买礼包可获得大量材料奖励",
+		type = 17,
+		display_effect = "OpenBox",
+		id = 40088,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "ChargeIcon/tech6_promotion",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "4088",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				42050,
+				343
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_data_statistics[40100] = {
 		open_directly = 1,
 		name = "比翼双飞",
@@ -54451,6 +54916,44 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_data_statistics[40143] = {
+		open_directly = 1,
+		name = "方案舰换装礼盒·I",
+		display = "不会被看到",
+		type = 17,
+		display_effect = "",
+		id = 40143,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 51061,
+		icon = "Props/tech_random_1",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				69984,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_data_statistics[40144] = {
 		open_directly = 1,
 		name = "梦幻乐园特别礼包",
@@ -54485,6 +54988,77 @@ end)()
 		shiptrans_id = {},
 		combination_display = {},
 		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[40145] = {
+		open_directly = 0,
+		name = "最高方案快速研发券·六期",
+		display = "可于科研-开发船坞界面，从{namecode:292}、{namecode:518}、弗兰德尔中选择并获取一位等级与科研等级均为1级的角色\n<color=#92fc63>上述角色全部获得时</color>，在仓库中使用此道具将会获得：\n科研测试数据·六期*300\n定向改造图纸T3*5\n定向改造图纸T2*10\n心智魔方*5\n物资*20000",
+		type = 17,
+		display_effect = "OpenBox",
+		id = 40145,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "Props/research6",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "4212",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				20106,
+				300
+			},
+			{
+				2,
+				30133,
+				5
+			},
+			{
+				2,
+				30132,
+				10
+			},
+			{
+				2,
+				20001,
+				5
+			},
+			{
+				1,
+				1,
+				20000
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {
+			{
+				ship_unlock,
+				39906
+			},
+			{
+				ship_unlock,
+				49908
+			},
+			{
+				ship_unlock,
+				99902
+			}
+		}
 	}
 end)()
 
@@ -93452,6 +94026,729 @@ end)()
 		shiptrans_id = {},
 		combination_display = {},
 		usage_arg = {
+			{
+				2,
+				42072,
+				1
+			},
+			{
+				2,
+				42075,
+				1
+			},
+			{
+				2,
+				42063,
+				1
+			},
+			{
+				2,
+				42064,
+				1
+			},
+			{
+				2,
+				42051,
+				1
+			},
+			{
+				2,
+				42054,
+				1
+			},
+			{
+				2,
+				42041,
+				1
+			},
+			{
+				2,
+				42045,
+				1
+			},
+			{
+				2,
+				42032,
+				1
+			},
+			{
+				2,
+				42033,
+				1
+			},
+			{
+				2,
+				42022,
+				1
+			},
+			{
+				2,
+				42014,
+				1
+			},
+			{
+				2,
+				42015,
+				1
+			}
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[42080] = {
+		open_directly = 0,
+		name = "定向蓝图・九期",
+		display = "使用后可从第一期、第二期、第三期、第四期、第五期、第六期、第七期、第八期、第九期方案舰的最高方案蓝图中任意选择一张",
+		type = 13,
+		display_effect = "",
+		id = 42080,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop_appointed",
+		link_id = 0,
+		icon = "Props/42080",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				42081,
+				1
+			},
+			{
+				2,
+				42082,
+				1
+			},
+			{
+				2,
+				42084,
+				1
+			},
+			{
+				2,
+				42071,
+				1
+			},
+			{
+				2,
+				42073,
+				1
+			},
+			{
+				2,
+				42074,
+				1
+			},
+			{
+				2,
+				42061,
+				1
+			},
+			{
+				2,
+				42062,
+				1
+			},
+			{
+				2,
+				42065,
+				1
+			},
+			{
+				2,
+				42052,
+				1
+			},
+			{
+				2,
+				42053,
+				1
+			},
+			{
+				2,
+				42055,
+				1
+			},
+			{
+				2,
+				42042,
+				1
+			},
+			{
+				2,
+				42043,
+				1
+			},
+			{
+				2,
+				42044,
+				1
+			},
+			{
+				2,
+				42031,
+				1
+			},
+			{
+				2,
+				42034,
+				1
+			},
+			{
+				2,
+				42035,
+				1
+			},
+			{
+				2,
+				42021,
+				1
+			},
+			{
+				2,
+				42023,
+				1
+			},
+			{
+				2,
+				42024,
+				1
+			},
+			{
+				2,
+				42025,
+				1
+			},
+			{
+				2,
+				42011,
+				1
+			},
+			{
+				2,
+				42012,
+				1
+			},
+			{
+				2,
+				42013,
+				1
+			},
+			{
+				2,
+				42016,
+				1
+			},
+			{
+				2,
+				42001,
+				1
+			},
+			{
+				2,
+				42002,
+				1
+			},
+			{
+				2,
+				42003,
+				1
+			},
+			{
+				2,
+				42004,
+				1
+			},
+			{
+				2,
+				42005,
+				1
+			},
+			{
+				2,
+				42006,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			{
+				2,
+				42081,
+				1
+			},
+			{
+				2,
+				42082,
+				1
+			},
+			{
+				2,
+				42084,
+				1
+			},
+			{
+				2,
+				42071,
+				1
+			},
+			{
+				2,
+				42073,
+				1
+			},
+			{
+				2,
+				42074,
+				1
+			},
+			{
+				2,
+				42061,
+				1
+			},
+			{
+				2,
+				42062,
+				1
+			},
+			{
+				2,
+				42065,
+				1
+			},
+			{
+				2,
+				42052,
+				1
+			},
+			{
+				2,
+				42053,
+				1
+			},
+			{
+				2,
+				42055,
+				1
+			},
+			{
+				2,
+				42042,
+				1
+			},
+			{
+				2,
+				42043,
+				1
+			},
+			{
+				2,
+				42044,
+				1
+			},
+			{
+				2,
+				42031,
+				1
+			},
+			{
+				2,
+				42034,
+				1
+			},
+			{
+				2,
+				42035,
+				1
+			},
+			{
+				2,
+				42021,
+				1
+			},
+			{
+				2,
+				42023,
+				1
+			},
+			{
+				2,
+				42024,
+				1
+			},
+			{
+				2,
+				42025,
+				1
+			},
+			{
+				2,
+				42011,
+				1
+			},
+			{
+				2,
+				42012,
+				1
+			},
+			{
+				2,
+				42013,
+				1
+			},
+			{
+				2,
+				42016,
+				1
+			},
+			{
+				2,
+				42001,
+				1
+			},
+			{
+				2,
+				42002,
+				1
+			},
+			{
+				2,
+				42003,
+				1
+			},
+			{
+				2,
+				42004,
+				1
+			},
+			{
+				2,
+				42005,
+				1
+			},
+			{
+				2,
+				42006,
+				1
+			}
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[42081] = {
+		open_directly = 0,
+		name = "蓝图：邓肯",
+		display = "皇家战列「邓肯」的设计蓝图。\n<color=#92fc63>获得「邓肯」后，可在「开发船坞」中用于增强「邓肯」的能力。</color>",
+		type = 12,
+		display_effect = "",
+		id = 42081,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_blueprint",
+		link_id = 0,
+		icon = "Props/42081",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		limit = "[]",
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[42082] = {
+		open_directly = 0,
+		name = "蓝图：{namecode:313}",
+		display = "重樱驱逐「{namecode:313}」的设计蓝图。\n<color=#92fc63>获得「{namecode:313}」后，可在「开发船坞」中用于增强「{namecode:313}」的能力。</color>",
+		type = 12,
+		display_effect = "",
+		id = 42082,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_blueprint",
+		link_id = 0,
+		icon = "Props/42082",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		limit = "[]",
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[42083] = {
+		open_directly = 0,
+		name = "蓝图：{namecode:565}",
+		display = "铁血航母「{namecode:565}」的设计蓝图。\n<color=#92fc63>获得「{namecode:565}」后，可在「开发船坞」中用于增强「{namecode:565}」的能力。</color>",
+		type = 12,
+		display_effect = "",
+		id = 42083,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_blueprint",
+		link_id = 0,
+		icon = "Props/42083",
+		order = 0,
+		rarity = 5,
+		max_num = 0,
+		time_limit = 0,
+		limit = "[]",
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			9,
+			20
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[42084] = {
+		open_directly = 0,
+		name = "蓝图：暴风雨",
+		display = "自由鸢尾驱逐「暴风雨」的设计蓝图。\n<color=#92fc63>获得「暴风雨」后，可在「开发船坞」中用于增强「暴风雨」的能力。</color>",
+		type = 12,
+		display_effect = "",
+		id = 42084,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_blueprint",
+		link_id = 0,
+		icon = "Props/42084",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		limit = "[]",
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[42085] = {
+		open_directly = 0,
+		name = "蓝图：瓦尔帕莱索",
+		display = "晶环战列「瓦尔帕莱索」的设计蓝图。\n<color=#92fc63>获得「瓦尔帕莱索」后，可在「开发船坞」中用于增强「瓦尔帕莱索」的能力。</color>",
+		type = 12,
+		display_effect = "",
+		id = 42085,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_blueprint",
+		link_id = 0,
+		icon = "Props/42085",
+		order = 0,
+		rarity = 5,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			9,
+			20
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			10
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[42086] = {
+		open_directly = 0,
+		name = "高级定向蓝图・九期",
+		display = "使用后可从第二期、第三期、第四期、第五期、第六期、第七期、第八期、第九期方案舰的决战方案蓝图中任意选择一张",
+		type = 13,
+		display_effect = "",
+		id = 42086,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop_appointed",
+		link_id = 0,
+		icon = "Props/42086",
+		order = 0,
+		rarity = 5,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				42083,
+				1
+			},
+			{
+				2,
+				42085,
+				1
+			},
+			{
+				2,
+				42072,
+				1
+			},
+			{
+				2,
+				42075,
+				1
+			},
+			{
+				2,
+				42063,
+				1
+			},
+			{
+				2,
+				42064,
+				1
+			},
+			{
+				2,
+				42051,
+				1
+			},
+			{
+				2,
+				42054,
+				1
+			},
+			{
+				2,
+				42041,
+				1
+			},
+			{
+				2,
+				42045,
+				1
+			},
+			{
+				2,
+				42032,
+				1
+			},
+			{
+				2,
+				42033,
+				1
+			},
+			{
+				2,
+				42022,
+				1
+			},
+			{
+				2,
+				42014,
+				1
+			},
+			{
+				2,
+				42015,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			{
+				2,
+				42083,
+				1
+			},
+			{
+				2,
+				42085,
+				1
+			},
 			{
 				2,
 				42072,

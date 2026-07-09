@@ -28,11 +28,12 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 
 	local var_1_9 = var_1_7:getMapById(var_1_8:getConfig("map"))
 	local var_1_10 = var_1_7:GetContinuousData(SYSTEM_SCENARIO)
-	local var_1_11
+	local var_1_11 = var_1_7:getRemasterTicketCost()
+	local var_1_12
 
 	seriesAsync({
 		function(arg_2_0)
-			if var_1_9:isRemaster() and var_1_7.remasterTickets <= 0 then
+			if var_1_9:isRemaster() and var_1_7.remasterTickets < var_1_11 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_remaster_tickets_not_enough"))
 				arg_1_0:sendNotification(GAME.TRACKING_ERROR, {
 					chapter = var_1_8
@@ -143,7 +144,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		end,
 		function(arg_5_0)
 			if var_1_8:getConfig("type") == Chapter.SelectFleet then
-				var_1_11 = {
+				var_1_12 = {
 					[FleetType.Normal] = {},
 					[FleetType.Submarine] = {},
 					[FleetType.Support] = Clone(var_1_8.eliteFleetList[FleetType.Support])
@@ -156,7 +157,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 					local var_5_2 = getProxy(FleetProxy):getFleetById(iter_5_1)
 					local var_5_3, var_5_4 = var_5_2:ChangeToElite()
 
-					table.insert(var_1_11[var_5_4], var_5_3)
+					table.insert(var_1_12[var_5_4], var_5_3)
 
 					if not var_5_0 then
 						local var_5_5
@@ -165,10 +166,10 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 					end
 				end
 			else
-				var_1_11 = var_1_8.eliteFleetList
+				var_1_12 = var_1_8.eliteFleetList
 			end
 
-			var_1_11 = Chapter.PackEliteFleetInfo(var_1_11)
+			var_1_12 = Chapter.PackEliteFleetInfo(var_1_12)
 
 			local var_5_6 = {}
 
@@ -187,7 +188,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			if var_1_9:isRemaster() and PlayerPrefs.GetString("remaster_tip") ~= pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d") and (not var_1_10 or var_1_10:IsFirstBattle()) then
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					showStopRemind = true,
-					content = i18n("levelScene_activate_remaster"),
+					content = i18n("levelScene_activate_remaster_1", getProxy(ChapterProxy):getRemasterTicketCost()),
 					onYes = function()
 						if pg.MsgboxMgr.GetInstance().stopRemindToggle.isOn then
 							PlayerPrefs.SetString("remaster_tip", pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d"))
@@ -275,7 +276,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		end,
 		function(arg_13_0)
 			arg_1_0.chapterId = var_1_1
-			arg_1_0.fleetDatas = var_1_11
+			arg_1_0.fleetDatas = var_1_12
 			arg_1_0.loopFlag = var_1_4
 			arg_1_0.operationItem = var_1_3
 			arg_1_0.dutiesKeyValue = var_1_6
@@ -343,7 +344,7 @@ function var_0_0.sendProto(arg_14_0)
 			end
 
 			if var_15_2:isRemaster() then
-				var_15_0.remasterTickets = var_15_0.remasterTickets - 1
+				var_15_0:updateRemasterTicketsNum(var_15_0.remasterTickets - var_15_0:getRemasterTicketCost())
 			end
 
 			local var_15_6 = var_15_0:GetContinuousData(SYSTEM_SCENARIO)

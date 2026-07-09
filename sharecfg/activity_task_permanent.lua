@@ -27,7 +27,8 @@ pg.activity_task_permanent.all = {
 	6020,
 	6021,
 	6022,
-	6023
+	6023,
+	50521
 }
 pg.base = pg.base or {}
 pg.base.activity_task_permanent = {}
@@ -38,9 +39,10 @@ pg.base.activity_task_permanent = {}
 		banner_route = "permanent_yamashiro",
 		gametip_extra = "最快7日获得",
 		over_pt = 0,
-		task_extra = "",
 		id = 6000,
 		activity_name = "季夏(?)攻势",
+		task_extra = "",
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35000,
@@ -57,9 +59,10 @@ pg.base.activity_task_permanent = {}
 		banner_route = "permanent_craven",
 		gametip_extra = "最快10日获得",
 		over_pt = 0,
-		task_extra = "",
 		id = 6001,
 		activity_name = "开学祭",
+		task_extra = "",
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35007,
@@ -89,9 +92,10 @@ pg.base.activity_task_permanent = {}
 		banner_route = "permanent_xixuegui",
 		gametip_extra = "最快7日获得",
 		over_pt = 0,
-		task_extra = "",
 		id = 6002,
 		activity_name = "白衣天使or恶魔？",
+		task_extra = "",
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35027,
@@ -108,9 +112,10 @@ pg.base.activity_task_permanent = {}
 		banner_route = "permanent_xiaotiane",
 		gametip_extra = "最快10日获得",
 		over_pt = 0,
-		task_extra = "",
 		id = 6003,
 		activity_name = "春风的十字星！！",
+		task_extra = "",
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35034,
@@ -140,9 +145,10 @@ pg.base.activity_task_permanent = {}
 		banner_route = "permanent_dachaolifu",
 		gametip_extra = "最快7日获得",
 		over_pt = 0,
-		task_extra = "",
 		id = 6004,
 		activity_name = "夜宴微醺",
+		task_extra = "",
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35054,
@@ -166,9 +172,10 @@ pg.base.activity_task_permanent = {}
 		banner_route = "permanent_shanchenglifu",
 		gametip_extra = "最快7日获得",
 		over_pt = 0,
-		task_extra = "",
 		id = 6005,
 		activity_name = "港区的特别宴会",
+		task_extra = "",
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35068,
@@ -192,9 +199,10 @@ pg.base.activity_task_permanent = {}
 		banner_route = "permanent_mengfeisi",
 		gametip_extra = "最快7日获得",
 		over_pt = 0,
-		task_extra = "",
 		id = 6006,
 		activity_name = "混沌的万圣之夜",
+		task_extra = "",
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {}
 	}
@@ -203,9 +211,10 @@ pg.base.activity_task_permanent = {}
 		banner_route = "permanent_ruoyeshengdan",
 		gametip_extra = "最快7日获得",
 		over_pt = 0,
-		task_extra = "",
 		id = 6007,
 		activity_name = "限时圣诞",
+		task_extra = "",
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35082,
@@ -229,9 +238,10 @@ pg.base.activity_task_permanent = {}
 		banner_route = "permanent_dachaoshengdan",
 		gametip_extra = "最快7日获得",
 		over_pt = 0,
-		task_extra = "",
 		id = 6008,
 		activity_name = "圣诞礼物大作战",
+		task_extra = "",
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35096,
@@ -255,9 +265,10 @@ pg.base.activity_task_permanent = {}
 		banner_route = "permanent_gelidelishengdan",
 		gametip_extra = "最快8日获得",
 		over_pt = 0,
-		task_extra = "",
 		id = 6009,
 		activity_name = "爱与和平的圣诞祭",
+		task_extra = "",
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35110,
@@ -275,9 +286,10 @@ pg.base.activity_task_permanent = {}
 		banner_route = "permanent_salatuojia",
 		gametip_extra = "最快9日获得",
 		over_pt = 0,
-		task_extra = "",
 		id = 6010,
 		activity_name = "异国的偶像？",
+		task_extra = "",
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {}
 	}
@@ -286,9 +298,10 @@ pg.base.activity_task_permanent = {}
 		banner_route = "permanent_biaoqiang",
 		gametip_extra = "最快9日获得",
 		over_pt = 0,
-		task_extra = "",
 		id = 6011,
 		activity_name = "月刊漫画Javelin",
+		task_extra = "",
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35118,
@@ -316,9 +329,10 @@ pg.base.activity_task_permanent = {}
 		banner_route = "permanent_u73",
 		gametip_extra = "最快7日获得",
 		over_pt = 0,
-		task_extra = "",
 		id = 6012,
 		activity_name = "理科实验时间！",
+		task_extra = "",
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35136,
@@ -346,9 +360,10 @@ pg.base.activity_task_permanent = {}
 		banner_route = "permanent_jiqi",
 		gametip_extra = "最快7日获得",
 		over_pt = 0,
-		task_extra = "",
 		id = 6013,
 		activity_name = "五彩斑斓的宴会",
+		task_extra = "",
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35154,
@@ -372,9 +387,10 @@ pg.base.activity_task_permanent = {}
 		banner_route = "permanent_chuixue",
 		gametip_extra = "最快7日获得",
 		over_pt = 0,
-		task_extra = "",
 		id = 6014,
 		activity_name = "激奏的Polaris ",
+		task_extra = "",
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35168,
@@ -398,9 +414,10 @@ pg.base.activity_task_permanent = {}
 		banner_route = "permanent_beili",
 		gametip_extra = "最快7日获得",
 		over_pt = 0,
-		task_extra = "",
 		id = 6015,
 		activity_name = "捣蛋万圣夜",
+		task_extra = "",
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35182,
@@ -424,9 +441,10 @@ pg.base.activity_task_permanent = {}
 		banner_route = "permanent_z23",
 		gametip_extra = "最快10日获得",
 		over_pt = 0,
-		task_extra = "",
 		id = 6016,
 		activity_name = "36年Z组 {namecode:408}老师",
+		task_extra = "",
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35196,
@@ -456,9 +474,10 @@ pg.base.activity_task_permanent = {}
 		banner_route = "permanent_mabuerheide",
 		gametip_extra = "最快7日获得",
 		over_pt = 0,
-		task_extra = "",
 		id = 6017,
 		activity_name = "魅惑的缤纷雪夜",
+		task_extra = "",
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {}
 	}
@@ -467,9 +486,10 @@ pg.base.activity_task_permanent = {}
 		banner_route = "permanent_qiaokelijiu",
 		gametip_extra = "最快7日获得",
 		over_pt = 0,
-		task_extra = "",
 		id = 6018,
 		activity_name = "啾啾巧克力工厂",
+		task_extra = "",
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35216,
@@ -486,9 +506,10 @@ pg.base.activity_task_permanent = {}
 		banner_route = "permanent_i56",
 		gametip_extra = "最快7日获得",
 		over_pt = 0,
-		task_extra = "",
 		id = 6019,
 		activity_name = "角落的向日葵",
+		task_extra = "",
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35223,
@@ -512,9 +533,10 @@ pg.base.activity_task_permanent = {}
 		banner_route = "permanent_manchao",
 		gametip_extra = "最快7日获得",
 		over_pt = 0,
-		task_extra = "",
 		id = 6020,
 		activity_name = "缎带轻飘飘",
+		task_extra = "",
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35244,
@@ -538,9 +560,10 @@ pg.base.activity_task_permanent = {}
 		banner_route = "permanent_changliang",
 		gametip_extra = "最快7日获得",
 		over_pt = 0,
-		task_extra = "",
 		id = 6021,
 		activity_name = "悠闲春日",
+		task_extra = "",
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35258,
@@ -564,9 +587,10 @@ pg.base.activity_task_permanent = {}
 		banner_route = "permanent_u410",
 		gametip_extra = "最快7日获得",
 		over_pt = 0,
-		task_extra = "",
 		id = 6022,
 		activity_name = "特别锻炼",
+		task_extra = "",
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {}
 	}
@@ -575,9 +599,10 @@ pg.base.activity_task_permanent = {}
 		banner_route = "permanent_chunyaodenghuo",
 		gametip_extra = "最快7日获得",
 		over_pt = 0,
-		task_extra = "",
 		id = 6023,
 		activity_name = "春邀灯火",
+		task_extra = "",
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35272,
@@ -595,5 +620,17 @@ pg.base.activity_task_permanent = {}
 			35284,
 			35285
 		}
+	}
+	pg.base.activity_task_permanent[50521] = {
+		gametip = "测试配置",
+		banner_route = "permanent_yamashiro",
+		gametip_extra = "测试配置",
+		over_pt = 0,
+		id = 50521,
+		activity_name = "测试配置",
+		task_extra = "",
+		activity_group = 2000,
+		over_task_id = "",
+		eliminate_task_id = {}
 	}
 end)()

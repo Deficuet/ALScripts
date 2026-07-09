@@ -1,38 +1,40 @@
 local var_0_0 = class("NewShopMainMediator", import("...base.ContextMediator"))
 
 var_0_0.OPEN_LAYER = "NewShopMainMediator.OPEN_LAYER"
-var_0_0.SWITCH_TO_SHOP = "NewShopMainMediator:SWITCH_TO_SHOP"
-var_0_0.CHARGE = "NewShopMainMediator:CHARGE"
-var_0_0.BUY_ITEM = "NewShopMainMediator:BUY_ITEM"
-var_0_0.CLICK_MING_SHI = "NewShopMainMediator:CLICK_MING_SHI"
-var_0_0.GET_CHARGE_LIST = "NewShopMainMediator:GET_CHARGE_LIST"
-var_0_0.OPEN_CHARGE_ITEM_PANEL = "NewShopMainMediator:OPEN_CHARGE_ITEM_PANEL"
-var_0_0.OPEN_CHARGE_ITEM_BOX = "NewShopMainMediator:OPEN_CHARGE_ITEM_BOX"
-var_0_0.OPEN_CHARGE_BIRTHDAY = "NewShopMainMediator:OPEN_CHARGE_BIRTHDAY"
-var_0_0.OPEN_USER_AGREE = "NewShopMainMediator:OPEN_USER_AGREE"
-var_0_0.VIEW_SKIN_PROBABILITY = "NewShopMainMediator:VIEW_SKIN_PROBABILITY"
-var_0_0.OPEN_TEC_SHIP_GIFT_SELL_LAYER = "NewShopMainMediator:OPEN_TEC_SHIP_GIFT_SELL_LAYER"
-var_0_0.OPEN_BATTLE_UI_SELL_LAYER = "NewShopMainMediator:OPEN_BATTLE_UI_SELL_LAYER"
+var_0_0.SWITCH_TO_SHOP = "NewShopMainMediator.SWITCH_TO_SHOP"
+var_0_0.CHARGE = "NewShopMainMediator.CHARGE"
+var_0_0.BUY_ITEM = "NewShopMainMediator.BUY_ITEM"
+var_0_0.CLICK_MING_SHI = "NewShopMainMediator.CLICK_MING_SHI"
+var_0_0.GET_CHARGE_LIST = "NewShopMainMediator.GET_CHARGE_LIST"
+var_0_0.OPEN_CHARGE_ITEM_PANEL = "NewShopMainMediator.OPEN_CHARGE_ITEM_PANEL"
+var_0_0.OPEN_CHARGE_ITEM_BOX = "NewShopMainMediator.OPEN_CHARGE_ITEM_BOX"
+var_0_0.OPEN_CHARGE_BIRTHDAY = "NewShopMainMediator.OPEN_CHARGE_BIRTHDAY"
+var_0_0.OPEN_USER_AGREE = "NewShopMainMediator.OPEN_USER_AGREE"
+var_0_0.VIEW_SKIN_PROBABILITY = "NewShopMainMediator.VIEW_SKIN_PROBABILITY"
+var_0_0.OPEN_TEC_SHIP_GIFT_SELL_LAYER = "NewShopMainMediator.OPEN_TEC_SHIP_GIFT_SELL_LAYER"
+var_0_0.OPEN_BATTLE_UI_SELL_LAYER = "NewShopMainMediator.OPEN_BATTLE_UI_SELL_LAYER"
 var_0_0.FAST_BUILD_ITEM_ID = 61004
-var_0_0.REFRESH_STREET_SHOP = "NewShopMainMediator:REFRESH_STREET_SHOP"
-var_0_0.REFRESH_MILITARY_SHOP = "NewShopMainMediator:REFRESH_MILITARY_SHOP"
-var_0_0.ON_SHAM_SHOPPING = "NewShopMainMediator:ON_SHAM_SHOPPING"
-var_0_0.ON_FRAGMENT_SHOPPING = "NewShopMainMediator:ON_FRAGMENT_SHOPPING"
-var_0_0.ON_ACT_SHOPPING = "NewShopMainMediator:ON_ACT_SHOPPING"
-var_0_0.SELL_BLUEPRINT = "NewShopMainMediator:SELL_BLUEPRINT"
-var_0_0.SET_PLAYER_FLAG = "NewShopMainMediator:SET_PLAYER_FLAG"
-var_0_0.ON_GUILD_SHOPPING = "NewShopMainMediator:ON_GUILD_SHOPPING"
-var_0_0.ON_MEDAL_SHOPPING = "NewShopMainMediator:ON_MEDAL_SHOPPING"
-var_0_0.REFRESH_GUILD_SHOP = "NewShopMainMediator:REFRESH_GUILD_SHOP"
-var_0_0.REFRESH_MEDAL_SHOP = "NewShopMainMediator:REFRESH_MEDAL_SHOP"
-var_0_0.ON_META_SHOP = "NewShopMainMediator:ON_META_SHOP"
-var_0_0.ON_ESKIN_PREVIEW = "NewShopMainMediator:ON_ESKIN_PREVIEW"
-var_0_0.ON_QUOTA_SHOPPING = "NewShopMainMediator:ON_QUOTA_SHOPPING"
-var_0_0.ON_MINI_GAME_SHOP_BUY = "NewShopMainMediator:ON_MINI_GAME_SHOP_BUY"
-var_0_0.ON_MINI_GAME_SHOP_FLUSH = "NewShopMainMediator:ON_MINI_GAME_SHOP_FLUSH"
-var_0_0.UR_EXCHANGE_TRACKING = "NewShopMainMediator:UR_EXCHANGE_TRACKING"
+var_0_0.REFRESH_STREET_SHOP = "NewShopMainMediator.REFRESH_STREET_SHOP"
+var_0_0.REFRESH_MILITARY_SHOP = "NewShopMainMediator.REFRESH_MILITARY_SHOP"
+var_0_0.ON_SHAM_SHOPPING = "NewShopMainMediator.ON_SHAM_SHOPPING"
+var_0_0.ON_FRAGMENT_SHOPPING = "NewShopMainMediator.ON_FRAGMENT_SHOPPING"
+var_0_0.ON_ACT_SHOPPING = "NewShopMainMediator.ON_ACT_SHOPPING"
+var_0_0.SELL_BLUEPRINT = "NewShopMainMediator.SELL_BLUEPRINT"
+var_0_0.SET_PLAYER_FLAG = "NewShopMainMediator.SET_PLAYER_FLAG"
+var_0_0.ON_GUILD_SHOPPING = "NewShopMainMediator.ON_GUILD_SHOPPING"
+var_0_0.ON_MEDAL_SHOPPING = "NewShopMainMediator.ON_MEDAL_SHOPPING"
+var_0_0.REFRESH_GUILD_SHOP = "NewShopMainMediator.REFRESH_GUILD_SHOP"
+var_0_0.REFRESH_MEDAL_SHOP = "NewShopMainMediator.REFRESH_MEDAL_SHOP"
+var_0_0.ON_META_SHOP = "NewShopMainMediator.ON_META_SHOP"
+var_0_0.ON_ESKIN_PREVIEW = "NewShopMainMediator.ON_ESKIN_PREVIEW"
+var_0_0.ON_QUOTA_SHOPPING = "NewShopMainMediator.ON_QUOTA_SHOPPING"
+var_0_0.ON_MINI_GAME_SHOP_BUY = "NewShopMainMediator.ON_MINI_GAME_SHOP_BUY"
+var_0_0.ON_MINI_GAME_SHOP_FLUSH = "NewShopMainMediator.ON_MINI_GAME_SHOP_FLUSH"
+var_0_0.UR_EXCHANGE_TRACKING = "NewShopMainMediator.UR_EXCHANGE_TRACKING"
 var_0_0.ON_ACT_OPERATION = "NewShopMainMediator.ON_ACT_OPERATION"
 var_0_0.NOTI_UPDATE_CURRENT = "NewShopMainMediator.NOTI_UPDATE_CURRENT"
+var_0_0.OPEN_GIFT_ACT_LAYER = "NewShopMainMediator.OPEN_GIFT_ACT_LAYER"
+var_0_0.ON_SUBLAYER_EVENT = "NewShopMainMediator.ON_SUBLAYER_EVENT"
 
 function var_0_0.register(arg_1_0)
 	arg_1_0:bind(var_0_0.OPEN_LAYER, function(arg_2_0, arg_2_1, arg_2_2, arg_2_3)
@@ -266,233 +268,335 @@ function var_0_0.register(arg_1_0)
 			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildUrRedeem(arg_32_1, 1))
 		end
 	end)
+	arg_1_0:bind(var_0_0.OPEN_GIFT_ACT_LAYER, function(arg_33_0, arg_33_1)
+		arg_1_0:OpenGiftActLayer(arg_33_1)
+	end)
 end
 
-function var_0_0.listNotificationInterests(arg_33_0)
-	return {
-		NewShopMainScene.SHOW_OR_HIDE_UI,
-		NewShopMainScene.SHOW_OR_HIDE_UI_2,
-		NewShopMainScene.CLOSE_VIEW,
-		PlayerProxy.UPDATED,
-		ShopsProxy.FIRST_CHARGE_IDS_UPDATED,
-		ShopsProxy.CHARGED_LIST_UPDATED,
-		GAME.CHARGE_CONFIRM_FAILED,
-		GAME.GET_CHARGE_LIST_DONE,
-		GAME.SHOPPING_DONE,
-		GAME.USE_ITEM_DONE,
-		GAME.CLICK_MING_SHI_SUCCESS,
-		GAME.REMOVE_LAYERS,
-		PlayerResUI.GO_MALL,
-		GAME.CHARGE_SUCCESS,
-		ShopsProxy.SHOPPINGSTREET_UPDATE,
-		ShopsProxy.MERITOROUS_SHOP_UPDATED,
-		ShopsProxy.SHAM_SHOP_UPDATED,
-		GAME.SHAM_SHOPPING_DONE,
-		BagProxy.ITEM_UPDATED,
-		GAME.FRAG_SHOPPING_DONE,
-		ShopsProxy.FRAGMENT_SHOP_UPDATED,
-		ShopsProxy.ACTIVITY_SHOP_GOODS_UPDATED,
-		ShopsProxy.ACTIVITY_SHOP_UPDATED,
-		GAME.FRAG_SELL_DONE,
-		ActivityProxy.ACTIVITY_SHOP_SHOW_AWARDS,
-		GAME.USE_ITEM_DONE,
-		GAME.ON_GUILD_SHOP_PURCHASE_DONE,
-		GAME.ON_MEDAL_SHOP_PURCHASE_DONE,
-		ShopsProxy.GUILD_SHOP_UPDATED,
-		ShopsProxy.GUILD_SHOP_ADDED,
-		ShopsProxy.MEDAL_SHOP_UPDATED,
-		GAME.ON_META_SHOPPING_DONE,
-		ShopsProxy.META_SHOP_GOODS_UPDATED,
-		ShopsProxy.QUOTA_SHOP_UPDATED,
-		GAME.QUOTA_SHOPPING_DONE,
-		GAME.MINI_GAME_SHOP_BUY_DONE,
-		var_0_0.NOTI_UPDATE_CURRENT
+function var_0_0.OpenGiftActLayer(arg_34_0, arg_34_1)
+	local var_34_0 = getProxy(ActivityProxy):getActivityById(arg_34_1)
+
+	switch(var_34_0:getConfig("type"), {
+		[ActivityConst.ACTIVITY_TYPE_SKIN_FAKE_PACKAGE] = function()
+			arg_34_0.viewComponent:emit(NewShopMainMediator.OPEN_LAYER, ChargeActGiftLayer, ChargeActGiftMediator, {
+				actId = var_34_0.id
+			})
+		end,
+		[ActivityConst.ACTIVITY_TYPE_TIMES_FAKE_PACKAGE] = function()
+			local var_36_0 = pg.activity_giftpackage[var_34_0:getConfig("config_id")]
+			local var_36_1 = Goods.Create({
+				id = var_36_0.shop_id
+			}, Goods.TYPE_GIFT_PACKAGE_ACT)
+			local var_36_2 = Drop.New({
+				count = 1,
+				type = DROP_TYPE_ITEM,
+				id = var_36_1:getConfig("effect_args")[1]
+			})
+			local var_36_3 = var_36_1:GetPrice()
+			local var_36_4 = {}
+			local var_36_5 = getProxy(ShipSkinProxy)
+
+			for iter_36_0, iter_36_1 in ipairs(var_36_0.skin) do
+				table.insert(var_36_4, Drop.New({
+					count = 1,
+					type = DROP_TYPE_SKIN,
+					id = iter_36_1,
+					got = var_36_5:hasNonLimitSkin(iter_36_1),
+					special = underscore.any(var_36_0.special_skin, function(arg_37_0)
+						return iter_36_1 == arg_37_0
+					end)
+				}))
+			end
+
+			local var_36_6 = {
+				isMonthCard = false,
+				isChargeType = false,
+				isLocalPrice = false,
+				commodity = var_36_1,
+				icon = var_36_2:getIcon(),
+				name = var_36_2:getName(),
+				tipExtra = i18n("charge_title_getskin"),
+				extraItems = var_36_4,
+				descExtra = var_36_0.desc,
+				price = var_36_3,
+				tagType = var_36_1:getConfig("tag"),
+				onYes = function()
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						content = i18n("charge_scene_buy_confirm", var_36_3, var_36_2:getName()),
+						onYes = function()
+							arg_34_0.viewComponent:emit(NewShopMainMediator.ON_ACT_OPERATION, var_34_0.id, {
+								cmd = 1,
+								costDrop = Drop.New({
+									type = DROP_TYPE_RESOURCE,
+									id = PlayerConst.ResDiamond,
+									count = var_36_3
+								})
+							})
+						end
+					})
+				end
+			}
+
+			arg_34_0.viewComponent:emit(NewShopMainMediator.OPEN_CHARGE_ITEM_PANEL, var_36_6)
+		end
+	}, function()
+		assert(false)
+	end)
+end
+
+function var_0_0.initNotificationHandleDic(arg_41_0)
+	arg_41_0.handleDic = {
+		[NewShopMainScene.SHOW_OR_HIDE_UI] = function(arg_42_0, arg_42_1)
+			arg_42_0.viewComponent:ShowOrHideUI(arg_42_1:getBody())
+		end,
+		[NewShopMainScene.SHOW_OR_HIDE_UI_2] = function(arg_43_0, arg_43_1)
+			arg_43_0.viewComponent:ShowOrHideUI2(arg_43_1:getBody())
+		end,
+		[NewShopMainScene.CLOSE_VIEW] = function(arg_44_0, arg_44_1)
+			arg_44_0.viewComponent:closeView()
+		end,
+		[PlayerProxy.UPDATED] = function(arg_45_0, arg_45_1)
+			local var_45_0 = arg_45_1:getBody()
+
+			arg_45_0.viewComponent:setPlayer(var_45_0)
+			arg_45_0.viewComponent:updateNoRes()
+		end,
+		[ShopsProxy.FIRST_CHARGE_IDS_UPDATED] = function(arg_46_0, arg_46_1)
+			arg_46_0.viewComponent:setFirstChargeIds(arg_46_1:getBody())
+			arg_46_0.viewComponent:updateCurSubView()
+		end,
+		[ShopsProxy.CHARGED_LIST_UPDATED] = function(arg_47_0, arg_47_1)
+			arg_47_0.viewComponent:setChargedList(arg_47_1:getBody())
+			arg_47_0.viewComponent:updateCurSubView()
+		end,
+		[GAME.CHARGE_CONFIRM_FAILED] = function(arg_48_0, arg_48_1)
+			local var_48_0 = arg_48_1:getBody()
+
+			getProxy(ShopsProxy):chargeFailed(var_48_0.payId, var_48_0.bsId)
+		end,
+		[GAME.SHOPPING_DONE] = function(arg_49_0, arg_49_1)
+			local var_49_0 = arg_49_1:getBody()
+			local var_49_1
+
+			if var_49_0.shopType == ShopArgs.ShopStreet then
+				local var_49_2 = getProxy(ShopsProxy):getShopStreet()
+				local var_49_3 = var_49_2:getGoodsById(var_49_0.id)
+
+				arg_49_0.viewComponent:OnUpdateCommodity(NewShopsScene.TYPE_SHOP_STREET, var_49_2, var_49_0.id)
+			elseif var_49_0.shopType == ShopArgs.MilitaryShop then
+				local var_49_4 = getProxy(ShopsProxy):getMeritorousShop()
+				local var_49_5 = var_49_4.goods[var_49_0.id]
+
+				arg_49_0.viewComponent:OnUpdateCommodity(NewShopsScene.TYPE_MILITARY_SHOP, var_49_4, var_49_0.id)
+			end
+
+			if var_49_0.awards and #var_49_0.awards > 0 then
+				arg_49_0.viewComponent:unBlurView()
+				arg_49_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_49_0.awards)
+			end
+
+			local var_49_6 = var_49_0.normalList
+			local var_49_7 = var_49_0.normalGroupList
+
+			if var_49_6 then
+				arg_49_0.viewComponent:setNormalList(var_49_6)
+			end
+
+			if var_49_7 then
+				arg_49_0.viewComponent:setNormalGroupList(var_49_7)
+			end
+
+			local var_49_8 = pg.shop_template[var_49_0.id]
+
+			arg_49_0.viewComponent:checkBuyDone(var_49_0.id)
+			arg_49_0.viewComponent:updateCurSubView()
+			pg.EasyRedDotMgr.GetInstance():TriggerMarks("specialShop")
+		end,
+		[GAME.USE_ITEM_DONE] = function(arg_50_0, arg_50_1)
+			local var_50_0 = arg_50_1:getBody()
+
+			if #var_50_0.drops ~= 0 then
+				arg_50_0.viewComponent:emit(BaseUI.ON_AWARD, {
+					items = var_50_0.drops
+				})
+			end
+		end,
+		[GAME.GET_CHARGE_LIST_DONE] = function(arg_51_0, arg_51_1)
+			local var_51_0 = arg_51_1:getBody()
+			local var_51_1 = var_51_0.firstChargeIds
+			local var_51_2 = var_51_0.chargedList
+			local var_51_3 = var_51_0.normalList
+			local var_51_4 = var_51_0.normalGroupList
+
+			if var_51_1 then
+				arg_51_0.viewComponent:setFirstChargeIds(var_51_1)
+			end
+
+			if var_51_2 then
+				arg_51_0.viewComponent:setChargedList(var_51_2)
+			end
+
+			if var_51_3 then
+				arg_51_0.viewComponent:setNormalList(var_51_3)
+			end
+
+			if var_51_4 then
+				arg_51_0.viewComponent:setNormalGroupList(var_51_4)
+			end
+
+			if var_51_1 or var_51_2 or var_51_3 or var_51_4 then
+				arg_51_0.viewComponent:updateCurSubView()
+			end
+
+			pg.EasyRedDotMgr.GetInstance():TriggerMarks("specialShop")
+		end,
+		[GAME.CLICK_MING_SHI_SUCCESS] = function(arg_52_0, arg_52_1)
+			arg_52_0.viewComponent:playHeartEffect()
+		end,
+		[PlayerResUI.GO_MALL] = function(arg_53_0, arg_53_1)
+			local var_53_0 = arg_53_1:getBody()
+			local var_53_1 = ChargeScene.TYPE_DIAMOND
+
+			if var_53_0 then
+				var_53_1 = var_53_0.type or ChargeScene.TYPE_DIAMOND
+			end
+
+			arg_53_0.viewComponent:switchSubViewByTogger(var_53_1)
+			arg_53_0.viewComponent:updateNoRes(var_53_0 and var_53_0.noRes or nil)
+		end,
+		[GAME.CHARGE_SUCCESS] = function(arg_54_0, arg_54_1)
+			local var_54_0 = arg_54_1:getBody()
+
+			arg_54_0.viewComponent:checkBuyDone("damonds")
+
+			local var_54_1 = Goods.Create({
+				shop_id = var_54_0.shopId
+			}, Goods.TYPE_CHARGE)
+
+			arg_54_0.viewComponent:OnChargeSuccess(var_54_1)
+		end,
+		[ShopsProxy.SHOPPINGSTREET_UPDATE] = function(arg_55_0, arg_55_1)
+			local var_55_0 = arg_55_1:getBody()
+
+			arg_55_0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_SHOP_STREET, var_55_0.shopStreet)
+		end,
+		[ShopsProxy.MERITOROUS_SHOP_UPDATED] = function(arg_56_0, arg_56_1)
+			arg_56_0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_MILITARY_SHOP, arg_56_1:getBody())
+		end,
+		[ShopsProxy.SHAM_SHOP_UPDATED] = function(arg_57_0, arg_57_1)
+			arg_57_0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_SHAM_SHOP, arg_57_1:getBody())
+		end,
+		[GAME.SHAM_SHOPPING_DONE] = function(arg_58_0, arg_58_1)
+			local var_58_0 = arg_58_1:getBody()
+			local var_58_1 = getProxy(ShopsProxy):getShamShop()
+
+			arg_58_0.viewComponent:OnUpdateCommodity(NewShopsScene.TYPE_SHAM_SHOP, var_58_1, var_58_0.id)
+			arg_58_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_58_0.awards)
+		end,
+		[BagProxy.ITEM_UPDATED] = function(arg_59_0, arg_59_1)
+			local var_59_0 = getProxy(BagProxy):getRawData()
+
+			arg_59_0.viewComponent:OnUpdateItems(var_59_0)
+		end,
+		[GAME.FRAG_SHOPPING_DONE] = function(arg_60_0, arg_60_1)
+			local var_60_0 = arg_60_1:getBody()
+			local var_60_1 = getProxy(ShopsProxy):getFragmentShop()
+
+			arg_60_0.viewComponent:OnUpdateCommodity(NewShopsScene.TYPE_FRAGMENT, var_60_1, var_60_0.id)
+			arg_60_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_60_0.awards)
+		end,
+		[ShopsProxy.FRAGMENT_SHOP_UPDATED] = function(arg_61_0, arg_61_1)
+			arg_61_0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_FRAGMENT, arg_61_1:getBody())
+		end,
+		[ShopsProxy.ACTIVITY_SHOP_GOODS_UPDATED] = function(arg_62_0, arg_62_1)
+			local var_62_0 = arg_62_1:getBody()
+			local var_62_1 = getProxy(ShopsProxy):getActivityShopById(var_62_0.activityId)
+
+			arg_62_0.viewComponent:OnUpdateCommodity(NewShopsScene.TYPE_ACTIVITY, var_62_1, var_62_0.goodsId)
+		end,
+		[ShopsProxy.META_SHOP_GOODS_UPDATED] = function(arg_63_0, arg_63_1)
+			local var_63_0 = arg_63_1:getBody()
+			local var_63_1 = getProxy(ShopsProxy):GetMetaShop()
+
+			arg_63_0.viewComponent:OnUpdateCommodity(NewShopsScene.TYPE_META, var_63_1, var_63_0.goodsId)
+		end,
+		[ShopsProxy.ACTIVITY_SHOP_UPDATED] = function(arg_64_0, arg_64_1)
+			local var_64_0 = arg_64_1:getBody()
+
+			arg_64_0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_ACTIVITY, var_64_0.shop)
+		end,
+		[ActivityProxy.ACTIVITY_SHOP_SHOW_AWARDS] = function(arg_65_0, arg_65_1)
+			local var_65_0 = arg_65_1:getBody()
+
+			arg_65_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_65_0.awards, var_65_0.callback)
+		end,
+		[GAME.FRAG_SELL_DONE] = function(arg_66_0, arg_66_1)
+			local var_66_0 = arg_66_1:getBody()
+
+			arg_66_0.viewComponent:OnFragmentSellUpdate()
+			arg_66_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_66_0.awards)
+		end,
+		[GAME.ON_GUILD_SHOP_PURCHASE_DONE] = function(arg_67_0, arg_67_1)
+			local var_67_0 = arg_67_1:getBody()
+
+			arg_67_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_67_0.awards)
+		end,
+		[GAME.ON_MEDAL_SHOP_PURCHASE_DONE] = function(arg_68_0, arg_68_1)
+			local var_68_0 = arg_68_1:getBody()
+
+			arg_68_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_68_0.awards)
+		end,
+		[ShopsProxy.GUILD_SHOP_UPDATED] = function(arg_69_0, arg_69_1)
+			local var_69_0 = arg_69_1:getBody()
+
+			arg_69_0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_GUILD, var_69_0.shop)
+		end,
+		[ShopsProxy.GUILD_SHOP_ADDED] = function(arg_70_0, arg_70_1)
+			local var_70_0 = arg_70_1:getBody()
+
+			arg_70_0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_GUILD, var_70_0.shop)
+		end,
+		[ShopsProxy.MEDAL_SHOP_UPDATED] = function(arg_71_0, arg_71_1)
+			arg_71_0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_MEDAL, arg_71_1:getBody())
+		end,
+		[GAME.ON_META_SHOPPING_DONE] = function(arg_72_0, arg_72_1)
+			local var_72_0 = arg_72_1:getBody()
+
+			arg_72_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_72_0.awards)
+		end,
+		[ShopsProxy.QUOTA_SHOP_UPDATED] = function(arg_73_0, arg_73_1)
+			local var_73_0 = arg_73_1:getBody()
+
+			arg_73_0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_QUOTA, var_73_0.shop)
+		end,
+		[GAME.QUOTA_SHOPPING_DONE] = function(arg_74_0, arg_74_1)
+			local var_74_0 = arg_74_1:getBody()
+			local var_74_1 = getProxy(ShopsProxy):getQuotaShop()
+
+			arg_74_0.viewComponent:OnUpdateCommodity(NewShopsScene.TYPE_QUOTA, var_74_1, var_74_0.id)
+			arg_74_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_74_0.awards)
+		end,
+		[GAME.MINI_GAME_SHOP_BUY_DONE] = function(arg_75_0, arg_75_1)
+			local var_75_0 = arg_75_1:getBody().list
+
+			if var_75_0 and #var_75_0 > 0 then
+				arg_75_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_75_0)
+			end
+
+			local var_75_1 = getProxy(ShopsProxy):getMiniShop()
+
+			arg_75_0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_MINI_GAME, var_75_1)
+		end,
+		[var_0_0.NOTI_UPDATE_CURRENT] = function(arg_76_0, arg_76_1)
+			arg_76_0.viewComponent:updateCurSubView()
+			pg.EasyRedDotMgr.GetInstance():TriggerMarks("specialShop")
+		end,
+		[var_0_0.ON_SUBLAYER_EVENT] = function(arg_77_0, arg_77_1)
+			local var_77_0 = arg_77_1:getBody()
+
+			arg_77_0.viewComponent:emit(unpackEx(var_77_0))
+		end
 	}
-end
-
-function var_0_0.handleNotification(arg_34_0, arg_34_1)
-	local var_34_0 = arg_34_1:getName()
-	local var_34_1 = arg_34_1:getBody()
-
-	if var_34_0 == NewShopMainScene.SHOW_OR_HIDE_UI then
-		arg_34_0.viewComponent:ShowOrHideUI(var_34_1)
-	elseif var_34_0 == NewShopMainScene.SHOW_OR_HIDE_UI_2 then
-		arg_34_0.viewComponent:ShowOrHideUI2(var_34_1)
-	elseif var_34_0 == NewShopMainScene.CLOSE_VIEW then
-		arg_34_0.viewComponent:closeView()
-	elseif var_34_0 == PlayerProxy.UPDATED then
-		arg_34_0.viewComponent:setPlayer(var_34_1)
-		arg_34_0.viewComponent:updateNoRes()
-	elseif var_34_0 == ShopsProxy.FIRST_CHARGE_IDS_UPDATED then
-		arg_34_0.viewComponent:setFirstChargeIds(var_34_1)
-		arg_34_0.viewComponent:updateCurSubView()
-	elseif var_34_0 == ShopsProxy.CHARGED_LIST_UPDATED then
-		arg_34_0.viewComponent:setChargedList(var_34_1)
-		arg_34_0.viewComponent:updateCurSubView()
-	elseif var_34_0 == GAME.CHARGE_CONFIRM_FAILED then
-		getProxy(ShopsProxy):chargeFailed(var_34_1.payId, var_34_1.bsId)
-	elseif var_34_0 == GAME.SHOPPING_DONE then
-		local var_34_2
-
-		if var_34_1.shopType == ShopArgs.ShopStreet then
-			local var_34_3 = getProxy(ShopsProxy):getShopStreet()
-			local var_34_4 = var_34_3:getGoodsById(var_34_1.id)
-
-			arg_34_0.viewComponent:OnUpdateCommodity(NewShopsScene.TYPE_SHOP_STREET, var_34_3, var_34_1.id)
-		elseif var_34_1.shopType == ShopArgs.MilitaryShop then
-			local var_34_5 = getProxy(ShopsProxy):getMeritorousShop()
-			local var_34_6 = var_34_5.goods[var_34_1.id]
-
-			arg_34_0.viewComponent:OnUpdateCommodity(NewShopsScene.TYPE_MILITARY_SHOP, var_34_5, var_34_1.id)
-		end
-
-		if var_34_1.awards and #var_34_1.awards > 0 then
-			arg_34_0.viewComponent:unBlurView()
-			arg_34_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_34_1.awards)
-		end
-
-		local var_34_7 = var_34_1.normalList
-		local var_34_8 = var_34_1.normalGroupList
-
-		if var_34_7 then
-			arg_34_0.viewComponent:setNormalList(var_34_7)
-		end
-
-		if var_34_8 then
-			arg_34_0.viewComponent:setNormalGroupList(var_34_8)
-		end
-
-		local var_34_9 = pg.shop_template[var_34_1.id]
-
-		arg_34_0.viewComponent:checkBuyDone(var_34_1.id)
-		arg_34_0.viewComponent:updateCurSubView()
-		pg.EasyRedDotMgr.GetInstance():TriggerMarks("specialShop")
-	elseif var_34_0 == GAME.USE_ITEM_DONE then
-		if #var_34_1.drops ~= 0 then
-			arg_34_0.viewComponent:emit(BaseUI.ON_AWARD, {
-				items = var_34_1.drops
-			})
-		end
-	elseif var_34_0 == GAME.GET_CHARGE_LIST_DONE then
-		local var_34_10 = var_34_1.firstChargeIds
-		local var_34_11 = var_34_1.chargedList
-		local var_34_12 = var_34_1.normalList
-		local var_34_13 = var_34_1.normalGroupList
-
-		if var_34_10 then
-			arg_34_0.viewComponent:setFirstChargeIds(var_34_10)
-		end
-
-		if var_34_11 then
-			arg_34_0.viewComponent:setChargedList(var_34_11)
-		end
-
-		if var_34_12 then
-			arg_34_0.viewComponent:setNormalList(var_34_12)
-		end
-
-		if var_34_13 then
-			arg_34_0.viewComponent:setNormalGroupList(var_34_13)
-		end
-
-		if var_34_10 or var_34_11 or var_34_12 or var_34_13 then
-			arg_34_0.viewComponent:updateCurSubView()
-		end
-
-		pg.EasyRedDotMgr.GetInstance():TriggerMarks("specialShop")
-	elseif var_34_0 == GAME.CLICK_MING_SHI_SUCCESS then
-		arg_34_0.viewComponent:playHeartEffect()
-	elseif var_34_0 == PlayerResUI.GO_MALL then
-		local var_34_14 = ChargeScene.TYPE_DIAMOND
-
-		if var_34_1 then
-			var_34_14 = var_34_1.type or ChargeScene.TYPE_DIAMOND
-		end
-
-		arg_34_0.viewComponent:switchSubViewByTogger(var_34_14)
-		arg_34_0.viewComponent:updateNoRes(var_34_1 and var_34_1.noRes or nil)
-	elseif var_34_0 == GAME.CHARGE_SUCCESS then
-		arg_34_0.viewComponent:checkBuyDone("damonds")
-
-		local var_34_15 = Goods.Create({
-			shop_id = var_34_1.shopId
-		}, Goods.TYPE_CHARGE)
-
-		arg_34_0.viewComponent:OnChargeSuccess(var_34_15)
-	elseif var_34_0 == ShopsProxy.SHOPPINGSTREET_UPDATE then
-		arg_34_0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_SHOP_STREET, var_34_1.shopStreet)
-	elseif var_34_0 == ShopsProxy.MERITOROUS_SHOP_UPDATED then
-		arg_34_0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_MILITARY_SHOP, var_34_1)
-	elseif var_34_0 == ShopsProxy.SHAM_SHOP_UPDATED then
-		arg_34_0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_SHAM_SHOP, var_34_1)
-	elseif var_34_0 == GAME.SHAM_SHOPPING_DONE then
-		local var_34_16 = getProxy(ShopsProxy):getShamShop()
-
-		arg_34_0.viewComponent:OnUpdateCommodity(NewShopsScene.TYPE_SHAM_SHOP, var_34_16, var_34_1.id)
-		arg_34_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_34_1.awards)
-	elseif var_34_0 == BagProxy.ITEM_UPDATED then
-		local var_34_17 = getProxy(BagProxy):getRawData()
-
-		arg_34_0.viewComponent:OnUpdateItems(var_34_17)
-	elseif var_34_0 == GAME.FRAG_SHOPPING_DONE then
-		local var_34_18 = getProxy(ShopsProxy):getFragmentShop()
-
-		arg_34_0.viewComponent:OnUpdateCommodity(NewShopsScene.TYPE_FRAGMENT, var_34_18, var_34_1.id)
-		arg_34_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_34_1.awards)
-	elseif var_34_0 == ShopsProxy.FRAGMENT_SHOP_UPDATED then
-		arg_34_0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_FRAGMENT, var_34_1)
-	elseif var_34_0 == ShopsProxy.ACTIVITY_SHOP_GOODS_UPDATED then
-		local var_34_19 = getProxy(ShopsProxy):getActivityShopById(var_34_1.activityId)
-
-		arg_34_0.viewComponent:OnUpdateCommodity(NewShopsScene.TYPE_ACTIVITY, var_34_19, var_34_1.goodsId)
-	elseif var_34_0 == ShopsProxy.META_SHOP_GOODS_UPDATED then
-		local var_34_20 = getProxy(ShopsProxy):GetMetaShop()
-
-		arg_34_0.viewComponent:OnUpdateCommodity(NewShopsScene.TYPE_META, var_34_20, var_34_1.goodsId)
-	elseif var_34_0 == ShopsProxy.ACTIVITY_SHOP_UPDATED then
-		arg_34_0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_ACTIVITY, var_34_1.shop)
-	elseif var_34_0 == ActivityProxy.ACTIVITY_SHOP_SHOW_AWARDS then
-		arg_34_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_34_1.awards, var_34_1.callback)
-	elseif var_34_0 == GAME.USE_ITEM_DONE then
-		if #var_34_1.drops ~= 0 then
-			arg_34_0.viewComponent:emit(BaseUI.ON_AWARD, {
-				items = var_34_1.drops
-			})
-		end
-	elseif var_34_0 == GAME.FRAG_SELL_DONE then
-		arg_34_0.viewComponent:OnFragmentSellUpdate()
-		arg_34_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_34_1.awards)
-	elseif var_34_0 == GAME.ON_GUILD_SHOP_PURCHASE_DONE then
-		arg_34_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_34_1.awards)
-	elseif var_34_0 == GAME.ON_MEDAL_SHOP_PURCHASE_DONE then
-		arg_34_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_34_1.awards)
-	elseif var_34_0 == ShopsProxy.GUILD_SHOP_UPDATED or var_34_0 == ShopsProxy.GUILD_SHOP_ADDED then
-		arg_34_0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_GUILD, var_34_1.shop)
-	elseif var_34_0 == ShopsProxy.MEDAL_SHOP_UPDATED then
-		arg_34_0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_MEDAL, var_34_1)
-	elseif var_34_0 == GAME.ON_META_SHOPPING_DONE then
-		arg_34_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_34_1.awards)
-	elseif var_34_0 == ShopsProxy.QUOTA_SHOP_UPDATED then
-		arg_34_0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_QUOTA, var_34_1.shop)
-	elseif var_34_0 == GAME.QUOTA_SHOPPING_DONE then
-		local var_34_21 = getProxy(ShopsProxy):getQuotaShop()
-
-		arg_34_0.viewComponent:OnUpdateCommodity(NewShopsScene.TYPE_QUOTA, var_34_21, var_34_1.id)
-		arg_34_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_34_1.awards)
-	elseif var_34_0 == GAME.MINI_GAME_SHOP_BUY_DONE then
-		local var_34_22 = var_34_1.list
-
-		if var_34_22 and #var_34_22 > 0 then
-			arg_34_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_34_22)
-		end
-
-		local var_34_23 = getProxy(ShopsProxy):getMiniShop()
-
-		arg_34_0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_MINI_GAME, var_34_23)
-	elseif var_34_0 == var_0_0.NOTI_UPDATE_CURRENT then
-		arg_34_0.viewComponent:updateCurSubView()
-		pg.EasyRedDotMgr.GetInstance():TriggerMarks("specialShop")
-	end
 end
 
 return var_0_0

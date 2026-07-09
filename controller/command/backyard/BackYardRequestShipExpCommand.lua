@@ -30,22 +30,23 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			local var_2_7 = {}
 
 			for iter_2_0, iter_2_1 in pairs(var_2_4) do
-				local var_2_8 = Clone(iter_2_1)
+				local var_2_8 = var_2_5:getShipById(iter_2_1.id)
+				local var_2_9 = var_2_5:getShipById(iter_2_1.id)
 
-				if iter_2_1.level ~= iter_2_1:getMaxLevel() then
-					iter_2_1:addExp(var_2_3)
-					var_2_5:updateShip(iter_2_1)
+				if var_2_9.level ~= var_2_9:getMaxLevel() then
+					var_2_9:addExp(var_2_3)
+					var_2_5:updateShip(var_2_9)
 					arg_1_0:sendNotification(GAME.BACKYARD_SHIP_EXP_ADDED, {
-						id = iter_2_1.id,
+						id = var_2_9.id,
 						exp = var_2_3
 					})
 				end
 
-				var_2_6[iter_2_1.id] = iter_2_1
-				var_2_7[iter_2_1.id] = var_2_8
+				var_2_6[var_2_9.id] = var_2_9
+				var_2_7[var_2_8.id] = var_2_8
 			end
 
-			local var_2_9 = var_0_0.isTipSettle
+			local var_2_10 = var_0_0.isTipSettle
 
 			arg_1_0:sendNotification(DormProxy.SHIPS_EXP_ADDED, {
 				oldShips = var_2_7,
@@ -53,7 +54,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 				exp = var_2_3,
 				food = arg_2_0.food,
 				time = var_2_2,
-				isTipSettle = var_2_9
+				isTipSettle = var_2_10
 			})
 
 			var_0_0.isTipSettle = false

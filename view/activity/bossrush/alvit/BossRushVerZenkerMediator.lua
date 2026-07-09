@@ -42,13 +42,17 @@ function var_0_0.register(arg_1_0)
 	end)
 
 	local var_1_0 = getProxy(ActivityProxy)
-	local var_1_1 = var_1_0:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH)
+	local var_1_1 = arg_1_0.contextData.activityID
 
-	arg_1_0.viewComponent:SetActivity(var_1_1)
+	assert(var_1_1, "activityID is required by BossRushVerZenkerMediator")
 
-	local var_1_2 = var_1_0:getActivityById(ActivityConst.ZENGKEHAIJUNSHANGJIANG_PT_ACT_ID)
+	local var_1_2 = var_1_0:getActivityById(var_1_1)
 
-	arg_1_0.viewComponent:SetPtActivity(var_1_2)
+	arg_1_0.viewComponent:SetActivity(var_1_2)
+
+	local var_1_3 = var_1_0:getActivityById(ActivityConst.ZENGKEHAIJUNSHANGJIANG_PT_ACT_ID)
+
+	arg_1_0.viewComponent:SetPtActivity(var_1_3)
 	arg_1_0.viewComponent:addbubbleMsgBox(function(arg_8_0)
 		if getProxy(ContextProxy):getCurrentContext():getContextByMediator(BossRushTotalRewardPanelMediator) then
 			return
@@ -85,7 +89,7 @@ function var_0_0.handleNotification(arg_11_0, arg_11_1)
 		local var_11_3 = var_11_1
 
 		if var_11_3 then
-			if var_11_3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
+			if var_11_3.id == arg_11_0.contextData.activityID then
 				arg_11_0.viewComponent:SetActivity(var_11_3)
 				arg_11_0.viewComponent:UpdateView()
 			elseif var_11_3.id == ActivityConst.ZENGKEHAIJUNSHANGJIANG_PT_ACT_ID then

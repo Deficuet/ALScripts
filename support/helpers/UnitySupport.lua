@@ -937,15 +937,20 @@ end
 
 function setBlackMask(arg_114_0, arg_114_1, arg_114_2)
 	if arg_114_1 then
-		arg_114_2 = arg_114_2 or {}
+		arg_114_2 = setmetatable(arg_114_2 or {}, {
+			__index = {
+				recursive = true,
+				color = Color(0, 0, 0, 0.2)
+			}
+		})
 
 		local var_114_0 = GetOrAddComponent(arg_114_0, "UIMaterialAdjuster")
 
-		var_114_0.Recursive = tobool(defaultValue(arg_114_2.recursive, true))
+		var_114_0.Recursive = arg_114_2.recursive
 
 		local var_114_1 = Material.New(pg.ShaderMgr.GetInstance():GetShader("M02/Unlit Colored_Alpha_UI"))
 
-		var_114_1:SetColor("_Color", arg_114_2.color or Color(0, 0, 0, 0.2))
+		var_114_1:SetColor("_Color", arg_114_2.color)
 
 		var_114_0.adjusterMaterial = var_114_1
 		var_114_0.enabled = true

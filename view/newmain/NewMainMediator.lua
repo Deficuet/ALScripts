@@ -1,29 +1,31 @@
 local var_0_0 = class("NewMainMediator", import("..base.ContextMediator"))
 
-var_0_0.GO_SCENE = "NewMainMediator:GO_SCENE"
-var_0_0.OPEN_MAIL = "NewMainMediator:OPEN_MAIL"
-var_0_0.OPEN_NOTICE = "NewMainMediator:OPEN_NOTICE"
-var_0_0.GO_SNAPSHOT = "NewMainMediator:GO_SNAPSHOT"
-var_0_0.OPEN_COMMISION = "NewMainMediator:OPEN_COMMISION"
-var_0_0.OPEN_CHATVIEW = "NewMainMediator:OPEN_CHATVIEW"
-var_0_0.SKIP_SCENE = "NewMainMediator:SKIP_SCENE"
-var_0_0.SKIP_ACTIVITY = "NewMainMediator:SKIP_ACTIVITY"
-var_0_0.SKIP_CORE_ACTIVITY = "NewMainMediator:SKIP_CORE_ACTIVITY"
-var_0_0.SKIP_SHOP = "NewMainMediator:SKIP_SHOP"
-var_0_0.GO_MINI_GAME = "NewMainMediator:GO_MINI_GAME"
-var_0_0.SKIP_ACTIVITY_MAP = "NewMainMediator:SKIP_ACTIVITY_MAP"
-var_0_0.SKIP_ESCORT = "NewMainMediator:SKIP_ESCORT"
-var_0_0.SKIP_INS = "NewMainMediator:SKIP_INS"
-var_0_0.SKIP_LOTTERY = "NewMainMediator:SKIP_LOTTERY"
-var_0_0.GO_SINGLE_ACTIVITY = "NewMainMediator:GO_SINGLE_ACTIVITY"
-var_0_0.REFRESH_VIEW = "NewMainMediator:REFRESH_VIEW"
+var_0_0.GO_SCENE = "NewMainMediator.GO_SCENE"
+var_0_0.OPEN_MAIL = "NewMainMediator.OPEN_MAIL"
+var_0_0.OPEN_NOTICE = "NewMainMediator.OPEN_NOTICE"
+var_0_0.GO_SNAPSHOT = "NewMainMediator.GO_SNAPSHOT"
+var_0_0.OPEN_COMMISION = "NewMainMediator.OPEN_COMMISION"
+var_0_0.OPEN_CHATVIEW = "NewMainMediator.OPEN_CHATVIEW"
+var_0_0.SKIP_SCENE = "NewMainMediator.SKIP_SCENE"
+var_0_0.SKIP_ACTIVITY = "NewMainMediator.SKIP_ACTIVITY"
+var_0_0.SKIP_CORE_ACTIVITY = "NewMainMediator.SKIP_CORE_ACTIVITY"
+var_0_0.SKIP_SHOP = "NewMainMediator.SKIP_SHOP"
+var_0_0.GO_MINI_GAME = "NewMainMediator.GO_MINI_GAME"
+var_0_0.SKIP_ACTIVITY_MAP = "NewMainMediator.SKIP_ACTIVITY_MAP"
+var_0_0.SKIP_ESCORT = "NewMainMediator.SKIP_ESCORT"
+var_0_0.SKIP_INS = "NewMainMediator.SKIP_INS"
+var_0_0.SKIP_LOTTERY = "NewMainMediator.SKIP_LOTTERY"
+var_0_0.GO_SINGLE_ACTIVITY = "NewMainMediator.GO_SINGLE_ACTIVITY"
+var_0_0.REFRESH_VIEW = "NewMainMediator.REFRESH_VIEW"
 var_0_0.OPEN_KINK_BUTTON_LAYER = "NewMainMediator.OPEN_KINK_BUTTON_LAYER"
-var_0_0.OPEN_Compensate = "NewMainMediator:OPEN_Compensate"
-var_0_0.ON_DROP = "NewMainMediator:ON_DROP"
-var_0_0.ON_AWRADS = "NewMainMediator:ON_AWRADS"
-var_0_0.CHANGE_SKIN_TOGGLE = "NewMainMediator:CHANGE_SKIN_TOGGLE"
-var_0_0.FOLD_PANEL = "NewMainMediator:FOLD_PANEL"
-var_0_0.HIDE_PANEL = "NewMainMediator:HIDE_PANEL"
+var_0_0.OPEN_Compensate = "NewMainMediator.OPEN_Compensate"
+var_0_0.ON_DROP = "NewMainMediator.ON_DROP"
+var_0_0.ON_AWRADS = "NewMainMediator.ON_AWRADS"
+var_0_0.CHANGE_SKIN_TOGGLE = "NewMainMediator.CHANGE_SKIN_TOGGLE"
+var_0_0.FOLD_PANEL = "NewMainMediator.FOLD_PANEL"
+var_0_0.HIDE_PANEL = "NewMainMediator.HIDE_PANEL"
+var_0_0.REMOVE_LAYERS = "NewMainMediator.REMOVE_LAYERS"
+var_0_0.DEBUG_BATTLE_LOOP = "NewMainMediator.DEBUG_BATTLE_LOOP"
 
 function var_0_0.register(arg_1_0)
 	arg_1_0:bind(var_0_0.SKIP_LOTTERY, function(arg_2_0, arg_2_1)
@@ -145,130 +147,152 @@ function var_0_0.register(arg_1_0)
 	arg_1_0:bind(var_0_0.CHANGE_SKIN_TOGGLE, function(arg_19_0, arg_19_1)
 		arg_1_0:sendNotification(GAME.CHANGE_SKIN_AB, arg_19_1)
 	end)
+	arg_1_0:bind(var_0_0.DEBUG_BATTLE_LOOP, function(arg_20_0, arg_20_1)
+		arg_1_0:sendNotification(GAME.SEND_CMD, {
+			cmd = "into",
+			arg1 = arg_20_1
+		})
+	end)
 end
 
-function var_0_0.listNotificationInterests(arg_20_0)
-	return {
-		GAME.REMOVE_LAYERS,
-		GAME.GET_GUILD_INFO_DONE,
-		GAME.GET_GUILD_CHAT_LIST_DONE,
-		GAME.ON_OPEN_INS_LAYER,
-		GAME.BEGIN_STAGE_DONE,
-		GAME.SEND_MINI_GAME_OP_DONE,
-		GAME.FETCH_NPC_SHIP_DONE,
-		GAME.FETCH_NPC_SHIP_ACTIVITY_DONE,
-		GAME.ZERO_HOUR_OP_DONE,
-		GAME.CONFIRM_GET_SHIP,
-		GAME.WILL_LOGOUT,
-		GAME.GET_FEAST_DATA_DONE,
-		GAME.FETCH_VOTE_INFO_DONE,
-		GAME.ROTATE_PAINTING_INDEX,
-		GAME.LOAD_LAYERS,
-		GAME.GUILD_GET_USER_INFO_DONE,
-		GAME.GET_PUBLIC_GUILD_USER_DATA_DONE,
-		GAME.PLAY_CHANGE_SKIN_OUT,
-		GAME.PLAY_CHANGE_SKIN_IN,
-		GAME.PLAY_CHANGE_SKIN_FINISH,
-		GAME.CHANGE_SKIN_EXCHANGE,
-		NotificationProxy.FRIEND_REQUEST_ADDED,
-		NotificationProxy.FRIEND_REQUEST_REMOVED,
-		FriendProxy.FRIEND_NEW_MSG,
-		FriendProxy.FRIEND_UPDATED,
-		PlayerProxy.UPDATED,
-		ChatProxy.NEW_MSG,
-		GuildProxy.NEW_MSG_ADDED,
-		ChapterProxy.CHAPTER_TIMESUP,
-		TaskProxy.TASK_ADDED,
-		TechnologyConst.UPDATE_REDPOINT_ON_TOP,
-		MiniGameProxy.ON_HUB_DATA_UPDATE,
-		var_0_0.REFRESH_VIEW,
-		GAME.CHANGE_LIVINGAREA_COVER_DONE,
-		CompensateProxy.UPDATE_ATTACHMENT_COUNT,
-		CompensateProxy.All_Compensate_Remove,
-		GAME.ACT_INSTAGRAM_CHAT_DONE,
-		GAME.SERIES_GUIDE_END,
-		NewMainMediator.ON_DROP,
-		NewMainMediator.ON_AWRADS,
-		NewMainMediator.FOLD_PANEL,
-		NewMainMediator.HIDE_PANEL,
-		MusicPlayer.NO_PLAY_MUSIC_NOTIFICATION,
-		GAME.REQ_NEW_INSTAGRAM_DATA_DONE
+function var_0_0.initNotificationHandleDic(arg_21_0)
+	arg_21_0.handleDic = {
+		[GAME.ON_OPEN_INS_LAYER] = function(arg_22_0, arg_22_1)
+			arg_22_0.viewComponent:emit(var_0_0.SKIP_INS)
+		end,
+		[NotificationProxy.FRIEND_REQUEST_ADDED] = function(arg_23_0, arg_23_1)
+			arg_23_0.viewComponent:emit(GAME.ANY_CHAT_MSG_UPDATE)
+		end,
+		[NotificationProxy.FRIEND_REQUEST_REMOVED] = NotificationProxy.FRIEND_REQUEST_ADDED,
+		[FriendProxy.FRIEND_NEW_MSG] = NotificationProxy.FRIEND_REQUEST_ADDED,
+		[FriendProxy.FRIEND_UPDATED] = NotificationProxy.FRIEND_REQUEST_ADDED,
+		[ChatProxy.NEW_MSG] = NotificationProxy.FRIEND_REQUEST_ADDED,
+		[GuildProxy.NEW_MSG_ADDED] = NotificationProxy.FRIEND_REQUEST_ADDED,
+		[GAME.GET_GUILD_INFO_DONE] = NotificationProxy.FRIEND_REQUEST_ADDED,
+		[GAME.GET_GUILD_CHAT_LIST_DONE] = NotificationProxy.FRIEND_REQUEST_ADDED,
+		[GAME.BEGIN_STAGE_DONE] = function(arg_24_0, arg_24_1)
+			arg_24_0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, arg_24_1:getBody())
+		end,
+		[ChapterProxy.CHAPTER_TIMESUP] = function(arg_25_0, arg_25_1)
+			MainChapterTimeUpSequence.New():Execute()
+		end,
+		[TechnologyConst.UPDATE_REDPOINT_ON_TOP] = function(arg_26_0, arg_26_1)
+			MainTechnologySequence.New():Execute(function()
+				return
+			end)
+		end,
+		[GAME.FETCH_NPC_SHIP_DONE] = function(arg_28_0, arg_28_1)
+			local var_28_0 = arg_28_1:getBody()
+
+			arg_28_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_28_0.items, var_28_0.callback)
+		end,
+		[GAME.FETCH_NPC_SHIP_ACTIVITY_DONE] = GAME.FETCH_NPC_SHIP_DONE,
+		[var_0_0.REFRESH_VIEW] = function(arg_29_0, arg_29_1)
+			arg_29_0.viewComponent:setVisible(false)
+			arg_29_0.viewComponent:setVisible(true)
+		end,
+		[GAME.CONFIRM_GET_SHIP] = function(arg_30_0, arg_30_1)
+			local var_30_0 = arg_30_1:getBody()
+
+			arg_30_0:addSubLayers(Context.New({
+				mediator = BuildShipRemindMediator,
+				viewComponent = BuildShipRemindLayer,
+				data = {
+					ships = var_30_0.ships
+				},
+				onRemoved = var_30_0.callback
+			}))
+		end,
+		[GAME.CHANGE_LIVINGAREA_COVER_DONE] = function(arg_31_0, arg_31_1)
+			arg_31_0.viewComponent:emit(NewMainScene.UPDATE_COVER)
+		end,
+		[GAME.ACT_INSTAGRAM_CHAT_DONE] = function(arg_32_0, arg_32_1)
+			if arg_32_1:getBody().operation == ActivityConst.INSTAGRAM_CHAT_ACTIVATE_TOPIC then
+				local var_32_0 = arg_32_0.viewComponent:GetFlagShip()
+
+				if arg_32_0.viewComponent.theme then
+					arg_32_0.viewComponent.theme:Refresh(var_32_0)
+				end
+			end
+		end,
+		[NewMainMediator.ON_DROP] = function(arg_33_0, arg_33_1)
+			arg_33_0.viewComponent:emit(BaseUI.ON_DROP, arg_33_1:getBody())
+		end,
+		[NewMainMediator.ON_AWRADS] = function(arg_34_0, arg_34_1)
+			local var_34_0 = arg_34_1:getBody()
+
+			arg_34_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_34_0.items, var_34_0.callback)
+		end,
+		[GAME.PLAY_CHANGE_SKIN_OUT] = function(arg_35_0, arg_35_1)
+			arg_35_0.viewComponent:SetEffectPanelVisible(false)
+			arg_35_0.viewComponent:HidePanel(true)
+			arg_35_0.viewComponent:PlayChangeSkinActionOut(arg_35_1:getBody())
+		end,
+		[GAME.PLAY_CHANGE_SKIN_IN] = function(arg_36_0, arg_36_1)
+			arg_36_0.viewComponent:PlayChangeSkinActionIn(arg_36_1:getBody())
+		end,
+		[GAME.PLAY_CHANGE_SKIN_FINISH] = function(arg_37_0, arg_37_1)
+			arg_37_0.viewComponent:SetEffectPanelVisible(true)
+			arg_37_0.viewComponent:HidePanel(false)
+		end,
+		[GAME.CHANGE_SKIN_EXCHANGE] = function(arg_38_0, arg_38_1)
+			local var_38_0 = arg_38_1:getBody()
+			local var_38_1 = var_38_0.asmr and true or false
+			local var_38_2 = arg_38_0.viewComponent:GetFlagShip()
+
+			if arg_38_0.viewComponent then
+				arg_38_0.viewComponent:UpdateFlagShip(var_38_2, var_38_0)
+			end
+
+			arg_38_0.viewComponent:AsmrTurning(var_38_1)
+		end,
+		[MusicPlayer.NO_PLAY_MUSIC_NOTIFICATION] = function(arg_39_0, arg_39_1)
+			arg_39_0.viewComponent:CheckAndReplayBgm()
+		end,
+		[NewMainMediator.FOLD_PANEL] = function(arg_40_0, arg_40_1)
+			arg_40_0.viewComponent:FoldPanels(arg_40_1:getBody())
+		end,
+		[NewMainMediator.HIDE_PANEL] = function(arg_41_0, arg_41_1)
+			arg_41_0.viewComponent:HidePanel(arg_41_1:getBody())
+		end,
+		[GAME.SERIES_GUIDE_END] = function(arg_42_0, arg_42_1)
+			MainAwakeGuideSequence.New():Execute(function()
+				return
+			end)
+		end,
+		[var_0_0.DEBUG_BATTLE_LOOP] = function(arg_44_0, arg_44_1)
+			local var_44_0 = arg_44_1:getBody()
+
+			arg_44_0:BuildDebugBattleLoop(var_44_0)
+		end,
+		[GAME.REMOVE_LAYERS] = function(arg_45_0, arg_45_1)
+			local var_45_0 = arg_45_1:getBody().context
+
+			arg_45_0.viewComponent:emit(NewMainMediator.REMOVE_LAYERS, arg_45_1:getBody())
+		end
 	}
 end
 
-function var_0_0.handleNotification(arg_21_0, arg_21_1)
-	local var_21_0 = arg_21_1:getName()
-	local var_21_1 = arg_21_1:getBody()
-
-	if var_21_0 == GAME.ON_OPEN_INS_LAYER then
-		arg_21_0.viewComponent:emit(var_0_0.SKIP_INS)
-	elseif var_21_0 == NotificationProxy.FRIEND_REQUEST_ADDED or var_21_0 == NotificationProxy.FRIEND_REQUEST_REMOVED or var_21_0 == FriendProxy.FRIEND_NEW_MSG or var_21_0 == FriendProxy.FRIEND_UPDATED or var_21_0 == ChatProxy.NEW_MSG or var_21_0 == GuildProxy.NEW_MSG_ADDED or var_21_0 == GAME.GET_GUILD_INFO_DONE or var_21_0 == GAME.GET_GUILD_CHAT_LIST_DONE then
-		arg_21_0.viewComponent:emit(GAME.ANY_CHAT_MSG_UPDATE)
-	elseif var_21_0 == GAME.BEGIN_STAGE_DONE then
-		arg_21_0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, var_21_1)
-	elseif var_21_0 == ChapterProxy.CHAPTER_TIMESUP then
-		MainChapterTimeUpSequence.New():Execute()
-	elseif var_21_0 == TechnologyConst.UPDATE_REDPOINT_ON_TOP then
-		MainTechnologySequence.New():Execute(function()
-			return
-		end)
-	elseif var_21_0 == GAME.FETCH_NPC_SHIP_DONE or var_21_0 == GAME.FETCH_NPC_SHIP_ACTIVITY_DONE then
-		arg_21_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_21_1.items, var_21_1.callback)
-	elseif var_21_0 == var_0_0.REFRESH_VIEW then
-		arg_21_0.viewComponent:setVisible(false)
-		arg_21_0.viewComponent:setVisible(true)
-	elseif var_21_0 == GAME.CONFIRM_GET_SHIP then
-		arg_21_0:addSubLayers(Context.New({
-			mediator = BuildShipRemindMediator,
-			viewComponent = BuildShipRemindLayer,
-			data = {
-				ships = var_21_1.ships
-			},
-			onRemoved = var_21_1.callback
-		}))
-	elseif var_21_0 == GAME.CHANGE_LIVINGAREA_COVER_DONE then
-		arg_21_0.viewComponent:emit(NewMainScene.UPDATE_COVER)
-	elseif var_21_0 == GAME.ACT_INSTAGRAM_CHAT_DONE and var_21_1.operation == ActivityConst.INSTAGRAM_CHAT_ACTIVATE_TOPIC then
-		local var_21_2 = arg_21_0.viewComponent:GetFlagShip()
-
-		if arg_21_0.viewComponent.theme then
-			arg_21_0.viewComponent.theme:Refresh(var_21_2)
-		end
-	elseif var_21_0 == NewMainMediator.ON_DROP then
-		arg_21_0.viewComponent:emit(BaseUI.ON_DROP, var_21_1)
-	elseif var_21_0 == NewMainMediator.ON_AWRADS then
-		arg_21_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_21_1.items, var_21_1.callback)
-	elseif var_21_0 == GAME.PLAY_CHANGE_SKIN_OUT then
-		arg_21_0.viewComponent:SetEffectPanelVisible(false)
-		arg_21_0.viewComponent:HidePanel(true)
-		arg_21_0.viewComponent:PlayChangeSkinActionOut(var_21_1)
-	elseif var_21_0 == GAME.PLAY_CHANGE_SKIN_IN then
-		arg_21_0.viewComponent:PlayChangeSkinActionIn(var_21_1)
-	elseif var_21_0 == GAME.PLAY_CHANGE_SKIN_FINISH then
-		arg_21_0.viewComponent:SetEffectPanelVisible(true)
-		arg_21_0.viewComponent:HidePanel(false)
-	elseif var_21_0 == GAME.CHANGE_SKIN_EXCHANGE then
-		local var_21_3 = var_21_1.asmr and true or false
-		local var_21_4 = arg_21_0.viewComponent:GetFlagShip()
-
-		if arg_21_0.viewComponent then
-			arg_21_0.viewComponent:UpdateFlagShip(var_21_4, var_21_1)
-		end
-
-		arg_21_0.viewComponent:AsmrTurning(var_21_3)
-	elseif var_21_0 == MusicPlayer.NO_PLAY_MUSIC_NOTIFICATION then
-		arg_21_0.viewComponent:CheckAndReplayBgm()
-	elseif var_21_0 == NewMainMediator.FOLD_PANEL then
-		arg_21_0.viewComponent:FoldPanels(var_21_1)
-	elseif var_21_0 == NewMainMediator.HIDE_PANEL then
-		arg_21_0.viewComponent:HidePanel(var_21_1)
-	elseif var_21_0 == GAME.SERIES_GUIDE_END then
-		MainAwakeGuideSequence.New():Execute(function()
-			return
-		end)
+function var_0_0.BuildDebugBattleLoop(arg_46_0, arg_46_1)
+	if not IsUnityEditor then
+		return
 	end
 
-	arg_21_0.viewComponent:emit(var_21_0, var_21_1)
+	local var_46_0 = {}
+
+	for iter_46_0, iter_46_1 in arg_46_1:gmatch("%s+(%S+)") do
+		table.insert(var_46_0, iter_46_0)
+	end
+
+	local var_46_1 = {
+		loopCount = tonumber(var_46_0[2]),
+		loopStages = underscore.rest(var_46_0, 3),
+		tempList = {}
+	}
+
+	_G.InDebugBattleLoop = var_46_1
+
+	arg_46_0.viewComponent:CheckDebugBattleLoop()
 end
 
 return var_0_0

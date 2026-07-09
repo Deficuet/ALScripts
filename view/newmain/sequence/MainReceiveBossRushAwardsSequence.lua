@@ -3,7 +3,7 @@ local var_0_0 = class("MainReceiveBossRushAwardsSequence")
 function var_0_0.Execute(arg_1_0, arg_1_1)
 	seriesAsync({
 		function(arg_2_0)
-			local var_2_0 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH) or getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB)
+			local var_2_0 = getProxy(ActivityProxy):GetBossRushActivitity(false) or getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB)
 
 			if not var_2_0 or var_2_0:isEnd() or not var_2_0:HasAwards() then
 				arg_2_0()

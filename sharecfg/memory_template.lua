@@ -4200,6 +4200,13 @@ pg.memory_template.all = {
 	5235,
 	5236,
 	5237,
+	5251,
+	5252,
+	5253,
+	5254,
+	5255,
+	5256,
+	5257,
 	5241,
 	5242,
 	5243,
@@ -80101,6 +80108,134 @@ end)()
 			"LAFEIER7"
 		}
 	}
+	pg.base.memory_template[5251] = {
+		ship_group = 0,
+		subtitle = "",
+		story = "PULIMAOSI1",
+		type = 1,
+		mask = "bg/bg_memory",
+		title = "无法忽视的异常",
+		condition = "解锁「为了绝对的笑容」任务1",
+		number = 0,
+		task = 500261,
+		year = 0,
+		id = 5251,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI1"
+		}
+	}
+	pg.base.memory_template[5252] = {
+		ship_group = 0,
+		subtitle = "",
+		story = "PULIMAOSI2",
+		type = 1,
+		mask = "bg/bg_memory",
+		title = "绝对完美的“刀工”",
+		condition = "解锁「为了绝对的笑容」任务2",
+		number = 0,
+		task = 500262,
+		year = 0,
+		id = 5252,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI2"
+		}
+	}
+	pg.base.memory_template[5253] = {
+		ship_group = 0,
+		subtitle = "",
+		story = "PULIMAOSI3",
+		type = 1,
+		mask = "bg/bg_memory",
+		title = "游乐园的神枪手",
+		condition = "解锁「为了绝对的笑容」任务3",
+		number = 0,
+		task = 500263,
+		year = 0,
+		id = 5253,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI3"
+		}
+	}
+	pg.base.memory_template[5254] = {
+		ship_group = 0,
+		subtitle = "",
+		story = "PULIMAOSI4",
+		type = 1,
+		mask = "bg/bg_memory",
+		title = "不被允许的雨",
+		condition = "解锁「为了绝对的笑容」任务4",
+		number = 0,
+		task = 500264,
+		year = 0,
+		id = 5254,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI4"
+		}
+	}
+end)()
+;(function()
+	pg.base.memory_template[5255] = {
+		ship_group = 0,
+		subtitle = "",
+		story = "PULIMAOSI5",
+		type = 1,
+		mask = "bg/bg_memory",
+		title = "钢铁的烟火",
+		condition = "解锁「为了绝对的笑容」任务5",
+		number = 0,
+		task = 500265,
+		year = 0,
+		id = 5255,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI5"
+		}
+	}
+	pg.base.memory_template[5256] = {
+		ship_group = 0,
+		subtitle = "",
+		story = "PULIMAOSI6",
+		type = 1,
+		mask = "bg/bg_memory",
+		title = "羽毛之灾",
+		condition = "解锁「为了绝对的笑容」任务6",
+		number = 0,
+		task = 500266,
+		year = 0,
+		id = 5256,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI6"
+		}
+	}
+	pg.base.memory_template[5257] = {
+		ship_group = 0,
+		subtitle = "",
+		story = "PULIMAOSI7",
+		type = 1,
+		mask = "bg/bg_memory",
+		title = "眉头皱起的理由",
+		condition = "解锁「为了绝对的笑容」任务7",
+		number = 0,
+		task = 500267,
+		year = 0,
+		id = 5257,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI7"
+		}
+	}
 	pg.base.memory_template[5241] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80173,8 +80308,6 @@ end)()
 			"MEIMENGXUNYANQIMIAOYE4"
 		}
 	}
-end)()
-;(function()
 	pg.base.memory_template[5245] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81849,6 +81982,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA31"
 		}
 	}
+end)()
+;(function()
 	pg.base.memory_template[20031] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81975,8 +82110,6 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA38"
 		}
 	}
-end)()
-;(function()
 	pg.base.memory_template[20038] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83651,6 +83784,8 @@ end)()
 			"LINGYANGZHEXINZHIXUYU3"
 		}
 	}
+end)()
+;(function()
 	pg.base.memory_template[20131] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83777,8 +83912,6 @@ end)()
 			"LINGYANGZHELAIFANGJISHI1"
 		}
 	}
-end)()
-;(function()
 	pg.base.memory_template[20139] = {
 		ship_group = 0,
 		subtitle = "",

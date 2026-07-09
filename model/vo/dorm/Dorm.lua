@@ -252,6 +252,12 @@ function var_0_0.GetNextSettlementShipExpTime(arg_31_0)
 end
 
 function var_0_0.UpdateNextSettlementShipExpTime(arg_32_0, arg_32_1)
+	local var_32_0 = pg.TimeMgr.GetInstance():GetServerTime()
+
+	if arg_32_1 <= var_32_0 then
+		arg_32_1 = var_32_0 + 10
+	end
+
 	arg_32_0.nextAddShipExpTime = arg_32_1
 end
 

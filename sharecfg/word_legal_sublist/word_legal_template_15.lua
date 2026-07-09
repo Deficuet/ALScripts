@@ -202,6 +202,54 @@ end
 temp()
 
 function temp()
+	var_0_1.邓 = {
+		肯 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.狒 = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.瓦 = {
+		尔 = {
+			帕 = {
+				莱 = {
+					索 = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.暴 = {
+		风 = {
+			雨 = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.幻 = {
 		想 = {
 			号 = {
@@ -429,57 +477,6 @@ function temp()
 					this = true
 				}
 			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.湊 = {
-		阿 = {
-			库 = {
-				娅 = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.紫 = {
-		咲 = {
-			诗 = {
-				音 = {
-					this = true
-				}
-			}
-		},
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.穗 = {
-		香 = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.凪 = {
-		咲 = {
-			this = true
 		}
 	}
 end

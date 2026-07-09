@@ -2154,6 +2154,142 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[52101] = {
+		display = "有几率获得以下蓝图",
+		name = "未知蓝图",
+		album_config = "",
+		type = 99,
+		drop_oil_max = 0,
+		virtual_type = 0,
+		shop_id = -1,
+		replace_item = 0,
+		id = 52101,
+		link_id = 0,
+		icon = "Props/52001",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {
+			{
+				2,
+				42085,
+				1
+			},
+			{
+				2,
+				42083,
+				1
+			},
+			{
+				2,
+				42081,
+				1
+			},
+			{
+				2,
+				42082,
+				1
+			},
+			{
+				2,
+				42084,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[52102] = {
+		display = "有几率获得以下设计图",
+		name = "未知限定装备设计图",
+		album_config = "",
+		type = 99,
+		drop_oil_max = 0,
+		virtual_type = 0,
+		shop_id = -1,
+		replace_item = 0,
+		id = 52102,
+		link_id = 0,
+		icon = "Props/55000",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {
+			{
+				2,
+				13061,
+				1
+			},
+			{
+				2,
+				13057,
+				1
+			},
+			{
+				2,
+				13056,
+				1
+			},
+			{
+				2,
+				13058,
+				1
+			},
+			{
+				2,
+				13059,
+				1
+			},
+			{
+				2,
+				13060,
+				1
+			},
+			{
+				2,
+				13024,
+				1
+			},
+			{
+				2,
+				13007,
+				1
+			},
+			{
+				2,
+				13010,
+				1
+			},
+			{
+				2,
+				13009,
+				1
+			},
+			{
+				2,
+				13011,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[53000] = {
 		display = "有几率获得以下装备&设计图",
 		name = "未知装备&设计图",

@@ -221,6 +221,10 @@ pg.pay_data_display.all = {
 	2079,
 	2080,
 	2081,
+	2088,
+	2089,
+	2090,
+	2091,
 	5001,
 	5002,
 	5003,
@@ -23150,6 +23154,273 @@ end)()
 			{
 				2,
 				40081,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[2088] = {
+		limit_group = 6,
+		name = "最高方案研发礼包(六期)",
+		descrip_extra = "此处不会被看到",
+		type = 0,
+		second_text = "+大量蓝图",
+		type_order = 0,
+		subject = "最高方案研发礼包(六期)",
+		first_text = "快速研发",
+		limit_arg = 0,
+		tip = "",
+		money = 108,
+		tip_open = 0,
+		tag = 2,
+		id = 2088,
+		gem = 0,
+		name_display = "最高方案研发礼包(六期)",
+		package_sort_id = 3,
+		limit_type = 3,
+		time = "always",
+		akashi_pick = 1,
+		package_tag = "",
+		picture = "tech6_display",
+		extra_service = 3,
+		skin_inquire_relation = 0,
+		show_group = "tech",
+		id_str = "",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "可获得最高方案快速研发券·六期*1、定向蓝图·六期*343",
+		package_tag_open = 0,
+		airijp_id = "",
+		extra_service_item = {
+			{
+				2,
+				40145,
+				1
+			},
+			{
+				2,
+				42050,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				42050,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {},
+		first_icon = {
+			{
+				2,
+				40145,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[2089] = {
+		limit_group = 6,
+		name = "最高方案研发礼包(六期)高级版",
+		descrip_extra = "*最高方案快速研发券·六期奖励可能发生变化，点击道具查看详情",
+		type = 0,
+		second_text = "",
+		type_order = 0,
+		subject = "最高方案研发礼包(六期)高级版",
+		first_text = "",
+		first_icon = "",
+		limit_arg = 1,
+		money = 108,
+		tip = "",
+		tag = 2,
+		tip_open = 0,
+		gem = 0,
+		id = 2089,
+		name_display = "高级版",
+		limit_type = 3,
+		time = "always",
+		akashi_pick = 1,
+		package_tag = "",
+		picture = "tech6_promotion",
+		package_sort_id = 3,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		id_str = "com.bilibili.blhx.keyan16",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "礼包内容",
+		show_group = "tech",
+		package_tag_open = 0,
+		airijp_id = "com.yostarjp.azurlane.tech16",
+		extra_service_item = {
+			{
+				2,
+				40145,
+				1
+			},
+			{
+				2,
+				42050,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40145,
+				1
+			},
+			{
+				2,
+				42050,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40086,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[2090] = {
+		limit_group = 6,
+		name = "最高方案研发礼包(六期)标准版",
+		descrip_extra = "*最高方案快速研发券·六期奖励可能发生变化，点击道具查看详情",
+		type = 0,
+		second_text = "",
+		type_order = 0,
+		subject = "最高方案研发礼包(六期)标准版",
+		first_text = "",
+		first_icon = "",
+		limit_arg = 2,
+		money = 68,
+		tip = "",
+		tag = 2,
+		tip_open = 0,
+		gem = 0,
+		id = 2090,
+		name_display = "标准版",
+		limit_type = 3,
+		time = "always",
+		akashi_pick = 1,
+		package_tag = "",
+		picture = "tech6_normal",
+		package_sort_id = 3,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		id_str = "com.bilibili.blhx.keyan17",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "礼包内容",
+		show_group = "tech",
+		package_tag_open = 0,
+		airijp_id = "com.yostarjp.azurlane.tech17",
+		extra_service_item = {
+			{
+				2,
+				40145,
+				1
+			}
+		},
+		display = {
+			{
+				2,
+				40145,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40087,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[2091] = {
+		limit_group = 6,
+		name = "最高方案研发礼包(六期)升级版",
+		descrip_extra = "升级为高级版后可获得定向蓝图·六期x343",
+		type = 0,
+		second_text = "",
+		type_order = 0,
+		subject = "最高方案研发礼包(六期)升级版",
+		first_text = "",
+		first_icon = "",
+		limit_arg = 3,
+		money = 40,
+		tip = "",
+		tag = 2,
+		tip_open = 0,
+		gem = 0,
+		id = 2091,
+		name_display = "高级版",
+		limit_type = 3,
+		time = "always",
+		akashi_pick = 1,
+		package_tag = "",
+		picture = "tech6_promotion",
+		package_sort_id = 3,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		id_str = "com.bilibili.blhx.keyan18",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "礼包内容",
+		show_group = "tech",
+		package_tag_open = 0,
+		airijp_id = "com.yostarjp.azurlane.tech18",
+		extra_service_item = {
+			{
+				2,
+				42050,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				42050,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40088,
 				1
 			}
 		}

@@ -89,6 +89,16 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		return
 	end
 
+	local var_1_15 = var_1_0.remasterTicketCost or BossRushChapterRemasterHelper.GetPermanentActivityTicketCost(var_1_2, var_1_0.seriesId)
+	local var_1_16 = getProxy(ChapterProxy)
+
+	if var_1_15 > 0 and var_1_15 > var_1_16.remasterTickets then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_remaster_tickets_not_enough"))
+		arg_1_0:sendNotification(GAME.BOSSRUSH_TRACE_ERROR)
+
+		return
+	end
+
 	pg.ConnectionMgr.GetInstance():Send(11202, {
 		cmd = 1,
 		activity_id = var_1_2,
@@ -107,6 +117,10 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 					oil = var_1_13
 				})
 				getProxy(PlayerProxy):updatePlayer(var_4_0)
+			end
+
+			if var_1_15 > 0 then
+				var_1_16:updateRemasterTicketsNum(var_1_16.remasterTickets - var_1_15)
 			end
 
 			;(function()

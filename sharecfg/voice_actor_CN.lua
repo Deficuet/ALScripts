@@ -2060,4 +2060,16 @@ end)()
 		code = 511,
 		actor_name = "和久野愛佳"
 	}
+	pg.base.voice_actor_CN[512] = {
+		code = 512,
+		actor_name = "小鹿奈绪"
+	}
+	pg.base.voice_actor_CN[513] = {
+		code = 513,
+		actor_name = "三浦千幸"
+	}
+	pg.base.voice_actor_CN[514] = {
+		code = 514,
+		actor_name = "星谷美绪"
+	}
 end)()

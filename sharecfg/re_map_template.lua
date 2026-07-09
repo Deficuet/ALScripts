@@ -50,17 +50,19 @@ pg.re_map_template.all = {
 	46,
 	47,
 	48,
-	49
+	49,
+	50
 }
 pg.base = pg.base or {}
 pg.base.re_map_template = {}
 
 ;(function()
 	pg.base.re_map_template[1] = {
-		memory_group = 108,
+		activity_id = 0,
 		name = "红染常驻复刻",
-		activity_type = 1,
 		id = 1,
+		activity_type = 1,
+		memory_group = 108,
 		bg = "temp_hongran",
 		order = 1,
 		config_data = {
@@ -124,13 +126,15 @@ pg.base.re_map_template = {}
 				},
 				"D3"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[2] = {
-		memory_group = 101,
+		activity_id = 0,
 		name = "Z舰队常驻复刻",
-		activity_type = 2,
 		id = 2,
+		activity_type = 2,
+		memory_group = 101,
 		bg = "temp_zjiandui",
 		order = 2,
 		config_data = {
@@ -167,13 +171,15 @@ pg.base.re_map_template = {}
 				},
 				"SP3"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[4] = {
-		memory_group = 123,
+		activity_id = 0,
 		name = "凛冬常驻复刻",
-		activity_type = 1,
 		id = 4,
+		activity_type = 1,
+		memory_group = 123,
 		bg = "temp_lingdong",
 		order = 4,
 		config_data = {
@@ -237,13 +243,15 @@ pg.base.re_map_template = {}
 				},
 				"D3"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[5] = {
-		memory_group = 117,
+		activity_id = 0,
 		name = "围剿斯佩伯爵』常驻复刻",
-		activity_type = 2,
 		id = 5,
+		activity_type = 2,
+		memory_group = 117,
 		bg = "temp_sipei",
 		order = 5,
 		config_data = {
@@ -273,13 +281,15 @@ pg.base.re_map_template = {}
 				},
 				"SP2"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[6] = {
-		memory_group = 102,
+		activity_id = 0,
 		name = "异色格常驻复刻",
-		activity_type = 1,
 		id = 6,
+		activity_type = 1,
+		memory_group = 102,
 		bg = "temp_yisege",
 		order = 6,
 		config_data = {
@@ -351,13 +361,15 @@ pg.base.re_map_template = {}
 				},
 				"D1"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[7] = {
-		memory_group = 115,
+		activity_id = 0,
 		name = "坠落之翼常驻复刻",
-		activity_type = 1,
 		id = 7,
+		activity_type = 1,
+		memory_group = 115,
 		bg = "temp_zhuiluo",
 		order = 7,
 		config_data = {
@@ -421,13 +433,15 @@ pg.base.re_map_template = {}
 				},
 				"D3"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[8] = {
-		memory_group = 133,
+		activity_id = 0,
 		name = "鸢尾之华常驻复刻",
-		activity_type = 1,
 		id = 8,
+		activity_type = 1,
+		memory_group = 133,
 		bg = "temp_yuanwei",
 		order = 8,
 		config_data = {
@@ -491,13 +505,15 @@ pg.base.re_map_template = {}
 				},
 				"D3"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[9] = {
-		memory_group = 131,
+		activity_id = 0,
 		name = "墨染的钢铁之花常驻复刻",
-		activity_type = 1,
 		id = 9,
+		activity_type = 1,
+		memory_group = 131,
 		bg = "temp_moran",
 		order = 9,
 		config_data = {
@@ -561,13 +577,15 @@ pg.base.re_map_template = {}
 				},
 				"D2"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[10] = {
-		memory_group = 109,
+		activity_id = 0,
 		name = "光荣的一战常驻复刻",
-		activity_type = 2,
 		id = 10,
+		activity_type = 2,
+		memory_group = 109,
 		bg = "temp_guangrong",
 		order = 10,
 		config_data = {
@@ -604,13 +622,15 @@ pg.base.re_map_template = {}
 				},
 				"SP2"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[11] = {
-		memory_group = 148,
+		activity_id = 0,
 		name = "苍红的回响常驻复刻",
-		activity_type = 1,
 		id = 11,
+		activity_type = 1,
+		memory_group = 148,
 		bg = "temp_tiancheng",
 		order = 11,
 		config_data = {
@@ -674,13 +694,15 @@ pg.base.re_map_template = {}
 				},
 				"D3"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[12] = {
-		memory_group = 132,
+		activity_id = 0,
 		name = "月光下的序曲常驻复刻",
-		activity_type = 2,
 		id = 12,
+		activity_type = 2,
+		memory_group = 132,
 		bg = "temp_xinaoerliang",
 		order = 12,
 		config_data = {
@@ -703,13 +725,15 @@ pg.base.re_map_template = {}
 				},
 				"SP3"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[13] = {
-		memory_group = 158,
+		activity_id = 0,
 		name = "俾斯麦常驻复刻",
-		activity_type = 1,
 		id = 13,
+		activity_type = 1,
+		memory_group = 158,
 		bg = "temp_bisimai",
 		order = 13,
 		config_data = {
@@ -773,13 +797,15 @@ pg.base.re_map_template = {}
 				},
 				"B2、B3、D2、D3"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[14] = {
-		memory_group = 172,
+		activity_id = 0,
 		name = "偶像一期常驻复刻",
-		activity_type = 2,
 		id = 14,
+		activity_type = 2,
+		memory_group = 172,
 		bg = "temp_ouxiang",
 		order = 14,
 		config_data = {
@@ -821,13 +847,15 @@ pg.base.re_map_template = {}
 				},
 				"SP5"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[15] = {
-		memory_group = 167,
+		activity_id = 0,
 		name = "神圣的悲喜剧常驻复刻",
-		activity_type = 1,
 		id = 15,
+		activity_type = 1,
+		memory_group = 167,
 		bg = "temp_beixiju",
 		order = 15,
 		config_data = {
@@ -899,13 +927,15 @@ pg.base.re_map_template = {}
 				},
 				"D3"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[16] = {
-		memory_group = 145,
+		activity_id = 0,
 		name = "斯图尔特的硝烟常驻复刻",
-		activity_type = 2,
 		id = 16,
+		activity_type = 2,
+		memory_group = 145,
 		bg = "temp_longxiang",
 		order = 16,
 		config_data = {
@@ -928,13 +958,15 @@ pg.base.re_map_template = {}
 				},
 				"SP3"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[17] = {
-		memory_group = 163,
+		activity_id = 0,
 		name = "箱庭疗法常驻复刻",
-		activity_type = 1,
 		id = 17,
+		activity_type = 1,
+		memory_group = 163,
 		bg = "temp_xiangting",
 		order = 17,
 		config_data = {
@@ -1014,13 +1046,15 @@ pg.base.re_map_template = {}
 				},
 				"D3"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[18] = {
-		memory_group = 177,
+		activity_id = 0,
 		name = "浮樱影华常驻复刻",
-		activity_type = 1,
 		id = 18,
+		activity_type = 1,
+		memory_group = 177,
 		bg = "temp_fuying",
 		order = 18,
 		config_data = {
@@ -1084,13 +1118,15 @@ pg.base.re_map_template = {}
 				},
 				"D2"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[19] = {
-		memory_group = 170,
+		activity_id = 0,
 		name = "最珍贵的宝物常驻复刻",
-		activity_type = 2,
 		id = 19,
+		activity_type = 2,
+		memory_group = 170,
 		bg = "temp_u110",
 		order = 19,
 		config_data = {
@@ -1113,13 +1149,15 @@ pg.base.re_map_template = {}
 				},
 				"SP3"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[20] = {
-		memory_group = 191,
+		activity_id = 0,
 		name = "偶像二期常驻复刻",
-		activity_type = 2,
 		id = 20,
+		activity_type = 2,
+		memory_group = 191,
 		bg = "temp_ouxiang2",
 		order = 20,
 		config_data = {
@@ -1161,13 +1199,15 @@ pg.base.re_map_template = {}
 				},
 				"SP5"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[21] = {
-		memory_group = 183,
+		activity_id = 0,
 		name = "微层混合常驻复刻",
-		activity_type = 1,
 		id = 21,
+		activity_type = 1,
+		memory_group = 183,
 		bg = "temp_weiceng",
 		order = 21,
 		config_data = {
@@ -1231,13 +1271,15 @@ pg.base.re_map_template = {}
 				},
 				"C2"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[22] = {
-		memory_group = 151,
+		activity_id = 0,
 		name = "峡湾间的星辰常驻复刻",
-		activity_type = 2,
 		id = 22,
+		activity_type = 2,
+		memory_group = 151,
 		bg = "temp_yonggan",
 		order = 22,
 		config_data = {
@@ -1262,13 +1304,15 @@ pg.base.re_map_template = {}
 				},
 				"SP3"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[23] = {
-		memory_group = 186,
+		activity_id = 0,
 		name = "穹顶下的圣咏曲常驻复刻",
-		activity_type = 1,
 		id = 23,
+		activity_type = 1,
+		memory_group = 186,
 		bg = "temp_zhende",
 		order = 23,
 		config_data = {
@@ -1332,13 +1376,15 @@ pg.base.re_map_template = {}
 				},
 				"D2"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[24] = {
-		memory_group = 185,
+		activity_id = 0,
 		name = "夜幕下的归途常驻复刻",
-		activity_type = 2,
 		id = 24,
+		activity_type = 2,
+		memory_group = 185,
 		bg = "temp_taertu",
 		order = 24,
 		config_data = {
@@ -1361,13 +1407,15 @@ pg.base.re_map_template = {}
 				},
 				"SP3"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[25] = {
-		memory_group = 181,
+		activity_id = 0,
 		name = "北境序曲常驻复刻",
-		activity_type = 1,
 		id = 25,
+		activity_type = 1,
+		memory_group = 181,
 		bg = "temp_qiaba",
 		order = 25,
 		config_data = {
@@ -1431,13 +1479,15 @@ pg.base.re_map_template = {}
 				},
 				"D2"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[26] = {
-		memory_group = 188,
+		activity_id = 0,
 		name = "永夜幻光常驻复刻",
-		activity_type = 1,
 		id = 26,
+		activity_type = 1,
+		memory_group = 188,
 		bg = "temp_hemin",
 		order = 26,
 		config_data = {
@@ -1501,13 +1551,15 @@ pg.base.re_map_template = {}
 				},
 				"D1"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[27] = {
-		memory_group = 187,
+		activity_id = 0,
 		name = "峡湾间的反击常驻复刻",
-		activity_type = 2,
 		id = 27,
+		activity_type = 2,
+		memory_group = 187,
 		bg = "temp_aisijimoren",
 		order = 27,
 		config_data = {
@@ -1530,13 +1582,15 @@ pg.base.re_map_template = {}
 				},
 				"SP3"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[28] = {
-		memory_group = 194,
+		activity_id = 0,
 		name = "负象限作战常驻复刻",
-		activity_type = 1,
 		id = 28,
+		activity_type = 1,
+		memory_group = 194,
 		bg = "temp_u37",
 		order = 28,
 		config_data = {
@@ -1600,13 +1654,15 @@ pg.base.re_map_template = {}
 				},
 				"D1"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[29] = {
-		memory_group = 189,
+		activity_id = 0,
 		name = "蝶海梦花常驻复刻",
-		activity_type = 1,
 		id = 29,
+		activity_type = 1,
+		memory_group = 189,
 		bg = "temp_xinnong",
 		order = 29,
 		config_data = {
@@ -1678,13 +1734,15 @@ pg.base.re_map_template = {}
 				},
 				"HT4"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[30] = {
-		memory_group = 198,
+		activity_id = 0,
 		name = "镜位螺旋常驻复刻",
-		activity_type = 1,
 		id = 30,
+		activity_type = 1,
+		memory_group = 198,
 		bg = "temp_xinzexi",
 		order = 30,
 		config_data = {
@@ -1748,13 +1806,15 @@ pg.base.re_map_template = {}
 				},
 				"D1"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[31] = {
-		memory_group = 195,
+		activity_id = 0,
 		name = "破晓冰华常驻复刻",
-		activity_type = 1,
 		id = 31,
+		activity_type = 1,
+		memory_group = 195,
 		bg = "temp_talin",
 		order = 31,
 		config_data = {
@@ -1818,13 +1878,15 @@ pg.base.re_map_template = {}
 				},
 				"D1"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[32] = {
-		memory_group = 190,
+		activity_id = 0,
 		name = "划破海空之翼常驻复刻",
-		activity_type = 2,
 		id = 32,
+		activity_type = 2,
+		memory_group = 190,
 		bg = "temp_pulinsidun",
 		order = 32,
 		config_data = {
@@ -1847,13 +1909,15 @@ pg.base.re_map_template = {}
 				},
 				"SP3"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[33] = {
-		memory_group = 203,
+		activity_id = 0,
 		name = "杰诺瓦的焰火常驻复刻",
-		activity_type = 2,
 		id = 33,
+		activity_type = 2,
+		memory_group = 203,
 		bg = "temp_fuxv",
 		order = 33,
 		config_data = {
@@ -1876,13 +1940,15 @@ pg.base.re_map_template = {}
 				},
 				"SP3"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[34] = {
-		memory_group = 202,
+		activity_id = 0,
 		name = "碧海光粼常驻复刻",
-		activity_type = 1,
 		id = 34,
+		activity_type = 1,
+		memory_group = 202,
 		bg = "temp_daofeng",
 		order = 34,
 		config_data = {
@@ -1946,13 +2012,15 @@ pg.base.re_map_template = {}
 				},
 				"D1"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[35] = {
-		memory_group = 196,
+		activity_id = 0,
 		name = "复兴的赞美诗常驻复刻",
-		activity_type = 1,
 		id = 35,
+		activity_type = 1,
+		memory_group = 196,
 		bg = "temp_weineituo",
 		order = 35,
 		config_data = {
@@ -2016,13 +2084,15 @@ pg.base.re_map_template = {}
 				},
 				"D1"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[36] = {
-		memory_group = 207,
+		activity_id = 0,
 		name = "逆转彩虹之塔常驻复刻",
-		activity_type = 1,
 		id = 36,
+		activity_type = 1,
+		memory_group = 207,
 		bg = "temp_huteng",
 		order = 36,
 		config_data = {
@@ -2090,13 +2160,15 @@ pg.base.re_map_template = {}
 				},
 				"D1"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[37] = {
-		memory_group = 211,
+		activity_id = 0,
 		name = "深度回音常驻复刻",
-		activity_type = 1,
 		id = 37,
+		activity_type = 1,
+		memory_group = 211,
 		bg = "temp_kalangshitade",
 		order = 37,
 		config_data = {
@@ -2160,13 +2232,15 @@ pg.base.re_map_template = {}
 				},
 				"D1"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[38] = {
-		memory_group = 212,
+		activity_id = 0,
 		name = "虚像构筑之塔常驻复刻",
-		activity_type = 2,
 		id = 38,
+		activity_type = 2,
+		memory_group = 212,
 		bg = "temp_diguo",
 		order = 38,
 		config_data = {
@@ -2207,13 +2281,15 @@ pg.base.re_map_template = {}
 				},
 				"SP4"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[39] = {
-		memory_group = 218,
+		activity_id = 0,
 		name = "泠誓光庭常驻复刻",
-		activity_type = 1,
 		id = 39,
+		activity_type = 1,
+		memory_group = 218,
 		bg = "temp_qianwei",
 		order = 39,
 		config_data = {
@@ -2277,13 +2353,15 @@ pg.base.re_map_template = {}
 				},
 				"D1"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[40] = {
-		memory_group = 223,
+		activity_id = 0,
 		name = "雄鹰的叙事歌常驻复刻",
-		activity_type = 1,
 		id = 40,
+		activity_type = 1,
+		memory_group = 223,
 		bg = "temp_luoma",
 		order = 40,
 		config_data = {
@@ -2347,13 +2425,15 @@ pg.base.re_map_template = {}
 				},
 				"D1"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[41] = {
-		memory_group = 215,
+		activity_id = 0,
 		name = "虹彩的终幕曲常驻复刻",
-		activity_type = 1,
 		id = 41,
+		activity_type = 1,
+		memory_group = 215,
 		bg = "temp_aimudeng",
 		order = 41,
 		config_data = {
@@ -2417,13 +2497,15 @@ pg.base.re_map_template = {}
 				},
 				"D2"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[42] = {
-		memory_group = 263,
+		activity_id = 0,
 		name = "飓风与青春之泉常驻复刻",
-		activity_type = 2,
 		id = 42,
+		activity_type = 2,
+		memory_group = 263,
 		bg = "temp_fengfanv1",
 		order = 42,
 		config_data = {
@@ -2468,13 +2550,15 @@ pg.base.re_map_template = {}
 				},
 				"T6"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[43] = {
-		memory_group = 226,
+		activity_id = 0,
 		name = "紫绛槿岚常驻复刻",
-		activity_type = 1,
 		id = 43,
+		activity_type = 1,
+		memory_group = 226,
 		bg = "temp_wuzang",
 		order = 43,
 		config_data = {
@@ -2538,13 +2622,15 @@ pg.base.re_map_template = {}
 				},
 				"D2"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[44] = {
-		memory_group = 235,
+		activity_id = 0,
 		name = "定向折叠常驻复刻",
-		activity_type = 1,
 		id = 44,
+		activity_type = 1,
+		memory_group = 235,
 		bg = "temp_yuekechengII",
 		order = 44,
 		config_data = {
@@ -2608,13 +2694,15 @@ pg.base.re_map_template = {}
 				},
 				"D2"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[45] = {
-		memory_group = 240,
+		activity_id = 0,
 		name = "湮烬尘墟常驻复刻",
-		activity_type = 1,
 		id = 45,
+		activity_type = 1,
+		memory_group = 240,
 		bg = "temp_yuanchou",
 		order = 45,
 		config_data = {
@@ -2678,13 +2766,15 @@ pg.base.re_map_template = {}
 				},
 				"C2"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[46] = {
-		memory_group = 224,
+		activity_id = 0,
 		name = "远汇点作战常驻复刻",
-		activity_type = 2,
 		id = 46,
+		activity_type = 2,
+		memory_group = 224,
 		bg = "temp_bulunxierde",
 		order = 46,
 		config_data = {
@@ -2725,13 +2815,15 @@ pg.base.re_map_template = {}
 				},
 				"SP4"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[47] = {
-		memory_group = 251,
+		activity_id = 0,
 		name = "奏响鸢尾之歌常驻复刻",
-		activity_type = 2,
 		id = 47,
+		activity_type = 2,
+		memory_group = 251,
 		bg = "temp_masaiqu",
 		order = 47,
 		config_data = {
@@ -2754,13 +2846,15 @@ pg.base.re_map_template = {}
 				},
 				"SP3"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[48] = {
-		memory_group = 245,
+		activity_id = 0,
 		name = "空相交汇点常驻复刻",
-		activity_type = 1,
 		id = 48,
+		activity_type = 1,
+		memory_group = 245,
 		bg = "temp_bisimaiz",
 		order = 48,
 		config_data = {
@@ -2832,13 +2926,15 @@ pg.base.re_map_template = {}
 				},
 				"HT5"
 			}
-		}
+		},
+		tickets = {}
 	}
 	pg.base.re_map_template[49] = {
-		memory_group = 293,
+		activity_id = 0,
 		name = "幻梦间奏曲常驻复刻",
-		activity_type = 2,
 		id = 49,
+		activity_type = 2,
+		memory_group = 293,
 		bg = "temp_sitelasibao",
 		order = 49,
 		config_data = {
@@ -2883,6 +2979,42 @@ pg.base.re_map_template = {}
 				},
 				"HT3"
 			}
+		},
+		tickets = {}
+	}
+	pg.base.re_map_template[50] = {
+		activity_id = 50521,
+		name = "极地风暴常驻复刻",
+		id = 50,
+		activity_type = 3,
+		memory_group = 241,
+		bg = "temp_kuersike",
+		order = 50,
+		config_data = {
+			1001001,
+			1001002,
+			1001003
+		},
+		chapter_progress = {
+			33,
+			66,
+			100
+		},
+		drop_gain = {},
+		drop_display_sp = {},
+		drop_display = {
+			{
+				{
+					2,
+					11042
+				},
+				"TC3"
+			}
+		},
+		tickets = {
+			1,
+			2,
+			3
 		}
 	}
 end)()

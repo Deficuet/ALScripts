@@ -7,6 +7,57 @@ var_0_0.word_legal_template_16 = {}
 local var_0_1 = var_0_0.word_legal_template_16
 
 function temp()
+	var_0_1.湊 = {
+		阿 = {
+			库 = {
+				娅 = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.紫 = {
+		咲 = {
+			诗 = {
+				音 = {
+					this = true
+				}
+			}
+		},
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.穗 = {
+		香 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.凪 = {
+		咲 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.环 = {
 		this = {
 			this = true

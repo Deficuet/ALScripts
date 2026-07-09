@@ -73,16 +73,16 @@ function var_0_0.OnInit(arg_2_0)
 
 				setText(var_5_5:Find("dec1/index"), arg_5_1 < 10 and "0" .. arg_5_1 or arg_5_1)
 
-				local var_5_6 = 0
-
-				for iter_5_0, iter_5_1 in ipairs(var_5_0.config_data) do
-					if var_2_0:getChapterById(iter_5_1):isClear() then
-						var_5_6 = math.max(var_5_6, var_5_0.chapter_progress[iter_5_0])
-					end
-				end
+				local var_5_6 = BossRushChapterRemasterHelper.GetProgress(var_5_0.id)
 
 				setText(var_5_5:Find("progress/Text"), var_5_6 .. "%")
 				onButton(arg_2_0, var_5_1, function()
+					if BossRushChapterRemasterHelper.IsRemasterByActivity(var_5_0.id) then
+						arg_2_0:HandleActTypeRemaster(var_5_0)
+
+						return
+					end
+
 					local var_8_0 = (function()
 						local var_9_0 = pg.chapter_template[var_5_0.config_data[1]].map
 
@@ -102,19 +102,7 @@ function var_0_0.OnInit(arg_2_0)
 					end
 				end, SFX_PANEL)
 
-				local var_5_7
-
-				for iter_5_2, iter_5_3 in ipairs(var_5_0.drop_gain) do
-					if #iter_5_3 > 0 and var_2_0.remasterInfo[iter_5_3[1]][iter_5_2].receive == false then
-						var_5_7 = {
-							iter_5_2,
-							iter_5_3
-						}
-
-						break
-					end
-				end
-
+				local var_5_7 = BossRushChapterRemasterHelper.ChapterAwardInfo(var_5_0.id)
 				local var_5_8 = underscore.rest(var_5_0.drop_display, 1)
 
 				if var_5_7 then
@@ -129,40 +117,50 @@ function var_0_0.OnInit(arg_2_0)
 					setActive(arg_10_0, false)
 				end)
 
-				for iter_5_4, iter_5_5 in ipairs(var_5_8) do
-					local var_5_10 = iter_5_4 > var_5_9.childCount and cloneTplTo(var_5_9:GetChild(0), var_5_9) or var_5_9:GetChild(iter_5_4 - 1)
+				for iter_5_0, iter_5_1 in ipairs(var_5_8) do
+					local var_5_10 = iter_5_0 > var_5_9.childCount and cloneTplTo(var_5_9:GetChild(0), var_5_9) or var_5_9:GetChild(iter_5_0 - 1)
 
 					setActive(var_5_10, true)
 
-					if var_5_7 and iter_5_4 == 1 then
+					if var_5_7 and iter_5_0 == 1 then
 						local var_5_11 = var_5_7[1]
-						local var_5_12, var_5_13, var_5_14, var_5_15 = unpack(var_5_7[2])
-						local var_5_16 = var_2_0.remasterInfo[var_5_12][var_5_11]
+						local var_5_12, var_5_13, var_5_14, var_5_15, var_5_16 = unpack(var_5_7[2])
+						local var_5_17 = var_5_7[3]
+						local var_5_18 = var_2_0:getRemasterInfo(var_5_17, var_5_12, var_5_11)
 
-						setActive(var_5_4, var_5_15 <= var_5_16.count)
-						setActive(var_5_10:Find("mark"), var_5_15 > var_5_16.count)
-						setActive(var_5_10:Find("Slider"), var_5_15 > var_5_16.count)
-						setActive(var_5_10:Find("achieve"), var_5_15 <= var_5_16.count)
-						setSlider(var_5_10:Find("Slider"), 0, var_5_15, var_5_16.count)
+						setActive(var_5_4, var_5_15 <= var_5_18.count)
+						setActive(var_5_10:Find("mark"), var_5_15 > var_5_18.count)
+						setActive(var_5_10:Find("Slider"), var_5_15 > var_5_18.count)
+						setActive(var_5_10:Find("achieve"), var_5_15 <= var_5_18.count)
+						setSlider(var_5_10:Find("Slider"), 0, var_5_15, var_5_18.count)
 
-						local var_5_17 = {
+						local var_5_19 = {
 							type = var_5_13,
 							id = var_5_14
 						}
 
-						updateDrop(var_5_10:Find("IconTpl"), var_5_17)
+						updateDrop(var_5_10:Find("IconTpl"), var_5_19)
 						onButton(arg_2_0, var_5_10:Find("IconTpl"), function()
+							local var_11_0 = BossRushChapterRemasterHelper.GetAwardName(var_5_17, var_5_12)
+
 							pg.MsgboxMgr.GetInstance():ShowMsgBox({
 								hideYes = true,
 								hideNo = true,
 								type = MSGBOX_TYPE_SINGLE_ITEM,
-								drop = var_5_17,
+								drop = var_5_19,
 								remaster = {
-									word = i18n("level_remaster_tip4", pg.chapter_template[var_5_12].chapter_name),
-									number = var_5_16.count .. "/" .. var_5_15,
-									btn_text = i18n(var_5_16.count < var_5_15 and "level_remaster_tip2" or "level_remaster_tip3"),
+									word = i18n("level_remaster_tip4", var_11_0),
+									number = var_5_18.count .. "/" .. var_5_15,
+									btn_text = i18n(var_5_18.count < var_5_15 and "level_remaster_tip2" or "level_remaster_tip3"),
 									btn_call = function()
-										if var_5_16.count < var_5_15 then
+										if var_5_18.count < var_5_15 then
+											if var_5_17 and var_5_17 > 0 then
+												arg_2_0:emit(LevelMediator2.ON_BOSSRUSH_REMASTER_ACTIVITY, var_5_17)
+												arg_2_0:Hide()
+
+												return
+											end
+
 											local var_12_0 = pg.chapter_template[var_5_12].map
 											local var_12_1, var_12_2 = var_2_0:getMapById(var_12_0):isUnlock()
 
@@ -173,27 +171,27 @@ function var_0_0.OnInit(arg_2_0)
 												arg_2_0:Hide()
 											end
 										else
-											arg_2_0:emit(LevelMediator2.ON_CHAPTER_REMASTER_AWARD, var_5_12, var_5_11)
+											arg_2_0:emit(LevelMediator2.ON_CHAPTER_REMASTER_AWARD, var_5_12, var_5_11, var_5_17)
 										end
 									end
 								}
 							})
 						end, SFX_PANEL)
 					else
-						local var_5_18 = {
-							type = iter_5_5[1][1],
-							id = iter_5_5[1][2]
+						local var_5_20 = {
+							type = iter_5_1[1][1],
+							id = iter_5_1[1][2]
 						}
 
-						updateDrop(var_5_10:Find("IconTpl"), var_5_18)
+						updateDrop(var_5_10:Find("IconTpl"), var_5_20)
 						onButton(arg_2_0, var_5_10:Find("IconTpl"), function()
 							pg.MsgboxMgr.GetInstance():ShowMsgBox({
 								hideYes = true,
 								hideNo = true,
 								type = MSGBOX_TYPE_SINGLE_ITEM,
-								drop = var_5_18,
+								drop = var_5_20,
 								remaster = {
-									word = i18n("level_remaster_tip1") .. iter_5_5[2],
+									word = i18n("level_remaster_tip1") .. iter_5_1[2],
 									btn_text = i18n("text_confirm")
 								}
 							})
@@ -224,101 +222,122 @@ function var_0_0.OnInit(arg_2_0)
 	end, SFX_PANEL)
 end
 
-function var_0_0.OnDestroy(arg_16_0)
-	arg_16_0.onItem = nil
+function var_0_0.HandleActTypeRemaster(arg_16_0, arg_16_1)
+	local var_16_0 = arg_16_1.activity_id
+	local var_16_1 = getProxy(ActivityPermanentProxy)
+	local var_16_2 = var_16_1:GetActivityTypeById(var_16_0)
+	local var_16_3 = var_16_2 and var_16_1:getDoingActivityId(var_16_2)
 
-	if arg_16_0:isShowing() then
-		arg_16_0:Hide()
+	local function var_16_4()
+		arg_16_0:emit(LevelMediator2.ON_BOSSRUSH_REMASTER_ACTIVITY, var_16_0)
+	end
+
+	if var_16_3 and var_16_3 ~= var_16_0 then
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("bossrush_act_remaster_close_prev_one_tip"),
+			onYes = var_16_4
+		})
+
+		return
+	end
+
+	var_16_4()
+end
+
+function var_0_0.OnDestroy(arg_18_0)
+	arg_18_0.onItem = nil
+
+	if arg_18_0:isShowing() then
+		arg_18_0:Hide()
 	end
 end
 
-function var_0_0.Show(arg_17_0)
-	var_0_0.super.Show(arg_17_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_17_0._tf)
+function var_0_0.Show(arg_19_0)
+	var_0_0.super.Show(arg_19_0)
+	pg.UIMgr.GetInstance():BlurPanel(arg_19_0._tf)
 end
 
-function var_0_0.Hide(arg_18_0)
-	var_0_0.super.Hide(arg_18_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_18_0._tf, arg_18_0._parentTf)
+function var_0_0.Hide(arg_20_0)
+	var_0_0.super.Hide(arg_20_0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_20_0._tf, arg_20_0._parentTf)
 end
 
-function var_0_0.set(arg_19_0, arg_19_1, arg_19_2)
-	arg_19_0.templates = {}
+function var_0_0.set(arg_21_0, arg_21_1, arg_21_2)
+	arg_21_0.templates = {}
 
-	for iter_19_0, iter_19_1 in ipairs(pg.re_map_template.all) do
-		local var_19_0 = pg.re_map_template[iter_19_1]
+	for iter_21_0, iter_21_1 in ipairs(pg.re_map_template.all) do
+		local var_21_0 = pg.re_map_template[iter_21_1]
 
-		table.insert(arg_19_0.templates, var_19_0)
+		table.insert(arg_21_0.templates, var_21_0)
 	end
 
-	arg_19_0.onSelectMap = arg_19_1
+	arg_21_0.onSelectMap = arg_21_1
 
-	arg_19_0:flush(arg_19_2)
+	arg_21_0:flush(arg_21_2)
 end
 
-function var_0_0.flush(arg_20_0, arg_20_1)
-	onButton(arg_20_0, arg_20_0._tf:Find("bg"), function()
-		arg_20_0:Hide()
+function var_0_0.flush(arg_22_0, arg_22_1)
+	onButton(arg_22_0, arg_22_0._tf:Find("bg"), function()
+		arg_22_0:Hide()
 	end, SFX_CANCEL)
-	onButton(arg_20_0, arg_20_0.helpBtn, function()
+	onButton(arg_22_0, arg_22_0.helpBtn, function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = i18n("levelScene_remaster_help_tip")
 		})
 	end, SFX_PANEL)
-	arg_20_0:updateTicketDisplay()
+	arg_22_0:updateTicketDisplay()
 
-	local var_20_0 = {
-		arg_20_0.exToggle,
-		arg_20_0.spToggle
+	local var_22_0 = {
+		arg_22_0.exToggle,
+		arg_22_0.spToggle
 	}
-	local var_20_1 = getProxy(ChapterProxy)
+	local var_22_1 = getProxy(ChapterProxy)
 
-	for iter_20_0, iter_20_1 in ipairs(var_20_0) do
-		onToggle(arg_20_0, iter_20_1, function(arg_23_0)
-			if arg_23_0 then
-				arg_20_0.temp = underscore.filter(arg_20_0.templates, function(arg_24_0)
-					return arg_24_0.activity_type == iter_20_0
+	for iter_22_0, iter_22_1 in ipairs(var_22_0) do
+		onToggle(arg_22_0, iter_22_1, function(arg_25_0)
+			if arg_25_0 then
+				arg_22_0.temp = underscore.filter(arg_22_0.templates, function(arg_26_0)
+					return BossRushChapterRemasterHelper.GetExOrSp4Filter(arg_26_0.activity_type) == iter_22_0
 				end)
 
-				table.sort(arg_20_0.temp, CompareFuncs({
-					function(arg_25_0)
-						for iter_25_0, iter_25_1 in ipairs(arg_25_0.drop_gain) do
-							if #iter_25_1 > 0 then
-								local var_25_0, var_25_1, var_25_2, var_25_3 = unpack(iter_25_1)
-								local var_25_4 = var_20_1.remasterInfo[var_25_0][iter_25_0]
+				local var_25_0 = {}
 
-								if not var_25_4.receive and var_25_3 <= var_25_4.count then
-									return 0
-								end
-							end
-						end
+				for iter_25_0, iter_25_1 in ipairs(arg_22_0.temp) do
+					var_25_0[iter_25_1.id] = BossRushChapterRemasterHelper.ExistCanGetAward(iter_25_1.id) and 0 or 1
+				end
 
-						return 1
+				table.sort(arg_22_0.temp, CompareFuncs({
+					function(arg_27_0)
+						return var_25_0[arg_27_0.id] or 1
 					end,
-					function(arg_26_0)
-						return arg_26_0.order
+					function(arg_28_0)
+						return arg_28_0.order
 					end
 				}))
-				arg_20_0.itemList:align(math.max(math.ceil(#arg_20_0.temp / 2) * 2, 4))
+				arg_22_0.itemList:align(math.max(math.ceil(#arg_22_0.temp / 2) * 2, 4))
 			end
 		end, SFX_PANEL)
 	end
 
-	triggerToggle(var_20_0[arg_20_1 and 2 or 1], true)
+	triggerToggle(var_22_0[arg_22_1 and 2 or 1], true)
 end
 
-function var_0_0.flushOnly(arg_27_0)
-	arg_27_0.itemList:align(math.max(math.ceil(#arg_27_0.temp / 2) * 2, 4))
+function var_0_0.MatchType(arg_29_0, arg_29_1, arg_29_2)
+	return arg_29_1 == arg_29_2
 end
 
-function var_0_0.updateTicketDisplay(arg_28_0)
-	local var_28_0 = getProxy(ChapterProxy)
-	local var_28_1 = var_28_0.remasterDailyCount > 0
+function var_0_0.flushOnly(arg_30_0)
+	arg_30_0.itemList:align(math.max(math.ceil(#arg_30_0.temp / 2) * 2, 4))
+end
 
-	SetActive(arg_28_0.getRemasterTF, not var_28_1)
-	SetActive(arg_28_0.gotRemasterTF, var_28_1)
-	setText(arg_28_0.numsTxt, var_28_0.remasterTickets .. "/" .. pg.gameset.reactivity_ticket_max.key_value)
+function var_0_0.updateTicketDisplay(arg_31_0)
+	local var_31_0 = getProxy(ChapterProxy)
+	local var_31_1 = var_31_0.remasterDailyCount > 0
+
+	SetActive(arg_31_0.getRemasterTF, not var_31_1)
+	SetActive(arg_31_0.gotRemasterTF, var_31_1)
+	setText(arg_31_0.numsTxt, var_31_0.remasterTickets .. "/" .. pg.gameset.reactivity_ticket_max.key_value)
 end
 
 return var_0_0

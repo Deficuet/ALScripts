@@ -170703,6 +170703,135 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[21985] = {
+		name = "『科研九期』累消活动  登陆奖励1",
+		guild_coin_award = 0,
+		award = 910336,
+		type = 6,
+		desc = "不应该被看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21985,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21986] = {
+		name = "『科研九期』累消活动  登陆奖励2",
+		guild_coin_award = 0,
+		award = 910337,
+		type = 6,
+		desc = "不应该被看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21986,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				42080,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21987] = {
+		name = "『科研九期』累消活动  登陆奖励3",
+		guild_coin_award = 0,
+		award = 910338,
+		type = 6,
+		desc = "不应该被看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21987,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				42080,
+				4
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[22011] = {
 		name = "新手任务阶段1-任务1",
 		guild_coin_award = 0,
@@ -247572,7 +247701,7 @@ end)()
 
 (function()
 	_G.pg.base.task_data_template[27155] = {
-		name = "华甲皮肤赠送活动七日任务1",
+		name = "艾佛森皮肤赠送活动七日任务1",
 		guild_coin_award = 0,
 		award = 909988,
 		type = 26,
@@ -247617,7 +247746,7 @@ end)()
 
 (function()
 	_G.pg.base.task_data_template[27156] = {
-		name = "华甲皮肤赠送活动七日任务2",
+		name = "艾佛森皮肤赠送活动七日任务2",
 		guild_coin_award = 0,
 		award = 909989,
 		type = 26,
@@ -247660,7 +247789,7 @@ end)()
 
 (function()
 	_G.pg.base.task_data_template[27157] = {
-		name = "华甲皮肤赠送活动七日任务3",
+		name = "艾佛森皮肤赠送活动七日任务3",
 		guild_coin_award = 0,
 		award = 909990,
 		type = 26,
@@ -247703,7 +247832,7 @@ end)()
 
 (function()
 	_G.pg.base.task_data_template[27158] = {
-		name = "华甲皮肤赠送活动七日任务4",
+		name = "艾佛森皮肤赠送活动七日任务4",
 		guild_coin_award = 0,
 		award = 909991,
 		type = 26,
@@ -247746,7 +247875,7 @@ end)()
 
 (function()
 	_G.pg.base.task_data_template[27159] = {
-		name = "华甲皮肤赠送活动七日任务5",
+		name = "艾佛森皮肤赠送活动七日任务5",
 		guild_coin_award = 0,
 		award = 909992,
 		type = 26,
@@ -247789,7 +247918,7 @@ end)()
 
 (function()
 	_G.pg.base.task_data_template[27160] = {
-		name = "华甲皮肤赠送活动七日任务6",
+		name = "艾佛森皮肤赠送活动七日任务6",
 		guild_coin_award = 0,
 		award = 909993,
 		type = 26,
@@ -247832,7 +247961,7 @@ end)()
 
 (function()
 	_G.pg.base.task_data_template[27161] = {
-		name = "华甲皮肤赠送活动七日任务7",
+		name = "艾佛森皮肤赠送活动七日任务7",
 		guild_coin_award = 0,
 		award = 909994,
 		type = 26,
@@ -247875,7 +248004,7 @@ end)()
 
 (function()
 	_G.pg.base.task_data_template[27162] = {
-		name = "华甲皮肤赠送活动七日任务8",
+		name = "艾佛森皮肤赠送活动七日任务8",
 		guild_coin_award = 0,
 		award = 909995,
 		type = 26,
@@ -247918,7 +248047,7 @@ end)()
 
 (function()
 	_G.pg.base.task_data_template[27163] = {
-		name = "华甲皮肤赠送活动七日任务9",
+		name = "艾佛森皮肤赠送活动七日任务9",
 		guild_coin_award = 0,
 		award = 909996,
 		type = 26,
@@ -247961,7 +248090,7 @@ end)()
 
 (function()
 	_G.pg.base.task_data_template[27164] = {
-		name = "华甲皮肤赠送活动七日任务10",
+		name = "艾佛森皮肤赠送活动七日任务10",
 		guild_coin_award = 0,
 		award = 909997,
 		type = 26,
@@ -248004,7 +248133,7 @@ end)()
 
 (function()
 	_G.pg.base.task_data_template[27165] = {
-		name = "华甲皮肤赠送活动七日任务11",
+		name = "艾佛森皮肤赠送活动七日任务11",
 		guild_coin_award = 0,
 		award = 909998,
 		type = 26,
@@ -248047,7 +248176,7 @@ end)()
 
 (function()
 	_G.pg.base.task_data_template[27166] = {
-		name = "华甲皮肤赠送活动七日任务12",
+		name = "艾佛森皮肤赠送活动七日任务12",
 		guild_coin_award = 0,
 		award = 909999,
 		type = 26,
@@ -248090,7 +248219,7 @@ end)()
 
 (function()
 	_G.pg.base.task_data_template[27167] = {
-		name = "华甲皮肤赠送活动七日任务13",
+		name = "艾佛森皮肤赠送活动七日任务13",
 		guild_coin_award = 0,
 		award = 910000,
 		type = 26,
@@ -248133,7 +248262,7 @@ end)()
 
 (function()
 	_G.pg.base.task_data_template[27168] = {
-		name = "华甲皮肤赠送活动七日任务14",
+		name = "艾佛森皮肤赠送活动七日任务14",
 		guild_coin_award = 0,
 		award = 910001,
 		type = 26,
@@ -379482,6 +379611,2098 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[60431] = {
+		name = "邓肯开启研发前置任务",
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		desc = "",
+		count_inherit = 0,
+		sub_type = 1050,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60431,
+		target_num = 700,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60432] = {
+		name = "皇家主力技术测试I",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>为确保研发工程的顺利进行，获取足够多的测试数据是非常有必要的，而最真实有效的数据，无疑来自实战</color>\n\n——使用皇家主力角色，在任意关卡中累计获得<color=#92fc63>100万</color>经验（不同角色可累加）",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60432,
+		target_num = 1000000,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			{
+				2,
+				4
+			},
+			{
+				2,
+				5
+			},
+			{
+				2,
+				6
+			},
+			{
+				2,
+				7
+			},
+			{
+				2,
+				9
+			},
+			{
+				2,
+				10
+			},
+			{
+				2,
+				12
+			},
+			{
+				2,
+				13
+			},
+			{
+				2,
+				21
+			}
+		},
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60433] = {
+		name = "大型技术理论I",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>每一次的研发都意味着大量新技术的引入。在此之前，工程师们已经积累了大量的研发理论，如果能证明这些理论的可行性，势必将加速研发的进程 </color>\n\n——完成<color=#92fc63>5次</color>科研项目的研发",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60433,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60434] = {
+		name = "主力技术突破I",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>大量的实战数据和前沿理论让研发工作迎来了一次突破，这将会是一件完全不同与以往的工程，但在细节部分还需要参考之前的设计图进行比照确认 </color>\n\n——提交<color=#92fc63>10张</color>战列改造图T2",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "18022",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60434,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60435] = {
+		name = "皇家主力技术测试II",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2><color=#92fc63>「需先完成皇家主力技术测试I」</color>\n研发进入了新的阶段，尽管改良后的设计方案在理论上具有更出色的性能，但纸面数据终究不如实战测试来得可靠 </color>\n\n——使用皇家主力角色，在任意关卡中累计获得<color=#92fc63>200万</color>经验（不同角色可累加）",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60435,
+		target_num = 2000000,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			{
+				2,
+				4
+			},
+			{
+				2,
+				5
+			},
+			{
+				2,
+				6
+			},
+			{
+				2,
+				7
+			},
+			{
+				2,
+				9
+			},
+			{
+				2,
+				10
+			},
+			{
+				2,
+				12
+			},
+			{
+				2,
+				13
+			},
+			{
+				2,
+				21
+			}
+		},
+		open_need = {
+			60432
+		},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60436] = {
+		name = "大型技术理论II",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2><color=#92fc63>「需先完成大型技术理论I」</color>\n支撑技术不断革新的理论建设从来没有停下过脚步，工程师们的脑海中无时无刻不在迸发更为大胆、更为激进的想法，现在是时候将这些想法落地了 </color>\n\n——完成<color=#92fc63>8次</color>科研项目的研发",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60436,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {
+			60433
+		},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60437] = {
+		name = "主力技术突破II",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>在更多的数据和理论的帮助下，研发工作迎来了一次巨大的突破，在诸多领域应用了全新的技术。但有几个点，工程师们并没有达成一致，他们需要以往的技术资料进行参考 </color>\n\n——提交<color=#92fc63>5张</color>战列改造图T3",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "18023",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60437,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60438] = {
+		name = "邓肯舰体塑造I",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>漫长而又艰辛的研发工程终于来到了终点，现在只需要完成最后的舰体部分，就能享受来自港区山呼海啸般的祝贺了 </color>\n\n——提交<color=#92fc63>3万</color>物资",
+		count_inherit = 0,
+		sub_type = 1002,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60438,
+		target_num = 30000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60439] = {
+		name = "邓肯舰体塑造II",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>漫长而又艰辛的研发工程终于来到了终点，现在只需要完成最后的舰体部分，就能享受来自港区山呼海啸般的祝贺了 </color>\n\n——提交<color=#92fc63>5个</color>心智魔方",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "20001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60439,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60441] = {
+		name = "高梁开启研发前置任务",
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		desc = "",
+		count_inherit = 0,
+		sub_type = 1050,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "3",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60441,
+		target_num = 1000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60442] = {
+		name = "重樱先锋技术测试I",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>为确保研发工程的顺利进行，获取足够多的测试数据是非常有必要的，而最真实有效的数据，无疑来自实战</color>\n\n——使用重樱先锋角色，在任意关卡中累计获得<color=#92fc63>100万</color>经验（不同角色可累加）",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60442,
+		target_num = 1000000,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				3,
+				18
+			},
+			{
+				3,
+				19
+			},
+			{
+				3,
+				20
+			}
+		},
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60443] = {
+		name = "大型技术理论I ",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>每一次的研发都意味着大量新技术的引入。在此之前，工程师们已经积累了大量的研发理论，如果能证明这些理论的可行性，势必将加速研发的进程</color>\n\n——完成<color=#92fc63>5次</color>科研项目的研发",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60443,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60444] = {
+		name = "先锋技术突破I ",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>大量的实战数据和前沿理论让研发工作迎来了一次突破，这将会是一件完全不同与以往的工程，但在细节部分还需要参考之前的设计图进行比照确认</color>\n\n——提交<color=#92fc63>10张</color>巡洋改造图T2",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "18012",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60444,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60445] = {
+		name = "重樱先锋技术测试II ",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2><color=#92fc63>「需先完成重樱先锋技术测试I」</color>\n研发进入了新的阶段，尽管改良后的设计方案在理论上具有更出色的性能，但纸面数据终究不如实战测试来得可靠</color>\n\n——使用重樱先锋角色，在任意关卡中累计获得<color=#92fc63>200万</color>经验（不同角色可累加）",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60445,
+		target_num = 2000000,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				3,
+				18
+			},
+			{
+				3,
+				19
+			},
+			{
+				3,
+				20
+			}
+		},
+		open_need = {
+			60442
+		},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60446] = {
+		name = "大型技术理论II ",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2><color=#92fc63>「需先完成大型技术理论I」</color>\n支撑技术不断革新的理论建设从来没有停下过脚步，工程师们的脑海中无时无刻不在迸发更为大胆、更为激进的想法，现在是时候将这些想法落地了</color>\n\n——完成<color=#92fc63>8次</color>科研项目的研发",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60446,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {
+			60443
+		},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60447] = {
+		name = "先锋技术突破II ",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>在更多的数据和理论的帮助下，研发工作迎来了一次巨大的突破，在诸多领域应用了全新的技术。但有几个点，工程师们并没有达成一致，他们需要以往的技术资料进行参考</color>\n\n——提交<color=#92fc63>5张</color>巡洋改造图T3",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "18013",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60447,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60448] = {
+		name = "{namecode:313}舰体塑造I",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>漫长而又艰辛的研发工程终于来到了终点，现在只需要完成最后的舰体部分，就能享受来自港区山呼海啸般的祝贺了</color>\n\n——提交<color=#92fc63>2万</color>物资",
+		count_inherit = 0,
+		sub_type = 1002,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60448,
+		target_num = 20000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60449] = {
+		name = "{namecode:313}舰体塑造II",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>漫长而又艰辛的研发工程终于来到了终点，现在只需要完成最后的舰体部分，就能享受来自港区山呼海啸般的祝贺了</color>\n\n——提交<color=#92fc63>5个</color>心智魔方",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "20001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60449,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60451] = {
+		name = "马克斯·殷麦曼开启研发前置任务",
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		desc = "",
+		count_inherit = 0,
+		sub_type = 1050,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "4",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60451,
+		target_num = 1050,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60452] = {
+		name = "铁血主力技术测试I ",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>为确保研发工程的顺利进行，获取足够多的测试数据是非常有必要的，而最真实有效的数据，无疑来自实战</color>\n\n——使用铁血主力角色，在任意关卡中累计获得<color=#92fc63>120万</color>经验（不同角色可累加）",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60452,
+		target_num = 1200000,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			{
+				4,
+				4
+			},
+			{
+				4,
+				5
+			},
+			{
+				4,
+				6
+			},
+			{
+				4,
+				7
+			},
+			{
+				4,
+				9
+			},
+			{
+				4,
+				10
+			},
+			{
+				4,
+				12
+			},
+			{
+				4,
+				13
+			},
+			{
+				4,
+				21
+			}
+		},
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60453] = {
+		name = "大型技术理论I ",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>每一次的研发都意味着大量新技术的引入。在此之前，工程师们已经积累了大量的研发理论，如果能证明这些理论的可行性，势必将加速研发的进程 </color>\n\n——完成<color=#92fc63>8次</color>科研项目的研发",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60453,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60454] = {
+		name = "主力技术突破I ",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>大量的实战数据和前沿理论让研发工作迎来了一次突破，这将会是一件完全不同与以往的工程，但在细节部分还需要参考之前的设计图进行比照确认 </color>\n\n——提交<color=#92fc63>3张</color>航母改造图T3",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "18033",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60454,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60455] = {
+		name = "铁血主力技术测试II ",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2><color=#92fc63>「需先完成铁血主力技术测试I」</color>\n研发进入了新的阶段，尽管改良后的设计方案在理论上具有更出色的性能，但纸面数据终究不如实战测试来得可靠 </color>\n\n——使用铁血主力角色，在任意关卡中累计获得<color=#92fc63>240万</color>经验（不同角色可累加）",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60455,
+		target_num = 2400000,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			{
+				4,
+				4
+			},
+			{
+				4,
+				5
+			},
+			{
+				4,
+				6
+			},
+			{
+				4,
+				7
+			},
+			{
+				4,
+				9
+			},
+			{
+				4,
+				10
+			},
+			{
+				4,
+				12
+			},
+			{
+				4,
+				13
+			},
+			{
+				4,
+				21
+			}
+		},
+		open_need = {
+			60452
+		},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60456] = {
+		name = "大型技术理论II ",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2><color=#92fc63>「需先完成大型技术理论I」</color>\n支撑技术不断革新的理论建设从来没有停下过脚步，工程师们的脑海中无时无刻不在迸发更为大胆、更为激进的想法，现在是时候将这些想法落地了 </color>\n\n——完成<color=#92fc63>12次</color>科研项目的研发",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60456,
+		target_num = 12,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {
+			60453
+		},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60457] = {
+		name = "主力技术突破II ",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>在更多的数据和理论的帮助下，研发工作迎来了一次巨大的突破，在诸多领域应用了全新的技术。但有几个点，工程师们并没有达成一致，他们需要以往的技术资料进行参考 </color>\n\n——提交<color=#92fc63>8张</color>航母改造图T3",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "18033",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60457,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60458] = {
+		name = "{namecode:565}舰体塑造I",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>漫长而又艰辛的研发工程终于来到了终点，现在只需要完成最后的舰体部分，就能享受来自港区山呼海啸般的祝贺了 </color>\n\n——提交<color=#92fc63>5万</color>物资",
+		count_inherit = 0,
+		sub_type = 1002,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60458,
+		target_num = 50000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60459] = {
+		name = "{namecode:565}舰体塑造II",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>漫长而又艰辛的研发工程终于来到了终点，现在只需要完成最后的舰体部分，就能享受来自港区山呼海啸般的祝贺了 </color>\n\n——提交<color=#92fc63>10个</color>心智魔方",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "20001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60459,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60461] = {
+		name = "暴风雨开启研发前置任务",
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		desc = "",
+		count_inherit = 0,
+		sub_type = 1050,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "8",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60461,
+		target_num = 280,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60462] = {
+		name = "鸢尾先锋技术测试I",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>为确保研发工程的顺利进行，获取足够多的测试数据是非常有必要的，而最真实有效的数据，无疑来自实战</color>\n\n——使用自由鸢尾或维希教廷先锋角色，在任意关卡中累计获得<color=#92fc63>100万</color>经验（不同角色可累加）",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60462,
+		target_num = 1000000,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			{
+				8,
+				1
+			},
+			{
+				8,
+				2
+			},
+			{
+				8,
+				3
+			},
+			{
+				8,
+				18
+			},
+			{
+				8,
+				19
+			},
+			{
+				8,
+				20
+			},
+			{
+				9,
+				1
+			},
+			{
+				9,
+				2
+			},
+			{
+				9,
+				3
+			},
+			{
+				9,
+				18
+			},
+			{
+				9,
+				19
+			},
+			{
+				9,
+				20
+			}
+		},
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60463] = {
+		name = "大型技术理论I ",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>每一次的研发都意味着大量新技术的引入。在此之前，工程师们已经积累了大量的研发理论，如果能证明这些理论的可行性，势必将加速研发的进程</color>\n\n——完成<color=#92fc63>5次</color>科研项目的研发",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60463,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60464] = {
+		name = "先锋技术突破I ",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>大量的实战数据和前沿理论让研发工作迎来了一次突破，这将会是一件完全不同与以往的工程，但在细节部分还需要参考之前的设计图进行比照确认</color>\n\n——提交<color=#92fc63>10张</color>驱逐改造图T2",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "18002",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60464,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60465] = {
+		name = "鸢尾先锋技术测试II ",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2><color=#92fc63>「需先完成鸢尾先锋技术测试I」</color>\n研发进入了新的阶段，尽管改良后的设计方案在理论上具有更出色的性能，但纸面数据终究不如实战测试来得可靠</color>\n\n——使用自由鸢尾或维希教廷先锋角色，在任意关卡中累计获得<color=#92fc63>200万</color>经验（不同角色可累加）",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60465,
+		target_num = 2000000,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			{
+				8,
+				1
+			},
+			{
+				8,
+				2
+			},
+			{
+				8,
+				3
+			},
+			{
+				8,
+				18
+			},
+			{
+				8,
+				19
+			},
+			{
+				8,
+				20
+			},
+			{
+				9,
+				1
+			},
+			{
+				9,
+				2
+			},
+			{
+				9,
+				3
+			},
+			{
+				9,
+				18
+			},
+			{
+				9,
+				19
+			},
+			{
+				9,
+				20
+			}
+		},
+		open_need = {
+			60462
+		},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60466] = {
+		name = "大型技术理论II ",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2><color=#92fc63>「需先完成大型技术理论I」</color>\n支撑技术不断革新的理论建设从来没有停下过脚步，工程师们的脑海中无时无刻不在迸发更为大胆、更为激进的想法，现在是时候将这些想法落地了</color>\n\n——完成<color=#92fc63>8次</color>科研项目的研发",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60466,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {
+			60463
+		},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60467] = {
+		name = "先锋技术突破II ",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>在更多的数据和理论的帮助下，研发工作迎来了一次巨大的突破，在诸多领域应用了全新的技术。但有几个点，工程师们并没有达成一致，他们需要以往的技术资料进行参考</color>\n\n——提交<color=#92fc63>5张</color>驱逐改造图T3",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "18003",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60467,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60468] = {
+		name = "暴风雨舰体塑造I",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>漫长而又艰辛的研发工程终于来到了终点，现在只需要完成最后的舰体部分，就能享受来自港区山呼海啸般的祝贺了</color>\n\n——提交<color=#92fc63>2万</color>物资",
+		count_inherit = 0,
+		sub_type = 1002,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60468,
+		target_num = 20000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60469] = {
+		name = "暴风雨舰体塑造II",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>漫长而又艰辛的研发工程终于来到了终点，现在只需要完成最后的舰体部分，就能享受来自港区山呼海啸般的祝贺了</color>\n\n——提交<color=#92fc63>5个</color>心智魔方",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "20001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60469,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60470] = {
+		name = "瓦尔帕莱索开启研发前置任务",
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		desc = "",
+		count_inherit = 0,
+		sub_type = 1050,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60470,
+		target_num = 950,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60471] = {
+		name = "瓦尔帕莱索开启研发前置任务",
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		desc = "",
+		count_inherit = 0,
+		sub_type = 1050,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60471,
+		target_num = 1000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60472] = {
+		name = "皇家主力技术测试I ",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>为确保研发工程的顺利进行，获取足够多的测试数据是非常有必要的，而最真实有效的数据，无疑来自实战</color>\n\n——使用皇家主力角色，在任意关卡中累计获得<color=#92fc63>120万</color>经验（不同角色可累加）",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60472,
+		target_num = 1200000,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			{
+				2,
+				4
+			},
+			{
+				2,
+				5
+			},
+			{
+				2,
+				6
+			},
+			{
+				2,
+				7
+			},
+			{
+				2,
+				9
+			},
+			{
+				2,
+				10
+			},
+			{
+				2,
+				12
+			},
+			{
+				2,
+				13
+			},
+			{
+				2,
+				21
+			}
+		},
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60473] = {
+		name = "大型技术理论I ",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>每一次的研发都意味着大量新技术的引入。在此之前，工程师们已经积累了大量的研发理论，如果能证明这些理论的可行性，势必将加速研发的进程 </color>\n\n——完成<color=#92fc63>8次</color>科研项目的研发",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60473,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60474] = {
+		name = "主力技术突破I ",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>大量的实战数据和前沿理论让研发工作迎来了一次突破，这将会是一件完全不同与以往的工程，但在细节部分还需要参考之前的设计图进行比照确认 </color>\n\n——提交<color=#92fc63>3张</color>战列改造图T3",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "18023",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60474,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60475] = {
+		name = "白鹰主力技术测试II ",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2><color=#92fc63>「需先完成皇家主力技术测试I」</color>\n研发进入了新的阶段，尽管改良后的设计方案在理论上具有更出色的性能，但纸面数据终究不如实战测试来得可靠 </color>\n\n——使用白鹰主力角色，在任意关卡中累计获得<color=#92fc63>240万</color>经验（不同角色可累加）",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60475,
+		target_num = 2400000,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			{
+				1,
+				4
+			},
+			{
+				1,
+				5
+			},
+			{
+				1,
+				6
+			},
+			{
+				1,
+				7
+			},
+			{
+				1,
+				9
+			},
+			{
+				1,
+				10
+			},
+			{
+				1,
+				12
+			},
+			{
+				1,
+				13
+			},
+			{
+				1,
+				21
+			}
+		},
+		open_need = {
+			60472
+		},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60476] = {
+		name = "大型技术理论II ",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2><color=#92fc63>「需先完成大型技术理论I」</color>\n支撑技术不断革新的理论建设从来没有停下过脚步，工程师们的脑海中无时无刻不在迸发更为大胆、更为激进的想法，现在是时候将这些想法落地了 </color>\n\n——完成<color=#92fc63>12次</color>科研项目的研发",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60476,
+		target_num = 12,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {
+			60473
+		},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60477] = {
+		name = "主力技术突破II ",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>在更多的数据和理论的帮助下，研发工作迎来了一次巨大的突破，在诸多领域应用了全新的技术。但有几个点，工程师们并没有达成一致，他们需要以往的技术资料进行参考 </color>\n\n——提交<color=#92fc63>8张</color>战列改造图T3",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "18023",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60477,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60478] = {
+		name = "瓦尔帕莱索舰体塑造I",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>漫长而又艰辛的研发工程终于来到了终点，现在只需要完成最后的舰体部分，就能享受来自港区山呼海啸般的祝贺了 </color>\n\n——提交<color=#92fc63>6万</color>物资",
+		count_inherit = 0,
+		sub_type = 1002,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60478,
+		target_num = 60000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[60479] = {
+		name = "瓦尔帕莱索舰体塑造II",
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		desc = "<color=#a2a2a2>漫长而又艰辛的研发工程终于来到了终点，现在只需要完成最后的舰体部分，就能享受来自港区山呼海啸般的祝贺了 </color>\n\n——提交<color=#92fc63>10个</color>心智魔方",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 30,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "20001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 60479,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[70001] = {
 		name = "大舰队个人任务",
 		guild_coin_award = 0,
@@ -395715,6 +397936,339 @@ end)()
 		story_icon_shift = {
 			0,
 			100
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500261] = {
+		name = "无法忽视的异常",
+		guild_coin_award = 0,
+		award = 500261,
+		type = 5,
+		desc = "提交3个《鱼雷天妇罗》",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "pulimaosi",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "50003",
+		next_task = "500262",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "PULIMAOSI1",
+		tutorial_handbook_pic = "",
+		id = 500261,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500262] = {
+		name = "绝对完美的“刀工”",
+		guild_coin_award = 0,
+		award = 500262,
+		type = 5,
+		desc = "强化任意角色10次",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "pulimaosi",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "PULIMAOSI2",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500263",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500262,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500263] = {
+		name = "游乐园的神枪手",
+		guild_coin_award = 0,
+		award = 500263,
+		type = 5,
+		desc = "普利茅斯上阵出击(关卡)胜利20次",
+		count_inherit = 0,
+		sub_type = 18,
+		target_id_2 = "",
+		story_icon = "pulimaosi",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "PULIMAOSI3",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500264",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "29905",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500263,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500264] = {
+		name = "不被允许的雨",
+		guild_coin_award = 0,
+		award = 500264,
+		type = 5,
+		desc = "累计消耗石油500",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "pulimaosi",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "PULIMAOSI4",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500265",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500264,
+		target_num = 500,
+		activity_client_config = "",
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500265] = {
+		name = "钢铁的烟火",
+		guild_coin_award = 0,
+		award = 500265,
+		type = 5,
+		desc = "普利茅斯好感度达到100",
+		count_inherit = 0,
+		sub_type = 1012,
+		target_id_2 = "",
+		story_icon = "pulimaosi",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "PULIMAOSI5",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500266",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "29905",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500265,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500266] = {
+		name = "羽毛之灾",
+		guild_coin_award = 0,
+		award = 500266,
+		type = 5,
+		desc = "普利茅斯突破至满星",
+		count_inherit = 0,
+		sub_type = 33,
+		target_id_2 = "",
+		story_icon = "pulimaosi",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "PULIMAOSI6",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500267",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "29905",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500266,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18013,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500267] = {
+		name = "眉头皱起的理由",
+		guild_coin_award = 0,
+		award = 500267,
+		type = 5,
+		desc = "普利茅斯等级达到100",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "pulimaosi",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "PULIMAOSI7",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "29905",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500267,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 1,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				16004,
+				1
+			}
 		}
 	}
 end)()

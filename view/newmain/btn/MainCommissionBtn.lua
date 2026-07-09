@@ -5,7 +5,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2, arg_1_3)
 
 	arg_1_0.animTime = arg_1_3 or 0.2
 
-	arg_1_0:bind(GAME.REMOVE_LAYERS, function(arg_2_0, arg_2_1)
+	arg_1_0:bind(NewMainMediator.REMOVE_LAYERS, function(arg_2_0, arg_2_1)
 		arg_1_0:OnRemoveLayer(arg_2_1.context)
 	end)
 end

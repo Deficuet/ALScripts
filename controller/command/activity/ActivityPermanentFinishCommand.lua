@@ -4,6 +4,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_0 = arg_1_1:getBody().activity_id
 
 	pg.ConnectionMgr.GetInstance():Send(11208, {
+		typ = 1,
 		activity_id = var_1_0
 	}, 11209, function(arg_2_0)
 		if arg_2_0.result == 0 then

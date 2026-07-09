@@ -13,11 +13,9 @@ function var_0_0.InitWindow(arg_1_0, arg_1_1, arg_1_2)
 	if var_1_1 and var_1_2 then
 		local var_1_4 = getProxy(ActivityProxy):getActivityById(Item.getConfigData(var_1_0.id).link_id)
 		local var_1_5 = pg.TimeMgr.GetInstance():STimeDescS(var_1_4.stopTime, "%m.%d")
-		local var_1_6
+		local var_1_6 = var_1_4:IsMaintenanceFinish() and "eventshop_time_hint" or "eventshop_time_hint2"
 
-		var_1_6 = var_1_4:IsMaintenanceFinish() and "eventshop_time_hint" or "eventshop_time_hint2"
-
-		setText(arg_1_0.timeLimitTF:Find("Text"), i18n("tip", var_1_5))
+		setText(arg_1_0.timeLimitTF:Find("Text"), i18n(var_1_6, var_1_5))
 	end
 
 	local var_1_7 = Drop.New({

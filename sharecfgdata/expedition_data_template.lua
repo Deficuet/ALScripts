@@ -5908,7 +5908,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -5967,7 +5967,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -6026,7 +6026,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -6085,7 +6085,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -6144,7 +6144,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -6203,7 +6203,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -6262,7 +6262,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -6321,7 +6321,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -6380,7 +6380,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -6439,7 +6439,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -6498,7 +6498,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -6557,7 +6557,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -6616,7 +6616,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -6675,7 +6675,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -6734,7 +6734,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -6793,7 +6793,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -6852,7 +6852,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -6911,7 +6911,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -6970,7 +6970,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -7029,7 +7029,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -7088,7 +7088,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -7147,7 +7147,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -7206,7 +7206,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -7265,7 +7265,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -7324,7 +7324,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -7383,7 +7383,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -7442,7 +7442,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -7501,7 +7501,7 @@ end)()
 		icon_type = 1,
 		icon = "qz1",
 		difficulty = 1,
-		level = 120,
+		level = 125,
 		exp = 0,
 		limit_type = 1,
 		ai = 0,
@@ -7509,6 +7509,183 @@ end)()
 		effect_prefab = "",
 		plot_type = 0,
 		id = 6956,
+		scale = 100,
+		map_id = {
+			{
+				10001,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			60
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[6971] = {
+		sink_limit = 1,
+		name = "战术研修(航空)",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 6971,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "qz1",
+		difficulty = 1,
+		level = 125,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 60,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 6971,
+		scale = 100,
+		map_id = {
+			{
+				90001,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			60
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[6972] = {
+		sink_limit = 1,
+		name = "战术研修(航空)",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 6972,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "qz1",
+		difficulty = 1,
+		level = 125,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 60,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 6972,
+		scale = 100,
+		map_id = {
+			{
+				10001,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			60
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[6973] = {
+		sink_limit = 1,
+		name = "战术研修(航空)",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 6973,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "qz1",
+		difficulty = 1,
+		level = 125,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 60,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 6973,
 		scale = 100,
 		map_id = {
 			{
@@ -10774,6 +10951,301 @@ end)()
 		effect_prefab = "",
 		plot_type = 0,
 		id = 9942,
+		scale = 100,
+		map_id = {
+			{
+				50000,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[9943] = {
+		sink_limit = 1,
+		name = "战术模拟",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 9943,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 100,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 9943,
+		scale = 100,
+		map_id = {
+			{
+				50000,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[9944] = {
+		sink_limit = 1,
+		name = "战术模拟",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 9944,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 100,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 9944,
+		scale = 100,
+		map_id = {
+			{
+				50000,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[9945] = {
+		sink_limit = 1,
+		name = "战术模拟",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 9945,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 100,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 9945,
+		scale = 100,
+		map_id = {
+			{
+				50000,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[9946] = {
+		sink_limit = 1,
+		name = "战术模拟",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 9946,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 100,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 9946,
+		scale = 100,
+		map_id = {
+			{
+				50000,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[9947] = {
+		sink_limit = 1,
+		name = "战术模拟",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 9947,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 100,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 9947,
 		scale = 100,
 		map_id = {
 			{

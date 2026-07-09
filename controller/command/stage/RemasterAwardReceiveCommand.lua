@@ -4,19 +4,21 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_0 = arg_1_1:getBody()
 	local var_1_1 = var_1_0.chapterId
 	local var_1_2 = var_1_0.pos
-	local var_1_3 = getProxy(ChapterProxy)
-	local var_1_4 = var_1_3.remasterInfo[var_1_1]
+	local var_1_3 = var_1_0.actId or 0
+	local var_1_4 = getProxy(ChapterProxy)
+	local var_1_5 = var_1_4:getRemasterInfo(var_1_3, var_1_1, var_1_2)
 
-	if not var_1_4 or var_1_4.receive then
+	if not var_1_5 or var_1_5.receive then
 		return
 	end
 
 	pg.ConnectionMgr.GetInstance():Send(13507, {
 		chapter_id = var_1_1,
-		pos = var_1_2
+		pos = var_1_2,
+		act_id = var_1_3
 	}, 13508, function(arg_2_0)
 		if arg_2_0.result == 0 then
-			var_1_3:markRemasterPassReceive(var_1_1, var_1_2)
+			var_1_4:markRemasterPassReceive(var_1_1, var_1_2, var_1_3)
 
 			local var_2_0 = PlayerConst.addTranDrop(arg_2_0.drop_list)
 

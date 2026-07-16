@@ -64,145 +64,155 @@ end
 function var_0_0.Play(arg_10_0)
 	local var_10_0 = pg.music_collect_config[arg_10_0.list[arg_10_0.index]].music
 
-	if not arg_10_0.cueData then
-		arg_10_0.cueData = CueData.GetCueData()
-	end
+	arg_10_0.cacheMusicName = var_10_0
 
-	arg_10_0.cueData.channelName = pg.CriMgr.C_GALLERY_MUSIC
-	arg_10_0.cueData.cueSheetName = var_10_0
-	arg_10_0.cueData.cueName = ""
+	onNextTick(function()
+		local var_11_0 = CueData.GetCueData()
 
-	CriWareMgr.Inst:PlaySound(arg_10_0.cueData, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function(arg_11_0)
-		arg_10_0.playbackInfo = arg_11_0
+		var_11_0.channelName = pg.CriMgr.C_GALLERY_MUSIC
+		var_11_0.cueSheetName = var_10_0
+		var_11_0.cueName = ""
 
-		arg_10_0.playbackInfo:SetIgnoreAutoUnload(true)
+		CriWareMgr.Inst:PlaySound(var_11_0, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function(arg_12_0)
+			arg_10_0.playbackInfo = arg_12_0
 
-		arg_10_0.finishDic[arg_10_0.index] = true
+			arg_10_0.playbackInfo:SetIgnoreAutoUnload(true)
 
-		existCall(arg_10_0.callbackDic.startCall, arg_10_0.playbackInfo:GetLength())
+			arg_10_0.finishDic[arg_10_0.index] = true
 
-		if not arg_10_0.timer then
-			arg_10_0.timer = Timer.New(function()
-				if not arg_10_0.playbackInfo then
-					return
-				end
+			existCall(arg_10_0.callbackDic.startCall, arg_10_0.playbackInfo:GetLength())
 
-				existCall(arg_10_0.callbackDic.progressCall, arg_10_0.playbackInfo:GetTime())
+			if not arg_10_0.timer then
+				arg_10_0.timer = Timer.New(function()
+					if not arg_10_0.playbackInfo then
+						return
+					end
 
-				if arg_10_0.playbackInfo.playback:GetStatus():ToInt() == 3 then
-					arg_10_0:Finish()
-				end
-			end, 0.033, -1)
+					existCall(arg_10_0.callbackDic.progressCall, arg_10_0.playbackInfo:GetTime())
 
-			arg_10_0.timer:Start()
-		end
+					if arg_10_0.playbackInfo.playback:GetStatus():ToInt() == 3 then
+						arg_10_0:Finish()
+					end
+				end, 0.033, -1)
+
+				arg_10_0.timer:Start()
+			end
+		end)
 	end)
 end
 
-function var_0_0.Stop(arg_13_0)
-	if not arg_13_0.playbackInfo then
+function var_0_0.Stop(arg_14_0)
+	if not arg_14_0.playbackInfo then
 		return
 	end
 
-	arg_13_0.playbackInfo:SetStartTime(0)
-	CriWareMgr.Inst:StopSound(arg_13_0.cueData, CriWareMgr.CRI_FADE_TYPE.NONE)
+	arg_14_0.playbackInfo:SetStartTime(0)
+	arg_14_0.playbackInfo:SetIgnoreAutoUnload(false)
 
-	arg_13_0.playbackInfo = nil
+	local var_14_0 = CueData.GetCueData()
 
-	if arg_13_0.timer then
-		arg_13_0.timer:Stop()
+	var_14_0.channelName = pg.CriMgr.C_GALLERY_MUSIC
+	var_14_0.cueSheetName = arg_14_0.cacheMusicName
+	var_14_0.cueName = ""
 
-		arg_13_0.timer = nil
+	CriWareMgr.Inst:StopSound(var_14_0, CriWareMgr.CRI_FADE_TYPE.NONE)
+
+	arg_14_0.playbackInfo = nil
+
+	if arg_14_0.timer then
+		arg_14_0.timer:Stop()
+
+		arg_14_0.timer = nil
 	end
 end
 
-function var_0_0.Finish(arg_14_0, arg_14_1)
-	arg_14_0:Stop()
+function var_0_0.Finish(arg_15_0, arg_15_1)
+	arg_15_0:Stop()
 
-	if table.getCount(arg_14_0.finishDic) < arg_14_0.count then
-		switch(arg_14_0.loopType, {
+	if table.getCount(arg_15_0.finishDic) < arg_15_0.count then
+		switch(arg_15_0.loopType, {
 			one = function()
-				arg_14_0.index = arg_14_0.index
+				arg_15_0.index = arg_15_0.index
 			end,
 			list = function()
-				arg_14_1 = arg_14_1 or 1
-				arg_14_0.index = (arg_14_0.index + arg_14_1 - 1) % arg_14_0.count + 1
+				arg_15_1 = arg_15_1 or 1
+				arg_15_0.index = (arg_15_0.index + arg_15_1 - 1) % arg_15_0.count + 1
 			end,
 			random = function()
-				local var_17_0 = underscore.filter(underscore.keys(arg_14_0.list), function(arg_18_0)
-					return not arg_14_0.finishDic[arg_18_0]
+				local var_18_0 = underscore.filter(underscore.keys(arg_15_0.list), function(arg_19_0)
+					return not arg_15_0.finishDic[arg_19_0]
 				end)
 
-				arg_14_0.index = var_17_0[math.random(#var_17_0)]
+				arg_15_0.index = var_18_0[math.random(#var_18_0)]
 			end
 		})
-		arg_14_0:Play()
+		arg_15_0:Play()
 	else
-		arg_14_0.list = nil
+		arg_15_0.list = nil
 
-		arg_14_0:Reflush()
+		arg_15_0:Reflush()
 	end
 end
 
-function var_0_0.Next(arg_19_0)
-	arg_19_0:Finish(1)
+function var_0_0.Next(arg_20_0)
+	arg_20_0:Finish(1)
 end
 
-function var_0_0.Last(arg_20_0)
-	arg_20_0:Finish(-1)
+function var_0_0.Last(arg_21_0)
+	arg_21_0:Finish(-1)
 end
 
-function var_0_0.SetProgress(arg_21_0, arg_21_1)
-	if not arg_21_0.playbackInfo then
-		return
-	end
-
-	arg_21_0.progress = arg_21_1
-
-	if not arg_21_0.playbackInfo.playback:IsPaused() then
-		arg_21_0:Resume()
-	end
-end
-
-function var_0_0.Resume(arg_22_0)
+function var_0_0.SetProgress(arg_22_0, arg_22_1)
 	if not arg_22_0.playbackInfo then
 		return
 	end
 
-	if arg_22_0.progress then
-		arg_22_0.playbackInfo:SetStartTimeAndPlay(arg_22_0.progress)
-	else
-		arg_22_0.playbackInfo.playback:Resume(CriWare.CriAtomEx.ResumeMode.PausedPlayback)
+	arg_22_0.progress = arg_22_1
+
+	if not arg_22_0.playbackInfo.playback:IsPaused() then
+		arg_22_0:Resume()
 	end
-
-	arg_22_0.progress = nil
-
-	arg_22_0.timer:Resume()
 end
 
-function var_0_0.Pause(arg_23_0)
+function var_0_0.Resume(arg_23_0)
 	if not arg_23_0.playbackInfo then
 		return
 	end
 
-	arg_23_0.playbackInfo.playback:Pause()
-	arg_23_0.timer:Pause()
+	if arg_23_0.progress then
+		arg_23_0.playbackInfo:SetStartTimeAndPlay(arg_23_0.progress)
+	else
+		arg_23_0.playbackInfo.playback:Resume(CriWare.CriAtomEx.ResumeMode.PausedPlayback)
+	end
+
+	arg_23_0.progress = nil
+
+	arg_23_0.timer:Resume()
 end
 
-function var_0_0.IsPaused(arg_24_0)
+function var_0_0.Pause(arg_24_0)
 	if not arg_24_0.playbackInfo then
 		return
 	end
 
-	return arg_24_0.playbackInfo.playback:IsPaused()
+	arg_24_0.playbackInfo.playback:Pause()
+	arg_24_0.timer:Pause()
 end
 
-function var_0_0.GetCurrentMusicId(arg_25_0)
-	return arg_25_0.list[arg_25_0.index]
+function var_0_0.IsPaused(arg_25_0)
+	if not arg_25_0.playbackInfo then
+		return
+	end
+
+	return arg_25_0.playbackInfo.playback:IsPaused()
 end
 
-function var_0_0.Dispose(arg_26_0)
-	arg_26_0:Stop()
+function var_0_0.GetCurrentMusicId(arg_26_0)
+	return arg_26_0.list[arg_26_0.index]
+end
+
+function var_0_0.Dispose(arg_27_0)
+	arg_27_0:Stop()
 end
 
 return var_0_0

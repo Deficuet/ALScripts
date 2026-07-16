@@ -1115559,6 +1115559,183 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.expedition_data_template[2049001] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2049001,
+		add_icon = "",
+		bgm = "nier-ruinscity-a-1",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "A2",
+		difficulty = 2,
+		level = 30,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 150,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2049001,
+		scale = 100,
+		map_id = {
+			{
+				50094,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			150
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2049002] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2049002,
+		add_icon = "",
+		bgm = "nier-ruinscity-a-1",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "2B",
+		difficulty = 2,
+		level = 60,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 150,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2049002,
+		scale = 100,
+		map_id = {
+			{
+				50094,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			150
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2049003] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2049003,
+		add_icon = "",
+		bgm = "nier-ruinscity-a-1",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "2B",
+		difficulty = 2,
+		level = 90,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 150,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2049003,
+		scale = 100,
+		map_id = {
+			{
+				50094,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			150
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.expedition_data_template[5000001] = {
 		sink_limit = 1,
 		name = "小型侦查舰队",

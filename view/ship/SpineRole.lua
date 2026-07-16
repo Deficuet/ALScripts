@@ -92,6 +92,7 @@ function var_0_0.Init(arg_7_0)
 	arg_7_0._modleAnim = arg_7_0._model:GetComponent("SpineAnimUI")
 	arg_7_0._attachmentList = {}
 	arg_7_0._visible = true
+	arg_7_0._orbitVisible = true
 end
 
 function var_0_0.AttachOrbit(arg_8_0, arg_8_1)
@@ -345,10 +346,9 @@ function var_0_0.ModifyName(arg_26_0, arg_26_1)
 	end
 end
 
-function var_0_0.SetVisible(arg_27_0, arg_27_1)
+function var_0_0.SetOrbitVisible(arg_27_0, arg_27_1)
 	if arg_27_0:CheckInited() then
-		arg_27_0._visible = arg_27_1
-		arg_27_0._modleGraphic.color = Color.New(1, 1, 1, arg_27_1 and 1 or 0)
+		arg_27_0._orbitVisible = arg_27_1
 
 		for iter_27_0, iter_27_1 in pairs(arg_27_0._attachmentList) do
 			SetActive(iter_27_0, arg_27_1)
@@ -356,259 +356,271 @@ function var_0_0.SetVisible(arg_27_0, arg_27_1)
 	end
 end
 
-function var_0_0.SetAnchoredPosition3D(arg_28_0, arg_28_1)
+function var_0_0.SetVisible(arg_28_0, arg_28_1)
 	if arg_28_0:CheckInited() then
-		arg_28_0._modelRoot.transform.anchoredPosition3D = arg_28_1
+		arg_28_0._visible = arg_28_1
+		arg_28_0._orbitVisible = arg_28_1
+		arg_28_0._modleGraphic.color = Color.New(1, 1, 1, arg_28_1 and 1 or 0)
+
+		for iter_28_0, iter_28_1 in pairs(arg_28_0._attachmentList) do
+			SetActive(iter_28_0, arg_28_1)
+		end
 	end
 end
 
-function var_0_0.SetAction(arg_29_0, arg_29_1)
-	if not arg_29_0:CheckInited() then
-		return
+function var_0_0.SetAnchoredPosition3D(arg_29_0, arg_29_1)
+	if arg_29_0:CheckInited() then
+		arg_29_0._modelRoot.transform.anchoredPosition3D = arg_29_1
 	end
-
-	local var_29_0 = math.sign(arg_29_0._rootScale.x)
-	local var_29_1, var_29_2 = SpineAnimUtil.GetCharAnimationDirect(arg_29_0._modleGraphic, var_29_0, arg_29_1)
-
-	if var_29_2 then
-		arg_29_0._model.transform.localScale = Vector3(var_29_0 * math.abs(arg_29_0._modelScale.x), arg_29_0._modelScale.y, arg_29_0._modelScale.z)
-	else
-		arg_29_0._model.transform.localScale = arg_29_0._modelScale
-	end
-
-	arg_29_0._modleAnim:SetAction(var_29_1, 0)
-
-	arg_29_0._action = arg_29_1
-
-	arg_29_0:HiddenAttachmentByAction(arg_29_1)
 end
 
-function var_0_0.SetActionOnce(arg_30_0, arg_30_1)
+function var_0_0.SetAction(arg_30_0, arg_30_1)
 	if not arg_30_0:CheckInited() then
 		return
 	end
 
-	arg_30_0._modleGraphic.AnimationState:SetAnimation(0, arg_30_1, false)
+	local var_30_0 = math.sign(arg_30_0._rootScale.x)
+	local var_30_1, var_30_2 = SpineAnimUtil.GetCharAnimationDirect(arg_30_0._modleGraphic, var_30_0, arg_30_1)
+
+	if var_30_2 then
+		arg_30_0._model.transform.localScale = Vector3(var_30_0 * math.abs(arg_30_0._modelScale.x), arg_30_0._modelScale.y, arg_30_0._modelScale.z)
+	else
+		arg_30_0._model.transform.localScale = arg_30_0._modelScale
+	end
+
+	arg_30_0._modleAnim:SetAction(var_30_1, 0)
+
+	arg_30_0._action = arg_30_1
+
 	arg_30_0:HiddenAttachmentByAction(arg_30_1)
 end
 
-function var_0_0.SetActionCallBack(arg_31_0, arg_31_1)
+function var_0_0.SetActionOnce(arg_31_0, arg_31_1)
 	if not arg_31_0:CheckInited() then
 		return
 	end
 
-	arg_31_0._modleAnim:SetActionCallBack(function(arg_32_0)
-		arg_31_0:changeAttachLListVisible(arg_32_0)
+	arg_31_0._modleGraphic.AnimationState:SetAnimation(0, arg_31_1, false)
+	arg_31_0:HiddenAttachmentByAction(arg_31_1)
+end
 
-		if arg_31_1 then
-			arg_31_1(arg_32_0)
+function var_0_0.SetActionCallBack(arg_32_0, arg_32_1)
+	if not arg_32_0:CheckInited() then
+		return
+	end
+
+	arg_32_0._modleAnim:SetActionCallBack(function(arg_33_0)
+		arg_32_0:changeAttachLListVisible(arg_33_0)
+
+		if arg_32_1 then
+			arg_32_1(arg_33_0)
 		end
 	end)
 end
 
-function var_0_0.changeAttachLListVisible(arg_33_0, arg_33_1)
-	local var_33_0
+function var_0_0.changeAttachLListVisible(arg_34_0, arg_34_1)
+	local var_34_0
 
-	if arg_33_1 == "skin_on" then
-		var_33_0 = true
-	elseif arg_33_1 == "skin_off" then
-		var_33_0 = false
+	if arg_34_1 == "skin_on" then
+		var_34_0 = true
+	elseif arg_34_1 == "skin_off" then
+		var_34_0 = false
 	else
 		return
 	end
 
-	for iter_33_0, iter_33_1 in pairs(arg_33_0._attachmentList) do
-		SetActive(iter_33_0, var_33_0)
-	end
-end
-
-function var_0_0.HiddenAttachmentByAction(arg_34_0, arg_34_1)
 	for iter_34_0, iter_34_1 in pairs(arg_34_0._attachmentList) do
-		SetActive(iter_34_0, not table.contains(iter_34_1.hiddenActionList, arg_34_1) and arg_34_0._visible)
+		SetActive(iter_34_0, var_34_0)
 	end
 end
 
-function var_0_0.SetSizeDelta(arg_35_0, arg_35_1)
-	if arg_35_0:CheckInited() then
-		rtf(arg_35_0._modelRoot).sizeDelta = arg_35_1
+function var_0_0.HiddenAttachmentByAction(arg_35_0, arg_35_1)
+	for iter_35_0, iter_35_1 in pairs(arg_35_0._attachmentList) do
+		SetActive(iter_35_0, not table.contains(iter_35_1.hiddenActionList, arg_35_1) and arg_35_0._orbitVisible)
 	end
 end
 
-function var_0_0.SetModelScale(arg_36_0, arg_36_1)
+function var_0_0.SetSizeDelta(arg_36_0, arg_36_1)
 	if arg_36_0:CheckInited() then
-		arg_36_0._model.transform.localScale = arg_36_1
-		arg_36_0._modelScale = arg_36_1
+		rtf(arg_36_0._modelRoot).sizeDelta = arg_36_1
 	end
 end
 
-function var_0_0.SetLocalScale(arg_37_0, arg_37_1)
+function var_0_0.SetModelScale(arg_37_0, arg_37_1)
 	if arg_37_0:CheckInited() then
-		arg_37_0._rootScale = arg_37_1
-		arg_37_0._modelRoot.transform.localScale = arg_37_1
+		arg_37_0._model.transform.localScale = arg_37_1
+		arg_37_0._modelScale = arg_37_1
+	end
+end
 
-		if arg_37_0._action then
-			arg_37_0:SetAction(arg_37_0._action)
+function var_0_0.SetLocalScale(arg_38_0, arg_38_1)
+	if arg_38_0:CheckInited() then
+		arg_38_0._rootScale = arg_38_1
+		arg_38_0._modelRoot.transform.localScale = arg_38_1
+
+		if arg_38_0._action then
+			arg_38_0:SetAction(arg_38_0._action)
 		end
 	end
 end
 
-function var_0_0.GetLocalScale(arg_38_0)
-	if arg_38_0:CheckInited() then
-		return arg_38_0._modelRoot.transform.localScale
-	end
-end
-
-function var_0_0.SetLocalPosition(arg_39_0, arg_39_1)
+function var_0_0.GetLocalScale(arg_39_0)
 	if arg_39_0:CheckInited() then
-		arg_39_0._modelRoot.transform.localPosition = arg_39_1
+		return arg_39_0._modelRoot.transform.localScale
 	end
 end
 
-function var_0_0.SetAsFirstSibling(arg_40_0)
+function var_0_0.SetLocalPosition(arg_40_0, arg_40_1)
 	if arg_40_0:CheckInited() then
-		arg_40_0._modelRoot.transform:SetAsFirstSibling()
+		arg_40_0._modelRoot.transform.localPosition = arg_40_1
 	end
 end
 
-function var_0_0.SetLayer(arg_41_0, arg_41_1)
+function var_0_0.SetAsFirstSibling(arg_41_0)
 	if arg_41_0:CheckInited() then
-		pg.ViewUtils.SetLayer(arg_41_0._modelRoot.transform, arg_41_1)
+		arg_41_0._modelRoot.transform:SetAsFirstSibling()
 	end
 end
 
-function var_0_0.TweenShining(arg_42_0, arg_42_1, arg_42_2, arg_42_3, arg_42_4, arg_42_5, arg_42_6, arg_42_7, arg_42_8, arg_42_9, arg_42_10)
+function var_0_0.SetLayer(arg_42_0, arg_42_1)
 	if arg_42_0:CheckInited() then
-		arg_42_0:StopTweenShining()
+		pg.ViewUtils.SetLayer(arg_42_0._modelRoot.transform, arg_42_1)
+	end
+end
 
-		local var_42_0 = arg_42_0._modleGraphic.material
-		local var_42_1 = LeanTween.value(arg_42_0._modelRoot, arg_42_3, arg_42_4, arg_42_1):setEase(LeanTweenType.easeInOutSine):setOnUpdate(System.Action_float(function(arg_43_0)
-			if arg_42_7 then
-				var_42_0:SetColor("_Color", Color.Lerp(arg_42_5, arg_42_6, arg_43_0))
+function var_0_0.TweenShining(arg_43_0, arg_43_1, arg_43_2, arg_43_3, arg_43_4, arg_43_5, arg_43_6, arg_43_7, arg_43_8, arg_43_9, arg_43_10)
+	if arg_43_0:CheckInited() then
+		arg_43_0:StopTweenShining()
+
+		local var_43_0 = arg_43_0._modleGraphic.material
+		local var_43_1 = LeanTween.value(arg_43_0._modelRoot, arg_43_3, arg_43_4, arg_43_1):setEase(LeanTweenType.easeInOutSine):setOnUpdate(System.Action_float(function(arg_44_0)
+			if arg_43_7 then
+				var_43_0:SetColor("_Color", Color.Lerp(arg_43_5, arg_43_6, arg_44_0))
 			else
-				arg_42_0._modleGraphic.color = Color.Lerp(arg_42_5, arg_42_6, arg_43_0)
+				arg_43_0._modleGraphic.color = Color.Lerp(arg_43_5, arg_43_6, arg_44_0)
 			end
 
-			existCall(arg_42_9, arg_43_0)
+			existCall(arg_43_9, arg_44_0)
 		end)):setOnComplete(System.Action(function()
-			arg_42_0._tweenShiningId = nil
+			arg_43_0._tweenShiningId = nil
 
-			if arg_42_8 then
-				if arg_42_7 then
-					var_42_0:SetColor("_Color", arg_42_5)
+			if arg_43_8 then
+				if arg_43_7 then
+					var_43_0:SetColor("_Color", arg_43_5)
 				else
-					arg_42_0._modleGraphic.color = arg_42_5
+					arg_43_0._modleGraphic.color = arg_43_5
 				end
 			end
 
-			existCall(arg_42_10)
+			existCall(arg_43_10)
 		end))
 
-		if arg_42_2 then
-			var_42_1:setLoopPingPong(arg_42_2)
+		if arg_43_2 then
+			var_43_1:setLoopPingPong(arg_43_2)
 		end
 
-		arg_42_0._tweenShiningId = var_42_1.uniqueId
+		arg_43_0._tweenShiningId = var_43_1.uniqueId
 	end
 end
 
-function var_0_0.StopTweenShining(arg_45_0)
-	if arg_45_0:CheckInited() and arg_45_0._tweenShiningId then
-		LeanTween.cancel(arg_45_0._tweenShiningId, true)
+function var_0_0.StopTweenShining(arg_46_0)
+	if arg_46_0:CheckInited() and arg_46_0._tweenShiningId then
+		LeanTween.cancel(arg_46_0._tweenShiningId, true)
 
-		arg_45_0._tweenShiningId = nil
+		arg_46_0._tweenShiningId = nil
 	end
 end
 
-function var_0_0.ChangeMaterial(arg_46_0, arg_46_1)
-	if not arg_46_0:CheckInited() then
-		return
-	end
-
-	if not arg_46_0._stageMaterial then
-		arg_46_0._stageMaterial = arg_46_0._modleGraphic.material
-	end
-
-	arg_46_0._modleGraphic.material = arg_46_1
-end
-
-function var_0_0.RevertMaterial(arg_47_0)
+function var_0_0.ChangeMaterial(arg_47_0, arg_47_1)
 	if not arg_47_0:CheckInited() then
 		return
 	end
 
 	if not arg_47_0._stageMaterial then
+		arg_47_0._stageMaterial = arg_47_0._modleGraphic.material
+	end
+
+	arg_47_0._modleGraphic.material = arg_47_1
+end
+
+function var_0_0.RevertMaterial(arg_48_0)
+	if not arg_48_0:CheckInited() then
 		return
 	end
 
-	arg_47_0._modleGraphic.material = arg_47_0._stageMaterial
+	if not arg_48_0._stageMaterial then
+		return
+	end
+
+	arg_48_0._modleGraphic.material = arg_48_0._stageMaterial
 end
 
-function var_0_0.CreateInterface(arg_48_0)
-	arg_48_0._mouseChild = GameObject("mouseChild")
+function var_0_0.CreateInterface(arg_49_0)
+	arg_49_0._mouseChild = GameObject("mouseChild")
 
-	arg_48_0._mouseChild.transform:SetParent(arg_48_0._modelRoot.transform, false)
+	arg_49_0._mouseChild.transform:SetParent(arg_49_0._modelRoot.transform, false)
 
-	arg_48_0._mouseChild.transform.localPosition = Vector3.zero
-	arg_48_0._modelClick = GetOrAddComponent(arg_48_0._mouseChild, "ModelDrag")
-	arg_48_0._modelPress = GetOrAddComponent(arg_48_0._mouseChild, "UILongPressTrigger")
-	arg_48_0._dragDelegate = GetOrAddComponent(arg_48_0._mouseChild, "EventTriggerListener")
+	arg_49_0._mouseChild.transform.localPosition = Vector3.zero
+	arg_49_0._modelClick = GetOrAddComponent(arg_49_0._mouseChild, "ModelDrag")
+	arg_49_0._modelPress = GetOrAddComponent(arg_49_0._mouseChild, "UILongPressTrigger")
+	arg_49_0._dragDelegate = GetOrAddComponent(arg_49_0._mouseChild, "EventTriggerListener")
 
-	arg_48_0._modelClick:Init()
+	arg_49_0._modelClick:Init()
 
-	local var_48_0 = GetOrAddComponent(arg_48_0._mouseChild, typeof(RectTransform))
+	local var_49_0 = GetOrAddComponent(arg_49_0._mouseChild, typeof(RectTransform))
 
-	var_48_0.pivot = Vector2(0.5, 0)
-	var_48_0.anchoredPosition = Vector2(0, 0)
-	var_48_0.localScale = Vector2(100, 100)
-	var_48_0.sizeDelta = Vector2(3, 3)
+	var_49_0.pivot = Vector2(0.5, 0)
+	var_49_0.anchoredPosition = Vector2(0, 0)
+	var_49_0.localScale = Vector2(100, 100)
+	var_49_0.sizeDelta = Vector2(3, 3)
 
-	return arg_48_0._modelClick, arg_48_0._modelPress, arg_48_0._dragDelegate
+	return arg_49_0._modelClick, arg_49_0._modelPress, arg_49_0._dragDelegate
 end
 
-function var_0_0.resumeRole(arg_49_0)
-	if arg_49_0._modleAnim and arg_49_0._modleAnim:GetAnimationState() then
-		arg_49_0._modleAnim:Resume()
+function var_0_0.resumeRole(arg_50_0)
+	if arg_50_0._modleAnim and arg_50_0._modleAnim:GetAnimationState() then
+		arg_50_0._modleAnim:Resume()
 	end
 end
 
-function var_0_0.GetInterface(arg_50_0)
-	return arg_50_0._modelClick, arg_50_0._modelPress, arg_50_0._dragDelegate
+function var_0_0.GetInterface(arg_51_0)
+	return arg_51_0._modelClick, arg_51_0._modelPress, arg_51_0._dragDelegate
 end
 
-function var_0_0.EnableInterface(arg_51_0)
-	arg_51_0._mouseChild:GetComponent(typeof(Image)).enabled = true
+function var_0_0.EnableInterface(arg_52_0)
+	arg_52_0._mouseChild:GetComponent(typeof(Image)).enabled = true
 end
 
-function var_0_0.DisableInterface(arg_52_0)
-	arg_52_0._mouseChild:GetComponent(typeof(Image)).enabled = false
+function var_0_0.DisableInterface(arg_53_0)
+	arg_53_0._mouseChild:GetComponent(typeof(Image)).enabled = false
 end
 
-function var_0_0.Dispose(arg_53_0)
-	if arg_53_0.state == var_0_0.STATE_INITED then
-		arg_53_0._modleAnim:SetActionCallBack(nil)
-		arg_53_0:StopTweenShining()
-		arg_53_0:RevertMaterial()
-		PoolMgr.GetInstance():ReturnSpineChar(arg_53_0.prefabName, arg_53_0._model)
-		arg_53_0:SetVisible(true)
-		arg_53_0._modleGraphic.material:SetColor("_Color", Color.New(0, 0, 0, 0))
+function var_0_0.Dispose(arg_54_0)
+	if arg_54_0.state == var_0_0.STATE_INITED then
+		arg_54_0._modleAnim:SetActionCallBack(nil)
+		arg_54_0:StopTweenShining()
+		arg_54_0:RevertMaterial()
+		PoolMgr.GetInstance():ReturnSpineChar(arg_54_0.prefabName, arg_54_0._model)
+		arg_54_0:SetVisible(true)
+		arg_54_0._modleGraphic.material:SetColor("_Color", Color.New(0, 0, 0, 0))
 
-		arg_53_0._modleGraphic.color = Color.New(1, 1, 1, 1)
+		arg_54_0._modleGraphic.color = Color.New(1, 1, 1, 1)
 
-		for iter_53_0, iter_53_1 in pairs(arg_53_0._attachmentList) do
-			Object.Destroy(iter_53_0.gameObject)
+		for iter_54_0, iter_54_1 in pairs(arg_54_0._attachmentList) do
+			Object.Destroy(iter_54_0.gameObject)
 		end
 
-		arg_53_0._model = nil
-		arg_53_0.prefabName = nil
-		arg_53_0.ship = nil
-		arg_53_0.attachmentData = nil
-		arg_53_0._modleGraphic = nil
-		arg_53_0._modleAnim = nil
-		arg_53_0._attachmentList = nil
-		arg_53_0._sortLayerCount = 0
+		arg_54_0._model = nil
+		arg_54_0.prefabName = nil
+		arg_54_0.ship = nil
+		arg_54_0.attachmentData = nil
+		arg_54_0._modleGraphic = nil
+		arg_54_0._modleAnim = nil
+		arg_54_0._attachmentList = nil
+		arg_54_0._sortLayerCount = 0
 	end
 
-	arg_53_0.state = var_0_0.STATE_DISPOSE
+	arg_54_0.state = var_0_0.STATE_DISPOSE
 end
 
 return var_0_0

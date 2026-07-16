@@ -24,6 +24,9 @@ pg.activity_single_enemy.all = {
 	3001,
 	3002,
 	3003,
+	4001,
+	4002,
+	4003,
 	1000001,
 	1000002,
 	1000003,
@@ -817,6 +820,78 @@ pg.base.activity_single_enemy = {}
 		time = "always",
 		enter_cost = 0,
 		id = 3003,
+		activity_type = 1,
+		extra_drop = "",
+		strategy_id = "",
+		use_oil_limit = {
+			0,
+			0
+		},
+		limitation = {},
+		property_limitation = {}
+	}
+	pg.base.activity_single_enemy[4001] = {
+		expedition_id = 2049001,
+		pre_chapter = 0,
+		count = 0,
+		type = 1,
+		name = "BATTLE-1",
+		enter_cost_drop = 0,
+		strategy_num = 0,
+		icon = "",
+		guardian_limit = 0,
+		level = "30",
+		time = "always",
+		enter_cost = 0,
+		id = 4001,
+		activity_type = 1,
+		extra_drop = "",
+		strategy_id = "",
+		use_oil_limit = {
+			0,
+			0
+		},
+		limitation = {},
+		property_limitation = {}
+	}
+	pg.base.activity_single_enemy[4002] = {
+		expedition_id = 2049002,
+		pre_chapter = 4001,
+		count = 0,
+		type = 1,
+		name = "BATTLE-2",
+		enter_cost_drop = 0,
+		strategy_num = 0,
+		icon = "",
+		guardian_limit = 0,
+		level = "60",
+		time = "always",
+		enter_cost = 0,
+		id = 4002,
+		activity_type = 1,
+		extra_drop = "",
+		strategy_id = "",
+		use_oil_limit = {
+			0,
+			0
+		},
+		limitation = {},
+		property_limitation = {}
+	}
+	pg.base.activity_single_enemy[4003] = {
+		expedition_id = 2049003,
+		pre_chapter = 4002,
+		count = 0,
+		type = 1,
+		name = "BATTLE-3",
+		enter_cost_drop = 0,
+		strategy_num = 0,
+		icon = "",
+		guardian_limit = 0,
+		level = "90",
+		time = "always",
+		enter_cost = 0,
+		id = 4003,
 		activity_type = 1,
 		extra_drop = "",
 		strategy_id = "",

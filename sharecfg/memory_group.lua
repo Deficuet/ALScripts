@@ -278,6 +278,7 @@ pg.memory_group.all = {
 	367,
 	368,
 	369,
+	370,
 	501,
 	502,
 	503,
@@ -7386,6 +7387,22 @@ end)()
 			5249
 		}
 	}
+	pg.base.memory_group[370] = {
+		ship_group = 0,
+		group_id = "",
+		type = 2,
+		link_event = 50841,
+		title = "自动步兵人形之旅",
+		auto_unlock = "",
+		subtype = 2,
+		id = 370,
+		icon = "title_event",
+		memories = {
+			5261,
+			5262,
+			5263
+		}
+	}
 	pg.base.memory_group[501] = {
 		ship_group = 31201,
 		group_id = "",
@@ -7947,6 +7964,8 @@ end)()
 			10000
 		}
 	}
+end)()
+;(function()
 	pg.base.memory_group[527] = {
 		ship_group = 10212,
 		subtype = 0,
@@ -7969,8 +7988,6 @@ end)()
 			10000
 		}
 	}
-end)()
-;(function()
 	pg.base.memory_group[528] = {
 		ship_group = 10127,
 		subtype = 0,
@@ -10204,6 +10221,8 @@ end)()
 			20081
 		}
 	}
+end)()
+;(function()
 	pg.base.memory_group[1003] = {
 		ship_group = 0,
 		group_id = "",
@@ -10263,8 +10282,6 @@ end)()
 			20127
 		}
 	}
-end)()
-;(function()
 	pg.base.memory_group[1004] = {
 		ship_group = 0,
 		group_id = "",

@@ -712,14 +712,12 @@ function var_0_0.BuildFormationIds(arg_90_0)
 		[FleetType.Normal] = 2,
 		[FleetType.Submarine] = 0
 	}
-	local var_90_2 = {
-		[FleetType.Normal] = 1,
-		[FleetType.Submarine] = 1
-	}
 
-	for iter_90_0, iter_90_1 in ipairs(pg.world_stage_template) do
-		if arg_90_0:GetProgress() >= iter_90_1.stage_key then
-			var_90_1[FleetType.Normal] = math.max(var_90_1[FleetType.Normal], iter_90_1.fleet_num)
+	for iter_90_0, iter_90_1 in ipairs(pg.world_stage_template.all) do
+		local var_90_2 = pg.world_stage_template[iter_90_1]
+
+		if arg_90_0:GetProgress() >= var_90_2.stage_key then
+			var_90_1[FleetType.Normal] = math.max(var_90_1[FleetType.Normal], var_90_2.fleet_num)
 		else
 			break
 		end
@@ -729,46 +727,44 @@ function var_0_0.BuildFormationIds(arg_90_0)
 		var_90_1[FleetType.Submarine] = 1
 	end
 
-	for iter_90_2, iter_90_3 in pairs(var_90_0) do
-		for iter_90_4 = 1, var_90_1[iter_90_2] do
-			table.insert(iter_90_3, var_0_1())
+	for iter_90_2, iter_90_3 in ipairs(arg_90_0:IsActivate() and arg_90_0:GetFleets() or arg_90_0:GetDefaultFleets()) do
+		local var_90_3 = iter_90_3:GetFleetType()
+
+		if #var_90_0[var_90_3] < var_90_1[var_90_3] then
+			table.insert(var_90_0[var_90_3], iter_90_3:BuildFormationIds())
 		end
 	end
 
-	for iter_90_5, iter_90_6 in ipairs(arg_90_0:IsActivate() and arg_90_0:GetFleets() or arg_90_0:GetDefaultFleets()) do
-		local var_90_3 = iter_90_6:GetFleetType()
-		local var_90_4 = var_90_2[var_90_3]
-
-		if var_90_4 <= var_90_1[var_90_3] then
-			var_90_0[var_90_3][var_90_4] = iter_90_6:BuildFormationIds()
-			var_90_2[var_90_3] = var_90_4 + 1
+	for iter_90_4, iter_90_5 in pairs(var_90_0) do
+		for iter_90_6 = 1, var_90_1[iter_90_4] do
+			iter_90_5[iter_90_6] = iter_90_5[iter_90_6] or var_0_1()
 		end
 	end
 
-	local var_90_5
-	local var_90_6 = arg_90_0:GetTaskProxy():getTasks()
+	local var_90_4
+	local var_90_5 = arg_90_0:GetTaskProxy():getTasks()
 
-	for iter_90_7, iter_90_8 in pairs(var_90_6) do
+	for iter_90_7, iter_90_8 in pairs(var_90_5) do
 		if iter_90_8.config.complete_condition == WorldConst.TaskTypeFleetExpansion and iter_90_8:isAlive() then
-			var_90_5 = iter_90_8.config.complete_parameter[1]
+			var_90_4 = iter_90_8.config.complete_parameter[1]
 
 			break
 		end
 	end
 
-	if var_90_5 then
-		for iter_90_9 = #var_90_0[FleetType.Normal] + 1, var_90_5 do
+	if var_90_4 then
+		for iter_90_9 = #var_90_0[FleetType.Normal] + 1, var_90_4 do
 			var_90_0[FleetType.Normal][iter_90_9] = var_0_1()
 		end
 	end
 
-	local var_90_7 = 0
+	local var_90_6 = 0
 
 	for iter_90_10, iter_90_11 in pairs(var_90_0) do
-		var_90_7 = var_90_7 + #iter_90_11
+		var_90_6 = var_90_6 + #iter_90_11
 	end
 
-	return var_90_5 and WorldConst.FleetExpansion or WorldConst.FleetRedeploy, var_90_0, var_90_7
+	return var_90_4 and WorldConst.FleetExpansion or WorldConst.FleetRedeploy, var_90_0, var_90_6
 end
 
 function var_0_0.FormationIds2NetIds(arg_91_0, arg_91_1)

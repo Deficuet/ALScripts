@@ -297,6 +297,14 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		{
 			LoadingPicProxy,
 			true
+		},
+		{
+			AuctionGameBaseProxy,
+			true
+		},
+		{
+			AuctionGameProxy,
+			true
 		}
 	})
 	pg.ConnectionMgr.GetInstance():setPacketIdx(1)
@@ -315,6 +323,8 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 				surveyID = var_2_2
 			})
 		end
+
+		arg_1_0:sendNotification(GAME.AUCTION_GAME_INIT, {})
 
 		if var_1_1 then
 			pg.PushNotificationMgr.GetInstance():Reset()
@@ -340,6 +350,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		arg_1_0:sendNotification(GAME.REQUEST_MINI_GAME, {
 			type = MiniGameRequestCommand.REQUEST_HUB_DATA
 		})
+		arg_1_0:sendNotification(GAME.REQUEST_EMOJI_INFO_FROM_SERVER)
 		LimitChallengeConst.RequestInfo()
 
 		if not LOCK_EDUCATE_SYSTEM then

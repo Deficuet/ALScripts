@@ -289,7 +289,7 @@ end
 
 function var_0_0.HideAttachment(arg_33_0, arg_33_1)
 	if arg_33_0._role then
-		arg_33_0._role:SetVisible(not arg_33_1)
+		arg_33_0._role:SetOrbitVisible(not arg_33_1)
 	end
 end
 

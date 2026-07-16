@@ -31,32 +31,46 @@ function var_0_0.attach(arg_4_0, arg_4_1)
 		end
 	end
 
+	function arg_4_0.bind(arg_6_0, ...)
+		if arg_6_0.parent then
+			arg_6_0.parent:bind(...)
+		end
+	end
+
+	function arg_4_0.disconnect(arg_7_0, arg_7_1)
+		if arg_7_0.parent then
+			arg_7_0.parent:disconnect(arg_7_1)
+		end
+	end
+
 	setActive(arg_4_0._go, true)
 	pg.DelegateInfo.New(arg_4_0)
 end
 
-function var_0_0.detach(arg_6_0)
-	if not arg_6_0.exited then
-		setActive(arg_6_0._go, false)
-		pg.DelegateInfo.Dispose(arg_6_0)
-		arg_6_0:clear()
+function var_0_0.detach(arg_8_0)
+	if not arg_8_0.exited then
+		setActive(arg_8_0._go, false)
+		pg.DelegateInfo.Dispose(arg_8_0)
+		arg_8_0:clear()
 
-		arg_6_0.parent = nil
-		arg_6_0.emit = nil
-		arg_6_0.exited = true
+		arg_8_0.parent = nil
+		arg_8_0.emit = nil
+		arg_8_0.bind = nil
+		arg_8_0.disconnect = nil
+		arg_8_0.exited = true
 	end
 end
 
-function var_0_0.getTpl(arg_7_0, arg_7_1, arg_7_2)
-	local var_7_0 = arg_7_2:Find(arg_7_1)
+function var_0_0.getTpl(arg_9_0, arg_9_1, arg_9_2)
+	local var_9_0 = arg_9_2:Find(arg_9_1)
 
-	var_7_0:SetParent(arg_7_0._tf, false)
-	SetActive(var_7_0, false)
+	var_9_0:SetParent(arg_9_0._tf, false)
+	SetActive(var_9_0, false)
 
-	return var_7_0
+	return var_9_0
 end
 
-function var_0_0.clear(arg_8_0)
+function var_0_0.clear(arg_10_0)
 	return
 end
 

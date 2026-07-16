@@ -197350,6 +197350,61 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.bullet_template_1[168354] = {
+		hit_sfx = "",
+		range_offset = 1,
+		modle_ID = "None",
+		type = 1,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "None",
+		effect_type = 1,
+		id = 168354,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 1,
+		miss_fx = "None",
+		pierce_count = 0,
+		ammo_type = 1,
+		alert_fx = "",
+		velocity = 0,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				2,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			-10,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.bullet_template_1[168481] = {
 		hit_sfx = "battle/hit",
 		range_offset = 20,

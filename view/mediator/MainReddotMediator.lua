@@ -72,6 +72,7 @@ function var_0_0.GetNotifyDic(arg_1_0)
 		},
 		BLUEPRINT = {
 			TechnologyConst.UPDATE_REDPOINT_ON_TOP,
+			TechnologyProxy.BLUEPRINT_UPDATED,
 			GAME.REMOVE_LAYERS
 		},
 		EVENT = {

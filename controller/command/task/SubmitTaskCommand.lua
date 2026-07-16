@@ -184,13 +184,17 @@ function var_0_0.CheckTaskSub(arg_11_0)
 end
 
 function var_0_0.CheckTaskType(arg_12_0)
-	if arg_12_0:getConfig("type") == Task.TYPE_REFLUX then
+	local var_12_0 = arg_12_0:getConfig("type")
+
+	if var_12_0 == Task.TYPE_REFLUX then
 		getProxy(RefluxProxy):addPtAfterSubTasks({
 			arg_12_0
 		})
 	end
 
-	if arg_12_0:getConfig("type") == 8 then
+	if var_12_0 == Task.TYPE_REPEATABLE then
+		-- block empty
+	elseif var_12_0 == 8 then
 		arg_12_0.submitTime = 1
 
 		getProxy(TaskProxy):updateTask(arg_12_0)

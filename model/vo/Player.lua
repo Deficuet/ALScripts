@@ -1073,4 +1073,19 @@ function var_0_0.UpdateGuideIndex(arg_107_0, arg_107_1, arg_107_2)
 	end
 end
 
+function var_0_0.GetDisplayShipList(arg_108_0)
+	local var_108_0 = getProxy(SettingsProxy)
+	local var_108_1
+
+	if var_108_0:IsOpenRandomFlagShip() then
+		var_108_1 = var_108_0:GetRandomFlagShipList()
+	else
+		var_108_1 = arg_108_0:GetShipPhantomMarks()
+	end
+
+	local var_108_2, var_108_3 = var_0_5(var_108_1)
+
+	return var_108_2
+end
+
 return var_0_0

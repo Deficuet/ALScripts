@@ -347236,6 +347236,594 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_skin_template[11700010] = {
+		ship_group = 1170001,
+		name = "A2",
+		hand_id = 1,
+		lover_kiss = "lip02",
+		bgm = "",
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 11700010,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "A2",
+		lover_hand = "hand_2_02",
+		gyro = 0,
+		l2d_drag_rate = "",
+		shop_type_id = 0,
+		prefab = "A2",
+		part_scale = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		shop_id = 0,
+		shop_dynamic_hx = 0,
+		bg = "",
+		illustrator = -1,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = -1,
+		double_char = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		l2d_para_range = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		l2d_voice_calibrate = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "我……被叫做A2。孤身奋战对我来说是家常便饭，不过……暂时找个落脚的地方，或许也不坏。",
+		voice_actor = 86,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.331,
+					0.957,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.432,
+					0.966,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.202,
+					2.418,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.609,
+							2.334,
+							0
+						}
+					}
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_skin_template[11700011] = {
+		ship_group = 1170001,
+		name = "禁忌的果实",
+		hand_id = 1,
+		lover_kiss = "lip02",
+		bgm = "nier-az-story",
+		illustrator2 = -1,
+		id = 11700011,
+		gyro = 0,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "A2_2",
+		lover_hand = "hand_2_02",
+		l2d_drag_rate = "",
+		prefab = "A2_2",
+		shop_type_id = 7,
+		part_scale = "",
+		shop_id = 71379,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		shop_dynamic_hx = 0,
+		illustrator = -1,
+		bg = "450",
+		double_char = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skeleton_default_skin = "",
+		skin_type = 0,
+		voice_lang = "",
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_voice_calibrate = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "干嘛用那种眼神看我……？我没带武器就那么稀奇吗？……真是的，盯着我这种人看有什么意思，随你便吧。",
+		voice_actor = 86,
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			6,
+			2,
+			5
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			50,
+			-740,
+			0,
+			0.74
+		},
+		spine_offset_profile = {
+			125,
+			-740,
+			0,
+			0.75
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.199,
+					0.939,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.27,
+					2.373,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.681,
+							2.382,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			-206,
+			-730,
+			0,
+			0.81
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-796,
+					-310,
+					2,
+					0,
+					160,
+					2
+				},
+				{
+					253,
+					-133,
+					2,
+					152,
+					0,
+					2
+				},
+				{
+					853,
+					-436,
+					2,
+					0,
+					-127,
+					2
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_skin_template[11700020] = {
+		ship_group = 1170002,
+		name = "2B",
+		hand_id = 1,
+		lover_kiss = "lip02",
+		bgm = "",
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 11700020,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "2B",
+		lover_hand = "hand_2_02",
+		gyro = 0,
+		l2d_drag_rate = "",
+		shop_type_id = 0,
+		prefab = "2B",
+		part_scale = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		shop_id = 0,
+		shop_dynamic_hx = 0,
+		bg = "",
+		illustrator = -1,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = -1,
+		double_char = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		l2d_para_range = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		l2d_voice_calibrate = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "我是寄叶二号B型，隶属于寄叶部队的通用战斗型人造人，叫我2B就好。虽然不清楚这里是什么地方，但我会响应协助请求。因为，为人类而战是我们的使命。",
+		voice_actor = 31,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.331,
+					0.957,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.432,
+					0.966,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.202,
+					2.418,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.609,
+							2.334,
+							0
+						}
+					}
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_skin_template[11700021] = {
+		ship_group = 1170002,
+		name = "须臾的休憩",
+		hand_id = 1,
+		lover_kiss = "lip02",
+		bgm = "nier-az-story",
+		illustrator2 = -1,
+		id = 11700021,
+		gyro = 0,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "2B_2",
+		lover_hand = "hand_2_02",
+		l2d_drag_rate = "",
+		prefab = "2B_2",
+		shop_type_id = 7,
+		part_scale = "",
+		shop_id = 71380,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		shop_dynamic_hx = 0,
+		illustrator = -1,
+		bg = "450",
+		double_char = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skeleton_default_skin = "",
+		skin_type = 0,
+		voice_lang = "",
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_voice_calibrate = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "确认四周安全，接下来将按规定时长进入休眠模式——对我们人造人的而言，休息并非必要。但这里的宁静氛围，就像是在催我这么做呢。",
+		voice_actor = 31,
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			6,
+			2,
+			5
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			100,
+			-753,
+			0,
+			0.56
+		},
+		spine_offset_profile = {
+			164,
+			-739,
+			0,
+			0.55
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.199,
+					0.939,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.27,
+					2.373,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.681,
+							2.382,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			-77,
+			-747,
+			0,
+			0.56
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1661,
+					65,
+					2,
+					0,
+					160,
+					2
+				},
+				{
+					-510,
+					659,
+					2,
+					160,
+					0,
+					2
+				},
+				{
+					278,
+					-229,
+					2,
+					0,
+					-148,
+					2
+				}
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_skin_template[299010] = {
 		ship_group = 29901,
 		name = "海王星",
@@ -359777,7 +360365,7 @@ end)()
 			show = 1,
 			data = {
 				{
-					1270,
+					1200,
 					356,
 					2,
 					0,

@@ -141,8 +141,8 @@ function var_0_0.InitSubFleetShips(arg_16_0, arg_16_1)
 		var_16_3.localPosition = arg_16_0:GetExpandPosition(#var_16_0, iter_16_1)
 
 		table.insert(var_16_2, function(arg_17_0)
-			arg_16_0:AdjustPainting(var_16_3, var_16_4)
 			setPaintingPrefabAsync(var_16_3:Find("mask/painting"), var_16_4:getPainting(), "biandui", arg_17_0)
+			arg_16_0:AdjustPainting(var_16_3, var_16_4)
 		end)
 	end
 

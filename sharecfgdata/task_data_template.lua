@@ -249087,6 +249087,307 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[27400] = {
+		name = "『20260625』宿舍活跃任务1",
+		guild_coin_award = 0,
+		award = 1700500,
+		type = 26,
+		desc = "舰队出征，获得15次胜利",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27400,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				27,
+				7990261,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27401] = {
+		name = "『20260625』宿舍活跃任务2",
+		guild_coin_award = 0,
+		award = 1700501,
+		type = 26,
+		desc = "通关3次任意困难关卡 ",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27401,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				27,
+				7990261,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27402] = {
+		name = "『20260625』宿舍活跃任务3",
+		guild_coin_award = 0,
+		award = 1700502,
+		type = 26,
+		desc = "完成3次每日挑战",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27402,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				27,
+				7990261,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27403] = {
+		name = "『20260625』宿舍活跃任务4",
+		guild_coin_award = 0,
+		award = 1700503,
+		type = 26,
+		desc = "击沉任意敌人20艘",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27403,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				27,
+				7990261,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27404] = {
+		name = "『20260625』宿舍活跃任务5",
+		guild_coin_award = 0,
+		award = 1700504,
+		type = 26,
+		desc = "进行2次战术训练",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27404,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				27,
+				7990261,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27405] = {
+		name = "『20260625』宿舍活跃任务6",
+		guild_coin_award = 0,
+		award = 1700505,
+		type = 26,
+		desc = "完成军事委托2次",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27405,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				27,
+				7990261,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27406] = {
+		name = "『20260625』宿舍活跃任务7",
+		guild_coin_award = 0,
+		award = 1700506,
+		type = 26,
+		desc = "舰队出征，消灭敌方旗舰3次",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27406,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				27,
+				7990261,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[27181] = {
 		name = "『阿尔萨斯轻量化复刻』前哨战五日任务1",
 		guild_coin_award = 0,
@@ -251582,6 +251883,747 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[27306] = {
+		name = "『尼尔联动』七天双任务送A2-1",
+		guild_coin_award = 0,
+		award = 910322,
+		type = 26,
+		desc = "舰队出征，以S评价通关10次",
+		count_inherit = 0,
+		sub_type = 24,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27306,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				4,
+				11700011,
+				1
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27307] = {
+		name = "『尼尔联动』七天双任务送A2-2",
+		guild_coin_award = 0,
+		award = 910323,
+		type = 26,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27307,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				21,
+				15460,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27308] = {
+		name = "『尼尔联动』七天双任务送A2-3",
+		guild_coin_award = 0,
+		award = 910324,
+		type = 26,
+		desc = "进行2次演习",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27308,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				9,
+				1533,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27309] = {
+		name = "『尼尔联动』七天双任务送A2-4",
+		guild_coin_award = 0,
+		award = 910325,
+		type = 26,
+		desc = "完成军事委托2次",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27309,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				54006,
+				4
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27310] = {
+		name = "『尼尔联动』七天双任务送A2-5",
+		guild_coin_award = 0,
+		award = 910326,
+		type = 26,
+		desc = "舰船退役2次",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27310,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				9,
+				1535,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27311] = {
+		name = "『尼尔联动』七天双任务送A2-6",
+		guild_coin_award = 0,
+		award = 910327,
+		type = 26,
+		desc = "完成3次每日挑战",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27311,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				340002,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27312] = {
+		name = "『尼尔联动』七天双任务送A2-7",
+		guild_coin_award = 0,
+		award = 910328,
+		type = 26,
+		desc = "舰船强化5次",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27312,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				9,
+				1537,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27313] = {
+		name = "『尼尔联动』七天双任务送A2-8",
+		guild_coin_award = 0,
+		award = 910329,
+		type = 26,
+		desc = "进行战术训练2次",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27313,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				54033,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27314] = {
+		name = "『尼尔联动』七天双任务送A2-9",
+		guild_coin_award = 0,
+		award = 910330,
+		type = 26,
+		desc = "击沉任意敌人20艘",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27314,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				9,
+				1534,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27315] = {
+		name = "『尼尔联动』七天双任务送A2-10",
+		guild_coin_award = 0,
+		award = 910331,
+		type = 26,
+		desc = "后宅补充食物5次",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27315,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				340001,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27316] = {
+		name = "『尼尔联动』七天双任务送A2-11",
+		guild_coin_award = 0,
+		award = 910332,
+		type = 26,
+		desc = "建造舰船2次",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27316,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				9,
+				1536,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27317] = {
+		name = "『尼尔联动』七天双任务送A2-12",
+		guild_coin_award = 0,
+		award = 910333,
+		type = 26,
+		desc = "打开任意科技箱1个",
+		count_inherit = 0,
+		sub_type = 50,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27317,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				54016,
+				6
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27318] = {
+		name = "『尼尔联动』七天双任务送A2-13",
+		guild_coin_award = 0,
+		award = 910334,
+		type = 26,
+		desc = "进行2次战术训练",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27318,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				9,
+				1538,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27319] = {
+		name = "『尼尔联动』七天双任务送A2-14",
+		guild_coin_award = 0,
+		award = 910335,
+		type = 26,
+		desc = "击败旗舰3次 ",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27319,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				9,
+				1532,
+				1
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27320] = {
+		name = "『尼尔联动』活动关通关1",
+		guild_coin_award = 0,
+		award = 910247,
+		type = 6,
+		desc = "看不到",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27320,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2049001
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				340101,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27321] = {
+		name = "『尼尔联动』活动关通关2",
+		guild_coin_award = 0,
+		award = 910248,
+		type = 6,
+		desc = "看不到",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27321,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2049002
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				340102,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27322] = {
+		name = "『尼尔联动』活动关通关3",
+		guild_coin_award = 0,
+		award = 910249,
+		type = 6,
+		desc = "看不到",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27322,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2049003
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				341,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[27302] = {
 		name = "『阿尔萨斯轻量化复刻』活动通关任务3次",
 		guild_coin_award = 0,
@@ -251750,307 +252792,6 @@ end)()
 				1,
 				718,
 				45
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[27400] = {
-		name = "『20260625』宿舍活跃任务1",
-		guild_coin_award = 0,
-		award = 1700500,
-		type = 26,
-		desc = "舰队出征，获得15次胜利",
-		count_inherit = 0,
-		sub_type = 20,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 0,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 0,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		story_id = "",
-		priority_type = 0,
-		ryza_icon = "",
-		fix_task = 0,
-		next_task = "0",
-		auto_commit = 0,
-		story_icon_shift = "",
-		target_id = "0",
-		scene = "",
-		tutorial_handbook_pic = "",
-		id = 27400,
-		target_num = 15,
-		activity_client_config = "",
-		added_tip = 0,
-		open_need = {},
-		award_display = {
-			{
-				27,
-				7990261,
-				1
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[27401] = {
-		name = "『20260625』宿舍活跃任务2",
-		guild_coin_award = 0,
-		award = 1700501,
-		type = 26,
-		desc = "通关3次任意困难关卡 ",
-		count_inherit = 0,
-		sub_type = 182,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 0,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 0,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		story_id = "",
-		priority_type = 0,
-		ryza_icon = "",
-		fix_task = 0,
-		next_task = "0",
-		auto_commit = 0,
-		story_icon_shift = "",
-		target_id = "10101",
-		scene = "",
-		tutorial_handbook_pic = "",
-		id = 27401,
-		target_num = 3,
-		activity_client_config = "",
-		added_tip = 0,
-		open_need = {},
-		award_display = {
-			{
-				27,
-				7990261,
-				1
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[27402] = {
-		name = "『20260625』宿舍活跃任务3",
-		guild_coin_award = 0,
-		award = 1700502,
-		type = 26,
-		desc = "完成3次每日挑战",
-		count_inherit = 0,
-		sub_type = 26,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 0,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 0,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		story_id = "",
-		priority_type = 0,
-		ryza_icon = "",
-		fix_task = 0,
-		next_task = "0",
-		auto_commit = 0,
-		story_icon_shift = "",
-		target_id = "0",
-		scene = "",
-		tutorial_handbook_pic = "",
-		id = 27402,
-		target_num = 3,
-		activity_client_config = "",
-		added_tip = 0,
-		open_need = {},
-		award_display = {
-			{
-				27,
-				7990261,
-				1
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[27403] = {
-		name = "『20260625』宿舍活跃任务4",
-		guild_coin_award = 0,
-		award = 1700503,
-		type = 26,
-		desc = "击沉任意敌人20艘",
-		count_inherit = 0,
-		sub_type = 11,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 0,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 0,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		story_id = "",
-		priority_type = 0,
-		ryza_icon = "",
-		fix_task = 0,
-		next_task = "0",
-		auto_commit = 0,
-		story_icon_shift = "",
-		target_id = "0",
-		scene = "",
-		tutorial_handbook_pic = "",
-		id = 27403,
-		target_num = 20,
-		activity_client_config = "",
-		added_tip = 0,
-		open_need = {},
-		award_display = {
-			{
-				27,
-				7990261,
-				1
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[27404] = {
-		name = "『20260625』宿舍活跃任务5",
-		guild_coin_award = 0,
-		award = 1700504,
-		type = 26,
-		desc = "进行2次战术训练",
-		count_inherit = 0,
-		sub_type = 71,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 0,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 0,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		story_id = "",
-		priority_type = 0,
-		ryza_icon = "",
-		fix_task = 0,
-		next_task = "0",
-		auto_commit = 0,
-		story_icon_shift = "",
-		target_id = "0",
-		scene = "",
-		tutorial_handbook_pic = "",
-		id = 27404,
-		target_num = 2,
-		activity_client_config = "",
-		added_tip = 0,
-		open_need = {},
-		award_display = {
-			{
-				27,
-				7990261,
-				1
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[27405] = {
-		name = "『20260625』宿舍活跃任务6",
-		guild_coin_award = 0,
-		award = 1700505,
-		type = 26,
-		desc = "完成军事委托2次",
-		count_inherit = 0,
-		sub_type = 80,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 0,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 0,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		story_id = "",
-		priority_type = 0,
-		ryza_icon = "",
-		fix_task = 0,
-		next_task = "0",
-		auto_commit = 0,
-		story_icon_shift = "",
-		target_id = "0",
-		scene = "",
-		tutorial_handbook_pic = "",
-		id = 27405,
-		target_num = 2,
-		activity_client_config = "",
-		added_tip = 0,
-		open_need = {},
-		award_display = {
-			{
-				27,
-				7990261,
-				1
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[27406] = {
-		name = "『20260625』宿舍活跃任务7",
-		guild_coin_award = 0,
-		award = 1700506,
-		type = 26,
-		desc = "舰队出征，消灭敌方旗舰3次",
-		count_inherit = 0,
-		sub_type = 21,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 0,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 0,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		story_id = "",
-		priority_type = 0,
-		ryza_icon = "",
-		fix_task = 0,
-		next_task = "0",
-		auto_commit = 0,
-		story_icon_shift = "",
-		target_id = "0",
-		scene = "",
-		tutorial_handbook_pic = "",
-		id = 27406,
-		target_num = 3,
-		activity_client_config = "",
-		added_tip = 0,
-		open_need = {},
-		award_display = {
-			{
-				27,
-				7990261,
-				2
 			}
 		}
 	}
@@ -389130,6 +389871,2672 @@ end)()
 				8,
 				120002,
 				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100000] = {
+		name = "【竞拍】可重复任务-1",
+		guild_coin_award = 0,
+		award = 115996,
+		type = 20,
+		desc = "在一次竞拍中获得总价值2000000虚拟币以上的藏品",
+		count_inherit = 0,
+		sub_type = 3007,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100000,
+		target_num = 2000000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970002,
+				300
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100001] = {
+		name = "【竞拍】可重复任务-2",
+		guild_coin_award = 0,
+		award = 115997,
+		type = 20,
+		desc = "在一次竞拍中获得总价值5000000虚拟币以上的藏品",
+		count_inherit = 0,
+		sub_type = 3007,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100001,
+		target_num = 5000000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970002,
+				500
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100002] = {
+		name = "【竞拍】每日任务-1",
+		guild_coin_award = 0,
+		award = 115998,
+		type = 36,
+		desc = "领取当日竞拍补贴",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 100002,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				60000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100003] = {
+		name = "【竞拍】每日任务-2",
+		guild_coin_award = 0,
+		award = 115999,
+		type = 36,
+		desc = "累计消耗500石油",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100003,
+		target_num = 500,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				30000
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100004] = {
+		name = "【竞拍】每日任务-3",
+		guild_coin_award = 0,
+		award = 116000,
+		type = 36,
+		desc = "累计消耗1000石油",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100004,
+		target_num = 1000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				30000
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100005] = {
+		name = "【竞拍】每日任务-4",
+		guild_coin_award = 0,
+		award = 116001,
+		type = 36,
+		desc = "累计消耗1500石油",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100005,
+		target_num = 1500,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				30000
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100006] = {
+		name = "【竞拍】每日任务-5",
+		guild_coin_award = 0,
+		award = 116002,
+		type = 36,
+		desc = "参与1次竞拍或藏品预购",
+		count_inherit = 0,
+		sub_type = 3001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100006,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				30000
+			},
+			{
+				8,
+				970002,
+				300
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100007] = {
+		name = "【竞拍】每日任务-6",
+		guild_coin_award = 0,
+		award = 116003,
+		type = 36,
+		desc = "参与1次竞拍",
+		count_inherit = 0,
+		sub_type = 3004,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100007,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			105,
+			106,
+			107
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				30000
+			},
+			{
+				8,
+				970002,
+				300
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100008] = {
+		name = "【竞拍】支线任务-1",
+		guild_coin_award = 0,
+		award = 116004,
+		type = 26,
+		desc = "首次了解竞拍，领取专属见面礼",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 100008,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				600000
+			},
+			{
+				8,
+				970002,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100009] = {
+		name = "【竞拍】支线任务-2",
+		guild_coin_award = 0,
+		award = 116005,
+		type = 26,
+		desc = "参与3次竞拍或藏品预购",
+		count_inherit = 0,
+		sub_type = 3001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100009,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				60000
+			},
+			{
+				8,
+				970002,
+				100
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100010] = {
+		name = "【竞拍】支线任务-3",
+		guild_coin_award = 0,
+		award = 116006,
+		type = 26,
+		desc = "参与10次竞拍或藏品预购",
+		count_inherit = 0,
+		sub_type = 3001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100010,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				80000
+			},
+			{
+				8,
+				970002,
+				100
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100011] = {
+		name = "【竞拍】支线任务-4",
+		guild_coin_award = 0,
+		award = 116007,
+		type = 26,
+		desc = "参与15次竞拍或藏品预购",
+		count_inherit = 0,
+		sub_type = 3001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100011,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				100000
+			},
+			{
+				8,
+				970002,
+				100
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100012] = {
+		name = "【竞拍】支线任务-5",
+		guild_coin_award = 0,
+		award = 116008,
+		type = 26,
+		desc = "参与20次竞拍或藏品预购",
+		count_inherit = 0,
+		sub_type = 3001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100012,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				150000
+			},
+			{
+				8,
+				970002,
+				800
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100013] = {
+		name = "【竞拍】支线任务-6",
+		guild_coin_award = 0,
+		award = 116009,
+		type = 26,
+		desc = "参与30次竞拍或藏品预购",
+		count_inherit = 0,
+		sub_type = 3001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100013,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				200000
+			},
+			{
+				8,
+				970002,
+				1500
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100014] = {
+		name = "【竞拍】支线任务-7",
+		guild_coin_award = 0,
+		award = 116010,
+		type = 26,
+		desc = "在B级或A级拍卖场参与1次竞拍",
+		count_inherit = 0,
+		sub_type = 3004,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100014,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			105,
+			106
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				30000
+			},
+			{
+				8,
+				970002,
+				100
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100015] = {
+		name = "【竞拍】支线任务-8",
+		guild_coin_award = 0,
+		award = 116011,
+		type = 26,
+		desc = "在B级或A级拍卖场参与5次竞拍",
+		count_inherit = 0,
+		sub_type = 3004,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100015,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			105,
+			106
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				60000
+			},
+			{
+				8,
+				970002,
+				100
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100016] = {
+		name = "【竞拍】支线任务-9",
+		guild_coin_award = 0,
+		award = 116012,
+		type = 26,
+		desc = "在B级或A级拍卖场参与10次竞拍",
+		count_inherit = 0,
+		sub_type = 3004,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100016,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			105,
+			106
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				90000
+			},
+			{
+				8,
+				970002,
+				800
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100017] = {
+		name = "【竞拍】支线任务-10",
+		guild_coin_award = 0,
+		award = 116013,
+		type = 26,
+		desc = "在B级或A级拍卖场参与20次竞拍",
+		count_inherit = 0,
+		sub_type = 3004,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100017,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			105,
+			106
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				150000
+			},
+			{
+				8,
+				970002,
+				800
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100018] = {
+		name = "【竞拍】支线任务-11",
+		guild_coin_award = 0,
+		award = 116014,
+		type = 26,
+		desc = "在B级或A级拍卖场参与30次竞拍",
+		count_inherit = 0,
+		sub_type = 3004,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100018,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			105,
+			106
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				200000
+			},
+			{
+				8,
+				970002,
+				1500
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100019] = {
+		name = "【竞拍】支线任务-12",
+		guild_coin_award = 0,
+		award = 116015,
+		type = 26,
+		desc = "在S级拍卖场参与1次竞拍",
+		count_inherit = 0,
+		sub_type = 3004,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100019,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			107
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				60000
+			},
+			{
+				8,
+				970002,
+				800
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100020] = {
+		name = "【竞拍】支线任务-13",
+		guild_coin_award = 0,
+		award = 116016,
+		type = 26,
+		desc = "在S级拍卖场参与5次竞拍",
+		count_inherit = 0,
+		sub_type = 3004,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100020,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			107
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				80000
+			},
+			{
+				8,
+				970002,
+				1500
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100021] = {
+		name = "【竞拍】支线任务-14",
+		guild_coin_award = 0,
+		award = 116017,
+		type = 26,
+		desc = "在S级拍卖场参与10次竞拍",
+		count_inherit = 0,
+		sub_type = 3004,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100021,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			107
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				100000
+			},
+			{
+				8,
+				970002,
+				1500
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100022] = {
+		name = "【竞拍】支线任务-15",
+		guild_coin_award = 0,
+		award = 116018,
+		type = 26,
+		desc = "在S级拍卖场参与15次竞拍",
+		count_inherit = 0,
+		sub_type = 3004,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100022,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			107
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				150000
+			},
+			{
+				8,
+				970002,
+				1500
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100023] = {
+		name = "【竞拍】支线任务-16",
+		guild_coin_award = 0,
+		award = 116019,
+		type = 26,
+		desc = "在S级拍卖场参与20次竞拍",
+		count_inherit = 0,
+		sub_type = 3004,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100023,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			107
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				200000
+			},
+			{
+				8,
+				970002,
+				1500
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100024] = {
+		name = "【竞拍】支线任务-17",
+		guild_coin_award = 0,
+		award = 116020,
+		type = 26,
+		desc = "通过竞拍或藏品预购消耗150000虚拟币",
+		count_inherit = 0,
+		sub_type = 3005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100024,
+		target_num = 150000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				70000
+			},
+			{
+				8,
+				970002,
+				100
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100025] = {
+		name = "【竞拍】支线任务-18",
+		guild_coin_award = 0,
+		award = 116021,
+		type = 26,
+		desc = "通过竞拍或藏品预购消耗700000虚拟币",
+		count_inherit = 0,
+		sub_type = 3005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100025,
+		target_num = 700000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				100000
+			},
+			{
+				8,
+				970002,
+				100
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100026] = {
+		name = "【竞拍】支线任务-19",
+		guild_coin_award = 0,
+		award = 116022,
+		type = 26,
+		desc = "通过竞拍或藏品预购消耗1200000虚拟币",
+		count_inherit = 0,
+		sub_type = 3005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100026,
+		target_num = 1200000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				120000
+			},
+			{
+				8,
+				970002,
+				800
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100027] = {
+		name = "【竞拍】支线任务-20",
+		guild_coin_award = 0,
+		award = 116023,
+		type = 26,
+		desc = "通过竞拍或藏品预购消耗2000000虚拟币",
+		count_inherit = 0,
+		sub_type = 3005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100027,
+		target_num = 2000000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				200000
+			},
+			{
+				8,
+				970002,
+				1500
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100028] = {
+		name = "【竞拍】支线任务-21",
+		guild_coin_award = 0,
+		award = 116024,
+		type = 26,
+		desc = "通过竞拍或藏品预购消耗3000000虚拟币",
+		count_inherit = 0,
+		sub_type = 3005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100028,
+		target_num = 3000000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				500000
+			},
+			{
+				8,
+				970002,
+				1500
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100029] = {
+		name = "【竞拍】支线任务-22",
+		guild_coin_award = 0,
+		award = 116025,
+		type = 26,
+		desc = "在竞拍中成功中标1次",
+		count_inherit = 0,
+		sub_type = 3002,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100029,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				50000
+			},
+			{
+				8,
+				970002,
+				200
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100030] = {
+		name = "【竞拍】支线任务-23",
+		guild_coin_award = 0,
+		award = 116026,
+		type = 26,
+		desc = "在竞拍中成功中标5次",
+		count_inherit = 0,
+		sub_type = 3002,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100030,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				100000
+			},
+			{
+				8,
+				970002,
+				800
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100031] = {
+		name = "【竞拍】支线任务-24",
+		guild_coin_award = 0,
+		award = 116027,
+		type = 26,
+		desc = "在竞拍中成功中标10次",
+		count_inherit = 0,
+		sub_type = 3002,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100031,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				150000
+			},
+			{
+				8,
+				970002,
+				1500
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100032] = {
+		name = "【竞拍】支线任务-25",
+		guild_coin_award = 0,
+		award = 116028,
+		type = 26,
+		desc = "在竞拍中成功中标20次",
+		count_inherit = 0,
+		sub_type = 3002,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100032,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				200000
+			},
+			{
+				8,
+				970002,
+				1500
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100033] = {
+		name = "【竞拍】支线任务-26",
+		guild_coin_award = 0,
+		award = 116029,
+		type = 26,
+		desc = "在竞拍中成功中标30次",
+		count_inherit = 0,
+		sub_type = 3002,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100033,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				250000
+			},
+			{
+				8,
+				970002,
+				1500
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100034] = {
+		name = "【竞拍】支线任务-27",
+		guild_coin_award = 0,
+		award = 116030,
+		type = 26,
+		desc = "在一次竞拍中获得总价值500000虚拟币以上的藏品",
+		count_inherit = 0,
+		sub_type = 3003,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100034,
+		target_num = 500000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				50000
+			},
+			{
+				8,
+				970002,
+				100
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100035] = {
+		name = "【竞拍】支线任务-28",
+		guild_coin_award = 0,
+		award = 116031,
+		type = 26,
+		desc = "在一次竞拍中获得总价值1500000虚拟币以上的藏品",
+		count_inherit = 0,
+		sub_type = 3003,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100035,
+		target_num = 1500000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				150000
+			},
+			{
+				8,
+				970002,
+				800
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100036] = {
+		name = "【竞拍】支线任务-29",
+		guild_coin_award = 0,
+		award = 116032,
+		type = 26,
+		desc = "在一次竞拍中获得总价值3000000虚拟币以上的藏品",
+		count_inherit = 0,
+		sub_type = 3003,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100036,
+		target_num = 3000000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				200000
+			},
+			{
+				8,
+				970002,
+				1500
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100037] = {
+		name = "【竞拍】支线任务-30",
+		guild_coin_award = 0,
+		award = 116033,
+		type = 26,
+		desc = "在一次竞拍中获得总价值4000000虚拟币以上的藏品",
+		count_inherit = 0,
+		sub_type = 3003,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100037,
+		target_num = 4000000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				500000
+			},
+			{
+				8,
+				970002,
+				1500
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100038] = {
+		name = "【竞拍】支线任务-31",
+		guild_coin_award = 0,
+		award = 116034,
+		type = 26,
+		desc = "在一次竞拍中获得总价值6000000虚拟币以上的藏品",
+		count_inherit = 0,
+		sub_type = 3003,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100038,
+		target_num = 6000000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				1000000
+			},
+			{
+				8,
+				970002,
+				1500
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100039] = {
+		name = "【竞拍】支线任务-32",
+		guild_coin_award = 0,
+		award = 116035,
+		type = 26,
+		desc = "当前持有虚拟币达到1000000",
+		count_inherit = 0,
+		sub_type = 3006,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100039,
+		target_num = 1000000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				100000
+			},
+			{
+				8,
+				970002,
+				200
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100040] = {
+		name = "【竞拍】支线任务-33",
+		guild_coin_award = 0,
+		award = 116036,
+		type = 26,
+		desc = "当前持有虚拟币达到3000000",
+		count_inherit = 0,
+		sub_type = 3006,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100040,
+		target_num = 3000000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				100000
+			},
+			{
+				8,
+				970002,
+				200
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100041] = {
+		name = "【竞拍】支线任务-34",
+		guild_coin_award = 0,
+		award = 116037,
+		type = 26,
+		desc = "当前持有虚拟币达到6000000",
+		count_inherit = 0,
+		sub_type = 3006,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100041,
+		target_num = 6000000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				100000
+			},
+			{
+				8,
+				970002,
+				800
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100042] = {
+		name = "【竞拍】支线任务-35",
+		guild_coin_award = 0,
+		award = 116038,
+		type = 26,
+		desc = "当前持有虚拟币达到10000000",
+		count_inherit = 0,
+		sub_type = 3006,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100042,
+		target_num = 10000000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				100000
+			},
+			{
+				8,
+				970002,
+				1500
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100043] = {
+		name = "【竞拍】支线任务-36",
+		guild_coin_award = 0,
+		award = 116039,
+		type = 26,
+		desc = "当前持有虚拟币达到20000000",
+		count_inherit = 0,
+		sub_type = 3006,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100043,
+		target_num = 20000000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				100000
+			},
+			{
+				8,
+				970002,
+				1500
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100044] = {
+		name = "【竞拍】支线任务-37",
+		guild_coin_award = 0,
+		award = 116040,
+		type = 26,
+		desc = "当前持有虚拟币达到30000000",
+		count_inherit = 0,
+		sub_type = 3006,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 100044,
+		target_num = 30000000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970001,
+				100000
+			},
+			{
+				8,
+				970002,
+				1500
+			}
+		},
+		scene = {
+			"AUCTION_GAME_ENTRANCE",
+			{
+				unlockActivityID = 970000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100101] = {
+		name = "『特别竞拍时刻』参与签到1",
+		guild_coin_award = 0,
+		award = 116041,
+		type = 6,
+		desc = "参与一次竞拍匹配或藏品预购",
+		count_inherit = 0,
+		sub_type = 3001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 100101,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				54003,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100102] = {
+		name = "『特别竞拍时刻』参与签到2",
+		guild_coin_award = 0,
+		award = 116042,
+		type = 6,
+		desc = "参与一次竞拍匹配或藏品预购",
+		count_inherit = 0,
+		sub_type = 3001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 100102,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				50004,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100103] = {
+		name = "『特别竞拍时刻』参与签到3",
+		guild_coin_award = 0,
+		award = 116043,
+		type = 6,
+		desc = "参与一次竞拍匹配或藏品预购",
+		count_inherit = 0,
+		sub_type = 3001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 100103,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970003,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100104] = {
+		name = "『特别竞拍时刻』参与签到4",
+		guild_coin_award = 0,
+		award = 116044,
+		type = 6,
+		desc = "参与一次竞拍匹配或藏品预购",
+		count_inherit = 0,
+		sub_type = 3001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 100104,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				54024,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100105] = {
+		name = "『特别竞拍时刻』参与签到5",
+		guild_coin_award = 0,
+		award = 116045,
+		type = 6,
+		desc = "参与一次竞拍匹配或藏品预购",
+		count_inherit = 0,
+		sub_type = 3001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 100105,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20013,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100106] = {
+		name = "『特别竞拍时刻』参与签到6",
+		guild_coin_award = 0,
+		award = 116046,
+		type = 6,
+		desc = "参与一次竞拍匹配或藏品预购",
+		count_inherit = 0,
+		sub_type = 3001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 100106,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				54051,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[100107] = {
+		name = "『特别竞拍时刻』参与签到7",
+		guild_coin_award = 0,
+		award = 116047,
+		type = 6,
+		desc = "参与一次竞拍匹配或藏品预购",
+		count_inherit = 0,
+		sub_type = 3001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 100107,
+		target_num = 7,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				970004,
+				1
 			}
 		}
 	}

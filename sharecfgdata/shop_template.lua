@@ -113994,6 +113994,128 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.shop_template[71379] = {
+		first_text = "",
+		package_sort_id = 0,
+		collaboration_skin_time = "",
+		type = 6,
+		second_text = "",
+		package_tag = "",
+		first_icon = "",
+		desc = "购买皮肤:260716A2SINE",
+		group_limit = 0,
+		type_order = 0,
+		resource_type = 14,
+		group_buy_count = 0,
+		tag = 2,
+		limit_args2 = "",
+		time_second = 0,
+		order = 6,
+		genre = "skin_shop",
+		akashi_pick = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		group_type = 0,
+		id = 71379,
+		resource_num = 1000,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			11700011
+		},
+		time = {
+			{
+				{
+					2026,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.shop_template[71380] = {
+		first_text = "",
+		package_sort_id = 0,
+		collaboration_skin_time = "",
+		type = 6,
+		second_text = "",
+		package_tag = "",
+		first_icon = "",
+		desc = "购买皮肤:2607162BSINE",
+		group_limit = 0,
+		type_order = 0,
+		resource_type = 14,
+		group_buy_count = 0,
+		tag = 2,
+		limit_args2 = "",
+		time_second = 0,
+		order = 5,
+		genre = "skin_shop",
+		akashi_pick = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		group_type = 0,
+		id = 71380,
+		resource_num = 1000,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			11700021
+		},
+		time = {
+			{
+				{
+					2026,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.shop_template[90001] = {
 		first_text = "",
 		package_sort_id = 0,
@@ -140987,6 +141109,48 @@ end)()
 		},
 		effect_args = {
 			1462
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.shop_template[270603] = {
+		first_text = "",
+		package_sort_id = 0,
+		collaboration_skin_time = "",
+		type = 26,
+		second_text = "",
+		package_tag = "",
+		first_icon = "",
+		desc = "宿舍480钻石购买深红逸趣",
+		group_limit = 0,
+		type_order = 0,
+		resource_type = 14,
+		group_buy_count = 0,
+		tag = 0,
+		limit_args2 = "",
+		time_second = 0,
+		order = 1,
+		genre = "dorm3d_gift",
+		akashi_pick = 0,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		group_type = 0,
+		id = 270603,
+		resource_num = 480,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {
+			{
+				"count",
+				0,
+				1
+			}
+		},
+		effect_args = {
+			1463
 		}
 	}
 end)()

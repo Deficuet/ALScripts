@@ -27841,4 +27841,155 @@ end)()
 			}
 		}
 	}
+	pg.base.ship_skin_expression_ex.A2 = {
+		feeling1 = "",
+		feeling3 = "",
+		main_1 = "",
+		main_2 = "",
+		expedition = "",
+		upgrade = "",
+		home = "",
+		lose = "",
+		feeling2 = "",
+		skill = "",
+		painting = "A2",
+		profile = "",
+		mail = "",
+		touch = "",
+		main_3 = "",
+		feeling4 = "",
+		login = {
+			{
+				1100,
+				"1"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"5"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"1"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"7"
+			}
+		},
+		detail = {
+			{
+				1100,
+				""
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"7|4|"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"1"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"5"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"2"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"1"
+			}
+		}
+	}
+	pg.base.ship_skin_expression_ex["2B"] = {
+		feeling1 = "",
+		feeling3 = "",
+		main_1 = "",
+		main_2 = "",
+		expedition = "",
+		lose = "",
+		home = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		painting = "2B",
+		mail = "",
+		touch = "",
+		main_3 = "",
+		upgrade = "",
+		headtouch = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"1"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"4"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"2"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"5"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"1|4|1"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"2"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"1"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"5"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"5"
+			}
+		}
+	}
 end)()

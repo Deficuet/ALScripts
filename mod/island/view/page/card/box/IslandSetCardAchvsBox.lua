@@ -40,7 +40,9 @@ function var_0_0.OnInit(arg_5_0)
 		arg_5_0:Hide()
 	end, SFX_PANEL)
 	onButton(arg_5_0, arg_5_0.confirmBtn, function()
-		arg_5_0:emit(IslandSelfCardMediator.SET_CARD_ACHVS, arg_5_0.selectedIds)
+		local var_8_0 = getProxy(IslandProxy):GetIsland():GetAchievementAgency():UpdataAchLv(arg_5_0.selectedIds)
+
+		arg_5_0:emit(IslandSelfCardMediator.SET_CARD_ACHVS, var_8_0)
 	end, SFX_PANEL)
 
 	arg_5_0.cards = {}
@@ -88,37 +90,41 @@ function var_0_0.OnUpdateItem(arg_10_0, arg_10_1, arg_10_2)
 	end, SFX_PANEL)
 end
 
-function var_0_0.Show(arg_12_0, arg_12_1, arg_12_2)
-	var_0_0.super.Show(arg_12_0)
-
-	arg_12_0.ids = arg_12_1
-	arg_12_0.selectedIds = arg_12_2
-
-	arg_12_0.scrollRect:SetTotalCount(#arg_12_0.ids, -1)
-	setActive(arg_12_0.emptyTF, #arg_12_0.ids == 0)
-	arg_12_0:UpdateTitle()
-	pg.UIMgr.GetInstance():BlurPanel(arg_12_0._tf)
+function var_0_0.GetNewSelectedIds(arg_12_0, arg_12_1)
+	local var_12_0 = {}
 end
 
-function var_0_0.UpdateTitle(arg_13_0)
-	arg_13_0.titleTxt.text = i18n("island_card_choose_achievement", #arg_13_0.selectedIds)
+function var_0_0.Show(arg_13_0, arg_13_1, arg_13_2)
+	var_0_0.super.Show(arg_13_0)
+
+	arg_13_0.ids = arg_13_1
+	arg_13_0.selectedIds = arg_13_2
+
+	arg_13_0.scrollRect:SetTotalCount(#arg_13_0.ids, -1)
+	setActive(arg_13_0.emptyTF, #arg_13_0.ids == 0)
+	arg_13_0:UpdateTitle()
+	pg.UIMgr.GetInstance():BlurPanel(arg_13_0._tf)
 end
 
-function var_0_0.Hide(arg_14_0)
-	var_0_0.super.Hide(arg_14_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_14_0._tf, arg_14_0._parentTf)
+function var_0_0.UpdateTitle(arg_14_0)
+	arg_14_0.titleTxt.text = i18n("island_card_choose_achievement", #arg_14_0.selectedIds)
 end
 
-function var_0_0.OnDestroy(arg_15_0)
-	ClearLScrollrect(arg_15_0.scrollRect)
+function var_0_0.Hide(arg_15_0)
+	var_0_0.super.Hide(arg_15_0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_15_0._tf, arg_15_0._parentTf)
+end
 
-	for iter_15_0, iter_15_1 in pairs(arg_15_0.cards) do
-		iter_15_1:Dispose()
+function var_0_0.OnDestroy(arg_16_0)
+	ClearLScrollrect(arg_16_0.scrollRect)
+
+	for iter_16_0, iter_16_1 in pairs(arg_16_0.cards) do
+		iter_16_1:Dispose()
 	end
 
-	arg_15_0.cards = {}
+	arg_16_0.cards = {}
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_15_0._tf, arg_15_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_16_0._tf, arg_16_0._parentTf)
 end
 
 return var_0_0

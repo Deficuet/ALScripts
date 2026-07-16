@@ -269,30 +269,36 @@ function var_0_0.initNotificationHandleDic(arg_21_0)
 			local var_45_0 = arg_45_1:getBody().context
 
 			arg_45_0.viewComponent:emit(NewMainMediator.REMOVE_LAYERS, arg_45_1:getBody())
+		end,
+		[PlayerProxy.UPDATED] = function(arg_46_0, arg_46_1)
+			arg_46_0.viewComponent:OnPlayerUpdated()
+		end,
+		[ActivityProxy.UPDATED_TIP] = function(arg_47_0, arg_47_1)
+			arg_47_0.viewComponent:emit(MainBaseActivityBtn.UPDATED_TIP)
 		end
 	}
 end
 
-function var_0_0.BuildDebugBattleLoop(arg_46_0, arg_46_1)
+function var_0_0.BuildDebugBattleLoop(arg_48_0, arg_48_1)
 	if not IsUnityEditor then
 		return
 	end
 
-	local var_46_0 = {}
+	local var_48_0 = {}
 
-	for iter_46_0, iter_46_1 in arg_46_1:gmatch("%s+(%S+)") do
-		table.insert(var_46_0, iter_46_0)
+	for iter_48_0, iter_48_1 in arg_48_1:gmatch("%s+(%S+)") do
+		table.insert(var_48_0, iter_48_0)
 	end
 
-	local var_46_1 = {
-		loopCount = tonumber(var_46_0[2]),
-		loopStages = underscore.rest(var_46_0, 3),
+	local var_48_1 = {
+		loopCount = tonumber(var_48_0[2]),
+		loopStages = underscore.rest(var_48_0, 3),
 		tempList = {}
 	}
 
-	_G.InDebugBattleLoop = var_46_1
+	_G.InDebugBattleLoop = var_48_1
 
-	arg_46_0.viewComponent:CheckDebugBattleLoop()
+	arg_48_0.viewComponent:CheckDebugBattleLoop()
 end
 
 return var_0_0

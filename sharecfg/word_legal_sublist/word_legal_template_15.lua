@@ -343,6 +343,9 @@ function temp()
 	var_0_1["2"] = {
 		["2"] = {
 			this = true
+		},
+		B = {
+			this = true
 		}
 	}
 end

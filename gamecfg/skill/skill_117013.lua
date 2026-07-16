@@ -1,0 +1,15 @@
+return {
+	id = 117013,
+	name = "",
+	effect_list = {
+		{
+			type = "BattleSkillAddBuff",
+			casterAniEffect = "",
+			target_choise = "TargetAllHarm",
+			targetAniEffect = "",
+			arg_list = {
+				buff_id = 117019
+			}
+		}
+	}
+}

@@ -97,410 +97,437 @@ function var_0_0.IsCanWalkPonit(arg_7_0, arg_7_1)
 	end
 end
 
-function var_0_0.StartMove(arg_8_0)
-	local var_8_0 = arg_8_0.grid:GetAroundGrids()
-	local var_8_1 = _.select(var_8_0, function(arg_9_0)
-		return arg_8_0:IsCanWalkPonit(arg_9_0)
+function var_0_0.GetMoveDir(arg_8_0, arg_8_1)
+	if arg_8_1.position.x < arg_8_0.grid.position.x then
+		return -1
+	elseif arg_8_1.position.x > arg_8_0.grid.position.x then
+		return 1
+	end
+
+	return arg_8_0._tf.localScale.x < 0 and -1 or 1
+end
+
+function var_0_0.StartMove(arg_9_0)
+	local var_9_0 = arg_9_0.grid:GetAroundGrids()
+	local var_9_1 = _.select(var_9_0, function(arg_10_0)
+		return arg_9_0:IsCanWalkPonit(arg_10_0)
 	end)
 
-	if not var_8_1 or #var_8_1 == 0 then
-		arg_8_0:AddRandomMove()
+	if not var_9_1 or #var_9_1 == 0 then
+		arg_9_0:AddRandomMove()
 	else
-		arg_8_0.stepCnt = arg_8_0.stepCnt - 1
+		arg_9_0.stepCnt = arg_9_0.stepCnt - 1
 
-		local var_8_2 = var_8_1[math.random(1, #var_8_1)]
-		local var_8_3 = arg_8_0.path[var_8_2.x][var_8_2.y]
+		local var_9_2 = var_9_1[math.random(1, #var_9_1)]
+		local var_9_3 = arg_9_0.path[var_9_2.x][var_9_2.y]
+		local var_9_4 = arg_9_0:GetMoveDir(var_9_3)
 
-		arg_8_0:MoveToGrid(var_8_3)
+		arg_9_0:UpdateShipDir(var_9_4)
+		arg_9_0:MoveToGrid(var_9_3)
 	end
 end
 
-function var_0_0.MoveToGrid(arg_10_0, arg_10_1)
-	local function var_10_0()
-		arg_10_0:SetAction("stand2")
+function var_0_0.MoveToGrid(arg_11_0, arg_11_1)
+	local function var_11_0()
+		arg_11_0:SetAction("stand2")
 
-		local var_11_0 = math.random(3, 8)
+		local var_12_0 = math.random(3, 8)
 
-		arg_10_0.idleTimer = Timer.New(function()
-			arg_10_0.idleTimer:Stop()
+		arg_11_0.idleTimer = Timer.New(function()
+			arg_11_0.idleTimer:Stop()
 
-			arg_10_0.idleTimer = nil
+			arg_11_0.idleTimer = nil
 
-			arg_10_0:AddRandomMove()
-		end, var_11_0, 1)
+			arg_11_0:AddRandomMove()
+		end, var_12_0, 1)
 
-		arg_10_0.idleTimer:Start()
+		arg_11_0.idleTimer:Start()
 	end
 
-	local function var_10_1()
-		if arg_10_0.stepCnt ~= 0 then
-			arg_10_0:StartMove()
+	local function var_11_1()
+		if arg_11_0.stepCnt ~= 0 then
+			arg_11_0:StartMove()
 
 			return
 		end
 
-		local var_13_0, var_13_1 = arg_10_0:CanInterAction(arg_10_0.interActionRatio)
+		local var_14_0, var_14_1 = arg_11_0:CanInterAction(arg_11_0.interActionRatio)
 
-		if var_13_0 then
-			arg_10_0:MoveToFurniture(var_13_1)
+		if var_14_0 then
+			arg_11_0:MoveToFurniture(var_14_1)
 		else
-			var_10_0()
+			var_11_0()
 		end
 	end
 
-	arg_10_0:MoveNext(arg_10_1, false, var_10_1)
+	arg_11_0:MoveNext(arg_11_1, false, var_11_1)
 end
 
-function var_0_0.MoveNext(arg_14_0, arg_14_1, arg_14_2, arg_14_3)
-	if not arg_14_2 and not arg_14_1:CanWalk() then
+function var_0_0.MoveNext(arg_15_0, arg_15_1, arg_15_2, arg_15_3)
+	if not arg_15_2 and not arg_15_1:CanWalk() then
 		return
 	end
 
-	if arg_14_0.exited then
+	if arg_15_0.exited then
 		return
 	end
 
-	arg_14_1:Lock()
-	arg_14_0:SetAction("walk")
+	arg_15_1:Lock()
+	arg_15_0:SetAction("walk")
 
-	local var_14_0 = arg_14_1.position.x < arg_14_0.grid.position.x and -1 or 1
+	local var_15_0 = arg_15_0:GetMoveDir(arg_15_1)
 
-	arg_14_0:UpdateShipDir(var_14_0)
+	arg_15_0:UpdateShipDir(var_15_0)
 
-	local var_14_1 = arg_14_1:GetCenterPosition()
+	local var_15_1 = arg_15_1:GetCenterPosition()
 
-	LeanTween.moveLocal(arg_14_0._go, Vector3(var_14_1.x, var_14_1.y, 0), 1 / arg_14_0.speed):setOnComplete(System.Action(function()
-		if arg_14_0.exited then
+	LeanTween.moveLocal(arg_15_0._go, Vector3(var_15_1.x, var_15_1.y, 0), 1 / arg_15_0.speed):setOnComplete(System.Action(function()
+		if arg_15_0.exited then
 			return
 		end
 
-		arg_14_0:SetPosition(arg_14_1)
-		arg_14_3()
+		arg_15_0:SetPosition(arg_15_1)
+		arg_15_3()
 	end))
 end
 
-function var_0_0.MoveLeft(arg_16_0)
-	local var_16_0 = arg_16_0.grid.position
-	local var_16_1 = Vector2(var_16_0.x - 1, var_16_0.y)
-	local var_16_2 = arg_16_0.path[var_16_1.x] and arg_16_0.path[var_16_1.x][var_16_1.y]
+function var_0_0.MoveLeft(arg_17_0)
+	local var_17_0 = arg_17_0.grid.position
+	local var_17_1 = Vector2(var_17_0.x - 1, var_17_0.y)
+	local var_17_2 = arg_17_0.path[var_17_1.x] and arg_17_0.path[var_17_1.x][var_17_1.y]
 
-	if var_16_2 then
-		arg_16_0:MoveNext(var_16_2, false, function()
-			arg_16_0:SetAction("stand2")
+	if var_17_2 then
+		arg_17_0:MoveNext(var_17_2, false, function()
+			arg_17_0:SetAction("stand2")
 		end)
 	end
 end
 
-function var_0_0.MoveRight(arg_18_0)
-	local var_18_0 = arg_18_0.grid.position
-	local var_18_1 = Vector2(var_18_0.x + 1, var_18_0.y)
-	local var_18_2 = arg_18_0.path[var_18_1.x] and arg_18_0.path[var_18_1.x][var_18_1.y]
+function var_0_0.MoveRight(arg_19_0)
+	local var_19_0 = arg_19_0.grid.position
+	local var_19_1 = Vector2(var_19_0.x + 1, var_19_0.y)
+	local var_19_2 = arg_19_0.path[var_19_1.x] and arg_19_0.path[var_19_1.x][var_19_1.y]
 
-	if var_18_2 then
-		arg_18_0:MoveNext(var_18_2, false, function()
-			arg_18_0:SetAction("stand2")
+	if var_19_2 then
+		arg_19_0:MoveNext(var_19_2, false, function()
+			arg_19_0:SetAction("stand2")
 		end)
 	end
 end
 
-function var_0_0.MoveDown(arg_20_0)
-	local var_20_0 = arg_20_0.grid.position
-	local var_20_1 = Vector2(var_20_0.x, var_20_0.y - 1)
-	local var_20_2 = arg_20_0.path[var_20_1.x] and arg_20_0.path[var_20_1.x][var_20_1.y]
+function var_0_0.MoveDown(arg_21_0)
+	local var_21_0 = arg_21_0.grid.position
+	local var_21_1 = Vector2(var_21_0.x, var_21_0.y - 1)
+	local var_21_2 = arg_21_0.path[var_21_1.x] and arg_21_0.path[var_21_1.x][var_21_1.y]
 
-	if var_20_2 then
-		arg_20_0:MoveNext(var_20_2, false, function()
-			arg_20_0:SetAction("stand2")
+	if var_21_2 then
+		arg_21_0:MoveNext(var_21_2, false, function()
+			arg_21_0:SetAction("stand2")
 		end)
 	end
 end
 
-function var_0_0.MoveUp(arg_22_0)
-	local var_22_0 = arg_22_0.grid.position
-	local var_22_1 = Vector2(var_22_0.x, var_22_0.y + 1)
-	local var_22_2 = arg_22_0.path[var_22_1.x] and arg_22_0.path[var_22_1.x][var_22_1.y]
+function var_0_0.MoveUp(arg_23_0)
+	local var_23_0 = arg_23_0.grid.position
+	local var_23_1 = Vector2(var_23_0.x, var_23_0.y + 1)
+	local var_23_2 = arg_23_0.path[var_23_1.x] and arg_23_0.path[var_23_1.x][var_23_1.y]
 
-	if var_22_2 then
-		arg_22_0:MoveNext(var_22_2, false, function()
-			arg_22_0:SetAction("stand2")
+	if var_23_2 then
+		arg_23_0:MoveNext(var_23_2, false, function()
+			arg_23_0:SetAction("stand2")
 		end)
 	end
 end
 
-function var_0_0.SetAction(arg_24_0, arg_24_1)
-	if arg_24_0.actionName == arg_24_1 then
+function var_0_0.SetAction(arg_25_0, arg_25_1)
+	if arg_25_0.actionName == arg_25_1 then
 		return
 	end
 
-	arg_24_0.actionName = arg_24_1
+	arg_25_0.actionName = arg_25_1
 
-	arg_24_0.spineChar:SetAction(arg_24_1, 0)
+	arg_25_0.spineChar:SetAction(arg_25_1, 0)
+	arg_25_0:NorDirByFather()
 end
 
-function var_0_0.SetAsLastSibling(arg_25_0)
-	arg_25_0._tf:SetAsLastSibling()
+function var_0_0.SetAsLastSibling(arg_26_0)
+	arg_26_0._tf:SetAsLastSibling()
 end
 
-function var_0_0.MoveToFurniture(arg_26_0, arg_26_1)
-	local var_26_0 = arg_26_1[1]
-	local var_26_1 = arg_26_1[2]
+function var_0_0.MoveToFurniture(arg_27_0, arg_27_1)
+	local var_27_0 = arg_27_1[1]
+	local var_27_1 = arg_27_1[2]
 
-	var_26_0:Lock()
+	var_27_0:Lock()
 
-	for iter_26_0, iter_26_1 in ipairs(var_26_1) do
-		arg_26_0.path[iter_26_1.x][iter_26_1.y]:Lock()
+	for iter_27_0, iter_27_1 in ipairs(var_27_1) do
+		arg_27_0.path[iter_27_1.x][iter_27_1.y]:Lock()
 	end
 
-	arg_26_0:MoveByPath(var_26_1, function()
-		arg_26_0:InterActionFurniture(var_26_0)
+	arg_27_0:MoveByPath(var_27_1, function()
+		arg_27_0:InterActionFurniture(var_27_0)
 	end)
 end
 
-function var_0_0.UpdateShipDir(arg_28_0, arg_28_1)
-	arg_28_0._tf.localScale = Vector3(arg_28_1 * arg_28_0.scale, arg_28_0.scale, arg_28_0.scale)
+function var_0_0.UpdateNameAndTagDir(arg_29_0, arg_29_1)
+	local var_29_0 = 1 / arg_29_0.scale * arg_29_1
 
-	local var_28_0 = 1 / arg_28_0.scale * arg_28_1
+	if arg_29_0.nameTF then
+		arg_29_0.nameTF.localScale = Vector3(var_29_0, 1 / arg_29_0.scale, 1)
+	end
 
-	arg_28_0.nameTF.localScale = Vector3(var_28_0, arg_28_0.nameTF.localScale.y, 1)
-
-	if arg_28_0.isCommander then
-		arg_28_0.tagTF.localScale = Vector3(var_28_0, arg_28_0.tagTF.localScale.y, 1)
+	if arg_29_0.isCommander and arg_29_0.tagTF then
+		arg_29_0.tagTF.localScale = Vector3(var_29_0, 1 / arg_29_0.scale, 1)
 	end
 end
 
-function var_0_0.InterActionFurniture(arg_29_0, arg_29_1)
-	setParent(arg_29_0._tf, arg_29_1._tf)
+function var_0_0.UpdateShipDir(arg_30_0, arg_30_1)
+	arg_30_0._tf.localScale = Vector3(arg_30_1 * arg_30_0.scale, arg_30_0.scale, arg_30_0.scale)
 
-	local var_29_0 = arg_29_1:GetInteractionDir()
+	arg_30_0:UpdateNameAndTagDir(arg_30_1)
+end
 
-	arg_29_0:UpdateShipDir(var_29_0)
+function var_0_0.NorDirByFather(arg_31_0)
+	local var_31_0 = arg_31_0._tf.localScale.x < 0 and -1 or 1
 
-	local var_29_1 = arg_29_1:GetInterActionPos()
+	arg_31_0:UpdateNameAndTagDir(var_31_0)
+end
 
-	arg_29_0._tf.anchoredPosition = var_29_1
+function var_0_0.InterActionFurniture(arg_32_0, arg_32_1)
+	setParent(arg_32_0._tf, arg_32_1._tf)
 
-	local var_29_2 = arg_29_1:GetInterActionMode()
-	local var_29_3
+	local var_32_0 = arg_32_1:GetInteractionDir()
 
-	if GuildDynamicFurniture.INTERACTION_MODE_SIT == var_29_2 then
-		var_29_3 = "sit"
+	arg_32_0:UpdateShipDir(var_32_0)
+
+	local var_32_1 = arg_32_1:GetInterActionPos()
+
+	arg_32_0._tf.anchoredPosition = var_32_1
+
+	local var_32_2 = arg_32_1:GetInterActionMode()
+	local var_32_3
+
+	if GuildDynamicFurniture.INTERACTION_MODE_SIT == var_32_2 then
+		var_32_3 = "sit"
 	end
 
-	assert(var_29_3)
-	arg_29_0:SetAction(var_29_3)
-	arg_29_0:CancelInterAction(arg_29_1)
+	assert(var_32_3)
+	arg_32_0:SetAction(var_32_3)
+	arg_32_0:UpdateShipDir(var_32_0)
+	arg_32_0:CancelInterAction(arg_32_1)
 end
 
-function var_0_0.CancelInterAction(arg_30_0, arg_30_1)
-	local var_30_0 = math.random(15, 30)
+function var_0_0.CancelInterAction(arg_33_0, arg_33_1)
+	local var_33_0 = math.random(15, 30)
 
-	arg_30_0.interActionTimer = Timer.New(function()
-		arg_30_0.interActionTimer:Stop()
+	arg_33_0.interActionTimer = Timer.New(function()
+		arg_33_0.interActionTimer:Stop()
 
-		arg_30_0.interActionTimer = nil
+		arg_33_0.interActionTimer = nil
 
-		arg_30_1:Unlock()
-		setParent(arg_30_0._tf, arg_30_0.parent)
-		assert(arg_30_0.grid)
-		arg_30_0:SetPosition(arg_30_0.grid, true)
-		arg_30_0:AddRandomMove()
-	end, var_30_0, 1)
+		arg_33_1:Unlock()
+		setParent(arg_33_0._tf, arg_33_0.parent)
+		assert(arg_33_0.grid)
+		arg_33_0:SetPosition(arg_33_0.grid, true)
+		arg_33_0:NorDirByFather()
+		arg_33_0:AddRandomMove()
+	end, var_33_0, 1)
 
-	arg_30_0.interActionTimer:Start()
+	arg_33_0.interActionTimer:Start()
 end
 
-function var_0_0.MoveByPath(arg_32_0, arg_32_1, arg_32_2)
-	local var_32_0 = {}
+function var_0_0.MoveByPath(arg_35_0, arg_35_1, arg_35_2)
+	local var_35_0 = {}
 
-	for iter_32_0, iter_32_1 in ipairs(arg_32_1) do
-		table.insert(var_32_0, function(arg_33_0)
-			if arg_32_0.exited then
+	for iter_35_0, iter_35_1 in ipairs(arg_35_1) do
+		table.insert(var_35_0, function(arg_36_0)
+			if arg_35_0.exited then
 				return
 			end
 
-			local var_33_0 = arg_32_0.path[iter_32_1.x][iter_32_1.y]
+			local var_36_0 = arg_35_0.path[iter_35_1.x][iter_35_1.y]
 
-			arg_32_0:MoveNext(var_33_0, true, arg_33_0)
+			arg_35_0:MoveNext(var_36_0, true, arg_36_0)
 		end)
 	end
 
-	seriesAsync(var_32_0, arg_32_2)
+	seriesAsync(var_35_0, arg_35_2)
 end
 
-function var_0_0.SearchPoint(arg_34_0, arg_34_1, arg_34_2)
-	local function var_34_0(arg_35_0, arg_35_1, arg_35_2, arg_35_3)
-		if _.any(arg_35_0, function(arg_36_0)
-			return arg_35_2 == arg_36_0.point
-		end) or _.any(arg_35_1, function(arg_37_0)
-			return arg_35_2 == arg_37_0
+function var_0_0.SearchPoint(arg_37_0, arg_37_1, arg_37_2)
+	local function var_37_0(arg_38_0, arg_38_1, arg_38_2, arg_38_3)
+		if _.any(arg_38_0, function(arg_39_0)
+			return arg_38_2 == arg_39_0.point
+		end) or _.any(arg_38_1, function(arg_40_0)
+			return arg_38_2 == arg_40_0
 		end) then
 			return false
 		end
 
-		if arg_34_0.path[arg_35_2.x] then
-			local var_35_0 = arg_34_0.path[arg_35_2.x][arg_35_2.y]
+		if arg_37_0.path[arg_38_2.x] then
+			local var_38_0 = arg_37_0.path[arg_38_2.x][arg_38_2.y]
 
-			return var_35_0 and var_35_0:CanWalk()
+			return var_38_0 and var_38_0:CanWalk()
 		end
 
 		return false
 	end
 
-	local function var_34_1(arg_38_0)
-		local var_38_0 = {}
+	local function var_37_1(arg_41_0)
+		local var_41_0 = {}
 
-		table.insert(var_38_0, Vector2(arg_38_0.x + 1, arg_38_0.y))
-		table.insert(var_38_0, Vector2(arg_38_0.x - 1, arg_38_0.y))
-		table.insert(var_38_0, Vector2(arg_38_0.x, arg_38_0.y + 1))
-		table.insert(var_38_0, Vector2(arg_38_0.x, arg_38_0.y - 1))
+		table.insert(var_41_0, Vector2(arg_41_0.x + 1, arg_41_0.y))
+		table.insert(var_41_0, Vector2(arg_41_0.x - 1, arg_41_0.y))
+		table.insert(var_41_0, Vector2(arg_41_0.x, arg_41_0.y + 1))
+		table.insert(var_41_0, Vector2(arg_41_0.x, arg_41_0.y - 1))
 
-		return var_38_0
+		return var_41_0
 	end
 
-	local function var_34_2(arg_39_0, arg_39_1, arg_39_2)
-		return math.abs(arg_39_2.x - arg_39_0.x) + math.abs(arg_39_2.y - arg_39_0.y) < math.abs(arg_39_2.x - arg_39_1.x) + math.abs(arg_39_2.y - arg_39_1.y)
+	local function var_37_2(arg_42_0, arg_42_1, arg_42_2)
+		return math.abs(arg_42_2.x - arg_42_0.x) + math.abs(arg_42_2.y - arg_42_0.y) < math.abs(arg_42_2.x - arg_42_1.x) + math.abs(arg_42_2.y - arg_42_1.y)
 	end
 
-	local var_34_3 = {}
-	local var_34_4 = {}
-	local var_34_5 = {}
-	local var_34_6
+	local var_37_3 = {}
+	local var_37_4 = {}
+	local var_37_5 = {}
+	local var_37_6
 
-	table.insert(var_34_3, {
+	table.insert(var_37_3, {
 		parent = 0,
-		point = arg_34_1
+		point = arg_37_1
 	})
 
-	while #var_34_3 > 0 do
-		local var_34_7 = table.remove(var_34_3, 1)
-		local var_34_8 = var_34_7.point
+	while #var_37_3 > 0 do
+		local var_37_7 = table.remove(var_37_3, 1)
+		local var_37_8 = var_37_7.point
 
-		if var_34_8 == arg_34_2 then
-			var_34_6 = var_34_7
+		if var_37_8 == arg_37_2 then
+			var_37_6 = var_37_7
 
 			break
 		end
 
-		table.insert(var_34_4, var_34_8)
+		table.insert(var_37_4, var_37_8)
 
-		for iter_34_0, iter_34_1 in ipairs(var_34_1(var_34_8)) do
-			if var_34_0(var_34_3, var_34_4, iter_34_1, arg_34_2) then
-				table.insert(var_34_3, {
-					point = iter_34_1,
-					parent = var_34_7
+		for iter_37_0, iter_37_1 in ipairs(var_37_1(var_37_8)) do
+			if var_37_0(var_37_3, var_37_4, iter_37_1, arg_37_2) then
+				table.insert(var_37_3, {
+					point = iter_37_1,
+					parent = var_37_7
 				})
 			else
-				if iter_34_1 == arg_34_2 then
-					var_34_6 = var_34_7
+				if iter_37_1 == arg_37_2 then
+					var_37_6 = var_37_7
 
 					break
 				end
 
-				table.insert(var_34_4, iter_34_1)
+				table.insert(var_37_4, iter_37_1)
 			end
 		end
 
-		table.sort(var_34_3, function(arg_40_0, arg_40_1)
-			return var_34_2(arg_40_0.point, arg_40_1.point, arg_34_2)
+		table.sort(var_37_3, function(arg_43_0, arg_43_1)
+			return var_37_2(arg_43_0.point, arg_43_1.point, arg_37_2)
 		end)
 	end
 
-	if var_34_6 then
-		while var_34_6.parent ~= 0 do
-			table.insert(var_34_5, 1, var_34_6.point)
+	if var_37_6 then
+		while var_37_6.parent ~= 0 do
+			table.insert(var_37_5, 1, var_37_6.point)
 
-			var_34_6 = var_34_6.parent
+			var_37_6 = var_37_6.parent
 		end
 	end
 
-	return var_34_5
+	return var_37_5
 end
 
-function var_0_0.CanInterAction(arg_41_0, arg_41_1)
-	if arg_41_1 < math.random(1, 10000) then
+function var_0_0.CanInterAction(arg_44_0, arg_44_1)
+	if arg_44_1 < math.random(1, 10000) then
 		return false
 	end
 
-	local var_41_0 = {}
+	local var_44_0 = {}
 
-	for iter_41_0, iter_41_1 in ipairs(arg_41_0.furnitures) do
-		if not iter_41_1:BeLock() then
-			table.insert(var_41_0, iter_41_1)
+	for iter_44_0, iter_44_1 in ipairs(arg_44_0.furnitures) do
+		if not iter_44_1:BeLock() then
+			table.insert(var_44_0, iter_44_1)
 		end
 	end
 
-	if #var_41_0 == 0 then
+	if #var_44_0 == 0 then
 		return false
 	end
 
-	local var_41_1 = var_41_0[math.random(1, #var_41_0)]
-	local var_41_2 = var_41_1:GetOccupyGrid()
-	local var_41_3 = 999999
-	local var_41_4
-	local var_41_5 = arg_41_0.grid.position
+	local var_44_1 = var_44_0[math.random(1, #var_44_0)]
+	local var_44_2 = var_44_1:GetOccupyGrid()
+	local var_44_3 = 999999
+	local var_44_4
+	local var_44_5 = arg_44_0.grid.position
 
-	for iter_41_2, iter_41_3 in ipairs(var_41_2) do
-		local var_41_6 = iter_41_3.position
-		local var_41_7 = math.abs(var_41_5.x - var_41_6.x) + math.abs(var_41_5.y - var_41_6.y)
+	for iter_44_2, iter_44_3 in ipairs(var_44_2) do
+		local var_44_6 = iter_44_3.position
+		local var_44_7 = math.abs(var_44_5.x - var_44_6.x) + math.abs(var_44_5.y - var_44_6.y)
 
-		if var_41_7 < var_41_3 then
-			var_41_3 = var_41_7
-			var_41_4 = var_41_6
+		if var_44_7 < var_44_3 then
+			var_44_3 = var_44_7
+			var_44_4 = var_44_6
 		end
 	end
 
-	local var_41_8 = arg_41_0:SearchPoint(arg_41_0.grid.position, var_41_4)
+	local var_44_8 = arg_44_0:SearchPoint(arg_44_0.grid.position, var_44_4)
 
-	if not var_41_8 or #var_41_8 == 0 then
+	if not var_44_8 or #var_44_8 == 0 then
 		return false
 	end
 
 	return true, {
-		var_41_1,
-		var_41_8
+		var_44_1,
+		var_44_8
 	}
 end
 
-function var_0_0.Dispose(arg_42_0)
-	if arg_42_0.timer then
-		arg_42_0.timer:Stop()
+function var_0_0.Dispose(arg_45_0)
+	if arg_45_0.timer then
+		arg_45_0.timer:Stop()
 
-		arg_42_0.timer = nil
+		arg_45_0.timer = nil
 	end
 
-	if arg_42_0.idleTimer then
-		arg_42_0.idleTimer:Stop()
+	if arg_45_0.idleTimer then
+		arg_45_0.idleTimer:Stop()
 
-		arg_42_0.idleTimer = nil
+		arg_45_0.idleTimer = nil
 	end
 
-	if arg_42_0.interActionTimer then
-		arg_42_0.interActionTimer:Stop()
+	if arg_45_0.interActionTimer then
+		arg_45_0.interActionTimer:Stop()
 
-		arg_42_0.interActionTimer = nil
+		arg_45_0.interActionTimer = nil
 	end
 
-	if not IsNil(arg_42_0._go) and LeanTween.isTweening(arg_42_0._go) then
-		LeanTween.cancel(arg_42_0._go)
+	if not IsNil(arg_45_0._go) and LeanTween.isTweening(arg_45_0._go) then
+		LeanTween.cancel(arg_45_0._go)
 	end
 
-	if arg_42_0.spineChar then
-		arg_42_0.spineChar:Dispose()
+	if arg_45_0.spineChar then
+		arg_45_0.spineChar:Dispose()
 
-		arg_42_0.spineChar = nil
+		arg_45_0.spineChar = nil
 	end
 
-	Destroy(arg_42_0.nameTF)
+	Destroy(arg_45_0.nameTF)
 
-	if arg_42_0.isCommander then
-		Destroy(arg_42_0.tagTF)
+	if arg_45_0.isCommander then
+		Destroy(arg_45_0.tagTF)
 	end
 
-	arg_42_0.actionName = nil
+	arg_45_0.actionName = nil
 
-	arg_42_0:SetOnMoveCallBack()
+	arg_45_0:SetOnMoveCallBack()
 
-	arg_42_0.exited = true
+	arg_45_0.exited = true
 end
 
 return var_0_0

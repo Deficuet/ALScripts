@@ -183,7 +183,7 @@ function var_0_0.HandleMeteoDamage(arg_8_0, arg_8_1, arg_8_2)
 	end
 end
 
-function var_0_0.HandleDirectDamage(arg_9_0, arg_9_1, arg_9_2, arg_9_3, arg_9_4, arg_9_5, arg_9_6)
+function var_0_0.HandleDirectDamage(arg_9_0, arg_9_1, arg_9_2, arg_9_3, arg_9_4, arg_9_5, arg_9_6, arg_9_7)
 	local var_9_0
 
 	if arg_9_3 then
@@ -197,7 +197,8 @@ function var_0_0.HandleDirectDamage(arg_9_0, arg_9_1, arg_9_2, arg_9_3, arg_9_4,
 		damageReason = arg_9_4,
 		srcID = var_9_0,
 		isReflect = arg_9_5,
-		ignoreInvincible = arg_9_6
+		ignoreInvincible = arg_9_6,
+		ignoreShield = arg_9_7
 	}
 	local var_9_2 = arg_9_1:GetAttrByName("id")
 	local var_9_3 = arg_9_1:UpdateHP(arg_9_2 * -1, var_9_1)

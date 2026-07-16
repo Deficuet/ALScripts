@@ -182,6 +182,8 @@ function var_0_0.UpdataAchvItem(arg_24_0, arg_24_1, arg_24_2)
 end
 
 function var_0_0.Flush(arg_25_0)
+	arg_25_0.card.achvList = getProxy(IslandProxy):GetIsland():GetAchievementAgency():UpdataAchLv(arg_25_0.card.achvList)
+
 	arg_25_0:UpdataPhoto()
 	arg_25_0:UpdataLabels()
 	arg_25_0:UpdataInfos()
@@ -298,7 +300,7 @@ end
 function var_0_0.OnSetAchvsDone(arg_37_0, arg_37_1)
 	arg_37_0.setAchvsBox:ExecuteAction("Hide")
 
-	arg_37_0.card.achvList = arg_37_1
+	arg_37_0.card.achvList = getProxy(IslandProxy):GetIsland():GetAchievementAgency():UpdataAchLv(arg_37_1)
 
 	arg_37_0.achvUIList:align(var_0_0.ACHV_SHOW_CNT)
 

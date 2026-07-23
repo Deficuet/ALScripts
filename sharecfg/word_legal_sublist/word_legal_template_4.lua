@@ -23,6 +23,9 @@ function temp()
 				this = true
 			}
 		},
+		里 = {
+			this = true
+		},
 		沃 = {
 			伊 = {
 				亲 = {

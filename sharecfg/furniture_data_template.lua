@@ -237,6 +237,7 @@ pg.furniture_data_template.all = {
 	339,
 	340,
 	341,
+	342,
 	100001,
 	100002,
 	100003,
@@ -3759,7 +3760,32 @@ pg.furniture_data_template.all = {
 	340102,
 	340103,
 	340104,
-	340105
+	340105,
+	341001,
+	341002,
+	341101,
+	341102,
+	341103,
+	341104,
+	341105,
+	341106,
+	341107,
+	341108,
+	341109,
+	341110,
+	341111,
+	341112,
+	341113,
+	341114,
+	341115,
+	341116,
+	341117,
+	341118,
+	341119,
+	341301,
+	341302,
+	341303,
+	341304
 }
 pg.furniture_data_template.get_id_list_by_themeId = {
 	[0] = {
@@ -3994,6 +4020,7 @@ pg.furniture_data_template.get_id_list_by_themeId = {
 		339,
 		340,
 		341,
+		342,
 		100001,
 		100002,
 		100003,
@@ -7775,6 +7802,33 @@ pg.furniture_data_template.get_id_list_by_themeId = {
 		340103,
 		340104,
 		340105
+	},
+	[141] = {
+		341001,
+		341002,
+		341101,
+		341102,
+		341103,
+		341104,
+		341105,
+		341106,
+		341107,
+		341108,
+		341109,
+		341110,
+		341111,
+		341112,
+		341113,
+		341114,
+		341115,
+		341116,
+		341117,
+		341118,
+		341119,
+		341301,
+		341302,
+		341303,
+		341304
 	}
 }
 pg.furniture_data_template.get_id_list_by_tag = {
@@ -10143,7 +10197,25 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		340101,
 		340102,
 		340103,
-		340104
+		340104,
+		341101,
+		341102,
+		341103,
+		341104,
+		341105,
+		341106,
+		341107,
+		341108,
+		341109,
+		341110,
+		341111,
+		341112,
+		341113,
+		341114,
+		341115,
+		341116,
+		341117,
+		341118
 	},
 	{
 		1108,
@@ -10469,7 +10541,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		337002,
 		338002,
 		339002,
-		340002
+		340002,
+		341002
 	},
 	{
 		1001,
@@ -10600,7 +10673,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		337001,
 		338001,
 		339001,
-		340001
+		340001,
+		341001
 	},
 	{
 		1301,
@@ -11006,7 +11080,11 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		335301,
 		335302,
 		336301,
-		336302
+		336302,
+		341301,
+		341302,
+		341303,
+		341304
 	},
 	{
 		1,
@@ -11466,7 +11544,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		336115,
 		338116,
 		339115,
-		340105
+		340105,
+		341119
 	},
 	{
 		101,
@@ -11548,7 +11627,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		335,
 		338,
 		339,
-		341
+		341,
+		342
 	}
 }
 pg.furniture_data_template.get_id_list_by_type = {
@@ -11681,7 +11761,8 @@ pg.furniture_data_template.get_id_list_by_type = {
 		337002,
 		338002,
 		339002,
-		340002
+		340002,
+		341002
 	},
 	{
 		120,
@@ -14042,7 +14123,26 @@ pg.furniture_data_template.get_id_list_by_type = {
 		340101,
 		340103,
 		340104,
-		340105
+		340105,
+		341101,
+		341102,
+		341103,
+		341104,
+		341105,
+		341106,
+		341107,
+		341108,
+		341109,
+		341110,
+		341111,
+		341112,
+		341113,
+		341114,
+		341115,
+		341116,
+		341117,
+		341118,
+		341119
 	},
 	{
 		1108,
@@ -14369,7 +14469,8 @@ pg.furniture_data_template.get_id_list_by_type = {
 		337001,
 		338001,
 		339001,
-		340001
+		340001,
+		341001
 	},
 	{
 		1101,
@@ -14937,7 +15038,11 @@ pg.furniture_data_template.get_id_list_by_type = {
 		335301,
 		335302,
 		336301,
-		336302
+		336302,
+		341301,
+		341302,
+		341303,
+		341304
 	},
 	{
 		1,
@@ -15139,6 +15244,7 @@ pg.furniture_data_template.get_id_list_by_type = {
 		339,
 		340,
 		341,
+		342,
 		100001,
 		100002,
 		100004,
@@ -27184,6 +27290,54 @@ end)()
 		},
 		interAction_group = {}
 	}
+	pg.base.furniture_data_template[342] = {
+		spine_extra = "",
+		describe = "快躺下，下一部惊悚片的主角就是你！",
+		gain_by = "怪谈纪实：逃离白夜山庄！",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		icon = "shoushutaixunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 8,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		name = "白夜山庄手术室模型",
+		canputon = 0,
+		id = 342,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"shoushutaixunzhang",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	}
 	pg.base.furniture_data_template[100001] = {
 		gain_by = "",
 		name = "本ID禁用，后端固定会删除",
@@ -31928,6 +32082,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[100067] = {
 		gain_by = "",
 		name = "全自动防跌落跑步机",
@@ -32019,8 +32175,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[100068] = {
 		spine_extra = "",
 		describe = "这件神秘的宝物似乎有两个主人，但都不是很好惹…！",
@@ -36983,6 +37137,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[3304] = {
 		spine_extra = "",
 		describe = "坚固的铁制门，感觉用力带上会发出哐哐的巨响。",
@@ -37021,8 +37177,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[3305] = {
 		spine_extra = "",
 		describe = "挂在墙上的世界地图，只是用来做装饰的啦。",
@@ -41174,6 +41328,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[7113] = {
 		spine_extra = "",
 		describe = "西瓜配色的沙发",
@@ -41247,8 +41403,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[7114] = {
 		spine_extra = "",
 		describe = "自动售货机",
@@ -45594,6 +45748,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[9304] = {
 		spine_extra = "",
 		describe = "黑板上写了好多题目啊",
@@ -45632,8 +45788,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[9305] = {
 		spine_extra = "",
 		describe = "这是谁的奖状",
@@ -49988,6 +50142,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[13002] = {
 		spine_extra = "",
 		describe = "画满纹路的墙壁，很优雅的样子",
@@ -50023,8 +50179,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[13101] = {
 		spine_extra = "",
 		describe = "有人不听话的就会被埋掉哦",
@@ -54503,6 +54657,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[17101] = {
 		spine_extra = "",
 		describe = "格外受到欢迎的浸足温泉！快来试试！",
@@ -54567,8 +54723,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[17102] = {
 		spine_extra = "",
 		describe = "山石、竹筒与潺潺的流水，注意不要跌进水里哦",
@@ -59358,6 +59512,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[20111] = {
 		spine_extra = "",
 		describe = "在探险之前，先填饱肚子吧",
@@ -59410,8 +59566,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[20112] = {
 		spine_extra = "",
 		describe = "充分休息过后，就继续我们的冒险吧！",
@@ -64129,6 +64283,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[24113] = {
 		spine_extra = "",
 		describe = "制造废人的机器·黄色",
@@ -64180,8 +64336,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[24114] = {
 		spine_extra = "",
 		describe = "不要跟喵喵抢窝喵！",
@@ -68980,6 +69134,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[28112] = {
 		spine_extra = "",
 		describe = "这个踩上去感觉和草地一样么",
@@ -69018,8 +69174,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[28113] = {
 		spine_extra = "",
 		describe = "野餐的时候记得带上桌布哦",
@@ -73742,6 +73896,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[31103] = {
 		spine_extra = "",
 		describe = "观赏时，请站在正面，tori！",
@@ -73780,8 +73936,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[31104] = {
 		gain_by = "",
 		name = "tori电车",
@@ -78394,6 +78548,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[36125] = {
 		spine_extra = "",
 		describe = "似乎是某人的好朋友？！",
@@ -78442,8 +78598,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[36126] = {
 		gain_by = "",
 		name = "可可波",
@@ -82881,6 +83035,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[39201] = {
 		spine_extra = "",
 		describe = "小号的火锅，不过食材跟大火锅是一样的",
@@ -82919,8 +83075,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[39202] = {
 		spine_extra = "",
 		describe = "发红包咯！快来看看你的手气吧！",
@@ -87337,6 +87491,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[43114] = {
 		spine_extra = "",
 		describe = "普通的猫。既不是曼基康，也不是鹦鹉，更不是咯叽咯叽鸟",
@@ -87375,8 +87531,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[43115] = {
 		spine_extra = "",
 		describe = "搭载了超级AI的培养槽。呆在里面没准可以比平时更快的恢复健康",
@@ -91659,6 +91813,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[46104] = {
 		spine_extra = "",
 		describe = "这里似乎有什么好玩的呢~",
@@ -91697,8 +91853,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[46105] = {
 		spine_extra = "",
 		describe = "散发着冷冷的蓝光",
@@ -95961,6 +96115,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[50107] = {
 		spine_extra = "",
 		describe = "超过限速，可是要接受惩罚的哦？",
@@ -95999,8 +96155,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[50108] = {
 		spine_extra = "",
 		describe = "66号公路，从这里开始。",
@@ -100437,6 +100591,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[55111] = {
 		spine_extra = "",
 		describe = "天空色的沙发，搭配太阳与星星造型的抱枕",
@@ -100499,8 +100655,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[55112] = {
 		spine_extra = "",
 		describe = "选择一个喜欢的数字吧~",
@@ -104782,6 +104936,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[59105] = {
 		spine_extra = "",
 		describe = "被膨松松包围的安心感~",
@@ -104833,8 +104989,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[59106] = {
 		spine_extra = "",
 		describe = "想和你，手牵手一起走过人生的阶梯",
@@ -109181,6 +109335,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[63101] = {
 		spine_extra = "",
 		describe = "披萨还要多久呢~",
@@ -109219,8 +109375,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[63102] = {
 		spine_extra = "",
 		describe = "宽敞干净的长餐台",
@@ -113631,6 +113785,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[69304] = {
 		spine_extra = "",
 		describe = "诊疗所成绩的证明~",
@@ -113669,8 +113825,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[69305] = {
 		spine_extra = "",
 		describe = "心肺科诊室的门。心肺是一个人的动力炉啾！",
@@ -118240,6 +118394,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[73116] = {
 		spine_extra = "",
 		describe = "只是个模型，并不能食用",
@@ -118278,8 +118434,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[73117] = {
 		spine_extra = "",
 		describe = "心平气和，一起赞美圣夜啾~",
@@ -122620,6 +122774,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[77115] = {
 		spine_extra = "",
 		describe = "是谁在桥上堆的雪人？",
@@ -122671,8 +122827,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[77116] = {
 		spine_extra = "",
 		describe = "还是得及时除雪才行呢。",
@@ -126996,6 +127150,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[82101] = {
 		spine_extra = "",
 		describe = "烘托出一丝荒凉的气息。",
@@ -127034,8 +127190,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[82105] = {
 		spine_extra = "",
 		describe = "欢迎来到西部小镇啾！",
@@ -131458,6 +131612,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[85115] = {
 		spine_extra = "",
 		describe = "可以让人放松休息的舒适座位",
@@ -131509,8 +131665,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[85119] = {
 		spine_extra = "",
 		describe = "是谁把漫画放这里的啾？",
@@ -135638,6 +135792,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[89115] = {
 		spine_extra = "",
 		describe = "让人感受到坚韧的生命力。",
@@ -135676,8 +135832,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[89116] = {
 		spine_extra = "",
 		describe = "印着云朵纹饰的屏风。",
@@ -139717,6 +139871,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[93110] = {
 		spine_extra = "",
 		describe = "要来点椰子吗？",
@@ -139755,8 +139911,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[93111] = {
 		spine_extra = "",
 		describe = "用清凉的流水浇灭酷暑！",
@@ -144112,6 +144266,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[96302] = {
 		spine_extra = "",
 		describe = "乘风破浪，你就是海边最靓的仔！",
@@ -144150,8 +144306,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[96303] = {
 		spine_extra = "",
 		describe = "明媚阳光下的沙滩和大海在等着我们！",
@@ -148553,6 +148707,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[99303] = {
 		spine_extra = "",
 		describe = "侧向推拉的木门。用力过猛的话门可能承受不住……",
@@ -148591,8 +148747,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[99304] = {
 		spine_extra = "",
 		describe = "画着有趣场景的挂画。",
@@ -153407,6 +153561,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[303106] = {
 		spine_extra = "",
 		describe = "客人请排队，嗯？您看不见其它客人吗？",
@@ -153458,8 +153614,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[303107] = {
 		spine_extra = "",
 		describe = "劳烦帮我盖上盖子，谢谢。",
@@ -157947,6 +158101,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[307002] = {
 		spine_extra = "",
 		describe = "龙年大吉，新春如意！",
@@ -157988,8 +158144,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[307101] = {
 		gain_by = "",
 		name = "宫灯",
@@ -162550,6 +162704,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[311112] = {
 		spine_extra = "",
 		describe = "随手放一下没吃完的东西~十分方便！",
@@ -162588,8 +162744,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[311113] = {
 		spine_extra = "",
 		describe = "里面有各种充气玩具，玩个痛快吧！",
@@ -167492,6 +167646,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[316304] = {
 		spine_extra = "",
 		describe = "开门之前，要记得敲门哦！ ",
@@ -167530,8 +167686,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[316305] = {
 		spine_extra = "",
 		describe = "开门之前，要记得敲门哦！ ",
@@ -172127,6 +172281,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[321108] = {
 		spine_extra = "",
 		describe = "田园编织藤桌，很适合放甜点下午茶哦~",
@@ -172165,8 +172321,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[321109] = {
 		spine_extra = "",
 		describe = "田园编织藤椅，搭配柔软靠垫，坐着很安心！",
@@ -176653,6 +176807,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[327102] = {
 		spine_extra = "",
 		describe = "庭院的基本组成要素之一",
@@ -176691,8 +176847,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[327103] = {
 		gain_by = "",
 		name = "庭院摇摇吊床",
@@ -181398,6 +181552,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[331303] = {
 		spine_extra = "",
 		describe = "档案管理站，可以用来查阅档案与数据记录 ",
@@ -181436,8 +181592,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[331304] = {
 		spine_extra = "",
 		describe = "辅助数据指挥屏，用于快速浏览并处理多项实时数据 ",
@@ -186207,6 +186361,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[337101] = {
 		spine_extra = "",
 		describe = "来杯特调饮料，和伙伴们坐在吧台边畅聊吧~",
@@ -186245,8 +186401,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[337102] = {
 		spine_extra = "",
 		describe = "坐在高脚凳上，品尝饮料看看风景吧~",
@@ -188810,6 +188964,1144 @@ end)()
 					false
 				}
 			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341001] = {
+		spine_extra = "",
+		describe = "踏入废弃住院部，在寂静病房与斑驳旧物间展开探索吧~",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "废弃住院部地板",
+		effect = "",
+		advice = 0,
+		tag = 4,
+		spine_action_replace = "",
+		picture = "yi3/dibanyi3",
+		icon = "dibanyi3icon",
+		canputon = 0,
+		comfortable = 4,
+		id = 341001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341002] = {
+		spine_extra = "",
+		describe = "踏入废弃住院部，在寂静病房与斑驳旧物间展开探索吧~",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "废弃住院部墙纸",
+		effect = "",
+		advice = 0,
+		tag = 3,
+		spine_action_replace = "",
+		picture = "yi3/qiangbiyi3",
+		icon = "qiangbiyi3icon",
+		canputon = 0,
+		comfortable = 4,
+		id = 341002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341101] = {
+		spine_extra = "",
+		describe = "来睡一觉吧，醒来一切都会变好的~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "bingchuangyi3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "yi3/bingchuangyi3",
+		name = "住院部病床",
+		canputon = 0,
+		id = 341101,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					18.1,
+					27.5
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341102] = {
+		spine_extra = "",
+		describe = "探索时小心别被碎玻璃划伤哦？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "boliguiyi3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		name = "住院部玻璃柜",
+		canputon = 0,
+		id = 341102,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"boliguiyi3",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341103] = {
+		spine_extra = "",
+		describe = "被封存的水缸，轻易打开会发生不妙的事……",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "bolishuigangyi3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		name = "住院部水缸",
+		canputon = 0,
+		id = 341103,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bolishuigangyi3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341104] = {
+		spine_extra = "",
+		describe = "斑驳陈旧的墙面，把整层楼衬得更加安静",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "changqiangyi3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		name = "住院部内墙",
+		canputon = 0,
+		id = 341104,
+		can_rotate = 0,
+		size = {
+			1,
+			24
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"changqiangyi3",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341105] = {
+		spine_extra = "",
+		describe = "坐下时记得放轻动作~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "changyiyi3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yi3/changyiyi3",
+		name = "住院部长椅",
+		canputon = 0,
+		id = 341105,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-21.8,
+					14.3
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341106] = {
+		spine_extra = "",
+		describe = "病房标配床头柜，收纳些随手可取的东西正好",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "chuangtouguiyi3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		name = "住院部床头柜",
+		spine_action_replace = "",
+		picture = "yi3/chuangtouguiyi3",
+		comfortable = 1,
+		canputon = 0,
+		id = 341106,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341107] = {
+		spine_extra = "",
+		describe = "结构牢固，不怕散架放心推~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "danjiayi3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		name = "住院部担架床",
+		canputon = 0,
+		id = 341107,
+		can_rotate = 0,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"danjiayi3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341108] = {
+		spine_extra = "",
+		describe = "破损的隔帘，堪堪能挡住视线",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "gelianyi3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		name = "住院部隔帘",
+		spine_action_replace = "",
+		picture = "yi3/gelianyi3",
+		comfortable = 2,
+		canputon = 0,
+		id = 341108,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341109] = {
+		spine_extra = "",
+		describe = "勤勤恳恳的护工啾，就算无人照看也会随时现身~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "hugongjiuyi3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		name = "住院部护工啾",
+		canputon = 0,
+		id = 341109,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"hugongjiuyi3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341110] = {
+		spine_extra = "",
+		describe = "不听话的人要被扎针啾~！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "hushijiuyi3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		name = "住院部护士啾",
+		canputon = 0,
+		id = 341110,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"hushijiuyi3",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341111] = {
+		spine_extra = "",
+		describe = "专业处理医疗废弃物二十年！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "lajitongyi3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		name = "住院部垃圾桶",
+		spine_action_replace = "",
+		picture = "yi3/lajitongyi3",
+		comfortable = 1,
+		canputon = 0,
+		id = 341111,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341112] = {
+		gain_by = "",
+		name = "住院部实验样本",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		comfortable = 3,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "peiyangminyi3icon",
+		deblocking = 1,
+		level = 1,
+		describe = "破碎的实验样本，最好不要随便碰它们……",
+		effect = "",
+		can_rotate = 0,
+		tag = 1,
+		spine_action_replace = "",
+		picture = "",
+		spine_extra = "",
+		canputon = 0,
+		id = 341112,
+		advice = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"peiyangminyi3B",
+				"normal"
+			},
+			{
+				"peiyangminyi3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{
+				{
+					2.4,
+					66.9
+				},
+				{
+					154,
+					332.36
+				},
+				"yi3/peiyangminyi3_mask"
+			},
+			{
+				-2.3,
+				-74.3
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341113] = {
+		spine_extra = "",
+		describe = "要尝试一下塌陷的感觉吗~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "shafayi3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "yi3/shafayi3",
+		name = "住院部沙发",
+		canputon = 0,
+		id = 341113,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-27.4,
+					10
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341114] = {
+		spine_extra = "",
+		describe = "这里已经有“人”了！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "shounagui2yi3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		name = "住院部收纳柜2",
+		spine_action_replace = "",
+		picture = "yi3/shounagui2yi3",
+		comfortable = 2,
+		canputon = 0,
+		id = 341114,
+		can_rotate = 0,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341115] = {
+		spine_extra = "",
+		describe = "遇到危险不要怕，收纳柜是你永远的家~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "shounaguiyi3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		name = "住院部收纳柜1",
+		spine_action_replace = "",
+		picture = "yi3/shounaguiyi3",
+		comfortable = 1,
+		canputon = 0,
+		id = 341115,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341116] = {
+		spine_extra = "",
+		describe = "可以拿起来当武器挥动~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "shuyejiayi3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		name = "住院部输液架",
+		spine_action_replace = "",
+		picture = "yi3/shuyejiayi3",
+		comfortable = 2,
+		canputon = 0,
+		id = 341116,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341117] = {
+		spine_extra = "",
+		describe = "轻轻一推就会发出很大的声音！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "tuicheyi3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		name = "住院部手推车",
+		spine_action_replace = "",
+		picture = "yi3/tuicheyi3",
+		comfortable = 2,
+		canputon = 0,
+		id = 341117,
+		can_rotate = 0,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341118] = {
+		spine_extra = "",
+		describe = "来都来了，先把手洗干净总不会有错~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "xishouchiyi3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		name = "住院部洗手池",
+		canputon = 0,
+		id = 341118,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xishouchiyi3",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341119] = {
+		gain_by = "",
+		name = "住院部前台",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		comfortable = 4,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "qiantaiyi3icon",
+		deblocking = 1,
+		level = 1,
+		describe = "嘘——别说话，蹲下走它看不见的",
+		effect = "",
+		can_rotate = 0,
+		tag = 7,
+		spine_action_replace = "",
+		picture = "",
+		spine_extra = "",
+		canputon = 0,
+		id = 341119,
+		advice = 0,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiantaiyi3B",
+				"normal"
+			},
+			{
+				"qiantaiyi3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"yun"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341301] = {
+		spine_extra = "",
+		describe = "字迹隐约可见，反倒让人更想仔细看看……",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "baibanyi3icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		tag = 5,
+		name = "住院部白板",
+		spine_action_replace = "",
+		picture = "yi3/baibanyi3",
+		comfortable = 3,
+		canputon = 0,
+		id = 341301,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341302] = {
+		spine_extra = "",
+		describe = "亮着奇怪光芒的壁灯，还是不要太关注了……",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "bidengyi3icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		tag = 5,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		name = "住院部壁灯",
+		canputon = 0,
+		id = 341302,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bidengyi3",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341303] = {
+		spine_extra = "",
+		describe = "这下倒是不用开窗通风了，只是风有点大",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 2,
+		count = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "chuanghuyi3icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		tag = 5,
+		name = "住院部破窗",
+		spine_action_replace = "",
+		picture = "yi3/chuanghuyi3",
+		comfortable = 3,
+		canputon = 0,
+		id = 341303,
+		can_rotate = 0,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341304] = {
+		spine_extra = "",
+		describe = "擦写痕迹层层叠叠，忙碌与安静仿佛都留在了这里",
+		gain_by = "",
+		type = 6,
+		followBone = "",
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "heibanyi3icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		dir = 0,
+		tag = 5,
+		spine_action_replace = "",
+		picture = "yi3/heibanyi3",
+		comfortable = 3,
+		canputon = 0,
+		name = "住院部黑板",
+		id = 341304,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	}

@@ -11,6 +11,8 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			var_1_1:SetPersonalEventSelectedID(var_1_0)
 			var_1_1:UpdateEventEffect(arg_2_0.public_event_effect)
 			arg_1_0:sendNotification(GAME.AUCTION_GAME_EVENT_SELECTED_ID_DONE, arg_2_0)
+		elseif arg_2_0.result == 12 then
+			arg_1_0:sendNotification(GAME.AUCTION_GAME_KICK)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", arg_2_0.result))
 		end

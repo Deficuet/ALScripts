@@ -63,6 +63,17 @@ return {
 	{
 		effect_list = {
 			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						117052
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach",
@@ -91,6 +102,16 @@ return {
 				},
 				arg_list = {
 					maxHPRatio = 0.1
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id = 117054,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -98,6 +119,17 @@ return {
 	{
 		effect_list = {
 			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						117052
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach",
@@ -126,6 +158,16 @@ return {
 				},
 				arg_list = {
 					maxHPRatio = 0.1
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id = 117054,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -133,6 +175,17 @@ return {
 	{
 		effect_list = {
 			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						117052
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach",
@@ -161,6 +214,16 @@ return {
 				},
 				arg_list = {
 					maxHPRatio = 0.1
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id = 117054,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -168,6 +231,17 @@ return {
 	{
 		effect_list = {
 			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						117052
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach",
@@ -196,6 +270,16 @@ return {
 				},
 				arg_list = {
 					maxHPRatio = 0.1
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id = 117054,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -203,6 +287,17 @@ return {
 	{
 		effect_list = {
 			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						117052
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach",
@@ -231,6 +326,16 @@ return {
 				},
 				arg_list = {
 					maxHPRatio = 0.1
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id = 117054,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -238,6 +343,17 @@ return {
 	{
 		effect_list = {
 			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						117052
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach",
@@ -266,6 +382,16 @@ return {
 				},
 				arg_list = {
 					maxHPRatio = 0.1
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id = 117054,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -273,6 +399,17 @@ return {
 	{
 		effect_list = {
 			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						117052
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach",
@@ -301,6 +438,16 @@ return {
 				},
 				arg_list = {
 					maxHPRatio = 0.1
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id = 117054,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -308,6 +455,17 @@ return {
 	{
 		effect_list = {
 			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						117052
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach",
@@ -336,6 +494,16 @@ return {
 				},
 				arg_list = {
 					maxHPRatio = 0.1
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id = 117054,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -343,6 +511,17 @@ return {
 	{
 		effect_list = {
 			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						117052
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach",
@@ -371,6 +550,16 @@ return {
 				},
 				arg_list = {
 					maxHPRatio = 0.1
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id = 117054,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -378,6 +567,17 @@ return {
 	{
 		effect_list = {
 			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						117052
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach",
@@ -406,6 +606,16 @@ return {
 				},
 				arg_list = {
 					maxHPRatio = 0.1
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id = 117054,
+					target = "TargetSelf"
 				}
 			}
 		}

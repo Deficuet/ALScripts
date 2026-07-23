@@ -9,6 +9,8 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		if arg_2_0.result == 0 then
 			getProxy(AuctionGameProxy):FinishBid(var_1_0)
 			arg_1_0:sendNotification(GAME.AUCTION_GAME_BID_DONE, var_1_0)
+		elseif arg_2_0.result == 12 then
+			arg_1_0:sendNotification(GAME.AUCTION_GAME_KICK)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", arg_2_0.result))
 		end

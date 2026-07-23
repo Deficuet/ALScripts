@@ -79,6 +79,7 @@ end
 
 function var_0_0.OnFirstFlush(arg_6_0)
 	arg_6_0:InitData()
+	arg_6_0:Hx4Channel()
 end
 
 function var_0_0.OnUpdateFlush(arg_7_0)
@@ -357,6 +358,26 @@ end
 function var_0_0.OnDestroy(arg_27_0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(arg_27_0.boxTF)
 	var_0_0.super.OnDestroy(arg_27_0)
+end
+
+local function var_0_1(arg_28_0)
+	local var_28_0 = pg.SdkMgr.GetInstance():GetChannelUIDIncludeHarmony()
+	local var_28_1 = arg_28_0._tf:Find("AD/bg_1/Role_right/hx_ch" .. var_28_0)
+	local var_28_2 = arg_28_0._tf:Find("AD/bg_1/Role_left/hx_ch" .. var_28_0)
+
+	return var_28_1, var_28_2
+end
+
+function var_0_0.Hx4Channel(arg_29_0)
+	local var_29_0, var_29_1 = var_0_1(arg_29_0)
+
+	if not IsNil(var_29_0) then
+		setActive(var_29_0, HXSet.isHx())
+	end
+
+	if not IsNil(var_29_1) then
+		setActive(var_29_1, HXSet.isHx())
+	end
 end
 
 return var_0_0

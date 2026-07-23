@@ -174,6 +174,7 @@ pg.ship_data_group.all = {
 	92,
 	93,
 	94,
+	748,
 	691,
 	96,
 	100,
@@ -224,6 +225,7 @@ pg.ship_data_group.all = {
 	328,
 	692,
 	393,
+	746,
 	119,
 	120,
 	337,
@@ -235,6 +237,7 @@ pg.ship_data_group.all = {
 	126,
 	552,
 	632,
+	747,
 	127,
 	128,
 	451,
@@ -1407,6 +1410,9 @@ pg.ship_data_group.get_id_list_by_group_type = {
 	[20114] = {
 		94
 	},
+	[20115] = {
+		748
+	},
 	[20116] = {
 		96
 	},
@@ -1563,6 +1569,9 @@ pg.ship_data_group.get_id_list_by_group_type = {
 	[20236] = {
 		692
 	},
+	[20237] = {
+		746
+	},
 	[20301] = {
 		119
 	},
@@ -1595,6 +1604,9 @@ pg.ship_data_group.get_id_list_by_group_type = {
 	},
 	[20313] = {
 		632
+	},
+	[20314] = {
+		747
 	},
 	[20401] = {
 		127
@@ -3695,6 +3707,7 @@ pg.ship_data_group.get_id_list_by_handbook_type = {
 		92,
 		93,
 		94,
+		748,
 		691,
 		96,
 		100,
@@ -3745,6 +3758,7 @@ pg.ship_data_group.get_id_list_by_handbook_type = {
 		328,
 		692,
 		393,
+		746,
 		119,
 		120,
 		337,
@@ -3756,6 +3770,7 @@ pg.ship_data_group.get_id_list_by_handbook_type = {
 		126,
 		552,
 		632,
+		747,
 		127,
 		128,
 		451,
@@ -12409,6 +12424,38 @@ end)()
 			}
 		}
 	}
+	pg.base.ship_data_group[748] = {
+		type = 1,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 2,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 171,
+		code = 748,
+		group_type = 20115,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：怪谈纪实：逃离白夜山庄！",
+				{
+					""
+				},
+				0
+			}
+		}
+	}
 	pg.base.ship_data_group[691] = {
 		type = 1,
 		redirect_id = 101,
@@ -13771,6 +13818,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_data_group[423] = {
 		type = 2,
 		redirect_id = 101,
@@ -13807,8 +13856,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_data_group[112] = {
 		type = 2,
 		redirect_id = 101,
@@ -14634,6 +14681,38 @@ end)()
 			}
 		}
 	}
+	pg.base.ship_data_group[746] = {
+		type = 2,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 2,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 220,
+		code = 746,
+		group_type = 20237,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：怪谈纪实：逃离白夜山庄！",
+				{
+					""
+				},
+				0
+			}
+		}
+	}
 	pg.base.ship_data_group[119] = {
 		type = 3,
 		redirect_id = 101,
@@ -15187,6 +15266,38 @@ end)()
 		description = {
 			{
 				"限时活动：从零开始的魔王讨伐之旅",
+				{
+					""
+				},
+				0
+			}
+		}
+	}
+	pg.base.ship_data_group[747] = {
+		type = 3,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 2,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 232,
+		code = 747,
+		group_type = 20314,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"A",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：怪谈纪实：逃离白夜山庄！",
 				{
 					""
 				},
@@ -18175,6 +18286,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_data_group[165] = {
 		type = 1,
 		redirect_id = 101,
@@ -18293,8 +18406,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_data_group[287] = {
 		type = 1,
 		redirect_id = 101,
@@ -22389,6 +22500,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_data_group[220] = {
 		type = 6,
 		redirect_id = 101,
@@ -22510,8 +22623,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_data_group[223] = {
 		type = 6,
 		redirect_id = 101,
@@ -26505,6 +26616,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_data_group[591] = {
 		type = 6,
 		redirect_id = 101,
@@ -26614,8 +26727,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_data_group[669] = {
 		type = 7,
 		redirect_id = 101,
@@ -30741,6 +30852,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_data_group[577] = {
 		type = 2,
 		redirect_id = 101,
@@ -30870,8 +30983,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_data_group[727] = {
 		type = 3,
 		redirect_id = 101,
@@ -34515,6 +34626,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_data_group[10051] = {
 		type = 1,
 		redirect_id = 101,
@@ -34611,8 +34724,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_data_group[10054] = {
 		type = 1,
 		redirect_id = 101,
@@ -37802,6 +37913,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_data_group[20028] = {
 		type = 10,
 		redirect_id = 101,
@@ -37907,8 +38020,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_data_group[20031] = {
 		type = 3,
 		redirect_id = 101,

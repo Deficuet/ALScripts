@@ -53,7 +53,8 @@ function var_0_0.GetNotifyDic(arg_1_0)
 			GuildProxy.BATTLE_BTN_FLAG_CHANGE
 		},
 		SCHOOL = {
-			CollectionProxy.TROPHY_UPDATE
+			CollectionProxy.TROPHY_UPDATE,
+			GAME.CANCEL_LEARN_TACTICS_DONE
 		},
 		FRIEND = {
 			NotificationProxy.FRIEND_REQUEST_ADDED,

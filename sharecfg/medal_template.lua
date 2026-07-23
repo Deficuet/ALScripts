@@ -131,7 +131,8 @@ pg.medal_template.all = {
 	200151,
 	200161,
 	200171,
-	200181
+	200181,
+	200191
 }
 pg.base = pg.base or {}
 pg.base.medal_template = {}
@@ -2959,5 +2960,26 @@ end)()
 		id = 200181,
 		target_num = 8,
 		target_id = "50659"
+	}
+	pg.base.medal_template[200191] = {
+		explain1 = "「怪谈纪实：逃离白夜山庄！」",
+		name = "怪谈纪实纪念勋章",
+		explain2 = "活动纪念",
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "灯光未熄，铁门紧锁，废弃病院的深处藏着无人知晓的秘密。在怪谈与线索交错之间，找出通往出口的方向吧！\n——欢迎来到白夜山庄~",
+		next = 0,
+		icon = "9191",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9191",
+		condition = "收集8个「怪谈纪实：逃离白夜山庄！」纪念贴纸。",
+		rank = 1,
+		id = 200191,
+		target_num = 8,
+		target_id = "51078"
 	}
 end)()

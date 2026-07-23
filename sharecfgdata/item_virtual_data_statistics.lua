@@ -190866,6 +190866,330 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[66052] = {
+		display = "灯光未熄，铁门紧锁，废弃病院的深处藏着无人知晓的秘密。在怪谈与线索交错之间，找出通往出口的方向吧！\n——欢迎来到白夜山庄~",
+		name = "怪谈纪实纪念勋章",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 5,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Medal/9191",
+		id = 66052,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		album_config = {
+			1,
+			200191
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[66053] = {
+		display = "划时代恐怖怪谈之地！超刺激！超可怕！",
+		name = "纪念贴：白夜山庄",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5107801",
+		id = 66053,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		album_config = {
+			2,
+			5107801
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[66054] = {
+		display = "今天要查的房号是多少啾……？",
+		name = "纪念贴：夜巡啾",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5107802",
+		id = 66054,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		album_config = {
+			2,
+			5107802
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[66055] = {
+		display = "请严格遵守以下规则……",
+		name = "纪念贴：怪谈笔记",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5107803",
+		id = 66055,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		album_config = {
+			2,
+			5107803
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[66056] = {
+		display = "病院常见工具……吗？",
+		name = "纪念贴：医用长斧 ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5107804",
+		id = 66056,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		album_config = {
+			2,
+			5107804
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[66057] = {
+		display = "一瓶续命，一瓶壮胆~",
+		name = "纪念贴：双倍补给",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5107805",
+		id = 66057,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		album_config = {
+			2,
+			5107805
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[66058] = {
+		display = "小心！它们来了！",
+		name = "纪念贴：心跳感应",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5107806",
+		id = 66058,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		album_config = {
+			2,
+			5107806
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[66059] = {
+		display = "来，张嘴，啊——",
+		name = "纪念贴：口腔诊疗灯",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5107807",
+		id = 66059,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		album_config = {
+			2,
+			5107807
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[66060] = {
+		display = "距感染者出现还有10、9……",
+		name = "纪念贴：封锁病区",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "ActivityMedal/5107808",
+		id = 66060,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		album_config = {
+			2,
+			5107808
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[66061] = {
+		display = "用于「逃离白夜山庄！」活动的常规兑换，活动结束后将会消失",
+		name = "白夜山庄纪实",
+		album_config = "",
+		type = 0,
+		drop_oil_max = 0,
+		virtual_type = 0,
+		shop_id = -1,
+		replace_item = 0,
+		id = 66061,
+		link_id = 0,
+		icon = "Props/66061",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[66062] = {
+		display = "用于「限时体验商店」兑换角色限时换装",
+		name = "换装体验券",
+		album_config = "",
+		type = 98,
+		drop_oil_max = 0,
+		virtual_type = 0,
+		shop_id = 1,
+		replace_item = 0,
+		id = 66062,
+		link_id = 0,
+		icon = "Props/skinTicket",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[68081] = {
 		display = "用于「「深渊之国」的缔造者」活动提升角色好感，活动结束后将会消失",
 		name = "友好度-{namecode:544}",
@@ -264790,6 +265114,218 @@ end)()
 				1
 			}
 		}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[200821] = {
+		display = "有几率获得以下设计图",
+		name = "未知设计图",
+		album_config = "",
+		type = 99,
+		drop_oil_max = 0,
+		virtual_type = 0,
+		shop_id = -1,
+		replace_item = 0,
+		id = 200821,
+		link_id = 0,
+		icon = "Props/55000",
+		order = 0,
+		rarity = 1,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {
+			{
+				2,
+				46,
+				1
+			},
+			{
+				2,
+				2,
+				1
+			},
+			{
+				2,
+				21,
+				1
+			},
+			{
+				2,
+				10014,
+				1
+			},
+			{
+				2,
+				10038,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[200822] = {
+		display = "有几率获得以下设计图",
+		name = "未知设计图",
+		album_config = "",
+		type = 99,
+		drop_oil_max = 0,
+		virtual_type = 0,
+		shop_id = -1,
+		replace_item = 0,
+		id = 200822,
+		link_id = 0,
+		icon = "Props/55000",
+		order = 0,
+		rarity = 1,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {
+			{
+				2,
+				10092,
+				1
+			},
+			{
+				2,
+				10003,
+				1
+			},
+			{
+				2,
+				10014,
+				1
+			},
+			{
+				2,
+				10038,
+				1
+			},
+			{
+				2,
+				10035,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[200823] = {
+		display = "有几率获得以下设计图",
+		name = "未知设计图",
+		album_config = "",
+		type = 99,
+		drop_oil_max = 0,
+		virtual_type = 0,
+		shop_id = -1,
+		replace_item = 0,
+		id = 200823,
+		link_id = 0,
+		icon = "Props/55000",
+		order = 0,
+		rarity = 1,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {
+			{
+				2,
+				10092,
+				1
+			},
+			{
+				2,
+				10003,
+				1
+			},
+			{
+				2,
+				10014,
+				1
+			},
+			{
+				2,
+				10035,
+				1
+			},
+			{
+				2,
+				13006,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[200824] = {
+		display = "有几率获得以下设计图",
+		name = "未知设计图",
+		album_config = "",
+		type = 99,
+		drop_oil_max = 0,
+		virtual_type = 0,
+		shop_id = -1,
+		replace_item = 0,
+		id = 200824,
+		link_id = 0,
+		icon = "Props/55000",
+		order = 0,
+		rarity = 1,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {
+			{
+				2,
+				10092,
+				1
+			},
+			{
+				2,
+				10003,
+				1
+			},
+			{
+				2,
+				10014,
+				1
+			},
+			{
+				2,
+				10035,
+				1
+			},
+			{
+				2,
+				13006,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
 	}
 end)()
 

@@ -706037,7 +706037,7 @@ end)()
 	_G.pg.base.bullet_template_1[3146530] = {
 		hit_sfx = "battle/torpedo-hit",
 		range_offset = 0,
-		modle_ID = "yulei_μjianpan",
+		modle_ID = "yulei_mjianpan",
 		type = 3,
 		out_bound = 0,
 		antisub_enhancement = 0,

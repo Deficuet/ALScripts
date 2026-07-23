@@ -89,6 +89,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2, arg_1_3)
 	arg_1_0._active = false
 	arg_1_0._parameterCom = nil
 	arg_1_0.parameterValue = arg_1_0.startValue
+	arg_1_0.parameterStartValue = arg_1_0.startValue
 	arg_1_0.parameterTargetValue = arg_1_0.startValue
 	arg_1_0.parameterSmooth = 0
 	arg_1_0.parameterSmoothTime = arg_1_0.smooth
@@ -359,6 +360,14 @@ function var_0_0.updatePartsParameter(arg_11_0)
 					print("吸附数值" .. var_11_0[var_11_5])
 				end
 
+				if arg_11_0.offsetDragTargetX then
+					arg_11_0.offsetDragTargetX = var_11_0[var_11_5]
+				end
+
+				if arg_11_0.offsetDragTargetY then
+					arg_11_0.offsetDragTargetY = var_11_0[var_11_5]
+				end
+
 				arg_11_0:setTargetValue(var_11_0[var_11_5])
 			end
 		end
@@ -590,6 +599,8 @@ function var_0_0.getCommonNoticeData(arg_28_0)
 end
 
 function var_0_0.setTargetValue(arg_29_0, arg_29_1)
+	arg_29_0.parameterSmooth = 0
+	arg_29_0.parameterStartValue = arg_29_0.parameterTargetValue
 	arg_29_0.parameterTargetValue = arg_29_1
 end
 
@@ -857,7 +868,7 @@ function var_0_0.updateParameterValue(arg_44_0)
 			local var_44_0 = arg_44_0.parameterValue
 			local var_44_1 = arg_44_0.parameterTargetValue
 			local var_44_2 = arg_44_0:checkUpdateParameterNum(var_44_1, var_44_0)
-			local var_44_3, var_44_4 = Mathf.SmoothDamp(var_44_0, var_44_2, arg_44_0.parameterSmooth, arg_44_0.parameterSmoothTime)
+			local var_44_3, var_44_4 = Live2DExtend.CustomSmoothValue(arg_44_0.parameterStartValue, var_44_2, arg_44_0.parameterSmoothTime, arg_44_0.parameterSmooth, Time.fixedDeltaTime)
 
 			arg_44_0:setParameterValue(var_44_3, var_44_4)
 		else

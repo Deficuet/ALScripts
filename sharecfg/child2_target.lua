@@ -46,22 +46,10 @@ pg.base.child2_target = {}
 		character = 1,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				74
-			},
-			{
-				75,
-				149
-			},
-			{
-				150,
-				199
-			},
-			{
-				200,
-				999999
-			}
+			0,
+			75,
+			150,
+			200
 		},
 		display = {
 			"C",
@@ -82,22 +70,10 @@ pg.base.child2_target = {}
 		character = 1,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				374
-			},
-			{
-				375,
-				749
-			},
-			{
-				750,
-				999
-			},
-			{
-				1000,
-				999999
-			}
+			0,
+			375,
+			750,
+			1000
 		},
 		display = {
 			"C",
@@ -118,22 +94,10 @@ pg.base.child2_target = {}
 		character = 1,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				749
-			},
-			{
-				750,
-				1499
-			},
-			{
-				1500,
-				1999
-			},
-			{
-				2000,
-				999999
-			}
+			0,
+			750,
+			1500,
+			2000
 		},
 		display = {
 			"C",
@@ -154,22 +118,10 @@ pg.base.child2_target = {}
 		character = 1,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				1499
-			},
-			{
-				1500,
-				2999
-			},
-			{
-				3000,
-				3999
-			},
-			{
-				4000,
-				999999
-			}
+			0,
+			1500,
+			3000,
+			4000
 		},
 		display = {
 			"C",
@@ -190,22 +142,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				74
-			},
-			{
-				75,
-				149
-			},
-			{
-				150,
-				199
-			},
-			{
-				200,
-				999999999
-			}
+			0,
+			75,
+			150,
+			200
 		},
 		display = {
 			"C",
@@ -226,22 +166,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				374
-			},
-			{
-				375,
-				749
-			},
-			{
-				750,
-				999
-			},
-			{
-				1000,
-				999999999
-			}
+			0,
+			375,
+			750,
+			1000
 		},
 		display = {
 			"C",
@@ -262,22 +190,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				749
-			},
-			{
-				750,
-				1499
-			},
-			{
-				1500,
-				1999
-			},
-			{
-				2000,
-				999999999
-			}
+			0,
+			750,
+			1500,
+			2000
 		},
 		display = {
 			"C",
@@ -298,22 +214,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				1499
-			},
-			{
-				1500,
-				2999
-			},
-			{
-				3000,
-				3999
-			},
-			{
-				4000,
-				999999999
-			}
+			0,
+			1500,
+			3000,
+			4000
 		},
 		display = {
 			"C",
@@ -334,22 +238,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				1499
-			},
-			{
-				1500,
-				2999
-			},
-			{
-				3000,
-				5999
-			},
-			{
-				6000,
-				999999999
-			}
+			0,
+			1500,
+			3000,
+			6000
 		},
 		display = {
 			"C",
@@ -370,22 +262,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				1499
-			},
-			{
-				1500,
-				2999
-			},
-			{
-				3000,
-				7999
-			},
-			{
-				8000,
-				999999999
-			}
+			0,
+			1500,
+			3000,
+			8000
 		},
 		display = {
 			"C",
@@ -406,22 +286,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				1499
-			},
-			{
-				1500,
-				2999
-			},
-			{
-				3000,
-				9999
-			},
-			{
-				10000,
-				999999999
-			}
+			0,
+			1500,
+			3000,
+			10000
 		},
 		display = {
 			"C",
@@ -442,22 +310,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				1499
-			},
-			{
-				1500,
-				2999
-			},
-			{
-				3000,
-				14999
-			},
-			{
-				15000,
-				999999999
-			}
+			0,
+			1500,
+			3000,
+			15000
 		},
 		display = {
 			"C",
@@ -478,22 +334,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				1499
-			},
-			{
-				1500,
-				2999
-			},
-			{
-				3000,
-				19999
-			},
-			{
-				20000,
-				999999999
-			}
+			0,
+			1500,
+			3000,
+			20000
 		},
 		display = {
 			"C",
@@ -514,22 +358,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				1499
-			},
-			{
-				1500,
-				2999
-			},
-			{
-				3000,
-				24999
-			},
-			{
-				25000,
-				999999999
-			}
+			0,
+			1500,
+			3000,
+			25000
 		},
 		display = {
 			"C",
@@ -550,22 +382,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				1499
-			},
-			{
-				1500,
-				2999
-			},
-			{
-				3000,
-				29999
-			},
-			{
-				30000,
-				999999999
-			}
+			0,
+			1500,
+			3000,
+			30000
 		},
 		display = {
 			"C",
@@ -586,22 +406,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				1499
-			},
-			{
-				1500,
-				2999
-			},
-			{
-				3000,
-				39999
-			},
-			{
-				40000,
-				999999999
-			}
+			0,
+			1500,
+			3000,
+			40000
 		},
 		display = {
 			"C",
@@ -622,22 +430,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				1499
-			},
-			{
-				1500,
-				2999
-			},
-			{
-				3000,
-				49999
-			},
-			{
-				50000,
-				999999999
-			}
+			0,
+			1500,
+			3000,
+			50000
 		},
 		display = {
 			"C",
@@ -658,22 +454,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				1499
-			},
-			{
-				1500,
-				2999
-			},
-			{
-				3000,
-				69999
-			},
-			{
-				70000,
-				999999999
-			}
+			0,
+			1500,
+			3000,
+			70000
 		},
 		display = {
 			"C",
@@ -694,22 +478,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				74
-			},
-			{
-				75,
-				149
-			},
-			{
-				150,
-				199
-			},
-			{
-				200,
-				999999999
-			}
+			0,
+			75,
+			150,
+			200
 		},
 		display = {
 			"C",
@@ -730,22 +502,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				374
-			},
-			{
-				375,
-				749
-			},
-			{
-				750,
-				999
-			},
-			{
-				1000,
-				999999999
-			}
+			0,
+			375,
+			750,
+			1000
 		},
 		display = {
 			"C",
@@ -766,22 +526,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				749
-			},
-			{
-				750,
-				1499
-			},
-			{
-				1500,
-				1999
-			},
-			{
-				2000,
-				999999999
-			}
+			0,
+			750,
+			1500,
+			2000
 		},
 		display = {
 			"C",
@@ -802,22 +550,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				1499
-			},
-			{
-				1500,
-				2999
-			},
-			{
-				3000,
-				3999
-			},
-			{
-				4000,
-				999999999
-			}
+			0,
+			1500,
+			3000,
+			4000
 		},
 		display = {
 			"C",
@@ -838,22 +574,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				1499
-			},
-			{
-				1500,
-				2999
-			},
-			{
-				3000,
-				5999
-			},
-			{
-				6000,
-				999999999
-			}
+			0,
+			1500,
+			3000,
+			6000
 		},
 		display = {
 			"C",
@@ -874,22 +598,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				1499
-			},
-			{
-				1500,
-				2999
-			},
-			{
-				3000,
-				7999
-			},
-			{
-				8000,
-				999999999
-			}
+			0,
+			1500,
+			3000,
+			8000
 		},
 		display = {
 			"C",
@@ -910,22 +622,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				1499
-			},
-			{
-				1500,
-				2999
-			},
-			{
-				3000,
-				9999
-			},
-			{
-				10000,
-				999999999
-			}
+			0,
+			1500,
+			3000,
+			10000
 		},
 		display = {
 			"C",
@@ -946,22 +646,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				1499
-			},
-			{
-				1500,
-				2999
-			},
-			{
-				3000,
-				14999
-			},
-			{
-				15000,
-				999999999
-			}
+			0,
+			1500,
+			3000,
+			15000
 		},
 		display = {
 			"C",
@@ -982,22 +670,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				1499
-			},
-			{
-				1500,
-				2999
-			},
-			{
-				3000,
-				19999
-			},
-			{
-				20000,
-				999999999
-			}
+			0,
+			1500,
+			3000,
+			20000
 		},
 		display = {
 			"C",
@@ -1018,22 +694,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				1499
-			},
-			{
-				1500,
-				2999
-			},
-			{
-				3000,
-				24999
-			},
-			{
-				25000,
-				999999999
-			}
+			0,
+			1500,
+			3000,
+			25000
 		},
 		display = {
 			"C",
@@ -1054,22 +718,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				1499
-			},
-			{
-				1500,
-				2999
-			},
-			{
-				3000,
-				29999
-			},
-			{
-				30000,
-				999999999
-			}
+			0,
+			1500,
+			3000,
+			30000
 		},
 		display = {
 			"C",
@@ -1090,22 +742,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				1499
-			},
-			{
-				1500,
-				2999
-			},
-			{
-				3000,
-				39999
-			},
-			{
-				40000,
-				999999999
-			}
+			0,
+			1500,
+			3000,
+			40000
 		},
 		display = {
 			"C",
@@ -1126,22 +766,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				1499
-			},
-			{
-				1500,
-				2999
-			},
-			{
-				3000,
-				49999
-			},
-			{
-				50000,
-				999999999
-			}
+			0,
+			1500,
+			3000,
+			50000
 		},
 		display = {
 			"C",
@@ -1162,22 +790,10 @@ pg.base.child2_target = {}
 		character = 2,
 		pre_perform = "",
 		attr_sum_level = {
-			{
-				0,
-				1499
-			},
-			{
-				1500,
-				2999
-			},
-			{
-				3000,
-				69999
-			},
-			{
-				70000,
-				999999999
-			}
+			0,
+			1500,
+			3000,
+			70000
 		},
 		display = {
 			"C",

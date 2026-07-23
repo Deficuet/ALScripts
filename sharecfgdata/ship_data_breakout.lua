@@ -12666,6 +12666,77 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_breakout[201151] = {
+		use_gold = 500,
+		breakout_id = 201152,
+		use_char_num = 1,
+		use_char = 20115,
+		breakout_view = "获得全弹发射I/主炮效率提高5%",
+		level = 10,
+		id = 201151,
+		icon = "10001",
+		pre_id = 0,
+		use_item = {},
+		weapon_ids = {
+			71051
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[201152] = {
+		use_gold = 1500,
+		breakout_id = 201153,
+		use_char_num = 1,
+		use_char = 20115,
+		breakout_view = "鱼雷底座+1/鱼雷预装填+1/主炮效率提高10%",
+		level = 30,
+		id = 201152,
+		icon = "10001",
+		pre_id = 201151,
+		use_item = {},
+		weapon_ids = {
+			107,
+			107
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[201153] = {
+		use_gold = 2500,
+		breakout_id = 201154,
+		use_char_num = 2,
+		use_char = 20115,
+		breakout_view = "全弹发射弹幕升级/全武器效率提高5%",
+		level = 70,
+		id = 201153,
+		icon = "10001",
+		pre_id = 201152,
+		use_item = {},
+		weapon_ids = {
+			71052
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[201154] = {
+		use_gold = 0,
+		breakout_id = 0,
+		use_char_num = 0,
+		use_char = 20115,
+		breakout_view = "无",
+		level = 0,
+		id = 201154,
+		icon = "10001",
+		pre_id = 201153,
+		use_item = {},
+		weapon_ids = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_breakout[201161] = {
 		use_gold = 500,
 		breakout_id = 201162,
@@ -16500,6 +16571,77 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_breakout[202371] = {
+		use_gold = 1000,
+		breakout_id = 202372,
+		use_char_num = 1,
+		use_char = 20237,
+		breakout_view = "获得专属弹幕I/主炮效率提高5%",
+		level = 10,
+		id = 202371,
+		icon = "10001",
+		pre_id = 0,
+		use_item = {},
+		weapon_ids = {
+			171071
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[202372] = {
+		use_gold = 3000,
+		breakout_id = 202373,
+		use_char_num = 1,
+		use_char = 20237,
+		breakout_view = "鱼雷底座+1/鱼雷预装填+1/鱼雷效率提高10%",
+		level = 30,
+		id = 202372,
+		icon = "10001",
+		pre_id = 202371,
+		use_item = {},
+		weapon_ids = {
+			106,
+			106
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[202373] = {
+		use_gold = 10000,
+		breakout_id = 202374,
+		use_char_num = 2,
+		use_char = 20237,
+		breakout_view = "专属弹幕升级/主炮效率提高15%",
+		level = 70,
+		id = 202373,
+		icon = "10001",
+		pre_id = 202372,
+		use_item = {},
+		weapon_ids = {
+			171072
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[202374] = {
+		use_gold = 0,
+		breakout_id = 0,
+		use_char_num = 0,
+		use_char = 20237,
+		breakout_view = "无",
+		level = 0,
+		id = 202374,
+		icon = "10001",
+		pre_id = 202373,
+		use_item = {},
+		weapon_ids = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_breakout[203011] = {
 		use_gold = 500,
 		breakout_id = 203012,
@@ -17414,6 +17556,76 @@ end)()
 		id = 203134,
 		icon = "10001",
 		pre_id = 203133,
+		use_item = {},
+		weapon_ids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[203141] = {
+		use_gold = 1000,
+		breakout_id = 203142,
+		use_char_num = 1,
+		use_char = 20314,
+		breakout_view = "获得专属弹幕I/主炮效率提高5%",
+		level = 10,
+		id = 203141,
+		icon = "10001",
+		pre_id = 0,
+		use_item = {},
+		weapon_ids = {
+			171081
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[203142] = {
+		use_gold = 3000,
+		breakout_id = 203143,
+		use_char_num = 1,
+		use_char = 20314,
+		breakout_view = "主炮效率提高10%/鱼雷预装填+1",
+		level = 30,
+		id = 203142,
+		icon = "10001",
+		pre_id = 203141,
+		use_item = {},
+		weapon_ids = {
+			107
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[203143] = {
+		use_gold = 10000,
+		breakout_id = 203144,
+		use_char_num = 2,
+		use_char = 20314,
+		breakout_view = "专属弹幕升级/主炮效率提高15%",
+		level = 70,
+		id = 203143,
+		icon = "10001",
+		pre_id = 203142,
+		use_item = {},
+		weapon_ids = {
+			171082
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[203144] = {
+		use_gold = 0,
+		breakout_id = 0,
+		use_char_num = 0,
+		use_char = 20314,
+		breakout_view = "无",
+		level = 0,
+		id = 203144,
+		icon = "10001",
+		pre_id = 203143,
 		use_item = {},
 		weapon_ids = {}
 	}

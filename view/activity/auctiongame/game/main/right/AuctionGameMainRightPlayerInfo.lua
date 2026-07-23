@@ -113,6 +113,9 @@ function var_0_0.ShowEmoji(arg_11_0, arg_11_1, arg_11_2)
 				var_12_0.preserveAspect = true
 			end
 
+			tf(arg_12_0).anchoredPosition = Vector2.zero
+			rtf(arg_12_0).sizeDelta = Vector2.New(210, 210)
+
 			local var_12_1 = arg_12_0:GetComponent("Animator")
 
 			if var_12_1 then

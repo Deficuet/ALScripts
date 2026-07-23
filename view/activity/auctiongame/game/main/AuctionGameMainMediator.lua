@@ -56,7 +56,7 @@ function var_0_0.initNotificationHandleDic(arg_4_0)
 			arg_16_0.viewComponent:emit(AuctionGameMainRightView.SWITCH_EMOJI)
 		end,
 		[GAME.ON_RECONNECTION] = function(arg_17_0, arg_17_1)
-			arg_17_0.viewComponent:closeView()
+			arg_17_0.viewComponent:OnReconnection()
 		end
 	}
 end

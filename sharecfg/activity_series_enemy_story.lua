@@ -169,14 +169,25 @@ pg.activity_series_enemy_story.all = {
 	173,
 	174,
 	175,
-	176
+	176,
+	177,
+	178,
+	179,
+	180,
+	181,
+	182,
+	183,
+	184,
+	185,
+	186,
+	187
 }
 pg.base = pg.base or {}
 pg.base.activity_series_enemy_story = {}
 
 ;(function()
 	pg.base.activity_series_enemy_story[1] = {
-		pos_x = "0.10703125",
+		pos_x = "-0.392969",
 		name = "TS-1",
 		label_key = "",
 		type = 1,
@@ -184,7 +195,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "JIDIFENGBAO3",
-		pos_y = "0.157291667",
+		pos_y = "-0.342708",
 		change_bgm = "",
 		line = 2,
 		params = "",
@@ -199,7 +210,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[2] = {
-		pos_x = "0.34609375",
+		pos_x = "-0.153906",
 		name = "TS-2",
 		label_key = "",
 		type = 3,
@@ -207,7 +218,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "JIDIFENGBAO4",
-		pos_y = "0.347916667",
+		pos_y = "-0.152083",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -222,7 +233,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[3] = {
-		pos_x = "0.50546875",
+		pos_x = "0.005469",
 		name = "TS-3",
 		label_key = "",
 		type = 1,
@@ -230,7 +241,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "JIDIFENGBAO5",
-		pos_y = "0.080208333",
+		pos_y = "-0.419792",
 		change_bgm = "",
 		line = 4,
 		params = "",
@@ -247,7 +258,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[4] = {
-		pos_x = "0.60546875",
+		pos_x = "0.105469",
 		name = "TS-4",
 		label_key = "",
 		type = 3,
@@ -255,7 +266,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "1719601",
-		pos_y = "0.446875",
+		pos_y = "-0.053125",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -270,7 +281,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[5] = {
-		pos_x = "0.6265625",
+		pos_x = "0.126563",
 		name = "TS-5",
 		label_key = "",
 		type = 1,
@@ -278,7 +289,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "JIDIFENGBAO7",
-		pos_y = "0.15625",
+		pos_y = "-0.343750",
 		change_bgm = "",
 		line = 6,
 		params = "",
@@ -295,7 +306,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[6] = {
-		pos_x = "1.10703125",
+		pos_x = "0.607031",
 		name = "TS-6",
 		label_key = "",
 		type = 3,
@@ -303,7 +314,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "JIDIFENGBAO8",
-		pos_y = "1.157291667",
+		pos_y = "0.657292",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -318,7 +329,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[7] = {
-		pos_x = "1.34609375",
+		pos_x = "0.846094",
 		name = "TS-7",
 		label_key = "",
 		type = 1,
@@ -326,7 +337,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "JIDIFENGBAO9",
-		pos_y = "1.347916667",
+		pos_y = "0.847917",
 		change_bgm = "",
 		line = 8,
 		params = "",
@@ -343,7 +354,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[8] = {
-		pos_x = "1.50546875",
+		pos_x = "1.005469",
 		name = "TS-8",
 		label_key = "",
 		type = 3,
@@ -351,7 +362,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "JIDIFENGBAO10",
-		pos_y = "1.080208333",
+		pos_y = "0.580208",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -366,7 +377,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[9] = {
-		pos_x = "1.60546875",
+		pos_x = "1.105469",
 		name = "TS-9",
 		label_key = "",
 		type = 1,
@@ -374,7 +385,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "JIDIFENGBAO11",
-		pos_y = "1.446875",
+		pos_y = "0.946875",
 		change_bgm = "",
 		line = 10,
 		params = "",
@@ -391,7 +402,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[10] = {
-		pos_x = "1.6265625",
+		pos_x = "1.126562",
 		name = "TS-10",
 		label_key = "",
 		type = 3,
@@ -399,7 +410,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "JIDIFENGBAO12",
-		pos_y = "1.15625",
+		pos_y = "0.656250",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -414,7 +425,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[11] = {
-		pos_x = "2.10703125",
+		pos_x = "1.607031",
 		name = "TSH-1",
 		label_key = "",
 		type = 2,
@@ -422,7 +433,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "JIDIFENGBAO13",
-		pos_y = "2.157291667",
+		pos_y = "1.657292",
 		change_bgm = "",
 		line = 12,
 		params = "",
@@ -437,7 +448,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[12] = {
-		pos_x = "2.34609375",
+		pos_x = "1.846094",
 		name = "TSH-2",
 		label_key = "",
 		type = 2,
@@ -445,7 +456,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "JIDIFENGBAO14",
-		pos_y = "2.347916667",
+		pos_y = "1.847917",
 		change_bgm = "",
 		line = 13,
 		params = "",
@@ -462,7 +473,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[13] = {
-		pos_x = "2.50546875",
+		pos_x = "2.005469",
 		name = "TSH-3",
 		label_key = "",
 		type = 2,
@@ -470,7 +481,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "JIDIFENGBAO15",
-		pos_y = "2.080208333",
+		pos_y = "1.580208",
 		change_bgm = "",
 		line = 14,
 		params = "",
@@ -487,7 +498,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[14] = {
-		pos_x = "0.10703125",
+		pos_x = "-0.392969",
 		name = "TSH-4",
 		label_key = "",
 		type = 2,
@@ -495,7 +506,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "JIDIFENGBAO16",
-		pos_y = "0.157291667",
+		pos_y = "-0.342708",
 		change_bgm = "",
 		line = 15,
 		params = "",
@@ -512,7 +523,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[15] = {
-		pos_x = "0.34609375",
+		pos_x = "-0.153906",
 		name = "TSH-5",
 		label_key = "",
 		type = 2,
@@ -520,7 +531,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "JIDIFENGBAO17",
-		pos_y = "0.347916667",
+		pos_y = "-0.152083",
 		change_bgm = "",
 		line = 16,
 		params = "",
@@ -537,7 +548,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[16] = {
-		pos_x = "0.34609375",
+		pos_x = "-0.153906",
 		name = "TSH-6",
 		label_key = "",
 		type = 2,
@@ -545,7 +556,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "1719602",
-		pos_y = "0.347916667",
+		pos_y = "-0.152083",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -562,10 +573,10 @@ pg.base.activity_series_enemy_story = {}
 	pg.base.activity_series_enemy_story[17] = {
 		story = "",
 		name = "基地1",
-		pos_x = "0.34609375",
+		pos_x = "-0.153906",
 		type = 4,
 		change_prefab = "",
-		pos_y = "0.347916667",
+		pos_y = "-0.152083",
 		trigger_type = "",
 		change_bgm = "",
 		params = "",
@@ -581,10 +592,10 @@ pg.base.activity_series_enemy_story = {}
 	pg.base.activity_series_enemy_story[18] = {
 		story = "",
 		name = "基地2",
-		pos_x = "0.34609375",
+		pos_x = "-0.153906",
 		type = 4,
 		change_prefab = "",
-		pos_y = "0.347916667",
+		pos_y = "-0.152083",
 		trigger_type = "",
 		change_bgm = "",
 		params = "",
@@ -600,10 +611,10 @@ pg.base.activity_series_enemy_story = {}
 	pg.base.activity_series_enemy_story[19] = {
 		story = "",
 		name = "基地3",
-		pos_x = "0.34609375",
+		pos_x = "-0.153906",
 		type = 4,
 		change_prefab = "",
-		pos_y = "0.347916667",
+		pos_y = "-0.152083",
 		trigger_type = "",
 		change_bgm = "",
 		params = "",
@@ -619,10 +630,10 @@ pg.base.activity_series_enemy_story = {}
 	pg.base.activity_series_enemy_story[20] = {
 		story = "",
 		name = "基地4",
-		pos_x = "0.34609375",
+		pos_x = "-0.153906",
 		type = 4,
 		change_prefab = "",
-		pos_y = "0.347916667",
+		pos_y = "-0.152083",
 		trigger_type = "",
 		change_bgm = "",
 		params = "",
@@ -638,10 +649,10 @@ pg.base.activity_series_enemy_story = {}
 	pg.base.activity_series_enemy_story[21] = {
 		story = "",
 		name = "基地5",
-		pos_x = "0.34609375",
+		pos_x = "-0.153906",
 		type = 4,
 		change_prefab = "",
-		pos_y = "0.347916667",
+		pos_y = "-0.152083",
 		trigger_type = "",
 		change_bgm = "",
 		params = "",
@@ -655,7 +666,7 @@ pg.base.activity_series_enemy_story = {}
 		id = 21
 	}
 	pg.base.activity_series_enemy_story[31] = {
-		pos_x = "0.10703125",
+		pos_x = "-0.392969",
 		name = "叛恶者之歌",
 		label_key = "",
 		type = 1,
@@ -663,7 +674,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "HUANYINLAIDAOTONGXINXUEYUAN2",
-		pos_y = "0.157291667",
+		pos_y = "-0.342708",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -678,7 +689,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[32] = {
-		pos_x = "0.34609375",
+		pos_x = "-0.153906",
 		name = "组成乐队吧♪",
 		label_key = "",
 		type = 3,
@@ -686,7 +697,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "1819601",
-		pos_y = "0.347916667",
+		pos_y = "-0.152083",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -701,7 +712,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[33] = {
-		pos_x = "0.50546875",
+		pos_x = "0.005469",
 		name = "巨大指挥官",
 		label_key = "",
 		type = 3,
@@ -709,7 +720,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "1819602",
-		pos_y = "0.080208333",
+		pos_y = "-0.419792",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -724,7 +735,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[34] = {
-		pos_x = "0.60546875",
+		pos_x = "0.105469",
 		name = "健康活力Fight",
 		label_key = "",
 		type = 3,
@@ -732,7 +743,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "1819603",
-		pos_y = "0.446875",
+		pos_y = "-0.053125",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -747,7 +758,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[35] = {
-		pos_x = "0.6265625",
+		pos_x = "0.126563",
 		name = "拯救老师大作战",
 		label_key = "",
 		type = 1,
@@ -755,7 +766,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "HUANYINLAIDAOTONGXINXUEYUAN6",
-		pos_y = "0.15625",
+		pos_y = "-0.343750",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -770,7 +781,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[36] = {
-		pos_x = "1.10703125",
+		pos_x = "0.607031",
 		name = "与童心重逢之时",
 		label_key = "",
 		type = 3,
@@ -778,7 +789,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "1819604",
-		pos_y = "1.157291667",
+		pos_y = "0.657292",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -793,7 +804,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[37] = {
-		pos_x = "1.34609375",
+		pos_x = "0.846094",
 		name = "失控的童心",
 		label_key = "",
 		type = 3,
@@ -801,7 +812,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "1819605",
-		pos_y = "1.347916667",
+		pos_y = "0.847917",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -816,7 +827,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[38] = {
-		pos_x = "1.50546875",
+		pos_x = "1.005469",
 		name = "愿童心永驻",
 		label_key = "",
 		type = 1,
@@ -824,7 +835,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "HUANYINLAIDAOTONGXINXUEYUAN9",
-		pos_y = "1.080208333",
+		pos_y = "0.580208",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -1046,7 +1057,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[48] = {
-		pos_x = "0.174729166666667",
+		pos_x = "-0.325271",
 		name = "EPS-1 一次调查",
 		label_key = "",
 		type = 1,
@@ -1054,7 +1065,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_1",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN1",
-		pos_y = "0.50712962962963",
+		pos_y = "0.007130",
 		change_bgm = "Yumia-az-theme-pv",
 		line = 0,
 		params = "",
@@ -1069,7 +1080,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[49] = {
-		pos_x = "0.389166666666667",
+		pos_x = "-0.110833",
 		name = "EPS-2 一场寻宝",
 		label_key = "",
 		type = 1,
@@ -1077,7 +1088,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_1",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN2",
-		pos_y = "0.320555555555556",
+		pos_y = "-0.179444",
 		change_bgm = "Yumia-az-theme-pv",
 		line = 0,
 		params = "",
@@ -1094,7 +1105,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[50] = {
-		pos_x = "0.705729166666667",
+		pos_x = "0.205729",
 		name = "EPS-3 一次冒险",
 		label_key = "",
 		type = 1,
@@ -1102,7 +1113,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_2",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN3",
-		pos_y = "0.215",
+		pos_y = "-0.285000",
 		change_bgm = "Yumia-1",
 		line = 0,
 		params = "",
@@ -1119,7 +1130,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[51] = {
-		pos_x = "0.173489583333333",
+		pos_x = "-0.326510",
 		name = "EP1-1 起始之海",
 		label_key = "",
 		type = 1,
@@ -1127,7 +1138,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_2",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN4",
-		pos_y = "0.241296296296296",
+		pos_y = "-0.258704",
 		change_bgm = "Yumia-1",
 		line = 0,
 		params = "",
@@ -1144,7 +1155,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[52] = {
-		pos_x = "0.173229166666667",
+		pos_x = "-0.326771",
 		name = "EP1-2 舒适海滩",
 		label_key = "",
 		type = 1,
@@ -1152,7 +1163,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_2",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN5",
-		pos_y = "0.483055555555556",
+		pos_y = "-0.016944",
 		change_bgm = "Yumia-1",
 		line = 0,
 		params = "",
@@ -1169,7 +1180,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[53] = {
-		pos_x = "0.613",
+		pos_x = "0.113000",
 		name = "EP1-3 险峻石滩",
 		label_key = "",
 		type = 1,
@@ -1177,7 +1188,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_2",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN6",
-		pos_y = "0.372",
+		pos_y = "-0.128000",
 		change_bgm = "Yumia-1",
 		line = 0,
 		params = "",
@@ -1194,7 +1205,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[54] = {
-		pos_x = "0.380208333333333",
+		pos_x = "-0.119792",
 		name = "EP1-4 合流·其一",
 		label_key = "",
 		type = 1,
@@ -1202,7 +1213,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_2",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN7",
-		pos_y = "0.26537037037037",
+		pos_y = "-0.234630",
 		change_bgm = "Yumia-1",
 		line = 0,
 		params = "",
@@ -1219,7 +1230,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[55] = {
-		pos_x = "0.600520833333333",
+		pos_x = "0.100521",
 		name = "EP1-5 合流·其二",
 		label_key = "",
 		type = 1,
@@ -1227,7 +1238,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_2",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN8",
-		pos_y = "0.255555555555556",
+		pos_y = "-0.244444",
 		change_bgm = "Yumia-1",
 		line = 0,
 		params = "",
@@ -1244,7 +1255,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[56] = {
-		pos_x = "0.483854166666667",
+		pos_x = "-0.016146",
 		name = "EP1-6 天际塔：起始区段",
 		label_key = "",
 		type = 1,
@@ -1252,7 +1263,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_2",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN9",
-		pos_y = "0.288888888888889",
+		pos_y = "-0.211111",
 		change_bgm = "Yumia-1",
 		line = 0,
 		params = "",
@@ -1269,7 +1280,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[57] = {
-		pos_x = "0.4671875",
+		pos_x = "-0.032813",
 		name = "EP1-7 向上进发",
 		label_key = "",
 		type = 1,
@@ -1277,7 +1288,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_3",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN10",
-		pos_y = "0.331481481481481",
+		pos_y = "-0.168519",
 		change_bgm = "Yumia-7",
 		line = 0,
 		pass_awards = 0,
@@ -1303,7 +1314,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[58] = {
-		pos_x = "0.385416666666667",
+		pos_x = "-0.114583",
 		name = "EP2-1 丰水湖",
 		label_key = "",
 		type = 1,
@@ -1311,7 +1322,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_3",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN11",
-		pos_y = "0.386111111111111",
+		pos_y = "-0.113889",
 		change_bgm = "Yumia-7",
 		line = 0,
 		params = "",
@@ -1328,7 +1339,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[59] = {
-		pos_x = "0.313020833333333",
+		pos_x = "-0.186979",
 		name = "EP2-2 丰饶林地",
 		label_key = "",
 		type = 1,
@@ -1336,7 +1347,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_3",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN12",
-		pos_y = "0.494444444444444",
+		pos_y = "-0.005556",
 		change_bgm = "Yumia-7",
 		line = 0,
 		params = "",
@@ -1353,7 +1364,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[60] = {
-		pos_x = "0.266666666666667",
+		pos_x = "-0.233333",
 		name = "EP2-3 青草区",
 		label_key = "",
 		type = 1,
@@ -1361,7 +1372,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_3",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN13",
-		pos_y = "0.573148148148148",
+		pos_y = "0.073148",
 		change_bgm = "Yumia-7",
 		line = 0,
 		params = "",
@@ -1378,7 +1389,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[61] = {
-		pos_x = "0.186458333333333",
+		pos_x = "-0.313542",
 		name = "EP2-4 腐草区",
 		label_key = "",
 		type = 1,
@@ -1386,7 +1397,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_3",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN14",
-		pos_y = "0.653703703703704",
+		pos_y = "0.153704",
 		change_bgm = "Yumia-7",
 		line = 0,
 		params = "",
@@ -1403,7 +1414,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[62] = {
-		pos_x = "0.128645833333333",
+		pos_x = "-0.371354",
 		name = "EP2-5 腐水河流",
 		label_key = "",
 		type = 1,
@@ -1411,7 +1422,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_3",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN15",
-		pos_y = "0.753703703703704",
+		pos_y = "0.253704",
 		change_bgm = "Yumia-7",
 		line = 0,
 		params = "",
@@ -1428,7 +1439,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[63] = {
-		pos_x = "0.176041666666667",
+		pos_x = "-0.323958",
 		name = "EP2-6 废弃村落",
 		label_key = "",
 		type = 1,
@@ -1436,7 +1447,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_3",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN16",
-		pos_y = "0.75",
+		pos_y = "0.250000",
 		change_bgm = "Yumia-7",
 		line = 0,
 		params = "",
@@ -1453,7 +1464,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[64] = {
-		pos_x = "0.252604166666667",
+		pos_x = "-0.247396",
 		name = "EP2-7 腐水湖",
 		label_key = "",
 		type = 3,
@@ -1461,7 +1472,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_3",
 		en_name = "",
 		story = "1947001",
-		pos_y = "0.769444444444444",
+		pos_y = "0.269444",
 		change_bgm = "Yumia-7",
 		line = 0,
 		params = "",
@@ -1478,7 +1489,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[65] = {
-		pos_x = "0.328125",
+		pos_x = "-0.171875",
 		name = "EP2-8 天际塔：L1区段",
 		label_key = "",
 		type = 1,
@@ -1486,7 +1497,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_4",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN18",
-		pos_y = "0.713888888888889",
+		pos_y = "0.213889",
 		change_bgm = "Yumia-20",
 		line = 0,
 		params = "",
@@ -1503,7 +1514,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[66] = {
-		pos_x = "0.395833333333333",
+		pos_x = "-0.104167",
 		name = "EP3-1 腐水海",
 		label_key = "",
 		type = 3,
@@ -1511,7 +1522,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_4",
 		en_name = "",
 		story = "1947002",
-		pos_y = "0.801851851851852",
+		pos_y = "0.301852",
 		change_bgm = "Yumia-20",
 		line = 0,
 		pass_awards = 0,
@@ -1537,7 +1548,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[67] = {
-		pos_x = "0.445833333333333",
+		pos_x = "-0.054167",
 		name = "EP3-2 腐蚀林地",
 		label_key = "",
 		type = 1,
@@ -1545,7 +1556,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_4",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN20",
-		pos_y = "0.686111111111111",
+		pos_y = "0.186111",
 		change_bgm = "Yumia-20",
 		line = 0,
 		params = "",
@@ -1562,7 +1573,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[68] = {
-		pos_x = "0.5015625",
+		pos_x = "0.001563",
 		name = "EP3-3 死亡荒原",
 		label_key = "",
 		type = 1,
@@ -1570,7 +1581,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_4",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN21",
-		pos_y = "0.588888888888889",
+		pos_y = "0.088889",
 		change_bgm = "Yumia-20",
 		line = 0,
 		params = "",
@@ -1587,7 +1598,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[69] = {
-		pos_x = "0.559375",
+		pos_x = "0.059375",
 		name = "EP3-4 废弃哨站",
 		label_key = "",
 		type = 1,
@@ -1595,7 +1606,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_4",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN22",
-		pos_y = "0.433333333333333",
+		pos_y = "-0.066667",
 		change_bgm = "Yumia-20",
 		line = 0,
 		params = "",
@@ -1612,7 +1623,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[70] = {
-		pos_x = "0.616145833333333",
+		pos_x = "0.116146",
 		name = "EP3-5 大裂谷",
 		label_key = "",
 		type = 1,
@@ -1620,7 +1631,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_4",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN23",
-		pos_y = "0.351851851851852",
+		pos_y = "-0.148148",
 		change_bgm = "Yumia-20",
 		line = 0,
 		params = "",
@@ -1637,7 +1648,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[71] = {
-		pos_x = "0.819791666666667",
+		pos_x = "0.319792",
 		name = "EP3-6 天际塔：L2区段",
 		label_key = "",
 		type = 1,
@@ -1645,7 +1656,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_5",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN24",
-		pos_y = "0.382407407407407",
+		pos_y = "-0.117593",
 		change_bgm = "Yumia-28",
 		line = 0,
 		params = "",
@@ -1662,7 +1673,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[72] = {
-		pos_x = "0.822916666666667",
+		pos_x = "0.322917",
 		name = "EP4-1 鬼影群山",
 		label_key = "",
 		type = 1,
@@ -1670,7 +1681,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_5",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN25",
-		pos_y = "0.457407407407407",
+		pos_y = "-0.042593",
 		change_bgm = "Yumia-28",
 		line = 0,
 		pass_awards = 0,
@@ -1696,7 +1707,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[73] = {
-		pos_x = "0.6453125",
+		pos_x = "0.145312",
 		name = "EP4-2 废弃都市",
 		label_key = "",
 		type = 1,
@@ -1704,7 +1715,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_5",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN26",
-		pos_y = "0.592592592592593",
+		pos_y = "0.092593",
 		change_bgm = "Yumia-28",
 		line = 0,
 		params = "",
@@ -1721,7 +1732,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[74] = {
-		pos_x = "0.610416666666667",
+		pos_x = "0.110417",
 		name = "EP4-3 天际塔：L3区段",
 		label_key = "",
 		type = 1,
@@ -1729,7 +1740,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_6",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN27",
-		pos_y = "0.749074074074074",
+		pos_y = "0.249074",
 		change_bgm = "Yumia-53",
 		line = 0,
 		params = "",
@@ -1746,7 +1757,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[75] = {
-		pos_x = "0.697916666666667",
+		pos_x = "0.197917",
 		name = "EP5-1 天际海",
 		label_key = "",
 		type = 1,
@@ -1754,7 +1765,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_6",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN28",
-		pos_y = "0.815740740740741",
+		pos_y = "0.315741",
 		change_bgm = "Yumia-53",
 		line = 0,
 		pass_awards = 0,
@@ -1780,7 +1791,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[76] = {
-		pos_x = "0.778645833333333",
+		pos_x = "0.278646",
 		name = "EP5-2 大护盾",
 		label_key = "",
 		type = 1,
@@ -1788,7 +1799,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_6",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN29",
-		pos_y = "0.739814814814815",
+		pos_y = "0.239815",
 		change_bgm = "Yumia-53",
 		line = 0,
 		params = "",
@@ -1805,7 +1816,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[77] = {
-		pos_x = "0.813541666666667",
+		pos_x = "0.313542",
 		name = "EP5-3 核心都市区",
 		label_key = "",
 		type = 1,
@@ -1813,7 +1824,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_6",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN30",
-		pos_y = "0.681481481481481",
+		pos_y = "0.181481",
 		change_bgm = "Yumia-53",
 		line = 0,
 		params = "",
@@ -1830,7 +1841,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[78] = {
-		pos_x = "0.811979166666667",
+		pos_x = "0.311979",
 		name = "EP5-4 天际塔：塔尖区段",
 		label_key = "",
 		type = 1,
@@ -1838,7 +1849,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_6",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN31",
-		pos_y = "0.793518518518519",
+		pos_y = "0.293519",
 		change_bgm = "Yumia-az-theme-pv",
 		line = 0,
 		params = "",
@@ -1855,7 +1866,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[79] = {
-		pos_x = "0.848958333333333",
+		pos_x = "0.348958",
 		name = "EP5-5 决战",
 		label_key = "",
 		type = 3,
@@ -1863,7 +1874,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_1",
 		en_name = "",
 		story = "1947003",
-		pos_y = "0.750925925925926",
+		pos_y = "0.250926",
 		change_bgm = "Yumia-az-theme-pv",
 		line = 0,
 		params = "",
@@ -1880,7 +1891,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[80] = {
-		pos_x = "0.349479166666667",
+		pos_x = "-0.150521",
 		name = "EPS-4 尾声",
 		label_key = "",
 		type = 1,
@@ -1888,7 +1899,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_1",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN33",
-		pos_y = "0.512962962962963",
+		pos_y = "0.012963",
 		change_bgm = "Yumia-az-theme-pv",
 		line = 0,
 		params = "",
@@ -1905,7 +1916,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[81] = {
-		pos_x = "0.633854166666667",
+		pos_x = "0.133854",
 		name = "EPS-5 尾声的尾声",
 		label_key = "",
 		type = 1,
@@ -1913,7 +1924,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "bg_yumia_story_mode_7",
 		en_name = "",
 		story = "YOUMIYAGUANQIAPIAN34",
-		pos_y = "0.512962962962963",
+		pos_y = "0.012963",
 		change_bgm = "Yumia-az-story",
 		line = 0,
 		params = "",
@@ -1930,7 +1941,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[82] = {
-		pos_x = "0.463541666666667",
+		pos_x = "-0.036458",
 		name = "起始区段",
 		label_key = "",
 		type = 4,
@@ -1938,7 +1949,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.262037037037037",
+		pos_y = "-0.237963",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -1955,7 +1966,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[83] = {
-		pos_x = "0.541145833333333",
+		pos_x = "0.041146",
 		name = "险峻石滩",
 		label_key = "",
 		type = 4,
@@ -1963,7 +1974,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.187962962962963",
+		pos_y = "-0.312037",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -1980,7 +1991,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[84] = {
-		pos_x = "0.150520833333333",
+		pos_x = "-0.349479",
 		name = "起始之海",
 		label_key = "",
 		type = 4,
@@ -1988,7 +1999,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.27037037037037",
+		pos_y = "-0.229630",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2005,7 +2016,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[85] = {
-		pos_x = "0.168229166666667",
+		pos_x = "-0.331771",
 		name = "舒适海滩",
 		label_key = "",
 		type = 4,
@@ -2013,7 +2024,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.480555555555556",
+		pos_y = "-0.019444",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2030,7 +2041,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[86] = {
-		pos_x = "0.375520833333333",
+		pos_x = "-0.124479",
 		name = "丰水湖",
 		label_key = "",
 		type = 4,
@@ -2038,7 +2049,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.39537037037037",
+		pos_y = "-0.104630",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2055,7 +2066,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[87] = {
-		pos_x = "0.247395833333333",
+		pos_x = "-0.252604",
 		name = "丰饶林地",
 		label_key = "",
 		type = 4,
@@ -2063,7 +2074,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.572222222222222",
+		pos_y = "0.072222",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2080,7 +2091,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[88] = {
-		pos_x = "0.289583333333333",
+		pos_x = "-0.210417",
 		name = "L1区段",
 		label_key = "",
 		type = 4,
@@ -2088,7 +2099,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.721296296296296",
+		pos_y = "0.221296",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2105,7 +2116,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[89] = {
-		pos_x = "0.139583333333333",
+		pos_x = "-0.360417",
 		name = "废弃村落",
 		label_key = "",
 		type = 4,
@@ -2113,7 +2124,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.711111111111111",
+		pos_y = "0.211111",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2130,7 +2141,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[90] = {
-		pos_x = "0.1953125",
+		pos_x = "-0.304688",
 		name = "腐水湖",
 		label_key = "",
 		type = 4,
@@ -2138,7 +2149,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.806481481481482",
+		pos_y = "0.306481",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2155,7 +2166,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[91] = {
-		pos_x = "0.397395833333333",
+		pos_x = "-0.102604",
 		name = "腐水海",
 		label_key = "",
 		type = 4,
@@ -2163,7 +2174,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.842592592592593",
+		pos_y = "0.342593",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2180,7 +2191,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[92] = {
-		pos_x = "0.430208333333333",
+		pos_x = "-0.069792",
 		name = "腐蚀林地",
 		label_key = "",
 		type = 4,
@@ -2188,7 +2199,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.69537037037037",
+		pos_y = "0.195370",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2205,7 +2216,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[93] = {
-		pos_x = "0.514583333333333",
+		pos_x = "0.014583",
 		name = "死亡荒原",
 		label_key = "",
 		type = 4,
@@ -2213,7 +2224,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.49537037037037",
+		pos_y = "-0.004630",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2230,7 +2241,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[94] = {
-		pos_x = "0.554166666666667",
+		pos_x = "0.054167",
 		name = "废弃哨站",
 		label_key = "",
 		type = 4,
@@ -2238,7 +2249,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.398148148148148",
+		pos_y = "-0.101852",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2255,7 +2266,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[95] = {
-		pos_x = "0.6375",
+		pos_x = "0.137500",
 		name = "大裂谷",
 		label_key = "",
 		type = 4,
@@ -2263,7 +2274,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.324074074074074",
+		pos_y = "-0.175926",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2280,7 +2291,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[96] = {
-		pos_x = "0.815104166666667",
+		pos_x = "0.315104",
 		name = "L2区段",
 		label_key = "",
 		type = 4,
@@ -2288,7 +2299,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.32962962962963",
+		pos_y = "-0.170370",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2305,7 +2316,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[97] = {
-		pos_x = "0.8359375",
+		pos_x = "0.335938",
 		name = "鬼影群山",
 		label_key = "",
 		type = 4,
@@ -2313,7 +2324,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.473148148148148",
+		pos_y = "-0.026852",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2330,7 +2341,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[98] = {
-		pos_x = "0.602604166666667",
+		pos_x = "0.102604",
 		name = "废弃都市",
 		label_key = "",
 		type = 4,
@@ -2338,7 +2349,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.612962962962963",
+		pos_y = "0.112963",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2355,7 +2366,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[99] = {
-		pos_x = "0.597395833333333",
+		pos_x = "0.097396",
 		name = "L3区段",
 		label_key = "",
 		type = 4,
@@ -2363,7 +2374,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.736111111111111",
+		pos_y = "0.236111",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2380,7 +2391,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[100] = {
-		pos_x = "0.463541666666667",
+		pos_x = "-0.036458",
 		name = "起始区段",
 		label_key = "",
 		type = 4,
@@ -2388,7 +2399,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.262037037037037",
+		pos_y = "-0.237963",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2403,7 +2414,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[101] = {
-		pos_x = "0.541145833333333",
+		pos_x = "0.041146",
 		name = "险峻石滩",
 		label_key = "",
 		type = 4,
@@ -2411,7 +2422,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.187962962962963",
+		pos_y = "-0.312037",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2426,7 +2437,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[102] = {
-		pos_x = "0.150520833333333",
+		pos_x = "-0.349479",
 		name = "起始之海",
 		label_key = "",
 		type = 4,
@@ -2434,7 +2445,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.27037037037037",
+		pos_y = "-0.229630",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2449,7 +2460,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[103] = {
-		pos_x = "0.168229166666667",
+		pos_x = "-0.331771",
 		name = "舒适海滩",
 		label_key = "",
 		type = 4,
@@ -2457,7 +2468,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.480555555555556",
+		pos_y = "-0.019444",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2472,7 +2483,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[104] = {
-		pos_x = "0.375520833333333",
+		pos_x = "-0.124479",
 		name = "丰水湖",
 		label_key = "",
 		type = 4,
@@ -2480,7 +2491,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.39537037037037",
+		pos_y = "-0.104630",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2495,7 +2506,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[105] = {
-		pos_x = "0.247395833333333",
+		pos_x = "-0.252604",
 		name = "丰饶林地",
 		label_key = "",
 		type = 4,
@@ -2503,7 +2514,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.572222222222222",
+		pos_y = "0.072222",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2518,7 +2529,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[106] = {
-		pos_x = "0.289583333333333",
+		pos_x = "-0.210417",
 		name = "L1区段",
 		label_key = "",
 		type = 4,
@@ -2526,7 +2537,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.721296296296296",
+		pos_y = "0.221296",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2541,7 +2552,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[107] = {
-		pos_x = "0.139583333333333",
+		pos_x = "-0.360417",
 		name = "废弃村落",
 		label_key = "",
 		type = 4,
@@ -2549,7 +2560,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.711111111111111",
+		pos_y = "0.211111",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2564,7 +2575,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[108] = {
-		pos_x = "0.1953125",
+		pos_x = "-0.304688",
 		name = "腐水湖",
 		label_key = "",
 		type = 4,
@@ -2572,7 +2583,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.806481481481482",
+		pos_y = "0.306481",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2587,7 +2598,7 @@ pg.base.activity_series_enemy_story = {}
 		}
 	}
 	pg.base.activity_series_enemy_story[109] = {
-		pos_x = "0.397395833333333",
+		pos_x = "-0.102604",
 		name = "腐水海",
 		label_key = "",
 		type = 4,
@@ -2595,7 +2606,7 @@ pg.base.activity_series_enemy_story = {}
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.842592592592593",
+		pos_y = "0.342593",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2612,7 +2623,7 @@ pg.base.activity_series_enemy_story = {}
 end)()
 ;(function()
 	pg.base.activity_series_enemy_story[110] = {
-		pos_x = "0.430208333333333",
+		pos_x = "-0.069792",
 		name = "腐蚀林地",
 		label_key = "",
 		type = 4,
@@ -2620,7 +2631,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.69537037037037",
+		pos_y = "0.195370",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2635,7 +2646,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[111] = {
-		pos_x = "0.514583333333333",
+		pos_x = "0.014583",
 		name = "死亡荒原",
 		label_key = "",
 		type = 4,
@@ -2643,7 +2654,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.49537037037037",
+		pos_y = "-0.004630",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2658,7 +2669,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[112] = {
-		pos_x = "0.554166666666667",
+		pos_x = "0.054167",
 		name = "废弃哨站",
 		label_key = "",
 		type = 4,
@@ -2666,7 +2677,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.398148148148148",
+		pos_y = "-0.101852",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2681,7 +2692,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[113] = {
-		pos_x = "0.6375",
+		pos_x = "0.137500",
 		name = "大裂谷",
 		label_key = "",
 		type = 4,
@@ -2689,7 +2700,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.324074074074074",
+		pos_y = "-0.175926",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2704,7 +2715,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[114] = {
-		pos_x = "0.815104166666667",
+		pos_x = "0.315104",
 		name = "L2区段",
 		label_key = "",
 		type = 4,
@@ -2712,7 +2723,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.32962962962963",
+		pos_y = "-0.170370",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2727,7 +2738,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[115] = {
-		pos_x = "0.8359375",
+		pos_x = "0.335938",
 		name = "鬼影群山",
 		label_key = "",
 		type = 4,
@@ -2735,7 +2746,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.473148148148148",
+		pos_y = "-0.026852",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2750,7 +2761,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[116] = {
-		pos_x = "0.602604166666667",
+		pos_x = "0.102604",
 		name = "废弃都市",
 		label_key = "",
 		type = 4,
@@ -2758,7 +2769,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.612962962962963",
+		pos_y = "0.112963",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2773,7 +2784,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[117] = {
-		pos_x = "0.597395833333333",
+		pos_x = "0.097396",
 		name = "L3区段",
 		label_key = "",
 		type = 4,
@@ -2781,7 +2792,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.736111111111111",
+		pos_y = "0.236111",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2796,7 +2807,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[118] = {
-		pos_x = "0.673958333333333",
+		pos_x = "0.173958",
 		name = "天际海",
 		label_key = "",
 		type = 4,
@@ -2804,7 +2815,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.878703703703704",
+		pos_y = "0.378704",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2819,7 +2830,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[119] = {
-		pos_x = "0.822916666666667",
+		pos_x = "0.322917",
 		name = "塔尖区段",
 		label_key = "",
 		type = 4,
@@ -2827,7 +2838,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.794444444444444",
+		pos_y = "0.294444",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2842,7 +2853,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[120] = {
-		pos_x = "0.819270833333333",
+		pos_x = "0.319271",
 		name = "核心都市区",
 		label_key = "",
 		type = 4,
@@ -2850,7 +2861,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "",
-		pos_y = "0.707407407407407",
+		pos_y = "0.207407",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -2865,7 +2876,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[121] = {
-		pos_x = "0.444270833333333",
+		pos_x = "-0.055729",
 		name = "EP1-1 初见即毕业",
 		label_key = "",
 		type = 1,
@@ -2873,7 +2884,7 @@ end)()
 		change_background = "bg_masaina_story_mode_1",
 		en_name = "",
 		story = "QIYUANXIADEMIMI2",
-		pos_y = "0.707407407407407",
+		pos_y = "0.207407",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -2888,7 +2899,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[122] = {
-		pos_x = "0.444270833333333",
+		pos_x = "-0.055729",
 		name = "EP1-2 初入奇渊",
 		label_key = "",
 		type = 1,
@@ -2896,7 +2907,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "QIYUANXIADEMIMI3",
-		pos_y = "0.707407407407407",
+		pos_y = "0.207407",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -2913,7 +2924,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[123] = {
-		pos_x = "0.444270833333333",
+		pos_x = "-0.055729",
 		name = "EP1-3 再见还是毕业",
 		label_key = "",
 		type = 1,
@@ -2921,7 +2932,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "QIYUANXIADEMIMI4",
-		pos_y = "0.707407407407407",
+		pos_y = "0.207407",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -2938,7 +2949,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[124] = {
-		pos_x = "0.444270833333333",
+		pos_x = "-0.055729",
 		name = "EP1-4 再度启程",
 		label_key = "",
 		type = 1,
@@ -2946,7 +2957,7 @@ end)()
 		change_background = "bg_masaina_story_mode_2",
 		en_name = "",
 		story = "QIYUANXIADEMIMI5",
-		pos_y = "0.707407407407407",
+		pos_y = "0.207407",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -2963,7 +2974,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[125] = {
-		pos_x = "0.388020833333333",
+		pos_x = "-0.111979",
 		name = "EP2-1 冰喉峡谷",
 		label_key = "",
 		type = 1,
@@ -2971,7 +2982,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "QIYUANXIADEMIMI6",
-		pos_y = "0.558333333333333",
+		pos_y = "0.058333",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -2988,7 +2999,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[126] = {
-		pos_x = "0.358333333333333",
+		pos_x = "-0.141667",
 		name = "EP2-2 极光之地",
 		label_key = "",
 		type = 1,
@@ -2996,7 +3007,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "QIYUANXIADEMIMI7",
-		pos_y = "0.526851851851852",
+		pos_y = "0.026852",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -3013,7 +3024,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[127] = {
-		pos_x = "0.328645833333333",
+		pos_x = "-0.171354",
 		name = "EP2-3 陷阱",
 		label_key = "",
 		type = 1,
@@ -3021,7 +3032,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "QIYUANXIADEMIMI8",
-		pos_y = "0.480555555555556",
+		pos_y = "-0.019444",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -3038,7 +3049,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[128] = {
-		pos_x = "0.244791666666667",
+		pos_x = "-0.255208",
 		name = "EP2-4 重逢",
 		label_key = "",
 		type = 1,
@@ -3046,7 +3057,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "QIYUANXIADEMIMI9",
-		pos_y = "0.533333333333333",
+		pos_y = "0.033333",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -3063,7 +3074,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[129] = {
-		pos_x = "0.3",
+		pos_x = "-0.200000",
 		name = "EP2-5 过去的事",
 		label_key = "",
 		type = 1,
@@ -3071,7 +3082,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "QIYUANXIADEMIMI10",
-		pos_y = "0.637962962962963",
+		pos_y = "0.137963",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -3088,7 +3099,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[130] = {
-		pos_x = "0.1796875",
+		pos_x = "-0.320312",
 		name = "EP2-6 古老的馈赠",
 		label_key = "",
 		type = 1,
@@ -3096,7 +3107,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "QIYUANXIADEMIMI11",
-		pos_y = "0.659259259259259",
+		pos_y = "0.159259",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -3113,7 +3124,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[131] = {
-		pos_x = "0.23125",
+		pos_x = "-0.268750",
 		name = "EP2-7 寒冬要塞",
 		label_key = "",
 		type = 1,
@@ -3121,7 +3132,7 @@ end)()
 		change_background = "bg_masaina_story_mode_3",
 		en_name = "",
 		story = "QIYUANXIADEMIMI12",
-		pos_y = "0.360185185185185",
+		pos_y = "-0.139815",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -3138,7 +3149,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[132] = {
-		pos_x = "0.502083333333333",
+		pos_x = "0.002083",
 		name = "EP3-1 秽沼瘴潭之战",
 		label_key = "",
 		type = 3,
@@ -3146,7 +3157,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "1956001",
-		pos_y = "0.785185185185185",
+		pos_y = "0.285185",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -3163,7 +3174,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[133] = {
-		pos_x = "0.603125",
+		pos_x = "0.103125",
 		name = "EP3-2 异化法师营地",
 		label_key = "",
 		type = 1,
@@ -3171,7 +3182,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "QIYUANXIADEMIMI14",
-		pos_y = "0.785185185185185",
+		pos_y = "0.285185",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -3188,7 +3199,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[134] = {
-		pos_x = "0.6640625",
+		pos_x = "0.164062",
 		name = "EP3-3 结盟仪式",
 		label_key = "",
 		type = 1,
@@ -3196,7 +3207,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "QIYUANXIADEMIMI15",
-		pos_y = "0.672222222222222",
+		pos_y = "0.172222",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -3213,7 +3224,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[135] = {
-		pos_x = "0.6359375",
+		pos_x = "0.135938",
 		name = "EP3-4 和谈生变",
 		label_key = "",
 		type = 3,
@@ -3221,7 +3232,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "1956002",
-		pos_y = "0.652777777777778",
+		pos_y = "0.152778",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -3238,7 +3249,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[136] = {
-		pos_x = "0.765625",
+		pos_x = "0.265625",
 		name = "EP3-5 预言之子",
 		label_key = "",
 		type = 1,
@@ -3246,7 +3257,7 @@ end)()
 		change_background = "bg_masaina_story_mode_4",
 		en_name = "",
 		story = "QIYUANXIADEMIMI17",
-		pos_y = "0.55",
+		pos_y = "0.050000",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -3263,7 +3274,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[137] = {
-		pos_x = "0.5453125",
+		pos_x = "0.045312",
 		name = "EP4-1 遗忘之地",
 		label_key = "",
 		type = 3,
@@ -3271,7 +3282,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "1956003",
-		pos_y = "0.505555555555556",
+		pos_y = "0.005556",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -3288,7 +3299,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[138] = {
-		pos_x = "0.591145833333333",
+		pos_x = "0.091146",
 		name = "EP4-2 不落要塞",
 		label_key = "",
 		type = 1,
@@ -3296,7 +3307,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "QIYUANXIADEMIMI19",
-		pos_y = "0.461111111111111",
+		pos_y = "-0.038889",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -3313,7 +3324,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[139] = {
-		pos_x = "0.5390625",
+		pos_x = "0.039062",
 		name = "EP4-3 幻影之境",
 		label_key = "",
 		type = 3,
@@ -3321,7 +3332,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "1956004",
-		pos_y = "0.387962962962963",
+		pos_y = "-0.112037",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -3338,7 +3349,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[140] = {
-		pos_x = "0.698958333333333",
+		pos_x = "0.198958",
 		name = "EP4-4 黎明的终战",
 		label_key = "",
 		type = 1,
@@ -3346,7 +3357,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "QIYUANXIADEMIMI21",
-		pos_y = "0.30462962962963",
+		pos_y = "-0.195370",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -3363,7 +3374,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[141] = {
-		pos_x = "0.763541666666667",
+		pos_x = "0.263542",
 		name = "EP4-5 神庙漫步",
 		label_key = "",
 		type = 1,
@@ -3371,7 +3382,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "QIYUANXIADEMIMI22",
-		pos_y = "0.213888888888889",
+		pos_y = "-0.286111",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -3388,7 +3399,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[142] = {
-		pos_x = "0.853125",
+		pos_x = "0.353125",
 		name = "EP4-6 回忆觉醒",
 		label_key = "",
 		type = 1,
@@ -3396,7 +3407,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "QIYUANXIADEMIMI23",
-		pos_y = "0.234259259259259",
+		pos_y = "-0.265741",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -3413,7 +3424,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[143] = {
-		pos_x = "0.455208333333333",
+		pos_x = "-0.044792",
 		name = "EP4-7 寂灭魔法塔",
 		label_key = "",
 		type = 1,
@@ -3421,7 +3432,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "QIYUANXIADEMIMI24",
-		pos_y = "0.446296296296296",
+		pos_y = "-0.053704",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -3438,7 +3449,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[144] = {
-		pos_x = "0.855729166666667",
+		pos_x = "0.355729",
 		name = "EP4-8 逝去的时代",
 		label_key = "",
 		type = 1,
@@ -3446,7 +3457,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "QIYUANXIADEMIMI25",
-		pos_y = "0.248148148148148",
+		pos_y = "-0.251852",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -3463,7 +3474,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[145] = {
-		pos_x = "0.85",
+		pos_x = "0.350000",
 		name = "EP4-9 沉睡之地",
 		label_key = "",
 		type = 1,
@@ -3471,7 +3482,7 @@ end)()
 		change_background = "bg_masaina_story_mode_5",
 		en_name = "",
 		story = "QIYUANXIADEMIMI26",
-		pos_y = "0.339814814814815",
+		pos_y = "-0.160185",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -3488,7 +3499,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[146] = {
-		pos_x = "0.836458333333333",
+		pos_x = "0.336458",
 		name = "EP5-1 反攻的第一枪",
 		label_key = "",
 		type = 1,
@@ -3496,7 +3507,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "QIYUANXIADEMIMI27",
-		pos_y = "0.473148148148148",
+		pos_y = "-0.026852",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -3513,7 +3524,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[147] = {
-		pos_x = "0.446875",
+		pos_x = "-0.053125",
 		name = "EP5-2 恩泽城之战",
 		label_key = "",
 		type = 3,
@@ -3521,7 +3532,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "1956005",
-		pos_y = "0.642592592592593",
+		pos_y = "0.142593",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -3538,7 +3549,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[148] = {
-		pos_x = "0.446875",
+		pos_x = "-0.053125",
 		name = "EP5-3 终结与新生",
 		label_key = "",
 		type = 1,
@@ -3546,7 +3557,7 @@ end)()
 		change_background = "bg_masaina_story_mode_4",
 		en_name = "",
 		story = "QIYUANXIADEMIMI29",
-		pos_y = "0.642592592592593",
+		pos_y = "0.142593",
 		change_bgm = "story-enzecheng-theme",
 		line = 0,
 		params = "",
@@ -3563,7 +3574,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[149] = {
-		pos_x = "0.446875",
+		pos_x = "-0.053125",
 		name = "恩泽城",
 		label_key = "",
 		type = 4,
@@ -3571,7 +3582,7 @@ end)()
 		change_background = "",
 		en_name = "Benedictus",
 		story = "",
-		pos_y = "0.642592592592593",
+		pos_y = "0.142593",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -3588,7 +3599,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[150] = {
-		pos_x = "0.371354166666667",
+		pos_x = "-0.128646",
 		name = "冰喉峡谷",
 		label_key = "",
 		type = 4,
@@ -3596,7 +3607,7 @@ end)()
 		change_background = "",
 		en_name = "IcemawGorge",
 		story = "",
-		pos_y = "0.530555555555556",
+		pos_y = "0.030556",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -3611,7 +3622,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[151] = {
-		pos_x = "0.308854166666667",
+		pos_x = "-0.191146",
 		name = "极光之地",
 		label_key = "",
 		type = 4,
@@ -3619,7 +3630,7 @@ end)()
 		change_background = "",
 		en_name = "LandofAuroras",
 		story = "",
-		pos_y = "0.471296296296296",
+		pos_y = "-0.028704",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -3634,7 +3645,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[152] = {
-		pos_x = "0.3015625",
+		pos_x = "-0.198437",
 		name = "永寂冰湖",
 		label_key = "",
 		type = 4,
@@ -3642,7 +3653,7 @@ end)()
 		change_background = "",
 		en_name = "NevermeltingLake",
 		story = "",
-		pos_y = "0.639814814814815",
+		pos_y = "0.139815",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -3657,7 +3668,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[153] = {
-		pos_x = "0.218229166666667",
+		pos_x = "-0.281771",
 		name = "噬光苔原",
 		label_key = "",
 		type = 4,
@@ -3665,7 +3676,7 @@ end)()
 		change_background = "",
 		en_name = "LightbaneTundra",
 		story = "",
-		pos_y = "0.555555555555556",
+		pos_y = "0.055556",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -3680,7 +3691,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[154] = {
-		pos_x = "0.175520833333333",
+		pos_x = "-0.324479",
 		name = "古代遗迹",
 		label_key = "",
 		type = 4,
@@ -3688,7 +3699,7 @@ end)()
 		change_background = "",
 		en_name = "AncientRuins",
 		story = "",
-		pos_y = "0.663888888888889",
+		pos_y = "0.163889",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -3703,7 +3714,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[155] = {
-		pos_x = "0.2390625",
+		pos_x = "-0.260937",
 		name = "寒冬要塞",
 		label_key = "",
 		type = 4,
@@ -3711,7 +3722,7 @@ end)()
 		change_background = "",
 		en_name = "Frostheim",
 		story = "",
-		pos_y = "0.278703703703704",
+		pos_y = "-0.221296",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -3726,7 +3737,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[156] = {
-		pos_x = "0.522916666666667",
+		pos_x = "0.022917",
 		name = "秽沼瘴潭",
 		label_key = "",
 		type = 4,
@@ -3734,7 +3745,7 @@ end)()
 		change_background = "",
 		en_name = "MiasmicSwamp",
 		story = "",
-		pos_y = "0.773148148148148",
+		pos_y = "0.273148",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -3749,7 +3760,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[157] = {
-		pos_x = "0.613541666666667",
+		pos_x = "0.113542",
 		name = "异化法师营地",
 		label_key = "",
 		type = 4,
@@ -3757,7 +3768,7 @@ end)()
 		change_background = "",
 		en_name = "DerelictusHold",
 		story = "",
-		pos_y = "0.742",
+		pos_y = "0.242000",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -3772,7 +3783,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[158] = {
-		pos_x = "0.6265625",
+		pos_x = "0.126563",
 		name = "低语林地",
 		label_key = "",
 		type = 4,
@@ -3780,7 +3791,7 @@ end)()
 		change_background = "",
 		en_name = "WhisperingGrove",
 		story = "",
-		pos_y = "0.625925925925926",
+		pos_y = "0.125926",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -3795,7 +3806,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[159] = {
-		pos_x = "0.700520833333333",
+		pos_x = "0.200521",
 		name = "腐心树",
 		label_key = "",
 		type = 4,
@@ -3803,7 +3814,7 @@ end)()
 		change_background = "",
 		en_name = "HollowheartTree",
 		story = "",
-		pos_y = "0.814814814814815",
+		pos_y = "0.314815",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -3818,7 +3829,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[160] = {
-		pos_x = "0.7703125",
+		pos_x = "0.270312",
 		name = "暗夜魔宫",
 		label_key = "",
 		type = 4,
@@ -3826,7 +3837,7 @@ end)()
 		change_background = "",
 		en_name = "Pandemonium",
 		story = "",
-		pos_y = "0.547222222222222",
+		pos_y = "0.047222",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -3841,7 +3852,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[161] = {
-		pos_x = "0.697395833333333",
+		pos_x = "0.197396",
 		name = "遗忘之地",
 		label_key = "",
 		type = 4,
@@ -3849,7 +3860,7 @@ end)()
 		change_background = "",
 		en_name = "ForgottenReach",
 		story = "",
-		pos_y = "0.311111111111111",
+		pos_y = "-0.188889",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -3864,7 +3875,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[162] = {
-		pos_x = "0.586979166666667",
+		pos_x = "0.086979",
 		name = "破碎之地",
 		label_key = "",
 		type = 4,
@@ -3872,7 +3883,7 @@ end)()
 		change_background = "",
 		en_name = "ShatteredLands",
 		story = "",
-		pos_y = "0.392592592592593",
+		pos_y = "-0.107407",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -3887,7 +3898,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[163] = {
-		pos_x = "0.473958333333333",
+		pos_x = "-0.026042",
 		name = "寂灭魔法塔",
 		label_key = "",
 		type = 4,
@@ -3895,7 +3906,7 @@ end)()
 		change_background = "",
 		en_name = "SpireofCycles",
 		story = "",
-		pos_y = "0.442592592592593",
+		pos_y = "-0.057407",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -3910,7 +3921,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[164] = {
-		pos_x = "0.853125",
+		pos_x = "0.353125",
 		name = "古战场遗迹",
 		label_key = "",
 		type = 4,
@@ -3918,7 +3929,7 @@ end)()
 		change_background = "",
 		en_name = "AncientBattlefieldRuins",
 		story = "",
-		pos_y = "0.228703703703704",
+		pos_y = "-0.271296",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -3933,7 +3944,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[165] = {
-		pos_x = "0.841145833333333",
+		pos_x = "0.341146",
 		name = "静默树庭",
 		label_key = "",
 		type = 4,
@@ -3941,7 +3952,7 @@ end)()
 		change_background = "",
 		en_name = "SilentGrove",
 		story = "",
-		pos_y = "0.360185185185185",
+		pos_y = "-0.139815",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -3956,7 +3967,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[166] = {
-		pos_x = "0.446875",
+		pos_x = "-0.053125",
 		name = "恩泽城",
 		label_key = "",
 		type = 4,
@@ -3964,7 +3975,7 @@ end)()
 		change_background = "",
 		en_name = "Benedictus",
 		story = "",
-		pos_y = "0.642592592592593",
+		pos_y = "0.142593",
 		change_bgm = "",
 		line = 0,
 		params = "",
@@ -3979,7 +3990,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[167] = {
-		pos_x = "0.6229167",
+		pos_x = "0.122917",
 		name = "VR-0",
 		label_key = "",
 		type = 1,
@@ -3987,7 +3998,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "MANYOUZHEZHAOMUJIHUA1",
-		pos_y = "0.381481481",
+		pos_y = "-0.118519",
 		change_bgm = "",
 		line = 0,
 		pass_awards = 0,
@@ -4007,7 +4018,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[168] = {
-		pos_x = "0.5421875",
+		pos_x = "0.042188",
 		name = "VR-1",
 		label_key = "",
 		type = 1,
@@ -4015,7 +4026,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "MANYOUZHEZHAOMUJIHUA2",
-		pos_y = "0.715740741",
+		pos_y = "0.215741",
 		change_bgm = "",
 		line = 0,
 		pass_awards = 0,
@@ -4035,7 +4046,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[169] = {
-		pos_x = "0.4375",
+		pos_x = "-0.062500",
 		name = "VR-2",
 		label_key = "",
 		type = 1,
@@ -4043,7 +4054,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "MANYOUZHEZHAOMUJIHUA3",
-		pos_y = "0.533333333",
+		pos_y = "0.033333",
 		change_bgm = "",
 		line = 0,
 		pass_awards = 0,
@@ -4063,7 +4074,7 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[170] = {
-		pos_x = "0.28125",
+		pos_x = "-0.218750",
 		name = "VR-3",
 		label_key = "",
 		type = 1,
@@ -4071,7 +4082,7 @@ end)()
 		change_background = "",
 		en_name = "",
 		story = "MANYOUZHEZHAOMUJIHUA4",
-		pos_y = "0.381481481",
+		pos_y = "-0.118519",
 		change_bgm = "",
 		line = 0,
 		pass_awards = 0,
@@ -4091,9 +4102,9 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[171] = {
-		pos_x = "0.214583333",
+		pos_x = "-0.285417",
 		name = "VR-4",
-		pos_y = "0.656481481",
+		pos_y = "0.156481",
 		type = 1,
 		change_prefab = "",
 		change_background = "",
@@ -4122,9 +4133,9 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[172] = {
-		pos_x = "0.30625",
+		pos_x = "-0.193750",
 		name = "VR-5",
-		pos_y = "0.887037037",
+		pos_y = "0.387037",
 		type = 1,
 		change_prefab = "",
 		change_background = "",
@@ -4153,9 +4164,9 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[173] = {
-		pos_x = "0.558854167",
+		pos_x = "0.058854",
 		name = "VR-6",
-		pos_y = "0.943518519",
+		pos_y = "0.443519",
 		type = 1,
 		change_prefab = "",
 		change_background = "",
@@ -4184,9 +4195,9 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[174] = {
-		pos_x = "0.861458333",
+		pos_x = "0.361458",
 		name = "VR-7",
-		pos_y = "0.905555556",
+		pos_y = "0.405556",
 		type = 1,
 		change_prefab = "",
 		change_background = "",
@@ -4215,9 +4226,9 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[175] = {
-		pos_x = "0.816145833",
+		pos_x = "0.316146",
 		name = "VR-8",
-		pos_y = "0.715740741",
+		pos_y = "0.215741",
 		type = 1,
 		change_prefab = "",
 		change_background = "",
@@ -4246,9 +4257,9 @@ end)()
 		}
 	}
 	pg.base.activity_series_enemy_story[176] = {
-		pos_x = "0.828125",
+		pos_x = "0.328125",
 		name = "VR-9",
-		pos_y = "0.489814815",
+		pos_y = "-0.010185",
 		type = 1,
 		change_prefab = "",
 		change_background = "",
@@ -4274,6 +4285,259 @@ end)()
 		label_key = {
 			flagID = 1,
 			flagIndex = 6
+		}
+	}
+	pg.base.activity_series_enemy_story[177] = {
+		pos_x = "",
+		name = "WN-1 病房逃生！",
+		label_key = "",
+		type = 1,
+		change_prefab = "",
+		change_background = "",
+		en_name = "",
+		story = "GUAITANJISHI2",
+		pos_y = "",
+		change_bgm = "",
+		line = 0,
+		params = "",
+		id = 177,
+		icon = "icon_talk",
+		pass_awards = 0,
+		trigger_type = {
+			1
+		},
+		trigger_value = {
+			0
+		}
+	}
+	pg.base.activity_series_enemy_story[178] = {
+		pos_x = "",
+		name = "WN-2 无限回廊",
+		label_key = "",
+		type = 1,
+		change_prefab = "",
+		change_background = "",
+		en_name = "",
+		story = "GUAITANJISHI3",
+		pos_y = "",
+		change_bgm = "",
+		line = 0,
+		params = "",
+		id = 178,
+		icon = "icon_talk",
+		pass_awards = 0,
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			177
+		}
+	}
+	pg.base.activity_series_enemy_story[179] = {
+		pos_x = "",
+		name = "WN-3 游戏的幕后",
+		label_key = "",
+		type = 1,
+		change_prefab = "",
+		change_background = "",
+		en_name = "",
+		story = "GUAITANJISHI4",
+		pos_y = "",
+		change_bgm = "",
+		line = 0,
+		params = "",
+		id = 179,
+		icon = "icon_talk",
+		pass_awards = 0,
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			178
+		}
+	}
+	pg.base.activity_series_enemy_story[180] = {
+		pos_x = "",
+		name = "WN-4 渡河",
+		label_key = "",
+		type = 1,
+		change_prefab = "",
+		change_background = "",
+		en_name = "",
+		story = "GUAITANJISHI5",
+		pos_y = "",
+		change_bgm = "",
+		line = 0,
+		params = "",
+		id = 180,
+		icon = "icon_talk",
+		pass_awards = 0,
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			179
+		}
+	}
+	pg.base.activity_series_enemy_story[181] = {
+		pos_x = "",
+		name = "WN-5 古怪的门扉",
+		label_key = "",
+		type = 1,
+		change_prefab = "",
+		change_background = "",
+		en_name = "",
+		story = "GUAITANJISHI6",
+		pos_y = "",
+		change_bgm = "",
+		line = 0,
+		params = "",
+		id = 181,
+		icon = "icon_talk",
+		pass_awards = 0,
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			180
+		}
+	}
+	pg.base.activity_series_enemy_story[182] = {
+		pos_x = "",
+		name = "WN-6 邪恶院长的手术时间",
+		label_key = "",
+		type = 1,
+		change_prefab = "",
+		change_background = "",
+		en_name = "",
+		story = "GUAITANJISHI7",
+		pos_y = "",
+		change_bgm = "",
+		line = 0,
+		params = "",
+		id = 182,
+		icon = "icon_talk",
+		pass_awards = 0,
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			181
+		}
+	}
+	pg.base.activity_series_enemy_story[183] = {
+		pos_x = "",
+		name = "WN-7 重逢与希望",
+		label_key = "",
+		type = 1,
+		change_prefab = "",
+		change_background = "",
+		en_name = "",
+		story = "GUAITANJISHI8",
+		pos_y = "",
+		change_bgm = "",
+		line = 0,
+		params = "",
+		id = 183,
+		icon = "icon_talk",
+		pass_awards = 0,
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			182
+		}
+	}
+	pg.base.activity_series_enemy_story[184] = {
+		pos_x = "",
+		name = "WN-8 真实之欲",
+		label_key = "",
+		type = 1,
+		change_prefab = "",
+		change_background = "",
+		en_name = "",
+		story = "GUAITANJISHI9",
+		pos_y = "",
+		change_bgm = "",
+		line = 0,
+		params = "",
+		id = 184,
+		icon = "icon_talk",
+		pass_awards = 0,
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			183
+		}
+	}
+	pg.base.activity_series_enemy_story[185] = {
+		pos_x = "",
+		name = "WN-9 此路不通",
+		label_key = "",
+		type = 3,
+		change_prefab = "",
+		change_background = "",
+		en_name = "",
+		story = "2049601",
+		pos_y = "",
+		change_bgm = "",
+		line = 0,
+		params = "",
+		id = 185,
+		icon = "icon_battle",
+		pass_awards = 0,
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			184
+		}
+	}
+	pg.base.activity_series_enemy_story[186] = {
+		pos_x = "",
+		name = "WN-10 飞越白夜",
+		label_key = "",
+		type = 3,
+		change_prefab = "",
+		change_background = "",
+		en_name = "",
+		story = "2049602",
+		pos_y = "",
+		change_bgm = "",
+		line = 0,
+		params = "",
+		id = 186,
+		icon = "icon_battle",
+		pass_awards = 0,
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			185
+		}
+	}
+	pg.base.activity_series_enemy_story[187] = {
+		pos_x = "",
+		name = "WN-11 后日谈",
+		label_key = "",
+		type = 1,
+		change_prefab = "",
+		change_background = "",
+		en_name = "",
+		story = "GUAITANJISHI12",
+		pos_y = "",
+		change_bgm = "",
+		line = 0,
+		params = "",
+		id = 187,
+		icon = "icon_talk",
+		pass_awards = 0,
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			186
 		}
 	}
 end)()

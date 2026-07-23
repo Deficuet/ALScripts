@@ -99,127 +99,143 @@ function var_0_0.OnKick(arg_11_0)
 	}))
 end
 
-function var_0_0.OnNoBid(arg_14_0)
-	local var_14_0 = getProxy(AuctionGameProxy)
-
-	pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildAuctionFinish(var_14_0:GetAuctionID(), var_14_0:GetRound(), 1))
+function var_0_0.OnReconnection(arg_14_0)
 	arg_14_0:emit(BaseUI.ON_ADD_SUBLAYER, Context.New({
 		viewComponent = AuctionGameMainMsgLayer,
 		mediator = AuctionGameMainMsgMediator,
 		data = {
-			content = i18n("auction_game_nobid_tip"),
+			content = i18n("auction_network_timeout"),
 			comformCallback = function()
-				arg_14_0:emit(AuctionGameMainMediator.EXIT)
+				arg_14_0:closeView()
 			end,
 			cancelCallback = function()
-				arg_14_0:emit(AuctionGameMainMediator.EXIT)
+				arg_14_0:closeView()
 			end
 		}
 	}))
 end
 
-function var_0_0.RefreshReadyPanel(arg_17_0)
+function var_0_0.OnNoBid(arg_17_0)
+	local var_17_0 = getProxy(AuctionGameProxy)
+
+	pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildAuctionFinish(var_17_0:GetAuctionID(), var_17_0:GetRound(), 1))
 	arg_17_0:emit(BaseUI.ON_ADD_SUBLAYER, Context.New({
+		viewComponent = AuctionGameMainMsgLayer,
+		mediator = AuctionGameMainMsgMediator,
+		data = {
+			content = i18n("auction_game_nobid_tip"),
+			comformCallback = function()
+				arg_17_0:emit(AuctionGameMainMediator.EXIT)
+			end,
+			cancelCallback = function()
+				arg_17_0:emit(AuctionGameMainMediator.EXIT)
+			end
+		}
+	}))
+end
+
+function var_0_0.RefreshReadyPanel(arg_20_0)
+	arg_20_0:emit(BaseUI.ON_ADD_SUBLAYER, Context.New({
 		viewComponent = AuctionGameMainReadyLayer,
 		mediator = AuctionGameMainReadyMediator
 	}))
 end
 
-function var_0_0.RefreshRound(arg_18_0)
-	local var_18_0 = getProxy(AuctionGameProxy):GetRound()
+function var_0_0.RefreshRound(arg_21_0)
+	local var_21_0 = getProxy(AuctionGameProxy):GetRound()
 
-	if var_18_0 == 1 then
-		SetParent(arg_18_0.uiTopPanel, pg.UIMgr.GetInstance().OverlayMain)
+	if var_21_0 == 1 then
+		SetParent(arg_21_0.uiTopPanel, pg.UIMgr.GetInstance().OverlayMain)
 	end
 
-	arg_18_0:RefreshRoundText(var_18_0)
-	arg_18_0.leftPanelView:RefreshRound()
-	arg_18_0.rightPanelView:RefreshRound()
-	arg_18_0:AddTimer()
+	arg_21_0:RefreshRoundText(var_21_0)
+	arg_21_0.leftPanelView:RefreshRound()
+	arg_21_0.rightPanelView:RefreshRound()
+	arg_21_0:AddTimer()
 end
 
-function var_0_0.RefreshRoundText(arg_19_0, arg_19_1)
-	local var_19_0 = pg.auction_round[arg_19_1]
+function var_0_0.RefreshRoundText(arg_22_0, arg_22_1)
+	local var_22_0 = pg.auction_round[arg_22_1]
 
-	LoadSpriteAtlasAsync("ui/auctiongameui_atlas", string.format("main_round_%s", arg_19_1), function(arg_20_0)
-		if not IsNil(arg_19_0.uiRoundImage) then
-			arg_19_0.uiRoundImage.sprite = arg_20_0
+	LoadSpriteAtlasAsync("ui/auctiongameui_atlas", string.format("main_round_%s", arg_22_1), function(arg_23_0)
+		if not IsNil(arg_22_0.uiRoundImage) then
+			arg_22_0.uiRoundImage.sprite = arg_23_0
 		end
 	end)
 end
 
-function var_0_0.AddTimer(arg_21_0)
-	arg_21_0:StopTimer()
+function var_0_0.AddTimer(arg_24_0)
+	arg_24_0:StopTimer()
 
-	arg_21_0.timer = Timer.New(function()
-		local var_22_0 = getProxy(AuctionGameProxy):GetTimestamp() - pg.TimeMgr.GetInstance():GetServerTime()
+	arg_24_0.timer = Timer.New(function()
+		local var_25_0 = getProxy(AuctionGameProxy):GetTimestamp() - pg.TimeMgr.GetInstance():GetServerTime()
 
-		if var_22_0 < 0 then
-			var_22_0 = 0
+		if var_25_0 < 0 then
+			var_25_0 = 0
 
 			if getProxy(AuctionGameProxy):GetAuctionState() == AuctionGameConst.AUCTION_PHASE.ROUND_OVER and AuctionGameTools.IsNoBid() then
-				arg_21_0:StopTimer()
-				arg_21_0:OnNoBid()
+				arg_24_0:StopTimer()
+				arg_24_0:OnNoBid()
 			end
 		end
 
-		if var_22_0 < 10 then
+		if var_25_0 < 10 then
 			pg.CriMgr.GetInstance():PlaySoundEffect_V3(AuctionGameConst.SOUND_EFFECT.COUNTDOWN)
 		end
 
-		setText(arg_21_0.uiCdText, var_22_0 .. "<size=30>s</size>")
+		setText(arg_24_0.uiCdText, var_25_0 .. "<size=30>s</size>")
 	end, 1, -1)
 
-	arg_21_0.timer:Start()
-	arg_21_0.timer.func()
+	arg_24_0.timer:Start()
+	arg_24_0.timer.func()
 end
 
-function var_0_0.StopTimer(arg_23_0)
-	if arg_23_0.timer then
-		arg_23_0.timer:Stop()
+function var_0_0.StopTimer(arg_26_0)
+	if arg_26_0.timer then
+		arg_26_0.timer:Stop()
 
-		arg_23_0.timer = nil
+		arg_26_0.timer = nil
 	end
 end
 
-function var_0_0.OnShowFilterEventPanel(arg_24_0, arg_24_1, arg_24_2)
-	setActive(arg_24_0.uiHideBtn, true)
-	setParent(arg_24_2, arg_24_0.uiHideBtn, true)
-	setParent(arg_24_0.uiHideBtn, pg.UIMgr.GetInstance().OverlayMain)
+function var_0_0.OnShowFilterEventPanel(arg_27_0, arg_27_1, arg_27_2)
+	setActive(arg_27_0.uiHideBtn, true)
+	setParent(arg_27_2, arg_27_0.uiHideBtn, true)
+	setParent(arg_27_0.uiHideBtn, pg.UIMgr.GetInstance().OverlayMain)
 end
 
-function var_0_0.HideFilterEventPanel(arg_25_0)
-	setActive(arg_25_0.uiHideBtn, false)
+function var_0_0.HideFilterEventPanel(arg_28_0)
+	setActive(arg_28_0.uiHideBtn, false)
 end
 
-function var_0_0.willExit(arg_26_0)
-	setParent(arg_26_0.uiHideBtn, arg_26_0._tf)
+function var_0_0.willExit(arg_29_0)
+	setParent(arg_29_0.uiHideBtn, arg_29_0._tf)
 
-	for iter_26_0, iter_26_1 in ipairs(arg_26_0.eventList) do
-		arg_26_0:disconnect(iter_26_1)
+	for iter_29_0, iter_29_1 in ipairs(arg_29_0.eventList) do
+		arg_29_0:disconnect(iter_29_1)
 	end
 
-	arg_26_0.eventList = nil
+	arg_29_0.eventList = nil
 
-	local var_26_0 = getProxy(SettingsProxy):GetMainSceneScreenSleepTime()
+	local var_29_0 = getProxy(SettingsProxy):GetMainSceneScreenSleepTime()
 
-	Screen.sleepTimeout = var_26_0
+	Screen.sleepTimeout = var_29_0
 
-	arg_26_0:StopTimer()
-	SetParent(arg_26_0.uiTopPanel, arg_26_0._tf)
-	arg_26_0.leftPanelView:willExit()
+	arg_29_0:StopTimer()
+	SetParent(arg_29_0.uiTopPanel, arg_29_0._tf)
+	arg_29_0.leftPanelView:willExit()
 
-	arg_26_0.leftPanelView = nil
+	arg_29_0.leftPanelView = nil
 
-	arg_26_0.rightPanelView:willExit()
+	arg_29_0.rightPanelView:willExit()
 
-	arg_26_0.rightPanelView = nil
+	arg_29_0.rightPanelView = nil
 end
 
-function var_0_0.onBackPressed(arg_27_0)
+function var_0_0.onBackPressed(arg_30_0)
 	if getProxy(AuctionGameProxy):GetForfeit() then
-		arg_27_0:emit(PlayRoomCommonMediator.PLAY_ROOM_MATCH_STOP)
-		arg_27_0:emit(AuctionGameMainMediator.EXIT)
+		arg_30_0:emit(PlayRoomCommonMediator.PLAY_ROOM_MATCH_STOP)
+		arg_30_0:emit(AuctionGameMainMediator.EXIT)
 	end
 end
 

@@ -7,6 +7,7 @@ var_0_0.TYPE_DEFAULT_RES = 2
 var_0_0.TYPE_L2D = 4
 var_0_0.TYPE_PAINTING = 8
 var_0_0.TYPE_CIPHER = 16
+var_0_0.TYPE_CV = 32
 
 function var_0_0.Init(arg_1_0, arg_1_1)
 	LoadAndInstantiateAsync("ui", "RepairUI", function(arg_2_0)
@@ -25,7 +26,8 @@ function var_0_0.Init(arg_1_0, arg_1_1)
 			arg_1_0:InitDefaultResBtn(),
 			arg_1_0:InitL2dBtn(),
 			arg_1_0:InitPaintingBtn(),
-			arg_1_0:InitCipherBtn()
+			arg_1_0:InitCipherBtn(),
+			arg_1_0:InitCvBtn()
 		}
 		arg_1_0.uiItemList = UIItemList.New(arg_1_0._tf:Find("window/buttons"), arg_1_0._tf:Find("window/buttons/custom_button_1"))
 
@@ -90,51 +92,65 @@ function var_0_0.InitCipherBtn(arg_9_0)
 	}
 end
 
-function var_0_0.Repair(arg_11_0, arg_11_1)
-	local var_11_0 = arg_11_1 or bit.bor(var_0_0.TYPE_DEFAULT_RES, var_0_0.TYPE_L2D, var_0_0.TYPE_PAINTING, var_0_0.TYPE_CIPHER)
-	local var_11_1 = {}
+function var_0_0.InitCvBtn(arg_11_0)
+	return {
+		type = var_0_0.TYPE_CV,
+		text = i18n("msgbox_repair_cv"),
+		onCallback = function()
+			if PathMgr.FileExists(Application.persistentDataPath .. "/hashes-cv.csv") then
+				BundleWizard.Inst:GetGroupMgr("CV"):StartVerifyForLua()
+			else
+				pg.TipsMgr.GetInstance():ShowTips(i18n("word_no_cache"))
+			end
+		end
+	}
+end
 
-	for iter_11_0, iter_11_1 in ipairs(arg_11_0.btns) do
-		if bit.band(iter_11_1.type, var_11_0) > 0 then
-			table.insert(var_11_1, iter_11_1)
+function var_0_0.Repair(arg_13_0, arg_13_1)
+	local var_13_0 = arg_13_1 or bit.bor(var_0_0.TYPE_DEFAULT_RES, var_0_0.TYPE_L2D, var_0_0.TYPE_PAINTING, var_0_0.TYPE_CIPHER, var_0_0.TYPE_CV)
+	local var_13_1 = {}
+
+	for iter_13_0, iter_13_1 in ipairs(arg_13_0.btns) do
+		if bit.band(iter_13_1.type, var_13_0) > 0 then
+			table.insert(var_13_1, iter_13_1)
 		end
 	end
 
-	arg_11_0:Show(var_11_1)
+	arg_13_0:Show(var_13_1)
 end
 
-function var_0_0.Show(arg_12_0, arg_12_1)
-	pg.DelegateInfo.New(arg_12_0)
-	arg_12_0._go:SetActive(true)
-	pg.UIMgr.GetInstance():BlurPanel(arg_12_0._tf)
-	arg_12_0.uiItemList:make(function(arg_13_0, arg_13_1, arg_13_2)
-		if arg_13_0 == UIItemList.EventUpdate then
-			local var_13_0 = arg_12_1[arg_13_1 + 1]
+function var_0_0.Show(arg_14_0, arg_14_1)
+	pg.DelegateInfo.New(arg_14_0)
+	arg_14_0._go:SetActive(true)
+	pg.UIMgr.GetInstance():BlurPanel(arg_14_0._tf)
+	arg_14_0.uiItemList:make(function(arg_15_0, arg_15_1, arg_15_2)
+		if arg_15_0 == UIItemList.EventUpdate then
+			local var_15_0 = arg_14_1[arg_15_1 + 1]
 
-			setText(arg_13_2:Find("Text"), var_13_0.text)
-			onButton(arg_12_0, arg_13_2, function()
-				if var_13_0.onCallback then
-					var_13_0.onCallback()
+			setText(arg_15_2:Find("Text"), var_15_0.text)
+			onButton(arg_14_0, arg_15_2, function()
+				if var_15_0.onCallback then
+					var_15_0.onCallback()
 				end
 
-				arg_12_0:Hide()
+				arg_14_0:Hide()
 			end, SFX_PANEL)
 		end
 	end)
-	arg_12_0.uiItemList:align(#arg_12_1)
+	arg_14_0.uiItemList:align(#arg_14_1)
 
-	arg_12_0.contentTxt.text = i18n("resource_verify_warn")
+	arg_14_0.contentTxt.text = i18n("resource_verify_warn")
 
-	onButton(arg_12_0, arg_12_0._tf, function()
-		arg_12_0:Hide()
+	onButton(arg_14_0, arg_14_0._tf, function()
+		arg_14_0:Hide()
 	end, SFX_PANEL)
-	onButton(arg_12_0, arg_12_0.closeBtn, function()
-		arg_12_0:Hide()
+	onButton(arg_14_0, arg_14_0.closeBtn, function()
+		arg_14_0:Hide()
 	end, SFX_PANEL)
 end
 
-function var_0_0.Hide(arg_17_0)
-	pg.DelegateInfo.Dispose(arg_17_0)
-	arg_17_0._go:SetActive(false)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_17_0._tf, arg_17_0.parentTr)
+function var_0_0.Hide(arg_19_0)
+	pg.DelegateInfo.Dispose(arg_19_0)
+	arg_19_0._go:SetActive(false)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_19_0._tf, arg_19_0.parentTr)
 end

@@ -20,7 +20,7 @@ function var_0_0.Init(arg_2_0)
 		end
 
 		if var_3_0:GetSendEmojiTimestamp() + pg.gameset.auction_emoji_duration.key_value > pg.TimeMgr.GetInstance():GetServerTime() then
-			pg.TipsMgr.GetInstance():ShowTips("请勿频繁发送表情")
+			pg.TipsMgr.GetInstance():ShowTips(i18n("donot_send_emoji_frequently"))
 
 			return
 		end
@@ -45,6 +45,9 @@ function var_0_0.didEnter(arg_4_0, arg_4_1)
 			if var_5_0 then
 				var_5_0.preserveAspect = true
 			end
+
+			tf(arg_5_0).anchoredPosition = Vector2.zero
+			rtf(arg_5_0).sizeDelta = Vector2.New(210, 210)
 
 			local var_5_1 = arg_5_0:GetComponent("Animator")
 

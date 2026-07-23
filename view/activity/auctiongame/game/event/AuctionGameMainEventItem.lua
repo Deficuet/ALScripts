@@ -31,6 +31,10 @@ function var_0_0.didEnter(arg_4_0, arg_4_1)
 	setText(arg_4_0.uiNameText, shortenString(var_4_0.name, 9))
 	setText(arg_4_0.uiDescText, var_4_0.describe)
 	LoadSpriteAsync(var_4_0.icon, function(arg_5_0)
+		if IsNil(arg_4_0.uiIconImage) then
+			return
+		end
+
 		arg_4_0.uiIconImage.sprite = arg_5_0
 	end)
 end

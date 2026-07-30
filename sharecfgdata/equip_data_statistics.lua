@@ -153835,6 +153835,63 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.equip_data_statistics[80671] = {
+		type = 2,
+		name = "专属弹幕-纽伦堡METAI",
+		speciality = "<[NA]>",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能弹幕",
+		id = 80671,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			61851
+		},
+		skill_id = {},
+		hidden_skill_id = {},
+		part_main = {
+			1,
+			19,
+			20,
+			21
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[80672] = {
+		id = 80672,
+		name = "专属弹幕-纽伦堡METAII",
+		base = 80671,
+		weapon_id = {
+			61852
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.equip_data_statistics[80661] = {
 		type = 1,
 		name = "专属弹幕-高梁I",

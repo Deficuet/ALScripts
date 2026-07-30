@@ -8,8 +8,9 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	arg_1_0.isloading = false
 end
 
-function var_0_0.Init(arg_2_0, arg_2_1)
+function var_0_0.Init(arg_2_0, arg_2_1, arg_2_2)
 	arg_2_0.isScale = arg_2_1
+	arg_2_0.isOverflow = arg_2_2
 
 	if arg_2_0.isloading then
 		return

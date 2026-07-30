@@ -204,9 +204,6 @@ function var_0_0.Flush(arg_22_0)
 	end
 
 	local var_22_2 = #var_22_0
-
-	assert(var_22_2 <= 4, "活动按钮不能超过4个")
-
 	local var_22_3 = var_22_2 <= 3
 	local var_22_4 = var_22_3 and 1 or 0.85
 	local var_22_5 = var_22_3 and 390 or 420
@@ -223,7 +220,7 @@ function var_0_0.Flush(arg_22_0)
 	local var_22_6, var_22_7 = arg_22_0:FilterSpActivityBtns()
 
 	for iter_22_4, iter_22_5 in pairs(var_22_6) do
-		iter_22_5:Init(not var_22_3)
+		iter_22_5:Init(not var_22_3, var_22_2 >= 5)
 	end
 
 	for iter_22_6, iter_22_7 in pairs(var_22_7) do

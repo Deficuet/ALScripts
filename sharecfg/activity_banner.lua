@@ -283,7 +283,7 @@ pg.base.activity_banner = {}
 		pic = "temp7",
 		type = 2,
 		param = {
-			"scene skinshop",
+			"scene Cryptolalia",
 			{}
 		},
 		time = {
@@ -291,7 +291,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					7,
-					16
+					30
 				},
 				{
 					0,
@@ -302,8 +302,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					7,
-					29
+					8,
+					5
 				},
 				{
 					23,
@@ -318,17 +318,14 @@ pg.base.activity_banner = {}
 		pic = "temp8",
 		type = 2,
 		param = {
-			"scene core activity",
-			{
-				coreName = "NieRAutomataCoreActivityUI"
-			}
+			"crusing"
 		},
 		time = {
 			{
 				{
 					2026,
-					7,
-					16
+					8,
+					1
 				},
 				{
 					0,
@@ -339,8 +336,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					7,
-					30
+					8,
+					13
 				},
 				{
 					12,
@@ -353,37 +350,12 @@ pg.base.activity_banner = {}
 	pg.base.activity_banner[9] = {
 		id = 9,
 		pic = "temp9",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene charge",
 			{
 				wrap = 4
-			}
-		},
-		time = {
-			{
-				{
-					2026,
-					7,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					7,
-					29
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		}
 	}

@@ -17432,6 +17432,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_data_statistics[21063] = {
+		open_directly = 0,
+		name = "结晶：{namecode:567}",
+		display = "{namecode:567}的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+		type = 4,
+		display_effect = "",
+		id = 21063,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/21063",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_data_statistics[21101] = {
 		open_directly = 0,
 		name = "结晶化热强钢",
@@ -32916,6 +32948,59 @@ end)()
 			{
 				9,
 				2124,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[30436] = {
+		open_directly = 1,
+		name = "外观装备箱(世界巡游)",
+		display = "可以随机获得一件本次世界巡游限定外观装备",
+		type = 11,
+		display_effect = "",
+		id = 30436,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 1,
+		icon = "Props/appearanceboxshijiexunyou",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "111230",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				9,
+				2125,
+				1
+			},
+			{
+				9,
+				2126,
+				1
+			},
+			{
+				9,
+				2127,
+				1
+			},
+			{
+				9,
+				2128,
 				1
 			}
 		},
@@ -137533,8 +137618,8 @@ end)()
 (function()
 	_G.pg.base.item_data_statistics[68325] = {
 		open_directly = 1,
-		name = "换装抵扣礼包(白衣天使的全身检查)",
-		display = "购买后可获得<color=#92fc63FF>普利茅斯</color>换装<color=#92fc63FF>白衣天使的全身检查</color>的钻石抵扣券等道具",
+		name = "换装抵扣礼包(纯白天使的全身检查)",
+		display = "购买后可获得<color=#92fc63FF>普利茅斯</color>换装<color=#92fc63FF>纯白天使的全身检查</color>的钻石抵扣券等道具",
 		type = 17,
 		display_effect = "",
 		id = 68325,
@@ -137659,8 +137744,8 @@ end)()
 (function()
 	_G.pg.base.item_data_statistics[68328] = {
 		open_directly = 0,
-		name = "换装抵扣券(白衣天使的全身检查)",
-		display = "持有此道具时，购买<color=#92fc63FF>普利茅斯</color>换装<color=#92fc63FF>白衣天使的全身检查</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年7月29日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+		name = "换装抵扣券(纯白天使的全身检查)",
+		display = "持有此道具时，购买<color=#92fc63FF>普利茅斯</color>换装<color=#92fc63FF>纯白天使的全身检查</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年7月29日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
 		type = 1,
 		display_effect = "",
 		id = 68328,
@@ -137776,8 +137861,8 @@ end)()
 (function()
 	_G.pg.base.item_data_statistics[68331] = {
 		open_directly = 0,
-		name = "换装体验券(白衣天使的全身检查)",
-		display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>普利茅斯</color>换装<color=#92fc63FF>白衣天使的全身检查</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年7月29日 23:59，过期后此道具将消失</color>",
+		name = "换装体验券(纯白天使的全身检查)",
+		display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>普利茅斯</color>换装<color=#92fc63FF>纯白天使的全身检查</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年7月29日 23:59，过期后此道具将消失</color>",
 		type = 1,
 		display_effect = "",
 		id = 68331,

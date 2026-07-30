@@ -68,6 +68,10 @@ function var_0_0.OnCanPlace(arg_8_0)
 end
 
 function var_0_0.OnReset(arg_9_0, arg_9_1)
+	if not arg_9_0.furnitureSpineStateAnimUI then
+		return
+	end
+
 	if arg_9_0.furnitureSpineStateSkeletonGraphic.material ~= arg_9_0.selectedMat then
 		arg_9_0.furnitureSpineStateSkeletonGraphic.material = arg_9_0.selectedMat
 

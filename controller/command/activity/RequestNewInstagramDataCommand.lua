@@ -1,4 +1,5 @@
 local var_0_0 = class("RequestNewInstagramDataCommand", pm.SimpleCommand)
+local var_0_1 = 10
 
 function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_0 = arg_1_1:getBody()
@@ -14,15 +15,26 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 
 	local var_1_2 = var_1_1:GetNewInstagramIds()
 
-	pg.ConnectionMgr.GetInstance():Send(11705, {
-		id_list = var_1_2
-	}, 11706, function(arg_2_0)
-		for iter_2_0, iter_2_1 in ipairs(arg_2_0.ins_message_list) do
-			local var_2_0 = Instagram.New(iter_2_1)
+	if #var_1_2 >= 30 and IsUnityEditor then
+		warning("！！！！注意！！！！！一次请求太多ins数据，策划需检查配置是不是有问题！！！")
+	end
 
-			var_1_1:AddInstagram(var_2_0)
+	local var_1_3 = {}
+	local var_1_4 = math.ceil(#var_1_2 / var_0_1)
+
+	for iter_1_0 = 1, var_1_4 do
+		local var_1_5 = {}
+
+		for iter_1_1 = 1 + (iter_1_0 - 1) * var_0_1, iter_1_0 * var_0_1 do
+			table.insert(var_1_5, var_1_2[iter_1_1])
 		end
 
+		table.insert(var_1_3, function(arg_2_0)
+			arg_1_0:Send(var_1_5, arg_2_0)
+		end)
+	end
+
+	seriesAsync(var_1_3, function()
 		var_1_1:MarkNewInstagramData()
 
 		if var_1_0.callback then
@@ -30,6 +42,22 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		end
 
 		arg_1_0:sendNotification(GAME.REQ_NEW_INSTAGRAM_DATA_DONE)
+	end)
+end
+
+function var_0_0.Send(arg_4_0, arg_4_1, arg_4_2)
+	local var_4_0 = getProxy(InstagramProxy)
+
+	pg.ConnectionMgr.GetInstance():Send(11705, {
+		id_list = arg_4_1
+	}, 11706, function(arg_5_0)
+		for iter_5_0, iter_5_1 in ipairs(arg_5_0.ins_message_list) do
+			local var_5_0 = Instagram.New(iter_5_1)
+
+			var_4_0:AddInstagram(var_5_0)
+		end
+
+		arg_4_2()
 	end)
 end
 

@@ -184,10 +184,6 @@ function var_0_0.IsAllStoriesPlayed(arg_10_0)
 			if var_10_7 and var_10_7 > 0 and not var_10_3[var_10_7] then
 				return false
 			end
-
-			if var_10_8 and var_10_8 > 0 and not var_10_3[var_10_8] then
-				return false
-			end
 		end
 	end
 

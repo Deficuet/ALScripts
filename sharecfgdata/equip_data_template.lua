@@ -276435,7 +276435,7 @@ end)()
 		type = 4,
 		group = 85420,
 		restore_gold = 0,
-		important = 2,
+		important = 1,
 		prev = 0,
 		id = 85420,
 		equip_limit = 0,

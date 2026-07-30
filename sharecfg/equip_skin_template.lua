@@ -1564,6 +1564,10 @@ pg.equip_skin_template.all = {
 	2122,
 	2123,
 	2124,
+	2125,
+	2126,
+	2127,
+	2128,
 	3001,
 	3002,
 	3003,
@@ -66330,6 +66334,191 @@ end)()
 			"wash"
 		}
 	}
+	pg.base.equip_skin_template[2125] = {
+		hit_sfx = "",
+		name = "复古怀表子弹",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		orbit_rotate_ui = "",
+		themeid = 110,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_rotate = "",
+		double_char_bone = "",
+		orbit_combat_anima_change = "",
+		icon = "96849",
+		desc = "滴答滴答，时间开始流动",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		bullet_name = "zidan_fuguhuaibiao",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		orbit_ui_back = 0,
+		ship_skin_id = 0,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "zidan_fuguhuaibiao_hit",
+		id = 2125,
+		derivate_torpedo = "",
+		orbit_slg = "",
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	}
+	pg.base.equip_skin_template[2126] = {
+		hit_sfx = "",
+		name = "雾之都巴士鱼雷",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		orbit_rotate_ui = "",
+		themeid = 110,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_rotate = "",
+		double_char_bone = "",
+		orbit_combat_anima_change = "",
+		icon = "96850",
+		desc = "嘟嘟~雾之都站到了",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		bullet_name = "yulei_shuangcengbus",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		orbit_ui_back = 0,
+		ship_skin_id = 0,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "yulei_shuangcengbus_hit",
+		id = 2126,
+		derivate_torpedo = "",
+		orbit_slg = "",
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	}
+	pg.base.equip_skin_template[2127] = {
+		hit_sfx = "",
+		name = "天使街灯炮弹",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		orbit_rotate_ui = "",
+		themeid = 110,
+		orbit_combat = "",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_rotate = "",
+		double_char_bone = "",
+		orbit_combat_anima_change = "",
+		icon = "96851",
+		desc = "灯火点亮长街，夜色也亮了几分",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		bullet_name = "paodan_tianshideng",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		orbit_ui_back = 0,
+		ship_skin_id = 0,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		id = 2127,
+		derivate_torpedo = "",
+		orbit_slg = "",
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	}
+	pg.base.equip_skin_template[2128] = {
+		hit_sfx = "",
+		name = "天际漫游",
+		orbit_rotate_ui = "",
+		type = 1,
+		preview_hit_distance = 0,
+		bullet_name = "",
+		themeid = 110,
+		orbit_combat = "shebei_faguangmotianlun",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_rotate = false,
+		desc = "在摩天轮的最高处，记录雾之都的全貌吧~",
+		orbit_combat_anima_change = "",
+		icon = "96852",
+		orbit_ui = "shebei_faguangmotianlunui",
+		mirror = 0,
+		miss_sfx = "",
+		rarity = 4,
+		orbit_ui_back = 1,
+		ship_skin_id = 0,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		id = 2128,
+		derivate_torpedo = "",
+		orbit_slg = "",
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		double_char_bone = {
+			1,
+			0,
+			1
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				0.1,
+				1.14,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-14,
+				-120
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	}
 	pg.base.equip_skin_template[3001] = {
 		hit_sfx = "",
 		name = "观察者之触",
@@ -67887,6 +68076,8 @@ end)()
 			107
 		}
 	}
+end)()
+;(function()
 	pg.base.equip_skin_template[3042] = {
 		hit_sfx = "",
 		name = "幽灵机械炮弹",
@@ -68072,8 +68263,6 @@ end)()
 			24000
 		}
 	}
-end)()
-;(function()
 	pg.base.equip_skin_template[3046] = {
 		hit_sfx = "",
 		name = "随波逐流鱼雷 ",

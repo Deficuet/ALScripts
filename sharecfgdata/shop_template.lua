@@ -136347,6 +136347,72 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.shop_template[105014] = {
+		first_text = "",
+		package_sort_id = 0,
+		collaboration_skin_time = "",
+		type = 6,
+		second_text = "",
+		package_tag = "",
+		first_icon = "",
+		desc = "通行证复刻-梅换装",
+		group_limit = 0,
+		type_order = 0,
+		resource_type = 14,
+		group_buy_count = 0,
+		tag = 0,
+		limit_args2 = "",
+		time_second = 0,
+		order = 1,
+		genre = "cruise_skin",
+		akashi_pick = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		group_type = 0,
+		id = 105014,
+		resource_num = 880,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			301213
+		},
+		time = {
+			{
+				{
+					2026,
+					8,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2034,
+					10,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.shop_template[106001] = {
 		first_text = "",
 		package_sort_id = 0,
@@ -139754,6 +139820,270 @@ end)()
 				{
 					2026,
 					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2034,
+					10,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.shop_template[106053] = {
+		first_text = "",
+		package_sort_id = 0,
+		collaboration_skin_time = "",
+		type = 9,
+		second_text = "",
+		package_tag = "",
+		first_icon = "",
+		desc = "通行证复刻-兔兔导弹",
+		group_limit = 4,
+		type_order = 0,
+		resource_type = 14,
+		group_buy_count = 1,
+		tag = 0,
+		limit_args2 = "",
+		time_second = 0,
+		order = 1,
+		genre = "cruise_gearskin",
+		akashi_pick = 0,
+		group = 10,
+		num = 1,
+		discount = 0,
+		group_type = 3,
+		id = 106053,
+		resource_num = 100,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				9
+			}
+		},
+		effect_args = {
+			2053
+		},
+		time = {
+			{
+				{
+					2026,
+					8,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2034,
+					10,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.shop_template[106054] = {
+		first_text = "",
+		package_sort_id = 0,
+		collaboration_skin_time = "",
+		type = 9,
+		second_text = "",
+		package_tag = "",
+		first_icon = "",
+		desc = "通行证复刻-能量球子弹",
+		group_limit = 4,
+		type_order = 0,
+		resource_type = 14,
+		group_buy_count = 1,
+		tag = 0,
+		limit_args2 = "",
+		time_second = 0,
+		order = 1,
+		genre = "cruise_gearskin",
+		akashi_pick = 0,
+		group = 10,
+		num = 1,
+		discount = 0,
+		group_type = 3,
+		id = 106054,
+		resource_num = 100,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				9
+			}
+		},
+		effect_args = {
+			2054
+		},
+		time = {
+			{
+				{
+					2026,
+					8,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2034,
+					10,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.shop_template[106055] = {
+		first_text = "",
+		package_sort_id = 0,
+		collaboration_skin_time = "",
+		type = 9,
+		second_text = "",
+		package_tag = "",
+		first_icon = "",
+		desc = "通行证复刻-像素爱心鱼雷",
+		group_limit = 4,
+		type_order = 0,
+		resource_type = 14,
+		group_buy_count = 1,
+		tag = 0,
+		limit_args2 = "",
+		time_second = 0,
+		order = 1,
+		genre = "cruise_gearskin",
+		akashi_pick = 0,
+		group = 10,
+		num = 1,
+		discount = 0,
+		group_type = 3,
+		id = 106055,
+		resource_num = 100,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				9
+			}
+		},
+		effect_args = {
+			2055
+		},
+		time = {
+			{
+				{
+					2026,
+					8,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2034,
+					10,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.shop_template[106056] = {
+		first_text = "",
+		package_sort_id = 0,
+		collaboration_skin_time = "",
+		type = 9,
+		second_text = "",
+		package_tag = "",
+		first_icon = "",
+		desc = "通行证复刻-多变箭头",
+		group_limit = 4,
+		type_order = 0,
+		resource_type = 14,
+		group_buy_count = 1,
+		tag = 0,
+		limit_args2 = "",
+		time_second = 0,
+		order = 1,
+		genre = "cruise_gearskin",
+		akashi_pick = 0,
+		group = 10,
+		num = 1,
+		discount = 0,
+		group_type = 3,
+		id = 106056,
+		resource_num = 100,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				9
+			}
+		},
+		effect_args = {
+			2056
+		},
+		time = {
+			{
+				{
+					2026,
+					8,
 					1
 				},
 				{

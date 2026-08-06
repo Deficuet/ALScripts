@@ -30,82 +30,113 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2, arg_1_3)
 
 	arg_1_0.config = var_1_0
 	arg_1_0.actionFeedback = nil
+	arg_1_0.skillActionFeedback = nil
 end
 
-function var_0_0.IsSameShip(arg_2_0, arg_2_1)
-	return arg_2_0.shipId == arg_2_1
+function var_0_0.GetShipId(arg_2_0)
+	return arg_2_0.shipId
 end
 
-function var_0_0.SetActionFeedback(arg_3_0, arg_3_1)
-	arg_3_0.actionFeedback = arg_3_1
+function var_0_0.IsSameShip(arg_3_0, arg_3_1)
+	return arg_3_0.shipId == arg_3_1
 end
 
-function var_0_0.GetActionFeedback(arg_4_0)
-	return arg_4_0.actionFeedback
+function var_0_0.SetSkillActionFeedback(arg_4_0, arg_4_1)
+	arg_4_0.skillActionFeedback = arg_4_1
 end
 
-function var_0_0.ExistActionFeedback(arg_5_0)
-	return arg_5_0.actionFeedback
+function var_0_0.ClearSkillActionFeedback(arg_5_0)
+	arg_5_0.skillActionFeedback = nil
 end
 
-function var_0_0.ClearActionFeedback(arg_6_0)
-	arg_6_0.actionFeedback = nil
+function var_0_0.ExistSkillActionFeedback(arg_6_0)
+	return arg_6_0.skillActionFeedback ~= nil
 end
 
-local function var_0_1(arg_7_0, arg_7_1)
-	local var_7_0 = {}
+function var_0_0.SetActionFeedback(arg_7_0, arg_7_1)
+	arg_7_0.actionFeedback = arg_7_1
+end
 
-	for iter_7_0, iter_7_1 in ipairs(arg_7_1) do
-		if pg.island_action_feedback[iter_7_1].feedback_type == arg_7_0 then
-			table.insert(var_7_0, iter_7_1)
+function var_0_0.ExistActionFeedback(arg_8_0)
+	return arg_8_0.actionFeedback ~= nil
+end
+
+function var_0_0.ClearActionFeedback(arg_9_0)
+	arg_9_0.actionFeedback = nil
+end
+
+function var_0_0.GetGreetingFeedback(arg_10_0)
+	return arg_10_0.actionFeedback or arg_10_0.skillActionFeedback
+end
+
+function var_0_0.ExistGreetingActionFeedback(arg_11_0)
+	return arg_11_0:GetGreetingFeedback() ~= nil
+end
+
+function var_0_0.ClearGreetingActionFeedback(arg_12_0)
+	arg_12_0.actionFeedback = nil
+	arg_12_0.skillActionFeedback = nil
+end
+
+function var_0_0.OnlySkillActionFeedback(arg_13_0)
+	return not arg_13_0:ExistActionFeedback() and arg_13_0:ExistSkillActionFeedback()
+end
+
+local function var_0_1(arg_14_0, arg_14_1)
+	local var_14_0 = {}
+
+	for iter_14_0, iter_14_1 in ipairs(arg_14_1) do
+		if pg.island_action_feedback[iter_14_1].feedback_type == arg_14_0 then
+			table.insert(var_14_0, iter_14_1)
 		end
 	end
 
-	if #var_7_0 <= 0 then
+	if #var_14_0 <= 0 then
 		return nil
 	end
 
-	return var_7_0[math.random(1, #var_7_0)]
+	return var_14_0[math.random(1, #var_14_0)]
 end
 
-function var_0_0.GetResponeAction(arg_8_0, arg_8_1)
-	local var_8_0 = arg_8_0.actionFeedback and arg_8_0.actionFeedback == arg_8_1
-	local var_8_1 = pg.island_action[arg_8_1].feedback_type
+function var_0_0.GetResponeAction(arg_15_0, arg_15_1)
+	local var_15_0 = arg_15_0:GetGreetingFeedback()
+	local var_15_1 = var_15_0 and var_15_0 == arg_15_1
+	local var_15_2 = pg.island_action[arg_15_1].feedback_type
 
-	if var_8_0 then
-		local var_8_2 = pg.island_action_feedback.get_id_list_by_condition[1]
+	if var_15_1 then
+		local var_15_3 = pg.island_action_feedback.get_id_list_by_condition[1]
 
-		return var_0_1(var_8_1, var_8_2), true
+		return var_0_1(var_15_2, var_15_3), true
 	else
-		local var_8_3 = pg.island_action_feedback.get_id_list_by_condition[2]
+		local var_15_4 = pg.island_action_feedback.get_id_list_by_condition[2]
 
-		return var_0_1(var_8_1, var_8_3), false
+		return var_0_1(var_15_2, var_15_4), false
 	end
 end
 
-function var_0_0.GetDefaultBt(arg_9_0, arg_9_1)
-	if not arg_9_1.behaviourTree or arg_9_1.behaviourTree == "" then
+function var_0_0.GetDefaultBt(arg_16_0, arg_16_1)
+	if not arg_16_1.behaviourTree or arg_16_1.behaviourTree == "" then
 		return "Island/NodeCanvas/Npc/StrollNpc"
 	end
 
-	return arg_9_1.behaviourTree
+	return arg_16_1.behaviourTree
 end
 
-function var_0_0.GetDefaultPathId(arg_10_0, arg_10_1)
-	local var_10_0 = _.detect(arg_10_0.config.mapId, function(arg_11_0)
-		return arg_11_0[1] == arg_10_1
+function var_0_0.GetDefaultPathId(arg_17_0, arg_17_1)
+	local var_17_0 = _.detect(arg_17_0.config.mapId, function(arg_18_0)
+		return arg_18_0[1] == arg_17_1
 	end)
 
-	return var_10_0 and var_10_0[2]
+	return var_17_0 and var_17_0[2]
 end
 
-function var_0_0.SetPath(arg_12_0, arg_12_1, arg_12_2)
-	arg_12_0.position = BuildVector3(arg_12_2)
-	arg_12_0.pathId = arg_12_1
+function var_0_0.SetPath(arg_19_0, arg_19_1, arg_19_2)
+	arg_19_0.position = BuildVector3(arg_19_2)
+	arg_19_0.pathId = arg_19_1
 end
 
-function var_0_0.GetPath(arg_13_0)
-	return arg_13_0.pathId
+function var_0_0.GetPath(arg_20_0)
+	return arg_20_0.pathId
 end
 
 return var_0_0

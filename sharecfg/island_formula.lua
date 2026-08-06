@@ -160,6 +160,8 @@ pg.island_formula.all = {
 	7100306,
 	7100307,
 	7100308,
+	7100309,
+	7100310,
 	7130301,
 	7130302,
 	7140101,
@@ -7295,6 +7297,80 @@ end)()
 		second_product_display = {},
 		second_product = {}
 	}
+	pg.base.island_formula[7100309] = {
+		hitpoint = 0,
+		name = "仓库扩建IX",
+		production_limit = 1,
+		attribute = 6,
+		harvest_vfx = 0,
+		workload = 360000,
+		task_filiter = "",
+		stamina_cost = 120,
+		item_id = 0,
+		affected_vfx_offset = "",
+		unitid = "",
+		unlock_type = 37100309,
+		affected_vfx = "",
+		ship_exp = 600,
+		vfx_offset = "",
+		pt_award = 0,
+		id = 7100309,
+		collectable_vfx = 0,
+		is_condition = 0,
+		cost = {
+			{
+				1,
+				360000
+			}
+		},
+		drop_display = {},
+		commission_cost = {
+			{
+				1,
+				360000
+			}
+		},
+		commission_product = {},
+		second_product_display = {},
+		second_product = {}
+	}
+	pg.base.island_formula[7100310] = {
+		hitpoint = 0,
+		name = "仓库扩建X",
+		production_limit = 1,
+		attribute = 6,
+		harvest_vfx = 0,
+		workload = 432000,
+		task_filiter = "",
+		stamina_cost = 144,
+		item_id = 0,
+		affected_vfx_offset = "",
+		unitid = "",
+		unlock_type = 37100310,
+		affected_vfx = "",
+		ship_exp = 720,
+		vfx_offset = "",
+		pt_award = 0,
+		id = 7100310,
+		collectable_vfx = 0,
+		is_condition = 0,
+		cost = {
+			{
+				1,
+				500000
+			}
+		},
+		drop_display = {},
+		commission_cost = {
+			{
+				1,
+				500000
+			}
+		},
+		commission_product = {},
+		second_product_display = {},
+		second_product = {}
+	}
 	pg.base.island_formula[7130301] = {
 		hitpoint = 0,
 		name = "日常补给数量增加I",
@@ -9026,6 +9102,8 @@ end)()
 		second_product_display = {},
 		second_product = {}
 	}
+end)()
+;(function()
 	pg.base.island_formula[7320101] = {
 		hitpoint = 0,
 		name = "解锁苗圃管理岗位",
@@ -9116,8 +9194,6 @@ end)()
 		second_product_display = {},
 		second_product = {}
 	}
-end)()
-;(function()
 	pg.base.island_formula[7320301] = {
 		hitpoint = 0,
 		name = "扩建青芽苗圃I",
@@ -13376,6 +13452,8 @@ end)()
 		second_product_display = {},
 		second_product = {}
 	}
+end)()
+;(function()
 	pg.base.island_formula[7610403] = {
 		hitpoint = 0,
 		name = "货运效率提升III",
@@ -13466,8 +13544,6 @@ end)()
 		second_product_display = {},
 		second_product = {}
 	}
-end)()
-;(function()
 	pg.base.island_formula[7630101] = {
 		hitpoint = 0,
 		name = "木料加工岗位增加",

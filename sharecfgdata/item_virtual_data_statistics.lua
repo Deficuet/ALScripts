@@ -190868,6 +190868,33 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[66063] = {
+		display = "用于头像框活动兑换，活动结束后将会消失",
+		name = "训练点数",
+		album_config = "",
+		type = 98,
+		drop_oil_max = 0,
+		virtual_type = 0,
+		shop_id = -1,
+		replace_item = 0,
+		id = 66063,
+		link_id = 0,
+		icon = "Props/xunliandianshu_260806",
+		order = 0,
+		rarity = 2,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[66052] = {
 		display = "灯光未熄，铁门紧锁，废弃病院的深处藏着无人知晓的秘密。在怪谈与线索交错之间，找出通往出口的方向吧！\n——欢迎来到白夜山庄~",
 		name = "怪谈纪实纪念勋章",
@@ -201342,6 +201369,60 @@ end)()
 		replace_item = 0,
 		id = 170005,
 		link_id = 990020,
+		icon = "Props/170000",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[170006] = {
+		display = "闪烁着星辉的抽奖券。使用后，可在星彩奖中抽取各种珍贵奖励。 ",
+		name = "星彩券 ",
+		album_config = "",
+		type = 0,
+		drop_oil_max = 0,
+		virtual_type = 101,
+		shop_id = -1,
+		replace_item = 0,
+		id = 170006,
+		link_id = 990026,
+		icon = "Props/170000",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[170007] = {
+		display = "闪烁着星辉的抽奖券。使用后，可在星彩奖中抽取各种珍贵奖励。 ",
+		name = "星彩券 ",
+		album_config = "",
+		type = 0,
+		drop_oil_max = 0,
+		virtual_type = 101,
+		shop_id = -1,
+		replace_item = 0,
+		id = 170007,
+		link_id = 990026,
 		icon = "Props/170000",
 		order = 0,
 		rarity = 4,

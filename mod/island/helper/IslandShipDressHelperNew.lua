@@ -677,11 +677,17 @@ function var_0_0.LoadDressObjectItem(arg_29_0, arg_29_1, arg_29_2, arg_29_3)
 				local var_33_6 = pg.island_set.island_dress_follow_param.key_value_varchar
 
 				var_33_5.target = arg_29_0.roleTF
-				var_33_5.offset = var_33_0
 				var_33_5.delayTime = var_33_6[1]
 				var_33_5.lerpSpeed = var_33_6[2]
 				var_33_5.recordInterval = var_33_6[3]
-				var_33_5.rotationOffest = var_33_4
+
+				if not not var_33_0 then
+					var_33_5.offset = var_33_0
+				end
+
+				if not not var_33_4 then
+					var_33_5.rotationOffest = var_33_4
+				end
 			end
 		})
 

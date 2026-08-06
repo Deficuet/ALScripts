@@ -41,12 +41,15 @@ function var_0_0.register(arg_1_0)
 		arg_1_0:sendNotification(GAME.SUBMIT_TASK, arg_7_1.id)
 	end)
 
-	local var_1_0 = getProxy(ActivityProxy)
-	local var_1_1 = var_1_0:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH)
+	local var_1_0 = arg_1_0.contextData.activityID
+
+	assert(var_1_0, "activityID is required by BossRushVerZenkerMediator")
+
+	local var_1_1 = getProxy(ActivityProxy):getActivityById(var_1_0)
 
 	arg_1_0.viewComponent:SetActivity(var_1_1)
 
-	local var_1_2 = var_1_0:getActivityById(ActivityConst.ESCAPE_BOSS_RUSH_PT_ID)
+	local var_1_2 = getProxy(ActivityProxy):getActivityById(ActivityConst.ESCAPE_BOSS_RUSH_PT_ID)
 
 	arg_1_0.viewComponent:SetPtActivity(var_1_2)
 	arg_1_0.viewComponent:addbubbleMsgBox(function(arg_8_0)

@@ -20,13 +20,7 @@ function var_0_0.OnInit(arg_2_0)
 
 	setActive(arg_2_0.banner, false)
 
-	local var_2_0 = GetComponent(arg_2_0._tf, typeof(ItemList))
-
-	cloneTplTo(var_2_0.prefabItem[0], arg_2_0.fillImg, "Anim")
-
-	arg_2_0.fillAnim = arg_2_0.fillImg:GetChild(0)
-
-	cloneTplTo(var_2_0.prefabItem[1], arg_2_0.maxImg)
+	arg_2_0.fillAnim = arg_2_0.fillImg:Find("Anim")
 end
 
 function var_0_0.UpdateView(arg_3_0, arg_3_1, arg_3_2)

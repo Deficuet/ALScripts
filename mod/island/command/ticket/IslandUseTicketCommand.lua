@@ -29,7 +29,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			onClose = var_1_5,
 			btnList = {
 				{
-					type = var_0_0.BUTTON_TYPE.confirm,
+					type = pg.NewStyleMsgboxMgr.BUTTON_TYPE.confirm,
 					name = i18n("msgbox_text_confirm"),
 					func = var_1_5,
 					sound = SFX_CONFIRM

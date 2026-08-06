@@ -24,7 +24,8 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 
 	arg_1_0.skill = IslandShipSkill.New({
 		id = arg_1_0:getConfig("skill_id"),
-		level = arg_1_1.skill_lv or 0
+		level = arg_1_1.skill_lv or 0,
+		isUseToday = (arg_1_1.skill_use_state or 0) == 1
 	})
 	arg_1_0.maxEnerey = arg_1_0:getConfig("power")
 
@@ -717,72 +718,82 @@ function var_0_0.CanUpgradeSkill(arg_78_0)
 	end)
 end
 
-function var_0_0.GetVaildStatusByGroup(arg_80_0, arg_80_1)
-	return _.select(arg_80_0.status, function(arg_81_0)
-		return not arg_81_0:IsExpiration() and arg_81_0:GetGroup() == arg_80_1
-	end)
+function var_0_0.HasGreetingSkill(arg_80_0)
+	local var_80_0 = arg_80_0:GetSkill()
+
+	return var_80_0 and var_80_0:IsUnlock() and var_80_0:IsGreetingType()
 end
 
-function var_0_0.GetVaildStatus(arg_82_0)
+function var_0_0.ApplySkill(arg_81_0, arg_81_1)
+	arg_81_0:GetSkill():Apply(arg_81_0, arg_81_1)
+end
+
+function var_0_0.GetVaildStatusByGroup(arg_82_0, arg_82_1)
 	return _.select(arg_82_0.status, function(arg_83_0)
-		return not arg_83_0:IsExpiration()
+		return not arg_83_0:IsExpiration() and arg_83_0:GetGroup() == arg_82_1
 	end)
 end
 
-function var_0_0.GetVaildStatusByType(arg_84_0, arg_84_1)
+function var_0_0.GetVaildStatus(arg_84_0)
 	return _.select(arg_84_0.status, function(arg_85_0)
-		return not arg_85_0:IsExpiration() and arg_85_0:GetBuffType() == arg_84_1
+		return not arg_85_0:IsExpiration()
 	end)
 end
 
-function var_0_0.GetDisplayStatus(arg_86_0)
+function var_0_0.GetVaildStatusByType(arg_86_0, arg_86_1)
 	return _.select(arg_86_0.status, function(arg_87_0)
-		return not arg_87_0:IsExpiration() and arg_87_0:CanDisplay()
+		return not arg_87_0:IsExpiration() and arg_87_0:GetBuffType() == arg_86_1
 	end)
 end
 
-function var_0_0.GetFavoriteGift(arg_88_0)
-	return arg_88_0:getConfig("gift_id")
-end
-
-function var_0_0.IsFavoriteGift(arg_89_0, arg_89_1)
-	local var_89_0 = arg_89_0:GetFavoriteGift()
-
-	return _.any(var_89_0, function(arg_90_0)
-		return arg_90_0 == arg_89_1
+function var_0_0.GetDisplayStatus(arg_88_0)
+	return _.select(arg_88_0.status, function(arg_89_0)
+		return not arg_89_0:IsExpiration() and arg_89_0:CanDisplay()
 	end)
 end
 
-function var_0_0.AddStatus(arg_91_0, arg_91_1)
-	local var_91_0 = _.detect(arg_91_0.status, function(arg_92_0)
-		return arg_92_0.id == arg_91_1.id
+function var_0_0.GetFavoriteGift(arg_90_0)
+	return arg_90_0:getConfig("gift_id")
+end
+
+function var_0_0.IsFavoriteGift(arg_91_0, arg_91_1)
+	local var_91_0 = arg_91_0:GetFavoriteGift()
+
+	return _.any(var_91_0, function(arg_92_0)
+		return arg_92_0 == arg_91_1
+	end)
+end
+
+function var_0_0.AddStatus(arg_93_0, arg_93_1)
+	local var_93_0 = _.detect(arg_93_0.status, function(arg_94_0)
+		return arg_94_0.id == arg_93_1.id
 	end)
 
-	if var_91_0 then
-		table.removebyvalue(arg_91_0.status, var_91_0)
+	if var_93_0 then
+		table.removebyvalue(arg_93_0.status, var_93_0)
 	end
 
-	local var_91_1 = arg_91_0:GetVaildStatus()
-	local var_91_2 = arg_91_1:GetDuelTypeList()
-	local var_91_3 = _.detect(var_91_1, function(arg_93_0)
-		return table.contains(var_91_2, arg_93_0:GetGroup())
+	local var_93_1 = arg_93_0:GetVaildStatus()
+	local var_93_2 = arg_93_1:GetDuelTypeList()
+	local var_93_3 = _.detect(var_93_1, function(arg_95_0)
+		return table.contains(var_93_2, arg_95_0:GetGroup())
 	end)
 
-	if var_91_3 then
-		table.removebyvalue(arg_91_0.status, var_91_3)
+	if var_93_3 then
+		table.removebyvalue(arg_93_0.status, var_93_3)
 	end
 
-	local var_91_4 = arg_91_1:GetDuelIdList()
-	local var_91_5 = _.detect(var_91_1, function(arg_94_0)
-		return table.contains(var_91_4, arg_94_0.id)
+	local var_93_4 = arg_93_1:GetDuelIdList()
+	local var_93_5 = _.detect(var_93_1, function(arg_96_0)
+		return table.contains(var_93_4, arg_96_0.id)
 	end)
 
-	if var_91_5 then
-		table.removebyvalue(arg_91_0.status, var_91_5)
+	if var_93_5 then
+		table.removebyvalue(arg_93_0.status, var_93_5)
 	end
 
-	pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandShipAddBuff(arg_91_0.id, arg_91_1.id))
-	table.insert(arg_91_0.status, arg_91_1)
+	pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandShipAddBuff(arg_93_0.id, arg_93_1.id))
+	table.insert(arg_93_0.status, arg_93_1)
 end
 
 return var_0_0

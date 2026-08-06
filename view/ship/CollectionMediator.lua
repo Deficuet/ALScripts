@@ -1,7 +1,6 @@
 local var_0_0 = class("CollectionMediator", import("..base.ContextMediator"))
 
 var_0_0.EVENT_OBTAIN_SKIP = "CollectionMediator:EVENT_OBTAIN_SKIP"
-var_0_0.EVENT_OPEN_FULL_SCREEN_PIC_VIEW = "CollectionMediator:EVENT_OPEN_FULL_SCREEN_PIC_VIEW"
 
 function var_0_0.register(arg_1_0)
 	arg_1_0.collectionProxy = getProxy(CollectionProxy)
@@ -43,19 +42,10 @@ function var_0_0.register(arg_1_0)
 			data = arg_6_1
 		}))
 	end)
-	arg_1_0:bind(var_0_0.EVENT_OPEN_FULL_SCREEN_PIC_VIEW, function(arg_7_0, arg_7_1)
-		arg_1_0:addSubLayers(Context.New({
-			mediator = GalleryFullScreenMediator,
-			viewComponent = GalleryFullScreenLayer,
-			data = {
-				picID = arg_7_1
-			}
-		}))
-	end)
 	arg_1_0.viewComponent:updateCollectNotices(arg_1_0.collectionProxy:hasFinish())
 end
 
-function var_0_0.listNotificationInterests(arg_8_0)
+function var_0_0.listNotificationInterests(arg_7_0)
 	return {
 		CollectionProxy.AWARDS_UPDATE,
 		GAME.COLLECT_GET_AWARD_DONE,
@@ -65,22 +55,22 @@ function var_0_0.listNotificationInterests(arg_8_0)
 	}
 end
 
-function var_0_0.handleNotification(arg_9_0, arg_9_1)
-	local var_9_0 = arg_9_1:getName()
-	local var_9_1 = arg_9_1:getBody()
+function var_0_0.handleNotification(arg_8_0, arg_8_1)
+	local var_8_0 = arg_8_1:getName()
+	local var_8_1 = arg_8_1:getBody()
 
-	if var_9_0 == CollectionProxy.AWARDS_UPDATE then
-		arg_9_0.viewComponent:setAwards(var_9_1)
-	elseif var_9_0 == GAME.COLLECT_GET_AWARD_DONE then
-		arg_9_0.viewComponent:sortDisplay()
-		arg_9_0.viewComponent:updateCollectNotices(arg_9_0.collectionProxy:hasFinish())
-		arg_9_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_9_1.items)
-	elseif var_9_0 == PlayerProxy.UPDATED then
-		arg_9_0.viewComponent:setPlayer(var_9_1)
-	elseif var_9_0 == GAME.BEGIN_STAGE_DONE then
-		arg_9_0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, var_9_1)
-	elseif var_9_0 == var_0_0.EVENT_OBTAIN_SKIP then
-		arg_9_0.viewComponent:skipIn(var_9_1.toggle, var_9_1.displayGroupId)
+	if var_8_0 == CollectionProxy.AWARDS_UPDATE then
+		arg_8_0.viewComponent:setAwards(var_8_1)
+	elseif var_8_0 == GAME.COLLECT_GET_AWARD_DONE then
+		arg_8_0.viewComponent:sortDisplay()
+		arg_8_0.viewComponent:updateCollectNotices(arg_8_0.collectionProxy:hasFinish())
+		arg_8_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_8_1.items)
+	elseif var_8_0 == PlayerProxy.UPDATED then
+		arg_8_0.viewComponent:setPlayer(var_8_1)
+	elseif var_8_0 == GAME.BEGIN_STAGE_DONE then
+		arg_8_0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, var_8_1)
+	elseif var_8_0 == var_0_0.EVENT_OBTAIN_SKIP then
+		arg_8_0.viewComponent:skipIn(var_8_1.toggle, var_8_1.displayGroupId)
 	end
 end
 

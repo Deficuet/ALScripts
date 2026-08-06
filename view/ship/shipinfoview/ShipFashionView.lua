@@ -13,7 +13,7 @@ function var_0_0.InitFashion(arg_3_0)
 	arg_3_0.stylePanel = arg_3_0._tf
 	arg_3_0.styleScroll = arg_3_0.stylePanel:Find("style_scroll")
 	arg_3_0.styleContainer = arg_3_0.styleScroll:Find("view_port")
-	arg_3_0.styleCard = arg_3_0._tf:GetComponent(typeof(ItemList)).prefabItem[0]
+	arg_3_0.styleCard = arg_3_0.styleContainer:GetChild(0)
 	arg_3_0.hideObjToggleTF = findTF(arg_3_0._tf, "btns/hideObjToggle")
 
 	setActive(arg_3_0.hideObjToggleTF, false)

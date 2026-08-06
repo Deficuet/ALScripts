@@ -355,7 +355,7 @@ function var_0_0.initSelectSkinPanel(arg_26_0)
 
 	arg_26_0.skinScroll = arg_26_0.skinPanel:Find("select_skin/style_scroll")
 	arg_26_0.skinContainer = arg_26_0.skinScroll:Find("view_port")
-	arg_26_0.skinCard = arg_26_0._tf:GetComponent(typeof(ItemList)).prefabItem[0]
+	arg_26_0.skinCard = arg_26_0.skinContainer:GetChild(0)
 
 	setActive(arg_26_0.skinCard, false)
 	setActive(arg_26_0.skinPanel, false)

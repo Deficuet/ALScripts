@@ -29,6 +29,8 @@ function var_0_0.initData(arg_6_0)
 	arg_6_0.resLoader = AutoLoader.New()
 	arg_6_0.curPicInfo = arg_6_0.contextData.curPicInfo
 	arg_6_0.picInfoList = arg_6_0.contextData.picInfoList
+	arg_6_0.isShowLikeBtn = arg_6_0.contextData.isShowLikeBtn
+	arg_6_0.onPicSwitch = arg_6_0.contextData.onPicSwitch
 	arg_6_0.curIndex = arg_6_0:getPicInfoIndex(arg_6_0.curPicInfo)
 	arg_6_0.loadingPicProxy = getProxy(LoadingPicProxy)
 
@@ -50,6 +52,18 @@ function var_0_0.addListener(arg_7_0)
 	end, SFX_PANEL)
 	onButton(arg_7_0, arg_7_0.mangaRemoveLoadingBtn, function()
 		arg_7_0:removeLoadingPic(arg_7_0.curPicInfo)
+	end, SFX_PANEL)
+	onButton(arg_7_0, arg_7_0.galleryAddLikeBtn, function()
+		arg_7_0:addLike(arg_7_0.curPicInfo)
+	end, SFX_PANEL)
+	onButton(arg_7_0, arg_7_0.galleryRemoveLikeBtn, function()
+		arg_7_0:removeLike(arg_7_0.curPicInfo)
+	end, SFX_PANEL)
+	onButton(arg_7_0, arg_7_0.mangaAddLikeBtn, function()
+		arg_7_0:addLike(arg_7_0.curPicInfo)
+	end, SFX_PANEL)
+	onButton(arg_7_0, arg_7_0.mangaRemoveLikeBtn, function()
+		arg_7_0:removeLike(arg_7_0.curPicInfo)
 	end, SFX_PANEL)
 	onButton(arg_7_0, arg_7_0.galleryPicImg, function()
 		arg_7_0:openFullScreenLayer()
@@ -81,158 +95,210 @@ function var_0_0.addListener(arg_7_0)
 	end, SFX_PANEL)
 end
 
-function var_0_0.updatePanel(arg_23_0)
-	if arg_23_0.curPicInfo.type == AppreciatePicConst.TYPE_GALLERY then
-		arg_23_0:updateGalleryPanel()
-		arg_23_0:setImage(arg_23_0.galleryPicImg, arg_23_0.curPicInfo)
-		setActive(arg_23_0.galleryPanel, true)
-		setActive(arg_23_0.mangaPanel, false)
+function var_0_0.updatePanel(arg_27_0)
+	if arg_27_0.curPicInfo.type == AppreciatePicConst.TYPE_GALLERY then
+		arg_27_0:updateGalleryPanel()
+		arg_27_0:setImage(arg_27_0.galleryPicImg, arg_27_0.curPicInfo)
+		setActive(arg_27_0.galleryPanel, true)
+		setActive(arg_27_0.mangaPanel, false)
 	else
-		arg_23_0:updateMangaPanel()
-		arg_23_0:setImage(arg_23_0.mangaPicImg, arg_23_0.curPicInfo)
-		setActive(arg_23_0.galleryPanel, false)
-		setActive(arg_23_0.mangaPanel, true)
+		arg_27_0:updateMangaPanel()
+		arg_27_0:setImage(arg_27_0.mangaPicImg, arg_27_0.curPicInfo)
+		setActive(arg_27_0.galleryPanel, false)
+		setActive(arg_27_0.mangaPanel, true)
 	end
 end
 
-function var_0_0.updateGalleryPanel(arg_24_0)
-	arg_24_0:setImage(arg_24_0.galleryPicBG, arg_24_0.curPicInfo)
+function var_0_0.updateGalleryPanel(arg_28_0)
+	arg_28_0:setImage(arg_28_0.galleryPicBG, arg_28_0.curPicInfo)
 
-	local var_24_0 = arg_24_0:isPicInfoUsed(arg_24_0.curPicInfo)
+	local var_28_0 = arg_28_0:isPicInfoUsed(arg_28_0.curPicInfo)
 
-	setActive(arg_24_0.galleryAddLoadingBtn, not var_24_0)
-	setActive(arg_24_0.galleryRemoveLoadingBtn, var_24_0)
+	setActive(arg_28_0.galleryAddLoadingBtn, not var_28_0)
+	setActive(arg_28_0.galleryRemoveLoadingBtn, var_28_0)
+
+	local var_28_1 = arg_28_0:isPicInfoLiked(arg_28_0.curPicInfo)
+	local var_28_2 = arg_28_0.isShowLikeBtn
+
+	setActive(arg_28_0.galleryLikeBtn, var_28_2)
+	setActive(arg_28_0.galleryAddLikeBtn, not var_28_1)
+	setActive(arg_28_0.galleryRemoveLikeBtn, var_28_1)
 end
 
-function var_0_0.updateMangaPanel(arg_25_0)
-	arg_25_0:setImage(arg_25_0.mangaPicBG, arg_25_0.curPicInfo)
+function var_0_0.updateMangaPanel(arg_29_0)
+	arg_29_0:setImage(arg_29_0.mangaPicBG, arg_29_0.curPicInfo)
 
-	local var_25_0 = arg_25_0:isPicInfoUsed(arg_25_0.curPicInfo)
+	local var_29_0 = arg_29_0:isPicInfoUsed(arg_29_0.curPicInfo)
 
-	setActive(arg_25_0.mangaAddLoadingBtn, not var_25_0)
-	setActive(arg_25_0.mangaRemoveLoadingBtn, var_25_0)
+	setActive(arg_29_0.mangaAddLoadingBtn, not var_29_0)
+	setActive(arg_29_0.mangaRemoveLoadingBtn, var_29_0)
+
+	local var_29_1 = arg_29_0:isPicInfoLiked(arg_29_0.curPicInfo)
+	local var_29_2 = arg_29_0.isShowLikeBtn
+
+	setActive(arg_29_0.mangaLikeBtn, var_29_2)
+	setActive(arg_29_0.mangaAddLikeBtn, not var_29_1)
+	setActive(arg_29_0.mangaRemoveLikeBtn, var_29_1)
 end
 
-function var_0_0.setImage(arg_26_0, arg_26_1, arg_26_2)
-	local var_26_0 = arg_26_2.path
-	local var_26_1 = GetFileName(var_26_0)
-	local var_26_2 = GetComponent(arg_26_1, typeof(Image)).sprite
+function var_0_0.setImage(arg_30_0, arg_30_1, arg_30_2)
+	local var_30_0 = arg_30_2.path
+	local var_30_1 = GetFileName(var_30_0)
+	local var_30_2 = GetComponent(arg_30_1, typeof(Image)).sprite
 
-	if not IsNil(var_26_2) then
-		local var_26_3 = var_26_2.name
+	if not IsNil(var_30_2) then
+		local var_30_3 = var_30_2.name
 
-		if string.lower(var_26_3) ~= string.lower(var_26_1) then
-			arg_26_0.resLoader:LoadSprite(var_26_0, var_26_1, arg_26_1, false)
+		if string.lower(var_30_3) ~= string.lower(var_30_1) then
+			arg_30_0.resLoader:LoadSprite(var_30_0, var_30_1, arg_30_1, false)
 		end
 	else
-		arg_26_0.resLoader:LoadSprite(var_26_0, var_26_1, arg_26_1, false)
+		arg_30_0.resLoader:LoadSprite(var_30_0, var_30_1, arg_30_1, false)
 	end
 
-	setImageAlpha(arg_26_1, 1)
+	setImageAlpha(arg_30_1, 1)
 end
 
-function var_0_0.openFullScreenLayer(arg_27_0)
+function var_0_0.openFullScreenLayer(arg_31_0)
 	LoadContextCommand.LoadLayerOnTopContext(Context.New({
 		mediator = AppreciatePicFullScreenMediator,
 		viewComponent = AppreciatePicFullScreenLayer,
 		data = {
-			curPicInfo = arg_27_0.curPicInfo
+			curPicInfo = arg_31_0.curPicInfo
 		}
 	}))
 end
 
-function var_0_0.switchToPrePic(arg_28_0)
-	if arg_28_0.curIndex > 1 then
-		arg_28_0.curIndex = arg_28_0.curIndex - 1
-		arg_28_0.curPicInfo = arg_28_0.picInfoList[arg_28_0.curIndex]
+function var_0_0.switchToPrePic(arg_32_0)
+	if arg_32_0.curIndex > 1 then
+		arg_32_0.curIndex = arg_32_0.curIndex - 1
+		arg_32_0.curPicInfo = arg_32_0.picInfoList[arg_32_0.curIndex]
 
-		arg_28_0:updatePanel()
+		arg_32_0:updatePanel()
+		existCall(arg_32_0.onPicSwitch, arg_32_0.curPicInfo)
 	end
 end
 
-function var_0_0.switchToNextPic(arg_29_0)
-	if arg_29_0.curIndex < #arg_29_0.picInfoList then
-		arg_29_0.curIndex = arg_29_0.curIndex + 1
-		arg_29_0.curPicInfo = arg_29_0.picInfoList[arg_29_0.curIndex]
+function var_0_0.switchToNextPic(arg_33_0)
+	if arg_33_0.curIndex < #arg_33_0.picInfoList then
+		arg_33_0.curIndex = arg_33_0.curIndex + 1
+		arg_33_0.curPicInfo = arg_33_0.picInfoList[arg_33_0.curIndex]
 
-		arg_29_0:updatePanel()
+		arg_33_0:updatePanel()
+		existCall(arg_33_0.onPicSwitch, arg_33_0.curPicInfo)
 	end
 end
 
-function var_0_0.isPicInfoUsed(arg_30_0, arg_30_1)
-	return AppreciatePicConst.isUsedPicInfo(arg_30_1)
+function var_0_0.isPicInfoUsed(arg_34_0, arg_34_1)
+	return AppreciatePicConst.isUsedPicInfo(arg_34_1)
 end
 
-function var_0_0.removeLoadingPic(arg_31_0, arg_31_1)
-	local var_31_0 = {}
+function var_0_0.removeLoadingPic(arg_35_0, arg_35_1)
+	local var_35_0 = {}
 
-	if arg_31_1.type == AppreciatePicConst.TYPE_GALLERY then
-		local var_31_1 = arg_31_0.loadingPicProxy:getGalleryPicIDList()
+	if arg_35_1.type == AppreciatePicConst.TYPE_GALLERY then
+		local var_35_1 = arg_35_0.loadingPicProxy:getGalleryPicIDList()
 
-		for iter_31_0, iter_31_1 in ipairs(var_31_1) do
-			if iter_31_1 == arg_31_1.id then
-				table.remove(var_31_1, iter_31_0)
+		for iter_35_0, iter_35_1 in ipairs(var_35_1) do
+			if iter_35_1 == arg_35_1.id then
+				table.remove(var_35_1, iter_35_0)
 
 				break
 			end
 		end
 
-		var_31_0.galleryPicIDList = var_31_1
-	elseif arg_31_1.type == AppreciatePicConst.TYPE_MANGA then
-		local var_31_2 = arg_31_0.loadingPicProxy:getMangaPicIDList()
+		var_35_0.galleryPicIDList = var_35_1
+	elseif arg_35_1.type == AppreciatePicConst.TYPE_MANGA then
+		local var_35_2 = arg_35_0.loadingPicProxy:getMangaPicIDList()
 
-		for iter_31_2, iter_31_3 in ipairs(var_31_2) do
-			if iter_31_3 == arg_31_1.id then
-				table.remove(var_31_2, iter_31_2)
+		for iter_35_2, iter_35_3 in ipairs(var_35_2) do
+			if iter_35_3 == arg_35_1.id then
+				table.remove(var_35_2, iter_35_2)
 
 				break
 			end
 		end
 
-		var_31_0.mangaPicIDList = var_31_2
+		var_35_0.mangaPicIDList = var_35_2
 	end
 
-	pg.m02:sendNotification(GAME.UPDATE_LOADING_PIC, var_31_0)
+	pg.m02:sendNotification(GAME.UPDATE_LOADING_PIC, var_35_0)
 end
 
-function var_0_0.addLoadingPic(arg_32_0, arg_32_1)
-	if arg_32_0:isPicInfoUsed(arg_32_1) then
-		warning("already used.", arg_32_1.type, arg_32_1.id)
+function var_0_0.addLoadingPic(arg_36_0, arg_36_1)
+	if arg_36_0:isPicInfoUsed(arg_36_1) then
+		warning("already used.", arg_36_1.type, arg_36_1.id)
 
 		return
 	end
 
-	local var_32_0 = {}
+	local var_36_0 = {}
 
-	if arg_32_1.type == AppreciatePicConst.TYPE_GALLERY then
-		local var_32_1 = arg_32_0.loadingPicProxy:getGalleryPicIDList()
+	if arg_36_1.type == AppreciatePicConst.TYPE_GALLERY then
+		local var_36_1 = arg_36_0.loadingPicProxy:getGalleryPicIDList()
 
-		table.insert(var_32_1, arg_32_1.id)
+		table.insert(var_36_1, arg_36_1.id)
 
-		var_32_0.galleryPicIDList = var_32_1
-	elseif arg_32_1.type == AppreciatePicConst.TYPE_MANGA then
-		local var_32_2 = arg_32_0.loadingPicProxy:getMangaPicIDList()
+		var_36_0.galleryPicIDList = var_36_1
+	elseif arg_36_1.type == AppreciatePicConst.TYPE_MANGA then
+		local var_36_2 = arg_36_0.loadingPicProxy:getMangaPicIDList()
 
-		table.insert(var_32_2, arg_32_1.id)
+		table.insert(var_36_2, arg_36_1.id)
 
-		var_32_0.mangaPicIDList = var_32_2
+		var_36_0.mangaPicIDList = var_36_2
 	end
 
-	pg.m02:sendNotification(GAME.UPDATE_LOADING_PIC, var_32_0)
+	pg.m02:sendNotification(GAME.UPDATE_LOADING_PIC, var_36_0)
 end
 
-function var_0_0.addOpenList(arg_33_0)
-	if arg_33_0.curPicInfo.type == AppreciatePicConst.TYPE_GALLERY then
-		getProxy(LoadingPicProxy):addGalleryNewPicOpenList(arg_33_0.curPicInfo.id)
-	elseif arg_33_0.curPicInfo.type == AppreciatePicConst.TYPE_MANGA then
-		getProxy(LoadingPicProxy):addMangaNewPicOpenList(arg_33_0.curPicInfo.id)
+function var_0_0.isPicInfoLiked(arg_37_0, arg_37_1)
+	return AppreciatePicConst.isPicInfoLiked(arg_37_1)
+end
+
+function var_0_0.addLike(arg_38_0, arg_38_1)
+	local var_38_0 = {}
+
+	if arg_38_1.type == AppreciatePicConst.TYPE_GALLERY then
+		var_38_0.picID = arg_38_1.id
+		var_38_0.isAdd = 0
+
+		pg.m02:sendNotification(GAME.APPRECIATE_GALLERY_LIKE, var_38_0)
+	elseif arg_38_1.type == AppreciatePicConst.TYPE_MANGA then
+		var_38_0.mangaID = arg_38_1.id
+		var_38_0.action = 0
+
+		pg.m02:sendNotification(GAME.APPRECIATE_MANGA_LIKE, var_38_0)
 	end
 end
 
-function var_0_0.getPicInfoIndex(arg_34_0, arg_34_1)
-	for iter_34_0, iter_34_1 in ipairs(arg_34_0.picInfoList) do
-		if iter_34_1.id == arg_34_1.id and iter_34_1.type == arg_34_1.type then
-			return iter_34_0
+function var_0_0.removeLike(arg_39_0, arg_39_1)
+	local var_39_0 = {}
+
+	if arg_39_1.type == AppreciatePicConst.TYPE_GALLERY then
+		var_39_0.picID = arg_39_1.id
+		var_39_0.isAdd = 1
+
+		pg.m02:sendNotification(GAME.APPRECIATE_GALLERY_LIKE, var_39_0)
+	elseif arg_39_1.type == AppreciatePicConst.TYPE_MANGA then
+		var_39_0.mangaID = arg_39_1.id
+		var_39_0.action = 1
+
+		pg.m02:sendNotification(GAME.APPRECIATE_MANGA_LIKE, var_39_0)
+	end
+end
+
+function var_0_0.addOpenList(arg_40_0)
+	if arg_40_0.curPicInfo.type == AppreciatePicConst.TYPE_GALLERY then
+		getProxy(LoadingPicProxy):addGalleryNewPicOpenList(arg_40_0.curPicInfo.id)
+	elseif arg_40_0.curPicInfo.type == AppreciatePicConst.TYPE_MANGA then
+		getProxy(LoadingPicProxy):addMangaNewPicOpenList(arg_40_0.curPicInfo.id)
+	end
+end
+
+function var_0_0.getPicInfoIndex(arg_41_0, arg_41_1)
+	for iter_41_0, iter_41_1 in ipairs(arg_41_0.picInfoList) do
+		if iter_41_1.id == arg_41_1.id and iter_41_1.type == arg_41_1.type then
+			return iter_41_0
 		end
 	end
 

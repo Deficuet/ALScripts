@@ -55,7 +55,7 @@ function var_0_0.init(arg_2_0)
 	arg_2_0.detailToggle = arg_2_0.blurLayer:Find("bottom/toggle_list/detail_toggle")
 	arg_2_0.formationToggle = arg_2_0.blurLayer:Find("bottom/toggle_list/formation_toggle")
 	arg_2_0.attrFrame = arg_2_0.blurLayer:Find("attr_frame")
-	arg_2_0.cardTpl = arg_2_0._tf:GetComponent(typeof(ItemList)).prefabItem[0]
+	arg_2_0.cardTpl = arg_2_0._tf:Find("RectShipCardTpl")
 	arg_2_0.cards = {}
 	arg_2_0.cards[TeamType.Main] = {}
 	arg_2_0.cards[TeamType.Vanguard] = {}

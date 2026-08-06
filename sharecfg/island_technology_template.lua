@@ -35,6 +35,8 @@ pg.island_technology_template.all = {
 	110308,
 	100307,
 	100308,
+	100309,
+	100310,
 	110309,
 	120005,
 	110310,
@@ -239,6 +241,8 @@ pg.island_technology_template.get_id_list_by_tech_belong = {
 		110308,
 		100307,
 		100308,
+		100309,
+		100310,
 		110309,
 		120005,
 		110310,
@@ -1438,6 +1442,66 @@ pg.base.island_technology_template = {}
 		axis = {
 			24,
 			1
+		}
+	}
+	pg.base.island_technology_template[100309] = {
+		tech_desc = "仓库容量增加，可以放下更多东西啦！",
+		tech_chara = 1,
+		tech_level = "9",
+		complete_character_id = "",
+		tech_icon = "tech_100301",
+		auto_finish = 1,
+		tech_name = "仓库扩建IX",
+		complete_tips = "可前往<color=#1E8FFE>管理界面</color>点击<color=#1E8FFE>仓库</color>查看",
+		formula_id = 7100309,
+		complete_title = "可前往<color=#1E8FFE>管理界面</color>点击<color=#1E8FFE>仓库</color>查看",
+		tech_belong = 1,
+		id = 100309,
+		island_level = 42,
+		complete_map_id = 0,
+		sys_unlock = {
+			{
+				3,
+				100308
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		axis = {
+			28,
+			9.5
+		}
+	}
+	pg.base.island_technology_template[100310] = {
+		tech_desc = "仓库容量增加，可以放下更多东西啦！",
+		tech_chara = 1,
+		tech_level = "10",
+		complete_character_id = "",
+		tech_icon = "tech_100301",
+		auto_finish = 1,
+		tech_name = "仓库扩建X",
+		complete_tips = "可前往<color=#1E8FFE>管理界面</color>点击<color=#1E8FFE>仓库</color>查看",
+		formula_id = 7100310,
+		complete_title = "可前往<color=#1E8FFE>管理界面</color>点击<color=#1E8FFE>仓库</color>查看",
+		tech_belong = 1,
+		id = 100310,
+		island_level = 52,
+		complete_map_id = 0,
+		sys_unlock = {
+			{
+				3,
+				100309
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		axis = {
+			28,
+			10
 		}
 	}
 	pg.base.island_technology_template[110309] = {
@@ -3544,6 +3608,8 @@ pg.base.island_technology_template = {}
 			4.5
 		}
 	}
+end)()
+;(function()
 	pg.base.island_technology_template[430302] = {
 		tech_desc = "增加悠然牧场里哞哞牛的数量，牛你又双叒叕加。",
 		tech_chara = 1,
@@ -3608,8 +3674,6 @@ pg.base.island_technology_template = {}
 			6
 		}
 	}
-end)()
-;(function()
 	pg.base.island_technology_template[440302] = {
 		tech_desc = "增加悠然牧场里咩咩羊的数量，羊你又双叒叕加。",
 		tech_chara = 1,
@@ -6831,6 +6895,8 @@ end)()
 			9
 		}
 	}
+end)()
+;(function()
 	pg.base.island_technology_template[660206] = {
 		tech_desc = "能够制作出用于包扎伤口的无菌绷带。",
 		tech_chara = 1,
@@ -6895,8 +6961,6 @@ end)()
 			9
 		}
 	}
-end)()
-;(function()
 	pg.base.island_technology_template[650203] = {
 		tech_desc = "能够制作出净化水质的过滤装置核心。",
 		tech_chara = 1,

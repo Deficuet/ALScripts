@@ -5,18 +5,7 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	local var_2_0 = arg_2_0._tf:GetComponent(typeof(ItemList)).prefabItem:ToTable()
-
-	for iter_2_0, iter_2_1 in ipairs({
-		"rtTitle",
-		"btnClose",
-		"rtToggles",
-		"rtToggleTpl",
-		"rtCountWord",
-		"btnConfirm"
-	}) do
-		arg_2_0[iter_2_1] = var_2_0[iter_2_0].transform
-	end
+	return
 end
 
 function var_0_0.OnInit(arg_3_0)

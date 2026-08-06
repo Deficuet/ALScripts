@@ -38,6 +38,8 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.skillTF = arg_2_0.infoPanel:Find("skill")
 	arg_2_0.energyTFInfo = arg_2_0.infoPanel:Find("selectShipEnergyInfo")
 	arg_2_0.energyTF = arg_2_0.energyTFInfo:Find("energy")
+	arg_2_0.energyCostSilderTF = arg_2_0.energyTF:Find("energy_bar_cost")
+	arg_2_0.giftBtn = arg_2_0.energyTFInfo:Find("gift")
 	arg_2_0.statusTF = arg_2_0.infoPanel:Find("status")
 	arg_2_0.sureBtn = arg_2_0._tf:Find("sure")
 
@@ -86,60 +88,67 @@ end
 
 function var_0_0.AddListeners(arg_4_0)
 	arg_4_0:AddListener(GAME.ISLAND_FOLLOWER_OP_DONE, arg_4_0.OnFollowerOp)
+	arg_4_0:AddListener(GAME.ISLAND_GIVE_GIFT_DONE, arg_4_0.OnUseItem)
 end
 
 function var_0_0.RemoveListeners(arg_5_0)
 	arg_5_0:RemoveListener(GAME.ISLAND_FOLLOWER_OP_DONE, arg_5_0.OnFollowerOp)
+	arg_5_0:RemoveListener(GAME.ISLAND_GIVE_GIFT_DONE, arg_5_0.OnUseItem)
 end
 
-function var_0_0.OnFollowerOp(arg_6_0, arg_6_1)
-	for iter_6_0, iter_6_1 in pairs(arg_6_0.cards) do
-		if iter_6_1.id == arg_6_1 then
-			iter_6_1:UpdateFollowMask()
+function var_0_0.OnUseItem(arg_6_0)
+	arg_6_0:ClosePage(IslandShipStatusBox)
+	arg_6_0:FlushInfo()
+end
+
+function var_0_0.OnFollowerOp(arg_7_0, arg_7_1)
+	for iter_7_0, iter_7_1 in pairs(arg_7_0.cards) do
+		if iter_7_1.id == arg_7_1 then
+			iter_7_1:UpdateFollowMask()
 		end
 	end
 end
 
-function var_0_0.OnInit(arg_7_0)
-	onButton(arg_7_0, arg_7_0.backBtn, function()
-		arg_7_0:Hide()
-		existCall(arg_7_0.cancelFunc)
+function var_0_0.OnInit(arg_8_0)
+	onButton(arg_8_0, arg_8_0.backBtn, function()
+		arg_8_0:Hide()
+		existCall(arg_8_0.cancelFunc)
 	end, SFX_PANEL)
-	onButton(arg_7_0, arg_7_0.addStutasBtn, function()
-		if isActive(arg_7_0.addStutasInfoPanel) then
-			setActive(arg_7_0.addStutasInfoPanel, false)
+	onButton(arg_8_0, arg_8_0.addStutasBtn, function()
+		if isActive(arg_8_0.addStutasInfoPanel) then
+			setActive(arg_8_0.addStutasInfoPanel, false)
 		else
-			setActive(arg_7_0.addStutasInfoPanel, true)
-			arg_7_0.buffInfoUIList:align(#arg_7_0.buffInfos)
-			setActive(arg_7_0.buffInfoEmptyTF, #arg_7_0.buffInfos == 0)
+			setActive(arg_8_0.addStutasInfoPanel, true)
+			arg_8_0.buffInfoUIList:align(#arg_8_0.buffInfos)
+			setActive(arg_8_0.buffInfoEmptyTF, #arg_8_0.buffInfos == 0)
 		end
 	end, SFX_PANEL)
-	onButton(arg_7_0, arg_7_0.sureBtn, function()
-		local var_10_0 = getProxy(IslandProxy):GetIsland():GetFollowerAgency()
-		local var_10_1 = {}
+	onButton(arg_8_0, arg_8_0.sureBtn, function()
+		local var_11_0 = getProxy(IslandProxy):GetIsland():GetFollowerAgency()
+		local var_11_1 = {}
 
-		for iter_10_0, iter_10_1 in ipairs(arg_7_0.selectedIds) do
-			if var_10_0:Following(iter_10_1) then
-				table.insert(var_10_1, iter_10_1)
+		for iter_11_0, iter_11_1 in ipairs(arg_8_0.selectedIds) do
+			if var_11_0:Following(iter_11_1) then
+				table.insert(var_11_1, iter_11_1)
 			end
 		end
 
-		if #var_10_1 > 0 then
-			arg_7_0:ShowMsgBox({
+		if #var_11_1 > 0 then
+			arg_8_0:ShowMsgBox({
 				type = IslandMsgBox.TYPE_COMMON,
 				content = i18n("island_cancel_follow_tip"),
 				onYes = function()
-					local var_11_0 = {}
+					local var_12_0 = {}
 
-					for iter_11_0, iter_11_1 in ipairs(var_10_1) do
-						table.insert(var_11_0, function(arg_12_0)
-							arg_7_0:emit(IslandMediator.DEL_FOLLOWER, iter_11_1, arg_12_0)
+					for iter_12_0, iter_12_1 in ipairs(var_11_1) do
+						table.insert(var_12_0, function(arg_13_0)
+							arg_8_0:emit(IslandMediator.DEL_FOLLOWER, iter_12_1, arg_13_0)
 						end)
 					end
 
-					seriesAsync(var_11_0, function()
-						arg_7_0:Hide()
-						existCall(arg_7_0.confirmFunc, arg_7_0.selectedIds)
+					seriesAsync(var_12_0, function()
+						arg_8_0:Hide()
+						existCall(arg_8_0.confirmFunc, arg_8_0.selectedIds)
 					end)
 				end
 			})
@@ -147,578 +156,636 @@ function var_0_0.OnInit(arg_7_0)
 			return
 		end
 
-		arg_7_0:Hide()
-		existCall(arg_7_0.confirmFunc, arg_7_0.selectedIds)
+		arg_8_0:Hide()
+		existCall(arg_8_0.confirmFunc, arg_8_0.selectedIds)
 	end, SFX_PANEL)
-	onToggle(arg_7_0, arg_7_0.indexBtn, function(arg_14_0)
-		if arg_14_0 then
-			arg_7_0:emit(IslandMediator.OPEN_SHIP_INDEX, {
-				OnFilter = function(arg_15_0)
-					arg_7_0:OnFilter(arg_15_0)
+	onToggle(arg_8_0, arg_8_0.indexBtn, function(arg_15_0)
+		if arg_15_0 then
+			arg_8_0:emit(IslandMediator.OPEN_SHIP_INDEX, {
+				OnFilter = function(arg_16_0)
+					arg_8_0:OnFilter(arg_16_0)
 				end,
-				defaultIndex = arg_7_0.sortData,
-				needWorkSpeed = arg_7_0.needWorkSpeed
+				defaultIndex = arg_8_0.sortData,
+				needWorkSpeed = arg_8_0.needWorkSpeed
 			})
 		end
 	end, SFX_PANEL)
-	onButton(arg_7_0, arg_7_0.orderBtn, function()
-		arg_7_0.selectAsc = not arg_7_0.selectAsc
+	onButton(arg_8_0, arg_8_0.orderBtn, function()
+		arg_8_0.selectAsc = not arg_8_0.selectAsc
 
-		arg_7_0:UpdateSortBtn()
-		arg_7_0:FlushShips()
+		arg_8_0:UpdateSortBtn()
+		arg_8_0:FlushShips()
 	end, SFX_PANEL)
-	onButton(arg_7_0, arg_7_0.benefitTipBtn, function()
-		arg_7_0:ShowMsgBox({
+	onButton(arg_8_0, arg_8_0.benefitTipBtn, function()
+		arg_8_0:ShowMsgBox({
 			hideNo = true,
 			type = IslandMsgBox.TYPE_COMMON,
 			content = i18n("island_manage_help_tip")
 		})
 	end, SFX_PANEL)
-	onButton(arg_7_0, arg_7_0._tf:Find("top/title/help"), function()
+	onButton(arg_8_0, arg_8_0._tf:Find("top/title/help"), function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.island_help_commission.tip
 		})
 	end, SFX_PANEL)
-	arg_7_0.subAttrUIList:make(function(arg_19_0, arg_19_1, arg_19_2)
-		if arg_19_0 == UIItemList.EventInit then
-			local var_19_0 = IslandShipAttr.ATTRS[arg_19_1 + 1]
+	onButton(arg_8_0, arg_8_0.giftBtn, function()
+		if not arg_8_0.showId or arg_8_0.showId == IslandCharacterAgency.NPC_CONFIG_ID then
+			return
+		end
 
-			arg_19_2.name = var_19_0
+		arg_8_0:OpenPage(IslandShipStatusBox, arg_8_0.showId)
+	end, SFX_PANEL)
+	arg_8_0.subAttrUIList:make(function(arg_21_0, arg_21_1, arg_21_2)
+		if arg_21_0 == UIItemList.EventInit then
+			local var_21_0 = IslandShipAttr.ATTRS[arg_21_1 + 1]
 
-			setText(arg_19_2:Find("Text"), IslandShipAttr.ToChinese(var_19_0))
-		elseif arg_19_0 == UIItemList.EventUpdate then
-			setFillAmount(arg_19_2:Find("slider/bar"), arg_7_0:GetShipsAttrProgress(IslandShipAttr.ATTRS[arg_19_1 + 1]))
+			arg_21_2.name = var_21_0
+
+			setText(arg_21_2:Find("Text"), IslandShipAttr.ToChinese(var_21_0))
+		elseif arg_21_0 == UIItemList.EventUpdate then
+			setFillAmount(arg_21_2:Find("slider/bar"), arg_8_0:GetShipsAttrProgress(IslandShipAttr.ATTRS[arg_21_1 + 1]))
 		end
 	end)
 
-	function arg_7_0.shipRectCom.onInitItem(arg_20_0)
-		arg_7_0:OnInitShip(arg_20_0)
+	function arg_8_0.shipRectCom.onInitItem(arg_22_0)
+		arg_8_0:OnInitShip(arg_22_0)
 	end
 
-	function arg_7_0.shipRectCom.onUpdateItem(arg_21_0, arg_21_1)
-		arg_7_0:OnUpdateShip(arg_21_0, arg_21_1)
+	function arg_8_0.shipRectCom.onUpdateItem(arg_23_0, arg_23_1)
+		arg_8_0:OnUpdateShip(arg_23_0, arg_23_1)
 	end
 
-	arg_7_0.cards = {}
-	arg_7_0.selectAsc = true
-	arg_7_0.sortData = {
+	arg_8_0.cards = {}
+	arg_8_0.selectAsc = true
+	arg_8_0.sortData = {
 		sortIndex = IslandShipIndexLayer.SortLevel,
 		campIndex = ShipIndexConst.CampAll,
 		rarityIndex = ShipIndexConst.RarityAll,
 		extraIndex = IslandShipIndexLayer.ExtraALL
 	}
 
-	arg_7_0:UpdateSortBtn()
+	arg_8_0:UpdateSortBtn()
 
-	arg_7_0.timeMgr = pg.TimeMgr.GetInstance()
+	arg_8_0.timeMgr = pg.TimeMgr.GetInstance()
 end
 
-function var_0_0.OnFilter(arg_22_0, arg_22_1)
-	arg_22_0.sortData = arg_22_1
+function var_0_0.OnFilter(arg_24_0, arg_24_1)
+	arg_24_0.sortData = arg_24_1
 
-	arg_22_0:UpdateSortBtn()
-	arg_22_0:FlushShips()
+	arg_24_0:UpdateSortBtn()
+	arg_24_0:FlushShips()
 end
 
-function var_0_0.UpdateSortBtn(arg_23_0)
-	arg_23_0.orderIco.localScale = arg_23_0.selectAsc and Vector3(1, 1, 1) or Vector3(1, -1, 1)
+function var_0_0.UpdateSortBtn(arg_25_0)
+	arg_25_0.orderIco.localScale = arg_25_0.selectAsc and Vector3(1, 1, 1) or Vector3(1, -1, 1)
 
-	local var_23_0, var_23_1 = IslandShipIndexLayer.getSortFuncAndName(arg_23_0.sortData.sortIndex, arg_23_0.selectAsc)
+	local var_25_0, var_25_1 = IslandShipIndexLayer.getSortFuncAndName(arg_25_0.sortData.sortIndex, arg_25_0.selectAsc)
 
-	arg_23_0.orderTxt.text = i18n(var_23_1)
+	arg_25_0.orderTxt.text = i18n(var_25_1)
 end
 
-function var_0_0.UpdateAttrs(arg_24_0, arg_24_1)
-	local var_24_0 = IslandShipAttr.ATTRS
+function var_0_0.UpdateAttrs(arg_26_0, arg_26_1)
+	local var_26_0 = IslandShipAttr.ATTRS
 
-	arg_24_0.attrUIList:make(function(arg_25_0, arg_25_1, arg_25_2)
-		if arg_25_0 == UIItemList.EventUpdate then
-			local var_25_0 = arg_25_1 + 1
+	arg_26_0.attrUIList:make(function(arg_27_0, arg_27_1, arg_27_2)
+		if arg_27_0 == UIItemList.EventUpdate then
+			local var_27_0 = arg_27_1 + 1
 
-			arg_24_0:UpdateAttr(arg_25_2, var_24_0, var_25_0, arg_24_1)
+			arg_26_0:UpdateAttr(arg_27_2, var_26_0, var_27_0, arg_26_1)
 		end
 	end)
-	arg_24_0.attrUIList:align(#var_24_0)
+	arg_26_0.attrUIList:align(#var_26_0)
 end
 
-function var_0_0.UpdateAttr(arg_26_0, arg_26_1, arg_26_2, arg_26_3, arg_26_4)
-	local var_26_0 = arg_26_2[arg_26_3]
-	local var_26_1 = arg_26_4:GetAttr(var_26_0)
+function var_0_0.UpdateAttr(arg_28_0, arg_28_1, arg_28_2, arg_28_3, arg_28_4)
+	local var_28_0 = arg_28_2[arg_28_3]
+	local var_28_1 = arg_28_4:GetAttr(var_28_0)
 
-	setText(arg_26_1:Find("name"), IslandShipAttr.ToChinese(var_26_0))
+	setText(arg_28_1:Find("name"), IslandShipAttr.ToChinese(var_28_0))
 
-	local var_26_2 = IslandProductTimeHelper.GetAttributeAddPercentByAttribute(arg_26_4.id, arg_26_3)
-	local var_26_3
-	local var_26_4 = var_26_2 > 0 and "#00B91E" or var_26_2 < 0 and "#FF6767" or "#393A3C"
+	local var_28_2 = IslandProductTimeHelper.GetAttributeAddPercentByAttribute(arg_28_4.id, arg_28_3)
+	local var_28_3
+	local var_28_4 = var_28_2 > 0 and "#00B91E" or var_28_2 < 0 and "#FF6767" or "#393A3C"
 
-	setTextColor(arg_26_1:Find("value"), Color.NewHex(var_26_4))
+	setTextColor(arg_28_1:Find("value"), Color.NewHex(var_28_4))
 
-	local var_26_5 = var_26_2 ~= 0 and math.floor(var_26_1 * (1 + 0.01 * var_26_2)) or var_26_1
+	local var_28_5 = var_28_2 ~= 0 and math.floor(var_28_1 * (1 + 0.01 * var_28_2)) or var_28_1
 
-	setText(arg_26_1:Find("value"), var_26_5)
+	setText(arg_28_1:Find("value"), var_28_5)
 
-	if var_26_2 ~= 0 then
-		local var_26_6 = arg_26_4:GetDisplayStatus()
-		local var_26_7 = _.select(var_26_6, function(arg_27_0)
-			return arg_27_0:GetBuffType() == IslandBuffType.SHIP_ATTR
+	if var_28_2 ~= 0 then
+		local var_28_6 = arg_28_4:GetDisplayStatus()
+		local var_28_7 = _.select(var_28_6, function(arg_29_0)
+			return arg_29_0:GetBuffType() == IslandBuffType.SHIP_ATTR
 		end)
 
-		onButton(arg_26_0, arg_26_1, function()
-			arg_26_0:ShowMsgBox({
+		onButton(arg_28_0, arg_28_1, function()
+			arg_28_0:ShowMsgBox({
 				hideNo = true,
 				type = IslandMsgBox.TYPE_SHIP_OWN_STATUS,
 				title = i18n("island_word_ship_buff_desc"),
-				statusList = var_26_7
+				statusList = var_28_7
 			})
 		end, SFX_PANEL)
 	else
-		removeOnButton(arg_26_1)
+		removeOnButton(arg_28_1)
 	end
 
-	local var_26_8 = arg_26_4:GetAttrGradeByValue(var_26_5)
-	local var_26_9 = IslandShipAttr.Grade2Img(var_26_8)
+	local var_28_8 = arg_28_4:GetAttrGradeByValue(var_28_5)
+	local var_28_9 = IslandShipAttr.Grade2Img(var_28_8)
 
-	arg_26_1:Find("grade"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/IslandShipUI_atlas", var_26_9[1])
-	arg_26_1:Find("grade_bg"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/IslandShipUI_atlas", var_26_9[2])
+	arg_28_1:Find("grade"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/IslandShipUI_atlas", var_28_9[1])
+	arg_28_1:Find("grade_bg"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/IslandShipUI_atlas", var_28_9[2])
 
-	setActive(arg_26_1:Find("vx_tpl"), arg_26_0.attrType == arg_26_3)
+	setActive(arg_28_1:Find("vx_tpl"), arg_28_0.attrType == arg_28_3)
 end
 
-function var_0_0.OnShow(arg_29_0, arg_29_1)
-	arg_29_0:BlurPanel()
+function var_0_0.OnShow(arg_31_0, arg_31_1)
+	arg_31_0:BlurPanel()
 
-	arg_29_0.showType = arg_29_1.showType or IslandSelectShipCard.SHOW_TYPE.PLACE
-	arg_29_0.selectNum = arg_29_1.selectNum or 1
-	arg_29_0.selectedIds = arg_29_1.selectedIds or {}
-	arg_29_0.attrType = arg_29_1.attrType
-	arg_29_0.confirmFunc = arg_29_1.confirmFunc
-	arg_29_0.cancelFunc = arg_29_1.cancelFunc
-	arg_29_0.placeId = arg_29_1.placeId
-	arg_29_0.restId = arg_29_1.restId
-	arg_29_0.showBenefits = arg_29_1.showBenefits
-	arg_29_0.needWorkSpeed = arg_29_1.needWorkSpeed or false
-	arg_29_0.autoCollectionSelectShip = arg_29_1.autoCollectionSelectShip
+	arg_31_0.showType = arg_31_1.showType or IslandSelectShipCard.SHOW_TYPE.PLACE
+	arg_31_0.selectNum = arg_31_1.selectNum or 1
+	arg_31_0.selectedIds = arg_31_1.selectedIds or {}
+	arg_31_0.attrType = arg_31_1.attrType
+	arg_31_0.confirmFunc = arg_31_1.confirmFunc
+	arg_31_0.cancelFunc = arg_31_1.cancelFunc
+	arg_31_0.placeId = arg_31_1.placeId
+	arg_31_0.restId = arg_31_1.restId
+	arg_31_0.showBenefits = arg_31_1.showBenefits
+	arg_31_0.needWorkSpeed = arg_31_1.needWorkSpeed or false
+	arg_31_0.autoCollectionSelectShip = arg_31_1.autoCollectionSelectShip
 
-	local var_29_0 = arg_29_1.emptyInfoTitle or ""
+	local var_31_0 = arg_31_1.emptyInfoTitle or ""
 
-	setText(arg_29_0.infoEmptyTitleTF, var_29_0)
+	setText(arg_31_0.infoEmptyTitleTF, var_31_0)
 
-	arg_29_0.characterAgency = getProxy(IslandProxy):GetIsland():GetCharacterAgency()
+	arg_31_0.energyCost = arg_31_1.energyCost or 0
+	arg_31_0.characterAgency = getProxy(IslandProxy):GetIsland():GetCharacterAgency()
 
-	if arg_29_0.needWorkSpeed then
-		arg_29_0.sortData.sortIndex = IslandShipIndexLayer.SortWorkSpeed
+	if arg_31_0.needWorkSpeed then
+		arg_31_0.sortData.sortIndex = IslandShipIndexLayer.SortWorkSpeed
 	else
-		arg_29_0.sortData.sortIndex = IslandShipIndexLayer.SortLevel
+		arg_31_0.sortData.sortIndex = IslandShipIndexLayer.SortLevel
 	end
 
-	arg_29_0:UpdateSortBtn()
+	arg_31_0:UpdateSortBtn()
 
-	local var_29_1 = #arg_29_0.selectedIds == 0 and arg_29_0.selectNum == 1
+	local var_31_1 = #arg_31_0.selectedIds == 0 and arg_31_0.selectNum == 1
 
-	arg_29_0:FlushShips(var_29_1)
+	arg_31_0:FlushShips(var_31_1)
 end
 
-function var_0_0.CheckHasSelected(arg_30_0, arg_30_1)
-	if not arg_30_0.autoCollectionSelectShip then
+function var_0_0.CheckHasSelected(arg_32_0, arg_32_1)
+	if not arg_32_0.autoCollectionSelectShip then
 		return false
 	end
 
-	local var_30_0 = false
+	local var_32_0 = false
 
-	for iter_30_0, iter_30_1 in pairs(arg_30_0.autoCollectionSelectShip) do
-		if arg_30_1 == iter_30_1 then
-			var_30_0 = true
+	for iter_32_0, iter_32_1 in pairs(arg_32_0.autoCollectionSelectShip) do
+		if arg_32_1 == iter_32_1 then
+			var_32_0 = true
 		end
 	end
 
-	return var_30_0
+	return var_32_0
 end
 
-function var_0_0.OnInitShip(arg_31_0, arg_31_1)
-	local var_31_0 = IslandSelectShipCard.New(arg_31_1)
+function var_0_0.OnInitShip(arg_33_0, arg_33_1)
+	local var_33_0 = IslandSelectShipCard.New(arg_33_1)
 
-	arg_31_0.cards[arg_31_1] = var_31_0
+	arg_33_0.cards[arg_33_1] = var_33_0
 end
 
-function var_0_0.OnUpdateShip(arg_32_0, arg_32_1, arg_32_2)
-	local var_32_0 = arg_32_0.cards[arg_32_2]
+function var_0_0.OnUpdateShip(arg_34_0, arg_34_1, arg_34_2)
+	local var_34_0 = arg_34_0.cards[arg_34_2]
 
-	if not var_32_0 then
-		arg_32_0:OnInitItem(arg_32_2)
+	if not var_34_0 then
+		arg_34_0:OnInitItem(arg_34_2)
 
-		var_32_0 = arg_32_0.cards[arg_32_2]
+		var_34_0 = arg_34_0.cards[arg_34_2]
 	end
 
-	local var_32_1 = arg_32_0.showShips[arg_32_1 + 1]
-	local var_32_2 = arg_32_0.characterAgency:GetShipById(var_32_1)
+	local var_34_1 = arg_34_0.showShips[arg_34_1 + 1]
+	local var_34_2 = arg_34_0.characterAgency:GetShipById(var_34_1)
 
-	onButton(arg_32_0, var_32_0.go, function()
-		if arg_32_0:CheckHasSelected(var_32_1) then
+	onButton(arg_34_0, var_34_0.go, function()
+		if arg_34_0:CheckHasSelected(var_34_1) then
 			return
 		end
 
-		if getProxy(IslandProxy):GetIsland():GetFollowerAgency():Following(var_32_1) then
-			arg_32_0:ShowMsgBox({
+		if getProxy(IslandProxy):GetIsland():GetFollowerAgency():Following(var_34_1) then
+			arg_34_0:ShowMsgBox({
 				content = i18n("island_cancel_follow_tip"),
 				onYes = function()
-					arg_32_0:emit(IslandMediator.DEL_FOLLOWER, var_32_1)
+					arg_34_0:emit(IslandMediator.DEL_FOLLOWER, var_34_1)
 				end
 			})
 
 			return
 		end
 
-		if not var_32_2:IsDelegable() then
+		if not var_34_2:IsDelegable() then
 			return
 		end
 
-		if arg_32_0.showId == var_32_0.id then
-			arg_32_0.showId = nil
+		if arg_34_0.showId == var_34_0.id then
+			arg_34_0.showId = nil
 		else
-			arg_32_0.showId = var_32_0.id
+			arg_34_0.showId = var_34_0.id
 		end
 
-		if table.contains(arg_32_0.selectedIds, var_32_0.id) then
-			table.removebyvalue(arg_32_0.selectedIds, var_32_0.id)
-		elseif arg_32_0.selectNum == 1 then
-			arg_32_0.selectedIds = {
-				var_32_0.id
+		if table.contains(arg_34_0.selectedIds, var_34_0.id) then
+			table.removebyvalue(arg_34_0.selectedIds, var_34_0.id)
+		elseif arg_34_0.selectNum == 1 then
+			arg_34_0.selectedIds = {
+				var_34_0.id
 			}
 		else
-			if #arg_32_0.selectedIds >= arg_32_0.selectNum then
+			if #arg_34_0.selectedIds >= arg_34_0.selectNum then
 				return
 			end
 
-			table.insert(arg_32_0.selectedIds, var_32_0.id)
+			table.insert(arg_34_0.selectedIds, var_34_0.id)
 		end
 
-		for iter_33_0, iter_33_1 in pairs(arg_32_0.cards) do
-			iter_33_1:UpdateSelected(arg_32_0.selectedIds)
+		for iter_35_0, iter_35_1 in pairs(arg_34_0.cards) do
+			iter_35_1:UpdateSelected(arg_34_0.selectedIds)
 		end
 
-		arg_32_0:FlushInfo()
+		arg_34_0:FlushInfo()
 	end, SFX_PANEL)
 
-	if arg_32_0.showType == IslandSelectShipCard.SHOW_TYPE.PLACE then
-		var_32_0:Update(arg_32_0.showType, var_32_1, arg_32_0.attrType, arg_32_0.placeId, arg_32_0.selectedIds, arg_32_0.autoCollectionSelectShip)
-	elseif arg_32_0.showType == IslandSelectShipCard.SHOW_TYPE.RESTAURANT then
-		var_32_0:Update(arg_32_0.showType, var_32_1, arg_32_0.attrType, arg_32_0.restId, arg_32_0.selectedIds, arg_32_0.autoCollectionSelectShip)
+	if arg_34_0.showType == IslandSelectShipCard.SHOW_TYPE.PLACE then
+		var_34_0:Update(arg_34_0.showType, var_34_1, arg_34_0.attrType, arg_34_0.placeId, arg_34_0.selectedIds, arg_34_0.autoCollectionSelectShip)
+	elseif arg_34_0.showType == IslandSelectShipCard.SHOW_TYPE.RESTAURANT then
+		var_34_0:Update(arg_34_0.showType, var_34_1, arg_34_0.attrType, arg_34_0.restId, arg_34_0.selectedIds, arg_34_0.autoCollectionSelectShip)
 	end
 end
 
-function var_0_0.FlushShips(arg_35_0, arg_35_1)
-	arg_35_0.showShips = arg_35_0:GetShips()
+function var_0_0.FlushShips(arg_37_0, arg_37_1)
+	arg_37_0.showShips = arg_37_0:GetShips()
 
-	if #arg_35_0.showShips ~= 0 and arg_35_1 then
-		local var_35_0 = arg_35_0:GetFristSelectableShipId()
+	if #arg_37_0.showShips ~= 0 and arg_37_1 then
+		local var_37_0 = arg_37_0:GetFristSelectableShipId()
 
-		if var_35_0 then
-			arg_35_0.showId = var_35_0
+		if var_37_0 then
+			arg_37_0.showId = var_37_0
 
-			table.insert(arg_35_0.selectedIds, var_35_0)
+			table.insert(arg_37_0.selectedIds, var_37_0)
 		end
 	end
 
-	arg_35_0.showId = arg_35_0.selectedIds[1]
+	arg_37_0.showId = arg_37_0.selectedIds[1]
 
-	setActive(arg_35_0.shipContent, #arg_35_0.showShips ~= 0)
-	setActive(arg_35_0.shipEmpty, #arg_35_0.showShips == 0)
-	arg_35_0.shipRectCom:SetTotalCount(#arg_35_0.showShips)
-	arg_35_0:FlushInfo()
+	setActive(arg_37_0.shipContent, #arg_37_0.showShips ~= 0)
+	setActive(arg_37_0.shipEmpty, #arg_37_0.showShips == 0)
+	arg_37_0.shipRectCom:SetTotalCount(#arg_37_0.showShips)
+	arg_37_0:FlushInfo()
 end
 
-function var_0_0.GetFristSelectableShipId(arg_36_0)
-	for iter_36_0, iter_36_1 in ipairs(arg_36_0.showShips) do
-		if arg_36_0.characterAgency:GetShipById(iter_36_1):GetState() == IslandShip.STATE_NORMAL and not arg_36_0:CheckHasSelected(iter_36_1) then
-			return iter_36_1
+function var_0_0.GetFristSelectableShipId(arg_38_0)
+	for iter_38_0, iter_38_1 in ipairs(arg_38_0.showShips) do
+		if arg_38_0.characterAgency:GetShipById(iter_38_1):GetState() == IslandShip.STATE_NORMAL and not arg_38_0:CheckHasSelected(iter_38_1) then
+			return iter_38_1
 		end
 	end
 
 	return nilGetShipsAttrProgress
 end
 
-function var_0_0.UpdateTimer(arg_37_0, arg_37_1)
-	local var_37_0 = arg_37_1 - arg_37_0.timeMgr:GetServerTime()
+function var_0_0.UpdateTimer(arg_39_0, arg_39_1)
+	local var_39_0 = arg_39_1 - arg_39_0.timeMgr:GetServerTime()
 
-	setText(arg_37_0.energyTimeTextTf, arg_37_0.timeMgr:DescCDTime(var_37_0))
+	setText(arg_39_0.energyTimeTextTf, arg_39_0.timeMgr:DescCDTime(var_39_0))
 end
 
-function var_0_0.StopTimer(arg_38_0)
-	if arg_38_0.energyTimer ~= nil then
-		arg_38_0.energyTimer:Stop()
+function var_0_0.StopTimer(arg_40_0)
+	if arg_40_0.energyTimer ~= nil then
+		arg_40_0.energyTimer:Stop()
 
-		arg_38_0.energyTimer = nil
+		arg_40_0.energyTimer = nil
 	end
 end
 
-function var_0_0.FlushInfo(arg_39_0)
-	arg_39_0.selectedTextCom.text = #arg_39_0.selectedIds .. "/" .. arg_39_0.selectNum
+function var_0_0.FlushInfo(arg_41_0)
+	arg_41_0.selectedTextCom.text = #arg_41_0.selectedIds .. "/" .. arg_41_0.selectNum
 
-	arg_39_0:FlushBenefits()
-	setActive(arg_39_0.sureBtn, arg_39_0.showId)
-	setActive(arg_39_0.infoPanel, arg_39_0.showId)
-	setActive(arg_39_0.infoEmptyTF, not arg_39_0.showId)
-	arg_39_0:FlushAddPercent()
-	arg_39_0:FlushEnergyPercent()
+	arg_41_0:FlushBenefits()
+	setActive(arg_41_0.sureBtn, arg_41_0.showId)
+	setActive(arg_41_0.infoPanel, arg_41_0.showId)
+	setActive(arg_41_0.infoEmptyTF, not arg_41_0.showId)
+	arg_41_0:FlushAddPercent()
+	arg_41_0:FlushEnergyPercent()
 
-	if not arg_39_0.showId then
+	if not arg_41_0.showId then
 		return
 	end
 
-	local var_39_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_39_0.showId)
+	setActive(arg_41_0.giftBtn, arg_41_0.showId ~= IslandCharacterAgency.NPC_CONFIG_ID)
 
-	setText(arg_39_0.nameTF, var_39_0:GetName())
-	setText(arg_39_0.levelTF, string.format("-Lv.%d", var_39_0:GetLevel()))
-	arg_39_0:UpdateAttrs(var_39_0)
+	local var_41_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_41_0.showId)
 
-	local var_39_1 = IslandShip.StaticGetPrefab(var_39_0.id)
+	setText(arg_41_0.nameTF, var_41_0:GetName())
+	setText(arg_41_0.levelTF, string.format("-Lv.%d", var_41_0:GetLevel()))
+	arg_41_0:UpdateAttrs(var_41_0)
 
-	GetImageSpriteFromAtlasAsync("ShipYardIcon/" .. var_39_1, "", arg_39_0.shipIconTF)
+	local var_41_1 = IslandShip.StaticGetPrefab(var_41_0.id)
 
-	local var_39_2 = var_39_0:GetCurrentEnergy()
-	local var_39_3 = var_39_0:GetMaxEnergy()
+	GetImageSpriteFromAtlasAsync("ShipYardIcon/" .. var_41_1, "", arg_41_0.shipIconTF)
 
-	setText(arg_39_0.energyTF:Find("text"), var_39_2 .. "/" .. var_39_3)
-	setSlider(arg_39_0.energyTF:Find("energy_bar"), 0, 1, var_39_2 / var_39_3)
+	local var_41_2 = var_41_0:GetCurrentEnergy()
+	local var_41_3 = var_41_0:GetMaxEnergy()
 
-	if var_39_2 ~= var_39_3 then
-		setActive(arg_39_0.recoveryTimeTips, true)
-		setActive(arg_39_0.energyTimeTextTf, true)
+	setText(arg_41_0.energyTF:Find("text"), var_41_2 .. "/" .. var_41_3)
+	setSlider(arg_41_0.energyTF:Find("energy_bar"), 0, 1, var_41_2 / var_41_3)
 
-		local var_39_4 = var_39_0:GetEnergyMaxTime()
+	if var_41_2 ~= var_41_3 then
+		setActive(arg_41_0.recoveryTimeTips, true)
+		setActive(arg_41_0.energyTimeTextTf, true)
 
-		arg_39_0:StopTimer()
-		arg_39_0:UpdateTimer(var_39_4)
+		local var_41_4 = var_41_0:GetEnergyMaxTime()
 
-		arg_39_0.energyTimer = Timer.New(function()
-			arg_39_0:UpdateTimer(var_39_4)
+		arg_41_0:StopTimer()
+		arg_41_0:UpdateTimer(var_41_4)
+
+		arg_41_0.energyTimer = Timer.New(function()
+			arg_41_0:UpdateTimer(var_41_4)
 		end, 1, -1)
 
-		arg_39_0.energyTimer:Start()
+		arg_41_0.energyTimer:Start()
 	else
-		arg_39_0:StopTimer()
-		setActive(arg_39_0.recoveryTimeTips, false)
-		setActive(arg_39_0.energyTimeTextTf, false)
+		arg_41_0:StopTimer()
+		setActive(arg_41_0.recoveryTimeTips, false)
+		setActive(arg_41_0.energyTimeTextTf, false)
 	end
 
-	local var_39_5 = var_39_0:GetSkill()
-	local var_39_6 = var_39_5:IsUnlock()
+	local var_41_5 = var_41_0:GetSkill()
+	local var_41_6 = var_41_5:IsUnlock()
 
-	setActive(arg_39_0.skill, var_39_6)
-	setActive(arg_39_0.skillEmp, not var_39_6)
-	setText(arg_39_0.skillEmpDes, i18n("island_need_star", var_39_0:GetSkillUnlockLevel()))
+	setActive(arg_41_0.skill, var_41_6)
+	setActive(arg_41_0.skillEmp, not var_41_6)
+	setText(arg_41_0.skillEmpDes, i18n("island_need_star", var_41_0:GetSkillUnlockLevel()))
 
-	local var_39_7 = arg_39_0.showType == IslandSelectShipCard.SHOW_TYPE.PLACE and arg_39_0.placeId or arg_39_0.restId
-	local var_39_8 = var_39_6 and IslandSelectShipCard.GetSkillEffective(var_39_0, arg_39_0.showType, var_39_7)
+	local var_41_7 = arg_41_0.showType == IslandSelectShipCard.SHOW_TYPE.PLACE and arg_41_0.placeId or arg_41_0.restId
+	local var_41_8 = var_41_6 and IslandSelectShipCard.GetSkillEffective(var_41_0, arg_41_0.showType, var_41_7)
 
-	setActive(arg_39_0.skillInuse, var_39_8)
-	setActive(arg_39_0.skillUnuse, not var_39_8)
+	setActive(arg_41_0.skillInuse, var_41_8)
+	setActive(arg_41_0.skillUnuse, not var_41_8)
 
-	arg_39_0.skillName.text = string.format("%s - %s", var_39_5:GetName(), "[Lv." .. var_39_5:GetLevel() .. "]")
-	arg_39_0.skillDes.text = var_39_5:GetEffectDesc()
+	arg_41_0.skillName.text = string.format("%s - %s", var_41_5:GetName(), "[Lv." .. var_41_5:GetLevel() .. "]")
+	arg_41_0.skillDes.text = var_41_5:GetEffectDesc()
 
-	arg_39_0:FlushAddPercent()
-	arg_39_0:FlushEnergyPercent()
+	arg_41_0:FlushAddPercent()
+	arg_41_0:FlushEnergyPercent()
+	arg_41_0:FlushEnergyCostAnim(var_41_0)
 end
 
-function var_0_0.FlushEnergyPercent(arg_41_0)
-	if not arg_41_0.showId or not arg_41_0.autoCollectionSelectShip then
-		setActive(arg_41_0.energyStutasTF, false)
+function var_0_0.FlushEnergyCostAnim(arg_43_0, arg_43_1)
+	arg_43_0:StopCostTimer()
+
+	local var_43_0 = arg_43_0.energyCost ~= 0 and arg_43_0.showType == IslandSelectShipCard.SHOW_TYPE.PLACE
+
+	setActive(arg_43_0.energyCostSilderTF, var_43_0)
+
+	if not var_43_0 then
+		return
+	end
+
+	if arg_43_1.id == IslandCharacterAgency.NPC_CONFIG_ID then
+		local var_43_1 = arg_43_1:GetCurrentEnergy()
+		local var_43_2 = arg_43_1:GetMaxEnergy()
+
+		setActive(arg_43_0.energyCostSilderTF, false)
+		setSlider(arg_43_0.energyTF:Find("energy_bar"), 0, 1, var_43_1 / var_43_2)
+		setText(arg_43_0.energyTF:Find("text"), string.format("%d-<color=#fadfb6>%d</color>/%d", var_43_1, 0, var_43_2))
 
 		return
 	end
 
-	setActive(arg_41_0.energyStutasTF, true)
+	local var_43_3 = math.floor(arg_43_0.energyCost * (1 - IslandProductCostHelper.GetReducePercentInPlace(arg_43_1.id, arg_43_0.placeId)))
+	local var_43_4 = math.max(var_43_3, 1)
 
-	local var_41_0 = IslandAutoCollectHelper.GetAttributeReducePercent(arg_41_0.showId)
-	local var_41_1 = string.format("<color=#39bfff> -%d%%</color>", var_41_0)
-	local var_41_2 = i18n("island_chara_gather_skill_effect") .. var_41_1
+	arg_43_0.energyCostTimer = Timer.New(function()
+		local var_44_0 = arg_43_1:GetCurrentEnergy()
+		local var_44_1 = arg_43_1:GetMaxEnergy()
 
-	setText(arg_41_0.energyStutasTFNum, var_41_2)
+		setSlider(arg_43_0.energyTF:Find("energy_bar"), 0, 1, (var_44_0 - var_43_4) / var_44_1)
+		setSlider(arg_43_0.energyCostSilderTF, 0, 1, var_44_0 / var_44_1)
+		setText(arg_43_0.energyTF:Find("text"), string.format("%d-<color=#fadfb6>%d</color>/%d", var_44_0, var_43_4, var_44_1))
+	end, 1, -1)
+
+	arg_43_0.energyCostTimer:Start()
+	arg_43_0.energyCostTimer.func()
 end
 
-function var_0_0.FlushAddPercent(arg_42_0)
-	if not arg_42_0.showId or not arg_42_0.needWorkSpeed then
-		setActive(arg_42_0.addStutasTF, false)
-		setActive(arg_42_0.addStutasInfoPanel, false)
+function var_0_0.FlushEnergyPercent(arg_45_0)
+	if not arg_45_0.showId or not arg_45_0.autoCollectionSelectShip then
+		setActive(arg_45_0.energyStutasTF, false)
 
 		return
 	end
 
-	local var_42_0, var_42_1, var_42_2, var_42_3 = IslandProductTimeHelper.GetAllAddPercent(arg_42_0.showId, arg_42_0.placeId, arg_42_0.attrType)
-	local var_42_4 = var_42_0 + var_42_1 + var_42_2 + var_42_3
+	setActive(arg_45_0.energyStutasTF, true)
 
-	setActive(arg_42_0.addStutasTF, true)
-	setText(arg_42_0.addStutasNum, i18n("island_production_speed_tip1", var_42_4))
+	local var_45_0 = IslandAutoCollectHelper.GetAttributeReducePercent(arg_45_0.showId)
+	local var_45_1 = string.format("<color=#39bfff> -%d%%</color>", var_45_0)
+	local var_45_2 = i18n("island_chara_gather_skill_effect") .. var_45_1
 
-	arg_42_0.buffInfos = {}
+	setText(arg_45_0.energyStutasTFNum, var_45_2)
+end
 
-	local var_42_5 = IslandProductTimeHelper.GetAttributeAddPercent(arg_42_0.showId, arg_42_0.attrType)
+function var_0_0.FlushAddPercent(arg_46_0)
+	if not arg_46_0.showId or not arg_46_0.needWorkSpeed then
+		setActive(arg_46_0.addStutasTF, false)
+		setActive(arg_46_0.addStutasInfoPanel, false)
 
-	if var_42_0 > 0 then
-		local var_42_6 = IslandShipAttr.GetAtrrName(arg_42_0.attrType)
+		return
+	end
 
-		table.insert(arg_42_0.buffInfos, {
-			name = i18n("island_production_speed_addition1", IslandShipAttr.ToChinese(var_42_6)),
-			effect = "+" .. var_42_0 .. "%"
+	local var_46_0, var_46_1, var_46_2, var_46_3 = IslandProductTimeHelper.GetAllAddPercent(arg_46_0.showId, arg_46_0.placeId, arg_46_0.attrType)
+	local var_46_4 = var_46_0 + var_46_1 + var_46_2 + var_46_3
+
+	setActive(arg_46_0.addStutasTF, true)
+	setText(arg_46_0.addStutasNum, i18n("island_production_speed_tip1", var_46_4))
+
+	arg_46_0.buffInfos = {}
+
+	local var_46_5 = IslandProductTimeHelper.GetAttributeAddPercent(arg_46_0.showId, arg_46_0.attrType)
+
+	if var_46_0 > 0 then
+		local var_46_6 = IslandShipAttr.GetAtrrName(arg_46_0.attrType)
+
+		table.insert(arg_46_0.buffInfos, {
+			name = i18n("island_production_speed_addition1", IslandShipAttr.ToChinese(var_46_6)),
+			effect = "+" .. var_46_0 .. "%"
 		})
 	end
 
-	if var_42_1 > 0 then
-		table.insert(arg_42_0.buffInfos, {
+	if var_46_1 > 0 then
+		table.insert(arg_46_0.buffInfos, {
 			name = i18n("island_production_speed_addition2"),
-			effect = "+" .. var_42_1 .. "%"
+			effect = "+" .. var_46_1 .. "%"
 		})
 	end
 
-	if var_42_2 > 0 then
-		local var_42_7 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_42_0.showId):GetSkill():GetName()
+	if var_46_2 > 0 then
+		local var_46_7 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_46_0.showId):GetSkill():GetName()
 
-		table.insert(arg_42_0.buffInfos, {
-			name = var_42_7,
-			effect = "+" .. var_42_2 .. "%"
+		table.insert(arg_46_0.buffInfos, {
+			name = var_46_7,
+			effect = "+" .. var_46_2 .. "%"
 		})
 	end
 
-	if var_42_3 > 0 then
-		table.insert(arg_42_0.buffInfos, {
+	if var_46_3 > 0 then
+		table.insert(arg_46_0.buffInfos, {
 			name = i18n("island_production_speed_addition3"),
-			effect = "+" .. var_42_3 .. "%"
+			effect = "+" .. var_46_3 .. "%"
 		})
 	end
 
-	arg_42_0.buffInfoUIList:align(#arg_42_0.buffInfos)
-	setActive(arg_42_0.buffInfoEmptyTF, #arg_42_0.buffInfos == 0)
+	arg_46_0.buffInfoUIList:align(#arg_46_0.buffInfos)
+	setActive(arg_46_0.buffInfoEmptyTF, #arg_46_0.buffInfos == 0)
 end
 
-function var_0_0.FlushBenefits(arg_43_0)
-	setActive(arg_43_0.benefitsTF, arg_43_0.showBenefits)
+function var_0_0.FlushBenefits(arg_47_0)
+	setActive(arg_47_0.benefitsTF, arg_47_0.showBenefits)
 
-	if arg_43_0.showBenefits then
-		setFillAmount(arg_43_0.mainAttrBar, arg_43_0:GetShipsAttrProgress(IslandShipAttr.ATTRS[1]))
-		arg_43_0.subAttrUIList:align(#IslandShipAttr.ATTRS)
+	if arg_47_0.showBenefits then
+		setFillAmount(arg_47_0.mainAttrBar, arg_47_0:GetShipsAttrProgress(IslandShipAttr.ATTRS[1]))
+		arg_47_0.subAttrUIList:align(#IslandShipAttr.ATTRS)
 	end
 end
 
-function var_0_0.GetShipsAttrProgress(arg_44_0, arg_44_1)
-	local var_44_0 = pg.island_chara_att.all[#pg.island_chara_att.all]
-	local var_44_1 = var_44_0 * arg_44_0.selectNum
-	local var_44_2 = 0
+function var_0_0.GetShipsAttrProgress(arg_48_0, arg_48_1)
+	local var_48_0 = pg.island_chara_att.all[#pg.island_chara_att.all]
+	local var_48_1 = var_48_0 * arg_48_0.selectNum
+	local var_48_2 = 0
 
-	for iter_44_0, iter_44_1 in ipairs(arg_44_0.selectedIds) do
-		var_44_2 = var_44_2 + (var_44_0 - arg_44_0.characterAgency:GetShipById(iter_44_1):GetAttrGrade(arg_44_1) + 1)
+	for iter_48_0, iter_48_1 in ipairs(arg_48_0.selectedIds) do
+		var_48_2 = var_48_2 + (var_48_0 - arg_48_0.characterAgency:GetShipById(iter_48_1):GetAttrGrade(arg_48_1) + 1)
 	end
 
-	return var_44_2 / var_44_1
+	return var_48_2 / var_48_1
 end
 
-function var_0_0.ToVShip(arg_45_0, arg_45_1)
-	if not arg_45_0.vship then
-		arg_45_0.vship = {}
+function var_0_0.ToVShip(arg_49_0, arg_49_1)
+	if not arg_49_0.vship then
+		arg_49_0.vship = {}
 
-		function arg_45_0.vship.getNation()
-			return arg_45_0.vship.config.nationality
+		function arg_49_0.vship.getNation()
+			return arg_49_0.vship.config.nationality
 		end
 
-		function arg_45_0.vship.getShipType()
-			return arg_45_0.vship.config.type
+		function arg_49_0.vship.getShipType()
+			return arg_49_0.vship.config.type
 		end
 
-		function arg_45_0.vship.getTeamType()
-			return ShipType.GetTeamFromShipType(arg_45_0.vship.config.type)
+		function arg_49_0.vship.getTeamType()
+			return ShipType.GetTeamFromShipType(arg_49_0.vship.config.type)
 		end
 
-		function arg_45_0.vship.getRarity()
-			return arg_45_0.vship.config.rarity
+		function arg_49_0.vship.getRarity()
+			return arg_49_0.vship.config.rarity
 		end
 	end
 
-	arg_45_0.vship.config = arg_45_1
+	arg_49_0.vship.config = arg_49_1
 
-	return arg_45_0.vship
+	return arg_49_0.vship
 end
 
-local function var_0_1(arg_50_0, arg_50_1)
-	if not arg_50_1 or arg_50_1 == "" then
+local function var_0_1(arg_54_0, arg_54_1)
+	if not arg_54_1 or arg_54_1 == "" then
 		return true
 	end
 
-	local var_50_0 = string.lower(string.gsub(arg_50_1, "%.", "%%."))
-	local var_50_1 = IslandShip.StaticGetName(arg_50_0)
+	local var_54_0 = string.lower(string.gsub(arg_54_1, "%.", "%%."))
+	local var_54_1 = IslandShip.StaticGetName(arg_54_0)
 
-	return string.find(string.lower(var_50_1), var_50_0)
+	return string.find(string.lower(var_54_1), var_54_0)
 end
 
-local function var_0_2(arg_51_0, arg_51_1, arg_51_2)
-	local var_51_0 = arg_51_1
-	local var_51_1 = ShipGroup.getDefaultShipConfig(var_51_0)
-	local var_51_2 = arg_51_0:ToVShip(var_51_1)
-	local var_51_3 = arg_51_0.characterAgency:GetShipById(arg_51_1)
+local function var_0_2(arg_55_0, arg_55_1, arg_55_2)
+	local var_55_0 = arg_55_1
+	local var_55_1 = ShipGroup.getDefaultShipConfig(var_55_0)
+	local var_55_2 = arg_55_0:ToVShip(var_55_1)
+	local var_55_3 = arg_55_0.characterAgency:GetShipById(arg_55_1)
 
-	if ShipIndexConst.filterByCamp(var_51_2, arg_51_2.campIndex) and ShipIndexConst.filterByRarity(var_51_2, arg_51_2.rarityIndex) and IslandShipIndexLayer.filterByExtra(var_51_3, arg_51_2.extraIndex) then
+	if ShipIndexConst.filterByCamp(var_55_2, arg_55_2.campIndex) and ShipIndexConst.filterByRarity(var_55_2, arg_55_2.rarityIndex) and IslandShipIndexLayer.filterByExtra(var_55_3, arg_55_2.extraIndex) then
 		return true
 	end
 
 	return false
 end
 
-function var_0_0.GetShips(arg_52_0)
-	local var_52_0 = {}
-	local var_52_1 = {}
-	local var_52_2 = arg_52_0.characterAgency:GetShipsContainNpc()
+function var_0_0.GetShips(arg_56_0)
+	local var_56_0 = {}
+	local var_56_1 = {}
+	local var_56_2 = arg_56_0.characterAgency:GetShipsContainNpc()
 
-	for iter_52_0, iter_52_1 in ipairs(var_52_2) do
-		if var_0_1(iter_52_1.id, arg_52_0.searchKey) and var_0_2(arg_52_0, iter_52_1.id, arg_52_0.sortData) then
-			if arg_52_0.needWorkSpeed then
-				local var_52_3 = setmetatable({
+	for iter_56_0, iter_56_1 in ipairs(var_56_2) do
+		if var_0_1(iter_56_1.id, arg_56_0.searchKey) and var_0_2(arg_56_0, iter_56_1.id, arg_56_0.sortData) then
+			if arg_56_0.needWorkSpeed then
+				local var_56_3 = setmetatable({
 					GetWorkSpeed = function()
-						local var_53_0, var_53_1, var_53_2, var_53_3 = IslandProductTimeHelper.GetAllAddPercent(iter_52_1.id, arg_52_0.placeId, arg_52_0.attrType)
+						local var_57_0, var_57_1, var_57_2, var_57_3 = IslandProductTimeHelper.GetAllAddPercent(iter_56_1.id, arg_56_0.placeId, arg_56_0.attrType)
 
-						return var_53_0 + var_53_1 + var_53_2 + var_53_3
+						return var_57_0 + var_57_1 + var_57_2 + var_57_3
 					end
 				}, {
-					__index = iter_52_1
+					__index = iter_56_1
 				})
 
-				table.insert(var_52_1, var_52_3)
-			elseif arg_52_0.autoCollectionSelectShip then
-				if iter_52_1.id ~= 1 then
-					table.insert(var_52_1, iter_52_1)
+				table.insert(var_56_1, var_56_3)
+			elseif arg_56_0.autoCollectionSelectShip then
+				if iter_56_1.id ~= 1 then
+					table.insert(var_56_1, iter_56_1)
 				end
 			else
-				table.insert(var_52_1, iter_52_1)
+				table.insert(var_56_1, iter_56_1)
 			end
 		end
 	end
 
-	local var_52_4 = IslandShipIndexLayer.getSortFuncAndName(arg_52_0.sortData.sortIndex, arg_52_0.selectAsc)
+	local var_56_4 = IslandShipIndexLayer.getSortFuncAndName(arg_56_0.sortData.sortIndex, arg_56_0.selectAsc)
 
-	table.sort(var_52_1, CompareFuncs(var_52_4))
+	table.sort(var_56_1, CompareFuncs(var_56_4))
 
-	for iter_52_2, iter_52_3 in ipairs(var_52_1) do
-		table.insert(var_52_0, iter_52_3.id)
+	for iter_56_2, iter_56_3 in ipairs(var_56_1) do
+		table.insert(var_56_0, iter_56_3.id)
 	end
 
-	return var_52_0
+	return var_56_0
 end
 
-function var_0_0.OnDestroy(arg_54_0)
-	ClearLScrollrect(arg_54_0.shipRectCom)
-	arg_54_0:StopTimer()
-	arg_54_0:OnHide()
+function var_0_0.StopCostTimer(arg_58_0)
+	if arg_58_0.energyCostTimer ~= nil then
+		arg_58_0.energyCostTimer:Stop()
+
+		arg_58_0.energyCostTimer = nil
+	end
 end
 
-function var_0_0.OnHide(arg_55_0)
-	if isActive(arg_55_0.addStutasInfoPanel) then
-		setActive(arg_55_0.addStutasInfoPanel, false)
+function var_0_0.OnDestroy(arg_59_0)
+	ClearLScrollrect(arg_59_0.shipRectCom)
+	arg_59_0:StopTimer()
+	arg_59_0:StopCostTimer()
+	arg_59_0:OnHide()
+end
+
+function var_0_0.OnHide(arg_60_0)
+	if isActive(arg_60_0.addStutasInfoPanel) then
+		setActive(arg_60_0.addStutasInfoPanel, false)
 	end
 
-	arg_55_0:UnBlurPanel()
+	arg_60_0:UnBlurPanel()
 end
 
-function var_0_0.OnDisable(arg_56_0)
-	arg_56_0:OnHide()
+function var_0_0.OnDisable(arg_61_0)
+	arg_61_0:OnHide()
 end
 
 return var_0_0

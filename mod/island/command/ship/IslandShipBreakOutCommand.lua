@@ -30,6 +30,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 
 			if var_2_5 then
 				var_1_1:GetGlobalBuffAgency():OnShipSkillUnlock(var_1_0)
+				getProxy(IslandProxy):GetIsland():GetCharacterAgency():DispatchEvent(IslandCharacterAgency.SHIP_SKILL_STATE_CHANGE, var_1_2.id, true)
 			end
 
 			arg_1_0:sendNotification(GAME.ISLAND_SHIP_BREAKOUT_DONE, {

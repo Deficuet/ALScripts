@@ -12,11 +12,6 @@ function var_0_0.init(arg_2_0)
 	arg_2_0.emptyTip = arg_2_0.window:Find("Layout/Box/EmptyTip")
 	arg_2_0.itemList = arg_2_0.boxView:Find("Content/ItemGrid")
 
-	local var_2_0 = Instantiate(arg_2_0.itemList:GetComponent(typeof(ItemList)).prefabItem[0])
-
-	var_2_0.name = "Icon"
-
-	setParent(var_2_0, arg_2_0.itemList:Find("GridItem/Shell"))
 	setText(arg_2_0.emptyTip, i18n("autofight_rewards_none"))
 	setText(arg_2_0.window:Find("Fixed/top/bg/obtain/title"), i18n("autofight_rewards"))
 	setText(arg_2_0.boxView:Find("Content/Title/Text"), i18n("battle_end_subtitle1"))
@@ -201,41 +196,25 @@ function var_0_0.UpdateView(arg_5_0)
 	end)
 end
 
-function var_0_0.CloneIconTpl(arg_18_0, arg_18_1)
-	local var_18_0 = arg_18_0:GetComponent(typeof(ItemList))
-
-	assert(var_18_0, "Need a Itemlist Component for " .. (arg_18_0 and arg_18_0.name or "NIL"))
-
-	local var_18_1 = Instantiate(var_18_0.prefabItem[0])
-
-	if arg_18_1 then
-		var_18_1.name = arg_18_1
-	end
-
-	setParent(var_18_1, arg_18_0)
-
-	return var_18_1
-end
-
-function var_0_0.SkipAnim(arg_19_0)
-	if not arg_19_0.isRewardAnimating then
+function var_0_0.SkipAnim(arg_18_0)
+	if not arg_18_0.isRewardAnimating then
 		return
 	end
 
-	arg_19_0.isRewardAnimating = nil
+	arg_18_0.isRewardAnimating = nil
 
-	if arg_19_0.LTid then
-		LeanTween.cancel(arg_19_0.LTid)
+	if arg_18_0.LTid then
+		LeanTween.cancel(arg_18_0.LTid)
 
-		arg_19_0.LTid = nil
+		arg_18_0.LTid = nil
 	end
 
-	eachChild(arg_19_0.itemList, function(arg_20_0)
-		setActive(arg_20_0, true)
+	eachChild(arg_18_0.itemList, function(arg_19_0)
+		setActive(arg_19_0, true)
 	end)
-	setActive(arg_19_0.boxView:Find("Content/Title"), arg_19_0.hasRewards)
-	setActive(arg_19_0.itemList, arg_19_0.hasRewards)
-	setActive(arg_19_0.boxView:Find("Content/TextArea"), arg_19_0.hasEventMsg)
+	setActive(arg_18_0.boxView:Find("Content/Title"), arg_18_0.hasRewards)
+	setActive(arg_18_0.itemList, arg_18_0.hasRewards)
+	setActive(arg_18_0.boxView:Find("Content/TextArea"), arg_18_0.hasEventMsg)
 end
 
 return var_0_0

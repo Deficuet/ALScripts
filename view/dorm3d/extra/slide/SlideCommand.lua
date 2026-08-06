@@ -1,9 +1,20 @@
 local var_0_0 = class("SlideCommand", import("model.vo.BaseVO"))
 
 function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
-	var_0_0.super.Ctor(arg_1_0, pg.dorm3d_slide_command[arg_1_1])
+	local var_1_0 = pg.dorm3d_slide_command[arg_1_1]
 
-	if arg_1_0.target then
+	var_0_0.super.Ctor(arg_1_0, var_1_0)
+
+	arg_1_0.id = arg_1_1
+	arg_1_0.type = var_1_0.type
+	arg_1_0.target = var_1_0.target
+	arg_1_0.anim = var_1_0.anim
+	arg_1_0.time = var_1_0.time
+	arg_1_0.fade_in_time = var_1_0.fade_in_time
+	arg_1_0.effect = var_1_0.effect
+	arg_1_0.wet = var_1_0.wet
+
+	if arg_1_0.target and arg_1_0.target ~= "" then
 		arg_1_0.target = arg_1_2:Find(arg_1_0.target)
 	end
 end

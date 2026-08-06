@@ -1,8 +1,8 @@
 return {
-	short_music_name = "beat-song02",
+	short_music_name = "story-game-rhythm",
 	bpm = 120,
 	offset_time = 0,
-	music_name = "bgm-beat-song02",
+	music_name = "bgm-story-game-rhythm",
 	touch_track = {
 		{
 			begin_time = "7.505993",

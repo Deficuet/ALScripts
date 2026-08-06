@@ -29,6 +29,7 @@ var_0_0.TYPE_PRODUCT_GARDEN = 40
 var_0_0.TYPE_FISHING_ROD = 41
 var_0_0.TYPE_PRODUCT_FISH = 42
 var_0_0.ANIMATION_OP_ID = 40
+var_0_0.SET_MEAL_ID = 29001
 
 function var_0_0.OnInit(arg_1_0, arg_1_1)
 	arg_1_0.abilitys = {}

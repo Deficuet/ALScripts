@@ -193,350 +193,378 @@ function var_0_0.CollectStrollUnits(arg_10_0, arg_10_1, arg_10_2)
 	var_0_0.DistributeAward4StrollUnits(arg_10_0, arg_10_1)
 end
 
-function var_0_0.DistributeAward4StrollUnits(arg_14_0, arg_14_1)
-	if #arg_14_0 > 0 and arg_14_1:IsPrivate() then
-		local var_14_0 = arg_14_1:GetNpcFeedbackAgency():GetNpcList()
-		local var_14_1 = pg.island_set.island_feedback_award_times.key_value_int - #var_14_0
-		local var_14_2 = {}
+function var_0_0.DistributeActionFeedbackAward4StrollUnits(arg_14_0, arg_14_1, arg_14_2)
+	local var_14_0 = arg_14_1:GetNpcFeedbackAgency():GetNpcList()
+	local var_14_1 = pg.island_set.island_feedback_award_times.key_value_int - #var_14_0
+	local var_14_2 = {}
 
-		for iter_14_0, iter_14_1 in ipairs(arg_14_0) do
-			if pg.island_strollnpc[iter_14_1.id].action_feedback == 1 and _.all(var_14_0, function(arg_15_0)
-				return iter_14_1.id ~= arg_15_0
-			end) then
-				table.insert(var_14_2, iter_14_1)
-			end
+	for iter_14_0, iter_14_1 in ipairs(arg_14_0) do
+		if pg.island_strollnpc[iter_14_1.id].action_feedback == 1 and _.all(var_14_0, function(arg_15_0)
+			return iter_14_1.id ~= arg_15_0
+		end) then
+			table.insert(var_14_2, iter_14_1)
 		end
+	end
 
-		if #var_14_2 <= 0 then
-			return
-		end
+	if #var_14_2 <= 0 then
+		return
+	end
 
-		shuffle(var_14_2)
+	shuffle(var_14_2)
 
-		local var_14_3 = pg.island_action.get_id_list_by_type[IslandConst.ANIMATION_OP_SIGNLE]
-		local var_14_4 = arg_14_1:GetActionAgency()
-		local var_14_5 = _.select(var_14_3, function(arg_16_0)
-			return var_14_4:ExistAction(arg_16_0)
-		end)
+	for iter_14_2 = 1, var_14_1 do
+		local var_14_3 = var_14_2[iter_14_2]
 
-		if #var_14_5 <= 0 then
-			return
-		end
+		if var_14_3 then
+			local var_14_4 = arg_14_2[math.random(1, #arg_14_2)]
 
-		for iter_14_2 = 1, var_14_1 do
-			local var_14_6 = var_14_2[iter_14_2]
-
-			if var_14_6 then
-				local var_14_7 = var_14_5[math.random(1, #var_14_5)]
-
-				var_14_6:SetActionFeedback(var_14_7)
-			end
+			var_14_3:SetActionFeedback(var_14_4)
 		end
 	end
 end
 
-function var_0_0.CollectFollowUnits(arg_17_0, arg_17_1, arg_17_2, arg_17_3)
-	local var_17_0
+function var_0_0.DistributeShipSkillAward4StrollUnits(arg_16_0, arg_16_1, arg_16_2)
+	local var_16_0 = arg_16_1:GetCharacterAgency()
 
-	for iter_17_0, iter_17_1 in ipairs(arg_17_0) do
-		if iter_17_1:IsPlayer() then
-			var_17_0 = iter_17_1
+	for iter_16_0, iter_16_1 in ipairs(arg_16_0) do
+		local var_16_1 = iter_16_1:GetShipId()
+		local var_16_2 = var_16_0:GetShipById(var_16_1)
+
+		if var_16_2 and var_16_2:HasGreetingSkill() and var_16_2:GetSkill():CanUse4Ship(var_16_2, {
+			IslandBuffType.SHIP_POWER_RECOVER_BY_GREETING,
+			IslandBuffType.SHIP_AWARD_BY_GREETING
+		}) then
+			local var_16_3 = arg_16_2[math.random(1, #arg_16_2)]
+
+			iter_16_1:SetSkillActionFeedback(var_16_3)
+		end
+	end
+end
+
+function var_0_0.GetOwnActions(arg_17_0)
+	local var_17_0 = pg.island_action.get_id_list_by_type[IslandConst.ANIMATION_OP_SIGNLE]
+	local var_17_1 = arg_17_0:GetActionAgency()
+
+	return (_.select(var_17_0, function(arg_18_0)
+		return var_17_1:ExistAction(arg_18_0)
+	end))
+end
+
+function var_0_0.DistributeAward4StrollUnits(arg_19_0, arg_19_1)
+	if #arg_19_0 > 0 and arg_19_1:IsPrivate() then
+		local var_19_0 = var_0_0.GetOwnActions(arg_19_1)
+
+		if #var_19_0 <= 0 then
+			return
+		end
+
+		var_0_0.DistributeActionFeedbackAward4StrollUnits(arg_19_0, arg_19_1, var_19_0)
+		var_0_0.DistributeShipSkillAward4StrollUnits(arg_19_0, arg_19_1, var_19_0)
+	end
+end
+
+function var_0_0.CollectFollowUnits(arg_20_0, arg_20_1, arg_20_2, arg_20_3)
+	local var_20_0
+
+	for iter_20_0, iter_20_1 in ipairs(arg_20_0) do
+		if iter_20_1:IsPlayer() then
+			var_20_0 = iter_20_1
 
 			break
 		end
 	end
 
-	if not var_17_0 then
+	if not var_20_0 then
 		return
 	end
 
-	local var_17_1 = var_17_0.position
-	local var_17_2 = var_17_0.rotation
-	local var_17_3 = arg_17_2:GetFollowerAgency()
+	local var_20_1 = var_20_0.position
+	local var_20_2 = var_20_0.rotation
+	local var_20_3 = arg_20_2:GetFollowerAgency()
 
-	for iter_17_2, iter_17_3 in ipairs(var_17_3:GetFollowers()) do
-		local var_17_4 = arg_17_2:GetCharacterAgency():GetShipById(iter_17_3)
-		local var_17_5 = var_17_4:GetModelUnit()
+	for iter_20_2, iter_20_3 in ipairs(var_20_3:GetFollowers()) do
+		local var_20_4 = arg_20_2:GetCharacterAgency():GetShipById(iter_20_3)
+		local var_20_5 = var_20_4:GetModelUnit()
 
-		table.insert(arg_17_1, IslandFollowerUnitVO.New(var_17_4.id, iter_17_3, var_17_5, var_17_1, var_17_2, iter_17_2 == 1))
+		table.insert(arg_20_1, IslandFollowerUnitVO.New(var_20_4.id, iter_20_3, var_20_5, var_20_1, var_20_2, iter_20_2 == 1))
 	end
 end
 
-function var_0_0.CollectSystems(arg_18_0, arg_18_1, arg_18_2, arg_18_3, arg_18_4)
-	var_0_0.CollectPordunctSystem(arg_18_0, arg_18_1, arg_18_2, arg_18_3, arg_18_4)
-	var_0_0.CollectManageSystem(arg_18_0, arg_18_1, arg_18_2, arg_18_3)
+function var_0_0.CollectSystems(arg_21_0, arg_21_1, arg_21_2, arg_21_3, arg_21_4)
+	var_0_0.CollectPordunctSystem(arg_21_0, arg_21_1, arg_21_2, arg_21_3, arg_21_4)
+	var_0_0.CollectManageSystem(arg_21_0, arg_21_1, arg_21_2, arg_21_3)
 
-	local var_18_0 = pg.island_map[arg_18_3]
+	local var_21_0 = pg.island_map[arg_21_3]
 
-	if var_18_0.minigame_id > 0 then
-		table.insert(arg_18_0, IslandSeekGameSystemVO.New(var_18_0.minigame_id, IslandConst.SEEK_GAME_SYSTEM_ID))
-	elseif arg_18_3 == IslandConst.AGORA_MAP_ID then
-		table.insert(arg_18_0, IslandGroundSystemVO.New(IslandConst.AGORA_GROUND_SYSTEM_ID))
-		table.insert(arg_18_0, IslandGrassLandSystemVO.New(IslandConst.AGORA_GRASSLAND))
+	if var_21_0.minigame_id > 0 then
+		table.insert(arg_21_0, IslandSeekGameSystemVO.New(var_21_0.minigame_id, IslandConst.SEEK_GAME_SYSTEM_ID))
+	elseif arg_21_3 == IslandConst.AGORA_MAP_ID then
+		table.insert(arg_21_0, IslandGroundSystemVO.New(IslandConst.AGORA_GROUND_SYSTEM_ID))
+		table.insert(arg_21_0, IslandGrassLandSystemVO.New(IslandConst.AGORA_GRASSLAND))
 	end
 end
 
-function var_0_0.CollectManageSystem(arg_19_0, arg_19_1, arg_19_2, arg_19_3)
-	local var_19_0 = arg_19_2:GetManageAgency():GetRestaurants()
+function var_0_0.CollectManageSystem(arg_22_0, arg_22_1, arg_22_2, arg_22_3)
+	local var_22_0 = arg_22_2:GetManageAgency():GetRestaurants()
 
-	for iter_19_0, iter_19_1 in pairs(var_19_0) do
-		if iter_19_1:getConfig("map_id") == arg_19_3 then
-			local var_19_1 = IslandManageSystemVO.New(iter_19_1.id, iter_19_1)
+	for iter_22_0, iter_22_1 in pairs(var_22_0) do
+		if iter_22_1:getConfig("map_id") == arg_22_3 then
+			local var_22_1 = IslandManageSystemVO.New(iter_22_1.id, iter_22_1)
 
-			table.insert(arg_19_0, var_19_1)
+			table.insert(arg_22_0, var_22_1)
 
-			if iter_19_1:GetStatus() == IslandRestaurant.STATUS.OPENING then
-				for iter_19_2, iter_19_3 in ipairs(var_19_1:GetUnits()) do
-					table.insert(arg_19_1, iter_19_3)
+			if iter_22_1:GetStatus() == IslandRestaurant.STATUS.OPENING then
+				for iter_22_2, iter_22_3 in ipairs(var_22_1:GetUnits()) do
+					table.insert(arg_22_1, iter_22_3)
 				end
 			end
 		end
 	end
 end
 
-function var_0_0.CollectPordunctSystem(arg_20_0, arg_20_1, arg_20_2, arg_20_3, arg_20_4)
-	local var_20_0 = pg.island_production_place.get_id_list_by_map_id[arg_20_3] or {}
-	local var_20_1 = arg_20_2:GetBuildingAgency()
+function var_0_0.CollectPordunctSystem(arg_23_0, arg_23_1, arg_23_2, arg_23_3, arg_23_4)
+	local var_23_0 = pg.island_production_place.get_id_list_by_map_id[arg_23_3] or {}
+	local var_23_1 = arg_23_2:GetBuildingAgency()
 
-	local function var_20_2(arg_21_0)
-		local var_21_0
+	local function var_23_2(arg_24_0)
+		local var_24_0
 
-		for iter_21_0, iter_21_1 in ipairs(arg_20_4) do
-			if iter_21_1.id == arg_21_0 then
-				var_21_0 = iter_21_1
+		for iter_24_0, iter_24_1 in ipairs(arg_23_4) do
+			if iter_24_1.id == arg_24_0 then
+				var_24_0 = iter_24_1
 			end
 		end
 
-		return var_21_0
+		return var_24_0
 	end
 
-	local var_20_3 = {
+	local var_23_3 = {
 		IslandProductConst.PasturePlaceId,
 		IslandProductConst.FarmlandPlaceId,
 		IslandProductConst.OrchardPlaceId,
 		IslandProductConst.GardenPlaceId
 	}
 
-	for iter_20_0, iter_20_1 in ipairs(IslandProductConst.FactorytPlaces) do
-		table.insert(var_20_3, iter_20_1)
+	for iter_23_0, iter_23_1 in ipairs(IslandProductConst.FactorytPlaces) do
+		table.insert(var_23_3, iter_23_1)
 	end
 
-	for iter_20_2, iter_20_3 in ipairs(var_20_0) do
-		local var_20_4 = var_20_2(iter_20_3)
-		local var_20_5 = IslandCharacterSystemVO.New(iter_20_3, var_20_4, arg_20_2.id)
-		local var_20_6 = var_20_1:GetBuilding(iter_20_3)
-		local var_20_7 = 0
+	for iter_23_2, iter_23_3 in ipairs(var_23_0) do
+		local var_23_4 = var_23_2(iter_23_3)
+		local var_23_5 = IslandCharacterSystemVO.New(iter_23_3, var_23_4, arg_23_2.id)
+		local var_23_6 = var_23_1:GetBuilding(iter_23_3)
+		local var_23_7 = 0
 
-		if var_20_6 then
-			local var_20_8 = var_20_6:GetShipIdAndAreaIdList()
+		if var_23_6 then
+			local var_23_8 = var_23_6:GetShipIdAndAreaIdList()
 
-			for iter_20_4, iter_20_5 in ipairs(var_20_8) do
-				if iter_20_3 ~= IslandProductConst.MinePlaceId then
-					local var_20_9 = var_20_5:GetUnit(iter_20_5.ship_id, iter_20_5.area_id, table.contains(var_20_3, iter_20_3))
+			for iter_23_4, iter_23_5 in ipairs(var_23_8) do
+				if iter_23_3 ~= IslandProductConst.MinePlaceId then
+					local var_23_9 = var_23_5:GetUnit(iter_23_5.ship_id, iter_23_5.area_id, table.contains(var_23_3, iter_23_3))
 
-					table.insert(arg_20_1, var_20_9)
+					table.insert(arg_23_1, var_23_9)
 				end
 
-				var_20_7 = var_20_7 + 1
+				var_23_7 = var_23_7 + 1
 			end
 
-			var_20_5:SetkCurrentWorkerList(var_20_8)
+			var_23_5:SetkCurrentWorkerList(var_23_8)
 		end
 
-		var_20_5:SetWorkerCnt(var_20_7)
-		table.insert(arg_20_0, var_20_5)
+		var_23_5:SetWorkerCnt(var_23_7)
+		table.insert(arg_23_0, var_23_5)
 
-		if var_20_4 and table.contains(IslandProductConst.havePerformPlace, iter_20_3) then
-			if var_20_6 then
-				local var_20_10 = var_20_6:GetDelegateingSlotAndFormulaList()
+		if var_23_4 and table.contains(IslandProductConst.havePerformPlace, iter_23_3) then
+			if var_23_6 then
+				local var_23_10 = var_23_6:GetDelegateingSlotAndFormulaList()
 
-				for iter_20_6, iter_20_7 in ipairs(var_20_10) do
-					local var_20_11 = var_20_4:GetDelegateUnitsByBuildIdAndSlotId(iter_20_3, iter_20_7.area_id, iter_20_7.formula_id)
+				for iter_23_6, iter_23_7 in ipairs(var_23_10) do
+					local var_23_11 = var_23_4:GetDelegateUnitsByBuildIdAndSlotId(iter_23_3, iter_23_7.area_id, iter_23_7.formula_id)
 
-					for iter_20_8, iter_20_9 in ipairs(var_20_11) do
-						table.insert(arg_20_1, iter_20_9)
+					for iter_23_8, iter_23_9 in ipairs(var_23_11) do
+						table.insert(arg_23_1, iter_23_9)
 					end
 
-					local var_20_12 = var_20_4:GetDelegateEffectsByCommissonId(iter_20_7.area_id)
+					local var_23_12 = var_23_4:GetDelegateEffectsByCommissonId(iter_23_7.area_id)
 
-					if var_20_12 then
-						local var_20_13 = var_20_4:GenUnitByDelegateEffectId(var_20_12)
+					if var_23_12 then
+						local var_23_13 = var_23_4:GenUnitByDelegateEffectId(var_23_12)
 
-						if var_20_13 then
-							table.insert(arg_20_1, var_20_13)
+						if var_23_13 then
+							table.insert(arg_23_1, var_23_13)
 						end
 					end
 				end
 			end
 
-			table.insert(arg_20_0, var_20_4)
+			table.insert(arg_23_0, var_23_4)
 		end
 	end
 end
 
-function var_0_0.SceneData2IslandUnits(arg_22_0, arg_22_1, arg_22_2, arg_22_3, arg_22_4, arg_22_5, arg_22_6)
-	local var_22_0 = pg.island_world_objects.get_id_list_by_mapId[arg_22_3] or {}
+function var_0_0.SceneData2IslandUnits(arg_25_0, arg_25_1, arg_25_2, arg_25_3, arg_25_4, arg_25_5, arg_25_6)
+	local var_25_0 = pg.island_world_objects.get_id_list_by_mapId[arg_25_3] or {}
 
-	for iter_22_0, iter_22_1 in ipairs(var_22_0) do
-		local var_22_1 = pg.island_world_objects[iter_22_1]
+	for iter_25_0, iter_25_1 in ipairs(var_25_0) do
+		local var_25_1 = pg.island_world_objects[iter_25_1]
 
-		if var_22_1.unitId > 0 and (var_22_1.gen_type == IslandConst.UNIT_GEN_TYPE_STATIC or var_22_1.gen_type == IslandConst.UNIT_GEN_TYPE_DYNAMIC) then
-			local var_22_2 = var_0_0.WorldObj2IslandUnit(var_22_1)
+		if var_25_1.unitId > 0 and (var_25_1.gen_type == IslandConst.UNIT_GEN_TYPE_STATIC or var_25_1.gen_type == IslandConst.UNIT_GEN_TYPE_DYNAMIC) then
+			local var_25_2 = var_0_0.WorldObj2IslandUnit(var_25_1)
 
-			table.insert(arg_22_0, var_22_2)
-		elseif var_22_1.unitId > 0 and var_22_1.gen_type == IslandConst.UNIT_GEN_TYPE_ACTIVITY then
-			local var_22_3 = var_0_0.WorldObj2IslandUnit(var_22_1)
+			table.insert(arg_25_0, var_25_2)
+		elseif var_25_1.unitId > 0 and var_25_1.gen_type == IslandConst.UNIT_GEN_TYPE_ACTIVITY then
+			local var_25_3 = var_0_0.WorldObj2IslandUnit(var_25_1)
 
-			table.insert(arg_22_1, var_22_3)
+			table.insert(arg_25_1, var_25_3)
 		end
 	end
 
-	if arg_22_3 == IslandConst.CheaterTavernMapId then
+	if arg_25_3 == IslandConst.CheaterTavernMapId then
 		return
 	end
 
-	for iter_22_2, iter_22_3 in pairs(arg_22_2) do
-		if iter_22_3:IsSelf() then
-			local var_22_4 = var_0_0.PlayerData2IslandUnit(iter_22_3, arg_22_3, arg_22_6, arg_22_4, arg_22_5)
+	for iter_25_2, iter_25_3 in pairs(arg_25_2) do
+		if iter_25_3:IsSelf() then
+			local var_25_4 = var_0_0.PlayerData2IslandUnit(iter_25_3, arg_25_3, arg_25_6, arg_25_4, arg_25_5)
 
-			table.insert(arg_22_0, var_22_4)
+			table.insert(arg_25_0, var_25_4)
 		end
 	end
 
-	local var_22_5 = var_0_0.TakePhotoData2IslandUnit(2)
+	local var_25_5 = var_0_0.TakePhotoData2IslandUnit(2)
 
-	table.insert(arg_22_0, var_22_5)
+	table.insert(arg_25_0, var_25_5)
 
-	local var_22_6 = var_0_0.TakePhotoData2IslandUnit(3)
+	local var_25_6 = var_0_0.TakePhotoData2IslandUnit(3)
 
-	table.insert(arg_22_0, var_22_6)
+	table.insert(arg_25_0, var_25_6)
 end
 
-local function var_0_1(arg_23_0, arg_23_1, arg_23_2, arg_23_3)
-	if arg_23_1 then
+local function var_0_1(arg_26_0, arg_26_1, arg_26_2, arg_26_3)
+	if arg_26_1 then
 		return
 	end
 
-	if arg_23_0 ~= arg_23_2.mapId then
+	if arg_26_0 ~= arg_26_2.mapId then
 		return
 	end
 
-	arg_23_3.position = {
-		arg_23_2.position.x,
-		arg_23_2.position.y,
-		arg_23_2.position.z
+	arg_26_3.position = {
+		arg_26_2.position.x,
+		arg_26_2.position.y,
+		arg_26_2.position.z
 	}
-	arg_23_3.rotation = {
-		arg_23_2.rotation.x,
-		arg_23_2.rotation.y,
-		arg_23_2.rotation.z
+	arg_26_3.rotation = {
+		arg_26_2.rotation.x,
+		arg_26_2.rotation.y,
+		arg_26_2.rotation.z
 	}
 end
 
-function var_0_0.PlayerData2IslandUnit(arg_24_0, arg_24_1, arg_24_2, arg_24_3, arg_24_4)
-	local var_24_0
-	local var_24_1
-	local var_24_2 = pg.island_world_objects.get_id_list_by_mapId[arg_24_1] or {}
+function var_0_0.PlayerData2IslandUnit(arg_27_0, arg_27_1, arg_27_2, arg_27_3, arg_27_4)
+	local var_27_0
+	local var_27_1
+	local var_27_2 = pg.island_world_objects.get_id_list_by_mapId[arg_27_1] or {}
 
-	for iter_24_0, iter_24_1 in ipairs(var_24_2) do
-		local var_24_3 = pg.island_world_objects[iter_24_1]
+	for iter_27_0, iter_27_1 in ipairs(var_27_2) do
+		local var_27_3 = pg.island_world_objects[iter_27_1]
 
-		if var_24_3.unitId == 0 then
-			var_24_0 = var_24_3
+		if var_27_3.unitId == 0 then
+			var_27_0 = var_27_3
 
 			break
 		end
 	end
 
-	assert(var_24_0)
+	assert(var_27_0)
 
-	if arg_24_0:IsSelf() then
-		local var_24_4 = {
-			id = arg_24_0.id,
-			unitId = arg_24_0:GetModelId(),
+	if arg_27_0:IsSelf() then
+		local var_27_4 = {
+			id = arg_27_0.id,
+			unitId = arg_27_0:GetModelId(),
 			typ = IslandConst.UNIT_TYPE_PLAYER
 		}
-		local var_24_5 = arg_24_3 and pg.island_world_objects[arg_24_3] or var_24_0
+		local var_27_5 = arg_27_3 and pg.island_world_objects[arg_27_3] or var_27_0
 
-		if var_24_5.mapId ~= arg_24_1 then
-			var_24_5 = var_24_0
+		if var_27_5.mapId ~= arg_27_1 then
+			var_27_5 = var_27_0
 		end
 
-		var_0_1(arg_24_1, arg_24_3, arg_24_4, var_24_4)
+		var_0_1(arg_27_1, arg_27_3, arg_27_4, var_27_4)
 
-		var_24_1 = var_0_0.WorldObj2IslandUnit(var_24_5, var_24_4)
+		var_27_1 = var_0_0.WorldObj2IslandUnit(var_27_5, var_27_4)
 	else
-		local var_24_6 = {
+		local var_27_6 = {
 			behaviourTree = "Island/NodeCanvas/Visitor",
-			id = arg_24_0.id,
-			unitId = arg_24_0:GetModelId(),
+			id = arg_27_0.id,
+			unitId = arg_27_0:GetModelId(),
 			typ = IslandConst.UNIT_TYPE_VISITOR,
-			islandId = arg_24_2
+			islandId = arg_27_2
 		}
 
-		var_24_1 = var_0_0.WorldObj2IslandUnit(var_24_0, var_24_6)
+		var_27_1 = var_0_0.WorldObj2IslandUnit(var_27_0, var_27_6)
 	end
 
-	return var_24_1
+	return var_27_1
 end
 
-function var_0_0.ModelId2IslandUnit(arg_25_0, arg_25_1, arg_25_2, arg_25_3)
-	local var_25_0 = pg.island_world_objects[arg_25_0] or {}
-	local var_25_1
+function var_0_0.ModelId2IslandUnit(arg_28_0, arg_28_1, arg_28_2, arg_28_3)
+	local var_28_0 = pg.island_world_objects[arg_28_0] or {}
+	local var_28_1
 
-	if var_25_0.mapId == arg_25_2 then
-		local var_25_2 = {
-			unitId = arg_25_1,
-			typ = arg_25_3
+	if var_28_0.mapId == arg_28_2 then
+		local var_28_2 = {
+			unitId = arg_28_1,
+			typ = arg_28_3
 		}
 
-		var_25_1 = var_0_0.WorldObj2IslandUnit(var_25_0, var_25_2)
+		var_28_1 = var_0_0.WorldObj2IslandUnit(var_28_0, var_28_2)
 	end
 
-	return var_25_1
+	return var_28_1
 end
 
-function var_0_0.WorldObj2IslandUnit(arg_26_0, arg_26_1)
-	arg_26_1 = arg_26_1 or {}
+function var_0_0.WorldObj2IslandUnit(arg_29_0, arg_29_1)
+	arg_29_1 = arg_29_1 or {}
 
-	local var_26_0 = arg_26_1.typ or arg_26_0.type
-	local var_26_1
+	local var_29_0 = arg_29_1.typ or arg_29_0.type
+	local var_29_1
 
-	if var_26_0 == IslandConst.UNIT_TYPE_ITEM_INTERACT then
-		var_26_1 = IslandInteractUnitVO
-	elseif var_26_0 == IslandConst.UNIT_TYPE_ITEM_GATHER_ITEM or var_26_0 == IslandConst.UNIT_TYPE_ITEM_WILD_COLLECT_ITEM then
-		var_26_1 = IslandGatherUnitVO
-	elseif var_26_0 == IslandConst.UNIT_TYPE_VISITOR then
-		var_26_1 = IslandVistorUnitVO
+	if var_29_0 == IslandConst.UNIT_TYPE_ITEM_INTERACT then
+		var_29_1 = IslandInteractUnitVO
+	elseif var_29_0 == IslandConst.UNIT_TYPE_ITEM_GATHER_ITEM or var_29_0 == IslandConst.UNIT_TYPE_ITEM_WILD_COLLECT_ITEM then
+		var_29_1 = IslandGatherUnitVO
+	elseif var_29_0 == IslandConst.UNIT_TYPE_VISITOR then
+		var_29_1 = IslandVistorUnitVO
 	else
-		var_26_1 = IslandUnitVO
+		var_29_1 = IslandUnitVO
 	end
 
-	return (var_26_1.New({
-		id = arg_26_1.id or arg_26_0.id,
-		modelId = arg_26_1.unitId or arg_26_0.unitId,
-		type = arg_26_1.typ or arg_26_0.type,
-		name = arg_26_0.name,
-		position = arg_26_1.position or arg_26_0.param.position,
-		rotation = arg_26_1.rotation or arg_26_0.param.rotation,
-		scale = arg_26_0.param.scale or {
+	return (var_29_1.New({
+		id = arg_29_1.id or arg_29_0.id,
+		modelId = arg_29_1.unitId or arg_29_0.unitId,
+		type = arg_29_1.typ or arg_29_0.type,
+		name = arg_29_0.name,
+		position = arg_29_1.position or arg_29_0.param.position,
+		rotation = arg_29_1.rotation or arg_29_0.param.rotation,
+		scale = arg_29_0.param.scale or {
 			1,
 			1,
 			1
 		},
-		behaviourTree = arg_26_1.behaviourTree or arg_26_0.behaviourTree,
-		genType = arg_26_0.gen_type,
-		showCondition = arg_26_0.show_param or {},
-		hideCondition = arg_26_0.hide_param or {},
-		index = arg_26_1.index or 0,
-		islandId = arg_26_1.islandId
+		behaviourTree = arg_29_1.behaviourTree or arg_29_0.behaviourTree,
+		genType = arg_29_0.gen_type,
+		showCondition = arg_29_0.show_param or {},
+		hideCondition = arg_29_0.hide_param or {},
+		index = arg_29_1.index or 0,
+		islandId = arg_29_1.islandId
 	}))
 end
 
-function var_0_0.TakePhotoData2IslandUnit(arg_27_0)
-	local var_27_0 = {
+function var_0_0.TakePhotoData2IslandUnit(arg_30_0)
+	local var_30_0 = {
 		unitId = 20024,
-		id = arg_27_0,
+		id = arg_30_0,
 		typ = IslandConst.UNIT_TYPE_FIRST_TAKE_PHOTO_ITEM
 	}
 
@@ -544,10 +572,10 @@ function var_0_0.TakePhotoData2IslandUnit(arg_27_0)
 		index = 0,
 		behaviourTree = "",
 		genType = 1,
-		id = var_27_0.id,
-		modelId = var_27_0.unitId,
-		type = var_27_0.typ,
-		name = "TakePhoto" .. arg_27_0,
+		id = var_30_0.id,
+		modelId = var_30_0.unitId,
+		type = var_30_0.typ,
+		name = "TakePhoto" .. arg_30_0,
 		position = {
 			0,
 			0,
@@ -568,13 +596,13 @@ function var_0_0.TakePhotoData2IslandUnit(arg_27_0)
 	}))
 end
 
-function var_0_0.IslandCheaterTavernPlayerDataToUnit(arg_28_0)
-	local var_28_0 = CheaterTavernHelper.GetModelDataByViewData(arg_28_0.user_view)
-	local var_28_1 = 10110000 + arg_28_0.seat
-	local var_28_2 = pg.island_world_objects[var_28_1]
-	local var_28_3 = {
-		id = arg_28_0.id,
-		unitId = var_28_0.unitId,
+function var_0_0.IslandCheaterTavernPlayerDataToUnit(arg_31_0)
+	local var_31_0 = CheaterTavernHelper.GetModelDataByViewData(arg_31_0.user_view)
+	local var_31_1 = 10110000 + arg_31_0.seat
+	local var_31_2 = pg.island_world_objects[var_31_1]
+	local var_31_3 = {
+		id = arg_31_0.id,
+		unitId = var_31_0.unitId,
 		typ = IslandConst.UNIT_TYPE_CHEATERTAVERN_PLAYER
 	}
 
@@ -582,13 +610,13 @@ function var_0_0.IslandCheaterTavernPlayerDataToUnit(arg_28_0)
 		index = 0,
 		behaviourTree = "",
 		genType = 1,
-		id = var_28_3.id,
-		modelId = var_28_3.unitId,
-		type = var_28_3.typ,
-		name = arg_28_0.id,
-		position = var_28_3.position or var_28_2.param.position,
-		rotation = var_28_3.rotation or var_28_2.param.rotation,
-		scale = var_28_2.param.scale or {
+		id = var_31_3.id,
+		modelId = var_31_3.unitId,
+		type = var_31_3.typ,
+		name = arg_31_0.id,
+		position = var_31_3.position or var_31_2.param.position,
+		rotation = var_31_3.rotation or var_31_2.param.rotation,
+		scale = var_31_2.param.scale or {
 			1,
 			1,
 			1
@@ -603,72 +631,72 @@ function var_0_0.IslandCheaterTavernPlayerDataToUnit(arg_28_0)
 	}))
 end
 
-function var_0_0.GenDelayRecycleIslandUnit(arg_29_0)
-	local var_29_0 = pg.island_world_objects[arg_29_0.id]
-	local var_29_1 = {
-		id = arg_29_0.id,
-		unitId = arg_29_0.unitId,
+function var_0_0.GenDelayRecycleIslandUnit(arg_32_0)
+	local var_32_0 = pg.island_world_objects[arg_32_0.id]
+	local var_32_1 = {
+		id = arg_32_0.id,
+		unitId = arg_32_0.unitId,
 		position = {
-			arg_29_0.position.x,
-			arg_29_0.position.y,
-			arg_29_0.position.z
+			arg_32_0.position.x,
+			arg_32_0.position.y,
+			arg_32_0.position.z
 		},
 		rotation = {
-			arg_29_0.rotation.x,
-			arg_29_0.rotation.y,
-			arg_29_0.rotation.z
+			arg_32_0.rotation.x,
+			arg_32_0.rotation.y,
+			arg_32_0.rotation.z
 		},
-		behaviourTree = arg_29_0.behaviourTree,
-		recycleAssetType = arg_29_0.recycleAssetType,
-		delayRecycleTime = arg_29_0.delayRecycleTime
+		behaviourTree = arg_32_0.behaviourTree,
+		recycleAssetType = arg_32_0.recycleAssetType,
+		delayRecycleTime = arg_32_0.delayRecycleTime
 	}
 
-	return var_0_0.WorldObj2IslandDelayRecycleUnit(var_29_0, var_29_1)
+	return var_0_0.WorldObj2IslandDelayRecycleUnit(var_32_0, var_32_1)
 end
 
-function var_0_0.WorldObj2IslandDelayRecycleUnit(arg_30_0, arg_30_1)
-	arg_30_1 = arg_30_1 or {}
+function var_0_0.WorldObj2IslandDelayRecycleUnit(arg_33_0, arg_33_1)
+	arg_33_1 = arg_33_1 or {}
 
 	return (IslandDelayRecycleUnitVO.New({
-		id = arg_30_1.id or arg_30_0.id,
-		modelId = arg_30_1.unitId or arg_30_0.unitId,
+		id = arg_33_1.id or arg_33_0.id,
+		modelId = arg_33_1.unitId or arg_33_0.unitId,
 		type = IslandConst.UNIT_TYPE_ITEM_DELAY_RECYCLE,
-		name = arg_30_0.name .. "delay",
-		position = arg_30_1.position or arg_30_0.param.position,
-		rotation = arg_30_1.rotation or arg_30_0.param.rotation,
-		scale = arg_30_0.param.scale or {
+		name = arg_33_0.name .. "delay",
+		position = arg_33_1.position or arg_33_0.param.position,
+		rotation = arg_33_1.rotation or arg_33_0.param.rotation,
+		scale = arg_33_0.param.scale or {
 			1,
 			1,
 			1
 		},
-		behaviourTree = arg_30_1.behaviourTree or arg_30_0.behaviourTree,
-		genType = arg_30_0.gen_type,
-		showCondition = arg_30_0.show_param or {},
-		hideCondition = arg_30_0.hide_param or {},
-		index = arg_30_1.index or 0,
-		delayRecycleTime = arg_30_1.delayRecycleTime,
-		recycleAssetType = arg_30_1.recycleAssetType
+		behaviourTree = arg_33_1.behaviourTree or arg_33_0.behaviourTree,
+		genType = arg_33_0.gen_type,
+		showCondition = arg_33_0.show_param or {},
+		hideCondition = arg_33_0.hide_param or {},
+		index = arg_33_1.index or 0,
+		delayRecycleTime = arg_33_1.delayRecycleTime,
+		recycleAssetType = arg_33_1.recycleAssetType
 	}))
 end
 
-function var_0_0.GenWildGatherUnit(arg_31_0)
-	local var_31_0 = pg.island_world_objects[arg_31_0.unitId]
+function var_0_0.GenWildGatherUnit(arg_34_0)
+	local var_34_0 = pg.island_world_objects[arg_34_0.unitId]
 
-	return (var_0_0.WorldObj2IslandUnit(var_31_0, {
-		index = arg_31_0.islandId,
-		typ = arg_31_0.gatherType
+	return (var_0_0.WorldObj2IslandUnit(var_34_0, {
+		index = arg_34_0.islandId,
+		typ = arg_34_0.gatherType
 	}))
 end
 
-function var_0_0.GenInteractUnitByAgoraFurniture(arg_32_0)
+function var_0_0.GenInteractUnitByAgoraFurniture(arg_35_0)
 	return (IslandVirtualInteractUnitVO.New({
 		index = 0,
-		id = arg_32_0.id,
-		modelId = arg_32_0.pointId,
+		id = arg_35_0.id,
+		modelId = arg_35_0.pointId,
 		type = IslandConst.UNIT_TYPE_VIRTUAL_INTERACT,
-		name = "AgoraInteract" .. arg_32_0.id,
-		position = arg_32_0.position,
-		rotation = arg_32_0.rotation,
+		name = "AgoraInteract" .. arg_35_0.id,
+		position = arg_35_0.position,
+		rotation = arg_35_0.rotation,
 		scale = {
 			1,
 			1,

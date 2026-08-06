@@ -88,14 +88,7 @@ function var_0_0.findUI(arg_6_0)
 	local var_6_6 = arg_6_0._tf:Find("AwardPanel")
 
 	arg_6_0.awardTpl = var_6_6:Find("AwardTpl")
-	arg_6_0.iconTpl = Instantiate(arg_6_0._tf:GetComponent(typeof(ItemList)).prefabItem[0])
-
-	setLocalScale(arg_6_0.iconTpl, {
-		x = 0.4,
-		y = 0.4
-	})
-	setParent(arg_6_0.iconTpl, arg_6_0.awardTpl:Find("Icon"))
-
+	arg_6_0.iconTpl = arg_6_0.awardTpl:Find("Icon/IconTpl")
 	arg_6_0.awardTFList = {}
 
 	local function var_6_7(arg_7_0, arg_7_1, arg_7_2)

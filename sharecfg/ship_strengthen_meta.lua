@@ -15776,7 +15776,7 @@ pg.base.ship_strengthen_meta = {}
 	}
 	pg.base.ship_strengthen_meta[970213] = {
 		synchronize = 0,
-		activity_id = 7029,
+		activity_id = 7030,
 		itemid = 0,
 		type = 3,
 		id = 970213,

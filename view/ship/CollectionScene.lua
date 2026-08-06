@@ -318,10 +318,6 @@ function var_0_0.didEnter(arg_17_0)
 							arg_17_0.musicView:tryPlayMusic()
 						end
 					end
-
-					if iter_17_0 ~= var_0_0.GALLERY_INDEX and arg_17_0.galleryView and arg_17_0.galleryView:CheckState(BaseSubView.STATES.INITED) then
-						arg_17_0.galleryView:closePicPanel()
-					end
 				end
 			end, SFX_UI_TAG)
 		end
@@ -1023,54 +1019,51 @@ function var_0_0.initMangaPanel(arg_73_0)
 end
 
 function var_0_0.initEvents(arg_74_0)
-	arg_74_0:bind(GalleryConst.OPEN_FULL_SCREEN_PIC_VIEW, function(arg_75_0, arg_75_1)
-		arg_74_0:emit(CollectionMediator.EVENT_OPEN_FULL_SCREEN_PIC_VIEW, arg_75_1)
-	end)
 	arg_74_0:bind(var_0_0.UPDATE_RED_POINT, function()
 		arg_74_0:updateCollectNotices()
 	end)
 end
 
-function var_0_0.onBackPressed(arg_77_0)
+function var_0_0.onBackPressed(arg_76_0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
-	if arg_77_0.bonusPanel.gameObject.activeSelf then
-		arg_77_0:closeBonus()
+	if arg_76_0.bonusPanel.gameObject.activeSelf then
+		arg_76_0:closeBonus()
 
 		return
 	end
 
-	if arg_77_0.galleryView then
-		if arg_77_0.galleryView:onBackPressed() == true then
-			arg_77_0.galleryView:Destroy()
+	if arg_76_0.galleryView then
+		if arg_76_0.galleryView:onBackPressed() == true then
+			arg_76_0.galleryView:Destroy()
 
-			arg_77_0.galleryView = nil
+			arg_76_0.galleryView = nil
 		else
 			return
 		end
 	end
 
-	if arg_77_0.musicView then
-		if arg_77_0.musicView:onBackPressed() == true then
-			arg_77_0.musicView:Destroy()
+	if arg_76_0.musicView then
+		if arg_76_0.musicView:onBackPressed() == true then
+			arg_76_0.musicView:Destroy()
 
-			arg_77_0.musicView = nil
+			arg_76_0.musicView = nil
 		else
 			return
 		end
 	end
 
-	if arg_77_0.mangaView then
-		if arg_77_0.mangaView:onBackPressed() == true then
-			arg_77_0.mangaView:Destroy()
+	if arg_76_0.mangaView then
+		if arg_76_0.mangaView:onBackPressed() == true then
+			arg_76_0.mangaView:Destroy()
 
-			arg_77_0.mangaView = nil
+			arg_76_0.mangaView = nil
 		else
 			return
 		end
 	end
 
-	triggerButton(arg_77_0.backBtn)
+	triggerButton(arg_76_0.backBtn)
 end
 
 return var_0_0

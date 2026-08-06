@@ -27,7 +27,12 @@ pg.island_couple_word.all = {
 	22,
 	23,
 	24,
-	25
+	25,
+	26,
+	27,
+	28,
+	29,
+	30
 }
 pg.base = pg.base or {}
 pg.base.island_couple_word = {}
@@ -263,6 +268,52 @@ pg.base.island_couple_word = {}
 		type = 2,
 		param = {
 			30311
+		}
+	}
+	pg.base.island_couple_word[26] = {
+		id = 26,
+		story = "island_couple_word_26",
+		weight = 10000,
+		type = 2,
+		param = {
+			19903
+		}
+	}
+	pg.base.island_couple_word[27] = {
+		id = 27,
+		story = "island_couple_word_27",
+		weight = 10000,
+		type = 2,
+		param = {
+			90107
+		}
+	}
+	pg.base.island_couple_word[28] = {
+		id = 28,
+		story = "island_couple_word_28",
+		weight = 2000,
+		type = 1,
+		param = {
+			50108,
+			50107
+		}
+	}
+	pg.base.island_couple_word[29] = {
+		id = 29,
+		story = "island_couple_word_29",
+		weight = 10000,
+		type = 2,
+		param = {
+			960001
+		}
+	}
+	pg.base.island_couple_word[30] = {
+		id = 30,
+		story = "island_couple_word_30",
+		weight = 10000,
+		type = 2,
+		param = {
+			20212
 		}
 	}
 end)()

@@ -49,6 +49,7 @@ function var_0_0.Destroy(arg_3_0)
 	arg_3_0:OnDestroy()
 	arg_3_0.loader:Clear()
 	arg_3_0.buffer:Clear()
+	bindComponent(arg_3_0, arg_3_0._go, true)
 	arg_3_0:disposeEvent()
 	arg_3_0:cleanManagedTween()
 

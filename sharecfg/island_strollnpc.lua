@@ -11,7 +11,9 @@ pg.island_strollnpc.all = {
 	10117,
 	10517,
 	10703,
+	19903,
 	20121,
+	20212,
 	20403,
 	20603,
 	29903,
@@ -20,10 +22,12 @@ pg.island_strollnpc.all = {
 	30707,
 	31201,
 	40303,
+	50108,
 	50204,
 	50205,
 	60802,
 	70104,
+	90107,
 	90111,
 	30311,
 	30312,
@@ -45,6 +49,7 @@ pg.island_strollnpc.all = {
 	300404,
 	300405,
 	300501,
+	960001,
 	990001,
 	990002,
 	990003
@@ -132,6 +137,19 @@ pg.base.island_strollnpc = {}
 			}
 		}
 	}
+	pg.base.island_strollnpc[19903] = {
+		id = 19903,
+		behaviourTree = "",
+		unit_id = 1990300,
+		action_feedback = 1,
+		unlock = -1,
+		mapId = {
+			{
+				1002,
+				19
+			}
+		}
+	}
 	pg.base.island_strollnpc[20121] = {
 		id = 20121,
 		behaviourTree = "",
@@ -142,6 +160,19 @@ pg.base.island_strollnpc = {}
 			{
 				1002,
 				18
+			}
+		}
+	}
+	pg.base.island_strollnpc[20212] = {
+		id = 20212,
+		behaviourTree = "",
+		unit_id = 2021200,
+		action_feedback = 1,
+		unlock = -1,
+		mapId = {
+			{
+				1001,
+				6
 			}
 		}
 	}
@@ -249,6 +280,19 @@ pg.base.island_strollnpc = {}
 			}
 		}
 	}
+	pg.base.island_strollnpc[50108] = {
+		id = 50108,
+		behaviourTree = "",
+		unit_id = 5010800,
+		action_feedback = 1,
+		unlock = -1,
+		mapId = {
+			{
+				1004,
+				6
+			}
+		}
+	}
 	pg.base.island_strollnpc[50204] = {
 		id = 50204,
 		behaviourTree = "",
@@ -298,6 +342,19 @@ pg.base.island_strollnpc = {}
 			{
 				1004,
 				0
+			}
+		}
+	}
+	pg.base.island_strollnpc[90107] = {
+		id = 90107,
+		behaviourTree = "",
+		unit_id = 9010700,
+		action_feedback = 1,
+		unlock = -1,
+		mapId = {
+			{
+				1002,
+				20
 			}
 		}
 	}
@@ -556,6 +613,19 @@ pg.base.island_strollnpc = {}
 			{
 				1001,
 				2
+			}
+		}
+	}
+	pg.base.island_strollnpc[960001] = {
+		id = 960001,
+		behaviourTree = "",
+		unit_id = 96000100,
+		action_feedback = 1,
+		unlock = -1,
+		mapId = {
+			{
+				1002,
+				21
 			}
 		}
 	}

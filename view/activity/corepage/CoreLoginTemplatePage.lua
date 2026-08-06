@@ -65,6 +65,9 @@ function var_0_0.UpdateTask(arg_5_0, arg_5_1, arg_5_2)
 	local var_5_11 = arg_5_2:Find("go_btn")
 	local var_5_12 = arg_5_2:Find("get_btn")
 	local var_5_13 = arg_5_2:Find("got_btn")
+
+	arg_5_0:SetBtnLocal(arg_5_2)
+
 	local var_5_14 = var_5_3:getTaskStatus()
 
 	setActive(var_5_11, var_5_14 == 0)
@@ -129,6 +132,10 @@ function var_0_0.OnDestroy(arg_13_0)
 end
 
 function var_0_0.GetProgressColor(arg_15_0)
+	return nil
+end
+
+function var_0_0.SetBtnLocal(arg_16_0, arg_16_1)
 	return nil
 end
 

@@ -150,14 +150,15 @@ function var_0_0.OnInit(arg_4_0)
 		end)()
 		local var_15_2 = pg.island_formula[var_15_1]
 		local var_15_3 = math.floor(var_15_2.stamina_cost * (1 - IslandProductCostHelper.GetReducePercentInPlace(var_15_0, arg_4_0.placeId)))
-		local var_15_4 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(var_15_0)
+		local var_15_4 = math.max(var_15_3, 1)
+		local var_15_5 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(var_15_0)
 
-		if not var_15_4:IsDelegable() then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("island_quick_delegation_notenough_onduty", var_15_4:GetName()))
+		if not var_15_5:IsDelegable() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("island_quick_delegation_notenough_onduty", var_15_5:GetName()))
 
 			arg_4_0.selectedShipId = 1
-		elseif var_15_3 > var_15_4:GetCurrentEnergy() then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("island_quick_delegation_notenough_encourage", var_15_4:GetName()))
+		elseif var_15_4 > var_15_5:GetCurrentEnergy() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("island_quick_delegation_notenough_encourage", var_15_5:GetName()))
 
 			arg_4_0.selectedShipId = 1
 		else

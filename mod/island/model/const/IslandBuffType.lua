@@ -9,6 +9,8 @@ var_0_0.SHIP_MANAGE_SELL_PRICE = 601
 var_0_0.SHIP_MANAGE_SELL_NUM = 602
 var_0_0.GLOBAL_MANAGE_SELL_PRICE = 603
 var_0_0.GLOBAL_MANAGE_SELL_NUM = 604
+var_0_0.SHIP_POWER_RECOVER_BY_GREETING = 701
+var_0_0.SHIP_AWARD_BY_GREETING = 702
 
 function var_0_0.GetGlobalTypes()
 	return {
@@ -44,6 +46,17 @@ end
 
 function var_0_0.IsLimitRestaurantType(arg_6_0)
 	return table.contains(var_0_0.GetLimitRestaurantTypes(), arg_6_0)
+end
+
+function var_0_0.GetGreetingTypes()
+	return {
+		var_0_0.SHIP_POWER_RECOVER_BY_GREETING,
+		var_0_0.SHIP_AWARD_BY_GREETING
+	}
+end
+
+function var_0_0.IsGreetingType(arg_8_0)
+	return table.contains(var_0_0.GetGreetingTypes(), arg_8_0)
 end
 
 return var_0_0

@@ -28,7 +28,13 @@ function var_0_0.Resopon(arg_1_0, arg_1_1, arg_1_2, arg_1_3)
 		end
 	}, function()
 		if var_1_1 then
-			arg_1_0:NotifiyMeditor(IslandMediator.NPC_ACTION_AWARD, arg_1_1.id, var_1_0)
+			local var_3_0 = arg_1_1.id
+
+			if not arg_1_1.data:ExistActionFeedback() then
+				var_3_0 = 0
+			end
+
+			arg_1_0:NotifiyMeditor(IslandMediator.NPC_ACTION_AWARD, var_3_0, arg_1_1.data.shipId, var_1_0)
 		end
 	end)
 end

@@ -67840,7 +67840,8 @@ end)()
 		},
 		tag_list = {
 			"Essex-Class",
-			"Essex-Class-No-Yorktown"
+			"Essex-Class-No-Yorktown",
+			"DetectiveEssex"
 		},
 		gift_dislike = {
 			180006,
@@ -67972,7 +67973,8 @@ end)()
 		},
 		tag_list = {
 			"Essex-Class",
-			"Essex-Class-No-Yorktown"
+			"Essex-Class-No-Yorktown",
+			"DetectiveEssex"
 		},
 		gift_dislike = {
 			180006,
@@ -68104,7 +68106,8 @@ end)()
 		},
 		tag_list = {
 			"Essex-Class",
-			"Essex-Class-No-Yorktown"
+			"Essex-Class-No-Yorktown",
+			"DetectiveEssex"
 		},
 		gift_dislike = {
 			180006,
@@ -68236,7 +68239,8 @@ end)()
 		},
 		tag_list = {
 			"Essex-Class",
-			"Essex-Class-No-Yorktown"
+			"Essex-Class-No-Yorktown",
+			"DetectiveEssex"
 		},
 		gift_dislike = {
 			180006,
@@ -75761,7 +75765,8 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown",
-			"EssexG"
+			"EssexG",
+			"DetectiveEssex"
 		},
 		gift_dislike = {
 			180006,

@@ -4,6 +4,7 @@ var_0_0.ADD_SHIP = "IslandCharacterAgency:ADD_SHIP"
 var_0_0.SHIP_LEVEL_UP = "IslandCharacterAgency:SHIP_LEVEL_UP"
 var_0_0.SHIP_GET_STATE = "IslandCharacterAgency:SHIP_GET_STATE"
 var_0_0.CHANGE_CHARACTER_DRESS = "IslandCharacterAgency:CHANGE_CHARACTER_DRESS"
+var_0_0.SHIP_SKILL_STATE_CHANGE = "IslandCharacterAgency:SHIP_SKILL_STATE_CHANGE"
 var_0_0.NPC_CONFIG_ID = 1
 
 function var_0_0.OnInit(arg_1_0, arg_1_1)
@@ -429,6 +430,12 @@ end
 
 function var_0_0.GetShipHoldedDressDic(arg_45_0)
 	return arg_45_0.shipWearDressData
+end
+
+function var_0_0.ResetShipSkillUsed(arg_46_0)
+	for iter_46_0, iter_46_1 in pairs(arg_46_0.ships) do
+		iter_46_1:GetSkill():UpdateUsedToday(false)
+	end
 end
 
 return var_0_0

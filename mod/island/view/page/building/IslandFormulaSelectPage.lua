@@ -788,7 +788,9 @@ function var_0_0.GetAttrGrowingValueByBuff(arg_49_0, arg_49_1, arg_49_2)
 end
 
 function var_0_0.GetOneFormulaEnergyCost(arg_50_0)
-	return math.floor(arg_50_0.formulaCfg.stamina_cost * (1 - IslandProductCostHelper.GetReducePercentInPlace(arg_50_0.selectedShipId, arg_50_0.placeId)))
+	local var_50_0 = math.floor(arg_50_0.formulaCfg.stamina_cost * (1 - IslandProductCostHelper.GetReducePercentInPlace(arg_50_0.selectedShipId, arg_50_0.placeId)))
+
+	return (math.max(var_50_0, 1))
 end
 
 function var_0_0.OnHide(arg_51_0)

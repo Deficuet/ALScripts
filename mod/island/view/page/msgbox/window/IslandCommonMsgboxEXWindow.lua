@@ -5,20 +5,6 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	local var_2_0 = arg_2_0._tf:GetComponent("ItemList").prefabItem:ToTable()
-
-	for iter_2_0, iter_2_1 in ipairs({
-		"rtTitle",
-		"rtContext",
-		"closeBtn",
-		"cancelBtn",
-		"confirmBtn",
-		"rtCancelText",
-		"rtConfirmText"
-	}) do
-		arg_2_0[iter_2_1] = var_2_0[iter_2_0].transform
-	end
-
 	arg_2_0.titleTxt = arg_2_0.rtTitle:GetComponent(typeof(Text))
 	arg_2_0.contentTxt = arg_2_0.rtContext:GetComponent("RichText")
 	arg_2_0.cancelTxt = arg_2_0.rtCancelText:GetComponent(typeof(Text))

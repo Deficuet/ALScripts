@@ -1,6 +1,7 @@
 local var_0_0 = class("IslandSeasonPage", import("...base.IslandBasePage"))
 
 var_0_0.CLOSE = "IslandSeasonPage:CLOSE"
+var_0_0.UPDATE_REDDOT = "IslandSeasonPage:UPDATE_REDDOT"
 var_0_0.PAGE_ACTIVITY = "activity"
 var_0_0.PAGE_PT = "pt"
 var_0_0.PAGE_TASK = "task"
@@ -120,49 +121,61 @@ function var_0_0.OnInit(arg_10_0)
 	arg_10_0:bind(var_0_0.CLOSE, function()
 		arg_10_0:Close(false)
 	end)
+	arg_10_0:bind(var_0_0.UPDATE_REDDOT, function(arg_16_0, arg_16_1)
+		arg_10_0:UpdateRedDot(arg_16_1)
+	end)
+	arg_10_0:UpdateRedDot()
 end
 
-function var_0_0.AddListeners(arg_16_0)
-	arg_16_0:AddListener(ActivityProxy.ACTIVITY_UPDATED, arg_16_0.FlushActivityPage)
-	arg_16_0:AddListener(IslandSeasonAgency.ADD_PT, arg_16_0.FlushPtPage)
-	arg_16_0:AddListener(GAME.ISLAND_GET_SEASON_PT_AWARD_DONE, arg_16_0.FlushPtPage)
-	arg_16_0:AddListener(GAME.ISLAND_SUBMIT_TASK_DONE, arg_16_0.OnSubmitTaskDone)
-	arg_16_0:AddListener(GAME.ISLAND_SUBMIT_TASK_ONE_STEP_DONE, arg_16_0.OnSubmitTaskDone)
-	arg_16_0:AddListener(GAME.ISLAND_SHOP_OP_DONE, arg_16_0.FlushShopPage)
-	arg_16_0:AddListener(GAME.ISLAND_GET_SEASON_RANK_DONE, arg_16_0.OnGetRankData)
-	arg_16_0:AddListener(IslandTaskAgency.TASK_ADDED, arg_16_0.OnTaskAdded)
-	arg_16_0:AddListener(IslandTaskAgency.TASK_UPDATED, arg_16_0.OnTaskUpdate)
-	arg_16_0:AddListener(IslandTaskAgency.TASK_REMOVED, arg_16_0.OnTaskRemove)
-	arg_16_0:AddListener(IslandTaskAgency.TASK_FINISH, arg_16_0.OnTaskFinish)
+function var_0_0.UpdateRedDot(arg_17_0, arg_17_1)
+	eachChild(arg_17_0.togglesTF, function(arg_18_0)
+		if not arg_17_1 or arg_18_0.name == arg_17_1 then
+			setActive(arg_18_0:Find("red"), IslandSeasonRedDotHelper.TipTag(arg_18_0.name))
+		end
+	end)
 end
 
-function var_0_0.RemoveListeners(arg_17_0)
-	arg_17_0:RemoveListener(ActivityProxy.ACTIVITY_UPDATED, arg_17_0.FlushActivityPage)
-	arg_17_0:RemoveListener(IslandSeasonAgency.ADD_PT, arg_17_0.FlushPtPage)
-	arg_17_0:RemoveListener(GAME.ISLAND_GET_SEASON_PT_AWARD_DONE, arg_17_0.FlushPtPage)
-	arg_17_0:RemoveListener(GAME.ISLAND_SUBMIT_TASK_DONE, arg_17_0.OnSubmitTaskDone)
-	arg_17_0:RemoveListener(GAME.ISLAND_SUBMIT_TASK_ONE_STEP_DONE, arg_17_0.OnSubmitTaskDone)
-	arg_17_0:RemoveListener(GAME.ISLAND_SHOP_OP_DONE, arg_17_0.FlushShopPage)
-	arg_17_0:RemoveListener(GAME.ISLAND_GET_SEASON_RANK_DONE, arg_17_0.OnGetRankData)
-	arg_17_0:RemoveListener(IslandTaskAgency.TASK_ADDED, arg_17_0.OnTaskAdded)
-	arg_17_0:RemoveListener(IslandTaskAgency.TASK_UPDATED, arg_17_0.OnTaskUpdate)
-	arg_17_0:RemoveListener(IslandTaskAgency.TASK_REMOVED, arg_17_0.OnTaskRemove)
-	arg_17_0:RemoveListener(IslandTaskAgency.TASK_FINISH, arg_17_0.OnTaskFinish)
+function var_0_0.AddListeners(arg_19_0)
+	arg_19_0:AddListener(ActivityProxy.ACTIVITY_UPDATED, arg_19_0.FlushActivityPage)
+	arg_19_0:AddListener(IslandSeasonAgency.ADD_PT, arg_19_0.FlushPtPage)
+	arg_19_0:AddListener(GAME.ISLAND_GET_SEASON_PT_AWARD_DONE, arg_19_0.FlushPtPage)
+	arg_19_0:AddListener(GAME.ISLAND_SUBMIT_TASK_DONE, arg_19_0.OnSubmitTaskDone)
+	arg_19_0:AddListener(GAME.ISLAND_SUBMIT_TASK_ONE_STEP_DONE, arg_19_0.OnSubmitTaskDone)
+	arg_19_0:AddListener(GAME.ISLAND_SHOP_OP_DONE, arg_19_0.FlushShopPage)
+	arg_19_0:AddListener(GAME.ISLAND_GET_SEASON_RANK_DONE, arg_19_0.OnGetRankData)
+	arg_19_0:AddListener(IslandTaskAgency.TASK_ADDED, arg_19_0.OnTaskAdded)
+	arg_19_0:AddListener(IslandTaskAgency.TASK_UPDATED, arg_19_0.OnTaskUpdate)
+	arg_19_0:AddListener(IslandTaskAgency.TASK_REMOVED, arg_19_0.OnTaskRemove)
+	arg_19_0:AddListener(IslandTaskAgency.TASK_FINISH, arg_19_0.OnTaskFinish)
 end
 
-function var_0_0.OnShow(arg_18_0, arg_18_1)
-	arg_18_0.contextData.season = getProxy(IslandProxy):GetIsland():GetSeasonAgency():GetSeason()
+function var_0_0.RemoveListeners(arg_20_0)
+	arg_20_0:RemoveListener(ActivityProxy.ACTIVITY_UPDATED, arg_20_0.FlushActivityPage)
+	arg_20_0:RemoveListener(IslandSeasonAgency.ADD_PT, arg_20_0.FlushPtPage)
+	arg_20_0:RemoveListener(GAME.ISLAND_GET_SEASON_PT_AWARD_DONE, arg_20_0.FlushPtPage)
+	arg_20_0:RemoveListener(GAME.ISLAND_SUBMIT_TASK_DONE, arg_20_0.OnSubmitTaskDone)
+	arg_20_0:RemoveListener(GAME.ISLAND_SUBMIT_TASK_ONE_STEP_DONE, arg_20_0.OnSubmitTaskDone)
+	arg_20_0:RemoveListener(GAME.ISLAND_SHOP_OP_DONE, arg_20_0.FlushShopPage)
+	arg_20_0:RemoveListener(GAME.ISLAND_GET_SEASON_RANK_DONE, arg_20_0.OnGetRankData)
+	arg_20_0:RemoveListener(IslandTaskAgency.TASK_ADDED, arg_20_0.OnTaskAdded)
+	arg_20_0:RemoveListener(IslandTaskAgency.TASK_UPDATED, arg_20_0.OnTaskUpdate)
+	arg_20_0:RemoveListener(IslandTaskAgency.TASK_REMOVED, arg_20_0.OnTaskRemove)
+	arg_20_0:RemoveListener(IslandTaskAgency.TASK_FINISH, arg_20_0.OnTaskFinish)
+end
 
-	local var_18_0 = arg_18_0.contextData
+function var_0_0.OnShow(arg_21_0, arg_21_1)
+	arg_21_0.contextData.season = getProxy(IslandProxy):GetIsland():GetSeasonAgency():GetSeason()
 
-	if arg_18_1 and arg_18_1.target_act_id then
-		triggerToggle(arg_18_0.togglesTF:Find(var_0_0.PAGE_ACTIVITY), true)
-		arg_18_0.pages[var_0_0.PAGE_ACTIVITY]:ExecuteAction("verifyTabs", arg_18_1.target_act_id)
+	local var_21_0 = arg_21_0.contextData
+
+	if arg_21_1 and arg_21_1.target_act_id then
+		triggerToggle(arg_21_0.togglesTF:Find(var_0_0.PAGE_ACTIVITY), true)
+		arg_21_0.pages[var_0_0.PAGE_ACTIVITY]:ExecuteAction("verifyTabs", arg_21_1.target_act_id)
 	else
-		triggerToggle(arg_18_0.togglesTF:Find(var_0_0.PAGE_ACTIVITY), true)
+		triggerToggle(arg_21_0.togglesTF:Find(var_0_0.PAGE_ACTIVITY), true)
 	end
 
-	arg_18_0.playRoomPop:Show(true)
+	arg_21_0.playRoomPop:Show(true)
 end
 
 local var_0_1 = {
@@ -174,137 +187,139 @@ local var_0_1 = {
 	[var_0_0.PAGE_REVIEW] = 4
 }
 
-function var_0_0.SwitchPage(arg_19_0)
-	for iter_19_0, iter_19_1 in pairs(arg_19_0.pages) do
-		if iter_19_0 == arg_19_0.curPage then
-			iter_19_1:ExecuteAction("Show")
+function var_0_0.SwitchPage(arg_22_0)
+	for iter_22_0, iter_22_1 in pairs(arg_22_0.pages) do
+		if iter_22_0 == arg_22_0.curPage then
+			iter_22_1:ExecuteAction("Show")
 		else
-			iter_19_1:ExecuteAction("Hide")
+			iter_22_1:ExecuteAction("Hide")
 		end
 
-		local var_19_0 = var_0_1[arg_19_0.curPage]
+		local var_22_0 = var_0_1[arg_22_0.curPage]
 
-		SetCompomentEnabled(arg_19_0.blurTF, "Image", var_19_0 == 1 or var_19_0 == 3 or var_19_0 == 4)
-		setActive(arg_19_0.ptTitleTF, var_19_0 == 2)
-		setActive(arg_19_0.otherTitleTF, var_19_0 == 3)
+		SetCompomentEnabled(arg_22_0.blurTF, "Image", var_22_0 == 1 or var_22_0 == 3 or var_22_0 == 4)
+		setActive(arg_22_0.ptTitleTF, var_22_0 == 2)
+		setActive(arg_22_0.otherTitleTF, var_22_0 == 3)
 
-		if var_19_0 == 1 or var_19_0 == 3 or var_19_0 == 4 then
-			arg_19_0:OverlayPanel(arg_19_0.blurTF, {
+		if var_22_0 == 1 or var_22_0 == 3 or var_22_0 == 4 then
+			arg_22_0:OverlayPanel(arg_22_0.blurTF, {
 				pbList = {
-					arg_19_0.blurTF
+					arg_22_0.blurTF
 				}
 			})
 		else
-			arg_19_0:UnOverlayPanel(arg_19_0.blurTF, arg_19_0._tf)
+			arg_22_0:UnOverlayPanel(arg_22_0.blurTF, arg_22_0._tf)
 		end
 	end
 end
 
-function var_0_0.UpdateTaskAct(arg_20_0, arg_20_1)
-	arg_20_0.pages[var_0_0.PAGE_ACTIVITY]:ExecuteAction("OnTaskUpdate", arg_20_1)
+function var_0_0.UpdateTaskAct(arg_23_0, arg_23_1)
+	arg_23_0.pages[var_0_0.PAGE_ACTIVITY]:ExecuteAction("OnTaskUpdate", arg_23_1)
 end
 
-function var_0_0.OnTaskAdded(arg_21_0, arg_21_1)
-	if not arg_21_1 then
-		return
-	end
-
-	arg_21_0:UpdateTaskAct(arg_21_1.id)
-end
-
-function var_0_0.OnTaskUpdate(arg_22_0, arg_22_1)
-	if not arg_22_1 then
-		return
-	end
-
-	arg_22_0:UpdateTaskAct(arg_22_1.id)
-end
-
-function var_0_0.OnTaskRemove(arg_23_0, arg_23_1)
-	if not arg_23_1 then
-		return
-	end
-
-	arg_23_0:UpdateTaskAct(arg_23_1.id)
-end
-
-function var_0_0.OnTaskFinish(arg_24_0, arg_24_1)
+function var_0_0.OnTaskAdded(arg_24_0, arg_24_1)
 	if not arg_24_1 then
 		return
 	end
 
-	arg_24_0:UpdateTaskAct(arg_24_1)
+	arg_24_0:UpdateTaskAct(arg_24_1.id)
 end
 
-function var_0_0.FlushActivityPage(arg_25_0, arg_25_1)
-	arg_25_0.pages[var_0_0.PAGE_ACTIVITY]:ExecuteAction("updateActivity", arg_25_1)
+function var_0_0.OnTaskUpdate(arg_25_0, arg_25_1)
+	if not arg_25_1 then
+		return
+	end
+
+	arg_25_0:UpdateTaskAct(arg_25_1.id)
 end
 
-function var_0_0.FlushPtPage(arg_26_0)
-	arg_26_0.contextData.season = getProxy(IslandProxy):GetIsland():GetSeasonAgency():GetSeason()
+function var_0_0.OnTaskRemove(arg_26_0, arg_26_1)
+	if not arg_26_1 then
+		return
+	end
 
-	arg_26_0.pages[var_0_0.PAGE_PT]:ExecuteAction("Flush")
+	arg_26_0:UpdateTaskAct(arg_26_1.id)
 end
 
-function var_0_0.OnSubmitTaskDone(arg_27_0)
-	arg_27_0:FlushTaskPage()
-	arg_27_0.pages[var_0_0.PAGE_ACTIVITY]:ExecuteAction("flushTabs")
+function var_0_0.OnTaskFinish(arg_27_0, arg_27_1)
+	if not arg_27_1 then
+		return
+	end
+
+	arg_27_0:UpdateTaskAct(arg_27_1)
 end
 
-function var_0_0.FlushTaskPage(arg_28_0)
-	arg_28_0.pages[var_0_0.PAGE_TASK]:ExecuteAction("Flush")
+function var_0_0.FlushActivityPage(arg_28_0, arg_28_1)
+	arg_28_0.pages[var_0_0.PAGE_ACTIVITY]:ExecuteAction("updateActivity", arg_28_1)
 end
 
-function var_0_0.FlushShopPage(arg_29_0, arg_29_1)
-	arg_29_0.pages[var_0_0.PAGE_SHOP]:ExecuteAction("Flush")
+function var_0_0.FlushPtPage(arg_29_0)
+	arg_29_0.contextData.season = getProxy(IslandProxy):GetIsland():GetSeasonAgency():GetSeason()
 
-	if arg_29_1.operation == IslandConst.SHOP_BUY_COMMODITY then
-		arg_29_0:OpenPage(IslandShopBuySuccessLayer, arg_29_1.awards)
+	arg_29_0.pages[var_0_0.PAGE_PT]:ExecuteAction("Flush")
+	arg_29_0:UpdateRedDot(var_0_0.PAGE_PT)
+end
+
+function var_0_0.OnSubmitTaskDone(arg_30_0)
+	arg_30_0:FlushTaskPage()
+	arg_30_0.pages[var_0_0.PAGE_ACTIVITY]:ExecuteAction("flushTabs")
+	arg_30_0:UpdateRedDot(var_0_0.PAGE_TASK)
+end
+
+function var_0_0.FlushTaskPage(arg_31_0)
+	arg_31_0.pages[var_0_0.PAGE_TASK]:ExecuteAction("Flush")
+end
+
+function var_0_0.FlushShopPage(arg_32_0, arg_32_1)
+	arg_32_0.pages[var_0_0.PAGE_SHOP]:ExecuteAction("Flush")
+
+	if arg_32_1.operation == IslandConst.SHOP_BUY_COMMODITY then
+		arg_32_0:OpenPage(IslandShopBuySuccessLayer, arg_32_1.awards)
 	end
 end
 
-function var_0_0.OnGetRankData(arg_30_0, arg_30_1)
-	arg_30_0.pages[var_0_0.PAGE_RANK]:ExecuteAction("UpdateRankVOs", arg_30_1.seasonId, arg_30_1.list, arg_30_1.playerInfo)
-	arg_30_0.pages[var_0_0.PAGE_RANK]:ExecuteAction("UpdataRankView")
+function var_0_0.OnGetRankData(arg_33_0, arg_33_1)
+	arg_33_0.pages[var_0_0.PAGE_RANK]:ExecuteAction("UpdateRankVOs", arg_33_1.seasonId, arg_33_1.list, arg_33_1.playerInfo)
+	arg_33_0.pages[var_0_0.PAGE_RANK]:ExecuteAction("UpdataRankView")
 
-	if arg_30_0.pages[var_0_0.PAGE_REVIEW] then
-		arg_30_0.pages[var_0_0.PAGE_REVIEW]:ExecuteAction("UpdateRankVOs", arg_30_1.seasonId, arg_30_1.list, arg_30_1.playerInfo)
-		arg_30_0.pages[var_0_0.PAGE_REVIEW]:ExecuteAction("UpdataIcon")
+	if arg_33_0.pages[var_0_0.PAGE_REVIEW] then
+		arg_33_0.pages[var_0_0.PAGE_REVIEW]:ExecuteAction("UpdateRankVOs", arg_33_1.seasonId, arg_33_1.list, arg_33_1.playerInfo)
+		arg_33_0.pages[var_0_0.PAGE_REVIEW]:ExecuteAction("UpdataIcon")
 	end
 end
 
-function var_0_0.OnHide(arg_31_0)
-	arg_31_0.playRoomPop:Show(false)
-	arg_31_0:UnOverlayPanel(arg_31_0.blurTF, arg_31_0._tf)
-	arg_31_0.pages[var_0_0.PAGE_PT]:OnHide()
-	arg_31_0.pages[var_0_0.PAGE_ACTIVITY]:OnHide()
+function var_0_0.OnHide(arg_34_0)
+	arg_34_0.playRoomPop:Show(false)
+	arg_34_0:UnOverlayPanel(arg_34_0.blurTF, arg_34_0._tf)
+	arg_34_0.pages[var_0_0.PAGE_PT]:OnHide()
+	arg_34_0.pages[var_0_0.PAGE_ACTIVITY]:OnHide()
 
-	if arg_31_0.pages[var_0_0.PAGE_REVIEW] then
-		arg_31_0.pages[var_0_0.PAGE_REVIEW]:Hide()
+	if arg_34_0.pages[var_0_0.PAGE_REVIEW] then
+		arg_34_0.pages[var_0_0.PAGE_REVIEW]:Hide()
 	end
 end
 
-function var_0_0.OnDisable(arg_32_0)
-	arg_32_0:OnHide()
+function var_0_0.OnDisable(arg_35_0)
+	arg_35_0:OnHide()
 end
 
-function var_0_0.OnDestroy(arg_33_0)
-	arg_33_0:OnHide()
-	arg_33_0.playRoomPop:willExit()
+function var_0_0.OnDestroy(arg_36_0)
+	arg_36_0:OnHide()
+	arg_36_0.playRoomPop:willExit()
 
-	arg_33_0.playRoomPop = nil
+	arg_36_0.playRoomPop = nil
 
-	for iter_33_0, iter_33_1 in pairs(arg_33_0.pages) do
-		if iter_33_1 then
-			iter_33_1:Destroy()
+	for iter_36_0, iter_36_1 in pairs(arg_36_0.pages) do
+		if iter_36_1 then
+			iter_36_1:Destroy()
 
-			iter_33_1 = nil
+			iter_36_1 = nil
 		end
 	end
 end
 
-function var_0_0.OnEnable(arg_34_0)
-	arg_34_0:OnShow()
+function var_0_0.OnEnable(arg_37_0)
+	arg_37_0:OnShow()
 end
 
 return var_0_0

@@ -429,7 +429,14 @@ pg.activity_sp_story.all = {
 	466,
 	467,
 	468,
-	469
+	469,
+	471,
+	472,
+	473,
+	474,
+	475,
+	476,
+	477
 }
 pg.base = pg.base or {}
 pg.base.activity_sp_story = {}
@@ -9256,6 +9263,223 @@ end)()
 				4,
 				468
 			}
+		}
+	}
+	pg.base.activity_sp_story[471] = {
+		story_type = 2,
+		pre_event = "",
+		label_key = "",
+		name = "EP-1 冬日曙光",
+		change_prefab = "",
+		change_background = "star_level_bg_147",
+		story = "2056000",
+		change_bgm = "story-darkplan",
+		id = 471,
+		lock = {
+			{
+				6,
+				27351
+			},
+			{
+				6,
+				27352
+			}
+		},
+		unlock_conditions = {
+			"完成DAY1任务",
+			"完成DAY1任务"
+		}
+	}
+	pg.base.activity_sp_story[472] = {
+		story_type = 1,
+		name = "EP-2 “她”的到来",
+		label_key = "",
+		change_bgm = "main-arbitrationsystem-theme",
+		change_prefab = "",
+		change_background = "bg_port_chongdong",
+		id = 472,
+		story = "YOUKEZILAI2",
+		pre_event = {
+			471
+		},
+		lock = {
+			{
+				4,
+				471
+			},
+			{
+				6,
+				27353
+			},
+			{
+				6,
+				27354
+			}
+		},
+		unlock_conditions = {
+			"完成EP-1",
+			"完成DAY2任务",
+			"完成DAY2任务"
+		}
+	}
+	pg.base.activity_sp_story[473] = {
+		story_type = 1,
+		name = "EP-3 新焦点",
+		label_key = "",
+		change_bgm = "story-richang-light",
+		change_prefab = "",
+		change_background = "star_level_bg_322",
+		id = 473,
+		story = "YOUKEZILAI3",
+		pre_event = {
+			472
+		},
+		lock = {
+			{
+				4,
+				472
+			},
+			{
+				6,
+				27355
+			},
+			{
+				6,
+				27356
+			}
+		},
+		unlock_conditions = {
+			"完成EP-2",
+			"完成DAY3任务",
+			"完成DAY3任务"
+		}
+	}
+	pg.base.activity_sp_story[474] = {
+		story_type = 1,
+		name = "EP-4 而后发生的事",
+		label_key = "",
+		change_bgm = "theme-antarctica",
+		change_prefab = "",
+		change_background = "star_level_bg_328",
+		id = 474,
+		story = "YOUKEZILAI4",
+		pre_event = {
+			473
+		},
+		lock = {
+			{
+				4,
+				473
+			},
+			{
+				6,
+				27357
+			},
+			{
+				6,
+				27358
+			}
+		},
+		unlock_conditions = {
+			"完成EP-3",
+			"完成DAY4任务",
+			"完成DAY4任务"
+		}
+	}
+	pg.base.activity_sp_story[475] = {
+		story_type = 1,
+		name = "EP-5 凛冬高墙",
+		label_key = "",
+		change_bgm = "story-wanderingcity-future",
+		change_prefab = "",
+		change_background = "star_level_bg_603",
+		id = 475,
+		story = "YOUKEZILAI5",
+		pre_event = {
+			474
+		},
+		lock = {
+			{
+				4,
+				474
+			},
+			{
+				6,
+				27359
+			},
+			{
+				6,
+				27360
+			}
+		},
+		unlock_conditions = {
+			"完成EP-4",
+			"完成DAY5任务",
+			"完成DAY5任务"
+		}
+	}
+	pg.base.activity_sp_story[476] = {
+		story_type = 1,
+		name = "EP-6 浅层调查",
+		label_key = "",
+		change_bgm = "story-darkplan",
+		change_prefab = "",
+		change_background = "star_level_bg_154",
+		id = 476,
+		story = "YOUKEZILAI6",
+		pre_event = {
+			475
+		},
+		lock = {
+			{
+				4,
+				475
+			},
+			{
+				6,
+				27361
+			},
+			{
+				6,
+				27362
+			}
+		},
+		unlock_conditions = {
+			"完成EP-5",
+			"完成DAY6任务",
+			"完成DAY6任务"
+		}
+	}
+	pg.base.activity_sp_story[477] = {
+		story_type = 1,
+		name = "EP-7 迷城",
+		label_key = "",
+		change_bgm = "story-richang-light",
+		change_prefab = "",
+		change_background = "star_level_bg_147",
+		id = 477,
+		story = "YOUKEZILAI7",
+		pre_event = {
+			476
+		},
+		lock = {
+			{
+				4,
+				476
+			},
+			{
+				6,
+				27363
+			},
+			{
+				6,
+				27364
+			}
+		},
+		unlock_conditions = {
+			"完成EP-6",
+			"完成DAY7任务",
+			"完成DAY7任务"
 		}
 	}
 end)()

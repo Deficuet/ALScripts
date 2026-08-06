@@ -280,17 +280,18 @@ function var_0_0.OnShipSelected(arg_28_0, arg_28_1)
 	local var_28_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_28_1)
 	local var_28_1 = arg_28_0.showTechVO:GetFormulaId()
 	local var_28_2 = pg.island_formula[var_28_1]
+	local var_28_3 = math.floor(var_28_2.stamina_cost * (1 - IslandProductCostHelper.GetReducePercentInPlace(arg_28_1, arg_28_0.placeId)))
 
-	if math.floor(var_28_2.stamina_cost * (1 - IslandProductCostHelper.GetReducePercentInPlace(arg_28_1, arg_28_0.placeId))) > var_28_0:GetCurrentEnergy() then
+	if math.max(var_28_3, 1) > var_28_0:GetCurrentEnergy() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("island_production_cost_notenough"))
 
 		return
 	end
 
-	local var_28_3 = arg_28_0.techAgency:GetEmptySlotId()
-	local var_28_4 = arg_28_0.showTechVO:GetFormulaId()
+	local var_28_4 = arg_28_0.techAgency:GetEmptySlotId()
+	local var_28_5 = arg_28_0.showTechVO:GetFormulaId()
 
-	arg_28_0:emit(IslandMediator.START_DELEGATION, arg_28_0.placeId, var_28_3, arg_28_1, var_28_4, 1)
+	arg_28_0:emit(IslandMediator.START_DELEGATION, arg_28_0.placeId, var_28_4, arg_28_1, var_28_5, 1)
 end
 
 function var_0_0.UpdateTime(arg_29_0)

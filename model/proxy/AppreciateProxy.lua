@@ -40,7 +40,9 @@ function var_0_0.checkPicFileState(arg_3_0)
 		local var_3_2 = pg.gallery_config[iter_3_1].illustration
 		local var_3_3 = GalleryConst.PIC_PATH_PREFIX .. var_3_2
 		local var_3_4 = checkABExist(var_3_3)
+		local var_3_5 = GalleryConst.GetGalleryPreviewPicPathByID(iter_3_1)
 
+		var_3_4 = var_3_4 and var_3_5 and checkABExist(var_3_5)
 		arg_3_0.galleryPicExistStateTable[iter_3_1] = var_3_4
 	end
 end
@@ -416,48 +418,52 @@ function var_0_0.isLikedByPicID(arg_40_0, arg_40_1)
 	return table.contains(arg_40_0.galleryPicLikeIDList, arg_40_1)
 end
 
-function var_0_0.addMusicIDToLikeList(arg_41_0, arg_41_1)
-	if table.contains(arg_41_0.musicLikeIDList, arg_41_1) then
-		print("already exist picID:" .. arg_41_1)
+function var_0_0.getGalleryLikeIDList(arg_41_0)
+	return arg_41_0.galleryPicLikeIDList
+end
+
+function var_0_0.addMusicIDToLikeList(arg_42_0, arg_42_1)
+	if table.contains(arg_42_0.musicLikeIDList, arg_42_1) then
+		print("already exist picID:" .. arg_42_1)
 	else
-		arg_41_0.musicLikeIDList[#arg_41_0.musicLikeIDList + 1] = arg_41_1
+		arg_42_0.musicLikeIDList[#arg_42_0.musicLikeIDList + 1] = arg_42_1
 	end
 end
 
-function var_0_0.removeMusicIDFromLikeList(arg_42_0, arg_42_1)
-	for iter_42_0, iter_42_1 in ipairs(arg_42_0.musicLikeIDList) do
-		if iter_42_1 == arg_42_1 then
-			table.remove(arg_42_0.musicLikeIDList, iter_42_0)
+function var_0_0.removeMusicIDFromLikeList(arg_43_0, arg_43_1)
+	for iter_43_0, iter_43_1 in ipairs(arg_43_0.musicLikeIDList) do
+		if iter_43_1 == arg_43_1 then
+			table.remove(arg_43_0.musicLikeIDList, iter_43_0)
 
 			return
 		end
 	end
 
-	print("no exist musicID:" .. arg_42_1)
+	print("no exist musicID:" .. arg_43_1)
 end
 
-function var_0_0.isLikedByMusicID(arg_43_0, arg_43_1)
-	return table.contains(arg_43_0.musicLikeIDList, arg_43_1)
+function var_0_0.isLikedByMusicID(arg_44_0, arg_44_1)
+	return table.contains(arg_44_0.musicLikeIDList, arg_44_1)
 end
 
-function var_0_0.setMainPlayMusicAlbum(arg_44_0, arg_44_1)
-	arg_44_0.mainMarkMusicId = arg_44_1
+function var_0_0.setMainPlayMusicAlbum(arg_45_0, arg_45_1)
+	arg_45_0.mainMarkMusicId = arg_45_1
 end
 
-function var_0_0.getMainPlayerAlbumName(arg_45_0)
-	if not arg_45_0.mainMarkMusicId or arg_45_0.mainMarkMusicId == 0 then
+function var_0_0.getMainPlayerAlbumName(arg_46_0)
+	if not arg_46_0.mainMarkMusicId or arg_46_0.mainMarkMusicId == 0 then
 		return "none"
-	elseif arg_45_0.mainMarkMusicId == 999 then
+	elseif arg_46_0.mainMarkMusicId == 999 then
 		return "favor"
 	else
-		local var_45_0 = pg.music_collect_config[arg_45_0.mainMarkMusicId].album_id
+		local var_46_0 = pg.music_collect_config[arg_46_0.mainMarkMusicId].album_id
 
-		return pg.music_album[var_45_0].album_name
+		return pg.music_album[var_46_0].album_name
 	end
 end
 
-function var_0_0.setMusicPlayerLoopType(arg_46_0, arg_46_1)
-	arg_46_0.musicPlayerLoopType = arg_46_1
+function var_0_0.setMusicPlayerLoopType(arg_47_0, arg_47_1)
+	arg_47_0.musicPlayerLoopType = arg_47_1
 end
 
 local var_0_1 = {
@@ -466,29 +472,29 @@ local var_0_1 = {
 	"one"
 }
 
-function var_0_0.getMusicPlayerLoopType(arg_47_0)
-	return var_0_1[arg_47_0.musicPlayerLoopType]
+function var_0_0.getMusicPlayerLoopType(arg_48_0)
+	return var_0_1[arg_48_0.musicPlayerLoopType]
 end
 
-function var_0_0.getAlbumMusicList(arg_48_0, arg_48_1)
-	if arg_48_1 == "favor" then
-		return underscore.to_array(arg_48_0.musicLikeIDList)
+function var_0_0.getAlbumMusicList(arg_49_0, arg_49_1)
+	if arg_49_1 == "favor" then
+		return underscore.to_array(arg_49_0.musicLikeIDList)
 	else
-		local var_48_0 = (pg.music_album.get_id_list_by_album_name[arg_48_1] or {
+		local var_49_0 = (pg.music_album.get_id_list_by_album_name[arg_49_1] or {
 			0
 		})[1]
 
-		return underscore.to_array(pg.music_collect_config.get_id_list_by_album_id[var_48_0] or {})
+		return underscore.to_array(pg.music_collect_config.get_id_list_by_album_id[var_49_0] or {})
 	end
 end
 
-function var_0_0.CanPlayMainMusicPlayer(arg_49_0)
-	local var_49_0 = getProxy(AppreciateProxy):getMainPlayerAlbumName()
+function var_0_0.CanPlayMainMusicPlayer(arg_50_0)
+	local var_50_0 = getProxy(AppreciateProxy):getMainPlayerAlbumName()
 
-	return var_49_0 ~= "none" and #arg_49_0:getAlbumMusicList(var_49_0) > 0
+	return var_50_0 ~= "none" and #arg_50_0:getAlbumMusicList(var_50_0) > 0
 end
 
-function var_0_0.isGalleryHaveNewRes(arg_50_0)
+function var_0_0.isGalleryHaveNewRes(arg_51_0)
 	if PlayerPrefs.GetInt("galleryVersion", 0) < GalleryConst.Version then
 		return true
 	else
@@ -496,7 +502,7 @@ function var_0_0.isGalleryHaveNewRes(arg_50_0)
 	end
 end
 
-function var_0_0.isMusicHaveNewRes(arg_51_0)
+function var_0_0.isMusicHaveNewRes(arg_52_0)
 	if PlayerPrefs.GetInt("musicVersion", 0) < MusicCollectionConst.Version then
 		return true
 	else
@@ -504,7 +510,7 @@ function var_0_0.isMusicHaveNewRes(arg_51_0)
 	end
 end
 
-function var_0_0.isMangaHaveNewRes(arg_52_0)
+function var_0_0.isMangaHaveNewRes(arg_53_0)
 	if PlayerPrefs.GetInt("mangaVersion", 0) < MangaConst.Version then
 		return true
 	else

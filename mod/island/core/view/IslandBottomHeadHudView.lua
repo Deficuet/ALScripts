@@ -56,6 +56,7 @@ function var_0_0.ShowAnimationOp(arg_6_0, arg_6_1, arg_6_2)
 
 	local var_6_3 = pg.island_action[arg_6_2]
 
+	assert(var_6_3, "island_action>>>>" .. arg_6_2)
 	LoadImageSpriteAsync("island/IslandActionIcon/" .. var_6_3.resource, var_6_2.transform:Find("Image"), false)
 
 	arg_6_0.animationOpTpls[var_6_0.key] = var_6_2

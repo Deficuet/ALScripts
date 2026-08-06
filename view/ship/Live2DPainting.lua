@@ -1063,6 +1063,10 @@ function var_0_0.loadLive2dData(arg_45_0)
 end
 
 function var_0_0.saveLive2dData(arg_46_0)
+	if arg_46_0.STATE_INITED ~= arg_46_0.state then
+		return
+	end
+
 	if not arg_46_0.live2dData.loadPrefs then
 		return
 	end
@@ -1091,10 +1095,12 @@ function var_0_0.saveLive2dData(arg_46_0)
 		end
 	end
 
-	local var_46_1 = arg_46_0.liveCom:GetCubismParameter("ParamBGM_loop")
+	if arg_46_0.liveCom then
+		local var_46_1 = arg_46_0.liveCom:GetCubismParameter("ParamBGM_loop")
 
-	if var_46_1 then
-		Live2dConst.SaveL2dBgmVolume(var_46_0, var_46_1.Value)
+		if var_46_1 then
+			Live2dConst.SaveL2dBgmVolume(var_46_0, var_46_1.Value)
+		end
 	end
 end
 
@@ -1497,196 +1503,200 @@ function var_0_0.GetDragBounds(arg_79_0)
 	return arg_79_0.dragRenders
 end
 
-function var_0_0.setSortingLayer(arg_80_0, arg_80_1)
-	arg_80_1 = arg_80_1 or LayerWeightConst.L2D_DEFAULT_LAYER
-
-	arg_80_0:updateL2dSortMode()
-
-	arg_80_0._go:GetComponent(typeof(CubismRenderController)).SortingOrder = LayerWeightConst.L2D_DEFAULT_LAYER
+function var_0_0.GetTransform(arg_80_0)
+	return arg_80_0._tf
 end
 
-function var_0_0.updateL2dSortMode(arg_81_0)
-	arg_81_0._go:GetComponent(typeof(CubismRenderController)).SortingMode = CubismSortingMode.BackToFrontOrder
+function var_0_0.setSortingLayer(arg_81_0, arg_81_1)
+	arg_81_1 = arg_81_1 or LayerWeightConst.L2D_DEFAULT_LAYER
+
+	arg_81_0:updateL2dSortMode()
+
+	arg_81_0._go:GetComponent(typeof(CubismRenderController)).SortingOrder = LayerWeightConst.L2D_DEFAULT_LAYER
 end
 
-function var_0_0.setSortingModeFrontZ(arg_82_0)
-	arg_82_0._go:GetComponent(typeof(CubismRenderController)).SortingMode = CubismSortingMode.BackToFrontZ
+function var_0_0.updateL2dSortMode(arg_82_0)
+	arg_82_0._go:GetComponent(typeof(CubismRenderController)).SortingMode = CubismSortingMode.BackToFrontOrder
 end
 
-function var_0_0.Dispose(arg_83_0)
-	if arg_83_0.state == var_0_0.STATE_DISPOSE then
+function var_0_0.setSortingModeFrontZ(arg_83_0)
+	arg_83_0._go:GetComponent(typeof(CubismRenderController)).SortingMode = CubismSortingMode.BackToFrontZ
+end
+
+function var_0_0.Dispose(arg_84_0)
+	if arg_84_0.state == var_0_0.STATE_DISPOSE then
 		return
 	end
 
-	if table.contains(ChangeSkinLink.L2D_SAVE_TEMPLATE_DISPOSE, arg_83_0.live2dData.skinId) then
-		local var_83_0 = arg_83_0:getParameterDic()
+	if table.contains(ChangeSkinLink.L2D_SAVE_TEMPLATE_DISPOSE, arg_84_0.live2dData.skinId) then
+		local var_84_0 = arg_84_0:getParameterDic()
 
-		if arg_83_0.live2dData.ship and arg_83_0.live2dData.ship.id and arg_83_0.live2dData.ship.id > 0 then
-			ChangeSkinLink.L2D_PARAMETER_DIC[arg_83_0.live2dData.ship.id] = var_83_0
+		if arg_84_0.live2dData.ship and arg_84_0.live2dData.ship.id and arg_84_0.live2dData.ship.id > 0 then
+			ChangeSkinLink.L2D_PARAMETER_DIC[arg_84_0.live2dData.ship.id] = var_84_0
 		end
 	end
 
-	if arg_83_0.state == var_0_0.STATE_INITED then
-		arg_83_0.liveCom.FinishAction = nil
-		arg_83_0.liveCom.EventAction = nil
+	if arg_84_0.state == var_0_0.STATE_INITED then
+		arg_84_0.liveCom.FinishAction = nil
+		arg_84_0.liveCom.EventAction = nil
 
-		arg_83_0.liveCom:SetMouseInputActions(nil, nil)
+		arg_84_0.liveCom:SetMouseInputActions(nil, nil)
 	end
 
-	if arg_83_0.dftCom then
-		arg_83_0.dftCom:SetCommonEvent(nil)
+	if arg_84_0.dftCom then
+		arg_84_0.dftCom:SetCommonEvent(nil)
 	end
 
 	pg.CriMgr.GetInstance():DisposePaintingBgm()
-	arg_83_0:unloadCueSheet()
+	arg_84_0:unloadCueSheet()
 
-	if arg_83_0._tf and LeanTween.isTweening(go(arg_83_0._tf)) then
-		LeanTween.cancel(go(arg_83_0._tf))
+	if arg_84_0._tf and LeanTween.isTweening(go(arg_84_0._tf)) then
+		LeanTween.cancel(go(arg_84_0._tf))
 	end
 
-	if arg_83_0.changeBgmVolume then
+	if arg_84_0.changeBgmVolume then
 		pg.CriMgr.GetInstance():changeBGMVolume(pg.CriMgr.GetInstance():getBGMVolume())
 	end
 
-	arg_83_0:saveLive2dData()
+	arg_84_0:saveLive2dData()
 
-	arg_83_0._readlyToStop = false
+	arg_84_0._readlyToStop = false
 
-	if arg_83_0.live2dRequestId then
-		pg.Live2DMgr.GetInstance():StopLoadingLive2d(arg_83_0.live2dRequestId)
+	if arg_84_0.live2dRequestId then
+		pg.Live2DMgr.GetInstance():StopLoadingLive2d(arg_84_0.live2dRequestId)
 
-		arg_83_0.live2dRequestId = nil
+		arg_84_0.live2dRequestId = nil
 	end
 
-	if arg_83_0.drags then
-		for iter_83_0 = 1, #arg_83_0.drags do
-			arg_83_0.drags[iter_83_0]:dispose()
+	if arg_84_0.drags then
+		for iter_84_0 = 1, #arg_84_0.drags do
+			arg_84_0.drags[iter_84_0]:dispose()
 		end
 
-		arg_83_0.drags = {}
+		arg_84_0.drags = {}
 	end
 
-	if arg_83_0.live2dData and arg_83_0.live2dData.gyro == 1 then
+	if arg_84_0.live2dData and arg_84_0.live2dData.gyro == 1 then
 		Input.gyro.enabled = false
 	end
 
-	if arg_83_0.live2dData then
-		arg_83_0.live2dData:Clear()
+	if arg_84_0.live2dData then
+		arg_84_0.live2dData:Clear()
 
-		arg_83_0.live2dData = nil
+		arg_84_0.live2dData = nil
 	end
 
-	if arg_83_0.timer then
-		arg_83_0.timer:Stop()
+	if arg_84_0.timer then
+		arg_84_0.timer:Stop()
 
-		arg_83_0.timer = nil
+		arg_84_0.timer = nil
 	end
 
-	if arg_83_0._go and arg_83_0.state == var_0_0.STATE_INITED then
-		arg_83_0:clearMaskTexture(arg_83_0._go)
-		pg.Live2DMgr.GetInstance():ReturnLive2DModel(arg_83_0.modelName, arg_83_0._go)
+	if arg_84_0._go and arg_84_0.state == var_0_0.STATE_INITED then
+		arg_84_0:clearMaskTexture(arg_84_0._go)
+		pg.Live2DMgr.GetInstance():ReturnLive2DModel(arg_84_0.modelName, arg_84_0._go)
 
-		arg_83_0.modelName = nil
-		arg_83_0._go = nil
+		arg_84_0.modelName = nil
+		arg_84_0._go = nil
 	end
 
-	arg_83_0.live2dPlayingCallback = nil
-	arg_83_0.state = var_0_0.STATE_DISPOSE
+	arg_84_0.live2dPlayingCallback = nil
+	arg_84_0.state = var_0_0.STATE_DISPOSE
 end
 
-function var_0_0.clearMaskTexture(arg_84_0, arg_84_1)
-	if not arg_84_1 then
+function var_0_0.clearMaskTexture(arg_85_0, arg_85_1)
+	if not arg_85_1 then
 		return
 	end
 
-	local var_84_0 = GetComponent(arg_84_1, "CubismMaskController")
+	local var_85_0 = GetComponent(arg_85_1, "CubismMaskController")
 
-	if var_84_0 then
-		local var_84_1 = var_84_0.MaskTexture
+	if var_85_0 then
+		local var_85_1 = var_85_0.MaskTexture
 
-		if var_84_1 then
-			local var_84_2 = var_84_1.RenderTextures
+		if var_85_1 then
+			local var_85_2 = var_85_1.RenderTextures
 
-			for iter_84_0 = 0, var_84_2.Length - 1 do
-				var_84_2[iter_84_0]:Release()
+			for iter_85_0 = 0, var_85_2.Length - 1 do
+				var_85_2[iter_85_0]:Release()
 			end
 		end
 	end
 end
 
-function var_0_0.settempOffsetPosTime(arg_85_0, arg_85_1)
-	arg_85_0.tempOffsetPosTime = arg_85_1
+function var_0_0.settempOffsetPosTime(arg_86_0, arg_86_1)
+	arg_86_0.tempOffsetPosTime = arg_86_1
 end
 
-function var_0_0.getParameterDic(arg_86_0)
-	local var_86_0 = {}
+function var_0_0.getParameterDic(arg_87_0)
+	local var_87_0 = {}
 
-	if arg_86_0.drags and #arg_86_0.drags > 0 then
-		for iter_86_0, iter_86_1 in ipairs(arg_86_0.drags) do
-			local var_86_1 = iter_86_1:getParameterName()
-			local var_86_2 = iter_86_1:getParameter()
+	if arg_87_0.drags and #arg_87_0.drags > 0 then
+		for iter_87_0, iter_87_1 in ipairs(arg_87_0.drags) do
+			local var_87_1 = iter_87_1:getParameterName()
+			local var_87_2 = iter_87_1:getParameter()
 
-			if var_86_1 and #var_86_1 > 0 and var_86_2 then
-				var_86_0[var_86_1] = var_86_2
+			if var_87_1 and #var_87_1 > 0 and var_87_2 then
+				var_87_0[var_87_1] = var_87_2
 			end
 		end
 	end
 
-	return var_86_0
+	return var_87_0
 end
 
-function var_0_0.unloadCueSheet(arg_87_0)
-	if not arg_87_0.loadSheets then
+function var_0_0.unloadCueSheet(arg_88_0)
+	if not arg_88_0.loadSheets then
 		return
 	end
 
-	for iter_87_0, iter_87_1 in ipairs(arg_87_0.loadSheets) do
-		pg.CriMgr.GetInstance():UnloadCueSheet(iter_87_1)
+	for iter_88_0, iter_88_1 in ipairs(arg_88_0.loadSheets) do
+		pg.CriMgr.GetInstance():UnloadCueSheet(iter_88_1)
 	end
 
-	arg_87_0.loadSheets = {}
+	arg_88_0.loadSheets = {}
 end
 
-function var_0_0.playL2dVoice(arg_88_0, arg_88_1, arg_88_2, arg_88_3)
-	if not table.contains(arg_88_0.loadSheets, arg_88_1) then
-		table.insert(arg_88_0.loadSheets, arg_88_1)
+function var_0_0.playL2dVoice(arg_89_0, arg_89_1, arg_89_2, arg_89_3)
+	if not table.contains(arg_89_0.loadSheets, arg_89_1) then
+		table.insert(arg_89_0.loadSheets, arg_89_1)
 	end
 
-	pg.CriMgr.GetInstance():playCueSheetVoice(arg_88_1, arg_88_2, arg_88_3, function(arg_89_0)
-		if arg_89_0 then
-			print("播放的语音长度为 = " .. arg_89_0:GetLength())
-			table.insert(arg_88_0.playingSheetInfo, arg_89_0)
+	pg.CriMgr.GetInstance():playCueSheetVoice(arg_89_1, arg_89_2, arg_89_3, function(arg_90_0)
+		if arg_90_0 then
+			print("播放的语音长度为 = " .. arg_90_0:GetLength())
+			table.insert(arg_89_0.playingSheetInfo, arg_90_0)
 		end
 	end)
 end
 
-function var_0_0.UpdateAtomSource(arg_90_0)
-	arg_90_0.updateAtom = true
+function var_0_0.UpdateAtomSource(arg_91_0)
+	arg_91_0.updateAtom = true
 end
 
-function var_0_0.AtomSouceFresh(arg_91_0)
-	local var_91_0 = pg.CriMgr.GetInstance():getAtomSource(pg.CriMgr.C_VOICE)
-	local var_91_1 = arg_91_0._go:GetComponent("CubismCriSrcMouthInput").Analyzer
+function var_0_0.AtomSouceFresh(arg_92_0)
+	local var_92_0 = pg.CriMgr.GetInstance():getAtomSource(pg.CriMgr.C_VOICE)
+	local var_92_1 = arg_92_0._go:GetComponent("CubismCriSrcMouthInput").Analyzer
 
-	var_91_0:AttachToAnalyzer(var_91_1)
+	var_92_0:AttachToAnalyzer(var_92_1)
 
-	if arg_91_0.updateAtom then
-		arg_91_0.updateAtom = false
+	if arg_92_0.updateAtom then
+		arg_92_0.updateAtom = false
 	end
 end
 
-function var_0_0.SetL2dSortingLayer(arg_92_0, arg_92_1)
-	var_0_0.UpdateL2dSortMode(arg_92_0)
+function var_0_0.SetL2dSortingLayer(arg_93_0, arg_93_1)
+	var_0_0.UpdateL2dSortMode(arg_93_0)
 
-	arg_92_0:GetComponent(typeof(CubismRenderController)).SortingOrder = arg_92_1
+	arg_93_0:GetComponent(typeof(CubismRenderController)).SortingOrder = arg_93_1
 end
 
-function var_0_0.UpdateL2dSortMode(arg_93_0)
-	arg_93_0:GetComponent(typeof(CubismRenderController)).SortingMode = CubismSortingMode.BackToFrontOrder
+function var_0_0.UpdateL2dSortMode(arg_94_0)
+	arg_94_0:GetComponent(typeof(CubismRenderController)).SortingMode = CubismSortingMode.BackToFrontOrder
 end
 
-function var_0_0.SetSortingModeFrontZ(arg_94_0)
-	arg_94_0:GetComponent(typeof(CubismRenderController)).SortingMode = CubismSortingMode.BackToFrontZ
+function var_0_0.SetSortingModeFrontZ(arg_95_0)
+	arg_95_0:GetComponent(typeof(CubismRenderController)).SortingMode = CubismSortingMode.BackToFrontZ
 end
 
 return var_0_0

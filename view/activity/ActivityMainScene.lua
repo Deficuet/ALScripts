@@ -48,21 +48,6 @@ end
 local var_0_1
 
 function var_0_0.init(arg_5_0)
-	local var_5_0 = arg_5_0._tf:GetComponent(typeof(ItemList)).prefabItem:ToTable()
-
-	for iter_5_0, iter_5_1 in ipairs({
-		"btnBack",
-		"pageContainer",
-		"permanentFinshMask",
-		"tabs",
-		"tab",
-		"entranceContent",
-		"entranceTpl",
-		"lockAll"
-	}) do
-		arg_5_0[iter_5_1] = var_5_0[iter_5_0].transform
-	end
-
 	arg_5_0.entranceList = UIItemList.New(arg_5_0.entranceContent, arg_5_0.entranceTpl)
 	arg_5_0.windowList = {}
 	arg_5_0.awardWindow = AwardWindow.New(arg_5_0._tf, arg_5_0.event)

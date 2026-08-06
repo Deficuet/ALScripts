@@ -3,7 +3,8 @@ local var_0_0 = class("MainReddotMediator", pm.Mediator)
 function var_0_0.GetNotifyDic(arg_1_0)
 	arg_1_0.listener = arg_1_0.listener or {
 		ATTIRE = {
-			GAME.EDUCATE_GET_ENDINGS_DONE
+			GAME.EDUCATE_GET_ENDINGS_DONE,
+			AttireProxy.ATTIREFRAME_ADDED
 		},
 		TASK = {
 			TaskProxy.TASK_ADDED,

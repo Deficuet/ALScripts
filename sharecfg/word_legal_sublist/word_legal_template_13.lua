@@ -7,6 +7,21 @@ var_0_0.word_legal_template_13 = {}
 local var_0_1 = var_0_0.word_legal_template_13
 
 function temp()
+	var_0_1.逸 = {
+		仙 = {
+			this = true,
+			["."] = {
+				改 = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.宁 = {
 		海 = {
 			this = true
@@ -193,44 +208,6 @@ end
 temp()
 
 function temp()
-	var_0_1.维 = {
-		托 = {
-			里 = {
-				奥 = {
-					· = {
-						维 = {
-							内 = {
-								托 = {
-									this = true
-								}
-							}
-						},
-						库 = {
-							尼 = {
-								贝 = {
-									尔 = {
-										蒂 = {
-											this = true
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		达 = {
-			号 = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
 	var_0_1.安 = {
 		德 = {
 			烈 = {
@@ -361,7 +338,18 @@ temp()
 function temp()
 	var_0_1.灵 = {
 		敏 = {
-			this = true
+			this = true,
+			["."] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end

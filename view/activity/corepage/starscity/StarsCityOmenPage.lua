@@ -11,6 +11,7 @@ function var_0_0.OnInit(arg_1_0)
 	arg_1_0.txtDetail = arg_1_0.btnDetail:Find("detail")
 	arg_1_0.ruleTxt = arg_1_0.bg:Find("rule_get")
 	arg_1_0.btnStory = arg_1_0.bg:Find("btn_story")
+	arg_1_0.redPoint = arg_1_0.btnStory:Find("red")
 	arg_1_0.scenario = arg_1_0:GetOutPostScenarioPage().New(arg_1_0._tf, arg_1_0.event)
 
 	arg_1_0.scenario:SetCoreStoryPage(arg_1_0)
@@ -52,6 +53,12 @@ function var_0_0.OnFirstFlush(arg_4_0)
 			arg_4_0.scenario:UpdateStoryTask()
 			arg_4_0.scenario:ActionInvoke("UpdateView")
 			arg_4_0:ShowScenarioLayer(true)
+
+			local var_6_0 = Activity.GetPlayerActivyIDKey(arg_4_0.activity.id)
+
+			PlayerPrefs.SetInt(var_6_0, 1)
+			PlayerPrefs.Save()
+			arg_4_0:refreshStoryPoint()
 		end
 	end, SFX_PANEL)
 end
@@ -95,6 +102,7 @@ function var_0_0.OnUpdateFlush(arg_11_0)
 	arg_11_0.nday = arg_11_0:getTaskIdx(arg_11_0.activity)
 
 	arg_11_0:PlayStory()
+	arg_11_0:refreshStoryPoint()
 
 	if arg_11_0.dayTF then
 		setText(arg_11_0.dayTF, "DAY " .. arg_11_0.nday)
@@ -217,40 +225,47 @@ function var_0_0.isTaskFinished(arg_19_0, arg_19_1)
 	return var_19_0 and var_19_0:getTaskStatus() == 2
 end
 
-function var_0_0.GetProgressColor(arg_20_0)
+function var_0_0.refreshStoryPoint(arg_20_0)
+	local var_20_0 = Activity.GetPlayerActivyIDKey(arg_20_0.activity.id)
+	local var_20_1 = PlayerPrefs.GetInt(var_20_0, 0) == 0
+
+	setActive(arg_20_0.redPoint, var_20_1)
+end
+
+function var_0_0.GetProgressColor(arg_21_0)
 	return "#FFFFFF", "#C3C3C3"
 end
 
-function var_0_0.SetBtnLocal(arg_21_0, arg_21_1)
-	local var_21_0 = arg_21_1:Find("get_btn")
-	local var_21_1 = arg_21_1:Find("go_btn")
-	local var_21_2 = arg_21_1:Find("got_btn")
+function var_0_0.SetBtnLocal(arg_22_0, arg_22_1)
+	local var_22_0 = arg_22_1:Find("get_btn")
+	local var_22_1 = arg_22_1:Find("go_btn")
+	local var_22_2 = arg_22_1:Find("got_btn")
 
-	setText(var_21_0:Find("Text"), i18n("LiquorFloorTaskUI_get"))
-	setText(var_21_1:Find("Text"), i18n("LiquorFloorTaskUI_go"))
-	setText(var_21_2:Find("Text"), i18n("LiquorFloorTaskUI_got"))
+	setText(var_22_0:Find("Text"), i18n("LiquorFloorTaskUI_get"))
+	setText(var_22_1:Find("Text"), i18n("LiquorFloorTaskUI_go"))
+	setText(var_22_2:Find("Text"), i18n("LiquorFloorTaskUI_got"))
 end
 
-function var_0_0.OnHideFlush(arg_22_0)
-	if arg_22_0.taskWindow:isShowing() then
-		arg_22_0.taskWindow:Hide()
-	end
-end
-
-function var_0_0.OnDestroy(arg_23_0)
-	if arg_23_0.taskWindow then
+function var_0_0.OnHideFlush(arg_23_0)
+	if arg_23_0.taskWindow:isShowing() then
 		arg_23_0.taskWindow:Hide()
-		arg_23_0.taskWindow:Destroy()
+	end
+end
 
-		arg_23_0.taskWindow = nil
+function var_0_0.OnDestroy(arg_24_0)
+	if arg_24_0.taskWindow then
+		arg_24_0.taskWindow:Hide()
+		arg_24_0.taskWindow:Destroy()
+
+		arg_24_0.taskWindow = nil
 	end
 
-	if arg_23_0.scenario then
-		if arg_23_0.scenario:isShowing() then
-			arg_23_0.scenario:Hide()
+	if arg_24_0.scenario then
+		if arg_24_0.scenario:isShowing() then
+			arg_24_0.scenario:Hide()
 		end
 
-		arg_23_0.scenario:Destroy()
+		arg_24_0.scenario:Destroy()
 	end
 end
 

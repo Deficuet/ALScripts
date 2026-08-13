@@ -28,16 +28,18 @@ pg.story_template.all = {
 	6959,
 	6969,
 	6976,
-	6979
+	6979,
+	7922
 }
 pg.base = pg.base or {}
 pg.base.story_template = {}
 
 ;(function()
 	pg.base.story_template[4342] = {
-		id = 4342,
-		name = "E0-1",
 		icon = "story-doujichang",
+		name = "E0-1",
+		id = 4342,
+		drop_client = "",
 		story = "YUZHEDETIANPING2",
 		pos = {
 			0.5,
@@ -45,9 +47,10 @@ pg.base.story_template = {}
 		}
 	}
 	pg.base.story_template[4343] = {
-		id = 4343,
-		name = "E0-2",
 		icon = "story-doujichang",
+		name = "E0-2",
+		id = 4343,
+		drop_client = "",
 		story = "YUZHEDETIANPING3",
 		pos = {
 			0.5,
@@ -55,9 +58,10 @@ pg.base.story_template = {}
 		}
 	}
 	pg.base.story_template[4344] = {
-		id = 4344,
-		name = "E0-3",
 		icon = "story-doujichang",
+		name = "E0-3",
+		id = 4344,
+		drop_client = "",
 		story = "YUZHEDETIANPING4",
 		pos = {
 			0.5,
@@ -65,9 +69,10 @@ pg.base.story_template = {}
 		}
 	}
 	pg.base.story_template[4350] = {
-		id = 4350,
-		name = "E1-1",
 		icon = "story-diluoyi",
+		name = "E1-1",
+		id = 4350,
+		drop_client = "",
 		story = "YUZHEDETIANPING10",
 		pos = {
 			0.105,
@@ -75,9 +80,10 @@ pg.base.story_template = {}
 		}
 	}
 	pg.base.story_template[4351] = {
-		id = 4351,
-		name = "E1-2",
 		icon = "story-diluoyi",
+		name = "E1-2",
+		id = 4351,
+		drop_client = "",
 		story = "YUZHEDETIANPING11",
 		pos = {
 			0.5,
@@ -85,9 +91,10 @@ pg.base.story_template = {}
 		}
 	}
 	pg.base.story_template[4352] = {
-		id = 4352,
-		name = "E1-3",
 		icon = "story-diluoyi",
+		name = "E1-3",
+		id = 4352,
+		drop_client = "",
 		story = "YUZHEDETIANPING12",
 		pos = {
 			0.411,
@@ -95,9 +102,10 @@ pg.base.story_template = {}
 		}
 	}
 	pg.base.story_template[4353] = {
-		id = 4353,
-		name = "E1-4",
 		icon = "story-diluoyi",
+		name = "E1-4",
+		id = 4353,
+		drop_client = "",
 		story = "YUZHEDETIANPING13",
 		pos = {
 			0.578,
@@ -105,9 +113,10 @@ pg.base.story_template = {}
 		}
 	}
 	pg.base.story_template[4354] = {
-		id = 4354,
-		name = "E1-5",
 		icon = "story-diluoyi",
+		name = "E1-5",
+		id = 4354,
+		drop_client = "",
 		story = "YUZHEDETIANPING14",
 		pos = {
 			0.41,
@@ -115,9 +124,10 @@ pg.base.story_template = {}
 		}
 	}
 	pg.base.story_template[4355] = {
-		id = 4355,
-		name = "E1-6",
 		icon = "story-diluoyi",
+		name = "E1-6",
+		id = 4355,
+		drop_client = "",
 		story = "YUZHEDETIANPING15",
 		pos = {
 			0.517,
@@ -125,9 +135,10 @@ pg.base.story_template = {}
 		}
 	}
 	pg.base.story_template[4356] = {
-		id = 4356,
-		name = "E1-7",
 		icon = "story-diluoyi",
+		name = "E1-7",
+		id = 4356,
+		drop_client = "",
 		story = "YUZHEDETIANPING16",
 		pos = {
 			0.28,
@@ -135,9 +146,10 @@ pg.base.story_template = {}
 		}
 	}
 	pg.base.story_template[4368] = {
-		id = 4368,
-		name = "E2-1",
 		icon = "story-xinhaota",
+		name = "E2-1",
+		id = 4368,
+		drop_client = "",
 		story = "YUZHEDETIANPING28",
 		pos = {
 			0.91,
@@ -145,9 +157,10 @@ pg.base.story_template = {}
 		}
 	}
 	pg.base.story_template[4369] = {
-		id = 4369,
-		name = "E2-2",
 		icon = "story-xinhaota",
+		name = "E2-2",
+		id = 4369,
+		drop_client = "",
 		story = "YUZHEDETIANPING29",
 		pos = {
 			0.71,
@@ -155,9 +168,10 @@ pg.base.story_template = {}
 		}
 	}
 	pg.base.story_template[4370] = {
-		id = 4370,
-		name = "E2-3",
 		icon = "story-xinhaota",
+		name = "E2-3",
+		id = 4370,
+		drop_client = "",
 		story = "YUZHEDETIANPING30",
 		pos = {
 			0.9,
@@ -165,9 +179,10 @@ pg.base.story_template = {}
 		}
 	}
 	pg.base.story_template[4371] = {
-		id = 4371,
-		name = "E2-4",
 		icon = "story-xinhaota",
+		name = "E2-4",
+		id = 4371,
+		drop_client = "",
 		story = "YUZHEDETIANPING31",
 		pos = {
 			0.443,
@@ -175,9 +190,10 @@ pg.base.story_template = {}
 		}
 	}
 	pg.base.story_template[4372] = {
-		id = 4372,
-		name = "E2-5",
 		icon = "story-xinhaota",
+		name = "E2-5",
+		id = 4372,
+		drop_client = "",
 		story = "YUZHEDETIANPING32",
 		pos = {
 			0.188,
@@ -185,9 +201,10 @@ pg.base.story_template = {}
 		}
 	}
 	pg.base.story_template[4373] = {
-		id = 4373,
-		name = "E2-6",
 		icon = "story-xinhaota",
+		name = "E2-6",
+		id = 4373,
+		drop_client = "",
 		story = "YUZHEDETIANPING33",
 		pos = {
 			0.33,
@@ -195,9 +212,10 @@ pg.base.story_template = {}
 		}
 	}
 	pg.base.story_template[4374] = {
-		id = 4374,
-		name = "E2-7",
 		icon = "story-xinhaota",
+		name = "E2-7",
+		id = 4374,
+		drop_client = "",
 		story = "YUZHEDETIANPING34",
 		pos = {
 			0.192,
@@ -205,9 +223,10 @@ pg.base.story_template = {}
 		}
 	}
 	pg.base.story_template[6180] = {
-		id = 6180,
-		name = "E1-1",
 		icon = "story-wurenji",
+		name = "E1-1",
+		id = 6180,
+		drop_client = "",
 		story = "TIEYIQINGFENG10",
 		pos = {
 			0.65,
@@ -215,9 +234,10 @@ pg.base.story_template = {}
 		}
 	}
 	pg.base.story_template[6181] = {
-		id = 6181,
-		name = "E1-2",
 		icon = "story-wurenji",
+		name = "E1-2",
+		id = 6181,
+		drop_client = "",
 		story = "TIEYIQINGFENG11",
 		pos = {
 			0.56,
@@ -225,9 +245,10 @@ pg.base.story_template = {}
 		}
 	}
 	pg.base.story_template[6182] = {
-		id = 6182,
-		name = "E1-3",
 		icon = "story-wurenji",
+		name = "E1-3",
+		id = 6182,
+		drop_client = "",
 		story = "TIEYIQINGFENG12",
 		pos = {
 			0.73,
@@ -235,9 +256,10 @@ pg.base.story_template = {}
 		}
 	}
 	pg.base.story_template[6183] = {
-		id = 6183,
-		name = "E1-4",
 		icon = "story-xinghaizhuangzhi",
+		name = "E1-4",
+		id = 6183,
+		drop_client = "",
 		story = "TIEYIQINGFENG13",
 		pos = {
 			0.85,
@@ -245,9 +267,10 @@ pg.base.story_template = {}
 		}
 	}
 	pg.base.story_template[6184] = {
-		id = 6184,
-		name = "E1-5",
 		icon = "story-zhihuimao",
+		name = "E1-5",
+		id = 6184,
+		drop_client = "",
 		story = "TIEYIQINGFENG14",
 		pos = {
 			0.2,
@@ -255,9 +278,10 @@ pg.base.story_template = {}
 		}
 	}
 	pg.base.story_template[6959] = {
-		id = 6959,
-		name = "SP",
 		icon = "story-doujichang",
+		name = "SP",
+		id = 6959,
+		drop_client = "",
 		story = "YOUMIYAGUANQIAPIAN9",
 		pos = {
 			0.5,
@@ -265,9 +289,10 @@ pg.base.story_template = {}
 		}
 	}
 	pg.base.story_template[6969] = {
-		id = 6969,
-		name = "SP",
 		icon = "story-doujichang",
+		name = "SP",
+		id = 6969,
+		drop_client = "",
 		story = "YOUMIYAGUANQIAPIAN18",
 		pos = {
 			0.5,
@@ -275,9 +300,10 @@ pg.base.story_template = {}
 		}
 	}
 	pg.base.story_template[6976] = {
-		id = 6976,
-		name = "SP",
 		icon = "story-doujichang",
+		name = "SP",
+		id = 6976,
+		drop_client = "",
 		story = "YOUMIYAGUANQIAPIAN24",
 		pos = {
 			0.5,
@@ -285,13 +311,31 @@ pg.base.story_template = {}
 		}
 	}
 	pg.base.story_template[6979] = {
-		id = 6979,
-		name = "SP",
 		icon = "story-doujichang",
+		name = "SP",
+		id = 6979,
+		drop_client = "",
 		story = "YOUMIYAGUANQIAPIAN27",
 		pos = {
 			0.5,
 			0.3
+		}
+	}
+	pg.base.story_template[7922] = {
+		id = 7922,
+		name = "SP",
+		icon = "story-doujichasng",
+		story = "BINHAIJISU22",
+		pos = {
+			0.5,
+			0.3
+		},
+		drop_client = {
+			{
+				2,
+				20001,
+				5
+			}
 		}
 	}
 end)()

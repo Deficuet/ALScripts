@@ -21,19 +21,37 @@ function var_0_0.UpdateGame(arg_4_0, arg_4_1)
 	if arg_4_0.gameUI then
 		arg_4_0.gameUI:UpdateActivity(arg_4_0.activity)
 	else
-		arg_4_0.gameUI = MonopolyCar2024Game.New(arg_4_0.activity, arg_4_0._tf:Find("adapt"), arg_4_0.event)
+		arg_4_0.gameUI = arg_4_0:NewGame()
+
+		arg_4_0.gameUI:Setup()
 	end
 end
 
-function var_0_0.onBackPressed(arg_5_0)
-	var_0_0.super.onBackPressed(arg_5_0)
+function var_0_0.UpdateStory(arg_5_0)
+	if not arg_5_0.gameUI then
+		return
+	end
+
+	arg_5_0.gameUI:UpdateStory()
 end
 
-function var_0_0.willExit(arg_6_0)
-	if arg_6_0.gameUI then
-		arg_6_0.gameUI:Dispose()
+function var_0_0.NewGame(arg_6_0)
+	return MonopolyCar2024Game.New(arg_6_0.activity, arg_6_0._tf:Find("adapt"), arg_6_0.event)
+end
 
-		arg_6_0.gameUI = nil
+function var_0_0.onBackPressed(arg_7_0)
+	if arg_7_0.gameUI and arg_7_0.gameUI.isBlocksRaycasts then
+		return
+	end
+
+	var_0_0.super.onBackPressed(arg_7_0)
+end
+
+function var_0_0.willExit(arg_8_0)
+	if arg_8_0.gameUI then
+		arg_8_0.gameUI:Dispose()
+
+		arg_8_0.gameUI = nil
 	end
 end
 

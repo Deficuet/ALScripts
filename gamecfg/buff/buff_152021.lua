@@ -1,27 +1,13 @@
 return {
 	effect_list = {
 		{
-			type = "BattleBuffAddBuff",
+			type = "BattleBuffAddTag",
 			trigger = {
-				"onAttach"
+				"onAttach",
+				"onRemove"
 			},
 			arg_list = {
-				buff_id = 152024
-			}
-		},
-		{
-			type = "BattleBuffCastSkill",
-			trigger = {
-				"onAttach"
-			},
-			arg_list = {
-				minTargetNumber = 1,
-				skill_id = 152021,
-				nationality = 6,
-				check_target = {
-					"TargetSelf",
-					"TargetNationality"
-				}
+				tag = "wgln-hx"
 			}
 		}
 	},
@@ -35,11 +21,9 @@ return {
 	{},
 	{},
 	{},
-	desc_get = "",
-	name = "",
 	init_effect = "",
+	name = "",
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,

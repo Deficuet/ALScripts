@@ -134,7 +134,8 @@ pg.backyard_theme_template.all = {
 	138,
 	139,
 	140,
-	141
+	141,
+	142
 }
 pg.base = pg.base or {}
 pg.base.backyard_theme_template = {}
@@ -5717,6 +5718,42 @@ end)()
 			341302,
 			341303,
 			341304
+		}
+	}
+	pg.base.backyard_theme_template[142] = {
+		Cfg_1 = 5,
+		name = "滨海耐力赛",
+		hot = 1,
+		is_view = 1,
+		id = 142,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "来到热情洋溢的滨海赛场，在呐喊、灯光与飞扬沙尘中尽情狂飙吧~",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "car3themeicon",
+		deblocking = 1,
+		order = 142,
+		ids = {
+			342001,
+			342002,
+			342101,
+			342102,
+			342103,
+			342104,
+			342105,
+			342106,
+			342107,
+			342108,
+			342109,
+			342110,
+			342111,
+			342112,
+			342113,
+			342114,
+			342115,
+			342116
 		}
 	}
 end)()

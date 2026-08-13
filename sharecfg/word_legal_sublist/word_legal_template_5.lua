@@ -7,6 +7,36 @@ var_0_0.word_legal_template_5 = {}
 local var_0_1 = var_0_0.word_legal_template_5
 
 function temp()
+	var_0_1.萤 = {
+		火 = {
+			虫 = {
+				this = true,
+				["."] = {
+					改 = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.勇 = {
+		气 = {
+			this = true
+		},
+		敢 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.猎 = {
 		人 = {
 			this = true,
@@ -524,35 +554,6 @@ function temp()
 					this = true
 				}
 			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.什 = {
-		罗 = {
-			普 = {
-				郡 = {
-					this = true,
-					["."] = {
-						改 = {
-							this = true
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.肯 = {
-		特 = {
-			this = true
 		}
 	}
 end

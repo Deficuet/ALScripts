@@ -1116958,6 +1116958,12228 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.expedition_data_template[2050001] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2050001,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_qz",
+		difficulty = 2,
+		level = 21,
+		exp = 105,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050001,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200838
+			},
+			{
+				2,
+				17021
+			},
+			{
+				2,
+				17031
+			},
+			{
+				2,
+				17001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050002] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2050002,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_qz",
+		difficulty = 2,
+		level = 22,
+		exp = 121,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050002,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200838
+			},
+			{
+				2,
+				17021
+			},
+			{
+				2,
+				17031
+			},
+			{
+				2,
+				17001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050003] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2050003,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_qz",
+		difficulty = 2,
+		level = 23,
+		exp = 138,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050003,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200838
+			},
+			{
+				2,
+				17021
+			},
+			{
+				2,
+				17031
+			},
+			{
+				2,
+				17001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050004] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2050004,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_zl",
+		difficulty = 2,
+		level = 21,
+		exp = 105,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050004,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200838
+			},
+			{
+				2,
+				17011
+			},
+			{
+				2,
+				17031
+			},
+			{
+				2,
+				17001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050005] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2050005,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_zl",
+		difficulty = 2,
+		level = 22,
+		exp = 121,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050005,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200838
+			},
+			{
+				2,
+				17011
+			},
+			{
+				2,
+				17031
+			},
+			{
+				2,
+				17001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050006] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2050006,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_zl",
+		difficulty = 2,
+		level = 23,
+		exp = 138,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050006,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200838
+			},
+			{
+				2,
+				17011
+			},
+			{
+				2,
+				17031
+			},
+			{
+				2,
+				17001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050007] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2050007,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_hm",
+		difficulty = 2,
+		level = 21,
+		exp = 105,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050007,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200838
+			},
+			{
+				2,
+				17041
+			},
+			{
+				2,
+				17031
+			},
+			{
+				2,
+				17001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050008] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2050008,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_hm",
+		difficulty = 2,
+		level = 22,
+		exp = 121,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050008,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200838
+			},
+			{
+				2,
+				17041
+			},
+			{
+				2,
+				17031
+			},
+			{
+				2,
+				17001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050009] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2050009,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_hm",
+		difficulty = 2,
+		level = 23,
+		exp = 138,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050009,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200838
+			},
+			{
+				2,
+				17041
+			},
+			{
+				2,
+				17031
+			},
+			{
+				2,
+				17001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050013] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2050013,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_qz",
+		difficulty = 2,
+		level = 25,
+		exp = 181,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050013,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200825
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050101] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2050001,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_qz",
+		difficulty = 2,
+		level = 26,
+		exp = 130,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050101,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200839
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050102] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2050002,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_qz",
+		difficulty = 2,
+		level = 27,
+		exp = 148,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050102,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200839
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050103] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2050003,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_qz",
+		difficulty = 2,
+		level = 28,
+		exp = 168,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050103,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200839
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050104] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2050004,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_zl",
+		difficulty = 2,
+		level = 26,
+		exp = 130,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050104,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200839
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050105] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2050005,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_zl",
+		difficulty = 2,
+		level = 27,
+		exp = 148,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050105,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200839
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050106] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2050006,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_zl",
+		difficulty = 2,
+		level = 28,
+		exp = 168,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050106,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200839
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050107] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2050007,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_hm",
+		difficulty = 2,
+		level = 26,
+		exp = 130,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050107,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200839
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050108] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2050008,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_hm",
+		difficulty = 2,
+		level = 27,
+		exp = 148,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050108,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200839
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050109] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2050009,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_hm",
+		difficulty = 2,
+		level = 28,
+		exp = 168,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050109,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200839
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050113] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2050113,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_zl",
+		difficulty = 2,
+		level = 30,
+		exp = 217,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050113,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200826
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050201] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2050001,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_qz",
+		difficulty = 2,
+		level = 31,
+		exp = 155,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050201,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200840
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050202] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2050002,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_qz",
+		difficulty = 2,
+		level = 32,
+		exp = 176,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050202,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200840
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050203] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2050003,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_qz",
+		difficulty = 2,
+		level = 33,
+		exp = 198,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050203,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200840
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050204] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2050004,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_zl",
+		difficulty = 2,
+		level = 31,
+		exp = 155,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050204,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200840
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050205] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2050005,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_zl",
+		difficulty = 2,
+		level = 32,
+		exp = 176,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050205,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200840
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050206] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2050006,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_zl",
+		difficulty = 2,
+		level = 33,
+		exp = 198,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050206,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200840
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050207] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2050007,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_hm",
+		difficulty = 2,
+		level = 31,
+		exp = 155,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050207,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200840
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050208] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2050008,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_hm",
+		difficulty = 2,
+		level = 32,
+		exp = 176,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050208,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200840
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050209] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2050009,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_hm",
+		difficulty = 2,
+		level = 33,
+		exp = 198,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050209,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200840
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050213] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2050213,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_hm",
+		difficulty = 2,
+		level = 35,
+		exp = 254,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050213,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200827
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050301] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2050301,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_qz",
+		difficulty = 2,
+		level = 24,
+		exp = 162,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050301,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200825
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050302] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2050302,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_qz",
+		difficulty = 2,
+		level = 29,
+		exp = 196,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050302,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200826
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2050303] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2050303,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_qz",
+		difficulty = 2,
+		level = 34,
+		exp = 229,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2050303,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200827
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051001] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2051001,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srqz3",
+		difficulty = 2,
+		level = 41,
+		exp = 205,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051001,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200841
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051002] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2051002,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srqz3",
+		difficulty = 2,
+		level = 42,
+		exp = 231,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051002,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200841
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051003] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2051003,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srqz3",
+		difficulty = 2,
+		level = 43,
+		exp = 258,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051003,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200841
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051004] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2051004,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srzl3",
+		difficulty = 2,
+		level = 41,
+		exp = 205,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051004,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200841
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051005] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2051005,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srzl3",
+		difficulty = 2,
+		level = 42,
+		exp = 231,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051005,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200841
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051006] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2051006,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srzl3",
+		difficulty = 2,
+		level = 43,
+		exp = 258,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051006,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200841
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051007] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2051007,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srhm3",
+		difficulty = 2,
+		level = 41,
+		exp = 205,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051007,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200841
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051008] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2051008,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srhm3",
+		difficulty = 2,
+		level = 42,
+		exp = 231,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051008,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200841
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051009] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2051009,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srhm3",
+		difficulty = 2,
+		level = 43,
+		exp = 258,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051009,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200841
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051013] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2051013,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "haorenlichade_m_qianting",
+		difficulty = 2,
+		level = 45,
+		exp = 326,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051013,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200828
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051101] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2051001,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srqz3",
+		difficulty = 2,
+		level = 51,
+		exp = 255,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051101,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200842
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051102] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2051002,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srqz3",
+		difficulty = 2,
+		level = 52,
+		exp = 286,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051102,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200842
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051103] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2051003,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srqz3",
+		difficulty = 2,
+		level = 53,
+		exp = 318,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051103,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200842
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051104] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2051004,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srzl3",
+		difficulty = 2,
+		level = 51,
+		exp = 255,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051104,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200842
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051105] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2051005,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srzl3",
+		difficulty = 2,
+		level = 52,
+		exp = 286,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051105,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200842
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051106] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2051006,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srzl3",
+		difficulty = 2,
+		level = 53,
+		exp = 318,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051106,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200842
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051107] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2051007,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srhm3",
+		difficulty = 2,
+		level = 51,
+		exp = 255,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051107,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200842
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051108] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2051008,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srhm3",
+		difficulty = 2,
+		level = 52,
+		exp = 286,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051108,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200842
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051109] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2051009,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srhm3",
+		difficulty = 2,
+		level = 53,
+		exp = 318,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051109,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200842
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051113] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2051113,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "haorenlichade_m_zhanlie",
+		difficulty = 2,
+		level = 55,
+		exp = 399,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051113,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200829
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051201] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2051001,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srqz3",
+		difficulty = 2,
+		level = 56,
+		exp = 280,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051201,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200843
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051202] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2051002,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srqz3",
+		difficulty = 2,
+		level = 57,
+		exp = 313,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051202,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200843
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051203] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2051003,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srqz3",
+		difficulty = 2,
+		level = 58,
+		exp = 348,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051203,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200843
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051204] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2051004,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srzl3",
+		difficulty = 2,
+		level = 56,
+		exp = 280,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051204,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200843
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051205] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2051005,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srzl3",
+		difficulty = 2,
+		level = 57,
+		exp = 313,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051205,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200843
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051206] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2051006,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srzl3",
+		difficulty = 2,
+		level = 58,
+		exp = 348,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051206,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200843
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051207] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2051007,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srhm3",
+		difficulty = 2,
+		level = 56,
+		exp = 280,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051207,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200843
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051208] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2051008,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srhm3",
+		difficulty = 2,
+		level = 57,
+		exp = 313,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051208,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200843
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051209] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2051009,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srhm3",
+		difficulty = 2,
+		level = 58,
+		exp = 348,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051209,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200843
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			},
+			{
+				2,
+				17002
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051213] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2051213,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "haorenlichade_m_hangmu",
+		difficulty = 2,
+		level = 60,
+		exp = 435,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051213,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56000
+			},
+			{
+				2,
+				200830
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051301] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		dungeon_id = 2051301,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "haorenlichade_m_zhanlie",
+		difficulty = 2,
+		level = 44,
+		exp = 297,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051301,
+		scale = 80,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200828
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051302] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		dungeon_id = 2051302,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "haorenlichade_m_hangmu",
+		difficulty = 2,
+		level = 44,
+		exp = 297,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051302,
+		scale = 80,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200828
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051303] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		dungeon_id = 2051303,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "haorenlichade_m_zhanlie",
+		difficulty = 2,
+		level = 54,
+		exp = 364,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051303,
+		scale = 80,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200829
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051304] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		dungeon_id = 2051304,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "haorenlichade_m_hangmu",
+		difficulty = 2,
+		level = 54,
+		exp = 364,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051304,
+		scale = 80,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200829
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051305] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		dungeon_id = 2051305,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "haorenlichade_m_zhanlie",
+		difficulty = 2,
+		level = 59,
+		exp = 398,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051305,
+		scale = 80,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200830
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2051306] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		dungeon_id = 2051306,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "haorenlichade_m_hangmu",
+		difficulty = 2,
+		level = 59,
+		exp = 398,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2051306,
+		scale = 80,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200830
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052001] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2052001,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_qz",
+		difficulty = 2,
+		level = 71,
+		exp = 355,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052001,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200844
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052002] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2052002,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_qz",
+		difficulty = 2,
+		level = 72,
+		exp = 396,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052002,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200844
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052003] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2052003,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_qz",
+		difficulty = 2,
+		level = 73,
+		exp = 438,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052003,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200844
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052004] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2052004,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_zl",
+		difficulty = 2,
+		level = 71,
+		exp = 355,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052004,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200844
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052005] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2052005,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_zl",
+		difficulty = 2,
+		level = 72,
+		exp = 396,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052005,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200844
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052006] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2052006,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_zl",
+		difficulty = 2,
+		level = 73,
+		exp = 438,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052006,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200844
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052007] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2052007,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_hm",
+		difficulty = 2,
+		level = 71,
+		exp = 355,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052007,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200844
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052008] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2052008,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_hm",
+		difficulty = 2,
+		level = 72,
+		exp = 396,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052008,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200844
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052009] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2052009,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_hm",
+		difficulty = 2,
+		level = 73,
+		exp = 438,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052009,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200844
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052013] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2052013,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_qz",
+		difficulty = 2,
+		level = 75,
+		exp = 544,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052013,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200831
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052101] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2052001,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_qz",
+		difficulty = 2,
+		level = 76,
+		exp = 380,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052101,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200845
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052102] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2052002,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_qz",
+		difficulty = 2,
+		level = 77,
+		exp = 423,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052102,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200845
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052103] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2052003,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_qz",
+		difficulty = 2,
+		level = 78,
+		exp = 468,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052103,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200845
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052104] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2052004,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_zl",
+		difficulty = 2,
+		level = 76,
+		exp = 380,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052104,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200845
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052105] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2052005,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_zl",
+		difficulty = 2,
+		level = 77,
+		exp = 423,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052105,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200845
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052106] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2052006,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_zl",
+		difficulty = 2,
+		level = 78,
+		exp = 468,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052106,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200845
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052107] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2052007,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_hm",
+		difficulty = 2,
+		level = 76,
+		exp = 380,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052107,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200845
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052108] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2052008,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_hm",
+		difficulty = 2,
+		level = 77,
+		exp = 423,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052108,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200845
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052109] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2052009,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_hm",
+		difficulty = 2,
+		level = 78,
+		exp = 468,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052109,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200845
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052113] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2052113,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_zl",
+		difficulty = 2,
+		level = 80,
+		exp = 580,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052113,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200832
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052201] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2052001,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_qz",
+		difficulty = 2,
+		level = 81,
+		exp = 405,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052201,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200846
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052202] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2052002,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_qz",
+		difficulty = 2,
+		level = 82,
+		exp = 451,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052202,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200846
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052203] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2052003,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_qz",
+		difficulty = 2,
+		level = 83,
+		exp = 498,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052203,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200846
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052204] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2052004,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_zl",
+		difficulty = 2,
+		level = 81,
+		exp = 405,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052204,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200846
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052205] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2052005,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_zl",
+		difficulty = 2,
+		level = 82,
+		exp = 451,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052205,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200846
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052206] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2052006,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_zl",
+		difficulty = 2,
+		level = 83,
+		exp = 498,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052206,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200846
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052207] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2052007,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_hm",
+		difficulty = 2,
+		level = 81,
+		exp = 405,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052207,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200846
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052208] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2052008,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_hm",
+		difficulty = 2,
+		level = 82,
+		exp = 451,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052208,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200846
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052209] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2052009,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_hm",
+		difficulty = 2,
+		level = 83,
+		exp = 498,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052209,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200846
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052213] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2052213,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_hm",
+		difficulty = 2,
+		level = 85,
+		exp = 616,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052213,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200833
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052301] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2052301,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_qz",
+		difficulty = 2,
+		level = 74,
+		exp = 499,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052301,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200831
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052302] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2052302,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_qz",
+		difficulty = 2,
+		level = 79,
+		exp = 533,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052302,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200832
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2052303] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 95,
+		ai_mov = 2,
+		dungeon_id = 2052303,
+		add_icon = "",
+		bgm = "story-wanderingcity-future",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "emotion_qz",
+		difficulty = 2,
+		level = 84,
+		exp = 567,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2052303,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200833
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053001] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2053001,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srqz3",
+		difficulty = 2,
+		level = 91,
+		exp = 455,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053001,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200847
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053002] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2053002,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srqz3",
+		difficulty = 2,
+		level = 92,
+		exp = 506,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053002,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200847
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053003] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2053003,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srqz3",
+		difficulty = 2,
+		level = 93,
+		exp = 558,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053003,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200847
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053004] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2053004,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srzl3",
+		difficulty = 2,
+		level = 91,
+		exp = 455,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053004,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200847
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053005] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2053005,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srzl3",
+		difficulty = 2,
+		level = 92,
+		exp = 506,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053005,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200847
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053006] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2053006,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srzl3",
+		difficulty = 2,
+		level = 93,
+		exp = 558,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053006,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200847
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053007] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2053007,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srhm3",
+		difficulty = 2,
+		level = 91,
+		exp = 455,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053007,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200847
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053008] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2053008,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srhm3",
+		difficulty = 2,
+		level = 92,
+		exp = 506,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053008,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200847
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053009] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2053009,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srhm3",
+		difficulty = 2,
+		level = 93,
+		exp = 558,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053009,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200847
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053013] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2053013,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "haorenlichade_m_qianting",
+		difficulty = 2,
+		level = 95,
+		exp = 689,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053013,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200834
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053101] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2053001,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srqz3",
+		difficulty = 2,
+		level = 96,
+		exp = 480,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053101,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200848
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053102] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2053002,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srqz3",
+		difficulty = 2,
+		level = 97,
+		exp = 533,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053102,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200848
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053103] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2053003,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srqz3",
+		difficulty = 2,
+		level = 98,
+		exp = 588,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053103,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200848
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053104] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2053004,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srzl3",
+		difficulty = 2,
+		level = 96,
+		exp = 480,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053104,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200848
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053105] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2053005,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srzl3",
+		difficulty = 2,
+		level = 97,
+		exp = 533,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053105,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200848
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053106] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2053006,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srzl3",
+		difficulty = 2,
+		level = 98,
+		exp = 588,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053106,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200848
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053107] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2053007,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srhm3",
+		difficulty = 2,
+		level = 96,
+		exp = 480,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053107,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200848
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053108] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2053008,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srhm3",
+		difficulty = 2,
+		level = 97,
+		exp = 533,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053108,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200848
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053109] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2053009,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srhm3",
+		difficulty = 2,
+		level = 98,
+		exp = 588,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053109,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200848
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053113] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2053113,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "haorenlichade_m_zhanlie",
+		difficulty = 2,
+		level = 100,
+		exp = 725,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053113,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200835
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053201] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2053001,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srqz3",
+		difficulty = 2,
+		level = 101,
+		exp = 505,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053201,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200849
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053202] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2053002,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srqz3",
+		difficulty = 2,
+		level = 102,
+		exp = 561,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053202,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200849
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053203] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2053003,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 3,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srqz3",
+		difficulty = 2,
+		level = 103,
+		exp = 618,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053203,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200849
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053204] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2053004,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srzl3",
+		difficulty = 2,
+		level = 101,
+		exp = 505,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053204,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200849
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053205] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2053005,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srzl3",
+		difficulty = 2,
+		level = 102,
+		exp = 561,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053205,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200849
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053206] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2053006,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 3,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srzl3",
+		difficulty = 2,
+		level = 103,
+		exp = 618,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053206,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200849
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053207] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2053007,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srhm3",
+		difficulty = 2,
+		level = 101,
+		exp = 505,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053207,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200849
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053208] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2053008,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srhm3",
+		difficulty = 2,
+		level = 102,
+		exp = 561,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053208,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200849
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053209] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2053009,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 3,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "srhm3",
+		difficulty = 2,
+		level = 103,
+		exp = 618,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053209,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200849
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053213] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2053213,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 3,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "haorenlichade_m_hangmu",
+		difficulty = 2,
+		level = 105,
+		exp = 761,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053213,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56000
+			},
+			{
+				2,
+				200836
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053301] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		dungeon_id = 2053301,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "haorenlichade_m_zhanlie",
+		difficulty = 2,
+		level = 94,
+		exp = 634,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053301,
+		scale = 80,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200834
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053302] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		dungeon_id = 2053302,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "haorenlichade_m_hangmu",
+		difficulty = 2,
+		level = 94,
+		exp = 634,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053302,
+		scale = 80,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200834
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053303] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		dungeon_id = 2053303,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "haorenlichade_m_zhanlie",
+		difficulty = 2,
+		level = 99,
+		exp = 668,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053303,
+		scale = 80,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200835
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053304] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		dungeon_id = 2053304,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "haorenlichade_m_hangmu",
+		difficulty = 2,
+		level = 99,
+		exp = 668,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053304,
+		scale = 80,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200835
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053305] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		dungeon_id = 2053305,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 3,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "haorenlichade_m_zhanlie",
+		difficulty = 2,
+		level = 104,
+		exp = 702,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053305,
+		scale = 80,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200836
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2053306] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		dungeon_id = 2053306,
+		add_icon = "",
+		bgm = "story-whiterichard-chasing",
+		exp_commander = 3,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "haorenlichade_m_hangmu",
+		difficulty = 2,
+		level = 104,
+		exp = 702,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2053306,
+		scale = 80,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200836
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2054001] = {
+		sink_limit = 1,
+		name = "小型侦查舰队",
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		dungeon_id = 2054001,
+		add_icon = "",
+		bgm = "battle-starcity-rhythm",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_qz1",
+		difficulty = 2,
+		level = 110,
+		exp = 550,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2054001,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200850
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2054002] = {
+		sink_limit = 1,
+		name = "中型侦查舰队",
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		dungeon_id = 2054002,
+		add_icon = "",
+		bgm = "battle-starcity-rhythm",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_qz1",
+		difficulty = 2,
+		level = 110,
+		exp = 605,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2054002,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200850
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2054003] = {
+		sink_limit = 1,
+		name = "大型侦查舰队",
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		dungeon_id = 2054003,
+		add_icon = "",
+		bgm = "battle-starcity-rhythm",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_qz1",
+		difficulty = 2,
+		level = 110,
+		exp = 660,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2054003,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200850
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2054004] = {
+		sink_limit = 1,
+		name = "小型主力舰队",
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		dungeon_id = 2054004,
+		add_icon = "",
+		bgm = "battle-starcity-rhythm",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_zl1",
+		difficulty = 2,
+		level = 110,
+		exp = 550,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2054004,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200850
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2054005] = {
+		sink_limit = 1,
+		name = "中型主力舰队",
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		dungeon_id = 2054005,
+		add_icon = "",
+		bgm = "battle-starcity-rhythm",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_zl1",
+		difficulty = 2,
+		level = 110,
+		exp = 605,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2054005,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200850
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2054006] = {
+		sink_limit = 1,
+		name = "大型主力舰队",
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		dungeon_id = 2054006,
+		add_icon = "",
+		bgm = "battle-starcity-rhythm",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_zl1",
+		difficulty = 2,
+		level = 110,
+		exp = 660,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2054006,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200850
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2054007] = {
+		sink_limit = 1,
+		name = "小型航空舰队",
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		dungeon_id = 2054007,
+		add_icon = "",
+		bgm = "battle-starcity-rhythm",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_hm1",
+		difficulty = 2,
+		level = 110,
+		exp = 550,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2054007,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200850
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2054008] = {
+		sink_limit = 1,
+		name = "中型航空舰队",
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		dungeon_id = 2054008,
+		add_icon = "",
+		bgm = "battle-starcity-rhythm",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_hm1",
+		difficulty = 2,
+		level = 110,
+		exp = 605,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2054008,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200850
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2054009] = {
+		sink_limit = 1,
+		name = "大型航空舰队",
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		dungeon_id = 2054009,
+		add_icon = "",
+		bgm = "battle-starcity-rhythm",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "unknownV_hm1",
+		difficulty = 2,
+		level = 110,
+		exp = 660,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2054009,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200850
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			},
+			{
+				2,
+				17003
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2054013] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2054013,
+		add_icon = "",
+		bgm = "theme-richard",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "haorenlichade_alter",
+		difficulty = 2,
+		level = 110,
+		exp = 797,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 120,
+		effect_prefab = "BHR_tornado_SLG",
+		plot_type = 0,
+		id = 2054013,
+		scale = 100,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56000
+			},
+			{
+				2,
+				200837
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2054301] = {
+		sink_limit = 1,
+		name = "精英舰队",
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		dungeon_id = 2054301,
+		add_icon = "",
+		bgm = "battle-starcity-rhythm",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 30,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "haorenlichade_m_qianting",
+		difficulty = 2,
+		level = 110,
+		exp = 742,
+		limit_type = 1,
+		ai = 3,
+		time_limit = 120,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2054301,
+		scale = 80,
+		map_id = {
+			{
+				50227,
+				1
+			}
+		},
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				200837
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2055001] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2055001,
+		add_icon = "",
+		bgm = "theme-richard",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "haorenlichade_alter",
+		difficulty = 2,
+		level = 125,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 150,
+		effect_prefab = "BHR_tornado_SLG",
+		plot_type = 0,
+		id = 2055001,
+		scale = 100,
+		map_id = {
+			{
+				50229,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			150
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2055002] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2055002,
+		add_icon = "",
+		bgm = "theme-richard",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 2,
+		icon = "haorenlichade_alter",
+		difficulty = 2,
+		level = 125,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 150,
+		effect_prefab = "BHR_tornado_SLG",
+		plot_type = 0,
+		id = 2055002,
+		scale = 100,
+		map_id = {
+			{
+				50229,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			150
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2056001] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2056001,
+		add_icon = "",
+		bgm = "battle-starcity-rhythm",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 120,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 300,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2056001,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2056002] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2056002,
+		add_icon = "",
+		bgm = "theme-commander-ally",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 120,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 300,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2056002,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2056003] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2056003,
+		add_icon = "",
+		bgm = "battle-thehierophantV",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 200,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 300,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2056003,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2056004] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2056004,
+		add_icon = "",
+		bgm = "theme-shallowoftheworld",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 0,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 200,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 300,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2056004,
+		scale = 100,
+		map_id = {
+			{
+				50228,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.expedition_data_template[5000001] = {
 		sink_limit = 1,
 		name = "小型侦查舰队",

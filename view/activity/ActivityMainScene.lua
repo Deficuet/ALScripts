@@ -430,8 +430,8 @@ function var_0_0.HideWindow(arg_48_0, arg_48_1)
 	arg_48_0.windowList[var_48_0]:Hide()
 end
 
-function var_0_0.ShowAwardWindow(arg_49_0, arg_49_1, arg_49_2, arg_49_3)
-	arg_49_0.awardWindow:ExecuteAction("Flush", arg_49_1, arg_49_2, arg_49_3)
+function var_0_0.ShowAwardWindow(arg_49_0, arg_49_1, arg_49_2, arg_49_3, arg_49_4)
+	arg_49_0.awardWindow:ExecuteAction("Flush", arg_49_1, arg_49_2, arg_49_3, arg_49_4)
 end
 
 function var_0_0.OnChargeSuccess(arg_50_0, arg_50_1)

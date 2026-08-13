@@ -144,11 +144,7 @@ function var_0_1.getInitialSpeed(arg_15_0)
 		return var_15_0
 	end
 
-	if arg_15_0._moveProcess then
-		return arg_15_0._moveProcess()
-	end
-
-	if arg_15_0._staticState then
+	if arg_15_0._staticState and not arg_15_0._unstoppable then
 		return Vector3.zero
 	end
 
@@ -193,62 +189,58 @@ function var_0_1.ClearForceMove(arg_18_0)
 	arg_18_0._forceLastTime = nil
 end
 
-function var_0_1.SetMoveProcess(arg_19_0, arg_19_1)
-	arg_19_0._moveProcess = arg_19_1
+function var_0_1.SetStaticState(arg_19_0, arg_19_1)
+	arg_19_0._staticState = arg_19_1
 end
 
-function var_0_1.SetStaticState(arg_20_0, arg_20_1)
-	arg_20_0._staticState = arg_20_1
-end
-
-function var_0_1.SetAutoMoveAI(arg_21_0, arg_21_1, arg_21_2)
-	function arg_21_0._autoMoveAi()
-		return arg_21_1:GetDirection():Mul(arg_21_2:GetAttrByName("velocity"))
+function var_0_1.SetAutoMoveAI(arg_20_0, arg_20_1, arg_20_2)
+	function arg_20_0._autoMoveAi()
+		return arg_20_1:GetDirection():Mul(arg_20_2:GetAttrByName("velocity"))
 	end
 end
 
-function var_0_1.SetFormationCtrlInfo(arg_23_0, arg_23_1)
-	function arg_23_0._manuallyMove()
-		return arg_23_0:UpdateFleetInfo(arg_23_1)
+function var_0_1.SetFormationCtrlInfo(arg_22_0, arg_22_1)
+	function arg_22_0._manuallyMove()
+		return arg_22_0:UpdateFleetInfo(arg_22_1)
 	end
 end
 
-function var_0_1.CancelFormationCtrl(arg_25_0)
-	arg_25_0._manuallyMove = nil
+function var_0_1.CancelFormationCtrl(arg_24_0)
+	arg_24_0._manuallyMove = nil
 end
 
-function var_0_1.SetMotionVO(arg_26_0, arg_26_1)
-	arg_26_0._fleetMotionVO = arg_26_1
+function var_0_1.SetMotionVO(arg_25_0, arg_25_1)
+	arg_25_0._fleetMotionVO = arg_25_1
 end
 
-function var_0_1.UpdateFleetInfo(arg_27_0, arg_27_1)
-	local var_27_0 = arg_27_0._fleetMotionVO
-	local var_27_1 = var_27_0:GetSpeed()
+function var_0_1.UpdateFleetInfo(arg_26_0, arg_26_1)
+	local var_26_0 = arg_26_0._fleetMotionVO
+	local var_26_1 = var_26_0:GetSpeed()
 
-	if arg_27_1:EqualZero() then
-		return var_27_1
+	if arg_26_1:EqualZero() then
+		return var_26_1
 	end
 
-	local var_27_2 = var_27_0:GetPos()
+	local var_26_2 = var_26_0:GetPos()
 
-	return (var_27_0:GetDirAngle() * arg_27_1):Add(var_27_2):Sub(arg_27_0._pos):Div(25):Add(var_27_1)
+	return (var_26_0:GetDirAngle() * arg_26_1):Add(var_26_2):Sub(arg_26_0._pos):Div(25):Add(var_26_1)
 end
 
-function var_0_1.AdditiveForce(arg_28_0, arg_28_1)
-	arg_28_1.x = arg_28_1.x + arg_28_0._additiveSpeed.x
-	arg_28_1.z = arg_28_1.z + arg_28_0._additiveSpeed.z
+function var_0_1.AdditiveForce(arg_27_0, arg_27_1)
+	arg_27_1.x = arg_27_1.x + arg_27_0._additiveSpeed.x
+	arg_27_1.z = arg_27_1.z + arg_27_0._additiveSpeed.z
 
-	return arg_28_1
+	return arg_27_1
 end
 
-function var_0_1.UpdateAdditiveSpeed(arg_29_0, arg_29_1)
-	arg_29_0._additiveSpeed = arg_29_1
+function var_0_1.UpdateAdditiveSpeed(arg_28_0, arg_28_1)
+	arg_28_0._additiveSpeed = arg_28_1
 end
 
-function var_0_1.RemoveAdditiveSpeed(arg_30_0)
-	arg_30_0._additiveSpeed = Vector3.zero
+function var_0_1.RemoveAdditiveSpeed(arg_29_0)
+	arg_29_0._additiveSpeed = Vector3.zero
 end
 
-function var_0_1.ActiveUnstoppable(arg_31_0, arg_31_1)
-	arg_31_0._unstoppable = arg_31_1
+function var_0_1.ActiveUnstoppable(arg_30_0, arg_30_1)
+	arg_30_0._unstoppable = arg_30_1
 end

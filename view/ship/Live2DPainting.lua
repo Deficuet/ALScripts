@@ -1280,6 +1280,13 @@ function var_0_0.resetL2dData(arg_66_0)
 
 	arg_66_0:offsetL2dPositonDelay(0.3, 5)
 	Live2dConst.ClearLive2dSave(arg_66_0.live2dData.ship:getSkinId(), arg_66_0.live2dData.ship.id)
+
+	if arg_66_0.changeBgmVolume then
+		pg.CriMgr.GetInstance():changeBGMVolume(pg.CriMgr.GetInstance():getBGMVolume())
+
+		arg_66_0.changeBgmVolume = nil
+	end
+
 	arg_66_0:ResetL2dData()
 	arg_66_0:changeIdleIndex(0)
 	arg_66_0:loadLive2dData()

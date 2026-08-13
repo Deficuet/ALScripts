@@ -7,6 +7,35 @@ var_0_0.word_legal_template_6 = {}
 local var_0_1 = var_0_0.word_legal_template_6
 
 function temp()
+	var_0_1.什 = {
+		罗 = {
+			普 = {
+				郡 = {
+					this = true,
+					["."] = {
+						改 = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.肯 = {
+		特 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.诺 = {
 		福 = {
 			克 = {
@@ -494,26 +523,6 @@ temp()
 
 function temp()
 	var_0_1.杉 = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.梧 = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.柚 = {
 		this = {
 			this = true
 		}

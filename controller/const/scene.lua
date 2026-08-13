@@ -532,7 +532,8 @@ local var_0_0 = {
 
 		if arg_68_0.data.type == nil then
 			arg_68_0:extendData({
-				type = "skin"
+				type = "skin",
+				shop1 = "skinShop"
 			})
 		end
 

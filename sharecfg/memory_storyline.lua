@@ -99,7 +99,8 @@ pg.memory_storyline.all = {
 	94,
 	95,
 	96,
-	97
+	97,
+	98
 }
 pg.base = pg.base or {}
 pg.base.memory_storyline = {}
@@ -2589,9 +2590,32 @@ pg.base.memory_storyline = {}
 		}
 	}
 	pg.base.memory_storyline[97] = {
+		description = "「千语千相，惑面迷心。游者在此团聚，美梦在此升腾。误入歧路的旅人，欢迎来到——星光城」",
+		name = "沉溺于星光之城 ",
+		world_id = "",
+		memory_lock = 0,
+		column = 61,
+		bgm = "theme-richard-white",
+		row = 0,
+		chapter = 5,
+		id = 97,
+		icon = "InterludeOne_4",
+		sort = 1,
+		memory_id = {
+			1,
+			374
+		},
+		shipnation = {
+			1
+		},
+		link_event = {
+			98
+		}
+	}
+	pg.base.memory_storyline[98] = {
 		description = "敬请期待",
 		name = "敬请期待",
-		column = 61,
+		column = 62,
 		memory_id = "",
 		link_event = "",
 		shipnation = 0,
@@ -2600,7 +2624,7 @@ pg.base.memory_storyline = {}
 		row = 0,
 		chapter = 0,
 		memory_lock = 1,
-		id = 97,
+		id = 98,
 		icon = "",
 		sort = 0
 	}

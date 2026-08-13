@@ -185,7 +185,11 @@ pg.activity_limit_item_guide.all = {
 	211,
 	212,
 	213,
-	214
+	214,
+	215,
+	216,
+	217,
+	218
 }
 pg.activity_limit_item_guide.get_id_list_by_activity = {
 	[4937] = {
@@ -390,6 +394,12 @@ pg.activity_limit_item_guide.get_id_list_by_activity = {
 		212,
 		213,
 		214
+	},
+	[51117] = {
+		215,
+		216,
+		217,
+		218
 	}
 }
 pg.base = pg.base or {}
@@ -3779,6 +3789,80 @@ end)()
 				3,
 				51071,
 				"完成「怪谈纪实：逃离白夜山庄！」-活动主页右上方「纪念册」中的各项纪念任务"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[215] = {
+		id = 215,
+		activity = 51117,
+		count = 1,
+		type = 5,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 344,
+		order = 0,
+		link_params = {
+			{
+				3,
+				51111,
+				"「滨海极速：夏日狂飙」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[216] = {
+		id = 216,
+		activity = 51117,
+		count = 1,
+		type = 2,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 59860,
+		order = 0,
+		link_params = {
+			{
+				3,
+				51115,
+				"「守护航道」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[217] = {
+		id = 217,
+		activity = 51117,
+		count = 1,
+		type = 4,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 101581,
+		order = 0,
+		link_params = {
+			{
+				3,
+				51109,
+				"「沉溺于星光之城」-  「星光城补给站」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[218] = {
+		id = 218,
+		activity = 51117,
+		count = 4,
+		type = 4,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 101561,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						actId = 51104,
+						warp = 1
+					}
+				},
+				"补给商店兑换"
 			}
 		}
 	}

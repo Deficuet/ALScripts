@@ -113,4 +113,47 @@ function var_0_0.GetGroupIDByMedalID(arg_14_0)
 	return pg.activity_medal_group[arg_14_0].group
 end
 
+function var_0_0.showTip(arg_15_0)
+	local var_15_0 = pg.activity_medal_group[groupId]
+	local var_15_1 = var_15_0 and var_15_0.activity_link or {}
+	local var_15_2
+
+	for iter_15_0, iter_15_1 in ipairs(var_15_1) do
+		local var_15_3 = iter_15_1[2]
+		local var_15_4 = getProxy(ActivityProxy):getActivityById(var_15_3)
+
+		if var_15_4 and not var_15_4:isEnd() then
+			var_15_2 = iter_15_1[3]
+
+			break
+		end
+	end
+
+	if not var_15_2 then
+		return 0, 0, 0
+	end
+
+	local var_15_5 = getProxy(TaskProxy)
+	local var_15_6 = 0
+	local var_15_7 = 0
+	local var_15_8 = #var_15_2
+
+	for iter_15_2, iter_15_3 in ipairs(var_15_2) do
+		local var_15_9 = var_15_5:getTaskById(iter_15_3) or var_15_5:getFinishTaskById(iter_15_3)
+
+		if var_15_9 then
+			local var_15_10 = var_15_9:getTaskStatus()
+
+			if var_15_10 == 1 then
+				var_15_7 = var_15_7 + 1
+				var_15_6 = var_15_6 + 1
+			elseif var_15_10 == 2 then
+				var_15_6 = var_15_6 + 1
+			end
+		end
+	end
+
+	return var_15_7 > 0
+end
+
 return var_0_0

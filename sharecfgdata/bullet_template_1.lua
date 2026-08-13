@@ -693,7 +693,7 @@ end)()
 		damage_type = {
 			1,
 			0.8,
-			0.4
+			0.6
 		},
 		DMG_font = {
 			{
@@ -711,9 +711,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			6,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -766,9 +766,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			6,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -876,9 +876,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			6,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -913,7 +913,7 @@ end)()
 		damage_type = {
 			1,
 			0.8,
-			0.4
+			0.6
 		},
 		DMG_font = {
 			{
@@ -931,9 +931,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			6,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -986,9 +986,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			6,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -1096,9 +1096,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			6,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -1113,7 +1113,7 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[815] = {
-		hit_sfx = "battle/torpedo-hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "newBullet4",
 		type = 1,
@@ -1151,9 +1151,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			1.5,
-			1,
-			1.3
+			5,
+			2,
+			2
 		},
 		cld_offset = {
 			0,
@@ -1175,7 +1175,7 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[816] = {
-		hit_sfx = "battle/torpedo-hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "newBullet4",
 		type = 1,
@@ -1213,9 +1213,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			1.5,
-			1,
-			1.3
+			5,
+			2,
+			2
 		},
 		cld_offset = {
 			0,
@@ -1257,7 +1257,7 @@ end)()
 		damage_type = {
 			1,
 			0.8,
-			0.4
+			0.6
 		},
 		DMG_font = {
 			{
@@ -1275,9 +1275,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			6,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -1330,9 +1330,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			6,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -1357,7 +1357,7 @@ end)()
 		effect_type = 1,
 		id = 823,
 		random_damage_rate = 0,
-		miss_sfx = "battle/sink",
+		miss_sfx = "",
 		range = 100,
 		miss_fx = "ShellMissBig",
 		pierce_count = 1,
@@ -1440,9 +1440,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			6,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -1539,7 +1539,7 @@ end)()
 		damage_type = {
 			1,
 			0.8,
-			0.4
+			0.6
 		},
 		DMG_font = {
 			{
@@ -1557,9 +1557,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			6,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -1612,9 +1612,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			6,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -1639,7 +1639,7 @@ end)()
 		effect_type = 1,
 		id = 833,
 		random_damage_rate = 0,
-		miss_sfx = "battle/sink",
+		miss_sfx = "",
 		range = 100,
 		miss_fx = "ShellMissBig",
 		pierce_count = 1,
@@ -1749,7 +1749,7 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[835] = {
-		hit_sfx = "battle/torpedo-hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "heiqiye03",
 		type = 1,
@@ -1787,9 +1787,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			1.5,
-			1,
-			1.3
+			5,
+			2,
+			2
 		},
 		cld_offset = {
 			0,
@@ -1830,8 +1830,8 @@ end)()
 		velocity = 20,
 		damage_type = {
 			1,
-			0.6,
-			0.2
+			0.8,
+			0.6
 		},
 		DMG_font = {
 			{
@@ -1849,9 +1849,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			6,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -2065,7 +2065,7 @@ end)()
 		damage_type = {
 			1,
 			0.8,
-			0.4
+			0.6
 		},
 		DMG_font = {
 			{
@@ -2083,9 +2083,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			6,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -2138,9 +2138,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			6,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -2155,7 +2155,7 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[843] = {
-		hit_sfx = "battle/torpedo-hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "gulite_tuowei",
 		type = 1,
@@ -2193,9 +2193,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			1.5,
-			1,
-			1.3
+			5,
+			2,
+			2
 		},
 		cld_offset = {
 			0,
@@ -2217,7 +2217,7 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[844] = {
-		hit_sfx = "battle/torpedo-hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "gulite_tuowei",
 		type = 1,
@@ -2255,9 +2255,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			1.5,
-			1,
-			1.3
+			5,
+			2,
+			2
 		},
 		cld_offset = {
 			0,
@@ -2279,7 +2279,7 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[845] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "gulite_tuowei",
 		type = 1,
@@ -2289,7 +2289,7 @@ end)()
 		effect_type = 1,
 		id = 845,
 		random_damage_rate = 0,
-		miss_sfx = "battle/sink",
+		miss_sfx = "",
 		range = 100,
 		miss_fx = "ShellMissBig",
 		pierce_count = 1,
@@ -2418,8 +2418,8 @@ end)()
 		velocity = 20,
 		damage_type = {
 			1,
-			0.6,
-			0.2
+			0.8,
+			0.6
 		},
 		DMG_font = {
 			{
@@ -2437,9 +2437,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			6,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -2669,7 +2669,7 @@ end)()
 		damage_type = {
 			1,
 			0.8,
-			0.4
+			0.6
 		},
 		DMG_font = {
 			{
@@ -2687,9 +2687,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			6,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -2742,9 +2742,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			6,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -2759,7 +2759,7 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[853] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "kuashe",
 		type = 1,
@@ -2769,7 +2769,7 @@ end)()
 		effect_type = 1,
 		id = 853,
 		random_damage_rate = 0,
-		miss_sfx = "battle/sink",
+		miss_sfx = "",
 		range = 100,
 		miss_fx = "ShellMissBig",
 		pierce_count = 1,
@@ -2852,9 +2852,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			6,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -2869,7 +2869,7 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[855] = {
-		hit_sfx = "battle/torpedo-hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "kuashe",
 		type = 1,
@@ -2907,9 +2907,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			1.5,
-			1,
-			1.3
+			5,
+			2,
+			2
 		},
 		cld_offset = {
 			0,
@@ -2931,7 +2931,7 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[856] = {
-		hit_sfx = "battle/torpedo-hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "kuashe",
 		type = 1,
@@ -2969,9 +2969,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			1.5,
-			1,
-			1.3
+			5,
+			2,
+			2
 		},
 		cld_offset = {
 			0,
@@ -309313,19 +309313,19 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[760061] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 20,
 		modle_ID = "heiqiye04",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "pofang",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 760061,
 		random_damage_rate = 0,
 		miss_sfx = "",
 		range = 100,
-		miss_fx = "ShellMiss",
+		miss_fx = "None",
 		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
@@ -309368,19 +309368,19 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[760062] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 10,
 		modle_ID = "heiqiye05",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "pofang",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 760062,
 		random_damage_rate = 0,
-		miss_sfx = "battle/sink",
+		miss_sfx = "",
 		range = 80,
-		miss_fx = "ShellMiss",
+		miss_fx = "None",
 		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
@@ -309406,9 +309406,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			6,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -309423,19 +309423,19 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[760063] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 10,
 		modle_ID = "heiqiye05",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "pofang",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 760063,
 		random_damage_rate = 0,
-		miss_sfx = "battle/sink",
+		miss_sfx = "",
 		range = 80,
-		miss_fx = "ShellMiss",
+		miss_fx = "None",
 		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
@@ -309461,9 +309461,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			6,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -309478,19 +309478,19 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[760064] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 10,
 		modle_ID = "heiqiye05",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "pofang",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 760064,
 		random_damage_rate = 0,
-		miss_sfx = "battle/sink",
+		miss_sfx = "",
 		range = 80,
-		miss_fx = "ShellMiss",
+		miss_fx = "None",
 		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
@@ -309516,9 +309516,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			6,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -309533,19 +309533,19 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[760065] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 10,
 		modle_ID = "heiqiye05",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "pofang",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 760065,
 		random_damage_rate = 0,
-		miss_sfx = "battle/sink",
+		miss_sfx = "",
 		range = 80,
-		miss_fx = "ShellMiss",
+		miss_fx = "None",
 		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
@@ -309571,9 +309571,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			6,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -309588,19 +309588,19 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[760066] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 10,
 		modle_ID = "heiqiye05",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "pofang",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 760066,
 		random_damage_rate = 0,
-		miss_sfx = "battle/sink",
+		miss_sfx = "",
 		range = 80,
-		miss_fx = "ShellMiss",
+		miss_fx = "None",
 		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
@@ -309626,9 +309626,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			6,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -309643,19 +309643,19 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[760067] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "newBullet3",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "pofang",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 760067,
 		random_damage_rate = 0,
 		miss_sfx = "",
 		range = 60,
-		miss_fx = "ShellMiss",
+		miss_fx = "None",
 		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
@@ -309663,7 +309663,7 @@ end)()
 		damage_type = {
 			1,
 			0.8,
-			0.4
+			0.6
 		},
 		DMG_font = {
 			{
@@ -309698,19 +309698,19 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[760068] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "zimudan",
 		type = 5,
 		out_bound = 1,
 		antisub_enhancement = 0,
-		hit_fx = "pofang",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 760068,
 		random_damage_rate = 0,
 		miss_sfx = "",
 		range = 40,
-		miss_fx = "ShellMiss",
+		miss_fx = "None",
 		pierce_count = 50,
 		ammo_type = 1,
 		alert_fx = "",
@@ -309764,19 +309764,19 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[760069] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 5,
 		modle_ID = "newbullet5",
 		type = 1,
 		out_bound = 1,
 		antisub_enhancement = 0,
-		hit_fx = "BlueHit",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 760069,
 		random_damage_rate = 0,
-		miss_sfx = "battle/sink",
+		miss_sfx = "",
 		range = 200,
-		miss_fx = "ShellMiss",
+		miss_fx = "None",
 		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
@@ -309819,19 +309819,19 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[760070] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "heiqiye05",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "pofang",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 760070,
 		random_damage_rate = 0,
 		miss_sfx = "",
 		range = 60,
-		miss_fx = "ShellMiss",
+		miss_fx = "None",
 		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
@@ -309839,7 +309839,7 @@ end)()
 		damage_type = {
 			1,
 			0.8,
-			0.4
+			0.6
 		},
 		DMG_font = {
 			{
@@ -309874,19 +309874,19 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[760071] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "zimudan",
 		type = 5,
 		out_bound = 1,
 		antisub_enhancement = 0,
-		hit_fx = "pofang",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 760071,
 		random_damage_rate = 0,
 		miss_sfx = "",
 		range = 150,
-		miss_fx = "ShellMiss",
+		miss_fx = "None",
 		pierce_count = 50,
 		ammo_type = 1,
 		alert_fx = "",
@@ -309966,19 +309966,19 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[760072] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "zimudan",
 		type = 5,
 		out_bound = 1,
 		antisub_enhancement = 0,
-		hit_fx = "pofang",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 760072,
 		random_damage_rate = 0,
 		miss_sfx = "",
 		range = 150,
-		miss_fx = "ShellMiss",
+		miss_fx = "None",
 		pierce_count = 50,
 		ammo_type = 1,
 		alert_fx = "",
@@ -310058,19 +310058,19 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[760073] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "heiqiye04",
 		type = 1,
 		out_bound = 1,
 		antisub_enhancement = 0,
-		hit_fx = "BlueHit",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 760073,
 		random_damage_rate = 0,
-		miss_sfx = "battle/sink",
+		miss_sfx = "",
 		range = 80,
-		miss_fx = "ShellMiss",
+		miss_fx = "None",
 		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
@@ -310113,19 +310113,19 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[760074] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "heiqiye04",
 		type = 1,
 		out_bound = 1,
 		antisub_enhancement = 0,
-		hit_fx = "BlueHit",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 760074,
 		random_damage_rate = 0,
-		miss_sfx = "battle/sink",
+		miss_sfx = "",
 		range = 80,
-		miss_fx = "ShellMiss",
+		miss_fx = "None",
 		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",

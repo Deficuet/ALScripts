@@ -42,6 +42,10 @@ function var_0_0.DataToLayout(arg_3_0, arg_3_1)
 				var_3_4 = arg_3_0:ReplacePlayerName(var_3_4)
 			end
 
+			if arg_3_0:ShouldReplaceCar2026() then
+				var_3_4 = arg_3_0:ReplaceCar2026Name(var_3_4)
+			end
+
 			local var_3_5 = HXSet.hxLan(var_3_4)
 
 			table.insert(var_3_1, var_3_5)

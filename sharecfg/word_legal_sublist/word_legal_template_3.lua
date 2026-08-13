@@ -7,6 +7,42 @@ var_0_0.word_legal_template_3 = {}
 local var_0_1 = var_0_0.word_legal_template_3
 
 function temp()
+	var_0_1.休 = {
+		斯 = {
+			敦 = {
+				this = true,
+				I = {
+					I = {
+						this = true
+					}
+				}
+			}
+		},
+		贝 = {
+			塔 = {
+				伯 = {
+					爵 = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.法 = {
+		戈 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.帕 = {
 		萨 = {
 			迪 = {
@@ -32,6 +68,51 @@ function temp()
 						}
 					}
 				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.维 = {
+		克 = {
+			斯 = {
+				堡 = {
+					this = true
+				}
+			}
+		},
+		托 = {
+			里 = {
+				奥 = {
+					· = {
+						维 = {
+							内 = {
+								托 = {
+									this = true
+								}
+							}
+						},
+						库 = {
+							尼 = {
+								贝 = {
+									尔 = {
+										蒂 = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		达 = {
+			号 = {
+				this = true
 			}
 		}
 	}
@@ -754,61 +835,6 @@ function temp()
 		},
 		剑 = {
 			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.长 = {
-		岛 = {
-			this = true
-		},
-		春 = {
-			this = true,
-			["."] = {
-				改 = {
-					this = true
-				}
-			}
-		},
-		风 = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.兰 = {
-		利 = {
-			this = true,
-			I = {
-				I = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.列 = {
-		克 = {
-			星 = {
-				敦 = {
-					this = true,
-					I = {
-						I = {
-							this = true
-						}
-					}
-				}
-			}
 		}
 	}
 end

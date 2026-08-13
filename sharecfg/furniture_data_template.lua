@@ -238,6 +238,8 @@ pg.furniture_data_template.all = {
 	340,
 	341,
 	342,
+	343,
+	344,
 	100001,
 	100002,
 	100003,
@@ -3786,7 +3788,26 @@ pg.furniture_data_template.all = {
 	341301,
 	341302,
 	341303,
-	341304
+	341304,
+	342001,
+	342002,
+	342101,
+	342102,
+	342103,
+	342104,
+	342105,
+	342106,
+	342107,
+	342108,
+	342109,
+	342110,
+	342111,
+	342112,
+	342113,
+	342114,
+	342115,
+	342116,
+	342117
 }
 pg.furniture_data_template.get_id_list_by_themeId = {
 	[0] = {
@@ -4022,6 +4043,8 @@ pg.furniture_data_template.get_id_list_by_themeId = {
 		340,
 		341,
 		342,
+		343,
+		344,
 		100001,
 		100002,
 		100003,
@@ -7831,6 +7854,27 @@ pg.furniture_data_template.get_id_list_by_themeId = {
 		341302,
 		341303,
 		341304
+	},
+	[142] = {
+		342001,
+		342002,
+		342101,
+		342102,
+		342103,
+		342104,
+		342105,
+		342106,
+		342107,
+		342108,
+		342109,
+		342110,
+		342111,
+		342112,
+		342113,
+		342114,
+		342115,
+		342116,
+		342117
 	}
 }
 pg.furniture_data_template.get_id_list_by_tag = {
@@ -10217,7 +10261,23 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		341115,
 		341116,
 		341117,
-		341118
+		341118,
+		342101,
+		342102,
+		342103,
+		342104,
+		342105,
+		342106,
+		342107,
+		342108,
+		342109,
+		342110,
+		342111,
+		342112,
+		342113,
+		342114,
+		342115,
+		342116
 	},
 	{
 		1108,
@@ -10544,7 +10604,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		338002,
 		339002,
 		340002,
-		341002
+		341002,
+		342002
 	},
 	{
 		1001,
@@ -10676,7 +10737,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		338001,
 		339001,
 		340001,
-		341001
+		341001,
+		342001
 	},
 	{
 		1301,
@@ -11548,7 +11610,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		338116,
 		339115,
 		340105,
-		341119
+		341119,
+		342117
 	},
 	{
 		101,
@@ -11631,7 +11694,9 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		338,
 		339,
 		341,
-		342
+		342,
+		343,
+		344
 	}
 }
 pg.furniture_data_template.get_id_list_by_type = {
@@ -11765,7 +11830,8 @@ pg.furniture_data_template.get_id_list_by_type = {
 		338002,
 		339002,
 		340002,
-		341002
+		341002,
+		342002
 	},
 	{
 		120,
@@ -14145,7 +14211,24 @@ pg.furniture_data_template.get_id_list_by_type = {
 		341116,
 		341117,
 		341118,
-		341119
+		341119,
+		342101,
+		342102,
+		342103,
+		342104,
+		342105,
+		342106,
+		342107,
+		342108,
+		342109,
+		342110,
+		342111,
+		342112,
+		342113,
+		342114,
+		342115,
+		342116,
+		342117
 	},
 	{
 		1108,
@@ -14473,7 +14556,8 @@ pg.furniture_data_template.get_id_list_by_type = {
 		338001,
 		339001,
 		340001,
-		341001
+		341001,
+		342001
 	},
 	{
 		1101,
@@ -15248,6 +15332,8 @@ pg.furniture_data_template.get_id_list_by_type = {
 		340,
 		341,
 		342,
+		343,
+		344,
 		100001,
 		100002,
 		100004,
@@ -27342,6 +27428,94 @@ end)()
 		},
 		interAction_group = {}
 	}
+	pg.base.furniture_data_template[343] = {
+		spine_extra = "",
+		describe = "「得到了麦格芬的人可以实现一个愿望，老师，你的愿望是什么呢——B·H·R」——「沉溺于星光之城」活动纪念",
+		gain_by = "沉溺于星光之城",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		icon = "benningdunxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 8,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		name = "新歌母带数据盘",
+		canputon = 0,
+		id = 343,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"benningdunxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[344] = {
+		spine_extra = "",
+		describe = "落日大道6小时耐力赛冠军奖杯。闪耀着胜利的光芒，象征赛道上的巅峰荣耀。",
+		gain_by = "滨海极速：夏日狂飙",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		icon = "guanjunjiangbeixunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 8,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		name = "冠军奖杯",
+		canputon = 0,
+		id = 344,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"guanjunjiangbeixunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
 	pg.base.furniture_data_template[100001] = {
 		gain_by = "",
 		name = "本ID禁用，后端固定会删除",
@@ -31986,6 +32160,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[100065] = {
 		spine_extra = "",
 		describe = "小心！寄宿在里面的强大力量即将现身！",
@@ -32086,8 +32262,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[100067] = {
 		gain_by = "",
 		name = "全自动防跌落跑步机",
@@ -37115,6 +37289,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[3301] = {
 		spine_extra = "",
 		describe = "面朝大海...海风好大！",
@@ -37191,8 +37367,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[3303] = {
 		spine_extra = "",
 		describe = "做成救生圈样式的时钟，设计别具一格。",
@@ -41262,6 +41436,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[7110] = {
 		spine_extra = "",
 		describe = "用来摆放东西的柜子",
@@ -41366,8 +41542,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[7112] = {
 		spine_extra = "",
 		describe = "西瓜主题的梳妆柜",
@@ -45726,6 +45900,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[9301] = {
 		spine_extra = "",
 		describe = "好好学习，天天向上",
@@ -45802,8 +45978,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[9303] = {
 		spine_extra = "",
 		describe = "用来发布公告的地方",
@@ -50123,6 +50297,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[12201] = {
 		spine_extra = "",
 		describe = "这是一条失去了梦想的咸鱼",
@@ -50199,8 +50375,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[13001] = {
 		spine_extra = "",
 		describe = "深紫色的地板，似乎有些地方好像还有什么东西凝固干涸的样子",
@@ -54641,6 +54815,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[16306] = {
 		spine_extra = "",
 		describe = "庭院的雪景好美啊！",
@@ -54714,8 +54890,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[17002] = {
 		spine_extra = "",
 		describe = "一富士,二鹰,三茄子。今年有做个好梦吗？",
@@ -59476,6 +59650,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[20108] = {
 		spine_extra = "",
 		describe = "我才是森林之王～嗷呜～",
@@ -59566,8 +59742,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[20110] = {
 		spine_extra = "",
 		describe = "天然秘汤，一起来泡温泉吧～",
@@ -64235,6 +64409,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[24110] = {
 		spine_extra = "",
 		describe = "喵呜！（扑）",
@@ -64324,8 +64500,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[24112] = {
 		spine_extra = "",
 		describe = "制造废人的机器·蓝色",
@@ -69086,6 +69260,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[28109] = {
 		spine_extra = "",
 		describe = "多彩系列花朵凳之一",
@@ -69188,8 +69364,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[28111] = {
 		spine_extra = "",
 		describe = "不是很明白这个形状的地毯意义在哪",
@@ -73874,6 +74048,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[30303] = {
 		spine_extra = "",
 		describe = "七色彩虹钟",
@@ -73950,8 +74126,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[31102] = {
 		spine_extra = "",
 		describe = "可靠又知性的（女仆？）领班，tori！",
@@ -78485,6 +78659,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[36122] = {
 		spine_extra = "",
 		describe = "很适合摆满点心零食的桌子",
@@ -78589,8 +78765,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[36124] = {
 		spine_extra = "",
 		describe = "原来干草坐上去也会很舒服啊",
@@ -82944,6 +83118,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[39124] = {
 		spine_extra = "",
 		describe = "似乎很软的坐垫，坐起来应该很舒服吧",
@@ -83033,8 +83209,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[39126] = {
 		gain_by = "",
 		name = "大火锅",
@@ -87455,6 +87629,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[43111] = {
 		spine_extra = "",
 		describe = "超级智能AI风格的地毯",
@@ -87545,8 +87721,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[43113] = {
 		spine_extra = "",
 		describe = "很有《小食酒吧-爱》风格的酒柜——啊，要成年了才能饮酒哦！",
@@ -91764,6 +91938,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[46101] = {
 		spine_extra = "",
 		describe = "来一曲朋克音乐如何？",
@@ -91867,8 +92043,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[46103] = {
 		spine_extra = "",
 		describe = "无论何时何地，都要遵守交通规则哦",
@@ -96093,6 +96267,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[50104] = {
 		spine_extra = "",
 		describe = "唔…喝点什么好呢…",
@@ -96169,8 +96345,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[50106] = {
 		spine_extra = "",
 		describe = "养护得很好，在上面驰骋应该非常舒服吧",
@@ -100569,6 +100743,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[55108] = {
 		spine_extra = "",
 		describe = "爱慕、忠诚与沉默的爱。要记得光照和浇水哦",
@@ -100645,8 +100821,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[55110] = {
 		spine_extra = "",
 		describe = "三角规配色和形状的游泳圈",
@@ -104875,6 +105049,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[59102] = {
 		spine_extra = "",
 		describe = "夜晚也要享受浪漫~",
@@ -104990,8 +105166,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[59104] = {
 		spine_extra = "",
 		describe = "储物摆设两相宜~",
@@ -109307,6 +109481,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[62118] = {
 		spine_extra = "",
 		describe = "悠悠转动的风车，自然安闲的生活啾~",
@@ -109389,8 +109565,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[63002] = {
 		spine_extra = "",
 		describe = "欢迎光临~饿了就来吃点pizza啾！",
@@ -113763,6 +113937,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[69301] = {
 		spine_extra = "",
 		describe = "为方便而设置的免洗洗手消毒液。",
@@ -113839,8 +114015,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[69303] = {
 		spine_extra = "",
 		describe = "今天的状态也很稳定啾！",
@@ -118346,6 +118520,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[73113] = {
 		spine_extra = "",
 		describe = "沙发的诱惑，难以抵挡啾！",
@@ -118435,8 +118611,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[73115] = {
 		spine_extra = "",
 		describe = "圣诞风格的大睡床，充满了安心感",
@@ -122738,6 +122912,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[77112] = {
 		spine_extra = "",
 		describe = "木制的栅栏，即使在风雪中依旧坚挺。",
@@ -122828,8 +123004,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[77114] = {
 		spine_extra = "",
 		describe = "几乎快要埋进雪里的汽车。",
@@ -127134,6 +127308,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[81306] = {
 		spine_extra = "",
 		describe = "安全~上垒！没有迟到！",
@@ -127207,8 +127383,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[82002] = {
 		spine_extra = "",
 		describe = "梦想、友情、财富，这里是充满希望的西部小镇！",
@@ -131590,6 +131764,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[85112] = {
 		spine_extra = "",
 		describe = "要温柔点抚摸哦",
@@ -131666,8 +131842,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[85114] = {
 		spine_extra = "",
 		describe = "要点些什么啾？",
@@ -135770,6 +135944,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[89110] = {
 		spine_extra = "",
 		describe = "带点传统风格的落地灯。",
@@ -135846,8 +136022,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[89114] = {
 		spine_extra = "",
 		describe = "让人感受到坚韧的生命力。",
@@ -139849,6 +140023,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[93107] = {
 		spine_extra = "",
 		describe = "树上的香蕉…能不能吃呢？",
@@ -139925,8 +140101,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[93109] = {
 		spine_extra = "",
 		describe = "要来个什么口味的披萨啾？",
@@ -144180,6 +144354,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[96116] = {
 		gain_by = "",
 		name = "度假个人影院",
@@ -144320,8 +144496,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[96301] = {
 		spine_extra = "",
 		describe = "外套和帽子挂这里！",
@@ -148685,6 +148859,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[99204] = {
 		spine_extra = "",
 		describe = "美味而特别的温泉蛋。",
@@ -148761,8 +148937,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[99302] = {
 		spine_extra = "",
 		describe = "侧向推拉的木窗。请不要随意在指格上戳洞！",
@@ -153520,6 +153694,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[303103] = {
 		spine_extra = "",
 		describe = "小灯笼努力瞪大了眼睛~",
@@ -153615,8 +153791,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[303105] = {
 		spine_extra = "",
 		describe = "安静沉稳的御狐石像。",
@@ -157939,6 +158113,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[306114] = {
 		gain_by = "",
 		name = "喧嚣吧台",
@@ -158158,8 +158334,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[307001] = {
 		spine_extra = "",
 		describe = "龙年大吉，新春如意！",
@@ -162656,6 +162830,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[311109] = {
 		spine_extra = "",
 		describe = "舒服的晒一会太阳吧~",
@@ -162758,8 +162934,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[311111] = {
 		spine_extra = "",
 		describe = "装满美味水果的小推车！",
@@ -167624,6 +167798,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[316301] = {
 		spine_extra = "",
 		describe = "好像放着一些王女们的杂物？ ",
@@ -167700,8 +167876,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[316303] = {
 		spine_extra = "",
 		describe = "菈菈房间的装饰品，很有趣对吧？ ",
@@ -172233,6 +172407,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[321105] = {
 		spine_extra = "",
 		describe = "随风摇曳的郁金香花丛，散发着淡淡的清香。",
@@ -172321,8 +172497,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[321107] = {
 		spine_extra = "",
 		describe = "田园派画师，别有风情啾~",
@@ -176791,6 +176965,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[327001] = {
 		spine_extra = "",
 		describe = "闲暇之余，来工房庭院里散散步吧",
@@ -176861,8 +177037,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[327101] = {
 		spine_extra = "",
 		describe = "里面藏着的是宝藏呢，还是……",
@@ -181506,6 +181680,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[331117] = {
 		spine_extra = "",
 		describe = "舰桥指挥台，拥有最高的位置和最好的视野 ",
@@ -181606,8 +181782,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[331302] = {
 		spine_extra = "",
 		describe = "某种分析终端，界面分布着难懂的图谱 ",
@@ -186333,6 +186507,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+;(function()
 	pg.base.furniture_data_template[336302] = {
 		spine_extra = "",
 		describe = "嫌犯名单已更新，立即发布逮捕令！",
@@ -186412,8 +186588,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-;(function()
 	pg.base.furniture_data_template[337002] = {
 		spine_extra = "",
 		describe = " 让闪耀的浪花与阳光，点亮你的完美假期吧！",
@@ -190194,6 +190368,944 @@ end)()
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342001] = {
+		spine_extra = "",
+		describe = "来到热情洋溢的滨海赛场，在呐喊、灯光与飞扬沙尘中尽情狂飙吧~",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "滨海耐力赛地板",
+		effect = "",
+		advice = 0,
+		tag = 4,
+		spine_action_replace = "",
+		picture = "car3/dibancar3",
+		icon = "dibancar3icon",
+		canputon = 0,
+		comfortable = 4,
+		id = 342001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342002] = {
+		spine_extra = "",
+		describe = "来到热情洋溢的滨海赛场，在呐喊、灯光与飞扬沙尘中尽情狂飙吧~",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "滨海耐力赛墙纸",
+		effect = "",
+		advice = 0,
+		tag = 3,
+		spine_action_replace = "",
+		picture = "",
+		comfortable = 4,
+		canputon = 0,
+		icon = "qiangbicar3icon",
+		id = 342002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbicar3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342101] = {
+		spine_extra = "",
+		describe = "冲线后就来痛快喝上一杯吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		icon = "bingtongcar3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		name = "耐力赛饮料冰桶",
+		spine_action_replace = "",
+		picture = "car3/bingtongcar3",
+		comfortable = 1,
+		canputon = 0,
+		id = 342101,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342102] = {
+		spine_extra = "",
+		describe = "灯光一亮，赛场的热闹气氛也一起升温~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		icon = "chuandengcar3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		name = "耐力赛串灯",
+		canputon = 0,
+		id = 342102,
+		can_rotate = 0,
+		size = {
+			1,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chuandengcar3",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342103] = {
+		spine_extra = "",
+		describe = "朝着灯塔的方向开，可不要偏离赛道哦~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		icon = "dengtacar3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		name = "耐力赛灯塔",
+		canputon = 0,
+		id = 342103,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"dengtacar3",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342104] = {
+		spine_extra = "",
+		describe = "啪啪啪~第一名冲线的是——",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		icon = "gongmencar3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		name = "耐力赛拱门",
+		canputon = 0,
+		id = 342104,
+		can_rotate = 1,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"gongmencar3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342105] = {
+		spine_extra = "",
+		describe = "加油啾！稳住啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		icon = "guanzhongjiucar3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		name = "耐力赛观众啾",
+		canputon = 0,
+		id = 342105,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"guanzhongjiucar3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342106] = {
+		gain_by = "",
+		name = "耐力赛红毯",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		comfortable = 3,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		icon = "hongtancar3icon",
+		deblocking = 1,
+		level = 1,
+		describe = "走过红毯，迎接聚光灯与掌声吧~",
+		effect = "",
+		can_rotate = 0,
+		tag = 1,
+		spine_action_replace = "",
+		picture = "",
+		spine_extra = "",
+		canputon = 0,
+		id = 342106,
+		advice = 0,
+		size = {
+			4,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"hongtancar3B",
+				"normal"
+			},
+			{
+				"hongtancar3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342107] = {
+		spine_extra = "",
+		describe = "轮胎叠成的花盆，把赛道风格与热带气息巧妙拼在了一起",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 4,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		icon = "huataicar3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "",
+		name = "耐力赛花盆",
+		canputon = 0,
+		id = 342107,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huataicar3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342108] = {
+		spine_extra = "",
+		describe = "比赛路线与关键弯道尽在其中！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		icon = "saidaocar3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		name = "耐力赛赛道",
+		canputon = 0,
+		id = 342108,
+		can_rotate = 0,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"saidaocar3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342109] = {
+		gain_by = "",
+		name = "耐力赛沙发桌",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		comfortable = 4,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		icon = "shafazhuocar3icon",
+		deblocking = 1,
+		level = 1,
+		describe = "休息、闲聊、观赛一条龙~",
+		effect = "",
+		can_rotate = 1,
+		tag = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 342109,
+		advice = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shafazhuocar3B",
+				"normal"
+			},
+			{
+				"shafazhuocar3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char",
+				1
+			},
+			{
+				"char2",
+				-1
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342110] = {
+		spine_extra = "",
+		describe = "赛车造型的冷饮小摊，同时具备速度感和清凉感",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		icon = "tuichecar3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		name = "耐力赛冷饮车",
+		canputon = 0,
+		id = 342110,
+		can_rotate = 1,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tuichecar3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342111] = {
+		spine_extra = "",
+		describe = "下一圈的胜负往往从这里开始~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		icon = "xiuchepengcar3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		name = "耐力赛修车棚",
+		canputon = 0,
+		id = 342111,
+		can_rotate = 0,
+		size = {
+			8,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xiuchepengcar3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342112] = {
+		spine_extra = "",
+		describe = "强劲的音响设备，把赛场音乐与欢呼声一并推向高潮",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		icon = "yinxiangcar3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		name = "耐力赛音响",
+		spine_action_replace = "",
+		picture = "car3/yinxiangcar3",
+		comfortable = 2,
+		canputon = 0,
+		id = 342112,
+		can_rotate = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342113] = {
+		spine_extra = "",
+		describe = "闪闪发亮的奖杯整齐陈列，只等冠军前来领取荣耀",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		icon = "zhanshijiacar3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		name = "耐力赛展示架",
+		canputon = 0,
+		id = 342113,
+		can_rotate = 0,
+		size = {
+			7,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhanshijiacar3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+end)()
+;(function()
+	pg.base.furniture_data_template[342114] = {
+		spine_extra = "",
+		describe = "赛场赛况实时转播，精彩镜头不容错过！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		icon = "zhibopingcar3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		name = "耐力赛直播屏",
+		spine_action_replace = "",
+		picture = "car3/zhibopingcar3",
+		comfortable = 3,
+		canputon = 0,
+		id = 342114,
+		can_rotate = 1,
+		size = {
+			1,
+			11
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342115] = {
+		spine_extra = "",
+		describe = "鲜明亮眼的交通锥，为赛道边界提供清晰指引",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		icon = "zhuiyicar3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "car3/zhuiyicar3",
+		name = "耐力赛交通锥",
+		canputon = 0,
+		id = 342115,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-7.6,
+					65.3
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342116] = {
+		spine_extra = "",
+		describe = "放心躺，下一圈发车之前还有的是时间~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		icon = "zuodiancar3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "car3/zuodiancar3",
+		name = "耐力赛坐垫",
+		canputon = 0,
+		id = 342116,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-4.8,
+					38.6
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342117] = {
+		gain_by = "",
+		name = "耐力赛领奖台",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		comfortable = 4,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		icon = "lingjiangtaicar3icon",
+		deblocking = 1,
+		level = 1,
+		describe = "让我们恭喜——滨海耐力赛冠军诞生！",
+		effect = "",
+		can_rotate = 1,
+		tag = 7,
+		spine_action_replace = "",
+		picture = "",
+		spine_extra = "",
+		canputon = 0,
+		id = 342117,
+		advice = 0,
+		size = {
+			7,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lingjiangtaicar3B",
+				"normal"
+			},
+			{
+				"lingjiangtaicar3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	}

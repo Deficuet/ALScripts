@@ -30,73 +30,75 @@ end
 
 function var_0_0.OnShipSkillUnlock(arg_3_0, arg_3_1)
 	local var_3_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_3_1):GetSkill():GetEffectIds()
+	local var_3_1 = arg_3_0:_SelectGlobalType(var_3_0)
 
-	for iter_3_0, iter_3_1 in ipairs(var_3_0) do
-		arg_3_0:_AddBuff(arg_3_0.skillBuffDic, {
-			isSkill = true,
-			id = iter_3_1
-		})
-	end
-
-	table.insert(arg_3_0.shipIds, arg_3_1)
-end
-
-function var_0_0.OnShipSkillUpgrade(arg_4_0, arg_4_1)
-	local var_4_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_4_1):GetSkill()
-	local var_4_1 = var_4_0:GetLastEffectIds()
-	local var_4_2 = var_4_0:GetEffectIds()
-
-	if table.contains(arg_4_0.shipIds, arg_4_1) then
-		underscore.each(arg_4_0:_SelectGlobalType(var_4_1), function(arg_5_0)
-			arg_4_0:_RemoveById(arg_4_0.skillBuffDic, arg_5_0)
-		end)
-		table.removebyvalue(arg_4_0.shipIds, arg_4_1)
-	end
-
-	local var_4_3 = arg_4_0:_SelectGlobalType(var_4_2)
-
-	if #var_4_3 > 0 then
-		underscore.each(var_4_3, function(arg_6_0)
-			arg_4_0:_AddBuff(arg_4_0.skillBuffDic, {
+	if #var_3_1 > 0 then
+		underscore.each(var_3_1, function(arg_4_0)
+			arg_3_0:_AddBuff(arg_3_0.skillBuffDic, {
 				isSkill = true,
-				id = arg_6_0
+				id = arg_4_0
 			})
 		end)
-		table.insert(arg_4_0.shipIds, arg_4_1)
+		table.insert(arg_3_0.shipIds, arg_3_1)
 	end
 end
 
-function var_0_0.GetBuffsByType(arg_7_0, arg_7_1)
-	local var_7_0 = underscore.select(arg_7_0.statusBuffDic[arg_7_1] or {}, function(arg_8_0)
-		return not arg_8_0:IsExpiration()
-	end)
+function var_0_0.OnShipSkillUpgrade(arg_5_0, arg_5_1)
+	local var_5_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_5_1):GetSkill()
+	local var_5_1 = var_5_0:GetLastEffectIds()
+	local var_5_2 = var_5_0:GetEffectIds()
 
-	return table.mergeArray(var_7_0, arg_7_0.skillBuffDic[arg_7_1] or {})
-end
-
-function var_0_0._AddBuff(arg_9_0, arg_9_1, arg_9_2)
-	local var_9_0 = IslandShipStatus.New(arg_9_2)
-	local var_9_1 = var_9_0:GetBuffType()
-
-	if not arg_9_1[var_9_1] then
-		arg_9_1[var_9_1] = {}
+	if table.contains(arg_5_0.shipIds, arg_5_1) then
+		underscore.each(arg_5_0:_SelectGlobalType(var_5_1), function(arg_6_0)
+			arg_5_0:_RemoveById(arg_5_0.skillBuffDic, arg_6_0)
+		end)
+		table.removebyvalue(arg_5_0.shipIds, arg_5_1)
 	end
 
-	table.insert(arg_9_1[var_9_1], var_9_0)
+	local var_5_3 = arg_5_0:_SelectGlobalType(var_5_2)
+
+	if #var_5_3 > 0 then
+		underscore.each(var_5_3, function(arg_7_0)
+			arg_5_0:_AddBuff(arg_5_0.skillBuffDic, {
+				isSkill = true,
+				id = arg_7_0
+			})
+		end)
+		table.insert(arg_5_0.shipIds, arg_5_1)
+	end
 end
 
-function var_0_0._RemoveById(arg_10_0, arg_10_1, arg_10_2)
-	local var_10_0 = arg_10_1[pg.island_buff_template[arg_10_2].buff_type]
-	local var_10_1 = underscore.detect(var_10_0, function(arg_11_0)
-		return arg_11_0.id == arg_10_2
+function var_0_0.GetBuffsByType(arg_8_0, arg_8_1)
+	local var_8_0 = underscore.select(arg_8_0.statusBuffDic[arg_8_1] or {}, function(arg_9_0)
+		return not arg_9_0:IsExpiration()
 	end)
 
-	table.removebyvalue(var_10_0, var_10_1)
+	return table.mergeArray(var_8_0, arg_8_0.skillBuffDic[arg_8_1] or {})
 end
 
-function var_0_0._SelectGlobalType(arg_12_0, arg_12_1)
-	return underscore.select(arg_12_1, function(arg_13_0)
-		return IslandBuffType.IsGlobalType(pg.island_buff_template[arg_13_0].buff_type)
+function var_0_0._AddBuff(arg_10_0, arg_10_1, arg_10_2)
+	local var_10_0 = IslandShipStatus.New(arg_10_2)
+	local var_10_1 = var_10_0:GetBuffType()
+
+	if not arg_10_1[var_10_1] then
+		arg_10_1[var_10_1] = {}
+	end
+
+	table.insert(arg_10_1[var_10_1], var_10_0)
+end
+
+function var_0_0._RemoveById(arg_11_0, arg_11_1, arg_11_2)
+	local var_11_0 = arg_11_1[pg.island_buff_template[arg_11_2].buff_type]
+	local var_11_1 = underscore.detect(var_11_0, function(arg_12_0)
+		return arg_12_0.id == arg_11_2
+	end)
+
+	table.removebyvalue(var_11_0, var_11_1)
+end
+
+function var_0_0._SelectGlobalType(arg_13_0, arg_13_1)
+	return underscore.select(arg_13_1, function(arg_14_0)
+		return IslandBuffType.IsGlobalType(pg.island_buff_template[arg_14_0].buff_type)
 	end)
 end
 

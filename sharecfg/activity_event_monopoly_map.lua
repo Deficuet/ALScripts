@@ -123,7 +123,18 @@ pg.activity_event_monopoly_map.all = {
 	6029,
 	6030,
 	6031,
-	6032
+	6032,
+	7001,
+	7002,
+	7003,
+	7004,
+	7005,
+	7006,
+	7007,
+	7008,
+	7009,
+	7010,
+	7011
 }
 pg.base = pg.base or {}
 pg.base.activity_event_monopoly_map = {}
@@ -133,546 +144,637 @@ pg.base.activity_event_monopoly_map = {}
 		id = 1001,
 		icon = "icon_4",
 		type = 1,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[1002] = {
 		id = 1002,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[1003] = {
 		id = 1003,
 		icon = "icon_3",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[1004] = {
 		id = 1004,
 		icon = "icon_1",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[1005] = {
 		id = 1005,
 		icon = "icon_5",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[1006] = {
 		id = 1006,
 		icon = "icon_6",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[1007] = {
 		id = 1007,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[1008] = {
 		id = 1008,
 		icon = "icon_3",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[1009] = {
 		id = 1009,
 		icon = "icon_5",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[1010] = {
 		id = 1010,
 		icon = "icon_6",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[1011] = {
 		id = 1011,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[1012] = {
 		id = 1012,
 		icon = "icon_3",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[1013] = {
 		id = 1013,
 		icon = "icon_1",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[1014] = {
 		id = 1014,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[1015] = {
 		id = 1015,
 		icon = "icon_6",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[1016] = {
 		id = 1016,
 		icon = "icon_5",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[1017] = {
 		id = 1017,
 		icon = "icon_1",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[1018] = {
 		id = 1018,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[2001] = {
 		id = 2001,
 		icon = "icon_4",
 		type = 1,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[2002] = {
 		id = 2002,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[2003] = {
 		id = 2003,
 		icon = "icon_6",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[2004] = {
 		id = 2004,
 		icon = "icon_1",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[2005] = {
 		id = 2005,
 		icon = "icon_5",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[2006] = {
 		id = 2006,
 		icon = "icon_3",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[2007] = {
 		id = 2007,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[2008] = {
 		id = 2008,
 		icon = "icon_6",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[2009] = {
 		id = 2009,
 		icon = "icon_5",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[2010] = {
 		id = 2010,
 		icon = "icon_3",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[2011] = {
 		id = 2011,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[2012] = {
 		id = 2012,
 		icon = "icon_6",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[2013] = {
 		id = 2013,
 		icon = "icon_1",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[2014] = {
 		id = 2014,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[2015] = {
 		id = 2015,
 		icon = "icon_3",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[2016] = {
 		id = 2016,
 		icon = "icon_5",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[2017] = {
 		id = 2017,
 		icon = "icon_1",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[2018] = {
 		id = 2018,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[3002] = {
 		id = 3002,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[3003] = {
 		id = 3003,
 		icon = "icon_6",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[3004] = {
 		id = 3004,
 		icon = "icon_1",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[3005] = {
 		id = 3005,
 		icon = "icon_5",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[3006] = {
 		id = 3006,
 		icon = "icon_3",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[3007] = {
 		id = 3007,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[3008] = {
 		id = 3008,
 		icon = "icon_6",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[3009] = {
 		id = 3009,
 		icon = "icon_5",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[3010] = {
 		id = 3010,
 		icon = "icon_3",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[3011] = {
 		id = 3011,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[3012] = {
 		id = 3012,
 		icon = "icon_6",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[3013] = {
 		id = 3013,
 		icon = "icon_1",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[3014] = {
 		id = 3014,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[3015] = {
 		id = 3015,
 		icon = "icon_3",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[3016] = {
 		id = 3016,
 		icon = "icon_5",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[3017] = {
 		id = 3017,
 		icon = "icon_1",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[3018] = {
 		id = 3018,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[4001] = {
 		id = 4001,
 		icon = "icon_4",
 		type = 1,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[4002] = {
 		id = 4002,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[4003] = {
 		id = 4003,
 		icon = "icon_6",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[4004] = {
 		id = 4004,
 		icon = "icon_1",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[4005] = {
 		id = 4005,
 		icon = "icon_5",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[4006] = {
 		id = 4006,
 		icon = "icon_3",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[4007] = {
 		id = 4007,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[4008] = {
 		id = 4008,
 		icon = "icon_6",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[4009] = {
 		id = 4009,
 		icon = "icon_5",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[4010] = {
 		id = 4010,
 		icon = "icon_3",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[4011] = {
 		id = 4011,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[4012] = {
 		id = 4012,
 		icon = "icon_6",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[4013] = {
 		id = 4013,
 		icon = "icon_1",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[4014] = {
 		id = 4014,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[4015] = {
 		id = 4015,
 		icon = "icon_3",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[4016] = {
 		id = 4016,
 		icon = "icon_5",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[4017] = {
 		id = 4017,
 		icon = "icon_1",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[4018] = {
 		id = 4018,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[5001] = {
 		id = 5001,
 		icon = "icon_4",
 		type = 1,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[5002] = {
 		id = 5002,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[5003] = {
 		id = 5003,
 		icon = "icon_6",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[5004] = {
 		id = 5004,
 		icon = "icon_1",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[5005] = {
 		id = 5005,
 		icon = "icon_5",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[5006] = {
 		id = 5006,
 		icon = "icon_3",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[5007] = {
 		id = 5007,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[5008] = {
 		id = 5008,
 		icon = "icon_6",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[5009] = {
 		id = 5009,
 		icon = "icon_5",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[5010] = {
 		id = 5010,
 		icon = "icon_3",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[5011] = {
 		id = 5011,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[5012] = {
 		id = 5012,
 		icon = "icon_6",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[5013] = {
 		id = 5013,
 		icon = "icon_1",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[5014] = {
 		id = 5014,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[5015] = {
 		id = 5015,
 		icon = "icon_3",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[5016] = {
 		id = 5016,
 		icon = "icon_5",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[5017] = {
 		id = 5017,
 		icon = "icon_1",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[5018] = {
 		id = 5018,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[6001] = {
 		id = 6001,
 		icon = "icon_0",
 		type = 1,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[6002] = {
 		id = 6002,
 		icon = "icon_4",
 		type = 2,
+		location = "",
 		ship_event = {
 			{
 				90402,
@@ -704,6 +806,7 @@ pg.base.activity_event_monopoly_map = {}
 		id = 6003,
 		icon = "icon_5",
 		type = 2,
+		location = "",
 		ship_event = {
 			{
 				90402,
@@ -735,18 +838,21 @@ pg.base.activity_event_monopoly_map = {}
 		id = 6004,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[6005] = {
 		id = 6005,
 		icon = "icon_3",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[6006] = {
 		id = 6006,
 		icon = "icon_4",
 		type = 2,
+		location = "",
 		ship_event = {
 			{
 				90402,
@@ -778,6 +884,7 @@ pg.base.activity_event_monopoly_map = {}
 		id = 6007,
 		icon = "icon_5",
 		type = 2,
+		location = "",
 		ship_event = {
 			{
 				90402,
@@ -809,18 +916,21 @@ pg.base.activity_event_monopoly_map = {}
 		id = 6008,
 		icon = "icon_3",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[6009] = {
 		id = 6009,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[6010] = {
 		id = 6010,
 		icon = "icon_1",
 		type = 2,
+		location = "",
 		ship_event = {
 			{
 				90402,
@@ -846,6 +956,7 @@ pg.base.activity_event_monopoly_map = {}
 		id = 6011,
 		icon = "icon_3",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 end)()
@@ -854,6 +965,7 @@ end)()
 		id = 6012,
 		icon = "icon_4",
 		type = 2,
+		location = "",
 		ship_event = {
 			{
 				90402,
@@ -885,6 +997,7 @@ end)()
 		id = 6013,
 		icon = "icon_5",
 		type = 2,
+		location = "",
 		ship_event = {
 			{
 				90402,
@@ -916,12 +1029,14 @@ end)()
 		id = 6014,
 		icon = "icon_3",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[6015] = {
 		id = 6015,
 		icon = "icon_4",
 		type = 2,
+		location = "",
 		ship_event = {
 			{
 				90402,
@@ -953,18 +1068,21 @@ end)()
 		id = 6016,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[6017] = {
 		id = 6017,
 		icon = "icon_3",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[6018] = {
 		id = 6018,
 		icon = "icon_4",
 		type = 2,
+		location = "",
 		ship_event = {
 			{
 				90402,
@@ -996,6 +1114,7 @@ end)()
 		id = 6019,
 		icon = "icon_5",
 		type = 2,
+		location = "",
 		ship_event = {
 			{
 				90402,
@@ -1027,6 +1146,7 @@ end)()
 		id = 6020,
 		icon = "icon_1",
 		type = 2,
+		location = "",
 		ship_event = {
 			{
 				90402,
@@ -1052,6 +1172,7 @@ end)()
 		id = 6021,
 		icon = "icon_5",
 		type = 2,
+		location = "",
 		ship_event = {
 			{
 				90402,
@@ -1083,18 +1204,21 @@ end)()
 		id = 6022,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[6023] = {
 		id = 6023,
 		icon = "icon_3",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[6024] = {
 		id = 6024,
 		icon = "icon_4",
 		type = 2,
+		location = "",
 		ship_event = {
 			{
 				90402,
@@ -1126,6 +1250,7 @@ end)()
 		id = 6025,
 		icon = "icon_5",
 		type = 2,
+		location = "",
 		ship_event = {
 			{
 				90402,
@@ -1157,30 +1282,35 @@ end)()
 		id = 6026,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[6027] = {
 		id = 6027,
 		icon = "icon_3",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[6028] = {
 		id = 6028,
 		icon = "icon_3",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[6029] = {
 		id = 6029,
 		icon = "icon_2",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[6030] = {
 		id = 6030,
 		icon = "icon_1",
 		type = 2,
+		location = "",
 		ship_event = {
 			{
 				90402,
@@ -1206,12 +1336,243 @@ end)()
 		id = 6031,
 		icon = "icon_3",
 		type = 2,
+		location = "",
 		ship_event = {}
 	}
 	pg.base.activity_event_monopoly_map[6032] = {
 		id = 6032,
 		icon = "icon_3",
 		type = 2,
+		location = "",
 		ship_event = {}
+	}
+	pg.base.activity_event_monopoly_map[7001] = {
+		id = 7001,
+		icon = "icon_0",
+		type = 1,
+		ship_event = {},
+		location = {
+			1,
+			1
+		}
+	}
+	pg.base.activity_event_monopoly_map[7002] = {
+		id = 7002,
+		icon = "icon_4",
+		type = 2,
+		ship_event = {
+			{
+				10720,
+				{
+					"SAICHEDAFUWENGEVENTV2-benningdun1",
+					"SAICHEDAFUWENGEVENTV2-benningdun2",
+					"SAICHEDAFUWENGEVENTV2-benningdun3"
+				}
+			},
+			{
+				20712,
+				{
+					"SAICHEDAFUWENGEVENTV2-bunao1",
+					"SAICHEDAFUWENGEVENTV2-bunao2",
+					"SAICHEDAFUWENGEVENTV2-bunao3"
+				}
+			},
+			{
+				30510,
+				{
+					"SAICHEDAFUWENGEVENTV2-wuzang1",
+					"SAICHEDAFUWENGEVENTV2-wuzang2",
+					"SAICHEDAFUWENGEVENTV2-wuzang3"
+				}
+			}
+		},
+		location = {
+			1,
+			1
+		}
+	}
+	pg.base.activity_event_monopoly_map[7003] = {
+		id = 7003,
+		icon = "icon_5",
+		type = 2,
+		ship_event = {
+			{
+				10720,
+				{
+					"SAICHEDAFUWENGEVENTV2-benningdun1",
+					"SAICHEDAFUWENGEVENTV2-benningdun2",
+					"SAICHEDAFUWENGEVENTV2-benningdun3"
+				}
+			},
+			{
+				20712,
+				{
+					"SAICHEDAFUWENGEVENTV2-bunao1",
+					"SAICHEDAFUWENGEVENTV2-bunao2",
+					"SAICHEDAFUWENGEVENTV2-bunao3"
+				}
+			},
+			{
+				30510,
+				{
+					"SAICHEDAFUWENGEVENTV2-wuzang1",
+					"SAICHEDAFUWENGEVENTV2-wuzang2",
+					"SAICHEDAFUWENGEVENTV2-wuzang3"
+				}
+			}
+		},
+		location = {
+			1,
+			1
+		}
+	}
+	pg.base.activity_event_monopoly_map[7004] = {
+		id = 7004,
+		icon = "icon_2",
+		type = 2,
+		ship_event = {},
+		location = {
+			1,
+			1
+		}
+	}
+	pg.base.activity_event_monopoly_map[7005] = {
+		id = 7005,
+		icon = "icon_3",
+		type = 2,
+		ship_event = {},
+		location = {
+			1,
+			1
+		}
+	}
+	pg.base.activity_event_monopoly_map[7006] = {
+		id = 7006,
+		icon = "icon_4",
+		type = 2,
+		ship_event = {
+			{
+				10720,
+				{
+					"SAICHEDAFUWENGEVENTV2-benningdun1",
+					"SAICHEDAFUWENGEVENTV2-benningdun2",
+					"SAICHEDAFUWENGEVENTV2-benningdun3"
+				}
+			},
+			{
+				20712,
+				{
+					"SAICHEDAFUWENGEVENTV2-bunao1",
+					"SAICHEDAFUWENGEVENTV2-bunao2",
+					"SAICHEDAFUWENGEVENTV2-bunao3"
+				}
+			},
+			{
+				30510,
+				{
+					"SAICHEDAFUWENGEVENTV2-wuzang1",
+					"SAICHEDAFUWENGEVENTV2-wuzang2",
+					"SAICHEDAFUWENGEVENTV2-wuzang3"
+				}
+			}
+		},
+		location = {
+			1,
+			1
+		}
+	}
+	pg.base.activity_event_monopoly_map[7007] = {
+		id = 7007,
+		icon = "icon_5",
+		type = 2,
+		ship_event = {
+			{
+				10720,
+				{
+					"SAICHEDAFUWENGEVENTV2-benningdun1",
+					"SAICHEDAFUWENGEVENTV2-benningdun2",
+					"SAICHEDAFUWENGEVENTV2-benningdun3"
+				}
+			},
+			{
+				20712,
+				{
+					"SAICHEDAFUWENGEVENTV2-bunao1",
+					"SAICHEDAFUWENGEVENTV2-bunao2",
+					"SAICHEDAFUWENGEVENTV2-bunao3"
+				}
+			},
+			{
+				30510,
+				{
+					"SAICHEDAFUWENGEVENTV2-wuzang1",
+					"SAICHEDAFUWENGEVENTV2-wuzang2",
+					"SAICHEDAFUWENGEVENTV2-wuzang3"
+				}
+			}
+		},
+		location = {
+			1,
+			1
+		}
+	}
+	pg.base.activity_event_monopoly_map[7008] = {
+		id = 7008,
+		icon = "icon_3",
+		type = 2,
+		ship_event = {},
+		location = {
+			1,
+			1
+		}
+	}
+	pg.base.activity_event_monopoly_map[7009] = {
+		id = 7009,
+		icon = "icon_2",
+		type = 2,
+		ship_event = {},
+		location = {
+			1,
+			1
+		}
+	}
+	pg.base.activity_event_monopoly_map[7010] = {
+		id = 7010,
+		icon = "icon_1",
+		type = 2,
+		ship_event = {
+			{
+				10720,
+				{
+					"SAICHEDAFUWENGEVENTV2-benningdun4"
+				}
+			},
+			{
+				20712,
+				{
+					"SAICHEDAFUWENGEVENTV2-bunao4"
+				}
+			},
+			{
+				30510,
+				{
+					"SAICHEDAFUWENGEVENTV2-wuzang4"
+				}
+			}
+		},
+		location = {
+			1,
+			1
+		}
+	}
+	pg.base.activity_event_monopoly_map[7011] = {
+		id = 7011,
+		icon = "icon_3",
+		type = 2,
+		ship_event = {},
+		location = {
+			1,
+			1
+		}
 	}
 end)()

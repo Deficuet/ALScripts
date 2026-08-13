@@ -26,7 +26,7 @@ local var_0_2 = 2
 local var_0_3 = 3
 local var_0_4 = 4
 local var_0_5 = 5
-local var_0_6 = -1
+local var_0_6 = 6
 local var_0_7 = -2
 local var_0_8 = -3
 local var_0_9 = -4
@@ -55,7 +55,7 @@ local var_0_11 = {
 		""
 	},
 	[var_0_6] = {
-		"fanchang",
+		"fanchang_2",
 		""
 	},
 	[var_0_7] = {
@@ -72,7 +72,7 @@ local var_0_11 = {
 	}
 }
 
-local function var_0_12(arg_2_0, arg_2_1)
+function var_0_0.GetTagId(arg_2_0, arg_2_1)
 	local var_2_0 = arg_2_0.buyCount == 0
 
 	if arg_2_1 and var_2_0 then
@@ -144,7 +144,7 @@ function var_0_0.Update(arg_3_0, arg_3_1, arg_3_2, arg_3_3, arg_3_4)
 
 		setActive(go(arg_3_0._opriceTxt), var_3_8 and var_3_10 > 0)
 
-		local var_3_11 = var_0_12(arg_3_1, arg_3_3)
+		local var_3_11 = var_0_0.GetTagId(arg_3_1, arg_3_3)
 
 		if var_3_11 == var_0_5 then
 			var_3_3 = true

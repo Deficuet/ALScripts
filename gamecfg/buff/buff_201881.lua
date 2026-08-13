@@ -1,0 +1,22 @@
+return {
+	time = 0,
+	name = "2026本宁顿活动 剧情战4 约克城meta支援",
+	init_effect = "",
+	stack = 1,
+	id = 201881,
+	picture = "",
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onUpdate"
+			},
+			arg_list = {
+				buff_id = 201882,
+				target = "TargetSelf",
+				time = 1
+			}
+		}
+	}
+}

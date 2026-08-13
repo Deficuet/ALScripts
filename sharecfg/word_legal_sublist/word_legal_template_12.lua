@@ -7,6 +7,60 @@ var_0_0.word_legal_template_12 = {}
 local var_0_1 = var_0_0.word_legal_template_12
 
 function temp()
+	var_0_1.希 = {
+		咪 = {
+			this = true
+		},
+		露 = {
+			this = true
+		},
+		娜 = {
+			this = true
+		},
+		佩 = {
+			尔 = {
+				海 = {
+					军 = {
+						上 = {
+							将 = {
+								this = true,
+								["("] = {
+									μ = {
+										兵 = {
+											装 = {
+												[")"] = {
+													this = true
+												}
+											}
+										}
+									}
+								},
+								["."] = {
+									改 = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		尔 = {
+			德 = {
+				加 = {
+					德 = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.夏 = {
 		璐 = {
 			尔 = {
@@ -839,21 +893,6 @@ function temp()
 		尔 = {
 			加 = {
 				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.逸 = {
-		仙 = {
-			this = true,
-			["."] = {
-				改 = {
-					this = true
-				}
 			}
 		}
 	}

@@ -7,6 +7,26 @@ var_0_0.word_legal_template_7 = {}
 local var_0_1 = var_0_0.word_legal_template_7
 
 function temp()
+	var_0_1.梧 = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.柚 = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.枫 = {
 		this = {
 			this = true
@@ -296,26 +316,6 @@ temp()
 
 function temp()
 	var_0_1.檧 = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.菪 = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.杣 = {
 		this = {
 			this = true
 		}

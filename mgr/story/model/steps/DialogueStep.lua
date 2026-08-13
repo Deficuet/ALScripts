@@ -402,6 +402,10 @@ function var_0_0.GetContent(arg_38_0)
 		var_38_0 = arg_38_0:ReplaceDormName(var_38_0)
 	end
 
+	if arg_38_0:ShouldReplaceCar2026() then
+		var_38_0 = arg_38_0:ReplaceCar2026Name(var_38_0)
+	end
+
 	if PLATFORM_CODE ~= PLATFORM_US then
 		var_38_0 = SwitchSpecialChar(HXSet.hxLan(var_38_0), true)
 	else
@@ -494,6 +498,10 @@ function var_0_0.GetName(arg_45_0)
 
 	if arg_45_0:ShouldReplaceTb() then
 		var_45_0 = arg_45_0:ReplaceTbName(var_45_0)
+	end
+
+	if arg_45_0:ShouldReplaceCar2026() then
+		var_45_0 = arg_45_0:ReplaceCar2026Name(var_45_0)
 	end
 
 	return (HXSet.hxLan(var_45_0))

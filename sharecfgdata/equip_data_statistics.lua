@@ -153949,6 +153949,65 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.equip_data_statistics[80681] = {
+		type = 1,
+		name = "专属弹幕-柯莱特I",
+		speciality = "<[NA]>",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能弹幕",
+		id = 80681,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			171111,
+			171113
+		},
+		skill_id = {},
+		hidden_skill_id = {},
+		part_main = {
+			1,
+			19,
+			20,
+			21
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[80682] = {
+		id = 80682,
+		name = "专属弹幕-柯莱特II",
+		base = 80681,
+		weapon_id = {
+			171112,
+			171113
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.equip_data_statistics[85000] = {
 		tech = 1,
 		name = "B-13 双联装130mm主炮B-2LM",
@@ -197627,6 +197686,167 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.equip_data_statistics[151220] = {
+		type = 10,
+		name = "Error十三世",
+		speciality = "<[NA]>",
+		tech = 0,
+		value_2 = 0,
+		ammo = 10,
+		descrip = "柯莱特目前最喜欢的电子宠物，这一世一定要记得按时喂食哦。",
+		nationality = 1,
+		rarity = 5,
+		id = 151220,
+		value_3 = 0,
+		attribute_1 = "durability",
+		icon = "151220",
+		value_1 = "250",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			{
+				61130,
+				1
+			}
+		},
+		hidden_skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DEV"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151221] = {
+		id = 151221,
+		value_1 = "280",
+		base = 151220,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151222] = {
+		id = 151222,
+		value_1 = "310",
+		base = 151220,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151223] = {
+		id = 151223,
+		value_1 = "340",
+		base = 151220,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151224] = {
+		id = 151224,
+		value_1 = "370",
+		base = 151220,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151225] = {
+		id = 151225,
+		value_1 = "400",
+		base = 151220,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151226] = {
+		id = 151226,
+		value_1 = "430",
+		base = 151220,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151227] = {
+		id = 151227,
+		value_1 = "460",
+		base = 151220,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151228] = {
+		id = 151228,
+		value_1 = "490",
+		base = 151220,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151229] = {
+		id = 151229,
+		value_1 = "520",
+		base = 151220,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151230] = {
+		id = 151230,
+		value_1 = "550",
+		base = 151220,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151231] = {
+		id = 151231,
+		anti_siren = 100,
+		value_1 = "580",
+		base = 151220,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151232] = {
+		id = 151232,
+		anti_siren = 200,
+		value_1 = "610",
+		base = 151220,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[151233] = {
+		id = 151233,
+		anti_siren = 300,
+		value_1 = "640",
+		base = 151220,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.equip_data_statistics[170001] = {
 		type = 1,
 		name = "专属弹幕-古比雪夫I",
@@ -199662,6 +199882,63 @@ end)()
 		base = 171081,
 		weapon_id = {
 			171082
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[171091] = {
+		type = 1,
+		name = "专属弹幕-维克斯堡I",
+		speciality = "<[NA]>",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能弹幕",
+		id = 171091,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			171091
+		},
+		skill_id = {},
+		hidden_skill_id = {},
+		part_main = {
+			1,
+			19,
+			20,
+			21
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[171092] = {
+		id = 171092,
+		name = "专属弹幕-维克斯堡II",
+		base = 171091,
+		weapon_id = {
+			171092
 		},
 		hidden_skill_id = {}
 	}

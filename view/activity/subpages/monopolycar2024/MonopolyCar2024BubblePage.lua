@@ -17,53 +17,57 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	setActive(arg_1_0._tf, false)
 end
 
-function var_0_0.emit(arg_3_0, ...)
-	arg_3_0.event:emit(...)
+function var_0_0.GetUiAtlas(arg_3_0)
+	return "ui/MonopolyCar2024_atlas"
 end
 
-function var_0_0.Show(arg_4_0, arg_4_1, arg_4_2, arg_4_3)
-	setActive(arg_4_0._tf, true)
-	arg_4_0.anim:Play("anim_monopolycar_bubble_show")
-
-	local var_4_0 = GetSpriteFromAtlas("ui/MonopolyCar2024_atlas", arg_4_2)
-
-	arg_4_0.head.sprite = var_4_0
-
-	arg_4_0.head:SetNativeSize()
-
-	local var_4_1 = pg.activity_event_monopoly_dialogue[arg_4_3].dialogue
-
-	arg_4_0.content.text = var_4_1
-
-	arg_4_0:AddTimer()
-	arg_4_0:emit(MonopolyCar2024Mediator.ON_DIALOGUE, arg_4_1, arg_4_3)
+function var_0_0.emit(arg_4_0, ...)
+	arg_4_0.event:emit(...)
 end
 
-function var_0_0.AddTimer(arg_5_0)
-	arg_5_0:RemoveTimer()
+function var_0_0.Show(arg_5_0, arg_5_1, arg_5_2, arg_5_3)
+	setActive(arg_5_0._tf, true)
+	arg_5_0.anim:Play("anim_monopolycar_bubble_show")
 
-	arg_5_0.timer = Timer.New(function()
-		arg_5_0:RemoveTimer()
-		arg_5_0:Hide()
-	end, arg_5_0.showTime, 1)
+	local var_5_0 = GetSpriteFromAtlas(arg_5_0:GetUiAtlas(), arg_5_2)
 
-	arg_5_0.timer:Start()
+	arg_5_0.head.sprite = var_5_0
+
+	arg_5_0.head:SetNativeSize()
+
+	local var_5_1 = pg.activity_event_monopoly_dialogue[arg_5_3].dialogue
+
+	arg_5_0.content.text = var_5_1
+
+	arg_5_0:AddTimer()
+	arg_5_0:emit(MonopolyCar2024Mediator.ON_DIALOGUE, arg_5_1, arg_5_3)
 end
 
-function var_0_0.RemoveTimer(arg_7_0)
-	if arg_7_0.timer then
-		arg_7_0.timer:Stop()
+function var_0_0.AddTimer(arg_6_0)
+	arg_6_0:RemoveTimer()
 
-		arg_7_0.timer = nil
+	arg_6_0.timer = Timer.New(function()
+		arg_6_0:RemoveTimer()
+		arg_6_0:Hide()
+	end, arg_6_0.showTime, 1)
+
+	arg_6_0.timer:Start()
+end
+
+function var_0_0.RemoveTimer(arg_8_0)
+	if arg_8_0.timer then
+		arg_8_0.timer:Stop()
+
+		arg_8_0.timer = nil
 	end
 end
 
-function var_0_0.Hide(arg_8_0)
-	arg_8_0.anim:Play("anim_monopolycar_bubble_hide")
+function var_0_0.Hide(arg_9_0)
+	arg_9_0.anim:Play("anim_monopolycar_bubble_hide")
 end
 
-function var_0_0.Dispose(arg_9_0)
-	arg_9_0:RemoveTimer()
+function var_0_0.Dispose(arg_10_0)
+	arg_10_0:RemoveTimer()
 end
 
 return var_0_0

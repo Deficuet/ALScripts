@@ -2,10 +2,9 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
-	painting = 0,
+	painting = 1,
 	id = 152021,
-	picture = "0",
-	castCV = "",
+	picture = "1",
 	desc = "",
 	aniEffect = {
 		effect = "jineng",
@@ -22,7 +21,22 @@ return {
 			target_choise = "TargetSelf",
 			targetAniEffect = "",
 			arg_list = {
-				buff_id = 152025
+				buff_id = 152023
+			}
+		},
+		{
+			type = "BattleSkillAddBuff",
+			casterAniEffect = "",
+			targetAniEffect = "",
+			target_choise = {
+				"TargetAllHelp",
+				"TargetShipTag"
+			},
+			arg_list = {
+				buff_id = 152024,
+				ship_tag_list = {
+					"wgln-hx"
+				}
 			}
 		}
 	}

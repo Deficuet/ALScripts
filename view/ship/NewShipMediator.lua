@@ -5,6 +5,10 @@ var_0_0.ON_EXIT = "NewShipMediator:ON_EXIT"
 var_0_0.ON_SKILLINFO = "NewShipMediator:ON_SKILLINFO"
 var_0_0.ON_EVALIATION = "NewShipMediator:ON_EVALIATION"
 var_0_0.ON_SKIP_BATCH = "NewShipMediator:ON_SKIP_BATCH"
+var_0_0.SKIP_TYPE = {
+	BUILD = 1,
+	CHAPTER_AUTO_AWARD = 2
+}
 
 function var_0_0.register(arg_1_0)
 	local var_1_0 = arg_1_0.contextData.ship
@@ -23,8 +27,12 @@ function var_0_0.register(arg_1_0)
 			context = var_2_0
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_SKIP_BATCH, function(arg_3_0, arg_3_1, arg_3_2)
-		getProxy(BuildShipProxy):setSkipBatchBuildFlag(true)
+	arg_1_0:bind(var_0_0.ON_SKIP_BATCH, function(arg_3_0, arg_3_1)
+		if arg_3_1 == var_0_0.SKIP_TYPE.BUILD then
+			getProxy(BuildShipProxy):setSkipBatchBuildFlag(true)
+		elseif arg_3_1 == var_0_0.SKIP_TYPE.CHAPTER_AUTO_AWARD then
+			getProxy(ChapterAutoProxy):SetSkipBatchBuildFlag(true)
+		end
 
 		local var_3_0 = getProxy(ContextProxy):getCurrentContext():getContextByMediator(arg_1_0.class)
 

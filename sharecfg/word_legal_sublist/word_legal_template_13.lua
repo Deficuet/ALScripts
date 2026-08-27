@@ -7,6 +7,30 @@ var_0_0.word_legal_template_13 = {}
 local var_0_1 = var_0_0.word_legal_template_13
 
 function temp()
+	var_0_1.伏 = {
+		波 = {
+			this = true
+		},
+		罗 = {
+			希 = {
+				洛 = {
+					夫 = {
+						this = true
+					}
+				}
+			}
+		},
+		尔 = {
+			加 = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.逸 = {
 		仙 = {
 			this = true,
@@ -475,22 +499,6 @@ function temp()
 			川 = {
 				唯 = {
 					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.摩 = {
-		尔 = {
-			曼 = {
-				斯 = {
-					克 = {
-						this = true
-					}
 				}
 			}
 		}

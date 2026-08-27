@@ -336,27 +336,25 @@ function var_0_1.DescDateFromConfig(arg_39_0, arg_39_1, arg_39_2)
 end
 
 function var_0_1.DescCDTime(arg_40_0, arg_40_1)
-	local var_40_0 = math.floor(arg_40_1 / 3600)
+	local var_40_0 = arg_40_1 < 0 and "-" or ""
+	local var_40_1 = math.abs(arg_40_1)
+	local var_40_2 = math.floor(var_40_1 / 3600)
+	local var_40_3 = var_40_1 % 3600
+	local var_40_4 = math.floor(var_40_3 / 60)
+	local var_40_5 = var_40_3 % 60
 
-	arg_40_1 = arg_40_1 % 3600
-
-	local var_40_1 = math.floor(arg_40_1 / 60)
-
-	arg_40_1 = arg_40_1 % 60
-
-	return string.format("%02d:%02d:%02d", var_40_0, var_40_1, arg_40_1)
+	return var_40_0 .. string.format("%02d:%02d:%02d", var_40_2, var_40_4, var_40_5)
 end
 
 function var_0_1.DescCDTimeForMinute(arg_41_0, arg_41_1)
-	local var_41_0 = math.floor(arg_41_1 / 3600)
+	local var_41_0 = arg_41_1 < 0 and "-" or ""
+	local var_41_1 = math.abs(arg_41_1)
+	local var_41_2 = math.floor(var_41_1 / 3600)
+	local var_41_3 = var_41_1 % 3600
+	local var_41_4 = math.floor(var_41_3 / 60)
+	local var_41_5 = var_41_3 % 60
 
-	arg_41_1 = arg_41_1 % 3600
-
-	local var_41_1 = math.floor(arg_41_1 / 60)
-
-	arg_41_1 = arg_41_1 % 60
-
-	return string.format("%02d:%02d", var_41_1, arg_41_1)
+	return var_41_0 .. string.format("%02d:%02d", var_41_4, var_41_5)
 end
 
 function var_0_1.parseTimeFrom(arg_42_0, arg_42_1)

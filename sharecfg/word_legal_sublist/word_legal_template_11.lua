@@ -7,6 +7,27 @@ var_0_0.word_legal_template_11 = {}
 local var_0_1 = var_0_0.word_legal_template_11
 
 function temp()
+	var_0_1.凤 = {
+		this = {
+			this = true
+		},
+		· = {
+			M = {
+				E = {
+					T = {
+						A = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.鹳 = {
 		this = {
 			this = true
@@ -523,19 +544,6 @@ function temp()
 					}
 				}
 			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.咪 = {
-		菓 = {
-			this = true
-		},
-		露 = {
-			this = true
 		}
 	}
 end

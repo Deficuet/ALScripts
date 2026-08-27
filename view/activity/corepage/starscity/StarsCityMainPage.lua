@@ -56,22 +56,7 @@ function var_0_0.OnFirstFlush(arg_2_0)
 		end
 	end, SFX_PANEL)
 	onButton(arg_2_0, arg_2_0.btnShop, function()
-		local var_6_0 = var_2_0.shopLinkActID
-
-		if var_6_0 and var_2_1(var_6_0) then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
-
-			return
-		end
-
-		if var_6_0 then
-			arg_2_0:emit(ActivityMediator.GO_SHOPS_LAYER, {
-				warp = NewShopsScene.TYPE_ACTIVITY,
-				actId = var_6_0
-			})
-		else
-			arg_2_0:emit(ActivityMediator.GO_CHANGE_SHOP)
-		end
+		arg_2_0:emit(ActivityMediator.GO_CHANGE_SHOP)
 	end, SFX_PANEL)
 	onButton(arg_2_0, arg_2_0.btnManual, function()
 		local var_7_0 = Context.New({
@@ -93,24 +78,38 @@ function var_0_0.refreshBtnResTime(arg_8_0)
 
 	local var_8_1 = pg.TimeMgr.GetInstance():GetServerTime()
 
-	local function var_8_2(arg_9_0, arg_9_1)
+	local function var_8_2(arg_9_0, arg_9_1, arg_9_2)
 		if not arg_9_0 then
 			return
 		end
 
-		local var_9_0 = arg_9_1 and getProxy(ActivityProxy):getActivityById(arg_9_1) or nil
+		local var_9_0 = 0
+		local var_9_1 = 0
+		local var_9_2 = false
 
-		if var_9_0 and not var_9_0:isEnd() and var_9_0.stopTime and var_9_0.stopTime > var_8_1 then
-			local var_9_1 = var_9_0.stopTime - var_8_1
-			local var_9_2 = math.floor(var_9_1 / 86400)
-			local var_9_3 = math.floor(var_9_1 % 86400 / 3600)
+		if arg_9_2 == 1 then
+			local var_9_3 = arg_9_1 and getProxy(ActivityProxy):getActivityById(arg_9_1) or nil
 
+			var_9_2 = var_9_3 and not var_9_3:isEnd() and var_9_3.stopTime and var_9_3.stopTime > var_8_1
+
+			local var_9_4 = var_9_3.stopTime - var_8_1
+
+			var_9_1 = math.floor(var_9_4 / 3600)
+		else
+			local var_9_5 = pg.shop_template[arg_9_1]
+			local var_9_6 = pg.TimeMgr.GetInstance():parseTimeFromConfig(var_9_5.time[2]) - var_8_1
+
+			var_9_1 = math.floor(var_9_6 / 3600)
+			var_9_2 = var_9_6 > 0
+		end
+
+		if var_9_2 and var_9_1 <= 24 then
 			setActive(arg_9_0.parent, true)
 
-			if var_9_3 >= 2 then
-				setText(arg_9_0, i18n("StarsCityMainPage_res_day_time", var_9_2, var_9_3))
-			else
+			if arg_9_2 == 1 then
 				setText(arg_9_0, i18n("StarsCityMainPage_no_time"))
+			else
+				setText(arg_9_0, i18n("StarsCityMainPage_res_day_time", var_9_1))
 			end
 		else
 			setActive(arg_9_0.parent, false)
@@ -118,8 +117,8 @@ function var_0_0.refreshBtnResTime(arg_8_0)
 		end
 	end
 
-	var_8_2(arg_8_0.resTimeBuild, var_8_0.buildLinkActID)
-	var_8_2(arg_8_0.resTimeShop, var_8_0.shopLinkActID)
+	var_8_2(arg_8_0.resTimeBuild, var_8_0.buildLinkActID, 1)
+	var_8_2(arg_8_0.resTimeShop, var_8_0.shopItemID, 2)
 end
 
 function var_0_0.OnUpdateFlush(arg_10_0)

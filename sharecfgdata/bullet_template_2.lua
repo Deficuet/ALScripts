@@ -8251,6 +8251,73 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.bullet_template_2[168394] = {
+		hit_sfx = "battle/torpedo-hit",
+		range_offset = 20,
+		modle_ID = "Torpedo01",
+		type = 3,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "TorpedoHit3",
+		effect_type = 1,
+		id = 168394,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 100,
+		miss_fx = "",
+		pierce_count = 0,
+		ammo_type = 4,
+		alert_fx = "TorAlert",
+		velocity = 3,
+		damage_type = {
+			0.8,
+			1,
+			1.3
+		},
+		DMG_font = {
+			{
+				3,
+				0.8
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.3
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 3
+		},
+		attach_buff = {
+			{
+				buff_id = 152757,
+				rant = 10000
+			}
+		},
+		extra_param = {
+			diveFilter = {
+				2
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.bullet_template_2[170938] = {
 		hit_sfx = "battle/hit",
 		range_offset = 20,
@@ -10110,6 +10177,123 @@ end)()
 		random_damage_rate = 0,
 		miss_sfx = "",
 		range = 150,
+		miss_fx = "",
+		pierce_count = 0,
+		ammo_type = 4,
+		alert_fx = "TorAlert",
+		velocity = 4,
+		damage_type = {
+			0.8,
+			1,
+			1.3
+		},
+		DMG_font = {
+			{
+				3,
+				0.8
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.3
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 3
+		},
+		attach_buff = {},
+		extra_param = {
+			diveFilter = {
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[171054] = {
+		hit_sfx = "battle/hit",
+		range_offset = 10,
+		modle_ID = "shenyuanbullet14",
+		type = 1,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "pofang",
+		effect_type = 1,
+		id = 171054,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 100,
+		miss_fx = "ShellMiss",
+		pierce_count = 0,
+		ammo_type = 1,
+		alert_fx = "",
+		velocity = 12,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			5,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[171055] = {
+		hit_sfx = "battle/torpedo-hit",
+		range_offset = 20,
+		modle_ID = "Torpedo01",
+		type = 3,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "TorpedoHit3",
+		effect_type = 1,
+		id = 171055,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 100,
 		miss_fx = "",
 		pierce_count = 0,
 		ammo_type = 4,

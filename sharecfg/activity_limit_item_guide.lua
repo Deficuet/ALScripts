@@ -3829,7 +3829,7 @@ end)()
 	pg.base.activity_limit_item_guide[217] = {
 		id = 217,
 		activity = 51117,
-		count = 1,
+		count = 4,
 		type = 4,
 		is_new = 1,
 		count_storage = 0,
@@ -3846,7 +3846,7 @@ end)()
 	pg.base.activity_limit_item_guide[218] = {
 		id = 218,
 		activity = 51117,
-		count = 4,
+		count = 5,
 		type = 4,
 		is_new = 1,
 		count_storage = 0,

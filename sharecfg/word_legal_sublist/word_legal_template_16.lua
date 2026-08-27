@@ -7,6 +7,25 @@ var_0_0.word_legal_template_16 = {}
 local var_0_1 = var_0_0.word_legal_template_16
 
 function temp()
+	var_0_1.时 = {
+		乃 = {
+			空 = {
+				this = true
+			}
+		},
+		崎 = {
+			狂 = {
+				三 = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.湊 = {
 		阿 = {
 			库 = {

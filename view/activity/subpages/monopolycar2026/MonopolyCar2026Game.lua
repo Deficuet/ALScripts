@@ -224,7 +224,7 @@ end
 
 function var_0_0.SetRollStepAct(arg_28_0, arg_28_1)
 	if not arg_28_1 then
-		setText(findTF(arg_28_0.rollStep, "animroot/Image/Text"), "")
+		setText(findTF(arg_28_0.rollStep, "animroot/Image/Text"), "00")
 	end
 
 	setActive(arg_28_0.rollStep, true)

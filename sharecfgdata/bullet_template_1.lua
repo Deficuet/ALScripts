@@ -594309,7 +594309,8 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
-			dontRotate = true
+			dontRotate = true,
+			ignoreShield = true
 		}
 	}
 end)()
@@ -594385,7 +594386,8 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
-			dontRotate = true
+			dontRotate = true,
+			ignoreShield = true
 		}
 	}
 end)()
@@ -595406,7 +595408,8 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
-			dontRotate = true
+			dontRotate = true,
+			ignoreShield = true
 		}
 	}
 end)()
@@ -596151,7 +596154,8 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
-			dontRotate = true
+			dontRotate = true,
+			ignoreShield = true
 		}
 	}
 end)()

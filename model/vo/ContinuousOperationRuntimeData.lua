@@ -16,6 +16,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 		{}
 	}
 	arg_1_0.active = nil
+	arg_1_0.clickStopAutoFlag = false
 end
 
 function var_0_0.GetSystem(arg_2_0)
@@ -32,6 +33,8 @@ end
 
 function var_0_0.ConsumeBattleTime(arg_5_0)
 	arg_5_0.battleTime = arg_5_0.battleTime - 1
+
+	arg_5_0:ResetClickStopAutoFlag()
 end
 
 function var_0_0.IsFirstBattle(arg_6_0)
@@ -76,6 +79,18 @@ end
 
 function var_0_0.IsActive(arg_14_0)
 	return tobool(arg_14_0.active)
+end
+
+function var_0_0.MarkClickStopAutoFlag(arg_15_0)
+	arg_15_0.clickStopAutoFlag = true
+end
+
+function var_0_0.ResetClickStopAutoFlag(arg_16_0)
+	arg_16_0.clickStopAutoFlag = false
+end
+
+function var_0_0.IsRecordTime(arg_17_0)
+	return arg_17_0:IsActive() and not arg_17_0.clickStopAutoFlag
 end
 
 return var_0_0

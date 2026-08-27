@@ -143,6 +143,16 @@ end
 temp()
 
 function temp()
+	var_0_1.菡 = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.苓 = {
 		this = {
 			this = true
@@ -306,16 +316,6 @@ temp()
 
 function temp()
 	var_0_1.枨 = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.檧 = {
 		this = {
 			this = true
 		}

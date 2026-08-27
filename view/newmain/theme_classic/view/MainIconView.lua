@@ -41,7 +41,7 @@ function var_0_0.Refresh(arg_4_0, arg_4_1)
 	local var_4_0 = arg_4_1:getPrefab()
 	local var_4_1 = arg_4_0:GetIconType(arg_4_1)
 
-	if arg_4_0.iconList[var_4_1] ~= arg_4_0.iconInstance or arg_4_0.name ~= var_4_0 then
+	if arg_4_0.iconList[var_4_1] ~= arg_4_0.iconInstance or arg_4_0.ship:getPrefab() ~= var_4_0 then
 		arg_4_0:Init(arg_4_1)
 	elseif arg_4_0.iconInstance then
 		arg_4_0.iconInstance:Resume()

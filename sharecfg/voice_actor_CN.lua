@@ -2080,6 +2080,10 @@ end)()
 		code = 516,
 		actor_name = "福积沙耶"
 	}
+	pg.base.voice_actor_CN[521] = {
+		code = 521,
+		actor_name = "纺木吏佐"
+	}
 	pg.base.voice_actor_CN[517] = {
 		code = 517,
 		actor_name = "天城莎莉"

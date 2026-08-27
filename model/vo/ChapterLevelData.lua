@@ -5,6 +5,7 @@ function var_0_0.update(arg_1_0, arg_1_1)
 
 	arg_1_0.active = true
 	arg_1_0.dueTime = arg_1_1.time
+	arg_1_0.activeTime = arg_1_1.start_time
 	arg_1_0.loopFlag = arg_1_1.loop_flag
 	arg_1_0.modelCount = arg_1_1.model_act_count
 	arg_1_0.roundIndex = arg_1_1.round
@@ -253,17 +254,22 @@ function var_0_0.update(arg_1_0, arg_1_1)
 	arg_1_0.activateAmbush = not arg_1_0:isLoop() and arg_1_0:GetWillActiveAmbush()
 end
 
-function var_0_0.retreat(arg_10_0, arg_10_1)
+function var_0_0.retreat(arg_10_0, arg_10_1, arg_10_2, arg_10_3)
 	if arg_10_1 then
 		arg_10_0.todayDefeatCount = arg_10_0.todayDefeatCount + 1
 
 		arg_10_0:updateTodayDefeatCount()
+
+		if arg_10_2 == 1 and arg_10_3 and arg_10_3 > 0 then
+			getProxy(ChapterAutoProxy):UpdateRecord(ChapterAutoProxy.TYPE.SLG, arg_10_0.id, arg_10_3)
+		end
 	end
 end
 
 function var_0_0.CleanLevelData(arg_11_0)
 	arg_11_0.active = false
 	arg_11_0.loopFlag = 0
+	arg_11_0.activeTime = nil
 	arg_11_0.dueTime = nil
 	arg_11_0.cells = nil
 	arg_11_0.fleets = nil

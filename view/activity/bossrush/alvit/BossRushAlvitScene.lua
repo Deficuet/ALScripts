@@ -17,15 +17,24 @@ function var_0_0.init(arg_2_0)
 	arg_2_0.rankBtn = arg_2_0.top:Find("right/rank")
 	arg_2_0.taskBtn = arg_2_0.top:Find("right/task")
 	arg_2_0.taskTip = arg_2_0.taskBtn:Find("tip")
-	arg_2_0.seriesNodes = _.map(_.range(arg_2_0._tf:Find("Battle/Nodes").childCount), function(arg_3_0)
-		return arg_2_0._tf:Find("Battle/Nodes"):GetChild(arg_3_0 - 1)
-	end)
+	arg_2_0.seriesNodes = {}
+
+	local var_2_0 = arg_2_0._tf:Find("Battle/Nodes")
+
+	for iter_2_0 = 1, var_2_0.childCount do
+		local var_2_1 = var_2_0:GetChild(iter_2_0 - 1)
+
+		if isActive(var_2_1) then
+			table.insert(arg_2_0.seriesNodes, var_2_1)
+		end
+	end
+
 	arg_2_0.nodes = {}
 
-	for iter_2_0 = 1, arg_2_0._tf:Find("Story/Nodes").childCount do
-		local var_2_0 = arg_2_0._tf:Find("Story/Nodes"):GetChild(iter_2_0 - 1)
+	for iter_2_1 = 1, arg_2_0._tf:Find("Story/Nodes").childCount do
+		local var_2_2 = arg_2_0._tf:Find("Story/Nodes"):GetChild(iter_2_1 - 1)
 
-		arg_2_0.nodes[var_2_0.name] = var_2_0
+		arg_2_0.nodes[var_2_2.name] = var_2_2
 	end
 
 	arg_2_0.progressText = arg_2_0._tf:Find("Story/Desc/Text")
@@ -33,197 +42,201 @@ function var_0_0.init(arg_2_0)
 	arg_2_0.ActionSequence = {}
 end
 
-function var_0_0.SetActivity(arg_4_0, arg_4_1)
-	arg_4_0.activity = arg_4_1
+function var_0_0.SetActivity(arg_3_0, arg_3_1)
+	arg_3_0.activity = arg_3_1
 end
 
-function var_0_0.SetPtActivity(arg_5_0, arg_5_1)
-	arg_5_0.ptActivity = arg_5_1
-	arg_5_0.ptData = ActivityPtData.New(arg_5_0.ptActivity)
+function var_0_0.SetPtActivity(arg_4_0, arg_4_1)
+	arg_4_0.ptActivity = arg_4_1
+	arg_4_0.ptData = ActivityPtData.New(arg_4_0.ptActivity)
 end
 
-function var_0_0.didEnter(arg_6_0)
-	onButton(arg_6_0, arg_6_0.top:Find("top/back"), function()
-		arg_6_0:onBackPressed()
+function var_0_0.didEnter(arg_5_0)
+	onButton(arg_5_0, arg_5_0.top:Find("top/back"), function()
+		arg_5_0:onBackPressed()
 	end, SFX_CANCEL)
-	onButton(arg_6_0, arg_6_0.top:Find("top/home"), function()
-		arg_6_0:quickExitFunc()
+	onButton(arg_5_0, arg_5_0.top:Find("top/home"), function()
+		arg_5_0:quickExitFunc()
 	end, SFX_PANEL)
-	onButton(arg_6_0, arg_6_0.rankBtn, function()
-		arg_6_0:emit(BossRushAlvitMediator.ON_EXTRA_RANK)
+	onButton(arg_5_0, arg_5_0.rankBtn, function()
+		arg_5_0:emit(BossRushAlvitMediator.ON_EXTRA_RANK)
 	end, SFX_PANEL)
-	onButton(arg_6_0, arg_6_0.ptBtn, function()
-		arg_6_0:emit(BossRushAlvitMediator.GO_SUBLAYER, Context.New({
+	onButton(arg_5_0, arg_5_0.ptBtn, function()
+		arg_5_0:emit(BossRushAlvitMediator.GO_SUBLAYER, Context.New({
 			mediator = ChildishnessSchoolPtMediator,
 			viewComponent = ChildishnessSchoolPtPage
 		}))
 	end, SFX_PANEL)
-	onButton(arg_6_0, arg_6_0.taskBtn, function()
-		arg_6_0:emit(BossRushAlvitMediator.GO_SUBLAYER, Context.New({
+	onButton(arg_5_0, arg_5_0.taskBtn, function()
+		arg_5_0:emit(BossRushAlvitMediator.GO_SUBLAYER, Context.New({
 			mediator = ChildishnessSchoolTaskMediator,
 			viewComponent = ChildishnessSchoolTaskPage
 		}))
 	end, SFX_PANEL)
-	onButton(arg_6_0, arg_6_0._tf:Find("Battle/Story"), function()
-		arg_6_0:SetDisplayMode(var_0_0.DISPLAY.STORY)
+	onButton(arg_5_0, arg_5_0._tf:Find("Battle/Story"), function()
+		arg_5_0:SetDisplayMode(var_0_0.DISPLAY.STORY)
 	end, SFX_PANEL)
-	onButton(arg_6_0, arg_6_0._tf:Find("Story/Battle"), function()
-		arg_6_0:SetDisplayMode(var_0_0.DISPLAY.BATTLE)
+	onButton(arg_5_0, arg_5_0._tf:Find("Story/Battle"), function()
+		arg_5_0:SetDisplayMode(var_0_0.DISPLAY.BATTLE)
 	end, SFX_PANEL)
 
-	local var_6_0 = arg_6_0.activity:getConfig("config_client").storys
+	local var_5_0 = arg_5_0.activity:getConfig("config_client").storys or {}
 
-	arg_6_0.storyNodesDict = {}
+	arg_5_0.storyNodesDict = {}
 
-	_.each(var_6_0, function(arg_14_0)
-		arg_6_0.storyNodesDict[arg_14_0] = BossRushStoryNode.New({
-			id = arg_14_0
+	_.each(var_5_0, function(arg_13_0)
+		arg_5_0.storyNodesDict[arg_13_0] = BossRushStoryNode.New({
+			id = arg_13_0
 		})
 	end)
-	arg_6_0:UpdateStoryTask()
+	arg_5_0:UpdateStoryTask()
 
-	local var_6_1 = arg_6_0.contextData.displayMode or BossRushAlvitScene.DISPLAY.BATTLE
+	local var_5_1 = arg_5_0.contextData.displayMode or BossRushAlvitScene.DISPLAY.BATTLE
 
-	arg_6_0.contextData.displayMode = nil
+	arg_5_0.contextData.displayMode = nil
 
-	arg_6_0:SetDisplayMode(var_6_1)
+	arg_5_0:SetDisplayMode(var_5_1)
 end
 
-function var_0_0.getBGM(arg_15_0)
-	local var_15_0 = pg.voice_bgm[arg_15_0.__cname]
+function var_0_0.getBGM(arg_14_0)
+	local var_14_0 = pg.voice_bgm[arg_14_0.__cname]
 
-	if not var_15_0 then
+	if not var_14_0 then
 		return nil
 	end
 
-	local var_15_1 = var_15_0.bgm
-	local var_15_2 = "story-richang-11"
-	local var_15_3 = arg_15_0.contextData.displayMode
+	local var_14_1 = var_14_0.bgm
+	local var_14_2 = "story-richang-11"
+	local var_14_3 = arg_14_0.contextData.displayMode
 
-	if var_15_3 == var_0_0.DISPLAY.BATTLE then
-		return var_15_1
-	elseif var_15_3 == var_0_0.DISPLAY.STORY then
-		return var_15_2
+	if var_14_3 == var_0_0.DISPLAY.BATTLE then
+		return var_14_1
+	elseif var_14_3 == var_0_0.DISPLAY.STORY then
+		return var_14_2
 	end
 end
 
-function var_0_0.SetDisplayMode(arg_16_0, arg_16_1)
-	if arg_16_1 == arg_16_0.contextData.displayMode then
+function var_0_0.SetDisplayMode(arg_15_0, arg_15_1)
+	if arg_15_1 == arg_15_0.contextData.displayMode then
 		return
 	end
 
-	arg_16_0.contextData.displayMode = arg_16_1
+	arg_15_0.contextData.displayMode = arg_15_1
 
-	arg_16_0:PlayBGM()
-	arg_16_0:UpdateView()
+	arg_15_0:PlayBGM()
+	arg_15_0:UpdateView()
 end
 
-function var_0_0.UpdateView(arg_17_0)
-	local var_17_0 = arg_17_0.contextData.displayMode == var_0_0.DISPLAY.BATTLE
+function var_0_0.UpdateView(arg_16_0)
+	local var_16_0 = arg_16_0.contextData.displayMode == var_0_0.DISPLAY.BATTLE
 
-	setActive(arg_17_0._tf:Find("Battle"), var_17_0)
-	setActive(arg_17_0._tf:Find("Story"), not var_17_0)
-	arg_17_0:UpdateBattle()
+	setActive(arg_16_0._tf:Find("Battle"), var_16_0)
+	setActive(arg_16_0._tf:Find("Story"), not var_16_0)
+	arg_16_0:UpdateBattle()
 
-	if not var_17_0 then
-		arg_17_0:UpdateStory()
+	if not var_16_0 then
+		arg_16_0:UpdateStory()
 	end
 
-	arg_17_0:UpdateTaskTip()
+	arg_16_0:UpdateTaskTip()
 
-	local var_17_1 = arg_17_0.contextData.displayMode
+	local var_16_1 = arg_16_0.contextData.displayMode
 
-	arg_17_0:addbubbleMsgBoxList({
-		function(arg_18_0)
-			local var_18_0
+	arg_16_0:addbubbleMsgBoxList({
+		function(arg_17_0)
+			local var_17_0
 
-			if var_17_1 == var_0_0.DISPLAY.BATTLE then
-				var_18_0 = arg_17_0.activity:getConfig("config_client").openActivityStory
-			elseif var_17_1 == var_0_0.DISPLAY.STORY then
-				var_18_0 = arg_17_0.activity:getConfig("config_client").openStory
+			if var_16_1 == var_0_0.DISPLAY.BATTLE then
+				var_17_0 = arg_16_0.activity:getConfig("config_client").openActivityStory
+			elseif var_16_1 == var_0_0.DISPLAY.STORY then
+				var_17_0 = arg_16_0.activity:getConfig("config_client").openStory
 			end
 
-			arg_17_0:PlayStory(var_18_0, arg_18_0)
+			arg_16_0:PlayStory(var_17_0, arg_17_0)
 		end,
-		function(arg_19_0)
-			if underscore.all(underscore.values(arg_17_0.storyNodesDict), function(arg_20_0)
-				return arg_20_0:IsReaded()
-			end) and arg_17_0.storyTask and arg_17_0.storyTask:getTaskStatus() == 2 then
-				local var_19_0 = arg_17_0.activity:getConfig("config_client").endStory
+		function(arg_18_0)
+			if underscore.all(underscore.values(arg_16_0.storyNodesDict), function(arg_19_0)
+				return arg_19_0:IsReaded()
+			end) and arg_16_0.storyTask and arg_16_0.storyTask:getTaskStatus() == 2 then
+				local var_18_0 = arg_16_0.activity:getConfig("config_client").endStory
 
-				arg_17_0:PlayStory(var_19_0, function(arg_21_0)
-					arg_19_0()
+				arg_16_0:PlayStory(var_18_0, function(arg_20_0)
+					arg_18_0()
 
-					if arg_21_0 then
-						arg_17_0:UpdateView()
+					if arg_20_0 then
+						arg_16_0:UpdateView()
 					end
 				end)
 
 				return
 			end
 
-			arg_19_0()
+			arg_18_0()
 		end
 	})
 end
 
-function var_0_0.UpdateBattle(arg_22_0)
-	local var_22_0 = arg_22_0.activity
-	local var_22_1 = var_22_0:GetActiveSeriesIds()
+function var_0_0.UpdateBattle(arg_21_0)
+	local var_21_0 = arg_21_0.activity
+	local var_21_1 = var_21_0:GetActiveSeriesIds()
 
-	table.Foreach(arg_22_0.seriesNodes, function(arg_23_0, arg_23_1)
-		local var_23_0 = var_22_1[arg_23_0]
-		local var_23_1 = BossRushSeriesData.New({
-			id = var_23_0,
-			actId = var_22_0.id
+	table.Foreach(arg_21_0.seriesNodes, function(arg_22_0, arg_22_1)
+		local var_22_0 = var_21_1[arg_22_0]
+		local var_22_1 = BossRushSeriesData.New({
+			id = var_22_0,
+			actId = var_21_0.id
 		})
-		local var_23_2 = var_23_1:IsUnlock(var_22_0)
+		local var_22_2 = var_22_1:IsUnlock(var_21_0)
 
-		setActive(arg_23_1, var_23_2)
+		setActive(arg_22_1, var_22_2)
 
-		local var_23_3 = var_23_1:GetType() == BossRushSeriesData.TYPE.SP
-		local var_23_4 = true
+		local var_22_3 = var_22_1:GetType() == BossRushSeriesData.TYPE.SP
+		local var_22_4 = true
 
-		if var_23_3 then
-			local var_23_5 = var_22_0:GetUsedBonus()[arg_23_0] or 0
-			local var_23_6 = var_23_1:GetMaxBonusCount()
+		if var_22_3 then
+			local var_22_5 = var_21_0:GetUsedBonus()[arg_22_0] or 0
+			local var_22_6 = var_22_1:GetMaxBonusCount()
 
-			setText(arg_23_1:Find("count/Text"), i18n("series_enemy_SP_count") .. math.max(0, var_23_6 - var_23_5) .. "/" .. var_23_6)
+			setText(arg_22_1:Find("count/Text"), i18n("series_enemy_SP_count") .. math.max(0, var_22_6 - var_22_5) .. "/" .. var_22_6)
 
-			var_23_4 = var_23_6 - var_23_5 > 0
+			var_22_4 = var_22_6 - var_22_5 > 0
 		end
 
-		local function var_23_7()
-			if not var_23_2 then
-				local var_24_0 = var_23_1:GetPreSeriesId()
-				local var_24_1 = BossRushSeriesData.New({
-					id = var_24_0
+		local function var_22_7()
+			if not var_22_2 then
+				local var_23_0 = var_22_1:GetPreSeriesId()
+				local var_23_1 = BossRushSeriesData.New({
+					id = var_23_0
 				})
 
-				pg.TipsMgr.GetInstance():ShowTips(i18n("series_enemy_unlock", var_24_1:GetName()))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("series_enemy_unlock", var_23_1:GetName()))
 
 				return
 			end
 
-			if not var_23_4 then
+			if not var_22_4 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("series_enemy_SP_error"))
 
 				return
 			end
 
-			arg_22_0:emit(BossRushAlvitMediator.ON_FLEET_SELECT, var_23_1)
+			arg_21_0:emit(BossRushAlvitMediator.ON_FLEET_SELECT, var_22_1)
 		end
 
-		onButton(arg_22_0, arg_23_1:Find("icon"), function()
-			var_23_7()
+		onButton(arg_21_0, arg_22_1:Find("icon"), function()
+			var_22_7()
 		end, SFX_PANEL)
-		onButton(arg_22_0, arg_23_1:Find("text"), function()
-			var_23_7()
+		onButton(arg_21_0, arg_22_1:Find("text"), function()
+			var_22_7()
 		end, SFX_PANEL)
 	end)
-	setText(arg_22_0.ptText, arg_22_0.ptActivity.data1)
-	setActive(arg_22_0.ptTip, Activity.IsActivityReady(arg_22_0.ptActivity))
-	setActive(arg_22_0._tf:Find("Battle/Story/new"), arg_22_0.storyTask and arg_22_0.storyTask:getTaskStatus() ~= 2)
+	setText(arg_21_0.ptText, arg_21_0.ptActivity.data1)
+	arg_21_0:UpdateTpTip()
+	setActive(arg_21_0._tf:Find("Battle/Story/new"), arg_21_0.storyTask and arg_21_0.storyTask:getTaskStatus() ~= 2)
+end
+
+function var_0_0.UpdateTpTip(arg_26_0)
+	setActive(arg_26_0.ptTip, Activity.IsActivityReady(arg_26_0.ptActivity))
 end
 
 function var_0_0.UpdateStory(arg_27_0)

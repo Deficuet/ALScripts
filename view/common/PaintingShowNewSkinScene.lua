@@ -14,6 +14,8 @@ function var_0_0.closeView(arg_2_0)
 		return
 	end
 
+	arg_2_0:ClearPainting()
+
 	if not arg_2_0.skinLayerAdded then
 		arg_2_0.skinLayerAdded = true
 

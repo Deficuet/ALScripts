@@ -7,6 +7,22 @@ var_0_0.word_legal_template_14 = {}
 local var_0_1 = var_0_0.word_legal_template_14
 
 function temp()
+	var_0_1.摩 = {
+		尔 = {
+			曼 = {
+				斯 = {
+					克 = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.红 = {
 		色 = {
 			山 = {
@@ -478,34 +494,6 @@ function temp()
 				撒 = {
 					塔 = {
 						琳 = {
-							· = {
-								戴 = {
-									比 = {
-										路 = {
-											克 = {
-												this = true
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.梦 = {
-		梦 = {
-			· = {
-				贝 = {
-					莉 = {
-						雅 = {
 							· = {
 								戴 = {
 									比 = {

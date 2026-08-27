@@ -72,6 +72,7 @@ pg.dorm3d_furniture_template.all = {
 	1461,
 	1462,
 	1463,
+	1468,
 	2101,
 	2102,
 	2103,
@@ -164,7 +165,8 @@ pg.dorm3d_furniture_template.get_id_list_by_room_id = {
 		1415,
 		1461,
 		1462,
-		1463
+		1463,
+		1468
 	},
 	[21] = {
 		2101,
@@ -1913,7 +1915,7 @@ pg.base.dorm3d_furniture_template = {}
 		acesses = "",
 		model = "Pay_Aijierhostel/pre_db_aijier_bed01",
 		id = 1461,
-		is_exclusive = 0,
+		is_exclusive = 1,
 		target_slots = {
 			1140101
 		},
@@ -1947,7 +1949,7 @@ pg.base.dorm3d_furniture_template = {}
 		acesses = "",
 		model = "Pay_Aijierhostel/pre_db_aijier_study01",
 		id = 1462,
-		is_exclusive = 0,
+		is_exclusive = 1,
 		target_slots = {
 			1140201
 		},
@@ -1981,7 +1983,7 @@ pg.base.dorm3d_furniture_template = {}
 		acesses = "",
 		model = "Pay_Aijierhostel/pre_db_aijier_living01",
 		id = 1463,
-		is_exclusive = 0,
+		is_exclusive = 1,
 		target_slots = {
 			1140301
 		},
@@ -2002,6 +2004,40 @@ pg.base.dorm3d_furniture_template = {}
 		},
 		scene_hides = {
 			"no_bake_pay_prop/livingroom"
+		}
+	}
+	pg.base.dorm3d_furniture_template[1468] = {
+		name = "悸动一刻",
+		rarity = 5,
+		is_special = 1,
+		type = 99,
+		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture4",
+		room_id = 14,
+		desc = "奢华与诱惑，浪漫与激情，感受那波涛汹涌下的悸动吧。",
+		acesses = "",
+		model = "Pay_Aijierhostel/pre_db_aijier_special01",
+		id = 1468,
+		is_exclusive = 1,
+		target_slots = {
+			1140104
+		},
+		touch_id = {
+			{
+				49905,
+				4990570
+			}
+		},
+		shop_id = {
+			270604
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1468"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/entertainment"
 		}
 	}
 	pg.base.dorm3d_furniture_template[2101] = {

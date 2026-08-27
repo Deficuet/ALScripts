@@ -316,108 +316,123 @@ function var_0_0.UpdateMapItem(arg_17_0, arg_17_1, arg_17_2)
 	local var_17_14 = findTF(var_17_1, "circle/narrative")
 
 	setText(findTF(var_17_14, "Text"), i18n("tag_level_narrative"))
+
+	local var_17_15 = findTF(var_17_1, "circle/auto")
+
+	setText(findTF(var_17_15, "Text"), i18n("tag_level_autoing"))
 	setActive(var_17_12, false)
 	setActive(var_17_13, false)
 	setActive(var_17_14, false)
+	setActive(var_17_15, false)
 
-	local var_17_15
 	local var_17_16
+	local var_17_17
 
 	if arg_17_2:getConfig("chapter_tag") == 1 then
-		var_17_15 = var_17_14
+		var_17_16 = var_17_14
 	end
 
 	if arg_17_2.active then
-		var_17_15 = arg_17_2:existOni() and var_17_13 or var_17_12
+		var_17_16 = arg_17_2:existOni() and var_17_13 or var_17_12
 	end
 
-	if var_17_15 then
-		setActive(var_17_15, true)
+	local var_17_18 = getProxy(ChapterProxy):GetAutoChapterId()
 
-		local var_17_17 = GetOrAddComponent(var_17_15, "CanvasGroup")
+	if var_17_18 and var_17_18 == arg_17_2.id then
+		var_17_16 = var_17_15
 
-		var_17_17.alpha = 1
+		local var_17_19, var_17_20 = getProxy(ChapterAutoProxy):GetCntInfo()
 
-		arg_17_0:RecordTween("fighting" .. arg_17_2.id, LeanTween.alphaCanvas(var_17_17, 0, 0.5):setFrom(1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong().uniqueId)
+		setText(findTF(var_17_15, "Text"), var_17_19 < var_17_20 and i18n("tag_level_autoing") or i18n("tag_level_auto_finish"))
 	end
 
-	local var_17_18 = findTF(var_17_1, "triesLimit")
+	if var_17_16 then
+		setActive(var_17_16, true)
 
-	setActive(var_17_18, false)
+		local var_17_21 = GetOrAddComponent(var_17_16, "CanvasGroup")
+
+		var_17_21.alpha = 1
+
+		arg_17_0:RecordTween("fighting" .. arg_17_2.id, LeanTween.alphaCanvas(var_17_21, 0, 0.5):setFrom(1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong().uniqueId)
+	end
+
+	local var_17_22 = findTF(var_17_1, "triesLimit")
+
+	setActive(var_17_22, false)
 
 	if arg_17_2:isTriesLimit() then
-		local var_17_19 = arg_17_2:getConfig("count")
-		local var_17_20 = var_17_19 - arg_17_2:getTodayDefeatCount() .. "/" .. var_17_19
+		local var_17_23 = arg_17_2:getConfig("count")
+		local var_17_24 = var_17_23 - arg_17_2:getTodayDefeatCount() .. "/" .. var_17_23
 
-		setText(var_17_18:Find("label"), i18n("levelScene_chapter_count_tip"))
-		setText(var_17_18:Find("Text"), setColorStr(var_17_20, var_17_19 <= arg_17_2:getTodayDefeatCount() and COLOR_RED or COLOR_GREEN))
+		setText(var_17_22:Find("label"), i18n("levelScene_chapter_count_tip"))
+		setText(var_17_22:Find("Text"), setColorStr(var_17_24, var_17_23 <= arg_17_2:getTodayDefeatCount() and COLOR_RED or COLOR_GREEN))
 
-		local var_17_21 = pg.expedition_data_by_map[arg_17_2:getConfig("map")].on_activity
-		local var_17_22 = getProxy(ChapterProxy):IsActivitySPChapterActive(var_17_21) and SettingsProxy.IsShowActivityMapSPTip()
+		local var_17_25 = pg.expedition_data_by_map[arg_17_2:getConfig("map")].on_activity
+		local var_17_26 = getProxy(ChapterProxy):IsActivitySPChapterActive(var_17_25) and SettingsProxy.IsShowActivityMapSPTip()
 
-		setActive(var_17_18:Find("TipRect"), var_17_22)
+		setActive(var_17_22:Find("TipRect"), var_17_26)
 	end
 
-	local var_17_23 = arg_17_2:GetDailyBonusQuota()
-	local var_17_24 = findTF(var_17_1, "mark")
-	local var_17_25 = var_17_24:Find("bonus")
-	local var_17_26 = var_17_25:Find("icon")
-	local var_17_27 = findTF(var_17_25, "icon/Image")
+	local var_17_27 = arg_17_2:GetDailyBonusQuota()
+	local var_17_28 = findTF(var_17_1, "mark")
+	local var_17_29 = var_17_28:Find("bonus")
+	local var_17_30 = var_17_29:Find("icon")
+	local var_17_31 = findTF(var_17_29, "icon/Image")
 
-	setActive(var_17_25, var_17_23)
-	setActive(var_17_24, var_17_23)
+	setActive(var_17_29, var_17_27)
+	setActive(var_17_28, var_17_27)
 
-	if var_17_26 then
-		setActive(var_17_26, var_17_23 and arg_17_0.bonusPtIconPath)
+	if var_17_30 then
+		setActive(var_17_30, var_17_27 and arg_17_0.bonusPtIconPath)
 	end
 
-	if var_17_23 then
-		local var_17_28 = var_17_24:GetComponent(typeof(CanvasGroup))
-		local var_17_29 = arg_17_2:GetDailyBonusIconName()
+	if var_17_27 then
+		local var_17_32 = var_17_28:GetComponent(typeof(CanvasGroup))
+		local var_17_33 = arg_17_2:GetDailyBonusIconName()
 
-		arg_17_0.sceneParent.loader:GetSprite("ui/levelmainscene_atlas", var_17_29, var_17_25)
+		arg_17_0.sceneParent.loader:GetSprite("ui/levelmainscene_atlas", var_17_33, var_17_29)
 
-		if var_17_26 and arg_17_0.bonusPtIconPath then
-			if var_17_27 then
-				GetImageSpriteFromAtlasAsync(arg_17_0.bonusPtIconPath, "", var_17_27, true)
+		if var_17_30 and arg_17_0.bonusPtIconPath then
+			if var_17_31 then
+				GetImageSpriteFromAtlasAsync(arg_17_0.bonusPtIconPath, "", var_17_31, true)
 			else
-				GetImageSpriteFromAtlasAsync(arg_17_0.bonusPtIconPath, "", var_17_26, true)
+				GetImageSpriteFromAtlasAsync(arg_17_0.bonusPtIconPath, "", var_17_30, true)
 			end
 		end
 
-		LeanTween.cancel(go(var_17_24), true)
+		LeanTween.cancel(go(var_17_28), true)
 
-		local var_17_30 = var_17_24.anchoredPosition.y
+		local var_17_34 = var_17_28.anchoredPosition.y
 
-		var_17_28.alpha = 0
+		var_17_32.alpha = 0
 
-		LeanTween.value(go(var_17_24), 0, 1, 0.2):setOnUpdate(System.Action_float(function(arg_18_0)
-			var_17_28.alpha = arg_18_0
+		LeanTween.value(go(var_17_28), 0, 1, 0.2):setOnUpdate(System.Action_float(function(arg_18_0)
+			var_17_32.alpha = arg_18_0
 
-			local var_18_0 = var_17_24.anchoredPosition
+			local var_18_0 = var_17_28.anchoredPosition
 
-			var_18_0.y = var_17_30 * arg_18_0
-			var_17_24.anchoredPosition = var_18_0
+			var_18_0.y = var_17_34 * arg_18_0
+			var_17_28.anchoredPosition = var_18_0
 		end)):setOnComplete(System.Action(function()
-			var_17_28.alpha = 1
+			var_17_32.alpha = 1
 
-			local var_19_0 = var_17_24.anchoredPosition
+			local var_19_0 = var_17_28.anchoredPosition
 
-			var_19_0.y = var_17_30
-			var_17_24.anchoredPosition = var_19_0
+			var_19_0.y = var_17_34
+			var_17_28.anchoredPosition = var_19_0
 		end)):setEase(LeanTweenType.easeOutSine):setDelay(0.7)
 	end
 
-	local var_17_31 = arg_17_2.id
+	local var_17_35 = arg_17_2.id
 
 	onButton(arg_17_0, var_17_1, function()
-		if arg_17_0.chaptersInBackAnimating[var_17_31] then
+		if arg_17_0.chaptersInBackAnimating[var_17_35] then
 			return
 		end
 
 		local var_20_0 = arg_17_1.localPosition
 
-		arg_17_0:TryOpenChapterInfo(var_17_31, Vector3(var_20_0.x - 10, var_20_0.y + 150))
+		arg_17_0:TryOpenChapterInfo(var_17_35, Vector3(var_20_0.x - 10, var_20_0.y + 150))
 	end, SFX_UI_WEIGHANCHOR_SELECT)
 end
 

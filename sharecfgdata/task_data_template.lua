@@ -43865,6 +43865,60 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[7211] = {
+		name = "完成7个任意每日任务",
+		guild_coin_award = 0,
+		award = 7211,
+		type = 3,
+		desc = "完成7个任意每日任务",
+		count_inherit = 0,
+		sub_type = 90,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 15,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 7211,
+		target_num = 7,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7201,
+			7202,
+			7203,
+			7204,
+			7205,
+			7206,
+			7207,
+			7208,
+			7209,
+			7210
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				68700,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[7301] = {
 		name = "军事委托-奖励任务",
 		guild_coin_award = 0,
@@ -244916,6 +244970,282 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[27411] = {
+		name = "『天津风共斗』挑战券任务1",
+		guild_coin_award = 0,
+		award = 910601,
+		type = 36,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27411,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2027,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27412] = {
+		name = "『天津风共斗』挑战券任务2",
+		guild_coin_award = 0,
+		award = 910602,
+		type = 36,
+		desc = "通关1次任意困难关卡",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27412,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2027,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27413] = {
+		name = "『天津风共斗』挑战券任务3",
+		guild_coin_award = 0,
+		award = 910603,
+		type = 36,
+		desc = "通关3次任意困难关卡",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27413,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2027,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27414] = {
+		name = "『天津风共斗』挑战券任务4",
+		guild_coin_award = 0,
+		award = 910604,
+		type = 36,
+		desc = "通关5次「“大人物”的预告信」任意难度关卡",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27414,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2059001,
+			2059002,
+			2059003,
+			2059004,
+			2059005
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2027,
+				1
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27415] = {
+		name = "『天津风共斗』挑战券任务5",
+		guild_coin_award = 0,
+		award = 910605,
+		type = 36,
+		desc = "通关10次「“大人物”的预告信」任意难度关卡",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27415,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2059001,
+			2059002,
+			2059003,
+			2059004,
+			2059005
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2027,
+				1
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27416] = {
+		name = "『天津风共斗』通关挑战关卡",
+		guild_coin_award = 0,
+		award = 910606,
+		type = 6,
+		desc = "通关1次「“大人物”的预告信」特殊挑战关卡",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2059005",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 27416,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE"
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[25701] = {
 		name = "『本宁顿活动』纪念任务1（只送勋章）",
 		guild_coin_award = 0,
@@ -250479,6 +250809,307 @@ end)()
 			{
 				mapIdx = 2040001,
 				displayMode = 2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27400] = {
+		name = "『20260625』宿舍活跃任务1",
+		guild_coin_award = 0,
+		award = 1700500,
+		type = 26,
+		desc = "舰队出征，获得15次胜利",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27400,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				27,
+				7990261,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27401] = {
+		name = "『20260625』宿舍活跃任务2",
+		guild_coin_award = 0,
+		award = 1700501,
+		type = 26,
+		desc = "通关3次任意困难关卡 ",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27401,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				27,
+				7990261,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27402] = {
+		name = "『20260625』宿舍活跃任务3",
+		guild_coin_award = 0,
+		award = 1700502,
+		type = 26,
+		desc = "完成3次每日挑战",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27402,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				27,
+				7990261,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27403] = {
+		name = "『20260625』宿舍活跃任务4",
+		guild_coin_award = 0,
+		award = 1700503,
+		type = 26,
+		desc = "击沉任意敌人20艘",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27403,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				27,
+				7990261,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27404] = {
+		name = "『20260625』宿舍活跃任务5",
+		guild_coin_award = 0,
+		award = 1700504,
+		type = 26,
+		desc = "进行2次战术训练",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27404,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				27,
+				7990261,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27405] = {
+		name = "『20260625』宿舍活跃任务6",
+		guild_coin_award = 0,
+		award = 1700505,
+		type = 26,
+		desc = "完成军事委托2次",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27405,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				27,
+				7990261,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[27406] = {
+		name = "『20260625』宿舍活跃任务7",
+		guild_coin_award = 0,
+		award = 1700506,
+		type = 26,
+		desc = "舰队出征，消灭敌方旗舰3次",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 27406,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				27,
+				7990261,
+				2
 			}
 		}
 	}
@@ -256343,307 +256974,6 @@ end)()
 			{
 				2,
 				65119,
-				2
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[27400] = {
-		name = "『20260625』宿舍活跃任务1",
-		guild_coin_award = 0,
-		award = 1700500,
-		type = 26,
-		desc = "舰队出征，获得15次胜利",
-		count_inherit = 0,
-		sub_type = 20,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 0,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 0,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		story_id = "",
-		priority_type = 0,
-		ryza_icon = "",
-		fix_task = 0,
-		next_task = "0",
-		auto_commit = 0,
-		story_icon_shift = "",
-		target_id = "0",
-		scene = "",
-		tutorial_handbook_pic = "",
-		id = 27400,
-		target_num = 15,
-		activity_client_config = "",
-		added_tip = 0,
-		open_need = {},
-		award_display = {
-			{
-				27,
-				7990261,
-				1
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[27401] = {
-		name = "『20260625』宿舍活跃任务2",
-		guild_coin_award = 0,
-		award = 1700501,
-		type = 26,
-		desc = "通关3次任意困难关卡 ",
-		count_inherit = 0,
-		sub_type = 182,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 0,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 0,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		story_id = "",
-		priority_type = 0,
-		ryza_icon = "",
-		fix_task = 0,
-		next_task = "0",
-		auto_commit = 0,
-		story_icon_shift = "",
-		target_id = "10101",
-		scene = "",
-		tutorial_handbook_pic = "",
-		id = 27401,
-		target_num = 3,
-		activity_client_config = "",
-		added_tip = 0,
-		open_need = {},
-		award_display = {
-			{
-				27,
-				7990261,
-				1
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[27402] = {
-		name = "『20260625』宿舍活跃任务3",
-		guild_coin_award = 0,
-		award = 1700502,
-		type = 26,
-		desc = "完成3次每日挑战",
-		count_inherit = 0,
-		sub_type = 26,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 0,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 0,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		story_id = "",
-		priority_type = 0,
-		ryza_icon = "",
-		fix_task = 0,
-		next_task = "0",
-		auto_commit = 0,
-		story_icon_shift = "",
-		target_id = "0",
-		scene = "",
-		tutorial_handbook_pic = "",
-		id = 27402,
-		target_num = 3,
-		activity_client_config = "",
-		added_tip = 0,
-		open_need = {},
-		award_display = {
-			{
-				27,
-				7990261,
-				1
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[27403] = {
-		name = "『20260625』宿舍活跃任务4",
-		guild_coin_award = 0,
-		award = 1700503,
-		type = 26,
-		desc = "击沉任意敌人20艘",
-		count_inherit = 0,
-		sub_type = 11,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 0,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 0,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		story_id = "",
-		priority_type = 0,
-		ryza_icon = "",
-		fix_task = 0,
-		next_task = "0",
-		auto_commit = 0,
-		story_icon_shift = "",
-		target_id = "0",
-		scene = "",
-		tutorial_handbook_pic = "",
-		id = 27403,
-		target_num = 20,
-		activity_client_config = "",
-		added_tip = 0,
-		open_need = {},
-		award_display = {
-			{
-				27,
-				7990261,
-				1
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[27404] = {
-		name = "『20260625』宿舍活跃任务5",
-		guild_coin_award = 0,
-		award = 1700504,
-		type = 26,
-		desc = "进行2次战术训练",
-		count_inherit = 0,
-		sub_type = 71,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 0,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 0,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		story_id = "",
-		priority_type = 0,
-		ryza_icon = "",
-		fix_task = 0,
-		next_task = "0",
-		auto_commit = 0,
-		story_icon_shift = "",
-		target_id = "0",
-		scene = "",
-		tutorial_handbook_pic = "",
-		id = 27404,
-		target_num = 2,
-		activity_client_config = "",
-		added_tip = 0,
-		open_need = {},
-		award_display = {
-			{
-				27,
-				7990261,
-				1
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[27405] = {
-		name = "『20260625』宿舍活跃任务6",
-		guild_coin_award = 0,
-		award = 1700505,
-		type = 26,
-		desc = "完成军事委托2次",
-		count_inherit = 0,
-		sub_type = 80,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 0,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 0,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		story_id = "",
-		priority_type = 0,
-		ryza_icon = "",
-		fix_task = 0,
-		next_task = "0",
-		auto_commit = 0,
-		story_icon_shift = "",
-		target_id = "0",
-		scene = "",
-		tutorial_handbook_pic = "",
-		id = 27405,
-		target_num = 2,
-		activity_client_config = "",
-		added_tip = 0,
-		open_need = {},
-		award_display = {
-			{
-				27,
-				7990261,
-				1
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.task_data_template[27406] = {
-		name = "『20260625』宿舍活跃任务7",
-		guild_coin_award = 0,
-		award = 1700506,
-		type = 26,
-		desc = "舰队出征，消灭敌方旗舰3次",
-		count_inherit = 0,
-		sub_type = 21,
-		target_id_2 = "",
-		story_icon = "",
-		is_head = 0,
-		task_fold = 0,
-		award_choice = "",
-		visibility = 0,
-		ryza_type = 0,
-		quick_finish = 0,
-		level = 1,
-		story_id = "",
-		priority_type = 0,
-		ryza_icon = "",
-		fix_task = 0,
-		next_task = "0",
-		auto_commit = 0,
-		story_icon_shift = "",
-		target_id = "0",
-		scene = "",
-		tutorial_handbook_pic = "",
-		id = 27406,
-		target_num = 3,
-		activity_client_config = "",
-		added_tip = 0,
-		open_need = {},
-		award_display = {
-			{
-				27,
-				7990261,
 				2
 			}
 		}

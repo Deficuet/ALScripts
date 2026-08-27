@@ -2,6 +2,8 @@ local var_0_0 = class("SpinePaintingConst")
 
 var_0_0.drag_type_normal = 1
 var_0_0.drag_type_list = 3
+var_0_0.painting_lit_value = 0.5
+var_0_0.painting_lit_setting = false
 var_0_0.ship_drag_datas = {
 	gaoxiong_6 = {
 		multiple_face = {},
@@ -1919,6 +1921,45 @@ var_0_0.ship_drag_datas = {
 					action = "drag_ex",
 					is_default = false,
 					hit = "drag_ex"
+				}
+			}
+		}
+	},
+	tianjinfeng_2 = {
+		multiple_face = {},
+		hit_area = {
+			"drag"
+		},
+		action_enable = {
+			{
+				name = "normal",
+				ignore = {}
+			},
+			{
+				name = "drag",
+				ignore = {
+					"touch_body",
+					"touch_head",
+					"change_out"
+				}
+			}
+		},
+		drag_data = {
+			type = var_0_0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "ex",
+					click = false,
+					action = "drag",
+					idle = "normal",
+					is_default = true
+				},
+				{
+					change_idle = "normal",
+					click = false,
+					action = "drag_ex",
+					idle = "ex",
+					is_default = false
 				}
 			}
 		}

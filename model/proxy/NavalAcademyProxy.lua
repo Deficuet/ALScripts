@@ -358,104 +358,111 @@ function var_0_0.AddCourseProficiency(arg_35_0, arg_35_1)
 	arg_35_0:setCourse(var_35_0)
 end
 
-function var_0_0.fillStudens(arg_36_0, arg_36_1)
-	local var_36_0 = pg.gameset.academy_random_ship_count.key_value
-	local var_36_1 = {}
+function var_0_0.AddProficiency(arg_36_0, arg_36_1)
+	local var_36_0 = arg_36_0:getCourse()
 
-	for iter_36_0, iter_36_1 in pairs(arg_36_1) do
-		var_36_1[iter_36_1.groupId] = true
-		var_36_0 = var_36_0 - 1
-	end
-
-	local var_36_2 = pg.gameset.academy_random_ship_coldtime.key_value
-
-	if not arg_36_0._timeStamp or var_36_2 < os.time() - arg_36_0._timeStamp then
-		arg_36_0._studentsFiller = nil
-	end
-
-	if not arg_36_0._studentsFiller then
-		local var_36_3 = math.random(1, var_36_0)
-
-		arg_36_0._timeStamp = os.time()
-		arg_36_0._studentsFiller = {}
-
-		local var_36_4 = getProxy(CollectionProxy):getGroups()
-		local var_36_5 = getProxy(BayProxy)
-		local var_36_6 = getProxy(ShipSkinProxy):getSkinList()
-		local var_36_7 = {}
-
-		for iter_36_2, iter_36_3 in pairs(var_36_4) do
-			if not table.contains(var_36_1, iter_36_2) then
-				var_36_7[#var_36_7 + 1] = iter_36_2
-			end
-		end
-
-		local var_36_8 = #var_36_7
-
-		while var_36_3 > 0 and var_36_8 > 0 do
-			local var_36_9 = math.random(#var_36_7)
-			local var_36_10 = var_36_7[var_36_9]
-			local var_36_11 = var_36_4[var_36_10]
-			local var_36_12 = var_36_10 * 10 + 1
-			local var_36_13 = 10000000000 + var_36_12
-			local var_36_14 = ShipGroup.getSkinList(var_36_10)
-			local var_36_15 = {}
-			local var_36_16
-			local var_36_17 = {}
-
-			for iter_36_4, iter_36_5 in ipairs(var_36_14) do
-				local var_36_18 = iter_36_5.skin_type
-
-				if var_36_18 == ShipSkin.SKIN_TYPE_DEFAULT or table.contains(var_36_6, iter_36_5.id) or var_36_18 == ShipSkin.SKIN_TYPE_REMAKE and var_36_11.trans or var_36_18 == ShipSkin.SKIN_TYPE_PROPOSE and var_36_11.married == 1 then
-					var_36_17[#var_36_17 + 1] = iter_36_5.id
-				end
-
-				var_36_16 = var_36_17[math.random(#var_36_17)]
-			end
-
-			local var_36_19 = {
-				id = var_36_13,
-				groupId = var_36_10,
-				configId = var_36_12,
-				skin_id = var_36_16
-			}
-
-			table.remove(var_36_7, var_36_9)
-
-			var_36_8 = var_36_8 - 1
-			var_36_3 = var_36_3 - 1
-			arg_36_0._studentsFiller[#arg_36_0._studentsFiller + 1] = var_36_19
-		end
-	end
-
-	for iter_36_6, iter_36_7 in ipairs(arg_36_0._studentsFiller) do
-		arg_36_1[#arg_36_1 + 1] = Ship.New(iter_36_7)
-	end
-
-	return arg_36_1
+	var_36_0:SetProficiency(math.min(var_36_0:GetProficiency() + arg_36_1, arg_36_0:GetClassVO():GetMaxProficiency()))
+	arg_36_0:setCourse(var_36_0)
 end
 
-function var_0_0.IsShowTip(arg_37_0)
-	local var_37_0 = getProxy(PlayerProxy)
+function var_0_0.fillStudens(arg_37_0, arg_37_1)
+	local var_37_0 = pg.gameset.academy_random_ship_count.key_value
+	local var_37_1 = {}
 
-	if var_37_0 and var_37_0:getData() and arg_37_0:isResourceFieldUpgradeConditionSatisfy() then
+	for iter_37_0, iter_37_1 in pairs(arg_37_1) do
+		var_37_1[iter_37_1.groupId] = true
+		var_37_0 = var_37_0 - 1
+	end
+
+	local var_37_2 = pg.gameset.academy_random_ship_coldtime.key_value
+
+	if not arg_37_0._timeStamp or var_37_2 < os.time() - arg_37_0._timeStamp then
+		arg_37_0._studentsFiller = nil
+	end
+
+	if not arg_37_0._studentsFiller then
+		local var_37_3 = math.random(1, var_37_0)
+
+		arg_37_0._timeStamp = os.time()
+		arg_37_0._studentsFiller = {}
+
+		local var_37_4 = getProxy(CollectionProxy):getGroups()
+		local var_37_5 = getProxy(BayProxy)
+		local var_37_6 = getProxy(ShipSkinProxy):getSkinList()
+		local var_37_7 = {}
+
+		for iter_37_2, iter_37_3 in pairs(var_37_4) do
+			if not table.contains(var_37_1, iter_37_2) then
+				var_37_7[#var_37_7 + 1] = iter_37_2
+			end
+		end
+
+		local var_37_8 = #var_37_7
+
+		while var_37_3 > 0 and var_37_8 > 0 do
+			local var_37_9 = math.random(#var_37_7)
+			local var_37_10 = var_37_7[var_37_9]
+			local var_37_11 = var_37_4[var_37_10]
+			local var_37_12 = var_37_10 * 10 + 1
+			local var_37_13 = 10000000000 + var_37_12
+			local var_37_14 = ShipGroup.getSkinList(var_37_10)
+			local var_37_15 = {}
+			local var_37_16
+			local var_37_17 = {}
+
+			for iter_37_4, iter_37_5 in ipairs(var_37_14) do
+				local var_37_18 = iter_37_5.skin_type
+
+				if var_37_18 == ShipSkin.SKIN_TYPE_DEFAULT or table.contains(var_37_6, iter_37_5.id) or var_37_18 == ShipSkin.SKIN_TYPE_REMAKE and var_37_11.trans or var_37_18 == ShipSkin.SKIN_TYPE_PROPOSE and var_37_11.married == 1 then
+					var_37_17[#var_37_17 + 1] = iter_37_5.id
+				end
+
+				var_37_16 = var_37_17[math.random(#var_37_17)]
+			end
+
+			local var_37_19 = {
+				id = var_37_13,
+				groupId = var_37_10,
+				configId = var_37_12,
+				skin_id = var_37_16
+			}
+
+			table.remove(var_37_7, var_37_9)
+
+			var_37_8 = var_37_8 - 1
+			var_37_3 = var_37_3 - 1
+			arg_37_0._studentsFiller[#arg_37_0._studentsFiller + 1] = var_37_19
+		end
+	end
+
+	for iter_37_6, iter_37_7 in ipairs(arg_37_0._studentsFiller) do
+		arg_37_1[#arg_37_1 + 1] = Ship.New(iter_37_7)
+	end
+
+	return arg_37_1
+end
+
+function var_0_0.IsShowTip(arg_38_0)
+	local var_38_0 = getProxy(PlayerProxy)
+
+	if var_38_0 and var_38_0:getData() and arg_38_0:isResourceFieldUpgradeConditionSatisfy() then
 		return true
 	end
 
-	local var_37_1 = getProxy(ShopsProxy)
+	local var_38_1 = getProxy(ShopsProxy)
 
-	if var_37_1 then
-		local var_37_2 = var_37_1:getShopStreet()
+	if var_38_1 then
+		local var_38_2 = var_38_1:getShopStreet()
 
-		if var_37_2 and var_37_2:isUpdateGoods() then
+		if var_38_2 and var_38_2:isUpdateGoods() then
 			return true
 		end
 	end
 
-	local var_37_3 = pg.TimeMgr.GetInstance():GetServerTime()
+	local var_38_3 = pg.TimeMgr.GetInstance():GetServerTime()
 
-	for iter_37_0, iter_37_1 in pairs(arg_37_0.students) do
-		if var_37_3 >= iter_37_1:getFinishTime() then
+	for iter_38_0, iter_38_1 in pairs(arg_38_0.students) do
+		if var_38_3 >= iter_38_1:getFinishTime() then
 			return true
 		end
 	end
@@ -464,15 +471,15 @@ function var_0_0.IsShowTip(arg_37_0)
 		return true
 	end
 
-	local var_37_4 = getProxy(TaskProxy)
+	local var_38_4 = getProxy(TaskProxy)
 
-	if _.any(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST), function(arg_38_0)
-		local var_38_0 = arg_38_0:getTaskShip()
-		local var_38_1 = var_38_0 and var_37_4:getAcademyTask(var_38_0.groupId) or nil
-		local var_38_2 = var_37_4:getTaskById(var_38_1)
-		local var_38_3 = var_37_4:getFinishTaskById(var_38_1)
+	if _.any(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST), function(arg_39_0)
+		local var_39_0 = arg_39_0:getTaskShip()
+		local var_39_1 = var_39_0 and var_38_4:getAcademyTask(var_39_0.groupId) or nil
+		local var_39_2 = var_38_4:getTaskById(var_39_1)
+		local var_39_3 = var_38_4:getFinishTaskById(var_39_1)
 
-		return var_38_0 and (var_38_1 and not var_38_2 and not var_38_3 or var_38_2 and var_38_2:isFinish())
+		return var_39_0 and (var_39_1 and not var_39_2 and not var_39_3 or var_39_2 and var_39_2:isFinish())
 	end) then
 		return true
 	end
@@ -480,20 +487,20 @@ function var_0_0.IsShowTip(arg_37_0)
 	return false
 end
 
-function var_0_0.getDailyFinishCnt(arg_39_0)
-	local var_39_0 = _.detect(BuffHelper.GetBuffsByActivityType(ActivityConst.ACTIVITY_TYPE_BUFF), function(arg_40_0)
-		return arg_40_0:getConfig("benefit_type") == "skill_learn_time"
+function var_0_0.getDailyFinishCnt(arg_40_0)
+	local var_40_0 = _.detect(BuffHelper.GetBuffsByActivityType(ActivityConst.ACTIVITY_TYPE_BUFF), function(arg_41_0)
+		return arg_41_0:getConfig("benefit_type") == "skill_learn_time"
 	end)
 
-	return (var_39_0 and tonumber(var_39_0:getConfig("benefit_effect")) or 0) - arg_39_0.dailyFinsihCnt
+	return (var_40_0 and tonumber(var_40_0:getConfig("benefit_effect")) or 0) - arg_40_0.dailyFinsihCnt
 end
 
-function var_0_0.updateUsedDailyFinishCnt(arg_41_0)
-	arg_41_0.dailyFinsihCnt = arg_41_0.dailyFinsihCnt + 1
+function var_0_0.updateUsedDailyFinishCnt(arg_42_0)
+	arg_42_0.dailyFinsihCnt = arg_42_0.dailyFinsihCnt + 1
 end
 
-function var_0_0.resetUsedDailyFinishCnt(arg_42_0)
-	arg_42_0.dailyFinsihCnt = 0
+function var_0_0.resetUsedDailyFinishCnt(arg_43_0)
+	arg_43_0.dailyFinsihCnt = 0
 end
 
 return var_0_0

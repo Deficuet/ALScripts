@@ -7,6 +7,16 @@ var_0_0.word_legal_template_10 = {}
 local var_0_1 = var_0_0.word_legal_template_10
 
 function temp()
+	var_0_1.獒 = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.犬 = {
 		this = {
 			this = true
@@ -382,27 +392,6 @@ function temp()
 			折 = {
 				纸 = {
 					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.凤 = {
-		this = {
-			this = true
-		},
-		· = {
-			M = {
-				E = {
-					T = {
-						A = {
-							this = true
-						}
-					}
 				}
 			}
 		}

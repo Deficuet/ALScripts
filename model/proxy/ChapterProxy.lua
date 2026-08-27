@@ -1323,23 +1323,24 @@ function var_0_0.getRemasterInfo(arg_115_0, arg_115_1, arg_115_2, arg_115_3)
 	return var_115_1
 end
 
-function var_0_0.addRemasterPassCount(arg_116_0, arg_116_1, arg_116_2)
-	local var_116_0 = arg_116_0:getRemasterInfo(arg_116_2, arg_116_1)
+function var_0_0.addRemasterPassCount(arg_116_0, arg_116_1, arg_116_2, arg_116_3)
+	local var_116_0 = arg_116_3 or 1
+	local var_116_1 = arg_116_0:getRemasterInfo(arg_116_2, arg_116_1)
 
-	if not var_116_0 then
+	if not var_116_1 then
 		return
 	end
 
-	local var_116_1
+	local var_116_2
 
-	for iter_116_0, iter_116_1 in pairs(var_116_0) do
+	for iter_116_0, iter_116_1 in pairs(var_116_1) do
 		if iter_116_1.count < iter_116_1.max then
-			iter_116_1.count = iter_116_1.count + 1
-			var_116_1 = true
+			iter_116_1.count = iter_116_1.count + var_116_0
+			var_116_2 = true
 		end
 	end
 
-	if var_116_1 then
+	if var_116_2 then
 		arg_116_0:sendNotification(var_0_0.CHAPTER_REMASTER_INFO_UPDATED)
 	end
 end
@@ -1496,6 +1497,22 @@ function var_0_0.RemoveEliteFleetCommander(arg_130_0, arg_130_1)
 			arg_130_0:updateChapter(iter_130_11)
 		end
 	end
+end
+
+function var_0_0.GetAutoChapterId(arg_131_0)
+	local var_131_0 = getProxy(ChapterAutoProxy):GetCommissionList()
+
+	if #var_131_0 == 0 then
+		return nil
+	end
+
+	local var_131_1 = var_131_0[1]
+
+	if var_131_1.type ~= ChapterAutoProxy.TYPE.SLG then
+		return nil
+	end
+
+	return var_131_1.id
 end
 
 return var_0_0

@@ -73,7 +73,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					8,
-					13
+					27
 				},
 				{
 					0,
@@ -85,7 +85,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					8,
-					19
+					31
 				},
 				{
 					23,
@@ -111,7 +111,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					8,
-					13
+					27
 				},
 				{
 					0,
@@ -122,8 +122,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					8,
-					27
+					9,
+					8
 				},
 				{
 					12,
@@ -135,81 +135,7 @@ pg.base.activity_banner = {}
 	}
 	pg.base.activity_banner[3] = {
 		id = 3,
-		pic = "temp7",
-		type = 2,
-		param = {
-			"scene charge",
-			{
-				wrap = 4
-			}
-		},
-		time = {
-			{
-				{
-					2026,
-					8,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					8,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	}
-	pg.base.activity_banner[4] = {
-		id = 4,
 		pic = "temp3",
-		type = 2,
-		param = {
-			"scene core activity",
-			{
-				coreName = "StarsCityCoreActivityUI"
-			}
-		},
-		time = {
-			{
-				{
-					2026,
-					8,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					8,
-					27
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		}
-	}
-	pg.base.activity_banner[5] = {
-		id = 5,
-		pic = "temp4",
 		type = 2,
 		param = {
 			"scene charge",
@@ -222,7 +148,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					8,
-					13
+					27
 				},
 				{
 					0,
@@ -233,8 +159,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					8,
-					26
+					9,
+					7
 				},
 				{
 					23,
@@ -244,102 +170,31 @@ pg.base.activity_banner = {}
 			}
 		}
 	}
-	pg.base.activity_banner[6] = {
-		id = 6,
-		pic = "temp5",
+	pg.base.activity_banner[4] = {
+		id = 4,
+		pic = "temp4",
 		type = 2,
 		param = {
-			"scene court yard"
+			"act boss battle"
 		},
 		time = {
-			{
-				{
-					2026,
-					8,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					8,
-					26
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	}
-	pg.base.activity_banner[7] = {
-		id = 7,
-		pic = "temp6",
-		type = 2,
-		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
-		},
-		time = {
-			{
-				{
-					2026,
-					8,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					8,
-					26
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	}
-	pg.base.activity_banner[8] = {
-		id = 8,
-		pic = "temp8",
-		type = 2,
-		param = {
-			"crusing"
-		},
-		time = {
-			{
-				{
-					2026,
-					8,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
 			{
 				{
 					2026,
 					8,
 					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					8
 				},
 				{
 					12,
@@ -349,22 +204,52 @@ pg.base.activity_banner = {}
 			}
 		}
 	}
-	pg.base.activity_banner[9] = {
-		id = 9,
-		pic = "temp9",
+	pg.base.activity_banner[5] = {
+		id = 5,
+		pic = "temp5",
+		time = "stop",
 		type = 2,
 		param = {
-			"scene core activity",
+			"scene charge",
 			{
-				coreName = "RapidSeasideCoreActivityUI"
+				wrap = 4
 			}
+		}
+	}
+	pg.base.activity_banner[6] = {
+		id = 6,
+		pic = "temp6",
+		time = "stop",
+		type = 2,
+		param = {
+			"scene court yard"
+		}
+	}
+	pg.base.activity_banner[7] = {
+		id = 7,
+		pic = "temp7",
+		time = "stop",
+		type = 2,
+		param = {
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+	pg.base.activity_banner[8] = {
+		id = 8,
+		pic = "temp8",
+		type = 2,
+		param = {
+			"dorm 3d select"
 		},
 		time = {
 			{
 				{
 					2026,
 					8,
-					13
+					27
 				},
 				{
 					0,
@@ -375,8 +260,46 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
+					9,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[9] = {
+		id = 9,
+		pic = "temp9",
+		type = 2,
+		param = {
+			"scene level",
+			{
+				open_remaster = true,
+				isSP = true
+			}
+		},
+		time = {
+			{
+				{
+					2026,
 					8,
 					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					8
 				},
 				{
 					12,

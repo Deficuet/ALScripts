@@ -1116958,6 +1116958,385 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.expedition_data_template[2059001] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2059001,
+		add_icon = "",
+		bgm = "battle-longgong",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 20,
+		exp = 169,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 150,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2059001,
+		scale = 100,
+		map_id = {
+			{
+				50197,
+				1
+			}
+		},
+		award_display = {
+			{
+				1,
+				2026
+			},
+			{
+				2,
+				200864
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			},
+			{
+				2,
+				50001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			150
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2059002] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2059002,
+		add_icon = "",
+		bgm = "battle-longgong",
+		exp_commander = 1,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 50,
+		exp = 286,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 150,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2059002,
+		scale = 100,
+		map_id = {
+			{
+				50197,
+				1
+			}
+		},
+		award_display = {
+			{
+				1,
+				2026
+			},
+			{
+				2,
+				200865
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54017
+			},
+			{
+				2,
+				50001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			150
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2059003] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2059003,
+		add_icon = "",
+		bgm = "battle-longgong",
+		exp_commander = 2,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 90,
+		exp = 423,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 150,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2059003,
+		scale = 100,
+		map_id = {
+			{
+				50197,
+				1
+			}
+		},
+		award_display = {
+			{
+				1,
+				2026
+			},
+			{
+				2,
+				200866
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54017
+			},
+			{
+				2,
+				50001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			150
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2059004] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		dungeon_id = 2059004,
+		add_icon = "",
+		bgm = "sk-az-battle-boss",
+		exp_commander = 4,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 128,
+		exp = 583,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 150,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2059004,
+		scale = 100,
+		map_id = {
+			{
+				50197,
+				1
+			}
+		},
+		award_display = {
+			{
+				1,
+				2026
+			},
+			{
+				2,
+				200866
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54017
+			},
+			{
+				2,
+				50001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			150
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.expedition_data_template[2059005] = {
+		sink_limit = 1,
+		name = "敌方旗舰",
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		dungeon_id = 2059005,
+		add_icon = "",
+		bgm = "sk-az-battle-boss",
+		exp_commander = 0,
+		SLG_destroy_FX = "",
+		exp_commander_ratio = 50,
+		expose_speed = 15,
+		icon_type = 1,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 128,
+		exp = 0,
+		limit_type = 1,
+		ai = 0,
+		time_limit = 150,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 2059005,
+		scale = 100,
+		map_id = {
+			{
+				50197,
+				1
+			}
+		},
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			150
+		},
+		bufficon = {},
+		expose_line = {},
+		horizon_line = {
+			[1] = -50
+		},
+		aircraft_expose = {
+			15,
+			10
+		},
+		ship_expose = {
+			30,
+			10
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.expedition_data_template[2050001] = {
 		sink_limit = 1,
 		name = "小型侦查舰队",

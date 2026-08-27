@@ -1,7 +1,7 @@
 local var_0_0 = class("MainSpineIcon", import(".MainBaseIcon"))
 
 function var_0_0.Resume(arg_1_0)
-	if arg_1_0.spineChar then
+	if arg_1_0.spineChar and arg_1_0.spineChar:GetPauseStatue() ~= nil and not IsNil(arg_1_0.spineChar:GetAnimationState()) then
 		arg_1_0.spineChar:Resume()
 	end
 end

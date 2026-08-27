@@ -145,7 +145,7 @@ function var_0_0.doExtraFlagUpdate(arg_13_0)
 	end
 end
 
-function var_0_0.doRetreat(arg_14_0)
+function var_0_0.doRetreat(arg_14_0, arg_14_1)
 	local var_14_0 = arg_14_0.op
 	local var_14_1 = arg_14_0.flag
 	local var_14_2 = arg_14_0.chapter
@@ -157,7 +157,7 @@ function var_0_0.doRetreat(arg_14_0)
 			var_14_1 = bit.bor(var_14_1, ChapterConst.DirtyFleet, ChapterConst.DirtyAttachment, ChapterConst.DirtyChampion, ChapterConst.DirtyStrategy)
 		end
 	else
-		var_14_2:retreat(var_14_0.win)
+		var_14_2:retreat(var_14_0.win, var_14_0.arg1, arg_14_1)
 	end
 
 	arg_14_0.flag = var_14_1

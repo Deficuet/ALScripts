@@ -312,6 +312,14 @@ pg.dorm3d_camera_anim_template.all = {
 	14605,
 	14606,
 	14607,
+	14701,
+	14702,
+	14703,
+	14704,
+	14705,
+	14706,
+	14707,
+	14708,
 	16001,
 	16002,
 	16003,
@@ -799,6 +807,16 @@ pg.dorm3d_camera_anim_template.get_id_list_by_furniture_id = {
 		14605,
 		14606,
 		14607
+	},
+	[1468] = {
+		14701,
+		14702,
+		14703,
+		14704,
+		14705,
+		14706,
+		14707,
+		14708
 	},
 	[2101] = {
 		21301,
@@ -7157,6 +7175,325 @@ end)()
 					0
 				},
 				"IK_living02_idle02_fb03_shu"
+			}
+		}
+	}
+	pg.base.dorm3d_camera_anim_template[14701] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 49905,
+		state = "IK_sp01_idle01",
+		desc = "静待",
+		staypoint = "Pos600710",
+		id = 14701,
+		pre_anim = 0,
+		zone = "14001",
+		icon = "camera_action13",
+		room = 14,
+		hide_scene_item = "",
+		furniture_id = 1468,
+		finish_anim = 0,
+		enter_scene_anim = {
+			{
+				2027,
+				"IK_sp01_idle01_YG"
+			},
+			{
+				2029,
+				"IK_sp01_idle01_vfx"
+			}
+		},
+		enter_extra_item = {
+			{
+				"furniture/Item/Aje_Cup_01/pre_db_aje_cup_02",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_sp01_idle01_item"
+			}
+		}
+	}
+	pg.base.dorm3d_camera_anim_template[14702] = {
+		anim_time = 18.667,
+		unlock = "",
+		ship_group = 49905,
+		state = "IK_sp01_idle01_fb01",
+		desc = "开心",
+		staypoint = "Pos600710",
+		id = 14702,
+		pre_anim = 14701,
+		zone = "14001",
+		icon = "camera_action14",
+		room = 14,
+		hide_scene_item = "",
+		furniture_id = 1468,
+		finish_anim = 14701,
+		enter_scene_anim = {
+			{
+				2027,
+				"IK_sp01_idle01_fb01_YG"
+			}
+		},
+		enter_extra_item = {
+			{
+				"furniture/Item/Aje_Cup_01/pre_db_aje_cup_02",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_sp01_idle01_fb01_item"
+			}
+		}
+	}
+	pg.base.dorm3d_camera_anim_template[14703] = {
+		anim_time = 17.333,
+		unlock = "",
+		ship_group = 49905,
+		state = "IK_sp01_idle01_fb02",
+		desc = "注视 ",
+		staypoint = "Pos600710",
+		id = 14703,
+		pre_anim = 14701,
+		zone = "14001",
+		icon = "camera_action15",
+		room = 14,
+		hide_scene_item = "",
+		furniture_id = 1468,
+		finish_anim = 14701,
+		enter_scene_anim = {
+			{
+				2027,
+				"IK_sp01_idle01_fb02_YG"
+			},
+			{
+				2029,
+				"IK_sp01_idle01_fb02_vfx"
+			}
+		},
+		enter_extra_item = {
+			{
+				"furniture/Item/Aje_Cup_01/pre_db_aje_cup_02",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_sp01_idle01_fb02_item"
+			}
+		}
+	}
+	pg.base.dorm3d_camera_anim_template[14704] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 49905,
+		state = "IK_sp01_idle02",
+		desc = "跪坐",
+		staypoint = "Pos600720",
+		id = 14704,
+		pre_anim = 0,
+		zone = "14001",
+		icon = "camera_action16",
+		room = 14,
+		hide_scene_item = "",
+		furniture_id = 1468,
+		finish_anim = 0,
+		enter_scene_anim = {
+			{
+				2027,
+				"IK_sp01_idle02_YG"
+			}
+		},
+		enter_extra_item = {
+			{
+				"furniture/Item/Aje_Cup_01/pre_db_aje_cup_02",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_sp01_idle02_item"
+			}
+		}
+	}
+	pg.base.dorm3d_camera_anim_template[14705] = {
+		anim_time = 15.333,
+		unlock = "",
+		ship_group = 49905,
+		state = "IK_sp01_idle02_fb02",
+		desc = "撒娇",
+		staypoint = "Pos600720",
+		id = 14705,
+		pre_anim = 14704,
+		zone = "14001",
+		icon = "camera_action18",
+		room = 14,
+		hide_scene_item = "",
+		furniture_id = 1468,
+		finish_anim = 14704,
+		enter_scene_anim = "",
+		enter_extra_item = {
+			{
+				"furniture/Item/Aje_Cup_01/pre_db_aje_cup_02",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_sp01_idle02_fb02_item"
+			}
+		}
+	}
+	pg.base.dorm3d_camera_anim_template[14706] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 49905,
+		state = "IK_sp01_idle03",
+		desc = "邀请",
+		staypoint = "Pos600730",
+		id = 14706,
+		pre_anim = 0,
+		zone = "14001",
+		icon = "camera_action32",
+		room = 14,
+		hide_scene_item = "",
+		furniture_id = 1468,
+		finish_anim = 0,
+		enter_scene_anim = {
+			{
+				2027,
+				"IK_sp01_idle03_YG"
+			},
+			{
+				2028,
+				"IK_sp01_idle03_vfx"
+			}
+		},
+		enter_extra_item = {
+			{
+				"furniture/Item/Aje_Cup_01/pre_db_aje_cup_02",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_sp01_idle03_item"
+			}
+		}
+	}
+	pg.base.dorm3d_camera_anim_template[14707] = {
+		anim_time = 18,
+		unlock = "",
+		ship_group = 49905,
+		state = "IK_sp01_idle03_fb01",
+		desc = "放松",
+		staypoint = "Pos600730",
+		id = 14707,
+		pre_anim = 14706,
+		zone = "14001",
+		icon = "camera_action34",
+		room = 14,
+		hide_scene_item = "",
+		furniture_id = 1468,
+		finish_anim = 14706,
+		enter_scene_anim = {
+			{
+				2027,
+				"IK_sp01_idle03_fb01_YG"
+			}
+		},
+		enter_extra_item = {
+			{
+				"furniture/Item/Aje_Cup_01/pre_db_aje_cup_02",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_sp01_idle03_fb01_item"
+			}
+		}
+	}
+	pg.base.dorm3d_camera_anim_template[14708] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 49905,
+		state = "IK_sp01_idle03_fb02-loop",
+		desc = "伸腿",
+		staypoint = "Pos600730",
+		id = 14708,
+		pre_anim = 0,
+		zone = "14001",
+		icon = "camera_action36",
+		room = 14,
+		hide_scene_item = "",
+		furniture_id = 1468,
+		finish_anim = 0,
+		enter_scene_anim = {
+			{
+				2027,
+				"IK_sp01_idle03_fb02_YG-loop"
+			}
+		},
+		enter_extra_item = {
+			{
+				"furniture/Item/Aje_Cup_01/pre_db_aje_cup_02",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_sp01_idle03_fb02_item-loop"
 			}
 		}
 	}

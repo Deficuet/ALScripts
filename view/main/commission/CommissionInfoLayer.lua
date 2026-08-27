@@ -31,7 +31,8 @@ function var_0_0.init(arg_2_0)
 	arg_2_0.items = {
 		CommissionInfoEventItem.New(arg_2_0._tf:Find("frame/main/content/event"), arg_2_0),
 		CommissionInfoClassItem.New(arg_2_0._tf:Find("frame/main/content/class"), arg_2_0),
-		CommissionInfoTechnologyItem.New(arg_2_0._tf:Find("frame/main/content/technology"), arg_2_0)
+		CommissionInfoTechnologyItem.New(arg_2_0._tf:Find("frame/main/content/technology"), arg_2_0),
+		CommissionInfoChapterAutoItem.New(arg_2_0._tf:Find("frame/main/content/chapterauto"), arg_2_0)
 	}
 
 	arg_2_0:BlurPanel()
@@ -221,79 +222,83 @@ function var_0_0.OnUpdateTechnology(arg_27_0)
 	arg_27_0.items[3]:Update()
 end
 
-function var_0_0.setPlayer(arg_28_0, arg_28_1)
-	arg_28_0.playerVO = arg_28_1
-
-	arg_28_0:UpdateOilRes(arg_28_1)
-	arg_28_0:UpdateGoldRes(arg_28_1)
-	arg_28_0:UpdateClassRes()
+function var_0_0.OnUpdateChapterAuto(arg_28_0)
+	arg_28_0.items[4]:Update()
 end
 
-function var_0_0.OnPlayerUpdate(arg_29_0, arg_29_1)
-	local var_29_0 = arg_29_0.playerVO
-	local var_29_1 = arg_29_1
+function var_0_0.setPlayer(arg_29_0, arg_29_1)
+	arg_29_0.playerVO = arg_29_1
 
-	if var_29_1.oilField ~= var_29_0.oilField then
-		arg_29_0:UpdateOilRes(var_29_1)
+	arg_29_0:UpdateOilRes(arg_29_1)
+	arg_29_0:UpdateGoldRes(arg_29_1)
+	arg_29_0:UpdateClassRes()
+end
+
+function var_0_0.OnPlayerUpdate(arg_30_0, arg_30_1)
+	local var_30_0 = arg_30_0.playerVO
+	local var_30_1 = arg_30_1
+
+	if var_30_1.oilField ~= var_30_0.oilField then
+		arg_30_0:UpdateOilRes(var_30_1)
 	end
 
-	if var_29_1.goldField ~= var_29_0.goldField then
-		arg_29_0:UpdateGoldRes(var_29_1)
+	if var_30_1.goldField ~= var_30_0.goldField then
+		arg_30_0:UpdateGoldRes(var_30_1)
 	end
 
-	if var_29_1.expField ~= var_29_0.expField then
-		arg_29_0:UpdateClassRes()
+	if var_30_1.expField ~= var_30_0.expField then
+		arg_30_0:UpdateClassRes()
 	end
 
-	arg_29_0.playerVO = var_29_1
+	arg_30_0.playerVO = var_30_1
 end
 
-function var_0_0.UpdateOilRes(arg_30_0, arg_30_1)
-	arg_30_0.oilbubbleCG.alpha = 1
-	arg_30_0.oilbubbleTF.localScale = Vector3.one
+function var_0_0.UpdateOilRes(arg_31_0, arg_31_1)
+	arg_31_0.oilbubbleCG.alpha = 1
+	arg_31_0.oilbubbleTF.localScale = Vector3.one
 
-	setActive(arg_30_0.oilbubbleTF, arg_30_1.oilField ~= 0)
+	setActive(arg_31_0.oilbubbleTF, arg_31_1.oilField ~= 0)
 
-	arg_30_0.oilTF.text = arg_30_1.oilField
+	arg_31_0.oilTF.text = arg_31_1.oilField
 end
 
-function var_0_0.UpdateGoldRes(arg_31_0, arg_31_1)
-	arg_31_0.goldbubbleCG.alpha = 1
-	arg_31_0.goldbubbleTF.localScale = Vector3.one
+function var_0_0.UpdateGoldRes(arg_32_0, arg_32_1)
+	arg_32_0.goldbubbleCG.alpha = 1
+	arg_32_0.goldbubbleTF.localScale = Vector3.one
 
-	setActive(arg_31_0.goldbubbleTF, arg_31_1.goldField ~= 0)
+	setActive(arg_32_0.goldbubbleTF, arg_32_1.goldField ~= 0)
 
-	arg_31_0.goldTF.text = arg_31_1.goldField
+	arg_32_0.goldTF.text = arg_32_1.goldField
 end
 
-function var_0_0.UpdateClassRes(arg_32_0)
-	local var_32_0 = getProxy(NavalAcademyProxy):GetClassVO():GetGenResCnt()
+function var_0_0.UpdateClassRes(arg_33_0)
+	local var_33_0 = getProxy(NavalAcademyProxy):GetClassVO():GetGenResCnt()
 
-	arg_32_0.classbubbleCG.alpha = 1
-	arg_32_0.classbubbleTF.localScale = Vector3.one
+	arg_33_0.classbubbleCG.alpha = 1
+	arg_33_0.classbubbleTF.localScale = Vector3.one
 
-	setActive(arg_32_0.classbubbleTF, var_32_0 > 0)
+	setActive(arg_33_0.classbubbleTF, var_33_0 > 0)
 
-	arg_32_0.classTF.text = var_32_0
+	arg_33_0.classTF.text = var_33_0
 end
 
-function var_0_0.onBackPressed(arg_33_0)
+function var_0_0.onBackPressed(arg_34_0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
-	triggerButton(arg_33_0._tf)
+	triggerButton(arg_34_0._tf)
 end
 
-function var_0_0.willExit(arg_34_0)
-	arg_34_0:UnBlurPanel()
+function var_0_0.willExit(arg_35_0)
+	arg_35_0:UnBlurPanel()
 
-	for iter_34_0, iter_34_1 in ipairs(arg_34_0.items) do
-		iter_34_1:Dispose()
+	for iter_35_0, iter_35_1 in ipairs(arg_35_0.items) do
+		iter_35_1:Dispose()
 	end
 
-	arg_34_0.items = nil
+	arg_35_0.items = nil
 
-	arg_34_0.metaBossBtn:Dispose()
+	arg_35_0.metaBossBtn:Dispose()
 
-	arg_34_0.metaBossBtn = nil
+	arg_35_0.metaBossBtn = nil
 end
 
 return var_0_0

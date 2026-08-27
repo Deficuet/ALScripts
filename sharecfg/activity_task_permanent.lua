@@ -29,7 +29,8 @@ pg.activity_task_permanent.all = {
 	6022,
 	6023,
 	6042,
-	50521
+	50521,
+	50522
 }
 pg.base = pg.base or {}
 pg.base.activity_task_permanent = {}
@@ -641,6 +642,18 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		id = 50521,
 		activity_name = "测试配置",
+		task_extra = "",
+		activity_group = 2000,
+		over_task_id = "",
+		eliminate_task_id = {}
+	}
+	pg.base.activity_task_permanent[50522] = {
+		gametip = "",
+		banner_route = "",
+		gametip_extra = "",
+		over_pt = 0,
+		id = 50522,
+		activity_name = "",
 		task_extra = "",
 		activity_group = 2000,
 		over_task_id = "",

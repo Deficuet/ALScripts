@@ -69,6 +69,7 @@ function var_0_0.OnFirstFlush(arg_5_0)
 		arg_5_0:emit(ActivityMediator.ON_ADD_SUBLAYER, var_6_0)
 	end, SFX_PANEL)
 	setText(arg_5_0.Txtmanual, i18n("anniversary_nine_main_page"))
+	arg_5_0:UpdateRed()
 end
 
 function var_0_0.OnUpdateFlush(arg_7_0)

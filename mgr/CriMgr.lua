@@ -443,10 +443,11 @@ function var_0_1.StopSE_Loop(arg_59_0, arg_59_1, arg_59_2)
 	arg_59_0.criInst:StopSound(var_59_0, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT)
 end
 
-function var_0_1.LoadCueSheet(arg_60_0, arg_60_1, arg_60_2)
+function var_0_1.LoadCueSheet(arg_60_0, arg_60_1, arg_60_2, arg_60_3)
 	local var_60_0 = CueData.GetCueData()
 
 	var_60_0.cueSheetName = arg_60_1
+	var_60_0.channelName = arg_60_3 or var_0_1.C_VOICE
 
 	arg_60_0.criInst:LoadCueSheet(var_60_0, function(arg_61_0)
 		existCall(arg_60_2, arg_61_0)

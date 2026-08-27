@@ -1654,7 +1654,8 @@ pg.equip_skin_template.all = {
 	3081,
 	3082,
 	3083,
-	3084
+	3084,
+	3085
 }
 pg.base = pg.base or {}
 pg.base.equip_skin_template = {}
@@ -70460,6 +70461,66 @@ end)()
 			24000,
 			24000,
 			24000
+		}
+	}
+	pg.base.equip_skin_template[3085] = {
+		hit_sfx = "",
+		name = "浮华之风",
+		orbit_rotate_ui = "",
+		type = 1,
+		preview_hit_distance = 0,
+		bullet_name = "",
+		themeid = 199,
+		orbit_combat = "shebei_fuhuazhifeng",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_rotate = false,
+		desc = "华丽、精致又张扬之风~！",
+		orbit_combat_anima_change = "",
+		icon = "99205",
+		orbit_ui = "shebei_fuhuazhifengui",
+		mirror = 0,
+		miss_sfx = "",
+		rarity = 4,
+		orbit_ui_back = 1,
+		ship_skin_id = 0,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		id = 3085,
+		derivate_torpedo = "",
+		orbit_slg = "",
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		double_char_bone = {
+			1,
+			0,
+			1
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.11,
+				-2.57,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-1.4,
+				-6.7
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
 		}
 	}
 end)()

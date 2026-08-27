@@ -284,6 +284,7 @@ pg.memory_group.all = {
 	373,
 	374,
 	375,
+	376,
 	501,
 	502,
 	503,
@@ -7565,6 +7566,24 @@ end)()
 			5402
 		}
 	}
+	pg.base.memory_group[376] = {
+		ship_group = 0,
+		group_id = "",
+		type = 2,
+		link_event = 51123,
+		title = "“大人物”的预告信",
+		auto_unlock = "",
+		subtype = 2,
+		id = 376,
+		icon = "title_event",
+		memories = {
+			5411,
+			5412,
+			5413,
+			5414,
+			5415
+		}
+	}
 	pg.base.memory_group[501] = {
 		ship_group = 31201,
 		group_id = "",
@@ -7994,6 +8013,8 @@ end)()
 			10000
 		}
 	}
+end)()
+;(function()
 	pg.base.memory_group[521] = {
 		ship_group = 40304,
 		subtype = 0,
@@ -8016,8 +8037,6 @@ end)()
 			10000
 		}
 	}
-end)()
-;(function()
 	pg.base.memory_group[522] = {
 		ship_group = 10802,
 		subtype = 0,
@@ -10196,6 +10215,8 @@ end)()
 			10000
 		}
 	}
+end)()
+;(function()
 	pg.base.memory_group[622] = {
 		ship_group = 49910,
 		subtype = 0,
@@ -10218,8 +10239,6 @@ end)()
 			10000
 		}
 	}
-end)()
-;(function()
 	pg.base.memory_group[623] = {
 		ship_group = 60508,
 		subtype = 0,

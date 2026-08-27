@@ -779,6 +779,7 @@ end
 
 function var_0_0.listNotificationInterests(arg_84_0)
 	return {
+		GAME.ZERO_HOUR_OP_DONE,
 		ChapterProxy.CHAPTER_UPDATED,
 		ChapterProxy.CHAPTER_TIMESUP,
 		PlayerProxy.UPDATED,
@@ -814,7 +815,11 @@ function var_0_0.listNotificationInterests(arg_84_0)
 		GAME.CHAPTER_REMASTER_INFO_REQUEST_DONE,
 		GAME.CHAPTER_REMASTER_AWARD_RECEIVE_DONE,
 		GAME.STORY_UPDATE_DONE,
-		GAME.STORY_END
+		GAME.STORY_END,
+		GAME.START_CHAPTER_AUTO_DONE,
+		GAME.END_CHAPTER_AUTO_DONE,
+		GAME.ADD_CHAPTER_AUTO_TIME_DONE,
+		ChapterAutoProxy.FINISH_UPDATE
 	}
 end
 
@@ -822,7 +827,9 @@ function var_0_0.handleNotification(arg_85_0, arg_85_1)
 	local var_85_0 = arg_85_1:getName()
 	local var_85_1 = arg_85_1:getBody()
 
-	if var_85_0 == GAME.BEGIN_STAGE_DONE then
+	if var_85_0 == GAME.ZERO_HOUR_OP_DONE then
+		arg_85_0.viewComponent:onZeroHourRefresh()
+	elseif var_85_0 == GAME.BEGIN_STAGE_DONE then
 		arg_85_0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, var_85_1)
 	elseif var_85_0 == VoteProxy.VOTE_ORDER_BOOK_DELETE or VoteProxy.VOTE_ORDER_BOOK_UPDATE == var_85_0 then
 		arg_85_0.viewComponent:updateVoteBookBtn()
@@ -1357,8 +1364,6 @@ function var_0_0.handleNotification(arg_85_0, arg_85_1)
 		arg_85_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_85_1)
 	elseif var_85_0 == GAME.STORY_UPDATE_DONE then
 		arg_85_0.cachedStoryAwards = var_85_1
-
-		arg_85_0.viewComponent.mapBuilder:UpdateView()
 	elseif var_85_0 == GAME.STORY_END then
 		if arg_85_0.cachedStoryAwards then
 			arg_85_0.viewComponent:emit(BaseUI.ON_ACHIEVE, arg_85_0.cachedStoryAwards.awards)
@@ -1375,6 +1380,36 @@ function var_0_0.handleNotification(arg_85_0, arg_85_1)
 		arg_85_0.waitingTracking = nil
 	elseif var_85_0 == var_0_0.ON_SPITEM_CHANGED then
 		arg_85_0.viewComponent:emit(var_0_0.ON_SPITEM_CHANGED, var_85_1)
+	elseif var_85_0 == GAME.START_CHAPTER_AUTO_DONE then
+		arg_85_0.viewComponent:OnStartChapterAuto(var_85_1)
+		arg_85_0.viewComponent.mapBuilder:UpdateChapterTF(var_85_1.id)
+
+		if var_85_1.isRemaster then
+			arg_85_0.viewComponent:updateRemasterTicket()
+		end
+	elseif var_85_0 == GAME.END_CHAPTER_AUTO_DONE then
+		arg_85_0.viewComponent:OnEndChapterAuto(var_85_1)
+		arg_85_0.viewComponent:HideChapterAutoDetailPanel(var_85_1)
+		arg_85_0.viewComponent.mapBuilder:UpdateChapterTF(var_85_1.id)
+
+		if var_85_1.isRemaster then
+			arg_85_0.viewComponent:updateRemasterTicket()
+		end
+
+		arg_85_0:addSubLayers(Context.New({
+			viewComponent = ChapterAutoTotalRewardLayer,
+			mediator = ChapterAutoTotalRewardMediator,
+			data = {
+				rewards = var_85_1.awards,
+				totalTimes = var_85_1.allCnt,
+				finishTimes = var_85_1.finishCnt,
+				proficiency = var_85_1.proficiency
+			}
+		}), true)
+	elseif var_85_0 == GAME.ADD_CHAPTER_AUTO_TIME_DONE then
+		arg_85_0.viewComponent:OnAddChapterAutoTimeDone(var_85_1)
+	elseif var_85_0 == ChapterAutoProxy.FINISH_UPDATE then
+		arg_85_0.viewComponent.mapBuilder:UpdateMapItems()
 	end
 end
 

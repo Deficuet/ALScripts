@@ -49,9 +49,17 @@ function var_0_0.register(arg_1_0)
 	arg_1_0.viewComponent:SetActivity(var_1_2)
 	arg_1_0.viewComponent:SetActivity(var_1_2)
 
-	local var_1_3 = var_1_0:getActivityById(ActivityConst.ALVIT_PT_ACT_ID)
+	local var_1_3 = var_1_2:GetConfigClientSetting("PTID")
+	local var_1_4 = getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF)
 
-	arg_1_0.viewComponent:SetPtActivity(var_1_3)
+	for iter_1_0, iter_1_1 in ipairs(var_1_4) do
+		if iter_1_1:getDataConfig("pt") == var_1_3 then
+			arg_1_0.viewComponent:SetPtActivity(iter_1_1)
+
+			break
+		end
+	end
+
 	arg_1_0.viewComponent:addbubbleMsgBox(function(arg_8_0)
 		if getProxy(ContextProxy):getCurrentContext():getContextByMediator(BossRushTotalRewardPanelMediator) then
 			return

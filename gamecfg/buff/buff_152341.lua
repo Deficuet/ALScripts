@@ -369,7 +369,7 @@ return {
 				},
 				arg_list = {
 					attr = "loadSpeed",
-					number = 1300
+					number = 1380
 				}
 			}
 		}

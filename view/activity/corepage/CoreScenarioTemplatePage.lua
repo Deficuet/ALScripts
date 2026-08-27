@@ -1025,6 +1025,8 @@ function var_0_0.TrySubmitTask(arg_45_0)
 		end
 	end
 
+	arg_45_0:UpdateStoryTask()
+
 	if var_45_0 and arg_45_0.storyTask and arg_45_0.storyTask:getTaskStatus() == 1 then
 		arg_45_0.coreStoryPage:emit(ActivityMediator.ON_TASK_SUBMIT, arg_45_0.storyTask)
 

@@ -114,7 +114,7 @@ function var_0_0.GetGroupIDByMedalID(arg_14_0)
 end
 
 function var_0_0.showTip(arg_15_0)
-	local var_15_0 = pg.activity_medal_group[groupId]
+	local var_15_0 = pg.activity_medal_group[arg_15_0]
 	local var_15_1 = var_15_0 and var_15_0.activity_link or {}
 	local var_15_2
 
@@ -130,7 +130,7 @@ function var_0_0.showTip(arg_15_0)
 	end
 
 	if not var_15_2 then
-		return 0, 0, 0
+		return false
 	end
 
 	local var_15_5 = getProxy(TaskProxy)

@@ -398,6 +398,7 @@ pg.fleet_tech_ship_class.all = {
 	970706,
 	970707,
 	970708,
+	970710,
 	970801,
 	971201,
 	971301
@@ -5109,6 +5110,17 @@ end)()
 		t_level = 2,
 		ships = {
 			970708
+		}
+	}
+	pg.base.fleet_tech_ship_class[970710] = {
+		shiptype = 7,
+		name = "萨拉托加·META",
+		nation = 97,
+		id = 970710,
+		t_level_1 = 1,
+		t_level = 1,
+		ships = {
+			970710
 		}
 	}
 	pg.base.fleet_tech_ship_class[970801] = {

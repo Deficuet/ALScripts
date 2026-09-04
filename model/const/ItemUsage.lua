@@ -22,5 +22,6 @@ var_0_0.RANDOM_SKIN = "usage_drop_random_skin"
 var_0_0.USAGE_SKIN_EXP = "usage_skin_exp"
 var_0_0.SHIP_GIFT = "usage_favorability"
 var_0_0.REPAIR_LOVE_LETTER = "usage_loveitem_change_2018"
+var_0_0.EX_RE_MAP = "usage_drop_re_map"
 
 return var_0_0

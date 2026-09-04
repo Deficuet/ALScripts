@@ -88924,7 +88924,7 @@ end)()
 		alert_fx = "",
 		velocity = 18,
 		damage_type = {
-			1.118,
+			1.068,
 			1.068,
 			1.068
 		},

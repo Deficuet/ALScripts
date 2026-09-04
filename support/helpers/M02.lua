@@ -4843,7 +4843,7 @@ function RegisterDetailButton(arg_337_0, arg_337_1, arg_337_2)
 					})
 				end, SFX_PANEL)
 				setActive(arg_337_1, true)
-			else
+			elseif arg_337_2:getConfig("usage") ~= ItemUsage.EX_RE_MAP then
 				local var_338_3 = getProxy(TechnologyProxy):getItemCanUnlockBluePrint(arg_337_2.id) and "tech" or arg_337_2:getConfig("type")
 
 				if var_0_28[var_338_3] then

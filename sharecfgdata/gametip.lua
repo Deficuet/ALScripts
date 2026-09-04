@@ -3301,6 +3301,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.ShiningMagicCoreActivityUI_subtitle_1 = {
+		tip = "闪耀的“魔法”"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.word_second = {
 		tip = "秒"
 	}
@@ -3916,12 +3922,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child2_site_drop_reduce = {
-		tip = "$1降低 $2 ▶ $3  减少了$4"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.auto_battle_help = {
 		tip = {
 			{
@@ -3934,6 +3934,30 @@ end)()
 (function()
 	_G.pg.base.gametip.draw_big_luck_2 = {
 		tip = "运气太好了喵！让人都有点嫉妒了喵…"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.auto_drop_is_activation_cancle = {
+		tip = "取消"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_site_drop_reduce = {
+		tip = "$1降低 $2 ▶ $3  减少了$4"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.auto_drop_is_activation = {
+		tip = "正在进行关卡<color=#92fc63>$1</color>的作战委托，请等待作战委托完成"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.auto_battle_book_expire_warning = {
+		tip = "x$1 即将过期"
 	}
 end)()
 
@@ -3956,38 +3980,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.auto_drop_is_activation_cancle = {
-		tip = "取消"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.auto_drop_is_activation = {
-		tip = "正在进行关卡<color=#92fc63>$1</color>的作战委托，请等待作战委托完成"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_equipment_rarity = {
-		tip = "稀有度"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.auto_battle_book_expire_warning = {
-		tip = "x$1 即将过期"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.commander_tactical_ability = {
 		tip = "战术能力"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_anyone_is_in_fleet = {
-		tip = "材料存在编队中的指挥喵"
 	}
 end)()
 
@@ -3998,14 +3992,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_result_continue = {
-		tip = "点击继续"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_ship_order_delegate_auto_refresh_time = {
-		tip = "委托列表自动刷新时间："
+	_G.pg.base.gametip.word_equipment_rarity = {
+		tip = "稀有度"
 	}
 end)()
 
@@ -4022,8 +4010,26 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.commander_anyone_is_in_fleet = {
+		tip = "材料存在编队中的指挥喵"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.auto_battle_drop_bookEXP_overflow = {
 		tip = "将有$1本舰艇演习数据T1因溢出而无法获取，是否确定领取？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_result_continue = {
+		tip = "点击继续"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_ship_order_delegate_auto_refresh_time = {
+		tip = "委托列表自动刷新时间："
 	}
 end)()
 
@@ -4034,14 +4040,32 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.auto_battle_drop_book_expired = {
+		tip = "返还的作战委托书将过期，确定终止作战委托吗？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.auto_battle_ing_finish = {
+		tip = "领取奖励"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.brs_expedition_tip = {
+		tip = "活动期间完成挑战关，可获得限定奖励"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.mall_point_name_type1 = {
 		tip = "城市地标"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.auto_battle_drop_book_expired = {
-		tip = "返还的作战委托书将过期，确定终止作战委托吗？"
+	_G.pg.base.gametip.ship_formationUI_fleetName_extra_ss = {
+		tip = "EX潜艇编队"
 	}
 end)()
 
@@ -4052,8 +4076,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.auto_battle_ing_finish = {
-		tip = "领取奖励"
+	_G.pg.base.gametip.auto_battle_ing_time = {
+		tip = "剩余时间  <color=#92fc63>$1</color>"
 	}
 end)()
 
@@ -4076,8 +4100,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.brs_expedition_tip = {
-		tip = "活动期间完成挑战关，可获得限定奖励"
+	_G.pg.base.gametip.auto_battle_ing_headline = {
+		tip = "委托作战中"
 	}
 end)()
 
@@ -4090,64 +4114,6 @@ end)()
 (function()
 	_G.pg.base.gametip.technology_finish_success = {
 		tip = "完成研发成功"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_formationUI_fleetName_extra_ss = {
-		tip = "EX潜艇编队"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_map_dangerous = {
-		tip = "未配置tip"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.wwf_bamboo_help = {
-		tip = {
-			{
-				info = "活动时间：<color=#92fc63>2021.3.12-2021.3.25</color>\n活动简介：\n1.活动分为<color=#92fc63>大宝的伙伴（宁海篇）</color>和<color=#92fc63>二宝的伙伴（平海篇）</color>两个部分，点击页面右下方按钮可以进行切换\n2.活动期间完成任务可以获取<color=#92fc63>美味竹子</color>，消耗美味竹子照顾大熊猫达到指定亲密度可以领取奖励\n3.指挥官点击页面左下方美味竹子图标可以查看任务列表，任务分为三类：\n①活动任务：活动期间只可完成一次\n②每日任务：活动期间每天零点刷新\n③每周任务：活动期间每周一零点刷新"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_learn_skill = {
-		tip = "习得技能：$1(未使用)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.couplete_fail_2 = {
-		tip = "唔……好像不太押韵呢。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.course_proficiency_tip = {
-		tip = "完成三阶突破的<material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>$1级</color></material>角色，出击时将获取等于出击经验<material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>$2%</color></material>的熟练度"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_replace_talent_not_exist = {
-		tip = "替换的天赋存在"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.auto_battle_ing_time = {
-		tip = "剩余时间  <color=#92fc63>$1</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.auto_battle_ing_headline = {
-		tip = "委托作战中"
 	}
 end)()
 
@@ -4210,26 +4176,48 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.friend_event_count = {
-		tip = "完成委托:"
+	_G.pg.base.gametip.world_map_dangerous = {
+		tip = "未配置tip"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.unique_ship_tip2 = {
-		tip = "包含<color=#92fc63>唯一</color>角色，请输入<color=#92fc63>$1</color>进行确认"
+	_G.pg.base.gametip.wwf_bamboo_help = {
+		tip = {
+			{
+				info = "活动时间：<color=#92fc63>2021.3.12-2021.3.25</color>\n活动简介：\n1.活动分为<color=#92fc63>大宝的伙伴（宁海篇）</color>和<color=#92fc63>二宝的伙伴（平海篇）</color>两个部分，点击页面右下方按钮可以进行切换\n2.活动期间完成任务可以获取<color=#92fc63>美味竹子</color>，消耗美味竹子照顾大熊猫达到指定亲密度可以领取奖励\n3.指挥官点击页面左下方美味竹子图标可以查看任务列表，任务分为三类：\n①活动任务：活动期间只可完成一次\n②每日任务：活动期间每天零点刷新\n③每周任务：活动期间每周一零点刷新"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_learn_skill = {
+		tip = "习得技能：$1(未使用)"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.couplete_fail_2 = {
+		tip = "唔……好像不太押韵呢。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.course_proficiency_tip = {
+		tip = "完成三阶突破的<material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>$1级</color></material>角色，出击时将获取等于出击经验<material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>$2%</color></material>的熟练度"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_replace_talent_not_exist = {
+		tip = "替换的天赋存在"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.dorm3d_privatechat_nonew_messages = {
 		tip = "有新的消息"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_notExist = {
-		tip = "不存在"
 	}
 end)()
 
@@ -4246,14 +4234,26 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.friend_event_count = {
+		tip = "完成委托:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.unique_ship_tip2 = {
+		tip = "包含<color=#92fc63>唯一</color>角色，请输入<color=#92fc63>$1</color>进行确认"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.levelScene_tracking_error_pre_2 = {
 		tip = "通关$1或$2后开启 "
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.activity_holiday_function_lock = {
-		tip = "随着重建进度推进解锁"
+	_G.pg.base.gametip.word_notExist = {
+		tip = "不存在"
 	}
 end)()
 
@@ -4264,14 +4264,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.auto_battle_time_add_headline_en = {
+		tip = "INFORM"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_ammo_type_5 = {
+		tip = "通常"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_holiday_function_lock = {
+		tip = "随着重建进度推进解锁"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_tech_price_inc_tip = {
+		tip = "已达到<color=#92fc63>当前大舰队</color>的科技等级上限，继续提升所需消耗为公共舰队科技提升消耗，是否继续升级？"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.main_mailLayer_noAttach = {
 		tip = "无附件"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.auto_battle_time_add_headline_en = {
-		tip = "INFORM"
+	_G.pg.base.gametip.auto_battle_base_exp_warning = {
+		tip = "预期产出的大讲堂熟练度将会溢出，是否继续？"
 	}
 end)()
 
@@ -4306,8 +4330,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equip_ammo_type_5 = {
-		tip = "通常"
+	_G.pg.base.gametip.auto_battle_not_enough_resource = {
+		tip = "资源不足，无法开始"
 	}
 end)()
 
@@ -4330,8 +4354,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_tech_price_inc_tip = {
-		tip = "已达到<color=#92fc63>当前大舰队</color>的科技等级上限，继续提升所需消耗为公共舰队科技提升消耗，是否继续升级？"
+	_G.pg.base.gametip.auto_battle_start_tips = {
+		tip = "开始作战委托"
 	}
 end)()
 
@@ -4370,8 +4394,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.auto_battle_base_exp_warning = {
-		tip = "预期产出的大讲堂熟练度将会溢出，是否继续？"
+	_G.pg.base.gametip.auto_battle_times_zero = {
+		tip = "请设置作战次数"
 	}
 end)()
 
@@ -4400,14 +4424,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.auto_battle_not_enough_resource = {
-		tip = "资源不足，无法开始"
+	_G.pg.base.gametip.auto_battle_confirm_button = {
+		tip = "开始"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.auto_battle_start_tips = {
-		tip = "开始作战委托"
+	_G.pg.base.gametip.word_lock = {
+		tip = "未解锁"
 	}
 end)()
 
@@ -4437,14 +4461,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.auto_battle_times_zero = {
-		tip = "请设置作战次数"
+	_G.pg.base.gametip.auto_battle_extra_loot_lock = {
+		tip = "使用委托书后可获得额外产出"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.auto_battle_confirm_button = {
-		tip = "开始"
+	_G.pg.base.gametip.auto_battle_extra_loot = {
+		tip = "委托书额外产出"
 	}
 end)()
 
@@ -4573,8 +4597,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_lock = {
-		tip = "未解锁"
+	_G.pg.base.gametip.auto_battle_class_exp_head = {
+		tip = "大讲堂熟练度"
 	}
 end)()
 
@@ -4603,8 +4627,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.auto_battle_extra_loot_lock = {
-		tip = "使用委托书后可获得额外产出"
+	_G.pg.base.gametip.dorm3d_shop_gift1 = {
+		tip = "礼物"
 	}
 end)()
 
@@ -4615,8 +4639,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.auto_battle_extra_loot = {
-		tip = "委托书额外产出"
+	_G.pg.base.gametip.auto_battle_add_time = {
+		tip = "兑换可用时间"
 	}
 end)()
 
@@ -4633,44 +4657,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.auto_battle_class_exp_head = {
-		tip = "大讲堂熟练度"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["2023spring_minigame_tip6"] = {
-		tip = "$1解锁成功~"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_shop_gift1 = {
-		tip = "礼物"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.auto_battle_add_time = {
-		tip = "兑换可用时间"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.inform_level_limit = {
-		tip = "举报将在指挥官等级达到20级后开放"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.auto_battle_cost_book = {
 		tip = "<color=#92fc63><icon name=weituo w=0.7 h=0.7/>$1作战全权委托书</color>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_season_review_titleone = {
-		tip = "开发季"
+	_G.pg.base.gametip["2023spring_minigame_tip6"] = {
+		tip = "$1解锁成功~"
 	}
 end)()
 
@@ -4687,14 +4681,44 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child_btn_target = {
-		tip = "目标"
+	_G.pg.base.gametip.inform_level_limit = {
+		tip = "举报将在指挥官等级达到20级后开放"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.auto_battle_cost_time = {
 		tip = "剩余可用时间"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_season_review_titleone = {
+		tip = "开发季"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.auto_battle_time_left = {
+		tip = "委托所需时间"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.auto_battle_book_max_reached = {
+		tip = "委托书数量不足"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_btn_target = {
+		tip = "目标"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.auto_battle_cnt_book = {
+		tip = "使用委托书"
 	}
 end)()
 
@@ -4729,62 +4753,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.auto_battle_time_left = {
-		tip = "委托所需时间"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ex_pass_use = {
-		tip = "使用"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.auto_battle_book_max_reached = {
-		tip = "委托书数量不足"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.auto_battle_cnt_book = {
-		tip = "使用委托书"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_manager_all = {
-		tip = "所有邮件"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.caibulin_tip5 = {
-		tip = "从作战中搜寻线索，目标1-4Burin！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.naval_academy_res_desc_shop = {
-		tip = "学院的小卖部，升级设施可以提高每日<color=#92fc63>金币的产量</color>和<color=#92fc63>库存上限</color>"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.child_item_type4 = {
 		tip = "杂物"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.levelScene_openCargo_erro = {
-		tip = "打开宝箱失败"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_ammo_type_1 = {
-		tip = "穿甲弹"
+	_G.pg.base.gametip.ex_pass_use = {
+		tip = "使用"
 	}
 end)()
 
@@ -4805,14 +4781,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_spoperation_item_2602_4 = {
-		tip = "风信子"
+	_G.pg.base.gametip.mail_manager_all = {
+		tip = "所有邮件"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.blackfriday_task = {
-		tip = "限时任务"
+	_G.pg.base.gametip.caibulin_tip5 = {
+		tip = "从作战中搜寻线索，目标1-4Burin！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.naval_academy_res_desc_shop = {
+		tip = "学院的小卖部，升级设施可以提高每日<color=#92fc63>金币的产量</color>和<color=#92fc63>库存上限</color>"
 	}
 end)()
 
@@ -4887,14 +4869,84 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.exchangecode_use_placeholder = {
-		tip = "仅限英文数字组合"
+	_G.pg.base.gametip.levelScene_openCargo_erro = {
+		tip = "打开宝箱失败"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_ammo_type_1 = {
+		tip = "穿甲弹"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.login_newPlayerScene_name_tooLong = {
 		tip = "名字太长"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_ship_buff_cover_3 = {
+		tip = "当前拥有品质更高的增益效果，是否确定使用礼物？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_spoperation_item_2602_4 = {
+		tip = "风信子"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blackfriday_task = {
+		tip = "限时任务"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.auto_battle_headline = {
+		tip = "作战委托"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.exchangecode_use_placeholder = {
+		tip = "仅限英文数字组合"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_supportfleet = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/supportfleet_help1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/supportfleet_help2",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	}
 end)()
 
@@ -4935,14 +4987,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ship_buff_cover_3 = {
-		tip = "当前拥有品质更高的增益效果，是否确定使用礼物？"
+	_G.pg.base.gametip.auto_battle_unlock_tip = {
+		tip = "通关主线1-3后开放"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.auto_battle_headline = {
-		tip = "作战委托"
+	_G.pg.base.gametip.shiningmagicsignpage_sign_remain = {
+		tip = "剩余可签到次数："
 	}
 end)()
 
@@ -4959,36 +5011,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.help_supportfleet = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/supportfleet_help1",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/supportfleet_help2",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
+	_G.pg.base.gametip.yumia_main_tip_8 = {
+		tip = "累计PT"
 	}
 end)()
 
@@ -4999,8 +5023,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.auto_battle_unlock_tip = {
-		tip = "通关主线1-3后开放"
+	_G.pg.base.gametip.ShadowCityCoreActivityUI_subtitle_1 = {
+		tip = "作战准备"
 	}
 end)()
 
@@ -29859,8 +29883,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_main_tip_8 = {
-		tip = "累计PT"
+	_G.pg.base.gametip.ShadowCityCoreActivityUI_subtitle_2 = {
+		tip = "都市求职大作战"
 	}
 end)()
 
@@ -39175,7 +39199,7 @@ end)()
 	_G.pg.base.gametip.world_boss_help_meta = {
 		tip = {
 			{
-				info = "信标·META功能说明\n\n1. <color=#92fc63>2026.6.5-2026.9.4</color>期间限时开放「布里斯托尔·META」的挑战，在此期间指挥官可挑战「布里斯托尔·META」累计其同步值获取<color=#92fc63>「布里斯托尔·META」角色</color>及其他丰厚奖励\n<color=#ff5c5c>注意：同步值将于时间结束后消失</color>\n\n2.「信标数据」获取与解析\n·指挥官可通过在大型作战中获取「信标数据」，达到指定数据量后进行解析并发现特定信标\n·每日最多可获取 <color=#92fc63>200</color>点，每日0点刷新可获取点数，尚未使用的「信标数据」将会保留。\n·每次解析「信标数据」所需量为<color=#92fc63>100</color>点\n\n3.挑战自己解析的信标\n·第一次挑战自己解析的信标不会消耗石油，从第二次开始，随着挑战次数的增加，每次挑战消耗的石油会从<color=#92fc63>40</color>点逐渐减少至<color=#92fc63>0</color>点。(不会消耗挑战次数)\n·当信标HP归零后视为战斗胜利，指挥官可以领取大量角色同步值奖励。\n·每个被解析的信标只会存在<color=#92fc63>24小时</color>，过期后将会消失，记得向其他指挥官请求支援哦。\n·每次挑战成功后，信标的强度将会提升1阶段，总计15阶段。随着阶段提升，战斗奖励也会提升。\n\n4.挑战其他信标\n·在信标列表界面可以挑战其他指挥官发起求助的信标，参与其他指挥官发布的信标战斗结束后，将会根据造成的伤害程度<color=#92fc63>立刻获得角色同步值奖励</color>。\n·每次挑战需要消耗1点挑战次数，不需要消耗石油\n·每日拥有总计<color=#92fc63>3</color>点挑战次数，每日0点重置\n·同一个信标最多能允许累计30位指挥官进行挑战\n\n5.战斗说明\n·挑战信标布里斯托尔·META暂不可使用指挥喵与潜艇\n·战斗结算时不会获得经验值，不会影响舰船心情值\n·战斗中不可中途退出，如果出现网络波动导致掉线的情况：\n①挑战自己解析的信标时将会消耗40点石油(非第一次挑战)，且不会计算已造成的伤害\n②挑战信标列表中的信标时将会消耗挑战次数且无法获得任何奖励\n <color=#92fc63>请在参与作战时保持网络环境畅通</color>\n\n6.火力支援\n随着信标布里斯托尔·META挑战的进行，从第31天开始，即2026.7.6~2026.9.4期间，舰队挑战「布里斯托尔·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标布里斯托尔·META开放的日期增加，火力支援提供的伤害也会增加。\n※此支援只会在指挥官自己发现的信标布里斯托尔·META战斗中出现，每次挑战均会触发。"
+				info = "信标·META功能说明\n\n1. <color=#92fc63>2026.9.4-2026.12.10</color>期间限时开放「萨拉托加·META」的挑战，在此期间指挥官可挑战「萨拉托加·META」累计其同步值获取<color=#92fc63>「萨拉托加·META」角色</color>及其他丰厚奖励\n<color=#ff5c5c>注意：同步值将于时间结束后消失</color>\n\n2.「信标数据」获取与解析\n·指挥官可通过在大型作战中获取「信标数据」，达到指定数据量后进行解析并发现特定信标\n·每日最多可获取 <color=#92fc63>200</color>点，每日0点刷新可获取点数，尚未使用的「信标数据」将会保留。\n·每次解析「信标数据」所需量为<color=#92fc63>100</color>点\n\n3.挑战自己解析的信标\n·第一次挑战自己解析的信标不会消耗石油，从第二次开始，随着挑战次数的增加，每次挑战消耗的石油会从<color=#92fc63>40</color>点逐渐减少至<color=#92fc63>0</color>点。(不会消耗挑战次数)\n·当信标HP归零后视为战斗胜利，指挥官可以领取大量角色同步值奖励。\n·每个被解析的信标只会存在<color=#92fc63>24小时</color>，过期后将会消失，记得向其他指挥官请求支援哦。\n·每次挑战成功后，信标的强度将会提升1阶段，总计15阶段。随着阶段提升，战斗奖励也会提升。\n\n4.挑战其他信标\n·在信标列表界面可以挑战其他指挥官发起求助的信标，参与其他指挥官发布的信标战斗结束后，将会根据造成的伤害程度<color=#92fc63>立刻获得角色同步值奖励</color>。\n·每次挑战需要消耗1点挑战次数，不需要消耗石油\n·每日拥有总计<color=#92fc63>3</color>点挑战次数，每日0点重置\n·同一个信标最多能允许累计30位指挥官进行挑战\n\n5.战斗说明\n·挑战信标萨拉托加·META暂不可使用指挥喵与潜艇\n·战斗结算时不会获得经验值，不会影响舰船心情值\n·战斗中不可中途退出，如果出现网络波动导致掉线的情况：\n①挑战自己解析的信标时将会消耗40点石油(非第一次挑战)，且不会计算已造成的伤害\n②挑战信标列表中的信标时将会消耗挑战次数且无法获得任何奖励\n <color=#92fc63>请在参与作战时保持网络环境畅通</color>\n\n6.火力支援\n随着信标萨拉托加·META挑战的进行，从第31天开始，即2026.10.5~2026.12.10期间，舰队挑战「萨拉托加·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标萨拉托加·META开放的日期增加，火力支援提供的伤害也会增加。\n※此支援只会在指挥官自己发现的信标萨拉托加·META战斗中出现，每次挑战均会触发。"
 			}
 		}
 	}
@@ -52761,7 +52785,7 @@ end)()
 				info = "·META研究室是进行META角色获取、养成的专用系统\n·META角色拥有<color=#92fc63>「能量激活」</color>、<color=#92fc63>「战术研习」</color>、<color=#92fc63>「舰装强化」</color>、<color=#92fc63>「资讯同步」</color>4个系统模块\n·重复获取的META角色将会自动转换为1个对应的角色结晶，可用于在<color=#92fc63>「能量激活」</color>中使用。\n"
 			},
 			{
-				info = "1.<color=#92fc63>资讯同步</color>\n·<color=#92fc63>2026.6.5-2026.9.4</color>期间限时开放「布里斯托尔·META」的「资讯同步」，通过「信标布里斯托尔·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「布里斯托尔·META」角色</color>\n·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励\n·注意：<color=#ff5c5c>「布里斯托尔·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>\n\n2.<color=#92fc63>能量激活</color>\n·META角色达到指定等级后可以使用对应的角色结晶进行激活。激活后可以提升角色星级\n·角色结晶可以通过「资讯同步」奖励获取\n"
+				info = "1.<color=#92fc63>资讯同步</color>\n·<color=#92fc63>2026.9.4-2026.12.10</color>期间限时开放「萨拉托加·META」的「资讯同步」，通过「信标萨拉托加·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「萨拉托加·META」角色</color>\n·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励\n·注意：<color=#ff5c5c>「萨拉托加·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>\n\n2.<color=#92fc63>能量激活</color>\n·META角色达到指定等级后可以使用对应的角色结晶进行激活。激活后可以提升角色星级\n·角色结晶可以通过「资讯同步」奖励获取\n"
 			},
 			{
 				info = "3.<color=#92fc63>战术研习</color>\n·完成战术研习任务获得META角色的技能升级经验，部分任务可以重复完成\n·一名角色只能同时进行一项技能的战术研习任务，多名角色之间彼此独立，同时进行\n·一名角色每日最多获取<color=#92fc63>30000</color>点技能升级经验，其中前<color=#92fc63>60%</color>的技能升级经验拥有双倍任务完成效率\n（剩余次数不满2次时不生效）\n·任务类型和可完成次数会随着技能等级升级而刷新\n"
@@ -53856,7 +53880,7 @@ end)()
 				info = "1.「EX」演习战斗具有一定难度，可以在「EX」演习的舰队选择界面点击<color=#92fc63>「模拟战」</color>按钮进行尝试，「模拟战」不消耗石油、心情、「特别挑战券」\n2.进行「EX」演习战斗时，中途掉线或者主动退出等中止战斗的情况都会扣除「特别挑战券」且<color=#ff5c5c>不会获得任何奖励</color><color=#ff5c5c>请在网络状态良好的情况下进行「EX」演习战斗</color>\n3.进行「简单」、「普通」、「困难」演习战斗时，中途掉线或者主动退出等中止战斗的情况会保留「额外收益次数」且不会获得任何奖励\n4.在所有难度的演习战斗中，舰船被击破不会消耗心情值，其余情况的心情值正常增减\n5.所有难度的演习战斗都会正常消耗石油，正常获得指挥官、出战角色和指挥喵经验\n"
 			},
 			{
-				info = "<color=#92fc63>活动说明</color>：\n1.在活动期间，参与演习战斗获取<color=#92fc63>「贡献值」</color>,和本服玩家协力攻略演习据点，获取据点阶段奖励和个人贡献奖励\n2.本次活动分为「简单」、「普通」、「困难」、「EX」4个难度的演习\n3.「简单」、「普通」、「困难」演习会获得固定「贡献值」,「EX」演习会根据<color=#92fc63>战斗中造成的伤害总量</color>获得「贡献值」和奖励，造成伤害越多「贡献值」越多，获得奖励越丰厚\n4.「简单」、「普通」、「困难」演习每次通关时可以获得额外收益， 额外收益每日有获得次数上限，每日「额外收益次数」上限3个难度各为<color=#92fc63>15次</color>\n5.「简单」、「普通」、「困难」演习每日挑战次数无限制，「EX」演习需要消耗<color=#92fc63>1个「特别挑战券」</color>才可以挑战\n6.演习战斗的出击队伍可以通过点击不同难度的按钮进行编成，允许携带潜艇和指挥喵\n7.活动期间，根据本服所有玩家获得的「贡献值」，消耗「演习据点」的耐久\n8.当「演习据点」耐久下降至<color=#92fc63>75%</color>、<color=#92fc63>50%</color>、<color=#92fc63>25%</color>以及<color=#92fc63>完全耗尽</color>后，会记录本服达成的里程碑时间，同时，在演习中获得过「贡献值」的玩家可以获得相应奖励\n9.奖励将在「演习据点」完全耗尽后，通过邮件发放，如果活动结束时耐久未被耗尽，则会根据据点推进进度，为在演习中获得过「贡献值」的玩家发放对应进度的奖励\n10.活动期间，可以领取个人贡献奖励，个人贡献奖励需要当据点攻略进度和拥有的「贡献值」达到指定要求后才能领取\n11.8月27日维护后-9月10日维护前可以参与演习战斗，奖励领取的截止时间为9月16日24时"
+				info = "<color=#92fc63>活动说明</color>：\n1.在活动期间，参与演习战斗获取<color=#92fc63>「贡献值」</color>,和本服玩家协力攻略演习据点，获取据点阶段奖励和个人贡献奖励\n2.本次活动分为「简单」、「普通」、「困难」、「EX」4个难度的演习\n3.「简单」、「普通」、「困难」演习会获得固定「贡献值」,「EX」演习会根据<color=#92fc63>战斗中造成的伤害总量</color>获得「贡献值」和奖励，造成伤害越多「贡献值」越多，获得奖励越丰厚\n4.「简单」、「普通」、「困难」演习每次通关时可以获得额外收益， 额外收益每日有获得次数上限，每日「额外收益次数」上限3个难度各为<color=#92fc63>15次</color>\n5.「简单」、「普通」、「困难」演习每日挑战次数无限制，「EX」演习需要消耗<color=#92fc63>1个「特别挑战券」</color>才可以挑战\n6.演习战斗的出击队伍可以通过点击不同难度的按钮进行编成，允许携带潜艇和指挥喵\n7.活动期间，根据本服所有玩家获得的「贡献值」，消耗「演习据点」的耐久\n8.当「演习据点」耐久下降至<color=#92fc63>75%</color>、<color=#92fc63>50%</color>、<color=#92fc63>25%</color>以及<color=#92fc63>完全耗尽</color>后，会记录本服达成的里程碑时间，同时，在演习中获得过「贡献值」的玩家可以获得相应奖励\n9.奖励将在「演习据点」完全耗尽后，通过邮件发放，如果活动结束时耐久未被耗尽，则会根据据点推进进度，为在演习中获得过「贡献值」的玩家发放对应进度的奖励\n10.活动期间，可以领取个人贡献奖励，个人贡献奖励需要当据点攻略进度和拥有的「贡献值」达到指定要求后才能领取\n11.8月27日维护后-9月8日维护前可以参与演习战斗，奖励领取的截止时间为9月16日24时"
 			},
 			{
 				info = "<color=#92fc63>特别挑战券说明</color>：\n1.特别挑战券可以通过活动期间的特殊每日任务获得，数量可以累积，活动结束后会被清空\n2.「简单」、「普通」、「困难」演习的「额外收益次数」为<color=#92fc63>0</color>的情况下，进行演习战斗时可以消耗<color=#92fc63>1个</color>「特别挑战券」增加1次对应难度演习的「额外收益次数」\n3.「EX」演习需要消耗<color=#92fc63>1个</color>「特别挑战券」"

@@ -89,57 +89,67 @@ function var_0_0.UpdateListItem(arg_9_0, arg_9_1, arg_9_2)
 	})
 end
 
-function var_0_0.UpdateTaskItem(arg_12_0, arg_12_1, arg_12_2, arg_12_3)
-	local var_12_0 = arg_12_2 + 1
-	local var_12_1 = arg_12_3:Find("item")
-	local var_12_2 = arg_12_0.taskGroup[arg_12_1][var_12_0]
-	local var_12_3 = arg_12_0.taskProxy:getTaskById(var_12_2) or arg_12_0.taskProxy:getFinishTaskById(var_12_2)
-	local var_12_4 = pg.task_data_template[var_12_2]
-	local var_12_5 = Drop.Create(var_12_4.award_display[1])
-
-	updateDrop(var_12_1, var_12_5)
-	onButton(arg_12_0, var_12_1, function()
-		arg_12_0:emit(BaseUI.ON_DROP, var_12_5)
-	end, SFX_PANEL)
-
-	local var_12_6 = var_12_3 and var_12_3:getProgress() or 0
-	local var_12_7 = var_12_4.target_num
-
-	setText(arg_12_3:Find("description"), var_12_4.desc)
-	setSlider(arg_12_3:Find("progress"), 0, var_12_7, var_12_6)
-	setText(arg_12_3:Find("progressText"), var_12_6 .. "/" .. var_12_7)
-end
-
-function var_0_0.getDate(arg_14_0, arg_14_1, arg_14_2)
-	local var_14_0 = pg.TimeMgr.GetInstance():CalcMonthDays(arg_14_0.year, arg_14_1)
-
-	if var_14_0 < arg_14_2 then
-		arg_14_2 = arg_14_2 - var_14_0
-		arg_14_1 = arg_14_1 + 1
-
-		if arg_14_1 > 12 then
-			arg_14_1 = 1
-			arg_14_0.year = arg_14_0.year + 1
-		end
-	end
-
-	return arg_14_1, arg_14_2
-end
-
-function var_0_0.GetProgressColor(arg_15_0)
+function var_0_0.GetProgressColor(arg_12_0)
 	return nil
 end
 
-function var_0_0.isTaskLock(arg_16_0, arg_16_1)
-	if arg_16_1 > arg_16_0.nday then
+function var_0_0.UpdateTaskItem(arg_13_0, arg_13_1, arg_13_2, arg_13_3)
+	local var_13_0 = arg_13_2 + 1
+	local var_13_1 = arg_13_3:Find("item")
+	local var_13_2 = arg_13_0.taskGroup[arg_13_1][var_13_0]
+	local var_13_3 = arg_13_0.taskProxy:getTaskById(var_13_2) or arg_13_0.taskProxy:getFinishTaskById(var_13_2)
+	local var_13_4 = pg.task_data_template[var_13_2]
+	local var_13_5 = Drop.Create(var_13_4.award_display[1])
+
+	updateDrop(var_13_1, var_13_5)
+	onButton(arg_13_0, var_13_1, function()
+		arg_13_0:emit(BaseUI.ON_DROP, var_13_5)
+	end, SFX_PANEL)
+
+	local var_13_6 = var_13_3 and var_13_3:getProgress() or 0
+	local var_13_7 = var_13_4.target_num
+
+	setText(arg_13_3:Find("description"), var_13_4.desc)
+	setSlider(arg_13_3:Find("progress"), 0, var_13_7, var_13_6)
+
+	local var_13_8, var_13_9 = var_0_0:GetProgressColor()
+
+	var_13_6 = var_13_8 and setColorStr(var_13_6, var_13_8) or var_13_6
+	var_13_7 = var_13_9 and setColorStr(var_13_7, var_13_9) or var_13_7
+
+	setText(arg_13_3:Find("progressText"), var_13_6 .. "/" .. var_13_7)
+end
+
+function var_0_0.getDate(arg_15_0, arg_15_1, arg_15_2)
+	local var_15_0 = pg.TimeMgr.GetInstance():CalcMonthDays(arg_15_0.year, arg_15_1)
+
+	if var_15_0 < arg_15_2 then
+		arg_15_2 = arg_15_2 - var_15_0
+		arg_15_1 = arg_15_1 + 1
+
+		if arg_15_1 > 12 then
+			arg_15_1 = 1
+			arg_15_0.year = arg_15_0.year + 1
+		end
+	end
+
+	return arg_15_1, arg_15_2
+end
+
+function var_0_0.GetProgressColor(arg_16_0)
+	return nil
+end
+
+function var_0_0.isTaskLock(arg_17_0, arg_17_1)
+	if arg_17_1 > arg_17_0.nday then
 		return 1
 	end
 
-	for iter_16_0 = 1, arg_16_1 - 1 do
-		local var_16_0 = arg_16_0.taskGroup[iter_16_0]
+	for iter_17_0 = 1, arg_17_1 - 1 do
+		local var_17_0 = arg_17_0.taskGroup[iter_17_0]
 
-		for iter_16_1, iter_16_2 in ipairs(var_16_0) do
-			if (arg_16_0.taskProxy:getTaskById(iter_16_2) or arg_16_0.taskProxy:getFinishTaskById(iter_16_2)):getTaskStatus() ~= 2 then
+		for iter_17_1, iter_17_2 in ipairs(var_17_0) do
+			if (arg_17_0.taskProxy:getTaskById(iter_17_2) or arg_17_0.taskProxy:getFinishTaskById(iter_17_2)):getTaskStatus() ~= 2 then
 				return 2
 			end
 		end
@@ -148,10 +158,10 @@ function var_0_0.isTaskLock(arg_16_0, arg_16_1)
 	return 0
 end
 
-function var_0_0.Hide(arg_17_0)
-	if arg_17_0:isShowing() then
-		var_0_0.super.Hide(arg_17_0)
-		pg.UIMgr.GetInstance():UnOverlayPanel(arg_17_0._tf, arg_17_0._parentTf)
+function var_0_0.Hide(arg_18_0)
+	if arg_18_0:isShowing() then
+		var_0_0.super.Hide(arg_18_0)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_18_0._tf, arg_18_0._parentTf)
 	end
 end
 

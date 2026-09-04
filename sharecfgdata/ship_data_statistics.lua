@@ -97281,7 +97281,8 @@ end)()
 		},
 		tag_list = {
 			"J-Class",
-			"Jersey Skill"
+			"Jersey Skill",
+			"Javelin"
 		},
 		gift_dislike = {
 			180007,
@@ -97413,7 +97414,8 @@ end)()
 		},
 		tag_list = {
 			"J-Class",
-			"Jersey Skill"
+			"Jersey Skill",
+			"Javelin"
 		},
 		gift_dislike = {
 			180007,
@@ -97545,7 +97547,8 @@ end)()
 		},
 		tag_list = {
 			"J-Class",
-			"Jersey Skill"
+			"Jersey Skill",
+			"Javelin"
 		},
 		gift_dislike = {
 			180007,
@@ -97677,7 +97680,8 @@ end)()
 		},
 		tag_list = {
 			"J-Class",
-			"Jersey Skill"
+			"Jersey Skill",
+			"Javelin"
 		},
 		gift_dislike = {
 			180007,
@@ -484128,6 +484132,530 @@ end)()
 		gift_dislike = {
 			180009,
 			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9707101] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "萨拉托加·META",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 9707100,
+		english_name = "Saratoga.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9707101,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1233,
+			0,
+			0,
+			68,
+			85,
+			48,
+			0,
+			25,
+			10,
+			33,
+			66,
+			0
+		},
+		attrs_growth = {
+			22486,
+			0,
+			0,
+			863,
+			1038,
+			332,
+			0,
+			348,
+			270,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.25,
+			1.25
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SaratogaMETA"
+		},
+		gift_dislike = {
+			180004,
+			180006
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9707102] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "萨拉托加·META",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 9707100,
+		english_name = "Saratoga.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9707102,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1534,
+			0,
+			0,
+			85,
+			106,
+			48,
+			0,
+			25,
+			10,
+			33,
+			66,
+			0
+		},
+		attrs_growth = {
+			22486,
+			0,
+			0,
+			863,
+			1038,
+			332,
+			0,
+			348,
+			270,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.13,
+			1.28,
+			1.28
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SaratogaMETA"
+		},
+		gift_dislike = {
+			180004,
+			180006
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9707103] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "萨拉托加·META",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 9707100,
+		english_name = "Saratoga.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9707103,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2135,
+			0,
+			0,
+			118,
+			148,
+			48,
+			0,
+			25,
+			10,
+			33,
+			66,
+			0
+		},
+		attrs_growth = {
+			22486,
+			0,
+			0,
+			863,
+			1038,
+			332,
+			0,
+			348,
+			270,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.18,
+			1.33,
+			1.33
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SaratogaMETA"
+		},
+		gift_dislike = {
+			180004,
+			180006
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9707104] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "萨拉托加·META",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 9707100,
+		english_name = "Saratoga.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9707104,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			3037,
+			0,
+			0,
+			168,
+			212,
+			48,
+			0,
+			25,
+			10,
+			33,
+			66,
+			0
+		},
+		attrs_growth = {
+			22486,
+			0,
+			0,
+			863,
+			1038,
+			332,
+			0,
+			348,
+			270,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.4,
+			1.4
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"SaratogaMETA"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()

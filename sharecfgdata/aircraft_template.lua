@@ -88502,6 +88502,424 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.aircraft_template[161811] = {
+		attack_power = 2,
+		name = "萨拉托加metaSBDLv1",
+		type = 1,
+		accuracy = 23,
+		model_ID = "alter_plane2_blue",
+		ACC_growth = 0,
+		crash_DMG = 156,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 97,
+		id = 161811,
+		icon = "alter_plane2_blue",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1183,
+		speed = 46,
+		max_hp = 48,
+		scale = 0.75,
+		weapon_ID = {
+			161841,
+			161851
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[161812] = {
+		id = 161812,
+		name = "萨拉托加metaSBDLv2",
+		hp_growth = 1345,
+		base = 161811,
+		max_hp = 54,
+		spawn_brownian = 1,
+		weapon_ID = {
+			161842,
+			161852
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[161813] = {
+		id = 161813,
+		name = "萨拉托加metaSBDLv3",
+		hp_growth = 1507,
+		base = 161811,
+		max_hp = 61,
+		spawn_brownian = 1,
+		weapon_ID = {
+			161843,
+			161853
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[161814] = {
+		id = 161814,
+		name = "萨拉托加metaSBDLv4",
+		hp_growth = 1669,
+		base = 161811,
+		max_hp = 67,
+		spawn_brownian = 1,
+		weapon_ID = {
+			161844,
+			161854
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[161815] = {
+		id = 161815,
+		name = "萨拉托加metaSBDLv5",
+		hp_growth = 1831,
+		base = 161811,
+		max_hp = 73,
+		spawn_brownian = 1,
+		weapon_ID = {
+			161845,
+			161855
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[161816] = {
+		id = 161816,
+		name = "萨拉托加metaSBDLv6",
+		hp_growth = 1994,
+		base = 161811,
+		max_hp = 79,
+		spawn_brownian = 1,
+		weapon_ID = {
+			161846,
+			161856
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[161817] = {
+		id = 161817,
+		name = "萨拉托加metaSBDLv7",
+		hp_growth = 2157,
+		base = 161811,
+		max_hp = 86,
+		spawn_brownian = 1,
+		weapon_ID = {
+			161847,
+			161857
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[161818] = {
+		id = 161818,
+		name = "萨拉托加metaSBDLv8",
+		hp_growth = 2320,
+		base = 161811,
+		max_hp = 92,
+		spawn_brownian = 1,
+		weapon_ID = {
+			161848,
+			161858
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[161819] = {
+		id = 161819,
+		name = "萨拉托加metaSBDLv9",
+		hp_growth = 2483,
+		base = 161811,
+		max_hp = 98,
+		spawn_brownian = 1,
+		weapon_ID = {
+			161849,
+			161859
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[161820] = {
+		id = 161820,
+		name = "萨拉托加metaSBDLv10",
+		hp_growth = 2646,
+		base = 161811,
+		max_hp = 104,
+		spawn_brownian = 1,
+		weapon_ID = {
+			161850,
+			161860
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[161821] = {
+		attack_power = 2,
+		name = "萨拉托加metaHVARLv1",
+		type = 1,
+		accuracy = 23,
+		model_ID = "alter_plane2_blue",
+		ACC_growth = 0,
+		crash_DMG = 206,
+		dodge = 3.03,
+		funnel_behavior = "",
+		nationality = 97,
+		id = 161821,
+		icon = "alter_plane2_blue",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 2.2,
+		hp_growth = 2076,
+		speed = 45,
+		max_hp = 54,
+		scale = 0.75,
+		weapon_ID = {
+			161831
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[161822] = {
+		id = 161822,
+		name = "萨拉托加metaHVARLv2",
+		hp_growth = 2387,
+		base = 161821,
+		max_hp = 62,
+		spawn_brownian = 1,
+		weapon_ID = {
+			161832
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[161823] = {
+		id = 161823,
+		name = "萨拉托加metaHVARLv3",
+		hp_growth = 2698,
+		base = 161821,
+		max_hp = 70,
+		spawn_brownian = 1,
+		weapon_ID = {
+			161833
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[161824] = {
+		id = 161824,
+		name = "萨拉托加metaHVARLv4",
+		hp_growth = 3010,
+		base = 161821,
+		max_hp = 78,
+		spawn_brownian = 1,
+		weapon_ID = {
+			161834
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[161825] = {
+		id = 161825,
+		name = "萨拉托加metaHVARLv5",
+		hp_growth = 3321,
+		base = 161821,
+		max_hp = 86,
+		spawn_brownian = 1,
+		weapon_ID = {
+			161835
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[161826] = {
+		id = 161826,
+		name = "萨拉托加metaHVARLv6",
+		hp_growth = 3632,
+		base = 161821,
+		max_hp = 94,
+		spawn_brownian = 1,
+		weapon_ID = {
+			161836
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[161827] = {
+		id = 161827,
+		name = "萨拉托加metaHVARLv7",
+		hp_growth = 3944,
+		base = 161821,
+		max_hp = 103,
+		spawn_brownian = 1,
+		weapon_ID = {
+			161837
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[161828] = {
+		id = 161828,
+		name = "萨拉托加metaHVARLv8",
+		hp_growth = 4255,
+		base = 161821,
+		max_hp = 111,
+		spawn_brownian = 1,
+		weapon_ID = {
+			161838
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[161829] = {
+		id = 161829,
+		name = "萨拉托加metaHVARLv9",
+		hp_growth = 4566,
+		base = 161821,
+		max_hp = 119,
+		spawn_brownian = 1,
+		weapon_ID = {
+			161839
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[161830] = {
+		id = 161830,
+		name = "萨拉托加metaHVARLv10",
+		hp_growth = 4878,
+		base = 161821,
+		max_hp = 127,
+		spawn_brownian = 1,
+		weapon_ID = {
+			161840
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.aircraft_template[162221] = {
 		attack_power = 2,
 		name = "貉-实例化-塞壬浮游炮-LV1",
@@ -103162,6 +103580,424 @@ end)()
 		spawn_brownian = 1,
 		weapon_ID = {
 			184530
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184651] = {
+		attack_power = 2,
+		name = "无畏专武技能SB2C(VB-18)轰炸机Lv1",
+		type = 3,
+		accuracy = 23,
+		model_ID = "sb2c",
+		ACC_growth = 0,
+		crash_DMG = 180,
+		dodge = 3.33,
+		funnel_behavior = "",
+		nationality = 1,
+		id = 184651,
+		icon = "sb2c",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 1,
+		hp_growth = 1870,
+		speed = 45,
+		max_hp = 49,
+		scale = 1,
+		weapon_ID = {
+			184661,
+			184671
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.44,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184652] = {
+		id = 184652,
+		name = "无畏专武技能SB2C(VB-18)轰炸机Lv2",
+		hp_growth = 2114,
+		base = 184651,
+		max_hp = 55,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184662,
+			184672
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184653] = {
+		id = 184653,
+		name = "无畏专武技能SB2C(VB-18)轰炸机Lv3",
+		hp_growth = 2358,
+		base = 184651,
+		max_hp = 61,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184663,
+			184673
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184654] = {
+		id = 184654,
+		name = "无畏专武技能SB2C(VB-18)轰炸机Lv4",
+		hp_growth = 2602,
+		base = 184651,
+		max_hp = 68,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184664,
+			184674
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184655] = {
+		id = 184655,
+		name = "无畏专武技能SB2C(VB-18)轰炸机Lv5",
+		hp_growth = 2846,
+		base = 184651,
+		max_hp = 74,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184665,
+			184675
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184656] = {
+		id = 184656,
+		name = "无畏专武技能SB2C(VB-18)轰炸机Lv6",
+		hp_growth = 3090,
+		base = 184651,
+		max_hp = 80,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184666,
+			184676
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184657] = {
+		id = 184657,
+		name = "无畏专武技能SB2C(VB-18)轰炸机Lv7",
+		hp_growth = 3334,
+		base = 184651,
+		max_hp = 87,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184667,
+			184677
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184658] = {
+		id = 184658,
+		name = "无畏专武技能SB2C(VB-18)轰炸机Lv8",
+		hp_growth = 3578,
+		base = 184651,
+		max_hp = 93,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184668,
+			184678
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184659] = {
+		id = 184659,
+		name = "无畏专武技能SB2C(VB-18)轰炸机Lv9",
+		hp_growth = 3822,
+		base = 184651,
+		max_hp = 99,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184669,
+			184679
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184660] = {
+		id = 184660,
+		name = "无畏专武技能SB2C(VB-18)轰炸机Lv10",
+		hp_growth = 4066,
+		base = 184651,
+		max_hp = 106,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184670,
+			184680
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184681] = {
+		attack_power = 2,
+		name = "无畏专武技能SB2C(VB-18)火箭机Lv1",
+		type = 3,
+		accuracy = 23,
+		model_ID = "sb2c",
+		ACC_growth = 0,
+		crash_DMG = 180,
+		dodge = 3.33,
+		funnel_behavior = "",
+		nationality = 1,
+		id = 184681,
+		icon = "sb2c",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 1,
+		hp_growth = 1870,
+		speed = 45,
+		max_hp = 49,
+		scale = 1,
+		weapon_ID = {
+			184691
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.44,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184682] = {
+		id = 184682,
+		name = "无畏专武技能SB2C(VB-18)火箭机Lv2",
+		hp_growth = 2114,
+		base = 184681,
+		max_hp = 55,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184692
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184683] = {
+		id = 184683,
+		name = "无畏专武技能SB2C(VB-18)火箭机Lv3",
+		hp_growth = 2358,
+		base = 184681,
+		max_hp = 61,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184693
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184684] = {
+		id = 184684,
+		name = "无畏专武技能SB2C(VB-18)火箭机Lv4",
+		hp_growth = 2602,
+		base = 184681,
+		max_hp = 68,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184694
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184685] = {
+		id = 184685,
+		name = "无畏专武技能SB2C(VB-18)火箭机Lv5",
+		hp_growth = 2846,
+		base = 184681,
+		max_hp = 74,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184695
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184686] = {
+		id = 184686,
+		name = "无畏专武技能SB2C(VB-18)火箭机Lv6",
+		hp_growth = 3090,
+		base = 184681,
+		max_hp = 80,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184696
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184687] = {
+		id = 184687,
+		name = "无畏专武技能SB2C(VB-18)火箭机Lv7",
+		hp_growth = 3334,
+		base = 184681,
+		max_hp = 87,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184697
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184688] = {
+		id = 184688,
+		name = "无畏专武技能SB2C(VB-18)火箭机Lv8",
+		hp_growth = 3578,
+		base = 184681,
+		max_hp = 93,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184698
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184689] = {
+		id = 184689,
+		name = "无畏专武技能SB2C(VB-18)火箭机Lv9",
+		hp_growth = 3822,
+		base = 184681,
+		max_hp = 99,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184699
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184690] = {
+		id = 184690,
+		name = "无畏专武技能SB2C(VB-18)火箭机Lv10",
+		hp_growth = 4066,
+		base = 184681,
+		max_hp = 106,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184700
 		}
 	}
 end)()
@@ -262261,6 +263097,796 @@ end)()
 		hp_growth = 1960,
 		speed = 30,
 		max_hp = 94,
+		scale = 0.75,
+		weapon_ID = {
+			2983014,
+			2983024
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[2986005] = {
+		attack_power = 50,
+		name = "【大世界】萨拉托加meta 本体火箭弹战斗机 Lv1",
+		type = 1,
+		accuracy = 25,
+		model_ID = "f6f",
+		ACC_growth = 0,
+		crash_DMG = 36,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 97,
+		id = 2986005,
+		icon = "f6f",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1960,
+		speed = 33,
+		max_hp = 153,
+		scale = 0.75,
+		weapon_ID = {
+			2983010,
+			2983015
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[2986006] = {
+		attack_power = 50,
+		name = "【大世界】萨拉托加meta 本体火箭弹战斗机 Lv2",
+		type = 1,
+		accuracy = 30,
+		model_ID = "f6f",
+		ACC_growth = 0,
+		crash_DMG = 48,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 97,
+		id = 2986006,
+		icon = "f6f",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1960,
+		speed = 33,
+		max_hp = 211,
+		scale = 0.75,
+		weapon_ID = {
+			2983011,
+			2983016
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[2986007] = {
+		attack_power = 50,
+		name = "【大世界】萨拉托加meta 本体火箭弹战斗机 Lv3",
+		type = 1,
+		accuracy = 35,
+		model_ID = "f6f",
+		ACC_growth = 0,
+		crash_DMG = 62,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 97,
+		id = 2986007,
+		icon = "f6f",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1960,
+		speed = 33,
+		max_hp = 268,
+		scale = 0.75,
+		weapon_ID = {
+			2983012,
+			2983017
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[2986008] = {
+		attack_power = 50,
+		name = "【大世界】萨拉托加meta 本体火箭弹战斗机 Lv4",
+		type = 1,
+		accuracy = 40,
+		model_ID = "f6f",
+		ACC_growth = 0,
+		crash_DMG = 78,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 97,
+		id = 2986008,
+		icon = "f6f",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1960,
+		speed = 33,
+		max_hp = 326,
+		scale = 0.75,
+		weapon_ID = {
+			2983013,
+			2983018
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[2986009] = {
+		attack_power = 50,
+		name = "【大世界】萨拉托加meta 本体火箭弹战斗机 Lv5",
+		type = 1,
+		accuracy = 45,
+		model_ID = "f6f",
+		ACC_growth = 0,
+		crash_DMG = 98,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 97,
+		id = 2986009,
+		icon = "f6f",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1960,
+		speed = 33,
+		max_hp = 384,
+		scale = 0.75,
+		weapon_ID = {
+			2983014,
+			2983019
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[2986010] = {
+		attack_power = 50,
+		name = "【大世界】萨拉托加meta 本体火箭弹轰炸机 Lv1",
+		type = 3,
+		accuracy = 25,
+		model_ID = "ad1",
+		ACC_growth = 0,
+		crash_DMG = 65,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 97,
+		id = 2986010,
+		icon = "ad1",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1960,
+		speed = 30,
+		max_hp = 192,
+		scale = 0.75,
+		weapon_ID = {
+			2983010,
+			2983020
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[2986011] = {
+		attack_power = 50,
+		name = "【大世界】萨拉托加meta 本体火箭弹轰炸机 Lv2",
+		type = 3,
+		accuracy = 30,
+		model_ID = "ad1",
+		ACC_growth = 0,
+		crash_DMG = 85,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 97,
+		id = 2986011,
+		icon = "ad1",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1960,
+		speed = 30,
+		max_hp = 264,
+		scale = 0.75,
+		weapon_ID = {
+			2983011,
+			2983021
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[2986012] = {
+		attack_power = 50,
+		name = "【大世界】萨拉托加meta 本体火箭弹轰炸机 Lv3",
+		type = 3,
+		accuracy = 35,
+		model_ID = "ad1",
+		ACC_growth = 0,
+		crash_DMG = 110,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 97,
+		id = 2986012,
+		icon = "ad1",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1960,
+		speed = 30,
+		max_hp = 336,
+		scale = 0.75,
+		weapon_ID = {
+			2983012,
+			2983022
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[2986013] = {
+		attack_power = 50,
+		name = "【大世界】萨拉托加meta 本体火箭弹轰炸机 Lv4",
+		type = 3,
+		accuracy = 40,
+		model_ID = "ad1",
+		ACC_growth = 0,
+		crash_DMG = 140,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 97,
+		id = 2986013,
+		icon = "ad1",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1960,
+		speed = 30,
+		max_hp = 408,
+		scale = 0.75,
+		weapon_ID = {
+			2983013,
+			2983023
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[2986014] = {
+		attack_power = 50,
+		name = "【大世界】萨拉托加meta 本体火箭弹轰炸机 Lv5",
+		type = 3,
+		accuracy = 45,
+		model_ID = "ad1",
+		ACC_growth = 0,
+		crash_DMG = 175,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 97,
+		id = 2986014,
+		icon = "ad1",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1960,
+		speed = 30,
+		max_hp = 480,
 		scale = 0.75,
 		weapon_ID = {
 			2983014,

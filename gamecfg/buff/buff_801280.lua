@@ -7,8 +7,9 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
-				hpUpperBound = 1,
+				hpsigned = 0,
 				target = "TargetSelf",
+				hpUpperBound = 1,
 				skill_id = 801281,
 				hpLowerBound = 0.5
 			}
@@ -20,8 +21,9 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
-				hpUpperBound = 0.5,
+				hpsigned = 0,
 				target = "TargetSelf",
+				hpUpperBound = 0.5,
 				skill_id = 801282,
 				hpLowerBound = 0.45
 			}
@@ -33,8 +35,9 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
-				hpUpperBound = 0.45,
+				hpsigned = 0,
 				target = "TargetSelf",
+				hpUpperBound = 0.45,
 				skill_id = 801283,
 				hpLowerBound = 0.4
 			}
@@ -46,8 +49,9 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
-				hpUpperBound = 0.4,
+				hpsigned = 0,
 				target = "TargetSelf",
+				hpUpperBound = 0.4,
 				skill_id = 801284,
 				hpLowerBound = 0.35
 			}
@@ -59,8 +63,9 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
-				hpUpperBound = 0.35,
+				hpsigned = 0,
 				target = "TargetSelf",
+				hpUpperBound = 0.35,
 				skill_id = 801285,
 				hpLowerBound = 0.3
 			}
@@ -72,8 +77,9 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
-				hpUpperBound = 0.3,
+				hpsigned = 0,
 				target = "TargetSelf",
+				hpUpperBound = 0.3,
 				skill_id = 801286,
 				hpLowerBound = 0.25
 			}
@@ -85,8 +91,9 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
-				hpUpperBound = 0.25,
+				hpsigned = 0,
 				target = "TargetSelf",
+				hpUpperBound = 0.25,
 				skill_id = 801287,
 				hpLowerBound = 0.2
 			}
@@ -98,8 +105,9 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
-				hpUpperBound = 0.2,
+				hpsigned = 0,
 				target = "TargetSelf",
+				hpUpperBound = 0.2,
 				skill_id = 801288,
 				hpLowerBound = 0.15
 			}
@@ -111,8 +119,9 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
-				hpUpperBound = 0.15,
+				hpsigned = 0,
 				target = "TargetSelf",
+				hpUpperBound = 0.15,
 				skill_id = 801289,
 				hpLowerBound = 0.1
 			}
@@ -124,8 +133,9 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
-				hpUpperBound = 0.1,
+				hpsigned = 0,
 				target = "TargetSelf",
+				hpUpperBound = 0.1,
 				skill_id = 801310,
 				hpLowerBound = 0.05
 			}
@@ -137,8 +147,9 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
-				hpUpperBound = 0.05,
+				hpsigned = 0,
 				target = "TargetSelf",
+				hpUpperBound = 0.05,
 				skill_id = 801311,
 				hpLowerBound = 0
 			}

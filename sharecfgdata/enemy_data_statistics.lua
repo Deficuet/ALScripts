@@ -188741,6 +188741,158 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.enemy_data_statistics[91298] = {
+		cannon = 0,
+		name = "萨拉托加·META",
+		type = 7,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 0,
+		id = 91298,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "salatuojia_alter",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 7,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "salatuojia_alter",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 97,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.7,
+					0.792,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.164,
+					0.073,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.682,
+					0.764,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.48,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"appearQ"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.enemy_data_statistics[611] = {
 		cannon = 22,
 		speed = 16,
@@ -759081,6 +759233,741 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.enemy_data_statistics[295346] = {
+		cannon = 82,
+		name = "萨拉托加·META(Tier.1)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 163,
+		hit_growth = 0,
+		dodge = 25,
+		base = 91298,
+		antiaircraft = 116,
+		speed = 30,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 50,
+		battle_unit_type = 90,
+		hit = 35,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo_growth = 0,
+		torpedo = 0,
+		durability = 61000,
+		armor_growth = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295346,
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201891,
+				LV = 1
+			},
+			{
+				ID = 201895,
+				LV = 1
+			},
+			{
+				ID = 201896,
+				LV = 1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[295347] = {
+		cannon = 93,
+		name = "萨拉托加·META(Tier.2)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 186,
+		hit_growth = 0,
+		dodge = 28,
+		base = 91298,
+		antiaircraft = 133,
+		speed = 30,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 50,
+		battle_unit_type = 90,
+		hit = 40,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo_growth = 0,
+		torpedo = 0,
+		durability = 66000,
+		armor_growth = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295347,
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201891,
+				LV = 1
+			},
+			{
+				ID = 201895,
+				LV = 1
+			},
+			{
+				ID = 201896,
+				LV = 1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[295348] = {
+		cannon = 105,
+		name = "萨拉托加·META(Tier.3)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 209,
+		hit_growth = 0,
+		dodge = 32,
+		base = 91298,
+		antiaircraft = 150,
+		speed = 30,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 50,
+		battle_unit_type = 90,
+		hit = 45,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo_growth = 0,
+		torpedo = 0,
+		durability = 71000,
+		armor_growth = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295348,
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201891,
+				LV = 1
+			},
+			{
+				ID = 201895,
+				LV = 1
+			},
+			{
+				ID = 201896,
+				LV = 1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[295349] = {
+		cannon = 117,
+		name = "萨拉托加·META(Tier.4)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 232,
+		hit_growth = 0,
+		dodge = 35,
+		base = 91298,
+		antiaircraft = 166,
+		speed = 30,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 50,
+		battle_unit_type = 90,
+		hit = 50,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo_growth = 0,
+		torpedo = 0,
+		durability = 86000,
+		armor_growth = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295349,
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201891,
+				LV = 1
+			},
+			{
+				ID = 201895,
+				LV = 1
+			},
+			{
+				ID = 201896,
+				LV = 2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[295350] = {
+		cannon = 128,
+		name = "萨拉托加·META(Tier.5)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 256,
+		hit_growth = 0,
+		dodge = 39,
+		base = 91298,
+		antiaircraft = 183,
+		speed = 30,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 50,
+		battle_unit_type = 90,
+		hit = 55,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo_growth = 0,
+		torpedo = 0,
+		durability = 135000,
+		armor_growth = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295350,
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201891,
+				LV = 1
+			},
+			{
+				ID = 201895,
+				LV = 1
+			},
+			{
+				ID = 201896,
+				LV = 2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[295351] = {
+		cannon = 140,
+		name = "萨拉托加·META(Tier.6)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 279,
+		hit_growth = 0,
+		dodge = 42,
+		base = 91298,
+		antiaircraft = 200,
+		speed = 30,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 50,
+		battle_unit_type = 90,
+		hit = 60,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo_growth = 0,
+		torpedo = 0,
+		durability = 184000,
+		armor_growth = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295351,
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201891,
+				LV = 1
+			},
+			{
+				ID = 201895,
+				LV = 1
+			},
+			{
+				ID = 201896,
+				LV = 2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[295352] = {
+		cannon = 152,
+		name = "萨拉托加·META(Tier.7)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 302,
+		hit_growth = 0,
+		dodge = 46,
+		base = 91298,
+		antiaircraft = 216,
+		speed = 30,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 50,
+		battle_unit_type = 90,
+		hit = 65,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo_growth = 0,
+		torpedo = 0,
+		durability = 282000,
+		armor_growth = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295352,
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201891,
+				LV = 1
+			},
+			{
+				ID = 201895,
+				LV = 1
+			},
+			{
+				ID = 201896,
+				LV = 3
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[295353] = {
+		cannon = 164,
+		name = "萨拉托加·META(Tier.8)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 326,
+		hit_growth = 0,
+		dodge = 50,
+		base = 91298,
+		antiaircraft = 233,
+		speed = 30,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 50,
+		battle_unit_type = 90,
+		hit = 70,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo_growth = 0,
+		torpedo = 0,
+		durability = 381000,
+		armor_growth = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295353,
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201891,
+				LV = 1
+			},
+			{
+				ID = 201895,
+				LV = 1
+			},
+			{
+				ID = 201896,
+				LV = 3
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[295354] = {
+		cannon = 175,
+		name = "萨拉托加·META(Tier.9)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 349,
+		hit_growth = 0,
+		dodge = 53,
+		base = 91298,
+		antiaircraft = 250,
+		speed = 30,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 50,
+		battle_unit_type = 90,
+		hit = 75,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo_growth = 0,
+		torpedo = 0,
+		durability = 479000,
+		armor_growth = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295354,
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201891,
+				LV = 1
+			},
+			{
+				ID = 201895,
+				LV = 1
+			},
+			{
+				ID = 201896,
+				LV = 3
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[295355] = {
+		cannon = 187,
+		name = "萨拉托加·META(Tier.10)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 372,
+		hit_growth = 0,
+		dodge = 57,
+		base = 91298,
+		antiaircraft = 266,
+		speed = 30,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 50,
+		battle_unit_type = 90,
+		hit = 80,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo_growth = 0,
+		torpedo = 0,
+		durability = 590000,
+		armor_growth = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295355,
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201891,
+				LV = 1
+			},
+			{
+				ID = 201895,
+				LV = 1
+			},
+			{
+				ID = 201896,
+				LV = 4
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[295356] = {
+		cannon = 199,
+		name = "萨拉托加·META(Tier.11)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 395,
+		hit_growth = 0,
+		dodge = 60,
+		base = 91298,
+		antiaircraft = 283,
+		speed = 30,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 50,
+		battle_unit_type = 90,
+		hit = 85,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo_growth = 0,
+		torpedo = 0,
+		durability = 737000,
+		armor_growth = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295356,
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201891,
+				LV = 1
+			},
+			{
+				ID = 201895,
+				LV = 1
+			},
+			{
+				ID = 201896,
+				LV = 4
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[295357] = {
+		cannon = 210,
+		name = "萨拉托加·META(Tier.12)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 419,
+		hit_growth = 0,
+		dodge = 64,
+		base = 91298,
+		antiaircraft = 300,
+		speed = 30,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 50,
+		battle_unit_type = 90,
+		hit = 90,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo_growth = 0,
+		torpedo = 0,
+		durability = 959000,
+		armor_growth = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295357,
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201891,
+				LV = 1
+			},
+			{
+				ID = 201895,
+				LV = 1
+			},
+			{
+				ID = 201896,
+				LV = 4
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[295358] = {
+		cannon = 222,
+		name = "萨拉托加·META(Tier.13)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 442,
+		hit_growth = 0,
+		dodge = 67,
+		base = 91298,
+		antiaircraft = 316,
+		speed = 30,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 50,
+		battle_unit_type = 90,
+		hit = 95,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo_growth = 0,
+		torpedo = 0,
+		durability = 1229000,
+		armor_growth = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295358,
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201891,
+				LV = 1
+			},
+			{
+				ID = 201895,
+				LV = 1
+			},
+			{
+				ID = 201896,
+				LV = 5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[295359] = {
+		cannon = 234,
+		name = "萨拉托加·META(Tier.14)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 465,
+		hit_growth = 0,
+		dodge = 71,
+		base = 91298,
+		antiaircraft = 333,
+		speed = 30,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 50,
+		battle_unit_type = 90,
+		hit = 100,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo_growth = 0,
+		torpedo = 0,
+		durability = 1524000,
+		armor_growth = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295359,
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201891,
+				LV = 1
+			},
+			{
+				ID = 201895,
+				LV = 1
+			},
+			{
+				ID = 201896,
+				LV = 5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[295360] = {
+		cannon = 246,
+		name = "萨拉托加·META(Tier.15)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 489,
+		hit_growth = 0,
+		dodge = 75,
+		base = 91298,
+		antiaircraft = 350,
+		speed = 30,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 50,
+		battle_unit_type = 90,
+		hit = 110,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo_growth = 0,
+		torpedo = 0,
+		durability = 1820000,
+		armor_growth = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295360,
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201891,
+				LV = 1
+			},
+			{
+				ID = 201895,
+				LV = 1
+			},
+			{
+				ID = 201896,
+				LV = 5
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.enemy_data_statistics[295901] = {
 		cannon = 115,
 		reload = 150,
@@ -771732,6 +772619,531 @@ end)()
 				LV = 5
 			}
 		}
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[296331] = {
+		cannon = 82,
+		reload = 150,
+		rarity = 2,
+		cannon_growth = 0,
+		torpedo = 0,
+		air = 163,
+		durability_growth = 0,
+		dodge = 0,
+		antiaircraft = 0,
+		speed = 120,
+		luck = 50,
+		reload_growth = 0,
+		dodge_growth = 0,
+		icon = "sairenboss11",
+		star = 2,
+		hit = 35,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90535,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		speed_growth = 0,
+		id = 296331,
+		antisub = 0,
+		fog_fx = ""
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[296332] = {
+		cannon = 93,
+		reload = 150,
+		rarity = 2,
+		cannon_growth = 0,
+		torpedo = 0,
+		air = 186,
+		durability_growth = 0,
+		dodge = 0,
+		antiaircraft = 0,
+		speed = 120,
+		luck = 50,
+		reload_growth = 0,
+		dodge_growth = 0,
+		icon = "sairenboss11",
+		star = 2,
+		hit = 40,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90535,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		speed_growth = 0,
+		id = 296332,
+		antisub = 0,
+		fog_fx = ""
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[296333] = {
+		cannon = 105,
+		reload = 150,
+		rarity = 2,
+		cannon_growth = 0,
+		torpedo = 0,
+		air = 209,
+		durability_growth = 0,
+		dodge = 0,
+		antiaircraft = 0,
+		speed = 120,
+		luck = 50,
+		reload_growth = 0,
+		dodge_growth = 0,
+		icon = "sairenboss11",
+		star = 2,
+		hit = 45,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90535,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		speed_growth = 0,
+		id = 296333,
+		antisub = 0,
+		fog_fx = ""
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[296334] = {
+		cannon = 117,
+		reload = 150,
+		rarity = 2,
+		cannon_growth = 0,
+		torpedo = 0,
+		air = 232,
+		durability_growth = 0,
+		dodge = 0,
+		antiaircraft = 0,
+		speed = 120,
+		luck = 50,
+		reload_growth = 0,
+		dodge_growth = 0,
+		icon = "sairenboss11",
+		star = 2,
+		hit = 50,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90535,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		speed_growth = 0,
+		id = 296334,
+		antisub = 0,
+		fog_fx = ""
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[296335] = {
+		cannon = 128,
+		reload = 150,
+		rarity = 2,
+		cannon_growth = 0,
+		torpedo = 0,
+		air = 256,
+		durability_growth = 0,
+		dodge = 0,
+		antiaircraft = 0,
+		speed = 120,
+		luck = 50,
+		reload_growth = 0,
+		dodge_growth = 0,
+		icon = "sairenboss11",
+		star = 2,
+		hit = 55,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90535,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		speed_growth = 0,
+		id = 296335,
+		antisub = 0,
+		fog_fx = ""
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[296336] = {
+		cannon = 140,
+		reload = 150,
+		rarity = 2,
+		cannon_growth = 0,
+		torpedo = 0,
+		air = 279,
+		durability_growth = 0,
+		dodge = 0,
+		antiaircraft = 0,
+		speed = 120,
+		luck = 50,
+		reload_growth = 0,
+		dodge_growth = 0,
+		icon = "sairenboss11",
+		star = 2,
+		hit = 60,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90535,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		speed_growth = 0,
+		id = 296336,
+		antisub = 0,
+		fog_fx = ""
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[296337] = {
+		cannon = 152,
+		reload = 150,
+		rarity = 2,
+		cannon_growth = 0,
+		torpedo = 0,
+		air = 302,
+		durability_growth = 0,
+		dodge = 0,
+		antiaircraft = 0,
+		speed = 120,
+		luck = 50,
+		reload_growth = 0,
+		dodge_growth = 0,
+		icon = "sairenboss11",
+		star = 2,
+		hit = 65,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90535,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		speed_growth = 0,
+		id = 296337,
+		antisub = 0,
+		fog_fx = ""
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[296338] = {
+		cannon = 164,
+		reload = 150,
+		rarity = 2,
+		cannon_growth = 0,
+		torpedo = 0,
+		air = 326,
+		durability_growth = 0,
+		dodge = 0,
+		antiaircraft = 0,
+		speed = 120,
+		luck = 50,
+		reload_growth = 0,
+		dodge_growth = 0,
+		icon = "sairenboss11",
+		star = 2,
+		hit = 70,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90535,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		speed_growth = 0,
+		id = 296338,
+		antisub = 0,
+		fog_fx = ""
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[296339] = {
+		cannon = 175,
+		reload = 150,
+		rarity = 2,
+		cannon_growth = 0,
+		torpedo = 0,
+		air = 349,
+		durability_growth = 0,
+		dodge = 0,
+		antiaircraft = 0,
+		speed = 120,
+		luck = 50,
+		reload_growth = 0,
+		dodge_growth = 0,
+		icon = "sairenboss11",
+		star = 2,
+		hit = 75,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90535,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		speed_growth = 0,
+		id = 296339,
+		antisub = 0,
+		fog_fx = ""
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[296340] = {
+		cannon = 187,
+		reload = 150,
+		rarity = 2,
+		cannon_growth = 0,
+		torpedo = 0,
+		air = 372,
+		durability_growth = 0,
+		dodge = 0,
+		antiaircraft = 0,
+		speed = 120,
+		luck = 50,
+		reload_growth = 0,
+		dodge_growth = 0,
+		icon = "sairenboss11",
+		star = 2,
+		hit = 80,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90535,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		speed_growth = 0,
+		id = 296340,
+		antisub = 0,
+		fog_fx = ""
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[296341] = {
+		cannon = 199,
+		reload = 150,
+		rarity = 2,
+		cannon_growth = 0,
+		torpedo = 0,
+		air = 395,
+		durability_growth = 0,
+		dodge = 0,
+		antiaircraft = 0,
+		speed = 120,
+		luck = 50,
+		reload_growth = 0,
+		dodge_growth = 0,
+		icon = "sairenboss11",
+		star = 2,
+		hit = 85,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90535,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		speed_growth = 0,
+		id = 296341,
+		antisub = 0,
+		fog_fx = ""
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[296342] = {
+		cannon = 210,
+		reload = 150,
+		rarity = 2,
+		cannon_growth = 0,
+		torpedo = 0,
+		air = 419,
+		durability_growth = 0,
+		dodge = 0,
+		antiaircraft = 0,
+		speed = 120,
+		luck = 50,
+		reload_growth = 0,
+		dodge_growth = 0,
+		icon = "sairenboss11",
+		star = 2,
+		hit = 90,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90535,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		speed_growth = 0,
+		id = 296342,
+		antisub = 0,
+		fog_fx = ""
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[296343] = {
+		cannon = 222,
+		reload = 150,
+		rarity = 2,
+		cannon_growth = 0,
+		torpedo = 0,
+		air = 442,
+		durability_growth = 0,
+		dodge = 0,
+		antiaircraft = 0,
+		speed = 120,
+		luck = 50,
+		reload_growth = 0,
+		dodge_growth = 0,
+		icon = "sairenboss11",
+		star = 2,
+		hit = 95,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90535,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		speed_growth = 0,
+		id = 296343,
+		antisub = 0,
+		fog_fx = ""
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[296344] = {
+		cannon = 234,
+		reload = 150,
+		rarity = 2,
+		cannon_growth = 0,
+		torpedo = 0,
+		air = 465,
+		durability_growth = 0,
+		dodge = 0,
+		antiaircraft = 0,
+		speed = 120,
+		luck = 50,
+		reload_growth = 0,
+		dodge_growth = 0,
+		icon = "sairenboss11",
+		star = 2,
+		hit = 100,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90535,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		speed_growth = 0,
+		id = 296344,
+		antisub = 0,
+		fog_fx = ""
+	}
+end)()
+
+(function()
+	_G.pg.base.enemy_data_statistics[296345] = {
+		cannon = 246,
+		reload = 150,
+		rarity = 2,
+		cannon_growth = 0,
+		torpedo = 0,
+		air = 489,
+		durability_growth = 0,
+		dodge = 0,
+		antiaircraft = 0,
+		speed = 120,
+		luck = 50,
+		reload_growth = 0,
+		dodge_growth = 0,
+		icon = "sairenboss11",
+		star = 2,
+		hit = 110,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90535,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		speed_growth = 0,
+		id = 296345,
+		antisub = 0,
+		fog_fx = ""
 	}
 end)()
 

@@ -154,19 +154,30 @@ end
 
 function var_0_0.OnToggleName(arg_24_0, arg_24_1, arg_24_2)
 	local var_24_0 = arg_24_2:getConfig("title_res_tag")
+	local var_24_1 = "coreactivityuitable/" .. var_24_0 .. "_text"
+	local var_24_2 = "coreactivityuitable/" .. var_24_0 .. "_text_selected"
 
 	setText(arg_24_1:Find("on/name"), i18n(var_24_0))
 	setText(arg_24_1:Find("off/name"), i18n(var_24_0))
 
-	if arg_24_0:IsImageTgName() then
-		local var_24_1 = string.lower(var_24_0)
+	local var_24_3 = arg_24_0:IsImageTgName()
+	local var_24_4 = checkABExist(var_24_1)
+	local var_24_5 = checkABExist(var_24_2)
 
-		if checkABExist("coreactivityuitable/" .. var_24_1 .. "_text") then
-			setImageSprite(arg_24_1:Find("off/imgName"), GetSpriteFromAtlas("coreactivityuitable/" .. var_24_1 .. "_text", ""), true)
+	setActive(arg_24_1:Find("off/imgName"), var_24_3 and var_24_4)
+	setActive(arg_24_1:Find("off/name"), not var_24_3 or not var_24_4)
+	setActive(arg_24_1:Find("on/imgName"), var_24_3 and var_24_5)
+	setActive(arg_24_1:Find("on/name"), not var_24_3 or not var_24_5)
+
+	if arg_24_0:IsImageTgName() then
+		local var_24_6 = string.lower(var_24_0)
+
+		if var_24_4 then
+			setImageSprite(arg_24_1:Find("off/imgName"), GetSpriteFromAtlas(var_24_1, ""), true)
 		end
 
-		if checkABExist("coreactivityuitable/" .. var_24_1 .. "_text_selected") then
-			setImageSprite(arg_24_1:Find("on/imgName"), GetSpriteFromAtlas("coreactivityuitable/" .. var_24_1 .. "_text_selected", ""), true)
+		if var_24_5 then
+			setImageSprite(arg_24_1:Find("on/imgName"), GetSpriteFromAtlas(var_24_2, ""), true)
 		end
 	end
 end

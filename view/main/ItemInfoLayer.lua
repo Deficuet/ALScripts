@@ -5,6 +5,7 @@ local var_0_3 = 100
 local var_0_4 = 53996
 local var_0_5 = {
 	RESOLVE = 2,
+	USE_RE_MAP = 4,
 	USE = 3,
 	COMPOSE = 1
 }
@@ -42,6 +43,10 @@ function var_0_0.init(arg_2_0)
 		},
 		composeBtn = {
 			"compose_button"
+		},
+		reMapUseBtn = {
+			"re_map_use_button",
+			i18n("msgbox_text_use")
 		},
 		resolveBtn = {
 			"resolve_button",
@@ -187,6 +192,12 @@ function var_0_0.setItem(arg_10_0, arg_10_1)
 		setActive(arg_10_0.useBtn, true)
 	end
 
+	if arg_10_0.itemVO:getConfig("usage") == ItemUsage.EX_RE_MAP then
+		arg_10_0:setItemInfo(arg_10_1, arg_10_0.operatePanel:Find("item"))
+
+		arg_10_0.operateMax = arg_10_0.itemVO.count
+	end
+
 	local var_10_1 = arg_10_0.itemVO:getConfig("type")
 
 	if arg_10_0.itemVO:IsRepairLoveLetterItem() then
@@ -311,161 +322,167 @@ function var_0_0.setItem(arg_10_0, arg_10_1)
 		setActive(arg_10_0.skinShopBtn, true)
 	elseif arg_10_0.itemVO:IsSkinExperienceType() then
 		setActive(arg_10_0.skinExperienceShopBtn, true)
+	elseif arg_10_0.itemVO:getConfig("usage") == ItemUsage.EX_RE_MAP then
+		setActive(arg_10_0.resolveBtn, true)
+		setActive(arg_10_0.reMapUseBtn, true)
+		onButton(arg_10_0, arg_10_0.reMapUseBtn, function()
+			arg_10_0:UpdateUseReMapPanel()
+		end, SFX_PANEL)
 	else
 		setActive(arg_10_0.okBtn, true)
 	end
 end
 
-function var_0_0.closeView(arg_21_0)
-	if arg_21_0.playing then
+function var_0_0.closeView(arg_22_0)
+	if arg_22_0.playing then
 		return
 	end
 
-	var_0_0.super.closeView(arg_21_0)
+	var_0_0.super.closeView(arg_22_0)
 end
 
-function var_0_0.didEnter(arg_22_0)
-	local var_22_0 = arg_22_0._tf:Find("OpenBox(Clone)")
+function var_0_0.didEnter(arg_23_0)
+	local var_23_0 = arg_23_0._tf:Find("OpenBox(Clone)")
 
-	if var_22_0 then
-		SetActive(var_22_0, false)
+	if var_23_0 then
+		SetActive(var_23_0, false)
 	end
 
-	onButton(arg_22_0, arg_22_0._tf:Find("bg"), function()
-		arg_22_0:closeView()
+	onButton(arg_23_0, arg_23_0._tf:Find("bg"), function()
+		arg_23_0:closeView()
 	end, SFX_CANCEL)
-	onButton(arg_22_0, arg_22_0._tf:Find("window/top/btnBack"), function()
-		arg_22_0:closeView()
+	onButton(arg_23_0, arg_23_0._tf:Find("window/top/btnBack"), function()
+		arg_23_0:closeView()
 	end, SFX_CANCEL)
-	onButton(arg_22_0, arg_22_0.okBtn, function()
-		arg_22_0:closeView()
+	onButton(arg_23_0, arg_23_0.okBtn, function()
+		arg_23_0:closeView()
 	end, SFX_CONFIRM)
-	onButton(arg_22_0, arg_22_0.useBtn, function()
-		arg_22_0:emit(ItemInfoMediator.USE_ITEM, arg_22_0.itemVO.id, 1)
+	onButton(arg_23_0, arg_23_0.useBtn, function()
+		arg_23_0:emit(ItemInfoMediator.USE_ITEM, arg_23_0.itemVO.id, 1)
 	end, SFX_CONFIRM)
-	onButton(arg_22_0, arg_22_0.batchUseBtn, function()
-		arg_22_0:emit(ItemInfoMediator.USE_ITEM, arg_22_0.itemVO.id, math.min(arg_22_0.itemVO.count, 10))
+	onButton(arg_23_0, arg_23_0.batchUseBtn, function()
+		arg_23_0:emit(ItemInfoMediator.USE_ITEM, arg_23_0.itemVO.id, math.min(arg_23_0.itemVO.count, 10))
 	end, SFX_CONFIRM)
-	onButton(arg_22_0, arg_22_0.composeBtn, function()
-		SetActive(arg_22_0.operatePanel, true)
-		SetActive(arg_22_0.window, false)
+	onButton(arg_23_0, arg_23_0.composeBtn, function()
+		SetActive(arg_23_0.operatePanel, true)
+		SetActive(arg_23_0.window, false)
 
-		arg_22_0.operateMode = var_0_5.COMPOSE
+		arg_23_0.operateMode = var_0_5.COMPOSE
 
-		arg_22_0:SetOperateCount(1)
+		arg_23_0:SetOperateCount(1)
 	end, SFX_CONFIRM)
-	onButton(arg_22_0, arg_22_0.resolveBtn, function()
-		SetActive(arg_22_0.operatePanel, true)
-		SetActive(arg_22_0.window, false)
+	onButton(arg_23_0, arg_23_0.resolveBtn, function()
+		SetActive(arg_23_0.operatePanel, true)
+		SetActive(arg_23_0.window, false)
 
-		arg_22_0.operateMode = var_0_5.RESOLVE
+		arg_23_0.operateMode = var_0_5.RESOLVE
 
-		arg_22_0:SetOperateCount(1)
+		arg_23_0:SetOperateCount(1)
 	end, SFX_PANEL)
-	pressPersistTrigger(arg_22_0.operateLeftButton, 0.5, function(arg_30_0)
-		if not arg_22_0:UpdateCount(arg_22_0.operateCount - 1) then
-			arg_30_0()
-
-			return
-		end
-
-		arg_22_0:SetOperateCount(arg_22_0.operateCount - 1)
-	end, nil, true, true, 0.1, SFX_PANEL)
-	pressPersistTrigger(arg_22_0.operateRightButton, 0.5, function(arg_31_0)
-		if not arg_22_0:UpdateCount(arg_22_0.operateCount + 1) then
+	pressPersistTrigger(arg_23_0.operateLeftButton, 0.5, function(arg_31_0)
+		if not arg_23_0:UpdateCount(arg_23_0.operateCount - 1) then
 			arg_31_0()
 
 			return
 		end
 
-		arg_22_0:SetOperateCount(arg_22_0.operateCount + 1)
+		arg_23_0:SetOperateCount(arg_23_0.operateCount - 1)
 	end, nil, true, true, 0.1, SFX_PANEL)
-	onButton(arg_22_0, arg_22_0.operateMaxButton, function()
-		arg_22_0:SetOperateCount(arg_22_0.operateMax)
+	pressPersistTrigger(arg_23_0.operateRightButton, 0.5, function(arg_32_0)
+		if not arg_23_0:UpdateCount(arg_23_0.operateCount + 1) then
+			arg_32_0()
+
+			return
+		end
+
+		arg_23_0:SetOperateCount(arg_23_0.operateCount + 1)
+	end, nil, true, true, 0.1, SFX_PANEL)
+	onButton(arg_23_0, arg_23_0.operateMaxButton, function()
+		arg_23_0:SetOperateCount(arg_23_0.operateMax)
 	end, SFX_PANEL)
-	onInputEndEdit(arg_22_0, arg_22_0.operateValueInput, function(arg_33_0)
-		local var_33_0 = tonumber(arg_33_0) or 1
-		local var_33_1 = math.min(var_0_3, math.min(var_33_0, arg_22_0.operateMax))
-		local var_33_2 = math.max(1, var_33_1)
+	onInputEndEdit(arg_23_0, arg_23_0.operateValueInput, function(arg_34_0)
+		local var_34_0 = tonumber(arg_34_0) or 1
+		local var_34_1 = math.min(var_0_3, math.min(var_34_0, arg_23_0.operateMax))
+		local var_34_2 = math.max(1, var_34_1)
 
-		arg_22_0:SetOperateCount(var_33_2)
+		arg_23_0:SetOperateCount(var_34_2)
 
-		if arg_33_0 ~= tostring(var_33_2) then
-			setInputText(arg_22_0.operateValueInput, var_33_2)
+		if arg_34_0 ~= tostring(var_34_2) then
+			setInputText(arg_23_0.operateValueInput, var_34_2)
 		end
 	end)
 
-	local var_22_1 = arg_22_0.itemVO:getConfig("type") == Item.EQUIPMENT_BOX_TYPE_5
+	local var_23_1 = arg_23_0.itemVO:getConfig("type") == Item.EQUIPMENT_BOX_TYPE_5
 
-	setActive(arg_22_0.operateValueInput, var_22_1)
-	setActive(arg_22_0.operateValue, not var_22_1)
-	onButton(arg_22_0, arg_22_0.operateBtns.Cancel, function()
-		SetActive(arg_22_0.operatePanel, false)
-		SetActive(arg_22_0.window, true)
+	setActive(arg_23_0.operateValueInput, var_23_1)
+	setActive(arg_23_0.operateValue, not var_23_1)
+	onButton(arg_23_0, arg_23_0.operateBtns.Cancel, function()
+		SetActive(arg_23_0.operatePanel, false)
+		SetActive(arg_23_0.window, true)
 
-		arg_22_0.operateCount = 0
-		arg_22_0.operateMode = nil
+		arg_23_0.operateCount = 0
+		arg_23_0.operateMode = nil
 	end, SFX_CANCEL)
-	onButton(arg_22_0, arg_22_0.operateBtns.Confirm, function()
-		if arg_22_0.operateMode == var_0_5.COMPOSE then
-			arg_22_0:emit(ItemInfoMediator.COMPOSE_ITEM, arg_22_0.itemVO.id, arg_22_0.operateCount)
+	onButton(arg_23_0, arg_23_0.operateBtns.Confirm, function()
+		if arg_23_0.operateMode == var_0_5.COMPOSE then
+			arg_23_0:emit(ItemInfoMediator.COMPOSE_ITEM, arg_23_0.itemVO.id, arg_23_0.operateCount)
 
-			local var_35_0 = arg_22_0.itemVO:getConfig("compose_number")
+			local var_36_0 = arg_23_0.itemVO:getConfig("compose_number")
 
-			if var_35_0 > arg_22_0.itemVO.count - arg_22_0.operateCount * var_35_0 then
-				triggerButton(arg_22_0.operateBtns.Cancel)
+			if var_36_0 > arg_23_0.itemVO.count - arg_23_0.operateCount * var_36_0 then
+				triggerButton(arg_23_0.operateBtns.Cancel)
 			else
-				arg_22_0:SetOperateCount(1)
+				arg_23_0:SetOperateCount(1)
 			end
-		elseif arg_22_0.operateMode == var_0_5.USE then
-			arg_22_0:emit(ItemInfoMediator.USE_ITEM, arg_22_0.itemVO.id, arg_22_0.operateCount)
+		elseif arg_23_0.operateMode == var_0_5.USE then
+			arg_23_0:emit(ItemInfoMediator.USE_ITEM, arg_23_0.itemVO.id, arg_23_0.operateCount)
 		end
 	end, SFX_CONFIRM)
-	onButton(arg_22_0, arg_22_0.recycleBtn, function()
-		local var_36_0 = arg_22_0.itemVO:GetPrice() or {
+	onButton(arg_23_0, arg_23_0.recycleBtn, function()
+		local var_37_0 = arg_23_0.itemVO:GetPrice() or {
 			0,
 			0
 		}
-		local var_36_1 = i18n("skin_discount_item_recycle_tip", arg_22_0.itemVO:getName(), var_36_0[2])
+		local var_37_1 = i18n("skin_discount_item_recycle_tip", arg_23_0.itemVO:getName(), var_37_0[2])
 
-		arg_22_0.recycleConfirmationPage:ExecuteAction("Show", {
-			content = var_36_1,
-			itemId = arg_22_0.itemVO.id
+		arg_23_0.recycleConfirmationPage:ExecuteAction("Show", {
+			content = var_37_1,
+			itemId = arg_23_0.itemVO.id
 		})
 	end, SFX_CONFIRM)
-	onButton(arg_22_0, arg_22_0.skinShopBtn, function()
-		arg_22_0:closeView()
+	onButton(arg_23_0, arg_23_0.skinShopBtn, function()
+		arg_23_0:closeView()
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)
 	end, SFX_CONFIRM)
-	onButton(arg_22_0, arg_22_0.skinExperienceShopBtn, function()
-		arg_22_0:closeView()
+	onButton(arg_23_0, arg_23_0.skinExperienceShopBtn, function()
+		arg_23_0:closeView()
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP, {
 			mode = NewSkinShopScene.MODE_EXPERIENCE_FOR_ITEM
 		})
 	end, SFX_CONFIRM)
-	onButton(arg_22_0, arg_22_0.operateBtns.Resolve, function()
-		arg_22_0:emit(ItemInfoMediator.SELL_BLUEPRINT, Drop.New({
+	onButton(arg_23_0, arg_23_0.operateBtns.Resolve, function()
+		arg_23_0:emit(ItemInfoMediator.SELL_BLUEPRINT, Drop.New({
 			type = DROP_TYPE_ITEM,
-			id = arg_22_0.itemVO.id,
-			count = arg_22_0.operateCount
+			id = arg_23_0.itemVO.id,
+			count = arg_23_0.operateCount
 		}))
 	end, SFX_CONFIRM)
 
-	local var_22_2 = getProxy(PlayerProxy):getData()
-	local var_22_3 = GetComponent(arg_22_0.keepFateTog, typeof(Toggle))
+	local var_23_2 = getProxy(PlayerProxy):getData()
+	local var_23_3 = GetComponent(arg_23_0.keepFateTog, typeof(Toggle))
 
-	arg_22_0.keepFateState = not var_22_2:GetCommonFlag(SHOW_DONT_KEEP_FATE_ITEM)
-	var_22_3.isOn = arg_22_0.keepFateState
+	arg_23_0.keepFateState = not var_23_2:GetCommonFlag(SHOW_DONT_KEEP_FATE_ITEM)
+	var_23_3.isOn = arg_23_0.keepFateState
 
-	local function var_22_4()
-		arg_22_0:UpdateBlueprintResolveNum()
-		arg_22_0:SetOperateCount(1)
+	local function var_23_4()
+		arg_23_0:UpdateBlueprintResolveNum()
+		arg_23_0:SetOperateCount(1)
 	end
 
-	onToggle(arg_22_0, arg_22_0.keepFateTog, function(arg_41_0)
-		arg_22_0.keepFateState = arg_41_0
+	onToggle(arg_23_0, arg_23_0.keepFateTog, function(arg_42_0)
+		arg_23_0.keepFateState = arg_42_0
 
-		if arg_41_0 then
+		if arg_42_0 then
 			pg.m02:sendNotification(GAME.CANCEL_COMMON_FLAG, {
 				flagID = SHOW_DONT_KEEP_FATE_ITEM
 			})
@@ -475,308 +492,318 @@ function var_0_0.didEnter(arg_22_0)
 			})
 		end
 
-		var_22_4()
+		var_23_4()
 	end)
-	var_22_4()
+	var_23_4()
 end
 
-function var_0_0.UpdateCount(arg_42_0, arg_42_1)
-	if arg_42_0.operateMode == var_0_5.COMPOSE then
-		local var_42_0 = arg_42_0.itemVO:getConfig("target_id")
-
-		if not var_42_0 or var_42_0 <= 0 then
-			return false
-		end
-
-		arg_42_1 = math.clamp(arg_42_1, 1, math.floor(arg_42_0.itemVO.count / arg_42_0.itemVO:getConfig("compose_number")))
-
-		return arg_42_0.operateCount ~= arg_42_1
-	elseif arg_42_0.operateMode == var_0_5.RESOLVE then
-		arg_42_1 = math.clamp(arg_42_1, 1, arg_42_0.itemVO.count)
-
-		return arg_42_0.operateCount ~= arg_42_1
-	elseif arg_42_0.operateMode == var_0_5.USE then
-		arg_42_1 = math.clamp(arg_42_1, 1, arg_42_0.itemVO.count)
-
-		return arg_42_0.operateCount ~= arg_42_1
-	end
-end
-
-function var_0_0.SetOperateCount(arg_43_0, arg_43_1)
+function var_0_0.UpdateCount(arg_43_0, arg_43_1)
 	if arg_43_0.operateMode == var_0_5.COMPOSE then
 		local var_43_0 = arg_43_0.itemVO:getConfig("target_id")
 
 		if not var_43_0 or var_43_0 <= 0 then
+			return false
+		end
+
+		arg_43_1 = math.clamp(arg_43_1, 1, math.floor(arg_43_0.itemVO.count / arg_43_0.itemVO:getConfig("compose_number")))
+
+		return arg_43_0.operateCount ~= arg_43_1
+	elseif arg_43_0.operateMode == var_0_5.RESOLVE then
+		arg_43_1 = math.clamp(arg_43_1, 1, arg_43_0.itemVO.count)
+
+		return arg_43_0.operateCount ~= arg_43_1
+	elseif arg_43_0.operateMode == var_0_5.USE then
+		arg_43_1 = math.clamp(arg_43_1, 1, arg_43_0.itemVO.count)
+
+		return arg_43_0.operateCount ~= arg_43_1
+	end
+end
+
+function var_0_0.SetOperateCount(arg_44_0, arg_44_1)
+	if arg_44_0.operateMode == var_0_5.COMPOSE then
+		local var_44_0 = arg_44_0.itemVO:getConfig("target_id")
+
+		if not var_44_0 or var_44_0 <= 0 then
 			return
 		end
 
-		local var_43_1 = arg_43_0.itemVO:getConfig("compose_number")
+		local var_44_1 = arg_44_0.itemVO:getConfig("compose_number")
 
-		arg_43_1 = math.clamp(arg_43_1, 1, math.floor(arg_43_0.itemVO.count / var_43_1))
+		arg_44_1 = math.clamp(arg_44_1, 1, math.floor(arg_44_0.itemVO.count / var_44_1))
 
-		if arg_43_0.operateCount ~= arg_43_1 then
-			arg_43_0.operateCount = arg_43_1
+		if arg_44_0.operateCount ~= arg_44_1 then
+			arg_44_0.operateCount = arg_44_1
 
-			arg_43_0:UpdateComposeCount()
+			arg_44_0:UpdateComposeCount()
 		end
 
-		local var_43_2 = arg_43_0.itemVO.count - arg_43_0.operateCount * var_43_1
+		local var_44_2 = arg_44_0.itemVO.count - arg_44_0.operateCount * var_44_1
 
-		arg_43_0:updateItemCount(var_43_2)
-	elseif arg_43_0.operateMode == var_0_5.RESOLVE then
-		arg_43_1 = math.clamp(arg_43_1, 0, arg_43_0.operateMax)
+		arg_44_0:updateItemCount(var_44_2)
+	elseif arg_44_0.operateMode == var_0_5.RESOLVE then
+		arg_44_1 = math.clamp(arg_44_1, 0, arg_44_0.operateMax)
 
-		if arg_43_0.operateCount ~= arg_43_1 then
-			arg_43_0.operateCount = arg_43_1
+		if arg_44_0.operateCount ~= arg_44_1 then
+			arg_44_0.operateCount = arg_44_1
 
-			arg_43_0:UpdateResolvePanel()
-			arg_43_0:updateItemCount(arg_43_0.itemVO.count - arg_43_0.operateCount)
+			arg_44_0:UpdateResolvePanel()
+			arg_44_0:updateItemCount(arg_44_0.itemVO.count - arg_44_0.operateCount)
 		end
-	elseif arg_43_0.operateMode == var_0_5.USE then
-		arg_43_1 = math.clamp(arg_43_1, 0, math.min(arg_43_0.operateMax, var_0_3))
+	elseif arg_44_0.operateMode == var_0_5.USE then
+		arg_44_1 = math.clamp(arg_44_1, 0, math.min(arg_44_0.operateMax, var_0_3))
 
-		if arg_43_0.operateCount ~= arg_43_1 then
-			arg_43_0.operateCount = arg_43_1
+		if arg_44_0.operateCount ~= arg_44_1 then
+			arg_44_0.operateCount = arg_44_1
 
-			arg_43_0:UpdateUsePanel()
-			arg_43_0:updateItemCount(arg_43_0.itemVO.count - arg_43_0.operateCount)
+			arg_44_0:UpdateUsePanel()
+			arg_44_0:updateItemCount(arg_44_0.itemVO.count - arg_44_0.operateCount)
 		end
 	end
 end
 
-function var_0_0.UpdateComposeCount(arg_44_0)
-	local var_44_0 = arg_44_0.operateCount
+function var_0_0.UpdateComposeCount(arg_45_0)
+	local var_45_0 = arg_45_0.operateCount
 
-	setText(arg_44_0.operateValue, var_44_0)
-	setInputText(arg_44_0.operateValueInput, var_44_0)
+	setText(arg_45_0.operateValue, var_45_0)
+	setInputText(arg_45_0.operateValueInput, var_45_0)
 
-	local var_44_1 = {}
+	local var_45_1 = {}
 
-	table.insert(var_44_1, {
+	table.insert(var_45_1, {
 		type = DROP_TYPE_ITEM,
-		id = arg_44_0.itemVO:getConfig("target_id"),
-		count = var_44_0
+		id = arg_45_0.itemVO:getConfig("target_id"),
+		count = var_45_0
 	})
-	UIItemList.StaticAlign(arg_44_0.operateBonusList, arg_44_0.operateBonusTpl, #var_44_1, function(arg_45_0, arg_45_1, arg_45_2)
-		arg_45_1 = arg_45_1 + 1
+	UIItemList.StaticAlign(arg_45_0.operateBonusList, arg_45_0.operateBonusTpl, #var_45_1, function(arg_46_0, arg_46_1, arg_46_2)
+		arg_46_1 = arg_46_1 + 1
 
-		if arg_45_0 == UIItemList.EventUpdate then
-			local var_45_0 = var_44_1[arg_45_1]
+		if arg_46_0 == UIItemList.EventUpdate then
+			local var_46_0 = var_45_1[arg_46_1]
 
-			updateDrop(arg_45_2:Find("IconTpl"), var_45_0)
-			onButton(arg_44_0, arg_45_2:Find("IconTpl"), function()
-				arg_44_0:emit(var_0_0.ON_DROP, var_45_0)
+			updateDrop(arg_46_2:Find("IconTpl"), var_46_0)
+			onButton(arg_45_0, arg_46_2:Find("IconTpl"), function()
+				arg_45_0:emit(var_0_0.ON_DROP, var_46_0)
 			end, SFX_PANEL)
 		end
 	end)
 
-	for iter_44_0, iter_44_1 in pairs(arg_44_0.operateBtns) do
-		setActive(iter_44_1, iter_44_0 == "Confirm" or iter_44_0 == "Cancel")
+	for iter_45_0, iter_45_1 in pairs(arg_45_0.operateBtns) do
+		setActive(iter_45_1, iter_45_0 == "Confirm" or iter_45_0 == "Cancel")
 	end
 
-	setText(arg_44_0.operateCountdesc, i18n("compose_amount_prefix"))
-	setActive(arg_44_0.keepFateTog, false)
+	setText(arg_45_0.operateCountdesc, i18n("compose_amount_prefix"))
+	setActive(arg_45_0.keepFateTog, false)
 end
 
-function var_0_0.UpdateResolvePanel(arg_47_0)
-	local var_47_0 = arg_47_0.operateCount
+function var_0_0.UpdateResolvePanel(arg_48_0)
+	local var_48_0 = arg_48_0.operateCount
 
-	setText(arg_47_0.operateValue, var_47_0)
-	setInputText(arg_47_0.operateValueInput, var_47_0)
+	setText(arg_48_0.operateValue, var_48_0)
+	setInputText(arg_48_0.operateValueInput, var_48_0)
 
-	local var_47_1 = arg_47_0.itemVO:getConfig("price")
-	local var_47_2 = {}
+	local var_48_1 = arg_48_0.itemVO:getConfig("price")
+	local var_48_2 = {}
 
-	table.insert(var_47_2, {
+	table.insert(var_48_2, {
 		type = DROP_TYPE_RESOURCE,
-		id = var_47_1[1],
-		count = var_47_1[2] * var_47_0
+		id = var_48_1[1],
+		count = var_48_1[2] * var_48_0
 	})
-	UIItemList.StaticAlign(arg_47_0.operateBonusList, arg_47_0.operateBonusTpl, #var_47_2, function(arg_48_0, arg_48_1, arg_48_2)
-		arg_48_1 = arg_48_1 + 1
+	UIItemList.StaticAlign(arg_48_0.operateBonusList, arg_48_0.operateBonusTpl, #var_48_2, function(arg_49_0, arg_49_1, arg_49_2)
+		arg_49_1 = arg_49_1 + 1
 
-		if arg_48_0 == UIItemList.EventUpdate then
-			local var_48_0 = var_47_2[arg_48_1]
+		if arg_49_0 == UIItemList.EventUpdate then
+			local var_49_0 = var_48_2[arg_49_1]
 
-			updateDrop(arg_48_2:Find("IconTpl"), var_48_0)
-			onButton(arg_47_0, arg_48_2:Find("IconTpl"), function()
-				arg_47_0:emit(var_0_0.ON_DROP, var_48_0)
+			updateDrop(arg_49_2:Find("IconTpl"), var_49_0)
+			onButton(arg_48_0, arg_49_2:Find("IconTpl"), function()
+				arg_48_0:emit(var_0_0.ON_DROP, var_49_0)
 			end, SFX_PANEL)
 		end
 	end)
 
-	for iter_47_0, iter_47_1 in pairs(arg_47_0.operateBtns) do
-		setActive(iter_47_1, iter_47_0 == "Resolve" or iter_47_0 == "Cancel")
+	for iter_48_0, iter_48_1 in pairs(arg_48_0.operateBtns) do
+		setActive(iter_48_1, iter_48_0 == "Resolve" or iter_48_0 == "Cancel")
 	end
 
-	setText(arg_47_0.operateCountdesc, i18n("resolve_amount_prefix"))
+	setText(arg_48_0.operateCountdesc, i18n("resolve_amount_prefix"))
 
-	if arg_47_0.itemVO:getConfig("type") == Item.TEC_SPEEDUP_TYPE then
-		setActive(arg_47_0.keepFateTog, false)
+	if arg_48_0.itemVO:getConfig("type") == Item.TEC_SPEEDUP_TYPE or arg_48_0.itemVO:getConfig("usage") == ItemUsage.EX_RE_MAP then
+		setActive(arg_48_0.keepFateTog, false)
 	else
-		setActive(arg_47_0.keepFateTog, true)
+		setActive(arg_48_0.keepFateTog, true)
 	end
 
-	setButtonEnabled(arg_47_0.operateBtns.Resolve, var_47_0 > 0)
+	setButtonEnabled(arg_48_0.operateBtns.Resolve, var_48_0 > 0)
 end
 
-function var_0_0.UpdateBlueprintResolveNum(arg_50_0)
-	local var_50_0 = arg_50_0.itemVO.count
-
-	if arg_50_0.itemVO:getConfig("type") == Item.BLUEPRINT_TYPE then
-		local var_50_1 = getProxy(TechnologyProxy)
-		local var_50_2 = var_50_1:GetBlueprint4Item(arg_50_0.itemVO.id)
-		local var_50_3 = var_50_1:getBluePrintById(var_50_2)
-
-		if arg_50_0.keepFateState then
-			var_50_0 = arg_50_0.itemVO.count - var_50_3:getFateMaxLeftOver()
-			var_50_0 = var_50_0 < 0 and 0 or var_50_0
-		end
-	end
-
-	arg_50_0.operateMax = var_50_0
-end
-
-function var_0_0.UpdateSpeedUpResolveNum(arg_51_0)
+function var_0_0.UpdateBlueprintResolveNum(arg_51_0)
 	local var_51_0 = arg_51_0.itemVO.count
 
-	if arg_51_0.itemVO:getConfig("type") == Item.TEC_SPEEDUP_TYPE then
-		arg_51_0.operateMax = var_51_0
+	if arg_51_0.itemVO:getConfig("type") == Item.BLUEPRINT_TYPE then
+		local var_51_1 = getProxy(TechnologyProxy)
+		local var_51_2 = var_51_1:GetBlueprint4Item(arg_51_0.itemVO.id)
+		local var_51_3 = var_51_1:getBluePrintById(var_51_2)
+
+		if arg_51_0.keepFateState then
+			var_51_0 = arg_51_0.itemVO.count - var_51_3:getFateMaxLeftOver()
+			var_51_0 = var_51_0 < 0 and 0 or var_51_0
+		end
+	end
+
+	arg_51_0.operateMax = var_51_0
+end
+
+function var_0_0.UpdateSpeedUpResolveNum(arg_52_0)
+	local var_52_0 = arg_52_0.itemVO.count
+
+	if arg_52_0.itemVO:getConfig("type") == Item.TEC_SPEEDUP_TYPE then
+		arg_52_0.operateMax = var_52_0
 	end
 end
 
-function var_0_0.UpdateUsePanel(arg_52_0)
-	local var_52_0 = arg_52_0.operateCount
+function var_0_0.UpdateUsePanel(arg_53_0)
+	local var_53_0 = arg_53_0.operateCount
 
-	setText(arg_52_0.operateValue, var_52_0)
-	setInputText(arg_52_0.operateValueInput, var_52_0)
+	setText(arg_53_0.operateValue, var_53_0)
+	setInputText(arg_53_0.operateValueInput, var_53_0)
 
-	local var_52_1 = {}
+	local var_53_1 = {}
 
-	table.insert(var_52_1, {
+	table.insert(var_53_1, {
 		type = DROP_TYPE_ITEM,
 		id = var_0_4,
-		count = var_52_0
+		count = var_53_0
 	})
-	UIItemList.StaticAlign(arg_52_0.operateBonusList, arg_52_0.operateBonusTpl, #var_52_1, function(arg_53_0, arg_53_1, arg_53_2)
-		arg_53_1 = arg_53_1 + 1
+	UIItemList.StaticAlign(arg_53_0.operateBonusList, arg_53_0.operateBonusTpl, #var_53_1, function(arg_54_0, arg_54_1, arg_54_2)
+		arg_54_1 = arg_54_1 + 1
 
-		if arg_53_0 == UIItemList.EventUpdate then
-			local var_53_0 = var_52_1[arg_53_1]
+		if arg_54_0 == UIItemList.EventUpdate then
+			local var_54_0 = var_53_1[arg_54_1]
 
-			updateDrop(arg_53_2:Find("IconTpl"), var_53_0)
+			updateDrop(arg_54_2:Find("IconTpl"), var_54_0)
 		end
 	end)
 
-	for iter_52_0, iter_52_1 in pairs(arg_52_0.operateBtns) do
-		setActive(iter_52_1, iter_52_0 == "Confirm" or iter_52_0 == "Cancel")
+	for iter_53_0, iter_53_1 in pairs(arg_53_0.operateBtns) do
+		setActive(iter_53_1, iter_53_0 == "Confirm" or iter_53_0 == "Cancel")
 	end
 
-	setText(arg_52_0.operateCountdesc, i18n("use_amount_prefix"))
-	setActive(arg_52_0.keepFateTog, false)
+	setText(arg_53_0.operateCountdesc, i18n("use_amount_prefix"))
+	setActive(arg_53_0.keepFateTog, false)
 end
 
-function var_0_0.willExit(arg_54_0)
-	if arg_54_0.leftEventTrigger then
-		ClearEventTrigger(arg_54_0.leftEventTrigger)
+function var_0_0.UpdateUseReMapPanel(arg_55_0)
+	arg_55_0:emit(BaseUI.ON_ADD_SUBLAYER, Context.New({
+		viewComponent = ReMapTransformationScene,
+		mediator = ReMapTransformationMediator,
+		data = {
+			itemVO = arg_55_0.itemVO
+		}
+	}))
+end
+
+function var_0_0.willExit(arg_56_0)
+	if arg_56_0.leftEventTrigger then
+		ClearEventTrigger(arg_56_0.leftEventTrigger)
 	end
 
-	if arg_54_0.rightEventTrigger then
-		ClearEventTrigger(arg_54_0.rightEventTrigger)
+	if arg_56_0.rightEventTrigger then
+		ClearEventTrigger(arg_56_0.rightEventTrigger)
 	end
 
-	arg_54_0:UnOverlayPanel(arg_54_0._tf)
+	arg_56_0:UnOverlayPanel(arg_56_0._tf)
 
-	if arg_54_0.recycleConfirmationPage then
-		arg_54_0.recycleConfirmationPage:Destroy()
+	if arg_56_0.recycleConfirmationPage then
+		arg_56_0.recycleConfirmationPage:Destroy()
 
-		arg_54_0.recycleConfirmationPage = nil
+		arg_56_0.recycleConfirmationPage = nil
 	end
 end
 
-function var_0_0.PlayOpenBox(arg_55_0, arg_55_1, arg_55_2)
-	if not arg_55_1 or arg_55_1 == "" then
-		arg_55_2()
+function var_0_0.PlayOpenBox(arg_57_0, arg_57_1, arg_57_2)
+	if not arg_57_1 or arg_57_1 == "" then
+		arg_57_2()
 
 		return
 	end
 
-	local var_55_0 = {}
-	local var_55_1 = arg_55_0._tf:Find(arg_55_1 .. "(Clone)")
+	local var_57_0 = {}
+	local var_57_1 = arg_57_0._tf:Find(arg_57_1 .. "(Clone)")
 
-	if var_55_1 then
-		arg_55_0[arg_55_1] = go(var_55_1)
+	if var_57_1 then
+		arg_57_0[arg_57_1] = go(var_57_1)
 	end
 
-	if not arg_55_0[arg_55_1] then
-		table.insert(var_55_0, function(arg_56_0)
-			PoolMgr.GetInstance():GetPrefab("ui/" .. string.lower(arg_55_1), "", true, function(arg_57_0)
-				arg_57_0:SetActive(true)
+	if not arg_57_0[arg_57_1] then
+		table.insert(var_57_0, function(arg_58_0)
+			PoolMgr.GetInstance():GetPrefab("ui/" .. string.lower(arg_57_1), "", true, function(arg_59_0)
+				arg_59_0:SetActive(true)
 
-				arg_55_0[arg_55_1] = arg_57_0
+				arg_57_0[arg_57_1] = arg_59_0
 
-				arg_56_0()
+				arg_58_0()
 			end)
 		end)
 	end
 
-	seriesAsync(var_55_0, function()
-		if arg_55_0.playing or not arg_55_0[arg_55_1] then
+	seriesAsync(var_57_0, function()
+		if arg_57_0.playing or not arg_57_0[arg_57_1] then
 			return
 		end
 
-		arg_55_0.playing = true
+		arg_57_0.playing = true
 
-		arg_55_0[arg_55_1]:SetActive(true)
-		SetActive(arg_55_0.window, false)
+		arg_57_0[arg_57_1]:SetActive(true)
+		SetActive(arg_57_0.window, false)
 
-		local var_58_0 = tf(arg_55_0[arg_55_1])
+		local var_60_0 = tf(arg_57_0[arg_57_1])
 
-		var_58_0:SetParent(arg_55_0._tf, false)
-		var_58_0:SetAsLastSibling()
+		var_60_0:SetParent(arg_57_0._tf, false)
+		var_60_0:SetAsLastSibling()
 
-		local var_58_1 = var_58_0:GetComponent("DftAniEvent")
+		local var_60_1 = var_60_0:GetComponent("DftAniEvent")
 
-		var_58_1:SetTriggerEvent(function(arg_59_0)
-			arg_55_2()
+		var_60_1:SetTriggerEvent(function(arg_61_0)
+			arg_57_2()
 		end)
-		var_58_1:SetEndEvent(function(arg_60_0)
-			if arg_55_0[arg_55_1] then
-				SetActive(arg_55_0[arg_55_1], false)
+		var_60_1:SetEndEvent(function(arg_62_0)
+			if arg_57_0[arg_57_1] then
+				SetActive(arg_57_0[arg_57_1], false)
 
-				arg_55_0.playing = false
+				arg_57_0.playing = false
 			end
 
-			arg_55_0:closeView()
+			arg_57_0:closeView()
 		end)
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_EQUIPMENT_OPEN)
 	end)
 end
 
-function var_0_0.inOutAnim(arg_61_0, arg_61_1, arg_61_2)
-	if arg_61_1 then
-		local var_61_0 = arg_61_0._tf:Find("window/bg_decorations"):GetComponent(typeof(Animation))
+function var_0_0.inOutAnim(arg_63_0, arg_63_1, arg_63_2)
+	if arg_63_1 then
+		local var_63_0 = arg_63_0._tf:Find("window/bg_decorations"):GetComponent(typeof(Animation))
 
-		var_61_0:Stop()
-		var_61_0:Play("anim_window_bg")
+		var_63_0:Stop()
+		var_63_0:Play("anim_window_bg")
 
-		local var_61_1 = arg_61_0._tf:Find("window/top"):GetComponent(typeof(Animation))
+		local var_63_1 = arg_63_0._tf:Find("window/top"):GetComponent(typeof(Animation))
 
-		var_61_1:Stop()
-		var_61_1:Play("anim_top")
+		var_63_1:Stop()
+		var_63_1:Play("anim_top")
 
-		local var_61_2 = arg_61_0._tf:Find("window"):GetComponent(typeof(Animation))
+		local var_63_2 = arg_63_0._tf:Find("window"):GetComponent(typeof(Animation))
 
-		var_61_2:Stop()
-		var_61_2:Play("anim_content")
+		var_63_2:Stop()
+		var_63_2:Play("anim_content")
 
-		local var_61_3 = arg_61_0._tf:Find("bg"):GetComponent(typeof(Animation))
+		local var_63_3 = arg_63_0._tf:Find("bg"):GetComponent(typeof(Animation))
 
-		var_61_3:Stop()
-		var_61_3:Play("anim_bg_plus")
+		var_63_3:Stop()
+		var_63_3:Play("anim_bg_plus")
 	end
 
-	arg_61_2()
+	arg_63_2()
 end
 
 return var_0_0

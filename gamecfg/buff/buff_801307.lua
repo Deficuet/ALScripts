@@ -58,6 +58,7 @@ return {
 			arg_list = {
 				hpUpperBound = 1,
 				target = "TargetSelf",
+				hpsigned = 0,
 				skill_id = 801303,
 				hpLowerBound = 0.5
 			}
@@ -71,6 +72,7 @@ return {
 			arg_list = {
 				hpUpperBound = 0.5,
 				target = "TargetSelf",
+				hpsigned = 0,
 				skill_id = 801304,
 				hpLowerBound = 0
 			}

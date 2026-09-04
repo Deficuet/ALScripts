@@ -285,6 +285,7 @@ pg.memory_group.all = {
 	374,
 	375,
 	376,
+	377,
 	501,
 	502,
 	503,
@@ -408,6 +409,7 @@ pg.memory_group.all = {
 	623,
 	625,
 	624,
+	626,
 	1000,
 	1001,
 	1002,
@@ -7584,6 +7586,26 @@ end)()
 			5415
 		}
 	}
+	pg.base.memory_group[377] = {
+		ship_group = 0,
+		group_id = "",
+		type = 2,
+		link_event = 51127,
+		title = "Fight！都市求职大作战！",
+		auto_unlock = "",
+		subtype = 2,
+		id = 377,
+		icon = "title_event",
+		memories = {
+			5431,
+			5432,
+			5433,
+			5434,
+			5435,
+			5436,
+			5437
+		}
+	}
 	pg.base.memory_group[501] = {
 		ship_group = 31201,
 		group_id = "",
@@ -7991,6 +8013,8 @@ end)()
 			10000
 		}
 	}
+end)()
+;(function()
 	pg.base.memory_group[520] = {
 		ship_group = 30402,
 		subtype = 0,
@@ -8013,8 +8037,6 @@ end)()
 			10000
 		}
 	}
-end)()
-;(function()
 	pg.base.memory_group[521] = {
 		ship_group = 40304,
 		subtype = 0,
@@ -10193,6 +10215,8 @@ end)()
 			10000
 		}
 	}
+end)()
+;(function()
 	pg.base.memory_group[621] = {
 		ship_group = 20313,
 		subtype = 0,
@@ -10215,8 +10239,6 @@ end)()
 			10000
 		}
 	}
-end)()
-;(function()
 	pg.base.memory_group[622] = {
 		ship_group = 49910,
 		subtype = 0,
@@ -10300,6 +10322,28 @@ end)()
 			5255,
 			5256,
 			5257
+		},
+		group_id = {
+			10000
+		}
+	}
+	pg.base.memory_group[626] = {
+		ship_group = 30716,
+		subtype = 0,
+		auto_unlock = "",
+		type = 3,
+		link_event = 0,
+		icon = "title_chara_baifeng",
+		title = "驻留的幽香",
+		id = 626,
+		memories = {
+			5421,
+			5422,
+			5423,
+			5424,
+			5425,
+			5426,
+			5427
 		},
 		group_id = {
 			10000

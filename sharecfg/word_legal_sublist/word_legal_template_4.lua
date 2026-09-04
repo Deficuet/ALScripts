@@ -66,7 +66,18 @@ function temp()
 		拉 = {
 			托 = {
 				加 = {
-					this = true
+					this = true,
+					· = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
+						}
+					}
 				}
 			},
 			娜 = {

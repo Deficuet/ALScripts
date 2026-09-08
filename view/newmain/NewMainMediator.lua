@@ -253,7 +253,9 @@ function var_0_0.initNotificationHandleDic(arg_21_0)
 			arg_40_0.viewComponent:FoldPanels(arg_40_1:getBody())
 		end,
 		[NewMainMediator.HIDE_PANEL] = function(arg_41_0, arg_41_1)
-			arg_41_0.viewComponent:HidePanel(arg_41_1:getBody())
+			local var_41_0 = arg_41_1:getBody()
+
+			arg_41_0.viewComponent:HidePanel(var_41_0.flag, var_41_0.content)
 		end,
 		[GAME.SERIES_GUIDE_END] = function(arg_42_0, arg_42_1)
 			MainAwakeGuideSequence.New():Execute(function()
@@ -273,41 +275,45 @@ function var_0_0.initNotificationHandleDic(arg_21_0)
 		[PlayerProxy.UPDATED] = function(arg_46_0, arg_46_1)
 			arg_46_0.viewComponent:OnPlayerUpdated()
 		end,
-		[ActivityProxy.UPDATED_TIP] = function(arg_47_0, arg_47_1)
-			arg_47_0.viewComponent:emit(MainBaseActivityBtn.UPDATED_TIP)
+		[GAME.END_REFLUX_CG] = function(arg_47_0, arg_47_1)
+			arg_47_0.viewComponent:ShowOrHideBtnEffect(true)
 		end,
-		[MiniGameProxy.ON_HUB_DATA_UPDATE] = function(arg_48_0, arg_48_1)
-			local var_48_0 = arg_48_0.viewComponent:GetFlagShip()
+		[GAME.START_REFLUX_CG] = function(arg_48_0, arg_48_1)
+			arg_48_0.viewComponent:ShowOrHideBtnEffect(false)
+		end,
+		[ActivityProxy.UPDATED_TIP] = function(arg_49_0, arg_49_1)
+			arg_49_0.viewComponent:emit(MainBaseActivityBtn.UPDATED_TIP)
+		end,
+		[MiniGameProxy.ON_HUB_DATA_UPDATE] = function(arg_50_0, arg_50_1)
+			local var_50_0 = arg_50_0.viewComponent:GetFlagShip()
 
-			if arg_48_0.viewComponent.theme and arg_48_0.viewComponent.theme:IsLoaded() then
-				arg_48_0.viewComponent.theme:Refresh(var_48_0)
-			else
-				warning("界面没加载好，不进行刷新")
+			if arg_50_0.viewComponent.theme and arg_50_0.viewComponent.theme:IsLoaded() then
+				arg_50_0.viewComponent.theme:Refresh(var_50_0)
 			end
 		end
 	}
 end
 
-function var_0_0.BuildDebugBattleLoop(arg_49_0, arg_49_1)
+function var_0_0.BuildDebugBattleLoop(arg_51_0, arg_51_1)
 	if not IsUnityEditor then
 		return
 	end
 
-	local var_49_0 = {}
+	local var_51_0 = {}
 
-	for iter_49_0, iter_49_1 in arg_49_1:gmatch("%s+(%S+)") do
-		table.insert(var_49_0, iter_49_0)
+	for iter_51_0, iter_51_1 in arg_51_1:gmatch("%s+(%S+)") do
+		table.insert(var_51_0, iter_51_0)
 	end
 
-	local var_49_1 = {
-		loopCount = tonumber(var_49_0[2]),
-		loopStages = underscore.rest(var_49_0, 3),
+	local var_51_1 = {
+		loopCount = tonumber(var_51_0[2]),
+		loopStages = underscore.rest(var_51_0, 3),
 		tempList = {}
 	}
 
-	_G.InDebugBattleLoop = var_49_1
+	_G.InDebugBattleLoop = var_51_1
 
-	arg_49_0.viewComponent:CheckDebugBattleLoop()
+	arg_51_0.viewComponent:CheckDebugBattleLoop()
 end
 
 return var_0_0

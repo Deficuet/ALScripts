@@ -7,6 +7,101 @@ var_0_0.word_legal_template_16 = {}
 local var_0_1 = var_0_0.word_legal_template_16
 
 function temp()
+	var_0_1.猫 = {
+		音 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.绊 = {
+		爱 = {
+			this = true,
+			· = {
+				E = {
+					l = {
+						e = {
+							g = {
+								a = {
+									n = {
+										t = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
+				},
+				A = {
+					n = {
+						n = {
+							i = {
+								v = {
+									e = {
+										r = {
+											s = {
+												a = {
+													r = {
+														y = {
+															this = true
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				},
+				S = {
+					u = {
+						p = {
+							e = {
+								r = {
+									G = {
+										a = {
+											m = {
+												e = {
+													r = {
+														this = true
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.白 = {
+		上 = {
+			吹 = {
+				雪 = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.时 = {
 		乃 = {
 			空 = {

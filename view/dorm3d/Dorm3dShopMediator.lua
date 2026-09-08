@@ -75,10 +75,7 @@ function var_0_0.handleNotification(arg_8_0, arg_8_1)
 		end
 
 		if var_8_2 and #var_8_2 > 0 then
-			arg_8_0.viewComponent:emit(var_0_0.OPEN_DROP_LAYER, var_8_2, function()
-				local var_9_0 = var_8_1.id
-				local var_9_1 = pg.shop_template[var_9_0]
-			end)
+			arg_8_0.viewComponent:emit(var_0_0.OPEN_DROP_LAYER, var_8_2)
 		end
 
 		arg_8_0.viewComponent:SetPageBtns()

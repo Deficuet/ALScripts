@@ -84,7 +84,7 @@ function var_0_0.initNotificationHandleDic(arg_9_0)
 			if var_13_0 and #var_13_0 > 0 then
 				arg_13_0.viewComponent:emit(var_0_0.OPEN_DROP_LAYER, var_13_0, function()
 					local var_14_0 = arg_13_1:getBody().id
-					local var_14_1 = pg.shop_template[var_14_0]
+					local var_14_1 = ShopConst.GetShopConfig(var_14_0)
 
 					arg_13_0.viewComponent:SingleUpdateGift(var_14_1.effect_args[1])
 				end)

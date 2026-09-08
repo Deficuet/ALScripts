@@ -23,7 +23,7 @@ function var_0_0.bindConfigTable(arg_4_0)
 end
 
 function var_0_0.CanPurchase(arg_5_0)
-	local var_5_0 = arg_5_0:GetDropInfo()
+	local var_5_0 = arg_5_0:getDropInfo()
 	local var_5_1 = var_5_0:getOwnedLimit()
 
 	if var_5_1 > 0 and var_5_1 <= var_5_0:getOwnedCount() then
@@ -65,7 +65,7 @@ function var_0_0.GetLimit(arg_12_0)
 	return arg_12_0:getConfig("goods_purchase_limit")
 end
 
-function var_0_0.GetDropInfo(arg_13_0)
+function var_0_0.getDropInfo(arg_13_0)
 	return Drop.New({
 		type = arg_13_0:getConfig("drop_type"),
 		id = arg_13_0:getConfig("goods")[1],

@@ -67,7 +67,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			elseif var_1_6 == ItemUsage.USAGE_SKIN_EXP then
 				local var_2_1 = getProxy(ShipSkinProxy)
 				local var_2_2 = var_1_3[1]
-				local var_2_3 = pg.shop_template[var_2_2]
+				local var_2_3 = ShopConst.GetShopConfig(var_2_2)
 				local var_2_4 = var_2_3.effect_args[1]
 				local var_2_5 = pg.TimeMgr.GetInstance():GetServerTime() + var_2_3.time_second
 				local var_2_6 = ShipSkin.New({
@@ -117,7 +117,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			elseif var_1_6 == ItemUsage.EX_RE_MAP then
 				var_2_0 = PlayerConst.addTranDrop(arg_2_0.drop_list)
 
-				getProxy(ChapterProxy):addRemasterPassCount(var_1_3[1], ChapterConst.GetActivityIDByReChapterID(var_1_3[1]))
+				getProxy(ChapterProxy):addRemasterPassCount(var_1_3[1], ChapterConst.GetActivityIDByReChapterID(var_1_3[1]), var_1_2)
 			else
 				assert(false, "未处理类型" .. var_1_6)
 			end

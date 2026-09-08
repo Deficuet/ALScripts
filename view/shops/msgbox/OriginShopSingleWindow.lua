@@ -39,7 +39,7 @@ function var_0_0.Open(arg_7_0, arg_7_1, arg_7_2)
 end
 
 function var_0_0.InitWindow(arg_8_0, arg_8_1, arg_8_2)
-	local var_8_0 = isa(arg_8_1, WorldNShopCommodity) and arg_8_1:GetDropInfo() or arg_8_1:getDropInfo()
+	local var_8_0 = isa(arg_8_1, WorldNShopCommodity) and arg_8_1:getDropInfo() or arg_8_1:getDropInfo()
 
 	updateDrop(arg_8_0.itemTF:Find("left/IconTpl"), var_8_0)
 	UpdateOwnDisplay(arg_8_0.itemOwnTF, var_8_0)

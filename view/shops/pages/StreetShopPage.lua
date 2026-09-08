@@ -48,7 +48,7 @@ function var_0_0.GenHelpContent(arg_7_0, arg_7_1, arg_7_2)
 
 	for iter_7_0, iter_7_1 in ipairs(var_7_0) do
 		local var_7_1 = iter_7_1[1]
-		local var_7_2 = pg.shop_template[var_7_1].effect_args[1]
+		local var_7_2 = ShopConst.GetShopConfig(var_7_1).effect_args[1]
 		local var_7_3 = Item.getConfigData(var_7_2).name
 		local var_7_4 = arg_7_2:GetShopTime()
 
@@ -144,7 +144,7 @@ function var_0_0.RefreshUI(arg_14_0)
 			return
 		end
 
-		local var_19_1 = pg.shop_template[var_19_0]
+		local var_19_1 = ShopConst.GetShopConfig(var_19_0)
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			noText = "text_cancel",

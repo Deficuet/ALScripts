@@ -7,7 +7,9 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf, {
+		staticBlur = true
+	})
 
 	arg_2_0.mainPanel = arg_2_0._tf:Find("main")
 	arg_2_0.finishPanel = arg_2_0._tf:Find("finish_panel")

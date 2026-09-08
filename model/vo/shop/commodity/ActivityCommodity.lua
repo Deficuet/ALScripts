@@ -199,16 +199,20 @@ function var_0_0.Selectable(arg_13_0)
 	return false
 end
 
-function var_0_0.GetDropList(arg_14_0)
-	local var_14_0 = {}
-
-	table.insert(var_14_0, Drop.New({
-		count = 1,
+function var_0_0.getDropInfo(arg_14_0)
+	return Drop.New({
 		type = arg_14_0:getConfig("commodity_type"),
-		id = arg_14_0:getConfig("commodity_id")
-	}))
+		id = arg_14_0:getConfig("commodity_id"),
+		count = arg_14_0:getConfig("num")
+	})
+end
 
-	return var_14_0
+function var_0_0.GetDropList(arg_15_0)
+	local var_15_0 = {}
+
+	table.insert(var_15_0, arg_15_0:getDropInfo())
+
+	return var_15_0
 end
 
 return var_0_0

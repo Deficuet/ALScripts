@@ -135,7 +135,8 @@ pg.backyard_theme_template.all = {
 	139,
 	140,
 	141,
-	142
+	142,
+	143
 }
 pg.base = pg.base or {}
 pg.base.backyard_theme_template = {}
@@ -5754,6 +5755,47 @@ end)()
 			342114,
 			342115,
 			342116
+		}
+	}
+	pg.base.backyard_theme_template[143] = {
+		Cfg_1 = 5,
+		name = "异常调查中心",
+		hot = 1,
+		is_view = 1,
+		id = 143,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "进入异常调查中心，从看似正常的表象中，找出那些潜藏的异常吧~",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "opathemeicon",
+		deblocking = 1,
+		order = 143,
+		ids = {
+			343001,
+			343002,
+			343101,
+			343102,
+			343103,
+			343104,
+			343105,
+			343106,
+			343107,
+			343108,
+			343109,
+			343110,
+			343111,
+			343112,
+			343113,
+			343114,
+			343115,
+			343116,
+			343117,
+			343118,
+			343301,
+			343302,
+			343303
 		}
 	}
 end)()

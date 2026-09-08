@@ -225,4 +225,12 @@ function var_0_0.GetBGM(arg_27_0)
 	return pg.activity_template[arg_27_0.activityId].config_client.bgm or ""
 end
 
+function var_0_0.IsHide(arg_28_0)
+	if arg_28_0.config.config_client == "" then
+		return false
+	end
+
+	return arg_28_0.config.config_client.isHide
+end
+
 return var_0_0

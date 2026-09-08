@@ -25,7 +25,7 @@ function var_0_0.OnDataSetting(arg_5_0)
 	arg_5_0.showList = {}
 
 	for iter_5_0, iter_5_1 in ipairs(arg_5_0.activity:getConfig("config_client").display_link) do
-		if iter_5_1[2] == 0 or var_5_0:inTime(pg.shop_template[iter_5_1[2]].time) then
+		if iter_5_1[2] == 0 or var_5_0:inTime(ShopConst.GetShopConfig(iter_5_1[2]).time) then
 			table.insert(arg_5_0.showList, math.random(#arg_5_0.showList + 1), iter_5_1[1])
 		end
 	end

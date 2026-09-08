@@ -18,42 +18,44 @@ end
 
 function var_0_0.DataToLayout(arg_3_0, arg_3_1)
 	if arg_3_1[1] == var_0_1 then
+		local var_3_0 = HXSet.hxLan(arg_3_1[2])
+
 		return {
 			type = var_0_1,
-			text = arg_3_1[2]
+			text = var_3_0
 		}
 	elseif arg_3_1[1] == var_0_2 then
-		local var_3_0 = Vector2(arg_3_1[3] or 0, arg_3_1[4] or 0)
+		local var_3_1 = Vector2(arg_3_1[3] or 0, arg_3_1[4] or 0)
 
 		return {
 			type = var_0_2,
 			path = arg_3_1[2],
-			size = var_3_0
+			size = var_3_1
 		}
 	elseif arg_3_1[1] == var_0_3 then
-		local var_3_1 = {}
-		local var_3_2 = arg_3_1[2]
-		local var_3_3 = arg_3_0:ShouldReplacePlayer()
+		local var_3_2 = {}
+		local var_3_3 = arg_3_1[2]
+		local var_3_4 = arg_3_0:ShouldReplacePlayer()
 
-		for iter_3_0 = 1, #var_3_2 do
-			local var_3_4 = var_3_2[iter_3_0]
+		for iter_3_0 = 1, #var_3_3 do
+			local var_3_5 = var_3_3[iter_3_0]
 
-			if var_3_3 then
-				var_3_4 = arg_3_0:ReplacePlayerName(var_3_4)
+			if var_3_4 then
+				var_3_5 = arg_3_0:ReplacePlayerName(var_3_5)
 			end
 
 			if arg_3_0:ShouldReplaceCar2026() then
-				var_3_4 = arg_3_0:ReplaceCar2026Name(var_3_4)
+				var_3_5 = arg_3_0:ReplaceCar2026Name(var_3_5)
 			end
 
-			local var_3_5 = HXSet.hxLan(var_3_4)
+			local var_3_6 = HXSet.hxLan(var_3_5)
 
-			table.insert(var_3_1, var_3_5)
+			table.insert(var_3_2, var_3_6)
 		end
 
 		return {
 			type = var_0_3,
-			names = var_3_1,
+			names = var_3_2,
 			column = arg_3_1[3] or 2,
 			evenColumnColor = arg_3_1[4] or "#c2c2c2"
 		}

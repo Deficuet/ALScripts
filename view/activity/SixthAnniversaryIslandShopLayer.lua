@@ -64,11 +64,7 @@ function var_0_0.updateGoodsCard(arg_9_0, arg_9_1, arg_9_2)
 	setActive(arg_9_1:Find("btn_unable"), var_9_2:getOwnedCount() < var_9_2.count)
 	setButtonEnabled(arg_9_1, var_9_0)
 
-	local var_9_3 = {
-		type = arg_9_2:getConfig("commodity_type"),
-		id = arg_9_2:getConfig("commodity_id"),
-		count = arg_9_2:getConfig("num")
-	}
+	local var_9_3 = arg_9_2:getDropInfo()
 
 	updateDrop(arg_9_1:Find("icon/IconTpl"), var_9_3)
 	onNextTick(function()

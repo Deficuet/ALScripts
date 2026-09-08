@@ -103,10 +103,11 @@ end
 
 function var_0_0.OnInit(arg_10_0)
 	onButton(arg_10_0, arg_10_0.quickCount, function()
-		local var_11_0 = pg.shop_template[61008]
+		local var_11_0 = 61008
+		local var_11_1 = ShopConst.GetShopConfig(var_11_0)
 
-		shoppingBatch(61008, {
-			id = var_11_0.effect_args[1]
+		shoppingBatch(var_11_0, {
+			id = var_11_1.effect_args[1]
 		}, 9, "build_ship_quickly_buy_stone")
 	end)
 	onButton(arg_10_0, arg_10_0.helpBtn, function()

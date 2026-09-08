@@ -26,4 +26,8 @@ function var_0_0.Dispose(arg_6_0)
 	arg_6_0:disposeEvent()
 end
 
+function var_0_0.ShowOrHideBtnEffect(arg_7_0, arg_7_1)
+	return
+end
+
 return var_0_0

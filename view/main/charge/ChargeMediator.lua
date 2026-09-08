@@ -155,7 +155,7 @@ function var_0_0.handleNotification(arg_16_0, arg_16_1)
 			arg_16_0.viewComponent:setNormalGroupList(var_16_3)
 		end
 
-		local var_16_4 = pg.shop_template[var_16_1.id]
+		local var_16_4 = ShopConst.GetShopConfig(var_16_1.id)
 
 		arg_16_0.viewComponent:checkBuyDone(var_16_1.id)
 		arg_16_0.viewComponent:updateCurSubView()

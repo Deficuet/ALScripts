@@ -27,7 +27,8 @@ pg.item_data_battleui.all = {
 	206,
 	207,
 	208,
-	209
+	209,
+	210
 }
 pg.base = pg.base or {}
 pg.base.item_data_battleui = {}
@@ -417,6 +418,23 @@ pg.base.item_data_battleui = {}
 		unlock = "寄叶协议战斗主题礼包获取",
 		id = 209,
 		icon = "209",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	}
+	pg.base.item_data_battleui[210] = {
+		key = "SkinElite_20260908",
+		name = "烛影镜台",
+		desc = "烛火在镜面间摇曳，幽影与荆棘相交织，让每一次战斗都揭开一段徘徊于虚实之间的剧目序章。",
+		display_icon = "ui_210",
+		is_unlock = 1,
+		rare = 4,
+		unlock = "烛影镜台战斗主题礼包获取",
+		id = 210,
+		icon = "210",
 		scene = {},
 		rare_display = {
 			1,

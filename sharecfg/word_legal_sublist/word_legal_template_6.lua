@@ -7,6 +7,53 @@ var_0_0.word_legal_template_6 = {}
 local var_0_1 = var_0_0.word_legal_template_6
 
 function temp()
+	var_0_1.进 = {
+		取 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.虎 = {
+		this = {
+			this = true
+		},
+		贲 = {
+			this = true
+		},
+		（ = {
+			后 = {
+				排 = {
+					） = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.伦 = {
+		敦 = {
+			this = true,
+			["."] = {
+				改 = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.什 = {
 		罗 = {
 			普 = {
@@ -447,7 +494,18 @@ temp()
 function temp()
 	var_0_1.胜 = {
 		利 = {
-			this = true
+			this = true,
+			· = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -494,36 +552,6 @@ function temp()
 			this = true
 		},
 		屈 = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.恐 = {
-		怖 = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.桐 = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.杉 = {
-		this = {
 			this = true
 		}
 	}

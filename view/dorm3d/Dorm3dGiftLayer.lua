@@ -191,7 +191,7 @@ function var_0_0.UpdateGift(arg_20_0, arg_20_1, arg_20_2, arg_20_3)
 		local var_20_14 = 0
 
 		_.each(var_20_5:getConfig("shop_id"), function(arg_22_0)
-			local var_22_0 = pg.shop_template[arg_22_0]
+			local var_22_0 = ShopConst.GetShopConfig(arg_22_0)
 
 			if var_22_0.group_type == 2 then
 				var_20_14 = math.max(var_22_0.group_limit, var_20_14)

@@ -51,7 +51,7 @@ function var_0_0.update(arg_5_0, arg_5_1)
 	setActive(arg_5_0.mask, not var_5_0)
 	setActive(arg_5_0.stars, false)
 
-	local var_5_1 = arg_5_1:GetDropInfo()
+	local var_5_1 = arg_5_1:getDropInfo()
 
 	updateDrop(arg_5_0.itemTF, var_5_1)
 

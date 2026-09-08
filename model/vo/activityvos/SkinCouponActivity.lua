@@ -105,7 +105,7 @@ function var_0_0.GetItemName(arg_16_0)
 end
 
 function var_0_0.ShopId2SkinId(arg_17_0, arg_17_1)
-	return pg.shop_template[arg_17_1].effect_args[1]
+	return ShopConst.GetShopConfig(arg_17_1).effect_args[1]
 end
 
 function var_0_0.GetOwnCount(arg_18_0)

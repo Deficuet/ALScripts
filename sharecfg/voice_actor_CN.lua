@@ -2100,4 +2100,20 @@ end)()
 		code = 520,
 		actor_name = "船户百合绘"
 	}
+	pg.base.voice_actor_CN[522] = {
+		code = 522,
+		actor_name = "中村栞奈"
+	}
+	pg.base.voice_actor_CN[523] = {
+		code = 523,
+		actor_name = "明智璃子"
+	}
+	pg.base.voice_actor_CN[524] = {
+		code = 524,
+		actor_name = "绫濑未来"
+	}
+	pg.base.voice_actor_CN[525] = {
+		code = 525,
+		actor_name = "黑崎诗织"
+	}
 end)()

@@ -19,35 +19,37 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 			local var_1_2 = pg.TimeMgr.GetInstance()
 
 			for iter_1_2, iter_1_3 in ipairs(var_1_1) do
-				if var_1_2:inTime(pg.shop_template[iter_1_3].time) then
+				local var_1_3 = ShopConst.GetShopConfig(iter_1_3)
+
+				if var_1_2:inTime(var_1_3.time) then
 					table.insert(var_1_0, iter_1_3)
 				end
 			end
 		end
 	end
 
-	local var_1_3 = {}
-
-	for iter_1_4, iter_1_5 in ipairs(arg_1_1) do
-		var_1_3[iter_1_5.shop_id] = iter_1_5.pay_count
-	end
-
 	local var_1_4 = {}
 
+	for iter_1_4, iter_1_5 in ipairs(arg_1_1) do
+		var_1_4[iter_1_5.shop_id] = iter_1_5.pay_count
+	end
+
+	local var_1_5 = {}
+
 	for iter_1_6, iter_1_7 in ipairs(arg_1_2) do
-		var_1_4[iter_1_7.shop_id] = iter_1_7.pay_count
+		var_1_5[iter_1_7.shop_id] = iter_1_7.pay_count
 	end
 
 	arg_1_0.goods = {}
 
 	for iter_1_8, iter_1_9 in ipairs(var_1_0) do
-		local var_1_5 = var_1_3[iter_1_9] or 0
-		local var_1_6 = var_1_4[pg.shop_template[iter_1_9].group] or 0
+		local var_1_6 = var_1_4[iter_1_9] or 0
+		local var_1_7 = var_1_5[ShopConst.GetShopConfig(iter_1_9).group] or 0
 
 		arg_1_0.goods[iter_1_9] = Goods.Create({
 			shop_id = iter_1_9,
-			buy_count = var_1_5,
-			groupCount = var_1_6
+			buy_count = var_1_6,
+			groupCount = var_1_7
 		}, Goods.TYPE_CRUISE)
 	end
 end

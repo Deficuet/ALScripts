@@ -48,7 +48,7 @@ function var_0_0.initNotificationHandleDic(arg_7_0)
 	local function var_7_0(arg_8_0)
 		arg_7_0.viewComponent:FlushSkinList()
 
-		local var_8_0 = pg.shop_template[arg_8_0].effect_args[1]
+		local var_8_0 = ShopConst.GetShopConfig(arg_8_0).effect_args[1]
 		local var_8_1 = ShipGroup.getDefaultShipNameByGroupID(arg_7_0.contextData.groupId)
 		local var_8_2 = pg.dorm3d_resource[var_8_0].name
 

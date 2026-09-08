@@ -116621,6 +116621,52 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.weapon_property_1[61034] = {
+		aim_type = 1,
+		action_index = "attack",
+		axis_angle = 0,
+		type = 11,
+		range = 90,
+		fire_fx = "",
+		recover_time = 0.5,
+		fire_fx_loop_type = 1,
+		shakescreen = 0,
+		attack_attribute = 0,
+		reload_max = 1890,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 90,
+		queue = 1,
+		suppress = 1,
+		charge_param = "",
+		damage = 144,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		id = 61034,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			61034
+		},
+		barrage_ID = {
+			12008
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.weapon_property_1[61041] = {
 		aim_type = 0,
 		action_index = "attack",

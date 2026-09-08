@@ -39,11 +39,7 @@ function var_0_0.Open(arg_7_0, arg_7_1, arg_7_2)
 end
 
 function var_0_0.InitWindow(arg_8_0, arg_8_1, arg_8_2)
-	local var_8_0 = {
-		id = arg_8_1:getConfig("commodity_id"),
-		type = arg_8_1:getConfig("commodity_type"),
-		count = arg_8_1:getConfig("num")
-	}
+	local var_8_0 = arg_8_1:getDropInfo()
 
 	onButton(arg_8_0, arg_8_0.confirmBtn, function()
 		if arg_8_2 then

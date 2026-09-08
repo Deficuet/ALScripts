@@ -43,7 +43,7 @@ function var_0_0.init(arg_3_0)
 			return
 		end
 
-		local var_6_1 = pg.shop_template[var_6_0]
+		local var_6_1 = ShopConst.GetShopConfig(var_6_0)
 		local var_6_2 = var_6_1.num
 
 		if var_6_1.num == -1 and var_6_1.genre == ShopArgs.BuyOil then

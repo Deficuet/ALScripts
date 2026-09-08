@@ -594,8 +594,10 @@ function var_0_0.getCurPicInfoListForShow(arg_60_0)
 			end
 		end
 	elseif arg_60_0.curFilterMode == var_0_0.FilterMode.Gallery then
+		local var_60_1 = AppreciatePicConst.getOldLoadingPicIDList()
+
 		for iter_60_2, iter_60_3 in ipairs(arg_60_0.picInfoList) do
-			if arg_60_0:isGalleryPic(iter_60_3) and not arg_60_0:isDefaultPicInfo(iter_60_3) then
+			if arg_60_0:isGalleryPic(iter_60_3) and not table.contains(var_60_1, iter_60_3.id) then
 				table.insert(var_60_0, iter_60_3)
 			end
 		end
@@ -606,14 +608,20 @@ function var_0_0.getCurPicInfoListForShow(arg_60_0)
 			end
 		end
 	elseif arg_60_0.curFilterMode == var_0_0.FilterMode.Default then
-		var_60_0 = arg_60_0:getDefaultPicInfoList()
+		local var_60_2 = AppreciatePicConst.getOldLoadingPicIDList()
+
+		for iter_60_6, iter_60_7 in ipairs(arg_60_0.picInfoList) do
+			if arg_60_0:isGalleryPic(iter_60_7) and table.contains(var_60_2, iter_60_7.id) then
+				table.insert(var_60_0, iter_60_7)
+			end
+		end
 	end
 
-	local var_60_1 = arg_60_0:sortPicInfoList(var_60_0)
+	local var_60_3 = arg_60_0:sortPicInfoList(var_60_0)
 
-	arg_60_0.curPicInfoListForShow = var_60_1
+	arg_60_0.curPicInfoListForShow = var_60_3
 
-	return var_60_1
+	return var_60_3
 end
 
 function var_0_0.getDefaultPicInfoList(arg_61_0)

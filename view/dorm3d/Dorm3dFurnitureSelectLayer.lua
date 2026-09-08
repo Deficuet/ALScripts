@@ -607,7 +607,7 @@ function var_0_0.UpdateViewFurnitureItem(arg_66_0, arg_66_1)
 			id = var_66_11:GetResType(),
 			count = var_66_12
 		})
-		local var_66_16 = pg.shop_template[var_66_10]
+		local var_66_16 = ShopConst.GetShopConfig(var_66_10)
 
 		onButton(arg_66_0, var_66_2:Find("GO"), function()
 			local var_69_0 = var_66_1.template:GetEndTime()

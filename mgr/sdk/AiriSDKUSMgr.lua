@@ -18,7 +18,10 @@ function var_0_0.CheckAudit()
 end
 
 function var_0_0.CheckPreAudit()
-	return NetConst.GATEWAY_PORT == 30001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"
+	local var_2_0 = NetConst.GATEWAY_PORT == 30001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"
+	local var_2_1 = NetConst.GATEWAY_PORT == 41001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"
+
+	return var_2_0 or var_2_1
 end
 
 function var_0_0.CheckPretest()

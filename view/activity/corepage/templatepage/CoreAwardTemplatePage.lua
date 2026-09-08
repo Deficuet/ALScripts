@@ -4,7 +4,8 @@ var_0_0.DropType2Name = {
 	[DROP_TYPE_EQUIP] = "equip",
 	[DROP_TYPE_FURNITURE] = "furniture",
 	[DROP_TYPE_EQUIPMENT_SKIN] = "equip_skin",
-	[DROP_TYPE_SPWEAPON] = "special_weapon"
+	[DROP_TYPE_SPWEAPON] = "special_weapon",
+	[DROP_TYPE_SHIP] = "ship"
 }
 
 function var_0_0.OnInit(arg_1_0)
@@ -107,15 +108,16 @@ function var_0_0.AddTogglesListener(arg_10_0)
 	assert(#var_10_0 == arg_10_0.togglesTF.childCount, "dropType数量与togglesTF子节点数不匹配")
 
 	for iter_10_0, iter_10_1 in ipairs(var_10_0) do
-		local var_10_1 = arg_10_0.togglesTF:Find(var_0_0.DropType2Name[iter_10_1])
+		local var_10_1 = type(iter_10_1) == "table" and iter_10_1[1] or iter_10_1
+		local var_10_2 = arg_10_0.togglesTF:Find(var_0_0.DropType2Name[var_10_1])
 
-		onToggle(arg_10_0, var_10_1, function(arg_11_0)
+		onToggle(arg_10_0, var_10_2, function(arg_11_0)
 			if arg_11_0 then
 				arg_10_0:UpdatePage(iter_10_1)
 			end
 		end, SFX_PANEL)
 
-		arg_10_0.toggles[iter_10_1] = var_10_1
+		arg_10_0.toggles[var_10_1] = var_10_2
 	end
 end
 
@@ -213,11 +215,15 @@ function var_0_0.OnClickItem(arg_19_0, arg_19_1)
 end
 
 function var_0_0.UpdatePage(arg_20_0, arg_20_1)
-	arg_20_0.curPage = arg_20_1
+	local var_20_0 = type(arg_20_1) ~= "table" and {
+		arg_20_1
+	} or arg_20_1
+
+	arg_20_0.curPage = var_20_0[1]
 	arg_20_0.showDataList = {}
 
 	for iter_20_0, iter_20_1 in ipairs(arg_20_0.dataList) do
-		if arg_20_0.guideConfig[iter_20_1.id].type == arg_20_1 then
+		if table.contains(var_20_0, arg_20_0.guideConfig[iter_20_1.id].type) then
 			table.insert(arg_20_0.showDataList, iter_20_1)
 		end
 	end

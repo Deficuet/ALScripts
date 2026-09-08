@@ -37163,6 +37163,82 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.aircraft_template[61034] = {
+		attack_power = 2,
+		name = "伊14技能彩云",
+		type = 3,
+		accuracy = 23,
+		model_ID = "caiyun",
+		ACC_growth = 0,
+		crash_DMG = 208,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 61034,
+		icon = "caiyun",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1605,
+		speed = 66,
+		max_hp = 42,
+		scale = 1,
+		weapon_ID = {},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.64,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.aircraft_template[62141] = {
 		attack_power = 2,
 		name = "霞飞战斗机弹幕Lv1",
@@ -103580,6 +103656,591 @@ end)()
 		spawn_brownian = 1,
 		weapon_ID = {
 			184530
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184591] = {
+		attack_power = 2,
+		name = "胜利meta海大黄蜂",
+		type = 1,
+		accuracy = 24,
+		model_ID = "haidahuangfeng",
+		ACC_growth = 0,
+		crash_DMG = 190,
+		dodge = 0.3,
+		funnel_behavior = "",
+		nationality = 2,
+		id = 184591,
+		icon = "haidahuangfeng",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 10,
+		hp_growth = 2189,
+		speed = 60,
+		max_hp = 57,
+		scale = 1,
+		weapon_ID = {
+			184601
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.52,
+					-1.61,
+					0
+				},
+				{
+					0.6,
+					1.5,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.86,
+				-0.12,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184592] = {
+		max_hp = 64,
+		hp_growth = 2474,
+		base = 184591,
+		id = 184592,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184602
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184593] = {
+		max_hp = 72,
+		hp_growth = 2760,
+		base = 184591,
+		id = 184593,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184603
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184594] = {
+		max_hp = 79,
+		hp_growth = 3045,
+		base = 184591,
+		id = 184594,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184604
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184595] = {
+		max_hp = 87,
+		hp_growth = 3330,
+		base = 184591,
+		id = 184595,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184605
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184596] = {
+		max_hp = 94,
+		hp_growth = 3616,
+		base = 184591,
+		id = 184596,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184606
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184597] = {
+		max_hp = 101,
+		hp_growth = 3901,
+		base = 184591,
+		id = 184597,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184607
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184598] = {
+		max_hp = 109,
+		hp_growth = 4187,
+		base = 184591,
+		id = 184598,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184608
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184599] = {
+		max_hp = 116,
+		hp_growth = 4472,
+		base = 184591,
+		id = 184599,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184609
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184600] = {
+		max_hp = 124,
+		hp_growth = 4758,
+		base = 184591,
+		id = 184600,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184610
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184611] = {
+		attack_power = 2,
+		name = "胜利meta梭鱼1",
+		type = 2,
+		accuracy = 23,
+		model_ID = "suoyu",
+		ACC_growth = 0,
+		crash_DMG = 480,
+		dodge = 1.05,
+		funnel_behavior = "",
+		nationality = 2,
+		id = 184611,
+		icon = "suoyu",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 6,
+		hp_growth = 1678,
+		speed = 52,
+		max_hp = 44,
+		scale = 1,
+		weapon_ID = {
+			184621
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.26,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184612] = {
+		max_hp = 49,
+		hp_growth = 1897,
+		base = 184611,
+		id = 184612,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184622
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184613] = {
+		max_hp = 55,
+		hp_growth = 2116,
+		base = 184611,
+		id = 184613,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184623
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184614] = {
+		max_hp = 61,
+		hp_growth = 2335,
+		base = 184611,
+		id = 184614,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184624
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184615] = {
+		max_hp = 66,
+		hp_growth = 2554,
+		base = 184611,
+		id = 184615,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184625
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184616] = {
+		max_hp = 72,
+		hp_growth = 2772,
+		base = 184611,
+		id = 184616,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184626
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184617] = {
+		max_hp = 78,
+		hp_growth = 2991,
+		base = 184611,
+		id = 184617,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184627
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184618] = {
+		max_hp = 83,
+		hp_growth = 3210,
+		base = 184611,
+		id = 184618,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184628
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184619] = {
+		max_hp = 89,
+		hp_growth = 3429,
+		base = 184611,
+		id = 184619,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184629
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184620] = {
+		max_hp = 95,
+		hp_growth = 3648,
+		base = 184611,
+		id = 184620,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184630
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184631] = {
+		attack_power = 2,
+		name = "胜利meta梭鱼2",
+		type = 2,
+		accuracy = 23,
+		model_ID = "suoyu",
+		ACC_growth = 0,
+		crash_DMG = 480,
+		dodge = 1.05,
+		funnel_behavior = "",
+		nationality = 2,
+		id = 184631,
+		icon = "suoyu",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 6,
+		hp_growth = 1678,
+		speed = 52,
+		max_hp = 44,
+		scale = 1,
+		weapon_ID = {
+			184641
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.26,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184632] = {
+		max_hp = 49,
+		hp_growth = 1897,
+		base = 184631,
+		id = 184632,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184642
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184633] = {
+		max_hp = 55,
+		hp_growth = 2116,
+		base = 184631,
+		id = 184633,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184643
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184634] = {
+		max_hp = 61,
+		hp_growth = 2335,
+		base = 184631,
+		id = 184634,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184644
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184635] = {
+		max_hp = 66,
+		hp_growth = 2554,
+		base = 184631,
+		id = 184635,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184645
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184636] = {
+		max_hp = 72,
+		hp_growth = 2772,
+		base = 184631,
+		id = 184636,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184646
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184637] = {
+		max_hp = 78,
+		hp_growth = 2991,
+		base = 184631,
+		id = 184637,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184647
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184638] = {
+		max_hp = 83,
+		hp_growth = 3210,
+		base = 184631,
+		id = 184638,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184648
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184639] = {
+		max_hp = 89,
+		hp_growth = 3429,
+		base = 184631,
+		id = 184639,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184649
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184640] = {
+		max_hp = 95,
+		hp_growth = 3648,
+		base = 184631,
+		id = 184640,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184650
 		}
 	}
 end)()
@@ -314766,6 +315427,2060 @@ end)()
 		scale = 0.75,
 		weapon_ID = {
 			3429504
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3431005] = {
+		attack_power = 2,
+		name = "【2026虎UR活动B1】BOSS 白凤 第二波 轰炸机",
+		type = 3,
+		accuracy = 23,
+		model_ID = "feiji_baifeng",
+		ACC_growth = 0,
+		crash_DMG = 100,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3431005,
+		icon = "feiji_baifeng",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1960,
+		speed = 45,
+		max_hp = 300,
+		scale = 0.75,
+		weapon_ID = {
+			3431007
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3431006] = {
+		attack_power = 2,
+		name = "【2026虎UR活动B1】BOSS 白凤 第二波 战斗机",
+		type = 1,
+		accuracy = 23,
+		model_ID = "feiji_baifeng",
+		ACC_growth = 0,
+		crash_DMG = 1,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3431006,
+		icon = "feiji_baifeng",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1960,
+		speed = 45,
+		max_hp = 500,
+		scale = 0.75,
+		weapon_ID = {
+			3431008
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3431103] = {
+		attack_power = 2,
+		name = "【2026虎UR活动B2】BOSS 光辉 第二波 战斗机",
+		type = 1,
+		accuracy = 23,
+		model_ID = "feiji_youlingfashi",
+		ACC_growth = 0,
+		crash_DMG = 65,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3431103,
+		icon = "feiji_youlingfashi",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 3680,
+		speed = 30,
+		max_hp = 198,
+		scale = 0.75,
+		weapon_ID = {
+			3431106
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3431104] = {
+		attack_power = 2,
+		name = "【2026虎UR活动B2】BOSS 光辉 第二波 轰炸机",
+		type = 3,
+		accuracy = 23,
+		model_ID = "feiji_youlingjiu",
+		ACC_growth = 0,
+		crash_DMG = 36,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3431104,
+		icon = "feiji_youlingjiu",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 3680,
+		speed = 33,
+		max_hp = 198,
+		scale = 0.75,
+		weapon_ID = {
+			3431107,
+			3431108
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3431105] = {
+		attack_power = 2,
+		name = "【2026虎UR活动B2】BOSS 光辉 第二波 地毯式轰炸机",
+		type = 3,
+		accuracy = 23,
+		model_ID = "feiji_youlingjiu",
+		ACC_growth = 0,
+		crash_DMG = 36,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3431105,
+		icon = "feiji_youlingjiu",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 5000,
+		speed = 33,
+		max_hp = 198,
+		scale = 0.75,
+		weapon_ID = {
+			3431109
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3433005] = {
+		attack_power = 2,
+		name = "【2026虎UR活动D1】BOSS 白凤 第二波 轰炸机",
+		type = 3,
+		accuracy = 23,
+		model_ID = "feiji_baifeng",
+		ACC_growth = 0,
+		crash_DMG = 100,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3433005,
+		icon = "feiji_baifeng",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1960,
+		speed = 45,
+		max_hp = 300,
+		scale = 0.75,
+		weapon_ID = {
+			3433007
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3433006] = {
+		attack_power = 2,
+		name = "【2026虎UR活动D1】BOSS 白凤 第二波 战斗机",
+		type = 1,
+		accuracy = 23,
+		model_ID = "feiji_baifeng",
+		ACC_growth = 0,
+		crash_DMG = 1,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3433006,
+		icon = "feiji_baifeng",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1960,
+		speed = 45,
+		max_hp = 500,
+		scale = 0.75,
+		weapon_ID = {
+			3433008
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3433103] = {
+		attack_power = 2,
+		name = "【2026虎UR活动B2】BOSS 光辉 第二波 战斗机",
+		type = 1,
+		accuracy = 23,
+		model_ID = "feiji_youlingfashi",
+		ACC_growth = 0,
+		crash_DMG = 65,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3433103,
+		icon = "feiji_youlingfashi",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 3680,
+		speed = 30,
+		max_hp = 198,
+		scale = 0.75,
+		weapon_ID = {
+			3433106
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3433104] = {
+		attack_power = 2,
+		name = "【2026虎UR活动B2】BOSS 光辉 第二波 轰炸机",
+		type = 3,
+		accuracy = 23,
+		model_ID = "feiji_youlingjiu",
+		ACC_growth = 0,
+		crash_DMG = 36,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3433104,
+		icon = "feiji_youlingjiu",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 3680,
+		speed = 33,
+		max_hp = 198,
+		scale = 0.75,
+		weapon_ID = {
+			3433107,
+			3433108
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3433105] = {
+		attack_power = 2,
+		name = "【2026虎UR活动B2】BOSS 光辉 第二波 地毯式轰炸机",
+		type = 3,
+		accuracy = 23,
+		model_ID = "feiji_youlingjiu",
+		ACC_growth = 0,
+		crash_DMG = 36,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3433105,
+		icon = "feiji_youlingjiu",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 5000,
+		speed = 33,
+		max_hp = 198,
+		scale = 0.75,
+		weapon_ID = {
+			3433109
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3436065] = {
+		type = 1,
+		name = "【2026虎UR活动】幽影迷城 航母战斗机 Lv1",
+		dodge_limit = 0,
+		accuracy = 23,
+		model_ID = "ghostfeiji",
+		ACC_growth = 0,
+		crash_DMG = 36,
+		dodge = 1,
+		max_hp = 64,
+		AP_growth = 2000,
+		base = 3086065,
+		id = 3436065,
+		icon = "ghostfeiji",
+		spawn_brownian = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1680,
+		speed = 33,
+		attack_power = 2,
+		scale = 0.75,
+		weapon_ID = {
+			3436075,
+			1100750
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3436066] = {
+		type = 1,
+		name = "【2026虎UR活动】幽影迷城 航母战斗机 Lv2",
+		dodge_limit = 0,
+		accuracy = 23,
+		model_ID = "ghostfeiji",
+		ACC_growth = 0,
+		crash_DMG = 48,
+		dodge = 1,
+		max_hp = 88,
+		AP_growth = 2000,
+		base = 3086066,
+		id = 3436066,
+		icon = "ghostfeiji",
+		spawn_brownian = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1960,
+		speed = 33,
+		attack_power = 2,
+		scale = 0.75,
+		weapon_ID = {
+			3436076,
+			1100751
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3436067] = {
+		type = 1,
+		name = "【2026虎UR活动】幽影迷城 航母战斗机 Lv3",
+		dodge_limit = 0,
+		accuracy = 23,
+		model_ID = "ghostfeiji",
+		ACC_growth = 0,
+		crash_DMG = 62,
+		dodge = 1,
+		max_hp = 112,
+		AP_growth = 2000,
+		base = 3086067,
+		id = 3436067,
+		icon = "ghostfeiji",
+		spawn_brownian = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2240,
+		speed = 33,
+		attack_power = 2,
+		scale = 0.75,
+		weapon_ID = {
+			3436077,
+			1100752
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3436068] = {
+		type = 1,
+		name = "【2026虎UR活动】幽影迷城 航母战斗机 Lv4",
+		dodge_limit = 0,
+		accuracy = 23,
+		model_ID = "ghostfeiji",
+		ACC_growth = 0,
+		crash_DMG = 78,
+		dodge = 1,
+		max_hp = 136,
+		AP_growth = 2000,
+		base = 3086068,
+		id = 3436068,
+		icon = "ghostfeiji",
+		spawn_brownian = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2520,
+		speed = 33,
+		attack_power = 2,
+		scale = 0.75,
+		weapon_ID = {
+			3436078,
+			1100753
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3436069] = {
+		type = 1,
+		name = "【2026虎UR活动】幽影迷城 航母战斗机 Lv5",
+		dodge_limit = 0,
+		accuracy = 23,
+		model_ID = "ghostfeiji",
+		ACC_growth = 0,
+		crash_DMG = 98,
+		dodge = 1,
+		max_hp = 160,
+		AP_growth = 2000,
+		base = 3086069,
+		id = 3436069,
+		icon = "ghostfeiji",
+		spawn_brownian = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2800,
+		speed = 33,
+		attack_power = 2,
+		scale = 0.75,
+		weapon_ID = {
+			3436079,
+			1100754
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3436070] = {
+		type = 3,
+		name = "【2026虎UR活动】幽影迷城 航母轰炸机 Lv1",
+		dodge_limit = 0,
+		accuracy = 23,
+		model_ID = "ghostfeiji",
+		ACC_growth = 0,
+		crash_DMG = 65,
+		dodge = 1,
+		max_hp = 80,
+		AP_growth = 2000,
+		base = 3086070,
+		id = 3436070,
+		icon = "ghostfeiji",
+		spawn_brownian = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2280,
+		speed = 30,
+		attack_power = 2,
+		scale = 0.75,
+		weapon_ID = {
+			3436080
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3436071] = {
+		type = 3,
+		name = "【2026虎UR活动】幽影迷城 航母轰炸机 Lv2",
+		dodge_limit = 0,
+		accuracy = 23,
+		model_ID = "ghostfeiji",
+		ACC_growth = 0,
+		crash_DMG = 85,
+		dodge = 1,
+		max_hp = 110,
+		AP_growth = 2000,
+		base = 3086071,
+		id = 3436071,
+		icon = "ghostfeiji",
+		spawn_brownian = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2660,
+		speed = 30,
+		attack_power = 2,
+		scale = 0.75,
+		weapon_ID = {
+			3436081
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3436072] = {
+		type = 3,
+		name = "【2026虎UR活动】幽影迷城 航母轰炸机 Lv3",
+		dodge_limit = 0,
+		accuracy = 23,
+		model_ID = "ghostfeiji",
+		ACC_growth = 0,
+		crash_DMG = 110,
+		dodge = 1,
+		max_hp = 140,
+		AP_growth = 2000,
+		base = 3086072,
+		id = 3436072,
+		icon = "ghostfeiji",
+		spawn_brownian = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3040,
+		speed = 30,
+		attack_power = 2,
+		scale = 0.75,
+		weapon_ID = {
+			3436082
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3436073] = {
+		type = 3,
+		name = "【2026虎UR活动】幽影迷城 航母轰炸机 Lv4",
+		dodge_limit = 0,
+		accuracy = 23,
+		model_ID = "ghostfeiji",
+		ACC_growth = 0,
+		crash_DMG = 140,
+		dodge = 1,
+		max_hp = 170,
+		AP_growth = 2000,
+		base = 3086073,
+		id = 3436073,
+		icon = "ghostfeiji",
+		spawn_brownian = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3420,
+		speed = 30,
+		attack_power = 2,
+		scale = 0.75,
+		weapon_ID = {
+			3436083
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3436074] = {
+		type = 3,
+		name = "【2026虎UR活动】幽影迷城 航母轰炸机 Lv5",
+		dodge_limit = 0,
+		accuracy = 23,
+		model_ID = "ghostfeiji",
+		ACC_growth = 0,
+		crash_DMG = 175,
+		dodge = 1,
+		max_hp = 200,
+		AP_growth = 2000,
+		base = 3086074,
+		id = 3436074,
+		icon = "ghostfeiji",
+		spawn_brownian = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3800,
+		speed = 30,
+		attack_power = 2,
+		scale = 0.75,
+		weapon_ID = {
+			3436084
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3436411] = {
+		type = 1,
+		name = "【2026虎UR活动B】精英蛋船 幽影迷城航母 战斗机",
+		dodge_limit = 0,
+		accuracy = 23,
+		model_ID = "ghostfeiji",
+		ACC_growth = 0,
+		crash_DMG = 48,
+		dodge = 1,
+		max_hp = 88,
+		AP_growth = 2000,
+		base = 3087325,
+		id = 3436411,
+		icon = "ghostfeiji",
+		spawn_brownian = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1960,
+		speed = 33,
+		attack_power = 2,
+		scale = 0.75,
+		weapon_ID = {
+			3436076,
+			1100751
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3436412] = {
+		type = 3,
+		name = "【2026虎UR活动B】精英蛋船 幽影迷城航母 轰炸机",
+		dodge_limit = 0,
+		accuracy = 23,
+		model_ID = "ghostfeiji",
+		ACC_growth = 0,
+		crash_DMG = 85,
+		dodge = 1,
+		max_hp = 110,
+		AP_growth = 2000,
+		base = 3087326,
+		id = 3436412,
+		icon = "ghostfeiji",
+		spawn_brownian = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2660,
+		speed = 30,
+		attack_power = 2,
+		scale = 0.75,
+		weapon_ID = {
+			3436081
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3436611] = {
+		type = 1,
+		name = "【2026虎UR活动D】精英蛋船 幽影迷城航母 战斗机",
+		dodge_limit = 0,
+		accuracy = 23,
+		model_ID = "ghostfeiji",
+		ACC_growth = 0,
+		crash_DMG = 78,
+		dodge = 1,
+		max_hp = 136,
+		AP_growth = 2000,
+		base = 3087325,
+		id = 3436611,
+		icon = "ghostfeiji",
+		spawn_brownian = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2520,
+		speed = 33,
+		attack_power = 2,
+		scale = 0.75,
+		weapon_ID = {
+			3436078,
+			1100753
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3436612] = {
+		type = 3,
+		name = "【2026虎UR活动D】精英蛋船 幽影迷城航母 轰炸机",
+		dodge_limit = 0,
+		accuracy = 23,
+		model_ID = "ghostfeiji",
+		ACC_growth = 0,
+		crash_DMG = 140,
+		dodge = 1,
+		max_hp = 170,
+		AP_growth = 2000,
+		base = 3087326,
+		id = 3436612,
+		icon = "ghostfeiji",
+		spawn_brownian = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3420,
+		speed = 30,
+		attack_power = 2,
+		scale = 0.75,
+		weapon_ID = {
+			3436083
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3436711] = {
+		type = 1,
+		name = "【2026虎UR活动SP】精英蛋船 幽影迷城航母 战斗机",
+		dodge_limit = 0,
+		accuracy = 23,
+		model_ID = "ghostfeiji",
+		ACC_growth = 0,
+		crash_DMG = 98,
+		dodge = 1,
+		max_hp = 160,
+		AP_growth = 2000,
+		base = 3087325,
+		id = 3436711,
+		icon = "ghostfeiji",
+		spawn_brownian = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2800,
+		speed = 33,
+		attack_power = 2,
+		scale = 0.75,
+		weapon_ID = {
+			3436079,
+			1100754
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3436712] = {
+		type = 3,
+		name = "【2026虎UR活动SP】精英蛋船 幽影迷城航母 轰炸机",
+		dodge_limit = 0,
+		accuracy = 23,
+		model_ID = "ghostfeiji",
+		ACC_growth = 0,
+		crash_DMG = 175,
+		dodge = 1,
+		max_hp = 200,
+		AP_growth = 2000,
+		base = 3087326,
+		id = 3436712,
+		icon = "ghostfeiji",
+		spawn_brownian = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3800,
+		speed = 30,
+		attack_power = 2,
+		scale = 0.75,
+		weapon_ID = {
+			3436084
 		},
 		position_offset = {
 			0,

@@ -661,6 +661,11 @@ pg.activity_ins_template.all = {
 	665,
 	666,
 	667,
+	669,
+	670,
+	671,
+	672,
+	673,
 	20001,
 	20002,
 	20003,
@@ -27784,6 +27789,141 @@ end)()
 			{
 				20,
 				30,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[669] = {
+		ship_group = 20238,
+		name = "Tiger",
+		oalist_pic_persist = "",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		sculpture = "hu",
+		is_active = 1,
+		message_persist = "",
+		id = 669,
+		group_id = 669,
+		time = {
+			{
+				2026,
+				9,
+				8
+			},
+			{
+				15,
+				30,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[670] = {
+		ship_group = 30409,
+		name = "Azuchi",
+		oalist_pic_persist = "",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		sculpture = "antu",
+		is_active = 1,
+		message_persist = "",
+		id = 670,
+		group_id = 670,
+		time = {
+			{
+				2026,
+				9,
+				9
+			},
+			{
+				14,
+				25,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[671] = {
+		ship_group = 31703,
+		name = "I14",
+		oalist_pic_persist = "",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		sculpture = "I14",
+		is_active = 1,
+		message_persist = "",
+		id = 671,
+		group_id = 671,
+		time = {
+			{
+				2026,
+				9,
+				10
+			},
+			{
+				12,
+				50,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[672] = {
+		ship_group = 20140,
+		name = "Hasty",
+		oalist_pic_persist = "",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		sculpture = "congmang",
+		is_active = 1,
+		message_persist = "",
+		id = 672,
+		group_id = 672,
+		time = {
+			{
+				2026,
+				9,
+				11
+			},
+			{
+				9,
+				36,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[673] = {
+		ship_group = 20119,
+		name = "Hostile",
+		oalist_pic_persist = "",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		sculpture = "didui",
+		is_active = 1,
+		message_persist = "",
+		id = 673,
+		group_id = 673,
+		time = {
+			{
+				2026,
+				9,
+				12
+			},
+			{
+				20,
+				0,
 				0
 			}
 		},

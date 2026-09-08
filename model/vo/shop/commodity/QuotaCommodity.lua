@@ -13,25 +13,29 @@ function var_0_0.GetPurchasableCnt(arg_3_0)
 end
 
 function var_0_0.GetOwnedGoodCount(arg_4_0)
-	return Drop.New({
-		id = arg_4_0:getConfig("commodity_id"),
-		type = arg_4_0:getConfig("commodity_type"),
-		count = arg_4_0:getConfig("num")
-	}):getOwnedCount()
+	return arg_4_0:getDropInfo():getOwnedCount()
 end
 
-function var_0_0.GetLimitGoodCount(arg_5_0)
-	local var_5_0 = arg_5_0:getConfig("limit_args")
+function var_0_0.getDropInfo(arg_5_0)
+	return Drop.New({
+		type = arg_5_0:getConfig("commodity_type"),
+		id = arg_5_0:getConfig("commodity_id"),
+		count = arg_5_0:getConfig("num")
+	})
+end
 
-	if type(var_5_0) == "table" then
-		for iter_5_0, iter_5_1 in ipairs(var_5_0) do
-			if iter_5_1[1] == "quota" then
-				return iter_5_1[2]
+function var_0_0.GetLimitGoodCount(arg_6_0)
+	local var_6_0 = arg_6_0:getConfig("limit_args")
+
+	if type(var_6_0) == "table" then
+		for iter_6_0, iter_6_1 in ipairs(var_6_0) do
+			if iter_6_1[1] == "quota" then
+				return iter_6_1[2]
 			end
 		end
 	end
 
-	assert(false, "good not limit_args 'quota' with id: " .. arg_5_0.id)
+	assert(false, "good not limit_args 'quota' with id: " .. arg_6_0.id)
 end
 
 return var_0_0

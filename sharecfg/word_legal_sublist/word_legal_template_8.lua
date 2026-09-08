@@ -7,6 +7,36 @@ var_0_0.word_legal_template_8 = {}
 local var_0_1 = var_0_0.word_legal_template_8
 
 function temp()
+	var_0_1.杌 = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.橗 = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.枨 = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.檧 = {
 		this = {
 			this = true
@@ -318,36 +348,6 @@ temp()
 
 function temp()
 	var_0_1.檚 = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.桎 = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.椋 = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.杪 = {
 		this = {
 			this = true
 		}

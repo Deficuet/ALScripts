@@ -52,7 +52,7 @@ function var_0_0.UnLockTip(arg_8_0)
 	end
 
 	local var_8_0 = ShopArgs.DORM_FLOOR_ID
-	local var_8_1 = pg.shop_template[var_8_0].resource_num
+	local var_8_1 = ShopConst.GetShopConfig(var_8_0).resource_num
 
 	_BackyardMsgBoxMgr:Show({
 		content = i18n("backyard_open_2floor", var_8_1),

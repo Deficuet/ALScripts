@@ -719,7 +719,7 @@ function var_0_0.UpdateNShopGoods(arg_63_0, arg_63_1)
 
 					arg_63_0.rtNGoodsDic[var_65_0.id] = arg_65_2
 
-					local var_65_1 = var_65_0:GetDropInfo()
+					local var_65_1 = var_65_0:getDropInfo()
 
 					updateDrop(arg_65_2:Find("IconTpl"), var_65_1)
 					setText(arg_65_2:Find("name_mask/name"), shortenString(var_65_1:getConfig("name"), 6))

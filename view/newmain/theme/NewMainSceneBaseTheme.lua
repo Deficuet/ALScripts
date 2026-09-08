@@ -55,7 +55,7 @@ function var_0_0.init(arg_4_0, arg_4_1)
 	})
 end
 
-function var_0_0._FoldPanels(arg_5_0, arg_5_1, arg_5_2)
+function var_0_0._FoldPanels(arg_5_0, arg_5_1, arg_5_2, arg_5_3)
 	for iter_5_0, iter_5_1 in ipairs(arg_5_0.panels) do
 		iter_5_1:Fold(arg_5_1, arg_5_2)
 	end
@@ -65,13 +65,17 @@ function var_0_0._FoldPanels(arg_5_0, arg_5_1, arg_5_2)
 	arg_5_0.bannerView:Fold(arg_5_1, arg_5_2)
 	arg_5_0.actBtnView:Fold(arg_5_1, arg_5_2)
 	arg_5_0.buffView:Fold(arg_5_1, arg_5_2)
-	arg_5_0.wordView:Fold(arg_5_1, arg_5_2)
+
+	if arg_5_3 and arg_5_3.chat and arg_5_1 then
+		arg_5_0.wordView:Fold(arg_5_1, arg_5_2)
+	end
+
 	arg_5_0.tagView:Fold(arg_5_1, arg_5_2)
 	arg_5_0.changeView:Fold(arg_5_1, arg_5_2)
 	arg_5_0.asmrChatView:Fold(arg_5_1, arg_5_2)
 end
 
-function var_0_0.OnFoldPanels(arg_6_0, arg_6_1)
+function var_0_0.OnFoldPanels(arg_6_0, arg_6_1, arg_6_2)
 	if arg_6_1 then
 		arg_6_0.mainCG.blocksRaycasts = false
 	else
@@ -82,7 +86,7 @@ function var_0_0.OnFoldPanels(arg_6_0, arg_6_1)
 		end, 0.5, 1):Start()
 	end
 
-	arg_6_0:_FoldPanels(arg_6_1, 0.5)
+	arg_6_0:_FoldPanels(arg_6_1, 0.5, arg_6_2)
 end
 
 function var_0_0.OnAsmrTurnning(arg_8_0, arg_8_1)
@@ -150,91 +154,95 @@ function var_0_0.Disable(arg_13_0)
 	setActiveViaLayer(arg_13_0._tf, false)
 end
 
-function var_0_0.IsLoaded(arg_14_0)
-	return arg_14_0._loaded
+function var_0_0.ShowOrHideBtnEffect(arg_14_0, arg_14_1)
+	return
 end
 
-function var_0_0.OnDestroy(arg_15_0)
-	arg_15_0:UnOverlayPanel(arg_15_0._tf, arg_15_0._parentTf)
-
-	for iter_15_0, iter_15_1 in ipairs(arg_15_0.panels or {}) do
-		iter_15_1:Dispose()
-	end
-
-	arg_15_0.panels = nil
-
-	if arg_15_0.iconView then
-		arg_15_0.iconView:Dispose()
-
-		arg_15_0.iconView = nil
-	end
-
-	if arg_15_0.chatRoomView then
-		arg_15_0.chatRoomView:Dispose()
-
-		arg_15_0.chatRoomView = nil
-	end
-
-	if arg_15_0.bannerView then
-		arg_15_0.bannerView:Dispose()
-
-		arg_15_0.bannerView = nil
-	end
-
-	if arg_15_0.actBtnView then
-		arg_15_0.actBtnView:Dispose()
-
-		arg_15_0.actBtnView = nil
-	end
-
-	if arg_15_0.buffView then
-		arg_15_0.buffView:Dispose()
-
-		arg_15_0.buffView = nil
-	end
-
-	if arg_15_0.tagView then
-		arg_15_0.tagView:Dispose()
-
-		arg_15_0.tagView = nil
-	end
-
-	if arg_15_0.wordView then
-		arg_15_0.wordView:Dispose()
-
-		arg_15_0.wordView = nil
-	end
-
-	if arg_15_0.changeView then
-		arg_15_0.changeView:Dispose()
-
-		arg_15_0.changeView = nil
-	end
-
-	if arg_15_0.asmrChatView then
-		arg_15_0.asmrChatView:Dispose()
-
-		arg_15_0.asmrChatView = nil
-	end
-
-	local var_15_0 = pg.EasyRedDotMgr.GetInstance()
-
-	for iter_15_2, iter_15_3 in ipairs(arg_15_0.redDotUIList or {}) do
-		var_15_0:UnRegisterRedDot(iter_15_3)
-	end
-
-	arg_15_0.redDotUIList = nil
+function var_0_0.IsLoaded(arg_15_0)
+	return arg_15_0._loaded
 end
 
-function var_0_0.GetPbList(arg_16_0)
+function var_0_0.OnDestroy(arg_16_0)
+	arg_16_0:UnOverlayPanel(arg_16_0._tf, arg_16_0._parentTf)
+
+	for iter_16_0, iter_16_1 in ipairs(arg_16_0.panels or {}) do
+		iter_16_1:Dispose()
+	end
+
+	arg_16_0.panels = nil
+
+	if arg_16_0.iconView then
+		arg_16_0.iconView:Dispose()
+
+		arg_16_0.iconView = nil
+	end
+
+	if arg_16_0.chatRoomView then
+		arg_16_0.chatRoomView:Dispose()
+
+		arg_16_0.chatRoomView = nil
+	end
+
+	if arg_16_0.bannerView then
+		arg_16_0.bannerView:Dispose()
+
+		arg_16_0.bannerView = nil
+	end
+
+	if arg_16_0.actBtnView then
+		arg_16_0.actBtnView:Dispose()
+
+		arg_16_0.actBtnView = nil
+	end
+
+	if arg_16_0.buffView then
+		arg_16_0.buffView:Dispose()
+
+		arg_16_0.buffView = nil
+	end
+
+	if arg_16_0.tagView then
+		arg_16_0.tagView:Dispose()
+
+		arg_16_0.tagView = nil
+	end
+
+	if arg_16_0.wordView then
+		arg_16_0.wordView:Dispose()
+
+		arg_16_0.wordView = nil
+	end
+
+	if arg_16_0.changeView then
+		arg_16_0.changeView:Dispose()
+
+		arg_16_0.changeView = nil
+	end
+
+	if arg_16_0.asmrChatView then
+		arg_16_0.asmrChatView:Dispose()
+
+		arg_16_0.asmrChatView = nil
+	end
+
+	local var_16_0 = pg.EasyRedDotMgr.GetInstance()
+
+	for iter_16_2, iter_16_3 in ipairs(arg_16_0.redDotUIList or {}) do
+		var_16_0:UnRegisterRedDot(iter_16_3)
+	end
+
+	arg_16_0.redDotUIList = nil
+end
+
+function var_0_0.GetPbList(arg_17_0)
 	return {}
 end
 
-function var_0_0.GetCalibrationBG(arg_17_0)
+function var_0_0.GetCalibrationBG(arg_18_0)
 	assert(false)
 end
 
-function var_0_0.GetPaintingOffset(arg_18_0, arg_18_1)
+function var_0_0.GetPaintingOffset(arg_19_0, arg_19_1)
 	return MainPaintingShift.New({
 		0,
 		-10,
@@ -248,63 +256,63 @@ function var_0_0.GetPaintingOffset(arg_18_0, arg_18_1)
 	})
 end
 
-function var_0_0.ApplyDefaultResUI(arg_19_0)
+function var_0_0.ApplyDefaultResUI(arg_20_0)
 	return true
 end
 
-function var_0_0.GetWordView(arg_20_0)
+function var_0_0.GetWordView(arg_21_0)
 	assert(false)
 end
 
-function var_0_0.GetTagView(arg_21_0)
+function var_0_0.GetTagView(arg_22_0)
 	assert(false)
 end
 
-function var_0_0.GetTopPanel(arg_22_0)
+function var_0_0.GetTopPanel(arg_23_0)
 	assert(false)
 end
 
-function var_0_0.GetRightPanel(arg_23_0)
+function var_0_0.GetRightPanel(arg_24_0)
 	assert(false)
 end
 
-function var_0_0.GetLeftPanel(arg_24_0)
+function var_0_0.GetLeftPanel(arg_25_0)
 	assert(false)
 end
 
-function var_0_0.GetBottomPanel(arg_25_0)
+function var_0_0.GetBottomPanel(arg_26_0)
 	assert(false)
 end
 
-function var_0_0.GetIconView(arg_26_0)
+function var_0_0.GetIconView(arg_27_0)
 	assert(false)
 end
 
-function var_0_0.GetChatRoomView(arg_27_0)
+function var_0_0.GetChatRoomView(arg_28_0)
 	assert(false)
 end
 
-function var_0_0.GetBannerView(arg_28_0)
+function var_0_0.GetBannerView(arg_29_0)
 	assert(false)
 end
 
-function var_0_0.GetActBtnView(arg_29_0)
+function var_0_0.GetActBtnView(arg_30_0)
 	assert(false)
 end
 
-function var_0_0.GetBuffView(arg_30_0)
+function var_0_0.GetBuffView(arg_31_0)
 	assert(false)
 end
 
-function var_0_0.GetChangeSkinView(arg_31_0)
+function var_0_0.GetChangeSkinView(arg_32_0)
 	assert(false)
 end
 
-function var_0_0.GetAsmrChatView(arg_32_0)
+function var_0_0.GetAsmrChatView(arg_33_0)
 	assert(false)
 end
 
-function var_0_0.RegisterRedDots(arg_33_0)
+function var_0_0.RegisterRedDots(arg_34_0)
 	return {}
 end
 

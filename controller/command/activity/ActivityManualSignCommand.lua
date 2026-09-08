@@ -42,7 +42,8 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 
 			arg_1_0:sendNotification(GAME.ACT_MANUAL_SIGN_DONE, {
 				awards = var_2_0,
-				id = var_1_1
+				id = var_1_1,
+				cmd = var_1_0.cmd
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[arg_2_0.result] .. arg_2_0.result)

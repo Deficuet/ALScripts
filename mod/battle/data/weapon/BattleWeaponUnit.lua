@@ -1140,24 +1140,32 @@ function var_0_9.DispatchBulletEvent(arg_101_0, arg_101_1, arg_101_2)
 	end
 
 	if type(var_101_1.spawn_bound) == "table" and not var_101_0 then
-		local var_101_3 = arg_101_0._dataProxy:GetStageInfo().mainUnitPosition
+		local var_101_3 = var_101_1.spawn_bound[1]
+		local var_101_4 = var_101_1.spawn_bound[2] or {
+			0,
+			0,
+			0
+		}
+		local var_101_5 = arg_101_0._dataProxy:GetStageInfo().mainUnitPosition
 
-		if var_101_3 and var_101_3[arg_101_0._hostIFF] then
-			var_101_0 = Clone(var_101_3[arg_101_0._hostIFF][var_101_1.spawn_bound[1]])
+		if var_101_5 and var_101_5[arg_101_0._hostIFF] then
+			var_101_0 = Clone(var_101_5[arg_101_0._hostIFF][var_101_3])
 		else
-			var_101_0 = Clone(var_0_2.MAIN_UNIT_POS[arg_101_0._hostIFF][var_101_1.spawn_bound[1]])
+			var_101_0 = Clone(var_0_2.MAIN_UNIT_POS[arg_101_0._hostIFF][var_101_3])
 		end
+
+		var_101_0 = Vector3.New(var_101_0.x + (var_101_4[1] or 0), var_101_0.y + (var_101_4[2] or 0), var_101_0.z + (var_101_4[3] or 0))
 	end
 
-	local var_101_4 = {
+	local var_101_6 = {
 		spawnBound = var_101_1.spawn_bound,
 		bullet = arg_101_1,
 		fireFxID = var_101_2,
 		position = var_101_0
 	}
-	local var_101_5 = var_0_0.Event.New(var_0_0.Battle.BattleUnitEvent.CREATE_BULLET, var_101_4)
+	local var_101_7 = var_0_0.Event.New(var_0_0.Battle.BattleUnitEvent.CREATE_BULLET, var_101_6)
 
-	arg_101_0:DispatchEvent(var_101_5)
+	arg_101_0:DispatchEvent(var_101_7)
 end
 
 function var_0_9.DispatchFireEvent(arg_102_0, arg_102_1, arg_102_2)

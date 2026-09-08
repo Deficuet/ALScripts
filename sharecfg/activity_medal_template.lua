@@ -175,7 +175,22 @@ pg.activity_medal_template.all = {
 	5111304,
 	5111305,
 	5111306,
-	5111307
+	5111307,
+	5114301,
+	5114302,
+	5114303,
+	5114304,
+	5114305,
+	5114306,
+	5114307,
+	5114308,
+	5115401,
+	5115402,
+	5115403,
+	5115404,
+	5115405,
+	5115406,
+	5115407
 }
 pg.activity_medal_template.get_id_list_by_group = {
 	[5711] = {
@@ -394,6 +409,25 @@ pg.activity_medal_template.get_id_list_by_group = {
 		5111305,
 		5111306,
 		5111307
+	},
+	[51143] = {
+		5114301,
+		5114302,
+		5114303,
+		5114304,
+		5114305,
+		5114306,
+		5114307,
+		5114308
+	},
+	[51154] = {
+		5115401,
+		5115402,
+		5115403,
+		5115404,
+		5115405,
+		5115406,
+		5115407
 	}
 }
 pg.base = pg.base or {}
@@ -2477,5 +2511,185 @@ end)()
 		activity_medal_name = "纪念贴：SPEED MAX",
 		id = 5111307,
 		activity_medal_desc = "DU！DU！DU！DU！"
+	}
+	pg.base.activity_medal_template[5114301] = {
+		prefab_node = "1",
+		next_medal = 0,
+		item = 66095,
+		remake_task_id = 0,
+		group = 51143,
+		task_id = 25720,
+		medal_asset = "ActivityMedal/5114301",
+		activity_medal_name = "纪念贴：市政厅",
+		id = 5114301,
+		activity_medal_desc = "今天的市政厅依旧“人”声鼎沸呢~"
+	}
+	pg.base.activity_medal_template[5114302] = {
+		prefab_node = "2",
+		next_medal = 0,
+		item = 66096,
+		remake_task_id = 0,
+		group = 51143,
+		task_id = 25721,
+		medal_asset = "ActivityMedal/5114302",
+		activity_medal_name = "纪念贴：危险剪影",
+		id = 5114302,
+		activity_medal_desc = "popopo……"
+	}
+	pg.base.activity_medal_template[5114303] = {
+		prefab_node = "3",
+		next_medal = 0,
+		item = 66097,
+		remake_task_id = 0,
+		group = 51143,
+		task_id = 25722,
+		medal_asset = "ActivityMedal/5114303",
+		activity_medal_name = "纪念贴：火焰扇",
+		id = 5114303,
+		activity_medal_desc = "自带加热功能，夏天慎用~"
+	}
+	pg.base.activity_medal_template[5114304] = {
+		prefab_node = "4",
+		next_medal = 0,
+		item = 66098,
+		remake_task_id = 0,
+		group = 51143,
+		task_id = 25723,
+		medal_asset = "ActivityMedal/5114304",
+		activity_medal_name = "纪念贴：Heart Lancer",
+		id = 5114304,
+		activity_medal_desc = "以爱之名，贯穿邪恶！"
+	}
+	pg.base.activity_medal_template[5114305] = {
+		prefab_node = "5",
+		next_medal = 0,
+		item = 66099,
+		remake_task_id = 0,
+		group = 51143,
+		task_id = 25724,
+		medal_asset = "ActivityMedal/5114305",
+		activity_medal_name = "纪念贴：高级蜡笔",
+		id = 5114305,
+		activity_medal_desc = "八人议会官方指定办公工具，能写出充满智慧的批注！"
+	}
+	pg.base.activity_medal_template[5114306] = {
+		prefab_node = "6",
+		next_medal = 0,
+		item = 66100,
+		remake_task_id = 0,
+		group = 51143,
+		task_id = 25725,
+		medal_asset = "ActivityMedal/5114306",
+		activity_medal_name = "纪念贴：培训开始！",
+		id = 5114306,
+		activity_medal_desc = "新人培训员上线！可不要被吓到哦~"
+	}
+	pg.base.activity_medal_template[5114307] = {
+		prefab_node = "7",
+		next_medal = 0,
+		item = 66101,
+		remake_task_id = 0,
+		group = 51143,
+		task_id = 25726,
+		medal_asset = "ActivityMedal/5114307",
+		activity_medal_name = "纪念贴：群星交响",
+		id = 5114307,
+		activity_medal_desc = "宇宙啊，随我歌唱！"
+	}
+	pg.base.activity_medal_template[5114308] = {
+		prefab_node = "8",
+		next_medal = 0,
+		item = 66102,
+		remake_task_id = 0,
+		group = 51143,
+		task_id = 25727,
+		medal_asset = "ActivityMedal/5114308",
+		activity_medal_name = "纪念贴：伙伴球",
+		id = 5114308,
+		activity_medal_desc = "无法查看本物品的真名——"
+	}
+	pg.base.activity_medal_template[5115401] = {
+		prefab_node = "1",
+		next_medal = 0,
+		item = 66104,
+		remake_task_id = 0,
+		group = 51154,
+		task_id = 25730,
+		medal_asset = "ActivityMedal/5115401",
+		activity_medal_name = "纪念贴：啾啾雕像",
+		id = 5115401,
+		activity_medal_desc = "异常事件调查中心的镇馆之啾！"
+	}
+	pg.base.activity_medal_template[5115402] = {
+		prefab_node = "2",
+		next_medal = 0,
+		item = 66105,
+		remake_task_id = 0,
+		group = 51154,
+		task_id = 25731,
+		medal_asset = "ActivityMedal/5115402",
+		activity_medal_name = "纪念贴：秘密宝箱",
+		id = 5115402,
+		activity_medal_desc = "让我们看看秘宝究竟是……什么！一条毛巾？！"
+	}
+	pg.base.activity_medal_template[5115403] = {
+		prefab_node = "3",
+		next_medal = 0,
+		item = 66106,
+		remake_task_id = 0,
+		group = 51154,
+		task_id = 25732,
+		medal_asset = "ActivityMedal/5115403",
+		activity_medal_name = "纪念贴：永不熄灭的提灯",
+		id = 5115403,
+		activity_medal_desc = "灯光微弱，亦能照亮前路"
+	}
+	pg.base.activity_medal_template[5115404] = {
+		prefab_node = "4",
+		next_medal = 0,
+		item = 66107,
+		remake_task_id = 0,
+		group = 51154,
+		task_id = 25733,
+		medal_asset = "ActivityMedal/5115404",
+		activity_medal_name = "纪念贴：枫林听雨",
+		id = 5115404,
+		activity_medal_desc = "雨滴绕过伞沿，枫叶偏爱落在肩头"
+	}
+	pg.base.activity_medal_template[5115405] = {
+		prefab_node = "5",
+		next_medal = 0,
+		item = 66108,
+		remake_task_id = 0,
+		group = 51154,
+		task_id = 25734,
+		medal_asset = "ActivityMedal/5115405",
+		activity_medal_name = "纪念贴：飘雪花冠",
+		id = 5115405,
+		activity_medal_desc = "花说我不冷，雪说我不化"
+	}
+	pg.base.activity_medal_template[5115406] = {
+		prefab_node = "6",
+		next_medal = 0,
+		item = 66109,
+		remake_task_id = 0,
+		group = 51154,
+		task_id = 25735,
+		medal_asset = "ActivityMedal/5115406",
+		activity_medal_name = "纪念贴：员工画像",
+		id = 5115406,
+		activity_medal_desc = "画像正在说话……等等，她好像也是这里的员工？ "
+	}
+	pg.base.activity_medal_template[5115407] = {
+		prefab_node = "7",
+		next_medal = 0,
+		item = 66110,
+		remake_task_id = 0,
+		group = 51154,
+		task_id = 25736,
+		medal_asset = "ActivityMedal/5115407",
+		activity_medal_name = "纪念贴：调查经费",
+		id = 5115407,
+		activity_medal_desc = "随便刷，额度管够！"
 	}
 end)()

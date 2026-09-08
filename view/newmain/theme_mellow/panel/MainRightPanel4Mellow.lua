@@ -19,4 +19,10 @@ function var_0_0.SetEffectVisible(arg_3_0, arg_3_1)
 	setActive(findTF(arg_3_0._tf, "1/battle/FX"), arg_3_1)
 end
 
+function var_0_0.ShowOrHideBtnEffect(arg_4_0, arg_4_1)
+	for iter_4_0, iter_4_1 in ipairs(arg_4_0.btns) do
+		iter_4_1:ShowOrHideBtnEffect(arg_4_1)
+	end
+end
+
 return var_0_0

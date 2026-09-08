@@ -48,7 +48,7 @@ function var_0_0.InitWindow(arg_7_0, arg_7_1, arg_7_2)
 	local var_7_2
 
 	if isa(arg_7_1, WorldNShopCommodity) then
-		var_7_0 = arg_7_1:GetDropInfo()
+		var_7_0 = arg_7_1:getDropInfo()
 		var_7_1 = arg_7_1:GetPriceInfo()
 		var_7_2 = arg_7_1:GetLimitGoodCount()
 	else

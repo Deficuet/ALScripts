@@ -7,6 +7,60 @@ var_0_0.word_legal_template_15 = {}
 local var_0_1 = var_0_0.word_legal_template_15
 
 function temp()
+	var_0_1.冈 = {
+		依 = {
+			沙 = {
+				瓦 = {
+					号 = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.君 = {
+		主 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.菈 = {
+		菈 = {
+			· = {
+				撒 = {
+					塔 = {
+						琳 = {
+							· = {
+								戴 = {
+									比 = {
+										路 = {
+											克 = {
+												this = true
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.梦 = {
 		梦 = {
 			· = {
@@ -394,101 +448,6 @@ function temp()
 	var_0_1.久 = {
 		远 = {
 			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.猫 = {
-		音 = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.绊 = {
-		爱 = {
-			this = true,
-			· = {
-				E = {
-					l = {
-						e = {
-							g = {
-								a = {
-									n = {
-										t = {
-											this = true
-										}
-									}
-								}
-							}
-						}
-					}
-				},
-				A = {
-					n = {
-						n = {
-							i = {
-								v = {
-									e = {
-										r = {
-											s = {
-												a = {
-													r = {
-														y = {
-															this = true
-														}
-													}
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				},
-				S = {
-					u = {
-						p = {
-							e = {
-								r = {
-									G = {
-										a = {
-											m = {
-												e = {
-													r = {
-														this = true
-													}
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.白 = {
-		上 = {
-			吹 = {
-				雪 = {
-					this = true
-				}
-			}
 		}
 	}
 end

@@ -29,6 +29,21 @@ function temp()
 			this = true
 		},
 		敢 = {
+			this = true,
+			["."] = {
+				改 = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.敌 = {
+		对 = {
 			this = true
 		}
 	}
@@ -254,6 +269,16 @@ function temp()
 					this = true
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.匆 = {
+		忙 = {
+			this = true
 		}
 	}
 end
@@ -526,31 +551,6 @@ function temp()
 		战 = {
 			女 = {
 				神 = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.进 = {
-		取 = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.伦 = {
-		敦 = {
-			this = true,
-			["."] = {
-				改 = {
 					this = true
 				}
 			}

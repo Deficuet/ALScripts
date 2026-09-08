@@ -107,25 +107,20 @@ function var_0_0.addListener(arg_8_0)
 end
 
 function var_0_0.updateGoodInfoPanel(arg_12_0)
-	local var_12_0 = arg_12_0.goodVO
-	local var_12_1 = Drop.New({
-		type = var_12_0:getConfig("commodity_type"),
-		id = var_12_0:getConfig("commodity_id"),
-		count = var_12_0:getConfig("num")
-	})
+	local var_12_0 = arg_12_0.goodVO:getDropInfo()
 
-	updateDrop(arg_12_0.itemTF, var_12_1)
+	updateDrop(arg_12_0.itemTF, var_12_0)
 
-	local var_12_2, var_12_3 = var_12_1:getOwnedCount()
+	local var_12_1, var_12_2 = var_12_0:getOwnedCount()
 
-	setActive(arg_12_0.countTF, var_12_3)
+	setActive(arg_12_0.countTF, var_12_2)
 
-	if var_12_3 then
-		setText(arg_12_0.countText, var_12_2)
+	if var_12_2 then
+		setText(arg_12_0.countText, var_12_1)
 	end
 
-	setText(arg_12_0.nameText, var_12_1:getConfig("name"))
-	setText(arg_12_0.descText, string.gsub(var_12_1.desc or var_12_1:getConfig("desc"), "<[^>]+>", ""))
+	setText(arg_12_0.nameText, var_12_0:getConfig("name"))
+	setText(arg_12_0.descText, string.gsub(var_12_0.desc or var_12_0:getConfig("desc"), "<[^>]+>", ""))
 end
 
 function var_0_0.updateBuyPanelWithNum(arg_13_0, arg_13_1)

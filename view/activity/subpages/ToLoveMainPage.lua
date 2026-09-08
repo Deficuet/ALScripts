@@ -37,7 +37,7 @@ function var_0_0.OnFirstFlush(arg_2_0)
 		setText(arg_2_0.build:Find("time/Text"), i18n("tolovemainpage_build_countdown"))
 	end
 
-	local var_2_2 = pg.shop_template[arg_2_0.skinLinkId].time
+	local var_2_2 = ShopConst.GetShopConfig(arg_2_0.skinLinkId).time
 	local var_2_3, var_2_4 = pg.TimeMgr.GetInstance():inTime(var_2_2)
 
 	if var_2_3 then

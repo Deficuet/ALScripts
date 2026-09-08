@@ -64,11 +64,7 @@ function var_0_0.updateSingle(arg_3_0, arg_3_1, arg_3_2, arg_3_3, arg_3_4)
 		setActive(arg_3_0.unexchangeTag, true)
 	end
 
-	local var_3_6 = Drop.New({
-		type = arg_3_1:getConfig("commodity_type"),
-		id = arg_3_1:getConfig("commodity_id"),
-		count = arg_3_1:getConfig("num")
-	})
+	local var_3_6 = arg_3_1:getDropInfo()
 
 	updateDrop(arg_3_0.itemTF, var_3_6)
 	setActive(arg_3_0.limitTimeSellTF, false)
@@ -182,11 +178,7 @@ function var_0_0.StaticUpdate(arg_10_0, arg_10_1, arg_10_2, arg_10_3)
 	setActive(var_10_4, not var_10_9)
 	setActive(var_10_5, not var_10_9)
 
-	local var_10_11 = Drop.New({
-		type = arg_10_1:getConfig("commodity_type"),
-		id = arg_10_1:getConfig("commodity_id"),
-		count = arg_10_1:getConfig("num")
-	})
+	local var_10_11 = arg_10_1:getDropInfo()
 
 	updateDrop(var_10_1, var_10_11)
 

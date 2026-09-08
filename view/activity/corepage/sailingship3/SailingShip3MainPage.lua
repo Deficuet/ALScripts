@@ -42,7 +42,7 @@ function var_0_0.OnUpdateFlush(arg_5_0)
 end
 
 function var_0_0.updateUI(arg_6_0)
-	local var_6_0, var_6_1 = arg_6_0.timeMgr:inTime(pg.shop_template[var_0_1].time)
+	local var_6_0, var_6_1 = arg_6_0.timeMgr:inTime(ShopConst.GetShopConfig(var_0_1).time)
 	local var_6_2
 
 	if var_6_1 then

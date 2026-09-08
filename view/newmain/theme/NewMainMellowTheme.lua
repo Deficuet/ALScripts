@@ -44,9 +44,13 @@ function var_0_0.Refresh(arg_7_0, arg_7_1)
 	arg_7_0.animationPlayer:Play("anim_newmain_open")
 end
 
-function var_0_0.OnFoldPanels(arg_8_0, arg_8_1)
+function var_0_0.OnFoldPanels(arg_8_0, arg_8_1, arg_8_2)
 	if arg_8_1 then
-		arg_8_0.animationPlayer:Play("anim_newmain_hide")
+		if arg_8_2 and arg_8_2.chat then
+			arg_8_0.animationPlayer:Play("anim_newmain_hide_chat")
+		else
+			arg_8_0.animationPlayer:Play("anim_newmain_hide")
+		end
 	else
 		arg_8_0.animationPlayer:Play("anim_newmain_show")
 	end
@@ -353,6 +357,12 @@ function var_0_0.RegisterRedDots(arg_31_0)
 	end)
 
 	return var_31_1
+end
+
+function var_0_0.ShowOrHideBtnEffect(arg_52_0, arg_52_1)
+	for iter_52_0, iter_52_1 in ipairs(arg_52_0.panels) do
+		iter_52_1:ShowOrHideBtnEffect(arg_52_1)
+	end
 end
 
 return var_0_0

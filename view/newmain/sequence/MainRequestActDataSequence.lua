@@ -79,11 +79,16 @@ function var_0_0.RequestManualSignAct(arg_8_0)
 	local var_8_0 = getProxy(ActivityProxy):getRawData()
 
 	for iter_8_0, iter_8_1 in pairs(var_8_0) do
-		if iter_8_1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_MANUAL_SIGN and not iter_8_1:TodayIsSigned() then
-			pg.m02:sendNotification(GAME.ACT_MANUAL_SIGN, {
-				activity_id = iter_8_1.id,
-				cmd = ManualSignActivity.OP_SIGN
-			})
+		if iter_8_1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_MANUAL_SIGN then
+			local var_8_1 = iter_8_1:getConfig("config_client")
+			local var_8_2 = var_8_1 and var_8_1.manulSign == true
+
+			if not iter_8_1:TodayIsSigned() and not var_8_2 then
+				pg.m02:sendNotification(GAME.ACT_MANUAL_SIGN, {
+					activity_id = iter_8_1.id,
+					cmd = ManualSignActivity.OP_SIGN
+				})
+			end
 		end
 	end
 end

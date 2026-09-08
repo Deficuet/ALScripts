@@ -615,7 +615,7 @@ function var_0_0.GetAllShowGiftPackages(arg_73_0, arg_73_1)
 	end
 
 	for iter_73_2, iter_73_3 in ipairs(pg.shop_template.get_id_list_by_genre[ShopArgs.GiftPackage] or {}) do
-		local var_73_8 = pg.shop_template[iter_73_3].akashi_pick > 0
+		local var_73_8 = ShopConst.GetShopConfig(iter_73_3).akashi_pick > 0
 
 		if (arg_73_1 == nil or var_73_8 == arg_73_1) and not table.contains(var_73_1, iter_73_3) then
 			local var_73_9 = Goods.Create({
@@ -627,7 +627,7 @@ function var_0_0.GetAllShowGiftPackages(arg_73_0, arg_73_1)
 	end
 
 	for iter_73_4, iter_73_5 in ipairs(pg.shop_template.get_id_list_by_genre[ShopArgs.GiftActPackage] or {}) do
-		local var_73_10 = pg.shop_template[iter_73_5].akashi_pick > 0
+		local var_73_10 = ShopConst.GetShopConfig(iter_73_5).akashi_pick > 0
 
 		if (arg_73_1 == nil or var_73_10 == arg_73_1) and not table.contains(var_73_1, iter_73_5) then
 			local var_73_11 = Goods.Create({
@@ -668,6 +668,11 @@ function var_0_0.GetAllShowGiftPackages(arg_73_0, arg_73_1)
 			end
 
 			local var_73_20, var_73_21 = pg.TimeMgr.GetInstance():inTime(iter_73_7:getConfig("time"))
+
+			if iter_73_7.id == 69999 then
+				warning(PrintTable(iter_73_7:getConfig("time")), iter_73_7.__cname)
+				warning(var_73_20, var_73_21, iter_73_7:canPurchase(), var_73_17)
+			end
 
 			if var_73_21 then
 				table.insert(var_73_13, iter_73_7)
@@ -733,6 +738,54 @@ function var_0_0.filterLimitTypeGoods(arg_74_0, arg_74_1, arg_74_2)
 	}, function()
 		return true
 	end)
+end
+
+function var_0_0.CanPurchasedByCharge(arg_78_0, arg_78_1)
+	local var_78_0 = pg.pay_data_display.get_id_list_by_extra_service[Goods.NON_MAIL] or {}
+
+	for iter_78_0, iter_78_1 in ipairs(var_78_0) do
+		local var_78_1 = pg.pay_data_display[iter_78_1].extra_service_item
+
+		if type(var_78_1) == "string" then
+			var_78_1 = {}
+		end
+
+		for iter_78_2, iter_78_3 in ipairs(var_78_1) do
+			local var_78_2 = iter_78_3[1]
+			local var_78_3 = iter_78_3[2]
+			local var_78_4 = iter_78_3[3]
+
+			if var_78_2 == DROP_TYPE_SKIN and var_78_3 == arg_78_1 then
+				return true, iter_78_1
+			end
+		end
+	end
+
+	return false
+end
+
+function var_0_0.IsSkinTypeCharge(arg_79_0, arg_79_1)
+	local var_79_0 = pg.pay_data_display[arg_79_1]
+
+	assert(var_79_0, "pay_data_display" .. arg_79_1)
+
+	local var_79_1 = var_79_0.extra_service_item
+
+	if type(var_79_1) == "string" then
+		var_79_1 = {}
+	end
+
+	for iter_79_0, iter_79_1 in ipairs(var_79_1) do
+		local var_79_2 = iter_79_1[1]
+		local var_79_3 = iter_79_1[2]
+		local var_79_4 = iter_79_1[3]
+
+		if var_79_2 == DROP_TYPE_SKIN then
+			return true, var_79_3
+		end
+	end
+
+	return false
 end
 
 return var_0_0

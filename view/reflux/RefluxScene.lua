@@ -43,6 +43,7 @@ function var_0_0.didEnter(arg_5_0)
 	end
 
 	arg_5_0:updateDay()
+	arg_5_0:OverlayPanel(arg_5_0._tf)
 end
 
 function var_0_0.willExit(arg_6_0)
@@ -51,11 +52,23 @@ function var_0_0.willExit(arg_6_0)
 			iter_6_1:Destroy()
 		end
 	end
+
+	if arg_6_0.letterView then
+		arg_6_0.letterView:Destroy()
+
+		arg_6_0.letterView = nil
+
+		return
+	end
+
+	arg_6_0:UnOverlayPanel(arg_6_0._tf, arg_6_0._parentTf)
 end
 
 function var_0_0.onBackPressed(arg_7_0)
 	if arg_7_0.letterView and arg_7_0.letterView:isShowing() then
-		arg_7_0.letterView:OnBackPress()
+		arg_7_0.letterView:Hide()
+
+		arg_7_0.letterView = nil
 
 		return
 	end
@@ -100,7 +113,7 @@ end
 
 function var_0_0.initData(arg_9_0)
 	arg_9_0.curViewIndex = 0
-	arg_9_0.letterView = RefluxLetterView.New(arg_9_0.letterContainer, arg_9_0.event, arg_9_0.contextData)
+	arg_9_0.letterView = RefluxAnimationPlayer.New(pg.UIMgr.GetInstance().OverlayUITop)
 	arg_9_0.signView = RefluxSignView.New(arg_9_0.panelContainer, arg_9_0.event, arg_9_0.contextData)
 	arg_9_0.taskView = RefluxTaskView.New(arg_9_0.panelContainer, arg_9_0.event, arg_9_0.contextData)
 	arg_9_0.ptView = RefluxPTView.New(arg_9_0.panelContainer, arg_9_0.event, arg_9_0.contextData)
@@ -144,51 +157,40 @@ function var_0_0.addListener(arg_10_0)
 end
 
 function var_0_0.tryOpenLetterView(arg_17_0)
-	local var_17_0 = getProxy(RefluxProxy).returnTimestamp
-	local var_17_1 = getProxy(PlayerProxy):getRawData().id .. "_" .. var_17_0
-
-	if PlayerPrefs.GetInt(var_17_1, 0) ~= 1 then
-		PlayerPrefs.SetInt(var_17_1, 1)
-		PlayerPrefs.Save()
-		arg_17_0.letterView:ActionInvoke("setCloseFunc", function()
-			triggerToggle(arg_17_0.toggleList[var_0_0.Sign], true)
-		end)
-		arg_17_0:switchLetter()
-
-		return true
-	else
-		return false
-	end
+	return false
 end
 
-function var_0_0.switchPage(arg_19_0, arg_19_1)
-	if arg_19_0.curViewIndex ~= arg_19_1 then
-		local var_19_0 = arg_19_0.viewList[arg_19_1]
+function var_0_0.switchPage(arg_18_0, arg_18_1)
+	if arg_18_0.curViewIndex ~= arg_18_1 then
+		local var_18_0 = arg_18_0.viewList[arg_18_1]
 
-		var_19_0:Load()
-		var_19_0:ActionInvoke("Show")
-		var_19_0:ActionInvoke("updateOutline")
+		var_18_0:Load()
+		var_18_0:ActionInvoke("Show")
+		var_18_0:ActionInvoke("updateOutline")
 
-		if arg_19_0.curViewIndex > 0 then
-			arg_19_0.viewList[arg_19_0.curViewIndex]:Hide()
+		if arg_18_0.curViewIndex > 0 then
+			arg_18_0.viewList[arg_18_0.curViewIndex]:Hide()
 		end
 
-		arg_19_0.curViewIndex = arg_19_1
-		arg_19_0.contextData.lastViewIndex = arg_19_1
+		arg_18_0.curViewIndex = arg_18_1
+		arg_18_0.contextData.lastViewIndex = arg_18_1
 	end
 end
 
-function var_0_0.tryAutoOpenLastView(arg_20_0)
-	if arg_20_0.contextData.lastViewIndex then
-		triggerToggle(arg_20_0.toggleList[arg_20_0.contextData.lastViewIndex], true)
+function var_0_0.tryAutoOpenLastView(arg_19_0)
+	if arg_19_0.contextData.lastViewIndex then
+		triggerToggle(arg_19_0.toggleList[arg_19_0.contextData.lastViewIndex], true)
 	else
-		triggerToggle(arg_20_0.toggleList[var_0_0.Sign], true)
+		triggerToggle(arg_19_0.toggleList[var_0_0.Sign], true)
 	end
 end
 
-function var_0_0.switchLetter(arg_21_0)
-	arg_21_0.letterView:Load()
-	arg_21_0.letterView:ActionInvoke("Show")
+function var_0_0.switchLetter(arg_20_0)
+	local var_20_0 = getProxy(RefluxProxy):GetRefluxBgs()
+
+	arg_20_0.letterView:ExecuteAction("Play4Review", var_20_0, function()
+		arg_20_0.letterView:Hide()
+	end)
 end
 
 function var_0_0.updateRedPotList(arg_22_0)

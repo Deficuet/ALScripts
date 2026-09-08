@@ -28,6 +28,7 @@ var_0_0.TIME_TYPE_MONTH = 2
 var_0_0.TIME_TYPE_YEAR = 3
 var_0_0.MAX_MAP_SIZE = Vector2(23, 23)
 var_0_0.MAX_FEAST_MAP_SIZE = Vector2(25, 25)
+var_0_0.MAX_REVERSE_PACMAN_MAP_SIZE = Vector2(48, 24)
 
 function var_0_0.ThemeSortIndex2ServerIndex(arg_1_0, arg_1_1)
 	arg_1_1 = defaultValue(arg_1_1, true)

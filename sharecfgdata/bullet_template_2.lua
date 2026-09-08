@@ -115,6 +115,67 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.bullet_template_2[1111] = {
+		hit_sfx = "battle/hit",
+		range_offset = 10,
+		modle_ID = "BulletJP",
+		type = 1,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "pofang",
+		effect_type = 1,
+		id = 1111,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 70,
+		miss_fx = "ShellMiss",
+		pierce_count = 0,
+		ammo_type = 3,
+		alert_fx = "",
+		velocity = 15,
+		damage_type = {
+			1.55,
+			1.05,
+			0.65
+		},
+		DMG_font = {
+			{
+				3,
+				1.4
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				0.8
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {
+			{
+				rant = 300,
+				buff_id = 311,
+				group_level = 2
+			}
+		},
+		extra_param = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.bullet_template_2[1212] = {
 		hit_sfx = "battle/hit",
 		range_offset = 10,
@@ -1007,6 +1068,2060 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161080] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "BulletUK",
+		type = 1,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "ShellMiss",
+		effect_type = 1,
+		id = 161080,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 100,
+		miss_fx = "ShellMiss",
+		pierce_count = 0,
+		ammo_type = 1,
+		alert_fx = "",
+		velocity = 18,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161083] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "hu_yinfuzidan",
+		type = 1,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "CLHit",
+		effect_type = 1,
+		id = 161083,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 150,
+		miss_fx = "ShellMiss",
+		pierce_count = 0,
+		ammo_type = 1,
+		alert_fx = "",
+		velocity = 15,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			6
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {
+			{
+				rant = 10000,
+				buff_id = 152715,
+				group_level = 1
+			}
+		},
+		extra_param = {
+			ignoreShield = true
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161085] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "hu_yinfuzidan",
+		type = 1,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "CLHit",
+		effect_type = 1,
+		id = 161085,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 150,
+		miss_fx = "ShellMiss",
+		pierce_count = 0,
+		ammo_type = 3,
+		alert_fx = "",
+		velocity = 15,
+		damage_type = {
+			1.35,
+			0.75,
+			0.75
+		},
+		DMG_font = {
+			{
+				3,
+				1.3
+			},
+			{
+				4,
+				0.8
+			},
+			{
+				4,
+				0.8
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			6
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {
+			{
+				rant = 10000,
+				buff_id = 152715,
+				group_level = 1
+			}
+		},
+		extra_param = {
+			ignoreShield = true
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161086] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "hu_yinfuzidan",
+		type = 1,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "CLHit",
+		effect_type = 1,
+		id = 161086,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 150,
+		miss_fx = "ShellMiss",
+		pierce_count = 0,
+		ammo_type = 2,
+		alert_fx = "",
+		velocity = 15,
+		damage_type = {
+			0.75,
+			0.75,
+			1.35
+		},
+		DMG_font = {
+			{
+				4,
+				0.8
+			},
+			{
+				4,
+				0.8
+			},
+			{
+				3,
+				1.3
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			6
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {
+			{
+				rant = 10000,
+				buff_id = 152715,
+				group_level = 1
+			}
+		},
+		extra_param = {
+			ignoreShield = true
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161087] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "hu_xingxingpaodan",
+		type = 2,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "ShellHit",
+		effect_type = 1,
+		id = 161087,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 150,
+		miss_fx = "ShellMiss",
+		pierce_count = 0,
+		ammo_type = 3,
+		alert_fx = "",
+		velocity = 17,
+		damage_type = {
+			1.2,
+			0.8,
+			0.8
+		},
+		DMG_font = {
+			{
+				3,
+				1.2
+			},
+			{
+				4,
+				0.8
+			},
+			{
+				4,
+				0.8
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			2,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 17
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.4,
+			randomOffsetX = 20,
+			randomOffsetZ = 20,
+			diveFilter = {
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161088] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "hu_gaoyinzidan",
+		type = 5,
+		out_bound = 4,
+		antisub_enhancement = 0,
+		hit_fx = "CLHit",
+		effect_type = 1,
+		id = 161088,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 1,
+		miss_fx = "None",
+		pierce_count = 99,
+		ammo_type = 3,
+		alert_fx = "",
+		velocity = 10,
+		damage_type = {
+			1.35,
+			0.75,
+			0.75
+		},
+		DMG_font = {
+			{
+				3,
+				1.3
+			},
+			{
+				4,
+				0.8
+			},
+			{
+				4,
+				0.8
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			100,
+			0,
+			100
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {
+			ignoreB = true,
+			ignoreShield = true,
+			lastTime = 0.4,
+			shrapnel = {
+				{
+					barrage_ID = 81111,
+					bullet_ID = 161089,
+					reaim = true,
+					emitterType = "BattleBulletEmitter"
+				},
+				FXID = ""
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161089] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "hu_gaoyinzidan",
+		type = 1,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "CLHit",
+		effect_type = 1,
+		id = 161089,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 200,
+		miss_fx = "None",
+		pierce_count = 0,
+		ammo_type = 3,
+		alert_fx = "",
+		velocity = 15,
+		damage_type = {
+			1.35,
+			0.75,
+			0.75
+		},
+		DMG_font = {
+			{
+				3,
+				1.3
+			},
+			{
+				4,
+				0.8
+			},
+			{
+				4,
+				0.8
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {
+			ignoreB = true,
+			ignoreShield = true
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161096] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "hu_xingxingpaodan",
+		type = 2,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "ShellHit",
+		effect_type = 1,
+		id = 161096,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 150,
+		miss_fx = "ShellMiss",
+		pierce_count = 0,
+		ammo_type = 3,
+		alert_fx = "",
+		velocity = 17,
+		damage_type = {
+			1.2,
+			0.8,
+			0.8
+		},
+		DMG_font = {
+			{
+				3,
+				1.2
+			},
+			{
+				4,
+				0.8
+			},
+			{
+				4,
+				0.8
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			2,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 17
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.4,
+			randomOffsetX = 30,
+			randomOffsetZ = 30,
+			diveFilter = {
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161097] = {
+		hit_sfx = "battle/torpedo-hit",
+		range_offset = 20,
+		modle_ID = "Torpedo01",
+		type = 3,
+		out_bound = 0,
+		antisub_enhancement = 1,
+		hit_fx = "TorpedoHit3",
+		effect_type = 1,
+		id = 161097,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 100,
+		miss_fx = "",
+		pierce_count = 0,
+		ammo_type = 4,
+		alert_fx = "TorAlert",
+		velocity = 4,
+		damage_type = {
+			0.8,
+			1,
+			1.3
+		},
+		DMG_font = {
+			{
+				3,
+				0.8
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.3
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 3
+		},
+		attach_buff = {},
+		extra_param = {
+			diveFilter = {
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161098] = {
+		hit_sfx = "battle/torpedo-hit",
+		range_offset = 20,
+		modle_ID = "yi14_huayulei",
+		type = 3,
+		out_bound = 0,
+		antisub_enhancement = 1,
+		hit_fx = "TorpedoHit3",
+		effect_type = 1,
+		id = 161098,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 100,
+		miss_fx = "",
+		pierce_count = 0,
+		ammo_type = 4,
+		alert_fx = "TorAlert",
+		velocity = 4,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				3,
+				0.8
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.3
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 3
+		},
+		attach_buff = {},
+		extra_param = {
+			diveFilter = {
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161099] = {
+		hit_sfx = "battle/torpedo-hit",
+		range_offset = 0,
+		modle_ID = "yichui_zhanji",
+		type = 3,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "TorpedoHit3",
+		effect_type = 1,
+		id = 161099,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 150,
+		miss_fx = "ShellMiss",
+		pierce_count = 0,
+		ammo_type = 4,
+		alert_fx = "TorAlert",
+		velocity = 8,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				3,
+				0.8
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.3
+			}
+		},
+		acceleration = {
+			{
+				u = 0.08,
+				v = 0,
+				flip = false,
+				t = 0
+			}
+		},
+		cld_box = {
+			7,
+			1,
+			7
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 7
+		},
+		attach_buff = {},
+		extra_param = {
+			diveFilter = {
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161230] = {
+		hit_sfx = "battle/hit",
+		range_offset = 20,
+		modle_ID = "None",
+		type = 2,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "antu_huojiguang",
+		effect_type = 1,
+		id = 161230,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 200,
+		miss_fx = "None",
+		pierce_count = 0,
+		ammo_type = 6,
+		alert_fx = "",
+		velocity = 0,
+		damage_type = {
+			1.5,
+			1.15,
+			0.95
+		},
+		DMG_font = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 35
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = 0,
+			targetOffsetZ = 13.42,
+			targetOffsetX = -6.71,
+			timeToExplode = 0.01,
+			offsetY = 1,
+			airdrop = true,
+			diveFilter = {
+				1,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161231] = {
+		hit_sfx = "battle/hit",
+		range_offset = 20,
+		modle_ID = "None",
+		type = 2,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "None",
+		effect_type = 1,
+		id = 161231,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 200,
+		miss_fx = "None",
+		pierce_count = 0,
+		ammo_type = 6,
+		alert_fx = "AlertArea",
+		velocity = 0,
+		damage_type = {
+			1.5,
+			1.15,
+			0.95
+		},
+		DMG_font = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 35
+		},
+		attach_buff = {
+			{
+				rant = 10000,
+				buff_id = 152835,
+				group_level = 1,
+				hit_ignore = true
+			}
+		},
+		extra_param = {
+			gravity = 0,
+			targetOffsetZ = 13.42,
+			targetOffsetX = -6.71,
+			timeToExplode = 0.01,
+			offsetY = 1,
+			airdrop = true,
+			diveFilter = {
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161232] = {
+		hit_sfx = "battle/hit",
+		range_offset = 20,
+		modle_ID = "None",
+		type = 2,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "antu_huojiguang",
+		effect_type = 1,
+		id = 161232,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 200,
+		miss_fx = "None",
+		pierce_count = 0,
+		ammo_type = 6,
+		alert_fx = "",
+		velocity = 0,
+		damage_type = {
+			1.5,
+			1.15,
+			0.95
+		},
+		DMG_font = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 35
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = 0,
+			targetOffsetZ = -13.42,
+			targetOffsetX = 6.71,
+			timeToExplode = 0.01,
+			offsetY = 1,
+			airdrop = true,
+			diveFilter = {
+				1,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161233] = {
+		hit_sfx = "battle/hit",
+		range_offset = 20,
+		modle_ID = "None",
+		type = 2,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "None",
+		effect_type = 1,
+		id = 161233,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 200,
+		miss_fx = "None",
+		pierce_count = 0,
+		ammo_type = 6,
+		alert_fx = "AlertArea",
+		velocity = 0,
+		damage_type = {
+			1.5,
+			1.15,
+			0.95
+		},
+		DMG_font = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 35
+		},
+		attach_buff = {
+			{
+				rant = 10000,
+				buff_id = 152835,
+				group_level = 1,
+				hit_ignore = true
+			}
+		},
+		extra_param = {
+			gravity = 0,
+			targetOffsetZ = -13.42,
+			targetOffsetX = 6.71,
+			timeToExplode = 0.01,
+			offsetY = 1,
+			airdrop = true,
+			diveFilter = {
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161234] = {
+		hit_sfx = "battle/hit",
+		range_offset = 20,
+		modle_ID = "None",
+		type = 2,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "antu_huojiguang",
+		effect_type = 1,
+		id = 161234,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 200,
+		miss_fx = "None",
+		pierce_count = 0,
+		ammo_type = 6,
+		alert_fx = "",
+		velocity = 0,
+		damage_type = {
+			1.5,
+			1.15,
+			0.95
+		},
+		DMG_font = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 35
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = 0,
+			targetOffsetZ = 13.42,
+			targetOffsetX = 6.71,
+			timeToExplode = 0.01,
+			offsetY = 1,
+			airdrop = true,
+			diveFilter = {
+				1,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161235] = {
+		hit_sfx = "battle/hit",
+		range_offset = 20,
+		modle_ID = "None",
+		type = 2,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "None",
+		effect_type = 1,
+		id = 161235,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 200,
+		miss_fx = "None",
+		pierce_count = 0,
+		ammo_type = 6,
+		alert_fx = "AlertArea",
+		velocity = 0,
+		damage_type = {
+			1.5,
+			1.15,
+			0.95
+		},
+		DMG_font = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 35
+		},
+		attach_buff = {
+			{
+				rant = 10000,
+				buff_id = 152835,
+				group_level = 1,
+				hit_ignore = true
+			}
+		},
+		extra_param = {
+			gravity = 0,
+			targetOffsetZ = 13.42,
+			targetOffsetX = 6.71,
+			timeToExplode = 0.01,
+			offsetY = 1,
+			airdrop = true,
+			diveFilter = {
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161236] = {
+		hit_sfx = "battle/hit",
+		range_offset = 20,
+		modle_ID = "None",
+		type = 2,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "antu_huojiguang",
+		effect_type = 1,
+		id = 161236,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 200,
+		miss_fx = "None",
+		pierce_count = 0,
+		ammo_type = 6,
+		alert_fx = "",
+		velocity = 0,
+		damage_type = {
+			1.5,
+			1.15,
+			0.95
+		},
+		DMG_font = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 35
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = 0,
+			targetOffsetZ = -13.42,
+			targetOffsetX = -6.71,
+			timeToExplode = 0.01,
+			offsetY = 1,
+			airdrop = true,
+			diveFilter = {
+				1,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161237] = {
+		hit_sfx = "battle/hit",
+		range_offset = 20,
+		modle_ID = "None",
+		type = 2,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "None",
+		effect_type = 1,
+		id = 161237,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 200,
+		miss_fx = "None",
+		pierce_count = 0,
+		ammo_type = 6,
+		alert_fx = "AlertArea",
+		velocity = 0,
+		damage_type = {
+			1.5,
+			1.15,
+			0.95
+		},
+		DMG_font = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 35
+		},
+		attach_buff = {
+			{
+				rant = 10000,
+				buff_id = 152835,
+				group_level = 1,
+				hit_ignore = true
+			}
+		},
+		extra_param = {
+			gravity = 0,
+			targetOffsetZ = -13.42,
+			targetOffsetX = -6.71,
+			timeToExplode = 0.01,
+			offsetY = 1,
+			airdrop = true,
+			diveFilter = {
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161238] = {
+		hit_sfx = "battle/hit",
+		range_offset = 20,
+		modle_ID = "None",
+		type = 2,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "antu_huojiguang",
+		effect_type = 1,
+		id = 161238,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 200,
+		miss_fx = "None",
+		pierce_count = 0,
+		ammo_type = 6,
+		alert_fx = "",
+		velocity = 0,
+		damage_type = {
+			1.5,
+			1.15,
+			0.95
+		},
+		DMG_font = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 35
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = 0,
+			targetOffsetZ = 6.71,
+			targetOffsetX = -13.42,
+			timeToExplode = 0.01,
+			offsetY = 1,
+			airdrop = true,
+			diveFilter = {
+				1,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161239] = {
+		hit_sfx = "battle/hit",
+		range_offset = 20,
+		modle_ID = "None",
+		type = 2,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "None",
+		effect_type = 1,
+		id = 161239,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 200,
+		miss_fx = "None",
+		pierce_count = 0,
+		ammo_type = 6,
+		alert_fx = "AlertArea",
+		velocity = 0,
+		damage_type = {
+			1.5,
+			1.15,
+			0.95
+		},
+		DMG_font = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 35
+		},
+		attach_buff = {
+			{
+				rant = 10000,
+				buff_id = 152835,
+				group_level = 1,
+				hit_ignore = true
+			}
+		},
+		extra_param = {
+			gravity = 0,
+			targetOffsetZ = 6.71,
+			targetOffsetX = -13.42,
+			timeToExplode = 0.01,
+			offsetY = 1,
+			airdrop = true,
+			diveFilter = {
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161240] = {
+		hit_sfx = "battle/hit",
+		range_offset = 20,
+		modle_ID = "None",
+		type = 2,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "antu_huojiguang",
+		effect_type = 1,
+		id = 161240,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 200,
+		miss_fx = "None",
+		pierce_count = 0,
+		ammo_type = 6,
+		alert_fx = "",
+		velocity = 0,
+		damage_type = {
+			1.5,
+			1.15,
+			0.95
+		},
+		DMG_font = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 35
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = 0,
+			targetOffsetZ = -6.71,
+			targetOffsetX = 13.42,
+			timeToExplode = 0.01,
+			offsetY = 1,
+			airdrop = true,
+			diveFilter = {
+				1,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161241] = {
+		hit_sfx = "battle/hit",
+		range_offset = 20,
+		modle_ID = "None",
+		type = 2,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "None",
+		effect_type = 1,
+		id = 161241,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 200,
+		miss_fx = "None",
+		pierce_count = 0,
+		ammo_type = 6,
+		alert_fx = "AlertArea",
+		velocity = 0,
+		damage_type = {
+			1.5,
+			1.15,
+			0.95
+		},
+		DMG_font = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 35
+		},
+		attach_buff = {
+			{
+				rant = 10000,
+				buff_id = 152835,
+				group_level = 1,
+				hit_ignore = true
+			}
+		},
+		extra_param = {
+			gravity = 0,
+			targetOffsetZ = -6.71,
+			targetOffsetX = 13.42,
+			timeToExplode = 0.01,
+			offsetY = 1,
+			airdrop = true,
+			diveFilter = {
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161242] = {
+		hit_sfx = "battle/hit",
+		range_offset = 20,
+		modle_ID = "None",
+		type = 2,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "antu_huojiguang",
+		effect_type = 1,
+		id = 161242,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 200,
+		miss_fx = "None",
+		pierce_count = 0,
+		ammo_type = 6,
+		alert_fx = "",
+		velocity = 0,
+		damage_type = {
+			1.5,
+			1.15,
+			0.95
+		},
+		DMG_font = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 35
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = 0,
+			targetOffsetZ = -6.71,
+			targetOffsetX = -13.42,
+			timeToExplode = 0.01,
+			offsetY = 1,
+			airdrop = true,
+			diveFilter = {
+				1,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161243] = {
+		hit_sfx = "battle/hit",
+		range_offset = 20,
+		modle_ID = "None",
+		type = 2,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "None",
+		effect_type = 1,
+		id = 161243,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 200,
+		miss_fx = "None",
+		pierce_count = 0,
+		ammo_type = 6,
+		alert_fx = "AlertArea",
+		velocity = 0,
+		damage_type = {
+			1.5,
+			1.15,
+			0.95
+		},
+		DMG_font = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 35
+		},
+		attach_buff = {
+			{
+				rant = 10000,
+				buff_id = 152835,
+				group_level = 1,
+				hit_ignore = true
+			}
+		},
+		extra_param = {
+			gravity = 0,
+			targetOffsetZ = -6.71,
+			targetOffsetX = -13.42,
+			timeToExplode = 0.01,
+			offsetY = 1,
+			airdrop = true,
+			diveFilter = {
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161244] = {
+		hit_sfx = "battle/hit",
+		range_offset = 20,
+		modle_ID = "None",
+		type = 2,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "antu_huojiguang",
+		effect_type = 1,
+		id = 161244,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 200,
+		miss_fx = "None",
+		pierce_count = 0,
+		ammo_type = 6,
+		alert_fx = "",
+		velocity = 0,
+		damage_type = {
+			1.5,
+			1.15,
+			0.95
+		},
+		DMG_font = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 35
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = 0,
+			targetOffsetZ = 6.71,
+			targetOffsetX = 13.42,
+			timeToExplode = 0.01,
+			offsetY = 1,
+			airdrop = true,
+			diveFilter = {
+				1,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161245] = {
+		hit_sfx = "battle/hit",
+		range_offset = 20,
+		modle_ID = "None",
+		type = 2,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "None",
+		effect_type = 1,
+		id = 161245,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 200,
+		miss_fx = "None",
+		pierce_count = 0,
+		ammo_type = 6,
+		alert_fx = "AlertArea",
+		velocity = 0,
+		damage_type = {
+			1.5,
+			1.15,
+			0.95
+		},
+		DMG_font = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 35
+		},
+		attach_buff = {
+			{
+				rant = 10000,
+				buff_id = 152835,
+				group_level = 1,
+				hit_ignore = true
+			}
+		},
+		extra_param = {
+			gravity = 0,
+			targetOffsetZ = 6.71,
+			targetOffsetX = 13.42,
+			timeToExplode = 0.01,
+			offsetY = 1,
+			airdrop = true,
+			diveFilter = {
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161246] = {
+		hit_sfx = "battle/hit",
+		range_offset = 20,
+		modle_ID = "None",
+		type = 2,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "antu_huojiguang",
+		effect_type = 1,
+		id = 161246,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 200,
+		miss_fx = "None",
+		pierce_count = 0,
+		ammo_type = 6,
+		alert_fx = "",
+		velocity = 0,
+		damage_type = {
+			1.5,
+			1.15,
+			0.95
+		},
+		DMG_font = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 35
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = 0,
+			timeToExplode = 0.01,
+			airdrop = true,
+			offsetY = 1,
+			diveFilter = {
+				1,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161247] = {
+		hit_sfx = "battle/hit",
+		range_offset = 20,
+		modle_ID = "None",
+		type = 2,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "None",
+		effect_type = 1,
+		id = 161247,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 200,
+		miss_fx = "None",
+		pierce_count = 0,
+		ammo_type = 6,
+		alert_fx = "AlertArea",
+		velocity = 0,
+		damage_type = {
+			1.5,
+			1.15,
+			0.95
+		},
+		DMG_font = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 35
+		},
+		attach_buff = {
+			{
+				rant = 10000,
+				buff_id = 152835,
+				group_level = 1,
+				hit_ignore = true
+			}
+		},
+		extra_param = {
+			gravity = 0,
+			timeToExplode = 0.01,
+			airdrop = true,
+			offsetY = 1,
+			diveFilter = {
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[161248] = {
+		hit_sfx = "battle/torpedo-hit",
+		range_offset = 20,
+		modle_ID = "Torpedo01",
+		type = 3,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "TorpedoHit3",
+		effect_type = 1,
+		id = 161248,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 150,
+		miss_fx = "",
+		pierce_count = 0,
+		ammo_type = 4,
+		alert_fx = "TorAlert",
+		velocity = 3,
+		damage_type = {
+			0.8,
+			1,
+			1.3
+		},
+		DMG_font = {
+			{
+				3,
+				0.8
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.3
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 3
+		},
+		attach_buff = {
+			{
+				rant = 10000,
+				buff_id = 152835,
+				group_level = 1,
+				hit_ignore = true
+			}
+		},
+		extra_param = {
+			diveFilter = {
+				2
+			}
+		}
 	}
 end)()
 
@@ -6918,6 +9033,71 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.bullet_template_2[168365] = {
+		hit_sfx = "battle/hit",
+		range_offset = 10,
+		modle_ID = "kuashe",
+		type = 2,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "ShellHit",
+		effect_type = 1,
+		id = 168365,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 80,
+		miss_fx = "ShellMissBig",
+		pierce_count = 0,
+		ammo_type = 1,
+		alert_fx = "AlertArea",
+		velocity = 16,
+		damage_type = {
+			1,
+			0.8,
+			0.6
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 8
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.07,
+			randomOffsetX = 16,
+			randomOffsetZ = 16,
+			diveFilter = {
+				2
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.bullet_template_2[168367] = {
 		hit_sfx = "battle/hit",
 		range_offset = 10,
@@ -12576,6 +14756,137 @@ end)()
 			{
 				3,
 				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 3
+		},
+		attach_buff = {},
+		extra_param = {
+			diveFilter = {
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[184601] = {
+		hit_sfx = "battle/hit",
+		range_offset = 20,
+		modle_ID = "Bomberbomb1000",
+		type = 2,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "ShellHit",
+		effect_type = 1,
+		id = 184601,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 200,
+		miss_fx = "ShellMissBig",
+		pierce_count = 0,
+		ammo_type = 6,
+		alert_fx = "AlertArea",
+		velocity = 1.5,
+		damage_type = {
+			0.8,
+			0.95,
+			1.15
+		},
+		DMG_font = {
+			{
+				3,
+				0.8
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.2
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 10
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.05,
+			launchVrtSpeed = -3,
+			airdrop = true,
+			offsetX = -5,
+			offsetY = 60,
+			randomOffsetX = 20,
+			randomOffsetZ = 20,
+			diveFilter = {
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_2[184621] = {
+		hit_sfx = "battle/torpedo-hit",
+		range_offset = 20,
+		modle_ID = "Torpedoairus",
+		type = 3,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "TorpedoHit3",
+		effect_type = 1,
+		id = 184621,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 200,
+		miss_fx = "",
+		pierce_count = 0,
+		ammo_type = 4,
+		alert_fx = "TorAlert",
+		velocity = 3,
+		damage_type = {
+			0.8,
+			1.1,
+			1.3
+		},
+		DMG_font = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.4
 			}
 		},
 		acceleration = {},

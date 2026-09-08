@@ -78,6 +78,8 @@ end
 function var_0_0.System2Controller(arg_10_0, arg_10_1, arg_10_2)
 	if arg_10_1 == CourtYardConst.SYSTEM_FEAST then
 		return CourtYardFeastController.New(arg_10_0, arg_10_2)
+	elseif arg_10_1 == CourtYardConst.SYSTEM_REVERSE_PACMAN then
+		return CourtYardReversePacmanController.New(arg_10_0, arg_10_2)
 	else
 		return CourtYardController.New(arg_10_0, arg_10_2)
 	end

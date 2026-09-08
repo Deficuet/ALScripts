@@ -547,4 +547,8 @@ function var_0_0.GetCvDataForShip(arg_33_0, arg_33_1)
 	return var_33_3, var_33_5, var_33_4, var_33_6, var_33_7, var_33_9
 end
 
+function var_0_0.GetShipWord(arg_34_0, arg_34_1, arg_34_2, arg_34_3)
+	return var_0_12(var_0_2[arg_34_0][arg_34_1], arg_34_2)
+end
+
 return var_0_0

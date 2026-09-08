@@ -145,59 +145,87 @@ function var_0_0.initNotificationHandleDic(arg_19_0)
 		end,
 		[GAME.SKIN_SHOPPIGN_DONE] = function(arg_22_0, arg_22_1)
 			local var_22_0 = arg_22_1:getBody()
-			local var_22_1 = pg.shop_template[var_22_0.id]
+			local var_22_1 = ShopConst.GetShopConfig(var_22_0.id)
 
 			if var_22_1 and (var_22_1.genre == ShopArgs.SkinShop or var_22_1.genre == ShopArgs.SkinShopTimeLimit) then
 				local var_22_2 = var_22_1.effect_args[1]
+				local var_22_3 = var_22_1.genre == ShopArgs.SkinShopTimeLimit
 
-				if pg.ship_skin_template[var_22_2].skin_type == ShipSkin.SKIN_TYPE_TB then
-					arg_22_0:addSubLayers(Context.New({
-						mediator = NewSkinTBMediator,
-						viewComponent = NewSkinTBLayer,
-						data = {
-							skinId = var_22_1.effect_args[1],
-							timeLimit = var_22_1.genre == ShopArgs.SkinShopTimeLimit
-						}
-					}))
-				elseif PaintingShowScene.GetSkinShowAble(var_22_2) then
-					arg_22_0:addSubLayers(Context.New({
-						mediator = PaintingShowMediator,
-						viewComponent = PaintingShowNewSkinScene,
-						data = {
-							is_shop = true,
-							skinId = var_22_2,
-							timeLimit = var_22_1.genre == ShopArgs.SkinShopTimeLimit
-						}
-					}))
-				else
-					arg_22_0:addSubLayers(Context.New({
-						mediator = NewSkinMediator,
-						viewComponent = NewSkinLayer,
-						data = {
-							skinId = var_22_1.effect_args[1],
-							timeLimit = var_22_1.genre == ShopArgs.SkinShopTimeLimit
-						}
-					}))
+				arg_22_0:HandleNewSkin(var_22_0.id, var_22_2, var_22_3)
+			end
+		end,
+		[GAME.SKIN_BY_CHARGE_DONE] = function(arg_23_0, arg_23_1)
+			local var_23_0 = arg_23_1:getBody()
+			local var_23_1 = arg_23_0.viewComponent.commodities or {}
+			local var_23_2 = 0
+
+			for iter_23_0, iter_23_1 in ipairs(var_23_1) do
+				if var_23_0.skinId == iter_23_1:getSkinId() then
+					var_23_2 = iter_23_1.id
+
+					break
 				end
+			end
 
-				arg_22_0.viewComponent:OnShopping(var_22_0.id)
-				pg.EasyRedDotMgr.GetInstance():TriggerMarks("specialShop")
+			print(var_23_0.skinId, var_23_2)
+
+			if var_23_2 > 0 then
+				arg_23_0:HandleNewSkin(var_23_2, var_23_0.skinId, false)
 			end
 		end,
 		[GAME.SKIN_COUPON_SHOPPING_DONE] = GAME.SKIN_SHOPPIGN_DONE,
-		[GAME.BUY_FURNITURE_DONE] = function(arg_23_0, arg_23_1)
-			local var_23_0 = arg_23_1:getType()
+		[GAME.BUY_FURNITURE_DONE] = function(arg_24_0, arg_24_1)
+			local var_24_0 = arg_24_1:getType()
 
-			arg_23_0.viewComponent:OnFurnitureUpdate(var_23_0[1])
+			arg_24_0.viewComponent:OnFurnitureUpdate(var_24_0[1])
 		end,
-		[NewShopMainMediator.NOTI_UPDATE_CURRENT] = function(arg_24_0, arg_24_1)
-			arg_24_0.viewComponent:GetAllCommodities()
-			arg_24_0.viewComponent:Refresh(true)
+		[NewShopMainMediator.NOTI_UPDATE_CURRENT] = function(arg_25_0, arg_25_1)
+			arg_25_0.viewComponent:GetAllCommodities()
+			arg_25_0.viewComponent:Refresh(true)
 		end,
-		[GAME.CHARGE_OPERATION_DONE] = function(arg_25_0, arg_25_1)
-			arg_25_0.viewComponent:closeView()
+		[GAME.CHARGE_OPERATION_DONE] = function(arg_26_0, arg_26_1)
+			local var_26_0 = arg_26_1:getBody().shopId
+
+			if not getProxy(ShopsProxy):IsSkinTypeCharge(var_26_0) then
+				arg_26_0.viewComponent:closeView()
+			end
 		end
 	}
+end
+
+function var_0_0.HandleNewSkin(arg_27_0, arg_27_1, arg_27_2, arg_27_3)
+	if pg.ship_skin_template[arg_27_2].skin_type == ShipSkin.SKIN_TYPE_TB then
+		arg_27_0:addSubLayers(Context.New({
+			mediator = NewSkinTBMediator,
+			viewComponent = NewSkinTBLayer,
+			data = {
+				skinId = arg_27_2,
+				timeLimit = arg_27_3
+			}
+		}))
+	elseif PaintingShowScene.GetSkinShowAble(arg_27_2) then
+		arg_27_0:addSubLayers(Context.New({
+			mediator = PaintingShowMediator,
+			viewComponent = PaintingShowNewSkinScene,
+			data = {
+				is_shop = true,
+				skinId = arg_27_2,
+				timeLimit = arg_27_3
+			}
+		}))
+	else
+		arg_27_0:addSubLayers(Context.New({
+			mediator = NewSkinMediator,
+			viewComponent = NewSkinLayer,
+			data = {
+				skinId = arg_27_2,
+				timeLimit = arg_27_3
+			}
+		}))
+	end
+
+	arg_27_0.viewComponent:OnShopping(arg_27_1)
+	pg.EasyRedDotMgr.GetInstance():TriggerMarks("specialShop")
 end
 
 return var_0_0

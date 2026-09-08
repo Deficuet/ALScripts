@@ -3,7 +3,6 @@ local var_0_0 = class("MainUrgencySceneSequence")
 function var_0_0.Execute(arg_1_0, arg_1_1)
 	local var_1_0 = {
 		"SkipToActivity",
-		"SkipToReFluxActivity",
 		"SkipToTechnology"
 	}
 
@@ -34,22 +33,10 @@ function var_0_0.SkipToActivity(arg_3_0)
 	return true
 end
 
-function var_0_0.SkipToReFluxActivity(arg_4_0)
-	local var_4_0 = getProxy(RefluxProxy)
+function var_0_0.SkipToTechnology(arg_4_0)
+	local var_4_0 = getProxy(PlayerProxy):getRawData().level
 
-	if var_4_0:isCanSign() and var_4_0:isInRefluxTime() then
-		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.REFLUX)
-
-		return false
-	end
-
-	return true
-end
-
-function var_0_0.SkipToTechnology(arg_5_0)
-	local var_5_0 = getProxy(PlayerProxy):getRawData().level
-
-	if not LOCK_TECHNOLOGY and pg.SystemOpenMgr.GetInstance():isOpenSystem(var_5_0, "TechnologyMediator") and not pg.NewStoryMgr.GetInstance():IsPlayed("FANGAN1") then
+	if not LOCK_TECHNOLOGY and pg.SystemOpenMgr.GetInstance():isOpenSystem(var_4_0, "TechnologyMediator") and not pg.NewStoryMgr.GetInstance():IsPlayed("FANGAN1") then
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SELTECHNOLOGY)
 		pg.NewStoryMgr.GetInstance():Play("FANGAN1", function()
 			return

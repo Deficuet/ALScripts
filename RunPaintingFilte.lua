@@ -74,15 +74,22 @@ function var_0_0.IsNormalShopMatch(arg_7_0)
 	local var_7_1 = var_7_0.genre
 	local var_7_2 = var_7_0.time
 
-	if var_7_1 == "skin_shop" then
+	if var_7_1 == ShopArgs.SkinShop then
 		if type(var_7_2) == "string" and var_7_2 == "always" then
 			return true
 		elseif type(var_7_2) == "table" then
-			local var_7_3 = var_0_0.GetStandardTimeConfig(var_7_2)
-			local var_7_4 = var_0_0.GetfilteTime()
+			local var_7_3 = {
+				var_7_0.time,
+				unpack(var_7_0.time_new)
+			}
 
-			if var_0_0.IsTwoTimeCross(var_7_4, var_7_3) then
-				return true
+			for iter_7_0, iter_7_1 in ipairs(var_7_3) do
+				local var_7_4 = var_0_0.GetStandardTimeConfig(iter_7_1)
+				local var_7_5 = var_0_0.GetfilteTime()
+
+				if var_0_0.IsTwoTimeCross(var_7_5, var_7_4) then
+					return true
+				end
 			end
 		end
 	end
@@ -271,7 +278,7 @@ function var_0_0.GetNPCShipConfigIDList()
 end
 
 function var_0_0.GetSkinIDFromNormalShopID(arg_21_0)
-	local var_21_0 = pg.shop_template[arg_21_0].effect_args
+	local var_21_0 = ShopConst.GetShopConfig(arg_21_0).effect_args
 
 	assert(#var_21_0 == 1, "shop_template的effect_args字段,元素个数大于1,ID:", arg_21_0)
 

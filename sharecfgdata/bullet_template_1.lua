@@ -569979,19 +569979,7 @@ end)()
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {
-			lastTime = 0.01,
-			fragile = 1,
-			shrapnel = {
-				{
-					inheritAngle = 1,
-					bullet_ID = 3049403,
-					barrage_ID = 3049402,
-					emitterType = "BattleBulletEmitter"
-				},
-				FXID = ""
-			}
-		}
+		extra_param = {}
 	}
 end)()
 

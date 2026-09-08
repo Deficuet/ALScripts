@@ -163,7 +163,9 @@ function var_0_0.handleNotification(arg_17_0, arg_17_1)
 	elseif var_17_0 == GAME.LOAD_LAYERS then
 		-- block empty
 	elseif var_17_0 == GAME.REMOVE_LAYERS then
-		arg_17_0.viewComponent:OnRemoveLayer(var_17_1)
+		if arg_17_0.viewComponent.OnRemoveLayer then
+			arg_17_0.viewComponent:OnRemoveLayer(var_17_1)
+		end
 	elseif var_17_0 == CourtYardEvent._NO_POS_TO_ADD_SHIP then
 		arg_17_0:sendNotification(GAME.EXIT_SHIP, {
 			shipId = var_17_1
@@ -304,7 +306,7 @@ end
 function var_0_0.OnExtend(arg_21_0)
 	if getProxy(BagProxy):getItemCountById(ITEM_BACKYARD_AREA_EXTEND) <= 0 then
 		local var_21_0 = getProxy(DormProxy):getRawData():GetExpandId()
-		local var_21_1 = pg.shop_template[var_21_0]
+		local var_21_1 = ShopConst.GetShopConfig(var_21_0)
 		local var_21_2 = Drop.New({
 			type = DROP_TYPE_RESOURCE,
 			id = var_21_1.resource_type
@@ -356,6 +358,9 @@ function var_0_0.GenCourtYardData(arg_24_0, arg_24_1)
 	elseif var_24_0 == CourtYardConst.SYSTEM_EDIT_FEAST then
 		var_24_1 = getProxy(DormProxy):getRawData()
 		var_24_2 = CourtYardConst.STYLE_FEAST
+	elseif var_24_0 == CourtYardConst.SYSTEM_REVERSE_PACMAN then
+		var_24_1 = getProxy(ReversePacmanDormProxy):getRawData()
+		var_24_2 = CourtYardConst.STYLE_REVERSE_PACMAN
 	end
 
 	local var_24_3 = var_24_1:GetMapSize()

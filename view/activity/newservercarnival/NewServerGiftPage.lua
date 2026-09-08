@@ -121,29 +121,27 @@ function var_0_0.updateGiftGoodsVOList(arg_14_0)
 	arg_14_0.normalList = getProxy(ShopsProxy):GetNormalList()
 	arg_14_0.giftGoodsVOList = {}
 
-	local var_14_0 = pg.shop_template
-
 	for iter_14_0, iter_14_1 in pairs(arg_14_0.goodIdList) do
-		local var_14_1 = Goods.Create({
+		local var_14_0 = Goods.Create({
 			shop_id = iter_14_1
 		}, Goods.TYPE_NEW_SERVER)
 
-		table.insert(arg_14_0.giftGoodsVOList, var_14_1)
+		table.insert(arg_14_0.giftGoodsVOList, var_14_0)
 	end
 
-	local var_14_2 = {}
+	local var_14_1 = {}
 
 	for iter_14_2, iter_14_3 in ipairs(arg_14_0.giftGoodsVOList) do
-		local var_14_3 = ChargeConst.getBuyCount(arg_14_0.normalList, iter_14_3.id)
+		local var_14_2 = ChargeConst.getBuyCount(arg_14_0.normalList, iter_14_3.id)
 
-		iter_14_3:updateBuyCount(var_14_3)
+		iter_14_3:updateBuyCount(var_14_2)
 
 		if iter_14_3:canPurchase() then
-			table.insert(var_14_2, iter_14_3)
+			table.insert(var_14_1, iter_14_3)
 		end
 	end
 
-	arg_14_0.giftGoodsVOList = var_14_2
+	arg_14_0.giftGoodsVOList = var_14_1
 end
 
 function var_0_0.isTip(arg_15_0)

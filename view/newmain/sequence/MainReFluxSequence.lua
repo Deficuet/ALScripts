@@ -50,6 +50,8 @@ function var_0_0.PlayReFluxCG(arg_7_0, arg_7_1)
 	local var_7_0 = getProxy(RefluxProxy)
 	local var_7_1 = var_7_0:GetRefluxBgs()
 
+	var_0_0.GUIDE_FLAG = true
+
 	if #var_7_1 < 4 then
 		arg_7_1()
 
@@ -61,8 +63,6 @@ function var_0_0.PlayReFluxCG(arg_7_0, arg_7_1)
 
 		return
 	end
-
-	var_0_0.GUIDE_FLAG = true
 
 	local var_7_2 = RefluxAnimationPlayer.New(pg.UIMgr.GetInstance().OverlayUITop)
 

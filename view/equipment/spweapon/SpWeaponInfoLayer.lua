@@ -314,26 +314,53 @@ function var_0_0.updateEquipmentPanel(arg_25_0, arg_25_1, arg_25_2, arg_25_3)
 		setActive(arg_26_0, tostring(var_25_5) == arg_26_0.gameObject.name)
 	end)
 	updateSpWeaponInfo(var_25_0:Find("attributes/view/content"), arg_25_3, arg_25_2:GetSkillGroup())
+
+	local var_25_6 = arg_25_1:Find("info/unique")
+
+	setActive(var_25_6, arg_25_2:IsUnique())
+
+	if arg_25_2:IsUnique() then
+		arg_25_0:updateUnique(var_25_6, arg_25_2)
+	end
 end
 
-function var_0_0.cloneSampleTo(arg_27_0, arg_27_1, arg_27_2, arg_27_3, arg_27_4)
-	local var_27_0 = cloneTplTo(arg_27_0.sample, arg_27_1, arg_27_3)
+function var_0_0.updateUnique(arg_27_0, arg_27_1, arg_27_2)
+	local var_27_0 = arg_27_1:Find("btn_skip")
+	local var_27_1 = arg_27_2:GetUniqueShips()
+	local var_27_2 = ShipGroup.getDefaultShipConfig(arg_27_2:GetUniqueGroup())
+	local var_27_3 = Ship.New({
+		configId = var_27_2.id
+	})
 
-	var_27_0.localPosition = Vector3.New(var_0_0.pos[arg_27_2][1], var_0_0.pos[arg_27_2][2], var_0_0.pos[arg_27_2][3])
+	setImageSprite(arg_27_1:Find("head/icon"), LoadSprite("SquareIcon/" .. var_27_3:getPainting()))
+	setText(arg_27_1:Find("title"), i18n("spweapon_unique_title"))
+	setText(arg_27_1:Find("btn_skip/text"), i18n("spweapon_tip_jump"))
+	onButton(arg_27_0, var_27_0, function()
+		arg_27_0:emit(SpWeaponInfoMediator.ON_SKIP_UNIQUE_SHIPS, {
+			shipId = var_27_3.id,
+			shipVOs = var_27_1
+		})
+	end)
+end
 
-	if arg_27_4 then
-		var_27_0:SetSiblingIndex(arg_27_4)
+function var_0_0.cloneSampleTo(arg_29_0, arg_29_1, arg_29_2, arg_29_3, arg_29_4)
+	local var_29_0 = cloneTplTo(arg_29_0.sample, arg_29_1, arg_29_3)
+
+	var_29_0.localPosition = Vector3.New(var_0_0.pos[arg_29_2][1], var_0_0.pos[arg_29_2][2], var_0_0.pos[arg_29_2][3])
+
+	if arg_29_4 then
+		var_29_0:SetSiblingIndex(arg_29_4)
 	end
 
-	return var_27_0
+	return var_29_0
 end
 
-function var_0_0.willExit(arg_28_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_28_0._tf)
+function var_0_0.willExit(arg_30_0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_30_0._tf)
 end
 
-function var_0_0.onBackPressed(arg_29_0)
-	arg_29_0:closeView()
+function var_0_0.onBackPressed(arg_31_0)
+	arg_31_0:closeView()
 end
 
 return var_0_0

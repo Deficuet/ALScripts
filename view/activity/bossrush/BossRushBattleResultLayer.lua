@@ -257,6 +257,8 @@ function var_0_0.didEnter(arg_7_0)
 				end
 
 				setText(var_16_9, "+" .. var_16_11 + var_16_0:getExp() - var_16_1:getExp())
+			elseif var_16_1.level == var_16_1:getMaxLevel() then
+				setText(var_16_9, "+" .. 0)
 			else
 				setText(var_16_9, "+" .. (var_16_1.expAdd or 0))
 			end
@@ -422,6 +424,7 @@ function var_0_0.didEnter(arg_7_0)
 			local var_25_1 = var_7_1[var_25_0.index]
 
 			var_7_23(arg_25_2, var_25_0, var_25_1, var_25_0.index)
+			warning("yzh----RefreshExps--")
 			var_7_21(arg_25_2:Find("BG/Ships"), var_25_0.ships, var_25_0.oldShips, var_25_0.mvp)
 		end)
 	end

@@ -3,7 +3,8 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onAttach"
+				"onAttach",
+				"onStack"
 			},
 			arg_list = {
 				skill_id = 152722
@@ -12,7 +13,8 @@ return {
 		{
 			type = "BattleBuffCleanse",
 			trigger = {
-				"onAttach"
+				"onAttach",
+				"onStack"
 			},
 			arg_list = {
 				buff_id_list = {

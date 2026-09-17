@@ -92,40 +92,47 @@ function var_0_0.createPicInfo(arg_5_0, arg_5_1)
 end
 
 function var_0_0.getRandomLoadingPic()
-	if not getProxy(LoadingPicProxy) then
+	local var_6_0 = getProxy(LoadingPicProxy)
+
+	if not var_6_0 then
 		return nil
 	end
 
-	local var_6_0 = getProxy(LoadingPicProxy):getGalleryPicIDList()
-	local var_6_1 = getProxy(LoadingPicProxy):getMangaPicIDList()
-	local var_6_2 = AppreciatePicConst.filterExistGalleryPicIDList(var_6_0)
-	local var_6_3 = AppreciatePicConst.filterExistMangaPicIDList(var_6_1)
-	local var_6_4 = getProxy(LoadingPicProxy):getDiyModeOpenFlag()
-	local var_6_5 = #var_6_2 + #var_6_3
-
-	if not var_6_4 or var_6_5 == 0 then
-		var_6_2 = var_0_0.getDefaultGalleryPicIDList()
-		var_6_3 = {}
+	if not var_6_0:getDiyModeOpenFlag() then
+		return {
+			type = var_0_0.TYPE_GALLERY,
+			path = "loadingbg/bg_" .. math.random(1, var_0_0.MAX_COUNT)
+		}
 	end
 
-	local var_6_6 = #var_6_2 + #var_6_3
+	local var_6_1 = var_6_0:getGalleryPicIDList()
+	local var_6_2 = var_6_0:getMangaPicIDList()
+	local var_6_3 = AppreciatePicConst.filterExistGalleryPicIDList(var_6_1)
+	local var_6_4 = AppreciatePicConst.filterExistMangaPicIDList(var_6_2)
 
-	assert(var_6_6 > 0, "loading pic count should be greater than 0")
+	if #var_6_3 + #var_6_4 == 0 then
+		var_6_3 = var_0_0.getDefaultGalleryPicIDList()
+		var_6_4 = {}
+	end
 
-	local var_6_7
-	local var_6_8 = math.random(1, var_6_6)
+	local var_6_5 = #var_6_3 + #var_6_4
 
-	if var_6_8 <= #var_6_2 then
-		local var_6_9 = var_6_2[var_6_8]
+	assert(var_6_5 > 0, "loading pic count should be greater than 0")
 
-		var_6_7 = var_0_0.createPicInfo(var_0_0.TYPE_GALLERY, var_6_9)
+	local var_6_6
+	local var_6_7 = math.random(1, var_6_5)
+
+	if var_6_7 <= #var_6_3 then
+		local var_6_8 = var_6_3[var_6_7]
+
+		var_6_6 = var_0_0.createPicInfo(var_0_0.TYPE_GALLERY, var_6_8)
 	else
-		local var_6_10 = var_6_3[var_6_8 - #var_6_2]
+		local var_6_9 = var_6_4[var_6_7 - #var_6_3]
 
-		var_6_7 = var_0_0.createPicInfo(var_0_0.TYPE_MANGA, var_6_10)
+		var_6_6 = var_0_0.createPicInfo(var_0_0.TYPE_MANGA, var_6_9)
 	end
 
-	return var_6_7
+	return var_6_6
 end
 
 function var_0_0.checkDownloadMissingPic(arg_7_0)

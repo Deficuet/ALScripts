@@ -482,7 +482,7 @@ function var_0_0.IsEliteFleetLegal(arg_50_0)
 		end
 	end
 
-	if var_50_0 == 0 then
+	if defaultValue(var_50_0[FleetType.Normal], 0) == 0 then
 		return false, i18n("elite_disable_no_fleet")
 	end
 

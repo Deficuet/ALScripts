@@ -785,7 +785,7 @@ pg.base.activity_chasing_character = {}
 	}
 	pg.base.activity_chasing_character[6] = {
 		ai_pickup_weight = 5,
-		name = "白凤",
+		name = "{namecode:302}",
 		love_point = 1,
 		type = 1,
 		max_speed = 400,

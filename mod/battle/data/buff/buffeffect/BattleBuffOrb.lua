@@ -36,7 +36,8 @@ function var_0_1.attachOrb(arg_4_0, arg_4_1)
 		buff_id = arg_4_0._buffID,
 		rant = arg_4_0._rant,
 		level = arg_4_0._level,
-		buff_level = arg_4_0._buffLevel
+		buff_level = arg_4_0._buffLevel,
+		group_level = arg_4_0._level
 	}
 
 	arg_4_1:AppendAttachBuff(var_4_0)

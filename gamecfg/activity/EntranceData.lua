@@ -392,7 +392,9 @@ return {
 			return not LOCK_PERMANENT_ENTER
 		end,
 		isTip = function()
-			return PlayerPrefs.GetString("permanent_time", "") ~= pg.gameset.permanent_mark.description
+			local var_33_0 = ActivityConst.GetLatestPermanentActivityIds()
+
+			return PlayerPrefs.GetInt("permanent_times", 0) ~= #var_33_0
 		end
 	},
 	{

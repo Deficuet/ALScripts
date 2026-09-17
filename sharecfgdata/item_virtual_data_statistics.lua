@@ -205860,6 +205860,63 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[86231] = {
+		display = "不会被看到",
+		name = "随机换装",
+		drop_arg = "",
+		type = 98,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 0,
+		id = 86231,
+		link_id = 0,
+		icon = "Props/clothIcon",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {
+			{
+				299035,
+				1200
+			},
+			{
+				307162,
+				1200
+			},
+			{
+				307053,
+				1400
+			},
+			{
+				403113,
+				1400
+			},
+			{
+				101267,
+				1800
+			},
+			{
+				231211,
+				1500
+			},
+			{
+				101532,
+				1500
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[86411] = {
 		display = "不会被看到",
 		name = "随机换装",
